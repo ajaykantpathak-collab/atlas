@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_005",
+   "title": "c12_phy_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the formula for the electrostatic potential energy of a system of two point charges \\(q_1\\) and \\(q_2\\) separated by distance \\(r\\) in vacuum. What is the SI unit of this energy?",
+     "a": "\\(U = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r}\\), SI unit: joule (J). A wrong answer (e.g., missing \\(4\\pi\\varepsilon_0\\), using \\(r^2\\), or giving unit as eV without conversion) reveals the student has not memorised the exact Coulomb-law-derived expression or confuses it with force or potential formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Two charges \\(+q\\) and \\(-q\\) are placed at a distance \\(d\\). A third charge \\(+q\\) is brought from infinity to the midpoint of the line joining them. Is the work done by the external agent positive, negative, or zero? Explain without calculation.",
+     "a": "Zero. At the midpoint, the potentials due to \\(+q\\) and \\(-q\\) are equal in magnitude and opposite in sign, so net potential \\(V=0\\). Work done \\(= qV = 0\\). A student answering \"positive\" or \"negative\" is likely thinking of forces (which do not cancel at the midpoint) rather than potential (a scalar that adds algebraically). This exposes the common force-vs-potential confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the electrostatic potential energy of a system of three charges: \\(q_1 = +2\\,\\mu\\text{C}\\) at \\((0,0)\\), \\(q_2 = -3\\,\\mu\\text{C}\\) at \\((4\\,\\text{cm}, 0)\\), and \\(q_3 = +1\\,\\mu\\text{C}\\) at \\((0, 3\\,\\text{cm})\\). Use \\(\\frac{1}{4\\pi\\varepsilon_0} = 9\\times10^9\\,\\text{N·m}^2/\\text{C}^2\\).",
+     "a": "**Step 1:** Convert all distances to metres: \\(r_{12}=0.04\\,\\text{m}\\), \\(r_{13}=0.03\\,\\text{m}\\), \\(r_{23}=\\sqrt{0.04^2+0.03^2}=0.05\\,\\text{m}\\).  \n**Step 2:** Write pair energies:  \n\\(U_{12} = 9\\times10^9 \\frac{(2\\times10^{-6})(-3\\times10^{-6})}{0.04} = -1.35\\,\\text{J}\\)  \n\\(U_{13} = 9\\times10^9 \\frac{(2\\times10^{-6})(1\\times10^{-6})}{0.03} = +0.60\\,\\text{J}\\)  \n\\(U_{23} = 9\\times10^9 \\frac{(-3\\times10^{-6})(1\\times10^{-6})}{0.05} = -0.54\\,\\text{J}\\)  \n**Step 3:** Sum: \\(U = -1.35 + 0.60 - 0.54 = -1.29\\,\\text{J}\\).  \nA wrong answer often comes from missing a pair, sign errors, or using cm without conversion. The negative result means the system is bound (net attraction).",
+     "self_check": true
+    },
+    {
+     "q": "A system of two charges \\(q_1\\) and \\(q_2\\) has potential energy \\(U\\). If both charges are doubled and their separation is halved, what is the new potential energy in terms of \\(U\\)?",
+     "a": "Original: \\(U = k \\frac{q_1 q_2}{r}\\). New: \\(U' = k \\frac{(2q_1)(2q_2)}{r/2} = k \\frac{4q_1 q_2}{r/2} = 8k \\frac{q_1 q_2}{r} = 8U\\).  \nA student answering \\(4U\\) or \\(2U\\) has missed the combined effect of charge doubling (factor 4) and distance halving (factor 2). This tests scaling reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The potential energy of a dipole in a uniform electric field is \\(U = -pE\\cos\\theta\\). If I rotate the dipole from \\(\\theta=0^\\circ\\) to \\(\\theta=180^\\circ\\), the change in potential energy is zero because \\(\\cos 0^\\circ = 1\\) and \\(\\cos 180^\\circ = -1\\), so \\(U\\) goes from \\(-pE\\) to \\(+pE\\), a change of \\(2pE\\).\" Evaluate this statement.",
+     "a": "The student's calculation of the change is correct (\\(\\Delta U = +2pE\\)), but the claim \"change is zero\" is false. The error is in the final verbal conclusion contradicting the computed numbers. This reveals a lack of attention to the meaning of \"change\" and possible confusion between \"change\" and \"final value\". The correct change is \\(+2pE\\) (energy increases).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine whether the electrostatic potential energy of a system of three charges depends on the order in which they are assembled. Describe the steps and the expected outcome.",
+     "a": "**Steps:** (1) Assemble charges \\(q_1, q_2, q_3\\) in order A→B→C, compute work done at each step, sum to get \\(U_1\\). (2) Assemble same charges in a different order (e.g., B→C→A), compute work done, sum to get \\(U_2\\). (3) Compare \\(U_1\\) and \\(U_2\\).  \n**Expected outcome:** \\(U_1 = U_2\\) because electrostatic force is conservative; potential energy is a state function depending only on final configuration. A poor answer would suggest the order matters or would not invoke path-independence/conservative nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

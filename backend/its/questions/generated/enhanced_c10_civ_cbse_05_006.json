@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_006",
+   "title": "c10_civ_cbse_05_006",
+   "questions": [
+    {
+     "q": "Name two alternative forms of government to democracy that were studied in Class 6 and Class 7, and state one key feature of each.",
+     "a": "Monarchy (rule by a king/queen, often hereditary) and dictatorship (rule by force, no free elections). A wrong answer (e.g., naming \"oligarchy\" or \"theocracy\" without textbook basis) reveals the student has not retained the basic classification of governments taught in c6_civics_ch11_010 and c7_civ_ch01_003/006.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why democracy is considered more legitimate than a dictatorship, even if the dictatorship delivers faster economic growth.",
+     "a": "Legitimacy in democracy derives from free, fair, and regular elections (Article 326, universal adult franchise) where citizens consent to be governed; dictatorship lacks this consent mechanism. A wrong answer focusing only on economic outcomes shows the student confuses performance legitimacy with procedural legitimacy, a core distinction in c9_civ_ch1_7 and c10_civ_cbse_05_001.",
+     "self_check": true
+    },
+    {
+     "q": "A country switches from democracy to military rule. The new regime claims it will reduce corruption by removing political parties. Using concepts from this chapter, analyze whether this claim is likely to hold.",
+     "a": "Unlikely. Without electoral accountability (c10_civ_cbse_05_001), transparency mechanisms like RTI (c9_civ_ch1_12), and independent judiciary (c8_civ_ch3_4), corruption often increases as power concentrates. A wrong answer accepting the claim reveals the student overlooks institutional checks that democracy provides, confusing absence of political competition with absence of corruption.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how democracy and monarchy handle social diversity. Use the concept of \"accommodation\" from c10_civ_cbse_05_004.",
+     "a": "Democracy accommodates diversity through power-sharing (federalism, linguistic states), representation of minorities, and constitutional safeguards (Fundamental Rights). Monarchy typically imposes uniformity or privileges one group. A wrong answer stating monarchy accommodates diversity better shows confusion between stability through suppression and genuine accommodation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Democracy is inferior to dictatorship because it cannot take tough economic decisions quickly.\" Consider evidence from c10_civ_cbse_05_002 and c10_civ_cbse_05_003.",
+     "a": "The argument is flawed. While dictatorships may decide faster, democracies achieve more sustainable and equitable growth (c10_civ_cbse_05_002) and reduce poverty through inclusive policies (c10_civ_cbse_05_003). Speed does not guarantee better outcomes. A wrong answer agreeing with the argument indicates the student prioritizes speed over equity and ignores empirical evidence from India’s democratic development.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph speech for a school assembly explaining why India should remain a democracy despite its weaknesses, using at least three specific strengths from this chapter.",
+     "a": "A strong speech will cite: (1) accountability through elections (c10_civ_cbse_05_001), (2) accommodation of diversity (c10_civ_cbse_05_004), and (3) dignity and freedom of citizens (c10_civ_cbse_05_005). A poor speech lists vague ideals without linking to chapter outcomes, showing the student cannot synthesize the comparative strengths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

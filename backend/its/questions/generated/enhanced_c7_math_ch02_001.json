@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_001",
+   "title": "c7_math_ch02_001",
+   "questions": [
+    {
+     "q": "In the arithmetic expression $15 + 4 \\times 3 - 8$, how many terms are separated by addition and subtraction signs?",
+     "a": "The correct answer is 3 terms ($15$, $4 \\times 3$, and $8$). A wrong answer usually shows that the student is counting every number or every operation sign individually rather than recognizing that multiplication binds numbers together into a single term.",
+     "self_check": true
+    },
+    {
+     "q": "Why is $7 \\times 5$ considered a single term in the expression $12 + 7 \\times 5 - 3$, rather than two separate terms?",
+     "a": "The correct answer is that multiplication and division symbols bind numbers tightly together, forming a single indivisible product that acts as one component before addition and subtraction take place. A wrong answer suggests the student thinks every number separated by *any* symbol is a separate term, confusing operational hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the terms in the arithmetic expression $50 - 12 \\div 4 + 6 \\times 2$ and evaluate the value of the second term.",
+     "a": "The expression has three terms: $50$, $12 \\div 4$, and $6 \\times 2$. The second term is $12 \\div 4$, which evaluates to $3$. A wrong answer often comes from failing to treat $12 \\div 4$ as a single operational block, or miscalculating division using basic multiplication facts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions $E_1 = 40 - 5 \\times 6$ and $E_2 = (40 - 5) \\times 6$. Explain why their terms and final values are completely different.",
+     "a": "In $E_1$, the terms are $40$ and $5 \\times 6$, giving $40 - 30 = 10$. In $E_2$, the parentheses alter the structure entirely, making $(40 - 5)$ a single quantity multiplied by $6$, yielding $35 \\times 6 = 210$. A wrong answer indicates the student ignores grouping symbols and assumes parentheses do not change term structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates the expression $24 + 8 \\div 4 \\times 2$ by calculating the first term as $24$, the second term as $8 \\div 4 = 2$, and then multiplying by $2$ to get $4$. Find the error in this interpretation of terms and operations.",
+     "a": "The student correctly identified the terms as $24$ and $(8 \\div 4 \\times 2)$, but inside the second term, they must follow left-to-right priority for multiplication and division ($8 \\div 4 = 2$, then $2 \\times 2 = 4$), making the terms $24$ and $4$, which sum to $28$. A wrong answer shows the student does not understand that multi-operation terms require strict operational rules within themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an arithmetic expression that has exactly four terms, involves addition, subtraction, and multiplication, and evaluates to a total value of 50.",
+     "a": "A valid constructed expression is $10 + 20 + 3 \\times 5 + 5$. Checking the terms: $10$, $20$, $3 \\times 5$ (which is $15$), and $5$. Their sum is $10 + 20 + 15 + 5 = 50$. A poor answer creates an expression where terms are incorrectly bounded or whose evaluation does not equal 50.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

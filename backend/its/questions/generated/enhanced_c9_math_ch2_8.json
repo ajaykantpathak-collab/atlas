@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_8",
+   "title": "c9_math_ch2_8",
+   "questions": [
+    {
+     "q": "State the first step in solving the pair of linear equations 4x + 5y = 23 and 2x - 3y = 7 using the substitution method. Do not solve the equations.",
+     "a": "The first step is to choose one equation and solve it for one variable in terms of the other — for example, from 4x + 5y = 23, write x = (23 - 5y)/4 or y = (23 - 4x)/5. A wrong answer like \"add the two equations\" or \"multiply the first equation by 2\" reveals the student is confusing substitution with the elimination method, indicating they do not understand the distinctive first step of isolating a variable.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves 3x + 2y = 12 and x - 4y = 5 by writing x = 4y + 5 from the second equation and substituting into the first: 3(4y + 5) + 2y = 12. They simplify to 12y + 15 + 2y = 12, then 14y = -3, giving y = -3/14. Is the substitution step correct? Explain why or why not.",
+     "a": "Yes, the substitution step is correct. The student correctly rearranged x - 4y = 5 to x = 4y + 5 (adding 4y to both sides) and substituted this expression for x into the first equation. A wrong answer claiming it is incorrect because \"you should substitute y instead\" reveals a misconception that substitution must always isolate y, or that the choice of variable is fixed — in reality, either variable can be isolated from either equation based on convenience.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following pair of linear equations using the substitution method:\n5x + 3y = 34\n2x - y = 5",
+     "a": "Step 1: From 2x - y = 5, isolate y: -y = 5 - 2x → y = 2x - 5.\nStep 2: Substitute y = 2x - 5 into 5x + 3y = 34: 5x + 3(2x - 5) = 34.\nStep 3: Simplify: 5x + 6x - 15 = 34 → 11x - 15 = 34 → 11x = 49 → x = 49/11.\nStep 4: Substitute x = 49/11 into y = 2x - 5: y = 2(49/11) - 5 = 98/11 - 55/11 = 43/11.\nStep 5: Verify: 5(49/11) + 3(43/11) = 245/11 + 129/11 = 374/11 = 34 ✓; 2(49/11) - 43/11 = 98/11 - 43/11 = 55/11 = 5 ✓.\nAnswer: x = 49/11, y = 43/11. A wrong answer like x = 4, y = 3 reveals the student likely made an arithmetic error in step 3 (e.g., 5x + 6x = 11x but 34 + 15 = 49 not 44) or incorrectly simplified the fraction, showing weak algebraic manipulation skills with fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the substitution method and the graphical method for solving x + y = 10 and 2x - y = 5. Which method would you choose if the solution involves fractions like x = 5/3, y = 25/3? Justify your answer.",
+     "a": "The substitution method is better for fractional solutions because it gives exact algebraic answers (x = 5/3, y = 25/3) without approximation, whereas the graphical method requires plotting points with fractional coordinates, which is imprecise and difficult to read accurately from a graph. A wrong answer choosing the graphical method \"because it's easier to see\" reveals the student does not appreciate the precision limitation of graphical solutions and may struggle with non-integer solutions in board exams where exact answers are required.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the system:\n3x + 4y = 24  ...(1)\n6x + 8y = 48  ...(2)\nby substituting x = (24 - 4y)/3 from (1) into (2): 6((24 - 4y)/3) + 8y = 48 → 2(24 - 4y) + 8y = 48 → 48 - 8y + 8y = 48 → 48 = 48.\nThey conclude \"x = 8, y = 0 is the solution.\" Evaluate this conclusion.",
+     "a": "The conclusion is incorrect. The equation 48 = 48 is an identity, meaning the two equations are dependent (the second is exactly twice the first). This system has infinitely many solutions, not a unique solution. The student incorrectly interpreted the identity as giving a specific solution. A wrong answer accepting \"x = 8, y = 0\" reveals the student does not recognize dependent systems and thinks any identity means the variables take specific values — a critical gap before learning about consistent/inconsistent systems in c9_math_ch2_9.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context: rupees, kg, litres) that leads to a pair of linear equations where the substitution method is clearly easier than the elimination method. Write the equations and explain why substitution is preferable.",
+     "a": "Example: \"A fruit seller sells apples at ₹x per kg and oranges at ₹y per kg. On Monday, he sells 1 kg of apples and 2 kg of oranges for ₹120. On Tuesday, he sells 3 kg of apples and 5 kg of oranges for ₹290.\" Equations: x + 2y = 120 and 3x + 5y = 290. Substitution is easier because the first equation has x with coefficient 1, so x = 120 - 2y is immediate — no fractions or division needed. A poor answer giving equations like 2x + 3y = 100 and 4x + 5y = 180 (where elimination is easier due to matching x coefficients) reveals the student cannot recognize structural features that make substitution efficient, a key skill for choosing methods strategically in exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

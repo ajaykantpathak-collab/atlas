@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_004",
+   "title": "c11_cs_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?  \n```python\nage = 17\nif age >= 18:\n    print(\"Eligible to vote\")\nelse:\n    print(\"Not eligible to vote\")\n```",
+     "a": "Output: `Not eligible to vote` because `age >= 18` evaluates to `False` (17 is not ≥ 18), so the `else` block executes. A wrong answer like \"Eligible to vote\" reveals the student thinks the condition is checked after printing or misunderstands that `else` runs when the `if` condition is **false**.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code will **always** print exactly one message, never both and never none:  \n```python\nmarks = int(input(\"Enter marks: \"))\nif marks >= 33:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")\n```",
+     "a": "The condition `marks >= 33` is a Boolean expression that can only be `True` or `False` (no third possibility). Python’s if-else guarantees: if `True` → run `if` block; if `False` → run `else` block. Since the condition must be one of the two, exactly one block executes. A wrong explanation (e.g., \"it checks both\") shows the student hasn’t internalised mutual exclusivity and exhaustive coverage of the two branches.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python program that reads an integer `n` from the user and prints \"`Even`\" if `n` is even, otherwise prints \"`Odd`\". Use an if-else statement.",
+     "a": "```python\nn = int(input(\"Enter an integer: \"))\nif n % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n```\nSteps: (1) read input as integer, (2) compute remainder with `% 2`, (3) compare to 0, (4) if `True` print \"Even\", (5) else print \"Odd\". A wrong answer that uses two separate `if` statements (e.g., `if n%2==0: print(\"Even\"); if n%2!=0: print(\"Odd\")`) works but shows the student doesn’t recognise the mutual exclusivity that if-else captures more cleanly and efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two snippets below. For which input values do they produce **different** outputs?  \n**Snippet A**\n```python\nif score > 75:\n    print(\"Distinction\")\nelse:\n    print(\"No Distinction\")\n```\n**Snippet B**\n```python\nif score > 75:\n    print(\"Distinction\")\nif score <= 75:\n    print(\"No Distinction\")\n```",
+     "a": "They produce **identical outputs for all inputs** because the conditions `score > 75` and `score <= 75` are logical complements. However, Snippet A uses if-else (one condition evaluated), Snippet B uses two independent ifs (condition evaluated twice). A student who claims they differ for `score = 75` misunderstands that `else` covers exactly the complement of the `if` condition. The difference is **performance/style**, not logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to check if a number is positive, negative, or zero. Critique the code and explain why it fails for one of the three cases.  \n```python\nnum = int(input(\"Enter a number: \"))\nif num > 0:\n    print(\"Positive\")\nelse:\n    print(\"Negative\")\n```",
+     "a": "The code fails for `num = 0` because `0 > 0` is `False`, so the `else` block runs and prints \"Negative\" – incorrect. The student incorrectly assumed `else` means \"negative\" but `else` actually means \"not positive\", which includes zero and negative numbers. This reveals the misconception that `else` automatically handles the \"opposite\" in a semantic sense rather than the strict logical complement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) that requires a two-way decision, write the decision rule in plain Hindi/English, and then write the corresponding if-else Python code. Example format: \"Scenario: ... Rule: ... Code: ...\"",
+     "a": "**Scenario:** Auto-rickshaw fare calculation. First 2 km = ₹25, every additional km = ₹10.  \n**Rule:** If distance ≤ 2 km, fare = 25; else fare = 25 + (distance - 2) * 10.  \n**Code:**\n```python\ndist = float(input(\"Enter distance in km: \"))\nif dist <= 2:\n    fare = 25\nelse:\n    fare = 25 + (dist - 2) * 10\nprint(\"Fare = ₹\", fare)\n```\nA poor answer uses a scenario with more than two outcomes (e.g., grading A/B/C) or writes code that doesn’t match the rule, showing inability to map a binary decision to if-else.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

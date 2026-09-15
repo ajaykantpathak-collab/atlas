@@ -1,0 +1,340 @@
+{
+ "catalog": "catalog_class7_science_ch107.json",
+ "concepts": [
+  {
+   "id": "gesc.107.1",
+   "title": "Components of Blood",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the components of blood.",
+     "a": "Plasma, red blood cells, white blood cells and platelets.",
+     "self_check": true
+    },
+    {
+     "q": "What do platelets do?",
+     "a": "They help blood clot at wounds, stopping bleeding.",
+     "self_check": true
+    },
+    {
+     "q": "Why is blood red?",
+     "a": "Haemoglobin, the red pigment in RBCs, carries oxygen and gives blood its colour.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.2",
+   "title": "Pulse and Pulse Rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "pulse_rate",
+     "expr": "total_beats / time_in_minutes",
+     "explain": "heart beats counted per minute"
+    },
+    {
+     "step": 2,
+     "name": "beats_10s",
+     "expr": "pulse_rate / 6",
+     "explain": "beats in ten seconds"
+    },
+    {
+     "step": 3,
+     "name": "beats_per_day",
+     "expr": "pulse_rate * 60 * 24",
+     "explain": "the same rate extended to a full day"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A doctor counts 72 pulse beats in 1 minute... take 216 beats in 3 minutes. Find the pulse rate and beats per day.",
+     "vals": {
+      "total_beats": 216,
+      "time_in_minutes": 3
+     },
+     "unit": "beats/min",
+     "steps": null,
+     "a": "103680 beats/min",
+     "self_check": false
+    },
+    {
+     "q": "A pulse records 150 beats in 2 minutes. Calculate the pulse rate.",
+     "vals": {
+      "total_beats": 150,
+      "time_in_minutes": 2
+     },
+     "unit": "beats/min",
+     "steps": null,
+     "a": "108000 beats/min",
+     "self_check": false
+    },
+    {
+     "q": "An athlete at rest shows 168 beats in 3 minutes. Find the pulse rate and daily total.",
+     "vals": {
+      "total_beats": 168,
+      "time_in_minutes": 3
+     },
+     "unit": "beats/min",
+     "steps": null,
+     "a": "80640 beats/min",
+     "self_check": false
+    },
+    {
+     "q": "After running, 320 beats are counted in 4 minutes. What is the pulse rate?",
+     "vals": {
+      "total_beats": 320,
+      "time_in_minutes": 4
+     },
+     "unit": "beats/min",
+     "steps": null,
+     "a": "115200 beats/min",
+     "self_check": false
+    },
+    {
+     "q": "A pulse of 95 beats in 1 minute... take 190 beats in 2 minutes: find the rate.",
+     "vals": {
+      "total_beats": 190,
+      "time_in_minutes": 2
+     },
+     "unit": "beats/min",
+     "steps": null,
+     "a": "136800 beats/min",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.3",
+   "title": "Blood Vessels and Double Loop Circulation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three kinds of blood vessels.",
+     "a": "Arteries, veins and capillaries.",
+     "self_check": true
+    },
+    {
+     "q": "Why do arteries have thick elastic walls?",
+     "a": "Blood leaves the heart at high pressure, so the walls must bear it.",
+     "self_check": true
+    },
+    {
+     "q": "What is double circulation?",
+     "a": "Blood passes twice through the heart in one full trip - once to the lungs, once to the body.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.4",
+   "title": "Structure and Function of Human Heart",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the four chambers of the human heart.",
+     "a": "Left and right atria (upper) and left and right ventricles (lower).",
+     "self_check": true
+    },
+    {
+     "q": "Which side of the heart pumps blood to the lungs?",
+     "a": "The right side - right atrium receives, right ventricle pumps to the lungs.",
+     "self_check": true
+    },
+    {
+     "q": "Why are valves needed in the heart?",
+     "a": "They stop blood flowing backwards and keep it moving in one direction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.5",
+   "title": "Heartbeat and Cardiac Monitoring",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a heartbeat?",
+     "a": "One complete contraction and relaxation of the heart that pushes blood into the vessels.",
+     "self_check": true
+    },
+    {
+     "q": "How is the heartbeat related to the pulse?",
+     "a": "Each heartbeat sends a pressure wave along arteries, so the pulse rate at the wrist equals the heartbeats per minute.",
+     "self_check": true
+    },
+    {
+     "q": "Which instrument records the heartbeat?",
+     "a": "A stethoscope (to hear it) and an ECG machine (to record its electrical pattern).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.6",
+   "title": "Human Excretory System and Urine Composition",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "urea_amount",
+     "expr": "total_urine * 0.025",
+     "explain": "urine is about 2.5% urea by weight"
+    },
+    {
+     "step": 2,
+     "name": "half_urine_urea",
+     "expr": "(total_urine / 2) * 0.025",
+     "explain": "urea in half the urine"
+    },
+    {
+     "step": 3,
+     "name": "water_amount",
+     "expr": "total_urine - urea_amount",
+     "explain": "the rest is mostly water"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A person passes 1.2 L of urine in a day. How much urea does it carry, and how much water?",
+     "vals": {
+      "total_urine": 1.2
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "1.17 L",
+     "self_check": false
+    },
+    {
+     "q": "Daily urine output is 1.5 L. Calculate the urea in it and the water share.",
+     "vals": {
+      "total_urine": 1.5
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "1.4625 L",
+     "self_check": false
+    },
+    {
+     "q": "Find the urea content of 0.8 L of urine and the water it holds.",
+     "vals": {
+      "total_urine": 0.8
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "0.78 L",
+     "self_check": false
+    },
+    {
+     "q": "A patient excretes 2 L of urine. What mass/volume of urea does that represent, and how much water?",
+     "vals": {
+      "total_urine": 2
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "1.95 L",
+     "self_check": false
+    },
+    {
+     "q": "With 1.1 L of urine passed, compute its urea and water parts.",
+     "vals": {
+      "total_urine": 1.1
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "1.0725 L",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.7",
+   "title": "Excretory Products Across Animal Groups",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the excretory organs of humans?",
+     "a": "The two kidneys (with urinary bladder and urethra); skin and lungs help too.",
+     "self_check": true
+    },
+    {
+     "q": "What is urine made of?",
+     "a": "Mostly water with dissolved urea, salts and other wastes.",
+     "self_check": true
+    },
+    {
+     "q": "Why must wastes like urea leave the body?",
+     "a": "They are poisonous if they build up, so kidneys filter them out with water as urine.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.8",
+   "title": "Transport of Water and Minerals via Xylem",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does water rise in a plant against gravity?",
+     "a": "Root pressure pushes water up and transpiration pull from leaves draws the water column in xylem.",
+     "self_check": true
+    },
+    {
+     "q": "What is xylem and what does it carry?",
+     "a": "Vascular tissue of tubes that carries water and minerals from roots to leaves.",
+     "self_check": true
+    },
+    {
+     "q": "Why do plants need so much water?",
+     "a": "For photosynthesis, minerals transport, support (turgidity) and cooling by transpiration.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.9",
+   "title": "Transport of Synthesised Food via Phloem",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does phloem transport?",
+     "a": "Food (sugar) made in leaves to all other parts - called translocation.",
+     "self_check": true
+    },
+    {
+     "q": "In which direction does phloem carry food?",
+     "a": "Both up and down - wherever the plant needs food (roots, fruits, growing tips).",
+     "self_check": true
+    },
+    {
+     "q": "Why is translocation necessary for plants?",
+     "a": "Every part needs food for energy and growth, but only leaves make it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.10",
+   "title": "Transpiration and Transpiration Pull",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is transpiration?",
+     "a": "Loss of water vapour from leaves through stomata.",
+     "self_check": true
+    },
+    {
+     "q": "How does transpiration help the plant?",
+     "a": "It pulls water up from roots, cools the plant, and keeps minerals flowing.",
+     "self_check": true
+    },
+    {
+     "q": "When is transpiration fastest?",
+     "a": "On hot, dry, windy days when stomata are open.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

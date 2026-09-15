@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_009",
+   "title": "c10_hist_cbse_04_009",
+   "questions": [
+    {
+     "q": "What was the immediate trigger for the Great Depression that began in 1929?",
+     "a": "The immediate trigger was the Wall Street Crash of October 1929, when the US stock market collapsed after years of speculative borrowing, leading to a sudden withdrawal of American loans to Europe and a freeze in global credit. A wrong answer (e.g., \"the end of World War I\" or \"the Dust Bowl\") reveals the student confuses the post-war boom's end with the Depression's specific financial trigger, missing the role of US financial dominance in transmitting the crisis globally.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the post-war boom (1919–1929) in industrial production turn into a bust by 1929?",
+     "a": "The boom was built on war-time expansion of capacity (especially in heavy industry) and US loans that financed European reconstruction and primary-producer exports; when US loans stopped after 1928, demand collapsed, leaving massive overcapacity and unsold stocks. A wrong answer focusing only on \"overproduction\" without linking it to the credit cycle shows the student misses the financial mechanism — the boom was debt-fuelled, not demand-driven — a distinction critical for understanding why the Depression hit primary producers like India so hard.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The Great Depression hurt Indian industry more than Indian agriculture.\" Using evidence from the inter-war period, evaluate this claim.",
+     "a": "The claim is largely incorrect. While Indian industry (especially cotton mills) initially benefited from reduced Lancashire imports during the Depression, agriculture suffered far more severely: prices of cash crops (cotton, jute, wheat) fell 50–60% between 1929–1933 while land revenue demands remained fixed, pushing peasants into debt and distress sales. Industry recovered faster due to imperial preference (Ottawa Agreement, 1932) and rising nationalist demand. A wrong answer that says \"industry suffered more\" reveals confusion between the short-term disruption to mills (1929–31) and the prolonged agrarian crisis that lasted till the late 1930s.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the British government's response to the Depression in Britain versus its policy toward India. What does the difference reveal about imperial economic priorities?",
+     "a": "In Britain, the government abandoned the Gold Standard (1931), lowered interest rates, and introduced protection (Import Duties Act, 1932) to stimulate domestic recovery. In India, the viceroy refused to devalue the rupee (kept at 1s 6d), maintained high land revenue, and signed the Ottawa Agreement (1932) giving British goods tariff preference — protecting Lancashire, not Indian mills. This reveals the imperial priority: India was managed as a supplier of cheap raw materials and a captive market for British manufactures, even at the cost of deepening Indian poverty. A wrong answer that says \"Britain helped India too\" misses the structural asymmetry — India was denied the policy tools (currency devaluation, tariff autonomy) that Britain used for itself.",
+     "self_check": true
+    },
+    {
+     "q": "\"The Great Depression was the single most important factor in the growth of Indian-owned industry in the 1930s.\" Assess this statement.",
+     "a": "The statement is partially true but oversimplified. The Depression did create space for Indian industry: falling imports, imperial preference (Ottawa) for British goods paradoxically helped Indian mills supplying the British market, and nationalist swadeshi campaigns gained traction. However, growth was uneven (cotton and sugar grew; jute and coal stagnated), depended on wartime contracts later, and was constrained by continued British control over tariff and currency policy. A wrong answer that fully agrees ignores the role of nationalist politics (e.g., the 1931 Karachi Resolution demanding protection) and the fact that Indian industrial output in 1939 was still only ~10% of national income — the Depression opened a window, but structural change required political power.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1919–1939) showing five key events that link global industrial cycles to specific Indian economic outcomes. For each event, write one sentence explaining the causal link.",
+     "a": "A strong answer includes: (1) 1919–22: Post-war boom → Indian mills expand but face renewed Lancashire competition; (2) 1929: Wall Street Crash → US loans stop → global demand for Indian raw cotton/jute collapses; (3) 1931: Britain leaves Gold Standard → rupee overvalued at 1s 6d → Indian exports uncompetitive, gold flows out; (4) 1932: Ottawa Agreement → British goods get preference in India → Indian industry demands fiscal autonomy; (5) 1935: Government of India Act → provincial autonomy allows Congress ministries (1937) to give tariff protection to sugar, cotton. A poor answer lists events without causal sentences (e.g., just \"1929: Depression starts\") showing the student cannot link global cycles to local outcomes — the core skill this node tests.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

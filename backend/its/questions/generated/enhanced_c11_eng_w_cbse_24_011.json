@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_24_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_24_011",
+   "title": "c11_eng_w_cbse_24_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for words like \"marginalisation,\" \"urbanisation,\" and \"conservation\" formed from verbs by adding suffixes, and state one effect of using such forms in academic writing.",
+     "a": "The term is **nominalization** (forming nouns from verbs/adjectives). In academic writing, it condenses information, creates an objective/impersonal tone, and allows complex ideas to become subjects/objects of sentences. A wrong answer (e.g., \"they are just difficult words\") reveals the student sees vocabulary as isolated items rather than grammatical choices that shape meaning and tone.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The tribal imagination, on the other hand, is still, to a large extent, dreamlike and hallucinatory,\" explain why the author uses the passive-like structure \"is... dreamlike\" with a complement adjective instead of an active verb like \"dreams.\" What tone does this create?",
+     "a": "The structure \"is + adjective\" (copular verb) describes a state/quality rather than an action, presenting the tribal imagination as an inherent characteristic, not a voluntary act. This creates an analytical, definitional tone suitable for an academic argument. A wrong answer (e.g., \"it's just description\") misses how grammatical choice (stative vs. dynamic verb) frames the subject as a fixed category for analysis.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: Rewrite the following sentence from the essay in active voice, then explain how the change alters the focus and agency: \"A vast number of Indian languages have yet remained only spoken, with the result that literary compositions in these languages are not considered 'literature'.\"",
+     "a": "Active rewrite: \"The fact that a vast number of Indian languages have remained only spoken has resulted in literary compositions in these languages not being considered 'literature'.\" The original passive construction (\"are not considered\") hides the agent (who does the considering? critics, institutions?), making the exclusion seem like a natural fact. The active version forces recognition of human agency in defining literature. A wrong answer that only changes verbs without discussing agency/focus shows mechanical application without rhetorical awareness.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the syntactic structure of the Munda song lines (\"My mother, the sun rose / A son was born\") with Devy's essay sentences. Identify two specific grammatical differences and explain how each reflects the difference between oral performance and written argument.",
+     "a": "1. **Parataxis vs. Hypotaxis**: The song uses short, coordinate clauses (parataxis) linked by line breaks/intonation; the essay uses subordinate clauses (hypotaxis) with conjunctions like \"though,\" \"because,\" \"which.\" Oral performance relies on additive, rhythmic flow; written argument requires logical subordination.\n2. **Concrete subjects vs. Abstract nominalizations**: Song subjects are concrete (\"sun,\" \"son,\" \"cowshed\"); essay subjects are abstract (\"marginalisation,\" \"conservation,\" \"imagination\"). Oral tradition anchors in sensory experience; academic writing manipulates concepts.\nA wrong answer listing only \"song is simple, essay is complex\" fails to name grammatical structures (clause types, subject types) and link them to medium/function.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: Devy writes: \"It might be said that tribal artists work more on the basis of their racial and sensory memory than on the basis of a cultivated imagination.\" Critique the hedging phrase \"It might be said that.\" Does it strengthen or weaken his academic credibility? Justify.",
+     "a": "It **strengthens** credibility. The passive impersonal construction (\"It might be said\") is a conventional academic hedge that acknowledges the claim is interpretative, not absolute fact, inviting scholarly dialogue rather than asserting dogma. It positions Devy as a careful analyst. A wrong answer claiming it \"weakens\" because \"he sounds unsure\" confuses academic hedging (precision) with conversational uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Write a 3-sentence paragraph in Devy's academic style arguing that \"translation involves loss,\" using at least two nominalizations, one passive construction, and one conditional clause. Then rewrite the same idea in the style of a tribal song (short lines, concrete imagery, direct address).",
+     "a": "**Academic style**: \"The translation of oral texts into written English inevitably entails the loss of performative nuance. If the rhythmic and tonal dimensions are not preserved, the aesthetic essence is diminished. Such erosion of original flavour is acknowledged as an inherent limitation of cross-medium representation.\"\n**Song style**: \"Words fly like birds / The net of English catches only feathers / The song's heart beats in the drum, not the page.\"\nA poor academic version uses simple sentences without nominalizations/passives; a poor song version uses abstract nouns (\"translation,\" \"limitation\") instead of concrete imagery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

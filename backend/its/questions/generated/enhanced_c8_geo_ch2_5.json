@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_5",
+   "title": "c8_geo_ch2_5",
+   "questions": [
+    {
+     "q": "Name the five continents covered in this lesson and state which one India belongs to.",
+     "a": "The five continents are Africa, Asia, Europe, North America, and South America; India is part of Asia. A wrong answer (e.g., listing Australia or Antarctica, or placing India in Africa) reveals the student has not internalised the specific list for this chapter or confuses the Indian subcontinent with the African continent due to the Indian Ocean name.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Asia have a greater variety of climate zones than Europe, even though both lie mainly in the Northern Hemisphere?",
+     "a": "Asia spans from the Equator (Indonesia) to the Arctic Circle (Siberia) and has massive interior land far from oceans, creating extreme continental climates; Europe is narrower, closer to the Atlantic, and moderated by the Gulf Stream. A wrong answer (e.g., \"Asia is bigger\") shows the student recalls size but cannot link latitudinal extent and continentality to climate diversity — a key Class 7 concept (c7_geo_ch03_007).",
+     "self_check": true
+    },
+    {
+     "q": "On an outline world map, a student shades the region between 60°N and 60°S latitude across all longitudes. Which of the five continents would be completely shaded, and which would have unshaded parts? Explain.",
+     "a": "Africa and South America lie entirely within 60°N–60°S and would be fully shaded. North America, Europe, and Asia extend north of 60°N (Greenland, Scandinavia, Siberia) so their northern portions remain unshaded. A wrong answer indicates the student cannot apply latitude bands to continental shapes — a map skill built in Class 6 (c6_geography_ch01_001) and Class 7 (c7_geo_ch01_001).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Amazon Basin (South America) and the Congo Basin (Africa). Both are tropical rainforests near the Equator. What geographical factor explains why the Amazon is larger and receives more rainfall?",
+     "a": "The Amazon Basin is wider east-west across the trade-wind belt, allowing moisture-laden winds from the Atlantic to travel farther inland before hitting the Andes; the Congo Basin is narrower and bordered by higher plateaus that block some moisture. A wrong answer (e.g., \"Amazon is in Brazil\") shows the student cannot analyse how continental width, wind direction, and orographic barriers control rainfall distribution — linking Class 7 monsoon mechanisms (c7_geo_ch03_003) to global patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims: \"Europe is a separate continent because it has a distinct culture and history.\" Evaluate this statement from a physical geography perspective.",
+     "a": "Physically, Europe is a peninsula of Eurasia with no clear ocean boundary separating it from Asia (the Ural Mountains are low and discontinuous). The continental division is primarily cultural/historical, not geological. A wrong answer accepting the statement uncritically reveals the student conflates human geography definitions with physical geography criteria — a distinction essential for Class 8 map projections (c8_geo_ch2_2) and distortions (c8_geo_ch2_3).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Continent Comparison Chart\" for the five continents that a Class 6 student could use to revise. Include at least four categories of information and use symbols/colours instead of long sentences.",
+     "a": "A good chart uses columns for each continent and rows for: (1) Latitudinal extent (symbol: sun/ice icons), (2) Signature landform (icon: mountain, river, desert), (3) Population density (dots per cm²), (4) Major crop (wheat, rice, maize icons). Poor answers list only country names or copy text — showing the student cannot synthesise geographical data into visual patterns, a skill needed for c8_geo_ch2_12.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

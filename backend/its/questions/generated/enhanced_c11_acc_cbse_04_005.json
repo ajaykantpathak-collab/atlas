@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_005",
+   "title": "c11_acc_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the source document for recording entries in the Purchase Return Book, and which account is credited with the periodic total of this book?",
+     "a": "The source document is a Debit Note (prepared by the buyer and sent to the supplier). The periodic total of the Purchase Return Book is credited to the Purchases Return Account. A wrong answer (e.g., saying Credit Note or crediting Purchases Account) reveals confusion between purchase returns and sales returns, or misunderstanding that returns are recorded in a separate account to disclose the reduction in purchases separately for financial reporting.",
+     "self_check": true
+    },
+    {
+     "q": "A student records a return of goods purchased on credit in the Purchase Book itself as a negative entry. Explain why this is incorrect and what the correct procedure is.",
+     "a": "The Purchase Book records only credit purchases of goods. Returns must be recorded in a separate Purchase Return Book to maintain the principle of disclosure — showing gross purchases and returns separately helps in analyzing purchase efficiency and calculating net purchases accurately. Recording a negative entry in the Purchase Book would obscure the volume of returns and violate the subsidiary book system. This error shows the student hasn't grasped the purpose of special journals for repetitive transactions of a similar nature.",
+     "self_check": true
+    },
+    {
+     "q": "M/s Sharma Traders returned goods worth ₹12,000 (list price) to M/s Verma Suppliers on 15th March, 2024. The goods were originally purchased at a trade discount of 10%. The applicable GST is CGST 9% and SGST 9%. Record this transaction in the Purchase Return Book of M/s Sharma Traders and show the posting to M/s Verma Suppliers Account and Purchases Return Account.",
+     "a": "Step 1: Calculate net value after trade discount: ₹12,000 less 10% = ₹10,800. Step 2: Calculate GST: CGST 9% = ₹972, SGST 9% = ₹972. Step 3: Total amount of Debit Note = ₹10,800 + ₹972 + ₹972 = ₹12,744. Step 4: In Purchase Return Book, record Date, Debit Note No., Supplier Name (M/s Verma Suppliers), L.F., and Amount ₹12,744. Step 5: Post to M/s Verma Suppliers Account: Debit side with ₹12,744 (Purchases Return). Step 6: At month-end, credit Purchases Return Account with the periodic total (₹12,744) writing \"Sundries as per Purchase Return Book\". A wrong answer (e.g., using list price without discount, or ignoring GST) shows inability to apply the net amount principle and GST calculation from the Purchase Book to the Return Book.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the posting process of the Purchase Return Book and the Sales Return Book. Identify two similarities and two differences in terms of accounts debited/credited and the side of the ledger accounts affected.",
+     "a": "Similarities: (1) Both books are totaled periodically and the total is posted to a separate return account (Purchases Return credited, Sales Return debited). (2) Individual party accounts (supplier/customer) are posted daily with the respective return amount. Differences: (1) In Purchase Return Book, the supplier's account is debited (reducing liability), whereas in Sales Return Book, the customer's account is credited (reducing receivable). (2) The return account: Purchases Return Account is credited (reducing purchases), while Sales Return Account is debited (reducing sales). A wrong answer confusing debit/credit sides indicates a lack of understanding of the dual aspect and the effect of returns on the accounting equation.",
+     "self_check": true
+    },
+    {
+     "q": "A firm decides to record all returns (both purchase and sales) in a single \"Returns Book\" to save time. Evaluate this decision against the principles of subsidiary books and the need for separate disclosure in financial statements.",
+     "a": "This decision violates the principle of classification of transactions by nature. Purchase returns (return outwards) reduce purchases and are a contra-purchase item, while sales returns (return inwards) reduce sales and are a contra-revenue item. Combining them would obscure the gross purchases and gross sales figures, making it impossible to compute net purchases and net sales separately for the Trading Account. It also mixes debtor and creditor transactions, complicating ledger posting. The decision is therefore incorrect; separate books are mandatory for proper disclosure and control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Debit Note and a Credit Note for a transaction where M/s A Ltd. returns 10 units of Product X (list price ₹500 each, trade discount 20%) to M/s B Ltd. due to defective quality. Include all mandatory fields as per NCERT format and calculate the amount.",
+     "a": "Debit Note (issued by A Ltd. to B Ltd.): Serial No., Date, Supplier Name (B Ltd.), Details: 10 units Product X @ ₹500 = ₹5,000, Less Trade Discount 20% = ₹1,000, Net ₹4,000. Add GST (assume CGST 9% + SGST 9% = ₹720). Total ₹4,720. Credit Note (issued by B Ltd. to A Ltd.): Same details, but issued by seller to buyer acknowledging receipt of return. Amount identical. A poor answer omits trade discount calculation, GST, or mandatory fields (serial no., date, signatures), showing incomplete understanding of the source document's role as evidence for the return entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

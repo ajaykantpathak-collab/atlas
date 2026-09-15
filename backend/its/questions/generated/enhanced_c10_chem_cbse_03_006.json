@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_006",
+   "title": "c10_chem_cbse_03_006",
+   "questions": [
+    {
+     "q": "What is the general condition for a metal to displace another metal from its salt solution?",
+     "a": "The displacing metal must be more reactive (higher in the reactivity series) than the metal in the salt solution. A wrong answer (e.g., \"any metal can displace any other\" or \"the metal with higher atomic mass displaces\") reveals the student has not grasped the fundamental reactivity principle and is likely guessing based on physical properties rather than chemical reactivity.",
+     "self_check": true
+    },
+    {
+     "q": "An iron nail is placed in a solution of zinc sulphate. Will a reaction occur? Explain why or why not using the reactivity series.",
+     "a": "No reaction occurs because iron is less reactive than zinc (iron is below zinc in the reactivity series). A more reactive metal is needed to displace a less reactive one. A wrong answer (e.g., \"yes, iron will displace zinc because iron is stronger\") shows the student either does not know the relative reactivity order or misunderstands the direction of displacement — a critical error for board exam prediction questions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation with state symbols for the reaction when a zinc rod is dipped in lead nitrate solution.",
+     "a": "Step 1: Identify reactants — Zn(s) and Pb(NO₃)₂(aq). Step 2: Zinc is more reactive than lead, so displacement occurs. Step 3: Products are Zn(NO₃)₂(aq) and Pb(s). Step 4: Balance: Zn(s) + Pb(NO₃)₂(aq) → Zn(NO₃)₂(aq) + Pb(s). Step 5: Check atoms: Zn:1, Pb:1, N:2, O:6 on both sides. A wrong answer (e.g., missing state symbols, unbalanced nitrate ions, or writing PbNO₃ instead of Pb(NO₃)₂) reveals weak formula writing skills from Class 9 (c9_chem_ch3_6) and poor balancing practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions: (i) Cu(s) + FeSO₄(aq) → ? and (ii) Fe(s) + CuSO₄(aq) → ?. Explain why one occurs and the other does not, linking to electron transfer tendency.",
+     "a": "Reaction (ii) occurs because Fe is more reactive than Cu — Fe loses electrons more easily (Fe → Fe²⁺ + 2e⁻) and reduces Cu²⁺ to Cu. Reaction (i) does not occur because Cu cannot lose electrons to reduce Fe²⁺; Cu is less reactive. A wrong answer (e.g., \"both occur\" or \"neither occurs\") shows the student cannot apply the reactivity series bidirectionally and misses the electron-transfer basis of displacement — a key concept for the upcoming ionic bonding node (c10_chem_cbse_03_008).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation for magnesium reacting with copper sulphate as: Mg + CuSO₄ → MgSO₄ + Cu. The teacher marks it incomplete. What is missing and why is it important for board exams?",
+     "a": "State symbols are missing: Mg(s) + CuSO₄(aq) → MgSO₄(aq) + Cu(s). Board exams deduct marks for missing state symbols because they indicate physical states and confirm the reaction is heterogeneous (solid + aqueous → aqueous + solid). A wrong answer (e.g., \"nothing is missing\" or \"balancing is wrong\") reveals the student ignores CBSE marking scheme requirements — a common 1-mark loss in 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using three metals (Fe, Zn, Cu) and three salt solutions (FeSO₄, ZnSO₄, CuSO₄) to determine their relative reactivity order. Describe the setup, observations, and conclusion.",
+     "a": "Setup: 9 test tubes, each metal in each solution. Observations: Zn displaces Fe and Cu (solution colour changes, deposition); Fe displaces Cu only; Cu displaces none. Conclusion: Zn > Fe > Cu. A poor answer (e.g., testing only one combination, not recording colour changes, or concluding Cu > Fe) shows the student cannot design a systematic investigation — a skill tested in CBSE practical and case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

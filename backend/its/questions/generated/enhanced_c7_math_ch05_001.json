@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_001",
+   "title": "c7_math_ch05_001",
+   "questions": [
+    {
+     "q": "What is the special name given to the exact point where two straight lines cross each other?",
+     "a": "The correct answer is the point of intersection. A wrong answer like \"endpoint\" or \"vertex\" reveals that the student is confusing line geometry with line segments or polygons, failing to realize that lines extend infinitely and meet at a single shared crossing point.",
+     "self_check": true
+    },
+    {
+     "q": "If two straight lines intersect in a plane, what is the maximum number of points where they can cross each other?",
+     "a": "The correct answer is exactly one point. A wrong answer like \"two points\" or \"infinite points\" shows a fundamental misunderstanding of straight lines; straight lines can only bend or cross once, because if they crossed twice, they would have to curve, which violates the definition of a straight line.",
+     "self_check": true
+    },
+    {
+     "q": "Two straight lines, $AB$ and $CD$, intersect at point $O$. If one of the angles formed at the intersection point measures $75^\\circ$, how many total angles are formed around point $O$ by these two intersecting lines?",
+     "a": "The correct answer is 4 angles. Working: Step 1: Identify that when two straight lines cross, they form four distinct angles around the central crossing point $O$. Step 2: Note that the given measure of $75^\\circ$ is just one of these four angles. Step 3: Conclude that the total number of angles formed at the intersection is always 4, regardless of their individual degrees. A wrong answer like \"2\" or \"8\" indicates that the student is only counting the acute angles or counting the rays instead of the complete angles formed between adjacent intersecting rays.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a scenario where three straight lines are drawn on a sheet of paper. Is it possible for all three lines to share only a single common point of intersection? Explain why or why not.",
+     "a": "The correct answer is yes, it is possible if all three lines are concurrent (passing through the same single point). However, general intersecting lines typically intersect in pairs, forming up to three distinct points of intersection ($\\frac{3 \\times 2}{2} = 3$). A wrong answer assuming it is impossible shows a lack of visualization skills regarding concurrent lines meeting at a single junction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that when two lines intersect at right angles, there are only two angles formed at the intersection point. Evaluate this claim and identify the error in thinking.",
+     "a": "The correct answer is that the claim is false. Working: Step 1: Recall that any intersection of two straight lines always creates four angles around the central point. Step 2: Even if each of those four angles measures $90^\\circ$, the count remains four right angles, not two. A student making this error is likely confusing the visual \"cross\" shape with just two perpendicular line segments meeting as an 'L' shape.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem set in an Indian school context (such as school corridor paths or rangoli designs) that involves two intersecting lines and asks someone to identify the point of intersection and the number of angles formed.",
+     "a": "A good response should describe a specific scenario, such as two straight corridor paths in a school building crossing each other, label the crossing point as $X$, and state that 4 angles are created where students turn. A poor response just gives abstract numbers without a real-world context or misidentifies parallel corridors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

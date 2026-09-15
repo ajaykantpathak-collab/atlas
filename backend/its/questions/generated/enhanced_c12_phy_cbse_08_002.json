@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_08_002",
+   "title": "c12_phy_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the four Maxwell's equations in vacuum in integral form. Write the equation for Gauss's law for magnetism and explain what it implies about magnetic monopoles.",
+     "a": "The four equations: (1) ∮ **E**·d**A** = Q/ε₀, (2) ∮ **B**·d**A** = 0, (3) ∮ **E**·d**l** = -dΦ_B/dt, (4) ∮ **B**·d**l** = μ₀(i_c + ε₀ dΦ_E/dt). Gauss's law for magnetism ∮ **B**·d**A** = 0 implies magnetic monopoles do not exist; magnetic field lines are continuous closed loops with no beginning or end. A wrong answer (e.g., writing ∮ **B**·d**A** = μ₀Q_m) reveals the student incorrectly assumes magnetic charges exist, confusing analogy with electric charges.",
+     "self_check": true
+    },
+    {
+     "q": "In the Ampere-Maxwell law, ∮ **B**·d**l** = μ₀(i_c + ε₀ dΦ_E/dt), identify the displacement current term. Explain why this term is necessary for logical consistency when applying the law to a charging capacitor.",
+     "a": "The displacement current term is i_d = ε₀ dΦ_E/dt. Without it, applying Ampere's law to a charging capacitor gives contradictory results: using a flat surface through the wire gives B = μ₀i_c/(2πr), but using a bulging surface between the plates gives B = 0 because no conduction current passes through it. The displacement current provides the missing current through the bulging surface, ensuring the same B for any surface bounded by the same loop. A wrong answer that omits the term or misidentifies it as conduction current shows the student has not grasped the capacitor inconsistency argument from c12_phy_cbse_08_001.",
+     "self_check": true
+    },
+    {
+     "q": "A plane electromagnetic wave propagates in vacuum along the +z direction. At a given instant, the electric field is along +x and has magnitude E₀ = 100 V/m. Using the relation from Maxwell's equations, calculate the magnitude and direction of the magnetic field at that instant.",
+     "a": "Magnitude: B₀ = E₀/c = 100 V/m / (3×10⁸ m/s) = 3.33×10⁻⁷ T. Direction: For a wave propagating along +z with E along +x, **B** must be along +y so that **E** × **B** points along +z (direction of propagation). Steps: (1) Recall E₀/B₀ = c from Maxwell's equations. (2) Substitute c = 3×10⁸ m/s. (3) Compute B₀ = 100/3×10⁸ = 3.33×10⁻⁷ T. (4) Use right-hand rule: **E** × **B** along propagation. A wrong magnitude (e.g., using c = 3×10⁸ cm/s) shows unit confusion; a wrong direction (e.g., B along -y) shows misunderstanding of the transverse wave nature and the Poynting vector direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the two \"source\" equations (Gauss's laws) and the two \"dynamic\" equations (Faraday and Ampere-Maxwell) in Maxwell's set. Why are the dynamic equations sufficient to predict electromagnetic waves even in a charge-free, current-free region?",
+     "a": "Gauss's laws (∮ **E**·d**A** = Q/ε₀, ∮ **B**·d**A** = 0) describe how static fields originate from sources (charges for E, no monopoles for B). The dynamic equations (Faraday: ∮ **E**·d**l** = -dΦ_B/dt; Ampere-Maxwell: ∮ **B**·d**l** = μ₀ε₀ dΦ_E/dt) describe how time-varying fields generate each other. In a source-free region (Q=0, i_c=0), Gauss's laws give ∮ **E**·d**A**=0 and ∮ **B**·d**A**=0 (fields are transverse), while the dynamic equations couple the time derivatives of E and B, allowing wave solutions. A wrong answer that claims Gauss's laws are needed for wave propagation confuses boundary conditions with the wave mechanism itself.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Maxwell's equations predict that electromagnetic waves travel at speed c = 1/√(μ₀ε₀) in vacuum. If we fill the vacuum with a dielectric material of permittivity ε and permeability μ, the wave speed should become v = 1/√(με). But the frequency of the wave remains the same, so the wavelength must change.\" Evaluate this statement. Is it fully correct? Explain.",
+     "a": "The statement is correct. Maxwell's equations in a linear isotropic medium replace ε₀→ε and μ₀→μ, giving wave speed v = 1/√(με). Frequency is determined by the source and does not change when the wave enters a different medium. Since v = fλ, wavelength λ = v/f changes proportionally to the speed change. The student correctly applies the continuity of frequency at boundaries (from wave boundary conditions) and the dispersion relation. A wrong evaluation that says frequency changes or speed doesn't change reveals confusion between source-driven frequency and medium-dependent wave speed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using only a capacitor, an AC source, and a magnetic field detector to demonstrate the existence of displacement current. Describe the setup, what you would measure, and how the result confirms Maxwell's addition to Ampere's law.",
+     "a": "Setup: Connect a parallel-plate capacitor to an AC source (e.g., 1 kHz). Place a small magnetic field probe (e.g., a search coil connected to an oscilloscope) at a fixed distance r from the axis, first outside the capacitor (in the wire region) and then between the plates. Measure the magnetic field amplitude in both positions. Prediction: Outside, B is due to conduction current i_c. Between plates, conduction current is zero, but the changing electric flux produces displacement current i_d = ε₀ dΦ_E/dt. If B is the same at both positions (for same r), it confirms i_d = i_c and validates the Ampere-Maxwell law. A poor answer that suggests measuring electric field instead of magnetic field, or uses a DC source (where dΦ_E/dt = 0), fails to isolate the displacement current effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

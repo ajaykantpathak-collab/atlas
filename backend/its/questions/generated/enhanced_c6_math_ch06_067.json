@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_067",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_067",
+   "title": "c6_math_ch06_067",
+   "questions": [
+    {
+     "q": "If a box contains 4 red pens and 6 blue pens, what is the total number of pens in the box?",
+     "a": "The total is 10 pens. A student who says \"4\" or \"6\" is confusing a single part for the whole, ignoring the fact that the total includes all items combined.",
+     "self_check": true
+    },
+    {
+     "q": "In a class, the ratio of boys to girls is 2:3. Does this ratio tell you the total number of students in the class? Why or why not?",
+     "a": "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50.",
+     "self_check": true
+    },
+    {
+     "q": "A basket has 2 mangoes and 8 bananas. What is the ratio of mangoes to the total number of fruits?",
+     "a": "The ratio is 2:10, which simplifies to 1:5. A student who writes 2:8 is mistakenly using a part-to-part ratio instead of a part-to-whole ratio.",
+     "self_check": true
+    },
+    {
+     "q": "If the ratio of dogs to cats in a shelter is 5:2, can you determine the ratio of cats to total animals? Explain your logic.",
+     "a": "Yes, the ratio is 2:7. You take the \"part\" (cats = 2) and compare it to the \"whole\" (dogs + cats = 5 + 2 = 7); a student failing this likely forgot to add the parts to find the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the sum of two part-to-whole ratios (e.g., girls/total + boys/total) to be greater than 1? Explain.",
+     "a": "No, the sum must equal 1 (or the whole). If a student thinks it can be greater, they are likely adding parts incorrectly or losing track of the total value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario with two types of marbles where the part-to-whole ratio is 3:10. How many marbles of each type must you have?",
+     "a": "The student must identify that 3 is the part and 10 is the total, meaning the other part must be 7. An answer like \"3 blue and 7 red\" is correct; an answer like \"3 blue and 10 red\" shows a failure to distinguish between the part and the whole.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_3",
+   "title": "c8_physics_ch8_3",
+   "questions": [
+    {
+     "q": "Name the three main functional groups of organisms in an ecosystem based on how they obtain energy, and give one common example of each from your surroundings.",
+     "a": "Producers (e.g., mango tree), Consumers (e.g., goat), Decomposers (e.g., bread mold). A wrong answer such as \"plants, animals, bacteria\" without the functional labels reveals the student is recalling taxonomic groups instead of energy-based roles.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a mushroom considered a decomposer and not a consumer, even though both obtain energy from other organisms?",
+     "a": "A mushroom secretes enzymes onto dead matter to digest it externally and absorbs the resulting nutrients, recycling them into the environment. A consumer ingests whole food and digests it internally. If a student says \"both eat dead things,\" they confuse the mode of nutrition (external vs. internal digestion) and miss the nutrient-recycling role.",
+     "self_check": true
+    },
+    {
+     "q": "In a pond ecosystem, you observe: (a) algae, (b) tadpole, (c) water beetle, (d) bacteria on dead leaves. Classify each as producer, consumer, or decomposer and justify each classification in one sentence.",
+     "a": "(a) Algae – producer (photosynthesizes). (b) Tadpole – consumer (eats algae). (c) Water beetle – consumer (eats tadpoles/insects). (d) Bacteria – decomposer (breaks down dead leaves). A wrong classification like \"tadpole is a producer because it lives in water\" shows the student uses habitat instead of nutrition mode.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy flow path in a forest ecosystem when (i) a deer eats grass and (ii) a fungus grows on a dead deer. How does the direction and form of energy transfer differ?",
+     "a": "In (i), chemical energy in grass moves to deer via ingestion; in (ii), chemical energy in dead deer moves to fungus via external digestion and absorption, with much energy released as heat. A student who says \"both transfer energy the same way\" misses that decomposers release energy as heat during decomposition and recycle nutrients, while consumers store energy in biomass.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If all decomposers disappeared, producers would grow better because more nutrients would stay in the soil.\" Evaluate this statement and explain why it is correct or incorrect.",
+     "a": "Incorrect. Decomposers break down dead organisms and release inorganic nutrients (nitrates, phosphates) that producers absorb. Without decomposers, nutrients would remain locked in dead matter, causing nutrient depletion and reduced producer growth. A student agreeing with the claim misunderstands the nutrient cycle and thinks nutrients are \"lost\" to decomposers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple week-long observation experiment using household items to demonstrate the difference between a consumer and a decomposer. List materials, procedure, and what you would record.",
+     "a": "Materials: Two slices of bread, a small piece of cheese, a transparent container, a magnifying glass. Procedure: Place bread in container (decomposer test) and cheese in another (consumer test – introduce an ant if safe, or observe cheese alone). Record daily: appearance, smell, organisms visible. Expected: Bread develops mold (decomposer) breaking it down; cheese may be eaten by ant (consumer) or also mold. A poor answer uses only one food item or does not distinguish external vs. internal digestion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

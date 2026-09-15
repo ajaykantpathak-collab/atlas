@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_041",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_041",
+   "title": "c6_physics_ch11_041",
+   "questions": [
+    {
+     "q": "What happens to the image if you make the pinhole very large?",
+     "a": "The image becomes blurry or disappears entirely because too much light enters from different angles, causing the rays to overlap. A wrong answer suggests the student thinks a larger hole acts like a \"bigger window,\" not realizing that the sharpness of the image depends on the pinhole restricting light to a single, straight path.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold a pinhole camera to look at a tree, why is the image of the top of the tree at the bottom of the screen?",
+     "a": "Because light travels in a straight line from the top of the tree, through the pinhole, and continues in that same straight path to the bottom of the screen. A wrong answer suggests the student thinks the \"camera flips it,\" missing the physical fact that the path of the light ray itself is responsible for the inversion.",
+     "self_check": true
+    },
+    {
+     "q": "If an object is moved closer to the pinhole, what happens to the size of the image on the screen?",
+     "a": "The image becomes larger. As the object moves closer, the angle of the light rays passing through the pinhole increases, causing the projection to spread over a larger area on the screen. A wrong answer reveals the student hasn't visualized the geometry of the light paths converging at the hole.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the image formed by a pinhole camera called a \"real\" image?",
+     "a": "It is real because the light rays actually meet on the screen to form the image, rather than just appearing to originate from behind a mirror. A wrong answer shows confusion between \"real images\" (which can be caught on a screen) and \"virtual images\" (which cannot).",
+     "self_check": true
+    },
+    {
+     "q": "Can a pinhole camera work if the box is not perfectly light-tight?",
+     "a": "No, because extra light entering from other gaps would wash out the faint image formed by the pinhole. Students who say \"yes\" do not understand that the image is a low-intensity projection that requires a dark environment to be visible.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that light travels in straight lines using a pinhole camera.",
+     "a": "Place two objects of different colors at different heights in front of the pinhole; if the images appear inverted and in the same relative order, it proves the rays crossed. A poor answer lacks a clear way to track individual light paths or fails to connect the inversion to the straight-line path.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

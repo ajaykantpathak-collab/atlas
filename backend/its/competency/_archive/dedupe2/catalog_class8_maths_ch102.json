@@ -1,0 +1,388 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Linear Equations in One Variable",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh102.txt",
+ "concepts": [
+  {
+   "id": "hemh.102.2.1",
+   "title": "Linear Equations in One Variable Basics and Verification",
+   "section": "2.1",
+   "definition": "An algebraic statement comparing two expressions with a single variable exponent of one, verified when LHS equals RHS.",
+   "formula": "LHS = RHS",
+   "key_idea": "A valid solution to a linear equation makes the left-hand side expression equal to the right-hand side expression.",
+   "textbook_ref": "hemh102.txt lines 1-35",
+   "question_patterns": [
+    "in Class 8 linear equations: verify if x = {val} is a solution to {eq}",
+    "check whether {val} satisfies the linear equation",
+    "determine if {val} is the root of the given equation",
+    "test if substituting {val} makes LHS equal to RHS",
+    "is {val} a valid solution for the algebraic equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate LHS",
+     "explain": "Substitute the value of the variable into the left hand side expression."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate RHS",
+     "explain": "Substitute the value of the variable into the right hand side expression."
+    },
+    {
+     "step": 3,
+     "action": "Compare sides",
+     "explain": "Check if LHS equals RHS; if equal, the given value is a valid solution."
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.2",
+   "title": "Solving Linear Equations with Variable Terms on Both Sides",
+   "section": "2.2",
+   "definition": "Linear equations of the structure a*x + b = c*x + d where variable terms are present on both sides of the equal sign.",
+   "formula": "x = (d - b) / (a - c)",
+   "key_idea": "Group variable terms onto one side and constant values onto the opposite side via transposition.",
+   "textbook_ref": "hemh102.txt lines 36-70",
+   "question_patterns": [
+    "in Class 8 linear equations: solve for x in {a}x + {b} = {c}x + {d}",
+    "calculate the value of variable x when {a}x + {b} = {c}x + {d}",
+    "find the solution of linear equation {a}x + {b} = {c}x + {d}",
+    "determine the unknown x satisfying {a}x + {b} = {c}x + {d}",
+    "what is the value of x in {a}x + {b} = {c}x + {d}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract constant b from d",
+     "explain": "Transpose constant b from left hand side to right hand side.",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract coefficient c from a",
+     "explain": "Transpose variable term c*x from right hand side to left hand side.",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "Divide difference of constants by difference of coefficients",
+     "explain": "Isolate variable x.",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.3",
+   "title": "Solving Linear Equations with Parentheses",
+   "section": "2.3",
+   "definition": "Linear equations containing brackets requiring distribution of factors across terms prior to combining like terms.",
+   "formula": "x = (k - a * b) / a",
+   "key_idea": "Expand brackets using the distributive law before collecting variable terms and constants.",
+   "textbook_ref": "hemh102.txt lines 71-110",
+   "question_patterns": [
+    "in Class 8 linear equations: solve {a}(x + {b}) = {k}",
+    "calculate x from equation {a}(x + {b}) = {k}",
+    "find the value of variable in {a}(x + {b}) = {k}",
+    "determine the root of {a}(x + {b}) = {k}",
+    "what is x when {a}(x + {b}) = {k}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply inside constant by factor",
+     "explain": "Apply distributive law a*(x + b) = a*x + a*b.",
+     "compute": "const_term = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract product from right hand constant",
+     "explain": "Transpose const_term to the right hand side.",
+     "compute": "rhs_val = k - const_term"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Isolate variable x.",
+     "compute": "x = rhs_val / a"
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.4",
+   "title": "Reducing Equations with Rational Denominators",
+   "section": "2.3",
+   "definition": "Linear equations containing rational terms cleared by multiplying both sides by the denominator.",
+   "formula": "x = (c * m - b) / a",
+   "key_idea": "Multiplying every term by the denominator removes fractions to form a simple linear equation.",
+   "textbook_ref": "hemh102.txt lines 75-130",
+   "question_patterns": [
+    "in Class 8 linear equations: solve (a*x + b)/m = c",
+    "find x from rational equation (a*x + b)/m = c",
+    "calculate the variable x when (a*x + b)/m = c",
+    "determine the solution for (a*x + b)/m = c",
+    "what is x in the linear equation (a*x + b)/m = c"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply right side constant c by denominator m",
+     "explain": "Clear denominator by multiplying both sides by m.",
+     "compute": "prod = c * m"
+    },
+    {
+     "step": 2,
+     "action": "Subtract b from product",
+     "explain": "Transpose constant b to the right hand side.",
+     "compute": "num = prod - b"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Isolate variable x.",
+     "compute": "x = num / a"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh102.txt lines 45-55",
+   "concept": "hemh.102.2.2",
+   "question_type": "solve_linear_equation",
+   "question_pattern": "in Class 8 linear equations: solve for x in {a}x + {b} = {c}x + {d}",
+   "extracted_variables": {
+    "a": 2,
+    "b": -3,
+    "c": 1,
+    "d": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract constant b from d",
+     "explain": "Transpose constant -3 from LHS to RHS.",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract coefficient c from a",
+     "explain": "Transpose variable term 1x from RHS to LHS.",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "Divide difference of constants by difference of coefficients",
+     "explain": "Isolate variable x.",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh102.txt line 65",
+   "concept": "hemh.102.2.2",
+   "question_type": "solve_linear_equation",
+   "question_pattern": "in Class 8 linear equations: solve for x in {a}x + {b} = {c}x + {d}",
+   "extracted_variables": {
+    "a": 3,
+    "b": 0,
+    "c": 2,
+    "d": 18
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract constant b from d",
+     "explain": "Transpose constant 0 to RHS.",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract coefficient c from a",
+     "explain": "Transpose variable term 2x to LHS.",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "Divide difference of constants by difference of coefficients",
+     "explain": "Isolate variable x.",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh102.txt line 115",
+   "concept": "hemh.102.2.3",
+   "question_type": "solve_with_parentheses",
+   "question_pattern": "in Class 8 linear equations: solve {a}(x + {b}) = {k}",
+   "extracted_variables": {
+    "a": 3,
+    "b": -3,
+    "k": 21
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply inside constant by factor",
+     "explain": "Apply distributive law 3*(x - 3) = 3*x - 9.",
+     "compute": "const_term = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract product from right hand constant",
+     "explain": "Transpose -9 to RHS.",
+     "compute": "rhs_val = k - const_term"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Isolate x.",
+     "compute": "x = rhs_val / a"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh102.txt line 118",
+   "concept": "hemh.102.2.3",
+   "question_type": "solve_with_parentheses",
+   "question_pattern": "in Class 8 linear equations: solve {a}(x + {b}) = {k}",
+   "extracted_variables": {
+    "a": 3,
+    "b": -3,
+    "k": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply inside constant by factor",
+     "explain": "Apply distributive law.",
+     "compute": "const_term = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract product from right hand constant",
+     "explain": "Transpose constant term.",
+     "compute": "rhs_val = k - const_term"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Isolate variable x.",
+     "compute": "x = rhs_val / a"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh102.txt line 75",
+   "concept": "hemh.102.2.4",
+   "question_type": "solve_rational_equation",
+   "question_pattern": "in Class 8 linear equations: solve (a*x + b)/m = c",
+   "extracted_variables": {
+    "a": 2,
+    "b": 1,
+    "m": 3,
+    "c": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply right side constant c by denominator m",
+     "explain": "Clear denominator 3.",
+     "compute": "prod = c * m"
+    },
+    {
+     "step": 2,
+     "action": "Subtract b from product",
+     "explain": "Transpose 1 to RHS.",
+     "compute": "num = prod - b"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Isolate variable x.",
+     "compute": "x = num / a"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh102.txt line 77",
+   "concept": "hemh.102.2.4",
+   "question_type": "solve_rational_equation",
+   "question_pattern": "in Class 8 linear equations: solve (a*x + b)/m = c",
+   "extracted_variables": {
+    "a": 6,
+    "b": 1,
+    "m": 3,
+    "c": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply right side constant c by denominator m",
+     "explain": "Multiply 3 by denominator 3.",
+     "compute": "prod = c * m"
+    },
+    {
+     "step": 2,
+     "action": "Subtract b from product",
+     "explain": "Subtract 1 from 9.",
+     "compute": "num = prod - b"
+    },
+    {
+     "step": 3,
+     "action": "Divide by coefficient a",
+     "explain": "Divide by coefficient 6.",
+     "compute": "x = num / a"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hemh102.txt lines 65-70",
+   "questions": [
+    "Solve: 3x = 2x + 18",
+    "Solve: 5t - 3 = 3t - 5",
+    "Solve: 5x + 9 = 5 + 3x",
+    "Solve: 4z + 3 = 6 + 2z",
+    "Solve: 2x - 1 = 14 - x",
+    "Solve: 8x + 4 = 3 (x - 1) + 7",
+    "Solve: x = 4/5 (x + 10)",
+    "Solve: 2x/3 + 1 = 7x/15 + 3",
+    "Solve: 2y + 5/3 = 26/3 - y",
+    "Solve: 3m = 5m - 8/5"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hemh102.txt lines 112-125",
+   "questions": [
+    "Solve: x/2 - 1/5 = x/3 + 1/4",
+    "Solve: n/2 - 3n/4 + 5n/6 = 21",
+    "Solve: x + 7 - 8x/3 = 17/6 - 5x/2",
+    "Solve: (x - 5)/3 = (x - 3)/5",
+    "Solve: (3t - 2)/4 - (2t + 3)/3 = 2/3 - t",
+    "Solve: m - (m - 1)/2 = 1 - (m - 2)/3",
+    "Simplify and solve: 3(t - 3) = 5(2t + 1)",
+    "Simplify and solve: 15(y - 4) - 2(y - 9) + 5(y + 6) = 0",
+    "Simplify and solve: 3(5z - 7) - 2(9z - 11) = 4(8z - 13) - 17",
+    "Simplify and solve: 0.25(4f - 3) = 0.05(10f - 9)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

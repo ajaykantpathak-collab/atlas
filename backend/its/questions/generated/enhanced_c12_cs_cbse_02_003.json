@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_003",
+   "title": "c12_cs_cbse_02_003",
+   "questions": [
+    {
+     "q": "In a star topology with 15 nodes connected to a central switch, how many dedicated point-to-point links exist between nodes and the central device?",
+     "a": "15 links. Each node has exactly one dedicated cable connecting it to the central switch. A common wrong answer is 105 (calculating 15×14/2), which reveals the student is confusing star topology with mesh topology where every node connects to every other node. Another error is 14, thinking the central device doesn't count as a connection endpoint. The correct reasoning: count the cables radiating from the switch — one per node.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Star topology is better than bus topology because it uses less cable.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. Star topology typically uses MORE cable than bus topology because each node requires a separate cable run to the central device, whereas bus topology uses a single backbone cable with short drop cables. A student who agrees reveals a misconception that \"better\" always means \"less cable.\" The trade-off: star spends more on cabling to gain fault isolation, easier troubleshooting, and higher performance. The correct comparison: star = higher cabling cost, bus = lower cabling cost but single point of failure on the backbone.",
+     "self_check": true
+    },
+    {
+     "q": "In a star network using a hub (not a switch), Node A sends a data frame to Node B. Describe the exact path the frame takes and what the hub does with it.",
+     "a": "Path: Node A → dedicated cable → Hub → broadcasts frame out ALL other ports → dedicated cables → all nodes (including B) receive it. Node B accepts it; others discard it after checking destination MAC. A wrong answer like \"Hub sends it only to Node B\" reveals confusion between hub (Layer 1 repeater, broadcasts) and switch (Layer 2, forwards selectively). Another error: \"Frame goes A → Hub → B directly\" misses the broadcast nature of hubs. Key insight: hubs create a single collision domain; switches create separate collision domains per port.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fault tolerance of star topology vs bus topology when: (a) one node's network cable is cut, (b) the central device (hub/switch) fails, (c) the backbone cable in bus topology is cut. Present as a 3-row comparison table.",
+     "a": "| Failure Scenario | Star Topology Impact | Bus Topology Impact |\n|------------------|---------------------|---------------------|\n| (a) One node cable cut | Only that node disconnected; rest unaffected | Only that node disconnected; rest unaffected |\n| (b) Central device fails | ENTIRE NETWORK DOWN — single point of failure | N/A (no central device) |\n| (c) Backbone cable cut | N/A (no backbone) | ENTIRE NETWORK DOWN — single point of failure |\n\nA student who says \"star has no single point of failure\" misses the central device vulnerability. A student who says \"bus is more fault-tolerant\" ignores that both have single points of failure, just at different locations. The nuanced answer: star isolates node failures better but concentrates risk at the center; bus distributes risk along the backbone but any backbone break kills all.",
+     "self_check": true
+    },
+    {
+     "q": "A small business has 8 workstations, 1 server, and 1 network printer. They currently use bus topology with coaxial cable. The owner wants to upgrade to star topology using Cat6 UTP and a 16-port switch. Evaluate this upgrade proposal on four criteria: (1) cabling cost, (2) future scalability, (3) fault isolation, (4) performance for file transfers to the server. Justify each.",
+     "a": "(1) Cabling cost: INCREASES — star requires 10 separate Cat6 runs (8 workstations + server + printer) vs one coaxial backbone with 10 short taps. Cat6 is pricier than coax per meter. (2) Scalability: IMPROVES — adding an 11th device means one new cable run to switch; bus requires tapping backbone (disrupts network) and signal degradation limits nodes. (3) Fault isolation: IMPROVES — cable cut affects one device; bus backbone cut kills all. (4) Performance: IMPROVES — switch provides dedicated 1 Gbps per port (full duplex); bus shares 10 Mbps half-duplex with collisions. Overall: upgrade justified despite higher initial cabling cost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a star topology network for a 3-floor office building with 12 workstations per floor. Each floor has a wiring closet. You have one central server room in the basement. Sketch the hierarchy (text description OK) and specify: (a) where switches go, (b) how floors connect to basement, (c) what cabling standard you'd use for horizontal vs backbone runs, (d) one reason to use a core switch in basement vs connecting all floor switches directly to server.",
+     "a": "(a) One 16-port access switch per floor in each wiring closet (12 workstations + 1 uplink + 3 spare). (b) Each floor switch uplinks via fiber (or Cat6a) to a core switch in basement server room. (c) Horizontal runs (switch to workstation): Cat6 UTP (100m max). Backbone runs (floor switch to core): Cat6a or multimode fiber (OM3/OM4) for 1/10 Gbps over longer distances. (d) Core switch aggregates traffic, provides single management point, enables VLANs/inter-VLAN routing, and reduces server port count — connecting 3 floor switches directly to server would need 3 server NICs/ports and no traffic aggregation. A flat design (all to server) lacks scalability and traffic control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

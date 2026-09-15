@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_002",
+   "title": "c12_ip_cbse_04_002",
+   "questions": [
+    {
+     "q": "What is the fundamental difference in *what* copyright and patent protect? Give one example of subject matter for each.",
+     "a": "Copyright protects original *expression* of ideas (e.g., software code, novel, song) — not the idea itself. Patent protects a novel, non-obvious, useful *invention/process* (e.g., a new encryption algorithm, a drug formulation). A wrong answer like \"both protect ideas\" or \"copyright protects algorithms\" reveals confusion between expression vs. invention — a classic board exam error where students assign patent protection to code or copyright to functional methods.",
+     "self_check": true
+    },
+    {
+     "q": "\"Registration is mandatory for copyright protection in India.\" True or False? Justify your answer with the relevant Act and section.",
+     "a": "False. Under the **Copyright Act, 1957 (Section 13 read with Section 17)**, copyright arises *automatically* upon creation of an original work fixed in a tangible medium — registration is *not* mandatory for protection, though it serves as prima facie evidence in court (Section 48). A student answering \"True\" confuses copyright with patent/trademark where registration *is* mandatory for enforceable rights. This error costs 1-2 marks in board short-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "A startup develops a new AI-based language translation *method* (algorithm) and writes the Python code implementing it. They also design a distinctive logo \"LinguaLeap\". Identify which IPR protects each component and state whether registration is required for enforcement in India.",
+     "a": "1. **Python code** → Copyright (automatic, no registration needed for protection). 2. **Translation algorithm/method** → Patent (registration *mandatory* under Patents Act 1970; software *per se* not patentable, but a technical method with hardware interaction may be). 3. **Logo \"LinguaLeap\"** → Trademark (registration *mandatory* for statutory enforcement under Trademarks Act 1999; unregistered marks have only common law passing-off remedy). A wrong mapping (e.g., patent for code, copyright for algorithm) shows failure to distinguish functional vs. expressive vs. identificatory subject matter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *duration* of protection for copyright (literary work), patent, and trademark in India. Why does trademark protection potentially last forever while patent expires in 20 years? Explain the policy rationale.",
+     "a": "- **Copyright (literary work)**: Life of author + 60 years (Section 22, Copyright Act 1957).  \n- **Patent**: 20 years from filing date (Section 53, Patents Act 1970).  \n- **Trademark**: 10 years, renewable indefinitely every 10 years (Section 25, Trademarks Act 1999).  \n**Rationale**: Patents grant a *monopoly on a technical solution* — limited to 20 years to balance inventor reward with public access to technology. Trademarks protect *consumer identification* — as long as the mark distinguishes source, protection continues to prevent consumer confusion. Copyright balances author incentive with eventual public domain entry. A student saying \"all last 20 years\" or \"trademark lasts 60 years\" misses the policy distinction between incentivising innovation (patent) vs. protecting market identity (trademark).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since computer programs are literary works under copyright, the *algorithm* implemented in the code is also protected by copyright.\" Is this correct? Use the idea-expression dichotomy and Section 13 of the Copyright Act 1957 to justify.",
+     "a": "**Incorrect.** Copyright protects the *expression* (the specific code, structure, sequence) — **not** the underlying idea, algorithm, method, or mathematical concept (Section 13: \"original literary... works\" but excludes \"any idea, procedure, process, system, method of operation, concept, principle, or discovery\"). The algorithm is a *method of operation* — protectable by *patent* (if novel/non-obvious), not copyright. This is the **most tested misconception** in CBSE/IP board papers and CUET: students conflate code copyright with algorithm protection. Correct answer must cite *idea-expression dichotomy* and the statutory exclusion in Section 13.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a student's Class 12 IP project (a Python program with a unique database optimization technique and a project name/logo) where *all three* IPRs — copyright, patent, trademark — could apply simultaneously. Specify what each protects and one practical step the student should take for each.",
+     "a": "**Scenario**: \"Riya builds 'SmartStock' — a Python inventory manager with a novel *predictive restocking algorithm* (technical effect: reduces waste by 30%), and brands it with a logo '📦 SmartStock'.\"  \n- **Copyright**: Protects the *source code* (automatic); Step: Keep dated backups/Git history as evidence of authorship.  \n- **Patent**: Protects the *algorithm* (if novel/non-obvious/useful); Step: File *provisional patent application* **before** publishing code/project report (public disclosure kills novelty).  \n- **Trademark**: Protects the *name/logo*; Step: File TM application (Form TM-A) under Class 9 (software) + Class 42 (SaaS) *before* public launch.  \nA poor answer lists only one IPR or misses the *pre-disclosure patent filing* requirement — a critical practical trap for student innovators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

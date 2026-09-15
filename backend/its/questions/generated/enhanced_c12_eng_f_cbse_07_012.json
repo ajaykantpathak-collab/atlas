@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_07_012",
+   "title": "c12_eng_f_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the key difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"How many novels has Eco written?\"), while an inferential question asks for meaning implied but not explicitly stated (e.g., \"Why does Eco say he writes novels 'on Sundays'?\"). A wrong answer that defines both as \"questions about the text\" reveals inability to distinguish explicit vs. implicit meaning — a critical error in board exams where question typology determines answer strategy.",
+     "self_check": true
+    },
+    {
+     "q": "In Part I, the text states: \"V. S. Naipaul 'feels that some people are wounded by interviews and lose a part of themselves.'\" Is this a literal or inferential statement about Naipaul's view? Justify.",
+     "a": "This is a literal statement — the text directly reports Naipaul's feeling using his own words (as cited by Silvester). A student who calls it inferential confuses reported speech with implication; the text does not require deduction here, it explicitly attributes the view to Naipaul. Misclassifying leads to over-complicating simple retrieval questions in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction: From Eco's statement \"I work in empty spaces. While waiting for your elevator to come up from the first to the third floor, I have already written an article!\" — write one literal question and one inferential question a board examiner might ask.",
+     "a": "Literal: \"What does Eco do while waiting for an elevator?\" (Answer: writes an article). Inferential: \"What does Eco's use of 'interstices' reveal about his approach to time?\" (Answer: He values micro-intervals and turns idle moments into productive writing slots). A student who writes two literal questions misses the inferential layer that carries higher marks in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze: The interviewer Mukund asks, \"Could the huge success of the novel have anything to do with the fact that it dealt with a period of medieval history that...\" and Eco replies, \"That's possible. But let me tell you another story...\" Why does Eco deflect the question? Use textual evidence.",
+     "a": "Eco deflects because he believes the success is a mystery (\"Nobody can predict it\") and timing matters (\"if I had written... ten years earlier or later, it wouldn't have been the same\"). The inference: Eco rejects deterministic explanations for literary success, emphasizing unpredictability. A student who only cites \"That's possible\" misses the follow-up evidence and fails to analyze the speaker's stance — a common error in \"analyze the speaker's attitude\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Is the statement \"Eco considers himself primarily a novelist\" true, false, or inferentially false based on the text? Defend with evidence.",
+     "a": "Inferentially false. Eco explicitly says: \"I consider myself a university professor who writes novels on Sundays... I identify myself with the academic community.\" The text directly contradicts the statement. A student who answers \"true\" because Eco is famous for novels commits the \"fame equals identity\" fallacy — confusing public perception with self-identification, a trap in inference questions about authorial voice.",
+     "self_check": true
+    },
+    {
+     "q": "Create: Write an inferential question about Part I that requires synthesizing views of at least two celebrities (e.g., Naipaul, Kipling, Wells, Bellow) and provide a model answer with two textual supports.",
+     "a": "Question: \"How do the celebrities cited in Part I collectively view the interview as an intrusion?\" Model answer: They see it as a violation — Naipaul feels \"wounded\" and losing \"a part of themselves,\" Kipling calls it \"immoral,\" \"a crime,\" \"cowardly and vile,\" and Bellow compares it to \"thumbprints on his windpipe.\" A poor answer lists names without synthesizing the shared metaphor of violation/assault, missing the comparative inference skill tested in higher-order questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

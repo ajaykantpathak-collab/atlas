@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_012",
+   "title": "c10_math_cbse_01_012",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: Write the prime factorisation of 144 and 192, and then state the HCF of 144 and 192.",
+     "a": "144 = 2⁴ × 3², 192 = 2⁶ × 3¹. HCF = 2⁴ × 3¹ = 16 × 3 = 48. A wrong answer (e.g., HCF = 96 or 12) reveals the student either multiplied all common factors with the highest powers (LCM error) or missed a common prime factor (incomplete factorisation).",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: In the gift pack problem above, why do we use HCF and not LCM? Explain in your own words.",
+     "a": "We use HCF because we are dividing the total items into the largest possible number of identical groups (packs) with no remainder. LCM would give a number larger than both totals, which is impossible for making packs from given items. A wrong answer (e.g., \"LCM gives the smallest number\") shows the student confuses the purpose of HCF (largest divisor) and LCM (smallest multiple).",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: Three traffic lights change after 48 seconds, 72 seconds, and 108 seconds respectively. If they change simultaneously at 8:00 AM, at what time will they change together again?",
+     "a": "Step 1: Identify numbers: 48, 72, 108. Step 2: Key phrase \"change together again\" → LCM. Step 3: Prime factorisation: 48 = 2⁴ × 3¹, 72 = 2³ × 3², 108 = 2² × 3³. Step 4: LCM = 2⁴ × 3³ = 16 × 27 = 432 seconds. Step 5: Convert 432 seconds = 7 minutes 12 seconds. Step 6: 8:00 AM + 7 min 12 sec = 8:07:12 AM. A wrong answer (e.g., using HCF = 12 seconds) reveals the student cannot distinguish \"simultaneous repetition\" (LCM) from \"maximum grouping\" (HCF).",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the two problems: (A) Find the greatest number that divides 245 and 1029 leaving remainder 5 in each case. (B) Find the smallest number that when divided by 245 and 1029 leaves remainder 5 in each case. State which uses HCF and which uses LCM, and explain how the remainder changes the numbers used.",
+     "a": "(A) uses HCF of (245-5)=240 and (1029-5)=1024. (B) uses LCM of 245 and 1029, then adds 5. The remainder 5 is subtracted in (A) because we need a number that divides the reduced numbers exactly; in (B) the remainder is added after finding the LCM because the required number is 5 more than a common multiple. A wrong assignment (e.g., using LCM for A) shows the student does not understand how remainders shift the problem between exact division and common multiples.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student solved: \"Find the greatest number of 4 digits exactly divisible by 12, 18, and 24.\" Their working: LCM of 12, 18, 24 = 72. Greatest 4-digit number = 9999. 9999 ÷ 72 = 138 remainder 63. Answer = 9999 - 63 = 9936. Is this correct? Justify.",
+     "a": "Yes, correct. The student correctly found LCM = 72 (since the number must be a multiple of all three). The largest 4-digit multiple of 72 is found by subtracting the remainder from 9999. 9936 is divisible by 72, hence by 12, 18, 24. A wrong evaluation (e.g., saying HCF should be used) indicates the student thinks \"greatest number\" always means HCF, missing that \"divisible by 12, 18, 24\" makes it a common multiple problem.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Write a real-life word problem (Indian context: rupees, metres, litres) that requires finding the LCM of three numbers where one number is a prime, and the other two are composite. Provide the solution.",
+     "a": "Example: Three bells ring at intervals of 7 minutes (prime), 12 minutes, and 15 minutes. If they ring together at 9:00 AM, when will they next ring together? Solution: LCM(7, 12, 15) = 7 × 2² × 3 × 5 = 420 minutes = 7 hours. Next time = 4:00 PM. A poor problem (e.g., using HCF context or only two numbers) shows the student cannot design a situation that necessitates LCM of three numbers with mixed prime/composite nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

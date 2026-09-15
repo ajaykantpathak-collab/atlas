@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_012",
+   "title": "c12_cs_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the minimum requirement for a directory to be considered a Python package?",
+     "a": "The directory must contain a file named `__init__.py` (which can be empty). A wrong answer (e.g., \"it must contain at least one .py file\" or \"it must have a setup.py\") reveals the student confuses a package with a mere collection of modules or a distributable project. The presence of `__init__.py` is the defining marker for regular packages (pre-PEP 420).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when Python executes `import mypackage` for the first time, assuming `mypackage` is a directory with `__init__.py`.",
+     "a": "Python locates the directory, executes the code in `__init__.py` (which runs once per interpreter session), and creates a module object representing the package. The package's namespace is populated with any names defined in `__init__.py`. A wrong answer like \"it imports all .py files in the directory automatically\" shows the student thinks packages auto-import submodules — they do not; submodules must be explicitly imported in `__init__.py` or by the user.",
+     "self_check": true
+    },
+    {
+     "q": "Given a package structure:\n```\nutils/\n    __init__.py\n    math.py\n    string.py\n```\nwhere `math.py` defines `def add(a, b): return a + b`, write the exact import statement to use `add` in a script outside `utils`, and then write the code inside `__init__.py` to make `from utils import add` work directly.",
+     "a": "Import statement: `from utils.math import add`. In `__init__.py`: `from .math import add` (or `from utils.math import add`). A wrong answer using `import utils.math.add` (invalid) or forgetting the relative import dot reveals confusion between absolute/relative imports and the role of `__init__.py` in re-exporting names.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effect of `__all__ = ['foo', 'bar']` in `__init__.py` versus not defining `__all__` at all. What does `from package import *` do in each case?",
+     "a": "With `__all__`, `from package import *` imports only the listed names. Without `__all__`, it imports all names defined in `__init__.py` that do not start with an underscore. A wrong answer claiming `__all__` affects explicit imports like `from package import foo` shows misunderstanding: `__all__` only controls star-import behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `from . import module` inside `package/subpackage/module.py` and gets an `ImportError: attempted relative import with no known parent package`. Evaluate why this happens and how to fix it without changing the directory structure.",
+     "a": "The error occurs because the script is run directly (e.g., `python package/subpackage/module.py`), so Python doesn't recognize the package hierarchy. Fix: run from the parent directory of `package` using `python -m package.subpackage.module` or restructure the entry point. A wrong answer suggesting \"add `__init__.py` to the current directory\" misses that it already exists; the issue is execution context, not missing files.",
+     "self_check": true
+    },
+    {
+     "q": "Design a package `geometry` with subpackages `shapes2d` and `shapes3d`. Each subpackage has modules `circle.py`, `square.py` and `sphere.py`, `cube.py` respectively. Write the `__init__.py` for `geometry` so that `from geometry import circle, sphere` works, and also allow `from geometry.shapes2d import *` to import only `circle` and `square` (not internal helpers). Show the directory tree and all `__init__.py` contents.",
+     "a": "Directory tree:\n```\ngeometry/\n    __init__.py\n    shapes2d/\n        __init__.py\n        circle.py\n        square.py\n    shapes3d/\n        __init__.py\n        sphere.py\n        cube.py\n```\n`geometry/__init__.py`:\n```python\nfrom .shapes2d import circle, square\nfrom .shapes3d import sphere, cube\n__all__ = ['circle', 'square', 'sphere', 'cube']\n```\n`geometry/shapes2d/__init__.py`:\n```python\nfrom .circle import Circle\nfrom .square import Square\n__all__ = ['Circle', 'Square']\n```\n(Similarly for `shapes3d`.) A poor answer omits `__all__` in subpackages or uses absolute imports inside the package, which breaks portability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

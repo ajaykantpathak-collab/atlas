@@ -1,0 +1,491 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 5,
+ "chapter_title": "Measures of Central Tendency",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest105.txt",
+ "concepts": [
+  {
+   "id": "c11eco.3.1",
+   "title": "Arithmetic Mean (Ungrouped Data)",
+   "section": "Measures of Central Tendency",
+   "definition": "The arithmetic mean is the sum of all observations divided by the total number of observations, giving a single representative value of the data set.",
+   "formula": "mean = sum(x_i) / n",
+   "key_idea": "The mean balances the data so that the total of deviations above and below it cancel out.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the arithmetic mean of the given ungrouped data",
+    "find the mean of the following observations",
+    "compute the average of the data set provided",
+    "determine the mean income from the list of values",
+    "calculate the mean marks obtained by students"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum all observations in the data set",
+     "explain": "Add every individual value x_i together to get the total sum."
+    },
+    {
+     "step": 2,
+     "action": "Count the number of observations",
+     "explain": "Determine n, the total count of data points in the set.",
+     "compute": "data_total"
+    },
+    {
+     "step": 3,
+     "action": "Divide the total by the count",
+     "explain": "Divide the sum of observations by the number of observations to obtain the mean.",
+     "compute": "total / n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mean of the data: 10, 20, 30, 40, 50.",
+     "solution": "Step 1: Sum = 10 + 20 + 30 + 40 + 50 = 150. Step 2: Number of observations n = 5. Step 3: Mean = 150 / 5 = 30.",
+     "answer": "Mean = 30"
+    },
+    {
+     "question": "The daily wages of 5 workers are Rs 100, Rs 150, Rs 200, Rs 250, Rs 300. Calculate the mean wage.",
+     "solution": "Step 1: Sum = 100 + 150 + 200 + 250 + 300 = 1000. Step 2: n = 5. Step 3: Mean = 1000 / 5 = 200.",
+     "answer": "Mean wage = Rs 200"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the mean of the following data: 5, 15, 25, 35, 45.",
+     "type": "short_answer"
+    },
+    {
+     "question": "The marks of 6 students are 48, 56, 72, 64, 80, 60. Find the mean mark.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.2",
+   "title": "Median (Ungrouped Data)",
+   "section": "Measures of Central Tendency",
+   "definition": "The median is the middle value of an ordered data set that divides the observations into two equal halves, with half the values below and half above it.",
+   "formula": "median = middle value (odd n) or average of two middle values (even n)",
+   "key_idea": "The median is unaffected by extreme values and is found after arranging data in ascending or descending order.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the median of the given ungrouped data",
+    "determine the middle value of the ordered data set",
+    "calculate the median for an even number of observations",
+    "compute the median income from the given list",
+    "find the median marks of the students"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Arrange the data in ascending order",
+     "explain": "Sort all observations from smallest to largest so the middle position can be located."
+    },
+    {
+     "step": 2,
+     "action": "Determine the position of the median",
+     "explain": "If n is odd, the median is at position (n+1)/2. If n is even, the median is the average of values at positions n/2 and (n/2)+1."
+    },
+    {
+     "step": 3,
+     "action": "Extract or average the middle value(s)",
+     "explain": "For odd n take the single middle value; for even n take the average of the two central values."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the median of: 25, 10, 40, 15, 30.",
+     "solution": "Step 1: Sorted data = 10, 15, 25, 30, 40. Step 2: n = 5 (odd), median position = (5+1)/2 = 3rd value. Step 3: Median = 25.",
+     "answer": "Median = 25"
+    },
+    {
+     "question": "Find the median of: 8, 3, 15, 12, 20, 7.",
+     "solution": "Step 1: Sorted data = 3, 7, 8, 12, 15, 20. Step 2: n = 6 (even), median is average of 3rd and 4th values. Step 3: Median = (8 + 12) / 2 = 10.",
+     "answer": "Median = 10"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the median of: 45, 20, 35, 60, 25, 50.",
+     "type": "short_answer"
+    },
+    {
+     "question": "The ages of 7 people are 12, 18, 25, 30, 40, 55, 70. Find the median age.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.3",
+   "title": "Mode (Ungrouped Data)",
+   "section": "Measures of Central Tendency",
+   "definition": "The mode is the value that occurs most frequently in a data set, representing the observation with the highest frequency.",
+   "formula": "mode = value with maximum frequency",
+   "key_idea": "A data set may be unimodal (one mode), bimodal (two modes), or have no mode if all values occur equally.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the mode of the given ungrouped data",
+    "identify the most frequent value in the data set",
+    "determine the mode of the following observations",
+    "calculate the modal value of the data",
+    "find the mode and state if the data is unimodal or bimodal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the frequency of each value in the data set",
+     "explain": "Tally how many times each distinct value appears in the observations."
+    },
+    {
+     "step": 2,
+     "action": "Identify the maximum frequency",
+     "explain": "Find the highest count among all the value frequencies."
+    },
+    {
+     "step": 3,
+     "action": "Select the value(s) with the maximum frequency",
+     "explain": "The value with the highest frequency is the mode; if multiple values share the highest frequency, the data is multimodal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mode of: 5, 7, 7, 8, 5, 7, 9, 5, 7.",
+     "solution": "Step 1: Frequencies: 5 appears 3 times, 7 appears 4 times, 8 appears once, 9 appears once. Step 2: Maximum frequency = 4. Step 3: Mode = 7 (appears 4 times).",
+     "answer": "Mode = 7"
+    },
+    {
+     "question": "Find the mode of: 2, 4, 4, 6, 6, 8.",
+     "solution": "Step 1: Frequencies: 2 appears once, 4 appears twice, 6 appears twice, 8 appears once. Step 2: Maximum frequency = 2. Step 3: Modes = 4 and 6 (bimodal).",
+     "answer": "Bimodal: 4 and 6"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the mode of: 10, 20, 20, 30, 40, 20, 50, 30.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether the data 3, 5, 5, 7, 9 has a mode. Justify.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.4",
+   "title": "Range as a Measure of Dispersion",
+   "section": "Measures of Dispersion",
+   "definition": "Range is the simplest measure of dispersion, defined as the difference between the largest and smallest observations in a data set.",
+   "formula": "range = maximum value - minimum value",
+   "key_idea": "Range gives a quick sense of the spread of data but is highly sensitive to extreme values.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the range of the given data",
+    "find the spread of the data set using range",
+    "determine the range of the following observations",
+    "compute the range and interpret the dispersion",
+    "compare the range of two data sets"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the maximum value in the data set",
+     "explain": "Find the largest observation among all the data points.",
+     "compute": "data_total"
+    },
+    {
+     "step": 2,
+     "action": "Identify the minimum value in the data set",
+     "explain": "Find the smallest observation among all the data points.",
+     "compute": "data_total"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the minimum from the maximum",
+     "explain": "The difference between the largest and smallest value gives the range.",
+     "compute": "max_val - min_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the range of: 12, 45, 8, 33, 27, 50.",
+     "solution": "Step 1: Maximum value = 50. Step 2: Minimum value = 8. Step 3: Range = 50 - 8 = 42.",
+     "answer": "Range = 42"
+    },
+    {
+     "question": "The daily temperatures of a week are 30, 32, 28, 35, 31, 29, 34 degrees C. Find the range.",
+     "solution": "Step 1: Maximum temperature = 35. Step 2: Minimum temperature = 28. Step 3: Range = 35 - 28 = 7 degrees C.",
+     "answer": "Range = 7 degrees C"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the range of: 100, 250, 75, 300, 150.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Two data sets have ranges 15 and 50. Which is more dispersed and why?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.5",
+   "title": "Standard Deviation (Ungrouped Data)",
+   "section": "Measures of Dispersion",
+   "definition": "Standard deviation is the positive square root of the average of the squared deviations of each observation from the mean, measuring the absolute dispersion of data around the mean.",
+   "formula": "sigma = sqrt( sum((x_i - mean)^2) / n )",
+   "key_idea": "A lower standard deviation indicates data points are close to the mean, while a higher value indicates greater spread.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the standard deviation of the given data",
+    "find the standard deviation for ungrouped observations",
+    "compute the standard deviation and interpret the result",
+    "determine the dispersion using standard deviation",
+    "compare the standard deviation of two data sets"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the mean of the data",
+     "explain": "Find the arithmetic mean which serves as the reference point for deviations.",
+     "compute": "data_total / n"
+    },
+    {
+     "step": 2,
+     "action": "Compute the sum of squared deviations from the mean",
+     "explain": "For each observation, subtract the mean and square the result, then add all squared deviations."
+    },
+    {
+     "step": 3,
+     "action": "Divide by n and take the square root",
+     "explain": "Divide the sum of squared deviations by the number of observations and take the positive square root to get the standard deviation.",
+     "compute": "(sum_sq_dev / n) ** 0.5"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the standard deviation of: 2, 4, 4, 4, 5, 5, 7, 9.",
+     "solution": "Step 1: Mean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5. Step 2: Squared deviations = (2-5)^2 + 3(4-5)^2 + 2(5-5)^2 + (7-5)^2 + (9-5)^2 = 9 + 3 + 0 + 4 + 16 = 32. Step 3: Variance = 32/8 = 4, SD = sqrt(4) = 2.",
+     "answer": "Standard deviation = 2"
+    },
+    {
+     "question": "Calculate the standard deviation of: 4, 8, 6, 5, 7.",
+     "solution": "Step 1: Mean = (4+8+6+5+7)/5 = 30/5 = 6. Step 2: Squared deviations = (4-6)^2 + (8-6)^2 + (6-6)^2 + (5-6)^2 + (7-6)^2 = 4 + 4 + 0 + 1 + 1 = 10. Step 3: Variance = 10/5 = 2, SD = sqrt(2) = 1.414.",
+     "answer": "Standard deviation = 1.414"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the standard deviation of: 10, 12, 14, 16, 18.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Two data sets have standard deviations 2 and 8. Which is more consistent and why?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.6",
+   "title": "Variance (Ungrouped Data)",
+   "section": "Measures of Dispersion",
+   "definition": "Variance is the average of the squared deviations of each observation from the mean, and is the square of the standard deviation.",
+   "formula": "variance = sum((x_i - mean)^2) / n",
+   "key_idea": "Variance measures the average squared spread of data; it is always non-negative and its unit is the square of the original unit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the variance of the given data",
+    "find the variance for ungrouped observations",
+    "compute the variance and relate it to standard deviation",
+    "determine the variance of the data set",
+    "calculate variance and interpret the dispersion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the mean of the data",
+     "explain": "Find the arithmetic mean as the reference for measuring deviations.",
+     "compute": "data_total / n"
+    },
+    {
+     "step": 2,
+     "action": "Compute the sum of squared deviations from the mean",
+     "explain": "Subtract the mean from each observation, square each difference, and sum them all."
+    },
+    {
+     "step": 3,
+     "action": "Divide the sum of squared deviations by n",
+     "explain": "Dividing by the number of observations gives the average squared deviation, which is the variance.",
+     "compute": "sum_sq_dev / n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the variance of: 6, 8, 10, 12, 14.",
+     "solution": "Step 1: Mean = (6+8+10+12+14)/5 = 50/5 = 10. Step 2: Squared deviations = (6-10)^2 + (8-10)^2 + (10-10)^2 + (12-10)^2 + (14-10)^2 = 16 + 4 + 0 + 4 + 16 = 40. Step 3: Variance = 40/5 = 8.",
+     "answer": "Variance = 8"
+    },
+    {
+     "question": "Calculate the variance of: 5, 10, 15.",
+     "solution": "Step 1: Mean = (5+10+15)/3 = 30/3 = 10. Step 2: Squared deviations = (5-10)^2 + (10-10)^2 + (15-10)^2 = 25 + 0 + 25 = 50. Step 3: Variance = 50/3 = 16.67.",
+     "answer": "Variance = 16.67"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the variance of: 3, 6, 9, 12, 15.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the standard deviation of a data set is 5, what is its variance?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.9",
+   "title": "Index Numbers: Introduction, WPI and CPI",
+   "section": "Index Numbers",
+   "definition": "An index number is a statistical device measuring the relative change in a variable over time with the base period set to 100; the Wholesale Price Index (WPI) tracks wholesale-level price changes while the Consumer Price Index (CPI) tracks retail price changes paid by consumers for a basket of goods and services.",
+   "formula": "index_number = (value in current period / value in base period) * 100; CPI = (sum of current retail prices / sum of base retail prices) * 100",
+   "key_idea": "Index numbers express changes as percentages relative to a base period; WPI reflects producer-level prices for policy while CPI reflects the cost of living for consumers and is used to adjust wages and pensions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an index number and how is it constructed",
+    "calculate the index number for the given price data",
+    "distinguish between Wholesale Price Index and Consumer Price Index",
+    "explain the construction and uses of the Consumer Price Index",
+    "calculate the CPI for the given basket of goods"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basket prices in the base period and the current period",
+     "explain": "Collect the base period and current period prices for each item in the consumer or wholesale basket."
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio of current period total to base period total",
+     "explain": "Divide the sum of current prices by the sum of base prices to find the relative price change.",
+     "compute": "current_total / base_total"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the ratio by 100 to obtain the index number",
+     "explain": "Converting the ratio to a percentage index with base = 100 gives the WPI or CPI.",
+     "compute": "ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The price of a commodity was Rs 50 in 2010 (base year) and Rs 75 in 2020. Calculate the price index.",
+     "solution": "Step 1: Base value = 50, current value = 75. Step 2: Ratio = 75/50 = 1.5. Step 3: Index number = 1.5 * 100 = 150.",
+     "answer": "Price index = 150"
+    },
+    {
+     "question": "A consumer basket has base year cost Rs 1000 and current year cost Rs 1200. Calculate the CPI.",
+     "solution": "Step 1: Base total = 1000, current total = 1200. Step 2: Ratio = 1200/1000 = 1.2. Step 3: CPI = 1.2 * 100 = 120.",
+     "answer": "CPI = 120"
+    },
+    {
+     "question": "The wholesale price total of a basket was Rs 500 in the base year and Rs 650 in the current year. Find the WPI.",
+     "solution": "Step 1: Base total = 500, current total = 650. Step 2: Ratio = 650/500 = 1.3. Step 3: WPI = 1.3 * 100 = 130.",
+     "answer": "WPI = 130"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between WPI and CPI in terms of purpose and coverage.",
+     "type": "long_answer"
+    },
+    {
+     "question": "A basket costs Rs 800 in the base year and Rs 960 in the current year. Calculate the CPI.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the base period is always assigned an index value of 100.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.10",
+   "title": "Inflation and Uses of Index Numbers",
+   "section": "Index Numbers",
+   "definition": "Inflation is the sustained rise in the general price level over time, measured as the percentage rate of change in a price index such as the CPI or WPI; index numbers are widely used to measure this change, determine purchasing power, deflate monetary values, and guide economic policy and wage adjustments.",
+   "formula": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
+   "key_idea": "Index numbers are essential for measuring inflation, which erodes purchasing power; they also help compare economic variables over time, adjust incomes for inflation, and formulate government fiscal and monetary policies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the inflation rate from the given index numbers",
+    "explain how index numbers are used to measure inflation",
+    "describe the uses of index numbers in economics",
+    "how do index numbers help in policy formulation and wage adjustment",
+    "discuss the importance of index numbers in deflating monetary values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the price index for the current period and the previous (base) period",
+     "explain": "Obtain the CPI or WPI values for the two periods being compared."
+    },
+    {
+     "step": 2,
+     "action": "Find the difference between the current and previous index",
+     "explain": "Subtract the previous period index from the current period index to find the absolute change.",
+     "compute": "index_current - index_previous"
+    },
+    {
+     "step": 3,
+     "action": "Divide the difference by the previous index and multiply by 100",
+     "explain": "Express the change as a percentage of the previous period index to get the inflation rate.",
+     "compute": "(difference / index_previous) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The CPI in 2020 was 150 and in 2021 it was 165. Calculate the inflation rate.",
+     "solution": "Step 1: Current index = 165, previous index = 150. Step 2: Difference = 165 - 150 = 15. Step 3: Inflation rate = (15/150) * 100 = 10%.",
+     "answer": "Inflation rate = 10%"
+    },
+    {
+     "question": "How is the Consumer Price Index used to adjust dearness allowance for workers?",
+     "solution": "Step 1: The CPI measures the change in the cost of a consumer basket. Step 2: A rise in CPI indicates an increase in the cost of living. Step 3: Wages and dearness allowance are adjusted upward in proportion to the CPI increase to maintain real income.",
+     "answer": "CPI is used to adjust dearness allowance so that real wages keep pace with the rising cost of living"
+    },
+    {
+     "question": "If the WPI rises from 200 to 220, find the rate of inflation.",
+     "solution": "Step 1: Current index = 220, previous index = 200. Step 2: Difference = 220 - 200 = 20. Step 3: Inflation rate = (20/200) * 100 = 10%.",
+     "answer": "Inflation rate = 10%"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The CPI was 180 in 2021 and 198 in 2022. Calculate the inflation rate.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any four important uses of index numbers in economics.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how index numbers help in deflating nominal income to real income.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

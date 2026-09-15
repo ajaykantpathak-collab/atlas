@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_01_012",
+   "title": "c11_eng_w_cbse_01_012",
+   "questions": [
+    {
+     "q": "Define the difference between a literal comprehension question and an inferential comprehension question in your own words.",
+     "a": "A literal comprehension question asks for information directly stated in the text (e.g., \"What is Iona's occupation?\"). An inferential comprehension question requires the reader to draw a conclusion based on textual evidence and reasoning (e.g., \"Why does Iona feel compelled to tell strangers about his son's death?\"). A wrong answer that confuses the two (e.g., saying inferential questions are also directly stated) reveals the student cannot distinguish explicit vs. implicit meaning, a fundamental gap for board exam comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Lament\", the officer asks Iona, \"What did he die of?\" and Iona replies, \"They say high fever.\" Is the question \"What was the cause of Iona's son's death?\" literal or inferential? Explain your reasoning.",
+     "a": "It is a literal question because the cause of death (high fever) is explicitly stated in Iona's dialogue. A wrong answer classifying it as inferential (e.g., \"we don't know for sure\") shows the student misunderstands that literal questions can be answered from direct statements even if the speaker is uncertain; the text explicitly provides the information.",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL structure, write a 3-sentence answer to the inferential question: \"Why does Iona turn to his horse at the end of the story?\" Include a point, evidence from the text, and explanation.",
+     "a": "Point: Iona turns to his horse because he has been rejected by humans and seeks a listener who will not judge or ignore him. Evidence: The text states, \"Iona's feelings are too much for him and he tells the little horse the whole story\" after the young cabdriver falls asleep and the porter dismisses him. Explanation: The horse, unlike the people, offers silent companionship, allowing Iona to unburden his grief without interruption. A wrong answer that merely retells the plot without using PEEL or that cites no evidence reveals the student cannot apply the inference skill with textual support.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the officer's and the humpback's responses to Iona's revelation of his son's death. What does this contrast reveal about the nature of human indifference in the story?",
+     "a": "The officer responds with a perfunctory \"Hm!\" and then urges Iona to drive faster, showing callous professionalism. The humpback sighs \"We must all die\" and immediately returns to complaining about the pace, revealing self-absorbed fatalism. The contrast analyzes that indifference manifests both as cold efficiency (officer) and impatient selfishness (humpback), together illustrating the story's theme of failed communication. A wrong answer that only describes one response or misses the thematic link shows inability to analyze comparative character reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that \"Iona's horse is merely a passive listener; the story would be unchanged if he spoke to a wall.\" Defend your position with two textual arguments.",
+     "a": "The view is flawed. First, the horse is described as a \"true friend and companion\" (NCERT question) and its actions—munching, listening, breathing over Iona's hand—show responsive presence, not passive inertness. Second, Iona explicitly addresses the horse as an equal (\"my old horse\", \"you were the foal's mother\"), projecting his grief onto a living being that shares his hardship, which a wall cannot do. A wrong answer that agrees with the view or offers only one argument fails to evaluate the symbolic significance of the horse.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line dialogue between Iona and a new passenger (a journalist) where the journalist asks an inferential question about Iona's grief, and Iona responds with a literal fact that ironically deepens the tragedy.",
+     "a": "Example:\nJournalist: \"Sir, does your heart ache because no one listens?\" (inferential)\nIona: \"My heart aches because my son Kuzma Ionitch died of high fever on Tuesday.\" (literal fact)\nJournalist: \"But why tell me?\"\nIona: \"Because you asked, and the snow covers my voice.\"\nCriteria: The dialogue must show the journalist asking an inferential question (probing feelings/motives) and Iona answering with a literal fact from the text, highlighting the gap between feeling and fact. A poor answer would have both lines literal or both inferential, missing the irony.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

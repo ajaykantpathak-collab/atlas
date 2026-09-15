@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_1",
+   "title": "c8_eco_ch2_1",
+   "questions": [
+    {
+     "q": "What is demography, and what are the three primary dynamic processes that cause a population to change over time?",
+     "a": "Demography is the scientific study of human populations, focusing on their size, structure, and distribution. The three primary dynamic processes that cause a population to change are births (fertility), deaths (mortality), and migration (movement of people). \n\n*What a wrong answer reveals*: If a student only mentions \"counting people\" or \"the census,\" they are viewing population as a static count. They fail to recognize that demography is about the *dynamic forces* (births, deaths, migration) that continuously change that count over time.",
+     "self_check": true
+    },
+    {
+     "q": "Why would an economist be interested in studying the age structure of a country's population rather than just looking at the total population count?",
+     "a": "An economist studies age structure because it determines the ratio between the active workforce (producers and earners aged 15-64) and dependents (children and the elderly who consume resources but do not produce). A nation with a high total population composed mostly of elderly citizens has very different labor supply, savings, and healthcare needs than a country of the same size composed mostly of young working adults.\n\n*What a wrong answer reveals*: A wrong answer focusing only on \"more people means more demand\" shows that the student assumes all individuals in a population contribute equally to economic production and consumption, ignoring the critical concept of the dependency ratio.",
+     "self_check": true
+    },
+    {
+     "q": "District A and District B both have a population of exactly 100,000 people. District A has a birth rate of 25 per 1,000 people and a death rate of 5 per 1,000. District B has a birth rate of 10 per 1,000 and a death rate of 12 per 1,000. Assuming no migration, calculate the net annual population change for both districts and determine which district will need to plan for more primary school infrastructure next year.",
+     "a": "- **Step 1**: Calculate annual births and deaths for District A: \n  $$\\text{Births} = \\left(\\frac{25}{1,000}\\right) \\times 100,000 = 2,500$$\n  $$\\text{Deaths} = \\left(\\frac{5}{1,000}\\right) \\times 100,000 = 500$$\n  $$\\text{Net Change} = 2,500 - 500 = +2,000\\text{ people/year}$$\n- **Step 2**: Calculate annual births and deaths for District B:\n  $$\\text{Births} = \\left(\\frac{10}{1,000}\\right) \\times 100,000 = 1,000$$\n  $$\\text{Deaths} = \\left(\\frac{12}{1,000}\\right) \\times 100,000 = 1,200$$\n  $$\\text{Net Change} = 1,000 - 1,200 = -200\\text{ people/year}$$\n- **Step 3**: Compare the results. District A is growing rapidly, while District B's population is slightly shrinking.\n- **Step 4**: Since District A has a high birth rate (2,500 babies born per year compared to only 1,000 in District B), District A has a much larger influx of young children and must plan for more primary school infrastructure.\n\n*What a wrong answer reveals*: If a student claims both districts have identical needs because their total populations are the same, they are failing to apply demographic rates to project structural and infrastructural demand.",
+     "self_check": true
+    },
+    {
+     "q": "A coastal district in Kerala experiences a massive wave of out-migration, where 30% of its young working-age population (ages 20-35) moves to Gulf countries for employment. Analyze the dual impact of this demographic event on the local district's banking sector (deposits/loans) and local labor markets.",
+     "a": "The out-migration of working-age adults reduces the local labor supply, which can drive up local wages for remaining workers but may cause local labor shortages. However, because these workers send money back home (remittances), local bank deposits are likely to increase significantly. Conversely, local demand for business loans might decrease because fewer young entrepreneurs remain in the district to start local businesses.\n\n*What a wrong answer reveals*: A student who assumes that losing 30% of the population simply ruins the economy and reduces bank deposits because \"fewer people means less money\" is ignoring the concept of remittances and the shifting dynamics of labor market supply and demand.",
+     "self_check": true
+    },
+    {
+     "q": "\"An increase in a nation's population is always an economic burden because it means more mouths to feed.\" Evaluate this statement using demographic and economic reasoning.",
+     "a": "This statement is incorrect and oversimplified. While a population increase means higher consumption demand, its economic impact depends heavily on the *age structure* of that growth. If the growth consists of working-age individuals who find productive employment, they become human capital, increasing the country's total output (GDP), tax revenues, and savings (generating a demographic dividend). It only becomes an economic burden if the growth consists entirely of dependent age groups without corresponding increases in productivity or if the economy fails to generate jobs.\n\n*What a wrong answer reveals*: A student who fully agrees with the statement shows a Malthusian bias that views humans solely as consumers (mouths to feed) rather than producers (hands to work), missing the vital economic concept of labor as a factor of production.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are an urban planner for a rapidly growing city like Bengaluru. Design a basic 3-point demographic monitoring checklist that a city government must use to ensure that physical and social infrastructure keeps pace with population changes.",
+     "a": "A strong 3-point checklist would include:\n1. **Tracking Net Migration Rates**: To estimate the inflow of new residents and plan immediate physical utilities like water pipelines, electricity, and housing.\n2. **Monitoring Age-Group Cohorts**: To track the proportion of school-aged children versus elderly citizens, allowing the city to balance its budget between building schools and expanding healthcare facilities.\n3. **Analyzing Population Density by Ward**: To identify overcrowded zones and direct transport network expansions (such as bus routes and metro lines) to those specific high-density areas.\n\n*What a poor answer reveals*: A checklist that only tracks \"total population count\" or \"tax revenue\" fails to show how specific demographic attributes (such as age, location, and migration status) map directly to infrastructure planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

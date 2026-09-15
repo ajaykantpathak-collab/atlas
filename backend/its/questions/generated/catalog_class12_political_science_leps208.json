@@ -1,0 +1,264 @@
+{
+ "catalog": "catalog_class12_political_science_leps208",
+ "concepts": [
+  {
+   "id": "leps.208.1.1",
+   "title": "Context of the 1990s: Five Developments that Reshaped Politics",
+   "questions": [
+    {
+     "q": "Using the method 'Context of the 1990s: Five Developments that Reshaped Politics', work with: ayodhya_movement = 360, congress_decline_1989 = 6, mandal_issue = 30, new_economic_reforms = 150, rajiv_gandhi_assassination = 100. Carry the chain through step by step and give the final value of nineties_turning_points.",
+     "a": "646 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Context of the 1990s: Five Developments that Reshaped Politics' and work with: ayodhya_movement = 10, congress_decline_1989 = 100, mandal_issue = 25, new_economic_reforms = 150, rajiv_gandhi_assassination = 40. Carry the chain through step by step and give the final value of nineties_turning_points.",
+     "a": "325 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Context of the 1990s: Five Developments that Reshaped Politics' refers to.",
+     "a": "As the 1980s closed, five shifts remade Indian politics: the Congress collapse in the 1989 election from 415 seats in 1984 to 197, ending the Congress system; the rise of the Mandal issue after the National Front moved to reserve central jobs for Other Backward Classes; the turn to structural adjustment or new economic reforms, visible from 1991; the Ayodhya Ram Janmabhoomi movement's transformation of the secularism debate, culminating in the 2019 Supreme Court-backed temple construction; and Rajiv Gandhi's 1991 assassination by an LTTE-linked Sri Lankan Tamil, which brought Narasimha Rao to lead the Congress and the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Context of the 1990s: Five Developments that Reshaped Politics'.",
+     "a": "Within two years the old one-party framework, the old economic strategy and the old secular consensus were all challenged at once.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Context of the 1990s: Five Developments that Reshaped Politics', in plain ASCII form.",
+     "a": "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.2.1",
+   "title": "Era of Coalitions and the Logic of Alliance Politics",
+   "questions": [
+    {
+     "q": "Using the method 'Era of Coalitions and the Logic of Alliance Politics', work with: national_front_1989 = 100, nda_1999 = 20, united_front_1996 = 20, upa_2004 = 80. Carry the chain through step by step and give the final value of coalition_era.",
+     "a": "220 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Era of Coalitions and the Logic of Alliance Politics' and work with: national_front_1989 = 100, nda_1999 = 360, united_front_1996 = 240, upa_2004 = 80. Carry the chain through step by step and give the final value of coalition_era.",
+     "a": "780 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Era of Coalitions and the Logic of Alliance Politics' refers to.",
+     "a": "The 1989 verdict left no majority and produced an era in which no single party won a clear Lok Sabha majority from 1989 until 2014: the National Front of V. P. Singh ruled on outside support from both the BJP and the Left Front, the United Front of 1996 swapped BJP support for Congress support, the BJP led unstable coalitions in 1998 and a full-term NDA under Vajpayee from 1999, and the UPA governed in 2004 and 2009 -- eleven coalition or minority governments in all, with regional parties holding the balance until the BJP's own majorities of 2014 and 2019.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Era of Coalitions and the Logic of Alliance Politics'.",
+     "a": "What the Congress once did internally as a social coalition, parties now had to do externally as electoral alliances, with state parties as kingmakers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Era of Coalitions and the Logic of Alliance Politics', in plain ASCII form.",
+     "a": "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.3.1",
+   "title": "The Mandal Commission and the Political Rise of the OBCs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Mandal Commission and the Political Rise of the OBCs' refers to.",
+     "a": "Communities other than SCs and STs marked by educational and social backwardness had long received reservations in the south, and Karpoori Thakur pioneered OBC quotas in Bihar; the Second Backward Classes Commission under B. P. Mandal, appointed in 1978, reported in 1980 that backward castes were badly under-represented in education and public employment and advised reserving 27 per cent of seats in educational institutions and government jobs, a recommendation the National Front implemented for central jobs in August 1990, surviving anti-Mandal agitation and the 1992 Indira Sawhney ruling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Mandal Commission and the Political Rise of the OBCs'.",
+     "a": "A decade-old report, once implemented, converted caste consciousness into a durable voting bloc that every party now courts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Mandal Commission and the Political Rise of the OBCs', in plain ASCII form.",
+     "a": "mandal_policy = backward_caste_identification + 27_percent_reservation + indira_sawhney_upholding",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.4.1",
+   "title": "Dalit Political Organisation: from BAMCEF to the BSP",
+   "questions": [
+    {
+     "q": "Using the method 'Dalit Political Organisation: from BAMCEF to the BSP', work with: bamcef_1978 = 40, bsp_1984_kanshi_ram = 25, ds4 = 3. Carry the chain through step by step and give the final value of dalit_mobilisation.",
+     "a": "68 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dalit Political Organisation: from BAMCEF to the BSP' and work with: bamcef_1978 = 8, bsp_1984_kanshi_ram = 150, ds4 = 40. Carry the chain through step by step and give the final value of dalit_mobilisation.",
+     "a": "198 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dalit Political Organisation: from BAMCEF to the BSP' refers to.",
+     "a": "Dalit politics organised itself stepwise: the Backward and Minority Communities Employees Federation of 1978, though drawn from government employees, championed political power for the bahujan of SCs, STs, OBCs and minorities; Kanshi Ram built the Dalit Shoshit Samaj Sangharsh Samiti out of it and founded the Bahujan Samaj Party in 1984 on the premise that political power is the master key to social equality, and the BSP's 1989 and 1991 breakthroughs in Uttar Pradesh marked the first national success of a mainly Dalit-voted party, later expanding to other groups and repeated stints in government.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dalit Political Organisation: from BAMCEF to the BSP'.",
+     "a": "Treating the bahujan majority as a formidable electoral force, Kanshi Ram converted employee networks into a party that made Dalit politics central in north India.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dalit Political Organisation: from BAMCEF to the BSP', in plain ASCII form.",
+     "a": "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.5.1",
+   "title": "BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case",
+   "questions": [
+    {
+     "q": "Using the method 'BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case', work with: cultural_nationalism = 50, gandhian_socialism_1980 = 75, hindutva_of_savarkar = 150. Carry the chain through step by step and give the final value of bjp_ideology_shift.",
+     "a": "275 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case' and work with: cultural_nationalism = 500, gandhian_socialism_1980 = 360, hindutva_of_savarkar = 3. Carry the chain through step by step and give the final value of bjp_ideology_shift.",
+     "a": "863 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case' refers to.",
+     "a": "Founded in 1980 by former Jana Sangh supporters after the Janata breakup, the BJP first espoused Gandhian socialism with cultural nationalism, fared poorly in 1984, and after 1986 made nationalism its ideological core and pursued Hindutva mobilisation; Hindutva, popularised by V. D. Savarkar, demands that Indians accept India as both fatherland and holy land, and the politics around it sharpened when the government's 1986 Act nullifying the Supreme Court's pro-Shah Bano maintenance ruling was attacked by the BJP as minority appeasement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case'.",
+     "a": "A losing broad platform was exchanged for a religion-anchored nationalism, and the Shah Bano controversy supplied the first major ammunition.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case', in plain ASCII form.",
+     "a": "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.6.1",
+   "title": "The Ayodhya Dispute: from Locked Structure to the 2019 Verdict",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Ayodhya Dispute: from Locked Structure to the 2019 Verdict' refers to.",
+     "a": "A three-dome structure built in 1528 at a site believed to be Shri Ram's birthplace, showing Hindu symbols within and without, was sealed in 1949 as court proceedings began; the Faizabad district court's 1986 order unlocking it for worship re-ignited the ownership dispute, the 1992 demolition of the structure posed what critics called a challenge to Indian democracy, and the conflict ended through legal process in the constitutional bench's 5-0 verdict of 9 November 2019, which assigned the site to the Shri Ram Janmabhoomi Teertha Kshetra Trust for a temple and directed allotment of another site to the Sunni Central Waqf Board for a mosque.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Ayodhya Dispute: from Locked Structure to the 2019 Verdict'.",
+     "a": "A five-century-old grievance travelled from seizure and sealing to agitation, demolition and finally a judicial settlement that tried to reconcile all stakeholders.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Ayodhya Dispute: from Locked Structure to the 2019 Verdict', in plain ASCII form.",
+     "a": "ayodhya_resolution = 1528_structure + 1992_demolition + verdict_2019_and_alternate_site",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.7.1",
+   "title": "Elections 2004-2019: UPA Years and the Return of Single-Party Majority",
+   "questions": [
+    {
+     "q": "Using the method 'Elections 2004-2019: UPA Years and the Return of Single-Party Majority', work with: bjp_majorities_2014_and_2019 = 20, upa_2004_and_2009 = 500. Carry the chain through step by step and give the final value of alliance_race_2004_2019.",
+     "a": "520 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Elections 2004-2019: UPA Years and the Return of Single-Party Majority' and work with: bjp_majorities_2014_and_2019 = 360, upa_2004_and_2009 = 150. Carry the chain through step by step and give the final value of alliance_race_2004_2019.",
+     "a": "510 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Elections 2004-2019: UPA Years and the Return of Single-Party Majority' refers to.",
+     "a": "The Congress joined coalition politics in earnest in 2004, defeating the NDA and forming the UPA with Left Front support that survived even the Left's July 2008 walkout over the Indo-US nuclear deal; the UPA returned in 2009 as Congress seats rose from 145 to 206 under Manmohan Singh, before the BJP under Narendra Modi -- named candidate in September 2013 -- won 282 seats in 2014, the first single-party majority in thirty years, and 303 in 2019, both times still choosing to govern as the NDA.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elections 2004-2019: UPA Years and the Return of Single-Party Majority'.",
+     "a": "Coalition arithmetic ruled for a quarter century, then one party's majority returned without making alliances obsolete.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Elections 2004-2019: UPA Years and the Return of Single-Party Majority', in plain ASCII form.",
+     "a": "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.8.1",
+   "title": "Reading the Seat Arithmetic of the 17th Lok Sabha",
+   "questions": [
+    {
+     "q": "Calculate the seat share of the bjp in the 17th lok sabha. Use the method 'Reading the Seat Arithmetic of the 17th Lok Sabha'. Work with: rival_seats = 18, seats_won = 12, total_seats = 12. Carry the chain through step by step and give the final value of majority_cushion.",
+     "a": "5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How many more seats than the congress did the bjp win in 2019? Use the method 'Reading the Seat Arithmetic of the 17th Lok Sabha'. Work with: rival_seats = 200, seats_won = 360, total_seats = 18. Carry the chain through step by step and give the final value of majority_cushion.",
+     "a": "350 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reading the Seat Arithmetic of the 17th Lok Sabha' refers to.",
+     "a": "The chapter's chart of the 17th Lok Sabha lets us turn raw seat counts into shares: the BJP's 303 seats in a house of 543 members amount to 56 per cent, the Congress's 52 to about 10 per cent, with the DMK on 24, the Shiv Sena on 18, and the JD(U), BJD and BSP in single digits -- the arithmetic behind both majority and opposition strength.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reading the Seat Arithmetic of the 17th Lok Sabha'.",
+     "a": "A majority needs more than half the house, so converting seats to percentage shares shows at a glance how far ahead the largest party stood.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reading the Seat Arithmetic of the 17th Lok Sabha', in plain ASCII form.",
+     "a": "party_seat_share = seats_won / total_seats * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.208.9.1",
+   "title": "The Emerging Consensus among Political Parties",
+   "questions": [
+    {
+     "q": "Using the method 'The Emerging Consensus among Political Parties', work with: backward_caste_acceptance = 18, new_economic_policies = 8, pragmatic_alliances = 60, state_parties_role = 50. Carry the chain through step by step and give the final value of post_1989_consensus.",
+     "a": "136 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Emerging Consensus among Political Parties' and work with: backward_caste_acceptance = 360, new_economic_policies = 400, pragmatic_alliances = 40, state_parties_role = 200. Carry the chain through step by step and give the final value of post_1989_consensus.",
+     "a": "1000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Emerging Consensus among Political Parties' refers to.",
+     "a": "Amid fierce competition, four broad agreements bind most parties: acceptance of the new economic policies as the route to prosperity and world economic status; acceptance of the social and political claims of backward castes, including reservation in education and jobs and a share of power for OBCs; acceptance of state-level parties as full partners in national governance; and pragmatism over ideology, as when non-Hindutva NDA allies still governed a full term with the BJP -- even as popular movements push poverty, displacement, wages and livelihood onto the agenda.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Emerging Consensus among Political Parties'.",
+     "a": "Competition now runs inside a shared frame: whoever governs, the economic line, social justice claims, federal parties and flexible alliances are all here to stay.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Emerging Consensus among Political Parties', in plain ASCII form.",
+     "a": "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

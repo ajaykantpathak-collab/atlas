@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_002",
+   "title": "c12_eco_cbse_11_002",
+   "questions": [
+    {
+     "q": "Define revenue receipts and capital receipts in the context of a government budget. Give one example of each.",
+     "a": "Revenue receipts are receipts that neither create a liability nor reduce assets (e.g., income tax collections). Capital receipts are receipts that either create a liability (e.g., market borrowings) or reduce assets (e.g., disinvestment proceeds). A wrong answer typically confuses \"recurring vs non-recurring\" as the defining criterion — but some capital receipts (like interest on loans given) can be recurring, and some revenue receipts (like one-time tax amnesty) can be non-recurring. The correct NCERT criterion is strictly the liability/asset impact.",
+     "self_check": true
+    },
+    {
+     "q": "The government receives ₹500 crore as dividend from the Reserve Bank of India and ₹500 crore from selling 5% stake in a public sector enterprise. Classify each and explain why they fall in different categories despite both being \"income\" to the government.",
+     "a": "RBI dividend is a revenue receipt — it is a return on equity ownership, does not create liability, and does not reduce the government's asset (the shares remain). Disinvestment proceeds are a capital receipt — they reduce the government's asset (equity holding decreases). Students often misclassify both as revenue because both appear as \"income\" in the budget speech. The error reveals confusion between flow of returns (revenue) vs liquidation of principal (capital).",
+     "self_check": true
+    },
+    {
+     "q": "From the following Budget 2023-24 (actuals) data, calculate total revenue receipts and total capital receipts:\n- Corporation Tax: ₹8,25,000 crore\n- Income Tax: ₹6,50,000 crore\n- GST: ₹8,50,000 crore\n- Customs Duty: ₹2,10,000 crore\n- Interest Receipts: ₹25,000 crore\n- Dividends & Profits: ₹1,50,000 crore\n- Market Borrowings: ₹11,50,000 crore\n- External Loans: ₹50,000 crore\n- Disinvestment Proceeds: ₹50,000 crore\n- Recovery of Loans: ₹20,000 crore",
+     "a": "Revenue Receipts = Tax Revenue (Corporation Tax + Income Tax + GST + Customs) + Non-Tax Revenue (Interest + Dividends) = (8,25,000 + 6,50,000 + 8,50,000 + 2,10,000) + (25,000 + 1,50,000) = 25,35,000 + 1,75,000 = ₹27,10,000 crore. Capital Receipts = Debt (Market Borrowings + External Loans) + Non-Debt (Disinvestment + Recovery of Loans) = (11,50,000 + 50,000) + (50,000 + 20,000) = 12,00,000 + 70,000 = ₹12,70,000 crore. Common error: including recovery of loans in revenue receipts (it reduces financial assets, so capital) or excluding dividends from revenue (it is non-tax revenue).",
+     "self_check": true
+    },
+    {
+     "q": "Analyse: \"A government running a persistent revenue deficit chooses to finance it entirely through disinvestment proceeds rather than market borrowings. Does this change the classification of the fiscal deficit? Does it change the intergenerational equity implications?\"",
+     "a": "Fiscal deficit = Total Expenditure – (Revenue Receipts + Non-Debt Capital Receipts). Disinvestment is a non-debt capital receipt, so it reduces fiscal deficit arithmetically just like borrowings (debt capital receipt) would. However, intergenerational equity differs: borrowings shift burden to future taxpayers (interest + principal repayment); disinvestment sells existing assets, reducing future income streams (dividends) but avoiding debt service. Students often think \"capital receipt = borrowing\" and miss that non-debt capital receipts also finance deficit. The error reveals failure to distinguish debt vs non-debt capital receipts in deficit financing analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Goods and Services Tax (GST) collections are a more stable source of revenue receipts than disinvestment proceeds for funding recurring expenditure like salaries and pensions.\" Use the concepts of revenue vs capital receipts and the nature of government obligations.",
+     "a": "Correct evaluation: True. GST is a revenue receipt — recurring, non-liability-creating, and tied to economic activity (broad base). Disinvestment is a capital receipt — non-recurring (finite assets), reduces government equity, and once assets are sold, the stream ends. Using one-off asset sales to fund permanent obligations is fiscally imprudent (like selling family silver to pay monthly bills). A weak answer might say \"both are receipts so both can fund expenditure\" — missing the sustainability and classification distinction. This tests understanding that receipt classification has normative implications for fiscal management.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical Union Budget receipt snapshot (5 line items with amounts) where revenue receipts = ₹20 lakh crore and capital receipts = ₹10 lakh crore. Ensure at least two tax revenue, one non-tax revenue, one debt capital, and one non-debt capital item. Label each item with its correct sub-category.",
+     "a": "Example (amounts in ₹ crore):\n1. Corporation Tax (Tax Revenue): 6,00,000\n2. GST (Tax Revenue): 8,00,000\n3. Interest Receipts (Non-Tax Revenue): 50,000\n4. Market Borrowings (Debt Capital Receipt): 9,00,000\n5. Disinvestment Proceeds (Non-Debt Capital Receipt): 1,00,000\nTotal Revenue = 14,50,000? Wait, need 20 lakh. Adjust: Corporation Tax 7,00,000; GST 9,00,000; Interest 50,000; Dividends 50,000; Other Non-Tax 50,000 = 17,50,000? Let me recalculate properly.\nBetter: Corporation Tax 7,00,000; Income Tax 5,00,000; GST 6,00,000; Customs 1,50,000; Interest 30,000; Dividends 20,000 = Revenue 20,00,000. Capital: Market Borrowings 8,00,000; External Loans 50,000; Disinvestment 1,00,000; Recovery of Loans 50,000 = 10,00,000.\nA poor answer mixes categories (e.g., puts disinvestment under revenue) or omits sub-category labels, showing inability to apply the classification framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

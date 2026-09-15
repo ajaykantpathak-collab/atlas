@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_011",
+   "title": "c12_chem_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the Van't Hoff factor (i) for a solution of glucose (C₆H₁₂O₆) in water? Explain why it has this value.",
+     "a": "The Van't Hoff factor i = 1 for glucose in water. Glucose is a non-electrolyte; it does not dissociate into ions nor associate into larger aggregates in aqueous solution. Therefore, the number of particles after dissolution equals the number of formula units dissolved, so the observed colligative property matches the calculated value (i = observed/calculated = 1). A wrong answer (e.g., i = 2) reveals the student mistakenly thinks all solutes dissociate, confusing glucose with ionic compounds like NaCl.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the freezing point depression of a 0.1 molal NaCl solution and finds ΔTf = 0.372 K. The Kf for water is 1.86 K kg mol⁻¹. The student calculates i = 0.5. Identify the error in the student's calculation and give the correct value of i.",
+     "a": "The student likely used the formula ΔTf = Kf·m (without i) and solved for an \"effective molality\" or misapplied the ratio. Correct calculation: ΔTf(observed) = 0.372 K, ΔTf(calculated for non-dissociated) = Kf·m = 1.86 × 0.1 = 0.186 K. Then i = observed/calculated = 0.372/0.186 = 2.0. The student's i = 0.5 is the reciprocal, suggesting they computed calculated/observed instead of observed/calculated. This error reveals confusion about the definition: i = (experimental colligative property) / (theoretical colligative property for non-dissociated solute).",
+     "self_check": true
+    },
+    {
+     "q": "0.6 g of acetic acid (CH₃COOH, molar mass 60 g mol⁻¹) is dissolved in 100 g of benzene. The freezing point depression is 0.25 K. Kf for benzene = 5.12 K kg mol⁻¹. Calculate the Van't Hoff factor and the degree of association (α) assuming acetic acid dimerizes in benzene.",
+     "a": "Step 1: Calculate molality of solute as if monomer: n = 0.6/60 = 0.01 mol; mass solvent = 0.1 kg; m = 0.1 mol kg⁻¹.\nStep 2: Theoretical ΔTf (no association) = Kf·m = 5.12 × 0.1 = 0.512 K.\nStep 3: Observed ΔTf = 0.25 K. i = observed/theoretical = 0.25/0.512 = 0.488 ≈ 0.5.\nStep 4: For dimerization 2CH₃COOH ⇌ (CH₃COOH)₂, i = 1 - α/2. So 0.5 = 1 - α/2 → α/2 = 0.5 → α = 1.0 (100% association).\nA wrong i > 1 would indicate the student used the dissociation formula i = 1 + α instead of the association formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the abnormal molar mass of NaCl (dissociating) and benzoic acid in benzene (associating) relative to their normal molar masses. Explain the physical reason for the difference in terms of particle count.",
+     "a": "For NaCl (dissociation): i > 1 → abnormal molar mass = normal molar mass / i < normal molar mass. More particles than expected → colligative effect larger → calculated molar mass (using formulas that assume i=1) comes out smaller.\nFor benzoic acid in benzene (association/dimerization): i < 1 → abnormal molar mass = normal molar mass / i > normal molar mass. Fewer particles than expected → colligative effect smaller → calculated molar mass comes out larger.\nA student who says both have lower abnormal molar mass fails to distinguish that association reduces particle count while dissociation increases it.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.01 M solution of a weak acid HA shows an osmotic pressure of 0.248 atm at 300 K. The theoretical osmotic pressure for a non-dissociated solute at this concentration is 0.246 atm. A student concludes the acid is 100% dissociated. Evaluate this conclusion.",
+     "a": "Theoretical π = CRT = 0.01 × 0.0821 × 300 = 0.2463 atm. Observed π = 0.248 atm. i = 0.248/0.2463 ≈ 1.007. For HA ⇌ H⁺ + A⁻, i = 1 + α. So α = i - 1 = 0.007 = 0.7%. The acid is barely dissociated, not 100%. The student's conclusion is wrong because they likely rounded i to 2 or misread the small difference. This reveals the trap: small differences in colligative properties can be misinterpreted; always compute i precisely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a thermometer, a known mass of solvent (water), and a solute (either NaCl or glucose) to demonstrate the difference in Van't Hoff factor between an electrolyte and a non-electrolyte. Describe the procedure, measurements, and how you would calculate i from the data.",
+     "a": "Procedure: (1) Measure freezing point of pure water (Tf°). (2) Dissolve 1 g glucose in 50 g water, measure freezing point (Tf_glu). (3) Dissolve 1 g NaCl in 50 g water, measure freezing point (Tf_NaCl). (4) Calculate ΔTf for each. (5) Compute molality for each solute (using molar masses 180 and 58.5 g/mol). (6) Calculate i = ΔTf_obs / (Kf × m). Expected: i_glu ≈ 1, i_NaCl ≈ 2. A good answer includes controlling for supercooling, using same solvent mass, and noting that NaCl's i will be slightly less than 2 due to incomplete dissociation at this concentration. A poor answer omits the calculation of molality or uses boiling point elevation without accounting for the small ΔTb.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

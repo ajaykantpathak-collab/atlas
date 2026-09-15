@@ -1,0 +1,715 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 111,
+ "chapter_title": "Organisms and Populations",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo111.txt",
+ "concepts": [
+  {
+   "id": "lebo.111.1.1",
+   "title": "Per Capita Birth and Death Rates",
+   "section": "11.1.1",
+   "definition": "The average rate of offspring addition or individual mortality evaluated per member of a specified population across a given timeframe.",
+   "formula": "per_capita_rate = count / initial_pop",
+   "key_idea": "Expresses biological changes on a individual unit basis across a set period.",
+   "textbook_ref": "lebo111.txt lines 65-80",
+   "question_patterns": [
+    "In Class 12 Biology populations, find the per capita birth rate given additions and initial count",
+    "calculate the per capita death rate of a population over a given period",
+    "determine the birth rate per individual per year for a lotus population",
+    "what is the per capita mortality rate for a laboratory culture of fruit flies",
+    "compute the net per capita rate of reproduction in a pond habitat"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide individual event count by starting population",
+     "explain": "Per capita rate equals the number of births or deaths divided by the initial population size.",
+     "compute": "per_capita_rate = count / initial_pop"
+    },
+    {
+     "step": 2,
+     "action": "Convert the per capita rate to a per-individual basis if needed",
+     "explain": "The result expresses the average contribution per member per time period, allowing comparison across populations of different sizes.",
+     "compute": "per_capita_rate = count / initial_pop"
+    },
+    {
+     "step": 3,
+     "action": "Verify the rate is biologically reasonable",
+     "explain": "Check that the per capita rate falls between 0 and 1 for deaths or is a plausible positive fraction for births."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Per Capita Birth and Death Rates, compute the result for count = 3, initial_pop = 3.",
+     "solution": "Step 1: divide individual event count by starting population: per_capita_rate = count / initial_pop = 1.0 Step 2: Convert the per capita rate to a per-individual basis if needed: per_capita_rate = count / initial_pop = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Per Capita Birth and Death Rates, compute the result for count = 4, initial_pop = 4.",
+     "solution": "Step 1: divide individual event count by starting population: per_capita_rate = count / initial_pop = 1.0 Step 2: Convert the per capita rate to a per-individual basis if needed: per_capita_rate = count / initial_pop = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.2",
+   "title": "Population Density Change Equation",
+   "section": "11.1.2",
+   "definition": "The arithmetic tracking of population density shift over time accounting for births, deaths, immigration, and emigration.",
+   "formula": "N_next = N_current + (births + immigration) - (deaths + emigration)",
+   "key_idea": "Population density increases via natality and immigration while decreasing via mortality and emigration.",
+   "textbook_ref": "lebo111.txt lines 115-135",
+   "question_patterns": [
+    "In Class 12 Organisms and Populations, calculate the updated population density after a time interval",
+    "find N_next given current population, births, deaths, immigrants, and emigrants",
+    "determine the net population size at time t+1 using demographic factors",
+    "compute how density alters when immigration and births exceed mortality and emigration",
+    "what is the final density of a population following migration and birth death events"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum gains to the population",
+     "explain": "Add births and incoming immigrants.",
+     "compute": "gains = births + immigration"
+    },
+    {
+     "step": 2,
+     "action": "sum losses from the population",
+     "explain": "Add deaths and outgoing emigrants.",
+     "compute": "losses = deaths + emigration"
+    },
+    {
+     "step": 3,
+     "action": "calculate net future population density",
+     "explain": "Combine initial density with gains minus losses.",
+     "compute": "n_next = n_current + gains - losses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Population Density Change Equation, compute the result for births = 3, immigration = 3, deaths = 3, emigration = 2, n_current = 2.",
+     "solution": "Step 1: sum gains to the population: gains = births + immigration = 6.0 Step 2: sum losses from the population: losses = deaths + emigration = 5.0 Step 3: calculate net future population density: n_next = n_current + gains - losses = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Population Density Change Equation, compute the result for births = 4, immigration = 4, deaths = 4, emigration = 3, n_current = 3.",
+     "solution": "Step 1: sum gains to the population: gains = births + immigration = 8.0 Step 2: sum losses from the population: losses = deaths + emigration = 7.0 Step 3: calculate net future population density: n_next = n_current + gains - losses = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.3",
+   "title": "Intrinsic Rate of Natural Increase",
+   "section": "11.1.2",
+   "definition": "The per capita rate of population growth calculated as the difference between per capita birth rate and per capita death rate.",
+   "formula": "r = b - d",
+   "key_idea": "Measures the inherent biological potential of a population to grow under given conditions.",
+   "textbook_ref": "lebo111.txt lines 145-160",
+   "question_patterns": [
+    "In Class 12 Biology, calculate the intrinsic rate of natural increase r from birth and death rates",
+    "find parameter r given per capita natality b and mortality d",
+    "determine the intrinsic growth rate of a population",
+    "what is the value of r for a specified flour beetle or rat population",
+    "evaluate the value of r when per capita birth and death rates are provided"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract per capita death rate from per capita birth rate",
+     "explain": "The parameter r equals per capita birth rate b minus per capita death rate d.",
+     "compute": "r = b - d"
+    },
+    {
+     "step": 2,
+     "action": "Interpret the sign of r",
+     "explain": "A positive r indicates population growth, a negative r indicates decline, and r = 0 indicates a stable population."
+    },
+    {
+     "step": 3,
+     "action": "Verify r against biological expectations",
+     "explain": "Confirm that the computed intrinsic rate is consistent with known life-history traits of the organism."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Intrinsic Rate of Natural Increase, compute the result for b = 3, d = 3.",
+     "solution": "Step 1: subtract per capita death rate from per capita birth rate: r = b - d = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Intrinsic Rate of Natural Increase, compute the result for b = 4, d = 4.",
+     "solution": "Step 1: subtract per capita death rate from per capita birth rate: r = b - d = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.4",
+   "title": "Exponential Growth Rate",
+   "section": "11.1.2",
+   "definition": "The instantaneous change in population size under unconstrained resource conditions where growth is proportional to population size.",
+   "formula": "growth_rate = r * N",
+   "key_idea": "Unlimited resources yield a J-shaped population growth curve governed by dN/dt = rN.",
+   "textbook_ref": "lebo111.txt lines 140-175",
+   "question_patterns": [
+    "In Class 12 Organisms and Populations, calculate the exponential population growth rate dN/dt",
+    "find instantaneous growth rate given intrinsic growth rate r and population size N",
+    "determine the rate of change dN/dt under unlimited resources",
+    "compute population addition rate for a J-shaped growth curve",
+    "what is the population rate of increase when r and N are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply intrinsic growth rate by population size",
+     "explain": "Exponential growth rate is calculated as r multiplied by N.",
+     "compute": "growth_rate = r * n"
+    },
+    {
+     "step": 2,
+     "action": "Confirm the J-shaped growth assumption holds",
+     "explain": "Exponential growth applies only when resources are unlimited, so verify that no carrying capacity constraint is active."
+    },
+    {
+     "step": 3,
+     "action": "Project the population size for the next time interval",
+     "explain": "Add the growth rate to the current population to obtain the projected size at the next time step.",
+     "compute": "n_next = n + growth_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Exponential Growth Rate, compute the result for r = 3, n = 3.",
+     "solution": "Step 1: multiply intrinsic growth rate by population size: growth_rate = r * n = 9.0 Step 3: Project the population size for the next time interval: n_next = n + growth_rate = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    },
+    {
+     "question": "Using Exponential Growth Rate, compute the result for r = 4, n = 4.",
+     "solution": "Step 1: multiply intrinsic growth rate by population size: growth_rate = r * n = 16.0 Step 3: Project the population size for the next time interval: n_next = n + growth_rate = 20.0 Final result: 20.0",
+     "answer": "20.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.5",
+   "title": "Verhulst-Pearl Logistic Growth Rate",
+   "section": "11.1.2",
+   "definition": "Population growth model taking into account environmental carrying capacity limits resulting in a S-shaped curve.",
+   "formula": "growth_rate = r * N * (K - N) / K",
+   "key_idea": "Finite environmental resources enforce an upper limit K, yielding a sigmoid growth pattern.",
+   "textbook_ref": "lebo111.txt lines 180-210",
+   "question_patterns": [
+    "In Class 12 Biology, compute the logistic growth rate dN/dt given N, r, and carrying capacity K",
+    "calculate population change rate under Verhulst-Pearl logistic model",
+    "determine dN/dt when resources are limiting and carrying capacity is K",
+    "find the instantaneous logistic growth rate for a population of size N",
+    "what is the growth rate when population approaches environmental carrying capacity K"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute environmental resistance fraction",
+     "explain": "Determine the unused carrying capacity fraction (K - N) / K.",
+     "compute": "fraction_remaining = (k - n) / k"
+    },
+    {
+     "step": 2,
+     "action": "calculate net logistic growth rate",
+     "explain": "Multiply intrinsic rate r, population density N, and remaining capacity fraction.",
+     "compute": "growth_rate = r * n * fraction_remaining"
+    },
+    {
+     "step": 3,
+     "action": "Verify the sigmoid growth behavior at population extremes",
+     "explain": "When N approaches K the growth rate approaches zero, and when N is small the growth rate approaches the exponential value r*N."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Verhulst-Pearl Logistic Growth Rate, compute the result for k = 3, n = 3, r = 3.",
+     "solution": "Step 1: compute environmental resistance fraction: fraction_remaining = (k - n) / k = 0.0 Step 2: calculate net logistic growth rate: growth_rate = r * n * fraction_remaining = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Verhulst-Pearl Logistic Growth Rate, compute the result for k = 4, n = 4, r = 4.",
+     "solution": "Step 1: compute environmental resistance fraction: fraction_remaining = (k - n) / k = 0.0 Step 2: calculate net logistic growth rate: growth_rate = r * n * fraction_remaining = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.6",
+   "title": "Population Age Structure and Pyramids",
+   "section": "11.1.1",
+   "definition": "The distribution profile of age groups within a population whose graphical representation indicates whether the population is expanding, stable, or declining.",
+   "formula": "",
+   "key_idea": "Age pyramids display pre-reproductive, reproductive, and post-reproductive proportions reflecting growth status.",
+   "textbook_ref": "lebo111.txt lines 80-95",
+   "question_patterns": [
+    "In Class 12 Organisms and Populations, describe the features of expanding, stable, and declining age pyramids",
+    "explain how age distribution reflects the growth status of a human population",
+    "identify the population growth status from an age pyramid diagram",
+    "what ecological attributes belong to a population rather than an individual",
+    "analyze why sex ratio and age structure are key population parameters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine pre-reproductive and reproductive proportions",
+     "explain": "A high proportion of pre-reproductive individuals produces an expanding pyramid, equal proportions produce a stable pyramid, and lower pre-reproductive proportion produces a declining pyramid."
+    },
+    {
+     "step": 2,
+     "action": "correlate pyramid shape with population growth trend",
+     "explain": "Triangular shape indicates rapid growth, bell shape indicates stability, and urn shape indicates population decline."
+    },
+    {
+     "step": 3,
+     "action": "Assess the sex ratio alongside age structure",
+     "explain": "A balanced sex ratio combined with age distribution data provides a complete picture of future reproductive potential and population trajectory."
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.7",
+   "title": "Life History Variation and Evolutionary Strategies",
+   "section": "11.1.3",
+   "definition": "Evolving reproductive strategies that species adopt to maximize Darwinian fitness within specific environmental abiotic and biotic limits.",
+   "formula": "",
+   "key_idea": "Organisms evolve trade-offs between breeding frequency, offspring number, and offspring size.",
+   "textbook_ref": "lebo111.txt lines 215-235",
+   "question_patterns": [
+    "In Class 12 Biology life history variations, compare organisms breeding once versus multiple times",
+    "explain trade-offs between producing many small offspring versus few large offspring",
+    "what is Darwinian fitness in the context of ecological life histories",
+    "identify examples of organisms that reproduce only once in their lifetime",
+    "describe how abiotic and biotic constraints shape life history traits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize breeding frequency strategies",
+     "explain": "Species like Pacific salmon and bamboo breed once per lifetime, whereas mammals and birds breed repeatedly."
+    },
+    {
+     "step": 2,
+     "action": "evaluate trade-offs in offspring production",
+     "explain": "Pelagic fishes and oysters yield vast numbers of tiny offspring, whereas mammals invest in fewer, larger young to enhance survival."
+    },
+    {
+     "step": 3,
+     "action": "Relate life history strategy to Darwinian fitness",
+     "explain": "Fitness is measured by the number of surviving offspring, so the optimal strategy balances offspring quantity and size for maximum reproductive success in a given environment."
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.8",
+   "title": "Interspecific Interaction - Predation Dynamics and Adaptations",
+   "section": "11.1.4",
+   "definition": "An interaction where one organism catches and consumes another, acting as a channel for energy movement across trophic levels and maintaining community diversity.",
+   "formula": "",
+   "key_idea": "Predators control prey numbers, prevent competitive exclusion among prey, and drive adaptive defenses.",
+   "textbook_ref": "lebo111.txt lines 255-310",
+   "question_patterns": [
+    "In Class 12 Organisms and Populations, explain biological control based on predator-prey dynamics",
+    "describe predator adaptations and prey defense mechanisms like chemical defense and camouflage",
+    "how do predators maintain species diversity in intertidal communities like Pisaster starfish",
+    "what role do predators play as energy conduits across trophic levels",
+    "explain why predators in nature are prudent and avoid overexploiting prey"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ecological roles of predation",
+     "explain": "Predators transfer plant-fixed energy to higher levels and keep prey population density below carrying capacity."
+    },
+    {
+     "step": 2,
+     "action": "analyze evolutionary defense adaptations",
+     "explain": "Prey evolve camouflage (frogs/insects), distasteful chemicals (Monarch butterfly), or poisonous glycosides and thorns (Calotropis, Acacia)."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the role of predation in maintaining species diversity",
+     "explain": "Predators like Pisaster starfish prevent competitive exclusion by keeping dominant prey in check, thereby sustaining higher community diversity."
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.9",
+   "title": "Interspecific Interaction - Competition Principles",
+   "section": "11.1.4",
+   "definition": "An interaction process in which the biological fitness of one species is noticeably reduced due to the presence of another competing for resources or interfering with feeding.",
+   "formula": "",
+   "key_idea": "Gause's principle states competing species cannot coexist indefinitely if resources are limiting, though resource partitioning enables coexistence.",
+   "textbook_ref": "lebo111.txt lines 315-375",
+   "question_patterns": [
+    "In Class 12 Biology competition, state Gause's Competitive Exclusion Principle",
+    "explain resource partitioning using MacArthur's warbler foraging observations",
+    "describe competitive release demonstrated in intertidal barnacles by Connell",
+    "how do unrelated species compete for common resources as in South American lakes",
+    "distinguish interference competition from resource limitation competition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define competitive exclusion and competitive release",
+     "explain": "In limited resource conditions, superior competitors eliminate inferior ones; removing a superior competitor lets the inferior species expand its range."
+    },
+    {
+     "step": 2,
+     "action": "explain mechanisms enabling coexistence",
+     "explain": "Species avoid exclusion by partitioning resources through distinct feeding times or foraging behavioral differences."
+    },
+    {
+     "step": 3,
+     "action": "Apply Gause's principle to predict competitive outcomes",
+     "explain": "When two species compete for the same limiting resource, the competitively superior species will eventually exclude the other, unless resource partitioning or niche differentiation occurs."
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.10",
+   "title": "Interspecific Interaction - Parasitism and Types",
+   "section": "11.1.4",
+   "definition": "An interaction where one species derives nutrition and shelter from a host organism, typically harming the host and displaying specialized adaptations.",
+   "formula": "",
+   "key_idea": "Parasites exhibit morphological simplification, high reproductive capacity, and complex life cycles involving host vectors.",
+   "textbook_ref": "lebo111.txt lines 380-435",
+   "question_patterns": [
+    "In Class 12 Organisms and Populations, differentiate ectoparasites from endoparasites with examples",
+    "explain brood parasitism in cuckoos and crows",
+    "what adaptive features have parasitic organisms evolved to parasitize hosts effectively",
+    "why is female mosquito not considered a true parasite despite feeding on human blood",
+    "describe co-evolution between host resistance mechanisms and parasite counter-adaptations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify parasitic living modes",
+     "explain": "Ectoparasites (lice, ticks, Cuscuta) feed on external surfaces; endoparasites (liver fluke, plasmodium) inhabit internal organs."
+    },
+    {
+     "step": 2,
+     "action": "explain specialized parasitic phenomena",
+     "explain": "Brood parasites lay eggs in host nests, where parasite eggs mimic host eggs in size and color to evade rejection."
+    },
+    {
+     "step": 3,
+     "action": "Describe co-evolutionary adaptations between host and parasite",
+     "explain": "Hosts evolve resistance mechanisms while parasites counter-adapt with specialized attachment organs, loss of digestive system, and high reproductive output to ensure transmission."
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.11",
+   "title": "Interspecific Interaction - Commensalism and Mutualism",
+   "section": "11.1.4",
+   "definition": "Interactions where one species benefits while the other is unaffected (commensalism) or where both species derive mutual physiological or ecological benefits (mutualism).",
+   "formula": "",
+   "key_idea": "Mutualism features tightly linked co-evolution, whereas commensalism benefits one organism without affecting the partner.",
+   "textbook_ref": "lebo111.txt lines 440-510",
+   "question_patterns": [
+    "In Class 12 Biology population interactions, differentiate commensalism from mutualism",
+    "describe the mutualistic relationship between fig trees and pollinator wasps",
+    "explain sexual deceit in the Mediterranean orchid Ophrys pollinated by male bees",
+    "give examples of commensalism like epiphytic orchids on mango trees or clownfish and sea anemone",
+    "what are mycorrhizae and lichens as examples of mutualistic associations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "characterize commensalism (+, 0)",
+     "explain": "One species gains advantages (shelter, food access) while the host suffers no loss nor gains benefit (e.g., egret and cattle, orchid on mango)."
+    },
+    {
+     "step": 2,
+     "action": "characterize mutualism (+, +)",
+     "explain": "Both species gain survival or reproductive advantages, often exhibiting co-evolved specific adaptations (e.g., fig-wasp, orchid sexual deceit)."
+    },
+    {
+     "step": 3,
+     "action": "Identify co-evolved specificity in mutualistic interactions",
+     "explain": "Many mutualisms show tight co-evolution where each partner depends exclusively on the other, as seen in mycorrhizae, lichens, and plant-pollinator relationships."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo111.txt lines 70-76",
+   "concept": "lebo.111.1.1",
+   "question_type": "compute",
+   "question_pattern": "In a pond with {initial_pop} lotus plants, {count} new plants are added through reproduction over one year. Calculate the per capita birth rate.",
+   "extracted_variables": {
+    "initial_pop": 20,
+    "count": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide individual event count by starting population",
+     "explain": "Per capita rate equals the number of births or deaths divided by the initial population size.",
+     "compute": "per_capita_rate = count / initial_pop"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo111.txt lines 76-80",
+   "concept": "lebo.111.1.1",
+   "question_type": "compute",
+   "question_pattern": "In a laboratory population of {initial_pop} fruitflies, {count} individuals died during a specified week. Determine the per capita death rate per fruitfly per week.",
+   "extracted_variables": {
+    "initial_pop": 40,
+    "count": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide individual event count by starting population",
+     "explain": "Per capita rate equals the number of births or deaths divided by the initial population size.",
+     "compute": "per_capita_rate = count / initial_pop"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lebo111.txt lines 120-130",
+   "concept": "lebo.111.2.2",
+   "question_type": "compute",
+   "question_pattern": "A population density N_current is {N_current}. Over a year, there are {births} births, {immigration} immigrants, {deaths} deaths, and {emigration} emigrants. Find the updated population density N_next.",
+   "extracted_variables": {
+    "N_current": 100,
+    "births": 15,
+    "immigration": 5,
+    "deaths": 8,
+    "emigration": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum gains to the population",
+     "explain": "Add births and incoming immigrants.",
+     "compute": "gains = births + immigration"
+    },
+    {
+     "step": 2,
+     "action": "sum losses from the population",
+     "explain": "Add deaths and outgoing emigrants.",
+     "compute": "losses = deaths + emigration"
+    },
+    {
+     "step": 3,
+     "action": "calculate net future population density",
+     "explain": "Combine initial density with gains minus losses.",
+     "compute": "n_next = n_current + gains - losses"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lebo111.txt lines 120-130",
+   "concept": "lebo.111.1.2",
+   "question_type": "compute",
+   "question_pattern": "An isolated habitat has an initial population density of {N_current}. In a season, {births} individuals are born, {immigration} enter, {deaths} die, and {emigration} leave. Calculate the density N_next.",
+   "extracted_variables": {
+    "N_current": 500,
+    "births": 40,
+    "immigration": 10,
+    "deaths": 30,
+    "emigration": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum gains to the population",
+     "explain": "Add births and incoming immigrants.",
+     "compute": "gains = births + immigration"
+    },
+    {
+     "step": 2,
+     "action": "sum losses from the population",
+     "explain": "Add deaths and outgoing emigrants.",
+     "compute": "losses = deaths + emigration"
+    },
+    {
+     "step": 3,
+     "action": "calculate net future population density",
+     "explain": "Combine initial density with gains minus losses.",
+     "compute": "n_next = n_current + gains - losses"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lebo111.txt lines 150-160",
+   "concept": "lebo.111.1.3",
+   "question_type": "compute",
+   "question_pattern": "If the per capita birth rate b is {b} and per capita death rate d is {d}, evaluate the intrinsic rate of natural increase r.",
+   "extracted_variables": {
+    "b": 0.05,
+    "d": 0.03
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract per capita death rate from per capita birth rate",
+     "explain": "The parameter r equals per capita birth rate b minus per capita death rate d.",
+     "compute": "r = b - d"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lebo111.txt lines 150-160",
+   "concept": "lebo.111.1.3",
+   "question_type": "compute",
+   "question_pattern": "A mammal population displays per capita birth rate b = {b} and per capita death rate d = {d}. Calculate its intrinsic growth rate r.",
+   "extracted_variables": {
+    "b": 0.035,
+    "d": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract per capita death rate from per capita birth rate",
+     "explain": "The parameter r equals per capita birth rate b minus per capita death rate d.",
+     "compute": "r = b - d"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lebo111.txt lines 155-170",
+   "concept": "lebo.111.1.4",
+   "question_type": "compute",
+   "question_pattern": "A beetle population with intrinsic growth rate r = {r} has {N} individuals. Calculate the exponential rate of population increase dN/dt under unlimited resources.",
+   "extracted_variables": {
+    "r": 0.12,
+    "N": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply intrinsic growth rate by population size",
+     "explain": "Exponential growth rate is calculated as r multiplied by N.",
+     "compute": "growth_rate = r * n"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lebo111.txt lines 155-170",
+   "concept": "lebo.111.1.4",
+   "question_type": "compute",
+   "question_pattern": "Determine the instantaneous population growth rate dN/dt when r = {r} and the current population size N = {N}.",
+   "extracted_variables": {
+    "r": 0.02,
+    "N": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply intrinsic growth rate by population size",
+     "explain": "Exponential growth rate is calculated as r multiplied by N.",
+     "compute": "growth_rate = r * n"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "lebo111.txt lines 190-205",
+   "concept": "lebo.111.1.5",
+   "question_type": "compute",
+   "question_pattern": "In a habitat with carrying capacity K = {K}, a population of N = {N} individuals has an intrinsic growth rate r = {r}. Calculate the logistic growth rate dN/dt.",
+   "extracted_variables": {
+    "K": 1000,
+    "N": 400,
+    "r": 0.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute environmental resistance fraction",
+     "explain": "Determine the unused carrying capacity fraction (K - N) / K.",
+     "compute": "fraction_remaining = (k - n) / k"
+    },
+    {
+     "step": 2,
+     "action": "calculate net logistic growth rate",
+     "explain": "Multiply intrinsic rate r, population density N, and remaining capacity fraction.",
+     "compute": "growth_rate = r * n * fraction_remaining"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "lebo111.txt lines 190-205",
+   "concept": "lebo.111.1.5",
+   "question_type": "compute",
+   "question_pattern": "Compute the rate dN/dt under Verhulst-Pearl logistic growth where intrinsic rate r = {r}, density N = {N}, and carrying capacity K = {K}.",
+   "extracted_variables": {
+    "r": 0.2,
+    "N": 50,
+    "K": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute environmental resistance fraction",
+     "explain": "Determine the unused carrying capacity fraction (K - N) / K.",
+     "compute": "fraction_remaining = (k - n) / k"
+    },
+    {
+     "step": 2,
+     "action": "calculate net logistic growth rate",
+     "explain": "Multiply intrinsic rate r, population density N, and remaining capacity fraction.",
+     "compute": "growth_rate = r * n * fraction_remaining"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "lebo111.txt page 204",
+   "questions": [
+    "List the attributes that populations possess but not individuals.",
+    "If a population growing exponentially double in size in 3 years, what is the intrinsic rate of increase (r) of the population?",
+    "Name important defence mechanisms in plants against herbivory.",
+    "An orchid plant is growing on the branch of mango tree. How do you describe this interaction between the orchid and the mango tree?",
+    "What is the ecological principle behind the biological control method of managing with pest insects?",
+    "Define population and community.",
+    "Define the following terms and give one example for each: (a) Commensalism (b) Parasitism (c) Camouflage (d) Mutualism (e) Interspecific competition",
+    "With the help of suitable diagram describe the logistic population growth curve.",
+    "Select the statement which explains best parasitism. (a) One organism is benefited. (b) Both the organisms are benefited. (c) One organism is benefited, other is not affected. (d) One organism is benefited, other is affected.",
+    "List any three important characteristics of a population and explain."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "lebo.111.1.2: bad compute 'N_current + gains - losses' (unknown symbol: N_current)",
+  "lebo.111.1.4: bad compute 'r * N' (unknown symbol: N)",
+  "lebo.111.1.5: bad compute '(K - N) / K' (unknown symbol: K)",
+  "lebo.111.1.5: bad compute 'r * N * fraction_remaining' (unknown symbol: N)"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

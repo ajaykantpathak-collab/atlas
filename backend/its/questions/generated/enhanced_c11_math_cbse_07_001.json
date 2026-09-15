@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_001",
+   "title": "c11_math_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the Fundamental Principle of Counting (Multiplication Principle) in your own words, including the condition required for it to apply.",
+     "a": "Correct answer: If one task can be done in \\(m\\) ways and a second independent task can be done in \\(n\\) ways, then both tasks together can be done in \\(m \\times n\\) ways. The critical condition is that the choices must be independent — the number of ways for the second task does not depend on which choice was made for the first task. A wrong answer revealing \"if there are m ways for first and n ways for second, total is m+n\" shows confusion with the Addition Principle (OR situations). A wrong answer omitting \"independent\" or \"sequential\" reveals the student doesn't grasp when multiplication is valid versus when choices affect each other.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Choosing a captain and vice-captain from a class of 40 students: there are 40 choices for captain and 40 choices for vice-captain, so 40 × 40 = 1600 ways by the Multiplication Principle.\" Explain why this reasoning is incorrect and give the correct count.",
+     "a": "Correct answer: The student's error is assuming independence — the same person cannot be both captain and vice-captain. After choosing the captain (40 ways), only 39 students remain for vice-captain. The correct count is 40 × 39 = 1560 ways. A wrong answer accepting 1600 reveals the student applies multiplication mechanically without checking whether the second choice set changes based on the first choice. This is the most common Class 11 misconception: treating dependent sequential choices as independent.",
+     "self_check": true
+    },
+    {
+     "q": "A restaurant offers 4 starters, 5 main courses, and 3 desserts. A \"complete meal\" consists of one starter, one main course, and one dessert. How many different complete meals are possible? Show your working.",
+     "a": "Correct answer with steps:\nStep 1: Identify the sequential independent choices — starter (4 ways), main course (5 ways), dessert (3 ways).\nStep 2: Verify independence — choosing a starter doesn't affect main course options, etc.\nStep 3: Apply Multiplication Principle: total = 4 × 5 × 3.\nStep 4: Compute: 4 × 5 = 20; 20 × 3 = 60.\nAnswer: 60 different complete meals.\nA wrong answer of 4 + 5 + 3 = 12 reveals the student used Addition Principle (OR) instead of Multiplication Principle (AND). A wrong answer of 4 × 5 × 3 × 3 = 180 suggests they mistakenly counted dessert twice or added an extra stage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two scenarios and explain why the Multiplication Principle applies to one but not the other:\nScenario A: A password must be 2 letters (A-Z) followed by 3 digits (0-9). Repetition allowed.\nScenario B: A committee of 2 students is chosen from a class of 20. The committee has no designated roles (just two members).",
+     "a": "Correct answer: Scenario A involves sequential independent choices: position 1 (26 ways) × position 2 (26 ways) × position 3 (10 ways) × position 4 (10 ways) × position 5 (10 ways) = 26² × 10³. Each position's choices are unaffected by previous choices (repetition allowed). Scenario B is a selection without order — choosing {Alice, Bob} is the same as {Bob, Alice}. The Multiplication Principle would give 20 × 19 = 380, but this overcounts by a factor of 2! because order doesn't matter. This requires combinations (node c11_math_cbse_07_007), not the basic Multiplication Principle. A wrong answer saying both use multiplication reveals the student doesn't distinguish between ordered arrangements (permutations) and unordered selections (combinations).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many 3-digit even numbers can be formed from digits 1, 2, 3, 4, 5 if repetition is allowed?\" Their working: \"Units digit must be even: 2 or 4 (2 ways). Hundreds digit: 5 ways. Tens digit: 5 ways. Total = 2 × 5 × 5 = 50.\" Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The student's answer is correct. Reasoning: The constraint (even number) only restricts the units digit to {2, 4} — 2 ways. Since repetition is allowed, hundreds digit has 5 choices (1-5) and tens digit has 5 choices (1-5), independent of other positions. Multiplication Principle applies: 2 × 5 × 5 = 50. A wrong answer claiming \"hundreds digit cannot be 0 so only 4 ways\" reveals the student incorrectly imported the \"no leading zero\" rule from standard 3-digit numbers, but here digits are only 1-5 (no zero exists). A wrong answer of 2 × 4 × 4 = 32 suggests they thought repetition is not allowed.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires exactly 3 stages of independent choices and yields a total between 100 and 200 outcomes. State the problem, the choices at each stage, and the final calculation.",
+     "a": "Sample good answer: \"A student chooses a mobile recharge plan: 4 network providers (Jio, Airtel, Vi, BSNL) × 5 validity options (28, 56, 84, 365, 730 days) × 6 data packs (1GB, 2GB, 3GB, 5GB, 10GB, unlimited) = 4 × 5 × 6 = 120 possible plans.\" Criteria: 3 independent stages, product between 100-200, realistic Indian context. A poor answer: \"Choose a shirt (10), pant (10), shoe (10) = 1000\" (product outside range) or \"Choose captain (20), vice-captain (19), secretary (18)\" (choices dependent, not independent) reveals the student cannot construct valid independent-choice scenarios or verify the numerical constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

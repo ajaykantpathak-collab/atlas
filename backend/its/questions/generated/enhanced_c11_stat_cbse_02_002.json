@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_002",
+   "title": "c11_stat_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the defining characteristic that distinguishes Direct Personal Investigation from Mailed Questionnaire and Telephone Interview methods?",
+     "a": "The defining characteristic is the investigator's physical, face-to-face presence with the respondent during data collection, enabling real-time clarification, observation of non-verbal cues, and use of open-ended questions. A wrong answer (e.g., \"it uses a questionnaire\" or \"it is cheaper\") reveals confusion between the *instrument* (questionnaire) and the *mode of administration* (personal visit), or misattribution of cost advantages that actually belong to mailing methods.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the \"impact of demonetisation on small retail shops in a metropolitan city.\" The population is 5,000 shops spread across 200 sq km. The researcher has a team of 5 trained investigators and a 3-month timeline. Is Direct Personal Investigation suitable? Explain your reasoning.",
+     "a": "Direct Personal Investigation is NOT suitable here. With 5,000 shops spread over a large area and only 5 investigators over 3 months (≈90 days), each investigator would need to cover ~11 shops per day (5,000 ÷ 5 ÷ 90), which is unrealistic given travel time, interview duration, and non-response follow-ups. A wrong answer (\"yes, because it gives accurate data\") ignores the practical constraints of cost, time, and coverage—classic senior secondary error of prioritising theoretical advantages over feasibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-question sequence for a Direct Personal Investigation on \"household savings behaviour\" that follows the NCERT principle of moving from general to specific. Write the questions in order.",
+     "a": "Correct sequence: (1) \"How many earning members are in your household?\" (general, demographic) → (2) \"What is your household's approximate monthly income?\" (general, economic) → (3) \"Do you save any portion of your monthly income?\" (specific, behaviour) → (4) \"If yes, what percentage and in what form (bank, cash, gold, chit fund)?\" (specific, detailed). A wrong answer that reverses order (e.g., asking savings percentage before income) violates the \"general to specific\" principle, causing respondent discomfort and inaccurate responses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Direct Personal Investigation and Mailed Questionnaire on these three dimensions: (a) response rate, (b) suitability for illiterate respondents, (c) possibility of investigator bias. Present as a table.",
+     "a": "| Dimension | Direct Personal Investigation | Mailed Questionnaire |\n|-----------|-------------------------------|----------------------|\n| (a) Response Rate | Highest (personal appeal, follow-up possible) | Low (no follow-up, easy to ignore) |\n| (b) Illiterate Respondents | Suitable (investigator reads, explains) | Unsuitable (requires literacy) |\n| (c) Investigator Bias | High (presence influences answers) | None (no investigator present) |\nA wrong answer that claims mailed questionnaires have higher response rates or that personal interviews eliminate bias reveals fundamental misunderstanding of the trade-offs: personal contact boosts response but introduces bias; absence of investigator removes bias but kills response rate.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Direct Personal Investigation is always the best method because it gives the most accurate data.\" Evaluate this claim using at least three specific counter-arguments from the NCERT framework.",
+     "a": "The claim is false. Counter-arguments: (1) **Cost**: It is the most expensive method (trained investigators, travel, time)—impractical for large populations. (2) **Investigator Bias**: The interviewer's presence, tone, or body language can influence responses, especially on sensitive topics (e.g., income, voting preference). (3) **Time**: It takes the longest to complete; for time-sensitive data (e.g., pre-election polls), it fails. (4) **Non-coverage**: Cannot reach respondents who are unavailable during visit hours (e.g., working professionals). A wrong answer that agrees or gives vague reasons (\"it depends\") fails to apply the specific NCERT-listed demerits to evaluate the absolute claim.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic research scenario (Indian context) where Direct Personal Investigation is the *only* appropriate method among the three modes. Justify why the other two methods would fail.",
+     "a": "Scenario: \"Assessing the effectiveness of Anganwadi nutrition supplements among tribal mothers in a remote Jharkhand district where literacy is <15%, no postal service exists, and mobile connectivity is absent.\" Justification: Mailed Questionnaire fails—illiterate mothers cannot read/write; no postal service for delivery/return. Telephone Interview fails—no mobile network. Only Direct Personal Investigation works: investigator travels to villages, communicates in local dialect, observes child health indicators, builds trust. A poor answer chooses a scenario where other methods could work (e.g., urban literate population), showing inability to match method to contextual constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

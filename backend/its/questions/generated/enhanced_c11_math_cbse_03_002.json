@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_002",
+   "title": "c11_math_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the exact conversion factor to change an angle from degrees to radians, and write the formula for converting 150° to radians in terms of π.",
+     "a": "The conversion factor is π/180. For 150°, the formula is 150° × (π/180) = (150π/180) = (5π/6) radians. A wrong answer like 180/π reveals the student has inverted the conversion factor, confusing \"radians per degree\" with \"degrees per radian\". If they write 150 × (180/π), they are converting radians to degrees instead.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying by π/180 converts degrees to radians, using the relationship between the circumference of a unit circle and a full revolution.",
+     "a": "A full revolution is 360° and also the circumference of a unit circle, which is 2π radians. Therefore 360° = 2π rad ⇒ 180° = π rad ⇒ 1° = π/180 rad. Multiplying by π/180 is scaling the degree measure by the number of radians in one degree. A wrong answer that says \"because π is 3.14\" shows the student is treating π as a decimal approximation rather than the exact ratio of circumference to diameter, missing the geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Convert 22°30′ into radian measure. Express your answer as an exact multiple of π.",
+     "a": "Step 1: Convert minutes to degrees: 30′ = 30/60 = 0.5°, so angle = 22.5° = 45/2 °.\nStep 2: Multiply by π/180: (45/2) × (π/180) = (45π)/(360) = π/8 radian.\nA wrong answer of 22.5 × (π/180) = 0.3927 rad (decimal) shows the student did not simplify to an exact multiple of π. An answer of 22.5π/180 without simplifying to π/8 indicates incomplete algebraic simplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts 5π/3 radians to degrees by calculating 5π/3 × π/180 = 5π²/540. Identify the error and find the correct degree measure.",
+     "a": "The student used the wrong conversion factor (π/180 instead of 180/π). The correct conversion is: (5π/3) × (180/π) = (5 × 180)/3 = 300°. The error reveals the student memorised \"multiply by π/180\" without understanding it only applies for degree→radian. The correct factor for radian→degree is the reciprocal, 180/π.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since 1 radian ≈ 57.3°, to convert radians to degrees I can always multiply by 57.3.\" Is this acceptable for board exam answers? Justify.",
+     "a": "No, it is not acceptable for exact answers. Board exams require exact values in terms of π (e.g., π/3 rad = 60°). Using 57.3° introduces rounding errors and loses the exact relationship. The statement is only valid for approximate decimal answers. A student who thinks this is always acceptable does not understand that π is an irrational number and the conversion factor 180/π is exact, while 57.3 is an approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires converting an angle from DMS format to radians, then using l = rθ to find an arc length. Provide the problem statement only.",
+     "a": "Example problem: \"The minute hand of a clock on the Rajabai Tower in Mumbai is 1.2 m long. How far does its tip move in 20 minutes? (Use π = 22/7)\" A good answer will: (1) find angle turned = 20/60 × 360° = 120° = 2π/3 rad, (2) use l = rθ = 1.2 × 2π/3 = 0.8π m ≈ 2.51 m. A poor problem would omit the DMS step or the arc length application, showing the student cannot synthesise the two concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

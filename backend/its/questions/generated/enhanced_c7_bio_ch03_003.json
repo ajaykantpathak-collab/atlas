@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_003",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_003",
+   "title": "c7_bio_ch03_003",
+   "questions": [
+    {
+     "q": "What is the primary biological function of a leaf in an autotrophic plant?",
+     "a": "The primary function of a leaf is to act as the site of food production (photosynthesis) for the plant by capturing sunlight, absorbing carbon dioxide, and utilizing water. If a student answers that the leaf's only job is to \"make shade\" or \"look green,\" it reveals a recall gap regarding the fundamental metabolic role of plant organs in autotrophic nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Why are most plant leaves broad and flat rather than shaped like thick needles or round spheres?",
+     "a": "A broad and flat shape provides a maximum surface area exposed to sunlight and air, allowing the leaf to absorb optimal light energy and carbon dioxide needed for efficient food production. A wrong answer stating that \"leaves are flat just to look pretty\" or \"to hold raindrops\" shows a lack of comprehension regarding how structural adaptations support biological functions like photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "If a gardener covers the upper and lower surfaces of a healthy potted plant's leaves with a layer of clear petroleum jelly (vaseline), what will happen to the plant's ability to make food over the next few days, and why?",
+     "a": "Steps: \n1. Identify that petroleum jelly forms a waterproof and airtight seal over the leaf surface.\n2. Recall that leaves require carbon dioxide from the air to manufacture food.\n3. Apply this to the scenario: the barrier blocks microscopic pores (stomata), preventing carbon dioxide from entering the leaf.\n4. Conclude that food production will stop or drastically decrease because a vital raw material cannot enter. \nA student who incorrectly predicts that the plant will thrive because it still gets sunlight reveals a misunderstanding that light alone is sufficient for food production without raw materials from the air.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transport network of a leaf (its veins) with the transport system in animals that you learned about in Class 6. How do leaf veins function similarly to animal circulatory pathways?",
+     "a": "Leaf veins contain xylem and phloem tissues that transport water upward from roots and distribute manufactured food to other parts of the plant, much like how animal blood vessels transport water, nutrients, and oxygen throughout the body. An incorrect answer claiming that leaf veins pump blood using a heart reveals confusion between plant transport systems and animal circulatory systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that since roots are underground in the dark, they do not need food made by the leaves, and leaves are completely independent structures. Evaluate this claim using biological reasoning.",
+     "a": "The claim is false because plant organs are interdependent; although leaves manufacture food, they rely on roots for water and minerals, while roots rely entirely on the food (glucose) transported down from the leaves through the phloem for their cellular energy and growth. A student who agrees with the claim shows a misconception that plant parts function in total isolation from one another.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, observation-based investigation using a potted plant in your home or school to prove that green leaves require sunlight to produce starch (food).",
+     "a": "A complete answer should include: \n1. Selecting a healthy potted plant and keeping it in a dark room for 48 hours to destarch the leaves.\n2. Covering a portion of one leaf with a strip of black paper or aluminum foil.\n3. Placing the plant in bright sunlight for several hours.\n4. Testing the leaf for starch using iodine solution after boiling it in alcohol. \nA poor answer that lacks steps or suggests testing a plant kept in constant darkness reveals a failure to understand experimental controls and the necessity of light for photosynthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

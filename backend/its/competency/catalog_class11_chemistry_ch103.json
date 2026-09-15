@@ -1,0 +1,637 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 103,
+ "chapter_title": "Classification of Elements and Periodicity in Properties",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech103.txt",
+ "concepts": [
+  {
+   "id": "kech.3.1",
+   "title": "Dobereiner's Law of Triads",
+   "section": "3.2",
+   "definition": "A classification system in which elements with similar properties are grouped in threes, the atomic weight of the middle element being close to the mean of the weights of the other two.",
+   "formula": "mid_weight = (weight_1 + weight_3) / 2",
+   "key_idea": "In a triad, the atomic weight of the middle element is close to the mean of the atomic weights of the first and third elements.",
+   "textbook_ref": "kech103.txt lines 30-50",
+   "question_patterns": [
+    "find the atomic weight of the middle element in a Dobereiner triad",
+    "calculate the expected atomic weight of the second element given the first and third",
+    "what is the predicted atomic mass of the middle element of a triad",
+    "determine the atomic weight of the central element of a triad",
+    "find the required value in a dobereiner's law of triads problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the atomic weights of the first and third elements",
+     "explain": "Add weight_1 and weight_3 to find their combined mass.",
+     "compute": "weight_1 + weight_3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the average atomic weight",
+     "explain": "Divide the sum by 2 to get the predicted atomic weight of the middle element.",
+     "compute": "weight_sum / 2"
+    },
+    {
+     "step": 3,
+     "action": "Compare the predicted weight with the actual atomic weight of the middle element",
+     "explain": "Verify that the calculated mid_weight is close to the known atomic weight of the middle element, confirming the triad relationship.",
+     "compute": "abs(mid_weight - actual_mid_weight)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving dobereiner's law of triads.",
+     "solution": "Step 1: Sum the atomic weights of the first and third elements. Step 2: Calculate the average atomic weight. Step 3: Compare the predicted weight with the actual atomic weight of the middle element. Working: weight_1 + weight_3, weight_sum / 2, abs(mid_weight - actual_mid_weight).",
+     "answer": "Dobereiner's Law of Triads applied step by step gives the required result."
+    },
+    {
+     "question": "Apply dobereiner's law of triads to a fresh example and interpret the result.",
+     "solution": "Step 1: Sum the atomic weights of the first and third elements. Step 2: Calculate the average atomic weight. Step 3: Compare the predicted weight with the actual atomic weight of the middle element. Working: weight_1 + weight_3, weight_sum / 2, abs(mid_weight - actual_mid_weight).",
+     "answer": "The method of dobereiner's law of triads leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.2",
+   "title": "Mendeleev's Periodic Law",
+   "section": "3.2",
+   "definition": "A system of organization asserting that the both physical and chemical characteristics of chemical elements recur periodically when arranged by their atomic masses.",
+   "formula": "periodicity = f(atomic_weight)",
+   "key_idea": "When elements stand in rising atomic-weight order, look-alike properties come back at regular intervals.",
+   "textbook_ref": "kech103.txt lines 70-100",
+   "question_patterns": [
+    "state Mendeleev's periodic law",
+    "what property did Mendeleev use to classify elements",
+    "explain the basis of Mendeleev's periodic table",
+    "how did Mendeleev organize the elements in his periodic table",
+    "short note on mendeleev's periodic law"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Arrange elements in ascending order of atomic weights",
+     "explain": "Order the elements by their measured atomic masses."
+    },
+    {
+     "step": 2,
+     "action": "Group elements with similar chemical properties",
+     "explain": "Place elements forming similar oxides and hydrides into the same vertical columns."
+    },
+    {
+     "step": 3,
+     "action": "Verify periodic recurrence of properties",
+     "explain": "Confirm that elements in the same group show recurring chemical properties at regular intervals of atomic weight, validating Mendeleev's periodic law."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.3",
+   "title": "Modern Periodic Law",
+   "section": "3.3",
+   "definition": "The organizing principle of chemistry stating that the both physical and chemical behaviors of elements are indeed periodic functions of their atomic numbers.",
+   "formula": "periodicity = f(atomic_number)",
+   "key_idea": "Atomic number is the primary basis of classification, reflecting electronic configuration.",
+   "textbook_ref": "kech103.txt lines 130-160",
+   "question_patterns": [
+    "state the modern periodic law",
+    "how does the modern periodic law differ from Mendeleev's law",
+    "what is the fundamental property used in the modern periodic table",
+    "explain why atomic number is a more fundamental property than atomic mass",
+    "state two key points about modern periodic law"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the atomic number of elements",
+     "explain": "Determine the number of protons or electrons in a neutral atom of each element."
+    },
+    {
+     "step": 2,
+     "action": "Arrange elements in order of increasing atomic number",
+     "explain": "Observe that elements with similar outer electronic configurations fall into the same vertical groups."
+    },
+    {
+     "step": 3,
+     "action": "Relate atomic number to electronic configuration",
+     "explain": "Confirm that the periodic recurrence of properties arises from the repetition of similar outer electronic configurations at regular intervals of atomic number."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.4",
+   "title": "IUPAC Nomenclature for Superheavy Elements",
+   "section": "3.4",
+   "definition": "A systematic naming convention for elements with atomic numbers above 100, using specific Latin and Greek roots representing each digit followed by the suffix -ium.",
+   "formula": "name = root_1 + root_2 + root_3 + 'ium'",
+   "key_idea": "Constructing temporary names and three-letter symbols directly from the digits of the atomic number.",
+   "textbook_ref": "kech103.txt lines 185-220",
+   "question_patterns": [
+    "what is the IUPAC name and symbol for the element with atomic number Z",
+    "find the systematic name of element with atomic number",
+    "determine the three-letter symbol for atomic number",
+    "how do you write the IUPAC name for elements above 100",
+    "short note on iupac nomenclature for superheavy elements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Break down the atomic number into its individual digits",
+     "explain": "Identify the hundreds, tens, and units digits of the atomic number."
+    },
+    {
+     "step": 2,
+     "action": "Write the corresponding numerical root for each digit",
+     "explain": "Use roots: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn."
+    },
+    {
+     "step": 3,
+     "action": "Combine the roots and append the suffix 'ium'",
+     "explain": "Assemble the roots in order and add 'ium' at the end, ensuring proper spelling (e.g., bi + ium becomes bium)."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.5",
+   "title": "Period and Group from Electronic Configuration",
+   "section": "3.5",
+   "definition": "A method to locate an element's position in the periodic table by identifying its highest principal quantum number for the period and its valence electron distribution for the group.",
+   "formula": "period = max_n",
+   "key_idea": "The outermost shell number determines the period, and the valence configuration determines the block and group.",
+   "textbook_ref": "kech103.txt lines 225-270",
+   "question_patterns": [
+    "determine the period and group of an element with atomic number",
+    "locate the position of an element with configuration",
+    "find the group and period for Z",
+    "identify the block and group of an element given its outer configuration",
+    "give one everyday example of period and group from electronic configuration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the complete electronic configuration of the element",
+     "explain": "Distribute the electrons into subshells using the Aufbau principle."
+    },
+    {
+     "step": 2,
+     "action": "Identify the highest principal quantum number",
+     "explain": "The maximum value of n in the configuration corresponds to the period number."
+    },
+    {
+     "step": 3,
+     "action": "Determine the block and group number",
+     "explain": "For s-block, group is the number of valence electrons. For p-block, group is 10 + valence electrons. For d-block, group is 2 + (n-1)d electrons."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.6",
+   "title": "Trends in Atomic Radius",
+   "section": "3.7.1(a)",
+   "definition": "The periodic pattern where the distance from the atomic nucleus to the outermost electron boundary decreases across a both period and increases down a group.",
+   "formula": "atomic_radius = f(Z_eff, n)",
+   "key_idea": "Decreases from left to right across a period; increases from top to bottom down a group.",
+   "textbook_ref": "kech103.txt lines 340-390",
+   "question_patterns": [
+    "how does atomic radius vary across a period",
+    "arrange the elements in increasing order of atomic size",
+    "explain why atomic size increases down a group",
+    "compare the atomic radii of elements in the second period",
+    "describe trends in atomic radius with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the positions of the given elements in the periodic table",
+     "explain": "Find the period and group of each element to compare them."
+    },
+    {
+     "step": 2,
+     "action": "Apply the periodic trends for size",
+     "explain": "Recall that atomic size decreases across a period due to increasing nuclear charge and increases down a group due to new shells."
+    },
+    {
+     "step": 3,
+     "action": "Order the elements accordingly",
+     "explain": "Arrange the elements from smallest to largest based on their positions."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.7",
+   "title": "Ionic Radius of Isoelectronic Species",
+   "section": "3.7.1(b)",
+   "definition": "The size comparison of different atoms and ions sharing the same number of electrons, where size decreases as the positive nuclear charge increases.",
+   "formula": "ionic_radius_order = f(1 / nuclear_charge)",
+   "key_idea": "More protons pull the same number of electrons closer, making the ion smaller.",
+   "textbook_ref": "kech103.txt lines 395-430",
+   "question_patterns": [
+    "arrange the following isoelectronic species in increasing order of size",
+    "which isoelectronic ion has the largest radius",
+    "compare the size of cation and anion with their parent atoms",
+    "explain why Al3+ is smaller than Mg2+",
+    "explain ionic radius of isoelectronic species in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify that the given species are isoelectronic",
+     "explain": "Count the total number of electrons in each species to ensure they are equal."
+    },
+    {
+     "step": 2,
+     "action": "Determine the nuclear charge of each species",
+     "explain": "Find the atomic number (number of protons) for each atom or ion."
+    },
+    {
+     "step": 3,
+     "action": "Arrange by nuclear charge",
+     "explain": "The species with the highest positive nuclear charge has the strongest pull and is the smallest; the one with the lowest nuclear charge is the largest."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.8",
+   "title": "Ionization Enthalpy of Hydrogen",
+   "section": "3.7.1(c)",
+   "definition": "The energy needed to remove one mole of electrons completely from one mole of isolated gaseous hydrogen atoms in their ground state.",
+   "formula": "ionization_enthalpy = abs(ground_energy) * avogadro",
+   "key_idea": "Converting the ground state energy of a single atom to molar enthalpy.",
+   "textbook_ref": "kech103.txt lines 435-480",
+   "question_patterns": [
+    "calculate the ionization enthalpy of atomic hydrogen in J mol-1",
+    "find the molar ionization energy of hydrogen given its ground state energy",
+    "what is the ionization enthalpy of hydrogen in J/mol",
+    "what is the result in this ionization enthalpy of hydrogen problem",
+    "work out the value using ionization enthalpy of hydrogen"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the ground state energy",
+     "explain": "The energy required to remove the electron is the positive magnitude of the ground state energy.",
+     "compute": "abs(ground_energy)"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by Avogadro's number to get energy per mole",
+     "explain": "Multiply the energy per atom by the number of atoms in a mole (avogadro).",
+     "compute": "energy_magnitude * avogadro"
+    },
+    {
+     "step": 3,
+     "action": "Express the result in appropriate units",
+     "explain": "Report the ionization enthalpy in J mol-1, ensuring the final value is in standard scientific notation for clarity.",
+     "compute": "ionization_enthalpy"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving ionization enthalpy of hydrogen.",
+     "solution": "Step 1: Find the absolute value of the ground state energy. Step 2: Multiply by Avogadro's number to get energy per mole. Step 3: Express the result in appropriate units. Working: abs(ground_energy), energy_magnitude * avogadro, ionization_enthalpy.",
+     "answer": "Ionization Enthalpy of Hydrogen applied step by step gives the required result."
+    },
+    {
+     "question": "Apply ionization enthalpy of hydrogen to a fresh example and interpret the result.",
+     "solution": "Step 1: Find the absolute value of the ground state energy. Step 2: Multiply by Avogadro's number to get energy per mole. Step 3: Express the result in appropriate units. Working: abs(ground_energy), energy_magnitude * avogadro, ionization_enthalpy.",
+     "answer": "The method of ionization enthalpy of hydrogen leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.9",
+   "title": "Trends in Ionization Enthalpy",
+   "section": "3.7.1(c)",
+   "definition": "The way the energy needed to remove an electron from a gaseous atom changes through the periodic table: it generally grows across a period and falls down a group.",
+   "formula": "IE_trend = f(Z_eff / radius)",
+   "key_idea": "A bigger effective nuclear charge makes ionization enthalpy larger; a bigger atomic radius makes it smaller.",
+   "textbook_ref": "kech103.txt lines 440-510",
+   "question_patterns": [
+    "why does beryllium have a higher ionization enthalpy than boron",
+    "explain the trend of ionization enthalpy across a period",
+    "compare the first and second ionization enthalpies of sodium and magnesium",
+    "why does oxygen have a lower first ionization enthalpy than nitrogen",
+    "why is trends in ionization enthalpy important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the electronic configurations of the elements",
+     "explain": "Identify the subshells from which the electron is removed."
+    },
+    {
+     "step": 2,
+     "action": "Analyze shielding and penetration effects",
+     "explain": "Consider how well inner electrons shield the outer electron, and the penetration of s vs p orbitals."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate subshell stability",
+     "explain": "Check for half-filled or fully-filled subshells which provide extra stability and resist electron removal."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.10",
+   "title": "Electron Gain Enthalpy",
+   "section": "3.7.1(d)",
+   "definition": "The energy change associated with adding an electron to a neutral gaseous atom to form a negative ion, showing specific trends across periods and down groups.",
+   "formula": "EGE_trend = f(Z_eff, size)",
+   "key_idea": "Halogens have highly negative electron gain enthalpies, while noble gases have positive values.",
+   "textbook_ref": "kech103.txt lines 515-560",
+   "question_patterns": [
+    "which element has a more negative electron gain enthalpy",
+    "explain why chlorine has a more negative electron gain enthalpy than fluorine",
+    "why are electron gain enthalpies of noble gases positive",
+    "compare the electron gain enthalpies of oxygen and fluorine",
+    "list the main features of electron gain enthalpy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare the atomic sizes and electronic configurations",
+     "explain": "Identify the shell (n level) where the incoming electron will be added."
+    },
+    {
+     "step": 2,
+     "action": "Consider inter-electronic repulsion",
+     "explain": "In smaller atoms like F (n=2), high electron density causes significant repulsion, making electron addition less exothermic than in larger atoms like Cl (n=3)."
+    },
+    {
+     "step": 3,
+     "action": "Apply periodic trends to rank or compare the species",
+     "explain": "Use the combined understanding of atomic size, nuclear charge, and electron repulsion to determine which species has the more negative electron gain enthalpy."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.11",
+   "title": "Electronegativity Trends",
+   "section": "3.7.1(e)",
+   "definition": "The relative ability of an atom in a molecule to attract shared bonding electrons to itself, which increases across a both period and decreases down a group.",
+   "formula": "electronegativity_trend = f(1 / radius)",
+   "key_idea": "Directly related to non-metallic both character and inversely related to metallic character.",
+   "textbook_ref": "kech103.txt lines 565-600",
+   "question_patterns": [
+    "how does electronegativity vary down a group",
+    "explain the relationship between electronegativity and non-metallic character",
+    "which element has the highest electronegativity on the Pauling scale",
+    "compare the electronegativities of nitrogen and oxygen",
+    "justify why electronegativity trends matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Relate electronegativity to atomic size",
+     "explain": "Smaller atomic size allows the nucleus to attract shared electrons more strongly."
+    },
+    {
+     "step": 2,
+     "action": "Apply the periodic trends",
+     "explain": "Electronegativity increases from left to right across a period and decreases down a group."
+    },
+    {
+     "step": 3,
+     "action": "Relate electronegativity to metallic and non-metallic character",
+     "explain": "Higher electronegativity correlates with greater non-metallic character, while lower electronegativity correlates with greater metallic character."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.12",
+   "title": "Nature of Oxides and Chemical Reactivity",
+   "section": "3.7.3",
+   "definition": "The classification of element oxides as acidic, basic, amphoteric, or neutral, reflecting periodic trends in metallic and non-metallic character.",
+   "formula": "oxide_character = f(metallic_character)",
+   "key_idea": "Metallic oxides are basic, non-metallic oxides are acidic, and metalloid oxides are often amphoteric.",
+   "textbook_ref": "kech103.txt lines 670-710",
+   "question_patterns": [
+    "show that Na2O is a basic oxide and Cl2O7 is an acidic oxide",
+    "classify the following oxides as acidic, basic, or amphoteric",
+    "what is the nature of oxides formed by elements in the center of the periodic table",
+    "write equations to show the amphoteric nature of alumina",
+    "state two key points about nature of oxides and chemical reactivity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the chemical equation of the oxide reacting with water",
+     "explain": "Observe the nature of the product formed when the oxide dissolves in water."
+    },
+    {
+     "step": 2,
+     "action": "Identify the acidity or basicity of the product",
+     "explain": "Oxides of highly electropositive metals yield strong bases, while oxides of highly electronegative non-metals yield strong acids."
+    },
+    {
+     "step": 3,
+     "action": "Classify amphoteric and neutral oxides for borderline cases",
+     "explain": "Metalloid oxides such as Al2O3 and ZnO are amphoteric, reacting with both acids and bases, while some non-metal oxides like CO and N2O are neutral."
+    }
+   ]
+  },
+  {
+   "id": "kech.3.13",
+   "title": "Formulas of Binary Compounds",
+   "section": "3.7.2(a)",
+   "definition": "A method to predict the chemical formula of a compound formed by two elements by cross-multiplying their respective valencies derived from their positions in the periodic table.",
+   "formula": "formula = element_A_valency_B_element_B_valency_A",
+   "key_idea": "Valencies of elements are determined from their group numbers and combined in a simplified ratio.",
+   "textbook_ref": "kech103.txt lines 610-640",
+   "question_patterns": [
+    "predict the formula of the compound formed between silicon and bromine",
+    "write the formula of the binary compound of aluminium and sulphur",
+    "what is the formula of the compound formed by lithium and oxygen",
+    "predict the formula of the stable binary compound of magnesium and nitrogen",
+    "how does formulas of binary compounds work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the group numbers of both elements",
+     "explain": "Find where the elements are located in the periodic table."
+    },
+    {
+     "step": 2,
+     "action": "Determine their valencies",
+     "explain": "Valency is equal to group number for groups 1-2, and (18 - group number) or (group number - 10) for groups 13-17."
+    },
+    {
+     "step": 3,
+     "action": "Cross-multiply and simplify the ratio",
+     "explain": "Combine the elements using their valencies as subscripts for the opposite element, simplifying to the lowest whole number ratio."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech103.txt lines 30-45",
+   "concept": "kech.3.1",
+   "question_type": "compute",
+   "question_pattern": "In a Dobereiner triad of Li, Na, and K, the atomic weight of Li is {weight_1} and K is {weight_3}. Calculate the expected atomic weight of Na.",
+   "extracted_variables": {
+    "weight_1": "atomic weight of the first element",
+    "weight_3": "atomic weight of the third element"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the atomic weights of the first and third elements",
+     "explain": "Add weight_1 and weight_3 to find their combined mass.",
+     "compute": "weight_sum = weight_1 + weight_3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the average atomic weight",
+     "explain": "Divide the sum by 2 to get the predicted atomic weight of the middle element.",
+     "compute": "mid_weight = weight_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech103.txt Exercise 3.15",
+   "concept": "kech.3.8",
+   "question_type": "compute",
+   "question_pattern": "Energy of an electron in the ground state of the hydrogen atom is {ground_energy} J. Calculate the ionization enthalpy of atomic hydrogen in terms of J mol-1.",
+   "extracted_variables": {
+    "ground_energy": "ground state energy of the electron in hydrogen",
+    "avogadro": "Avogadro's constant"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the ground state energy",
+     "explain": "The energy required to remove the electron is the positive magnitude of the ground state energy.",
+     "compute": "energy_magnitude = abs(ground_energy)"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by Avogadro's number to get energy per mole",
+     "explain": "Multiply the energy per atom by the number of atoms in a mole (avogadro).",
+     "compute": "ionization_enthalpy = energy_magnitude * avogadro"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kech103.txt lines 30-50",
+   "concept": "kech.3.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute dobereiner's law of triads step by step",
+   "extracted_variables": {
+    "weight_1": "value of weight_1",
+    "weight_3": "value of weight_3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the atomic weights of the first and third elements",
+     "explain": "Add weight_1 and weight_3 to find their combined mass.",
+     "compute": "weight_sum = weight_1 + weight_3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the average atomic weight",
+     "explain": "Divide the sum by 2 to get the predicted atomic weight of the middle element.",
+     "compute": "mid_weight = weight_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kech103.txt lines 435-480",
+   "concept": "kech.3.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute ionization enthalpy of hydrogen step by step",
+   "extracted_variables": {
+    "ground_energy": "value of ground_energy",
+    "avogadro": "value of avogadro"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the ground state energy",
+     "explain": "The energy required to remove the electron is the positive magnitude of the ground state energy.",
+     "compute": "energy_magnitude = abs(ground_energy)"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by Avogadro's number to get energy per mole",
+     "explain": "Multiply the energy per atom by the number of atoms in a mole (avogadro).",
+     "compute": "ionization_enthalpy = energy_magnitude * avogadro"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "3.4",
+   "source_ref": "kech103.txt lines 730-731",
+   "questions": [
+    "On the basis of quantum numbers, justify that the sixth period of the periodic table should have 32 elements."
+   ]
+  },
+  {
+   "id": "3.5",
+   "source_ref": "kech103.txt lines 732-733",
+   "questions": [
+    "In terms of period and group where would you locate the element with Z =114?"
+   ]
+  },
+  {
+   "id": "3.6",
+   "source_ref": "kech103.txt lines 734-735",
+   "questions": [
+    "Write the atomic number of the element present in the third period and seventeenth group of the periodic table."
+   ]
+  },
+  {
+   "id": "3.11",
+   "source_ref": "kech103.txt lines 744-747",
+   "questions": [
+    "What do you understand by isoelectronic species? Name a species that will be isoelectronic with each of the following atoms or ions: (i) F- (ii) Ar (iii) Mg2+ (iv) Rb+"
+   ]
+  },
+  {
+   "id": "3.15",
+   "source_ref": "kech103.txt lines 755-758",
+   "questions": [
+    "Energy of an electron in the ground state of the hydrogen atom is -2.18x10^-18 J. Calculate the ionization enthalpy of atomic hydrogen in terms of J mol-1."
+   ]
+  },
+  {
+   "id": "3.20",
+   "source_ref": "kech103.txt lines 769-771",
+   "questions": [
+    "Which of the following pairs of elements would have a more negative electron gain enthalpy? (i) O or F (ii) F or Cl"
+   ]
+  },
+  {
+   "id": "3.32",
+   "source_ref": "kech103.txt lines 799-804",
+   "questions": [
+    "Predict the formulas of the stable binary compounds that would be formed by the combination of the following pairs of elements: (a) Lithium and oxygen (b) Magnesium and nitrogen (c) Aluminium and iodine (d) Silicon and oxygen (e) Phosphorus and fluorine (f) Element 71 and fluorine"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_007",
+   "title": "c11_bio_cbse_10_007",
+   "questions": [
+    {
+     "q": "A cell has completed Meiosis I and is in interkinesis. If the original diploid cell had 2n = 16 chromosomes and 4C DNA content, what are the chromosome number (n) and DNA content (C) in each of the two cells at this stage?",
+     "a": "Each cell has n = 8 chromosomes and 2C DNA content. A wrong answer (e.g., n = 16 or 1C) reveals the student hasn't grasped that Meiosis I separates homologous chromosomes (halving chromosome number) but sister chromatids remain attached (DNA content only halves after Meiosis II). This confusion between chromosome number reduction and DNA content reduction is the most common error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the centromere split in Anaphase II but remain intact in Anaphase I? Explain using the difference in what separates in each anaphase.",
+     "a": "In Anaphase I, homologous chromosomes (each with two chromatids joined at centromere) separate — centromeres don't split because sister chromatids must stay together. In Anaphase II, sister chromatids separate — centromeres MUST split to allow this. A wrong answer (e.g., \"centromeres always split in anaphase\") shows the student memorizes events without understanding the structural requirement: centromere integrity determines whether chromatids or whole chromosomes move.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Meiosis II is identical to mitosis because both separate sister chromatids.\" Identify two specific differences in the starting conditions and outcomes that make this statement incorrect.",
+     "a": "Difference 1: Meiosis II starts with haploid (n) cells with replicated chromosomes (2C); mitosis starts with diploid (2n) cells with replicated chromosomes (4C). Difference 2: Meiosis II produces four haploid cells (n, 1C) from one diploid parent; mitosis produces two diploid cells (2n, 2C). A wrong answer reveals the student focuses only on the mechanism (centromere splitting) and ignores the ploidy context — a critical error for understanding gamete formation.",
+     "self_check": true
+    },
+    {
+     "q": "In a plant with 2n = 24, a microspore mother cell undergoes meiosis. At the end of Telophase II, how many nuclei are present in total, and what is the chromosome number in each nucleus? If cytokinesis fails completely after Meiosis II, what would be the chromosome number in the resulting single cell?",
+     "a": "Total nuclei = 4, each with n = 12 chromosomes. If cytokinesis fails: one cell with 4 nuclei, each n = 12 (not 48!). A wrong answer of \"48 chromosomes\" reveals the student thinks chromosome numbers add up across nuclei — they don't understand that chromosome number is counted PER NUCLEUS, not per cell. This distinction between cellular and nuclear chromosome count is essential for understanding syncytium formation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Interkinesis between Meiosis I and II is just a short interphase where DNA replicates.\" Is it correct? Justify using the events that do and do not occur.",
+     "a": "Incorrect. Interkinesis lacks S phase — no DNA replication occurs. Chromosomes may partially decondense, nuclear envelope may reform briefly, but DNA content remains 2C. A student who says \"correct\" confuses interkinesis with interphase before Meiosis I. This misconception leads to errors in DNA content calculations (thinking it becomes 4C again) and misunderstanding why Meiosis II starts with replicated chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a microscopic observation experiment to distinguish between a cell in Metaphase of mitosis and a cell in Metaphase II of meiosis, using only chromosome morphology and spindle attachment (no ploidy markers). What specific feature would you look for?",
+     "a": "Look for paired homologous chromosomes at the metaphase plate — absent in Metaphase II. In mitosis (2n), chromosomes align as individual units (each with 2 chromatids). In Metaphase II (n), chromosomes also align individually. BUT if you see bivalents (paired homologues), it's Metaphase I, not II. To distinguish Metaphase II from mitosis: you CAN'T reliably distinguish by morphology alone in a single cell — both show chromosomes with 2 chromatids at equator. The key is knowing the ploidy context. A poor answer claiming \"centromere position differs\" shows misunderstanding that centromere position is a chromosome property, not a division-type property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

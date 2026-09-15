@@ -1,0 +1,370 @@
+{
+ "catalog": "catalog_class9_maths_ch105.json",
+ "concepts": [
+  {
+   "id": "iemh.105.1",
+   "title": "Definition and Basic Properties of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 56 cm. Find its circumference (pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 42 cm (pi = 22/7).",
+     "a": "5544",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 56 cm and 140 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "51744",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 7 cm (pi = 22/7).",
+     "a": "51.3333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.2",
+   "title": "Circumcircle of a Triangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
+     "compute": "circ = 2 * 22 / 7 * 63"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
+     "a": "396",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 77 cm. Find its circumference (pi = 22/7).",
+     "a": "242",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 70 cm (pi = 22/7).",
+     "a": "15400",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 56 cm and 133 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "45738",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 45 degrees at the centre of a circle of radius 14 cm (pi = 22/7).",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 35 cm (pi = 22/7).",
+     "a": "320.833",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.3",
+   "title": "Central Angles Subtended by Chords",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
+     "compute": "circ = 2 * 22 / 7 * 63"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
+     "a": "396",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 14 cm. Find its circumference (pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 14 cm (pi = 22/7).",
+     "a": "616",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 63 cm and 140 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "49126",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 35 cm (pi = 22/7).",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 28 cm (pi = 22/7).",
+     "a": "1232",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.4",
+   "title": "Chord Length from Radius and Distance from Centre",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 14 cm. Find its circumference (pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 35 cm and 49 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "3696",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 45 degrees at the centre of a circle of radius 35 cm (pi = 22/7).",
+     "a": "27.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 56 cm (pi = 22/7).",
+     "a": "3285.33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.5",
+   "title": "Radius of Circle from Chord Length and Distance",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
+     "a": "528",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 70 cm. Find its circumference (pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 21 cm (pi = 22/7).",
+     "a": "1386",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 84 cm and 112 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "17248",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 60 degrees at the centre of a circle of radius 42 cm (pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 49 cm (pi = 22/7).",
+     "a": "2515.33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.6",
+   "title": "Angle Subtended by an Arc at Centre and Circumference",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 56 cm. Find its circumference (pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 14 cm (pi = 22/7).",
+     "a": "616",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 21 cm and 42 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "4158",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 7 cm (pi = 22/7).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 28 cm (pi = 22/7).",
+     "a": "1232",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.7",
+   "title": "Angle in a Semicircle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
+     "compute": "circ = 2 * 22 / 7 * 28"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 56 cm. Find its circumference (pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 77 cm and 126 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "31262",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 60 degrees at the centre of a circle of radius 14 cm (pi = 22/7).",
+     "a": "14.6667",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 14 cm (pi = 22/7).",
+     "a": "205.333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.8",
+   "title": "Concyclic Points and Angles in Same Segment",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
+     "compute": "circ = 2 * 22 / 7 * 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 28 cm. Find its circumference (pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 84 cm and 91 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "3850",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 7 cm (pi = 22/7).",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 56 cm (pi = 22/7).",
+     "a": "4928",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.9",
+   "title": "Opposite Angles of a Cyclic Quadrilateral",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Use Heron's formula to find the area of the triangle with sides 8, 15 and 17.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A triangular plot has sides 13 m, 20 m and 21 m. Find its area with Heron's formula (two decimal places).",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "Use Brahmagupta's formula for the cyclic quadrilateral with sides 6, 8, 6, 8 (two decimal places).",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a right triangle with legs 10 and 24, then check it against Heron by reporting base x height / 2.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Use Heron's formula to find the area of the triangle with sides 6, 8 and 10.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Use Brahmagupta's formula for the cyclic quadrilateral with sides 3, 4, 3, 4 (two decimal places).",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

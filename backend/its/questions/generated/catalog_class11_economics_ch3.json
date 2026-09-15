@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_economics_ch3",
+ "concepts": [
+  {
+   "id": "c11eco.3.1",
+   "title": "Arithmetic Mean (Ungrouped Data)",
+   "questions": [
+    {
+     "q": "Calculate the arithmetic mean of the given ungrouped data. Use the method 'Arithmetic Mean (Ungrouped Data)'. Work with: data_total = 20, n = 100, total = 360. Carry the chain through step by step and give the final value of the result.",
+     "a": "3.6 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the mean of the following observations. Use the method 'Arithmetic Mean (Ungrouped Data)'. Work with: data_total = 60, n = 8, total = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.625 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Arithmetic Mean (Ungrouped Data)' refers to.",
+     "a": "The arithmetic mean is the sum of all observations divided by the total number of observations, giving a single representative value of the data set.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arithmetic Mean (Ungrouped Data)'.",
+     "a": "The mean balances the data so that the total of deviations above and below it cancel out.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Arithmetic Mean (Ungrouped Data)', in plain ASCII form.",
+     "a": "mean = sum(x_i) / n",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.2",
+   "title": "Median (Ungrouped Data)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Median (Ungrouped Data)' refers to.",
+     "a": "The median is the middle value of an ordered data set that divides the observations into two equal halves, with half the values below and half above it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Median (Ungrouped Data)'.",
+     "a": "The median is unaffected by extreme values and is found after arranging data in ascending or descending order.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Median (Ungrouped Data)', in plain ASCII form.",
+     "a": "median = middle value (odd n) or average of two middle values (even n)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.3",
+   "title": "Mode (Ungrouped Data)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mode (Ungrouped Data)' refers to.",
+     "a": "The mode is the value that occurs most frequently in a data set, representing the observation with the highest frequency.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mode (Ungrouped Data)'.",
+     "a": "A data set may be unimodal (one mode), bimodal (two modes), or have no mode if all values occur equally.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mode (Ungrouped Data)', in plain ASCII form.",
+     "a": "mode = value with maximum frequency",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.4",
+   "title": "Range as a Measure of Dispersion",
+   "questions": [
+    {
+     "q": "Calculate the range of the given data. Use the method 'Range as a Measure of Dispersion'. Work with: data_total = 40, max_val = 50, min_val = 15. Carry the chain through step by step and give the final value of the result.",
+     "a": "35 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the spread of the data set using range. Use the method 'Range as a Measure of Dispersion'. Work with: data_total = 200, max_val = 25, min_val = 18. Carry the chain through step by step and give the final value of the result.",
+     "a": "7 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Range as a Measure of Dispersion' refers to.",
+     "a": "Range is the simplest measure of dispersion, defined as the difference between the largest and smallest observations in a data set.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Range as a Measure of Dispersion'.",
+     "a": "Range gives a quick sense of the spread of data but is highly sensitive to extreme values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Range as a Measure of Dispersion', in plain ASCII form.",
+     "a": "range = maximum value - minimum value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.5",
+   "title": "Standard Deviation (Ungrouped Data)",
+   "questions": [
+    {
+     "q": "Calculate the standard deviation of the given data. Use the method 'Standard Deviation (Ungrouped Data)'. Work with: data_total = 150, n = 20, sum_sq_dev = 3. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.3873 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the standard deviation for ungrouped observations. Use the method 'Standard Deviation (Ungrouped Data)'. Work with: data_total = 60, n = 500, sum_sq_dev = 4. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.0894 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Standard Deviation (Ungrouped Data)' refers to.",
+     "a": "Standard deviation is the positive square root of the average of the squared deviations of each observation from the mean, measuring the absolute dispersion of data around the mean.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Standard Deviation (Ungrouped Data)'.",
+     "a": "A lower standard deviation indicates data points are close to the mean, while a higher value indicates greater spread.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Standard Deviation (Ungrouped Data)', in plain ASCII form.",
+     "a": "sigma = sqrt( sum((x_i - mean)^2) / n )",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.6",
+   "title": "Variance (Ungrouped Data)",
+   "questions": [
+    {
+     "q": "Calculate the variance of the given data. Use the method 'Variance (Ungrouped Data)'. Work with: data_total = 400, n = 360, sum_sq_dev = 50. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.1389 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance for ungrouped observations. Use the method 'Variance (Ungrouped Data)'. Work with: data_total = 360, n = 10, sum_sq_dev = 15. Carry the chain through step by step and give the final value of the result.",
+     "a": "1.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Variance (Ungrouped Data)' refers to.",
+     "a": "Variance is the average of the squared deviations of each observation from the mean, and is the square of the standard deviation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Variance (Ungrouped Data)'.",
+     "a": "Variance measures the average squared spread of data; it is always non-negative and its unit is the square of the original unit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Variance (Ungrouped Data)', in plain ASCII form.",
+     "a": "variance = sum((x_i - mean)^2) / n",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.9",
+   "title": "Index Numbers: Introduction, WPI and CPI",
+   "questions": [
+    {
+     "q": "Calculate the index number for the given price data. Use the method 'Index Numbers: Introduction, WPI and CPI'. Work with: base_total = 5, current_total = 360, ratio = 30. Carry the chain through step by step and give the final value of the result.",
+     "a": "3000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the CPI for the given basket of goods. Use the method 'Index Numbers: Introduction, WPI and CPI'. Work with: base_total = 5, current_total = 120, ratio = 4. Carry the chain through step by step and give the final value of the result.",
+     "a": "400 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Index Numbers: Introduction, WPI and CPI' refers to.",
+     "a": "An index number is a statistical device measuring the relative change in a variable over time with the base period set to 100; the Wholesale Price Index (WPI) tracks wholesale-level price changes while the Consumer Price Index (CPI) tracks retail price changes paid by consumers for a basket of goods and services.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Index Numbers: Introduction, WPI and CPI'.",
+     "a": "Index numbers express changes as percentages relative to a base period; WPI reflects producer-level prices for policy while CPI reflects the cost of living for consumers and is used to adjust wages and pensions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Index Numbers: Introduction, WPI and CPI', in plain ASCII form.",
+     "a": "index_number = (value in current period / value in base period) * 100; CPI = (sum of current retail prices / sum of base retail prices) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.3.10",
+   "title": "Inflation and Uses of Index Numbers",
+   "questions": [
+    {
+     "q": "Using the method 'Inflation and Uses of Index Numbers', work with: difference = 120, index_current = 25, index_previous = 15. Carry the chain through step by step and give the final value of the result.",
+     "a": "800 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Inflation and Uses of Index Numbers' and work with: difference = 45, index_current = 75, index_previous = 75. Carry the chain through step by step and give the final value of the result.",
+     "a": "60 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Inflation and Uses of Index Numbers' refers to.",
+     "a": "Inflation is the sustained rise in the general price level over time, measured as the percentage rate of change in a price index such as the CPI or WPI; index numbers are widely used to measure this change, determine purchasing power, deflate monetary values, and guide economic policy and wage adjustments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inflation and Uses of Index Numbers'.",
+     "a": "Index numbers are essential for measuring inflation, which erodes purchasing power; they also help compare economic variables over time, adjust incomes for inflation, and formulate government fiscal and monetary policies.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Inflation and Uses of Index Numbers', in plain ASCII form.",
+     "a": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

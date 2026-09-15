@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Geometric Twins",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.1.1",
+   "title": "Geometric Twins: Congruence",
+   "section": "Geometric Twins",
+   "definition": "Two figures are geometric twins, or congruent, when one fits exactly over the other: same size and same shape, so that matching sides and matching angles are equal in pairs.",
+   "formula": "",
+   "key_idea": "Congruence is exact twinship: shape alone is not enough, every matching measurement must agree.",
+   "textbook_ref": "gegp201.txt, Geometric Twins",
+   "question_patterns": [
+    "what does it mean for two figures to be congruent",
+    "are two circles of different sizes congruent justify",
+    "check whether the given triangles are geometric twins",
+    "why must both size and shape match for congruence",
+    "give two examples of congruent objects around you",
+    "how is congruence different from being similar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.2",
+   "title": "Checking Twinship with Measurements",
+   "section": "Testing congruence",
+   "definition": "Congruence is tested by matching measurements: if two triangles have all three pairs of sides equal, the angles have no choice but to match too, so measuring sides can settle twinship without measuring every angle.",
+   "formula": "",
+   "key_idea": "Few measurements decide much: enough equal pairs force the whole figure to fit exactly.",
+   "textbook_ref": "gegp201.txt, Testing congruence",
+   "question_patterns": [
+    "which measurements decide whether two triangles are congruent",
+    "two triangles have equal sides of 3 4 and 5 cm are they congruent",
+    "measure and check whether two given figures are twins",
+    "why do equal sides force equal angles in a triangle",
+    "can two figures have equal angles but not be congruent",
+    "state what else must match besides the shape"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.3",
+   "title": "Corresponding Parts of Twins",
+   "section": "Corresponding parts",
+   "definition": "In congruent figures every part has a partner: vertex A pairs with its twin vertex, side AB with its twin side, and each angle with its equal angle; writing correspondences in order keeps the pairs straight.",
+   "formula": "",
+   "key_idea": "Congruence is a perfect pairing: name the partners in order and every equality follows.",
+   "textbook_ref": "gegp201.txt, Corresponding parts",
+   "question_patterns": [
+    "write the corresponding pairs of the two congruent triangles",
+    "which vertex corresponds to the given vertex in the twin figure",
+    "if AB equals its twin side which angle pair must also be equal",
+    "why is the order of letters important while naming congruent figures",
+    "list all equal pairs in a pair of congruent squares",
+    "use correspondences to find an unknown side in a twin figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.4",
+   "title": "Twins in Tiling, Stamps and Daily Life",
+   "section": "Congruence around us",
+   "definition": "The world mass-produces twins: floor tiles, stamps, blades of a fan and pages of a notebook are designed congruent so that any copy fits any place, which is why measurement checks work in daily life.",
+   "formula": "",
+   "key_idea": "Congruence makes replaceability possible: exact copies let one part fit anywhere its twin could.",
+   "textbook_ref": "gegp201.txt, Congruence around us",
+   "question_patterns": [
+    "why must floor tiles be congruent",
+    "find three congruent objects at home",
+    "what goes wrong if one tile in a row is not a twin",
+    "how do factories make congruent copies",
+    "are two pages of your notebook congruent check",
+    "design a pattern using congruent triangles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp201.txt",
+   "concept": "gegp2.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "what does it mean for two figures to be congruent?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp201.txt",
+   "concept": "gegp2.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "two triangles have sides 3, 4 and 5 cm each; are they congruent?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp201.txt, Figure it Out",
+   "questions": [
+    "What does it mean for two figures to be congruent?",
+    "Two triangles have sides 3, 4 and 5 cm each; are they congruent?",
+    "Write the corresponding pairs of two congruent triangles.",
+    "Why must floor tiles be congruent?",
+    "How is congruence different from similar shapes?"
+   ]
+  }
+ ]
+}

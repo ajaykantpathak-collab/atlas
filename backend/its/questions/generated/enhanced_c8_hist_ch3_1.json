@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch3_1",
+   "title": "c8_hist_ch3_1",
+   "questions": [
+    {
+     "q": "What year did Vasco da Gama reach Calicut, and which European power did he represent?",
+     "a": "Vasco da Gama reached Calicut in 1498 representing Portugal. A wrong answer (e.g., 1600, British) reveals the student confuses the *first* European arrival with the *most powerful* one (British), missing the 250-year Portuguese head start and the multi-power competition that defined early colonialism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why historians say colonialism is different from the earlier Turkish or Mughal rule in India.",
+     "a": "Colonialism was driven by a distant metropolitan state (Britain, France) extracting surplus for *its* industrial economy, not by rulers who settled in India and integrated into its political economy. The Mughals collected land revenue but reinvested locally; the British drained wealth to London. A wrong answer (e.g., \"both were foreign rulers\") shows the student misses the structural difference: colonialism = external exploitation + racial hierarchy + capitalist integration.",
+     "self_check": true
+    },
+    {
+     "q": "The Portuguese captured Goa in 1510. The British got permission to build Fort St. George (Madras) in 1639. The French established Pondicherry in 1674. Using these facts, construct a timeline showing the *sequence* of European territorial footholds and identify the pattern.",
+     "a": "Timeline: 1510 (Portuguese Goa) → 1639 (British Madras) → 1674 (French Pondicherry). Pattern: Europeans first gained coastal enclaves through treaties or conquest, then fortified them. A wrong sequence or missing the \"fortified enclave\" pattern indicates the student cannot apply the trade → settlement → fortification framework to new data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *motives* of the East India Company (chartered 1600) and the Mughal emperor Jahangir (who gave them a farman in 1615). How did their interests align initially, and why did they diverge?",
+     "a": "Alignment: Company wanted trade monopoly; Mughal wanted customs revenue and naval protection against Portuguese. Divergence: Company sought *political* control to secure trade; Mughals saw them as subordinate traders. A wrong answer (e.g., \"both wanted territory\") fails to analyze the *asymmetry*: the Company was a profit-driven corporation; the Mughal was a sovereign granting privilege. This confusion blurs why the Company could later overthrow the sovereign.",
+     "self_check": true
+    },
+    {
+     "q": "\"Colonialism in India was inevitable after 1498.\" Evaluate this statement using evidence from the 16th–17th centuries.",
+     "a": "Not inevitable. Evidence: Mughal naval weakness was offset by strong land power; Portuguese never moved inland; Dutch/French focused on Southeast Asia; Indian merchants (e.g., Virji Vora) competed effectively. Colonialism resulted from *specific* 18th-century contingencies: Mughal decline, European military-fiscal innovations, and Company's diplomatic manipulation. A deterministic answer (\"Europeans were stronger\") ignores Indian agency and the 250-year gap between arrival and conquest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a concept map linking these terms: *mercantilism, joint-stock company, farman, fortified factory, subsidiary alliance*. Show how each connects to the *process* of colonialism.",
+     "a": "Good map: Mercantilism (state policy) → Joint-stock company (vehicle) → Farman (legal entry) → Fortified factory (armed trade post) → Subsidiary alliance (political control). Arrows show causation. A poor map lists terms without causal links or omits \"mercantilism,\" revealing the student sees colonialism as a series of events, not a structured system driven by European capitalist states.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

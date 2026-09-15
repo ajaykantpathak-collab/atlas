@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_9",
+   "title": "c9_eco_ch1_9",
+   "questions": [
+    {
+     "q": "Define a mixed economy in one sentence using the terms 'private sector', 'public sector', and 'central economic problems'.",
+     "a": "A mixed economy is an economic system where both the private sector and public sector participate in solving the central economic problems of what, how, and for whom to produce. A wrong answer that only mentions \"government and private companies exist together\" reveals the student misses the core economic purpose: the *allocation of scarce resources* through dual mechanisms. Another error is defining it as \"government controls some prices\" which confuses a policy tool with the system's definition.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a mixed economy retain the price mechanism for most goods instead of having the government set all prices like in a planned economy?",
+     "a": "The price mechanism efficiently conveys information about scarcity and consumer preferences through supply and demand, guiding producers on what and how much to produce without central planners needing to collect and process massive amounts of data. A wrong answer like \"because the government cannot control everything\" shows a misunderstanding of the *economic rationale* (informational efficiency) and confuses it with administrative feasibility. Another error is \"to make profits for private companies\" which confuses the mechanism's function with a sector's motive.",
+     "self_check": true
+    },
+    {
+     "q": "In 2023, the Government of India allocated ₹10 lakh crore for capital expenditure (infrastructure) while the private corporate sector invested ₹25 lakh crore. If total gross fixed capital formation was ₹45 lakh crore, calculate the share of the household sector (including unincorporated enterprises) and explain what this implies about the mixed economy structure.",
+     "a": "Step 1: Identify total GFCF = ₹45 lakh crore. Step 2: Identify Government investment = ₹10 lakh crore. Step 3: Identify Private Corporate investment = ₹25 lakh crore. Step 4: Calculate Household sector = Total - (Govt + Corporate) = 45 - (10+25) = ₹10 lakh crore. Step 5: Calculate shares: Govt 22.2%, Corporate 55.6%, Household 22.2%. This shows a mixed economy where private corporate investment dominates but government and household sectors remain substantial. A wrong answer adding instead of subtracting reveals confusion between stock/flow or basic arithmetic. An answer ignoring the household sector shows a binary (only govt vs corporate) mental model of mixed economy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Railways (public sector) and IndiGo Airlines (private sector) on: (a) pricing freedom, (b) obligation to serve unprofitable routes, (c) source of capital for expansion. What does this comparison reveal about the 'mixed' character?",
+     "a": "Indian Railways has limited pricing freedom (regulated fares), mandatory service on unprofitable social routes, and raises capital via government budget/bonds. IndiGo has full pricing freedom, no obligation to serve unprofitable routes, and raises capital from equity/debt markets. This reveals the mixed economy assigns *social objectives* (connectivity, affordability) to the public sector and *efficiency/profit objectives* to the private sector. A wrong answer stating \"both are same because both transport people\" ignores the institutional incentives. Saying \"Railways is better because it serves poor\" is a normative judgment, not an analysis of systemic roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's mixed economy has failed because the government still runs loss-making enterprises like Air India (before privatization) and BSNL while private firms make profits.\" Use the concepts of 'merit goods', 'strategic sectors', and 'market failure'.",
+     "a": "The statement is flawed because it judges public enterprises solely by profit metrics, ignoring their mandate to provide merit goods (affordable telecom in remote areas via BSNL), maintain strategic sovereignty (defense logistics via railways/ports), and correct market failures (private firms won't serve unprofitable rural routes). Losses in these sectors are often the *cost of achieving equity and access* that the market fails to provide. A wrong answer agreeing with the statement reveals a \"profit-only\" misconception, treating government as a business. An answer saying \"government should not run any business\" ignores the mixed economy's core logic of state presence where markets fail.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mixed economy solution for providing quality school education to all children in a hypothetical Indian district where private schools are expensive and government schools have poor infrastructure. Specify the role of government (funding/regulation/provision), private sector, and any partnership model.",
+     "a": "A good answer proposes: Government funds per-child vouchers (funding), sets curriculum/quality standards (regulation), and upgrades its own schools (provision). Private schools accept vouchers at capped fees (partnership). NGOs run community schools with govt grants (joint sector). This uses all three instruments. A poor answer says \"government should build more schools\" (only provision, ignores regulation/partnership) or \"give vouchers to everyone\" (ignores need for quality regulation and public option as benchmark). Missing any of the three roles (funding, regulation, provision) shows incomplete grasp of mixed economy toolkit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

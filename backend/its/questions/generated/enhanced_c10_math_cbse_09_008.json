@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_008",
+   "title": "c10_math_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the exact trigonometric ratio (sin, cos, or tan) that directly relates the height of a tower (opposite side) and the horizontal distance from the observer to the foot of the tower (adjacent side) when the angle of elevation is given. Write the formula.",
+     "a": "The ratio is tangent: \\( \\tan(\\theta) = \\frac{\\text{height}}{\\text{distance}} \\) or \\( \\text{height} = \\text{distance} \\times \\tan(\\theta) \\). A wrong answer (e.g., sin or cos) reveals the student cannot map the given sides (opposite and adjacent) to the correct ratio — they are likely memorising \"sin = opposite/hypotenuse\" without checking which sides are actually known in the problem.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a tower-height problem where the angle of depression from the top of the tower to a point on the ground is 45° and the horizontal distance is 20 m. The student writes: \\( \\tan 45° = \\frac{20}{h} \\) and gets h = 20 m. Is this correct? Explain why the angle of depression can be used as the angle of elevation in the right triangle.",
+     "a": "The student's equation is incorrect; it should be \\( \\tan 45° = \\frac{h}{20} \\) giving h = 20 m (same numeric answer by coincidence because tan 45° = 1). The angle of depression from the top equals the angle of elevation from the ground because they are alternate interior angles formed by the horizontal line at the top and the horizontal ground line cut by the transversal (line of sight). A wrong explanation shows the student does not understand the geometric reason for the equality and will fail when the angle is not 45°.",
+     "self_check": true
+    },
+    {
+     "q": "From a point 30 m away from the foot of a tree, the angle of elevation of the top of the tree is 60°. Find the height of the tree. (Use \\( \\sqrt{3} = 1.732 \\))",
+     "a": "Step 1: Draw right triangle with adjacent = 30 m, angle = 60°, opposite = h.  \nStep 2: \\( \\tan 60° = \\frac{h}{30} \\)  \nStep 3: \\( \\sqrt{3} = \\frac{h}{30} \\)  \nStep 4: \\( h = 30 \\times 1.732 = 51.96 \\) m.  \nAnswer: 51.96 m.  \nA wrong answer (e.g., using sin 60° = h/30) reveals the student picks a ratio randomly instead of matching known sides (adjacent given, opposite needed → tan).",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"A 1.5 m tall boy stands 20 m from a tower. The angle of elevation from his eyes to the top is 30°. Find the tower height.\"  \nStudent A: \\( \\tan 30° = \\frac{H}{20} \\Rightarrow H = \\frac{20}{\\sqrt{3}} = 11.55 \\) m.  \nStudent B: \\( \\tan 30° = \\frac{H - 1.5}{20} \\Rightarrow H = 1.5 + \\frac{20}{\\sqrt{3}} = 13.05 \\) m.  \nAnalyze both solutions and state which is correct and why the other is wrong.",
+     "a": "Student B is correct. The right triangle's opposite side is only the portion of the tower *above the boy's eye level*, i.e., \\( H - 1.5 \\). Student A incorrectly used the full tower height H as the opposite side, ignoring the boy's height. This misconception — forgetting to add/subtract observer height — is the most common board-exam error in this topic.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"The angle of elevation of the top of a tower from a point on the ground is 30°. On moving 20 m towards the tower, the angle becomes 60°. Find the height.\" A student writes: \"Let height = h. From first position: \\( \\tan 30° = \\frac{h}{x} \\). From second: \\( \\tan 60° = \\frac{h}{x-20} \\). Solve.\" Evaluate whether this approach is correct for *this* node's scope. If not, explain why and name the node that covers it.",
+     "a": "The approach is mathematically correct but **outside this node's scope**. This node covers only *single-position* problems (one angle, one distance). The problem uses two angles from two positions — a two-step problem requiring simultaneous equations — which is covered in node c10_math_cbse_09_007 (Two-Step Problems) and node c10_math_cbse_09_010 (Ships and Lighthouses). A student who attempts this here has not recognized the scope boundary and will waste time on a method not yet taught.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem (with Indian context) where the height of a tree is found using the angle of depression *from the top of a building* to the top of the tree. Provide the building height, horizontal distance between building and tree, and the angle of depression. Ensure the problem requires subtracting the calculated opposite side from the building height.",
+     "a": "Example: \"From the top of a 30 m high building, the angle of depression of the top of a neem tree is 30°. If the horizontal distance between the building and the tree is 10 m, find the height of the tree. (Use \\( \\sqrt{3} = 1.732 \\))\"  \nSolution: In the right triangle formed by the building top, tree top, and horizontal line, opposite = 30 - h, adjacent = 10. \\( \\tan 30° = \\frac{30 - h}{10} \\Rightarrow \\frac{1}{\\sqrt{3}} = \\frac{30 - h}{10} \\Rightarrow 30 - h = \\frac{10}{1.732} = 5.77 \\Rightarrow h = 24.23 \\) m.  \nA poor problem (e.g., using angle of elevation from ground) shows the student cannot construct the reverse scenario (depression from a height) and does not grasp that the unknown height is *subtracted* from the known height.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

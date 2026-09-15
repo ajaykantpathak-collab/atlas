@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_001",
+   "title": "c11_cs_cbse_09_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of file handling in programming, and name the two main categories of files based on their internal representation.",
+     "a": "The primary purpose of file handling is to achieve data persistence — storing data on secondary storage so it survives program termination. The two main categories are text files (store data as human-readable characters encoded in schemes like ASCII/UTF-8) and binary files (store data as raw bytes, not directly readable by humans). A wrong answer (e.g., \"file handling is for printing output\" or \"categories are .txt and .pdf\") reveals the student confuses file handling with output statements or mixes file extensions with internal representation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a JPEG image file opened in a text editor shows unreadable characters, while a CSV file opens correctly. Relate this to the internal storage format.",
+     "a": "A JPEG is a binary file: it stores pixel data as raw bytes (0-255 values) without character encoding. A text editor interprets every byte as a character code, producing gibberish. A CSV is a text file: it stores data as encoded characters (e.g., UTF-8) with delimiters, so a text editor can map each byte to a visible character. If a student says \"JPEG is corrupted\" or \"CSV is not a real file\", they misunderstand that binary files are not meant to be read as text and that file type is about encoding, not correctness.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer wants to store a Python dictionary containing student records (name, roll number, list of marks) in a file so that it can be easily read by a human later and also parsed by another Python program. Which file type should they choose, and what is a common format for this purpose?",
+     "a": "Choose a text file. A common format is JSON (JavaScript Object Notation) or CSV. Text files allow human readability and easy parsing. Steps: 1) Identify requirement: human-readable + machine-parsable. 2) Text files support both; binary files are not human-readable. 3) JSON represents nested structures (lists, dictionaries) naturally; CSV is flat but simpler. 4) Decision: text file with JSON. A wrong answer (e.g., \"binary file with pickle\") shows the student prioritizes Python-specific serialization over interoperability and readability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast text files and binary files in terms of (a) storage efficiency, (b) portability across systems, and (c) ease of debugging. Provide one scenario where each is preferred.",
+     "a": "(a) Storage efficiency: Binary files are more efficient — they store exact bytes (e.g., a 4-byte integer uses 4 bytes). Text files store numbers as character sequences (e.g., \"12345\" uses 5 bytes plus delimiter). (b) Portability: Text files are more portable — character encodings (UTF-8) are standardized across platforms. Binary files may suffer from endianness issues (byte order) and require same data structure definitions. (c) Debugging: Text files are easier to debug — open in any editor. Binary files need hex editors or custom parsers. Scenario for text: configuration files (.ini, .json). Scenario for binary: multimedia (images, audio) or large numerical datasets (scientific computing). A wrong answer that claims \"text files are always smaller\" or \"binary files are always portable\" reveals confusion about encoding overhead and platform dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Since binary files are more storage-efficient, we should always use binary files for all data storage in Python programs.\" Justify your evaluation with two counterexamples.",
+     "a": "The statement is flawed. Counterexample 1: Configuration files (e.g., settings.ini) need human editing — binary files require a dedicated tool, making maintenance harder. Counterexample 2: Data exchange between different languages/systems (e.g., a CSV exported from Python to be read by R or Excel) — text formats like CSV/JSON are universal; binary formats like Python's pickle are language-specific. Binary files are optimal for large homogeneous numeric data (e.g., NumPy arrays) or multimedia. A student who agrees with the statement overlooks the trade-offs of readability, interoperability, and development overhead.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small project scenario (2-3 sentences) where you must decide between using a text file and a binary file. Specify the data type, intended users, and operations, then state your choice with reasoning.",
+     "a": "Example: \"A school library system stores book records (title, author, ISBN, cover image). The librarian needs to edit book details manually sometimes, but cover images must be stored efficiently.\" Choice: Use a text file (JSON) for book metadata (human-editable, structured) and separate binary files (JPEG) for cover images. A poor answer would choose one file type for everything (e.g., \"store everything in a binary file\") ignoring that metadata benefits from text readability and images require binary storage. This shows inability to match file type to data nature and user needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

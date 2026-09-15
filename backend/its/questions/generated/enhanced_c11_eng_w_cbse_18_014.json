@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_18_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_18_014",
+   "title": "c11_eng_w_cbse_18_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical paragraphs about literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Evidence, Language\") reveals the student does not know the standard structure for literary analysis paragraphs and will likely produce disorganised answers that lack clear argumentation or textual support.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it insufficient to simply insert a quote from the poem into your answer without any surrounding explanation?",
+     "a": "A quote alone does not show *how* the language creates meaning; the explanation analyses the specific words, images, or devices in the quote and connects them to your point. If a student thinks quoting is enough, they will write \"quote-dumping\" answers that earn little credit because the examiner cannot see the student's interpretive reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Prompt: \"How does the poet convey the violence of the felling?\" Write a topic sentence (Point) and select ONE quote (Evidence) from the poem that you would use to support it.",
+     "a": "Example: Point — \"The poet uses violent verbs and aggressive imagery to depict the felling as a brutal act.\" Evidence — \"fifty men with axes chopped and chopped\" or \"he massacred them all\". A weak answer might choose a descriptive but non-violent quote like \"Its trunk had a circumference of fifty feet\", showing the student cannot match evidence to the specific analytical focus.",
+     "self_check": true
+    },
+    {
+     "q": "Two students write topic sentences for the prompt \"Discuss the significance of the banyan tree in the poem.\"\nStudent A: \"The banyan tree is very big and old.\"\nStudent B: \"The banyan tree symbolises enduring memory and sacred tradition that withstands physical destruction.\"\nWhich topic sentence is more effective for an analytical paragraph and why?",
+     "a": "Student B's sentence is effective because it makes an interpretive claim (symbolism, endurance, sacredness) that requires evidence and explanation. Student A's is merely a factual observation from the text (size, age) that leads to description, not analysis. Choosing Student A reveals the student confuses plot summary with analytical argument.",
+     "self_check": true
+    },
+    {
+     "q": "Read this sample student answer: \"The poet shows the tree is sacred because grandmother says 'Trees are sacred'. Then the father cuts them down. This shows he doesn't care. The poem ends with the tree in his dreams.\" Critique this answer: what is missing and why would it score low?",
+     "a": "The answer lacks Explanation (the 'E' in PEEL) — it states events but does not analyse *how* language creates meaning (e.g., the contrast between \"sacred\" and \"massacred\", the metaphor of the dream tree). It also lacks a clear Link to a broader theme. A student who cannot see this gap will continue to write narrative summaries instead of analytical responses.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line diary entry from the perspective of the grandmother on the day the banyan tree is felled. Use at least one image or word from the poem.",
+     "a": "A strong entry adopts the grandmother's voice, reflects her belief in sacredness, and incorporates poem language (e.g., \"sacred\", \"massacred\", \"raw mythology\"). Example: \"Today they butchered the sacred banyan. Its screams rang louder than their axes. My heart bleeds sap; the raw mythology of two hundred years lies in heaps. Krishna forgive this sacrilege.\" A weak entry would be generic (\"I am sad they cut the tree\") showing inability to inhabit a perspective or use textual texture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

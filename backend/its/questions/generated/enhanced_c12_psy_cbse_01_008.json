@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_008",
+   "title": "c12_psy_cbse_01_008",
+   "questions": [
+    {
+     "q": "A 10-year-old child has a Mental Age of 13. What is the child's IQ? Show the calculation.",
+     "a": "IQ = (MA/CA) × 100 = (13/10) × 100 = 130. A wrong answer like 1300 (forgetting to divide by 10) or 76.9 (inverting the ratio) reveals confusion about the formula structure or the meaning of MA vs CA.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what a Mental Age of 8 means for a 6-year-old child, and why the IQ would be above 100.",
+     "a": "Mental Age 8 means the child performs at the average level of an 8-year-old. Since MA (8) > CA (6), the ratio MA/CA > 1, so IQ = (8/6)×100 ≈ 133 > 100. A wrong explanation that says \"MA is the child's real age\" or \"IQ is always 100 for average\" shows misunderstanding of MA as a performance benchmark, not biological age.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old has an IQ of 120. What is her Mental Age? If she were tested again at age 16 and her Mental Age remained 16.8, what would her new IQ be? What does this illustrate about the ratio IQ formula?",
+     "a": "Step 1: IQ = (MA/CA)×100 → 120 = (MA/14)×100 → MA = (120×14)/100 = 16.8 years.\nStep 2: At CA=16, same MA=16.8 → IQ = (16.8/16)×100 = 105.\nStep 3: The IQ dropped from 120 to 105 even though intellectual performance (MA) didn't change. This illustrates the ratio IQ's flaw: it declines with age if MA doesn't increase proportionally, making it unsuitable for adults. A student who only computes the first part misses the critical conceptual point.",
+     "self_check": true
+    },
+    {
+     "q": "The normal distribution of IQ scores has a mean of 100 and SD of 15. Using the empirical rule (68-95-99.7), what percentage of the population scores between 70 and 130? Between 85 and 115? How do these ranges correspond to the classification labels in Table 1.1?",
+     "a": "70 to 130 is μ ± 2σ → 95% of population. 85 to 115 is μ ± 1σ → 68% of population. Table 1.1 shows \"Average\" (90–109) covers 50%, \"Low average\" (80–89) and \"High average\" (110–119) together cover ~32% (16.1%+16.1%), roughly matching 68%. \"Borderline\" (70–79) and \"Superior\" (120–130) together cover ~13.4% (6.7%+6.7%), and the tails beyond 130 and below 70 are 2.2% each, matching the 95% within 70–130. A student who just quotes percentages without linking to the table misses the applied interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A person with IQ 110 is more intelligent than a person with IQ 109.\" Use the concepts of measurement error, standard error of measurement (SEM), and the normal distribution to justify your answer.",
+     "a": "The statement is not statistically defensible. IQ scores have a standard error of measurement (typically ~3–5 points). A 1-point difference is far smaller than the SEM, so the true scores could easily overlap. The normal distribution shows dense clustering around the mean; adjacent scores are not meaningfully distinct. A student who says \"yes because 110 > 109\" treats IQ as an exact count rather than an estimate with error, ignoring psychometric principles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short scenario (2-3 sentences) where a teacher uses the ratio IQ formula incorrectly for a 16-year-old student, and explain why deviation IQ would be more appropriate.",
+     "a": "Scenario: \"A 16-year-old scores MA=18 on an intelligence test. The teacher computes IQ = (18/16)×100 = 112.5 and says the student is 'High Average'.\" This is incorrect because ratio IQ assumes MA increases linearly with age, but mental age plateaus in adolescence; an MA of 18 for a 16-year-old may actually be average. Deviation IQ compares the student to same-age peers using the normal distribution, avoiding the artificial inflation/deflation from the ratio formula. A good answer identifies the plateau issue and the peer-comparison solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

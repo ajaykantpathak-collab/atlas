@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_010",
+   "title": "c11_cs_cbse_09_010",
+   "questions": [
+    {
+     "q": "What is the primary difference between opening a file in `'w'` mode versus `'wb'` mode in Python, and what data type does the `write()` method expect in each case?",
+     "a": "In `'w'` (text) mode, the file is opened for writing text strings with automatic encoding (default UTF-8), and `write()` expects a `str` object. In `'wb'` (binary) mode, no encoding/decoding occurs; the file handles raw bytes, and `write()` expects a `bytes` object (e.g., `b'hello'`). A wrong answer (e.g., \"both accept strings\") reveals the student confuses text and binary modes and does not understand that binary mode requires explicit bytes objects, leading to `TypeError: a bytes-like object is required, not 'str'` at runtime.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to save a list of integers to a binary file and read it back:\n```python\nimport pickle\ndata = [10, 20, 30]\nwith open('scores.dat', 'w') as f:\n    pickle.dump(data, f)\nwith open('scores.dat', 'r') as f:\n    loaded = pickle.load(f)\n```\nExplain why this code will raise an error, and correct it.",
+     "a": "The code opens the file in text modes `'w'` and `'r'`, but `pickle` requires binary modes `'wb'` and `'rb'` because it writes/reads raw bytes. The corrected code uses `'wb'` and `'rb'`. A wrong answer (e.g., \"pickle doesn't work with lists\" or \"missing import\") reveals the student does not understand that `pickle` serializes to bytes and therefore mandates binary file modes; using text mode causes `pickle` to fail with `TypeError: write() argument must be str, not bytes` or similar encoding errors.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that creates a binary file `data.bin`, writes the bytes `b'Python'` followed by the integer 2025 encoded as 4 bytes in big-endian format, then reads the file back and prints the integer value. Use `int.to_bytes()` and `int.from_bytes()`.",
+     "a": "```python",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of `f.read(10)` on a text file opened with `'r'` versus a binary file opened with `'rb'` when the file contains the UTF-8 encoded character '₹' (U+20B9, 3 bytes: 0xE2 0x82 0xB9). How many characters/bytes are returned in each case, and why?",
+     "a": "In text mode (`'r'`), `read(10)` returns up to 10 *characters* (Unicode code points), so it returns the single character `'₹'` (1 character) because decoding happens transparently. In binary mode (`'rb'`), `read(10)` returns up to 10 *raw bytes*, so it returns `b'\\xe2\\x82\\xb9'` (3 bytes) because no decoding occurs. A wrong answer (e.g., \"both return 3 bytes\" or \"text mode returns 3 characters\") reveals the student does not grasp that text mode abstracts encoding/decoding while binary mode exposes raw bytes, which is critical when handling multi-byte characters or non-text data.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer wants to update the 4-byte integer at byte offset 100 in a large binary file `records.dat` without rewriting the entire file. Evaluate whether the following approach is correct and efficient:\n```python\nwith open('records.dat', 'wb') as f:\n    f.seek(100)\n    f.write((999).to_bytes(4, 'big'))\n```\nIf not, explain the error and provide the correct mode and reasoning.",
+     "a": "The approach is incorrect because `'wb'` mode truncates the file to zero length upon opening, destroying all existing data before `seek(100)` can position the pointer. The correct mode is `'rb+'` (read/write binary without truncation) or `'wb+'` if creating a new file is intended, but for in-place update of existing file, `'rb+'` is required. A wrong answer (e.g., \"use `'ab'`\" or \"mode doesn't matter\") reveals the student misunderstands file mode semantics: `'w'`/`'wb'` always truncate, while `'+'` modes allow simultaneous read/write without truncation. This is a classic senior-secondary error leading to catastrophic data loss.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python function `append_pickle_objects(filename, objects_list)` that appends multiple Python objects to a binary file using `pickle`, one after another. Then write a second function `read_all_pickle_objects(filename)` that reads all objects back into a list, handling the end-of-file condition gracefully. Provide the complete implementation.",
+     "a": "```python\nimport pickle\n\ndef append_pickle_objects(filename, objects_list):\n    with open(filename, 'ab') as f:  # 'ab' appends without truncating\n        for obj in objects_list:\n            pickle.dump(obj, f)\n\ndef read_all_pickle_objects(filename):\n    objects = []\n    with open(filename, 'rb') as f:\n        while True:\n            try:\n                obj = pickle.load(f)\n                objects.append(obj)\n            except EOFError:\n                break\n    return objects\n```\nA poor answer (e.g., using `'wb'` in append function, or not catching `EOFError`, or trying to `pickle.load()` the whole file at once) reveals the student does not understand that `pickle.dump()` writes a self-contained byte stream per object, requiring iterative `load()` calls until `EOFError`, and that append mode `'ab'` is essential to preserve existing pickled objects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

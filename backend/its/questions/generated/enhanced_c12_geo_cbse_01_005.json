@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_005",
+   "title": "c12_geo_cbse_01_005",
+   "questions": [
+    {
+     "q": "Who among the following geographers is most closely associated with the school of possibilism in human geography?",
+     "a": "Correct answer: Paul Vidal de la Blache.  \nA wrong answer (e.g., Ellen C. Semple or Friedrich Ratzel) reveals that the student confuses possibilism with environmental determinism. Semple and Ratzel argued that the physical environment controls human actions, whereas Vidal de la Blache emphasised human agency within environmental limits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Humans are completely free to do whatever they want on Earth\" is a misinterpretation of possibilism.",
+     "a": "Possibilism does not claim absolute freedom; it states that nature provides a *range* of possibilities (e.g., you can grow wheat or rice in the Indo-Gangetic plain, but not coconut without artificial irrigation). Humans choose within limits set by climate, soil, topography. A student who says \"possibilism means no environmental limits\" has missed the crucial nuance that possibilities are *bounded* by nature — technology expands the range but cannot eliminate fundamental constraints like gravity or solar energy input.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in the cold desert of Ladakh (elevation 3,500 m) grows vegetables in a solar-heated greenhouse during winter when outside temperatures are -20°C. Identify the environmental constraint, the technology used, and the new possibility created.",
+     "a": "Step 1: Environmental constraint = low temperature, short growing season, high altitude.  \nStep 2: Technology = solar-heated greenhouse (passive solar architecture, thermal mass).  \nStep 3: New possibility = year-round vegetable cultivation, reducing dependence on imported food.  \nStep 4: This illustrates possibilism: nature set a limit (no winter crops), human innovation created a possibility within that limit.  \nA wrong answer that only names the crop or ignores the technology shows the student cannot deconstruct the human–environment interaction into constraint, tool, and outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural patterns of the Punjab plains (intensive rice-wheat rotation) and the Thar Desert (nomadic pastoralism with limited irrigation). Using possibilism, explain why the same \"human agency\" produces different cultural landscapes in these two regions.",
+     "a": "Punjab: flat alluvial soil, perennial rivers, abundant groundwater → possibilities include water-intensive crops; technology (tube wells, HYV seeds) realised the rice-wheat possibility.  \nThar: sandy soil, low rainfall, extreme temperatures → possibilities limited to drought-resistant crops/pastoralism; technology (Indira Gandhi Canal) *expanded* possibilities but only where water reaches.  \nPossibilism explains that human choices are *channelled* by the physical template — same agency, different environmental \"menus\" yield different landscapes. A student who says \"Punjab farmers are more hardworking\" commits the determinist fallacy of ignoring environmental enablement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Possibilism is outdated because modern technology (genetic engineering, desalination, climate control) has practically removed all environmental limits on human activity.\"",
+     "a": "The claim is flawed. While technology pushes boundaries, it creates *new* constraints: desalination requires massive energy (carbon footprint), genetic engineering raises ecological risks, climate control contributes to urban heat islands. Moreover, planetary boundaries (biodiversity loss, nitrogen cycle, climate change) show that exceeding environmental limits triggers feedbacks that reduce future possibilities. Possibilism remains relevant precisely because it warns that choices have consequences — the \"humanised nature\" must remain sustainable. A student who agrees with the claim ignores the systemic limits highlighted in neo-determinism (next node).",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable settlement plan for a hypothetical new town in the Western Ghats (high rainfall, steep slopes, rich biodiversity). Apply possibilist thinking: list three environmental constraints, two technologies/strategies to work *with* nature, and one cultural practice to promote.",
+     "a": "Constraints: (1) steep slopes → landslide risk, (2) heavy rainfall → erosion/flooding, (3) biodiversity hotspot → legal/ecological protection.  \nTechnologies: (1) contour trenching + vetiver grass for slope stabilization (uses nature's root systems), (2) rainwater harvesting with check dams (turns excess rain into resource).  \nCultural practice: community-managed sacred groves (linking traditional conservation with modern watershed management).  \nA poor answer proposes concrete retaining walls everywhere and clearing forests for flat land — that is *conquest of nature*, not possibilism. The key is \"working with\" not \"overcoming\" the environment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 108,
+ "chapter_title": "Cell: The Unit of Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo108.txt",
+ "concepts": [
+  {
+   "id": "kebo.108.1.1",
+   "title": "Cell Theory and an Overview of the Cell",
+   "section": "8.1 A Cell is defined as, 8.2 Cell Theory",
+   "definition": "The cell is the fundamental structural and functional unit of all living organisms; Schleiden and Schwann proposed the cell theory and Virchow added that cells arise from pre-existing cells through cell division omnis cellula e cellula.",
+   "formula": "",
+   "key_idea": "Cell biology developed with the microscope: from Robert Hooke's cork observation to the unified cell theory that all living beings are made of cells.",
+   "textbook_ref": "kebo108.txt sections 8.1, 8.2",
+   "question_patterns": [
+    "state the cell theory and who proposed it",
+    "what did virchow add to the cell theory",
+    "why is the cell called the structural and functional unit of life",
+    "describe robert hooke's observation of cork",
+    "what advances in microscopy helped cell biology",
+    "define unicellular and multicellular organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the cell theory",
+     "explain": "State the two tenets and Virchow's addition."
+    },
+    {
+     "step": 2,
+     "action": "link history to the theory",
+     "explain": "Note the contributions of Hooke, Leeuwenhoek, Schleiden and Schwann."
+    },
+    {
+     "step": 3,
+     "action": "verify the unit-of-life claim",
+     "explain": "Confirm all functions of an organism rest on its cells."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.2.1",
+   "title": "Prokaryotic and Eukaryotic Cells",
+   "section": "8.3 Prokaryotic Cells, 8.4 Eukaryotic Cells",
+   "definition": "Prokaryotic cells lack a true nucleus and membrane-bound organelles but carry a nucleoid, glycocalyx, cell wall, mesosomes and 70S ribosomes, whereas eukaryotic cells have a membrane-bound nucleus and organelles with 80S ribosomes.",
+   "formula": "",
+   "key_idea": "The fluid mosaic model of Singer and Nicolson describes the plasma membrane as a bilayer of phospholipids with proteins moving within it, and passive transport of water is osmosis.",
+   "textbook_ref": "kebo108.txt sections 8.3-8.5",
+   "question_patterns": [
+    "differentiate prokaryotic and eukaryotic cells",
+    "describe the structure of a prokaryotic cell with mesosomes",
+    "explain the fluid mosaic model of the plasma membrane",
+    "what are 70S and 80S ribosomes",
+    "define the nucleoid in bacteria",
+    "how does passive transport differ from active transport across the membrane"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for a true nucleus",
+     "explain": "Look for a membrane-bound nucleus to separate prokaryotes from eukaryotes."
+    },
+    {
+     "step": 2,
+     "action": "list the organelles",
+     "explain": "Note which membrane-bound organelles are present or absent."
+    },
+    {
+     "step": 3,
+     "action": "confirm ribosome type",
+     "explain": "Check whether ribosomes are 70S or 80S."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.3.1",
+   "title": "Cell Organelles: Mitochondria, Plastids, Endomembranes and Nucleus",
+   "section": "8.5 Cell Organelles",
+   "definition": "Eukaryotic cells carry organelles such as the endoplasmic reticulum, Golgi complex, lysosomes, vacuoles, mitochondria as the site of aerobic respiration with double membranes and cristae, chloroplasts with grana and stroma among plastids, ribosomes for protein synthesis, and a nucleus with chromatin and nucleolus.",
+   "formula": "",
+   "key_idea": "The endomembrane system of ER, Golgi complex, lysosomes and vacuoles works in coordination, while semi-autonomous organelles like mitochondria and chloroplasts carry their own DNA and ribosomes.",
+   "textbook_ref": "kebo108.txt section 8.5",
+   "question_patterns": [
+    "describe the structure of mitochondria with cristae",
+    "differentiate leucoplast chloroplast and chromoplast",
+    "what is the endomembrane system and its components",
+    "explain the structure of the nucleus with chromatin and nucleolus",
+    "why are mitochondria and chloroplast called semi autonomous organelles",
+    "state the functions of golgi complex and lysosomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the organelle",
+     "explain": "Use structural markers like cristae, grana or cisternae to name the organelle."
+    },
+    {
+     "step": 2,
+     "action": "note the membranes",
+     "explain": "Count the bounding membranes, single or double."
+    },
+    {
+     "step": 3,
+     "action": "assign the function",
+     "explain": "Match respiration, photosynthesis, packaging or digestion to the organelle."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo108.txt exercises section",
+   "questions": [
+    "Which of the following is not correct about the cell theory?",
+    "New cells generate from pre-existing cells - who said this?",
+    "State the fluid mosaic model of the plasma membrane.",
+    "Describe the structure and function of mitochondria.",
+    "Differentiate between prokaryotic and eukaryotic cells.",
+    "What is a mesosome in a prokaryotic cell?",
+    "Name the organelles that are considered semi-autonomous."
+   ]
+  }
+ ]
+}

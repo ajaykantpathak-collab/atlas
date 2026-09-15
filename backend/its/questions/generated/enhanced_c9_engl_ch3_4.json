@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch3_4",
+   "title": "c9_engl_ch3_4",
+   "questions": [
+    {
+     "q": "What is the primary historical value of identifying a pankha in an Ajanta painting or temple sculpture?",
+     "a": "The primary historical value is that visual depictions serve as primary source evidence for the physical design, materials, and social context of pankhas in periods where written descriptions are scarce or absent. A wrong answer (e.g., \"they show artistic skill\") reveals the student treats art as only aesthetic, not evidentiary — missing that historians use material culture in art to reconstruct daily life and technology.",
+     "self_check": true
+    },
+    {
+     "q": "In the Ajanta Cave 1 painting of Bodhisattva Padmapani, an attendant holds a long-handled fan with a rectangular, decorated blade. How does this specific depiction differ from a chauri (fly-whisk), and what does that difference tell us about the pankha's function?",
+     "a": "A chauri has a short handle and whisk-like strands (often yak-tail hair) for flicking insects, while the depicted pankha has a long rigid handle and a solid, broad blade for generating airflow. This distinction tells us the pankha was used for human cooling in formal settings, not ritual purification. A wrong answer conflating the two shows the student cannot differentiate functional objects in visual sources — a critical skill for material culture analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Given a photograph of a 7th-century Pallava temple sculpture showing a royal figure fanned by two attendants with pankhas, apply the \"three-question method\" (What do I see? What does it suggest? What corroborates it?) to extract historical information about pankha usage.",
+     "a": "Step 1: See — two attendants behind a seated king, each holding a long-handled fan with curved blade, positioned symmetrically. Step 2: Suggests — pankhas were status markers in royal ceremony; their paired use indicates institutionalized court protocol. Step 3: Corroborate — matches Sanskrit texts like *Manasollasa* describing royal fans (*vyajanam*) as insignia. A weak answer lists only visual details without inference or corroboration, showing inability to move from observation to historical argument.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pankha in Ajanta's \"Mahajanaka Jataka\" painting (slender handle, palm-leaf blade) with a 10th-century Chola bronze sculpture's pankha (thick bamboo handle, folded cloth blade). Analyze what this evolution reveals about changing materials and craft specialization over 800 years.",
+     "a": "The shift from palm-leaf (monastic, portable, single-craft) to folded cloth on bamboo (courtly, durable, multi-material) reflects urbanization, textile technology advances, and the rise of specialized artisan guilds under temple patronage. A superficial answer notes only \"materials changed\" without linking to socio-economic drivers, revealing a lack of analytical depth in connecting artifact form to historical context.",
+     "self_check": true
+    },
+    {
+     "q": "A scholar argues: \"Pankhas in temple sculptures are purely symbolic — they represent divine service, not real objects.\" Evaluate this claim using evidence from both Ajanta paintings and temple architecture.",
+     "a": "The claim is partially valid but incomplete. In Ajanta, pankhas appear in narrative scenes (e.g., Mahajanaka Jataka) with realistic details — visible stitching, handle bindings — indicating observational accuracy. In temples, ritual fans (*alavattam*) are indeed symbolic, but their sculptural rendering matches actual temple inventories recorded in inscriptions (e.g., Thanjavur Brihadeeswara). A student accepting the claim wholly fails to distinguish between narrative realism and ritual symbolism — two different artistic conventions in the same visual tradition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel storyboard script for a museum exhibit label that teaches visitors how to \"read\" a pankha in a 5th-century Ajanta painting as a historical document. Each panel must address: visual identification, historical inference, and one unanswered question for further research.",
+     "a": "Panel 1: \"Spot the Pankha\" — zoom on attendant's hand: long bamboo handle, rectangular palm-leaf blade with painted border. Panel 2: \"What It Tells Us\" — monastic artists used real pankhas; painted borders show aesthetic value; attendant's posture confirms cooling function. Panel 3: \"Still Unknown\" — Were these made by monks or purchased? Did blade patterns indicate rank? A poor answer makes panels decorative rather than analytical, showing the student cannot structure historical inquiry for public communication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

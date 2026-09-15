@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_004",
+   "title": "c11_soc_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define \"multi-paradigmatic science\" in the context of sociology, and name any two paradigms that coexist within the discipline.",
+     "a": "A multi-paradigmatic science is one where multiple, mutually incompatible theoretical frameworks (paradigms) coexist without a single consensus paradigm. In sociology, examples include functionalism and conflict theory (or symbolic interactionism, feminism, etc.). A wrong answer that lists only one paradigm or claims sociology has a single unified theory reveals the misconception that sociology operates like physics with one dominant paradigm.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the existence of \"multiple truths\" in the social world (e.g., shopkeeper vs. customer on a 'good price') leads to sociology being multi-paradigmatic, rather than just having different opinions.",
+     "a": "Because social reality is constituted by the subjective meanings actors attach to their actions, there is no single objective vantage point that can adjudicate between interpretations. Paradigms are not mere opinions; they are systematic theoretical frameworks that ask different questions, use different concepts, and define what counts as evidence. A wrong answer that equates paradigms with personal opinions misses the structural, epistemological reason: each paradigm constitutes a distinct \"way of seeing\" the social world that is internally coherent but externally incompatible.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study \"student dropout rates in rural government schools.\" Formulate one research question each from a functionalist paradigm and a conflict paradigm, and identify the key concept each paradigm would focus on.",
+     "a": "Functionalist question: \"How does the school system's failure to integrate students into societal norms contribute to dropout rates?\" Key concept: social integration / anomie. Conflict question: \"How do unequal power relations and resource allocation between dominant and marginalized groups produce dropout as a mechanism of reproducing inequality?\" Key concept: structural inequality / reproduction. A wrong answer that produces similar questions for both paradigms shows failure to grasp how paradigms shape the very formulation of the problem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how a positivist (quantitative) paradigm and an interpretivist (qualitative) paradigm would approach the study of \"religious rituals in a village.\" Identify at least two differences in their ontological assumptions, data collection, and criteria for validity.",
+     "a": "Positivist: assumes social reality is external and measurable; uses surveys/structured observation to count ritual frequency, participation rates; seeks generalizable laws, reliability. Interpretivist: assumes reality is socially constructed through meanings; uses participant observation/interviews to understand actors' interpretations of rituals; seeks emic understanding, trustworthiness. A wrong answer that only lists method differences without linking to ontological/epistemological roots shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The multi-paradigmatic nature of sociology is a sign of its immaturity as a science; it should strive for a single unified paradigm like physics.\" Use the NCERT text's argument about objectivity and multiple truths.",
+     "a": "The statement is flawed because it applies natural science criteria to a discipline whose subject matter is fundamentally different. The NCERT text argues that social world involves multiple, equally valid interpretations (shopkeeper vs. customer) and that objectivity in sociology is an ongoing process, not a fixed state. Paradigm plurality reflects the complexity of social reality, not disciplinary failure. A wrong answer that agrees with the statement reveals a positivist bias and misunderstanding of the text's epistemological stance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research proposal on \"social media usage among teenagers\" that explicitly uses triangulation across two paradigms. Specify the paradigms, the research question for each, the method, and how the findings would be integrated.",
+     "a": "Paradigm 1 (Positivist/Quantitative): RQ: \"What is the correlation between hours of social media use and self-reported anxiety levels among 15-17 year olds?\" Method: Survey with standardized scales. Paradigm 2 (Interpretivist/Qualitative): RQ: \"How do teenagers experience and negotiate identity presentation on social media platforms?\" Method: In-depth interviews + digital ethnography. Integration: Quantitative patterns identify trends; qualitative data explains the 'why' and 'how' behind the numbers, revealing mechanisms. A poor answer that merely mixes methods without paradigmatic justification shows confusion between methodological pluralism and paradigmatic triangulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

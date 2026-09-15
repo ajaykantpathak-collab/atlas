@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_009",
+   "title": "c11_bio_cbse_18_009",
+   "questions": [
+    {
+     "q": "Name the three auditory ossicles in correct order from tympanic membrane to oval window, and state the specific function of the stapedius muscle.",
+     "a": "Malleus → Incus → Stapes. The stapedius muscle dampens stapes movement to protect the inner ear from intense low-frequency sounds (acoustic reflex). A wrong answer (e.g., \"incus, malleus, stapes\" or \"amplify sound\") reveals confusion about ossicle sequence or the protective vs. amplificatory role of middle ear muscles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the middle ear is described as an \"impedance matcher\" and calculate the approximate pressure amplification factor achieved by the ossicular lever system and area ratio combined.",
+     "a": "The middle ear matches the low impedance of air to the high impedance of cochlear fluid. Pressure amplification = (Area of tympanic membrane / Area of oval window) × (Lever ratio of malleus/incus) ≈ (55 mm² / 3.2 mm²) × 1.3 ≈ 22×. A wrong answer focusing only on \"amplification\" without impedance concept shows superficial understanding; forgetting the lever ratio indicates incomplete knowledge of the transformer mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A 4000 Hz pure tone enters the ear. Trace the mechanical-to-neural transduction steps from oval window displacement to action potential generation in a single auditory nerve fiber, including the role of the basilar membrane's stiffness gradient.",
+     "a": "1) Stapes pushes oval window → 2) Perilymph pressure wave travels scala vestibuli → 3) At 4000 Hz, peak displacement occurs at basal turn (stiff, narrow) of basilar membrane → 4) Basilar membrane moves up → 5) Inner hair cell stereocilia bend toward kinocilium → 6) Tip links open K⁺ channels → 7) K⁺ influx (endolymph is high K⁺) depolarizes hair cell → 8) Voltage-gated Ca²⁺ channels open → 9) Glutamate release → 10) Action potential in spiral ganglion neuron. Missing the endolymph K⁺ source or stiffness gradient reveals a critical gap in transduction mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the transduction mechanisms in the cochlea (hearing) and the semicircular canals (dynamic balance). Identify two structural similarities and two functional differences.",
+     "a": "Similarities: Both use hair cells with stereocilia/kinocilium; both rely on K⁺ influx from endolymph for depolarization. Differences: Cochlea transduces frequency-coded traveling waves (tonotopic map); canals transduce angular acceleration via endolymph inertia moving cupula. Cochlea responds to sustained stimuli (phase-locked); canals adapt rapidly (velocity detector). Confusing cupula with basilar membrane or missing endolymph inertia shows failure to analyze structure-function relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Eustachian tube equalizes pressure between the middle ear and the atmosphere during swallowing; therefore, a blocked Eustachian tube causes conductive hearing loss by preventing ossicular vibration.\" Is this fully correct? Justify.",
+     "a": "Partially correct. Blocked Eustachian tube → negative middle ear pressure → tympanic membrane retracts → reduced compliance → conductive hearing loss. However, the primary cause is stiffened tympanic membrane-ossicular chain, not \"preventing ossicular vibration\" directly. Also, fluid accumulation (otitis media) often accompanies blockage. A student saying \"yes, fully correct\" misses the nuance of compliance vs. vibration prevention and the secondary effusion mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the principle of impedance matching in the middle ear. List materials, procedure, and the specific observation that proves the concept.",
+     "a": "Materials: Two tuning forks (same frequency), bowl of water, plastic wrap, rubber band. Procedure: 1) Strike fork, hold in air – faint sound. 2) Strike fork, touch base to plastic wrap stretched over bowl (simulates air-to-fluid interface) – sound remains faint. 3) Strike fork, touch base to water directly – louder. 4) Place a small lever (spoon handle) between fork and plastic wrap – sound increases. Observation: Direct coupling to fluid (step 3) and lever coupling (step 4) both increase energy transfer vs. air-to-fluid (step 2), mimicking area ratio and lever action. A poor design omits the lever or area ratio comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_012",
+   "title": "c12_eng_v_cbse_03_012",
+   "questions": [
+    {
+     "q": "Identify whether each question is literal (L) or inferential (I): (a) \"Name the Russian research vessel the author travelled on.\" (b) \"Why does the author say 'the prognosis isn't good' for humans?\" (c) \"What percentage of Earth's ice is stored in Antarctica?\" (d) \"Explain the metaphor 'take care of the small things and the big things will take care of themselves.'\"",
+     "a": "(a) L — directly stated: \"Akademik Shokalskiy\". (b) I — requires interpreting \"prognosis\" in context of climate change and geological time. (c) L — explicitly \"90 per cent\". (d) I — requires unpacking the phytoplankton parable and linking to ecosystem balance. A wrong classification (e.g., marking (b) as literal) reveals the student cannot distinguish stated facts from authorial commentary — they treat all text as surface information.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"Why is Antarctica the place to go to understand Earth's past, present, and future?\": \"Because it has ice cores with half-million-year-old carbon records and it's pristine.\" The teacher awards 1/3 marks. Explain the marking rationale using CBSE's expectation for inferential answers.",
+     "a": "The answer states two literal facts (ice cores, pristine) but misses the *inferential synthesis*: how those facts *enable* understanding of past (carbon records), present (pristine baseline for measuring change), and future (modeling consequences). CBSE marking scheme requires: (1) textual evidence, (2) logical link to each time dimension, (3) thematic conclusion. The student's answer lacks steps 2 and 3 — a classic \"fact-dumping\" error where students confuse listing details with answering \"why\".",
+     "self_check": true
+    },
+    {
+     "q": "Apply the ICE method to this inferential question: \"The author describes the visual scale as ranging 'from the microscopic to the mighty: midges and mites to blue whales and icebergs as big as countries.' What is the effect of this juxtaposition?\" Write a 40-word answer following ICE steps.",
+     "a": "**I**dentify: juxtaposition of microscopic (midges/mites) and massive (blue whales, country-sized icebergs). **C**onnect: emphasizes Antarctica's vast, perspective-shattering scale where human measures fail. **E**xplain: reinforces theme of human insignificance against geological time — the \"ping-pong ball\" disorientation. A weak answer merely lists the examples without explaining the *effect* on the reader or thematic purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two inferential questions from the same chapter: Q1: \"Why does Geoff Green include high school students in Students on Ice?\" Q2: \"How does the 'parable of the phytoplankton' function as a metaphor for existence?\" Analyse the different cognitive demands each places on the student.",
+     "a": "Q1 demands *character-motivation inference*: synthesize Green's stated fatigue with celebrities + \"future policy-makers\" + \"age to absorb, learn, act\" → infer pedagogical philosophy (experiential learning > passive tourism). Q2 demands *extended metaphor analysis*: map phytoplankton → \"small things\" (individual actions), marine food chain → \"big things\" (global systems), photosynthesis → foundational processes. Q1 is single-chain inference; Q2 is multi-layered analogical reasoning. Students often reduce Q2 to \"phytoplankton are important\" — missing the metaphorical mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Literal questions are easier than inferential questions, so I should attempt all literal ones first in the exam to secure easy marks.\" Defend or critique using board exam strategy and marking patterns.",
+     "a": "Critique: While literal questions have binary right/wrong scoring, CBSE papers often embed literal traps (e.g., \"nine time zones\" vs \"six checkpoints\" — students confuse numbers). Inferential questions carry higher marks (3-5 marks) and allow partial credit for valid reasoning. A better strategy: (1) scan paper, (2) attempt high-confidence literal questions in 1-minute each, (3) allocate 7-8 minutes per inferential question for ICE structuring. Prioritizing *only* literal questions risks leaving high-value inferential questions unattempted.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question on \"Journey to the End of the Earth\" that tests the theme of *interconnectedness* and requires evidence from at least two different paragraphs. Provide the ideal answer structure.",
+     "a": "**Question:** \"The author states 'everything does indeed connect' after walking on the ocean. Using evidence from the 'Walk on the ocean' section AND the 'Human impact' section, explain how the chapter demonstrates interconnectedness across geological, ecological, and human timescales.\"  \n**Ideal structure:** (1) Thesis: interconnectedness is the chapter's central argument. (2) Evidence 1 (geological): Gondwana breakup → Himalayas/Drake Passage → current climate (para 2). (3) Evidence 2 (ecological): phytoplankton → food chain → carbon cycle → ozone depletion (para 5). (4) Evidence 3 (human): fossil fuels → CO2 blanket → ice melt → Gulf Stream disruption (para 4). (5) Synthesis: the ocean walk epiphany (para 6) makes this abstract chain visceral. (6) Conclusion: Antarctica as planetary diagnostic tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "catalog": "catalog_class6_maths_fegp107.json",
+ "concepts": [
+  {
+   "id": "fegp.7.1",
+   "family": "frac_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prod = 8 * 3 / 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "part = 4 / 8 * 16"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "num = 8 * 2",
+      "den = 3 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 6 / 5 * 7 / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rec = 8 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = (7 + 5) / 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "prod = 8 * 3 / 9"
+   ]
+  },
+  {
+   "id": "fegp.7.2",
+   "family": "frac_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prod = 7 * 2 / 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "part = 4 / 3 * 15"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "num = 1 * 7",
+      "den = 3 * 8",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 5 / 6 * 4 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rec = 12 / 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = (3 + 2) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.7.3",
+   "family": "frac_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prod = 4 * 5 / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "part = 1 / 4 * 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "num = 4 * 2",
+      "den = 9 * 8",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 8 / 3 * 3 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rec = 10 / 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = (7 + 4) / 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.7.4",
+   "family": "frac_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prod = 10 * 5 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "part = 1 / 5 * 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "num = 6 * 3",
+      "den = 8 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 / 4 * 4 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rec = 10 / 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = (2 + 3) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "prod = 10 * 5 / 3"
+   ]
+  }
+ ]
+}

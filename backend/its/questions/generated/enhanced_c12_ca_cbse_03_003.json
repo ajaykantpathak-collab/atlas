@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_03_003",
+   "title": "c12_ca_cbse_03_003",
+   "questions": [
+    {
+     "q": "What are the five arguments of the Excel PMT function, and what does each argument represent in the context of a loan repayment schedule?",
+     "a": "The five arguments are: Rate (interest rate per period), Nper (total number of payment periods), Pv (present value or loan amount), Fv (future value, typically 0 for loans), Type (0 for end-of-period payment, 1 for beginning-of-period payment). A wrong answer reveals confusion between rate per period vs annual rate, or misunderstanding of the sign convention for Pv (should be negative for loan amount).",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT textbook example, the yearly instalment is calculated using `=PMT(D6, C6, -A6, 0, 1)` where D6 is the annual interest rate (10%) and C6 is the loan period in years (2). The monthly instalment is then obtained by dividing the yearly result by 12. Why does this method give only an approximate monthly instalment compared to using a monthly rate and monthly periods?",
+     "a": "The textbook method assumes simple division of the annual payment by 12, which ignores monthly compounding of interest. The correct approach uses monthly rate (annual rate/12) and monthly periods (years×12) inside PMT. A wrong answer indicates the student does not understand the difference between nominal annual rate and effective periodic rate, or the concept of compounding frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a loan of ₹1,50,000 at 12% annual interest for 5 years, with payments at the end of each month. Write the exact PMT formula to compute the monthly instalment directly (without first computing yearly). Assume the loan amount is in cell A1, annual rate in B1, and years in C1.",
+     "a": "`=PMT(B1/12, C1*12, -A1, 0, 0)` — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment. A wrong answer (e.g., using annual rate with monthly periods, or forgetting the negative sign) shows inability to adapt the function to different compounding/payment frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total interest paid over the life of a ₹2,00,000 loan at 10% for 4 years when payments are made at the beginning of each month (Type=1) versus at the end of each month (Type=0). Which results in lower total interest and why?",
+     "a": "Type=1 (beginning-of-period payments) results in lower total interest because each payment reduces the principal earlier, so interest accrues on a smaller outstanding balance for each subsequent period. A wrong answer suggests the student does not grasp the time-value-of-money effect of payment timing on interest accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues that the Future Value (Fv) argument in PMT should be the total amount repaid (principal + total interest) rather than zero. Evaluate this claim and explain the correct interpretation of Fv in a standard loan repayment schedule.",
+     "a": "The claim is incorrect. In a standard loan, Fv=0 because the loan is fully amortised — the balance after the last payment is zero. The total amount repaid is captured by the sum of all PMT payments (PMT × Nper). Fv represents the residual balance, not the sum of payments. A wrong answer reveals confusion between future value of an investment (which grows) and future value of a loan (which declines to zero).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project: Create a loan comparison spreadsheet that allows a user to input loan amount, annual interest rate, and tenure in years, and automatically shows the monthly instalment for both Type=0 and Type=1, along with the total interest paid in each case. Describe the sheet layout, formulas, and how you would validate it with a test case.",
+     "a": "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12. Monthly PMT (Type=0) = PMT(B2/12, C2*12, -A2, 0, 0). Monthly PMT (Type=1) = PMT(B2/12, C2*12, -A2, 0, 1). Total Interest (Type=0) = (PMT0 * Months) - A2. Total Interest (Type=1) = (PMT1 * Months) - A2. Test case: ₹1,00,000, 10%, 2 years → Type=0 monthly ≈ ₹4,614.49, Type=1 monthly ≈ ₹4,576.03. A poor answer lacks validation logic or misplaces the negative sign.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

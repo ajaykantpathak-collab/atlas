@@ -1,0 +1,476 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 101,
+ "chapter_title": "Nutrition in Plants",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu110.txt",
+ "concepts": [
+  {
+   "id": "gesc.101.1",
+   "title": "Autotrophic Nutrition",
+   "section": "1.1",
+   "definition": "A biological process where living organisms manufacture their own organic food from simple inorganic substances present in the environment.",
+   "formula": "CO2 + H2O + sunlight + chlorophyll -> Carbohydrate + O2",
+   "key_idea": "Self-sustenance by producing food internally using environmental raw materials.",
+   "textbook_ref": "gesc101.txt lines 15-45",
+   "question_patterns": [
+    "What is autotrophic nutrition?",
+    "How do autotrophs prepare their food?",
+    "Explain the self-nourishing mode of nutrition in plants.",
+    "Why are green plants called autotrophs?",
+    "what do you understand by autotrophic nutrition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the raw materials used",
+     "explain": "Organisms take in simple inorganic substances like carbon dioxide, water, and minerals."
+    },
+    {
+     "step": 2,
+     "action": "Identify the energy source",
+     "explain": "Solar energy is captured by chlorophyll to drive the food synthesis process."
+    },
+    {
+     "step": 3,
+     "action": "Determine the mode of nutrition",
+     "explain": "Since the organism synthesizes its own food, it is classified as autotrophic."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.2",
+   "title": "Heterotrophic Nutrition",
+   "section": "1.1",
+   "definition": "A mode of nutrition where organisms cannot synthesize their own food and must consume organic matter produced by other living beings.",
+   "formula": "None",
+   "key_idea": "Dependence on other organisms for organic nutrients.",
+   "textbook_ref": "gesc101.txt lines 35-55",
+   "question_patterns": [
+    "Define heterotrophic nutrition with examples.",
+    "Why are animals classified as heterotrophs?",
+    "How do heterotrophs obtain their energy?",
+    "Distinguish heterotrophs from autotrophs.",
+    "short note on heterotrophic nutrition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check food synthesis capability",
+     "explain": "Determine if the organism lacks chlorophyll and cannot perform photosynthesis."
+    },
+    {
+     "step": 2,
+     "action": "Identify the food source",
+     "explain": "Observe if the organism consumes plants or other animals to obtain nutrients."
+    },
+    {
+     "step": 3,
+     "action": "Classify the nutrition mode",
+     "explain": "If dependent on external organic sources, the mode is heterotrophic."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.3",
+   "title": "Photosynthesis",
+   "section": "1.2",
+   "definition": "The chemical process by which green plants use sunlight, chlorophyll, carbon dioxide, and water to synthesize carbohydrates and release oxygen.",
+   "formula": "6CO2 + 6H2O -> C6H12O6 + 6O2",
+   "key_idea": "Conversion of solar energy into chemical energy stored in food.",
+   "textbook_ref": "gesc101.txt lines 90-130",
+   "question_patterns": [
+    "Describe the process of photosynthesis in plants.",
+    "Write the chemical equation representing photosynthesis.",
+    "What are the essential requirements for photosynthesis?",
+    "How is solar energy stored in plants?",
+    "list the main features of photosynthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reactants and conditions",
+     "explain": "Carbon dioxide and water are the raw materials, while sunlight and chlorophyll are essential conditions."
+    },
+    {
+     "step": 2,
+     "action": "Trace the chemical transformation",
+     "explain": "Light energy is absorbed to convert carbon dioxide and water into glucose (carbohydrates)."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products and by-products",
+     "explain": "Carbohydrates are stored as starch, and oxygen gas is released into the atmosphere."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.4",
+   "title": "Stomata and Guard Cells",
+   "section": "1.2",
+   "definition": "Microscopic pores located on the surface of leaves, regulated by guard cells, which facilitate gaseous exchange and transpiration.",
+   "formula": "None",
+   "key_idea": "Regulated entry of carbon both dioxide and exit of oxygen and water vapor.",
+   "textbook_ref": "gesc101.txt lines 70-85",
+   "question_patterns": [
+    "What are stomata and what is their function?",
+    "How do guard cells regulate stomatal opening?",
+    "Through which structure do leaves take in carbon dioxide?",
+    "Explain the mechanism of gas exchange in plant leaves.",
+    "list the main features of stomata and guard cells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the pores on the leaf surface",
+     "explain": "Tiny openings called stomata are present primarily on the underside of leaves."
+    },
+    {
+     "step": 2,
+     "action": "Identify the regulatory cells",
+     "explain": "Each stoma is flanked by a pair of specialized guard cells that control its opening and closing."
+    },
+    {
+     "step": 3,
+     "action": "Describe the transport function",
+     "explain": "Carbon dioxide enters the leaf through these open pores, and oxygen is released as a byproduct."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.5",
+   "title": "The Cell Structure",
+   "section": "1.2",
+   "definition": "The fundamental structural and functional unit of living organisms, consisting of a cell membrane, cytoplasm, and a nucleus.",
+   "formula": "None",
+   "key_idea": "The basic microscopic building block of all life forms.",
+   "textbook_ref": "gesc101.txt lines 58-69",
+   "question_patterns": [
+    "What are the main components of a cell?",
+    "Describe the structure of a basic cell.",
+    "What is the function of the cell membrane and nucleus?",
+    "Explain the jelly-like substance found in cells.",
+    "explain the cell structure in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the outer boundary",
+     "explain": "The cell is enclosed by a thin, protective outer layer called the cell membrane."
+    },
+    {
+     "step": 2,
+     "action": "Locate the control center",
+     "explain": "A distinct, centrally positioned spherical structure called the nucleus manages cell activities."
+    },
+    {
+     "step": 3,
+     "action": "Identify the surrounding medium",
+     "explain": "The jelly-like substance filling the space between the membrane and nucleus is the cytoplasm."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.6",
+   "title": "Parasitic Plants",
+   "section": "1.3",
+   "definition": "A heterotrophic relationship where a plant lives on or inside another living organism (the host) and derives its nutrients directly from it, causing harm.",
+   "formula": "None",
+   "key_idea": "Obtaining readymade food from a host organism without providing any benefit.",
+   "textbook_ref": "gesc101.txt lines 160-185",
+   "question_patterns": [
+    "What is a parasitic plant?",
+    "Explain the relationship between a parasite and a host.",
+    "How does Cuscuta obtain its food?",
+    "Why is Amarbel classified as a parasite?",
+    "list the main features of parasitic plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the non-photosynthetic climber",
+     "explain": "Observe if the plant lacks chlorophyll (like the yellow wiry Cuscuta) and climbs on another plant."
+    },
+    {
+     "step": 2,
+     "action": "Identify the host plant",
+     "explain": "The plant providing shelter and nutrients is designated as the host."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the nutritional flow",
+     "explain": "The parasite extracts synthesized food directly from the host, depriving it of valuable nutrients."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.7",
+   "title": "Insectivorous Plants",
+   "section": "1.3",
+   "definition": "Plants that perform photosynthesis but supplement their nutrient requirements, particularly nitrogen, by trapping and digesting insects.",
+   "formula": "None",
+   "key_idea": "Partial heterotrophy to survive in nitrogen-deficient soils.",
+   "textbook_ref": "gesc101.txt lines 186-205",
+   "question_patterns": [
+    "What are insectivorous plants?",
+    "Why do some green plants feed on insects?",
+    "Describe how a pitcher plant traps insects.",
+    "Are insectivorous plants autotrophic or heterotrophic?",
+    "short note on insectivorous plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specialized leaf modification",
+     "explain": "Leaves are modified into structures like pitchers with lids to trap insects."
+    },
+    {
+     "step": 2,
+     "action": "Explain the trapping and digestion mechanism",
+     "explain": "Insects slip into the pitcher, the lid closes, and digestive enzymes break down the insect."
+    },
+    {
+     "step": 3,
+     "action": "Explain the nutritional purpose",
+     "explain": "These plants absorb nitrogenous compounds from the digested insects to survive in poor soils."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.8",
+   "title": "Saprotrophic Nutrition",
+   "section": "1.4",
+   "definition": "A mode of nutrition where organisms absorb nutrients from dead, decaying, and organic matter by secreting digestive juices externally.",
+   "formula": "None",
+   "key_idea": "External digestion and absorption of nutrients from non-living organic substrates.",
+   "textbook_ref": "gesc101.txt lines 206-235",
+   "question_patterns": [
+    "What is saprotrophic nutrition?",
+    "How do fungi obtain nutrients from bread?",
+    "Define saprotrophs with examples.",
+    "Why do mushrooms grow on decaying wood?",
+    "give one everyday example of saprotrophic nutrition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organic substrate",
+     "explain": "The substrate must be dead, decaying, or moist organic matter (like rotting wood or wet bread)."
+    },
+    {
+     "step": 2,
+     "action": "Explain external digestion",
+     "explain": "The organism (fungus) secretes digestive juices directly onto the decaying matter to break it down."
+    },
+    {
+     "step": 3,
+     "action": "Explain nutrient absorption",
+     "explain": "The soluble nutrients are then absorbed directly into the body of the saprotroph."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.9",
+   "title": "Symbiosis",
+   "section": "1.4",
+   "definition": "A mutually beneficial association between two different organisms living together and sharing both shelter and nutrients.",
+   "formula": "None",
+   "key_idea": "Coexistence for mutual survival and nutrient exchange.",
+   "textbook_ref": "gesc101.txt lines 245-265",
+   "question_patterns": [
+    "What is symbiosis?",
+    "Explain the symbiotic relationship in lichens.",
+    "How do fungi and plant roots help each other?",
+    "Give examples of symbiotic associations in nature.",
+    "explain symbiosis in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the participating organisms",
+     "explain": "Two distinct species (e.g., an alga and a fungus in lichens) live in close physical association."
+    },
+    {
+     "step": 2,
+     "action": "Determine the contribution of the first partner",
+     "explain": "One partner provides shelter, water, and minerals (e.g., the fungus)."
+    },
+    {
+     "step": 3,
+     "action": "Determine the contribution of the second partner",
+     "explain": "The other partner (e.g., the photosynthetic alga) prepares and shares organic food."
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.10",
+   "title": "Soil Nutrient Replenishment",
+   "section": "1.5",
+   "definition": "The process of restoring essential minerals, especially nitrogen, to the soil using fertilizers, manures, or nitrogen-fixing bacteria.",
+   "formula": "None",
+   "key_idea": "Maintaining soil fertility through natural biological fixation or artificial enrichment.",
+   "textbook_ref": "gesc101.txt lines 266-300",
+   "question_patterns": [
+    "How are nutrients replenished in the soil?",
+    "Explain the role of Rhizobium bacteria in soil fertility.",
+    "Why do farmers grow leguminous plants?",
+    "How do plants obtain nitrogen if they cannot absorb it from the air?",
+    "describe soil nutrient replenishment with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nutrient deficiency",
+     "explain": "Continuous crop cultivation depletes essential minerals, especially nitrogen, from the soil."
+    },
+    {
+     "step": 2,
+     "action": "Explain biological nitrogen fixation",
+     "explain": "Rhizobium bacteria in the root nodules of leguminous plants convert atmospheric nitrogen into soluble nitrates."
+    },
+    {
+     "step": 3,
+     "action": "Explain manual replenishment",
+     "explain": "Farmers add chemical fertilizers and organic manures rich in nitrogen, potassium, and phosphorus."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc101.txt lines 160-180",
+   "concept": "gesc.101.6",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the parasite and host in the relationship between {parasite} and a {host}.",
+   "extracted_variables": {
+    "parasite": "Cuscuta",
+    "host": "mango tree"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the non-photosynthetic climber",
+     "explain": "Cuscuta is a yellow, leafless, wiry climber that cannot perform photosynthesis."
+    },
+    {
+     "step": 2,
+     "action": "Identify the host plant",
+     "explain": "The mango tree provides structural support and nutrients, making it the host."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the nutritional flow",
+     "explain": "Cuscuta absorbs readymade food from the mango tree, acting as a parasite."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc101.txt lines 245-265",
+   "concept": "gesc.101.9",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how an {partner_1} and a {partner_2} cooperate in a lichen.",
+   "extracted_variables": {
+    "partner_1": "alga",
+    "partner_2": "fungus"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the participating organisms",
+     "explain": "Lichens consist of an alga and a fungus living in close association."
+    },
+    {
+     "step": 2,
+     "action": "Determine the contribution of the first partner",
+     "explain": "The fungus provides shelter, water, and minerals to the alga."
+    },
+    {
+     "step": 3,
+     "action": "Determine the contribution of the second partner",
+     "explain": "The alga, containing chlorophyll, prepares and provides food to the fungus."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gesc101.txt lines 90-110",
+   "concept": "gesc.101.3",
+   "question_type": "verify_property",
+   "question_pattern": "Verify if a plant kept in a completely {condition} for a week can perform photosynthesis.",
+   "extracted_variables": {
+    "condition": "dark room"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the reactants and conditions",
+     "explain": "Photosynthesis requires sunlight, chlorophyll, water, and carbon dioxide."
+    },
+    {
+     "step": 2,
+     "action": "Trace the chemical transformation",
+     "explain": "In a dark room, there is no light energy to drive the chemical reaction."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products and by-products",
+     "explain": "No carbohydrates (starch) are produced, indicating photosynthesis did not occur."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gesc101.txt lines 305-325",
+   "questions": [
+    "Why do organisms take food?",
+    "Distinguish between a parasite and a saprotroph.",
+    "How would you test the presence of starch in leaves?",
+    "Give a brief description of the process of synthesis of food in green plants.",
+    "Show with the help of a sketch that plants are the ultimate source of food."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "gesc101.txt lines 326-345",
+   "questions": [
+    "Fill in the blanks: (a) Green plants are called autotrophs since they synthesise their own food. (b) The food synthesised by plants is stored as starch. (c) In photosynthesis solar energy is absorbed by the pigment called chlorophyll. (d) During photosynthesis plants take in carbon dioxide and release oxygen gas.",
+    "Name the following: (i) A parasitic plant with yellow, slender and branched stem. (ii) A plant that is partially autotrophic. (iii) The pores through which leaves exchange gases."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "gesc101.txt lines 346-365",
+   "questions": [
+    "Tick the correct answer: (a) Cuscuta is an example of: (i) autotroph (ii) parasite (iii) saprotroph (iv) host. (b) The plant which traps and feeds on insects is: (i) Cuscuta (ii) china rose (iii) pitcher plant (iv) rose.",
+    "Match the items given in Column I with those in Column II: Column I: Chlorophyll, Nitrogen, Cuscuta, Animals, Insects. Column II: Rhizobium, Heterotrophs, Pitcher plant, Leaf, Parasite.",
+    "Mark 'T' if the statement is true and 'F' if it is false: (i) Carbon dioxide is released during photosynthesis. (ii) Plants which synthesise their food are called saprotrophs. (iii) The product of photosynthesis is not a protein. (iv) Solar energy is converted into chemical energy during photosynthesis."
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "gesc101.txt lines 366-380",
+   "questions": [
+    "Choose the correct option from the following: Which part of the plant takes in carbon dioxide from the air for photosynthesis? (i) Root hair (ii) Stomata (iii) Leaf veins (iv) Petals",
+    "Choose the correct option from the following: Plants take carbon dioxide from the atmosphere mainly through their: (i) roots (ii) stem (iii) flowers (iv) leaves",
+    "Why do farmers grow many fruits and vegetable crops inside large green houses? What are the advantages to the farmers?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

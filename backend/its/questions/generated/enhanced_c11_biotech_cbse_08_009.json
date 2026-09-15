@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_009",
+   "title": "c11_biotech_cbse_08_009",
+   "questions": [
+    {
+     "q": "State the chromosomal basis for why X-linked recessive disorders predominantly affect males, using the terms 'hemizygous' and 'heterozygous' correctly.",
+     "a": "Males (XY) are hemizygous for X-linked genes because they possess only one X chromosome; a single recessive mutant allele on that X is expressed phenotypically. Females (XX) are heterozygous carriers when they have one mutant and one normal allele; the normal allele typically masks the recessive mutant, so they remain phenotypically unaffected. A wrong answer that says \"males have two X chromosomes\" or \"females are hemizygous\" reveals confusion about sex chromosome composition and the definition of hemizygosity.",
+     "self_check": true
+    },
+    {
+     "q": "A woman with normal blood clotting has a father with Haemophilia A. She marries a man with normal blood clotting. Explain why all their daughters will be carriers but none of their sons will have haemophilia, using a Punnett square in your reasoning.",
+     "a": "The woman is an obligate carrier (XᴴXʰ) because she inherited her father's only X chromosome (which carries the haemophilia allele). Her husband is XᴴY. Punnett square: female gametes Xᴴ or Xʰ; male gametes Xᴴ or Y. Daughters: XᴴXᴴ (normal) or XᴴXʰ (carrier) — 100% carriers or normal, but all receive father's normal Xᴴ, so none have haemophilia. Sons: XᴴY (normal) or XʰY (haemophilia) — 50% chance. A wrong answer claiming sons have 0% chance or daughters can have haemophilia reveals misunderstanding of obligate carrier status and/or failure to track which parent contributes which sex chromosome.",
+     "self_check": true
+    },
+    {
+     "q": "A colour-blind man marries a woman with normal vision whose father was colour-blind. Calculate the probability that their first child will be a colour-blind daughter. Show all steps.",
+     "a": "Step 1: Assign alleles: Xᴺ = normal vision, Xⁿ = colour-blind. Step 2: Determine genotypes: Father is colour-blind → XⁿY. Mother has normal vision but her father was colour-blind → she inherited his Xⁿ, so she is carrier XᴺXⁿ. Step 3: Gametes: Father produces Xⁿ or Y; Mother produces Xᴺ or Xⁿ. Step 4: Punnett square for daughters only (father contributes Xⁿ): Daughters get Xⁿ from father + Xᴺ or Xⁿ from mother → genotypes XᴺXⁿ (carrier, normal vision) or XⁿXⁿ (colour-blind). Step 5: Probability daughter is colour-blind = 1/2 (mother passes Xⁿ) × 1 (father always passes Xⁿ to daughters) = 1/2. But probability child is a daughter = 1/2. Overall probability = 1/2 × 1/2 = 1/4. A wrong answer of 1/2 or 0 reveals confusion between conditional probability (given daughter) and joint probability, or incorrect assumption that mother is homozygous normal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inheritance pattern of Haemophilia A (X-linked recessive) with that of an autosomal recessive disorder like sickle cell anaemia. Identify two key differences in how the disorders transmit through generations and explain the mechanistic basis for each difference.",
+     "a": "Difference 1: Sex bias. Haemophilia A affects males predominantly because males are hemizygous for X; sickle cell affects both sexes equally because the gene is on chromosome 11 (autosome), present in two copies in both sexes. Mechanistic basis: X chromosome inactivation in females provides a functional allele backup; autosomes have no such sex-specific dosage difference. Difference 2: Father-to-son transmission. Haemophilia A never passes from father to son because father gives Y to son; sickle cell can pass from father to son (father gives one autosome). Mechanistic basis: Sex chromosomes segregate XY in male meiosis, autosomes segregate independently of sex. A wrong answer citing \"dominance difference\" or \"mutation rate difference\" misses the chromosomal location and meiotic segregation mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "A pedigree shows an affected male in generation I, his unaffected daughter in generation II, and her affected son in generation III. No other affected individuals. Evaluate whether this pedigree is consistent with X-linked recessive inheritance, autosomal recessive inheritance, or both. Justify your conclusion.",
+     "a": "Consistent with X-linked recessive: Affected male (I-1) passes mutant X to all daughters → daughter (II-1) is obligate carrier. She marries normal male → 50% chance affected son (III-1). Father-to-son transmission absent (I-1 to II-1 is father-daughter, not father-son). Consistent with autosomal recessive? Only if both parents of II-1 are carriers (unlikely without consanguinity) and II-1's husband is carrier. But I-1 affected (aa) × unaffected spouse (AA or Aa) → all children at least carriers. If spouse is AA, all children Aa (carriers). Then II-1 (Aa) × husband (Aa) → 1/4 affected son. Possible but requires two independent carrier spouses. X-linked recessive is more parsimonious (only one mutant allele introduced). A wrong answer saying \"both equally likely\" ignores Occam's razor and the obligate carrier status in X-linked which requires no assumption about the mother of II-1.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pedigree for a family where a colour-blind woman has children with a normal-vision man. Show three generations with at least two affected individuals in generation III. Label all genotypes and phenotypes. Explain why this scenario is rarer than the reverse (colour-blind man × normal woman).",
+     "a": "Generation I: Colour-blind woman (XⁿXⁿ) × Normal man (XᴺY). Generation II: All daughters XᴺXⁿ (carriers, normal vision); all sons XⁿY (colour-blind). Generation III: Carrier daughter (XᴺXⁿ) marries normal man (XᴺY) → 50% colour-blind sons (XⁿY), 50% carrier daughters (XᴺXⁿ). Colour-blind son (XⁿY) marries normal woman (XᴺXᴺ) → all daughters carriers, all sons normal. Affected individuals in Gen III: colour-blind sons from carrier daughter. This scenario is rarer because a colour-blind woman requires two mutant alleles (frequency q²), while a colour-blind man requires only one (frequency q). Since q < 1, q² << q. A poor answer that draws the pedigree correctly but says \"it's rarer because women have two X chromosomes\" without invoking allele frequency (Hardy-Weinberg) shows incomplete population genetics reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

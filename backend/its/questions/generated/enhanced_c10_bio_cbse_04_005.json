@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_005",
+   "title": "c10_bio_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the sex chromosome composition of a human male and a human female, and name the type of gametes each produces with respect to sex chromosomes.",
+     "a": "Human male: XY; produces two types of sperm — 50% carry X, 50% carry Y. Human female: XX; produces only one type of ovum — all carry X. A wrong answer (e.g., saying females produce X and Y gametes, or males produce only Y sperm) reveals confusion between somatic chromosome constitution and gamete composition, or misunderstanding of meiotic segregation of sex chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "A couple has three daughters. The father's mother claims he is \"responsible\" for not having a son. Using the mechanism of sex determination, explain why this claim is biologically incorrect.",
+     "a": "The father produces X and Y sperm in equal proportion; each fertilization is an independent event with 50% chance of X-sperm (girl) and 50% chance of Y-sperm (boy). The sex of previous children does not alter the sperm ratio. A wrong answer (e.g., \"the father's sperm quality changes\" or \"the mother's body rejects Y sperm\") reveals the misconception that parental physiology can bias the sex ratio or that past outcomes influence future independent fertilization events.",
+     "self_check": true
+    },
+    {
+     "q": "In a Punnett square for human sex determination, the male parent's gametes are written on the top and the female parent's gametes on the side. Fill in the four boxes of the Punnett square and state the phenotypic ratio of male to female offspring.",
+     "a": "Top row (male gametes): X, Y. Side column (female gametes): X, X. Boxes: (X from male, X from female) = XX (female); (Y from male, X from female) = XY (male); (X from male, X from female) = XX (female); (Y from male, X from female) = XY (male). Phenotypic ratio: 2 females : 2 males = 1:1. A wrong answer (e.g., 3:1 ratio, or all XX) reveals inability to set up the cross correctly or confusion between autosomal and sex chromosome inheritance patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sex determination mechanism in humans (XX/XY) with that in birds (ZZ/ZW). Identify which parent is heterogametic in each system and explain how this difference affects which parent's gamete determines the sex of the offspring.",
+     "a": "In humans, male is heterogametic (XY) → sperm determines sex. In birds, female is heterogametic (ZW) → ovum determines sex. The heterogametic parent produces two types of gametes with different sex chromosomes, so their gamete decides the sex. A wrong answer (e.g., saying male is heterogametic in both) reveals failure to recognize that heterogamety varies across taxa and that the determining gamete always comes from the heterogametic parent.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the father decides the sex of the child, if a couple wants a son they should time intercourse so that Y-sperm reach the ovum first because Y-sperm swim faster.\" Evaluate this claim using biological evidence about sperm biology and fertilization.",
+     "a": "The claim is not scientifically supported. While some studies suggest slight differences in motility or longevity between X and Y sperm, no reliable method exists to select sex by timing intercourse; the 1:1 ratio at fertilization is maintained in natural conception. A wrong answer (accepting the claim as fact) reveals confusion between unverified hypotheses (Shettles method) and established biology, and inability to distinguish between correlation and causation in reproductive biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom simulation using coloured beads or cards to model human sex determination. Describe the materials, procedure, and how you would use the results to demonstrate the 1:1 sex ratio and the independence of each fertilization event.",
+     "a": "Materials: Two containers — one with 50 blue beads (X-sperm) and 50 pink beads (Y-sperm) for male; another with 100 white beads (X-ovum) for female. Procedure: Randomly draw one bead from male container and one from female container, record combination (XX or XY), replace beads, repeat 50 times. Expected outcome: ~25 XX (female) and ~25 XY (male), showing 1:1 ratio. Independence shown by replacing beads each time. A poor answer (e.g., not replacing beads, or using unequal numbers) reveals misunderstanding of independent assortment and constant gamete ratios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

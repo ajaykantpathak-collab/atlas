@@ -1,0 +1,437 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 201,
+  "chapter_title": "Integrals",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "zcode author-first draft; gate-validated",
+  "concepts": [
+    {
+      "id": "lemh.201.7.2.1",
+      "title": "Antiderivative and the Indefinite Integral",
+      "section": "7.2",
+      "definition": "Given a function f, any function F whose derivative equals f is an antiderivative of f; the whole family F(x) + C, with C an arbitrary real constant, is written as the indefinite integral of f with respect to x.",
+      "formula": "integral(f(x)) dx = F(x) + C where d/dx of F(x) = f(x)",
+      "key_idea": "Integrating reverses differentiating, but only up to an added constant.",
+      "textbook_ref": "lemh201.txt section 7.2 (lines ~47-200)",
+      "question_patterns": [
+        "find the antiderivative of the given function",
+        "determine the indefinite integral of the function with respect to x",
+        "write a primitive of the function and add the constant of integration",
+        "which family of curves has the given function as its derivative",
+        "explain why the answer to an integral carries an arbitrary constant",
+        "find an antiderivative by the method of inspection"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Identify the integrand f(x) and the variable of integration", "explain": "Read off what must be differentiated to recover the given function."},
+        {"step": 2, "action": "Search for a function F whose derivative is f", "explain": "Use known derivative pairs in reverse, for instance sin recovers from cos."},
+        {"step": 3, "action": "Add the arbitrary constant C to state the full family", "explain": "Every vertical shift of F differentiates to the same f, so the answer is a family F(x) + C."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.2.2",
+      "title": "Standard Integration Formulae from the Derivative Table",
+      "section": "7.2",
+      "definition": "Each differentiation rule read backwards produces a ready-made integral: the power rule lifts the exponent by one and divides by it, the exponential integrates to itself, reciprocal x gives the log, and each trig function pairs with a listed primitive.",
+      "formula": "integral(x**n) dx = x**(n + 1)/(n + 1) + C valid for n other than -1",
+      "key_idea": "The derivative table converts directly into a table of standard integrals.",
+      "textbook_ref": "lemh201.txt section 7.2, standard formulae list (lines ~204-531)",
+      "question_patterns": [
+        "apply the power rule to integrate a polynomial term",
+        "integrate e to the power x with respect to x",
+        "find the integral of 1 divided by x",
+        "evaluate the integral of sin x, cos x or sec squared x from the standard list",
+        "recall the standard result for integrating a to the power x",
+        "state the integral that corresponds to the derivative of tan inverse x"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Match each term of the integrand to a standard formula", "explain": "Polynomial terms use the power rule; exponential, reciprocal and trig terms use their listed partners."},
+        {"step": 2, "action": "Apply the formula term by term, keeping coefficients", "explain": "For a power term, raise the exponent by one and divide by the new exponent."},
+        {"step": 3, "action": "Append one constant C to the combined result", "explain": "A single arbitrary constant covers all the separate constants of the terms."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.2.3",
+      "title": "Linearity Properties of the Indefinite Integral",
+      "section": "7.2.1",
+      "definition": "Integrals respect sums and constant multiples: an integral of a sum splits into separate integrals, a constant factor moves outside the integral sign, and differentiating an integral hands back the original integrand.",
+      "formula": "integral(k1*f1(x) + k2*f2(x)) dx = k1*integral(f1(x)) dx + k2*integral(f2(x)) dx",
+      "key_idea": "Split sums, pull constants out, and always verify by differentiating the answer.",
+      "textbook_ref": "lemh201.txt section 7.2.1 properties I to V (lines ~534-883)",
+      "question_patterns": [
+        "split the integral of a sum into separate integrals",
+        "take the constant multiple outside the integral sign",
+        "show that differentiating the integral returns the integrand",
+        "simplify an integral of several terms using linearity",
+        "prove that two integrals with the same derivative differ by a constant"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Break the integrand into its additive terms", "explain": "Property III lets each term be integrated on its own."},
+        {"step": 2, "action": "Move constant coefficients outside each integral", "explain": "Property IV multiplies each primitive by its coefficient."},
+        {"step": 3, "action": "Integrate each term with a standard formula and merge constants", "explain": "The separate constants combine into one arbitrary constant."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.3.1",
+      "title": "Integration by Substitution",
+      "section": "7.3.1",
+      "definition": "When the integrand contains a function together with a multiple of its derivative, renaming that inner function as a new variable t rewrites both the integrand and the differential, turning the problem into a simpler standard integral in t.",
+      "formula": "integral(f(x)) dx with x = g(t) becomes integral(f(g(t)) * g_prime(t)) dt",
+      "key_idea": "Spot an inner function whose derivative also appears in the integrand, then switch variables.",
+      "textbook_ref": "lemh201.txt section 7.3.1 (lines ~1694-2130) and examples 5-6",
+      "question_patterns": [
+        "use the substitution method to evaluate the given integral",
+        "integrate 2x times the sine of x squared plus 1 by putting t equal to x squared plus 1",
+        "find the integral of a function of the form f of ax plus b by changing the variable",
+        "solve the integral by substituting the inner function equal to t",
+        "explain how the differential dx is rewritten under a substitution",
+        "determine which substitution simplifies the given integrand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Choose the inner function whose derivative occurs in the integrand", "explain": "Typical choices are the argument of a trig or exponential term."},
+        {"step": 2, "action": "Differentiate the substitution and replace dx accordingly", "explain": "If t equals the inner function, dt carries the missing derivative factor."},
+        {"step": 3, "action": "Integrate the simpler t-form and substitute back", "explain": "Finish in the original variable and add the constant C."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.3.2",
+      "title": "Logarithmic Integrals of tan, cot, sec and cosec",
+      "section": "7.3.1",
+      "definition": "Four recurring trig integrals end in logarithms: tangent gives log of secant, cotangent gives log of sine, secant gives log of the sum secant plus tangent, and cosecant gives log of cosecant minus cotangent, each reached by a clever factor times substitution.",
+      "formula": "integral(sec(x)) dx = log(sec(x) + tan(x)) + C",
+      "key_idea": "Tangent, cotangent, secant and cosecant each integrate to a logarithm of a trig expression.",
+      "textbook_ref": "lemh201.txt section 7.3.1 standard integrals i-iv (lines ~1936-2132)",
+      "question_patterns": [
+        "integrate tan x with respect to x",
+        "find the integral of cosec x in logarithmic form",
+        "evaluate the integral of sec x dx",
+        "state the standard integral of cot x",
+        "derive the logarithmic integral of secant by multiplying with sec plus tan",
+        "integrate a trig function that reduces to the log of sec x"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Rewrite the trig integrand in sine and cosine form", "explain": "For example tan x becomes sin x over cos x."},
+        {"step": 2, "action": "Create the derivative of the denominator in the numerator", "explain": "Multiplying by a suitable unit factor, such as sec plus tan over itself, sets up a substitution."},
+        {"step": 3, "action": "Substitute the denominator expression and integrate to a log", "explain": "The integral becomes dt over t, giving the log form, then substitute back."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.3.3",
+      "title": "Integration Using Trigonometric Identities",
+      "section": "7.3.2",
+      "definition": "Powers and products of sine and cosine are integrated by first rewriting them with identities, such as the half-angle formula for squared terms and the product-to-sum formula for mixed products, which reduces the integrand to first-power trig terms.",
+      "formula": "integral(sin(x)**2) dx = x/2 - sin(2*x)/4 + C",
+      "key_idea": "Lower the powers and split the products with identities before integrating.",
+      "textbook_ref": "lemh201.txt section 7.3.2 and example 7 (lines ~2844-3028)",
+      "question_patterns": [
+        "integrate sin squared x using the half angle identity",
+        "find the integral of a product such as sin 2x times cos 3x",
+        "evaluate the integral of cos squared of 2x",
+        "convert a product of sines and cosines into a sum before integrating",
+        "integrate sin cubed x by separating one sine factor",
+        "apply a trig identity to reduce the power of the integrand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Classify the integrand as a power or a product of trig functions", "explain": "Squared terms need half-angle identities; mixed products need product-to-sum identities."},
+        {"step": 2, "action": "Rewrite the integrand using the matching identity", "explain": "For instance sin squared x becomes half of one plus cos 2x."},
+        {"step": 3, "action": "Integrate the resulting first-power terms term by term", "explain": "Each piece is a standard integral; combine and add C."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.4.1",
+      "title": "Standard Forms with Quadratic Denominators",
+      "section": "7.4",
+      "definition": "Integrals built from x squared plus or minus a squared have fixed primitives: reciprocal of x squared plus a squared gives an arctangent, reciprocal of a squared minus x squared gives a logarithm, and reciprocal of the square root of a squared minus x squared gives an arcsine; completing the square reduces harder quadratics to these shapes.",
+      "formula": "integral(1/(x**2 + a**2)) dx = (1/a) * arctan(x/a) + C",
+      "key_idea": "Match the denominator pattern first, then read the primitive straight from the list.",
+      "textbook_ref": "lemh201.txt section 7.4 formulae 1-7 (lines ~3178-3704)",
+      "question_patterns": [
+        "find the integral of 1 divided by x squared plus a squared",
+        "evaluate the integral of 1 over the square root of a squared minus x squared",
+        "integrate dx over x squared minus a squared using the log formula",
+        "use completing the square to bring a quadratic denominator to a standard form",
+        "which standard form produces the arcsine antiderivative",
+        "determine the antiderivative of 1 over a squared minus x squared"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Compare the denominator with the six standard quadratic shapes", "explain": "Decide between sum, difference and square-root variants."},
+        {"step": 2, "action": "If needed, complete the square to expose the pattern", "explain": "A shifted quadratic is recentered so the standard formula applies with a new variable."},
+        {"step": 3, "action": "Apply the formula and rescale by the constant a", "explain": "Arctangent forms pick up a factor 1/a; log forms pick up 1/(2a)."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.5.1",
+      "title": "Integration by Partial Fractions",
+      "section": "7.5",
+      "definition": "A proper rational function, a polynomial ratio whose numerator degree is below the denominator degree, splits into simpler fractions, one per distinct factor of the denominator with extra terms for repeated factors; each piece then integrates by known rules.",
+      "formula": "integral(p(x)/((x - a)*(x - b))) dx = A*log(x - a) + B*log(x - b) + C",
+      "key_idea": "Factor the denominator, split into partial fractions, integrate the simple pieces.",
+      "textbook_ref": "lemh201.txt section 7.5 table 7.2 and examples 11-16 (lines ~5171-6282)",
+      "question_patterns": [
+        "integrate 1 over the product of two linear factors using partial fractions",
+        "resolve the rational function into partial fractions and then integrate",
+        "find the integral of a rational function whose denominator factors into linears",
+        "divide first and then apply partial fractions when the rational function is improper",
+        "set up constants A and B by equating coefficients to split the integrand",
+        "handle a repeated linear factor while integrating a rational function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Check properness and divide if the numerator degree is too high", "explain": "Long division leaves a polynomial plus a proper remainder to split."},
+        {"step": 2, "action": "Factor the denominator and write the partial fraction template", "explain": "Distinct linear factors each get a constant; repeated factors get one term per power."},
+        {"step": 3, "action": "Solve for the constants and integrate each simple piece", "explain": "Equate coefficients or substitute roots, then integrate logs and constants term by term."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.6.1",
+      "title": "Integration by Parts and the ILATE Choice",
+      "section": "7.6",
+      "definition": "For a product of two unlike functions, integration by parts shifts the difficulty from one factor to the other: the product rule integrated gives first times integral of second, minus the integral of derivative of first times integral of second. The ILATE ordering picks which factor differentiates.",
+      "formula": "integral(f(x) * g(x)) dx = f(x) * integral(g(x)) dx - integral(f_prime(x) * V(x)) dx where V = integral(g(x)) dx",
+      "key_idea": "Choose the first function by ILATE so the remaining integral is easier than the original.",
+      "textbook_ref": "lemh201.txt section 7.6 and example 17 (lines ~6593-7080)",
+      "question_patterns": [
+        "integrate x times cos x using integration by parts",
+        "evaluate the integral of a polynomial times an exponential",
+        "find the integral of x log x by the by parts method",
+        "apply integration by parts to a product of two functions",
+        "how does the ILATE rule decide the first function in by parts",
+        "determine which factor to differentiate when integrating a product"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Order the two factors with ILATE and name the first function", "explain": "Inverse trig, log, algebraic, trig, exponential is the priority order for the differentiating factor."},
+        {"step": 2, "action": "Integrate the second function to form V", "explain": "V multiplies the first function in the answer."},
+        {"step": 3, "action": "Apply the parts formula and simplify the new integral", "explain": "The leftover integral should be standard; if it is harder, the first function was chosen wrongly."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.6.2",
+      "title": "Exponential Pattern of e to the x times Function plus Its Derivative",
+      "section": "7.6.1",
+      "definition": "An integrand of the form the exponential times a bracket containing a function and its own derivative integrates directly to the exponential times the function, a pattern worth spotting before attempting parts.",
+      "formula": "integral(e**x * (f(x) + f_prime(x))) dx = e**x * f(x) + C",
+      "key_idea": "When the bracket is a function plus its derivative, the answer is the exponential times the function.",
+      "textbook_ref": "lemh201.txt section 7.6.1 and example 22 (lines ~7084-7500)",
+      "question_patterns": [
+        "integrate e to the x times the bracket of tan x plus sec squared x in one step",
+        "spot the exponential pattern with a function plus its derivative and integrate directly",
+        "evaluate the integral of e to the power x times the quantity x plus 1",
+        "use the special exponential rule instead of integration by parts",
+        "integrate e to the x times the sum of log x and 1 over x",
+        "recognise the derivative hiding inside the bracket of an exponential integrand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the candidate function inside the bracket", "explain": "Try to see the bracket as f plus the derivative of the same f."},
+        {"step": 2, "action": "Verify by differentiating the candidate", "explain": "The derivative of the proposed answer must reproduce the integrand."},
+        {"step": 3, "action": "Write the answer as the exponential times the function", "explain": "Append the constant C; the check in step 2 guarantees correctness."}
+      ]
+    },
+    {
+      "id": "lemh.201.7.8.1",
+      "title": "Evaluating a Definite Integral by the Fundamental Theorem",
+      "section": "7.8.3",
+      "definition": "For an integrand continuous between the limits, the definite integral equals any antiderivative at the upper limit minus the same antiderivative at the lower limit; the constant of integration cancels and never appears.",
+      "formula": "integral from lower to upper of f(x) dx = F(upper) - F(lower) where F is an antiderivative of f",
+      "key_idea": "Find the antiderivative once, then subtract its values at the two limits.",
+      "textbook_ref": "lemh201.txt sections 7.7-7.8.3 and example 25 (lines ~8173-8890)",
+      "question_patterns": [
+        "evaluate the definite integral of a linear function from the lower limit to the upper limit",
+        "find the value of the integral with given upper and lower limits using the fundamental theorem",
+        "compute the net signed area under a straight line between two x values",
+        "apply the second fundamental theorem to evaluate the given integral",
+        "calculate the antiderivative at the upper limit minus its value at the lower limit",
+        "determine the number the definite integral of a quadratic equals between two limits"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Form the antiderivative of the linear integrand slope*x + intercept", "explain": "The primitive of slope*x + intercept is slope*x**2/2 + intercept*x.", "compute": "anti_upper = slope * upper**2 / 2 + intercept * upper"},
+        {"step": 2, "action": "Evaluate the same antiderivative at the lower limit", "explain": "Substituting the lower limit gives the value to subtract.", "compute": "anti_lower = slope * lower**2 / 2 + intercept * lower"},
+        {"step": 3, "action": "Subtract the lower value from the upper value", "explain": "By the second fundamental theorem this difference is the definite integral.", "compute": "definite_value = anti_upper - anti_lower"}
+      ]
+    },
+    {
+      "id": "lemh.201.7.10.1",
+      "title": "Properties of Definite Integrals Including the King Property",
+      "section": "7.10",
+      "definition": "Definite integrals obey structural rules: interchanging the limits flips the sign, an integral splits at an interior point into two integrals, replacing x by the sum of the limits minus x leaves the value unchanged, and symmetric limits collapse to zero for odd integrands.",
+      "formula": "integral from 0 to a of f(x) dx = integral from 0 to a of f(a - x) dx",
+      "key_idea": "Swap, split or reflect the limits to simplify a definite integral before computing it.",
+      "textbook_ref": "lemh201.txt section 7.10 properties P0-P7 (lines ~9321-9848)",
+      "question_patterns": [
+        "use the king property with reflected limits to evaluate the integral",
+        "evaluate the integral of the log of tan x from 0 to pi by 4",
+        "what happens to a definite integral when the limits are interchanged",
+        "show that the integral of an odd function over symmetric limits vanishes",
+        "split the integral at an interior point and add the two pieces",
+        "combine the property list to simplify a definite integral without finding a primitive"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Test whether the integrand is even, odd or becomes friendlier under reflection", "explain": "Symmetry often halves the work or cancels the integral entirely."},
+        {"step": 2, "action": "Apply the reflection substitution that adds the original integral", "explain": "Adding the reflected form to the original frequently reduces to twice a standard integral."},
+        {"step": 3, "action": "Evaluate the simplified integral and state the result", "explain": "Split points and limit swaps have already been accounted for."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we201.1",
+      "source_ref": "lemh201.txt example 25(i), lines ~8333-8401",
+      "concept": "lemh.201.7.8.1",
+      "question_type": "compute",
+      "question_pattern": "evaluate the definite integral of {slope} x + {intercept} dx from x = {lower} to x = {upper}",
+      "extracted_variables": {"slope": "coefficient of x in the integrand", "intercept": "constant term of the integrand", "lower": "lower limit", "upper": "upper limit"},
+      "solution_template": [
+        {"step": 1, "action": "Antiderivative at the upper limit", "explain": "The primitive slope*x**2/2 + intercept*x evaluated at upper.", "compute": "anti_upper = slope * upper**2 / 2 + intercept * upper"},
+        {"step": 2, "action": "Antiderivative at the lower limit", "explain": "The same primitive evaluated at lower.", "compute": "anti_lower = slope * lower**2 / 2 + intercept * lower"},
+        {"step": 3, "action": "Difference of the two values", "explain": "The second fundamental theorem gives the definite integral.", "compute": "definite_value = anti_upper - anti_lower"}
+      ]
+    },
+    {
+      "id": "we201.2",
+      "source_ref": "lemh201.txt example 25(i) pattern, integral of x cubed type, lines ~8370-8401",
+      "concept": "lemh.201.7.8.1",
+      "question_type": "compute",
+      "question_pattern": "find the value of the definite integral of {coef} x to the power {exp1} dx from x = {lower} to x = {upper}",
+      "extracted_variables": {"coef": "coefficient of the power term", "exp1": "exponent of the power term", "lower": "lower limit", "upper": "upper limit"},
+      "solution_template": [
+        {"step": 1, "action": "Power rule antiderivative at the upper limit", "explain": "coef*x**(exp1+1)/(exp1+1) evaluated at upper.", "compute": "anti_upper = coef * upper**(exp1 + 1) / (exp1 + 1)"},
+        {"step": 2, "action": "Power rule antiderivative at the lower limit", "explain": "The same primitive evaluated at lower.", "compute": "anti_lower = coef * lower**(exp1 + 1) / (exp1 + 1)"},
+        {"step": 3, "action": "Subtract to get the definite value", "explain": "Upper minus lower is the answer.", "compute": "definite_value = anti_upper - anti_lower"}
+      ]
+    },
+    {
+      "id": "we201.3",
+      "source_ref": "lemh201.txt example 11, lines ~5337-5436",
+      "concept": "lemh.201.7.5.1",
+      "question_type": "verify_property",
+      "question_pattern": "integrate 1 dx divided by the product of x plus {a} and x plus {b}",
+      "extracted_variables": {"a": "first shift", "b": "second shift"},
+      "solution_template": [
+        {"step": 1, "action": "Write the partial fraction template", "explain": "1 over the product equals A over the first factor plus B over the second."},
+        {"step": 2, "action": "Solve for A and B", "explain": "Multiply through by the denominator, then equate coefficients or substitute the roots."},
+        {"step": 3, "action": "Integrate each piece to logs", "explain": "The result is A times log of the first factor plus B times log of the second, plus C."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex7.1",
+      "source_ref": "lemh201.txt exercise 7.1, lines ~1397-1680",
+      "questions": [
+        "Find an antiderivative of sin of 2x by inspection.",
+        "Find an antiderivative of cos of 3x by inspection.",
+        "Evaluate the integral of e to the 2x with respect to x.",
+        "Evaluate the integral of the square of ax plus b.",
+        "Find the antiderivative of sin 2x minus 4 times e to the 3x."
+      ]
+    },
+    {
+      "id": "ex7.2",
+      "source_ref": "lemh201.txt exercise 7.2, lines ~2541-2843",
+      "questions": [
+        "Integrate e to the power 4x plus 3 by substitution.",
+        "Integrate 1 divided by the square root of 1 minus x squared.",
+        "Integrate x squared divided by 1 plus x cubed using a substitution.",
+        "Integrate the sine of tan inverse x over 1 plus x squared."
+      ]
+    },
+    {
+      "id": "ex7.3",
+      "source_ref": "lemh201.txt exercise 7.3, lines ~3029-3177",
+      "questions": [
+        "Integrate the square of sin of 2x plus 5.",
+        "Integrate sin 3x times cos 4x.",
+        "Integrate the square of cos x using a half angle identity.",
+        "Integrate sin cubed x by separating a factor."
+      ]
+    },
+    {
+      "id": "ex7.4",
+      "source_ref": "lemh201.txt exercise 7.4, lines ~4876-5170",
+      "questions": [
+        "Integrate 1 over x squared minus 9 using the log form.",
+        "Integrate 1 over the square root of 25 minus 4x squared.",
+        "Integrate dx over the square root of 3 minus 2x minus x squared by completing the square.",
+        "Integrate 1 over the square root of 9x squared plus 4."
+      ]
+    },
+    {
+      "id": "ex7.5",
+      "source_ref": "lemh201.txt exercise 7.5, lines ~6283-6592",
+      "questions": [
+        "Integrate x over the product of x plus 1 and x plus 2 by partial fractions.",
+        "Integrate 1 over the product of x squared minus 4 using the log form.",
+        "Integrate 3x minus 1 over x squared plus 1 after splitting into partial fractions.",
+        "Integrate 1 over the quantity x minus 1 times x minus 2 times x minus 3."
+      ]
+    },
+    {
+      "id": "ex7.6",
+      "source_ref": "lemh201.txt exercise 7.6, lines ~7355-7506 and 7723-7911",
+      "questions": [
+        "Integrate x times sin x by parts.",
+        "Integrate x times log x by the by parts method.",
+        "Integrate x times e to the x using integration by parts.",
+        "Integrate x squared times cos x, applying parts twice."
+      ]
+    },
+    {
+      "id": "ex7.7",
+      "source_ref": "lemh201.txt exercise 7.7, lines ~7912-8172",
+      "questions": [
+        "Evaluate the integral of x squared from 1 to 3.",
+        "Evaluate the integral of the square root of 3 minus 2x between the given limits.",
+        "Evaluate the integral of the cosine of 2x from 0 to pi by 4."
+      ]
+    },
+    {
+      "id": "ex7.8",
+      "source_ref": "lemh201.txt exercise 7.8, lines ~8665-8893",
+      "questions": [
+        "Evaluate the integral of x cubed from minus 2 to 3 by the fundamental theorem.",
+        "Evaluate the integral of x plus 1 over x squared plus 1 from 0 to 1.",
+        "Evaluate the integral of e to the x times sin x from 0 to pi by 2."
+      ]
+    },
+    {
+      "id": "ex7.9",
+      "source_ref": "lemh201.txt exercise 7.9, lines ~9183-9320",
+      "questions": [
+        "Evaluate the integral of 2x over x squared plus 5 from 1 to 3 by substitution.",
+        "Evaluate the integral of the square root of x plus 4 from 0 to 5 after substituting.",
+        "Evaluate the integral of sec squared x from 0 to pi by 6."
+      ]
+    },
+    {
+      "id": "ex7.10",
+      "source_ref": "lemh201.txt exercise 7.10, lines ~10716-10968",
+      "questions": [
+        "Use the reflection property to evaluate the integral of the square root of x over the sum of the square root of x and the square root of 1 minus x from 0 to 1.",
+        "Evaluate the integral of the log of tan x from 0 to pi by 2 using the king property.",
+        "Evaluate the integral of x over x plus the sine of x from 0 to pi by 2.",
+        "Evaluate the integral of e to the cos x over e to the cos x plus e to the minus cos x from 0 to pi."
+      ]
+    },
+    {
+      "id": "misc7",
+      "source_ref": "lemh201.txt miscellaneous exercise on chapter 7, lines ~12241-13712",
+      "questions": [
+        "Integrate the cosine of 6x by rewriting it with identities.",
+        "Integrate sin x times sin 2x times sin 3x.",
+        "Evaluate the integral of x plus the sine of x over 1 plus the cosine of x from 0 to pi by 2.",
+        "Find the integral of e to the x times the bracket of 1 plus sin x over 1 plus cos x."
+      ]
+    }
+  ]
+}

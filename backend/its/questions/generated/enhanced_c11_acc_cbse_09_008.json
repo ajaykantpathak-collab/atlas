@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_008",
+   "title": "c11_acc_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the journal entry for providing interest on capital at 10% p.a. on opening capital of ₹2,00,000.",
+     "a": "Correct entry: Interest on Capital A/c Dr. ₹20,000 To Capital A/c ₹20,000. A wrong answer like \"Capital A/c Dr. To Interest on Capital A/c\" reveals the student confuses the nature of interest on capital — it is an expense for the business (debited) and income for the proprietor (credited to capital), not the reverse. Another common error is debiting Profit & Loss A/c directly instead of Interest on Capital A/c, showing misunderstanding of the two-step process: first recognise the expense, then transfer to P&L.",
+     "self_check": true
+    },
+    {
+     "q": "A proprietor withdrew ₹10,000 on 1st July, 1st October, and 1st January. Rate of interest on drawings is 12% p.a. Explain why we cannot simply calculate 12% on ₹30,000 for the full year.",
+     "a": "Each withdrawal remains outstanding for a different period: July 1 withdrawal for 9 months, October 1 for 6 months, January 1 for 3 months. Charging 12% on ₹30,000 for 12 months assumes all ₹30,000 was withdrawn on April 1, overcharging interest by ₹1,800 (12% × ₹30,000 × 12/12 vs actual ₹1,800 vs ₹1,800? Wait, let me recalculate: Actual interest = 10,000×12%×9/12 + 10,000×12%×6/12 + 10,000×12%×3/12 = 900+600+300 = ₹1,800. Simple 12% on 30,000 = ₹3,600. So overcharge is ₹1,800). A student who suggests the simple method ignores the time value of money principle and the matching concept — interest must match the period each amount was actually used.",
+     "self_check": true
+    },
+    {
+     "q": "Capital on 1st April: ₹3,00,000. Additional capital introduced on 1st August: ₹1,00,000. Rate: 10% p.a. Calculate interest on capital for the year ending 31st March.",
+     "a": "Step 1: Interest on opening capital = ₹3,00,000 × 10% × 12/12 = ₹30,000. Step 2: Interest on additional capital = ₹1,00,000 × 10% × 8/12 = ₹6,667 (August to March = 8 months). Step 3: Total interest = ₹36,667. A wrong answer of ₹40,000 (10% on ₹4,00,000) reveals the student treats additional capital as if invested for full year, violating the accrual principle. A wrong answer of ₹30,000 ignores additional capital entirely, showing inability to handle multiple capital contributions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on Net Profit and Capital when: (a) Interest on Capital ₹15,000 is provided, (b) Interest on Drawings ₹5,000 is charged. Assume opening capital ₹2,00,000 and profit before adjustments ₹1,00,000.",
+     "a": "(a) Interest on Capital: P&L Dr. ₹15,000 → Net Profit reduces to ₹85,000. Capital = ₹2,00,000 + ₹85,000 + ₹15,000 = ₹3,00,000. Net effect on Capital: +₹1,00,000 (profit after adjustment). (b) Interest on Drawings: P&L Cr. ₹5,000 → Net Profit increases to ₹1,05,000. Capital = ₹2,00,000 + ₹1,05,000 - ₹5,000 = ₹3,00,000. Net effect on Capital: +₹1,00,000. Both result in same final capital but different net profit figures. A student who says \"capital increases by ₹15,000 in (a) and decreases by ₹5,000 in (b)\" misses that profit itself changes, and the capital adjustment is the net result of profit transfer plus/minus interest.",
+     "self_check": true
+    },
+    {
+     "q": "\"Interest on drawings should be calculated on the opening balance of drawings account.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Interest on drawings is calculated on each withdrawal based on the period it remains outstanding, not on the opening balance (which is usually zero). The opening balance of drawings account is irrelevant because drawings occur throughout the year. Correct methods: (1) Simple Average Period = (First withdrawal period + Last withdrawal period)/2, used when equal amounts withdrawn at regular intervals. (2) Product Method = Σ(Amount × Months outstanding), used for irregular amounts/timings. A student agreeing with the statement confuses drawings with capital (where opening balance matters) and fails to understand drawings are a flow, not a stock.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partner introduces additional capital of ₹50,000 on 30th September and withdraws ₹20,000 on 1st October. Rate 12% p.a. Calculate both interests and show journal entries.",
+     "a": "Good answer: Interest on Capital: Opening capital (assume ₹1,00,000) × 12% × 12/12 = ₹12,000. Additional capital ₹50,000 × 12% × 6/12 = ₹3,000. Total = ₹15,000. Journal: Interest on Capital A/c Dr. 15,000 To Capital A/c 15,000. Interest on Drawings: ₹20,000 × 12% × 6/12 = ₹1,200 (Oct to Mar = 6 months). Journal: Capital A/c Dr. 1,200 To Interest on Drawings A/c 1,200. A poor answer calculates interest on additional capital for 12 months (₹6,000) or on drawings for 12 months (₹2,400), revealing failure to compute exact months outstanding. Another error: netting the two interests and passing one entry, violating double entry for separate transactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

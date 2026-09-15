@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_006",
+   "title": "c11_stat_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the formula for Paasche's Price Index Number and identify what each symbol represents.",
+     "a": "Paasche's Price Index: Pₚ = (Σp₁q₁ / Σp₀q₁) × 100, where p₀ = base year price, p₁ = current year price, q₁ = current year quantity. A wrong answer (e.g., using q₀ instead of q₁, or writing Σp₁q₀/Σp₀q₀) reveals the student confuses Paasche with Laspeyre's index or doesn't understand which period's quantities serve as weights.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Paasche's index is said to use \"current year weights\" and how this differs conceptually from Laspeyre's index.",
+     "a": "Paasche's index uses current year quantities (q₁) as weights because the formula multiplies both current and base year prices by q₁. This means the \"basket of goods\" being priced is the one actually consumed in the current period. Laspeyre's uses base year quantities (q₀), pricing a fixed historical basket. A wrong answer that says \"both use current quantities\" or \"Paasche uses base year quantities\" shows the student hasn't grasped the weight distinction—the core conceptual difference between the two indices.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for three commodities, calculate Paasche's Price Index for 2024 with 2022 as base year:\n| Commodity | Price 2022 (₹) | Price 2024 (₹) | Quantity 2024 (kg) |\n|-----------|----------------|----------------|-------------------|\n| A         | 40             | 50             | 10                |\n| B         | 30             | 35             | 15                |\n| C         | 20             | 25             | 20                |",
+     "a": "Step 1: Identify p₀, p₁, q₁. Step 2: Compute p₁q₁: A=50×10=500, B=35×15=525, C=25×20=500. Σp₁q₁=1525. Step 3: Compute p₀q₁: A=40×10=400, B=30×15=450, C=20×20=400. Σp₀q₁=1250. Step 4: Pₚ = (1525/1250)×100 = 122. Step 5: Interpretation: Prices rose 22% from 2022 to 2024 using 2024 consumption pattern. A wrong answer (e.g., 120 or using 2022 quantities) reveals computational errors or using Laspeyre's formula by mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of Laspeyre's and Paasche's indices for the same dataset. If Laspeyre's index = 125 and Paasche's index = 122, what does this tell you about the relationship between price changes and quantity changes? (Assume normal goods.)",
+     "a": "Laspeyre's (125) > Paasche's (122) implies that commodities with **above-average price increases** saw **relative quantity decreases** (consumers substituted away), while commodities with **below-average price increases** saw **relative quantity increases**. This is the typical substitution effect. A wrong answer stating \"quantities didn't change\" or \"Paasche is always higher\" shows the student doesn't understand the economic interpretation of the index gap or the direction of quantity adjustment in response to price changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Paasche's index is always better than Laspeyre's because it uses current quantities, which are more relevant.\" Evaluate this claim with two specific limitations of Paasche's index.",
+     "a": "The claim is **partially correct but incomplete**. Two limitations: (1) Paasche requires **current year quantity data**, which is often unavailable or costly to collect (unlike base year quantities which are known), making it impractical for timely policy use. (2) It is **not suitable for time-series comparison** because the basket changes every period—index values reflect both price changes AND quantity changes, so a rise from 120 to 125 could be due to price increases OR a shift toward more expensive goods. A wrong answer that lists only \"data collection difficulty\" or says \"no limitations\" shows lack of critical evaluation of index number properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey (3 commodities, 5 households) to collect data for computing a Paasche-type price index for your locality's food expenditure. Specify: (a) the commodities, (b) the reference period, (c) the exact data points each household must report, and (d) how you would aggregate household data to compute the index.",
+     "a": "(a) Commodities: Rice (kg), Milk (litres), Cooking Oil (litres). (b) Base: Jan 2023; Current: Jan 2024. (c) Each household reports: quantity consumed in Jan 2024 for each commodity (q₁), price paid in Jan 2023 (p₀), price paid in Jan 2024 (p₁). (d) Aggregate: Compute weighted average prices per commodity across households using household expenditure shares as weights, then apply Paasche formula on aggregate p₀, p₁, q₁. A poor answer that asks for base year quantities or doesn't specify aggregation method reveals misunderstanding of Paasche's data requirements and the distinction between household-level and aggregate index construction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

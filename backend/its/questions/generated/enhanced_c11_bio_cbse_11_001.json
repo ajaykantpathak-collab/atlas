@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_001",
+   "title": "c11_bio_cbse_11_001",
+   "questions": [
+    {
+     "q": "Name the four pigments separated by paper chromatography of a green leaf extract, and state the colour each appears on the chromatogram.",
+     "a": "The four pigments are: chlorophyll a (bright or blue-green), chlorophyll b (yellow-green), xanthophylls (yellow), and carotenoids (yellow to yellow-orange). A wrong answer (e.g., listing only chlorophyll, or confusing carotene with xanthophyll colours) reveals the student has memorised \"chlorophyll is green\" from earlier classes but hasn't grasped that leaf colour results from a pigment mixture, and that chromatography separates them based on solubility and adsorption differences – a key Class 11 analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the action spectrum of photosynthesis does not perfectly overlap with the absorption spectrum of chlorophyll a alone, even though chlorophyll a is the primary photosynthetic pigment.",
+     "a": "The action spectrum shows photosynthesis rate at each wavelength, while chlorophyll a absorption spectrum shows only its light absorption. Accessory pigments (chlorophyll b, xanthophylls, carotenoids) absorb at wavelengths where chlorophyll a absorbs poorly (e.g., 450–500 nm, 640–650 nm) and transfer energy to chlorophyll a, so photosynthesis occurs at those wavelengths too. A wrong answer stating \"they overlap completely\" or \"carotenoids don't participate\" reveals the misconception that only chlorophyll a matters, ignoring the antenna function of accessory pigments – a classic Class 10 oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student extracts pigments from a variegated leaf (green and white patches) and runs paper chromatography. The green patch shows four bands; the white patch shows only two yellow-orange bands. Identify the two pigments in the white patch and explain their presence.",
+     "a": "The white patch contains only xanthophylls and carotenoids (the two yellow-orange bands). These pigments are present in all plastids, including non-photosynthetic ones, and are more stable than chlorophylls. In the absence of chlorophyll synthesis (due to mutation or lack of light), the carotenoids remain visible. A wrong answer (e.g., \"no pigments in white patch\" or \"chlorophyll a and b are there but colourless\") reveals confusion between pigment absence and chlorophyll-specific absence, and ignorance that carotenoids are universal in plastids – a gap from Class 9 plastid types (c9_bio_ch1_10).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organisation of pigments in Photosystem I and Photosystem II. How does the reaction centre chlorophyll a differ between them, and why is this difference functionally significant?",
+     "a": "Both photosystems have hundreds of pigment molecules (chlorophyll a, b, carotenoids) forming light-harvesting complexes (antennae) bound to proteins. The difference: PS I reaction centre chlorophyll a (P700) absorbs maximally at 700 nm; PS II reaction centre chlorophyll a (P680) absorbs at 680 nm. This 20 nm shift tunes each photosystem to slightly different light qualities, enabling sequential excitation in the Z-scheme: PS II (680 nm) excites first, passes electrons uphill, then PS I (700 nm) re-excites them to reduce NADP+. A wrong answer missing the wavelength distinction or the sequential role reveals failure to connect pigment structure to electron transport energetics – a prerequisite for node c11_bio_cbse_11_003.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since chlorophyll a absorbs maximally in blue (430 nm) and red (662 nm) light, plants grow best under pure blue or pure red LED lights; green light (500–570 nm) is useless for photosynthesis because chlorophyll reflects it.\"",
+     "a": "The statement is partially incorrect. While chlorophyll a absorbs poorly in green, accessory pigments (chlorophyll b, carotenoids) absorb some green light and transfer energy to chlorophyll a. Moreover, green light penetrates deeper into leaf mesophyll, driving photosynthesis in lower chloroplast layers. Pure red/blue LEDs can cause photoinhibition and unbalanced growth; full-spectrum light including green gives higher total photosynthesis. A wrong evaluation accepting the statement reveals the \"green light is wasted\" misconception from oversimplified Class 10 action spectrum graphs, ignoring leaf optics and pigment diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a prism, a green alga (e.g., Spirogyra), aerobic bacteria, and a microscope to demonstrate that photosynthesis is maximised in blue and red light – replicating Engelmann's 1883 experiment. State the expected observation and its interpretation.",
+     "a": "Place a filament of Spirogyra on a slide, illuminate with white light passed through a prism to create a spectrum. Add a drop of aerobic bacteria (e.g., Clostridium) suspension. After 10–15 minutes, observe under microscope: bacteria accumulate densely in blue (400–500 nm) and red (600–700 nm) regions of the spectrum on the alga. Interpretation: bacteria move toward oxygen; their accumulation shows where O₂ evolution (hence photosynthesis) is highest. This matches chlorophyll a absorption peaks. A poor design (e.g., no prism, using colored filters instead, or missing bacteria as O₂ sensor) reveals inability to translate historical experimental logic into a reproducible setup – a key board exam skill (NCERT Figure 11.3 reference).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

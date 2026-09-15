@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_006",
+   "title": "c11_acc_cbse_09_006",
+   "questions": [
+    {
+     "q": "A student sees \"Provision for Doubtful Debts ₹3,500 (Cr.)\" in the Trial Balance and \"Further Bad Debts ₹1,000\" in adjustments. They write the journal entry for further bad debts as: Bad Debts A/c Dr. 1,000 To Provision for Doubtful Debts A/c 1,000. Is this correct? Explain why or why not.",
+     "a": "**Incorrect.** Further bad debts are debited to **Bad Debts A/c** and credited to **Debtors A/c** (not Provision). The provision account is only used when *adjusting* the provision balance at year-end. The old provision (₹3,500 Cr.) remains untouched until the new provision is calculated. A wrong answer reveals the student confuses the *write-off entry* with the *provision adjustment entry* — they think provision is directly reduced when bad debts occur, but actually bad debts are first recorded separately, then the provision is adjusted via P&L.",
+     "self_check": true
+    },
+    {
+     "q": "\"Provision for doubtful debts is created to *ensure* we have cash to pay off bad debts when they happen.\" Do you agree? Justify your answer using the matching/prudence concept.",
+     "a": "**Disagree.** Provision is **not a cash reserve** — it's an accounting estimate charged to Profit & Loss to *match* anticipated losses against current year's revenue (matching concept) and to avoid overstating assets (prudence concept). No cash is set aside; the entry is Profit & Loss A/c Dr. To Provision for Doubtful Debts A/c. A wrong answer reveals the student thinks \"provision\" means \"saving money\" rather than \"recognizing expense early.\" This confusion leads to errors like showing provision on the liabilities side as a fund.",
+     "self_check": true
+    },
+    {
+     "q": "Trial Balance shows: Sundry Debtors ₹80,000; Bad Debts ₹2,000; Provision for Doubtful Debts ₹4,000 (Cr.). Adjustments: (a) Further Bad Debts ₹500, (b) Maintain provision at 5% on debtors. Calculate the amount debited to Profit & Loss Account for \"Provision for Doubtful Debts\" and show the Balance Sheet extract for Debtors.",
+     "a": "**Steps:**\n1. Debtors after further bad debts = ₹80,000 - ₹500 = ₹79,500\n2. New Provision required = 5% of ₹79,500 = ₹3,975\n3. Old Provision = ₹4,000 (Cr.)\n4. Since New Provision (₹3,975) < Old Provision (₹4,000), **excess provision** = ₹25 → **Credit P&L by ₹250** (i.e., Provision for Doubtful Debts A/c Dr. 250 To P&L A/c 250)\n5. P&L Debit for Bad Debts = Existing ₹2,000 + Further ₹500 = ₹2,500\n6. Net P&L impact for provision = -₹250 (credit)\n7. Balance Sheet: Debtors ₹79,500 (-) New Provision ₹3,975 = **₹75,525**\n\nA wrong answer (e.g., debiting ₹3,975) reveals the student ignores the old provision balance and thinks \"create provision at 5%\" always means debit P&L for the full new amount.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios:\n**Case A:** Old Provision ₹5,000; New Provision required ₹6,000\n**Case B:** Old Provision ₹5,000; New Provision required ₹4,000\nFor each case, state: (i) Journal entry for provision adjustment, (ii) Effect on Net Profit, (iii) Balance Sheet presentation of Provision.",
+     "a": "**Case A (Increase):**\n(i) P&L A/c Dr. 1,000 To Provision for Doubtful Debts A/c 1,000\n(ii) Net Profit **decreases** by ₹1,000\n(iii) Provision shown at ₹6,000 (Cr.) as deduction from Debtors\n\n**Case B (Decrease):**\n(i) Provision for Doubtful Debts A/c Dr. 1,000 To P&L A/c 1,000\n(ii) Net Profit **increases** by ₹1,000 (excess provision written back)\n(iii) Provision shown at ₹4,000 (Cr.) as deduction from Debtors\n\nA wrong answer (e.g., same entry for both) reveals the student memorizes \"P&L Dr. To Provision\" without understanding that the *direction* depends on whether new provision is higher or lower than old — a critical analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A company has Debtors ₹1,00,000 and creates 10% provision annually. In Year 1, actual bad debts = ₹8,000. In Year 2, actual bad debts = ₹12,000. The accountant argues: \"Since actual bad debts exceed provision in Year 2, we should increase the provision rate to 15%.\" Evaluate this argument. What accounting principle guides the provision rate?",
+     "a": "**Argument is flawed.** The provision rate is based on **historical experience and prudent estimation**, not on a single year's deviation. The prudence concept requires *reasonable* estimation, not reactionary changes. If actual bad debts consistently exceed provision over 3-4 years, *then* the rate may be revised. Changing rate annually based on one year's actuals violates **consistency concept** and could manipulate profits. The correct approach: keep 10% if it's historically reasonable; the shortfall in Year 2 (₹12,000 - ₹10,000 = ₹2,000) is absorbed by the excess from Year 1 (₹10,000 - ₹8,000 = ₹2,000). A wrong answer reveals the student doesn't understand that provision is a *smoothed estimate*, not a year-by-year tracking of actuals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transaction scenario (with numbers) where: (a) Old Provision = ₹6,000, (b) Further Bad Debts = ₹2,000, (c) New Provision Rate = 8%, (d) Final Net Debtors in Balance Sheet = ₹64,400. Show all workings to prove your numbers are consistent.",
+     "a": "**Scenario:** Trial Balance: Sundry Debtors ₹90,000; Provision for Doubtful Debts ₹6,000 (Cr.). Adjustments: Further Bad Debts ₹2,000; Maintain provision at 8% on debtors.\n\n**Workings:**\n1. Debtors after further bad debts = ₹90,000 - ₹2,000 = ₹88,000\n2. New Provision = 8% of ₹88,000 = ₹7,040\n3. Old Provision = ₹6,000 → Additional provision needed = ₹7,040 - ₹6,000 = ₹1,040 (Dr. P&L)\n4. Net Debtors in B/S = ₹88,000 - ₹7,040 = **₹80,960** ❌ (Doesn't match ₹64,400)\n\n**Correct Scenario Design:**\nLet Debtors = D, Further Bad Debts = ₹2,000, Rate = 8%, Net Debtors = ₹64,400\nNet Debtors = (D - 2,000) × (1 - 0.08) = 0.92(D - 2,000) = 64,400\n→ D - 2,000 = 70,000 → **D = ₹72,000**\nOld Provision = ₹6,000 (given)\nNew Provision = 8% of ₹70,000 = ₹5,600\nSince New < Old: Excess provision = ₹400 → Credit P&L ₹400\nNet Debtors = ₹70,000 - ₹5,600 = ₹64,400 ✓\n\nA poor answer reveals inability to reverse-engineer from Balance Sheet figure — a key skill for \"missing figure\" board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_001",
+   "title": "c11_geo_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define hydraulic action in fluvial erosion and state the specific condition of bedrock that makes it most effective.",
+     "a": "Hydraulic action is the sheer force of moving water dislodging and removing rock particles from the channel bed and banks without sediment tools, most effective where bedrock has well-developed joints, fractures, or bedding planes that allow water pressure to penetrate and pry blocks loose. A wrong answer (e.g., \"hydraulic action is sandpaper-like grinding\") reveals confusion with abrasion; the student has not distinguished tool-less force from tool-dependent wear.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why abrasion dominates over hydraulic action in the upper Ganga descending through the Himalaya, but hydraulic action becomes relatively more important in the Deccan Trap basalt flows of the Narmada valley.",
+     "a": "In the Himalaya, steep gradients produce high velocities and a massive coarse sediment load (boulders, cobbles) from glacial and mass-wasting sources, providing abundant tools for abrasion to grind resistant granite and gneiss. In the Deccan Traps, the horizontally layered basalt has closely spaced cooling joints; water penetrates these joints and hydraulic pressure lifts entire blocks (quarrying) even with lower velocities and less coarse load. A wrong answer indicates the student cannot link lithology and sediment supply to process dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A river reach has a mean velocity of 2.5 m/s, carries a suspended load of 1200 ppm and bedload of 30% quartz pebbles (D50 = 45 mm) over a sandstone bedrock with widely spaced joints. Calculate the approximate stream power per unit bed area (ω = ρgQS/w) given ρ = 1000 kg/m³, g = 9.8 m/s², discharge Q = 850 m³/s, channel slope S = 0.0015, and width w = 120 m. Which erosion mechanism is likely dominant?",
+     "a": "ω = (1000 × 9.8 × 850 × 0.0015) / 120 = 105.4 W/m². With moderate stream power, abundant quartz tools (hardness 7 > sandstone hardness 6-7), and widely spaced joints limiting hydraulic quarrying, abrasion dominates. A wrong answer (e.g., selecting hydraulic action) shows inability to compute stream power or match process to energy-tool-lithology combination.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of attrition in the Brahmaputra's braided reach (Assam) versus the Narmada's single-thread reach through marble rocks at Bhedaghat. How does attrition interact with the other three mechanisms differently in these two settings?",
+     "a": "In the Brahmaputra's braided reach, high sediment concentration and frequent particle collisions in shifting channels cause rapid attrition, producing abundant fine sediment that enhances abrasion downstream but reduces tool effectiveness locally. At Bhedaghat, the Narmada's confined gorge with marble bedrock and lower sediment concentration means attrition is slower; hydraulic action exploits marble joints while solution dissolves calcium carbonate, and abrasion tools are scarce. A wrong answer treats attrition as isolated rather than a sediment-conditioning process that feeds or starves abrasion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Solution erosion is negligible in Indian rivers except in limestone terrains.\" Consider the chemical composition of major Indian river waters and the long-term landscape impact.",
+     "a": "The statement is false. While solution dominates in limestone (e.g., Chotanagpur plateau, Jaintia Hills), it operates in all rivers: the Ganga carries ~70 mg/L dissolved load (mainly HCO₃⁻, Ca²⁺, Mg²⁺ from silicate and carbonate weathering), contributing ~15% of total denudation basin-wide. Over geological time, solution lowers regional base level and creates subsurface piping that accelerates mass wasting. A wrong answer ignores the cumulative geomorphic work of dissolved load and the silicate weathering contribution in non-carbonate terrains.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to determine the relative contribution of each erosion mechanism in a 500 m reach of the Chambal River near Kota (Deccan Trap basalt). Specify measurements, instruments, and how you would isolate each process.",
+     "a": "Measure: (1) joint spacing and block size distribution on exposed banks (hydraulic action potential); (2) suspended sediment concentration and grain-size distribution at 3 cross-sections (abrasion tools); (3) pebble roundness (Zingg chart) and size downstream trend (attrition rate); (4) water chemistry (pH, EC, Ca²⁺, Mg²⁺, HCO₃⁻) for solution load. Instruments: current meter, sediment sampler, pebble callipers, water quality kit. Isolate processes by: comparing erosion rates on jointed vs. massive basalt (hydraulic action), correlating bedrock wear with bedload flux (abrasion), tracking roundness increase per km (attrition), and calculating solute flux from discharge × concentration (solution). A poor answer lists measurements without a strategy to disentangle simultaneous processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

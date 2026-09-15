@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_006",
+   "title": "c12_chem_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define SN1 reaction and write its rate law. What does \"unimolecular\" refer to in this context?",
+     "a": "SN1 is a two-step nucleophilic substitution where the rate-determining step is the unimolecular ionization of the alkyl halide to form a carbocation. Rate law: Rate = k[R-X]. \"Unimolecular\" refers to the fact that only one molecule (the alkyl halide) participates in the slow, rate-determining step. A wrong answer (e.g., Rate = k[R-X][Nu⁻]) reveals confusion with SN2 kinetics and failure to identify the rate-determining step as carbocation formation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does (CH₃)₃CBr undergo SN1 reaction rapidly in aqueous ethanol, while CH₃CH₂CH₂Br does not? Explain using carbocation stability and solvent effects.",
+     "a": "(CH₃)₃CBr forms a stable tertiary carbocation stabilized by nine hyperconjugative structures (three methyl groups), and polar protic ethanol/water solvates both the carbocation and Br⁻ effectively. CH₃CH₂CH₂Br would form an unstable primary carbocation (only three hyperconjugative structures) and prefers SN2. A wrong answer citing \"steric hindrance prevents SN2\" without mentioning carbocation stability shows incomplete understanding — the primary reason SN1 *doesn't* occur for primary halides is the high energy of the primary carbocation, not just sterics.",
+     "self_check": true
+    },
+    {
+     "q": "An optically active sample of (R)-2-bromobutane is hydrolyzed via SN1 mechanism using aqueous acetone. Draw the mechanism and predict the stereochemical composition of the product. Calculate the expected optical rotation if the specific rotation of pure (S)-butan-2-ol is +13.5°.",
+     "a": "Step 1: C-Br bond breaks heterolytically → planar secondary carbocation (sp², trigonal planar). Step 2: H₂O attacks from both faces with equal probability → 50% (R)-butan-2-ol, 50% (S)-butan-2-ol. Product is racemic mixture (±)-butan-2-ol. Optical rotation = 0° (equal and opposite rotations cancel). A wrong answer predicting retention or inversion reveals misunderstanding that the carbocation is planar and achiral; a non-zero rotation calculation indicates failure to recognize racemization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the SN1 reactivity order for the following sets and explain any anomalies:\n(a) CH₃CH₂CH₂Br, (CH₃)₂CHBr, (CH₃)₃CBr\n(b) C₆H₅CH₂Br, C₆H₅CH(Cl)CH₃, C₆H₅C(Cl)(CH₃)₂",
+     "a": "(a) SN1 reactivity: (CH₃)₃CBr > (CH₃)₂CHBr > CH₃CH₂CH₂Br. Reason: carbocation stability 3° > 2° > 1° (hyperconjugation). (b) C₆H₅C(Cl)(CH₃)₂ > C₆H₅CH(Cl)CH₃ > C₆H₅CH₂Br. The benzylic carbocations are resonance-stabilized; the tertiary benzylic (two phenyl + methyl) is most stable. Anomaly: C₆H₅CH₂Br (primary) reacts faster than typical primary alkyl halides due to resonance stabilization of the benzyl cation. A wrong answer ordering by halide type (Br > Cl) or ignoring resonance shows failure to apply carbocation stability principles beyond simple alkyl groups.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"SN1 reactions always give complete racemization.\" Evaluate this statement. Under what conditions might you observe partial retention or inversion? Provide a specific example.",
+     "a": "The statement is false. Complete racemization occurs only when the carbocation is fully free and planar, and nucleophilic attack is equally probable from both faces. Partial retention occurs when the leaving group shields one face (ion pair effect) — e.g., solvolysis of (R)-2-bromo-3-methylbutane in acetic acid gives ~60% inversion, 40% retention. Partial inversion can occur with neighboring group participation. A student who says \"always racemization\" ignores ion pair intermediates and solvent cage effects — a JEE-level nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to distinguish between SN1 and SN2 mechanisms for the hydrolysis of 2-bromo-2-methylbutane vs 1-bromo-2-methylbutane. Specify the kinetic measurements, solvent choices, and stereochemical probes you would use.",
+     "a": "For 2-bromo-2-methylbutane (3°): Use aqueous ethanol (polar protic). Measure initial rates at varying [substrate] and [OH⁻] — rate should depend only on [substrate]. Use chiral 3-bromo-3-methylhexane (if available) — expect racemization. For 1-bromo-2-methylbutane (1°): Use acetone/NaI (polar aprotic). Rate should depend on both [substrate] and [I⁻]. Use chiral 1-bromo-1-deuterio-2-methylbutane — expect inversion. A poor design uses same solvent for both or doesn't vary nucleophile concentration, failing to isolate kinetic order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

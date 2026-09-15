@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_009",
+   "title": "c12_chem_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the formula for depression of freezing point and define each term with its SI unit.",
+     "a": "ΔTf = Kf × m, where ΔTf = freezing point depression (K), Kf = cryoscopic constant (K kg mol⁻¹), m = molality of solute (mol kg⁻¹). A wrong answer (e.g., using molarity instead of molality, or omitting Kf units) reveals confusion between concentration terms and ignorance that Kf is solvent-specific, not universal.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the freezing point of a solvent decrease when a non-volatile solute is added? Explain using vapour pressure curves.",
+     "a": "At the freezing point, solid and liquid solvent have equal vapour pressure. Adding non-volatile solute lowers the vapour pressure of the liquid phase (Raoult's law). The solid phase vapour pressure is unchanged. To re-establish equality, temperature must decrease, lowering the solid's vapour pressure until it matches the solution's. A wrong answer that says \"solute particles block solidification\" shows a kinetic misconception rather than the thermodynamic equilibrium shift.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the freezing point of a solution containing 5.00 g of glucose (C₆H₁₂O₆, molar mass 180 g mol⁻¹) dissolved in 200 g of water. Kf for water = 1.86 K kg mol⁻¹.",
+     "a": "Moles glucose = 5.00/180 = 0.02778 mol. Mass solvent = 0.200 kg. m = 0.02778/0.200 = 0.1389 mol kg⁻¹. ΔTf = 1.86 × 0.1389 = 0.258 K. Freezing point = 273.15 - 0.258 = 272.89 K (or -0.258°C). A common error: using 200 g instead of 0.200 kg gives m = 0.1389 mol g⁻¹ and ΔTf = 0.258 K (numerically same but units wrong) or forgetting to convert g to kg yields m = 0.0001389 and wrong ΔTf.",
+     "self_check": true
+    },
+    {
+     "q": "A solution of 1.00 g of an unknown non-electrolyte in 50.0 g of benzene freezes at 5.20°C. Pure benzene freezes at 5.50°C. Kf for benzene = 5.12 K kg mol⁻¹. Determine the molar mass of the solute.",
+     "a": "ΔTf = 5.50 - 5.20 = 0.30 K. m = ΔTf/Kf = 0.30/5.12 = 0.05859 mol kg⁻¹. Moles solute = m × kg solvent = 0.05859 × 0.0500 = 0.0029295 mol. Molar mass = mass/moles = 1.00 g / 0.0029295 mol = 341 g mol⁻¹. A wrong answer using 50 g instead of 0.050 kg gives molar mass = 0.341 g mol⁻¹ — reveals unit conversion failure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a 0.1 m NaCl solution, the observed freezing point depression is exactly twice that of a 0.1 m glucose solution because NaCl dissociates into two ions.\"",
+     "a": "The statement is false. While NaCl → Na⁺ + Cl⁻ gives i = 2 ideally, interionic attractions at 0.1 m reduce the effective particle concentration, so i < 2 (experimentally ~1.87). The observed ΔTf will be less than twice. A student who says \"true\" ignores non-ideality and the concentration dependence of the van't Hoff factor.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine the degree of dimerization of acetic acid in benzene using freezing point depression. List the measurements needed and the calculation steps.",
+     "a": "Measure ΔTf for a known mass of acetic acid in a known mass of benzene. Calculate experimental molar mass M_exp = (Kf × w₂ × 1000)/(ΔTf × w₁). Theoretical monomer molar mass = 60 g mol⁻¹. For dimerization 2CH₃COOH ⇌ (CH₃COOH)₂, i = M_theor/M_exp = (1 - α/2) where α is degree of association. Solve for α. A poor answer omits the factor of 1/2 in the dimer equilibrium or uses i = 1 - α incorrectly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

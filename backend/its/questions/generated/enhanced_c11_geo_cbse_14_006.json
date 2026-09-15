@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_006",
+   "title": "c11_geo_cbse_14_006",
+   "questions": [
+    {
+     "q": "Name the four major mangrove species found in the Indian Sundarbans and state the local name for *Heritiera fomes*.",
+     "a": "Correct answer: *Heritiera fomes* (Sundari), *Excoecaria agallocha* (Gewa), *Ceriops decandra* (Goran), *Sonneratia apetala* (Keora). Sundari is the local name for *Heritiera fomes*. A wrong answer (e.g., listing \"mangrove apple\" or \"red mangrove\" — which are *Rhizophora* species dominant in Andamans but not Sundarbans) reveals the student is conflating global mangrove genera with the specific species assemblage of the Indian Sundarbans, indicating lack of region-specific knowledge required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why pneumatophores are absent in *Rhizophora* species but prominent in *Avicennia* and *Sonneratia*, linking this to their respective root architecture and sediment preference.",
+     "a": "Correct answer: *Rhizophora* (stilt-rooted) grows on firmer, better-aerated sediments at the seaward fringe where prop roots provide mechanical stability and some gas exchange; *Avicennia* and *Sonneratia* colonize softer, anaerobic mudflats landward where cable roots spread horizontally and send up pencil-like pneumatophores for atmospheric oxygen diffusion. A wrong answer stating \"all mangroves have pneumatophores\" reveals the misconception that adaptations are uniform across taxa, ignoring niche partitioning along the intertidal gradient — a key concept for \"analyze\" level questions.",
+     "self_check": true
+    },
+    {
+     "q": "A mangrove sapling of *Avicennia marina* is planted at mean sea level (MSL) in the Sundarbans. Given: tidal range = 4 m, MSL = 2 m above chart datum, sapling root crown at 1.5 m above MSL. Calculate the maximum submergence duration per tidal cycle (in hours) if the species tolerates submergence up to 40% of the tidal period. Assume semi-diurnal tide (period = 12.4 h).",
+     "a": "Steps: (1) Tidal period = 12.4 h (semi-diurnal). (2) Tolerable submergence = 40% × 12.4 h = 4.96 h. (3) Submergence occurs when water level > root crown elevation (MSL + 1.5 m = 3.5 m above chart datum). (4) High tide = MSL + 2 m = 4 m above chart datum; low tide = MSL - 2 m = 0 m. (5) Water exceeds 3.5 m for a fraction of the tidal cycle. Using sinusoidal approximation: submergence duration ≈ (period/π) × cos⁻¹((3.5-2)/2) = (12.4/π) × cos⁻¹(0.75) ≈ 3.95 h × 0.723 rad ≈ 2.86 h. (6) 2.86 h < 4.96 h → sapling survives. A wrong answer ignoring the elevation calculation reveals inability to apply tidal hydrodynamics to species zonation — a skill tested in competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drivers of mangrove degradation in the Sundarbans versus the Gulf of Kutch. Structure your answer using the DPSIR framework (Driver, Pressure, State, Impact, Response).",
+     "a": "Correct answer: Sundarbans — Drivers: population density, climate change; Pressures: freshwater diversion (Farakka), shrimp farming encroachment, cyclone intensification; State: salinity increase (upstream shift of 5 ppt isohaline), *Heritiera* dieback, tiger-human conflict; Impact: carbon stock loss, reduced storm buffering; Response: Joint Forest Management, Tiger Reserve, UNESCO WHS. Gulf of Kutch — Drivers: industrialization, port development; Pressures: thermal pollution, oil spills, dredging, reduced tidal flushing; State: *Avicennia* monoculture replacing diversity, stunted growth; Impact: nursery habitat loss for fisheries; Response: Marine National Park, CRZ notifications. A wrong answer listing generic \"human activities\" for both reveals failure to differentiate context-specific drivers — a distinction examiners reward in 5-mark \"analyze\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Sundarbans' designation as a UNESCO World Heritage Site has effectively halted mangrove loss in the Indian portion.\" Support with evidence on forest cover change (2011–2021) and governance gaps.",
+     "a": "Correct evaluation: Statement is false. ISFR data shows Indian Sundarbans lost ~3.6% dense mangrove cover (2011–2021) despite WHS status (2019). Governance gaps: (1) WHS covers only core zone (1,330 km²), not buffer/transition; (2) Farakka Barrage (upstream, outside jurisdiction) reduces dry-season flow by ~40%, increasing salinity; (3) Tiger Reserve restrictions limit community-based restoration; (4) Cyclone Amphan (2020) caused 28% canopy damage — climate driver unaddressed by designation alone. A wrong answer citing \"protection works\" without data reveals uncritical acceptance of policy labels over empirical outcomes — a senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-led mangrove restoration plan for a 50-ha degraded site in the Sundarbans buffer zone. Specify: species selection criteria, hydrological restoration steps, livelihood integration, and a 5-year monitoring protocol with 3 measurable indicators.",
+     "a": "Expected criteria: (1) Species: *Avicennia officinalis* (pioneer, high salinity tolerance), *Excoecaria agallocha* (mid-succession), *Heritiera fomes* (late succession, high value) — matched to elevation/salinity gradient via RTK-GPS survey. (2) Hydrology: breach embankments at 3 points to restore tidal prism; excavate 2 km of tidal creeks (trapezoidal, 1:2 slope) to ensure drainage; install sluice gates for controlled freshwater release. (3) Livelihood: crab fattening in restored creeks, honey collection zones, ecotourism guide training — benefit-sharing agreement with JFMC. (4) Monitoring: Year 1–5 quarterly: survival rate (>70%), canopy cover (drone NDVI >0.4 by Year 3), benthic diversity (Shannon index >2.0). Poor answer: \"plant Sundari trees and pay locals\" — reveals ignorance of hydrological precondition, successional ecology, and adaptive management.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

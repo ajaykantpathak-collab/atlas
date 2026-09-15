@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_007",
+   "title": "c12_geo_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define quaternary activities and name two ways they differ from tertiary activities in terms of input and output.",
+     "a": "Quaternary activities are knowledge-intensive services (R&D, IT, consultancy) where the primary input is specialized expertise and the output is information/innovation, unlike tertiary activities which use labor/capital to provide direct services (transport, retail, hospitality). A wrong answer that lists only \"services\" or confuses BPO (quaternary) with call-center voice support (tertiary) reveals the student cannot apply the knowledge-intensity filter.",
+     "self_check": true
+    },
+    {
+     "q": "Why do quaternary activities cluster in specific urban regions like Bengaluru, Hyderabad, and Pune despite being theoretically footloose? Explain using agglomeration economies and institutional factors.",
+     "a": "Clustering occurs due to: (1) knowledge spillovers from proximity to universities/research institutes (IISc, IITs, NCBS), (2) specialized labor pooling reducing hiring/search costs, (3) venture capital and policy infrastructure (STPI, SEZs, state IT policies), and (4) social networks enabling trust-based collaboration and spin-off formation. A wrong answer citing only \"cheap labor\" or \"English language\" misses the innovation-ecosystem logic and confuses quaternary with low-end outsourcing.",
+     "self_check": true
+    },
+    {
+     "q": "A US pharmaceutical firm outsources its drug-discovery research (molecular modeling, clinical data analysis) to a KPO in Hyderabad. Identify the quaternary sub-sector, the factor enabling this spatial separation, and one risk for the host country's skill base.",
+     "a": "Sub-sector: Knowledge Process Outsourcing (KPO) — high-value R&D analytics. Enabling factor: codifiability of research workflows + broadband + time-zone arbitrage + IP protection regime. Risk: \"brain drain within country\" — top talent locked into execution roles for foreign IP, limiting domestic innovation capacity and startup formation. A wrong answer calling this BPO or citing only cost arbitrage reveals confusion between process and knowledge outsourcing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the location logic of India's IT industry (1990s-2000s) with its emerging GCC (Global Capability Center) model post-2015. What geographical shift does this represent?",
+     "a": "1990s-2000s: cost arbitrage + English + Y2K opportunity — firms located in Bengaluru/Hyderabad for routine coding/testing (footloose, export-oriented, arms-length). Post-2015 GCC model: MNCs build owned centers for core R&D, AI, product engineering, digital transformation — same cities but deeper integration with global innovation networks, higher wage premiums, stronger university links, and strategic decision-making mandates. Shift: from \"back-office\" to \"brain-office\" — same geography, upgraded value-chain position and knowledge-intensity. A wrong answer seeing no change misses the functional upgrading within quaternary space.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's demographic dividend will automatically make it a global knowledge economy leader by 2030.\" Use quaternary-sector requirements to justify your judgment.",
+     "a": "Claim is flawed. Demographic dividend provides labor quantity, but quaternary leadership requires: (1) quality STEM graduates with research skills (current employability ~45% for engineers per NASSCOM), (2) sustained R&D investment (India's GERD ~0.7% GDP vs 2.8% US, 2.4% China), (3) robust IP regime and data governance, (4) deep capital markets for scaling startups beyond services. Without these, dividend becomes demographic burden. A wrong answer agreeing uncritically confuses labor supply with knowledge-capital formation and ignores the quality-infrastructure-institution triad.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy framework for a Tier-2 city (e.g., Indore, Coimbatore, Bhubaneswar) to attract quaternary activities. Specify three targeted interventions with geographical reasoning for each.",
+     "a": "Good answer includes: (1) University-industry link: mandate joint PhDs with local firms + curriculum co-design — addresses skill mismatch at source. (2) Plug-and-play infrastructure: STPI-lite zones with 5G, uninterrupted power, pre-cleared land — reduces setup friction for footloose firms. (3) Livability investment: air quality, housing, schools, cultural amenities — retains talent who otherwise migrate to metros. Each intervention targets a specific location factor (skill, cost, quality of life). A poor answer lists generic \"IT parks\" or \"tax breaks\" without linking to quaternary firms' actual location calculus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

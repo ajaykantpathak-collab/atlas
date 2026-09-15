@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_006",
+   "title": "c12_cs_cbse_07_006",
+   "questions": [
+    {
+     "q": "State the commutative law for Boolean OR and Boolean AND using variables A and B.",
+     "a": "Correct answer: A + B = B + A (OR) and A · B = B · A (AND). A wrong answer such as A + B = A · B reveals confusion between the operations; writing A + B = B + A but forgetting the AND version shows incomplete recall. If a student writes A + B = B + A for both, they have not distinguished the two operators.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the associative law allows us to write A + B + C without parentheses, but the expression A + B · C still requires parentheses or precedence rules.",
+     "a": "Correct explanation: Associative law says (A+B)+C = A+(B+C), so the grouping of OR operations does not matter; we can omit parentheses. However, A + B · C mixes OR and AND, and there is no associative law across different operators. Precedence (AND before OR) or explicit parentheses are needed. A wrong answer that claims associativity applies to mixed operations (e.g., (A+B)·C = A+(B·C)) shows a fundamental misunderstanding of the law’s scope.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the Boolean expression (A + B) · (A + C) using the distributive law, and write the resulting sum-of-products form.",
+     "a": "Step 1: Recognize the pattern (A+B)(A+C) matches the second distributive law: A + BC = (A+B)(A+C). Step 2: Apply the law in reverse: (A+B)(A+C) = A + B·C. Step 3: The sum-of-products form is A + BC. A wrong answer like A + B + C indicates the student applied the ordinary algebra distributive law (FOIL) incorrectly. Another error: writing A·A + A·C + B·A + B·C and not simplifying A·A to A, showing they don’t know the idempotent law (covered later) but also misapplying distributivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distributive law in Boolean algebra (A + BC = (A+B)(A+C)) with the distributive law in ordinary algebra (a + bc = (a+b)(a+c)?). Is the ordinary algebra version true? Justify with a numeric counterexample.",
+     "a": "Correct analysis: In ordinary algebra, a + bc ≠ (a+b)(a+c) in general. Counterexample: let a=2, b=3, c=4. LHS = 2 + 12 = 14. RHS = (5)(6) = 30. They are not equal. The Boolean version holds because Boolean values are only 0/1 and the operations are logical OR/AND. A wrong answer that claims both are identical shows the student has not grasped the difference between logical and arithmetic operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (X + Y) · (X + Z) to X + YZ and then further to X + Y + Z. Evaluate whether the second step is valid. If not, explain the error and give a truth-table row that disproves it.",
+     "a": "The second step is invalid. X + YZ is not equivalent to X + Y + Z. Counterexample: X=0, Y=1, Z=0. Then X+YZ = 0+0 = 0, but X+Y+Z = 0+1+0 = 1. The error is treating AND as if it distributes over OR in the wrong direction (like ordinary algebra). A wrong answer that says the step is valid reveals confusion between Boolean and ordinary algebra distributivity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean expression with three variables that uses all three laws (commutative, associative, distributive) in a non-trivial way. Show the step-by-step transformation that applies each law exactly once.",
+     "a": "Example expression: (A + B) · (C + A). Step 1 (commutative on second factor): (A+B)·(A+C). Step 2 (distributive): A + B·C. Step 3 (associative on the OR if we add another term, e.g., (A + B·C) + D = A + (B·C + D)). A good answer demonstrates each law clearly and shows the expression changes form but not value. A poor answer merely lists the laws without a coherent transformation or applies a law incorrectly (e.g., using commutative on a single variable).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

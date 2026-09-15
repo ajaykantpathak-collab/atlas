@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_008",
+   "title": "c11_phy_cbse_10_008",
+   "questions": [
+    {
+     "q": "State the principle of calorimetry and write the mathematical equation representing it for a system of two bodies with masses m₁, m₂, specific heats s₁, s₂, initial temperatures T₁, T₂ (T₁ > T₂), and final temperature T_f. Include SI units for each quantity.",
+     "a": "Principle: In an isolated system, heat lost by hotter bodies = heat gained by colder bodies. Equation: m₁ s₁ (T₁ - T_f) = m₂ s₂ (T_f - T₂). SI units: m in kg, s in J kg⁻¹ K⁻¹, T in °C or K (difference is same). A wrong answer like \"m₁ s₁ T₁ = m₂ s₂ T₂\" reveals the student ignores temperature change and uses absolute temperatures, confusing heat content with heat transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a calorimeter experiment, the heat lost by the hot metal block is exactly equal to the heat gained by the water alone.\" Explain why this statement is incomplete and what additional component must be included for accurate results.",
+     "a": "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by calorimeter cup. If the cup's heat capacity is neglected, the calculated specific heat of the metal will be overestimated because the measured temperature rise of water is smaller than it would be if the cup absorbed no heat. A student missing this shows they treat the calorimeter as a passive container rather than a thermodynamic participant.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.050 kg aluminium sphere at 100°C is dropped into a 0.150 kg copper calorimeter containing 0.200 kg water at 20°C. The final steady temperature is 24°C. Given s_water = 4186 J kg⁻¹ K⁻¹, s_copper = 386 J kg⁻¹ K⁻¹, calculate the specific heat capacity of aluminium. Show all steps with units.",
+     "a": "Heat lost by Al = m_Al s_Al (100 - 24) = 0.050 × s_Al × 76 = 3.8 s_Al J.\nHeat gained by water = 0.200 × 4186 × (24 - 20) = 0.200 × 4186 × 4 = 3348.8 J.\nHeat gained by Cu calorimeter = 0.150 × 386 × 4 = 231.6 J.\nTotal heat gained = 3348.8 + 231.6 = 3580.4 J.\nEquating: 3.8 s_Al = 3580.4 → s_Al = 942.2 J kg⁻¹ K⁻¹ ≈ 940 J kg⁻¹ K⁻¹.\nA wrong answer like 900 J kg⁻¹ K⁻¹ (using only water) reveals the student forgot the calorimeter's heat absorption.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical calorimeters A and B contain equal masses of water at 20°C. In A, a 50 g copper block at 100°C is dropped; in B, a 50 g aluminium block at 100°C is dropped. Given s_Cu = 386 J kg⁻¹ K⁻¹, s_Al = 900 J kg⁻¹ K⁻¹, which calorimeter reaches a higher final temperature? Explain without calculation.",
+     "a": "Calorimeter B (with aluminium) reaches a higher final temperature. Aluminium has higher specific heat capacity, so for the same mass and temperature drop, it releases more heat (Q = m s ΔT). More heat released → more heat gained by water+calorimeter → larger ΔT for water. A student choosing copper confuses thermal conductivity (which affects rate) with heat capacity (which affects total heat transferred).",
+     "self_check": true
+    },
+    {
+     "q": "In a calorimetry experiment to find the specific heat of a metal, a student forgets to dry the metal block after removing it from boiling water. Water droplets at 100°C remain on the block. Will the calculated specific heat of the metal be higher, lower, or unchanged? Justify.",
+     "a": "The calculated specific heat will be HIGHER than the true value. The extra water droplets add mass that also loses heat (at 100°C) but this mass is not accounted for in the metal's mass. The heat lost by the droplets is attributed entirely to the metal block, making it appear that the metal released more heat per kg per degree than it actually did. A student saying \"lower\" thinks the droplets cool the block faster, confusing rate with total heat.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple calorimetry experiment using only household items (no lab calorimeter) to estimate the specific heat capacity of a common metal like a steel spoon. List the materials, procedure, measurements needed, and the formula you would use. Identify two major sources of error.",
+     "a": "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water. Procedure: (1) Measure mass of spoon (m_s). (2) Measure mass of cup + water (m_w). (3) Record initial water temp (T_i). (4) Submerge spoon in boiling water for 5 min (assume 100°C). (5) Quickly transfer spoon to cup, cover, stir, record final temp (T_f). Formula: m_s s_s (100 - T_f) = m_w s_w (T_f - T_i). Errors: (1) Heat loss to surroundings during transfer and through cup walls. (2) Water droplets on spoon add unmeasured mass. A poor answer uses a non-insulated cup or ignores the spoon's initial temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

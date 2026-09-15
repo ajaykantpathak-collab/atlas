@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 116,
+  "chapter_title": "Creative Writing",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb116.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb116.1.1",
+      "title": "What Makes Writing Creative",
+      "section": "6",
+      "definition": "Creative writing is writing that imaginatively transforms experience -- stories, poems, plays -- rather than reporting it. Its material is the same world we all see, but reshaped through a personal vision, and its aim is effect on a reader: delight, suspense, sorrow or laughter.",
+      "formula": "",
+      "key_idea": "Report tells what happened; creation tells what it felt like -- imagination recasting experience for effect.",
+      "textbook_ref": "kehb116.txt opening (shakespeare lines from macbeth as description, imaginative writing versus reporting, effect on the reader)",
+      "question_patterns": [
+        "what distinguishes creative writing from ordinary writing",
+        "in class 11 creative writing: how does imagination transform experience",
+        "why does the chapter open with lines from macbeth",
+        "what effects can creative writing produce in a reader",
+        "distinguish reporting an event from narrating it imaginatively",
+        "is a diary entry creative writing discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "contrast with reporting", "explain": "A police report records; a story re-imagines -- selecting, exaggerating, ordering for effect."},
+        {"step": 2, "action": "identify the craft", "explain": "Vivid images, telling detail, rhythm and point of view carry the writer's vision."},
+        {"step": 3, "action": "judge by effect", "explain": "Creative writing succeeds when the reader feels something -- the aim is experience transferred."}
+      ]
+    },
+    {
+      "id": "kehb116.1.2",
+      "title": "Elements of a Story: Plot, Character, Setting",
+      "section": "6",
+      "definition": "A short story stands on three supports: plot, the linked sequence of events rising to a climax and ending in resolution; character, people whose wants and changes drive the events; and setting, the time and place that clothe both in atmosphere.",
+      "formula": "",
+      "key_idea": "Someone (character) wants something, events (plot) push against the want, and a place (setting) holds it all.",
+      "textbook_ref": "kehb116.txt story sections (plot and its development, characters and their motives, setting and atmosphere, climax and resolution)",
+      "question_patterns": [
+        "explain the elements of a short story",
+        "in class 11 creative writing: what is the role of conflict in a plot",
+        "how does setting create atmosphere in a story",
+        "distinguish flat characters from rounded characters",
+        "plan a short story using plot character and setting",
+        "what makes a satisfying ending to a story"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "build the plot", "explain": "Give a character a want, block it, and let events rise through complications to a climax and some resolution."},
+        {"step": 2, "action": "flesh the people", "explain": "Show characters through speech, act and motive so readers can believe and care."},
+        {"step": 3, "action": "set the scene", "explain": "Choose time and place details that reinforce the mood and make events credible."}
+      ]
+    },
+    {
+      "id": "kehb116.1.3",
+      "title": "Language of Imagination: Figures of Speech and Point of View",
+      "section": "6",
+      "definition": "Creative power lives in language: similes and metaphors compare and compress, personification wakes the inert, and choosing a point of view -- first person or third -- decides whose eyes the reader borrows. Precise, sensory words outdo piles of adjectives.",
+      "formula": "",
+      "key_idea": "See through one pair of eyes, name things exactly, compare boldly -- that is the language of imagination.",
+      "textbook_ref": "kehb116.txt language sections (simile metaphor personification, sensory words, point of view first person third person, avoiding cliches)",
+      "question_patterns": [
+        "explain simile metaphor and personification with examples",
+        "in class 11 creative writing: how does point of view change a story",
+        "why are sensory words preferred to strings of adjectives",
+        "identify the figures of speech in a given passage",
+        "retell an event in first person and in third person",
+        "how can cliches be replaced with fresh images"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "choose the lens", "explain": "Decide who tells the tale; first person offers intimacy, third person offers breadth."},
+        {"step": 2, "action": "paint with figures", "explain": "Deploy simile, metaphor and personification sparingly but freshly to compress meaning into images."},
+        {"step": 3, "action": "prefer the concrete", "explain": "Select exact nouns and verbs that appeal to the senses, cutting worn-out phrases."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb116.txt story elements guidance",
+      "concept": "kehb116.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Plan a two-paragraph story about a lost puppy using plot, character and setting.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "set character and want", "explain": "A small boy wants to find the puppy that followed him home -- motive established."},
+        {"step": 2, "action": "arrange the plot", "explain": "Searching streets, a scare, then reunion with its owner -- complication, climax, resolution."},
+        {"step": 3, "action": "fix the setting", "explain": "A rainy evening market gives atmosphere: smells, umbrellas, dim lantern light."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb116.txt language guidance",
+      "concept": "kehb116.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Rewrite the flat sentence 'The old house was very scary at night' using a figure of speech and sensory detail.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "add a figure", "explain": "Personification: 'The old house held its breath at night.'"},
+        {"step": 2, "action": "add the senses", "explain": "Sound and touch: 'floorboards groaned, and the cold staircase rail felt like a bone under the hand.'"},
+        {"step": 3, "action": "compare the effects", "explain": "The rewrite shows the scare instead of announcing it -- concrete images outperform the vague adjective."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb116.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Write a short story beginning with the given opening line.",
+        "Identify the figures of speech in a given paragraph.",
+        "Retell a news item as an imaginative narrative.",
+        "Plan a story showing plot, character and setting in a grid.",
+        "Rewrite a cliched description with fresh images.",
+        "Explain how the choice of narrator changes a story."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Living Creatures: Exploring their Characteristics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu110.txt",
+ "concepts": [
+  {
+   "id": "c6cu.10.1",
+   "title": "Characteristics of Living Organisms",
+   "section": "10.1",
+   "definition": "Living organisms show certain common characteristics such as growth, movement, respiration, response to stimuli, reproduction, excretion, and the need for food.",
+   "formula": "",
+   "key_idea": "All living creatures share a set of life processes that distinguish them from non-living things.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the characteristics of living organisms",
+    "how can you tell a living thing from a non-living thing",
+    "list the common features shown by all living creatures",
+    "explain why growth is a characteristic of living things",
+    "give one everyday example of characteristics of living organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the life processes",
+     "explain": "Recall the key characteristics: growth, movement, respiration, response to stimuli, reproduction, excretion, and feeding."
+    },
+    {
+     "step": 2,
+     "action": "Check the object against each process",
+     "explain": "Determine whether the object being studied shows these life processes or not."
+    },
+    {
+     "step": 3,
+     "action": "Classify as living or non-living",
+     "explain": "If the object shows these characteristics, it is living; if it shows none, it is non-living, confirming the classification is correct."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can you tell that a plant is a living organism?",
+     "solution": "A plant grows, needs food and water, responds to light, and reproduces, which are all characteristics of living things.",
+     "answer": "Because it shows growth, respiration, response to stimuli, and reproduction.",
+     "_n": 1
+    },
+    {
+     "question": "Is a stone a living thing? Give a reason.",
+     "solution": "A stone does not grow, does not breathe, does not respond to stimuli, and does not reproduce.",
+     "answer": "No, because it shows none of the characteristics of living organisms.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any five characteristics shown by living organisms.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why a car, though it moves, is not a living thing.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.2",
+   "title": "Habitat and Adaptation",
+   "section": "10.2",
+   "definition": "A habitat is the natural surroundings in which an organism lives, and adaptation is the special feature or behaviour that helps an organism survive in its habitat.",
+   "formula": "",
+   "key_idea": "Organisms develop adaptations that suit the conditions of their particular habitat.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a habitat",
+    "what is adaptation",
+    "how are animals adapted to their habitat",
+    "explain why fish have streamlined bodies",
+    "give one everyday example of habitat and adaptation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the habitat",
+     "explain": "Determine the natural surroundings where the organism lives, such as water, desert, or forest."
+    },
+    {
+     "step": 2,
+     "action": "Identify the adaptation",
+     "explain": "Note the special feature or behaviour that helps the organism survive in that habitat."
+    },
+    {
+     "step": 3,
+     "action": "Link adaptation to survival",
+     "explain": "Explain how the adaptation matches the habitat conditions, confirming it helps the organism live and reproduce there."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is a fish adapted to live in water?",
+     "solution": "A fish has a streamlined body to move easily through water, gills to breathe dissolved oxygen, and fins to swim.",
+     "answer": "Its streamlined body, gills, and fins are adaptations for living in water."
+    },
+    {
+     "question": "Why do desert plants have thick, waxy stems?",
+     "solution": "Thick stems store water and the waxy coating reduces water loss in the dry desert habitat.",
+     "answer": "To store water and reduce water loss, which are adaptations to the dry desert habitat."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define habitat and adaptation with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how a camel is adapted to survive in the desert.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.3",
+   "title": "Plants and Their Parts",
+   "section": "10.3",
+   "definition": "Plants are living organisms with parts such as roots, stems, leaves, flowers, and fruits, each of which performs a specific function needed for the plant's survival.",
+   "formula": "",
+   "key_idea": "Different parts of a plant work together to carry out life processes like food-making, water transport, and reproduction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main parts of a plant",
+    "what is the function of roots in a plant",
+    "how do leaves help a plant",
+    "explain the role of the stem in a plant",
+    "give one everyday example of plants and their parts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the plant part",
+     "explain": "Name the specific part being studied, such as root, stem, leaf, flower, or fruit."
+    },
+    {
+     "step": 2,
+     "action": "State its function",
+     "explain": "Describe what that part does, for example roots absorb water, leaves make food, and the stem transports substances."
+    },
+    {
+     "step": 3,
+     "action": "Connect to the whole plant",
+     "explain": "Explain how the part helps the plant survive and grow, confirming it is essential to the plant's life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the function of leaves in a plant?",
+     "solution": "Leaves make food for the plant using sunlight, water, and carbon dioxide through photosynthesis.",
+     "answer": "Leaves prepare food for the plant by photosynthesis."
+    },
+    {
+     "question": "Why are roots important for a plant?",
+     "solution": "Roots absorb water and minerals from the soil and also anchor the plant firmly in the ground.",
+     "answer": "Roots absorb water and minerals and hold the plant in the soil."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the main parts of a plant and state one function of each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how the stem connects the roots and the leaves.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.4",
+   "title": "Animals and Their Body Parts",
+   "section": "10.4",
+   "definition": "Animals are living organisms with body parts such as head, eyes, ears, limbs, and tails, each suited to the animal's way of life and habitat.",
+   "formula": "",
+   "key_idea": "The body parts of an animal are structured to help it feed, move, breathe, and sense its surroundings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main body parts of an animal",
+    "how do eyes help an animal",
+    "explain the function of limbs in animals",
+    "why do animals have different body parts",
+    "give one everyday example of animals and their body parts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the body part",
+     "explain": "Name the specific animal body part being studied, such as eyes, ears, limbs, or tail."
+    },
+    {
+     "step": 2,
+     "action": "State its function",
+     "explain": "Describe what the part does, for example eyes help in seeing and limbs help in moving."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the animal's life",
+     "explain": "Explain how the body part helps the animal survive in its habitat, confirming its role in feeding, moving, or sensing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do the eyes of a cat help it survive?",
+     "solution": "A cat's eyes help it see in low light, which is useful for hunting at night.",
+     "answer": "The eyes help the cat see and hunt, especially in dim light."
+    },
+    {
+     "question": "Why do birds have wings?",
+     "solution": "Wings are modified limbs that help birds fly through the air, which is their way of moving and escaping danger.",
+     "answer": "Wings help birds fly, which is their main mode of movement."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three body parts of an animal and state one function of each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how the body parts of a fish are suited to life in water.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.5",
+   "title": "Movement in Animals",
+   "section": "10.5",
+   "definition": "Movement in animals is the ability to change position or move body parts, made possible by structures such as limbs, wings, fins, or muscles.",
+   "formula": "",
+   "key_idea": "Different animals move in different ways depending on their body structure and habitat.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how do animals move",
+    "what helps animals to move from one place to another",
+    "explain how a snake moves without legs",
+    "compare movement in fish and birds",
+    "give one everyday example of movement in animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the animal",
+     "explain": "Determine which animal is being studied and where it lives."
+    },
+    {
+     "step": 2,
+     "action": "Identify the movement structures",
+     "explain": "Note the body parts used for movement, such as legs, wings, fins, or muscles."
+    },
+    {
+     "step": 3,
+     "action": "Describe the type of movement",
+     "explain": "Explain how the animal moves, such as walking, flying, swimming, or crawling, confirming the movement matches its body structure."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a fish move in water?",
+     "solution": "A fish uses its fins to push water and its streamlined body to move smoothly forward.",
+     "answer": "A fish swims using its fins and streamlined body."
+    },
+    {
+     "question": "How does a snake move even though it has no legs?",
+     "solution": "A snake moves by slithering, using its long body muscles and scales to push against the ground.",
+     "answer": "A snake slithers using its muscles and body shape to move without legs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how limbs help land animals to move.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compare the way a bird and a fish move.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.6",
+   "title": "Respiration in Living Organisms",
+   "section": "10.6",
+   "definition": "Respiration is the process by which living organisms take in oxygen and release carbon dioxide while breaking down food to release energy.",
+   "formula": "",
+   "key_idea": "All living organisms respire to release energy from food, though the breathing organs may differ.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is respiration",
+    "how do living organisms breathe",
+    "explain why respiration is important for living things",
+    "how do fish breathe underwater",
+    "give one everyday example of respiration in living organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organism",
+     "explain": "Determine which living organism is being studied and where it lives."
+    },
+    {
+     "step": 2,
+     "action": "Identify the breathing organ",
+     "explain": "Note the organ used for breathing, such as lungs in humans, gills in fish, or stomata in leaves."
+    },
+    {
+     "step": 3,
+     "action": "Explain the energy release",
+     "explain": "Describe how oxygen is used to break down food and release energy, confirming respiration is essential for survival."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do fish breathe underwater?",
+     "solution": "Fish use gills to absorb dissolved oxygen from water and release carbon dioxide.",
+     "answer": "Fish breathe through gills that take in dissolved oxygen from water."
+    },
+    {
+     "question": "Why do humans breathe faster while running?",
+     "solution": "Running needs more energy, so the body uses more oxygen to release energy from food, making us breathe faster.",
+     "answer": "Because more oxygen is needed to release extra energy during exercise."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define respiration and explain why it is necessary for living things.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name the breathing organs in humans, fish, and plants.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.7",
+   "title": "Response to Stimuli",
+   "section": "10.7",
+   "definition": "Response to stimuli is the ability of living organisms to react to changes in their surroundings, such as light, heat, sound, or touch.",
+   "formula": "",
+   "key_idea": "All living organisms sense changes around them and respond in ways that help them survive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is response to stimuli",
+    "how do living things respond to their surroundings",
+    "explain why a plant grows towards light",
+    "how does a human respond to a loud sound",
+    "give one everyday example of response to stimuli"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stimulus",
+     "explain": "Determine the change in the surroundings, such as light, heat, sound, or touch, that acts on the organism."
+    },
+    {
+     "step": 2,
+     "action": "Observe the response",
+     "explain": "Note how the organism reacts to the stimulus, such as moving towards light or pulling away from heat."
+    },
+    {
+     "step": 3,
+     "action": "Explain the purpose",
+     "explain": "Describe how the response helps the organism survive, confirming that responding to stimuli is a characteristic of living things."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a plant bend towards a window where there is sunlight?",
+     "solution": "The plant responds to the stimulus of light by growing towards it so its leaves can make more food.",
+     "answer": "The plant responds to light by bending towards it to get more sunlight for food-making."
+    },
+    {
+     "question": "How does a human respond when touching a hot object?",
+     "solution": "The heat stimulus causes the hand to pull away quickly to avoid injury.",
+     "answer": "The person quickly pulls the hand away, which is a response to the heat stimulus."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define stimulus and response with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how response to stimuli helps an animal survive.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.10.8",
+   "title": "Growth and Reproduction",
+   "section": "10.8",
+   "definition": "Growth is the increase in size and number of cells in an organism, and reproduction is the process by which living organisms produce new individuals of their own kind.",
+   "formula": "",
+   "key_idea": "All living organisms grow and eventually reproduce to continue their species.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is growth in living organisms",
+    "what is reproduction",
+    "why do living organisms reproduce",
+    "explain how a seed grows into a plant",
+    "give one everyday example of growth and reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the life process",
+     "explain": "Determine whether the question is about growth (increase in size) or reproduction (producing new individuals)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the process",
+     "explain": "Explain how the organism grows, such as a seedling becoming a tree, or how it reproduces, such as a hen laying eggs."
+    },
+    {
+     "step": 3,
+     "action": "Connect to the species",
+     "explain": "Explain how growth and reproduction help the organism survive and continue its kind, confirming these are characteristics of living things."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a seed grow into a plant?",
+     "solution": "When a seed gets water, air, and warmth, it germinates and grows roots, a stem, and leaves, becoming a young plant.",
+     "answer": "The seed germinates and gradually grows into a plant with roots, stem, and leaves."
+    },
+    {
+     "question": "How do animals reproduce?",
+     "solution": "Animals reproduce by laying eggs or by giving birth to young ones, depending on the type of animal.",
+     "answer": "Animals reproduce either by laying eggs or by giving birth to young ones."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define growth and reproduction and give one example of each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why reproduction is important for the survival of a species.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu110.txt",
+   "concept": "c6cu.10.1",
+   "question_type": "short_answer",
+   "question_pattern": "How can you tell that a plant is a living organism?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A plant grows, needs food",
+     "explain": "A plant grows, needs food and water, responds to light, and reproduces, which are all characteristics of living things."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu110.txt",
+   "concept": "c6cu.10.1",
+   "question_type": "short_answer",
+   "question_pattern": "Is a stone a living thing? Give a reason.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A stone does not grow",
+     "explain": "A stone does not grow, does not breathe, does not respond to stimuli, and does not reproduce."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

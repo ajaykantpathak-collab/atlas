@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_003",
+   "title": "c12_cs_cbse_07_003",
+   "questions": [
+    {
+     "q": "What is the output of the Boolean expression (A AND B) when A = 1 and B = 0?",
+     "a": "The output is 0. AND yields 1 only when both inputs are 1; here B = 0, so the result is 0. A wrong answer of 1 reveals the student thinks AND is \"at least one is 1\" (confusing it with OR). A wrong answer of \"undefined\" or \"error\" shows the student does not treat Boolean values as strictly 0/1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between the OR operation in Boolean algebra and the everyday English word \"or\" (as in \"tea or coffee\").",
+     "a": "Boolean OR is inclusive: output is 1 if at least one input is 1 (including both being 1). Everyday \"or\" is often exclusive (choose one, not both). A student who says \"they are the same\" or \"Boolean OR means exactly one is true\" has the exclusive-OR misconception. The correct explanation must mention that 1+1=1 in Boolean OR.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the expression: NOT (A OR B) for A = 0, B = 1. Show each step.",
+     "a": "Step 1: Compute A OR B = 0 OR 1 = 1. Step 2: Apply NOT: NOT 1 = 0. Final answer: 0. A wrong answer of 1 usually comes from applying NOT to each variable first (NOT 0 OR NOT 1 = 1 OR 0 = 1), which violates precedence — NOT applies to the whole bracketed result. This exposes confusion about operator precedence and grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean expression F = (A AND B) OR (NOT A), compare its output for the two cases: (i) A=0, B=0 and (ii) A=1, B=1. Which case gives output 1 and why?",
+     "a": "Case (i): A=0, B=0 → (0 AND 0) OR (NOT 0) = 0 OR 1 = 1. Case (ii): A=1, B=1 → (1 AND 1) OR (NOT 1) = 1 OR 0 = 1. Both cases give 1. A student who says only one case gives 1 likely mis-evaluated NOT A or AND. The insight: the expression simplifies to A' + B (by absorption), so it is 1 whenever A=0 or B=1 — both cases satisfy that.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the Boolean expression for \"the alarm rings if sensor X is triggered AND sensor Y is NOT triggered\" as X · Y'. Another student writes X + Y'. Which is correct? Justify your choice.",
+     "a": "The first expression X · Y' is correct. \"AND\" maps to multiplication (·), \"NOT triggered\" maps to complement (Y'). The second uses OR (+) which would mean the alarm rings if X is triggered OR Y is not triggered — a different condition. Choosing the second reveals confusion between logical conjunction and disjunction in translating English to Boolean.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from the locker, light, or microwave examples) that requires exactly the Boolean expression (P AND Q) OR (NOT R). Define what P, Q, R represent and describe the situation in 2-3 sentences.",
+     "a": "Example: A student gets a certificate if (P: they pass the theory exam AND Q: they pass the practical exam) OR (NOT R: they are not a first-year student). Here P, Q, R are Boolean variables. A good answer clearly maps each variable to a true/false condition and uses AND, OR, NOT exactly as in the expression. A poor answer either uses the same examples from the walkthrough or creates an expression that does not match (e.g., uses AND instead of OR between the two clauses).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

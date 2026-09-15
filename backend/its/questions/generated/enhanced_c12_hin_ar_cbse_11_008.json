@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_11_008",
+   "title": "c12_hin_ar_cbse_11_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" (प्रतिबिंब) and \"metaphor\" (रूपक) in your own words. Give one example of each from daily life (not from the textbook).",
+     "a": "**Correct Answer:** Imagery is language that creates sensory experiences (e.g., \"The courtroom smelled of dust, ink, and stale sweat\" — olfactory/tactile). Metaphor is a direct comparison without \"like/as\" (e.g., \"Time is a thief\" — equating time with a thief to show it steals moments).  \n**Wrong Answer Reveals:** If a student gives a simile (\"courtroom *like* a furnace\") for metaphor, they confuse explicit comparison (उपमा) with implicit equation (रूपक). If they define imagery only as \"visual description\", they miss auditory/tactile/olfactory dimensions critical in this text (e.g., \"stamp thudding\", \"files dust\").",
+     "self_check": true
+    },
+    {
+     "q": "In the opening paragraph, the author writes: \"कचहरी के उस खोखले कुएँ में...\" (In that hollow well of the court...). Is this imagery, metaphor, or both? Explain the sensory effect and the comparison being made.",
+     "a": "**Correct Answer:** It is **both**. *Imagery*: \"खोखले कुएँ\" (hollow well) evokes visual (dark, deep cylinder), auditory (echoes), tactile (damp, cold walls), and olfactory (stagnant air) sensations. *Metaphor*: The court (tenor) is directly equated to a hollow well (vehicle) — no \"like/as\". The comparison transfers the well's qualities (entrapment, darkness, no escape, echoing futility) to the court.  \n**Wrong Answer Reveals:** If a student says \"only imagery\", they miss the argumentative function — the author isn't just painting a picture; he is *arguing* the court *is* a trap. If they say \"only metaphor\", they ignore how the sensory details make the abstraction visceral. Both errors show inability to see devices working simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"मुकदमा एक चाकू है... वह गरीब की गर्दन पर चलता है\" (Litigation is a knife... it runs on the poor's neck). Apply the metaphor analysis framework: identify tenor, vehicle, ground (shared qualities), and tension (differences).",
+     "a": "**Correct Answer:**  \n- **Tenor (subject):** Litigation / court process (मुकदमा/कचहरी).  \n- **Vehicle (image):** Knife (चाकू).  \n- **Ground (shared qualities):** Sharpness (cuts through life), lethality (can kill), intentionality (wielded by someone), irreversibility (wound stays).  \n- **Tension (differences):** A knife is physical, immediate, visible; litigation is procedural, slow, bureaucratic. The metaphor *hides* the systemic slowness to emphasize sudden fatality.  \n**Wrong Answer Reveals:** If a student swaps tenor/vehicle, they don't grasp the direction of meaning transfer. If they list only \"both hurt\" as ground, they miss the specific qualities (intentionality, irreversibility) that make this metaphor analytically powerful for the author's critique.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"hollow well\" metaphor (opening) and the \"knife\" metaphor (middle). How do their *vehicles* (well vs. knife) produce different *emotional effects* on the reader regarding the court system?",
+     "a": "**Correct Answer:** The **hollow well** evokes **entrapment, suffocation, futility, passivity** — the victim falls in, echoes unheard, no agency. The **knife** evokes **violence, agency, intentional harm, sharpness** — someone *wields* it, it *actively* cuts. Together, they show the court as both a *trap you fall into* (structural) and a *weapon used against you* (agential). The well is spatial/architectural; the knife is instrumental/relational.  \n**Wrong Answer Reveals:** If a student says \"both show court is bad\", they miss the *nuanced emotional architecture* — the shift from passive victimhood (well) to active targeting (knife) mirrors the protagonist's journey from confusion to realization. This level of comparative analysis is required for 5-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "The author could have used a simile: \"मुकदमा चाकू *की तरह* है\" (Litigation is *like* a knife). Evaluate: why does the *metaphor* (direct equation) serve his persuasive purpose better than a simile would?",
+     "a": "**Correct Answer:** A simile (\"like a knife\") creates **distance** — it says \"litigation shares *some* qualities with a knife\". A metaphor (\"is a knife\") creates **identity** — it says \"litigation *is* a knife in the relevant aspects\". For the author's polemical purpose (exposing systemic violence), identity is necessary: he wants the reader to *feel* the blade, not observe a similarity. The metaphor eliminates the \"as if\" buffer, forcing complicity. In board marking, this distinction between \"comparison\" (उपमा) and \"equation\" (रूपक) is explicitly tested in \"explain the effectiveness\" questions.  \n**Wrong Answer Reveals:** If a student says \"simile is weaker\" without explaining *why* (distance vs. identity, buffer vs. immediacy), they are repeating a rule without understanding the rhetorical mechanics. Competitive exams (CUET, IPMAT) often ask: \"Why metaphor not simile?\" — requiring this precise reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line paragraph describing a government office you visited, using **at least two sensory images** (different senses) and **one original metaphor** (not from the text) to convey its atmosphere. Do not name the office directly.",
+     "a": "**Criteria for Good Answer:**  \n- Two distinct senses (e.g., \"ceiling fan groaned\" [auditory], \"forms smelled of dried glue\" [olfactory]).  \n- One original metaphor with clear tenor/vehicle (e.g., \"The queue was a python digesting us slowly\").  \n- Atmosphere conveyed implicitly (not \"it was corrupt/slow\").  \n**Poor Answer Reveals:** Using cliché metaphors (\"sea of people\"), only visual imagery, or explaining the metaphor (\"the queue was like a snake because it moved slowly\"). This shows inability to *craft* devices — a skill tested in creative writing sections (Section C, 10 marks).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

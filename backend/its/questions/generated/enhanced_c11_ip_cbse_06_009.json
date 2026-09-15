@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_009",
+   "title": "c11_ip_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the `newline=''` parameter when opening a CSV file in Python using the `open()` function?",
+     "a": "The `newline=''` parameter tells Python not to perform universal newline translation, allowing the `csv` module to handle line endings correctly across platforms (Windows uses `\\r\\n`, Linux/macOS use `\\n`). Without it, on Windows, `csv.reader` may see empty lines between rows because `\\r` is not stripped. A wrong answer (e.g., \"it creates a new line\" or \"it skips the header\") reveals the student confuses file opening modes with CSV parsing logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `data = open('students.csv').read().split('\\n')` and then splits each line by comma. Explain why this approach fails for a CSV file containing a row like `101,\"Gupta, Anjali\",95,88`.",
+     "a": "The manual split by comma will incorrectly split `\"Gupta, Anjali\"` into two fields because it doesn't respect quoted fields. The `csv.reader` parses quoted strings as single fields, handling embedded commas, quotes, and newlines. A wrong answer (e.g., \"it works fine\" or \"use split(', ')\") shows the student doesn't understand CSV quoting rules and thinks CSV is just comma-separated without escape mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Write the exact Python code to open `data.csv` for reading using the `csv` module so that it correctly handles Windows line endings and returns each row as a list of strings.",
+     "a": "```python\nimport csv\nwith open('data.csv', 'r', newline='') as f:\n    reader = csv.reader(f)\n    for row in reader:\n        print(row)\n```\nSteps: 1) Import csv. 2) Open with `'r'` mode and `newline=''`. 3) Create `csv.reader(f)`. 4) Iterate. A wrong answer missing `newline=''` or using `read().split()` shows inability to apply correct file handling for CSV.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `csv.reader` and `csv.DictReader` in terms of output structure and usability when the CSV has a header row. Which would you choose for a file with 50 columns where you only need 'Name' and 'Email'?",
+     "a": "`csv.reader` returns each row as a list (index-based access), while `csv.DictReader` returns an `OrderedDict` (or dict) with header names as keys. For 50 columns needing only two fields, `DictReader` is better: `row['Name']` and `row['Email']` are readable and maintainable; with `reader` you'd need to know column indices (e.g., `row[2]`, `row[45]`), which breaks if columns are reordered. A wrong answer choosing `reader` for convenience shows lack of understanding of data accessibility vs. position dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A CSV file uses semicolon (`;`) as delimiter because data contains commas. Evaluate the following code: `csv.reader(open('data.csv'), delimiter=';')`. Is it correct? If not, fix it and justify.",
+     "a": "The code is incorrect because it misses `newline=''` in `open()`, risking line-ending issues on Windows. Correct: `csv.reader(open('data.csv', 'r', newline=''), delimiter=';')`. Also, `open()` should be in a `with` block for resource safety. A student who only adds `delimiter=';'` but omits `newline=''` shows partial understanding — they know about delimiters but not platform-independent file handling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal CSV file (show 3 rows including header) that would break a naive `line.split(',')` parser but is correctly handled by `csv.reader`. Explain the breaking feature.",
+     "a": "Example CSV:\n```\nName,Address,Age\n\"Sharma, Ravi\",\"12, Park Street, Delhi\",25\n\"Gupta, Neha\",\"Flat 3B, \\\"Rose\\\" Apartment\",30\n```\nBreaking features: 1) Comma inside quoted field (`\"Sharma, Ravi\"`), 2) Quoted field with escaped quotes (`\\\"Rose\\\"`), 3) Comma inside address. `csv.reader` parses correctly; `split(',')` produces 4+ fields per row. A poor answer without quotes or escaped quotes shows the student doesn't know CSV quoting/escaping rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

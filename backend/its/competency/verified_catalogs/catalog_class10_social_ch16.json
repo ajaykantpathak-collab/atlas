@@ -1,0 +1,516 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 16,
+ "chapter_title": "Political Parties",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess404.txt",
+ "concepts": [
+  {
+   "id": "c10ss.16.1",
+   "title": "Meaning and Functions of Political Parties",
+   "section": "Why Do We Need Political Parties?",
+   "definition": "A political party is a group of people who come together to contest elections and hold power in the government. They agree on some policies and programmes for society with a view to promoting the collective good.",
+   "formula": "",
+   "key_idea": "Political parties perform essential functions in a democracy: contesting elections, forming policies, forming and running governments, and linking citizens to the government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a political party?",
+    "What are the main functions of political parties in a democracy?",
+    "How do political parties form governments?",
+    "Explain the role of parties in shaping public opinion.",
+    "Why are political parties considered essential for democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a political party and its components.",
+     "explain": "A political party has three components: leaders, active members, and followers, united by common policies and programmes."
+    },
+    {
+     "step": 2,
+     "action": "List the key functions of political parties.",
+     "explain": "Functions include contesting elections, forming policies and programmes, forming and running governments, playing the role of opposition, shaping public opinion, and providing access to government machinery."
+    },
+    {
+     "step": 3,
+     "action": "Explain why parties are essential for representative democracy.",
+     "explain": "Without parties, candidates would stand as independents, making it difficult to form stable governments and coherent policy agendas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention any three functions of political parties.",
+     "solution": "Three functions are: (1) contesting elections, (2) forming and running governments, and (3) shaping public opinion by raising and highlighting issues.",
+     "answer": "Contesting elections, forming governments, and shaping public opinion."
+    },
+    {
+     "question": "Why are political parties necessary for democracy?",
+     "solution": "Parties provide organised platforms for competing policies, enable stable government formation, and link citizens to the state by aggregating and representing public interests.",
+     "answer": "Parties organise competition, form governments, and link citizens to the state."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and functions of political parties.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why can democracy not exist without political parties?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.2",
+   "title": "Party Systems: One-Party, Two-Party, and Multi-Party",
+   "section": "How Many Parties Should We Have?",
+   "definition": "A party system refers to the number and relative strength of political parties in a country. The main types are the one-party system, the two-party system, and the multi-party system.",
+   "formula": "",
+   "key_idea": "The number of parties in a country depends on its social and regional diversity; no single system is ideal for all democracies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different types of party systems?",
+    "Explain the one-party system with an example.",
+    "What is a two-party system? Give an example.",
+    "Why does India have a multi-party system?",
+    "Compare the advantages and disadvantages of multi-party systems."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define each party system.",
+     "explain": "One-party: only one party is allowed; two-party: two major parties dominate; multi-party: several parties compete for power, often forming coalitions."
+    },
+    {
+     "step": 2,
+     "action": "Provide examples of each system.",
+     "explain": "China is an example of a one-party system; the USA and UK are examples of two-party systems; India and Italy are examples of multi-party systems."
+    },
+    {
+     "step": 3,
+     "action": "Explain why India has a multi-party system.",
+     "explain": "India's vast social and regional diversity cannot be represented by only two parties, so a multi-party system evolved to accommodate diverse interests."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does India have a multi-party system?",
+     "solution": "India has immense social and geographical diversity -- linguistic, religious, caste, and regional differences -- which cannot be represented by only two parties. A multi-party system allows diverse groups to have political representation.",
+     "answer": "India's diversity necessitates a multi-party system."
+    },
+    {
+     "question": "Give one example each of a two-party and a multi-party system.",
+     "solution": "The United States has a two-party system (Democrats and Republicans), while India has a multi-party system with national and regional parties competing.",
+     "answer": "USA: two-party; India: multi-party."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare one-party, two-party, and multi-party systems.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the one-party system not considered democratic?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.3",
+   "title": "National and Regional Parties in India",
+   "section": "National Parties",
+   "definition": "National parties have presence in several states and are recognised by the Election Commission based on vote share and seats across the country. Regional parties (or state parties) have their base limited to a particular state or region.",
+   "formula": "",
+   "key_idea": "National parties address broad national issues while regional parties represent regional identities and interests; both are essential in India's federal democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between national and regional parties?",
+    "What are the criteria for recognition as a national party?",
+    "Name three national parties in India.",
+    "How do regional parties contribute to Indian federalism?",
+    "Explain the role of regional parties in coalition governments."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define national and regional parties.",
+     "explain": "National parties operate across multiple states and meet Election Commission criteria; regional parties are confined to a state or region."
+    },
+    {
+     "step": 2,
+     "action": "State the criteria for recognition.",
+     "explain": "A party is recognised as national if it secures at least 6 percent of votes in four or more states in the last Lok Sabha or Assembly elections and wins at least four seats, among other criteria."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of regional parties in coalition politics.",
+     "explain": "Regional parties often hold the balance of power in coalition governments and ensure that regional interests are represented at the national level."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the criterion for a party to be recognised as a national party?",
+     "solution": "A party must secure at least 6 percent of the total votes in Lok Sabha or Assembly elections in four or more states, and win at least four seats in the Lok Sabha, to be recognised as a national party.",
+     "answer": "6 percent votes in four states plus four Lok Sabha seats."
+    },
+    {
+     "question": "Name two national and two regional parties in India.",
+     "solution": "National parties: Indian National Congress (INC) and Bharatiya Janata Party (BJP). Regional parties: All India Trinamool Congress (AITC) and Biju Janata Dal (BJD).",
+     "answer": "National: INC, BJP; Regional: AITC, BJD."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between national and regional parties with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do regional parties strengthen Indian federalism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.4",
+   "title": "Challenges to Political Parties",
+   "section": "Challenges to Political Parties",
+   "definition": "Political parties face several challenges in India: lack of internal democracy, dynastic succession, growing role of money and muscle power, and lack of meaningful choice for voters due to ideological convergence.",
+   "formula": "",
+   "key_idea": "The four major challenges -- lack of internal democracy, dynastic succession, money and muscle power, and absence of meaningful choice -- undermine the credibility and effectiveness of parties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major challenges faced by political parties in India?",
+    "What is meant by lack of internal democracy in political parties?",
+    "Explain the problem of dynastic succession in parties.",
+    "How does money and muscle power affect elections?",
+    "Why do voters feel there is no meaningful choice between parties?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four major challenges.",
+     "explain": "The challenges are: lack of internal democracy, dynastic succession, growing role of money and muscle power, and lack of meaningful choice for voters."
+    },
+    {
+     "step": 2,
+     "action": "Explain each challenge with examples.",
+     "explain": "Lack of internal democracy means ordinary members have no voice; dynastic succession means leaders are chosen by family ties; money and muscle power influence candidate selection; and parties converge ideologically, reducing choice."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact of these challenges on democracy.",
+     "explain": "These challenges reduce public trust in parties, weaken accountability, and can distort the democratic process."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by lack of internal democracy in political parties?",
+     "solution": "Lack of internal democracy means that power is concentrated in the hands of a few leaders, ordinary members have no information about party decisions, and there are no regular elections within the party.",
+     "answer": "Concentration of power and absence of internal elections."
+    },
+    {
+     "question": "How does money and muscle power affect the democratic process?",
+     "solution": "Parties tend to nominate candidates who can raise funds or use force, especially in areas where voters are poor or marginalised. This distorts fair competition and can criminalise politics.",
+     "answer": "It distorts competition and can lead to criminalisation of politics."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the major challenges faced by political parties in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is dynastic succession in political parties? Why is it a problem?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.5",
+   "title": "Party Reforms in India",
+   "section": "How Can Parties Be Reformed?",
+   "definition": "Party reforms are measures to make political parties more democratic, transparent, and accountable. They include constitutional and legal changes, internal party regulations, and citizen-led efforts.",
+   "formula": "",
+   "key_idea": "Reforms can be brought about through constitutional amendments, anti-defection laws, mandatory disclosure of assets, and public pressure, but require political will to be effective.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What measures have been suggested for reforming political parties?",
+    "Explain the Supreme Court's role in party reform.",
+    "How can citizens contribute to party reform?",
+    "What is the anti-defection law and how does it reform parties?",
+    "Why have party reforms been difficult to implement?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the suggested reform measures.",
+     "explain": "Measures include mandatory internal elections, state funding of elections, disclosure of candidate assets and criminal records, and reservation of tickets for women."
+    },
+    {
+     "step": 2,
+     "action": "Explain legal and constitutional reforms already implemented.",
+     "explain": "The anti-defection law, mandatory disclosure of assets by candidates, and Election Commission regulations on party registration and symbols are examples of implemented reforms."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of citizens and civil society in reform.",
+     "explain": "Citizens can demand reform through media, public interest litigation, and participation in party activities, putting pressure on parties to become more transparent."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention two suggestions for reforming political parties.",
+     "solution": "Two suggestions are: (1) make it mandatory for parties to hold internal elections, and (2) provide state funding of elections to reduce the role of money power.",
+     "answer": "Mandatory internal elections and state funding of elections."
+    },
+    {
+     "question": "How has the Supreme Court contributed to party reform?",
+     "solution": "The Supreme Court has made it mandatory for candidates to declare their assets and criminal records, and has directed parties to hold internal elections and submit income tax returns.",
+     "answer": "The Court mandated asset disclosure and internal party elections."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the measures suggested for reforming political parties in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How can ordinary citizens contribute to party reform?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.6",
+   "title": "Role of the Opposition in Democracy",
+   "section": "Functions of Political Parties",
+   "definition": "The opposition consists of parties that are not part of the government. Its role is to criticise government policies, mobilise opposition, highlight failures, and provide alternative policies to the ruling party.",
+   "formula": "",
+   "key_idea": "A strong opposition is essential for accountability; it ensures that the government is responsive and that citizens have an alternative choice.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the role of the opposition in a democracy?",
+    "How does the opposition ensure government accountability?",
+    "Why is a strong opposition necessary for democracy?",
+    "What functions does the opposition perform in the legislature?",
+    "How does the opposition provide alternative policies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the opposition and its composition.",
+     "explain": "The opposition is made up of parties that lost the election or chose not to join the ruling coalition."
+    },
+    {
+     "step": 2,
+     "action": "List the functions of the opposition.",
+     "explain": "Functions include criticising government policies, raising issues in the legislature, mobilising public opinion, and offering alternative policies and programmes."
+    },
+    {
+     "step": 3,
+     "action": "Explain why opposition is essential for democracy.",
+     "explain": "Without a credible opposition, the government cannot be held accountable, and voters lack a viable alternative, weakening democratic competition."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention three functions of the opposition in a democracy.",
+     "solution": "Three functions are: (1) criticising government policies, (2) raising and highlighting issues in the legislature, and (3) providing alternative policies to the ruling party.",
+     "answer": "Criticising policies, raising issues, and offering alternatives."
+    },
+    {
+     "question": "Why is a strong opposition considered essential for democracy?",
+     "solution": "A strong opposition holds the government accountable, prevents authoritarian tendencies, and gives voters a real choice, which is fundamental to democratic competition.",
+     "answer": "It ensures accountability and provides voters with alternatives."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and importance of the opposition in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the opposition contribute to government accountability?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.7",
+   "title": "Anti-Defection Law",
+   "section": "Party Reforms",
+   "definition": "The anti-defection law, passed in 1985, prevents elected members of a legislature from changing their party allegiance after election. If a member defects, they can lose their seat in the legislature.",
+   "formula": "",
+   "key_idea": "The anti-defection law was introduced to curb political horse-trading and ensure stability of governments by preventing legislators from switching parties for personal gain.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the anti-defection law?",
+    "Why was the anti-defection law enacted?",
+    "Under what conditions can a legislator be disqualified under the anti-defection law?",
+    "How does the anti-defection law affect party discipline?",
+    "What are the criticisms of the anti-defection law?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define defection and the purpose of the law.",
+     "explain": "Defection is changing party allegiance after being elected. The law aims to prevent this to maintain government stability and party discipline."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conditions for disqualification.",
+     "explain": "A member can be disqualified if they voluntarily give up membership of their party, vote against the party's direction without permission, or join another party after election."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact and criticisms of the law.",
+     "explain": "The law has reduced horse-trading but is criticised for reducing the independence of legislators and strengthening party control over elected representatives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the anti-defection law? When was it enacted?",
+     "solution": "The anti-defection law was enacted in 1985 through the 52nd Constitutional Amendment. It disqualifies legislators who change their party or vote against the party whip without permission.",
+     "answer": "Enacted in 1985, it prevents legislators from defecting from their party."
+    },
+    {
+     "question": "Under what conditions can a legislator be disqualified under the anti-defection law?",
+     "solution": "A legislator can be disqualified if they voluntarily give up membership of their political party, vote or abstain from voting contrary to the party whip, or join another party after being elected.",
+     "answer": "Voluntary resignation, voting against the whip, or joining another party."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the anti-defection law and its significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the main criticisms of the anti-defection law?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.8",
+   "title": "Party Manifestos and Electoral Promises",
+   "section": "Functions of Political Parties",
+   "definition": "A party manifesto is a document issued by a political party before elections that outlines its policies, programmes, and promises to voters if elected to power. It serves as a basis for voters to choose between parties.",
+   "formula": "",
+   "key_idea": "Manifestos provide voters with information about a party's priorities and serve as a benchmark for holding the party accountable after it comes to power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a party manifesto?",
+    "Why are manifestos important for voters?",
+    "How do manifestos help in holding parties accountable?",
+    "What is the difference between a manifesto and an election symbol?",
+    "How do parties use manifestos to mobilise voters?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a party manifesto.",
+     "explain": "A manifesto is a formal document listing a party's policies, programmes, and promises that it commits to implement if elected."
+    },
+    {
+     "step": 2,
+     "action": "Explain the purpose of manifestos for voters.",
+     "explain": "Manifestos help voters understand what each party stands for, compare alternatives, and make an informed choice on election day."
+    },
+    {
+     "step": 3,
+     "action": "Explain how manifestos enable accountability.",
+     "explain": "After elections, citizens and the opposition can compare the government's actions with its manifesto promises, holding the party accountable for unfulfilled commitments."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a party manifesto and why is it important?",
+     "solution": "A party manifesto is a document that outlines a party's policies and promises before elections. It is important because it helps voters make an informed choice and provides a benchmark to hold the party accountable after it comes to power.",
+     "answer": "A manifesto is a party's policy document that guides voter choice and accountability."
+    },
+    {
+     "question": "How do manifestos help in holding parties accountable?",
+     "solution": "Manifestos list specific promises. After the party comes to power, citizens, media, and the opposition can compare actual performance with these promises, exposing unfulfilled commitments.",
+     "answer": "Manifestos serve as benchmarks for comparing performance with promises."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of party manifestos in elections.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do manifestos differ from election symbols in function?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.16.9",
+   "title": "Coalition Governments and Alliance Politics",
+   "section": "Party Systems",
+   "definition": "A coalition government is formed when no single party wins a majority and two or more parties join together to form a government. Alliance politics refers to the pre-poll or post-poll partnerships among parties to contest or form governments.",
+   "formula": "",
+   "key_idea": "Coalition governments reflect the diversity of Indian society and ensure regional representation, but they can also lead to instability and compromise on policy clarity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a coalition government?",
+    "Why have coalition governments become common in India?",
+    "What are the advantages of coalition governments?",
+    "What are the disadvantages of coalition governments?",
+    "How do pre-poll and post-poll alliances differ?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define coalition government and alliance politics.",
+     "explain": "A coalition government is formed by multiple parties sharing power; alliances can be formed before or after elections."
+    },
+    {
+     "step": 2,
+     "action": "Explain why coalitions are common in India.",
+     "explain": "Since no single party often wins a majority in the multi-party system, parties form coalitions to reach the majority needed to form a government."
+    },
+    {
+     "step": 3,
+     "action": "Assess the advantages and disadvantages of coalitions.",
+     "explain": "Advantages include representation of diverse and regional interests; disadvantages include policy compromise, instability, and difficulty in maintaining unity among partners."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why have coalition governments become common in India?",
+     "solution": "India's multi-party system and federal diversity mean that no single party often secures a majority. Parties therefore form coalitions to reach the majority threshold and form a stable government.",
+     "answer": "No single party often wins a majority, necessitating coalitions."
+    },
+    {
+     "question": "Mention one advantage and one disadvantage of coalition governments.",
+     "solution": "An advantage is that coalition governments represent diverse regional and social interests. A disadvantage is that they can be unstable due to disagreements among coalition partners.",
+     "answer": "Advantage: diversity of representation; disadvantage: potential instability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the advantages and disadvantages of coalition governments.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between pre-poll and post-poll alliances.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

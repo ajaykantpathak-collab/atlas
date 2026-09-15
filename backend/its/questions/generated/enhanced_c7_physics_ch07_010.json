@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_010",
+   "title": "c7_physics_ch07_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of using an indicator when testing household substances?",
+     "a": "The primary purpose is to visibly show whether a substance is acidic, basic, or neutral through a distinct color change. A wrong answer often reveals the misconception that indicators change the temperature or physical state of the substance instead of acting as chemical probes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does blue litmus paper turn red when dipped into a sample of tamarind juice?",
+     "a": "Tamarind juice contains natural acids, and acids cause blue litmus paper to turn red due to a chemical reaction with the indicator dye. A wrong answer suggests the student thinks color changes happen randomly or believes tamarind juice is a strong base.",
+     "self_check": true
+    },
+    {
+     "q": "If 15 mL of a yellow turmeric indicator solution turns reddish-brown when mixed with 10 mL of an unknown cleaning solution, what can you conclude about the cleaning solution's chemical nature?",
+     "a": "The steps are: 1) Identify the initial indicator color (yellow in neutral/acid). 2) Identify the final observed color (reddish-brown). 3) Recall that turmeric turns reddish-brown in basic mediums. 4) Conclude that the cleaning solution is basic. A wrong answer reveals confusion regarding indicator color charts, often mixing up acid and base reactions with turmeric.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reaction of China rose indicator with a mild acid (like lemon juice) versus a mild base (like soap solution). How do the resulting colors differ?",
+     "a": "China rose indicator turns dark pink (magenta) in acidic solutions and green in basic solutions. A wrong answer indicates that the student assumes all indicators show the exact same color in acids and bases.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that distilled water will turn red litmus paper blue because all water from the tap or bottle is basic. Is this reasoning scientifically sound? Evaluate the claim.",
+     "a": "The claim is false because pure distilled water is neutral and will not change the color of either red or blue litmus paper. A wrong answer shows a misunderstanding of neutrality, confusing pure water with mineral-rich or alkaline treated waters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using turmeric powder and detergent to prove that substances can act as indicators. Describe what you would do and observe.",
+     "a": "A good response describes mixing turmeric powder with water to make a yellow solution, applying it to paper or cloth, and observing it turn red when washing powder (a base) is added. A poor answer fails to specify the materials or lacks an observable conclusion regarding color change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

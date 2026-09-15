@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_003",
+   "title": "c11_ps_cbse_14_003",
+   "questions": [
+    {
+     "q": "What is the maximum sanctioned strength of the Lok Sabha as per Article 81, and how is this number distributed between states and union territories?",
+     "a": "Maximum strength is 550: up to 530 members elected from states and up to 20 from union territories. Currently 543 seats (530 states + 13 UTs) after delimitation freeze. A wrong answer (e.g., \"545\" or \"includes nominated members\") reveals confusion with pre-2020 Anglo-Indian nomination provision or mixing total membership with elected strength.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide for direct election of Lok Sabha members but indirect election for Rajya Sabha members? What democratic principle does this distinction embody?",
+     "a": "Direct election embodies popular sovereignty — the house representing \"people\" (Lok Sabha) must derive authority directly from citizens via universal adult franchise (Article 326). Indirect election for Rajya Sabha embodies federalism — it represents \"states\" as units, so state legislatures elect members. A wrong answer (e.g., \"direct election is cheaper/faster\") misses the constitutional theory: Lok Sabha = people's house (democratic legitimacy), Rajya Sabha = council of states (federal balance).",
+     "self_check": true
+    },
+    {
+     "q": "A no-confidence motion against the Council of Ministers is admitted in the Lok Sabha. The government survives the vote. Six months later, the opposition wants to move another no-confidence motion. Is this constitutionally permissible? Explain the rule.",
+     "a": "Yes, permissible. Rule 198 of Lok Sabha Rules requires a gap of six months between no-confidence motions. The Constitution (Article 75(3)) only mandates collective responsibility; procedural details are in House rules. A wrong answer (\"no, can't move again\" or \"need one year gap\") reveals confusion between constitutional provision and parliamentary procedure, or mixing with Rajya Sabha's lack of no-confidence power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Lok Sabha's term under normal circumstances vs. during a Proclamation of Emergency under Article 352. What is the maximum extension possible, and what constitutional check exists?",
+     "a": "Normal term: 5 years from first meeting (Article 83(2)). During Emergency: Parliament may extend by law up to one year at a time, but not beyond six months after Emergency ceases. The check: extension requires parliamentary law (not executive fiat) and lapses six months post-Emergency. A wrong answer (\"term becomes infinite\" or \"President extends by order\") confuses legislative vs executive power and misses the six-month sunset clause.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Lok Sabha's control over the executive is more effective than the Rajya Sabha's because it alone can pass a vote of no-confidence.\" Is this the only reason? What other structural features reinforce this asymmetry?",
+     "a": "No-confidence is the sharpest tool, but not the only reason. Structural reinforcements: (1) Money bills originate only in Lok Sabha (Article 109), giving it purse control; (2) Council of Ministers is collectively responsible ONLY to Lok Sabha (Article 75(3)); (3) In joint sittings, Lok Sabha's larger numbers prevail (Article 108); (4) Lok Sabha can reject Rajya Sabha amendments to money bills. A weak answer lists only no-confidence, missing the constitutional architecture of financial and legislative supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal to increase Lok Sabha strength to 800 seats to reflect 2021 population (post-delimitation freeze expiry). Identify which articles must be amended, which federal principle is affected, and what political consensus would be required.",
+     "a": "Must amend Article 81(1) (max strength), Article 82 (readjustment after census), and potentially Article 331 (Anglo-Indian nomination, though discontinued). Federal principle: inter-se distribution of seats among states (Article 81(2)(a)) — changing total alters state quotas, requiring broad consensus via Article 368 special majority + ratification by half the states (since it affects state representation). A poor proposal ignores the state-ratification requirement or misses that delimitation freeze (Article 82) was extended to 2026 by 84th Amendment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

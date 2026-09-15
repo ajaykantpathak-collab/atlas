@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_003",
+   "title": "c10_math_cbse_13_003",
+   "questions": [
+    {
+     "q": "State the formula for the mean of grouped data using the step-deviation method. Define every symbol used in the formula.",
+     "a": "The formula is x̄ = a + h(Σfᵢuᵢ / Σfᵢ), where:\n- x̄ = mean of grouped data\n- a = assumed mean (a chosen class mark, typically the one with maximum frequency)\n- h = class size (width of each class interval, must be equal for all classes)\n- fᵢ = frequency of the i-th class\n- xᵢ = class mark (mid-point) of the i-th class\n- uᵢ = step-deviation = (xᵢ - a)/h\n\nA wrong answer (e.g., forgetting 'h' outside the fraction, or writing uᵢ = xᵢ - a) reveals the student has memorised the formula without understanding its derivation from the assumed mean method. They likely confuse step-deviation with assumed mean method and will make errors when h ≠ 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the step-deviation method gives the same result as the direct method, even though we divide deviations by h and later multiply by h. What property of the mean makes this valid?",
+     "a": "The step-deviation method is algebraically equivalent to the direct method because dividing each deviation by h and then multiplying the final sum by h is a linear transformation that preserves the mean. Specifically, Σfᵢ(xᵢ - a) = h Σfᵢuᵢ, so when we compute a + h(Σfᵢuᵢ/Σfᵢ), we get a + Σfᵢ(xᵢ - a)/Σfᵢ = Σfᵢxᵢ/Σfᵢ, which is exactly the direct method formula. The mean is invariant under linear shifts and scaling of the origin.\n\nA wrong answer (e.g., \"because we multiply and divide by the same number so it cancels\") reveals a superficial understanding — the student sees cancellation but doesn't grasp that the mean's linearity under translation and scaling is the deeper reason. Such students will struggle when asked to justify the method in a competency question.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mean of the following distribution using the step-deviation method:\n\n| Class Interval | Frequency |\n|----------------|-----------|\n| 0-10           | 5         |\n| 10-20          | 8         |\n| 20-30          | 12        |\n| 30-40          | 15        |\n| 40-50          | 10        |\n\nChoose an appropriate assumed mean and show all steps.",
+     "a": "**Solution:**\nStep 1: Find class marks xᵢ and choose assumed mean a.\nClass marks: 5, 15, 25, 35, 45. Maximum frequency is 15 (class 30-40), so choose a = 35.\nClass size h = 10.\n\nStep 2: Compute uᵢ = (xᵢ - a)/h for each class.\nxᵢ = 5: u = (5 - 35)/10 = -3\nxᵢ = 15: u = (15 - 35)/10 = -2\nxᵢ = 25: u = (25 - 35)/10 = -1\nxᵢ = 35: u = (35 - 35)/10 = 0\nxᵢ = 45: u = (45 - 35)/10 = 1\n\nStep 3: Construct table with fᵢuᵢ.\n| xᵢ | fᵢ | uᵢ | fᵢuᵢ |\n|----|----|----|------|\n| 5  | 5  | -3 | -15  |\n| 15 | 8  | -2 | -16  |\n| 25 | 12 | -1 | -12  |\n| 35 | 15 | 0  | 0    |\n| 45 | 10 | 1  | 10   |\nΣfᵢ = 50, Σfᵢuᵢ = -33\n\nStep 4: Apply formula x̄ = a + h(Σfᵢuᵢ/Σfᵢ) = 35 + 10(-33/50) = 35 - 6.6 = 28.4\n\nAnswer: Mean = 28.4\n\nA wrong answer (e.g., using a = 25, getting uᵢ wrong signs, or forgetting to multiply by h) reveals computational carelessness or confusion about the direction of deviations. Students often mess up negative signs or choose a non-central assumed mean, leading to larger uᵢ values and arithmetic errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the mean of a grouped data set using the step-deviation method and gets 42.3. They then realise they used h = 5 instead of the correct h = 10. Without redoing the entire calculation, can you determine the correct mean? Explain your reasoning.",
+     "a": "Yes. The student computed x̄_wrong = a + 5(Σfᵢuᵢ/Σfᵢ) = 42.3, where uᵢ = (xᵢ - a)/5.\nThe correct step-deviations should be uᵢ' = (xᵢ - a)/10 = uᵢ/2.\nSo Σfᵢuᵢ' = Σfᵢ(uᵢ/2) = (1/2)Σfᵢuᵢ.\nCorrect mean = a + 10(Σfᵢuᵢ'/Σfᵢ) = a + 10((1/2)Σfᵢuᵢ/Σfᵢ) = a + 5(Σfᵢuᵢ/Σfᵢ) = x̄_wrong = 42.3.\nThe mean remains unchanged because the error in h was exactly compensated by the error in uᵢ definition — the product h·uᵢ = xᵢ - a is invariant.\n\nA wrong answer (e.g., \"the mean will double\" or \"we cannot know without the original data\") reveals the student treats the formula as a black box without understanding that uᵢ depends on h. They miss the invariance property: h·uᵢ = xᵢ - a, so the product is independent of the chosen h as long as uᵢ is defined consistently.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following solution. A student was asked to find the mean of this data using the step-deviation method:\n\n| Class | Frequency |\n|-------|-----------|\n| 10-20 | 6         |\n| 20-30 | 9         |\n| 30-40 | 14        |\n| 40-50 | 11        |\n\nTheir working:\n\"a = 25, h = 10. uᵢ = (xᵢ - 25)/10.\nx=15: u=-1, fu=-6\nx=25: u=0, fu=0\nx=35: u=1, fu=14\nx=45: u=2, fu=22\nΣf=40, Σfu=30\nMean = 25 + 10(30/40) = 25 + 7.5 = 32.5\"\n\nIs this correct? If not, identify the error and give the correct mean.",
+     "a": "The solution is **incorrect**. The error is in the step-deviation for the first class: x = 15, u = (15 - 25)/10 = -1 is correct, but f = 6, so fu = 6 × (-1) = -6 (this part is correct). However, the student missed that Σfu = (-6) + 0 + 14 + 22 = 30 is correct. Wait — let me recalculate: -6 + 0 + 14 + 22 = 30. That's correct. Mean = 25 + 10(30/40) = 25 + 7.5 = 32.5.\n\nActually, let me verify with direct method:\nxᵢ: 15, 25, 35, 45\nfᵢ: 6, 9, 14, 11\nΣfᵢxᵢ = 90 + 225 + 490 + 495 = 1300\nΣfᵢ = 40\nMean = 1300/40 = 32.5\n\nThe student's answer IS correct. The evaluation should confirm correctness.\n\nA wrong evaluation (claiming an error where none exists) reveals the student is hunting for errors without verifying properly. They might incorrectly think u = -1 for x=15 is wrong (it's not) or miscalculate Σfu. This shows lack of confidence in the method's algebraic equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 classes, equal class width, and integer frequencies such that when the step-deviation method is applied with an appropriately chosen assumed mean, all step-deviations uᵢ are integers between -2 and 2, and the mean is exactly 50. Provide the full table and show the step-deviation calculation.",
+     "a": "One possible solution:\nChoose a = 50 (assumed mean), h = 10.\nClass marks: 30, 40, 50, 60, 70 → uᵢ: -2, -1, 0, 1, 2\nChoose frequencies: f₁=3, f₂=5, f₃=10, f₄=5, f₅=3 (symmetric around a)\nClasses: 25-35, 35-45, 45-55, 55-65, 65-75\n\n| Class   | fᵢ | xᵢ | uᵢ | fᵢuᵢ |\n|---------|----|----|----|------|\n| 25-35   | 3  | 30 | -2 | -6   |\n| 35-45   | 5  | 40 | -1 | -5   |\n| 45-55   | 10 | 50 | 0  | 0    |\n| 55-65   | 5  | 60 | 1  | 5    |\n| 65-75   | 3  | 70 | 2  | 6    |\nΣfᵢ = 26, Σfᵢuᵢ = 0\nMean = 50 + 10(0/26) = 50 ✓\n\nA poor answer (e.g., unequal class widths, non-integer uᵢ, mean ≠ 50) reveals the student doesn't understand how to reverse-engineer the method. They may not grasp that uᵢ integers require (xᵢ - a) to be multiples of h, or that Σfᵢuᵢ = 0 gives mean = a. This tests deep structural understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

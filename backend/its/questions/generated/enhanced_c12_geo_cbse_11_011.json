@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_011",
+   "title": "c12_geo_cbse_11_011",
+   "questions": [
+    {
+     "q": "Name the three components of the \"package technology\" introduced during the Green Revolution in India and state the basic pre-condition for its success.",
+     "a": "The three components are: (1) High-Yielding Variety (HYV) seeds of wheat and rice, (2) Chemical fertilizers (NPK), and (3) Assured irrigation. The basic pre-condition is assured supply of soil moisture through irrigation. A wrong answer (e.g., listing \"pesticides\" instead of irrigation or missing irrigation) reveals the student views Green Revolution as seed-centric rather than a water-seed-fertilizer system, missing the NCERT emphasis on irrigation as the gatekeeper.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Green Revolution initially widened regional disparities in Indian agriculture, and name the planning approach launched in 1988 to address this imbalance.",
+     "a": "Green Revolution required assured irrigation, so it spread only in well-irrigated regions (Punjab, Haryana, Western UP, coastal Andhra, Tamil Nadu), leaving rainfed areas (central India, Deccan plateau) behind. The 1988 approach was agro-climatic planning, which divided India into 15 agro-climatic zones for regionally balanced development. A wrong answer attributing disparity solely to \"government neglect\" or naming \"watershed management\" instead of agro-climatic planning shows confusion between a later program and the 1988 structural shift.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Karnataka's dryland region wants to adopt sustainable agriculture. Using the NMSA framework, list four specific interventions he can access and the scheme names that fund them.",
+     "a": "Under NMSA, the farmer can access: (1) Soil health cards and organic inputs via Paramparagat Krishi Vikas Yojana (PKVY), (2) Rainwater harvesting and farm ponds via Rashtriya Krishi Vikas Yojana (RKVY), (3) Drip/sprinkler irrigation subsidies under Per Drop More Crop (PDMC), (4) Climate-resilient crop varieties and advisories via NMSA's integrated farming system component. Missing PDMC or confusing PKVY (organic) with RKVY (state-plan flexibility) indicates inability to map schemes to specific technological interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional reform of \"land consolidation\" with \"tenancy reform\" in terms of their impact on (a) operational holding size, (b) investment incentive, and (c) equity for marginal farmers.",
+     "a": "Land consolidation merges fragmented plots into one contiguous block → increases operational holding size, encourages mechanization investment, but may not benefit landless tenants. Tenancy reform (security of tenure, fair rent, ownership rights for tenants) → does not change physical fragmentation, but gives tenants investment incentive and improves equity for marginal/landless farmers. A wrong answer that conflates the two or claims consolidation automatically helps landless reveals misunderstanding of the distinct institutional levers.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The shift from price support (MSP) to income support (PM-KISAN) represents a fundamental reform in agricultural institutional architecture.\" Use two arguments for and two against.",
+     "a": "For: (1) PM-KISAN is crop-neutral, decoupling support from water-intensive paddy/wheat, encouraging diversification. (2) Direct cash transfer reduces leakages in procurement-distribution chain. Against: (1) PM-KISAN's fixed ₹6,000/year is insufficient for input cost volatility, unlike MSP which scales with production. (2) MSP provides a floor price signal to markets; income support does not prevent market price crashes. A one-sided answer shows inability to analyze institutional trade-offs between price vs. income instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point institutional reform package for a rainfed district in Maharashtra's Marathwada region facing recurrent drought, farmer suicides, and groundwater depletion. Each point must name a specific existing scheme or a new institutional mechanism.",
+     "a": "1. **Water Institution**: Revitalize village-level Water User Associations (WUAs) under Atal Bhujal Yojana for participatory groundwater management. 2. **Credit Institution**: Saturate Kisan Credit Card (KCC) coverage with interest subvention for drought-resilient crops (millets, pulses). 3. **Risk Institution**: Mandate PMFBY enrollment with yield-index trigger at Gram Panchayat level, not block level. 4. **Market Institution**: Establish Farmer Producer Organization (FPO) for millet processing linked to e-NAM and PDS procurement. 5. **Ecological Institution**: Converge MGNREGA with watershed development (ridge-to-valley) for soil moisture conservation. A generic answer (\"provide loans, insurance, water\") without scheme names or institutional specificity fails the create-level test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

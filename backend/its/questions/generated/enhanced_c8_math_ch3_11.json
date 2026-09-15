@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_11",
+   "title": "c8_math_ch3_11",
+   "questions": [
+    {
+     "q": "Name the ancient Indian script (3rd century BCE) that provides the earliest known forms of the digits 1-9 (though not zero) found on Ashoka's pillars.",
+     "a": "The correct answer is the **Brahmi script**. A wrong answer such as \"Devanagari\" or \"Arabic\" reveals that the student confuses later stages of evolution with the origin. They need to understand that Brahmi is the ancestral script from which all later Indian numeral shapes developed, and that zero was not yet a written digit in 3rd century BCE Brahmi inscriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the digit '0' evolve from a dot (bindu) in early Indian manuscripts to a small circle in later Nagari and Arabic scripts?",
+     "a": "The dot (bindu) represented zero as a placeholder in place value notation. When writing quickly in cursive script on palm leaves or birch bark, the tiny dot could be missed or confused with an ink blot. Scribes enlarged it to a small circle for visibility and drew it in one continuous stroke. A wrong answer like \"because circles are pretty\" shows the student does not connect the shape change to the practical needs of scribal writing and the functional requirement of a clear placeholder in positional notation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Brahmi numeral for '3' (three horizontal lines) and the modern '3', describe two intermediate changes that occurred in the Gupta and Nagari scripts.",
+     "a": "**Correct answer with steps:**  \n1. In Gupta script (4th century CE), the three separate horizontal lines were written in one flowing motion, connecting at the right ends with a vertical stroke.  \n2. In Nagari script (7th century CE), the top and bottom connections opened into curves, the middle line shortened, and the shape became two distinct loops (like a modern 3 but more angular).  \nA wrong answer such as \"it just changed over time\" reveals the student cannot trace the specific visual transformations caused by cursive writing. They need to see that each stage shows increased connectivity and rounding for writing speed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evolution of digit '4' and digit '5'. Both started as Brahmi symbols with multiple strokes. Why did '4' retain a more angular shape in Arabic scripts while '5' became a single curved stroke in European printing?",
+     "a": "**Correct answer:** In Brahmi, '4' was a cross with a vertical line; Arabic scribes simplified this to a distinctive lightning-bolt shape (like a reversed '3' with a slash) which preserved angles because it was written with pen lifts. '5' in Brahmi had multiple strokes; Nagari scribes wrote it in one continuous cursive stroke (starting top-left, curving down and around), which European printers smoothed into the modern curved top and vertical stem. A wrong answer shows failure to analyze how different scribal habits (pen lifts vs. continuous cursive) led to different shape outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The modern digit shapes were designed by a single mathematician in Arabia.\" Evaluate this claim using historical evidence.",
+     "a": "**Correct answer with justification:** The claim is **false**. Digit shapes evolved gradually over 1500 years across three major cultures: Indian (Brahmi → Gupta → Nagari), Arabic (eastern and western forms), and European (printing standardization). No single person designed them; they emerged from scribal practices, material constraints (reed pen, palm leaf), and the needs of place value notation. A wrong answer reveals the student thinks of invention as a single event rather than a long, distributed evolutionary process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple visual timeline (with 4-5 stages) showing the evolution of the digit '7' from Brahmi to modern form. Label each stage with the script name and approximate century.",
+     "a": "**Expected answer criteria:** A good timeline includes:  \n1. **Brahmi (3rd century BCE):** Two horizontal lines with a descending diagonal from the left of the top line.  \n2. **Gupta (4th century CE):** Top horizontal and diagonal more connected, written in one stroke.  \n3. **Nagari (7th century CE):** Top horizontal extends right, diagonal curves slightly downward.  \n4. **Arabic (9th century CE):** Western Arabic (ghubar) form adds a crossbar on the diagonal; eastern Arabic keeps simple form.  \n5. **European print (15th century CE):** Modern '7' with horizontal top, straight diagonal, sometimes with crossbar.  \nA poor answer misses stages, mislabels scripts, or shows no understanding of the progressive cursivization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

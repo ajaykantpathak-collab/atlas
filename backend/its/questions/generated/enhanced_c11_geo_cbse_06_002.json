@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_002",
+   "title": "c11_geo_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define diastrophism and name its two main types with their directional characteristics.",
+     "a": "Diastrophism refers to all processes that move, elevate, or build up portions of the Earth's crust through endogenic forces. Its two main types are epeirogenic (vertical) movements, which cause large-scale uplift or subsidence of continental masses, and orogenic (horizontal) movements, which involve compressional forces leading to folding, faulting, and mountain building. A wrong answer that swaps the direction (e.g., calling epeirogenic horizontal) reveals confusion between the scale and direction of crustal deformation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Himalayas are a product of orogenic movements while the Peninsular Plateau is a result of epeirogenic movements, using the concepts of force direction and landform characteristics.",
+     "a": "The Himalayas formed due to horizontal compressional forces from the convergence of the Indian and Eurasian plates, causing intense folding, thrust faulting, and uplift of sedimentary rocks into high, rugged mountains with complex structures. The Peninsular Plateau resulted from vertical uplift of a stable, ancient crystalline block without significant folding, creating a broad, elevated tableland with relatively flat topography. A wrong answer that attributes the Himalayas to vertical uplift or the Plateau to folding indicates a misunderstanding of the relationship between force direction and resulting landform geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India showing the Himalayan region, the Indo-Gangetic Plain, and the Peninsular Plateau, identify which region is primarily shaped by epeirogenic movements and which by orogenic movements, and justify your answer with two pieces of evidence for each.",
+     "a": "The Peninsular Plateau is shaped by epeirogenic movements: evidence includes its broad, elevated surface of ancient crystalline rocks and lack of intense folding. The Himalayan region is shaped by orogenic movements: evidence includes its linear folded mountain belts, thrust faults, and frequent seismic activity. The Indo-Gangetic Plain is a foreland basin formed by subsidence due to Himalayan loading, not directly by either movement. A wrong answer that assigns the Plateau to orogenic movements because of its elevation, or the Himalayas to epeirogenic because of their height, shows confusion between vertical uplift and compressional mountain building.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial scale, speed, and typical landforms of epeirogenic and orogenic movements. How do these differences affect the geological stability of the regions they affect?",
+     "a": "Epeirogenic movements operate over continental scales (thousands of km), are very slow (mm/yr), and produce broad, gentle features like plateaus, basins, and coastal plains, leading to long-term stability (e.g., Peninsular India). Orogenic movements operate at plate boundary scales (hundreds of km), are relatively faster (cm/yr), and produce intense, localized deformation like fold mountains, faults, and seismic zones, creating geologically active, unstable regions (e.g., Himalayas). A wrong answer that reverses the scales or speeds indicates a lack of understanding of the link between tectonic setting and deformation style.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Epeirogenic movements are less hazardous than orogenic movements because they are slower and produce less dramatic topography.\" Consider both geological and human perspectives.",
+     "a": "The statement is partially true but oversimplified. Geologically, epeirogenic movements are slower and less seismically active, but they can cause large-scale subsidence leading to flooding or uplift altering drainage patterns over millions of years. Orogenic movements generate frequent earthquakes, landslides, and steep slopes that pose immediate hazards. From a human perspective, orogenic zones (Himalayas) have higher disaster risk, but epeirogenic regions (e.g., Peninsular India) face hazards like reservoir-induced seismicity or slow coastal changes. A wrong answer that fully agrees ignores the long-term hazards of epeirogenic movements; a wrong answer that disagrees without nuance misses the relative hazard frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-section diagram showing the crustal structure across the Indian subcontinent from the Himalayas to the Peninsular Plateau, annotating the types of diastrophic movements responsible for each major feature. Include labels for direction of forces and resulting landforms.",
+     "a": "A good answer includes a north-south cross-section with: (1) Himalayas: horizontal compressional arrows, folded strata, thrust faults, high peaks; (2) Indo-Gangetic Plain: downwarping (vertical subsidence) due to flexural loading, thick alluvium; (3) Peninsular Plateau: vertical uplift arrows, block-faulted margins, flat-lying ancient rocks. The diagram must show force directions and link each feature to epeirogenic or orogenic processes. A poor answer lacks force direction annotations, mislabels the Plain as depositional only, or shows the Plateau as folded.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

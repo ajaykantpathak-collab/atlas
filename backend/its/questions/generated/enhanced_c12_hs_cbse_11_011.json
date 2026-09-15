@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_011",
+   "title": "c12_hs_cbse_11_011",
+   "questions": [
+    {
+     "q": "List the four stages of the guest cycle in correct sequential order.",
+     "a": "Correct sequence: 1) Pre-arrival, 2) Arrival, 3) Occupancy, 4) Departure. A wrong answer (e.g., swapping arrival and occupancy) reveals the student has memorised the terms but not the logical flow of a guest’s physical journey — they are treating the cycle as a vocabulary list rather than a process map.",
+     "self_check": true
+    },
+    {
+     "q": "A guest calls the front desk at 2 AM requesting a room change due to a noisy air conditioner. Explain which department’s staff will physically move the guest’s luggage and which department authorises the room change, and why the control desk is critical in this situation.",
+     "a": "Bellboys (uniformed services under front office) move luggage; front office supervisor authorises the room change after checking occupancy with housekeeping control desk. The control desk is critical because it holds real-time room status (vacant/clean/occupied) and coordinates the handoff — without it, front office might assign a room that housekeeping hasn’t yet released. A student who says “housekeeping moves luggage” or “front office does everything” confuses operational roles with decision-making authority.",
+     "self_check": true
+    },
+    {
+     "q": "A hotel’s housekeeping department uses a strong acid-based cleaner on marble flooring in the lobby, causing permanent etching. Identify the two specific lapses in the standard operating procedure described in the textbook that led to this damage.",
+     "a": "Lapse 1: Failure to match cleaning agent to surface material (marble requires pH-neutral cleaner, not acid). Lapse 2: Absence of “cautious use” protocol — the textbook explicitly warns that “some strong agents may damage the surface while cleaning the material hence choice of appropriate cleaning agents is important.” A student who only cites “wrong chemical” misses the procedural gap: the SOP should have mandated a surface-material reference chart and a patch-test step before full application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organisational hierarchy of the front office (Fig. 17.3) and housekeeping (Fig. 17.6). Which level in each hierarchy is directly responsible for 24-hour coordination with the other department, and why is that level different between the two departments?",
+     "a": "Front office: Front Office Supervisor (shift-level) coordinates 24/7 because front office operates in shifts and the supervisor “meets and greets all arrivals, ensures accurate and speedy rooming procedure.” Housekeeping: Desk Control Supervisor coordinates 24/7 because “this desk should be manned 24 hours, as guests and staff contact this desk to receive or transmit information any time.” The difference arises because front office’s primary 24-hour touchpoint is guest-facing (arrivals/check-outs), while housekeeping’s is information-facing (room status updates). A student who names “Front Office Manager” or “Executive Housekeeper” confuses strategic oversight with operational coordination.",
+     "self_check": true
+    },
+    {
+     "q": "A boutique hotel decides to eliminate the “Bell Captain” position and have receptionists handle luggage during low season to cut costs. Evaluate this decision using the textbook’s competency requirements for front office staff.",
+     "a": "The decision violates two textbook competencies: (1) “cheerful attitude, self-discipline, courtesy, physical fitness” — receptionists cannot simultaneously manage check-in queues, answer phones, and lift heavy luggage without compromising grooming (“clean and neatly pressed uniform, minimum accessories”) and guest perception. (2) “multiple language skills” and “good communication skills” are needed at the desk; diverting receptionists to luggage duty reduces linguistic coverage. A student who says “it saves money so it’s fine” ignores that the textbook frames competencies as non-negotiable for image building and revenue generation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page “Guest Cycle Coordination Checklist” that the Front Office Supervisor and Desk Control Supervisor would jointly use during a shift handover. Include at least 5 specific data points that must be communicated, each linked to a department and a guest-cycle stage.",
+     "a": "A strong checklist includes: (1) Expected VIP arrivals (Front Office, Pre-arrival), (2) Rooms blocked for early check-in (Front Office ↔ Housekeeping, Arrival), (3) Current occupancy % and out-of-order rooms (Housekeeping, Occupancy), (4) Pending special requests (extra bed, allergy-free linen) (Housekeeping/F&B, Occupancy), (5) Express check-outs scheduled (Front Office, Departure). A poor answer lists generic items like “room status” without tying each to a department and stage, showing the student cannot operationalise the guest cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

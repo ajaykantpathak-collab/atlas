@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy303",
+  "concepts": [
+    {
+      "id": "legy.303.1",
+      "questions": [
+        {"q": "Which graph type best shows a trend over months or years? (one word)", "a": "line"},
+        {"q": "Which diagram type best compares quantities across categories? (one word)", "a": "bar"},
+        {"q": "Which diagram best shows shares of a whole? (one word)", "a": "pie"},
+        {"q": "Which picture-based diagram popularises statistics for the general public? (one word)", "a": "pictogram"},
+        {"q": "Rainfall recorded month by month is best shown by which graph? (one word)", "a": "line"},
+        {"q": "The choice of diagram depends on the nature of data and the what intended? (one word)", "a": "message"},
+        {"q": "How many main graph-diagram types are listed (line, bar, pie, pictogram)? (number)", "a": "4"}
+      ]
+    },
+    {
+      "id": "legy.303.2",
+      "questions": [
+        {"q": "A pie diagram divides a circle of how many degrees? (number)", "a": "360"},
+        {"q": "A component with 25 per cent share gets how many degrees in a pie diagram? (number)", "a": "90"},
+        {"q": "A component with 50 per cent share gets how many degrees in a pie diagram? (number)", "a": "180"},
+        {"q": "A component with 10 per cent share gets how many degrees in a pie diagram? (number)", "a": "36"},
+        {"q": "A component with 75 per cent share gets how many degrees in a pie diagram? (number)", "a": "270"},
+        {"q": "A sector of 72 degrees represents what per cent share in a pie diagram? (give the per cent)", "a": "20"},
+        {"q": "A component with 30 per cent share gets how many degrees (to one decimal)? (number)", "a": "108"}
+      ]
+    },
+    {
+      "id": "legy.303.3",
+      "questions": [
+        {"q": "In a bar diagram, the length of each rectangle is proportional to what? (one word)", "a": "value"},
+        {"q": "Bars in a simple bar diagram are kept of equal what? (one word)", "a": "width"},
+        {"q": "Which bar diagram shows totals split into components? (one word)", "a": "compound"},
+        {"q": "Which bar diagram places two series side by side for comparison? (one word)", "a": "multiple"},
+        {"q": "A line graph plots values against a continuous what? (one word)", "a": "axis"},
+        {"q": "Temperature through the day is best shown by which graph? (one word)", "a": "line"},
+        {"q": "How many series can a simple bar diagram show at once? (number)", "a": "1"}
+      ]
+    },
+    {
+      "id": "legy.303.4",
+      "questions": [
+        {"q": "Which map type places one dot for a fixed quantity to show distribution? (one word)", "a": "dot"},
+        {"q": "Which map type shades units by density ratios? (one word)", "a": "choropleth"},
+        {"q": "Which map type joins points of equal value, like contour lines? (one word)", "a": "isopleth"},
+        {"q": "Village-level population counts plotted as points make which map? (one word)", "a": "dot"},
+        {"q": "Density of population by district is best mapped by which type? (one word)", "a": "choropleth"},
+        {"q": "Rainfall belts of equal depth are best shown by which map type? (one word)", "a": "isopleth"},
+        {"q": "Are dot maps suited to point data or ratio data? (two words)", "a": "point data"}
+      ]
+    }
+  ]
+}

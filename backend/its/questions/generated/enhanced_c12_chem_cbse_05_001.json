@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_001",
+   "title": "c12_chem_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define primary valence and secondary valence according to Werner's theory. Give one example of a ligand that satisfies each type of valence.",
+     "a": "Primary valence = ionizable valence = oxidation state of central metal, satisfied only by anions (e.g., Cl⁻ in [Co(NH₃)₆]Cl₃, primary valence = 3). Secondary valence = non-ionizable valence = coordination number, satisfied by anions or neutral molecules (e.g., NH₃ and Cl⁻ in [CoCl(NH₃)₅]Cl₂, secondary valence = 6). A WRONG answer (e.g., \"primary valence is coordination number\" or \"both valences can be satisfied by neutral molecules\") reveals confusion between oxidation state and coordination number — the core distinction Werner made. Students often memorize definitions but fail to identify which ligands are inside vs outside the coordination sphere in a given formula.",
+     "self_check": true
+    },
+    {
+     "q": "A compound with empirical formula CoCl₃·5NH₃ gives 2 moles of AgCl per mole of compound when treated with excess AgNO₃. Using Werner's theory, write its correct formulation (with square brackets) and explain why only 2 moles of AgCl precipitate.",
+     "a": "Correct formulation: [CoCl(NH₃)₅]Cl₂. The coordination sphere contains Co³⁺ bound to 1 Cl⁻ and 5 NH₃ (secondary valence = 6, octahedral). The 2 Cl⁻ outside are counter ions (primary valence = 3). Only these 2 ionizable Cl⁻ precipitate as AgCl; the Cl⁻ inside the coordination sphere is covalently bound (secondary valence) and does not dissociate. A WRONG answer (e.g., [Co(NH₃)₅]Cl₃ or [CoCl₂(NH₃)₄]Cl) shows the student cannot map precipitation data to ionization behavior — they treat all Cl atoms identically instead of distinguishing ionizable vs non-ionizable positions.",
+     "self_check": true
+    },
+    {
+     "q": "For the compound PtCl₄·2HCl (zero moles AgCl precipitated), determine: (a) oxidation state of Pt, (b) coordination number of Pt, (c) the correct Werner formulation, and (d) the coordination polyhedron geometry.",
+     "a": "(a) Oxidation state = +4 (PtCl₄·2HCl = PtCl₆²⁻ with 2H⁺ counter ions; each Cl is -1, so Pt + 6(-1) = -2 → Pt = +4). (b) Coordination number = 6 (six Cl⁻ ligands). (c) Formulation: H₂[PtCl₆] or [PtCl₆]²⁻ with 2H⁺. (d) Octahedral (CN=6). Steps: Total Cl = 6. Zero AgCl means all 6 Cl⁻ are inside coordination sphere → secondary valence = 6. Charge balance: complex anion [PtCl₆]²⁻ requires 2H⁺. A WRONG answer (e.g., Pt oxidation state = +2, CN = 4, formulation [PtCl₄]·2HCl) reveals the student assumes HCl remains as molecules rather than dissociating to H⁺ and Cl⁻, and fails to use \"zero precipitation = all anions coordinated\" logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour in aqueous solution of Mohr's salt FeSO₄·(NH₄)₂SO₄·6H₂O (a double salt) and K₄[Fe(CN)₆] (a coordination compound). Explain why the former gives Fe²⁺ test but the latter does not, using Werner's concepts.",
+     "a": "Mohr's salt dissociates completely into simple ions: Fe²⁺, 2NH₄⁺, 2SO₄²⁻ — so Fe²⁺ test is positive. K₄[Fe(CN)₆] dissociates into 4K⁺ and [Fe(CN)₆]⁴⁻; the Fe²⁺ is locked inside the coordination sphere (secondary valence = 6, CN⁻ ligands) and does not exist as free Fe²⁺ ion — so Fe²⁺ test is negative. Werner's postulate 3: secondary valences are non-ionizable. A WRONG answer (e.g., \"both give Fe²⁺ test\" or \"K₄[Fe(CN)₆] gives Fe²⁺ because Fe is +2\") shows the student conflates oxidation state (+2 in both) with ionizable species — they miss that coordination sphere integrity prevents simple ion dissociation, which is the defining difference between double salts and complexes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formulation for CoCl₃·4NH₃ (green) as [Co(NH₃)₄]Cl₃ and for CoCl₃·4NH₃ (violet) as [CoCl₃(NH₃)₄]. Evaluate both formulations against experimental data: both give 1 mol AgCl per mol compound, and both have secondary valence = 6. Which formulation(s) are correct? Justify.",
+     "a": "First formulation [Co(NH₃)₄]Cl₃: Coordination number = 4 (only 4 NH₃), but Werner/postulate 4 requires secondary valence = 6 for Co³⁺ → INCORRECT. Second formulation [CoCl₃(NH₃)₄]: Coordination number = 7 (3Cl + 4NH₃) → exceeds 6 → INCORRECT. Correct formulation for both: [CoCl₂(NH₃)₄]Cl. CN = 6 (2Cl + 4NH₃), 1 ionizable Cl⁻ → 1 mol AgCl. The two isomers differ in spatial arrangement (cis/trans) of the two Cl⁻ ligands in the octahedral sphere — same composition, different geometry. A WRONG evaluation (accepting either student formulation) reveals the student ignores the fixed secondary valence (CN=6 for Co³⁺) and treats coordination number as variable — missing Werner's key insight that secondary valence is constant for a given metal ion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only AgNO₃ solution and conductivity measurements to distinguish between the two coordination isomers of CoCl₃·4NH₃ (green and violet). State what you would observe and how it confirms they are isomers.",
+     "a": "Experiment: Dissolve 1 mol each of green and violet complexes in water. (1) Add excess AgNO₃ to both — both precipitate 1 mol AgCl (same ionizable Cl⁻ count). (2) Measure molar conductivity of both solutions — both show 1:1 electrolyte behaviour (same number of ions: [CoCl₂(NH₃)₄]⁺ and Cl⁻). Conclusion: Identical precipitation and conductivity prove same coordination sphere composition and ionization → same empirical formula, same ionization behaviour. They are isomers because they have different colours/properties despite identical formula and ionization — Werner explained this via different spatial arrangements (cis vs trans) of the two Cl⁻ ligands in the octahedral sphere. A POOR answer (e.g., \"measure colour only\" or \"they give different AgCl\") shows the student doesn't understand that isomers have IDENTICAL composition and ionization — the distinction is purely geometrical, detectable only by methods sensitive to spatial arrangement (optical activity, dipole moment, detailed spectroscopy), not by simple precipitation/conductivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

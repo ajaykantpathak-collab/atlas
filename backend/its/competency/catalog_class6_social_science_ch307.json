@@ -1,0 +1,413 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 307,
+ "chapter_title": "Urban Administration",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees106.txt",
+ "concepts": [
+  {
+   "id": "fess.307.1",
+   "title": "Municipal Corporation and Municipal Council",
+   "section": "Urban Administration",
+   "definition": "Local governing bodies in urban areas responsible for public services, called Municipal Corporations in large cities and Municipal Councils in smaller towns.",
+   "formula": "",
+   "key_idea": "Urban local bodies are named based on the population and size of the urban area they govern.",
+   "textbook_ref": "fess307.txt lines 40-60",
+   "question_patterns": [
+    "What is the difference between a Municipal Corporation and a Municipal Council?",
+    "Which urban body governs a big city like Pune?",
+    "What is the local administrative body of a small town called?",
+    "Identify the organization responsible for street lights and water supply in cities.",
+    "How does the size of a city affect its local administrative body's name?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the size of the urban area",
+     "explain": "Determine if the area is a large city or a small town."
+    },
+    {
+     "step": 2,
+     "action": "Classify the governing body",
+     "explain": "Large cities have Municipal Corporations, while smaller towns have Municipal Councils."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.2",
+   "title": "The Ward Councillor",
+   "section": "The Ward Councillor and Administrative Staff",
+   "definition": "An elected representative of a specific city ward who participates in decision-making and represents local citizen interests.",
+   "formula": "",
+   "key_idea": "Elected ward representatives form committees to debate and decide on issues affecting the city.",
+   "textbook_ref": "fess307.txt lines 65-90",
+   "question_patterns": [
+    "Who is a Ward Councillor?",
+    "How are Ward Councillors chosen in a city?",
+    "What is the role of a Ward Councillor in urban administration?",
+    "Who takes complicated decisions that affect the entire city?",
+    "How do citizens contact their local representative for ward-level issues?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the role of elected representatives",
+     "explain": "Ward Councillors are elected by the residents of their respective wards."
+    },
+    {
+     "step": 2,
+     "action": "Explain decision-making via committees",
+     "explain": "Councillors form committees to debate and make decisions on city-wide issues."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.3",
+   "title": "Commissioner and Administrative Staff",
+   "section": "The Ward Councillor and Administrative Staff",
+   "definition": "Appointed government officials led by the Commissioner who implement the decisions made by the elected councillors.",
+   "formula": "",
+   "key_idea": "Elected councillors make policy decisions, while appointed administrative staff execute them.",
+   "textbook_ref": "fess307.txt lines 91-110",
+   "question_patterns": [
+    "Who implements the decisions made by the Ward Councillors?",
+    "What is the difference between a Councillor and the Commissioner?",
+    "How do administrative staff get their positions in the Municipal Corporation?",
+    "Who leads the administrative wing of a Municipal Corporation?",
+    "Describe the role of the Commissioner in urban administration."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between elected and appointed roles",
+     "explain": "Councillors are elected, whereas the Commissioner and administrative staff are appointed by the government."
+    },
+    {
+     "step": 2,
+     "action": "Define the implementation role",
+     "explain": "The administrative staff is responsible for executing the decisions and budgets approved by the councillors."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.4",
+   "title": "Municipal Budgeting and Decision Making",
+   "section": "The Ward Councillor and Administrative Staff",
+   "definition": "The process where Ward Councillors meet to prepare a budget and allocate funds according to the demands of different wards.",
+   "formula": "",
+   "key_idea": "Financial planning in a city is done through democratic budgeting by elected representatives.",
+   "textbook_ref": "fess307.txt lines 105-125",
+   "question_patterns": [
+    "How are decisions regarding money and spending made in a Municipal Corporation?",
+    "What is the purpose of a municipal budget?",
+    "How do Ward Councillors ensure their ward's demands are met?",
+    "Who prepares the budget in a city administration?",
+    "Explain the process of resource allocation in urban local bodies."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the budget meeting",
+     "explain": "All Ward Councillors meet to discuss and formulate a budget for the city."
+    },
+    {
+     "step": 2,
+     "action": "Describe demand placement",
+     "explain": "Councillors present the specific demands of their wards to ensure funds are allocated appropriately."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.5",
+   "title": "Municipal Revenue Estimation",
+   "section": "How does the Municipal Corporation get its money?",
+   "definition": "Calculating the total revenue of a Municipal Corporation based on the property tax collection and its percentage contribution.",
+   "formula": "total_revenue = (property_tax * 100) / percentage",
+   "key_idea": "Property taxes contribute a specific percentage (typically 25 to 30 percent) of a municipality's total earnings.",
+   "textbook_ref": "fess307.txt lines 125-150",
+   "question_patterns": [
+    "Calculate the total revenue of a Municipal Corporation if its property tax collection is property_tax at percentage percent",
+    "Find the total municipal earnings when property tax is property_tax and accounts for percentage percent of the total",
+    "What is the total budget of a municipality if property tax worth property_tax represents percentage percent of its income?",
+    "Determine the total revenue of a city council when property tax collection is property_tax and its share is percentage percent",
+    "How much does a Municipal Corporation earn in total if property tax is property_tax and constitutes percentage percent of the revenue?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax collection by 100",
+     "explain": "To find the total revenue, first scale the property tax amount by 100.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the percentage share",
+     "explain": "Divide the scaled tax by the percentage share of property tax to get the total revenue.",
+     "compute": "total_revenue = scaled_tax / percentage"
+    }
+   ]
+  },
+  {
+   "id": "fess.307.6",
+   "title": "Community Protest and Citizen Action",
+   "section": "A Community Protest",
+   "definition": "The democratic action taken by citizens, such as petitions and peaceful protests, to demand accountability and services from local authorities.",
+   "formula": "",
+   "key_idea": "Citizens can organize, sign petitions, and approach elected representatives to resolve local civic issues.",
+   "textbook_ref": "fess307.txt lines 170-220",
+   "question_patterns": [
+    "Why did Gangabai protest and what did she achieve?",
+    "How can citizens hold the Municipal Corporation accountable for poor services?",
+    "What role do petitions play in community protests?",
+    "Why did Gangabai decide to approach the Ward Councillor instead of the Commissioner directly?",
+    "Describe the steps taken by the women of the locality to get their streets cleaned."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the grievance",
+     "explain": "Determine the civic issue, such as uncollected garbage causing health hazards."
+    },
+    {
+     "step": 2,
+     "action": "Approach the elected representative",
+     "explain": "Citizens protest at the Ward Councillor's house since they elected him."
+    },
+    {
+     "step": 3,
+     "action": "Submit a signed petition",
+     "explain": "Collect signatures from local residents and present the petition to the Commissioner."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.7",
+   "title": "Sub-Contracting in Urban Administration",
+   "section": "What has changed since Khala retired?",
+   "definition": "The practice of hiring private contractors by municipalities to collect and process garbage, replacing government workers with temporary contract labor.",
+   "formula": "",
+   "key_idea": "Sub-contracting reduces municipal costs but often leads to lower wages and unsafe working conditions for temporary workers.",
+   "textbook_ref": "fess307.txt lines 221-245",
+   "question_patterns": [
+    "What is sub-contracting in municipal administration?",
+    "Why do commissioners hire private contractors for garbage collection?",
+    "What are the disadvantages of sub-contracting for contract workers?",
+    "How does sub-contracting affect the nature of jobs in the municipality?",
+    "Explain the impact of hiring private companies on municipal waste management."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sub-contracting",
+     "explain": "It is the delegation of public services like garbage collection to private companies."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact on workers",
+     "explain": "Contract workers face lower pay, temporary jobs, and lack of safety measures."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.8",
+   "title": "Public Health and Sanitation Management",
+   "section": "The city of Surat had a plague scare in 1994",
+   "definition": "The critical responsibility of municipalities to maintain cleanliness and waste disposal to prevent the outbreak of deadly diseases.",
+   "formula": "",
+   "key_idea": "Poor sanitation can lead to severe epidemics like the plague, forcing administrative reforms and strict cleanliness drives.",
+   "textbook_ref": "fess307.txt lines 260-285",
+   "question_patterns": [
+    "What happened in Surat in 1994 and why?",
+    "How does poor garbage collection lead to public health crises?",
+    "What was the impact of the plague scare on Surat's administration?",
+    "Why is regular waste disposal essential for city dwellers?",
+    "How did Surat become one of the cleanest cities in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cause of the health crisis",
+     "explain": "Uncollected garbage and poor sanitation led to a plague outbreak in Surat in 1994."
+    },
+    {
+     "step": 2,
+     "action": "Explain the administrative response",
+     "explain": "The scare forced the Municipal Corporation to completely clean up the city and maintain strict sanitation standards."
+    }
+   ]
+  },
+  {
+   "id": "fess.307.9",
+   "title": "Property Tax Share Percentage",
+   "section": "How does the Municipal Corporation get its money?",
+   "definition": "Determining the percentage share of property tax in the total municipal revenue.",
+   "formula": "percentage = (property_tax * 100) / total_revenue",
+   "key_idea": "Calculating the proportion of a city's total earnings that comes directly from property taxes.",
+   "textbook_ref": "fess307.txt lines 125-150",
+   "question_patterns": [
+    "What percentage of the total revenue is property tax if property tax is property_tax and total revenue is total_revenue?",
+    "Calculate the percentage share of property tax when the municipal corporation collects property_tax out of a total of total_revenue",
+    "Find the proportion of property tax in the total budget of total_revenue if the property tax collected is property_tax",
+    "Determine the percentage contribution of property tax if it equals property_tax and the total municipal earnings are total_revenue",
+    "How much percent of the total revenue of total_revenue does property tax of property_tax constitute?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax by 100",
+     "explain": "Scale the property tax collection by 100 to prepare for percentage division.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the total revenue",
+     "explain": "Divide the scaled tax by the total revenue to find the percentage contribution.",
+     "compute": "percentage = scaled_tax / total_revenue"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess307.txt lines 125-150",
+   "concept": "fess.307.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total revenue of a Municipal Corporation if its property tax collection is {property_tax} at {percentage} percent",
+   "extracted_variables": {
+    "property_tax": 3000000,
+    "percentage": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax collection by 100",
+     "explain": "To find the total revenue, first scale the property tax amount by 100.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the percentage share",
+     "explain": "Divide the scaled tax by the percentage share of property tax to get the total revenue.",
+     "compute": "total_revenue = scaled_tax / percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess307.txt lines 125-150",
+   "concept": "fess.307.5",
+   "question_type": "compute",
+   "question_pattern": "Find the total municipal earnings when property tax is {property_tax} and accounts for {percentage} percent of the total",
+   "extracted_variables": {
+    "property_tax": 9000000,
+    "percentage": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax collection by 100",
+     "explain": "To find the total revenue, first scale the property tax amount by 100.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the percentage share",
+     "explain": "Divide the scaled tax by the percentage share of property tax to get the total revenue.",
+     "compute": "total_revenue = scaled_tax / percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fess307.txt lines 125-150",
+   "concept": "fess.307.9",
+   "question_type": "compute",
+   "question_pattern": "What percentage of the total revenue is property tax if property tax is {property_tax} and total revenue is {total_revenue}?",
+   "extracted_variables": {
+    "property_tax": 2500000,
+    "total_revenue": 10000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax by 100",
+     "explain": "Scale the property tax collection by 100 to prepare for percentage division.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the total revenue",
+     "explain": "Divide the scaled tax by the total revenue to find the percentage contribution.",
+     "compute": "percentage = scaled_tax / total_revenue"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fess307.txt lines 125-150",
+   "concept": "fess.307.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the percentage share of property tax when the municipal corporation collects {property_tax} out of a total of {total_revenue}",
+   "extracted_variables": {
+    "property_tax": 1800000,
+    "total_revenue": 6000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the property tax by 100",
+     "explain": "Scale the property tax collection by 100 to prepare for percentage division.",
+     "compute": "scaled_tax = property_tax * 100"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the total revenue",
+     "explain": "Divide the scaled tax by the total revenue to find the percentage contribution.",
+     "compute": "percentage = scaled_tax / total_revenue"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "fess307.txt lines 290-310",
+   "questions": [
+    "Why did the children go to Yasmin Khala's house?",
+    "List four ways in which the work of the Municipal Corporation affects the life of a city-dweller.",
+    "Who is a Municipal Councillor?",
+    "What did Gangabai do and why?",
+    "How does the Municipal Corporation earn the money to do its work?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "fess307.txt lines 311-330",
+   "questions": [
+    "Which way do you think provides safety to the person disposing garbage?",
+    "What are the dangers of collecting garbage in the manner shown in the first photograph?",
+    "Why do you think that proper ways of disposing garbage are not available to those who work in municipalities?"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "fess307.txt lines 331-350",
+   "questions": [
+    "Why do you think it is important that the Corporation should spend more money on slum localities? Why is it important that the Municipal Corporation provide the poor in the city with the same facilities that the rich get?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class9_social_science_iest103",
+ "concepts": [
+  {
+   "id": "iest.103.3.1",
+   "title": "Composition of the Atmosphere",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Composition of the Atmosphere' refers to.",
+     "a": "The atmosphere is a blanket of mixed gases - nitrogen the largest share, oxygen vital for breathing, carbon dioxide small but heat-trapping - along with water vapour and dust; each component plays a role in weather, climate and life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Composition of the Atmosphere'.",
+     "a": "Nitrogen dominates, oxygen sustains, carbon dioxide warms: every gas has a job.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Composition of the Atmosphere' taught, and from which source text?",
+     "a": "3 (source: iest103.txt opening sections (composition of the atmosphere))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.103.3.2",
+   "title": "Weather and Climate: Elements and Difference",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather and Climate: Elements and Difference' refers to.",
+     "a": "Weather is the hour-to-hour state of temperature, pressure, wind, humidity, cloud and rainfall, while climate is the long-term average pattern of weather of a place; the two share elements but differ in timescale.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather and Climate: Elements and Difference'.",
+     "a": "Weather is today's mood, climate is long-term character.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weather and Climate: Elements and Difference' taught, and from which source text?",
+     "a": "3 (source: iest103.txt sections on weather, climate and their elements)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.103.3.3",
+   "title": "Climate Change and Its Impacts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climate Change and Its Impacts' refers to.",
+     "a": "Human activities raise greenhouse gases and warm the planet, shifting rainfall patterns, melting glaciers and raising seas; understanding the atmosphere helps citizens read these changes and support mitigation and adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climate Change and Its Impacts'.",
+     "a": "The blanket is thickening: climate change rewrites weather patterns worldwide.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climate Change and Its Impacts' taught, and from which source text?",
+     "a": "3 (source: iest103.txt sections on climate change and impacts)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

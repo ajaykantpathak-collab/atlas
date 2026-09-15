@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_008",
+   "title": "c11_acc_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the correct ledger posting for an entry \"Cash received from Rohan ₹2,000\" appearing on the debit side of a single-column cash book?",
+     "a": "Correct answer: Rohan's Account will be credited with ₹2,000 and \"Cash\" written in the particulars column. A wrong answer (e.g., debiting Rohan) reveals the student hasn't grasped the fundamental rule: debit side of cash book = cash received = credit the other party. They are likely applying journal logic (debit receiver) instead of cash book posting logic (credit the source of cash).",
+     "self_check": true
+    },
+    {
+     "q": "In a double-column cash book, a contra entry is marked 'C' in the L.F. column. Explain why contra entries are not posted to the ledger, using the example of \"Cash deposited into bank ₹5,000\".",
+     "a": "Correct answer: Contra entries involve only cash and bank accounts, both of which are already updated within the cash book itself (cash column credited, bank column debited). Posting them again to ledger would duplicate the effect. A wrong answer (e.g., \"because they are not real transactions\") shows the student doesn't understand that the cash book *is* the ledger for cash and bank — no separate ledger accounts exist for them.",
+     "self_check": true
+    },
+    {
+     "q": "A double-column cash book shows on the credit side: \"Cheque issued to Mohan ₹4,000\" (Bank column). On the debit side: \"Cheque received from Sohan ₹3,000 deposited same day\" (Bank column). Show the ledger postings for Mohan and Sohan accounts.",
+     "a": "Correct answer: Mohan's Account debited ₹4,000 with \"Bank\" in particulars; Sohan's Account credited ₹3,000 with \"Bank\" in particulars. A wrong answer (e.g., using \"Cash\" instead of \"Bank\" for Sohan) reveals confusion between cash and bank columns — the student must distinguish which column the entry appears in to choose the correct narration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ledger posting process for a dishonoured cheque (originally received from a customer and deposited) versus a fresh cheque received from the same customer. How do the narrations and sides differ?",
+     "a": "Correct answer: For a fresh cheque deposited same day: Customer credited with \"Bank\". For a dishonoured cheque: Customer debited with \"Bank\" (to reverse the earlier credit). The side flips because dishonour cancels the receipt. A wrong answer (same side for both) shows the student treats dishonour as a new receipt rather than a reversal — a critical conceptual gap in understanding bank reconciliation basics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since the cash book serves as both journal and ledger for cash, we never need a separate Cash Account in the ledger. Therefore, we also don't need a Bank Account in the ledger when using a double-column cash book.\" Is this fully correct? Justify.",
+     "a": "Correct answer: The statement is correct. Both Cash and Bank accounts are replaced by the cash book columns; no separate ledger accounts are opened. A wrong answer (e.g., \"Bank account still needed for passbook reconciliation\") confuses the *ledger account* with the *bank statement* — the cash book's bank column *is* the bank ledger account; reconciliation is a separate process.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini cash book (5 transactions: 2 receipts, 2 payments, 1 contra) for a freelance graphic designer for one week. Then show the complete ledger postings for all affected accounts (excluding cash/bank). Include at least one cheque transaction.",
+     "a": "Expected answer: A valid cash book with correct columns, L.F. 'C' for contra, and ledger accounts showing: debtors credited with \"Cash\"/\"Bank\", expenses debited with \"Cash\"/\"Bank\", contra omitted. Poor answer (missing contra marking, wrong narration, posting contra) reveals mechanical copying without understanding the *why* behind each posting rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

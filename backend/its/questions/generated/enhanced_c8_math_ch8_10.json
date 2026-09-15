@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_10",
+   "title": "c8_math_ch8_10",
+   "questions": [
+    {
+     "q": "What is the formula for calculating simple interest, and what does each letter represent?",
+     "a": "The formula is \\(SI = \\frac{P \\times R \\times T}{100}\\), where P = Principal (initial amount), R = Rate of interest per annum (in percent), T = Time period in years, and SI = Simple Interest. A wrong answer (e.g., writing \\(SI = P \\times R \\times T\\) without dividing by 100, or confusing R as a decimal) reveals the student has memorised the formula incorrectly or does not understand that R is a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Why must time be converted to years when the interest rate is given as \"per annum\"? Explain with an example.",
+     "a": "\"Per annum\" means per year, so the rate applies to one full year. If time is given in months (e.g., 6 months) and used directly as 6 in the formula, the interest would be calculated for 6 years instead of half a year, giving an answer 12 times too large. For example, ₹10,000 at 10% for 6 months: correct SI = \\(\\frac{10000 \\times 10 \\times 0.5}{100} = ₹500\\); incorrect SI (using T=6) = ₹6,000. A wrong explanation shows the student does not grasp the meaning of \"per annum\" or the proportional relationship between time and interest.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi deposits ₹25,000 in a bank at 6% simple interest per annum. How much interest will he earn in 2 years and 6 months?",
+     "a": "Step 1: Convert time to years: 2 years 6 months = 2 + 6/12 = 2.5 years.\nStep 2: Identify P = ₹25,000, R = 6%, T = 2.5 years.\nStep 3: Apply formula: \\(SI = \\frac{25000 \\times 6 \\times 2.5}{100}\\).\nStep 4: Compute: \\(25000 \\times 6 = 150000\\); \\(150000 \\times 2.5 = 375000\\); \\(375000 / 100 = 3750\\).\nAnswer: ₹3,750.\nA wrong answer (e.g., ₹15,000 using T=2, or ₹45,000 using T=6) reveals the student either forgot to convert months to years or made a multiplication error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interest earned on ₹10,000 at 8% for 3 years versus ₹12,000 at 6% for 2 years. Which gives more interest, and by how much?",
+     "a": "Option A: \\(SI_A = \\frac{10000 \\times 8 \\times 3}{100} = ₹2,400\\).\nOption B: \\(SI_B = \\frac{12000 \\times 6 \\times 2}{100} = ₹1,440\\).\nOption A gives more interest by ₹2,400 - ₹1,440 = ₹960.\nA wrong answer (e.g., choosing Option B because 12,000 > 10,000, or miscalculating one SI) reveals the student cannot compare two scenarios analytically or ignores the combined effect of P, R, and T.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved this problem: \"Find the principal that yields ₹1,800 interest at 9% per annum in 2 years.\" Their working: \\(P = \\frac{SI \\times 100}{R \\times T} = \\frac{1800 \\times 100}{9 \\times 2} = \\frac{180000}{18} = 10,000\\). Is this correct? If not, find the error.",
+     "a": "The working is correct. The formula rearrangement \\(P = \\frac{SI \\times 100}{R \\times T}\\) is right, substitution is correct, and arithmetic yields ₹10,000. A student who says it is incorrect might mistakenly think the formula is \\(P = \\frac{SI}{R \\times T}\\) (forgetting the 100) or miscompute 1800×100. If they identify a non-existent error, it shows they lack confidence in algebraic manipulation of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem involving simple interest where the time is given in days (not months or years), and solve it. Use an Indian context (rupees, bank loan, or savings).",
+     "a": "Example problem: \"Priya borrows ₹50,000 from a friend at 12% simple interest per annum. She repays the loan after 90 days. How much interest does she pay?\" Solution: Time in years = 90/365 (or 90/360 if using banker's year). Using 365: \\(SI = \\frac{50000 \\times 12 \\times 90}{100 \\times 365} = \\frac{54000000}{36500} ≈ ₹1,479.45\\). A good answer includes correct conversion of days to years, proper formula use, and a realistic context. A poor answer uses T=90 directly, ignores the day-to-year conversion, or creates an unrealistic scenario (e.g., negative interest).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

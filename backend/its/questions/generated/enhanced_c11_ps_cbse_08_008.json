@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_008",
+   "title": "c11_ps_cbse_08_008",
+   "questions": [
+    {
+     "q": "Which two Articles of the Indian Constitution specifically guarantee cultural and educational rights to minorities, and what is the key distinction between them?",
+     "a": "Article 29(1) protects the right of *any section of citizens* (not only minorities) with a distinct language, script, or culture to conserve it; Article 30(1) grants *religious and linguistic minorities* the right to establish and administer educational institutions of their choice. A wrong answer (e.g., citing Article 25 or 26) reveals confusion between *freedom of religion* (individual) and *minority rights* (collective), or between *protection of culture* and *institutional autonomy*.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text uses a train-compartment analogy (smoker vs. asthmatic) to justify minority rights. Explain in your own words why majority voting fails to protect fundamental interests in that scenario, and how this maps onto minority rights in a democracy.",
+     "a": "Majority voting treats preferences as equal in weight, but fundamental interests (like health/survival) are *lexically prior* to mere preferences. The asthmatic's right to breathe overrides the smoker's preference to smoke. Similarly, a minority community's survival of its culture/language/education is a fundamental interest; majoritarian decisions cannot legitimately extinguish it. A wrong answer that says \"majority should decide because democracy\" reveals a procedural-only understanding of democracy, ignoring substantive justice and the distinction between *preferences* and *vital interests*.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law requiring all schools (including minority-run schools) to follow a uniform curriculum prescribed by the state board, with no provision for religious or language instruction. A minority community challenges this under Article 30(1). Apply the \"principled distance\" doctrine to analyze whether the law violates minority rights.",
+     "a": "Principled distance allows state intervention *only* when it promotes constitutional values (equality, non-discrimination) and does not destroy the minority's institutional autonomy. A uniform curriculum that *completely eliminates* religious/language instruction denies the minority the very purpose of establishing their own institution (to conserve culture/language). The state may regulate standards (teacher qualifications, safety) but not the *essential character* of the institution. A wrong answer claiming \"state can do anything for uniformity\" ignores that Article 30(1) is a *guarantee*, not a concession, and that principled distance requires *context-sensitive* judgment, not blanket non-interference or total control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Western \"wall of separation\" model and the Indian \"principled distance\" model on three dimensions: (a) state funding of minority schools, (b) state intervention in religious personal laws, (c) recognition of community-based rights. Present as a table.",
+     "a": "| Dimension | Western Model (Mutual Exclusion) | Indian Model (Principled Distance) |\n|-----------|----------------------------------|-------------------------------------|\n| (a) State funding of minority schools | Prohibited (state cannot aid religion) | Permitted (Art. 30(2): state shall not discriminate in granting aid) |\n| (b) Intervention in personal laws | Not applicable (religion is private) | Permitted for reform (e.g., Hindu Code Bills, ban on untouchability) |\n| (c) Community-based rights | Rejected (only individual rights) | Recognized (Art. 29, 30 protect collective cultural/educational rights) |\nA wrong answer that claims \"both models treat religion identically\" misses the core theoretical divergence: Western secularism *privatizes* religion; Indian secularism *publicly manages* religious diversity through calibrated engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the \"minoritism\" critique: \"Indian secularism pamper minorities by giving them special privileges (separate personal laws, state-funded schools) at the expense of the majority.\" Use the NCERT's auditorium-ramp analogy and the distinction between *special privilege* and *equal dignity* in your answer.",
+     "a": "The critique confuses *equal treatment* (same stairs for all) with *equal dignity* (ramp for wheelchair users). Minority rights are not \"special privileges\" but *necessary accommodations* so that minorities can access the same liberties (cultural survival, educational autonomy) that the majority enjoys by default (majority culture is the default medium of public life). The ramp does not give the disabled person an *advantage*; it removes a *structural barrier*. Similarly, Article 30 removes the barrier that a uniform, majority-centric education system would impose. A wrong answer that agrees with the critique reveals a formal-equality mindset, ignoring substantive equality and the fact that \"neutral\" structures are often built around majority norms.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy proposal for a state government that wants to support minority language education *without* violating the principle of non-discrimination under Article 30(2). Your proposal must specify: (i) eligibility criteria, (ii) funding mechanism, (iii) accountability safeguards, and (iv) how it avoids \"vote-bank\" perception.",
+     "a": "**Proposal:** The state shall establish a *Minority Language Education Grant* open to *any* linguistic minority institution (Art. 30(1)) that meets transparent, pre-published criteria: (i) minimum 50 students, (ii) curriculum includes the minority language as medium/subject, (iii) open admission regardless of community (non-discriminatory). (ii) Funding: per-student grant transferred directly to school bank accounts, indexed to state per-pupil expenditure. (iii) Accountability: annual audited accounts, learning-outcome assessments (same as state schools), grievance redressal portal. (iv) Vote-bank safeguard: scheme is *statutory* (not discretionary), criteria are *objective*, and benefits flow to *institutions* meeting standards, not to communities via political intermediaries. A poor proposal would use vague \"community leaders\" for selection, discretionary grants, or tie funding to political loyalty—revealing confusion between *rights-based entitlement* and *patronage*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

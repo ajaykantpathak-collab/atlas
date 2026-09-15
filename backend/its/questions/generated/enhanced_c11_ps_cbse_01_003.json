@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_003",
+   "title": "c11_ps_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define Political Theory in one sentence, distinguishing it from \"political commentary\" or \"political ideology.\"",
+     "a": "Political Theory is the systematic, reasoned analysis of fundamental political concepts (like justice, freedom, equality) and the principles behind institutions, engaging with thinkers' arguments to clarify meaning and evaluate practice — unlike commentary which reacts to events, or ideology which prescribes a fixed worldview. A wrong answer (e.g., \"it's what politicians think\") reveals the student confuses theory with political rhetoric or partisan belief, missing the systematic, conceptual, and critical nature of the discipline.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text says political theory examines \"the extent to which freedom or equality are actually present in institutions that we participate in everyday life such as schools, shops, buses or trains or government offices.\" Give a concrete example of how a student could apply political theory to analyze their school's student council elections.",
+     "a": "A student could analyze whether the election process ensures *political equality* (one student, one vote), *freedom* of candidacy (no unfair eligibility bars), and *procedural justice* (transparent counting, no teacher bias). They would compare the school's practice against these theoretical standards, identifying gaps (e.g., teachers influencing votes violates freedom; only toppers allowed to contest violates equality). A wrong answer (e.g., \"check if the winner is popular\") shows the student equates theory with empirical observation only, missing the normative evaluation against principles.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law requiring all social media users to verify identity with Aadhaar to \"curb fake news.\" Using political theory, identify the two competing principles at stake and explain how a political theorist would approach this conflict.",
+     "a": "The competing principles are *freedom of expression* (right to speak anonymously) and *public order/security* (state's duty to prevent harm from misinformation). A political theorist would not just pick a side; they would clarify the meaning of each principle (e.g., does freedom include anonymity? Mill's harm principle), examine how different thinkers (e.g., Mill vs. contemporary regulators) balance them, and assess if the law is proportionate, necessary, and the least restrictive means — providing a framework for reasoned public debate. A wrong answer (e.g., \"the government is right because fake news is bad\") reveals uncritical acceptance of state power without theoretical scrutiny of rights limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of \"reason\" in Political Theory versus its role in Mathematics, based on the NCERT's reference to Socrates and the statement: \"Unlike in mathematics where there can be one definition of a triangle or square, we encounter many definitions of equality or freedom or justice.\"",
+     "a": "In Mathematics, reason operates on fixed, abstract axioms to derive necessary, universally agreed conclusions (a triangle *must* have three sides). In Political Theory, reason is used to interrogate *contested* concepts rooted in human relationships and values; it exposes inconsistencies (as Socrates did) and clarifies meanings, but cannot eliminate pluralism because concepts like justice involve diverse human experiences and interests. A wrong answer (e.g., \"both use logic so they are the same\") misses the crucial distinction between *deductive certainty* in math and *interpretive, dialogic reasoning* in political theory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Political theory is irrelevant for ordinary citizens because we already have a Constitution that guarantees our rights.\" Use the NCERT's arguments about reinterpretation, new challenges (e.g., digital privacy), and the role of citizens.",
+     "a": "The claim is false. The NCERT gives three reasons: (1) Constitutional rights (e.g., right to life) are continually reinterpreted by courts for new contexts (e.g., right to livelihood, privacy) — citizens need theory to understand and participate in this. (2) New challenges (digital surveillance, algorithmic bias) create novel threats to freedom that the original text didn't anticipate; theory provides frameworks to analyze them. (3) Democracy requires *vigilant, reasoning citizens* who can debate policy rationally, not just vote — theory cultivates this capacity. A wrong answer (e.g., \"Constitution is enough\") reflects a static view of rights and underestimates the need for ongoing normative engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"Let's Debate\" box for the textbook on the topic: \"Should political theory be taught in high schools?\" Write the prompt and two opposing one-sentence positions grounded in the chapter's arguments.",
+     "a": "**Prompt:** \"Should political theory be a mandatory subject in high schools?\"\n**Position A (Yes):** \"Yes, because as future voters and citizens, students need systematic tools to critically examine political claims, understand their rights, and participate rationally in democracy — not just rely on opinions.\"\n**Position B (No):** \"No, because political theory is abstract and disputed; schools should focus on practical civic knowledge (how to vote, what laws exist) rather than confusing students with multiple definitions of justice.\"\nA poor answer would offer positions not rooted in the text (e.g., \"Yes, to make good politicians\") showing failure to connect the chapter's rationale (citizen rationality, concept clarification) to the question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

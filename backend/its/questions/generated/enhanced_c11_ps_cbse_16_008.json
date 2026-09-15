@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_008",
+   "title": "c11_ps_cbse_16_008",
+   "questions": [
+    {
+     "q": "Which constitutional article originally provided special autonomous status to Jammu & Kashmir, and what was the specific constitutional mechanism that allowed its abrogation in 2019?",
+     "a": "Article 370 provided special status to J&K. Its abrogation was effected through Presidential Order C.O. 272 (2019) under Article 370(1)(d) with the concurrence of the \"Government of the State\" interpreted as the Governor under President's Rule, followed by a statutory resolution in Parliament under Article 370(3). A wrong answer (e.g., citing Article 356 or Article 368 alone) reveals the student confuses emergency provisions or amendment procedures with the unique self-referential abrogation mechanism embedded within Article 370 itself.",
+     "self_check": true
+    },
+    {
+     "q": "Article 371A (Nagaland) and Article 371G (Mizoram) both protect customary law and land ownership. Explain why these provisions were inserted decades apart (1962 vs 1986) despite addressing similar concerns, and what this reveals about the Indian Constitution's approach to asymmetrical federalism.",
+     "a": "Article 371A (13th Amendment, 1962) followed the 1960 Naga People's Convention agreement ending insurgency; Article 371G (53rd Amendment, 1986) followed the 1986 Mizo Accord ending two decades of militancy. The gap reveals that Indian asymmetrical federalism is not a pre-designed template but a negotiated, conflict-responsive instrument — each sub-article is a distinct political settlement. A wrong answer treating them as simultaneous or template-based reveals the student misses the historical-contingent, peace-process-driven nature of these provisions.",
+     "self_check": true
+    },
+    {
+     "q": "A legislative assembly of a state under Article 371A passes a law modifying customary inheritance practices. The Governor refuses assent, citing Article 371A(1)(b). The state government challenges this in the High Court. Apply the constitutional text and judicial precedent to determine the likely outcome.",
+     "a": "The High Court would likely uphold the Governor's refusal. Article 371A(1)(b) explicitly states \"no Act of Parliament shall apply to... unless the Legislative Assembly... so decides\" — but this applies to Parliament, not the state legislature. However, Article 371A(1)(a) places \"religious or social practices of the Nagas, Naga customary law and procedure... administration of civil and criminal justice involving decisions according to Naga customary law\" beyond the legislative competence of the state assembly itself. The Governor acts as guardian of this constitutional limitation. A wrong answer (e.g., state legislature supreme on state subjects) reveals confusion between standard federal distribution (node 006) and the special carved-out exclusions in Article 371.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of legislative autonomy under Article 371F (Sikkim) with Article 371J (Karnataka-Hyderabad region). Which reflects a \"territorial\" asymmetry and which a \"developmental\" asymmetry? Justify using the constitutional text.",
+     "a": "Article 371F (36th Amendment, 1975) is territorial: it preserves Sikkim's pre-merger laws, provides for a special legislative assembly with representation for monasteries and Sangha, and limits Parliament's power over Sikkim's territory — reflecting the unique merger agreement. Article 371J (98th Amendment, 2012) is developmental: it establishes a separate development board for Hyderabad-Karnataka region, local cadres, and reservation in education/employment — addressing intra-state regional disparity. A wrong answer conflating them reveals inability to distinguish merger-driven vs. equity-driven asymmetry, a key analytical distinction in senior-secondary federalism studies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Asymmetrical federalism under Articles 371A-J violates the basic structure doctrine's 'federal character' because it creates unequal states, undermining the equality of states in a federation.\" Use the S.R. Bommai (1994) and Kuldip Nayar (2006) judgments in your reasoning.",
+     "a": "The argument fails. S.R. Bommai affirmed federalism as basic structure but recognised \"asymmetry\" as its essential feature for a \"holding together\" federation like India. Kuldip Nayar upheld Article 371A, stating \"the Constitution makers... consciously provided for special provisions... to satisfy the aspirations of the people of those areas.\" The Court treats asymmetry as a constitutional device to preserve unity through accommodation, not a violation of equality. A wrong answer accepting the argument reveals a formalistic \"symmetrical federalism\" mindset (US model) unsuited to India's plurinational character.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Article 371K for a newly formed state \"X\" with a distinct tribal majority, a history of insurgency resolved by peace accord, and rich mineral resources coveted by private corporations. Your draft must balance tribal autonomy over land/resources with national integration and equitable development. Include at least three specific clauses with constitutional phrasing.",
+     "a": "A strong draft includes: (1) \"Notwithstanding anything in this Constitution, no Act of Parliament/State Legislature shall apply to State X in respect of [tribal customary law, land/forest ownership, mineral rights] unless the Legislative Assembly of State X by a two-thirds majority so decides\" — mirroring 371A/G; (2) \"There shall be a Tribal Advisory Council... to advise the Governor on matters relating to tribal welfare\" — mirroring Fifth/Sixth Schedule; (3) \"A Special Development Board for State X shall be constituted... with equitable revenue-sharing from mineral royalties\" — mirroring 371J's developmental asymmetry. A poor draft omits the supermajority safeguard, copies generic state powers, or ignores the peace-accord context, revealing failure to synthesize the three asymmetry logics: protective, participatory, and developmental.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_004",
+   "title": "c12_ip_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the mandatory attribute for the <img> tag that provides alternative text for screen readers and broken images?",
+     "a": "The mandatory attribute is `alt`. A wrong answer (e.g., \"src\" or \"title\") reveals the student confuses the image source with accessibility requirement. The `alt` attribute is required by HTML5 validation and WCAG guidelines; omitting it makes the page inaccessible to visually impaired users.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following nested list code is invalid: `<ul><li>Fruits<ul><li>Apple</li></ul></li><li>Vegetables</li></ul>` — actually it IS valid. Now explain why this code is invalid: `<ul><li>Fruits</li><ul><li>Apple</li></ul><li>Vegetables</li></ul>`",
+     "a": "The second code is invalid because the nested `<ul>` is a direct child of the outer `<ul>`, not wrapped inside an `<li>`. In HTML, lists can only contain `<li>` elements (and for `<dl>`, `<dt>`/`<dd>`). A wrong answer (e.g., \"nesting not allowed\") reveals the student doesn't understand that nesting must occur *inside* a list item, not between list items.",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML to display a 3×3 table where the top-left cell spans two columns and contains \"Header\", the next cell in row 1 is \"Marks\", and row 2 has three data cells: \"Maths\", \"90\", \"A\". Use only table tags (no CSS).",
+     "a": "```html\n<table border=\"1\">\n  <tr>\n    <th colspan=\"2\">Header</th>\n    <th>Marks</th>\n  </tr>\n  <tr>\n    <td>Maths</td>\n    <td>90</td>\n    <td>A</td>\n  </tr>\n</table>\n```\nA wrong answer (e.g., using `colspan=\"3\"` or missing `<th>`) reveals the student doesn't grasp that `colspan` counts columns *in that row*, and that header cells (`<th>`) are semantically distinct from data cells (`<td>`).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rendering and semantic meaning of `<dl><dt>HTML</dt><dd>HyperText Markup Language</dd></dl>` vs `<ul><li>HTML: HyperText Markup Language</li></ul>`. When should you choose one over the other?",
+     "a": "`<dl>` (description list) semantically groups term-definition pairs, enabling screen readers to announce \"term: definition\" relationships. `<ul>` is for unordered items without explicit label-value structure. Choose `<dl>` for glossaries, metadata, FAQs; choose `<ul>` for simple bullet points. A wrong answer (e.g., \"they look the same\") reveals the student focuses only on visual output, not semantic accessibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets `width=\"200\"` and `height=\"150\"` on an `<img>` whose actual file is 400×300 pixels. Evaluate: does this reduce page load time? Justify.",
+     "a": "No. The browser still downloads the full 400×300 image file (same bytes), then scales it down for display. Load time is unchanged; only rendering changes. To reduce load time, the image file itself must be resized/compressed server-side. A wrong answer (\"yes, smaller dimensions = smaller file\") reveals the common confusion between display size and file size.",
+     "self_check": true
+    },
+    {
+     "q": "Design an HTML snippet for a \"Student Profile Card\" that includes: a profile photo (with alt text), a definition list of details (Name, Class, Roll No), and a table of 3 subjects with marks. Use proper nesting and all required attributes.",
+     "a": "```html\n<div>\n  <img src=\"photo.jpg\" alt=\"Student passport photo\" width=\"120\" height=\"150\">\n  <dl>\n    <dt>Name</dt><dd>Arjun Sharma</dd>\n    <dt>Class</dt><dd>12-A</dd>\n    <dt>Roll No</dt><dd>24</dd>\n  </dl>\n  <table border=\"1\" cellpadding=\"5\">\n    <tr><th>Subject</th><th>Marks</th></tr>\n    <tr><td>Physics</td><td>92</td></tr>\n    <tr><td>Chemistry</td><td>88</td></tr>\n    <tr><td>Maths</td><td>95</td></tr>\n  </table>\n</div>\n```\nA poor answer (missing alt, using `<ul>` for key-value pairs, no `<th>` in table) reveals the student treats HTML as visual layout only, ignoring semantics and accessibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

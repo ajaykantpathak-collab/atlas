@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy301",
+  "concepts": [
+    {
+      "id": "kegy.301.1.1",
+      "questions": [
+        {"q": "What is a representation of the earth's surface drawn to scale on a plane called? (one word)", "a": "map"},
+        {"q": "Which large-scale maps show property boundaries? (one word)", "a": "cadastral"},
+        {"q": "Which large-scale maps show relief and detail for field use? (one word)", "a": "topographical"},
+        {"q": "Name one small-scale map type besides wall maps. (one word)", "a": "atlas"},
+        {"q": "On what basis are maps divided into large scale and small scale? (one word)", "a": "scale"},
+        {"q": "Maps divide by theme into physical and which other kind? (one word)", "a": "cultural"},
+        {"q": "Do large-scale maps show more or less detail than small-scale maps? (one word)", "a": "more"}
+      ]
+    },
+    {
+      "id": "kegy.301.2.1",
+      "questions": [
+        {"q": "Which model of the earth shows its shape without scale distortion? (one word)", "a": "globe"},
+        {"q": "Which images, taken from aircraft, feed map-making? (two words)", "a": "aerial photographs"},
+        {"q": "Which technology supplies satellite images of the earth? (two words)", "a": "remote sensing"},
+        {"q": "Which digital system stores and analyses map layers? (short form)", "a": "GIS"},
+        {"q": "Are aerial photographs taken from aircraft or from satellites? (one word)", "a": "aircraft"},
+        {"q": "Which source of maps is truest to the earth's shape: globe or flat map? (one word)", "a": "globe"},
+        {"q": "Maps compiled from photographs and satellite images pass through which digital system? (short form)", "a": "GIS"}
+      ]
+    },
+    {
+      "id": "kegy.301.3.1",
+      "questions": [
+        {"q": "How many essential elements does every map carry? (number)", "a": "5"},
+        {"q": "Which map element states what the map shows? (one word)", "a": "title"},
+        {"q": "Which map element gives the ratio of map to ground distance? (one word)", "a": "scale"},
+        {"q": "Which element, a north line, shows orientation? (one word)", "a": "direction"},
+        {"q": "What is the key of conventional signs on a map called? (one word)", "a": "legend"},
+        {"q": "Which element tells when the map data were collected? (one word)", "a": "date"},
+        {"q": "Map language uses symbols, colours and what else to carry information? (one word)", "a": "lines"}
+      ]
+    }
+  ]
+}

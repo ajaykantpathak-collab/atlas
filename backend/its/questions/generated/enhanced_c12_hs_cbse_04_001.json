@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_001",
+   "title": "c12_hs_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define \"textile fibre\" and state the two primary classification categories based on origin. Give one example of each category.",
+     "a": "A textile fibre is a fine, hair-like strand that can be spun into yarn and made into fabric. The two primary categories are natural fibres (e.g., cotton) and manufactured fibres (e.g., polyester). A wrong answer that lists \"cotton and wool\" as the two categories reveals the student confuses sub-categories with primary categories, or thinks classification is based on chemical composition (cellulosic vs protein) rather than origin.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"All natural fibres are biodegradable and all synthetic fibres are non-biodegradable, so natural fibres are always better for the environment.\" Explain why this statement is an oversimplification. Use the concepts of regenerated fibres and fibre blends in your answer.",
+     "a": "The statement is an oversimplification because: (1) Regenerated fibres (e.g., rayon, lyocell) are manufactured from natural polymers (cellulose) but involve chemical processing that may use toxic solvents; their biodegradability depends on the processing route. (2) Blends (e.g., cotton-polyester) combine natural and synthetic fibres, making the fabric non-biodegradable as a whole even if one component is natural. (3) Environmental impact includes water usage (cotton requires ~10,000 L/kg), pesticide use, and microplastic shedding during washing — factors not captured by a simple natural/synthetic binary. A wrong answer that only mentions \"natural fibres decompose faster\" misses the nuance of regenerated fibres and blended fabrics, showing the student relies on a binary heuristic rather than systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "You are selecting a fibre for a mountaineering base layer that must: (a) wick moisture away from skin, (b) retain warmth when wet, (c) resist odour from bacterial growth, and (d) be lightweight. Compare wool (natural protein) and polyester (synthetic) on these four criteria and recommend one with justification.",
+     "a": "Wool: (a) Excellent moisture wicking due to hygroscopic scales; (b) Retains ~80% insulation when wet due to crimp trapping air; (c) Natural antimicrobial lanolin reduces odour; (d) Lightweight for warmth (high warmth-to-weight). Polyester: (a) Hydrophobic — wicks via capillary action in knit structure, not fibre absorption; (b) Loses most insulation when wet; (c) Prone to odour retention (bacteria thrive on skin oils trapped in fibres); (d) Lightweight but less warm per gram. Recommendation: Merino wool — meets all four criteria best. A wrong answer choosing polyester because \"it dries fast\" ignores that drying speed ≠ moisture management for thermoregulation, and overlooks odour and wet-warmth — a common trap in competitive exams testing application over recall.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following fibre property table and identify which fibre (A, B, C, or D) is most likely cotton, wool, polyester, and rayon. Justify each identification using at least two property matches.\n\n| Property | Fibre A | Fibre B | Fibre C | Fibre D |\n|---|---|---|---|---|\n| Moisture regain (%) | 8.5 | 16 | 0.4 | 11 |\n| Tenacity (g/denier) dry | 3.5 | 1.5 | 5.5 | 2.5 |\n| Tenacity wet/dry ratio | 1.2 | 0.8 | 1.0 | 0.6 |\n| Elastic recovery (2% strain) | 74% | 99% | 95% | 60% |\n| Thermal conductivity | High | Low | Low | Medium |",
+     "a": "Fibre A = Cotton: High moisture regain (8.5% ≈ cotton's 7-8.5%), tenacity increases when wet (ratio >1), high thermal conductivity (cool feel). Fibre B = Wool: Very high moisture regain (16% ≈ wool's 13-18%), low dry tenacity, loses strength when wet (ratio <1), excellent elastic recovery (99% ≈ wool's resilience), low thermal conductivity (warm). Fibre C = Polyester: Very low moisture regain (0.4%), high dry tenacity, unchanged strength when wet (ratio=1), high elastic recovery. Fibre D = Rayon: High moisture regain (11% ≈ rayon's 11-13%), moderate tenacity, loses significant strength when wet (ratio 0.6), low elastic recovery. A wrong match (e.g., assigning rayon to Fibre A) shows the student doesn't know rayon's wet weakness or cotton's wet strength — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For school uniforms in tropical India, a 67/33 polyester/cotton blend is superior to 100% cotton.\" Consider comfort, durability, maintenance, cost, and environmental impact. Provide a balanced judgement with a final recommendation.",
+     "a": "67/33 Polyester/Cotton: Better wrinkle resistance (less ironing), higher abrasion resistance (longer life), faster drying, lower cost per metre. But: lower moisture absorption (clammy in humidity), poorer breathability, pilling risk, microplastic shedding, non-biodegradable. 100% Cotton: Superior comfort (high absorption, breathable), biodegradable, no pilling. But: wrinkles heavily (daily ironing needed), lower abrasion resistance, shrinks, higher cost. Judgement: For tropical school uniforms where children sweat heavily and uniforms are washed daily, 100% cotton is better for comfort and skin health despite maintenance burden; the blend's durability advantage is marginal for a garment replaced annually. A wrong answer that blindly prefers the blend \"because it's modern and easy care\" ignores the physiological comfort criterion critical in tropical climates — a common error in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (text-based) that a textile designer can use to select the optimal fibre for a new apparel product. The flowchart must include at least four decision nodes based on fibre properties and end-use requirements, and lead to at least three distinct fibre recommendations (e.g., cotton, wool, polyester, nylon, rayon). Write it as a series of IF-THEN-ELSE statements.",
+     "a": "Example flowchart:\n1. IF the garment requires high thermal insulation (winter wear) THEN go to 2; ELSE go to 4.\n2. IF the garment must retain warmth when wet (outdoor/sports) THEN recommend WOOL; ELSE if dry warmth only (indoor) THEN recommend ACRYLIC (wool-like, cheaper).\n3. (End branch)\n4. IF the garment is for hot/humid climate (summer wear) THEN go to 5; ELSE go to 7.\n5. IF moisture absorption and skin comfort are top priority (everyday casual) THEN recommend COTTON; ELSE IF quick-dry and wrinkle resistance are critical (travel/workwear) THEN recommend POLYESTER/COTTON BLEND (65/35).\n6. (End branch)\n7. IF the garment needs high strength-to-weight and abrasion resistance (sportswear, luggage) THEN recommend NYLON; ELSE IF drape and lustre for formal wear THEN recommend RAYON/VISCOSE.\nA poor answer that lists fibres without conditional logic (e.g., \"cotton for summer, wool for winter\") shows the student cannot translate properties into a reusable selection algorithm — a key competency for higher-order questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

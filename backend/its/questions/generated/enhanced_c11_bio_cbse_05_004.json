@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_004",
+   "title": "c11_bio_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define inflorescence and state the two major types based on the behaviour of the apical meristem.",
+     "a": "Inflorescence is the arrangement of flowers on the floral axis. The two major types are racemose (apical meristem remains vegetative, indeterminate growth) and cymose (apical meristem becomes floral, determinate growth). A wrong answer that swaps the meristem behaviour (e.g., saying racemose terminates in a flower) reveals confusion between determinate and indeterminate growth patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the flowering sequence in a racemose inflorescence is acropetal while in a cymose inflorescence it is basipetal.",
+     "a": "In racemose, the apical meristem keeps producing new flower buds laterally at higher nodes while older buds at lower nodes mature first → acropetal (bottom to top). In cymose, the apical meristem itself becomes a flower (terminal flower), so it matures first; subsequent flowers arise from lateral meristems below → basipetal (top to bottom). A wrong answer that attributes the sequence to environmental factors rather than meristem fate shows lack of understanding of the developmental basis.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes an inflorescence where the main axis is elongated and bears pedicellate flowers laterally in acropetal succession. The lower flowers have longer pedicels than the upper ones, bringing all flowers to roughly the same level. Identify the inflorescence type and subtype.",
+     "a": "Type: Racemose (main axis grows indefinitely, acropetal succession). Subtype: Corymb (pedicels of lower flowers longer, forming a flat-topped cluster). A wrong answer of \"umbel\" would indicate confusion between corymb (elongated axis with unequal pedicels) and umbel (reduced axis with equal pedicels arising from a common point).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a spike and a spadix in terms of axis nature, flower type, and presence of spathe.",
+     "a": "Spike: elongated axis, sessile flowers (no pedicel), no spathe (e.g., Achyranthes). Spadix: fleshy axis, sessile unisexual flowers, enclosed by a large bract called spathe (e.g., Colocasia, maize). A wrong answer that says both have spathe or both have pedicellate flowers reveals inability to distinguish the diagnostic features of these two racemose subtypes.",
+     "self_check": true
+    },
+    {
+     "q": "A botanist claims that a solitary terminal flower (e.g., in Hibiscus) should be classified as a racemose inflorescence because it is a single flower at the apex. Evaluate this claim.",
+     "a": "The claim is incorrect. A solitary terminal flower is a cymose (determinate) inflorescence because the apical meristem terminates in a flower, stopping further axial growth. Racemose inflorescences require the apical meristem to remain vegetative and produce multiple flowers laterally. The error shows confusion between \"single flower at apex\" and \"indeterminate growth habit\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation activity to distinguish between a dichasial cyme and a monochasial scorpioid cyme using only a hand lens and notebook.",
+     "a": "Select a plant with dichasial cyme (e.g., Dianthus) and one with scorpioid cyme (e.g., Heliotropium). Sketch the branching pattern: in dichasial, the terminal flower opens first, then two opposite lateral branches each end in a flower, and the process repeats symmetrically. In scorpioid, the terminal flower opens first, then a single lateral branch develops on one side, then the next on the same side, forming a coiled (scorpioid) appearance. Record the number of lateral branches per node (two vs. one) and the symmetry of branching. A poor answer that only describes flower colour or size misses the structural branching criterion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

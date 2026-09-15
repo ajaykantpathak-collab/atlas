@@ -1,0 +1,534 @@
+{
+ "catalog": "catalog_class9_science_ch104.json",
+ "concepts": [
+  {
+   "id": "iesc.104.1",
+   "title": "Average Speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "avg_speed",
+     "expr": "total_distance / time_interval",
+     "explain": "average speed is total path length over total time"
+    },
+    {
+     "step": 2,
+     "name": "half_speed",
+     "expr": "avg_speed / 2",
+     "explain": "speed if the time doubled"
+    },
+    {
+     "step": 3,
+     "name": "distance_km_per_min",
+     "expr": "avg_speed / 60",
+     "explain": "the same speed per minute"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car covers 150 km in 3 h. Find its average speed.",
+     "vals": {
+      "total_distance": 150,
+      "time_interval": 3
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "0.833333 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A train travels 360 km in 4 h. Calculate the average speed.",
+     "vals": {
+      "total_distance": 360,
+      "time_interval": 4
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "1.5 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist rides 45 km in 2.5 h. What is the average speed?",
+     "vals": {
+      "total_distance": 45,
+      "time_interval": 2.5
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "0.3 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A bus moves 240 km in 5 h. Find its average speed.",
+     "vals": {
+      "total_distance": 240,
+      "time_interval": 5
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "0.8 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A scooter covers 90 km in 2 h. Compute the average speed.",
+     "vals": {
+      "total_distance": 90,
+      "time_interval": 2
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "0.75 km/h",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.2",
+   "title": "Average Velocity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "displacement",
+     "expr": "leg1 + leg2",
+     "explain": "straight-line distance from start to finish"
+    },
+    {
+     "step": 2,
+     "name": "per_minute_motion",
+     "expr": "(displacement / time_interval) * 60",
+     "explain": "displacement covered per minute"
+    },
+    {
+     "step": 3,
+     "name": "avg_velocity",
+     "expr": "displacement / time_interval",
+     "explain": "average velocity is displacement over total time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A boy walks 60 m east, then 40 m further east, taking 50 s. Find his displacement and average velocity.",
+     "vals": {
+      "leg1": 60,
+      "leg2": 40,
+      "time_interval": 50
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "2 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A robot moves 30 m forward and 45 m forward along a line in 15 s. Calculate the average velocity.",
+     "vals": {
+      "leg1": 30,
+      "leg2": 45,
+      "time_interval": 15
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "5 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A swimmer goes 70 m along a straight lane, then 30 m more, in 80 s. What is the average velocity?",
+     "vals": {
+      "leg1": 70,
+      "leg2": 30,
+      "time_interval": 80
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "1.25 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A train moves 900 m and then 600 m along a straight track in 3 min (180 s). Find the average velocity.",
+     "vals": {
+      "leg1": 900,
+      "leg2": 600,
+      "time_interval": 180
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "8.33333 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist covers 400 m and then 350 m along the same road in 150 s. Compute the average velocity.",
+     "vals": {
+      "leg1": 400,
+      "leg2": 350,
+      "time_interval": 150
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "5 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.3",
+   "title": "Average Acceleration",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "velocity_change",
+     "expr": "final_velocity - initial_velocity",
+     "explain": "find the change in velocity"
+    },
+    {
+     "step": 2,
+     "name": "half_time_change",
+     "expr": "velocity_change / 2",
+     "explain": "velocity change in half the time"
+    },
+    {
+     "step": 3,
+     "name": "avg_acceleration",
+     "expr": "velocity_change / time_interval",
+     "explain": "divide the change by the time taken"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car speeds up from 5 m/s to 25 m/s in 10 s. Find the average acceleration.",
+     "vals": {
+      "initial_velocity": 5,
+      "final_velocity": 25,
+      "time_interval": 10
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "2 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A bus slows from 20 m/s to rest in 8 s. Calculate the acceleration.",
+     "vals": {
+      "initial_velocity": 20,
+      "final_velocity": 0,
+      "time_interval": 8
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "-2.5 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A bike goes from 0 to 18 m/s in 6 s. What is the acceleration?",
+     "vals": {
+      "initial_velocity": 0,
+      "final_velocity": 18,
+      "time_interval": 6
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "3 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A train increases speed from 10 m/s to 30 m/s in 40 s. Find the average acceleration.",
+     "vals": {
+      "initial_velocity": 10,
+      "final_velocity": 30,
+      "time_interval": 40
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "0.5 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A stone dropped from a cliff reaches 49 m/s from rest in 5 s. Compute the acceleration.",
+     "vals": {
+      "initial_velocity": 0,
+      "final_velocity": 49,
+      "time_interval": 5
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "9.8 m/s2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.4",
+   "title": "Kinematic Equation: Final Velocity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "velocity_gain",
+     "expr": "acceleration * time",
+     "explain": "the extra velocity gained while accelerating"
+    },
+    {
+     "step": 2,
+     "name": "gain_per_second",
+     "expr": "velocity_gain / time",
+     "explain": "velocity gained per second"
+    },
+    {
+     "step": 3,
+     "name": "final_velocity",
+     "expr": "initial_velocity + velocity_gain",
+     "explain": "v = u + at"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car starting at 4 m/s accelerates at 2 m/s2 for 5 s. Find the final velocity.",
+     "vals": {
+      "initial_velocity": 4,
+      "acceleration": 2,
+      "time": 5
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "14 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A bus moving at 10 m/s accelerates at 0.5 m/s2 for 20 s. What is its speed then?",
+     "vals": {
+      "initial_velocity": 10,
+      "acceleration": 0.5,
+      "time": 20
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "20 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A ball thrown at 6 m/s slows at 3 m/s2 for 2 s. Find the final velocity.",
+     "vals": {
+      "initial_velocity": 6,
+      "acceleration": -3,
+      "time": 2
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "0 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A scooter at rest accelerates at 4 m/s2 for 3 s. Calculate its final velocity.",
+     "vals": {
+      "initial_velocity": 0,
+      "acceleration": 4,
+      "time": 3
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "12 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist moving at 2 m/s speeds up at 0.25 m/s2 for 8 s. Find the new speed.",
+     "vals": {
+      "initial_velocity": 2,
+      "acceleration": 0.25,
+      "time": 8
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "4 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.5",
+   "title": "Kinematic Equation: Displacement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "uniform_part",
+     "expr": "initial_velocity * time",
+     "explain": "distance at the starting speed"
+    },
+    {
+     "step": 2,
+     "name": "accelerated_part",
+     "expr": "0.5 * acceleration * time ** 2",
+     "explain": "extra distance from acceleration"
+    },
+    {
+     "step": 3,
+     "name": "double_time_s",
+     "expr": "initial_velocity * (time * 2) + 0.5 * acceleration * (time * 2) ** 2",
+     "explain": "displacement if the time doubled"
+    },
+    {
+     "step": 4,
+     "name": "displacement_s",
+     "expr": "uniform_part + accelerated_part",
+     "explain": "s = ut + (1/2)at squared"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car at 5 m/s accelerates at 2 m/s2 for 4 s. Find its displacement.",
+     "vals": {
+      "initial_velocity": 5,
+      "acceleration": 2,
+      "time": 4
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "36 m",
+     "self_check": false
+    },
+    {
+     "q": "A body starts from rest with acceleration 3 m/s2 for 6 s. How far does it go?",
+     "vals": {
+      "initial_velocity": 0,
+      "acceleration": 3,
+      "time": 6
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "54 m",
+     "self_check": false
+    },
+    {
+     "q": "A bus at 10 m/s decelerates at -1 m/s2 for 5 s. Calculate the distance covered.",
+     "vals": {
+      "initial_velocity": 10,
+      "acceleration": -1,
+      "time": 5
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "37.5 m",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist at 3 m/s accelerates at 0.5 m/s2 for 8 s. Find the distance travelled.",
+     "vals": {
+      "initial_velocity": 3,
+      "acceleration": 0.5,
+      "time": 8
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "40 m",
+     "self_check": false
+    },
+    {
+     "q": "A stone with initial speed 2 m/s accelerates at 10 m/s2 for 3 s (downward). Find the displacement.",
+     "vals": {
+      "initial_velocity": 2,
+      "acceleration": 10,
+      "time": 3
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "51 m",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.6",
+   "title": "Kinematic Equation: Velocity-Displacement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "u_squared",
+     "expr": "initial_velocity ** 2",
+     "explain": "square the starting velocity"
+    },
+    {
+     "step": 2,
+     "name": "v_squared",
+     "expr": "u_squared + 2 * acceleration * displacement",
+     "explain": "v squared = u squared + 2as"
+    },
+    {
+     "step": 3,
+     "name": "half_distance_v",
+     "expr": "sqrt(u_squared + 2 * acceleration * (displacement / 2))",
+     "explain": "speed gained over half the distance"
+    },
+    {
+     "step": 4,
+     "name": "final_velocity",
+     "expr": "sqrt(v_squared)",
+     "explain": "take the square root for v"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car at 5 m/s accelerates at 2 m/s2 over 50 m. Find the final speed.",
+     "vals": {
+      "initial_velocity": 5,
+      "acceleration": 2,
+      "displacement": 50
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "15 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A body at rest accelerates at 4 m/s2 through 18 m. What speed does it reach?",
+     "vals": {
+      "initial_velocity": 0,
+      "acceleration": 4,
+      "displacement": 18
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "12 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A bike at 10 m/s decelerates at -2 m/s2 over 15 m. Find the final speed.",
+     "vals": {
+      "initial_velocity": 10,
+      "acceleration": -2,
+      "displacement": 15
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "6.32456 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A ball at 3 m/s rolls with acceleration 1 m/s2 for 24 m. What is its speed then?",
+     "vals": {
+      "initial_velocity": 3,
+      "acceleration": 1,
+      "displacement": 24
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "7.54983 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A train at 20 m/s slows at -0.5 m/s2 over 300 m. Compute the final speed.",
+     "vals": {
+      "initial_velocity": 20,
+      "acceleration": -0.5,
+      "displacement": 300
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "10 m/s",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

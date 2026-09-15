@@ -1,0 +1,498 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": "13",
+ "chapter_title": "The Crisis of Democratic Order",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps206.txt",
+ "concepts": [
+  {
+   "id": "c12ps.13.1",
+   "title": "Background to the Emergency",
+   "section": "Background to the Emergency",
+   "definition": "The period before the Emergency was marked by economic difficulties, rising popular movements, and a confrontation between the government and the judiciary, creating conditions that culminated in the declaration of the Emergency in 1975.",
+   "formula": "",
+   "key_idea": "Economic crisis, popular unrest, and judicial-government conflict weakened the democratic order and set the stage for the Emergency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the economic and political factors that led to the Emergency?",
+    "Explain the role of popular movements in creating a crisis for the democratic order.",
+    "How did the conflict between the judiciary and the executive contribute to the Emergency?",
+    "Discuss the significance of the Allahabad High Court verdict of 1975.",
+    "Why is the period before 1975 described as a crisis of democratic order?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the context",
+     "explain": "Recall the economic, political, and judicial developments of 1973-1975.",
+     "compute": "context = economic_crisis + popular_movements + judicial_conflict"
+    },
+    {
+     "step": 2,
+     "action": "List the contributing factors",
+     "explain": "Note the Allahabad verdict, JP movement, railway strike, and price rise."
+    },
+    {
+     "step": 3,
+     "action": "Synthesise the outcome",
+     "explain": "Conclude how these factors together produced a crisis of democratic order."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main reasons behind the declaration of Emergency in 1975?",
+     "solution": "Economic hardships, the JP movement, the Allahabad High Court verdict against the Prime Minister, and a confrontation with the judiciary created a crisis.",
+     "answer": "A combination of economic crisis, popular unrest, and judicial-government conflict led to the Emergency.",
+     "_n": 1
+    },
+    {
+     "question": "Why did the opposition launch popular movements in the early 1970s?",
+     "solution": "Rising prices, unemployment, and allegations of corruption eroded government credibility, prompting movements like the JP movement.",
+     "answer": "Popular movements arose from economic distress and political dissatisfaction.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the economic conditions that contributed to the crisis before the Emergency.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the Allahabad High Court judgement of 1975 affect the political situation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.2",
+   "title": "Declaration of Emergency",
+   "section": "Declaration of Emergency",
+   "definition": "On the advice of the Prime Minister, the President declared a state of internal emergency under Article 352 on 25 June 1975, citing internal disturbance as the ground.",
+   "formula": "",
+   "key_idea": "The Emergency was declared using the constitutional provision of 'internal disturbance', a controversial ground that was later removed by the 44th Amendment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "On what grounds was the Emergency of 1975 declared?",
+    "Explain the constitutional procedure followed in declaring the Emergency.",
+    "What role did the President play in the declaration of Emergency?",
+    "How was the advice of the Council of Ministers used in declaring the Emergency?",
+    "Why was the ground of 'internal disturbance' considered controversial?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional basis",
+     "explain": "Article 352 allows declaration of Emergency on grounds of war, external aggression, or internal disturbance."
+    },
+    {
+     "step": 2,
+     "action": "Trace the procedure",
+     "explain": "The Prime Minister advised the President, who issued the proclamation on 25 June 1975."
+    },
+    {
+     "step": 3,
+     "action": "Note the consequence",
+     "explain": "The declaration suspended normal democratic functioning and fundamental rights.",
+     "compute": "result = suspension_of_democratic_order"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When and on what ground was the Emergency declared in 1975?",
+     "solution": "The Emergency was declared on 25 June 1975 on the ground of internal disturbance.",
+     "answer": "Declared on 25 June 1975 under Article 352 citing internal disturbance."
+    },
+    {
+     "question": "Who advised the President to declare the Emergency?",
+     "solution": "The Prime Minister, Indira Gandhi, advised the President to declare the Emergency.",
+     "answer": "The Prime Minister advised the President to declare the Emergency."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the constitutional procedure for declaring a national Emergency under Article 352.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the ground of internal disturbance later removed by the 44th Amendment?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.3",
+   "title": "Emergency Provisions in the Constitution",
+   "section": "Emergency Provisions",
+   "definition": "The Constitution provides for three types of Emergency: national Emergency (Article 352), state Emergency or President's Rule (Article 356), and financial Emergency (Article 360), each with distinct grounds and effects.",
+   "formula": "",
+   "key_idea": "Emergency provisions allow the central government to assume extraordinary powers, but they must be used cautiously to preserve democratic principles.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three types of Emergency provided in the Constitution?",
+    "Distinguish between national Emergency and President's Rule.",
+    "What is a financial Emergency and when can it be declared?",
+    "How does Article 356 differ from Article 352?",
+    "Explain the safeguards added by the 44th Amendment to Emergency provisions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the three Emergency types",
+     "explain": "National (352), State/President's Rule (356), Financial (360)."
+    },
+    {
+     "step": 2,
+     "action": "Compare grounds and effects",
+     "explain": "Each type has distinct grounds and varying effects on federal and democratic structures."
+    },
+    {
+     "step": 3,
+     "action": "Verify safeguards",
+     "explain": "Check the 44th Amendment safeguards such as written advice and parliamentary approval."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three kinds of Emergency mentioned in the Constitution?",
+     "solution": "National Emergency under Article 352, State Emergency under Article 356, and Financial Emergency under Article 360.",
+     "answer": "Three types: national, state, and financial Emergency."
+    },
+    {
+     "question": "How did the 44th Amendment modify Emergency provisions?",
+     "solution": "It required written advice of the Cabinet, replaced 'internal disturbance' with 'armed rebellion', and strengthened parliamentary approval.",
+     "answer": "The 44th Amendment added safeguards to prevent misuse of Emergency powers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between the three types of Emergency in the Indian Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What safeguards were introduced by the 44th Amendment regarding Emergency provisions?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.4",
+   "title": "Suspension of Fundamental Rights",
+   "section": "Suspension of Fundamental Rights",
+   "definition": "During the Emergency, fundamental rights of citizens were suspended, including the right to move courts for enforcement of rights under Article 32, leading to widespread arrests and curbs on freedom of speech and press.",
+   "formula": "",
+   "key_idea": "Suspension of fundamental rights during the Emergency raised serious questions about the balance between state power and citizen liberties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which fundamental rights were suspended during the Emergency?",
+    "What was the effect of the Maintenance of Internal Security Act (MISA)?",
+    "How did the suspension of Article 32 affect citizens?",
+    "What was the role of preventive detention during the Emergency?",
+    "How did the 44th Amendment protect fundamental rights after the Emergency?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify suspended rights",
+     "explain": "Article 19 rights and the right to constitutional remedies under Article 32 were curtailed."
+    },
+    {
+     "step": 2,
+     "action": "Examine the legal instruments",
+     "explain": "MISA and preventive detention laws enabled arrests without trial."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact",
+     "explain": "Citizens could not approach courts, and press freedom was restricted through censorship.",
+     "compute": "impact = no_judicial_remedy + press_censorship"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What happened to fundamental rights during the Emergency of 1975?",
+     "solution": "Fundamental rights including freedom of speech and the right to move courts were suspended, and preventive detention was widely used.",
+     "answer": "Fundamental rights were suspended, restricting citizen liberties and judicial remedies."
+    },
+    {
+     "question": "What was the role of MISA during the Emergency?",
+     "solution": "The Maintenance of Internal Security Act allowed preventive detention without trial for long periods.",
+     "answer": "MISA enabled preventive detention without trial."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the suspension of fundamental rights affected citizens during the Emergency.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What changes did the 44th Amendment make to protect fundamental rights?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.5",
+   "title": "Shah Commission of Inquiry",
+   "section": "Shah Commission",
+   "definition": "The Shah Commission was appointed by the Janata government in 1977 to inquire into the excesses committed during the Emergency, documenting abuse of power and violations of democratic norms.",
+   "formula": "",
+   "key_idea": "The Shah Commission's findings revealed the extent of misuse of Emergency powers and underscored the need for constitutional safeguards.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the purpose of the Shah Commission?",
+    "What were the main findings of the Shah Commission?",
+    "How did the Shah Commission document the excesses of the Emergency?",
+    "Why was the Shah Commission report significant for Indian democracy?",
+    "What recommendations did the Shah Commission make?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mandate",
+     "explain": "The Commission was set up in 1977 to inquire into Emergency excesses."
+    },
+    {
+     "step": 2,
+     "action": "Examine the findings",
+     "explain": "It documented abuse of authority, arbitrary arrests, and press censorship."
+    },
+    {
+     "step": 3,
+     "action": "Assess significance",
+     "explain": "The report highlighted the need for safeguards against misuse of Emergency powers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Shah Commission and why was it appointed?",
+     "solution": "It was a commission appointed in 1977 by the Janata government to inquire into the excesses committed during the Emergency.",
+     "answer": "The Shah Commission investigated abuses of power during the Emergency."
+    },
+    {
+     "question": "What did the Shah Commission reveal about the Emergency?",
+     "solution": "It revealed arbitrary arrests, misuse of state machinery, and suppression of civil liberties.",
+     "answer": "The Commission documented widespread abuse of Emergency powers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the significance of the Shah Commission report for Indian democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What were the main excesses documented by the Shah Commission?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.6",
+   "title": "Lessons of the Emergency",
+   "section": "Lessons of the Emergency",
+   "definition": "The Emergency taught that democratic freedoms and constitutional safeguards cannot be taken for granted, and that internal emergency provisions can be misused, requiring legal and institutional protections.",
+   "formula": "",
+   "key_idea": "The Emergency remains a reminder of the fragility of democracy and the importance of vigilant institutions and citizen awareness.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What lessons did the Emergency teach about democracy?",
+    "How did the Emergency affect the relationship between the government and the opposition?",
+    "Why is the Emergency considered a watershed in Indian politics?",
+    "What constitutional changes followed the Emergency experience?",
+    "How did the Emergency influence public awareness of democratic rights?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the lessons",
+     "explain": "Democracy requires safeguards, vigilant citizens, and independent institutions."
+    },
+    {
+     "step": 2,
+     "action": "Trace constitutional responses",
+     "explain": "The 44th Amendment added safeguards to prevent misuse of Emergency powers."
+    },
+    {
+     "step": 3,
+     "action": "Synthesise the significance",
+     "explain": "The Emergency became a reference point for debates on democratic rights.",
+     "compute": "significance = watershed_moment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main lessons of the Emergency for Indian democracy?",
+     "solution": "The Emergency showed that democratic freedoms need safeguards and that institutions must remain independent.",
+     "answer": "The Emergency underscored the need for constitutional safeguards and citizen vigilance."
+    },
+    {
+     "question": "How did the Emergency experience lead to constitutional changes?",
+     "solution": "The 44th Amendment was passed to add safeguards against misuse of Emergency powers.",
+     "answer": "The 44th Amendment introduced safeguards following the Emergency."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the lessons learnt from the Emergency of 1975.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the Emergency influence constitutional amendments?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.7",
+   "title": "Controversy over the Emergency",
+   "section": "Controversy over the Emergency",
+   "definition": "The Emergency remains controversial: some argue it was necessary to restore order, while others view it as an unjustified assault on democracy and civil liberties.",
+   "formula": "",
+   "key_idea": "Debates over the Emergency reveal differing views on the limits of state power and the necessity of democratic constraints.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different perspectives on the declaration of Emergency?",
+    "Why is the Emergency considered a controversial episode?",
+    "How did political parties differ in their assessment of the Emergency?",
+    "What arguments were given in favour of the Emergency?",
+    "What were the main criticisms of the Emergency?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two positions",
+     "explain": "One view supports the Emergency as necessary; the other condemns it as anti-democratic."
+    },
+    {
+     "step": 2,
+     "action": "Examine the arguments",
+     "explain": "Supporters cite order and stability; critics cite abuse of power and suppression of rights."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the balance",
+     "explain": "Assess whether the Emergency was justified given the constitutional and democratic norms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Emergency of 1975 a controversial topic?",
+     "solution": "Some argue it restored order, while others see it as a violation of democracy and civil liberties.",
+     "answer": "The Emergency is controversial due to conflicting views on its necessity and its impact on democracy."
+    },
+    {
+     "question": "What arguments were advanced in favour of the Emergency?",
+     "solution": "Supporters argued that the country faced disorder and that strong measures were needed to restore stability.",
+     "answer": "Supporters argued the Emergency restored order and stability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the controversy surrounding the declaration of Emergency in 1975.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What were the main criticisms of the Emergency?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.13.8",
+   "title": "Politics after the Emergency",
+   "section": "Politics after the Emergency",
+   "definition": "After the Emergency, the Janata Party came to power in 1977, but internal divisions and instability led to its collapse, and the Congress returned to power in 1980, shaping the trajectory of Indian politics.",
+   "formula": "",
+   "key_idea": "The post-Emergency period saw the rise and fall of the Janata experiment and the return of the Congress, illustrating the resilience and complexity of Indian democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the outcome of the 1977 elections?",
+    "Why did the Janata government fail to last its full term?",
+    "How did the Emergency affect the party system in India?",
+    "What was the significance of the 1980 elections?",
+    "How did politics change after the Emergency?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the 1977 election outcome",
+     "explain": "The Janata Party won the elections, ending Congress rule.",
+     "compute": "outcome_1977 = janata_victory"
+    },
+    {
+     "step": 2,
+     "action": "Examine Janata government instability",
+     "explain": "Internal conflicts and leadership disputes weakened the government.",
+     "compute": "instability = internal_conflicts + leadership_disputes"
+    },
+    {
+     "step": 3,
+     "action": "Note the 1980 return of Congress",
+     "explain": "The Congress returned to power in 1980 after the Janata government collapsed.",
+     "compute": "outcome_1980 = congress_return"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What happened in the 1977 Lok Sabha elections?",
+     "solution": "The Janata Party won a majority, defeating the Congress and forming the first non-Congress government at the Centre.",
+     "answer": "The Janata Party won the 1977 elections, ending Congress rule."
+    },
+    {
+     "question": "Why did the Janata government collapse?",
+     "solution": "Internal divisions, leadership conflicts, and lack of cohesion led to the collapse of the Janata government.",
+     "answer": "The Janata government collapsed due to internal divisions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the political developments after the Emergency of 1975.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did the Janata Party government fail to complete its term?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps206.txt",
+   "concept": "c12ps.13.1",
+   "question_type": "short_answer",
+   "question_pattern": "What were the main reasons behind the declaration of Emergency in 1975?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Economic hardships, the JP movement",
+     "explain": "Economic hardships, the JP movement, the Allahabad High Court verdict against the Prime Minister, and a confrontation with the judiciary created a crisis."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps206.txt",
+   "concept": "c12ps.13.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why did the opposition launch popular movements in the early 1970s?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Rising prices, unemployment, and allegations",
+     "explain": "Rising prices, unemployment, and allegations of corruption eroded government credibility, prompting movements like the JP movement."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

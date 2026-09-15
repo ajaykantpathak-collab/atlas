@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_010",
+   "title": "c12_eco_cbse_02_010",
+   "questions": [
+    {
+     "q": "Define Price Elasticity of Demand and write the formula for the Percentage Method. Why is the coefficient usually negative, and how do we interpret its absolute value?",
+     "a": "Price Elasticity of Demand (Ed) = (% Change in Quantity Demanded) / (% Change in Price). It is usually negative because of the Law of Demand (price and quantity demanded move in opposite directions). We interpret the absolute value: |Ed| > 1 = elastic (responsive), |Ed| = 1 = unitary elastic, |Ed| < 1 = inelastic (unresponsive). A wrong answer (e.g., \"Ed is positive\" or \"elastic means Ed < 1\") reveals confusion between the sign convention and the economic interpretation of magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A vegetable vendor sells tomatoes at ₹40/kg, selling 50 kg daily. He raises the price to ₹50/kg, and sales fall to 40 kg. Using the Total Outlay Method, determine whether demand is elastic, inelastic, or unitary elastic. Explain your reasoning without calculating the percentage formula.",
+     "a": "Initial total outlay = 40 × 50 = ₹2,000. New total outlay = 50 × 40 = ₹2,000. Total outlay remains unchanged → demand is unitary elastic (|Ed| = 1). A wrong answer (e.g., \"elastic because quantity fell\") reveals the student is confusing the direction of quantity change with the total outlay test. The Total Outlay Method looks only at whether P×Q rises, falls, or stays constant when price changes.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate Ed using the Percentage Method for the following: Price falls from ₹100 to ₹80, quantity demanded rises from 200 units to 250 units. Show all steps including percentage change calculations.",
+     "a": "Step 1: %ΔQ = [(250-200)/200] × 100 = +25%. Step 2: %ΔP = [(80-100)/100] × 100 = -20%. Step 3: Ed = 25% / (-20%) = -1.25. Step 4: |Ed| = 1.25 > 1 → Elastic demand. A wrong answer (e.g., using initial values only for denominator, or getting +1.25) reveals errors in percentage change formula (should use original/base values) or sign handling. Competitive exams often trap students who forget the negative sign or use average values incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "If demand for a good is inelastic (|Ed| < 1), and a firm raises its price, what happens to its total revenue? Explain using both the Total Outlay Method logic and the Percentage Method logic.",
+     "a": "Total Outlay Method: Price ↑ → Total Outlay (Revenue) ↑ (since quantity falls proportionately less). Percentage Method: |%ΔQ| < |%ΔP|, so the percentage drop in quantity is smaller than the percentage rise in price → P×Q increases. A wrong answer (e.g., \"revenue falls\") reveals the student hasn't internalized the inverse relationship between elasticity and revenue direction. This is a classic board exam trap: confusing elastic vs inelastic revenue outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A mobile phone manufacturer observes that when it reduces price from ₹20,000 to ₹18,000, quantity sold increases from 1,000 to 1,100 units. The marketing head claims \"demand is elastic so revenue will rise.\" Evaluate this claim using calculations.",
+     "a": "%ΔQ = [(1100-1000)/1000]×100 = +10%. %ΔP = [(18000-20000)/20000]×100 = -10%. Ed = 10%/(-10%) = -1 → Unitary elastic (|Ed|=1). Total revenue before = 20,000×1,000 = ₹20 crore. After = 18,000×1,100 = ₹19.8 crore. Revenue FELL slightly (rounding). The claim is FALSE — demand is unitary elastic, not elastic. A wrong evaluation reveals the student assumes any quantity increase means elastic demand, ignoring the proportional comparison. This tests precise calculation vs rough intuition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a seller would WANT demand to be inelastic for their product, and another where they would WANT elastic demand. Explain the pricing strategy in each case using the Total Outlay Method.",
+     "a": "Inelastic scenario: Life-saving drug (e.g., insulin). Seller raises price → total outlay rises because patients must buy regardless. Strategy: Increase price to maximise revenue. Elastic scenario: Branded snacks (e.g., Kurkure). Seller lowers price → total outlay rises because consumers are price-sensitive and switch brands easily. Strategy: Discount to gain market share and revenue. A poor answer gives generic goods without linking to the total outlay logic or confuses the direction of price change for each case.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

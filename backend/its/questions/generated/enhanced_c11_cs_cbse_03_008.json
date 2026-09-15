@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_008",
+   "title": "c11_cs_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a decision diamond in a flowchart, and how many outgoing flow lines can it have?",
+     "a": "A decision diamond represents a condition that evaluates to true or false; it must have exactly two outgoing flow lines, one labelled TRUE (or YES) and the other FALSE (or NO). A wrong answer (e.g., \"it can have multiple outgoing lines for multiple conditions\") reveals the student confuses a decision diamond with a multi-way selection structure like a switch-case, or thinks a single diamond can handle an else-if ladder without nesting.",
+     "self_check": true
+    },
+    {
+     "q": "In pseudocode, consider the following fragment:\n```\nIF marks >= 90 THEN\n    grade <- 'A'\nELSE\n    IF marks >= 75 THEN\n        grade <- 'B'\n    ELSE\n        grade <- 'C'\n    END IF\nEND IF\n```\nIf the input `marks` is 85, what value is assigned to `grade`? Explain the execution path.",
+     "a": "The value assigned is 'B'. Execution: First condition `marks >= 90` is false (85 >= 90 is false), so the ELSE block executes. Inside it, the nested condition `marks >= 75` is true (85 >= 75), so `grade <- 'B'` executes. A wrong answer (e.g., 'A' or 'C') reveals the student either ignores the nesting and thinks both conditions are checked independently, or mis-evaluates the Boolean logic due to not tracing the control flow step by step.",
+     "self_check": true
+    },
+    {
+     "q": "Design an algorithm in pseudocode that reads three integers (a, b, c) and prints the largest. Use only if-else constructs (no compound conditions with AND/OR). Provide a dry-run table for inputs a=10, b=25, c=15.",
+     "a": "Pseudocode:\n```\nREAD a, b, c\nIF a >= b THEN\n    IF a >= c THEN\n        PRINT a\n    ELSE\n        PRINT c\n    END IF\nELSE\n    IF b >= c THEN\n        PRINT b\n    ELSE\n        PRINT c\n    END IF\nEND IF\n```\nDry-run for (10,25,15):\n| Step | a | b | c | Condition Evaluated | Result | Action |\n|------|---|---|---|---------------------|--------|--------|\n| 1    |10 |25 |15 | a >= b (10>=25)     | False  | Go to ELSE |\n| 2    |10 |25 |15 | b >= c (25>=15)     | True   | PRINT b (25) |\nA wrong answer (e.g., printing 10 or 15) reveals the student cannot translate the \"maximum of three\" logic into nested branching without compound conditions, or fails to trace the nested structure correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two pseudocode fragments for checking if a number `n` is positive, negative, or zero. Are they logically equivalent? Justify.\nFragment X:\n```\nIF n > 0 THEN PRINT \"Positive\"\nELSE IF n < 0 THEN PRINT \"Negative\"\nELSE PRINT \"Zero\"\nEND IF\n```\nFragment Y:\n```\nIF n > 0 THEN PRINT \"Positive\"\nEND IF\nIF n < 0 THEN PRINT \"Negative\"\nEND IF\nIF n = 0 THEN PRINT \"Zero\"\nEND IF\n```",
+     "a": "No, they are not logically equivalent for all inputs. Fragment X is an else-if ladder: exactly one block executes because the conditions are mutually exclusive and the structure ensures only one path is taken. Fragment Y uses three independent if statements: for n=5, Fragment X prints only \"Positive\", but Fragment Y prints \"Positive\" (first if true), then checks n<0 (false), then checks n=0 (false) — same output here. However, if the actions had side effects (e.g., incrementing a counter), Fragment Y would evaluate all three conditions every time, while Fragment X stops after the first true. A wrong answer (\"yes they are equivalent\") reveals the student thinks only about output for this specific case and ignores the control flow semantics of else-if vs independent ifs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this pseudocode to classify a triangle given sides a, b, c:\n```\nIF a = b THEN\n    IF b = c THEN\n        PRINT \"Equilateral\"\n    ELSE\n        PRINT \"Isosceles\"\n    END IF\nELSE\n    IF b = c OR a = c THEN\n        PRINT \"Isosceles\"\n    ELSE\n        PRINT \"Scalene\"\n    END IF\nEND IF\n```\nCritique this algorithm. Does it correctly handle all valid triangles? What about invalid side lengths (e.g., 1,2,3)?",
+     "a": "The algorithm correctly classifies valid triangles by side equality but does NOT validate the triangle inequality theorem (sum of any two sides > third). For invalid sides like (1,2,3), it would incorrectly print \"Scalene\" because no sides are equal. A robust algorithm must first check `IF a+b>c AND b+c>a AND a+c>b` before classification. A wrong answer (e.g., \"it works for all triangles\") reveals the student focuses only on the branching logic for equality and overlooks the prerequisite domain validation — a common error in problem-solving where boundary/pre-condition checks are omitted.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that requires a three-level nested branching decision (if inside if inside if). Write the pseudocode and draw the corresponding flowchart structure (describe the symbols and flow). The scenario must involve at least one numeric range check and one categorical choice.",
+     "a": "Scenario: A bank offers loan interest rates based on: (1) Employment type (Government/Private/Self-employed), (2) For Government employees, further check: if salary >= 50000 then 7% else 8%, (3) For Private employees, check credit score: if >= 750 then 9% else 11%. Self-employed get 12% flat.\nPseudocode:\n```\nREAD emp_type, salary, credit_score\nIF emp_type = \"Government\" THEN\n    IF salary >= 50000 THEN\n        rate <- 7\n    ELSE\n        rate <- 8\n    END IF\nELSE IF emp_type = \"Private\" THEN\n    IF credit_score >= 750 THEN\n        rate <- 9\n    ELSE\n        rate <- 11\n    END IF\nELSE\n    rate <- 12\nEND IF\nPRINT rate\n```\nFlowchart: Start -> Input parallelogram -> Decision diamond (emp_type?) with three outgoing? Actually, flowchart for else-if ladder uses nested diamonds: first diamond \"emp_type = Govt?\" TRUE -> diamond \"salary>=50000?\" -> assign rate; FALSE -> diamond \"emp_type = Private?\" TRUE -> diamond \"credit_score>=750?\" -> assign rate; FALSE -> assign 12. All converge to output. A poor answer (e.g., flat structure without nesting, or missing convergence) reveals the student cannot map multi-level categorical+numeric decisions to nested flowchart diamonds with proper convergence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

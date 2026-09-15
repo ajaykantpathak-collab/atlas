@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_001",
+   "title": "c12_ip_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the default index of a Pandas Series created from a list of 5 elements if no explicit `index` argument is provided?",
+     "a": "The default index is a `RangeIndex` starting at 0 and ending at 4 (i.e., `[0, 1, 2, 3, 4]`). A wrong answer (e.g., \"1 to 5\" or \"no index\") reveals the student thinks indexing starts at 1 (common in spreadsheets) or that a Series has no index unless explicitly given — both are fundamental misunderstandings of pandas' 0-based positional indexing inherited from Python/NumPy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you create a Series from a Python dictionary without specifying an `index` argument.",
+     "a": "The dictionary keys become the Series index (in the same order as the dictionary's iteration order, which is insertion order in Python 3.7+), and the dictionary values become the Series values. A wrong answer like \"the values become the index\" or \"the order is alphabetical\" shows the student confuses key/value roles or assumes sorting — a critical error because later operations (alignment, arithmetic) depend on correct index-value pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the exact code to create a Series named `sales` from the list `[200, 450, 300]` with custom index `['Jan', 'Feb', 'Mar']`. Then write the statement to display the value for `'Feb'`.",
+     "a": "```python\nimport pandas as pd\nsales = pd.Series([200, 450, 300], index=['Jan', 'Feb', 'Mar'])\nprint(sales['Feb'])   # outputs 450\n```\nIf the student writes `sales[1]` or `sales.Feb`, they are mixing positional indexing (which works but is not the labeled way) or attribute access (which fails for labels with spaces/special characters). This reveals confusion between positional vs. labeled indexing — a major source of bugs in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the index of a Series created from a NumPy array `np.array([10,20,30])` with the index of a Series created from a list `[10,20,30]`. Are they identical? Why or why not?",
+     "a": "Yes, they are identical: both get a default `RangeIndex(0, 3)` because no explicit `index` was passed. The underlying data container (list vs. ndarray) does **not** affect the index generation. A student who says \"the array keeps its own index\" or \"the list gets string indices\" misunderstands that pandas **always** creates a fresh index unless told otherwise — a key point for JEE-style questions where data source changes but index behavior must stay consistent.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\nimport pandas as pd\ns = pd.Series({'a': 1, 'b': 2}, index=['a', 'b', 'c'])\nprint(s)\n```\nPredict the output and explain whether the `index` argument overrides, extends, or filters the dictionary keys.",
+     "a": "Output:\n```\na    1.0\nb    2.0\nc    NaN\ndtype: float64\n```\nThe `index` argument **extends** the index: it takes the union of the requested index `['a','b','c']` and the dictionary keys `['a','b']`. Missing keys (`'c'`) get `NaN`. This is a classic board exam trap — students expect an error or truncation. Understanding that pandas aligns on the **provided index** (filling missing with NaN) is essential for later arithmetic operations on misaligned Series.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would create a Series from a dictionary **instead of** a list. Write the dictionary and the Series creation code. Explain why the dictionary is more natural here.",
+     "a": "Scenario: Storing the capital cities of five Indian states.\n```python\ncapitals = {'Maharashtra': 'Mumbai', 'Tamil Nadu': 'Chennai', \n            'Karnataka': 'Bengaluru', 'Gujarat': 'Gandhinagar', \n            'Rajasthan': 'Jaipur'}\ncap_series = pd.Series(capitals)\n```\nThe dictionary is natural because the state name (key) is the **identifier** for the capital (value) — we want to look up capitals by state, not by position. A list would force us to remember that index 0 = Maharashtra, index 1 = Tamil Nadu, etc., which is error-prone. A poor answer uses a list with a separate index list, showing the student doesn't grasp the semantic fit of key-value pairs for labeled data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

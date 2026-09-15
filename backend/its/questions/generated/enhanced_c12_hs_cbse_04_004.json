@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_004",
+   "title": "c12_hs_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the four commercially exploited silk varieties in India and the specific host plant for each.",
+     "a": "Correct: (1) Mulberry — *Morus alba* (mulberry); (2) Tasar — *Terminalia tomentosa* (asan) / *Shorea robusta* (sal); (3) Eri — *Ricinus communis* (castor) / *Heteropanax fragrans* (kesseru); (4) Muga — *Machilus bombycina* (som) / *Litsea monopetala* (soalu). A wrong answer that lists \"silk cotton\" or \"spider silk\" reveals confusion between true sericultural silks and other protein/cellulosic fibres; omitting host plants shows the student treats silk as a generic fibre rather than an agro-ecological product.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mulberry silk filament is finer and more uniform than Tasar silk, linking silkworm feeding behaviour and gland physiology.",
+     "a": "*Bombyx mori* (mulberry) is monophagous and domesticated; it feeds continuously on tender mulberry leaves, producing a steady fibroin secretion from two highly developed silk glands, yielding a uniform triangular cross-section (10–13 µm). *Antheraea mylitta* (Tasar) is polyphagous and semi-wild; irregular feeding on coarse forest leaves causes fluctuating gland pressure, producing a broader, wedge-shaped filament (15–25 µm) with frequent diameter variations. A wrong answer attributing the difference only to \"wild vs domestic\" misses the mechanistic link between leaf nutrition → gland hydrodynamics → filament geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A sericulturist harvests 100 kg of green mulberry cocoons. If the shell ratio is 22 % and the renditta is 8.5, calculate the expected raw silk yield in kg. Show all steps.",
+     "a": "Step 1: Shell weight = 100 kg × 0.22 = 22 kg cocoon shells.  \nStep 2: Renditta = kg green cocoons required for 1 kg raw silk = 8.5.  \nStep 3: Raw silk yield = Total green cocoons / Renditta = 100 kg / 8.5 = 11.76 kg.  \n(Alternative check: Shell weight / Raw silk recovery %; recovery ≈ 100/renditta × shell% = 100/8.5 × 0.22 ≈ 2.59 kg raw silk per 100 kg cocoons? Wait — standard formula: Raw silk (kg) = Green cocoon weight (kg) / Renditta. So 100/8.5 = 11.76 kg.)  \nA wrong answer using shell weight / renditta (22/8.5 = 2.59 kg) confuses renditta definition (based on green cocoon weight, not shell weight) — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the degumming loss percentage and tensile strength retention after degumming for Mulberry vs. Eri silk, and explain how this influences their respective fabric end-uses.",
+     "a": "Mulberry: sericin ~25–30 %; degumming loss 24–28 %; fibroin retains >90 % tenacity → high-strength lustrous fabrics (sarees, ties). Eri: sericin ~10–15 %; degumming loss only 8–12 %; but fibroin has lower crystallinity → tenacity drops to 60–70 % of original → used for spun yarns, shawls, knitted goods where bulk > strength. A wrong answer stating \"Eri is weaker because it has less sericin\" reverses causality: lower sericin means less weight loss, but the intrinsic fibroin structure (lower β-sheet content) governs strength.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Stifling cocoons at 100 °C for 15 minutes is universally optimal for all silk types.\" Defend your judgement with species-specific thermal death points and filament damage mechanisms.",
+     "a": "The statement is false. *Bombyx mori* pupae die at 55–60 °C; 100 °C steam for 10–12 min is standard. *Antheraea* (Tasar) pupae tolerate higher temperatures; prolonged 100 °C exposure causes fibroin hydrolysis and yellowing, reducing grade. *Philosamia ricini* (Eri) cocoons are open-mouthed and pedunculate; dry heat at 70–80 °C is preferred to avoid waterlogging the loose filament. A wrong answer treating all cocoons identically ignores that stifling must kill the pupa without denaturing fibroin — a species-specific thermal window.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini sericulture calendar for a bivoltine mulberry farmer in Karnataka showing: (a) chawki rearing duration, (b) late-age rearing duration, (c) mounting date relative to brushing, (d) two critical hygiene interventions with timing. Justify each entry with silkworm physiology.",
+     "a": "Sample calendar (April crop):  \nDay 0: Brushing (hatching) — larvae 2 mm, high mortality risk → **Intervention 1**: Formalin 2 % + bleaching powder 3 % bed disinfection.  \nDays 1–7: Chawki rearing (1st–2nd instar) — tender leaves, high humidity → **Intervention 2**: Bed cleaning every 12 h to prevent *Flacherie* (bacterial enteritis).  \nDays 8–24: Late-age rearing (3rd–5th instar) — mature leaves, 90 % biomass gain.  \nDay 25: Mounting (ripe worms spin) — spinning lasts 72 h.  \nDay 28: Harvest.  \nJustification: Chawki duration matches tracheal system development; mounting timing aligns with silk gland peak fibroin synthesis (day 24–25). A poor answer lists dates without physiological triggers (e.g., \"mount on day 25 because book says so\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

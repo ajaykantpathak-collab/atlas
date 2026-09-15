@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class11_political_theory_ch4",
+ "concepts": [
+  {
+   "id": "c11pt.4.1",
+   "title": "Meaning of Social Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Social Justice' refers to.",
+     "a": "Social justice is the principle that a society should be organised so that all its members receive a fair share of its benefits and burdens, and that no group is systematically disadvantaged or excluded from a life of dignity because of birth, caste, gender, or economic status.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Social Justice'.",
+     "a": "Social justice combines fair distribution of resources and opportunities with the removal of discrimination, so that every person can live with dignity and develop their potential.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning of Social Justice' taught, and from which source text?",
+     "a": "Introduction: What is Social Justice",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.2",
+   "title": "Distributive Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Distributive Justice' refers to.",
+     "a": "Distributive justice is the branch of justice concerned with the fair allocation of resources, goods, benefits, and burdens among the members of a society, so that no section is unfairly deprived or privileged.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Distributive Justice'.",
+     "a": "Distributive justice asks how society's wealth, income, opportunities, and burdens should be shared so that the distribution is fair and just.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Distributive Justice' taught, and from which source text?",
+     "a": "Distributive Justice",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.3",
+   "title": "Justice and Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Justice and Equality' refers to.",
+     "a": "The relationship between justice and equality holds that genuine justice often requires equality of status and opportunity, but may also permit unequal treatment where it is needed to offset disadvantage and bring about a fair outcome.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Justice and Equality'.",
+     "a": "Justice and equality are closely linked: equality is a condition of justice, but justice may sometimes require unequal or differential treatment to achieve a fair result.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Justice and Equality' taught, and from which source text?",
+     "a": "Justice and Equality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.4",
+   "title": "Rawls' Theory of Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rawls' Theory of Justice' refers to.",
+     "a": "John Rawls' theory of justice proposes that a just society is one whose basic institutions would be chosen by free and equal persons behind a 'veil of ignorance', where no one knows their future caste, class, or talents, leading to two principles: equal basic liberties for all, and social and economic inequalities arranged to benefit the least advantaged.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rawls' Theory of Justice'.",
+     "a": "Rawls argues that justice is fairness: rational people unaware of their own position would choose equal liberties and would permit inequalities only if they improve the position of the worst-off.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rawls' Theory of Justice' taught, and from which source text?",
+     "a": "John Rawls: Theory of Justice",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.5",
+   "title": "Entitlement Theory (Nozick)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Entitlement Theory (Nozick)' refers to.",
+     "a": "Robert Nozick's entitlement theory holds that a distribution of holdings is just if it arises from just acquisition of unowned resources or just transfer through voluntary exchange, and that any patterned redistribution by the state, such as taxation for welfare, is unjust because it violates individual liberty.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Entitlement Theory (Nozick)'.",
+     "a": "Nozick argues that justice consists in respecting entitlements arising from fair acquisition and transfer, and that redistributive taxation to enforce equality is a violation of individual rights.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Entitlement Theory (Nozick)' taught, and from which source text?",
+     "a": "Robert Nozick: Entitlement Theory",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.6",
+   "title": "Social Justice in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Justice in India' refers to.",
+     "a": "Social justice in India refers to the constitutional and policy efforts to remove caste, gender, and economic discrimination and to ensure equal dignity and opportunity for all, through provisions like fundamental rights, reservations, and welfare schemes for the disadvantaged.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Justice in India'.",
+     "a": "The Indian approach to social justice combines constitutional guarantees of equality with affirmative action and welfare programmes to uplift Scheduled Castes, Scheduled Tribes, OBCs, women, and the poor.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Social Justice in India' taught, and from which source text?",
+     "a": "Social Justice in the Indian Context",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.7",
+   "title": "Reservation and Social Justice",
+   "questions": [
+    {
+     "q": "Using the method 'Reservation and Social Justice', work with: quota_percent = 12, reserved_seats = 6, total_seats = 80. Carry the chain through step by step and give the final value of the result.",
+     "a": "74 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Reservation and Social Justice' and work with: quota_percent = 8, reserved_seats = 10, total_seats = 500. Carry the chain through step by step and give the final value of the result.",
+     "a": "490 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reservation and Social Justice' refers to.",
+     "a": "Reservation is the policy of setting aside a fixed percentage of seats in legislatures, educational institutions, and government jobs for Scheduled Castes, Scheduled Tribes, and Other Backward Classes to compensate for historical exclusion and to give them fair access to opportunities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reservation and Social Justice'.",
+     "a": "Reservations are a tool of social justice that give historically excluded groups access to representation, education, and employment so that they can overcome disadvantage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reservation and Social Justice', in plain ASCII form.",
+     "a": "reserved_seats = total_seats * quota_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.8",
+   "title": "Affirmative Action and Social Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Affirmative Action and Social Justice' refers to.",
+     "a": "Affirmative action for social justice includes a range of state measures beyond reservations, such as scholarships, hostels, special coaching, and welfare schemes, designed to enable disadvantaged groups to compete on equal terms and to overcome the effects of historical discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Affirmative Action and Social Justice'.",
+     "a": "Affirmative action goes beyond quotas to provide support that builds capacity among disadvantaged groups, helping them convert formal equality into substantive social justice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Affirmative Action and Social Justice' taught, and from which source text?",
+     "a": "Affirmative Action and Social Justice",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.9",
+   "title": "Liberty, Equality, and Justice: Balancing the Values",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Liberty, Equality, and Justice: Balancing the Values' refers to.",
+     "a": "The integration of liberty, equality, and justice holds that a just society must protect individual liberty, ensure equality of status and opportunity, and secure a fair distribution of benefits and burdens, balancing these values so that none overrides the others unjustly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liberty, Equality, and Justice: Balancing the Values'.",
+     "a": "Liberty, equality, and justice are interdependent: liberty without equality can become privilege, equality without liberty can become coercion, and justice requires a balance of both.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Liberty, Equality, and Justice: Balancing the Values' taught, and from which source text?",
+     "a": "Integrating the Values",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

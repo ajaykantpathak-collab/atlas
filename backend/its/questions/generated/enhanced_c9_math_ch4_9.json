@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_9",
+   "title": "c9_math_ch4_9",
+   "questions": [
+    {
+     "q": "Identify the three standard algebra tiles and the algebraic term each represents. Sketch or describe the shape and label its dimensions (e.g., side length \\(x\\) or \\(1\\)).",
+     "a": "The three standard tiles are: (1) a large square with side \\(x\\), area \\(x^2\\); (2) a rectangle with sides \\(x\\) and \\(1\\), area \\(x\\); (3) a small square with side \\(1\\), area \\(1\\). A wrong answer (e.g., saying the rectangle represents \\(x^2\\) or the small square represents \\(x\\)) reveals the student has not internalised the area-to-term mapping, which is the foundation of the entire model.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why arranging tiles for \\((x+2)(x+3)\\) produces exactly one \\(x^2\\) tile, five \\(x\\) tiles, and six \\(1\\) tiles. Connect each tile group to a specific step in the distributive expansion.",
+     "a": "The product \\((x+2)(x+3)\\) creates a rectangle of dimensions \\((x+2)\\) by \\((x+3)\\). The \\(x^2\\) tile comes from \\(x \\times x\\). The five \\(x\\) tiles come from \\(x \\times 3\\) (three \\(x\\) tiles) and \\(2 \\times x\\) (two \\(x\\) tiles). The six \\(1\\) tiles come from \\(2 \\times 3\\). If a student says \"it's just the formula,\" they are recalling the identity without understanding the geometric distributive property that the tiles visualise.",
+     "self_check": true
+    },
+    {
+     "q": "Use algebra tiles to factorise \\(x^2+6x+8\\). List the tiles you start with, describe the rectangle you form, and state the two factors (side lengths).",
+     "a": "Start with: 1 \\(x^2\\) tile, 6 \\(x\\) tiles, 8 unit tiles. Arrange the \\(x^2\\) tile in the corner. Place 4 \\(x\\) tiles along one side and 2 \\(x\\) tiles along the other (total 6). Fill the remaining corner with 8 unit tiles in a \\(4 \\times 2\\) array. The rectangle dimensions are \\((x+4)\\) and \\((x+2)\\). Factors: \\((x+4)(x+2)\\). A common error is arranging the \\(x\\) tiles as 3 and 3 (giving \\(3 \\times 3 = 9\\) units needed, but only 8 available), revealing the student is not checking the constant term consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tile arrangements for \\((x+3)^2\\) and \\((x-3)^2\\). How do the tiles for the negative terms ( \\(-x\\) and \\(-1\\) ) change the physical layout? What \"zero pairs\" are introduced?",
+     "a": "For \\((x+3)^2\\): one \\(x^2\\), six \\(+x\\) tiles, nine \\(+1\\) tiles forming a square of side \\((x+3)\\). For \\((x-3)^2\\): one \\(x^2\\), six \\(-x\\) tiles, nine \\(+1\\) tiles. The negative \\(x\\) tiles are placed extending inward, requiring zero pairs (\\(+x\\) and \\(-x\\) together) to complete the square shape visually. The student must recognise that \\((-3)\\times(-3)=+9\\) gives positive unit tiles, but the cross terms are negative. A wrong answer ignores the sign rules for area (negative × negative = positive) or misplaces zero pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorises \\(x^2+4x+3\\) and claims the rectangle has sides \\((x+1)\\) and \\((x+3)\\). They show a rectangle with 1 \\(x^2\\), 4 \\(x\\) tiles, and 3 unit tiles. Evaluate if their arrangement is valid. If yes, explain why; if no, identify the flaw.",
+     "a": "The claim is correct. \\(x^2+4x+3 = (x+1)(x+3)\\). The rectangle uses 1 \\(x^2\\), 4 \\(x\\) tiles (1 on one side, 3 on the other), and 3 unit tiles (\\(1 \\times 3\\)). The arrangement is valid because the \\(x\\) tiles split as 1 and 3 (sum 4, product 3). If a student says it's invalid because \"the rectangle isn't a square,\" they hold the misconception that factorisation always yields a square, confusing it with perfect square identities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a quadratic expression that requires exactly 1 \\(x^2\\) tile, 5 \\(x\\) tiles, and 6 unit tiles to model. Factorise it using tiles, and then write a different quadratic that uses the same number of \\(x^2\\) and \\(x\\) tiles but a different number of unit tiles that CANNOT be factored into a rectangle with integer sides.",
+     "a": "Expression: \\(x^2+5x+6\\). Factors: \\((x+2)(x+3)\\) (since \\(2+3=5\\), \\(2\\times3=6\\)). A non-factorable example with same \\(x^2\\) and \\(x\\) tiles: \\(x^2+5x+7\\). No integer pair sums to 5 and multiplies to 7. A poor answer might give \\(x^2+5x+4\\) (which factors) or not explain why 7 fails, showing they don't connect the tile count to the sum/product relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

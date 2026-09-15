@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_009",
+   "title": "c11_bs_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define the term 'fiduciary position' in the context of a promoter's relationship with the company they promote.",
+     "a": "A fiduciary position means the promoter stands in a relationship of trust and confidence with the company and must act in its best interest, disclose all material facts and any personal profits made from transactions with the company, and not misuse their position for personal gain. A wrong answer (e.g., \"promoter is an agent of the company\") reveals the student confuses fiduciary duty with agency relationship, not understanding that no principal-agent relationship can exist before incorporation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a promoter is neither an agent nor a trustee of the company they promote.",
+     "a": "A promoter is not an agent because the company (principal) does not exist at the time of promotion, so no principal-agent relationship can arise. A promoter is not a trustee because there is no trust property or cestui que trust (beneficiary) until the company is incorporated. A wrong answer (e.g., \"promoter is an agent because they act on behalf of the company\") reveals the student applies agency concepts mechanically without checking the prerequisite of an existing principal.",
+     "self_check": true
+    },
+    {
+     "q": "A promoter purchases a plot of land for ₹50 lakhs for the proposed company and sells it to the company after incorporation for ₹70 lakhs, disclosing the ₹20 lakh profit. The company later discovers the promoter had secretly agreed with the seller to receive a ₹5 lakh kickback. What remedies does the company have?",
+     "a": "The company can rescind the contract for the land purchase, recover the ₹70 lakhs paid, and claim damages for any loss suffered. The undisclosed ₹5 lakh kickback is a secret profit violating fiduciary duty; disclosure of the ₹20 lakh profit does not cure the non-disclosure of the kickback. A wrong answer (e.g., \"no remedy since profit was disclosed\") reveals the student thinks partial disclosure satisfies fiduciary duty, missing that ALL material profits must be disclosed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast preliminary contracts (pre-incorporation contracts) and provisional contracts (post-incorporation but pre-commencement contracts) in terms of legal bindingness on the company and promoter liability.",
+     "a": "Preliminary contracts are not binding on the company (no ratification possible), promoters remain personally liable, and the company may enter fresh contracts if it wishes. Provisional contracts are binding on the company once it obtains the Certificate of Commencement of Business, but not before; promoters are not personally liable for provisional contracts. A wrong answer (e.g., \"both are binding after incorporation\") reveals the student confuses the two contract types and misses that preliminary contracts can never be ratified—only replaced by fresh contracts.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since promoters take all the risk and effort to form a company, they should be legally entitled to recover all promotion expenses from the company.\" Evaluate this statement with reference to the Companies Act 2013.",
+     "a": "The statement is incorrect. Promoters have no legal right to claim promotion expenses; reimbursement is purely at the company's discretion. The law denies automatic recovery to prevent promoters from inflating expenses. However, the company may choose to reimburse, remunerate via lump sum/commission, or allot shares/debentures. A wrong answer (e.g., \"promoters have a legal right to recover expenses\") reveals the student confuses moral expectation with legal entitlement and misses the policy reason: preventing abuse of the fiduciary position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a promoter's action creates a conflict between their fiduciary duty and personal interest, and explain how the law resolves it. Include at least two distinct legal principles from this topic.",
+     "a": "Scenario: Promoter P incorporates GreenTech Ltd. to manufacture solar panels. P owns a factory suitable for production. P sells the factory to GreenTech Ltd. for ₹5 crore without disclosing that P bought it for ₹3 crore six months earlier. Legal principles: (1) Fiduciary duty requires full disclosure of the ₹2 crore profit; (2) Non-disclosure allows the company to rescind the contract and recover ₹5 crore. Resolution: GreenTech Ltd. can set aside the sale, recover the purchase price, and claim damages. A poor answer (e.g., only identifies one principle or suggests the company must accept the sale) reveals inability to synthesize fiduciary disclosure duty with the remedy of rescission.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

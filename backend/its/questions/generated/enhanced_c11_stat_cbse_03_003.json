@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_003",
+   "title": "c11_stat_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define \"class frequency\" in a frequency distribution table and state what it represents.",
+     "a": "Class frequency is the number of observations (data values) that fall within a specific class interval. It represents how many times values in that range occur in the raw data. A wrong answer (e.g., \"it's the class width\" or \"it's the midpoint\") reveals the student confuses structural components of the table (limits, width, midpoint) with the actual count of observations — a fundamental category error that will make all subsequent calculations meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "In the exclusive method, a value exactly equal to the upper class limit of a class — say 50 in the class 40–50 — is included in which class: 40–50 or 50–60? Explain why.",
+     "a": "In the exclusive method, the value 50 goes to the next class 50–60 because the upper limit is excluded (the class includes values ≥ lower limit and < upper limit). A wrong answer (putting 50 in 40–50) reveals the student hasn't internalised the \"upper limit excluded\" convention and will create overlapping or gapped classes, leading to double-counting or missing data — a critical error in board exam construction questions.",
+     "self_check": true
+    },
+    {
+     "q": "Raw data: 12, 25, 37, 48, 52, 61, 73, 84, 95, 8, 19, 30, 41, 55, 67, 78, 89, 99 (18 values). Construct a frequency distribution with 5 equal classes starting from 0. Show tally marks and frequencies.",
+     "a": "Range = 99 – 8 = 91. With 5 classes, class width ≈ 91/5 = 18.2 → take 20 (convenient). Classes: 0–20, 20–40, 40–60, 60–80, 80–100. Tally: 0–20: 12, 8, 19 → 3; 20–40: 25, 37, 30 → 3; 40–60: 48, 52, 41, 55 → 4; 60–80: 61, 73, 67, 78 → 4; 80–100: 95, 84, 89, 99 → 4. Total = 18. A wrong answer (e.g., unequal widths, missing tally, wrong class for boundary values like 20) reveals inability to translate the 5-step construction process (range → width → limits → tally → frequency) into action — the core skill this node teaches.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the frequency distribution in Example 4 (equal classes of width 10) and Table 3.7 (unequal classes). Why does Table 3.7 split the central classes (40–50, 50–60, 60–70) into narrower intervals of width 5 while keeping outer classes at width 10?",
+     "a": "The central classes have high frequency concentration (63% of data in 40–70). Narrower intervals there make class marks closer to actual observations, reducing the \"loss of information\" from assuming all values equal the midpoint. Outer classes are sparse; wider intervals there don't distort much. A wrong answer (e.g., \"to make total classes equal\" or \"random choice\") shows the student doesn't grasp the trade-off between detail and simplicity — the guiding principle for choosing class intervals in real data analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a frequency distribution for the discrete variable \"number of children per family\" (values: 0, 1, 2, 3, 4, 5) using class intervals 0–1, 1–2, 2–3, 3–4, 4–5. Evaluate this approach. Is it appropriate? What should be done instead?",
+     "a": "Inappropriate. For discrete variables taking only integer values, we use a frequency array — each distinct value (0, 1, 2, 3, 4, 5) gets its own row with its exact frequency. Grouping into intervals like 0–1 forces continuous-variable logic onto discrete data, losing the exact count for each value (e.g., we wouldn't know how many families have exactly 2 children vs 3). A student who defends the intervals reveals they haven't distinguished discrete vs continuous variable treatment — a specific Class 11 conceptual gap (NCERT Section 4 and Table 3.8).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would deliberately choose UNEQUAL class intervals for a frequency distribution. Specify the variable, the likely data pattern, and how you would set the class limits.",
+     "a": "Scenario: Monthly household income in a village (₹). Most households earn ₹3,000–10,000 (dense cluster), a few earn ₹10,000–50,000, and 1–2 earn ₹1,00,000+. Use narrow intervals (₹500 width) for ₹3,000–10,000, wider (₹5,000) for ₹10,000–50,000, and one open-ended class \"₹50,000 and above\". This matches NCERT's income example (Section \"Should we have equal or unequal sized class intervals?\"). A poor answer (equal intervals everywhere, or no justification) shows the student treats class interval choice as a mechanical rule rather than a decision driven by data shape — the analytical thinking board exams reward.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

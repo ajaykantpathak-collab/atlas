@@ -1,0 +1,371 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 105,
+ "chapter_title": "Tribes, Nomads and Settled Communities",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees205.txt",
+ "concepts": [
+  {
+   "id": "gess.105.1.1",
+   "title": "Kinship and Economic Patterns of Tribal Communities",
+   "section": "Beyond Big Cities: Tribal Societies",
+   "definition": "Communities organized around shared lineage and communal resource management, maintaining distinct traditions outside orthodox Varna social orders.",
+   "formula": "none",
+   "key_idea": "Tribal groups sustained autonomy through joint landholding, ancestral ties, and resource combination.",
+   "textbook_ref": "gess105.txt lines 15-45",
+   "question_patterns": [
+    "how did tribal societies structure their land and resource allocation in Class 7 history",
+    "explain the role of kinship bonds in tribal livelihoods",
+    "what features distinguished tribal communities from caste-based societies",
+    "describe how tribal groups combined agriculture, hunting, and pastoralism",
+    "in what ways did tribal groups preserve their cultural independence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify tribal organization structures",
+     "explain": "Tribal communities were united by kinship ties and jointly controlled land and pasture resources."
+    },
+    {
+     "step": 2,
+     "action": "Analyze economic activities",
+     "explain": "Livelihoods combined agriculture, pastoral herding, and hunting-gathering based on local geography."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.1.2",
+   "title": "Regional Distribution of Subcontinent Tribes",
+   "section": "Who were Tribal People?",
+   "definition": "The geographic spread of prominent indigenous lineages such as Khokhars, Gakkhars, Nagas, Cheros, Bhils, and Gonds across varied ecological zones.",
+   "formula": "none",
+   "key_idea": "Tribal groups dominated diverse habitats from mountainous frontiers to dense central forests.",
+   "textbook_ref": "gess105.txt lines 46-90",
+   "question_patterns": [
+    "where were the major tribal groups located across the Indian subcontinent in medieval times",
+    "identify the regions controlled by the Khokhars, Gakkhars, and Balochis",
+    "which tribes inhabited the north-eastern and eastern parts of India",
+    "describe the territorial presence of Cheros, Mundas, and Santals",
+    "explain the geographic spread of the Bhils and Kolis in western India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Map tribal lineages to geographic zones",
+     "explain": "Khokhars and Gakkhars inhabited Punjab; Balochis in the north-west; Gaddis in western Himalayas; Nagas and Ahoms in the north-east."
+    },
+    {
+     "step": 2,
+     "action": "Locate central and southern tribal groups",
+     "explain": "Cheros, Mundas, and Santals held territories in Bihar, Jharkhand, and Orissa, while Bhils and Gonds spanned western and central India."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.2.1",
+   "title": "Nomadic Pastoralism and Itinerant Service Groups",
+   "section": "How Nomads and Mobile People Lived",
+   "definition": "Mobile populations moving across pastoral territories with animal herds while exchanging animal products with settled farmers for agricultural goods.",
+   "formula": "none",
+   "key_idea": "Seasonal movement allowed pastoralists to trade animal produce for grain and crafted items.",
+   "textbook_ref": "gess105.txt lines 91-115",
+   "question_patterns": [
+    "how did nomadic pastoralists sustain their livelihood in medieval India",
+    "what goods were exchanged between mobile herders and settled agricultural communities",
+    "describe the activities of petty pedlars and itinerant groups in rural areas",
+    "explain the economic interaction between pastoral nomads and farmers",
+    "how did mobile communities transport their animals and goods across regions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine pastoral economic exchanges",
+     "explain": "Pastoral nomads provided milk, wool, and ghee to settled farmers in exchange for grain, cloth, and utensils."
+    },
+    {
+     "step": 2,
+     "action": "Identify itinerant trade and service groups",
+     "explain": "Pedlars made and sold mats, ropes, and sacks, while entertainers and mendicants moved between villages for sustenance."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.2.2",
+   "title": "The Banjara Nomad Traders and Tanda System",
+   "section": "How Nomads and Mobile People Lived",
+   "definition": "A specialized merchant nomadic community organized into traveling caravans called tandas that carried grain across long distances for markets and military forces.",
+   "formula": "none",
+   "key_idea": "Banjaras linked rural food production with urban supply chains and imperial campaigns.",
+   "textbook_ref": "gess105.txt lines 116-150",
+   "question_patterns": [
+    "who were the Banjaras and what was their role in trade",
+    "explain the concept and structure of a Banjara tanda",
+    "how did imperial rulers like Alauddin Khalji and Jahangir utilize Banjaras",
+    "describe Peter Mundy's historical observations regarding the Banjara lifestyle",
+    "what made the Banjaras vital for military logistics and town markets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Banjara caravan structure",
+     "explain": "Banjaras traveled as merchant caravans called tandas, transporting grain using thousands of bullocks."
+    },
+    {
+     "step": 2,
+     "action": "Detail economic and military significance",
+     "explain": "They bought grain in cheap markets, sold it in high-demand towns, and supplied armies during large military operations."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.3.1",
+   "title": "Emergence of Jatis and Caste Stratification",
+   "section": "Changing Society: New Castes and Hierarchies",
+   "definition": "Sub-caste formations arising from specialized occupational roles and the integration of tribal and artisan groups into the Varna structural framework.",
+   "formula": "none",
+   "key_idea": "Economic specialization replaced broader varna classifications with detailed sub-caste hierarchies.",
+   "textbook_ref": "gess105.txt lines 151-175",
+   "question_patterns": [
+    "how did new jatis emerge within the traditional varna system",
+    "what was the significance of the Uyyakondan Udaiyar inscription regarding rathakaras",
+    "explain how specialized artisans were integrated into caste society",
+    "why did jati become the primary basis for social organization",
+    "describe how tribal groups were incorporated as lower status jatis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the origin of specialized jatis",
+     "explain": "As economic needs expanded, specialized crafts like smithing, carpentry, and masonry were recognized as distinct jatis by Brahmanas."
+    },
+    {
+     "step": 2,
+     "action": "Examine social inclusion mechanisms",
+     "explain": "Inscriptions like that of Uyyakondan Udaiyar show assembly deliberations determining occupational statuses for groups like chariot-makers (rathakaras)."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.3.2",
+   "title": "Rajput Lineages and Social Elevation of Tribal Chiefs",
+   "section": "Changing Society: New Castes and Hierarchies",
+   "definition": "The process through which emerging warrior lineages and leading tribal families gained Kshatriya status through Brahmana endorsement and state formation.",
+   "formula": "none",
+   "key_idea": "Political power enabled influential tribal rulers to transition into recognized Rajput ruling dynasties.",
+   "textbook_ref": "gess105.txt lines 176-200",
+   "question_patterns": [
+    "how did new Rajput clans rise to power during the eleventh and twelfth centuries",
+    "explain how tribal ruling families attained Kshatriya status",
+    "why did dominant tribes in Punjab and Sind reject the orthodox caste system",
+    "what role did Brahmana support play in elevating tribal elites to ruling status",
+    "describe the relationship between state formation and Rajput social mobility"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Rajput social mobility",
+     "explain": "Various ruling lineages including Hunas, Chandelas, and Chalukyas established powerful states and gained Rajput recognition."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate regional responses to caste hierarchy",
+     "explain": "Leading tribal families joined the ruling elite with Brahmana support, while tribes in Punjab, Sind, and the North-West adopted Islam and rejected caste rules."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.4.1",
+   "title": "Gond Kingdom Village Administrative Structure",
+   "section": "A Closer Look: The Gonds",
+   "definition": "A hierarchical administrative framework in Gondwana dividing a kingdom into garhs, where each garh contained chaurasis of 84 villages subdivided into barhots of 12 villages.",
+   "formula": "total_villages = num_chaurasi * 84",
+   "key_idea": "Gond administrative hierarchy systematically grouped villages into units of 84 and 12.",
+   "textbook_ref": "gess105.txt lines 201-230",
+   "question_patterns": [
+    "in Class 7 history how many total villages are in a Gond kingdom division with num_chaurasi chaurasis",
+    "calculate the total number of villages in num_chaurasi chaurasis under the Gond administrative system",
+    "find the total village count for num_chaurasi chaurasi units in Garha Katanga",
+    "determine how many villages make up num_chaurasi chaurasis in Gondwana",
+    "what is the total number of villages across num_chaurasi chaurasi administrative divisions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total villages from chaurasi count",
+     "explain": "Each chaurasi administrative unit contains exactly 84 villages.",
+     "compute": "total_villages = num_chaurasi * 84"
+    }
+   ]
+  },
+  {
+   "id": "gess.105.4.2",
+   "title": "Rise and Mughal Conquest of Garha Katanga",
+   "section": "A Closer Look: The Gonds",
+   "definition": "The political trajectory of the prosperous central Indian Gond state that accumulated wealth through elephant trading before Mughal conquest under Asaf Khan.",
+   "formula": "none",
+   "key_idea": "Garha Katanga achieved regional prominence under Rani Durgawati before facing Mughal invasion.",
+   "textbook_ref": "gess105.txt lines 231-260",
+   "question_patterns": [
+    "describe the political organization and wealth of Garha Katanga",
+    "what was the role of Rani Durgawati in defending the Gond kingdom",
+    "how did Garha Katanga generate its economic wealth",
+    "explain the Mughal campaign against Garha Katanga led by Asaf Khan",
+    "what happened to the Gond kingdom after its defeat by the Mughals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify economic foundations",
+     "explain": "Garha Katanga accumulated vast wealth by capturing and exporting wild elephants to neighboring kingdoms."
+    },
+    {
+     "step": 2,
+     "action": "Review political collapse",
+     "explain": "Rani Durgawati offered fierce resistance against Asaf Khan's Mughal forces in 1565; after her defeat, Mughals annexed key territories."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.5.1",
+   "title": "Ahom State Structure and Forced Labor System",
+   "section": "The Ahoms",
+   "definition": "A centralized administrative organization in Assam where adult males called paiks performed mandatory state labor and served in military forces organized under clan units called khels.",
+   "formula": "none",
+   "key_idea": "The Ahom state maintained infrastructure and defense through rotational compulsory public labor.",
+   "textbook_ref": "gess105.txt lines 261-295",
+   "question_patterns": [
+    "how was the paik system organized in the Ahom state",
+    "explain the function of clan units called khels in Ahom administration",
+    "describe how population census and relocation affected Ahom clan structures",
+    "what military and public works duties were assigned to adult male paiks",
+    "how did the Ahom state maintain centralized control through forced labor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the paik forced labor requirement",
+     "explain": "Villages were required to supply paiks by rotation based on population censuses, breaking up old clan concentrations."
+    },
+    {
+     "step": 2,
+     "action": "Detail military and civic duties",
+     "explain": "Paiks served as soldiers during wartime and built dams, irrigation canals, and public works during peacetime."
+    }
+   ]
+  },
+  {
+   "id": "gess.105.5.2",
+   "title": "Ahom Cultural Evolution and Buranji Historical Chronicles",
+   "section": "The Ahoms",
+   "definition": "The cultural synthesis in medieval Assam characterized by royal patronage of literature, temple land grants, and official prose historical registers written in Ahom and Assamese.",
+   "formula": "none",
+   "key_idea": "Ahom statecraft fostered sophisticated literary records called Buranjis alongside regional Hindu adoption.",
+   "textbook_ref": "gess105.txt lines 296-330",
+   "question_patterns": [
+    "what were Buranjis and why were they important in Ahom history",
+    "how did Hinduism influence the Ahom monarchy during Sib Singh's rule",
+    "describe the literary and cultural achievements of Ahom society",
+    "in what languages were the historical Buranjis written",
+    "explain how Ahom rulers balanced traditional beliefs with Brahmana influence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze religious developments",
+     "explain": "Under Sib Singh, Hinduism became prominent and Brahmanas received royal land grants, though traditional ancestral beliefs persisted."
+    },
+    {
+     "step": 2,
+     "action": "Define historical chronicles",
+     "explain": "Buranjis were official historical works composed first in the Ahom language and subsequently translated into Assamese."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess105.txt lines 210-225",
+   "concept": "gess.105.4.1",
+   "question_type": "compute_total_villages",
+   "question_pattern": "If a Gond kingdom division consists of {num_chaurasi} chaurasi units, calculate the total number of villages contained within it.",
+   "extracted_variables": {
+    "num_chaurasi": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the number of chaurasi units by 84",
+     "explain": "Each chaurasi unit consists of 84 villages",
+     "compute": "total_villages = num_chaurasi * 84"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess105.txt lines 210-225",
+   "concept": "gess.105.4.1",
+   "question_type": "compute_total_villages",
+   "question_pattern": "A Gond garh administrator controls {num_chaurasi} chaurasis. Determine the total village count for this area.",
+   "extracted_variables": {
+    "num_chaurasi": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the number of chaurasi units by 84",
+     "explain": "There are 84 villages in one chaurasi unit",
+     "compute": "total_villages = num_chaurasi * 84"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex105.1",
+   "source_ref": "gess105.txt lines 340-355",
+   "questions": [
+    "Match the following: garh - Garha Katanga, labourer - paik, caravan - tanda, Clan - khel, Sib Singh - Ahom state, Durgawati - Garha Katanga"
+   ]
+  },
+  {
+   "id": "ex105.2",
+   "source_ref": "gess105.txt lines 356-370",
+   "questions": [
+    "Fill in the blanks: (a) The new castes emerging within varna were called jatis. (b) Buranjis were historical works written by the Ahoms. (c) The Akbar Nama mentions that Garha Katanga had 70,000 villages. (d) As tribal states became bigger and stronger, they gave land grants to Brahmanas and temples."
+   ]
+  },
+  {
+   "id": "ex105.3",
+   "source_ref": "gess105.txt lines 371-385",
+   "questions": [
+    "State whether true or false: (a) Tribal societies had rich oral traditions. (b) There were no tribal communities in the north-western part of the subcontinent. (c) The chaurasi in Gond states contained several cities. (d) The Bhils lived in the north-eastern part of the subcontinent."
+   ]
+  },
+  {
+   "id": "ex105.4",
+   "source_ref": "gess105.txt lines 386-395",
+   "questions": [
+    "What kinds of exchanges took place between nomadic pastoralists and settled agriculturists?",
+    "How was the administration of the Ahom state organised?",
+    "What changes took place in varna-based society?",
+    "How did tribal societies change after being organised into a state?",
+    "Were the Banjaras important for the economy?",
+    "In what ways was the history of the Gonds different from that of the Ahoms? Were there any similarities?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_014",
+   "title": "c11_cs_cbse_06_014",
+   "questions": [
+    {
+     "q": "What is the output of the following code and why?\n```python\nlist1 = [10, 20, 30]\nlist2 = list1\nlist2[0] = 99\nprint(list1)\n```",
+     "a": "Output: `[99, 20, 30]`. Reason: `list2 = list1` creates an alias; both variables point to the same list object in memory. Modifying `list2[0]` mutates that single shared object, so `list1` reflects the change. A wrong answer (e.g., `[10, 20, 30]`) reveals the student thinks assignment creates a new independent list, confusing it with shallow copy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between `list2 = list1` and `list2 = list1[:]` when `list1 = [1, 2, 3]`. Use the terms \"memory address\" and \"independent object\" in your explanation.",
+     "a": "`list2 = list1` makes `list2` store the exact same memory address as `list1`; they are two names for one object. `list2 = list1[:]` creates a brand new list object at a different memory address, then copies the references of the elements (1, 2, 3) into it. The new list is independent for top-level operations like `append` or index assignment. A wrong answer that claims both create new lists shows the student does not grasp that slicing creates a new container while assignment does not.",
+     "self_check": true
+    },
+    {
+     "q": "Given `original = [[1, 2], [3, 4]]`, write code to create a shallow copy named `copy_list`. Then execute `copy_list[0].append(99)`. What is `original` now? Explain why the nested list changed even though you made a copy.",
+     "a": "Code: `copy_list = original[:]` (or `list(original)`). After `copy_list[0].append(99)`, `original` becomes `[[1, 2, 99], [3, 4]]`. The shallow copy duplicated the *outer* list's references, but `copy_list[0]` and `original[0]` still point to the *same* inner list object `[1, 2]`. Mutating that inner list affects both. A wrong answer (e.g., `[[1, 2], [3, 4]]`) indicates the student believes shallow copy recursively duplicates all nested objects, confusing it with deep copy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following three snippets. Which ones create a shallow copy and which create an alias? Justify each.\n```python",
+     "a": "A creates an alias (same id). B and C create shallow copies (different ids for outer list, same ids for elements). Justification: Assignment (`=`) copies the reference. Slicing (`[:]`) and the `list()` constructor both explicitly build a new list object and populate it with references to the original elements. A wrong classification (e.g., saying B is an alias) shows the student cannot distinguish between copying a reference and copying a container of references.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Shallow copy is useless because it doesn't protect nested lists from changes.\" Evaluate this statement. Is it entirely true, partially true, or false? Defend your position with a concrete example where shallow copy is the correct and sufficient tool.",
+     "a": "The statement is **partially true but misleading**. Shallow copy is insufficient *only* when the list contains nested mutable objects that you intend to mutate independently. For flat lists (e.g., `['apple', 'banana', 'cherry']`) or lists containing only immutable objects (tuples, strings, numbers), shallow copy provides full independence and is more efficient than deep copy. Example: `prices = [100, 200, 150]; discounted = prices[:]; discounted[1] = 180` — here shallow copy works perfectly because integers are immutable. A student who says \"entirely true\" fails to recognize that shallow copy is the standard, performant way to duplicate simple lists.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short Python program (3-5 lines) that demonstrates the *exact moment* when aliasing causes a bug that a shallow copy would have prevented. Use a real-world context like a shopping cart or student marks list. The code must print both lists before and after the modification to show the bug.",
+     "a": "Example solution:\n```python\ncart = ['apple', 'banana']\nbackup = cart          # aliasing bug: should be cart[:]\ncart.append('mango')\nprint(\"Cart:\", cart)        # ['apple', 'banana', 'mango']\nprint(\"Backup:\", backup)    # ['apple', 'banana', 'mango'] <- BUG: backup changed!\n```\nA poor answer might show the bug but not print both before/after, or use a nested list where shallow copy would also fail, missing the point that shallow copy *would* have fixed this specific flat-list scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

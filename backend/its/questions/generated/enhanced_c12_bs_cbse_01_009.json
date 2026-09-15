@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_009",
+   "title": "c12_bs_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define efficiency and effectiveness in management as per NCERT. Use the terms \"inputs\", \"outputs\", and \"goals\" in your answer.",
+     "a": "Effectiveness is the degree to which an organisation achieves its stated goals (outputs match targets). Efficiency is the ratio of outputs to inputs — doing the task correctly with minimum resource usage so that cost per unit of output is minimised. A wrong answer that swaps the definitions (e.g., \"efficiency is achieving goals\") reveals the student has memorised the words but not the underlying input‑output‑goal logic. Another common error is omitting \"minimum cost\" or \"input‑output relationship\" from the efficiency definition, showing a superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A factory supervisor is told to produce 10,000 units this month. She achieves 10,000 units but uses 20% more raw material and 30% more labour hours than the standard allowed. Is she effective? Is she efficient? Explain in one sentence each.",
+     "a": "She is effective because she met the output target (10,000 units). She is not efficient because she used more inputs (raw material, labour) than the standard for that output, raising the cost per unit. A student who says \"she is both effective and efficient because she finished the job\" confuses task completion with resource optimisation — this is the classic \"effectiveness equals efficiency\" misconception. Another error is claiming she is efficient because she \"worked hard\", ignoring the input‑output ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder has ₹50 lakh funding. She spends ₹45 lakh developing a product that exactly meets the specifications agreed with investors, but the product launch is delayed by two months because she refused to hire extra developers to save money. Classify her performance on effectiveness and efficiency dimensions, and justify.",
+     "a": "Effectiveness: Low — the goal included a timely launch; missing the deadline means the overall objective (market entry) was not fully achieved. Efficiency: High on cost (used only ₹45 lakh of ₹50 lakh) but low on time efficiency (delay increased opportunity cost). The student must recognise that effectiveness is multi‑dimensional (specs + time) and efficiency covers all inputs, not just money. A wrong answer that calls her \"efficient because she saved money\" ignores the time input and the effectiveness failure, showing a narrow view of inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two managers in a garment export house:\n- Manager A: Consistently meets monthly shipment targets but frequently uses air freight (costly) to compensate for production delays.\n- Manager B: Keeps production cost per unit 15% below industry average but often misses shipment deadlines, causing penalty clauses to trigger.\nAnalyse which manager creates more value for the organisation in the long run, considering both dimensions.",
+     "a": "Manager A is effective but inefficient (high logistics cost erodes margins). Manager B is efficient on unit cost but ineffective (missed deadlines lead to penalties and lost clients). Long‑run value requires both: consistent on‑time delivery (effectiveness) at competitive cost (efficiency). A student who picks one manager as \"better\" without analysing the trade‑off fails to see that management must integrate both dimensions. The error often stems from treating efficiency and effectiveness as independent rather than interdependent.",
+     "self_check": true
+    },
+    {
+     "q": "\"In a non‑profit hospital, efficiency should be sacrificed for effectiveness because patient care cannot be compromised.\" Evaluate this statement. Provide two arguments for and two against, using the input‑output‑goal framework.",
+     "a": "For: (1) Effectiveness (saving lives) is the primary goal; inputs (cost) are secondary when health outcomes are at stake. (2) Donors and society judge hospitals on outcomes, not cost ratios. Against: (1) Resources are scarce; inefficient use means fewer patients treated overall — effectiveness for some reduces effectiveness for others. (2) Chronic inefficiency leads to financial collapse, ultimately destroying the hospital's ability to be effective. A student who simply agrees or disagrees without weighing both sides shows an inability to evaluate trade‑offs in resource‑constrained environments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context, ≤100 words) where a manager is simultaneously highly effective and highly efficient. Specify the goal, the inputs used, the outputs achieved, and why both criteria are satisfied.",
+     "a": "Example: A municipal water‑supply manager in Pune must deliver 50 MLD (million litres daily) to a ward. She redesigns the pump schedule using off‑peak electricity (₹4/kWh vs ₹8/kWh), fixes leaks saving 5 MLD, and achieves 50 MLD delivery at ₹1.2 lakh/day, beating the budget of ₹1.5 lakh/day. Goal met (effective), cost per MLD minimised (efficient). A poor answer gives a vague \"manager does good work\" without quantifiable inputs, outputs, and goal alignment, indicating the student cannot operationalise the concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

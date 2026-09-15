@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_010",
+   "title": "c12_biotech_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define \"proteome\" and state one fundamental way it differs from the genome of the same organism.",
+     "a": "The proteome is the entire complement of proteins expressed by a genome, cell, tissue, or organism at a specific time under defined conditions. Unlike the genome (which is largely static and identical in nearly all cells of an organism), the proteome is dynamic — it varies with cell type, developmental stage, disease state, and environmental stimuli due to alternative splicing, post-translational modifications, and regulated expression. A wrong answer that equates proteome with \"all proteins encoded by the genome\" misses the critical condition-dependence and PTM diversity; a student who says \"proteome is the protein version of genome\" shows superficial memorisation without grasping dynamic regulation.",
+     "self_check": true
+    },
+    {
+     "q": "In the yeast two-hybrid system, the bait protein is fused to the DNA-binding domain (DBD) of a transcription factor (e.g., GAL4), and the prey protein is fused to the activation domain (AD). Explain why the DBD and AD must be on *separate* fusion proteins for the assay to work, rather than fusing both domains to a single test protein.",
+     "a": "If both DBD and AD were fused to the same test protein, the transcription factor would be constitutively reconstituted regardless of any interaction — the reporter would always be ON, giving no information about binding partners. The assay depends on *conditional* reconstitution: only when bait and prey *interact* does the AD get recruited to the promoter via the DBD-bait fusion. A student who says \"it's just the protocol\" or \"to test two different proteins\" misses the core logic: the split domains act as a molecular AND gate. The wrong answer reveals failure to understand that Y2H is a proximity-based readout, not a simple expression test.",
+     "self_check": true
+    },
+    {
+     "q": "You are screening a human cDNA library in Y2H using a kinase domain as bait. After selection on -His/-Ade media + 3-AT, you obtain 50 blue colonies on X-gal plates. List the *next three experimental steps* you must perform to confirm these are true interactors, not false positives.",
+     "a": "Step 1: Re-transform each prey plasmid *individually* with the original bait into fresh yeast to confirm the interaction is reproducible and plasmid-dependent. Step 2: Test each prey against an *empty DBD vector* (no bait) to rule out auto-activation — true interactors should not activate reporters without bait. Step 3: Perform a reciprocal swap (prey-DBD + bait-AD) or test against an unrelated bait to check for promiscuous \"sticky\" preys. A student who jumps straight to sequencing or says \"do a Western blot\" misses the essential genetic controls that define Y2H validation; this reveals confusion between *detecting* an interaction and *validating* it within the assay system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the yeast two-hybrid system with co-immunoprecipitation (Co-IP) for studying protein-protein interactions. Identify two scenarios where Y2H would give a false negative but Co-IP would succeed, and one scenario where Co-IP would fail but Y2H would work.",
+     "a": "False negatives in Y2H (but positive in Co-IP): (1) Interaction requires a post-translational modification (e.g., phosphorylation) absent in yeast; (2) Interaction depends on a mammalian-specific cofactor or chaperone not present in yeast. False negative in Co-IP (but positive in Y2H): Transient or weak interactions (Kd > μM) that dissociate during lysis/wash steps but are stabilised in the nucleus by the DBD/AD tethering effect. A student who says \"Y2H is in vivo, Co-IP is in vitro\" oversimplifies — both use cell lysates at some stage. The error reveals lack of mechanistic understanding of *why* each method fails: Y2H fails on missing cellular context; Co-IP fails on physical disruption of weak complexes.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since the yeast two-hybrid system detects interactions in the nucleus, it cannot be used to study membrane protein interactions.\" Evaluate this claim and propose a validated modification of Y2H that overcomes this limitation.",
+     "a": "The claim is *partially correct but outdated*. Standard Y2H requires nuclear localisation of both fusions, so integral membrane proteins (which localise to ER/Golgi/plasma membrane) are excluded — they either misfold in the nucleus or never reach it. However, the **split-ubiquitin membrane yeast two-hybrid (MYTH)** system overcomes this: bait is fused to C-terminal ubiquitin (Cub) and a transcription factor (e.g., LexA-VP16), prey to N-terminal ubiquitin (NubG). Interaction brings NubG and Cub together → ubiquitin reconstitution → cleavage by ubiquitin-specific proteases → TF release → reporter activation *at the membrane*. A student who simply agrees without knowing MYTH shows textbook-limited knowledge; the correct evaluation recognises that assay design can be adapted to subcellular context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Y2H-based experiment to test whether a human transcription factor (TF-X) dimerises with itself (homodimerisation) and, if so, map the minimal dimerisation domain. Specify bait/prey constructs, controls, and how you would interpret domain truncation results.",
+     "a": "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation. Controls: bait + empty AD; prey + empty DBD; bait + unrelated prey. If positive, make serial N-terminal and C-terminal truncations of TF-X in *both* bait and prey vectors (e.g., ΔN50, ΔN100, ΔC50, ΔC100). Test all pairwise combinations. Minimal domain = smallest truncation pair that still gives reporter activation. Interpretation: if ΔN100-bait + ΔN100-prey works but ΔN150 fails, dimerisation domain lies between residues 100-150. A poor answer tests only full-length or uses only one truncation series — revealing inability to design a systematic mapping experiment with proper controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

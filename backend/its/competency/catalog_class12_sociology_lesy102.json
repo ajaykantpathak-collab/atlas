@@ -1,0 +1,502 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 2,
+ "chapter_title": "The Demographic Structure of the Indian Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lesy102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy.102.1.1",
+   "title": "Demography and Social Demography",
+   "section": "The Demographic Structure of the Indian Society",
+   "definition": "Demography is the systematic study of population -- the word joins the Greek demos and graphein, describing people -- covering changes in population size, patterns of births, deaths and migration, and the structure and composition of the population; social demography goes further, asking how social processes and structures regulate these demographic processes and tracing the social reasons behind population trends.",
+   "formula": "demography = population_size + birth_death_migration_patterns + population_structure",
+   "key_idea": "Numbers about people are never just natural facts -- society shapes how they are born, die and move.",
+   "textbook_ref": "lesy102.txt opening and 2.1 (lines 5-75)",
+   "question_patterns": [
+    "define demography and state its main concerns",
+    "how does social demography differ from formal demography",
+    "why do social demographers study population trends through social reasons",
+    "name the components of population structure that demographers examine",
+    "is population merely an obstacle to development, discuss",
+    "what is meant by describing demography as a systematic study of population"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "unpack the definition",
+     "explain": "demos plus graphein means describing people; the discipline tracks size, vital events and composition over time"
+    },
+    {
+     "step": 2,
+     "action": "separate the two strands",
+     "explain": "formal demography measures rates and structures, while social demography enquires into the wider causes and consequences of these patterns"
+    },
+    {
+     "step": 3,
+     "action": "state the sociological claim",
+     "explain": "social processes and structures regulate demographic processes, so trends in births, deaths and migration carry social explanations"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the systematic study of population called?",
+     "a": "demography"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.2.1",
+   "title": "Malthusian Theory of Population Growth",
+   "section": "2.1 The Malthusian Theory of Population Growth",
+   "definition": "In his 1798 Essay, Malthus argued that populations grow in geometric progression like 2, 4, 8, 16 while subsistence grows only in arithmetic progression like 2, 4, 6, 8, so humanity is condemned to poverty unless population growth is checked -- by preventive checks such as postponed marriage or abstinence, or by positive checks like famine and disease that he saw as nature's correction; history refuted him as food production and living standards rose alongside population, and critics blamed unequal distribution rather than births for poverty.",
+   "formula": "malthusian_trap = geometric_population_growth_minus_arithmetic_food_growth",
+   "key_idea": "The race between a multiplying population and a linearly growing food supply defined the pessimism -- and the European record disproved it.",
+   "textbook_ref": "lesy102.txt Malthusian theory, Box 2.1 (lines 77-119)",
+   "question_patterns": [
+    "state the main argument of the malthusian theory of population growth",
+    "distinguish geometric and arithmetic progression as malthus used them",
+    "differentiate preventive checks from positive checks with examples",
+    "why were malthus's predictions proved false by european experience",
+    "how did liberal and marxist scholars criticise malthus on poverty",
+    "why did malthus consider famines and diseases inevitable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the two progressions",
+     "explain": "population was said to double geometrically while agriculture could only add arithmetically, so subsistence would always be overtaken"
+    },
+    {
+     "step": 2,
+     "action": "verify the checks",
+     "explain": "preventive checks like late marriage and celibacy operate through human will, while positive checks -- famine and disease -- were nature's answer to the food-population imbalance"
+    },
+    {
+     "step": 3,
+     "action": "verify the refutations",
+     "explain": "late nineteenth century Europe saw birth rates fall and epidemics controlled, agricultural productivity rose, and scholars such as liberal and Marxist critics argued that unequal distribution of resources, not population growth, causes poverty"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Malthus said population grows in which progression: geometric or arithmetic?",
+     "a": "geometric"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.3.1",
+   "title": "Theory of Demographic Transition and India's Incomplete Transition",
+   "section": "2.1 The Theory of Demographic Transition",
+   "definition": "Demographic transition links population growth to economic development through three stages: a backward stage of low growth where both birth and death rates are high, a transitional stage of explosive growth when death rates fall fast while reproductive behaviour adjusts slowly, and a developed stage of low growth where both rates are low; India sits in the middle -- mortality has been cut by disease control and public health, but the socioculturally sticky birth rate lags behind, so the transition is not yet complete.",
+   "formula": "demographic_transition = high_high_stage + falling_deaths_stage + low_low_stage",
+   "key_idea": "Deaths respond quickly to medicine and sanitation; births respond slowly to prosperity and education -- the gap between them is the population explosion.",
+   "textbook_ref": "lesy102.txt Theory of Demographic Transition (lines 120-185)",
+   "question_patterns": [
+    "describe the three stages of demographic transition",
+    "why does a population explosion occur in the transitional stage",
+    "why is india's demographic transition called incomplete",
+    "why does the death rate fall faster than the birth rate",
+    "how is population growth linked to economic development in transition theory",
+    "compare the first and third stages of demographic transition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify stage one",
+     "explain": "in the underdeveloped, technologically backward society growth is low because death and birth rates are both very high, leaving a small net difference"
+    },
+    {
+     "step": 2,
+     "action": "verify the transitional explosion",
+     "explain": "disease control, public health and nutrition bring deaths down quickly, but reproductive behaviour evolved under high-mortality poverty changes slowly, so growth spikes"
+    },
+    {
+     "step": 3,
+     "action": "verify stage three and india",
+     "explain": "developed societies reach low-low equilibrium; in India mortality fell after 1921 while the birth rate only declined slightly, keeping the transition unfinished"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In which stage of demographic transition do death rates fall while birth rates stay high?",
+     "a": "the transitional stage"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.4.1",
+   "title": "Demographic Concepts and Indicators as Rates",
+   "section": "2.1 Common Concepts and Indicators",
+   "definition": "Demographic concepts are expressed as rates or ratios -- two numbers, one a statistic for an area and period, the other a standard of comparison: birth rate counts live births per 1000 population, death rate counts deaths per 1000, growth rate is their difference, fertility rate counts births per 1000 women aged 15-49, infant mortality per 1000 live births, maternal mortality per 100,000 live births, life expectancy estimates average years of survival, and sex ratio gives females per 1000 males.",
+   "formula": "growth_rate = birth_rate - death_rate",
+   "key_idea": "Every headline number about population is a ratio against a standard -- read the denominator before believing the story.",
+   "textbook_ref": "lesy102.txt Common Concepts and Indicators (lines 186-265)",
+   "question_patterns": [
+    "define birth rate and death rate as demographic indicators",
+    "how is the rate of natural increase of population computed",
+    "when is a population said to have reached replacement level",
+    "distinguish fertility rate from birth rate",
+    "why are infant and maternal mortality called indicators of backwardness",
+    "how is life expectancy calculated and what does it mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute a crude rate",
+     "explain": "divide the event count for an area and year by the population measured in thousands to get events per 1000 population",
+     "compute": "birth_rate = live_births / population_thousands"
+    },
+    {
+     "step": 2,
+     "action": "compute the natural increase",
+     "explain": "subtract the death rate from the birth rate; a zero or near-zero difference signals a stabilised population at replacement level",
+     "compute": "growth_rate = birth_rate - death_rate"
+    },
+    {
+     "step": 3,
+     "action": "compute the sex ratio",
+     "explain": "females per 1000 males is the standard gender-balance indicator for an area and time",
+     "compute": "sex_ratio = females / males * 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Birth rate counts live births per how many of the population?",
+     "a": "1000"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.5.1",
+   "title": "Size and Growth of India's Population",
+   "section": "2.2 Size and Growth of India's Population",
+   "definition": "Census 2011 counted 121 crores of Indians, second only to China; growth was modest before 1951 -- never above 1.33 per cent a year and actually negative at -0.03 per cent in 1911-21 when the influenza pandemic killed about 5 per cent of the population -- then jumped to 2.2 per cent during 1961-81 before easing; deaths fell as epidemics and famines were controlled, with Amartya Sen's failure-of-entitlements insight showing famine is about inability to obtain food, while the birth rate declines slowly and unevenly, from below-replacement TFRs in Kerala or Tamil Nadu to 3.3 in Bihar.",
+   "formula": "population_growth_story = census_121_crores + 1918_influenza_shock + post_independence_surge",
+   "key_idea": "India's growth curve bends around disasters and medicine: epidemics and famine once cut numbers, disease control then exploded them, and fertility now declines state by state.",
+   "textbook_ref": "lesy102.txt 2.2 Size and Growth, Boxes 2.2 (lines 310-563)",
+   "question_patterns": [
+    "what was india's population according to census 2011",
+    "why did india record a negative growth rate during 1911-1921",
+    "trace the trend of india's population growth rate after independence",
+    "what caused the decline in the death rate after 1921",
+    "explain amartya sen's idea of failure of entitlements regarding famines",
+    "compare total fertility rates of kerala and bihar and their significance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the early century",
+     "explain": "annual growth stayed below 1.33 per cent up to 1951 and turned negative in 1911-21 as the Spanish flu killed some 12.5 million people, about 5 per cent of the population"
+    },
+    {
+     "step": 2,
+     "action": "verify the post-1921 mortality fall",
+     "explain": "control of epidemics like plague, smallpox and cholera, mass vaccination, sanitation and better famine relief -- reinforced by irrigation and communication -- cut the death rate sharply while birth rates only edged down"
+    },
+    {
+     "step": 3,
+     "action": "verify the fertility spread",
+     "explain": "prosperity, falling infant mortality and education pull fertility down, so Andhra Pradesh, Himachal, Punjab, Tamil Nadu and West Bengal reached TFRs of 1.7 and Kerala sits below replacement, while Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh remain high, set to supply half of India's population additions to 2041"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Census 2011 counted how many crores of Indians?",
+     "a": "121"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.6.1",
+   "title": "Age Structure, Dependency Ratio and the Demographic Dividend",
+   "section": "2.3 Age Structure of the Indian Population",
+   "definition": "India's population is young: the under-15 share fell from 42 per cent in 1971 to 29 per cent in 2011 while the 60-plus share rose from 5 to 7 per cent, and projections to 2026 give 23, 64 and 12 per cent for the young, working and old groups; the dependency ratio compares dependents -- those below 15 and above 64 -- with the 15-64 working-age group, and its fall from 79 in 1970 toward a projected 48 in 2025 opens a demographic dividend that turns into growth only if education and employment employ the new workers.",
+   "formula": "dependency_ratio = dependents / working_age_population * 100",
+   "key_idea": "A bulge of workers supports growth only while jobs and schools absorb them; otherwise the dividend matures into a burden of ageing.",
+   "textbook_ref": "lesy102.txt 2.3 Age Structure, Box 2.3 (lines 564-743)",
+   "question_patterns": [
+    "how has the age composition of india changed since 1971",
+    "define dependency ratio and explain its computation",
+    "what is the demographic dividend and why is it temporary",
+    "why does the age pyramid of india show a middle bulge for 2026",
+    "why is nothing automatic about india's demographic advantage",
+    "compare the projected age pyramids of kerala and uttar pradesh"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the shifting shares",
+     "explain": "the 0-14 group slid from 42 to 29 per cent between 1971 and 2011 and is projected at 23 per cent by 2026, while the 60-plus group climbs from 5 toward 12 per cent, and employment growth for 15-30 year olds collapsed from about 2.4 per cent a year to under 1 per cent"
+    },
+    {
+     "step": 2,
+     "action": "verify the dependency arithmetic",
+     "explain": "dependents are those below 15 or above 64; the ratio to the working-age population fell from 79 in 1970 to 64 in 2005 and is projected at 48 in 2025 before ageing pushes it back to 50 by 2050"
+    },
+    {
+     "step": 3,
+     "action": "verify the dividend condition",
+     "explain": "the dividend is a potential, realised only when rising education and employment convert workers into earners -- unemployment turns entrants back into dependents"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The dependency ratio compares dependents with which age group: 15-64 or 0-6?",
+     "a": "15-64"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.7.1",
+   "title": "The Declining Sex Ratio and the Child Sex Ratio Crisis",
+   "section": "2.4 The Declining Sex-ratio in India",
+   "definition": "Nature produces about 943-952 girls per 1000 boys and girls' disease resistance and women's longer lives give most societies a sex ratio near 1050 females per 1000 males, but India's ratio slid for a century from 972 in 1901 to 927 in 1991, recovering only to 933 in 2001 and 943 in 2011; more alarming is the child sex ratio for 0-6 years, which plunged 18 points from 945 to 927 during 1991-2001 and fell again to 919 in 2011, a collapse tied to son preference and the neglect of girl babies under norms that value males more.",
+   "formula": "son_preference = declining_sex_ratio + plunging_child_sex_ratio",
+   "key_idea": "A country where females should outnumber males shows the opposite -- and the youngest cohort is worst, signalling discrimination before birth and after.",
+   "textbook_ref": "lesy102.txt 2.4 The Declining Sex-ratio (lines 746-810)",
+   "question_patterns": [
+    "define sex ratio and give its trend in india since 1901",
+    "why do most societies show a sex ratio favourable to females",
+    "what is the child sex ratio and why is its fall alarming",
+    "link son preference to the declining sex ratio in india",
+    "compare the overall and child sex ratios of census 2011",
+    "which social norms are blamed for the neglect of girl babies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the natural benchmark",
+     "explain": "about 943-952 girls are born per 1000 boys, and girls' infancy advantage plus women's longevity usually lift the ratio to roughly 1050"
+    },
+    {
+     "step": 2,
+     "action": "verify the Indian decline",
+     "explain": "the overall ratio fell from 972 in 1901 to an all-time low of 927 in 1991, then rose modestly to 933 in 2001 and 943 in 2011"
+    },
+    {
+     "step": 3,
+     "action": "verify the child ratio collapse",
+     "explain": "the 0-6 sex ratio dropped 18 points from 945 to 927 in 1991-2001, slipping below the overall ratio for the first time, and sank further to 919 in 2011, reflecting son preference and relative neglect of girls"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "India's sex ratio in 2011 stood at how many females per 1000 males?",
+     "a": "943"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.8.1",
+   "title": "Literacy: Levels, Gaps and the Reproduction of Inequality",
+   "section": "2.5 Literacy",
+   "definition": "Literacy empowers -- it widens career consciousness, health awareness and participation in the knowledge economy -- and about two-thirds of Indians are now literate, but the gains lag population growth and are uneven: women trail men by 16.3 percentage points in 2011 even though female literacy rose faster, at 10.4 against 7.6 points over 2001-11, Scheduled Castes and Tribes remain behind with their women lowest, and because illiterate parents struggle to educate children, literacy gaps reproduce inequality across generations.",
+   "formula": "literacy_inequality = gender_gap + social_group_gap + regional_gap",
+   "key_idea": "Literacy advances fastest where it started lowest, yet the gaps it must close -- gender, caste, region -- pass themselves on to the next generation.",
+   "textbook_ref": "lesy102.txt 2.5 Literacy, Table 4 (lines 967-1036)",
+   "question_patterns": [
+    "why is literacy called an instrument of empowerment",
+    "compare male and female literacy trends between 2001 and 2011",
+    "what is the gender gap in literacy according to census 2011",
+    "how do literacy rates vary across social groups in india",
+    "why do literacy inequalities reproduce inequality across generations",
+    "contrast the literacy positions of kerala and bihar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the overall progress",
+     "explain": "roughly two-thirds of the population is literate now, though gains must outrun continued population growth"
+    },
+    {
+     "step": 2,
+     "action": "verify the differentials",
+     "explain": "the 2011 female-male gap stood at 16.3 points, female literacy rose 10.4 points against 7.6 for males over 2001-11, and historically disadvantaged communities, especially their women, remain behind with Bihar far from Kerala's near-universal literacy"
+    },
+    {
+     "step": 3,
+     "action": "verify the generational mechanism",
+     "explain": "illiterate parents are severely disadvantaged in securing their children's education, so today's literacy inequality becomes tomorrow's"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what share of Indians are literate now: two-thirds or one-tenth?",
+     "a": "two-thirds"
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.9.1",
+   "title": "Rural-Urban Differences and Population Policy in India",
+   "section": "2.6 Rural-Urban Differences and 2.7 Population Policy",
+   "definition": "Most Indians -- 68.8 per cent in 2011 -- still live in villages, but the urban share has climbed from about 11 per cent a century ago to 31.2 per cent while agriculture's GDP share fell to about one-sixth; migration to cities follows work, the decay of common property resources and even the anonymity that shelters Scheduled Castes and Tribes from village humiliation, and India, the first country to announce an official population policy in 1952, channels these pressures through the National Family Planning Programme and later goals such as the National Health Policy 2017 target of bringing total fertility to 2.1 by 2025.",
+   "formula": "urbanisation_pressure = rural_to_urban_migration + declining_common_resources + population_policy_response",
+   "key_idea": "Villages empty into metropolises not only for jobs but for dignity, and state policy tries to steer both the movement and the birth rate.",
+   "textbook_ref": "lesy102.txt 2.6 Rural-Urban Differences, 2.7 Population Policy, Box 2.4 (lines 1041-1265)",
+   "question_patterns": [
+    "compare the rural and urban shares of india's population in 2011",
+    "why do rural people migrate to cities besides the search for work",
+    "how does the anonymity of the city help oppressed groups",
+    "what happened to common property resources and with what effect on villagers",
+    "why is india described as a pioneer of population policy",
+    "state the key goals of the national health policy 2017"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the spatial balance",
+     "explain": "68.8 per cent rural and 31.2 per cent urban in 2011, with more than two-thirds of urban Indians packed into 27 million-plus cities whose infrastructure strains to keep up"
+    },
+    {
+     "step": 2,
+     "action": "verify the push and pull",
+     "explain": "shrinking ponds, forests and grazing lands convert free goods into purchases while village cash income stays scarce, and the city offers work, markets of aspiration via mass media, and anonymity that protects the low-caste and lets dominant-caste poor do low-status work"
+    },
+    {
+     "step": 3,
+     "action": "verify the policy response",
+     "explain": "from the 1952 announcement and National Family Planning Programme to NHP 2017's targets -- TFR 2.1, life expectancy 70, reduced infant and maternal mortality -- policy tries to steer growth in socially desirable directions amid population momentum toward 1.6 billion by 2050"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What share of Indians lived in villages in 2011: 68.8 percent or 12 percent?",
+     "a": "68.8 percent"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lesy102_1",
+   "source_ref": "lesy102.txt Common Concepts and Indicators",
+   "concept": "lesy.102.4.1",
+   "question_type": "rate_computation",
+   "question_pattern": "A district records {live_births} live births and {deaths} deaths in a year with a population of {population_thousands} thousand. Find its birth rate, death rate and rate of natural increase.",
+   "extracted_variables": {
+    "live_births": 4500,
+    "deaths": 1800,
+    "population_thousands": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the birth rate",
+     "explain": "live births divided by population in thousands gives births per 1000 population",
+     "compute": "birth_rate = live_births / population_thousands"
+    },
+    {
+     "step": 2,
+     "action": "compute the death rate",
+     "explain": "the same arithmetic on deaths gives deaths per 1000 population",
+     "compute": "death_rate = deaths / population_thousands"
+    },
+    {
+     "step": 3,
+     "action": "compute the natural increase",
+     "explain": "birth rate minus death rate is the growth rate, and a value near zero would mean replacement level",
+     "compute": "growth_rate = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "we_lesy102_2",
+   "source_ref": "lesy102.txt 2.3 Age Structure, Box 2.3",
+   "concept": "lesy.102.6.1",
+   "question_type": "dependency_ratio_computation",
+   "question_pattern": "A population of {working_age_population} thousand people in the 15-64 group must support {dependents} thousand children and elderly. Compute the dependency ratio.",
+   "extracted_variables": {
+    "working_age_population": 630,
+    "dependents": 370
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the dependency ratio",
+     "explain": "dependents divided by the working-age population, expressed as a percentage",
+     "compute": "dependency_ratio = dependents / working_age_population * 100"
+    },
+    {
+     "step": 2,
+     "action": "interpret the figure",
+     "explain": "a falling ratio, as from 79 in 1970 toward 48 projected for 2025, means fewer mouths per worker -- the demographic dividend window"
+    },
+    {
+     "step": 3,
+     "action": "note the condition",
+     "explain": "the benefit materialises only if the working-age majority is educated and employed; joblessness re-creates dependency"
+    }
+   ]
+  },
+  {
+   "id": "we_lesy102_3",
+   "source_ref": "lesy102.txt Malthusian theory (two progressions)",
+   "concept": "lesy.102.2.1",
+   "question_type": "progression_comparison",
+   "question_pattern": "Starting from a base of {base}, compare Malthus's geometric population series against an arithmetic food series adding {increment} per period after {periods} rounds.",
+   "extracted_variables": {
+    "base": 2,
+    "growth_factor": 2,
+    "increment": 2,
+    "periods": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "grow the population geometrically",
+     "explain": "each period doubles the previous total, as in Malthus's 2, 4, 8, 16 series",
+     "compute": "population_series = base * growth_factor ** periods"
+    },
+    {
+     "step": 2,
+     "action": "grow the food supply arithmetically",
+     "explain": "each period adds a fixed increment, as in Malthus's 2, 4, 6, 8 series",
+     "compute": "food_series = base + increment * periods"
+    },
+    {
+     "step": 3,
+     "action": "compute the malthusian gap",
+     "explain": "the widening difference between the two series is the trap Malthus predicted, which rising agricultural productivity in fact closed",
+     "compute": "malthusian_gap = population_series - food_series"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "lesy102.txt chapter activities and exercises",
+   "questions": [
+    "why is the birth rate slow to decline while the death rate can fall fast",
+    "state the differences between the malthusian and demographic transition theories",
+    "compute the growth rate of a population given its birth and death rates",
+    "explain the concept of population momentum with india's projections to 2050",
+    "what does the falling child sex ratio reveal about indian society"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "lesy102.txt chapter activities and exercises",
+   "questions": [
+    "discuss whether india's population is an obstacle to or a resource for development",
+    "how do literacy differentials reproduce social inequality across generations",
+    "explain the rural to urban migration streams and their social causes",
+    "evaluate india's population policy from 1952 to the national health policy 2017",
+    "why is the demographic dividend called a window of opportunity that india may miss"
+   ]
+  }
+ ]
+}

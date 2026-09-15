@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_007",
+   "title": "c11_biotech_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane system that separates them.",
+     "a": "Correct answer: TCA cycle enzymes are in the mitochondrial matrix; electron transport chain complexes are embedded in the inner mitochondrial membrane (cristae); the inner membrane separates the matrix from the intermembrane space. A wrong answer placing TCA cycle in the intermembrane space or ETC in the outer membrane reveals confusion about compartmentalisation — the student likely memorised \"mitochondria = ATP\" without grasping that the proton gradient requires a sealed inner membrane separating matrix (low H+) from intermembrane space (high H+).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Mitochondria have 70S ribosomes because they are prokaryotes.\" Explain why this statement is incorrect while identifying the valid evolutionary insight it contains.",
+     "a": "Correct explanation: Mitochondria are organelles within eukaryotic cells, not free-living prokaryotes; however, their 70S ribosomes (and circular DNA) support the endosymbiotic theory — they originated from an alpha-proteobacterial ancestor. The 70S ribosomes synthesize the 13 hydrophobic subunits encoded by mtDNA. A wrong answer agreeing with the claim shows the student conflates \"bacterial-like features\" with \"being a bacterium\" and misses the distinction between organellar and cellular protein synthesis systems (cytosolic ribosomes are 80S).",
+     "self_check": true
+    },
+    {
+     "q": "In a transmission electron micrograph, you observe mitochondria with densely packed cristae in cardiac muscle cells and sparse cristae in adipocytes. Predict which cell type has higher maximal oxygen consumption rate (VO2 max) and justify using the structural basis of oxidative phosphorylation.",
+     "a": "Correct prediction: Cardiac muscle mitochondria have higher VO2 max. Justification: Cristae increase inner membrane surface area, accommodating more electron transport chain complexes (I–IV) and ATP synthase per unit mitochondrial volume. More ETC complexes → greater electron flux → higher proton pumping rate → larger proton-motive force → higher ATP synthesis capacity per mitochondrion. A wrong answer choosing adipocytes or citing \"more mitochondria\" instead of \"cristae density\" reveals the student hasn't linked membrane topology to bioenergetic capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protein import pathway for a nuclear-encoded mitochondrial matrix protein (e.g., citrate synthase) with the synthesis pathway for an mtDNA-encoded subunit (e.g., COX1). Identify two fundamental differences in targeting mechanism and folding environment.",
+     "a": "Correct differences: (1) Nuclear-encoded proteins are synthesized on cytosolic 80S ribosomes as precursors with N-terminal presequences, imported via TOM/TIM complexes in an unfolded state, then cleaved and folded in the matrix with chaperonin assistance. (2) mtDNA-encoded proteins are synthesized on matrix-side 70S ribosomes attached to the inner membrane, co-translationally inserted into the membrane, and fold in the lipid bilayer without a cleavable presequence. A wrong answer stating both use the same import machinery or both fold in the cytosol shows ignorance of the topological constraint: hydrophobic membrane proteins cannot traverse aqueous import channels.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this textbook statement: \"Mitochondria are the powerhouse of the cell because they produce ATP.\" Evaluate its adequacy for a Class 11 biotechnology student and propose a more precise formulation.",
+     "a": "Critique: The statement is functionally true but mechanistically empty — it names the output (ATP) without explaining the energy transduction mechanism (redox energy → proton gradient → ATP). For Class 11, it obscures the structural basis: cristae topology, compartmentalisation, and chemiosmotic coupling. Better formulation: \"Mitochondria are the site of oxidative phosphorylation where the exergonic flow of electrons through respiratory complexes in the inner membrane drives proton translocation into the intermembrane space, creating an electrochemical gradient that powers ATP synthesis via ATP synthase in the cristae.\" A student defending the original statement as \"good enough\" reveals a descriptive rather than mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could engineer a mitochondrion without cristae (smooth inner membrane) but with the same total inner membrane surface area by enlarging the organelle, would oxidative phosphorylation efficiency change? Predict the outcome and explain the biophysical constraints.",
+     "a": "Good answer: Efficiency would decrease. Cristae create narrow tubular compartments that restrict proton diffusion, maintaining a steep local proton gradient (high ΔpH and ΔΨ) near ATP synthase. A smooth, enlarged inner membrane would allow rapid lateral proton dissipation, reducing the proton-motive force available for ATP synthesis. Additionally, cristae curvature concentrates respiratory supercomplexes and ATP synthase dimers, facilitating substrate channelling. A poor answer claiming \"same surface area = same ATP\" ignores the physics of proton diffusion in confined vs open geometries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

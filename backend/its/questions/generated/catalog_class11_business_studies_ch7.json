@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class11_business_studies_ch7",
+ "concepts": [
+  {
+   "id": "c11bs.7.1",
+   "title": "Meaning and Nature of Business Finance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Nature of Business Finance' refers to.",
+     "a": "Business finance refers to the money and funds required by a business enterprise to carry out its operations -- establishment, day-to-day running, expansion and modernisation -- and it concerns the planning, raising, managing and controlling of these funds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Nature of Business Finance'.",
+     "a": "Finance is the lifeblood of every business; without adequate funds no business activity -- production, purchase, distribution or expansion -- can be carried out.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Nature of Business Finance' taught, and from which source text?",
+     "a": "7.1 Meaning and Nature of Business Finance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.2",
+   "title": "Sources of Finance: Equity and Debt",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of Finance: Equity and Debt' refers to.",
+     "a": "Sources of business finance are the channels through which a firm raises funds; they are broadly classified on the basis of ownership into owners' funds (equity) and borrowed funds (debt), and on the basis of period into short-term, medium-term and long-term sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of Finance: Equity and Debt'.",
+     "a": "The two ownership-based sources are equity, which represents owners' capital with voting control and risk, and debt, which is borrowed money carrying a fixed return and a legal obligation to repay.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sources of Finance: Equity and Debt' taught, and from which source text?",
+     "a": "7.2 Sources of Finance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.3",
+   "title": "Owners' Funds (Equity)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Owners' Funds (Equity)' refers to.",
+     "a": "Owners' funds, also called equity, are the funds contributed by the owners of a firm and the earnings retained in the business; they include share capital (equity and preference shares) and retained earnings, and they carry ownership rights, voting control and a residual claim on profits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Owners' Funds (Equity)'.",
+     "a": "Owners' funds provide permanent capital without a fixed repayment burden, but they dilute control and give owners a residual, risk-bearing claim on profits.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Owners' Funds (Equity)' taught, and from which source text?",
+     "a": "7.3 Owners' Funds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.4",
+   "title": "Retained Earnings",
+   "questions": [
+    {
+     "q": "Using the method 'Retained Earnings', work with: dividend_rate = 10, dividends = 12, net_profit = 500, taxes = 10, total_cost = 80000, total_revenue = 2500. Carry the chain through step by step and give the final value of the result.",
+     "a": "488 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Retained Earnings' and work with: dividend_rate = 10, dividends = 300, net_profit = 1200, taxes = 18, total_cost = 5000, total_revenue = 20000. Carry the chain through step by step and give the final value of the result.",
+     "a": "900 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Retained Earnings' refers to.",
+     "a": "Retained earnings are the portion of a firm's net profit that is kept (ploughed back) in the business instead of being distributed as dividends, used to finance expansion, modernisation and replacement of assets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Retained Earnings'.",
+     "a": "Retained earnings are an internal, cost-free source of finance that avoids dilution of control, but excessive retention can reduce dividend payouts and dissatisfy shareholders.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Retained Earnings', in plain ASCII form.",
+     "a": "retained_earnings = net_profit - dividends",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.5",
+   "title": "Borrowed Funds (Debt)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Borrowed Funds (Debt)' refers to.",
+     "a": "Borrowed funds, also called debt, are the funds raised by a business from outsiders on which a fixed rate of interest is paid and which must be repaid after a specified period; they include debentures, loans from financial institutions, bank loans and public deposits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Borrowed Funds (Debt)'.",
+     "a": "Debt provides funds without diluting ownership and gives a tax shield on interest, but it carries a fixed repayment burden and increases financial risk.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Borrowed Funds (Debt)' taught, and from which source text?",
+     "a": "7.5 Borrowed Funds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.6",
+   "title": "Debentures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Debentures' refers to.",
+     "a": "A debenture is a debt instrument acknowledging a loan raised by a company, carrying a fixed rate of interest and a promise to repay the principal after a specified period; debenture holders are creditors, not owners, of the company.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debentures'.",
+     "a": "Debentures raise large long-term funds at a fixed interest without diluting ownership, but they add a fixed repayment burden and reduce the firm's borrowing capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Debentures' taught, and from which source text?",
+     "a": "7.6 Debentures",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.7",
+   "title": "Loans from Financial Institutions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Loans from Financial Institutions' refers to.",
+     "a": "Loans from financial institutions are long-term and medium-term funds provided by specialised institutions such as IFCI, ICICI, IDBI, SIDBI and State Financial Corporations to meet the fixed capital and working capital needs of business enterprises.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loans from Financial Institutions'.",
+     "a": "Financial institutions provide large, organised, long-term finance with reasonable terms, but the procedure is lengthy and the funds carry interest and repayment obligations along with restrictive conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Loans from Financial Institutions' taught, and from which source text?",
+     "a": "7.7 Loans from Financial Institutions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.8",
+   "title": "Trade Credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Trade Credit' refers to.",
+     "a": "Trade credit is the credit extended by suppliers (creditors) to a buyer firm by allowing it to purchase goods on credit and pay later, usually within 30 to 90 days; it is a short-term source of finance commonly used in business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade Credit'.",
+     "a": "Trade credit is a convenient, low-cost, short-term source that finances working capital without formalities, but it is available only to firms with a good credit reputation and may involve hidden costs through lost cash discounts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Trade Credit' taught, and from which source text?",
+     "a": "7.8 Trade Credit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.9",
+   "title": "Factoring",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factoring' refers to.",
+     "a": "Factoring is a financial service under which a firm (the client) sells its accounts receivable (book debts) to a factor at a discount, in return for immediate cash; the factor collects the debts from customers and may also provide credit protection and advisory services.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factoring'.",
+     "a": "Factoring converts credit sales into immediate cash, improving liquidity and reducing collection risk, but it costs a discount/fee and may affect the firm's relationship with customers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factoring' taught, and from which source text?",
+     "a": "7.9 Factoring",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.10",
+   "title": "Lease Financing and Public Deposits",
+   "questions": [
+    {
+     "q": "Using the method 'Lease Financing and Public Deposits', work with: lease_amount = 50000, number_of_periods = 50, periodic_rent = 1500, public_deposit_interest = 10, total_lease_rent = 4. Carry the chain through step by step and give the final value of the result.",
+     "a": "14 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lease Financing and Public Deposits' and work with: lease_amount = 5000, number_of_periods = 25, periodic_rent = 25, public_deposit_interest = 8, total_lease_rent = 400. Carry the chain through step by step and give the final value of the result.",
+     "a": "408 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lease Financing and Public Deposits' refers to.",
+     "a": "Lease financing is an arrangement under which a firm obtains the right to use an asset owned by another party (the lessor) for a fixed period in return for periodic lease rentals; public deposits are unsecured deposits invited by a company from the public for a fixed period (up to three years) at a fixed interest rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lease Financing and Public Deposits'.",
+     "a": "Lease financing lets a firm use assets without large capital outlay, while public deposits raise short and medium-term funds from the public at a fixed interest; both avoid ownership dilution but carry fixed payment obligations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lease Financing and Public Deposits', in plain ASCII form.",
+     "a": "total_lease_rent = periodic_rent * number_of_periods",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

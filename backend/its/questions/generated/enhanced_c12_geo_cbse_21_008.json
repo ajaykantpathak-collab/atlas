@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_008",
+   "title": "c12_geo_cbse_21_008",
+   "questions": [
+    {
+     "q": "A student says: \"Raster data is just a picture made of pixels, so it cannot be used for analysis.\" Is this statement correct? Explain why or why not in two sentences.",
+     "a": "The statement is **incorrect**. Raster data is not merely a picture; each pixel holds a numeric attribute value (elevation, reflectance, land-use class) that enables mathematical overlay, map algebra, and statistical analysis — operations impossible with a simple image file. A wrong answer reveals the student confuses *visual appearance* with *data structure* and does not understand that raster's grid structure makes overlay operations computationally simple (cell-by-cell arithmetic).",
+     "self_check": true
+    },
+    {
+     "q": "You have a paper topographical sheet (1:50,000) showing contour lines, spot heights, and drainage. You want to create a Digital Elevation Model (DEM) for slope analysis. Which data model — vector or raster — is more appropriate for the **final DEM** and why? Answer in 3–4 sentences.",
+     "a": "**Raster** is more appropriate for the final DEM because slope analysis requires a continuous surface where elevation varies gradually across space; raster's regular grid allows direct computation of slope/aspect using 3×3 neighbourhood algorithms (e.g., Horn's method) on neighbouring cell values. Vector contour lines would require interpolation to a grid first, adding error and processing steps. A wrong answer (choosing vector) shows the student focuses on the *input* format (contours are lines) rather than the *analytical requirement* (continuous field operations).",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation has a vector layer of all water pipelines (line features with attributes: diameter, material, year_laid). They need to find all pipeline segments within 50 m of a proposed metro tunnel alignment (another line layer). Which spatial analysis operation will they use, and which data model makes this operation **computationally efficient**? Show the reasoning in 3 steps.",
+     "a": "**Step 1:** Identify the operation — **buffer** (create 50 m polygon around metro tunnel) followed by **overlay** (intersect buffer with pipeline layer).  \n**Step 2:** Recall Box 4.2: Vector — \"Efficient for network analysis\"; Raster — \"Difficult network analysis\".  \n**Step 3:** Buffering a line and intersecting with another line is a **topological/network operation** involving precise geometry; vector stores explicit coordinates and topology, making distance calculation and intersection exact. Raster would require converting lines to cells, losing precision, and cell-by-cell distance computation is slower.  \n**Answer:** Use **vector** data model; operation = Buffer → Intersect (Overlay).  \nA wrong answer (choosing raster) indicates the student overlooks that network/buffer analysis relies on precise geometry and topology — vector's strength.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the storage implications of representing a **district boundary polygon** (complex, 5,000 vertices) in vector vs raster at 10 m cell size over a 50 km × 50 km area. Which model uses less storage for this *single* feature, and why? Calculate approximate storage for each (assume 8 bytes per coordinate, 1 byte per raster cell attribute).",
+     "a": "**Vector storage:** 5,000 vertices × 2 coordinates × 8 bytes = **80,000 bytes** (80 KB).  \n**Raster storage:** Area = 50,000 m × 50,000 m = 2.5×10⁹ m². Cell area = 10 m × 10 m = 100 m². Number of cells = 2.5×10⁹ / 100 = **25,000,000 cells**. At 1 byte/cell = **25,000,000 bytes** (25 MB).  \n**Vector uses ~300× less storage** for this single complex polygon because it stores only the boundary coordinates, whereas raster stores a value for every cell in the entire extent regardless of whether the feature occupies it.  \nA wrong answer (claiming raster is smaller) reveals the student does not grasp that raster storage depends on *extent and resolution*, not feature complexity, while vector storage depends on *feature complexity*.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to model the spread of a forest fire using hourly satellite thermal bands (raster) and vector layers of roads, settlements, and fire stations. Evaluate the statement: \"Since the satellite data is raster, the entire analysis should be done in raster to avoid conversion errors.\" Is this good practice? Justify with two specific reasons from the NCERT advantages/disadvantages.",
+     "a": "**No, it is not good practice.**  \n**Reason 1 (NCERT Box 4.2):** Vector is \"Efficient for network analysis\" — fire spread along roads and optimal routing of fire engines require network operations (shortest path, service area) that are inaccurate and slow in raster.  \n**Reason 2 (NCERT Box 4.2):** Raster has \"Errors in perimeter and shape\" — converting precise vector settlement boundaries to raster at coarse resolution misrepresents the wildland-urban interface, critical for evacuation planning.  \n**Best practice:** Keep satellite thermal data in raster for fire-front progression modelling (continuous field), but convert roads/settlements/fire stations to vector for network and proximity analysis; integrate via raster-vector overlay at decision points.  \nA wrong answer (agreeing with the statement) shows the student thinks \"one model fits all\" and ignores that different analytical tasks have different model affinities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a GIS data model choice table for a **state-level watershed management project** that must handle: (a) daily rainfall grids from IMD, (b) cadastral parcel boundaries, (c) stream network with flow direction, (d) soil texture classes from lab samples. Create a 4-row table with columns: Data Theme, Phenomenon Type (Discrete/Continuous), Recommended Model, Key Justification (one NCERT advantage/disadvantage).",
+     "a": "| Data Theme | Phenomenon Type | Recommended Model | Key Justification (NCERT) |\n|------------|-----------------|-------------------|---------------------------|\n| Daily rainfall grids | Continuous field | **Raster** | \"Compatible with satellite imagery\" + \"High spatial variability efficiently represented\" |\n| Cadastral parcel boundaries | Discrete objects | **Vector** | \"Accurate map output\" + \"Compact data structure\" for complex boundaries |\n| Stream network with flow direction | Discrete network | **Vector** | \"Efficient for network analysis\" (flow tracing, upstream/downstream) |\n| Soil texture classes (point samples) | Continuous field (interpolated) | **Raster** (after interpolation) | \"Simple data structure\" + \"Easy and efficient overlaying\" with rainfall/DEM for runoff modelling |\n\nA poor answer assigns vector to rainfall or raster to cadastral parcels, showing the student cannot match phenomenon behaviour to model structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

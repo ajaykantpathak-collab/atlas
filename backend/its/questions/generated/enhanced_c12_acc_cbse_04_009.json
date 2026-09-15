@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_009",
+   "title": "c12_acc_cbse_04_009",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the Realisation Account in dissolution of a partnership firm?",
+     "a": "The Realisation Account is prepared to ascertain the profit or loss on realisation of assets and settlement of liabilities. It records the book values of assets/liabilities transferred, actual amounts realised/paid, and expenses. A wrong answer (e.g., \"to record journal entries\" or \"to calculate partner's capital\") reveals the student confuses the Realisation Account with the journal or the Partners' Capital Account.",
+     "self_check": true
+    },
+    {
+     "q": "When a partner takes over an unrecorded asset at an agreed value, how is it recorded in the Realisation Account and the Partner's Capital Account?",
+     "a": "The Realisation Account is credited with the agreed value (gain on realisation), and the Partner's Capital Account is debited with the same amount. If the student debits Realisation Account or credits Capital Account, they misunderstand that the partner is acquiring the asset, so the firm gains and the partner's claim reduces.",
+     "self_check": true
+    },
+    {
+     "q": "A firm dissolves. Assets realised ₹4,00,000 (book value ₹5,00,000). Liabilities paid ₹1,80,000 (book value ₹2,00,000). Realisation expenses ₹10,000. Unrecorded liability ₹20,000 paid. Calculate the profit/loss on realisation and show the Realisation Account entries.",
+     "a": "Realisation Account:\nDr: Assets transferred ₹5,00,000, Realisation expenses ₹10,000, Liabilities paid ₹1,80,000, Unrecorded liability paid ₹20,000 = Total Dr ₹7,10,000.\nCr: Liabilities transferred ₹2,00,000, Assets realised ₹4,00,000 = Total Cr ₹6,00,000.\nLoss on realisation = ₹1,10,000 (Dr > Cr). Debit Partners' Capital Accounts in profit-sharing ratio. A wrong answer (e.g., ignoring unrecorded liability or expenses) shows the student misses items that affect the realisation profit/loss.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of a partner's loan to the firm versus a partner's capital account during dissolution. Why are they settled in a different order?",
+     "a": "A partner's loan is an external liability to the firm and must be paid before any capital repayment (Section 48 of Partnership Act). The loan account is credited to Realisation Account? Actually, loan is paid from cash after realisation, not through Realisation Account. The Capital Account is settled only after all external liabilities (including partner's loan) are paid. If a student treats the loan as part of capital, they violate the legal priority of claims.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"In dissolution, the Cash/Bank Account is prepared last and its balancing figure represents the final amount paid to partners.\" Is this statement always true? Justify.",
+     "a": "The statement is true in sequence: Cash/Bank Account is prepared after Realisation and Capital Accounts. However, the balancing figure is not \"paid to partners\" directly; it is the net cash available which is then distributed to partners as per their capital balances. If the student thinks the Cash Account balance is the profit, they confuse cash flow with profit determination.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partner is insolvent and the firm dissolves. Design the Realisation Account, Partners' Capital Accounts, and Cash/Bank Account showing the application of Garner vs Murray rule (assume fixed capitals, profit-sharing ratio 3:2). Provide the final cash settlement for each partner.",
+     "a": "A good answer will show: Realisation Account with loss, Capital Accounts with share of loss, insolvent partner's deficiency allocated to solvent partners in capital ratio (Garner vs Murray), Cash/Bank Account with solvent partners bringing in cash to cover deficiency, and final payments. A poor answer will either ignore the deficiency allocation or allocate it in profit-sharing ratio instead of capital ratio, revealing misunderstanding of Garner vs Murray.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

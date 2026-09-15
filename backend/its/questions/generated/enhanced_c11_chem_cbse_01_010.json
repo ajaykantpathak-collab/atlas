@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_010",
+   "title": "c11_chem_cbse_01_010",
+   "questions": [
+    {
+     "q": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. What is the first step to determine its empirical formula?",
+     "a": "The first step is to assume a 100 g sample so that the mass percentages become 40.0 g C, 6.7 g H, and 53.3 g O. A wrong answer (e.g., directly dividing percentages by atomic masses without converting to moles) reveals the student does not understand that percentages are mass-based and must be converted to mole ratios using molar masses.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we divide each mole value by the smallest mole value when finding the empirical formula?",
+     "a": "Dividing by the smallest mole value normalizes the ratio so that the smallest becomes 1, revealing the simplest whole-number ratio of atoms. A wrong answer (e.g., \"to make the numbers smaller\" or \"to get the molecular formula directly\") reveals the student confuses the purpose of this step with scaling or thinks it directly gives the molecular formula without the molar mass.",
+     "self_check": true
+    },
+    {
+     "q": "A compound has an empirical formula of CH₂O and a molar mass of 180 g mol⁻¹. What is its molecular formula? Show your working.",
+     "a": "Empirical formula mass = 12.01 + 2×1.008 + 16.00 = 30.026 g mol⁻¹. n = 180 / 30.026 ≈ 6. Molecular formula = (CH₂O)₆ = C₆H₁₂O₆. A wrong answer (e.g., n=5 giving C₅H₁₀O₅ or forgetting to multiply the subscripts) reveals the student either miscalculates empirical formula mass or does not understand that n must be an integer and the subscripts are multiplied by n.",
+     "self_check": true
+    },
+    {
+     "q": "Two compounds have the same empirical formula CH₂ but different molar masses: Compound A = 28 g mol⁻¹, Compound B = 56 g mol⁻¹. Analyze their molecular formulas and explain the relationship.",
+     "a": "Empirical formula mass = 14 g mol⁻¹. For A: n = 28/14 = 2 → C₂H₄. For B: n = 56/14 = 4 → C₄H₈. Both are multiples of CH₂, showing they are different members of the same homologous series (alkenes). A wrong answer (e.g., both have same molecular formula) reveals the student does not grasp that empirical formula is the simplest ratio and different molecular formulas can share the same empirical formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student determines the empirical formula of a compound as C₂H₃O from data: 48.6% C, 8.1% H, 43.3% O. The molar mass is found to be 118 g mol⁻¹. The student writes molecular formula as C₄H₆O₂. Evaluate if this is correct.",
+     "a": "Empirical formula mass = 2×12.01 + 3×1.008 + 16.00 = 43.044 g mol⁻¹. n = 118 / 43.044 ≈ 2.74, not an integer. The data is inconsistent; either the molar mass or percentage data has error. The student's answer C₄H₆O₂ assumes n=2 (molar mass 86) which does not match 118. A wrong evaluation (e.g., accepting C₄H₆O₂) reveals the student does not check that n must be a whole number and blindly multiplies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lab experiment to determine the empirical formula of magnesium oxide using a crucible and Bunsen burner. Outline the measurements needed and the calculation steps.",
+     "a": "Measure mass of empty crucible, mass of crucible + Mg ribbon, heat strongly to form MgO, cool and measure mass of crucible + MgO. Mass of Mg = (crucible+Mg) - crucible. Mass of O = (crucible+MgO) - (crucible+Mg). Convert both masses to moles, divide by smallest mole value to get ratio. A poor answer (e.g., missing the initial Mg mass measurement or not converting to moles) reveals the student does not understand that empirical formula requires mole ratio, not mass ratio, and that oxygen mass must be found by difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

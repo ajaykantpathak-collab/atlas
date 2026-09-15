@@ -1,0 +1,399 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 208,
+ "chapter_title": "India: Climate, Vegetation and Wildlife",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees103.txt",
+ "concepts": [
+  {
+   "id": "fess.208.1",
+   "title": "Atmospheric Weather Conditions",
+   "section": "Weather",
+   "definition": "The daily fluctuations in the air surrounding Earth, involving elements like heat, precipitation, and light from the sun.",
+   "formula": "none",
+   "key_idea": "Weather describes short-term atmospheric states like sunny, cloudy, or windy.",
+   "textbook_ref": "fess208.txt lines 1-15",
+   "question_patterns": [
+    "What is meant by weather?",
+    "How does weather differ from day to day?",
+    "Identify the components that make up weather.",
+    "Describe the atmospheric changes that constitute weather.",
+    "What are the examples of weather conditions mentioned in the text?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify atmospheric elements",
+     "explain": "Look for changes in temperature, rainfall, and sunshine."
+    },
+    {
+     "step": 2,
+     "action": "Determine the timeframe",
+     "explain": "Weather refers to day-to-day changes rather than long-term averages."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.2",
+   "title": "Hot Weather Season and Loo",
+   "section": "HOT WEATHER SEASON OR SUMMER",
+   "definition": "A period characterized by high temperatures due to direct sun rays and the movement of searing, moistureless winds.",
+   "formula": "none",
+   "key_idea": "Summer in India is marked by high heat and dry winds called loo.",
+   "textbook_ref": "fess208.txt lines 26-35",
+   "question_patterns": [
+    "What are the hot and dry winds called in summer?",
+    "Why does temperature become very high during the summer season?",
+    "Describe the characteristics of the hot weather season in India.",
+    "When do loo winds typically blow?",
+    "Explain the impact of sun rays during the summer months."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the season",
+     "explain": "Summer occurs from March to May in India."
+    },
+    {
+     "step": 2,
+     "action": "Identify wind characteristics",
+     "explain": "The hot and dry winds blowing during the day are specifically called loo."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.3",
+   "title": "Southwest Monsoon Mechanism",
+   "section": "SOUTH WEST MONSOON SEASON OR RAINY SEASON",
+   "definition": "The arrival of moisture-filled winds from the sea that generate rainfall upon hitting mountain ranges.",
+   "formula": "none",
+   "key_idea": "Winds blowing from the Arabian Sea and Bay of Bengal bring rain to the Indian landmass.",
+   "textbook_ref": "fess208.txt lines 50-55",
+   "question_patterns": [
+    "Which winds bring rainfall to India?",
+    "How does the southwest monsoon cause rain?",
+    "Where do the monsoon winds blow from?",
+    "What happens when moisture-laden winds strike mountain barriers?",
+    "Why is the rainy season important for Indian agriculture?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace wind direction",
+     "explain": "Winds move from the Arabian Sea and Bay of Bengal toward the land."
+    },
+    {
+     "step": 2,
+     "action": "Identify the cause of precipitation",
+     "explain": "Rain occurs when these moisture-carrying winds are blocked by mountains."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.4",
+   "title": "Retreating Monsoon and Autumn",
+   "section": "SEASON OF RETREATING MONSOONS OR AUTUMN",
+   "definition": "The phase where winds reverse direction, moving from the mainland back toward the Bay of Bengal.",
+   "formula": "none",
+   "key_idea": "The retreating monsoon brings significant rainfall to Tamil Nadu and Andhra Pradesh.",
+   "textbook_ref": "fess208.txt lines 56-62",
+   "question_patterns": [
+    "What is the season of retreating monsoons?",
+    "Which states receive rainfall during the autumn season in India?",
+    "Describe the movement of winds during the retreating monsoon.",
+    "In which months does the retreating monsoon occur?",
+    "How does the wind direction change after the rainy season?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify wind reversal",
+     "explain": "Winds move from the mainland back to the Bay of Bengal."
+    },
+    {
+     "step": 2,
+     "action": "Locate affected regions",
+     "explain": "This movement specifically brings rain to southern parts like Tamil Nadu."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.5",
+   "title": "Determinants of Regional Climate",
+   "section": "THE EARTH : OUR HABITAT",
+   "definition": "The long-term average of weather conditions influenced by a region's elevation, geography, and proximity to water bodies.",
+   "formula": "none",
+   "key_idea": "Climate is the multi-year average of weather, shaped by location and relief.",
+   "textbook_ref": "fess208.txt lines 70-80",
+   "question_patterns": [
+    "What factors affect the climate of a place?",
+    "Why do Mumbai and Kolkata have moderate climates?",
+    "Explain why Jaisalmer is hot while Drass is freezing.",
+    "What is the difference between weather and climate?",
+    "Which place in India receives the world's highest rainfall?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List geographic factors",
+     "explain": "Identify location, altitude, distance from the sea, and relief."
+    },
+    {
+     "step": 2,
+     "action": "Analyze regional impact",
+     "explain": "Apply these factors to explain why coastal areas are humid and deserts are hot."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.6",
+   "title": "Natural Vegetation Definition",
+   "section": "NATURAL VEGETATION",
+   "definition": "Wild flora including grasses, shrubs, and trees that develop in an environment without human cultivation or maintenance.",
+   "formula": "none",
+   "key_idea": "Plants that grow on their own without human help are natural vegetation.",
+   "textbook_ref": "fess208.txt lines 85-100",
+   "question_patterns": [
+    "What is natural vegetation?",
+    "How does natural vegetation differ from cultivated plants?",
+    "What determines the type of natural vegetation in a region?",
+    "Name the different categories of natural vegetation.",
+    "Why does India have a wide range of natural vegetation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for human interference",
+     "explain": "Natural vegetation grows without help or interference from people."
+    },
+    {
+     "step": 2,
+     "action": "Identify plant types",
+     "explain": "It includes everything from small grasses and shrubs to tall trees."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.7",
+   "title": "Ecological Importance of Forests",
+   "section": "WHY ARE FORESTS NECESSARY?",
+   "definition": "The vital roles played by wooded areas in providing oxygen, preventing erosion, and supplying resources like timber and medicine.",
+   "formula": "none",
+   "key_idea": "Forests are essential for life as they provide oxygen and protect the soil.",
+   "textbook_ref": "fess208.txt lines 110-120",
+   "question_patterns": [
+    "Why are forests necessary for us?",
+    "How do plants help in controlling soil erosion?",
+    "List four products we get from forests.",
+    "What role do plants play in the oxygen cycle?",
+    "Why should we protect existing forests?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify gas exchange",
+     "explain": "Plants release oxygen and absorb carbon dioxide."
+    },
+    {
+     "step": 2,
+     "action": "Identify physical protection",
+     "explain": "Roots bind the soil to prevent it from washing away."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.8",
+   "title": "Wildlife Distribution in India",
+   "section": "WILD LIFE",
+   "definition": "The specific geographic habitats across India where various animal species like lions, tigers, and elephants naturally reside.",
+   "formula": "none",
+   "key_idea": "Different regions of India host unique wildlife, such as Asiatic lions in Gir.",
+   "textbook_ref": "fess208.txt lines 140-160",
+   "question_patterns": [
+    "Where is the home of Asiatic lions in India?",
+    "Which animals are found in the Himalayan region?",
+    "Name the national animal and national bird of India.",
+    "Where can one find elephants and one-horned rhinoceroses?",
+    "Which animals are found in the Great Indian desert?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the species",
+     "explain": "Determine which animal is being discussed (e.g., Tiger, Lion, Elephant)."
+    },
+    {
+     "step": 2,
+     "action": "Match species to region",
+     "explain": "Link the animal to its specific habitat like Gir forest, Assam, or the Himalayas."
+    }
+   ]
+  },
+  {
+   "id": "fess.208.9",
+   "title": "Migratory Bird Travel Calculation",
+   "section": "Migratory Birds",
+   "definition": "Calculating the total distance covered by birds that travel between regions to escape harsh winters.",
+   "formula": "total_distance = trips * distance",
+   "key_idea": "Migratory birds like the Little Stint travel thousands of kilometers annually.",
+   "textbook_ref": "fess208.txt lines 180-185",
+   "question_patterns": [
+    "Calculate the total distance for a bird flying 8000 km for 2 trips.",
+    "If a Little Stint travels 8000 km one way, find the total distance for 3 such journeys.",
+    "What is the total distance covered in 4 trips of 5000 km each?",
+    "Find the total path length for a migratory bird covering a distance of 8000 km.",
+    "How many kilometers does a bird travel if it completes 5 migrations of 3000 km?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify distance per trip",
+     "explain": "Determine the length of a single migration journey.",
+     "compute": "total_distance = trips * distance"
+    }
+   ]
+  },
+  {
+   "id": "fess.208.10",
+   "title": "Tree Count by Age",
+   "section": "WHY ARE FORESTS NECESSARY?",
+   "definition": "Determining the total number of trees planted based on a starting sapling plus one additional tree for every year of age.",
+   "formula": "total_trees = age + 1",
+   "key_idea": "A cumulative count of trees where one is added for every birthday.",
+   "textbook_ref": "fess208.txt lines 125-135",
+   "question_patterns": [
+    "How many trees are there if a child is 20 years old and one was planted every birthday starting from birth?",
+    "Calculate the total trees for a 10-year-old using Leela's method.",
+    "Find the number of trees if a sapling was planted at birth and on every birthday until age 15.",
+    "What is the total tree count when a person reaches age 5?",
+    "How many trees stand for a 12-year-old if the family plants one every year since birth?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add age to the initial sapling",
+     "explain": "The total is the sum of the birth sapling and one for every year of age.",
+     "compute": "total_trees = age + 1"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess208.txt lines 180-185",
+   "concept": "fess.208.9",
+   "question_type": "compute",
+   "question_pattern": "A Little Stint travels {distance} km to reach India. Calculate the total distance covered if it makes {trips} such journeys.",
+   "extracted_variables": {
+    "distance": 8000,
+    "trips": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply trips by distance",
+     "explain": "The total distance is the product of the number of journeys and the distance per journey.",
+     "compute": "total_distance = trips * distance"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess208.txt lines 180-185",
+   "concept": "fess.208.9",
+   "question_type": "compute",
+   "question_pattern": "Find the total distance for {trips} migrations of {distance} km each.",
+   "extracted_variables": {
+    "distance": 5000,
+    "trips": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply trips by distance",
+     "explain": "Total path is calculated by multiplying the count of trips by the distance of one trip.",
+     "compute": "total_distance = trips * distance"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fess208.txt lines 125-135",
+   "concept": "fess.208.10",
+   "question_type": "compute",
+   "question_pattern": "If a sapling was planted at birth and one on every birthday, how many trees are there when the child is {age} years old?",
+   "extracted_variables": {
+    "age": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add one to the age",
+     "explain": "The total trees equal the age plus the initial sapling planted at birth.",
+     "compute": "total_trees = age + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fess208.txt lines 125-135",
+   "concept": "fess.208.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate the tree count for a {age} year old child using the birthday planting method.",
+   "extracted_variables": {
+    "age": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add one to the age",
+     "explain": "The count includes the birth sapling and the annual birthday saplings.",
+     "compute": "total_trees = age + 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess208.txt lines 190-200",
+   "questions": [
+    "Which winds bring rainfall in India? Why is it so important?",
+    "Name the different seasons in India.",
+    "What is natural vegetation?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "fess208.txt lines 201-210",
+   "questions": [
+    "The world's highest rainfall occurs in (i) Mumbai (ii) Asansol (iii) Mawsynram",
+    "Wild goats and snow leopards are found in (i) Himalayan region (ii) Peninsular region (iii) Gir forests",
+    "During the south west monsoon period, the moisture laden winds blow from (i) land to sea (ii) sea to land (iii) plateau to plains"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "fess208.txt lines 211-220",
+   "questions": [
+    "Hot and dry winds known as loo blow during the day in the summers.",
+    "The states of Andhra Pradesh and Tamil Nadu receive a great amount of rainfall during the season of retreating monsoon.",
+    "Gir forest in Gujarat is the home of Asiatic lions."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

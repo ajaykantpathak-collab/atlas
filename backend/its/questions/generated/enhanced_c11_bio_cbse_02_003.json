@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_003",
+   "title": "c11_bio_cbse_02_003",
+   "questions": [
+    {
+     "q": "Label the following structures on a bacterial cell diagram and state the function of each: cell wall, nucleoid, mesosome, ribosome, plasmid, flagellum, pilus.",
+     "a": "Cell wall (peptidoglycan) — provides structural support and shape, differs between Gram-positive (thick) and Gram-negative (thin). Nucleoid — region containing circular chromosomal DNA, not membrane-bound. Mesosome — infolded plasma membrane, site of cellular respiration and replication. Ribosome (70S) — protein synthesis. Plasmid — small extrachromosomal DNA circle, carries antibiotic resistance and accessory functions. Flagellum — rotary motility. Pilus — attachment and conjugation (DNA transfer). A wrong answer that labels the nucleoid as \"nucleus\" reveals the student has not distinguished prokaryotic from eukaryotic organisation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do Gram-positive bacteria stain purple while Gram-negative bacteria stain pink? Relate this to the structural difference in their cell walls.",
+     "a": "Gram-positive bacteria have a thick peptidoglycan layer (20-80 nm) that traps crystal violet-iodine complex during decolourisation, retaining the purple colour. Gram-negative bacteria have a thin peptidoglycan layer (2-7 nm) surrounded by an outer lipid membrane; the alcohol wash dissolves the outer membrane and the thin peptidoglycan cannot retain the dye, so safranin counterstain makes them pink. A wrong answer that says \"Gram-positive has more DNA\" or \"different stains\" reveals the student does not understand the structural basis of Gram staining.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the process of binary fission in bacteria, including the role of DNA replication, cell elongation, and septum formation. Why is the generation time of E. coli approximately 20 minutes under optimal conditions?",
+     "a": "Binary fission: (1) Circular DNA replicates bidirectionally from the origin. (2) Each copy attaches to a different part of the plasma membrane. (3) Cell elongates, separating the two DNA copies. (4) Plasma membrane invaginates at the midpoint forming a septum. (5) Cell wall material is deposited, completing the septum. (6) Two identical daughter cells separate. E. coli completes this in ~20 minutes because its genome is small (~4.6 million base pairs), replication is fast (~1000 nucleotides/sec), and the cell is metabolically simple. A wrong answer that describes mitosis (spindle fibres, chromosomes aligning) reveals the student is applying eukaryotic concepts to prokaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "Under what environmental conditions do bacteria form endospores, and why are endospores considered among the most resistant biological structures? Name two bacterial genera that form endospores.",
+     "a": "Endospores form under unfavourable conditions: nutrient depletion, extreme temperature, desiccation, radiation, or chemical stress. The vegetative cell undergoes sporulation: DNA condenses, dipicolinic acid and calcium ions stabilise the DNA, and multiple protein coats form a resistant barrier. Endospores resist boiling (100°C for hours), UV and gamma radiation, desiccation, and chemical disinfectants because the dehydrated core, dipicolinic acid, and protective coats prevent DNA damage. Genera: Bacillus (aerobic) and Clostridium (anaerobic). A wrong answer that says endospores form \"for reproduction\" reveals a critical misconception — endospores are survival structures, not reproductive; one vegetative cell produces one endospore, not multiple offspring.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three mechanisms of genetic recombination in bacteria (transformation, transduction, conjugation) by identifying: (a) the source of donor DNA, (b) the transfer medium, and (c) whether cell-to-cell contact is required.",
+     "a": "Transformation: (a) free DNA fragments released by lysed bacteria in the environment, (b) uptake through the recipient cell membrane, (c) no cell contact required. Transduction: (a) donor bacterial DNA packaged inside a bacteriophage, (b) transferred by the phage injecting DNA into the recipient, (c) no direct cell contact (phage-mediated). Conjugation: (a) donor DNA from the F+ (fertility factor) cell, (b) transferred through the pilus (conjugation tube), (c) direct cell-to-cell contact required. A wrong answer that conflates transformation with transduction (both \"take up DNA\") reveals the student has not distinguished the mechanism of DNA delivery.",
+     "self_check": true
+    },
+    {
+     "q": "A microbiologist observes that a population of E. coli has acquired antibiotic resistance without prior exposure to the antibiotic. Propose two mechanisms that could explain this, and design an experiment to distinguish between them.",
+     "a": "Mechanism 1: Conjugation — a resistant donor cell transferred the resistance gene (on a plasmid, e.g., R-factor) to the recipient via a pilus. Mechanism 2: Transformation — the recipient took up free DNA containing the resistance gene from lysed resistant cells in the environment. Experiment: (a) Plate recipient cells alone with lysed donor extract (tests transformation). (b) Mix live donor and recipient cells with a filter preventing direct contact (tests transformation only). (c) Mix live donor and recipient cells without a filter (tests conjugation + transformation). If resistance appears only in (c), it is conjugation. If it appears in (a) and (b), it is transformation. If only in (c), it is conjugation. A wrong answer that only proposes \"mutation\" reveals the student is not thinking about horizontal gene transfer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

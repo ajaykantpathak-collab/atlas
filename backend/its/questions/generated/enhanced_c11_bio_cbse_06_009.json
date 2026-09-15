@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_009",
+   "title": "c11_bio_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define anomalous secondary growth and give one example where it occurs due to the formation of accessory cambia.",
+     "a": "Anomalous secondary growth is any deviation from the normal pattern of secondary growth involving unusual cambial activity or secondary growth in monocots. *Boerhaavia* (a dicot) shows anomalous growth due to successive accessory cambia. A wrong answer (e.g., defining it as \"abnormal growth due to disease\" or citing *Dracaena* for accessory cambia) reveals confusion between \"anomalous\" (genetically normal variation) and \"pathological,\" or mixing up the two distinct mechanisms (accessory cambium vs. monocot cambium).",
+     "self_check": true
+    },
+    {
+     "q": "In normal dicot secondary growth, a single vascular cambium ring produces secondary xylem inward and secondary phloem outward. Explain why *Bignonia* stem does not show a uniform cylindrical ring of secondary xylem.",
+     "a": "In *Bignonia*, the vascular cambium shows differential activity: it is more active in certain sectors (producing large amounts of secondary xylem forming wedges) and less active in others (producing mostly parenchymatous rays). A wrong answer (e.g., \"multiple cambium rings form\" or \"cambium is absent\") indicates the student cannot distinguish between *abnormal activity of a single cambium* (Bignonia) and *formation of accessory cambia* (Boerhaavia).",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a stem shows conjoint, collateral, open vascular bundles arranged in a ring. After secondary growth, the section shows multiple concentric rings of vascular bundles, each with its own cambium. Identify the plant genus and the type of anomaly.",
+     "a": "The plant is *Boerhaavia* (or *Chenopodium*). The anomaly is \"successive accessory cambia\" (multiple cambium rings arising sequentially in the pericycle/phloem parenchyma). A wrong answer (e.g., *Dracaena*) shows the student misses that *Dracaena* is a monocot with scattered bundles initially, not a ring arrangement, and has only one special monocot cambium.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin and function of the vascular cambium in normal dicot stem (*Helianthus*) versus the monocot *Dracaena* stem. Why is *Dracaena* considered anomalous?",
+     "a": "In *Helianthus*, a single fascicular + interfascicular cambium ring (lateral meristem) arises from procambium and medullary ray cells. In *Dracaena*, a special \"monocot cambium\" arises from the ground tissue (parenchyma) outside the vascular bundles, not from procambium. *Dracaena* is anomalous because monocots typically lack secondary growth (closed bundles); this cambium is a unique adaptation. A wrong answer (e.g., \"both arise from pericycle\") reveals a fundamental misunderstanding of meristem origins.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Anomalous secondary growth is a defect in the plant's development caused by environmental stress.\" Justify your answer with two specific examples.",
+     "a": "The statement is false. Anomalous secondary growth is a genetically determined, species-specific trait, not a stress-induced defect. Example 1: *Bignonia* always produces wedged xylem regardless of environment. Example 2: *Dracaena* (a monocot) constitutively activates a special cambium for secondary thickening. A student agreeing with the statement confuses \"anomalous\" (deviation from *textbook norm*) with \"abnormal/pathological.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic observation plan to distinguish between a stem undergoing normal secondary growth (e.g., *Eucalyptus*) and one showing anomalous growth due to accessory cambia (e.g., *Boerhaavia*). List the key diagnostic features you would check.",
+     "a": "Plan: Take T.S. of mature stems, stain with safranin-fast green. Check for: (1) Number of cambial zones: one continuous ring vs. multiple discontinuous arcs/rings. (2) Vascular bundle arrangement: single ring of bundles with clear growth rings vs. multiple concentric rings of bundles. (3) Origin of inner rings: from pericycle/phloem parenchyma (accessory) vs. fascicular cambium. A poor answer (only checking \"amount of wood\") shows inability to identify structural signatures of cambial variants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

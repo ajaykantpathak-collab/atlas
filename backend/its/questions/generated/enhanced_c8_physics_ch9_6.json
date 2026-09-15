@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_6",
+   "title": "c8_physics_ch9_6",
+   "questions": [
+    {
+     "q": "What percentage of Earth's total water is freshwater, and what fraction of that freshwater is easily accessible in lakes and rivers?",
+     "a": "Freshwater is 2.5% of total water; lakes and rivers hold only 0.3% of that freshwater (≈0.0075% of total water). A wrong answer (e.g., saying freshwater is 50% or that rivers hold most freshwater) reveals the student has not grasped the extreme scarcity of accessible freshwater despite Earth being a \"blue planet\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the water cycle would stop if either solar energy or gravity were removed, naming the specific processes that depend on each force.",
+     "a": "Solar energy drives evaporation and transpiration (phase change from liquid to gas); gravity drives precipitation (pulling droplets down), infiltration (pulling water into ground), and runoff (pulling water downhill). Without the Sun, no evaporation; without gravity, no rain falls and no rivers flow. A wrong answer that attributes all processes to the Sun alone shows the student misses gravity's essential role in moving water downward.",
+     "self_check": true
+    },
+    {
+     "q": "Total water on Earth is 1.386 billion km³. Oceans contain 97.5%. Of the remaining freshwater, 68.7% is ice, 30.1% groundwater, 0.3% lakes and rivers. Calculate the volume of water in lakes and rivers in km³.",
+     "a": "Step 1: Freshwater volume = 2.5% of 1.386 billion = 0.025 × 1,386,000,000 = 34,650,000 km³.\nStep 2: Lakes and rivers = 0.3% of freshwater = 0.003 × 34,650,000 = 103,950 km³.\nAnswer: ≈1.04 × 10⁵ km³. A wrong answer often forgets the two-step percentage (takes 0.3% of total instead of 0.3% of freshwater), revealing confusion about nested percentages.",
+     "self_check": true
+    },
+    {
+     "q": "The average residence time of water in the atmosphere is 9 days, while in the ocean it is about 3,000 years. Compare these times and explain what they imply about the speed of the water cycle's different pathways.",
+     "a": "Atmospheric water cycles very quickly (9 days) because evaporation and precipitation are rapid fluxes; ocean water cycles slowly (3,000 years) because the ocean reservoir is huge and only a small fraction evaporates per year. This implies the \"atmospheric branch\" of the cycle is fast and responsive, while the \"oceanic branch\" is a massive, slow buffer. A wrong answer that says both are fast or both slow shows the student does not connect reservoir size and flux rate to residence time.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The water cycle is a closed system, so we will never run out of freshwater.\" Evaluate this statement as true, false, or partially true, and justify your reasoning.",
+     "a": "Partially true. The global water cycle is a closed system (total water constant), but freshwater availability for humans is not guaranteed: it depends on distribution (most is ice/groundwater), quality (pollution), and timing (droughts/floods). Over-extraction of groundwater can deplete local aquifers faster than recharge. A \"true\" answer ignores spatial/temporal variability and human impact; a \"false\" answer ignores the global conservation of water.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple working model of the water cycle using only a transparent plastic box, a heat lamp, ice cubes, and soil/sand. Describe the setup and which real-world processes each part represents.",
+     "a": "Place damp soil in one half of the box (land/ocean), cover with lid. Put ice cubes on lid above soil (cold atmosphere). Shine heat lamp on soil (Sun). Observe: water evaporates from soil (evaporation), condenses on cold lid (condensation), drips down (precipitation), some soaks into soil (infiltration), some runs over surface (runoff). A poor model misses one of these processes (e.g., no ice cubes so no condensation) or cannot explain the energy source.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,488 @@
+{
+ "catalog": "catalog_class6_maths_ch101.json",
+ "concepts": [
+  {
+   "id": "fegp.101.1.2.1",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.2",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 8 * (8 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 8 * (8 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 9 * (9 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (2 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 4 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.2.3",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 38 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 34 * 34"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 10 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 41 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 13 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.2.4",
+   "family": "cubes",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cube = 3 ** 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "edge = 64 ** (1 / 3)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "root = 64 ** (1 / 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mult = 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "div = 5 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gap = (4 + 1) ** 3 - 4 ** 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.4.1",
+   "family": "odd_sum_square",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 12 * 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sq = 5 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 3 * 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 9 * 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sq = 4 * 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.4.2",
+   "family": "updown_sum",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 * 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 10 * 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 14 * 14"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sq = 4 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "t1 = 4 * (4 + 1) / 2",
+      "t2 = 5 * (5 + 1) / 2",
+      "total = t1 + t2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sq = 8 ** 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.4.5",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 10 * (10 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 9 * (9 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 5 * (5 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (3 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 3 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.4.8",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 7 * (7 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 5 * (5 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 7 * (7 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (4 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 2 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.4.9",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 11 * (11 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 6 * (6 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 8 * (8 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (4 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 4 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.101.1.6.1",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 20"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 71"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 46"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 150 - 25"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 32"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 86"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 20"
+   ]
+  },
+  {
+   "id": "fegp.101.1.6.5",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 14 * (14 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 10 * (10 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 5 * (5 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (4 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 2 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

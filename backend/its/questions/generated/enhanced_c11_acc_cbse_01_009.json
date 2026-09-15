@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_009",
+   "title": "c11_acc_cbse_01_009",
+   "questions": [
+    {
+     "q": "A stationery shop owner sells notebooks worth ₹25,000 for cash. He also sells an old office chair (original cost ₹5,000, book value ₹2,000) for ₹3,000. Classify each amount as Revenue, Expense, Gain, or Loss.",
+     "a": "₹25,000 from notebook sales = Revenue (ordinary activity). ₹3,000 from chair sale: book value ₹2,000, sale price ₹3,000 → ₹1,000 Gain (peripheral transaction). A wrong answer (e.g., calling chair sale \"Revenue\") reveals the student thinks any cash inflow is revenue, missing the \"ordinary activities\" criterion.",
+     "self_check": true
+    },
+    {
+     "q": "\"Expenses and losses both reduce profit. So they are the same thing.\" Evaluate this statement. Is it true or false? Explain the fundamental difference using the concept of \"benefit received.\"",
+     "a": "False. Expenses are costs incurred *to earn revenue* — benefit is received (e.g., rent paid gives you shop space to sell). Losses are costs with *no benefit received* (e.g., goods stolen, fire damage) or from peripheral transactions (loss on asset sale). A student saying \"true\" confuses the *effect* (both reduce profit) with the *nature* (why the outflow occurred).",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm pays ₹50,000 for raw materials, ₹20,000 factory rent, and ₹5,000 as donation to a charity. Classify each. Then calculate: if revenue is ₹1,00,000, what is profit before tax? Show steps.",
+     "a": "Raw materials ₹50,000 = Expense (direct cost of revenue). Factory rent ₹20,000 = Expense (indirect cost of revenue). Donation ₹5,000 = Expense (though not for revenue, it's an operating expense per accounting standards). Profit = ₹1,00,000 - ₹75,000 = ₹25,000. A wrong classification (e.g., donation as \"Loss\") shows confusion: donations are deliberate outflows, not involuntary losses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (a) A cloth merchant sells fabric worth ₹1,00,000. (b) The same merchant sells his personal car (used for business deliveries) for ₹3,00,000 (book value ₹2,50,000). Why is (a) Revenue but (b) a Gain? What would change if the merchant was a car dealer?",
+     "a": "(a) Revenue — selling fabric is the merchant's *ordinary activity*. (b) Gain — selling a delivery car is *incidental*; the merchant is in cloth, not car trading. If the merchant were a car dealer, (b) becomes Revenue because car sales are now ordinary activities. A student missing this shows they don't grasp that classification depends on the *entity's nature of business*, not the asset type alone.",
+     "self_check": true
+    },
+    {
+     "q": "\"Gain increases profit, so it's good. Loss decreases profit, so it's bad. Therefore, a business should maximise gains and minimise losses.\" Critique this from an accounting perspective. Is the reasoning sound?",
+     "a": "Unsound. Accounting distinguishes *operating performance* (revenue minus expenses) from *non-operating items* (gains/losses). A business showing high profit only from gains (e.g., selling land) but operating losses signals an unsustainable core business. Investors analyse operating profit separately. A student agreeing reveals they view profit as a single undifferentiated number, not understanding the analytical purpose of separating operating vs non-operating items.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own scenario (3-4 transactions) for a mobile phone repair shop that includes at least one item each of: Revenue, Expense, Gain, Loss. Write the classification for each with a one-line justification.",
+     "a": "Example: (1) Repair charges collected ₹15,000 → Revenue (ordinary service income). (2) Spare parts purchased ₹6,000 → Expense (cost to earn revenue). (3) Old testing equipment sold for ₹8,000 (book value ₹5,000) → Gain ₹3,000 (peripheral asset sale). (4) Tools stolen worth ₹4,000 → Loss (no benefit received). A poor answer mixes classifications (e.g., calling stolen tools an \"expense\") showing the student hasn't internalised the \"benefit received\" vs \"no benefit\" distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

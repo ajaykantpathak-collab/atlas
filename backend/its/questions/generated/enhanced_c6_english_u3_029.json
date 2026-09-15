@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u3_029",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u3_029",
+   "title": "c6_english_u3_029",
+   "questions": [
+    {
+     "q": "What is the main difference between factual writing and creative writing?",
+     "a": "Factual writing only lists real information, while creative writing uses your imagination to add feelings, personality, or stories to that information. A wrong answer shows the student thinks writing is just about copying textbook facts without adding personal thoughts.",
+     "self_check": true
+    },
+    {
+     "q": "If you were describing a mango tree creatively, why would it be better to say \"the tree waved its leafy arms\" instead of \"the tree has many leaves\"?",
+     "a": "\"Waved its leafy arms\" uses personification to make the tree seem alive and active, which helps the reader visualize it. A wrong answer indicates the student does not understand how word choices create an imaginative image.",
+     "self_check": true
+    },
+    {
+     "q": "Describe a common kitchen spice (like ginger) as if it were a tiny, brave explorer.",
+     "a": "Step 1: Assign a human-like goal (e.g., to travel into a soup). Step 2: Describe its texture (rough, wrinkled). Step 3: Describe its action (diving, swimming). Step 4: Write: \"The wrinkled ginger explorer dove bravely into the bubbling golden soup, ready to fight the winter cold.\" A wrong answer shows the student is still listing facts (e.g., \"Ginger is used for coughs\") instead of creating a narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between saying \"The cat slept on the mat\" and \"The tired cat curled into a ball on the soft mat, dreaming of chasing shadows.\" Which one fits creative writing better?",
+     "a": "The second sentence is better because it adds adjectives (\"tired,\" \"soft\") and a purpose (\"dreaming of chasing shadows\") that invites the reader into the cat's experience. A wrong answer suggests the student struggles to distinguish between basic communication and descriptive storytelling.",
+     "self_check": true
+    },
+    {
+     "q": "Is it \"creative writing\" if you write a list of 5 uses for a neem tree? Why or why not?",
+     "a": "No, it is not. A list is a factual summary, whereas creative writing requires a narrative voice, sensory details, or a unique perspective on the tree. A wrong answer suggests the student confuses \"creative\" with \"informative.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a two-sentence story about a pencil that has just finished drawing a beautiful picture.",
+     "a": "The pencil should show pride or weariness (e.g., \"The pencil laid its worn, wooden head down, satisfied that its grey lead had finally brought the paper to life\"). A poor answer simply states \"The pencil is short and finished the drawing,\" failing to give the object a personality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

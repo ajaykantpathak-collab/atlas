@@ -1,0 +1,285 @@
+{
+ "catalog": "catalog_class11_biology_ch107",
+ "concepts": [
+  {
+   "id": "jebh.7.1",
+   "title": "Animal Tissues Overview",
+   "questions": [
+    {
+     "q": "Using the method 'Animal Tissues Overview', work with: connective = 18, epithelial = 75, muscular = 10, neural = 120. Carry the chain through step by step and give the final value of animal_tissue_types.",
+     "a": "223 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Animal Tissues Overview' and work with: connective = 4, epithelial = 100, muscular = 200, neural = 500. Carry the chain through step by step and give the final value of animal_tissue_types.",
+     "a": "804 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Animal Tissues Overview' refers to.",
+     "a": "A group of similar cells along with intercellular substances performing a specific function forms a tissue. Animal tissues are classified into four major types: epithelial, connective, muscular, and neural.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Animal Tissues Overview'.",
+     "a": "Cells aggregate to form tissues, and tissues organize into organs and organ systems, establishing the hierarchy of structural organisation in animals.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Animal Tissues Overview', in plain ASCII form.",
+     "a": "animal_tissue_types = epithelial + connective + muscular + neural",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.2",
+   "title": "Epithelial Tissue Types",
+   "questions": [
+    {
+     "q": "Using the method 'Epithelial Tissue Types', work with: cell_layer_count = 4, cell_shape = 500. Carry the chain through step by step and give the final value of epithelial_classification.",
+     "a": "504 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Epithelial Tissue Types' and work with: cell_layer_count = 25, cell_shape = 300. Carry the chain through step by step and give the final value of epithelial_classification.",
+     "a": "325 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Epithelial Tissue Types' refers to.",
+     "a": "Epithelial tissue is a sheet of cells that covers body surfaces and lines cavities, classified by cell shape into squamous, cuboidal, and columnar, and by cell layers into simple and compound.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Epithelial Tissue Types'.",
+     "a": "Epithelial tissue is classified based on cell shape (squamous, cuboidal, columnar) and number of layers (simple = one layer, compound = multiple layers).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Epithelial Tissue Types', in plain ASCII form.",
+     "a": "epithelial_classification = cell_shape + cell_layer_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.3",
+   "title": "Connective Tissue",
+   "questions": [
+    {
+     "q": "Using the method 'Connective Tissue', work with: cells = 500, fibres = 75, ground_substance = 3. Carry the chain through step by step and give the final value of connective_tissue.",
+     "a": "578 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Connective Tissue' and work with: cells = 12, fibres = 30, ground_substance = 100. Carry the chain through step by step and give the final value of connective_tissue.",
+     "a": "142 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Connective Tissue' refers to.",
+     "a": "Connective tissue is the most abundant and widely distributed tissue in animals, comprising cells, fibres, and ground substance, classified into loose, dense, and specialized connective tissues.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Connective Tissue'.",
+     "a": "Connective tissues link and support other tissues or organs, with loose connective tissue as packing material, dense connective tissue for strength, and specialized types like bone, cartilage, and blood.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Connective Tissue', in plain ASCII form.",
+     "a": "connective_tissue = cells + fibres + ground_substance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.4",
+   "title": "Muscular Tissue",
+   "questions": [
+    {
+     "q": "Using the method 'Muscular Tissue', work with: cardiac = 20, skeletal = 10, smooth = 15. Carry the chain through step by step and give the final value of muscle_type_count.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Muscular Tissue' and work with: cardiac = 200, skeletal = 200, smooth = 30. Carry the chain through step by step and give the final value of muscle_type_count.",
+     "a": "430 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Muscular Tissue' refers to.",
+     "a": "Muscular tissue consists of contractile cells called muscle fibres, classified into skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac (striated, involuntary) muscle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Muscular Tissue'.",
+     "a": "Each muscle type differs in striation, control (voluntary vs involuntary), cell shape, and location, determining its role in movement.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Muscular Tissue', in plain ASCII form.",
+     "a": "muscle_type_count = skeletal + smooth + cardiac",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.5",
+   "title": "Neural Tissue",
+   "questions": [
+    {
+     "q": "Using the method 'Neural Tissue', work with: neuroglia = 120, neurons = 8. Carry the chain through step by step and give the final value of neural_tissue.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Neural Tissue' and work with: neuroglia = 360, neurons = 15. Carry the chain through step by step and give the final value of neural_tissue.",
+     "a": "375 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Neural Tissue' refers to.",
+     "a": "Neural tissue consists of neurons, which are excitable cells that transmit nerve impulses, and neuroglia, which are supporting cells that protect and nourish neurons.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Neural Tissue'.",
+     "a": "Neurons conduct electrical impulses while neuroglial cells provide structural and metabolic support, together forming the control and coordination system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Neural Tissue', in plain ASCII form.",
+     "a": "neural_tissue = neurons + neuroglia",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.6",
+   "title": "Morphology of Frog",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Morphology of Frog' refers to.",
+     "a": "Frog (Rana tigrina) is an amphibian with a streamlined body adapted for both aquatic and terrestrial life, featuring a head, trunk, paired forelimbs and hindlimbs, and smooth moist skin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Morphology of Frog'.",
+     "a": "Frogs exhibit body plan adaptations for dual life: webbed hindlimbs for swimming, smooth moist skin for cutaneous respiration, and a streamlined body for efficient movement.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Morphology of Frog'.",
+     "a": "describe the external morphology of a frog",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.7",
+   "title": "Anatomy of Frog - Digestive, Respiratory and Circulatory Systems",
+   "questions": [
+    {
+     "q": "Using the method 'Anatomy of Frog - Digestive, Respiratory and Circulatory Systems', work with: buccopharyngeal = 400, cutaneous = 24, left_atrium = 120, pulmonary = 400, right_atrium = 200, ventricle = 50. Carry the chain through step by step and give the final value of respiration_modes.",
+     "a": "824 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Anatomy of Frog - Digestive, Respiratory and Circulatory Systems' and work with: buccopharyngeal = 45, cutaneous = 5, left_atrium = 60, pulmonary = 5, right_atrium = 45, ventricle = 6. Carry the chain through step by step and give the final value of respiration_modes.",
+     "a": "55 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Anatomy of Frog - Digestive, Respiratory and Circulatory Systems' refers to.",
+     "a": "The frog digestive system includes alimentary canal and glands; respiration is cutaneous, buccopharyngeal, and pulmonary; the circulatory system has a three-chambered heart with double circulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anatomy of Frog - Digestive, Respiratory and Circulatory Systems'.",
+     "a": "Frogs have a complete digestive tract, three modes of respiration, and a three-chambered heart with mixed blood in the ventricle, reflecting amphibian physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Anatomy of Frog - Digestive, Respiratory and Circulatory Systems', in plain ASCII form.",
+     "a": "heart_chambers = 2 atria + 1 ventricle",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.8",
+   "title": "Morphology of Earthworm",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Morphology of Earthworm' refers to.",
+     "a": "The earthworm (Pheretima posthuma) has a long cylindrical body divided into 100-120 segments called metameres, with a clitellum at segments 14-16 and setae for locomotion.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Morphology of Earthworm'.",
+     "a": "Earthworms show metameric segmentation with a clitellum for reproduction and setae for grip during locomotion, reflecting their burrowing lifestyle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Morphology of Earthworm', in plain ASCII form.",
+     "a": "body_segments = 100 to 120 metameres",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.9",
+   "title": "Anatomy of Cockroach",
+   "questions": [
+    {
+     "q": "Using the method 'Anatomy of Cockroach', work with: abdomen = 12, circulatory = 200, excretory = 18, head = 12, respiratory = 360, thorax = 24, abdominal_segments = 10. Carry the chain through step by step and give the final value of organ_systems.",
+     "a": "578 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Anatomy of Cockroach' and work with: abdomen = 25, circulatory = 10, excretory = 3, head = 18, respiratory = 40, thorax = 45, abdominal_segments = 10. Carry the chain through step by step and give the final value of organ_systems.",
+     "a": "53 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Anatomy of Cockroach' refers to.",
+     "a": "The cockroach (Periplaneta americana) has a body divided into head, thorax, and abdomen with 10 segments, an open circulatory system, a tracheal respiratory system, and a segmented exoskeleton.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anatomy of Cockroach'.",
+     "a": "Cockroaches show arthropod body organization with three tagmata, an open blood circulatory system, tracheal respiration, and malpighian tubules for excretion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Anatomy of Cockroach', in plain ASCII form.",
+     "a": "body_divisions = head + thorax + abdomen",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.10",
+   "title": "Organ Systems in Animals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Organ Systems in Animals' refers to.",
+     "a": "Organ systems are groups of organs working together to perform complex functions, including digestive, respiratory, circulatory, excretory, nervous, and reproductive systems in animals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organ Systems in Animals'.",
+     "a": "Different organ systems coordinate to maintain homeostasis, with each system specialized for particular functions like digestion, gas exchange, transport, waste removal, control, and reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Organ Systems in Animals'.",
+     "a": "what are the major organ systems in animals",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

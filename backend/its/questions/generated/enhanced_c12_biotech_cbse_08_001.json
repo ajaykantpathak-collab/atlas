@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_001",
+   "title": "c12_biotech_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define animal cell culture in one sentence using the terms “in vitro”, “nutrient medium”, and “physico-chemical conditions”.",
+     "a": "Animal cell culture is the in vitro maintenance and proliferation of animal cells in a nutrient medium under controlled physico-chemical conditions (temperature, pH, osmolality, gas exchange). A wrong answer that omits “in vitro” or “controlled conditions” reveals the student thinks cell culture is simply “growing cells in a dish” without appreciating the precise environmental control that distinguishes it from crude tissue explants.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 1950s marked the turning point when animal cell culture became a routine laboratory technique. Reference at least two specific developments from the NCERT historical table (Box 2).",
+     "a": "The 1950s saw (i) George Gey’s establishment of the first continuous human cell line (HeLa, 1951) providing an immortal, standardized cell source, and (ii) Enders et al.’s growth of poliovirus in human cells (1954) enabling large-scale vaccine production. A student who only mentions “better media” or “antibiotics” misses the critical role of immortal cell lines and viral vaccine demand in driving routine adoption.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company wants to produce a recombinant glycoprotein (e.g., erythropoietin) that requires mammalian post-translational modifications. They consider three systems: (a) E. coli fermentation, (b) yeast culture, (c) Chinese Hamster Ovary (CHO) cell culture. Using the advantages of animal cell culture over whole organisms, justify why CHO cells are the preferred choice.",
+     "a": "CHO cells (an animal cell line) provide the necessary mammalian glycosylation machinery for correct protein folding and activity, which prokaryotes (E. coli) and lower eukaryotes (yeast) lack. Unlike whole animals, CHO cultures offer controlled physico-chemical environment, homogeneous genetic population, scalability in bioreactors, and no ethical clearance for initial production. A wrong answer that picks E. coli for “faster growth” ignores the glycosylation requirement; one that picks whole animals ignores scalability and ethical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the “controlled physico-chemical environment” advantage of animal cell culture with the “may not be a holistic representation of in vivo phenotype/genotype” limitation. Give one concrete example where this trade-off affects drug toxicity testing.",
+     "a": "In vitro, hepatocytes can be exposed to a drug at precise concentrations without metabolic interference from other organs, allowing clear dose-response curves (advantage). However, they lack the first-pass metabolism, immune modulation, and hormonal feedback present in a live animal, so a drug metabolized to a toxic intermediate by intestinal flora or requiring cytokine signaling for toxicity will give false negatives (limitation). A student who says “cell culture is always better for toxicity” fails to analyze the systemic context loss.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Because animal cell culture avoids ethical clearance, it should completely replace animal testing in drug development.” Use at least two advantages and one limitation from the NCERT text.",
+     "a": "The statement overgeneralizes. Advantages: no ethical clearance needed for cell culture; homogeneous populations give reproducible data; controlled environment isolates specific mechanisms. Limitation: cell culture cannot replicate whole-organism pharmacokinetics (absorption, distribution, metabolism, excretion) or immune responses, so it cannot predict all adverse effects. Regulatory agencies therefore require both in vitro and in vivo data. A student who agrees entirely ignores the “not holistic representation” limitation; one who disagrees entirely undervalues the reduction/refinement role of cell culture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-event timeline (with years) that captures the evolution from “cells survive briefly” to “industrial-scale biopharmaceutical production”. For each event, name the scientist(s) and the specific capability gained.",
+     "a": "Example timeline: 1907 Harrison — nerve fibre growth proves survival; 1912 Carrel — aseptic technique enables long-term culture; 1951 Gey — HeLa line provides immortal, standardized cells; 1954 Enders — poliovirus growth in human cells launches vaccine production; 1975 Köhler & Milstein — hybridoma technology enables monoclonal antibody production. A poor answer lists events without linking each to a new capability (e.g., “1951 HeLa discovered” without saying “immortal human cell line”).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

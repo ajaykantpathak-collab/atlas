@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_003",
+   "title": "c11_math_cbse_13_003",
+   "questions": [
+    {
+     "q": "State the three standard trigonometric limits as \\(x \\to 0\\) (with \\(x\\) in radians) that are used to evaluate all other trigonometric limits in Class 11.",
+     "a": "The three standard limits are:\n1. \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)\n2. \\(\\lim_{x \\to 0} \\frac{\\tan x}{x} = 1\\)\n3. \\(\\lim_{x \\to 0} \\frac{1 - \\cos x}{x} = 0\\)\nA wrong answer (e.g., writing \\(\\frac{1-\\cos x}{x} \\to 1\\) or forgetting the radian condition) reveals that the student has not memorised the exact fundamental limits, which are the only tools allowed for these problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\(\\lim_{x \\to 0} \\frac{\\sin 5x}{x}\\) by directly applying \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\) and writes the answer as 1. Explain why this is incorrect and show the correct manipulation.",
+     "a": "The standard limit requires the argument of sine to exactly match the denominator. Here the argument is \\(5x\\) but the denominator is \\(x\\). The correct step is to multiply and divide by 5:\n\\[\n\\frac{\\sin 5x}{x} = 5 \\cdot \\frac{\\sin 5x}{5x} \\xrightarrow{x\\to0} 5 \\times 1 = 5.\n\\]\nIf the student answers 1, they have ignored the coefficient mismatch – a very common error where the condition \"argument = denominator\" is overlooked.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\lim_{x \\to 0} \\frac{\\sin 3x}{\\sin 5x}\\).",
+     "a": "\\[\n\\lim_{x \\to 0} \\frac{\\sin 3x}{\\sin 5x}\n= \\lim_{x \\to 0} \\frac{\\sin 3x}{3x} \\cdot \\frac{5x}{\\sin 5x} \\cdot \\frac{3}{5}\n= 1 \\times 1 \\times \\frac{3}{5} = \\frac{3}{5}.\n\\]\nA wrong answer (e.g., \\(\\frac{5}{3}\\) or \\(1\\)) reveals an error in the algebraic rearrangement – the student likely forgot to multiply by the reciprocal of the coefficients or inverted the fraction incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Determine which of the following limits is finite and non-zero, and find its value:\n(a) \\(\\lim_{x \\to 0} \\frac{\\tan x - \\sin x}{x^2}\\)\n(b) \\(\\lim_{x \\to 0} \\frac{\\tan x - \\sin x}{x^3}\\)",
+     "a": "(a) \\(\\tan x - \\sin x = \\sin x \\left(\\frac{1}{\\cos x} - 1\\right) = \\frac{\\sin x (1-\\cos x)}{\\cos x}\\).\nUsing \\(1-\\cos x = 2\\sin^2\\frac{x}{2}\\), the numerator behaves like \\(x \\cdot x^2 = x^3\\), so divided by \\(x^2\\) gives \\(x \\to 0\\). Hence limit (a) = 0.\n(b) Same numerator divided by \\(x^3\\):\n\\[\n\\frac{\\tan x - \\sin x}{x^3} = \\frac{\\sin x}{x} \\cdot \\frac{1-\\cos x}{x^2} \\cdot \\frac{1}{\\cos x}\n= \\frac{\\sin x}{x} \\cdot \\frac{2\\sin^2(x/2)}{x^2} \\cdot \\frac{1}{\\cos x}\n= \\frac{\\sin x}{x} \\cdot \\frac{1}{2}\\left(\\frac{\\sin(x/2)}{x/2}\\right)^2 \\cdot \\frac{1}{\\cos x} \\to 1 \\times \\frac{1}{2} \\times 1 = \\frac{1}{2}.\n\\]\nLimit (b) is finite and non-zero = \\(\\frac{1}{2}\\). A wrong choice indicates the student cannot gauge the \"order of smallness\" of the numerator.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\(\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}\\) as follows:\n\"Using the expansion \\(\\cos x = 1 - \\frac{x^2}{2} + \\cdots\\), we get \\(\\frac{1 - (1 - x^2/2)}{x^2} = \\frac{1}{2}\\).\"\nIs this method acceptable in the Class 11 CBSE examination? Justify your answer.",
+     "a": "No, this method is not acceptable. The Maclaurin series expansion of \\(\\cos x\\) is not part of the Class 11 syllabus. The prescribed method is to use the identity \\(1 - \\cos x = 2\\sin^2\\frac{x}{2}\\):\n\\[\n\\frac{1-\\cos x}{x^2} = \\frac{2\\sin^2(x/2)}{x^2} = \\frac{1}{2}\\left(\\frac{\\sin(x/2)}{x/2}\\right)^2 \\to \\frac{1}{2}.\n\\]\nIf the student defends the series method, they are relying on a technique not yet taught, which would not be awarded marks in a board exam.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a limit problem involving trigonometric functions that requires the use of at least two different standard limits and yields the answer \\(2\\). Write the problem and show the solution steps.",
+     "a": "**Problem:** Evaluate \\(\\lim_{x \\to 0} \\frac{\\sin 2x + \\tan x}{x}\\).\n**Solution:**\n\\[\n\\frac{\\sin 2x + \\tan x}{x} = \\frac{\\sin 2x}{x} + \\frac{\\tan x}{x}\n= 2\\frac{\\sin 2x}{2x} + \\frac{\\tan x}{x} \\to 2\\times1 + 1 = 3.\n\\]\nThat gives 3. To get exactly 2, one can use:\n**Problem:** Evaluate \\(\\lim_{x \\to 0} \\frac{\\tan 2x}{\\sin x}\\).\n**Solution:**\n\\[\n\\frac{\\tan 2x}{\\sin x} = \\frac{\\tan 2x}{2x} \\cdot \\frac{2x}{x} \\cdot \\frac{x}{\\sin x} = \\frac{\\tan 2x}{2x} \\cdot 2 \\cdot \\frac{x}{\\sin x} \\to 1 \\times 2 \\times 1 = 2.\n\\]\nThis uses both \\(\\lim \\frac{\\tan u}{u}=1\\) and \\(\\lim \\frac{\\sin v}{v}=1\\). A poor answer would be a problem that uses only one standard limit or yields a different value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

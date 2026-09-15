@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_017",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_017",
+   "title": "c11_chem_cbse_02_017",
+   "questions": [
+    {
+     "q": "State Hund's rule of maximum multiplicity in your own words.",
+     "a": "Correct answer: When filling degenerate orbitals (same subshell), electrons occupy separate orbitals singly with parallel spins before any orbital gets a second electron. This maximizes total spin multiplicity. A wrong answer (e.g., \"electrons pair up as soon as possible\" or \"electrons fill orbitals in order of increasing energy\") reveals confusion with the Aufbau principle or a misunderstanding that pairing lowers energy. The student likely thinks electrons \"prefer\" to be paired, ignoring exchange energy and repulsion minimization.",
+     "self_check": true
+    },
+    {
+     "q": "Why do electrons in degenerate orbitals prefer to remain unpaired with parallel spins rather than pair up in the same orbital? Explain using the concepts of electron-electron repulsion and exchange energy.",
+     "a": "Correct answer: Parallel spins in different orbitals keep electrons farther apart on average (reducing Coulombic repulsion) and allow quantum mechanical exchange interactions that lower the energy (exchange energy). Pairing forces two electrons into the same orbital, increasing repulsion and losing exchange stabilization. A wrong answer focusing only on Pauli exclusion (\"opposite spins required in same orbital\") misses the energetic driving force. The student may not grasp that Hund's rule is about energy minimization, not just a filling order.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the orbital diagram for the 3d subshell of a Fe²⁺ ion (Z=26). How many unpaired electrons does it have? Is Fe²⁺ paramagnetic or diamagnetic?",
+     "a": "Correct working: Fe atomic config = [Ar]4s²3d⁶. Fe²⁺ loses 4s² electrons → [Ar]3d⁶. For 3d⁶: five degenerate d orbitals. Hund's rule: first 5 electrons go singly into each orbital with parallel spins (↑ ↑ ↑ ↑ ↑). The 6th electron pairs in one orbital (↑↓). Unpaired electrons = 4. Paramagnetic (attracted to magnetic field). A wrong answer (e.g., 2 unpaired or 0 unpaired) shows the student paired electrons too early (violating Hund's rule) or miscounted d orbitals. They may also incorrectly remove 3d electrons before 4s for the ion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the orbital diagrams of nitrogen (1s²2s²2p³) and oxygen (1s²2s²2p⁴). Explain why nitrogen has a half-filled p subshell and how this affects its ionization energy relative to oxygen.",
+     "a": "Correct answer: Nitrogen (2p³): three electrons singly occupy all three p orbitals with parallel spins (↑ ↑ ↑) — half-filled, maximum exchange energy, symmetrical distribution, extra stable. Oxygen (2p⁴): one orbital has paired electrons (↑↓), two orbitals have single electrons (↑ ↑). The paired electrons in oxygen experience greater repulsion, making it easier to remove one (lower ionization energy) despite oxygen's higher nuclear charge. This explains the anomaly where IE(O) < IE(N). A wrong answer that doesn't mention exchange energy or symmetrical distribution fails to connect Hund's rule to the periodic trend anomaly.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the orbital diagram for a 2p⁴ configuration as: Orbital 1: ↑, Orbital 2: ↑, Orbital 3: ↑, and places the fourth electron in a \"fourth p orbital\" (↑). Identify the error and draw the correct diagram.",
+     "a": "Error: A p subshell has exactly three orbitals (px, py, pz). There is no fourth p orbital. The fourth electron must pair in one of the three existing orbitals. Correct diagram: One orbital with ↑↓, two orbitals with ↑ each. All unpaired electrons have parallel spins. A wrong answer reveals the student doesn't know the number of orbitals per subshell (p=3, d=5, f=7) — a prerequisite from quantum numbers (ml values). They may also draw the paired electrons with parallel spins (violating Pauli).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a strong magnet and aqueous solutions of FeSO₄, CuSO₄, and ZnSO₄ to demonstrate the concept of unpaired electrons predicted by Hund's rule. Explain your observations and link them to the d-electron configurations of Fe²⁺, Cu²⁺, and Zn²⁺.",
+     "a": "Expected answer: FeSO₄ (Fe²⁺: [Ar]3d⁶ → 4 unpaired electrons) and CuSO₄ (Cu²⁺: [Ar]3d⁹ → 1 unpaired electron) show paramagnetic attraction to the magnet. ZnSO₄ (Zn²⁺: [Ar]3d¹⁰ → 0 unpaired electrons) shows no attraction (diamagnetic). The student must correctly apply Hund's rule to d⁶ (↑↓ ↑ ↑ ↑ ↑), d⁹ (↑↓ ↑↓ ↑↓ ↑↓ ↑), and d¹⁰ (↑↓ ×5) to predict unpaired counts. A poor answer confuses the configurations (e.g., thinks Zn²⁺ has unpaired electrons) or doesn't link magnetism to unpaired spins from Hund's rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

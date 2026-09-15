@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_003",
+   "title": "c12_ip_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define plagiarism in your own words and list the four main types recognised in academic and professional contexts.",
+     "a": "Plagiarism is presenting another's work, ideas, or expressions as one's own without proper attribution. The four main types are: (1) Direct/Verbatim — word-for-word copying without quotes/citation; (2) Mosaic/Patchwork — blending phrases from multiple sources without citation; (3) Self-plagiarism — reusing one's own prior submitted/published work without disclosure; (4) Accidental — unintentional failure to cite due to poor note-taking or ignorance of citation rules. A wrong answer that omits self-plagiarism or mosaic type reveals the student thinks plagiarism only means \"copy-paste,\" missing the nuanced forms that frequently appear in board case-study questions and project evaluations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes in their IP project report: \"Python's list comprehension provides a concise way to create lists.\" They do not cite any source. Is this plagiarism? Explain why or why not, referencing the concept of common knowledge.",
+     "a": "No, this is not plagiarism. The statement describes a well-known, fundamental feature of Python that is considered common knowledge in the programming community — it appears in every textbook, tutorial, and official documentation. Common knowledge includes facts found in multiple general references, known to most practitioners, and not attributable to a single original thinker. A student who flags this as plagiarism misunderstands the boundary between common knowledge and original ideas; they would over-cite, cluttering their report. Conversely, a student who thinks *any* uncited statement is acceptable might fail to cite a specific algorithm optimization they learned from a particular blog post — that *would* be plagiarism (accidental type).",
+     "self_check": true
+    },
+    {
+     "q": "You find a GitHub repository with a function `calculate_gst(amount, rate)` that perfectly matches your project requirement. Show step-by-step how you would incorporate this code into your project *ethically*, including the exact comment block you would add above the function.",
+     "a": "Step 1: Check the repository's LICENSE file (e.g., MIT, GPL) to confirm reuse permissions. Step 2: Copy the function into your codebase. Step 3: Immediately above the function, add a comment block: \n```python",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast mosaic plagiarism and poor paraphrasing. Provide a concrete 3-sentence example of each based on the original text: \"Machine learning models require large datasets to generalise well to unseen data.\"",
+     "a": "Mosaic plagiarism: \"Machine learning models need big datasets to generalise well to new data.\" (Borrows phrase structure and key terms \"large datasets\", \"generalise well\", \"unseen data\" with minor word swaps — no citation.) Poor paraphrasing: \"To work on new data, ML models must be trained on huge amounts of data.\" (Captures the core idea but fails to cite the source; the insight \"large datasets → generalisation\" is not common knowledge.) The distinction: mosaic plagiarism mimics the *expression* (syntax/vocabulary) while poor paraphrasing mimics the *idea* without attribution. Both are plagiarism. A student who cannot produce both examples likely conflates \"changing words\" with \"original thinking\" — a trap in board exam case studies where they must label a given passage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Using a plagiarism checker (like Turnitin) before submission guarantees my work is plagiarism-free.\" Defend your position with three specific limitations of such tools.",
+     "a": "The statement is false. Three limitations: (1) Plagiarism checkers only detect *textual similarity* against their database — they cannot catch uncited ideas, logic, or algorithms from sources not in their index (e.g., a classmate's unpublished code, a private repo). (2) They miss mosaic plagiarism where sentence structure is altered but idea-sequence is copied. (3) They generate false positives (common phrases, standard library imports) and false negatives (translated content, image-based code). Relying solely on tools creates a \"compliance mindset\" rather than an \"integrity mindset.\" A student who agrees with the statement reveals they view plagiarism as a technical filter problem, not an ethical practice — a misconception that leads to accidental plagiarism in competitive exams where tool access is unavailable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-item checklist that a Class 12 student can use *while writing* their IP project report to prevent accidental plagiarism. Each item must be actionable during drafting (not just at the end).",
+     "a": "1. **Source Log**: Keep a running document (paper/digital) noting every URL, paper, or person consulted *as you read*, with 1-line summary of what you took. 2. **Quote-First Rule**: When copying any phrase >5 words, paste it in quotes *immediately* with a placeholder citation `[TODO: cite]` — never intend to \"add quotes later.\" 3. **Paraphrase Test**: After rewriting an idea, cover the original and ask: \"Could I have written this without reading the source?\" If no, cite it. 4. **Code Comment Discipline**: For every borrowed code block >3 lines, add the attribution comment *before* writing the next line. 5. **Reference-as-You-Go**: Build the bibliography entry the moment you decide to use a source — use a citation generator (Zotero, Mendeley) in IEEE style. A poor checklist would list only \"run plagiarism checker at the end\" — that's reactive, not preventive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

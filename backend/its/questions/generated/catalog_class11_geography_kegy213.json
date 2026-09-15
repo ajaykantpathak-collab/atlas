@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy213",
+  "concepts": [
+    {
+      "id": "kegy.213.1.1",
+      "questions": [
+        {"q": "Which force, arising from earth's spin, deflects ocean currents? (two words)", "a": "Coriolis force"},
+        {"q": "Warm currents flow from the equator towards which destination? (one word)", "a": "poles"},
+        {"q": "Cold currents flow from the poles towards which destination? (one word)", "a": "equator"},
+        {"q": "Which Grand Banks fishery arises where warm and cold currents meet? (one word)", "a": "fisheries"},
+        {"q": "Which winds chiefly set surface ocean currents in motion? (two words)", "a": "prevailing winds"},
+        {"q": "Name one cause of currents besides winds and Coriolis force. (two words)", "a": "density differences"},
+        {"q": "Are ocean currents continuous flows or occasional events? (short phrase)", "a": "continuous flows"}
+      ]
+    },
+    {
+      "id": "kegy.213.2.1",
+      "questions": [
+        {"q": "Which rhythmic rise and fall of the sea do moon and sun cause? (one word)", "a": "tides"},
+        {"q": "Which oscillatory water movement does wind friction raise? (one word)", "a": "waves"},
+        {"q": "At which moon phases do spring tides occur (new and which other)? (one word)", "a": "full"},
+        {"q": "Which tides of smaller range come at the moon's quarter phases? (one word)", "a": "neap"},
+        {"q": "Which body exerts the stronger tidal pull on earth's oceans: the moon or the sun? (one word)", "a": "moon"},
+        {"q": "How many tide types are named (spring and one other)? (number)", "a": "2"},
+        {"q": "Do waves travel through the water or carry the water forward? (short phrase)", "a": "through the water"}
+      ]
+    },
+    {
+      "id": "kegy.213.3.1",
+      "questions": [
+        {"q": "Which ocean movements help sailing ships travel faster along fixed tracks? (one word)", "a": "currents"},
+        {"q": "Which power can be generated from the rhythmic rise of the sea? (two words)", "a": "tidal power"},
+        {"q": "Which human activity do waves hinder most at sea? (one word)", "a": "navigation"},
+        {"q": "What do waves and currents deposit and remove along the coast? (one word)", "a": "sediment"},
+        {"q": "Ocean currents moderate the climate of which areas most: coasts or interiors? (one word)", "a": "coasts"},
+        {"q": "Which rich fishing grounds mark where currents converge? (two words)", "a": "convergence zones"},
+        {"q": "Name one hazard of ocean movements for mariners besides waves. (one word)", "a": "tides"}
+      ]
+    }
+  ]
+}

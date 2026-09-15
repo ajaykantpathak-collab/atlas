@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_013",
+   "title": "c11_cs_cbse_04_013",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a syntax error and a runtime error in terms of when Python detects them?",
+     "a": "A syntax error is detected during the parsing phase **before** any code executes — Python reads the entire script, finds a grammatical violation (like missing colon or mismatched parentheses), and refuses to run. A runtime error is detected **during execution** — the syntax is valid, but an operation fails (e.g., `int(\"abc\")` or `10/0`). A wrong answer reveals the student conflates \"error detection time\" with \"error severity\" or thinks both are caught at the same stage.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `for i in range(5)` (missing colon) and gets `SyntaxError: expected ':'`. They argue: \"But the logic is correct — it should print 0 to 4!\" Explain why Python cannot even check the logic.",
+     "a": "Python's interpreter works in two phases: **parsing** (checking grammar) then **execution**. A missing colon makes the code grammatically invalid — the parser cannot build an Abstract Syntax Tree, so execution never begins. Logic is irrelevant if syntax is broken. A wrong answer reveals the student thinks Python \"runs until the error line\" or that syntax errors are a subset of runtime errors.",
+     "self_check": true
+    },
+    {
+     "q": "Given this code snippet, identify the error type and the exact line causing it:\n```python\nprincipal = float(input(\"Enter principal: \"))\nrate = float(input(\"Enter rate: \"))\ntime = int(input(\"Enter time in years: \"))\ninterest = principal * rate * time / 100\nprint(\"Simple Interest:\", interest)\n```\nIf the user enters \"ten\" for principal, what error occurs and why?",
+     "a": "**Runtime error** — `ValueError: could not convert string to float: 'ten'` on line 1. The syntax is valid, but `float()` cannot parse non-numeric strings. This happens **during execution** when `input()` returns `\"ten\"`. A wrong answer (e.g., calling it syntax error) reveals confusion between invalid code grammar vs. invalid data at runtime.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two code snippets. Both calculate the average of three numbers. Which has a logical error and why?\n```python",
+     "a": "**Snippet A has a logical error** due to operator precedence: `/` binds tighter than `+`, so it computes `a + b + (c/3)` = `10 + 20 + 10 = 40` instead of `(10+20+30)/3 = 20`. Snippet B uses parentheses to enforce correct order. Both run without syntax/runtime errors. A wrong answer reveals the student thinks \"no crash = correct\" or doesn't apply precedence rules (c11_cs_cbse_04_011) to detect semantic flaws.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer argues: \"Logical errors are the most dangerous because they don't crash the program.\" Evaluate this claim with a real-world example where a logical error in a banking application could be worse than a runtime error.",
+     "a": "**Claim is valid.** A runtime error (e.g., `ZeroDivisionError` during interest calculation) crashes visibly, alerting developers immediately. A logical error (e.g., using `balance = balance - withdrawal + fee` instead of `balance = balance - withdrawal - fee`) silently corrupts data — customers lose money, audit trails mismatch, and the bug may persist for months. In banking, silent data corruption violates regulatory compliance (RBI guidelines) and trust. A weak evaluation treats all errors as equally harmful or ignores the \"silent\" nature of logical errors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python program that intentionally contains **one syntax error, one runtime error, and one logical error** — each in a separate function. Label them with comments.",
+     "a": "```python\ndef syntax_error_demo():\n    if True      # SyntaxError: missing colon\n        print(\"Hello\")\n\ndef runtime_error_demo():\n    x = int(\"abc\")  # ValueError at runtime\n\ndef logical_error_demo():\n    # Should compute area of circle: pi * r^2\n    r = 5\n    area = 3.14 * r  # Logical error: missing **2\n    return area\n```\nA poor answer combines multiple errors in one function, uses the same error type twice, or creates errors that don't match the definitions (e.g., a logical error that actually crashes). This reveals inability to isolate error categories.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

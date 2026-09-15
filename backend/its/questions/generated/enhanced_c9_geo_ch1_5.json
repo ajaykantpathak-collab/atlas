@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_5",
+   "title": "c9_geo_ch1_5",
+   "questions": [
+    {
+     "q": "Define a volcano and state the primary geological process that causes magma to rise to the surface at a convergent plate boundary.",
+     "a": "A volcano is a vent in Earth's crust through which magma, ash, and gases erupt; at convergent boundaries, the primary process is flux melting — water released from the subducting oceanic slab lowers the melting temperature of the overlying mantle wedge, generating magma that rises due to buoyancy. A wrong answer (e.g., \"magma rises because of convection currents alone\" or \"volcanoes form only at divergent boundaries\") reveals the student has not linked subduction-induced flux melting to convergent boundary volcanism, confusing it with decompression melting at ridges.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why shield volcanoes have gentle slopes while composite volcanoes have steep, symmetrical cones, linking your answer to magma properties.",
+     "a": "Shield volcanoes erupt low-silica, low-viscosity basaltic lava that flows far before solidifying, building broad, gentle slopes; composite volcanoes erupt high-silica, high-viscosity andesitic/rhyolitic lava that traps gases, causing explosive eruptions that deposit alternating layers of viscous lava and pyroclasts near the vent, creating steep cones. A wrong answer (e.g., \"shield volcanoes are older so they eroded flat\" or \"composite volcanoes are steeper because they erupt more often\") shows the student confuses age/erosion or eruption frequency with the fundamental control of magma viscosity on flow distance and cone morphology.",
+     "self_check": true
+    },
+    {
+     "q": "On a world map, you see a chain of volcanoes stretching from the Andes through Central America to the Cascades, then across the Aleutians to Japan, the Philippines, and New Zealand. Identify this pattern and explain the plate tectonic setting responsible for it.",
+     "a": "This is the Pacific Ring of Fire, a horseshoe-shaped belt of volcanoes along convergent boundaries where the Pacific Plate subducts beneath surrounding continental and oceanic plates (South American, North American, Eurasian, Philippine, Australian plates). Subduction generates flux melting, producing explosive composite volcanoes. A wrong answer (e.g., \"this is a mid-ocean ridge\" or \"these are hotspot volcanoes\") indicates the student cannot recognize the diagnostic convergent-boundary distribution pattern or confuses it with divergent/hotspot settings.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volcanic activity at Iceland (Mid-Atlantic Ridge) and Hawaii (hotspot) in terms of plate boundary type, magma source, and typical volcano shape.",
+     "a": "Iceland sits on a divergent boundary (Mid-Atlantic Ridge) where decompression melting of upwelling mantle produces basaltic magma, forming fissure eruptions and shield volcanoes; Hawaii is an intraplate hotspot where a mantle plume generates basaltic magma, building massive shield volcanoes (Mauna Loa). Both produce basaltic shields, but Iceland's volcanism is driven by plate separation, while Hawaii's is driven by a stationary plume beneath a moving plate. A wrong answer (e.g., \"both are at convergent boundaries\" or \"Hawaii has composite volcanoes\") reveals confusion between boundary types and magma sources, or misidentification of Hawaiian volcano type.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"Volcanic eruptions are purely destructive natural hazards with no long-term benefits to human societies.\" Provide geographical reasoning for your judgment.",
+     "a": "The statement is false. While eruptions cause immediate destruction (lava flows, pyroclastic flows, lahars, ashfall), they also create fertile volcanic soils (e.g., Deccan Traps, Java) that support dense agriculture, form new land (Hawaii, Surtsey), provide geothermal energy (Iceland, New Zealand), and release gases that contributed to Earth's early atmosphere. A wrong answer that only lists hazards shows the student cannot evaluate trade-offs or connect volcanic processes to long-term human-environment interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple annotated sketch map for a Class 9 student showing the three main global volcanic zones, labeling one example volcano in each zone, and indicating the plate boundary type responsible.",
+     "a": "A good sketch shows: (1) Pacific Ring of Fire — convergent boundaries — label Mt. Fuji (Japan) or Mt. St. Helens (USA); (2) Mid-ocean ridges (Mid-Atlantic Ridge, East Pacific Rise) — divergent boundaries — label Iceland or Axial Seamount; (3) Hotspot chains (Hawaii, Réunion, Galápagos) — intraplate — label Mauna Loa. Annotations must link each zone to its boundary type. A poor answer misses one zone, mislabels boundary types, or uses only composite volcano examples, showing incomplete mental map of global distribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

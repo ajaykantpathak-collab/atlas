@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_007",
+   "title": "c11_ps_cbse_13_007",
+   "questions": [
+    {
+     "q": "According to Article 75(1) of the Constitution, who appoints the Prime Minister and on what basis?",
+     "a": "The President appoints the Prime Minister. The appointee must be the leader of the party or coalition that commands a majority in the Lok Sabha. A wrong answer (e.g., \"the people directly elect the PM\" or \"the President chooses anyone\") reveals confusion between presidential and parliamentary systems, and ignorance of Article 75(1)'s mandate that the PM must enjoy Lok Sabha confidence.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the President's role in appointing the PM become discretionary in a hung Parliament, and what constitutional convention guides this discretion?",
+     "a": "In a hung Parliament, no party has a clear majority, so the President must exercise situational discretion to identify a leader who can prove majority support. The convention (established by President R. Venkataraman in 1989 and followed since) is to invite the leader of the single largest party or pre-poll alliance first, giving them a chance to prove majority on the floor. A wrong answer (e.g., \"President can appoint anyone\" or \"President must appoint the single largest party leader automatically\") shows misunderstanding of the difference between constitutional text and evolved conventions, and ignores the floor test requirement.",
+     "self_check": true
+    },
+    {
+     "q": "In the 1996 general election, the BJP emerged as the single largest party with 161 seats but failed to prove majority. The President then invited H.D. Deve Gowda (United Front) to form government. Analyze whether the President's decision followed constitutional convention.",
+     "a": "Yes, the President followed convention. After Vajpayee's 13-day government lost the confidence motion, the President explored alternatives and invited the United Front leader who demonstrated support from Congress (outside support) and other parties, proving majority on the floor. A wrong answer (e.g., \"President should have given BJP more time\" or \"President acted politically\") reveals failure to understand that the convention requires a floor test within a reasonable time, and the President must ensure government formation, not favor the single largest party indefinitely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the President's appointment discretion in 1989 (V.P. Singh), 1996 (Vajpayee then Deve Gowda), and 2004 (Manmohan Singh). What pattern emerges about the evolution of this convention?",
+     "a": "The pattern shows increasing reliance on demonstrable majority support through floor tests rather than mere single-largest-party status. In 1989, V.P. Singh (National Front) was invited after Congress declined; in 1996, Vajpayee got first chance but failed floor test, then Deve Gowda succeeded with outside support; in 2004, Manmohan Singh was invited as UPA leader with proven majority including outside support. The convention evolved: President invites claimant with verifiable numbers, not just largest party. A wrong answer focusing only on \"single largest party\" misses the shift to \"proven majority on floor\" as the decisive criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Coalition governments weaken the Prime Minister's position because the PM becomes a 'chairman of the board' rather than a leader.\" Use examples from 1996-2014 to support your evaluation.",
+     "a": "The argument is partially valid but oversimplified. Coalition PMs (Deve Gowda, Gujral, Vajpayee, Manmohan Singh) faced constraints: dependency on allies for survival, policy compromises (e.g., Common Minimum Programme), and limited control over ministerial portfolios. However, Vajpayee (1998-2004) and Manmohan Singh (2004-2014) provided stable governance despite coalitions, showing PM's leadership style and alliance management matter. A wrong answer calling coalitions \"inherently weak\" ignores that single-party majorities (e.g., 1984, 2014, 2019) also face internal party factions, and that coalition PMs derive legitimacy from the same constitutional source (Article 75).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical presidential communication to a coalition leader invited to form government, specifying the constitutional requirements they must fulfill within a defined timeframe.",
+     "a": "A good answer includes: (1) Reference to Article 75(1) appointment, (2) Requirement to prove majority via confidence motion in Lok Sabha within 2-3 weeks (convention), (3) Clarification that Council of Ministers will be appointed on PM's advice per Article 75(1), (4) Note that the government must seek vote of confidence at earliest session. A poor answer omits the floor test deadline or confuses presidential discretion with personal preference, revealing lack of clarity on the conditional nature of coalition PM appointments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

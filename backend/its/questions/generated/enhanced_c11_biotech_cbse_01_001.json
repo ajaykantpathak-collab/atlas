@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_001",
+   "title": "c11_biotech_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define biotechnology as per the NCERT Class 11 textbook. Your answer must include the three key components: the biological entity used, the technological action, and the purpose.",
+     "a": "Correct answer: \"Biotechnology refers to the different technologies that make use of living cells and/or biological molecules to generate useful products for the benefit of mankind.\" A wrong answer that omits \"biological molecules\" (focusing only on whole cells) reveals the misconception that biotechnology requires intact living organisms, ignoring cell-free systems like enzyme catalysis or PCR. A wrong answer that omits \"benefit of mankind\" treats it as pure basic research rather than applied technology.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Making dahi (curd) at home is modern biotechnology because we use a specific starter culture (Lactobacillus) to transform milk.\" Explain why this classification is incorrect using the historical phase criteria from the textbook.",
+     "a": "Correct explanation: Dahi production is **classical biotechnology**. It relies on fermentation — a microbial process known and used for millennia without knowledge of the molecular mechanism (DNA/genes). Modern biotechnology requires **recombinant DNA technology** (direct manipulation of genetic material), which dahi production does not involve. A wrong answer that calls it \"modern\" because it uses a \"known culture\" reveals the misconception that *any* standardized microbial process is modern biotechnology, confusing process optimization with genetic engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Humulin (recombinant human insulin) is produced by inserting the human insulin gene into *E. coli*. Identify the specific step in this process that **exclusively** defines it as modern biotechnology and not classical fermentation. Justify why the large-scale culturing of the modified *E. coli* in fermenters is NOT the defining step.",
+     "a": "Correct answer: The **isolation and insertion of the human insulin gene into a vector to create recombinant DNA (rDNA)** is the exclusive defining step. This is genetic engineering — direct manipulation of an organism's genome. The large-scale fermentation (culturing in bioreactors) is a **classical biotechnology** process (microbial fermentation for product recovery) that has been used since the 1940s for penicillin. A wrong answer identifying fermentation as the modern step reveals the misconception that \"industrial scale = modern biotechnology,\" ignoring that the *genetic modification of the host* is the revolutionary shift.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **Green Biotechnology** and **White Biotechnology** using the NCERT definitions. Provide one specific product example for each that is NOT mentioned in the textbook (e.g., not Bt cotton, not industrial enzymes). Explain the conceptual boundary that prevents a product from belonging to both categories simultaneously.",
+     "a": "Correct comparison: **Green Biotechnology** applies to plants/agriculture for eco-friendly solutions (improved nutrition, stress resistance, yield). Example: **Golden Rice (beta-carotene enriched)**. **White Biotechnology** applies to industrial processes using enzymes/microbes as eco-friendly catalysts for chemical production. Example: **Bio-based succinic acid production by engineered *Basfia succiniciproducens* replacing petroleum-based route**. The boundary is the **primary host system and end-use sector**: Green = whole plants in agriculture; White = microbial/enzymatic cell factories in industry. A product cannot be both because a transgenic plant grown in a field (Green) is distinct from a microbe fermented in a bioreactor to make a chemical (White), even if the same gene is used.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's strength in recombinant Hepatitis B vaccine production proves it is a leader in **Red Biotechnology**.\" Is this statement sufficient? What additional evidence from the textbook would you need to classify India's *overall* biotechnology sector as a global leader in Red Biotechnology?",
+     "a": "The statement is **necessary but not sufficient**. Red Biotechnology covers *all* medical/pharmaceutical applications: therapeutics (insulin, growth hormone, monoclonal antibodies), diagnostics (kits), vaccines, and gene therapy. Leadership requires breadth. Additional evidence needed: (1) Market share/data on **recombinant therapeutics beyond vaccines** (e.g., India is world's largest producer of **Statin and Immunosuppressants** — textbook), (2) **Export reach** (vaccines to 140+ countries, UNICEF/PAHO supply), (3) **Indigenous R&D pipeline** (Covaxin for COVID-19, Dengue vaccine MOU with ICGEB). A student citing only the Hep B vaccine shows \"single-example generalization\" — a common board exam error where one success is extrapolated to the entire domain.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **novel biotechnology application** that integrates **Blue Biotechnology** (marine) and **Environmental Biotechnology** (bioremediation) to solve a specific problem in the Indian context. Name the organism, the genetic modification (if any), the target pollutant, and the measurable outcome. Your design must be plausible with current rDNA technology.",
+     "a": "**Plausible Design:** *Organism:* **Marine cyanobacterium *Synechocystis* sp. PCC 6803** (native to Indian coastal waters). *Modification:* Insert **biphenyl dioxygenase (bphA) gene cluster** from *Burkholderia xenovorans* LB400 under a salt-inducible promoter. *Target:* **PCB (polychlorinated biphenyl) contamination** in coastal sediments near ship-breaking yards (Alang, Gujarat). *Outcome:* Engineered cyanobacteria form mats on sediment, use photosynthesis for energy, express dioxygenase to aerobically degrade PCBs into benign chlorobenzoates; degradation measured by **GC-MS reduction of PCB congeners >80% in 60 days**. *Why plausible:* Textbook mentions *biphenyl dioxygenase* in *E. coli* for PCB degradation; cyanobacteria are native, photosynthetic (low cost), salt-tolerant. A poor answer uses *E. coli* (not marine-adapted) or ignores the need for a promoter functional in marine conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

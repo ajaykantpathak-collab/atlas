@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_007",
+   "title": "c12_cs_cbse_04_007",
+   "questions": [
+    {
+     "q": "What are the two necessary conditions for two relations to be union-compatible so that Union or Intersection can be applied?",
+     "a": "The two relations must have (1) the same number of attributes (degree) and (2) corresponding attributes must have the same domain (data type). A wrong answer (e.g., \"same table name\" or \"same primary key\") reveals confusion between structural compatibility and semantic constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Given relation R(A, B) with tuples {(1, 2), (3, 4)} and relation S(A, B) with tuples {(3, 4), (5, 6)}, write the result of R ∪ S and R ∩ S. Explain why duplicates are removed in the union.",
+     "a": "R ∪ S = {(1, 2), (3, 4), (5, 6)}; R ∩ S = {(3, 4)}. Duplicates are removed because a relation is a mathematical set — it cannot contain identical tuples. A student who keeps duplicates (e.g., {(1, 2), (3, 4), (3, 4), (5, 6)}) misunderstands the set-based nature of the relational model.",
+     "self_check": true
+    },
+    {
+     "q": "Relation P has 3 tuples and degree 2; relation Q has 4 tuples and degree 3. What are the degree and cardinality of P × Q? If a student answers degree = 5 and cardinality = 7, what misconception does that indicate?",
+     "a": "Degree = 2 + 3 = 5; cardinality = 3 × 4 = 12. Answering degree = 5 (correct) but cardinality = 7 indicates the student added cardinalities instead of multiplying, confusing Cartesian Product with Union.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two relations: Employee(EmpID, Name, Dept) and Project(ProjID, Title, Budget). Can we compute Employee ∪ Project? If not, what minimal change to Project would make it union-compatible with Employee (without changing the meaning of the data)?",
+     "a": "No, because the attributes differ in name, meaning, and domain (EmpID vs ProjID, Name vs Title, Dept vs Budget). To make them union-compatible, we would need to rename Project's attributes to exactly match Employee's (EmpID, Name, Dept) and ensure domains match — but this would be semantically meaningless because a project is not an employee. A student who says \"yes, just rename columns\" misses the semantic requirement that corresponding attributes represent the same real-world concept.",
+     "self_check": true
+    },
+    {
+     "q": "A database designer claims: \"Cartesian Product is useless in practice because it produces huge relations; we should never use it.\" Evaluate this statement. Is it entirely true, partially true, or false? Justify.",
+     "a": "Partially true. Cartesian Product alone is rarely the final result because of its combinatorial explosion, but it is the **foundation of Join operations** (e.g., θ-Join, Natural Join) which are essential for combining related tables. A student who says \"entirely true\" fails to recognise that Join = Selection(Cartesian Product). A student who says \"false\" without mentioning Join misses the critical role of Cartesian Product as a building block.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small real-world scenario (Indian context) where you would need all three operations — Union, Intersection, and Cartesian Product — on two relations. Define the relations, their schemas, sample tuples, and the business question each operation answers.",
+     "a": "Scenario: A library has two relations: **Members** (MemberID, Name, City) and **Authors** (AuthorID, Name, City).  \n- Union: \"List all distinct names and cities of people who are either members or authors (or both).\" Requires union-compatible projection on (Name, City).  \n- Intersection: \"Find names and cities of people who are both members and authors.\"  \n- Cartesian Product: \"Generate all possible member-author pairs for a 'Meet the Author' event invitation list.\"  \nA good answer shows correct schema alignment for Union/Intersection (project to same attributes) and acknowledges Cartesian Product's size (|Members| × |Authors|). A poor answer uses the original schemas directly for Union/Intersection without projection, violating compatibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

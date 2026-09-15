@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_business_studies_kebs108",
+ "concepts": [
+  {
+   "id": "kebs.108.1.1",
+   "title": "Classification of Sources: Owned and Borrowed Funds",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Sources: Owned and Borrowed Funds' refers to.",
+     "a": "Business finance sources divide into owned funds such as equity shares, retained earnings and venture capital, and borrowed funds such as debentures, loans, public deposits and commercial paper, with period based classification into short, medium and long term.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Sources: Owned and Borrowed Funds'.",
+     "a": "The choice between debt and equity balances cost, control, risk and financial flexibility for the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Sources: Owned and Borrowed Funds' taught, and from which source text?",
+     "a": "Sources of finance (source: kebs108.txt classification of sources section)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.2.1",
+   "title": "Equity Shares, Preference Shares and Retained Earnings",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equity Shares, Preference Shares and Retained Earnings' refers to.",
+     "a": "Equity shares carry ownership rights, voting power, dividend after preference shares and residual claims, preference shares carry a fixed rate of dividend paid before equity with preferential repayment, and retained earnings are profits reinvested in the business as an internal source called ploughing back of profits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equity Shares, Preference Shares and Retained Earnings'.",
+     "a": "Equity finance spreads risk among shareholders and needs no repayment, while preference capital is a hybrid of fixed dividend and ownership claim.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Equity Shares, Preference Shares and Retained Earnings' taught, and from which source text?",
+     "a": "Equity and preference (source: kebs108.txt shares and retained earnings sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.3.1",
+   "title": "Debentures, Loans and Interest Cost Computation",
+   "questions": [
+    {
+     "q": "Calculate the interest cost of borrowed funds. Use the method 'Debentures, Loans and Interest Cost Computation'. Work with: principal = 120000, rate_percent = 5, years = 50. Carry the chain through step by step and give the final value of interest.",
+     "a": "300000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the interest payable on a loan for the given period. Use the method 'Debentures, Loans and Interest Cost Computation'. Work with: principal = 80000, rate_percent = 25, years = 1500. Carry the chain through step by step and give the final value of interest.",
+     "a": "30000000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debentures, Loans and Interest Cost Computation' refers to.",
+     "a": "Debentures are borrowed fund instruments carrying a fixed rate of interest paid whether or not the firm earns profit, debenture holders being creditors with no voting rights, and the interest cost on borrowed funds is computed as principal multiplied by rate and time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debentures, Loans and Interest Cost Computation'.",
+     "a": "Interest on debentures is a charge against profit, making borrowed funds cheaper but riskier than equity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debentures, Loans and Interest Cost Computation', in plain ASCII form.",
+     "a": "interest = principal * rate_percent * years / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.4.1",
+   "title": "Loans from Banks, Public Deposits, Commercial Paper and Trade Credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Loans from Banks, Public Deposits, Commercial Paper and Trade Credit' refers to.",
+     "a": "Banks provide term loans and cash credit against security, public deposits invite unsecured deposits from the public for fixed periods, commercial paper is an unsecured short term promissory note of creditworthy companies, and trade credit from suppliers supports working capital needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loans from Banks, Public Deposits, Commercial Paper and Trade Credit'.",
+     "a": "International sources like foreign currency loans, Euro issues and external commercial borrowings supplement domestic sources for large firms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Loans from Banks, Public Deposits, Commercial Paper and Trade Credit' taught, and from which source text?",
+     "a": "Loans and credit (source: kebs108.txt loans and credit sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

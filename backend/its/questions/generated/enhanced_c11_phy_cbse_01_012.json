@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_012",
+   "title": "c11_phy_cbse_01_012",
+   "questions": [
+    {
+     "q": "State the modern SI definition of the kilogram and the second, including the fixed numerical values of the fundamental constants involved.",
+     "a": "The kilogram is defined by fixing the Planck constant h = 6.62607015×10⁻³⁴ J·s (exact). The second is defined by fixing the caesium-133 hyperfine transition frequency Δν_Cs = 9,192,631,770 Hz (exact). A wrong answer (e.g., \"kilogram is the mass of the IPK cylinder\" or \"second is 1/86400 of a mean solar day\") reveals the student is relying on outdated pre-2019 definitions and has not updated to the constant-based SI.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a beam balance gives the same reading for a given object on Earth and on the Moon, while a spring balance (weighing scale) gives different readings. Use the distinction between mass and weight in your explanation.",
+     "a": "A beam balance compares the unknown mass with standard masses by balancing gravitational forces (m₁g = m₂g); since g cancels, it measures mass directly and is independent of g. A spring balance measures the weight (mg) and calibrates the scale assuming a specific g (usually 9.8 m/s²); on the Moon g is 1/6th, so the reading decreases. A wrong answer (e.g., \"both measure mass\") reveals confusion between mass (quantity of matter) and weight (gravitational force), a persistent Class 11 misconception carried from middle school.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the time period of a simple pendulum using a stopwatch with a least count of 0.1 s. She records the time for 20 oscillations as 36.4 s. Calculate the time period per oscillation with the correct number of significant figures and its absolute uncertainty.",
+     "a": "Given: t₂₀ = 36.4 s (3 significant figures, least count 0.1 s). Time period T = t₂₀ / 20 = 36.4 / 20 = 1.82 s. Division by exact integer 20 does not limit significant figures; the result retains 3 significant figures → T = 1.82 s. Absolute uncertainty ΔT = least count / 20 = 0.1 / 20 = 0.005 s. Final reported value: T = (1.820 ± 0.005) s (or 1.82 ± 0.01 s if rounding uncertainty to 1 significant figure). A wrong answer (e.g., T = 1.8 s or ΔT = 0.1 s) reveals misunderstanding of significant figure rules for division by exact numbers and propagation of least count uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principle of operation of a caesium atomic clock and a quartz crystal watch. Why is the atomic clock used as the primary standard for the second, while quartz watches are used for everyday timekeeping?",
+     "a": "A caesium atomic clock locks an electronic oscillator to the hyperfine transition frequency of caesium-133 atoms (9,192,631,770 Hz), which is an invariant fundamental constant of nature. A quartz watch uses the piezoelectric resonance of a quartz crystal (typically 32,768 Hz), which drifts with temperature, aging, and manufacturing variations. Atomic clocks provide accuracy of ~10⁻¹⁵ (1 second in 30 million years), while quartz watches achieve ~10⁻⁶ (1 second per day). A wrong answer (e.g., \"atomic clocks are more precise because they are digital\") reveals lack of understanding of the physical basis of frequency standards and the concept of a primary standard vs a secondary device.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"The mass of an electron is 9.11 × 10⁻³¹ kg.\" Evaluate whether this statement is dimensionally consistent and whether the number of significant figures is appropriate for a fundamental constant in the modern SI.",
+     "a": "Dimensionally consistent: yes, kg is the SI base unit for mass. Significant figures: The CODATA 2018 value is 9.1093837015×10⁻³¹ kg (exact in the new SI because h, c, Δν_Cs, e are fixed; the electron mass is determined experimentally). The textbook value 9.11×10⁻³¹ kg has only 3 significant figures, which is a rounded approximation suitable for introductory problems but not the defined exact value. A wrong evaluation (e.g., \"not dimensionally consistent because electron mass should be in MeV/c²\") reveals confusion between natural units used in particle physics and SI units, or misunderstanding that fundamental particle masses are not defined constants in the SI.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale, a stopwatch, and a known mass (e.g., a 100 g standard weight) to estimate the mass of an unknown object without using a balance. Describe the procedure, the physics principle, and the formula you would use.",
+     "a": "Use a uniform metre scale as a lever (balance) with the fulcrum at the 50 cm mark. Place the known mass (100 g) at a fixed distance (e.g., 20 cm from fulcrum). Place the unknown mass on the other side and adjust its distance until the scale balances horizontally. Measure the distance d_unknown from fulcrum. By principle of moments: m_known × d_known = m_unknown × d_unknown → m_unknown = m_known × d_known / d_unknown. This uses the principle of moments (rotational equilibrium) and converts mass measurement into length measurement. A poor answer (e.g., \"drop both objects and time their fall\") reveals inability to apply prior knowledge of levers and moments (Class 9/10) to solve a measurement problem creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

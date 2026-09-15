@@ -1,0 +1,309 @@
+{
+ "catalog": "catalog_class9_social_science_ch304",
+ "concepts": [
+  {
+   "id": "iess.304.1.1",
+   "title": "Expansion of Agriculture and Land Improvement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Expansion of Agriculture and Land Improvement' refers to.",
+     "a": "The colonial strategy of clearing forests to extend cultivated fields for cash crops and maximize state land revenue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Expansion of Agriculture and Land Improvement'.",
+     "a": "Forest clearance driven by demographic pressure, commercial crop demands, and revenue generation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Expansion of Agriculture and Land Improvement' taught, and from which source text?",
+     "a": "1.1 (source: iess304.txt lines 65-95)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.1.2",
+   "title": "Railway Sleepers and Timber Demand Calculation",
+   "questions": [
+    {
+     "q": "Calculate the number of trees required to lay a given length of railway track. Use the method 'Railway Sleepers and Timber Demand Calculation'. Work with: sleepers_per_mile = 150, sleepers_per_tree = 500, track_miles = 15. Carry the chain through step by step and give the final value of trees_needed.",
+     "a": "4.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Find how many trees must be cut for laying sleepers across a track of distance miles. Use the method 'Railway Sleepers and Timber Demand Calculation'. Work with: sleepers_per_mile = 15, sleepers_per_tree = 50, track_miles = 15. Carry the chain through step by step and give the final value of trees_needed.",
+     "a": "4.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Railway Sleepers and Timber Demand Calculation' refers to.",
+     "a": "Quantifying timber volume and tree requirement for railway track construction based on track mileage, sleeper density, and tree yield.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Railway Sleepers and Timber Demand Calculation'.",
+     "a": "Determining tree felling requirements for railway sleepers across defined track distances.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Railway Sleepers and Timber Demand Calculation', in plain ASCII form.",
+     "a": "trees_needed = (track_miles * sleepers_per_mile) / sleepers_per_tree",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.1.3",
+   "title": "Expansion of Commercial Plantations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Expansion of Commercial Plantations' refers to.",
+     "a": "The conversion of natural woodlands into large single-crop estates to meet European market demands for tea, coffee, and rubber.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Expansion of Commercial Plantations'.",
+     "a": "Enclosure and clearing of natural forests for European commercial plantation owners.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Expansion of Commercial Plantations' taught, and from which source text?",
+     "a": "1.3 (source: iess304.txt lines 130-145)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.0",
+   "title": "Scientific Forestry and Legal Frameworks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Scientific Forestry and Legal Frameworks' refers to.",
+     "a": "A state-regulated forest management regime focusing on timber production through systematic harvesting, replanting, and statutory enactments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scientific Forestry and Legal Frameworks'.",
+     "a": "Replacing diverse natural forests with controlled single-species plantations under strict state legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Scientific Forestry and Legal Frameworks' taught, and from which source text?",
+     "a": "2.0 (source: iess304.txt lines 150-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.1",
+   "title": "Impact of Colonial Forest Laws on Rural Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Impact of Colonial Forest Laws on Rural Life' refers to.",
+     "a": "The severe disruption of traditional rural livelihoods resulting from state restrictions on gathering forest products, grazing, and wood collection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Impact of Colonial Forest Laws on Rural Life'.",
+     "a": "Criminalization of everyday forest access leading to hardship and harassment for rural villagers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Impact of Colonial Forest Laws on Rural Life' taught, and from which source text?",
+     "a": "2.1 (source: iess304.txt lines 185-220)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.2",
+   "title": "Ban on Shifting Cultivation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ban on Shifting Cultivation' refers to.",
+     "a": "The legal prohibition of swidden agriculture due to colonial concerns over timber damage, fire risks, and tax collection difficulties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ban on Shifting Cultivation'.",
+     "a": "Prohibition of rotational forest burning leading to displacement and forced occupational changes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ban on Shifting Cultivation' taught, and from which source text?",
+     "a": "2.2 (source: iess304.txt lines 225-250)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.3",
+   "title": "Control of Hunting and Big Game Sports",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Control of Hunting and Big Game Sports' refers to.",
+     "a": "The suppression of customary subsistence hunting alongside the institutionalized slaughter of wild animals for colonial sports rewards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Control of Hunting and Big Game Sports'.",
+     "a": "Outlawing local subsistence hunting while promoting large-scale commercial and elite hunting.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Control of Hunting and Big Game Sports' taught, and from which source text?",
+     "a": "2.3 (source: iess304.txt lines 255-285)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.4",
+   "title": "Commercial Trade, Forced Labor, and Social Displacement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Commercial Trade, Forced Labor, and Social Displacement' refers to.",
+     "a": "The monopolization of forest trade by European corporations and the subjugation of pastoralists and tribal groups into commercial plantation labor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Commercial Trade, Forced Labor, and Social Displacement'.",
+     "a": "State control of forest commerce resulting in criminalization of nomadic groups and harsh labor conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Commercial Trade, Forced Labor, and Social Displacement' taught, and from which source text?",
+     "a": "2.4 (source: iess304.txt lines 290-325)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.3.1",
+   "title": "Community Beliefs and Resource Sharing in Bastar",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Community Beliefs and Resource Sharing in Bastar' refers to.",
+     "a": "The customary ecological practices and spiritual beliefs governing land stewardship, boundary respect, and resource payments among Bastar tribes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Community Beliefs and Resource Sharing in Bastar'.",
+     "a": "Sacred reverence for nature and structured village inter-community resource management.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Community Beliefs and Resource Sharing in Bastar' taught, and from which source text?",
+     "a": "3.1 (source: iess304.txt lines 330-355)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.3.2",
+   "title": "The Bastar Rebellion of 1910",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Bastar Rebellion of 1910' refers to.",
+     "a": "An armed tribal uprising against forest reservations, land rent increases, forced labor, and famine conditions in Bastar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Bastar Rebellion of 1910'.",
+     "a": "Collective tribal mobilization through symbolic messages leading to the reduction of reserved forest areas.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Bastar Rebellion of 1910' taught, and from which source text?",
+     "a": "3.2 (source: iess304.txt lines 360-405)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.1",
+   "title": "The Kalangs of Java and Colonial Forest Control",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Kalangs of Java and Colonial Forest Control' refers to.",
+     "a": "The resistance of Java's skilled woodcutting community against forced labor and Dutch state control over teak forests.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Kalangs of Java and Colonial Forest Control'.",
+     "a": "Expertise of Kalang timber workers and their armed opposition to Dutch colonial authority.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Kalangs of Java and Colonial Forest Control' taught, and from which source text?",
+     "a": "4.1 (source: iess304.txt lines 410-440)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.2",
+   "title": "Dutch Blandongdiensten System and Scientific Forestry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dutch Blandongdiensten System and Scientific Forestry' refers to.",
+     "a": "A colonial labor system in Java exchanging forest land rent exemptions for compulsory timber extraction and haulage work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dutch Blandongdiensten System and Scientific Forestry'.",
+     "a": "Forced labor obligations imposed on Javanese forest villages for teak extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Dutch Blandongdiensten System and Scientific Forestry' taught, and from which source text?",
+     "a": "4.2 (source: iess304.txt lines 445-465)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.3",
+   "title": "The Saminist Movement in Java",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Saminist Movement in Java' refers to.",
+     "a": "A non-violent anti-colonial movement led by Surontiko Samin challenging state ownership of natural elements and forest land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Saminist Movement in Java'.",
+     "a": "Passive resistance against state land ownership, taxation, and compulsory labor in Java.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Saminist Movement in Java' taught, and from which source text?",
+     "a": "4.3 (source: iess304.txt lines 470-490)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.4",
+   "title": "Wartime Deforestation and Community Participatory Forestry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Wartime Deforestation and Community Participatory Forestry' refers to.",
+     "a": "The destruction of global forest ecosystems during World Wars and the shift towards community-based participatory forest conservation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wartime Deforestation and Community Participatory Forestry'.",
+     "a": "Scorched earth tactics and reckless war exploitation yielding to local community forest management.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Wartime Deforestation and Community Participatory Forestry' taught, and from which source text?",
+     "a": "4.4 (source: iess304.txt lines 495-535)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_004",
+   "title": "c11_biotech_cbse_03_004",
+   "questions": [
+    {
+     "q": "Write the systematic shorthand notation for a saturated fatty acid with 16 carbon atoms. What does each part of the notation signify?",
+     "a": "**Answer:** 16:0 — “16” = total carbon atoms in the chain (including carboxyl carbon), “0” = zero double bonds (saturated). The Δ notation is omitted because there are no double bonds.  \n**Wrong-answer diagnosis:** If a student writes “16:1” or includes Δ, they confuse saturation with chain length or misunderstand that the number after the colon counts double bonds only. If they write “C16:0”, they are mixing common name style with systematic notation.",
+     "self_check": true
+    },
+    {
+     "q": "A fatty acid is denoted as 18:2 (Δ9,12). Without drawing the full structure, explain in your own words: (a) how many carbons, (b) how many double bonds, (c) between which carbon pairs the double bonds are located, and (d) whether the double bonds are likely conjugated or separated by methylene groups.",
+     "a": "**Answer:** (a) 18 carbons total. (b) Two double bonds. (c) First double bond between C-9 and C-10; second between C-12 and C-13 (counting from carboxyl carbon as C-1). (d) They are separated by one methylene group (–CH₂–) at C-11, i.e., a **methylene-interrupted** pattern typical of natural polyunsaturated fatty acids; they are **not conjugated** (which would be alternating double-single-double).  \n**Wrong-answer diagnosis:** If the student places double bonds at C-9 and C-11, they miscount the Δ superscript as the lower-numbered carbon only. If they say “conjugated”, they confuse plant lipid patterns with synthetic/industrial conjugated linoleic acid.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three test tubes: (A) pure tripalmitin (triglyceride with three palmitic acids), (B) pure phosphatidylcholine (a glycerophospholipid), (C) a 1:1 mixture of both. Each is sonicated in water. Predict the supramolecular structure formed in each tube (micelle, bilayer vesicle, oil droplet, or precipitate) and justify using the concept of **critical packing parameter (CPP = v / a₀l)** where *v* = tail volume, *a₀* = head area, *l* = tail length.",
+     "a": "**Answer:**  \n- Tube A (tripalmitin): **Oil droplets** — CPP ≈ 1 (three bulky tails, negligible head) → favors zero-curvature bulk phase.  \n- Tube B (phosphatidylcholine): **Bilayer vesicles (liposomes)** — CPP ≈ 0.5–1 (two tails, large hydrated head) → favors planar bilayers that close into vesicles.  \n- Tube C (mixture): **Mixed vesicles with oil-core domains** — phospholipid forms bilayer shell, triglyceride sequesters in hydrophobic core (like lipid droplets budding from ER).  \n**Wrong-answer diagnosis:** If the student says “micelles” for phospholipid, they overestimate head-group area (micelles need CPP < 1/3, typical of single-tailed detergents). If they say “precipitate” for triglyceride, they forget that hydrophobic molecules aggregate to minimize water contact, not crash out as solids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the **backbone** and **linkage chemistry** of glycerophospholipids vs. sphingophospholipids. How does this difference affect their susceptibility to hydrolysis by phospholipases A₁, A₂, and C?",
+     "a": "**Answer:**  \n- **Glycerophospholipid**: glycerol backbone; fatty acids at sn-1 and sn-2 via **ester bonds**; phosphate at sn-3.  \n- **Sphingophospholipid**: sphingosine backbone; **amide bond** at C-2 (N-acyl), **ester bond** at C-1 (O-acyl), phosphate at C-3.  \n**Phospholipase susceptibility**: PLA₁ and PLA₂ hydrolyze ester bonds at sn-1 and sn-2 of glycerophospholipids → release free fatty acids. Sphingophospholipids resist PLA₁/PLA₂ because the sn-1 equivalent is an amide (requires ceramidase). PLC cleaves the phosphodiester bond before the head group in **both** classes, yielding diacylglycerol (glycerophospholipid) or ceramide-1-phosphate (sphingophospholipid).  \n**Wrong-answer diagnosis:** If the student claims both have ester bonds at both positions, they miss the defining amide linkage in sphingolipids. If they say PLC acts only on glycerophospholipids, they overlook that PLC targets the phosphate–alcohol bond common to both.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: “Because cholesterol has a hydroxyl group at C-3, it is a phospholipid.” Evaluate this statement. Is cholesterol a phospholipid? If not, what class does it belong to, and what structural feature definitively excludes it from phospholipids?",
+     "a": "**Answer:** The claim is **false**. Cholesterol is a **steroid** (a triterpenoid derivative), not a phospholipid. The defining exclusion: phospholipids **must contain a phosphate group** linked to an alcohol (glycerol or sphingosine) forming a phosphodiester/phosphomonoester head. Cholesterol has only a single hydroxyl (–OH) at C-3 and a hydrocarbon tetracyclic ring system — no phosphate, no glycerol/sphingosine backbone, no fatty acid tails. Its amphipathicity comes from the polar –OH vs. hydrophobic rings/tail, not a phosphate head.  \n**Wrong-answer diagnosis:** If the student agrees, they equate “amphipathic sterol” with “phospholipid” — a category error. If they say “cholesterol is a glycolipid”, they confuse the –OH with a sugar moiety.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **novel lipid molecule** that would spontaneously form **stable micelles (not bilayers)** in physiological buffer (pH 7.4, 150 mM NaCl). Specify: (i) backbone type, (ii) number and saturation of hydrophobic tails, (iii) head group chemistry, (iv) approximate critical packing parameter value, and (v) one potential biological application.",
+     "a": "**Expected answer (criteria for a good design):**  \n- (i) Glycerol or single-chain scaffold (e.g., monoacylglycerol derivative).  \n- (ii) **One** hydrophobic tail (C12–C14, saturated) — two tails push CPP toward bilayer.  \n- (iii) **Large, highly hydrated, charged head** (e.g., polyethylene glycol-phosphoethanolamine, or a dendritic polyglycerol sulfate) to maximize *a₀*.  \n- (iv) CPP **< 1/3** (ideally 0.2–0.3).  \n- (v) Application: **drug-delivery nanocarrier** for hydrophobic chemotherapeutics (e.g., paclitaxel) — micelles solubilize drug in core, PEGylated head provides stealth circulation.  \n**Poor-answer diagnosis:** If the student proposes two tails or a small head (choline), CPP will be ~0.5–1 → bilayers/vesicles. If they suggest a steroid backbone with one tail, the rigid ring system prevents the conical shape needed for high-curvature micelles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_002",
+   "title": "c11_geo_cbse_04_002",
+   "questions": [
+    {
+     "q": "Name the two major sub-supercontinents that comprised Pangaea and state the paleo-ocean that separated them before final amalgamation.",
+     "a": "Pangaea consisted of **Laurasia** (northern component: Laurentia, Baltica, Siberia, North China, South China) and **Gondwana** (southern component: South America, Africa, India, Antarctica, Australia, Arabia). They were separated by the **Paleo-Tethys Ocean** (later replaced by the Tethys Sea) before final collision during the Variscan–Alleghanian orogeny. A wrong answer (e.g., “India and Australia” or “Atlantic Ocean”) reveals the student is confusing modern continental fragments with Paleozoic tectonic blocks or misidentifying the intervening ocean basin.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Panthalassa is described as a “pole-to-pole” ocean whereas the modern Pacific Ocean is not, and state one climatic consequence of this geometry for the Permian–Triassic supercontinent interior.",
+     "a": "Panthalassa extended from the North Pole to the South Pole without any continental barrier, allowing unimpeded meridional (north–south) ocean circulation. The modern Pacific is blocked by the Americas in the east and by the Eurasian–Australian landmass in the west, breaking pole-to-pole continuity. A climatic consequence: the Pangaea interior, far from Panthalassa’s maritime influence, experienced extreme continentality – scorching summers, freezing winters, and aridity (evidenced by widespread Permian red beds and evaporites). If the student says “Panthalassa is just the old Pacific”, they conflate a paleo-ocean with a modern ocean basin and miss the critical paleoclimatic implication of unrestricted polar heat transport.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of Pangaea (provided), mark the approximate position of the **Tethys Sea** at 200 Ma and draw an arrow showing the direction of its opening relative to Pangaea. Then, using the modern map, name **two** present-day mountain belts that originated from the closure of this Tethys Sea.",
+     "a": "At 200 Ma (Late Triassic–Early Jurassic), the Tethys Sea formed a broad, eastward-opening embayment on the eastern flank of Pangaea, separating Gondwana (south) from Laurasia (north). The opening direction is **eastward** (or “into Panthalassa”). Present-day mountain belts from Tethyan closure: **the Himalaya** (India–Eurasia collision) and **the Alps** (Adria–Europe collision). A wrong arrow (westward) or naming the Andes/Rockies indicates the student does not distinguish Tethyan (Gondwana–Laurasia) from Panthalassic (Pacific-type) subduction systems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the paleolatitudinal position of Pangaea’s centre (equator) with the paleolatitudinal position of the modern continental centroid. Analyse how this difference affected global albedo and the meridional temperature gradient during the Permian–Triassic versus today.",
+     "a": "Pangaea’s geometric centre straddled the **equator** (low-albedo land absorbs more insolation), whereas today’s continental centroid lies in the **Northern Hemisphere mid-latitudes** (~40° N) with significant high-albedo ice sheets (Greenland, Arctic). Equatorial Pangaea promoted strong Hadley circulation and reduced equator-to-pole temperature gradient (weak meridional gradient), while modern polar continents enhance albedo feedback and steepen the gradient. If the student claims “Pangaea was at the South Pole”, they are confusing the Late Paleozoic Ice Age (Gondwana over South Pole *before* Pangaea amalgamation) with the Pangaea configuration itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The breakup of Pangaea caused the extinction of the dinosaurs.” Provide two lines of geological evidence that support or refute this claim.",
+     "a": "The statement is **false**. (1) Pangaea breakup began ~175 Ma (Early Jurassic), whereas non-avian dinosaurs went extinct at the **K–Pg boundary (66 Ma)** – a gap of >100 Myr. (2) Dinosaur diversity actually *increased* during the Jurassic and Cretaceous as continental fragmentation created new ecological provinces (vicariance). The K–Pg extinction is linked to the Chicxulub impact and Deccan volcanism, not Pangaea breakup. A student who agrees with the statement confuses the *initiation* of rifting with the *terminal* Cretaceous events and fails to integrate geochronology with macroevolutionary patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using household materials) to show how the **shape of Panthalassa** influenced the **direction of the paleo-equatorial current** and thus the distribution of Permian reef complexes. List materials, steps, and the expected observation.",
+     "a": "**Materials:** Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye (warm equatorial current), small fan (trade winds). **Steps:** (1) Fix clay Pangaea in tray; (2) Fill with water; (3) Add dye at equatorial “gap” (Tethys embayment); (4) Blow fan from east to west (simulating NE/SE trades). **Observation:** Dye flows *westward* along the equator, then splits poleward at the western Pangaea margin – matching the distribution of Permian reef belts (e.g., Capitan Reef in Texas, Zechstein Reef in Europe) along the western tropical Panthalassa margin. A poor design omits the Coriolis deflection (poleward splitting) or uses a circular “Pangaea”, missing the C-shape that guided the equatorial current.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

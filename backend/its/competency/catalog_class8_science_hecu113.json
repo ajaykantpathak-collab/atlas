@@ -1,0 +1,161 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 13,
+ "chapter_title": "Our Home: Earth, a Unique Life Sustaining Planet",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.113.13.1",
+   "title": "Why Earth Is a Unique Planet",
+   "section": "13.1",
+   "definition": "Among all known worlds, earth alone hosts life: it sits at the right distance from the sun, holds water in all three states, and is wrapped in a breathable atmosphere - a rare combination that makes it our one known home.",
+   "formula": "-",
+   "key_idea": "Right distance, right temperature, liquid water and a friendly atmosphere make earth unique.",
+   "textbook_ref": "hecu113.txt lines 48-111 (why is earth a unique planet)",
+   "question_patterns": [
+    "why is the earth called a unique planet",
+    "which conditions make life possible on earth",
+    "why can life not exist on most other planets",
+    "what is special about the earth's distance from the sun",
+    "compare the earth with its neighbouring planets",
+    "list three features that only the earth shows"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the position",
+     "explain": "Earth orbits in the habitable zone where water stays liquid."},
+    {"step": 2, "action": "check the blanket",
+     "explain": "Its atmosphere traps just enough heat and supplies oxygen."},
+    {"step": 3, "action": "conclude uniqueness",
+     "explain": "No other explored world combines these life-friendly conditions."}
+   ]
+  },
+  {
+   "id": "hecu.113.13.2",
+   "title": "The Planets of the Solar System",
+   "section": "13.2",
+   "definition": "Eight planets travel around the sun in order - Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune; the inner four are small rocky worlds while the outer ones are gas and ice giants, each differing in size, distance, moons and temperature.",
+   "formula": "-",
+   "key_idea": "Rocky near, gaseous far: the solar system divides into terrestrial and giant planets.",
+   "textbook_ref": "hecu113.txt lines 111-213 (planets of our solar system)",
+   "question_patterns": [
+    "name the planets of the solar system in order from the sun",
+    "which planets are called gas giants",
+    "why is Venus the hottest planet though Mercury is nearest the sun",
+    "compare earth and Mars as possible homes for life",
+    "which is the largest planet in the solar system",
+    "distinguish terrestrial planets from outer giants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "order the planets",
+     "explain": "List the eight planets outward from the sun."},
+    {"step": 2, "action": "sort by composition",
+     "explain": "Mercury to Mars are rocky; Jupiter outward are gas and ice giants."},
+    {"step": 3, "action": "compare conditions",
+     "explain": "Distance, atmosphere and size set each planet's temperature and weather."}
+   ]
+  },
+  {
+   "id": "hecu.113.13.3",
+   "title": "What Makes Earth Suitable for Life",
+   "section": "13.3",
+   "definition": "Life on earth rests on a supporting trio: liquid water covering most of the surface, an atmosphere with oxygen and a protective ozone layer, and a temperature range kept steady by the greenhouse effect and the planet's spin and tilt.",
+   "formula": "-",
+   "key_idea": "Water, oxygen-rich air and moderate temperatures are the three pillars of earthly life.",
+   "textbook_ref": "hecu113.txt lines 213-362 (what makes the earth suitable for life)",
+   "question_patterns": [
+    "which factors make the earth suitable for life",
+    "why is liquid water essential for living beings",
+    "how does the atmosphere protect life on earth",
+    "what is the role of the ozone layer",
+    "how does the greenhouse effect help life on earth",
+    "why is a moderate temperature range important for survival"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "point to the water",
+     "explain": "Liquid water dissolves and transports substances for every living cell."},
+    {"step": 2, "action": "point to the air",
+     "explain": "Oxygen supports respiration while the ozone layer screens harmful ultraviolet rays."},
+    {"step": 3, "action": "point to the warmth",
+     "explain": "A balanced greenhouse keeps temperatures inside the living range."}
+   ]
+  },
+  {
+   "id": "hecu.113.13.4",
+   "title": "Sustaining Life: Cycles and Shields",
+   "section": "13.4",
+   "definition": "Earth keeps life running through endless cycles - water, oxygen, carbon and nitrogen circulate between air, soil and living things - while gravity holds the atmosphere and the magnetic field deflects harmful solar wind.",
+   "formula": "-",
+   "key_idea": "Recycling cycles and planetary shields keep the biosphere running without a break.",
+   "textbook_ref": "hecu113.txt lines 362-460 (what allows life to be sustained on earth)",
+   "question_patterns": [
+    "how do the water and oxygen cycles sustain life",
+    "what is the role of the nitrogen cycle",
+    "how does the magnetic field protect life on earth",
+    "why is gravity important for holding the atmosphere",
+    "explain how carbon cycles between air and living things",
+    "name the cycles that keep matter moving in the biosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "follow the cycles",
+     "explain": "Water evaporates, rains and flows; oxygen and carbon pass between respiration and photosynthesis."},
+    {"step": 2, "action": "credit the shields",
+     "explain": "Gravity keeps the air; the magnetic field turns away charged solar particles."},
+    {"step": 3, "action": "close the loop",
+     "explain": "Endless recycling of matter and steady energy from the sun sustain life."}
+   ]
+  },
+  {
+   "id": "hecu.113.13.5",
+   "title": "Threats to Life on Earth",
+   "section": "13.6",
+   "definition": "Human activity now strains the life-support system: pollution of air and water, climate change from excess greenhouse gases, ozone depletion, deforestation and careless resource use all weaken the planet's ability to keep sustaining life.",
+   "formula": "-",
+   "key_idea": "Pollution and warming chip away at the very conditions that make earth livable.",
+   "textbook_ref": "hecu113.txt lines 656-740 (threats to life on earth)",
+   "question_patterns": [
+    "list the major threats to life on earth today",
+    "how does air pollution harm living beings",
+    "what causes climate change and why is it dangerous",
+    "how does deforestation disturb the water cycle",
+    "why is ozone depletion a threat to life",
+    "suggest steps to reduce threats to the earth's environment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the pressures",
+     "explain": "Pollution, warming, ozone holes and habitat loss top the list."},
+    {"step": 2, "action": "trace the damage",
+     "explain": "Each threat weakens water, air or temperature conditions that life needs."},
+    {"step": 3, "action": "act locally and globally",
+     "explain": "Saving energy, planting trees and cutting waste ease the pressure."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "hecu113.txt sections 13.1-13.3",
+   "questions": [
+     "Why is earth called a unique life-sustaining planet?",
+     "Name the eight planets in order and mark the rocky ones.",
+     "How do water, air and temperature make earth livable?"
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "hecu113.txt sections 13.4-13.6",
+   "questions": [
+     "Explain any two cycles that sustain life on earth.",
+     "How does the magnetic field protect the biosphere?",
+     "List three threats to life on earth and ways to reduce them."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_003",
+   "title": "c7_chem_ch02_003",
+   "questions": [
+    {
+     "q": "What is the primary characteristic that distinguishes a chemical change from a physical change?",
+     "a": "The formation of one or more entirely new substances with different properties. A wrong answer reveals that the student is confusing physical changes (like melting or tearing) with chemical changes, missing the core concept that chemical identity changes.",
+     "self_check": true
+    },
+    {
+     "q": "When magnesium ribbon burns in air with a dazzling white light, a white powdery ash is formed. Why is this burning process classified as a chemical change rather than a physical change?",
+     "a": "Magnesium reacts with oxygen in the air to form magnesium oxide, which is a completely new substance with different properties from both shiny magnesium and invisible oxygen gas. A wrong answer shows the student thinks that changing shape or turning into a powder makes something a physical change, ignoring that a new chemical substance was created.",
+     "self_check": true
+    },
+    {
+     "q": "If you mix vinegar and baking soda in a test tube, you observe brisk effervescence (bubbling) and the test tube feels cooler. Using the concept of new substance formation, explain why this is a chemical change and identify the gas usually given off.",
+     "a": "The bubbling indicates the formation of carbon dioxide gas, which is a new substance not present initially as a gas in either reactant. Step 1: Identify reactants (vinegar/acetic acid and baking soda/sodium bicarbonate). Step 2: Observe evidence of change (gas bubbles of carbon dioxide). Step 3: Conclude that new products are formed because the gas has different properties than the starting liquids/solids. A wrong answer reveals the misconception that boiling or gas production is always physical, confusing boiling with chemical gas evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the process of setting milk into curd. Is it possible to get the original milk back from the curd by cooling or heating? What does this tell you about the nature of the change?",
+     "a": "No, milk cannot be converted back into curd through simple physical reversal because curd is a chemically different substance containing lactic acid, which changes the taste, texture, and chemical composition of the milk. A wrong answer indicates the student believes changes involving liquids or food are temporary or easily reversible.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that dissolving sugar in water is a chemical change because the sugar disappears and you cannot see the individual crystals anymore. Evaluate this claim and provide chemical reasoning to support your judgment.",
+     "a": "The student's claim is incorrect. Dissolving sugar is a physical change because no new substance is formed; the sugar molecules are simply dispersed among water molecules, and the sugar can be recovered as solid crystals by evaporating the water. A wrong answer reveals confusion between disappearing/dissolving (a physical process of mixing) and reacting chemically to form a new compound.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home or laboratory test using everyday kitchen items to prove that mixing two substances produces a chemical change rather than just a physical mixture. Describe what you would observe.",
+     "a": "An acceptable response includes mixing lemon juice (acid) with baking soda (base) or adding turmeric powder (natural indicator) to washing powder solution. The expected observation is a color change or vigorous bubbling (effervescence), proving that a new substance (gas or indicator product) has formed. A poor answer describes physical mixing like stirring salt in water, showing a failure to distinguish between solutions and chemical reactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

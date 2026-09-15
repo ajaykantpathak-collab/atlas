@@ -1,0 +1,185 @@
+{
+ "catalog": "catalog_class7_maths_gegp206.json",
+ "concepts": [
+  {
+   "id": "gegp2.6.1",
+   "title": "Geometric Constructions with Instruments",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.2",
+   "title": "Tilings: Shapes that Cover the Floor",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 16 * 5 gives 80",
+     "compute": "area = 16 * 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 16 cm by 5 cm.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 25 m.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "A 10 m x 16 m garden has a 6 m x 12 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 12 cm. Find its breadth.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 5 m x 12 m floor.",
+     "a": "1200",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 6 m (square tiles) fit in a 18 m x 42 m hall?",
+     "a": "21",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.3",
+   "title": "Angles and Parallel Lines in Constructions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 19 gives 71",
+     "compute": "other = 90 - 19"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 19 degrees, find the other.",
+     "a": "71",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 113 degrees, find the other.",
+     "a": "67",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 41 degrees; find the other.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 130 degrees and 21 degrees, find the remaining angle.",
+     "a": "209",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 22 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "158",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 39 degrees. Find its co-interior partner.",
+     "a": "141",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.4",
+   "title": "Checking Constructions by Properties",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

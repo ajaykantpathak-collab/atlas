@@ -1,0 +1,251 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 5,
+ "chapter_title": "आखिरी चट्टान तक",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.105.1.1",
+   "title": "यात्रा-वृत्तांत विधा: तत्व और स्वरूप",
+   "section": "1",
+   "definition": "यात्रा-वृत्तांत केवल स्थान-विवरण नहीं, बल्कि दृश्य-वर्णन, आत्मानुभूति, सांस्कृतिक परिप्रेक्ष्य, जीवन-दर्शन, रोमांच-संघर्ष और शैलीगत विशेषताओं का संगम है; 'आखिरी चट्टान तक' में प्रकृति का सजीव चित्रांकन और लेखक की भावनाओं का अंकन साथ-साथ चलते हैं, इसलिए पाठक खुद यात्रा करता हुआ अनुभव करता है।",
+   "formula": "-",
+   "key_idea": "यात्रा-वृत्तांत में बाहर का संसार और भीतर का मन दोनों का विवरण होता है।",
+   "textbook_ref": "ihga105.txt lines 16-24 (पाठ-प्रस्तावना) तथा lines 230-269 (यात्रा-वृत्तांत के तत्व आरेख)",
+   "question_patterns": [
+    "yaatra-vrittant ke mukhya tatv kaun se hain",
+    "yaatra-vrittant aur safarnama mein kya antar hai",
+    "is yaatra-vrittant mein aatmanubhuti kaise vyakt hui hai",
+    "sanskritik paripekshya yaatra lekhan mein kya jodta hai",
+    "yaatra vrittant mein drishya varnan ka kya mahatva hai",
+    "akhir chattan tak ko yaatra-vrittant kyon kaha gaya hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "विधा के तत्व सूचिबद्ध कीजिए",
+     "explain": "दृश्य-वर्णन से शैली तक छह तत्व पाठ के आरेख में दिए गए हैं।"},
+    {"step": 2, "action": "पाठ से उदाहरण जोड़िए",
+     "explain": "समुद्र-चट्टानों का चित्रण दृश्य-वर्णन और लेखक की उदासी आत्मानुभूति है।"},
+    {"step": 3, "action": "समन्वय दिखाइए",
+     "explain": "बेकार नवयुवकों का उल्लेख वृत्तांत को सामाजिक दस्तावेज बना देता है।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.2",
+   "title": "तीन सागरों के संगम पर: विवेकानंद चट्टान का भव्य दृश्य",
+   "section": "1",
+   "definition": "अरब सागर, हिंद महासागर और बंगाल की खाड़ी के संगम-स्थल जैसी चट्टान, जहाँ स्वामी विवेकानंद ने समाधि लगाई थी, लेखक को 'शक्ति का विस्तार, विस्तार की शक्ति' जैसा अनुभव कराती है; दृश्य में इतने डूब जाने पर वे अपने होने का बोध भूल जाते हैं और खुद दृश्य का हिस्सा-से लगते हैं।",
+   "formula": "-",
+   "key_idea": "प्रकृति की विशालता मनुष्य को अपने अहं को भुलाकर आत्म-विस्मृति की अनुभूति दे देती है।",
+   "textbook_ref": "ihga105.txt lines 27-44 (चट्टान पर खड़े होकर तीनों क्षितिज देखने का प्रसंग)",
+   "question_patterns": [
+    "shakti ka vistar vistar ki shakti se kya abhipray hai",
+    "Vivekanand chattan ka varnan apne shabdon mein kijiye",
+    "lekhak apna astitva kyon bhool gaya tha",
+    "teen samudron ke sangam ka kya mahatva hai",
+    "chatan par khade hone par lekhak ko kya anubhav hua",
+    "samudra ki lehren chatanon se takrate hue kaisi lag rahi thi"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "स्थिति की पहचान कीजिए",
+     "explain": "भारत के स्थल-भाग की आखिरी चट्टान तीन जल-राशियों की मार सहती हुई समाधिस्थ-सी है।"},
+    {"step": 2, "action": "अनुभूति उभारिए",
+     "explain": "तीनों क्षितिज समेटते हुए लेखक 'मैं' के बोध से उतर जाता है।"},
+    {"step": 3, "action": "भावार्थ निकालिए",
+     "explain": "असीम विस्तार मनुष्य को निरापेक्ष शांति का अहसास कराता है।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.3",
+   "title": "टीलों को पार करती यात्रा और सूर्यास्त के बदलते रंग",
+   "section": "1",
+   "definition": "लेखक सैंड हिल से संतुष्ट नहीं होकर एक के बाद एक रेत के टीले पार करता है जब तक कि पश्चिमी क्षितिज का खुला विस्तार न दिख जाए; सूर्यास्त के समय पानी पर सोने से लहू होते रंग के काले पड़ जाने से क्षणभंगुरता और हल्की उदासी का भाव जागता है।",
+   "formula": "-",
+   "key_idea": "सौंदर्य क्षणभर का है - रंग बदलना ही प्रकृति का नियम और मन की उदासी का कारण है।",
+   "textbook_ref": "ihga105.txt lines 45-96 (सैंड हिल, टीला-पार यात्रा और सूर्यास्त वर्णन)",
+   "question_patterns": [
+    "lekhak ne suryast kaha se aur kyon dekha",
+    "tile paar karne ki katha mein lekhak ki kaisi mansik dhadhta dikhti hai",
+    "suraj doobte samay rang kaise kaise badle",
+    "prayatn ki sarthakta se santusht hona kya arth rakhta hai",
+    "sand hill par yatriyon ka samuh kaisa chitra tha",
+    "kshanbhangurta aur udasi ka bhaav kis varnan se jhalkta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "अभीष्ट दृश्य पहचानिए",
+     "explain": "पश्चिमी क्षितिज का खुला विस्तार देखना लेखक की लगन का लक्ष्य था।"},
+    {"step": 2, "action": "रंग-क्रम याद कीजिए",
+     "explain": "सोना - लहू - बैजनी - काला, यही ढलते सूर्य की रंग-गाथा है।"},
+    {"step": 3, "action": "भाव जोड़िए",
+     "explain": "रेत पर पहली बार टूटे पैरों के निशान से अद्भुत सिहरन और मंद उदासी दोनों उपजती हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.4",
+   "title": "खतरे की घड़ी: बढ़ता पानी, अँधेरा और हाजिर-जवाबी निर्णय",
+   "section": "1",
+   "definition": "लौटने के रास्ते में बढ़ता अँधेरा और भरता समुद्र लेखक के सामने खतरा खड़ा कर देता है; रेत के टीलों में भटकने की आशंका देखते हुए वे तट का रास्ता चुनते हैं, ऊँची लहरों से दौड़ लगाते हैं और चट्टान पर चढ़कर बाद में पाते हैं कि सौ फुट आगे खुला तट था - डर निकलते ही शरीर हल्का हो उठता है।",
+   "formula": "-",
+   "key_idea": "संकट-क्षण में शीतल बुद्धि और तुरंत निर्णय ही सुरक्षा का रास्ता खोलते हैं।",
+   "textbook_ref": "ihga105.txt lines 97-138 (लौटने की चिंता, बढ़ती लहरें और चट्टान से कूदना)",
+   "question_patterns": [
+    "badhte andhere mein lekhak ka rasta kaise bhaarya",
+    "lekhak tate ka rasta kyon chuna",
+    "badhte pani se khatar mahsus kyun hua",
+    "chatan se takrane ke baad kya hua",
+    "dar nikal jane par lekhak ko kaisa laga",
+    "aparashit chunaoti ka samna karne ke gun likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "खतरे के स्रोत गिनाइए",
+     "explain": "अँधेरा, भटकाने वाले टीले और तट को निगलता बढ़ता पानी - तीनों साथ-साथ खड़े हैं।"},
+    {"step": 2, "action": "निर्णय की प्रक्रिया देखिए",
+     "explain": "तुरंत सोचकर तट का निश्चित रास्ता चुनना उनकी स्थिति-समझ को दिखाता है।"},
+    {"step": 3, "action": "अंतरंग शिक्षा निकालिए",
+     "explain": "मन का डर ही बड़ा रोड़ा होता है, रास्ते से नहीं।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.5",
+   "title": "अनाम रंगों की रेत: सौंदर्य-बोध और स्वामित्व की इच्छा",
+   "section": "1",
+   "definition": "कन्याकुमारी के तट की रेत में एक-एक इंच पर बदलते अनाम रंग हैं - काली घटा और लाल आँधी के सम्मिश्रण जैसे; लेखक रंगों को छू-मसलकर देखता है और हर रंग की थोड़ी रेत अपने पास रखने की चाह मन में रखता है, पर उपाय न देख वह फिर किसी दिन लौटने का वचन देकर उदास हो चल देता है।",
+   "formula": "-",
+   "key_idea": "सौंदर्य को जीत लेना नहीं, देखकर संचित कर लेना ही कला-बोध है।",
+   "textbook_ref": "ihga105.txt lines 106-120 (तट की रंग-बिरंगी रेत का वर्णन)",
+   "question_patterns": [
+    "tat ki ret ke rang kaise the",
+    "lekhak ret ke rang batane ke liye kya kiya",
+    "har rang ki thodi ret apne pas rakhne ki ichchha kyon hui",
+    "kalighata aur laal aandhi wala udaharan kya darshata hai",
+    "sundarya bodh par is varnan ki roshni mein vichar likhiye",
+    "lekhak udas man se kyon chale gaye the"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दृश्य की विशेषता पकड़िए",
+     "explain": "रंगों की अनगिनत मिश्रित छटा उस रेत की पहचान है।"},
+    {"step": 2, "action": "भाव-स्पर्श देखिए",
+     "explain": "हाथों और पैरों से रंगों को महसूस करना संवेदनशील कला-दृष्टि है।"},
+    {"step": 3, "action": "निष्कर्ष बताइए",
+     "explain": "सौंदर्य अधिकार माँगता नहीं, अनुभव करता देता है - यही लेखक की सीख है।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.6",
+   "title": "सूर्योदय और कन्याकुमारी का जन-जीवन",
+   "section": "1",
+   "definition": "विवेकानंद चट्टान पर सूर्योदय देखने पहुँचे लेखक के साथ तीन नवयुवक और रबड़ के तनों की नाव में चार मल्लाह हैं; स्थानीय ग्रेजुएट युवक बेकारी के आँकड़े सुनाते हैं - 'सीपियों का गूदा खाते हैं और दार्शनिक सिद्धांतों पर बहस करते हैं' - जबकि घाट पर मंदिर की घंटियाँ, शंख-मालाएँ बेचती युवतियाँ और सूर्य-दर्शन करते पर्यटक जन-जीवन का पूरा चित्र बनाते हैं।",
+   "formula": "-",
+   "key_idea": "प्राकृतिक सौंदर्य और सामाजिक यथार्थ यात्रा-वृत्तांत में साथ-साथ चलते हैं।",
+   "textbook_ref": "ihga105.txt lines 142-181 (रात का दृश्य, सूर्योदय और स्थानीय नवयुवकों से बातचीत)",
+   "question_patterns": [
+    "Vivekanand chattan suryoday dekhne kaise pahunche",
+    "nau kaisi thi aur kaise chalayi gayi",
+    "kanyakumari ke naujawan berozgari ke aankde kyun bata rahe the",
+    "seepiyon ka gooda khana aur darshanik bahas ka kya arth hai",
+    "ghat par suryoday ke samay ka drishya varnan kijiye",
+    "yaatra vrittant mein samajik yatharth kaise darj hua hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "सामाजिक परिप्रेक्ष्य पहचानिए",
+     "explain": "शिक्षित बेरोजगार नवयुवकों की व्यथा वृत्तांत का चुपचाप बोलता पक्ष है।"},
+    {"step": 2, "action": "सांस्कृतिक चित्र जोड़िए",
+     "explain": "मंदिर के प्रणाम, घंटियाँ और अघ्य देने की रीति स्थानीय आस्था दिखाती है।"},
+    {"step": 3, "action": "समन्वय बताइए",
+     "explain": "बेकारी की समस्या और सूर्योदय की विशेषता दोनों से बे-लाग कडल-काक पूरे दृश्य को गाँठते हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.105.1.7",
+   "title": "शैली की विशेषताएँ: चित्रात्मक भाषा और भावात्मक रंग-प्रयोग",
+   "section": "1",
+   "definition": "पाठ की भाषा सहज, प्रवाहपूर्ण और चित्रात्मक है - 'चूरा बूँदों की जालियाँ', 'मुरझाई बिंदी' जैसी उपमाएँ और रंगों का भावात्मक प्रयोग दृश्यों को आँखों के सामने जीवंत कर देते हैं; रूपक, उपमा और प्रतीकों के इस संयोजन से यात्रा-विवरण काव्यात्मक अनुभव बन जाता है।",
+   "formula": "-",
+   "key_idea": "चित्रात्मक शैली पाठक को दर्शक से सह-यात्री बना देती है।",
+   "textbook_ref": "ihga105.txt lines 22-24 (प्रस्तावना में शैली-टिप्पणी) तथा lines 260-269 (शैलीगत विशेषताएँ)",
+   "question_patterns": [
+    "is yaatra vrittant ki shaili ki visheshtayen likhiye",
+    "chitra atmak bhasha ka kya matlab hai - udaharan dijiye",
+    "roopak aur upama ke udaharan path se chuniye",
+    "rangon ka bhavatmak prayog kis tarah hua hai",
+    "pravahapurn bhasha se kya tatyap hai",
+    "shaili ke aadhar par lekhak ki drishti kaisi dikhti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "शैली-तत्व पहचानिए",
+     "explain": "सजीव भाषा, दृश्यात्मकता और बिंब-निर्माण इसके स्तंभ हैं।"},
+    {"step": 2, "action": "उदाहरण दीजिए",
+     "explain": "लहरों के चूरे की जालियाँ और चाँद की मुरझाई बिंदी उपमा के सुंदर दृष्टांत हैं।"},
+    {"step": 3, "action": "प्रभाव बताइए",
+     "explain": "यह शैली वर्णन को केवल सूचना से ऊपर उठाकर अनुभूति बना देती है।"}
+   ]
+  },
+  {
+   "id": "ihga.105.2.1",
+   "title": "क्रिया-विशेषण: पहचान और रेखांकन",
+   "section": "2",
+   "definition": "क्रिया की विशेषता बताने वाले शब्द क्रिया-विशेषण कहलाते हैं, जैसे 'तट की चौड़ाई धीरे-धीरे कम होती जा रही थी' में 'धीरे-धीरे' पद कम होने की क्रिया की गति बताता है; संज्ञा-सर्वनाम की विशेषता बताने वाला विशेषण जहाँ नाम के गुण बताता है, वहाँ क्रिया-विशेषण काम के ढंग बताता है।",
+   "formula": "-",
+   "key_idea": "क्रिया-विशेषण बताता है कि काम कैसे, कब या कितना हुआ।",
+   "textbook_ref": "ihga105.txt lines 371-392 (व्याकरण खंड: क्रिया-विशेषण की पहचान)",
+   "question_patterns": [
+    "kriya-visheshan kise kehte hain - paribhasha dijiye",
+    "dhire-dhire pad kis prakar ka visheshan hai",
+    "vakya mein kriya-visheshan pahchan kar rekhankit kijiye",
+    "jaldi-jaldi aur der tak kaise kriya ki visheshta batate hain",
+    "visheshan aur kriya-visheshan mein kya antar hai",
+    "kriya-visheshan se naya vakya banaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "क्रिया ढूँढ़िए",
+     "explain": "पहले वाक्य की मुख्य क्रिया पहचानिए।"},
+    {"step": 2, "action": "विशेषता-पद पकड़िए",
+     "explain": "जो शब्द क्रिया के कैसे-कब-कितने का उत्तर दे, वही क्रिया-विशेषण है।"},
+    {"step": 3, "action": "रेखांकित कीजिए",
+     "explain": "उदाहरण-तालिका की तरह पद और उसकी क्रिया का जोड़ा लिखिए।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "ihga105.txt lines 184-214 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "लेखक ने सूर्यास्त का मनोहारी दृश्य कहाँ से देखा?",
+    "'मैं कुछ देर भूला रहा कि मैं मैं ही हूँ' कथन लेखक की किस मनःस्थिति को दर्शाता है?",
+    "'मैंने, सिर्फ मैंने उस चोटी को पहली बार सर किया हो' में कौन-सा भाव व्यक्त होता है?",
+    "'शक्ति का विस्तार, विस्तार की शक्ति' वाक्य में किसका वर्णन है?",
+    "लेखक की कन्याकुमारी यात्रा का वर्णन पढ़कर क्या कहा जा सकता है?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "ihga105.txt lines 215-229 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "लेखक सैंड हिल पर रुककर दूसरे टीलों की ओर क्यों बढ़ा?",
+    "लेखक ने कन्याकुमारी के स्थानीय लोगों के विषय में क्या-क्या बताया?",
+    "'प्रयत्न की सार्थकता' से क्या अभिप्राय है?",
+    "यात्रा-वृत्तांत से लेखक की मानसिक दृढ़ता दिखाने वाले दो अंश चुनकर लिखिए।"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "ihga105.txt lines 371-392 (व्याकरण की बात - क्रिया-विशेषण)",
+   "questions": [
+    "दिए गए वाक्यों में क्रिया-विशेषण पदों की पहचान करके लिखिए।",
+    "'बल खाती लहरें रास्ते की नुकीली चट्टानों से कटती हुई आती थीं' में क्रिया-विशेषण बताइए।",
+    "क्रिया-विशेषण से अपने दो नए वाक्य बनाइए।"
+   ]
+  }
+ ]
+}

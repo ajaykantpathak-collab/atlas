@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_007",
+   "title": "c12_biotech_cbse_13_007",
+   "questions": [
+    {
+     "q": "List three distinct ethical concerns raised by the genetic engineering of crops, and for each, name the primary stakeholder group most affected.",
+     "a": "Correct answer: (1) Justice/equity – smallholder farmers who cannot afford proprietary seeds; (2) Environmental non-maleficence – ecosystems and biodiversity affected by gene flow; (3) Consumer autonomy – public's right to know and choose via labeling. A wrong answer that lists only \"health risks\" or \"playing God\" reveals a confusion between scientific risk assessment (biosafety) and ethical evaluation, or a reliance on vague slogans instead of principled stakeholder analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between somatic gene therapy and human germline genome editing, and state why the latter raises unique ethical issues that the former does not.",
+     "a": "Correct answer: Somatic gene therapy modifies non-reproductive cells in an existing patient, so changes are not inherited; germline editing alters embryos, sperm, or eggs, making changes heritable. Germline editing uniquely raises issues of intergenerational consent (future generations cannot agree), potential for enhancement/eugenics, and irreversible changes to the human gene pool. A wrong answer that claims both are equally controversial or that somatic therapy is heritable shows a fundamental misunderstanding of the biological distinction and its ethical significance.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup develops a gene-drive mosquito that spreads a sterility gene to suppress wild populations of Aedes aegypti (dengue vector). Using the principle of non-maleficence, identify two potential ecological harms that must be evaluated before field release, and propose a mitigation strategy for each.",
+     "a": "Correct answer: (1) Harm to non-target species via horizontal gene transfer or ecological cascades – mitigation: phased field trials in isolated ecosystems with molecular confinement (e.g., daisy-chain drives). (2) Irreversible loss of genetic diversity in mosquito populations – mitigation: genetic monitoring and a reversal drive design. A wrong answer that focuses only on human health benefits or suggests \"recalling the mosquitoes\" reveals an inability to apply non-maleficence to complex ecological systems and a lack of awareness of gene-drive irreversibility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical arguments for and against mandatory labeling of genetically modified foods using the principles of consumer autonomy and distributive justice. Which principle carries more weight in a low-income country context, and why?",
+     "a": "Correct answer: Autonomy supports labeling (right to know), while justice arguments cut both ways: labeling may increase costs, burdening poor consumers, but lack of labeling may exploit information asymmetry. In low-income countries, justice often weighs heavier because mandatory labeling can raise food prices for the most vulnerable, unless subsidized. A wrong answer that declares one principle universally superior without contextual analysis shows a failure to weigh competing ethical claims in real-world socioeconomic conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Genetic engineering is unethical because it violates the natural order of species.\" Identify the logical fallacy involved and explain why this argument fails to provide a sufficient ethical basis for policy.",
+     "a": "Correct answer: The statement commits the naturalistic fallacy (deriving an 'ought' from an 'is'). Many life-saving interventions (antibiotics, surgery) also violate the 'natural order' but are ethically accepted. Policy requires assessing consequences, rights, and justice, not merely appealing to nature. A wrong answer that agrees with the statement or dismisses it as \"unscientific\" without naming the fallacy reveals an inability to distinguish between descriptive claims and normative reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a five-step ethical review checklist that a national biotechnology regulatory committee could use to evaluate a proposal for commercial release of a genetically modified drought-tolerant wheat variety. Each step must correspond to a specific ethical principle.",
+     "a": "Expected answer: (1) Beneficence – Does the wheat demonstrably improve food security for target populations? (2) Non-maleficence – Have long-term ecological risks (gene flow to wild relatives, soil microbiome effects) been independently assessed? (3) Justice – Will smallholder farmers have equitable access to seeds at fair prices, or will patents create dependency? (4) Autonomy – Is there transparent labeling and freedom for farmers to choose non-GM alternatives? (5) Procedural justice – Has meaningful public consultation occurred, including indigenous farming communities? A poor answer that lists only technical safety tests or omits stakeholder participation shows a conflation of biosafety regulation with ethical review.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

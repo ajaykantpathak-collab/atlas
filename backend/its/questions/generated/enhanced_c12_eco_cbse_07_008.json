@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_008",
+   "title": "c12_eco_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the four core assumptions of the basic two-sector circular flow model as presented in NCERT Class 12 Macroeconomics.",
+     "a": "The four core assumptions are: (1) Only two sectors — households and firms — exist; (2) Households spend their entire income on consumption (no savings); (3) Firms produce only consumption goods (no investment goods); (4) No government and no foreign trade (closed economy). A wrong answer (e.g., \"households save a fixed proportion\") reveals the student confuses the *basic* model with the *extended* model that includes the financial sector (covered in node c12_eco_cbse_07_006).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the assumption \"households spend all their income on consumption\" is imposed in the two-sector model, and what happens to the circular flow if this assumption is relaxed while keeping the model two-sector.",
+     "a": "The assumption is imposed to keep the flow closed and constant: every rupee earned flows back as demand for firm output, so production = income = expenditure automatically. If relaxed (households save S > 0), a leakage appears: expenditure becomes C = Y - S, which is less than output Y. Firms then face unsold inventory, cut production, and income falls until a new equilibrium where planned saving equals planned investment (if investment is introduced) or output contracts. A wrong answer (e.g., \"savings just disappear\") shows the student misses the leakage-injection framework (node c12_eco_cbse_07_006) and the role of unplanned inventory accumulation as the adjustment mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "In a three-sector model (households, firms, government), the government collects ₹200 crore in taxes (T) and spends ₹250 crore (G). Households save ₹50 crore (S) and firms plan to invest ₹80 crore (I). Calculate the net injection/leakage and state whether the economy is in equilibrium. If not, describe the direction of income adjustment.",
+     "a": "Step 1: Identify leakages = S + T = 50 + 200 = ₹250 crore. Step 2: Identify injections = I + G = 80 + 250 = ₹330 crore. Step 3: Net injection = Injections - Leakages = 330 - 250 = ₹80 crore > 0. Step 4: Since injections > leakages, aggregate demand exceeds current output. Firms experience unplanned inventory decumulation, increase production, and national income rises. Step 5: Equilibrium requires S + T = I + G; here it does not hold. A wrong answer (e.g., \"equilibrium because G > T\") ignores the saving-investment balance and the simultaneous equilibrium condition taught in node c12_eco_cbse_07_006.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limitation \"model assumes constant price level\" with \"model ignores income distribution.\" Which limitation is more critical for analysing (a) inflation targeting by RBI, and (b) designing a progressive tax policy? Justify.",
+     "a": "(a) Constant price level is more critical for inflation targeting because the model cannot show how excess demand (injections > leakages) translates into price rises instead of output increases; it assumes all adjustment is quantity-based. (b) Ignoring income distribution is more critical for progressive tax policy because the model aggregates all households into one representative agent, masking how tax incidence differs across income groups and how marginal propensity to consume varies. A wrong answer that picks the same limitation for both reveals failure to match model simplifications to specific policy questions — a key board exam competency (case-based).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The four-sector circular flow model (Y = C + I + G + X - M) fully captures the Indian economy for policy analysis because it includes all sectors.\"",
+     "a": "The statement is false. Even the four-sector model omits: (1) Financial sector intermediation (banks, bonds, equity) — it treats S = I as an identity, ignoring interest rate determination and credit constraints; (2) Informal/unorganised sector (≈50% of India's GDP) where transactions are not captured in official flows; (3) Environmental externalities (pollution, resource depletion) — no stock of natural capital; (4) Distributional effects — single representative household; (5) Expectations and forward-looking behaviour (Ricardian equivalence, animal spirits). For policy, RBI uses DSGE models, not the static circular flow. A wrong answer accepting the statement shows confusion between an *accounting identity* (ex-post) and a *behavioural model* (ex-ante) — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a modified circular flow diagram for an economy with: (i) households that save and pay taxes, (ii) firms that invest, (iii) government that spends and transfers, (iv) foreign sector, and (v) a central bank that sets interest rate affecting I and S. Label all flows and state the new equilibrium condition.",
+     "a": "A good answer draws: Households → (C, S, T) → Firms/Govt/Foreign; Firms → (Y, I) → Households/Govt/Foreign; Govt → (G, TR) → Households/Firms; Foreign → (X, M) → Firms/Households; Central Bank → (r) → affects I(r) and S(r). Equilibrium: S + T + M = I + G + X (with I = I(r), S = S(r)). Must show interest rate as a flow from Central Bank to both S and I decisions. A poor answer omits the central bank or treats r as exogenous without feedback, missing the endogeneity of financial markets — a limitation explicitly noted in NCERT as \"model does not explain rate of interest determination.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

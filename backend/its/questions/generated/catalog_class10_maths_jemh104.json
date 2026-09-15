@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class10_maths_jemh104.json",
+ "concepts": [
+  {
+   "id": "jemh.104.4.1",
+   "title": "Standard Form and Checking Roots",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 5 ** (2 + 2) gives 625",
+     "compute": "val = 5 ** (2 + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^2 x 5^2.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^4 / 3^1.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^2)^3 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "3375",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 9^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-2) and give the value as a fraction.",
+     "a": "1/64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.104.4.2",
+   "title": "Solution by Factorisation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 5 * 5 * 5 + 3 * 5 + 6 gives 146",
+     "compute": "val = 5 * 5 * 5 + 3 * 5 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 5x^2 + 3x + 6 at x = 5.",
+     "a": "146",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 2x^3 + 4x + 3 at x = 3.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(3).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the sum of the zeros.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the product of the zeros.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 8. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.104.4.3",
+   "title": "Nature of Roots via the Discriminant",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 1x^2 + 6x + 4 at x = 2.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 2x^3 + 3x + 1 at x = 2.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(1).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 6. Find the sum of the zeros.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 6. Find the product of the zeros.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 6. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.104.4.4",
+   "title": "Quadratic Formula and Word Problems",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 4 * 5 + 4 gives 74",
+     "compute": "val = 2 * 5 * 5 + 4 * 5 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 4x + 4 at x = 5.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 3x^3 + 5x + 7 at x = 3.",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(4).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 1 and 8. Find the sum of the zeros.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 1 and 8. Find the product of the zeros.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 1 and 8. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

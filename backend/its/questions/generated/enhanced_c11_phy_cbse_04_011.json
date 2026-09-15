@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_011",
+   "title": "c11_phy_cbse_04_011",
+   "questions": [
+    {
+     "q": "Define rolling friction and state how its magnitude compares to static and kinetic friction for the same normal force.",
+     "a": "Rolling friction is the resistive force opposing the rolling motion of a body due to deformation at the contact region. For the same normal force, rolling friction is typically 100 to 1000 times smaller than static or kinetic friction. A wrong answer (e.g., \"rolling friction is larger than static friction\") reveals the student confuses the ease of rolling with the magnitude of the resistive force, or thinks friction always increases with contact area.",
+     "self_check": true
+    },
+    {
+     "q": "A cylinder rolls without slipping on a horizontal surface at constant speed. Explain why a small horizontal force is still needed to maintain its motion, even though the contact point is instantaneously at rest.",
+     "a": "Although the contact point has zero instantaneous velocity, the surfaces deform elastically, creating a finite contact patch. The normal reaction force shifts slightly ahead of the cylinder's center, producing a clockwise torque that opposes the rolling motion. To maintain constant speed, an external force must counteract this torque. A wrong answer (e.g., \"no force is needed because there is no relative motion\") shows the student assumes ideal rigid bodies and ignores deformation, confusing rolling friction with static friction's self-adjusting nature.",
+     "self_check": true
+    },
+    {
+     "q": "A steel ball of mass 200 g rolls on a horizontal steel surface. If the coefficient of rolling friction μᵣ = 0.002, calculate the rolling friction force acting on the ball. Take g = 10 m/s².",
+     "a": "Given: m = 0.2 kg, μᵣ = 0.002, g = 10 m/s².\nStep 1: Normal force N = mg = 0.2 × 10 = 2 N.\nStep 2: Rolling friction fᵣ = μᵣ N = 0.002 × 2 = 0.004 N.\nStep 3: Direction opposes motion.\nAnswer: 0.004 N (or 4 mN) opposite to velocity.\nA wrong answer (e.g., 0.4 N) reveals the student misplaced the decimal in μᵣ or used μₛ by mistake, not appreciating how small rolling friction is.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanisms by which (a) lubricating oil and (b) ball bearings reduce friction in a rotating shaft. Which method is more effective at very high speeds and why?",
+     "a": "(a) Lubricating oil forms a fluid film that separates the shaft and bearing surfaces, replacing solid–solid friction with viscous shear of the oil layer (fluid friction). (b) Ball bearings replace sliding contact between shaft and housing with rolling contact between balls and races, converting kinetic friction into much smaller rolling friction. At very high speeds, ball bearings are generally more effective because fluid friction increases with speed (viscous drag ∝ velocity), while rolling friction remains nearly constant. A wrong answer (e.g., \"oil is always better\") shows the student doesn't understand the velocity dependence of viscous drag versus the near-constant nature of rolling friction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since rolling friction is so small, we should replace all sliding contacts in machines with rolling contacts to save energy.\" Evaluate this statement considering practical limitations.",
+     "a": "The statement is partially correct but ignores practical constraints. Rolling elements (ball/roller bearings) require precise manufacturing, lubrication themselves, and have limited load capacity compared to plain bearings. They are also more expensive, sensitive to contamination, and can fail catastrophically if overloaded. In high-load, low-speed applications (e.g., large crane slew rings), plain bearings with lubrication are preferred. A good evaluation acknowledges the trade-offs. A wrong answer (uncritical agreement) shows the student treats physics concepts as universally applicable without engineering context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that rolling friction is much smaller than sliding friction. List the materials, procedure, and what you would measure.",
+     "a": "Materials: A book (slider), a cylindrical pencil/pen (roller), a wooden board as an incline, a protractor.\nProcedure: (1) Place the book on the board, slowly increase the angle until it just starts to slide. Record angle θₛ. (2) Place the pencil on the board, increase angle until it just starts to roll. Record angle θᵣ.\nMeasurement: tan θₛ = μₛ (static friction coefficient); tan θᵣ ≈ μᵣ (rolling friction coefficient). Since θᵣ << θₛ, μᵣ << μₛ.\nA poor answer (e.g., \"push them and see which goes farther\") lacks quantitative measurement and control of variables, showing the student doesn't understand how to isolate friction coefficients experimentally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+  "class": 6,
+  "subject": "english_grammar",
+  "chapter": 1,
+  "chapter_title": "English Grammar I: Tenses, Articles, Plurals",
+  "source_file": "original-authored; grammar drill bank (no textbook source)",
+  "license": "original authored content; no textbook passages",
+  "concepts": [
+    {
+      "id": "engram.6.1",
+      "title": "Simple Present Tense: Fill the Blank",
+      "section": "Grammar Drill",
+      "definition": "The simple present tense states habits, routines and general truths. With he, she, it or one person or thing, the verb takes -s or -es; with I, you, we, they the base verb is used.",
+      "formula": "he/she/it + verb-s/es;  I/you/we/they + verb",
+      "key_idea": "Third person singular is the only subject that changes the verb.",
+      "question_patterns": [
+        "Fill in the blank with the simple present form of the verb in brackets",
+        "Choose the correct simple present verb for the sentence",
+        "Complete the sentence in the simple present tense"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find the subject",
+          "explain": "he/she/it or a singular noun takes verb + s/es"
+        },
+        {
+          "step": 2,
+          "action": "I/you/we/they",
+          "explain": "a plural subject or I/you/we/they takes the base verb"
+        },
+        {
+          "step": 3,
+          "action": "Check the cue",
+          "explain": "the word in brackets is the base verb; add -s/-es only for he/she/it"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the simple present form: She ___ to school every day. (go)",
+          "a": "goes"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: Ravi ___ cricket every evening. (play)",
+          "a": "plays"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: My father ___ tea every morning. (drink)",
+          "a": "drinks"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: The sun ___ in the east. (rise)",
+          "a": "rises"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: They ___ their grandmother every Sunday. (visit)",
+          "a": "visit"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: The baby ___ sweetly. (smile)",
+          "a": "smiles"
+        },
+        {
+          "q": "Fill in the blank with the simple present form: This shop ___ at nine o'clock. (open)",
+          "a": "opens"
+        }
+      ]
+    },
+    {
+      "id": "engram.6.2",
+      "title": "Articles: a, an, the",
+      "section": "Grammar Drill",
+      "definition": "A and an introduce one singular countable noun; an comes before a vowel sound, a before a consonant sound. The points to one particular thing already known or named.",
+      "formula": "an + vowel sound;  a + consonant sound;  the + specific noun",
+      "key_idea": "It is the sound, not the letter, that decides a or an.",
+      "question_patterns": [
+        "Fill in the blank with a, an or the",
+        "Choose the correct article for the sentence",
+        "Complete the sentence with the right article"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Say the next word aloud",
+          "explain": "does it begin with a vowel sound? use an; otherwise use a"
+        },
+        {
+          "step": 2,
+          "action": "Ask which one",
+          "explain": "if the sentence names one particular thing, use the"
+        },
+        {
+          "step": 3,
+          "action": "Read it back",
+          "explain": "one singular countable noun first mentioned takes a or an"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with a, an or the: I saw ___ elephant at the zoo.",
+          "a": "an"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: Ria ate ___ apple during the break.",
+          "a": "an"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: Vikram is ___ honest boy.",
+          "a": "an"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: My mother is ___ doctor.",
+          "a": "a"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: Please pass me ___ salt kept here.",
+          "a": "the"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: We stayed at ___ hotel near the station.",
+          "a": "a"
+        },
+        {
+          "q": "Fill in the blank with a, an or the: ___ Yamuna flows through Delhi.",
+          "a": "the"
+        }
+      ]
+    },
+    {
+      "id": "engram.6.3",
+      "title": "Plurals: Write the Plural Form",
+      "section": "Grammar Drill",
+      "definition": "Most nouns form the plural by adding -s. Nouns ending in -s, -sh, -ch, -x or -o add -es; nouns ending in a consonant + y change y to ies; some nouns change inside (child to children).",
+      "formula": "leaf-leaves; box-boxes; city-cities; child-children",
+      "key_idea": "Spelling rules, not meaning, build the plural form.",
+      "question_patterns": [
+        "Write the plural form of the given noun",
+        "Give the plural of the word",
+        "Change the noun into its plural form"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check the ending",
+          "explain": "-s/-sh/-ch/-x/-o take -es"
+        },
+        {
+          "step": 2,
+          "action": "Check for y",
+          "explain": "consonant + y becomes ies"
+        },
+        {
+          "step": 3,
+          "action": "Check for irregulars",
+          "explain": "child, tooth, mouse, man, foot change inside"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Write the plural form of this noun: box",
+          "a": "boxes"
+        },
+        {
+          "q": "Write the plural form of this noun: leaf",
+          "a": "leaves"
+        },
+        {
+          "q": "Write the plural form of this noun: child",
+          "a": "children"
+        },
+        {
+          "q": "Write the plural form of this noun: mango",
+          "a": "mangoes"
+        },
+        {
+          "q": "Write the plural form of this noun: tooth",
+          "a": "teeth"
+        },
+        {
+          "q": "Write the plural form of this noun: city",
+          "a": "cities"
+        },
+        {
+          "q": "Write the plural form of this noun: mouse",
+          "a": "mice"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "exercises": []
+}

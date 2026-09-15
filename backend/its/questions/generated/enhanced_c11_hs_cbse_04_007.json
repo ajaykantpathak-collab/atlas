@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_007",
+   "title": "c11_hs_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define interchangeability and manageability as characteristics of resources in your own words, giving one original example for each that is NOT from the textbook.",
+     "a": "Interchangeability means resources can substitute each other to perform the same function (e.g., using a bicycle instead of a bus to reach school). Manageability means resources can be controlled and organised to get maximum results with minimum waste (e.g., planning a study timetable to cover more syllabus in fewer hours). A wrong answer that confuses interchangeability with \"sharing resources\" or manageability with \"just saving money\" reveals the student has memorised definitions without grasping the functional equivalence and optimisation aspects.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Interchangeability means I can use my friend's notes instead of attending class, so they are the same resource.\" Explain why this reasoning is flawed using the concept of functional equivalence and goal context.",
+     "a": "The reasoning is flawed because interchangeability requires the substitute resource to achieve the *same goal with equivalent effectiveness* in the given context. Friend's notes may lack the teacher's explanations, emphasis, and interactive clarification that attending class provides; thus, they are not functionally equivalent for the goal of \"deep understanding.\" A wrong answer that accepts the substitution reveals the student thinks interchangeability is merely about replacing one object with another, ignoring the qualitative match required for the specific goal.",
+     "self_check": true
+    },
+    {
+     "q": "You have ₹500, 2 hours, and high energy to prepare a birthday gift for a friend. List three distinct resource combinations (interchangeable sets) that could achieve this goal, and for each, explain how you would manage the resources to maximise output.",
+     "a": "Combination 1: Money (₹500) + Time (2 hrs) → Buy materials, handmake a scrapbook. Manage by pre-planning layout to minimise rework. Combination 2: Skill (digital art) + Time (2 hrs) + Laptop (owned) → Create digital portrait, print at shop (₹50). Manage by using templates to speed up. Combination 3: Energy + Knowledge (baking) + Ingredients (home) → Bake a cake. Manage by mise en place to avoid mid-process delays. A poor answer lists only one combination or ignores the management aspect, showing inability to see multiple pathways and optimisation within constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interchangeability of human resources (time, energy, skill) vs. non-human resources (money, materials) in the context of a family managing a medical emergency. Which category offers more flexible substitution and why?",
+     "a": "Non-human resources generally offer more flexible substitution in a medical emergency: money can buy hired help, equipment, or services, directly substituting for family time/energy/skill. Human resources are less interchangeable because a family member's specific skill (e.g., nursing) cannot be fully replaced by another's unskilled time without quality loss. A wrong answer claiming human resources are more interchangeable ignores the irreplaceability of specialised human capital in crisis situations.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since resources are interchangeable, management is unnecessary — just substitute whatever is available.\" Defend your position with a concrete household example.",
+     "a": "The statement is false. Interchangeability expands options, but management is needed to choose the *optimal* substitute considering cost, time, quality, and side effects. Example: To clean a floor, you could substitute a mop (low cost, high effort) with a robotic vacuum (high cost, low effort). Without management (evaluating budget, urgency, floor type), you might choose the robot vacuum when money is scarce but time abundant, wasting a critical resource. A wrong answer agreeing with the statement reveals confusion between availability of options and the need for strategic selection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Resource Interchangeability Matrix\" for a student preparing for board exams with the following constraints: 30 days left, 6 hours daily study capacity, ₹2000 budget, average energy, high motivation. The matrix must show at least 4 interchangeable resource pairs and the management decision rule for choosing between them.",
+     "a": "A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision rule: Choose self-study if concept clarity > speed needed. (2) Physical textbooks (owned, no cost) ↔ Online videos (data cost, high engagement) — Rule: Use videos for weak topics, textbooks for revision. (3) Group study (peer energy, time sync needed) ↔ Solo study (full control, own energy) — Rule: Group for doubt-solving, solo for memorisation. (4) 6-hour continuous block ↔ 3×2-hour Pomodoro sessions — Rule: Pomodoro if energy dips after 2 hours. Poor answer lacks decision rules or treats pairs as independent, missing the management logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

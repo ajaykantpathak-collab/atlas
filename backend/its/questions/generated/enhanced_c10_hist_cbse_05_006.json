@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_05_006",
+   "title": "c10_hist_cbse_05_006",
+   "questions": [
+    {
+     "q": "In which year and location was the first printing press established in India, and who brought it?",
+     "a": "The first printing press in India was established in 1556 at Goa by Portuguese Jesuit missionaries, specifically for printing Christian texts in Konkani and other local languages. A wrong answer (e.g., \"Calcutta, 1780, East India Company\" or \"Serampore, 1800, William Carey\") reveals the student confuses the *first* press with the *first English* or *first missionary* press, missing the Portuguese precedence and the 200-year gap before British printing began.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the East India Company establish its own printing presses in Calcutta, Bombay, and Madras in the late 18th century, rather than relying on existing missionary presses?",
+     "a": "The East India Company needed standardized, authoritative print for administrative control: revenue regulations (Permanent Settlement records), legal codes (Cornwallis Code), military orders, and official gazettes — requiring precision, confidentiality, and state authority that missionary presses (focused on religious tracts) could not guarantee. A wrong answer focusing only on \"spreading education\" or \"printing Bibles\" shows the student misses the *administrative imperative* — the Company printed for governance, not conversion.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds two documents from 1810: (1) a Bengali grammar printed at Serampore Mission Press, and (2) a land revenue regulation printed at the Calcutta Government Press. Both use the same Bengali typeface. What does this suggest about the relationship between missionary and Company printing in early 19th century Bengal?",
+     "a": "It suggests technological transfer and indirect collaboration: Serampore missionaries (Carey, Ward, Marshman) developed Bengali typefaces and printing expertise which the Company later adopted or adapted for official use, since the Company lacked indigenous script expertise initially. A wrong answer claiming \"they competed\" or \"had no connection\" misses the documented fact that Company presses often purchased type from Serampore or hired their trained compositors — showing print infrastructure was shared across colonial and missionary spheres.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language policies of the Portuguese presses (1556–1670) and the Serampore Mission Press (1800–1830). How did each decide which Indian languages to print in, and what does this reveal about their differing objectives?",
+     "a": "Portuguese presses printed in Konkani, Tamil, and Marathi using Roman script — targeting coastal converts and littoral communities for *immediate evangelization*. Serampore printed in 40+ languages (Bengali, Sanskrit, Hindi, Oriya, Assamese, etc.) using *indigenous scripts* — aiming for *comprehensive scriptural translation* across the subcontinent. The difference reveals: Portuguese print was geographically limited and script-imposing; Serampore was linguistically systematic and script-respecting, reflecting a shift from conquest-era conversion to philological evangelism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The East India Company's printing presses were instruments of colonial domination, while missionary presses were instruments of cultural preservation.\" Use evidence from 1780–1857 to support or challenge this binary.",
+     "a": "The binary is false. Company presses *did* entrench colonial rule (gazettes, laws, revenue records in English and vernaculars), but also standardized Indian languages for administration (e.g., Fort William College textbooks). Missionary presses *did* preserve languages (Serampore's dictionaries, grammars, Bible translations), but explicitly aimed to undermine \"idolatrous\" traditions and convert populations. Both were instruments of *power* — colonial and religious — that incidentally documented and standardized Indian languages. A student accepting the binary misses the *overlap*: both served external agendas while creating the print infrastructure Indians later appropriated.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1556–1857) with six dated entries showing the *spread* of printing from Goa to the major Presidency cities and Serampore, noting the *agent* (Portuguese, Company, Missionary) and *primary purpose* for each. Then write a 50-word generalization about the pattern you observe.",
+     "a": "Timeline: 1556 Goa (Portuguese, evangelization); 1674 Tranquebar (Danish-Halle missionaries, Tamil evangelization); 1780 Calcutta (Company, administration); 1790 Bombay (Company, administration); 1800 Serampore (Baptist missionaries, Bible translation); 1815 Madras (Company, administration/education). Generalization: Printing spread along colonial trade and administrative networks — Portuguese coastal forts, then Company Presidency capitals, with missionary presses filling linguistic gaps in between — revealing print followed *power* and *proselytization*, not indigenous demand. A poor answer lists dates without agents/purposes or misses the coastal-to-interior pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

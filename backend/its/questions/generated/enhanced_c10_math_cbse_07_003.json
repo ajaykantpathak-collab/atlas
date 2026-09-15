@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_003",
+   "title": "c10_math_cbse_07_003",
+   "questions": [
+    {
+     "q": "What is the distance between point A(7, 0) and point B(−3, 0)? Write the formula you use and the final answer.",
+     "a": "Distance = |x₂ − x₁| = |−3 − 7| = |−10| = 10 units. A wrong answer of 4 reveals the student computed −3 − 7 = −10 but forgot absolute value, or computed 7 − 3 = 4 by ignoring the negative sign. This shows misunderstanding that distance is non-negative and coordinates on negative side of axis must be treated with their signs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distance between P(0, −6) and Q(0, 2) is 8 units, not 4 units. Use the distance formula to justify your answer.",
+     "a": "Using distance formula: √[(0−0)² + (2 − (−6))²] = √[0 + (8)²] = 8. A student answering 4 likely computed 2 − 6 = −4 (ignoring that −6 is negative) or |2| − |−6| = 2 − 6 = −4. The error is subtracting absolute values instead of finding the difference of the actual coordinates: 2 − (−6) = 2 + 6 = 8. This exposes confusion between coordinate values and their magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Find the distance between R(−4, 0) and S(0, −4). Can you use the simplified axis-distance method here? If not, which formula must you use and what is the answer?",
+     "a": "No, the simplified method does NOT apply because neither point lies on an axis — R is on x-axis (y=0) but S is on y-axis (x=0), so they are on different axes. Must use full distance formula: √[(0 − (−4))² + (−4 − 0)²] = √[4² + (−4)²] = √[16 + 16] = √32 = 4√2 units. A student using |−4 − 0| = 4 incorrectly assumes both points share an axis. This tests whether the student recognizes the condition \"same axis\" requires BOTH points to have the same zero coordinate.",
+     "self_check": true
+    },
+    {
+     "q": "Points A(a, 0) and B(0, b) are on the x-axis and y-axis respectively. Point C is on the x-axis such that AC = 3 units and C lies to the right of A. If a = −2, find the coordinates of C and the distance BC. Show all steps.",
+     "a": "Since C is on x-axis, its coordinates are (c, 0). AC = |c − (−2)| = |c + 2| = 3. Since C is right of A, c > −2, so c + 2 = 3 → c = 1. Thus C(1, 0). Distance BC = √[(1−0)² + (0−b)²] = √[1 + b²]. A student writing C(−5, 0) solved |c+2|=3 but ignored \"to the right\" condition. A student writing BC = |b| or BC = 1+b forgot the full distance formula applies for points on different axes. This analyzes multi-condition reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Distance between (−5, 0) and (3, 0)\" as follows: Step 1: x₁ = −5, x₂ = 3. Step 2: Distance = x₂ − x₁ = 3 − (−5) = 8. Step 3: Answer = 8 units. Is this solution fully correct? If not, identify the missing step and explain why it matters for board exam marking.",
+     "a": "The solution is numerically correct but procedurally incomplete for board exams. Missing step: explicit absolute value notation |x₂ − x₁| or statement \"distance is positive\". CBSE marking scheme requires showing |3 − (−5)| = |8| = 8. Without absolute value, a student computing (−5) − 3 = −8 would get negative distance, losing marks. The step \"distance = |x₂ − x₁|\" must appear. This evaluates procedural rigour expected in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: rupees, metres, school scenario) where finding distance between two points on the same axis is essential to solve it. The problem must require at least 3 steps and combine this concept with either section formula or area of triangle.",
+     "a": "Example: \"A school ground is rectangular with corners at O(0,0), A(60,0), B(60,40), C(0,40) in metres. A flag pole is at F(20,0) on the x-axis. A water tank is at T(50,0) on the x-axis. A first-aid post is to be built at the midpoint of FT. Find: (i) distance FT, (ii) coordinates of first-aid post, (iii) distance from first-aid post to corner B.\" Steps: (i) FT = |50−20| = 30 m, (ii) midpoint = (35, 0), (iii) distance to B(60,40) = √[(60−35)² + (40−0)²] = √[625+1600] = √2225 = 5√89 m. A poor problem would only ask for FT without combining concepts, or would place points off axes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

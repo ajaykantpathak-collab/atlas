@@ -1,0 +1,574 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 1,
+ "chapter_title": "The End of Bipolarity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps101.txt",
+ "concepts": [
+  {
+   "id": "c12ps.1.1",
+   "title": "The Cold War Era",
+   "section": "Introduction to the Cold War",
+   "definition": "The Cold War was a period of ideological, political, and military rivalry between the United States-led Western bloc and the Soviet Union-led Eastern bloc that lasted from the end of the Second World War until the disintegration of the USSR in 1991, without direct armed conflict between the two superpowers.",
+   "formula": "",
+   "key_idea": "The Cold War was marked by an ideological divide between capitalism and socialism, an arms race, the formation of rival military alliances (NATO and Warsaw Pact), and a constant threat of nuclear war.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Cold War and how did it originate?",
+    "Explain the meaning of the term 'Cold War' in international politics.",
+    "What were the main features of the Cold War rivalry?",
+    "How did the Cold War affect the division of the world into two blocs?",
+    "Why did the Cold War not lead to a direct military confrontation between the superpowers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Cold War as an ideological and geopolitical rivalry",
+     "explain": "The Cold War was a prolonged competition between the US-led capitalist bloc and the USSR-led socialist bloc that began after the Second World War and involved political, economic, and military confrontation without direct war between the two superpowers."
+    },
+    {
+     "step": 2,
+     "action": "Identify the main features of the Cold War",
+     "explain": "Key features included an ideological divide, an arms race including nuclear weapons, formation of rival alliances (NATO 1949 and Warsaw Pact 1955), and proxy wars in the Third World."
+    },
+    {
+     "step": 3,
+     "action": "Explain why direct war was avoided",
+     "explain": "The possession of nuclear weapons by both sides created a balance of terror and mutual deterrence, which prevented a direct military clash between the superpowers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was the rivalry between the US and the USSR called a 'Cold War'?",
+     "solution": "Step 1: The two superpowers never fought each other directly. Step 2: Their rivalry was expressed through ideological competition, arms race, and proxy wars. Step 3: Hence it is called a Cold War, a war without actual fighting between the principal rivals.",
+     "answer": "Because the US and the USSR never engaged in direct military conflict but competed through ideology, arms race, and proxy wars",
+     "_n": 1
+    },
+    {
+     "question": "Name the two rival military alliances formed during the Cold War.",
+     "solution": "Step 1: The Western bloc led by the US formed NATO in 1949. Step 2: The Eastern bloc led by the USSR formed the Warsaw Pact in 1955. Step 3: These two alliances represented the two opposing sides of the Cold War divide.",
+     "answer": "NATO (1949) led by the US and the Warsaw Pact (1955) led by the USSR",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the origin and main features of the Cold War.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did the Cold War not result in a direct war between the two superpowers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.2",
+   "title": "Bipolarity and the Two-Camp World",
+   "section": "Bipolarity",
+   "definition": "Bipolarity refers to the division of the world into two power blocs centred on two superpowers, the United States and the Soviet Union, each with its own alliance system, ideology, and sphere of influence, creating a two-camp international system during the Cold War.",
+   "formula": "",
+   "key_idea": "In a bipolar world, international politics was structured around two competing centres of power, and most states aligned with one bloc or the other, leaving little room for neutrality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by bipolarity in international relations?",
+    "How did the world get divided into two camps during the Cold War?",
+    "Explain the concept of bipolarity with examples from the Cold War period.",
+    "What were the consequences of bipolarity for smaller states?",
+    "How did the Non-Aligned Movement respond to bipolarity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define bipolarity as a two-bloc international system",
+     "explain": "Bipolarity means the distribution of global power between two superpowers, each leading an alliance of states with a shared ideology and strategic interests."
+    },
+    {
+     "step": 2,
+     "action": "Describe the two camps and their characteristics",
+     "explain": "The Western camp led by the US promoted capitalism and liberal democracy and was organised through NATO; the Eastern camp led by the USSR promoted socialism and one-party rule and was organised through the Warsaw Pact."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact on other states",
+     "explain": "Most states were pressured to join one bloc; a group of newly independent states formed the Non-Aligned Movement to stay outside the two-camp divide."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is bipolarity in the context of the Cold War?",
+     "solution": "Step 1: Bipolarity means two centres of power dominate world politics. Step 2: During the Cold War these were the US-led Western bloc and the USSR-led Eastern bloc. Step 3: The world was thus divided into two opposing camps.",
+     "answer": "A world order divided between two superpower-led blocs, the US and the USSR"
+    },
+    {
+     "question": "How did the Non-Aligned Movement relate to the bipolar world?",
+     "solution": "Step 1: In a bipolar world most states aligned with one superpower. Step 2: Newly independent Asian and African states chose not to join either bloc. Step 3: They formed the Non-Aligned Movement to maintain independence from both camps.",
+     "answer": "The NAM allowed newly independent states to stay outside both blocs and pursue an independent foreign policy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of bipolarity and its impact on world politics during the Cold War.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did smaller states cope with the pressures of a bipolar world?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.3",
+   "title": "The Soviet System and its Features",
+   "section": "The Soviet System",
+   "definition": "The Soviet system was the political and economic structure of the USSR, based on a single-party rule by the Communist Party, a centrally planned economy, state ownership of productive assets, and a federal structure of fifteen republics under a strong central authority.",
+   "formula": "",
+   "key_idea": "The Soviet system combined socialist ideology, a command economy, one-party rule, and a federal structure, and was built on the legacy of the 1917 Bolshevik Revolution led by Lenin.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Soviet system and what were its main features?",
+    "Explain the economic structure of the Soviet system.",
+    "How was the Soviet Union politically organised under the Soviet system?",
+    "What was the role of the Communist Party in the Soviet system?",
+    "Describe the federal structure of the USSR."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the political structure of the Soviet system",
+     "explain": "The USSR was a one-party state in which the Communist Party controlled the government and all institutions; there was no opposition or free elections among competing parties."
+    },
+    {
+     "step": 2,
+     "action": "Explain the economic structure",
+     "explain": "The economy was a centrally planned command economy in which the state owned all means of production and decided what to produce, how much, and at what price."
+    },
+    {
+     "step": 3,
+     "action": "Outline the federal structure",
+     "explain": "The USSR was a federation of fifteen republics based on the nationality principle, with a strong central government that kept the union together."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What kind of economy did the Soviet system have?",
+     "solution": "Step 1: The Soviet economy was not market-based. Step 2: The state owned all means of production and central planning decided production and prices. Step 3: This was a centrally planned command economy.",
+     "answer": "A centrally planned command economy with state ownership of all means of production"
+    },
+    {
+     "question": "How many republics made up the Soviet Union?",
+     "solution": "Step 1: The USSR was a federation based on the nationality principle. Step 2: It was composed of fifteen Soviet republics, the largest being Russia. Step 3: These fifteen republics together formed the USSR.",
+     "answer": "Fifteen republics"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the main political and economic features of the Soviet system.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the federal structure of the USSR.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.4",
+   "title": "Gorbachev and the Reform Process",
+   "section": "Gorbachev and Reforms",
+   "definition": "Mikhail Gorbachev, who became General Secretary of the Communist Party of the Soviet Union in 1985, introduced two major reform policies -- glasnost (openness) and perestroika (restructuring) -- to revive the stagnating Soviet economy and political system.",
+   "formula": "",
+   "key_idea": "Gorbachev's reforms of glasnost and perestroika aimed to make the Soviet system more open and efficient but unintentionally weakened the party's control and accelerated the disintegration of the USSR.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who was Mikhail Gorbachev and what reforms did he introduce?",
+    "Explain the meaning and purpose of glasnost.",
+    "Explain the meaning and purpose of perestroika.",
+    "How did Gorbachev's reforms contribute to the disintegration of the USSR?",
+    "What was the impact of glasnost and perestroika on Soviet society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Gorbachev and the context of his reforms",
+     "explain": "Gorbachev became General Secretary in 1985 at a time when the Soviet economy was stagnating, the political system was rigid, and public morale was low."
+    },
+    {
+     "step": 2,
+     "action": "Explain the two reform policies",
+     "explain": "Glasnost (openness) allowed greater freedom of speech, press, and political debate; perestroika (restructuring) introduced economic reforms including some market mechanisms and decentralisation of economic decision-making."
+    },
+    {
+     "step": 3,
+     "action": "Assess the unintended consequences",
+     "explain": "The reforms loosened the Communist Party's grip, encouraged nationalist movements in the republics, and weakened central authority, ultimately hastening the collapse of the USSR."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by glasnost?",
+     "solution": "Step 1: Glasnost is a Russian word meaning openness. Step 2: Gorbachev introduced it to allow freedom of speech, press, and political debate. Step 3: It was aimed at making the Soviet system more transparent and accountable.",
+     "answer": "Openness -- a policy allowing freedom of expression, press, and political debate"
+    },
+    {
+     "question": "What is meant by perestroika?",
+     "solution": "Step 1: Perestroika is a Russian word meaning restructuring. Step 2: It involved economic reforms including the introduction of some market mechanisms and decentralisation. Step 3: Its aim was to revive the stagnating Soviet economy.",
+     "answer": "Restructuring -- economic reforms introducing market mechanisms and decentralisation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain Gorbachev's policies of glasnost and perestroika and their impact on the Soviet Union.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did Gorbachev's reforms unintentionally contribute to the disintegration of the USSR?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.5",
+   "title": "Disintegration of the Soviet Union",
+   "section": "Disintegration of the USSR",
+   "definition": "The disintegration of the Soviet Union was the process by which the USSR broke apart into fifteen independent republics, culminating in the formal dissolution of the union on 26 December 1991, ending the existence of the world's first socialist state.",
+   "formula": "",
+   "key_idea": "The disintegration was caused by internal weaknesses of the Soviet system, Gorbachev's reforms, rising nationalism in the republics, and an attempted coup in August 1991, and it ended the bipolar world order.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main causes of the disintegration of the Soviet Union?",
+    "Explain the role of nationalism in the disintegration of the USSR.",
+    "Describe the events of the August 1991 coup and its consequences.",
+    "When and how did the Soviet Union formally come to an end?",
+    "How did Gorbachev's reforms lead to the collapse of the USSR?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the internal causes of disintegration",
+     "explain": "The Soviet economy stagnated due to inefficiency of central planning, the administrative system became bureaucratic and unaccountable, and the one-party system suppressed dissent and public participation.",
+     "compute": "num_republics_after = 15"
+    },
+    {
+     "step": 2,
+     "action": "Trace the role of reforms and nationalism",
+     "explain": "Gorbachev's glasnost and perestroika loosened central control and encouraged nationalist movements in the republics, especially in the Baltic states, which demanded independence.",
+     "compute": "independence_demand = rising_nationalism + weakened_central_authority"
+    },
+    {
+     "step": 3,
+     "action": "Describe the final collapse",
+     "explain": "The August 1991 coup by hardliners failed and weakened Gorbachev; Boris Yeltsin emerged stronger; on 26 December 1991 the Soviet parliament formally dissolved the USSR, and 15 independent republics emerged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When did the Soviet Union formally cease to exist?",
+     "solution": "Step 1: After the failed August 1991 coup, the republics declared independence one by one. Step 2: On 26 December 1991 the Soviet parliament formally voted to dissolve the USSR. Step 3: The Soviet Union thus formally ceased to exist on 26 December 1991.",
+     "answer": "26 December 1991"
+    },
+    {
+     "question": "How many independent republics emerged from the disintegration of the USSR?",
+     "solution": "Step 1: The USSR was a federation of fifteen republics. Step 2: Upon disintegration each republic became independent. Step 3: Therefore fifteen independent republics emerged.",
+     "answer": "Fifteen independent republics"
+    },
+    {
+     "question": "What was the role of the August 1991 coup in the disintegration?",
+     "solution": "Step 1: Hardline communists attempted a coup to overthrow Gorbachev and reverse reforms. Step 2: The coup failed and weakened Gorbachev while strengthening Boris Yeltsin. Step 3: This accelerated the republics' declarations of independence and the final dissolution.",
+     "answer": "The failed coup weakened central authority and accelerated the dissolution of the USSR"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the main causes of the disintegration of the Soviet Union.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate the number of independent republics that emerged from the disintegration of the USSR.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.6",
+   "title": "Consequences of Soviet Disintegration",
+   "section": "Consequences of Disintegration",
+   "definition": "The disintegration of the Soviet Union had far-reaching consequences including the end of the Cold War, the collapse of bipolarity, the emergence of the US as the sole superpower, the spread of democracy and capitalism in Eastern Europe, and a change in the balance of power in world politics.",
+   "formula": "",
+   "key_idea": "The end of the USSR transformed the international system from bipolar to unipolar, led to the reunification of Germany, the withdrawal of Soviet influence from Eastern Europe, and the creation of many new independent states.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main consequences of the disintegration of the Soviet Union?",
+    "How did the disintegration of the USSR affect the Cold War?",
+    "Explain the impact of Soviet disintegration on Eastern Europe.",
+    "How did the end of the USSR change the balance of power in world politics?",
+    "What was the effect of Soviet disintegration on Germany?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the consequences for the international system",
+     "explain": "The disintegration ended the Cold War and bipolarity, making the US the sole superpower and creating a unipolar moment in world politics."
+    },
+    {
+     "step": 2,
+     "action": "Describe the consequences for Eastern Europe",
+     "explain": "Soviet withdrawal allowed Eastern European countries to overthrow communist regimes, Germany was reunified in 1990, and the Warsaw Pact was dissolved."
+    },
+    {
+     "step": 3,
+     "action": "Note the emergence of new states",
+     "explain": "Fifteen independent republics emerged from the former USSR, changing the political map of Eurasia and creating new challenges of nation-building and borders."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the disintegration of the USSR affect the balance of power?",
+     "solution": "Step 1: The USSR was one of the two superpowers in a bipolar world. Step 2: Its collapse removed one pole of power. Step 3: This left the US as the sole superpower, creating a unipolar world.",
+     "answer": "It ended bipolarity and made the US the sole superpower in a unipolar world"
+    },
+    {
+     "question": "What happened to Germany as a consequence of Soviet disintegration?",
+     "solution": "Step 1: Germany had been divided into East and West since the Cold War. Step 2: With the collapse of communist regimes in Eastern Europe, East Germany's government fell. Step 3: Germany was reunified in 1990.",
+     "answer": "Germany was reunified in 1990"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the consequences of the disintegration of the Soviet Union for world politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the end of the USSR affect Eastern Europe?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.7",
+   "title": "Shock Therapy in Post-Communist States",
+   "section": "Shock Therapy",
+   "definition": "Shock therapy refers to the sudden and rapid transition from a state-controlled socialist economy to a capitalist economy through immediate privatisation, free market pricing, and removal of state subsidies, applied to the post-communist states after the collapse of the USSR.",
+   "formula": "",
+   "key_idea": "Shock therapy was a model of transition inspired by the IMF and the World Bank that sought to quickly convert post-communist economies to capitalism, but in Russia and Central Asian republics it caused severe economic and social hardship.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is shock therapy in the context of post-communist transitions?",
+    "Explain the main features of the shock therapy model.",
+    "What were the consequences of shock therapy in Russia?",
+    "Why was shock therapy criticised in the post-Soviet states?",
+    "How did shock therapy differ from a gradual transition to capitalism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define shock therapy and its components",
+     "explain": "Shock therapy is a sudden transition to capitalism through immediate privatisation of state assets, free market pricing, removal of subsidies, and opening the economy to foreign trade and investment."
+    },
+    {
+     "step": 2,
+     "action": "Describe its application in post-communist states",
+     "explain": "Russia and Central Asian republics adopted shock therapy under IMF and World Bank guidance; state assets were privatised quickly, often through voucher schemes that concentrated wealth in a few hands."
+    },
+    {
+     "step": 3,
+     "action": "Assess the consequences",
+     "explain": "Shock therapy led to a collapse of the economy, hyperinflation, rising unemployment, the rise of oligarchs, and a fall in life expectancy and living standards in Russia and several Central Asian republics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is shock therapy?",
+     "solution": "Step 1: Shock therapy is a model of rapid economic transition. Step 2: It involves immediate privatisation, free pricing, and removal of state control. Step 3: It was applied to convert post-communist economies to capitalism quickly.",
+     "answer": "A sudden transition from a socialist to a capitalist economy through immediate privatisation and free market reforms"
+    },
+    {
+     "question": "What were the consequences of shock therapy in Russia?",
+     "solution": "Step 1: State assets were privatised rapidly, concentrating wealth among a few oligarchs. Step 2: The economy collapsed with hyperinflation, unemployment, and falling living standards. Step 3: Life expectancy declined and social welfare systems broke down.",
+     "answer": "Economic collapse, hyperinflation, rise of oligarchs, and a decline in living standards and life expectancy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the shock therapy model and its consequences in the post-communist states.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was shock therapy criticised as a model of transition?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.8",
+   "title": "Transition in Post-Communist States",
+   "section": "Transition in Post-Communist States",
+   "definition": "The transition in post-communist states refers to the political and economic transformation of the former Soviet republics and Eastern European countries after 1991, involving the shift from one-party communist rule to multiparty democracy and from a command economy to a market economy.",
+   "formula": "",
+   "key_idea": "The transition varied across regions: Central Asian republics experienced authoritarianism and civil wars, while Central and Eastern European countries moved towards democracy and integration with the European Union.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the post-communist states transition to democracy and markets?",
+    "Compare the transition in Central Asia with that in Central and Eastern Europe.",
+    "What challenges did the post-communist states face during transition?",
+    "Explain the political transition in the Central Asian republics.",
+    "How did the transition affect the economy of post-communist states?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the political transition",
+     "explain": "Most post-communist states adopted new constitutions, multiparty elections, and democratic institutions, replacing the one-party communist system."
+    },
+    {
+     "step": 2,
+     "action": "Describe the economic transition",
+     "explain": "Command economies were replaced by market economies through privatisation, price liberalisation, and integration into the global capitalist market, though outcomes varied greatly."
+    },
+    {
+     "step": 3,
+     "action": "Compare regional outcomes",
+     "explain": "Central and Eastern European states largely became democracies and joined the EU; Central Asian republics saw authoritarian regimes, civil wars (as in Tajikistan), and slower economic recovery."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the transition differ between Central Europe and Central Asia?",
+     "solution": "Step 1: Central European states adopted democracy and market reforms relatively smoothly. Step 2: They eventually joined the European Union. Step 3: Central Asian republics faced authoritarianism, civil wars, and slower economic recovery.",
+     "answer": "Central Europe moved towards democracy and EU membership; Central Asia experienced authoritarianism and conflict"
+    },
+    {
+     "question": "What political changes marked the transition in post-communist states?",
+     "solution": "Step 1: The one-party communist system was abolished. Step 2: New constitutions were adopted with multiparty elections and democratic institutions. Step 3: This marked a shift from communist rule to multiparty democracy.",
+     "answer": "Adoption of new constitutions, multiparty elections, and democratic institutions replacing one-party communist rule"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare and contrast the transition in Central and Eastern Europe with that in Central Asia.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What were the main political and economic challenges of transition in post-communist states?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.9",
+   "title": "End of Bipolarity and India",
+   "section": "End of Bipolarity and India",
+   "definition": "The end of bipolarity affected India's foreign policy and domestic politics by removing the Soviet Union as a reliable strategic partner, forcing India to reorient its foreign policy, liberalise its economy, and build new relationships with the US and other powers.",
+   "formula": "",
+   "key_idea": "India lost its closest strategic ally in the USSR, faced economic crisis, and had to reform its foreign policy and economy, eventually embracing economic liberalisation in 1991 and strengthening ties with the US and other major powers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the end of bipolarity affect India's foreign policy?",
+    "What was the impact of Soviet disintegration on India's economy?",
+    "How did India respond to the end of the Cold War?",
+    "Explain the changes in India's relations with the US after the Cold War.",
+    "Why did India adopt economic liberalisation in 1991?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the impact on India's foreign policy",
+     "explain": "The USSR was India's most reliable strategic partner during the Cold War; its collapse removed this support and forced India to reorient its foreign policy towards a multipolar approach and better relations with the US."
+    },
+    {
+     "step": 2,
+     "action": "Explain the economic impact and response",
+     "explain": "India faced a balance of payments crisis in 1991 partly linked to the loss of Soviet trade and the Gulf War; in response it adopted economic liberalisation, opening the economy to the private sector and foreign investment."
+    },
+    {
+     "step": 3,
+     "action": "Assess the long-term reorientation",
+     "explain": "India strengthened ties with the US, engaged with new partners like Israel, pursued a multipolar foreign policy, and gradually emerged as a major power in the post-Cold War world."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the disintegration of the USSR affect India's foreign policy?",
+     "solution": "Step 1: The USSR was India's closest strategic partner during the Cold War. Step 2: Its collapse removed a reliable ally and forced India to reorient its foreign policy. Step 3: India moved towards a multipolar foreign policy and improved relations with the US.",
+     "answer": "It forced India to reorient its foreign policy towards multipolarity and better relations with the US"
+    },
+    {
+     "question": "Why did India adopt economic liberalisation in 1991?",
+     "solution": "Step 1: India faced a severe balance of payments crisis in 1991. Step 2: The loss of Soviet trade and the Gulf War worsened the crisis. Step 3: India responded by liberalising the economy, opening it to the private sector and foreign investment.",
+     "answer": "To overcome the 1991 balance of payments crisis and open the economy to private and foreign investment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the impact of the end of bipolarity on India's foreign policy and economy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did India's relations with the US change after the Cold War?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps101.txt",
+   "concept": "c12ps.1.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why was the rivalry between the US and the USSR called a 'Cold War'?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The two superpowers never fought",
+     "explain": "The two superpowers never fought each other directly."
+    },
+    {
+     "step": 2,
+     "action": "Their rivalry was expressed through",
+     "explain": "Their rivalry was expressed through ideological competition, arms race, and proxy wars."
+    },
+    {
+     "step": 3,
+     "action": "Hence it is called a",
+     "explain": "Hence it is called a Cold War, a war without actual fighting between the principal rivals."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps101.txt",
+   "concept": "c12ps.1.1",
+   "question_type": "short_answer",
+   "question_pattern": "Name the two rival military alliances formed during the Cold War.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The Western bloc led by",
+     "explain": "The Western bloc led by the US formed NATO in 1949."
+    },
+    {
+     "step": 2,
+     "action": "The Eastern bloc led by",
+     "explain": "The Eastern bloc led by the USSR formed the Warsaw Pact in 1955."
+    },
+    {
+     "step": 3,
+     "action": "These two alliances represented the",
+     "explain": "These two alliances represented the two opposing sides of the Cold War divide."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

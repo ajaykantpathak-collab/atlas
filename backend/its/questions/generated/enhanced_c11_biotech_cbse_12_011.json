@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_011",
+   "title": "c11_biotech_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is the primary function of fetal bovine serum (FBS) in animal cell culture media, and why is it typically used at 5-10% concentration rather than 100%?",
+     "a": "FBS provides essential growth factors (PDGF, FGF, EGF), hormones (insulin, transferrin), adhesion factors (fibronectin), lipids, and trace elements that basal media lack; it also buffers pH and detoxifies heavy metals. Using 100% serum would cause excessive viscosity, nutrient imbalance, batch variability, and uncontrolled differentiation — 5-10% optimizes growth while minimizing lot-to-lot inconsistency. A wrong answer (e.g., \"FBS is the carbon source\" or \"higher percentage always increases growth\") reveals confusion between basal media components (glucose, amino acids) and serum's signaling role, or ignorance of serum's undefined nature causing experimental variability.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares MS medium for plant tissue culture but forgets to add agar. The medium remains liquid after autoclaving. When they place a leaf explant on this liquid medium, the explant floats and turns brown within 3 days. Explain why the explant failed to form callus, referencing both physical and physiological factors.",
+     "a": "Without agar, the medium lacks a solid support matrix — the explant floats, preventing stable contact with the medium surface for nutrient uptake and gas exchange (oxygen diffusion is slower in liquid, causing hypoxia at the explant base). Physiologically, floating explants experience mechanical stress and uneven hormone exposure, disrupting the auxin-cytokinin gradient needed for callus induction. Browning indicates phenolic oxidation from wounded tissues not properly immobilized. A wrong answer focusing only on \"nutrients not absorbed\" misses the critical role of physical immobilization in establishing polarity and preventing oxidative stress.",
+     "self_check": true
+    },
+    {
+     "q": "You are subculturing a confluent monolayer of Vero cells (African green monkey kidney epithelial line) in a T-75 flask. The protocol says: \"Wash with PBS, add 2 mL 0.25% trypsin-EDTA, incubate 2-3 min at 37°C, tap flask, neutralize with 8 mL complete media.\" You accidentally leave trypsin for 15 minutes. Predict the consequence and justify your immediate corrective action.",
+     "a": "Prolonged trypsinization cleaves cell-surface proteins (integrins, cadherins) and membrane receptors, causing irreversible membrane damage, apoptosis, and loss of attachment ability — cells will not re-adhere or will die post-seeding. Immediate action: neutralize trypsin quickly with excess complete media (serum contains protease inhibitors), centrifuge at 300 × g for 5 min to pellet cells, discard supernatant containing trypsin fragments, resuspend gently in fresh media, and assess viability via trypan blue. A wrong answer (\"just add more serum and plate\") ignores that damaged cells release intracellular proteases that amplify damage in suspension, and that dead cells contaminate the culture with DNA debris causing clumping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of 2,4-D (synthetic auxin) in plant callus induction versus the role of EGF (epidermal growth factor) in animal cell proliferation. How does the concept of \"competence\" differ between these two systems?",
+     "a": "2,4-D in plant culture induces dedifferentiation of somatic cells into pluripotent callus by altering gene expression (upregulating WUSCHEL, LEC2) — it reprograms cell fate. EGF in animal culture stimulates division of already-committed progenitors via MAPK/ERK pathway — it expands a population but does not reverse differentiation. Plant competence = cellular totipotency (single cell can form whole organism) enabled by hormone-induced epigenetic reprogramming; animal competence = presence of specific receptors and cell cycle machinery in a restricted progenitor pool. A wrong answer equating both as \"growth promoters\" misses the fundamental difference: plant hormones redirect developmental trajectory; animal growth factors accelerate existing trajectory.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company wants to produce a recombinant human glycoprotein (requiring complex N-glycosylation) at commercial scale. Evaluate whether CHO (Chinese Hamster Ovary) cell suspension culture in serum-free media or Nicotiana benthamiana leaf transient expression (agroinfiltration) is more suitable. Justify with three specific criteria.",
+     "a": "CHO suspension culture is superior for this glycoprotein because: (1) Glycosylation fidelity — CHO performs mammalian-type complex N-glycosylation (terminal sialylation, galactosylation) essential for serum half-life and effector function; plants add β(1,2)-xylose and α(1,3)-fucose (immunogenic in humans). (2) Scalability & regulatory precedent — CHO suspension in bioreactors (>10,000 L) is FDA-approved for >70% of therapeutic mAbs; plant transient expression lacks GMP scalability and batch consistency. (3) Product quality control — CHO allows clonal selection for stable integration, consistent glycoforms; agroinfiltration yields heterogeneous, transient expression with batch variation. A wrong answer choosing plants for \"lower cost\" ignores that glycosylation mismatch causes clinical failure (immunogenicity, rapid clearance) — cost of failure far exceeds production savings.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal experiment to test whether a newly isolated plant species exhibits somatic embryogenesis or organogenesis as its primary regeneration pathway. Specify explant type, media sequence, observation timeline, and two quantitative metrics to distinguish the pathways.",
+     "a": "Explant: young leaf segments (high regeneration competence). Media sequence: (1) Callus induction — MS + 2 mg/L 2,4-D + 0.5 mg/L kinetin, dark, 4 weeks; (2) Regeneration — transfer callus to MS + 0.1 mg/L NAA + 2 mg/L BAP (light, 16/8 h), subculture every 3 weeks. Timeline: observe weekly for 12 weeks. Metrics: (A) Bipolar structure frequency — count structures with distinct shoot and root poles (somatic embryos) vs unipolar shoots/roots (organogenesis) per 100 mg callus; (B) Histological origin — section callus weekly, score % of embryogenic structures arising from single superficial cells (somatic embryogenesis) vs organized meristemoids from pre-existing vascular tissue (organogenesis). A poor answer uses only visual morphology without histological confirmation or quantitative metrics, confusing adventitious shoots with somatic embryos.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 206,
+ "chapter_title": "Landforms and their Evolution",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy206.txt",
+ "concepts": [
+  {
+   "id": "kegy.206.1.1",
+   "title": "Running Water and Groundwater Landforms",
+   "section": "",
+   "definition": "Running water in humid regions evolves fluvial landforms of gorges, V-shaped valleys, waterfalls, meanders, ox-bow lakes, floodplains, levees and deltas, while groundwater in limestone areas forms karst topography of sinkholes, caves, dolines and uvalas.",
+   "formula": "",
+   "key_idea": "Erosional features dominate the upper course, transport the middle course, and depositional features like deltas fill the lower course of rivers.",
+   "textbook_ref": "kegy206.txt fluvial and karst sections",
+   "question_patterns": [
+    "describe the erosional landforms made by running water",
+    "what is karst topography and how does it form",
+    "explain the formation of ox-bow lakes and deltas",
+    "differentiate gorge and V shaped valley",
+    "name the depositional landforms of rivers",
+    "how do caves and sinkholes form in limestone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.206.2.1",
+   "title": "Glacial, Aeolian, Coastal and Karst Landforms",
+   "section": "",
+   "definition": "Glaciers carve cirques, aretes, U-shaped valleys and deposit moraines, drumlins and eskers; wind forms mushroom rocks, yardangs, inselbergs and deposits sand dunes and barchans; waves build cliffs, caves, stacks, beaches and bars along coasts, completing the family of landforms.",
+   "formula": "",
+   "key_idea": "Landform evolution proceeds through youth, maturity and old age stages, so each agent leaves a recognisable sequence of erosional and depositional forms.",
+   "textbook_ref": "kegy206.txt glacial aeolian coastal sections",
+   "question_patterns": [
+    "describe the erosional and depositional features of glaciers",
+    "name the landforms made by wind in deserts",
+    "explain the formation of beaches cliffs and stacks",
+    "differentiate moraines and drumlins",
+    "what are barchans and seifs",
+    "compare erosional landforms of water wind and ice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.206.3.1",
+   "title": "Application of Landform Knowledge in Planning",
+   "section": "Landforms and their evolution",
+   "definition": "Reading landforms helps in selecting dam sites, terracing hill slopes, planning roads and settlements away from landslide and flood zones, and conserving scenic landforms for tourism, so geomorphology serves practical planning needs.",
+   "formula": "",
+   "key_idea": "Every landform carries constraints and opportunities, and planners who respect them avoid costly failures like dam seepage or road washouts.",
+   "textbook_ref": "kegy206.txt application discussion",
+   "question_patterns": [
+    "how does geomorphology help in selecting dam sites",
+    "why must roads in mountains avoid landslide prone slopes",
+    "how do floodplains guide settlement planning",
+    "state the role of landforms in tourism development",
+    "how does terracing control erosion on hill slopes",
+    "explain land capability and its relation to landforms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy206.txt exercises",
+   "questions": [
+    "Multiple choice on landforms and their evolution.",
+    "Describe the erosional landforms of glaciers.",
+    "Explain the evolution of river valleys through stages.",
+    "What are the depositional features of the wind?",
+    "Write a note on karst topography."
+   ]
+  }
+ ]
+}

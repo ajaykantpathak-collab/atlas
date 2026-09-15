@@ -1,0 +1,200 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 106,
+ "chapter_title": "Staffing",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs106.txt",
+ "concepts": [
+  {
+   "id": "lebs.106.1",
+   "title": "Meaning of Staffing",
+   "section": "6.2",
+   "definition": "The managerial function of identifying, acquiring, and maintaining a qualified workforce to fill the various roles within an organizational structure.",
+   "formula": "staffing = workforce_planning + recruitment + selection + training + performance_appraisal",
+   "key_idea": "Putting the right person in the right job at the right time.",
+   "textbook_ref": "lebs106.txt lines 60-85",
+   "question_patterns": [
+    "define staffing",
+    "what is the meaning of staffing",
+    "describe the staffing function",
+    "why is staffing essential for an organization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify organizational roles",
+     "explain": "Staffing begins by determining the number and type of personnel needed based on the organizational structure."
+    },
+    {
+     "step": 2,
+     "action": "Execute human resource cycle",
+     "explain": "The process involves continuous recruitment, selection, and development to ensure roles remain filled."
+    }
+   ]
+  },
+  {
+   "id": "lebs.106.2",
+   "title": "Staffing Process",
+   "section": "6.5",
+   "definition": "A systematic sequence of activities starting from manpower estimation to the final integration and appraisal of employees.",
+   "formula": "process = estimation + recruitment + selection + placement + training + appraisal + compensation",
+   "key_idea": "A logical flow to ensure organizational human resource needs are met.",
+   "textbook_ref": "lebs106.txt lines 210-350",
+   "question_patterns": [
+    "outline the steps in the staffing process",
+    "what is the sequence of staffing",
+    "explain the staffing process",
+    "how does the staffing process begin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Manpower estimation",
+     "explain": "Conduct workload and workforce analysis."
+    },
+    {
+     "step": 2,
+     "action": "Acquisition",
+     "explain": "Perform recruitment and selection."
+    },
+    {
+     "step": 3,
+     "action": "Integration",
+     "explain": "Conduct orientation, placement, and training."
+    }
+   ]
+  },
+  {
+   "id": "lebs.106.3",
+   "title": "Sources of Recruitment",
+   "section": "6.6",
+   "definition": "The identification and attraction of potential candidates from either within the existing organization or from the external labor market.",
+   "formula": "recruitment_pool = internal_sources + external_sources",
+   "key_idea": "Creating a sufficiently large pool of applicants to choose from.",
+   "textbook_ref": "lebs106.txt lines 400-550",
+   "question_patterns": [
+    "what are the sources of recruitment",
+    "distinguish between internal and external recruitment",
+    "list the methods of external recruitment",
+    "how do companies attract talent"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Internal search",
+     "explain": "Look for candidates via transfers or promotions."
+    },
+    {
+     "step": 2,
+     "action": "External search",
+     "explain": "Use advertisements, campus recruitment, or agencies to find new talent."
+    }
+   ]
+  },
+  {
+   "id": "lebs.106.4",
+   "title": "Selection Process",
+   "section": "6.7",
+   "definition": "The rigorous filtering process of choosing the most suitable candidate from the applicant pool through various tests and interviews.",
+   "formula": "selection = screening + testing + interviewing + reference_check + medical_exam + job_offer",
+   "key_idea": "Eliminating the unfit to find the best fit.",
+   "textbook_ref": "lebs106.txt lines 600-750",
+   "question_patterns": [
+    "explain the selection process",
+    "what are the steps in selecting an employee",
+    "how is the selection decision made",
+    "why is the selection process rigorous"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Preliminary screening",
+     "explain": "Reject unqualified applicants based on application forms."
+    },
+    {
+     "step": 2,
+     "action": "Assessment",
+     "explain": "Conduct tests (intelligence, aptitude, trade) and interviews."
+    },
+    {
+     "step": 3,
+     "action": "Finalization",
+     "explain": "Verify references and conduct medical checks before the job offer."
+    }
+   ]
+  },
+  {
+   "id": "lebs.106.5",
+   "title": "Training Methods",
+   "section": "6.8",
+   "definition": "Systematic techniques used to enhance the skills, knowledge, and aptitudes of employees to improve their performance.",
+   "formula": "training = on_the_job_methods + off_the_job_methods",
+   "key_idea": "Learning by doing versus learning before doing.",
+   "textbook_ref": "lebs106.txt lines 800-950",
+   "question_patterns": [
+    "distinguish between on-the-job and off-the-job training",
+    "what are the methods of training",
+    "explain vestibule training",
+    "how does job rotation help in training"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "On-the-job application",
+     "explain": "Training occurs at the workplace (e.g., coaching, apprenticeship)."
+    },
+    {
+     "step": 2,
+     "action": "Off-the-job application",
+     "explain": "Training occurs away from the work floor (e.g., lectures, simulations)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs106.txt line 980",
+   "concept": "lebs.106.5",
+   "question_type": "remedy_suggestion",
+   "question_pattern": "The workers are unable to operate new machines. Suggest a remedy.",
+   "extracted_variables": {
+    "problem": "lack of machine operation skill",
+    "remedy": "training"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the gap",
+     "explain": "The workers lack the necessary technical skills for the new machinery.",
+     "compute": "gap = 1"
+    },
+    {
+     "step": 2,
+     "action": "Propose training",
+     "explain": "Implement a training program to upgrade worker skills.",
+     "compute": "solution = gap * 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "lebs106.txt line 970",
+   "questions": [
+    "What is meant by staffing?",
+    "State the two important sources of recruitment.",
+    "Distinguish between training and development.",
+    "Explain the procedure for selection of employees."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

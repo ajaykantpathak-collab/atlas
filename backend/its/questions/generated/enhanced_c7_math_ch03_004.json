@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_004",
+   "title": "c7_math_ch03_004",
+   "questions": [
+    {
+     "q": "What is the place value of the digit $7$ in the decimal number $42.379$?",
+     "a": "The correct answer is hundredths or $\\frac{7}{100}$ (or $0.07$). Students who answer \"tens\" or $70$ confuse decimal place value with whole number place value on the left of the decimal point. Students who answer \"tenths\" miscount the position index.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the digit $5$ in $0.005$ has a much smaller value than the digit $5$ in $0.5$, even though they are both the same face value.",
+     "a": "The correct explanation is that $0.5$ represents $\\frac{5}{10}$ (five tenths), whereas $0.005$ represents $\\frac{5}{1000}$ (five thousandths), meaning the $5$ in $0.005$ is divided by $100$ relative to $0.5$. Students who incorrectly claim they are equal ignore the position of the digit relative to the decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "Write the expanded form of the decimal number $304.582$ using fractions for the decimal parts.",
+     "a": "The correct answer is $300 + 4 + \\frac{5}{10} + \\frac{8}{100} + \\frac{2}{1000}$. \nSteps:\n1. Identify the whole number part: $300 + 4$.\n2. Identify the tenths digit ($5$) and write its value: $\\frac{5}{10}$.\n3. Identify the hundredths digit ($8$) and write its value: $\\frac{8}{100}$.\n4. Identify the thousandths digit ($2$) and write its value: $\\frac{2}{1000}$.\n5. Combine all terms with plus signs. \nStudents who write $300 + 4 + 5 + 8 + 2$ fail to account for the fractional denominators of decimal place values.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the number $6.444$. How many times larger is the value of the first $4$ (in the tenths place) compared to the second $4$ (in the hundredths place)?",
+     "a": "The correct answer is $10$ times larger. \nSteps:\n1. Value of first $4$ (tenths) = $0.4 = \\frac{4}{10}$.\n2. Value of second $4$ (hundredths) = $0.04 = \\frac{4}{100}$.\n3. Ratio = $\\frac{0.4}{0.04} = 10$. \nStudents who answer $100$ times or equal fail to realize that each adjacent place value to the right is scaled by a factor of $\\frac{1}{10}$, meaning moving left multiplies by $10$.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"In the number $0.308$, the zero in the hundredths place has no value, so we can completely remove it without changing the number.\" Is this true or false, and why?",
+     "a": "The statement is false. While zero has a face value of zero, holding the hundredths place ensures that the digit $8$ sits in the thousandths place. Removing the zero changes the number to $0.38$, which is $\\frac{38}{100}$, whereas $0.308$ is $\\frac{308}{1000}$. Students who say it is true confuse place-holding zeros with leading or trailing whole number zeros.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal number using the digits $2$, $5$, and $9$ exactly once each, such that the digit $5$ has the greatest possible place value among your choices. What is this number, and what is its expanded form?",
+     "a": "The number is $5.92$ (or $5.29$). Expanded form: $5 + \\frac{9}{10} + \\frac{2}{100}$. \nCriteria for a good answer: The digit $5$ must be placed in the ones place (or tenths place if restricted to strictly decimals like $0.592$, but ones gives the greatest possible value). A poor answer places $5$ in the thousandths place ($0.295$), giving it the smallest possible place value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

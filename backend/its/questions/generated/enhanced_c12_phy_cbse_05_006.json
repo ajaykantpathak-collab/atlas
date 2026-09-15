@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_006",
+   "title": "c12_phy_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the two key magnetic properties that make a ferromagnetic material suitable for use as a permanent magnet, and give one example of such a material.",
+     "a": "High retentivity (large residual magnetisation Bᵣ when H=0) and high coercivity (large reverse field H꜀ needed to demagnetise). Example: Alnico (alloy of Al, Ni, Co, Fe). A wrong answer (e.g., \"high permeability\" or \"low coercivity\") reveals confusion with electromagnet requirements — the student has not distinguished between the need to retain magnetism vs. the need to gain/lose it quickly.",
+     "self_check": true
+    },
+    {
+     "q": "Why is soft iron preferred over steel for the core of an electromagnet used in an electric bell? Explain in terms of hysteresis loop shape and energy loss.",
+     "a": "Soft iron has a narrow hysteresis loop (low coercivity, low retentivity), so it magnetises and demagnetises rapidly with minimal energy loss per cycle (small loop area). Steel has a wider loop (higher coercivity), causing larger hysteresis heating and slower response. A wrong answer focusing only on \"high permeability\" without mentioning low coercivity/retentivity shows incomplete understanding — high permeability alone does not guarantee low energy loss or fast switching.",
+     "self_check": true
+    },
+    {
+     "q": "A solenoid of length 0.5 m has 1000 turns and carries a current of 2 A. Its core is made of soft iron with relative permeability μᵣ = 5000. Calculate the magnetic field B inside the core. (μ₀ = 4π × 10⁻⁷ T·m/A)",
+     "a": "Step 1: n = N/L = 1000 / 0.5 = 2000 turns/m.  \nStep 2: H = nI = 2000 × 2 = 4000 A/m.  \nStep 3: B = μ₀μᵣH = (4π × 10⁻⁷) × 5000 × 4000 = 4π × 10⁻⁷ × 2 × 10⁷ = 8π ≈ 25.1 T.  \nStep 4: Check units: (T·m/A) × (A/m) = T. Reasonable for a high-μ core.  \nA wrong answer often forgets to convert turns to turns/m, or uses μ₀ only, missing μᵣ, or misplaces powers of 10.",
+     "self_check": true
+    },
+    {
+     "q": "Two hysteresis loops are shown: Loop A is tall and wide; Loop B is short and narrow. Which loop corresponds to a material suitable for a permanent magnet? Which for an electromagnet core? Justify using the terms retentivity and coercivity.",
+     "a": "Loop A (tall and wide) → high retentivity (large B at H=0) and high coercivity (large H needed to reduce B to zero) → permanent magnet.  \nLoop B (short and narrow) → low retentivity, low coercivity → electromagnet core.  \nA wrong assignment (e.g., Loop A for electromagnet) reveals the student thinks \"strong magnetism\" means good for electromagnets, not realising electromagnets need easy on/off switching, not strong retention.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we take a permanent magnet and heat it strongly, it becomes an electromagnet.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. Heating a permanent magnet above its Curie temperature destroys its ferromagnetic ordering, making it paramagnetic — it loses its permanent magnetism entirely. It does not become an electromagnet (which requires a current-carrying coil with a soft magnetic core). The student confuses thermal demagnetisation with the operational principle of an electromagnet. This reveals a fundamental misunderstanding of the difference between material property (permanent magnetism) and device principle (electromagnetism).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a battery, insulated copper wire, an iron nail, and a compass to demonstrate the difference between a permanent magnet and an electromagnet. Describe the steps and expected observations.",
+     "a": "Steps: (1) Wind wire around nail to make a solenoid. (2) Connect to battery → compass needle deflects strongly (electromagnet ON). (3) Disconnect battery → compass needle returns to north-south (electromagnet OFF). (4) Stroke the nail with a permanent magnet to magnetise it permanently. (5) Place compass near the nail without any battery → needle deflects (permanent magnet). (6) Heat the nail strongly → magnetism disappears.  \nA poor answer might not show the ON/OFF contrast or might think the nail stays magnetised after step 3 without step 4, revealing confusion between temporary induced magnetism and permanent magnetisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

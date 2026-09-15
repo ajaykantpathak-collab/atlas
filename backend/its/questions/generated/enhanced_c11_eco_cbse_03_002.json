@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_002",
+   "title": "c11_eco_cbse_03_002",
+   "questions": [
+    {
+     "q": "What are the three pillars of the New Economic Policy (NEP) 1991, and which pillar corresponds to \"reduction of government ownership in public sector enterprises\"?",
+     "a": "The three pillars are Liberalisation, Privatisation, and Globalisation. Privatisation corresponds to reduction of government ownership in public sector enterprises (through disinvestment or strategic sale). A wrong answer (e.g., confusing Liberalisation with Privatisation) reveals the student cannot distinguish between removing entry barriers for private firms (Liberalisation) and transferring ownership of existing state assets (Privatisation) — a critical distinction for later sectoral reform nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the NEP 1991 classify reforms into \"stabilisation measures\" and \"structural reform measures\"? Give one example of each with its time horizon.",
+     "a": "Stabilisation measures are short-term (1-2 years) to fix the immediate BoP crisis and control inflation — e.g., rupee devaluation (July 1991) to boost exports and compress imports. Structural reform measures are long-term (5-10+ years) to improve efficiency and competitiveness — e.g., abolishing industrial licensing for all but 18 industries. A wrong answer (swapping examples or time horizons) shows the student misses the core logic: stabilisation buys time; structural reform changes the economy's supply-side capacity.",
+     "self_check": true
+    },
+    {
+     "q": "In 1990-91, India's foreign exchange reserves were $5.8 billion, sufficient for 13 days of imports. If average monthly imports were $1.34 billion, calculate the reserve adequacy in days and explain why this triggered the NEP.",
+     "a": "Step 1: Monthly imports = $1.34 billion. Step 2: Daily imports = $1.34 billion / 30 ≈ $44.67 million. Step 3: Reserves = $5.8 billion. Step 4: Reserve adequacy = $5.8 billion / $44.67 million ≈ 130 days? Wait — the text says 13 days (or \"not sufficient for even a fortnight\"). Re-check: $5.8 billion / ($1.34 billion × 12/365) = $5.8 billion / $44 million ≈ 132 days. But NCERT states \"not sufficient for even a fortnight\" (14 days). This discrepancy arises because reserves were also needed for debt servicing (interest payments), not just imports. The student must recognise that usable reserves for imports were far lower after earmarking for debt obligations. A wrong calculation ignoring debt servicing reveals misunderstanding of \"reserve adequacy\" as a net concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-1991 \"License-Permit Raj\" industrial regime with the post-1991 liberalised regime on three dimensions: (a) entry barriers, (b) production capacity decisions, (c) price determination. Which dimension saw the MOST radical change?",
+     "a": "Pre-1991: (a) Industrial license required for entry, expansion, new products; (b) Government fixed maximum capacity (MRTP Act); (c) Administered prices for key goods (cement, steel, aluminium). Post-1991: (a) Licensing abolished except 6 sectors (alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, drugs/pharma); (b) Firms decide capacity based on market demand; (c) Market-determined prices in most industries. Most radical change: (a) entry barriers — because removing the \"license to exist\" enabled all other freedoms. A student identifying price determination as most radical misses that price controls were already easing in the 1980s; the license abolition was the structural break.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Privatisation through disinvestment was primarily designed to improve the efficiency of PSUs.\" Use evidence from the NCERT text on disinvestment proceeds usage and asset valuation.",
+     "a": "The statement is partially true but incomplete. NCERT notes: \"proceeds from disinvestment are used to offset the shortage of government revenues rather than using it for the development of PSEs and building social infrastructure.\" Also: \"assets of PSEs have been undervalued and sold to the private sector... substantial loss to the government.\" Thus, fiscal deficit financing became the de facto primary objective, not PSU efficiency. A student accepting the statement uncritically fails to distinguish stated policy intent from actual fiscal compulsions — a key evaluation skill for c11_eco_cbse_03_007.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2×2 matrix classifying the following NEP measures by (row) LPG pillar and (column) stabilisation vs structural reform: (i) Rupee devaluation 1991, (ii) Abolition of industrial licensing, (iii) Disinvestment of PSU equity, (iv) Reduction of import tariffs. Justify each placement.",
+     "a": "| | Stabilisation | Structural Reform |\n|---|---|---|\n| **Liberalisation** | (i) Rupee devaluation — immediate BoP correction | (ii) Industrial licensing abolition — long-term supply-side efficiency |\n| **Privatisation** | — | (iii) Disinvestment — long-term ownership restructuring |\n| **Globalisation** | — | (iv) Import tariff reduction — long-term trade integration |\nJustification: Devaluation was a one-time price adjustment (stabilisation); licensing abolition, disinvestment, and tariff cuts changed institutional rules permanently (structural). A poor matrix (e.g., putting tariff cuts in stabilisation) shows inability to distinguish price-level measures from rule-changing measures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_01_010",
+   "title": "c11_hin_ar_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define \"context clue\" and name the six standard types taught at senior secondary level.",
+     "a": "A context clue is a hint within the same sentence or surrounding sentences that helps a reader deduce the meaning of an unfamiliar word. The six standard types are: (1) Definition/Explanation, (2) Restatement/Synonym, (3) Contrast/Antonym, (4) Example/Illustration, (5) Inference/General Context, and (6) Word Structure/Morphology (roots, prefixes, suffixes). A wrong answer that lists only \"synonym and antonym\" reveals the student reduces context clues to binary opposition and misses inference—the most critical type for literary texts where meaning is layered.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence *\"eaq'kh oa'kh/j pkSaosQ. iafMr vyksihnhu bl bykosQ osQ lcls izfrf\"Br ”kehankj Fks\"* (Akhbar Ojha said. Iftar Bahadur was the most loyal servant of this garden), explain how the word *izfrf\"Br* (loyal/devoted) is clarified by the *rest of the paragraph* without using a dictionary.",
+     "a": "The paragraph shows Iftar Bahadur managing the garden single-handedly (\"#i;s dk ysu&nsu djrs Fks\"), enduring harsh conditions (\"cM+k yack&pkSM+k Fkk\"), and earning the narrator's trust (\"vaxjs”k vI+kQlj muosQ bykosQ esa f'kdkj [ksyus vkrs\"). These behavioral examples function as *illustration clues* that define *izfrf\"Br* as \"steadfast in duty despite hardship.\" A student who only cites the dictionary meaning \"faithful\" misses the textual evidence that the author *shows* loyalty through actions, a key analytical distinction for board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the *contrast clue* strategy to determine the meaning of *vykSfdd* in the phrase *\"vykSfdd ohjrk\"* (from the sentence: *¯drq /eZ vykSfdd ohjrk osQ lkFk bl cgqla[;d lsuk osQ lEeq[k vosQyk ioZr dh Hkk¡fr vVy*). Write the antonym context phrase and the inferred meaning.",
+     "a": "The contrast phrase is *\"vfopfyr [kM+k\"* (paid/fixed salary) which appears in coordination with *vykSfdd ohjrk* via *lkFk* (with). *vfopfyr* means \"remunerated/paid,\" so *vykSfdd* must mean \"unpaid/voluntary/honorary.\" Inferred meaning: *vykSfdd* = honorary / without salary / voluntary. A wrong answer guessing \"difficult\" or \"hard\" shows the student ignored the coordinate structure *X lkFk Y* and failed to see the salary vs. no-salary opposition central to the clerk's exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the *morphological structure* of *cjoaQnkth* (cjoaQ + nkth) and its *syntactic position* in *\"iVokjhfxjh dk loZlEekfur in NksM+&NksM+dj yksx bl foHkkx dh cjoaQnkth djrs Fks\"* help deduce its precise meaning in the colonial office context.",
+     "a": "Morphologically: *cjoaQ* (tour/inspection) + *nkth* (agent suffix, like *karkarta*) → \"one who tours/inspects.\" Syntactically: it is the object of *djrs Fks* (used to do) and modified by *foHkkx dh* (of the department). Context: people \"NksM+&NksM+dj\" (peering/straining necks) to watch the *in* (procession/arrival). Inferred meaning: *cjoaQnkth* = \"inspecting officer / touring official / departmental inspector.\" A student answering \"traveler\" misses the official, authoritative nuance required by *foHkkx dh* and the subordinates' anxious posture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In *Ued ka Nakjksxk*, the word *vdkjFk* (in *i<+uk&fy[kuk lc vdkjFk x;k*) means merely 'compulsion.' Defend or refute using thematic evidence from the story's climax.\"",
+     "a": "Refute. *vdkjFk* here means \"inescapable necessity born of existential crisis,\" not mere external compulsion. Thematic evidence: The narrator says this *after* Iftar Bahadur's suicide, when the father (Ojha) finally sends the son to school—*blh le> ij* (on this very understanding). The \"necessity\" is the realization that literacy is the only weapon against the dehumanizing bureaucracy that killed Iftar. *vdkjFk* carries the weight of *moral imperative* + *survival strategy*. A student calling it \"force\" ignores the agency shift: the father *chooses* education as resistance, making *vdkjFk* an internalized resolve, not external pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original sentence using *rtoh\"k* (will/testament) that mirrors the legal-finality tone of *\"fMIVh eftLVªsV us viuh rtoh”k esa fy[kk\"* (Mrs. Edwards wrote in her will) and embed a context clue of the *definition type* that would help a peer infer its meaning.",
+     "a": "Sample answer: *\"The zamindar dictated his rtoh”k—a legal document declaring the distribution of his estate after death—to the munim in the presence of two witnesses.\"* The embedded definition clue is the appositive phrase *\"a legal document declaring the distribution of his estate after death.\"* A weak answer would use *rtoh\"k* loosely as \"wish\" (e.g., \"It was his rtoh”k to eat mangoes\"), missing the juridical gravity Premchand attaches to it when Mrs. Edwards' will *legally* secures Iftar's pension—a pivotal plot turn.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

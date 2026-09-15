@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_02_010",
+   "title": "c12_eng_k_cbse_02_010",
+   "questions": [
+    {
+     "q": "What are the five main types of context clues readers use to infer word meaning, and give one example of each type from any text you have read.",
+     "a": "The five main types are: (1) Definition/Explanation — the text defines the word directly (e.g., \"cretonne, a heavy cotton fabric...\"); (2) Synonym/Restatement — a simpler word or phrase restates the meaning (e.g., \"elated, or overjoyed...\"); (3) Antonym/Contrast — a word with opposite meaning clarifies by contrast (e.g., \"not like their little brown houses but bright brick houses\"); (4) Example/Illustration — specific instances show the meaning (e.g., \"provisions: bread, milk, and eggs\"); (5) Inference/General Context — meaning derived from overall situation and tone. A wrong answer that only lists \"dictionary\" or \"guessing\" reveals the student lacks a systematic strategy and will struggle with unseen passages in board exams and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening paragraph of \"Eveline,\" the phrase \"odour of dusty cretonne\" appears. Without using a dictionary, explain how the context reveals the meaning of \"cretonne\" and what this detail suggests about Eveline's life.",
+     "a": "\"Cretonne\" is a heavy cotton fabric used for curtains/upholstery — inferred from \"window curtains\" (synonym/apposition clue) and \"dusty\" (suggests fabric collecting dust). The odour implies the room is closed, stagnant, uncleaned. This detail symbolizes Eveline's stagnant, neglected existence — she dusts weekly but \"wondered where on earth all the dust came from,\" showing futility. A student who only says \"it's a fabric\" misses the symbolic layer; board exams require linking word meaning to theme (entrapment, decay).",
+     "self_check": true
+    },
+    {
+     "q": "The story says: \"He used to call her Poppens out of fun. First of all it had been an excitement for her to have a fellow and then she had begun to like him.\" Using context clues, determine the meaning of \"fellow\" and \"Poppens\" and explain how the shift from \"excitement\" to \"like him\" changes the connotation of these words.",
+     "a": "\"Fellow\" = boyfriend/suitor (context: \"courting,\" \"going away with him,\" \"lover\" later). \"Poppens\" = affectionate nickname (context: \"out of fun,\" \"call her\"). Initially \"fellow\" carries excitement/novelty; later \"like him\" shows deeper but quieter affection — the words shift from romantic thrill to settled attachment. A student who defines \"fellow\" only as \"man\" misses the romantic connotation; one who misses the shift fails to trace Eveline's emotional arc — a common board exam question on character development.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the word \"invariable\" in this sentence: \"Besides, the invariable squabble for money on Saturday nights had begun to weary her unspeakably.\" Identify the context clue type, determine the meaning, and explain how this single word characterizes Eveline's home life.",
+     "a": "Clue type: Inference/General Context (supported by \"every Saturday night\" implied by routine). Meaning: unchanging, constant, inevitable. \"Invariable\" transforms a mere argument into a ritualized oppression — it's not a fight, it's a certainty. This one word condenses years of trauma into a pattern, showing Eveline's life as mechanical suffering. A student who defines it only as \"frequent\" misses the nuance of *inevitability* that makes escape feel impossible — a key distinction for 3-4 mark board questions on diction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer: \"The word 'quay' in 'lying in beside the quay wall' means 'shore' because the boat is near land.\" Is this accurate? What is missing for a full-mark response in a CBSE board exam?",
+     "a": "Partially accurate but incomplete. \"Quay\" = a stone/metal platform along a shore for loading ships (more precise than \"shore\"). The student used inference (boat + land) but missed the structural specificity. For full marks, the answer must: (1) identify clue type (inference + collocation \"quay wall\"), (2) give precise definition, (3) link to theme — the quay is the threshold between entrapment (Dublin) and escape (Buenos Aires); Eveline grips the railing *on* the quay, paralyzed. Missing the thematic link caps the answer at 1/3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence paragraph using *three* words from \"Eveline\" (choose from: elated, provisions, fervent, frenzy, passive) that demonstrates their contextual meanings through strong context clues (not definitions). The paragraph must describe a new situation — not the story.",
+     "a": "Example: \"As the train doors closed, Meera felt **elated** — her heart raced with the same wild joy she'd felt on her first solo trip — but the **fervent** prayers she whispered under her breath revealed her fear. She clutched her backpack of **provisions** (roti, pickle, a water bottle) like a lifeline, knowing the 30-hour journey would test her resolve.\" A poor answer uses words in isolation (\"I was elated. I had provisions. I was fervent.\") showing no grasp of contextual embedding — a skill tested in CUET/Board writing tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

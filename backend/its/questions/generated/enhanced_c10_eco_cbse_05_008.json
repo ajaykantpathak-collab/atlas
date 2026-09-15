@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_008",
+   "title": "c10_eco_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the pecuniary jurisdiction limit for filing a consumer complaint at the District Consumer Disputes Redressal Commission under COPRA 2019?",
+     "a": "The District Commission has jurisdiction to entertain complaints where the value of goods or services paid as consideration does not exceed ₹1 crore. A wrong answer (e.g., ₹20 lakh or ₹50 lakh) reveals the student is confusing the old COPRA 1986 limits (₹20 lakh for District) with the revised 2019 limits, a common error because many textbooks and online resources still cite outdated thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sending a legal notice to the opposite party before filing a complaint considered a mandatory procedural step, even though COPRA 2019 does not explicitly make it a statutory precondition for admission?",
+     "a": "The legal notice serves as evidence that the consumer attempted to resolve the dispute amicably, fulfills the principle of natural justice (audi alteram partem), and creates a paper trail showing the opposite party was informed of the grievance. A wrong answer like \"it is required by Section 35 of COPRA\" reveals the student confuses procedural best practice with statutory mandate; the Act requires the complaint to be filed within 2 years but does not invalidate a complaint for lack of prior notice, though forums may view its absence unfavourably.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer purchased a laptop for ₹85,000 with a 2-year warranty. After 18 months, the motherboard fails. The authorised service centre quotes ₹30,000 for repair, claiming \"liquid damage\" which the consumer denies. The consumer wants to file a complaint. Calculate the total claim amount if the consumer seeks: (a) cost of laptop, (b) repair cost, (c) ₹10,000 compensation for mental agony, and (d) ₹5,000 litigation costs. Which forum has jurisdiction?",
+     "a": "Total claim = ₹85,000 (refund/replacement value) + ₹30,000 (repair cost alternative) + ₹10,000 (compensation) + ₹5,000 (costs) = ₹1,30,000. However, the claim value for jurisdiction is based on the value of goods/services + compensation claimed. Since the laptop value is ₹85,000 and compensation is ₹10,000, total = ₹95,000 (well below ₹1 crore). The District Commission has jurisdiction. A wrong answer summing all items to ₹1,30,000 and choosing State Commission reveals the student misunderstands that jurisdiction is determined by the value of consideration paid for goods/services plus compensation, not by adding repair estimates and litigation costs to the product price.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the documentation required for a complaint about a defective product (e.g., a refrigerator) versus a deficiency in service (e.g., delayed possession of a flat by a builder). Identify two documents common to both and two documents unique to each type.",
+     "a": "Common: (1) Proof of transaction (invoice/agreement), (2) Legal notice copy with postal receipt. Unique to product: (1) Warranty/guarantee card, (2) Photographs/video of defect. Unique to service: (1) Service agreement/builder-buyer agreement with possession timeline, (2) Correspondence showing delay (emails, letters). A wrong answer listing only the invoice for both reveals the student treats all complaints identically, ignoring that service complaints rely heavily on contractual timelines and communication records, while product complaints require tangible evidence of the physical defect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A consumer can file a complaint directly in the State Commission if the claim value is ₹50 lakh, because the District Commission is only for claims up to ₹20 lakh.\" Justify your answer with reference to COPRA 2019.",
+     "a": "The statement is false. Under COPRA 2019, the District Commission's pecuniary jurisdiction is up to ₹1 crore (not ₹20 lakh). A claim of ₹50 lakh falls squarely within the District Commission's jurisdiction. Filing directly in the State Commission would be procedurally incorrect and the State Commission would likely return the complaint for presentation to the proper forum. This error stems from using pre-2019 jurisdiction limits (where District was ₹20 lakh, State ₹20 lakh–₹1 crore). The 2019 Act revised limits to: District ≤₹1 crore, State >₹1 crore–≤₹10 crore, National >₹10 crore.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a complaint format for a consumer who bought a washing machine (₹35,000) that vibrates excessively and damages flooring. The seller refused repair after a legal notice. Include all mandatory particulars as per the Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020.",
+     "a": "A complete format must contain: (1) Name, description, address of complainant; (2) Name, description, address of opposite party/parties; (3) Facts relating to complaint with date of purchase, defect noticed, legal notice details; (4) Documents in support (invoice, warranty, photos, notice receipt); (5) Relief sought (replacement/refund + compensation + costs); (6) Declaration of truthfulness; (7) Verification affidavit; (8) Index of documents; (9) Court fee (₹200 for up to ₹5 lakh). Missing any of these — especially the verification affidavit or index — leads to the complaint being returned for rectification, causing delay. A poor answer omitting the affidavit or fee reveals the student doesn't know the Rules mandate these procedural formalities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

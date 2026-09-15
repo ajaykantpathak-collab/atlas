@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_12_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_12_014",
+   "title": "c12_eng_k_cbse_12_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Evidence, Line\") reveals the student has memorised a mnemonic without understanding its function — they cannot map each letter to a structural move in an analytical paragraph.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The poem shows clocks are different because of religion.\" Why is this an incomplete point for a board exam answer?",
+     "a": "The statement is a plot summary, not an analytical point — it lacks the poet's perspective (e.g., \"Ramanujan uses the clocks' differences to symbolise...\"). A wrong answer here shows the student confuses *what happens* with *how the poet crafts meaning*, leading to descriptive rather than analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite this weak evidence use into a proper embedded quote: \"The poet says perennial feuds and seasonal alliance.\" (Assume the answer is about communal harmony.)",
+     "a": "Correct embedding: Ramanujan highlights the fragility of communal relations through the phrase \"perennial feuds and seasonal alliance,\" where \"perennial\" suggests deep-rooted, enduring conflict while \"seasonal\" implies alliances are temporary and conditional. A wrong answer (e.g., just quoting the phrase without integration) shows the student treats quotes as decoration, not as evidence that drives analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two explanations for the same evidence (\"knocked-out clockwork\"):  \nA) \"It means the clock is broken.\"  \nB) \"The 'knocked-out clockwork' transforms the clock from a timekeeper into a silent witness — its destroyed mechanism mirrors a society where communal time has been shattered by violence.\"  \nWhich is stronger for a board answer and why?",
+     "a": "B is stronger because it interprets the image (transformation, mirroring) and connects it to the poem's theme (communal time shattered). A is literal paraphrase. A student choosing A reveals they operate at comprehension level, not analysis — they describe the image but don't explain its poetic function.",
+     "self_check": true
+    },
+    {
+     "q": "A student ends their paragraph on the poem's tone with: \"So the poet is sad about violence.\" Evaluate this link sentence against the marking scheme expectation for \"critical appreciation.\"",
+     "a": "The link is too reductive — \"sad\" flattens the poem's complex \"wistful lament\" (NCERT Q5 option iii) and ignores the juxtaposition of human violence (\"riot,\" \"time bomb\") with nature's \"precise\" fury. A weak link like this caps the answer at 2/4 marks because it fails to synthesise the poem's layered attitude. The student hasn't learned to distinguish tone from simplistic emotion labels.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence PEEL paragraph answering: \"Why does Ramanujan describe the act of nature as 'precise'?\" (Use the lightning strike in the final lines.)",
+     "a": "**Point:** Ramanujan calls the lightning strike \"precise\" to contrast nature's exact, impartial destruction with human violence's chaotic cruelty.  \n**Evidence:** The final lines present \"a precise act / Of nature in a night of lightnings\" alongside \"a riot, a peace-march time bomb\" as equal destroyers of the clock.  \n**Explanation:** \"Precise\" suggests lightning follows physical laws without malice, unlike the \"time bomb\" planted with intent — yet both achieve the same \"knocked-out clockwork.\"  \n**Link:** This precision underscores the poem's lament: whether by human feud or natural law, the fragile synchronization of communal time is equally vulnerable.  \nA poor answer would miss the contrast or treat \"precise\" as merely descriptive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

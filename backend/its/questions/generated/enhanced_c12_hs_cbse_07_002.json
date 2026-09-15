@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_002",
+   "title": "c12_hs_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the two directionality principles of human development and give one observable example of each in infancy.",
+     "a": "The two directionality principles are: (1) Cephalocaudal — development proceeds from head to tail; example: an infant gains head control (3–4 months) before trunk control (sitting, 6–7 months) before leg control (standing, 9–12 months). (2) Proximodistal — development proceeds from the centre of the body outward; example: an infant brings whole arm to mouth (3–4 months) before developing pincer grasp with thumb and forefinger (9–10 months). A wrong answer that reverses the order (e.g., \"babies walk before they sit\") reveals confusion about the fixed sequence. A wrong answer that gives only one principle or confuses the two (e.g., \"proximodistal means head to toe\") shows the student has memorised terms without understanding the spatial logic.",
+     "self_check": true
+    },
+    {
+     "q": "A mother says, \"My neighbour's baby walked at 10 months, but my baby is 13 months and only cruising. Should I see a doctor?\" Using the principle of individuality, explain why this comparison is flawed and what you would actually check.",
+     "a": "The principle of individuality states that each child has a unique developmental timetable; the normal range for independent walking is 9–18 months, so both babies are within normal limits. Comparing two children ignores genetic, temperamental, nutritional, and environmental differences that affect pace. Instead of comparing, check: (a) Is the child showing *progression* (pulling up → cruising → standing alone → steps)? (b) Are earlier cephalocaudal/proximodistal milestones achieved (head control, sitting, crawling)? (c) Is there regression or asymmetry? A wrong answer that says \"yes, refer immediately\" or \"no, don't worry\" without checking the sequence reveals the student treats milestones as rigid deadlines rather than flexible windows. A wrong answer that only cites the age range without explaining *why* comparison is invalid shows rote knowledge without conceptual grasp.",
+     "self_check": true
+    },
+    {
+     "q": "A 5-month-old infant in your observation holds a rattle placed in her hand but cannot reach for it when it is kept 10 cm away. Using proximodistal and cephalocaudal principles, analyse whether this is expected or a concern.",
+     "a": "This is expected. Proximodistal principle: at 5 months, shoulder and elbow control (proximal) are developing, but wrist and finger control (distal) for reaching and grasping voluntarily are not yet mature — the infant can hold (reflexive/palmar grasp) but not reach intentionally. Cephalocaudal principle: trunk control for sitting (needed to free hands for reaching) is still emerging at 5 months. Concern would arise only if by 7–8 months the infant neither reaches nor holds. A wrong answer flagging this as \"delayed fine motor\" shows the student applies adult-like expectations to infant development. A wrong answer saying \"it's fine, all babies differ\" without referencing the *sequence* shows the student uses individuality as a blanket excuse rather than a principle to interpret directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how the principle of directionality and the principle of individuality would guide a teacher planning a motor-skills activity for a mixed-age group of 3–5 year olds.",
+     "a": "Directionality guides the *design* of the activity sequence: tasks must follow cephalocaudal (balance/trunk before fine handwork) and proximodistal (large-arm movements before finger manipulation) order — e.g., start with obstacle course (whole body), then throwing/catching (arm), then bead threading (fingers). Individuality guides the *implementation*: the teacher offers multiple entry points (e.g., large beads, medium beads, small beads), allows each child to choose their challenge level, and avoids ranking or timing children against each other. A wrong answer that only differentiates by age (\"3-year-olds do X, 4-year-olds do Y\") applies directionality rigidly and ignores individuality. A wrong answer that lets children do anything randomly (\"free play\") respects individuality but violates directionality by not scaffolding the developmental sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since every child develops at their own pace (individuality), we should not use milestone charts at all — they only create anxiety.\"",
+     "a": "The statement is flawed because it treats individuality and directionality as opposites. Milestone charts are based on *directionality* (the universal sequence) and *population norms* (the typical age range), not rigid deadlines. They serve as screening tools: if a child falls outside the wide normal window (e.g., no head control at 6 months), it flags a need for assessment, not a diagnosis. Discarding charts removes early detection of genuine delays (cerebral palsy, autism, malnutrition). The correct use: charts + individuality = \"Is this child progressing *in sequence* within a *reasonable window* for *this child*?\" A wrong answer agreeing with the statement shows the student misunderstands individuality as \"anything goes\" rather than \"variation around a universal sequence.\" A wrong answer defending charts as strict pass/fail tests shows the student misunderstands directionality as a rigid timetable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-station play activity for a parent-workshop that demonstrates both cephalocaudal and proximodistal principles simultaneously, using only household items. Describe each station and what the parent observes.",
+     "a": "Station 1 (Cephalocaudal focus): \"Head-to-Toe Tower\" — stack plastic cups. Parent observes: baby must first hold head steady (neck control), then reach with trunk stable (sitting), then use arms — demonstrating head→trunk→limb sequence. Station 2 (Proximodistal focus): \"Centre-Out Scarf Pull\" — tie a scarf to a sturdy chair leg; baby pulls. Parent observes: baby uses whole arm (shoulder/elbow) first, later wrist/fingers — demonstrating trunk→shoulder→elbow→wrist→fingers. Station 3 (Combined): \"Tummy-Time Treasure\" — place toys in semicircle around baby on tummy. Parent observes: baby lifts head (cephalocaudal), pushes on forearms (proximal), then reaches with hands (distal) — both principles visible in one natural activity. A poor answer lists unrelated activities or focuses only on \"fun\" without linking each observation to a specific principle, showing the student cannot translate theory into observable practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

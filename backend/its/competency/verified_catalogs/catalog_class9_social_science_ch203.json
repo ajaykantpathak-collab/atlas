@@ -1,0 +1,915 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "Poverty as a Challenge",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec105.txt",
+ "concepts": [
+  {
+   "id": "iess.203.1",
+   "title": "Dimensions and Social Indicators of Poverty",
+   "section": "Poverty as seen by social scientists",
+   "definition": "Analyzing deprivation using metrics beyond income, such as literacy levels, healthcare access, sanitation, malnutrition, social exclusion, and vulnerability to economic shocks.",
+   "formula": "none",
+   "key_idea": "Poverty is multi-dimensional and involves social indicators like exclusion and vulnerability alongside income metrics.",
+   "textbook_ref": "iess203.txt lines 30-70",
+   "question_patterns": [
+    "What are the key social indicators used by social scientists to evaluate poverty?",
+    "Explain how social exclusion acts as both a cause and a consequence of poverty.",
+    "Describe the concept of vulnerability in relation to poverty analysis.",
+    "How do non-income factors help in identifying poor households?",
+    "Discuss the multi-dimensional aspects of poverty observed in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social indicators",
+     "explain": "Examine illiteracy, lack of healthcare, malnutrition, and absence of clean drinking water."
+    },
+    {
+     "step": 2,
+     "action": "analyze social exclusion",
+     "explain": "Assess how poor individuals are excluded from facilities and equal opportunities enjoyed by better-off sections."
+    },
+    {
+     "step": 3,
+     "action": "evaluate vulnerability",
+     "explain": "Determine the higher risk faced by specific groups during natural disasters or economic downturns."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.2",
+   "title": "Poverty Line Determination via Calorie Norms",
+   "section": "Poverty Line",
+   "definition": "A benchmark based on daily minimum nutritional requirements, set at 2400 calories per person daily in rural areas and 2100 calories in urban areas.",
+   "formula": "daily_rural_calories = 2400, daily_urban_calories = 2100",
+   "key_idea": "Rural calorie norms are higher due to greater physical labor requirements compared to urban regions.",
+   "textbook_ref": "iess203.txt lines 71-110",
+   "question_patterns": [
+    "What is the accepted average calorie requirement per person per day in rural India?",
+    "Why are daily calorie requirements higher in rural areas than in urban areas?",
+    "Explain how minimum food intake is converted into the official poverty line.",
+    "How does the National Sample Survey Organisation calculate calorie-based poverty benchmarks?",
+    "Calculate or state the difference in calorie intake norms between rural and urban sectors."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state rural calorie norm",
+     "explain": "Identify rural requirement as 2400 calories per individual daily."
+    },
+    {
+     "step": 2,
+     "action": "state urban calorie norm",
+     "explain": "Identify urban requirement as 2100 calories per individual daily."
+    },
+    {
+     "step": 3,
+     "action": "justify differential",
+     "explain": "Rural populations undertake more physical work, demanding higher energy intake."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.3",
+   "title": "Monthly Household Poverty Line Threshold",
+   "section": "Poverty Line",
+   "definition": "The minimum monthly family earnings required to stay above the poverty line, calculated by multiplying per capita monthly poverty expenditure by family size.",
+   "formula": "household_poverty_line = per_capita_poverty_line * family_members",
+   "key_idea": "Total family monetary threshold equals per capita poverty line rate multiplied by family size.",
+   "textbook_ref": "iess203.txt lines 100-130",
+   "question_patterns": [
+    "Calculate the monthly poverty threshold for a rural family of given size.",
+    "What is the total monthly income needed for an urban family to remain above the poverty line?",
+    "Compute the household poverty line requirement for a family with a given per capita expenditure.",
+    "Find the minimum monthly earnings needed by a family of several members in rural or urban India.",
+    "Determine whether a family falls below the poverty line given their monthly income and family size."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply per capita rate by family size",
+     "explain": "The total monthly monetary requirement for the family is per capita monthly rate times number of family members.",
+     "compute": "household_poverty_line = per_capita_poverty_line * family_members"
+    }
+   ]
+  },
+  {
+   "id": "iess.203.4",
+   "title": "MGNREGA Household Wage Earnings Calculation",
+   "section": "Anti-Poverty Measures",
+   "definition": "The total earnings generated by a rural household under the National Rural Employment Guarantee Act based on guaranteed workdays and daily wage rates.",
+   "formula": "total_wage_earnings = daily_wage_rate * days_worked",
+   "key_idea": "Total wage earned equals daily wage rate multiplied by the number of days employed.",
+   "textbook_ref": "iess203.txt lines 260-295",
+   "question_patterns": [
+    "Calculate total earnings of a household working under MGNREGA for a specified number of days.",
+    "Find the total wages earned by a worker paid a given daily wage over a set period.",
+    "How much money does a household earn if employed for the full 100 days under MGNREGA?",
+    "Compute the annual wage payout for a rural worker given daily wage rate and days worked.",
+    "Determine the total income generated from MGNREGA employment."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total wages",
+     "explain": "Multiply the daily wage rate by the number of days worked.",
+     "compute": "total_wage_earnings = daily_wage_rate * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "iess.203.5",
+   "title": "Poverty Trends and Estimates in India",
+   "section": "Poverty Estimates",
+   "definition": "The tracking of headcount ratio and total number of impoverished citizens over time using periodic survey data from NSSO.",
+   "formula": "none",
+   "key_idea": "While the percentage of poor people declined significantly over recent decades, overall population growth kept absolute numbers high for long periods.",
+   "textbook_ref": "iess203.txt lines 131-160",
+   "question_patterns": [
+    "Describe the trends in India poverty ratio from 1993-94 to 2011-12.",
+    "What was the average annual decline in poverty percentage points between 2004-05 and 2011-12?",
+    "Explain why the total number of poor remained high even as poverty percentage dropped.",
+    "Analyze table data showing estimates of poverty in India across various survey years.",
+    "Discuss how poverty headcount ratios are tracked over time by NSSO."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine poverty percentage trend",
+     "explain": "Observe decline in poverty ratio from 45 percent in 1993-94 to 22 percent in 2011-12."
+    },
+    {
+     "step": 2,
+     "action": "examine total poor count",
+     "explain": "Note decline from 407 million in 2004-05 to 270 million in 2011-12."
+    },
+    {
+     "step": 3,
+     "action": "conclude trend pattern",
+     "explain": "Highlight sustained reduction in both ratio and absolute count in recent years."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.6",
+   "title": "Vulnerable Social and Economic Groups",
+   "section": "Vulnerable Groups",
+   "definition": "Social communities like Scheduled Castes and Scheduled Tribes, along with economic categories like rural farm laborers and urban casual workers, that suffer disproportionately high poverty rates.",
+   "formula": "none",
+   "key_idea": "Poverty is unevenly distributed, with socially disadvantaged castes and landless casual laborers facing double jeopardy.",
+   "textbook_ref": "iess203.txt lines 161-200",
+   "question_patterns": [
+    "Identify the social groups most vulnerable to poverty in India.",
+    "Which economic categories experience the highest poverty levels?",
+    "Explain the concept of double disadvantage faced by landless casual workers of backward castes.",
+    "Discuss gender and age inequality in resource distribution within poor families.",
+    "Who are considered the poorest of the poor within an impoverished household?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify vulnerable social groups",
+     "explain": "Highlight Scheduled Caste and Scheduled Tribe households."
+    },
+    {
+     "step": 2,
+     "action": "identify vulnerable economic groups",
+     "explain": "Highlight rural agricultural laborers and urban casual wage workers."
+    },
+    {
+     "step": 3,
+     "action": "examine intra-household disparity",
+     "explain": "Observe that women, elderly people, and female infants suffer greater deprivation within poor families."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.7",
+   "title": "Inter-State Disparities in Poverty",
+   "section": "Inter-State Disparities",
+   "definition": "Uneven poverty distribution across Indian states, where states like Bihar and Odisha report high poverty ratios, while states like Kerala and Punjab show marked reduction.",
+   "formula": "none",
+   "key_idea": "State-level success in poverty alleviation depends on specific strategies like agricultural growth, human resource focus, land reforms, or public distribution systems.",
+   "textbook_ref": "iess203.txt lines 201-235",
+   "question_patterns": [
+    "Describe the inter-state disparities in poverty across India.",
+    "Which Indian states continue to report poverty ratios significantly above national average?",
+    "How did Punjab and Haryana succeed in reducing poverty?",
+    "What strategy enabled Kerala to achieve significant poverty reduction?",
+    "Explain the role of land reforms and public distribution systems in state-level poverty reduction."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify high poverty states",
+     "explain": "Bihar and Odisha record the highest headcount ratios above national average."
+    },
+    {
+     "step": 2,
+     "action": "analyze successful state models",
+     "explain": "Punjab relied on agricultural growth, Kerala on human resources, West Bengal on land reforms, and Tamil Nadu on food distribution."
+    },
+    {
+     "step": 3,
+     "action": "compare rural and urban state trends",
+     "explain": "Observe high urban poverty in states like Odisha, Madhya Pradesh, Bihar, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.8",
+   "title": "Global Poverty Scenario and Benchmarks",
+   "section": "Global Poverty Scenario",
+   "definition": "The assessment of international poverty trends using the World Bank standard of living on less than 1.90 dollars per day per person.",
+   "formula": "none",
+   "key_idea": "Global poverty has declined overall, led by rapid reductions in China and East Asia, though Sub-Saharan Africa remains heavily impacted.",
+   "textbook_ref": "iess203.txt lines 236-265",
+   "question_patterns": [
+    "What benchmark standard does the World Bank use for international poverty comparison?",
+    "Describe global trends in poverty reduction since 1990.",
+    "How did rapid economic growth affect poverty levels in China and East Asia?",
+    "Which global region is projected to hold the largest concentration of extreme poor by 2030?",
+    "What is the United Nations Sustainable Development Goal regarding global poverty?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define international poverty line",
+     "explain": "World Bank standard is set at 1.90 US dollars per person per day (2011 PPP)."
+    },
+    {
+     "step": 2,
+     "action": "examine regional declines",
+     "explain": "China and Southeast Asian nations achieved massive reductions through economic expansion."
+    },
+    {
+     "step": 3,
+     "action": "identify high concentration regions",
+     "explain": "Sub-Saharan Africa continues to retain high proportions of extreme poverty."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.9",
+   "title": "Causes of Poverty in India",
+   "section": "Causes of Poverty",
+   "definition": "Historical, demographic, structural, and socio-economic factors including colonial ruin of traditional crafts, population pressure, unequal asset distribution, and indebtedness.",
+   "formula": "none",
+   "key_idea": "Poverty in India stems from a historical legacy of colonial exploitation combined with rapid population growth, inadequate job creation, unequal land ownership, and debt cycles.",
+   "textbook_ref": "iess203.txt lines 266-310",
+   "question_patterns": [
+    "What historical factors under British colonial rule contributed to widespread poverty in India?",
+    "How do population growth and low economic expansion create a cycle of poverty?",
+    "Explain the link between unequal land distribution and rural poverty.",
+    "Why does high indebtedness act as both a cause and an effect of poverty?",
+    "Discuss socio-cultural factors that force poor families into financial distress."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine historical causes",
+     "explain": "Colonial policies crippled traditional handicrafts and stifled industrial base."
+    },
+    {
+     "step": 2,
+     "action": "analyze demographic and employment factors",
+     "explain": "High population growth paired with limited job growth kept per capita income low."
+    },
+    {
+     "step": 3,
+     "action": "evaluate asset inequality and debt",
+     "explain": "Unequal land distribution and heavy borrowing for farming inputs and social functions perpetuate debt traps."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.10",
+   "title": "Targeted Anti-Poverty Government Programmes",
+   "section": "Anti-Poverty Measures",
+   "definition": "Specific government initiatives designed to directly reduce poverty through wage employment, credit support, self-employment, and basic infrastructure provisioning.",
+   "formula": "none",
+   "key_idea": "India anti-poverty strategy balances overall economic growth promotion with direct targeted employment and self-employment schemes like MGNREGA, PMRY, SGSY, and PMGY.",
+   "textbook_ref": "iess203.txt lines 311-370",
+   "question_patterns": [
+    "What are the two main planks of the Indian government anti-poverty strategy?",
+    "Describe the main features and objectives of MGNREGA 2005.",
+    "How do PMRY and REGP promote self-employment in rural areas and small towns?",
+    "What is the primary objective of Swarnajayanti Gram Swarozgar Yojana (SGSY)?",
+    "Why have anti-poverty programmes yielded mixed results despite good intentions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state two strategic planks",
+     "explain": "Promotion of economic growth and targeted anti-poverty programmes."
+    },
+    {
+     "step": 2,
+     "action": "list key schemes",
+     "explain": "MGNREGA for 100-day wage guarantee, PMRY/REGP for youth self-employment, SGSY for self-help groups, PMGY for village services."
+    },
+    {
+     "step": 3,
+     "action": "identify implementation challenges",
+     "explain": "Overlapping of schemes and lack of proper targeting reduce overall effectiveness."
+    }
+   ]
+  },
+  {
+   "id": "iess.203.11",
+   "title": "Concept of Human Poverty",
+   "section": "The Challenges Ahead",
+   "definition": "Broadening the definition of poverty beyond basic income or food subsistence to include education, healthcare, housing, job security, dignity, and freedom from caste or gender discrimination.",
+   "formula": "none",
+   "key_idea": "True poverty eradication requires addressing broader human rights, social equality, self-confidence, and dignity beyond mere monetary survival.",
+   "textbook_ref": "iess203.txt lines 371-410",
+   "question_patterns": [
+    "What do you understand by the broader concept of human poverty?",
+    "How does human poverty differ from minimum subsistence poverty?",
+    "Why is poverty eradication considered a moving target as societies develop?",
+    "What major socio-economic challenges remain beyond meeting basic income needs?",
+    "Explain why providing healthcare and gender equality are essential parts of human poverty eradication."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish subsistence from reasonable living",
+     "explain": "Subsistence covers minimum food and income, whereas human poverty covers quality of life."
+    },
+    {
+     "step": 2,
+     "action": "identify essential human dimensions",
+     "explain": "Include literacy, healthcare access, housing security, gender equality, and dignity."
+    },
+    {
+     "step": 3,
+     "action": "explain moving target concept",
+     "explain": "As economic development advances, society baseline expectations for acceptable living expand."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess203.txt lines 100-130",
+   "concept": "iess.203.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the monthly poverty threshold for a rural family of {family_members} members if the per capita poverty line is Rs {per_capita_poverty_line} per month.",
+   "extracted_variables": {
+    "per_capita_poverty_line": 816,
+    "family_members": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply per capita rate by family size",
+     "explain": "The total monthly monetary requirement for the family is per capita monthly rate times number of family members.",
+     "compute": "household_poverty_line = per_capita_poverty_line * family_members"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess203.txt lines 100-130",
+   "concept": "iess.203.3",
+   "question_type": "compute",
+   "question_pattern": "What is the minimum monthly income required for an urban family of {family_members} members to stay above the poverty line if the per capita threshold is Rs {per_capita_poverty_line} per month?",
+   "extracted_variables": {
+    "per_capita_poverty_line": 1000,
+    "family_members": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply per capita rate by family size",
+     "explain": "The total monthly monetary requirement for the family is per capita monthly rate times number of family members.",
+     "compute": "household_poverty_line = per_capita_poverty_line * family_members"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess203.txt lines 260-295",
+   "concept": "iess.203.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total wage earnings of a rural worker who works for {days_worked} days under MGNREGA at a daily wage rate of Rs {daily_wage_rate}.",
+   "extracted_variables": {
+    "daily_wage_rate": 281,
+    "days_worked": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total wages",
+     "explain": "Multiply the daily wage rate by the number of days worked.",
+     "compute": "total_wage_earnings = daily_wage_rate * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess203.txt lines 260-295",
+   "concept": "iess.203.4",
+   "question_type": "compute",
+   "question_pattern": "A laborer works for {days_worked} days under an employment guarantee scheme with a daily wage of Rs {daily_wage_rate}. Find the total wage earnings.",
+   "extracted_variables": {
+    "daily_wage_rate": 168,
+    "days_worked": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total wages",
+     "explain": "Multiply the daily wage rate by the number of days worked.",
+     "compute": "total_wage_earnings = daily_wage_rate * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.1",
+   "question_type": "verify_property",
+   "question_pattern": "What are the key social indicators used by social scientists to evaluate poverty?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social indicators",
+     "explain": "Examine illiteracy, lack of healthcare, malnutrition, and absence of clean drinking water."
+    },
+    {
+     "step": 2,
+     "action": "analyze social exclusion",
+     "explain": "Assess how poor individuals are excluded from facilities and equal opportunities enjoyed by better-off sections."
+    },
+    {
+     "step": 3,
+     "action": "evaluate vulnerability",
+     "explain": "Determine the higher risk faced by specific groups during natural disasters or economic downturns."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how social exclusion acts as both a cause and a consequence of poverty.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social indicators",
+     "explain": "Examine illiteracy, lack of healthcare, malnutrition, and absence of clean drinking water."
+    },
+    {
+     "step": 2,
+     "action": "analyze social exclusion",
+     "explain": "Assess how poor individuals are excluded from facilities and equal opportunities enjoyed by better-off sections."
+    },
+    {
+     "step": 3,
+     "action": "evaluate vulnerability",
+     "explain": "Determine the higher risk faced by specific groups during natural disasters or economic downturns."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.2",
+   "question_type": "verify_property",
+   "question_pattern": "What is the accepted average calorie requirement per person per day in rural India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state rural calorie norm",
+     "explain": "Identify rural requirement as 2400 calories per individual daily."
+    },
+    {
+     "step": 2,
+     "action": "state urban calorie norm",
+     "explain": "Identify urban requirement as 2100 calories per individual daily."
+    },
+    {
+     "step": 3,
+     "action": "justify differential",
+     "explain": "Rural populations undertake more physical work, demanding higher energy intake."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why are daily calorie requirements higher in rural areas than in urban areas?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state rural calorie norm",
+     "explain": "Identify rural requirement as 2400 calories per individual daily."
+    },
+    {
+     "step": 2,
+     "action": "state urban calorie norm",
+     "explain": "Identify urban requirement as 2100 calories per individual daily."
+    },
+    {
+     "step": 3,
+     "action": "justify differential",
+     "explain": "Rural populations undertake more physical work, demanding higher energy intake."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.5",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the trends in India poverty ratio from 1993-94 to 2011-12.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine poverty percentage trend",
+     "explain": "Observe decline in poverty ratio from 45 percent in 1993-94 to 22 percent in 2011-12."
+    },
+    {
+     "step": 2,
+     "action": "examine total poor count",
+     "explain": "Note decline from 407 million in 2004-05 to 270 million in 2011-12."
+    },
+    {
+     "step": 3,
+     "action": "conclude trend pattern",
+     "explain": "Highlight sustained reduction in both ratio and absolute count in recent years."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.5",
+   "question_type": "verify_property",
+   "question_pattern": "What was the average annual decline in poverty percentage points between 2004-05 and 2011-12?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine poverty percentage trend",
+     "explain": "Observe decline in poverty ratio from 45 percent in 1993-94 to 22 percent in 2011-12."
+    },
+    {
+     "step": 2,
+     "action": "examine total poor count",
+     "explain": "Note decline from 407 million in 2004-05 to 270 million in 2011-12."
+    },
+    {
+     "step": 3,
+     "action": "conclude trend pattern",
+     "explain": "Highlight sustained reduction in both ratio and absolute count in recent years."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.6",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the social groups most vulnerable to poverty in India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify vulnerable social groups",
+     "explain": "Highlight Scheduled Caste and Scheduled Tribe households."
+    },
+    {
+     "step": 2,
+     "action": "identify vulnerable economic groups",
+     "explain": "Highlight rural agricultural laborers and urban casual wage workers."
+    },
+    {
+     "step": 3,
+     "action": "examine intra-household disparity",
+     "explain": "Observe that women, elderly people, and female infants suffer greater deprivation within poor families."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.6",
+   "question_type": "verify_property",
+   "question_pattern": "Which economic categories experience the highest poverty levels?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify vulnerable social groups",
+     "explain": "Highlight Scheduled Caste and Scheduled Tribe households."
+    },
+    {
+     "step": 2,
+     "action": "identify vulnerable economic groups",
+     "explain": "Highlight rural agricultural laborers and urban casual wage workers."
+    },
+    {
+     "step": 3,
+     "action": "examine intra-household disparity",
+     "explain": "Observe that women, elderly people, and female infants suffer greater deprivation within poor families."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.7",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the inter-state disparities in poverty across India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify high poverty states",
+     "explain": "Bihar and Odisha record the highest headcount ratios above national average."
+    },
+    {
+     "step": 2,
+     "action": "analyze successful state models",
+     "explain": "Punjab relied on agricultural growth, Kerala on human resources, West Bengal on land reforms, and Tamil Nadu on food distribution."
+    },
+    {
+     "step": 3,
+     "action": "compare rural and urban state trends",
+     "explain": "Observe high urban poverty in states like Odisha, Madhya Pradesh, Bihar, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.7",
+   "question_type": "verify_property",
+   "question_pattern": "Which Indian states continue to report poverty ratios significantly above national average?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify high poverty states",
+     "explain": "Bihar and Odisha record the highest headcount ratios above national average."
+    },
+    {
+     "step": 2,
+     "action": "analyze successful state models",
+     "explain": "Punjab relied on agricultural growth, Kerala on human resources, West Bengal on land reforms, and Tamil Nadu on food distribution."
+    },
+    {
+     "step": 3,
+     "action": "compare rural and urban state trends",
+     "explain": "Observe high urban poverty in states like Odisha, Madhya Pradesh, Bihar, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.8",
+   "question_type": "verify_property",
+   "question_pattern": "What benchmark standard does the World Bank use for international poverty comparison?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define international poverty line",
+     "explain": "World Bank standard is set at 1.90 US dollars per person per day (2011 PPP)."
+    },
+    {
+     "step": 2,
+     "action": "examine regional declines",
+     "explain": "China and Southeast Asian nations achieved massive reductions through economic expansion."
+    },
+    {
+     "step": 3,
+     "action": "identify high concentration regions",
+     "explain": "Sub-Saharan Africa continues to retain high proportions of extreme poverty."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.8",
+   "question_type": "verify_property",
+   "question_pattern": "Describe global trends in poverty reduction since 1990.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define international poverty line",
+     "explain": "World Bank standard is set at 1.90 US dollars per person per day (2011 PPP)."
+    },
+    {
+     "step": 2,
+     "action": "examine regional declines",
+     "explain": "China and Southeast Asian nations achieved massive reductions through economic expansion."
+    },
+    {
+     "step": 3,
+     "action": "identify high concentration regions",
+     "explain": "Sub-Saharan Africa continues to retain high proportions of extreme poverty."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.9",
+   "question_type": "verify_property",
+   "question_pattern": "What historical factors under British colonial rule contributed to widespread poverty in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine historical causes",
+     "explain": "Colonial policies crippled traditional handicrafts and stifled industrial base."
+    },
+    {
+     "step": 2,
+     "action": "analyze demographic and employment factors",
+     "explain": "High population growth paired with limited job growth kept per capita income low."
+    },
+    {
+     "step": 3,
+     "action": "evaluate asset inequality and debt",
+     "explain": "Unequal land distribution and heavy borrowing for farming inputs and social functions perpetuate debt traps."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.9",
+   "question_type": "verify_property",
+   "question_pattern": "How do population growth and low economic expansion create a cycle of poverty?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine historical causes",
+     "explain": "Colonial policies crippled traditional handicrafts and stifled industrial base."
+    },
+    {
+     "step": 2,
+     "action": "analyze demographic and employment factors",
+     "explain": "High population growth paired with limited job growth kept per capita income low."
+    },
+    {
+     "step": 3,
+     "action": "evaluate asset inequality and debt",
+     "explain": "Unequal land distribution and heavy borrowing for farming inputs and social functions perpetuate debt traps."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.10",
+   "question_type": "verify_property",
+   "question_pattern": "What are the two main planks of the Indian government anti-poverty strategy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state two strategic planks",
+     "explain": "Promotion of economic growth and targeted anti-poverty programmes."
+    },
+    {
+     "step": 2,
+     "action": "list key schemes",
+     "explain": "MGNREGA for 100-day wage guarantee, PMRY/REGP for youth self-employment, SGSY for self-help groups, PMGY for village services."
+    },
+    {
+     "step": 3,
+     "action": "identify implementation challenges",
+     "explain": "Overlapping of schemes and lack of proper targeting reduce overall effectiveness."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.10",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the main features and objectives of MGNREGA 2005.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state two strategic planks",
+     "explain": "Promotion of economic growth and targeted anti-poverty programmes."
+    },
+    {
+     "step": 2,
+     "action": "list key schemes",
+     "explain": "MGNREGA for 100-day wage guarantee, PMRY/REGP for youth self-employment, SGSY for self-help groups, PMGY for village services."
+    },
+    {
+     "step": 3,
+     "action": "identify implementation challenges",
+     "explain": "Overlapping of schemes and lack of proper targeting reduce overall effectiveness."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.11",
+   "question_type": "verify_property",
+   "question_pattern": "What do you understand by the broader concept of human poverty?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish subsistence from reasonable living",
+     "explain": "Subsistence covers minimum food and income, whereas human poverty covers quality of life."
+    },
+    {
+     "step": 2,
+     "action": "identify essential human dimensions",
+     "explain": "Include literacy, healthcare access, housing security, gender equality, and dignity."
+    },
+    {
+     "step": 3,
+     "action": "explain moving target concept",
+     "explain": "As economic development advances, society baseline expectations for acceptable living expand."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.203.11",
+   "question_type": "verify_property",
+   "question_pattern": "How does human poverty differ from minimum subsistence poverty?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish subsistence from reasonable living",
+     "explain": "Subsistence covers minimum food and income, whereas human poverty covers quality of life."
+    },
+    {
+     "step": 2,
+     "action": "identify essential human dimensions",
+     "explain": "Include literacy, healthcare access, housing security, gender equality, and dignity."
+    },
+    {
+     "step": 3,
+     "action": "explain moving target concept",
+     "explain": "As economic development advances, society baseline expectations for acceptable living expand."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "iess203.txt lines 411-425",
+   "questions": [
+    "Describe how the poverty line is estimated in India?",
+    "Do you think that present methodology of poverty estimation is appropriate?",
+    "Describe poverty trends in India since 1973?",
+    "Discuss the major reasons for poverty in India?",
+    "Identify the social and economic groups which are most vulnerable to poverty in India.",
+    "Give an account of interstate disparities of poverty in India.",
+    "Describe global poverty trends.",
+    "Describe current government strategy of poverty alleviation?",
+    "What do you understand by human poverty?",
+    "Who are the poorest of the poor?",
+    "What are the main features of the National Rural Employment Guarantee Act 2005?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

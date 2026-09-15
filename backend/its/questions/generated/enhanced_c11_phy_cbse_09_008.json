@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_008",
+   "title": "c11_phy_cbse_09_008",
+   "questions": [
+    {
+     "q": "State Bernoulli's equation for an incompressible, non-viscous fluid in steady flow along a streamline, defining each term and its SI unit.",
+     "a": "Bernoulli's equation: P + ½ρv² + ρgh = constant. P = pressure (Pa = N/m²), ρ = density (kg/m³), v = flow speed (m/s), g = 9.8 m/s², h = height (m). Each term has units of pressure (Pa) or energy per unit volume (J/m³). A wrong answer (e.g., missing ½ factor, using v instead of v², or omitting ρgh) reveals the student has memorised the formula without understanding the energy-per-unit-volume interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A horizontal pipe narrows from cross-section A₁ to A₂ (A₂ < A₁). Water flows steadily. Explain why the pressure at the narrow section is lower than at the wide section, using Bernoulli's principle and the equation of continuity.",
+     "a": "By continuity, A₁v₁ = A₂v₂, so v₂ > v₁. Since the pipe is horizontal, h₁ = h₂. Bernoulli gives P₁ + ½ρv₁² = P₂ + ½ρv₂². Because v₂ > v₁, the kinetic energy term is larger at the narrow section, so P₂ must be smaller than P₁ to keep the sum constant. A wrong answer (e.g., \"pressure increases because water is squeezed\") reveals confusion between force and pressure, or neglecting the continuity equation.",
+     "self_check": true
+    },
+    {
+     "q": "Water flows out of a small hole 2.0 m below the free surface of a large open tank. The hole's cross-section is 1.0 cm². (a) Calculate the efflux speed using Torricelli's law. (b) Calculate the volume flow rate. Take g = 9.8 m/s², ρ = 1000 kg/m³.",
+     "a": "(a) Torricelli's law: v = √(2gh) = √(2 × 9.8 × 2.0) = √39.2 = 6.26 m/s. (b) Volume flow rate Q = A v = (1.0 × 10⁻⁴ m²) × 6.26 m/s = 6.26 × 10⁻⁴ m³/s. A wrong answer (e.g., using v = gh, or forgetting √, or using wrong area units) reveals algebraic errors or unit conversion mistakes (cm² to m²).",
+     "self_check": true
+    },
+    {
+     "q": "An aerofoil has air flowing at 80 m/s over the top surface and 70 m/s under the bottom surface. Density of air = 1.2 kg/m³. The wing area is 20 m². (a) Find the pressure difference between bottom and top. (b) Find the lift force. (c) If the aircraft mass is 5000 kg, can this lift support level flight? (g = 9.8 m/s²)",
+     "a": "(a) ΔP = ½ρ(v_top² - v_bottom²) = 0.5 × 1.2 × (80² - 70²) = 0.6 × (6400 - 4900) = 0.6 × 1500 = 900 Pa. (b) Lift = ΔP × A = 900 × 20 = 18,000 N. (c) Weight = mg = 5000 × 9.8 = 49,000 N. Lift (18,000 N) < Weight (49,000 N), so not enough for level flight. A wrong answer (e.g., using v_top - v_bottom instead of squares, or forgetting ½) reveals misunderstanding of the kinetic energy term.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a Venturi meter, the pressure at the throat is lower than at the entrance because the fluid speeds up, and by Bernoulli's principle, higher speed means lower pressure. Therefore, if we make the throat extremely narrow, the pressure can become negative (below vacuum).\" Evaluate this claim.",
+     "a": "The claim is partially correct but physically limited. Bernoulli's equation for horizontal flow: P₁ + ½ρv₁² = P₂ + ½ρv₂². As A₂ → 0, v₂ → ∞ (by continuity), so P₂ → -∞ mathematically. However, real fluids cavitate when pressure drops to vapour pressure (~2.3 kPa for water at 20°C), forming bubbles. Also, viscosity and compressibility become significant. So negative absolute pressure is not achievable; the model breaks down. A wrong evaluation (e.g., \"yes, pressure can be negative\" or \"no, Bernoulli is wrong\") reveals lack of awareness of model limitations and cavitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the Magnus effect on a spinning ball. List materials, procedure, and the expected observation. Explain how Bernoulli's principle accounts for the curved trajectory.",
+     "a": "Materials: A light plastic ball (e.g., table tennis ball), a string (1 m), a hair dryer (cool setting) or a fan. Procedure: Tie string to ball. Hold hair dryer blowing upward. Place ball in the air stream; it will levitate. Now give the ball a spin by twisting the string and release. Observe the ball curves sideways. Explanation: Spinning ball drags air, creating higher relative speed on one side, lower on the other. By Bernoulli, pressure difference creates a sideways force (Magnus force), curving the path. A poor answer (e.g., no spinning mechanism, or explanation using \"centrifugal force\") reveals confusion between Magnus effect and other forces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

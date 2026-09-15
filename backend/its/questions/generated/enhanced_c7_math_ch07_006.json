@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_006",
+   "title": "c7_math_ch07_006",
+   "questions": [
+    {
+     "q": "What is the geometric definition of an altitude of a triangle with respect to its opposite side?",
+     "a": "An altitude is a line segment drawn from a vertex perpendicular (at a 90-degree angle) to the line containing the opposite side. A student who answers that an altitude is simply \"any line dividing the triangle in half\" is confusing an altitude with an angle bisector or a median, missing the critical perpendicularity property.",
+     "self_check": true
+    },
+    {
+     "q": "True or False: The altitude of a triangle always lies entirely inside the triangle, regardless of the type of triangle. Explain your reasoning.",
+     "a": "False. While altitudes lie inside an acute triangle, in an obtuse triangle, two of the altitudes lie outside the triangle and must be extended to meet the extended lines of their opposite sides. A student who says \"True\" has only visualized an acute-angled triangle and has not tested the definition on obtuse triangles where a perpendicular drop falls outside the physical boundary of the side.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle PQR$, if $PS$ is an altitude drawn from vertex $P$ to side $QR$, and the length of $QR$ is $12\\text{ cm}$ while the area of $\\triangle PQR$ is $48\\text{ cm}^2$, what is the length of the altitude $PS$?",
+     "a": "Step 1: Recall the formula for the area of a triangle: $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.\nStep 2: Substitute the known values into the equation: $48 = \\frac{1}{2} \\times 12 \\times PS$.\nStep 3: Simplify the right-hand side: $48 = 6 \\times PS$.\nStep 4: Solve for $PS$ by dividing both sides by $6$: $PS = \\frac{48}{6} = 8\\text{ cm}$.\nA student who gets $16\\text{ cm}$ likely multiplied by $2$ instead of dividing by $2$ when reversing the area formula.",
+     "self_check": true
+    },
+    {
+     "q": "How does the position of the orthocenter change when you transition from an acute-angled triangle to an obtuse-angled triangle?",
+     "a": "In an acute-angled triangle, all three altitudes intersect inside the triangle, so the orthocenter is interior. In an obtuse-angled triangle, two altitudes fall outside the triangle and must be extended backwards to meet the third altitude, placing the orthocenter in the exterior of the triangle. A student who thinks the orthocenter is always inside fails to understand how extending lines for obtuse angles shifts the point of intersection outside the physical shape.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs an altitude from vertex $A$ in $\\triangle ABC$ by drawing a line from $A$ to the midpoint of side $BC$, claiming it is the altitude because it splits the side neatly. Evaluate this construction and correct the error.",
+     "a": "The student's construction is incorrect because a line drawn to the midpoint of the opposite side is a *median*, not an *altitude*. An altitude must form a $90^\\circ$ angle with the base, whereas a median only connects a vertex to a midpoint (which only coincides with the altitude in isosceles and equilateral triangles for the base). A student approving this work confuses the definitions of median and altitude.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario using a triangular garden plot in Mumbai with sides measuring $5\\text{ m}$, $12\\text{ m}$, and $13\\text{ m}$ (a right-angled triangle) where knowing the exact location of the altitudes and their intersection point is necessary for installing a vertical sprinkler system. Describe where the sprinkler (orthocenter) must be placed.",
+     "a": "The expected response must recognize that for a right-angled triangle ($5\\text{ m}, 12\\text{ m}, 13\\text{ m}$ where $5^2 + 12^2 = 13^2$), the two shorter sides act as perpendicular altitudes to each other. Therefore, the intersection of the altitudes (the orthocenter) lies precisely at the vertex containing the right angle. A poor answer would place the sprinkler inside the middle of the field or outside without geometric justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

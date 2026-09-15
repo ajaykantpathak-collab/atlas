@@ -1,0 +1,307 @@
+{
+ "catalog": "catalog_class12_accountancy_leca101",
+ "concepts": [
+  {
+   "id": "leca101.1",
+   "title": "Components of Computerised Accounting System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Components of Computerised Accounting System' refers to.",
+     "a": "A CAS rests on five pillars: a procedure (the logical order of steps that completes a task), data (the raw facts fed in for a business use), people (the users), hardware (the computer, its peripherals and network) and software (system plus application programs). Processing accounting transactions through this hardware-software pair yields the accounting records and reports: day books and journals, ledger, trial balance, position statement and the statement of profit and loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Components of Computerised Accounting System'.",
+     "a": "Hardware and software alone are not enough -- procedure, data and people complete the system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Components of Computerised Accounting System', in plain ASCII form.",
+     "a": "cas_components = procedure plus data plus people plus hardware plus software",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.2",
+   "title": "Data Items and the Data-to-Information Conversion",
+   "questions": [
+    {
+     "q": "Using the method 'Data Items and the Data-to-Information Conversion', work with: days_worked = 6, rate_per_day = 15. Carry the chain through step by step and give the final value of pay_amount.",
+     "a": "90 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Data Items and the Data-to-Information Conversion' and work with: days_worked = 300, rate_per_day = 25. Carry the chain through step by step and give the final value of pay_amount.",
+     "a": "7500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Data Items and the Data-to-Information Conversion' refers to.",
+     "a": "A data item is the smallest named unit of data in an information system. One accounting transaction carries four such elements: the account name, its accounting code, the transaction date and the amount. Processing turns data into information -- for instance, days worked and rate per day are raw data that multiply into the amount to pay, and the same information can itself serve as data at a higher level for a decision maker.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Items and the Data-to-Information Conversion'.",
+     "a": "Raw data elements gain meaning only after processing -- days worked times rate per day becomes the payable amount.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Items and the Data-to-Information Conversion', in plain ASCII form.",
+     "a": "pay_amount = days_worked * rate_per_day",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.3",
+   "title": "The Accounting Cycle Phases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Accounting Cycle Phases' refers to.",
+     "a": "The accounting cycle is the sequence of identifying, measuring and communicating financial information: transactions are analysed, journalised, posted to ledger accounts, and a trial balance is drawn; accounts are then reviewed, adjustments are posted to produce an adjusted trial balance, and finally the balance sheet and profit-loss account emerge from the adjusted ledger.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Accounting Cycle Phases'.",
+     "a": "From analysing a transaction to the final statements, each phase feeds the next in a fixed order.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Accounting Cycle Phases', in plain ASCII form.",
+     "a": "cycle_order = analyse plus journalise plus post plus trial_balance plus adjust plus final_statements",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.4",
+   "title": "Salient Features of CAS Software",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Salient Features of CAS Software' refers to.",
+     "a": "Good CAS software shows five features: it is simple and integrated, automating sales, finance, purchase, inventory and manufacturing on one platform; transparent and controlled, widening access to day-to-day operational information; accurate and fast, using user-definable entry templates; scalable, handling growing data volumes as the business grows; and reliable, keeping critical financial output accurate, controlled and secured.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Salient Features of CAS Software'.",
+     "a": "Integrated, transparent, fast, scalable and reliable -- five tests any accounting software must pass.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Salient Features of CAS Software', in plain ASCII form.",
+     "a": "cas_features = integration plus transparency plus accuracy_speed plus scalability plus reliability",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.5",
+   "title": "Accounting Equation and Grouping of Accounts",
+   "questions": [
+    {
+     "q": "Compute the closing capital when opening capital is Rs 200000, revenues are Rs 80000 and expenses are Rs 65000. Use the method 'Accounting Equation and Grouping of Accounts'. Work with: capital_open = 1200, expenses = 2500, liabilities = 120, revenues = 2500. Carry the chain through step by step and give the final value of assets_total.",
+     "a": "1320 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the asset total of a firm whose liabilities are Rs 750000 and capital after results is Rs 450000. Use the method 'Accounting Equation and Grouping of Accounts'. Work with: capital_open = 5000, expenses = 2500, liabilities = 500, revenues = 5000. Carry the chain through step by step and give the final value of assets_total.",
+     "a": "8000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Accounting Equation and Grouping of Accounts' refers to.",
+     "a": "Double-entry accounting rests on the equality of assets and equities, written as A = E where E = L + C, so Assets = Liabilities + Capital. Because owner claims shift with profit or loss, the expanded form reads Assets = Liabilities + Capital + (Revenues - Expenses). Each side then breaks into groups: equity and liabilities (shareholder funds, non-current and current liabilities), assets (non-current and current), revenues (sales and other income) and expenses (material, salary, depreciation, interest and allied heads).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Accounting Equation and Grouping of Accounts'.",
+     "a": "Assets always equal liabilities plus capital, with capital swelled or shrunk by revenues less expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Accounting Equation and Grouping of Accounts', in plain ASCII form.",
+     "a": "capital_after_results = capital_open + revenues - expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.6",
+   "title": "Methods of Codification: Sequential, Block and Mnemonic",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Methods of Codification: Sequential, Block and Mnemonic' refers to.",
+     "a": "A code is a system of letters or figures with an agreed meaning, used for brevity and machine processing. Sequential codes run in consecutive order and suit source documents such as cheques and invoices, making missing numbers easy to spot. Block codes partition a number range into sub-ranges, each reserved for one group of items. Mnemonic codes use alphabetic abbreviations as symbols -- SJ for sales journal, DLH for Delhi -- so the code itself recalls the item.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Methods of Codification: Sequential, Block and Mnemonic'.",
+     "a": "Pick the code style by purpose: order for documents, ranges for groups, abbreviations for recall.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Methods of Codification: Sequential, Block and Mnemonic', in plain ASCII form.",
+     "a": "code_types = sequential plus block plus mnemonic",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.7",
+   "title": "Block Code Range Capacity",
+   "questions": [
+    {
+     "q": "Calculate the capacity of the code range 200 to 299 reserved for medium pumps. Use the method 'Block Code Range Capacity'. Work with: block_end = 150, block_start = 120. Carry the chain through step by step and give the final value of block_size.",
+     "a": "31 bytes",
+     "self_check": false
+    },
+    {
+     "q": "How many account codes fit in a block spanning 300 to 399? Use the method 'Block Code Range Capacity'. Work with: block_end = 15, block_start = 4. Carry the chain through step by step and give the final value of block_size.",
+     "a": "12 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Block Code Range Capacity' refers to.",
+     "a": "A block code reserves a consecutive number band for one group -- for a trading firm, 100-199 might hold small pumps, 200-299 medium pumps, 300-399 pipes and 400-499 motors. The holding capacity of any band is found by counting every number from its start to its end, both inclusive.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Block Code Range Capacity'.",
+     "a": "Codes in a block run from start to end inclusive, so capacity is end minus start plus one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Block Code Range Capacity', in plain ASCII form.",
+     "a": "block_size = block_end - block_start + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.8",
+   "title": "Sequential Code Gap Detection",
+   "questions": [
+    {
+     "q": "Calculate the missing sequential codes when the band 200 to 249 shows 48 documents issued. Use the method 'Sequential Code Gap Detection'. Work with: first_num = 6, issued_count = 18, last_num = 50. Carry the chain through step by step and give the final value of missing_count.",
+     "a": "27 units",
+     "self_check": false
+    },
+    {
+     "q": "How many documents are unissued in the numbered run 500 to 549 when 50 were issued? Use the method 'Sequential Code Gap Detection'. Work with: first_num = 8, issued_count = 10, last_num = 100. Carry the chain through step by step and give the final value of missing_count.",
+     "a": "83 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sequential Code Gap Detection' refers to.",
+     "a": "Because sequential codes assign consecutive numbers to source documents, the assigned band length compared with the documents actually issued exposes gaps. Counting the numbers the band should hold and subtracting the documents on hand gives the count of missing codes -- the first step in tracing a lost cheque or invoice.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sequential Code Gap Detection'.",
+     "a": "Band length minus documents issued reveals how many sequential codes are missing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sequential Code Gap Detection', in plain ASCII form.",
+     "a": "missing_count = (last_num - first_num + 1) - issued_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.9",
+   "title": "Designing a Hierarchical Coding Structure",
+   "questions": [
+    {
+     "q": "Using the method 'Designing a Hierarchical Coding Structure', work with: class_digits = 24, roll_digits = 500, school_digits = 240, section_digits = 100, stream_digits = 25, year_digits = 2600. Carry the chain through step by step and give the final value of code_length.",
+     "a": "3489 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Designing a Hierarchical Coding Structure' and work with: class_digits = 75, roll_digits = 8, school_digits = 6, section_digits = 360, stream_digits = 200, year_digits = 150. Carry the chain through step by step and give the final value of code_length.",
+     "a": "799 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Designing a Hierarchical Coding Structure' refers to.",
+     "a": "Coding begins with a structure: fix the hierarchy (trust, school, entry-year, stream, class, section, student), then allot digits to each field according to its maximum size -- two digits for up to 99 schools, two for entry-year, one for stream, two for class, one for section, two for roll number, giving a ten-digit student code. The top-level account grouping similarly uses first and second digits (1 for equity and liabilities, 2 for assets, with gaps left for flexibility), so listing codes in ascending order reproduces the desired hierarchy automatically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Designing a Hierarchical Coding Structure'.",
+     "a": "Allot digits field by field according to the maximum each field must hold, then join them in hierarchy order.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Designing a Hierarchical Coding Structure', in plain ASCII form.",
+     "a": "code_length = school_digits + year_digits + stream_digits + class_digits + section_digits + roll_digits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.10",
+   "title": "Security Features: Password, Data Audit and Data Vault",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Security Features: Password, Data Audit and Data Vault' refers to.",
+     "a": "Accounting software guards data three ways. Password security is the key that grants access, with user rights set by organisation policy so a person may reach one data set and be denied another. Data audit records who changed what in the original data, fixing responsibility and preserving integrity like an audit trail. Data vault adds encryption, which scrambles information so thoroughly that intercepted data cannot be decoded or interpreted.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Security Features: Password, Data Audit and Data Vault'.",
+     "a": "Passwords gate entry, audits name the changer, and encryption keeps stolen data unreadable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Security Features: Password, Data Audit and Data Vault', in plain ASCII form.",
+     "a": "data_defence = password plus audit_trail plus encryption",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.11",
+   "title": "Advantages and Limitations of CAS",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Advantages and Limitations of CAS' refers to.",
+     "a": "CAS advantages: timely reports in the desired format, efficient record keeping, effective system control, economical data processing and confidentiality of data. Its limitations: technology obsolesces fast and forces repeat investment, power interruptions can lose or corrupt data, hacking threatens stored records, and reports that were never programmed or specified cannot be generated at all.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Advantages and Limitations of CAS'.",
+     "a": "Computers buy speed, control and confidentiality but demand fresh investment and expose data to new risks.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Advantages and Limitations of CAS', in plain ASCII form.",
+     "a": "cas_tradeoff = speed plus control plus confidentiality against obsolescence plus data_loss plus hacking",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca101.12",
+   "title": "Sub-systems of the Accounting Information System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sub-systems of the Accounting Information System' refers to.",
+     "a": "An AIS is implemented through CAS as an integration of twelve sub-systems: cash and bank, sales and accounts receivable, inventory, purchase and accounts payable, payroll accounting, fixed assets accounting, expense accounting, tax accounting, final accounts, costing, budget, and the management information system. Each owns a slice of the work -- from electronic fund transfers and ageing schedules of debtors to wage bills, depreciation reports, VAT compliance and customised decision-support reports.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sub-systems of the Accounting Information System'.",
+     "a": "Twelve specialised sub-systems integrate into one accounting information system for the whole business.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sub-systems of the Accounting Information System', in plain ASCII form.",
+     "a": "ais = cash plus sales plus inventory plus purchase plus payroll plus assets plus expense plus tax plus final_accounts plus costing plus budget plus mis",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_001",
+   "title": "c12_geo_cbse_13_001",
+   "questions": [
+    {
+     "q": "Name the three broad mineral belts of India and state one major mineral associated with each belt.",
+     "a": "Correct answer: (1) North-Eastern Plateau Region — iron ore, coal, manganese, bauxite, mica; (2) South-Western Plateau Region — high-grade iron ore, manganese, limestone, bauxite; (3) North-Western Region — copper, zinc, building stones (sandstone, granite, marble), gypsum, petroleum, salt. A wrong answer revealing confusion between the South-Western belt (Karnataka-Goa) and North-Eastern belt (Jharkhand-Odisha) indicates the student has not internalised the geological distinction: Dharwar craton (south) versus Singhbhum-Orissa craton (north-east), or simply memorised lists without spatial reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the vast alluvial plains of North India devoid of minerals of economic use, while the Peninsular Plateau is mineral-rich? Explain using geological history.",
+     "a": "Correct answer: The Northern Plains are formed by recent alluvial deposition (Quaternary period) by Himalayan rivers — these sediments are young, unconsolidated, and lack the geological time and tectonic processes (magmatism, metamorphism, hydrothermal activity) needed for mineral concentration. The Peninsular Plateau comprises Archaean and Proterozoic crystalline rocks (Dharwar, Cuddapah, Vindhyan systems) that underwent multiple orogenic cycles, magmatic intrusions, and hydrothermal circulation over 2.5+ billion years, concentrating metallic minerals. A wrong answer citing \"soil type\" or \"rainfall\" instead of geological age and rock type reveals the student is confusing pedological (soil) processes with geological mineralisation processes.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, a student marks the following coal fields: (a) Jharia, (b) Raniganj, (c) Singrauli, (d) Korba, (e) Talcher. Identify which river valley each belongs to: Damodar, Godavari, Mahanadi, Sone. Explain the geological age of these coal deposits.",
+     "a": "Correct mapping: Jharia & Raniganj → Damodar Valley (Jharkhand-West Bengal); Singrauli → Sone Valley (Madhya Pradesh-Uttar Pradesh); Korba → Mahanadi Valley (Chhattisgarh); Talcher → Mahanadi Valley (Odisha). Geological age: Gondwana (Permian, ~250-300 Ma) — formed in fault-bound rift basins during Gondwana glaciation and subsequent forest growth. A wrong answer placing Singrauli in Damodar or Talcher in Godavari reveals the student memorised names without understanding the structural control: Gondwana coal occurs in linear rift valleys along the Damodar-Sone-Mahanadi-Godavari lineament, not randomly scattered.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mineral endowment of the North-Eastern Plateau belt and the South-Western Plateau belt. Why does the South-Western belt lack coal despite having high-grade iron ore and manganese?",
+     "a": "Correct analysis: Both belts sit on Archaean-Dharwar crystalline rocks rich in ferrous minerals (iron, manganese, chromite). The North-Eastern belt (Chhotanagpur) additionally hosts Gondwana sedimentary basins (Damodar, Mahanadi) preserving coal — these basins formed due to crustal extension along the Damodar-Sone lineament during Gondwana breakup. The South-Western belt (Karnataka-Goa) lacks Gondwana basins; its Dharwar rocks are exposed directly without younger sedimentary cover, hence no coal except Neyveli lignite (Tertiary, coastal Tamil Nadu). A wrong answer attributing coal absence to \"high rainfall\" or \"laterite soil\" shows confusion between surface processes and deep-time basin evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's petroleum reserves are located only in Assam and Gujarat.\" Is this accurate as of current knowledge? Justify with basin names and geological setting.",
+     "a": "Correct evaluation: The statement is outdated/incomplete. Petroleum occurs in sedimentary basins of: (1) Assam-Arakan Basin (Digboi, Naharkatiya, Moran — Tertiary), (2) Cambay Basin, Gujarat (Ankaleshwar, Kalol, Mehsana — Tertiary), (3) Mumbai Offshore Basin (Mumbai High — discovered 1973, Tertiary), (4) Krishna-Godavari Basin (East Coast, recent finds), (5) Kaveri Basin (East Coast, recent finds), (6) Rajasthan (Barmer — recent, Barmer Basin). All are Tertiary sedimentary basins associated with rifting during India's northward drift and Himalayan collision. A wrong answer omitting Mumbai High or the east coast basins reveals reliance on older textbook editions without updating for post-1973 discoveries — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thematic map annotation exercise for a Class 12 student: Show how you would represent the three mineral belts, major coal fields, and petroleum basins on a single outline map of India using standard cartographic symbols. Explain your symbol choices.",
+     "a": "Good answer criteria: (1) Three belt boundaries shown as distinct shaded polygons (hachured patterns: NE = diagonal, SW = horizontal, NW = vertical) with labels; (2) Coal fields as black diamond symbols at Jharia, Raniganj, Bokaro, Singrauli, Korba, Talcher, Singareni; (3) Petroleum basins as oil derrick symbols at Digboi, Ankaleshwar, Mumbai High, KG Basin, Kaveri Basin; (4) Legend with geological age (Gondwana vs Tertiary); (5) Inset showing Himalayan belt (copper-lead-zinc). Symbol choice justification: Diamonds for coal (solid mineral), derricks for petroleum (fluid extraction), hachures for belts (areal extent). A poor answer using random colours without geological grouping or missing the belt concept shows inability to synthesise spatial patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

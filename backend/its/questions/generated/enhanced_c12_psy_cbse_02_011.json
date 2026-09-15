@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_011",
+   "title": "c12_psy_cbse_02_011",
+   "questions": [
+    {
+     "q": "Define 'congruence' in Rogers' theory and state one consequence of incongruence between real self and ideal self.",
+     "a": "Congruence is the state of alignment between the real self (how one actually sees oneself) and the ideal self (how one wishes to be); high congruence leads to psychological well-being and a fully functioning person. Incongruence creates anxiety, defensiveness, and a distorted self-concept because experiences that threaten the self-structure are denied or distorted. A wrong answer that equates congruence with 'high self-esteem' misses the structural dynamics — congruence is about match between two self-representations, not a global evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Maslow's hierarchy means you cannot be creative or seek meaning until you have a house and a steady job.\" Explain why this is an oversimplification, using the concepts of 'deficiency needs' vs 'growth needs' and 'partial satisfaction'.",
+     "a": "Maslow argued that deficiency needs (physiological, safety, belonging, esteem) must be 'sufficiently satisfied' — not fully met — for growth needs to emerge; people often pursue self-actualisation (e.g., art, spirituality) even amid deprivation (e.g., Viktor Frankl in concentration camps). The hierarchy is not a rigid ladder but a dynamic interplay; growth needs can appear when deficiency needs are partially met, and frustration of growth needs causes 'metapathology'. A wrong answer treating the hierarchy as a strict stepwise lock reveals a literalist reading that ignores Maslow's own later qualifications and the concept of 'partial satisfaction'.",
+     "self_check": true
+    },
+    {
+     "q": "Priya receives praise from her teacher only when she scores above 90%. She now feels worthless after scoring 85%. Using Rogers' terminology, identify the specific mechanism operating and predict its long-term effect on her self-concept if unchanged.",
+     "a": "The mechanism is 'conditions of worth' — Priya has internalised the teacher's conditional positive regard (\"I am valuable only if I achieve 90%+\"). Long-term, her self-concept becomes rigid and contingent on external validation; she will deny or distort experiences that contradict the condition (e.g., dismissing 85% as 'failure'), leading to incongruence, anxiety, and alienation from her organismic valuing process. A wrong answer citing 'low self-esteem' describes the symptom but misses the causal mechanism: the internalised condition of worth that makes self-regard contingent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Rogers' 'fully functioning person' and Maslow's 'self-actualised person' on three dimensions: (a) role of social environment, (b) nature of motivation, (c) view of human nature.",
+     "a": "(a) Rogers: fully functioning person emerges *only* in a climate of unconditional positive regard; social environment is the primary facilitator or blocker. Maslow: self-actualisation is an intrinsic growth tendency that *can* be supported by environment but is ultimately autonomous; deficient environments hinder but do not fully determine it. (b) Rogers: motivation is the single 'actualising tendency' — an innate push to maintain and enhance the organism. Maslow: motivation is hierarchical — deficiency needs drive behaviour until growth needs emerge; self-actualisation is motivated by 'metaneeds' (truth, beauty, justice). (c) Both view human nature as inherently positive/growth-oriented, but Rogers emphasises the *process* of becoming (openness, trust in organismic valuing), while Maslow emphasises the *outcome* (peak experiences, B-values, specific traits like autonomy). A wrong answer that lists identical traits (e.g., 'both are creative') misses the theoretical divergence in *how* the endpoint is reached and sustained.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Client-centred therapy is just 'being nice' to the client.\" Use Rogers' three core conditions to evaluate.",
+     "a": "The statement is false. Client-centred therapy requires the therapist to *consistently* embody three precise, demanding conditions: (1) Congruence (genuineness) — therapist's outward responses match inner experience, not a professional facade; (2) Unconditional Positive Regard — prizing the client *without evaluation*, even when the client expresses 'unacceptable' feelings; (3) Empathic Understanding — sensing the client's private world *as if it were one's own* without losing the 'as if' quality. 'Being nice' implies conditional warmth, lack of challenge, and superficial sympathy — none of which guarantee the client experiences the safety to explore incongruent experiences. A wrong answer agreeing with the statement confuses the *attitude* with the *technique* and underestimates the discipline required to maintain unconditional positive regard toward hostile or self-destructive content.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week intervention plan for a school to foster 'unconditional positive regard' among teachers toward students, incorporating one specific practice per week grounded in Rogers' theory. Explain how each practice reduces conditions of worth.",
+     "a": "Week 1: 'Separate deed from doer' — teachers practice descriptive, non-evaluative feedback (e.g., \"You solved three problems using the quadratic formula\" vs \"Good job!\"). Reduces condition of worth: \"I am good only when I succeed.\" Week 2: 'Emotion coaching' — teachers label and validate student emotions before problem-solving (\"You look frustrated that the experiment failed\"). Reduces condition: \"My feelings are unacceptable.\" Week 3: 'Student-led conferences' — students present their own learning goals and self-assessments; teachers listen without grading. Reduces condition: \"My worth is determined by teacher's judgment.\" Week 4: 'Reflective journaling for teachers' — teachers record moments they felt judgmental and reframe them. Reduces *teacher's own* conditions of worth that project onto students. A poor answer lists generic 'positive reinforcement' or 'praise' — these are *conditional* and reinforce conditions of worth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

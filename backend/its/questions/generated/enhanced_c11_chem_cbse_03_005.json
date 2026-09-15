@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_005",
+   "title": "c11_chem_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the general outer electronic configuration of s-block, p-block, d-block, and f-block elements.",
+     "a": "s-block: ns¹⁻² (Groups 1–2); p-block: ns²np¹⁻⁶ (Groups 13–18); d-block: (n−1)d¹⁻¹⁰ns⁰⁻² (Groups 3–12); f-block: (n−2)f¹⁻¹⁴(n−1)d⁰⁻¹ns² (Lanthanoids/Actinoids). A wrong answer (e.g., writing ns²np⁶ for d-block) reveals confusion between the principal quantum number of the valence shell and the penultimate shell being filled.",
+     "self_check": true
+    },
+    {
+     "q": "Why is helium placed in the p-block (Group 18) even though its electron configuration is 1s²?",
+     "a": "Helium has a completely filled valence shell (1s²) with no p orbitals in n=1. Its chemical inertness and closed-shell configuration match the noble gases (ns²np⁶ for n≥2). Placing it in Group 18 preserves the periodic trend of zero valency and high ionization enthalpy. A student who says \"helium belongs to s-block because of 1s²\" ignores that block classification prioritizes chemical properties over strict orbital-filling order for this exception.",
+     "self_check": true
+    },
+    {
+     "q": "An element has the ground-state configuration [Kr] 4d¹⁰ 5s² 5p³. Identify its block, group, period, and atomic number.",
+     "a": "Last electron enters 5p → p-block. Period = highest n = 5. Group = 18 − (6 − 3) = 15 (since 5p³ means 3 electrons in p-subshell of period 5, Group 13 has 1, Group 14 has 2, Group 15 has 3). Z = 36 (Kr) + 10 (4d) + 2 (5s) + 3 (5p) = 51 (Antimony, Sb). Incorrect group (e.g., Group 5) shows misunderstanding of IUPAC 1–18 numbering versus old Roman numerals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the valence orbital availability for the first member of a p-block group (e.g., boron) versus the second member (e.g., aluminium). How does this affect their maximum covalency?",
+     "a": "Boron (n=2) has only 2s and 2p orbitals (4 orbitals total) → max covalency 4 (e.g., [BF₄]⁻). Aluminium (n=3) has 3s, 3p, and empty 3d orbitals (9 orbitals) → can expand octet, max covalency 6 (e.g., [AlF₆]³⁻). A student who claims both have max covalency 4 misses the role of accessible d orbitals in periods ≥3.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the configuration of chromium (Z=24) as [Ar] 3d⁴ 4s² and says it is a d-block element because the last electron enters 3d. Evaluate this statement.",
+     "a": "The statement is partially correct in block assignment (Cr is d-block) but the configuration is wrong. Actual ground state: [Ar] 3d⁵ 4s¹ due to extra stability of half-filled d-subshell. The \"last electron\" concept refers to the aufbau building order, not the final configuration after stability adjustments. The student confuses the filling order (4s before 3d) with the final arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mnemonic or visual scheme to remember the order of orbital filling (aufbau) for periods 4–7 that clearly shows where s, p, d, f blocks begin and end. Explain how your scheme helps predict the number of elements in each period.",
+     "a": "Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18. n=6: 6s (2) → 4f (14) → 5d (10) → 6p (6) = 32. n=7: 7s (2) → 5f (14) → 6d (10) → 7p (6) = 32 (incomplete). A good scheme uses arrows or a diagonal diagram (Madelung rule) linking (n+l) values. Poor answers merely list orbitals without connecting to period length or block boundaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

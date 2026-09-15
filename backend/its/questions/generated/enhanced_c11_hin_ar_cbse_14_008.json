@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_14_008",
+   "title": "c11_hin_ar_cbse_14_008",
+   "questions": [
+    {
+     "q": "What is the precise difference between imagery (बिंब) and metaphor (रूपक) in Hindi poetics? Write the definition of each in one sentence.",
+     "a": "**Correct Answer:** Imagery (बिंब) is sensory language that evokes a concrete perceptual experience (e.g., \"लाल आग\" appeals to sight). Metaphor (रूपक) is an implicit identity statement equating two distinct entities based on a shared attribute (e.g., \"जीवन एक दीपक है\" equates life with a lamp).  \n**Wrong Answer Reveals:** If a student says \"both are comparisons\" or \"imagery uses like/as\", they confuse metaphor with simile (उपमा) and treat imagery as a comparative device rather than an evocative one. This shows they have not distinguished *evocation* (बिंब) from *equation* (रूपक).",
+     "self_check": true
+    },
+    {
+     "q": "In the first poem, the line \"gs Hkw[k! er epy\" (roughly: \"O sky! your shadow\") uses imagery. Which *specific* sense does it primarily appeal to, and what emotional tone does that sensory detail establish? Explain in your own words without quoting the definition.",
+     "a": "**Correct Answer:** The line appeals primarily to the *visual* sense (sight) by invoking the vast darkness of the sky casting a shadow. This creates a tone of awe mixed with oppression — the sky's shadow suggests an overwhelming, inescapable presence, setting a mood of existential weight.  \n**Wrong Answer Reveals:** If the student says \"it appeals to feeling\" or \"it shows sadness\", they are interpreting *emotion* instead of identifying the *sensory channel*. This misconception — conflating the *sense triggered* with the *feeling produced* — is the most common Class 11 error in imagery analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the metaphor-identification test to this new line from an unseen poem: \"यादें पुराने खतों की तरह पीली पड़ जाती हैं।\" Is this a metaphor? Why or why not? If not, what device is it?",
+     "a": "**Correct Answer:** No, this is *not* a metaphor. It uses \"की तरह\" (like), which makes it a **simile (उपमा)**, explicitly comparing memories to old letters using a comparative marker. A metaphor would drop \"की तरह\" and say \"यादें पुराने खत हैं\" (Memories *are* old letters).  \n**Wrong Answer Reveals:** If the student calls it a metaphor because \"two things are compared\", they have not internalized the *structural* difference: metaphor = identity (A is B); simile = resemblance (A is like B). This is the single most frequent board-exam error in device identification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *dominant* imagery in Poem 1 (nature/sky/darkness) with the *dominant* imagery in Poem 2 (lamp/house/light). How does the shift in sensory focus reflect the shift in the speaker's psychological state across the two poems?",
+     "a": "**Correct Answer:** Poem 1 relies on *visual* and *tactile* imagery of vast darkness (sky, shadow, night) conveying helplessness and exposure. Poem 2 shifts to *visual* (lamp flame), *tactile* (warmth), and *olfactory* (ghee/oil smell) imagery of a small, controlled light inside a house — conveying agency, shelter, and fragile hope. The move from open-sky darkness to enclosed-house light mirrors the speaker's journey from passive suffering to active endurance.  \n**Wrong Answer Reveals:** If the student lists images from both poems but does not *contrast* their sensory *quality* (vast vs. intimate, cold vs. warm) or link them to *psychological shift*, they are doing inventory, not analysis. Board examiners penalize \"device-spotting\" without \"effect-explaining.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The metaphor 'बज़'ओज' (lamp) in Poem 2 is more effective than the imagery in Poem 1 because a metaphor *explains* the theme while imagery only *decorates* it.\" Defend or refute with evidence from both poems.",
+     "a": "**Correct Answer:** The claim is **false**. Imagery in Poem 1 (e.g., \"er epy\" — your shadow) does not merely decorate; it *embodies* the theme of existential darkness *viscerally*, making the reader *feel* the weight before any intellectual understanding. The metaphor \"बज़'ओज\" (lamp = hope/guidance) *condenses* the theme intellectually. Both are essential: imagery = affective entry; metaphor = cognitive anchor. Effectiveness depends on *function*, not device hierarchy.  \n**Wrong Answer Reveals:** If the student agrees, they hold the widespread misconception that \"figures of speech = ornamentation (अलंकार)\" and \"imagery = decoration.\" Senior secondary analysis requires recognizing imagery as *structural* to meaning, not ornamental.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line Hindi poem-stanza (छंद) on \"exam stress\" that uses **at least two distinct sensory images** and **one metaphor** (without \"जैसे/वैसे\"). Label each device in brackets after the line.",
+     "a": "**Expected Answer Criteria:**  \n- Line 1: Visual image (e.g., \"सफेद कागज़ काली स्याही से डरता है\" [दृश्य बिंब])  \n- Line 2: Auditory image (e.g., \"घड़ी की टिक-टिक दिल में हथौड़े-सी बजती है\" [श्रव्य बिंब])  \n- Line 3: Tactile image (e.g., \"हथेलियाँ ठंडी, माथा तवे-सा तपता है\" [स्पर्श बिंब])  \n- Line 4: Metaphor (e.g., \"परीक्षा एक अँधेरी सुरंग है जहाँ रोशनी मैं खुद हूँ\" [रूपक])  \n**Poor Answer Reveals:** If the student uses \"जैसे/वैसे\" in the metaphor line, or uses only visual images, or writes a simile instead of metaphor, they have not mastered the *structural constraints* of each device. This creation task exposes whether the distinction is operational or merely memorized.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

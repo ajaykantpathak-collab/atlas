@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_001",
+   "title": "c10_math_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the geometrical representation of the linear equation \\(2x + 3y = 12\\) on the Cartesian plane?",
+     "a": "The equation \\(2x + 3y = 12\\) represents a straight line. To plot it, find two points: when \\(x=0, y=4\\) giving point (0,4); when \\(y=0, x=6\\) giving point (6,0). The line passes through these points. A wrong answer like \"it represents a point\" or \"a curve\" reveals the student does not recall that a linear equation in two variables always graphs as a straight line (Class 9 prerequisite c9_math_ch2_5).",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are drawn on the same graph: Line A passes through (0,2) and (3,0). Line B passes through (0,4) and (6,0). Without solving algebraically, how many solutions does this pair of equations have? Explain your reasoning.",
+     "a": "Line A has equation \\(2x + 3y = 6\\) (intercepts 3 and 2). Line B has equation \\(2x + 3y = 12\\) (intercepts 6 and 4). The coefficients of \\(x\\) and \\(y\\) are proportional (\\(2/2 = 3/3 = 1\\)) but the constants are not (\\(6/12 = 1/2\\)). Thus the lines are parallel and distinct — they never intersect. The pair has **no solution**. A student who says \"one solution\" or \"infinite solutions\" fails to recognize that equal ratios of \\(x\\) and \\(y\\) coefficients with different constant ratio implies parallel lines (common board exam trap).",
+     "self_check": true
+    },
+    {
+     "q": "Plot the lines \\(x + y = 5\\) and \\(2x + 2y = 10\\) on the same graph. How many solutions does this pair have? Show your working by finding intercepts for both lines.",
+     "a": "For \\(x + y = 5\\): \\(x=0 \\Rightarrow y=5\\) (0,5); \\(y=0 \\Rightarrow x=5\\) (5,0).\nFor \\(2x + 2y = 10\\): divide by 2 gives \\(x + y = 5\\), same equation. Intercepts: (0,5) and (5,0).\nBoth lines have identical intercepts — they are coincident (the same line). Every point on the line is a solution, so **infinitely many solutions**. A student who plots different points for the second equation (e.g., using \\(2x+2y=10\\) without simplifying and getting (0,5) and (5,0) anyway) might still get it right, but a student who incorrectly calculates intercepts as (0,10) and (10,0) for the second equation reveals a computational error in finding intercepts (forgetting to divide the constant by the coefficient).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the pair of equations: \\(3x - 2y = 6\\) and \\(6x - 4y = 15\\). A student claims these lines intersect at a unique point because the coefficients are not exactly the same. Is the student correct? Analyse using the ratio method.",
+     "a": "The student is **incorrect**. Compute ratios: \\(a_1/a_2 = 3/6 = 1/2\\), \\(b_1/b_2 = -2/-4 = 1/2\\), \\(c_1/c_2 = 6/15 = 2/5\\). Since \\(a_1/a_2 = b_1/b_2 \\neq c_1/c_2\\), the lines are **parallel** and have **no solution**. The student's error is comparing raw coefficients instead of ratios. This is a classic board exam misconception: seeing different numbers and assuming intersecting lines without checking proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the pair \\(x + 2y = 4\\) and \\(2x + 4y = 8\\) graphically and writes: \"The lines intersect at (2,1), so unique solution.\" Evaluate this claim. Is the solution correct? If not, identify the error.",
+     "a": "The claim is **incorrect**. The second equation is exactly twice the first: \\(2(x + 2y) = 2(4) \\Rightarrow 2x + 4y = 8\\). The lines are **coincident**, not intersecting. The point (2,1) satisfies the first equation (\\(2 + 2 = 4\\)) but the student likely plotted points incorrectly for the second line (e.g., using intercepts (0,2) and (4,0) for both, but then misread the graph). The correct conclusion: infinitely many solutions. The error is either in plotting (not noticing the lines overlap) or in reading the intersection (imagining a single intersection point where there is a whole line).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context: rupees, metres, kg) that leads to a pair of linear equations whose graphs are parallel lines (no solution). Write the equations and explain why they are parallel.",
+     "a": "Example: \"Ravi buys 2 kg apples and 3 kg oranges for ₹180. Next week, he buys 4 kg apples and 6 kg oranges for ₹350.\" Let apple price = \\(x\\), orange price = \\(y\\). Equations: \\(2x + 3y = 180\\) and \\(4x + 6y = 350\\). Ratios: \\(a_1/a_2 = 2/4 = 1/2\\), \\(b_1/b_2 = 3/6 = 1/2\\), \\(c_1/c_2 = 180/350 = 18/35 \\neq 1/2\\). Since \\(a_1/a_2 = b_1/b_2 \\neq c_1/c_2\\), lines are parallel — no solution. This means the prices changed or the data is inconsistent. A poor answer would give equations that are coincident or intersecting, showing the student cannot construct the specific ratio condition for parallel lines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

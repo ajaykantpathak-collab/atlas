@@ -1,0 +1,488 @@
+{
+ "catalog": "catalog_class11_maths_ch107.json",
+ "concepts": [
+  {
+   "id": "kemh107.7.2.1",
+   "title": "Pascal's Triangle and Binomial Coefficients",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 7 gives 63",
+     "compute": "total = 9 * 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 8?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 5 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "33554432",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 4 at a time.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.2",
+   "title": "Binomial Theorem for Positive Integral Index",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 4 gives 20",
+     "compute": "total = 5 * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 6?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 7 distinct objects taken 2 at a time.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.3",
+   "title": "Binomial Expansion of (x - y)^n",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 6 with a set of size 8?",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 6 elements have?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 1 at a time.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.4",
+   "title": "Binomial Expansion of (1 + x)^n and (1 - x)^n",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 9 gives 45",
+     "compute": "total = 5 * 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 9 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 9 with a set of size 7?",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 9 elements have?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 5 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "33554432",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 8 distinct objects taken 2 at a time.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.5",
+   "title": "Numerical Evaluation of Powers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 4 ** (3 + 2) gives 1024",
+     "compute": "val = 4 ** (3 + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^2.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 7^3 / 7^2.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^2)^3 using the power of a power law.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^2 x 2^2 using a^m x b^m = (ab)^m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-2) and give the value as a fraction.",
+     "a": "1/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.6",
+   "title": "Comparing Large Numbers using Binomial Theorem",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 5?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 3 at a time.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.7",
+   "title": "Divisibility and Remainder Proofs",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 6 * 1 gives 6",
+     "compute": "hcf = 6 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 30 and 36 have HCF 6 with coprime multipliers 5 and 6. Verify by computing hcf = 6 x 1; then find the HCF value.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 30 and 36 given their HCF is 6 and HCF x LCM = product of the numbers.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 30 and 36 is 180. Use HCF x LCM = a x b to find their HCF.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 30 cm and 36 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 30 minutes and 36 minutes. After how many minutes will they next ring together?",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 100?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.8",
+   "title": "Number of Terms in a Binomial Expansion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 7 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 6?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 2 at a time.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.9",
+   "title": "Sum of Binomial Coefficients",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 4 with a set of size 7?",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 4 elements have?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 2 at a time.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.10",
+   "title": "Sum of Multiplied Binomial Coefficients",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 3 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 7 with a set of size 2?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 7 elements have?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 1 at a time.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.11",
+   "title": "Expansion of Trinomials and Grouping",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 8 * 100 + 6 * 10 + 2 gives 9862",
+     "compute": "big = 9 * 1000 + 8 * 100 + 6 * 10 + 2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 2 * 1000 + 6 * 100 + 8 * 10 + 9 gives 2689",
+     "compute": "small = 2 * 1000 + 6 * 100 + 8 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7173",
+     "compute": "diff = big - small"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For the digits 6, 8, 9, 2 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "7173",
+     "self_check": false
+    },
+    {
+     "q": "The number 8298 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 8298.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 8298 (= 27) is divided by 9.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 62, reverse its digits to get 26, and find the positive difference (a Kaprekar-style step).",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 62 (digits 6 and 2), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

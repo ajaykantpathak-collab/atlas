@@ -1,0 +1,485 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Polynomials",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh102.txt",
+ "concepts": [
+  {
+   "id": "jemh.2.1.1",
+   "title": "Degree and Classification of Polynomials",
+   "section": "2.1",
+   "definition": "The degree of a polynomial is the highest power of the variable in its terms, which categorizes it into linear, quadratic, or cubic types.",
+   "formula": "degree = max(exponent_1, exponent_2, ...)",
+   "key_idea": "The highest exponent of the variable determines the polynomial's classification.",
+   "textbook_ref": "jemh102.txt lines 10-35",
+   "question_patterns": [
+    "what is the degree of the polynomial",
+    "classify the polynomial as linear, quadratic or cubic",
+    "identify the degree of the given expression",
+    "determine if the polynomial is linear or quadratic",
+    "find the degree of the polynomial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exponents of all terms",
+     "explain": "Look at the power of the variable in each term of the polynomial expression."
+    },
+    {
+     "step": 2,
+     "action": "Find the highest exponent",
+     "explain": "The highest power of the variable is defined as the degree of the polynomial."
+    },
+    {
+     "step": 3,
+     "action": "Determine the classification",
+     "explain": "If the degree is 1, it is a linear polynomial; if 2, it is a quadratic polynomial; if 3, it is a cubic polynomial."
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.1.2",
+   "title": "Value of a Polynomial at a Point",
+   "section": "2.1",
+   "definition": "The value of a polynomial p(x) at a given real number k is obtained by substituting k for the variable x throughout the expression.",
+   "formula": "p(k) = a * k^2 + b * k + c",
+   "key_idea": "Substitute the target real number into the polynomial expression and evaluate the arithmetic result.",
+   "textbook_ref": "jemh102.txt lines 36-55",
+   "question_patterns": [
+    "find the value of the polynomial at x = k",
+    "evaluate the polynomial for a given value of x",
+    "calculate p(k) for the polynomial p(x)",
+    "what is the value of the expression when x is substituted with"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate the quadratic term",
+     "explain": "Multiply coefficient a by the square of k",
+     "compute": "term1 = a * k * k"
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the linear term",
+     "explain": "Multiply coefficient b by k",
+     "compute": "term2 = b * k"
+    },
+    {
+     "step": 3,
+     "action": "Sum the terms and constant to find the value",
+     "explain": "Add the quadratic term, linear term, and constant term c",
+     "compute": "value = term1 + term2 + c"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.2.1",
+   "title": "Geometrical Meaning of Zeroes",
+   "section": "2.2",
+   "definition": "The real zeroes of a polynomial correspond to the x-coordinates of the points where its graph intersects or touches the x-axis.",
+   "formula": "number_of_zeroes = number_of_x_intercepts",
+   "key_idea": "The number of real zeroes is equal to the number of intersection points of the graph with the x-axis.",
+   "textbook_ref": "jemh102.txt lines 56-180",
+   "question_patterns": [
+    "find the number of zeroes of p(x) from the graph",
+    "how many zeroes does the polynomial have based on the given graph",
+    "determine the number of zeroes from the curve",
+    "count the number of zeroes of the polynomial shown in the figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the graph of y = p(x)",
+     "explain": "Look at the curve plotted on the Cartesian plane."
+    },
+    {
+     "step": 2,
+     "action": "Identify the points of intersection with the x-axis",
+     "explain": "Locate all points where the graph crosses or touches the horizontal axis."
+    },
+    {
+     "step": 3,
+     "action": "Count the intersection points",
+     "explain": "The total number of these points is equal to the number of real zeroes of the polynomial."
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3.1",
+   "title": "Finding Zeroes of a Quadratic Polynomial",
+   "section": "2.3",
+   "definition": "Finding the values of the variable that make a quadratic polynomial equal to zero, typically by factoring it into linear factors.",
+   "formula": "ax^2 + bx + c = a(x - alpha)(x - beta)",
+   "key_idea": "Splitting the middle term to factorize and solve for the roots.",
+   "textbook_ref": "jemh102.txt lines 181-220",
+   "question_patterns": [
+    "find the zeroes of the quadratic polynomial",
+    "calculate the roots of the quadratic expression",
+    "solve for the zeroes of the polynomial",
+    "determine the zeroes of the quadratic equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the discriminant",
+     "explain": "Calculate b^2 - 4ac to determine the nature of roots",
+     "compute": "discriminant = b * b - 4 * a * c"
+    },
+    {
+     "step": 2,
+     "action": "Compute the square root of the discriminant",
+     "explain": "Find the square root of the discriminant",
+     "compute": "sqrt_d = sqrt(discriminant)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the first zero (alpha)",
+     "explain": "Use the quadratic formula with the positive sign",
+     "compute": "alpha = (-b + sqrt_d) / (2 * a)"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the second zero (beta)",
+     "explain": "Use the quadratic formula with the negative sign",
+     "compute": "beta = (-b - sqrt_d) / (2 * a)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3.2",
+   "title": "Relationship between Zeroes and Coefficients of a Quadratic Polynomial",
+   "section": "2.3",
+   "definition": "Verification that the sum of the zeroes of a quadratic polynomial equals -b/a and the product of the zeroes equals c/a.",
+   "formula": "sum_of_zeroes = -b/a, product_of_zeroes = c/a",
+   "key_idea": "The coefficients of a quadratic polynomial directly relate to the sum and product of its roots.",
+   "textbook_ref": "jemh102.txt lines 221-250",
+   "question_patterns": [
+    "verify the relationship between the zeroes and coefficients",
+    "show that the sum and product of zeroes match the coefficients",
+    "verify the relation of zeroes and coefficients for the quadratic polynomial",
+    "establish the connection between roots and coefficients of"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the sum of the zeroes",
+     "explain": "Add alpha and beta",
+     "compute": "sum_zeroes = alpha + beta"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio -b/a",
+     "explain": "Divide negative of coefficient b by coefficient a",
+     "compute": "neg_b_over_a = -b / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the product of the zeroes",
+     "explain": "Multiply alpha and beta",
+     "compute": "prod_zeroes = alpha * beta"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio c/a",
+     "explain": "Divide constant term c by coefficient a",
+     "compute": "c_over_a = c / a"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3.3",
+   "title": "Formulation of a Quadratic Polynomial",
+   "section": "2.3",
+   "definition": "Constructing a quadratic polynomial when the sum and product of its zeroes are given.",
+   "formula": "p(x) = x^2 - (sum_of_zeroes) * x + (product_of_zeroes)",
+   "key_idea": "A quadratic polynomial is represented by x^2 - S x + P, where S is the sum and P is the product of the zeroes.",
+   "textbook_ref": "jemh102.txt lines 251-270",
+   "question_patterns": [
+    "find a quadratic polynomial with the given sum and product of zeroes",
+    "form a quadratic polynomial whose sum and product of zeroes are",
+    "write the quadratic polynomial if sum of zeroes is and product is",
+    "construct a quadratic polynomial given its sum and product of roots"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the coefficient of x",
+     "explain": "The coefficient of x is the negative of the sum of zeroes",
+     "compute": "b = -sum_val"
+    },
+    {
+     "step": 2,
+     "action": "Determine the constant term",
+     "explain": "The constant term is equal to the product of zeroes",
+     "compute": "c = prod_val"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3.4",
+   "title": "Relationship between Zeroes and Coefficients of a Cubic Polynomial",
+   "section": "2.3",
+   "definition": "The relationships between the three zeroes of a cubic polynomial ax^3 + bx^2 + cx + d and its coefficients.",
+   "formula": "sum = -b/a, sum_product = c/a, product = -d/a",
+   "key_idea": "The sum, sum of pairwise products, and product of the roots of a cubic polynomial are determined by its coefficients.",
+   "textbook_ref": "jemh102.txt lines 271-315",
+   "question_patterns": [
+    "verify the relationship between zeroes and coefficients of a cubic polynomial",
+    "find the sum and product of zeroes of a cubic polynomial",
+    "verify the cubic polynomial relations for zeroes",
+    "show the relationship between coefficients and roots of a cubic expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the sum of the zeroes",
+     "explain": "Add alpha, beta, and gamma",
+     "compute": "sum_zeroes = alpha + beta + gamma"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio -b/a",
+     "explain": "Divide negative of coefficient b by coefficient a",
+     "compute": "neg_b_over_a = -b / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the sum of products of zeroes taken two at a time",
+     "explain": "Calculate alpha*beta + beta*gamma + gamma*alpha",
+     "compute": "sum_prod_two = alpha * beta + beta * gamma + gamma * alpha"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio c/a",
+     "explain": "Divide coefficient c by coefficient a",
+     "compute": "c_over_a = c / a"
+    },
+    {
+     "step": 5,
+     "action": "Compute the product of all three zeroes",
+     "explain": "Multiply alpha, beta, and gamma",
+     "compute": "prod_three = alpha * beta * gamma"
+    },
+    {
+     "step": 6,
+     "action": "Compute the ratio -d/a",
+     "explain": "Divide negative of constant term d by coefficient a",
+     "compute": "neg_d_over_a = -d / a"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh102.txt lines 165-180",
+   "concept": "jemh.2.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Look at the graphs in Fig. 2.9. Each is the graph of y = p(x), where p(x) is a polynomial. For each of the graphs, find the number of zeroes of p(x).",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine the graph of y = p(x)",
+     "explain": "Look at the curve plotted on the Cartesian plane."
+    },
+    {
+     "step": 2,
+     "action": "Identify the points of intersection with the x-axis",
+     "explain": "Locate all points where the graph crosses or touches the horizontal axis."
+    },
+    {
+     "step": 3,
+     "action": "Count the intersection points",
+     "explain": "The total number of these points is equal to the number of real zeroes of the polynomial."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh102.txt lines 225-235",
+   "concept": "jemh.2.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find the zeroes of the quadratic polynomial x^2 + {b}x + {c}, and verify the relationship between the zeroes and the coefficients.",
+   "extracted_variables": {
+    "a": 1,
+    "b": 7,
+    "c": 10,
+    "alpha": -2,
+    "beta": -5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the sum of the zeroes",
+     "explain": "Add alpha and beta",
+     "compute": "sum_zeroes = alpha + beta"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio -b/a",
+     "explain": "Divide negative of coefficient b by coefficient a",
+     "compute": "neg_b_over_a = -b / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the product of the zeroes",
+     "explain": "Multiply alpha and beta",
+     "compute": "prod_zeroes = alpha * beta"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio c/a",
+     "explain": "Divide constant term c by coefficient a",
+     "compute": "c_over_a = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh102.txt lines 236-248",
+   "concept": "jemh.2.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find the zeroes of the polynomial x^2 - {const_val} and verify the relationship between the zeroes and the coefficients.",
+   "extracted_variables": {
+    "a": 1,
+    "b": 0,
+    "c": -3,
+    "alpha": 1.732,
+    "beta": -1.732
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the sum of the zeroes",
+     "explain": "Add alpha and beta",
+     "compute": "sum_zeroes = alpha + beta"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio -b/a",
+     "explain": "Divide negative of coefficient b by coefficient a",
+     "compute": "neg_b_over_a = -b / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the product of the zeroes",
+     "explain": "Multiply alpha and beta",
+     "compute": "prod_zeroes = alpha * beta"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio c/a",
+     "explain": "Divide constant term c by coefficient a",
+     "compute": "c_over_a = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh102.txt lines 249-260",
+   "concept": "jemh.2.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find a quadratic polynomial, the sum and product of whose zeroes are {sum_val} and {prod_val}, respectively.",
+   "extracted_variables": {
+    "sum_val": -3,
+    "prod_val": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine the coefficient of x",
+     "explain": "The coefficient of x is the negative of the sum of zeroes",
+     "compute": "b = -sum_val"
+    },
+    {
+     "step": 2,
+     "action": "Determine the constant term",
+     "explain": "The constant term is equal to the product of zeroes",
+     "compute": "c = prod_val"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh102.txt lines 285-315",
+   "concept": "jemh.2.3.4",
+   "question_type": "compute",
+   "question_pattern": "Verify that {alpha}, {beta}, {gamma} are the zeroes of the cubic polynomial {a}x^3 + {b}x^2 + {c}x + {d}, and then verify the relationship between the zeroes and the coefficients.",
+   "extracted_variables": {
+    "alpha": 3,
+    "beta": -1,
+    "gamma": -0.333,
+    "a": 3,
+    "b": -5,
+    "c": -11,
+    "d": -3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the sum of the zeroes",
+     "explain": "Add alpha, beta, and gamma",
+     "compute": "sum_zeroes = alpha + beta + gamma"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio -b/a",
+     "explain": "Divide negative of coefficient b by coefficient a",
+     "compute": "neg_b_over_a = -b / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the sum of products of zeroes taken two at a time",
+     "explain": "Calculate alpha*beta + beta*gamma + gamma*alpha",
+     "compute": "sum_prod_two = alpha * beta + beta * gamma + gamma * alpha"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio c/a",
+     "explain": "Divide coefficient c by coefficient a",
+     "compute": "c_over_a = c / a"
+    },
+    {
+     "step": 5,
+     "action": "Compute the product of all three zeroes",
+     "explain": "Multiply alpha, beta, and gamma",
+     "compute": "prod_three = alpha * beta * gamma"
+    },
+    {
+     "step": 6,
+     "action": "Compute the ratio -d/a",
+     "explain": "Divide negative of constant term d by coefficient a",
+     "compute": "neg_d_over_a = -d / a"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "jemh102.txt lines 175-180",
+   "questions": [
+    "The graphs of y = p(x) are given in Fig. 2.10 below, for some polynomials p(x). Find the number of zeroes of p(x), in each case."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "jemh102.txt lines 316-335",
+   "questions": [
+    "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: (i) x^2 - 2x - 8 (ii) 4s^2 - 4s + 1 (iii) 6x^2 - 3 - 7x (iv) 4u^2 + 8u (v) t^2 - 15 (vi) 3x^2 - x - 4",
+    "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: (i) 1/4, -1 (ii) sqrt(2), 1/3 (iii) 0, sqrt(5) (iv) 1, 1 (v) -1/4, 1/4 (vi) 4, 1"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

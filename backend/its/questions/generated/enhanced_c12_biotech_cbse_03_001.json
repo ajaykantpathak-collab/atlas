@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_001",
+   "title": "c12_biotech_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define gene cloning in one sentence using the terms \"vector\", \"host cell\", and \"recombinant DNA\".",
+     "a": "Gene cloning is the process of inserting a target DNA fragment into a vector to form recombinant DNA, introducing it into a host cell, and replicating it within the host to produce multiple identical copies.  \n**Wrong answer analysis:** If a student writes \"Gene cloning is making copies of a gene using PCR,\" they confuse **in vivo cloning** (this node) with **in vitro amplification** (PCR, covered later). If they omit \"vector\" or \"host cell,\" they miss the essential biological context — cloning requires a living system, not just a test tube.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Gene cloning and PCR both make many copies of DNA, so they are the same thing.\" Explain why this is incorrect by contrasting the **mechanism**, **scale**, and **requirement for a living host** in two sentences.",
+     "a": "Gene cloning uses a living host cell's replication machinery to amplify DNA **in vivo** and requires a vector and transformation, whereas PCR uses a heat-stable DNA polymerase (Taq) to amplify DNA **in vitro** in a thermocycler without any living cells. Cloning produces a stable, propagatable recombinant organism; PCR produces a transient tube of amplicons.  \n**Wrong answer analysis:** If the student only mentions \"PCR is faster\" or \"cloning uses bacteria,\" they focus on superficial differences. The core distinction is **in vivo vs. in vitro replication mechanism** — a conceptual boundary tested in NEET (e.g., \"Which technique requires a vector?\").",
+     "self_check": true
+    },
+    {
+     "q": "You have identified the human *INS* gene (encoding insulin) as your candidate gene. List the **next four steps** in the gene cloning workflow in correct order, and for each step name **one critical reagent or tool** required (e.g., \"restriction enzyme\" for cutting).",
+     "a": "1. **Isolation of nucleic acids** – critical reagent: **lysozyme/SDS/CTAB** (cell lysis) + **phenol-chloroform** (deproteinization) + **ethanol** (precipitation).  \n2. **Cutting vector and insert with restriction enzyme** – critical reagent: **Type II restriction enzyme** (e.g., EcoRI) producing compatible sticky ends.  \n3. **Ligation of insert into vector** – critical reagent: **T4 DNA ligase** + **ATP**.  \n4. **Introduction of recombinant DNA into host (transformation)** – critical reagent: **CaCl₂/heat shock** or **electroporator**.  \n**Wrong answer analysis:** If the student lists \"PCR amplification\" as step 2, they are skipping the essential **restriction-ligation** step that defines traditional cloning. If they put \"screening\" before \"transformation,\" they violate the logical dependency: you cannot screen what hasn't entered the host.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **genomic library** and **cDNA library** construction with respect to: (a) starting material, (b) representation of introns, (c) tissue specificity, and (d) utility for expressing a eukaryotic protein in *E. coli*. Present as a 4-row table.",
+     "a": "| Feature                | Genomic Library                          | cDNA Library                              |\n|------------------------|------------------------------------------|-------------------------------------------|\n| (a) Starting material  | Genomic DNA (total nuclear DNA)          | mRNA isolated from specific tissue        |\n| (b) Introns            | **Present** (includes introns & exons)   | **Absent** (only exons, spliced mRNA)     |\n| (c) Tissue specificity | **Not tissue-specific** (same in all cells) | **Tissue-specific** (reflects expression) |\n| (d) Expression in *E. coli* | **Poor** (eukaryotic introns not spliced in bacteria) | **Good** (intron-free, directly translatable) |\n\n**Wrong answer analysis:** If the student says cDNA library contains introns, they confuse **genomic DNA** with **processed mRNA**. If they say genomic library is tissue-specific, they misunderstand that **every somatic cell has the same genome**. This comparison is a favorite CBSE 5-marker and NEET assertion-reason trap.",
+     "self_check": true
+    },
+    {
+     "q": "A research team wants to clone a **eukaryotic gene with 5 introns** into *E. coli* for protein production. They have two options: (A) clone the genomic DNA fragment into a bacterial expression vector, or (B) isolate mRNA from the expressing tissue, make cDNA, and clone that. Evaluate which option will yield functional protein and justify with **two molecular reasons**.",
+     "a": "**Option B (cDNA) will yield functional protein; Option A will not.**  \n**Reason 1:** *E. coli* lacks the **spliceosome machinery** to remove eukaryotic introns from pre-mRNA, so genomic DNA transcription in bacteria produces a non-functional mRNA with retained introns.  \n**Reason 2:** cDNA is synthesized from **fully processed, spliced mRNA**, so it contains only exons and can be directly transcribed and translated in *E. coli* to give the correct polypeptide.  \n**Wrong answer analysis:** If the student chooses Option A and argues \"genomic DNA has the complete gene,\" they ignore the **host compatibility** constraint — a classic NEET trap where \"complete gene\" ≠ \"expressible gene.\" If they mention only one reason (e.g., only introns), they miss the **positive advantage of cDNA** (ready-to-translate ORF).",
+     "self_check": true
+    },
+    {
+     "q": "Design a **mini gene cloning project** for a Class 12 science exhibition: you want to clone the *Bt* toxin gene (*cry1Ac*) from *Bacillus thuringiensis* into *E. coli* and demonstrate insecticidal activity. Write a **6-step workflow** with **one specific enzyme/reagent per step** (use actual names like \"EcoRI\", \"T4 DNA ligase\", \"CaCl₂\", \"ampicillin\", \"X-gal/IPTG\", \"IPTG induction\"). Include a **blue-white screening** step.",
+     "a": "1. **Isolate genomic DNA** from *B. thuringiensis* – reagent: **lysozyme + SDS + phenol-chloroform + ethanol**.  \n2. **Cut *cry1Ac* gene and plasmid vector (pUC19)** – enzyme: **EcoRI** (produces sticky ends in *lacZ* MCS).  \n3. **Ligate *cry1Ac* into pUC19** – enzyme: **T4 DNA ligase + ATP**.  \n4. **Transform into *E. coli* DH5α** – reagent: **CaCl₂ + heat shock (42°C, 90 sec)**.  \n5. **Select & screen recombinants** – plate on **LB + ampicillin + X-gal + IPTG**; pick **white colonies** (insert disrupts *lacZ*).  \n6. **Express & test toxin** – grow white colony in **LB + ampicillin + IPTG**; assay supernatant on *Helicoverpa armigera* larvae.  \n**Wrong answer analysis:** If the student uses \"blue colonies\" as recombinants, they invert the blue-white logic (white = insert present). If they omit IPTG in step 5, *lacZ* isn't induced → no color development. If they skip ampicillin in step 6, plasmid loss occurs. This tests **integrated application** of cloning + screening + expression — a CUET/board case-study favorite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_006",
+   "title": "c12_cs_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the primary difference between the selection (σ) and projection (π) operations in relational algebra in terms of what they filter?",
+     "a": "Selection filters tuples (rows) based on a condition, reducing the number of rows but keeping all columns. Projection filters attributes (columns) by specifying a list of columns to keep, reducing the number of columns and also removing duplicate rows. A wrong answer that says both filter rows reveals confusion between row-level and column-level operations.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a relation R(A, B, C) with 10 tuples. If we apply π_A,B(R), what is the maximum possible number of tuples in the result? Explain why the actual number might be less than this maximum.",
+     "a": "The maximum is 10 (same as original) because projection does not increase tuples. The actual number can be less because projection removes duplicate rows — if two tuples have identical values for A and B, they become one tuple in the result. A student who answers \"10\" without mentioning duplicate removal misunderstands that projection includes implicit duplicate elimination.",
+     "self_check": true
+    },
+    {
+     "q": "Given relation Student(RollNo, Name, Class, Marks) with the following tuples:\n(1, 'Aman', 12, 85), (2, 'Priya', 11, 92), (3, 'Rahul', 12, 78), (4, 'Neha', 10, 88), (5, 'Aman', 12, 85).\nWrite the relational algebra expression to get the names of all Class 12 students who scored more than 80, and show the result.",
+     "a": "Expression: π_Name(σ_Class=12 ∧ Marks>80(Student))\nStep 1: Selection σ_Class=12 ∧ Marks>80 yields tuples (1, 'Aman', 12, 85) and (3, 'Rahul', 12, 78) — wait, 78 is not >80, so only (1, 'Aman', 12, 85).\nStep 2: Projection π_Name on that result gives {'Aman'}.\nA wrong answer that includes 'Rahul' shows failure to evaluate the Marks>80 condition correctly; an answer that includes both 'Aman' entries shows forgetting duplicate removal in projection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of π_A,B(σ_C>5(R)) and σ_C>5(π_A,B(R)) for a relation R(A, B, C). Are they always equivalent? Justify your answer.",
+     "a": "They are NOT equivalent. In the first expression, selection uses attribute C which is still available, then projection removes C. In the second, projection removes C first, making the condition C>5 invalid (attribute C no longer exists). A student who says they are equivalent fails to recognize that the order of operations matters when the selection condition references an attribute that projection would drop.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the expression σ_Marks>90(π_Name,Marks(Student)) to find names of students with marks > 90. Evaluate whether this expression is valid and if it produces the intended result.",
+     "a": "The expression is syntactically valid but logically flawed. Projection π_Name,Marks is applied first, which retains only Name and Marks columns. Then selection σ_Marks>90 can still use Marks because it's still present. However, if there were duplicate (Name, Marks) pairs, projection would have removed them before selection, potentially altering the result. The correct order for preserving all qualifying tuples is selection first, then projection. A student who says it's perfectly correct misses the duplicate elimination side-effect of early projection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a relational algebra query using only selection and projection to answer: \"Find the roll numbers of students who are in Class 12 and have the same marks as at least one other Class 12 student.\" Assume relation Student(RollNo, Name, Class, Marks). Explain your approach.",
+     "a": "This requires a self-join which cannot be expressed with only selection and projection — it needs a join or a more advanced operation. A good answer recognizes the limitation and states that selection and projection alone cannot compare marks across different tuples. A student who attempts to write an expression using only σ and π reveals a misunderstanding that these operations work tuple-by-tuple and cannot correlate values across tuples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_002",
+   "title": "c11_eng_h_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the narrative function of the frame story (Gaitonde telling Rajendra about his experience) in \"The Adventure\"?",
+     "a": "The frame story provides a realistic anchor for the fantastical alternate-history episode, establishes Gaitonde as a credible historian-narrator, and creates a structural container that allows the scientific explanation (catastrophe theory/quantum mechanics) to serve as the narrative resolution. A wrong answer that treats the frame as mere \"introduction/conclusion\" reveals the student misses how the frame enables the story's central structural innovation: using scientific theory as a literary resolution device.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Battle of Panipat functions as the structural \"bifurcation point\" rather than just a historical setting in the story.",
+     "a": "The Battle of Panipat is the precise narrative hinge where the single timeline splits into two parallel worlds (our history vs. alternate history), making it the structural equivalent of a quantum measurement event. The story explicitly maps catastrophe theory's \"cusp catastrophe\" onto this battle: Vishwasrao's survival/death is the control parameter that flips the system between two stable equilibria (British dominance vs. Maratha supremacy). A student who describes it only as \"important historical background\" fails to see how the author uses a historical event as a structural mechanic to generate the alternate world.",
+     "self_check": true
+    },
+    {
+     "q": "Map the five-stage plot structure (exposition, rising action, climax, falling action, resolution) onto Gaitonde's alternate-history episode (from train arrival to Azad Maidan ejection).",
+     "a": "Exposition: Train arrives at Sarhad/VT, Gaitonde discovers East India House. Rising Action: Library research reveals Maratha victory at Panipat; Bakhar shows Vishwasrao's near-miss. Climax: Gaitonde occupies presidential chair at Azad Maidan lecture, faces hostile crowd. Falling Action: Crowd ejects him; he vanishes from that world. Resolution: Returns to original world, shows torn Bakhar page to Rajendra. A student who places the climax at \"finding the Bakhar\" confuses discovery (rising action) with the peak dramatic confrontation (climax).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"The Adventure\" with \"We're Not Afraid to Die...\" (Class 11 Hornbill Ch.2). How does each use a \"journey\" structure differently?",
+     "a": "\"We're Not Afraid to Die...\" uses a linear chronological journey (Plymouth → Southern Ocean → survival) where the physical voyage mirrors the emotional arc. \"The Adventure\" uses a dual journey: physical (Pune → Bombay → Azad Maidan) in the alternate world, and metaphysical (world A → world B → world A) via quantum transition. The former's structure is cumulative tension; the latter's is bifurcation and return. A student who says \"both are journey stories\" misses the fundamental structural difference: linear accumulation vs. quantum branching.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether Rajendra's scientific explanation (catastrophe theory + quantum mechanics) serves as a genuine narrative resolution or merely a pseudo-scientific veneer. Justify with structural evidence.",
+     "a": "It functions as a genuine structural resolution because: (1) It answers the central structural question raised in the frame (\"where did I go for two days?\"), (2) It retroactively structures the alternate-history episode as a \"transition\" rather than a dream/hallucination, (3) The torn Bakhar page serves as physical evidence bridging the two narrative layers, (4) The theory's terminology (bifurcation, transition, observer) maps precisely onto the story's structural mechanics. A student calling it \"just science talk\" fails to see how the explanation resolves the narrative's central structural tension: the ontological status of the alternate world.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph alternate ending for \"The Adventure\" that changes the narrative structure from \"quantum transition\" to \"psychological breakdown\" while keeping all plot events identical until the final conversation with Rajendra.",
+     "a": "A successful answer rewrites the final scene: Rajendra reveals the torn page is from Gaitonde's own unpublished manuscript; the \"transition\" was a stress-induced fugue state triggered by the truck collision while obsessing over Panipat. The structure shifts from science-fiction bifurcation to psychological realism. A poor answer merely changes the dialogue without altering the structural logic (e.g., \"Rajendra says it was a dream\" without addressing the physical evidence).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

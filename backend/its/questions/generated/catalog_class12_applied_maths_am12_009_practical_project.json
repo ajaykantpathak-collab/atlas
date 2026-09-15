@@ -1,0 +1,140 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_009_practical_project.json",
+ "concepts": [
+  {
+   "id": "am12_009.1",
+   "title": "Assessment Plan Internal and External",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 7 + 9 gives 19",
+     "compute": "total = 3 + 7 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 3, 7 and 9. Find the total frequency.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 20 units. If a row shows 3 symbols, what value does it represent?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 20 units, how many symbols represent 260 units?",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 20 books. A bar is 3 units tall. How many books does it show?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 95 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_009.2",
+   "title": "Spreadsheet Graphs and Matrix Operations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 9 + 2 + 7 gives 18",
+     "compute": "total = 9 + 2 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 9, 2 and 7. Find the total frequency.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 10 units. If a row shows 3 symbols, what value does it represent?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 10 units, how many symbols represent 100 units?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 12 units tall. How many books does it show?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 35 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_009.3",
+   "title": "Simulation and Business Decision Inference",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 3 + 4 gives 13",
+     "compute": "total = 6 + 3 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 6, 3 and 4. Find the total frequency.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 11 symbols, what value does it represent?",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 30 units?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 7 units tall. How many books does it show?",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 85 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 30 out of 120 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

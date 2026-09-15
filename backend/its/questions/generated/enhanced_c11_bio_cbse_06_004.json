@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_004",
+   "title": "c11_bio_cbse_06_004",
+   "questions": [
+    {
+     "q": "Name the innermost layer of the cortex in roots and state the chemical nature of the thickenings on its radial and tangential walls.",
+     "a": "The innermost layer of the cortex is the endodermis. Its radial and tangential walls have deposits of suberin, a waxy, water-impermeable substance, forming Casparian strips. A wrong answer (e.g., \"epidermis\" or \"lignin\") reveals confusion between root and stem tissue layers or between different wall thickening materials.",
+     "self_check": true
+    },
+    {
+     "q": "Why are Casparian strips considered a \"checkpoint\" for mineral entry into the vascular cylinder, and what would happen if they were absent?",
+     "a": "Casparian strips block the apoplastic pathway (cell wall continuum), forcing water and dissolved minerals to cross the selectively permeable plasma membrane of endodermal cells, allowing the plant to control which ions enter the xylem. Without them, uncontrolled passive flow would occur, leading to toxic ion accumulation or nutrient deficiency. A wrong answer indicates the student views Casparian strips merely as structural barriers rather than regulatory gates.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a root shows 12 xylem arms alternating with 12 phloem patches, a large central pith, and no cambium between xylem and phloem. Identify the root type and justify your answer with three anatomical features.",
+     "a": "This is a monocot root. Three justifications: (1) Polyarch condition (>6 xylem arms), (2) Large, well-developed pith, (3) Absence of cambium (closed vascular bundles) meaning no secondary growth. A wrong answer (e.g., \"dicot root\") shows inability to use xylem arm number and pith size as diagnostic criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin of lateral roots in dicot and monocot roots. How does the pericycle's position relative to the endodermis enable this function in both types?",
+     "a": "In both dicot and monocot roots, lateral roots originate endogenously from the pericycle, which lies just interior to the endodermis. This position ensures the new root apex must break through the endodermis and cortex, maintaining continuity of the Casparian strip barrier. The pericycle retains meristematic activity because it is derived from ground meristem and not fully differentiated. A wrong answer suggesting lateral roots arise from cortex or epidermis reveals confusion between endogenous (deep) and exogenous (superficial) origin.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Monocot roots have more xylem arms than dicot roots, so they must conduct water more efficiently.\" Evaluate this statement considering hydraulic conductivity, root pressure, and the role of pith.",
+     "a": "The claim is not necessarily true. While more xylem arms increase total cross-sectional area, monocot xylem vessels are often narrower and the large pith occupies central space that could be vascular tissue. Hydraulic conductivity depends on vessel diameter (fourth power relationship), number, and length, not just arm count. Dicot roots with fewer but wider vessels and ability for secondary growth (adding more xylem) often achieve higher long-term conductivity. Root pressure generation relies on active ion loading into xylem, which is regulated by endodermis in both types. A wrong agreement shows oversimplification of structure-function relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic experiment using temporary mounts to distinguish between a dicot and monocot root from unlabelled slides. List the steps, staining method, and the three key observations you would record.",
+     "a": "Steps: (1) Cut thin transverse sections of both roots using a razor blade. (2) Stain with safranin (red for lignified walls) and fast green (green for cellulose walls). (3) Mount in glycerine and observe under compound microscope. Key observations: (a) Number of xylem arms (2-4 vs >6), (b) Size of pith (small/inconspicuous vs large), (c) Presence of cambium strips between xylem and phloem (present in dicot, absent in monocot). A poor answer omits staining rationale or focuses only on root hairs (present in both).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

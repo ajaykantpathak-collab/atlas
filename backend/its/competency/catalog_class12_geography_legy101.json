@@ -1,0 +1,216 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "Human Geography Nature and Scope",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.101.1",
+   "title": "Nature and Scope of Human Geography",
+   "section": "Nature and Scope",
+   "definition": "Human geography studies the changing relationship between the resting human community and the active physical environment, synthesising ideas from sister disciplines; it moves from nature-humans to humans-nature and finally to human beings as modifiers of the earth.",
+   "formula": "",
+   "key_idea": "Geography is the study of areal differentiation: what is where, why there and how it changes through time.",
+   "textbook_ref": "legy101.txt nature of human geography and human-environment relationship sections",
+   "question_patterns": [
+    "define human geography and its scope",
+    "how does human geography synthesise ideas from other disciplines",
+    "what is meant by areal differentiation",
+    "trace the shift from nature-humans to humans-nature views",
+    "why is human geography called a synthesising discipline",
+    "distinguish physical geography from human geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the subject matter",
+     "explain": "the interaction of human society with the physical environment is the core object"
+    },
+    {
+     "step": 2,
+     "action": "note the synthesis",
+     "explain": "concepts are borrowed and reworked from sociology, economics, history and biology"
+    },
+    {
+     "step": 3,
+     "action": "close with areal difference",
+     "explain": "explaining why places differ is geography's signature task"
+    }
+   ]
+  },
+  {
+   "id": "legy.101.2",
+   "title": "Determinism, Possibilism and Neo-determinism",
+   "section": "Human Geography Through the Corridors of Time",
+   "definition": "Environmental determinism holds that nature controls human life and was associated with Ratzel and Semple; possibilism of Vidal de La Blache and Febvre counters that humans are active agents choosing within limits set by nature; Griffith Taylor's neo-determinism or stop-and-go determinism argues for balanced development respecting both human skill and environmental limits.",
+   "formula": "",
+   "key_idea": "The schools differ on agency: nature commands (determinism), humans command (possibilism), or a middle path times human action to environmental tolerance (neo-determinism).",
+   "textbook_ref": "legy101.txt determinism, possibilism and neo-determinism passages",
+   "question_patterns": [
+    "compare environmental determinism and possibilism with proponents",
+    "what does stop-and-go determinism propose",
+    "who propounded neo-determinism and why is it a middle path",
+    "which school did Ratzel and Semple belong to",
+    "give an example where possibilism explains human choices",
+    "why did scholars reject pure determinism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair school and scholar",
+     "explain": "Ratzel-Semple to determinism; Vidal de La Blache-Febvre to possibilism; Taylor to neo-determinism"
+    },
+    {
+     "step": 2,
+     "action": "test with an example",
+     "explain": "air conditioning and greenhouses show humans overcoming nature, the possibilist point"
+    },
+    {
+     "step": 3,
+     "action": "close with balance",
+     "explain": "Taylor stops development where environmental tolerance ends and goes where it resumes"
+    }
+   ]
+  },
+  {
+   "id": "legy.101.3",
+   "title": "Fields and Sub-fields of Human Geography",
+   "section": "Fields and Sub-fields of Human Geography",
+   "definition": "Human geography branches into social geography, urban and rural geography, population and settlement geography, economic geography (with agriculture, industry and tourism branches), historical, political, bio-geography and environmental geography, each linked to sister disciplines.",
+   "formula": "",
+   "key_idea": "Every sub-field pairs a geographical question with the concepts of a sister discipline, which is how the subject keeps expanding.",
+   "textbook_ref": "legy101.txt fields and sub-fields table",
+   "question_patterns": [
+    "list the major sub-fields of human geography",
+    "what does settlement geography study",
+    "how is economic geography subdivided",
+    "which sub-field links geography with political science",
+    "define bio-geography as given in the chapter",
+    "what is the place of environmental geography among sub-fields"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the branches",
+     "explain": "social, urban-rural, population-settlement and economic are the principal fields"
+    },
+    {
+     "step": 2,
+     "action": "link sister subjects",
+     "explain": "each sub-field is born where geography meets a companion discipline"
+    },
+    {
+     "step": 3,
+     "action": "close with purpose",
+     "explain": "the branches together cover every human activity over space"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy101_1",
+   "source_ref": "legy101.txt determinism-possibilism passage",
+   "concept": "legy.101.2",
+   "question_type": "short_answer",
+   "question_pattern": "Contrast environmental determinism and possibilism using one example each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state determinism",
+     "explain": "nature dictates livelihood, dress and housing; the equatorial forest tribes illustrate it"
+    },
+    {
+     "step": 2,
+     "action": "state possibilism",
+     "explain": "technology lets humans farm deserts and build in cold lands, so nature only proposes"
+    },
+    {
+     "step": 3,
+     "action": "verdict",
+     "explain": "modern geography accepts limits but stresses human agency"
+    }
+   ]
+  },
+  {
+   "id": "we_legy101_2",
+   "source_ref": "legy101.txt neo-determinism passage",
+   "concept": "legy.101.2",
+   "question_type": "short_answer",
+   "question_pattern": "Explain Griffith Taylor's stop-and-go determinism with its policy meaning.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the doctrine",
+     "explain": "human programmes should fit environmental tolerances rather than fight them"
+    },
+    {
+     "step": 2,
+     "action": "policy meaning",
+     "explain": "go where nature allows, stop where degradation begins, like traffic lights"
+    },
+    {
+     "step": 3,
+     "action": "verdict",
+     "explain": "it seeks balanced development between fatalism and arrogance"
+    }
+   ]
+  },
+  {
+   "id": "we_legy101_3",
+   "source_ref": "legy101.txt sub-fields table",
+   "concept": "legy.101.3",
+   "question_type": "short_answer",
+   "question_pattern": "Match four sub-fields of human geography with their sister disciplines.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "social geography",
+     "explain": "borrows from sociology the study of social groups over space"
+    },
+    {
+     "step": 2,
+     "action": "political geography",
+     "explain": "draws on political science for states, boundaries and power"
+    },
+    {
+     "step": 3,
+     "action": "economic geography",
+     "explain": "uses economics for production, exchange and consumption patterns"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy101_1",
+   "source_ref": "legy101.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "define human geography and show its links with sister disciplines",
+    "compare the three schools of human-environment relations",
+    "explain stop-and-go determinism with a development example",
+    "enumerate the sub-fields of human geography with their focus",
+    "why is human geography called the mother of allied branches"
+   ]
+  },
+  {
+   "id": "ex_legy101_2",
+   "source_ref": "legy101.txt applied questions, reworded",
+   "questions": [
+    "argue a possibilist case for modern technology in deserts",
+    "show how population geography and sociology interlock",
+    "evaluate determinism with a counterexample of your region",
+    "state the contribution of Vidal de La Blache to geography",
+    "distinguish physical and human geography by scope and method"
+   ]
+  }
+ ]
+}

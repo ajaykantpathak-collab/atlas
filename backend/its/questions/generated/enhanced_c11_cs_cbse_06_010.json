@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_010",
+   "title": "c11_cs_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nnumbers = [10, 20, 30, 40, 50, 60]\nprint(numbers[1:4])\n```",
+     "a": "The output is `[20, 30, 40]`. Slicing `numbers[1:4]` starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3. A wrong answer like `[20, 30, 40, 50]` reveals the student thinks the stop index is inclusive. An answer like `[10, 20, 30]` reveals confusion between 0-based indexing and 1-based counting.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = ['a', 'b', 'c', 'd', 'e']`, what does `data[-4:-1]` return? Explain in your own words how negative indices work in slicing.",
+     "a": "It returns `['b', 'c', 'd']`. Negative indices count from the end: -1 is last element ('e'), -2 is 'd', -3 is 'c', -4 is 'b'. The slice `[-4:-1]` starts at index -4 ('b') and goes up to but not including index -1 ('e'), so it includes -4, -3, -2. A wrong answer like `['c', 'd', 'e']` shows the student thinks negative slicing includes the stop index or misorders the start/stop. An answer `['a', 'b', 'c']` indicates they treat negative indices as positive from the start.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single slicing expression to extract every second element from the list `values = [5, 10, 15, 20, 25, 30, 35, 40]` starting from the first element (5) up to the end. What is the resulting list?",
+     "a": "The expression is `values[::2]` (or `values[0::2]`). The result is `[5, 15, 25, 35]`. Step=2 means take every second element. Default start=0 (first element), default stop=end of list. A wrong answer like `[10, 20, 30, 40]` (using `values[1::2]`) shows the student started at index 1 instead of 0. An answer `[5, 10, 15, 20]` (using `values[:4]`) ignores the step parameter entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Consider `list1 = [1, 2, 3]` and `list2 = [4, 5]`. Predict the results of:\n(a) `list1 + list2`\n(b) `list1 * 3`\n(c) `2 in list1 + list2`\nExplain the order of operations in (c).",
+     "a": "(a) `[1, 2, 3, 4, 5]` (concatenation creates a new list).\n(b) `[1, 2, 3, 1, 2, 3, 1, 2, 3]` (repetition repeats the list 3 times).\n(c) `True`. Order: `list1 + list2` is evaluated first (resulting in `[1,2,3,4,5]`), then `2 in [...]` checks membership. A wrong answer for (c) like `False` suggests the student thinks `in` has higher precedence than `+` or misreads the combined list. An answer for (b) like `[1,2,3,1,2,3]` (only 2 repetitions) shows confusion about the multiplier count.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `marks = [85, 90, 78, 92, 88]` and wants to check if *both* 90 and 95 are present. They write: `if 90 and 95 in marks:`. Will this work as intended? Justify your answer and provide the correct way to write this condition.",
+     "a": "No, it will not work as intended. The expression `90 and 95 in marks` is evaluated as `90 and (95 in marks)` because `in` has higher precedence than `and`. Since 90 is a non-zero integer (truthy), the result becomes the result of `95 in marks`, which is `False`. So the condition is `False` even though 90 is present. The correct way is `if 90 in marks and 95 in marks:`. A student who says \"it works\" reveals a fundamental misunderstanding of operator precedence and how `and` works with non-boolean operands.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list `prices` of 5 items. Write code using slicing and list operations to produce a new list `discounted` that contains the first three prices reduced by 10% (you cannot use loops or list comprehensions — only slicing, concatenation, repetition, and arithmetic on individual elements). Show the code and the output for `prices = [100, 200, 150, 300, 250]`.",
+     "a": "One possible solution:\n```python\nprices = [100, 200, 150, 300, 250]\ndiscounted = [prices[0]*0.9, prices[1]*0.9, prices[2]*0.9]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

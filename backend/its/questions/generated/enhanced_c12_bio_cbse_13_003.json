@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_003",
+   "title": "c12_bio_cbse_13_003",
+   "questions": [
+    {
+     "q": "Define \"adaptation\" in the evolutionary biology sense. How does it differ from \"acclimatization\"?",
+     "a": "Adaptation is a heritable trait that increases fitness in a specific environment, produced by natural selection over generations. Acclimatization is a short-term, reversible physiological adjustment within an individual's lifetime (e.g., increased RBC count at high altitude) that is not passed to offspring. A wrong answer (e.g., \"adaptation is when an organism changes to suit its environment\") reveals Lamarckian thinking — confusing phenotypic plasticity with genetic change.",
+     "self_check": true
+    },
+    {
+     "q": "A desert lizard basks in the sun to raise its body temperature and retreats into a burrow during peak heat. Classify this as morphological, physiological, or behavioral adaptation. Justify your choice.",
+     "a": "Behavioral adaptation — it is an action/activity pattern (basking, burrowing) that helps thermoregulation without altering body structure or internal biochemistry. A wrong classification (e.g., \"physiological because it involves temperature\") shows confusion between the *mechanism* (behavior) and the *outcome* (temperature regulation). The lizard's *ability* to sense temperature is physiological, but the *act* of moving is behavioral.",
+     "self_check": true
+    },
+    {
+     "q": "The kangaroo rat (North American desert) never drinks water; it survives on metabolic water from seeds. Its kidneys produce extremely concentrated urine. Identify the adaptation TYPE for each: (a) metabolic water production, (b) concentrated urine, (c) nocturnal foraging.",
+     "a": "(a) Physiological — biochemical pathway (fat oxidation yields water). (b) Physiological — kidney structure/function (long loops of Henle) enabling high osmolarity urine. (c) Behavioral — activity timing to avoid heat and reduce evaporative loss. A student who labels (a) as \"morphological\" confuses the *source* of water (seeds are structural, but the metabolic pathway is physiological). This tests precise categorization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the morphological adaptations of a xerophyte (e.g., *Opuntia*) and a hydrophyte (e.g., *Hydrilla*) for water management. Explain how each trait addresses the opposite selective pressure.",
+     "a": "*Opuntia*: leaves → spines (reduces transpiration), stem → flattened, green, succulent (photosynthesis + water storage), thick cuticle, sunken stomata. *Hydrilla*: leaves → thin, ribbon-like, no cuticle (direct absorption), stomata absent/vestigial, aerenchyma for buoyancy/gas exchange. A weak answer lists traits without linking to selective pressure (e.g., \"spines reduce water loss\" without stating *why* — low humidity, high temperature). This tests analytical comparison across environments.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The thick fur of a polar bear is an adaptation for cold; therefore, a polar bear moved to a zoo in Chennai will shed its fur and develop thinner fur as an adaptation to heat.\" Identify the error and correct it.",
+     "a": "Error: confuses adaptation (genetic, population-level, generational) with acclimatization (individual, reversible). The bear may shed some fur seasonally (acclimatization), but it cannot *evolve* thinner fur in its lifetime. Correct: thick fur is an adaptation fixed in the polar bear gene pool; in Chennai, the bear suffers heat stress — it may behaviorally seek shade/water, but no heritable change occurs. A student who agrees reveals the \"need-based evolution\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation to test whether the \"sunken stomata\" trait in a local xerophytic shrub (e.g., *Calotropis procera*) is a morphological adaptation reducing transpiration. Specify: (i) what you measure, (ii) control, (iii) expected outcome if adaptive.",
+     "a": "(i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken stomata vs. leaves where stomata are artificially exposed (e.g., by removing epidermal layer). (ii) Same plant, same microclimate, same leaf age. (iii) Intact sunken stomata show significantly lower transpiration. A poor design (e.g., comparing different species) fails to isolate the trait. This tests experimental reasoning linking structure to function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

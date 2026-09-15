@@ -1,0 +1,482 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 13,
+ "chapter_title": "Development Communication and Journalism",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe206.1",
+   "title": "Development Communication: Meaning and Essential Features",
+   "section": "Basic Concepts",
+   "definition": "Development communication puts planned messaging to work as an engine of social and economic progress, chiefly for groups left behind. Its hallmarks: information flows both ways, people facing a problem are trusted to help solve it, mass media are blended with face-to-face channels, and content is shaped around who the audience is and where they live.",
+   "formula": "two_way_dialogue plus audience_context plus motivation yields consensus and joint action",
+   "key_idea": "Planned, two-way messaging that treats people as capable partners rather than passive receivers.",
+   "textbook_ref": "lehe206.txt, Basic Concepts (approx lines 156-206)",
+   "question_patterns": [
+    "what is development communication and why is it called a catalyst for social change",
+    "who coined the term development communication and in which year",
+    "state four essential features of development communication",
+    "explain why development communication is described as a two way process",
+    "how does development communication build consensus between people and development agencies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the meaning",
+     "explain": "communication power used in a planned manner to advance an unequal society toward equity"
+    },
+    {
+     "step": 2,
+     "action": "list the features",
+     "explain": "orientation to socio-economic progress, community education, mixed media plus interpersonal channels, and audience-based design"
+    },
+    {
+     "step": 3,
+     "action": "explain the two-way nature",
+     "explain": "information holders dialogue with the uninformed; motivation and consensus lead to concerted action"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Planned messaging as an engine of social progress is called what communication: development or gossip?",
+     "a": "development"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.2",
+   "title": "Development Journalism and the Fourth Pillar",
+   "section": "Basic Concepts: development journalism",
+   "definition": "A newer branch of reporting, born after colonial rule ended, that highlights how ordinary people adopt new techniques and improve community life instead of covering only struggles, disasters and wars. The press is counted as the fourth pillar that keeps democracy upright by carrying people's opinions and expression.",
+   "formula": "development_journalism = success_stories plus people_at_work plus community_voices",
+   "key_idea": "Reporting people's progress, not just conflicts, keeps democracy's fourth pillar strong.",
+   "textbook_ref": "lehe206.txt, Introduction and Basic Concepts (approx lines 117-171)",
+   "question_patterns": [
+    "why is the press called the fourth pillar of democracy",
+    "distinguish development journalism from colonial era reporting",
+    "what does development journalism focus on today",
+    "explain the significance of development communication and journalism for an equitable society",
+    "how does journalism serve people's right to opinion and expression"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place journalism in democracy",
+     "explain": "people's participation grounds democracy; media carry opinion and expression, so the press stands as the fourth pillar"
+    },
+    {
+     "step": 2,
+     "action": "contrast the old and new reporting",
+     "explain": "pre-independence reporting followed colonial choices about struggles and disasters; today's development reporting describes people at work on new projects"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The press is counted as which pillar of democracy: the fourth or the first?",
+     "a": "the fourth"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.3",
+   "title": "Campaign as an Organised Communication Drive",
+   "section": "Method 1: Campaign",
+   "definition": "A time-bound, tightly organised drive that combines meetings, tours, newspaper articles, leaflets, exhibitions and drama around a single theme. Dramatic presentation across channels grabs attention, the message lodges in memory, and a climate for adopting new practices follows. Advocacy -- championing a cause such as preventing early marriage or deforestation through lobbying and alliances -- works in the same spirit.",
+   "formula": "campaign_impact = attention plus interest plus memory plus action across many channels",
+   "key_idea": "One theme, many channels, a fixed window -- intensity makes the message stick and moves people to act.",
+   "textbook_ref": "lehe206.txt, Method 1 Campaign and Swachh Bharat example (approx lines 272-286)",
+   "question_patterns": [
+    "define a campaign and list the communication materials it combines",
+    "why does a campaign leave a lasting impression and stimulate action",
+    "describe the Swachh Bharat Mission as a nationwide campaign",
+    "what is advocacy and how does it support causes like preventing early marriage of girls",
+    "design a slogan for a campaign on any social issue of your choice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the drive",
+     "explain": "an organised, intensive, fixed-period mix of meetings, tours, articles, leaflets and exhibitions on one theme"
+    },
+    {
+     "step": 2,
+     "action": "explain its power",
+     "explain": "dramatics across channels earn attention and interest; memory and a conducive climate follow, ending in adoption of practices"
+    },
+    {
+     "step": 3,
+     "action": "link advocacy",
+     "explain": "advocacy backs a cause by lobbying governments and multilateral bodies, building alliances and informing supporters"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A time-bound drive combining many channels around one theme is called a what: campaign or holiday?",
+     "a": "campaign"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.4",
+   "title": "Red Ribbon Express: Computing Campaign Reach",
+   "section": "Red Ribbon Express (RRE) box",
+   "definition": "Campaign reach can be measured. Aawareness trains such as the seven-coach Red Ribbon Express, run with NACO, NYKS, UNICEF and UNAIDS support, covered thousands of villages by halting at a fixed number of stations each year; dividing total village coverage by the halts gives the average villages served per stop.",
+   "formula": "villages_per_station = villages_covered / halt_stations",
+   "key_idea": "Coverage divided by halts gives the average villages served per stop.",
+   "textbook_ref": "lehe206.txt, Red Ribbon Express box (approx lines 230-269)",
+   "question_patterns": [
+    "find the average number of villages the Red Ribbon Express served at each halt station",
+    "calculate villages covered per halt when annual village coverage and the number of halt stations are known",
+    "the awareness train covered 43,200 villages halting at 180 stations; how many villages does one halt reach on average",
+    "compute the per-station village coverage of a travelling exhibition campaign",
+    "how many villages were reached per halt station during the Red Ribbon Express journey across India"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide coverage by halts",
+     "explain": "spreading total villages evenly over the halt stations yields the average villages served per stop",
+     "compute": "villages_per_station = villages_covered / halt_stations"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many coaches does the Red Ribbon Express carry: seven or seventy?",
+     "a": "seven"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.5",
+   "title": "Radio, Community Radio and Television Outreach",
+   "section": "Method 2: Radio and Television",
+   "definition": "Radio is the cheapest, most portable mass medium, reaching listeners whom poor literacy shuts off from print. Community radio goes further: local people run the station, broadcast in their own dialect and turn the medium into their voice, while NGOs and educational institutions may seek licences. Television adds participatory formats and pairs education with entertainment, and the EDUSAT satellite, launched in September 2004, serves distance education exclusively.",
+   "formula": "outreach = cheap_access plus local_voice plus interactive_formats",
+   "key_idea": "Radio travels with the listener; community radio lets people speak in their own voice and dialect.",
+   "textbook_ref": "lehe206.txt, Method 2 Radio and Television (approx lines 295-366)",
+   "question_patterns": [
+    "why is radio called the most accessible mass medium for development broadcasting",
+    "how is community radio different from All India Radio",
+    "list the programme formats in which radio development content is presented",
+    "name India's education satellite and state its purpose",
+    "how can television combine education with entertainment for common good"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rank radio's advantages",
+     "explain": "low cost, mobility with the listener, and reach into low-literacy audiences beat print and suit development work"
+    },
+    {
+     "step": 2,
+     "action": "explain community radio",
+     "explain": "local people run and manage the station; content serves local use in the local dialect, letting communities voice problems"
+    },
+    {
+     "step": 3,
+     "action": "add television and EDUSAT",
+     "explain": "talk and reality shows invite participation; EDUSAT, launched 2004, was the first Indian satellite built only for education"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which is the cheapest, most portable mass medium: radio or television?",
+     "a": "radio"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.6",
+   "title": "Print Media and Rural Development Reporting",
+   "section": "Method 3: Print media",
+   "definition": "National and regional dailies lean urban, so agriculture and village problems stay low in priority, yet sustained press attention still works: the Project Village Chhatera column begun in 1969 reported one village's lives fortnightly and pulled machines, bridges, roads and banks into the area. Development journalists spend their day interviewing, attending press conferences and chasing story leads.",
+   "formula": "press_effect = sustained_reporting plus services plus infrastructure brought to the area",
+   "key_idea": "Steady rural reporting can haul services and infrastructure into neglected villages.",
+   "textbook_ref": "lehe206.txt, Method 3 Print media and Project Village Chhatera (approx lines 373-449)",
+   "question_patterns": [
+    "why do rural development concerns get low priority in daily newspapers",
+    "describe the Project Village Chhatera experiment as a print media success story",
+    "how did regular press coverage transform village Chhatera",
+    "what working day tasks fill a development journalist's schedule",
+    "why is computer literacy essential for a print journalist working today"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the urban bias",
+     "explain": "bulk news is urban; reports on agriculture and village problems rank low, and rural periodicals are few"
+    },
+    {
+     "step": 2,
+     "action": "recount Chhatera",
+     "explain": "a fortnightly Hindustan Times column from 1969 wrote village stories with sensitivity and acted as a catalyst bringing services and benefits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which village column begun in 1969 pulled services into one village: Project Village Chhatera or Page Three?",
+     "a": "Project Village Chhatera"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.7",
+   "title": "ICTs, Tele-centres and SEWA's Digital Push",
+   "section": "Method 4: Information and Communication Technologies (ICTs)",
+   "definition": "Information and Communication Technologies bundle computer hardware and software with digital broadcast and telecommunications. Mobile phones now carry banking, marketing, employment and public services, while tele-centre kiosks -- like the SARI project's 80 kiosks in Tamilnadu offering e-mail, browsing and e-government certificates -- deliver services directly. SEWA's Community Learning Centres train grassroots women in computers, radio, video and satellite tools for self-reliance.",
+   "formula": "ict_power = mobile_services plus telecentre_kiosks plus grassroots_training",
+   "key_idea": "Mobile networks and tele-centres turn information access into economic and social power for the poor.",
+   "textbook_ref": "lehe206.txt, Method 4 ICTs, SARI and SEWA examples (approx lines 409-472)",
+   "question_patterns": [
+    "comment: ICTs are the future vehicles of development",
+    "what services did the SARI tele-centre kiosks offer in Tamilnadu",
+    "how did SEWA use ICTs to empower grassroots women workers",
+    "what is a tele-centre and how does it better the lives of the poor",
+    "list the technologies covered by the umbrella term ICT"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "unfold the umbrella term",
+     "explain": "computer hardware and software plus digital broadcast and telecommunications together count as ICTs"
+    },
+    {
+     "step": 2,
+     "action": "give the tele-centre route",
+     "explain": "kiosks offering computer education, e-mail, browsing and e-government reach the poor directly, as SARI showed"
+    },
+    {
+     "step": 3,
+     "action": "give the SEWA route",
+     "explain": "the women's union built Community Learning Centres for IT training, cutting time and cost of communication across districts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many kiosks did the SARI project run in Tamilnadu: 80 or 8?",
+     "a": "80"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.8",
+   "title": "PSA Appraisal Scoring on the 0-3 Rubric",
+   "section": "Practical 1: Study of Radio Public Service Announcement",
+   "definition": "A recorded radio spot for public good can be judged with a ten-parameter rubric: message clarity, listener engagement, interest, awareness value, audience motivation, voice selection, sound recording clarity, sound effects, day-date-time suitability and mention of the source. Each parameter is rated 0 to 3, so the marks add up to a total out of 30.",
+   "formula": "psa_score = block_one + block_two",
+   "key_idea": "Ten rubric ratings on a 0-3 scale add to an appraisal score out of 30.",
+   "textbook_ref": "lehe206.txt, Practical 1 scoring table (approx lines 588-629)",
+   "question_patterns": [
+    "find the total score out of 30 when ten PSA rubric parameters are rated",
+    "add the ten parameter marks awarded to a recorded announcement",
+    "a group awards rubric ratings to a radio spot; calculate its appraisal score",
+    "how is the quality of a public service announcement scored on the 0-3 rubric",
+    "compute the appraisal total when five parameters score 2 and five score 3"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the first five parameters",
+     "explain": "add the ratings for suitability, engagement, interest, awareness and motivation",
+     "compute": "block_one = engage_score + interest_score + awareness_score + motivate_score + timing_score"
+    },
+    {
+     "step": 2,
+     "action": "total the last five parameters",
+     "explain": "add the ratings for voice, message clarity, recording clarity, effects and source mention",
+     "compute": "block_two = voice_score + message_score + sound_score + effect_score + source_score"
+    },
+    {
+     "step": 3,
+     "action": "add the two blocks",
+     "explain": "the ten parameter marks together give the score out of 30",
+     "compute": "psa_score = block_one + block_two"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The PSA rubric rates ten parameters on a 0 to what scale: 3 or 30?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.9",
+   "title": "PSA Duration Arithmetic",
+   "section": "Method 2: Radio and Television (PSA format)",
+   "definition": "A public service announcement is a brief jingle-style message broadcast between programmes, advertised for an idea rather than a product. Its planning length sits inside a permitted band -- classically 10 to 60 seconds -- so the typical duration is simply the midpoint of the allowed minimum and maximum.",
+   "formula": "psa_mid = (slot_low + slot_high) / 2",
+   "key_idea": "Typical spot length is the midpoint of the permitted minimum and maximum.",
+   "textbook_ref": "lehe206.txt, Public Service Announcement paragraph (approx lines 305-311)",
+   "question_patterns": [
+    "find the midpoint duration of a public service message slotted between 10 and 60 seconds",
+    "a jingle slot allows 15 to 45 seconds; calculate its mean broadcast length",
+    "what is the average length of a spot permitted between 20 and 40 seconds",
+    "compute the typical duration of an announcement whose permitted band is 10 to 60 seconds",
+    "how long on average can a public service announcement run within its allowed band"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the band ends",
+     "explain": "the shortest and longest permitted lengths bracket the typical spot, so their mean is the planned duration",
+     "compute": "psa_mid = (slot_low + slot_high) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "PSAs classically run 10 to how many seconds: 60 or 6?",
+     "a": "60"
+    }
+   ]
+  },
+  {
+   "id": "lehe206.10",
+   "title": "Skills and Career Avenues in Development Communication",
+   "section": "Knowledge and Skills; Scope and Career avenues",
+   "definition": "The professional needs cognitive grip to grasp issues, creative treatment to win attention, technical command of camera, video production and editing, plus presentation and interviewing technique, language command, Microsoft Office basics and laws of the field. Working with diverse groups and listening well matter as much; careers span print, TV, radio and community media, research, training, freelancing and consultancy.",
+   "formula": "career_readiness = cognitive plus creative plus technical plus interpersonal plus language skills",
+   "key_idea": "Media craft combined with social-work empathy opens careers across media houses, agencies, research and training.",
+   "textbook_ref": "lehe206.txt, Knowledge and Skills; Scope and Career avenues (approx lines 473-556)",
+   "question_patterns": [
+    "what knowledge and skills does a career in development communication and journalism require",
+    "list four career avenues open to a development communication specialist",
+    "why must a development journalist question closely and travel to remote areas",
+    "explain the guiding principle of helping people help themselves in extension work",
+    "which technical skills prepare a student to work as a development filmmaker"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group the skills",
+     "explain": "cognitive, creative, technical, presentation, questioning, interpersonal, language and computer skills with knowledge of media laws"
+    },
+    {
+     "step": 2,
+     "action": "map the careers",
+     "explain": "development journalist, researcher, trainer of field functionaries, freelancer and consultant across government and non-government sectors"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which command covers camera, video production and editing: technical or financial?",
+     "a": "technical"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe206.txt Practical 1 PSA scoring table",
+   "concept": "lehe206.8",
+   "question_type": "numeric",
+   "question_pattern": "A class group rates a recorded radio spot on the ten-parameter rubric: engagement {engage_score}, interest {interest_score}, awareness {awareness_score}, motivation {motivate_score}, day-time suitability {timing_score}, voice {voice_score}, message clarity {message_score}, recording clarity {sound_score}, effects {effect_score} and source mention {source_score}. Find the total score out of 30.",
+   "extracted_variables": {
+    "engage_score": 3,
+    "interest_score": 2,
+    "awareness_score": 3,
+    "motivate_score": 2,
+    "timing_score": 3,
+    "voice_score": 2,
+    "message_score": 3,
+    "sound_score": 2,
+    "effect_score": 3,
+    "source_score": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the first five parameters",
+     "explain": "3 + 2 + 3 + 2 + 3 = 13 for the first block",
+     "compute": "block_one = engage_score + interest_score + awareness_score + motivate_score + timing_score"
+    },
+    {
+     "step": 2,
+     "action": "total the last five parameters",
+     "explain": "2 + 3 + 2 + 3 + 3 = 13 for the second block",
+     "compute": "block_two = voice_score + message_score + sound_score + effect_score + source_score"
+    },
+    {
+     "step": 3,
+     "action": "add the two blocks",
+     "explain": "13 + 13 = 26, so the spot scores 26 out of 30",
+     "compute": "psa_score = block_one + block_two"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe206.txt Red Ribbon Express box",
+   "concept": "lehe206.4",
+   "question_type": "numeric",
+   "question_pattern": "An awareness train covered {villages_covered} villages in a year while halting at {halt_stations} stations. Compute the average number of villages served per halt.",
+   "extracted_variables": {
+    "villages_covered": 43200,
+    "halt_stations": 180
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide coverage by halts",
+     "explain": "43200 / 180 = 240, so each halt served about 240 villages on average",
+     "compute": "villages_per_station = villages_covered / halt_stations"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe206.txt PSA duration paragraph",
+   "concept": "lehe206.9",
+   "question_type": "numeric",
+   "question_pattern": "A channel slots jingles between {slot_low} and {slot_high} seconds. What is the midpoint duration of such a public service message?",
+   "extracted_variables": {
+    "slot_low": 10,
+    "slot_high": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the band ends",
+     "explain": "(10 + 60) / 2 = 35 seconds, the typical planned length",
+     "compute": "psa_mid = (slot_low + slot_high) / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-lehe206-review",
+   "source_ref": "lehe206.txt Review Questions 1-6",
+   "questions": [
+    "What is development communication, and what role does it play in development?",
+    "State the essential features of development communication.",
+    "Define a campaign and design a slogan for one on any issue of your choice.",
+    "How is community radio different from All India Radio?",
+    "'ICTs are the future vehicles of development.' Comment.",
+    "From a school newspaper, discuss the visibility of cinema, lifestyle and development news and the possible reasons for the balance you observe."
+   ]
+  },
+  {
+   "id": "ex-lehe206-practical",
+   "source_ref": "lehe206.txt Practical 1: Study of Radio PSA",
+   "questions": [
+    "Listen to and record a radio public service announcement; analyse its content, relevance, impact and technique on the ten-parameter rubric.",
+    "Award 0-3 ratings to all ten parameters of a recorded PSA and express the total as a score out of 30."
+   ]
+  }
+ ]
+}

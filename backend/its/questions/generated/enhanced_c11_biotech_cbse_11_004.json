@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_004",
+   "title": "c11_biotech_cbse_11_004",
+   "questions": [
+    {
+     "q": "What does the Perl regex pattern `/A[TC]G/` match in a DNA sequence, and how many different 3-base sequences can it match?",
+     "a": "The pattern `/A[TC]G/` matches any 3-base sequence starting with A, ending with G, and having either T or C in the middle. It can match exactly 2 sequences: ATG and ACG. A wrong answer (e.g., \"matches ATG only\" or \"matches 4 sequences\") reveals the student does not understand that square brackets define a character class matching exactly ONE character from the set, not all combinations simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the Perl regex `/ATG.*TAA/` to find open reading frames starting with ATG and ending with TAA. Explain why this pattern will incorrectly match the sequence `ATGXXXTAAYYYTAA` as a single ORF instead of two separate ORFs, and which quantifier modifier fixes this.",
+     "a": "The `.*` quantifier is greedy by default—it matches as many characters as possible, so it consumes everything from the first ATG to the last TAA, skipping the intermediate TAA. The fix is to use the non-greedy quantifier `.*?` (adding `?` after `*`), making the pattern `/ATG.*?TAA/` which stops at the first TAA encountered. A wrong answer indicates the student does not understand greedy vs. non-greedy (lazy) matching, a critical concept for biological sequence parsing where the earliest stop codon defines the ORF.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Perl regex pattern with capture groups to extract the recognition site and the overhang sequence from a restriction enzyme description string: `\"EcoRI: G^AATTC\"`. The pattern should capture \"GAATTC\" as the full site and \"AATTC\" as the 5' overhang after the cut (marked by ^).",
+     "a": "Pattern: `/(\\w+):\\s*(\\w)\\^(\\w+)/` — Step 1: `(\\w+)` captures enzyme name \"EcoRI\". Step 2: `:\\s*` matches colon and optional spaces. Step 3: `(\\w)` captures the single base before `^` (\"G\"). Step 4: `\\^` matches literal caret. Step 5: `(\\w+)` captures bases after `^` (\"AATTC\"). The full site is `$2$3` (concatenation of captures 2 and 3). A wrong answer (e.g., missing capture groups or not escaping `^`) reveals the student cannot decompose a structured biological string into reusable components using capture groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regex patterns `/TATA[AT]A[AT]/` and `/TATA[AT]{2}/` for finding TATA-box promoter variants. Which pattern is more biologically accurate for the consensus TATAAA/TATATA, and why does the other pattern produce false positives?",
+     "a": "`/TATA[AT]A[AT]/` is more accurate: it matches TATAAA and TATATA (6 bases), the known variants. `/TATA[AT]{2}/` matches TATAAA, TATATA, TATAAT, TATATT (4 variants) — the last two are false positives because they lack the conserved A at position 5. A wrong answer shows the student cannot map quantifier syntax `{n}` to positional conservation in biological motifs, treating regex as purely syntactic without semantic biological constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A colleague claims: \"Since Perl regex can find any pattern, we don't need specialized algorithms like Smith-Waterman for local sequence alignment; we can just use regex with wildcards.\" Evaluate this claim using the concepts of regex limitations and alignment scoring.",
+     "a": "The claim is false. Regex performs exact or degenerate pattern matching (presence/absence) but cannot handle: (1) gaps/indels of variable length (regex `.*` matches any length but cannot score gap penalties), (2) substitution matrices (BLOSUM62) scoring conservative vs. non-conservative changes, (3) optimal substructure required for dynamic programming. Regex finds predefined patterns; alignment discovers similarity without a predefined motif. A wrong evaluation reveals the student conflates pattern matching (searching for known motifs) with sequence alignment (measuring similarity between unknown sequences).",
+     "self_check": true
+    },
+    {
+     "q": "Design a Perl regex pattern (with explanation) to find all potential N-linked glycosylation sites (consensus: Asn-X-Ser/Thr, where X ≠ Pro) in a protein sequence string. The pattern must use a negative lookahead or character class exclusion to enforce X ≠ Pro.",
+     "a": "Pattern: `/N[^P][ST]/` — Explanation: `N` matches Asn; `[^P]` is a negated character class matching any amino acid except Pro; `[ST]` matches Ser or Thr. This correctly enforces the biological constraint. Alternative using negative lookahead: `/N(?!P)[ST]/` (but this only checks next char is not P, then matches any char for X — incorrect). A poor answer (e.g., `/N.[ST]/` or `/N(?!P).../`) reveals the student cannot translate \"X ≠ Pro\" into the correct regex construct (negated character class `[^P]` vs. lookahead) and does not understand that `.` matches Pro, violating the biological rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

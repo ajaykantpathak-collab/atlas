@@ -1,0 +1,338 @@
+{
+ "catalog": "catalog_class7_maths_ch11_exponents_powers.json",
+ "concepts": [
+  {
+   "id": "c7m11.2.1",
+   "title": "Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^4.",
+     "a": "390625",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 6^4 / 6^1.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2^3)^3 using the power of a power law.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 2^3 using a^m x b^m = (ab)^m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^(-4) and give the value as a fraction.",
+     "a": "1/81",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.1",
+   "title": "Multiplying Powers with Same Base",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 6^6 / 6^1.",
+     "a": "7776",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^2)^2 using the power of a power law.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^2 x 2^2 using a^m x b^m = (ab)^m.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 7^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-4) and give the value as a fraction.",
+     "a": "1/625",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.2",
+   "title": "Dividing Powers with Same Base",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^3.",
+     "a": "78125",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 2^4 / 2^2.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^3 using the power of a power law.",
+     "a": "1953125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 3^3 using a^m x b^m = (ab)^m.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6^(-3) and give the value as a fraction.",
+     "a": "1/216",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.3",
+   "title": "Power of a Power",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^4.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^5 / 3^1.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^3 using the power of a power law.",
+     "a": "19683",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^2 x 5^2 using a^m x b^m = (ab)^m.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6^(-2) and give the value as a fraction.",
+     "a": "1/36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.4",
+   "title": "Multiplying Powers with Same Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^3.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 7^5 / 7^2.",
+     "a": "343",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2^2)^3 using the power of a power law.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 3^3 using a^m x b^m = (ab)^m.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 7^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-2) and give the value as a fraction.",
+     "a": "1/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.5",
+   "title": "Dividing Powers with Same Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^4 x 6^4.",
+     "a": "1679616",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^6 / 5^2.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^2)^3 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^3 x 2^3 using a^m x b^m = (ab)^m.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^(-3) and give the value as a fraction.",
+     "a": "1/27",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.3.6",
+   "title": "Zero Exponent",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^3.",
+     "a": "78125",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^3 / 3^2.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^2 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 4^3 using a^m x b^m = (ab)^m.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 7^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 7^(-4) and give the value as a fraction.",
+     "a": "1/2401",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.5.1",
+   "title": "Decimal Number System",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the number with 4 units, 7 tenths and 3 hundredths as a decimal.",
+     "a": "4.73",
+     "self_check": false
+    },
+    {
+     "q": "Add the decimals 8.9 and 3.7.",
+     "a": "12.6",
+     "self_check": false
+    },
+    {
+     "q": "Subtract 2.51 from 6.62.",
+     "a": "4.11",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 8.4 by 3.",
+     "a": "25.2",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 9.3 by 4.6.",
+     "a": "42.78",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/10 of 4.0.",
+     "a": "0.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m11.6.1",
+   "title": "Standard Form of Large Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^3.",
+     "a": "16384",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^4 / 4^2.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^2)^3 using the power of a power law.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 2^3 using a^m x b^m = (ab)^m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 9^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^(-2) and give the value as a fraction.",
+     "a": "1/16",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

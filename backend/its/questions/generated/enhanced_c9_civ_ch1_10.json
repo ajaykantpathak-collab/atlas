@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_10",
+   "title": "c9_civ_ch1_10",
+   "questions": [
+    {
+     "q": "What are the two Constitutional Amendment Acts that granted constitutional status to Panchayati Raj Institutions and Municipalities in India, and in which year were they passed?",
+     "a": "The 73rd Constitutional Amendment Act (1992) for Panchayati Raj and the 74th Constitutional Amendment Act (1992) for Municipalities. A wrong answer (e.g., \"42nd Amendment\" or \"1993\") reveals the student confuses the amendments that strengthened local governance with other major amendments (like the 42nd, which amended the Preamble) or misremembers the year, indicating a lack of precise constitutional knowledge required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution originally not include local self-government as a mandatory tier, and what changed with the 73rd and 74th Amendments?",
+     "a": "Originally, local government was a Directive Principle (Article 40) — non-justiciable and left to state discretion. The 73rd/74th Amendments moved it to Part IX/IXA, making regular elections, reservations, and devolution of powers/functions/finances constitutionally mandatory. A wrong answer (e.g., \"It was always in Fundamental Rights\") shows the student does not understand the shift from a moral directive to a justiciable constitutional obligation, a core concept for analyzing democratic deepening.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat wants to build a community health center but the Block Development Officer (BDO) says the funds are not released by the state government. Using the constitutional framework, explain which body is responsible for ensuring financial resources reach the Panchayat and under which Article.",
+     "a": "The State Finance Commission (SFC), constituted under Article 243I, is mandated to review the financial position of Panchayats and recommend principles for tax devolution and grants-in-aid from the state consolidated fund. The state government must act on SFC recommendations. A wrong answer (e.g., \"Finance Commission of India\" or \"Planning Commission\") reveals confusion between the Union Finance Commission (Article 280) and the State Finance Commission, a critical distinction in fiscal federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three-tier structure of rural local governance (Panchayati Raj) with the graded structure of urban local governance (Municipalities). Why does the Constitution not prescribe a uniform three-tier structure for urban areas?",
+     "a": "Rural: Uniform three-tier (Gram Panchayat → Panchayat Samiti → Zila Parishad) for all states (Art 243B). Urban: Graded — Nagar Panchayat (transitional), Municipal Council (smaller urban), Municipal Corporation (larger urban) based on population/density (Art 243Q). Urban areas vary vastly in size, economy, and complexity; a uniform three-tier would be inefficient for a small town and inadequate for a megacity. A wrong answer (e.g., \"Urban areas also have three tiers\") shows the student memorizes rural structure but fails to analyze the constitutional rationale for differentiated urban governance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 73rd and 74th Amendments have successfully empowered local governments in India.\" Provide two arguments for and two against, using constitutional provisions and ground realities.",
+     "a": "**For:** (1) Constitutional mandate for regular elections (Art 243E/243U) and reservations (Art 243D/243T) brought marginalized groups into power. (2) SFCs (Art 243I/243Y) and DPCs (Art 243ZD) created institutional channels for funds and planning. **Against:** (1) States retain control over devolution of functions/funds/functionaries (3Fs) — many have not transferred all 29/18 subjects. (2) Parallel bodies (MP/MLA local area schemes, parastatals) undermine local autonomy. A one-sided answer reveals the student cannot critically assess the gap between constitutional design and political implementation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a \"Model Municipal Ward Committee\" for a city of 5 lakh people, incorporating constitutional requirements (Article 243S) and two innovative features to enhance citizen participation beyond the mandatory structure.",
+     "a": "A good proposal includes: (1) Ward Committees mandatory for population ≥3 lakh (Art 243S), with elected councillor as chair. (2) Direct election of 10-15 ward committee members from voter list. (3) **Innovation 1:** Participatory budgeting — 20% of ward funds allocated via citizen voting. (4) **Innovation 2:** Digital grievance redressal portal with 15-day resolution mandate linked to councillor performance review. A poor answer lists only mandatory features or suggests innovations requiring state legislation (e.g., \"give ward committees tax powers\"), showing inability to distinguish constitutional floor from policy ceiling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

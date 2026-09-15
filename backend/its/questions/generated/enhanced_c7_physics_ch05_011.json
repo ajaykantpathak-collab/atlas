@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_011",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_011",
+   "title": "c7_physics_ch05_011",
+   "questions": [
+    {
+     "q": "What is the primary physical difference that distinguishes a real image from a virtual image regarding a screen?",
+     "a": "A real image can be caught or formed on a screen because light rays actually meet at that point, whereas a virtual image cannot be caught on a screen because light rays only appear to meet there. A wrong answer usually confuses the reflection in a plane mirror with a projected image, thinking all images can be touched if you place something there.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the image formed by a plane mirror considered virtual even though you can see it clearly with your eyes?",
+     "a": "An image in a plane mirror is virtual because the light rays do not actually pass through the mirror to where the image appears to be; they only appear to diverge from behind the mirror when extended backward. A wrong answer assumes that because you can see an image with your eyes, light rays must physically be located where the image appears.",
+     "self_check": true
+    },
+    {
+     "q": "If a convex lens forms an image of a candle flame on a white cardboard screen placed 30 cm away from the lens, is this image real or virtual, and why?",
+     "a": "Steps: 1. Identify that the image is formed on a white cardboard screen. 2. Recall the property that images captured on screens are formed by actual intersecting light rays. 3. Conclude that actual intersection of light rays produces a real image. 4. State the final classification: The image is real. A wrong answer suggests it is virtual because candles produce light, failing to recognize that screen projection requires actual light ray convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the orientation of images: Can a real image ever be erect (upright), and can a virtual image ever be inverted? Explain your reasoning.",
+     "a": "Real images are almost always inverted (upside down) relative to the object because light rays cross each other as they pass through a focal point. Virtual images formed by plane mirrors are erect, though certain curved mirrors or lenses can form inverted virtual images, but standard single plane mirror images are always erect. A wrong answer assumes all images of the same type share identical orientations without considering how light rays travel and cross.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A virtual image is a fake image created by the mirror, so no light is actually involved in making it.\" Is this statement correct or incorrect? Justify your answer.",
+     "a": "The statement is incorrect. While the image cannot be caught on a screen, light rays from the object *do* strike the mirror and reflect into our eyes according to the laws of reflection. The word \"virtual\" means the light rays only *appear* to come from behind the mirror, but physical light is fully involved in the process. A wrong answer shows confusion between \"virtual\" meaning non-existent and \"virtual\" meaning an apparent location of light divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using everyday materials to prove whether the image formed by a plane mirror is real or virtual.",
+     "a": "To demonstrate this, place a plane mirror upright on a table and look at the reflection of a lit candle. Then, place a blank sheet of paper behind the mirror where the image appears to be; no flame appears on the paper. Next, place the paper in front of the mirror where the light rays reflect; still no image forms on the paper, proving the image in a plane mirror cannot be caught on a screen and is therefore virtual. A poor answer fails to test the screen-capture property or misinterprets reflections.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

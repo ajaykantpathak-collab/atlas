@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_001",
+   "title": "c11_chem_cbse_01_001",
+   "questions": [
+    {
+     "q": "State the definition of chemistry as given in the NCERT Class 11 textbook and name the two historical quests that drove early chemical inquiry.",
+     "a": "Chemistry is the branch of science that studies the preparation, properties, structure, and reactions of material substances. The two historical quests were the Philosopher's Stone (transmuting base metals to gold) and the Elixir of Life (granting immortality). A wrong answer (e.g., \"chemistry studies only elements\" or \"alchemy sought only gold\") reveals the student has not distinguished between the modern definition and historical motivations, or has memorised without understanding the scope.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chemistry is called the \"central science\" by describing its conceptual bridges to physics and biology with one concrete example each.",
+     "a": "Chemistry bridges physics (which governs atomic interactions, energy, and thermodynamics) and biology (which relies on molecular processes like enzyme catalysis and DNA replication). Example: Quantum mechanics (physics) explains orbital hybridisation in carbon, enabling the tetravalency that creates life's molecular diversity (biology). A wrong answer that lists applications without explaining the *conceptual* link (e.g., \"chemistry is used in medicine\") shows superficial understanding — the student sees utility but not the unifying theoretical framework.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab uses diammonium phosphate (DAP) fertiliser. Identify the chemical principle that allows this salt to supply both nitrogen and phosphorus to soil, and write the formula of DAP.",
+     "a": "DAP is (NH₄)₂HPO₄. The principle is ionic dissociation in aqueous soil solution: (NH₄)₂HPO₄(s) → 2NH₄⁺(aq) + HPO₄²⁻(aq), releasing ammonium (N-source) and hydrogen phosphate (P-source). A student writing \"NH₄PO₄\" or \"DAP provides NPK\" reveals confusion between chemical formula stoichiometry and fertiliser grade notation, and inability to apply Class 10 ionic compound knowledge (c10_chem_cbse_03_008) to a real agricultural context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contributions of ancient Indian chemistry (Rasayan Shastra) and 18th-century European chemistry to modern chemical science. Identify one specific Indian discovery that anticipated a modern concept by centuries.",
+     "a": "Ancient Indian chemistry was empirical and application-driven (metallurgy, medicine, dyes, glass, soap, nanotechnology-like bhasmas), while European chemistry systematised quantitative laws (conservation of mass, definite proportions) and atomic theory. Acharya Kanda's *Paramāṇu* theory (600 BCE) anticipated Dalton's atomic theory by ~2400 years, proposing indivisible, eternal particles combining in fixed ratios. A wrong answer claiming \"Indians only did alchemy\" or \"Europeans invented everything\" reflects colonial historiography bias and ignores archaeological evidence (Harappan metallurgy, Charaka Samhita nanoparticles) cited in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Green chemistry is merely a marketing term; all chemical industries already follow environmental regulations.\" Justify your evaluation with two specific chemical examples where green chemistry principles prevented harm that regulations alone could not.",
+     "a": "The statement is false. Regulations set minimum legal standards; green chemistry *designs out* hazards at the molecular level. Example 1: Replacing CFC refrigerants (regulated after ozone depletion was detected) with HFCs/HFOs designed for zero ozone-depletion potential — proactive molecular design. Example 2: Supercritical CO₂ as solvent replacing benzene in decaffeination — eliminates carcinogen exposure *before* regulation mandates it. A student agreeing with the statement confuses compliance with innovation and misses the preventive philosophy of atom economy, safer solvents, and design for degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a concept map showing how chemistry connects to five distinct career fields in India (e.g., pharmaceuticals, agriscience, materials, energy, environment). For each connection, name one specific chemical process or product that defines the link.",
+     "a": "A strong map includes: (1) Pharmaceuticals — retrosynthetic analysis yielding ciprofloxacin; (2) Agriscience — Haber-Bosch ammonia synthesis for urea; (3) Materials — Ziegler-Natta catalysis producing HDPE/LDPE; (4) Energy — lithium-ion battery cathode chemistry (LiCoO₂); (5) Environment — catalytic converters (Pt/Rh/Pd) reducing NOₓ/CO. A weak map lists vague sectors without chemical specificity (e.g., \"medicines\" without naming a synthesis strategy) revealing the student cannot translate \"scope of chemistry\" into concrete molecular-scale processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

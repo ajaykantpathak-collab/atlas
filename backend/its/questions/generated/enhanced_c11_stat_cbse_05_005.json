@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_005",
+   "title": "c11_stat_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the position of the median in an individual series with 15 observations? State the formula and the position number.",
+     "a": "The position is given by (N+1)/2 = (15+1)/2 = 8th item. A wrong answer like \"7.5th item\" or \"N/2 = 7.5\" reveals confusion between the formula for individual/discrete series (which uses (N+1)/2) and continuous series (which uses N/2). It also shows the student may not understand that the median position is a rank, not the median value itself.",
+     "self_check": true
+    },
+    {
+     "q": "In a discrete frequency distribution, the cumulative frequencies are 5, 12, 20, 25, 30. N = 30. A student says the median is the value corresponding to cumulative frequency 15. Is this correct? Explain why or why not.",
+     "a": "No, it is not correct. For discrete series, the median position is (N+1)/2 = 15.5th item. The median is the value corresponding to the cumulative frequency that is *just greater than or equal to* 15.5, which is 20 (the third value). The student incorrectly used N/2 = 15 and did not account for the +1 in the formula for discrete series. This reveals a common misconception: applying the continuous series formula (N/2) to discrete series.",
+     "self_check": true
+    },
+    {
+     "q": "The daily wages (in Rs) of 10 workers are: 120, 150, 180, 200, 250, 300, 220, 350, 370, 260. Calculate the median wage. Show all steps.",
+     "a": "Step 1: Arrange in ascending order: 120, 150, 180, 200, 220, 250, 260, 300, 350, 370. Step 2: N = 10 (even), so median = average of 5th and 6th items = (220 + 250)/2 = 235. Answer: Rs 235. A wrong answer like 220 or 250 shows the student forgot to average the two middle values for even N. An answer of 240 (the mean) shows confusion between mean and median.",
+     "self_check": true
+    },
+    {
+     "q": "For the following continuous distribution, identify the median class and explain why it is the median class.\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 5, 8, 12, 10, 5",
+     "a": "N = 40, so N/2 = 20. Cumulative frequencies: 5, 13, 25, 35, 40. The median class is 20-30 because its cumulative frequency (25) is the first to exceed 20. The class preceding it has cf = 13 < 20. A wrong identification like 30-40 (cf=35) shows the student picks the class where cf is closest to 20 rather than the first exceeding N/2. This reveals misunderstanding of the \"first cumulative frequency greater than N/2\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The median is always one of the observed values in the data set.\" Evaluate this statement for individual, discrete, and continuous series. Provide a counterexample for each series type if the statement is false.",
+     "a": "The statement is false for all three types. Individual series: even N, e.g., 1,2,3,4 → median = 2.5 (not in data). Discrete series: same logic, median can be average of two values. Continuous series: median is interpolated within a class interval and is rarely exactly an observed value (which are not even known individually). A student who says \"true for individual series\" ignores even-N cases. This reveals a misconception that median must be a data point, confusing it with mode.",
+     "self_check": true
+    },
+    {
+     "q": "Create a discrete frequency distribution with N=11 where the median is 30, but the arithmetic mean is greater than 30. Explain how you constructed it.",
+     "a": "Example: Values: 10, 20, 30, 40, 50 with frequencies: 2, 2, 3, 2, 2. N=11, median position = 6th item → cumulative frequencies: 2,4,7,9,11 → 6th item is 30. Mean = (20+40+90+80+100)/11 = 330/11 = 30. To make mean > 30, increase frequency of higher values: e.g., 10(1), 20(1), 30(3), 40(3), 50(3) → N=11, median still 30 (6th item), mean = (10+20+90+120+150)/11 = 390/11 ≈ 35.45 > 30. A poor answer would not satisfy both conditions or would not explain the construction, showing inability to manipulate distributions to achieve desired properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

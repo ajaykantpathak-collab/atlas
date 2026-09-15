@@ -1,0 +1,178 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 101,
+ "chapter_title": "Crop Production and Management",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc101.txt",
+ "concepts": [
+  {
+   "id": "hesc.1.1.1",
+   "title": "Crop Classification by Season",
+   "section": "1.1",
+   "definition": "Crops are categorized into two primary groups based on the specific climatic conditions and seasons in which they are cultivated.",
+   "formula": "none",
+   "key_idea": "Agricultural timing depends on seasonal patterns like rainfall and temperature.",
+   "textbook_ref": "hesc101.txt lines 40-60",
+   "question_patterns": [
+    "classify crops based on season",
+    "what are the two broad cropping patterns in India",
+    "distinguish between kharif and rabi crops",
+    "identify the season for sowing paddy",
+    "name two examples of rabi crops"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize crop",
+     "explain": "Check if the crop is sown in rainy season (Kharif) or winter season (Rabi).",
+     "compute": "none"
+    }
+   ]
+  },
+  {
+   "id": "hesc.1.6.1",
+   "title": "Irrigation Efficiency",
+   "section": "1.6",
+   "definition": "The systematic delivery of water to crops at necessary intervals to support growth, germination, and nutrient transport.",
+   "formula": "water_needed = area * depth_per_unit_area",
+   "key_idea": "Water is essential for plant development and nutrient absorption.",
+   "textbook_ref": "hesc101.txt lines 180-220",
+   "question_patterns": [
+    "calculate total water required for a field",
+    "find the volume of water needed for irrigation",
+    "determine water usage for a specific area",
+    "compute the total irrigation volume",
+    "how much water is needed if depth is fixed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply area by depth",
+     "explain": "Total water volume is the product of field area and required depth.",
+     "compute": "total_water = area * depth"
+    }
+   ]
+  },
+  {
+   "id": "hesc.1.8.1",
+   "title": "Harvest Yield Estimation",
+   "section": "1.8",
+   "definition": "The measurement of the total quantity of grain produced per unit of land area after the crop matures.",
+   "formula": "total_yield = area * yield_per_acre",
+   "key_idea": "Yield depends on land size and productivity per unit.",
+   "textbook_ref": "hesc101.txt lines 290-310",
+   "question_patterns": [
+    "calculate the total harvest yield",
+    "find the total production from a farm",
+    "compute the yield for a given land area",
+    "how much grain is produced in total",
+    "determine the output of the field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply area by yield rate",
+     "explain": "Total production is calculated by multiplying the land area by the yield per acre.",
+     "compute": "total_yield = area * yield_per_acre"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc101.txt lines 305-310",
+   "concept": "hesc.1.8.1",
+   "question_type": "compute",
+   "question_pattern": "A farmer grows wheat on {area} acres with a yield of {yield_per_acre} quintals per acre. Calculate the total yield.",
+   "extracted_variables": {
+    "area": 10,
+    "yield_per_acre": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total yield",
+     "explain": "Multiply area by yield per acre.",
+     "compute": "total_yield = area * yield_per_acre"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hesc101.txt lines 305-310",
+   "concept": "hesc.1.8.1",
+   "question_type": "compute",
+   "question_pattern": "If a field of {area} acres produces {yield_per_acre} quintals per acre, what is the total harvest?",
+   "extracted_variables": {
+    "area": 5,
+    "yield_per_acre": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total yield",
+     "explain": "Multiply area by yield per acre.",
+     "compute": "total_yield = area * yield_per_acre"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hesc.1.6.1.1",
+   "source_ref": "generated practice sample aligned to hesc101.txt",
+   "concept": "hesc.1.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total water step by step for a case with {area}, {depth}.",
+   "extracted_variables": {
+    "area": "area (given value)",
+    "depth": "depth (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total water",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_water = area * depth"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hesc.1.6.1.2",
+   "source_ref": "generated practice sample aligned to hesc101.txt",
+   "concept": "hesc.1.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total water step by step for a case with {area}, {depth}.",
+   "extracted_variables": {
+    "area": "area (given value)",
+    "depth": "depth (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total water",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_water = area * depth"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hesc101.txt lines 350-360",
+   "questions": [
+    "Define crop and list two examples.",
+    "Explain the difference between manure and fertilisers.",
+    "Describe two modern methods of irrigation.",
+    "Why is storage of grains important?",
+    "What is animal husbandry?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

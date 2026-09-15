@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_003",
+   "title": "c11_geo_cbse_11_003",
+   "questions": [
+    {
+     "q": "Define a tsunami and state its primary cause in the Indian Ocean context.",
+     "a": "A tsunami is a series of long-wavelength ocean waves caused by sudden vertical displacement of the water column. In the Indian Ocean, the primary cause is megathrust earthquakes at the Andaman-Sumatra subduction zone where the India Plate subducts beneath the Burma Plate. A wrong answer (e.g., \"tsunamis are caused by high winds\" or \"they are tidal waves\") reveals confusion between wind-driven waves and seismically generated waves, and/or failure to link the hazard to specific plate boundaries studied in Class 9.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tsunami wave that is only 0.5 metres high in the open ocean can become a 10-metre wall of water at the coast.",
+     "a": "In deep water, tsunami wavelength (λ) is 100-200 km and wave height (H) is small because energy is distributed through the entire water column (depth D). As the wave enters shallow water, friction with the seabed reduces wave speed (c = √(gD)), causing wavelength to shorten dramatically while wave period (T) remains constant. Energy flux conservation forces the wave height to increase (H ∝ D^(-1/4) for linear theory, but nonlinear shoaling and run-up amplify further). The \"drawdown\" preceding the crest occurs because the trough arrives first when the fault rupture displaces water downward on the landward side. A wrong answer focusing only on \"waves slowing down\" without connecting wavelength shortening to energy conservation and vertical amplification shows incomplete understanding of wave transformation physics.",
+     "self_check": true
+    },
+    {
+     "q": "An earthquake of magnitude 8.5 occurs at 10°N, 92°E (Andaman trench). The water depth at the source is 4000 m. Calculate the approximate tsunami wave speed in deep water and the time it would take to reach Chennai (approx. 1350 km away). Use g = 9.8 m/s².",
+     "a": "Step 1: Identify the relevant formula for shallow-water wave speed: c = √(gD) where D = water depth. Step 2: c = √(9.8 × 4000) = √39200 ≈ 198 m/s. Step 3: Convert to km/h: 198 × 3.6 ≈ 713 km/h. Step 4: Travel time = Distance / Speed = 1350 km / 713 km/h ≈ 1.89 hours ≈ 1 hour 53 minutes. Step 5: Interpret: This matches the 2004 tsunami arrival at Chennai ~2 hours after the 00:58 UTC earthquake. A wrong answer using deep-water dispersion relation (c = √(gλ/2π)) or ignoring unit conversion reveals confusion between dispersive wind waves and non-dispersive tsunami waves in deep water.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tsunami vulnerability of the Andaman & Nicobar Islands versus the Gujarat coast. Consider tectonic setting, bathymetry, and historical events.",
+     "a": "Andaman & Nicobar Islands: Directly on the Andaman-Sumatra subduction zone; near-field source (travel time <30 min); steep bathymetry limits shoaling but run-up amplified by fringing reefs and narrow bays; 2004 tsunami caused 3-10 m run-up, widespread devastation. Gujarat coast: Far-field from Andaman source (travel time ~4-5 hours); also threatened by Makran subduction zone (near-field for Gujarat); wide continental shelf enhances shoaling and resonance in gulfs (Kachchh, Khambhat); 1945 Makran tsunami caused 2-4 m run-up. A wrong answer treating both as equally vulnerable or ignoring the Makran source for Gujarat reveals failure to integrate multiple tectonic sources and bathymetric amplification factors.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Indian Tsunami Early Warning System (ITEWS) can provide sufficient warning time for all Indian coastal communities.\"",
+     "a": "ITEWS (operational since 2007) uses seismic data, bottom pressure recorders (BPRs), and tide gauges to issue bulletins within 10-20 minutes of an earthquake. For far-field events (e.g., Andaman source to mainland), this provides 1.5-4 hours lead time — sufficient for evacuation. However, for near-field communities (Andaman & Nicobar, Nicobar Islands), travel time is 10-30 minutes, leaving almost no time for official warning dissemination. The statement is therefore false for near-field zones. A wrong answer that ignores the near-field/far-field distinction or assumes technology eliminates all risk shows lack of critical evaluation of system limitations versus geological reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level tsunami preparedness plan for a fishing village on the Tamil Nadu coast that accounts for both far-field (Andaman) and near-field (local submarine landslide) scenarios. Include natural warning signs, evacuation routes, and communication protocols.",
+     "a": "A strong plan must include: (1) Natural warning recognition: strong ground shaking (>20 sec), sudden sea recession, unusual roaring sound — immediate self-evacuation without waiting for official alert. (2) Dual evacuation routes: primary to high ground (>10 m elevation or 2 km inland) within 15 min; secondary vertical evacuation structure (reinforced 3-storey building) for near-field scenario. (3) Communication: village-level siren linked to ITEWS SMS alerts; designated \"tsunami wardens\" with VHF radios for fishers at sea. (4) Drills: quarterly, including night scenarios. (5) Special provisions for vulnerable groups (elderly, children, boats). A poor answer that relies solely on official warnings, lacks vertical evacuation option, or ignores fishers at sea reveals failure to synthesize near-field constraints and community-specific vulnerability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

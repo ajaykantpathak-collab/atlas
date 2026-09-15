@@ -1,0 +1,144 @@
+{
+ "catalog": "catalog_class8_maths_hemh113.json",
+ "concepts": [
+  {
+   "id": "hemh.113.13.1",
+   "title": "Linear Graphs and Their Uses",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (42 - 14) / 4 gives 7",
+     "compute": "x = (42 - 14) / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 4x + 14 = 42.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 4 = 59.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 43 = 6.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 2 = 4.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 1 = 1x + 21.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 6) = 36.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.13.2",
+   "title": "Coordinates and Locating Points",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 6 - -6 gives 12",
+     "compute": "dx = 6 - -6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 11 - -5 gives 16",
+     "compute": "dy = 11 - -5"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-6, -5) and (6, 11).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-3, -7) from the origin.",
+     "a": "7.62",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (3, 2) and (-2, -3).",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 2 : 1. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (0, -3), (2, -5) and (1, 0) (two decimal places).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (2, 4), (-1, 1) and (-4, 3).",
+     "a": "-1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.13.3",
+   "title": "Distance-Time Graphs",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 5, 5 and 8. Find the total frequency.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 4 symbols, what value does it represent?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 15 units?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 7 units tall. How many books does it show?",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 75 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 30 out of 120 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

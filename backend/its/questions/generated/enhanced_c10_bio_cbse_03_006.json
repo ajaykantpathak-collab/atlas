@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_006",
+   "title": "c10_bio_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define cross-pollination and name any two agents that bring it about.",
+     "a": "Cross-pollination is the transfer of pollen grains from the anther of a flower to the stigma of a flower on a different plant of the same species. Two agents: insects (e.g., bees) and wind. A wrong answer (e.g., \"transfer within same flower\" or naming \"water\" for a land plant) reveals confusion between self and cross-pollination or ignorance of agent-flower matching.",
+     "self_check": true
+    },
+    {
+     "q": "A maize plant produces large amounts of light, smooth pollen grains, and its stigma is feathery and exposed. Explain which pollination agent this flower is adapted for and WHY these specific features suit that agent.",
+     "a": "Maize is wind-pollinated (anemophily). Light, smooth pollen stays airborne; feathery stigma provides large surface area to catch drifting pollen. A wrong answer (e.g., \"insect-pollinated because pollen is sticky\") shows the student memorises features but cannot link structure to function — they don't understand WHY wind flowers lack nectar, scent, or colour.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows a pure line of wheat (self-pollinated) and a variety of maize (cross-pollinated) in adjacent fields. After harvest, he saves seeds from both to sow next season. Predict which crop will show more variation in the next generation and justify your answer using the genetic consequence of the pollination type.",
+     "a": "Maize will show more variation. Cross-pollination brings together genetically different gametes, creating new allele combinations (recombination). Self-pollination in wheat maintains homozygosity, preserving the pure line. A wrong answer (e.g., \"both show same variation\") indicates the student knows definitions but cannot apply the genetic consequence — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the floral adaptations of a water-pollinated flower (e.g., Vallisneria) and an insect-pollinated flower (e.g., sunflower) in a table with three rows: pollen character, stigma character, and attractants. Explain how each adaptation serves its agent.",
+     "a": "Vallisneria: pollen long, ribbon-like, unwettable; stigma long, sticky; no nectar/colour. Sunflower: pollen sticky, spiny; stigma branched, sticky; bright petals, nectar, scent. Water flowers avoid sinking/wetting; insect flowers ensure pollen sticks to visitor and reward the visitor. A wrong answer (e.g., listing features without explaining function) shows rote memorisation without analytical comparison — the student cannot \"analyse\" as required.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Self-pollination is better for the plant because it guarantees seed set even when pollinators are absent, so evolution should favour it always.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is partially correct but incomplete. Self-pollination ensures reproductive assurance (seed set without agents), but it reduces genetic variation, limiting adaptability to changing environments (disease, climate). Cross-pollination promotes variation, providing raw material for natural selection. Evolution favours a balance — many plants have mechanisms to promote cross-pollination (dichogamy, herkogamy, self-incompatibility) while retaining selfing as backup. A wrong answer (e.g., \"yes, it's always better\") shows the student cannot evaluate trade-offs — a key competency skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-garden experiment to test whether a given flowering plant (e.g., petunia) is self-pollinated or cross-pollinated. List the steps, the control, and the expected observation for each case.",
+     "a": "Steps: (1) Tag 10 buds before opening. (2) Bag 5 buds with fine mesh (prevents insect entry) — these are self-pollination test. (3) Leave 5 buds open (control — natural pollination). (4) After fruit set, collect seeds from both sets. (5) Grow F1 generation and observe variation. Expected: If self-pollinated, bagged and open sets produce similar, uniform offspring. If cross-pollinated, bagged set shows poor/no seed set; open set shows variable offspring. A poor answer (e.g., \"watch bees visit\") lacks experimental design — no control, no measurable outcome.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

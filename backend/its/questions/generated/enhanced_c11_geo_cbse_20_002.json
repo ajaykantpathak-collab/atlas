@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_002",
+   "title": "c11_geo_cbse_20_002",
+   "questions": [
+    {
+     "q": "Name the three distinct processing stages of cotton textile industry where weight loss occurs, and state the approximate percentage weight loss at each stage.",
+     "a": "The three stages: (1) Ginning — separates lint from seed, ~65% weight loss (seed + trash removed); (2) Spinning — converts lint to yarn, ~5-8% waste; (3) Weaving — converts yarn to fabric, ~3-5% waste. A wrong answer (e.g., \"spinning loses most weight\") reveals the student confuses fibre separation (primary weight loss) with subsequent value-addition stages. This misconception leads to incorrect locational predictions — they might place spinning mills at raw material source when actually ginning is the only stage strictly tied to cotton fields.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the jute industry remains concentrated in the Hooghly basin (West Bengal) despite the partition of 1947 placing 75% of jute-growing areas in East Pakistan (now Bangladesh), while the cotton textile industry decentralised widely across India.",
+     "a": "Jute requires: (a) abundant fresh water for retting (microbiological fibre separation) — Hooghly provides perennial flow; (b) high humidity for spinning (prevents fibre breakage) — coastal West Bengal climate; (c) dense labour for labour-intensive processing — historical migrant workforce; (d) port access for export — Kolkata/Haldia. These site advantages (Weber's 'agglomeration economies') outweigh raw material distance penalty. Cotton textile decentralised because: (a) ginning is only raw-material-tied stage; (b) spinning/weaving use ubiquitous electricity (not site-specific coal/hydro); (c) market-oriented garmenting pulls units to consumption centres; (d) no single indispensable site factor like retting water. A wrong answer focusing only on \"raw material availability\" misses the critical role of process-specific site requirements (water quality, humidity) that create industrial inertia.",
+     "self_check": true
+    },
+    {
+     "q": "A sugar mill in Maharashtra crushes 5,000 tonnes of cane per day (TCD) at 11% recovery. Another in Uttar Pradesh crushes 4,000 TCD at 10.5% recovery. Calculate annual sugar production for each assuming 150 crushing days. Then explain why Uttar Pradesh overtook Maharashtra as India's largest sugar producer despite lower yield and recovery.",
+     "a": "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year. Per mill, Maharashtra produces more. But Uttar Pradesh has 120+ mills vs Maharashtra's 190+ — wait, Maharashtra has more mills. The shift is due to: (1) U.P. mills crush longer (180-200 days vs 120-150) due to subtropical climate allowing staggered planting; (2) State Advised Price (SAP) in U.P. is higher than Fair Remunerative Price (FRP), incentivising farmers; (3) U.P. has larger cane area (2.2M ha vs 1.1M ha); (4) Cooperative model in Maharashtra faces financial distress; (5) U.P. government provides soft loans, interest subvention. A student calculating only per-mill output misses the aggregate picture — geographical reasoning requires scaling up from unit to regional system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'weight-losing' character of raw materials in cotton, jute, and sugar industries. Rank them by degree of weight loss and explain how this ranking correlates with the distance each industry locates from its raw material source.",
+     "a": "Rank (highest to lowest weight loss): Sugar (sugarcane: 90-92% weight loss — only 10-12% becomes sugar, rest bagasse, molasses, water vapour) > Cotton (seed cotton: 65% loss at ginning, total ~70% from field to fabric) > Jute (jute plant: ~75% loss at retting/stripping, but retting MUST occur near water, so industry stays at raw material source despite high loss). Correlation: Sugar mills MUST be within 15-25 km of fields (sucrose inversion starts in 24 hrs) — shortest distance. Cotton ginning at field edge, but spinning/weaving travel 100-500 km to power/market. Jute mills stay at source (Hooghly) because retting water is non-negotiable — weight loss alone doesn't dictate location; process-specific constraints override. A wrong ranking (e.g., cotton > sugar) reveals confusion between fibre content percentage and total biomass conversion efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Technology Upgradation Fund Scheme (TUFS) for cotton textiles and the Jute Technology Mission (JTM) have successfully modernised their respective industries.\" Use evidence on spindle age, loom composition, and export competitiveness.",
+     "a": "Evaluation: Partially true for cotton, largely false for jute. Cotton: TUFS (1999, modified 2011, 2015, 2019) subsidised 1.2M spindles and 200k shuttleless looms — but 60% spindles still >25 years old; powerloom sector (95% of fabric) remains unmodernised; India exports yarn/fabric but lags in garment value addition (Bangladesh/Vietnam lead). Jute: JTM (2006) targeted 10,000 modern looms — achieved <500; 90% looms still shuttle-type; diversification into geo-textiles, composites <5% of output; industry survives on mandatory packaging order (JPM Act 1987) not competitiveness. Root cause: cotton has large organised sector + export orientation driving investment; jute is small, fragmented, domestic-market-dependent with captive demand. A student saying \"both succeeded because government gave money\" misses the structural difference: policy works when industry has market-driven modernisation incentive.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision framework for a new 5,000 TCD sugar mill in Karnataka. Specify: (a) 5 geographical criteria with measurable thresholds, (b) 2 policy incentives to leverage, (c) 1 sustainability constraint, and (d) a 3-step site selection process using GIS layers.",
+     "a": "(a) Criteria: (1) Cane availability: ≥50,000 ha command area within 25 km radius; (2) Irrigation assurance: ≥80% area under canal/drip (not rainfed); (3) Road density: ≥2 km/km² for cane transport; (4) Power: 33 kV substation within 5 km; (5) Effluent disposal: non-floodplain site with 500m buffer from river. (b) Incentives: (i) Soft loan under Sugar Development Fund (SDF) for cogeneration; (ii) State SAP above FRP + transport subsidy. (c) Sustainability: Zero Liquid Discharge (ZLD) mandate — no effluent discharge; bagasse-based cogeneration must meet 100% process steam + export surplus. (d) GIS process: Step 1: Overlay cane area, irrigation, road layers — identify 10km grid cells meeting all thresholds. Step 2: Buffer analysis — exclude floodplains, forest, urban zones. Step 3: Network analysis — compute weighted transport cost from each candidate cell to cane centroids; select minimum-cost cell with power access. Poor answer: lists generic factors without thresholds or GIS workflow — shows inability to operationalise geographical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

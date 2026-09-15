@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy207",
+  "concepts": [
+    {
+      "id": "legy.207.1",
+      "questions": [
+        {"q": "Roads carry about what per cent of India's passenger traffic? (give the per cent)", "a": "85"},
+        {"q": "Roads carry about what per cent of India's freight traffic? (give the per cent)", "a": "70"},
+        {"q": "If roads carry 85 per cent of passenger traffic, what per cent do other modes carry? (give the per cent)", "a": "15"},
+        {"q": "How many classes of roads are listed (national highways, state highways, major district roads, rural roads)? (number)", "a": "4"},
+        {"q": "Which super-highway project links Delhi, Mumbai, Chennai and Kolkata? (two words)", "a": "golden quadrilateral"},
+        {"q": "Which class of road is maintained by the central government? (two words)", "a": "national highways"},
+        {"q": "If roads carried 70 per cent of freight, non-road modes carry what per cent? (give the per cent)", "a": "30"}
+      ]
+    },
+    {
+      "id": "legy.207.2",
+      "questions": [
+        {"q": "What is India's largest public undertaking? (two words)", "a": "Indian Railways"},
+        {"q": "In which region is India's railway network densest: northern plains or Himalaya? (two words)", "a": "northern plains"},
+        {"q": "In which terrain is rail coverage thinnest: plains or mountains? (one word)", "a": "mountains"},
+        {"q": "Which coastal railway, built along the western ghats, extended the network? (one word)", "a": "konkan"},
+        {"q": "Indian Railways is organised for administration into what units? (one word)", "a": "zones"},
+        {"q": "Which urban rail systems extend the network within cities? (one word)", "a": "metro"},
+        {"q": "Is the Indian railway network a public or private undertaking? (one word)", "a": "public"}
+      ]
+    },
+    {
+      "id": "legy.207.3",
+      "questions": [
+        {"q": "On which two river systems do India's inland waterways chiefly run? (two words)", "a": "Ganga, Brahmaputra"},
+        {"q": "How many national waterways has India declared? (number)", "a": "5"},
+        {"q": "Which was India's first crude oil pipeline, running from Naharkatia to Barauni via Nunmati? (three words)", "a": "Naharkatia-Nunmati-Barauni"},
+        {"q": "Which national carrier serves Indian air routes alongside private airlines? (two words)", "a": "Air India"},
+        {"q": "What do pipelines chiefly carry in India? (two words)", "a": "crude oil"},
+        {"q": "Inland waterways run on rivers or on roads? (one word)", "a": "rivers"},
+        {"q": "Which west-coast canals supplement the inland waterway system? (two words)", "a": "west coast"}
+      ]
+    },
+    {
+      "id": "legy.207.4",
+      "questions": [
+        {"q": "Which communication network, one of the world's largest, reaches nearly every Indian village? (one word)", "a": "postal"},
+        {"q": "Which personal communication technology connects most Indian villages today? (one word)", "a": "mobile"},
+        {"q": "Do Indian post offices serve almost all or only some villages? (short phrase)", "a": "almost all"},
+        {"q": "Which two broadcast media link Indian households? (two words)", "a": "radio, television"},
+        {"q": "Which service delivers letters, money orders and small parcels in rural India? (one word)", "a": "post office"},
+        {"q": "Telephony provides millions of connections to which rural settlements? (one word)", "a": "villages"},
+        {"q": "The internet integrates India's markets and what arm of the state? (one word)", "a": "administration"}
+      ]
+    }
+  ]
+}

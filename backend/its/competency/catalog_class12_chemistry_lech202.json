@@ -1,0 +1,447 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 202,
+ "chapter_title": "Alcohols, Phenols and Ethers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lech202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech202.7.1.1",
+   "title": "Classifying Alcohols by Hydroxyl Count and Carbon Type",
+   "section": "7.1",
+   "definition": "Alcohols group as mono-, di-, tri- or polyhydric by how many hydroxyl groups each molecule carries, and monohydric ones split further by the carbon bearing the -OH: primary, secondary or tertiary in a plain chain, allylic or benzylic when that sp3 carbon sits beside a double bond or ring, and vinylic when the carbon itself is sp2.",
+   "formula": "alcohol_series = c_n_h_(2n+1)_oh",
+   "key_idea": "Ethers mirror this logic on oxygen: identical groups give symmetrical ethers, different groups give mixed ones.",
+   "textbook_ref": "lech202.txt sections 7.1.1-7.1.3 (lines ~126-251)",
+   "question_patterns": [
+    "classify the isomeric alcohols of C5H12O as primary, secondary or tertiary",
+    "label CH2=CHCH2OH as an allylic, benzylic or vinylic alcohol",
+    "which class does an alcohol belong to when its OH carbon touches three other carbons",
+    "spot the allylic alcohols in a given set of six structures",
+    "sort diethyl ether and methyl phenyl ether into symmetrical or unsymmetrical",
+    "tell whether cyclohexanol is primary, secondary or tertiary"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the hydroxyl groups",
+     "explain": "one, two, three or many OH groups tag the alcohol mono-, di-, tri- or polyhydric"},
+    {"step": 2, "action": "inspect the OH-bearing carbon",
+     "explain": "count its carbon neighbours for 1/2/3 degree, then check for an adjacent C=C or ring (allylic, benzylic) or sp2 character (vinylic)"}
+   ]
+  },
+  {
+   "id": "lech202.7.2.1",
+   "title": "IUPAC Naming of Alcohols, Phenols and Ethers",
+   "section": "7.2",
+   "definition": "Alcohol names swap the alkane ending -e for -ol, numbered from the end nearest the hydroxyl group, with di- and tri- marks for several OH groups; ethers are named as alkoxy substituents on the larger hydrocarbon parent, while phenol derivatives use 1,2-, 1,3- and 1,4- locants.",
+   "formula": "alcohol_name = alkane_stem_with_e_replaced_by_ol",
+   "key_idea": "For cyclic alcohols the OH carbon counts as C-1, and the bigger group is always the parent in an ether name.",
+   "textbook_ref": "lech202.txt section 7.2 with Tables 7.1 and 7.2 (lines ~233-404)",
+   "question_patterns": [
+    "write the IUPAC name of HO-CH2-CH2-OH",
+    "give the systematic name for isobutyl alcohol",
+    "rename anisole under the IUPAC rules",
+    "what IUPAC name corresponds to glycerol",
+    "draw 2-methylpropan-2-ol from its systematic name",
+    "name C6H5OCH2CH3 by the alkoxy-substituent method"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "choose the parent for each family",
+     "explain": "alcohols use the longest chain with the OH carbon; ethers promote the larger group to parent with an alkoxy prefix"},
+    {"step": 2, "action": "number for the lowest OH locants",
+     "explain": "the hydroxyl carbon takes the smallest possible number before other substituents are placed"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.1.1",
+   "title": "Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration",
+   "section": "7.4.1",
+   "definition": "Water adds across a double bond in acid via a carbocation, so the OH lands on the more substituted carbon (Markovnikov); hydroboration-oxidation instead parks boron on the less substituted end and hands over the anti-Markovnikov alcohol in excellent yield.",
+   "formula": "hydroboration_product = anti_markovnikov_alcohol",
+   "key_idea": "Hydration runs protonation, water attack, then deprotonation; hydroboration avoids rearrangements because no free carbocation ever forms.",
+   "textbook_ref": "lech202.txt section 7.4.1(1) with mechanism and H.C. Brown box (lines ~503-584)",
+   "question_patterns": [
+    "predict the alcohol from acid-catalysed hydration of propene",
+    "which route turns an alkene into the anti-Markovnikov alcohol and how",
+    "compare the products of hydration and hydroboration-oxidation of but-1-ene",
+    "name the three steps in the acid-catalysed hydration mechanism",
+    "state why diborane adds boron to the carbon carrying more hydrogens",
+    "give the reagents that convert pent-1-ene to pentan-1-ol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pick the regiochemistry route",
+     "explain": "acid plus water follows Markovnikov through a carbocation; BH3 then H2O2/OH- delivers the opposite orientation"},
+    {"step": 2, "action": "place the OH group accordingly",
+     "explain": "Markovnikov puts OH on the carbon with fewer hydrogens; hydroboration puts it on the carbon with more"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.2.1",
+   "title": "Alcohols from Carbonyl Compounds and Grignard Reagents",
+   "section": "7.4.2",
+   "definition": "Hydrogen adds to the carbonyl group either catalytically or via NaBH4/LiAlH4, aldehydes giving primary alcohols and ketones secondary ones; a Grignard reagent adds first as a nucleophile and hydrolysis of the adduct then fixes the degree: methanal yields primary, any other aldehyde secondary, ketones tertiary.",
+   "formula": "grignard_product = alcohol_after_hydrolysis_of_adduct",
+   "key_idea": "Counting the carbons that surround the carbinol carbon tells you the alcohol class before you even draw the mechanism.",
+   "textbook_ref": "lech202.txt section 7.4.2(2)-(3), Example 7.2 (lines ~549-642)",
+   "question_patterns": [
+    "which alcohol class results when propanone meets methylmagnesium bromide and the adduct is hydrolysed",
+    "what primary alcohol forms when the aldehyde butanal is reduced with NaBH4 or catalytic hydrogenation",
+    "what does methanal give on reaction with a Grignard reagent followed by hydrolysis",
+    "state the reagent that reduces a carboxylic acid straight to a primary alcohol",
+    "explain why ketone reduction can never deliver a primary alcohol",
+    "choose the Grignard reagent and carbonyl partner needed for 2-methylpropan-2-ol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the carbonyl type",
+     "explain": "aldehyde carbons carry one carbon neighbour, ketone carbons two; reduction preserves that count"},
+    {"step": 2, "action": "add the Grignard carbon where relevant",
+     "explain": "the reagent's R group joins the carbonyl carbon, raising the alcohol degree by the number of carbons added"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.2.2",
+   "title": "Four Laboratory Routes to Phenol",
+   "section": "7.4.2",
+   "definition": "Phenol comes from benzene derivatives four ways: fusing chlorobenzene with NaOH at 623 K and 320 atmospheres then acidifying, heating benzene sulphonic acid with molten NaOH, hydrolysing a diazonium salt with warm water, or oxidising cumene with air and splitting the hydroperoxide with dilute acid.",
+   "formula": "cumene_route = phenol + acetone",
+   "key_idea": "The cumene process dominates world production because acetone arrives as a valuable co-product.",
+   "textbook_ref": "lech202.txt section 7.4.2 preparation of phenols (lines ~627-686)",
+   "question_patterns": [
+    "write the equations for making phenol from cumene",
+    "how does chlorobenzene yield phenol on fusion with NaOH",
+    "which route passes through a benzenediazonium chloride intermediate",
+    "state the conditions under which benzene sulphonic acid gives phenol",
+    "name the co-product of the cumene process",
+    "convert aniline to phenol in two steps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the precursor family",
+     "explain": "haloarene, aryl sulphonic acid, diazonium salt and cumene each need their own conditions"},
+    {"step": 2, "action": "release the phenol",
+     "explain": "most routes end by acidifying a sodium phenoxide intermediate"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.3.1",
+   "title": "Hydrogen Bonding behind Boiling Points and Solubility",
+   "section": "7.4.3",
+   "definition": "Intermolecular O-H...O hydrogen bonds lift alcohol and phenol boiling points above ethers, haloalkanes and hydrocarbons of similar mass, branching weakens the effect, and the same bonding to water dissolves small alcohols freely until bulky hydrophobic groups crowd it out.",
+   "formula": "bp_order_same_mass = alcohols > ethers > alkanes",
+   "key_idea": "Ethoxyethane and butan-1-ol dissolve in water to nearly the same extent because ether oxygen hydrogen-bonds to water even without an O-H of its own.",
+   "textbook_ref": "lech202.txt section 7.4.3, Example 7.3 (lines ~689-756)",
+   "question_patterns": [
+    "explain why propanol boils far higher than butane",
+    "arrange pentan-1-ol, n-butane, pentanal and ethoxyethane by rising boiling point",
+    "why does solubility fall along the series methanol to hexanol",
+    "compare the boiling points of ethanol and methoxymethane and give the reason",
+    "order pentan-1-ol, butan-1-ol, butan-2-ol, ethanol, propan-1-ol and methanol by boiling point",
+    "why can ethers dissolve in water despite lacking an O-H bond"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "look for donor and acceptor sites",
+     "explain": "an O-H bond donates hydrogen bonds; a lone-pair oxygen can only accept them"},
+    {"step": 2, "action": "weigh hydrophobic bulk",
+     "explain": "bigger alkyl groups cut water solubility while surface area governs dispersion contributions to boiling"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.1",
+   "title": "Acidity of Alcohols and Phenols with Substituent Effects",
+   "section": "7.4.4",
+   "definition": "Both families donate the O-H proton to metals and strong bases, but phenol outstrips alcohol acidity because its phenoxide ion spreads the negative charge over the ring while an alkoxide keeps it stuck on oxygen; alkyl groups weaken the acid and nitro groups at ortho or para strengthen it.",
+   "formula": "acid_strength_phenol > water > alcohol",
+   "key_idea": "Alkoxides beat hydroxide as proton acceptors, which is exactly why sodium ethoxide outbases sodium hydroxide.",
+   "textbook_ref": "lech202.txt section 7.4.4(a), Table 7.3 pKa data, Example 7.4 (lines ~773-902)",
+   "question_patterns": [
+    "arrange propan-1-ol, phenol, 3-nitrophenol, 3,5-dinitrophenol, picric acid and 4-methylphenol by growing acid strength",
+    "explain why phenol reacts with aqueous NaOH but ethanol does not",
+    "compare the acidity of phenol and ethanol using phenoxide resonance",
+    "why do cresols sit below phenol in acid strength",
+    "state the effect of an ortho nitro group on the acidity of phenol",
+    "which is the stronger base, sodium ethoxide or sodium hydroxide, and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "inspect the conjugate base",
+     "explain": "charge delocalisation over the ring stabilises phenoxide; alkyl groups intensify charge on oxygen and destabilise"},
+    {"step": 2, "action": "apply substituent position rules",
+     "explain": "electron-withdrawing nitro groups help most from ortho and para, never from meta"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.2",
+   "title": "Acid Strength Ratio from pKa Values",
+   "section": "7.4.4",
+   "definition": "Each pKa hides a base-ten factor: converting both values to Ka by raising ten to the minus pKa, then dividing, tells how many times one acid out-ionises the other.",
+   "formula": "strength_ratio = 10 ** (pka_b - pka_a)",
+   "key_idea": "A pKa gap of about six units is why phenol is called a million-fold stronger acid than ethanol, and bigger pKa always means the weaker acid.",
+   "textbook_ref": "lech202.txt Table 7.3 with pKa values and the weaker-acid note (lines ~843-902)",
+   "question_patterns": [
+    "phenol has pKa 10.0 and ethanol 15.9; calculate how many times more acidic phenol is",
+    "given pKa 7.1 for p-nitrophenol and 10.0 for phenol, find their acid strength ratio",
+    "how many times stronger is an acid of pKa 4.0 than one of pKa 8.0",
+    "compute the Ka of phenol from its pKa of 10.0",
+    "determine the acidity multiple for cresol at pKa 10.2 against phenol at pKa 10.0",
+    "use two pKa values from the table to work out which acid ionises more and by what factor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert the first pKa to Ka",
+     "explain": "Ka equals ten raised to the negative pKa",
+     "compute": "ka_a = 10 ** (-pka_a)"},
+    {"step": 2, "action": "convert the second pKa to Ka",
+     "explain": "same conversion for the comparison acid",
+     "compute": "ka_b = 10 ** (-pka_b)"},
+    {"step": 3, "action": "divide the constants",
+     "explain": "the quotient counts how many times one acid out-ionises the other",
+     "compute": "strength_ratio = ka_a / ka_b"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.3",
+   "title": "Alcohol-to-Halide Routes and the Lucas Test",
+   "section": "7.4.4",
+   "definition": "Hydrogen halides, phosphorus tribromide and thionyl chloride swap an alcohol's OH for a halogen, and the three classes differ visibly with Lucas reagent (concentrated HCl plus ZnCl2): tertiary alcohols turn cloudy at once, secondary in minutes, primary only on heating.",
+   "formula": "dehydration_order = tertiary > secondary > primary",
+   "key_idea": "Turbidity timing works because immiscible alkyl halides scatter light the instant they form, and halide reactivity runs HI > HBr > HCl.",
+   "textbook_ref": "lech202.txt section 7.4.4(b)(1)-(3), Lucas test (lines ~924-970)",
+   "question_patterns": [
+    "how does the Lucas reagent tell a tertiary alcohol from a primary one",
+    "predict the observation when butan-2-ol meets concentrated HCl with ZnCl2",
+    "which reagent converts an alcohol to an alkyl bromide via phosphorus",
+    "rank primary, secondary and tertiary alcohols by ease of dehydration",
+    "give the products when butan-1-ol and 2-methylbutan-2-ol each react with SOCl2",
+    "why do primary alcohols show no turbidity with Lucas reagent at room temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the alcohol class to its carbocation stability",
+     "explain": "the reaction price is a carbocation, so tertiary alcohols respond fastest in both halogenation and dehydration"},
+    {"step": 2, "action": "read the test signal",
+     "explain": "immediate cloudiness marks tertiary, slow cloudiness secondary, and heating is needed for primary"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.4",
+   "title": "Oxidation Ladder of Alcohols",
+   "section": "7.4.4",
+   "definition": "Primary alcohols climb to aldehydes under mild agents like PCC or CrO3 and on to carboxylic acids with strong ones like acidified KMnO4; secondary alcohols stop at ketones, tertiary alcohols resist oxidation unless bonds are torn apart, and hot copper at 573 K dehydrogenates the first two classes while dehydrating the third.",
+   "formula": "primary_alcohol_with_pcc = aldehyde",
+   "key_idea": "Picking the reagent picks the rung: mild oxidation pauses at the aldehyde, strong oxidation pushes through to the acid.",
+   "textbook_ref": "lech202.txt section 7.4.4(b)(4) with PCC and copper box (lines ~971-1050)",
+   "question_patterns": [
+    "name the reagent that stops a primary alcohol at the aldehyde stage",
+    "predict the product of oxidising propan-1-ol with alkaline KMnO4",
+    "what does butan-2-ol give with chromic anhydride",
+    "explain why tertiary alcohols escape normal oxidation",
+    "state what happens when ethanol vapour passes over hot copper at 573 K",
+    "which oxidant carries a primary alcohol all the way to the carboxylic acid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the hydrogens on the carbinol carbon",
+     "explain": "two removable hydrogens mark a primary alcohol, one a secondary, none a tertiary"},
+    {"step": 2, "action": "pick reagent strength for the target rung",
+     "explain": "PCC or CrO3 in anhydrous medium halts at the aldehyde; aqueous KMnO4 forces the acid"}
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.5",
+   "title": "Ring Reactions of Phenol: Nitration, Bromination, Kolbe and Reimer-Tiemann",
+   "section": "7.4.4",
+   "definition": "The OH group floods the ring with electron density, so electrophiles attack ortho and para: dilute nitric acid gives a separable o- and p-nitrophenol mix, bromine water drops the white 2,4,6-tribromophenol precipitate even without a Lewis acid, phenoxide plus carbon dioxide builds salicylic acid (Kolbe), and chloroform in alkali installs an ortho CHO group (Reimer-Tiemann).",
+   "formula": "bromine_water_product = 2_4_6_tribromophenol",
+   "key_idea": "Ortho nitrophenol steams off first because its intramolecular hydrogen bond breaks association, unlike the intermolecularly bonded para isomer.",
+   "textbook_ref": "lech202.txt section 7.4.4(c), Kolbe and Reimer-Tiemann (lines ~1051-1154)",
+   "question_patterns": [
+    "what white precipitate forms when phenol meets bromine water",
+    "predict the products when dilute HNO3 nitrates phenol at low temperature",
+    "write the equations of the Reimer-Tiemann reaction",
+    "state the reagents and product of Kolbe's reaction",
+    "why is o-nitrophenol steam volatile while its para isomer is not",
+    "which reagent pair introduces a -CHO group onto phenol at the ortho site"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "let the OH group direct the electrophile",
+     "explain": "resonance enriches ortho and para positions, and the phenoxide ion is reactive enough even for CO2"},
+    {"step": 2, "action": "match the condition to the substitution depth",
+     "explain": "low-polarity solvent keeps bromination monosubstituted; excess bromine water takes all three positions"}
+   ]
+  },
+  {
+   "id": "lech202.7.5.1",
+   "title": "Fermentation Stoichiometry of Glucose to Ethanol",
+   "section": "7.5",
+   "definition": "Zymase from yeast splits one glucose molecule into two ethanol molecules and two of carbon dioxide under anaerobic conditions, so moles of glucose in hand fix the alcohol yield twice over, and multiplying by the molar mass turns that into grams.",
+   "formula": "ethanol_moles = 2 * glucose_moles",
+   "key_idea": "Fermentation stalls near 14 percent alcohol because zymase poisons itself, and oxygen leaking in oxidises ethanol to ethanoic acid.",
+   "textbook_ref": "lech202.txt section 7.5, ethanol by fermentation (lines ~1193-1216)",
+   "question_patterns": [
+    "molasses contains 5 mol of glucose; how many moles of ethanol does fermentation deliver",
+    "calculate the mass of ethanol produced when 2.5 mol of glucose ferments completely",
+    "what mass of alcohol forms from 1.2 mol of glucose in the presence of zymase",
+    "determine the moles of carbon dioxide released when 3 mol of glucose ferment",
+    "compute the ethanol tonnage expected from a known mole count of grape sugar",
+    "how many moles of glucose does a distiller need for 12 mol of ethanol"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "double the glucose moles",
+     "explain": "each glucose splits into two ethanol molecules under zymase",
+     "compute": "ethanol_moles = 2 * glucose_moles"},
+    {"step": 2, "action": "convert moles to mass",
+     "explain": "multiplying by the molar mass of ethanol gives grams",
+     "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
+   ]
+  },
+  {
+   "id": "lech202.7.6.1.1",
+   "title": "Making Ethers: Acid Dehydration and Williamson Synthesis",
+   "section": "7.6.1",
+   "definition": "Two primary alcohols dehydrated by acid at about 413 K couple into a symmetrical ether through an SN2 attack on a protonated alcohol, while Williamson synthesis couples a primary alkyl halide with sodium alkoxide for symmetrical or mixed ethers; a tertiary halide instead surrenders an alkene because alkoxides are strong bases too.",
+   "formula": "williamson_pair = primary_halide + sodium_alkoxide",
+   "key_idea": "Put the bulky fragment on the oxygen side, never on the halide side: tertiary halides eliminate, they do not substitute.",
+   "textbook_ref": "lech202.txt section 7.6.1 with Example 7.6 (lines ~1258-1359)",
+   "question_patterns": [
+    "write the Williamson route to 2-ethoxy-3-methylpentane from an alcohol and a halide",
+    "why does sodium methoxide with tert-butyl bromide give 2-methylpropene instead of the ether",
+    "at which temperatures does ethanol dehydrate to ether rather than ethene",
+    "choose the right halide and alkoxide pair for ethoxybenzene",
+    "explain why acid dehydration fails for secondary and tertiary alcohols making ethers",
+    "propose a synthesis of t-butyl ethyl ether that actually works"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the fragments by bulk",
+     "explain": "the alkyl halide in Williamson must be primary; bulky groups belong in the alkoxide"},
+    {"step": 2, "action": "watch the temperature window",
+     "explain": "low temperature favours substitution to the ether, 443 K pushes elimination to the alkene"}
+   ]
+  },
+  {
+   "id": "lech202.7.6.3.1",
+   "title": "Reactions of Ethers: HI Cleavage and Activated Ring Substitution",
+   "section": "7.6.3",
+   "definition": "Concentrated HI or HBr cuts the ether C-O bond: iodide attacks the least hindered carbon by SN2, tertiary groups leave as carbocations by SN1, and aryl-alkyl ethers always break at the alkyl side leaving phenol plus alkyl iodide; the alkoxy group meanwhile activates aromatic rings toward ortho and para substitution, anisole brominating para in about 90 percent yield.",
+   "formula": "anisole_cleavage = phenol + methyl_iodide",
+   "key_idea": "The aryl-oxygen bond resists cleavage thanks to partial double-bond character, so electrophilic substitution and C-O cutting happen on different halves of the molecule.",
+   "textbook_ref": "lech202.txt sections 7.6.2-7.6.3 with mechanism and Example 7.7 (lines ~1362-1550)",
+   "question_patterns": [
+    "an aryl alkyl ether such as anisole is heated with concentrated HI; name the ether cleavage products",
+    "predict the cleavage products of methoxyethane with one equivalent of HI",
+    "what forms when tert-butyl methyl ether meets HI at high temperature",
+    "name the major isomer and its yield when anisole brominates in ethanoic acid",
+    "where does Friedel-Crafts alkylation place the entering group on anisole",
+    "explain why the phenyl-oxygen bond of an aryl alkyl ether survives HI cleavage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "protonate the ether oxygen",
+     "explain": "the oxonium ion hands a leaving group to the halide; iodide then picks the easier carbon"},
+    {"step": 2, "action": "route by substrate class",
+     "explain": "primary or secondary goes SN2 at the smaller group, tertiary goes SN1, and aryl carbons never substitute nucleophilically"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lech202_1",
+   "source_ref": "lech202.txt Table 7.3, phenol vs ethanol pKa",
+   "concept": "lech202.7.4.4.2",
+   "question_type": "acid_strength_ratio",
+   "question_pattern": "Phenol has pKa 10.0 while ethanol has pKa 15.9. Calculate how many times more acidic phenol is than ethanol.",
+   "extracted_variables": {"pka_a": 10.0, "pka_b": 15.9},
+   "solution_template": [
+    {"step": 1, "action": "convert the first pKa to Ka", "explain": "Ka = 10 to the minus pKa", "compute": "ka_a = 10 ** (-pka_a)"},
+    {"step": 2, "action": "convert the second pKa to Ka", "explain": "same conversion for ethanol", "compute": "ka_b = 10 ** (-pka_b)"},
+    {"step": 3, "action": "divide the constants", "explain": "the quotient is the acidity multiple", "compute": "strength_ratio = ka_a / ka_b"}
+   ]
+  },
+  {
+   "id": "we_lech202_2",
+   "source_ref": "lech202.txt Table 7.3, nitrophenol vs phenol pKa",
+   "concept": "lech202.7.4.4.2",
+   "question_type": "acid_strength_ratio",
+   "question_pattern": "p-Nitrophenol has pKa 7.1 and phenol has pKa 10.0. Determine the factor by which the nitro acid out-ionises phenol.",
+   "extracted_variables": {"pka_a": 7.1, "pka_b": 10.0},
+   "solution_template": [
+    {"step": 1, "action": "convert the first pKa to Ka", "explain": "Ka of p-nitrophenol", "compute": "ka_a = 10 ** (-pka_a)"},
+    {"step": 2, "action": "convert the second pKa to Ka", "explain": "Ka of phenol", "compute": "ka_b = 10 ** (-pka_b)"},
+    {"step": 3, "action": "divide the constants", "explain": "ratio of ionisations", "compute": "strength_ratio = ka_a / ka_b"}
+   ]
+  },
+  {
+   "id": "we_lech202_3",
+   "source_ref": "lech202.txt section 7.5, fermentation of glucose",
+   "concept": "lech202.7.5.1",
+   "question_type": "fermentation_yield",
+   "question_pattern": "A wash contains 5 mol of glucose. How many moles of ethanol does zymase fermentation deliver, and what mass is that?",
+   "extracted_variables": {"glucose_moles": 5, "molar_mass_ethanol": 46},
+   "solution_template": [
+    {"step": 1, "action": "double the glucose moles", "explain": "one glucose gives two ethanol molecules", "compute": "ethanol_moles = 2 * glucose_moles"},
+    {"step": 2, "action": "convert moles to mass", "explain": "multiply by 46 g per mol", "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
+   ]
+  },
+  {
+   "id": "we_lech202_4",
+   "source_ref": "lech202.txt section 7.5, fermentation stoichiometry",
+   "concept": "lech202.7.5.1",
+   "question_type": "fermentation_yield",
+   "question_pattern": "Grape sugar amounting to 2.5 mol ferments completely. Calculate the mass of ethanol formed.",
+   "extracted_variables": {"glucose_moles": 2.5, "molar_mass_ethanol": 46},
+   "solution_template": [
+    {"step": 1, "action": "double the glucose moles", "explain": "2:1 ethanol to glucose ratio", "compute": "ethanol_moles = 2 * glucose_moles"},
+    {"step": 2, "action": "convert moles to mass", "explain": "molar mass of ethanol applied", "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lech202_7_1_to_7_5",
+   "source_ref": "lech202.txt end-of-chapter exercises 7.1-7.5",
+   "questions": [
+    "Write IUPAC names for twelve mixed structures spanning alcohols, cyclic alcohols and ethers.",
+    "Draw the structures behind ten systematic names including 3,5-dimethylhexane-1,3,5-triol and cyclopent-3-en-1-ol.",
+    "Draw and name every isomeric alcohol of formula C5H12O and sort them into primary, secondary and tertiary.",
+    "Explain why propanol boils higher than butane and why alcohols out-dissolve hydrocarbons of matching mass in water."
+   ]
+  },
+  {
+   "id": "ex_lech202_7_6_to_7_12",
+   "source_ref": "lech202.txt end-of-chapter exercises 7.6-7.12",
+   "questions": [
+    "Illustrate the hydroboration-oxidation reaction with a worked example.",
+    "List the monohydric phenols of formula C7H8O with structures and names.",
+    "Name the steam-volatile isomer in an ortho-para nitrophenol separation and justify it through hydrogen bonding.",
+    "Write the phenol preparations from cumene, from chlorobenzene and from benzene using only H2SO4 and NaOH."
+   ]
+  },
+  {
+   "id": "ex_lech202_7_13_to_7_22",
+   "source_ref": "lech202.txt end-of-chapter exercises 7.13-7.22",
+   "questions": [
+    "Synthesise 1-phenylethanol from an alkene, cyclohexylmethanol by an SN2 route, and pentan-1-ol from a suitable halide.",
+    "Give two reactions proving phenol is acidic and compare its strength with ethanol.",
+    "Supply equations for KMnO4 oxidation of propan-1-ol, bromine in CS2 with phenol, dilute HNO3 with phenol, and chloroform plus alkali on phenol.",
+    "Write the acid-dehydration mechanism of ethanol to ethene and name the reagents for six listed conversions."
+   ]
+  },
+  {
+   "id": "ex_lech202_7_23_to_7_33",
+   "source_ref": "lech202.txt end-of-chapter exercises 7.23-7.33",
+   "questions": [
+    "Name the given ethers by the IUPAC system.",
+    "Choose reagents and equations for Williamson preparations of 1-propoxypropane, ethoxybenzene, 2-methoxy-2-methylpropane and 1-methoxyethane.",
+    "Explain the limitations of Williamson synthesis when secondary or tertiary halides are involved.",
+    "Write the HI reaction equations for 1-propoxypropane, methoxybenzene and benzyl ethyl ether, then account for the rearrangement when 3-methylbutan-2-ol meets HBr."
+   ]
+  }
+ ]
+}

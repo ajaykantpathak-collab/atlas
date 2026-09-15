@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip102",
+ "concepts": [
+  {
+   "id": "leip102.1",
+   "title": "Series Creation from Scalars, Arrays and Dictionary",
+   "questions": [
+    {
+     "q": "Using the method 'Series Creation from Scalars, Arrays and Dictionary', work with: data_count = 45, element_count = 30, label_count = 150. Carry the chain through step by step and give the final value of length_mismatch.",
+     "a": "105 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Series Creation from Scalars, Arrays and Dictionary' and work with: data_count = 400, element_count = 360, label_count = 120. Carry the chain through step by step and give the final value of length_mismatch.",
+     "a": "280 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Series Creation from Scalars, Arrays and Dictionary' refers to.",
+     "a": "A Pandas Series is a one-dimensional labelled column of values, built either from a list of scalars, from a 1-D NumPy array, or from a dictionary whose keys turn into the labels. Without explicit labels the positions run from 0 through N-1, and when custom labels are supplied their count must equal the value count, otherwise a ValueError reports the length mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Series Creation from Scalars, Arrays and Dictionary'.",
+     "a": "Keys of a dictionary become labels; values and labels must agree in number, and the default labels end at count minus one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Series Creation from Scalars, Arrays and Dictionary', in plain ASCII form.",
+     "a": "length_mismatch = abs(data_count - label_count)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.2",
+   "title": "Positional versus Labelled Slicing",
+   "questions": [
+    {
+     "q": "How many values does seriesCapCntry[1:3] return and which labels do they carry? Use the method 'Positional versus Labelled Slicing'. Work with: slice_end_position = 45, slice_start_position = 45. Carry the chain through step by step and give the final value of labelled_count.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "How many values does seriesCapCntry['USA':'France'] return? Use the method 'Positional versus Labelled Slicing'. Work with: slice_end_position = 150, slice_start_position = 40. Carry the chain through step by step and give the final value of labelled_count.",
+     "a": "111 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Positional versus Labelled Slicing' refers to.",
+     "a": "Slicing cuts a sub-series out of a series. With positional integers the end position is excluded, so [1:3] hands back only positions 1 and 2; with labels the end label is included, so 'USA':'France' hands back three values. Reversing a series uses a negative step [::-1].",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Positional versus Labelled Slicing'.",
+     "a": "Count a positional cut as end minus start; a labelled cut adds one because the end label stays in.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Positional versus Labelled Slicing', in plain ASCII form.",
+     "a": "labelled_count = positional_count + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.3",
+   "title": "Series Arithmetic and NaN Alignment",
+   "questions": [
+    {
+     "q": "How many NaN values appear in seriesA + seriesB for the two five-label series of the chapter? Use the method 'Series Arithmetic and NaN Alignment'. Work with: first_labels = 3, matched_labels = 10, second_labels = 360. Carry the chain through step by step and give the final value of nan_results.",
+     "a": "343 units",
+     "self_check": false
+    },
+    {
+     "q": "What is the value at label a after seriesA + seriesB? Use the method 'Series Arithmetic and NaN Alignment'. Work with: first_labels = 240, matched_labels = 18, second_labels = 24. Carry the chain through step by step and give the final value of nan_results.",
+     "a": "228 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Series Arithmetic and NaN Alignment' refers to.",
+     "a": "Adding or subtracting two series matches values by label, not by position. Only labels present in both series get a numeric result; every label unique to one side lands as NaN in the output, and the output carries the union of all labels. For seriesA and seriesB of the chapter, the union holds 7 labels of which 3 match, so 4 results are NaN.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Series Arithmetic and NaN Alignment'.",
+     "a": "Matched labels compute (a: 1 + -10 = -9); unmatched labels on either side produce NaN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Series Arithmetic and NaN Alignment', in plain ASCII form.",
+     "a": "nan_results = union_labels - matched_labels",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.4",
+   "title": "fill_value Methods: add, sub, mul, div",
+   "questions": [
+    {
+     "q": "Using the method 'fill_value Methods: add, sub, mul, div', work with: fill_value = 1200, value_a_b = 80000, value_b_y = 50000. Carry the chain through step by step and give the final value of result_b.",
+     "a": "78800 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'fill_value Methods: add, sub, mul, div' and work with: fill_value = 5000, value_a_b = 8000, value_b_y = 80000. Carry the chain through step by step and give the final value of result_b.",
+     "a": "3000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'fill_value Methods: add, sub, mul, div' refers to.",
+     "a": "The explicit methods add(), sub(), mul() and div() do the same arithmetic as the operators but accept a fill_value that stands in for a missing side before computing. With fill_value=1000, the label b of seriesA.sub(seriesB) becomes 2 - 1000 = -998, and the label y becomes 1000 - 20 = 980, replacing what would have been NaN.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'fill_value Methods: add, sub, mul, div'.",
+     "a": "Where one side is missing, the fill steps in for it; the arithmetic then proceeds label by label.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'fill_value Methods: add, sub, mul, div', in plain ASCII form.",
+     "a": "result_b = value_a_b - fill_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.5",
+   "title": "DataFrame from Dictionary of Lists and Series",
+   "questions": [
+    {
+     "q": "Using the method 'DataFrame from Dictionary of Lists and Series', work with: column_count = 200, own_labels = 3, union_labels = 8. Carry the chain through step by step and give the final value of total_missing_cells.",
+     "a": "1000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DataFrame from Dictionary of Lists and Series' and work with: column_count = 50, own_labels = 12, union_labels = 15. Carry the chain through step by step and give the final value of total_missing_cells.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DataFrame from Dictionary of Lists and Series' refers to.",
+     "a": "A DataFrame grows naturally out of dictionaries: dictionary keys become the column labels and the lists (or series) become the rows or columns. When several series with different labels build one DataFrame, the row labels become the union of all series indexes, and every label a series lacks turns into a NaN cell.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DataFrame from Dictionary of Lists and Series'.",
+     "a": "Keys become columns, label unions become rows, and each absent label-value pair is stored as NaN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DataFrame from Dictionary of Lists and Series', in plain ASCII form.",
+     "a": "total_missing_cells = missing_per_column * column_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.6",
+   "title": "DataFrame Attributes: shape, size, T",
+   "questions": [
+    {
+     "q": "Using the method 'DataFrame Attributes: shape, size, T', work with: column_count = 360, row_count = 8. Carry the chain through step by step and give the final value of cells_after_new_column.",
+     "a": "2888 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DataFrame Attributes: shape, size, T' and work with: column_count = 360, row_count = 50. Carry the chain through step by step and give the final value of cells_after_new_column.",
+     "a": "18050 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DataFrame Attributes: shape, size, T' refers to.",
+     "a": "A DataFrame reports its geometry through attributes: shape returns the (rows, columns) tuple, size returns the total cell count (their product), index and columns list the labels, dtypes gives each column's type, values strips the labels into an ndarray, and T flips the frame so rows and columns trade places.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DataFrame Attributes: shape, size, T'.",
+     "a": "Size equals rows times columns; appending one column adds exactly one cell per row.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DataFrame Attributes: shape, size, T', in plain ASCII form.",
+     "a": "cells_after_new_column = frame_size + row_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.7",
+   "title": "Adding and Dropping Rows and Columns",
+   "questions": [
+    {
+     "q": "Using the method 'Adding and Dropping Rows and Columns', work with: column_count = 24, dropped_columns = 12, row_count = 200. Carry the chain through step by step and give the final value of size_after_drop.",
+     "a": "2400 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Adding and Dropping Rows and Columns' and work with: column_count = 360, dropped_columns = 150, row_count = 10. Carry the chain through step by step and give the final value of size_after_drop.",
+     "a": "2100 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Adding and Dropping Rows and Columns' refers to.",
+     "a": "Assigning to a fresh column label appends a column at the end, while an existing label updates that column; loc[ ] adds or rewrites whole rows by label. The drop() method removes rows with axis=0 and columns with axis=1, deleting every row that shares a duplicated label, and shrinkage in cells can be tracked arithmetically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adding and Dropping Rows and Columns'.",
+     "a": "New label means add, existing label means update; each dropped column removes one cell per remaining row.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adding and Dropping Rows and Columns', in plain ASCII form.",
+     "a": "size_after_drop = frame_size - dropped_columns * row_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.8",
+   "title": "append Method for DataFrames",
+   "questions": [
+    {
+     "q": "Using the method 'append Method for DataFrames', work with: first_rows = 6, second_rows = 80. Carry the chain through step by step and give the final value of last_ignored_label.",
+     "a": "85 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'append Method for DataFrames' and work with: first_rows = 20, second_rows = 25. Carry the chain through step by step and give the final value of last_ignored_label.",
+     "a": "44 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'append Method for DataFrames' refers to.",
+     "a": "The append() method stacks the rows of a second DataFrame after the first, inventing NaN where columns do not line up and adding unseen columns on the fly. Setting ignore_index=True discards the old row labels and numbers the stacked rows from zero, while verify_integrity=True raises an error on duplicate labels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'append Method for DataFrames'.",
+     "a": "Rows stack end to end; with ignore_index the combined rows are relabelled 0 through total rows minus one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'append Method for DataFrames', in plain ASCII form.",
+     "a": "last_ignored_label = appended_rows - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip102.9",
+   "title": "CSV Import Export and Series versus ndarray",
+   "questions": [
+    {
+     "q": "Using the method 'CSV Import Export and Series versus ndarray', work with: csv_lines_minus_header = 12. Carry the chain through step by step and give the final value of imported_rows.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'CSV Import Export and Series versus ndarray' and work with: csv_lines_minus_header = 100. Carry the chain through step by step and give the final value of imported_rows.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'CSV Import Export and Series versus ndarray' refers to.",
+     "a": "read_csv() loads a comma separated file into a DataFrame, with sep choosing the delimiter, header naming the row that supplies column labels and names supplying fresh ones; to_csv() writes a DataFrame back out, where header=False and index=False suppress the column and row labels. Unlike NumPy arrays, series align by label during operations, tolerate NaN for missing matches, allow non-unique and descending labels, but cost more memory.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'CSV Import Export and Series versus ndarray'.",
+     "a": "Keys and headers shape the frame on the way in; header=False and index=False slim the file on the way out; series align by label while ndarrays do not.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'CSV Import Export and Series versus ndarray', in plain ASCII form.",
+     "a": "imported_rows = csv_lines_minus_header",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_008",
+   "title": "c11_eco_cbse_01_008",
+   "questions": [
+    {
+     "q": "List the three major primary products India exported and the three major manufactured goods India imported during the British colonial period, as per NCERT classification.",
+     "a": "Major exports: raw cotton, raw jute, indigo (also acceptable: raw silk, wool, sugar, tea, opium). Major imports: cotton textiles (piece goods), woollen textiles, silk textiles, light machinery/capital goods. A wrong answer — such as listing \"tea\" as an import or \"machinery\" as an export — reveals the student has not grasped the colonial division of labour where India was reduced to a raw material appendage. This confusion often stems from conflating modern trade patterns (where India exports software and imports oil) with colonial patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the opening of the Suez Canal in 1869 intensified British control over India's foreign trade rather than opening it to global competition.",
+     "a": "The Suez Canal reduced the sea distance between Britain and India by ~6,500 km, cutting freight costs and transit time by 60-70%. This disproportionately benefited British shipping lines (which dominated the route) and British manufacturers (who gained faster, cheaper access to Indian markets and raw materials). Competing nations lacked the established shipping networks, coal stations, and colonial administrative infrastructure to exploit the new route equally. A wrong answer focusing only on \"lower transport costs\" misses the strategic asymmetry — the canal was a force multiplier for existing British dominance, not a neutral trade facilitator.",
+     "self_check": true
+    },
+    {
+     "q": "Using the hypothetical data below, calculate the percentage share of Britain in India's total foreign trade and determine whether India had a trade surplus or deficit with Britain.\n| Trade Partner | Exports from India (₹ crore) | Imports into India (₹ crore) |\n|---------------|------------------------------|------------------------------|\n| Britain       | 180                          | 220                          |\n| China         | 40                           | 10                           |\n| Ceylon        | 15                           | 5                            |\n| Persia        | 10                           | 5                            |\n| Others        | 15                           | 10                           |",
+     "a": "Step 1: Total exports = 180+40+15+10+15 = 260 ₹ crore. Total imports = 220+10+5+5+10 = 250 ₹ crore. Total trade = 510 ₹ crore.\nStep 2: Britain's trade share = (180+220)/510 × 100 = 400/510 × 100 = 78.4%.\nStep 3: India's trade balance with Britain = Exports to Britain - Imports from Britain = 180 - 220 = -40 ₹ crore (deficit).\nStep 4: India's overall trade balance = 260 - 250 = +10 ₹ crore (surplus).\nInterpretation: Despite an overall export surplus, India ran a bilateral deficit with Britain — the surplus came from triangular trade with China/Ceylon (opium/tea). A wrong calculation that only checks overall surplus misses the bilateral imbalance that financed the drain of wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the commercialisation of agriculture (Node c11_eco_cbse_01_005) directly altered the commodity composition of India's exports between 1850-1947.",
+     "a": "Commercialisation shifted land from food grains (rice, wheat, millets) to cash crops (cotton, jute, indigo, opium, tea) for export. This changed export composition in three ways: (1) Increased share of raw cotton from <5% (1850) to ~35% (1913) of total exports, (2) Made jute the second-largest export by 1900, concentrated in Bengal, (3) Created mono-crop vulnerability — when synthetic indigo was invented (1897), India's indigo exports collapsed from ₹8 crore to near zero within a decade. A wrong answer that merely lists crops without linking to land-use change or price incentives fails to see commercialisation as a structural transformation driven by colonial revenue and trade policy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's persistent export surplus under British rule proves the economy was competitive and gaining foreign exchange.\" Use the concept of 'invisible imports' and 'home charges' in your reasoning.",
+     "a": "The statement is false. The export surplus (visible trade) was offset by large invisible imports: (1) Home charges — interest on British Indian debt, pensions for British officials, India Office expenses in London (~₹20-30 crore annually by 1900), (2) Interest on railway guaranteed returns, (3) Military expenditure for imperial wars (Afghan, Boer, WWI), (4) Profit remittances by British firms. These invisible outflows exceeded the visible export surplus, resulting in a net current account deficit — the drain of wealth. A student who equates export surplus with economic gain commits the mercantilist fallacy, ignoring that the surplus was not retained as reserves but transferred abroad to service colonial obligations.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a Sankey diagram description (text-based) showing the flow of India's export surplus (1900-1913 average: ₹50 crore/year) into: Home Charges, Railway Guaranteed Interest, Military Expenditure, and Private Remittances. Assign plausible percentage shares based on historical estimates.",
+     "a": "A strong answer: \"Export Surplus (₹50 cr) → Home Charges (₹22 cr, 44%) → Railway Guaranteed Interest (₹10 cr, 20%) → Military Expenditure (₹8 cr, 16%) → Private Remittances/Profit Repatriation (₹10 cr, 20%). Net retention in India: ~0.\" The diagram must show the surplus splitting into four outflow arrows with no significant domestic accumulation arrow. A poor answer shows the surplus flowing into \"Indian treasury\" or \"industrial investment\" — revealing the misconception that colonial fiscal policy reinvested trade gains locally. Historical estimates (Dadabhai Naoroji, V.K.R.V. Rao) confirm near-zero net foreign asset accumulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

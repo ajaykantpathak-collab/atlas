@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_15_002",
+   "title": "c11_eng_w_cbse_15_002",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between a narrative poem like \"The Rime of the Ancient Mariner\" and a dramatic monologue like \"Hawk Roosting\"?",
+     "a": "A narrative poem tells a story with external events, characters, and a chronological plot (beginning, middle, end), while a dramatic monologue presents a single speaker's internal thoughts at a specific moment, creating a psychological \"plot\" rather than an external one. A wrong answer (e.g., \"both have characters\") reveals the student confuses *persona* with *narrative structure* and cannot distinguish external action from internal argument as the engine of the poem.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Hawk Roosting,\" the first three stanzas focus on the hawk's physical reality (trees, air, bark, feathers). The last three shift to abstract claims (\"Creation\", \"sophistry\", \"right\", \"eye\"). Why does the poet structure the poem this way?",
+     "a": "The structure moves from *empirical evidence* (physical advantages the hawk experiences) to *philosophical conclusion* (the hawk's interpretation of what those advantages mean), mimicking how a tyrant builds a case for absolute power: first establish material dominance, then claim it as natural law. A wrong answer (e.g., \"to describe the bird\") shows the student sees only description, not argumentative architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"circular narrative structure\" to the poem: Identify the phrase in stanza 1 that reappears conceptually in stanza 6, and explain how this creates closure.",
+     "a": "Stanza 1: \"Inaction, no falsifying dream / Between my hooked head and hooked feet\" → Stanza 6: \"Nothing has changed since I began, / My eye has permitted no change.\" The circularity locks the hawk in an eternal present where its will *is* reality. A student who cannot link these stanzas misses the poem's structural enactment of stasis — the form *performs* the content.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"Hawk Roosting\" with a typical Shakespearean soliloquy (e.g., Hamlet's \"To be or not to be\"). How does the *absence* of doubt or questioning in Hughes's monologue change the structural expectations of the form?",
+     "a": "A soliloquy typically structures *internal conflict* (thesis-antithesis-synthesis), moving through doubt to resolution. \"Hawk Roosting\" structures *certainty*: each stanza adds a premise to an unchallengeable conclusion. The absence of rhetorical questions or conditional language (\"if\", \"perhaps\") creates a monolithic structure — no cracks for alternative perspectives. A wrong answer focusing only on \"both are first person\" misses the structural function of *doubt* vs. *dogma*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The poem's six-stanza, four-line structure (quatrains) is merely a visual convenience; free verse would convey the same hawk-like rigidity.\" Defend or refute using structural evidence.",
+     "a": "Refute. The rigid quatrains *enact* the hawk's \"direct\" flight and \"allotment of death\" — the form mirrors the content's inflexibility. Free verse would imply fluidity, choice, or organic growth, contradicting the hawk's \"no arguments assert my right.\" The regularity is the cage the hawk builds for the reader. A wrong answer treating form as decorative reveals inability to connect *structural choice* to *thematic enforcement*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a seventh stanza that *breaks* the poem's circular logic, introducing a crack in the hawk's certainty. Use the same quatrain structure and first-person voice.",
+     "a": "A strong answer maintains the hawk's voice but introduces an external force the hawk cannot control (e.g., \"A wind not mine shakes the high branch / My talons slip — a moment's doubt / The earth looks up, not down, for once / My eye permits a single change\"). A weak answer merely adds another boast, showing the student cannot imagine the *structural function* of disruption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_005",
+   "title": "c12_math_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the necessary and sufficient condition for the product of two matrices A (m × n) and B (p × q) to be defined? State the order of the resulting matrix.",
+     "a": "The product AB is defined only when n = p (columns of A equal rows of B). The resulting matrix has order m × q. A wrong answer (e.g., saying m = p or that the product is always defined) reveals the student confuses matrix multiplication with addition or does not understand the row-by-column pairing requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why matrix multiplication is not commutative in general, using a concrete 2×2 example. Why does the definition of multiplication (row of first × column of second) lead to this non-commutativity?",
+     "a": "Matrix multiplication is not commutative because AB and BA involve different pairings of rows and columns; even when both products are defined (square matrices), the sums of products differ. For example, A = [[1,2],[3,4]], B = [[5,6],[7,8]] gives AB = [[19,22],[43,50]] but BA = [[23,34],[31,46]]. A student who claims commutativity holds or gives an example where it accidentally holds (like diagonal matrices) has not grasped that the definition inherently depends on order.",
+     "self_check": true
+    },
+    {
+     "q": "Compute the product AB where A = [[2, -1], [0, 3]] and B = [[4, 1], [-2, 5]]. Show all steps of the row-by-column calculation.",
+     "a": "AB = [[2×4 + (-1)×(-2), 2×1 + (-1)×5], [0×4 + 3×(-2), 0×1 + 3×5]] = [[8+2, 2-5], [0-6, 0+15]] = [[10, -3], [-6, 15]]. A wrong answer often comes from multiplying element-wise (Hadamard product) giving [[8, -1], [0, 15]] or misaligning rows/columns. This reveals the student treats matrix multiplication like scalar multiplication or addition.",
+     "self_check": true
+    },
+    {
+     "q": "Given three matrices A (2×3), B (3×2), and C (2×2), which of the following products are defined: (AB)C, A(BC), (BA)C, B(AC)? For each defined product, state its order.",
+     "a": "AB is 2×2, so (AB)C is 2×2. BC is 3×2 × 2×2 = 3×2, so A(BC) is 2×3 × 3×2 = 2×2. BA is 3×2 × 2×3 = 3×3, so (BA)C is 3×3 × 2×2 → not defined (3≠2). AC is 2×3 × 2×2 → not defined (3≠2), so B(AC) not defined. A student who says all are defined or misses the associative equivalence shows they do not track dimensions through chained multiplications.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If AB = O (zero matrix), then either A = O or B = O.\" Evaluate this statement. Provide a counterexample if false, or a proof if true.",
+     "a": "The statement is false. Counterexample: A = [[1, -1], [1, -1]], B = [[1, 1], [1, 1]] gives AB = [[0,0],[0,0]] but neither A nor B is zero. A student who thinks it's true is incorrectly applying the zero-product property of real numbers to matrices, ignoring that matrices can be zero divisors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (in an Indian context) that requires multiplying a 3×2 matrix by a 2×3 matrix. Define the matrices clearly, state what each dimension represents, and explain what the resulting 3×3 matrix represents.",
+     "a": "Example: A school has 3 sections (VI-A, VI-B, VI-C) and 2 subjects (Maths, Science). Matrix Q (3×2) gives the number of students in each section taking each subject. Matrix P (2×3) gives the fees per student for each subject in three terms. The product R = QP (3×3) gives total fee collection per section per term. A good answer defines rows/columns unambiguously and explains the summation meaning. A poor answer swaps dimensions or gives a trivial context without clear mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

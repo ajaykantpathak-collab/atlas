@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_003",
+   "title": "c11_biotech_cbse_06_003",
+   "questions": [
+    {
+     "q": "State Mendel's Law of Segregation in your own words and identify the specific stage of meiosis where it occurs.",
+     "a": "Correct answer: The Law of Segregation states that the two alleles of a gene separate during gamete formation so that each gamete receives only one allele. This occurs during Anaphase I of meiosis when homologous chromosomes (each carrying one allele) separate. A wrong answer that says \"alleles separate during mitosis\" or \"during Anaphase II\" reveals confusion between meiosis I (reductional division separating homologues) and meiosis II (equational division separating sister chromatids), or confusion between somatic cell division and gamete formation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the genotypic ratio of a monohybrid cross F2 generation as 1:2:1 (TT:Tt:tt) and the phenotypic ratio as 3:1 (tall:dwarf). They claim \"the phenotypic ratio is just a simplified version of the genotypic ratio.\" Explain why this statement is incorrect and what the actual relationship is.",
+     "a": "Correct answer: The phenotypic ratio is not a simplification; it arises because the heterozygote (Tt) shows the same phenotype as the homozygous dominant (TT) due to complete dominance. The genotypic ratio 1:2:1 represents three distinct genotypes, while the phenotypic ratio 3:1 groups TT and Tt together as \"tall\" and tt as \"dwarf.\" A wrong answer that treats them as mathematically equivalent reveals the misconception that phenotype directly maps 1:1 to genotype, ignoring dominance relationships. This is a critical Class 11 distinction — in incomplete dominance (next node), the genotypic and phenotypic ratios become identical (1:2:1).",
+     "self_check": true
+    },
+    {
+     "q": "You have a pea plant with purple flowers (dominant, P) but unknown genotype. You perform a test cross with a white-flowered plant (pp) and obtain 48 offspring: 24 purple and 24 white. Determine the genotype of the purple parent and calculate the expected numbers if you had instead self-pollinated the purple parent.",
+     "a": "Step 1: Test cross is P_ × pp. Offspring ratio 1:1 (24 purple : 24 white) indicates the purple parent is heterozygous (Pp). Step 2: Selfing Pp × Pp gives genotypic ratio 1 PP : 2 Pp : 1 pp and phenotypic ratio 3 purple : 1 white. Step 3: For 48 offspring, expected numbers = 36 purple (27 Pp + 9 PP) and 12 white (12 pp). A wrong answer giving 3:1 for the test cross reveals confusion between test cross (heterozygote × recessive) and selfing (heterozygote × heterozygote). A wrong answer for selfing that doesn't separate PP and Pp in the genotypic breakdown shows inability to distinguish genotype from phenotype.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the gamete types produced by a homozygous dominant (TT), heterozygous (Tt), and homozygous recessive (tt) individual for a single gene. Then explain why a test cross with a homozygous recessive tester can distinguish between TT and Tt but not between Tt and tt.",
+     "a": "Gametes: TT produces only T; Tt produces T and t in 1:1 ratio; tt produces only t. Test cross with tt: TT × tt → all Tt (100% dominant phenotype); Tt × tt → 1 Tt : 1 tt (1:1 phenotypic ratio); tt × tt → all tt (100% recessive). The test cross distinguishes TT from Tt because they produce different gamete arrays (only T vs T and t), leading to different offspring ratios. It cannot distinguish Tt from tt if the unknown parent shows recessive phenotype (both would be tt), but if the unknown shows dominant phenotype, the test cross distinguishes TT (all dominant offspring) from Tt (1:1 ratio). A wrong answer claiming test cross distinguishes all three genotypes reveals misunderstanding that the test cross is specifically for determining if a dominant phenotype is homozygous or heterozygous.",
+     "self_check": true
+    },
+    {
+     "q": "A biology textbook states: \"The 3:1 phenotypic ratio in F2 proves that alleles segregate during gamete formation.\" Critique this statement. Is the 3:1 ratio sufficient proof, or are additional observations needed? Justify your answer.",
+     "a": "The 3:1 ratio alone is NOT sufficient proof of segregation. It is consistent with segregation but could also arise from other mechanisms (e.g., differential gamete viability, meiotic drive). Mendel's actual proof came from: (1) observing the 1:2:1 genotypic ratio via test crosses of F2 dominants, (2) reciprocal crosses giving same ratios, (3) independent replication across seven traits, and (4) later cytological confirmation of meiosis. The 3:1 ratio is necessary but not sufficient evidence. A student who says \"yes, 3:1 proves segregation\" shows a naive view of scientific evidence — they confuse consistency with proof. This is a classic senior-secondary error: treating a single experimental outcome as definitive proof without considering alternative explanations or corroborating evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monohybrid cross experiment using a trait of your choice (not pea height) that would allow a Class 11 student to verify the Law of Segregation. Specify the parental genotypes, the expected F1 and F2 ratios, and the test cross needed to confirm F2 genotypes. Explain how you would statistically test if observed data fits expected ratios.",
+     "a": "Example: Seed shape in pea (Round R dominant over wrinkled r). Parents: RR × rr. F1: all Rr (round). F2 selfing: 1 RR : 2 Rr : 1 rr (genotypic), 3 round : 1 wrinkled (phenotypic). Test cross F2 round with rr: RR gives all round; Rr gives 1 round : 1 wrinkled. Chi-square test: χ² = Σ(O-E)²/E with df=1 for phenotypic ratio, df=2 for genotypic. A good answer includes specific numbers, correct test cross logic, and mentions chi-square. A poor answer uses pea height again, omits the test cross, or suggests a t-test instead of chi-square for categorical ratio data — revealing lack of statistical literacy for genetics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

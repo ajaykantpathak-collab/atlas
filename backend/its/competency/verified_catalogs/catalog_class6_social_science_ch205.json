@@ -1,0 +1,273 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 205,
+ "chapter_title": "Major Domains of the Earth",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees103.txt",
+ "concepts": [
+  {
+   "id": "fess.205.1",
+   "title": "Four Major Domains of the Earth",
+   "section": "MAJOR DOMAINS OF THE EARTH",
+   "definition": "The environment of the Earth is composed of four principal realms: the land surface, the surrounding atmospheric air, all global water bodies, and the living sphere.",
+   "formula": "",
+   "key_idea": "Interlinked realms of land, air, and water interact to form the environment supporting life.",
+   "textbook_ref": "fess205.txt lines 1-30",
+   "question_patterns": [
+    "what are the four primary domains of the earth",
+    "name and explain the realms that compose the earth environment",
+    "how do the lithosphere, atmosphere, hydrosphere, and biosphere interact",
+    "list the major components of the earth environment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify realms",
+     "explain": "Identify the four main realms: lithosphere, atmosphere, hydrosphere, and biosphere."
+    },
+    {
+     "step": 2,
+     "action": "describe roles",
+     "explain": "Lithosphere comprises solid land, atmosphere holds gaseous air, hydrosphere contains water in all forms, and biosphere harbors living organisms."
+    }
+   ]
+  },
+  {
+   "id": "fess.205.2",
+   "title": "Lithospheric Elevation and Vertical Relief",
+   "section": "LITHOSPHERE",
+   "definition": "The solid outer surface of the Earth, including landmasses and ocean floors, where elevation and depth are measured relative to sea level.",
+   "formula": "total_relief = peak_elevation + trench_depth",
+   "key_idea": "Sea level serves as the zero reference datum for calculating heights and ocean trench depths.",
+   "textbook_ref": "fess205.txt lines 31-50",
+   "question_patterns": [
+    "calculate the total vertical relief between the highest peak and deepest trench",
+    "find the height difference between a mountain peak of elevation {peak_elevation} and trench of depth {trench_depth}",
+    "what is the vertical range between Mt. Everest and Mariana Trench",
+    "determine total vertical distance given peak elevation and trench depth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum elevation and depth values",
+     "explain": "Add the altitude above sea level to the ocean depth below sea level to obtain total vertical relief",
+     "compute": "total_relief = peak_elevation + trench_depth"
+    }
+   ]
+  },
+  {
+   "id": "fess.205.3",
+   "title": "Continents and Geographic Divisions",
+   "section": "Continents",
+   "definition": "Large, continuous terrestrial landmasses separated by major oceans, predominantly situated across the Northern Hemisphere.",
+   "formula": "",
+   "key_idea": "Seven distinct continents make up the land portion of the Earth's surface.",
+   "textbook_ref": "fess205.txt lines 51-120",
+   "question_patterns": [
+    "which continent is the largest on Earth",
+    "name the continents that lie completely in the Southern Hemisphere",
+    "what connects North America and South America",
+    "identify key geographic features of major continents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify continent",
+     "explain": "Examine continental positions and hemispheric locations relative to Equator and Prime Meridian."
+    },
+    {
+     "step": 2,
+     "action": "verify features",
+     "explain": "Match landmasses with geographic markers like Ural Mountains, Isthmus of Panama, or Andes."
+    }
+   ]
+  },
+  {
+   "id": "fess.205.4",
+   "title": "Hydrosphere and Water Proportions",
+   "section": "HYDROSPHERE",
+   "definition": "The domain encompassing all forms of water on Earth, divided into vast ocean saltwater and a small fraction of fresh water.",
+   "formula": "freshwater_volume = total_water * freshwater_percent / 100",
+   "key_idea": "Over 97% of Earth's water is salty ocean water, leaving under 3% as fresh water.",
+   "textbook_ref": "fess205.txt lines 121-155",
+   "question_patterns": [
+    "calculate the volume of fresh water given total water volume {total_water} and fresh water percentage {freshwater_percent}",
+    "find the amount of fresh water available in a total volume of {total_water}",
+    "how much usable fresh water exists if total water volume is {total_water}",
+    "compute freshwater volume from total water quantity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate fresh water portion",
+     "explain": "Multiply total water volume by fresh water percentage divided by 100",
+     "compute": "freshwater_volume = total_water * freshwater_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "fess.205.5",
+   "title": "Oceanic Basins and Characteristics",
+   "section": "Oceans",
+   "definition": "Vast interconnected basins of saline water undergoing continuous motion through waves, tides, and currents.",
+   "formula": "",
+   "key_idea": "Five major oceans differ in extent, shape, coastline indentation, and land boundaries.",
+   "textbook_ref": "fess205.txt lines 156-200",
+   "question_patterns": [
+    "name the major oceans in order of size",
+    "which ocean has an S shape and highly indented coastline",
+    "identify the ocean named after a country",
+    "describe characteristics of the Pacific and Atlantic oceans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list oceans by size",
+     "explain": "Arrange oceans in descending order: Pacific, Atlantic, Indian, Southern, Arctic."
+    },
+    {
+     "step": 2,
+     "action": "verify attributes",
+     "explain": "Match specific ocean traits such as S-shape for Atlantic or circular form for Pacific."
+    }
+   ]
+  },
+  {
+   "id": "fess.205.6",
+   "title": "Atmospheric Composition and Gaseous Volumes",
+   "section": "ATMOSPHERE",
+   "definition": "The protective gaseous blanket surrounding Earth, structured into five layers and dominated by nitrogen and oxygen.",
+   "formula": "nitrogen_volume = total_air_volume * nitrogen_percent / 100",
+   "key_idea": "Air consists primarily of 78% nitrogen and 21% oxygen, with density decreasing with elevation.",
+   "textbook_ref": "fess205.txt lines 201-240",
+   "question_patterns": [
+    "calculate the volume of nitrogen in a air sample of total volume {total_air_volume} given percentage {nitrogen_percent}",
+    "determine the volume of gas present in {total_air_volume} units of air",
+    "find the volume of oxygen when total air volume is {total_air_volume} and percentage is {oxygen_percent}",
+    "compute gas constituent volume from total air volume"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate specific gas volume",
+     "explain": "Multiply total air volume by the percentage of gas divided by 100",
+     "compute": "nitrogen_volume = total_air_volume * nitrogen_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "fess.205.7",
+   "title": "Biosphere and Environmental Equilibrium",
+   "section": "BIOSPHERE – THE DOMAIN OF LIFE",
+   "definition": "The narrow intersection of land, water, and air where life forms flourish and interact in plant and animal kingdoms.",
+   "formula": "",
+   "key_idea": "Human activity disrupting land, water, or air can destabilize global climate and natural balance.",
+   "textbook_ref": "fess205.txt lines 241-280",
+   "question_patterns": [
+    "why is the biosphere vital for living organisms",
+    "how do human activities affect environmental equilibrium",
+    "what causes global warming according to atmospheric balance",
+    "explain the linkage between plant and animal kingdoms in biosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain contact zone",
+     "explain": "Identify biosphere as the overlapping realm where land, water, and air support organism survival."
+    },
+    {
+     "step": 2,
+     "action": "analyze impact",
+     "explain": "Explain how deforestation, pollution, and greenhouse gas emissions destabilize ecological balance."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess205.txt lines 31-40",
+   "concept": "fess.205.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total vertical relief between Mt. Everest at elevation {peak_elevation} metres and Mariana Trench at depth {trench_depth} metres.",
+   "extracted_variables": {
+    "peak_elevation": "8848",
+    "trench_depth": "11022"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum elevation and depth values",
+     "explain": "Add the altitude above sea level to the ocean depth below sea level to obtain total vertical relief",
+     "compute": "total_relief = peak_elevation + trench_depth"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess205.txt lines 215-225",
+   "concept": "fess.205.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the volume of nitrogen gas in a room containing {total_air_volume} cubic metres of air, assuming air is {nitrogen_percent} percent nitrogen.",
+   "extracted_variables": {
+    "total_air_volume": "500",
+    "nitrogen_percent": "78"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate specific gas volume",
+     "explain": "Multiply total air volume by the percentage of gas divided by 100",
+     "compute": "nitrogen_volume = total_air_volume * nitrogen_percent / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess205.txt lines 281-290",
+   "questions": [
+    "What are the four major domains of the earth?",
+    "Name the major continents of the earth.",
+    "Name the two continents that lie entirely in the Southern Hemisphere.",
+    "Name the different layers of atmosphere.",
+    "Why is the earth called the 'blue planet'?",
+    "Why is the Northern Hemisphere called the Land Hemisphere?",
+    "Why is the Biosphere important for living organisms?"
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "fess205.txt lines 291-310",
+   "questions": [
+    "The mountain range that separates Europe from Asia is (i) the Andes (ii) the Himalayas (iii) the Urals",
+    "The continent of North America is linked to South America by (i) an Isthmus (ii) a Strait (iii) a Canal",
+    "The major constituent of atmosphere by per cent is (i) Nitrogen (ii) Oxygen (iii) Carbon dioxide",
+    "The domain of the earth consisting of solid rocks is (i) the Atmosphere (ii) the Hydrosphere (iii) the Lithosphere",
+    "Which is the largest continent? (i) Africa (ii) Asia (iii) Australia"
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "fess205.txt lines 311-325",
+   "questions": [
+    "The deepest point on the earth is _____________ in the Pacific Ocean.",
+    "The _____________ Ocean is named after a country.",
+    "The _____________ is a narrow contact zone of land, water and air that supports life.",
+    "The continents of Europe and Asia together are known as _____________.",
+    "The highest mountain peak on the earth is _____________."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

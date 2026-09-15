@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_008",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_008",
+   "title": "c7_eco_ch04_008",
+   "questions": [
+    {
+     "q": "What is a paper-based payment instruction ordered by an account holder directing their bank to pay a specific sum of money to the person named on it?",
+     "a": "The correct answer is a cheque. A student who answers \"UPI\" or \"cash\" is confusing paper banking instruments with electronic payment channels. A cheque is a physical paper order, whereas UPI is entirely digital.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a UPI (Unified Payments Interface) transaction happen instantly 24/7, whereas a traditional paper cheque can take two to three working days to clear?",
+     "a": "The correct answer is that UPI uses immediate electronic messaging between bank servers to transfer funds in real-time, whereas a cheque must be physically or digitally presented, verified for signature matching, and processed through clearing houses. A student who believes cheques are instant confuses the physical delivery of paper with the actual bank-to-bank settlement process.",
+     "self_check": true
+    },
+    {
+     "q": "Aman has a savings account balance of ₹5,000. He uses a UPI app to pay ₹1,200 for groceries, then writes a cheque of ₹2,500 to a bookshop. Assuming both transactions are processed successfully in sequence, what is Aman's final bank balance?",
+     "a": "The correct answer is ₹1,300. \nStep 1: Identify initial balance = ₹5,000. \nStep 2: Subtract UPI grocery payment (₹5,000 - ₹1,200 = ₹3,800). \nStep 3: Subtract cheque payment (₹3,800 - ₹2,500 = ₹1,300). \nStep 4: Final balance is ₹1,300. \nA student who gets a different answer likely forgot to subtract one of the payments or added them instead of deducting them from the account balance.",
+     "self_check": true
+    },
+    {
+     "q": "How do digital payment systems like UPI affect the velocity (speed of circulation) of money in a local market compared to cash transactions?",
+     "a": "Digital payment systems increase the velocity of money because transactions require zero physical travel time to a bank or ATM, allowing consumers and merchants to complete multiple trades rapidly within a single day. A student who thinks digital payments slow down trade fails to recognize that instant electronic transfers remove the physical bottlenecks associated with handling and withdrawing cash.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a street vendor selling items for ₹20 should adopt a UPI QR code payment system instead of relying purely on cash.",
+     "a": "Adopting UPI is beneficial because it eliminates the need to carry exact change, reduces the risk of accepting counterfeit notes, and automatically records sales in a bank account. However, it requires a smartphone, active internet connection, and small transaction processing familiarity, which might pose initial challenges for micro-vendors. A student who argues purely that \"cash is always best\" ignores the efficiency gains and security benefits of digital record-keeping.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-step transaction flow showing how Riya transfers ₹500 from her bank account to her friend Kabir using a mobile UPI application.",
+     "a": "A complete answer must include: \n1. Riya opens her UPI app, enters Kabir's Virtual Payment Address (VPA) or scans his QR code, and types the amount ₹500. \n2. Riya enters her secret 4-digit or 6-digit UPI PIN to authorize the transfer. \n3. The banking network instantly debits ₹500 from Riya's account and credits ₹500 to Kabir's account, sending a success notification to both. \nA poor answer misses the security authorization step (UPI PIN) or fails to show the dual movement of debit and credit between accounts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

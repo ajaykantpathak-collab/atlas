@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_007",
+   "title": "c11_cs_cbse_06_007",
+   "questions": [
+    {
+     "q": "What error is raised when you execute `s = \"PYTHON\"; s[0] = \"p\"` and why does Python raise it?",
+     "a": "**Answer:** `TypeError: 'str' object does not support item assignment`. Python raises it because strings are immutable — they do not allow modification of individual characters by index.  \n**Wrong answer reveals:** If a student says \"it changes to 'pYTHON'\" or \"no error, it works\", they confuse strings with lists (which are mutable). If they say \"SyntaxError\", they don't distinguish between syntax and runtime type errors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens to the original string when you execute `name = \"amit\"; name = name.upper()`.",
+     "a": "**Answer:** The original string `\"amit\"` remains unchanged in memory. The method `upper()` creates a **new string** `\"AMIT\"` and the variable `name` is reassigned to point to this new object. The old string `\"amit\"` becomes eligible for garbage collection if no other reference points to it.  \n**Wrong answer reveals:** If a student says \"the original string becomes 'AMIT'\", they believe strings are mutable and methods modify in-place. This is the single most common Class 11 misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output and explain the memory addresses:\n```python\ns1 = \"EXAM\"\nprint(id(s1))\ns2 = s1 + \"2024\"\nprint(id(s1), id(s2))\ns1 = s1.lower()\nprint(id(s1))\n```",
+     "a": "**Answer:**  \n- First `id(s1)` prints address A (e.g., 1402345678912).  \n- After `s2 = s1 + \"2024\"`, `id(s1)` is still A, `id(s2)` is a new address B. Concatenation creates a new string.  \n- After `s1 = s1.lower()`, `id(s1)` is a new address C. The original `\"EXAM\"` at address A is unchanged; `lower()` returns a new string `\"exam\"`.  \n**Wrong answer reveals:** If a student thinks `id(s1)` changes after concatenation but not after `lower()`, they inconsistently apply immutability. If they think all three `id`s are the same, they believe strings mutate in-place.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory behavior of these two loops. Which is more efficient and why?\n```python",
+     "a": "**Answer:** Loop B is far more efficient. In Loop A, each `result + str(i)` creates a **brand-new string** copying all previous characters — 1000 new strings allocated, O(n²) time. In Loop B, `list.append` mutates the same list in-place (O(1) amortized), and `\"\".join(parts)` creates the final string once — O(n) time.  \n**Wrong answer reveals:** If a student says \"both are same\" or \"Loop A is faster because no list\", they don't grasp that string immutability forces repeated full copying. This is a classic board-exam performance question.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `def clean(text): text = text.strip(); text = text.lower(); return text` and claims \"this modifies the original string passed in\". Evaluate this claim.",
+     "a": "**Answer:** The claim is **false**. Strings are immutable and passed by object reference. Inside `clean`, `text.strip()` creates a new string; `text = text.strip()` rebinds the local variable `text` to that new object. The original string in the caller's scope remains completely unchanged. The function returns a new string; it does not mutate the argument.  \n**Wrong answer reveals:** If a student agrees with the claim, they confuse variable rebinding with object mutation — a fundamental misunderstanding of Python's call-by-object-reference semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-program that *visually proves* string immutability to a skeptical classmate using only `id()`, `print()`, and string operations — no external libraries.",
+     "a": "**Good answer example:**\n```python\ns = \"CBSE\"\nprint(\"Original:\", id(s))\ns_upper = s.upper()\nprint(\"After upper():\", id(s), \"vs new:\", id(s_upper))\ns_concat = s + \"2024\"\nprint(\"After concat:\", id(s), \"vs new:\", id(s_concat))\ntry:\n    s[0] = \"X\"\nexcept TypeError as e:\n    print(\"Item assignment failed:\", e)\n```\n**Criteria:** Must show same `id` for original across operations, different `id`s for results, and catch the `TypeError`.  \n**Poor answer reveals:** If they only print values without `id()`, or don't attempt item assignment, they haven't proven immutability — they've only shown methods return new values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

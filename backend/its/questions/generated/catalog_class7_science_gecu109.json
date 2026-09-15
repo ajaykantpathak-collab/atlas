@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu109.json",
+ "concepts": [
+  {
+   "id": "gecu.9.1",
+   "title": "Nutrition in Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the five steps of nutrition in animals.",
+     "a": "Ingestion, digestion, absorption, assimilation and egestion.",
+     "self_check": true
+    },
+    {
+     "q": "Where does digestion of food begin in humans?",
+     "a": "In the mouth - teeth break food and saliva starts digesting starch.",
+     "self_check": true
+    },
+    {
+     "q": "What is the role of the stomach in digestion?",
+     "a": "Its acid and juices churn food and digest proteins into simpler forms.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.2",
+   "title": "Respiration in Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Write the word equation of respiration.",
+     "a": "Food (glucose) + oxygen -> carbon dioxide + water + energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we breathe faster while running?",
+     "a": "Running muscles need more energy, so more oxygen must be taken in quickly.",
+     "self_check": true
+    },
+    {
+     "q": "Which organs take in oxygen in humans?",
+     "a": "The lungs - oxygen passes from air sacs into the blood.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.3",
+   "title": "Breathing Mechanism and the Lungs",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens to the diaphragm when we inhale?",
+     "a": "It flattens and moves down, making chest space bigger so air rushes into the lungs.",
+     "self_check": true
+    },
+    {
+     "q": "Name the windpipe that carries air to the lungs.",
+     "a": "The trachea, which divides into two bronchi.",
+     "self_check": true
+    },
+    {
+     "q": "What are the air sacs in the lungs called?",
+     "a": "Alveoli - tiny sacs where oxygen enters the blood.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.4",
+   "title": "Excretion and Circulation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is excretion?",
+     "a": "Removing harmful wastes (like urea) made in the body, mainly as urine by the kidneys.",
+     "self_check": true
+    },
+    {
+     "q": "What does the circulatory system carry around the body?",
+     "a": "Blood carrying oxygen, food, wastes and hormones to and from every cell.",
+     "self_check": true
+    },
+    {
+     "q": "Name the vessels that carry blood back to the heart.",
+     "a": "Veins (arteries carry blood away from the heart).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

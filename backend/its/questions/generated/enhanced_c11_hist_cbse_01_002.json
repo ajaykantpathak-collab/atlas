@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_002",
+   "title": "c11_hist_cbse_01_002",
+   "questions": [
+    {
+     "q": "What was the primary material used for writing in early Mesopotamia, and approximately when do the earliest written tablets date to?",
+     "a": "The primary material was clay, and the earliest tablets date to c. 3200 BCE from Uruk. A wrong answer (e.g., \"stone\" or \"papyrus\" or \"2000 BCE\") reveals the student confuses Mesopotamia with Egypt (papyrus, stone stelae) or misplaces the chronology, missing that clay's durability in Mesopotamia's climate gave us thousands of tablets — unlike the perishable materials used elsewhere.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the earliest Mesopotamian tablets (c. 3200 BCE) contain lists of oxen, fish, and bread loaves rather than stories or laws?",
+     "a": "These tablets recorded temple redistributive transactions — goods brought in or distributed — because writing originated as an *accounting tool* for managing surplus in a temple-centred urban economy. A wrong answer (e.g., \"they hadn't invented literature yet\") misses the functional link: writing solved a specific problem of *temporal displacement* in transactions (recording what was owed/received across time), not a lack of narrative capacity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cuneiform signs began as pictures of objects and always remained pictures.\" Using the evolution from tokens to syllabic cuneiform, explain why this is incorrect.",
+     "a": "The evolution was: 3D tokens (c. 8000 BCE) → impressed token shapes on clay envelopes → pictographs drawn with stylus (c. 3200 BCE) → abstract wedge-shaped (cuneiform) signs representing *syllables* (c. 2600 BCE). The shift to syllabic signs (e.g., 'put', 'la', 'in') allowed writing *any* Sumerian word phonetically, not just concrete nouns. A wrong answer shows the student doesn't grasp the *rebus principle* — using picture-sound associations to write abstract words — which distinguishes full writing from proto-writing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the temple in early Mesopotamian writing with the role of the citadel in Harappan seal use (Class 6). What does this comparison reveal about the *social context* of early writing in the two civilisations?",
+     "a": "Mesopotamian tablets record *temple* transactions (grain, labour, animals) by named scribes, showing writing served a *redistributive temple bureaucracy* with individual accountability. Harappan seals (Class 6: c6_history_ch04_003) show standardised motifs but no long texts, suggesting *merchant/elite identity marking* for trade control, not detailed accounting. The difference: Mesopotamia developed *phonetic script for administrative depth*; Harappa used *iconic seals for commercial breadth*. A poor answer treats both as \"administrative\" without distinguishing *record-keeping* vs *authentication*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Writing in Mesopotamia was invented by kings to glorify their deeds.\" Use evidence from the Uruk period (c. 3200–2800 BCE) and the Enmerkar epic.",
+     "a": "The claim is *partially true but chronologically reversed*. Earliest tablets (c. 3200 BCE) are *temple accounts*, not royal inscriptions — kings like Enmerkar appear *later* in literary tradition (c. 2100 BCE epic) as *organisers of trade* who *adopted* writing (\"formed a clay tablet... wrote the words down\"). Writing enabled kingship, not vice versa. A wrong answer confuses *later ideological use* (royal inscriptions post-2600 BCE) with *origin*, missing that temples — not palaces — were the first writing institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-stage timeline showing the *material and cognitive shifts* from Neolithic tokens to developed cuneiform, labelling each stage with: (a) approximate date, (b) physical form, (c) linguistic principle (e.g., one-to-one correspondence, rebus).",
+     "a": "Stage 1: c. 8000 BCE — 3D clay tokens (cones, spheres, disks) — *one token = one unit of goods* (concrete correspondence). Stage 2: c. 3500 BCE — tokens impressed on clay bullae (envelopes) — *external marking replaces opening envelope* (abstract representation). Stage 3: c. 3200 BCE — pictographs incised on tablets with reed stylus — *sign resembles object* (logographic). Stage 4: c. 2600 BCE — wedge-shaped cuneiform signs — *sign = syllable (e.g., 'ba', 'an')* (phonographic/rebus principle). A poor answer lists dates without the *cognitive leap* at each stage (concrete → abstract → phonetic).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

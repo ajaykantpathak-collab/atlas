@@ -1,0 +1,316 @@
+{
+ "catalog": "catalog_class12_biology_ch113",
+ "concepts": [
+  {
+   "id": "lebo.13.1.1",
+   "title": "Levels of Biological Diversity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels of Biological Diversity' refers to.",
+     "a": "Variability among living organisms present at distinct hierarchical levels including genetic variations within species, species richness within habitats, and structural diversity across entire ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Biological Diversity'.",
+     "a": "Biodiversity spans all organization tiers from genes within a single population to broad biome structures.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Levels of Biological Diversity', in plain ASCII form.",
+     "a": "Total Diversity = Genetic Diversity + Species Diversity + Ecological Diversity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.2",
+   "title": "Global and National Species Richness Estimates",
+   "questions": [
+    {
+     "q": "Using the method 'Global and National Species Richness Estimates', work with: currently_recorded_species = 30, estimated_total_species = 400. Carry the chain through step by step and give the final value of undiscovered_species.",
+     "a": "370 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Global and National Species Richness Estimates' and work with: currently_recorded_species = 5, estimated_total_species = 24. Carry the chain through step by step and give the final value of undiscovered_species.",
+     "a": "19 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Global and National Species Richness Estimates' refers to.",
+     "a": "Quantitative assessments of total described and predicted species on Earth based on conservative statistical extrapolations from temperate and tropical insect taxa ratios.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global and National Species Richness Estimates'.",
+     "a": "Robert May conservatively estimates global biodiversity at 7 million species, with India harboring over 8 percent despite limited land area.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Global and National Species Richness Estimates', in plain ASCII form.",
+     "a": "undiscovered_species = estimated_total_species - currently_recorded_species",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.3",
+   "title": "Species Proportion and Percentage Share Calculation",
+   "questions": [
+    {
+     "q": "Calculate the percentage share of global species recorded in a country. Use the method 'Species Proportion and Percentage Share Calculation'. Work with: group_species_count = 60, total_global_species = 20. Carry the chain through step by step and give the final value of percentage_share.",
+     "a": "300 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the percentage of animal species contributed by a specific taxonomic group. Use the method 'Species Proportion and Percentage Share Calculation'. Work with: group_species_count = 8, total_global_species = 150. Carry the chain through step by step and give the final value of percentage_share.",
+     "a": "5.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Species Proportion and Percentage Share Calculation' refers to.",
+     "a": "Mathematical calculation determining the percentage contribution of a region or taxonomic group relative to the total global species headcount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Species Proportion and Percentage Share Calculation'.",
+     "a": "Quantifying national or taxonomic proportion relative to global biological headcount.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Species Proportion and Percentage Share Calculation', in plain ASCII form.",
+     "a": "percentage_share = (group_species_count / total_global_species) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.4",
+   "title": "Latitudinal Gradients in Biodiversity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Latitudinal Gradients in Biodiversity' refers to.",
+     "a": "The spatial pattern where species richness steadily decreases from the equatorial tropics toward the higher-latitude polar regions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Latitudinal Gradients in Biodiversity'.",
+     "a": "Tropical regions harbor higher species richness due to evolutionary stability, predictable non-seasonal climates, and abundant solar energy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Latitudinal Gradients in Biodiversity', in plain ASCII form.",
+     "a": "species_richness = f(latitude)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.5",
+   "title": "Species-Area Relationship and Regression Coefficients",
+   "questions": [
+    {
+     "q": "Calculate log species richness log S using the species-area logarithmic equation. Use the method 'Species-Area Relationship and Regression Coefficients'. Work with: log_a = 60, log_c = 75, z = 240. Carry the chain through step by step and give the final value of log_s.",
+     "a": "14475 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine log_S given regression coefficient Z, log_A, and log_C. Use the method 'Species-Area Relationship and Regression Coefficients'. Work with: log_a = 360, log_c = 20, z = 150. Carry the chain through step by step and give the final value of log_s.",
+     "a": "54020 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Species-Area Relationship and Regression Coefficients' refers to.",
+     "a": "The mathematical curve describing how species richness scales with increasing sample area, forming a rectangular hyperbola on linear scales and a straight line on logarithmic axes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Species-Area Relationship and Regression Coefficients'.",
+     "a": "Logarithmic plot of species richness against area gives a straight line whose slope Z reflects geographic scale.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Species-Area Relationship and Regression Coefficients', in plain ASCII form.",
+     "a": "log_S = log_C + Z * log_A",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.6",
+   "title": "Ecosystem Stability and the Rivet Popper Hypothesis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ecosystem Stability and the Rivet Popper Hypothesis' refers to.",
+     "a": "Conceptual framework asserting that high species richness stabilizes biological communities against productivity fluctuations, disturbances, and biological invasions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ecosystem Stability and the Rivet Popper Hypothesis'.",
+     "a": "Paul Ehrlich airplane analogy illustrates how removing key species jeopardizes structural ecosystem integrity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ecosystem Stability and the Rivet Popper Hypothesis', in plain ASCII form.",
+     "a": "ecosystem_stability ~ species_richness",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.7",
+   "title": "Biodiversity Loss and Mass Extinction Rates",
+   "questions": [
+    {
+     "q": "Using the method 'Biodiversity Loss and Mass Extinction Rates', work with: baseline_rate = 8. Carry the chain through step by step and give the final value of current_extinction_rate.",
+     "a": "8000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Biodiversity Loss and Mass Extinction Rates' and work with: baseline_rate = 20. Carry the chain through step by step and give the final value of current_extinction_rate.",
+     "a": "20000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Biodiversity Loss and Mass Extinction Rates' refers to.",
+     "a": "The ongoing rapid decline of biological species across global taxa, contrasting past natural extinction events with accelerated anthropogenic rates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biodiversity Loss and Mass Extinction Rates'.",
+     "a": "Human activities are driving a sixth mass extinction event at rates up to a thousand times faster than pre-human background levels.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Biodiversity Loss and Mass Extinction Rates', in plain ASCII form.",
+     "a": "current_extinction_rate = baseline_rate * 1000",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.8",
+   "title": "Causes of Biodiversity Loss: The Evil Quartet",
+   "questions": [
+    {
+     "q": "Using the method 'Causes of Biodiversity Loss: The Evil Quartet', work with: alien_invasions = 25, coextinctions = 50, habitat_destruction = 200, overexploitation = 240. Carry the chain through step by step and give the final value of biodiversity_loss.",
+     "a": "515 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Causes of Biodiversity Loss: The Evil Quartet' and work with: alien_invasions = 150, coextinctions = 360, habitat_destruction = 360, overexploitation = 12. Carry the chain through step by step and give the final value of biodiversity_loss.",
+     "a": "882 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Causes of Biodiversity Loss: The Evil Quartet' refers to.",
+     "a": "The four principal human-driven mechanisms responsible for species extinction: habitat destruction/fragmentation, over-exploitation, invasive alien species, and co-extinction events.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Causes of Biodiversity Loss: The Evil Quartet'.",
+     "a": "Habitat loss and fragmentation constitute the leading drive of global species declines.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Causes of Biodiversity Loss: The Evil Quartet', in plain ASCII form.",
+     "a": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.1",
+   "title": "Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments",
+   "questions": [
+    {
+     "q": "Using the method 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments', work with: broad_utilitarian = 120, ethical_duties = 60, narrow_utilitarian = 15. Carry the chain through step by step and give the final value of conservation_rationale.",
+     "a": "195 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments' and work with: broad_utilitarian = 60, ethical_duties = 18, narrow_utilitarian = 80. Carry the chain through step by step and give the final value of conservation_rationale.",
+     "a": "158 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments' refers to.",
+     "a": "The framework categorizing conservation rationale into direct economic gains, vital ecosystem services, and moral duties toward fellow biological species.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments'.",
+     "a": "Conservation is justified by economic benefits like bioprospecting, ecosystem services like oxygen production, and intrinsic species value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments', in plain ASCII form.",
+     "a": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.2",
+   "title": "In Situ Conservation Strategy and Sacred Groves",
+   "questions": [
+    {
+     "q": "Using the method 'In Situ Conservation Strategy and Sacred Groves', work with: biosphere_reserves = 360, national_parks = 60, sacred_groves = 500, sanctuaries = 10. Carry the chain through step by step and give the final value of in_situ_network.",
+     "a": "930 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'In Situ Conservation Strategy and Sacred Groves' and work with: biosphere_reserves = 50, national_parks = 18, sacred_groves = 1200, sanctuaries = 25. Carry the chain through step by step and give the final value of in_situ_network.",
+     "a": "1293 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'In Situ Conservation Strategy and Sacred Groves' refers to.",
+     "a": "On-site protection of total ecosystems in their natural habitat through legally designated reserves, biodiversity hotspots, and culturally protected sacred groves.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'In Situ Conservation Strategy and Sacred Groves'.",
+     "a": "In situ strategies preserve organisms in their native habitats, focusing priority on high-endemism hotspots and cultural refuges.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'In Situ Conservation Strategy and Sacred Groves', in plain ASCII form.",
+     "a": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.3",
+   "title": "Ex Situ Conservation Techniques and Global Environmental Summits",
+   "questions": [
+    {
+     "q": "Using the method 'Ex Situ Conservation Techniques and Global Environmental Summits', work with: cryopreservation = 60, seed_banks = 3, tissue_culture = 40, zoological_gardens = 200. Carry the chain through step by step and give the final value of ex_situ_methods.",
+     "a": "303 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ex Situ Conservation Techniques and Global Environmental Summits' and work with: cryopreservation = 30, seed_banks = 360, tissue_culture = 5, zoological_gardens = 3. Carry the chain through step by step and give the final value of ex_situ_methods.",
+     "a": "398 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ex Situ Conservation Techniques and Global Environmental Summits' refers to.",
+     "a": "Off-site preservation techniques placing endangered species under human care along with international political commitments for sustainable biological management.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ex Situ Conservation Techniques and Global Environmental Summits'.",
+     "a": "Advanced ex situ techniques maintain gametes and tissues artificially, complemented by international agreements like Earth Summit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ex Situ Conservation Techniques and Global Environmental Summits', in plain ASCII form.",
+     "a": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

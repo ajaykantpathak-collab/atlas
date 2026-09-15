@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_02_011",
+   "title": "c12_eng_k_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the grammatical rule for parallelism when using correlative conjunctions like \"not only... but also\"?",
+     "a": "The rule: the grammatical structure following \"not only\" must be identical to the structure following \"but also\" (e.g., both noun phrases, both infinitives, both gerunds). A wrong answer like \"just use the same words\" reveals the student confuses lexical repetition with structural matching — a critical error because Board marking schemes award marks for identifying *grammatical form*, not vocabulary.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"She had consented to go away, to leave her home,\" why are \"to go away\" and \"to leave her home\" parallel? Explain in your own words.",
+     "a": "Both are infinitive phrases (to + base verb) functioning as objects of \"consented.\" They share the same grammatical form (infinitive) and same syntactic role. A wrong answer like \"they both talk about leaving\" shows the student is tracking *meaning* not *form* — they will miss parallelism when the meaning differs but form matches (e.g., \"to stay, to suffer\").",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite this non-parallel sentence from a student's practice answer into correct parallel form: \"Eveline's father was violent, a drunkard, and he gambled.\"",
+     "a": "Step 1: Identify the three elements: \"violent\" (adjective), \"a drunkard\" (noun phrase), \"he gambled\" (clause). Step 2: Choose one form — e.g., all adjectives: \"violent, drunken, gambling\" OR all noun phrases: \"a violent man, a drunkard, a gambler.\" Step 3: Rewrite: \"Eveline's father was violent, drunken, and a gambler.\" A wrong answer that mixes forms (e.g., \"violent, a drunkard, and gambling\") shows the student cannot hold a consistent grammatical pattern across a list — a frequent 1-mark deduction in Board \"Language Usage\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parallelism in these two sentences from the text. What different *relationship* does each show?\n(i) \"Ernest had been her favourite but she liked Harry too.\"\n(ii) \"not like their little brown houses but bright brick houses with shining roofs.\"",
+     "a": "(i) uses \"but\" to coordinate two independent clauses with *contrastive* meaning (favourite vs. liked) — parallel subject-verb structure highlights emotional nuance. (ii) uses \"not... but\" to coordinate two prepositional phrases modifying \"houses\" — parallel form emphasizes *physical contrast* (old vs. new). A wrong answer that says \"both show contrast\" misses that (i) contrasts *feelings* via clause parallelism while (ii) contrasts *objects* via phrase parallelism — Board \"Appreciation\" questions require this structural-function link.",
+     "self_check": true
+    },
+    {
+     "q": "A student marks stress on \"phoTOgraph\" (second syllable) and \"phoTOGraphy\" (third syllable). Evaluate if this is correct and explain the rule governing stress shift in word families.",
+     "a": "Incorrect. Correct: \"PHOtograph\" (stress on first syllable) and \"phoTOGraphy\" (stress on third syllable). The rule: suffixes like -phy, -gy, -al, -ic shift stress to the syllable immediately before the suffix. The student's error reveals they treat each word in isolation instead of recognizing morphological families — a trap in CUET/NEET English where \"eCONomy\" vs \"ecoNOMic\" is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence paragraph about Eveline's final moment at the dock using *at least two different types* of parallel structures (e.g., infinitive list, \"not only... but also\", comparative \"more... than\"). Underline the parallel elements.",
+     "a": "Example: \"She gripped the iron railing, **to anchor herself**, **to resist the pull**.\" (infinitive parallelism). \"**Not only** did the boat whistle **but** her heart **also** clanged.\" (correlative conjunction with inverted auxiliary). \"Her face was **whiter than** the foam, **colder than** the mist.\" (comparative parallelism). A poor answer uses only one type or fails to underline — shows inability to *deploy* parallelism creatively, which Board \"Writing Skills\" rubrics reward for \"cohesive devices.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

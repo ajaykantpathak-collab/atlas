@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_5",
+   "title": "c9_math_ch4_5",
+   "questions": [
+    {
+     "q": "What is the greatest common factor (GCF) of the terms \\(12x^3y^2\\) and \\(18x^2y^4\\)?",
+     "a": "The GCF is \\(6x^2y^2\\). A wrong answer like \\(6x^3y^4\\) reveals the student takes the highest power instead of the lowest power for variables. An answer like \\(2x^2y^2\\) or \\(3x^2y^2\\) shows they didn't find the highest common numerical factor (HCF of 12 and 18 is 6).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(3x(x+2)\\) is the fully factorised form of \\(3x^2 + 6x\\), but \\(x(3x+6)\\) is not considered fully factorised.",
+     "a": "\\(3x(x+2)\\) is fully factorised because the GCF of the terms \\(3x^2\\) and \\(6x\\) is \\(3x\\) (the largest monomial dividing both). In \\(x(3x+6)\\), the common factor \\(3\\) is still left inside the bracket, so the factorisation is incomplete. A student who says \"both are correct\" does not understand that \"factorise completely\" means extracting the GREATEST common factor, not just any common factor.",
+     "self_check": true
+    },
+    {
+     "q": "Factorise completely: \\(14a^2b - 21ab^2 + 7ab\\).",
+     "a": "**Steps:**\n1. Find GCF of coefficients 14, 21, 7 → 7.\n2. Variables: \\(a\\) appears in all terms (min power \\(a^1\\)), \\(b\\) appears in all terms (min power \\(b^1\\)). GCF = \\(7ab\\).\n3. Divide each term by \\(7ab\\): \\(14a^2b ÷ 7ab = 2a\\); \\(-21ab^2 ÷ 7ab = -3b\\); \\(7ab ÷ 7ab = 1\\).\n4. Write: \\(7ab(2a - 3b + 1)\\).\n5. Check: \\(7ab \\times 2a = 14a^2b\\), \\(7ab \\times (-3b) = -21ab^2\\), \\(7ab \\times 1 = 7ab\\). Correct.\nA wrong answer like \\(7a(2ab - 3b^2 + b)\\) shows the student missed \\(b\\) in the GCF. An answer like \\(7ab(2a - 3b)\\) (missing +1) shows they forgot the third term when dividing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factorisation of \\(x^2 + 5x\\) and \\(x^2 + 5x + 6\\). Why does the common factor method work for the first but not the second?",
+     "a": "\\(x^2 + 5x = x(x+5)\\) because both terms share the factor \\(x\\). In \\(x^2 + 5x + 6\\), the three terms have no common factor (the constant 6 has no \\(x\\)), so the common factor method fails. A student who says \"we can factorise both by taking \\(x\\) common\" and writes \\(x(x+5+6/x)\\) doesn't understand that factorisation must result in a polynomial with integer coefficients, and the GCF must divide EVERY term exactly.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorised \\(8p^3q - 12p^2q^2 + 4pq\\) as \\(4pq(2p^2 - 3q + 1)\\). Identify the error and give the correct factorisation.",
+     "a": "Error: In the second term, \\(-12p^2q^2 ÷ 4pq = -3pq\\), but the student wrote \\(-3q\\) (missing \\(p\\)). Correct factorisation: \\(4pq(2p^2 - 3pq + 1)\\). A student who misses this error does not systematically divide each term by the GCF and check the variable powers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a polynomial of three terms in variables \\(x\\) and \\(y\\) whose GCF is \\(5x^2y\\) and whose factorised form is \\(5x^2y(3x - 2y + 4)\\). Then write the expanded form.",
+     "a": "Expanded form: \\(15x^3y - 10x^2y^2 + 20x^2y\\). A poor answer would have incorrect coefficients (e.g., missing the 5) or wrong powers (e.g., \\(x^2y\\) times \\(3x\\) giving \\(3x^2y\\) instead of \\(15x^3y\\)). This tests whether the student can reverse the process and understands the distributive expansion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

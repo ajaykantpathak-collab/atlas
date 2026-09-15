@@ -1,0 +1,98 @@
+{
+ "catalog": "catalog_class6_social_science_ch203",
+ "concepts": [
+  {
+   "id": "fess.203.1",
+   "title": "Rotation of the Earth",
+   "questions": [
+    {
+     "q": "Using the method 'Rotation of the Earth', work with: rotation_period = 24. Carry the chain through step by step and give the final value of rotation_period.",
+     "a": "24 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rotation of the Earth' and work with: rotation_period = 24. Carry the chain through step by step and give the final value of rotation_period.",
+     "a": "24 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rotation of the Earth' refers to.",
+     "a": "The spinning movement of the Earth around its own imaginary axis, which takes approximately 24 hours to complete.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rotation of the Earth'.",
+     "a": "Rotation causes the daily cycle of day and night.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rotation of the Earth', in plain ASCII form.",
+     "a": "rotation_period = 24",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.203.2",
+   "title": "Revolution and Leap Year",
+   "questions": [
+    {
+     "q": "Calculate the number of days in a leap year. Use the method 'Revolution and Leap Year'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_days.",
+     "a": "1461 units",
+     "self_check": false
+    },
+    {
+     "q": "How many days are in a regular year? Use the method 'Revolution and Leap Year'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_days.",
+     "a": "1461 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revolution and Leap Year' refers to.",
+     "a": "The Earth's orbital movement around the Sun, taking 365.25 days, where the extra quarter-days accumulate to form a leap year every four years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revolution and Leap Year'.",
+     "a": "Revolution causes seasonal changes and the leap year cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revolution and Leap Year', in plain ASCII form.",
+     "a": "leap_year_days = 366",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.203.3",
+   "title": "Solstice and Equinox",
+   "questions": [
+    {
+     "q": "Using the method 'Solstice and Equinox', work with: night_length = 200. Carry the chain through step by step and give the final value of equinox_day_length.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Solstice and Equinox' and work with: night_length = 30. Carry the chain through step by step and give the final value of equinox_day_length.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Solstice and Equinox' refers to.",
+     "a": "Solstices are points in the orbit where one hemisphere receives maximum sunlight, while equinoxes are points where the Sun shines directly on the equator.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Solstice and Equinox'.",
+     "a": "Tilt of the Earth's axis relative to the orbital plane determines seasonal intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Solstice and Equinox', in plain ASCII form.",
+     "a": "equinox_day_length = night_length",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

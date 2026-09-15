@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_005",
+   "title": "c11_ip_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the exact output of the following code snippet when the user enters `15`?\n```python\nnum = int(input(\"Enter a number: \"))\nif num > 10:\n    if num % 2 == 0:\n        print(\"A\")\n    else:\n        print(\"B\")\nelse:\n    print(\"C\")\n```",
+     "a": "The output is `B`. The outer condition `num > 10` is true (15 > 10), so the inner `if` executes. Since 15 % 2 == 1 (not 0), the inner `else` block runs, printing `B`. A wrong answer of `A` reveals the student thinks the inner condition is true; a wrong answer of `C` reveals they think the outer condition is false or that indentation does not nest the inner `if`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following two code fragments behave differently when `marks = 85`:\n```python",
+     "a": "Fragment 1 uses two independent `if` statements, so both conditions are evaluated: 85 >= 75 is true (prints \"Distinction\") and 85 >= 33 is also true (prints \"Pass\"). Fragment 2 uses an `if-elif` ladder: the first condition is true, so \"Distinction\" prints and the `elif` is skipped entirely. A wrong answer claiming both fragments print the same thing reveals the student does not understand that `elif` creates mutual exclusivity while separate `if` statements do not.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that reads an integer `age` and prints the ticket category for a museum using these rules:\n- Child (age < 12): ₹50\n- Student (12 ≤ age < 18): ₹100\n- Adult (18 ≤ age < 60): ₹200\n- Senior (age ≥ 60): ₹150\nUse an `if-elif-else` ladder. Show the output for age = 17.",
+     "a": "```python\nage = int(input(\"Enter age: \"))\nif age < 12:\n    print(\"Child: ₹50\")\nelif age < 18:\n    print(\"Student: ₹100\")\nelif age < 60:\n    print(\"Adult: ₹200\")\nelse:\n    print(\"Senior: ₹150\")\n```\nFor age = 17, output is `Student: ₹100`. Steps: 17 < 12? False → check next: 17 < 18? True → print Student block, skip rest. A wrong answer using `age <= 12` for child or ordering conditions as `age >= 18` before `age < 18` reveals misunderstanding of boundary handling and condition ordering in ladders.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this nested structure for a login system:\n```python\nusername = input(\"Username: \")\npassword = input(\"Password: \")\nif username == \"admin\":\n    if password == \"admin123\":\n        print(\"Admin access granted\")\n    else:\n        print(\"Invalid admin password\")\nelse:\n    if password == \"user123\":\n        print(\"User access granted\")\n    else:\n        print(\"Invalid user password\")\n```\nIdentify the logical flaw that allows a non-admin user named \"admin\" with password \"user123\" to get \"User access granted\". How would you restructure the conditions to fix it?",
+     "a": "The flaw is that the outer `else` (non-admin) block still checks `password == \"user123\"` and grants user access, even when `username == \"admin\"` but the password is wrong. The structure assumes username determines role, but the inner `else` falls through to the outer `else`'s logic. Fix: use a single ladder with combined conditions:\n```python\nif username == \"admin\" and password == \"admin123\":\n    print(\"Admin access granted\")\nelif username != \"admin\" and password == \"user123\":\n    print(\"User access granted\")\nelif username == \"admin\":\n    print(\"Invalid admin password\")\nelse:\n    print(\"Invalid user password\")\n```\nA wrong answer that only adds `else` to the inner `if` reveals the student does not analyze the cross-branch interaction between nested blocks.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this grading ladder and claims it works for all marks 0–100:\n```python\nif marks > 90:\n    grade = \"A+\"\nelif marks > 75:\n    grade = \"A\"\nelif marks > 60:\n    grade = \"B\"\nelif marks > 40:\n    grade = \"C\"\nelse:\n    grade = \"F\"\n```\nEvaluate this claim. Provide a specific marks value where the logic fails relative to the common CBSE grading scheme (A1: 91-100, A2: 81-90, B1: 71-80, B2: 61-70, C1: 51-60, C2: 41-50, D: 33-40, E: below 33).",
+     "a": "The claim is false. The ladder uses `>` (strictly greater than) instead of `>=`, and the boundaries are shifted. For example, marks = 90: 90 > 90 is false, 90 > 75 is true → grade \"A\", but CBSE gives A2 for 90. Marks = 75: 75 > 75 false, 75 > 60 true → \"B\", but CBSE gives B1 for 75. The student evaluated only typical values, not boundary cases. A correct evaluation must test every boundary (91, 90, 81, 80, etc.) and note the off-by-one error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that requires a three-level nested `if` (an `if` inside an `if` inside an `if`) and write the complete Python code with input prompts. The scenario must involve three distinct decision factors (e.g., vehicle type, fuel type, ownership) and produce at least four different output messages.",
+     "a": "Scenario: RTO road tax calculator for Delhi.\n- Vehicle type: Two-wheeler (T) or Four-wheeler (F)\n- Fuel type: Petrol (P), Diesel (D), Electric (E)\n- Ownership: Individual (I) or Commercial (C)\nTax rules:\n1. If Two-wheeler:\n   - If Electric: ₹0 (exempt)\n   - Else if Petrol: ₹500 (Individual), ₹1000 (Commercial)\n   - Else Diesel: ₹700 (Individual), ₹1500 (Commercial)\n2. If Four-wheeler:\n   - If Electric: ₹0 (exempt)\n   - Else if Petrol: ₹3000 (Individual), ₹6000 (Commercial)\n   - Else Diesel: ₹5000 (Individual), ₹10000 (Commercial)\n\nCode skeleton (student must fill all branches):\n```python\nvtype = input(\"Vehicle (T/F): \").upper()\nfuel = input(\"Fuel (P/D/E): \").upper()\nowner = input(\"Owner (I/C): \").upper()\nif vtype == \"T\":\n    if fuel == \"E\":\n        tax = 0\n    elif fuel == \"P\":\n        if owner == \"I\":\n            tax = 500\n        else:\n            tax = 1000\n    else:  # Diesel\n        if owner == \"I\":\n            tax = 700\n        else:\n            tax = 1500\nelif vtype == \"F\":\n    if fuel == \"E\":\n        tax = 0\n    elif fuel == \"P\":\n        if owner == \"I\":\n            tax = 3000\n        else:\n            tax = 6000\n    else:  # Diesel\n        if owner == \"I\":\n            tax = 5000\n        else:\n            tax = 10000\nelse:\n    tax = -1\nprint(\"Road Tax:\", tax if tax != -1 else \"Invalid input\")\n```\nA poor answer uses flat `if-elif` chains without nesting, revealing the student cannot identify hierarchical decision factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

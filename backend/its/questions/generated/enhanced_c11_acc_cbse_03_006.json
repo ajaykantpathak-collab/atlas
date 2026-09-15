@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_006",
+   "title": "c11_acc_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the three categories of accounts in the traditional classification and the golden rule for each.",
+     "a": "The three categories are Personal, Real, and Nominal. Personal: Debit the receiver, Credit the giver. Real: Debit what comes in, Credit what goes out. Nominal: Debit all expenses and losses, Credit all incomes and gains. A wrong answer (e.g., listing \"Assets, Liabilities, Capital\" or swapping the rules) reveals the student is confusing traditional classification with the modern approach or has memorised the rules without understanding the classification basis.",
+     "self_check": true
+    },
+    {
+     "q": "A student classifies \"Bank Account\" as a Real account because it holds money. Explain why this classification is incorrect and state the correct category with reasoning.",
+     "a": "Bank Account is a Personal account (specifically a representative personal account) because it represents the bank as a legal entity with whom the business has a relationship; the rule \"Debit the receiver, Credit the giver\" applies. Classifying it as Real shows the student thinks \"money = real asset\" and misses that the account represents a party, not just physical cash.",
+     "self_check": true
+    },
+    {
+     "q": "For the transaction \"Paid rent ₹5,000 by cheque\", identify the two accounts affected, classify each under the traditional approach, and write the debit/credit using the golden rules.",
+     "a": "Accounts: Rent Account (Nominal – expense) and Bank Account (Personal – giver). Rule for Nominal: Debit expenses → Debit Rent Account. Rule for Personal: Credit the giver → Credit Bank Account. Entry: Rent A/c Dr. ₹5,000 To Bank A/c ₹5,000. A wrong answer (e.g., debiting Bank) shows the student applied \"Debit what comes in\" to Bank instead of recognising Bank as the giver in a Personal account.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the traditional and modern classification for the transaction \"Sold goods for cash ₹10,000\". Show that both approaches yield the same debit/credit result.",
+     "a": "Traditional: Cash Account (Real – comes in) → Debit; Sales Account (Nominal – income) → Credit. Modern: Cash Account (Asset – increase) → Debit; Sales Account (Revenue – increase) → Credit. Both give Debit Cash, Credit Sales. If a student claims they differ, they have not grasped that the two systems are equivalent frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "A bookkeeper records \"Purchased furniture on credit from M/s Sharma ₹20,000\" as: Furniture A/c Dr. ₹20,000 To Sharma A/c ₹20,000. Evaluate whether this entry is correct under traditional rules and justify.",
+     "a": "Correct. Furniture is a Real account (comes in) → Debit. Sharma is a Personal account (giver) → Credit. The entry follows both traditional rules perfectly. If the student thinks it is wrong, they may be misclassifying Sharma as a Real account or misapplying \"Debit the receiver\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a single transaction that involves all three types of accounts (Personal, Real, Nominal) and write the compound journal entry using traditional rules.",
+     "a": "Example: \"Paid ₹15,000 by cheque to landlord for rent, including ₹2,000 for outstanding rent of last month.\" Accounts: Rent A/c (Nominal – expense) Dr. ₹13,000; Outstanding Rent A/c (Personal – giver) Dr. ₹2,000; To Bank A/c (Personal – giver) Cr. ₹15,000. A poor answer would omit one category or misclassify Outstanding Rent as Nominal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Data Handling",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh104.txt",
+ "concepts": [
+  {
+   "id": "hemh.4.2.1",
+   "title": "Fraction of a Sector in a Pie Chart",
+   "section": "4.2",
+   "definition": "The relative size of a category in a circular display compared to the overall aggregate amount.",
+   "formula": "sector_fraction = category_value / total_value",
+   "key_idea": "The fraction represents the ratio of a component to the entire data set.",
+   "textbook_ref": "hemh104.txt lines 65-95",
+   "question_patterns": [
+    "find the fraction of the circle representing each category",
+    "what fraction of the pie chart corresponds to this activity",
+    "calculate the proportion of the sector for the given value",
+    "determine the fractional part of the circle for the component",
+    "What portion of the day does a 6-hour school block take?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide component value by total value",
+     "explain": "sector fraction is the component divided by the total",
+     "compute": "sector_fraction = category_value / total_value"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.2.2",
+   "title": "Central Angle of a Sector",
+   "section": "4.2.1",
+   "definition": "The angle formed at the circle center proportional to a particular category's share of the complete 360 degrees.",
+   "formula": "central_angle = (category_value / total_value) x 360",
+   "key_idea": "Distributing the full 360-degree rotation according to data shares.",
+   "textbook_ref": "hemh104.txt lines 110-155",
+   "question_patterns": [
+    "find the central angle of each sector",
+    "calculate the sector angle for the given category",
+    "what is the central angle corresponding to the component",
+    "compute the angle subtended at the centre for this value",
+    "Convert a 30-unit share of 120 into a slice angle."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate fraction of total",
+     "explain": "find the proportion of the category out of the total",
+     "compute": "fraction = category_value / total_value"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 360 degrees",
+     "explain": "scale the fraction to the entire 360 degrees of the circle",
+     "compute": "central_angle = fraction * 360"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.2.3",
+   "title": "Central Angle from Percentage",
+   "section": "4.2.1",
+   "definition": "Given the share as a percent, turn that percent into the corner angle of its slice.",
+   "formula": "central_angle = (percentage / 100) x 360",
+   "key_idea": "Convert percentage to a degree measurement out of 360 degrees.",
+   "textbook_ref": "hemh104.txt lines 112-135",
+   "question_patterns": [
+    "find the central angle for a given percentage",
+    "calculate the sector angle corresponding to percentage",
+    "what is the angle in degrees for the given percent share",
+    "compute the central angle for percentage of students",
+    "Draw the slice for 25 percent -- what angle do you cut?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert percentage into degrees",
+     "explain": "multiply percentage by 360 and divide by 100",
+     "compute": "central_angle = percentage * 360 / 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.2.4",
+   "title": "Category Value from Central Angle",
+   "section": "4.2.1",
+   "definition": "Determining the actual quantity or score represented by a sector using its central angle and the total sum.",
+   "formula": "category_value = (central_angle / 360) x total_value",
+   "key_idea": "Scale the total quantity by the ratio of the sector's central angle to 360 degrees.",
+   "textbook_ref": "hemh104.txt lines 190-220",
+   "question_patterns": [
+    "find the value corresponding to central angle",
+    "how many marks were obtained if the central angle is given",
+    "calculate the quantity represented by the sector angle",
+    "what is the actual value for the sector with central angle",
+    "A 60-degree slice of a 600-mango chart -- how many mangoes?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find fraction from angle",
+     "explain": "divide the central angle by 360 degrees",
+     "compute": "angle_fraction = central_angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale total value",
+     "explain": "multiply the angle fraction by total value",
+     "compute": "category_value = angle_fraction * total_value"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.2.5",
+   "title": "Total Quantity from Part Value and Percentage",
+   "section": "4.2.1",
+   "definition": "Finding the grand total when a specific part's value and its percentage share are known.",
+   "formula": "total_value = (part_value x 100) / percentage",
+   "key_idea": "The total is obtained by scaling the component value by the reciprocal of its percentage.",
+   "textbook_ref": "hemh104.txt lines 140-160",
+   "question_patterns": [
+    "if a percentage represents a given value find the total",
+    "calculate the total number of people surveyed given part count and percentage",
+    "find the total expenditure given monthly savings and savings percentage",
+    "how many total items are there given one category count and percent",
+    "20 percent of a class is 9 students -- how big is the class?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total quantity",
+     "explain": "divide the given part value by percentage and multiply by 100",
+     "compute": "total_value = part_value * 100 / percentage"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.3.1",
+   "title": "Theoretical Probability of an Event",
+   "section": "4.3.3",
+   "definition": "Favourable count over total count of same-likely outcomes gives the chance of an event.",
+   "formula": "probability = favorable_outcomes / total_outcomes",
+   "key_idea": "When every outcome carries the same weight, the chance is its fair share of the total.",
+   "textbook_ref": "hemh104.txt lines 280-330",
+   "question_patterns": [
+    "find the probability of getting an outcome",
+    "calculate the probability of drawing a specific item",
+    "what is the probability of the pointer stopping on a letter",
+    "determine the chance of rolling a prime number on a die",
+    "A spinner has 8 equal sectors with 3 shaded -- chance of landing shaded?",
+    "One card is drawn from 52 -- chance of an ace?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favorable outcomes by total outcomes",
+     "explain": "probability is favorable outcomes divided by total outcomes",
+     "compute": "probability = favorable_outcomes / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "hemh.4.3.2",
+   "title": "Probability of a Complementary Event",
+   "section": "4.3.4",
+   "definition": "The likelihood of an event not taking place, given by the non-favorable outcomes divided by total possible outcomes.",
+   "formula": "prob_not_e = (total_outcomes - favorable_outcomes) / total_outcomes",
+   "key_idea": "The outcomes not favoring an event constitute its complement.",
+   "textbook_ref": "hemh104.txt lines 330-365",
+   "question_patterns": [
+    "find the probability of not getting a specific colour",
+    "calculate the probability of not rolling a number greater than 5",
+    "what is the probability of getting a non-blue sector",
+    "determine the chance of an event not occurring",
+    "One card is drawn from 52 -- chance it is not a heart?",
+    "The chance of rain is 0.3 -- what is the chance of no rain?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count non-favorable outcomes",
+     "explain": "subtract favorable outcomes from total outcomes",
+     "compute": "non_favorable = total_outcomes - favorable_outcomes"
+    },
+    {
+     "step": 2,
+     "action": "calculate complement probability",
+     "explain": "divide non-favorable outcomes by total outcomes",
+     "compute": "prob_not_e = non_favorable / total_outcomes"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh104.txt lines 136-155",
+   "concept": "hemh.4.2.5",
+   "question_type": "compute",
+   "question_pattern": "If the monthly savings of {part_value} represents {percentage} percent, what is the monthly expenditure on clothes of {target_percentage} percent?",
+   "extracted_variables": {
+    "part_value": "savings amount in rupees",
+    "percentage": "savings percentage share",
+    "target_percentage": "clothing percentage share"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total expenditure",
+     "explain": "divide part value by percentage and multiply by 100",
+     "compute": "total_value = part_value * 100 / percentage"
+    },
+    {
+     "step": 2,
+     "action": "compute expenditure on target category",
+     "explain": "multiply total value by target percentage divided by 100",
+     "compute": "category_value = total_value * target_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh104.txt lines 156-185",
+   "concept": "hemh.4.2.2",
+   "question_type": "compute",
+   "question_pattern": "The sales of ordinary bread are {category_value} out of total sales {total_value}. Find the central angle of the sector.",
+   "extracted_variables": {
+    "category_value": "sales of bread",
+    "total_value": "total sales"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate fraction of total",
+     "explain": "find the ratio of bread sales to total sales",
+     "compute": "fraction = category_value / total_value"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 360",
+     "explain": "scale fraction to 360 degrees",
+     "compute": "central_angle = fraction * 360"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh104.txt lines 320-335",
+   "concept": "hemh.4.3.1",
+   "question_type": "compute",
+   "question_pattern": "A bag has {red_balls} red balls and {yellow_balls} yellow balls. What is the probability of drawing a red ball?",
+   "extracted_variables": {
+    "red_balls": "number of red balls",
+    "yellow_balls": "number of yellow balls"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find total outcomes",
+     "explain": "add red balls and yellow balls",
+     "compute": "total_outcomes = red_balls + yellow_balls"
+    },
+    {
+     "step": 2,
+     "action": "calculate probability",
+     "explain": "divide number of red balls by total outcomes",
+     "compute": "probability = red_balls / total_outcomes"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.4.2.1",
+   "question_pattern": "What fraction of the circle does a category holding {a} of {b} units take?",
+   "extracted_variables": {
+    "a": "6",
+    "b": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "component over total",
+     "explain": "6/24 = 1/4",
+     "compute": "sector_fraction = category_value / total_value"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.2",
+   "question_pattern": "A category holds {a} of {b} units -- find its corner angle.",
+   "extracted_variables": {
+    "a": "25",
+    "b": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the full circle",
+     "explain": "25/100 x 360 = 90",
+     "compute": "central_angle = (category_value / total_value) * 360"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.3",
+   "question_pattern": "A share of {p} percent -- what corner angle does its slice get?",
+   "extracted_variables": {
+    "p": "40"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "percent to degrees",
+     "explain": "40/100 x 360 = 144",
+     "compute": "central_angle = (percentage / 100) * 360"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.4",
+   "question_pattern": "A slice spans {a} degrees of a {b}-unit total -- what value does it show?",
+   "extracted_variables": {
+    "a": "90",
+    "b": "720"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the slice's share",
+     "explain": "90/360 = 1/4",
+     "compute": "share = central_angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the total",
+     "explain": "1/4 x 720 = 180",
+     "compute": "category_value = (central_angle / 360) * total_value"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.5",
+   "question_pattern": "{part} saved is {p} percent of the income -- find the income.",
+   "extracted_variables": {
+    "part": "1500",
+    "p": "30"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale up to the whole",
+     "explain": "1500 x 100/30 = 5000",
+     "compute": "total_value = (part_value * 100) / percentage"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.3.1",
+   "question_pattern": "A bag holds {f} red and {t2} blue balls -- chance of drawing red?",
+   "extracted_variables": {
+    "f": "3",
+    "t2": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count everything",
+     "explain": "3 + 7 = 10",
+     "compute": "total_outcomes = favorable_outcomes + other_outcomes"
+    },
+    {
+     "step": 2,
+     "action": "favourable over total",
+     "explain": "3/10",
+     "compute": "probability = favorable_outcomes / total_outcomes"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.3.1",
+   "question_pattern": "A spinner has {t} equal sectors, {f} shaded -- chance of landing shaded?",
+   "extracted_variables": {
+    "t": "8",
+    "f": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "favourable over total",
+     "explain": "3/8",
+     "compute": "probability = favorable_outcomes / total_outcomes"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.3.2",
+   "question_pattern": "The chance of an outcome is {p} -- what is the chance it fails to happen?",
+   "extracted_variables": {
+    "p": "0.3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the complement",
+     "explain": "1 - 0.3 = 0.7",
+     "compute": "prob_not_e = (total_outcomes - favorable_outcomes) / total_outcomes"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.1",
+   "question_pattern": "A slice covers {a} of {b} hours of a day -- what fraction is it?",
+   "extracted_variables": {
+    "a": "8",
+    "b": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "component over total",
+     "explain": "8/24 = 1/3",
+     "compute": "sector_fraction = category_value / total_value"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.3",
+   "question_pattern": "Convert a {p} percent share into a slice angle.",
+   "extracted_variables": {
+    "p": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "percent to degrees",
+     "explain": "25/100 x 360 = 90",
+     "compute": "central_angle = (percentage / 100) * 360"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.2.4",
+   "question_pattern": "A {a}-degree slice stands for how many of {b} total students?",
+   "extracted_variables": {
+    "a": "30",
+    "b": "360"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the slice's share",
+     "explain": "30/360 = 1/12",
+     "compute": "share = central_angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the total",
+     "explain": "1/12 x 360 = 30",
+     "compute": "category_value = (central_angle / 360) * total_value"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.4.3.2",
+   "question_pattern": "Chance of drawing a spade is 13/52 -- chance of not drawing one?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the complement",
+     "explain": "1 - 13/52 = 39/52",
+     "compute": "prob_not_e = (total_outcomes - favorable_outcomes) / total_outcomes"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hemh104.txt lines 190-240",
+   "questions": [
+    "1. A survey was made to find the type of music that a certain group of young people liked in a city. (i) If 20 people liked classical music (10%), how many young people were surveyed? (ii) Which type of music is liked by the maximum number of people? (iii) If a cassette company were to make 1000 CD's, how many of each type would they make?",
+    "2. A group of 360 people were asked to vote for their favourite season from the three seasons rainy, winter and summer (Summer: 90, Rainy: 120, Winter: 150). (i) Which season got the most votes? (ii) Find the central angle of each sector. (iii) Draw a pie chart to show this information.",
+    "3. Draw a pie chart showing colours preferred by a group of 36 people: Blue 18, Green 9, Red 6, Yellow 3.",
+    "4. Pie chart gives marks scored in an examination by a student (total marks 540). (i) In which subject did the student score 105 marks? (ii) How many more marks were obtained in Mathematics than in Hindi? (iii) Examine whether the sum of marks in Social Science and Mathematics is more than that in Science and Hindi.",
+    "5. The number of students in a hostel speaking different languages: Hindi 40, English 12, Marathi 9, Tamil 7, Bengali 4, Total 72. Display the data in a pie chart."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hemh104.txt lines 370-405",
+   "questions": [
+    "1. List the outcomes you can see in these experiments: (a) Spinning a wheel (b) Tossing two coins together.",
+    "2. When a die is thrown, list the outcomes of an event of getting: (i) (a) a prime number (b) not a prime number, (ii) (a) a number greater than 5 (b) a number not greater than 5.",
+    "3. Find: (a) Probability of the pointer stopping on D in a 5-sector wheel (A, A, B, C, D). (b) Probability of getting an ace from a well shuffled deck of 52 playing cards. (c) Probability of getting a red apple from a basket of 4 red and 3 green apples.",
+    "4. Numbers 1 to 10 are written on ten separate slips. What is the probability of: (i) getting a number 6? (ii) getting a number less than 6? (iii) getting a number greater than 6? (iv) getting a 1-digit number?",
+    "5. If you have a spinning wheel with 3 green sectors, 1 blue sector and 1 red sector, what is the probability of getting a green sector? What is the probability of getting a non-blue sector?",
+    "6. Find the probabilities of the events given in Question 2 when rolling a die."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

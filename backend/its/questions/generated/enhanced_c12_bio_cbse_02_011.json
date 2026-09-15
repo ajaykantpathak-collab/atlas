@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_011",
+   "title": "c12_bio_cbse_02_011",
+   "questions": [
+    {
+     "q": "What are the three structures that develop from the ovule after fertilization, and which precursor gives rise to each?",
+     "a": "The embryo develops from the zygote, the endosperm develops from the primary endosperm nucleus (triple fusion product), and the seed coat (testa) develops from the integuments of the ovule. A wrong answer (e.g., saying endosperm comes from the zygote or seed coat from the ovary wall) reveals confusion between double fertilization products and maternal tissues — a common error where students mix up the ploidy and origin of seed components.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a seed with a fully developed embryo and adequate endosperm still fail to germinate when placed in water at 25°C?",
+     "a": "The seed is likely in a state of physiological dormancy due to a high abscisic acid (ABA) to gibberellin (GA) ratio, which inhibits hydrolytic enzyme synthesis needed for reserve mobilization. Students often answer \"the seed is dead\" or \"it needs more water,\" missing the internal hormonal block. This misconception stems from equating dormancy with non-viability rather than an active suppression mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A batch of apple seeds requires 6 weeks at 4°C before they germinate at 25°C. Which type of dormancy is this, and what hormonal change occurs during the cold treatment?",
+     "a": "This is physiological dormancy (a type of endogenous dormancy) broken by stratification. During cold treatment, ABA levels decline and GA levels rise, shifting the ABA:GA ratio to favor germination. A wrong answer identifying it as \"seed coat dormancy\" shows the student cannot distinguish between exogenous (coat-imposed) and endogenous (embryo-imposed) dormancy — a critical distinction for choosing the correct breaking method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of endosperm in pea (non-endospermic) and castor (endospermic) seeds. How does this difference affect the structure of the mature seed?",
+     "a": "In pea, the endosperm is completely consumed by the developing embryo, so the mature seed stores reserves in large cotyledons; in castor, the endosperm persists as the main storage tissue while the embryo remains small with thin cotyledons. Students who say \"both have endosperm\" or \"both store food in cotyledons\" fail to apply the concept of endosperm utilization to seed morphology — a frequent board exam comparison question.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats dormant lettuce seeds with gibberellic acid (GA₃) and they germinate in darkness. However, untreated seeds germinate only in light. Evaluate whether GA₃ substitutes for the light requirement or acts independently.",
+     "a": "GA₃ substitutes for the light requirement because light normally triggers GA biosynthesis in the embryo; exogenous GA bypasses this need. The student must recognize that light and GA are in the same pathway (phytochrome → GA synthesis), not parallel pathways. A wrong answer claiming \"GA works independently of light\" ignores the molecular link between phytochrome signaling and hormone regulation — a NEET-level trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether seed coat impermeability or embryo dormancy causes failure of germination in a wild legume species.",
+     "a": "Scarify half the seeds (mechanical abrasion of seed coat) and leave half intact; place both on moist filter paper at 25°C. If scarified seeds germinate but intact ones do not, the cause is exogenous (seed coat) dormancy. If neither germinates, the cause is endogenous (embryo) dormancy. A poor design (e.g., only testing intact seeds) reveals inability to isolate variables — a key competency for investigative biology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

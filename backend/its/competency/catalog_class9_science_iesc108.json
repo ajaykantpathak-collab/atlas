@@ -1,0 +1,126 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Journey Inside the Atom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.108.8.1",
+   "title": "Matter Is Made of Particles and Atoms",
+   "section": "8",
+   "definition": "Everything felt around us is matter, and matter consists of tiny particles; pushing deeper, the particles of substances are built from atoms - the microscopic world inside matter begins at the atom.",
+   "formula": "-",
+   "key_idea": "Zoom from objects to particles to atoms: the journey of structure goes inward.",
+   "textbook_ref": "iesc108.txt opening sections (matter and its particles)",
+   "question_patterns": [
+    "what is matter composed of - explain the particle idea",
+    "define an atom in your own words",
+    "how do the particles of matter relate to atoms",
+    "give evidence that matter is particulate",
+    "what does the journey inside the atom mean",
+    "arrange in increasing size: object, molecule, atom"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start from bulk matter",
+     "explain": "Every object is built from its tiny particles."},
+    {"step": 2, "action": "reach the molecule and atom",
+     "explain": "Molecules break into atoms, the chemical building blocks."},
+    {"step": 3, "action": "prepare for the interior",
+     "explain": "Atoms themselves hold smaller particles inside."}
+   ]
+  },
+  {
+   "id": "iesc.108.8.2",
+   "title": "Subatomic Particles: Electron, Proton and Neutron",
+   "section": "8",
+   "definition": "Inside the atom sit three key subatomic particles: negatively charged electrons, positively charged protons and neutral neutrons; the protons and neutrons crowd into a tiny central nucleus while electrons occupy the space around it.",
+   "formula": "-",
+   "key_idea": "Electrons outside, protons and neutrons inside: charge and mass divide the labour.",
+   "textbook_ref": "iesc108.txt sections on discovery and properties of subatomic particles",
+   "question_patterns": [
+    "name the three subatomic particles with their charges",
+    "where are protons and neutrons located in an atom",
+    "which particle carries a negative charge and who discovered it",
+    "compare the masses of the three subatomic particles",
+    "what makes an atom electrically neutral",
+    "identify the particle from the given property"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the particles",
+     "explain": "Electron, proton, neutron with charges -1, +1 and 0."},
+    {"step": 2, "action": "place them",
+     "explain": "Protons and neutrons form the nucleus; electrons orbit the space around."},
+    {"step": 3, "action": "balance the charges",
+     "explain": "Equal numbers of electrons and protons keep the atom neutral."}
+   ]
+  },
+  {
+   "id": "iesc.108.8.3",
+   "title": "Atomic Models: From Thomson to Rutherford",
+   "section": "8",
+   "definition": "Atomic models evolved by experiment: Thomson pictured electrons embedded in a positive sphere, but Rutherford's gold foil experiment scattered some alpha particles sharply, proving a tiny dense positive nucleus with electrons around it - and raising the stability puzzle that Bohr answered with fixed orbits.",
+   "formula": "-",
+   "key_idea": "Experiments redraw the atom: scattering data forced the nucleus into the picture.",
+   "textbook_ref": "iesc108.txt sections on Thomson, Rutherford and Bohr models",
+   "question_patterns": [
+    "describe Thomson's model of the atom",
+    "what did the alpha particle scattering experiment reveal",
+    "state the postulates of Rutherford's model",
+    "what drawback of Rutherford's model did Bohr remove",
+    "compare Thomson and Rutherford models",
+    "why is the nucleus tiny compared to the atom"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state each model",
+     "explain": "Note what each scientist proposed and why."},
+    {"step": 2, "action": "match model to experiment",
+     "explain": "Gold foil observations support a central nucleus."},
+    {"step": 3, "action": "trace the evolution",
+     "explain": "Each model fixed the previous one's drawback."}
+   ]
+  },
+  {
+   "id": "iesc.108.8.4",
+   "title": "Electron Arrangement in Shells",
+   "section": "8",
+   "definition": "Electrons occupy shells around the nucleus with fixed capacities - 2 in the K shell, 8 in the L, and so on by the 2 n squared rule - filling from the innermost shell outward; the outermost shell decides the atom's chemistry.",
+   "formula": "shell_capacity = 2 * n * n",
+   "key_idea": "Fill inner shells first: the outermost shell's electrons do the chemistry.",
+   "textbook_ref": "iesc108.txt sections on shell arrangement and valence",
+   "question_patterns": [
+    "write the electron arrangement of the given atom",
+    "how many electrons fit in the M shell",
+    "state the 2n squared rule with examples",
+    "why do electrons fill the K shell first",
+    "find the valence electrons of the given element from its arrangement",
+    "distribute the given number of electrons in shells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fill the K shell",
+     "explain": "The first shell holds at most 2 electrons."},
+    {"step": 2, "action": "fill the next shells",
+     "explain": "Use the 2 n squared capacity, starting outward only after inner shells fill."},
+    {"step": 3, "action": "read the outermost shell",
+     "explain": "Its electron count gives the valency behaviour."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "iesc108.txt exercises",
+   "questions": [
+     "Compare the three subatomic particles in a table.",
+     "Explain the observations of the gold foil experiment.",
+     "Write electron arrangements of the first twenty elements."
+   ]
+  }
+ ]
+}

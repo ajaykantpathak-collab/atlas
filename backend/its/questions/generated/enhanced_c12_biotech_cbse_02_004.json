@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_004",
+   "title": "c12_biotech_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the specific chemical modification that alkaline phosphatase performs on a DNA molecule?",
+     "a": "Alkaline phosphatase hydrolyzes the 5'-phosphate group from the terminal nucleotide of DNA, leaving a 5'-hydroxyl group. A wrong answer (e.g., \"removes 3'-phosphate\" or \"adds phosphate\") reveals confusion about the directionality of DNA ends and the substrate specificity of the enzyme — a critical error because ligation requires a 5'-phosphate, so removing it prevents ligation, while removing a 3'-phosphate would not.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats a linearized plasmid vector with alkaline phosphatase, then adds a PCR-amplified insert (with no 5'-phosphates) and DNA ligase. The ligation fails. Explain why.",
+     "a": "DNA ligase requires a 5'-phosphate on one strand and a 3'-hydroxyl on the other to form a phosphodiester bond. Alkaline phosphatase removed the 5'-phosphates from the vector, and the PCR product lacks 5'-phosphates (unless phosphorylated primers were used). Thus, neither fragment has a 5'-phosphate, so ligation cannot occur. A wrong answer (e.g., \"alkaline phosphatase destroys the vector\") shows misunderstanding of the enzyme's reversible role and the absolute requirement for 5'-phosphate in ligation.",
+     "self_check": true
+    },
+    {
+     "q": "You have a vector digested with BamHI (sticky ends) and an insert digested with BglII (compatible sticky ends). You want to prevent vector self-ligation but allow directional cloning. Which enzyme treatment(s) would you apply and in what order?",
+     "a": "Step 1: Treat vector with alkaline phosphatase to remove 5'-phosphates (prevents self-ligation). Step 2: Treat insert with T4 polynucleotide kinase (if it lacks 5'-phosphates) to add them. Step 3: Ligate. Since BamHI and BglII produce compatible ends but different overhang sequences (GATC vs GATC), the ligation is not inherently directional; however, phosphatase treatment ensures only vector-insert ligation occurs. A wrong order (kinase before phosphatase) or omitting kinase for non-phosphorylated insert reveals failure to track phosphate status on each fragment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the action of S1 nuclease and Klenow fragment on a DNA fragment with a 5' overhang. Which enzyme would you use to create a blunt end, and why?",
+     "a": "S1 nuclease degrades single-stranded DNA, so it will chew back the 5' overhang to create a blunt end (but may also degrade the complementary strand). Klenow fragment (3'→5' exo⁻) fills in 5' overhangs using its polymerase activity, creating a blunt end without degrading the opposite strand. For precise blunt-end creation, Klenow is preferred. A student who chooses S1 nuclease for a 5' overhang shows confusion: S1 is for removing single-stranded tails (e.g., after hairpin opening), not for filling in.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Alkaline phosphatase treatment is always necessary when cloning into a plasmid vector cut with a single restriction enzyme.\" Justify your answer with a counterexample.",
+     "a": "The statement is false. If the vector is cut with two different restriction enzymes (directional cloning) producing non-compatible ends, self-ligation is impossible because the ends don't match. Alkaline phosphatase is then unnecessary. Also, if using a vector with a lethal gene or positive selection (e.g., ccdB), self-ligation is selected against. A student who says \"always necessary\" fails to recognize that phosphatase is only needed when vector ends are compatible and can self-ligate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cloning strategy to insert a blunt-ended PCR product (no 5'-phosphates) into a plasmid vector linearized with EcoRV (blunt ends). Specify every enzyme treatment, order, and reason.",
+     "a": "1. Treat vector with alkaline phosphatase (prevents self-ligation of blunt ends). 2. Treat PCR product with T4 polynucleotide kinase (adds 5'-phosphates required for ligation). 3. Ligate with T4 DNA ligase. 4. Transform. Alternative: Use a PCR product amplified with phosphorylated primers (skip kinase). A poor answer omits kinase, uses phosphatase on insert, or suggests cohesive-end enzymes for blunt ends — showing inability to integrate enzyme functions into a complete workflow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

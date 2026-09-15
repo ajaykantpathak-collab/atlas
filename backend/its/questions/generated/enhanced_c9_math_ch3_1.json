@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_1",
+   "title": "c9_math_ch3_1",
+   "questions": [
+    {
+     "q": "State the exact difference between the set of natural numbers (ℕ) and the set of whole numbers (W). Write both sets in roster form.",
+     "a": "ℕ = {1, 2, 3, 4, ...} and W = {0, 1, 2, 3, 4, ...}. The only difference is that W contains 0 while ℕ does not. A wrong answer (e.g., saying ℕ includes 0, or that W starts from 1) reveals the student has not internalised the precise definition and is relying on vague memory from middle school. This confusion propagates to later topics like \"Is 0 a rational number?\" where the definition of the starting set matters.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why zero is called the \"additive identity\" for whole numbers but the \"multiplicative annihilator\". Give one example of each property using a specific whole number.",
+     "a": "Additive identity: for any whole number a, a + 0 = a (e.g., 7 + 0 = 7). Multiplicative annihilator: for any whole number a, a × 0 = 0 (e.g., 7 × 0 = 0). A wrong answer that says \"0 × a = a\" or \"adding zero changes the number\" shows the student confuses the two operations. This misconception leads to errors in solving equations like x + 0 = 5 (thinking x ≠ 5) or simplifying 5 × 0 as 5.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression: (125 × 0) + (372 + 0) - (0 × 489) using properties of whole numbers. Show each step and name the property used.",
+     "a": "Step 1: 125 × 0 = 0 (Multiplicative Annihilation Property)\nStep 2: 372 + 0 = 372 (Additive Identity Property)\nStep 3: 0 × 489 = 0 (Multiplicative Annihilation Property)\nStep 4: Substitute: 0 + 372 - 0 = 372 (Additive Identity and Subtraction)\nFinal answer: 372. A wrong answer like 0 or 125 reveals the student applies operations left-to-right without recognising that multiplication by zero dominates, or they forget that subtracting zero leaves the number unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the closure property of whole numbers under addition and under subtraction. Is W closed under subtraction? Justify with two examples: one where the result stays in W, one where it leaves W.",
+     "a": "W is closed under addition: for any a, b ∈ W, a + b ∈ W (e.g., 3 + 5 = 8 ∈ W). W is NOT closed under subtraction: 3 - 5 = -2 ∉ W (leaves W), but 5 - 3 = 2 ∈ W (stays in W). A wrong answer claiming \"W is closed under subtraction because 5-3=2\" shows the student tests only favourable cases and does not understand that closure requires the result to be in W for ALL pairs. This is exactly why we need integers (next node).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since 0 is the additive identity, dividing any number by 0 should give that number back, because division is the inverse of multiplication.\" Evaluate this reasoning. Is the conclusion correct? Identify the flaw.",
+     "a": "The conclusion is incorrect. Division by zero is undefined in whole numbers (and all number systems). The flaw: the student assumes the inverse of multiplication (a × b = c ⇒ c ÷ b = a) works for b = 0. But 0 has no multiplicative inverse because a × 0 = 0 for all a, so 0 ÷ 0 could be any number, and a ÷ 0 (a ≠ 0) has no solution. A wrong answer accepting the student's reasoning reveals a fundamental misunderstanding of why division by zero is prohibited — it's not a rule but a logical necessity from the properties of zero.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (using Indian context: rupees, metres, kilograms) where the solution requires recognising that zero is the additive identity AND that multiplication by zero gives zero. The problem must have at least two steps.",
+     "a": "Example: \"Rohan has ₹200. He buys 0 kg of apples at ₹50/kg and 0 metres of cloth at ₹120/m. He then receives ₹0 as a gift. How much money does he have now?\" Solution: Cost of apples = 0 × 50 = 0 (multiplicative annihilation). Cost of cloth = 0 × 120 = 0. Total spent = 0 + 0 = 0 (additive identity). Money left = 200 - 0 = 200 (additive identity in subtraction). A poor answer that ignores the zero quantities or adds them as non-zero shows the student cannot translate \"zero quantity\" into mathematical operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_008",
+   "title": "c11_psy_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the correct chronological order of the following language milestones: (a) telegraphic speech, (b) babbling, (c) holophrastic stage, (d) cooing?",
+     "a": "Correct order: cooing (1-3 months) → babbling (4-6 months) → holophrastic stage (10-18 months) → telegraphic speech (24-30 months). A wrong answer (e.g., placing telegraphic before holophrastic) reveals the student thinks grammar emerges before single-word symbols, confusing syntactic complexity with lexical acquisition.",
+     "self_check": true
+    },
+    {
+     "q": "A 20-month-old says \"ball\" while pointing at a ball, and later says \"ball\" while reaching for a ball on a high shelf. In the first case the word labels an object; in the second it expresses a request. What does this illustrate about the holophrastic stage?",
+     "a": "It illustrates that a single holophrase can carry multiple pragmatic functions (naming, requesting, protesting) because the child lacks syntactic markers like imperatives or interrogatives. A wrong answer (e.g., \"the child knows two different words\") shows the student conflates word form with communicative intent, missing the core concept of holophrasis.",
+     "self_check": true
+    },
+    {
+     "q": "A 28-month-old says \"Daddy go work\" and \"Me want cookie.\" Identify the stage and list two grammatical morphemes that are systematically omitted in this stage.",
+     "a": "Stage: telegraphic speech. Omitted morphemes: auxiliary verb \"is\" (in \"Daddy go work\") and pronoun case/subject \"I\" (in \"Me want cookie\"). A wrong answer (e.g., \"past tense -ed\") reveals the student does not distinguish between content words (retained) and function words (omitted) in telegraphic speech.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cognitive demands of the two-word stage versus the telegraphic stage. Why does the telegraphic stage require advances in both working memory and syntactic rule extraction?",
+     "a": "Two-word stage only requires combining two semantic units (e.g., \"more milk\") without internal grammar. Telegraphic stage requires ordering three or more words according to language-specific rules (e.g., SVO in English) while holding the utterance plan in working memory. A wrong answer (e.g., \"telegraphic is just longer\") misses the shift from associative pairing to rule-governed syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Babbling is meaningless motor practice; it has no linguistic significance.\" Use evidence from cross-linguistic babbling studies and the transition to first words.",
+     "a": "The claim is false. Babbling shows language-specific phonetic patterns (e.g., French babies babble with more nasal vowels), and the consonant-vowel sequences in late babbling (canonical babbling) directly scaffold the phonological forms of first words. A wrong answer (e.g., \"babbling is just exercise\") ignores the continuity between pre-linguistic and linguistic phonology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute observation checklist for a 30-month-old that would allow you to confirm the child has entered the early complex-sentence stage. Include at least three specific syntactic structures to listen for.",
+     "a": "Checklist: (1) Coordination with \"and\" (e.g., \"I play and eat\"), (2) Subordination with \"because\" or \"if\" (e.g., \"I cry because fall\"), (3) Wh-questions with auxiliary inversion (e.g., \"Where did Daddy go?\"), (4) Negation with auxiliary \"not\" (e.g., \"I not sleep\"). A poor answer (e.g., \"listens for longer sentences\") fails to specify the grammatical markers that distinguish complex syntax from long telegraphic strings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

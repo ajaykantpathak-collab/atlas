@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_007",
+   "title": "c7_math_ch05_007",
+   "questions": [
+    {
+     "q": "In a figure where a transversal intersects two lines, if Angle A is located in the top-left position at the first intersection, where is its corresponding angle located at the second intersection?",
+     "a": "The corresponding angle is located in the top-left position at the second intersection. A student who answers \"bottom-right\" is confusing corresponding angles with vertically opposite or alternate interior angles, failing to recognize that \"corresponding\" means occupying the exact same relative position (matching quadrant) at each intersection.",
+     "self_check": true
+    },
+    {
+     "q": "If two lines are cut by a transversal and one pair of corresponding angles measures 75° each, can we guarantee that the two main lines are parallel? Why or why not?",
+     "a": "Yes, we can guarantee the lines are parallel because the Converse of the Corresponding Angles Postulate states that if two lines are cut by a transversal so that corresponding angles are equal, then the lines are parallel lines. A student who says \"no\" or \"we need more information\" does not understand the two-way relationship (property and converse) between parallel lines and corresponding angles.",
+     "self_check": true
+    },
+    {
+     "q": "In a diagram with two parallel lines cut by a transversal, an interior corresponding angle is given as an algebraic expression $(3x + 15)^\\circ$, and its matching exterior corresponding angle measures $75^\\circ$. Find the numerical value of $x$.",
+     "a": "To find $x$, we use the corresponding angles property for parallel lines, which states that corresponding angles are equal. \nStep 1: Set up the equation: $3x + 15 = 75$.\nStep 2: Subtract 15 from both sides: $3x = 75 - 15$, which simplifies to $3x = 60$.\nStep 3: Divide both sides by 3: $x = \\frac{60}{3} = 20$.\nThus, $x = 20$. A student who gets a wrong value like $x = 30$ likely subtracted incorrectly or added 15 instead of subtracting it during the inverse operation step of solving the linear equation.",
+     "self_check": true
+    },
+    {
+     "q": "If a transversal intersects two lines, can two corresponding angles be supplementary (add up to 180°) if the lines are NOT parallel? If yes, what must be true of their individual measures?",
+     "a": "Yes, corresponding angles can be supplementary when lines are not parallel; this happens if and only if each of the corresponding angles measures exactly 90°. A student who claims corresponding angles can *never* be supplementary fails to realize that non-parallel lines can intersect at arbitrary angles where a specific corresponding angle pair could accidentally sum to 180° (e.g., two right angles).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if line $l$ is parallel to line $m$, then any angle on line $l$ is a corresponding angle to any angle on line $m$. Evaluate this statement and correct the error.",
+     "a": "The student's claim is false. Corresponding angles specifically refer to pairs of angles that are on the *same side* of the transversal and in the *same relative position* (one interior, one exterior) at each intersection. An angle on line $l$ cannot correspond to an angle on line $m$ unless it shares that specific matching geometric position with respect to the transversal line. A student agreeing with the statement confuses all angles at an intersection with specific positional pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multi-step algebraic problem where two parallel railway tracks are crossed by a signal wire forming corresponding angles represented by $(5x - 10)^\\circ$ and $(3x + 30)^\\circ$. State the equation and solve for the angle measure in degrees.",
+     "a": "To create a valid problem, set the two corresponding expressions equal: $5x - 10 = 3x + 30$. Subtract $3x$ from both sides to get $2x - 10 = 30$. Add 10 to both sides to get $2x = 40$, resulting in $x = 20$. Substitute $x = 20$ back into either expression to find the angle measure: $5(20) - 10 = 100 - 10 = 90^\\circ$. A poor response would fail to set the expressions equal, set them up to add to 180° incorrectly, or make arithmetic errors during algebraic transposition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

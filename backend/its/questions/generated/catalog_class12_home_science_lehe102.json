@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class12_home_science_lehe102",
+ "concepts": [
+  {
+   "id": "lehe102.1",
+   "title": "Clinical Nutrition and Medical Nutrition Therapy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Clinical Nutrition and Medical Nutrition Therapy' refers to.",
+     "a": "The branch of nutrition that plans food intake for people during sickness -- now widely called Medical Nutrition Therapy -- connecting what a patient eats with immunity, healing and disease control.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Clinical Nutrition and Medical Nutrition Therapy'.",
+     "a": "Adequate nourishment defends the body against infection and speeds recovery, while poor nourishment deepens existing disease.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Clinical Nutrition and Medical Nutrition Therapy', in plain ASCII form.",
+     "a": "qualitative idea -- nutrition status plus illness decides recovery and complications",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.2",
+   "title": "Role and Functions of the Dietitian",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role and Functions of the Dietitian' refers to.",
+     "a": "A dietitian or medical nutrition therapist turns the doctor's diagnosis into a diet prescription, assesses each patient, supervises hospital food service and counsels the patient so the plan is actually followed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role and Functions of the Dietitian'.",
+     "a": "The dietitian is the nutrition member of the medical team: the physician treats the disease, the dietitian manages the diet.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Role and Functions of the Dietitian', in plain ASCII form.",
+     "a": "qualitative idea -- diagnosis plus assessment gives the nutrition care plan",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.3",
+   "title": "Nutritional Assessment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nutritional Assessment' refers to.",
+     "a": "The evidence gathering stage that combines health, diet, medication and personal histories with anthropometric measurements and laboratory values to expose current deficiencies and future risks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nutritional Assessment'.",
+     "a": "No sound diet plan can precede a measured picture of the patient's status and needs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nutritional Assessment', in plain ASCII form.",
+     "a": "assessment = history plus body measurements plus laboratory readings, all interpreted together",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.4",
+   "title": "Objectives of Diet Therapy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Objectives of Diet Therapy' refers to.",
+     "a": "Planning a therapeutic diet aims to speed recovery, reshape the usual diet to keep the disease in check, fix deficiencies, guard against short and long term complications, and teach the patient to adhere to the plan.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of Diet Therapy'.",
+     "a": "A plan respects the patient's food habits, culture, occupation and pocket, or it simply will not be followed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives of Diet Therapy', in plain ASCII form.",
+     "a": "qualitative idea -- recovery plus control plus correction plus prevention plus adherence",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.5",
+   "title": "Types of Diets and Dietary Modification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Diets and Dietary Modification' refers to.",
+     "a": "A regular diet covers all food groups for a healthy person; modified diets adjust consistency, energy, nutrient levels, meal spacing or the feeding route to answer a patient's medical needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Diets and Dietary Modification'.",
+     "a": "Protein goes up after surgery and down in kidney failure; sodium and fluid may be capped; oxalate rich foods like spinach may be restricted.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Diets and Dietary Modification', in plain ASCII form.",
+     "a": "qualitative idea -- each modification serves one medical purpose",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.6",
+   "title": "Consistency Changes: Liquid and Soft Diets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consistency Changes: Liquid and Soft Diets' refers to.",
+     "a": "Diets are thinned or softened to match chewing and swallowing ability: full fluid and clear liquid regimens after surgery or for swallowing trouble, soft and mechanical soft regimens for weak digestion or denture and teething difficulties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consistency Changes: Liquid and Soft Diets'.",
+     "a": "Clear liquids follow an operation but cannot meet full nutrient needs for long; fibreless fluids absorb easily.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consistency Changes: Liquid and Soft Diets', in plain ASCII form.",
+     "a": "qualitative ladder -- clear liquid to full fluid to soft to mechanical soft to regular",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.7",
+   "title": "Feeding Routes: Oral, Tube and Intravenous",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Feeding Routes: Oral, Tube and Intravenous' refers to.",
+     "a": "Feeding by mouth is the first choice; when chewing or swallowing fails, complete liquid feeds travel down a tube passed through the nose into the stomach, and when the gut cannot work, prepared solutions drip into a vein.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Feeding Routes: Oral, Tube and Intravenous'.",
+     "a": "Tube feeding beats intravenous feeding whenever the gastrointestinal tract can still digest and absorb.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Feeding Routes: Oral, Tube and Intravenous', in plain ASCII form.",
+     "a": "route choice -- mouth first, tube next, vein last",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.8",
+   "title": "Diet, Lifestyle and Chronic Disease Prevention",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Diet, Lifestyle and Chronic Disease Prevention' refers to.",
+     "a": "Urban plates have drifted towards more fat, refined sugar and salt with less fibre, a shift that feeds obesity, diabetes, hypertension, colon cancer and heart trouble, so early diet counselling can push back the age of onset.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Diet, Lifestyle and Chronic Disease Prevention'.",
+     "a": "Convenience foods high in sodium and low in potassium rich fruits and vegetables, with little activity and much stress, drive blood pressure up.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Diet, Lifestyle and Chronic Disease Prevention', in plain ASCII form.",
+     "a": "qualitative idea -- refined plus high fat plus high salt diets raise chronic disease risk",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.9",
+   "title": "Study Risk Arithmetic",
+   "questions": [
+    {
+     "q": "Compute the reduced risk after a 52 percent fall from a starting level of 200 per 10000 people. Use the method 'Study Risk Arithmetic'. Work with: baseline_risk = 12, pct_reduction = 10. Carry the chain through step by step and give the final value of remaining_risk.",
+     "a": "10.8 units",
+     "self_check": false
+    },
+    {
+     "q": "Work out the risk left once the stated percentage reduction is applied to the initial level. Use the method 'Study Risk Arithmetic'. Work with: baseline_risk = 12, pct_reduction = 50. Carry the chain through step by step and give the final value of remaining_risk.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Study Risk Arithmetic' refers to.",
+     "a": "A diet disease study that quotes a percentage fall in risk lets you compute the danger still left: take the stated percent of the baseline risk away from the baseline.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Study Risk Arithmetic'.",
+     "a": "A 52 percent fall in risk leaves 48 percent of the original risk in play.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Study Risk Arithmetic', in plain ASCII form.",
+     "a": "remaining_risk = baseline_risk - baseline_risk * pct_reduction / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe102.10",
+   "title": "Post-Harvest Wastage Share",
+   "questions": [
+    {
+     "q": "Find the quantity lost when one third of a 900 kg vegetable lot perishes. Use the method 'Post-Harvest Wastage Share'. Work with: total_produce = 100, waste_share = 0.6. Carry the chain through step by step and give the final value of wasted_produce.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the tonnage wasted when the spoilage fraction and the harvest size are stated. Use the method 'Post-Harvest Wastage Share'. Work with: total_produce = 24, waste_share = 0.75. Carry the chain through step by step and give the final value of wasted_produce.",
+     "a": "18 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Post-Harvest Wastage Share' refers to.",
+     "a": "A fixed fraction of harvested fruits, vegetables and milk spoils before processing; the tonnage lost is that fraction applied to the whole harvest, which is exactly why food processing is urged upon the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Post-Harvest Wastage Share'.",
+     "a": "Between a fifth and a third of produce perishes, so preservation and processing convert losses into products and jobs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Post-Harvest Wastage Share', in plain ASCII form.",
+     "a": "wasted_produce = total_produce * waste_share",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

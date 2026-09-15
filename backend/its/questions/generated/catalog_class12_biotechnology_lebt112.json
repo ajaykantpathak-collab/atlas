@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt112",
+ "concepts": [
+  {
+   "id": "lebt112.1",
+   "title": "Biofuel Types and Ethanol Blending",
+   "questions": [
+    {
+     "q": "Using the method 'Biofuel Types and Ethanol Blending', work with: blend_pct = 60, fuel_volume = 30. Carry the chain through step by step and give the final value of fossil_volume.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Biofuel Types and Ethanol Blending' and work with: blend_pct = 100, fuel_volume = 200. Carry the chain through step by step and give the final value of fossil_volume.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Biofuel Types and Ethanol Blending' refers to.",
+     "a": "Biofuels answer the fossil problem in four forms: biodiesel trans-esterified from jatropha, algae or waste cooking oil that runs unmodified diesel engines, bioalcohols fermented from sugarcane and corn starch, methane-rich biogas from anaerobic digesters - India has installed about 49.3 lakh plants - and solid biomass, with ethanol blended into petrol at up to ten percent in India against a five percent national standard and blends of two to thirty percent worldwide.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biofuel Types and Ethanol Blending'.",
+     "a": "Multiply the fuel volume by the blend percent to size the biofuel share; algae may one day feed the whole pipeline without competing with food crops.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Biofuel Types and Ethanol Blending', in plain ASCII form.",
+     "a": "biofuel_volume = fuel_volume * blend_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.2",
+   "title": "Biodegradation Bioplastics and Green Industry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biodegradation Bioplastics and Green Industry' refers to.",
+     "a": "Biodegradation recycles what refuse: plastic-eating bacteria, PHB bioplastic brewed by Alcaligenes eutrophus and stacked into Arabidopsis chloroplasts through three borrowed genes, biopulping fungi that spare energy in paper mills, xylanase biobleaching that trims chlorine, and oil-hungry engineered Pseudomonas superbugs for enhanced oil recovery and spill clean-up - biotechnology rewriting industry's environmental bill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biodegradation Bioplastics and Green Industry'.",
+     "a": "Swap petrochemistry for biology - biodegradable polymers, fungal pulping and oil-eating microbes shrink industry's footprint.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biodegradation Bioplastics and Green Industry' taught, and from which source text?",
+     "a": "12.1.2-12.1.3 (source: lebt112.txt sections 12.1.2-12.1.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.3",
+   "title": "GM Crops for Resistance and Tolerance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'GM Crops for Resistance and Tolerance' refers to.",
+     "a": "Transgenic crops fight on every front: Roundup Ready canola, soybean, corn and cotton overproduce a modified Agrobacterium enzyme to shrug off glyphosate; viral coat-protein genes vaccinate squash, potato and papaya against mosaic and ringspot viruses; antifungal defensins from alfalfa guard potatoes against Verticillium; lysozyme genes block Erwinia soft rot; Bt cotton remains India's only commercial transgenic since 2002 while Bangladesh pioneered Bt brinjal in 2014, and stacked pyramids pair insect resistance with drought tolerance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GM Crops for Resistance and Tolerance'.",
+     "a": "Overproduce the target, vaccinate with a coat protein, or stack two traits - each strategy buys one specific resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'GM Crops for Resistance and Tolerance' taught, and from which source text?",
+     "a": "12.2.1 (source: lebt112.txt section 12.2.1, Box 2, Table 12.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.4",
+   "title": "GM Trait Gains in Yield and Harvest Time",
+   "questions": [
+    {
+     "q": "Using the method 'GM Trait Gains in Yield and Harvest Time', work with: base_output = 8, gain_pct = 200, gm_years = 150, traditional_years = 150. Carry the chain through step by step and give the final value of extra_output.",
+     "a": "16 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'GM Trait Gains in Yield and Harvest Time' and work with: base_output = 20, gain_pct = 10, gm_years = 200, traditional_years = 10. Carry the chain through step by step and give the final value of extra_output.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GM Trait Gains in Yield and Harvest Time' refers to.",
+     "a": "Engineering shows up in numbers: HB4 wheat raises yield by a fifth, transgenic eucalyptus grows twenty percent more wood and harvests in five and a half years instead of seven, starch-boosted potato carries sixty percent more starch, Arabidopsis-coenzyme-ligase lines cut lignin by up to forty-five percent, nematode-resistant potato reached seventy percent field resistance, and drought maize drinks twenty percent less water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GM Trait Gains in Yield and Harvest Time'.",
+     "a": "Subtract the engineered time from the traditional one to price the speed gain, and apply the gain percent to the base output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GM Trait Gains in Yield and Harvest Time', in plain ASCII form.",
+     "a": "years_saved = traditional_years - gm_years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.5",
+   "title": "Regenerative Medicine and Organoids",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regenerative Medicine and Organoids' refers to.",
+     "a": "Regenerative medicine replaces what degeneration destroys: autografts move tissue within one body, allografts between human donors and recipients, xenografts even borrow pig heart valves; stem cells coaxed in Matrigel hydrogel self-assemble into organoids - ultra-small three-dimensional tissues from pluripotent or adult stem cells - while spheroids, hanging drops, organs-on-chips and bioprinted scaffolds push Carticel cartilage repair, laViv fibroblast cosmetics and Dermagraft diabetic patches toward the clinic.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regenerative Medicine and Organoids'.",
+     "a": "Seed stem cells into the right gel and geometry and they build the tissue for you - 3D culture is the body's own construction crew.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Regenerative Medicine and Organoids' taught, and from which source text?",
+     "a": "12.3 (source: lebt112.txt sections 12.3-12.3.1, Figs. 12.1-12.2, Box 2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.6",
+   "title": "Nanobiotechnology and the Nano Scale",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nanobiotechnology and the Nano Scale' refers to.",
+     "a": "Shrink matter below a micron and it changes character: an atom spans 0.1 nanometres, a fullerene sixty carbons, DNA about two, with the scale running to a millimetre sand grain; gold that glitters yellow in bulk turns ruby red below thirty nanometres and pink up to a hundred while its surface area explodes with particle count, cadmium-selenide quantum dots fluoresce size-dependent colours, and carbon folds into fullerene, nanotube or graphene shapes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nanobiotechnology and the Nano Scale'.",
+     "a": "Size writes the properties - the same gold reads red at thirty nanometres and pink at a hundred.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nanobiotechnology and the Nano Scale' taught, and from which source text?",
+     "a": "12.4 (source: lebt112.txt section 12.4, Figs. 12.3-12.6, Table 12.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.7",
+   "title": "Nanomedicine Drug Delivery and EPR",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nanomedicine Drug Delivery and EPR' refers to.",
+     "a": "Nanocarriers ferry drugs where they matter: liposomal amphotericin B tames the antifungal's toxicity, albumin-bound paclitaxel and liposomal doxorubicin ride the enhanced permeability and retention effect - twenty to thirty nanometre particles leaking through tumour vessels' fenestrations and staying trapped - while silver nanoparticles dress wounds, zinc and titanium oxides shield sunscreen skin, quantum-dot and lab-on-chip biosensors read biomarkers at the bedside.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nanomedicine Drug Delivery and EPR'.",
+     "a": "Leaky tumour vessels admit only small nanocarriers, and the tumour's poor drainage keeps them there - that is targeted delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nanomedicine Drug Delivery and EPR' taught, and from which source text?",
+     "a": "12.4.1 (source: lebt112.txt sections 12.4.1, Figs. 12.7-12.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt112.8",
+   "title": "Synthetic Biology Build Speed",
+   "questions": [
+    {
+     "q": "Using the method 'Synthetic Biology Build Speed', work with: new_time = 60, old_time = 5. Carry the chain through step by step and give the final value of speed_fold.",
+     "a": "0.0833 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Synthetic Biology Build Speed' and work with: new_time = 20, old_time = 8. Carry the chain through step by step and give the final value of speed_fold.",
+     "a": "0.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Synthetic Biology Build Speed' refers to.",
+     "a": "Synthetic biology, announced at MIT in 2004, builds organisms bottom-up from parts, devices and systems; instead of assembling plasmids by hand for six months to a year, designers now edit the sequence on a computer, email ATGC text to a synthesis company and receive the construct within a month - a workflow that has already delivered a fully functional chemically synthesised yeast chromosome and fuels bio-manufacturing, biosensors, green fuels and new drugs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Synthetic Biology Build Speed'.",
+     "a": "Subtract the email-to-construct time from the old bench time, then divide to price the speed-up of designing DNA in silico.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Synthetic Biology Build Speed', in plain ASCII form.",
+     "a": "time_saved = old_time - new_time",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

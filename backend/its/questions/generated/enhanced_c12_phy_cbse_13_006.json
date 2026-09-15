@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_006",
+   "title": "c12_phy_cbse_13_006",
+   "questions": [
+    {
+     "q": "Write the nuclear equation for the α-decay of \\(^{226}_{88}\\text{Ra}\\). Identify the daughter nucleus.",
+     "a": "\\(^{226}_{88}\\text{Ra} \\rightarrow ^{222}_{86}\\text{Rn} + ^{4}_{2}\\text{He}\\). The daughter is radon-222 (\\(^{222}_{86}\\text{Rn}\\)). A wrong answer (e.g., wrong Z or A) reveals the student does not conserve nucleon number and proton number separately in nuclear reactions.",
+     "self_check": true
+    },
+    {
+     "q": "In β⁻ decay, a neutron transforms into a proton, an electron, and an antineutrino. Explain why the atomic number Z increases by 1 while the mass number A remains unchanged.",
+     "a": "The neutron (n) → proton (p) + electron (e⁻) + antineutrino (\\(\\bar{\\nu}_e\\)). The proton stays in the nucleus, increasing Z by 1; the electron is emitted as the β⁻ particle. Total nucleons (A) unchanged because a nucleon merely changes type. A wrong answer (e.g., \"A decreases\") shows confusion between losing a nucleon and converting one.",
+     "self_check": true
+    },
+    {
+     "q": "Given atomic masses: \\(m(^{14}_{6}\\text{C}) = 14.003242\\,\\text{u}\\), \\(m(^{14}_{7}\\text{N}) = 14.003074\\,\\text{u}\\). Calculate the Q-value (in MeV) for the β⁻ decay of carbon-14. Use 1 u = 931.5 MeV/c².",
+     "a": "Step 1: Write decay: \\(^{14}_{6}\\text{C} \\rightarrow ^{14}_{7}\\text{N} + e^- + \\bar{\\nu}_e\\).  \nStep 2: Q = [m(¹⁴C) - m(¹⁴N)]c². (Atomic masses include electrons; the emitted electron is accounted for because the daughter atom has one extra electron.)  \nStep 3: Δm = 14.003242 u - 14.003074 u = 0.000168 u.  \nStep 4: Q = 0.000168 u × 931.5 MeV/u = 0.1565 MeV ≈ 156.5 keV.  \nA wrong sign or using nuclear masses without electron correction reveals misunderstanding of atomic vs nuclear mass in Q-value calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the penetration ability of α, β, and γ radiation through paper, aluminum foil (3 mm), and lead (1 cm). Which radiation is stopped by each? Explain the physical reason for the order.",
+     "a": "Paper stops α (high charge +2e, large mass → strong ionization, short range). Aluminum foil (3 mm) stops β (charge -e, small mass → moderate ionization). Lead (1 cm) significantly attenuates γ (no charge, no mass → weak interaction, high penetration). A wrong ordering indicates confusion between ionizing power and penetration depth.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the β⁺ decay of \\(^{22}_{11}\\text{Na}\\) as: \\(^{22}_{11}\\text{Na} \\rightarrow ^{22}_{10}\\text{Ne} + e^+\\). Is this equation complete? If not, what is missing and why must it be included for conservation laws?",
+     "a": "Incomplete. Missing: electron neutrino (\\(\\nu_e\\)). The correct equation: \\(^{22}_{11}\\text{Na} \\rightarrow ^{22}_{10}\\text{Ne} + e^+ + \\nu_e\\). The neutrino carries away missing energy, momentum, and lepton number (Lₑ: 0 → +1 for e⁺ and -1 for \\(\\nu_e\\)? Actually lepton number: e⁺ has Lₑ = -1, \\(\\nu_e\\) has Lₑ = +1, total 0). Without it, energy/momentum and lepton number conservation would be violated. A student omitting the neutrino thinks only charge and nucleon number matter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a Geiger-Müller counter, a set of absorbers (paper, aluminum, lead), and a mixed α-β-γ source to identify which radiation type is which. Describe the procedure and expected count-rate pattern.",
+     "a": "Procedure: Place source near GM tube, record background-subtracted count rate R₀. Insert paper → count rate drops sharply (α stopped). Remove paper, insert 3 mm Al → further drop (β stopped). Remove Al, insert 1 cm Pb → count rate reduces but not to zero (γ attenuated). The remaining counts are γ. A poor answer lacks systematic absorber sequencing or fails to link count-rate changes to specific radiation properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_009",
+   "title": "c11_geo_cbse_09_009",
+   "questions": [
+    {
+     "q": "Name the two major river systems of India based on their origin and give one example of each.",
+     "a": "The two major river systems are Himalayan rivers (e.g., Ganga) and Peninsular rivers (e.g., Godavari). A wrong answer (e.g., naming Indus and Ganga as two systems) reveals the student classifies by individual rivers rather than by physiographic origin and regime, missing the fundamental classification criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Himalayan rivers are perennial while most Peninsular rivers are seasonal.",
+     "a": "Himalayan rivers are fed by both glacier melt and monsoon rainfall, ensuring year-round flow; Peninsular rivers depend solely on monsoon rainfall and have no glacial source. A wrong answer citing only \"rainfall\" for both reveals the student overlooks the critical glacial contribution and the role of the Himalayan cryosphere as a natural reservoir.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the river Brahmaputra takes a sharp U-turn at Namcha Barwa and enters India as the Dihang. Identify the geological process responsible for this abrupt change in direction and name the resulting gorge.",
+     "a": "The process is antecedent drainage: the river maintained its course while the Himalayas uplifted, cutting the Namcha Barwa gorge (5,500 m deep). A wrong answer (e.g., \"river capture\") reveals confusion between antecedent drainage (river older than mountains) and river capture (piracy by a stronger stream).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drainage patterns of the Ganga and the Godavari basins. How do the patterns reflect the underlying geological structure?",
+     "a": "The Ganga basin exhibits a dendritic pattern on the alluvial plains but a trellis pattern in the Himalayan foothills due to folded sedimentary rocks; the Godavari basin shows a dendritic pattern on the Deccan basalt and a radial pattern on the Western Ghats, reflecting the homogeneous basalt and the dome-shaped plateau. A wrong answer stating both are dendritic reveals the student ignores structural control on drainage patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Peninsular rivers are more suitable for hydroelectric power generation than Himalayan rivers.\" Provide two arguments for and two against.",
+     "a": "For: Peninsular rivers have steep gradients, waterfalls, and firm rock beds ideal for dams (e.g., Jog Falls on Sharavati). Against: Himalayan rivers have huge perennial discharge and sediment-free water in non-monsoon months, enabling run-of-the-river projects; Peninsular rivers are seasonal, requiring large storage reservoirs that submerge vast areas. A one-sided answer reveals failure to weigh seasonal variability against discharge volume and sediment load.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table for a Class 11 presentation that highlights five differences between Himalayan and Peninsular rivers, using the parameters: source, regime, valley type, drainage pattern, and navigability. Include one map-based inference for each parameter.",
+     "a": "A good table lists: Source (glacier vs rainfall), Regime (perennial vs seasonal), Valley (V-shaped youthful vs broad mature), Pattern (antecedent/trellis vs consequent/dendritic), Navigability (high in plains vs low due to rapids/seasonality). Map inference: Ganga's meanders visible on satellite imagery; Godavari's straight course along fault lines. A poor table uses vague terms like \"big/small\" or copies textbook points without map-based evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

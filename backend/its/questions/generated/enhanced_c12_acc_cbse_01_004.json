@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_004",
+   "title": "c12_acc_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the fundamental difference between Fixed Capital Method and Fluctuating Capital Method in a partnership firm.",
+     "a": "Fixed Capital Method keeps the Capital Account balance constant (original contribution only) and records all adjustments (interest, salary, profit share, drawings) in a separate Current Account. Fluctuating Capital Method records all adjustments directly in the Capital Account, so the balance changes with every transaction. A wrong answer like \"Fixed Capital means capital cannot be changed at all\" reveals confusion between \"fixed unless permanently altered\" vs \"never altered\" — students often miss that additional capital introduction or permanent withdrawal IS allowed under Fixed Capital.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm follows Fixed Capital Method. Partner A's Capital Account shows ₹3,00,000 (Cr) and Current Account shows ₹50,000 (Dr). Partner B's Capital Account shows ₹2,00,000 (Cr) and Current Account shows ₹80,000 (Cr). Explain what the debit balance in A's Current Account and credit balance in B's Current Account represent.",
+     "a": "A's Current Account debit balance of ₹50,000 means A has withdrawn more than his share of profits/allowances (net drawings exceed earnings). B's Current Account credit balance of ₹80,000 means B's share of profits, interest on capital, salary etc. exceeds his drawings. A wrong answer like \"A owes the firm ₹50,000 and B is owed ₹80,000\" confuses internal accounting with external liability — these are internal equity balances, not payables/receivables. The Current Account is part of partner's equity, not a separate entity.",
+     "self_check": true
+    },
+    {
+     "q": "Arun and Varun are partners with capitals ₹4,00,000 and ₹3,00,000 respectively. The partnership deed provides for interest on capital @ 10% p.a., interest on drawings @ 12% p.a., and Arun gets a monthly salary of ₹5,000. Profit for the year before these appropriations is ₹2,50,000. Arun's drawings ₹60,000, Varun's drawings ₹40,000. Pass the journal entries for interest on capital, interest on drawings, and salary under FIXED CAPITAL METHOD.",
+     "a": "**Step 1:** Calculate appropriations:\n- Interest on Capital: Arun = ₹4,00,000 × 10% = ₹40,000; Varun = ₹3,00,000 × 10% = ₹30,000\n- Interest on Drawings: Arun = ₹60,000 × 12% = ₹7,200; Varun = ₹40,000 × 12% = ₹4,800\n- Salary to Arun = ₹5,000 × 12 = ₹60,000\n- Total appropriations = ₹40,000 + ₹30,000 + ₹7,200 + ₹4,800 + ₹60,000 = ₹1,42,000\n- Profit available for distribution = ₹2,50,000 - ₹1,42,000 = ₹1,08,000 (shared equally unless deed specifies ratio)\n\n**Step 2:** Journal entries (Fixed Capital Method — all to Current Accounts):\n```\nInterest on Capital A/c Dr. 70,000\n    To Arun's Current A/c 40,000\n    To Varun's Current A/c 30,000\n\nArun's Current A/c Dr. 7,200\nVarun's Current A/c Dr. 4,800\n    To Interest on Drawings A/c 12,000\n\nSalary to Partner A/c Dr. 60,000\n    To Arun's Current A/c 60,000\n\nProfit and Loss Appropriation A/c Dr. 1,08,000\n    To Arun's Current A/c 54,000\n    To Varun's Current A/c 54,000\n```\nA wrong answer crediting Capital Accounts instead of Current Accounts reveals failure to distinguish the two methods — the defining feature of Fixed Capital is that Capital Account remains untouched for revenue items.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation of partners' capital under Fixed Capital Method vs Fluctuating Capital Method when one partner has a debit balance in Current Account (Fixed) or Capital Account (Fluctuating). Why does the Fixed Capital Method provide better transparency for a new partner joining the firm?",
+     "a": "**Fixed Capital Method:** Capital Accounts (always credit) shown under \"Partners' Capital Accounts\" on Liabilities side. Current Accounts: credit balances under Liabilities, debit balances under Assets (as \"Partners' Current Accounts\" or netted off). **Fluctuating Capital Method:** Only Capital Accounts shown — credit balances under Liabilities, debit balances under Assets. **Transparency advantage:** Fixed Capital preserves the original capital contribution visibly. A new partner can instantly see each partner's permanent stake (Capital Account) separate from operational performance (Current Account). In Fluctuating Capital, a partner with large drawings could show a low/debit Capital balance, masking their actual committed capital. A wrong answer saying \"Both show same total equity\" misses the information asymmetry — Fixed Capital discloses committed capital vs. accumulated earnings separately, which is critical for valuation and admission decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Fixed Capital Method is always superior to Fluctuating Capital Method because it provides more information.\" Provide two arguments for and two against, considering a small partnership vs. a large partnership with frequent capital changes.",
+     "a": "**For Fixed Capital:** (1) Clear separation of permanent capital and revenue fluctuations aids financial analysis, admission/retirement valuation, and compliance with partnership deed terms. (2) Prevents erosion of capital visibility due to heavy drawings or losses — original stake remains transparent. **Against Fixed Capital:** (1) Higher bookkeeping cost — requires maintaining two accounts per partner (Capital + Current), doubling ledger work. For a small firm with few transactions, this is unnecessary complexity. (2) If capital changes frequently (partners often introduce/withdraw capital permanently), the \"fixed\" nature is illusory — Constant Capital Account alterations defeat the purpose. **Judgment:** Fixed Capital is superior when capital is stable and transparency is valued (large firms, professional partnerships). Fluctuating Capital is pragmatic for small firms with simple operations and infrequent capital changes. A wrong answer picking one method universally ignores context — the choice depends on firm size, capital stability, and information needs.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partnership firm switches from Fluctuating Capital Method to Fixed Capital Method mid-year (say, 1st October). Describe the accounting procedure for the switch and the journal entry to transfer balances. What challenges arise in profit appropriation for the year?",
+     "a": "**Scenario:** Partners X (Capital ₹5,00,000) and Y (Capital ₹3,00,000) used Fluctuating Capital till 30th Sept. On 1st Oct, they adopt Fixed Capital Method as per new deed.\n**Procedure:**\n1. As on 30th Sept, close Fluctuating Capital Accounts — balance includes all accumulated profits, drawings, interest etc. up to that date.\n2. Split each partner's 30th Sept Capital balance into: Fixed Capital (original contribution or agreed fixed amount) and Current Account (remainder).\n3. Journal entry on 1st Oct:\n```\nX's Capital A/c Dr. (excess over fixed amount)\n    To X's Current A/c\nY's Capital A/c Dr. (excess over fixed amount)\n    To Y's Current A/c\n```\n(If fixed amount > 30th Sept balance, reverse entry).\n**Challenges:** Profit appropriation for full year must be split: 6 months Fluctuating (direct to Capital), 6 months Fixed (to Current). Requires time-apportionment of interest on capital, salary, profit share. If profit is seasonal, simple time-basis may be unfair. A poor answer ignores the split-period complexity or suggests transferring full-year profit to Current Account — violating the method change date.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

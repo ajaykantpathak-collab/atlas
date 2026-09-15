@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_24_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_24_012",
+   "title": "c11_eng_w_cbse_24_012",
+   "questions": [
+    {
+     "q": "What is the key difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (answer is directly findable), while an inferential question requires the reader to deduce an answer by combining textual clues with reasoning (answer is not directly stated). A wrong answer that says \"literal questions are easy and inferential questions are hard\" reveals the student confuses difficulty level with cognitive process.",
+     "self_check": true
+    },
+    {
+     "q": "In the essay \"Tribal Verse\", Devy writes: \"A vast number of Indian languages have yet remained only spoken, with the result that literary compositions in these languages are not considered 'literature'.\" If a question asks: \"Why are tribal literary compositions not considered literature?\", is this a literal or inferential question? Justify your answer.",
+     "a": "This is a literal question because the answer is directly stated in the quoted sentence: they are not considered literature because the languages have remained only spoken (oral). A student who labels it inferential reveals they misunderstand that literal questions can still require paraphrasing rather than word-for-word copying.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this inferential question based on the essay: \"How does Devy suggest that tribal arts are dynamic rather than static?\" Provide your Point, Evidence (paraphrased), Explanation, and Link.",
+     "a": "Point: Devy argues tribal arts are dynamic because they involve performance and audience reception, not just a fixed text. Evidence: The essay states \"Experimentation in the tribal arts can be understood only when they are approached as performing arts\" and \"the tribal arts involve not just text but performance and audience reception.\" Explanation: By emphasizing performance, Devy shows each rendition changes with the performer and audience, allowing innovation within convention. Link: Therefore, tribal arts are not frozen but evolve through live interaction. A wrong answer that only quotes the text without explaining the performance-text distinction shows inability to infer.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two questions from the NCERT \"Understanding the Text\" section and classify each as literal or inferential. Explain your classification.\n1. \"Identify the common characteristics shared by tribal communities all over the world.\"\n2. \"While tribal communities may not seem to possess the scientific temper, there are many ideas from tribal conventions that could enrich modern societies.\" (Talking About the Text)",
+     "a": "Question 1 is literal: the essay explicitly lists characteristics (cohesive groups, little interest in accumulating wealth, nature-human-God link, intuition over reason, sacred space, personal time). Question 2 is inferential: it asks students to evaluate a claim not directly argued in the text; they must synthesize Devy's description of tribal worldview (e.g., holistic knowledge, memory systems, sustainable practices) to defend or challenge the statement. A student who classifies both as literal misses that Question 2 requires extrapolation beyond the text.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to the inferential question: \"How does the Munda song reflect the tribal worldview?\" Student writes: \"The Munda song shows they like daughters more than sons because the cowshed fills up for a daughter.\" Is this a sufficient inference? Why or why not?",
+     "a": "The answer is insufficient. It states a surface observation (cowshed fills for daughter) but does not connect to the broader tribal worldview described by Devy (e.g., women's dominant economic/ritual role, harmony with nature, non-materialistic values). A sufficient inference would link the symbol (cowshed/cattle) to the worldview (nature as living, gender equity, wealth as livestock). The student's error is treating a symbolic detail as the whole inference without explanatory depth.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the Adi song section and provide a model answer using PEEL. The question must require synthesizing at least two separate details from the text.",
+     "a": "Sample question: \"What does the use of Miri Agom (ritual language) for the healing chant reveal about Adi culture's view of language and health?\" Model answer: Point: The Adi distinguish ritual language from everyday language, showing they view language as having power to affect reality. Evidence: The text says Miri Agom is \"a highly rhythmic language used for chanting during rituals\" while Adi Agom is for \"routine conversation,\" and the chant aims to \"call back your lost health\" by addressing the spirit. Explanation: This separation indicates language is not merely communicative but performative – the right words in the right register can restore cosmic balance. Link: Thus, Adi culture sees health as spiritual equilibrium maintained through specialized linguistic practice. A poor answer would only describe the two languages without inferring their cultural significance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_005",
+   "title": "c12_bs_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the three broad categories of management objectives as per NCERT Class 12 Business Studies.",
+     "a": "The three categories are: (1) Organisational Objectives, (2) Social Objectives, and (3) Personal Objectives. A wrong answer (e.g., listing \"profit, sales, marketing\" or \"planning, organising, controlling\") reveals the student is confusing objectives with functions, financial targets, or departmental goals, and has not internalised the NCERT classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"survival\" is considered the most fundamental organisational objective, and how it differs from \"profit\" and \"growth.\"",
+     "a": "Survival means earning enough revenue to cover costs so the organisation continues to exist; without survival, profit and growth are impossible. Profit is the surplus over costs needed to reward risk-taking and fund future activities, while growth is the long-term expansion of capacity (sales, employees, capital). A student who says \"profit is the basic objective\" misses the hierarchical logic: survival is a prerequisite, profit sustains survival, growth extends it. This misconception leads to answers that ignore the sequential dependency.",
+     "self_check": true
+    },
+    {
+     "q": "A textile company in Surat decides to install a zero-liquid-discharge water treatment plant, costing ₹2 crore, which will increase production cost by 3% but eliminate groundwater pollution. The company also announces a scholarship programme for workers' children. Classify each decision as organisational, social, or personal objective, and justify your classification.",
+     "a": "Zero-liquid-discharge plant → Social objective (environment-friendly production method). Scholarship programme → Social objective (providing basic amenities/education to community) AND Personal objective (meets employees' higher-level need for children's education, enhancing loyalty). The cost increase of 3% may marginally affect profit (organisational), but the long-term organisational benefit includes regulatory compliance and brand reputation. A student who classifies the plant only as \"organisational cost-cutting\" or the scholarship only as \"personal\" fails to see the multi-objective nature of managerial decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the following statements: \"Management must reconcile personal goals with organisational objectives\" vs. \"Personal objectives are subordinate to organisational objectives.\" Which view does NCERT support, and why?",
+     "a": "NCERT supports reconciliation, not subordination. The text states: \"Management has to reconcile personal goals with organisational objectives for harmony in the organisation.\" Subordination implies suppression, which leads to dissatisfaction and turnover. Reconciliation means aligning personal growth (e.g., skill development) with organisational needs (e.g., new technology adoption) so both gain. A student who argues for subordination misunderstands the human-behaviour dimension of management (Characteristic: \"Management of people\") and the dynamic nature of organisations.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A non-profit hospital has no organisational objectives because it does not seek profit.\" Use the NCERT framework to evaluate.",
+     "a": "The statement is incorrect. NCERT defines organisational objectives as survival, profit, and growth. For a non-profit hospital, \"profit\" is replaced by \"surplus\" (excess of revenue over cost) which is reinvested; survival (covering costs) and growth (expanding services, beds, outreach) remain critical. The hospital must still utilise human and material resources to maximum advantage. A student who agrees confuses \"profit\" in the narrow accounting sense with the broader organisational objective of financial sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief caselet (3-4 sentences) about a small manufacturing firm where all three categories of management objectives are visibly pursued, but a conflict arises between them. State the conflict and propose a reconciliation mechanism.",
+     "a": "Example caselet: \"GreenFab Pvt. Ltd. makes biodegradable cutlery. To survive (organisational), it must cut costs; the owner proposes reducing the workforce by 20%. Workers, fearing job loss (personal: financial security), protest. The local community, which values GreenFab's employment of tribal women (social), pressures the firm to retain jobs.\" Conflict: Cost-cutting for survival vs. personal security vs. social employment. Reconciliation: Introduce voluntary retirement with upskilling grants, automate only hazardous tasks, and seek a government green-subsidy to offset costs. A poor answer lists only one objective or suggests unilateral layoffs without addressing personal/social dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

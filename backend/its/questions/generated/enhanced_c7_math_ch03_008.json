@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_008",
+   "title": "c7_math_ch03_008",
+   "questions": [
+    {
+     "q": "What is the primary rule for setting up the addition of two decimal numbers with different numbers of decimal places, such as $3.4$ and $2.15$?",
+     "a": "The correct approach is to align the numbers vertically by their decimal points so that digits of the same place value are in the same column. If a student says \"line up the numbers on the right side like whole numbers\" (writing $3.4$ + $2.15$ as $3.4 + 21.5$), it reveals that they are treating the decimal fraction part as a standard whole number, forgetting that place value positions dictate alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we sometimes add trailing zeros to a decimal number when performing addition, such as changing $7.2$ to $7.20$ before adding it to $4.35$?",
+     "a": "Adding trailing zeros does not change the value of the decimal number, but it helps visually balance the columns so that every place value has a digit to operate with, preventing place value shift errors. If a student believes that adding a zero changes the actual size or value of the number, they misunderstand the fundamental equivalence of decimals like $7.2$ and $7.20$.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the exact sum of $14.8$, $3.25$, and $0.076$.",
+     "a": "The correct sum is $18.126$. \nSteps:\n1. Write vertically with aligned decimal points:\n   $14.800$\n   $+ 3.250$\n   $+ 0.076$\n2. Add the thousandths column: $0 + 0 + 6 = 6$\n3. Add the hundredths column: $0 + 5 + 7 = 12$ (write 2, carry over 1 to tenths)\n4. Add the tenths column including carry: $8 + 2 + 0 + 1 = 11$ (write 1, carry over 1 to ones)\n5. Add ones, tens, and place the decimal point: $4 + 3 + 0 + 1 = 8$, and bring down $1$ in the tens place, resulting in $18.126$.\nIf a student gets $181.26$ or $4.736$, it reveals a failure to align the decimal points correctly or improper handling of carry-over values across place-value boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following addition: $12.3 + 4.56 = 16.86$. Compare this to $12.3 + 0.456 = 12.756$. Why does shifting the decimal place of the second number drastically change the final sum's decimal component while leaving the whole number nearly identical?",
+     "a": "The position of the digit relative to the decimal point determines its place value; in $4.56$, the $4$ is in the ones place, whereas in $0.456$, the $4$ is in the tenths place. When you add them to $12.3$, the whole number part changes based on whether you are adding $4$ ones or $0$ ones. If a student thinks the digits just shift positions without affecting the place value total, they fail to grasp that place value decreases tenfold with every step to the right of the decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student's solution: Amit solved $5.6 + 2.34$ by writing:\n  $5.6$\n$+ 2.34$\n-------\n  $7.94$\nIs Amit's answer correct? Justify your reasoning.",
+     "a": "Amit's answer is correct because $5.6$ can be thought of as $5.60$, and $5.60 + 2.34 = 7.94$. He correctly aligned the decimal points and added the hundredths ($0+4$), tenths ($6+3$), and ones ($5+2$). If a student claims Amit is wrong because \"there are different numbers of digits,\" it shows they mistakenly believe numbers must have identical string lengths before they can be added.",
+     "self_check": true
+    },
+    {
+     "q": "Create an addition problem involving three decimal numbers of different lengths (one with tenths, one with hundredths, and one with thousandths) whose sum equals exactly $25.000$. Show the numbers and their verification.",
+     "a": "A valid student response should provide three numbers like $12.450$, $8.125$, and $4.425$. \nVerification:\n  $12.450$\n+ $8.125$\n+ $4.425$\n---------\nThousandths: $0 + 5 + 5 = 10$ (write 0, carry 1)\nHundredths: $5 + 2 + 2 + 1 = 10$ (write 0, carry 1)\nTenths: $4 + 1 + 4 + 1 = 10$ (write 0, carry 2)\nOnes: $2 + 8 + 4 + 2 = 16$ (write 6, carry 1)\nTens: $1 + 1 = 2$\nTotal = $25.000$. A poor response would feature numbers that do not sum correctly or fail to account for proper place value alignment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

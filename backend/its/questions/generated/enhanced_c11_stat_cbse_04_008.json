@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_008",
+   "title": "c11_stat_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the correct plotting coordinate for the 'less than' cumulative frequency corresponding to the class interval 40-60 in a grouped frequency distribution?",
+     "a": "The correct coordinate is (60, cumulative frequency up to 60). The 'less than' ogive plots cumulative frequencies against the **upper class limit** of each interval. A wrong answer like (40, cf) or (50, cf) reveals the student confuses upper limits with lower limits or class marks. This is a fundamental error: using class marks (midpoints) instead of upper boundaries for 'less than' ogive, or using lower boundaries instead of upper boundaries. In Class 11 board exams, this single mistake leads to an entirely incorrect curve and wrong median.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws both ogives for a distribution and finds they intersect at x = 55. The student claims the median is 55. Is this always correct? Explain why or why not.",
+     "a": "Yes, the x-coordinate of the intersection point of the two ogives **always** gives the median for a grouped frequency distribution with continuous classes. This is because at the intersection, the 'less than' cumulative frequency equals the 'more than' cumulative frequency, meaning exactly half the observations lie below and half above that value. A wrong answer (e.g., \"only if the distribution is symmetric\") reveals the misconception that ogive intersection median only works for symmetric distributions, confusing it with the mean-median-mode empirical relationship. The ogive intersection method is distribution-free and always valid for continuous grouped data.",
+     "self_check": true
+    },
+    {
+     "q": "Given the frequency distribution: 0-20: 5, 20-40: 10, 40-60: 20, 60-80: 12, 80-100: 3. Construct the 'more than' cumulative frequency table and state the coordinates for plotting the 'more than' ogive.",
+     "a": "More than cumulative frequencies: More than 0: 50, More than 20: 45, More than 40: 35, More than 60: 15, More than 80: 3. Coordinates: (0, 50), (20, 45), (40, 35), (60, 15), (80, 3). A wrong answer using upper limits (20, 50), (40, 45)... reveals the student applies 'less than' logic to 'more than' ogive. Another common error: starting from the first class upper limit instead of lower limit (0). The 'more than' ogive **must** start at the lowest lower limit with total frequency N, and uses lower class limits as x-coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the shapes of 'less than' and 'more than' ogives for the same distribution. Why is the 'less than' ogive never decreasing while the 'more than' ogive is never increasing? Relate this to the definition of cumulative frequency.",
+     "a": "The 'less than' ogive is never decreasing because cumulative frequency adds non-negative class frequencies as we move to higher upper limits: cf(x₁) ≤ cf(x₂) for x₁ < x₂. The 'more than' ogive is never increasing because it subtracts class frequencies from the total as we move to higher lower limits: cf(x₁) ≥ cf(x₂) for x₁ < x₂. A wrong answer like \"less than ogive goes up because frequencies are positive\" without the cumulative reasoning reveals superficial understanding. The key is that cumulative frequency is a running total (less than) or running remainder (more than), making their monotonic behaviour mathematically necessary, not just typical.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the median from the ogive intersection is graphical, it's only approximate. The formula method gives the exact median. Therefore, the formula method is superior.\" Evaluate this claim.",
+     "a": "The claim is **partially correct but misleading**. Both methods yield the same theoretical median for grouped data. The formula method uses the median class assumption (uniform distribution within the class), making it a calculation based on that assumption. The graphical method visually represents the same assumption - the intersection occurs where the linear interpolation within the median class crosses N/2. Neither is \"exact\" for grouped data since original values are lost. The graphical method's precision depends on scale and plotting accuracy. A student calling the formula \"exact\" reveals the misconception that grouped data formulas recover the true median, ignoring that both are estimates based on the same uniform distribution assumption within classes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution (minimum 5 classes) where the 'less than' and 'more than' ogives intersect at a point that is NOT the midpoint of the median class. Explain why this happens and what it tells you about the distribution within the median class.",
+     "a": "Example: 0-10: 2, 10-20: 3, 20-30: 20, 30-40: 5, 40-50: 5. N=35, N/2=17.5. Median class = 20-30. Less than cf at 20 = 5, at 30 = 25. More than cf at 20 = 30, at 30 = 10. Intersection x ≈ 20 + (17.5-5)/(25-5)×10 = 26.25. Class midpoint = 25. Intersection ≠ midpoint because frequency within median class is not uniformly distributed - it's skewed towards the upper end (implied by the steep less than ogive). A poor answer giving a symmetric distribution (where intersection = midpoint) misses the point: the question asks for a case where they differ, demonstrating understanding that the intersection reflects the actual cumulative pattern, not just the class midpoint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_007",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_007",
+   "title": "c6_chemistry_ch04_007",
+   "questions": [
+    {
+     "q": "Why do we prefer using metal for the base of a cooking pan instead of wood?",
+     "a": "We use metal because it conducts heat efficiently, allowing the food to cook, whereas wood is a poor conductor of heat. Answering that \"metal is stronger\" misses the point; the student might not realize that conductivity is the specific property required for cooking.",
+     "self_check": true
+    },
+    {
+     "q": "If you were asked to design a raincoat, would you choose cotton cloth or a thin plastic sheet? Why?",
+     "a": "You would choose plastic because it is waterproof (insoluble and non-absorbent). If a student chooses cotton because it is \"soft,\" they are confusing comfort with the functional purpose of keeping the wearer dry.",
+     "self_check": true
+    },
+    {
+     "q": "You have a glass window, a wooden door, and a frosted glass screen. If you want to hide behind one of these so no one can see you, which do you pick and why?",
+     "a": "You pick the wooden door. Steps: 1. Identify transparency levels (Glass: transparent, Frosted: translucent, Wood: opaque). 2. Determine the requirement (not being seen). 3. Match the requirement to the property. 4. Select the opaque material. A student picking \"frosted glass\" doesn't realize \"translucent\" still allows some visibility.",
+     "self_check": true
+    },
+    {
+     "q": "You would choose the steel spoon. A student who says \"either\" fails to understand the property of \"hardness\"—the spoon is harder than the eraser and can leave a mark on softer materials, while the eraser cannot.",
+     "a": "[Correct answer] A steel spoon is harder than a rubber eraser, so it would be the better choice for scratching a surface. While the eraser is flexible and soft, the steel spoon possesses the necessary hardness to deform or leave a mark on other materials.\n\nA wrong answer reveals a misunderstanding of the physical property of \"hardness,\" specifically confusing it with other traits like texture or flexibility, or a lack of understanding that a material must be harder than the surface it is intended to scratch to be effective.",
+     "self_check": true
+    },
+    {
+     "q": "Is it appropriate to make a water-storage tank out of a porous clay pot that is not glazed? Why or why not?",
+     "a": "No, it is not appropriate because the water will seep through the pores. A judgment here requires understanding that \"holding water\" requires a non-porous (insoluble and impermeable) material, which plain clay is not.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list of three objects in your classroom and suggest one material change for each that would make them stop working correctly.",
+     "a": "Examples: 1. A glass window made of wood (no light). 2. A notebook made of iron sheets (cannot write on it). 3. A water bottle made of paper (will tear/leak). Poor answers simply list materials without explaining why the change ruins the function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

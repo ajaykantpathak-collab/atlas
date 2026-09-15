@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_005",
+   "title": "c12_geo_cbse_17_005",
+   "questions": [
+    {
+     "q": "Define noise pollution according to NCERT and state the unit used to measure its intensity.",
+     "a": "Noise pollution is the state of unbearable and uncomfortable sound levels caused by various sources such as traffic, industries, aircraft, and construction, measured in decibels (dB). A wrong answer (e.g., \"noise pollution is only from factories\" or \"measured in hertz\") reveals confusion between sound frequency and intensity, or ignorance of diverse urban sources.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why traffic is considered the biggest nuisance for noise pollution in Indian metropolitan cities, referencing at least three factors that influence its intensity.",
+     "a": "Traffic noise intensity depends on vehicle type (heavy vs light), road condition (potholes increase noise), and vehicle maintenance (poorly maintained engines). It is the biggest nuisance because of its pervasive, continuous presence across the city, unlike industrial noise which is localized. A wrong answer focusing only on \"number of vehicles\" misses the conditional factors and the comparative aspect with other sources.",
+     "self_check": true
+    },
+    {
+     "q": "A residential area near a highway records noise levels of 90 dB during peak hours and 55 dB at night. The WHO guideline for outdoor residential areas is 55 dB day and 45 dB night. Calculate the exceedance in decibels for both periods and explain the likely health impact using NCERT's stated effects.",
+     "a": "Day exceedance = 90 - 55 = 35 dB; Night exceedance = 55 - 45 = 10 dB. Such chronic exposure leads to respiratory, nervous, and circulatory system disorders (as per NCERT: air pollution causes diseases related to these systems; noise pollution similarly stresses the body). A wrong calculation (e.g., subtracting 55 from 90 incorrectly) or attributing only hearing loss shows incomplete understanding of systemic health impacts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the waste disposal challenges of a metropolitan city (e.g., Mumbai) with a smaller town (e.g., Meerut) using the NCERT data on collection efficiency and health hazards. Identify two geographical reasons for the difference.",
+     "a": "Metros like Mumbai collect ~90% waste but still face hazards due to sheer volume and landfill saturation; smaller towns collect only 30-50%, leaving waste uncollected on streets. Geographical reasons: (1) Metros have higher population density and economic activity generating more waste per sq km; (2) Smaller towns lack municipal infrastructure and funds for collection and landfill sites. A wrong answer citing only \"population size\" without linking to density, infrastructure, or economic capacity misses the geographical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the \"Polluter Pays\" principle applied in the Daurala case study (groundwater contamination by industries) as a model for urban industrial pollution control. Cite two specific outcomes and one limitation.",
+     "a": "Effectiveness: (1) Industries agreed to treat wastewater; (2) Community got potable water via pipeline and rainwater harvesting recharged aquifers. Limitation: The model relies on NGO mediation and community pressure, which may not be replicable in cities with weaker civil society or powerful industrial lobbies. A wrong answer claiming it solves all industrial pollution ignores the contextual dependence on stakeholder participation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point integrated plan to reduce noise pollution and improve waste management in a hypothetical Indian city of 2 million people, incorporating geographical principles of zoning, distance decay, and community participation.",
+     "a": "1. Zoning: Relocate industries and heavy traffic corridors away from residential zones using distance decay principle (noise intensity declines with distance). 2. Waste: Implement decentralized composting and recycling wards with community monitoring (like Jhabua's CPR management). 3. Green belts: Plant noise-absorbing tree buffers along highways and around landfills (as in Jhabua's tree planting). A poor answer lists generic measures (e.g., \"ban horns\") without spatial reasoning or community involvement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

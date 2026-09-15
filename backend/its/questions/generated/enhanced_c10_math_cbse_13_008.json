@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_008",
+   "title": "c10_math_cbse_13_008",
+   "questions": [
+    {
+     "q": "State the empirical relationship between mean, median, and mode.",
+     "a": "Mode = 3 × Median − 2 × Mean. A wrong answer (e.g., \"Mean = 3 Mode − 2 Median\") shows the student has the formula backwards. The correct form has Mode on the left.",
+     "self_check": true
+    },
+    {
+     "q": "For a moderately skewed distribution, if Mean = 18 and Median = 24, find the Mode.",
+     "a": "Mode = 3 × Median − 2 × Mean = 3(24) − 2(18) = 72 − 36 = 36. A wrong answer (e.g., Mode = 24 − 18 = 6) shows the student does not know the formula or is subtracting instead of applying the empirical relationship.",
+     "self_check": true
+    },
+    {
+     "q": "If Mode = 30 and Mean = 20, find the Median using the empirical formula.",
+     "a": "From Mode = 3 Median − 2 Mean: 30 = 3 Median − 2(20) = 3 Median − 40. So 3 Median = 70, Median = 70/3 ≈ 23.33. A wrong answer (e.g., Median = (30 + 20)/2 = 25) shows the student is averaging instead of using the formula.",
+     "self_check": true
+    },
+    {
+     "q": "In a symmetric distribution, what is the relationship between mean, median, and mode?",
+     "a": "In a symmetric distribution, Mean = Median = Mode. The empirical formula Mode = 3 Median − 2 Mean gives Mode = 3x − 2x = x, confirming all three are equal. A wrong answer (e.g., \"they are different even in symmetric distributions\") shows the student does not understand symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the formula called \"empirical\"?",
+     "a": "The formula is called empirical because it is based on observed patterns in real data, not derived from a mathematical theorem. It is an approximation that works well for moderately skewed, unimodal distributions but does not hold exactly for all distributions. A wrong answer (e.g., \"because it was proved by an empiricist\") shows a misunderstanding of the term \"empirical\" in statistics.",
+     "self_check": true
+    },
+    {
+     "q": "A frequency distribution has Mean = 25, Median = 26, and Mode = 28. Verify whether the empirical relationship holds.",
+     "a": "Check: 3 × Median − 2 × Mean = 3(26) − 2(25) = 78 − 50 = 28. This equals the given Mode (28). So the empirical relationship holds. A wrong answer (e.g., \"28 ≠ 26, so it doesn't hold\") shows the student is comparing mode to median directly instead of checking the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

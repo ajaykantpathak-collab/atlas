@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "generated_at": "2026-09-13 16:00:53",
+    "cycles": 6,
+    "requests": 1404
+  },
+  "failures": [
+    {
+      "code": "SLOW",
+      "endpoint": "/progress",
+      "method": "GET",
+      "request": "http://localhost:8001/api/tutor-graph/progress?student_id=syn_struggler_c1&subject=maths",
+      "status": 200,
+      "class_level": null,
+      "persona": "probe",
+      "detail": "GET took 9.24s"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c1&subject=maths&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c1&subject=science&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c1&subject=maths&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c1&subject=science&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c1&subject=maths&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c1&subject=science&class_level=1",
+      "status": 404,
+      "class_level": 1,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c2&subject=maths&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c2&subject=science&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c2&subject=maths&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c2&subject=science&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c2&subject=maths&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c2&subject=science&class_level=2",
+      "status": 404,
+      "class_level": 2,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c3&subject=maths&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c3&subject=science&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c3&subject=maths&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c3&subject=science&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c3&subject=maths&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c3&subject=science&class_level=3",
+      "status": 404,
+      "class_level": 3,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c4&subject=maths&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c4&subject=science&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c4&subject=maths&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c4&subject=science&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c4&subject=maths&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c4&subject=science&class_level=4",
+      "status": 404,
+      "class_level": 4,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c5&subject=maths&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_struggler_c5&subject=science&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "struggler",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c5&subject=maths&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_lost_c5&subject=science&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "lost",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c5&subject=maths&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "average",
+      "detail": "no concepts available"
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "request": "/serve?student_id=syn_average_c5&subject=science&class_level=5",
+      "status": 404,
+      "class_level": 5,
+      "persona": "average",
+      "detail": "no concepts available"
+    }
+  ],
+  "failure_counts_by_code": {
+    "GRADED_FALSE_POSITIVE": 0,
+    "SERVER_5XX": 0,
+    "RETREAT_BROKEN": 0,
+    "NO_HINT_LADDER": 0,
+    "NO_VOICE": 0,
+    "NO_CONTENT": 30,
+    "SLOW": 1
+  },
+  "served_ok_by_class": {
+    "6": 36,
+    "7": 36,
+    "8": 36,
+    "9": 36,
+    "10": 36,
+    "11": 72,
+    "12": 72,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "avg_latency_by_class": {
+    "1": 0.004,
+    "2": 0.003,
+    "3": 0.004,
+    "4": 0.003,
+    "5": 0.004,
+    "6": 0.013,
+    "7": 0.004,
+    "8": 0.004,
+    "9": 0.005,
+    "10": 0.007,
+    "11": 0.005,
+    "12": 0.004
+  },
+  "grades_by_persona": {
+    "struggler": {
+      "correct_revealed": 40,
+      "wrong": 29,
+      "micro_win_miss": 1,
+      "self_check": 34,
+      "ungraded": 1,
+      "micro_win": 3
+    },
+    "lost": {
+      "wrong": 56,
+      "micro_win": 3,
+      "gave_up": 8,
+      "self_check": 41,
+      "correct": 5,
+      "micro_win_miss": 2,
+      "ungraded": 1
+    },
+    "average": {
+      "wrong": 32,
+      "micro_win_miss": 2,
+      "correct": 20,
+      "self_check": 52,
+      "micro_win": 2
+    }
+  },
+  "mastery_deltas": {
+    "struggler|c1|maths": 0.0,
+    "struggler|c1|science": 0.0,
+    "lost|c1|maths": 0.0,
+    "lost|c1|science": 0.0,
+    "average|c1|maths": 0.0,
+    "average|c1|science": 0.0,
+    "struggler|c2|maths": 0.0,
+    "struggler|c2|science": 0.0,
+    "lost|c2|maths": 0.0,
+    "lost|c2|science": 0.0,
+    "average|c2|maths": 0.0,
+    "average|c2|science": 0.0,
+    "struggler|c3|maths": 0.0,
+    "struggler|c3|science": 0.0,
+    "lost|c3|maths": 0.0,
+    "lost|c3|science": 0.0,
+    "average|c3|maths": 0.0,
+    "average|c3|science": 0.0,
+    "struggler|c4|maths": 0.0,
+    "struggler|c4|science": 0.0,
+    "lost|c4|maths": 0.0,
+    "lost|c4|science": 0.0,
+    "average|c4|maths": 0.0,
+    "average|c4|science": 0.0,
+    "struggler|c5|maths": 0.0,
+    "struggler|c5|science": 0.0,
+    "lost|c5|maths": 0.0,
+    "lost|c5|science": 0.0,
+    "average|c5|maths": 0.0,
+    "average|c5|science": 0.0,
+    "struggler|c6|maths": 0.3,
+    "struggler|c6|science": 0.3,
+    "lost|c6|maths": 0.074,
+    "lost|c6|science": 0.3,
+    "average|c6|maths": 0.809,
+    "average|c6|science": 0.3,
+    "struggler|c7|maths": 0.0,
+    "struggler|c7|science": 0.3,
+    "lost|c7|maths": 0.057,
+    "lost|c7|science": 0.3,
+    "average|c7|maths": 0.583,
+    "average|c7|science": 0.3,
+    "struggler|c8|maths": 0.0,
+    "struggler|c8|science": 0.3,
+    "lost|c8|maths": 0.072,
+    "lost|c8|science": 0.3,
+    "average|c8|maths": 0.132,
+    "average|c8|science": 0.3,
+    "struggler|c9|maths": 0.3,
+    "struggler|c9|science": 0.3,
+    "lost|c9|maths": 0.435,
+    "lost|c9|science": 0.3,
+    "average|c9|maths": 0.45,
+    "average|c9|science": 0.3,
+    "struggler|c10|maths": 0.0,
+    "struggler|c10|science": 0.37,
+    "lost|c10|maths": 0.06,
+    "lost|c10|science": 0.37,
+    "average|c10|maths": 0.716,
+    "average|c10|science": 0.3,
+    "struggler|c11|physics": 0.3,
+    "struggler|c11|chemistry": 0.3,
+    "struggler|c11|maths": 0.3,
+    "struggler|c11|biology": 0.37,
+    "lost|c11|physics": 0.3,
+    "lost|c11|chemistry": 0.3,
+    "lost|c11|maths": 0.258,
+    "lost|c11|biology": 0.3,
+    "average|c11|physics": 0.3,
+    "average|c11|chemistry": 0.3,
+    "average|c11|maths": 0.576,
+    "average|c11|biology": 0.37,
+    "struggler|c12|physics": 0.37,
+    "struggler|c12|chemistry": 0.3,
+    "struggler|c12|maths": 0.0,
+    "struggler|c12|biology": 0.3,
+    "lost|c12|physics": 0.37,
+    "lost|c12|chemistry": 0.102,
+    "lost|c12|maths": 0.392,
+    "lost|c12|biology": 0.3,
+    "average|c12|physics": 0.37,
+    "average|c12|chemistry": 0.206,
+    "average|c12|maths": 0.469,
+    "average|c12|biology": 0.3
+  },
+  "notes": {
+    "hint_leaks_raw_answer_L3": 34,
+    "harvest_hint_leak": 8,
+    "harvest_peek_expected": 91
+  },
+  "top_sites": [
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "class": 1,
+      "personas": [
+        "average",
+        "lost",
+        "struggler"
+      ],
+      "count": 6,
+      "example": {
+        "code": "NO_CONTENT",
+        "endpoint": "/serve",
+        "request": "/serve?student_id=syn_struggler_c1&subject=maths&class_level=1",
+        "status": 404,
+        "class_level": 1,
+        "persona": "struggler",
+        "detail": "no concepts available"
+      }
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "class": 2,
+      "personas": [
+        "average",
+        "lost",
+        "struggler"
+      ],
+      "count": 6,
+      "example": {
+        "code": "NO_CONTENT",
+        "endpoint": "/serve",
+        "request": "/serve?student_id=syn_struggler_c2&subject=maths&class_level=2",
+        "status": 404,
+        "class_level": 2,
+        "persona": "struggler",
+        "detail": "no concepts available"
+      }
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "class": 3,
+      "personas": [
+        "average",
+        "lost",
+        "struggler"
+      ],
+      "count": 6,
+      "example": {
+        "code": "NO_CONTENT",
+        "endpoint": "/serve",
+        "request": "/serve?student_id=syn_struggler_c3&subject=maths&class_level=3",
+        "status": 404,
+        "class_level": 3,
+        "persona": "struggler",
+        "detail": "no concepts available"
+      }
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "class": 4,
+      "personas": [
+        "average",
+        "lost",
+        "struggler"
+      ],
+      "count": 6,
+      "example": {
+        "code": "NO_CONTENT",
+        "endpoint": "/serve",
+        "request": "/serve?student_id=syn_struggler_c4&subject=maths&class_level=4",
+        "status": 404,
+        "class_level": 4,
+        "persona": "struggler",
+        "detail": "no concepts available"
+      }
+    },
+    {
+      "code": "NO_CONTENT",
+      "endpoint": "/serve",
+      "class": 5,
+      "personas": [
+        "average",
+        "lost",
+        "struggler"
+      ],
+      "count": 6,
+      "example": {
+        "code": "NO_CONTENT",
+        "endpoint": "/serve",
+        "request": "/serve?student_id=syn_struggler_c5&subject=maths&class_level=5",
+        "status": 404,
+        "class_level": 5,
+        "persona": "struggler",
+        "detail": "no concepts available"
+      }
+    },
+    {
+      "code": "SLOW",
+      "endpoint": "/progress",
+      "class": null,
+      "personas": [
+        "probe"
+      ],
+      "count": 1,
+      "example": {
+        "code": "SLOW",
+        "endpoint": "/progress",
+        "method": "GET",
+        "request": "http://localhost:8001/api/tutor-graph/progress?student_id=syn_struggler_c1&subject=maths",
+        "status": 200,
+        "class_level": null,
+        "persona": "probe",
+        "detail": "GET took 9.24s"
+      }
+    }
+  ]
+}

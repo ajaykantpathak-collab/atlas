@@ -1,0 +1,490 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 101,
+ "chapter_title": "Electric Charges and Fields",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph101.1.4.3.1",
+   "title": "Quantisation of Electric Charge",
+   "section": "1.4.3",
+   "definition": "Every free charge comes in whole-number multiples of a fixed elementary value e, so the net charge of a body can change only in steps of that quantum.",
+   "formula": "q = n * e",
+   "key_idea": "Charge is grainy at the microscopic scale, yet the step size 1.6e-19 C is so tiny that macroscopic charges look continuous.",
+   "textbook_ref": "leph101.txt section 1.4.3 (quantisation, elementary charge value)",
+   "question_patterns": [
+    "how many electrons must be removed to leave a charge of 2 microcoulomb on a body",
+    "calculate the number of electrons transferred when a rubbed polythene piece picks up 3 times 10 to the minus 7 coulomb",
+    "a body carries a net charge of 1.6 nanocoulomb; find the count of excess electrons on it",
+    "determine how many elementary charges make up a total charge of 8 times 10 to the minus 12 coulomb",
+    "estimate the electron count matching a total charge of minus 1 coulomb",
+    "use the charge quantum to turn a body net charge into a count of excess electrons sitting on it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the elementary charge",
+     "explain": "each electron carries e = 1.6e-19 C",
+     "compute": "elem_charge = 1.6e-19"},
+    {"step": 2, "action": "divide the net charge by the quantum",
+     "explain": "the integer count of electrons is the net charge split into quanta of e",
+     "compute": "electron_count = net_charge / elem_charge"}
+   ]
+  },
+  {
+   "id": "leph101.1.4.1.1",
+   "title": "Additivity and Conservation of Charge",
+   "section": "1.4.1",
+   "definition": "Charges combine like plain signed numbers, and the algebraic total held by an isolated setup stays fixed no matter how the charges rearrange inside it.",
+   "formula": "q_total = q1 + q2 + q3 + ... + qn",
+   "key_idea": "Rubbing or internal reactions only relocate charge between bodies; the overall bookkeeping of an isolated system never changes.",
+   "textbook_ref": "leph101.txt sections 1.4.1-1.4.2 (additivity, conservation)",
+   "question_patterns": [
+    "find the algebraic total of several signed charges in one isolated system and say why that total cannot change",
+    "why does the total charge of an isolated system stay constant during rubbing",
+    "explain charge conservation when a neutron decays into a proton plus an electron",
+    "a system holds five charges with mixed signs; how do you obtain the net charge",
+    "does charging a body by friction create fresh charge or only shift it between objects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "attach the algebraic sign to every charge",
+     "explain": "positive and negative signs decide each contribution, so addition is scalar with signs"},
+    {"step": 2, "action": "add all signed contributions",
+     "explain": "the total is the plain arithmetic sum, since charge has magnitude but no direction"},
+    {"step": 3, "action": "compare totals before and after the process",
+     "explain": "an isolated system shows the same total before and after, which is the conservation check"}
+   ]
+  },
+  {
+   "id": "leph101.1.5.1",
+   "title": "Coulomb Force Between Point Charges",
+   "section": "1.5",
+   "definition": "The push or pull between two point charges grows with the product of the charges, falls off as the square of the gap, and acts along the line joining them.",
+   "formula": "F = k * q1 * q2 / r**2",
+   "key_idea": "With k about 9e9 in SI units, two 1 C charges one metre apart repel with roughly 9e9 N, which is why the coulomb is a very large unit.",
+   "textbook_ref": "leph101.txt section 1.5 (Coulomb law, k = 9e9, eps0)",
+   "question_patterns": [
+    "find the mutual force between two small charged spheres 30 cm apart carrying 2 times 10 to the minus 7 and 3 times 10 to the minus 7 coulomb",
+    "calculate the electrostatic force between two point charges separated by a given distance in air",
+    "what is the repulsion between two like charges of 1 microcoulomb kept 10 cm apart",
+    "compute the Coulomb force between charges q1 and q2 placed r metres apart in vacuum",
+    "determine how strongly two point charges attract when their values and separation are known",
+    "evaluate the inverse-square electric force for a pair of tiny charged bodies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "k = 1/(4 pi eps0) is about 9e9 N m^2 per C^2 in SI units",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "square the separation",
+     "explain": "the inverse-square law uses the gap between centres raised to power two",
+     "compute": "sep_sq = separation ** 2"},
+    {"step": 3, "action": "combine charges over the squared gap",
+     "explain": "multiply the constant by both charges and divide by the squared separation to get the force magnitude",
+     "compute": "force = k_const * charge1 * charge2 / sep_sq"}
+   ]
+  },
+  {
+   "id": "leph101.1.6.1",
+   "title": "Superposition Principle for Many Charges",
+   "section": "1.6",
+   "definition": "With several charges present, you get the force on any one of them by adding, as vectors, every pairwise Coulomb force, each pair behaving as though the others were absent.",
+   "formula": "F1 = F12 + F13 + ... + F1n",
+   "key_idea": "Pairwise forces stay unaffected by onlooker charges, so a many-charge problem reduces to vector addition of two-body results.",
+   "textbook_ref": "leph101.txt section 1.6 (forces between multiple charges)",
+   "question_patterns": [
+    "find the resultant force on a charge placed at the centre of a square with charges at its corners",
+    "how do you add the forces on one charge from several neighbouring charges",
+    "name the principle used to obtain the net force in a many-charge system",
+    "three equal charges sit at the corners of an equilateral triangle; describe the net force on a charge at the centroid",
+    "why is the force between a given pair of charges unchanged when a third charge is brought nearby"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "draw the pairwise force on the target charge",
+     "explain": "for every other charge, write the two-body Coulomb force vector with its direction"},
+    {"step": 2, "action": "add the vectors by the parallelogram rule",
+     "explain": "each pairwise force ignores the remaining charges, so straight vector addition is valid"},
+    {"step": 3, "action": "read the net force from the vector sum",
+     "explain": "symmetric arrangements can make the vector sum exactly zero"}
+   ]
+  },
+  {
+   "id": "leph101.1.7.1",
+   "title": "Electric Field of a Point Charge",
+   "section": "1.7",
+   "definition": "A source charge fills the region around itself with a field, meaning the force per unit positive charge that a tiny test charge would feel at each point, directed radially for a point source.",
+   "formula": "E = k * Q / r**2",
+   "key_idea": "Field strength follows the same inverse-square falloff as the force, pointing outward for a positive source and inward for a negative one.",
+   "textbook_ref": "leph101.txt section 1.7 (electric field, E = kQ/r^2, F = qE)",
+   "question_patterns": [
+    "calculate the electric field intensity at 30 cm from a point charge of 2 nanocoulomb",
+    "what field does a point source charge produce at a stated distance in free space",
+    "find E at a point 20 cm away from a 5 microcoulomb charge",
+    "determine the field strength at radius r around a point charge Q",
+    "compute the magnitude of the electric field due to a 1.6 times 10 to the minus 19 coulomb charge at 1 angstrom"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "the field of a point source is the force law with one charge removed, so k enters directly",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "divide by the squared distance",
+     "explain": "multiply k by the source charge and split by r squared to get the field at that radius",
+     "compute": "field = k_const * source_charge / (point_distance ** 2)"}
+   ]
+  },
+  {
+   "id": "leph101.1.7.2",
+   "title": "Charged Particle Falling in a Uniform Field",
+   "section": "1.7",
+   "definition": "Inside a uniform field a particle of charge q feels the steady force qE, so it speeds up uniformly with acceleration qE/m just like a body under constant gravity.",
+   "formula": "t = sqrt(2 * h * m / (q * E))",
+   "key_idea": "A heavier particle needs more time to cross the same gap from rest, the opposite of free fall where mass cancels out.",
+   "textbook_ref": "leph101.txt Example 1.7 (electron and proton fall times in uniform field)",
+   "question_patterns": [
+    "an electron falls through 1.5 cm in a uniform field of 2 times 10 to the 4 newton per coulomb; find its time of fall",
+    "how long does a proton take to cover the same distance in a reversed uniform field",
+    "find the acceleration of a charged particle released in a uniform electric field",
+    "compute the time a charge needs to travel distance h from rest inside a constant field",
+    "compare the fall times of an electron and a proton crossing the same gap in a uniform field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "get the uniform acceleration",
+     "explain": "force is qE, so dividing by the mass gives the constant acceleration of the particle",
+     "compute": "accel = particle_charge * e_field / particle_mass"},
+    {"step": 2, "action": "apply the fall-time relation",
+     "explain": "starting from rest, distance h = 0.5 a t^2, so the time is the square root of 2h over a",
+     "compute": "fall_time = sqrt(2 * fall_dist / accel)"}
+   ]
+  },
+  {
+   "id": "leph101.1.8.1",
+   "title": "Electric Field Lines and Their Rules",
+   "section": "1.8",
+   "definition": "A field line is a curve whose tangent at every point shows the net field direction there; crowding of lines marks where the field is stronger.",
+   "formula": "line_density -> field_strength",
+   "key_idea": "Lines run from positive to negative charge, never cross one another, and never close into loops in electrostatics.",
+   "textbook_ref": "leph101.txt section 1.8 (electric field lines, properties list)",
+   "question_patterns": [
+    "why can two electric field lines never intersect each other",
+    "do electrostatic field lines form closed loops, and why not",
+    "what does the crowding of field lines at a point indicate about the field",
+    "where do field lines begin and end for an isolated single charge",
+    "describe the field line picture around a pair of equal and opposite charges"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the tangent rule",
+     "explain": "the direction of E at any point is the tangent to the line there, so one point cannot hold two directions"},
+    {"step": 2, "action": "apply the no-crossing rule",
+     "explain": "crossing lines would give two field directions at the crossing point, which is impossible"},
+    {"step": 3, "action": "check endpoints and loops",
+     "explain": "lines start on positive and finish on negative charge and stay open curves in electrostatics"}
+   ]
+  },
+  {
+   "id": "leph101.1.9.1",
+   "title": "Electric Flux Through a Flat Surface",
+   "section": "1.9",
+   "definition": "Electric flux measures how much field pierces a given area, scaling with the field strength, the area, and the cosine of the tilt between them.",
+   "formula": "phi = E * S * cos_theta",
+   "key_idea": "Turn a surface edge-on to the field, ninety degrees tilt, and the flux through it drops to zero.",
+   "textbook_ref": "leph101.txt section 1.9 (electric flux, delta phi = E . dS)",
+   "question_patterns": [
+    "find the flux of a uniform field through a square of side 10 cm held parallel to the yz plane",
+    "calculate the electric flux through a flat area tilted at 60 degrees to a uniform field",
+    "what flux passes through an area of 0.01 metre squared inside a field of 3 times 10 to the 3 newton per coulomb",
+    "compute the flux through a tilted surface placed in a steady uniform field",
+    "a square frame is held edge-on to a uniform field; how much flux goes through it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "project the area normal to the field",
+     "explain": "only the component of area facing the field passes lines, so multiply the area by the cosine of the tilt",
+     "compute": "tilted_area = area * cos_theta"},
+    {"step": 2, "action": "multiply field by projected area",
+     "explain": "the flux equals the field strength times the area projected perpendicular to it",
+     "compute": "flux = e_field * tilted_area"}
+   ]
+  },
+  {
+   "id": "leph101.1.10.1",
+   "title": "Electric Dipole Moment",
+   "section": "1.10",
+   "definition": "For two charges matching in size but opposite in sign, held a fixed distance apart, the dipole moment equals charge times separation and points from the negative member toward the positive one.",
+   "formula": "p = q * 2 * a",
+   "key_idea": "The moment, not the separate charges, decides the far field of the pair; a dipole can carry zero net charge yet nonzero moment.",
+   "textbook_ref": "leph101.txt section 1.10 (dipole, p = q times 2a)",
+   "question_patterns": [
+    "find the dipole moment of two charges plus and minus 2.5 times 10 to the minus 7 coulomb kept 30 cm apart",
+    "calculate p for a pair of equal and opposite charges with a stated separation",
+    "what is the moment of a dipole whose charges are 1 microcoulomb and separation 5 mm",
+    "two charges of plus 10 and minus 10 microcoulomb sit 5 mm apart; obtain the dipole moment",
+    "state the direction of the dipole moment vector for a given charge pair"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply charge by full separation",
+     "explain": "the magnitude of the moment is the charge times the gap 2a between the pair members",
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"}
+   ]
+  },
+  {
+   "id": "leph101.1.10.2",
+   "title": "Dipole Field at a Far Axial Point",
+   "section": "1.10.1",
+   "definition": "Far from a dipole, on the line through both charges, the field weakens as the cube of the distance, runs parallel to the moment, and is twice the equatorial value there.",
+   "formula": "E_axial = 2 * k * p / r**3",
+   "key_idea": "Dipole fields die off like 1/r cubed, one power faster than the 1/r squared falloff of a single charge.",
+   "textbook_ref": "leph101.txt section 1.10.1 (field on the axis, Eq. 1.15 and 1.20)",
+   "question_patterns": [
+    "calculate the field on the axis of a dipole 15 cm from its centre for charges of 10 microcoulomb held 5 mm apart",
+    "find the electric field at a far axial point of a short dipole",
+    "what is the axial field at distance r from the centre of a dipole of moment p",
+    "compute the field along the dipole axis when r is much larger than the half separation",
+    "how strong is the field at a far point lying on the line through both charges of a short dipole"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the dipole moment",
+     "explain": "the moment is charge times full separation, needed because the far field depends on the product qa",
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"},
+    {"step": 2, "action": "apply the far axial formula",
+     "explain": "twice k times the moment divided by the cube of the axial distance gives the field on the axis",
+     "compute": "axial_field = 2 * 9.0e9 * dipole_moment / (axial_distance ** 3)"}
+   ]
+  },
+  {
+   "id": "leph101.1.11.1",
+   "title": "Torque on a Dipole in a Uniform Field",
+   "section": "1.11",
+   "definition": "A uniform field cannot translate a dipole but does twist it; the turning effect peaks when the moment sits crosswise to the field and vanishes once they line up.",
+   "formula": "tau = p * E * sin_theta",
+   "key_idea": "The torque is the cross of moment with field, so aligned orientation is the zero-torque, favoured state.",
+   "textbook_ref": "leph101.txt section 1.11 (dipole in uniform external field, Eq. 1.22)",
+   "question_patterns": [
+    "calculate the torque on a dipole of moment 4 times 10 to the minus 9 coulomb metre aligned at 30 degrees inside a field of 5 times 10 to the 4 newton per coulomb",
+    "find the turning effect on a dipole held at an angle to a uniform field",
+    "at what orientation of the dipole moment is the torque maximum",
+    "compute the couple acting on an electric dipole placed in a steady field",
+    "when is the torque on a dipole inside a uniform field equal to zero"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "combine moment, field and the sine of the angle",
+     "explain": "each charge feels qE in opposite directions, giving a couple of size pE sin(theta)",
+     "compute": "torque = dipole_moment * e_field * sin_theta"}
+   ]
+  },
+  {
+   "id": "leph101.1.13.1",
+   "title": "Gauss Law: Enclosed Charge from Flux",
+   "section": "1.13",
+   "definition": "The net flux leaving any closed surface is fixed by the total charge trapped inside it, regardless of the surface shape or where the charges sit within.",
+   "formula": "phi = q_enclosed / eps0",
+   "key_idea": "Dividing the net outward flux by eps0 recovers the enclosed charge; zero net flux means zero net enclosed charge.",
+   "textbook_ref": "leph101.txt section 1.13 (Gauss law, Eq. 1.31, Examples 1.10-1.11)",
+   "question_patterns": [
+    "the net outward flux through a closed box is 8 times 10 to the 3 newton metre squared per coulomb; find the charge inside",
+    "use Gauss law to obtain the net charge enclosed from a measured total flux",
+    "a point charge gives a flux of minus 1 times 10 to the 3 through a sphere centred on it; what is the charge value",
+    "how much charge sits inside a Gaussian cube when the total flux through it is known",
+    "measured outward flux through a closed bag-shaped surface; work out the charge caught inside"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale the flux by eps0",
+     "explain": "Gauss law says flux equals enclosed charge over eps0, so multiply the net flux by 8.854e-12",
+     "compute": "enclosed_charge = net_flux * 8.854e-12"}
+   ]
+  },
+  {
+   "id": "leph101.1.14.1",
+   "title": "Field of an Infinite Charged Wire",
+   "section": "1.14.1",
+   "definition": "An endlessly long, evenly charged straight wire pushes test charges radially outward with a strength that falls off only as the first power of the perpendicular distance.",
+   "formula": "E = 2 * k * lambda / r",
+   "key_idea": "Cylindrical symmetry makes the falloff 1/r instead of 1/r squared; k still stands for 1 over 4 pi eps0.",
+   "textbook_ref": "leph101.txt section 1.14.1 (field of an infinitely long straight wire, Eq. 1.32)",
+   "question_patterns": [
+    "for a very long evenly charged straight wire, compute the radial field 5 cm out when each metre carries 2 microcoulomb",
+    "get the electric field at distance r from an endless line of charge carrying lambda coulomb per metre",
+    "use cylindrical symmetry to state how the field of a charged wire varies with distance and evaluate it at 2 cm for density 2 microcoulomb per metre",
+    "work out the strength of the radial field around an infinite line of charge at a given perpendicular distance",
+    "how much field does a wire with endless length and steady charge density create 10 cm from itself",
+    "evaluate the one-over-r falloff field near a straight charged wire of great length at radius r"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "the wire result is usually quoted as lambda over 2 pi eps0 r, which equals 2k lambda over r",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "double k times density over distance",
+     "explain": "multiply 2k by the charge per unit length and divide by the perpendicular distance",
+     "compute": "field = 2 * k_const * line_density / wire_distance"}
+   ]
+  },
+  {
+   "id": "leph101.1.14.2",
+   "title": "Field of a Charged Plane Sheet",
+   "section": "1.14.2",
+   "definition": "An endless flat sheet with even surface charge gives a field on each side that is constant, no matter how far from the sheet the point lies.",
+   "formula": "E = sigma / (2 * eps0)",
+   "key_idea": "Twice eps0 in the denominator, and the result is independent of distance, pointing away from the sheet on both faces for positive sigma.",
+   "textbook_ref": "leph101.txt section 1.14.2 (field of a uniformly charged infinite plane sheet, Eq. 1.33)",
+   "question_patterns": [
+    "find the field near a large flat sheet with surface charge density 17 times 10 to the minus 22 coulomb per metre squared",
+    "calculate E produced by an infinite plane sheet of charge with a stated sigma",
+    "what is the field on either side of a uniformly charged infinite sheet",
+    "compute the steady field close to a big evenly charged plate",
+    "state the value of the field due to an endless uniformly charged flat sheet at any distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide the surface density by twice eps0",
+     "explain": "Gauss law across a pillbox straddling the sheet gives sigma over 2 eps0, with 2 eps0 = 1.7708e-11",
+     "compute": "field = surface_density / 1.7708e-11"}
+   ]
+  },
+  {
+   "id": "leph101.1.14.3",
+   "title": "Field of a Charged Spherical Shell",
+   "section": "1.14.3",
+   "definition": "Outside a thin spherical shell carrying charge spread evenly over it, the field matches that of a point charge seated at the centre, while every interior point feels exactly zero field.",
+   "formula": "E_outside = k * q_shell / r**2",
+   "key_idea": "Spherical symmetry plus Gauss law forces a zero interior field, the electrical twin of the gravitational shell theorem.",
+   "textbook_ref": "leph101.txt section 1.14.3 (field of a uniformly charged thin spherical shell, Eq. 1.34-1.35)",
+   "question_patterns": [
+    "calculate the electric field outside a thin spherical shell of radius R carrying total charge q",
+    "what field does a charged spherical shell produce at an external point",
+    "compute E at distance r greater than R from a shell with surface density sigma",
+    "find the outside field of a uniformly charged sphere 2.4 m across with 80 microcoulomb per metre squared on its surface",
+    "determine the field 20 cm from the centre of a charged sphere of radius 10 cm and known surface density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the charge on the shell",
+     "explain": "surface density times the shell area 4 pi R squared gives the whole charge, using 4 pi = 12.566371",
+     "compute": "shell_charge = 12.566371 * shell_radius ** 2 * surface_density"},
+    {"step": 2, "action": "treat the shell as a central point charge",
+     "explain": "for exterior points the whole charge behaves as if seated at the centre, so use the point-charge field",
+     "compute": "outside_field = 9.0e9 * shell_charge / (point_distance ** 2)"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph101_1",
+   "source_ref": "leph101.txt Exercise 1.1 data (charged spheres 30 cm apart)",
+   "concept": "leph101.1.5.1",
+   "question_type": "coulomb_force_pair",
+   "question_pattern": "Two tiny charged balls carry {q1} C and {q2} C, with their centres {r} m apart in air. What force does each exert on the other?",
+   "extracted_variables": {"q1": 2e-07, "q2": 3e-07, "r": 0.3},
+   "solution_template": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "SI value of k is 9e9 N m^2 per C^2",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "square the separation",
+     "explain": "inverse-square law needs r squared",
+     "compute": "sep_sq = r ** 2"},
+    {"step": 3, "action": "combine and divide",
+     "explain": "force equals k times the product of charges over the squared gap",
+     "compute": "force = k_const * q1 * q2 / sep_sq"}
+   ]
+  },
+  {
+   "id": "we_leph101_2",
+   "source_ref": "leph101.txt Exercise 1.10 data (dipole at 30 degrees in a field)",
+   "concept": "leph101.1.11.1",
+   "question_type": "dipole_torque",
+   "question_pattern": "A dipole of moment {p} C m sits at {theta_deg} degrees to a uniform field of {E} N/C. How large is the torque on it?",
+   "extracted_variables": {"p": 4e-09, "theta_deg": 30, "E": 5e4},
+   "solution_template": [
+    {"step": 1, "action": "take the sine of the tilt",
+     "explain": "30 degrees gives sin_theta = 0.5",
+     "compute": "sin_theta = 0.5"},
+    {"step": 2, "action": "multiply moment by field by sine",
+     "explain": "the couple equals pE sin(theta)",
+     "compute": "torque = p * E * sin_theta"}
+   ]
+  },
+  {
+   "id": "we_leph101_3",
+   "source_ref": "leph101.txt Example 1.11(d) data (charge inside a cylinder from flux)",
+   "concept": "leph101.1.13.1",
+   "question_type": "charge_from_flux",
+   "question_pattern": "The net outward flux through a closed surface is {flux} N m^2/C. What net charge does it enclose?",
+   "extracted_variables": {"flux": 3.14},
+   "solution_template": [
+    {"step": 1, "action": "scale flux by eps0",
+     "explain": "Gauss law multiplies the net flux by eps0 = 8.854e-12",
+     "compute": "enclosed_charge = flux * 8.854e-12"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph101_1_1_to_1_3",
+   "source_ref": "leph101.txt exercises 1.1-1.3 (end-of-chapter set)",
+   "questions": [
+    "Two small charged spheres hold 2e-7 C and 3e-7 C with a 30 cm gap; what force acts between them?",
+    "A 0.4 microcoulomb sphere feels 0.2 N from a -0.8 microcoulomb sphere in air; how far apart are they, and what force acts back on the second sphere?",
+    "Confirm that the ratio k e squared over G m_e m_p carries no units and interpret its enormous size."
+   ]
+  },
+  {
+   "id": "ex_leph101_1_4_to_1_6",
+   "source_ref": "leph101.txt exercises 1.4-1.6",
+   "questions": [
+    "What does it mean to say the charge of a body is quantised, and why may quantisation be ignored for everyday large charges?",
+    "Rubbing a glass rod on silk leaves both bodies charged; relate this to conservation of charge.",
+    "Charges of 2, -5, 2 and -5 microcoulomb occupy the corners of a 10 cm square; what force acts on a 1 microcoulomb charge at the centre?"
+   ]
+  },
+  {
+   "id": "ex_leph101_1_7_to_1_9",
+   "source_ref": "leph101.txt exercises 1.7-1.9",
+   "questions": [
+    "Why can an electrostatic field line never show a sudden break, and why can two such lines never cross?",
+    "Charges of 3 and -3 microcoulomb sit 20 cm apart; find the field at the midpoint and the force on a -1.5e-9 C test charge placed there.",
+    "Two charges of 2.5e-7 and -2.5e-7 C are 30 cm apart on a line; give the system total charge and its dipole moment."
+   ]
+  },
+  {
+   "id": "ex_leph101_1_10_to_1_13",
+   "source_ref": "leph101.txt exercises 1.10-1.13",
+   "questions": [
+    "A dipole of moment 4e-9 C m sits at 30 degrees inside a 5e4 N/C uniform field; how big is the torque?",
+    "A rubbed polythene strip carries -3e-7 C; estimate the electron count moved and say whether mass is transferred too.",
+    "Two copper spheres 50 cm apart each hold 6.5e-7 C; find the repulsion, then repeat when each charge doubles and the gap halves.",
+    "Three particle tracks curve differently inside a uniform field; assign the charge signs and pick out the largest charge-to-mass ratio."
+   ]
+  },
+  {
+   "id": "ex_leph101_1_14_to_1_18",
+   "source_ref": "leph101.txt exercises 1.14-1.18",
+   "questions": [
+    "For a uniform field of 3e3 N/C along x, find the flux through a 10 cm square facing it, then redo the case where the normal tilts 60 degrees.",
+    "What net flux does the same field send through a cube of 20 cm side with faces parallel to the coordinate planes?",
+    "A closed box shows 8e3 N m^2/C of outward flux; what charge is inside, and would zero flux prove the interior empty?",
+    "A 10 microcoulomb charge hangs 5 cm above the centre of a 10 cm square; treat the square as one cube face and find the flux through it.",
+    "A 2 microcoulomb charge sits at the centre of a 9 cm cube; what net flux leaves the cube?"
+   ]
+  },
+  {
+   "id": "ex_leph101_1_19_to_1_23",
+   "source_ref": "leph101.txt exercises 1.19-1.23",
+   "questions": [
+    "A charge causes -1e3 N m^2/C of flux through a 10 cm sphere centred on it; how does the flux change when the radius doubles, and what is the charge?",
+    "A 10 cm conducting sphere holds unknown charge; the field 20 cm from the centre reads 1.5e3 N/C inward. Find the charge.",
+    "A 2.4 m diameter sphere carries 80 microcoulomb per metre squared of surface density; find its total charge and the flux leaving it.",
+    "An infinite line charge gives 9e4 N/C at 2 cm; work out its charge per unit length.",
+    "Two close parallel plates carry opposite densities of 17e-22 C/m^2 on their inner faces; find the field outside each plate and between them."
+   ]
+  }
+ ]
+}

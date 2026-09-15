@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_005",
+   "title": "c11_bs_cbse_03_005",
+   "questions": [
+    {
+     "q": "Name the three forms of organising public sector enterprises in India and state the specific legislation under which each is created.",
+     "a": "The three forms are: (1) Departmental Undertaking – created as a government department under executive authority, no separate statute; (2) Statutory Corporation – created by a Special Act of Parliament/State Legislature (e.g., LIC Act, 1956); (3) Government Company – registered under the Companies Act, 2013 with ≥51% government paid-up capital. A wrong answer (e.g., saying all are created under Companies Act) reveals the student has not distinguished the constitutional/legislative origin of each form, which is the foundation for all subsequent differences in autonomy and accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Statutory Corporation is considered a 'body corporate' while a Departmental Undertaking is not, and state one practical consequence of this difference for entering into contracts.",
+     "a": "A Statutory Corporation is a body corporate because the creating Act grants it legal personality—it can sue, be sued, and hold property in its own name. A Departmental Undertaking has no separate legal identity; it is the Government itself. Consequently, contracts for a departmental undertaking are signed by the President/Governor through officers, while a statutory corporation signs contracts in its own name. If a student says both can sue in their own name, they confuse legal personality with operational autonomy, a critical distinction for understanding liability and commercial credibility.",
+     "self_check": true
+    },
+    {
+     "q": "The Government wants to set up an enterprise for strategic defence production (missiles) where secrecy and direct parliamentary control are paramount. Which form is most suitable? Justify using two comparative parameters.",
+     "a": "Departmental Undertaking is most suitable. Parameters: (1) Control – It functions under direct ministry control (e.g., Ministry of Defence), ensuring secrecy and alignment with national security policy; (2) Accountability – Revenue goes to Consolidated Fund, and it is audited by CAG, providing full parliamentary oversight. A student choosing Government Company misses that its separate legal entity and operational autonomy could compromise secrecy; choosing Statutory Corporation misses that its Act-defined autonomy may dilute direct ministerial command essential for defence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the financing mechanisms of the three forms and analyse how each mechanism impacts the enterprise's ability to respond to market opportunities.",
+     "a": "Departmental Undertaking: Financed by budgetary appropriation; funds lapse annually, leading to rigidity and inability to seize sudden market opportunities. Statutory Corporation: Independently financed via borrowings, revenue, and government loans; can retain surpluses, enabling quicker response but subject to government borrowing limits. Government Company: Financed by share capital (govt + private) and capital market borrowings; highest flexibility to raise funds for expansion. A student stating all rely on budgetary grants fails to analyse the link between financial independence and commercial agility.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government Company is the ideal form for all public sector enterprises because it combines the autonomy of private companies with public accountability.\" Provide two arguments for and two against.",
+     "a": "For: (1) Separate legal entity enables commercial decision-making without bureaucratic delays; (2) Can access capital markets and induct private equity for efficiency. Against: (1) When govt holds 100% shares, Companies Act provisions become ineffective—board appointments remain political, defeating autonomy; (2) Not directly accountable to Parliament (reports via Annual Report only), weakening constitutional oversight compared to departmental undertakings. A student agreeing wholly ignores the \"government company in name only\" critique in NCERT and the accountability deficit for strategic sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel comparison parameter not explicitly listed in the textbook but derivable from the features, and use it to rank the three forms from highest to lowest. Explain your reasoning.",
+     "a": "Parameter: \"Speed of Commercial Decision-Making\" (time from identifying opportunity to committing resources). Ranking: (1) Government Company – Board can decide per MoA/AoA; (2) Statutory Corporation – Board decides but may need govt approval for major contracts per Act; (3) Departmental Undertaking – Requires ministry approval, file routing, CVC guidelines. Reasoning: Derived from \"operational flexibility\" (statutory corp), \"autonomy in management decisions\" (govt company), and \"cannot take independent decisions without ministry approval\" (dept undertaking). A poor answer uses only textbook phrases without synthesising a new analytical lens.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

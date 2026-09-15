@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_010",
+   "title": "c12_hist_cbse_12_010",
+   "questions": [
+    {
+     "q": "What was the original constitutional status of the Right to Property in the Constitution of India as adopted on 26 January 1950?",
+     "a": "The Right to Property was originally a Fundamental Right under Article 19(1)(f) (right to acquire, hold, and dispose of property) and Article 31 (protection against deprivation of property without authority of law and compensation). A wrong answer — e.g., \"it was a Directive Principle\" or \"it was never a fundamental right\" — reveals the student confuses the original 1950 text with the post-1978 position (Article 300A) or misunderstands the hierarchy of rights in the original Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the provisional Parliament pass the First Amendment (1951) within 15 months of the Constitution coming into force?",
+     "a": "The First Amendment was passed because High Courts (e.g., Patna, Allahabad, Nagpur) struck down zamindari abolition acts (Bihar Land Reforms Act 1950, UP Zamindari Abolition Act 1950) as violating Article 31's compensation requirement — the courts held \"compensation\" meant \"just equivalent/market value\", which the cash-strapped states could not pay. A wrong answer focusing only on \"Nehru wanted socialism\" misses the immediate judicial trigger: the judiciary's strict reading of \"compensation\" paralysed land reform, forcing a constitutional amendment to insulate such laws via the Ninth Schedule.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Ninth Schedule was a clever trick — it placed land reform laws beyond judicial review entirely, so courts could never examine them.\" Is this statement accurate? Explain using the distinction between \"constitutional validity\" and \"legislative competence\".",
+     "a": "The statement is partially inaccurate. The Ninth Schedule (Article 31B) shielded laws from challenge on grounds of violating Fundamental Rights (Part III), but NOT from challenge on grounds of legislative competence (e.g., if a state law encroached on Union List subjects) or basic structure (post-1973). A wrong answer treating Ninth Schedule as absolute immunity shows the student misses the nuanced constitutional architecture: it was a targeted override of Article 31/19(1)(f), not a blanket exclusion of judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the arguments of K. Santhanam (Madras) and Vallabhbhai Patel in the Constituent Assembly on the Right to Property. How did their positions reflect different visions of federalism and social justice?",
+     "a": "Santhanam argued strong property rights (Article 31) would cripple provinces fiscally — land revenue was their main tax base, and zamindari abolition required acquiring zamindari estates without market-value compensation. Patel, while sympathetic to land reform, initially supported strong property rights to assure minorities and princely states; but he pivoted after Partition, prioritising national unity and agrarian stability. A wrong answer treating both as \"pro-landlord\" or \"pro-reform\" flattens the federalism angle: Santhanam's was a provincial finance argument, Patel's a national-integration argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The First Amendment (1951) was a betrayal of the Constituent Assembly's original vision because it curtailed a Fundamental Right within 15 months of adoption.\"",
+     "a": "The claim is historically untenable. The Constituent Assembly itself debated — but did not resolve — the property vs. reform tension (see N.G. Ranga's \"real minorities are the masses\" speech, CAD Vol. II). The First Amendment was moved by Nehru, piloted by Ambedkar (Drafting Committee Chair), and passed by the *same* individuals who framed the Constitution — it was a continuation of the Assembly's unresolved debate, not a betrayal. A wrong answer accepting the \"betrayal\" narrative ignores that the Assembly deliberately left the compensation clause ambiguous (\"compensation\" not \"just equivalent\") precisely to allow legislative flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1947–1951) showing how the Zamindari Abolition Acts → High Court judgements → First Amendment → Ninth Schedule formed a cause-effect chain. Annotate each step with the constitutional provision invoked.",
+     "a": "1947–49: CAD debates Art. 31 (compensation) vs Art. 39(b)(c) (Directive Principles) — no consensus.\n1950: Bihar/UP/MP pass Zamindari Abolition Acts under Art. 31(2) (\"compensation\" determined by legislature).\n1950–51: Patna HC (Kameshwar Singh v. State of Bihar), Allahabad HC, Nagpur HC strike down Acts — \"compensation\" = market value (Art. 31(2)).\nMay 1951: First Amendment adds Art. 31A (saving laws acquiring estates), Art. 31B (Ninth Schedule), Art. 31C (later, but intent present).\nJune 1951: Ninth Schedule enacted — 13 state acts placed beyond Art. 31 challenge.\nA poor timeline missing the HC judgements or misdating the Amendment (e.g., 1950) shows the student cannot link judicial interpretation to legislative response.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

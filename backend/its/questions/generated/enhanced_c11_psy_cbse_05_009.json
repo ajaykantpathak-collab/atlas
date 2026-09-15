@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_009",
+   "title": "c11_psy_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define 'skill' as per NCERT Class 11 Psychology and name the three phases of skill acquisition proposed by Fitts.",
+     "a": "A skill is the ability to perform a complex task smoothly and efficiently. The three phases are: cognitive phase, associative phase, and autonomous phase. A wrong answer (e.g., listing \"practice, feedback, mastery\" or confusing with Piaget's stages) reveals the student has memorised a generic learning cycle instead of Fitts' specific three-phase model for skill acquisition.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The associative phase is just 'more practice' after the cognitive phase.\" Explain why this statement is incomplete. What specific change in mental processing defines the transition from cognitive to associative phase?",
+     "a": "The associative phase is not merely repetition; it is where different sensory inputs/stimuli are linked with appropriate responses, errors decrease significantly, and performance becomes smoother and faster. The transition is defined by the shift from *conscious, step-by-step verbal mediation* (cognitive) to *stimulus-response linking* where the learner no longer needs to rehearse instructions mentally but must still attend to sensory feedback. A wrong answer indicates the student views practice as undifferentiated repetition rather than a qualitative shift in information processing.",
+     "self_check": true
+    },
+    {
+     "q": "Riya is learning to type on a QWERTY keyboard. In week 1, she looks at keys and thinks \"A-S-D-F\". In week 4, she types common words without looking but pauses at unfamiliar words. In week 12, she types 60 wpm while conversing. Map each week to Fitts' phases and justify using one key characteristic per phase.",
+     "a": "Week 1 = Cognitive phase (characteristic: conscious memorisation of instructions, high attentional demand, verbal mediation). Week 4 = Associative phase (characteristic: sensory-motor linking, error reduction, still requires attention for novel elements). Week 12 = Autonomous phase (characteristic: automaticity, minimal conscious effort, resistance to interference). A wrong mapping (e.g., calling week 4 autonomous) shows inability to distinguish associative phase's residual attentional demand from autonomous phase's automaticity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of *continuous reinforcement* vs. *partial reinforcement* in skill learning. Why does partial reinforcement produce greater resistance to extinction, and how does this apply to a cricketer practicing slip catches?",
+     "a": "Continuous reinforcement (reward every correct response) yields fast acquisition but rapid extinction when rewards stop. Partial reinforcement (reward intermittently) yields slower acquisition but high resistance to extinction because the learner cannot easily discriminate between \"reward discontinued\" and \"reward delayed.\" For a slip fielder, catches are intermittent (partial reinforcement); this builds persistence — the fielder keeps alert for hours despite few catches, unlike a batter rewarded every ball in nets (continuous) who may lose focus if boundaries stop. A wrong answer treating both schedules as equally effective for maintenance reveals misunderstanding of the partial reinforcement effect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"High motivation alone can overcome biological unpreparedness for a skill.\" Use the concept of *preparedness for learning* and the preparedness continuum to justify your answer.",
+     "a": "The claim is false. Preparedness is a continuum: at one end are tasks a species is genetically prepared to learn easily (e.g., humans learning language), at the other end are tasks it cannot learn at all (e.g., humans learning to navigate by echolocation like bats). Motivation energises effort but cannot create the associative neural mechanisms required for unprepared tasks. A highly motivated human cannot learn to fly by flapping arms because the S-R associations for flight are not in our genetic endowment. A wrong answer agreeing with the claim confuses motivation (energising factor) with preparedness (biological constraint on *what* can be associated).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week practice schedule for a Class 11 student learning to solve Rubik's Cube, explicitly incorporating: (a) all three Fitts phases, (b) a shift from continuous to partial reinforcement, and (c) intrinsic motivation strategies. Explain how your schedule addresses the performance plateau between phases.",
+     "a": "A strong answer will structure: Week 1 (Cognitive) — learn algorithms with tutorial, continuous reinforcement (praise per solved layer), intrinsic goal (\"understand logic\"). Week 2-3 (Associative) — timed solves, partial reinforcement (praise only for PBs), intrinsic goal (\"beat yesterday's time\"), address plateau by varying scramble types. Week 4 (Autonomous) — blindfolded/one-handed variants, self-reinforcement via flow state, intrinsic mastery. Plateau is addressed by changing task constraints (variability of practice) to force re-entry into cognitive processing for new sub-skills. A weak answer uses same drills throughout or ignores the reinforcement shift, showing failure to integrate phase-specific demands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_1",
+   "title": "c9_chem_ch3_1",
+   "questions": [
+    {
+     "q": "State the Law of Conservation of Mass in your own words and name the scientist who experimentally proved it using mercury(II) oxide.",
+     "a": "Correct answer: \"Mass is neither created nor destroyed in a chemical reaction; the total mass of reactants equals total mass of products. Antoine Lavoisier proved this using mercury(II) oxide decomposition in a sealed container.\" A wrong answer like \"mass is always conserved everywhere\" reveals the student misses the critical \"closed system\" condition — they don't understand gases escaping would break the law. If they name Proust or Dalton, they confuse this law with constant proportions or atomic theory.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Lavoisier use a SEALED retort instead of an open test tube for his mercury(II) oxide experiment? What would happen to the mass reading in an open container?",
+     "a": "Correct answer: \"The sealed retort trapped the oxygen gas produced, keeping all products inside so total mass could be measured. In an open test tube, oxygen would escape into the air, making the final mass appear less than the initial mass — seemingly violating the law.\" A wrong answer like \"to prevent accidents\" or \"to heat evenly\" shows the student doesn't grasp that the law ONLY holds for closed systems. They likely think mass is always conserved visibly, not understanding gas has mass and can leave the vessel.",
+     "self_check": true
+    },
+    {
+     "q": "In Lavoisier's experiment, 92.6 g of mercury(II) oxide (HgO) was heated in a sealed retort. After decomposition, 85.4 g of mercury (Hg) was collected. Calculate the mass of oxygen gas produced and verify the law.",
+     "a": "Step 1: Identify knowns — initial mass HgO = 92.6 g, final mass Hg = 85.4 g. Step 2: Apply law — mass reactants = mass products. Step 3: Mass O₂ = mass HgO − mass Hg = 92.6 g − 85.4 g = 7.2 g. Step 4: Verify — total products = 85.4 g + 7.2 g = 92.6 g = reactants. Law holds. A wrong answer like \"oxygen mass is zero because it's a gas\" reveals the student thinks gases are massless — a Class 6 misconception from \"Properties of Materials\" (c6_chemistry_ch04_002). If they add instead of subtract, they don't understand mass conservation as an accounting principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Lavoisier's mercury(II) oxide experiment with burning magnesium ribbon in an open crucible. In which case does the law appear to be violated, and why? Use the concept of \"system boundary\" in your explanation.",
+     "a": "Correct answer: \"In the open crucible, magnesium reacts with oxygen from air to form MgO, but the system boundary is not closed — oxygen enters from outside. The crucible gains mass, so if you only weigh magnesium before and MgO after, mass seems to increase. Lavoisier's sealed retort had a fixed boundary — no atoms entered or left — so mass stayed constant.\" A wrong answer like \"both follow the law\" or \"magnesium burning destroys mass\" shows the student cannot distinguish system types. They likely memorised \"mass is conserved\" without understanding the closed-system prerequisite.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"2HgO → 2Hg + O₂. Initial mass: 100 g HgO. Final mass: 100 g Hg + 16 g O₂ = 116 g. Mass increased, so the law is wrong.\" Evaluate this claim and identify the exact error.",
+     "a": "Correct evaluation: \"The claim is false. The error is assuming 100 g HgO produces 100 g Hg. By mass ratio from molar masses (HgO = 216.6, Hg = 200.6, O = 16), 100 g HgO yields (200.6/216.6)×100 = 92.6 g Hg and 7.4 g O₂. Total products = 100 g. The student incorrectly assumed all HgO mass becomes Hg, ignoring oxygen's mass.\" A wrong evaluation like \"the equation is unbalanced\" shows they focus on equation balancing instead of mass accounting. If they say \"mass can increase in reactions,\" they fundamentally misunderstand the law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to verify the Law of Conservation of Mass for the reaction between vinegar (acetic acid) and baking soda (sodium bicarbonate). List materials, procedure, and how you'll ensure a closed system.",
+     "a": "Expected answer: \"Materials: conical flask, balloon, digital balance, vinegar, baking soda, thread. Procedure: 1) Weigh flask + vinegar + baking soda (in tissue) + empty balloon. 2) Drop tissue into vinegar, immediately stretch balloon over flask neck to trap CO₂. 3) Swirl gently until reaction finishes. 4) Re-weigh entire assembly. Mass before = mass after. Closed system ensured by balloon trapping gas.\" A poor answer like \"mix in a beaker and weigh\" reveals the student doesn't know CO₂ is a gas that escapes — they haven't applied the \"closed system\" concept from Lavoisier's experiment. If they suggest a lid but no gas trap, they miss that pressure buildup could pop the lid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

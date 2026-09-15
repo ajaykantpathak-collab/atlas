@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_008",
+   "title": "c11_phy_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the formula for elastic potential energy of a spring and write the SI units of each variable. What is the physical significance of the spring constant $k$?",
+     "a": "The elastic potential energy is $U = \\frac{1}{2}kx^2$ where $k$ is the spring constant in N/m (newton per metre) and $x$ is displacement from equilibrium in m (metre); $U$ is in J (joule). The spring constant $k$ measures the stiffness of the spring — a larger $k$ means a stiffer spring requiring more force per unit extension. A wrong answer (e.g., writing $U = kx$ or giving $k$ in N) reveals confusion between force and energy, or misunderstanding that $k$ is a property of the spring, not the deformation.",
+     "self_check": true
+    },
+    {
+     "q": "A spring of force constant $k = 200\\ \\text{N/m}$ is compressed by 10 cm. A student calculates the stored energy as $U = kx = 200 \\times 0.1 = 20\\ \\text{J}$. Identify the error and explain why the factor of $\\frac{1}{2}$ appears in the correct formula.",
+     "a": "The student used $U = kx$ (force formula) instead of $U = \\frac{1}{2}kx^2$ (energy formula). The correct energy is $\\frac{1}{2} \\times 200 \\times (0.1)^2 = 1\\ \\text{J}$. The factor $\\frac{1}{2}$ arises because the spring force varies linearly from $0$ to $kx$ — the average force over the displacement is $\\frac{1}{2}kx$, so work done (energy stored) = average force $\\times$ displacement = $\\frac{1}{2}kx \\times x = \\frac{1}{2}kx^2$. A wrong answer reveals the student treats the variable spring force as constant, confusing Hooke's law force $F = kx$ with the energy integral.",
+     "self_check": true
+    },
+    {
+     "q": "A block of mass $2\\ \\text{kg}$ moving at $4\\ \\text{m/s}$ on a smooth horizontal surface collides with a spring of constant $k = 500\\ \\text{N/m}$ fixed to a wall. Calculate the maximum compression of the spring. Use $g = 10\\ \\text{m/s}^2$ if needed.",
+     "a": "**Step 1:** Identify given: $m = 2\\ \\text{kg}$, $v = 4\\ \\text{m/s}$, $k = 500\\ \\text{N/m}$, smooth surface $\\Rightarrow$ no friction.  \n**Step 2:** At maximum compression, kinetic energy is fully converted to spring potential energy: $\\frac{1}{2}mv^2 = \\frac{1}{2}kx_{\\text{max}}^2$.  \n**Step 3:** Cancel $\\frac{1}{2}$: $mv^2 = kx_{\\text{max}}^2 \\Rightarrow x_{\\text{max}} = v\\sqrt{\\frac{m}{k}}$.  \n**Step 4:** Substitute: $x_{\\text{max}} = 4 \\times \\sqrt{\\frac{2}{500}} = 4 \\times \\sqrt{0.004} = 4 \\times 0.0632 = 0.253\\ \\text{m} = 25.3\\ \\text{cm}$.  \n**Step 5:** Verify units: $\\sqrt{\\text{kg}/(\\text{N/m})} = \\sqrt{\\text{kg}/(\\text{kg}\\cdot\\text{m/s}^2 \\cdot \\text{m}^{-1})} = \\sqrt{\\text{s}^2} = \\text{s}$, multiplied by m/s gives m — correct.  \nA wrong answer (e.g., $x = mv/k = 0.016\\ \\text{m}$) reveals using force balance $kx = mv$ instead of energy conservation, confusing static equilibrium with dynamic collision.",
+     "self_check": true
+    },
+    {
+     "q": "A vertical spring of constant $k = 100\\ \\text{N/m}$ hangs from a ceiling. A $0.5\\ \\text{kg}$ mass is attached gently and lowered to equilibrium. Then the mass is pulled down an additional $5\\ \\text{cm}$ and released. Compare the total mechanical energy of the system at the release point and at the equilibrium position. Explain any difference in gravitational potential energy.",
+     "a": "At release point (displacement $x = x_0 + 0.05\\ \\text{m}$ where $x_0 = mg/k = 0.05\\ \\text{m}$ is equilibrium stretch), total energy $E = \\frac{1}{2}k(x_0 + 0.05)^2 - mg(x_0 + 0.05)$ (taking equilibrium as zero for gravitational PE). At equilibrium position, $E = \\frac{1}{2}kx_0^2 - mgx_0 + \\frac{1}{2}mv_{\\text{max}}^2$. By conservation, these are equal. The gravitational PE decreases by $mg(0.05)$ while spring PE increases by $\\frac{1}{2}k[(x_0+0.05)^2 - x_0^2] = \\frac{1}{2}k(2x_0\\cdot0.05 + 0.05^2) = mg(0.05) + \\frac{1}{2}k(0.05)^2$. The extra $\\frac{1}{2}k(0.05)^2$ becomes kinetic energy at equilibrium. A wrong answer (claiming total energy differs) reveals not recognizing that gravity is conservative and the system's total mechanical energy (spring + gravitational + kinetic) is conserved when only conservative forces act.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves Example 5.9 (car-spring with friction) and writes: \"Work done by friction = $-\\mu mg x_{\\text{max}}$, so $\\frac{1}{2}mv^2 = \\frac{1}{2}kx_{\\text{max}}^2 - \\mu mg x_{\\text{max}}$.\" They then solve the quadratic and get two positive roots. They pick the larger root as \"maximum compression.\" Evaluate this reasoning.",
+     "a": "The reasoning is **incorrect** in picking the larger root. The quadratic $\\frac{1}{2}kx^2 - \\mu mg x - \\frac{1}{2}mv^2 = 0$ has two roots: one positive (physical compression) and one negative (unphysical extension). The larger positive root would correspond to a hypothetical second compression after the spring expands and the block returns — but friction dissipates energy continuously, so the block stops at the first compression. The correct root is the **smaller positive root** (or the only positive root if the other is negative). Picking the larger root reveals misunderstanding that the work-energy theorem gives the net work up to the **first** stopping point, not subsequent oscillations. The equation models energy balance at the instant the block first comes to rest.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a set of known masses, a metre scale, and a stopwatch to verify that the elastic potential energy stored in a spring is $\\frac{1}{2}kx^2$. Describe the procedure, measurements, and how you would analyse the data.",
+     "a": "**Procedure:** (1) Hang spring vertically, measure natural length $L_0$. (2) Add mass $m$, measure extension $x = L - L_0$. Repeat for 5-6 masses to get $k = mg/x$ (slope of $F$ vs $x$ graph). (3) For a fixed mass $m$, pull down additional distance $A$ and release. Measure maximum height $h$ above equilibrium reached by the mass using a scale behind the spring. (4) By energy conservation: initial spring PE (at $x = x_0 + A$) + gravitational PE = final gravitational PE at max height. $\\frac{1}{2}k(x_0+A)^2 - mg(x_0+A) = mgh$ (taking equilibrium as zero). Since $kx_0 = mg$, this simplifies to $\\frac{1}{2}kA^2 = mgh$. (5) Plot $h$ vs $A^2$; slope should be $\\frac{k}{2mg}$. A linear graph through origin verifies $U \\propto x^2$. A poor answer (e.g., just measuring static extensions) reveals confusion between verifying Hooke's law ($F \\propto x$) and verifying the energy formula ($U \\propto x^2$).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

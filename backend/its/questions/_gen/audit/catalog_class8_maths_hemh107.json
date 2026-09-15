@@ -1,0 +1,236 @@
+{
+ "catalog": "catalog_class8_maths_hemh107.json",
+ "concepts": [
+  {
+   "id": "hemh.107.7.1",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 10 / 100 * 600"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 2 / 5 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.12 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 203 - 151",
+      "pct = change / 151 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 175 - 118",
+      "pct = change / 175 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 75 / 150 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.107.7.2",
+   "family": "profit_loss",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "profit = 240 - 200"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "profit = 240 - 200",
+      "pct = profit / 200 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "loss = 200 - 160",
+      "pct = loss / 200 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sp = 400 * (1 + 10 / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "disc = 500 * 10 / 100",
+      "sp = 500 - disc"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "disc = 500 - 450",
+      "pct = disc / 500 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.107.7.3",
+   "family": "profit_loss",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "profit = 187 - 150"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "profit = 187 - 150",
+      "pct = profit / 150 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "loss = 150 - 113",
+      "pct = loss / 150 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sp = 250 * (1 + 10 / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "disc = 600 * 20 / 100",
+      "sp = 600 - disc"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "disc = 600 - 480",
+      "pct = disc / 600 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.107.7.4",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 8000 * 10 * 4 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 8000 * 10 * 4 / 100",
+      "amount = 8000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 3200 * 100 / (10 * 4)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 8000 * (1 + 10 / 100) ** 3",
+      "ci = amount - 8000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 8000 * (1 + 10 / 100) ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 8000 * (1 + 8 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.107.7.5",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 5000 * 8 * 4 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 5000 * 8 * 4 / 100",
+      "amount = 5000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 1600 * 100 / (8 * 4)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 5000 * (1 + 8 / 100) ** 2",
+      "ci = amount - 5000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 5000 * (1 + 8 / 100) ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 5000 * (1 + 10 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "si = 5000 * 8 * 4 / 100"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_002",
+   "title": "c12_eng_k_cbse_19_002",
+   "questions": [
+    {
+     "q": "What are the two main sections of Asimov's essay \"On Science Fiction\" and what is the primary function of each section in advancing his central argument?",
+     "a": "The two main sections are: (I) The Prescientific Universe — establishes myths/legends as emotional precursors to SF, showing they fulfill the same \"longing for wonder\" but through magic/gods; (II) The Universe of Science Fiction — argues SF is defined by *background* (society governed by natural laws) not *content*, and refutes Campbell's claim that SF mysteries cannot be fair. A wrong answer (e.g., \"Section I is about Greek myths, Section II is about Asimov's books\") reveals the student sees *topics* not *rhetorical functions* — they miss that Section I sets up a contrast to define SF by negation, and Section II operationalizes the definition through classification and refutation.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov writes: \"Science fiction is a literary universe of no mean size because science fiction is what it is, not through its content but through its background.\" Explain in your own words what \"background\" means here, and why this distinction matters for classifying a story as science fiction.",
+     "a": "\"Background\" means the *governing rules of the fictional world* — a society where natural laws (known or extrapolated) dictate what is possible, as opposed to magic, divine whim, or authorial fiat. The distinction matters because it allows *any* content (sports, western, mystery, literary novel) to become SF if placed against a scientifically coherent background. A wrong answer (\"background means setting like spaceships or planets\") shows the student confuses *setting* (physical location) with *background* (epistemological framework). This is the central misconception Asimov explicitly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the discourse marker in this sentence from Section II: \"Let me explain the difference that makes.\" Then explain its function in the paragraph and the essay's overall logical flow.",
+     "a": "The discourse marker is \"Let me explain the difference that makes.\" It functions as a *transition signal* announcing a shift from exemplification (sports/western/jungle stories) to definition (the content/background distinction). In the essay's flow, it marks the pivot from illustrating the problem (genre definitions by content) to presenting Asimov's solution (genre definition by background). A wrong answer (\"it's just a polite phrase\") misses that discourse markers are structural scaffolding — they tell the reader \"here comes the thesis\" and enable the logical architecture Asimov builds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the paragraphing strategy in Section I (myths/legends) with Section II (SF classification). How do single-sentence paragraphs function differently in each section?",
+     "a": "In Section I, single-sentence paragraphs (e.g., \"But what of that?\" / \"Never!\") serve as *rhetorical questions* and *emphatic rebuttals* — they create a conversational, almost oral storytelling rhythm suitable for discussing myths. In Section II, single-sentence paragraphs (e.g., \"And I agree with him.\" / \"Can it be done? You bet!\") function as *argumentative signposts* — they mark concession, agreement, or confident assertion in a logical proof. A wrong answer (\"they're just short paragraphs\") fails to see that paragraph length is a *structural choice* calibrated to each section's rhetorical mode: narrative vs. analytical.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov refutes John Campbell's claim that \"it was impossible to write a science fiction mystery.\" Evaluate the strength of Asimov's counterargument. Does he prove Campbell wrong, or merely assert the opposite?",
+     "a": "Asimov *proves* it conceptually by specifying the *conditions* for a fair SF mystery: (1) fixed boundary conditions of the imaginary society, (2) clear rules of what can/cannot be done, (3) reader access to all clues the investigator sees. He then cites his own novels (*The Caves of Steel*, *The Naked Sun*) as existence proofs. This is stronger than mere assertion — he provides a *methodology* and *instances*. A wrong answer (\"Asimov just says Campbell is wrong because he wrote mysteries\") misses the *warrant* — Asimov doesn't appeal to authority; he articulates the *rules of the game* that make fairness possible in any universe.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word micro-essay on \"Why Cricket in a Lunar Colony Is Still a Sports Story\" using Asimov's content/background distinction. Include at least two discourse markers from the text.",
+     "a": "A strong answer will: (1) state the thesis — cricket on the Moon is a sports story *and* SF, (2) define \"content\" (bat, ball, wickets, rules) vs. \"background\" (1/6th gravity, vacuum suits, enclosed dome), (3) use discourse markers like \"Let me explain the difference that makes\" or \"For that matter\" to structure the argument, (4) conclude that the background *enriches* but doesn't *change* the genre. A poor answer will describe lunar cricket without applying the conceptual framework, or use discourse markers decoratively without logical function. This reveals whether the student can *transfer* Asimov's analytical tool to a new case.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

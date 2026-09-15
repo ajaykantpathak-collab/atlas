@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_011",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_011",
+   "title": "c7_geo_ch04_011",
+   "questions": [
+    {
+     "q": "What is the primary goal of combining traditional and contemporary farming practices in sustainable agriculture?",
+     "a": "The correct answer is to maintain long-term soil health, conserve water, and ensure food security without depleting natural resources. A wrong answer—such as believing it is meant to maximize short-term crop yields using unlimited chemical fertilizers—reveals a fundamental misunderstanding of sustainability, confusing industrial farming speed with ecological longevity.",
+     "self_check": true
+    },
+    {
+     "q": "Why do contemporary farmers in drought-prone regions of the Deccan Plateau sometimes adopt traditional rainwater harvesting structures alongside modern drip irrigation?",
+     "a": "The correct answer is that traditional structures store surface runoff during intense monsoon downpours, recharging local groundwater tables, which modern drip systems then efficiently pump to plant roots with minimal evaporation loss. A wrong answer suggests that modern technology replaces the need for water storage, showing a failure to understand that modern irrigation relies on an underlying water source that traditional methods help preserve.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab notices declining soil fertility and rising groundwater salinity due to intensive chemical use and excessive tube-well pumping. If the farmer decides to integrate traditional crop rotation (e.g., legumes) with contemporary soil testing, calculate how this dual approach addresses both issues simultaneously.",
+     "a": "Steps:\n1. Identify problems: Chemical overuse depletes soil nutrients; excessive pumping lowers groundwater and causes salinity.\n2. Apply traditional method: Planting leguminous crops during rotation naturally fixes atmospheric nitrogen into the soil, reducing the need for chemical fertilizers.\n3. Apply contemporary method: Using soil testing kits allows the farmer to apply precise, minimal amounts of micronutrients only where needed.\n4. Conclude integrated result: Reduced chemical runoff protects soil and water quality, while optimized irrigation scheduling based on crop needs saves groundwater.\nA wrong answer—such as suggesting that adding more chemical pesticides will fix soil health—shows confusion between treating symptoms and restoring ecological balance.",
+     "self_check": true
+    },
+    {
+     "q": "How does the combination of traditional organic composting and contemporary precision agriculture alter the ecological footprint of a farm compared to purely modern chemical farming?",
+     "a": "The correct answer is that organic composting builds long-term soil organic matter and microbial diversity, while precision agriculture ensures targeted application of inputs, collectively reducing chemical runoff into local rivers and lowering greenhouse gas emissions. A wrong answer indicates that traditional and modern methods cancel each other out, ignoring how modern tools optimize the delivery of traditional ecological inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Traditional farming methods are outdated and should be completely replaced by modern technology to achieve maximum agricultural sustainability.\" Is this statement geographically sound for India?",
+     "a": "The statement is not sound. While modern technology offers efficiency and precision, traditional methods contain centuries of localized adaptation to specific regional climates, micro-watersheds, and native seed varieties that synthetic inputs cannot replicate. A wrong answer assumes that technology alone can override natural geographical and climatic constraints without ecological consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable farming plan for a small farm in the Indo-Gangetic Plain that incorporates at least two traditional practices and two contemporary techniques to combat soil erosion and water scarcity.",
+     "a": "The plan should feature: (1) Traditional multi-cropping or crop rotation to protect soil cover; (2) Traditional organic mulching or manure to retain soil moisture; (3) Contemporary drip or sprinkler irrigation for efficient water use; (4) Contemporary soil moisture sensors or weather forecasting tools to time irrigation accurately. A poor answer lists random farming terms without explaining how they interact to solve soil and water challenges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

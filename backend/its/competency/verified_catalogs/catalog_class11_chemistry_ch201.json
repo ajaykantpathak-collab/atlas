@@ -1,0 +1,608 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 201,
+ "chapter_title": "Redox Reactions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech201.txt",
+ "concepts": [
+  {
+   "id": "kech.201.1",
+   "title": "Classical Concept of Oxidation and Reduction",
+   "section": "7.1",
+   "definition": "A traditional view where oxidation involves gaining oxygen or losing hydrogen, while reduction involves losing oxygen or gaining hydrogen.",
+   "formula": "Oxidation = +Oxygen / -Hydrogen; Reduction = -Oxygen / +Hydrogen",
+   "key_idea": "Redox processes are defined by the transfer of electronegative or electropositive elements.",
+   "textbook_ref": "kech201.txt lines 40-85",
+   "question_patterns": [
+    "identify the species oxidized based on oxygen addition",
+    "which substance is reduced by hydrogen addition",
+    "define oxidation in terms of electronegative elements",
+    "classify the reaction based on classical redox definitions",
+    "why is classical concept of oxidation and reduction important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the change in oxygen or hydrogen content for each reactant.",
+     "explain": "Check if a reactant gains oxygen (oxidation) or loses it (reduction)."
+    },
+    {
+     "step": 2,
+     "action": "Identify the change in electronegative/electropositive elements.",
+     "explain": "Addition of an electronegative element like Chlorine is also considered oxidation."
+    },
+    {
+     "step": 3,
+     "action": "Classify each reactant as oxidized or reduced and identify the oxidizing and reducing agents.",
+     "explain": "The species that gains oxygen or loses hydrogen is oxidized (reducing agent); the one that loses oxygen or gains hydrogen is reduced (oxidizing agent)."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.2",
+   "title": "Electronic Theory of Redox Reactions",
+   "section": "7.2",
+   "definition": "A modern approach defining oxidation as the loss of both electrons and reduction as the gain of electrons by a chemical species.",
+   "formula": "Oxidation: M -> M^n+ + ne-; Reduction: X + ne- -> X^n-",
+   "key_idea": "Redox is indeed essentially an electron move process between a donor and an acceptor.",
+   "textbook_ref": "kech201.txt lines 110-145",
+   "question_patterns": [
+    "identify the species losing electrons",
+    "which atom is the electron acceptor",
+    "define reducing agent in terms of electron transfer",
+    "write the half-reaction for electron loss",
+    "give one everyday example of electronic theory of redox reactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the reaction into two half-reactions.",
+     "explain": "Isolate the species that changes its charge state."
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of electron flow.",
+     "explain": "Species increasing in positive charge lose electrons (oxidation); species decreasing in positive charge gain electrons (reduction)."
+    },
+    {
+     "step": 3,
+     "action": "Label the oxidizing agent and reducing agent based on electron transfer.",
+     "explain": "The species that loses electrons is the reducing agent; the species that gains electrons is the oxidizing agent."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.3",
+   "title": "Oxidation Number Rules",
+   "section": "7.3",
+   "definition": "A set of formal rules to assign a charge-like value to atoms in a molecule, assuming complete electron transfer to the more electronegative atom.",
+   "formula": "sum(oxidation_numbers) = net_molecular_charge",
+   "key_idea": "Oxidation number tracks the distribution of electrons for book-keeping in chemical reactions.",
+   "textbook_ref": "kech201.txt lines 190-235",
+   "question_patterns": [
+    "what is the oxidation number of oxygen in peroxides",
+    "state the rule for oxidation number of fluorine",
+    "calculate the oxidation state of a central metal atom",
+    "what is the oxidation number of an element in its free state",
+    "why is oxidation number rules important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply fixed rules for known elements.",
+     "explain": "Group 1 is +1, Group 2 is +2, Fluorine is -1, Oxygen is usually -2, Hydrogen is usually +1."
+    },
+    {
+     "step": 2,
+     "action": "Set up an algebraic equation.",
+     "explain": "The sum of all oxidation numbers must equal the charge of the ion or molecule."
+    },
+    {
+     "step": 3,
+     "action": "Solve the equation and verify the result against known chemical behavior.",
+     "explain": "Check that the calculated oxidation number is consistent with the element's typical range of oxidation states."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.4",
+   "title": "Calculation of Oxidation Number",
+   "section": "7.3",
+   "definition": "The mathematical determination of an atom's oxidation state using the sum of known states of other atoms in the species.",
+   "formula": "target_val = (total_charge - (known_val_a * count_a + known_val_b * count_b)) / target_count",
+   "key_idea": "Solving for an unknown oxidation state using the principle of electroneutrality.",
+   "textbook_ref": "kech201.txt lines 236-260",
+   "question_patterns": [
+    "calculate the oxidation number of S in H2SO4",
+    "find the oxidation state of Cr in K2Cr2O7",
+    "determine the oxidation number of Mn in MnO4-",
+    "what is the oxidation state of P in NaH2PO4",
+    "calculate calculation of oxidation number for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the contributions of known atoms.",
+     "explain": "Multiply the standard oxidation number of known elements by their subscripts.",
+     "compute": "val_a * count_a + val_b * count_b"
+    },
+    {
+     "step": 2,
+     "action": "Solve for the unknown atom's oxidation state.",
+     "explain": "Subtract the known sum from the total charge and divide by the number of target atoms.",
+     "compute": "(charge - known_sum) / count_target"
+    },
+    {
+     "step": 3,
+     "action": "Verify the calculated oxidation number is chemically reasonable.",
+     "explain": "Check that the result falls within the known range of oxidation states for the element and that the overall charge balances to zero.",
+     "compute": "known_sum + target_val * count_target"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving calculation of oxidation number.",
+     "solution": "Step 1: Sum the contributions of known atoms.. Step 2: Solve for the unknown atom's oxidation state.. Step 3: Verify the calculated oxidation number is chemically reasonable.. Working: val_a * count_a + val_b * count_b, (charge - known_sum) / count_target, known_sum + target_val * count_target.",
+     "answer": "Calculation of Oxidation Number applied step by step gives the required result."
+    },
+    {
+     "question": "Apply calculation of oxidation number to a fresh example and interpret the result.",
+     "solution": "Step 1: Sum the contributions of known atoms.. Step 2: Solve for the unknown atom's oxidation state.. Step 3: Verify the calculated oxidation number is chemically reasonable.. Working: val_a * count_a + val_b * count_b, (charge - known_sum) / count_target, known_sum + target_val * count_target.",
+     "answer": "The method of calculation of oxidation number leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.5",
+   "title": "Stock Notation",
+   "section": "7.3",
+   "definition": "A system of nomenclature where the oxidation state of a metal is indicated by a Roman numeral in parentheses following the metal's name or symbol.",
+   "formula": "Metal(Roman_Numeral)Symbol",
+   "key_idea": "Standardizing the representation of metals with variable oxidation states.",
+   "textbook_ref": "kech201.txt lines 265-285",
+   "question_patterns": [
+    "represent FeO using Stock notation",
+    "write the formula for Manganese(IV) oxide",
+    "convert HAuCl4 to Stock notation",
+    "identify the oxidation state of Cu in Cu(I)I",
+    "justify why stock notation matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the oxidation number of the metal in the compound.",
+     "explain": "Use the standard rules to find the metal's charge."
+    },
+    {
+     "step": 2,
+     "action": "Insert the Roman numeral after the metal symbol.",
+     "explain": "For example, Fe with +2 becomes Fe(II)."
+    },
+    {
+     "step": 3,
+     "action": "Write the complete Stock notation name for the compound.",
+     "explain": "Combine the metal name with its Roman numeral oxidation state and the anion name, e.g., FeO becomes iron(II) oxide."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.6",
+   "title": "Combination and Decomposition Redox Reactions",
+   "section": "7.3.1",
+   "definition": "Combination involves two elements forming a compound; decomposition involves a compound breaking into elements, where oxidation states change.",
+   "formula": "A + B -> C (Combination); C -> A + B (Decomposition)",
+   "key_idea": "At least one reactant or product must be in its elemental form (zero oxidation state) for these to be redox.",
+   "textbook_ref": "kech201.txt lines 300-330",
+   "question_patterns": [
+    "is the decomposition of CaCO3 a redox reaction",
+    "classify the reaction C + O2 -> CO2",
+    "explain why 2H2O -> 2H2 + O2 is a redox decomposition",
+    "identify the type of redox reaction for 3Mg + N2 -> Mg3N2",
+    "justify why combination and decomposition redox reactions matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for elements in zero oxidation state.",
+     "explain": "If an element in its natural state is a reactant or product, oxidation states must have changed."
+    },
+    {
+     "step": 2,
+     "action": "Compare reactant and product oxidation numbers.",
+     "explain": "If they change, it is a redox reaction."
+    },
+    {
+     "step": 3,
+     "action": "Classify the reaction as combination or decomposition and confirm the redox nature.",
+     "explain": "If oxidation states change during combination or decomposition, the reaction is a redox process; otherwise it is non-redox."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.7",
+   "title": "Displacement Reactions",
+   "section": "7.3.1",
+   "definition": "Reactions where an atom or ion in a compound is indeed replaced by an atom or ion of another element.",
+   "formula": "X + YZ -> XZ + Y",
+   "key_idea": "Metal displacement depends on the relative reducing power, while non-metal displacement often involves halogens or hydrogen.",
+   "textbook_ref": "kech201.txt lines 335-385",
+   "question_patterns": [
+    "predict if Zn can displace Cu from CuSO4",
+    "identify the reducing agent in TiCl4 + 2Mg -> Ti + 2MgCl2",
+    "which halogen can displace Bromine from KBr",
+    "describe the non-metal displacement of hydrogen from acids",
+    "explain displacement reactions in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the displacing element and the displaced element.",
+     "explain": "The free element (X) must be more reactive than the element in the compound (Y)."
+    },
+    {
+     "step": 2,
+     "action": "Check the activity series.",
+     "explain": "A more active metal/non-metal will displace a less active one."
+    },
+    {
+     "step": 3,
+     "action": "Write the balanced displacement reaction and identify the oxidizing and reducing agents.",
+     "explain": "The displacing element is oxidized (reducing agent) and the displaced element is reduced (oxidizing agent)."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.8",
+   "title": "Disproportionation Reactions",
+   "section": "7.3.1",
+   "definition": "A specific redox reaction where a single element in one oxidation state is simultaneously oxidized and reduced to two different states.",
+   "formula": "2A (intermediate state) -> A (higher state) + A (lower state)",
+   "key_idea": "The reacting element must have at least three possible oxidation states.",
+   "textbook_ref": "kech201.txt lines 400-435",
+   "question_patterns": [
+    "explain the disproportionation of H2O2",
+    "why does ClO4- not undergo disproportionation",
+    "identify the products of Phosphorus in alkaline medium",
+    "show the redox changes in the reaction of Cl2 with OH-",
+    "what do you understand by disproportionation reactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the oxidation state of the element in the reactant.",
+     "explain": "It must be in an intermediate state."
+    },
+    {
+     "step": 2,
+     "action": "Compare with oxidation states in the products.",
+     "explain": "One product must show an increase and the other a decrease in oxidation number for the same element."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the element has at least three possible oxidation states and write the balanced equation.",
+     "explain": "Disproportionation requires the element to exist in an intermediate state that can both increase and decrease; balance atoms and charge to complete the reaction."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.9",
+   "title": "Balancing by Oxidation Number Method",
+   "section": "7.3.2",
+   "definition": "A method of balancing redox equations by ensuring the total increase in oxidation number equals the total decrease.",
+   "formula": "total_increase = total_decrease",
+   "key_idea": "The net change in oxidation state across the whole reaction must be zero.",
+   "textbook_ref": "kech201.txt lines 475-520",
+   "question_patterns": [
+    "balance the reaction of Cr2O7 2- with SO3 2- in acidic medium",
+    "steps to balance a redox reaction using oxidation numbers",
+    "how to balance oxygen atoms in acidic redox reactions",
+    "calculate the coefficient of H+ in a balanced redox equation",
+    "short note on balancing by oxidation number method"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assign oxidation numbers and identify changes.",
+     "explain": "Determine which atoms are oxidized and which are reduced."
+    },
+    {
+     "step": 2,
+     "action": "Equalize the total change in oxidation numbers.",
+     "explain": "Multiply species by coefficients so that increase equals decrease."
+    },
+    {
+     "step": 3,
+     "action": "Balance ionic charges.",
+     "explain": "Add H+ (acidic) or OH- (basic) to balance the net charge on both sides."
+    },
+    {
+     "step": 4,
+     "action": "Balance Hydrogen and Oxygen.",
+     "explain": "Add H2O molecules to the side deficient in Hydrogen."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.10",
+   "title": "Half-Reaction Method (Ion-Electron Method)",
+   "section": "7.3.2",
+   "definition": "Balancing a redox reaction by splitting it into separate both oxidation and reduction halves, balancing them individually, and then combining them.",
+   "formula": "Ox_Half + Red_Half = Balanced_Net_Equation",
+   "key_idea": "Electrons lost in the oxidation half must exactly equal electrons gained in the reduction half.",
+   "textbook_ref": "kech201.txt lines 530-580",
+   "question_patterns": [
+    "balance MnO4- + I- -> MnO2 + I2 in basic medium",
+    "write the reduction half-reaction for dichromate ion",
+    "how to balance OH- ions in the ion-electron method",
+    "combine half-reactions to get the net ionic equation",
+    "justify why half-reaction method (ion-electron method) matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write separate half-reactions for oxidation and reduction.",
+     "explain": "Identify the species changing oxidation state and separate them."
+    },
+    {
+     "step": 2,
+     "action": "Balance atoms other than O and H.",
+     "explain": "Ensure the main elements are equal on both sides of each half."
+    },
+    {
+     "step": 3,
+     "action": "Balance O with H2O and H with H+.",
+     "explain": "For basic medium, add OH- to neutralize H+."
+    },
+    {
+     "step": 4,
+     "action": "Balance charges with electrons and equalize.",
+     "explain": "Multiply half-reactions by factors to make electron counts equal, then add."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.11",
+   "title": "Standard Electrode Potential and Cell Potential",
+   "section": "7.4",
+   "definition": "The potential difference between two electrodes in a galvanic cell under standard conditions (1M, 298K, 1 atm).",
+   "formula": "E0_cell = E0_cathode - E0_anode",
+   "key_idea": "A positive cell potential indicates a spontaneous redox reaction.",
+   "textbook_ref": "kech201.txt lines 650-700",
+   "question_patterns": [
+    "calculate the standard EMF of a Daniell cell",
+    "predict the feasibility of reaction between Fe3+ and I-",
+    "identify the cathode and anode given E0 values",
+    "arrange metals in increasing order of reducing power",
+    "what is the result in this standard electrode potential and cell potential problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cathode and anode.",
+     "explain": "The electrode with the higher reduction potential is the cathode; the lower is the anode.",
+     "compute": "cathode_pot - anode_pot"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the net cell potential.",
+     "explain": "Subtract the standard reduction potential of the anode from that of the cathode.",
+     "compute": "cathode_pot - anode_pot"
+    },
+    {
+     "step": 3,
+     "action": "Determine the feasibility of the redox reaction from the sign of the cell potential.",
+     "explain": "A positive cell potential indicates a spontaneous reaction; a negative value means the reaction is non-spontaneous under standard conditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving standard electrode potential and cell potential.",
+     "solution": "Step 1: Identify the cathode and anode.. Step 2: Calculate the net cell potential.. Step 3: Determine the feasibility of the redox reaction from the sign of the cell potential.. Working: cathode_pot - anode_pot, cathode_pot - anode_pot.",
+     "answer": "Standard Electrode Potential and Cell Potential applied step by step gives the required result."
+    },
+    {
+     "question": "Apply standard electrode potential and cell potential to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify the cathode and anode.. Step 2: Calculate the net cell potential.. Step 3: Determine the feasibility of the redox reaction from the sign of the cell potential.. Working: cathode_pot - anode_pot, cathode_pot - anode_pot.",
+     "answer": "The method of standard electrode potential and cell potential leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex7.3",
+   "source_ref": "kech201.txt lines 275-285",
+   "concept": "kech.201.5",
+   "question_type": "representation",
+   "question_pattern": "Using Stock notation, represent the following compounds: {compounds}",
+   "extracted_variables": {
+    "compounds": "list of chemical formulas like FeO, MnO2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate oxidation state of the metal.",
+     "explain": "For MnO2, O is -2, so Mn + 2(-2) = 0 => Mn = +4."
+    },
+    {
+     "step": 2,
+     "action": "Write symbol followed by Roman numeral.",
+     "explain": "MnO2 becomes Mn(IV)O2."
+    }
+   ]
+  },
+  {
+   "id": "ex7.9",
+   "source_ref": "kech201.txt lines 510-525",
+   "concept": "kech.201.9",
+   "question_type": "balancing",
+   "question_pattern": "Balance the ionic equation: {equation} in {medium} medium",
+   "extracted_variables": {
+    "equation": "MnO4- + Br- -> MnO2 + BrO3-",
+    "medium": "basic"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assign O.N. and find change.",
+     "explain": "Mn goes from +7 to +4 (diff 3). Br goes from -1 to +5 (diff 6)."
+    },
+    {
+     "step": 2,
+     "action": "Equalize changes.",
+     "explain": "Multiply Mn species by 2 to match Br change of 6."
+    },
+    {
+     "step": 3,
+     "action": "Balance charge and atoms.",
+     "explain": "Add OH- and H2O to balance charge and H/O atoms."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kech201.txt lines 236-260",
+   "concept": "kech.201.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute calculation of oxidation number step by step",
+   "extracted_variables": {
+    "val_a": "value of val_a",
+    "count_a": "value of count_a",
+    "val_b": "value of val_b",
+    "count_b": "value of count_b",
+    "charge": "value of charge",
+    "count_target": "value of count_target"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the contributions of known atoms.",
+     "explain": "Multiply the standard oxidation number of known elements by their subscripts.",
+     "compute": "known_sum = val_a * count_a + val_b * count_b"
+    },
+    {
+     "step": 2,
+     "action": "Solve for the unknown atom's oxidation state.",
+     "explain": "Subtract the known sum from the total charge and divide by the number of target atoms.",
+     "compute": "target_val = (charge - known_sum) / count_target"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kech201.txt lines 650-700",
+   "concept": "kech.201.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute standard electrode potential and cell potential step by step",
+   "extracted_variables": {
+    "cathode_pot": "value of cathode_pot",
+    "anode_pot": "value of anode_pot"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the cathode and anode.",
+     "explain": "The electrode with the higher reduction potential is the cathode; the lower is the anode.",
+     "compute": "is_feasible = cathode_pot - anode_pot"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the net cell potential.",
+     "explain": "Subtract the standard reduction potential of the anode from that of the cathode.",
+     "compute": "cell_potential = cathode_pot - anode_pot"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kech201.txt lines 236-260",
+   "concept": "kech.201.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute calculation of oxidation number step by step",
+   "extracted_variables": {
+    "val_a": "value of val_a",
+    "count_a": "value of count_a",
+    "val_b": "value of val_b",
+    "count_b": "value of count_b",
+    "charge": "value of charge",
+    "count_target": "value of count_target"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the contributions of known atoms.",
+     "explain": "Multiply the standard oxidation number of known elements by their subscripts.",
+     "compute": "known_sum = val_a * count_a + val_b * count_b"
+    },
+    {
+     "step": 2,
+     "action": "Solve for the unknown atom's oxidation state.",
+     "explain": "Subtract the known sum from the total charge and divide by the number of target atoms.",
+     "compute": "target_val = (charge - known_sum) / count_target"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "kech201.txt lines 650-700",
+   "concept": "kech.201.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute standard electrode potential and cell potential step by step",
+   "extracted_variables": {
+    "cathode_pot": "value of cathode_pot",
+    "anode_pot": "value of anode_pot"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the cathode and anode.",
+     "explain": "The electrode with the higher reduction potential is the cathode; the lower is the anode.",
+     "compute": "is_feasible = cathode_pot - anode_pot"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the net cell potential.",
+     "explain": "Subtract the standard reduction potential of the anode from that of the cathode.",
+     "compute": "cell_potential = cathode_pot - anode_pot"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "7.1",
+   "source_ref": "kech201.txt lines 720-725",
+   "questions": [
+    "Assign oxidation number to the underlined elements: NaH2PO4, NaHSO4, H4P2O7, K2MnO4, CaO2, NaBH4, H2S2O7, KAl(SO4)2.12H2O"
+   ]
+  },
+  {
+   "id": "7.18",
+   "source_ref": "kech201.txt lines 785-795",
+   "questions": [
+    "Balance the following redox reactions by ion-electron method: (a) MnO4- + I- -> MnO2 + I2 (basic), (b) MnO4- + SO2 -> Mn2+ + HSO4- (acidic)"
+   ]
+  },
+  {
+   "id": "7.26",
+   "source_ref": "kech201.txt lines 835-845",
+   "questions": [
+    "Predict if the reaction between Fe3+(aq) and I-(aq) is feasible using standard electrode potentials."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

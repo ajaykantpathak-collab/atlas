@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_15_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_15_012",
+   "title": "c11_eng_w_cbse_15_012",
+   "questions": [
+    {
+     "q": "What is the difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"Where does the hawk sit?\"). An inferential question asks you to draw a conclusion not directly stated, using evidence (e.g., \"Why does the hawk feel invincible?\"). A wrong answer that says both are the same reveals the student cannot distinguish explicit vs implicit meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the hawk says \"My manners are tearing off heads.\" Is this a literal description of the hawk's behaviour or a metaphor? Explain your reasoning.",
+     "a": "It is a literal description of the hawk's predatory behaviour (it kills by tearing off heads) but also functions as a metaphor for brutal frankness. A wrong answer that says it's only a metaphor misses the literal truth of the hawk's action; a wrong answer that says it's only literal misses the poetic implication of \"manners\".",
+     "self_check": true
+    },
+    {
+     "q": "Using the line \"The sun is behind me,\" answer the following inferential question: What does this suggest about the hawk's perspective on its own power?",
+     "a": "The line literally means the sun is at the hawk's back when it flies. Inferentially, it suggests the hawk sees itself as the center of its world, with even the sun serving its purposes, reinforcing its god-like arrogance. A wrong answer that only gives the literal meaning fails to infer the symbolic significance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hawk's claim \"I kill where I please because it is all mine\" with the line \"No arguments assert my right.\" What does this contrast reveal about the hawk's worldview?",
+     "a": "The hawk believes its right to kill is self-evident and requires no justification; it equates possession (\"it is all mine\") with moral authority. The contrast reveals a worldview where power legitimizes itself. A wrong answer that treats them as separate statements misses the logical connection between ownership and entitlement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The poem 'Hawk Roosting' is only about a bird's instincts, not human behaviour.\" Use evidence from the poem to support your judgment.",
+     "a": "The statement is false. While the poem is a monologue by a hawk, phrases like \"sophistry,\" \"manners,\" \"allotment of death,\" and the parallel to human adjectives (\"hawkish,\" \"eagle-eyed\") in the textbook's \"Try This Out\" section explicitly invite a human parallel. A wrong answer that agrees ignores the poet's intentional anthropomorphism and the textbook's guidance.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-line inferential question about the poem's ending (\"I am going to keep things like this\") and provide a model answer.",
+     "a": "Question: \"What does the hawk's resolve to 'keep things like this' imply about its attitude towards change and time?\" Model answer: The hawk rejects change and asserts eternal dominance, implying a desire to freeze its moment of absolute power, reflecting a tyrannical mindset that denies natural cycles. A poor answer would only paraphrase the line without inferring the attitude towards time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

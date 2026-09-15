@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_001",
+   "title": "c10_math_cbse_06_001",
+   "questions": [
+    {
+     "q": "State the precise mathematical condition that distinguishes congruent figures from similar figures. Use the terms \"corresponding angles\" and \"corresponding sides\" in your answer.",
+     "a": "**Correct answer:** In congruent figures, corresponding angles are equal AND corresponding sides are equal in length. In similar figures, corresponding angles are equal AND corresponding sides are proportional (ratio is constant, called the scale factor), but the sides need not be equal in length.  \n**What a wrong answer reveals:** If a student says \"congruent means same shape, similar means same shape but different size,\" they are using informal language and miss the critical role of side proportionality vs equality. If they forget to mention angles, they don't understand that shape is defined by angles. Board exams require precise terminology: \"corresponding angles are equal\" and \"corresponding sides are proportional/equal.\"",
+     "self_check": true
+    },
+    {
+     "q": "Two squares have side lengths 5 cm and 10 cm. A student claims: \"These squares are congruent because all squares have 90° angles, so their corresponding angles are equal.\" Is the student correct? Explain why or why not using the definitions of congruence and similarity.",
+     "a": "**Correct answer:** The student is incorrect. While it is true that all squares have equal corresponding angles (all 90°), congruence also requires corresponding sides to be equal in length. Here, sides are 5 cm and 10 cm — not equal. However, the squares ARE similar because corresponding angles are equal (90° each) and corresponding sides are in proportion (5/10 = 1/2).  \n**What a wrong answer reveals:** If the student agrees with the claim, they confuse \"same shape\" (angles only) with congruence (angles AND side lengths). This is a classic Class 10 error — thinking AAA guarantees congruence, when AAA only guarantees similarity (as learned in c7_math_ch09_010). Board exams often test this exact trap: \"All equilateral triangles are congruent\" — false, they are similar.",
+     "self_check": true
+    },
+    {
+     "q": "Rectangle A has length 12 cm and breadth 8 cm. Rectangle B has length 18 cm and breadth 12 cm. Determine whether the rectangles are congruent, similar, or neither. Show all steps: check angles, compute side ratios, and state your conclusion with the scale factor if similar.",
+     "a": "**Correct answer with steps:**  \nStep 1: Check corresponding angles. All rectangles have four 90° angles → corresponding angles are equal. ✓  \nStep 2: Check corresponding sides. Length ratio = 12/18 = 2/3. Breadth ratio = 8/12 = 2/3.  \nStep 3: Ratios are equal (2/3) → corresponding sides are proportional.  \nStep 4: Since angles are equal AND sides are proportional, rectangles are SIMILAR.  \nStep 5: Scale factor = 2/3 (or 3/2 depending on order). They are NOT congruent because side lengths are not equal (12 ≠ 18, 8 ≠ 12).  \n**What a wrong answer reveals:** If a student only checks angles and declares them similar, they miss the proportionality requirement. If they compute 12/18 = 2/3 but 8/12 = 2/3 and still say \"neither,\" they may not recognize equal ratios. A common board exam error: computing 12/8 = 1.5 and 18/12 = 1.5 (comparing length-to-breadth within each rectangle) instead of comparing corresponding sides across rectangles.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"If two triangles are similar, then their corresponding medians are in the same ratio as their corresponding sides.\" Is this always true, sometimes true, or never true? Justify your answer using the definition of similarity.",
+     "a": "**Correct answer:** Always true. In similar triangles, ALL corresponding linear dimensions (sides, altitudes, medians, angle bisectors, perimeters) are in the same ratio as the scale factor. This follows from the definition: if ΔABC ~ ΔDEF with scale factor k, then every length in ΔABC is k times the corresponding length in ΔDEF. Medians are line segments within the triangle, so they scale by the same factor.  \n**What a wrong answer reveals:** If a student says \"sometimes true\" or \"never true,\" they don't grasp that similarity is a uniform scaling transformation — every length scales by the same factor. They may think only sides are proportional, not internal segments. This concept is crucial for later nodes (c10_math_cbse_06_008 on area ratios) and appears in CBSE competency questions asking to prove median ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 10 student writes the following solution to a board exam question:  \n*Question:* \"Prove that two circles with radii 3 cm and 5 cm are similar.\"  \n*Student's solution:* \"Both circles have the same shape (round). Therefore they are similar.\"  \nEvaluate this solution. Would it receive full marks in the CBSE board exam? If not, what is missing?",
+     "a": "**Correct answer:** The solution would NOT receive full marks. While the conclusion is correct (all circles are similar), the reasoning is insufficient for board exams. CBSE requires: (1) State that corresponding angles are equal — for circles, the \"angle\" concept applies to central angles subtended by arcs, which are equal for corresponding arcs. (2) State that corresponding sides (radii) are proportional: 3/5 = 3/5. (3) Conclude similarity. The student only mentioned \"same shape\" informally. Board exams demand explicit verification of both conditions: equal corresponding angles AND proportional corresponding sides/lengths.  \n**What a wrong answer reveals:** If the evaluator thinks this is sufficient, they don't understand CBSE marking scheme expectations. Students must learn to write: \"In two circles, any central angle in one equals the corresponding central angle in the other. The radii are in ratio 3:5. Hence, circles are similar.\" This precision is what distinguishes 1-mark from 2-mark answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a student must distinguish between similarity and congruence to solve it. The problem should involve a scale drawing or map, and require the student to explain why the actual object and its drawing are similar but not congruent. Provide the problem statement and the expected solution structure.",
+     "a": "**Expected problem:** \"An architect draws a floor plan of a rectangular room measuring 6 m × 4 m on a sheet of paper using a scale of 1 cm = 1 m. The drawing shows a rectangle of 6 cm × 4 cm. Are the actual room and the drawing congruent or similar? Justify your answer. If the architect changes the scale to 1 cm = 50 cm, what are the new drawing dimensions? Are the two drawings (1 cm = 1 m and 1 cm = 50 cm) congruent to each other?\"  \n**Expected solution structure:**  \n1. Actual room: 600 cm × 400 cm. Drawing 1: 6 cm × 4 cm. Angles all 90°. Side ratios: 600/6 = 100, 400/4 = 100 → proportional, scale factor 100. Similar, NOT congruent (sizes differ).  \n2. Drawing 2 scale 1 cm = 50 cm → dimensions: 600/50 = 12 cm, 400/50 = 8 cm → 12 cm × 8 cm.  \n3. Drawing 1 (6×4) vs Drawing 2 (12×8): angles equal, side ratios 6/12 = 4/8 = 1/2 → similar, NOT congruent.  \n**What a poor answer reveals:** If a student says the room and drawing are congruent because \"both are rectangles,\" they fundamentally misunderstand congruence. If they cannot compute the new dimensions, they lack ratio/proportion skills from c6_math_ch06_062. If they think the two drawings are congruent because \"both represent the same room,\" they confuse the object with its representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

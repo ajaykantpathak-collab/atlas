@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_008",
+   "title": "c12_hs_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 RDA for energy (kcal/day) and protein (g/day) for a sedentary adult man and a sedentary adult woman (18–60 years). How does the protein RDA differ per kg body weight between genders?",
+     "a": "Sedentary adult man: 2110 kcal, 54 g protein (0.83 g/kg for 65 kg reference weight). Sedentary adult woman: 1660 kcal, 46 g protein (0.83 g/kg for 55 kg reference weight). Protein RDA per kg body weight is identical (0.83 g/kg) — the absolute difference arises from reference body weights. A wrong answer stating different g/kg values reveals confusion between absolute RDA and weight-normalised requirement; students often memorise absolute numbers without understanding the per-kg basis.",
+     "self_check": true
+    },
+    {
+     "q": "A 30-year-old woman shifts from a sedentary desk job to a moderate-activity job (standing, walking 4–5 hours daily). Her energy RDA increases by ~350 kcal. Explain why her *iron* RDA does NOT increase proportionally, while her *thiamine* RDA does.",
+     "a": "Iron RDA for adult women (18–50 y) is fixed at 19 mg/day (to cover menstrual losses) regardless of activity; it is not energy-linked. Thiamine RDA is set at 0.5 mg/1000 kcal — so when energy allowance rises, thiamine rises proportionally. A wrong answer claiming iron increases with activity shows misunderstanding of nutrient classification: iron is a \"fixed physiological need\" nutrient, thiamine is an \"energy-linked\" nutrient. This distinction is critical for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A 40-year-old male marketing executive travels 4 days/week, eats restaurant meals high in sodium and saturated fat, sleeps 6 hours, and drinks 3–4 alcoholic drinks on travel days. His lipid profile shows LDL 160 mg/dL, HDL 35 mg/dL, triglycerides 220 mg/dL. Using ICMR RDA as baseline, specify *three* quantitative dietary modifications (with target values) you would prescribe, justifying each with the lifestyle factor it addresses.",
+     "a": "(1) Sodium ≤ 2000 mg/day (vs. RDA 2000 mg) — addresses restaurant meals; further restriction to 1500 mg if hypertensive. (2) Saturated fat < 7% of total energy (vs. RDA < 10%) — addresses alcohol + high-fat meals raising LDL. (3) Omega-3 (EPA+DHA) 250–500 mg/day — counters triglyceride elevation from alcohol and refined carbs. A wrong answer giving only qualitative advice (\"eat less salt\") fails the board's competency requirement for *quantitative* prescription with ICMR-referenced targets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *magnitude* of increase in energy RDA from sedentary to heavy activity for adult men vs. women. Then analyse why the *percentage* increase is similar (~55%) despite different absolute increments.",
+     "a": "Men: 2110 → 3470 kcal (+1360 kcal, +64%). Women: 1660 → 2720 kcal (+1060 kcal, +64%). The percentage is similar because ICMR scales energy RDA by *reference body weight* and *PAL (Physical Activity Level)* multipliers, which are gender-neutral. Absolute increments differ due to higher male reference weight (65 vs 55 kg). A wrong answer stating \"men need more because they are bigger\" without referencing the PAL-based calculation method misses the mechanistic link tested in JEE-style analytical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this meal plan for a sedentary adult woman (1660 kcal RDA): Breakfast — 2 aloo parathas with butter (450 kcal), Lunch — white rice 200g, rajma 100g, curd 100g (550 kcal), Evening — samosa + chai with sugar (350 kcal), Dinner — 3 rotis, paneer butter masala 150g, salad (600 kcal). Total ~1950 kcal. Identify *three* specific nutrient gaps relative to RDA that *persist even if calories are reduced to 1660 kcal by portion control*.",
+     "a": "(1) Dietary fibre ~15 g (RDA 25 g) — refined flour parathas, white rice, no whole grains/vegetables. (2) Calcium ~400 mg (RDA 1000 mg) — only curd and paneer provide dairy; volume insufficient. (3) Vitamin C ~20 mg (RDA 55 mg) — no citrus, amla, guava, capsicum; cooking destroys vitamin C in rajma. A wrong answer focusing only on \"excess calories\" misses that *micronutrient density* is independent of energy adjustment — a key board exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day menu for a 28-year-old female night-shift nurse (moderate activity, 2110 kcal RDA) who sleeps 7 am–2 pm, works 8 pm–8 am. The menu must: (a) distribute protein evenly across 4 eating occasions (≥20 g each), (b) include ≥400 mg calcium in the pre-shift meal, (c) limit caffeine to ≤200 mg post-midnight, (d) provide ≥500 mg potassium in the post-shift recovery meal. Specify foods with weights.",
+     "a": "Pre-shift (6:30 pm): 150g curd + 50g roasted chana + 100g banana + 2 ragi rotis (protein 22g, Ca 420mg, K 800mg). During shift (10 pm): 100g paneer bhurji + 2 multigrain rotis + 100g apple (protein 24g, Ca 300mg). Post-midnight (2 am): 1 cup green tea (30mg caffeine) + 30g almonds (protein 6g, K 200mg). Post-shift recovery (8:30 am): 100g soy nuggets pulao (brown rice 80g + veg) + 150g curd + 100g orange (protein 28g, K 900mg, Ca 350mg). Total protein ~80g (1.45 g/kg), Ca ~1370mg, caffeine 30mg. A poor answer clusters protein in one meal or ignores circadian nutrient timing — tested in CUET case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

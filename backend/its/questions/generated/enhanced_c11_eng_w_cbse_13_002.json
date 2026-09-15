@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_13_002",
+   "title": "c11_eng_w_cbse_13_002",
+   "questions": [
+    {
+     "q": "What is the defining structural feature of a Petrarchan sonnet that distinguishes it from a Shakespearean sonnet?",
+     "a": "A Petrarchan sonnet consists of an octave (8 lines) followed by a sestet (6 lines) with a volta typically occurring at the start of the sestet (line 9), whereas a Shakespearean sonnet has three quatrains and a couplet with the volta often in the final couplet. A wrong answer (e.g., \"both have 14 lines so they are the same\") reveals the student cannot distinguish how structural divisions shape the poem's argument.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain what the \"volta\" is and why it matters in \"The World is too Much With Us.\"",
+     "a": "The volta is the turn in thought or argument that occurs at line 9 (\"Great God! I'd rather be / A Pagan...\"), shifting from a condemnation of industrial society's materialism to a personal yearning for a mythological connection to nature. It matters because it structures the poem's emotional arc from outward critique to inward longing. A wrong answer that describes the volta merely as \"a change in rhyme scheme\" shows the student sees form as decorative rather than functional.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"narrative structure in a lyric poem\" to the first four lines of the poem. How do these lines establish the opening situation of the poem's argument?",
+     "a": "Lines 1-4 present the exposition: the speaker identifies the conflict (\"The world is too much with us; late and soon\") and its cause (\"Getting and spending, we lay waste our powers\"), then states the consequence (\"Little we see in Nature that is ours; / We have given our hearts away, a sordid boon!\"). This sets up the problem that the rest of the poem will address. A wrong answer that merely paraphrases the lines without naming \"exposition\" or \"conflict\" indicates the student cannot transfer narrative terminology to lyric poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of the octave in this poem with the function of the first two quatrains in a Shakespearean sonnet. How does each structure shape the development of an idea?",
+     "a": "The Petrarchan octave develops a single, sustained argument (here, the critique of materialism) with a unified rhyme scheme (abbaabba), creating pressure that demands release in the sestet. Shakespearean quatrains often explore three variations or facets of an idea before the couplet resolves it. In Wordsworth, the octave's density mirrors the \"world\" crushing the speaker; the sestet's openness mirrors the \"pleasant lea.\" A wrong answer that only notes rhyme differences misses how structure enacts meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Wordsworth's choice to place the volta exactly at line 9 (\"Great God! I'd rather be / A Pagan...\"). Could the turn have occurred earlier or later without weakening the poem?",
+     "a": "The volta at line 9 is maximally effective because the octave has fully accumulated the weight of the indictment (\"late and soon,\" \"getting and spending,\" \"sordid boon,\" \"out of tune\") so that the speaker's desperate alternative feels earned, not impulsive. An earlier turn (e.g., line 5) would truncate the critique; a later turn (line 11) would blur the structural clarity that the Petrarchan form demands. A wrong answer that says \"anywhere works because it's poetry\" reveals a misunderstanding of form as intentional craft.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-stanza poem (8 lines + 6 lines) that mimics Wordsworth's structural strategy: an octave criticizing a modern habit, a volta at line 9, and a sestet proposing a personal, imaginative alternative. Use your own subject.",
+     "a": "A strong response will show a clear octave presenting a coherent critique (e.g., of screen addiction), a sharp volta signaling a shift in tone and perspective (\"But I would rather...\"), and a sestet developing a concrete alternative image (e.g., \"walk barefoot on dew-wet grass / And hear the cricket's midnight song\"). A poor response that writes 14 lines without a structural turn or that treats the sestet as mere continuation shows the student has not internalized the concept of argumentative structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

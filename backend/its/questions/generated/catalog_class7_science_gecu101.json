@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu101.json",
+ "concepts": [
+  {
+   "id": "gecu.1.1",
+   "title": "The Ever-Evolving World of Science",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does science keep changing our knowledge?",
+     "a": "New experiments and discoveries improve or replace old ideas, so science keeps evolving.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a scientific idea that changed over time.",
+     "a": "The idea that the sun moves around the earth was replaced by the earth orbiting the sun.",
+     "self_check": true
+    },
+    {
+     "q": "What should we do when evidence contradicts a belief?",
+     "a": "Trust the evidence - test it, and change the belief if it holds.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.1.2",
+   "title": "Questioning the Answer",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is questioning an answer part of science?",
+     "a": "Testing answers again and again checks them; a good answer survives every honest question.",
+     "self_check": true
+    },
+    {
+     "q": "What is a hypothesis?",
+     "a": "A testable guess that explains an observation, checked by experiment.",
+     "self_check": true
+    },
+    {
+     "q": "How do scientists settle disagreements?",
+     "a": "By designing experiments whose results support one explanation over the other.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.1.3",
+   "title": "From Small Cells to Far Stars",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the smallest unit of life that science studies.",
+     "a": "The cell - all living things are made of cells.",
+     "self_check": true
+    },
+    {
+     "q": "Name the largest structures science studies in the sky.",
+     "a": "Stars, galaxies and the universe beyond our solar system.",
+     "self_check": true
+    },
+    {
+     "q": "What links cells and stars in one subject?",
+     "a": "Both are studied by science - the same habits of observation and testing explain tiny cells and far stars.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.1.4",
+   "title": "Happy Exploring: The Year Ahead",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What attitudes help in learning science this year?",
+     "a": "Curiosity, careful observation, honest recording and discussing ideas with others.",
+     "self_check": true
+    },
+    {
+     "q": "How can you explore science outside the classroom?",
+     "a": "Watch plants, weather and stars, keep a nature diary, and try safe home experiments.",
+     "self_check": true
+    },
+    {
+     "q": "Why is exploring joyful in science?",
+     "a": "Every question answered opens new wonders to discover.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_007_math_logical_reasoning.json",
+ "concepts": [
+  {
+   "id": "am11_007.1",
+   "title": "Mathematically Acceptable Statements",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 4 gives 20",
+     "compute": "total = 5 * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 7?",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 3 at a time.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.2",
+   "title": "Truth Value of the And Connective",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 8 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 6 with a set of size 6?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 6 elements have?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 5 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "33554432",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 3 at a time.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.3",
+   "title": "Truth Value of the Inclusive Or",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 7 with a set of size 2?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 7 elements have?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 8 distinct objects taken 4 at a time.",
+     "a": "1680",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.4",
+   "title": "Negation with the Not Connective",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 4 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 6?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 2 at a time.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.5",
+   "title": "If-Then Implication Truth Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 3 drinks and 9 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 9 with a set of size 8?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 9 elements have?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 2 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 1 at a time.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.6",
+   "title": "If and Only If as Matching Truth Values",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 6 with a set of size 4?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 6 elements have?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 2 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 2 at a time.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.7",
+   "title": "Converse, Inverse and Contrapositive",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 36 / 6 gives 6",
+     "compute": "t1 = 36 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 36 : 72 in its simplest form and give the first term of the simplest form.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Rs 260 is divided between two friends in the ratio 4 : 9. Find the smaller share.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 6 : 3 = 24 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 6 : 3 :: 24 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 30, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.8",
+   "title": "Quantifiers: For All and There Exists",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 6 * 3 gives 18",
+     "compute": "total = 6 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 7?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 2 at a time.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.9",
+   "title": "Syllogism Validity",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 8 gives 72",
+     "compute": "total = 9 * 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 4 with a set of size 6?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 4 elements have?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 2 at a time.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.10",
+   "title": "Classification: Odd One Out",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 4 * 8 gives 32",
+     "compute": "total = 4 * 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 4 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 8 with a set of size 2?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 8 elements have?",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 8 distinct objects taken 1 at a time.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_007.11",
+   "title": "Coding-Decoding by Letter Shift",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 2 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 7?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 3 at a time.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

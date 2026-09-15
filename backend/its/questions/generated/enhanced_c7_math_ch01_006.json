@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_006",
+   "title": "c7_math_ch01_006",
+   "questions": [
+    {
+     "q": "What is the primary purpose of rounding and estimating large numbers in everyday life?",
+     "a": "The correct answer is to simplify complex calculations and make large quantities easy to understand quickly. If a student thinks estimation is just about guessing randomly or replacing numbers with zero, they misunderstand that estimation follows strict mathematical rules to maintain a reasonable degree of accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why when rounding 4,58,920 to the nearest ten-thousand, the digit in the ten-thousand place increases by 1, whereas rounding it to the nearest lakh leaves the lakh digit unchanged.",
+     "a": "When rounding to the nearest ten-thousand, we look at the thousands digit (8), which is 5 or more, so we round up the ten-thousand digit (5) to 6. When rounding to the nearest lakh, we look at the ten-thousand digit (5), but wait—let's check carefully: the ten-thousand digit is 5, so the lakh digit (4) actually rounds up to 5! A wrong answer often reveals that students confuse which digit to inspect (looking at the target digit itself rather than the digit immediately to its right) or misapply the 5-or-more rule.",
+     "self_check": true
+    },
+    {
+     "q": "Estimate the sum of 4,32,150 and 2,87,640 by rounding each number to the nearest ten-thousand before adding.",
+     "a": "Step 1: Round 4,32,150 to the nearest ten-thousand. The thousands digit is 2 (< 5), so it rounds down to 4,30,000. Step 2: Round 2,87,640 to the nearest ten-thousand. The thousands digit is 7 (>= 5), so it rounds up to 2,90,000. Step 3: Add the rounded numbers: 4,30,000 + 2,90,000 = 7,20,000. A wrong answer usually happens because the student rounded to the wrong place value (like the nearest thousand or lakh) or forgot to change the trailing digits to zeros.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the difference between the exact result of 7,84,512 - 3,21,890 and the result obtained by first rounding both numbers to the nearest lakh. Which method gives a faster insight into the magnitude of the difference?",
+     "a": "The exact difference is 4,62,622. If we round to the nearest lakh first, 7,84,512 rounds to 8,00,000 and 3,21,890 rounds to 3,00,000, giving an estimated difference of 5,00,000. Rounding first gives an instant mental estimate of about 5 lakhs, which is much faster to calculate during a conversation, whereas exact subtraction requires formal column work. A wrong answer shows a failure to recognize that estimation trades off minor precision for speed and mental clarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student estimates the product of 4,120 and 389 by rounding 4,120 to 4,000 and 389 to 400, then multiplying to get 16,00,000. Evaluate whether this method is mathematically valid and identify any potential pitfalls.",
+     "a": "The method is mathematically valid and demonstrates standard estimation by rounding factors to their highest significant places. However, because both numbers were rounded in the same direction (both rounded down/up relative to their finer adjustments), the estimated product may deviate significantly from the exact product if not checked. A wrong answer indicates that the student thinks any random approximation is valid without checking the scale of rounding.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario involving a large municipal budget in crores where rounding to the nearest crore gives a misleading impression compared to rounding to the nearest lakh.",
+     "a": "An example is a municipal budget of 1,48,50,000 rupees. Rounded to the nearest crore, it becomes 1,00,00,000 rupees (underestimating by nearly 49 lakhs!), whereas rounded to the nearest lakh, it is 1,49,00,000 rupees, which captures the true scale accurately. A poor answer gives a trivial example where rounding makes no significant difference or fails to show the mathematical impact of scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

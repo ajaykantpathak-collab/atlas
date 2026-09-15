@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 103,
+  "chapter_title": "Performing Art Traditions in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks103.1.1",
+      "title": "Art as the Human Need to Express",
+      "section": "3.1",
+      "definition": "Art answers a basic human need to express -- feelings, faith and experience communicated to others through form. From prehistoric rock paintings onward, Indians expressed through art, and the performing arts -- music, dance, drama -- carry that expression through time, gesture and sound.",
+      "formula": "",
+      "key_idea": "Expression is a basic need; the performing arts are its oldest public voice.",
+      "textbook_ref": "keks103.txt opening (arts important in human life, expression communicated through arts, prehistoric expression, diversity of art forms)",
+      "question_patterns": [
+        "why are the arts called a basic human need",
+        "in class 11 performing arts: how did prehistoric people express through art",
+        "what distinguishes performing arts from other arts",
+        "how does art communicate feelings to others",
+        "name the performing art traditions of india",
+        "explain the diversity of art forms in india"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the need", "explain": "Human beings must express; art is the shaped form that expression takes."},
+        {"step": 2, "action": "trace the antiquity", "explain": "Prehistoric evidence shows expression through art long before writing -- art precedes letters."},
+        {"step": 3, "action": "locate the performing arts", "explain": "Music, dance and drama perform expression live, binding performers and audience in one event."}
+      ]
+    },
+    {
+      "id": "keks103.1.2",
+      "title": "Music, Dance and Drama as Traditions",
+      "section": "3.2",
+      "definition": "India's performing arts grew as traditions with rules and lineages: classical music in its systems of melody and rhythm, dance forms that weave gesture and story, and drama blending speech, song and action. Folk and regional forms ran alongside, so the tradition lives in many voices.",
+      "formula": "",
+      "key_idea": "Tradition means trained continuity -- ragas, repertoires and gesture languages handed down while folk forms keep it rooted.",
+      "textbook_ref": "keks103.txt tradition sections (music systems, dance forms, drama, folk traditions, guru shishya parampara, classical and regional forms)",
+      "question_patterns": [
+        "describe the major classical performing arts of india",
+        "in class 11 performing arts: what is the guru shishya tradition and why does it matter",
+        "how do folk art forms differ from classical ones",
+        "explain how dance communicates stories",
+        "what role does rhythm play in indian music",
+        "compare any two regional performing traditions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "outline the classical systems", "explain": "Music organised melody and rhythm into systems; dance codified gesture and expression; drama united both with word."},
+        {"step": 2, "action": "honour transmission", "explain": "The guru-shishya path handed living skill from teacher to student, keeping traditions exact and alive."},
+        {"step": 3, "action": "include the folk", "explain": "Regional and folk forms carried the same expressive need in local idioms -- the tradition's widest layer."}
+      ]
+    },
+    {
+      "id": "keks103.1.3",
+      "title": "Performing Arts as Cultural Memory",
+      "section": "3.3",
+      "definition": "Beyond entertainment, the performing arts store cultural memory: epics, devotional currents and social values travel through songs, dances and plays. Patronage by temples, courts and communities kept the arts central to festivals and rites, making performance a living archive of the civilisation.",
+      "formula": "",
+      "key_idea": "Stage and courtyard are archives -- epics and values survive because they are performed, not only written.",
+      "textbook_ref": "keks103.txt memory sections (epics in performance, devotional music, patronage, festivals, arts as living heritage)",
+      "question_patterns": [
+        "how do performing arts preserve cultural memory",
+        "in class 11 performing arts: what role did temples and courts play in the arts",
+        "explain how epics travel through performance",
+        "why are festivals important for art traditions",
+        "give an example of a story carried by dance",
+        "how do the arts keep a civilisation alive"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "see the repertoire as archive", "explain": "Themes from epic and devotion, encoded in ragas and choreographies, carry history in the body."},
+        {"step": 2, "action": "see the patronage", "explain": "Temples, courts and village communities funded and staged the arts, embedding them in social life."},
+        {"step": 3, "action": "see the renewal", "explain": "Each festival performance re-reads the tradition for a new audience -- memory renewed, not merely kept."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks103.txt tradition sections",
+      "concept": "keks103.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain why the guru-shishya method, rather than books alone, kept the performing arts alive for centuries.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "note the embodied skill", "explain": "Music and dance live in the body and ear, not on paper -- subtleties resist notation."},
+        {"step": 2, "action": "note the relationship", "explain": "Long study beside a guru transmits exact practice, correction and taste person to person."},
+        {"step": 3, "action": "conclude", "explain": "Embodied art needs embodied teaching -- which is why the parampara outlasts centuries."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks103.txt memory sections",
+      "concept": "keks103.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A village festival stages an episode from the Ramayana as folk theatre. Show how this performance works as cultural memory.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the content carried", "explain": "The epic story, its values of duty and devotion, ride inside the performance."},
+        {"step": 2, "action": "identify the renewal", "explain": "Each year's staging re-tells the episode for a new audience, including children."},
+        {"step": 3, "action": "conclude", "explain": "The village has archived and re-transmitted its heritage without a single page -- performance as memory."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why are the arts considered a basic human need?",
+        "Name the classical performing arts of India and their regions.",
+        "What is the importance of the guru-shishya tradition?",
+        "Distinguish classical and folk art forms with examples.",
+        "How do the performing arts preserve cultural memory?",
+        "Discuss the role of patronage in sustaining the arts."
+      ]
+    }
+  ]
+}

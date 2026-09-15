@@ -1,0 +1,333 @@
+{
+ "catalog": "catalog_class10_science_ch109.json",
+ "concepts": [
+  {
+   "id": "jesc.109.1",
+   "title": "Mirror Formula",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "f_times_u",
+     "expr": "f * u",
+     "explain": "numerator of the mirror image distance"
+    },
+    {
+     "step": 2,
+     "name": "denom",
+     "expr": "u - f",
+     "explain": "denominator from 1/v = 1/f - 1/u"
+    },
+    {
+     "step": 3,
+     "name": "image_distance_v",
+     "expr": "f_times_u / denom",
+     "explain": "v = f*u/(u-f) with sign convention"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An object stands 30 cm in front of a concave mirror of focal length 20 cm (u = -30 cm, f = -20 cm). Find the image distance.",
+     "vals": {
+      "u": -30,
+      "f": -20
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-60 cm",
+     "self_check": false
+    },
+    {
+     "q": "An object is placed 15 cm from a concave mirror with f = -10 cm. Using u = -15 cm, compute v.",
+     "vals": {
+      "u": -15,
+      "f": -10
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-30 cm",
+     "self_check": false
+    },
+    {
+     "q": "For a concave mirror of focal length 10 cm, an object sits at u = -20 cm. Where does the image form?",
+     "vals": {
+      "u": -20,
+      "f": -10
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-20 cm",
+     "self_check": false
+    },
+    {
+     "q": "A convex mirror has f = +15 cm and an object at u = -30 cm. Find the image distance with sign.",
+     "vals": {
+      "u": -30,
+      "f": 15
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "10 cm",
+     "self_check": false
+    },
+    {
+     "q": "An object is 60 cm before a convex mirror of focal length +20 cm. Calculate v using the mirror formula.",
+     "vals": {
+      "u": -60,
+      "f": 20
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "15 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.2",
+   "title": "Magnification of Mirrors",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "magnification_m",
+     "expr": "(0 - image_distance_v) / object_distance_u",
+     "explain": "m = -v/u for mirrors"
+    },
+    {
+     "step": 2,
+     "name": "m_percent",
+     "expr": "magnification_m * 100",
+     "explain": "image size as per cent of the object"
+    },
+    {
+     "step": 3,
+     "name": "image_height",
+     "expr": "magnification_m * object_height",
+     "explain": "image height is magnification times object height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A mirror forms an image at v = -60 cm of an object at u = -30 cm of height 4 cm. Find m and the image height.",
+     "vals": {
+      "image_distance_v": -60,
+      "object_distance_u": -30,
+      "object_height": 4
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-8 cm",
+     "self_check": false
+    },
+    {
+     "q": "For u = -15 cm and v = -30 cm with a 2 cm tall object, compute the magnification and image height.",
+     "vals": {
+      "image_distance_v": -30,
+      "object_distance_u": -15,
+      "object_height": 2
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-4 cm",
+     "self_check": false
+    },
+    {
+     "q": "An object 3 cm tall at u = -40 cm gives an image at v = -20 cm. Find m and the image height.",
+     "vals": {
+      "image_distance_v": -20,
+      "object_distance_u": -40,
+      "object_height": 3
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-1.5 cm",
+     "self_check": false
+    },
+    {
+     "q": "A convex mirror gives v = +10 cm for an object at u = -30 cm, object height 5 cm. Calculate m and image height.",
+     "vals": {
+      "image_distance_v": 10,
+      "object_distance_u": -30,
+      "object_height": 5
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "1.66667 cm",
+     "self_check": false
+    },
+    {
+     "q": "With u = -20 cm, v = -60 cm and object height 1.5 cm, find the magnification and image height.",
+     "vals": {
+      "image_distance_v": -60,
+      "object_distance_u": -20,
+      "object_height": 1.5
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-4.5 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.3",
+   "title": "Lens Formula",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "f_times_u",
+     "expr": "f * u",
+     "explain": "numerator from 1/v = 1/f + 1/u"
+    },
+    {
+     "step": 2,
+     "name": "denom",
+     "expr": "u + f",
+     "explain": "denominator of the lens image distance"
+    },
+    {
+     "step": 3,
+     "name": "image_distance_v",
+     "expr": "f_times_u / denom",
+     "explain": "v = f*u/(u+f) with the lens sign convention"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An object is placed 30 cm from a convex lens of focal length 20 cm (u = -30 cm, f = +20 cm). Find the image distance.",
+     "vals": {
+      "u": -30,
+      "f": 20
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "60 cm",
+     "self_check": false
+    },
+    {
+     "q": "For a convex lens f = +20 cm and an object at u = -60 cm, compute v.",
+     "vals": {
+      "u": -60,
+      "f": 20
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "30 cm",
+     "self_check": false
+    },
+    {
+     "q": "An object 15 cm before a convex lens of f = +10 cm: where is the image?",
+     "vals": {
+      "u": -15,
+      "f": 10
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "30 cm",
+     "self_check": false
+    },
+    {
+     "q": "A convex lens of focal length 10 cm has an object at u = -50 cm. Calculate the image distance.",
+     "vals": {
+      "u": -50,
+      "f": 10
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "12.5 cm",
+     "self_check": false
+    },
+    {
+     "q": "An object lies 20 cm from a convex lens of f = +30 cm (inside the focus). Find the signed image distance.",
+     "vals": {
+      "u": -20,
+      "f": 30
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-60 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.4",
+   "title": "Power of a Lens",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "focal_cm",
+     "expr": "focal_m * 100",
+     "explain": "convert the focal length to centimetres for reference"
+    },
+    {
+     "step": 2,
+     "name": "focal_mm",
+     "expr": "focal_cm * 10",
+     "explain": "focal length in millimetres"
+    },
+    {
+     "step": 3,
+     "name": "power_d",
+     "expr": "1 / focal_m",
+     "explain": "power in dioptres is 1 divided by focal length in metres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A convex lens has focal length 0.25 m. Find its power in dioptres.",
+     "vals": {
+      "focal_m": 0.25
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "4 D",
+     "self_check": false
+    },
+    {
+     "q": "What is the power of a lens whose focal length is 0.5 m?",
+     "vals": {
+      "focal_m": 0.5
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "2 D",
+     "self_check": false
+    },
+    {
+     "q": "A concave lens has focal length -0.2 m. Compute its power with sign.",
+     "vals": {
+      "focal_m": -0.2
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-5 D",
+     "self_check": false
+    },
+    {
+     "q": "A powerful magnifier has f = 0.1 m. What power does that correspond to?",
+     "vals": {
+      "focal_m": 0.1
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "10 D",
+     "self_check": false
+    },
+    {
+     "q": "Find the power of a lens of focal length -0.5 m.",
+     "vals": {
+      "focal_m": -0.5
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-2 D",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

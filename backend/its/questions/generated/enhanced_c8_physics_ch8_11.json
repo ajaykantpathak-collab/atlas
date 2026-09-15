@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_11",
+   "title": "c8_physics_ch8_11",
+   "questions": [
+    {
+     "q": "What are the four main physical (abiotic) environmental factors that, when changed, most directly affect the survival of organisms in a habitat?",
+     "a": "The four main physical factors are temperature, light availability, water availability, and air composition (including oxygen and carbon dioxide levels). A wrong answer that lists only biotic factors (like predators or food) reveals the student confuses environmental changes with biological interactions, missing the abiotic driver.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a sudden increase in water temperature of a lake can lead to a decrease in the fish population, even if the temperature remains within the fish's tolerance range.",
+     "a": "Warmer water holds less dissolved oxygen (a physical property of gases in liquids), so fish experience oxygen stress; additionally, higher temperatures increase metabolic rates of fish and decomposers, further depleting oxygen. A wrong answer focusing only on direct heat stress shows the student does not connect the physical change (temperature) to the chemical consequence (dissolved oxygen) and the biological cascade.",
+     "self_check": true
+    },
+    {
+     "q": "A region experiences a 30% reduction in annual rainfall over five years. The soil moisture drops from 25% to 15% (by volume). List three specific effects this change would have on the producers in that ecosystem, and for each, state the physical reason.",
+     "a": "1) Reduced photosynthesis because water is a raw material (physical scarcity limits the reaction). 2) Wilting and reduced growth because turgor pressure drops (water potential gradient drives water out of cells). 3) Shift in species composition toward drought-tolerant plants with deeper roots (physical selection pressure). A wrong answer that gives only vague statements like \"plants die\" shows inability to link the physical change (soil moisture) to specific physiological mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of a gradual temperature increase over 50 years versus a sudden heatwave lasting one week on a population of insects in a forest. Which scenario is more likely to cause local extinction, and why?",
+     "a": "The sudden heatwave is more likely to cause local extinction because it exceeds the organisms' physiological tolerance limits acutely, leaving no time for behavioral adjustments (e.g., seeking shade) or phenotypic plasticity; gradual change allows for acclimation and potential range shifts. A wrong answer choosing gradual increase reveals misunderstanding of the difference between acute stress and chronic pressure, and the role of time in biological response.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Planting more trees in a city will always reduce the local temperature and help all organisms.\" Evaluate this statement. Is it entirely correct? Identify the flaw.",
+     "a": "The statement is not entirely correct. While trees provide shade and evapotranspiration cools the air (physical processes), they also reduce light availability for understory plants, alter humidity, and may introduce allergenic pollen. The flaw is assuming a single environmental change (adding trees) has uniformly positive effects on all organisms; it ignores trade-offs and species-specific requirements. A wrong answer that agrees completely shows lack of systems thinking and inability to evaluate multiple simultaneous effects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation to test how the intensity of light affects the growth rate of a common aquatic plant (like Hydrilla) in a classroom setting. Specify the independent variable, dependent variable, two controlled variables, and the physical principle being tested.",
+     "a": "Independent variable: light intensity (controlled by distance from a lamp or using filters). Dependent variable: growth rate (measured as increase in length or number of leaves per week). Controlled variables: temperature of water, nutrient concentration, CO2 availability, plant species and initial size. Physical principle: light energy drives photosynthesis (energy transfer from radiation to chemical bonds). A poor answer that omits controlled variables or confuses light intensity with duration reveals inability to design a fair test isolating the physical factor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

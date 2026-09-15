@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_015",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_015",
+   "title": "c6_math_ch01_015",
+   "questions": [
+    {
+     "q": "What is the prime factorisation of 20?",
+     "a": "20 = 2 × 2 × 5 or 2² × 5. A student who answers \"4 × 5\" mistakes a composite number (4) for a prime factor, revealing they haven't fully decomposed the number into its prime \"building blocks.\"",
+     "self_check": true
+    },
+    {
+     "q": "If the prime factors of 8 are (2 × 2 × 2) and the prime factors of 12 are (2 × 2 × 3), why is the HCF 4 and not 24?",
+     "a": "The HCF is the largest *divisor*, not a multiple. A student who says 24 is confusing HCF with LCM; they need to remember that a factor must be smaller than or equal to the numbers being compared.",
+     "self_check": true
+    },
+    {
+     "q": "Find the HCF of 16 and 24 using prime factorisation.",
+     "a": "16 = 2 × 2 × 2 × 2; 24 = 2 × 2 × 2 × 3. The common factors are 2 × 2 × 2 = 8. If a student gets 2 or 4, they have missed some common prime factors during the matching process.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't the HCF of 15 and 20 be 10?",
+     "a": "10 does not divide 15 perfectly (15 ÷ 10 = 1.5). A student answering 10 likely checked only one number (20) instead of both numbers, highlighting a failure to verify the \"common\" requirement of the HCF.",
+     "self_check": true
+    },
+    {
+     "q": "Is 1 always a common factor of any two numbers? Does this mean 1 is always the HCF?",
+     "a": "Yes, 1 is always a common factor, but it is rarely the *Highest* Common Factor. A student who thinks 1 is always the HCF fails to look for larger shared prime building blocks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers whose HCF is 5. Explain how you found them.",
+     "a": "Examples include 10 and 15, or 5 and 20. A good answer identifies that both numbers must have 5 as a prime factor. A poor answer (like 5 and 6) shows a guess-and-check approach without understanding the prime factor requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

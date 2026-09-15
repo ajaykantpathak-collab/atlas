@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_005",
+   "title": "c12_biotech_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the template and the enzyme used in the first-strand cDNA synthesis reaction?",
+     "a": "Template: mature mRNA (with 5' cap and 3' poly-A tail). Enzyme: reverse transcriptase (RNA-dependent DNA polymerase). A wrong answer (e.g., \"DNA template\" or \"DNA polymerase\") reveals confusion between standard DNA replication and the reverse-transcription step that defines cDNA synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Why is oligo-dT commonly used as the primer for first-strand synthesis instead of random hexamers or gene-specific primers?",
+     "a": "Oligo-dT anneals to the poly-A tail present on almost all eukaryotic mRNAs, ensuring full-length copies of the 3' end and enriching for coding sequences. Random hexamers prime throughout all RNAs (including rRNA/tRNA), yielding truncated cDNAs; gene-specific primers require prior sequence knowledge. Choosing \"random hexamers give full-length clones\" indicates misunderstanding of poly-A tail biology and priming bias.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher performs first-strand synthesis but forgets to add RNase inhibitor. The resulting cDNA yield is extremely low. Explain the biochemical reason.",
+     "a": "RNase H activity (intrinsic to some reverse transcriptases or from contaminating RNases) degrades the RNA strand in the RNA-DNA hybrid, destroying the template before second-strand synthesis. Without RNase inhibitor, the mRNA is hydrolyzed, aborting the reaction. Attributing low yield to \"reverse transcriptase denaturation\" misses the specific RNA-degradation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the end structures of cDNA produced by the classic RNase H / DNA Pol I method versus the modern \"cap-switching\" (template-switching) method. Which method preserves the complete 5' end of the mRNA?",
+     "a": "Classic method: RNase H nicks the RNA, DNA Pol I extends from nicks, yielding a blunt-ended ds-cDNA that often lacks the extreme 5' cap sequence. Cap-switching method: reverse transcriptase adds extra C residues at the 5' end of the first strand; a template-switch oligo (with GGG) anchors, allowing polymerase to copy the cap region, preserving the true 5' UTR. Stating \"both give full 5' ends\" ignores the 5' truncation problem of the classic method.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"cDNA libraries are superior to genomic libraries for every cloning purpose because they contain only exons.\" Defend or refute with two specific counter-examples.",
+     "a": "Refute. (1) Regulatory studies need promoters/enhancers/introns — absent in cDNA. (2) Genes with alternative splicing produce multiple cDNA isoforms; a genomic clone captures all variants in one clone. (3) cDNA lacks intronic sequences required for some expression systems (e.g., intron-mediated enhancement in plants). Saying \"cDNA is always better\" shows failure to distinguish cloning *goals* (protein expression vs. gene regulation vs. structural analysis).",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to clone a full-length cDNA of a novel human kinase (unknown sequence) into an expression vector for *E. coli*, starting from total RNA. Include primer choice, 5' end capture, and cloning-site engineering.",
+     "a": "1. Enrich poly-A mRNA via oligo-dT chromatography. 2. Use cap-switching reverse transcriptase with oligo-dT primer containing a 5' *NotI* site and a template-switch oligo with a 5' *SalI* site. 3. PCR amplify with primers matching the engineered sites. 4. Digest PCR product and vector with *NotI*/*SalI*, ligate, transform. 5. Sequence to verify ORF. A poor answer omits 5' capture (uses only oligo-dT), uses blunt-end ligation (loses directionality), or skips sequencing verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_004",
+   "title": "c11_psy_cbse_08_004",
+   "questions": [
+    {
+     "q": "State the five levels of Maslow's hierarchy in ascending order (from base to peak) using the exact terminology from the NCERT textbook.",
+     "a": "Correct order: Physiological needs → Safety needs → Belongingness needs → Esteem needs → Self-actualisation needs. A wrong answer (e.g., swapping esteem and belongingness, or using \"Love\" instead of \"Belongingness\") reveals the student is relying on pop-psychology versions (often \"Love/Belonging\" as one level) rather than the NCERT's specific five-tier structure and terminology.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Lower level needs dominate as long as they are unsatisfied. Once they are adequately satisfied, the higher needs occupy the individual's attention.\" A student argues: \"This means a homeless person *cannot* feel love or seek respect until they have a house and food.\" Explain why this interpretation is a misunderstanding of Maslow's term \"adequately satisfied.\"",
+     "a": "\"Adequately satisfied\" means *relatively* or *partially* met, not 100% fulfilled. Maslow explicitly noted that needs overlap—e.g., a person may be 85% satisfied in physiology, 70% in safety, 50% in belongingness, 40% in esteem, and 10% in self-actualization simultaneously. The homeless person may still form deep friendships (belongingness) or gain street-respect (esteem) while physiologically deprived. A wrong answer treating the hierarchy as a rigid \"step-ladder\" shows the student misses the dynamic, simultaneous nature of need emergence.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the hierarchy to this case: Priya, a first-generation college student from a low-income family, works part-time to pay rent (physiological/safety). She joins a debate club where she wins awards (esteem) and makes close friends (belongingness). However, she often skips meals before competitions to practice. Using the concept of *prepotency*, explain why Priya's behaviour does NOT disprove the hierarchy.",
+     "a": "Priya's base needs are *relatively* met (she has shelter/food via part-time work, though precarious). Her behaviour shows *temporary* voluntary deprivation of a lower need (skipping a meal) to serve a higher need (esteem via competition). Prepotency predicts that *chronic, severe* deprivation of physiology would make esteem irrelevant—but Priya's deprivation is acute and chosen. A wrong answer claiming \"she proves the hierarchy wrong\" fails to distinguish between chronic deficit (which restores prepotency) and acute, goal-directed sacrifice.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook notes: \"Soldiers, police officers, and fire personnel have been known to protect others by facing very endangering situations, seemingly in direct contradiction to the prominence of safety needs.\" Analyze this exception by identifying (a) which higher need(s) override safety, and (b) what psychological mechanism allows this override, referencing the concept of *subjective valuation* of needs.",
+     "a": "(a) Belongingness (protecting comrades/community) and Esteem (duty, honour, self-respect) override Safety. (b) The mechanism is *cognitive appraisal*: the individual subjectively values the higher need (e.g., \"My honour matters more than my life\") such that the *anticipated* satisfaction of esteem/belongingness outweighs the *threat* to safety. Maslow acknowledged that values/ideals can reorganize the hierarchy. A wrong answer attributing this solely to \"training\" or \"altruism\" misses the motivational reorganization—it's not that safety need disappears, but that a higher need becomes *more prepotent* in that context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Maslow's hierarchy is culturally biased because collectivist cultures (e.g., India) prioritize belongingness over self-actualization, making the pyramid's peak irrelevant.\" Use the textbook's definition of self-actualization (\"self-aware, socially responsive, creative...\") to defend or refute.",
+     "a": "The claim confuses *cultural expression* of needs with *hierarchical structure*. The textbook defines self-actualization as including \"socially responsive\" and \"capacity for deep interpersonal relationships\"—traits highly valued in collectivist cultures. An Indian scientist solving a village water crisis (self-actualization via creativity/service) fulfills the peak *through* belongingness. The hierarchy describes *developmental progression*, not a Western individualist endpoint. A wrong answer accepting the bias critique uncritically fails to see that Maslow's self-actualization *includes* social contribution, not just personal achievement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, realistic scenario involving a Class 11 student where *three* different levels of the hierarchy are simultaneously active and in conflict. Describe the student's choice and explain the motivational dynamics using the terms \"prepotency,\" \"relative satisfaction,\" and \"subjective valuation.\"",
+     "a": "Example scenario: Arjun (Class 11) has a fever (physiological deficit) but insists on attending school for a Student Council election speech (esteem/belongingness). His parents (safety/care) urge rest. Arjun chooses to go. Dynamics: Physiological need is *acutely* high but *subjectively devalued* (\"I can push through\"); esteem/belongingness needs are *chronically* important to his identity and *subjectively valued higher* at this moment. Prepotency is temporarily suspended by *cognitive override*—the anticipated regret of missing the speech outweighs the immediate physiological cost. A poor answer would list needs without explaining the *dynamic interaction* (e.g., just saying \"he wants to win\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

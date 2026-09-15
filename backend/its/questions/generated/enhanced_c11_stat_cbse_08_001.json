@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_001",
+   "title": "c11_stat_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the definition of an index number and identify the fixed reference value assigned to the base period.",
+     "a": "An index number is a statistical measure that shows the average relative change in a group of related variables between two periods, expressed as a percentage. The base period is always assigned the value 100. A wrong answer (e.g., \"base period value is 0\" or \"index number measures absolute change\") reveals the student confuses index numbers with simple growth rates or does not grasp the percentage-relativeness that enables comparison across different magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an index number is called a \"specialized average\" and how it differs from a simple arithmetic mean of price relatives.",
+     "a": "An index number is a \"specialized average\" because it averages price/quantity relatives (ratios × 100) using weights that reflect the economic importance of each item, whereas a simple arithmetic mean treats all items equally regardless of their significance in the consumption basket. A wrong answer (e.g., \"it's just an average of percentages\") shows the student misses the critical role of weighting and the fact that index numbers measure net change in a *group* of variables, not just a mathematical average of individual changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the simple average of price relatives for three commodities (A, B, C) and gets 120. They claim \"prices have risen by 20% on average.\" Why might this statement be misleading for a household's cost of living?",
+     "a": "The simple average ignores the quantities consumed (weights). If the household spends 90% of its budget on commodity A (which rose 10%) and only 10% on commodity C (which rose 50%), the true cost-of-living increase is much closer to 10% than 20%. A wrong answer indicates the student does not understand that index numbers must incorporate weights to reflect the actual impact on a group, a core characteristic: \"measures net change in a group of related variables.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the characteristics of index numbers with those of a simple percentage change calculated for a single variable (e.g., price of wheat). Identify at least three distinguishing features.",
+     "a": "1. Index numbers measure *average relative change in a group* of variables; a single percentage change measures change in *one* variable.\n2. Index numbers are *specialized averages* (weighted); a single percentage change is a simple ratio.\n3. Index numbers enable *comparison across time and space* (e.g., CPI for different cities); a single percentage change is context-specific.\nA wrong answer that lists only \"both are percentages\" or \"both use base period\" shows the student cannot analytically separate the *group-measurement* and *weighting* aspects that define index numbers.",
+     "self_check": true
+    },
+    {
+     "q": "\"Index numbers are the only reliable tool for measuring inflation.\" Evaluate this statement. Provide two arguments for and two against, using characteristics of index numbers.",
+     "a": "*For*: (1) Index numbers capture net price change across a representative basket, reflecting the true cost-of-living impact better than any single price. (2) Their percentage form with a fixed base (100) allows consistent inter-temporal comparison.\n*Against*: (1) Choice of base period, basket composition, and weighting method introduces subjectivity — different index numbers (Laspeyre's, Paasche's, Fisher's) give different inflation rates. (2) They suffer from substitution bias, quality change bias, and new-product bias, limiting reliability.\nA wrong answer that only agrees or disagrees without using *characteristics* (weighting, base period, group measurement) shows the student cannot evaluate the tool using its own defining properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-index number to track the \"study cost\" for a Class 11 student over two years. Specify: (a) the group of variables, (b) the base period, (c) how you would assign weights, and (d) one limitation of your index.",
+     "a": "(a) Variables: tuition fees, textbook prices, stationery, transport, online subscription costs.\n(b) Base period: Academic year 2023-24 (assigned 100).\n(c) Weights: Proportion of total study expenditure spent on each item in the base year (e.g., if tuition is 70% of total cost, weight = 0.7).\n(d) Limitation: Does not capture quality changes (e.g., better textbooks) or new items (e.g., AI tutoring apps introduced in 2024-25).\nA poor answer that uses equal weights or ignores the \"group of variables\" requirement shows the student has not internalized the characteristics of weighting and group measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

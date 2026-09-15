@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch4_4",
+   "title": "c8_civ_ch4_4",
+   "questions": [
+    {
+     "q": "What part of the Indian Constitution contains the Fundamental Rights guaranteed to citizens?",
+     "a": "Part III (Articles 12 to 35). A wrong answer indicates confusion with other parts of the Constitution, such as Directive Principles (Part IV) or Fundamental Duties (Part IV-A), showing a need to review the structural layout of the Indian Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Why are Fundamental Rights considered 'fundamental' compared to ordinary legal rights created by Parliament?",
+     "a": "Fundamental Rights are enshrined directly in the Constitution and cannot be taken away by ordinary lawmaking procedures, whereas ordinary legal rights can be altered or repealed by Parliament through a simple majority. A wrong answer suggests the student thinks all laws carry the same weight and do not understand constitutional supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "If a local government passes an order banning people of a certain linguistic minority from opening bookstores, which fundamental freedom is primarily threatened?",
+     "a": "The Right to Freedom (specifically freedom of speech and expression, and the cultural and educational rights under Articles 19 and 29-30). A wrong answer reveals a failure to connect minority cultural freedoms and expression to state-level administrative overreach.",
+     "self_check": true
+    },
+    {
+     "q": "How do Fundamental Rights act as a check on the powers of the legislature and the executive?",
+     "a": "They act as constitutional boundaries; any law passed by the legislature or executive action that violates Part III of the Constitution can be declared null and void by the judiciary through judicial review. A wrong answer shows the student does not understand the separation of powers and the watchdog role of the judiciary over other government organs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Fundamental Rights are absolute and can be exercised under any circumstance without restriction.\" Is this legally correct under the Indian Constitution?",
+     "a": "The statement is incorrect because no fundamental right is absolute; reasonable restrictions can be imposed by the state in the interest of public order, morality, sovereignty, and integrity of India. A wrong answer demonstrates a naive view of rights that ignores civic responsibilities and public safety.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a short constitutional provision that protects a citizen's right to digital privacy against arbitrary data collection by private or state agencies.",
+     "a": "A strong answer will create a provision stating that every citizen has the right to privacy of personal data, and no state or private entity may collect, store, or share digital information without explicit consent or lawful warrant. A poor answer is overly vague, focuses only on physical property, or fails to mention legal accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

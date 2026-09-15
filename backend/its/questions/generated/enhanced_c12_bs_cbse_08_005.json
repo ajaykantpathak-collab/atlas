@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_005",
+   "title": "c12_bs_cbse_08_005",
+   "questions": [
+    {
+     "q": "Define Budgetary Control in exactly two sentences using the terms \"budget\", \"actual performance\", \"variance\", and \"corrective action\".",
+     "a": "Budgetary Control is a system where budgets (quantitative plans) are prepared for a future period, actual performance is measured and compared with these budgets to identify variances, and corrective actions are taken to align future performance with organisational goals. A wrong answer that omits \"variance\" or \"corrective action\" reveals the student views budgets only as spending limits, not as a dynamic control loop — a fundamental misconception that leads to treating budgeting as a one-time paperwork exercise rather than an ongoing management tool.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Budgetary control and feedforward control are the same because both happen before the activity.\" Explain why this statement is incorrect by identifying the *distinguishing feature* of budgetary control.",
+     "a": "Budgetary control is distinct because it uses *quantitative financial/non-financial standards* (budgets) for *entire departments or the whole organisation* and includes a *post-performance comparison and variance analysis cycle*; feedforward control is a broader principle of anticipating problems before they occur (e.g., preventive maintenance) and need not involve formal budgets or departmental coordination. A wrong answer that equates them shows the student confuses a *control technique* (budgetary control) with a *control type/timing* (feedforward) — a classification error that costs marks in \"distinguish between\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. prepared a Sales Budget for March: 10,000 units @ ₹50/unit. Actual sales were 9,200 units @ ₹52/unit. Calculate the Sales Volume Variance and Sales Price Variance. State whether each is Favourable (F) or Adverse (A).",
+     "a": "Step 1: Budgeted Revenue = 10,000 × ₹50 = ₹5,00,000. Step 2: Actual Revenue = 9,200 × ₹52 = ₹4,78,400. Step 3: Sales Volume Variance = (Actual Qty − Budgeted Qty) × Budgeted Price = (9,200 − 10,000) × ₹50 = −800 × ₹50 = ₹40,000 (A). Step 4: Sales Price Variance = (Actual Price − Budgeted Price) × Actual Qty = (₹52 − ₹50) × 9,200 = ₹2 × 9,200 = ₹18,400 (F). Step 5: Total Sales Variance = ₹40,000 (A) + ₹18,400 (F) = ₹21,600 (A) — matches ₹5,00,000 − ₹4,78,400. A wrong answer that uses Budgeted Qty in Price Variance or mixes up F/A labels reveals the student memorises formulas without understanding *which quantity* anchors each variance — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Budgetary Control and Management by Exception (MbE). In what specific way does budgetary control *enable* MbE? Give a concrete example from a manufacturing firm.",
+     "a": "Budgetary control sets quantitative standards (budgets) for *all* activities; MbE is the *principle* that only significant deviations (exceptions) from these standards should be reported to top management. Budgetary control *enables* MbE by defining the \"permissible limit\" (e.g., ±5% on material cost) — without budgets, there is no benchmark to decide what is an \"exception\". Example: In a textile mill, the weaving department's budgeted yarn consumption is 1,000 kg/day. Actual is 1,020 kg/day (+2%). Budgetary control calculates this 2% variance; MbE dictates it is within the 5% limit, so the floor supervisor handles it — only if it hits 1,060 kg (+6%) does it escalate to the plant manager. A wrong answer that treats them as synonyms misses that one is a *system* (budgetary control) and the other is a *reporting principle* (MbE) — a distinction explicitly tested in CBSE \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Budgetary control is useless in a startup because the environment is too uncertain — budgets become outdated within weeks.\" Evaluate this statement. Give two arguments *for* and two *against*, then state your reasoned judgment.",
+     "a": "Arguments FOR: (1) High uncertainty makes accurate forecasting nearly impossible, so budgets may mislead rather than guide; (2) Startups pivot frequently — rigid budgets can stifle agility. Arguments AGAINST: (1) Even uncertain environments need *some* financial discipline — cash budgets prevent running out of runway; (2) Rolling/quarterly budgets adapt to change while retaining control benefits. Judgment: The statement is *partially correct but dangerous* — startups should use *flexible, short-period budgets* (e.g., monthly cash budgets) rather than abandon budgetary control entirely. A wrong answer that takes an extreme stance (fully agree/disagree) shows inability to apply the \"limitations\" concept contextually — board exams reward balanced evaluation with specific adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Cash Budget format for a small retail bakery for the month of April. Include at least 5 receipt items and 5 payment items. Show how the closing balance of March becomes the opening balance of April. Create a hypothetical scenario where the bakery faces a cash deficit and state *one* corrective action the owner can take *within the budgetary control framework*.",
+     "a": "Format: Opening Balance (₹) → Receipts: Cash Sales, Credit Collections, Loan Received, Owner's Capital, Misc. Income → Total Receipts → Payments: Raw Materials (flour, sugar), Wages, Rent, Electricity, Equipment EMI, Advertising → Total Payments → Closing Balance = Opening + Total Receipts − Total Payments. Scenario: Opening ₹50,000; Receipts ₹3,00,000; Payments ₹3,80,000 → Closing = −₹30,000 (deficit). Corrective action within framework: *Revise the cash budget* — negotiate 30-day credit with flour supplier (defer ₹40,000 payment to May), delay equipment EMI by 15 days (bank approval), or arrange short-term overdraft — then re-forecast April closing. A poor answer that suggests \"increase sales\" misses the point: budgetary control's corrective action is *budget revision or financing decisions*, not operational wishes — a confusion between planning and controlling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

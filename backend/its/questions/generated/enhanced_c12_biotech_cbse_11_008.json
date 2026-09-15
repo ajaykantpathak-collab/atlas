@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_008",
+   "title": "c12_biotech_cbse_11_008",
+   "questions": [
+    {
+     "q": "Name two abiotic stresses and one transgenic gene used to confer tolerance for each stress.",
+     "a": "Correct answer: Drought — DREB1A (transcription factor activating dehydration-responsive genes); Salinity — NHX1 (vacuolar Na⁺/H⁺ antiporter sequestering Na⁺). A wrong answer such as \"Bt gene for drought\" reveals confusion between biotic (insect) and abiotic stress mechanisms — the student is recalling a famous transgene without checking its function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why over-expressing a single antioxidant enzyme like superoxide dismutase (SOD) alone may not improve oxidative stress tolerance and can sometimes increase damage.",
+     "a": "Correct answer: SOD converts superoxide (O₂⁻) to H₂O₂; without concurrent up-regulation of H₂O₂-scavenging enzymes (catalase, ascorbate peroxidase), H₂O₂ accumulates and causes more severe oxidative damage via Fenton reactions. A wrong answer like \"SOD removes all ROS\" shows the student misses the sequential nature of the antioxidant cascade and the danger of intermediate accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "A transgenic rice line expresses the *AtNHX1* gene (vacuolar Na⁺/H⁺ antiporter) under a constitutive promoter. In a field trial with 150 mM NaCl irrigation, the transgenic plants show improved vegetative growth but reduced grain yield compared to wild type under the same stress. Propose a physiological explanation.",
+     "a": "Correct answer: Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues, reducing carbon available for grain filling. Under stress, the benefit in leaf survival outweighs the cost, but the constitutive promoter prevents down-regulation during reproductive stage when Na⁺ loading into grains is detrimental. A wrong answer focusing only on \"salt toxicity\" misses the trade-off between stress survival and yield allocation — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the DREB/CBF transcription factor strategy with the *mtlD* (mannitol-1-phosphate dehydrogenase) strategy for drought tolerance. Which is more likely to cause pleiotropic growth penalties under non-stress conditions and why?",
+     "a": "Correct answer: DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering, and yield drag because the entire stress transcriptome is activated unnecessarily. *mtlD* produces a single compatible solute (mannitol) with minimal regulatory cross-talk, so growth penalties are smaller. A wrong answer claiming \"both are equal\" ignores the master-regulator vs. single-enzyme distinction — a key concept for JEE/NEET application questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Engineering glycine betaine synthesis via *betA* gene is superior to engineering proline synthesis via *P5CS* for salinity tolerance because glycine betaine does not accumulate to toxic levels.\"",
+     "a": "Correct answer: The statement is partially true but oversimplified. Glycine betaine (GB) is indeed non-toxic at high concentrations and stabilises Rubisco and PSII, but its synthesis requires choline precursor which many crops lack, limiting GB accumulation. Proline (via P5CS) is synthesised from glutamate universally available, but high proline can inhibit growth and cause feedback inhibition. Superiority depends on the host crop's metabolic context — neither is universally better. A wrong answer accepting the statement uncritically fails to evaluate metabolic constraints and context-dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transgenic strategy for combined drought and heat tolerance in maize that minimises yield penalty under optimal conditions. Specify: (a) gene(s), (b) promoter choice, (c) subcellular targeting, and (d) one molecular assay to verify function.",
+     "a": "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e.g., *rd29A* or *HSP70* promoter) to avoid constitutive expression; (c) nuclear for DREB2A, cytosolic/chloroplastic for HSP101; (d) qRT-PCR of downstream targets (*COR15A*, *HSP17.6*) after 42°C/PEG treatment vs. control. A poor answer uses constitutive promoters (CaMV 35S) or single genes, ignoring the need for inducible, multi-target protection and validation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

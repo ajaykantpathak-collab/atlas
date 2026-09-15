@@ -1,0 +1,313 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_004_probability_distributions.json",
+ "concepts": [
+  {
+   "id": "am12_004.1",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 2 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 3 / 6"
+   ]
+  },
+  {
+   "id": "am12_004.2",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 5 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 1 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_004.3",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 3 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_004.4",
+   "family": "dispersion",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mean = (4 + 15 + 11) / 3",
+      "md = (abs(4 - mean) + abs(15 - mean) + abs(11 - mean)) / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mean = (9 + 7 + 3 + 6) / 4",
+      "sq = (9 - mean) ** 2 + (7 - mean) ** 2 + (3 - mean) ** 2 + (6 - mean) ** 2",
+      "var = sq / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sd = sqrt(64)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cv = 4 / 80 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "iqr = 33 - 22"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pos = 3 * (15 + 1) / 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_004.5",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 + (2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = -17 + (-17)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = -10 * (0)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = 52 / (-3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(7)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 5 * (2 + 7)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_004.6",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 10 + (5)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = 30 + (18)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = 1 * (1)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = 59 / (4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(12)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 7 * (7 + 8)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 10 + (5)"
+   ]
+  },
+  {
+   "id": "am12_004.7",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = -25 + (-10)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = 9 + (-14)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = 12 * (7)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = 53 / (-4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(-8)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 2 * (4 + 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

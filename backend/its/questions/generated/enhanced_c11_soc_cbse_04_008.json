@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_008",
+   "title": "c11_soc_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define evolutionary cultural change and revolutionary cultural change as distinct mechanisms. Provide one key difference in terms of the transformation of normative dimensions.",
+     "a": "Evolutionary change is gradual, incremental adaptation where cultural elements are modified without disrupting the core value system; revolutionary change is rapid, radical restructuring of fundamental values and meaning systems within a compressed timeframe. Key difference: In evolutionary change, normative dimensions (folkways, mores, laws) adjust sequentially — e.g., laws change after mores shift — whereas in revolutionary change, normative dimensions are overturned simultaneously (e.g., French Revolution abolished estate-based laws and redefined citizenship norms at once). A wrong answer that describes revolutionary change as merely \"faster\" without addressing the simultaneous collapse of meaning systems reveals confusion between pace and structural depth.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"When the material or technological dimensions change rapidly, the non-material aspects can lag behind in terms of values and norms. This can give rise to a situation of culture lag.\" Explain why culture lag is more likely to occur during evolutionary change driven by technology than during revolutionary change driven by political upheaval.",
+     "a": "In technology-driven evolutionary change, material culture (tools, machines, infrastructure) advances continuously while cognitive/normative systems adapt piecemeal, creating persistent gaps (e.g., social media norms lagging behind platform capabilities). In political revolutionary change, the non-material dimension is deliberately and simultaneously restructured — new laws, new values, new symbols are imposed top-down (e.g., French Revolution's new calendar, metric system, citizenship laws) — leaving less room for lag. A wrong answer claiming \"revolutionary change has no lag\" misses that revolutionary change can create *new* lags (e.g., revolutionary laws vs. entrenched family practices), but the mechanism differs: evolutionary lag emerges from asynchronous adaptation; revolutionary lag emerges from imposition-resistance dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following as evolutionary or revolutionary change and justify using three dimensions (cognitive, normative, material):\n(a) The shift from joint to nuclear families in urban India over three generations.\n(b) The abolition of untouchability and introduction of reservations via the Indian Constitution (1950).\n(c) The adoption of digital payments (UPI) by street vendors in Mumbai between 2016–2023.",
+     "a": "(a) Evolutionary: Cognitive (gradual redefinition of \"family duty\"), Normative (sequential weakening of filial obligation norms), Material (housing constraints driving change incrementally). (b) Revolutionary: Cognitive (radical redefinition of purity/pollution), Normative (simultaneous legal abolition + affirmative action), Material (state-enforced access to temples, water, education). (c) Evolutionary: Cognitive (trust in digital money built stepwise), Normative (cash-handling habits modified gradually), Material (smartphone penetration enabling adoption). A wrong answer classifying (c) as revolutionary because \"demonetisation was sudden\" confuses policy shock with cultural mechanism — vendors' cultural adoption remained incremental despite the external trigger.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the French Revolution (1789) and the Meiji Restoration (1868) as cases of revolutionary cultural change. Identify two similarities in their mechanisms and one critical difference in how each handled the cognitive dimension of culture.",
+     "a": "Similarities: (1) Both dismantled estate-based stratification (French estates / Japanese feudal domains) and replaced with legal equality. (2) Both imposed new normative systems top-down (French Declaration of Rights / Meiji Charter Oath). Difference: The French Revolution attacked the cognitive dimension by *destroying* traditional meaning systems (dechristianisation, new calendar, reason-worship) to build a secular rationalist framework. The Meiji Restoration *preserved and repurposed* the cognitive dimension (emperor worship, Shinto revival, Confucian loyalty) to legitimise modernisation. A wrong answer stating \"both modernised\" misses that revolutionary change can either rupture or re-embed cultural cognition — a distinction critical for analysing post-colonial India's path.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The expansion of electronic media in India since the 1990s has brought revolutionary cultural change.\" Use the concept of culture lag and the distinction between material and non-material dimensions to defend or critique this claim.",
+     "a": "The claim is partially valid but overstated. Material dimension: Revolutionary — satellite TV, internet, smartphones transformed communication infrastructure within a decade. Cognitive dimension: Evolutionary — audiences interpret new media through existing cultural schemas (e.g., TV serials reinforcing joint-family norms). Normative dimension: Mixed — new norms emerge (digital privacy, online harassment laws) but with significant lag (IT Act 2000 amended 2008, 2021; privacy recognised 2017). Culture lag is evident: material access outpaces normative regulation (e.g., deepfakes, misinformation). Thus, media *infrastructure* changed revolutionarily; cultural *meaning systems* adapted evolutionarily. A wrong answer calling it fully revolutionary ignores how Indian audiences domesticate technology (e.g., WhatsApp used for kinship maintenance, not just information), missing the non-material continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical scenario of cultural change in a rural Indian community that exhibits BOTH evolutionary and revolutionary mechanisms operating simultaneously across different cultural dimensions. Specify the trigger, the evolutionary track, the revolutionary track, and the resulting culture lag.",
+     "a": "Scenario: A tribal community in Jharkhand faces displacement due to mining (external trigger). Revolutionary track: Legal displacement forcibly severs material connection to sacred forests (material), destroys ancestor-worship rituals tied to specific sites (cognitive), and imposes cash-compensation economy replacing reciprocity norms (normative) — all within 2 years. Evolutionary track: Migrant workers gradually adopt Hindi/English for labour contracts, modify dietary norms to urban canteen food, and develop new kinship support networks in slums over 15 years. Culture lag: The revolutionary loss of sacred geography creates cognitive dislocation (no rituals for new land) while evolutionary urban adaptation produces normative contradictions (e.g., maintaining bride-price customs with cash wages). A poor answer describes only one mechanism or treats lag as a delay rather than a structural contradiction between simultaneously operating change processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

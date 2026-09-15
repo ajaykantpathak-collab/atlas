@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_7",
+   "title": "c9_physics_ch6_7",
+   "questions": [
+    {
+     "q": "State Ohm's Law and define each term.",
+     "a": "Ohm's Law: V = I * R, where V is potential difference (volts), I is current (amperes), and R is resistance (ohms). The current through a conductor is directly proportional to the potential difference across it, at constant temperature. A wrong answer (e.g., \"V = I + R\") uses addition instead of multiplication — the relationship is multiplicative: V = I * R.",
+     "self_check": true
+    },
+    {
+     "q": "A 12 V battery produces a current of 3 A through a resistor. Calculate the resistance.",
+     "a": "R = V/I = 12/3 = 4 ohms. The resistance is 4 ohms. A wrong answer (e.g., 36 from multiplying) uses the wrong formula — R = V/I, not R = V * I.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 ohm resistor has a current of 0.5 A flowing through it. What is the potential difference across it?",
+     "a": "V = I * R = 0.5 * 10 = 5 V. The potential difference is 5 volts. A wrong answer (e.g., 20 V from dividing) inverts the formula — V = I * R, not V = I/R.",
+     "self_check": true
+    },
+    {
+     "q": "What is the unit of resistance, and how is it defined?",
+     "a": "The unit of resistance is the ohm (symbol: capital omega). One ohm is the resistance of a conductor when a potential difference of 1 volt produces a current of 1 ampere: 1 ohm = 1 V/A. A wrong answer (e.g., \"ohm is the unit of current\") confuses resistance with current — the ohm is the unit of resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Under what conditions does Ohm's Law hold? Give an example where it does not.",
+     "a": "Ohm's Law holds at constant temperature and for ohmic materials (most metals at constant temperature). It does not hold when temperature changes significantly (e.g., a lightbulb filament heats up, increasing resistance, so V and I are no longer directly proportional). It also does not hold for non-ohmic devices like diodes, where the V-I relationship is not linear. A wrong answer (e.g., \"Ohm's Law always holds\") ignores the temperature condition and non-ohmic materials.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If the voltage doubles, the resistance doubles too.\" Evaluate this statement.",
+     "a": "The statement is incorrect. By Ohm's Law, V = I * R. If voltage doubles and resistance stays the same, the current doubles (I = V/R). Resistance is a property of the material (at constant temperature) — it does not change when voltage changes. The correct statement: \"If the voltage doubles and resistance stays the same, the current doubles.\" A wrong evaluation (agreeing with the student) confuses resistance (constant property) with current (which changes with voltage).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

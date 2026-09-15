@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_003",
+   "title": "c12_ip_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the output of `df.loc['Delhi']` if `df` is a DataFrame with row index `['Assam','Delhi','Kerala']` and columns `['GeoArea','VeryDense']`?",
+     "a": "It returns a **Series** containing the row for 'Delhi' with index = column labels `['GeoArea','VeryDense']`. A wrong answer like \"a DataFrame\" reveals the student thinks single-label `loc` returns a DataFrame; it returns a Series. A wrong answer like \"KeyError\" suggests they think 'Delhi' is a column label.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `df.loc[0:2]` and `df.iloc[0:2]` give different results when the DataFrame's row index is `['X','Y','Z']`.",
+     "a": "`df.loc[0:2]` looks for **row labels** 0,1,2 — since the index is `['X','Y','Z']`, label `0` doesn't exist → KeyError. `df.iloc[0:2]` takes **positions** 0 and 1 (half-open) → returns rows 'X' and 'Y'. A student who says \"both give first two rows\" confuses label-based with position-based slicing and misses that `loc` slice is inclusive of end *label* while `iloc` slice excludes end *position*.",
+     "self_check": true
+    },
+    {
+     "q": "Given a DataFrame `sales` with row index `['Madhu','Kusum','Kinshuk']` and columns `['2014','2015','2016','2017']`, write the exact `loc` statement to get a DataFrame containing only Madhu and Kusum's sales for years 2015 and 2016.",
+     "a": "`sales.loc[['Madhu','Kusum'], ['2015','2016']]` — note double brackets for lists. A wrong answer like `sales.loc['Madhu':'Kusum', '2015':'2016']` uses slices which would include Kinshuk if the index were sorted alphabetically; the question asks for *only* Madhu and Kusum, so a list of labels is required. This tests whether the student distinguishes label *list* from label *slice*.",
+     "self_check": true
+    },
+    {
+     "q": "A DataFrame `df` has 5 rows and 4 columns. Row index = `[10,20,30,40,50]`, columns = `['A','B','C','D']`. Compare the outputs of `df.loc[20:40, 'B':'C']` and `df.iloc[1:4, 1:3]`. Are they identical? Justify.",
+     "a": "**Yes, they are identical.** `df.loc[20:40, 'B':'C']` selects rows with labels 20,30,40 (inclusive) and columns 'B','C' (inclusive) → rows at positions 1,2,3 and columns at positions 1,2. `df.iloc[1:4, 1:3]` selects positions 1,2,3 (rows) and 1,2 (columns) — exactly the same subset. A student who says \"No, because loc is inclusive and iloc exclusive\" fails to realize that the *end label* 40 is at position 3, so `iloc[1:4]` stops before position 4, capturing positions 1,2,3 — matching the three labels.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student code meant to fetch the *last* row of a DataFrame `df` with unknown length: `last_row = df.loc[len(df)-1]`. Is it correct? If not, why, and what should be used?",
+     "a": "**Incorrect.** `len(df)-1` is an integer *position*, but `loc` expects a *label*. If the row index is default `RangeIndex(0, len(df))`, it accidentally works; but if the index is e.g. `['a','b','c']`, `loc[2]` raises KeyError. The correct way is `df.iloc[-1]` (last position) or `df.tail(1)`. A student who defends the code assumes the index is always 0-based integers — a dangerous habit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small DataFrame (3 rows, 3 columns) with **non-integer, non-sequential row labels** and **non-alphabetical column labels** such that `df.loc[2]` raises KeyError but `df.iloc[2]` returns a valid row. Show the DataFrame creation code and both calls.",
+     "a": "```python\nimport pandas as pd\ndf = pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], \n                  index=['rowA','rowB','rowC'], \n                  cols=['colX','colY','colZ'])  # typo: cols → columns",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

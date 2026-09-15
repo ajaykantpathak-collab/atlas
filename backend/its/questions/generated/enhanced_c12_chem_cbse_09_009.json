@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_009",
+   "title": "c12_chem_cbse_09_009",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the preparation of benzenediazonium chloride from aniline. State the temperature range and the reagents used to generate nitrous acid in situ.",
+     "a": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O at 273–278 K. Nitrous acid is generated in situ from NaNO₂ and HCl. A wrong answer (e.g., using HNO₃ instead of NaNO₂/HCl, or omitting temperature) reveals the student does not recall the specific reagents and conditions for diazotisation — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why benzenediazonium chloride is stable enough to be used in synthesis at low temperatures, whereas alkyldiazonium salts (e.g., CH₃N₂⁺Cl⁻) decompose spontaneously even at low temperatures.",
+     "a": "In aryldiazonium salts, the positive charge on the diazo group is delocalized into the aromatic ring via resonance (π-conjugation), stabilizing the ion. In alkyldiazonium salts, no such resonance exists; the alkyl group cannot delocalize the charge, so they lose N₂ instantly to form a carbocation. A wrong answer (e.g., \"aromatic rings are more stable\" without mentioning resonance delocalization of the diazo group) shows lack of understanding of the electronic stabilization specific to the –N₂⁺ group attached to an sp² carbon.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major organic product and write the balanced equation when benzenediazonium chloride is treated with: (a) CuCl/HCl, (b) CuBr/HBr, (c) KI, (d) H₂O (warming to 283 K), (e) HBF₄ followed by heating, (f) CuCN, (g) H₃PO₂ (hypophosphorous acid). Name each reaction type.",
+     "a": "(a) Chlorobenzene (Sandmeyer); (b) Bromobenzene (Sandmeyer); (c) Iodobenzene (simple displacement); (d) Phenol (hydrolysis); (e) Fluorobenzene (via diazonium fluoroborate decomposition); (f) Benzonitrile (Sandmeyer); (g) Benzene (reduction). A wrong product (e.g., giving phenol for CuCl/HCl) reveals confusion between different nucleophiles and reaction conditions — a frequent JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sandmeyer reaction and the Gattermann reaction for introducing chlorine or bromine into an aromatic ring via diazonium salts. Which gives better yield? Why is copper powder used in Gattermann instead of Cu(I) salt?",
+     "a": "Sandmeyer uses CuCl/CuBr (Cu⁺ salts) in corresponding HX; Gattermann uses Cu powder + HX (generates Cu⁺ in situ). Sandmeyer gives better yield because Cu⁺ concentration is controlled. Copper powder in Gattermann acts as a source of Cu⁺ and a reducing agent. A wrong answer stating \"both give same yield\" or \"copper powder is a catalyst\" shows misunderstanding of the role of Cu⁺ vs Cu⁰ and the practical yield difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the coupling reaction of benzenediazonium chloride with phenol as: C₆H₅N₂⁺Cl⁻ + C₆H₅OH → C₆H₅–N=N–C₆H₅OH + HCl. Identify the error(s) in this equation and write the correct balanced equation with the correct product structure (indicating the position of coupling).",
+     "a": "Errors: (1) Coupling occurs at para-position of phenol (ortho to –OH), not on the oxygen; product is p-hydroxyazobenzene (C₆H₅–N=N–C₆H₄–OH, para). (2) The reaction is carried out in mildly alkaline medium (pH 9–10), not neutral; phenol is deprotonated to phenoxide which is more reactive. Correct: C₆H₅N₂⁺Cl⁻ + C₆H₅O⁻Na⁺ → p-HOC₆H₄–N=N–C₆H₅ + NaCl. A wrong answer missing the para-selectivity or the need for alkaline medium reveals lack of understanding of electrophilic aromatic substitution on activated rings.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-step synthesis starting from aniline to prepare 1,3,5-tribromobenzene. Write the reagents and conditions for each step. Explain why direct bromination of aniline does not give this product.",
+     "a": "Step 1: Diazotise aniline (NaNO₂/HCl, 273–278 K) → benzenediazonium chloride. Step 2: Replace –N₂⁺ with –H using H₃PO₂ (or ethanol) → benzene. Step 3: Brominate benzene with Br₂/FeBr₃ (or Br₂/UV) → 1,3,5-tribromobenzene (requires excess Br₂ and catalyst). Direct bromination of aniline gives 2,4,6-tribromoaniline because –NH₂ is strongly activating; the diazonium route removes the activating group first. A wrong sequence (e.g., brominating first) shows inability to plan synthesis using diazonium chemistry as a protecting-group-like strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

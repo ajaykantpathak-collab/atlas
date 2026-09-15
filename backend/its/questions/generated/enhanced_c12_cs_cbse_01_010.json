@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_010",
+   "title": "c12_cs_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a packet-filtering firewall and a stateful inspection firewall in terms of what information they track?",
+     "a": "A packet-filtering firewall examines each packet in isolation using header fields (source/destination IP, port, protocol) without remembering past packets, while a stateful inspection firewall maintains a state table tracking active connections (TCP handshakes, sequence numbers) so it can verify that an incoming packet belongs to an established legitimate session. A wrong answer (e.g., \"stateful only checks port numbers\") reveals the student confuses rule-matching with connection-state awareness — a critical distinction for board questions on firewall evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why symmetric encryption alone is insufficient for secure key exchange over an untrusted network, and how asymmetric encryption solves this.",
+     "a": "Symmetric encryption requires both parties to already share a secret key; transmitting that key over an untrusted network exposes it to interception, defeating the purpose. Asymmetric encryption solves this by letting the receiver publish a public key (safe to share) — the sender encrypts the symmetric session key with this public key, and only the receiver's private key can decrypt it. A wrong answer (e.g., \"asymmetric is faster so we use it for everything\") reveals the student misses the performance trade-off: asymmetric is computationally heavy, so it's used only for key exchange, then symmetric takes over for bulk data.",
+     "self_check": true
+    },
+    {
+     "q": "A company uses a firewall that allows outgoing HTTP/HTTPS traffic but blocks incoming connections except replies to internal requests. An employee tries to run a game server on port 8080 from their office laptop. Will the firewall allow external players to connect? Justify.",
+     "a": "No. The firewall's rule \"allow incoming only as replies to internal requests\" means it tracks outgoing requests in its state table and permits incoming packets matching those connections (same IP/port tuples, correct sequence numbers). The game server initiates no outgoing request — it listens for unsolicited incoming connections on port 8080. Since no internal request exists for those packets, the stateful firewall drops them. A wrong answer (\"yes, port 8080 is allowed\") shows the student confuses port-based rules with stateful connection logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of a digital signature and a message authentication code (MAC) in ensuring message integrity and authenticity. Which provides non-repudiation and why?",
+     "a": "A digital signature uses asymmetric cryptography: sender signs with private key, anyone verifies with public key — providing integrity, authenticity, and non-repudiation (sender cannot deny signing because only they hold the private key). A MAC uses a shared symmetric key: both parties generate/verify the same tag — providing integrity and authenticity but NOT non-repudiation (either party could have generated the MAC). A wrong answer (\"both provide non-repudiation\") reveals confusion between symmetric and asymmetric trust models — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using a 256-bit AES key is always more secure than a 2048-bit RSA key because 256 > 2048.\" Provide a reasoned judgment.",
+     "a": "The claim is false. Key length comparisons across algorithm types are meaningless — security depends on the mathematical problem's hardness. AES-256's security derives from brute-force resistance (2^256 operations); RSA-2048's security derives from integer factorization difficulty (~112-bit symmetric equivalent per NIST). A 256-bit symmetric key is roughly equivalent to a 15360-bit RSA key. A wrong answer (\"true, bigger number = more secure\") reveals a fundamental misunderstanding of cryptographic strength metrics — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a secure communication setup for a small business with 5 employees who need to: (a) access internal file server from home, (b) send digitally signed contracts to clients, (c) protect web traffic from eavesdropping on public Wi-Fi. Specify firewall rules, encryption methods, and key management for each requirement.",
+     "a": "(a) VPN with IPsec (ESP/AH) or TLS VPN: firewall allows UDP 500/4500 (IKE) and ESP protocol; symmetric AES-GCM for data, RSA/ECDH for key exchange; each employee has a client certificate. (b) Each employee gets an X.509 certificate from a trusted CA; contracts signed with employee's private key (RSA-2048/ECDSA-P256); clients verify with public key from certificate. (c) Enforce HTTPS (TLS 1.2/1.3) via HSTS; firewall blocks HTTP (port 80) outbound; TLS uses ECDHE for forward secrecy + AES-GCM. A poor answer (e.g., \"just use passwords\") shows inability to map requirements to specific protocols and trust models — essential for competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

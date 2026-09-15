@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_006",
+   "title": "c12_bs_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the two twin objectives of financial planning as per NCERT.",
+     "a": "The two twin objectives are: (a) To ensure availability of funds whenever required — estimating quantum and timing for long-term assets and day-to-day expenses, and specifying sources; (b) To see that the firm does not raise resources unnecessarily — avoiding idle funds that add to cost and encourage wasteful expenditure.  \nA wrong answer like \"maximising profit\" or \"minimising cost\" reveals the student is confusing financial planning's operational objective (smooth fund flow) with financial management's strategic objective (wealth maximisation). Financial planning is a SUPPORT function, not the decision-making function itself.",
+     "self_check": true
+    },
+    {
+     "q": "\"Financial planning is a substitute for financial management.\" — True or False? Justify your answer in two sentences using NCERT terminology.",
+     "a": "False. Financial management aims at choosing the best investment and financing alternatives by focusing on their costs and benefits to increase shareholders' wealth. Financial planning aims at smooth operations by focusing on fund requirements and their availability in the light of financial decisions. They are complementary: financial decisions (e.g., capital budgeting) trigger the need for financial planning to forecast the resultant fund flows.  \nA student answering \"True\" reveals they don't distinguish between the DECISION function (financial management) and the FORECASTING/COORDINATION function (financial planning). This is a classic board exam trap — the NCERT explicitly states \"financial planning is not equivalent to, or a substitute for, financial management.\"",
+     "self_check": true
+    },
+    {
+     "q": "A company forecasts 20% sales growth next year. Its current fixed assets are ₹100 crore, current assets ₹40 crore, and current liabilities ₹15 crore. The fixed assets to sales ratio is 0.5, and current assets to sales ratio is 0.2. Current liabilities to sales ratio is 0.075. If the company wants to maintain these ratios, calculate the additional funds required (AFN) for next year. Current sales = ₹200 crore.",
+     "a": "Step 1: Projected sales = ₹200 crore × 1.20 = ₹240 crore.  \nStep 2: Required fixed assets = 0.5 × ₹240 crore = ₹120 crore → increase = ₹20 crore.  \nStep 3: Required current assets = 0.2 × ₹240 crore = ₹48 crore → increase = ₹8 crore.  \nStep 4: Spontaneous current liabilities = 0.075 × ₹240 crore = ₹18 crore → increase = ₹3 crore.  \nStep 5: AFN = (ΔFixed Assets + ΔCurrent Assets) – ΔSpontaneous Liabilities = (₹20 + ₹8) – ₹3 = ₹25 crore.  \nA wrong answer forgetting to subtract spontaneous liabilities (getting ₹28 crore) reveals the student doesn't understand that trade credit (creditors, outstanding expenses) grows automatically with sales — a key working capital planning concept from c12_bs_cbse_09_007.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of financial planning in a stable, mature FMCG company (e.g., HUL) vs. a high-growth tech startup (e.g., a new EV battery firm). Explain how the \"forecasting under different business situations\" importance point applies differently.",
+     "a": "For HUL: Sales growth is predictable (5-8%), so financial planning focuses on fine-tuning working capital cycles, optimising cash buffers, and coordinating large-scale production-distribution. Alternative scenarios (10% vs 30% growth) are narrow; planning reduces waste/duplication in a complex, stable machine.  \nFor the EV startup: Sales could be 0% or 300% — scenarios are WIDE. Financial planning's primary value is preparing multiple blueprints (conservative, base, aggressive) for fund requirements so the firm doesn't run out of cash during scaling or sit on expensive idle capital if growth stalls. The \"linking present with future\" and \"avoiding business shocks\" importance points are CRITICAL here.  \nA student giving identical answers for both reveals they treat financial planning as a mechanical ratio exercise, not a strategic uncertainty-management tool tailored to business risk profile.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since financial planning aims to avoid excess funds, a company should always raise funds only when a payment is due — just-in-time financing eliminates idle cash.\" Use the concept of floatation costs and financial risk.",
+     "a": "The statement is flawed. Just-in-time financing ignores: (1) Floatation costs — frequent small issuances (equity/debt) incur repeated SEBI fees, underwriting commissions, credit rating costs, which can exceed the interest on temporarily idle funds. (2) Financial risk — markets may be closed (bear phase, credit freeze) exactly when funds are needed; a company with no cash buffer faces liquidation risk. (3) Signalling effect — frequent equity issues signal desperation, depressing share price. NCERT lists \"floatation costs\" and \"stock market conditions\" as capital structure factors; financial planning must balance idle cash cost against these risks.  \nA student agreeing reveals they view \"idle funds\" only through an accounting lens (interest cost) ignoring corporate finance realities (market access, signalling, transaction costs) — a common error in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step financial planning checklist for a Class 12 student's family planning a ₹15 lakh home renovation over 18 months. The father gets a ₹50,000/month salary, mother ₹30,000/month, and they have ₹3 lakh savings. Include: (a) sales forecast equivalent, (b) fund requirement estimation, (c) source identification.",
+     "a": "Step 1 (Sales Forecast Equivalent): Create a monthly \"income forecast\" — father's salary (₹50k), mother's salary (₹30k), any bonuses/increments expected. Total monthly inflow = ₹80k. Project for 18 months = ₹14.4 lakh.  \nStep 2 (Fund Requirement): Renovation cost ₹15 lakh + 10% contingency = ₹16.5 lakh. Monthly living expenses (rent, food, EMIs) = ₹40k × 18 = ₹7.2 lakh. Total outflow = ₹23.7 lakh. Net deficit = ₹23.7L – ₹14.4L = ₹9.3 lakh.  \nStep 3 (Sources): Internal = ₹3 lakh savings + ₹9.3 lakh from salary surplus? But salary surplus is only ₹40k/month × 18 = ₹7.2 lakh. Gap = ₹2.1 lakh. External sources: (i) Top-up home loan (lowest cost, tax benefit), (ii) Loan against FD (if any), (iii) Personal loan (last resort). Prioritise by cost and flexibility.  \nA poor answer that just says \"save more\" or \"take a loan\" without quantifying the gap and sequencing sources by cost reveals the student cannot translate the corporate financial planning process to personal finance — missing the core competency of \"linking present with future.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

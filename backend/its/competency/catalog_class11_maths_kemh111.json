@@ -1,0 +1,145 @@
+{
+  "class": 11,
+  "subject": "maths",
+  "chapter": 111,
+  "chapter_title": "Introduction to Three Dimensional Geometry",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh111.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kemh111.11.2.1",
+      "title": "Coordinate Axes and Coordinate Planes in Space",
+      "section": "11.2",
+      "definition": "To locate points off the flat page, three mutually perpendicular number lines are set up meeting at an origin: the x-axis, y-axis and z-axis. Each pair of axes spans a flat coordinate plane -- the XY, YZ and ZX planes -- and together the three axes cut all of space into eight octants.",
+      "formula": "",
+      "key_idea": "Three axes give three coordinate planes, and the trio of planes partitions space into eight octants numbered by sign pattern.",
+      "textbook_ref": "kemh111.txt lines 40-110 (section 11.2, coordinate axes, three coordinate planes, eight octants)",
+      "question_patterns": [
+        "name the three coordinate planes in three dimensional space",
+        "in class 11 3D geometry: how many octants do the coordinate planes create",
+        "what is the plane containing the x-axis and the y-axis called",
+        "where do the three coordinate axes meet",
+        "describe how the axes divide space into regions",
+        "which plane is perpendicular to the z-axis"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "set up the three axes", "explain": "The x, y and z-axes are drawn mutually perpendicular through a common origin O, with distances measured in the chosen unit."},
+        {"step": 2, "action": "form the coordinate planes", "explain": "Every pair of axes defines a plane: XY, YZ and ZX -- three flat walls through the origin."},
+        {"step": 3, "action": "count the regions", "explain": "The three planes slice space into eight octants, mirroring how two axes cut a plane into four quadrants."}
+      ]
+    },
+    {
+      "id": "kemh111.11.3.1",
+      "title": "Coordinates of a Point in Space and Sign Patterns",
+      "section": "11.3",
+      "definition": "A point in space carries a triple (x, y, z): walk x units along the x-axis, y along the y direction and z along the z direction. A point on an axis keeps two of its coordinates zero, a point on a coordinate plane keeps exactly one zero, and the sign pattern of the triple names the octant it lives in.",
+      "formula": "",
+      "key_idea": "Zeros localise the point -- two zeros means an axis, one zero means a coordinate plane, none means inside an octant.",
+      "textbook_ref": "kemh111.txt lines 111-190 (section 11.3, coordinates of a point in space, points on axes and planes, octant sign patterns)",
+      "question_patterns": [
+        "what do the three coordinates of a point in space measure",
+        "in class 11 3D geometry: what are the coordinates of a point lying on the x-axis",
+        "which coordinate is zero for a point in the XY-plane",
+        "identify the octant of the point with given signs of x, y and z",
+        "write the coordinates of the point at distance a from the origin along the z-axis",
+        "how does an ordered triple differ from an ordered pair"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read the triple", "explain": "The three entries of (x, y, z) record perpendicular distances from the three coordinate planes, taken with signs."},
+        {"step": 2, "action": "apply the zero test", "explain": "Two zero coordinates place the point on the remaining axis; a single zero places it on the coordinate plane of the other two axes."},
+        {"step": 3, "action": "decode the octant", "explain": "The signs (+, -, +) for instance mark the fifth octant; all signs positive is the first octant, and each sign flip moves to a mirrored octant."}
+      ]
+    },
+    {
+      "id": "kemh111.11.4.1",
+      "title": "Distance Between Two Points in Space",
+      "section": "11.4",
+      "definition": "Extending the Pythagorean idea from the plane, the gap between points P(x1, y1, z1) and Q(x2, y2, z2) is the square root of the sum of the squared gaps in all three coordinates. The distance of a point from the origin is the same formula with the other point pinned at (0, 0, 0).",
+      "formula": "dist3d = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2)",
+      "key_idea": "Pythagoras applied twice -- once inside the horizontal plane, once lifting through the vertical -- gives the 3D distance.",
+      "textbook_ref": "kemh111.txt lines 191-260 (section 11.4 distance between two points, formula derivation, distance from origin)",
+      "question_patterns": [
+        "find the distance between the two given points in space",
+        "calculate how far the point sits from the origin",
+        "in class 11 3D geometry: state the distance formula for points in space",
+        "check whether the three given points form a right triangle using distances",
+        "show that the given points are the vertices of an equilateral triangle",
+        "which of the two points lies farther from the origin"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "difference each coordinate", "explain": "Form the three coordinate gaps between the two points.",
+         "compute": "gap_sq = (x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2"},
+        {"step": 2, "action": "take the square root", "explain": "The square root of the summed squares is the straight-line distance.",
+         "compute": "dist3d = sqrt(gap_sq)"}
+      ]
+    },
+    {
+      "id": "kemh111.11.3.2",
+      "title": "Midpoint and Section Ideas for Space Points",
+      "section": "11.3",
+      "definition": "Coordinate triples behave like ordered pairs under averaging: the point halfway between two space points simply averages each coordinate. This averaging view lets you test symmetric placements -- for example checking whether the origin is the centre of a segment -- before the full section formula arrives in class 12.",
+      "formula": "",
+      "key_idea": "Averaging coordinates coordinate-wise gives the halfway point of any segment in space.",
+      "textbook_ref": "kemh111.txt lines 111-190 and 260-300 (section 11.3 examples with triples; worked placements relative to origin and axes)",
+      "question_patterns": [
+        "find the midpoint of the segment joining two space points",
+        "is the origin the midpoint of the segment between the given points",
+        "in class 11 3D geometry: how do you average coordinates of two points",
+        "check which given point is symmetric to another about the XY-plane",
+        "what point mirrors a space point across the z-axis",
+        "verify that a given triple is the average of two others"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "pair up the coordinates", "explain": "Match first with first, second with second, third with third across the two triples."},
+        {"step": 2, "action": "average each pair", "explain": "Each coordinate of the midpoint is the arithmetic mean of the corresponding coordinates of the endpoints."},
+        {"step": 3, "action": "use symmetry checks", "explain": "Reflecting through a coordinate plane flips one coordinate's sign; through an axis, two signs flip -- these checks settle mirror questions instantly."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kemh111.txt lines 191-260 (distance between two points)",
+      "concept": "kemh111.11.4.1",
+      "question_type": "compute",
+      "question_pattern": "Find the distance between the points ({x1}, {y1}, {z1}) and ({x2}, {y2}, {z2}).",
+      "extracted_variables": {"x1": 1, "y1": 2, "z1": 3, "x2": 4, "y2": 6, "z2": 3},
+      "solution_template": [
+        {"step": 1, "action": "difference each coordinate", "explain": "gap_sq = (4-1)^2 + (6-2)^2 + (3-3)^2 = 9 + 16 + 0 = 25.", "compute": "gap_sq = (x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2"},
+        {"step": 2, "action": "take the square root", "explain": "dist3d = sqrt(25) = 5.", "compute": "dist3d = sqrt(gap_sq)"}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kemh111.txt lines 191-260 (distance from origin)",
+      "concept": "kemh111.11.4.1",
+      "question_type": "compute",
+      "question_pattern": "How far is the point ({x2}, {y2}, {z2}) from the origin ({x1}, {y1}, {z1})?",
+      "extracted_variables": {"x1": 0, "y1": 0, "z1": 0, "x2": 2, "y2": 4, "z2": 4},
+      "solution_template": [
+        {"step": 1, "action": "difference each coordinate", "explain": "gap_sq = 4 + 16 + 16 = 36.", "compute": "gap_sq = (x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2"},
+        {"step": 2, "action": "take the square root", "explain": "dist3d = sqrt(36) = 6.", "compute": "dist3d = sqrt(gap_sq)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kemh111.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "A point lies on the positive direction of the x-axis at distance 5 from the origin; write its coordinates.",
+        "Name the octant in which each of the given points lies.",
+        "What are the coordinates of a point in the XZ-plane?",
+        "Find the distance between the points (2, 3, 5) and (4, 3, 1).",
+        "Show that the points (0, 7, 10), (-1, 6, 6) and (-4, 9, 6) form an isosceles triangle.",
+        "Check whether the points (0, 7, -10), (1, 6, -6) and (4, 9, -6) are collinear.",
+        "Which coordinate plane is equidistant from the two given points?",
+        "Find the distance of the point (3, 4, 12) from the origin."
+      ]
+    }
+  ]
+}

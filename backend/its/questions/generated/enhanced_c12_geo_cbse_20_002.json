@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_002",
+   "title": "c12_geo_cbse_20_002",
+   "questions": [
+    {
+     "q": "A geography student is given the average monthly temperature (°C) for Chennai: Jan 24.3, Feb 25.6, Mar 27.7, Apr 30.5, May 33.0, Jun 32.5, Jul 30.9, Aug 30.4, Sep 29.8, Oct 28.0, Nov 25.9, Dec 24.1. Which one-dimensional diagram is MOST appropriate and why?",
+     "a": "Line graph — because temperature is a continuous variable measured at regular time intervals (months), and the line shows the smooth seasonal trend (rise to May, drop after monsoon). A bar diagram would incorrectly imply discrete, independent categories. Wrong answer (bar diagram) reveals the student does not distinguish continuous vs. discrete data nature — a fundamental classification error that costs marks in CBSE \"justify your choice\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "In a polygraph comparing sex ratio (females per 1000 males) of Kerala, Haryana, and Punjab from 1961–2011, the student draws all three lines as solid (_ _ _ _). The examiner deducts marks. What rule did the student violate and what is the correct convention?",
+     "a": "NCERT requires different line patterns (solid, dashed, dotted, dash-dot) or colours for each variable in a polygraph to enable visual distinction without a legend clash. Using identical solid lines makes the graph unreadable where lines cross. Wrong answer reveals the student treats polygraph as \"multiple line graphs on same axes\" rather than a single comparative diagram with built-in visual coding — a specific CBSE practical exam marking point.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple bar diagram for the following data: Rice production (lakh tonnes) in major states 2020–21 — West Bengal 155, Uttar Pradesh 142, Punjab 128, Andhra Pradesh 112, Tamil Nadu 85. Use graph paper with 1 cm = 10 lakh tonnes. Show all steps: axis labeling, scale, bar width, spacing, and title placement.",
+     "a": "Steps: (1) Draw X-Y axes; X-axis: states (equal spacing, 1 cm gap between bars); Y-axis: production, scale 1 cm = 10 lakh tonnes (max 155 → 15.5 cm). (2) Bar widths uniform (e.g., 1 cm). (3) Heights: WB 15.5 cm, UP 14.2 cm, Punjab 12.8 cm, AP 11.2 cm, TN 8.5 cm. (4) Title centered top: \"Rice Production in Major States, 2020–21 (lakh tonnes)\". (5) Y-axis label: \"Production (lakh tonnes)\". (6) X-axis labels: state names. Wrong answer (unequal bar widths, no units on Y-axis, title missing year) shows the student memorizes \"draw bars\" but misses NCERT's explicit construction rules (a), (b), (c) — these are 1-mark deductions each in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "A compound bar diagram shows electricity generation (billion kWh) for 2018–19, 2019–20, 2020–21 with thermal, hydro, nuclear components stacked. The student observes: \"Thermal share decreased from 83% to 78%.\" Is this conclusion directly readable from the compound bar diagram? Justify.",
+     "a": "No — compound bar diagrams show absolute component values (segment lengths = absolute generation), not percentages. To read percentage shares, the student must compute (segment height ÷ total bar height) × 100 for each year. The diagram only allows direct visual comparison of absolute component magnitudes across years. Wrong answer (\"yes, visible\") reveals confusion between compound bar (absolute stacking) and percentage bar diagram (each bar = 100%) — a classic CBSE trap in \"interpret the diagram\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For comparing literacy rates (total, male, female) across seven decades (1951–2011), a multiple bar diagram is superior to a polygraph.\" State two geographical/statistical reasons supporting or refuting this claim.",
+     "a": "Refute — polygraph is superior here because: (1) Literacy rates are continuous time-series data (decadal intervals); lines show trend continuity and rate of change (slope) which bars obscure. (2) Three variables × 7 time points = 21 bars in multiple bar diagram → visual clutter; three lines in polygraph remain clean. Wrong answer (\"multiple bar is better for comparison\") shows the student defaults to \"bars for comparison\" without analyzing data structure (time-series vs. cross-sectional) — a higher-order thinking gap that appears in CUET/NEET geography data-interpretation sets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-dimensional diagram to represent the following for a Class 12 practical exam: \"Monthly rainfall (cm) and temperature (°C) for Mumbai — show both on one diagram.\" Specify diagram type, dual-axis scale construction, plotting method, and legend requirements. Explain why this combined diagram is preferred over two separate diagrams for climatic analysis.",
+     "a": "Combined line-and-bar diagram (climograph): X-axis = months (Jan–Dec). Left Y-axis = temperature scale (e.g., 1 cm = 2°C, range 20–33°C). Right Y-axis = rainfall scale (e.g., 1 cm = 10 cm, range 0–60 cm). Plot temperature as line graph (dots joined), rainfall as vertical bars. Legend: red line = temperature, blue bars = rainfall. Title: \"Climograph of Mumbai: Monthly Temperature and Rainfall\". Preferred because: (1) direct visual correlation of rain peaks with temperature dips (monsoon cooling), (2) single diagram saves space/time in exam, (3) standard geographical convention for climate data (Köppen classification uses such diagrams). Poor answer (two separate diagrams, single axis, no legend) misses the \"closely associated characteristics\" rule in NCERT Example 3.4 — a 3-mark practical question staple.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

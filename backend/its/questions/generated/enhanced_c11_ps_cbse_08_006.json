@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_006",
+   "title": "c11_ps_cbse_08_006",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly prohibits the State from compelling any citizen to pay taxes for the promotion or maintenance of any particular religion?",
+     "a": "Article 27. A wrong answer (e.g., Article 25 or 28) reveals the student is conflating the general freedom of religion (Art. 25) or freedom from religious instruction in state-aided institutions (Art. 28) with the specific prohibition on financial extraction for religious purposes. This confusion indicates a lack of granular reading of the Freedom of Religion cluster.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Article 25(2)(b) — which allows the State to make laws 'providing for social welfare and reform or the throwing open of Hindu religious institutions of a public character to all classes and sections of Hindus' — is considered a departure from the Western 'wall of separation' model.",
+     "a": "Article 25(2)(b) explicitly authorises state intervention in the internal affairs of a religion (Hinduism) for social reform and egalitarian access, which the Western model of mutual exclusion forbids. A wrong answer that claims Article 25 only protects religious practice shows the student misses the 'internal limitation' clause (25(2)) and therefore cannot grasp the Indian model's 'principled distance' logic.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law taking over the management of a historic mosque, arguing it is a 'public trust' mismanaged by its current board. The board challenges the law under Article 26 (right to manage religious affairs). Using the constitutional text, analyse whether the state law is likely to be upheld.",
+     "a": "Article 26(b) guarantees every religious denomination the right to manage its own affairs in matters of religion, subject to public order, morality, and health. The Supreme Court (e.g., Shirur Mutt case) has held that 'matters of religion' include administration of property, but the state can regulate secular aspects (financial accountability, property disputes) under general law. A total takeover of management would likely violate Article 26 unless justified by a compelling public order/morality ground. A wrong answer claiming absolute state power or absolute denomination autonomy shows failure to apply the 'subject to' clause and the secular/religious distinction in administration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of 'minority' in Article 29(1) ('any section of citizens having a distinct language, script or culture') and Article 30(1) ('all minorities, whether based on religion or language'). Why does the Constitution use different bases for cultural rights (Art. 29) and educational institutional rights (Art. 30)?",
+     "a": "Article 29(1) protects cultural identity broadly (language/script/culture) for any 'section of citizens', including linguistic minorities within a religious majority. Article 30(1) specifically guarantees the right to establish/administer educational institutions to 'minorities based on religion or language' because educational autonomy is seen as essential for preserving the distinct identity of these two historically vulnerable categories. A wrong answer treating the two articles as identical reveals inability to distinguish between general cultural conservation (Art. 29) and specific institutional autonomy (Art. 30) — a key distinction in cases like St. Stephen's College vs. University of Delhi.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The inclusion of Article 44 (Uniform Civil Code) as a Directive Principle proves that the Constitution's ultimate goal is to eliminate religious personal laws, making Indian secularism inherently assimilationist rather than pluralistic.\"",
+     "a": "The argument is weak. Article 44 is a non-justiciable Directive Principle (Art. 37), while Articles 25, 26, and 29–30 are justiciable Fundamental Rights protecting religious practice and minority culture. The Constituent Assembly debates show Article 44 was a aspirational goal for *future* consensus-based reform, not a mandate for immediate assimilation. The Supreme Court (e.g., Shah Bano, Sarla Mudgal) has urged UCC but never struck down personal laws as unconstitutional per se. A wrong answer agreeing with the prompt ignores the hierarchical difference between Fundamental Rights and Directive Principles and the 'principled distance' that allows coexistence of personal laws with secularism.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision (in your own words) that would allow the state to regulate the *secular* finances of a religious institution (e.g., auditing temple donations) while strictly prohibiting interference in its *religious* rituals (e.g., priest appointment), using the language and logic of Articles 25–26.",
+     "a": "A good answer will mirror Article 25(2)(a) language: \"The State may make laws regulating or restricting any economic, financial, political or other secular activity associated with religious practice, including the audit of accounts and management of property of religious institutions; provided that no such law shall interfere with the essential religious rites, ceremonies, or the appointment of religious functionaries as determined by the tenets of that religion.\" A poor answer either fails to separate 'secular activity' from 'religious practice' or omits the 'essential religious practice' safeguard, showing inability to operationalise the Shirur Mutt doctrine.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

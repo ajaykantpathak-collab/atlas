@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_008",
+   "title": "c12_eco_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define oligopoly and state the condition that gives rise to the kink in the demand curve under the Sweezy model.",
+     "a": "Oligopoly is a market structure with a few large firms, interdependent decision-making, barriers to entry, and homogeneous or differentiated products. The kink arises because firms assume rivals will match price decreases (making demand inelastic below the current price) but ignore price increases (making demand elastic above the current price). A wrong answer (e.g., \"kink occurs because of government regulation\" or \"rivals match both increases and decreases\") reveals confusion about the behavioral assumption driving the model — the asymmetry in expected reactions is the core of the kinked demand hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the marginal revenue curve is discontinuous at the kink, and how this discontinuity leads to price rigidity even when marginal cost changes.",
+     "a": "The demand curve has two linear segments with different slopes (elastic above, inelastic below). MR for each segment is derived separately: for a linear demand P = a - bQ, MR = a - 2bQ. Because the slopes differ, the two MR segments do not meet at the kink quantity — they create a vertical gap. Profit maximization requires MC = MR; as long as MC passes through this vertical gap, the equilibrium quantity (and hence price at the kink) remains unchanged. A wrong answer (e.g., \"MR is continuous but kinked\" or \"price rigidity occurs because firms collude\") shows the student hasn't grasped the geometric derivation of MR from a piecewise linear demand curve.",
+     "self_check": true
+    },
+    {
+     "q": "An oligopoly firm faces the following kinked demand curve:  \nFor P ≥ 100: P = 140 - 0.4Q  \nFor P ≤ 100: P = 180 - 0.8Q  \nThe current price is ₹100. Marginal cost is MC = 20 + 0.2Q.  \n(a) Find the kink quantity. (b) Derive the MR curves for both segments. (c) Determine the profit-maximizing output and price. (d) If MC shifts to MC' = 30 + 0.2Q, does the price change?",
+     "a": "(a) At P=100, upper segment: 100 = 140 - 0.4Q → Q = 100. Lower segment: 100 = 180 - 0.8Q → Q = 100. Kink at Q=100, P=100.  \n(b) Upper MR: P = 140 - 0.4Q → MR₁ = 140 - 0.8Q. Lower MR: P = 180 - 0.8Q → MR₂ = 180 - 1.6Q.  \nAt Q=100: MR₁ = 140 - 80 = 60; MR₂ = 180 - 160 = 20. Vertical gap: MR ∈ [20, 60].  \n(c) Set MC = MR. Try upper: 20 + 0.2Q = 140 - 0.8Q → Q = 120 → P = 140 - 48 = 92 (but this is below kink, invalid for upper segment). Try lower: 20 + 0.2Q = 180 - 1.6Q → 1.8Q = 160 → Q ≈ 88.9 → P = 180 - 71.1 = 108.9 (above kink, invalid). Since no solution on either segment, equilibrium occurs at kink where MC passes through gap: MC at Q=100 is 20+20=40, which lies in [20,60]. So Q*=100, P*=100.  \n(d) New MC at Q=100: 30+20=50, still in [20,60]. Price remains ₹100.  \nA wrong answer (e.g., solving only one segment and ignoring the gap) reveals failure to apply the discontinuity condition — the defining feature of the model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinked demand curve model with the monopolistic competition model (c12_eco_cbse_06_006) on: (i) number of firms, (ii) nature of product, (iii) demand curve elasticity, (iv) price rigidity, and (v) role of non-price competition.",
+     "a": "(i) Oligopoly: few firms (2-10); Monopolistic competition: many firms.  \n(ii) Oligopoly: homogeneous or differentiated; Monopolistic competition: differentiated.  \n(iii) Oligopoly: demand has a kink — elastic above, inelastic below; Monopolistic competition: downward sloping, relatively elastic due to many substitutes.  \n(iv) Oligopoly: price rigidity due to MR discontinuity; Monopolistic competition: no inherent rigidity — price adjusts with MC shifts.  \n(v) Oligopoly: non-price competition (advertising, product variation) is intense to avoid price wars; Monopolistic competition: non-price competition is central (product differentiation is the defining feature).  \nA wrong answer (e.g., \"both have price rigidity\" or \"oligopoly has many firms\") shows inability to distinguish market structures — a key board exam skill tested in comparison tables.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The kinked demand curve model explains why oligopoly prices are sticky, but it does not explain how the initial price at the kink is determined.\" Use the concepts of autonomous vs. accommodating transactions from BoP (c12_eco_cbse_06_009 is not yet covered, but use general reasoning) to analogize why this is a limitation.",
+     "a": "The statement is correct. The model takes the prevailing price as given (exogenous) and explains why it stays there — the kink is at the current price. It does not provide a theory of how that price was initially set (e.g., via collusion, price leadership, or historical accident). This is like knowing that official reserve transactions accommodate a BoP deficit (autonomous transactions drive the deficit, reserves accommodate) but not knowing what caused the autonomous deficit in the first place. The model is a theory of price rigidity, not price determination. A wrong answer (e.g., \"the model determines price where MC=MR at the kink\") confuses the equilibrium condition (MC passes through gap at the given kink) with determination of the kink's location.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world Indian oligopoly scenario (e.g., domestic airlines) where the kinked demand curve assumptions hold, and another where they fail. For each, specify the expected rival reaction pattern and the implication for price stability.",
+     "a": "Scenario where assumptions hold: Indian domestic airlines (IndiGo, Air India, Vistara, SpiceJet) on a major route like Delhi-Mumbai. If IndiGo cuts fares, others match immediately (price war hurts all); if IndiGo raises fares, others may not follow, gaining market share. Result: fares remain stable for months — kink at current fare.  \nScenario where assumptions fail: Cement industry (UltraTech, Ambuja, ACC) during a construction boom. If demand surges, firms may raise prices together (tacit collusion) — rivals match increases too, so no kink. Or in telecom (Jio, Airtel, Vi), Jio's 2016 entry with near-zero prices was a disruptive price cut not matched immediately — rivals lost share, violating \"match cuts\" assumption.  \nA poor answer (generic \"sometimes it works, sometimes not\") shows inability to apply the model's behavioral assumptions to concrete market contexts — a competency tested in case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

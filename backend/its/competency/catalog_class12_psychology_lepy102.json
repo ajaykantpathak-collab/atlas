@@ -1,0 +1,419 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 2,
+ "chapter_title": "Self and Personality",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy102.1",
+   "title": "Concept of Self: Personal and Social Identity",
+   "section": "Concept of Self",
+   "definition": "The self is the whole set of conscious ideas, thoughts and feelings a person holds about her or his own existence; it splits into a personal identity that marks one off from everybody else and a social identity that ties one to a group, and it works both as the knower (subject) and the known (object).",
+   "formula": "self = personal_identity + social_identity ; subject_knower plus object_known",
+   "key_idea": "A newborn has no self - it takes shape through interaction with parents, friends and teachers, and it keeps changing with experience.",
+   "textbook_ref": "lepy102.txt, Concept of Self (Activity 2.1, self as subject and object, biological/personal/social self)",
+   "question_patterns": [
+    "distinguish personal identity from social identity with one example of each",
+    "how does the self act as both subject and object in knowing itself?",
+    "why does a newborn child have no idea of self at birth?",
+    "explain the difference between the personal self and the familial or relational self",
+    "in Class 12 psychology, what does self as totality of conscious experience mean?",
+    "give one situation where the self expands to include others and one where it withdraws inward"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two-directional status of self",
+     "explain": "as subject the self does the knowing; as object it is the thing that gets observed and known"
+    },
+    {
+     "step": 2,
+     "action": "check the developmental claim",
+     "explain": "the self emerges only as the child grows and interacts with significant people, so it is modifiable rather than inborn"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which identity marks one person off from everybody else: personal or social?",
+     "a": "personal identity"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.2",
+   "title": "Self-esteem, Self-efficacy and Self-regulation",
+   "section": "Self-esteem, Self-efficacy and Self-regulation",
+   "definition": "Self-esteem is the value judgment a person passes on her or his own worth; self-efficacy is the belief that one personally controls life outcomes rather than luck or fate; and self-regulation is the capacity to organise, monitor and restrain one's own behaviour, including delaying gratification.",
+   "formula": "self_esteem = own_worth_judgment ; self_efficacy = perceived_personal_control ; self_regulation = organised_monitored_behaviour",
+   "key_idea": "By age 6-7 children judge themselves in four areas - academic, social, physical-athletic and appearance - and warm, accepting parenting raises esteem while over-assisting parents lower it.",
+   "textbook_ref": "lepy102.txt, sections on Self-esteem (four areas), Self-efficacy (Bandura's social learning basis), Self-regulation (observation, self-instruction, self-reinforcement)",
+   "question_patterns": [
+    "define self-esteem and name the four areas in which children judge themselves by age six or seven",
+    "how does Bandura's social learning theory explain the growth of self-efficacy?",
+    "which three psychological techniques help in developing self-control - describe each briefly",
+    "why do children whose parents decide everything for them often develop low self-esteem?",
+    "what is meant by delay or deferment of gratification, and why does it matter for long-term goals?",
+    "contrast a person high on self-efficacy with one who attributes outcomes to luck or fate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four self-esteem areas",
+     "explain": "academic competence, social competence, physical or athletic competence, and physical appearance are the areas established by 6-7 years"
+    },
+    {
+     "step": 2,
+     "action": "check the self-control techniques",
+     "explain": "observation of one's own behaviour, self-instruction, and self-reinforcement are the three psychological techniques of self-control"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The value judgment a person passes on her own worth is called what?",
+     "a": "self-esteem"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.3",
+   "title": "Culture and Self: Indian versus Western Views",
+   "section": "Culture and Self",
+   "definition": "Western culture draws a comparatively fixed line between self and others, keeping individual and group as separate entities, whereas the Indian view lets that line shift - the self sometimes fuses with the cosmos or the group and at other times turns wholly inward.",
+   "formula": "western_self = fixed_self_other_boundary ; indian_self = shifting_boundary_with_cosmos_and_group",
+   "key_idea": "Individualistic Western cultures hold self and group apart, while collectivistic Asian cultures keep the self in harmonious co-existence with its group.",
+   "textbook_ref": "lepy102.txt, Culture and Self (Figure 2.1 self and group boundaries in Western and Indian perspectives)",
+   "question_patterns": [
+    "how does the Indian notion of self differ from the Western notion?",
+    "why are many Western cultures called individualistic and Asian cultures collectivistic?",
+    "explain the shifting boundary between self and other in the Indian cultural view",
+    "what dichotomies does Western thinking draw between self and other, and man and nature?",
+    "in the Indian view what happens to the self-boundary from one moment to the next?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the boundary contrast",
+     "explain": "the Western boundary between self and other stays relatively fixed, while the Indian boundary shifts between fusion and withdrawal"
+    },
+    {
+     "step": 2,
+     "action": "check the group relation",
+     "explain": "in the Indian view the self is not separated from its own group - both co-exist harmoniously - whereas Western culture keeps them at a distance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which culture keeps a comparatively fixed boundary between self and others: Western or Indian?",
+     "a": "Western"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.4",
+   "title": "Type and Trait Approaches to Personality",
+   "section": "Type Approaches / Trait Approaches",
+   "definition": "Type approaches sort people into broad behavioural patterns - Hippocrates' four humours, Charak Samhita's tridosha and trigunas, Sheldon's body builds, Jung's introvert-extravert, and Friedman and Rosenman's Type-A and Type-B - while trait approaches such as Allport's cardinal-central-secondary scheme, Cattell's sixteen source traits and Eysenck's dimensions rate people on specific attributes along which they differ consistently.",
+   "formula": "type_approach = broad_behavioural_patterns ; trait_approach = specific_enduring_attributes",
+   "key_idea": "Types are simple and stereotype-prone; traits are relatively stable over time, fairly consistent across situations, and their combinations create individual differences.",
+   "textbook_ref": "lepy102.txt, Type Approaches and Trait Approaches (Sheldon, Jung, Type-A/B/C/D; Allport, Cattell's 16PF, Eysenck, Box 2.2 Big Five)",
+   "question_patterns": [
+    "how does the trait approach to personality differ from the type approach?",
+    "name the four humoural types proposed by Hippocrates and the three doshas of Charak Samhita",
+    "describe the three body-build types in Sheldon's typology with their temperaments",
+    "why are people with Type-A personality more prone to hypertension and coronary heart disease?",
+    "list Allport's cardinal, central and secondary traits with one example of each",
+    "state the two dimensions of Eysenck's theory and the third dimension added later",
+    "name the five factors of the Big Five model of personality with one feature of each"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the classification logic of types",
+     "explain": "each behavioural pattern defines one type and people are placed by similarity; the fit is usually too neat to be true, which is the standard criticism"
+    },
+    {
+     "step": 2,
+     "action": "check the three stability claims for traits",
+     "explain": "traits stay relatively stable over time, remain generally consistent across situations, and vary in strength and combination between individuals"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sorting people into broad behavioural patterns is which approach: type or trait?",
+     "a": "type"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.5",
+   "title": "Freud: Structure of Personality and Defence Mechanisms",
+   "section": "Psychodynamic Approach",
+   "definition": "Freud pictures the mind as three levels of consciousness - conscious, preconscious and unconscious - and personality as a contest among id (pleasure principle), ego (reality principle) and superego (moral branch); when the ego cannot bear anxiety it distorts reality through defence mechanisms such as repression, projection, denial, reaction formation and rationalisation.",
+   "formula": "personality_structure = id_pleasure + ego_reality + superego_moral ; defence = anxiety_reduced_by_distorting_reality",
+   "key_idea": "The libido energises the id; unresolved conflict shows up in slips, jokes and dreams, and only extreme use of defences produces maladjustment.",
+   "textbook_ref": "lepy102.txt, Psychodynamic Approach (levels of consciousness, id-ego-superego, ego defence mechanisms, free association and dream analysis)",
+   "question_patterns": [
+    "how does Freud explain the structure of personality through id, ego and superego?",
+    "differentiate the pleasure principle of the id from the reality principle of the ego with an example",
+    "define a defence mechanism and name four major ones described by Freud",
+    "why is repression called the most important defence mechanism?",
+    "a student buys new pens after failing an exam and says they will improve her marks - which defence mechanism is at work?",
+    "what are the three levels of consciousness in Freud's model of the mind?",
+    "which instinctual force energises the id according to Freud?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three-structure division",
+     "explain": "id demands immediate gratification, ego gratifies needs realistically, and superego judges whether gratification is ethical by internalising parental authority"
+    },
+    {
+     "step": 2,
+     "action": "check the defence mechanism definition",
+     "explain": "a defence reduces anxiety by distorting reality; it is normal in moderation but becomes maladjustment when reality is truly distorted"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Freudian structure obeys the pleasure principle?",
+     "a": "id"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.6",
+   "title": "Psychosexual Stages and Post-Freudian Theories",
+   "section": "Stages of Personality Development / Post-Freudian Approaches",
+   "definition": "Freud places personality growth in five psychosexual stages - oral, anal, phallic, latency and genital - where failure at any stage fixes development there or pushes it back; post-Freudians widened the account: Jung's collective unconscious of archetypes, Horney's basic anxiety from disturbed childhood relations, Adler's inferiority complex and individual psychology, Fromm's social orientation, and Erikson's lifelong search for ego identity.",
+   "formula": "stages = oral + anal + phallic + latency + genital ; fixation_or_regression = unresolved_stage_conflict",
+   "key_idea": "The Oedipus complex is resolved in the phallic stage by identifying with the same-sex parent; neo-analytic theorists trimmed sexuality and enlarged the ego and social forces.",
+   "textbook_ref": "lepy102.txt, five psychosexual stages with Oedipus and Electra complexes; Post-Freudian Approaches (Jung, Horney, Adler, Fromm, Erikson) and their criticisms",
+   "question_patterns": [
+    "name Freud's five psychosexual stages in order with the pleasure focus of each",
+    "what is fixation and how does regression return a person to an earlier stage?",
+    "explain the resolution of the Oedipus complex in the phallic stage",
+    "how does Jung's collective unconscious with its archetypes differ from Freud's unconscious?",
+    "how would Horney's account of a disorder differ from Adler's inferiority-based explanation?",
+    "which post-Freudian theorist made the adolescent identity crisis central to development?",
+    "state two criticisms levelled against psychodynamic theories"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the stage sequence and its failure modes",
+     "explain": "development moves from oral to anal, phallic, latency and genital; failure arrests growth at a stage (fixation) or drives the person back to a less mature one (regression)"
+    },
+    {
+     "step": 2,
+     "action": "check the post-Freudian shift",
+     "explain": "neo-analytic theories downplay id sexuality and aggression, expand the ego, and stress creativity, competence and problem solving"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many psychosexual stages did Freud propose?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.7",
+   "title": "Humanistic, Behavioural and Cultural Approaches",
+   "section": "Behavioural Approach / Cultural Approach / Humanistic Approach",
+   "definition": "Behaviourists treat personality as reinforced stimulus-response learning where the response is the structural unit; the cultural approach reads personality as adaptation to a group's economic maintenance system, as the Birhor hunting-gathering and agricultural contrasts show; and humanists - Rogers with the real and ideal self plus unconditional positive regard, Maslow with self-actualisation at the top of the needs hierarchy - see people striving to fulfil their potential.",
+   "formula": "rogers_congruence = real_self matches ideal_self -> fully_functioning_person ; maslow_top_need = self_actualisation",
+   "key_idea": "A gap between real and ideal self breeds unhappiness; children of hunting-gathering societies learn independence and achievement while agricultural socialisation rewards obedience and nurturance.",
+   "textbook_ref": "lepy102.txt, Behavioural Approach (response as structural unit), Cultural Approach (Birhor example), Humanistic Approach (Rogers fully functioning person, Maslow self-actualisation, Box 2.3 healthy person)",
+   "question_patterns": [
+    "what is the main proposition of the humanistic approach and what did Maslow mean by self-actualisation?",
+    "why does a discrepancy between real self and ideal self produce dissatisfaction in Rogers' view?",
+    "which condition did Rogers name as necessary for enhancing a person's self-concept?",
+    "how does the behavioural approach treat the response as the structural unit of personality?",
+    "compare the personality qualities socialised in hunting-gathering and agricultural societies",
+    "using Carl Rogers' terms, describe a family that disapproves of a child's career choice while claiming to love him",
+    "what role does the economic maintenance system play in the cultural approach?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the congruence claim",
+     "explain": "correspondence between real and ideal self brings happiness, while discrepancy breeds unhappiness and dissatisfaction"
+    },
+    {
+     "step": 2,
+     "action": "check the ecological adaptation claim",
+     "explain": "personality qualities track the demands of a group's livelihood - independence and achievement orientation suit hunting-gathering, obedience and responsibility suit agriculture"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which need crowns Maslow's hierarchy: self-actualisation or safety?",
+     "a": "self-actualisation"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.8",
+   "title": "Self-Report Measures and Rating-Scale Scoring",
+   "section": "Assessment of Personality - Self-report Measures",
+   "definition": "Self-report measures are structured questionnaires - MMPI with 567 true-false statements on 10 subscales, Eysenck's EPQ, Cattell's 16PF - where responses are scored quantitatively and read against norms; their weak points are social desirability and acquiescence, the habit of agreeing with items regardless of content.",
+   "formula": "esteem_mean = rating_total / area_count",
+   "key_idea": "Average the ratings a person gives across areas to quantify a self-report score; high numbers on endorsed statements mean high standing on that attribute.",
+   "textbook_ref": "lepy102.txt, Self-report Measures (MMPI and MMPI-2 with 567 statements and 10 subscales, JMPI, EPQ, 16PF, social desirability and acquiescence biases)",
+   "question_patterns": [
+    "a child rates her academic, social, physical and appearance areas - find her mean self-esteem score",
+    "how many statements does the MMPI contain and how is it divided for diagnosis?",
+    "which Indian inventory was modelled on the MMPI?",
+    "what is acquiescence and how does it distort self-report assessment?",
+    "why do responses on a rating scale get accepted at face value in self-report measures?",
+    "compute the average rating from a four-area self-esteem checklist with given marks"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the ratings across the four self-esteem areas",
+     "explain": "each area - academic, social, physical-athletic and appearance - carries one rating on the scale",
+     "compute": "rating_total = academic_rating + social_rating + physical_rating + appearance_rating"
+    },
+    {
+     "step": 2,
+     "action": "divide the summed ratings by the number of areas",
+     "explain": "the mean puts all respondents on one comparable scale regardless of how many items were used",
+     "compute": "esteem_mean = rating_total / area_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many true-false statements does the MMPI carry?",
+     "a": "567"
+    }
+   ]
+  },
+  {
+   "id": "lepy102.9",
+   "title": "Projective Techniques: Rorschach and TAT",
+   "section": "Assessment of Personality - Projective Techniques",
+   "definition": "Projective techniques reach unconscious motives through unstructured stimuli on which people project feelings and needs; shared features include ambiguous material, hidden purpose, no right or wrong answers, and subjective lengthy scoring; the Rorschach inkblot test, Thematic Apperception Test, Rosenzweig picture-frustration study, sentence completion and draw-a-person tests are the standard examples.",
+   "formula": "blot_total = black_white_blots + red_ink_blots + pastel_blots",
+   "key_idea": "The Rorschach set holds ten symmetric blots - five black and white, two with red ink, three pastel - administered in a performance proper phase and an inquiry phase.",
+   "textbook_ref": "lepy102.txt, Projective Techniques (five shared features, Rorschach 10 inkblots, TAT 30 picture cards plus one blank card by Morgan and Murray)",
+   "question_patterns": [
+    "how many inkblots make up the Rorschach test and what is their colour composition?",
+    "name the two phases in which Rorschach cards are administered individually",
+    "who developed the Thematic Apperception Test and how many cards does it contain?",
+    "state any three features common to all projective techniques",
+    "why can projective techniques reach motives that direct methods miss?",
+    "what does omission of facial features in a draw-a-person response suggest?",
+    "in the Rosenzweig picture-frustration study, on what are responses analysed?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the achromatic cards with the red-inked cards",
+     "explain": "five blots are printed in black and white and two carry red ink",
+     "compute": "achromatic_plus_red = black_white_blots + red_ink_blots"
+    },
+    {
+     "step": 2,
+     "action": "add the pastel-coloured blots to reach the full set",
+     "explain": "the remaining three blots use pastel colours, completing the standard ten-card series",
+     "compute": "blot_total = achromatic_plus_red + pastel_blots"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many symmetric inkblots does the Rorschach test hold?",
+     "a": "10"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy102.we1",
+   "concept_id": "lepy102.8",
+   "problem": "On a four-area self-esteem checklist, a child rates academic competence 4, social competence 5, physical-athletic competence 3 and physical appearance 4 on a five-point scale. Find her mean self-esteem score.",
+   "given": {
+    "academic_rating": 4,
+    "social_rating": 5,
+    "physical_rating": 3,
+    "appearance_rating": 4,
+    "area_count": 4
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "sum the four area ratings",
+     "compute": "rating_total = 4 + 5 + 3 + 4"
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of areas",
+     "compute": "esteem_mean = rating_total / 4"
+    }
+   ],
+   "answer": "esteem_mean = 4, a generally positive self-view across the four areas assessed by age 6-7"
+  },
+  {
+   "id": "lepy102.we2",
+   "concept_id": "lepy102.9",
+   "problem": "Verify the composition of the Rorschach inkblot series: 5 blots in black and white, 2 carrying red ink, and 3 in pastel colours. How many cards does the full set contain?",
+   "given": {
+    "black_white_blots": 5,
+    "red_ink_blots": 2,
+    "pastel_blots": 3
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "add the black-and-white and red-ink cards",
+     "compute": "achromatic_plus_red = 5 + 2"
+    },
+    {
+     "step": 2,
+     "action": "add the pastel cards to complete the series",
+     "compute": "blot_total = achromatic_plus_red + 3"
+    }
+   ],
+   "answer": "blot_total = 10, the standard Rorschach series administered in performance proper and inquiry phases"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy102.ex1",
+   "source_ref": "lepy102.txt Review Questions (chapter-end)",
+   "questions": [
+    "What is self, and how does the Indian notion of self differ from the Western one?",
+    "What is meant by delay of gratification, and why does it matter for adult development?",
+    "Define personality and name the main approaches to its study.",
+    "How does the trait approach differ from the type approach to personality?",
+    "Explain Freud's account of the structure of personality.",
+    "Contrast Horney's explanation of psychological disturbance with Alfred Adler's.",
+    "What is the central claim of the humanistic approach, and what did Maslow mean by self-actualisation?",
+    "Discuss the observational methods used in personality assessment along with their problems.",
+    "What are structured personality tests, and which two are used most widely?",
+    "Explain how projective techniques assess personality and name the widely used projective tests."
+   ]
+  },
+  {
+   "id": "lepy102.ex2",
+   "source_ref": "lepy102.txt Activity 2.1 (Understanding the Self) and Assessment sections",
+   "questions": [
+    "Complete eight sentences beginning with 'I am' and sort your answers into personal and social identities.",
+    "A subject endorses 6 of 10 self-esteem statements; a second subject endorses 3. Who shows higher self-esteem and why?",
+    "Write one sample instruction and one sample item each for the Rorschach test, TAT and sentence completion method."
+   ]
+  }
+ ]
+}

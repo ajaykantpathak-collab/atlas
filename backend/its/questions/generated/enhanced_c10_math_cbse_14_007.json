@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_007",
+   "title": "c10_math_cbse_14_007",
+   "questions": [
+    {
+     "q": "State the complement rule for probability.",
+     "a": "P(not E) = 1 − P(E), where \"not E\" is the complement of event E. A wrong answer (e.g., \"P(not E) = P(E)\") shows the student does not understand the relationship between an event and its complement.",
+     "self_check": true
+    },
+    {
+     "q": "If P(E) = 0.3, find P(not E).",
+     "a": "P(not E) = 1 − 0.3 = 0.7. A wrong answer (e.g., 0.3 or −0.3) shows the student cannot apply the complement formula.",
+     "self_check": true
+    },
+    {
+     "q": "A die is rolled. What is the probability of NOT getting a prime number?",
+     "a": "P(prime) = 3/6 = 1/2 (primes: 2, 3, 5). P(not prime) = 1 − 1/2 = 1/2. (Non-primes: 1, 4, 6 — note 1 is not prime.) A wrong answer (e.g., 3/6 = 1/2 without showing the complement step, or including 1 as prime) shows incomplete reasoning or a number theory error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why P(E) + P(not E) = 1.",
+     "a": "The sample space S is the union of E and \"not E\", and they are mutually exclusive (an outcome either is in E or is not, but not both). So P(E) + P(not E) = P(S) = 1. A wrong answer (e.g., \"because they are the same event\") shows the student does not understand that E and not E partition the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "A bag has 10 balls, 4 of which are defective. What is the probability of drawing a non-defective ball?",
+     "a": "P(defective) = 4/10 = 2/5. P(non-defective) = 1 − 2/5 = 3/5. (Directly: 6 non-defective out of 10, P = 6/10 = 3/5.) A wrong answer (e.g., 4/10) shows the student computed P(defective) instead of P(non-defective).",
+     "self_check": true
+    },
+    {
+     "q": "Three coins are tossed. Use the complement rule to find the probability of getting at least one head.",
+     "a": "P(at least one head) = 1 − P(no heads) = 1 − P(TTT) = 1 − 1/8 = 7/8. The complement of \"at least one head\" is \"no heads\" (all tails), which is easier to compute. A wrong answer (e.g., listing all 7 favourable outcomes and getting 7/8 without using the complement) is correct but misses the efficiency of the method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

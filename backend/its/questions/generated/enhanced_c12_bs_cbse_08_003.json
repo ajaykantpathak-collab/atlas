@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_003",
+   "title": "c12_bs_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the exact NCERT phrase that describes the relationship between planning and controlling, and explain what \"planning is prescriptive whereas controlling is evaluative\" means in your own words.",
+     "a": "The NCERT describes them as \"inseparable twins of management.\" \"Prescriptive\" means planning *prescribes* or lays down in advance what should be done, how, when, and by whom — it sets the course. \"Evaluative\" means controlling *evaluates* or judges whether what was actually done matches what was prescribed — it checks the scorecard. A wrong answer (e.g., \"planning is doing, controlling is checking\") reveals the student confuses the *nature* of the functions (thinking vs checking) with their *sequence* (before vs after), missing that planning is an intellectual process of *deciding* standards, not executing them.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Planning looks ahead, controlling looks back — so they are opposites.\" Using the NCERT logic, explain why this statement is only \"partially correct\" and give one concrete example showing how controlling also looks forward.",
+     "a": "The statement is partially correct because plans are made *for* the future (forward-looking) and controlling compares *past* actuals with standards (backward-looking). However, controlling is *also* forward-looking because its corrective actions (e.g., retraining staff, revising schedules) aim to *improve future performance*, not just fix the past. Example: A factory finds December production 10% below target (backward-looking). The corrective action — hiring two skilled workers for January — is forward-looking. A wrong answer that only cites \"controlling looks at past data\" misses the *purpose* of control: future improvement, not postmortem.",
+     "self_check": true
+    },
+    {
+     "q": "\"Zenith Ltd.\" sets a sales target of ₹50 lakh for Q1 (planning). At the end of January, actual sales are ₹12 lakh against a monthly target of ₹16.67 lakh. The sales manager investigates and finds the new product launch was delayed by two weeks. He accelerates the February launch and adds two sales executives. Identify: (a) the planning element, (b) the controlling element, (c) the corrective action, and (d) how this corrective action becomes an input for *future* planning.",
+     "a": "(a) Planning element: Setting the ₹50 lakh Q1 target and monthly break-up of ₹16.67 lakh — the *standard*. (b) Controlling element: Measuring January sales (₹12 lakh), comparing with standard (₹16.67 lakh), identifying the ₹4.67 lakh deviation, and analysing its cause (delayed launch). (c) Corrective action: Accelerating February launch + adding two sales executives. (d) This corrective action generates data (launch timing, staffing impact) that becomes *factual input* for next quarter's planning — e.g., the next plan will incorporate realistic launch lead times and optimal team size. A wrong answer that stops at (c) misses the *cycle*: control data → better future plans.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which NCERT principle each illustrates:\nStatement A: \"Because the production manager set precise quantitative standards (5 defects per 1000 units), the quality inspector could instantly flag the batch with 8 defects.\"\nStatement B: \"Last year's control reports showed frequent raw material shortages in March, so this year's purchase plan includes a 15% buffer stock for March.\"\nExplain the *direction* of the relationship in each case (planning → controlling OR controlling → planning).",
+     "a": "Statement A illustrates **\"Planning based on facts makes controlling easier and effective\"** — direction: **Planning → Controlling**. Quantitative standards from planning enable quick, objective comparison. Statement B illustrates **\"Controlling improves future planning by providing information derived from past experience\"** — direction: **Controlling → Planning**. Past deviation data (shortages) directly shapes the new plan (buffer stock). A wrong answer that swaps the directions confuses the *causal flow*: standards enable control (A), control data enables better standards (B).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this management approach: \"Our CEO believes detailed planning wastes time. He says, 'We'll set broad goals, then control tightly every week to fix whatever goes wrong.' He calls this 'agile management.'\" Use the NCERT concept \"controlling is blind without planning\" to evaluate whether this approach can work in a manufacturing firm with 500 employees. Give two specific risks.",
+     "a": "The approach fails because **without specific standards, controlling has no benchmark** — \"tight weekly control\" measures *what* against *what*? In a 500-employee manufacturing firm, two specific risks: (1) **Inconsistent evaluation**: One supervisor may accept 2% defect rate, another 0.5% — no \"standard\" exists to align them. (2) **Corrective action paralysis**: When a deviation is found (e.g., machine downtime 4 hrs/day), there is no *planned* threshold (e.g., \"max 1 hr/day\") to decide if action is needed — leading to either overreaction or neglect. \"Broad goals\" (e.g., \"be efficient\") are not standards; NCERT explicitly states standards must be \"precise quantitative terms\" for control to work. A wrong answer that praises \"agility\" misses that *agility requires a baseline* to deviate from.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-month \"Plan-Control Cycle\" for a school's Class 12 Board Exam preparation program. Your cycle must show: (i) a specific planning output that becomes a controlling standard, (ii) a controlling step that measures against that standard, (iii) a corrective action, and (iv) how the corrective action feeds into the *next* month's plan. Present as a table with columns: Month, Planning Output (Standard), Controlling Measure, Deviation Found, Corrective Action, Input to Next Plan.",
+     "a": "| Month | Planning Output (Standard) | Controlling Measure | Deviation Found | Corrective Action | Input to Next Plan |\n|-------|----------------------------|---------------------|-----------------|-------------------|---------------------|\n| Jan   | Complete Ch 1-3 syllabus; 3 mock tests; target avg 75% | Weekly test scores; syllabus coverage tracker | Avg 62%; Ch 3 only 40% done | Extra 2 hrs/week for Ch 3; peer tutoring for weak students | Feb plan: Reduce new syllabus load; add 1 revision test/week; include Ch 3 remediation slot |\n| Feb   | Complete Ch 4-6; 4 mock tests (incl. 1 full-length); target avg 80% | Mock test analysis; chapter-wise accuracy | Full-length test: 68%; time management poor | Timed practice drills; exam strategy workshop | Mar plan: Shift focus to full-length tests (2/week); drop new topics; add stress-management session |\n| Mar   | 6 full-length mocks; target avg 85%; zero new content | Mock scores vs Board pattern; error-type analysis | Careless errors 30%; conceptual gaps in Ch 5 | Error-log maintenance; targeted Ch 5 micro-revision | **Next cycle (Board Exam)**: Final strategy — time allocation per section; error-check protocol; confidence anchors from mock trends |\n\nA poor answer lists activities without showing the *data flow* from control → plan (e.g., \"Jan deviation → Feb plan change\" missing). The key is column 6 explicitly deriving from column 5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

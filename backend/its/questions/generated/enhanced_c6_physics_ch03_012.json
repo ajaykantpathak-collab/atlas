@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_012",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_012",
+   "title": "c6_physics_ch03_012",
+   "questions": [
+    {
+     "q": "What are the four basic components required to build a simple electrical circuit?",
+     "a": "The four components are a power source (battery or cell), a load (bulb or motor), connecting wires, and a switch. Answering only with \"wires and a battery\" reveals the student ignores the need for a load to use the energy and a complete path to flow.",
+     "self_check": true
+    },
+    {
+     "q": "If your bulb is connected to a battery with a single wire, why does it not light up?",
+     "a": "The bulb does not light up because the path is incomplete; electricity requires a closed loop to return to the source. A student who thinks one wire is enough is failing to understand the requirement for a two-way path (to and from the battery).",
+     "self_check": true
+    },
+    {
+     "q": "You have a battery, a bulb, and two wires. If you connect one wire to the positive side of the battery and the other end of that same wire to the negative side of the battery, what happens?",
+     "a": "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot. This tests the student's understanding that the load (bulb) must be part of the path, not just sitting nearby.",
+     "self_check": true
+    },
+    {
+     "q": "If a circuit is \"open,\" what does that mean for the electricity flowing through it?",
+     "a": "An \"open\" circuit means there is a gap in the path, so the electricity stops flowing immediately. Students who confuse \"open\" with \"on\" are struggling with the literal meaning of a circuit as a \"circle\" or \"closed loop.\"",
+     "self_check": true
+    },
+    {
+     "q": "If a friend suggests that the bulb only needs to touch one terminal of the battery to glow, how would you prove them wrong using your circuit materials?",
+     "a": "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path. This requires the student to judge the claim based on the necessity of a closed circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a way to add a \"switch\" using a simple paperclip and two thumbtacks to control the bulb.",
+     "a": "The paperclip should be attached to one thumbtack so it can pivot and touch the second thumbtack, closing the gap in the wire. A poor answer fails to realize that the switch must be placed in the *path* of the wire to control the flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_04_006",
+   "title": "c12_hin_a_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the difference between the 'subject' (विषय) and the 'theme' (मुख्य भाव/थीम) of a poem? Give an example from 'cukjl'.",
+     "a": "Subject is the literal topic: 'a drying pond in summer'. Theme is the abstract insight: 'the inevitable dissolution of all formed existence and the silence that follows'. A wrong answer (e.g., 'the theme is the pond drying up') reveals the student conflates plot summary with thematic abstraction — a fundamental category error that prevents analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "The poem moves from 'olar dk mrjuk' (stanza 1) to 'èkhjs&èkhjs gksuk' (stanza 3). Explain in your own words what this progression signifies about the poem's thematic architecture.",
+     "a": "The progression signifies a movement from sensory particularity (the sound of drying mud) to existential generality (the condition of 'becoming' itself). 'Olar dk mrjuk' is the audible symptom of water leaving; 'èkhjs&èkhjs gksuk' names the ontological process of entities losing their defining boundaries. A wrong answer that only lists the two phrases without explaining the shift from concrete to abstract shows the student sees isolated images but not the poem's structural logic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'objective correlative' (T.S. Eliot) to this poem: which specific set of images in stanza 1 functions as the objective correlative for the theme of 'irreversible loss'? Justify your selection.",
+     "a": "The images 'fHk[kkfj;ksa dk fupkV [kkyhiu' (expansive spread of fish skeletons) and '[kkyh dVksjksa esa olar dk mrjuk' (mud cracking in dry streambeds) form the objective correlative. They are concrete, sensory, and externally observable facts that evoke the internal state of irreversible loss without naming it. A wrong answer selecting 'vpkud vkrk gS' (afternoon falls) fails because it's a temporal marker, not a visceral correlative of loss.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the repetition of 'èkhjs&èkhjs' (stanza 3) structurally enacts the theme it describes. Consider both semantic accumulation and rhythmic effect.",
+     "a": "The reduplication 'èkhjs&èkhjs' performs what it denotes: each repetition is a further 'loosening' of the word's fixed identity, mimicking the theme of boundaries dissolving. Semantically, it accumulates instances (people walking, birds flying, memory fading) until the category 'èkhjs&èkhjs' swallows its own content. Rhythmically, the long vowels and aspirated consonants create a slowing, exhaling cadence — the sound of things letting go. A wrong answer treating it as mere emphasis ('the poet repeats to stress') misses the performative enactment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: 'The poem's final stanza (\"viuh ,d Vk¡x ij [kM+k gS ;g 'kgj...\") resolves the tension between the particular scene and the universal theme by asserting the speaker's subjective perception as the only reality.' Defend or refute with textual evidence.",
+     "a": "Refute. The final stanza does not resolve into subjectivity; it radicalizes the theme by declaring the pond's condition IS the universal condition ('vxj è;ku ls ns[kks rks ;g vkèkk gS'). The speaker's 'Vk¡x' (gaze) is not private — it's the necessary condition for the world to reveal its true nature as 'vkèkk' (existence). The line 'vkSj vkèkk ugha gS tks ugha gS' collapses the distinction between appearance and reality. A wrong answer accepting the claim reveals a misreading of 'Vk¡x' as individual perspective rather than ontological witness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line poetic response (in Hindi or English) that captures the primary theme of 'cukjl' without using any imagery from the original poem. Your response must show the movement from concrete to abstract.",
+     "a": "Example criteria: (1) Opens with a tangible, decaying image (e.g., 'Peeling paint on a shut door'), (2) Shows the process of unmaking ('Layer by layer the colour surrenders'), (3) Names the universal principle ('All form is borrowed time'), (4) Ends in the silence after unmaking ('The wall remembers only wind'). A poor response stays at the descriptive level ('The door is old and broken') or jumps to abstraction without the concrete anchor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

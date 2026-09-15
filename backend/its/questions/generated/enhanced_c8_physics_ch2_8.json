@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_8",
+   "title": "c8_physics_ch2_8",
+   "questions": [
+    {
+     "q": "Name the material commonly used for the heating element in an electric iron and state ONE property that makes it suitable.",
+     "a": "Nichrome (nickel-chromium alloy) is used because it has high resistivity and a high melting point (≈1400°C), so it produces lots of heat without melting. A wrong answer like \"copper\" reveals the student thinks good conductors make good heaters, confusing low resistance (for wires) with high resistance (for elements).",
+     "self_check": true
+    },
+    {
+     "q": "Why does an incandescent bulb's filament glow white-hot while the connecting wires remain cool, even though the same current flows through both?",
+     "a": "The filament is made of tungsten with very high resistance (and high melting point 3400°C), so by H = I²Rt, it produces enormous heat per second, reaching 2500°C and emitting light. The connecting wires are thick copper with very low resistance, so negligible heat is produced. A wrong answer focusing only on \"thin vs thick\" misses the crucial role of material resistivity and melting point.",
+     "self_check": true
+    },
+    {
+     "q": "An electric heater rated 1000 W operates on 230 V household supply. Calculate the current drawn and the resistance of its heating element. (Use P = VI and V = IR)",
+     "a": "Step 1: P = 1000 W, V = 230 V. Find I = P/V = 1000/230 = 4.35 A.\nStep 2: Find R = V/I = 230/4.35 = 52.9 Ω.\nStep 3: Check units: W/V = A, V/A = Ω. Correct.\nA wrong answer using P = I²R without finding I first, or mixing up formulas, shows inability to chain power and Ohm's law relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical electric irons (same resistance) are connected: one at 230 V, another at 110 V (using a step-down transformer). Compare the heat produced per minute in each. Explain the practical implication for using an Indian iron abroad.",
+     "a": "Heat H = (V²/R)t. At 110 V, heat is (110/230)² = 0.23 times (≈23%) of the heat at 230 V. The iron will heat very slowly and may not reach working temperature. A wrong answer saying \"half the voltage gives half the heat\" reveals confusion between linear (V) and quadratic (V²) dependence, ignoring that current also halves.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A 60 W bulb and a 100 W bulb are connected in series across 230 V. The 100 W bulb will glow brighter because it has higher power rating.\" Evaluate this claim.",
+     "a": "The claim is FALSE. In series, current is same. Brightness depends on actual power dissipated P = I²R. The 60 W bulb has HIGHER resistance (R = V²/P, so R₆₀ > R₁₀₀). Since I is same, the 60 W bulb dissipates more power (I²R₆₀ > I²R₁₀₀) and glows brighter. A wrong agreement shows the student applies parallel-circuit reasoning (where higher wattage = brighter) to a series circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, nichrome wire, and a small beaker of water to demonstrate that heat produced depends on the square of current (H ∝ I²). List the variables you would change, measure, and keep constant.",
+     "a": "Change: Current (by varying number of cells in series or using a rheostat). Measure: Temperature rise of water (ΔT) in fixed time. Keep constant: Length/thickness of nichrome wire, mass of water, time. Plot ΔT vs I; a parabolic curve confirms H ∝ I². A poor answer that only changes voltage without controlling resistance or time shows lack of experimental design understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

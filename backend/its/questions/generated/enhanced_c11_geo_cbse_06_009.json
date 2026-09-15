@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_009",
+   "title": "c11_geo_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define the term \"critical erosion velocity\" and state how it varies with particle size for cohesive vs non-cohesive sediments according to the Hjulström curve.",
+     "a": "Critical erosion velocity is the minimum flow velocity required to initiate motion of a sediment particle of a given size. For non-cohesive sediments (sand, gravel), it increases with particle size (larger grains need higher velocity). For cohesive sediments (clay, silt), critical erosion velocity is anomalously high for very fine particles due to electrochemical bonding, creating a \"cohesion peak\" on the Hjulström curve where clay requires higher velocity to erode than sand. A wrong answer (e.g., \"critical velocity always increases with particle size\") reveals the student has not grasped the cohesive sediment exception — a classic Class 11 error that leads to incorrect predictions about mud vs sand transport.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a river with a discharge of 500 m³/s can transport boulders during a flood but only silt during base flow, using the concepts of stream competence and capacity.",
+     "a": "Stream competence (maximum particle size transportable) varies with velocity (∝ V⁶ for bed load), so flood velocities (e.g., 3 m/s) provide competence for boulders, while base flow velocities (e.g., 0.5 m/s) only achieve competence for silt. Stream capacity (total sediment load) varies with discharge and velocity; higher discharge during floods increases both competence and capacity. A wrong answer confusing competence (size) with capacity (quantity) reveals the student cannot distinguish between the *maximum size* a river can move versus the *total volume* it can carry — a fundamental error in fluvial geomorphology.",
+     "self_check": true
+    },
+    {
+     "q": "A river channel has a width of 30 m, mean depth of 2.5 m, and slope of 0.001. Using Manning's equation (n = 0.035), calculate the mean velocity and determine whether the flow can erode 2 mm sand grains (critical erosion velocity ≈ 20 cm/s).",
+     "a": "Step 1: Hydraulic radius R = A/P = (30×2.5)/(30+2×2.5) = 75/35 = 2.14 m. Step 2: Manning's V = (1/n)R^(2/3)S^(1/2) = (1/0.035)×(2.14)^(2/3)×(0.001)^(1/2) = 28.57×1.66×0.0316 ≈ 1.50 m/s = 150 cm/s. Step 3: Compare 150 cm/s > 20 cm/s critical velocity. Step 4: Flow can erode 2 mm sand. A wrong calculation (e.g., forgetting hydraulic radius, using wrong n value, or unit error) reveals inability to apply hydraulic geometry equations — a quantitative skill required for board exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the erosion mechanisms of glacial ice (plucking, abrasion) with fluvial erosion (hydraulic action, abrasion, solution) and explain why glaciers can erode bedrock more deeply than rivers under similar gradient conditions.",
+     "a": "Glacial erosion operates through plucking (freeze-thaw wedging at bedrock joints, entraining blocks) and abrasion (debris-laden ice acting as sandpaper), with the entire ice mass (density ~900 kg/m³) moving as a viscous solid, concentrating basal shear stress over large areas. Fluvial erosion relies on turbulent water (density 1000 kg/m³) with tools (sediment) impacting bedrock; shear stress is limited by flow depth and turbulence. Glaciers achieve deeper erosion because: (1) basal ice pressure enables plucking of jointed blocks impossible for water, (2) sustained basal contact over kilometers vs localized turbulence, (3) ice deformation allows erosion on adverse slopes (up-glacier). A wrong answer focusing only on \"ice is harder than water\" misses the process-mechanism distinction and the role of basal thermal regime.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Wind is an ineffective agent of erosion compared to water because air density is 1/800th of water.\" Consider sediment transport modes, threshold velocities, and landscape effectiveness in arid regions.",
+     "a": "The statement is partially true but misleading. While air density (1.2 kg/m³) vs water (1000 kg/m³) means wind requires much higher velocities for equivalent shear stress (τ = ρu*²), wind compensates through: (1) sustained high velocities over vast areas (no channel confinement), (2) saltation bombardment that disaggregates surface crusts, (3) selective removal of fines (deflation) leaving lag deposits, (4) effectiveness in vegetation-free arid zones where water is absent. In the Thar Desert, wind erosion rates can exceed fluvial rates in humid regions when averaged over millennia. A wrong evaluation (simply agreeing/disagreeing without quantitative reasoning) shows inability to weigh competing factors — a key competency for geographical assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to measure and compare sediment characteristics (size, shape, sorting) deposited by a mountain stream, a desert dune, and a glacial moraine in the Indian Himalaya. Specify sampling strategy, instruments, and how you would link grain attributes to transport process.",
+     "a": "Good answer: Stratified random sampling at 3 sites (e.g., Alaknanda river, Nubra Valley dunes, Siachen moraine). Use sieve analysis (phi scale) for size, Zingg chart for shape (roundness/sphericity), calculate sorting coefficient (σ = φ84 - φ16 / 2). Link: fluvial = moderate sorting, sub-rounded, imbrication; aeolian = well-sorted, high sphericity, frosted surfaces; glacial = very poorly sorted (till), angular, striated clasts. Poor answer (e.g., \"collect rocks and look at them\") reveals no understanding of process-sediment linkage or quantitative sedimentology methods required at senior secondary level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

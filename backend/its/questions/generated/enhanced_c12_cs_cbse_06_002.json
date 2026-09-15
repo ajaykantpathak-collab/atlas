@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_002",
+   "title": "c12_cs_cbse_06_002",
+   "questions": [
+    {
+     "q": "What is the exact pip command to install the official MySQL Connector for Python, and what is the import statement used in Python code to access it?",
+     "a": "The pip command is `pip install mysql-connector-python` and the import statement is `import mysql.connector`. A wrong answer (e.g., `pip install mysql` or `import mysql`) reveals that the student confuses the package name with the import name or uses an unofficial/legacy driver.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we cannot simply write `import mysql` after installing `mysql-connector-python`, and what the dot in `mysql.connector` signifies.",
+     "a": "The package installs a top-level namespace `mysql` with a submodule `connector`; `import mysql` only loads the namespace, not the connector functionality. The dot indicates we are importing the `connector` submodule from the `mysql` package. A wrong answer shows the student does not understand Python's package/module hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs `pip install mysql-connector-python` in a terminal and gets \"Requirement already satisfied\". They then run a Python script with `import mysql.connector` and get `ModuleNotFoundError: No module named 'mysql'`. Diagnose the most likely cause and propose a fix.",
+     "a": "The pip and Python interpreter belong to different environments (e.g., pip installed for Python 3.11 but the script runs with Python 3.9). Fix: use `python -m pip install mysql-connector-python` with the exact Python interpreter that runs the script. A wrong answer indicates the student does not grasp environment isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the official `mysql-connector-python` with the legacy `MySQLdb` (mysqlclient) driver in terms of licensing, Python 3 support, and installation method. Which one is recommended by the CBSE curriculum and why?",
+     "a": "`mysql-connector-python` is pure Python, officially maintained by Oracle, supports Python 3, and installs via pip without system dependencies. `MySQLdb` is a C extension, requires system libraries, and is not the standard in NCERT. CBSE recommends the official connector because it is cross-platform and aligns with the textbook examples. A wrong answer shows lack of awareness of the standard driver.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"Installing `mysql-connector-python` automatically creates a MySQL server on your machine.\" Evaluate this statement and justify your evaluation.",
+     "a": "The statement is false. The connector is only a client library that allows Python to communicate with an existing MySQL server; it does not install or start a server. The server must be installed separately (e.g., MySQL Community Server). A wrong evaluation reveals confusion between client drivers and database servers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step verification checklist (minimum 4 steps) that a student can follow to confirm that `mysql-connector-python` is correctly installed and importable in their project's virtual environment.",
+     "a": "Checklist: 1) Activate the virtual environment. 2) Run `pip list | grep mysql-connector-python` to see the package. 3) Run `python -c \"import mysql.connector; print(mysql.connector.__version__)\"` to verify import and version. 4) Ensure no `ModuleNotFoundError` occurs. A poor answer misses environment activation or version check.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_002",
+   "title": "c11_bio_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define metabolism in a living organism and state why the sum of anabolic and catabolic reactions must be considered together, not in isolation.",
+     "a": "Metabolism is the sum total of all enzyme-catalyzed biochemical reactions (anabolism - building up, catabolism - breaking down) occurring in a living cell to maintain homeostasis. A wrong answer treating metabolism as only \"breaking down food for energy\" reveals the misconception that catabolism alone defines metabolism, ignoring the essential anabolic synthesis of proteins, nucleic acids, and structural polymers required for growth and repair. Students often confuse metabolism with digestion or respiration alone.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since crystals grow by adding molecules from outside, and living organisms also grow by adding molecules (nutrients), crystal growth and biological growth are fundamentally the same process.\" Explain why this reasoning is biologically incorrect using the concept of protoplasm formation.",
+     "a": "Biological growth involves intracellular synthesis of new protoplasm (cytoplasm + nucleoplasm) through cell division (hyperplasia) or cell enlargement (hypertrophy), where metabolic energy drives polymerization of monomers into macromolecules. Crystal growth is accretionary - identical molecules deposit externally on the crystal lattice without any internal organization, metabolic control, or genetic information transfer. A wrong answer focusing only on \"both increase in size\" reveals failure to distinguish between self-regulated anabolic construction vs passive physical deposition.",
+     "self_check": true
+    },
+    {
+     "q": "In a lab experiment, yeast cells are placed in two flasks: Flask A with glucose + oxygen, Flask B with glucose but no oxygen. After 24 hours, Flask A shows 20x more cell growth than Flask B despite both having same glucose. Using metabolic principles, explain this observation quantitatively in terms of ATP yield per glucose molecule.",
+     "a": "Aerobic respiration (Flask A) yields ~36-38 ATP per glucose via glycolysis + Krebs cycle + oxidative phosphorylation, while anaerobic fermentation (Flask B) yields only 2 ATP per glucose via glycolysis alone. With 18-19x more ATP available in Flask A, biosynthetic reactions (anabolism) for cell division - requiring ATP for amino acid activation, nucleotide polymerization, lipid synthesis - proceed at vastly higher rates. A wrong answer stating \"oxygen helps yeast grow faster\" without quantifying ATP difference shows superficial understanding of energy coupling in metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare binary fission in Amoeba and budding in Hydra. Both are asexual reproduction producing genetically identical offspring. Analyze why binary fission is considered \"immortality\" of the parent organism while budding creates a distinct new individual, despite both being mitotic divisions.",
+     "a": "In binary fission, the parent Amoeba divides into two daughter cells of equal size - there is no \"parent\" remaining; the original organism ceases to exist as two new individuals form, making the lineage potentially immortal. In budding, the parent Hydra retains its identity and body organization while a smaller bud develops and eventually detaches - the parent persists. A wrong answer claiming \"both produce identical clones so they're the same\" misses the conceptual distinction: binary fission = parent body divides completely (no parent remains), budding = parent body produces outgrowth (parent persists). This reflects different evolutionary strategies for survival.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Metabolism is a defining characteristic of life because all living things carry out metabolic reactions. Therefore, any system showing metabolic reactions (like a cell-free extract carrying out glycolysis) qualifies as living.\" Provide a reasoned biological judgment.",
+     "a": "The statement is false. Metabolism as a defining characteristic requires: (1) reactions occur within an intact, membrane-bound cellular organization maintaining internal homeostasis, (2) reactions are self-regulated by genetic information (enzymes coded by organism's own DNA), (3) the system can reproduce itself. A cell-free extract carries out isolated reactions but lacks cellular organization, cannot self-regulate, cannot reproduce, and reactions cease when substrates deplete. A wrong answer accepting the statement reveals confusion between \"metabolic reactions\" (chemical processes) and \"metabolism\" (organized, self-sustaining, genetically controlled system property).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using locally available materials (moong beans, wheat grains, yeast, sugar) to demonstrate the difference between growth by cell division (living) and growth by accretion (non-living). Specify observations, measurements, and how you would distinguish the two processes.",
+     "a": "Setup: (1) Moong beans soaked overnight on wet cotton - measure radicle length daily for 5 days. (2) Wheat grains similarly treated. (3) Sugar crystals in supersaturated solution - measure crystal size daily. (4) Yeast + sugar solution - count cells under microscope daily. Living growth (1,2,4): exponential increase in cell number (microscopy), irreversible dry mass gain, metabolic heat detectable. Non-living (3): linear size increase, no cell structure, no metabolic heat, reversible (dissolves in water). A poor answer measuring only \"size increase\" for all fails to distinguish intracellular protoplasm synthesis from external molecular deposition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

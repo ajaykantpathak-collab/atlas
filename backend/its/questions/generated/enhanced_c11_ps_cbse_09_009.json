@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_009",
+   "title": "c11_ps_cbse_09_009",
+   "questions": [
+    {
+     "q": "Define peace-building and distinguish it from peacekeeping and peacemaking using the UN's Brahimi Report framework.",
+     "a": "Peace-building addresses root causes and builds sustainable peace through long-term structural transformation (institutions, justice, development); peacekeeping monitors ceasefires and separates parties with consent; peacemaking involves diplomatic mediation to reach a negotiated settlement. A wrong answer that conflates them reveals the student sees all post-conflict activity as identical \"UN work\" and misses the critical temporal and functional distinction: peacekeeping is short-term/military, peacemaking is diplomatic/agreement-focused, peace-building is long-term/societal.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Johan Galtung's concept of structural violence (Node 003) makes peace-building necessarily more complex than simply signing a ceasefire agreement.",
+     "a": "Structural violence — unequal access to power, resources, dignity embedded in institutions — persists after direct violence ends; a ceasefire only stops shooting (negative peace). Peace-building must dismantle these invisible structures (land inequality, discriminatory laws, exclusionary governance) which requires years of reform. A wrong answer focusing only on weapons or fighters reveals the student equates peace with absence of weapons, missing that unequal social structures reproduce conflict.",
+     "self_check": true
+    },
+    {
+     "q": "A post-conflict society establishes a Truth and Reconciliation Commission (TRC) granting amnesty to perpetrators who fully disclose crimes. Victims' families protest, demanding criminal trials. Using the framework of retributive vs. restorative justice, analyze this dilemma and propose a sequenced approach.",
+     "a": "Retributive justice (trials) establishes individual accountability and deterrence but may destabilize fragile peace; restorative justice (TRC) prioritizes truth-telling, victim acknowledgment, and social reintegration but risks impunity. A sequenced approach: TRC first for broad truth-recovery and societal healing, followed by selective prosecutions for \"most responsible\" leaders (per the \"complementarity\" principle). A wrong answer choosing only one reveals inability to hold tension between justice and stability — a core peace-building dilemma.",
+     "self_check": true
+    },
+    {
+     "q": "Compare South Africa's TRC (1995-2002) and Rwanda's Gacaca courts (2001-2012) on three dimensions: scale of participation, relationship to formal law, and outcome for social cohesion. What does this comparison reveal about context-sensitive design?",
+     "a": "South Africa: national-level, 21,000 victims heard, amnesty-for-truth model, quasi-judicial but extra-legal, symbolic reconciliation but limited material redress. Rwanda: community-based, 1.2 million cases tried, integrated with formal law (reduced sentences for confession), faster but coerced participation, mixed cohesion outcomes. Context-sensitive design: South Africa needed national narrative for transition; Rwanda needed mass justice for genocide's scale. Wrong answer treating them as identical \"African TRCs\" reveals ignorance of how conflict type (apartheid vs. genocide) shapes mechanism choice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's approach to post-conflict reconciliation in Punjab (1980s-90s) and the Northeast illustrates the 'securitized peace-building' model — prioritizing military suppression and developmental packages over truth-telling and institutional accountability.\" Support with evidence.",
+     "a": "The claim is largely accurate: Punjab saw Operation Blue Star/Black Thunder, then police-led counterinsurgency with disappearances; no truth commission, no prosecutions for state abuses. Northeast: AFSPA continues, ceasefire agreements (NSCN-IM) without transitional justice, development packages as \"peace dividends.\" Both prioritize negative peace (cessation of violence) over positive peace (addressing alienation, accountability). A wrong answer defending this as \"successful\" reveals conflation of stability with peace, ignoring Galtung's structural violence (Node 003) — unresolved grievances persist.",
+     "self_check": true
+    },
+    {
+     "q": "Design a peace-building framework for a hypothetical post-conflict Indian state emerging from a 15-year ethnic insurgency. Specify: (a) 3 immediate DDR steps, (b) 2 medium-term institutional reforms, (c) 1 long-term reconciliation mechanism, and (d) how you would measure success at 5-year and 20-year horizons.",
+     "a": "(a) DDR: 1) Verified disarmament in cantonments, 2) Psycho-social reintegration counseling for ex-combatants, 3) Livelihood training linked to local economy. (b) Reforms: 1) Police reform with community oversight boards, 2) Autonomous district councils with fiscal powers for minority regions. (c) Long-term: Hybrid truth commission + selective prosecutions for command responsibility. (d) 5-yr: violence incidents <5% baseline, ex-combatant employment >70%, refugee return >50%. 20-yr: inter-ethnic marriage rates, minority representation in bureaucracy, trust in institutions (survey). Poor answer listing only \"development projects\" reveals technocratic bias ignoring relational and justice dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

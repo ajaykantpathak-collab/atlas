@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_002",
+   "title": "c12_bs_cbse_05_002",
+   "questions": [
+    {
+     "q": "A student writes: \"The first step in organising is departmentalisation because we need to create departments before dividing work.\" Is this statement correct? Explain why or why not using the NCERT sequence.",
+     "a": "The statement is incorrect. NCERT explicitly states the sequence: (i) Identification and division of work comes FIRST, (ii) Departmentalisation comes SECOND. Work must be divided into manageable activities BEFORE similar activities can be grouped into departments. Reversing the order would mean grouping undefined work — an impossibility. A wrong answer reveals the student confuses the logical prerequisite (division creates the units that departmentalisation groups) and memorises steps as a list without understanding their causal linkage.",
+     "self_check": true
+    },
+    {
+     "q": "\"Assignment of duties\" and \"Establishing authority and reporting relationships\" both involve giving work to people. Explain the distinct purpose of each step and why performing Step 3 without Step 4 leads to a specific organisational failure.",
+     "a": "Step 3 (Assignment of duties) matches tasks to individuals based on skills/competencies — it answers \"WHO does WHAT\". Step 4 (Establishing authority and reporting relationships) defines the chain of command — it answers \"WHO reports to WHOM\" and \"WHO has the RIGHT to command\". If Step 3 is done without Step 4, employees know their tasks but not their accountability lines, resulting in dual subordination, conflicting instructions, and coordination breakdown. A wrong answer that treats them as the same step reveals the student misses the distinction between task allocation (horizontal fit) and hierarchy creation (vertical structure).",
+     "self_check": true
+    },
+    {
+     "q": "A startup with 15 employees skips formal departmentalisation (Step 2) and directly assigns duties (Step 3) based on whoever is free. After 6 months, they face duplicated efforts in customer support and marketing. Using the organising process, diagnose which step was neglected and explain the mechanistic link between that step and the duplication.",
+     "a": "Step 2 (Departmentalisation) was neglected. Without grouping similar activities into departments, there is no structural mechanism to consolidate all customer-support tasks under one unit or all marketing tasks under another. Consequently, customer-support work gets scattered across multiple individuals who don't know of each other's efforts, causing duplication. The mechanistic link: departmentalisation creates the \"containers\" that prevent the same activity from being assigned to multiple people unknowingly. A wrong answer blaming \"poor communication\" misses the structural root cause — the absence of the grouping step that precedes assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organising process in a school fete (NCERT example) with a hospital emergency ward. Identify one step that would be executed DIFFERENTLY in the hospital due to its critical, time-sensitive nature, and justify your choice.",
+     "a": "Step 4 (Establishing authority and reporting relationships) would be executed differently. In a school fete, reporting relationships can be relatively flat and flexible (e.g., committee heads report to a teacher-in-charge). In an emergency ward, the chain of command must be rigid, pre-defined, and legally enforceable — a triage nurse must have unambiguous authority over interns, and the attending physician's orders must be followed without debate. The life-or-death stakes demand a formally codified, non-negotiable hierarchy established before any patient arrives, whereas the fete's hierarchy can evolve during planning. A wrong answer choosing Step 1 or 2 fails to recognise that work division and grouping are similar in both (tasks are identifiable and groupable), but the authority structure differs fundamentally due to consequence severity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In a small family-owned retail shop with 4 employees, the organising process is unnecessary because everyone knows what to do.\" Use the four steps to support your evaluation.",
+     "a": "The claim is false. Even with 4 employees, all four steps occur — just implicitly and rapidly. Step 1: Work is divided (billing, stocking, customer help, cleaning). Step 2: Activities are grouped (billing+customer help = front counter; stocking+cleaning = back operations). Step 3: Duties are assigned (elder son handles billing, younger handles stocking). Step 4: Reporting is established (both report to father/owner). The process is not \"unnecessary\" — it is informal and compressed. Denying its existence confuses formality with necessity. A wrong answer agreeing with the claim reveals the student equates \"organising process\" with \"formal documentation\" rather than the logical sequence that any coordinated effort must follow, regardless of size.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step organising process for a 3-day inter-school Model UN conference with 200 delegates, 5 committees, and a 15-member student secretariat. Specify the concrete output of each step (e.g., what document or structure is produced).",
+     "a": "Step 1 Output: A \"Work Breakdown Structure\" listing all 50+ discrete activities (venue setup, delegate registration, committee simulations, crisis updates, catering, awards, cleanup). Step 2 Output: A \"Departmentalisation Chart\" grouping activities into 5 functional departments (Logistics, Academics, Delegate Services, Media & Outreach, Administration). Step 3 Output: A \"Role Assignment Matrix\" mapping each of the 15 secretariat members to specific roles within departments based on skills (e.g., best debater → Committee Chair, organised student → Registrar). Step 4 Output: An \"Authority & Reporting Organogram\" showing Secretary-General at top, 5 Department Heads reporting to SG, and 2-3 members per department reporting to their Head. A poor answer lists vague outputs like \"plan\" or \"teams\" without the specific artefacts that make the process verifiable and executable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

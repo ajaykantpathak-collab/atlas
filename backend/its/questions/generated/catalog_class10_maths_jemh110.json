@@ -1,0 +1,132 @@
+{
+ "catalog": "catalog_class10_maths_jemh110.json",
+ "concepts": [
+  {
+   "id": "jemh.110.10.1",
+   "title": "Tangents to a Circle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
+     "compute": "circ = 2 * 22 / 7 * 42"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 21 cm. Find its circumference (pi = 22/7).",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 84 cm (pi = 22/7).",
+     "a": "22176",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 42 cm and 112 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "33880",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 28 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 70 cm (pi = 22/7).",
+     "a": "7700",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.10.2",
+   "title": "Tangent Perpendicular to Radius",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
+     "compute": "circ = 2 * 22 / 7 * 42"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 56 cm. Find its circumference (pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 70 cm (pi = 22/7).",
+     "a": "15400",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 56 cm and 77 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "8778",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 28 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 49 cm (pi = 22/7).",
+     "a": "3773",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.10.3",
+   "title": "Length of a Tangent from an External Point",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
+     "a": "308",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 35 cm. Find its circumference (pi = 22/7).",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 84 cm (pi = 22/7).",
+     "a": "22176",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 49 cm and 84 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "14630",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 120 degrees at the centre of a circle of radius 42 cm (pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 84 cm (pi = 22/7).",
+     "a": "7392",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

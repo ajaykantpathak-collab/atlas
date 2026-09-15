@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_002",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_002",
+   "title": "c7_eco_ch03_002",
+   "questions": [
+    {
+     "q": "What is the primary economic function of transportation infrastructure in a market economy?",
+     "a": "The correct answer is that it physically connects buyers, sellers, and production centers, reducing the time and cost required to move goods and labor. A wrong answer—such as believing transport infrastructure only provides government jobs—reveals a confusion between short-term employment creation and the long-term structural function of lowering trade barriers and market friction.",
+     "self_check": true
+    },
+    {
+     "q": "Why do heavy freight goods like coal and iron ore generally travel long distances by railways rather than standard commercial trucks?",
+     "a": "The correct answer is that railways possess economies of scale for bulk, heavy cargo over long distances, resulting in lower per-unit transport costs compared to road transport. A wrong answer—such as thinking railways are chosen merely because trains are faster than trucks—reveals a misunderstanding of how bulk capacity and fuel efficiency dictate transport choice rather than raw speed alone.",
+     "self_check": true
+    },
+    {
+     "q": "A factory in Chhattisgarh ships 1,000 tonnes of steel to a port in Odisha. Transporting it by road costs ₹1,500 per tonne, while transporting it by an existing freight railway corridor costs ₹900 per tonne. What is the total monetary savings for the factory if it chooses the railway option?",
+     "a": "The correct answer is ₹600,000. Working: Road cost = 1,000 tonnes × ₹1,500 = ₹1,500,000; Railway cost = 1,000 tonnes × ₹900 = ₹900,000; Savings = ₹1,500,000 - ₹900,000 = ₹600,000. A wrong answer—such as just subtracting ₹1,500 minus ₹900 without multiplying by the total tonnage—reveals a failure to scale unit cost differences across total industrial output quantities.",
+     "self_check": true
+    },
+    {
+     "q": "How does the construction of a major bridge across a wide river economically impact small rural markets situated on either side?",
+     "a": "The correct answer is that a bridge eliminates detours and seasonal transport halts, effectively expanding the market radius for local farmers and merging two separate local markets into a larger, more competitive single market. A wrong answer—such as assuming a bridge only benefits tourists and vehicle owners—ignores how reduced travel time lowers perishability losses and expands consumer choice for rural households.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a government should invest scarce public funds in building a high-speed freight railway corridor between two industrial hubs instead of paving thousands of local rural village roads.",
+     "a": "The correct answer is that this is a trade-off requiring cost-benefit analysis: freight corridors accelerate industrial growth and national GDP by lowering heavy manufacturing costs, whereas rural roads directly reduce poverty and market access for farmers. A wrong answer—such as claiming one is completely useless—shows a failure to recognize that both industrial transport and rural feeder roads serve complementary roles in comprehensive economic development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic transport strategy for a landlocked district that produces perishable vegetables, specifying whether roads or railways should be prioritized for immediate market integration and why.",
+     "a": "The expected answer should prioritize all-weather paved roads (and refrigerated trucks) because perishable vegetables require point-to-point flexibility and rapid short-to-medium distance transit to local mandis before spoiling, whereas railways are better suited for bulk, non-perishable goods over very long distances. A poor answer recommends building a heavy railway line without considering the high fixed costs, lack of immediate industrial bulk cargo, and the specific perishability constraints of vegetable farming.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 113,
+ "chapter_title": "Biodiversity and Conservation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo113.txt",
+ "concepts": [
+  {
+   "id": "lebo.13.1.1",
+   "title": "Levels of Biological Diversity",
+   "section": "13.1",
+   "definition": "Variability among living organisms present at distinct hierarchical levels including genetic variations within species, species richness within habitats, and structural diversity across entire ecosystems.",
+   "formula": "Total Diversity = Genetic Diversity + Species Diversity + Ecological Diversity",
+   "key_idea": "Biodiversity spans all organization tiers from genes within a single population to broad biome structures.",
+   "textbook_ref": "lebo113.txt lines 15-45",
+   "question_patterns": [
+    "describe the three hierarchical levels of biological diversity in Class 12 Biology",
+    "explain genetic, species, and ecological diversity with appropriate examples",
+    "what are the main levels at which biodiversity is evaluated",
+    "differentiate between species diversity and ecological diversity",
+    "how does genetic variation within a species differ from species richness in a community"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify levels of diversity",
+     "explain": "Analyze biological variation across genetic, species, and ecosystem scales."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate genetic diversity from species diversity",
+     "explain": "Genetic diversity refers to variation within a single species (e.g., medicinal rice varieties), while species diversity measures the number of different species in a community."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish species diversity from ecological diversity",
+     "explain": "Species diversity counts taxa within a habitat, whereas ecological diversity encompasses variation across entire ecosystems such as forests, deserts, and wetlands."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.2",
+   "title": "Global and National Species Richness Estimates",
+   "section": "13.1.1",
+   "definition": "Quantitative assessments of total described and predicted species on Earth based on conservative statistical extrapolations from temperate and tropical insect taxa ratios.",
+   "formula": "undiscovered_species = estimated_total_species - currently_recorded_species",
+   "key_idea": "Robert May conservatively estimates global biodiversity at 7 million species, with India harboring over 8 percent despite limited land area.",
+   "textbook_ref": "lebo113.txt lines 46-95",
+   "question_patterns": [
+    "how do biologists estimate the total number of species existing on Earth",
+    "what is Robert May global estimate for species richness",
+    "explain why prokaryotic diversity is omitted from standard species inventories",
+    "assess India contribution to global species diversity relative to its land area",
+    "why are microbial species counts excluded from conventional biological assessments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine estimation methods",
+     "explain": "Compare documented taxonomic lists with statistical extrapolations across latitude and taxa."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate Robert May's conservative global estimate",
+     "explain": "Robert May estimated approximately 7 million species globally, far exceeding the ~1.5 million described species, highlighting vast undiscovered biodiversity."
+    },
+    {
+     "step": 3,
+     "action": "Assess India's species richness relative to land area",
+     "explain": "India harbors over 8 percent of global species diversity despite occupying only 2.4 percent of the world's land area, underscoring its mega-diverse status."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.3",
+   "title": "Species Proportion and Percentage Share Calculation",
+   "section": "13.1.1",
+   "definition": "Mathematical calculation determining the percentage contribution of a region or taxonomic group relative to the total global species headcount.",
+   "formula": "percentage_share = (group_species_count / total_global_species) * 100",
+   "key_idea": "Quantifying national or taxonomic proportion relative to global biological headcount.",
+   "textbook_ref": "lebo113.txt lines 70-95",
+   "question_patterns": [
+    "calculate the percentage share of global species recorded in a country",
+    "find the percentage of animal species contributed by a specific taxonomic group",
+    "what is the proportion of total species represented by a given region",
+    "compute the percentage representation of a plant group in global biodiversity",
+    "determine the national species contribution percentage given global and local numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate proportion of global species",
+     "explain": "Divide group count by total species.",
+     "compute": "fraction = group_species_count / total_global_species"
+    },
+    {
+     "step": 2,
+     "action": "convert fraction to percentage",
+     "explain": "Multiply fraction by 100.",
+     "compute": "percentage_share = fraction * 100"
+    },
+    {
+     "step": 3,
+     "action": "Verify the percentage share is within valid range",
+     "explain": "Confirm the computed percentage lies between 0 and 100, consistent with a valid proportion of the global total."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Species Proportion and Percentage Share Calculation, compute the result for group_species_count = 3, total_global_species = 3.",
+     "solution": "Step 1: calculate proportion of global species: fraction = group_species_count / total_global_species = 1.0 Step 2: convert fraction to percentage: percentage_share = fraction * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    },
+    {
+     "question": "Using Species Proportion and Percentage Share Calculation, compute the result for group_species_count = 4, total_global_species = 4.",
+     "solution": "Step 1: calculate proportion of global species: fraction = group_species_count / total_global_species = 1.0 Step 2: convert fraction to percentage: percentage_share = fraction * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.4",
+   "title": "Latitudinal Gradients in Biodiversity",
+   "section": "13.1.2",
+   "definition": "The spatial pattern where species richness steadily decreases from the equatorial tropics toward the higher-latitude polar regions.",
+   "formula": "species_richness = f(latitude)",
+   "key_idea": "Tropical regions harbor higher species richness due to evolutionary stability, predictable non-seasonal climates, and abundant solar energy.",
+   "textbook_ref": "lebo113.txt lines 96-135",
+   "question_patterns": [
+    "explain the latitudinal gradient in species diversity with examples in Class 12 Biology",
+    "why do tropical regions exhibit much higher biodiversity than temperate zones",
+    "list the three main hypotheses explaining greater tropical species richness",
+    "how does bird species richness change when moving from equator to polar regions",
+    "discuss how climate stability and solar input influence species diversification in tropics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze geographical gradient",
+     "explain": "Correlate latitudinal position with climate history, solar energy, and evolutionary time."
+    },
+    {
+     "step": 2,
+     "action": "List the three hypotheses for greater tropical richness",
+     "explain": "Tropical latitudes remained undisturbed for long evolutionary time, tropical environments are less seasonal and more predictable, and abundant solar energy supports higher productivity."
+    },
+    {
+     "step": 3,
+     "action": "Illustrate the gradient with species richness data",
+     "explain": "For example, bird species richness near the equator far exceeds that near the poles, confirming the steady decline from tropics to temperate to polar regions."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.5",
+   "title": "Species-Area Relationship and Regression Coefficients",
+   "section": "13.1.2",
+   "definition": "The mathematical curve describing how species richness scales with increasing sample area, forming a rectangular hyperbola on linear scales and a straight line on logarithmic axes.",
+   "formula": "log_S = log_C + Z * log_A",
+   "key_idea": "Logarithmic plot of species richness against area gives a straight line whose slope Z reflects geographic scale.",
+   "textbook_ref": "lebo113.txt lines 136-165",
+   "question_patterns": [
+    "calculate log species richness log S using the species-area logarithmic equation",
+    "determine log_S given regression coefficient Z, log_A, and log_C",
+    "find the logarithm of species richness for an explored geographic area",
+    "what is the linear logarithmic equation for Alexander von Humboldt species-area relationship",
+    "compute the value of log S when slope Z and area logarithm log A are provided"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply regression coefficient Z by logarithm of area",
+     "explain": "Calculate term Z * log_A.",
+     "compute": "scaled_area = z * log_a"
+    },
+    {
+     "step": 2,
+     "action": "add log intercept to obtain log species richness",
+     "explain": "Sum intercept log_C with scaled_area.",
+     "compute": "log_s = log_c + scaled_area"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the regression slope Z",
+     "explain": "The slope Z typically ranges from 0.1 to 0.2 for smaller areas but can approach 1.0 for entire continents, indicating that species richness increases more steeply with area at broader geographic scales."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Species-Area Relationship and Regression Coefficients, compute the result for z = 3, log_a = 3, log_c = 3.",
+     "solution": "Step 1: multiply regression coefficient Z by logarithm of area: scaled_area = z * log_a = 9.0 Step 2: add log intercept to obtain log species richness: log_s = log_c + scaled_area = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    },
+    {
+     "question": "Using Species-Area Relationship and Regression Coefficients, compute the result for z = 4, log_a = 4, log_c = 4.",
+     "solution": "Step 1: multiply regression coefficient Z by logarithm of area: scaled_area = z * log_a = 16.0 Step 2: add log intercept to obtain log species richness: log_s = log_c + scaled_area = 20.0 Final result: 20.0",
+     "answer": "20.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.6",
+   "title": "Ecosystem Stability and the Rivet Popper Hypothesis",
+   "section": "13.1.3",
+   "definition": "Conceptual framework asserting that high species richness stabilizes biological communities against productivity fluctuations, disturbances, and biological invasions.",
+   "formula": "ecosystem_stability ~ species_richness",
+   "key_idea": "Paul Ehrlich airplane analogy illustrates how removing key species jeopardizes structural ecosystem integrity.",
+   "textbook_ref": "lebo113.txt lines 166-200",
+   "question_patterns": [
+    "explain Paul Ehrlich rivet popper hypothesis in Class 12 Biology",
+    "how does species richness contribute to ecosystem stability according to David Tilman",
+    "what are the key characteristics of a stable biological community",
+    "why are keystone species compared to wing rivets in an airplane",
+    "discuss the impact of species removal on overall ecosystem functioning"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate ecosystem resilience",
+     "explain": "Relate species loss to community stability and functional redundancy."
+    },
+    {
+     "step": 2,
+     "action": "Explain David Tilman's experimental findings",
+     "explain": "Tilman's long-term experiments showed that plots with greater species richness had higher productivity and were more resistant to disturbances such as drought, confirming that diversity stabilizes ecosystem function."
+    },
+    {
+     "step": 3,
+     "action": "Describe Paul Ehrlich's rivet popper analogy",
+     "explain": "Ehrlich compared species in an ecosystem to rivets on an airplane wing; removing a few rivets may not cause immediate collapse, but losing too many key species can lead to catastrophic ecosystem failure."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.7",
+   "title": "Biodiversity Loss and Mass Extinction Rates",
+   "section": "13.1.4",
+   "definition": "The ongoing rapid decline of biological species across global taxa, contrasting past natural extinction events with accelerated anthropogenic rates.",
+   "formula": "current_extinction_rate = baseline_rate * 1000",
+   "key_idea": "Human activities are driving a sixth mass extinction event at rates up to a thousand times faster than pre-human background levels.",
+   "textbook_ref": "lebo113.txt lines 201-230",
+   "question_patterns": [
+    "how is the sixth mass extinction different from earlier episodes in Earth history",
+    "list recent examples of species that have become extinct according to IUCN Red List",
+    "what proportion of birds, mammals, and amphibians currently face extinction risk",
+    "explain the ecological consequences resulting from regional biodiversity loss",
+    "which taxonomic groups display higher vulnerability to rapid extinction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess extinction trends",
+     "explain": "Compare historical background extinction rates with current human-driven losses."
+    },
+    {
+     "step": 2,
+     "action": "Identify the drivers of the sixth mass extinction",
+     "explain": "Human activities such as habitat destruction, over-exploitation, pollution, and climate change are accelerating extinction rates to 100-1000 times faster than the natural background rate."
+    },
+    {
+     "step": 3,
+     "action": "Cite recent extinction examples and at-risk taxa",
+     "explain": "IUCN Red List data show that significant proportions of birds, mammals, and amphibians face extinction risk, with recent documented extinctions including the dodo, thylacine, and Steller's sea cow."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.8",
+   "title": "Causes of Biodiversity Loss: The Evil Quartet",
+   "section": "13.1.4",
+   "definition": "The four principal human-driven mechanisms responsible for species extinction: habitat destruction/fragmentation, over-exploitation, invasive alien species, and co-extinction events.",
+   "formula": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
+   "key_idea": "Habitat loss and fragmentation constitute the leading drive of global species declines.",
+   "textbook_ref": "lebo113.txt lines 231-275",
+   "question_patterns": [
+    "describe the four major causes of biodiversity loss known as The Evil Quartet",
+    "explain how habitat fragmentation affects wildlife populations needing wide territories",
+    "give examples of invasive alien species that disrupted indigenous ecosystems",
+    "what is co-extinction and how does it affect mutualistic species pairs",
+    "how has human over-exploitation led to the collapse of specific animal species"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize anthropogenic drivers",
+     "explain": "Identify and describe each of the four mechanisms in The Evil Quartet."
+    },
+    {
+     "step": 2,
+     "action": "Explain habitat loss and fragmentation as the primary driver",
+     "explain": "Habitat destruction and fragmentation are the most important causes, as they reduce available living space and isolate populations, preventing migration and gene flow for species needing large territories."
+    },
+    {
+     "step": 3,
+     "action": "Describe alien invasions, over-exploitation, and co-extinctions",
+     "explain": "Invasive alien species outcompete native taxa, over-exploitation depletes populations beyond recovery, and co-extinctions occur when an associated species is lost, such as a host-specific parasite vanishing with its host."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.1",
+   "title": "Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments",
+   "section": "13.2.1",
+   "definition": "The framework categorizing conservation rationale into direct economic gains, vital ecosystem services, and moral duties toward fellow biological species.",
+   "formula": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
+   "key_idea": "Conservation is justified by economic benefits like bioprospecting, ecosystem services like oxygen production, and intrinsic species value.",
+   "textbook_ref": "lebo113.txt lines 276-315",
+   "question_patterns": [
+    "distinguish between narrowly utilitarian and broadly utilitarian reasons for conservation",
+    "what is bioprospecting and why is it valuable for mega-diverse nations",
+    "explain the ethical argument for protecting species that lack economic value",
+    "list ecosystem services provided by natural habitats according to broad utilitarianism",
+    "how do natural pollinators contribute to human food production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify conservation values",
+     "explain": "Group motivation factors into economic, service-oriented, and moral pillars."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish narrow utilitarian from broad utilitarian reasons",
+     "explain": "Narrowly utilitarian reasons include direct economic benefits such as food, medicine, and bioprospecting; broadly utilitarian reasons encompass ecosystem services like pollination, oxygen production, climate regulation, and flood control."
+    },
+    {
+     "step": 3,
+     "action": "Explain the ethical argument for conservation",
+     "explain": "The ethical argument holds that every species has intrinsic value and a moral right to exist, regardless of its economic usefulness, compelling humans to act as stewards of biodiversity."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.2",
+   "title": "In Situ Conservation Strategy and Sacred Groves",
+   "section": "13.2.2",
+   "definition": "On-site protection of total ecosystems in their natural habitat through legally designated reserves, biodiversity hotspots, and culturally protected sacred groves.",
+   "formula": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
+   "key_idea": "In situ strategies preserve organisms in their native habitats, focusing priority on high-endemism hotspots and cultural refuges.",
+   "textbook_ref": "lebo113.txt lines 316-360",
+   "question_patterns": [
+    "what is in situ conservation and what are its major primary methods",
+    "define biodiversity hotspots and list the three hotspots covering regions of India",
+    "what are sacred groves and how do they aid in conserving threatened plant species",
+    "differentiate between national parks, biosphere reserves, and wildlife sanctuaries",
+    "explain how high endemicity defines a geographic area as a biodiversity hotspot"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine protected area networks",
+     "explain": "Detail how in situ measures safeguard complete ecosystems and species endemicity."
+    },
+    {
+     "step": 2,
+     "action": "Describe biodiversity hotspots and India's hotspots",
+     "explain": "Biodiversity hotspots are regions with high endemic species under threat; India is covered by three hotspots -- the Western Ghats, the Himalayas, and the Indo-Burma region."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of sacred groves",
+     "explain": "Sacred groves are tracts of forest preserved by local communities for religious and cultural reasons, providing refuge for many threatened and endemic plant species that might otherwise be lost."
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.3",
+   "title": "Ex Situ Conservation Techniques and Global Environmental Summits",
+   "section": "13.2.2",
+   "definition": "Off-site preservation techniques placing endangered species under human care along with international political commitments for sustainable biological management.",
+   "formula": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
+   "key_idea": "Advanced ex situ techniques maintain gametes and tissues artificially, complemented by international agreements like Earth Summit.",
+   "textbook_ref": "lebo113.txt lines 361-390",
+   "question_patterns": [
+    "explain modern ex situ conservation techniques like cryopreservation and seed banks",
+    "how does ex situ conservation differ fundamental from in situ conservation",
+    "what were the key outcomes of the 1992 Earth Summit held in Rio de Janeiro",
+    "describe the role of zoological parks and botanical gardens in saving endangered species",
+    "what commitment was made by nations during the 2002 World Summit in Johannesburg"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe artificial preservation methods",
+     "explain": "Outline laboratory and captive biological preservation strategies and legal accords."
+    },
+    {
+     "step": 2,
+     "action": "Explain cryopreservation and seed banks",
+     "explain": "Cryopreservation stores gametes, embryos, and tissues at ultra-low temperatures (liquid nitrogen), while seed banks preserve viable seeds of diverse plant species for future restoration."
+    },
+    {
+     "step": 3,
+     "action": "Describe international conservation commitments",
+     "explain": "The 1992 Earth Summit in Rio de Janeiro produced the Convention on Biological Diversity, and the 2002 Johannesburg Summit committed nations to achieve a significant reduction in biodiversity loss by 2010."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook section 13.1.1 example",
+   "concept": "lebo.13.1.3",
+   "question_type": "compute",
+   "question_pattern": "A region records {group_species_count} species out of a global total of {total_global_species} species. Calculate the percentage share.",
+   "extracted_variables": {
+    "group_species_count": 45000,
+    "total_global_species": 550000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate proportion of global species",
+     "explain": "Divide group count by total species.",
+     "compute": "fraction = group_species_count / total_global_species"
+    },
+    {
+     "step": 2,
+     "action": "convert fraction to percentage",
+     "explain": "Multiply fraction by 100.",
+     "compute": "percentage_share = fraction * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook section 13.1.1 exercise",
+   "concept": "lebo.13.1.3",
+   "question_type": "compute",
+   "question_pattern": "An animal group contains {group_species_count} species out of {total_global_species} total global animal species. Find its percentage contribution.",
+   "extracted_variables": {
+    "group_species_count": 700000,
+    "total_global_species": 1000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate proportion of global species",
+     "explain": "Divide group count by total species.",
+     "compute": "fraction = group_species_count / total_global_species"
+    },
+    {
+     "step": 2,
+     "action": "convert fraction to percentage",
+     "explain": "Multiply fraction by 100.",
+     "compute": "percentage_share = fraction * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Textbook section 13.1.2 example",
+   "concept": "lebo.13.1.5",
+   "question_type": "compute",
+   "question_pattern": "For a frugivorous bird community in tropical forest continent, regression coefficient Z is {Z}, log_C is {log_C}, and log_A is {log_A}. Calculate log_S.",
+   "extracted_variables": {
+    "Z": 1.15,
+    "log_C": 0.5,
+    "log_A": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply regression coefficient Z by logarithm of area",
+     "explain": "Calculate term Z * log_A.",
+     "compute": "scaled_area = z * log_a"
+    },
+    {
+     "step": 2,
+     "action": "add log intercept to obtain log species richness",
+     "explain": "Sum intercept log_C with scaled_area.",
+     "compute": "log_s = log_c + scaled_area"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Textbook section 13.1.2 exercise",
+   "concept": "lebo.13.1.5",
+   "question_type": "compute",
+   "question_pattern": "In a regional ecological study, the regression slope Z is {Z}, log area log_A is {log_A}, and y-intercept log_C is {log_C}. Find log_S.",
+   "extracted_variables": {
+    "Z": 0.15,
+    "log_C": 1.2,
+    "log_A": 3.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply regression coefficient Z by logarithm of area",
+     "explain": "Calculate term Z * log_A.",
+     "compute": "scaled_area = z * log_a"
+    },
+    {
+     "step": 2,
+     "action": "add log intercept to obtain log species richness",
+     "explain": "Sum intercept log_C with scaled_area.",
+     "compute": "log_s = log_c + scaled_area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "lebo113.txt Exercise 1",
+   "questions": [
+    "Name the three important components of biodiversity."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "lebo113.txt Exercise 2",
+   "questions": [
+    "How do ecologists estimate the total number of species present in the world?"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "lebo113.txt Exercise 3",
+   "questions": [
+    "Give three hypotheses for explaining why tropics show greatest levels of species richness."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "lebo113.txt Exercise 4",
+   "questions": [
+    "What is the significance of the slope of regression in a species - area relationship?"
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "lebo113.txt Exercise 5",
+   "questions": [
+    "What are the major causes of species losses in a geographical region?"
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "lebo113.txt Exercise 6",
+   "questions": [
+    "How is biodiversity important for ecosystem functioning?"
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "lebo113.txt Exercise 7",
+   "questions": [
+    "What are sacred groves? What is their role in conservation?"
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "lebo113.txt Exercise 8",
+   "questions": [
+    "Among the ecosystem services are control of floods and soil erosion. How is this achieved by the biotic components of the ecosystem?"
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "lebo113.txt Exercise 9",
+   "questions": [
+    "The species diversity of plants (22 per cent) is much less than that of animals (72 per cent). What could be the explanations to how animals achieved greater diversification?"
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "lebo113.txt Exercise 10",
+   "questions": [
+    "Can you think of a situation where we deliberately want to make a species extinct? How would you justify it?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "lebo.13.1.5: bad compute 'Z * log_A' (unknown symbol: Z)",
+  "lebo.13.1.5: bad compute 'log_C + scaled_area' (unknown symbol: log_C)"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

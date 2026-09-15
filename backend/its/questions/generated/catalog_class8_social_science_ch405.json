@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class8_social_science_ch405",
+ "concepts": [
+  {
+   "id": "hess.405.1",
+   "title": "Human Resources as the Ultimate Resource",
+   "questions": [
+    {
+     "q": "Using the method 'Human Resources as the Ultimate Resource', work with: population = 12000, skill_level = 300. Carry the chain through step by step and give the final value of human_resource_value.",
+     "a": "3600000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Human Resources as the Ultimate Resource' and work with: population = 5000, skill_level = 40. Carry the chain through step by step and give the final value of human_resource_value.",
+     "a": "200000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Human Resources as the Ultimate Resource' refers to.",
+     "a": "The collective skills, knowledge, and physical capacity of a nation's populace that allow natural materials to be transformed into valuable assets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Resources as the Ultimate Resource'.",
+     "a": "People turn natural elements into usable assets through their skills and needs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Resources as the Ultimate Resource', in plain ASCII form.",
+     "a": "human_resource_value = population * skill_level",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.2",
+   "title": "World Population Distribution Pattern",
+   "questions": [
+    {
+     "q": "Using the method 'World Population Distribution Pattern', work with: population_in_region = 1200, total_world_population = 25000. Carry the chain through step by step and give the final value of spatial_distribution.",
+     "a": "0.048 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'World Population Distribution Pattern' and work with: population_in_region = 12000, total_world_population = 60000. Carry the chain through step by step and give the final value of spatial_distribution.",
+     "a": "0.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'World Population Distribution Pattern' refers to.",
+     "a": "The spatial arrangement and dispersion of human inhabitants across the land surface of the Earth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'World Population Distribution Pattern'.",
+     "a": "Global human settlement is highly uneven, with high concentrations in specific regions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'World Population Distribution Pattern', in plain ASCII form.",
+     "a": "spatial_distribution = population_in_region / total_world_population",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.3",
+   "title": "Calculation of Population Density",
+   "questions": [
+    {
+     "q": "Calculate the population density of a region. Use the method 'Calculation of Population Density'. Work with: area = 100, population = 60000. Carry the chain through step by step and give the final value of density.",
+     "a": "600 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Find the population density given total people and land area. Use the method 'Calculation of Population Density'. Work with: area = 2500, population = 12000. Carry the chain through step by step and give the final value of density.",
+     "a": "4.8 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Population Density' refers to.",
+     "a": "The ratio measuring the number of individuals residing within a specific unit area of land, typically expressed per square kilometer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Population Density'.",
+     "a": "Density measures crowd intensity by dividing total residents by land expanse.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Population Density', in plain ASCII form.",
+     "a": "density = population / area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.4",
+   "title": "Geographical Factors of Population Settlement",
+   "questions": [
+    {
+     "q": "Using the method 'Geographical Factors of Population Settlement', work with: climate = 60, minerals = 400, soil = 24, topography = 150, water = 100. Carry the chain through step by step and give the final value of settlement_suitability.",
+     "a": "734 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Geographical Factors of Population Settlement' and work with: climate = 120, minerals = 120, soil = 500, topography = 3, water = 20. Carry the chain through step by step and give the final value of settlement_suitability.",
+     "a": "763 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Geographical Factors of Population Settlement' refers to.",
+     "a": "Physical features of the land including topography, climate, soil quality, water availability, and mineral resources that determine human inhabitability.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Geographical Factors of Population Settlement'.",
+     "a": "Favorable natural conditions like fertile plains and fresh water attract dense settlements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Geographical Factors of Population Settlement', in plain ASCII form.",
+     "a": "settlement_suitability = topography + climate + soil + water + minerals",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.5",
+   "title": "Socio-Economic Factors of Population Distribution",
+   "questions": [
+    {
+     "q": "Using the method 'Socio-Economic Factors of Population Distribution', work with: cultural_value = 80000, employment_opportunities = 60, social_facilities = 45. Carry the chain through step by step and give the final value of socio_economic_attractiveness.",
+     "a": "80105 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Socio-Economic Factors of Population Distribution' and work with: cultural_value = 500, employment_opportunities = 20, social_facilities = 10. Carry the chain through step by step and give the final value of socio_economic_attractiveness.",
+     "a": "530 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Socio-Economic Factors of Population Distribution' refers to.",
+     "a": "Human-created influences such as housing, healthcare, educational infrastructure, religious significance, and industrial employment opportunities that attract human living.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Socio-Economic Factors of Population Distribution'.",
+     "a": "Urbanization, religious heritage, and employment opportunities drive demographic clustering.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Socio-Economic Factors of Population Distribution', in plain ASCII form.",
+     "a": "socio_economic_attractiveness = social_facilities + cultural_value + employment_opportunities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.6",
+   "title": "Natural Growth Rate Calculation",
+   "questions": [
+    {
+     "q": "Calculate the natural growth rate of a nation. Use the method 'Natural Growth Rate Calculation'. Work with: birth_rate = 20, death_rate = 20. Carry the chain through step by step and give the final value of natural_growth_rate.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the natural growth rate given birth rate and death rate. Use the method 'Natural Growth Rate Calculation'. Work with: birth_rate = 12, death_rate = 10. Carry the chain through step by step and give the final value of natural_growth_rate.",
+     "a": "2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Natural Growth Rate Calculation' refers to.",
+     "a": "The numerical difference between the birth rate and the death rate of a given country or region.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Natural Growth Rate Calculation'.",
+     "a": "Demographic expansion occurs when birth rates outpace death rates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Natural Growth Rate Calculation', in plain ASCII form.",
+     "a": "natural_growth_rate = birth_rate - death_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.7",
+   "title": "Net Migration and Population Movement",
+   "questions": [
+    {
+     "q": "Calculate net migration for a country. Use the method 'Net Migration and Population Movement'. Work with: emigrants = 30, immigrants = 200. Carry the chain through step by step and give the final value of net_migration.",
+     "a": "170 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the change in population due to immigration and emigration. Use the method 'Net Migration and Population Movement'. Work with: emigrants = 4, immigrants = 360. Carry the chain through step by step and give the final value of net_migration.",
+     "a": "356 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Migration and Population Movement' refers to.",
+     "a": "The spatial relocations of people across territorial borders, categorized as incoming migrants versus outgoing migrants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Migration and Population Movement'.",
+     "a": "Population size alters when incoming residents exceed outgoing residents or vice versa.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Migration and Population Movement', in plain ASCII form.",
+     "a": "net_migration = immigrants - emigrants",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.8",
+   "title": "Population Pyramids and Demographic Structure",
+   "questions": [
+    {
+     "q": "Using the method 'Population Pyramids and Demographic Structure', work with: female_population = 1200, male_population = 60000. Carry the chain through step by step and give the final value of gender_ratio.",
+     "a": "50 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Population Pyramids and Demographic Structure' and work with: female_population = 5000, male_population = 5000. Carry the chain through step by step and give the final value of gender_ratio.",
+     "a": "1 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Population Pyramids and Demographic Structure' refers to.",
+     "a": "The structural breakdown of a population by age groups and sex, visually analyzed through an age-sex pyramid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Pyramids and Demographic Structure'.",
+     "a": "Population pyramids illustrate birth rates, death rates, and demographic proportions of dependents and workers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Pyramids and Demographic Structure', in plain ASCII form.",
+     "a": "gender_ratio = male_population / female_population",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.405.9",
+   "title": "Total Dependent Population Calculation",
+   "questions": [
+    {
+     "q": "Calculate total dependents in a population. Use the method 'Total Dependent Population Calculation'. Work with: elderly_dependents = 20, young_dependents = 10. Carry the chain through step by step and give the final value of total_dependents.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of young dependents and elderly dependents. Use the method 'Total Dependent Population Calculation'. Work with: elderly_dependents = 360, young_dependents = 10. Carry the chain through step by step and give the final value of total_dependents.",
+     "a": "370 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Dependent Population Calculation' refers to.",
+     "a": "The combination of young individuals below fifteen years and elderly individuals above sixty-five years who rely on the working-age workforce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Dependent Population Calculation'.",
+     "a": "Dependents consist of both non-working age youth and senior citizens reliant on the active labor group.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Dependent Population Calculation', in plain ASCII form.",
+     "a": "total_dependents = young_dependents + elderly_dependents",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

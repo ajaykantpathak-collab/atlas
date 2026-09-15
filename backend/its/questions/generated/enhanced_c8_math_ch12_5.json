@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_5",
+   "title": "c8_math_ch12_5",
+   "questions": [
+    {
+     "q": "The mean of 8 numbers is 42. If 3 is added to each number, what is the new mean?",
+     "a": "The new mean is 45. A wrong answer (like 42 or 66) reveals the student either thinks the mean doesn't change or incorrectly multiplies the constant by the number of data points. They haven't grasped that adding a constant to each value shifts the balancing point by that constant, regardless of how many values there are.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adding 7 to every value in a data set increases the mean by 7, using the idea of the mean as a balancing point on a number line.",
+     "a": "The mean is the point where the sum of distances to the left equals the sum of distances to the right. Adding 7 to every value slides each dot 7 units right. The balancing point must also slide 7 units right to keep the distances equal. A wrong explanation (e.g., \"because there are 7 numbers\" or \"the sum increases by 7\") shows the student is memorising a rule without understanding the geometric meaning of the mean.",
+     "self_check": true
+    },
+    {
+     "q": "The mean monthly pocket money of 6 friends is ₹850. Each friend's parents increase their pocket money by ₹150. What is the new mean pocket money? Show your working.",
+     "a": "Original mean = ₹850. Constant added = ₹150. New mean = 850 + 150 = ₹1000.\nWorking: New sum = (850 × 6) + (150 × 6) = 5100 + 900 = 6000. New mean = 6000 ÷ 6 = 1000.\nA wrong answer like ₹850 or ₹1000 without correct reasoning, or calculating 850 + 150 × 6, reveals confusion between adding to each value versus adding to the sum.",
+     "self_check": true
+    },
+    {
+     "q": "A data set has mean 36. After adding a constant \\(k\\) to each value, the new mean is 53. Another data set with mean 36 has the same constant \\(k\\) added, but it has twice as many values. What is the new mean of the second data set?",
+     "a": "The new mean is also 53. The number of values does not affect how much the mean shifts — it always shifts by \\(k\\). Here \\(k = 53 - 36 = 17\\). Whether the data set has 5, 10, or 100 values, adding 17 to each raises the mean by 17. A wrong answer (like 53 + 17 = 70, or 53 × 2) shows the student thinks the shift depends on sample size.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi calculated the new mean after adding 12 to each of 9 values (original mean 48) as: New mean = 48 + 12 × 9 = 156. Is Ravi correct? If not, identify his error and give the correct new mean.",
+     "a": "Ravi is incorrect. The correct new mean is 48 + 12 = 60. Ravi mistakenly multiplied the constant by the number of values (12 × 9 = 108) and added to the mean, confusing the change in SUM (which is 12 × 9) with the change in MEAN. This reveals a common error: thinking the mean increases by \\(n \\times k\\) instead of just \\(k\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) where adding a constant to every data value changes the mean in a meaningful way. Write the original data, the constant added, and explain what the new mean represents.",
+     "a": "Example: A cricket team's 5 bowlers have economy rates: 6.2, 5.8, 7.1, 6.5, 5.4 runs/over. Mean = 6.2. Due to a rule change, 0.5 runs are added to every bowler's economy for a \"free hit\" penalty. New mean = 6.7. This represents the adjusted average economy after the penalty. A poor answer gives a trivial example (like \"add 0\") or fails to explain what the new mean means in context, showing lack of application ability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

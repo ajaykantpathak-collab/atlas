@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_003",
+   "title": "c12_eco_cbse_07_003",
+   "questions": [
+    {
+     "q": "In the two-sector circular flow model, which of the following represents a real flow from households to firms?\nA) Wages paid by firms to households\nB) Consumption expenditure by households\nC) Factor services (land, labour, capital, entrepreneurship) supplied by households\nD) Profit distributed by firms to households",
+     "a": "Correct answer: C) Factor services (land, labour, capital, entrepreneurship) supplied by households. Real flows are the physical movement of goods, services, and factor services. Factor services flow from households (owners) to firms (users). Wages (A) and profit (D) are monetary flows from firms to households. Consumption expenditure (B) is a monetary flow from households to firms. A wrong answer reveals confusion between real flows (physical) and monetary flows (payments), or confusion about direction of flow between sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the total value of factor payments made by firms exactly equal the total factor income received by households in the two-sector model?\nA) Because the government ensures fair distribution\nB) Because every rupee paid by firms becomes income for households by definition\nC) Because households save a portion of their income\nD) Because firms retain some revenue as undistributed profit",
+     "a": "Correct answer: B) Because every rupee paid by firms becomes income for households by definition. In the two-sector model, firms have no retained earnings (no savings), no government taxes, and no foreign payments. All revenue from sales is paid out as factor payments (rent, wages, interest, profit). Each payment is simultaneously a cost to the firm and income to the household. Option A is wrong — no government exists. Option C is wrong — households save zero by assumption. Option D is wrong — firms distribute all profit. A wrong answer reveals misunderstanding of the identity: factor payments ≡ factor incomes, which holds because they are two sides of the same transaction.",
+     "self_check": true
+    },
+    {
+     "q": "In a two-sector economy, firms produce ₹500 crore worth of goods and services. Households supply factor services and receive factor payments. If households spend ₹450 crore on consumption and the remaining ₹50 crore is saved, what happens to the circular flow?\nA) The flow continues smoothly because savings are automatically invested\nB) The flow breaks because planned expenditure (₹450 crore) < planned output (₹500 crore)\nC) The flow expands because savings increase future production capacity\nD) The flow is unaffected because savings are a leakage that firms absorb",
+     "a": "Correct answer: B) The flow breaks because planned expenditure (₹450 crore) < planned output (₹500 crore). The two-sector model assumes ZERO savings — all income is spent. If households save ₹50 crore, aggregate demand falls to ₹450 crore while aggregate supply is ₹500 crore. Unsold inventory accumulates, firms cut production, factor payments fall, income falls — the circular flow contracts. Option A describes the three-sector model with financial intermediation. Option C confuses saving with investment (they are separate decisions). Option D is wrong — leakages reduce the flow unless matched by injections. A wrong answer reveals failure to grasp that the two-sector model's equilibrium requires S = 0, and any saving is a leakage that shrinks the flow.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"In the two-sector circular flow, the monetary flow and real flow move in the same direction.\" Is this statement correct? Explain using the flow from households to firms.\nA) Yes, both flow from households to firms\nB) Yes, both flow from firms to households\nC) No, real flow goes from households to firms (factor services) while monetary flow goes from firms to households (factor payments)\nD) No, real flow goes from firms to households (goods) while monetary flow goes from households to firms (consumption expenditure)",
+     "a": "Correct answer: C) No, real flow goes from households to firms (factor services) while monetary flow goes from firms to households (factor payments). This tests the crucial directional opposition. From households to firms: real flow = factor services (labour, land, capital, entrepreneurship); monetary flow = factor payments (wages, rent, interest, profit) — opposite directions. From firms to households: real flow = goods/services; monetary flow = consumption expenditure — also opposite directions. Option D describes the opposite leg (firms→households) but the question asks about households→firms. A wrong answer reveals the most common diagramming error: drawing both flows in the same direction, missing the fundamental duality that every real exchange has a counterpart monetary payment in the reverse direction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The two-sector circular flow model proves that supply creates its own demand (Say's Law) because total production always equals total income.\"\nA) True — the model demonstrates Say's Law holds universally\nB) False — the model assumes Say's Law by forcing all income to be spent, but in reality savings can break the identity\nC) False — the model shows demand creates supply, not the reverse\nD) True — but only when government sector is added to absorb leakages",
+     "a": "Correct answer: B) False — the model assumes Say's Law by forcing all income to be spent, but in reality savings can break the identity. The two-sector model builds in the assumption that households spend 100% of income (no savings, no leakages). This assumption *guarantees* that aggregate demand equals aggregate supply by construction — it does not *prove* Say's Law. In reality, if households save, aggregate demand < aggregate supply, inventories pile up, and production cuts follow. The model is a special case where leakage = 0, not a general proof. Option A confuses assumption with proof. Option C reverses the causality. Option D is wrong — adding government introduces taxes (leakage) and spending (injection), not automatic Say's Law validity. A wrong answer reveals inability to distinguish between a model's built-in assumptions and its empirical implications.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example of a two-sector circular flow where 100 households each supply 2 units of labour at ₹500/unit to 10 firms. Each firm uses 20 units of labour to produce 100 units of output sold at ₹100/unit. Show the complete cycle: factor services → factor payments → consumption → revenue → factor payments. Calculate total factor income, total consumption expenditure, total revenue, and verify the circular flow identity.",
+     "a": "Expected answer: \n- Total labour supplied = 100 households × 2 units = 200 units\n- Total factor payments (wages) = 200 units × ₹500 = ₹1,00,000 = Total factor income\n- Each firm hires 20 units labour → 10 firms × 20 = 200 units (matches)\n- Each firm produces 100 units → Total output = 10 × 100 = 1,000 units\n- Total revenue = 1,000 units × ₹100 = ₹1,00,000\n- Households spend all ₹1,00,000 on consumption → Consumption expenditure = ₹1,00,000\n- Identity verified: Factor payments (₹1,00,000) = Factor income (₹1,00,000) = Consumption expenditure (₹1,00,000) = Revenue (₹1,00,000) = Value of output (₹1,00,000)\nA poor answer reveals: (1) inability to track units consistently, (2) missing that factor payments = revenue in equilibrium, (3) confusing per-unit with aggregate values, (4) not verifying the closed-loop identity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

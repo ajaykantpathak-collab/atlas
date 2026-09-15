@@ -1,0 +1,265 @@
+{
+ "catalog": "catalog_class11_business_studies_ch102",
+ "concepts": [
+  {
+   "id": "kebs.2.2.1",
+   "title": "Sole Proprietorship and Personal Liability",
+   "questions": [
+    {
+     "q": "Find the personal liability of the sole proprietor. Use the method 'Sole Proprietorship and Personal Liability'. Work with: business_assets = 12000, deficit = 240, total_liabilities = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "240 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the amount the owner must contribute from personal assets to clear debts. Use the method 'Sole Proprietorship and Personal Liability'. Work with: business_assets = 1200, deficit = 3, total_liabilities = 300. Carry the chain through step by step and give the final value of the result.",
+     "a": "3 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sole Proprietorship and Personal Liability' refers to.",
+     "a": "A commercial setup owned, managed, and controlled entirely by a single person who bears full risk and reaps all rewards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sole Proprietorship and Personal Liability'.",
+     "a": "The sole owner carries unlimited liability, meaning personal assets can be liquidated if business assets fall short of debts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sole Proprietorship and Personal Liability', in plain ASCII form.",
+     "a": "personal_liability = max(0, total_liabilities - business_assets)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.3.1",
+   "title": "Joint Hindu Family Business Structure and Governance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Joint Hindu Family Business Structure and Governance' refers to.",
+     "a": "A unique traditional Indian business enterprise owned jointly by coparceners of an undivided Hindu family and administered by the eldest member.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Joint Hindu Family Business Structure and Governance'.",
+     "a": "Membership is acquired by birth; coparceners enjoy limited liability whereas the Karta bears unlimited personal liability.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Joint Hindu Family Business Structure and Governance', in plain ASCII form.",
+     "a": "coparcener_liability = capital_share, karta_liability = unlimited",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.1",
+   "title": "Partnership Essentials and Mutual Agency",
+   "questions": [
+    {
+     "q": "Using the method 'Partnership Essentials and Mutual Agency', work with: partner_ratio = 80, total_profit = 80000. Carry the chain through step by step and give the final value of profit_share.",
+     "a": "6400000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Partnership Essentials and Mutual Agency' and work with: partner_ratio = 5, total_profit = 20000. Carry the chain through step by step and give the final value of profit_share.",
+     "a": "100000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Partnership Essentials and Mutual Agency' refers to.",
+     "a": "An association of two or more individuals who have agreed to pool resources to operate a lawful business and distribute profits and losses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Partnership Essentials and Mutual Agency'.",
+     "a": "Every partner acts simultaneously as an agent capable of binding others and as a principal bound by the acts of co-partners.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Partnership Essentials and Mutual Agency', in plain ASCII form.",
+     "a": "profit_share = total_profit * partner_ratio",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.2",
+   "title": "Classification and Liabilities of Partners",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification and Liabilities of Partners' refers to.",
+     "a": "The categorization of partners based on capital contribution, operational management, profit sharing, and exposure to liability.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification and Liabilities of Partners'.",
+     "a": "Partners by estoppel, holding out, and nominal partners do not contribute capital or manage, yet carry unlimited liability to third parties.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classification and Liabilities of Partners', in plain ASCII form.",
+     "a": "liability_status = unlimited (except admitted minors)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.3",
+   "title": "Consequences of Non-Registration of Partnership",
+   "questions": [
+    {
+     "q": "Using the method 'Consequences of Non-Registration of Partnership', work with: suit_against_copartners = 5, suit_against_third_party = 3. Carry the chain through step by step and give the final value of legal_disability.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Consequences of Non-Registration of Partnership' and work with: suit_against_copartners = 24, suit_against_third_party = 20. Carry the chain through step by step and give the final value of legal_disability.",
+     "a": "44 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Consequences of Non-Registration of Partnership' refers to.",
+     "a": "The legal disabilities imposed on an unregistered partnership firm under the Indian Partnership Act, 1932.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consequences of Non-Registration of Partnership'.",
+     "a": "Although registration is optional, non-registered firms lose the right to enforce contractual claims in a court of law against partners or external parties.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consequences of Non-Registration of Partnership', in plain ASCII form.",
+     "a": "legal_disability = suit_against_third_party + suit_against_copartners",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.5.1",
+   "title": "Cooperative Society Principles and Characteristics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cooperative Society Principles and Characteristics' refers to.",
+     "a": "A voluntary organization established by individuals of limited financial resources to promote mutual economic welfare based on self-help and democratic governance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cooperative Society Principles and Characteristics'.",
+     "a": "Democratic control operates on the rule of 'one man, one vote' irrespective of the capital contributed by an individual member.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cooperative Society Principles and Characteristics', in plain ASCII form.",
+     "a": "voting_power = 1_member_1_vote",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.5.2",
+   "title": "Types of Cooperative Societies",
+   "questions": [
+    {
+     "q": "Using the method 'Types of Cooperative Societies', work with: based_on_patronage_or_capital = 100. Carry the chain through step by step and give the final value of surplus_distribution.",
+     "a": "100 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Types of Cooperative Societies' and work with: based_on_patronage_or_capital = 1000. Carry the chain through step by step and give the final value of surplus_distribution.",
+     "a": "1000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Types of Cooperative Societies' refers to.",
+     "a": "Classification of cooperative societies based on their specific functional objectives such as consumer protection, producer aid, marketing, farming, credit, or housing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Cooperative Societies'.",
+     "a": "Different cooperative types target distinct economic challenges of specific groups like small farmers, artisans, borrowers, or consumers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Cooperative Societies', in plain ASCII form.",
+     "a": "surplus_distribution = based_on_patronage_or_capital",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.6.1",
+   "title": "Joint Stock Company and Shareholder Liability",
+   "questions": [
+    {
+     "q": "Calculate the maximum liability of a shareholder in a joint stock company. Use the method 'Joint Stock Company and Shareholder Liability'. Work with: face_value = 500, num_shares = 40, paid_amount = 20000, unpaid_per_share = 100. Carry the chain through step by step and give the final value of the result.",
+     "a": "4000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the remaining financial obligation of a shareholder on partly paid shares. Use the method 'Joint Stock Company and Shareholder Liability'. Work with: face_value = 80000, num_shares = 100, paid_amount = 12000, unpaid_per_share = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Joint Stock Company and Shareholder Liability' refers to.",
+     "a": "An incorporated artificial legal entity with perpetual succession, a separate legal personality, and capital divisible into transferable shares.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Joint Stock Company and Shareholder Liability'.",
+     "a": "A shareholder's liability is strictly limited to the unpaid portion of the nominal value of the shares held.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Joint Stock Company and Shareholder Liability', in plain ASCII form.",
+     "a": "unpaid_liability = num_shares * (face_value - paid_amount)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.6.2",
+   "title": "Distinction Between Private and Public Companies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Distinction Between Private and Public Companies' refers to.",
+     "a": "The statutory differentiation of corporate entities under the Companies Act based on share transferability, public invitations, and membership thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Distinction Between Private and Public Companies'.",
+     "a": "A private company restricts share transfers and public subscriptions with a 200-member ceiling, whereas a public company has free share transferability and no maximum member limit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Distinction Between Private and Public Companies', in plain ASCII form.",
+     "a": "public_min_members = 7, private_min_members = 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.7.1",
+   "title": "Factors Determining Choice of Business Organisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Determining Choice of Business Organisation' refers to.",
+     "a": "The strategic evaluation of organizational forms across capital needs, liability tolerance, regulatory compliance, managerial complexity, and operational continuity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Determining Choice of Business Organisation'.",
+     "a": "Higher capital and expansion requirements favor corporate forms, while personal customer touch, quick decisions, and minimal capital favor sole proprietorship.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Factors Determining Choice of Business Organisation', in plain ASCII form.",
+     "a": "choice_suitability = f(capital, liability, continuity, management, control)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

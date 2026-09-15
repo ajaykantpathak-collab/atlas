@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_001",
+   "title": "c11_geo_cbse_17_001",
+   "questions": [
+    {
+     "q": "State the three defining attributes of a human settlement as per geographical definition.",
+     "a": "The three attributes are: (1) a distinct spatial pattern of dwellings, (2) a social organization (community life, institutions), and (3) an economic function (livelihood activities). A wrong answer that only mentions \"houses\" or \"population\" reveals the student sees settlements as merely physical clusters, missing the functional and social dimensions essential for geographical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A village has a population of 6,500, 85% of male workers engaged in agriculture, and is governed by a Gram Panchayat. A nearby town has a population of 5,800, 70% workers in manufacturing and services, and has a Municipal Council. According to Census of India criteria, which is urban and which is rural? Explain why the village is NOT urban despite its larger population.",
+     "a": "The village is rural; the town is urban. Census of India defines urban areas by three criteria simultaneously: (a) minimum population 5,000, (b) at least 75% male main workers in non-agricultural activities, (c) density ≥ 400 persons/km², plus statutory civic administration. The village fails criterion (b) — 85% in agriculture — so it remains rural even with >5,000 population. A wrong answer that classifies the village as urban because of population shows the student incorrectly treats population size as the sole determinant, ignoring the economic and administrative criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below for two settlements, apply the Census of India 2011 urban criteria to classify each. Show your working.\n\n| Settlement | Population | % Male Main Workers in Non-Agri | Density (persons/km²) | Civic Administration |\n|------------|------------|----------------------------------|------------------------|----------------------|\n| X          | 7,200      | 68%                              | 380                    | Gram Panchayat       |\n| Y          | 4,800      | 82%                              | 1,200                  | Municipal Council    |",
+     "a": "**Settlement X**: Fails two criteria — non-agri workers only 68% (<75%) and density 380 (<400). Also has Gram Panchayat, not statutory urban body. → **Rural**.  \n**Settlement Y**: Population 4,800 (<5,000) BUT has Municipal Council (statutory town). In Census, all statutory towns are urban regardless of population. → **Urban**.  \nA wrong answer that marks Y as rural due to population <5,000 reveals the student doesn't know the \"statutory town\" exception — a critical nuance in Census classification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rural-urban classification criteria used in Census of India with those used by the United Nations. Identify two key differences and explain why India uses a multi-criteria approach while the UN often relies on a single national definition.",
+     "a": "**Differences**: (1) India uses three quantitative criteria (population, non-agri %, density) plus administrative status; UN leaves definition to each country — most use only population threshold or administrative status. (2) India distinguishes \"statutory towns\" (legally urban) from \"census towns\" (meet criteria but not legally urban); UN does not have this dual category.  \n**Reason**: India's multi-criteria approach captures the complex rural-urban continuum where large villages may have urban traits but lack non-agri employment, while the UN's flexible approach accommodates diverse national contexts. A wrong answer that says \"UN uses same criteria\" shows ignorance of international variation in definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A settlement with 10,000 people and 80% non-agricultural workers must be classified as urban.\" Is this always true in the Indian Census framework? Justify with reference to the concept of \"Census Town\" vs. \"Statutory Town\".",
+     "a": "**Not always true**. If the settlement has a Municipal Corporation/Council/Nagar Panchayat, it is a **Statutory Town** → urban. If it lacks statutory urban governance but meets the three criteria (pop ≥5,000, ≥75% non-agri, density ≥400), it is a **Census Town** → also urban. However, if it meets population and non-agri criteria but density is <400 (e.g., a sprawling peri-urban village), it remains **rural** despite 10,000 people and 80% non-agri workers. The statement ignores the density criterion. A wrong answer that says \"always true\" reveals the student treats the criteria as a checklist where any two suffice, rather than all three being mandatory for Census Towns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text-based) that a Census enumerator could use to classify any settlement in India as Rural, Statutory Town, or Census Town. Use only the official Census 2011 criteria. Your flowchart must handle the case where a settlement has statutory status but fails the quantitative criteria.",
+     "a": "```\nSTART\n→ Does the settlement have a statutory urban local body (Municipal Corp/Council/Nagar Panchayat)?\n   → YES → Classify as STATUTORY TOWN (Urban) → END\n   → NO  → Check three criteria:\n           (a) Population ≥ 5,000?\n           (b) ≥ 75% male main workers in non-agricultural?\n           (c) Density ≥ 400 persons/km²?\n           → All three YES → Classify as CENSUS TOWN (Urban) → END\n           → Any NO → Classify as RURAL → END\n```\nA poor answer that puts population check first or omits the statutory town bypass reveals the student doesn't grasp the hierarchical logic: legal status trumps quantitative criteria in Indian Census.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

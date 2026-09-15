@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_008",
+   "title": "c11_ps_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define \"economic freedom\" in the context of negative liberty as discussed in classical liberal theory. Which constitutional article in India most directly protects the negative liberty dimension of economic freedom?",
+     "a": "Economic freedom in the negative liberty sense is the absence of state coercion in economic decisions — what to produce, where to work, what to buy/sell, and at what price. Article 19(1)(g) of the Indian Constitution (\"freedom to practise any profession, or to carry on any occupation, trade or business\") is the primary textual guarantee. A wrong answer (e.g., citing Article 21 or Directive Principles) reveals confusion between negative liberty (freedom *from* interference) and positive liberty (entitlement *to* conditions enabling choice), or between justiciable fundamental rights and non-justiciable directives.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why J.S. Mill's harm principle creates a dilemma for regulating markets: if a factory pollutes a river harming downstream villagers, is this a \"self-regarding\" or \"other-regarding\" action? Why might a classical liberal still oppose state regulation even here?",
+     "a": "Pollution is an \"other-regarding\" action because it causes serious, definite harm to specific others (villagers), so the harm principle *permits* state interference. A classical liberal might still oppose regulation arguing: (a) private property rights and tort law (nuisance suits) can internalise the harm without state planning; (b) regulation expands state power beyond the \"night-watchman\" role, risking greater liberty loss; (c) the market, via consumer pressure or innovation, may self-correct. A wrong answer treating pollution as \"self-regarding\" or assuming all liberals support regulation shows misunderstanding of the harm principle's application and the classical liberal fear of state overreach.",
+     "self_check": true
+    },
+    {
+     "q": "A state government imposes a ceiling on onion prices during a shortage to protect poor consumers. Using the concepts of negative liberty, positive liberty, and reasonable restrictions (Article 19(6)), analyse whether this violates the economic freedom of traders.",
+     "a": "Step 1: Identify the constraint — price ceiling restricts traders' freedom to set prices (negative liberty infringement under Art 19(1)(g)). Step 2: Identify the justification — protecting poor consumers' access to food (positive liberty: enabling real choice for the destitute). Step 3: Apply Art 19(6) \"reasonable restrictions\" test — is it in the \"interest of the general public\"? Courts have upheld price controls on essential commodities as reasonable (e.g., *State of Gujarat v. Hazara Singh*, 1963). Step 4: Conclude — not a violation if proportionate, temporary, and targeted; but a permanent, arbitrary ceiling would be unreasonable. A wrong answer ignoring the positive liberty dimension or treating all restrictions as violations shows inability to balance competing freedom claims.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Marxist critique of \"economic freedom under capitalism\" with the welfare liberal view (e.g., T.H. Green, modern Indian Constitution). How does each diagnose the constraint on the worker's freedom, and what remedy does each propose?",
+     "a": "Marxist critique: The worker is \"free\" only to sell labour-power or starve — a coercive choice rooted in private ownership of means of production. Constraint is structural (class relation), not legal. Remedy: abolish private property, socialise production. Welfare liberal view: The worker lacks *effective* freedom due to poverty, unemployment, ignorance. Constraint is material deprivation, remediable within capitalism. Remedy: state intervention (minimum wage, social security, education, Art 38, 39, 41, 43) to create enabling conditions. A wrong answer conflating the two (e.g., \"both want state control\") misses the fundamental disagreement on *source* of unfreedom (property relations vs. market outcomes) and *endpoint* (abolition vs. reform of capitalism).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's post-1991 economic liberalisation expanded economic freedom for all citizens.\" Use the distinction between formal (negative) and substantive (positive) economic freedom, and cite at least two specific policy changes.",
+     "a": "The claim is partially true but incomplete. Formal freedom expanded: delicensing (end of \"Licence Raj\"), FDI opening, tariff reduction removed state barriers to entry, trade, investment — enhancing negative liberty for entrepreneurs, consumers, foreign investors (Art 19(1)(g) scope widened). Substantive freedom outcomes are mixed: (a) Growth reduced absolute poverty (positive liberty gain for many); (b) But informal sector workers (90% of workforce) saw stagnant wages, precarious contracts, weak social security — their *capability* to choose remained constrained; (c) Regional inequality widened (Maharashtra vs. Bihar). Cite: Industrial Policy 1991 (delicensing) and FEMA 1999 (capital account liberalisation). A wrong answer giving a simple \"yes/no\" ignores the dual liberty framework and empirical complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a \"Reasonable Restriction Clause\" for a hypothetical Article 19(1)(g) that balances a street vendor's right to livelihood with a municipal corporation's duty to keep footpaths clear for pedestrians. Your clause must satisfy the proportionality test (legitimate aim, suitability, necessity, balancing).",
+     "a": "Sample clause: \"Nothing in sub-clause (g) shall prevent the State from making any law imposing reasonable restrictions on the exercise of the right to carry on street vending in the interest of public order, safety, and convenience of pedestrians, provided that: (i) such restriction shall not amount to a total prohibition on vending in any municipal ward; (ii) designated vending zones shall be notified in every ward within six months of this law's commencement; (iii) eviction shall follow a survey, identity card issuance, and a hearing; (iv) alternative livelihood or rehabilitation shall be provided where relocation is necessary.\" A poor answer (e.g., \"vendors can be removed anytime\") fails proportionality — it ignores the vendor's positive liberty (livelihood as capability) and the state's duty to enable, not just restrict.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

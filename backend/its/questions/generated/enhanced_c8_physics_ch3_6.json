@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_6",
+   "title": "c8_physics_ch3_6",
+   "questions": [
+    {
+     "q": "Define net force and state its SI unit. If two forces of 10 N and 15 N act on a box in the same direction, what is the net force?",
+     "a": "Net force is the vector sum of all forces acting on an object; its SI unit is newton (N). For forces in the same direction, net force = 10 N + 15 N = 25 N in that direction. A wrong answer (e.g., 5 N or 150 N) reveals the student is either subtracting instead of adding, or multiplying magnitudes, showing they do not grasp that forces in the same direction add as scalars with direction.",
+     "self_check": true
+    },
+    {
+     "q": "Two students push a heavy desk: one pushes north with 30 N, the other pushes south with 45 N. Explain why the net force is 15 N south, not 75 N or 15 N north.",
+     "a": "Forces are vectors; opposite directions mean we subtract magnitudes (45 N - 30 N = 15 N) and the direction follows the larger force (south). A wrong answer of 75 N shows the student added magnitudes ignoring direction (treating forces as scalars). An answer of 15 N north reveals they subtracted correctly but assigned the direction of the smaller force, misunderstanding that the net force points in the direction of the larger force.",
+     "self_check": true
+    },
+    {
+     "q": "A boat is pulled by two ropes: one exerts 20 N east, the other exerts 15 N north. Calculate the magnitude of the net force on the boat. (Use Pythagoras: √(20² + 15²))",
+     "a": "Step 1: Identify perpendicular forces: F₁ = 20 N east, F₂ = 15 N north.\nStep 2: Net force magnitude = √(F₁² + F₂²) = √(20² + 15²) = √(400 + 225) = √625 = 25 N.\nStep 3: Direction is northeast (at an angle tan⁻¹(15/20) ≈ 37° north of east).\nA wrong answer of 35 N indicates scalar addition (20+15). An answer of 5 N indicates scalar subtraction. Both show the student cannot apply vector addition for perpendicular forces.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following free-body diagram: a block on a smooth floor has three horizontal forces: 10 N →, 6 N ←, and 4 N →. Compare the net force to a situation where only a single 8 N → force acts. Are the effects on the block's motion identical? Why?",
+     "a": "Yes, the effects are identical. Net force in first case: (10 + 4) → + 6 ← = 14 → - 6 ← = 8 N →. This matches the single 8 N → force. Since net force determines acceleration (Newton's Second Law), identical net forces produce identical acceleration. A \"No\" answer reveals the student thinks the number of forces matters more than their vector sum, or they incorrectly calculated the net force as 20 N or 2 N.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"If three forces act on an object — 5 N up, 5 N down, and 10 N right — the net force is 20 N because you add all the magnitudes.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Vertical forces (5 N up and 5 N down) cancel each other (net vertical force = 0 N). The horizontal force (10 N right) remains. Net force = 10 N right, not 20 N. The error is adding magnitudes of forces in different directions without vector addition. A student who agrees reveals they treat force as a scalar quantity, ignoring that opposite forces cancel and perpendicular forces combine via Pythagoras.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using spring balances and a small ring to demonstrate that two perpendicular forces of 3 N and 4 N produce a net force of 5 N. Describe the setup, measurements, and how you would verify the resultant magnitude and direction.",
+     "a": "Setup: Tie three strings to a small ring. Attach two spring balances to two strings, pulling horizontally at 90° (e.g., east and north) with 3 N and 4 N respectively. Attach a third spring balance to the third string and pull in the opposite direction (southwest) until the ring is centered (equilibrium). The third balance reads 5 N, confirming the resultant of 3 N and 4 N is 5 N. Direction is along the third string. A poor answer omits the equilibrium condition or uses only two balances, showing they don't understand that the net force is balanced by an equal and opposite force for verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1655 @@
+---
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_001
+  name: mu
+  latex: ln(X2/X1) / (t2 - t1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - mu
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_002
+  name: Units
+  latex: h**-1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_003
+  name: X1, X2
+  latex: cell concentration at times t1, t2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - x1,-x2
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_004
+  name: td
+  latex: ln(2) / mu = 0.693 / mu
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - td
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_005
+  name: Units
+  latex: hours
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_006
+  name: Yx/s
+  latex: (X - X0) / (S0 - S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - yx-s
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_007
+  name: Units
+  latex: g cells / g substrate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_008
+  name: Yp/s
+  latex: (P - P0) / (S0 - S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - yp-s
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_009
+  name: Units
+  latex: g product / g substrate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_010
+  name: Units
+  latex: h**-1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_011
+  name: At steady state
+  latex: D = mu
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - at-steady-state
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_012
+  name: mu
+  latex: mu_max * S / (Ks + S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - mu
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_013
+  name: mu_max
+  latex: maximum specific growth rate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - mu_max
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_014
+  name: Ks
+  latex: half-saturation constant (S at which mu = mu_max/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - ks
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_015
+  name: OTR
+  latex: kLa * (C* - C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - otr
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_016
+  name: Units
+  latex: mg/L/h
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_017
+  name: kLa
+  latex: volumetric oxygen transfer coefficient (h**-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - kla
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_018
+  name: C*
+  latex: saturated DO, C = actual DO
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - c*
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_019
+  name: At steady state
+  latex: OTR = OUR (oxygen uptake rate)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - at-steady-state
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_020
+  name: OUR
+  latex: qO2 * X
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - our
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_021
+  name: qO2
+  latex: specific oxygen uptake rate (mmol/g cells/h)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 1: FERMENTATION AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - qo2
+  - section-1:-fermentation-and-gr
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_022
+  name: BOD
+  latex: (D1 - D2) / P
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 2: BOD AND ENVIRONMENTAL'
+  subject: biotechnology
+  concept_tags:
+  - bod
+  - section-2:-bod-and-environment
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_023
+  name: Units
+  latex: mg/L
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 2: BOD AND ENVIRONMENTAL'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-2:-bod-and-environment
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_024
+  name: D1
+  latex: DO on Day 1, D2 = DO on Day 5, P = dilution factor
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 2: BOD AND ENVIRONMENTAL'
+  subject: biotechnology
+  concept_tags:
+  - d1
+  - section-2:-bod-and-environment
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_025
+  name: COD
+  latex: (a - b) * N * 8000 / V
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 2: BOD AND ENVIRONMENTAL'
+  subject: biotechnology
+  concept_tags:
+  - cod
+  - section-2:-bod-and-environment
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_026
+  name: '[S]'
+  latex: substrate concentration, Km = Michaelis constant
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - '[s]'
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_027
+  name: 1/v
+  latex: (Km/Vmax) * (1/[S]) + 1/Vmax
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - 1-v
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_028
+  name: y-intercept
+  latex: 1/Vmax, x-intercept = -1/Km, slope = Km/Vmax
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - y-intercept
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_029
+  name: kcat
+  latex: Vmax / [E]total
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - kcat
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_030
+  name: '[E]total'
+  latex: total enzyme concentration
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - '[e]total'
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_031
+  name: Measures
+  latex: substrate molecules converted per enzyme per second
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - measures
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_032
+  name: Ki
+  latex: inhibition constant, [I] = inhibitor concentration
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 3: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - ki
+  - section-3:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_033
+  name: Time for 90% reduction (1 log cycle)
+  latex: Time for 90% reduction (1 log cycle)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 4: STERILIZATION'
+  subject: biotechnology
+  concept_tags:
+  - time-for-90%-reduction-(1-log-
+  - section-4:-sterilization
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_034
+  name: Cells/mL
+  latex: (average count per square) * (dilution factor) * (1/volume under cover slip)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 5: CELL COUNTING'
+  subject: biotechnology
+  concept_tags:
+  - cells-ml
+  - section-5:-cell-counting
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_035
+  name: Standard volume
+  latex: 0.1 mm**3 = 10**-4 mL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 5: CELL COUNTING'
+  subject: biotechnology
+  concept_tags:
+  - standard-volume
+  - section-5:-cell-counting
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_036
+  name: Cells/mL
+  latex: count * dilution * 10**4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 5: CELL COUNTING'
+  subject: biotechnology
+  concept_tags:
+  - cells-ml
+  - section-5:-cell-counting
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_037
+  name: CFU/mL
+  latex: (number of colonies) / (dilution factor * volume plated)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 5: CELL COUNTING'
+  subject: biotechnology
+  concept_tags:
+  - cfu-ml
+  - section-5:-cell-counting
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_038
+  name: CFU/mL
+  latex: 150 / (10**-6 * 0.1) = 1.5 x 10**9
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 5: CELL COUNTING'
+  subject: biotechnology
+  concept_tags:
+  - cfu-ml
+  - section-5:-cell-counting
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_039
+  name: C1 * V1
+  latex: C2 * V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - c1-*-v1
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_040
+  name: C1, V1
+  latex: initial concentration and volume
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - c1,-v1
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_041
+  name: C2, V2
+  latex: final concentration and volume
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - c2,-v2
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_042
+  name: moles
+  latex: mass (g) / molecular weight (g/mol)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - moles
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_043
+  name: '% w/v'
+  latex: (g solute / 100 mL solution) * 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - '%-w-v'
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_044
+  name: '% v/v'
+  latex: (mL solute / 100 mL solution) * 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - '%-v-v'
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_045
+  name: pH
+  latex: -log10[H+]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - ph
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_046
+  name: '[H+]'
+  latex: 10**(-pH)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - '[h+]'
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_047
+  name: pOH
+  latex: 14 - pH
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - poh
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_048
+  name: pH + pOH
+  latex: '14'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 6: DILUTIONS AND SOLUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - ph-+-poh
+  - section-6:-dilutions-and-solut
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_049
+  name: 6CO2 + 6H2O + light → C6H12O6 + 6O2
+  latex: 6CO2 + 6H2O + light → C6H12O6 + 6O2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 7: PHOTOSYNTHESIS AND RESPIRATION'
+  subject: biotechnology
+  concept_tags:
+  - 6co2-+-6h2o-+-light-→-c6h12o6-
+  - section-7:-photosynthesis-and-
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_050
+  name: C6H12O6 + 6O2 → 6CO2 + 6H2O + 38 ATP
+  latex: C6H12O6 + 6O2 → 6CO2 + 6H2O + 38 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 7: PHOTOSYNTHESIS AND RESPIRATION'
+  subject: biotechnology
+  concept_tags:
+  - c6h12o6-+-6o2-→-6co2-+-6h2o-+-
+  - section-7:-photosynthesis-and-
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_051
+  name: C6H12O6 → 2C2H5OH + 2CO2 (yeast, anaerobic)
+  latex: C6H12O6 → 2C2H5OH + 2CO2 (yeast, anaerobic)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 7: PHOTOSYNTHESIS AND RESPIRATION'
+  subject: biotechnology
+  concept_tags:
+  - c6h12o6-→-2c2h5oh-+-2co2-(yeas
+  - section-7:-photosynthesis-and-
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_052
+  name: p^2 + 2pq + q^2
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 8: GENETICS'
+  subject: biotechnology
+  concept_tags:
+  - p^2-+-2pq-+-q^2
+  - section-8:-genetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_053
+  name: p + q
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 8: GENETICS'
+  subject: biotechnology
+  concept_tags:
+  - p-+-q
+  - section-8:-genetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_054
+  name: X^2
+  latex: sum of (O - E)**2 / E
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 8: GENETICS'
+  subject: biotechnology
+  concept_tags:
+  - x^2
+  - section-8:-genetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c11_biotech_formula_bank_055
+  name: df
+  latex: number of categories - 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 'SECTION 8: GENETICS'
+  subject: biotechnology
+  concept_tags:
+  - df
+  - section-8:-genetics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_001
+  name: MW (dsDNA)
+  latex: number of base pairs * 660 Da/bp
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - mw-(dsdna)
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_002
+  name: MW (ssDNA)
+  latex: number of nucleotides * 330 Da/nt
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - mw-(ssdna)
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_003
+  name: MW (RNA)
+  latex: number of nucleotides * 340 Da/nt
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - mw-(rna)
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_004
+  name: '[dsDNA]'
+  latex: A260 * 50 ug/mL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - '[dsdna]'
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_005
+  name: '[ssDNA]'
+  latex: A260 * 33 ug/mL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - '[ssdna]'
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_006
+  name: '[RNA]'
+  latex: A260 * 40 ug/mL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - '[rna]'
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_007
+  name: A260/A280
+  latex: 1.8 (pure DNA)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - a260-a280
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_008
+  name: < 1.6
+  latex: protein contamination
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - <-1.6
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_009
+  name: '> 2.0'
+  latex: RNA contamination
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - '>-2.0'
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_010
+  name: moles
+  latex: mass (g) / MW (g/mol)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - moles
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_011
+  name: For 1 ug of plasmid (bp * 660 g/mol per bp)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - for-1-ug-of-plasmid-(bp-*-660-
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_012
+  name: moles
+  latex: 1 x 10**-6 / (bp * 660)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - moles
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_013
+  name: Wallace rule (oligos < 14 nt)
+  latex: Tm = 2(A+T) + 4(G+C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - wallace-rule-(oligos-<-14-nt)
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_014
+  name: GC-based (longer)
+  latex: Tm = 64.9 + 41 * (G+C - 16.4) / (A+T+G+C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - gc-based-(longer)
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_015
+  name: Annealing temp
+  latex: Tm - 5 C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - annealing-temp
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_016
+  name: N0
+  latex: initial molecules, n = cycles
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 1: DNA AND MOLECULAR BIOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - n0
+  - section-1:-dna-and-molecular-b
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_017
+  name: A595
+  latex: m * [protein] + b (from standard curve)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 2: PROTEIN'
+  subject: biotechnology
+  concept_tags:
+  - a595
+  - section-2:-protein
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_018
+  name: '[protein]'
+  latex: (A595 - b) / m
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 2: PROTEIN'
+  subject: biotechnology
+  concept_tags:
+  - '[protein]'
+  - section-2:-protein
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_019
+  name: '[protein]'
+  latex: A280 / (epsilon * path_length)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 2: PROTEIN'
+  subject: biotechnology
+  concept_tags:
+  - '[protein]'
+  - section-2:-protein
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_020
+  name: epsilon
+  latex: extinction coefficient
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 2: PROTEIN'
+  subject: biotechnology
+  concept_tags:
+  - epsilon
+  - section-2:-protein
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_021
+  name: MW
+  latex: number of amino acids * 110 Da/aa (average)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 2: PROTEIN'
+  subject: biotechnology
+  concept_tags:
+  - mw
+  - section-2:-protein
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_022
+  name: Cell dry weight (g/L)
+  latex: OD600 * conversion_factor
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - cell-dry-weight-(g-l)
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_023
+  name: Typical E. coli
+  latex: 1 OD600 = 0.5 g/L dry weight
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - typical-e.-coli
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_024
+  name: CFU/mL
+  latex: colonies / (dilution * volume plated)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - cfu-ml
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_025
+  name: mu
+  latex: ln(X2/X1) / (t2 - t1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - mu
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_026
+  name: td
+  latex: 0.693 / mu
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - td
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_027
+  name: mu
+  latex: mu_max * S / (Ks + S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 3: CELL DENSITY AND GROWTH'
+  subject: biotechnology
+  concept_tags:
+  - mu
+  - section-3:-cell-density-and-gr
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_028
+  name: Yx/s
+  latex: (X - X0) / (S0 - S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - yx-s
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_029
+  name: Yp/s
+  latex: (P - P0) / (S0 - S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - yp-s
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_030
+  name: At steady state
+  latex: D = mu
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - at-steady-state
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_031
+  name: Washout
+  latex: D > mu_max
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - washout
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_032
+  name: OTR
+  latex: kLa * (C* - C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - otr
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_033
+  name: OUR
+  latex: qO2 * X
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - our
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_034
+  name: At steady state
+  latex: OTR = OUR
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 4: FERMENTATION'
+  subject: biotechnology
+  concept_tags:
+  - at-steady-state
+  - section-4:-fermentation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_035
+  name: ng_insert
+  latex: (molar_ratio * ng_vector * kb_insert) / kb_vector
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - ng_insert
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_036
+  name: Typical
+  latex: 3:1 insert:vector molar ratio
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - typical
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_037
+  name: TE
+  latex: (colonies * total_volume) / (volume_plated * DNA_in_ug)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - te
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_038
+  name: Units
+  latex: CFU/ug DNA
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - units
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_039
+  name: Typical chemical
+  latex: '10**6-10**8, electroporation: 10**9-10**10'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - typical-chemical
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_040
+  name: 1 unit
+  latex: amount of enzyme that cuts 1 ug of \lambda DNA in 1 hour at optimal temp
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 5: rDNA TECHNOLOGY'
+  subject: biotechnology
+  concept_tags:
+  - 1-unit
+  - section-5:-rdna-technology
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_041
+  name: 1/v
+  latex: (Km/Vmax) * (1/[S]) + 1/Vmax
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 6: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - 1-v
+  - section-6:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_042
+  name: kcat
+  latex: Vmax / [E]total
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 6: ENZYME KINETICS'
+  subject: biotechnology
+  concept_tags:
+  - kcat
+  - section-6:-enzyme-kinetics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_043
+  name: C1 * V1
+  latex: C2 * V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 7: SOLUTIONS AND DILUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - c1-*-v1
+  - section-7:-solutions-and-dilut
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_044
+  name: To make 1x from Nx
+  latex: V_stock = V_final / N
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 7: SOLUTIONS AND DILUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - to-make-1x-from-nx
+  - section-7:-solutions-and-dilut
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_045
+  name: pH
+  latex: -log10[H+]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 7: SOLUTIONS AND DILUTIONS'
+  subject: biotechnology
+  concept_tags:
+  - ph
+  - section-7:-solutions-and-dilut
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_046
+  name: X^2
+  latex: sum of (O - E)**2 / E
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 8: GENETICS AND STATISTICS'
+  subject: biotechnology
+  concept_tags:
+  - x^2
+  - section-8:-genetics-and-statis
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_047
+  name: df
+  latex: categories - 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 8: GENETICS AND STATISTICS'
+  subject: biotechnology
+  concept_tags:
+  - df
+  - section-8:-genetics-and-statis
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_048
+  name: p^2 + 2pq + q^2
+  latex: 1, p + q = 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 8: GENETICS AND STATISTICS'
+  subject: biotechnology
+  concept_tags:
+  - p^2-+-2pq-+-q^2
+  - section-8:-genetics-and-statis
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_049
+  name: Recombination frequency
+  latex: (recombinant offspring / total offspring) * 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 8: GENETICS AND STATISTICS'
+  subject: biotechnology
+  concept_tags:
+  - recombination-frequency
+  - section-8:-genetics-and-statis
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_050
+  name: 1% recombination
+  latex: 1 centimorgan (cM)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 8: GENETICS AND STATISTICS'
+  subject: biotechnology
+  concept_tags:
+  - 1%-recombination
+  - section-8:-genetics-and-statis
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_051
+  name: Lower E
+  latex: more significant (E < 0.05 ty\pically significant)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 9: BIOINFORMATICS'
+  subject: biotechnology
+  concept_tags:
+  - lower-e
+  - section-9:-bioinformatics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_c12_biotech_formula_bank_052
+  name: Score
+  latex: sum of match scores - sum of mismatch penalties - gap penalties
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 'SECTION 9: BIOINFORMATICS'
+  subject: biotechnology
+  concept_tags:
+  - score
+  - section-9:-bioinformatics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_master_biotech_formula_bank_001
+  name: Class 11
+  latex: 28 formulas in 8 sections (Fermentation/Growth 8, BOD/Environmental 2, Enzyme
+    Kinetics 4, Sterilization 2, Cell Counting 2, Dilutions/Solutions 4, Photosynthesis/Res\piration
+    4, Genetics 2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: INDEX
+  subject: biotechnology
+  concept_tags:
+  - class-11
+  - index
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_master_biotech_formula_bank_002
+  name: Class 12
+  latex: 32 formulas in 9 sections (DNA/Molecular 6, Protein 3, Cell Density 5, Fermentation
+    3, rDNA Technology 3, Enzyme Kinetics 3, Solutions 4, Genetics/Statistics 3, Bioinformatics
+    2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: INDEX
+  subject: biotechnology
+  concept_tags:
+  - class-12
+  - index
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_BIOT_master_biotech_formula_bank_003
+  name: 60 formulas across 2 class files + 1 master index
+  latex: 60 formulas across 2 class files + 1 master index
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: TOTAL
+  subject: biotechnology
+  concept_tags:
+  - 60-formulas-across-2-class-fil
+  - total
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE

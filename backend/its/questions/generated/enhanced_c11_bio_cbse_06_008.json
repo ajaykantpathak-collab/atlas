@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_008",
+   "title": "c11_bio_cbse_06_008",
+   "questions": [
+    {
+     "q": "Name the two tissues in a primary dicot root that give rise to the vascular cambium during secondary growth.",
+     "a": "The vascular cambium originates from **conjunctive tissue** (parenchyma between xylem and phloem patches) and **pericycle** cells lying opposite the phloem patches. A wrong answer (e.g., \"intrafascicular cambium\" or \"medullary rays\") reveals confusion with stem secondary growth where cambium originates within vascular bundles and from interfascicular parenchyma — students incorrectly transfer the stem mechanism to roots.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the vascular cambium ring in a dicot root is initially wavy but later becomes circular.",
+     "a": "The cambium forms as separate strips: one from conjunctive tissue (curved along the inner edge of each phloem patch) and one from pericycle (straight, opposite phloem). These strips join to form a **wavy ring** that mirrors the undulating xylem-phloem boundary. It becomes **circular** because cambium activity is greater on the inner side (producing more secondary xylem) than the outer side, pushing the ring outward uniformly. A wrong answer citing \"equal division of cambial cells\" misses the differential production of secondary tissues that mechanically reshapes the ring.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a one-year-old dicot root shows three xylem patches. How many distinct cambial strips will be visible before they fuse into a complete ring? Justify.",
+     "a": "**Six strips**: three from conjunctive tissue (one between each xylem-phloem pair) and three from pericycle (one opposite each phloem patch). Each xylem patch has phloem on either side in a radial arrangement, so with three xylem patches there are three phloem patches, hence three conjunctive-tissue strips and three pericycle strips. An answer of \"three\" ignores the pericycle contribution; \"four\" miscounts the patches.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin of vascular cambium in dicot root and dicot stem. Identify two structural differences in primary anatomy that cause this difference.",
+     "a": "**Root**: Cambium from conjunctive tissue (between radial xylem-phloem) + pericycle (outside vascular bundles). **Stem**: Cambium from intrafascicular cambium (within conjoint bundles) + interfascicular cambium (from medullary rays between bundles).  \nStructural causes: (1) Root bundles are **radial & exarch** with no pith; stem bundles are **conjoint, collateral, endarch** arranged in a ring around a pith. (2) Root has **conjunctive tissue** between xylem/phloem; stem has cambium already present inside each bundle (open bundles). A wrong answer listing only \"presence/absence of pith\" misses the bundle arrangement difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cork cambium in dicot root originates from the cortex, just like in many dicot stems.\" Evaluate this statement and correct it if necessary.",
+     "a": "**Incorrect.** In dicot roots, cork cambium (phellogen) originates from the **pericycle** (a layer just inside the endodermis), not the cortex. The cortex and epidermis are stretched and sloughed off early due to girth increase. In stems, cork cambium often arises from the cortex (or epidermis). The error stems from overgeneralizing the stem pattern; roots lack a persistent cortex because the pericycle — already meristematic for lateral roots — becomes the phellogen.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic experiment using fresh root segments of a dicot (e.g., radish) and a monocot (e.g., maize) to demonstrate that secondary growth occurs only in the dicot. Specify the stain, section type, and the key diagnostic feature you would observe.",
+     "a": "**Experiment**: Cut thin transverse sections (hand-section or microtome) from 2-month-old radish (dicot) and maize (monocot) roots. Stain with **safranin-fast green** (safranin stains lignified xylem red; fast green stains phloem/cellulose green). Mount in glycerine.  \n**Observation**: Radish section shows **distinct annual rings of secondary xylem** (multiple concentric red rings) and a **periderm** (cork) replacing epidermis. Maize section shows **only primary vascular bundles** (polyarch, >6 xylem patches) with no secondary xylem rings and intact epidermis.  \n**Key diagnostic feature**: Presence of **secondary xylem growth rings** and **periderm** in dicot; absence in monocot. A poor design uses only one stain or examines stem instead of root.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

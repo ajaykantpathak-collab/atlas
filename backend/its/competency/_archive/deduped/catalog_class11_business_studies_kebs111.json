@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 111,
+ "chapter_title": "International Business",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs111.txt",
+ "concepts": [
+  {
+   "id": "kebs.111.1.1",
+   "title": "International Business: Meaning and Its Reasons",
+   "section": "International business",
+   "definition": "International business means production and trade transactions across national boundaries, embracing import and export of goods and services, foreign direct investment, and contract manufacturing, driven by unequal distribution of resources, lower costs abroad and division of labour and specialisation among nations.",
+   "formula": "",
+   "key_idea": "No country produces all it needs, so nations specialise where they hold advantages and trade for the rest, expanding markets beyond domestic boundaries.",
+   "textbook_ref": "kebs111.txt meaning and reasons sections",
+   "question_patterns": [
+    "define international business and its scope",
+    "why do nations engage in international business",
+    "how does international business differ from domestic business",
+    "name the modes of entering international business",
+    "what is contract manufacturing in international business",
+    "state the role of specialisation in world trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cross the border test",
+     "explain": "Confirm the transaction crosses national boundaries."
+    },
+    {
+     "step": 2,
+     "action": "note the motive",
+     "explain": "Check cost advantage, resources or market expansion."
+    },
+    {
+     "step": 3,
+     "action": "classify the mode",
+     "explain": "Separate trade in goods from services, FDI and contracts."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.2.1",
+   "title": "Export Import Procedure and Documentation",
+   "section": "Export import procedure",
+   "definition": "Export trade follows pre-shipment stages of enquiry, receipt of order, appointing agents, securing finance, obtaining export licence, pre-shipment finance and production, then shipment stages of customs clearance, mate's receipt, bill of lading and insurance, and post-shipment stages of invoicing, export documents, bills of exchange and realisation of proceeds.",
+   "formula": "",
+   "key_idea": "Key documents include proforma invoice, bill of lading, certificate of origin, letter of credit, bill of exchange and shipping bill for customs.",
+   "textbook_ref": "kebs111.txt export import procedure sections",
+   "question_patterns": [
+    "describe the main steps of an export procedure",
+    "what documents are needed in import trade",
+    "explain the role of letter of credit in export trade",
+    "what is a bill of lading and mate's receipt",
+    "why is a certificate of origin required in exports",
+    "list the pre shipment and post shipment stages"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the stage",
+     "explain": "Sort the step into pre-shipment, shipment or post-shipment stage."
+    },
+    {
+     "step": 2,
+     "action": "identify the document",
+     "explain": "Name the document used at that step."
+    },
+    {
+     "step": 3,
+     "action": "verify the purpose",
+     "explain": "State what the document proves or secures."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.3.1",
+   "title": "WTO and the Framework of World Trade",
+   "section": "WTO",
+   "definition": "The World Trade Organisation established in 1995 as successor to GATT provides the institutional framework for world trade rules, promoting free and fair trade, reducing tariffs, and settling disputes among member nations covering goods, services and intellectual property.",
+   "formula": "",
+   "key_idea": "India is a founding member of the WTO, and the organisation's agreements aim at progressive liberalisation of trade for all members.",
+   "textbook_ref": "kebs111.txt wto section",
+   "question_patterns": [
+    "define wto and state its objectives",
+    "how is wto related to gatt",
+    "state the functions of the world trade organisation",
+    "what agreements does wto cover beyond goods",
+    "how does wto settle trade disputes between nations",
+    "why is wto important for developing countries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the institution",
+     "explain": "Name WTO and its 1995 origin from GATT."
+    },
+    {
+     "step": 2,
+     "action": "state the functions",
+     "explain": "List rule making, liberalisation and dispute settlement."
+    },
+    {
+     "step": 3,
+     "action": "verify the coverage",
+     "explain": "Note goods, services and IPR agreements."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs111.txt exercises",
+   "questions": [
+    "Differentiate between international trade and domestic trade.",
+    "Explain the export procedure adopted in India.",
+    "What is a letter of credit? Why is it needed in export trade?",
+    "Describe the objectives and functions of WTO.",
+    "Repetition of work is an advantage of international business - comment."
+   ]
+  }
+ ]
+}

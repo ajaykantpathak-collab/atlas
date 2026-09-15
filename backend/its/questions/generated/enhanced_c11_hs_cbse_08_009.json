@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_009",
+   "title": "c11_hs_cbse_08_009",
+   "questions": [
+    {
+     "q": "A parent asks: \"The ICMR table says 120 g cereals for a 5-year-old. Does that mean 120 g of dry wheat flour, or 120 g of cooked chapati?\" What is the correct interpretation according to ICMR guidelines?",
+     "a": "The 120 g refers to the raw/uncooked weight of cereals and millets (e.g., wheat flour, rice, ragi) before cooking. Cooked weight will be higher due to water absorption. A wrong answer (saying cooked weight) reveals the student confuses raw commodity weights used in dietary planning with edible portion weights, leading to severe underestimation of actual food needed.",
+     "self_check": true
+    },
+    {
+     "q": "Why does ICMR recommend the same 500 ml milk for both 1-3 years and 4-6 years age groups, while cereals increase from 60 g to 120 g and pulses stay constant at 30 g?",
+     "a": "Milk provides high-quality protein and calcium critical for bone growth in both age groups; the 500 ml meets calcium RDA (400 mg) for both. Cereals increase because energy needs rise sharply with activity (1240 to 1690 kcal). Pulses stay at 30 g because protein RDA increases from 22 g to 30 g, but cereals also contribute protein, so pulse quantity need not double. A wrong answer (e.g., \"milk is less important for older children\") reveals misunderstanding of nutrient density versus quantity scaling.",
+     "self_check": true
+    },
+    {
+     "q": "A 3-year-old child's daily menu includes: Breakfast — 1 chapati (30 g wheat flour) + 100 ml milk; Lunch — 50 g rice + 20 g dal + 50 g potato; Evening snack — 1 biscuit (10 g maida) + 100 ml milk; Dinner — 1 chapati (30 g wheat flour) + 20 g dal + 50 g pumpkin. Using ICMR Table 5 for 1-3 years, identify which food groups are deficient and by how much.",
+     "a": "Cereals: 30+50+10+30 = 120 g (required 60 g) — excess 60 g. Pulses: 20+20 = 40 g (required 30 g) — excess 10 g. Milk: 100+100 = 200 ml (required 500 ml) — deficit 300 ml. Roots/tubers: 50 g potato (required 50 g) — met. Green leafy vegetables: 0 g (required 50 g) — deficit 50 g. Other vegetables: 50 g pumpkin (required 50 g) — met. Fruits: 0 g (required 50 g) — deficit 50 g. Sugar: 0 g (required 15 g) — deficit. Fats/oils: not visible — likely deficit. A wrong answer missing the milk/vegetable/fruit deficits reveals inability to map cooked dishes back to raw food group quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ICMR balanced diet table for preschoolers (Table 5) with the infant RDA table (Table 1). Identify two fundamental differences in how nutrient needs are expressed and explain why this change occurs at the preschool stage.",
+     "a": "Difference 1: Infant RDAs are per kg body weight (e.g., 98 kcal/kg), while preschool RDAs are absolute daily totals (e.g., 1690 kcal). Difference 2: Infant table lists individual nutrients (protein, calcium, vitamins), while preschool table lists food group quantities. This shift occurs because infants consume only milk (uniform composition), so nutrients can be standardised per kg; preschoolers eat varied family foods, so food group guidance is more practical for meal planning. A wrong answer focusing only on \"numbers are bigger\" misses the conceptual shift from nutrient-based to food-based guidelines.",
+     "self_check": true
+    },
+    {
+     "q": "A preschool teacher says: \"Since the ICMR table gives fixed gram amounts, every 4-year-old in my class should get exactly 120 g cereals, 30 g pulses, 500 ml milk, etc. every day.\" Evaluate this statement and explain why rigid adherence is problematic.",
+     "a": "The statement is flawed. ICMR quantities are population-level averages for planning; individual needs vary by body size, activity, metabolism, and health status (textbook: \"needs may vary a little from child to child\"). Rigid adherence ignores: (a) appetite fluctuations (erratic appetite is normal), (b) nutrient density of specific foods used (e.g., millet vs rice), (c) bioavailability differences, (d) the guideline to offer variety and let the child self-regulate intake. A wrong answer defending rigid adherence reveals confusion between planning standards and feeding practice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 2-year-old child (1-3 years column) that meets all five food group quantities from ICMR Table 5, uses only locally available seasonal foods in North India in winter, includes at least two traditional snack items, and specifies raw weights for each food group at each meal.",
+     "a": "Sample answer: Breakfast — 30 g wheat flour (chapati) + 150 ml milk (porridge) + 25 g carrot (grated in porridge). Snack 1 — 15 g wheat flour (small mathi) + 5 g jaggery + 5 g ghee. Lunch — 30 g rice + 15 g moong dal + 25 g spinach (palak) + 25 g potato + 5 g ghee. Snack 2 — 100 ml milk + 10 g roasted chana. Dinner — 30 g wheat flour (chapati) + 15 g chana dal + 25 g methi leaves + 25 g carrot + 5 g ghee. Totals: Cereals 90 g (target 60 g — slightly high but acceptable), Pulses 30 g, Milk 250 ml (target 500 ml — deficit; need to increase milk at snacks), Roots/tubers 50 g, GLV 50 g, Other veg 50 g, Fruits 0 g (deficit — add 50 g guava/amla), Sugar 5 g (target 15 g), Fats 15 g (target 20 g). A poor answer omits raw weights, misses food groups, or uses non-seasonal foods, revealing inability to operationalise the table.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

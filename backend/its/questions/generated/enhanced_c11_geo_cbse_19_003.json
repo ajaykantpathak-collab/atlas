@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_003",
+   "title": "c11_geo_cbse_19_003",
+   "questions": [
+    {
+     "q": "Name the three major copper-producing belts in India and the state each belongs to.",
+     "a": "The three major copper belts are: (1) Singhbhum belt in Jharkhand, (2) Khetri belt in Rajasthan, and (3) Malanjkhand belt in Madhya Pradesh. A wrong answer (e.g., listing Bauxite regions like Koraput or Lohardaga) reveals confusion between ferrous/non-ferrous classification or between copper and aluminium ore distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Why are lead and zinc almost always found together in the same ore bodies in India?",
+     "a": "Lead (galena, PbS) and zinc (sphalerite, ZnS) share similar geochemical behaviour and precipitate together from hydrothermal fluids in the same structural traps — mainly shear zones and fractures within the Precambrian Aravalli metasediments. A student who answers “because they are both non-ferrous” shows a categorical misunderstanding; the real reason is genetic (common hydrothermal origin) not merely taxonomic.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) Khetri copper mines, (b) Zawar lead-zinc mines, (c) Malanjkhand copper mine. Which geological formation hosts each?",
+     "a": "(a) Khetri — Jhunjhunu district, Rajasthan — hosted in the Khetri Formation (metavolcanics) of the Delhi Supergroup, Aravalli craton. (b) Zawar — Udaipur district, Rajasthan — hosted in the Zawar Formation (dolomites/phyllites) of the Aravalli Supergroup. (c) Malanjkhand — Balaghat district, Madhya Pradesh — hosted in the Malanjkhand Granitoid intruding the Sausar Group. Incorrect placement (e.g., putting Zawar in Singhbhum) indicates failure to associate mineral belts with their specific cratonic blocks.",
+     "self_check": true
+    },
+    {
+     "q": "India’s copper ore reserves are estimated at ~1.5 billion tonnes, yet the country imports over 90% of its refined copper. Analyse the geological and economic factors behind this paradox.",
+     "a": "Geologically, Indian copper ores are low-grade (0.5–1.5% Cu) and deep-seated, raising extraction costs. Economically, smelting capacity (Sterlite, Hindalco, HCL) exceeds domestic concentrate supply, so imports of copper concentrate feed the refineries. A student who only cites “low reserves” misses the grade-depth-smelting capacity interplay; one who blames “lack of technology” overlooks that HCL’s Khetri and Malanjkhand mines use modern mechanised methods.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of continuing lead-zinc mining in the Zawar belt given the region’s water scarcity and the toxicity of mine tailings.",
+     "a": "Mining can be sustainable only with: (i) zero-discharge water recycling (HZL already uses paste-fill and effluent treatment), (ii) secure tailings dams with impermeable liners to prevent arsenic/lead leaching into the Banas River basin, and (iii) progressive reclamation of mined-out areas. A simplistic “stop mining” answer ignores the strategic need for zinc in galvanising steel for infrastructure; a “continue as usual” answer neglects the documented groundwater contamination in nearby villages.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page map annotation for a Class 11 board answer showing the spatial relationship between the Aravalli Range, the Delhi Supergroup rock outcrops, and the copper-lead-zinc mining centres. Include a legend and a 30-word inference.",
+     "a": "A good annotation will: (1) outline the Aravalli Range in brown, (2) shade the Delhi Supergroup exposure in light green, (3) plot Khetri, Kolihan, Chandmari (Cu) and Zawar, Rajpura-Dariba, Rampura-Agucha (Pb-Zn) with distinct symbols, (4) add a legend, (5) write inference: “All non-ferrous centres cluster along the NE-SW trending Delhi Supergroup shear zones within the Aravalli craton, confirming structural control on mineralisation.” A poor answer merely plots points without geological context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

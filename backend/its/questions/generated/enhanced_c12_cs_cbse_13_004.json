@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_004",
+   "title": "c12_cs_cbse_13_004",
+   "questions": [
+    {
+     "q": "Define \"neutral wrist position\" in the context of keyboard use and state the approximate angle (in degrees) between the forearm and the back of the hand that defines it.",
+     "a": "Neutral wrist position means the wrist is straight, not bent up (extension), down (flexion), or sideways (ulnar/radial deviation). The angle between the forearm and the back of the hand should be approximately 180° (i.e., a straight line). A wrong answer (e.g., \"wrists should rest on the wrist rest while typing\" or \"a slight upward bend is fine\") reveals the misconception that resting the wrists on a pad during typing is ergonomic; in fact, planting wrists compresses the carpal tunnel and forces finger tendons to work through a bent tunnel, increasing pressure on the median nerve.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets the top of their monitor at eye level because they read \"monitor at eye level\" online. After two hours, they report neck stiffness. Explain why this setup likely caused the stiffness, referencing the natural gaze angle.",
+     "a": "The natural resting gaze is slightly downward (about 15–20° below horizontal). Placing the top of the monitor at eye level forces the user to look upward or keep the head tilted back to see the center of the screen, extending the cervical spine and overworking the posterior neck muscles. The correct guideline: the top of the screen should be at or slightly below eye level, so the center is about 15–20° down. A wrong answer (e.g., \"eye level is correct; the stiffness is from not taking breaks\") shows the student memorized a rule without understanding the biomechanics of gaze angle and cervical loading.",
+     "self_check": true
+    },
+    {
+     "q": "Priya uses a laptop on a standard dining table (height 75 cm) for 4 hours daily. Her elbows are at 95° flexion and her wrists are extended 20° upward to reach the keyboard. She cannot change the table height. Propose two specific, low-cost adjustments she can make *only* to her laptop setup (no external monitor/keyboard) to improve both elbow and wrist angles. Justify each with the target angle.",
+     "a": "1. Place a stable riser (e.g., a stack of books or a laptop stand) under the laptop so the screen top is at eye level; this raises the keyboard, but then use a separate external keyboard (if allowed) — but the prompt says *only* laptop setup, so this is invalid. Wait: the prompt says \"only to her laptop setup (no external monitor/keyboard)\". So she cannot use external keyboard. Then the only adjustments are: (a) Tilt the laptop screen back slightly to reduce neck flexion, but that worsens wrist extension. (b) Use a folded towel under the front edge of the laptop to create a negative tilt (front lower than back), reducing wrist extension. (c) Sit on a cushion to raise her body relative to the table, improving elbow angle toward 90–100°, but then feet may dangle — use a footrest (box). A correct answer must address both angles with laptop-only tweaks: e.g., \"Raise seat height with a firm cushion so elbows open to ~100°; place a thin book under the *front* edge of the laptop to create a slight negative tilt (front down), bringing wrists closer to neutral.\" A wrong answer that suggests \"buy an external keyboard\" violates the constraint; one that says \"take more breaks\" ignores the biomechanical root cause.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term spinal load implications of two sitting postures for a 5-hour coding session: (A) Sitting upright with a 90° hip angle, no backrest support, feet flat. (B) Reclined 110–120° with full backrest support, feet flat. Use the concept of intradiscal pressure (IDP) relative to standing (standing IDP = 100%) to analyze which posture is more sustainable and why.",
+     "a": "Research (Nachemson, 1981) shows IDP percentages: standing = 100%; sitting upright 90° = 140%; sitting reclined 110–120° with backrest = 90–100%. Posture B (reclined supported) yields IDP at or below standing, while posture A (upright unsupported) increases disc pressure by 40%. Therefore, B is more sustainable for long duration. A wrong answer claiming \"90° upright is ideal because it's 'straight'\" reflects the outdated \"sit up straight\" myth; it ignores that unsupported upright sitting loads discs more than standing, and that a supported recline transfers load to the backrest, reducing muscular effort and disc compression.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Using a vertical mouse eliminates the risk of carpal tunnel syndrome (CTS) for programmers.\" State whether the claim is true, false, or partially true, and provide a biomechanical justification referencing forearm pronation/supination and carpal tunnel pressure.",
+     "a": "Partially true. A vertical mouse reduces forearm pronation (palm-down) toward a neutral handshake position (mid-pronation ~30–45°), which decreases pressure in the carpal tunnel compared to a flat mouse (full pronation ~90°). However, CTS risk is multifactorial: repetition, force, vibration, wrist extension, static loading, and individual anatomy. A vertical mouse does not address wrist extension if the mouse surface is too high, nor does it reduce repetition or static grip force. A wrong answer \"True — it's ergonomic so it prevents CTS\" shows over-reliance on a single device; \"False — mice don't cause CTS\" ignores strong epidemiological evidence linking mouse use >20 hrs/week to CTS.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute \"micro-break\" routine for a student who has been typing continuously for 90 minutes. The routine must include: (a) one eye exercise based on the 20-20-20 rule, (b) two distinct stretches targeting the upper trapezius and the wrist extensors, (c) one postural reset action. Specify the exact duration for each component and the physiological rationale.",
+     "a": "Example routine (total 5 min): \n1. Eye exercise (1 min): Look at an object ≥6 m (20 ft) away for 20 seconds, blink consciously 10 times; repeat twice. Rationale: relaxes ciliary muscles (accommodation), stimulates tear film.\n2. Upper trapezius stretch (1 min): Right ear to right shoulder, hold 15 sec; left side 15 sec; repeat. Rationale: lengthens fibers shortened by shoulder elevation during typing.\n3. Wrist extensor stretch (1 min): Extend affected arm, palm down, gently pull hand down/back with other hand, hold 15 sec each side; repeat. Rationale: counteracts static wrist extension from keyboard/mouse.\n4. Postural reset (2 min): Stand, feet shoulder-width, roll shoulders back/down 10×; perform 5 chin tucks (draw head straight back); walk 1 min. Rationale: reverses forward-head posture, activates deep cervical flexors, promotes venous return.\nA poor answer that lists generic \"stretch your arms\" without specific muscles, durations, or rationale reveals lack of anatomical specificity and inability to translate guidelines into actionable prescription.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

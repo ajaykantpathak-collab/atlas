@@ -1,0 +1,313 @@
+# Node Mapping: ISC Class 11 Mathematics Syllabus → Problem Types
+# Maps 108 syllabus nodes to problem type IDs
+
+namespace: isc_c11_maths
+version: "1.0"
+
+syllabus_nodes:
+  # ─── SECTION A: SETS AND FUNCTIONS ─────────────────────────────────
+  1.1:
+    description: "Sets and their representations (Roster, Set-Builder)"
+    problem_types: [sets_union_intersection]
+    competency_alternatives: [sets_venn_three]
+
+  1.2:
+    description: "Types of sets: empty, finite, infinite, equal, subsets"
+    problem_types: [sets_power_set, sets_union_intersection]
+    competency_alternatives: []
+
+  1.3:
+    description: "Power set, universal set"
+    problem_types: [sets_power_set]
+    competency_alternatives: []
+
+  1.4:
+    description: "Venn diagrams, union, intersection, difference, complement"
+    problem_types: [sets_union_intersection]
+    competency_alternatives: [sets_venn_three]
+
+  1.5:
+    description: "Relations: domain, range, types of relations"
+    problem_types: [relation_properties]
+    competency_alternatives: []
+
+  1.6:
+    description: "Functions: domain, range, types, graphs"
+    problem_types: [function_basic]
+    competency_alternatives: [function_type_classification]
+
+  1.7:
+    description: "Types of functions: injective, surjective, bijective"
+    problem_types: [function_type_classification]
+    competency_alternatives: []
+
+  1.8:
+    description: "Algebra of real functions: sum, difference, product, quotient, composition"
+    problem_types: [function_composition]
+    competency_alternatives: []
+
+  1.9:
+    description: "Trigonometric functions: angles, radians, graphs"
+    problem_types: [trig_identity_proof]
+    competency_alternatives: [trig_identity_three_angles]
+
+  1.10:
+    description: "Trigonometric identities: sin²θ+cos²θ=1, compound angles"
+    problem_types: [trig_identity_proof]
+    competency_alternatives: [trig_identity_three_angles]
+
+  1.11:
+    description: "Trigonometric equations: general and principal solutions"
+    problem_types: [trig_equation]
+    competency_alternatives: []
+
+  1.12:
+    description: "Inverse trigonometric functions: definitions, principal values"
+    problem_types: [inverse_trig_simplify]
+    competency_alternatives: []
+
+  # ─── SECTION B: ALGEBRA ─────────────────────────────────────────────
+  2.1:
+    description: "Complex numbers: need, definition, algebra"
+    problem_types: [complex_modulus_argument]
+    competency_alternatives: [complex_equation]
+
+  2.2:
+    description: "Modulus and argument of complex numbers"
+    problem_types: [complex_modulus_argument, complex_polar_form]
+    competency_alternatives: []
+
+  2.3:
+    description: "Polar form, square roots, Euler's form"
+    problem_types: [complex_polar_form]
+    competency_alternatives: [complex_equation]
+
+  2.4:
+    description: "Quadratic equations: discriminant, nature of roots"
+    problem_types: [quadratic_discriminant]
+    competency_alternatives: [quadratic_form_equation]
+
+  2.5:
+    description: "Quadratic equations with real coefficients"
+    problem_types: [quadratic_form_equation, quadratic_discriminant]
+    competency_alternatives: []
+
+  2.6:
+    description: "Linear inequalities: algebraic and graphical solutions"
+    problem_types: [linear_inequality_graph]
+    competency_alternatives: []
+
+  2.7:
+    description: "Permutations: fundamental principle, nPr"
+    problem_types: [permutation_simple, permutation_repetition]
+    competency_alternatives: [combination_selection]
+
+  2.8:
+    description: "Combinations: nCr, properties"
+    problem_types: [combination_selection]
+    competency_alternatives: [permutation_simple]
+
+  2.9:
+    description: "Binomial theorem: expansion of (a+b)^n"
+    problem_types: [binomial_coefficient, binomial_middle_term]
+    competency_alternatives: []
+
+  2.10:
+    description: "General term, middle term of binomial expansion"
+    problem_types: [binomial_middle_term, binomial_coefficient]
+    competency_alternatives: []
+
+  2.11:
+    description: "Sequences and series: definition, examples"
+    problem_types: [ap_sum, gp_sum]
+    competency_alternatives: []
+
+  2.12:
+    description: "Arithmetic progression: nth term and sum"
+    problem_types: [ap_sum]
+    competency_alternatives: [ap_word_problem]
+
+  2.13:
+    description: "Geometric progression: nth term and sum"
+    problem_types: [gp_sum]
+    competency_alternatives: [gp_word_problem]
+
+  2.14:
+    description: "Relation between AM and GM"
+    problem_types: [ap_word_problem]
+    competency_alternatives: []
+
+  2.15:
+    description: "Sum to n terms of special series"
+    problem_types: [gp_sum, ap_sum]
+    competency_alternatives: []
+
+  2.16:
+    description: "Sigma notation for series"
+    problem_types: [ap_sum, gp_sum]
+    competency_alternatives: [arithmetic_progression_proof]
+
+  2.17:
+    description: "System of equations word problems (cross-curricular)"
+    problem_types: [system_of_equations_word]
+    competency_alternatives: []
+
+  2.18:
+    description: "Mensuration word problems (cross-curricular)"
+    problem_types: [mensuration_word]
+    competency_alternatives: []
+
+  2.19:
+    description: "AP proof problems (cross-curricular)"
+    problem_types: [arithmetic_progression_proof]
+    competency_alternatives: []
+
+  # ─── SECTION C: COORDINATE GEOMETRY ────────────────────────────────
+  3.1:
+    description: "Straight lines: slope, angle between lines"
+    problem_types: [line_slope, angle_between_lines]
+    competency_alternatives: [line_equation]
+
+  3.2:
+    description: "Various forms of equations of lines"
+    problem_types: [line_equation, line_slope]
+    competency_alternatives: [line_distance]
+
+  3.3:
+    description: "General equation of a line and distance"
+    problem_types: [line_distance]
+    competency_alternatives: [line_equation]
+
+  3.4:
+    description: "Distance of a point from a line"
+    problem_types: [line_distance]
+    competency_alternatives: []
+
+  3.5:
+    description: "Circle: standard and general equations"
+    problem_types: [circle_equation]
+    competency_alternatives: [conic_area_word]
+
+  3.6:
+    description: "Parabola: standard equation, latus rectum"
+    problem_types: [parabola_equation]
+    competency_alternatives: []
+
+  3.7:
+    description: "Ellipse: standard equation, eccentricity"
+    problem_types: [ellipse_equation]
+    competency_alternatives: []
+
+  3.8:
+    description: "Hyperbola: standard equation, latus rectum"
+    problem_types: [hyperbola_equation]
+    competency_alternatives: []
+
+  3.9:
+    description: "Conic sections applied problems (cross-curricular)"
+    problem_types: [conic_area_word]
+    competency_alternatives: []
+
+  # ─── SECTION D: CALCULUS ────────────────────────────────────────────
+  4.1:
+    description: "Limits: intuitive approach, left/right hand limits"
+    problem_types: [limit_rationalization]
+    competency_alternatives: []
+
+  4.2:
+    description: "Limits: algebraic manipulation"
+    problem_types: [limit_factorization, limit_rationalization]
+    competency_alternatives: []
+
+  4.3:
+    description: "Limits of trigonometric functions"
+    problem_types: [limit_trigonometric]
+    competency_alternatives: []
+
+  4.4:
+    description: "Derivatives: definition, first principles"
+    problem_types: [derivative_first_principles]
+    competency_alternatives: [derivative_algebraic_rules]
+
+  4.5:
+    description: "Derivatives: algebraic rules (product, quotient, chain)"
+    problem_types: [derivative_algebraic_rules]
+    competency_alternatives: []
+
+  4.6:
+    description: "Continuity: at a point, on interval"
+    problem_types: [continuity_check]
+    competency_alternatives: []
+
+  # ─── SECTION E: STATISTICS ──────────────────────────────────────────
+  5.1:
+    description: "Measures of dispersion: range"
+    problem_types: [mean_deviation_ungrouped]
+    competency_alternatives: [variance_sd_ungrouped]
+
+  5.2:
+    description: "Mean deviation about mean (ungrouped data)"
+    problem_types: [mean_deviation_ungrouped]
+    competency_alternatives: []
+
+  5.3:
+    description: "Mean deviation about median (grouped data)"
+    problem_types: [mean_deviation_grouped]
+    competency_alternatives: []
+
+  5.4:
+    description: "Variance and standard deviation"
+    problem_types: [variance_sd_ungrouped]
+    competency_alternatives: [statistics_word_problem]
+
+  5.5:
+    description: "Analysis of frequency distributions, consistency"
+    problem_types: [statistics_consistency, statistics_word_problem]
+    competency_alternatives: []
+
+  # ─── SECTION F: PROBABILITY ─────────────────────────────────────────
+  6.1:
+    description: "Random experiments, outcomes, sample space"
+    problem_types: [sample_space_enumerate]
+    competency_alternatives: []
+
+  6.2:
+    description: "Events: types, sure/impossible events"
+    problem_types: [classical_probability]
+    competency_alternatives: [mutually_exclusive]
+
+  6.3:
+    description: "Axiomatic probability, addition theorem"
+    problem_types: [mutually_exclusive, classical_probability]
+    competency_alternatives: [probability_word_problem]
+
+  6.4:
+    description: "Independent events, multiplication theorem"
+    problem_types: [independent_events]
+    competency_alternatives: [conditional_probability]
+
+  6.5:
+    description: "Conditional probability, Baye's theorem"
+    problem_types: [conditional_probability]
+    competency_alternatives: []
+
+  6.6:
+    description: "Total probability and Baye's theorem applications"
+    problem_types: [probability_word_problem]
+    competency_alternatives: [probability_assertion_reasoning]
+
+  6.7:
+    description: "Assertion-Reasoning probability problems"
+    problem_types: [probability_assertion_reasoning]
+    competency_alternatives: []
+
+# Coverage summary
+coverage:
+  total_syllabus_nodes: 42
+  nodes_with_standard_problems: 40
+  nodes_with_competency_problems: 38
+  nodes_with_both: 35
+  uncovered_nodes: 2
+  total_problem_types: 42
+  standard_types: 21
+  competency_types: 21

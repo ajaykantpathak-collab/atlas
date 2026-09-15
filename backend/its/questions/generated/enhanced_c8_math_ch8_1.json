@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_1",
+   "title": "c8_math_ch8_1",
+   "questions": [
+    {
+     "q": "What does the symbol % mean? Write the meaning in words and as a mathematical expression.",
+     "a": "The symbol % means \"per hundred\". Mathematically, x% = x/100. For example, 25% = 25/100 = 1/4. A wrong answer like \"% means divide by 10\" or \"% is just a label\" reveals the student treats % as a decorative symbol rather than a mathematical operator meaning \"out of 100\".",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper says, \"This shirt has a 50% discount.\" A student says, \"That means the price becomes half.\" Is the student correct? Explain why or why not using the definition of percentage.",
+     "a": "Yes, the student is correct. 50% means 50/100 = 1/2, so the discount is half the original price. The new price is original minus half = half the original. A wrong answer (e.g., \"50% means ₹50 off\") reveals the student thinks percentage is an absolute amount, not a relative fraction of the whole. They miss that % always refers to a part of 100 parts of the whole quantity.",
+     "self_check": true
+    },
+    {
+     "q": "In a class of 40 students, 30 are present today. What percentage of the class is present? Show your steps using the definition of percentage.",
+     "a": "Step 1: Fraction present = 30/40. Step 2: Simplify to 3/4. Step 3: Convert to denominator 100: (3 × 25)/(4 × 25) = 75/100. Step 4: By definition, 75/100 = 75%. So 75% of the class is present. A wrong answer like 30% (using numerator only) or 7.5% (dividing 30 by 4) reveals the student doesn't grasp that percentage requires scaling the fraction to a denominator of 100.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two statements: (a) \"20% of the students in Class A are girls.\" (b) \"The ratio of girls to boys in Class B is 1:4.\" Which class has a higher percentage of girls? Explain without calculating the exact percentage for Class B.",
+     "a": "Class A has 20% girls. In Class B, ratio girls:boys = 1:4 means for every 1 girl there are 4 boys, so total parts = 5. Girls are 1 out of 5 parts = 1/5 = 20/100 = 20%. Both have the same percentage of girls (20%). A wrong answer (e.g., \"Class B has more because 1:4 looks bigger\") reveals the student cannot translate a part-to-part ratio into a part-to-whole fraction and then to a percentage. They treat ratio and percentage as unrelated forms.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul solved: \"Convert 3/5 to percentage.\" His working: 3/5 = 0.6 = 0.6%. Is his answer correct? If not, identify the error and give the correct percentage.",
+     "a": "Rahul is incorrect. 3/5 = 0.6 as a decimal, but 0.6% means 0.6/100 = 0.006, not 0.6. The error: he wrote the decimal form but kept the % symbol without multiplying by 100. Correct: 3/5 = 60/100 = 60%. A wrong evaluation (e.g., \"Rahul is correct because 0.6 = 0.6%\") reveals the student confuses decimal representation with percentage representation and doesn't understand that % means divide by 100.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (using rupees, metres, litres, or school context) where using percentage is more useful than using a fraction or decimal. Explain why percentage is better in your example.",
+     "a": "Example: \"A 1-litre juice bottle says 'Contains 12% fruit juice'.\" This is better than saying \"Contains 3/25 fruit juice\" or \"Contains 0.12 litres fruit juice\" because percentage instantly tells a buyer that in every 100 ml, 12 ml is real juice — easy to compare across brands. A poor answer (e.g., \"50% off sale\" without explanation) just states a percentage without justifying why it's more useful than \"half price\" or \"0.5 discount\". It shows the student can't articulate the communicative advantage of a standard base of 100.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_003",
+   "title": "c11_ps_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define \"equality of opportunity\" in one sentence and name the two constitutional articles that most directly guarantee it in the context of public employment and education in India.",
+     "a": "Equality of opportunity means every individual has a fair chance to compete for social goods like jobs and education without discrimination based on birth circumstances, guaranteed primarily by Article 16 (equality of opportunity in public employment) and Article 15(4) (special provisions for socially and educationally backward classes in education). A wrong answer that only cites Article 14 (equality before law) reveals confusion between *formal equality* (identical legal treatment) and *equality of opportunity* (fair access to compete), missing the crucial distinction that the latter may require differential treatment to offset social disadvantages.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT textbook states: \"Formal equality or equality before law is necessary but not sufficient to realise the principle of equality.\" Explain why formal equality alone fails to ensure equality of opportunity, using the distinction between natural and socially-produced inequalities.",
+     "a": "Formal equality treats everyone identically regardless of their starting position. If inequalities are socially produced (e.g., a Dalit child denied quality schooling due to historical discrimination), identical treatment (same exam, same syllabus) merely replicates the disadvantage because the child lacks the *capacity to compete* developed through fair access to resources. Natural inequalities (different talents) are acceptable grounds for different outcomes; socially-produced inequalities are not. A wrong answer that claims \"formal equality is enough because the law treats everyone the same\" reveals the misconception that equality of opportunity means *procedural sameness* rather than *substantive fairness* — ignoring that the \"race\" begins long before the examination hall.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a policy: \"All candidates for the state civil services exam must pay a ₹50,000 application fee, waived only for SC/ST candidates.\" Analyze whether this policy promotes or violates equality of opportunity for a first-generation learner from an OBC family earning ₹8,000/month. Apply the concepts of \"fair starting conditions\" and \"structural barriers.\"",
+     "a": "The policy violates equality of opportunity for the OBC candidate. While the fee waiver for SC/ST addresses one structural barrier (caste-based exclusion), it ignores *economic barriers* that equally obstruct fair competition. A first-generation OBC learner from a low-income family faces the same financial hurdle (₹50,000 = 6+ months' family income) but gets no relief. Equality of opportunity requires removing *all* arbitrary structural barriers — caste, class, gender, disability — not just some. A wrong answer that says \"it's fair because SC/ST are more backward\" reveals a failure to understand that equality of opportunity is *individual-centric* (each person's barriers matter) and that multiple, overlapping disadvantages (caste + class + first-generation status) compound exclusion. The policy creates a new inequality among disadvantaged groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liberal and socialist perspectives on equality of opportunity. Specifically, explain how each would evaluate a policy providing *free coaching centres only in rural government schools* for JEE/NEET preparation.",
+     "a": "**Liberal view:** Supports the policy as it removes an *unfair barrier* (lack of access to coaching) without dictating outcomes. Liberals see equality of opportunity as \"open competition on fair terms\" — the coaching centre levels the playing field so talent and effort determine success. They would oppose *quotas in results* but support *inputs* that enable fair competition.\n**Socialist view:** Supports the policy as necessary but *insufficient*. Socialists (following Marx/Lohia) argue that equality of opportunity cannot be achieved without addressing *economic structure* — private ownership of coaching institutes, unequal school funding, and the commodification of education. They would demand *public control over educational resources* and *redistribution of wealth* to ensure the rural centres are equally resourced as urban private ones.\nA wrong answer that says \"both support it equally\" misses the fundamental theoretical divide: liberals see equal opportunity as a *procedural fix within markets*; socialists see it as a *structural transformation of resource distribution*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Reservations in educational institutions violate equality of opportunity because they give preference to caste over merit. True equality of opportunity means selecting students solely based on entrance exam ranks.\" Use the NCERT distinction between \"treating everyone in an identical manner\" and \"treating everyone as equal.\"",
+     "a": "The argument confuses *formal equality* (identical treatment: same exam, same rank list) with *equality of opportunity* (fair chance to acquire merit). Entrance exam ranks reflect *past access to resources* (coaching, schools, nutrition, parental education) — not just innate talent. A Dalit student scoring 90th percentile after overcoming caste discrimination, poverty, and poor schooling has demonstrated *greater* merit (effort against odds) than a privileged student scoring 95th percentile with every advantage. Reservations compensate for the *socially-produced deficit* in opportunity, not natural ability. The NCERT states: \"treating everyone as equal may on occasions need differential treatment.\" A wrong answer that equates \"merit\" with \"exam score\" ignores that merit itself is socially constructed through unequal opportunities — the core insight of the *substantive equality* framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-pronged policy to ensure equality of opportunity in higher education for students from Denotified and Nomadic Tribes (DNTs), who are historically marginalised but often not covered by SC/ST/OBC reservations. Your policy must address both *access* (admission) and *success* (retention/completion). Justify each prong using the concept of \"cumulative disadvantage.\"",
+     "a": "**Prong 1 (Access): Targeted supernumerary seats (not quotas) in central universities for DNT students, with eligibility verified through community certificates issued by district magistrates.** Justification: DNTs face *cumulative disadvantage* — historical criminalisation (Criminal Tribes Act), lack of land/assets, no political representation, and exclusion from existing reservations. Supernumerary seats avoid \"reverse discrimination\" claims while acknowledging their unique structural exclusion.\n**Prong 2 (Success): Mandatory \"Bridge & Belong\" programme — 6-month pre-entry residential course (academic bridging + mentorship + stipend) + dedicated DNT student support cells in every university.** Justification: Access without support replicates failure. Cumulative disadvantage means DNT students enter with academic gaps *and* alienation. The programme addresses both, converting admission into genuine opportunity.\nA poor answer that only proposes \"reservations for DNTs\" misses the *success* dimension and the nuance that DNTs often lack caste certificates — revealing a mechanistic view of affirmative action rather than a structural understanding of cumulative disadvantage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

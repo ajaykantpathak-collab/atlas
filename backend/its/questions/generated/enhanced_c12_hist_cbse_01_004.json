@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_004",
+   "title": "c12_hist_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the typical cross-section shape of a main street drain at Mohenjodaro, and what material was used for its removable cover?",
+     "a": "Main drains were U-shaped or rectangular channels built with bricks set in gypsum/lime mortar, covered with loose-fitting baked bricks (sometimes limestone slabs) that could be lifted for cleaning. A wrong answer (e.g., \"open ditches\" or \"stone slabs fixed with mortar\") reveals the student misses the *maintainability* design — the covers were deliberately loose to allow periodic desilting, a key feature of Harappan engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Harappan house drains first empty into a sump/cesspit before connecting to the street drain, rather than discharging directly?",
+     "a": "The sump acted as a settling chamber: heavier solids (silt, kitchen waste) settled at the bottom while relatively clear effluent flowed into the street drain, preventing blockages. A wrong answer (e.g., \"for storage\" or \"religious purity\") shows the student has not grasped the *hydraulic function* — this is a primary treatment step identical in principle to modern septic tanks, indicating advanced understanding of waste separation.",
+     "self_check": true
+    },
+    {
+     "q": "At Lothal, houses were built of mud bricks but drains were made of burnt bricks. What does this material contrast reveal about Harappan priorities?",
+     "a": "It shows drainage was considered critical infrastructure warranting durable, water-resistant materials even in a smaller settlement, while residential superstructure could use cheaper mud brick. A wrong answer (e.g., \"burnt bricks were cheaper\" or \"mud bricks dissolve in water\") indicates confusion about material properties and the *hierarchy of investment* — the Harappans prioritized long-term sanitation over housing longevity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Harappan drainage system with Mesopotamian urban sanitation (c. 2500 BCE). Which system shows greater household connectivity and why?",
+     "a": "Harappan: nearly every house at Mohenjodaro had a private bathroom + direct drain connection. Mesopotamian: drains served temples/palaces; common houses used pit latrines or open dumping. The difference stems from Harappan *grid planning* (streets-with-drains laid first) versus Mesopotamian *organic growth*. A wrong answer claiming \"both were similar\" ignores the archaeological evidence of universal household access in the Indus Valley — a unique feature for the Bronze Age.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Harappan drainage system proves the existence of a strong central government that could enforce building codes.\" Use archaeological evidence.",
+     "a": "The statement is *plausible but not proven*. Evidence for: standardized brick ratio (4:2:1) across regions, pre-laid street drains requiring coordination, uniform drain gradients. Evidence against: no palaces/administrative archives found; possibly a corporate/guild-based enforcement. A good evaluation weighs both sides. A weak answer either asserts \"yes, because of uniformity\" (ignoring alternative political models) or \"no, because no king\" (ignoring the coordination evidence).",
+     "self_check": true
+    },
+    {
+     "q": "Design a fieldwork plan to test whether a newly excavated Harappan settlement (5 ha, no prior excavation) had a covered drainage system. Specify: (a) trench locations, (b) expected artefacts/features, (c) how to distinguish drains from foundation trenches.",
+     "a": "(a) Trenches along street alignments (predicted from surface mounds) and at house-street junctions. (b) Expect: U-shaped brick channels, gypsum mortar, loose cover bricks, sump pits with sand layers (cleaning debris). (c) Drains have water-laid silt layers, smooth mortar, outlet holes in house walls; foundation trenches lack these and contain construction debris. A poor plan omits sump evidence or confuses drains with wall footings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

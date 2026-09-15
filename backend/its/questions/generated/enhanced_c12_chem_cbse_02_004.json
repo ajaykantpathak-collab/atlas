@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_004",
+   "title": "c12_chem_cbse_02_004",
+   "questions": [
+    {
+     "q": "Write the exact mathematical relationship between standard cell potential (E°_cell) and equilibrium constant (K) at 298 K, defining every symbol (including n) and its units.",
+     "a": "E°_cell = (0.059/n) log₁₀ K, where E°_cell is in volts (V), n is the number of moles of electrons transferred in the balanced cell reaction (dimensionless), and K is the dimensionless equilibrium constant (activity-based). The constant 0.059 V comes from 2.303RT/F at 298 K (R = 8.314 J mol⁻¹ K⁻¹, F = 96487 C mol⁻¹). A wrong answer (e.g., using ln instead of log₁₀, omitting n, or writing 0.0591 instead of 0.059) reveals confusion between natural and base-10 logarithms, or not realizing n comes from the balanced electron transfer, not the stoichiometric coefficient of any species.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equilibrium constant expression for the Daniell cell reaction Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s) as K = [Zn²⁺]/[Cu²⁺] and then uses E°_cell = (0.059/1) log K. Identify the two errors in this approach.",
+     "a": "First error: n = 2 for this reaction (Zn → Zn²⁺ + 2e⁻, Cu²⁺ + 2e⁻ → Cu), not 1. The student likely used the coefficient of Zn²⁺ or Cu²⁺ instead of the number of electrons transferred. Second error: The equilibrium constant expression is correct (solids omitted), but the student might mistakenly include solids or write K = [Zn²⁺][Cu]/[Cu²⁺][Zn]. The wrong n value leads to a K that is the square root of the correct value. This reveals a fundamental misunderstanding: n is the number of electrons in the balanced half-reactions, not the stoichiometric number of any ion.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction 2Fe³⁺(aq) + Sn²⁺(aq) ⇌ 2Fe²⁺(aq) + Sn⁴⁺(aq), E°_cell = 0.62 V at 298 K. Calculate the equilibrium constant K. Show all steps including the determination of n.",
+     "a": "Step 1: Identify half-reactions: Cathode: 2Fe³⁺ + 2e⁻ → 2Fe²⁺ (2 electrons), Anode: Sn²⁺ → Sn⁴⁺ + 2e⁻. Overall reaction transfers 2 electrons, so n = 2.\nStep 2: Use formula E°_cell = (0.059/n) log K → 0.62 = (0.059/2) log K.\nStep 3: log K = (0.62 × 2) / 0.059 = 1.24 / 0.059 ≈ 21.0169.\nStep 4: K = 10²¹·⁰¹⁶⁹ ≈ 1.04 × 10²¹.\nA wrong answer (e.g., n=1 giving K ≈ 10¹², or forgetting to multiply by n) shows the student cannot balance electrons in a redox reaction or misapplies the formula. The huge K confirms the reaction is strongly product-favored.",
+     "self_check": true
+    },
+    {
+     "q": "Two cells have standard potentials: Cell A: E° = +0.50 V (n=2), Cell B: E° = -0.25 V (n=1). Without calculating exact K values, compare the magnitudes of their equilibrium constants and explain which reaction is more product-favored at equilibrium.",
+     "a": "Cell A: E° > 0 ⇒ log K > 0 ⇒ K > 1 (product-favored). Cell B: E° < 0 ⇒ log K < 0 ⇒ K < 1 (reactant-favored). Even though Cell A has n=2 and Cell B has n=1, the sign of E°_cell determines whether K > 1 or K < 1. The magnitude of K for Cell A is 10^((0.50×2)/0.059) ≈ 10¹⁶.⁹, while for Cell B it is 10^((-0.25×1)/0.059) ≈ 10⁻⁴.². Cell A's reaction lies far to the right; Cell B's lies far to the left. A student who says \"Cell B has larger K because n is smaller\" confuses the effect of n on the exponent with the dominant effect of the sign of E°.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates K for a reaction with E°_cell = 0.46 V and n = 2 at 298 K and gets K = 3.92 × 10¹⁵. They then claim: \"Since K is so large, the reaction goes to completion and no reactants remain at equilibrium.\" Evaluate this statement.",
+     "a": "The statement is false. A large K (≫1) means the equilibrium position lies far to the right, i.e., products dominate, but it does NOT mean the reaction goes to 100% completion. At equilibrium, small but non-zero concentrations of reactants always remain (unless K is truly infinite, which never happens for a real chemical reaction). The student confuses \"thermodynamically favorable\" with \"goes to completion.\" This is a classic misconception: equilibrium constant magnitude indicates the extent, not the absolute absence of reactants. In competitive exams, this distinction is frequently tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to experimentally determine the equilibrium constant of the reaction Cu(s) + 2Ag⁺(aq) ⇌ Cu²⁺(aq) + 2Ag(s) using only a voltmeter, standard solutions, and a salt bridge. You may not measure concentrations at equilibrium directly.",
+     "a": "Construct the galvanic cell: Cu(s)|Cu²⁺(aq, 1 M)||Ag⁺(aq, 1 M)|Ag(s). Measure its EMF under standard conditions (all concentrations 1 M) — this gives E°_cell directly (≈ 0.46 V). Then use the formula E°_cell = (0.059/n) log K with n=2 to calculate K. No equilibrium concentration measurements are needed because E°_cell is a thermodynamic quantity that encodes K. A poor answer would involve letting the cell run until voltage drops to zero and then measuring concentrations — which is impractical and misses the entire point of the Nernst-equilibrium connection. This tests whether the student understands that E°_cell is a shortcut to K.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

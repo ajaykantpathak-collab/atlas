@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_010",
+   "title": "c11_cs_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a mutable and an immutable object in Python with respect to memory and identity?",
+     "a": "A mutable object allows in-place modification of its contents while retaining the same `id()` (memory address); an immutable object never changes its contents — any operation that seems to modify it actually creates a new object with a new `id()`. A wrong answer (e.g., \"mutable means you can reassign the variable\") reveals confusion between variable reassignment and object mutation.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the code: `x = 10; y = x; x = 20`. Now consider: `a = [1,2]; b = a; a.append(3)`. Explain why `y` remains 10 but `b` becomes `[1,2,3]`.",
+     "a": "Integers are immutable: `x = 20` rebinds `x` to a new integer object `20`; `y` still points to the original `10`. Lists are mutable: `a.append(3)` modifies the *same* list object that both `a` and `b` reference. A wrong answer (e.g., \"both change because they are the same variable\") shows misunderstanding of aliasing vs. rebinding.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `modify(data)` that attempts to change its argument. Predict the output of:\n```python\ndef modify(data):\n    data = data + [99]   # for list\n    # data = data + (99,)  # for tuple\n```\nwhen called with `lst = [1,2]; modify(lst); print(lst)` and `tup = (1,2); modify(tup); print(tup)` (using appropriate operator). Explain the difference.",
+     "a": "For list: `data = data + [99]` creates a *new* list and rebinds local `data`; original `lst` is unchanged → prints `[1,2]`. For tuple: `data = data + (99,)` also creates a new tuple; original `tup` unchanged → prints `(1,2)`. However, if the function used `data.append(99)` for list, it would mutate the original. Wrong prediction (e.g., \"list changes\") indicates confusion between mutation (`append`) and rebinding (`+`).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `def add_item(item, shopping_list=[]): shopping_list.append(item); return shopping_list`. They call `add_item('apple')` then `add_item('banana')` and get `['apple', 'banana']` instead of `['banana']`. Analyze why this happens and how mutability of the default argument causes this bug.",
+     "a": "The default list `[]` is created *once* at function definition time. Because lists are mutable, every call without an explicit argument shares and mutates the *same* list object. This is a classic mutable default argument trap. Wrong analysis (e.g., \"Python creates a new list each call\") shows lack of understanding that default values are evaluated at definition, not call time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Tuples are immutable, so they are always safer to use than lists.\" Provide a concrete scenario where a tuple's immutability is a disadvantage, and one where it is an advantage.",
+     "a": "Disadvantage: Need to build a sequence incrementally (e.g., reading lines from a file) — tuples require creating a new tuple each time (`t = t + (line,)`), which is O(n²) overall; list `append` is O(1) amortized. Advantage: Using a tuple as a dictionary key (e.g., `coords = {(lat, lon): 'city'}`) because immutable objects are hashable; lists cannot be keys. A one-sided answer reveals failure to weigh trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small program that demonstrates the difference between shallow copy and deep copy for a nested mutable structure (e.g., list of lists). Show how mutability of inner objects affects both copy types.",
+     "a": "Example:\n```python\nimport copy\noriginal = [[1,2], [3,4]]\nshallow = copy.copy(original)\ndeep = copy.deepcopy(original)\noriginal[0].append(99)\nprint(shallow)  # [[1,2,99], [3,4]] — inner list mutated\nprint(deep)     # [[1,2], [3,4]] — unchanged\n```\nA poor answer might only copy the outer list and not demonstrate nested mutation, indicating incomplete grasp of mutability propagation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

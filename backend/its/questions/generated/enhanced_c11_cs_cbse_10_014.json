@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_014",
+   "title": "c11_cs_cbse_10_014",
+   "questions": [
+    {
+     "q": "What is the fundamental principle that makes a queue suitable for modeling a real-world waiting line, and how does it differ from a stack in this context?",
+     "a": "A queue follows FIFO (First-In-First-Out), meaning the first person to join the line is the first to be served, exactly matching real-world queues. A stack follows LIFO (Last-In-First-Out), which would serve the last arrival first — unfair and unrealistic for a waiting line. A wrong answer (e.g., \"both work\") reveals the student confuses the access policy and cannot map data structure behavior to physical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "In a discrete-event simulation of a single-server queue, the event list contains (time=5, type=arrival) and (time=7, type=departure). The server is currently busy. What happens at time=5, and how does the queue state change?",
+     "a": "At time=5, an arrival occurs. Since the server is busy, the new customer is enqueued (added to the rear). The queue length increases by 1. The departure event at time=7 remains scheduled. A wrong answer (e.g., \"customer is served immediately\") shows the student does not understand that the server can only serve one at a time and that the queue buffers waiting customers.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `simulate_single_server(arrivals, service_times)` that takes two lists of equal length (arrival times and service durations for each customer) and returns the average waiting time. Assume FIFO service and a single server. Use `collections.deque`.",
+     "a": "```python\nfrom collections import deque\n\ndef simulate_single_server(arrivals, service_times):\n    n = len(arrivals)\n    wait_times = [0] * n\n    q = deque()  # stores indices of waiting customers\n    server_free_time = 0\n    for i in range(n):\n        arrival = arrivals[i]\n        service = service_times[i]\n        # Remove customers who have finished before this arrival? No, we process in arrival order.\n        # Actually, we simulate by tracking when server becomes free.\n        start_service = max(arrival, server_free_time)\n        wait_times[i] = start_service - arrival\n        server_free_time = start_service + service\n    return sum(wait_times) / n\n```\nA wrong answer using a stack or not updating `server_free_time` correctly reveals misunderstanding of FIFO service discipline and the relationship between arrival, service start, and server availability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare FCFS (First-Come-First-Served) and Round Robin (time quantum = 2) scheduling for processes: P1(arrival=0, burst=5), P2(arrival=1, burst=3), P3(arrival=2, burst=2). Which algorithm gives lower average turnaround time? Show the Gantt chart for both.",
+     "a": "**FCFS Gantt:** | P1 (0-5) | P2 (5-8) | P3 (8-10) |\nTurnaround: P1=5, P2=7, P3=8 → Avg = 6.67\n\n**Round Robin (q=2) Gantt:** | P1 (0-2) | P2 (2-4) | P3 (4-6) | P1 (6-8) | P2 (8-9) | P1 (9-10) |\nTurnaround: P1=10, P2=8, P3=4 → Avg = 7.33\n\nFCFS has lower average turnaround here. A wrong answer claiming RR is always better reveals the misconception that preemption always improves turnaround; it improves response time but can increase turnaround due to context switching overhead (simulated by extra queue cycles).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a print spooler, using a priority queue instead of a regular queue would always improve user experience because urgent documents print first.\" Evaluate this claim. When might it degrade experience?",
+     "a": "The claim is false. Priority queues can cause starvation of low-priority jobs (e.g., a large batch report never prints if high-priority single-page jobs keep arriving). This degrades experience for users submitting non-urgent but important work. A regular queue guarantees fairness (no starvation) and predictable wait times. A wrong answer agreeing without mentioning starvation shows lack of systems thinking about fairness vs. urgency trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simulation scenario (not CPU scheduling) where a queue is essential. Specify: (a) entities, (b) arrival pattern, (c) service mechanism, (d) performance metric to collect, and (e) one \"what-if\" question your simulation could answer.",
+     "a": "Example: **Toll Plaza Simulation**\n(a) Entities: Cars. (b) Arrival: Random (exponential inter-arrival, mean 10 sec). (c) Service: Single booth, fixed 8 sec per car. (d) Metric: Average queue length, max wait time. (e) What-if: \"What happens to max wait time if we add a second booth?\" A poor answer uses a stack or omits the metric, showing inability to abstract a real system into a queue model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

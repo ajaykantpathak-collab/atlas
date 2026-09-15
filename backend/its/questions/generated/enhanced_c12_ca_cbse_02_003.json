@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_02_003",
+   "title": "c12_ca_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the default alignment for text and numeric values in an Excel cell before any formatting is applied?",
+     "a": "By default, text is left-aligned and numeric values (including dates and times) are right-aligned in a cell. A wrong answer (e.g., \"both are centered\" or \"text is right-aligned\") reveals that the student has not observed the default behavior, which is critical because many formatting decisions (like applying Center alignment to headers only) depend on knowing the starting state.",
+     "self_check": true
+    },
+    {
+     "q": "A student enters `12/04/2024` in a cell and sees `12-Apr-2024` displayed. They then apply the \"Number\" format with 2 decimal places and see `45386.00`. Explain why the displayed value changed and what the number `45386` represents.",
+     "a": "Excel stores dates as serial numbers where 1 = 1-Jan-1900; `45386` is the number of days since that epoch for 12-Apr-2024. Changing the format to Number reveals the underlying stored value. A student who says \"the date got corrupted\" or \"Excel converted it wrongly\" misunderstands that formatting only changes *display*, not the stored value — a core concept for later work with date arithmetic and conditional formatting on dates.",
+     "self_check": true
+    },
+    {
+     "q": "You have a column of profit margins (e.g., 0.12, 0.05, -0.03, 0.18). You want to display them as percentages with one decimal (12.0%, 5.0%, -3.0%, 18.0%) and highlight any negative margin in red font with a red fill. Describe the exact sequence of steps using the Ribbon (no shortcuts) to achieve both.",
+     "a": "1. Select the range. 2. Home → Number group → click % (Percent Style) → click Increase Decimal once. 3. Home → Conditional Formatting → Highlight Cells Rules → Less Than → enter `0` → choose \"Light Red Fill with Dark Red Text\" → OK. A student who applies the red fill *before* percentage formatting may not realize the condition `Less Than 0` works on the underlying decimal (0.12, -0.03), not the displayed percentage — both work, but understanding the stored value is key for complex rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Format as Table\" (Home → Styles → Format as Table) with manually applying banded row fill colors via Conditional Formatting → New Rule → Use a formula `=MOD(ROW(),2)=0`. Which method is more robust when rows are inserted or deleted, and why?",
+     "a": "\"Format as Table\" is more robust because it creates a structured Table object (ListObject) that automatically maintains banded rows, filter buttons, and structured references when rows are added/removed. The Conditional Formatting formula approach breaks if rows are inserted above the range (ROW() shifts) or if the range is not updated. A student who prefers the formula method may not grasp that Tables are dynamic objects, not just formatting — a critical distinction for data integrity in accounting.",
+     "self_check": true
+    },
+    {
+     "q": "A colleague sends you a workbook where the \"Total Sales\" column shows `#####` in several cells. You widen the column and the numbers appear. The colleague insists the data was \"fixed\" by widening. Evaluate this claim: is the data actually fixed? What would you check to be sure?",
+     "a": "The claim is false: `#####` is a *display* error (column too narrow or negative date/time), not a data error. The underlying values are intact. To verify, check the Formula Bar for a `#####` cell — it will show the actual number. Also check if any cell contains a negative date/time (e.g., `=A1-B1` where A1<B1) which also shows `#####` regardless of width. A student who thinks widening \"fixes\" the data confuses presentation with data integrity — dangerous in accounting where hidden negatives matter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conditional formatting rule (using a formula) for a range `B5:B100` (invoice amounts) that highlights the entire row (A5:F5, A6:F6, ...) in yellow if the invoice amount is greater than the average of all invoices in B5:B100 AND the invoice date in column A is in the current month. Write the formula for the rule applied to `A5:F100`.",
+     "a": "`=AND($B5>AVERAGE($B$5:$B$100), MONTH($A5)=MONTH(TODAY()), YEAR($A5)=YEAR(TODAY()))` applied to `A5:F100`. The formula uses mixed references: column locked ($B, $A) so the condition travels across columns, row relative (5) so it evaluates per row. A student who writes `=$B5>AVERAGE(B5:B100)` without absolute references for the average range will get a shifting average — a classic error showing misunderstanding of reference locking in conditional formatting formulas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

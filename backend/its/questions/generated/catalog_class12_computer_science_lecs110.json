@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs110",
+ "concepts": [
+  {
+   "id": "lecs110.1",
+   "title": "Cabling a Mesh Topology",
+   "questions": [
+    {
+     "q": "How many cables are needed to build a fully connected mesh of 5 nodes? Use the method 'Cabling a Mesh Topology'. Work with: n = 4. Carry the chain through step by step and give the final value of cables.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "How many new cables are added when a sixth node joins a five-node mesh? Use the method 'Cabling a Mesh Topology'. Work with: n = 24. Carry the chain through step by step and give the final value of cables.",
+     "a": "276 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cabling a Mesh Topology' refers to.",
+     "a": "In a mesh topology every communicating device links to every other one, which makes the network reliable and secure but expensive, because n nodes need n times n minus 1 over 2 separate cables.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cabling a Mesh Topology'.",
+     "a": "Five nodes in a full mesh already need ten wires, and the count grows quadratically.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cabling a Mesh Topology', in plain ASCII form.",
+     "a": "cables = n * (n - 1) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.2",
+   "title": "File Transfer over a Gigabit LAN",
+   "questions": [
+    {
+     "q": "Using the method 'File Transfer over a Gigabit LAN', work with: file_mb = 8192, speed_mbps = 4096. Carry the chain through step by step and give the final value of time_s.",
+     "a": "16 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'File Transfer over a Gigabit LAN' and work with: file_mb = 8192, speed_mbps = 8192. Carry the chain through step by step and give the final value of time_s.",
+     "a": "8 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'File Transfer over a Gigabit LAN' refers to.",
+     "a": "A LAN transfers data at rates from 10 Mbps (Ethernet) up to 1000 Mbps (Gigabit Ethernet); the time to move a file is its size in megabits divided by the transfer rate in megabits per second.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'File Transfer over a Gigabit LAN'.",
+     "a": "A 700 MB file crosses a Gigabit Ethernet in about 5.6 seconds, but needs 560 seconds on plain 10 Mbps Ethernet.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'File Transfer over a Gigabit LAN', in plain ASCII form.",
+     "a": "time_s = file_mb * 8 / speed_mbps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.3",
+   "title": "Bit Structure of a MAC Address",
+   "questions": [
+    {
+     "q": "How many bits long is a MAC address, and how many hexadecimal digits does it use? Use the method 'Bit Structure of a MAC Address'. Work with: hex_digits = 50. Carry the chain through step by step and give the final value of oui_bits.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "How many bits carry the Organisational Unique Identifier, and what does OUI stand for? Use the method 'Bit Structure of a MAC Address'. Work with: hex_digits = 6. Carry the chain through step by step and give the final value of oui_bits.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bit Structure of a MAC Address' refers to.",
+     "a": "A MAC address is the permanent hardware address engraved on a NIC: it has 12 hexadecimal digits equal to 48 bits, split evenly into a 24-bit manufacturer identifier called the OUI and a 24-bit serial number.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bit Structure of a MAC Address'.",
+     "a": "The first six hex digits name the manufacturer and the last six identify the individual card.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bit Structure of a MAC Address', in plain ASCII form.",
+     "a": "oui_bits = hex_digits * 4 / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.4",
+   "title": "Address Space of IPv4",
+   "questions": [
+    {
+     "q": "Using the method 'Address Space of IPv4', work with: bits = 18. Carry the chain through step by step and give the final value of billions.",
+     "a": "0.0003 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Address Space of IPv4' and work with: bits = 50. Carry the chain through step by step and give the final value of billions.",
+     "a": "1125899.9068 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Address Space of IPv4' refers to.",
+     "a": "An IPv4 address is a 32-bit number written as four decimal numbers from 0 to 255 separated by dots; 32 bits allow just under 4.3 billion distinct addresses, which is why the 128-bit IPv6 with eight hexadecimal groups was proposed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Address Space of IPv4'.",
+     "a": "Two raised to 32 gives about 4.29 billion addresses, too few for today's connected devices.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Address Space of IPv4', in plain ASCII form.",
+     "a": "addresses = 2 ** bits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.5",
+   "title": "Network Types: PAN, LAN, MAN and WAN",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Network Types: PAN, LAN, MAN and WAN' refers to.",
+     "a": "Networks are classified by the area they cover: PAN links personal devices within about 10 metres, LAN covers a room to a campus up to 1 km at 10 to 1000 Mbps, MAN spans a city of 30 to 40 km, and WAN connects cities, countries and continents, with the Internet as the largest WAN.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Network Types: PAN, LAN, MAN and WAN'.",
+     "a": "Cable TV networks illustrate a MAN, while two phones on Bluetooth form a wireless PAN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Network Types: PAN, LAN, MAN and WAN', in plain ASCII form.",
+     "a": "PAN 10 m -> LAN 1 km -> MAN 40 km -> WAN global",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.6",
+   "title": "Devices: Modem, Hub, Switch, Router and Gateway",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Devices: Modem, Hub, Switch, Router and Gateway' refers to.",
+     "a": "Each network device has a distinct job: a modem converts between digital bits and analog signals, a repeater regenerates weak signals, a hub broadcasts incoming data to all lines, a switch forwards packets only to the addressed device, a router connects and routes between networks, and a gateway is the entry and exit point of a network.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Devices: Modem, Hub, Switch, Router and Gateway'.",
+     "a": "Unlike a hub, a switch reads the destination address in the packet and drops corrupted signals instead of passing them on.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Devices: Modem, Hub, Switch, Router and Gateway', in plain ASCII form.",
+     "a": "modem: digital <-> analog; switch: selective; router: between networks",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.7",
+   "title": "Comparing Ring, Bus, Star and Tree Topologies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Comparing Ring, Bus, Star and Tree Topologies' refers to.",
+     "a": "Ring connects each node to two neighbours so data travels one way around the loop; bus shares one backbone wire among all nodes; star wires every node to a central hub or switch; and tree or hybrid joins several basic topologies under a hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparing Ring, Bus, Star and Tree Topologies'.",
+     "a": "A failed central device brings down a whole star network, while a bus failure splits the line.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparing Ring, Bus, Star and Tree Topologies', in plain ASCII form.",
+     "a": "ring: 2 links per node; bus: 1 shared wire; star: 1 link to centre",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs110.8",
+   "title": "Internet, Web and Domain Name System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Internet, Web and Domain Name System' refers to.",
+     "a": "The Internet is the global network of devices, while the World Wide Web is the collection of interlinked pages served over it using HTML, URL and HTTP; because numeric addresses are hard to remember, a DNS server resolves each domain name to its IP address.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Internet, Web and Domain Name System'.",
+     "a": "Entering www.ncert.nic.in makes the browser ask a DNS server, which answers with 164.100.60.233.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Internet, Web and Domain Name System', in plain ASCII form.",
+     "a": "domain name -> DNS server -> IP address",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

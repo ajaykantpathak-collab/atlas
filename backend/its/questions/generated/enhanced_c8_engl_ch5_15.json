@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_15",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_15",
+   "title": "c8_engl_ch5_15",
+   "questions": [
+    {
+     "q": "What is the structural difference between a simile and a metaphor? Provide one short example of each describing a bird.",
+     "a": "A simile compares two things using \"like\" or \"as\" (e.g., \"The eagle swooped like a thunderbolt\"), while a metaphor compares them by directly equating them without these words (e.g., \"The eagle was a falling thunderbolt\").\n\n*What a wrong answer reveals:* If a student cannot state the structural difference, they are struggling with basic pattern recognition and cannot yet look for syntactic clues like \"like\" or \"as\" in poetic lines.",
+     "self_check": true
+    },
+    {
+     "q": "Read this line: \"The parrot’s beak was a curved cherry, bright and sharp.\" Is this a simile or a metaphor? Explain how you know.",
+     "a": "This is a metaphor. The poet directly equates the parrot's beak to a \"curved cherry\" using the verb \"was\". There are no comparative words such as \"like\" or \"as\" to keep the two objects separate.\n\n*What a wrong answer reveals:* If a student calls this a simile, they are likely confusing any type of comparison with a simile, failing to understand that the absence of \"like\" or \"as\" structurally defines a metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following simile into a metaphor without changing its core meaning: \"The white swan glided across the lake as smoothly as a cloud drifting through a silent sky.\"",
+     "a": "**Correct Answer:** \"The white swan was a smooth cloud drifting through the silent sky of the lake.\"\n\n**Steps to convert:**\n1. Identify the two things being compared: the \"white swan\" (subject) and the \"drifting cloud\" (vehicle).\n2. Identify and remove the comparative words: \"as smoothly as\".\n3. Connect the subject and the vehicle directly using a state-of-being verb (\"was\" or \"is\").\n4. Adjust the sentence structure to make the direct comparison grammatically sound.\n\n*What a wrong answer reveals:* If the student writes \"The swan glided like a cloud,\" they have simply substituted one simile-maker for another, showing they do not understand how to construct a direct, implicit metaphoric equation.",
+     "self_check": true
+    },
+    {
+     "q": "Read these two descriptions of a bird's song:\n- **Line A:** \"Her voice was like a silver bell ringing in the quiet night.\"\n- **Line B:** \"Her voice was a sharp needle of sound piercing the quiet night.\"\n\nAnalyze how the different comparisons (the silver bell vs. the sharp needle) create different moods. Which one feels more comforting?",
+     "a": "Line A creates a calm, beautiful, and comforting mood because a \"silver bell\" suggests clear, musical, and pleasant tones. Line B creates a tense, startling, or painful mood because a \"sharp needle piercing\" suggests sudden discomfort or intrusion. Line A is much more comforting.\n\n*What a wrong answer reveals:* If a student says both lines feel the same because both describe a voice, they are ignoring the sensory qualities of the \"vehicle\" (the bell vs. the needle). They need to learn that the choice of comparison dictates the emotional tone of the poem.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says: \"Metaphors are always better than similes because they sound more poetic.\" Evaluate this statement. Do you agree or disagree? Explain your reasoning with an example.",
+     "a": "I disagree with this statement. Neither device is inherently \"better\"; they serve different poetic purposes. A simile is highly effective when a poet wants to preserve the distinct identity of both items while pointing out a beautiful connection (e.g., \"The bird stood as still as a statue\" emphasizes the bird's control while keeping it alive). A metaphor is better when the poet wants complete fusion (e.g., \"The bird was a statue\" emphasizes absolute, lifeless stillness). Both are valuable tools depending on the desired impact.\n\n*What a wrong answer reveals:* A wrong or superficial answer reveals a simplistic \"ranking\" mindset rather than an analytical understanding of how literary devices function as deliberate choices made by an author.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short four-line poem about a crow perched on a telephone wire during a rainstorm. You must include exactly one simile and one metaphor. Label which is which.",
+     "a": "**Expected Stanza:**\n\"On the black wire, wet with monsoon rain,\nThe silent crow sits like a dark charcoal stain; (Simile)\nHe is a lonely sentinel guarding the street,\nWith cold, drops of water washing his feet.\" (Metaphor)\n\n*What a poor answer reveals:* If the student fails to include both devices, or writes a poem where the comparisons make no sense in the context of a rainstorm, it reveals they cannot yet apply these devices creatively to establish a cohesive setting and theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_004",
+   "title": "c12_psy_cbse_06_004",
+   "questions": [
+    {
+     "q": "Name the four factors that influence attitude formation according to NCERT Class 12 Psychology Chapter 6.",
+     "a": "The four factors are: (1) Family and School Environment, (2) Reference Groups, (3) Personal Experiences, (4) Media-related Influences.  \nA wrong answer (e.g., listing “genetics” or “personality traits”) reveals the student is confusing *dispositional* factors with the *contextual/learning* factors emphasized in the textbook. The NCERT explicitly states attitudes are learned through interaction, not inherited.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how “reference groups” differ from “family” in influencing attitude formation, using the concept of *norms* and the developmental period when reference groups become especially powerful.",
+     "a": "Family influences attitudes primarily in early childhood through direct modelling, reward/punishment, and association. Reference groups influence attitudes later, especially during adolescence, by signalling group norms — unwritten rules about acceptable thinking/behaviour — and the individual conforms to gain belongingness (reward) or avoid rejection (punishment).  \nA wrong answer that says “reference groups are just friends” misses the *normative* mechanism and the *developmental timing* (adolescence) highlighted in the text. The textbook explicitly links reference group influence to “the beginning of adolescence, at which time it is important for the individual to feel that s/he belongs to a group.”",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old, Priya, develops a positive attitude toward “studying late at night” after seeing her older sister (a topper) do it and get praised by parents. Identify the *factor* and the *specific learning process* at work. Justify your answer in two sentences.",
+     "a": "Factor: Family and School Environment. Learning process: Modelling (observational learning) — Priya observes her sister being rewarded (praise) for the behaviour, and imitates it.  \nA wrong answer that says “reference group” or “personal experience” shows the student cannot distinguish family as the *context* and modelling as the *process*. The sister is a family member, not a peer reference group, and Priya did not directly experience the reward herself (which would be operant conditioning).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of *media* and *personal experiences* in forming the *affective component* of an attitude. Give one concrete example where media creates a stronger affective reaction than a personal experience, and explain why.",
+     "a": "Personal experiences generate affect through direct sensory/emotional contact (e.g., fear from a dog bite). Media generates affect through vivid audio-visual narratives that simulate experience (e.g., a documentary showing starving polar bears evokes stronger empathy than reading a statistic). Media can surpass personal experience when the event is remote, large-scale, or emotionally framed — the brain processes mediated images similarly to real ones (mirror neuron activation).  \nA wrong answer that claims “personal experience is always stronger” ignores research on media’s emotional amplification (e.g., cultivation theory) and the NCERT’s statement that media “strengthen the cognitive and affective components.”",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “School environment influences attitudes only through formal curriculum.” Use the NCERT’s description of school’s role to support your evaluation.",
+     "a": "The statement is false. NCERT states school environment becomes an important background for attitude formation where learning occurs “by association, through rewards and punishments, and through modelling” — not just curriculum. Hidden curriculum (teacher behaviour, peer norms, extracurricular activities) operates through these same processes. For example, a teacher who praises punctuality models and rewards it, shaping attitudes toward time.  \nA wrong answer that agrees reveals the student equates “school” with “textbooks only,” missing the social learning processes (modelling, reinforcement) that the textbook explicitly lists for school.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item mini-survey to investigate which of the four factors *most strongly* shaped your classmates’ attitudes toward “online learning.” For each item, state the factor it taps and the response scale.",
+     "a": "Item 1 (Family): “My parents/guardians expressed positive views about online learning during the pandemic.” Scale: 1 (Strongly Disagree) – 5 (Strongly Agree).  \nItem 2 (Reference Group): “Most of my close friends preferred online classes over offline.” Scale: 1–5.  \nItem 3 (Media): “I frequently saw social media posts / news articles highlighting benefits of online learning.” Scale: 1–5.  \n(Personal experience is captured by the respondent’s own behaviour, not a survey item about others.)  \nA poor answer lists items that don’t map cleanly to one factor (e.g., “I liked online learning” mixes personal experience and affect) or uses yes/no scales that lose variance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

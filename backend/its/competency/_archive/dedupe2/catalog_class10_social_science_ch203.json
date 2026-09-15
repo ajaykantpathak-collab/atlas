@@ -1,0 +1,390 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "Money and Credit",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess203.txt",
+ "concepts": [
+  {
+   "id": "jess.203.1",
+   "title": "Money as a Medium of Exchange",
+   "section": "MONEY AS A MEDIUM OF EXCHANGE",
+   "definition": "Money functions as an intermediate instrument in trade transactions, eliminating the requirement where both trading partners must simultaneously desire each other's goods.",
+   "formula": "none",
+   "key_idea": "Eliminating double coincidence of wants by acting as a universal medium for trade.",
+   "textbook_ref": "jess203.txt lines 40-80",
+   "question_patterns": [
+    "explain how money acts as a medium of exchange",
+    "what is meant by double coincidence of wants",
+    "how does the introduction of money simplify trade compared to barter",
+    "why is direct barter inconvenient in modern transactions",
+    "describe the role of money in eliminating barter friction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain barter limitation",
+     "explain": "In barter system both parties must agree to sell and buy each other commodities which is double coincidence of wants"
+    },
+    {
+     "step": 2,
+     "action": "explain role of money",
+     "explain": "Money acts as an intermediate asset allowing separate selling and purchasing operations in the market"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.2",
+   "title": "Modern Forms of Money and Demand Deposits",
+   "section": "MODERN FORMS OF MONEY",
+   "definition": "Modern currency comprises paper notes and coins authorized by the central government, along with demand deposits held in bank accounts that can be transferred via cheques.",
+   "formula": "none",
+   "key_idea": "Legal tender currency and withdrawable bank deposits constitute modern money.",
+   "textbook_ref": "jess203.txt lines 85-150",
+   "question_patterns": [
+    "why are demand deposits considered a form of money",
+    "what entity issues currency notes in India on behalf of the central government",
+    "explain the mechanism and significance of payments made through cheques",
+    "why is modern paper currency accepted as a medium of exchange despite having no intrinsic value",
+    "describe the features that distinguish modern money from early forms like cattle or metallic coins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify legal authorization",
+     "explain": "The Reserve Bank of India issues currency authorized by central government making it legal tender that cannot be refused"
+    },
+    {
+     "step": 2,
+     "action": "explain demand deposits and cheques",
+     "explain": "Bank deposits can be withdrawn on demand and transferred using cheques to settle payments without physical cash"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3",
+   "title": "Bank Cash Reserve and Loanable Funds Calculation",
+   "section": "LOAN ACTIVITIES OF BANKS",
+   "definition": "Banks hold a mandatory percentage of customer deposits as cash reserves for daily withdrawals and deploy the remaining fraction as loans to borrowers.",
+   "formula": "cash_reserve = total_deposits * reserve_percentage / 100",
+   "key_idea": "Determining the cash held by banks and the surplus balance extended as credit.",
+   "textbook_ref": "jess203.txt lines 155-180",
+   "question_patterns": [
+    "calculate the cash reserves held by a bank given total deposits of {total_deposits} and reserve ratio of {reserve_percentage} percent",
+    "find the amount of loans a bank can extend from total deposits of {total_deposits} with cash reserve ratio {reserve_percentage} percent",
+    "a bank receives {total_deposits} in deposits and keeps {reserve_percentage} percent as cash reserve find the loanable funds",
+    "determine how much cash reserve a bank must keep if total deposits are {total_deposits} and reserve requirement is {reserve_percentage} percent",
+    "what is the loanable amount available to a bank with {total_deposits} deposits and {reserve_percentage} percent reserve ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cash reserve",
+     "explain": "Multiply total deposits by cash reserve percentage divided by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate loanable funds",
+     "explain": "Subtract cash reserve from total deposits to get available loan balance",
+     "compute": "loan_amount = total_deposits - cash_reserve"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.4",
+   "title": "Net Interest Income of Commercial Banks",
+   "section": "LOAN ACTIVITIES OF BANKS",
+   "definition": "The primary income source for commercial banks is the spread between interest collected from borrowers and interest paid out to depositors.",
+   "formula": "net_income = (loan_amount * borrower_rate / 100) - (deposit_amount * depositor_rate / 100)",
+   "key_idea": "Calculating bank profit from the difference between lending interest and deposit interest.",
+   "textbook_ref": "jess203.txt lines 175-195",
+   "question_patterns": [
+    "calculate the net income of a bank that lends {loan_amount} at {borrower_rate} percent and pays {depositor_rate} percent on {deposit_amount} deposits",
+    "find the main earnings of a bank collecting {borrower_rate} percent on {loan_amount} loans and giving {depositor_rate} percent on {deposit_amount} deposits",
+    "determine the net interest profit when a bank lends {loan_amount} at {borrower_rate} percent interest and pays {depositor_rate} percent on {deposit_amount}",
+    "how much income does a bank make if loan interest rate is {borrower_rate} percent on {loan_amount} and deposit interest rate is {depositor_rate} percent on {deposit_amount}",
+    "what is the net bank income from {loan_amount} lent at {borrower_rate} percent and {deposit_amount} deposited at {depositor_rate} percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate interest received",
+     "explain": "Multiply total loan amount by borrower interest rate divided by 100",
+     "compute": "interest_received = loan_amount * borrower_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest paid",
+     "explain": "Multiply total deposit amount by depositor interest rate divided by 100",
+     "compute": "interest_paid = deposit_amount * depositor_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net income",
+     "explain": "Subtract interest paid from interest received to obtain main bank income",
+     "compute": "net_income = interest_received - interest_paid"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.5",
+   "title": "Credit Impact and Debt Trap Dynamics",
+   "section": "TWO DIFFERENT CREDIT SITUATIONS",
+   "definition": "Credit can either enhance earnings when used productively for capital needs or push borrowers into a cycle of persistent debt when crop or enterprise failure occurs.",
+   "formula": "none",
+   "key_idea": "Credit acts as a growth catalyst in positive scenarios or leads to a debt trap under high-risk failures.",
+   "textbook_ref": "jess203.txt lines 200-260",
+   "question_patterns": [
+    "compare how credit produced different outcomes for Salim and Swapna",
+    "what is a debt trap and under what conditions does a borrower fall into it",
+    "explain how credit can play a positive role in business development",
+    "why is crop production in rural areas considered high risk for credit repayment",
+    "describe the key factors that determine whether borrowing will leave a person better or worse off"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze positive credit scenario",
+     "explain": "In favorable situations credit satisfies working capital needs enabling timely production and higher earnings"
+    },
+    {
+     "step": 2,
+     "action": "analyze debt trap scenario",
+     "explain": "In high risk cases like crop failure repayment becomes impossible forcing borrowers to sell assets or take new loans"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.6",
+   "title": "Terms of Credit and Collateral Requirements",
+   "section": "TERMS OF CREDIT",
+   "definition": "Terms of credit comprise the agreed interest rate, collateral security, documentation requirements, and the specified repayment schedule between lender and borrower.",
+   "formula": "none",
+   "key_idea": "Collateral and terms dictate eligibility, cost, and risk in credit agreements.",
+   "textbook_ref": "jess203.txt lines 265-310",
+   "question_patterns": [
+    "what are the four essential components comprising terms of credit",
+    "define collateral and explain why formal lenders demand it before granting loans",
+    "how do terms of credit vary between formal banks and informal village lenders",
+    "why do poor households struggle to meet bank documentation and collateral conditions",
+    "explain the role of house or land papers as collateral in long term bank loans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define collateral",
+     "explain": "Collateral is an asset owned by the borrower that serves as security guarantee to the lender until repayment"
+    },
+    {
+     "step": 2,
+     "action": "enumerate terms of credit",
+     "explain": "Terms of credit include interest rate collateral documentation requirement and mode of repayment"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.7",
+   "title": "Formal and Informal Credit Sectors and RBI Supervision",
+   "section": "FORMAL SECTOR CREDIT IN INDIA",
+   "definition": "Formal credit from banks and cooperatives is supervised by the Reserve Bank of India to ensure fair rates and targeted social lending, unlike unregulated informal credit.",
+   "formula": "none",
+   "key_idea": "Formal sector credit offers lower interest rates under RBI regulation whereas informal sector lacks oversight.",
+   "textbook_ref": "jess203.txt lines 315-410",
+   "question_patterns": [
+    "distinguish between formal sector and informal sector sources of credit in India",
+    "how does the Reserve Bank of India supervise formal commercial banks",
+    "why is cheap and affordable credit critical for national economic development",
+    "why do rich urban households rely mostly on formal credit while poor households depend on informal credit",
+    "explain why expanding formal credit in rural areas is necessary to reduce exploitation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare sectors",
+     "explain": "Formal sector comprises banks and cooperatives with lower interest rates while informal sector includes moneylenders charging high rates"
+    },
+    {
+     "step": 2,
+     "action": "explain RBI supervision",
+     "explain": "RBI monitors minimum cash reserves lending priorities to small borrowers and interest rate reporting"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.8",
+   "title": "Self-Help Groups and Rural Microfinance",
+   "section": "SELF-HELP GROUPS FOR THE POOR",
+   "definition": "Self-Help Groups aggregate small savings of poor community members, particularly women, to extend low-interest loans and build bank eligibility without individual collateral.",
+   "formula": "none",
+   "key_idea": "Community savings pooling enables collective credit access and social empowerment without traditional collateral.",
+   "textbook_ref": "jess203.txt lines 415-475",
+   "question_patterns": [
+    "explain the basic functioning and organizational structure of a Self Help Group",
+    "how do Self Help Groups solve the problem of lack of collateral for poor borrowers",
+    "what role do group members play in deciding loan terms within a Self Help Group",
+    "discuss the impact of microcredit initiatives like Grameen Bank of Bangladesh on poor women",
+    "how do Self Help Groups contribute to social empowerment beyond financial assistance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain group mechanism",
+     "explain": "15 to 20 members pool small savings regularly to provide low interest loans for internal community needs"
+    },
+    {
+     "step": 2,
+     "action": "explain collective bank credit",
+     "explain": "Regular saving enables the group to secure bank loans in the group name without requiring individual asset collateral"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1_reserve",
+   "source_ref": "jess203.txt lines 155-165",
+   "concept": "jess.203.3",
+   "question_type": "compute",
+   "question_pattern": "A bank receives total deposits of 100000 rupees and keeps 5 percent as cash reserve. Calculate the cash reserve and the remaining loanable funds.",
+   "extracted_variables": {
+    "total_deposits": 100000,
+    "reserve_percentage": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cash reserve",
+     "explain": "Multiply total deposits by cash reserve percentage divided by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate loanable funds",
+     "explain": "Subtract cash reserve from total deposits to get available loan balance",
+     "compute": "loan_amount = total_deposits - cash_reserve"
+    }
+   ]
+  },
+  {
+   "id": "ex2_reserve",
+   "source_ref": "jess203.txt lines 155-165",
+   "concept": "jess.203.3",
+   "question_type": "compute",
+   "question_pattern": "If a commercial bank holds 500000 rupees in deposits and maintains a reserve ratio of 10 percent, find the total loanable amount.",
+   "extracted_variables": {
+    "total_deposits": 500000,
+    "reserve_percentage": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cash reserve",
+     "explain": "Multiply total deposits by cash reserve percentage divided by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate loanable funds",
+     "explain": "Subtract cash reserve from total deposits to get available loan balance",
+     "compute": "loan_amount = total_deposits - cash_reserve"
+    }
+   ]
+  },
+  {
+   "id": "ex1_income",
+   "source_ref": "jess203.txt lines 180-195",
+   "concept": "jess.203.4",
+   "question_type": "compute",
+   "question_pattern": "A bank extends loans of 80000 rupees at 12 percent annual interest and holds deposits of 100000 rupees paying 4 percent annual interest. Calculate the bank's net annual interest income.",
+   "extracted_variables": {
+    "loan_amount": 80000,
+    "borrower_rate": 12,
+    "deposit_amount": 100000,
+    "depositor_rate": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest received",
+     "explain": "Multiply total loan amount by borrower interest rate divided by 100",
+     "compute": "interest_received = loan_amount * borrower_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest paid",
+     "explain": "Multiply total deposit amount by depositor interest rate divided by 100",
+     "compute": "interest_paid = deposit_amount * depositor_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net income",
+     "explain": "Subtract interest paid from interest received to obtain main bank income",
+     "compute": "net_income = interest_received - interest_paid"
+    }
+   ]
+  },
+  {
+   "id": "ex2_income",
+   "source_ref": "jess203.txt lines 180-195",
+   "concept": "jess.203.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the net profit earned by a bank lending 200000 rupees at 10 percent interest while paying 5 percent interest on 200000 rupees of deposits.",
+   "extracted_variables": {
+    "loan_amount": 200000,
+    "borrower_rate": 10,
+    "deposit_amount": 200000,
+    "depositor_rate": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest received",
+     "explain": "Multiply total loan amount by borrower interest rate divided by 100",
+     "compute": "interest_received = loan_amount * borrower_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest paid",
+     "explain": "Multiply total deposit amount by depositor interest rate divided by 100",
+     "compute": "interest_paid = deposit_amount * depositor_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net income",
+     "explain": "Subtract interest paid from interest received to obtain main bank income",
+     "compute": "net_income = interest_received - interest_paid"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jess203.txt lines 480-530",
+   "questions": [
+    "In situations with high risks, credit might create further problems for the borrower. Explain.",
+    "How does money solve the problem of double coincidence of wants? Explain with an example of your own.",
+    "How do banks mediate between those who have surplus money and those who need money?",
+    "Look at a 10 rupee note. What is written on top? Can you explain this statement?",
+    "Why do we need to expand formal sources of credit in India?",
+    "What is the basic idea behind the SHGs for the poor? Explain in your own words.",
+    "What are the reasons why the banks might not be willing to lend to certain borrowers?",
+    "In what ways does the Reserve Bank of India supervise the functioning of banks? Why is this necessary?",
+    "Analyse the role of credit for development.",
+    "Manav needs a loan to set up a small business. On what basis will Manav decide whether to borrow from the bank or the moneylender? Discuss.",
+    "In India, about 80 per cent of farmers are small farmers, who need credit for cultivation. Explain why banks might be unwilling to lend to small farmers, alternative sources of credit, unfavourable terms, and ways to ensure cheap credit."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

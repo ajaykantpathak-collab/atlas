@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_012",
+   "title": "c11_hs_cbse_03_012",
+   "questions": [
+    {
+     "q": "According to NFHS-3 (2005–06), what was the reported prevalence of anaemia among adolescent girls (15–19 years) in India, and how did it compare with adolescent boys of the same age group?",
+     "a": "NFHS-3 reported 56% prevalence in adolescent girls versus 30% in adolescent boys (15–19 years). A wrong answer (e.g., quoting similar percentages for both sexes or reversing the figures) reveals that the student has not internalised the gender disparity driven by menstrual losses and lower dietary priority for girls in many households, a core epidemiological fact for targeting interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the bioavailability of iron from a typical Indian vegetarian adolescent diet is often less than 5%, and name two dietary factors that inhibit and two that enhance non-haem iron absorption.",
+     "a": "Typical diets are rich in phytates (whole grains, legumes), tannins (tea), and calcium (milk) which bind non-haem iron, while lacking haem iron (meat/fish) and vitamin C-rich foods that enhance absorption. Inhibitors: phytates, tannins. Enhancers: vitamin C (amla, guava, lemon), haem iron (if non-veg). A wrong answer that only lists “lack of iron-rich foods” without mentioning inhibitors/enhancers shows the student views iron nutrition as a simple quantity problem, ignoring the critical bioavailability dimension central to Indian context.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old vegetarian girl (weight 45 kg) consumes 18 mg dietary iron/day from cereals, pulses, and vegetables. Assuming 5% bioavailability and no supplementation, calculate her net absorbed iron. Compare this with her physiological requirement (basal loss 0.8 mg/day + growth spurt 1.5 mg/day + menstrual loss 0.7 mg/day). Is she in positive or negative iron balance? Show steps.",
+     "a": "Step 1: Absorbed iron = 18 mg × 0.05 = 0.9 mg/day. Step 2: Total requirement = 0.8 + 1.5 + 0.7 = 3.0 mg/day. Step 3: Balance = 0.9 – 3.0 = –2.1 mg/day (negative). Step 4: Negative balance means iron stores deplete → anaemia develops over months. A wrong answer that forgets menstrual loss or uses 10% bioavailability (typical for mixed diets) shows the student cannot quantify the gap between intake and needs, a skill essential for justifying WIFS dosage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of Weekly Iron-Folic Acid Supplementation (WIFS) and biannual deworming (albendazole 400 mg) in the National Iron Plus Initiative for adolescents. Why are both needed even if dietary iron intake improves?",
+     "a": "WIFS directly supplies 100 mg elemental iron weekly (≈14 mg/day equivalent) to close the absorption gap; deworming eliminates hookworm/roundworm that cause intestinal blood loss (≈0.25–0.5 mg iron/day per worm) and impair nutrient absorption. Even with improved diet, bioavailability remains low (5–10%) and worm infestation prevalence is high in many districts; the two interventions address independent causal pathways (intake vs. loss). A wrong answer that treats them as interchangeable or says “deworming is only for young children” misses the evidence that adolescent deworming improves haemoglobin by 2–3 g/L in endemic areas.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Providing iron-fortified rice in the Mid-Day Meal scheme alone can eliminate adolescent anaemia in India within five years.” Use at least three programme-level or biological arguments.",
+     "a": "Arguments against: (1) Fortification levels (e.g., 28–42.5 mg Fe/kg rice) provide only 3–5 mg iron/meal at 100 g rice, covering ~30% of daily requirement; absorption from fortified non-haem iron is still subject to phytate inhibition. (2) Mid-Day Meal covers only school-going adolescents (≈70% enrolment), missing out-of-school girls who are most vulnerable. (3) Does not address menstrual losses, helminthiasis, or vitamin B12/folate deficiencies that coexist. (4) Requires robust supply chain, quality monitoring, and consumption compliance—all challenging at scale. A weak answer that only says “fortification is good” without addressing coverage, bioavailability, or multi-factorial aetiology shows inability to evaluate public health strategies holistically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page “Iron-Rich Tiffin Box” guide for a 16-year-old vegetarian boy who carries lunch to school, using only foods from the five ICMR food groups. The guide must: (a) provide ≥8 mg bioavailable iron (assume 8% bioavailability with enhancers), (b) include at least one vitamin C source, (c) be culturally acceptable in North India, and (d) fit in a standard 3-compartment tiffin. List items with raw weights and justify each choice.",
+     "a": "Example solution: Compartment 1 (Cereal): 60 g whole wheat flour chapati (2.5 mg Fe) + 10 g soybean flour blended (1.5 mg Fe) = 4 mg Fe. Compartment 2 (Pulse + Vegetable): 30 g raw sprouted moong dal (2.8 mg Fe) cooked with 50 g spinach (1.4 mg Fe) + 5 g lemon juice added after cooking (vitamin C enhancer) = 4.2 mg Fe. Compartment 3 (Fruit): 100 g guava (0.3 mg Fe + 228 mg vitamin C) = 0.3 mg Fe. Total dietary iron = 8.5 mg; with 8% bioavailability (due to sprouting, vitamin C, fermentation) → 0.68 mg absorbed, contributing significantly to daily need. A poor answer that omits vitamin C, uses only one food group, or ignores raw-weight calculations shows inability to translate nutrient requirements into practical meal planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

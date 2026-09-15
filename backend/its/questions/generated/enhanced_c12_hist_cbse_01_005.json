@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_005",
+   "title": "c12_hist_cbse_01_005",
+   "questions": [
+    {
+     "q": "What are the two main sectors of Mohenjodaro's settlement layout, and which is higher and smaller?",
+     "a": "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern). A wrong answer — e.g., reversing their relative size or elevation — reveals the student has not visualized the site plan (Fig. 1.7) and confuses the Citadel's platform-based elevation with natural topography.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Citadel owe its height to mud-brick platforms rather than natural terrain, and what does this imply about labour mobilization?",
+     "a": "The Citadel's height is artificial: buildings were constructed on massive mud-brick platforms, requiring an estimated 4 million person-days just for foundations. This implies centralized authority capable of mobilizing and feeding large workforces — a hallmark of state-level organization. A student who attributes the height to a natural hill misses the evidence for planned construction and the social implication of coerced or coordinated labour.",
+     "self_check": true
+    },
+    {
+     "q": "The Lower Town's streets follow a grid pattern intersecting at right angles, and drains were laid before houses were built. What does this sequence (drains first, houses later) prove about urban planning at Mohenjodaro?",
+     "a": "It proves the settlement was planned *before* implementation: the drainage network determined street alignment, and houses were then built to connect to it. This is not organic growth but top-down design. A student who says \"houses were built first\" or \"drains followed houses\" fails to grasp the archaeological evidence (Mackay's observation) that streets-with-drains were the primary framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the architectural priorities of the Citadel (Great Bath, warehouse) with those of the Lower Town (courtyard houses, private wells, bathrooms). What does this contrast suggest about the functions assigned to each sector?",
+     "a": "The Citadel prioritizes monumental, non-residential structures (ritual tank, storage) suggesting public/ceremonial/administrative functions. The Lower Town prioritizes domestic comfort (privacy, sanitation, water access) suggesting dense residential occupation. A student who lists features without linking them to sector-level function — e.g., \"both have drains\" — misses the functional zoning: public ritual vs. private life.",
+     "self_check": true
+    },
+    {
+     "q": "Archaeologists calculate 4 million person-days for Citadel platforms and estimate 700 wells in Mohenjodaro. Evaluate whether these figures support the interpretation of a strong central authority versus a heterarchical (decentralized) society.",
+     "a": "The platform labour figure strongly supports central authority: such coordinated earthmoving requires planning, resource allocation, and labour management. The 700 wells *could* indicate decentralized household initiative, but their uniform construction (brick-lined, street-accessible) and integration with the drainage grid suggest municipal oversight. A student who picks only one figure (e.g., \"wells show no central control\") commits cherry-picking; the synthesis of both points to a authority that planned infrastructure but allowed domestic agency.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3-layer argument using archaeological evidence (platforms, bricks, drains, walls) to explain why the Citadel–Lower Town division at Mohenjodaro reflects *deliberate zoning* rather than gradual settlement growth.",
+     "a": "Layer 1 (Foundation): Platforms were built *before* any superstructure — the settlement was planned in advance. Layer 2 (Standardization): Bricks across both sectors share a uniform 4:2:1 ratio, implying centralized production norms. Layer 3 (Boundary): The Citadel's perimeter wall physically separates it from the Lower Town, yet drains connect both — functional integration with spatial segregation. A poor answer lists features without the \"before/after\" sequence or the integration/segregation paradox.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+# Step Types for ISC Class 11 Mathematics - Pedagogical Transparency
+# Each step records: what rule was applied, why, and the formula used
+namespace: isc_c11_maths
+version: "1.0"
+
+sets_and_functions:
+  count: 7
+  steps:
+    - id: SF-01
+      name: Set Representation Identification
+      description: Identify whether sets are given in Roster or Set-Builder form
+      formula: Roster = {a, b, c, ...}; Set-Builder = {x : P(x)}
+    - id: SF-02
+      name: Set Operations
+      description: Apply set operations (union, intersection, difference, complement)
+      formula: "A∪B = {x : x∈A or x∈B}; A∩B = {x : x∈A and x∈B}; A-B = {x : x∈A and x∉B}"
+    - id: SF-03
+      name: Venn Diagram Interpretation
+      description: Count elements in each region using set theory identities
+      formula: "n(A∪B) = n(A)+n(B)-n(A∩B); n(A'∪B') = n((A∩B)')"
+    - id: SF-04
+      name: Power Set Construction
+      description: Generate all 2^n subsets of a finite set
+      formula: "|P(A)| = 2^n if |A| = n"
+    - id: SF-05
+      name: Relation Properties
+      description: Check reflexive, symmetric, transitive properties on a relation
+      formula: "Reflexive: (a,a)∈R ∀a; Symmetric: (a,b)∈R ⇒ (b,a)∈R; Transitive: (a,b),(b,c)∈R ⇒ (a,c)∈R"
+    - id: SF-06
+      name: Function Type Identification
+      description: Classify as injective, surjective, bijective, or neither
+      formula: "Injective: f(x1)=f(x2)⇒x1=x2; Surjective: ∀y∈Y ∃x∈X, f(x)=y"
+    - id: SF-07
+      name: Trigonometric Identity Application
+      description: Use standard identities to simplify or prove
+      formula: "sin²θ+cos²θ=1; 1+tan²θ=sec²θ; sin2θ=2sinθcosθ; cos2θ=cos²θ-sin²θ"
+
+algebra:
+  count: 22
+  steps:
+    - id: AL-01
+      name: Complex Number Modulus
+      description: Compute modulus of a complex number
+      formula: "|a+bi| = √(a²+b²); |z₁z₂| = |z₁||z₂|"
+    - id: AL-02
+      name: Complex Number Argument
+      description: Find argument (angle) of complex number
+      formula: "arg(a+bi) = tan⁻¹(b/a) with quadrant adjustment"
+    - id: AL-03
+      name: Polar Form Conversion
+      description: Convert between rectangular and polar forms
+      formula: "r(cosθ+i·sinθ) = r·cis(θ); De Moivre: [r(cosθ+i·sinθ)]ⁿ"
+    - id: AL-04
+      name: Quadratic Discriminant Analysis
+      description: Determine nature of roots using discriminant D = b²-4ac
+      formula: "D>0: real distinct; D=0: real equal; D<0: complex conjugate"
+    - id: AL-05
+      name: Quadratic Formula Application
+      description: Apply the quadratic formula to find roots
+      formula: "x = (-b±√(b²-4ac))/(2a)"
+    - id: AL-06
+      name: Quadratic from Roots
+      description: Form quadratic equation given its roots α and β
+      formula: "x² - (α+β)x + αβ = 0"
+    - id: AL-07
+      name: Linear Inequality Solution
+      description: Solve linear inequalities in one variable
+      formula: "Multiply/divide by positive: inequality direction unchanged; by negative: REVERSE"
+    - id: AL-08
+      name: Permutation (No Repetition)
+      description: Arrange n objects taking r at a time
+      formula: "ⁿPᵣ = n!/(n-r)!; nPn = n!"
+    - id: AL-09
+      name: Permutation (With Repetition)
+      description: Arrange objects when repetitions allowed
+      formula: "n^r"
+    - id: AL-10
+      name: Circular Permutation
+      description: Arrange n objects around a circle
+      formula: "(n-1)!"
+    - id: AL-11
+      name: Combination Selection
+      description: Choose r objects from n without order
+      formula: "ⁿCᵣ = n!/(r!(n-r)!) = ⁿPᵣ/r!"
+    - id: AL-12
+      name: Combination Identity
+      description: Apply Pascal's identity for combinations
+      formula: "ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ; ⁿCᵣ = ⁿCₙ₋ᵣ"
+    - id: AL-13
+      name: Binomial Theorem Expansion
+      description: Expand (a+b)ⁿ using binomial coefficients
+      formula: "(a+b)ⁿ = Σ₀ⁿ ⁿCᵣ · aⁿ⁻ʳ · bʳ"
+    - id: AL-14
+      name: Binomial General Term
+      description: Find the r+1th term of binomial expansion
+      formula: "Tᵣ₊₁ = ⁿCᵣ · aⁿ⁻ʳ · bʳ"
+    - id: AL-15
+      name: Binomial Middle Term
+      description: Find the middle term(s) of binomial expansion
+      formula: "n even: T(n/2+1); n odd: T((n+1)/2) and T((n+3)/2)"
+    - id: AL-16
+      name: AP nth Term
+      description: Find the nth term of arithmetic progression
+      formula: "Tₙ = a + (n-1)d"
+    - id: AL-17
+      name: AP Sum Formula
+      description: Sum of first n terms of AP
+      formula: "Sₙ = n/2 · [2a + (n-1)d] = n/2 · [a + l]"
+    - id: AL-18
+      name: AP Word Problem Setup
+      description: Set up equations from word problem conditions on AP
+      formula: "Use Tₘ = a+(m-1)d to translate conditions"
+    - id: AL-19
+      name: GP nth Term
+      description: Find the nth term of geometric progression
+      formula: "Tₙ = ar^(n-1)"
+    - id: AL-20
+      name: GP Sum (r ≠ 1)
+      description: Sum of first n terms of GP
+      formula: "Sₙ = a(rⁿ-1)/(r-1) if r>1; Sₙ = a(1-rⁿ)/(1-r) if r<1"
+    - id: AL-21
+      name: GP Infinite Sum
+      description: Sum to infinity of a GP
+      formula: "S∞ = a/(1-r), valid when |r|<1"
+    - id: AL-22
+      name: GP Word Problem Setup
+      description: Set up equations from word problem conditions on GP
+      formula: "Use Tₘ = ar^(m-1) and Sₙ = a(rⁿ-1)/(r-1) to translate"
+
+coordinate_geometry:
+  count: 9
+  steps:
+    - id: CG-01
+      name: Slope Calculation
+      description: Find slope of line joining two points or from equation
+      formula: "m = (y₂-y₁)/(x₂-x₁); ax+by+c=0: slope = -a/b"
+    - id: CG-02
+      name: Line Equation Forms
+      description: Write equation of line in various forms
+      formula: "Point-slope: y-y₁=m(x-x₁); Two-point: (y-y₁)/(x-x₁)=(y₂-y₁)/(x₂-x₁)"
+    - id: CG-03
+      name: Angle Between Lines
+      description: Find acute angle between two lines
+      formula: "tanθ = |(m₂-m₁)/(1+m₁m₂)|"
+    - id: CG-04
+      name: Line Distance
+      description: Perpendicular distance from point to line
+      formula: "d = |ax₁+by₁+c|/√(a²+b²)"
+    - id: CG-05
+      name: Parallel & Perpendicular Lines
+      description: Identify or find equations of parallel/perpendicular lines
+      formula: "Parallel: equal slopes; Perpendicular: m₁·m₂ = -1"
+    - id: CG-06
+      name: Circle Equation
+      description: Find equation of circle given center and radius or points
+      formula: "(x-h)²+(y-k)² = r²; General: x²+y²+2gx+2fy+c=0"
+    - id: CG-07
+      name: Parabola Definition Application
+      description: Use distance definition to find parabola equation
+      formula: "Dist(P,F) = Dist(P,directrix)"
+    - id: CG-08
+      name: Conic Standard Forms
+      description: Identify and use standard forms of conics
+      formula: "Ellipse: x²/a²+y²/b²=1; Hyperbola: x²/a²-y²/b²=1; Parabola: y²=4ax"
+    - id: CG-09
+      name: 3D Distance Formula
+      description: Distance between two points in 3D space
+      formula: "d = √((x₂-x₁)²+(y₂-y₁)²+(z₂-z₁)²)"
+
+calculus:
+  count: 6
+  steps:
+    - id: CL-01
+      name: Indeterminate Form Recognition
+      description: Identify 0/0, ∞/∞, or other indeterminate forms
+      formula: "0/0: rationalize or factor; ∞/∞: divide by highest power"
+    - id: CL-02
+      name: Algebraic Limit Evaluation
+      description: Evaluate limits using factorization and cancellation
+      formula: "lim(x→a) f(x)/g(x): factor and cancel common term (x-a)"
+    - id: CL-03
+      name: Standard Trigonometric Limits
+      description: Apply standard limits involving sin and tan
+      formula: "lim(x→0) sinx/x = 1; lim(x→0) (1-cosx)/x = 0; lim(x→0) tanx/x = 1"
+    - id: CL-04
+      name: First Principles Derivative
+      description: Compute derivative using limit definition
+      formula: "f'(x) = lim(h→0) [f(x+h)-f(x)]/h"
+    - id: CL-05
+      name: Algebraic Derivative Rules
+      description: Apply sum, product, quotient, and chain rules
+      formula: "(f±g)'=f'±g'; (fg)'=f'g+fg'; (f/g)=(f'g-fg')/g²; (f∘g)'=f'(g)·g'"
+    - id: CL-06
+      name: Continuity Verification
+      description: Check continuity at a point by LHL = RHL = f(a)
+      formula: "Continuous at x=a: lim(x→a⁻)f(x) = lim(x→a⁺)f(x) = f(a)"
+
+statistics:
+  count: 4
+  steps:
+    - id: ST-01
+      name: Mean Deviation About Mean
+      description: Calculate mean deviation from the arithmetic mean
+      formula: "MD = Σ|xᵢ-x̄|/n (ungrouped); MD = Σfᵢ|xᵢ-x̄|/N (grouped)"
+    - id: ST-02
+      name: Mean Deviation About Median
+      description: Calculate mean deviation from the median
+      formula: "MD = Σ|xᵢ-M|/n; M = (n+1)/2 th observation"
+    - id: ST-03
+      name: Variance and SD Computation
+      description: Calculate variance and standard deviation
+      formula: "σ² = Σ(xᵢ-x̄)²/n; σ = √σ²"
+    - id: ST-04
+      name: Frequency Distribution Statistics
+      description: Compute statistics from grouped data
+      formula: "x̄ = Σfᵢxᵢ/N; σ² = [Σfᵢxᵢ²/N] - x̄²"
+
+probability:
+  count: 6
+  steps:
+    - id: PR-01
+      name: Sample Space Construction
+      description: Enumerate all possible outcomes of an experiment
+      formula: "n(S) = total equally likely outcomes"
+    - id: PR-02
+      name: Classical Probability
+      description: Apply P(E) = n(E)/n(S) for equally likely outcomes
+      formula: "P(E) = n(E)/n(S), where n(E) = favorable outcomes"
+    - id: PR-03
+      name: Mutually Exclusive Events
+      description: Identify and handle mutually exclusive events
+      formula: "P(E∪F) = P(E)+P(F) if E∩F=∅; P(E∩F) = 0"
+    - id: PR-04
+      name: Independent Events
+      description: Check and use independence of events
+      formula: "P(E∩F) = P(E)·P(F) if independent"
+    - id: PR-05
+      name: Conditional Probability
+      description: Compute probability of E given F has occurred
+      formula: "P(E|F) = P(E∩F)/P(F)"
+    - id: PR-06
+      name: Addition Theorem
+      description: Apply general addition theorem for probability
+      formula: "P(E∪F) = P(E)+P(F)-P(E∩F)"

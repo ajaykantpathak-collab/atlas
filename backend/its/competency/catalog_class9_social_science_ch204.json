@@ -1,0 +1,789 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 204,
+ "chapter_title": "Food Security in India",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees108.txt",
+ "concepts": [
+  {
+   "id": "iess.204.1",
+   "title": "Dimensions of Food Security",
+   "section": "What is food security?",
+   "definition": "The multi-faceted framework of food security encompassing its physical availability, economic and physical accessibility, and financial affordability to all individuals.",
+   "formula": "",
+   "key_idea": "Food security requires food to be available, reachable, and affordable for everyone without barriers.",
+   "textbook_ref": "iess204.txt lines 13-32",
+   "question_patterns": [
+    "What are the three essential dimensions of food security?",
+    "Explain how availability, accessibility, and affordability define food security.",
+    "What does affordability imply in the context of food security?",
+    "How is food security ensured in a country according to its core dimensions?",
+    "Describe the physical and economic access aspects of food security."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain availability",
+     "explain": "Availability refers to the total food production within the country, food imports, and the stock stored in government granaries."
+    },
+    {
+     "step": 2,
+     "action": "Explain accessibility",
+     "explain": "Accessibility means food is physically within reach of every person without discrimination."
+    },
+    {
+     "step": 3,
+     "action": "Explain affordability",
+     "explain": "Affordability implies that an individual has enough money to buy sufficient, safe, and nutritious food to meet dietary needs."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.2",
+   "title": "Total Foodgrain Availability Calculation",
+   "section": "What is food security?",
+   "definition": "The quantitative measurement of the net amount of foodgrains available in a region or country, calculated by adding domestic production and imports, and subtracting exports.",
+   "formula": "total_availability = production + imports - exports",
+   "key_idea": "Net food availability is the sum of domestic output and net trade.",
+   "textbook_ref": "iess204.txt lines 70-90",
+   "question_patterns": [
+    "Calculate the total foodgrain availability given production, imports, and exports.",
+    "Find the net availability of rice if the production is {production} lakh tonnes, imports are {imports} lakh tonnes, and exports are {exports} lakh tonnes.",
+    "Determine the total availability of foodgrains when production is {production}, imports are {imports}, and exports are {exports}.",
+    "Compute the net food supply available in a province with {production} units produced, {imports} units imported, and {exports} units exported.",
+    "What is the total availability of grains if production is {production}, imports is {imports}, and exports is {exports}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the domestic production and imports to find the gross available stock",
+     "explain": "Gross stock is the sum of local production and imported grain",
+     "compute": "gross_stock = production + imports"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the exports from the gross stock to find the net total availability",
+     "explain": "Net availability is obtained after deducting exported grains from the gross stock",
+     "compute": "total_availability = gross_stock - exports"
+    }
+   ]
+  },
+  {
+   "id": "iess.204.3",
+   "title": "Impact of Natural Calamity on Food Security",
+   "section": "Why food security?",
+   "definition": "The process by which natural disasters disrupt agricultural production, leading to food shortages, price inflation, and potential starvation or famine.",
+   "formula": "",
+   "key_idea": "Calamities decrease food production, driving up prices and making food unaffordable for the poorest.",
+   "textbook_ref": "iess204.txt lines 33-65",
+   "question_patterns": [
+    "How does a natural calamity like drought affect food security?",
+    "Explain the relationship between crop failure, food prices, and starvation.",
+    "What are the characteristics of a famine caused by natural disasters?",
+    "Why do food prices go up during a national calamity?",
+    "Describe how a widespread natural disaster can lead to a famine."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze production impact",
+     "explain": "A natural calamity like drought decreases the total production of foodgrains, creating a shortage in the affected areas."
+    },
+    {
+     "step": 2,
+     "action": "Analyze price impact",
+     "explain": "Due to the shortage of food, prices go up, making it unaffordable for low-income groups."
+    },
+    {
+     "step": 3,
+     "action": "Analyze long-term impact",
+     "explain": "If the calamity is widespread or prolonged, it can cause starvation, which may turn into a famine characterized by high mortality rates."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.4",
+   "title": "Food Insecure Groups",
+   "section": "Who are food-insecure?",
+   "definition": "Identification of social and economic segments of the population that are highly vulnerable to nutritional and food deprivation.",
+   "formula": "",
+   "key_idea": "Landless laborers, traditional artisans, casual urban workers, and marginalized social groups face the highest risk of food insecurity.",
+   "textbook_ref": "iess204.txt lines 110-145",
+   "question_patterns": [
+    "Who are the most food-insecure groups in rural India?",
+    "Which urban occupations are highly vulnerable to food insecurity?",
+    "How do social composition and gender affect vulnerability to food insecurity?",
+    "Identify the states in India that have a disproportionately large number of food-insecure people.",
+    "Why are pregnant and nursing mothers considered highly vulnerable to food insecurity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify rural food-insecure groups",
+     "explain": "In rural areas, the worst affected are landless people, traditional artisans, providers of traditional services, and petty self-employed workers."
+    },
+    {
+     "step": 2,
+     "action": "Identify urban food-insecure groups",
+     "explain": "In urban areas, vulnerable groups include casual laborers and workers employed in low-paid, seasonal occupations."
+    },
+    {
+     "step": 3,
+     "action": "Identify social and regional factors",
+     "explain": "Vulnerability is higher among SCs, STs, lower OBCs, pregnant/nursing mothers, and residents of economically backward states like Bihar, Odisha, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.5",
+   "title": "Chronic vs Seasonal Hunger",
+   "section": "Who are food-insecure?",
+   "definition": "Distinguishing between persistent, long-term hunger due to low income (chronic) and cyclical hunger linked to agricultural or casual labor patterns (seasonal).",
+   "formula": "",
+   "key_idea": "Chronic hunger stems from structural poverty, while seasonal hunger is tied to periodic employment cycles.",
+   "textbook_ref": "iess204.txt lines 175-205",
+   "question_patterns": [
+    "Differentiate between chronic hunger and seasonal hunger.",
+    "What causes chronic hunger in poor households?",
+    "Why is seasonal hunger prevalent in rural agricultural areas?",
+    "How does seasonal hunger manifest in urban areas?",
+    "Explain the factors that lead to cyclical patterns of hunger."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define chronic hunger",
+     "explain": "Chronic hunger is a consequence of diets persistently inadequate in terms of quantity or quality, caused by low income and inability to buy food."
+    },
+    {
+     "step": 2,
+     "action": "Define seasonal hunger",
+     "explain": "Seasonal hunger is related to cycles of food growing and harvesting, or periods of low work availability for casual laborers (e.g., construction workers in the rainy season)."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.6",
+   "title": "Buffer Stock and Minimum Support Price",
+   "section": "What is Buffer stock?",
+   "definition": "The government mechanism of procuring foodgrains (wheat and rice) from surplus states at a pre-announced price (MSP) to maintain security reserves.",
+   "formula": "",
+   "key_idea": "MSP incentivizes farmers to produce, while buffer stocks ensure grain availability for distribution during shortages.",
+   "textbook_ref": "iess204.txt lines 245-275",
+   "question_patterns": [
+    "What is buffer stock and why is it created by the government?",
+    "Explain the concept of Minimum Support Price (MSP).",
+    "How does the Food Corporation of India (FCI) procure foodgrains?",
+    "What is the issue price in the context of buffer stock distribution?",
+    "How does buffer stock help during adverse weather conditions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain procurement and MSP",
+     "explain": "The Food Corporation of India (FCI) purchases wheat and rice from farmers in surplus states at a pre-announced Minimum Support Price (MSP)."
+    },
+    {
+     "step": 2,
+     "action": "Explain buffer stock creation",
+     "explain": "The procured foodgrains are stored in government granaries as a buffer stock."
+    },
+    {
+     "step": 3,
+     "action": "Explain distribution and issue price",
+     "explain": "This stock is distributed in deficit areas and to poorer sections at a subsidized price called the Issue Price."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.7",
+   "title": "Public Distribution System (PDS)",
+   "section": "What is the Public Distribution System?",
+   "definition": "The system through which the government distributes subsidized foodgrains and essential commodities to the poor via a network of fair price shops.",
+   "formula": "",
+   "key_idea": "PDS acts as a price-stabilizing and food-distributing network of ration shops.",
+   "textbook_ref": "iess204.txt lines 276-310",
+   "question_patterns": [
+    "What is the Public Distribution System (PDS)?",
+    "How do fair price shops or ration shops function in India?",
+    "What items are typically sold through the PDS and at what rates?",
+    "Explain the role of ration cards (Antyodaya, BPL, APL) in the PDS.",
+    "What are the major criticisms or problems faced by the PDS?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define PDS",
+     "explain": "PDS is the distribution of foodgrains procured by the FCI through government-regulated ration shops (fair price shops) to poorer sections."
+    },
+    {
+     "step": 2,
+     "action": "Describe ration cards",
+     "explain": "Families are issued cards based on economic status: Antyodaya (poorest), BPL (below poverty line), and APL (above poverty line)."
+    },
+    {
+     "step": 3,
+     "action": "Identify challenges",
+     "explain": "Challenges include PDS dealers diverting grain to the open market, selling low-quality grains, and irregular shop hours."
+    }
+   ]
+  },
+  {
+   "id": "iess.204.8",
+   "title": "National Food Security Act (NFSA) Coverage",
+   "section": "The National Food Security Act, 2013",
+   "definition": "The legal framework providing subsidized foodgrains to eligible households, covering specified percentages of rural and urban populations.",
+   "formula": "eligible_population = (rural_population * 0.75) + (urban_population * 0.50)",
+   "key_idea": "NFSA 2013 legally guarantees food security to 75% of rural and 50% of urban populations.",
+   "textbook_ref": "iess204.txt lines 320-335",
+   "question_patterns": [
+    "Calculate the total population eligible for food security under NFSA 2013.",
+    "If a region has a rural population of {rural_population} million and an urban population of {urban_population} million, how many people are eligible under NFSA?",
+    "Find the number of eligible beneficiaries under NFSA for a district with {rural_population} rural residents and {urban_population} urban residents.",
+    "Compute the NFSA coverage for a state with {rural_population} rural and {urban_population} urban citizens.",
+    "What is the total eligible population under the National Food Security Act if rural population is {rural_population} and urban population is {urban_population}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the eligible rural population by taking 75% of the rural population",
+     "explain": "NFSA covers 75% of the rural population",
+     "compute": "eligible_rural = rural_population * 0.75"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the eligible urban population by taking 50% of the urban population",
+     "explain": "NFSA covers 50% of the urban population",
+     "compute": "eligible_urban = urban_population * 0.50"
+    },
+    {
+     "step": 3,
+     "action": "Sum the eligible rural and urban populations to find the total eligible population",
+     "explain": "The total eligible population is the sum of eligible rural and urban residents",
+     "compute": "eligible_population = eligible_rural + eligible_urban"
+    }
+   ]
+  },
+  {
+   "id": "iess.204.9",
+   "title": "Role of Cooperatives in Food Security",
+   "section": "Role of cooperatives in food security",
+   "definition": "The contribution of cooperative societies and non-governmental networks in distributing essential food items at controlled, affordable rates.",
+   "formula": "",
+   "key_idea": "Cooperatives like Amul, Mother Dairy, and grain banks run by NGOs provide alternative, reliable channels for food security.",
+   "textbook_ref": "iess204.txt lines 440-475",
+   "question_patterns": [
+    "Explain the role of cooperatives in ensuring food security in India.",
+    "How does Mother Dairy contribute to food security in Delhi?",
+    "What is the significance of Amul in the context of food security and the White Revolution?",
+    "Describe how the Academy of Development Science (ADS) facilitated grain banks in Maharashtra.",
+    "Give examples of successful cooperative interventions in southern and western India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain cooperative-run fair price shops",
+     "explain": "Cooperatives run a massive share of fair price shops (e.g., nearly 94% in Tamil Nadu) to sell low-priced goods."
+    },
+    {
+     "step": 2,
+     "action": "Describe milk and dairy cooperatives",
+     "explain": "Mother Dairy in Delhi and Amul in Gujarat provide milk and vegetables at government-controlled, affordable rates."
+    },
+    {
+     "step": 3,
+     "action": "Describe grain bank initiatives",
+     "explain": "NGO networks like the Academy of Development Science (ADS) in Maharashtra set up grain banks to secure local food supplies."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex204.2.1",
+   "source_ref": "Table 4.1 (1939)",
+   "concept": "iess.204.2",
+   "question_type": "compute",
+   "question_pattern": "Find the net availability of rice if the production is {production} lakh tonnes, imports are {imports} lakh tonnes, and exports are {exports} lakh tonnes.",
+   "extracted_variables": {
+    "production": 79,
+    "imports": 4,
+    "exports": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the domestic production and imports to find the gross available stock",
+     "explain": "Gross stock is the sum of local production and imported grain",
+     "compute": "gross_stock = production + imports"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the exports from the gross stock to find the net total availability",
+     "explain": "Net availability is obtained after deducting exported grains from the gross stock",
+     "compute": "total_availability = gross_stock - exports"
+    }
+   ]
+  },
+  {
+   "id": "ex204.2.2",
+   "source_ref": "Table 4.1 (1942)",
+   "concept": "iess.204.2",
+   "question_type": "compute",
+   "question_pattern": "Determine the total availability of foodgrains when production is {production}, imports are {imports}, and exports are {exports}.",
+   "extracted_variables": {
+    "production": 93,
+    "imports": 0,
+    "exports": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the domestic production and imports to find the gross available stock",
+     "explain": "Gross stock is the sum of local production and imported grain",
+     "compute": "gross_stock = production + imports"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the exports from the gross stock to find the net total availability",
+     "explain": "Net availability is obtained after deducting exported grains from the gross stock",
+     "compute": "total_availability = gross_stock - exports"
+    }
+   ]
+  },
+  {
+   "id": "ex204.8.1",
+   "source_ref": "The National Food Security Act, 2013",
+   "concept": "iess.204.8",
+   "question_type": "compute",
+   "question_pattern": "If a region has a rural population of {rural_population} million and an urban population of {urban_population} million, how many people are eligible under NFSA?",
+   "extracted_variables": {
+    "rural_population": 120,
+    "urban_population": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the eligible rural population by taking 75% of the rural population",
+     "explain": "NFSA covers 75% of the rural population",
+     "compute": "eligible_rural = rural_population * 0.75"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the eligible urban population by taking 50% of the urban population",
+     "explain": "NFSA covers 50% of the urban population",
+     "compute": "eligible_urban = urban_population * 0.50"
+    },
+    {
+     "step": 3,
+     "action": "Sum the eligible rural and urban populations to find the total eligible population",
+     "explain": "The total eligible population is the sum of eligible rural and urban residents",
+     "compute": "eligible_population = eligible_rural + eligible_urban"
+    }
+   ]
+  },
+  {
+   "id": "ex204.8.2",
+   "source_ref": "The National Food Security Act, 2013",
+   "concept": "iess.204.8",
+   "question_type": "compute",
+   "question_pattern": "Compute the NFSA coverage for a state with {rural_population} million rural and {urban_population} million urban citizens.",
+   "extracted_variables": {
+    "rural_population": 40,
+    "urban_population": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the eligible rural population by taking 75% of the rural population",
+     "explain": "NFSA covers 75% of the rural population",
+     "compute": "eligible_rural = rural_population * 0.75"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the eligible urban population by taking 50% of the urban population",
+     "explain": "NFSA covers 50% of the urban population",
+     "compute": "eligible_urban = urban_population * 0.50"
+    },
+    {
+     "step": 3,
+     "action": "Sum the eligible rural and urban populations to find the total eligible population",
+     "explain": "The total eligible population is the sum of eligible rural and urban residents",
+     "compute": "eligible_population = eligible_rural + eligible_urban"
+    }
+   ]
+  },
+  {
+   "id": "ex1",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.1",
+   "question_type": "verify_property",
+   "question_pattern": "What are the three essential dimensions of food security?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain availability",
+     "explain": "Availability refers to the total food production within the country, food imports, and the stock stored in government granaries."
+    },
+    {
+     "step": 2,
+     "action": "Explain accessibility",
+     "explain": "Accessibility means food is physically within reach of every person without discrimination."
+    },
+    {
+     "step": 3,
+     "action": "Explain affordability",
+     "explain": "Affordability implies that an individual has enough money to buy sufficient, safe, and nutritious food to meet dietary needs."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how availability, accessibility, and affordability define food security.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain availability",
+     "explain": "Availability refers to the total food production within the country, food imports, and the stock stored in government granaries."
+    },
+    {
+     "step": 2,
+     "action": "Explain accessibility",
+     "explain": "Accessibility means food is physically within reach of every person without discrimination."
+    },
+    {
+     "step": 3,
+     "action": "Explain affordability",
+     "explain": "Affordability implies that an individual has enough money to buy sufficient, safe, and nutritious food to meet dietary needs."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.3",
+   "question_type": "verify_property",
+   "question_pattern": "How does a natural calamity like drought affect food security?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze production impact",
+     "explain": "A natural calamity like drought decreases the total production of foodgrains, creating a shortage in the affected areas."
+    },
+    {
+     "step": 2,
+     "action": "Analyze price impact",
+     "explain": "Due to the shortage of food, prices go up, making it unaffordable for low-income groups."
+    },
+    {
+     "step": 3,
+     "action": "Analyze long-term impact",
+     "explain": "If the calamity is widespread or prolonged, it can cause starvation, which may turn into a famine characterized by high mortality rates."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.3",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the relationship between crop failure, food prices, and starvation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze production impact",
+     "explain": "A natural calamity like drought decreases the total production of foodgrains, creating a shortage in the affected areas."
+    },
+    {
+     "step": 2,
+     "action": "Analyze price impact",
+     "explain": "Due to the shortage of food, prices go up, making it unaffordable for low-income groups."
+    },
+    {
+     "step": 3,
+     "action": "Analyze long-term impact",
+     "explain": "If the calamity is widespread or prolonged, it can cause starvation, which may turn into a famine characterized by high mortality rates."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.4",
+   "question_type": "verify_property",
+   "question_pattern": "Who are the most food-insecure groups in rural India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rural food-insecure groups",
+     "explain": "In rural areas, the worst affected are landless people, traditional artisans, providers of traditional services, and petty self-employed workers."
+    },
+    {
+     "step": 2,
+     "action": "Identify urban food-insecure groups",
+     "explain": "In urban areas, vulnerable groups include casual laborers and workers employed in low-paid, seasonal occupations."
+    },
+    {
+     "step": 3,
+     "action": "Identify social and regional factors",
+     "explain": "Vulnerability is higher among SCs, STs, lower OBCs, pregnant/nursing mothers, and residents of economically backward states like Bihar, Odisha, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.4",
+   "question_type": "verify_property",
+   "question_pattern": "Which urban occupations are highly vulnerable to food insecurity?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rural food-insecure groups",
+     "explain": "In rural areas, the worst affected are landless people, traditional artisans, providers of traditional services, and petty self-employed workers."
+    },
+    {
+     "step": 2,
+     "action": "Identify urban food-insecure groups",
+     "explain": "In urban areas, vulnerable groups include casual laborers and workers employed in low-paid, seasonal occupations."
+    },
+    {
+     "step": 3,
+     "action": "Identify social and regional factors",
+     "explain": "Vulnerability is higher among SCs, STs, lower OBCs, pregnant/nursing mothers, and residents of economically backward states like Bihar, Odisha, and Uttar Pradesh."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.5",
+   "question_type": "verify_property",
+   "question_pattern": "Differentiate between chronic hunger and seasonal hunger.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define chronic hunger",
+     "explain": "Chronic hunger is a consequence of diets persistently inadequate in terms of quantity or quality, caused by low income and inability to buy food."
+    },
+    {
+     "step": 2,
+     "action": "Define seasonal hunger",
+     "explain": "Seasonal hunger is related to cycles of food growing and harvesting, or periods of low work availability for casual laborers (e.g., construction workers in the rainy season)."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.5",
+   "question_type": "verify_property",
+   "question_pattern": "What causes chronic hunger in poor households?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define chronic hunger",
+     "explain": "Chronic hunger is a consequence of diets persistently inadequate in terms of quantity or quality, caused by low income and inability to buy food."
+    },
+    {
+     "step": 2,
+     "action": "Define seasonal hunger",
+     "explain": "Seasonal hunger is related to cycles of food growing and harvesting, or periods of low work availability for casual laborers (e.g., construction workers in the rainy season)."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.6",
+   "question_type": "verify_property",
+   "question_pattern": "What is buffer stock and why is it created by the government?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain procurement and MSP",
+     "explain": "The Food Corporation of India (FCI) purchases wheat and rice from farmers in surplus states at a pre-announced Minimum Support Price (MSP)."
+    },
+    {
+     "step": 2,
+     "action": "Explain buffer stock creation",
+     "explain": "The procured foodgrains are stored in government granaries as a buffer stock."
+    },
+    {
+     "step": 3,
+     "action": "Explain distribution and issue price",
+     "explain": "This stock is distributed in deficit areas and to poorer sections at a subsidized price called the Issue Price."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.6",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the concept of Minimum Support Price (MSP).",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain procurement and MSP",
+     "explain": "The Food Corporation of India (FCI) purchases wheat and rice from farmers in surplus states at a pre-announced Minimum Support Price (MSP)."
+    },
+    {
+     "step": 2,
+     "action": "Explain buffer stock creation",
+     "explain": "The procured foodgrains are stored in government granaries as a buffer stock."
+    },
+    {
+     "step": 3,
+     "action": "Explain distribution and issue price",
+     "explain": "This stock is distributed in deficit areas and to poorer sections at a subsidized price called the Issue Price."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.7",
+   "question_type": "verify_property",
+   "question_pattern": "What is the Public Distribution System (PDS)?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define PDS",
+     "explain": "PDS is the distribution of foodgrains procured by the FCI through government-regulated ration shops (fair price shops) to poorer sections."
+    },
+    {
+     "step": 2,
+     "action": "Describe ration cards",
+     "explain": "Families are issued cards based on economic status: Antyodaya (poorest), BPL (below poverty line), and APL (above poverty line)."
+    },
+    {
+     "step": 3,
+     "action": "Identify challenges",
+     "explain": "Challenges include PDS dealers diverting grain to the open market, selling low-quality grains, and irregular shop hours."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.7",
+   "question_type": "verify_property",
+   "question_pattern": "How do fair price shops or ration shops function in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define PDS",
+     "explain": "PDS is the distribution of foodgrains procured by the FCI through government-regulated ration shops (fair price shops) to poorer sections."
+    },
+    {
+     "step": 2,
+     "action": "Describe ration cards",
+     "explain": "Families are issued cards based on economic status: Antyodaya (poorest), BPL (below poverty line), and APL (above poverty line)."
+    },
+    {
+     "step": 3,
+     "action": "Identify challenges",
+     "explain": "Challenges include PDS dealers diverting grain to the open market, selling low-quality grains, and irregular shop hours."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.9",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the role of cooperatives in ensuring food security in India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain cooperative-run fair price shops",
+     "explain": "Cooperatives run a massive share of fair price shops (e.g., nearly 94% in Tamil Nadu) to sell low-priced goods."
+    },
+    {
+     "step": 2,
+     "action": "Describe milk and dairy cooperatives",
+     "explain": "Mother Dairy in Delhi and Amul in Gujarat provide milk and vegetables at government-controlled, affordable rates."
+    },
+    {
+     "step": 3,
+     "action": "Describe grain bank initiatives",
+     "explain": "NGO networks like the Academy of Development Science (ADS) in Maharashtra set up grain banks to secure local food supplies."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.204.9",
+   "question_type": "verify_property",
+   "question_pattern": "How does Mother Dairy contribute to food security in Delhi?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain cooperative-run fair price shops",
+     "explain": "Cooperatives run a massive share of fair price shops (e.g., nearly 94% in Tamil Nadu) to sell low-priced goods."
+    },
+    {
+     "step": 2,
+     "action": "Describe milk and dairy cooperatives",
+     "explain": "Mother Dairy in Delhi and Amul in Gujarat provide milk and vegetables at government-controlled, affordable rates."
+    },
+    {
+     "step": 3,
+     "action": "Describe grain bank initiatives",
+     "explain": "NGO networks like the Academy of Development Science (ADS) in Maharashtra set up grain banks to secure local food supplies."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iess204.txt lines 480-505",
+   "questions": [
+    "How is food security ensured in India?",
+    "Which are the people more prone to food insecurity?",
+    "Which states are more food insecure in India?",
+    "Do you believe that green revolution has made India self-sufficient in food grains? How?",
+    "A section of people in India are still without food. Explain?",
+    "What happens to the supply of food when there is a disaster or a calamity?",
+    "Differentiate between seasonal hunger and chronic hunger?",
+    "What has our government done to provide food security to the poor? Discuss any two schemes launched by the government?",
+    "Why buffer stock is created by the government?",
+    "Write notes on: (a) Minimum support price (b) Buffer stock (c) Issue price (d) Fair price shops",
+    "What are the problems of the functioning of ration shops?",
+    "Write a note on the role of cooperatives in providing food and related items."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

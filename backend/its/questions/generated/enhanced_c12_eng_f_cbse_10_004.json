@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_10_004",
+   "title": "c12_eng_f_cbse_10_004",
+   "questions": [
+    {
+     "q": "Who is the protagonist of \"An Elementary School Classroom in a Slum\"? Give a one-sentence answer.",
+     "a": "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head, the paper-seeming boy with rat's eyes, the stunted heir of twisted bones). A wrong answer naming a single child (e.g., \"the tall girl\") reveals the student is applying prose character-analysis habits to a poem where the protagonist is composite and symbolic.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Spender chooses to present the protagonist as a collective through three distinct portraits rather than focusing on one child's story.",
+     "a": "Spender uses three portraits to show that the suffering is systemic, not individual — each child represents a different manifestation of the same neglect (physical burden, mental starvation, genetic deformity from poverty), making the protagonist a universal symbol for all slum children. A wrong answer that says \"to make the poem more interesting\" or \"to show different personalities\" misses the political purpose: the collective protagonist embodies a class-wide injustice, not individual variation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"composite protagonist\" to analyse the line \"The stunted, unlucky heir / Of twisted bones, reciting a father's gnarled disease.\" What does this portrait contribute to the collective character that the other two portraits do not?",
+     "a": "This portrait adds the dimension of intergenerational inheritance — the protagonist's deformity is not accidental but inherited (\"heir\"), linking the children's present suffering to their parents' broken bodies (\"father's gnarled disease\"), showing poverty as a hereditary condition. A wrong answer that only notes \"the boy is sick\" or \"he has twisted bones\" treats the line as isolated description rather than structural evidence of systemic cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the collective protagonist in this poem with the protagonist in a prose story you studied in Class 10 (e.g., Lencho in \"A Letter to God\" or Valli in \"Madam Rides the Bus\"). How does the *nature* of the protagonist differ between poem and prose?",
+     "a": "In prose, the protagonist is a singular, developed individual with agency, interiority, and a narrative arc (Lencho writes letters, Valli plans a journey); in this poem, the protagonist is a static, voiceless collective symbol without agency or arc — they are *acted upon* by systemic forces. A wrong answer that says \"both are poor\" or \"both suffer\" confuses thematic similarity with structural difference in *how* the protagonist functions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The tall girl with her weighed-down head is the true protagonist because she appears first and gets the most description.\" Defend or refute using textual evidence.",
+     "a": "Refute. The poem's structure gives equal weight to all three portraits (each gets two lines, parallel syntax: \"The tall girl...\", \"The paper-seeming boy...\", \"The stunted, unlucky heir...\"). No single portrait dominates; the protagonist *is* the triad. A wrong answer defending the claim reveals a \"first-mentioned = main character\" heuristic from prose reading, ignoring poetic parallelism and collective symbolism.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fourth portrait in Spender's style that would fit the collective protagonist. Write two lines following the poem's syntactic pattern and imagery logic.",
+     "a": "Example: \"The girl with chalk-dust fingers, dreaming of white boards / That never come, her future erased before it's written.\" A poor answer writes a generic sad child (\"A small boy crying in the corner\") without mirroring Spender's compound-noun epithets (\"paper-seeming\", \"stunted, unlucky heir\"), metaphorical disease imagery, or the syntactic frame \"The [epithet] [noun] / [participle phrase].\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

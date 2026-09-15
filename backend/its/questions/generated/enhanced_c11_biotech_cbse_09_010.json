@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_010",
+   "title": "c11_biotech_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define \"p-distance\" between two aligned sequences and state its limitation for deep evolutionary comparisons.",
+     "a": "p-distance is the proportion of nucleotide (or amino acid) sites at which two aligned sequences differ, calculated as (number of differing sites) / (total aligned sites excluding gaps). Limitation: It underestimates true evolutionary distance for deep divergences because it does not correct for multiple substitutions at the same site (saturation), making distantly related sequences appear more similar than they truly are. A wrong answer (e.g., \"p-distance is the number of substitutions per site\") reveals confusion between observed difference and corrected evolutionary distance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why UPGMA assumes a molecular clock and what happens to the tree topology if this assumption is violated.",
+     "a": "UPGMA assumes a molecular clock because it joins clusters based on average pairwise distances and places the new node at a height equal to half the distance between the two clusters, implicitly assuming equal rates of evolution along all lineages (ultrametric tree). If rates vary significantly (violation), UPGMA will incorrectly group fast-evolving lineages together (long-branch attraction) and produce a wrong topology. A wrong answer (e.g., \"UPGMA does not assume a clock\") reveals the student has memorized the algorithm steps without understanding the ultrametric property.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following p-distance matrix for four taxa (A, B, C, D), perform the first two clustering steps of UPGMA and draw the partially resolved tree with branch lengths.\n```\n    A    B    C    D\nA   0   0.2  0.4  0.5\nB  0.2   0   0.5  0.6\nC  0.4  0.5   0   0.3\nD  0.5  0.6  0.3   0\n```",
+     "a": "Step 1: Smallest distance is A-B (0.2). Cluster (AB) at height 0.1. New distances: d(AB,C) = (0.4+0.5)/2 = 0.45; d(AB,D) = (0.5+0.6)/2 = 0.55.\nStep 2: Smallest distance in reduced matrix is C-D (0.3). Cluster (CD) at height 0.15. New distance: d(AB,CD) = (0.45+0.55)/2 = 0.5.\nPartially resolved tree: (A:0.1, B:0.1) and (C:0.15, D:0.15) joined at root height 0.25. A wrong answer (e.g., joining A-C first) reveals inability to identify the minimum distance or compute average linkage correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Neighbor-Joining and UPGMA in terms of: (a) molecular clock assumption, (b) tree output (rooted/unrooted), (c) computational complexity for large datasets.",
+     "a": "(a) NJ does NOT assume a molecular clock (additive tree); UPGMA assumes a strict clock (ultrametric tree). (b) NJ produces an unrooted tree (requires outgroup to root); UPGMA produces a rooted tree directly. (c) Both are O(N³) for N taxa, but NJ has a larger constant factor due to Q-matrix recalculation; however, for large N, both are fast compared to character-based methods. A wrong answer (e.g., \"NJ assumes a clock\") reveals confusion between additive and ultrametric tree properties.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher obtains a Maximum Likelihood tree with bootstrap values of 95%, 62%, and 48% on three internal branches. Evaluate which clades are strongly supported and explain why a bootstrap value of 62% is considered weakly supported despite being >50%.",
+     "a": "Only the branch with 95% bootstrap support is strongly supported (convention: ≥70% or ≥95% for strong support). A value of 62% means that in 62% of bootstrap replicates (resampled alignments), that clade appeared; however, the 50% threshold is arbitrary and 62% indicates the clade is not robust to sampling error — it appears in only slightly more than half the replicates. A wrong answer (e.g., \"62% is good because >50%\") reveals misunderstanding of bootstrap as a measure of repeatability, not probability of correctness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small simulation study (conceptually) to test whether UPGMA or Neighbor-Joining recovers the true tree better when evolutionary rates vary among lineages. Specify: (i) true tree topology with branch lengths, (ii) sequence simulation parameters, (iii) evaluation metric.",
+     "a": "(i) True tree: ((A:0.1, B:0.1):0.05, (C:0.5, D:0.5):0.05) — lineages C and D evolve 5x faster. (ii) Simulate 1000 bp DNA sequences under Jukes-Cantor model using the true tree. (iii) Reconstruct trees with UPGMA and NJ from p-distances; evaluate using Robinson-Foulds distance to true tree. Expected: NJ will have lower RF distance (better recovery) because it does not assume a clock. A poor answer (e.g., \"use real data\") reveals inability to design a controlled simulation isolating the molecular clock violation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

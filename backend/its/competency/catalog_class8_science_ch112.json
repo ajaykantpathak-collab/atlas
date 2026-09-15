@@ -1,0 +1,505 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 112,
+ "chapter_title": "Some Natural Phenomena",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc112.txt",
+ "concepts": [
+  {
+   "id": "hesc.112.1",
+   "title": "Charging by Rubbing",
+   "section": "12.2",
+   "definition": "The process by which non-conducting materials acquire electric charge through friction when rubbed against specific surfaces.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Frictional forces cause move of electric charges, rendering objects capable of attracting light particles.",
+   "textbook_ref": "hesc112.txt lines 35-65",
+   "question_patterns": [
+    "what happens when a plastic comb is rubbed with dry hair",
+    "explain charging by rubbing with an example",
+    "how do objects acquire charge through friction",
+    "why does a rubbed plastic scale attract paper pieces",
+    "how does charging by rubbing work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify frictional interaction",
+     "explain": "Rubbing two specific non-conducting materials transfers electrostatic charge between them."
+    },
+    {
+     "step": 2,
+     "action": "observe electrostatic attraction",
+     "explain": "The charged object exerts an attractive force on neutral light objects like bits of paper."
+    },
+    {
+     "step": 3,
+     "action": "Determine the type of charge acquired",
+     "explain": "The material that loses electrons becomes positively charged and the material that gains electrons becomes negatively charged, so the two rubbed objects always acquire opposite charges."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.2",
+   "title": "Types of Charges and Their Interaction",
+   "section": "12.3",
+   "definition": "The classification of electric charges into positive and negative, adhering to the fundamental rule that like charges both repel and unlike charges attract.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Identical electric charges exert repulsive forces on each other, whereas opposite charges attract.",
+   "textbook_ref": "hesc112.txt lines 66-120",
+   "question_patterns": [
+    "what are the two types of electric charges",
+    "how do like and unlike charges interact",
+    "why do two inflated charged balloons repel each other",
+    "explain the interaction between a charged glass rod and a charged refill",
+    "short note on types of charges and their interaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify charge types",
+     "explain": "Electric charges are designated as positive or negative."
+    },
+    {
+     "step": 2,
+     "action": "apply interaction rule",
+     "explain": "Objects with similar charges push away from each other (repulsion), while objects with opposite charges pull toward each other (attraction)."
+    },
+    {
+     "step": 3,
+     "action": "Verify charge type using a known reference",
+     "explain": "Test the unknown charge against a known charged object (e.g., a positively charged glass rod rubbed with silk) -- if they attract, the unknown is negative; if they repel, the unknown is positive."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.3",
+   "title": "Detection and Transfer of Charge",
+   "section": "12.4",
+   "definition": "The conduction of charge from one body to another via metal conductors, detectable using a device called an electroscope.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Metallic elements conduct charge to gold or aluminium leaves, which diverge due to mutual charge repulsion.",
+   "textbook_ref": "hesc112.txt lines 121-160",
+   "question_patterns": [
+    "what is an electroscope and how does it work",
+    "how can we detect if an object carries electric charge",
+    "describe the simple bottle and foil electroscope",
+    "why do aluminium foil strips diverge when touched by a charged rod",
+    "justify why detection and transfer of charge matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "conduction through metal",
+     "explain": "Charge moves from the tested object through the metallic clip to the foil strips."
+    },
+    {
+     "step": 2,
+     "action": "repulsion of foil strips",
+     "explain": "Both foil strips receive the same charge and push apart, indicating presence of charge."
+    },
+    {
+     "step": 3,
+     "action": "Determine the nature of the charge",
+     "explain": "The degree of divergence of the foil strips indicates the amount of charge -- larger separation means more charge, while no movement means the object is uncharged."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.4",
+   "title": "Earthing and Discharging",
+   "section": "12.4",
+   "definition": "The procedure of discharging an object by safely transmitting its accumulated electrical energy into the ground.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Connecting a charged conductor to the earth provides a safe pathway to dissipate electric charge completely.",
+   "textbook_ref": "hesc112.txt lines 161-175",
+   "question_patterns": [
+    "what is earthing and why is it important in buildings",
+    "why do foil strips collapse when touched by hand",
+    "explain what happens when a charged body is connected to the ground",
+    "define the process of electrical discharge to earth",
+    "justify why earthing and discharging matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "charge dissipation",
+     "explain": "Excess electric charge flows through the conducting body into the earth."
+    },
+    {
+     "step": 2,
+     "action": "neutralization",
+     "explain": "The body loses its net electrical charge and returns to a neutral state."
+    },
+    {
+     "step": 3,
+     "action": "Confirm discharge using an electroscope",
+     "explain": "After earthing, the foil strips of an electroscope collapse back together, confirming that the charge has been completely transferred to the ground and the body is neutral."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.5",
+   "title": "Mechanism of Lightning",
+   "section": "12.5",
+   "definition": "A massive natural atmospheric discharge resulting from both positive and negative charge separation within storm clouds and ground potential differences.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Violent air currents separate charges in clouds, creating extreme potential gradients that break down air insulation.",
+   "textbook_ref": "hesc112.txt lines 176-215",
+   "question_patterns": [
+    "how is lightning produced in clouds",
+    "explain the process of electric discharge during a thunderstorm",
+    "what causes the accumulation of charges in clouds",
+    "why do bright streaks of light appear in the sky during storms",
+    "justify why mechanism of lightning matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "charge separation",
+     "explain": "Upward air currents and downward water droplets cause positive charges to collect at top edges and negative charges at bottom edges of clouds."
+    },
+    {
+     "step": 2,
+     "action": "breakdown and electric discharge",
+     "explain": "When potential difference exceeds air insulation, intense electric discharge occurs between clouds or cloud and ground."
+    },
+    {
+     "step": 3,
+     "action": "Describe the lightning flash and thunder",
+     "explain": "The electric discharge produces a brilliant flash of light (lightning) and heats the air rapidly, causing it to expand explosively, which we hear as thunder -- light reaches us faster than sound, so we see lightning before hearing thunder."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.6",
+   "title": "Lightning Safety and Conductors",
+   "section": "12.6",
+   "definition": "Precautionary measures and metallic installations designed to divert high-voltage lightning currents safely into the ground without structural damage.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Tall metallic rods protruding above structures provide a low-resistance path to direct lightning strikes safely to earth.",
+   "textbook_ref": "hesc112.txt lines 216-270",
+   "question_patterns": [
+    "how does a lightning conductor protect high buildings",
+    "what precautions should be taken outdoors during a thunderstorm",
+    "why is taking shelter under short trees safer than tall trees",
+    "what are do's and don'ts inside a house during lightning",
+    "state two key points about lightning safety and conductors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "conduction to ground",
+     "explain": "The heavy copper rod installed on the exterior wall intercepts the lightning strike."
+    },
+    {
+     "step": 2,
+     "action": "safe charge grounding",
+     "explain": "Electric current travels down the rod to a copper plate buried underground, protecting the structure."
+    },
+    {
+     "step": 3,
+     "action": "List personal safety precautions during a thunderstorm",
+     "explain": "Avoid taking shelter under tall trees or near metal objects, do not use umbrellas with metallic handles, stay indoors away from windows and electrical appliances, and avoid open water bodies."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.7",
+   "title": "Earthquakes and Tectonic Plates",
+   "section": "12.7",
+   "definition": "A sudden trembling of the earth's crust brought about by disturbances deep underground, primarily because of the movements and collisions of tectonic plates.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The outer crust is indeed fragmented into tectonic plates whose continuous sliding and collisions trigger seismic tremors.",
+   "textbook_ref": "hesc112.txt lines 271-340",
+   "question_patterns": [
+    "what causes an earthquake",
+    "what are tectonic plates and fault zones",
+    "why do earthquakes occur along plate boundaries",
+    "name major seismic zones vulnerable to earthquakes in India",
+    "give one everyday example of earthquakes and tectonic plates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "plate interaction",
+     "explain": "Tectonic plates move relative to each other, causing friction or collision at fault lines."
+    },
+    {
+     "step": 2,
+     "action": "crustal disturbance",
+     "explain": "Accumulated strain energy releases suddenly, propagating seismic vibrations to the surface."
+    },
+    {
+     "step": 3,
+     "action": "Identify the focus and epicenter",
+     "explain": "The point deep underground where the earthquake originates is called the focus, while the point on the surface directly above it is the epicenter -- the closer a location is to the epicenter, the greater the damage."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.8",
+   "title": "Seismograph and Seismic Waves",
+   "section": "12.7",
+   "definition": "The instrument used to detect and record shockwaves generated by earthquakes using a heavy pendulum system with a recording pen.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Tremors create surface waves recorded on a moving drum paper, allowing scientists to locate focus and epicenter.",
+   "textbook_ref": "hesc112.txt lines 341-370",
+   "question_patterns": [
+    "how does a seismograph record seismic waves",
+    "what is the difference between focus and epicenter of an earthquake",
+    "what instrument measures earthquake shockwaves",
+    "explain the working principle of a seismograph",
+    "state two key points about seismograph and seismic waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pendulum vibration",
+     "explain": "Ground motion causes the suspended pendulum and pen inside the seismograph to oscillate relative to a rotating drum."
+    },
+    {
+     "step": 2,
+     "action": "wave tracing",
+     "explain": "The pen traces the pattern of seismic waves on paper attached to the rotating cylinder."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the seismogram to locate the earthquake",
+     "explain": "Scientists study the amplitude and timing of the recorded wave traces to determine the magnitude of the earthquake and locate the epicenter using data from multiple seismograph stations."
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.9",
+   "title": "Richter Scale Energy Comparison",
+   "section": "12.7",
+   "definition": "A non-linear scale expressing earthquake magnitude, where every increase of 2 units signifies a 1000-fold increase in destructive kinetic energy.",
+   "formula": "energy_ratio = 1000 ** ((mag2 - mag1) / 2)",
+   "key_idea": "Magnitude differences on the Richter scale translate non-linearly to exponential jumps in destructive energy.",
+   "textbook_ref": "hesc112.txt lines 371-395",
+   "question_patterns": [
+    "calculate how many times more energy is released by an earthquake of magnitude mag2 compared to mag1",
+    "how much more energy does a magnitude mag2 earthquake have than magnitude mag1",
+    "find the destructive energy ratio between two earthquakes of magnitudes mag2 and mag1",
+    "compare the destructive energy of magnitude mag2 and mag1 earthquakes",
+    "compute the answer step by step for richter scale energy comparison"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find magnitude difference",
+     "explain": "Subtract lower magnitude mag1 from higher magnitude mag2",
+     "compute": "delta_mag = mag2 - mag1"
+    },
+    {
+     "step": 2,
+     "action": "calculate exponent factor",
+     "explain": "Divide magnitude difference by 2 since every 2 units multiply energy by 1000",
+     "compute": "factor_count = delta_mag / 2"
+    },
+    {
+     "step": 3,
+     "action": "compute relative energy ratio",
+     "explain": "Raise 1000 to the power of factor_count",
+     "compute": "energy_ratio = 1000 ** factor_count"
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.10",
+   "title": "Earthquake Safety and Protection",
+   "section": "12.7",
+   "definition": "Structural design guidelines and personal safety procedures followed indoors and outdoors to minimize risk during seismic tremors.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Dropping under sturdy furniture indoors or reaching open spaces outdoors minimizes injury from falling debris.",
+   "textbook_ref": "hesc112.txt lines 396-440",
+   "question_patterns": [
+    "what steps should be taken to protect oneself indoors during an earthquake",
+    "how should one protect themselves outdoors during seismic tremors",
+    "what are quake-safe building measures",
+    "why are mud and timber preferred over heavy materials in seismic zones",
+    "list the main features of earthquake safety and protection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "indoor shelter",
+     "explain": "Take cover under a sturdy desk or table and cover the head with a cushion or pillow."
+    },
+    {
+     "step": 2,
+     "action": "outdoor positioning",
+     "explain": "Move to open ground away from structures, high-voltage power lines, and large trees."
+    },
+    {
+     "step": 3,
+     "action": "Describe quake-safe building practices",
+     "explain": "In seismic zones, buildings should use light materials like mud and timber rather than heavy stone or concrete, and tall cupboards should be fixed to walls so they do not topple during tremors."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc112.txt lines 375-390",
+   "concept": "hesc.112.9",
+   "question_type": "compute",
+   "question_pattern": "An earthquake of magnitude {mag2} is recorded. How many times more destructive energy does it carry compared to an earthquake of magnitude {mag1}?",
+   "extracted_variables": {
+    "mag1": "magnitude of weaker earthquake",
+    "mag2": "magnitude of stronger earthquake"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find magnitude difference",
+     "explain": "Subtract lower magnitude mag1 from higher magnitude mag2",
+     "compute": "delta_mag = mag2 - mag1"
+    },
+    {
+     "step": 2,
+     "action": "calculate exponent factor",
+     "explain": "Divide magnitude difference by 2",
+     "compute": "factor_count = delta_mag / 2"
+    },
+    {
+     "step": 3,
+     "action": "compute relative energy ratio",
+     "explain": "Raise 1000 to factor_count to find energy multiplier",
+     "compute": "energy_ratio = 1000 ** factor_count"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc112.txt lines 371-395",
+   "concept": "hesc.112.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute richter scale energy comparison step by step",
+   "extracted_variables": {
+    "mag2": "value of mag2",
+    "mag1": "value of mag1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find magnitude difference",
+     "explain": "Subtract lower magnitude mag1 from higher magnitude mag2",
+     "compute": "delta_mag = mag2 - mag1"
+    },
+    {
+     "step": 2,
+     "action": "calculate exponent factor",
+     "explain": "Divide magnitude difference by 2 since every 2 units multiply energy by 1000",
+     "compute": "factor_count = delta_mag / 2"
+    },
+    {
+     "step": 3,
+     "action": "compute relative energy ratio",
+     "explain": "Raise 1000 to the power of factor_count",
+     "compute": "energy_ratio = 1000 ** factor_count"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "hesc112.txt lines 455-460",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about friction."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "hesc112.txt lines 461-466",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about negatively."
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "hesc112.txt lines 467-472",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about earthquakes."
+   ]
+  },
+  {
+   "id": "ex12.4",
+   "source_ref": "hesc112.txt lines 473-475",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about crackling."
+   ]
+  },
+  {
+   "id": "ex12.5",
+   "source_ref": "hesc112.txt lines 476-477",
+   "questions": [
+    "Explain charged in your own words and add one example of your own."
+   ]
+  },
+  {
+   "id": "ex12.6",
+   "source_ref": "hesc112.txt lines 478-480",
+   "questions": [
+    "Name destructive and characterise it briefly in your own words."
+   ]
+  },
+  {
+   "id": "ex12.7",
+   "source_ref": "hesc112.txt lines 481-482",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about lightning."
+   ]
+  },
+  {
+   "id": "ex12.8",
+   "source_ref": "hesc112.txt lines 483-485",
+   "questions": [
+    "Explain attracted in your own words and add one example of your own."
+   ]
+  },
+  {
+   "id": "ex12.9",
+   "source_ref": "hesc112.txt lines 486-487",
+   "questions": [
+    "Describe instrument in your own words."
+   ]
+  },
+  {
+   "id": "ex12.10",
+   "source_ref": "hesc112.txt lines 488-489",
+   "questions": [
+    "List the main points about earthquakes in your own words."
+   ]
+  },
+  {
+   "id": "ex12.11",
+   "source_ref": "hesc112.txt lines 490-492",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about earthquake."
+   ]
+  },
+  {
+   "id": "ex12.12",
+   "source_ref": "hesc112.txt lines 493-496",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about thunderstorm."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

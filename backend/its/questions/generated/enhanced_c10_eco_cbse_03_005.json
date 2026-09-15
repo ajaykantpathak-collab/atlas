@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_005",
+   "title": "c10_eco_cbse_03_005",
+   "questions": [
+    {
+     "q": "What are the four terms of credit that are typically specified in a loan agreement?",
+     "a": "The four terms of credit are: (1) interest rate, (2) collateral, (3) documentation, and (4) mode of repayment. A wrong answer (e.g., listing \"principal amount\" or \"loan tenure\" as a separate term) reveals that the student confuses the core terms with other loan features. The NCERT specifically highlights these four as the terms of credit.",
+     "self_check": true
+    },
+    {
+     "q": "Why do formal lenders (like banks) usually require collateral while informal lenders (like moneylenders) often do not?",
+     "a": "Formal lenders require collateral as a legal security to recover the loan if the borrower defaults, because they follow strict regulations and cannot use coercive methods. Informal lenders often rely on personal knowledge, social pressure, or high interest rates to ensure repayment, so they may not demand collateral. A wrong answer (e.g., \"banks are greedier\") shows the student misunderstands the regulatory and risk-management role of collateral in formal credit.",
+     "self_check": true
+    },
+    {
+     "q": "A borrower takes a loan of ₹1,00,000 at 10% simple interest per annum for 2 years. The mode of repayment is a single lump sum at the end of 2 years. Calculate the total amount to be repaid.",
+     "a": "Step 1: Identify principal (P) = ₹1,00,000, rate (R) = 10% per annum, time (T) = 2 years.\nStep 2: Simple Interest = (P × R × T) / 100 = (1,00,000 × 10 × 2) / 100 = ₹20,000.\nStep 3: Total repayment = Principal + Interest = ₹1,00,000 + ₹20,000 = ₹1,20,000.\nA wrong answer (e.g., ₹1,10,000 or ₹1,21,000) reveals the student either calculated interest for only one year or incorrectly used compound interest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the terms of credit for a bank loan and a moneylender loan for a small farmer. Which terms make the bank loan more affordable and less risky for the farmer? Explain using all four terms.",
+     "a": "Bank loan: lower interest rate (e.g., 9% vs 36%), collateral required (land papers) but legally protected, documentation ensures transparency, repayment mode aligned with harvest cycle (half-yearly). Moneylender: very high interest, no collateral but harsh recovery, minimal documentation (no legal protection), frequent repayments (weekly) causing cash flow stress. The bank's lower interest, harvest-linked repayment, and legal documentation make it more affordable and less risky. A wrong answer that focuses only on interest rate ignores how repayment mode and documentation affect the farmer's ability to repay without distress.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Collateral-free loans from informal sources are better for poor borrowers because they do not risk losing their assets.\" Use the concept of terms of credit to justify your answer.",
+     "a": "The statement is misleading. While collateral-free loans avoid asset loss, informal loans carry extremely high interest rates (often 36-60% p.a.) and coercive recovery practices, pushing borrowers into debt traps. The total cost (interest + penalty) often exceeds the value of the collateral. Formal loans with collateral have lower interest and legal protection. A wrong answer that agrees with the statement shows the student evaluates only one term (collateral) in isolation, ignoring the combined effect of all four terms on the borrower's welfare.",
+     "self_check": true
+    },
+    {
+     "q": "Design a loan agreement for a self-help group (SHG) member who wants to borrow ₹20,000 for a small tailoring business. Specify all four terms of credit such that the loan is affordable and the repayment is manageable. Justify each term.",
+     "a": "A good answer would specify: (1) Interest rate: 12% p.a. (lower than moneylender, slightly higher than bank to cover SHG admin costs), (2) Collateral: Group guarantee / social collateral (no physical asset needed), (3) Documentation: Simple application, identity proof, business plan (less paperwork than bank), (4) Mode of repayment: Monthly installments of ₹1,800 for 12 months (aligned with monthly income from tailoring). Justification: Each term balances affordability, risk-sharing, and administrative simplicity. A poor answer would copy bank terms exactly or ignore the SHG context, showing inability to adapt terms to the borrower's situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

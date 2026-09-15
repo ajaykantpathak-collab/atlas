@@ -1,0 +1,375 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 10,
+ "chapter_title": "Where Do Companies Do Their Business? In the Markets or in the Society?",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebs.202.1.1",
+   "title": "Meaning and Nature of Marketing",
+   "section": "Meaning of Marketing",
+   "definition": "Marketing is the whole set of activities -- from sensing what buyers want before anything is produced to service after the sale -- through which goods and services flow from maker to user in exchange for value; it is a social process of creating offers and trading them freely.",
+   "formula": "marketing = need_identification + market_offering + exchange_mechanism",
+   "key_idea": "Selling is only one spoke; the wheel starts before production and keeps turning after the product is sold.",
+   "textbook_ref": "lebs202.txt Meaning of Marketing (lines 94-176)",
+   "question_patterns": [
+    "explain the meaning and nature of marketing",
+    "why is marketing more than just selling goods",
+    "describe marketing as a social process of exchange",
+    "when does marketing begin and end for a product",
+    "what activities together make up marketing",
+    "how does marketing create a market offering for buyers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the scope", "explain": "marketing covers product designing, packaging, branding, pricing, promotion and distribution -- not just the sale moment"},
+    {"step": 2, "action": "place it in time", "explain": "need identification and product development happen before production; after-sale service happens after the sale"},
+    {"step": 3, "action": "state the social view", "explain": "people obtain what they need and want by creating offerings and freely exchanging things of value with others"}
+   ]
+  },
+  {
+   "id": "lebs.202.2.1",
+   "title": "Marketing Management Philosophies",
+   "section": "Marketing Management Philosophies",
+   "definition": "Firms have progressed through five philosophies: the production concept chases availability and affordability, the product concept chases quality, the selling concept pushes whatever is made, the marketing concept starts from customer needs, and the societal marketing concept adds the long-run welfare of society to customer satisfaction and profit.",
+   "formula": "evolution_of_philosophies = production_concept + product_concept + selling_concept + marketing_concept + societal_marketing_concept",
+   "key_idea": "Each step of the ladder widens the firm's attention -- from the factory, to the product, to the hard sell, to the customer, and finally to society.",
+   "textbook_ref": "lebs202.txt Marketing Management Philosophies (lines 479-810)",
+   "question_patterns": [
+    "explain the five marketing management philosophies",
+    "distinguish the product concept from the production concept",
+    "what does the societal marketing concept add to the marketing concept",
+    "how does the selling concept differ from the marketing concept",
+    "which philosophy focuses on availability and affordability",
+    "state the assumption behind the selling concept of marketing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "order the first three concepts", "explain": "production concept stresses cheap mass availability, product concept stresses quality and features, selling concept stresses aggressive promotion of existing stock"},
+    {"step": 2, "action": "place the marketing concept", "explain": "identifying market needs and delivering satisfaction better than competitors becomes the route to profit"},
+    {"step": 3, "action": "place the societal concept", "explain": "customer wants are met only as far as society's long-run well-being -- health, environment, fair dealing -- is not harmed"}
+   ]
+  },
+  {
+   "id": "lebs.202.3.1",
+   "title": "Marketing versus Selling",
+   "section": "Marketing Versus Selling",
+   "definition": "Selling transfers ownership of a finished product for money, starting after production and ending with the sale; marketing is the far wider canvas that starts long before the product exists, keeps the customer's need at the centre, and profits through satisfaction and repeat business.",
+   "formula": "selling_activity_transfers_ownership = marketing_scope_is_much_wider",
+   "key_idea": "Selling stares at the product and the day's turnover; marketing stares at the customer and the whole relationship.",
+   "textbook_ref": "lebs202.txt Marketing versus Selling (lines 528-560)",
+   "question_patterns": [
+    "distinguish between marketing and selling",
+    "how does the scope of marketing exceed that of selling",
+    "where does selling start and end compared with marketing",
+    "which view is customer oriented and which product oriented",
+    "compare the profit emphasis of marketing and selling",
+    "is selling a part of marketing or the other way round"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the focus", "explain": "selling concentrates on the product and converting it into cash; marketing concentrates on customer needs and total satisfaction"},
+    {"step": 2, "action": "compare the timeline", "explain": "selling begins after production; marketing begins before production with need identification and continues after the sale"},
+    {"step": 3, "action": "compare the profit route", "explain": "selling aims at profit through sales volume; marketing aims at profit through customer satisfaction that brings repeat sales"}
+   ]
+  },
+  {
+   "id": "lebs.202.4.1",
+   "title": "Functions of Marketing",
+   "section": "Functions Of Marketing",
+   "definition": "Marketing performs a chain of jobs: collecting and analysing market information, planning, designing and developing the product, standardising and grading, packaging and labelling, branding, fixing prices, promoting, distributing physically, transporting, warehousing and serving customers after the sale.",
+   "formula": "functions_of_marketing = market_information + product_design + standardisation_and_grading + packaging_and_labelling + branding + pricing + promotion + physical_distribution + customer_support",
+   "key_idea": "Every function either shapes the offer, informs the buyer, or moves and protects the goods on the way to the customer.",
+   "textbook_ref": "lebs202.txt Functions Of Marketing (lines 811-1089)",
+   "question_patterns": [
+    "list the important functions of marketing",
+    "explain standardisation and grading as marketing functions",
+    "what marketing work happens before production begins",
+    "how does transportation and warehousing serve marketing",
+    "describe the role of customer support services in marketing",
+    "name the function behind fixing a market share target and action programme"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "group the gathering and shaping jobs", "explain": "market information, marketing planning and product designing and development decide what will be offered"},
+    {"step": 2, "action": "group the value-adding jobs", "explain": "standardisation and grading, packaging and labelling, and branding give the product identity and assurance"},
+    {"step": 3, "action": "group the reaching jobs", "explain": "pricing, promotion, transportation, warehousing, physical distribution and customer support carry the offer to buyers and keep them satisfied"}
+   ]
+  },
+  {
+   "id": "lebs.202.5.1",
+   "title": "Marketing Mix and its Elements",
+   "section": "Marketing Mix",
+   "definition": "The marketing mix is the set of controllable tools a firm blends to answer its market: product (what is offered), price (what is charged), place (how it reaches buyers) and promotion (how buyers are told and persuaded), with each element carrying its own sub-decisions.",
+   "formula": "marketing_mix = product + price + place + promotion",
+   "key_idea": "The mix must hang together -- a premium product with poor distribution or no promotion fails -- so the elements are chosen as one package.",
+   "textbook_ref": "lebs202.txt Marketing Mix (lines 1090-1224)",
+   "question_patterns": [
+    "what is the marketing mix and name its elements",
+    "explain the four P's of marketing with examples",
+    "why must the elements of the mix be coordinated",
+    "what decisions fall under the price element of the mix",
+    "how does the place element deliver the product to buyers",
+    "describe the promotion element of the marketing mix"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the offer", "explain": "product covers brand, package, label and the bundle of utilities the buyer receives"},
+    {"step": 2, "action": "fix the money and the route", "explain": "price covers list price, margins and discounts; place covers channels, transport and inventory"},
+    {"step": 3, "action": "fix the message", "explain": "promotion blends advertising, personal selling, sales promotion and publicity, and all four Ps are adjusted together for the target market"}
+   ]
+  },
+  {
+   "id": "lebs.202.6.1",
+   "title": "Classification of Products",
+   "section": "Classification of Products",
+   "definition": "Products split into consumer products bought for personal use and industrial products used as inputs; consumer goods are further sorted by shopping effort into convenience, shopping and speciality products, and by durability into non-durable, durable and services.",
+   "formula": "product_classes = consumer_products + industrial_products",
+   "key_idea": "The buyer's effort and the product's life decide the class, and the class decides the marketing treatment.",
+   "textbook_ref": "lebs202.txt Classification of Products (lines 1264-1454)",
+   "question_patterns": [
+    "how are products classified on the basis of durability",
+    "distinguish convenience products from shopping products",
+    "what makes a product a speciality product",
+    "how do industrial products differ from consumer products",
+    "classify goods into consumer and industrial categories",
+    "give instances of non-durable goods and services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "split by use", "explain": "bought for final consumption means consumer product; bought as input for other products means industrial product"},
+    {"step": 2, "action": "split by shopping effort", "explain": "convenience goods need almost no effort, shopping goods are compared on quality and price, speciality goods are hunted for specifically"},
+    {"step": 3, "action": "split by durability", "explain": "non-durables are consumed quickly, durables last many uses, and services are intangible performances"}
+   ]
+  },
+  {
+   "id": "lebs.202.7.1",
+   "title": "Branding and Brand Name",
+   "section": "Branding",
+   "definition": "Branding gives a product an identity that separates it from identical rival offerings: the brand is the overall identification, the brand name is the speakable part, the brand mark is the design, and a registered brand becomes a trademark; a good name is short, distinctive, adaptable and lasting.",
+   "formula": "brand_equity = brand_name + brand_mark + trademark_protection",
+   "key_idea": "A brand turns a commodity into a promise, letting the firm charge differently and win repeat buyers.",
+   "textbook_ref": "lebs202.txt Branding, Characteristics of Good Brand Name (lines 1454-1589)",
+   "question_patterns": [
+    "what is branding and why do firms brand their products",
+    "distinguish brand, brand name, brand mark and trademark",
+    "state the qualities of a good brand name",
+    "how does branding help in product differentiation",
+    "what advantages does branding give to marketers",
+    "how does branding support differential pricing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define the identity parts", "explain": "brand names the product in words, the brand mark is the symbol or design, and legal registration makes it a trademark"},
+    {"step": 2, "action": "list the pay-offs", "explain": "branding enables product differentiation, differential pricing, easier promotion and customer loyalty"},
+    {"step": 3, "action": "check the name quality", "explain": "a good name is short, easy to pronounce and remember, distinctive, adaptable to packaging and labelling, and capable of legal protection"}
+   ]
+  },
+  {
+   "id": "lebs.202.8.1",
+   "title": "Packaging and Labelling",
+   "section": "Packaging",
+   "definition": "Packaging wraps the product at three levels -- primary wrapper, secondary carton and transport packaging -- protecting it, promoting it and easing use, while the label on the package identifies, describes, grades, promotes and legally warns through printed information.",
+   "formula": "package_functions = protection + promotion + identification + information",
+   "key_idea": "The package is the silent salesman on the shelf, and the label is the voice printed on it.",
+   "textbook_ref": "lebs202.txt Packaging, Levels of Packaging, Labelling (lines 1590-1851)",
+   "question_patterns": [
+    "explain the levels of packaging with instances",
+    "state the functions packaging performs for a product",
+    "what information does a label carry for the buyer",
+    "how does packaging act as a promotional tool",
+    "distinguish the primary and secondary package of a product",
+    "list the functions of labelling in marketing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the packaging levels", "explain": "primary packaging holds the product itself, secondary protects it in handling, transportation packaging ships it in bulk"},
+    {"step": 2, "action": "read the package's jobs", "explain": "protection, easy identification, self-promotion through colour and design, convenience in use and compliance with law"},
+    {"step": 3, "action": "read the label's jobs", "explain": "identify the product, describe contents and use, grade the quality, promote through appeal and warn where hazardous"}
+   ]
+  },
+  {
+   "id": "lebs.202.9.1",
+   "title": "Factors Determining Price",
+   "section": "Pricing",
+   "definition": "The price a firm settles on is pulled by several forces: the cost of the product setting the floor, the utility and demand of the buyer setting the ceiling, the extent of competition, government regulation of prices, the firm's own pricing objectives and the marketing methods in use.",
+   "formula": "price_band = buyer_utility_ceiling_minus_cost_floor",
+   "key_idea": "Cost says do not go below, demand says do not go above, and competition, law and objectives squeeze the band further.",
+   "textbook_ref": "lebs202.txt Factors affecting Price Determination (lines 1889-2078)",
+   "question_patterns": [
+    "what factors affect the determination of price of a product",
+    "how does cost set the floor and demand the ceiling of price",
+    "why does the extent of competition influence pricing",
+    "how can government regulation fix or cap prices",
+    "how do pricing objectives like market share leadership shape price",
+    "explain the role of utility and demand in fixing price"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the cost floor", "explain": "total cost -- fixed plus variable -- is the lowest level at which the product can profitably be offered"},
+    {"step": 2, "action": "read the demand ceiling", "explain": "the utility to the buyer and the price of rival goods cap what the market will bear"},
+    {"step": 3, "action": "weigh the outside squeezes", "explain": "competition, government controls, the firm's objectives -- profit, share, survival -- and chosen marketing methods pin the final figure inside the band"}
+   ]
+  },
+  {
+   "id": "lebs.202.10.1",
+   "title": "Physical Distribution and its Components",
+   "section": "Physical Distribution",
+   "definition": "Physical distribution carries the product physically from the factory to the customer through four linked decisions: order processing, transportation, warehousing and inventory control, all aimed at the right goods arriving at the right place and time at least cost.",
+   "formula": "physical_distribution = order_processing + transportation + warehousing + inventory_control",
+   "key_idea": "Distribution decisions trade service level against cost -- more warehouses and faster transport please customers but eat margins.",
+   "textbook_ref": "lebs202.txt Physical Distribution, Components (lines 2079-2227)",
+   "question_patterns": [
+    "what are the components of physical distribution",
+    "explain the role of transportation in physical distribution",
+    "why do firms hold inventories and warehouses",
+    "how does order processing start the distribution chain",
+    "what trade-off does the choice of number of channels involve",
+    "describe inventory control as a distribution decision"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace an order's path", "explain": "order processing receives, bills and routes the order, setting the whole chain in motion"},
+    {"step": 2, "action": "move and store the goods", "explain": "transportation decides the mode that balances speed and cost; warehousing stores goods near demand to bridge the time gap"},
+    {"step": 3, "action": "balance the stock", "explain": "inventory control decides how much to hold so that service stays high while carrying cost stays low"}
+   ]
+  },
+  {
+   "id": "lebs.202.11.1",
+   "title": "Promotion Mix and its Tools",
+   "section": "Promotion",
+   "definition": "The promotion mix is the blend of four communication tools -- advertising, personal selling, sales promotion and publicity or public relations -- chosen together so that buyers learn about, trust and buy the product.",
+   "formula": "promotion_mix = advertising + personal_selling + sales_promotion + publicity",
+   "key_idea": "Mass tools build reach and image; face-to-face tools build conviction; the right blend depends on the product and the market.",
+   "textbook_ref": "lebs202.txt Promotion, Promotion Mix (lines 2228-2281)",
+   "question_patterns": [
+    "name the elements of the promotion mix",
+    "explain promotion as an element of the marketing mix",
+    "how do the four promotion tools differ from each other",
+    "which promotion tool reaches the largest audience",
+    "when would a firm rely on personal selling over advertising",
+    "what role does publicity play in the promotion mix"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "split mass from personal tools", "explain": "advertising and publicity speak to many at once without a salesman; personal selling speaks to one buyer at a time"},
+    {"step": 2, "action": "add the short-term push", "explain": "sales promotion supplies temporary incentives -- discounts, premiums, contests -- to speed up the buying decision"},
+    {"step": 3, "action": "blend for the situation", "explain": "the mix depends on the product's complexity, the buyers' kind and the funds available"}
+   ]
+  },
+  {
+   "id": "lebs.202.12.1",
+   "title": "Advertising and Personal Selling",
+   "section": "Advertising",
+   "definition": "Advertising is a paid, impersonal message from an identified sponsor reaching a mass audience at low cost per contact, while personal selling is an oral, face-to-face presentation that is flexible, gives instant feedback and closes the sale -- the two differ on reach, cost, feedback and flexibility.",
+   "formula": "advertising_reach_is_mass_and_impersonal = personal_selling_reach_is_direct_and_flexible",
+   "key_idea": "Advertising whispers to millions and cannot answer back; the salesperson speaks to one and can.",
+   "textbook_ref": "lebs202.txt Advertising, Personal Selling, Difference (lines 2282-2509, 3020-3079)",
+   "question_patterns": [
+    "define advertising and state its features",
+    "what merits and objections surround advertising",
+    "distinguish between advertising and personal selling",
+    "why is advertising called an impersonal form of communication",
+    "what makes personal selling flexible as a promotion tool",
+    "is expenditure on advertising a social waste, discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the advertising features", "explain": "paid form, identified sponsor, impersonal and mass reach, unified message, low cost per contact"},
+    {"step": 2, "action": "check the personal selling features", "explain": "oral presentation, direct contact, flexible message, immediate feedback, high cost per contact"},
+    {"step": 3, "action": "weigh the criticisms", "explain": "objections such as higher prices, undermining values and confusing buyers are answered by the information and scale economies advertising provides"}
+   ]
+  },
+  {
+   "id": "lebs.202.13.1",
+   "title": "Sales Promotion Techniques",
+   "section": "Sales Promotion",
+   "definition": "Sales promotion is the short-term incentive layer of promotion -- rebates, discounts, refunds, product combinations, quantity gifts, lucky draws, contests, sampling and zero-percent finance -- used to push buyers to act now and to back up advertising and selling.",
+   "formula": "sales_promotion_effect = short_term_incentive_plus_immediate_purchase",
+   "key_idea": "Where advertising persuades slowly, a time-limited offer makes the customer buy on the spot.",
+   "textbook_ref": "lebs202.txt Sales Promotion, Commonly used activities (lines 2696-2836)",
+   "question_patterns": [
+    "what is sales promotion and why is it undertaken",
+    "list the commonly used sales promotion techniques",
+    "how does a rebate differ from a discount as a promotion tool",
+    "which sales promotion tool suits the launch of a new product",
+    "state the merits and limitations of sales promotion",
+    "give instances of quantity gift and lucky draw offers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the price-cutting tools", "explain": "rebates clear excess stock, discounts cut the list price, refunds return part of the price on proof of purchase"},
+    {"step": 2, "action": "spot the gift and chance tools", "explain": "product combinations and quantity gifts add value; instant draws, lucky draws and contests add the excitement of winning"},
+    {"step": 3, "action": "spot the trial and finance tools", "explain": "sampling lets buyers try free; usable benefits and zero-percent finance ease the purchase of durables"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs202.txt Functions Of Marketing (planning illustration)",
+   "concept": "lebs.202.4.1",
+   "question_type": "conceptual",
+   "question_pattern": "A colour TV marketer with a fifth of the market wants half the market in three years and lays down an action programme. Which marketing function is at work?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "read the clue", "explain": "an objective for market share backed by an action programme points to planning"},
+    {"step": 2, "action": "match the function", "explain": "marketing planning is the function that sets objectives, strategies and programmes in writing"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs202.txt Classification of Products",
+   "concept": "lebs.202.6.1",
+   "question_type": "conceptual",
+   "question_pattern": "Classify salt, a television set and a tailor's stitching into the durability classes of products.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "apply the durability test", "explain": "salt is used up quickly, the television serves for years, stitching is an intangible performance"},
+    {"step": 2, "action": "name the classes", "explain": "salt is a non-durable good, the television a durable good, stitching a service"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "lebs202.txt Questions, Very Short Answer Q1-Q6",
+   "questions": [
+    "state two advantages of branding to marketers",
+    "how does branding help in differential pricing",
+    "what is the societal concept of marketing",
+    "list the advantages of packaging for consumer products",
+    "name five shopping products bought by a typical family"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "lebs202.txt Questions, Short Answer Q1-Q12",
+   "questions": [
+    "explain the functions marketing performs in the exchange of goods",
+    "distinguish the product concept from the production concept",
+    "explain the product as a bundle of utilities",
+    "how do industrial products differ from consumer products",
+    "distinguish a convenience product from a shopping product",
+    "describe the functions of labelling",
+    "define advertising and explain its main features",
+    "discuss the role of sales promotion in the promotion mix"
+   ]
+  },
+  {
+   "id": "ex-practice-3",
+   "source_ref": "lebs202.txt Questions, Long Answer Q1-Q8",
+   "questions": [
+    "explain the marketing concept and its role in effective marketing",
+    "describe the elements of the marketing mix",
+    "how does branding create product differentiation",
+    "explain the factors affecting the determination of price",
+    "explain the major activities of physical distribution",
+    "is advertising a social waste, examine both views",
+    "distinguish advertising from personal selling"
+   ]
+  }
+ ]
+}

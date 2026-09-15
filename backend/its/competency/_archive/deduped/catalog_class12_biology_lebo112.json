@@ -1,0 +1,255 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 12,
+ "chapter_title": "Ecosystem",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo.112.1.1",
+   "title": "Ecosystem: Structure and Function",
+   "section": "12.1",
+   "definition": "An ecosystem is a functional unit of nature where living organisms interact among themselves and with the surrounding physical environment.",
+   "formula": "",
+   "key_idea": "Biotic community plus the physical environment interacting as a system; varies from a pond to the entire biosphere.",
+   "textbook_ref": "lebo112.txt section 12.1",
+   "question_patterns": [
+    "define ecosystem and describe its structure",
+    "what are the components of an ecosystem",
+    "distinguish between terrestrial and aquatic ecosystems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify biotic components",
+     "explain": "producers, consumers, decomposers"
+    },
+    {
+     "step": 2,
+     "action": "identify abiotic components",
+     "explain": "climatic, edaphic, inorganic, organic"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.2.1",
+   "title": "Productivity in Ecosystems",
+   "section": "12.2",
+   "definition": "Productivity is the rate of biomass production per unit area over a time period, expressed as g/m²/yr or kcal/m²/yr.",
+   "formula": "GPP = gross primary productivity; NPP = GPP - R",
+   "key_idea": "Primary productivity depends on plant species, environmental factors, and photosynthetic capacity. NPP is available to consumers.",
+   "textbook_ref": "lebo112.txt section 12.2",
+   "question_patterns": [
+    "define gross primary productivity and net primary productivity",
+    "if GPP is 20000 kJ/m2/yr and respiration losses are 5000 kJ/m2/yr, find NPP",
+    "what factors affect primary productivity in an ecosystem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute NPP from GPP and respiration",
+     "explain": "NPP = GPP - R where R is respiration loss",
+     "compute": "npp = gpp - respiration"
+    },
+    {
+     "step": 2,
+     "action": "state NPP",
+     "explain": "net primary productivity is the stored biomass",
+     "compute": "answer = npp"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.2.2",
+   "title": "Net Primary Productivity Calculation",
+   "section": "12.2",
+   "definition": "Net primary productivity equals gross primary productivity minus respiration losses (R).",
+   "formula": "npp = gpp - r",
+   "key_idea": "Only the net amount is available for consumption by heterotrophs.",
+   "textbook_ref": "lebo112.txt section 12.2",
+   "question_patterns": [
+    "if the gross primary productivity is 20000 and respiration losses are 5000, calculate NPP",
+    "a pond ecosystem has GPP of 15000 kcal/m2/yr and respiration of 5000, find NPP",
+    "calculate net primary productivity given GPP and R"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify GPP and R values",
+     "explain": "from the question",
+     "compute": "npp = gpp - r"
+    },
+    {
+     "step": 2,
+     "action": "state the answer",
+     "explain": "NPP is the energy stored as biomass",
+     "compute": "answer = npp"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.3.1",
+   "title": "Decomposition Process",
+   "section": "12.3",
+   "definition": "Decomposition is the breakdown of complex organic matter into inorganic substances like CO2, water and nutrients by decomposers.",
+   "formula": "",
+   "key_idea": "Steps: fragmentation, leaching, catabolism, humification, mineralisation. Warm and moist environment favours decomposition.",
+   "textbook_ref": "lebo112.txt section 12.3",
+   "question_patterns": [
+    "describe the process of decomposition in an ecosystem",
+    "what are the steps of decomposition",
+    "how do temperature and moisture affect decomposition rate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fragmentation by detritivores",
+     "explain": "earthworms break down detritus into smaller particles"
+    },
+    {
+     "step": 2,
+     "action": "leaching",
+     "explain": "water-soluble inorganic nutrients percolate into soil"
+    },
+    {
+     "step": 3,
+     "action": "catabolism by bacteria and fungi",
+     "explain": "enzymes degrade detritus into simpler compounds"
+    },
+    {
+     "step": 4,
+     "action": "humification and mineralisation",
+     "explain": "humus accumulates; microbes release inorganic nutrients"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.4.1",
+   "title": "Energy Flow and 10 Percent Law",
+   "section": "12.4",
+   "definition": "Energy flow in an ecosystem is unidirectional. At each trophic level, only 10 percent of energy is transferred to the next level; the rest is lost as heat.",
+   "formula": "energy_at_next_trophic_level = 0.10 * energy_at_current_trophic_level",
+   "key_idea": "Lindeman's 10 percent law governs energy transfer; energy decreases at successive trophic levels.",
+   "textbook_ref": "lebo112.txt section 12.4",
+   "question_patterns": [
+    "state Lindeman's ten percent law",
+    "if plants have 20000 kJ of energy, how much energy will reach the tertiary consumers",
+    "calculate the energy transferred to the second trophic level given the first trophic level energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply 10 percent law",
+     "explain": "only 10% of energy passes to the next trophic level",
+     "compute": "t1_energy = 0.10 * producer_energy"
+    },
+    {
+     "step": 2,
+     "action": "apply for second transfer",
+     "explain": "repeat for the next level",
+     "compute": "t2_energy = 0.10 * t1_energy"
+    },
+    {
+     "step": 3,
+     "action": "state answer",
+     "explain": "energy decreases at each level",
+     "compute": "answer = t2_energy"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.4.2",
+   "title": "Energy Transfer Calculation",
+   "section": "12.4",
+   "definition": "Energy transferred to successive trophic levels is calculated by applying the 10 percent rule at each step.",
+   "formula": "e_next = 0.10 * e_current",
+   "key_idea": "Each step loses 90 percent of energy as heat; only 10 percent is transferred.",
+   "textbook_ref": "lebo112.txt section 12.4",
+   "question_patterns": [
+    "plants capture 100000 kJ energy; calculate the energy available to tertiary consumers",
+    "if producers have 50000 joules of energy, how much reaches the secondary consumers",
+    "if the energy at the producer level is E, calculate the energy at the third trophic level"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply 10 percent law at each trophic step",
+     "explain": "energy_available = start_energy * (0.10)^(trophic_level - 1)",
+     "compute": "final_energy = start_energy * 0.10 * 0.10"
+    },
+    {
+     "step": 2,
+     "action": "state the result",
+     "explain": "the answer",
+     "compute": "answer = final_energy"
+    }
+   ]
+  },
+  {
+   "id": "lebo.112.5.1",
+   "title": "Ecological Pyramids",
+   "section": "12.5",
+   "definition": "An ecological pyramid is a graphical representation of an ecological parameter (number, biomass or energy) at successive trophic levels.",
+   "formula": "",
+   "key_idea": "Pyramid of energy is always upright; pyramid of number and biomass may be inverted in some ecosystems.",
+   "textbook_ref": "lebo112.txt section 12.5",
+   "question_patterns": [
+    "what are ecological pyramids",
+    "which pyramid is always upright and why",
+    "give an example of an inverted pyramid of numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify pyramid types",
+     "explain": "pyramid of number, pyramid of biomass, pyramid of energy"
+    },
+    {
+     "step": 2,
+     "action": "state which is always upright",
+     "explain": "pyramid of energy is always upright because energy is lost at each transfer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "concept": "lebo.112.2.2",
+   "question": "GPP of a forest is 20000 kJ/m2/yr, respiration loss is 5000 kJ/m2/yr. Find NPP.",
+   "extracted_variables": {
+    "gpp": 20000,
+    "respiration": 5000
+   },
+   "answer": 15000
+  },
+  {
+   "id": "we2",
+   "concept": "lebo.112.4.2",
+   "question": "Plants capture 100000 kJ. How much energy reaches the tertiary consumers?",
+   "extracted_variables": {
+    "start_energy": 100000
+   },
+   "answer": 1000
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo112.txt exercises",
+   "questions": [
+    "Define ecosystem and its components",
+    "Explain the 10 percent law of energy flow",
+    "What are ecological pyramids"
+   ]
+  }
+ ]
+}

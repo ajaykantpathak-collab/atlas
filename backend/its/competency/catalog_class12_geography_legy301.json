@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 30,
+ "chapter_title": "Data: Sources and Compilation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy301.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.301.1",
+   "title": "Sources of Data: Primary and Secondary",
+   "section": "Sources of Data",
+   "definition": "Data for geographic study come from primary sources collected in the field by the researcher through surveys, interviews and observation, and secondary sources already compiled by others such as the Census of India, National Sample Survey and government registers.",
+   "formula": "",
+   "key_idea": "Primary data fit the exact question asked but cost time; secondary data are cheap and comparable but may not match the study's needs.",
+   "textbook_ref": "legy301.txt primary and secondary data sources and census-NSS references",
+   "question_patterns": [
+    "distinguish primary and secondary sources of data",
+    "name the major secondary sources for Indian geography",
+    "what methods collect primary data in the field",
+    "why is the census a key secondary source",
+    "evaluate the reliability of secondary data",
+    "give examples of government registers as data sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the sources",
+     "explain": "field-collected data are primary; census and survey records are secondary"
+    },
+    {
+     "step": 2,
+     "action": "weigh the trade-off",
+     "explain": "primary data cost effort but fit the purpose exactly"
+    },
+    {
+     "step": 3,
+     "action": "close with comparability",
+     "explain": "secondary series like census decades allow long-run comparison"
+    }
+   ]
+  },
+  {
+   "id": "legy.301.2",
+   "title": "Compilation and Tabulation of Data",
+   "section": "Compilation of Data",
+   "definition": "Compilation arranges collected figures into tables with title, columns of head notes, stub and caption, source note; data are first classified into categories and then entered systematically so that analysis becomes possible.",
+   "formula": "percentage_share = part_value * 100 / total_value",
+   "key_idea": "The percentage share of any item in a table equals the part value times one hundred divided by the total value.",
+   "textbook_ref": "legy301.txt compilation, tabulation parts and percentage calculation",
+   "question_patterns": [
+    "list the parts of a statistical table",
+    "compute the percentage share of a table item",
+    "how is data classified before tabulation",
+    "what goes into the caption and stub of a table",
+    "why must a table carry a source note",
+    "differentiate qualitative and quantitative classification"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the ratio",
+     "explain": "share equals part over total",
+     "compute": "share_ratio = part_value / total_value"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "multiply the ratio by one hundred",
+     "compute": "percentage_share = part_value * 100 / total_value"
+    }
+   ]
+  },
+  {
+   "id": "legy.301.3",
+   "title": "Census and National Sample Survey as Sources",
+   "section": "Sources of Data",
+   "definition": "The Census of India gives a complete decennial count of population, houses and economic activity, while the National Sample Survey Organisation collectives representative household data on consumption, employment and land holding through periodic rounds; both anchor secondary geographic analysis.",
+   "formula": "",
+   "key_idea": "Census gives completeness, NSS gives depth - together they cover most socio-economic questions a geographer asks.",
+   "textbook_ref": "legy301.txt census rounds and National Sample Survey description",
+   "question_patterns": [
+    "what does the Census of India record and how often",
+    "what does the National Sample Survey collect",
+    "compare complete enumeration with sample surveys",
+    "why are census decades useful for trend study",
+    "state limitations of census data for detailed analysis",
+    "which agency runs the National Sample Survey"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the two series",
+     "explain": "census enumerates all households; NSS samples representative ones"
+    },
+    {
+     "step": 2,
+     "action": "match use to source",
+     "explain": "density and literacy come from census; consumption patterns from NSS rounds"
+    },
+    {
+     "step": 3,
+     "action": "close with periodicity",
+     "explain": "ten-year census and survey rounds frame India's data timeline"
+    }
+   ]
+  },
+  {
+   "id": "legy.301.4",
+   "title": "Presentation Modes of Data",
+   "section": "Modes of Presentation",
+   "definition": "Compiled data may be presented as tables, graphs, diagrams and maps; the choice depends on the nature of data and purpose - tables give exactness, graphs show trends, maps show spatial distribution.",
+   "formula": "",
+   "key_idea": "Choosing the right presentation mode turns numbers into arguments a reader can see.",
+   "textbook_ref": "legy301.txt presentation of data modes discussion",
+   "question_patterns": [
+    "list the modes of presenting data",
+    "when is a table preferable to a graph",
+    "why are maps chosen for spatial data",
+    "match data type with presentation mode",
+    "what makes a graph communicative",
+    "give an example of map presentation of census data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the modes",
+     "explain": "tables, graphs, diagrams and maps are the presentation choices"
+    },
+    {
+     "step": 2,
+     "action": "match purpose",
+     "explain": "trend questions need graphs, location questions need maps"
+    },
+    {
+     "step": 3,
+     "action": "close with clarity",
+     "explain": "the mode must serve the message, not decorate it"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy301_1",
+   "source_ref": "legy301.txt percentage compilation passage",
+   "concept": "legy.301.2",
+   "question_type": "compute",
+   "question_pattern": "A district records 4,80,000 literates out of a population of 12,00,000. Compute the percentage share of literates.",
+   "extracted_variables": {
+    "part_value": 480000,
+    "total_value": 1200000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the ratio",
+     "explain": "share = part / total",
+     "compute": "share_ratio = part_value / total_value"
+    },
+    {
+     "step": 2,
+     "action": "convert to per cent",
+     "explain": "multiply by one hundred",
+     "compute": "percentage_share = part_value * 100 / total_value"
+    }
+   ]
+  },
+  {
+   "id": "we_legy301_2",
+   "source_ref": "legy301.txt sources sections",
+   "concept": "legy.301.1",
+   "question_type": "short_answer",
+   "question_pattern": "Classify these into primary and secondary sources: field questionnaire, Census of India, village interview, NSS report.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "primary group",
+     "explain": "field questionnaire and village interviews are collected by the researcher"
+    },
+    {
+     "step": 2,
+     "action": "secondary group",
+     "explain": "Census and NSS reports are compiled by agencies"
+    },
+    {
+     "step": 3,
+     "action": "contrast",
+     "explain": "the first two fit the exact question, the second two give comparability"
+    }
+   ]
+  },
+  {
+   "id": "we_legy301_3",
+   "source_ref": "legy301.txt presentation modes",
+   "concept": "legy.301.4",
+   "question_type": "short_answer",
+   "question_pattern": "Choose a presentation mode for three data types: temperature trend, land-use shares, soil texture regions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trend data",
+     "explain": "a line graph shows the temperature trend over years"
+    },
+    {
+     "step": 2,
+     "action": "share data",
+     "explain": "a pie diagram displays land-use shares"
+    },
+    {
+     "step": 3,
+     "action": "spatial data",
+     "explain": "a choropleth map shows soil texture regions"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy301_1",
+   "source_ref": "legy301.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "distinguish primary and secondary data with examples",
+    "compute the percentage share of an item in a data table",
+    "describe the parts of a statistical table",
+    "explain the role of census and NSS in geographic study",
+    "match presentation modes with data types"
+   ]
+  },
+  {
+   "id": "ex_legy301_2",
+   "source_ref": "ex legy301 applied questions, reworded",
+   "questions": [
+    "plan a field survey for village land use",
+    "evaluate census limitations for small area study",
+    "convert a raw table into a percentage table",
+    "criticise a table missing its source note",
+    "relate data classification to analysis quality"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_002",
+   "title": "c10_math_cbse_12_002",
+   "questions": [
+    {
+     "q": "Write the formula for the total surface area of a solid consisting of a cylinder of radius r and height h with two hemispheres of the same radius attached at its ends. State what each term represents.",
+     "a": "Total Surface Area = 2πrh + 4πr² = 2πr(h + 2r). The term 2πrh is the curved surface area of the cylinder. The term 4πr² is the combined curved surface area of two hemispheres (each has curved surface area 2πr²). A wrong answer like 2πrh + 2πr² (missing one hemisphere) or 2πrh + 2πr² + 2πr² (adding base areas) reveals the student does not understand which surfaces are exposed and which are internal.",
+     "self_check": true
+    },
+    {
+     "q": "A capsule is made of a cylinder of radius 3.5 mm and height 10 mm with two hemispheres at its ends. A student calculates the total surface area as 2 × (22/7) × 3.5 × (10 + 3.5) = 297 mm². Is this correct? Explain why or why not.",
+     "a": "The student's answer is incorrect. They used (h + r) instead of (h + 2r). The correct formula is 2πr(h + 2r) = 2 × (22/7) × 3.5 × (10 + 7) = 2 × 22 × 0.5 × 17 = 374 mm². The error shows the student thinks the total height of the solid is h + r (cylinder height plus one radius) instead of h + 2r (cylinder height plus two radii for the two hemispheres). This is a common confusion between total height of the solid and the cylindrical height.",
+     "self_check": true
+    },
+    {
+     "q": "A solid is formed by a cylinder of radius 7 cm and height 20 cm with two hemispheres of the same radius at its ends. Find the total surface area of the solid. (Use π = 22/7)",
+     "a": "Step 1: Identify given: r = 7 cm, h = 20 cm.\nStep 2: Formula: TSA = 2πr(h + 2r)\nStep 3: Substitute: TSA = 2 × (22/7) × 7 × (20 + 2×7)\nStep 4: Simplify: = 2 × 22 × (20 + 14) = 44 × 34 = 1496 cm²\nStep 5: Answer: 1496 cm².\nA wrong answer of 2πr(h + r) = 2×22×(20+7)=1188 cm² reveals the same error as Diagnostic 2. An answer of 2πrh + 2πr² = 2×22×20 + 2×22×7 = 880 + 308 = 1188 cm² reveals the student forgot one hemisphere.",
+     "self_check": true
+    },
+    {
+     "q": "Two solids have the same total height of 30 cm and same radius 5 cm. Solid A is a cylinder with two hemispheres at ends. Solid B is a cylinder with one hemisphere at one end and a flat circular face at the other. Compare their total surface areas without calculating exact values. Which is larger and why?",
+     "a": "Solid A has larger surface area. Solid A: TSA = 2πrh_A + 4πr². Solid B: TSA = 2πrh_B + 2πr² + πr² (flat base) = 2πrh_B + 3πr². Total height for A: h_A + 2r = 30 → h_A = 20 cm. Total height for B: h_B + r = 30 → h_B = 25 cm. Substitute: A = 2π(5)(20) + 4π(25) = 200π + 100π = 300π. B = 2π(5)(25) + 3π(25) = 250π + 75π = 325π. Wait, B is larger! Let me re-check: Solid B has one hemisphere (curved 2πr²) + one flat base (πr²) + cylinder curved (2πrh_B). So TSA_B = 2πrh_B + 3πr². With h_B=25, r=5: 2π(5)(25) + 3π(25) = 250π + 75π = 325π. Solid A: h_A=20, TSA_A = 2π(5)(20) + 4π(25) = 200π + 100π = 300π. So Solid B has larger surface area. The student must analyze the trade-off: Solid B has a taller cylinder (more curved area) but one less hemisphere. The extra cylinder height adds 2πr(5) = 50π, while replacing a hemisphere (2πr²=50π) with a flat base (πr²=25π) loses 25π. Net gain for B is 25π. A wrong answer claiming A is larger because it has \"two hemispheres\" shows the student doesn't account for the different cylinder heights forced by the fixed total height.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the total surface area of a cylinder with hemispheres at both ends if radius = 6 cm and total height of solid = 30 cm.\" Their working: TSA = 2πr(h + 2r) = 2π(6)(30 + 12) = 2π(6)(42) = 504π cm². Identify the error and give the correct answer.",
+     "a": "The student used total height (30 cm) as h in the formula, but h is the height of the cylindrical part only. Given total height = h + 2r = 30, and r = 6, so h = 30 - 12 = 18 cm. Correct TSA = 2π(6)(18 + 12) = 2π(6)(30) = 360π cm². The error is confusing the total height of the solid with the height of the cylinder. This is the most frequent board exam error for this topic. The student must first compute h = total height - 2r before substituting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) that requires finding the total surface area of a cylinder with hemispheres at both ends, where the total height is given but the cylindrical height is not directly given. Include a cost calculation (e.g., painting or plating). Provide the problem statement only.",
+     "a": "Example problem: \"A gas cylinder (LPG) has a cylindrical part of radius 15 cm and total height (including the two hemispherical ends) of 80 cm. It needs to be painted with heat-resistant paint costing ₹12 per cm². Find the cost of painting the entire outer surface. (Use π = 3.14)\" A good answer will have: h = 80 - 2(15) = 50 cm, TSA = 2π(15)(50+30) = 2×3.14×15×80 = 7536 cm², Cost = 7536 × 12 = ₹90,432. A poor problem would give cylindrical height directly or ask only for surface area without application, showing the student cannot construct a multi-step applied problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

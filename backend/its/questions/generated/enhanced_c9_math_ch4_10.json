@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_10",
+   "title": "c9_math_ch4_10",
+   "questions": [
+    {
+     "q": "Define a rational expression and give one example.",
+     "a": "A rational expression is a fraction where both the numerator and denominator are polynomials. Example: (x² - 4)/(x + 2), where the numerator x² - 4 and denominator x + 2 are both polynomials. A wrong answer (e.g., \"a fraction with x in it\") is too vague — it must specify that both numerator and denominator are polynomials.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (x² - 16)/(x - 4). State any restriction on x.",
+     "a": "Factorise numerator: x² - 16 = (x+4)(x-4). Rewrite: (x+4)(x-4)/(x-4). Cancel (x-4): result = x + 4, for x ≠ 4. The restriction x ≠ 4 is necessary because the original expression is undefined at x = 4 (denominator = 0). A wrong answer that omits the restriction misses a critical part of the simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (2x² + 4x)/(2x). State the restriction.",
+     "a": "Factorise numerator: 2x² + 4x = 2x(x + 2). Rewrite: 2x(x+2)/2x. Cancel 2x: result = x + 2, for x ≠ 0. The restriction x ≠ 0 is necessary because the original expression is undefined at x = 0 (denominator = 0). A wrong answer (e.g., \"x + 2, no restriction\") misses that x = 0 makes the denominator zero.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (x² + 5x + 6)/(x + 2). State the restriction.",
+     "a": "Factorise numerator: x² + 5x + 6 = (x+2)(x+3). Rewrite: (x+2)(x+3)/(x+2). Cancel (x+2): result = x + 3, for x ≠ -2. The restriction x ≠ -2 is necessary because the original expression is undefined at x = -2. A wrong answer that fails to factorise the numerator (e.g., \"cannot be simplified\") misses that x² + 5x + 6 factors as (x+2)(x+3).",
+     "self_check": true
+    },
+    {
+     "q": "Why must we state restrictions when simplifying rational expressions? Explain with an example.",
+     "a": "Restrictions must be stated because the simplified form may be defined at values where the original expression is undefined. Example: (x² - 9)/(x - 3) simplifies to x + 3, but the original expression is undefined at x = 3 (denominator = 0), while the simplified form x + 3 is defined at x = 3 (gives 6). The simplified form is equivalent to the original only where the original is defined — the restriction x ≠ 3 preserves this equivalence. Omitting the restriction would incorrectly imply that the expression equals 6 at x = 3, when it is actually undefined. A wrong answer (e.g., \"restrictions are optional\") misunderstands that restrictions are essential for mathematical correctness.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (x² - 1)/(x - 1) as x - 1. Identify the error and correct it.",
+     "a": "The error is incorrect factorisation. x² - 1 = (x+1)(x-1), not (x-1)². The correct simplification: (x+1)(x-1)/(x-1) = x + 1, for x ≠ 1. The student wrote x - 1, which is wrong — they likely confused x² - 1 (difference of squares) with (x-1)² (square of difference). The correct answer is x + 1, not x - 1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

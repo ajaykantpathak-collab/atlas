@@ -1,0 +1,247 @@
+{
+ "catalog": "catalog_class10_science_ch101.json",
+ "concepts": [
+  {
+   "id": "jesc.101.1",
+   "title": "Chemical Equation Representation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a chemical equation and what do its two sides show?",
+     "a": "A chemical equation states a reaction in symbols: the starting substances (reactants) sit on the left of an arrow and the new substances (products) on the right.",
+     "self_check": true
+    },
+    {
+     "q": "Where are the reactants and products placed in a written chemical equation?",
+     "a": "Reactants are written on the left-hand side and products on the right-hand side, with an arrow between them pointing from reactants to products.",
+     "self_check": true
+    },
+    {
+     "q": "Write the word equation for burning of magnesium ribbon in air.",
+     "a": "Magnesium + Oxygen -> Magnesium oxide (on burning, magnesium combines with oxygen of air to form white magnesium oxide).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.2",
+   "title": "Balanced Chemical Equation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why must a chemical equation be balanced?",
+     "a": "Because mass is conserved in a reaction: atoms are neither created nor destroyed, so each element must have the same number of atoms on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "What is meant by a skeletal equation?",
+     "a": "A skeletal equation is an unbalanced equation that shows the formulas of reactants and products but not the equal atom counts on the two sides.",
+     "self_check": true
+    },
+    {
+     "q": "How do you check whether an equation is balanced?",
+     "a": "Count the atoms of every element on the reactant side and on the product side; the equation is balanced only when each count matches, using smallest whole-number coefficients.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.3",
+   "title": "Combination Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a combination reaction? Give one example.",
+     "a": "Two or more substances join to form a single product, e.g. calcium oxide reacts with water to form calcium hydroxide, or hydrogen and oxygen form water.",
+     "self_check": true
+    },
+    {
+     "q": "How is a combination reaction different from a decomposition reaction?",
+     "a": "In combination many reactants give one product; in decomposition one reactant splits into two or more products - the two are opposites.",
+     "self_check": true
+    },
+    {
+     "q": "Is burning of coal a combination reaction? Why?",
+     "a": "Yes; carbon of coal combines with oxygen of air to form a single product, carbon dioxide.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.4",
+   "title": "Exothermic Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an exothermic reaction?",
+     "a": "A reaction in which heat is released along with the products, making the surroundings warm.",
+     "self_check": true
+    },
+    {
+     "q": "Give two everyday examples of exothermic reactions.",
+     "a": "Burning of natural gas (cooking) and respiration in cells; both release heat energy. Quicklime slaking with water is another.",
+     "self_check": true
+    },
+    {
+     "q": "Why is decomposition of calcium carbonate in a lime kiln not exothermic?",
+     "a": "It needs continuous heat to proceed, so it is endothermic - energy is absorbed rather than released.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.5",
+   "title": "Decomposition Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens in a decomposition reaction?",
+     "a": "A single compound breaks down into two or more simpler substances on heating, on light, or by electricity.",
+     "self_check": true
+    },
+    {
+     "q": "Which type of energy can bring about decomposition? Give one example of each.",
+     "a": "Heat (ferrous sulphate gives ferric oxide, SO2 and SO3), light (silver chloride turns grey giving silver), and electricity (electrolysis of water gives hydrogen and oxygen).",
+     "self_check": true
+    },
+    {
+     "q": "What is a photolytic decomposition? Name one white salt that behaves so.",
+     "a": "Decomposition driven by light; white silver chloride turns grey in sunlight, splitting into silver and chlorine.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.6",
+   "title": "Displacement Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a displacement reaction?",
+     "a": "A more reactive element pushes out a less reactive element from its compound, e.g. iron nails dipped in copper sulphate solution take the copper's place.",
+     "self_check": true
+    },
+    {
+     "q": "Why does iron displace copper from copper sulphate solution?",
+     "a": "Iron is above copper in the reactivity series, so iron atoms lose electrons more readily and push copper out of its salt solution.",
+     "self_check": true
+    },
+    {
+     "q": "What is observed when an iron nail is kept in copper sulphate solution?",
+     "a": "The blue colour of the solution fades to greenish and a brownish deposit of copper collects on the nail.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.7",
+   "title": "Double Displacement Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a double displacement reaction?",
+     "a": "Two compounds in solution swap their ions to form two new compounds, usually when an insoluble product (precipitate) or water forms.",
+     "self_check": true
+    },
+    {
+     "q": "What is a precipitation reaction?",
+     "a": "A double displacement reaction in which an insoluble solid separates out, e.g. mixing sodium sulphate with barium chloride gives a white barium sulphate precipitate.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example where double displacement produces water.",
+     "a": "Acid-base neutralisation: sodium hydroxide and hydrochloric acid exchange ions to give sodium chloride and water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.8",
+   "title": "Precipitation Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Which reactions are called precipitation reactions and why are they useful?",
+     "a": "Double displacement reactions that form an insoluble salt; they help identify ions in solution and prepare insoluble salts.",
+     "self_check": true
+    },
+    {
+     "q": "What is the white precipitate when barium chloride meets sodium sulphate?",
+     "a": "Barium sulphate, an insoluble white solid, while sodium chloride stays dissolved.",
+     "self_check": true
+    },
+    {
+     "q": "How can you tell from the solubility that a reaction will give a precipitate?",
+     "a": "If the product salt is insoluble in water while the reactant salts are soluble, an insoluble solid separates as a precipitate.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.9",
+   "title": "Redox Reactions",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are oxidation and reduction in terms of oxygen and hydrogen?",
+     "a": "Oxidation is gain of oxygen (or loss of hydrogen); reduction is loss of oxygen (or gain of hydrogen).",
+     "self_check": true
+    },
+    {
+     "q": "What is a redox reaction?",
+     "a": "A reaction in which oxidation and reduction go on together: one substance loses oxygen/electrons while the other gains them.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction of copper oxide with hydrogen, which substance is oxidised?",
+     "a": "Hydrogen is oxidised (it gains oxygen to become water) while copper oxide is reduced to copper.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.10",
+   "title": "Corrosion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is corrosion? Give two examples.",
+     "a": "Slow eating away of a metal by air and moisture; rusting of iron and green coating on copper are common examples.",
+     "self_check": true
+    },
+    {
+     "q": "Why does silver turn black and copper turn green in air?",
+     "a": "Silver reacts with sulphur compounds of air to form black silver sulphide; copper forms a green basic carbonate with moist air.",
+     "self_check": true
+    },
+    {
+     "q": "Name two methods to prevent corrosion.",
+     "a": "Painting or oiling the metal surface to keep off air and moisture, and galvanising iron with a zinc coat.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.11",
+   "title": "Rancidity",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is rancidity?",
+     "a": "Oxidation of fats and oils in food on standing in air, which gives an unpleasant smell and taste.",
+     "self_check": true
+    },
+    {
+     "q": "How can rancidity of fried food be prevented?",
+     "a": "By flushing packets with nitrogen, keeping food in airtight containers, refrigeration, and adding antioxidants.",
+     "self_check": true
+    },
+    {
+     "q": "Why are chips packets flushed with nitrogen gas?",
+     "a": "Nitrogen is unreactive; it replaces oxygen so the oil in chips cannot oxidise and turn rancid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

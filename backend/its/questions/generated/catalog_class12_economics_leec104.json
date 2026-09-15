@@ -1,0 +1,337 @@
+{
+ "catalog": "catalog_class12_economics_leec104",
+ "concepts": [
+  {
+   "id": "leec.104.1.1",
+   "title": "Ex Ante and Ex Post Measures",
+   "questions": [
+    {
+     "q": "Using the method 'Ex Ante and Ex Post Measures', work with: actual_investment = 40, planned_investment = 50. Carry the chain through step by step and give the final value of unplanned_inventory_investment.",
+     "a": "10 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ex Ante and Ex Post Measures' and work with: actual_investment = 24, planned_investment = 300. Carry the chain through step by step and give the final value of unplanned_inventory_investment.",
+     "a": "276 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ex Ante and Ex Post Measures' refers to.",
+     "a": "Planned values of consumption, investment or output are ex ante quantities, while the values actually realised during the year are ex post; a producer intending to add 100 to stock who ends up adding 70 has ex ante investment of 100 but ex post investment of 70.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ex Ante and Ex Post Measures'.",
+     "a": "Plans (ex ante) drive behaviour, outcomes (ex post) enter the accounts, and unplanned inventory change reconciles the two.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ex Ante and Ex Post Measures', in plain ASCII form.",
+     "a": "unplanned_inventory_investment = planned_investment - actual_investment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.1.2",
+   "title": "Consumption Function",
+   "questions": [
+    {
+     "q": "Find household consumption when autonomous consumption the slope and income are given. Use the method 'Consumption Function'. Work with: autonomous_consumption = 10, income = 8000, marginal_propensity_to_consume = 18. Carry the chain through step by step and give the final value of consumption.",
+     "a": "144010 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much does consumption rise when income increases by 100 with a given slope? Use the method 'Consumption Function'. Work with: autonomous_consumption = 5, income = 500, marginal_propensity_to_consume = 15. Carry the chain through step by step and give the final value of consumption.",
+     "a": "7505 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Consumption Function' refers to.",
+     "a": "Household consumption rises linearly with income: it has a floor of autonomous consumption that persists even at zero income, plus induced consumption equal to a fixed fraction of every extra rupee earned.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumption Function'.",
+     "a": "The intercept is subsistence spending and the slope is the fraction of income consumed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consumption Function', in plain ASCII form.",
+     "a": "consumption = autonomous_consumption + marginal_propensity_to_consume * income",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.1.3",
+   "title": "Marginal Propensity to Consume and to Save",
+   "questions": [
+    {
+     "q": "Compute the marginal propensity to consume from a change in income and consumption. Use the method 'Marginal Propensity to Consume and to Save'. Work with: change_in_consumption = 15, change_in_income = 1200. Carry the chain through step by step and give the final value of marginal_propensity_to_save.",
+     "a": "0.9875 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the marginal propensity to save when the marginal propensity to consume is 0.8. Use the method 'Marginal Propensity to Consume and to Save'. Work with: change_in_consumption = 18, change_in_income = 2500. Carry the chain through step by step and give the final value of marginal_propensity_to_save.",
+     "a": "0.9928 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marginal Propensity to Consume and to Save' refers to.",
+     "a": "The marginal propensity to consume is the fraction of any extra unit of income that gets spent, lying between 0 and 1; the remainder of the extra income is saved, so the marginal propensities to consume and save always sum to one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marginal Propensity to Consume and to Save'.",
+     "a": "Of every additional rupee, one fraction is spent and the rest saved, and the two fractions exhaust the rupee.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marginal Propensity to Consume and to Save', in plain ASCII form.",
+     "a": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.1.4",
+   "title": "Average Propensity to Consume and to Save",
+   "questions": [
+    {
+     "q": "Calculate the average propensity to consume when consumption and income are given. Use the method 'Average Propensity to Consume and to Save'. Work with: consumption = 150, income = 2500. Carry the chain through step by step and give the final value of average_propensity_to_save.",
+     "a": "0.94 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the average propensity to save from savings and income. Use the method 'Average Propensity to Consume and to Save'. Work with: consumption = 5, income = 20000. Carry the chain through step by step and give the final value of average_propensity_to_save.",
+     "a": "0.9998 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Average Propensity to Consume and to Save' refers to.",
+     "a": "Average propensities look at totals rather than changes: the average propensity to consume is consumption per rupee of income and the average propensity to save is savings per rupee, and since savings equal unconsumed income the two averages also add to one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Average Propensity to Consume and to Save'.",
+     "a": "Averages split total income between consuming and saving; the split always sums to unity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Average Propensity to Consume and to Save', in plain ASCII form.",
+     "a": "average_propensity_to_consume = consumption / income",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.1.5",
+   "title": "Autonomous Investment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Autonomous Investment' refers to.",
+     "a": "In the short-run model, planned investment is treated as a given constant fixed by producers in advance - an addition to physical capital and inventories that does not vary with the current year's income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Autonomous Investment'.",
+     "a": "Investment goods add productive capacity for years, and here their planned amount is exogenous.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Autonomous Investment', in plain ASCII form.",
+     "a": "investment = autonomous_investment (constant, independent of income)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.2.1",
+   "title": "Aggregate Demand in the Two-Sector Model",
+   "questions": [
+    {
+     "q": "Using the method 'Aggregate Demand in the Two-Sector Model', work with: autonomous_consumption = 50, autonomous_investment = 8, income = 50000, marginal_propensity_to_consume = 15. Carry the chain through step by step and give the final value of aggregate_demand.",
+     "a": "750058 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Aggregate Demand in the Two-Sector Model' and work with: autonomous_consumption = 60, autonomous_investment = 25, income = 2500, marginal_propensity_to_consume = 20. Carry the chain through step by step and give the final value of aggregate_demand.",
+     "a": "50085 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregate Demand in the Two-Sector Model' refers to.",
+     "a": "Without a government or foreign sector, planned demand for final goods is consumption plus investment, which expands to the sum of all autonomous spending plus the income-sensitive consumption term.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregate Demand in the Two-Sector Model'.",
+     "a": "Aggregate demand has a constant part (autonomous) and a part that grows with income (induced).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregate Demand in the Two-Sector Model', in plain ASCII form.",
+     "a": "aggregate_demand = autonomous_consumption + autonomous_investment + marginal_propensity_to_consume * income",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.2.2",
+   "title": "Adding the Government: Taxes and Spending in Aggregate Demand",
+   "questions": [
+    {
+     "q": "Find disposable income after a lump-sum tax. Use the method 'Adding the Government: Taxes and Spending in Aggregate Demand'. Work with: autonomous_expenditure = 4, government_spending = 500, income = 12000, marginal_propensity_to_consume = 12, tax_revenue = 18. Carry the chain through step by step and give the final value of aggregate_demand.",
+     "a": "144288 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute planned demand with government expenditure and proportional consumption out of after-tax income. Use the method 'Adding the Government: Taxes and Spending in Aggregate Demand'. Work with: autonomous_expenditure = 10, government_spending = 45, income = 500, marginal_propensity_to_consume = 25, tax_revenue = 15. Carry the chain through step by step and give the final value of aggregate_demand.",
+     "a": "12180 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Adding the Government: Taxes and Spending in Aggregate Demand' refers to.",
+     "a": "With a government, taxes shave income down to disposable income and public spending adds to demand, so consumption depends on income after tax while government expenditure joins the autonomous term.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adding the Government: Taxes and Spending in Aggregate Demand'.",
+     "a": "Households spend out of income net of taxes, and G - cT behaves like extra autonomous demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adding the Government: Taxes and Spending in Aggregate Demand', in plain ASCII form.",
+     "a": "aggregate_demand = autonomous_expenditure + government_spending + marginal_propensity_to_consume * (income - tax_revenue)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.3.1",
+   "title": "Equilibrium Income: Ex Ante Demand Equals Output",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equilibrium Income: Ex Ante Demand Equals Output' refers to.",
+     "a": "Income settles where planned output equals planned aggregate demand; solving that equality gives equilibrium income as autonomous spending divided by one minus the marginal propensity to consume, equivalently by the marginal propensity to save.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equilibrium Income: Ex Ante Demand Equals Output'.",
+     "a": "At equilibrium, unplanned inventory change is zero, and income is a multiple of autonomous spending.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Equilibrium Income: Ex Ante Demand Equals Output', in plain ASCII form.",
+     "a": "equilibrium_income = autonomous_expenditure / marginal_propensity_to_save",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.3.2",
+   "title": "Investment Multiplier and the Round-by-Round Mechanism",
+   "questions": [
+    {
+     "q": "Calculate the change in equilibrium income from an increase in autonomous investment. Use the method 'Investment Multiplier and the Round-by-Round Mechanism'. Work with: change_in_autonomous_investment = 400, marginal_propensity_to_save = 10. Carry the chain through step by step and give the final value of change_in_income.",
+     "a": "40 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the investment multiplier for a given MPC. Use the method 'Investment Multiplier and the Round-by-Round Mechanism'. Work with: change_in_autonomous_investment = 12, marginal_propensity_to_save = 12. Carry the chain through step by step and give the final value of change_in_income.",
+     "a": "1 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Investment Multiplier and the Round-by-Round Mechanism' refers to.",
+     "a": "An extra rupee of autonomous spending becomes someone's income, part of which is re-spent, feeding further rounds; the total income rise is a multiple - one over the saving fraction - of the initial outlay, so a 10-unit rise with MPC 0.8 lifts income by 50.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Investment Multiplier and the Round-by-Round Mechanism'.",
+     "a": "Each round re-spends the MPC fraction of the last, and the geometric series sums to the multiplier times the first shock.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Investment Multiplier and the Round-by-Round Mechanism', in plain ASCII form.",
+     "a": "investment_multiplier = 1 / marginal_propensity_to_save",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.3.3",
+   "title": "Paradox of Thrift",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Paradox of Thrift' refers to.",
+     "a": "When everyone tries to save a larger slice of income, aggregate demand falls, output contracts through the multiplier, and the economy can end up with aggregate savings no higher - or lower - than before, because one person's saving is another person's lost income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Paradox of Thrift'.",
+     "a": "Virtue for one household, vice for the economy: universal thrift shrinks income without raising total savings.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Paradox of Thrift', in plain ASCII form.",
+     "a": "aggregate_savings = investment (unchanged in equilibrium despite higher thrift)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.4.1",
+   "title": "Full Employment, Deficient Demand and Excess Demand",
+   "questions": [
+    {
+     "q": "Using the method 'Full Employment, Deficient Demand and Excess Demand', work with: equilibrium_output = 100, full_employment_output = 18. Carry the chain through step by step and give the final value of output_gap.",
+     "a": "82 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Full Employment, Deficient Demand and Excess Demand' and work with: equilibrium_output = 300, full_employment_output = 20. Carry the chain through step by step and give the final value of output_gap.",
+     "a": "280 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Full Employment, Deficient Demand and Excess Demand' refers to.",
+     "a": "The income at which demand equals output need not be the income at which everyone has work: if equilibrium sits below the full-employment level, demand is deficient and prices tend to sag; if it sits above, demand is excessive and prices tend to climb.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Full Employment, Deficient Demand and Excess Demand'.",
+     "a": "Equilibrium only means no pressure to change; it does not guarantee full employment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Full Employment, Deficient Demand and Excess Demand', in plain ASCII form.",
+     "a": "output_gap = equilibrium_output - full_employment_output",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.104.4.2",
+   "title": "Effective Demand Principle and Parametric Shifts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effective Demand Principle and Parametric Shifts' refers to.",
+     "a": "With prices and the interest rate fixed and supply perfectly elastic, output is dictated entirely by aggregate demand - the effective demand principle; on the diagram, a change in autonomous spending slides the AD line in parallel while a change in the propensity to consume swings it by altering its slope.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effective Demand Principle and Parametric Shifts'.",
+     "a": "Demand rules supply in the short run, and parameters move the AD line differently - parallel shifts versus swings.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Effective Demand Principle and Parametric Shifts', in plain ASCII form.",
+     "a": "equilibrium_output = determined_by(aggregate_demand) at fixed price",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

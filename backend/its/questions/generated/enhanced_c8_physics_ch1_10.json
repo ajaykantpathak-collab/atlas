@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_10",
+   "title": "c8_physics_ch1_10",
+   "questions": [
+    {
+     "q": "Name any five major topics you will study in Class 8 Science this year, as listed in the NCERT textbook.",
+     "a": "Correct answer includes any five from: Microorganisms, Synthetic Fibres and Plastics, Materials: Metals and Non-metals, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Cell Structure and Functions, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound, Chemical Effects of Electric Current, Some Natural Phenomena, Light, Stars and the Solar System, Pollution of Air and Water. A wrong answer (e.g., naming Class 7 topics like \"Heat\" or \"Acids and Bases\") reveals the student has not previewed the syllabus and cannot yet map the year's learning journey.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the investigative skill of \"identifying variables\" (c8_physics_ch1_5) is especially important when you begin the chapter *Force and Pressure*.",
+     "a": "In *Force and Pressure*, you will test how force changes with area (pressure = force/area) and how friction depends on surface type and normal force. Identifying variables lets you isolate one factor (e.g., surface area) while keeping others constant (weight, surface material) so you can find the true relationship. A wrong answer that merely defines variables without linking to force/pressure shows the student sees variable identification as a rote step, not a tool for designing fair tests in a new physics context.",
+     "self_check": true
+    },
+    {
+     "q": "A student plans to investigate *which household surface produces the most friction* for a toy car. They list: (1) carpet, (2) wooden floor, (3) wet marble, (4) sandpaper. They will measure the distance the car travels after rolling down the same ramp. Identify the independent variable, dependent variable, and two controlled variables in this plan.",
+     "a": "Independent variable: type of surface (carpet, wood, wet marble, sandpaper). Dependent variable: distance travelled by the car (metres). Controlled variables: (a) ramp height/angle (same gravitational potential energy), (b) mass and wheel condition of the toy car, (c) initial release method (no push). A wrong answer that swaps independent/dependent variables or misses controlled variables (e.g., forgetting ramp height) reveals the student cannot yet apply variable identification to a concrete friction investigation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the investigative approach for *Microorganisms* (biology) and *Light* (physics) in Class 8. How does the role of observation differ between these two topics?",
+     "a": "In *Microorganisms*, observation is primarily microscopic and qualitative (shape, movement, colony growth) and often requires culturing over days; you infer processes you cannot see directly. In *Light*, observation is immediate, macroscopic, and quantitative (angles of reflection, shadow size, image position) and you can manipulate the light source in real time. A wrong answer that says \"both use eyes\" or \"both need microscopes\" shows the student has not analyzed how the nature of the phenomenon dictates the observational method.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 8 group designs an investigation for *Chemical Effects of Electric Current*: \"We will pass current through water with different amounts of salt and see which produces the most bubbles.\" They plan to use a 9 V battery, two pencils as electrodes, and count bubbles per minute. Evaluate whether this plan correctly controls variables to test the effect of salt concentration.",
+     "a": "The plan has a flaw: using pencils as electrodes introduces an uncontrolled variable—graphite from the pencil leads may react or wear unevenly, affecting bubble production independently of salt concentration. Also, bubble counting is subjective; they should measure gas volume (e.g., by displacement) or time to collect a fixed volume. A wrong answer that calls the plan \"perfect\" reveals the student cannot yet evaluate experimental design for confounding factors—a key skill from c8_physics_ch1_7.",
+     "self_check": true
+    },
+    {
+     "q": "Choose one Class 8 topic that interests you. Write a focused investigative question, a testable hypothesis, and a 3-step experimental plan that uses only materials available in a typical Indian kitchen or school lab.",
+     "a": "Example for *Friction*: Question: \"How does adding oil to a wooden surface change the distance a coin slides when flicked?\" Hypothesis: \"Oil will reduce friction, so the coin will slide farther.\" Plan: (1) Clean a wooden board; flick a ₹5 coin 5 times, measure slide distance each time. (2) Apply 5 mL cooking oil evenly; repeat 5 flicks. (3) Compare average distances. A poor answer that picks a topic but gives a non-testable question (e.g., \"Why is friction important?\") or uses unavailable equipment (e.g., \"force sensor\") shows the student cannot yet translate curiosity into a feasible investigation—a core competency of this chapter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

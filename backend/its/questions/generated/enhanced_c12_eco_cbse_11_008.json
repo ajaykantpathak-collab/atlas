@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_008",
+   "title": "c12_eco_cbse_11_008",
+   "questions": [
+    {
+     "q": "Define Balance of Trade and state its formula using standard notation (X = exports, M = imports, subscript g = goods).",
+     "a": "Balance of Trade (BoT) = X_g - M_g, where X_g = exports of goods (merchandise), M_g = imports of goods. A WRONG answer like \"BoT = X - M\" without subscripts reveals the student does not distinguish visible from invisible trade. Writing \"BoT includes services\" reveals confusion with Current Account. The correct answer must explicitly restrict to goods/merchandise.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India typically runs a merchandise trade deficit but often records a smaller current account deficit (or even surplus) — name the two specific invisible components that offset the goods deficit.",
+     "a": "India's merchandise imports (crude oil, gold, electronics) exceed merchandise exports, creating a trade deficit. However, **net services exports (led by IT/software services, ~$160 bn surplus)** and **net private transfers/remittances (~$110 bn surplus)** are large positive invisibles. Adding these to the negative BoT yields a smaller Current Account Deficit. A WRONG answer citing \"FDI inflows\" or \"portfolio investment\" confuses Current Account with Capital Account. A WRONG answer citing \"tourism\" alone underestimates the magnitude — IT services and remittances are the dominant offsets.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for Country X (in $ billion): Goods Exports = 450, Goods Imports = 620, Services Exports = 280, Services Imports = 150, Net Primary Income = -20, Net Secondary Income = 80. Calculate (a) Balance of Trade, (b) Balance of Current Account. Show steps.",
+     "a": "(a) BoT = X_g - M_g = 450 - 620 = **-170** ($ billion deficit).  \n(b) BoCA = BoT + (X_s - M_s) + Net Primary Income + Net Secondary Income  \n= (-170) + (280 - 150) + (-20) + 80  \n= -170 + 130 - 20 + 80  \n= **+20** ($ billion surplus).  \nA WRONG answer adding FDI or loan flows includes Capital Account items. A WRONG answer forgetting the negative sign on Net Primary Income (-20) yields +40, misstating the surplus. A WRONG answer using only BoT for BoCA misses the entire purpose of the distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Country Y has BoT = -$50 bn and BoCA = +$10 bn. Country Z has BoT = +$30 bn and BoCA = -$5 bn. For each country, determine the sign and approximate magnitude of Net Invisibles (services + income + transfers). What does this imply about each country's economic structure?",
+     "a": "Net Invisibles = BoCA - BoT.  \nCountry Y: Net Invisibles = (+10) - (-50) = **+60 bn**. Large positive invisibles → likely a services exporter (IT, finance) and/or large remittance recipient (like India, Philippines).  \nCountry Z: Net Invisibles = (-5) - (+30) = **-35 bn**. Large negative invisibles → likely a net payer of investment income (interest/dividends on foreign-owned capital) and/or net importer of services (tourism, shipping, royalties) — typical of some developed economies with large foreign asset holdings.  \nA WRONG answer reversing the subtraction (BoT - BoCA) gives wrong signs. A WRONG answer attributing Country Z's negative invisibles to \"trade deficit\" confuses BoT with invisibles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A country with a persistent Balance of Trade deficit must have a Balance of Payments crisis.\" Use the BoT vs BoCA distinction and the role of the Capital Account to justify your answer.",
+     "a": "The statement is **FALSE**. A BoT deficit only means merchandise imports > merchandise exports. The **Current Account** (BoCA) may be in surplus if net invisibles (services, remittances, income) are large enough (e.g., India, UK historically). Even if BoCA is in deficit, the **Capital Account** (FDI, portfolio flows, loans) can finance it without a crisis — many countries run sustained current account deficits funded by capital inflows (e.g., USA). A \"Balance of Payments crisis\" occurs only when **reserves are depleted** and the country cannot finance the **overall BoP deficit** (Current + Capital + Errors & Omissions). A WRONG answer equating BoT deficit with BoP crisis ignores the Current Account offset and Capital Account financing. A WRONG answer saying \"Capital Account always covers it\" ignores sudden stops/reversals.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical Balance of Payments Current Account table for a small open economy \"Econland\" that has: (i) a merchandise trade deficit of $40 bn, (ii) a services trade surplus of $25 bn, (iii) net primary income deficit of $10 bn, (iv) net secondary income surplus of $30 bn. Show BoT and BoCA clearly. Then write one policy recommendation for the Finance Minister based on this structure.",
+     "a": "**Econland Current Account ($ bn)**  \n| Component | Credit | Debit | Net |  \n|---|---|---|---|  \n| **Goods (Merchandise)** | 120 | 160 | **-40** |  \n| **Services** | 80 | 55 | **+25** |  \n| **Primary Income** | 15 | 25 | **-10** |  \n| **Secondary Income** | 35 | 5 | **+30** |  \n| **Balance of Trade (BoT)** | | | **-40** |  \n| **Balance of Current Account (BoCA)** | | | **+5** |  \n\n**Policy Recommendation**: \"While BoCA is in surplus (+$5 bn), the merchandise deficit (-$40 bn) is structural and financed by volatile services/remittances. Diversify merchandise exports (electronics, pharma) to reduce dependence on invisible surplus; build reserves against services/remittance volatility.\"  \nA POOR answer recommends \"devalue currency to fix BoT\" without noting BoCA is already in surplus — devaluation could raise import costs (oil) and hurt remittance value. A POOR answer ignores the composition of invisibles (remittances vs investment income) which have different stability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

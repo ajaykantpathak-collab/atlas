@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_005",
+   "title": "c11_geo_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the primary heat source Arthur Holmes identified for generating mantle convection currents?",
+     "a": "Radioactive decay of elements (uranium, thorium, potassium) in the mantle generates the thermal energy that drives convection currents. A wrong answer (e.g., \"solar heating\" or \"core cooling only\") reveals the student confuses surface processes with deep Earth heat sources and misses the radiogenic heat concept central to Holmes' model.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Holmes' theory successfully addressed the major criticism of Wegener's Continental Drift Theory.",
+     "a": "Wegener could not provide a credible driving force (his tidal and polar flight forces were physically insufficient). Holmes supplied a viable mechanism: mantle convection currents driven by radiogenic heat, capable of exerting sufficient drag on continental bases. A wrong answer indicates the student does not grasp the \"force problem\" as the core weakness of Wegener's hypothesis or how convection solves it.",
+     "self_check": true
+    },
+    {
+     "q": "A cross-section shows a rising convection limb beneath a continental mass. Predict the sequence of surface geological events at that location over millions of years.",
+     "a": "Step 1: Upwelling heats and domes the lithosphere. Step 2: Tensional stresses cause radial fracturing and rift valley formation. Step 3: Continued divergence splits the continent, creating a new ocean basin (e.g., Red Sea stage). Step 4: Passive margins form as seafloor spreading continues. A wrong sequence (e.g., immediate mountain building) shows confusion between rising (divergent) and descending (convergent) limbs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the surface expressions of a rising convection limb versus a descending convection limb in Holmes' model. Relate each to modern plate boundary types.",
+     "a": "Rising limb: continental doming, rifting, volcanic activity, new ocean basin formation → corresponds to divergent boundaries (mid-ocean ridges, continental rifts). Descending limb: oceanic trench, island arc, fold mountains, deep earthquakes → corresponds to convergent boundaries (subduction zones). A wrong comparison (e.g., associating trenches with rising limbs) reveals failure to link vertical mantle flow to horizontal plate motions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Holmes' convection current theory was widely accepted immediately because it perfectly explained all continental movements.\"",
+     "a": "False. The theory was initially ignored because: (1) no direct evidence of mantle convection existed; (2) mantle was thought too rigid for convection; (3) ocean floor data was lacking. Acceptance came only after 1950s-60s paleomagnetic and seafloor spreading evidence. A student agreeing with the statement shows ignorance of the historical scientific resistance and the evidentiary gap that persisted for decades.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labeled diagram showing a complete convection cell in Holmes' model, including: heat source, rising limb, lateral flow direction, descending limb, and resulting surface features at both ends. Annotate with forces acting on the continental block.",
+     "a": "A complete diagram must show: (1) Radioactive heat source in lower mantle; (2) Rising hot plume under continent causing doming/rifting (tensional force → divergent boundary); (3) Horizontal flow dragging continent laterally (shear force); (4) Descending cold limb at oceanic margin forming trench/island arc (compressional force → convergent boundary); (5) Return flow at depth. Missing any component (especially force annotations) indicates incomplete mental model of the theory's mechanical linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

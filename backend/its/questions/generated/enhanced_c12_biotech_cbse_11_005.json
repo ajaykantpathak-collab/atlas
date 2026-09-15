@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_005",
+   "title": "c12_biotech_cbse_11_005",
+   "questions": [
+    {
+     "q": "What are the two transgenes introduced into Golden Rice and from which organisms were they originally isolated in GR1?",
+     "a": "The two transgenes are *psy* (phytoene synthase) from daffodil (*Narcissus pseudonarcissus*) and *crtI* (phytoene desaturase) from the soil bacterium *Erwinia uredovora*. A wrong answer (e.g., naming *crtB* or *crtY* or saying both genes are from daffodil) reveals that the student has not distinguished the bacterial desaturase (single enzyme) from the plant desaturases (multiple enzymes) and may confuse the GR1 and GR2 gene sources.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the *crtI* gene from *Erwinia uredovora* was chosen instead of the plant phytoene desaturase (*PDS*) and ζ-carotene desaturase (*ZDS*) genes.",
+     "a": "*Erwinia crtI* encodes a single bifunctional enzyme that performs the four desaturation steps (phytoene → phytofluene → ζ-carotene → neurosporene → lycopene) that in plants require two separate enzymes (PDS and ZDS) plus a carotene isomerase (CRTISO). Using *crtI* simplifies the construct (one gene instead of three) and avoids the need to co-express multiple plant desaturases with their own regulatory sequences. A wrong answer that says “*crtI* is more efficient” without mentioning the multi-enzyme replacement misses the core rationale of reducing genetic load and avoiding complex co-regulation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to engineer β-carotene production in wheat endosperm using the Golden Rice strategy. The wheat endosperm naturally accumulates GGPP. Which two genes must be introduced, and what promoters should drive their expression? Justify your choices.",
+     "a": "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e.g., *HMW glutenin* or *γ-gliadin* promoters). Steps: (1) Identify the metabolic gap: GGPP → phytoene (needs PSY) and phytoene → lycopene (needs desaturase). (2) Choose *psy* from maize (GR2) because it gives higher flux than daffodil *psy*. (3) Choose *crtI* for the same reason as in rice — single gene replaces multiple plant desaturases. (4) Use endosperm-specific promoters to restrict expression to the grain, avoiding pleiotropic effects in photosynthetic tissues. A wrong answer that suggests constitutive promoters (e.g., CaMV 35S) shows misunderstanding of tissue-specific metabolic engineering and potential yield penalties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the β-carotene levels in GR1 and GR2. What specific change in the *psy* gene source caused the increase, and why does that change improve flux?",
+     "a": "GR1 (daffodil *psy*) produced ~1.6 µg/g β-carotene; GR2 (maize *psy*) produced up to 37 µg/g. The maize PSY enzyme has higher catalytic efficiency and/or better stability in the rice endosperm plastid environment, leading to greater conversion of GGPP to phytoene, which is the rate-limiting step. A wrong answer that attributes the increase solely to “stronger promoter” or “better transformation” ignores the enzyme kinetics evidence from the original papers (Paine et al., 2005) showing maize PSY has higher specific activity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Golden Rice solves vitamin A deficiency because it produces vitamin A in the grain.”",
+     "a": "The statement is inaccurate. Golden Rice produces β-carotene (provitamin A), not vitamin A (retinol). β-carotene must be cleaved by β-carotene 15,15'-dioxygenase (BCO1) in the human intestine to yield retinal, which is then reduced to retinol (vitamin A). Conversion efficiency varies with dietary fat, genetic polymorphisms in BCO1, and overall nutritional status. A student who says “it produces vitamin A directly” confuses the provitamin with the active vitamin and overlooks the physiological conversion step — a common error in board answers that costs marks for precision.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal genetic construct for a “Golden Mustard” that accumulates β-carotene in seeds. Specify: (a) the two coding sequences, (b) the promoters, (c) the selectable marker, and (d) the vector backbone features needed for *Agrobacterium*-mediated transformation. Explain each choice in one sentence.",
+     "a": "(a) *psy* from maize (high activity) and *crtI* from *Erwinia* (single-gene desaturation). (b) Seed-specific promoters: *napin* or *oleosin* promoter for *psy*, and *cruciferin* promoter for *crtI* to ensure coordinated expression in developing seeds. (c) *bar* gene (phosphinothricin acetyltransferase) driven by a constitutive promoter (e.g., CaMV 35S) for glufosinate selection. (d) Binary vector (e.g., pCAMBIA) with left and right T-DNA borders, *vir* helper compatibility, and *ori* for *E. coli* and *Agrobacterium* replication. A poor answer that omits seed-specific promoters or uses a constitutive promoter for the pathway genes shows failure to grasp tissue-specific metabolic engineering principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

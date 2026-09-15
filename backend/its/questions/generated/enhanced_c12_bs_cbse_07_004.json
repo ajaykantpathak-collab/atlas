@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_004",
+   "title": "c12_bs_cbse_07_004",
+   "questions": [
+    {
+     "q": "List the eight elements of the communication process in their correct sequential order as per the NCERT model, and define \"noise\" in this context.",
+     "a": "Correct sequence: Sender → Message → Encoding → Media/Channel → Decoding → Receiver → Feedback → Noise. Noise is any obstruction or hindrance to communication (e.g., ambiguous symbols, poor connection, inattentive receiver, faulty decoding, prejudices, mismatched body language). A wrong answer (e.g., missing \"feedback\" or placing \"noise\" at the start) reveals the student has memorised elements as a list without understanding the process flow — they treat communication as static components rather than a dynamic loop where feedback completes the cycle and noise can enter at any stage.",
+     "self_check": true
+    },
+    {
+     "q": "A Production Manager sends a detailed email to the Shop Floor Supervisor specifying new safety protocols. The Supervisor reads it but implements only half the measures, claiming \"I understood it differently.\" Identify which TWO elements of the communication process failed here, and explain why \"feedback\" alone would not have prevented this.",
+     "a": "Failed elements: **Decoding** (Supervisor attached wrong meaning to symbols/words) and **Feedback** (Supervisor did not confirm understanding back to Manager). Feedback alone would not prevent this because the failure occurred at *decoding* — the Supervisor genuinely believed their interpretation was correct. Without *active* feedback (e.g., \"So you want me to do X, Y, Z — is that right?\"), the Sender assumes the message was decoded as intended. A wrong answer blaming only \"noise\" or \"encoding\" shows the student conflates transmission errors with interpretation errors — they miss that decoding happens inside the receiver's mind and requires verification.",
+     "self_check": true
+    },
+    {
+     "q": "In a 50-employee manufacturing firm, the Owner communicates a new shift policy ONLY through a WhatsApp group where all employees are members. Identify the formal communication network this resembles, and explain one advantage and one disadvantage of this network for this specific message type.",
+     "a": "This resembles the **Free Flow** network (each person communicates with others freely). Advantage: Fast dissemination — all 50 employees receive the policy simultaneously. Disadvantage: No accountability trail — the Owner cannot verify who read/understood it; informal replies may create confusion (noise). A wrong answer identifying \"Wheel\" (Owner as hub) shows the student confuses *centralised authority* with *network structure* — in a Wheel, subordinates cannot talk to each other; here they can. This error reveals inability to map real-world tools (WhatsApp) to theoretical networks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare formal and informal communication on these four dimensions: (a) speed, (b) authenticity, (c) accountability, (d) organisational utility. Use a 2×2 table format.",
+     "a": "| Dimension | Formal Communication | Informal Communication |\n|-----------|---------------------|------------------------|\n| Speed | Slow (follows hierarchy) | Very fast (bypasses levels) |\n| Authenticity | High (recorded, official) | Low (rumours, distortion) |\n| Accountability | Clear (documented trail) | None (source untraceable) |\n| Organisational Utility | Coordination, decisions, records | Morale pulse, gap-filling, innovation |\n\nA wrong answer claiming informal is \"always harmful\" or formal is \"always better\" reveals the textbook misconception that grapevine is purely negative. NCERT explicitly states managers should \"make use of positive aspects of informal channels.\" This error shows lack of analytical depth — the student cannot see both systems as complementary.",
+     "self_check": true
+    },
+    {
+     "q": "A CEO wants to announce a merger (high sensitivity, legal implications). Evaluate which formal communication network is MOST appropriate and which is LEAST appropriate. Justify using two principles of directing from NCERT.",
+     "a": "**Most appropriate: Wheel** (CEO as hub communicates directly to each department head). Ensures **Unity of Command** (each subordinate receives instructions from one superior only — no conflicting versions) and **Managerial Communication** (clear, consistent message from single source). **Least appropriate: Circular** (slow, message distorts through multiple hops; violates **Follow Through** — CEO cannot verify receipt/understanding at each level). A wrong answer choosing \"Free Flow\" for merger announcement shows the student prioritises speed over accuracy/legal safety — they miss that principle (v) \"Effective managerial communication across all levels\" requires controlled, verifiable flow for strategic decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication plan for launching a new employee wellness programme in a 200-person company with 4 branches. Specify: (a) which formal network for official launch, (b) which informal network to leverage for adoption, (c) one feedback mechanism, (d) one noise-reduction step.",
+     "a": "(a) **Wheel** — CEO/HR Head communicates directly to 4 Branch Managers (hubs), who cascade to teams. Ensures consistent message, accountability. (b) **Cluster** grapevine — identify trusted informal leaders in each branch; brief them early so positive \"word-of-mouth\" spreads through trust networks. (c) **Feedback**: Anonymous digital survey (Google Form) after 2 weeks measuring awareness, concerns, suggestions. (d) **Noise-reduction**: Pre-brief Branch Managers with FAQ document so they decode/encode consistently — prevents \"Chinese whispers\" distortion. A poor answer using only one network (e.g., only email) shows the student cannot design multi-channel strategies — they treat communication as single-shot rather than a process requiring reinforcement across formal and informal systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

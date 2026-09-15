@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_002",
+   "title": "c11_ps_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define \"politics as the art of government\" in one sentence and give one example from the Indian context.",
+     "a": "Politics as the art of government is the activity of governing a political unit through formal state institutions—legislature, executive, judiciary—exercising legitimate authority to make binding laws and policies. Example: The Parliament of India passing the GST Bill in 2017. A wrong answer (e.g., \"politics is when parties fight elections\") reveals the student conflates partisan competition with the institutional function of governance and misses the state-centric, authority-focused nature of this definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT textbook argues that \"politics is not confined to the affairs of government\" using the example of a school student council election.",
+     "a": "The textbook broadens politics to any collective decision-making process involving negotiation, power, and resource allocation. A student council election involves campaigning (mobilizing support), debating issues (cafeteria food, exam schedules), voting (formal choice), and the elected council negotiating with school administration (power relation)—all mirroring state-level politics but in a microcosm. A wrong answer focusing only on \"students learning democracy\" misses the analytical point: the *structure* of the activity (conflict, negotiation, binding decision) is political regardless of the arena.",
+     "self_check": true
+    },
+    {
+     "q": "A Resident Welfare Association (RWA) in Delhi bans food delivery riders from using the main elevator after 8 PM, citing noise complaints. Some residents protest, arguing this discriminates against gig workers. Analyze this situation using the \"politics in everyday life\" framework: identify the collective decision, the conflicting interests, the power dynamic, and the negotiation process.",
+     "a": "Collective decision: RWA rule restricting elevator access. Conflicting interests: residents' quiet vs. gig workers' livelihood/efficiency. Power dynamic: RWA (elected body with rule-making authority) vs. non-resident workers (no voice in RWA) vs. dissenting residents. Negotiation: protests, petitions, possible revision of rule. A wrong answer treating this as mere \"administration\" or \"dispute\" fails to see the authoritative allocation of values (access to common property) for a community—the essence of politics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how \"politics as the art of government\" and \"politics in everyday life\" would analyze the 2020-21 Indian farmers' protest against three farm laws.",
+     "a": "Art of government view: focuses on Parliament passing laws, executive implementing them, Supreme Court staying implementation, and formal repeal—state institutions as primary actors. Everyday life view: focuses on farmers' unions mobilizing across states, langars (community kitchens) as resource pooling, negotiations with government ministers, media framing, and the protest as a site of citizenship enactment beyond voting. A wrong answer that only describes events without distinguishing the *analytical lens* (state-centric vs. society-centric) shows inability to apply the conceptual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"If we define politics broadly as 'everyday negotiation,' the concept loses analytical value because everything becomes politics.\" Use the NCERT distinction between \"politics\" and \"dirty politics\" in your reasoning.",
+     "a": "The claim is weak. The NCERT distinguishes *politics* (inevitable, valuable collective negotiation) from *dirty politics* (self-interested manipulation, corruption). Broadening politics does not collapse this normative distinction; it actually helps identify *where* dirty politics occurs—in RWAs, schools, families—enabling critique. A wrong answer agreeing with the claim confuses conceptual breadth with normative vacuity and ignores the textbook's explicit defense of politics as a necessary, noble activity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example of \"politics in everyday life\" from an Indian college hostel setting. Your example must include: (a) a scarce resource, (b) at least two groups with conflicting claims, (c) a decision-making mechanism, and (d) a power asymmetry. Explain why this is politics, not just management.",
+     "a": "Example: Hostel mess committee (elected) decides to replace Sunday special chicken with paneer to cut costs. Non-vegetarian students (Group A) protest; vegetarian students (Group B) support. Decision mechanism: committee vote after open hearing. Power asymmetry: committee dominated by vegetarians; non-veg students are minority. This is politics because it involves authoritative value allocation (food culture, religious/minority identity) through a contested collective process—not mere logistical management. A poor example would lack one of the four elements or describe a purely technical issue (e.g., fixing a broken geyser) with no value conflict.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

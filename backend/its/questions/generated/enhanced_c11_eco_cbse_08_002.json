@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_002",
+   "title": "c11_eco_cbse_08_002",
+   "questions": [
+    {
+     "q": "What were the years when economic reforms were initiated in China, Pakistan, and India respectively?",
+     "a": "China: 1978; Pakistan: 1988; India: 1991. A wrong answer (e.g., swapping years) reveals the student hasn't memorized the chronological sequence, which is essential for comparative analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why did China introduce reforms in 1978 without external pressure, while India and Pakistan were compelled by international agencies?",
+     "a": "China's leadership was dissatisfied with slow growth and lack of modernization under Maoist policies (e.g., per capita grain output in 1978 same as mid-1950s). India and Pakistan faced balance of payments crises and needed IMF/World Bank loans, which came with conditionalities. A wrong answer attributing China's reforms to external pressure shows misunderstanding of the autonomous vs. compelled distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'dual pricing' in China's agricultural reform, explain how it worked as a transition mechanism from plan to market.",
+     "a": "Dual pricing: farmers sold a fixed quota at government-set prices and the rest at market prices. Over time, as production increased, the market portion grew, gradually replacing the plan. A wrong answer describing it as a permanent two-price system misses the transitional nature and the shift toward market dominance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the agricultural sector in the initial reform phase of China (1978) and India (1991). What does this indicate about their reform strategies?",
+     "a": "China started reforms in agriculture (household responsibility system), which boosted rural incomes and created demand for rural industries. India's 1991 reforms focused on industry and trade (industrial licensing, trade barriers), with agriculture reforms coming later. This shows China's bottom-up, rural-led approach vs. India's top-down, industry/trade-led approach. A wrong answer saying both started with agriculture indicates confusion with India's Green Revolution (1960s) rather than 1991 reforms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Pakistan's reform process led to worsening of all economic indicators.\" Use evidence from the textbook.",
+     "a": "The textbook states scholars argue Pakistan's reform process worsened economic indicators: GDP growth and sectoral constituents haven't improved compared to 1980s; poverty declined to 25% in 1980s but rose again; growth depended on good harvests, not institutionalized technical change. However, recent recovery (2017-18 GDP 5.5%) shows some improvement. A wrong answer taking the statement as absolutely true without nuance ignores the recent recovery and the role of remittances/foreign aid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-column table comparing the trigger, first sector reformed, and one distinctive policy instrument for China (1978), Pakistan (1988), and India (1991).",
+     "a": "Expected table:\n| Country | Year | Trigger | First Sector Reformed | Distinctive Policy Instrument |\n|---------|------|---------|----------------------|-------------------------------|\n| China | 1978 | Slow growth, lack of modernization | Agriculture | Household Responsibility System (dual pricing) |\n| Pakistan | 1988 | Need for private investment, western support | Industry (denationalization) | Denationalization, incentives to private sector |\n| India | 1991 | Balance of payments crisis, IMF conditionality | Industry & Trade | Industrial delicensing, trade liberalization, rupee devaluation |\nA poor answer missing the trigger or misidentifying the first sector shows inability to synthesize comparative dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

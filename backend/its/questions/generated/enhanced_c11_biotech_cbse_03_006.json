@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_006",
+   "title": "c11_biotech_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the three components of a deoxyribonucleotide and specify which carbon of the deoxyribose sugar attaches to the phosphate group and which carbon attaches to the nitrogenous base.",
+     "a": "A deoxyribonucleotide consists of: (1) a nitrogenous base (A, T, G, or C), (2) a 2'-deoxy-D-ribose pentose sugar, and (3) a phosphate group. The phosphate attaches to the 5' carbon of the sugar, and the nitrogenous base attaches to the 1' carbon. A wrong answer (e.g., saying phosphate attaches to 3' carbon or base attaches to 5' carbon) reveals confusion about sugar numbering with prime notation and the directionality of phosphodiester bond formation — a prerequisite for understanding 5'→3' polarity and antiparallel strands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the two strands of the DNA double helix are described as \"antiparallel\" and how this relates to the 5'→3' directionality of each strand.",
+     "a": "The strands are antiparallel because one strand runs 5'→3' in one direction while the complementary strand runs 5'→3' in the opposite direction — their 5' ends are at opposite ends of the helix. This arises because phosphodiester bonds always link the 3' OH of one nucleotide to the 5' phosphate of the next. A wrong answer (e.g., \"both strands run 5'→3' in the same direction\" or \"antiparallel means one is upside down\") reveals a fundamental misunderstanding of polynucleotide chain polarity and why DNA polymerase can only synthesize in the 5'→3' direction — critical for later replication topics.",
+     "self_check": true
+    },
+    {
+     "q": "A 100 base pair DNA fragment has 30% adenine. Calculate the number of hydrogen bonds holding the two strands together in this fragment. Show your reasoning.",
+     "a": "Given: 100 bp, 30% A → 30 A bases. By Chargaff's rules: %A = %T = 30%, so %G = %C = 20% each. A-T pairs = 30, each with 2 H-bonds = 60 H-bonds. G-C pairs = 20, each with 3 H-bonds = 60 H-bonds. Total H-bonds = 120. A wrong answer (e.g., 100 H-bonds or 150 H-bonds) reveals inability to apply base pairing rules quantitatively or confusion between base percentage and base pair count — a skill needed for Tm calculations and hybridization probe design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare B-DNA, A-DNA, and Z-DNA across these parameters: handedness, base pairs per turn, helix diameter, and biological occurrence. Which form would you expect under low humidity conditions and why?",
+     "a": "B-DNA: right-handed, 10 bp/turn, 20 Å diameter, predominant physiological form. A-DNA: right-handed, 11 bp/turn, 26 Å diameter, forms under low humidity/dehydration. Z-DNA: left-handed, 12 bp/turn, 18 Å diameter, occurs in GC-rich sequences with alternating purine-pyrimidine under high salt/negative supercoiling. Under low humidity, A-DNA forms because dehydration favors the C3'-endo sugar pucker and wider, shorter helix. A wrong comparison (e.g., saying Z-DNA is right-handed or A-DNA has 10 bp/turn) reveals rote memorization without understanding how sugar pucker, base stacking, and hydration dictate conformational switching — relevant for DNA-protein recognition and crystallography.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since G≡C pairs have three hydrogen bonds while A=T pairs have only two, a DNA molecule with 60% GC content will always have a higher melting temperature (Tm) than one with 40% GC content, regardless of length.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "Partially correct. GC content is the primary determinant of Tm (higher GC → higher Tm), but length also matters: shorter duplexes melt at lower temperatures because fewer cooperative base pairs stabilize the helix. The claim ignores length dependence — a 20 bp 60% GC duplex may melt lower than a 1000 bp 40% GC duplex. Also, salt concentration, pH, and denaturants affect Tm. A fully correct answer acknowledges GC content as the dominant factor but identifies the oversimplification. A wrong evaluation (e.g., \"fully correct\" or \"incorrect because AT pairs are stronger\") reveals inability to weigh multiple thermodynamic factors — essential for PCR primer design and hybridization stringency optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 12-nucleotide DNA oligonucleotide sequence that would form a stable hairpin structure with a 4-base loop and a 4-base-pair stem. Write the sequence 5'→3', indicate the stem base pairs, and explain why this sequence would favor hairpin formation over remaining single-stranded.",
+     "a": "Example: 5'-GCATTTTTATGC-3'. Stem: 5'-GCAT-3' pairs with 3'-CGTA-5' (written 5'-ATGC-3' on the same strand, inverted). Loop: TTTT (4 bases). The stem has 4 GC-rich base pairs (3 G≡C, 1 A=T) providing ~10 H-bonds and strong stacking. The 4-base loop (optimal size for minimal strain) allows the strand to fold back. Hairpin stability depends on stem GC content, loop size (4-8 nt optimal), and absence of competing secondary structures. A poor answer (e.g., all AT stem, loop of 2 bases, or no complementarity) reveals lack of understanding of intramolecular base pairing, loop entropy penalty, and the balance between stem stability and loop strain — foundational for primer-dimer prediction and ribozyme design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

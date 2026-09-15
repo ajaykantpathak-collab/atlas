@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class8_maths_hegp207.json",
+ "concepts": [
+  {
+   "id": "hegp.207.7.1",
+   "title": "Equal-Area Division of a Square",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 12 ** 2 gives 144",
+     "compute": "sq = 12 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 12.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 32 m. What is the number of square metres in its area?",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 5 x 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 40?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 14. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.2",
+   "title": "Area of a Rectangle by Unit Squares",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 15.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 31 m. What is the number of square metres in its area?",
+     "a": "961",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 4 x 2.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 69?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 22. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "122",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.3",
+   "title": "Area of a Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 14 cm by 23 cm.",
+     "a": "322",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 20 m.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A 14 m x 8 m garden has a 10 m x 4 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 60 sq cm and length 12 cm. Find its breadth.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 8 per square metre. Find the cost of tiling a 19 m x 10 m floor.",
+     "a": "1520",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 5 m (square tiles) fit in a 30 m x 20 m hall?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.4",
+   "title": "Area of a Parallelogram",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 12 cm and height 23 cm.",
+     "a": "276",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 24 cm and 22 cm. Find its area.",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 6 cm and 27 cm and the distance between them is 12 cm. Find the area.",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 16 cm and the perpendiculars on it from opposite vertices are 8 cm and 6 cm. Find the area.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 10 cm and height 6 cm. Find the parallelogram's height if its base is 24 cm.",
+     "a": "1.25",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 8 m and height 4 m. Find its area.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.5",
+   "title": "Finding a Missing Side from the Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 14 cm by 5 cm.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 6 m.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "A 7 m x 9 m garden has a 3 m x 5 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 84 sq cm and length 12 cm. Find its breadth.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 20 m x 20 m floor.",
+     "a": "6000",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 5 m (square tiles) fit in a 25 m x 35 m hall?",
+     "a": "35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.6",
+   "title": "Unit Conversions of Length and Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 30 cm by 14 cm.",
+     "a": "420",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 18 m.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 14 m garden has a 11 m x 10 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 120 sq cm and length 8 cm. Find its breadth.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 10 per square metre. Find the cost of tiling a 10 m x 18 m floor.",
+     "a": "1800",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 5 m (square tiles) fit in a 35 m x 15 m hall?",
+     "a": "21",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

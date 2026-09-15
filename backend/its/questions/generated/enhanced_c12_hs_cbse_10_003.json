@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_003",
+   "title": "c12_hs_cbse_10_003",
+   "questions": [
+    {
+     "q": "Name the five ICMR food groups and give one staple Indian example for each.",
+     "a": "Correct answer: 1) Cereals & Millets — wheat/rice; 2) Pulses & Legumes — toor dal/chana; 3) Milk & Meat Products — milk/egg; 4) Fruits & Vegetables — spinach/mango; 5) Fats & Oils — ghee/groundnut oil. A wrong answer (e.g., listing \"proteins\" as a group) reveals the student confuses nutrient classes with food groups — a fundamental category error that makes meal planning impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Since milk gives protein and calcium, and dal also gives protein, we can replace milk entirely with extra dal in a vegetarian diet.\" Explain why this reasoning is flawed using ICMR group principles.",
+     "a": "Correct answer: Milk group provides high-biological-value protein, calcium, riboflavin, and vitamin B12 (absent in plant foods). Pulses group provides protein but lacks B12, has lower calcium, and contains anti-nutritional factors. ICMR groups are NOT interchangeable; each supplies a unique nutrient matrix. A wrong answer indicates the student treats groups as mere protein sources, missing the concept of \"nutrient package\" and the critical role of B12 in vegetarian diets.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following mixed dishes into their ICMR food group components: (a) Vegetable pulao with raita, (b) Masala dosa with sambar and coconut chutney, (c) Egg paratha with pickle.",
+     "a": "Correct answer: (a) Cereals (rice), Vegetables (mixed veg), Fats (oil/ghee), Milk (curd in raita). (b) Cereals (rice + urad dal in dosa batter), Pulses (toor dal in sambar), Vegetables (sambar veg + coconut), Fats (oil). (c) Cereals (wheat flour), Milk/Meat (egg), Fats (oil for frying), Vegetables (pickle — minor). A wrong answer that lists only the main ingredient (e.g., \"pulao = cereal\") shows inability to deconstruct composite dishes — a skill essential for actual menu evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient contributions of the \"Fruits & Vegetables\" group and the \"Fats & Oils\" group. Why does ICMR keep them separate despite both being \"plant-derived\"?",
+     "a": "Correct answer: Fruits & Vegetables supply vitamins (A, C, folate), minerals, fibre, and phytonutrients with minimal energy. Fats & Oils supply concentrated energy (9 kcal/g), essential fatty acids, and fat-soluble vitamin carriers. Separation prevents the error of assuming \"plant oils = vegetables\" and ensures both micronutrient density and essential fatty acids are explicitly planned. A wrong answer focusing only on \"plant origin\" misses the functional nutrient distinction that drives RDA fulfillment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a sedentary elderly woman: \"She should eat from only three food groups — cereals, vegetables, and milk — to avoid weight gain.\" Use ICMR principles.",
+     "a": "Correct answer: The statement is dangerous. Eliminating pulses removes primary vegetarian protein, B-vitamins, and fibre; eliminating fats/oils causes essential fatty acid deficiency and fat-soluble vitamin malabsorption. ICMR advocates *portion control* within all five groups, not group elimination. A wrong answer that agrees reveals confusion between \"energy restriction\" and \"nutrient adequacy\" — a critical error in geriatric meal planning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 16-year-old adolescent boy (heavy activity) that visibly includes all five ICMR groups in each major meal. Justify the group inclusion at breakfast.",
+     "a": "Expected answer: Breakfast — Besan chilla (pulse+cereal) with paneer stuffing (milk), mint chutney (vegetable), cooked in oil (fat). Lunch — Rice (cereal), rajma (pulse), salad (vegetable), curd (milk), ghee on rice (fat). Dinner — Roti (cereal), soybean curry (pulse+vegetable), buttermilk (milk), oil in cooking (fat). Breakfast justification: Chilla provides cereal+pulse protein complementarity; paneer adds calcium/B12; chutney gives vitamin C for iron absorption; oil supplies energy density for high activity. A poor answer omits a group or cannot justify the inclusion, showing inability to translate classification into practical menus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 8,
+ "chapter_title": "Introduction to Structured Query Language (SQL)",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip108.1",
+   "title": "CHAR versus VARCHAR Storage",
+   "section": "8.3.1",
+   "definition": "CHAR(n) reserves room for exactly n characters and pads shorter entries with trailing spaces, while VARCHAR(n) only caps the length and stores just the characters actually typed. Choosing VARCHAR over CHAR for short entries in a wide table therefore saves the padding on every single row.",
+   "formula": "bytes_saved = table_bytes_char - table_bytes_varchar",
+   "key_idea": "Fixed width pays for the padding on every row; variable width pays only for what is typed.",
+   "textbook_ref": "keip108.txt Table 8.1 CHAR/VARCHAR rows (lines 122-133)",
+   "question_patterns": [
+    "how many bytes does CHAR(10) occupy for the value 'city' and why",
+    "a CHAR(10) city column and a VARCHAR(30) alternative both hold 4-character names across 200 rows; how many bytes does VARCHAR save",
+    "differentiate between CHAR and VARCHAR data types in MySQL",
+    "for which kind of attribute is a fixed length string suitable",
+    "what is the maximum length allowed for a VARCHAR column",
+    "why does 'city' in VARCHAR(30) not occupy 30 characters of storage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the fixed-width column over the table",
+     "explain": "CHAR pads every row to the declared width, so rows times width gives its cost",
+     "compute": "table_bytes_char = row_count * char_width"
+    },
+    {
+     "step": 2,
+     "action": "size the variable-width column",
+     "explain": "VARCHAR stores only the typed characters on each row",
+     "compute": "table_bytes_varchar = row_count * entered_chars"
+    },
+    {
+     "step": 3,
+     "action": "measure the saving",
+     "explain": "the padding removed from every row is the difference between the two costs",
+     "compute": "bytes_saved = table_bytes_char - table_bytes_varchar"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which type pads shorter entries with trailing spaces: CHAR or VARCHAR?",
+     "a": "CHAR"
+    }
+   ]
+  },
+  {
+   "id": "keip108.2",
+   "title": "MySQL Data Types and Constraints",
+   "section": "8.3",
+   "definition": "Every column gets a data type: INT for whole numbers (4 bytes each, BIGINT 8), FLOAT for decimals (4 bytes), DATE for calendar values written as yyyy-mm-dd, CHAR and VARCHAR for text. Constraints then police the values: NOT NULL forbids blanks, UNIQUE forbids repeats, DEFAULT supplies a fallback, PRIMARY KEY identifies each row, and FOREIGN KEY points at another table's key.",
+   "formula": "date_format = yyyy_mm_dd",
+   "key_idea": "Types decide what a column can hold, constraints decide what it must obey; together they keep data reliable.",
+   "textbook_ref": "keip108.txt sections 8.3.1-8.3.2, Tables 8.1-8.2 (lines 104-179)",
+   "question_patterns": [
+    "name any two constraints that can be applied to a column in MySQL",
+    "which two constraints applied together produce the effect of a primary key",
+    "how many bytes does one INT value occupy in storage",
+    "write the format in which the DATE type stores values in MySQL",
+    "which data type suits SName when names vary up to 20 characters",
+    "what does the DEFAULT constraint do when no value is supplied"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the data to a type",
+     "explain": "whole counts take INT, measured values FLOAT, calendar days DATE, text CHAR or VARCHAR"
+    },
+    {
+     "step": 2,
+     "action": "attach the needed restrictions",
+     "explain": "NOT NULL and UNIQUE block blanks and duplicates; DEFAULT fills an omitted value"
+    },
+    {
+     "step": 3,
+     "action": "identify row identity and links",
+     "explain": "PRIMARY KEY tags each row uniquely; FOREIGN KEY references another table's primary key"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bytes does one INT value occupy in MySQL?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "keip108.3",
+   "title": "DDL: CREATE, ALTER, DROP, DESCRIBE",
+   "section": "8.4",
+   "definition": "Structure is managed with the Data Definition Language: CREATE DATABASE and CREATE TABLE build the containers, USE selects the active database, DESCRIBE (or DESC) prints a table's columns and types, ALTER TABLE adds, modifies or drops columns and constraints, and DROP removes a table or whole database permanently and irreversibly.",
+   "formula": "alter_statement = add_or_modify_or_drop",
+   "key_idea": "CREATE builds, DESCRIBE inspects, ALTER adjusts structure, DROP destroys without any undo.",
+   "textbook_ref": "keip108.txt sections 8.4.1-8.4.5 (lines 180-613)",
+   "question_patterns": [
+    "write the statement to create a database named StudentAttendance",
+    "which command shows the structure of an existing table",
+    "write the ALTER statement to add an income column of type INT to GUARDIAN",
+    "differentiate between ALTER and UPDATE commands",
+    "differentiate between DELETE and DROP commands",
+    "why should the DROP statement be used cautiously"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "create the containers in order",
+     "explain": "the database first, then its tables with typed columns, then USE to activate it"
+    },
+    {
+     "step": 2,
+     "action": "inspect before changing",
+     "explain": "DESCRIBE lists each column's type, nullability and key role"
+    },
+    {
+     "step": 3,
+     "action": "separate structure edits from destruction",
+     "explain": "ALTER reshapes a table in place; DROP erases the table or database for good"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which DDL statement permanently removes a table with no undo?",
+     "a": "DROP"
+    }
+   ]
+  },
+  {
+   "id": "keip108.4",
+   "title": "DML: INSERT, UPDATE, DELETE",
+   "section": "8.5",
+   "definition": "Rows are maintained with three statements: INSERT INTO puts new records in, naming columns explicitly when only some values are known; UPDATE ... SET rewrites existing values and must carry a WHERE clause to spare the other rows; DELETE FROM removes matching rows, and omitting its WHERE clause wipes the entire table.",
+   "formula": "insert_values_match = column_count",
+   "key_idea": "Insert adds rows, update edits them, delete removes them; without WHERE the last two hit every row.",
+   "textbook_ref": "keip108.txt sections 8.5.1, 8.7.1-8.7.2 (lines 614-716, 1486-1585)",
+   "question_patterns": [
+    "write the INSERT statement to add a guardian row where GPhone is not known",
+    "why must the UPDATE statement include a WHERE clause",
+    "what happens if the WHERE clause is omitted from a DELETE statement",
+    "write the statement to change the GUID of the student whose roll number is 3",
+    "when must column names be written explicitly in an INSERT INTO statement",
+    "which records should be populated first in a table that carries a foreign key"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add rows with INSERT",
+     "explain": "values line up with the columns, or with the listed column names when some are skipped"
+    },
+    {
+     "step": 2,
+     "action": "target rows before editing",
+     "explain": "UPDATE changes only the rows the WHERE condition selects"
+    },
+    {
+     "step": 3,
+     "action": "remove rows carefully",
+     "explain": "DELETE drops the selected rows; a forgotten WHERE condition empties the table"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Omitting WHERE from DELETE FROM wipes what?",
+     "a": "the entire table"
+    }
+   ]
+  },
+  {
+   "id": "keip108.5",
+   "title": "Annual Salary Computed Column",
+   "section": "8.6.2 B",
+   "definition": "A SELECT list may hold arithmetic on columns, not just raw columns: multiplying the pay column by 12 produces each employee's yearly figure, and the keyword AS renames the computed output for display. Such a calculated column exists only in the query result and never becomes a stored column.",
+   "formula": "annual_total = monthly_gross * pay_months",
+   "key_idea": "Arithmetic inside the SELECT list computes per row; AS only relabels the output column.",
+   "textbook_ref": "keip108.txt Example 8.3 and renaming note (lines 1026-1078)",
+   "question_patterns": [
+    "display the names of all employees along with their annual salary, where annual salary is salary times 12",
+    "for Aaliya whose salary is 10000 and bonus 234, compute the annual total including bonus",
+    "which keyword renames a column in the query output",
+    "is a computed column stored back into the database table",
+    "why must an aliased name containing a space be enclosed in quotes",
+    "write the query that shows Salary*12 with the heading Annual Salary"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the monthly pay parts",
+     "explain": "salary plus bonus gives the total earned in one month",
+     "compute": "monthly_gross = monthly_salary + monthly_bonus"
+    },
+    {
+     "step": 2,
+     "action": "scale to the year",
+     "explain": "twelve pay months turn the monthly figure into the yearly total",
+     "compute": "annual_total = monthly_gross * pay_months"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An employee earns 25000 monthly. What yearly figure does Pay * 12 give?",
+     "a": "300000"
+    }
+   ]
+  },
+  {
+   "id": "keip108.6",
+   "title": "Net Profit of Movies",
+   "section": "8.6.2 and Exercise Q4",
+   "definition": "Two stored columns can be subtracted inside a query to yield a business answer: for each movie, the net profit is the business cost minus the production cost, and expressing that profit as a percentage of the production cost shows the return margin. For an unreleased movie both figures are unknown, so the computed result stays unknown too.",
+   "formula": "net_profit = business_cost - production_cost",
+   "key_idea": "Business cost minus production cost gives the profit row by row; divide by the production cost for the margin percent.",
+   "textbook_ref": "keip108.txt Exercise Q4 MOVIE table (lines 1729-1784)",
+   "question_patterns": [
+    "find the net profit of each movie in the MOVIE table showing its ID, name and net profit",
+    "compute the net profit of the movie with production cost 124500 and business cost 130000",
+    "express the profit of movie 003 as a percentage of its production cost",
+    "why does the profit of an unreleased movie not show as zero",
+    "write the query that labels the computed column as NetProfit",
+    "is the NetProfit column a part of the MOVIE relation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the cost from the earnings",
+     "explain": "business cost minus production cost leaves the profit for that movie",
+     "compute": "net_profit = business_cost - production_cost"
+    },
+    {
+     "step": 2,
+     "action": "express the profit as a margin",
+     "explain": "dividing the profit by the production cost and scaling by 100 gives the return percentage",
+     "compute": "margin_percent = net_profit / production_cost * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A movie cost 50 crores to produce and earned 120 crores. What is the net profit in crores?",
+     "a": "70"
+    }
+   ]
+  },
+  {
+   "id": "keip108.7",
+   "title": "Department Salary Aggregate",
+   "section": "8.6.2 D",
+   "definition": "A WHERE clause can first filter the rows of one department, and the filtered salaries can then be totalled or averaged exactly as in arithmetic: add the selected figures, then divide by how many employees were selected. For the chapter's EMPLOYEE table, department D01 holds the salaries 60000, 45000 and 15000.",
+   "formula": "dept_salary_average = dept_salary_total / dept_employee_count",
+   "key_idea": "Filter first with WHERE, then sum the surviving values and divide by their count for the department average.",
+   "textbook_ref": "keip108.txt Table 8.8 and Example 8.4 (lines 895-958, 1133-1144)",
+   "question_patterns": [
+    "find the total of the salaries paid in department D01 of the EMPLOYEE table",
+    "compute the average salary of the three employees of department D01",
+    "which employees does the query with WHERE Salary > 5000 AND DeptId = 'D04' return",
+    "display the distinct salaries of employees working in department D01",
+    "how many employees earn between 20000 and 50000 inclusive in the EMPLOYEE table",
+    "write the query for employees who work in D01, D02 or D04 using IN"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the filtered salaries",
+     "explain": "the WHERE clause keeps only department D01 rows, and their salaries are added",
+     "compute": "dept_salary_total = sum((salary_one, salary_two, salary_three))"
+    },
+    {
+     "step": 2,
+     "action": "average over the selected employees",
+     "explain": "dividing the department total by its employee count gives the mean salary",
+     "compute": "dept_salary_average = dept_salary_total / dept_employee_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Department D01 holds salaries 60000, 45000 and 15000. What is their total?",
+     "a": "120000"
+    }
+   ]
+  },
+  {
+   "id": "keip108.8",
+   "title": "DISTINCT, ORDER BY, LIKE and NULL Refinement",
+   "section": "8.6.2 C, F, G, H",
+   "definition": "Query output is polished with four tools: DISTINCT strips repeated values from a column, ORDER BY arranges rows ascending by default or descending with DESC, LIKE matches text patterns using percent for any run of characters and underscore for exactly one, and IS NULL or IS NOT NULL tests for missing values, since comparing against NULL with equals never works.",
+   "formula": "distinct_rows = unique_values_only",
+   "key_idea": "DISTINCT de-duplicates, ORDER BY sorts, LIKE patterns with % and _, and only IS NULL finds blanks.",
+   "textbook_ref": "keip108.txt sections 8.6.2 C/F/G/H, Examples 8.9-8.17 (lines 1079-1485)",
+   "question_patterns": [
+    "which clause removes duplicate values from the output of a query",
+    "write the query that lists employees in descending order of salary",
+    "which query lists employees whose names start with the letter K",
+    "what does the underscore wildcard represent in a LIKE pattern",
+    "write the condition to fetch employees who have not been given a bonus",
+    "why does the condition Bonus = NULL fail to find blank rows",
+    "how many rows does the query SELECT DISTINCT DeptId FROM EMPLOYEE return"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "de-duplicate and sort",
+     "explain": "DISTINCT collapses repeats; ORDER BY sequences rows, with DESC reversing the default ascending order"
+    },
+    {
+     "step": 2,
+     "action": "match partial text",
+     "explain": "LIKE pairs percent (any run of characters) and underscore (one character) to find substrings"
+    },
+    {
+     "step": 3,
+     "action": "test for the unknown",
+     "explain": "NULL means unknown, so IS NULL and IS NOT NULL are the only valid checks"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which keyword strips repeated values from output?",
+     "a": "DISTINCT"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip108.txt Table 8.1 CHAR/VARCHAR rows",
+   "concept": "keip108.1",
+   "question_type": "numeric",
+   "question_pattern": "A table of 200 rows stores 4-character city names. How many bytes are saved by using VARCHAR sized for the typed characters instead of CHAR(10)?",
+   "extracted_variables": {
+    "row_count": 200,
+    "char_width": 10,
+    "entered_chars": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cost the fixed-width choice",
+     "explain": "200 * 10 = 2000 bytes with padding on every row",
+     "compute": "table_bytes_char = row_count * char_width"
+    },
+    {
+     "step": 2,
+     "action": "cost the variable-width choice",
+     "explain": "200 * 4 = 800 bytes with no padding",
+     "compute": "table_bytes_varchar = row_count * entered_chars"
+    },
+    {
+     "step": 3,
+     "action": "measure the saving",
+     "explain": "2000 - 800 = 1200 bytes saved",
+     "compute": "bytes_saved = table_bytes_char - table_bytes_varchar"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip108.txt Table 8.8 EMPLOYEE, department D01 rows",
+   "concept": "keip108.7",
+   "question_type": "numeric",
+   "question_pattern": "From the EMPLOYEE table, find the total and the average salary of department D01 whose employees earn 60000, 45000 and 15000.",
+   "extracted_variables": {
+    "salary_one": 60000,
+    "salary_two": 45000,
+    "salary_three": 15000,
+    "dept_employee_count": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the department salaries",
+     "explain": "60000 + 45000 + 15000 = 120000",
+     "compute": "dept_salary_total = sum((salary_one, salary_two, salary_three))"
+    },
+    {
+     "step": 2,
+     "action": "average over the three employees",
+     "explain": "120000 / 3 = 40000",
+     "compute": "dept_salary_average = dept_salary_total / dept_employee_count"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip108.txt Exercise Q1, Q2, Q3",
+   "questions": [
+    "Match: ALTER, UPDATE, DELETE, INSERT INTO, CONSTRAINTS, DESC, CREATE to their functions. (structure change; edit existing rows; remove a row; add values; column restrictions; show structure; build a database)",
+    "In CREATE TABLE student (name CHAR(30), student_id INT, gender CHAR(1), PRIMARY KEY(student_id)), what is the degree of the table? (3)",
+    "Is SelecT * fROM student an error because of mixed case? (no, SQL keywords are case insensitive)",
+    "How many rows does DELETE FROM student WHERE student_id = 109 remove when 109 appears once? (1)",
+    "Fill in: the ______ key declares that an index in one table is related to that in another. (foreign)",
+    "The asterisk in SELECT * FROM table retrieves what? (all columns of the table)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip108.txt Exercise Q4 (MOVIE database)",
+   "questions": [
+    "Write the query to retrieve all movie information without naming columns. (SELECT * FROM MOVIE)",
+    "List MovieID, MovieName and BusinessCost for all movies. (SELECT MovieID, MovieName, BusinessCost FROM MOVIE)",
+    "List the different categories of the movies. (SELECT DISTINCT Category FROM MOVIE)",
+    "Find the net profit of the movie with production cost 245000 and business cost 360000. (115000)",
+    "List movies whose production cost is more than 80000 but less than 125000. (WHERE ProductionCost > 80000 AND ProductionCost < 125000)",
+    "List the movies which have not been released yet. (WHERE ReleaseDate IS NULL)"
+   ]
+  }
+ ]
+}

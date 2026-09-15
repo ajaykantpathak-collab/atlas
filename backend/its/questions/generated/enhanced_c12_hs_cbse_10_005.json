@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_005",
+   "title": "c12_hs_cbse_10_005",
+   "questions": [
+    {
+     "q": "List the seven food exchange lists used in ICMR meal planning and state the primary macronutrient each list contributes.",
+     "a": "The seven ICMR exchange lists are: Cereal (primarily carbohydrate), Pulse (protein + carbohydrate), Vegetable (vitamins/minerals/fiber, minimal macros), Fruit (carbohydrate), Milk (protein + fat + carbohydrate), Fat (fat), Sugar (carbohydrate). A wrong answer that omits \"Pulse\" or merges \"Fat\" and \"Sugar\" reveals the student hasn't internalized the ICMR classification — they may be confusing it with the 5 food groups from Class 11 (c11_hs_cbse_03_008) which don't separate pulses and fats as distinct exchange lists.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 30g raw rice and 30g raw wheat flour are both considered 1 cereal exchange despite having different weights when cooked.",
+     "a": "Exchange lists are based on raw/uncooked weight because cooking alters water content unpredictably (absorption varies with method, vessel, duration). 30g raw rice and 30g raw wheat flour each provide ~20g carbohydrate and ~80 kcal — the exchange standard. A student who says \"because they weigh the same cooked\" confuses cooked weight (variable) with raw weight (standardized). This misconception leads to erroneous portion estimation in real meal planning.",
+     "self_check": true
+    },
+    {
+     "q": "A 2000 kcal diet for a sedentary adult male requires 60% carbohydrate. Using ICMR exchange values (1 cereal exchange = 80 kcal, 1 pulse exchange = 80 kcal, 1 fruit exchange = 40 kcal, 1 sugar exchange = 20 kcal, 1 milk exchange = 100 kcal — but only 12g carb per 150ml toned milk), calculate how many total carbohydrate exchanges are needed and propose a distribution across cereal, pulse, fruit, sugar, and milk exchanges if milk is fixed at 2 exchanges.",
+     "a": "Step 1: Total carb kcal = 2000 × 0.60 = 1200 kcal. Step 2: Carb from 2 milk exchanges = 2 × 12g × 4 kcal/g = 96 kcal. Step 3: Remaining carb kcal = 1200 – 96 = 1104 kcal. Step 4: Total carb exchanges needed = 1104 / (average kcal per carb exchange). But easier: each cereal/pulse exchange gives ~20g carb (80 kcal), fruit 10g (40 kcal), sugar 5g (20 kcal). So 1 cereal = 1 carb exchange (80 kcal), 1 pulse = 1 carb exchange (80 kcal), 1 fruit = 0.5 carb exchange (40 kcal), 1 sugar = 0.25 carb exchange (20 kcal). We need 1104/80 = 13.8 cereal-equivalent exchanges. With 2 milk (already counted), distribute: cereal 7, pulse 2, fruit 2, sugar 2 → 7+2+1+0.5 = 10.5 cereal-equiv → short. Better: cereal 8, pulse 2, fruit 3, sugar 2 → 8+2+1.5+0.5=12. Still short. Need 13.8 → cereal 9, pulse 2, fruit 3, sugar 2 = 9+2+1.5+0.5=13. Close. A wrong answer that ignores milk's carb contribution or uses cooked weights shows failure to apply the exchange system quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ICMR food exchange system with the USDA \"Choose MyPlate\" food group system. Identify two advantages and two limitations of the exchange system for Indian therapeutic meal planning.",
+     "a": "Advantages: (1) Quantitative precision — exchanges allow exact macronutrient matching for diabetes/renal diets where MyPlate gives only qualitative proportions. (2) Cultural adaptability — Indian staples (roti, idli, paratha) fit cereal exchanges directly; MyPlate's \"grains\" group doesn't distinguish refined vs whole grain portions. Limitations: (1) Requires memorization of portion sizes — barriers for low-literacy populations. (2) Doesn't capture micronutrient density — 1 vegetable exchange could be potato (starchy) or spinach (iron-rich) but counts same. A student who says \"exchange system is only for hospitals\" misses its use in weight-loss apps and sports nutrition; one who says \"MyPlate is better because it's visual\" confuses communication tool with calculation tool.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Food exchange lists make meal planning rigid because you cannot eat foods outside the lists.\" Provide a reasoned judgment with examples.",
+     "a": "The statement is false. Exchange lists provide a framework, not a restriction. Foods not in lists (e.g., spices, herbs, zero-calorie beverages, small amounts of condiments) are \"free foods\" and can be used freely. Moreover, combination dishes (sambar, dhokla, pulao) are broken down into their ingredient exchanges — the system adapts to any cuisine. Rigidity arises only if the planner treats exchanges as fixed menus rather than building blocks. A student who agrees with the statement likely views exchanges as a menu template (e.g., \"breakfast = 2 cereal + 1 milk\") instead of a budgeting tool where you \"spend\" exchanges flexibly across meals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 1600 kcal diabetic meal plan (55% carb, 20% protein, 25% fat) using ICMR exchanges for a vegetarian North Indian adult. Show exchange distribution across 4 meals and give one sample menu with raw weights.",
+     "a": "Step 1: Total kcal = 1600. Carb = 880 kcal (220g), Protein = 320 kcal (80g), Fat = 400 kcal (44g). Step 2: Use exchange values: Cereal (80 kcal, 15g carb, 3g protein, 0.5g fat), Pulse (80 kcal, 15g carb, 6g protein, 0.5g fat), Milk-toned (100 kcal, 12g carb, 6g protein, 6g fat), Fat (45 kcal, 0g carb, 0g protein, 5g fat), Sugar (20 kcal, 5g carb), Vegetable (25 kcal, 3g carb, 1g protein), Fruit (40 kcal, 10g carb). Step 3: Fix milk = 2 exchanges (200 kcal). Remaining: 1400 kcal. Step 4: Solve iteratively: Cereal 7 (560), Pulse 3 (240), Vegetable 4 (100), Fruit 2 (80), Fat 5 (225), Sugar 1 (20) = 1225 kcal — short. Adjust: Cereal 8, Pulse 3, Veg 4, Fruit 2, Fat 5, Sugar 1 = 1305 + 200 milk = 1505. Add 1 cereal = 1585. Close. Sample menu: Breakfast: 2 cereal (60g wheat flour → 2 rotis) + 1 pulse (30g moong dal chilla) + 1 veg (50g spinach) + 1 fat (5g oil); Lunch: 3 cereal (90g rice) + 1 pulse (30g rajma) + 2 veg (100g mixed) + 1 fat (5g ghee); Snack: 1 fruit (100g guava) + 1 milk (150ml toned); Dinner: 2 cereal (60g wheat) + 1 pulse (30g chana) + 1 veg (50g lauki) + 1 fat (5g oil) + 1 sugar (5g jaggery in tea) + 1 milk (150ml toned). A poor answer gives only exchanges without a culturally coherent menu or ignores raw weights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

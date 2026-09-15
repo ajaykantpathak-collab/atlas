@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_008",
+   "title": "c12_biotech_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the primary heuristic strategy BLAST uses to achieve speed compared to Smith-Waterman dynamic programming, and what parameter controls the initial seed length for protein queries?",
+     "a": "BLAST uses a seed-and-extend heuristic: it breaks the query into short words (default W=3 for proteins), finds exact or high-scoring word matches in the database (seeding), then extends only those hits. Smith-Waterman computes full O(mn) matrix — guaranteed optimal but impractical for large databases. A wrong answer (e.g., \"BLAST uses dynamic programming with banded alignment\") reveals confusion between exact and heuristic algorithms; student hasn't grasped the speed-accuracy trade-off central to BLAST design.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs blastp with default parameters (BLOSUM62, W=3, T=11) on a 150-aa query against nr database (≈2×10^8 residues). They obtain an HSP with raw score S=45, λ=0.267, K=0.041. Calculate the bit score S' and E-value. Explain why this HSP might be biologically insignificant despite a low E-value.",
+     "a": "Bit score: S' = (λS - ln K)/ln 2 = (0.267×45 - ln 0.041)/0.693 = (12.015 + 3.194)/0.693 ≈ 21.9. E-value: E = m n 2^(-S') where m=query length (150), n=database length (2×10^8). E = 150 × 2×10^8 × 2^(-21.9) ≈ 3×10^10 × 2.5×10^(-7) ≈ 7.5×10^3. E ≈ 7500 — NOT significant. If student gets E<0.001, they likely used wrong formula (e.g., E = Kmn e^(-λS) without bit score conversion) or miscalculated m,n. Even with low E-value, short HSPs (<30 aa) or low complexity regions (masked by SEG) can give false positives — biological significance requires domain-length alignment, not just statistics.",
+     "self_check": true
+    },
+    {
+     "q": "You have a 500-bp cDNA sequence from an unknown plant gene. You want to find homologous protein sequences in the human proteome to infer function. Which BLAST program should you use? Justify your choice and explain how the translation step works.",
+     "a": "Use blastx: translates nucleotide query in all six reading frames (three forward, three reverse) into protein sequences, then searches protein database. This is ideal because (1) cDNA may contain sequencing errors/frameshifts — protein-level comparison is more tolerant; (2) human proteome is protein database; (3) evolutionary conservation is stronger at amino acid level. blastn would search nucleotide database (wrong target). tblastn searches protein query against translated nucleotide database (reverse direction). A student choosing blastn reveals misunderstanding of query/database types and the central dogma flow (DNA→protein for cross-species homology).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the two-hit triggering method (used in BLASTP 2.0+) with the single-hit method (original BLAST). How does two-hit reduce false positives without sacrificing sensitivity for distant homologs?",
+     "a": "Original BLAST: single word hit above threshold T triggers extension — many random hits cause wasted extensions. Two-hit method: requires two non-overlapping word hits on same diagonal within distance A (default 40 aa) before extension. Random hits rarely align on same diagonal at correct spacing; true homologs with conserved domains produce multiple nearby word hits. This drastically reduces extensions (speedup) while preserving sensitivity for multi-domain or gapped alignments where single words might score below T. A student saying \"two-hit increases sensitivity\" confuses speed with sensitivity — it maintains sensitivity by requiring corroborating evidence, not by lowering thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"An E-value of 1e-10 means there is a 1 in 10 billion chance that the alignment occurred by chance, so the sequences are definitely homologous.\" Identify the statistical misconception and the biological caveat.",
+     "a": "Misconception: E-value is expected NUMBER of chance hits with score ≥ S, not a probability. E=1e-10 means in a random database of same size, we expect 1e-10 such hits — i.e., virtually zero. But \"definitely homologous\" is wrong: (1) E-value depends on database size — same alignment in larger database gets higher E-value; (2) Low-complexity/repetitive sequences can yield low E-values without homology (masking needed); (3) Convergent evolution or shared domains can give significance without common ancestry. Student must distinguish statistical significance from evolutionary homology — a classic NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a BLAST workflow to identify potential orthologs of a human kinase gene (query length 450 aa) in a newly sequenced plant genome (assembled scaffolds, not annotated). Specify program, database preparation, parameter adjustments, and post-processing steps to distinguish orthologs from paralogs.",
+     "a": "Workflow: (1) Program: tblastn — protein query against translated plant genome (six-frame). (2) Database: create BLAST db from scaffold FASTA (makeblastdb -dbtype nucl). (3) Parameters: E-value 1e-10 (stringent), BLOSUM62, soft masking on, -max_target_seqs 20, -qcov_hsp_perc 70 (require 70% query coverage). (4) Post-process: reciprocal best hit (RBH) — take top plant hit, blastp against human proteome; if original human kinase is top hit, likely ortholog. (5) Phylogenetic check: align candidate orthologs with kinase family, build tree (ClustalW/RAxML) — orthologs cluster by speciation, not duplication. A poor answer uses blastp on unannotated genome (no protein db), skips RBH, or relies solely on E-value — missing gene duplication/paralogy distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

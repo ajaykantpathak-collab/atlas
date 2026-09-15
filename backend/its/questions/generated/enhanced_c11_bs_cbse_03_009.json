@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_009",
+   "title": "c11_bs_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the definition of a Multinational Corporation as per the NCERT Class 11 Business Studies textbook, highlighting the three distinguishing features that separate MNCs from other large Indian companies.",
+     "a": "A Multinational Corporation is a huge industrial organisation which extends its industrial and marketing operations through a network of branches/subsidiaries in several countries, characterised by (i) huge capital resources and ability to raise funds globally, (ii) advanced technology and sophisticated R&D, and (iii) centralised control from home country headquarters over broad policy framework. A wrong answer that only mentions \"foreign company operating in India\" reveals the student confuses MNCs with any foreign-invested enterprise and misses the structural features of global integration, resource scale, and centralised coordination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the 1991 Industrial Policy reforms were a turning point for MNC entry into India, connecting the reduction in reserved industries to the concept of \"global enterprises\" from the textbook.",
+     "a": "The 1991 reforms reduced industries reserved for the public sector from 17 to 3 (atomic energy, arms, rail transport), dismantled licensing for most sectors, and allowed automatic FDI approval routes. This turned India from a restricted regime into an open market where MNCs — defined as \"global enterprises\" with huge capital, technology, and worldwide networks — could enter freely, compete with domestic firms, and integrate India into their global value chains. A wrong answer focusing only on \"liberalisation\" without linking the specific policy changes (reservation reduction, FDI rules) to the MNC features (capital, technology, network) shows the student cannot connect policy mechanisms to enterprise characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "A Korean electronics MNC sets up a wholly-owned subsidiary in Tamil Nadu to manufacture smartphones for the Indian market and export to Southeast Asia. It invests ₹5,000 crore, imports advanced assembly robots, trains 2,000 local engineers, and sources 40% components from Indian vendors. Analyse the impact on the Indian economy through four channels: technology transfer, employment, export earnings, and vendor development.",
+     "a": "Technology transfer: Advanced robots and process know-how diffuse to Indian engineers and vendors (positive). Employment: 2,000 direct skilled jobs + indirect vendor jobs (positive). Export earnings: Smartphones exported to Southeast Asia earn foreign exchange (positive). Vendor development: 40% local sourcing creates demand for Indian component makers, upgrading their capabilities (positive). However, profit repatriation to Korea and potential crowding out of Indian brands are concerns. A wrong answer listing only benefits or only costs shows inability to perform multi-channel analysis; missing the export orientation or vendor linkage reveals failure to apply the \"global enterprise\" feature of integrated worldwide operations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of two MNC entry modes: (a) Greenfield investment (building new factory) vs (b) Acquisition of an existing Indian company. Which mode generates more net new employment and technology diffusion in the short run? Justify.",
+     "a": "Greenfield investment creates net new employment (construction + operations) and brings new technology/processes to India, expanding productive capacity. Acquisition transfers ownership without necessarily adding new capacity or technology; it may even reduce employment through restructuring. Thus Greenfield generates more net new employment and technology diffusion in the short run. A wrong answer claiming acquisition is better because \"it saves time\" confuses MNC's private efficiency with economy-wide impact; missing that acquisition can be \"brownfield\" with no new capital formation reveals misunderstanding of investment types.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"MNCs are harmful to the Indian economy because they repatriate profits and dominate domestic markets.\" Use at least three textbook features of MNCs to support your evaluation.",
+     "a": "The statement is partially valid but incomplete. Profit repatriation is a real outflow (valid concern). Market dominance can occur due to MNCs' huge capital resources, advanced technology, and aggressive marketing strategies (textbook features). However, these same features bring benefits: capital resources supplement domestic savings; technology raises productivity; marketing strategies expand market size and consumer choice. The net impact depends on sector, policy framework, and spillover capture. A wrong answer that agrees wholly or disagrees wholly shows inability to evaluate trade-offs; missing the link between specific MNC features (capital, technology, marketing) and their dual effects reveals superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point policy framework for the Indian government to maximise benefits and minimise costs from MNCs in the semiconductor manufacturing sector. Each point must target a specific MNC feature from the textbook.",
+     "a": "1. Mandate minimum 30% local sourcing within 5 years (targets: huge capital resources → vendor development). 2. Require joint R&D centres with IITs/Indian firms (targets: advanced technology → forced technology diffusion). 3. Cap royalty/technical fee remittances at 5% of revenue (targets: centralised control → limits profit extraction). 4. Export obligation: 50% of production for first 10 years (targets: expansion of market territory → earns forex). 5. Skill development fund: 2% of payroll to NSDC (targets: product innovation/marketing strategies → builds human capital). A poor answer listing generic policies (\"give tax breaks\", \"strict regulation\") without mapping to textbook MNC features shows inability to translate conceptual features into targeted policy instruments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

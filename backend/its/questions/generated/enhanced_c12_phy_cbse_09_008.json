@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_008",
+   "title": "c12_phy_cbse_09_008",
+   "questions": [
+    {
+     "q": "A ray of light is incident on one face of a prism of refracting angle A = 60° at an angle of incidence i = 45°. The ray emerges from the other face at an angle of emergence e = 55°. What is the angle of deviation δ? (Recall the formula relating δ, i, e, and A.)",
+     "a": "δ = i + e - A = 45° + 55° - 60° = 40°. A wrong answer (e.g., δ = i - e or δ = A - i - e) reveals the student has memorised the formula without understanding the geometry: deviation is the sum of deviations at two faces (i - r1) + (e - r2), and using r1 + r2 = A gives δ = i + e - A. If a student adds A instead of subtracting, they confuse the interior angles of the quadrilateral.",
+     "self_check": true
+    },
+    {
+     "q": "In the minimum deviation position for a prism, a student claims \"the refracted ray inside the prism is perpendicular to the base.\" Is this statement always true? Explain using the geometry of the prism and the condition r1 = r2.",
+     "a": "The statement is true ONLY for an equilateral/isosceles prism where the base is opposite the refracting angle A. At minimum deviation, r1 = r2 = A/2. The angle between the refracted ray and the base is 90° - r1 = 90° - A/2. This equals 90° only if A = 0°, which is impossible. What is true: the refracted ray is PARALLEL to the base (not perpendicular) because the angle with the normal to the base is A/2, making it parallel to the base. A wrong answer reveals confusion between \"parallel to base\" and \"perpendicular to base\" — a common diagram misinterpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A prism of refracting angle A = 60° and refractive index n = 1.5 is placed in air. Calculate the angle of minimum deviation Dm. Then find the angle of incidence i required to achieve this minimum deviation.",
+     "a": "Given: A = 60°, n = 1.5. Formula: n = sin((A + Dm)/2) / sin(A/2).\nsin((60° + Dm)/2) = n sin(30°) = 1.5 × 0.5 = 0.75.\n(60° + Dm)/2 = sin⁻¹(0.75) ≈ 48.59°.\n60° + Dm = 97.18° → Dm = 37.18° ≈ 37.2°.\nAt minimum deviation, i = (A + Dm)/2 = (60° + 37.18°)/2 = 48.59°.\nA wrong answer (e.g., using n = sin i / sin r directly without the minimum deviation formula) shows the student doesn't recognise the symmetric condition i = e, r1 = r2 = A/2. Unit check: angles in degrees, sine is dimensionless — consistent.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light is incident at an angle i = 30° on one face of a prism with A = 60° and n = 1.6. The ray undergoes total internal reflection at the second face. Determine whether this is possible. If yes, find the angle of refraction r1 at the first face and the angle of incidence r2 at the second face. (Critical angle for glass-air interface: sin ic = 1/n.)",
+     "a": "First, find r1 using Snell's law at first face: sin i = n sin r1 → sin 30° = 1.6 sin r1 → 0.5 = 1.6 sin r1 → sin r1 = 0.3125 → r1 ≈ 18.2°.\nFrom geometry: r1 + r2 = A → r2 = 60° - 18.2° = 41.8°.\nCritical angle ic = sin⁻¹(1/1.6) = sin⁻¹(0.625) ≈ 38.7°.\nSince r2 = 41.8° > ic = 38.7°, total internal reflection WILL occur at the second face.\nA wrong answer (e.g., claiming TIR cannot occur because i < ic) reveals the student applies the critical angle condition to the first face incidence i instead of the second face incidence r2. The condition for TIR is r2 > ic, not i > ic.",
+     "self_check": true
+    },
+    {
+     "q": "A thin prism of angle A = 4° is made of crown glass (n_y = 1.52, n_v = 1.53, n_r = 1.51). Calculate the angular dispersion (δ_v - δ_r) and the dispersive power ω. A student calculates ω = (n_v - n_r)/n_y. Is this correct? Justify.",
+     "a": "For thin prism: δ = (n - 1)A.\nδ_v = (1.53 - 1) × 4° = 0.53 × 4° = 2.12°.\nδ_r = (1.51 - 1) × 4° = 0.51 × 4° = 2.04°.\nAngular dispersion = δ_v - δ_r = 2.12° - 2.04° = 0.08°.\nDispersive power ω = (δ_v - δ_r)/δ_y = (n_v - n_r)/(n_y - 1) = (1.53 - 1.51)/(1.52 - 1) = 0.02/0.52 ≈ 0.0385.\nThe student's formula ω = (n_v - n_r)/n_y is WRONG. The denominator must be (n_y - 1), not n_y, because δ_y = (n_y - 1)A is the mean deviation. This error shows confusion between refractive index and deviation — a dimensional inconsistency (n_y is dimensionless but represents refractive index, not deviation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a prism, a white screen, and a narrow slit to demonstrate that the angle of minimum deviation Dm is the same for two symmetric incident angles i and e. Describe the procedure, measurements needed, and how you would verify the symmetry condition i = e from your data.",
+     "a": "Procedure: (1) Fix a narrow slit illuminated by white light. (2) Place prism on a rotatable table (or rotate the prism manually on a sheet of paper). (3) For each orientation, trace the incident and emergent rays on paper. (4) Measure i (angle between incident ray and normal to first face) and e (angle between emergent ray and normal to second face). (5) Calculate δ = i + e - A. (6) Plot δ vs i. The graph is a U-shaped curve. The minimum point gives Dm. (7) Read the two i values corresponding to a δ slightly above Dm — they should be symmetric about the i at Dm. At Dm, i = e. Verification: At the minimum point, measure i and e directly — they will be equal within experimental error. A poor answer (e.g., \"measure Dm with a spectrometer\") misses the hands-on geometry verification and the symmetry concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

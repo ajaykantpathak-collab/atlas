@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_005",
+   "title": "c12_biotech_cbse_13_005",
+   "questions": [
+    {
+     "q": "Define gene flow in the context of GM crops and name the two primary natural vectors responsible for transgene movement in flowering plants.",
+     "a": "Gene flow is the transfer of genetic material (here, the transgene and its regulatory sequences) from a GM crop to sexually compatible non-GM plants or wild relatives. The two primary natural vectors in flowering plants are pollen (male gametes) and seeds (dispersed propagules). A wrong answer that mentions only \"wind\" or only \"insects\" reveals confusion between the vector (pollen) and the transport agent (wind/insect), or omits seed-mediated flow which is critical for crops with shattering pods or volunteer plants.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why gene flow from a GM crop to a wild relative does not automatically create a \"superweed,\" and identify the three biological conditions that must be met for the transgene to confer a selective advantage in the wild population.",
+     "a": "Gene flow alone only introduces the transgene; for a superweed to arise, the hybrid must be fertile, the transgene must express a trait that enhances fitness (e.g., herbicide resistance, pest resistance) in that specific environment, and the trait must not carry a fitness cost that outweighs its benefit. A student who thinks any hybridization creates a superweed ignores the necessity of hybrid fertility, trait expression in the new genomic background, and net selective advantage — a common error in board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer plants GM herbicide-tolerant (HT) canola (Brassica napus) adjacent to a field of non-GM canola. The prevailing wind blows from the GM field toward the non-GM field. List four specific management practices that can reduce pollen-mediated gene flow in this scenario, and explain the biological basis for each.",
+     "a": "1. Isolation distance (e.g., 50–400 m): pollen density declines exponentially with distance. 2. Border rows of non-GM canola: act as a pollen trap, diluting transgenic pollen. 3. Temporal isolation (staggered planting): shifts flowering periods so pollen shed and stigma receptivity do not overlap. 4. Male sterility in the GM line: eliminates pollen production entirely. A wrong answer that suggests \"spraying herbicide on the border\" confuses weed control with gene flow containment and shows misunderstanding of the reproductive biology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast pollen-mediated gene flow versus seed-mediated gene flow in terms of (a) distance potential, (b) persistence in the environment, and (c) regulatory monitoring difficulty. Which poses a greater long-term risk for transgene establishment in feral populations?",
+     "a": "Pollen flow: shorter distance (typically <1 km for insect-pollinated crops), transient (pollen viable for hours–days), easier to monitor via trap plants. Seed flow: can travel kilometers via machinery, birds, water; seeds persist in soil seed banks for years; harder to monitor because volunteers appear unpredictably. Seed-mediated flow poses greater long-term risk because dormant seeds create a persistent reservoir that can establish feral populations even after GM cultivation ceases. Students often overemphasize pollen because it is visible, neglecting the seed bank dynamics taught in Class 10 ecology (c10_bio_cbse_04_008).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If a GM crop has no wild relatives in the cultivation area, biosafety concerns from gene flow are negligible.\" Use the concepts of feral populations, horizontal gene transfer, and non-target organism exposure in your evaluation.",
+     "a": "The statement is false. Even without wild relatives, GM crops can form feral populations (volunteers) along roadsides and field margins, becoming reservoirs for future gene flow when relatives are introduced. Horizontal gene transfer to soil bacteria, though rare, is not zero and could spread antibiotic-resistance markers. Non-target organisms (e.g., pollinators, soil microbes) may be exposed to the transgene product (e.g., Bt toxin) via pollen or root exudates. A student who agrees ignores these indirect pathways, a frequent trap in NEET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment to estimate the frequency of pollen-mediated gene flow from a GM maize field to a non-GM maize field at distances of 10 m, 50 m, and 100 m. Specify the selectable marker, sampling strategy, and statistical test you would use to compare frequencies across distances.",
+     "a": "Use GM maize expressing a herbicide-tolerance marker (e.g., BAR gene for glufosinate resistance). At each distance, plant a 10 m × 10 m non-GM maize block. At harvest, collect 500 kernels per block, grow seedlings, and spray with glufosinate; count survivors. Frequency = survivors / 500. Use chi-square test for trend (or logistic regression) to test if frequency declines significantly with distance. A poor design that samples only one ear per distance or uses a non-selective marker (e.g., GUS) reveals lack of understanding of statistical power and the need for a selectable phenotype.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

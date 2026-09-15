@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_002",
+   "title": "c12_geo_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define trade as a tertiary activity and distinguish it from primary and secondary activities using one example each from the Indian context.",
+     "a": "Trade is a tertiary activity because it provides the service of exchanging goods and services without physically transforming them — e.g., a wheat trader in Punjab buying from farmers and selling to flour mills in Delhi adds value through spatial transfer, not processing. Primary example: wheat cultivation in Punjab (extracting raw material). Secondary example: flour milling in Delhi (manufacturing). Wrong answers reveal confusion between \"handling goods\" (tertiary) and \"making goods\" (secondary) — students often classify shopkeeping as secondary because goods are physically present, missing that no transformation occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the concept of \"comparative advantage\" is necessary but not sufficient to explain India's export of software services to the USA, while India imports crude oil from West Asia. Identify the two additional geographical factors required.",
+     "a": "Comparative advantage explains why India specialises in software (skilled English-speaking labour) and West Asia in oil (geological endowment), but trade also requires: (1) Transferability — software travels via fibre-optic cables at near-zero marginal cost, while oil requires tankers, pipelines, and ports, making transport cost a decisive filter; (2) Complementarity — India's software demand matches USA's need for IT services, while India's energy deficit matches West Asia's surplus. Students who only cite \"India has engineers, Arabia has oil\" miss the transport-cost and infrastructure dimensions that make trade geographically feasible.",
+     "self_check": true
+    },
+    {
+     "q": "Using the map of India's major ports (Mumbai, Chennai, Kolkata, Vishakhapatnam, Kandla, Kochi), calculate the approximate coastal shipping distance between Kandla (Gujarat) and Vishakhapatnam (Andhra Pradesh) if the coastline distance is ~1,800 km. If a coastal vessel averages 15 knots (27.8 km/h), how many days of sailing time are required? Why might a trader still choose rail/road over coastal shipping for this route?",
+     "a": "Distance = 1,800 km. Speed = 27.8 km/h. Time = 1,800 / 27.8 ≈ 64.7 hours ≈ 2.7 days sailing. Add 1-2 days for port handling at each end → ~4-5 days total. Trader may choose rail (2-3 days door-to-door) because: (1) coastal shipping requires last-mile trucking from port to factory, (2) port congestion adds uncertainty, (3) rail offers scheduled reliability. Students who only calculate sailing time ignore port dwell time and last-mile connectivity — the real geography of trade is door-to-door, not port-to-port.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trade pattern of India's textile exports (cotton yarn, readymade garments) with its electronics imports (smartphones, components). Analyse how the \"value-to-weight ratio\" and \"perishability\" of these commodities determine their preferred transport mode and trade route.",
+     "a": "Textiles: moderate value-to-weight, non-perishable → suited for container ships via major ports (Mumbai, Chennai) to Europe/USA; low transport cost per unit allows competitive pricing. Electronics: very high value-to-weight, low perishability but high obsolescence risk → air freight preferred (Delhi, Mumbai, Chennai airports) for speed; just-in-time supply chains demand reliability over cost. Students who say \"both go by ship because it's cheaper\" miss that electronics' high value-to-weight makes air freight economical (transport cost as % of value is tiny), while textiles' lower ratio forces sea transport. Also, obsolescence risk for electronics makes time a cost.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The GST (Goods and Services Tax) has eliminated internal trade barriers in India, making domestic trade as seamless as trade within a single state.\" Support your evaluation with two geographical arguments and one counter-argument.",
+     "a": "Arguments for: (1) GST replaced multiple state-level taxes (VAT, entry tax, octroi) creating a unified national market — trucks no longer queue at state borders, reducing transit time by 20-30% (NHAI data). (2) Input tax credit mechanism allows seamless credit flow across state lines, enabling firms to locate warehouses based on logistics efficiency (e.g., Nagpur as central hub) not tax arbitrage. Counter-argument: (1) Interstate e-way bill compliance and varying state GST rates on certain goods (petroleum, alcohol excluded) still create friction. (2) Physical infrastructure gaps (poor last-mile roads, rail bottlenecks) remain the primary barrier — tax reform alone cannot overcome geography. Students who claim \"GST solved everything\" ignore that transport geography (distance, infrastructure) still shapes trade costs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a trade flow map for a hypothetical Indian agri-export startup selling mangoes from Ratnagiri (Maharashtra) to Dubai (UAE) and London (UK). Annotate: (a) origin, (b) pre-port logistics, (c) port of exit, (d) shipping route, (e) port of entry, (f) last-mile in destination, (g) two auxiliary services required at each stage. Justify your port choice.",
+     "a": "(a) Ratnagiri orchards → (b) Reefer trucks to JNPT (Nhava Sheva) via NH66 (4 hrs) — NOT Mumbai port (congested, shallow draft) → (c) JNPT: India's largest container port, dedicated reefer plugs, direct weekly services to Jebel Ali (Dubai) and London Gateway → (d) Route: JNPT → Arabian Sea → Strait of Hormuz → Jebel Ali (transshipment hub) → onward to London Gateway via Suez Canal → (e) Jebel Ali (Dubai) / London Gateway (UK) → (f) Reefer trucks to Dubai wholesale markets / UK distribution centres → (g) Auxiliary: At origin: cold storage, phytosanitary certification (APEDA), export credit insurance (ECGC). At port: customs clearance (ICEGATE), container tracking (PCS1x). At destination: import clearance, ripening chambers. Justification: JNPT handles 55% of India's container traffic, has 14m draft for mother vessels, and direct reefer services — minimising transshipment delays critical for perishable mangoes (shelf life 21-28 days). Poor answers choose Mumbai port (no draft for large reefers) or ignore cold-chain continuity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

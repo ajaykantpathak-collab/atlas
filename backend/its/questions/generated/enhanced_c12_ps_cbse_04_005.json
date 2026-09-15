@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_04_005",
+   "title": "c12_ps_cbse_04_005",
+   "questions": [
+    {
+     "q": "What were the four original Special Economic Zones (SEZs) established in 1980, and what specific policy privilege distinguished them from the rest of China at that time?",
+     "a": "The four original SEZs were Shenzhen, Zhuhai, Shantou (Guangdong), and Xiamen (Fujian). Their distinguishing privilege: they could offer foreign investors tax holidays (2-3 years), duty-free import of capital goods/raw materials, and autonomy to set wages/prices — powers denied to inland regions where central planning still dictated production. A wrong answer (e.g., listing Shanghai or Beijing) reveals confusion between SEZs and later \"Open Coastal Cities\" (1984) or Pudong New Area (1990); students often conflate the *sequence* of opening.",
+     "self_check": true
+    },
+    {
+     "q": "Why did China adopt a \"dual-track\" price system (plan prices + market prices coexisting) instead of immediate price liberalization like the Soviet Union's 1991 shock therapy?",
+     "a": "Dual-track pricing protected SOEs and urban consumers from inflationary shock: state quotas were filled at low plan prices (ensuring stability), while *surplus* output sold at market prices (incentivizing efficiency). This avoided the Soviet outcome where sudden liberalization collapsed production, caused hyperinflation, and erased savings. A wrong answer citing \"ideological commitment to socialism\" misses the *institutional* logic: China lacked a banking system, legal framework, and private sector to absorb shock — gradualism was pragmatic, not doctrinal.",
+     "self_check": true
+    },
+    {
+     "q": "A foreign firm wants to set up an electronics assembly plant in 1985 China. Which location gives it the *most* regulatory autonomy and tax benefits: (a) Shanghai, (b) Shenzhen SEZ, (c) a Township and Village Enterprise (TVE) in Jiangsu, (d) a state-owned factory in Liaoning? Justify using 1980s policy rules.",
+     "a": "(b) Shenzhen SEZ. In 1985, SEZs had legislative autonomy to approve foreign projects (up to $30M) without Beijing clearance, 15% corporate tax (vs. 33% nationally), and duty-free imports. Shanghai was an \"Open Coastal City\" (1984) with fewer incentives. TVEs were locally owned collectives — they *could* partner with foreigners but lacked SEZ legal privileges. SOEs had zero autonomy. A wrong choice (e.g., TVE) shows confusion between *decentralized ownership* (TVEs) and *special regulatory zones* (SEZs).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Township and Village Enterprises (TVEs) in China's 1980s growth with the role of private entrepreneurs in India's post-1991 liberalization. Identify two structural similarities and two fundamental differences.",
+     "a": "Similarities: (1) Both emerged outside the state sector, driving employment and exports; (2) Both exploited labor-cost advantages in light manufacturing. Differences: (1) TVEs were *collectively owned* by local governments (township/village cadres), not private individuals — profits funded local infrastructure, not personal wealth; (2) TVEs faced *soft budget constraints* (local banks lent politically), whereas Indian private firms faced hard credit markets. A wrong answer equating TVEs with \"private firms\" misses the *collective property rights* core to Market Socialism's distinctiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"China's Market Socialism succeeded because the Communist Party *abandoned* socialist principles for capitalist efficiency.\" Use the household responsibility system (HRS) and SEZ design to support your judgment.",
+     "a": "The claim is false. HRS *retained* collective land ownership — families got *use rights* (30-year leases), not private title; surplus *after* state quota was theirs, but the quota itself was a socialist redistribution tool. SEZs were \"windows\" — geographically ring-fenced, politically controlled — not nationwide privatization. The Party *used* markets to strengthen socialism (legitimacy via growth), not replace it. A wrong answer conflating \"market mechanisms\" with \"capitalist system\" ignores the *institutional architecture*: state owns land, banks, strategic SOEs; Party controls personnel, media, military.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"SEZ 2.0\" for a landlocked Chinese province in 1990 that cannot offer coastal export logistics. Propose *three* non-tariff incentives (beyond tax breaks) that leverage Market Socialism's institutional features to attract FDI. Explain why each works within the socialist framework.",
+     "a": "Good answer criteria: (1) *Land-use rights auction* with 50-year transferable leases — uses socialist \"state ownership, use-right separation\" to create collateral for bank loans; (2) *SOE partnership mandate* — foreign firm joints with local SOE, gaining supply-chain access while SOE gets technology (fits \"socialist market economy\" rhetoric); (3) *Vocational training fund* financed by local government — exploits socialist \"danwei\" (work-unit) legacy to supply disciplined labor. Poor answers offer generic \"subsidies\" or \"deregulation\" — they miss that Market Socialism *channels* incentives through state-owned banks, collective land, and Party-controlled labor allocation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

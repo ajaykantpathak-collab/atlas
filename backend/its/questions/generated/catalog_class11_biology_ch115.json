@@ -1,0 +1,275 @@
+{
+ "catalog": "catalog_class11_biology_ch115",
+ "concepts": [
+  {
+   "id": "kebo.15.1",
+   "title": "Plasma and Formed Elements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plasma and Formed Elements' refers to.",
+     "a": "Blood is a specialized fluid connective tissue consisting of a liquid extracellular matrix termed plasma and suspended cellular components called formed elements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plasma and Formed Elements'.",
+     "a": "Plasma carries water, minerals, and essential proteins, while formed elements carry out gas transport, immunity, and blood clotting.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plasma and Formed Elements', in plain ASCII form.",
+     "a": "plasma_percentage + formed_elements_percentage = 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.2",
+   "title": "ABO and Rh Blood Grouping System",
+   "questions": [
+    {
+     "q": "Using the method 'ABO and Rh Blood Grouping System', work with: matching_antigens_and_antibodies = 45. Carry the chain through step by step and give the final value of compatibility.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'ABO and Rh Blood Grouping System' and work with: matching_antigens_and_antibodies = 240. Carry the chain through step by step and give the final value of compatibility.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'ABO and Rh Blood Grouping System' refers to.",
+     "a": "Classification system for human blood based on specific inherited surface antigens A, B, and Rh factor on red blood cells, along with plasma antibodies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ABO and Rh Blood Grouping System'.",
+     "a": "Transfusion compatibility depends on matching RBC surface antigens to prevent immune-mediated clumping and hemolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'ABO and Rh Blood Grouping System', in plain ASCII form.",
+     "a": "compatibility = matching_antigens_and_antibodies",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.3",
+   "title": "Mechanism of Blood Coagulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mechanism of Blood Coagulation' refers to.",
+     "a": "A multi-step enzymatic cascade reaction that converts liquid blood into an insoluble fibrin meshwork to prevent excessive blood loss upon vascular injury.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mechanism of Blood Coagulation'.",
+     "a": "Platelets and tissue factors trigger a cascade converting inactive prothrombin into thrombin, which turns soluble fibrinogen into an insoluble fibrin clot.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mechanism of Blood Coagulation', in plain ASCII form.",
+     "a": "prothrombin --(thrombokinase, Ca++)--> thrombin; fibrinogen --(thrombin)--> fibrin",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.4",
+   "title": "Lymph and Tissue Fluid",
+   "questions": [
+    {
+     "q": "Using the method 'Lymph and Tissue Fluid', work with: blood_cells_and_large_proteins = 10, capillary_filtrate = 15. Carry the chain through step by step and give the final value of interstitial_fluid.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lymph and Tissue Fluid' and work with: blood_cells_and_large_proteins = 10, capillary_filtrate = 12. Carry the chain through step by step and give the final value of interstitial_fluid.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lymph and Tissue Fluid' refers to.",
+     "a": "Fluid filtered from blood capillaries into tissue intercellular spaces that drains into the lymphatic system to return nutrients, proteins, and lymphocytes back to circulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lymph and Tissue Fluid'.",
+     "a": "Lymph acts as a middleman for exchange between blood and cells, carrying nutrients, hormones, absorbed fats, and defensive white blood cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lymph and Tissue Fluid', in plain ASCII form.",
+     "a": "interstitial_fluid = capillary_filtrate - blood_cells_and_large_proteins",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.5",
+   "title": "Human Heart Structure and Nodal Conducting System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Heart Structure and Nodal Conducting System' refers to.",
+     "a": "A four-chambered myogenic muscular organ featuring an internal autoexcitable conducting network composed of SAN, AVN, AV bundle, and Purkinje fibers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Heart Structure and Nodal Conducting System'.",
+     "a": "The sino-atrial node spontaneously fires action potentials to set the pace of rhythmic cardiac contractions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Heart Structure and Nodal Conducting System', in plain ASCII form.",
+     "a": "impulse_pathway: SAN -> AVN -> AV_bundle -> Purkinje_fibres",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.6",
+   "title": "Cardiac Output Calculation",
+   "questions": [
+    {
+     "q": "Calculate the cardiac output given stroke volume and heart rate. Use the method 'Cardiac Output Calculation'. Work with: heart_rate = 20, stroke_volume = 8. Carry the chain through step by step and give the final value of cardiac_output.",
+     "a": "160 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of blood pumped by a ventricle per minute when stroke volume is ... and heart rate is .... Use the method 'Cardiac Output Calculation'. Work with: heart_rate = 10, stroke_volume = 4. Carry the chain through step by step and give the final value of cardiac_output.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cardiac Output Calculation' refers to.",
+     "a": "How much blood each ventricle pumps out in one minute, obtained as heart rate times the stroke volume.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cardiac Output Calculation'.",
+     "a": "Cardiac output measures heart performance and equals the product of volume per beat and beats per minute.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cardiac Output Calculation', in plain ASCII form.",
+     "a": "cardiac_output = stroke_volume * heart_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.7",
+   "title": "Duration of Cardiac Cycle",
+   "questions": [
+    {
+     "q": "Calculate the time duration of one cardiac cycle. Use the method 'Duration of Cardiac Cycle'. Work with: heart_rate = 5. Carry the chain through step by step and give the final value of cycle_duration.",
+     "a": "12 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the duration of a single heart beat when heart rate is ... beats per minute. Use the method 'Duration of Cardiac Cycle'. Work with: heart_rate = 12. Carry the chain through step by step and give the final value of cycle_duration.",
+     "a": "5 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Duration of Cardiac Cycle' refers to.",
+     "a": "The elapsed time for one complete sequence of atrial and ventricular both systole and diastole, calculated by dividing sixty seconds by the heart rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Duration of Cardiac Cycle'.",
+     "a": "The total time duration of a single cardiac cycle varies in inverse proportion with the heart rate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Duration of Cardiac Cycle', in plain ASCII form.",
+     "a": "cycle_duration = 60 / heart_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.8",
+   "title": "Electrocardiogram (ECG)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Electrocardiogram (ECG)' refers to.",
+     "a": "A standard electrical trace recording cardiac cycle depolarization and repolarization waves across P-wave, QRS complex, and T-wave segments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electrocardiogram (ECG)'.",
+     "a": "ECG waves represent distinct electrical events in the cardiac cycle used to evaluate heart health.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Electrocardiogram (ECG)', in plain ASCII form.",
+     "a": "ECG = P_wave + QRS_complex + T_wave",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.9",
+   "title": "Double Circulation and Hepatic Portal System",
+   "questions": [
+    {
+     "q": "Using the method 'Double Circulation and Hepatic Portal System', work with: pulmonary_circuit = 12, systemic_circuit = 18. Carry the chain through step by step and give the final value of double_circulation.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Double Circulation and Hepatic Portal System' and work with: pulmonary_circuit = 150, systemic_circuit = 4. Carry the chain through step by step and give the final value of double_circulation.",
+     "a": "154 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Double Circulation and Hepatic Portal System' refers to.",
+     "a": "The dual circulatory architecture comprising pulmonary circuit (heart-lungs-heart) and systemic circuit (heart-body-heart), along with specialized portal systems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Double Circulation and Hepatic Portal System'.",
+     "a": "Double circulation ensures strict separation of both oxygenated and deoxygenated blood to optimize oxygen delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Double Circulation and Hepatic Portal System', in plain ASCII form.",
+     "a": "double_circulation = pulmonary_circuit + systemic_circuit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.10",
+   "title": "Regulation of Cardiac Activity and Circulatory Disorders",
+   "questions": [
+    {
+     "q": "Using the method 'Regulation of Cardiac Activity and Circulatory Disorders', work with: adrenal_hormones = 100, autonomic_signals = 150, intrinsic_myogenic = 150. Carry the chain through step by step and give the final value of cardiac_output_control.",
+     "a": "400 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Regulation of Cardiac Activity and Circulatory Disorders' and work with: adrenal_hormones = 24, autonomic_signals = 4, intrinsic_myogenic = 40. Carry the chain through step by step and give the final value of cardiac_output_control.",
+     "a": "68 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Regulation of Cardiac Activity and Circulatory Disorders' refers to.",
+     "a": "Intrinsic myogenic control of heart rhythm modulated by autonomic neural both signals and hormones, alongside pathologies affecting blood pressure and coronary perfusion.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regulation of Cardiac Activity and Circulatory Disorders'.",
+     "a": "Autonomic nerves and hormones modulate cardiac output, while vascular arterial blockages produce hypertension, CAD, angina, and heart failure.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Regulation of Cardiac Activity and Circulatory Disorders', in plain ASCII form.",
+     "a": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "Triangles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.106.6.1",
+   "title": "Similar Figures and Similarity Criteria",
+   "section": "6.3",
+   "definition": "Two figures are similar when they have the same shape but not necessarily the same size; two triangles are similar if corresponding angles are equal (AA) or if corresponding sides are proportional (SSS), or both (SAS).",
+   "formula": "-",
+   "key_idea": "Same shape, any size: equal angles or proportional sides prove similarity.",
+   "textbook_ref": "jemh106.txt sections 6.1-6.3 (similar figures, similarity criteria)",
+   "question_patterns": [
+    "state the criteria for similarity of triangles",
+    "check whether the given triangles are similar - justify",
+    "are all circles similar - why",
+    "are all squares similar - explain",
+    "which similarity criterion applies to the given triangles",
+    "prove the given triangles similar and write the similarity statement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the angles",
+     "explain": "Two pairs of equal angles give AA similarity."},
+    {"step": 2, "action": "check the side ratios",
+     "explain": "Equal ratios of corresponding sides give SSS similarity."},
+    {"step": 3, "action": "combine if needed",
+     "explain": "One equal angle pair plus proportional adjacent sides gives SAS."}
+   ]
+  },
+  {
+   "id": "jemh.106.6.2",
+   "title": "Basic Proportionality Theorem (Thales Theorem)",
+   "section": "6.2",
+   "definition": "A line drawn parallel to one side of a triangle divides the other two sides in the same ratio; conversely, a line dividing two sides in the same ratio is parallel to the third side.",
+   "formula": "ratio_check = seg1 / seg2",
+   "key_idea": "Parallel cuts proportionally: the two segments on each side keep one ratio.",
+   "textbook_ref": "jemh106.txt section 6.2 (basic proportionality theorem and converse)",
+   "question_patterns": [
+    "state and prove the basic proportionality theorem",
+    "in the given triangle find the segments using BPT",
+    "check whether the line divides the sides in the same ratio",
+    "apply Thales theorem to find the missing length",
+    "which theorem helps when a line is parallel to a side - explain",
+    "verify the converse of BPT for the given figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the parallel line",
+     "explain": "Identify the line parallel to one side of the triangle."},
+    {"step": 2, "action": "write the proportion",
+     "explain": "The segments on the two sides are in the same ratio."},
+    {"step": 3, "action": "solve or conclude",
+     "explain": "Find the missing segment or assert the parallelism."}
+   ]
+  },
+  {
+   "id": "jemh.106.6.3",
+   "title": "Areas of Similar Triangles",
+   "section": "6.4",
+   "definition": "The ratio of the areas of two similar triangles equals the square of the ratio of their corresponding sides - doubling every side quadruples the area.",
+   "formula": "area_ratio = s * s",
+   "key_idea": "Sides scale by s, areas scale by s squared - the square is the surprise.",
+   "textbook_ref": "jemh106.txt section 6.4 (areas of two similar triangles)",
+   "question_patterns": [
+    "the sides of two similar triangles are in ratio 3 : 4 - find the ratio of their areas",
+    "find the ratio of areas of two similar triangles with the given side ratio",
+    "the areas of two similar triangles are given - find the ratio of their sides",
+    "why is the area ratio the square of the side ratio - explain",
+    "apply the area theorem to the given similar triangles",
+    "find the area of the larger triangle from the smaller and the scale"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the side ratio",
+     "explain": "The area ratio is the square of the side scale s.",
+     "compute": "area_ratio = s * s"}
+   ]
+  },
+  {
+   "id": "jemh.106.6.4",
+   "title": "Pythagoras Theorem",
+   "section": "6.5",
+   "definition": "In a right triangle the square of the hypotenuse equals the sum of the squares of the other two sides; its converse identifies right triangles, and both follow from similarity of the triangles formed by the altitude to the hypotenuse.",
+   "formula": "-",
+   "key_idea": "Right angle forces the relation: hypotenuse squared is the sum of the leg squares.",
+   "textbook_ref": "jemh106.txt section 6.5 (Pythagoras theorem and its converse)",
+   "question_patterns": [
+    "state and prove the Pythagoras theorem",
+    "check whether the triangle with the given sides is right angled",
+    "find the missing side of the right triangle from the other two",
+    "the sides are given - identify the hypotenuse and test the theorem",
+    "use the converse of Pythagoras theorem on the given data",
+    "find the diagonal or height using the Pythagorean relation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the right angle",
+     "explain": "The side opposite the right angle is the hypotenuse."},
+    {"step": 2, "action": "apply the relation",
+     "explain": "Check hypotenuse squared against the sum of leg squares."},
+    {"step": 3, "action": "conclude",
+     "explain": "Equality proves a right angle (or finds the missing side)."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh106.txt areas of similar triangles section",
+   "concept": "jemh.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "The corresponding sides of two similar triangles are in the ratio {s} : 1. Find the ratio of their areas.",
+   "extracted_variables": {
+    "s": "scale of the larger triangle relative to the smaller"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the side ratio",
+     "explain": "Areas of similar triangles scale as the square of sides.",
+     "compute": "area_ratio = s * s"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh106.txt area ratio practice",
+   "concept": "jemh.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "Two triangles are similar with a side scale of {s}. Compute the ratio of their areas.",
+   "extracted_variables": {
+    "s": "ratio of corresponding sides"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the side ratio",
+     "explain": "The theorem squares the linear scale.",
+     "compute": "area_ratio = s * s"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "jemh106.txt EXERCISE 6.1-6.3",
+   "questions": [
+     "State which pairs of the given figures are similar.",
+     "Prove the basic proportionality theorem.",
+     "Show that the given triangles are similar using the criteria."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "jemh106.txt EXERCISE 6.4-6.5",
+   "questions": [
+     "Find the ratio of areas of the given similar triangles.",
+     "Solve the given problems using the Pythagoras theorem.",
+     "Prove the converse of Pythagoras theorem."
+   ]
+  }
+ ]
+}

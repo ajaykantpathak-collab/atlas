@@ -1,0 +1,461 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 3,
+ "chapter_title": "Brief Overview of Python",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip103.1",
+   "title": "Arithmetic Operators: Floor Division, Modulo, Exponent",
+   "section": "3.6.1",
+   "definition": "Beyond the four familiar operations, Python offers three special arithmetic tools: // keeps only the whole-number part of a quotient, % hands back the leftover after division, and ** raises a base to a power. For any division, quotient times divisor plus remainder always rebuilds the dividend.",
+   "formula": "remainder = dividend % divisor",
+   "key_idea": "// drops the decimals, % keeps what // threw away, and ** repeats multiplication.",
+   "textbook_ref": "keip103.txt section 3.6.1, Table 3.3 (lines 392-500)",
+   "question_patterns": [
+    "find the value of 13 % 5 and 13 // 5 in Python",
+    "what is the output of 3 ** 4 in the Python shell",
+    "evaluate 5 // 2 and 2 // 5 and explain the difference in results",
+    "for dividend 23 and divisor 4, compute quotient, remainder and verify quotient * divisor + remainder",
+    "which operator returns the remainder of a division in Python",
+    "predict the output of print(4.00/(2.0+2.0))"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the whole-number quotient",
+     "explain": "floor division // removes the decimal part of the quotient",
+     "compute": "quotient = dividend // divisor"
+    },
+    {
+     "step": 2,
+     "action": "take the leftover",
+     "explain": "the modulo operator % returns what remains after the whole quotient is removed",
+     "compute": "remainder = dividend % divisor"
+    },
+    {
+     "step": 3,
+     "action": "rebuild the dividend as a check",
+     "explain": "quotient * divisor + remainder must reproduce the original dividend",
+     "compute": "rebuilt_value = quotient * divisor + remainder"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does 17 // 5 evaluate to in Python?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "keip103.2",
+   "title": "Operator Precedence Evaluation Order",
+   "section": "3.7.1",
+   "definition": "When several operators share one expression, precedence decides who acts first: parentheses beat everything, then * / // %, then + and -. Equal-precedence partners work left to right, and each step of the evaluation rewrites the expression until one number remains.",
+   "formula": "expression_result = first_part + second_part",
+   "key_idea": "Parentheses first, then multiply/divide, then add/subtract; ties resolve left to right.",
+   "textbook_ref": "keip103.txt section 3.7.1, Examples 3.5-3.7 (lines 691-744)",
+   "question_patterns": [
+    "how will Python evaluate the expression 20 + 30 * 40",
+    "evaluate (20 + 30) * 40 step by step and compare with 20 + 30 * 40",
+    "find the value of 15.0 / 4.0 + (8 + 3.0)",
+    "why does parenthesis override the normal precedence of operators",
+    "evaluate 2 + 9 * ((3 * 12) - 8) / 10 showing every step",
+    "state the order in which Python evaluates * and + in one expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "clear the innermost parentheses",
+     "explain": "the bracketed sum is evaluated before anything outside it",
+     "compute": "paren_value = 8 + 3.0"
+    },
+    {
+     "step": 2,
+     "action": "apply the higher-precedence division",
+     "explain": "the / operation binds tighter than +, so it is performed next",
+     "compute": "quotient_part = 15.0 / 4.0"
+    },
+    {
+     "step": 3,
+     "action": "finish with the addition",
+     "explain": "the two prepared parts are added last to give the final value",
+     "compute": "expression_result = quotient_part + paren_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Evaluate 4 + 6 / 2 in Python.",
+     "a": "7"
+    }
+   ]
+  },
+  {
+   "id": "keip103.3",
+   "title": "Augmented Assignment Operators",
+   "section": "3.6.3",
+   "definition": "Shorthand operators such as +=, -=, *=, /=, //= and **= fold an arithmetic step into the assignment itself: x += y means x is replaced by x + y. Chaining two of them applies the updates one after another to the running value.",
+   "formula": "final_value = after_add * multiplier",
+   "key_idea": "Each augmented operator rewrites the variable in place using its own current value.",
+   "textbook_ref": "keip103.txt section 3.6.3, Table 3.5 (lines 558-609)",
+   "question_patterns": [
+    "num1 = 4 and num2 = 3; what is num1 after num1 += num2",
+    "rewrite x += y as a plain assignment statement",
+    "starting from num1 = 2, what is num1 after num1 += 3 followed by num1 *= 2",
+    "give the output of num1 -= num2 when num1 = 10 and num2 = 2",
+    "name all the augmented assignment operators available in Python",
+    "num1 = 4; predict the printed value after num1 **= 2 + 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the first augmented update",
+     "explain": "+= adds the increment to the variable's current value and stores it back",
+     "compute": "after_add = old_value + increment"
+    },
+    {
+     "step": 2,
+     "action": "apply the second augmented update",
+     "explain": "*= multiplies the running value by the multiplier and stores it back",
+     "compute": "final_value = after_add * multiplier"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "After x = 5 and x += 3, what is x?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "keip103.4",
+   "title": "Simple Interest Amount Payable",
+   "section": "3.10",
+   "definition": "When money is lent at a fixed yearly rate, the interest charged grows linearly with the principal, the rate and the time in years. The borrower returns the principal together with this interest as the amount payable.",
+   "formula": "amount_payable = principal + simple_interest",
+   "key_idea": "Interest equals principal times rate times time divided by 100; add it back to the principal to get the payable amount.",
+   "textbook_ref": "keip103.txt Exercise Q6 and compound-interest function example (lines 853-862, 1259-1264)",
+   "question_patterns": [
+    "write the steps to calculate the amount payable when money is lent on simple interest",
+    "find the simple interest on a principal of 5000 at 6 percent per annum for 2 years",
+    "a sum of 12000 is lent at 8 percent for 3 years; compute the amount payable",
+    "state the formula linking principal, rate, time and simple interest",
+    "how much interest accrues on 2500 at 4 percent per annum in 30 months",
+    "write a Python program that takes principal, rate and time as input and prints the payable amount"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the three given quantities",
+     "explain": "principal, yearly rate and years in years multiply together, then division by 100 converts the rate percent",
+     "compute": "simple_interest = principal * rate * time_years / 100"
+    },
+    {
+     "step": 2,
+     "action": "add the interest to the loan",
+     "explain": "the payable amount is the original principal plus the earned interest",
+     "compute": "amount_payable = principal + simple_interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Find the simple interest on Rs 5000 at 8 percent per year for 2 years, in rupees.",
+     "a": "800"
+    }
+   ]
+  },
+  {
+   "id": "keip103.5",
+   "title": "range Function Loop Count and Last Value",
+   "section": "3.12.1",
+   "definition": "range([start], stop[, step]) produces the integers from start up to but excluding stop, spaced by step. The number of values it yields is the smallest count of steps that reaches or crosses stop, and the last printed value sits one step short of stop.",
+   "formula": "loop_count = (stop_value - start_value + step_value - 1) // step_value",
+   "key_idea": "Count the iterations with an upward rounded division, then add (count - 1) steps to the start to land on the final value printed.",
+   "textbook_ref": "keip103.txt section 3.12.1, Example 3.13 and Exercise Q11 (lines 1080-1108, 1274-1277)",
+   "question_patterns": [
+    "find the output of for i in range(20,30,2): print(i)",
+    "how many numbers does list(range(10)) contain",
+    "what is the last value printed by for i in range(2, 10)",
+    "state the output of list(range(0, 30, 5))",
+    "why does range(0, -9, -1) generate a decreasing sequence",
+    "count how many times the loop body runs for range(5, 25, 4)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the iterations",
+     "explain": "divide the span rounded upward by the step to get how many values appear",
+     "compute": "loop_count = (stop_value - start_value + step_value - 1) // step_value"
+    },
+    {
+     "step": 2,
+     "action": "land on the final value",
+     "explain": "the last value is start advanced by (loop_count - 1) steps of the given size",
+     "compute": "last_value = start_value + (loop_count - 1) * step_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many values does range(3, 12, 3) yield?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "keip103.6",
+   "title": "Nested Loop Print Count",
+   "section": "3.13",
+   "definition": "A loop placed inside another loop is called nested: for every single pass of the outer loop, the inner loop finishes all of its own passes. The total number of inner-body executions is therefore the product of the two iteration counts.",
+   "formula": "total_prints = outer_steps * inner_steps",
+   "key_idea": "Outer pass count times inner pass count gives how many times the innermost statement runs.",
+   "textbook_ref": "keip103.txt section 3.13, Program 3-6 (lines 1127-1159)",
+   "question_patterns": [
+    "how many times is the inner print executed when the outer loop runs 3 times and the inner loop 2 times",
+    "count the total lines printed by Program 3-6 including the Out of outer loop message",
+    "a nested loop has an outer range(4) and an inner range(5); how many inner iterations occur in total",
+    "why does the inner loop restart on every pass of the outer loop",
+    "how many times does the message Out of inner loop appear in Program 3-6",
+    "if the inner body prints 2 lines, how many lines appear inside the loops for 3 outer passes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the lines produced in one outer pass",
+     "explain": "each outer pass prints the inner values plus one Out of inner loop message, so inner_count + 1 lines",
+     "compute": "lines_per_pass = inner_count + 1"
+    },
+    {
+     "step": 2,
+     "action": "scale by the number of outer passes",
+     "explain": "the outer loop repeats that block outer_count times",
+     "compute": "loop_lines = lines_per_pass * outer_count"
+    },
+    {
+     "step": 3,
+     "action": "add the closing message",
+     "explain": "one final Out of outer loop line appears after both loops end",
+     "compute": "grand_total = loop_lines + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An outer loop runs 4 times and an inner loop runs 3 times per pass. How many times does the innermost statement execute?",
+     "a": "12"
+    }
+   ]
+  },
+  {
+   "id": "keip103.7",
+   "title": "Choosing Python Data Types",
+   "section": "3.5",
+   "definition": "Every value in Python carries a type: int for whole counts, float for measurements with decimals, bool for the two truth constants True and False, complex for imaginary parts, str for text, list and tuple for ordered groups, and dictionary for key-value pairs. Picking the type means matching the kind of data and the operations needed.",
+   "formula": "chosen_type = int_or_float_or_str",
+   "key_idea": "Counts take int, measurable quantities take float, yes/no facts take bool, and text takes str.",
+   "textbook_ref": "keip103.txt sections 3.5-3.5.3, Exercise Q3 (lines 234-380, 1223-1232)",
+   "question_patterns": [
+    "which data type will represent the number of months in a year and why",
+    "which data type suits storing whether a student is a resident of Delhi or not",
+    "why is a mobile number better stored as a string than a number",
+    "name the data type for pocket money and for the volume of a sphere",
+    "how does a tuple differ from a list in Python",
+    "which mapping data type does Python provide and how are its items accessed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ask whether the data is counted, measured, true/false or textual",
+     "explain": "counted things are int, measured ones float, yes/no facts bool, text str"
+    },
+    {
+     "step": 2,
+     "action": "check whether several values travel together",
+     "explain": "ordered groups use list (changeable) or tuple (fixed); labelled pairs use a dictionary"
+    },
+    {
+     "step": 3,
+     "action": "watch for digit-only text",
+     "explain": "values like phone numbers or codes may look numeric but behave as strings when leading zeros or lookup matter"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which data type fits a yes/no fact?",
+     "a": "bool"
+    }
+   ]
+  },
+  {
+   "id": "keip103.8",
+   "title": "Syntax, Logical and Runtime Errors",
+   "section": "3.9",
+   "definition": "Program mistakes come in three kinds. Syntax errors break the language rules so the interpreter refuses to run the code at all. Logical errors run silently but produce a wrong result because the method itself is flawed. Runtime errors pass the syntax check yet abort midway, for example when a denominator turns out to be zero. Locating and fixing them is called debugging.",
+   "formula": "error_class = syntax_or_logical_or_runtime",
+   "key_idea": "Syntax stops the program before it starts, logic gives wrong answers quietly, runtime crashes mid-flight.",
+   "textbook_ref": "keip103.txt sections 3.9-3.9.3 (lines 794-840)",
+   "question_patterns": [
+    "categorise 25 / 0 as syntax, logical or runtime error",
+    "why does writing 10 + 12/2 for an average show a logical error rather than a syntax error",
+    "which type of error stops a Python program before execution begins",
+    "give one example of a runtime error besides division by zero",
+    "define debugging and name the errors it removes",
+    "is a missing closing parenthesis a syntax error or a runtime error"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test whether the interpreter even starts",
+     "explain": "refusal to run with an error message signals a syntax error, like an unclosed bracket"
+    },
+    {
+     "step": 2,
+     "action": "test whether the program finishes",
+     "explain": "mid-run abort means a runtime error, for example a zero denominator"
+    },
+    {
+     "step": 3,
+     "action": "test whether the answer is right",
+     "explain": "a clean run with a wrong value exposes a logical error, such as a misplaced average formula"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which error kind stops the program before it starts?",
+     "a": "syntax error"
+    }
+   ]
+  },
+  {
+   "id": "keip103.9",
+   "title": "if elif else Conditional Statements",
+   "section": "3.11",
+   "definition": "Conditional statements let one program take different paths depending on a test. A plain if runs its indented block only when the condition holds; if...else adds an alternative block for the failing case; the if...elif...else ladder checks several conditions in order and runs the first block whose test is true.",
+   "formula": "elif_chain_checks = conditions_count",
+   "key_idea": "The ladder tests conditions top to bottom and runs only the first true block before skipping the rest.",
+   "textbook_ref": "keip103.txt section 3.11, Examples 3.11-3.12 (lines 942-1026)",
+   "question_patterns": [
+    "what is the difference between the else and elif constructs of the if statement",
+    "write the condition under which a program prints Eligible to vote using if",
+    "how does the interpreter choose which block of an if..elif..else ladder to execute",
+    "write a ladder that labels a number as positive, negative or zero",
+    "why is indentation important for the body of an if statement",
+    "how many elif parts may one if statement contain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the first test",
+     "explain": "if it is true, its indented block runs and the whole ladder is left"
+    },
+    {
+     "step": 2,
+     "action": "walk down the elif tests",
+     "explain": "each failing test passes control to the next elif condition in line"
+    },
+    {
+     "step": 3,
+     "action": "fall back to else",
+     "explain": "when no test succeeds, the else block, if present, executes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which clause runs when every test in the ladder fails?",
+     "a": "else"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip103.txt Exercise Q6 (simple interest program)",
+   "concept": "keip103.4",
+   "question_type": "numeric",
+   "question_pattern": "Money lent: principal 5000, rate 6 percent per annum, time 2 years. Calculate the amount payable.",
+   "extracted_variables": {
+    "principal": 5000,
+    "rate": 6,
+    "time_years": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the interest",
+     "explain": "5000 * 6 * 2 / 100 = 600",
+     "compute": "simple_interest = principal * rate * time_years / 100"
+    },
+    {
+     "step": 2,
+     "action": "add interest to the principal",
+     "explain": "5000 + 600 = 5600 payable",
+     "compute": "amount_payable = principal + simple_interest"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip103.txt Example 3.7 (precedence)",
+   "concept": "keip103.2",
+   "question_type": "numeric",
+   "question_pattern": "How will Python evaluate the expression 15.0 / 4.0 + (8 + 3.0)? Show each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "clear the parentheses first",
+     "explain": "(8 + 3.0) = 11.0",
+     "compute": "paren_value = 8 + 3.0"
+    },
+    {
+     "step": 2,
+     "action": "apply the division",
+     "explain": "15.0 / 4.0 = 3.75",
+     "compute": "quotient_part = 15.0 / 4.0"
+    },
+    {
+     "step": 3,
+     "action": "perform the addition last",
+     "explain": "3.75 + 11.0 = 14.75",
+     "compute": "expression_result = quotient_part + paren_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip103.txt Exercise Q1, Q3, Q4",
+   "questions": [
+    "Which identifier names are invalid and why: Serial_no., 1st_Room, Hundred$, Total Marks, Total_Marks, total-Marks, _Percentage, True? (invalid: Serial_no. has a dot, 1st_Room starts with a digit, Hundred$ has $, Total Marks has a space, total-Marks has a hyphen, True is a keyword)",
+    "State the data type for: number of months in a year (int), resident of Delhi or not (bool), pocket money (float), perimeter of a square (float), name of the student (str).",
+    "With num1 = 4, num2 = 3, num3 = 2, give the output of num1 += num2 + num3. (9)",
+    "With num1 = 4, num2 = 3, num3 = 2, give the output of num1 = num1 ** (num2 + num3). (81)",
+    "Give the output of print('5' + '5'). (55 as a string)",
+    "Evaluate 2 + 9 * ((3 * 12) - 8) / 10. (27.2)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip103.txt Exercise Q5, Q7, Q8, Q11",
+   "questions": [
+    "Categorise as syntax, logical or runtime error: (a) 25 / 0 (b) writing 10 + 12/2 to average 10 and 12. (runtime; logical)",
+    "Find the output of for i in range(20,30,2): print(i). (20 22 24 26 28)",
+    "Find the output when the string INDIA is iterated with for and each character printed. (I N D I A on separate lines)",
+    "Find the sum printed by the while loop that adds i to sum whenever i % 4 == 0 for i = 0,2,4,6,8. (12)",
+    "Write assignment statements to store 10 in length and 20 in breadth and their average in a variable. (length = 10; breadth = 20; average = (length + breadth) / 2)",
+    "How many times does the print inside the loop execute for range(5, 25, 4)? (5 times)"
+   ]
+  }
+ ]
+}

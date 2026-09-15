@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_5",
+   "title": "c8_math_ch11_5",
+   "questions": [
+    {
+     "q": "What is the multiplication factor by which the perimeter of the Koch Snowflake increases at each iteration?",
+     "a": "The perimeter increases by a factor of 4/3 at each iteration. A wrong answer like \"3/4\" or \"4\" reveals the student confuses the direction of growth (thinking perimeter shrinks) or only counts the number of new segments (4) without accounting for the side length becoming 1/3 of the previous.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why each side of the Koch Snowflake is replaced by 4 segments of length 1/3 of the original side, and how this leads to a perimeter multiplier of 4/3.",
+     "a": "The middle third is removed and replaced by two segments that form an equilateral triangle, so one segment becomes 4 segments each of length 1/3. The new total length is 4 × (1/3) = 4/3 times the original. A wrong explanation that says \"we add two segments\" without removing the middle third shows the student misses the replacement step and would incorrectly get a multiplier of 5/3.",
+     "self_check": true
+    },
+    {
+     "q": "If the initial equilateral triangle has a side length of 12 cm, what is the perimeter of the Koch Snowflake after 2 iterations?",
+     "a": "Step 1: Initial perimeter P₀ = 3 × 12 = 36 cm.\nStep 2: After 1st iteration, P₁ = 36 × (4/3) = 48 cm.\nStep 3: After 2nd iteration, P₂ = 48 × (4/3) = 64 cm.\nAlternatively, using formula: P₂ = 3 × 12 × (4/3)² = 36 × 16/9 = 64 cm.\nA wrong answer of 80 cm (using 5/3 factor) or 53.33 cm (using (4/3) once only) reveals computational errors in fraction multiplication or misunderstanding of iteration count.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of the number of sides and the length of each side in the Koch Snowflake. At step n, if the initial triangle has side s, write expressions for: (a) number of sides, (b) length of each side, (c) total perimeter. How are they related?",
+     "a": "(a) Number of sides = 3 × 4ⁿ. (b) Side length = s / 3ⁿ. (c) Perimeter = 3s × (4/3)ⁿ.\nRelation: Perimeter = (number of sides) × (side length) = 3·4ⁿ × s/3ⁿ = 3s(4/3)ⁿ.\nA student who writes number of sides as 3n+3 or side length as s−n reveals they are looking for additive patterns instead of multiplicative geometric progression.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Koch Snowflake perimeter after 3 steps starting from side 9 cm is 9 × (4/3)³ = 9 × 64/27 = 64/3 cm.\" Evaluate this claim and correct any error.",
+     "a": "The claim is incorrect. The initial perimeter is 3 × 9 = 27 cm, not 9 cm. The correct perimeter after 3 steps is 27 × (4/3)³ = 27 × 64/27 = 64 cm. The student forgot to multiply by 3 for the three sides of the starting triangle. This error shows confusion between side length and total perimeter.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where the Koch Snowflake construction could model a situation involving repeated scaling, and write the perimeter after 4 iterations if the initial side is 15 cm.",
+     "a": "Example problem: \"A wireless network antenna is shaped like a Koch Snowflake to maximise reception length within a small area. If the initial triangular frame has side 15 cm, find the total wire length needed after 4 iterations.\" Perimeter = 3 × 15 × (4/3)⁴ = 45 × 256/81 = 1280/9 ≈ 142.22 cm. A poor answer would give a problem that doesn't involve iterative scaling (e.g., just a triangle) or miscalculates the power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

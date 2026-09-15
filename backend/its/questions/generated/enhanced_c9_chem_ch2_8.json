@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_8",
+   "title": "c9_chem_ch2_8",
+   "questions": [
+    {
+     "q": "Write the nuclear notation (symbol with mass number and atomic number) for an isotope of carbon that has 8 neutrons.",
+     "a": "The nuclear notation is ¹⁴₆C. Carbon's atomic number is 6 (6 protons). With 8 neutrons, mass number = 6 + 8 = 14. A wrong answer like ¹²₆C reveals the student assumes all carbon is carbon-12, not understanding that isotopes vary in neutron count. Writing ¹⁴₇N shows confusion between atomic number and mass number.",
+     "self_check": true
+    },
+    {
+     "q": "Chlorine exists as two isotopes: ³⁵₁₇Cl (75% abundance) and ³⁷₁₇Cl (25% abundance). Explain why both isotopes form the exact same compound NaCl when reacting with sodium, but chlorine gas (Cl₂) made purely from ³⁷Cl would diffuse more slowly than normal chlorine gas.",
+     "a": "Chemical properties depend on electron configuration, which is identical for both isotopes (17 electrons). Physical properties like diffusion rate depend on molecular mass; ³⁷Cl₂ has higher molar mass than ³⁵Cl₂, so it diffuses slower (Graham's law). A wrong answer claiming different compounds form reveals the misconception that neutrons affect chemical bonding. Saying diffusion is the same reveals confusion between chemical and physical properties.",
+     "self_check": true
+    },
+    {
+     "q": "A sample of oxygen contains three isotopes: ¹⁶₈O (99.76%), ¹⁷₈O (0.04%), and ¹⁸₈O (0.20%). Calculate the average atomic mass of oxygen in this sample. Show your working.",
+     "a": "Step 1: Convert percentages to decimals: 0.9976, 0.0004, 0.0020.\nStep 2: Multiply each mass by its abundance: (16 × 0.9976) + (17 × 0.0004) + (18 × 0.0020) = 15.9616 + 0.0068 + 0.0360 = 16.0044 u.\nStep 3: Round to two decimals: 16.00 u.\nA wrong answer of 16 u exactly (ignoring minor isotopes) shows the student doesn't understand weighted averages. An answer of 17 u (simple average) reveals confusion between arithmetic mean and weighted average.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following pairs and identify which are isotopes of each other: (a) ¹⁴₆C and ¹⁴₇N, (b) ¹²₆C and ¹⁴₆C, (c) ⁴⁰₁₈Ar and ⁴⁰₂₀Ca, (d) ¹H and ²H. Justify each choice using proton and neutron counts.",
+     "a": "(a) Not isotopes: different atomic numbers (6 vs 7) – these are isobars.\n(b) Isotopes: same atomic number (6), different mass numbers (12 vs 14) – different neutrons (6 vs 8).\n(c) Not isotopes: different atomic numbers (18 vs 20) – these are isobars.\n(d) Isotopes: both atomic number 1, mass numbers 1 and 2 – neutrons 0 and 1.\nA wrong classification of (a) or (c) as isotopes reveals the student confuses \"same mass number\" (isobars) with \"same atomic number\" (isotopes).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Deuterium (²H) and Tritium (³H) are isotopes of hydrogen. Since they have different neutrons, they will react with oxygen at different rates to form water.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is incorrect. While deuterium and tritium are indeed isotopes of hydrogen, chemical reaction rates depend on activation energy and electron interactions, which are nearly identical for isotopes. The rate difference (kinetic isotope effect) is very small for hydrogen-oxygen reaction at room temperature and not a general rule. A student agreeing reveals the misconception that different mass always means different chemical reactivity. The correct evaluation: isotopes have nearly identical chemical properties; physical properties (density, boiling point, diffusion) differ.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only school-lab equipment (balance, graduated cylinder, water) to demonstrate that heavy water (D₂O) has a higher density than normal water (H₂O). Write the procedure, expected observations, and the conclusion linking to isotopes.",
+     "a": "Procedure: Measure 50 mL of normal water and 50 mL of heavy water (if available) separately in identical graduated cylinders. Weigh each on a balance. Calculate density = mass/volume.\nExpected: Heavy water mass ≈ 55.5 g (density 1.11 g/mL), normal water ≈ 50 g (density 1.00 g/mL).\nConclusion: The higher density of D₂O is because deuterium has a neutron, doubling the hydrogen mass, while volume remains similar. A poor answer that suggests tasting or using radioactive detection reveals inability to design a safe, quantitative physical property comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

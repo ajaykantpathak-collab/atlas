@@ -1,0 +1,1176 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Predicting What Comes Next: Exploring Sequences and Progressions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh108.txt",
+ "concepts": [
+  {
+   "id": "iemh.108.1",
+   "title": "Explicit Rule for a Sequence",
+   "section": "8.2",
+   "definition": "One rule that jumps straight to any term of a sequence from its position number alone.",
+   "formula": "t_n = linear_coeff * n + constant_term",
+   "key_idea": "No climbing through earlier terms: plug in the position, read the term.",
+   "textbook_ref": "iemh108.txt lines 115-135",
+   "question_patterns": [
+    "A sequence runs 4, 7, 10, ...; write its rule and find the 50th term.",
+    "If a sequence follows u_n = 2n - 1, what is u_53?",
+    "Compute the term at position 12 for the rule u_n = 5n + 3.",
+    "Which rule jumps straight to any term? State it for 6, 11, 16, ...",
+    "Evaluate the 100th term of the sequence with rule 7n - 4."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply index by linear coefficient",
+     "explain": "scale position index n by linear factor",
+     "compute": "scaled = linear_coeff * n"
+    },
+    {
+     "step": 2,
+     "action": "add constant offset",
+     "explain": "add constant value to complete term evaluation",
+     "compute": "term_value = scaled + constant_term"
+    },
+    {
+     "step": 3,
+     "action": "Verify the term matches the sequence pattern",
+     "explain": "Check that the computed term is consistent with the known terms of the sequence."
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.2",
+   "title": "Term Position from a Linear Rule",
+   "section": "8.2",
+   "definition": "Given a term's value and the sequence's rule, run the rule backwards to find which position holds it.",
+   "formula": "n = (term_value - constant_term) / linear_coeff",
+   "key_idea": "Solve for the position instead of the term.",
+   "textbook_ref": "iemh108.txt lines 136-155",
+   "question_patterns": [
+    "Which term of the sequence 5n - 2 equals 308?",
+    "In the sequence with rule 3n + 1, find the position of the term 91.",
+    "The term value is 100 for rule 4n - 8; calculate its position.",
+    "Locate where 149 sits in the sequence u_n = 6n - 1.",
+    "For u_n = 9n - 5, find n when the term is 220."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract constant offset from term value",
+     "explain": "isolate term product by removing constant offset",
+     "compute": "diff = term_value - constant_term"
+    },
+    {
+     "step": 2,
+     "action": "divide by linear coefficient",
+     "explain": "divide difference by coefficient to find term index n",
+     "compute": "n = diff / linear_coeff"
+    },
+    {
+     "step": 3,
+     "action": "Verify that n is a positive integer",
+     "explain": "A valid position must be a whole number greater than zero, confirming the term belongs to the sequence."
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.3",
+   "title": "Next Term from a Recurrence",
+   "section": "8.3",
+   "definition": "Build each new term out of the one before it by repeating the same operation.",
+   "formula": "t_n = multiplier * t_{n-1} + addend",
+   "key_idea": "Each step needs the previous value; the recurrence is the engine.",
+   "textbook_ref": "iemh108.txt lines 160-195",
+   "question_patterns": [
+    "The rule is multiply by 2 and subtract 1; find the next term after 15.",
+    "Each term is the previous one times 3, plus 2; continue from 5.",
+    "Apply the rule next = 2 x current - 1 to the current term 31.",
+    "A recurrence halves the term and adds 4; what follows 20?",
+    "Generate the term after 11 for the rule times 2 plus 3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply previous term by constant factor",
+     "explain": "apply multiplication multiplier to previous term",
+     "compute": "prod = multiplier * prev_term"
+    },
+    {
+     "step": 2,
+     "action": "add constant addend",
+     "explain": "add shift addend to obtain current term",
+     "compute": "next_term = prod + addend"
+    },
+    {
+     "step": 3,
+     "action": "Verify the next term follows the recurrence pattern",
+     "explain": "Check that applying the recurrence rule again produces a consistent sequence, confirming the calculation is correct."
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.4",
+   "title": "nth Term of an Arithmetic Progression",
+   "section": "8.4",
+   "definition": "Terms that step up or down by one fixed amount form an AP; the nth term equals the first term plus n minus 1 steps of that amount.",
+   "formula": "t_n = a + (n - 1) * d",
+   "key_idea": "First term plus (n - 1) equal steps.",
+   "textbook_ref": "iemh108.txt lines 210-245",
+   "question_patterns": [
+    "Find the 20th term of the AP with first term 3 and common difference 5.",
+    "An AP starts at 100 and steps by -7; calculate its 15th term.",
+    "What is the 9th term of the progression 2, 9, 16, ...?",
+    "For first term 4 and common difference 11, compute term 25.",
+    "State the nth term rule for the AP 12, 19, 26, ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate position offset",
+     "explain": "subtract 1 from term position n",
+     "compute": "offset = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply offset by common difference",
+     "explain": "scale difference by offset count",
+     "compute": "total_diff = offset * d"
+    },
+    {
+     "step": 3,
+     "action": "add initial term",
+     "explain": "add first term a to obtain nth term value",
+     "compute": "term_n = a + total_diff"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.5",
+   "title": "Finding Common Difference and First Term of an AP",
+   "section": "8.4",
+   "definition": "Subtract any term from the one right after it; that gap is the fixed step size.",
+   "formula": "d = t_2 - t_1",
+   "key_idea": "One subtraction reveals the step; it must repeat everywhere.",
+   "textbook_ref": "iemh108.txt lines 225-240",
+   "question_patterns": [
+    "Find the common difference of the AP 7, 12, 17, ...",
+    "Calculate d for the progression 50, 43, 36, ...",
+    "What is the step size between the terms 19 and 31 in an AP?",
+    "Determine the common difference from consecutive terms 2.5 and 4.",
+    "Check whether 3, 7, 11 keeps a constant step and state it."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract first term from second term",
+     "explain": "compute consecutive term difference to get common difference",
+     "compute": "d = term2 - term1"
+    },
+    {
+     "step": 2,
+     "action": "Check the difference repeats between another pair of consecutive terms",
+     "explain": "Confirming the same gap appears elsewhere verifies the sequence is truly arithmetic."
+    },
+    {
+     "step": 3,
+     "action": "Use the common difference to find the first term if needed",
+     "explain": "Subtract the common difference from the first known term to recover the starting value of the AP.",
+     "compute": "a = term1 - d * (position_of_term1 - 1)"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.6",
+   "title": "Term Position in an Arithmetic Progression",
+   "section": "8.4",
+   "definition": "Given a value sitting inside an AP, work out its position by counting how many steps of size d separate it from the first term.",
+   "formula": "n = (t_n - a) / d + 1",
+   "key_idea": "Steps taken plus one is the position.",
+   "textbook_ref": "iemh108.txt lines 285-300",
+   "question_patterns": [
+    "Which term of the AP 3, 8, 13, ... is 78?",
+    "Find the position of 100 in the progression with first term 4 and difference 6.",
+    "Calculate the term number of 51 in the AP 7, 12, 17, ...",
+    "The value 0 appears where in the progression 21, 14, 7, ...?",
+    "Locate the term 125 in the AP with first term 5 and difference 12."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find total change from initial term",
+     "explain": "subtract initial term a from target term value",
+     "compute": "total_change = target_val - a"
+    },
+    {
+     "step": 2,
+     "action": "divide total change by common difference",
+     "explain": "determine number of step increments",
+     "compute": "steps = total_change / d"
+    },
+    {
+     "step": 3,
+     "action": "add 1 to get index n",
+     "explain": "shift step count by 1 to get term position",
+     "compute": "n = steps + 1"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.7",
+   "title": "Sum of First n Natural Numbers",
+   "section": "8.5",
+   "definition": "Add the whole numbers from 1 through n by pairing ends: each pair shares one total, which gives the closed form.",
+   "formula": "S_n = n * (n + 1) / 2",
+   "key_idea": "Pairing trick: n times (n + 1), halved.",
+   "textbook_ref": "iemh108.txt lines 305-345",
+   "question_patterns": [
+    "Find the sum of the first 10 counting numbers.",
+    "Calculate 1 + 2 + ... + 100.",
+    "What is the total of the integers from 1 through 250?",
+    "Compute the closed-form total for n = 75.",
+    "Add up the first 19 positive integers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add 1 to n",
+     "explain": "compute next consecutive integer factor",
+     "compute": "next_n = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply n by next integer",
+     "explain": "multiply count by successor",
+     "compute": "prod = n * next_n"
+    },
+    {
+     "step": 3,
+     "action": "divide product by 2",
+     "explain": "halve product to evaluate total sum",
+     "compute": "sum_n = prod / 2"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.8",
+   "title": "Sum of Natural Numbers in a Range",
+   "section": "8.5",
+   "definition": "To total a run of integers from one value through another, take the up-to totals and subtract the part before the start.",
+   "formula": "sum = end_num * (end_num + 1) / 2 - (start_num - 1) * start_num / 2",
+   "key_idea": "Two prefix totals, one subtraction.",
+   "textbook_ref": "iemh108.txt lines 346-360",
+   "question_patterns": [
+    "Find the sum of the integers from 20 through 50.",
+    "Calculate the total of all counting numbers from 1 through 60.",
+    "What is the sum of the integers 31 through 99?",
+    "Compute the running total from 15 to 45.",
+    "Add the integers from 101 through 200."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total sum up to end_num",
+     "explain": "evaluate S_end for integers up to end boundary",
+     "compute": "sum_end = end_num * (end_num + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "find prior count index",
+     "explain": "subtract 1 from start limit",
+     "compute": "prev_num = start_num - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate total sum up to prev_num",
+     "explain": "evaluate S_start for integers prior to lower boundary",
+     "compute": "sum_start = prev_num * (prev_num + 1) / 2"
+    },
+    {
+     "step": 4,
+     "action": "subtract lower prefix sum from upper prefix sum",
+     "explain": "obtain net sum of interval range",
+     "compute": "total_sum = sum_end - sum_start"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.9",
+   "title": "nth Term of a Geometric Progression",
+   "section": "8.6",
+   "definition": "Terms that scale by one fixed multiplier form a GP; the nth term is the first term times the multiplier raised to n minus 1.",
+   "formula": "t_n = a * (r ** (n - 1))",
+   "key_idea": "First term times the ratio, repeated n minus 1 times.",
+   "textbook_ref": "iemh108.txt lines 365-410",
+   "question_patterns": [
+    "Find the 6th term of the GP with first term 3 and ratio 2.",
+    "Calculate term 5 of the progression 81, 54, 36, ...",
+    "The first term is 5 and the ratio is 3; what is the 4th term?",
+    "For the GP 8, -16, 32, ..., find the 7th term.",
+    "State the nth term rule of the GP with first term 10 and ratio one half."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate exponent power",
+     "explain": "subtract 1 from term index n",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise common ratio to power",
+     "explain": "exponentiate common ratio r by power index",
+     "compute": "ratio_factor = r ** power"
+    },
+    {
+     "step": 3,
+     "action": "multiply by first term",
+     "explain": "scale base value by ratio factor",
+     "compute": "term_n = a * ratio_factor"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.10",
+   "title": "Common Ratio of a Geometric Progression",
+   "section": "8.6",
+   "definition": "Divide any term by the one right before it; that quotient is the fixed multiplier.",
+   "formula": "r = t_2 / t_1",
+   "key_idea": "One division reveals the ratio; it must repeat everywhere.",
+   "textbook_ref": "iemh108.txt lines 410-435",
+   "question_patterns": [
+    "Find the common ratio of the GP 5, 15, 45, ...",
+    "Calculate r for the progression 16, 8, 4, ...",
+    "What is the multiplier between successive terms 2 and -10?",
+    "Determine the ratio from consecutive terms 27 and 18.",
+    "Check whether 4, 6, 9 keeps a constant quotient and state it."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide second term by first term",
+     "explain": "compute ratio of consecutive terms",
+     "compute": "r = term2 / term1"
+    },
+    {
+     "step": 2,
+     "action": "Check the ratio repeats between another pair of consecutive terms",
+     "explain": "Confirming the same quotient appears elsewhere verifies the sequence is truly geometric."
+    },
+    {
+     "step": 3,
+     "action": "Express the ratio in simplified fractional or decimal form",
+     "explain": "Simplifying the ratio makes it easier to use in further GP calculations.",
+     "compute": "r = term2 / term1"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.11",
+   "title": "Bounce Height Sequences",
+   "section": "8.6.2",
+   "definition": "A rebounding ball climbs to the same fraction of its previous height every time; the heights shrink by repeated scaling.",
+   "formula": "height_n = initial_height * (fraction ** n)",
+   "key_idea": "Each bounce multiplies the height by one fraction.",
+   "textbook_ref": "iemh108.txt lines 525-555",
+   "question_patterns": [
+    "A ball dropped from 24 ft rebounds to three quarters of the height; find the height after 3 bounces.",
+    "Calculate the rebound height on bounce 2 for a drop of 12 m with rebound fraction 0.5.",
+    "What height does the ball reach on bounce 4 if it drops from 16 ft and rebounds by half?",
+    "Compute the height after 3 bounces for a drop of 45 cm and fraction two thirds.",
+    "State the rebound rule with drop height H and fraction f."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate multiplier power for n bounces",
+     "explain": "raise restitution fraction to power n",
+     "compute": "decay_factor = fraction ** n"
+    },
+    {
+     "step": 2,
+     "action": "multiply initial height by decay factor",
+     "explain": "scale starting height to obtain target bounce height",
+     "compute": "height_n = initial_height * decay_factor"
+    },
+    {
+     "step": 3,
+     "action": "Verify the height decreases as bounce count increases",
+     "explain": "Since the fraction is less than 1, each successive bounce height must be smaller than the previous, confirming the decay is correct."
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.12",
+   "title": "Geometric Progression in Fractal Patterns",
+   "section": "8.6.1",
+   "definition": "Self-similar shapes split into a fixed number of copies at every stage; counts grow by powers of that number.",
+   "formula": "count_n = base_count ** n",
+   "key_idea": "The stage number becomes the exponent of the copy count.",
+   "textbook_ref": "iemh108.txt lines 440-515",
+   "question_patterns": [
+    "A triangle splits into 3 copies each stage; find the count at stage 5.",
+    "Calculate the number of pieces at stage 4 when each shape yields 4 copies.",
+    "What is the element count at stage 6 for a 2-copy split?",
+    "Determine the piece total at level 3 for a fractal that multiplies by 5 each level.",
+    "Compute the shape total at stage 7 for a 3-copy split."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise base multiplier to stage power",
+     "explain": "compute exponentiation of branching factor to stage index",
+     "compute": "count_n = base_count ** n"
+    },
+    {
+     "step": 2,
+     "action": "Verify the count grows consistently with the self-similar pattern",
+     "explain": "Each stage multiplies the previous count by the base, so the result should be base_count times the count at stage n minus 1."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the count is a positive integer",
+     "explain": "Fractal piece counts must be whole positive numbers, confirming the exponentiation was applied correctly."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, page 178",
+   "concept": "iemh.108.1",
+   "question_type": "compute",
+   "question_pattern": "Find the nth term of sequence given un = {linear_coeff}n - {constant_term} for n = {n}",
+   "extracted_variables": {
+    "linear_coeff": 2,
+    "constant_term": 1,
+    "n": 53
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply index by linear coefficient",
+     "explain": "scale position index n by linear factor",
+     "compute": "scaled = linear_coeff * n"
+    },
+    {
+     "step": 2,
+     "action": "subtract constant offset",
+     "explain": "subtract constant offset to complete evaluation",
+     "compute": "term_value = scaled - constant_term"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 2, page 178",
+   "concept": "iemh.108.2",
+   "question_type": "compute",
+   "question_pattern": "Which term of the sequence sn = {linear_coeff}n - {constant_term} is equal to {term_value}",
+   "extracted_variables": {
+    "linear_coeff": 5,
+    "constant_term": 2,
+    "term_value": 308
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add constant offset to term value",
+     "explain": "isolate product by adding constant term to target value",
+     "compute": "sum_val = term_value + constant_term"
+    },
+    {
+     "step": 2,
+     "action": "divide by linear coefficient",
+     "explain": "divide sum by coefficient to find position index n",
+     "compute": "n = sum_val / linear_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 4, page 179",
+   "concept": "iemh.108.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the next term in recursive sequence where current term is {prev_term} with rule s_n = s_{n-1}(s_{n-1} - {subtrahend})",
+   "extracted_variables": {
+    "prev_term": 6,
+    "subtrahend": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract subtrahend from previous term",
+     "explain": "compute linear shift factor",
+     "compute": "factor = prev_term - subtrahend"
+    },
+    {
+     "step": 2,
+     "action": "multiply previous term by calculated factor",
+     "explain": "multiply previous term by shifted factor to get next term",
+     "compute": "next_term = prev_term * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 5, page 184",
+   "concept": "iemh.108.4",
+   "question_type": "compute",
+   "question_pattern": "A taxi charges a fixed base fee of {base_fee} plus {rate_per_km} per km. Calculate total fare for {n} km",
+   "extracted_variables": {
+    "base_fee": 200,
+    "rate_per_km": 40,
+    "n": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply distance by rate per km",
+     "explain": "calculate variable distance fare",
+     "compute": "distance_fare = n * rate_per_km"
+    },
+    {
+     "step": 2,
+     "action": "add fixed base fee",
+     "explain": "add base booking charge to get total fare",
+     "compute": "total_fare = base_fee + distance_fare"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 9, page 188",
+   "concept": "iemh.108.10",
+   "question_type": "compute",
+   "question_pattern": "Find the common ratio of GP with first term {term1} and second term {term2}",
+   "extracted_variables": {
+    "term1": 5,
+    "term2": 3.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide second term by first term",
+     "explain": "calculate ratio quotient",
+     "compute": "r = term2 / term1"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Example 10, page 193",
+   "concept": "iemh.108.11",
+   "question_type": "compute",
+   "question_pattern": "A ball dropped from height {initial_height} feet bounces to fraction {fraction} of previous height each time. Find height on bounce {n}",
+   "extracted_variables": {
+    "initial_height": 24,
+    "fraction": 0.75,
+    "n": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate decay factor",
+     "explain": "raise fraction to power n",
+     "compute": "decay_factor = fraction ** n"
+    },
+    {
+     "step": 2,
+     "action": "calculate bounce height",
+     "explain": "multiply initial height by decay factor",
+     "compute": "height_n = initial_height * decay_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.2",
+   "concept": "iemh.108.1",
+   "question_type": "compute",
+   "question_pattern": "If a sequence follows u_n = {linear_coeff}n - {constant_term}, what is u_{n}?",
+   "extracted_variables": {
+    "linear_coeff": "2",
+    "constant_term": "1",
+    "n": "53"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Scale the position",
+     "explain": "2 x 53 = 106.",
+     "compute": "scaled = linear_coeff * n"
+    },
+    {
+     "step": 2,
+     "action": "Add the offset",
+     "explain": "106 - 1 = 105.",
+     "compute": "term_value = scaled + constant_term"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.2",
+   "concept": "iemh.108.2",
+   "question_type": "compute",
+   "question_pattern": "Which term of the sequence {linear_coeff}n + {constant_term} equals {term_value}?",
+   "extracted_variables": {
+    "linear_coeff": "5",
+    "constant_term": "-2",
+    "term_value": "308"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Remove the offset",
+     "explain": "308 - (-2) = 310.",
+     "compute": "diff = term_value - constant_term"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the coefficient",
+     "explain": "310 / 5 = 62, so it is the 62nd term.",
+     "compute": "n = diff / linear_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.3",
+   "concept": "iemh.108.3",
+   "question_type": "compute",
+   "question_pattern": "The rule is multiply the previous term by {multiplier} and add {addend}. The current term is {prev_term}; find the next.",
+   "extracted_variables": {
+    "multiplier": "3",
+    "addend": "2",
+    "prev_term": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Scale the previous term",
+     "explain": "3 x 5 = 15.",
+     "compute": "prod = multiplier * prev_term"
+    },
+    {
+     "step": 2,
+     "action": "Add the addend",
+     "explain": "15 + 2 = 17.",
+     "compute": "next_term = prod + addend"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.4",
+   "concept": "iemh.108.4",
+   "question_type": "compute",
+   "question_pattern": "Find the {n}th term of the AP with first term {a} and common difference {d}.",
+   "extracted_variables": {
+    "n": "20",
+    "a": "3",
+    "d": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count the steps",
+     "explain": "20 - 1 = 19.",
+     "compute": "offset = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "Scale the steps",
+     "explain": "19 x 5 = 95.",
+     "compute": "total_diff = offset * d"
+    },
+    {
+     "step": 3,
+     "action": "Add the first term",
+     "explain": "3 + 95 = 98.",
+     "compute": "term_n = a + total_diff"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.4",
+   "concept": "iemh.108.5",
+   "question_type": "compute",
+   "question_pattern": "Find the common difference of the AP {term1}, {term2}, ...",
+   "extracted_variables": {
+    "term1": "7",
+    "term2": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract neighbours",
+     "explain": "12 - 7 = 5.",
+     "compute": "d = term2 - term1"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.4",
+   "concept": "iemh.108.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate d for the progression {term1}, {term2}, ...",
+   "extracted_variables": {
+    "term1": "50",
+    "term2": "43"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract neighbours",
+     "explain": "43 - 50 = -7.",
+     "compute": "d = term2 - term1"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.4",
+   "concept": "iemh.108.6",
+   "question_type": "compute",
+   "question_pattern": "Which term of the AP with first term {a} and difference {d} is {target_val}?",
+   "extracted_variables": {
+    "a": "3",
+    "d": "5",
+    "target_val": "78"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Total change from the start",
+     "explain": "78 - 3 = 75.",
+     "compute": "total_change = target_val - a"
+    },
+    {
+     "step": 2,
+     "action": "Count the steps",
+     "explain": "75 / 5 = 15.",
+     "compute": "steps = total_change / d"
+    },
+    {
+     "step": 3,
+     "action": "Position",
+     "explain": "15 + 1 = 16th term.",
+     "compute": "n = steps + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.4",
+   "concept": "iemh.108.6",
+   "question_type": "compute",
+   "question_pattern": "Find the position of {target_val} in the progression with first term {a} and difference {d}.",
+   "extracted_variables": {
+    "target_val": "100",
+    "a": "4",
+    "d": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Total change from the start",
+     "explain": "100 - 4 = 96.",
+     "compute": "total_change = target_val - a"
+    },
+    {
+     "step": 2,
+     "action": "Count the steps",
+     "explain": "96 / 6 = 16.",
+     "compute": "steps = total_change / d"
+    },
+    {
+     "step": 3,
+     "action": "Position",
+     "explain": "16 + 1 = 17th term.",
+     "compute": "n = steps + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.5",
+   "concept": "iemh.108.7",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {n} counting numbers.",
+   "extracted_variables": {
+    "n": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Next integer",
+     "explain": "10 + 1 = 11.",
+     "compute": "next_n = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply",
+     "explain": "10 x 11 = 110.",
+     "compute": "prod = n * next_n"
+    },
+    {
+     "step": 3,
+     "action": "Halve",
+     "explain": "110 / 2 = 55.",
+     "compute": "sum_n = prod / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.5",
+   "concept": "iemh.108.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate 1 + 2 + ... + {n}.",
+   "extracted_variables": {
+    "n": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Next integer",
+     "explain": "100 + 1 = 101.",
+     "compute": "next_n = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply",
+     "explain": "100 x 101 = 10100.",
+     "compute": "prod = n * next_n"
+    },
+    {
+     "step": 3,
+     "action": "Halve",
+     "explain": "10100 / 2 = 5050.",
+     "compute": "sum_n = prod / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.5",
+   "concept": "iemh.108.8",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the integers from {start_num} through {end_num}.",
+   "extracted_variables": {
+    "start_num": "20",
+    "end_num": "50"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Total up to the end",
+     "explain": "50 x 51 / 2 = 1275.",
+     "compute": "sum_end = end_num * (end_num + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Last value before the start",
+     "explain": "20 - 1 = 19.",
+     "compute": "prev_num = start_num - 1"
+    },
+    {
+     "step": 3,
+     "action": "Total up to there",
+     "explain": "19 x 20 / 2 = 190.",
+     "compute": "sum_start = prev_num * (prev_num + 1) / 2"
+    },
+    {
+     "step": 4,
+     "action": "Subtract the prefix",
+     "explain": "1275 - 190 = 1085.",
+     "compute": "total_sum = sum_end - sum_start"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.5",
+   "concept": "iemh.108.8",
+   "question_type": "compute",
+   "question_pattern": "Compute the running total from {start_num} to {end_num}.",
+   "extracted_variables": {
+    "start_num": "15",
+    "end_num": "45"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Total up to the end",
+     "explain": "45 x 46 / 2 = 1035.",
+     "compute": "sum_end = end_num * (end_num + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Last value before the start",
+     "explain": "15 - 1 = 14.",
+     "compute": "prev_num = start_num - 1"
+    },
+    {
+     "step": 3,
+     "action": "Total up to there",
+     "explain": "14 x 15 / 2 = 105.",
+     "compute": "sum_start = prev_num * (prev_num + 1) / 2"
+    },
+    {
+     "step": 4,
+     "action": "Subtract the prefix",
+     "explain": "1035 - 105 = 930.",
+     "compute": "total_sum = sum_end - sum_start"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6",
+   "concept": "iemh.108.9",
+   "question_type": "compute",
+   "question_pattern": "Find the {n}th term of the GP with first term {a} and ratio {r}.",
+   "extracted_variables": {
+    "n": "6",
+    "a": "3",
+    "r": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Exponent",
+     "explain": "6 - 1 = 5.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "Ratio power",
+     "explain": "2^5 = 32.",
+     "compute": "ratio_factor = r ** power"
+    },
+    {
+     "step": 3,
+     "action": "Scale the first term",
+     "explain": "3 x 32 = 96.",
+     "compute": "term_n = a * ratio_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6",
+   "concept": "iemh.108.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate term {n} of the GP with first term {a} and ratio {r}.",
+   "extracted_variables": {
+    "n": "5",
+    "a": "81",
+    "r": "0.6667"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Exponent",
+     "explain": "5 - 1 = 4.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "Ratio power",
+     "explain": "(2/3)^4 is about 0.1975.",
+     "compute": "ratio_factor = r ** power"
+    },
+    {
+     "step": 3,
+     "action": "Scale the first term",
+     "explain": "81 x 0.1975 is about 16.",
+     "compute": "term_n = a * ratio_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6",
+   "concept": "iemh.108.10",
+   "question_type": "compute",
+   "question_pattern": "Find the common ratio of the GP {term1}, {term2}, ...",
+   "extracted_variables": {
+    "term1": "5",
+    "term2": "15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide neighbours",
+     "explain": "15 / 5 = 3.",
+     "compute": "r = term2 / term1"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6",
+   "concept": "iemh.108.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate r for the progression {term1}, {term2}, ...",
+   "extracted_variables": {
+    "term1": "16",
+    "term2": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide neighbours",
+     "explain": "8 / 16 = 0.5.",
+     "compute": "r = term2 / term1"
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6.2",
+   "concept": "iemh.108.11",
+   "question_type": "compute",
+   "question_pattern": "A ball dropped from {initial_height} ft rebounds by fraction {fraction} each time. Find the height after {n} bounces.",
+   "extracted_variables": {
+    "initial_height": "16",
+    "fraction": "0.5",
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Decay factor",
+     "explain": "0.5^4 = 0.0625.",
+     "compute": "decay_factor = fraction ** n"
+    },
+    {
+     "step": 2,
+     "action": "Scale the drop height",
+     "explain": "16 x 0.0625 = 1 ft.",
+     "compute": "height_n = initial_height * decay_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6.1",
+   "concept": "iemh.108.12",
+   "question_type": "compute",
+   "question_pattern": "A triangle splits into {base_count} copies each stage; find the count at stage {n}.",
+   "extracted_variables": {
+    "base_count": "3",
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Stage as exponent",
+     "explain": "3^5 = 243 pieces.",
+     "compute": "count_n = base_count ** n"
+    }
+   ]
+  },
+  {
+   "id": "ex25",
+   "source_ref": "authored; method anchored at iemh108.txt section 8.6.1",
+   "concept": "iemh.108.12",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of pieces at stage {n} when each shape yields {base_count} copies.",
+   "extracted_variables": {
+    "base_count": "4",
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Stage as exponent",
+     "explain": "4^4 = 256 pieces.",
+     "compute": "count_n = base_count ** n"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "Exercise Set 8.1, page 180",
+   "questions": [
+    "Find the first five terms of the sequence in which the nth term is given by (i) tn = 3n - 4, (ii) tn = 2 - 5n, and (iii) tn = n^2 - 2n + 3 for n >= 1.",
+    "Find the 10th and 15th terms of the sequence tn = 5n - 3 for n >= 1.",
+    "Determine whether 97 and 172 are terms of the sequence tn = 5n - 3 for n >= 1.",
+    "Which term of the sequence tn = 5n - 3 for n >= 1 is 607?",
+    "A sequence is given by the recursive rule t1 = -5, tn+1 = tn + 3 for n >= 1. Find the first five terms of the sequence. Is 52 a term of this sequence? If so, which term is it?",
+    "Let T1 = 1, T2 = 2, T3 = 4, and Tn = Tn-1 + Tn-2 + Tn-3 for n >= 4. Find T4, T5, T6, T7, and T8."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "Exercise Set 8.2, page 186",
+   "questions": [
+    "Find the 10th and 26th terms of the AP: 3, 8, 13, 18, ....",
+    "Which term of the AP: 21, 18, 15, ... is -81? Also, is 0 a term of this AP? Give reasons for your answer.",
+    "Find the nth term of the AP: 11, 8, 5, 2 ... Write the recursive rule for this AP.",
+    "An AP consists of 50 terms in which the 3rd term is 12 and the last term is 106. Find the 29th term.",
+    "How many 2-digit numbers are divisible by 3? What is the sum of all these 2-digit numbers?",
+    "Harish started work at an annual salary of Rs 5,00,000 and received an increment of Rs 20,000 each year. After how many years did his income reach Rs 7,00,000?",
+    "A child arranges marbles in rows so that the first row has 1 marble, the second has 2 marbles, the third has 3, and so on up to 25 rows. How many marbles does the child use in all?"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "Exercise Set 8.3, page 194",
+   "questions": [
+    "Find the 12th term of a GP with common ratio 2, whose 8th term is 192.",
+    "Find the 10th and nth terms of the GP: 5, 25, 125, ... .",
+    "A sequence is given by the recursive rule t1 = 2, tn+1 = 3tn - 2 for n >= 1. Which term of the sequence is 730?",
+    "Which term of the GP: 2, 6, 18, ... is 4374? Write the explicit formula as well as the recursive formula for the nth term.",
+    "A ball is dropped from a height of 80 metres. After hitting the ground, it bounces back to 60% of the height from which it fell. It continues bouncing in this way - each time rising to 60% of the previous height. (i) What height does the ball reach after the 5th bounce? (ii) What is the total vertical distance the ball has travelled by the time it hits the ground for the 6th time?",
+    "Which term of the sequence 2, 2*sqrt(2), 4, ... is 128?",
+    "For the Sierpinski square carpet: (i) How many red squares are there in Stages 0 to 3? (ii) Can you predict the number of red squares in Stages 4 and 5? (iii) Can you find a rule for the number of red squares at the nth stage? Write explicit and recursive formulas. (iv) If area at Stage 0 is 1 square unit, find area of red region at Stages 1 to 5 and write explicit and recursive rules."
+   ]
+  },
+  {
+   "id": "ex_end",
+   "source_ref": "End-of-Chapter Exercises, pages 195-196",
+   "questions": [
+    "Find the 31st term of an AP whose 11th term is 38 and 16th term is 73.",
+    "Determine the AP whose third term is 16 and whose 7th term exceeds the 5th term by 12.",
+    "How many three-digit numbers are divisible by 7?",
+    "How many multiples of 4 lie between 10 and 250?",
+    "Find a GP for which the sum of the first two terms is -4 and the fifth term is 4 times the third term.",
+    "Find all possible ways of expressing 100 as the sum of consecutive natural numbers.",
+    "The number of bacteria in a certain culture doubles every hour. If there were 30 bacteria present originally, how many will be present at the end of the 2nd hour, 4th hour and nth hour?",
+    "The sum of the 4th and 8th terms of an AP is 24 and the sum of the 6th and 10th terms is 44. Find the first three terms of the AP.",
+    "Find the smallest value of n such that the sum of the first n natural numbers is greater than 1,000.",
+    "Which term of the GP: 2, 8, 32, ... is 131072?",
+    "The sum of the first three terms of a GP is 13/12 and their product is -1. Find the common ratio and the terms.",
+    "If the 4th, 10th and 16th terms of a GP are x, y and z respectively, prove that x, y, z are in GP.",
+    "The sum of the first three terms of a geometric progression is 26, and the sum of their squares is 364. Find the terms of the GP.",
+    "Suppose P1 = 1, P2 = 2 and for n > 2, Pn = P1 + P2 + ... + Pn-1 + 1. Find P1 through P8.",
+    "Suppose W1 = 1, W2 = 2 and for n > 2, Wn = W1 + W2 + ... + Wn-2 + 2. Find W1 through W8."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

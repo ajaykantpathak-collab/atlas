@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_9",
+   "title": "c9_chem_ch2_9",
+   "questions": [
+    {
+     "q": "Define isobars and give one example with proper nuclear notation.",
+     "a": "Isobars are atoms of different elements with the same mass number but different atomic numbers. Example: ⁴⁰₁₈Ar and ⁴⁰₂₀Ca (both have mass number 40, but atomic numbers 18 and 20). A wrong answer where a student gives same element examples (like ³⁵₁₇Cl and ³⁷₁₇Cl) reveals confusion with isotopes - they haven't grasped that isobars must be DIFFERENT elements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ⁴⁰₁₈Ar and ⁴⁰₂₀Ca have different chemical properties even though they have the same mass number.",
+     "a": "Chemical properties are determined by the number of electrons (which equals atomic number in neutral atoms). Argon has 18 electrons (atomic number 18) with a stable octet configuration (2,8,8), making it an unreactive noble gas. Calcium has 20 electrons (atomic number 20) with configuration (2,8,8,2), making it a reactive metal that loses 2 electrons. Same mass number only means same total nucleons, not same electron arrangement. A wrong answer focusing on neutrons reveals the misconception that nuclear composition determines chemical behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Identify which of the following pairs are isobars: (a) ¹⁴₆C and ¹⁴₇N, (b) ³⁵₁₇Cl and ³⁷₁₇Cl, (c) ⁴⁰₁₉K and ⁴⁰₂₀Ca, (d) ¹H and ²H. Show your reasoning for each.",
+     "a": "(a) ¹⁴₆C and ¹⁴₇N - YES, both mass number 14, different atomic numbers (6 vs 7). (b) ³⁵₁₇Cl and ³⁷₁₇Cl - NO, same atomic number (17), different mass numbers - these are ISOTOPES. (c) ⁴⁰₁₉K and ⁴⁰₂₀Ca - YES, both mass number 40, different atomic numbers (19 vs 20). (d) ¹H and ²H - NO, same atomic number (1), different mass numbers - these are ISOTOPES of hydrogen. A wrong answer identifying (b) or (d) as isobars shows the student confuses \"same mass number\" with \"same element\" - the core isotope/isobar confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast isotopes and isobars in a table with columns: Definition, Atomic Number (Z), Mass Number (A), Number of Protons, Number of Neutrons, Chemical Properties, Example Pair.",
+     "a": "Isotopes: Same element (same Z), different A, same protons, different neutrons, nearly identical chemical properties. Example: ³⁵₁₇Cl and ³⁷₁₇Cl. Isobars: Different elements (different Z), same A, different protons, different neutrons, different chemical properties. Example: ⁴⁰₁₈Ar and ⁴⁰₂₀Ca. A wrong answer stating isobars have similar chemical properties reveals misunderstanding that chemical properties depend on Z (electrons), not A. A wrong answer mixing up which has same/different Z shows the definitions aren't internalized.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"⁴⁰₁₈Ar and ⁴⁰₂₀Ca are isobars because they both have 40 nucleons. Since they have the same number of nucleons, they should have similar physical properties like density and melting point.\" Evaluate this statement and correct the error.",
+     "a": "The first part is correct - they are isobars with 40 nucleons each. The second part is WRONG. Physical properties (density, melting point) depend on electronic structure, atomic packing, and bonding - all determined by atomic number. Argon is a monatomic gas at room temperature (bp -186°C), calcium is a solid metal (mp 842°C). Their physical properties are vastly different. A student agreeing with the statement reveals the misconception that mass number determines physical properties, not realizing electron configuration governs bonding and bulk properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a method to distinguish between a sample of ⁴⁰₁₈Ar gas and ⁴⁰₂₀Ca metal in the laboratory without using nuclear instrumentation. Explain the chemical principle behind each test.",
+     "a": "Test 1: React with water - calcium reacts vigorously producing H₂ gas and Ca(OH)₂; argon shows no reaction. Principle: Chemical reactivity depends on valence electrons (Ca has 2, Ar has 8). Test 2: Flame test - calcium gives brick-red flame; argon gives no flame color (noble gas). Principle: Electron transitions differ. Test 3: Electrical conductivity - calcium conducts; argon does not. Principle: Metallic bonding vs van der Waals. A poor answer suggesting mass spectrometry or density measurements misses the point - the question asks for chemical distinction using atomic number differences, not nuclear methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

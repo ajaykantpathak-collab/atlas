@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_4",
+   "title": "c9_bio_ch2_4",
+   "questions": [
+    {
+     "q": "Name the four types of cells that constitute xylem tissue in flowering plants and state which two are primarily responsible for water conduction.",
+     "a": "The four xylem elements are tracheids, vessels (vessel elements), xylem parenchyma, and xylem fibers. Tracheids and vessels are the water-conducting elements; both are dead at maturity with lignified walls. Xylem parenchyma stores starch and assists in lateral transport, while xylem fibers provide mechanical support. A wrong answer listing \"sieve tubes\" or \"companion cells\" reveals confusion between xylem and phloem components. Missing tracheids or vessels indicates inability to distinguish conducting from non-conducting elements.",
+     "self_check": true
+    },
+    {
+     "q": "Why are xylem vessels more efficient at water transport than tracheids, even though both are dead, lignified, and hollow at maturity?",
+     "a": "Vessels are formed by the end-to-end fusion of vessel elements with perforation plates (large openings) at their end walls, creating continuous open tubes. Tracheids are elongated cells with tapering ends that overlap; water must pass through bordered pits in their side walls, offering greater resistance. A wrong answer stating \"vessels are wider\" without mentioning perforation plates misses the structural adaptation. Claiming \"tracheids are living\" reveals fundamental misunderstanding of xylem cell maturity.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener notices that girdling (removing a ring of bark) kills a mango tree above the cut but the roots survive for weeks. Using your knowledge of phloem structure and function, explain this observation step by step.",
+     "a": "Step 1: Girdling removes phloem (located in bark) but leaves xylem (in wood) intact. Step 2: Photosynthates (sucrose) produced in leaves cannot be translocated downward to roots because sieve tubes are severed. Step 3: Roots starve without organic nutrients, eventually dying. Step 4: Water and minerals still move upward via intact xylem, so the shoot remains alive temporarily. Step 5: Without root respiration, water uptake eventually ceases and the whole plant dies. A wrong answer claiming \"water transport stops\" confuses xylem and phloem positions. Saying \"roots die immediately\" ignores stored reserves.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy requirements for transport in xylem versus phloem. Why does phloem translocation require living companion cells while xylem transport does not?",
+     "a": "Xylem transport is passive, driven by transpiration pull (cohesion-tension) and root pressure - no metabolic energy needed, so conducting cells can be dead. Phloem translocation is active: loading sucrose into sieve tubes at source requires ATP (via companion cells' mitochondria), creating osmotic gradient for bulk flow. Companion cells maintain sieve tube metabolism (protein synthesis, membrane transport) because sieve tubes lack nuclei and ribosomes. A wrong answer stating \"both require energy\" or \"xylem uses ATP\" confuses active and passive transport mechanisms. Claiming companion cells conduct food misses their supportive role.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since xylem cells are dead, they cannot transport anything - transport requires living cells.\" Evaluate this statement and identify the misconception.",
+     "a": "The statement is incorrect. Xylem transport is a physical process (capillarity, cohesion-tension, root pressure) that does not require living protoplasts. Dead, hollow, lignified cells form continuous pipelines - their death is an adaptation eliminating cytoplasmic obstruction. The misconception is equating all biological transport with active cellular processes. The student likely recalls phloem requires living cells and overgeneralizes. A correct evaluation would cite transpiration pull as the driving force and note that dead cells are functionally superior for water conduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a potted balsam plant, eosin dye, and a sharp blade to demonstrate that xylem conducts water upward. List materials, procedure (3 steps), observation, and conclusion.",
+     "a": "Materials: Potted balsam (herbaceous, transparent stem), eosin (red dye), water, blade, beaker. Procedure: 1) Cut stem 2 cm above soil under water to avoid air bubbles. 2) Place cut end in eosin solution for 30 minutes in sunlight. 3) Cut transverse sections at 2 cm intervals upward and observe under microscope. Observation: Red dye appears in xylem vessels/tracheids only, moving upward with time. Conclusion: Xylem conducts water (with dissolved minerals) unidirectionally from roots to shoots. A poor answer using phloem stain (like aniline blue) or expecting dye in phloem reveals confusion between tissues. Missing \"cut under water\" shows ignorance of air embolism risk.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

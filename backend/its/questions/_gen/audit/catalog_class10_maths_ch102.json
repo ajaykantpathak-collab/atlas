@@ -1,0 +1,370 @@
+{
+ "catalog": "catalog_class10_maths_ch102.json",
+ "concepts": [
+  {
+   "id": "jemh.2.1",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 6 ** (3 + 3)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 4 ** (4 - 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 4 ** (2 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (2 * 3) ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 2 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 4 ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 6 ** (3 + 3)"
+   ]
+  },
+  {
+   "id": "jemh.2.2",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 3 * 3 + 2 * 3 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 1 * 1 ** 3 + 4 * 1 + 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 * 5 - 5 * 5 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 3 + 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 3 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 3 * 5"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 3 * 3 + 2 * 3 + 6"
+   ]
+  },
+  {
+   "id": "jemh.2.3",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 4 + 1 / 6",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 8 - 1 / 24",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 150 + 180",
+      "total_t = 2 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 6 * 12 / 16"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (11 - 5) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 60 / 5"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rate = 1 / 4 + 1 / 6",
+    "days = 1 / rate"
+   ]
+  },
+  {
+   "id": "jemh.2.5",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 3 * 3 + 2 * 3 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 2 ** 3 + 3 * 2 + 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 2 * 2 - 5 * 2 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 3 * 3 + 2 * 3 + 9"
+   ]
+  },
+  {
+   "id": "jemh.2.6",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 5 * 5 + 5 * 5 + 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 1 * 2 ** 3 + 4 * 2 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 1 * 1 - 5 * 1 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 5 * 5 + 5 * 5 + 7"
+   ]
+  },
+  {
+   "id": "jemh.2.7",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 * 2 * 2 + 1 * 2 + 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 4 ** 3 + 3 * 4 + 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 3 * 3 - 5 * 3 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 4 * 2 * 2 + 1 * 2 + 4"
+   ]
+  },
+  {
+   "id": "jemh.2.9",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 * 5 * 5 + 6 * 5 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 4 ** 3 + 5 * 4 + 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 6 * 6 - 5 * 6 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 2 + 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 2 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 2 * 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 4 * 5 * 5 + 6 * 5 + 6"
+   ]
+  },
+  {
+   "id": "jemh.2.10",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 4 * 4 + 1 * 4 + 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 2 ** 3 + 2 * 2 + 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 * 5 - 5 * 5 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 4 * 4 + 1 * 4 + 5"
+   ]
+  }
+ ]
+}

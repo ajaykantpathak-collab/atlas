@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_002",
+   "title": "c12_bio_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the two key experimental evidences that Watson and Crick used to deduce the double helical structure of DNA, and the specific conclusion each provided.",
+     "a": "Correct answer: (1) Chargaff's rules — showed molar equivalence of A=T and G=C, implying specific base pairing. (2) Franklin/Wilkins X-ray diffraction — gave helical parameters: diameter ~2 nm, pitch ~3.4 nm, 10 base pairs per turn, confirming a regular double helix. A wrong answer (e.g., citing Hershey-Chase or Griffith) reveals confusion between *genetic material identification* and *structure determination*.",
+     "self_check": true
+    },
+    {
+     "q": "In a DNA double helix, the two strands are described as antiparallel. Explain what this means at the chemical level (referring to carbon numbering) and why it is essential for complementary base pairing.",
+     "a": "Correct answer: Antiparallel means one strand runs 5'→3' (phosphate on 5' carbon of one nucleotide linked to 3' OH of next) while the complementary strand runs 3'→5'. This orientation positions the bases for optimal hydrogen bonding: A(5') pairs with T(3') and G(5') with C(3') across the strands. A wrong answer (e.g., \"strands run in opposite directions but both 5'→3'\") shows misunderstanding of phosphodiester bond directionality and its role in base pairing geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A DNA sample from a thermophilic bacterium has 65% GC content. Calculate the percentage of each base (A, T, G, C) and predict how its melting temperature (Tm) compares to a mesophilic bacterium with 40% GC. Justify using hydrogen bonding.",
+     "a": "Correct answer: GC = 65% → G = 32.5%, C = 32.5%; AT = 35% → A = 17.5%, T = 17.5%. Higher GC means more G≡C triple H-bonds vs A=T double H-bonds → greater thermal stability → higher Tm. A wrong answer (e.g., equal A/T/G/C or ignoring H-bond count) reveals failure to apply Chargaff's rules quantitatively and link bond energy to helix stability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of hydrogen bonds and hydrophobic stacking interactions in stabilizing the DNA double helix. Which contributes more to the free energy of stabilization? Why?",
+     "a": "Correct answer: Hydrogen bonds provide *specificity* (A-T, G-C) but contribute less to ΔG because they replace water-base H-bonds. Hydrophobic stacking of planar bases in the core excludes water and provides major ΔG stabilization via van der Waals and π-π interactions. A wrong answer (e.g., \"H-bonds are stronger\") confuses specificity with thermodynamic driving force.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The major groove is wider than the minor groove because purines are larger than pyrimidines.\" Identify the error and give the correct structural reason.",
+     "a": "Correct answer: The statement is incorrect. Groove widths arise from *asymmetric glycosidic bond angles* of base pairs relative to the helix axis, not base size. In B-DNA, the C1'-C1' distance across a base pair is similar for A-T and G-C; the major groove occurs where the backbone is farther apart due to the orientation of the base pairs. A wrong answer reveals confusion between base dimensions and helical geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only UV spectrophotometry and temperature control to demonstrate that DNA denaturation is reversible and depends on base composition. Outline the procedure, expected data, and how you would interpret the melting curve.",
+     "a": "Good answer: Measure absorbance at 260 nm while heating DNA solution (hyperchromic shift). Cool slowly and re-measure: return to original absorbance shows reversibility (renaturation). Compare Tm (midpoint) for high-GC vs low-GC DNA: higher Tm for high-GC. Plot A260 vs T → sigmoidal curve. Poor answer (no temperature control, single measurement, no comparison) shows lack of understanding of cooperative melting and renaturation kinetics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

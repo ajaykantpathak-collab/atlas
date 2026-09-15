@@ -1,0 +1,458 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 113,
+ "chapter_title": "Introduction to Graphs",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh113.txt",
+ "concepts": [
+  {
+   "id": "hemh.13.1.1",
+   "title": "Line Graph and Data Trends",
+   "section": "13.1.1",
+   "definition": "A visual display plotting continuous data points collected over uniform time intervals connected by line segments.",
+   "formula": "change = value_final - value_initial",
+   "key_idea": "Line graphs show continuous variations and trends over period of time.",
+   "textbook_ref": "hemh113.txt lines 10-40",
+   "question_patterns": [
+    "find the change in temperature between initial time and final time",
+    "calculate the increase in quantity from the line graph",
+    "determine the trend difference between two recordings",
+    "what is the difference in values between two time periods",
+    "Read the temperature rise between two marks on the graph."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net change",
+     "explain": "subtract initial observed value from final observed value",
+     "compute": "change = value_final - value_initial"
+    }
+   ]
+  },
+  {
+   "id": "hemh.13.1.2",
+   "title": "Distance-Time Graph Interpretation",
+   "section": "13.1.1",
+   "definition": "A graphical representation plotting distance against elapsed time to track movement and determine speed.",
+   "formula": "speed = distance / time",
+   "key_idea": "The slope of distance-time graph represents speed, and horizontal segments denote rest.",
+   "textbook_ref": "hemh113.txt lines 65-110",
+   "question_patterns": [
+    "find the distance covered during a time interval",
+    "calculate speed from distance time data",
+    "how far did the object travel in the given hour",
+    "determine time required to cover a specified distance",
+    "A car covers 120 km in 2 hours -- what speed does the graph slope show?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine distance interval",
+     "explain": "subtract initial position from final position",
+     "compute": "distance = distance_final - distance_initial"
+    },
+    {
+     "step": 2,
+     "action": "determine time interval",
+     "explain": "subtract start time from end time",
+     "compute": "time = time_final - time_initial"
+    },
+    {
+     "step": 3,
+     "action": "calculate speed",
+     "explain": "divide distance covered by time taken",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "hemh.13.2.1",
+   "title": "Independent and Dependent Variables",
+   "section": "13.2",
+   "definition": "One quantity you choose freely (it drives the graph); the other answers to it.",
+   "formula": "y = f(x)",
+   "key_idea": "The chosen one rides the x-axis; the answering one rides the y-axis.",
+   "textbook_ref": "hemh113.txt lines 175-200",
+   "question_patterns": [
+    "spot which quantity is the independent variable when plotting the graph",
+    "identify the independent variable in the given situation",
+    "which variable is dependent on the other",
+    "explain the choice of axes for the variables",
+    "determine which quantity controls the other",
+    "In a cost-vs-units graph, which variable is chosen freely?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify control factor",
+     "explain": "the variable that is set independently or changes freely is the independent variable on x-axis"
+    },
+    {
+     "step": 2,
+     "action": "identify outcome factor",
+     "explain": "the quantity that varies as a consequence is the dependent variable on y-axis"
+    }
+   ]
+  },
+  {
+   "id": "hemh.13.2.2",
+   "title": "Linear Graph of Direct Variation",
+   "section": "13.2",
+   "definition": "A straight-line graph passing through the origin representing two quantities that vary in direct proportion.",
+   "formula": "total_cost = unit_price * quantity",
+   "key_idea": "Direct proportional relationships form unbroken straight lines passing through origin.",
+   "textbook_ref": "hemh113.txt lines 200-240",
+   "question_patterns": [
+    "calculate total cost for a given quantity from unit cost",
+    "find quantity purchased for a specific total cost",
+    "compute unit price from total cost and quantity",
+    "determine proportional cost for target quantity",
+    "At 25 per kg, what does 6 kg cost? Sketch the line."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate unit rate",
+     "explain": "divide total cost by initial quantity",
+     "compute": "unit_price = total_cost / quantity"
+    },
+    {
+     "step": 2,
+     "action": "compute cost for target quantity",
+     "explain": "multiply unit price by target quantity",
+     "compute": "required_cost = unit_price * target_quantity"
+    }
+   ]
+  },
+  {
+   "id": "hemh.13.2.3",
+   "title": "Principal and Simple Interest Linear Relationship",
+   "section": "13.2",
+   "definition": "At a fixed yearly rate, the charge earned grows in a straight line with the sum deposited.",
+   "formula": "interest = (principal * rate * time) / 100",
+   "key_idea": "Simple interest varies directly with the principal deposit when rate and time remain fixed.",
+   "textbook_ref": "hemh113.txt lines 245-280",
+   "question_patterns": [
+    "calculate simple interest on a given principal",
+    "find required principal to obtain target interest",
+    "what is the interest earned for annual deposit",
+    "compute deposit needed for given interest rate and time",
+    "Find the yearly charge on 12000 at 8 percent."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute simple interest",
+     "explain": "apply simple interest formula using principal, rate, and time",
+     "compute": "interest = (principal * rate * time) / 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.13.2.4",
+   "title": "Geometric Graphs: Linear vs Non-Linear",
+   "section": "13.2",
+   "definition": "Comparison of geometric measure graphs where side length yields a linear graph for perimeter but a non-linear graph for area.",
+   "formula": "perimeter = 4 * side",
+   "key_idea": "Perimeter scales linearly with side length, whereas area scales quadratically resulting in a curve.",
+   "textbook_ref": "hemh113.txt lines 310-330",
+   "question_patterns": [
+    "calculate perimeter of square for given side",
+    "calculate area of square for given side",
+    "determine whether perimeter vs side forms a linear graph",
+    "is area vs side graph linear or non linear",
+    "Does the side-vs-area picture bend or stay straight?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute perimeter",
+     "explain": "multiply side length by four",
+     "compute": "perimeter = 4 * side"
+    },
+    {
+     "step": 2,
+     "action": "compute area",
+     "explain": "square the side length",
+     "compute": "area = side ** 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, Page 158",
+   "concept": "hemh.13.1.1",
+   "question_type": "graph_analysis",
+   "question_pattern": "Compare performance of two batsmen A and B from line graph",
+   "extracted_variables": {
+    "runs_A_match4": 60,
+    "runs_B_match4": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify intersection",
+     "explain": "the graph lines intersect at match 4 where both scored 60 runs"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 2, Page 159",
+   "concept": "hemh.13.1.2",
+   "question_type": "distance_time_analysis",
+   "question_pattern": "Find distance covered in 2nd hour where car starts at {distance_initial} km and reaches {distance_final} km",
+   "extracted_variables": {
+    "distance_initial": 50,
+    "distance_final": 150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate distance covered in interval",
+     "explain": "subtract position at start of second hour from position at end",
+     "compute": "distance = distance_final - distance_initial"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 3, Page 164",
+   "concept": "hemh.13.2.2",
+   "question_type": "direct_variation",
+   "question_pattern": "Find cost of {target_quantity} litres of petrol given {total_cost} rupees for {quantity} litres",
+   "extracted_variables": {
+    "total_cost": 500,
+    "quantity": 10,
+    "target_quantity": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find price per litre",
+     "explain": "divide initial cost by initial volume",
+     "compute": "unit_price = total_cost / quantity"
+    },
+    {
+     "step": 2,
+     "action": "calculate total price for target volume",
+     "explain": "multiply unit price by target volume",
+     "compute": "required_cost = unit_price * target_quantity"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 4, Page 165",
+   "concept": "hemh.13.2.3",
+   "question_type": "simple_interest",
+   "question_pattern": "Find annual interest on deposit of {principal} rupees at rate {rate} percent for time {time} year",
+   "extracted_variables": {
+    "principal": 250,
+    "rate": 10,
+    "time": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute simple interest",
+     "explain": "apply simple interest formula",
+     "compute": "interest = (principal * rate * time) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 5, Page 166",
+   "concept": "hemh.13.1.2",
+   "question_type": "time_distance",
+   "question_pattern": "Find distance covered in time {time} hours when speed is {speed} km/h",
+   "extracted_variables": {
+    "speed": 30,
+    "time": 3.5,
+    "distance_initial": 0,
+    "time_initial": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate distance covered",
+     "explain": "multiply constant speed by time elapsed",
+     "compute": "distance = speed * time"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.13.1.1",
+   "question_pattern": "Temperature moved from {v1} to {v2} -- what change does the graph show?",
+   "extracted_variables": {
+    "v1": "18",
+    "v2": "31"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "final minus initial",
+     "explain": "31 - 18 = 13",
+     "compute": "change = value_final - value_initial"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.13.1.2",
+   "question_pattern": "A cyclist covers {distance} km in {time} h -- what speed does the slope give?",
+   "extracted_variables": {
+    "distance": "120",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distance over time",
+     "explain": "120 / 2 = 60",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.13.2.2",
+   "question_pattern": "At {price} per kg, what does {quantity} kg cost?",
+   "extracted_variables": {
+    "price": "25",
+    "quantity": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rate times quantity",
+     "explain": "25 x 6 = 150",
+     "compute": "total_cost = unit_price * quantity"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.13.2.3",
+   "question_pattern": "Find the yearly charge on {principal} at {rate} percent.",
+   "extracted_variables": {
+    "principal": "12000",
+    "rate": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the straight-line rule",
+     "explain": "12000 x 8/100 = 960",
+     "compute": "interest = (principal * rate * time) / 100"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.13.2.4",
+   "question_pattern": "Side {side}: find the border measure of the square.",
+   "extracted_variables": {
+    "side": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "four equal sides",
+     "explain": "4 x 9 = 36",
+     "compute": "perimeter = 4 * side"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.13.2.4",
+   "question_pattern": "Side {side}: find the border of the square.",
+   "extracted_variables": {
+    "side": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "four equal sides",
+     "explain": "4 x 12 = 48",
+     "compute": "perimeter = 4 * side"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "Exercise 13.1, Pages 160-163",
+   "questions": [
+    "1(a). What was the patient's temperature at 1 p.m.?",
+    "1(b). When was the patient's temperature 38.5 C?",
+    "1(c). What were the two times when patient's temperature was the same?",
+    "1(d). What was the temperature at 1.30 p.m.?",
+    "1(e). During which periods did the patient's temperature show an upward trend?",
+    "2(a). What were the sales in 2002 and 2006?",
+    "2(b). What were the sales in 2003 and 2005?",
+    "2(c). Compute the difference between the sales in 2002 and 2006.",
+    "2(d). In which year was there the greatest difference between sales compared to previous year?",
+    "3(a). How high was Plant A after 2 weeks and 3 weeks?",
+    "3(b). How high was Plant B after 2 weeks and 3 weeks?",
+    "3(c). How much did Plant A grow during the 3rd week?",
+    "3(d). How much did Plant B grow from end of 2nd week to end of 3rd week?",
+    "3(e). During which week did Plant A grow most?",
+    "3(f). During which week did Plant B grow least?",
+    "3(g). Were the two plants of same height during any week?",
+    "4(a). On which days was forecast temperature same as actual temperature?",
+    "4(b). What was maximum forecast temperature during the week?",
+    "4(c). What was minimum actual temperature during the week?",
+    "4(d). On which day did actual temperature differ most from forecast temperature?",
+    "5(a). Draw linear graph for hillside city snowfall days across years.",
+    "5(b). Draw linear graph for population of men and women in village.",
+    "6(a). What is scale taken for time axis?",
+    "6(b). How much time did courier person take for travel?",
+    "6(c). How far is place of merchant from town?",
+    "6(d). Did person stop on his way? Explain.",
+    "6(e). During which period did he ride fastest?",
+    "7. Can there be time-temperature graphs as shown in (i), (ii), (iii), (iv)? Justify."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "Exercise 13.2, Pages 168-169",
+   "questions": [
+    "1(a). Draw graph for cost of apples vs number of apples.",
+    "1(b)(i). How much distance did car cover during 7.30 a.m. to 8 a.m.?",
+    "1(b)(ii). What was time when car covered 100 km distance since start?",
+    "1(c)(i). Does interest on deposits graph pass through origin?",
+    "1(c)(ii). Find interest on Rs 2500 for a year using graph.",
+    "1(c)(iii). How much money should be deposited to get Rs 280 interest per year?",
+    "2(i). Draw graph of side of square vs perimeter. Is it a linear graph?",
+    "2(ii). Draw graph of side of square vs area. Is it a linear graph?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

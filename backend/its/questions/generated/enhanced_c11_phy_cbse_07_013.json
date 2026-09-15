@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_013",
+   "title": "c11_phy_cbse_07_013",
+   "questions": [
+    {
+     "q": "Define apparent weight of an astronaut in a satellite. What is its numerical value for an astronaut in a freely orbiting satellite?",
+     "a": "Apparent weight is the normal contact force exerted by the satellite surface on the astronaut. For a freely orbiting satellite, apparent weight = 0 N. A wrong answer (e.g., stating apparent weight equals mg') reveals confusion between true weight (gravitational force) and apparent weight (contact force), and misunderstanding that weightlessness means zero contact force, not zero gravity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an astronaut in a satellite experience weightlessness even though the gravitational force on them is nearly 90% of their surface weight? Explain using Newton's second law.",
+     "a": "Both the astronaut and the satellite accelerate towards Earth with the same acceleration g' (centripetal acceleration). Newton's second law for the astronaut: mg' - N = mg', where N is the normal force. This gives N = 0. A wrong answer (e.g., \"gravity is zero in space\") reveals the misconception that weightlessness implies absence of gravitational force, rather than absence of contact force due to shared free fall.",
+     "self_check": true
+    },
+    {
+     "q": "A satellite of mass 500 kg orbits Earth at height 400 km. Calculate the gravitational force (true weight) on the satellite. Given: G = 6.67×10⁻¹¹ N·m²/kg², M_E = 6.0×10²⁴ kg, R_E = 6400 km. Also state the apparent weight of the satellite.",
+     "a": "Step 1: Orbital radius r = R_E + h = 6.4×10⁶ m + 4.0×10⁵ m = 6.8×10⁶ m.  \nStep 2: g' = GM_E/r² = (6.67×10⁻¹¹ × 6.0×10²⁴) / (6.8×10⁶)² = 4.002×10¹⁴ / 4.624×10¹³ = 8.65 m/s².  \nStep 3: True weight = M_sat × g' = 500 kg × 8.65 m/s² = 4325 N.  \nStep 4: Apparent weight = 0 N (satellite is in free fall).  \nA wrong calculation of r or g' reveals unit conversion errors; stating apparent weight = 4325 N reveals confusion between true and apparent weight.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the apparent weight of an astronaut in three situations: (a) standing on Earth's surface, (b) in a satellite in circular orbit, (c) in a freely falling elevator. Explain the similarity and difference between (b) and (c).",
+     "a": "(a) Apparent weight = mg (normal force balances gravity). (b) and (c) both have apparent weight = 0 N because both are in free fall (acceleration = g'). Similarity: In both, contact force vanishes because the reference frame accelerates with g'. Difference: The satellite is in continuous free fall (orbital motion), while the elevator falls only until it hits the ground. A wrong answer claiming (b) has apparent weight = mg' reveals failure to recognize free fall as the common principle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Astronauts in the International Space Station are weightless because they are far from Earth and gravity is negligible.\" Correct it if necessary.",
+     "a": "The statement is false. At ISS height (~400 km), g' ≈ 8.7 m/s² (about 89% of surface g). Weightlessness occurs because the ISS and astronaut are in free fall, not because gravity is negligible. A student who agrees with the statement holds the misconception that weightlessness = zero gravity; they need to calculate g' at orbital heights to see gravity is still strong.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance and a mass to demonstrate weightlessness in free fall. Describe the setup, procedure, and expected observation.",
+     "a": "Setup: Attach a 1 kg mass to a spring balance calibrated in newtons. Hold the balance stationary, then release it to fall freely (catch it safely before impact). Observation: While stationary, the balance reads ~9.8 N. During free fall, the reading drops to 0 N. This shows apparent weight (spring force) becomes zero when the system is in free fall, even though gravity still acts. A poor answer that expects the reading to remain 9.8 N reveals the misconception that spring balances measure true weight rather than contact force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_4",
+   "title": "c8_math_ch8_4",
+   "questions": [
+    {
+     "q": "What is the mathematical expression for finding 15% of 80 kg?",
+     "a": "The expression is (15/100) × 80 kg or 0.15 × 80 kg. A wrong answer like 15 × 80 or 80/15 reveals the student does not understand that \"per cent\" means division by 100 and \"of\" means multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Why does multiplying by 0.25 give the same result as finding 25% of a number?",
+     "a": "Because 25% = 25/100 = 0.25, so 25% of a quantity = (25/100) × quantity = 0.25 × quantity. A student who says \"it's just a rule\" or \"decimals are easier\" shows they haven't connected the percentage-to-decimal conversion (c8_math_ch8_3) to the meaning of percentage as a fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate 12.5% of ₹400.",
+     "a": "Step 1: 12.5% = 12.5/100 = 0.125. Step 2: 0.125 × 400 = 50. Answer: ₹50. A wrong answer of ₹5000 (from 12.5 × 400) shows the student forgot to divide by 100. An answer of ₹5 (from 0.125 × 40) shows a decimal place error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods: (a) finding 30% of 150 by doing (30/100)×150, and (b) finding 10% of 150 and multiplying by 3. Which is more efficient and why?",
+     "a": "Method (b) is often more efficient mentally: 10% of 150 = 15, then 15 × 3 = 45. It uses the fact that 30% = 3 × 10%, leveraging the easy calculation of 10% (shifting decimal). A student who insists both are equally efficient for all numbers may not recognize the power of benchmark percentages (10%, 25%, 50%) for mental math.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved \"Find 40% of 250\" as follows: 40% = 40/100 = 2/5, then 2/5 of 250 = 2 × 50 = 100. Is this correct? Justify.",
+     "a": "Yes, correct. 40/100 simplifies to 2/5, and 2/5 of 250 = (250 ÷ 5) × 2 = 50 × 2 = 100. This uses equivalent fractions (Class 6) to simplify before multiplying. A student who says it's wrong because \"you must use 40/100\" shows inflexibility and misses the connection to fraction simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where you need to find 33⅓% of a quantity, and solve it using the fraction form of the percentage.",
+     "a": "Example: \"A 2-litre bottle of juice is shared. Ravi drinks 33⅓% of it. How many millilitres does he drink?\" Solution: 33⅓% = 1/3. 2 L = 2000 mL. 1/3 of 2000 = 2000/3 = 666⅔ mL. A poor answer uses 0.33 × 2000 = 660 mL, showing the student doesn't recognize 33⅓% as exactly 1/3 and loses precision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

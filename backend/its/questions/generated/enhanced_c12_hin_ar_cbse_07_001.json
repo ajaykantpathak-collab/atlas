@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_07_001",
+   "title": "c12_hin_ar_cbse_07_001",
+   "questions": [
+    {
+     "q": "Who was Goswami Tulsidas, and what is his most famous work? (Answer in 1-2 sentences.)",
+     "a": "Goswami Tulsidas (c. 1532–1623) was a 16th-century Ramanandi Vaishnava saint and poet, best known for composing the *Ramcharitmanas*, an Awadhi retelling of the Sanskrit Ramayana. A wrong answer (e.g., naming Surdas or Kabir, or citing the *Mahabharata*) reveals the student lacks basic biographical anchoring and cannot distinguish between major Bhakti poets — a prerequisite for comparative questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states Tulsidas \"gave vernacular the status of literary language.\" Explain in your own words why this was a revolutionary act in 16th-century North India.",
+     "a": "In 16th-century North India, Sanskrit was the exclusive language of scripture, ritual, and high learning, controlled by Brahmins. By composing the Ramkatha in Awadhi (a spoken dialect), Tulsidas bypassed the priestly gatekeepers, allowing women, Shudras, and non-literate audiences direct access to the sacred narrative. A wrong answer that merely says \"he wrote in Hindi\" misses the power dynamic: it wasn't just language choice — it was a social levelling act. This misunderstanding leads to superficial answers in board questions about \"democratization of literature.\"",
+     "self_check": true
+    },
+    {
+     "q": "Given the following metrical description, identify the poetic form (chhand) used in the first poem of this chapter (dforkoyh): \"Each stanza has four lines (padas) of 16 matras each, with a fixed caesura after the 8th matra.\"",
+     "a": "The form is **pkSikbZ** (चप्पय). Steps: (1) Recall that pkSikbZ is defined as a 4-line stanza with 16 matras per line. (2) The caesura at 8 matras confirms the *pkyhl* (पक्ष) structure. (3) Match this to the textbook's note: \"pkSikbZ le ekf=kd Nan gSA ;g pkj iafDr;ksa dk gksrk gS ftldh izR;sd iafDr esa 16&16 ek=kk,¡ gksrh gSA.\" A wrong answer like \"doha\" or \"chaupai\" shows the student hasn't internalized the technical definitions provided in the textbook's 'Word Meanings' section — a direct loss of 1-mark factual questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the poetic form *nksgk* (used in the second poem) with *pkSikbZ* (used in the first). How does the structural difference reflect a shift in poetic purpose?",
+     "a": "*pkSikbZ* (4 lines × 16 matras) creates a balanced, meditative rhythm suited for philosophical reflection (dforkoyh: \"the world is fleeting\"). *nksgk* (4 lines but uneven matras: 11+11 in middle lines, 13+13 in outer lines, with a fixed rhyme 'A' at line-end) produces a rolling, narrative momentum ideal for storytelling (nksgk: Ram's exile). The shift from symmetrical to asymmetrical meter mirrors the shift from *vairagya* (detachment) to *karuna* (compassionate narration). A wrong answer that only lists matra counts without linking form to function fails the \"analyze\" requirement of CBSE's 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Tulsidas's use of multiple chhands in a single chapter shows he was experimenting with form, not following tradition.\" Defend or refute using evidence from the textbook's introductory note.",
+     "a": "Refute. The textbook explicitly states: \"rqylh lkfgR; esa vkSj Nan rFkk dkO;&:i vk, gSaA ,sls Nanksa o dkO;&:iksa dh lwph cuk,¡\" — implying these are *established* traditional forms (pkSikbZ, nksgk, lksjBk, dfoÙk, loS;k are all classical Hindi metres). Tulsidas mastered and deployed them deliberately, not experimentally. A student who calls this \"experimentation\" confuses *variety* with *innovation* — a common error in competitive exams like CUET where \"modernist experimentation\" is a distractor option for pre-modern poets.",
+     "self_check": true
+    },
+    {
+     "q": "Write a *doha* (2 lines, 24+24 matras) in Tulsidas's style on the theme \"Guru's grace,\" using the vocabulary register (tatsam + tadbhav mix) typical of his *Vinay Patrika*.",
+     "a": "A valid attempt must: (1) Use exactly two lines. (2) Each line = 24 matras (13+11 or 11+13 split). (3) Employ Sanskrit-derived (tatsam) words like *guru, kripa, gyan* mixed with Braj tadbhav like *mori, hoy, payi*. (4) Reflect humility (*vinaya*) — e.g., \"गुरु कृपा बिनु ज्ञान न होई, मोरी मतिमंद गति सोई।\" (Check matras: gu-ru kri-pa bi-nu gya-n na ho-i = 13; mo-ri ma-ti-man-da ga-ti so-i = 11 — adjust to 24 total). A poor answer ignores matra count or uses modern Khari Boli, showing the student treats form as decoration, not discipline.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

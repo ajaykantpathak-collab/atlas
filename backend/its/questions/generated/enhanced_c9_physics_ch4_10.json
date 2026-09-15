@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_10",
+   "title": "c9_physics_ch4_10",
+   "questions": [
+    {
+     "q": "Define Mechanical Advantage of a pulley system and state its SI unit.",
+     "a": "Mechanical Advantage (MA) = Load / Effort. It is a dimensionless ratio (no SI unit). A wrong answer stating units like \"N\" or \"J\" reveals the student confuses MA with force or work, not recognizing it as a pure number comparing two forces.",
+     "self_check": true
+    },
+    {
+     "q": "A single fixed pulley changes the direction of force but has MA = 1. Explain why the Mechanical Advantage is 1 using the work principle.",
+     "a": "In an ideal single fixed pulley, the distance moved by effort equals the distance moved by load. Since Work_in = Work_out (Effort × d_effort = Load × d_load), and d_effort = d_load, therefore Effort = Load, giving MA = 1. A wrong answer claiming MA > 1 shows the student thinks any pulley multiplies force, ignoring that a fixed pulley only redirects force without multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A block-and-tackle system has 3 movable pulleys and 1 fixed pulley. If the load is 600 N and the system efficiency is 80%, calculate the effort required. (Assume ideal VR = number of rope segments supporting the load).",
+     "a": "**Step 1:** Identify given: Load = 600 N, Efficiency = 80% = 0.8. Number of supporting rope segments = 4 (3 movable + 1 fixed arrangement gives 4 strands). Ideal VR = 4.\n**Step 2:** For ideal pulleys, MA_ideal = VR = 4. But actual MA = Efficiency × VR = 0.8 × 4 = 3.2.\n**Step 3:** MA = Load / Effort → Effort = Load / MA = 600 N / 3.2 = 187.5 N.\n**Step 4:** Unit check: N / (dimensionless) = N. Correct.\n**Step 5:** Reasonableness: Effort < Load (187.5 N < 600 N), plausible for a pulley system.\nAnswer: 187.5 N. A wrong answer of 150 N (using MA=4 ignoring efficiency) reveals the student forgets real machines have losses.",
+     "self_check": true
+    },
+    {
+     "q": "Two pulley systems both have VR = 4. System A has MA = 3.6, System B has MA = 3.0. Compare their efficiencies and explain which system has more friction loss.",
+     "a": "Efficiency η = (MA/VR)×100%. System A: η = (3.6/4)×100% = 90%. System B: η = (3.0/4)×100% = 75%. System B has lower efficiency, meaning more work is lost to friction (and pulley weight). A wrong answer saying System A has more friction because its MA is higher reveals confusion: higher MA means less loss, not more.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I use a pulley system with VR = 5, I can lift a 500 N load with only 50 N effort.\" Evaluate this statement for both ideal and real conditions.",
+     "a": "Ideal: MA = VR = 5, so Effort = Load/MA = 500/5 = 100 N. The claim (50 N) is false even ideally — it would require MA = 10. Real: With friction, MA < 5, so effort > 100 N. The claim is impossible. A wrong answer accepting the claim shows the student confuses VR with MA and ignores that VR=5 gives MA=5 ideally, not MA=10.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pulley arrangement to lift a 200 N water bucket from a well using maximum 60 N effort. Specify the number of fixed and movable pulleys needed, assuming 75% efficiency. Justify your design.",
+     "a": "Required actual MA = Load/Effort = 200/60 ≈ 3.33. With η = 75%, need VR = MA/η = 3.33/0.75 ≈ 4.44 → VR must be at least 5 (integer). Use 2 movable + 1 fixed (VR = 4) is insufficient; use 3 movable + 1 fixed (VR = 6) gives MA_ideal = 6, actual MA = 0.75×6 = 4.5, effort = 200/4.5 ≈ 44.4 N (< 60 N). A poor answer suggesting VR=4 shows inability to work backwards from effort constraint and round VR up to next integer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

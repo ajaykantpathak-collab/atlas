@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_004",
+   "title": "c10_phy_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the SI unit of resistance? Define resistance in terms of potential difference and current.",
+     "a": "The SI unit of resistance is the ohm (Ω). Resistance R = V/I, where V is the potential difference in volts and I is the current in amperes. 1 Ω = 1 V/A. A wrong answer (e.g., \"watt\" or \"ampere\") reveals the student confuses resistance with power or current. If the student writes R = I/V, they have inverted the Ohm's law relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I increase the length of a wire, its resistance decreases because the current has more space to flow.\" Explain why this statement is incorrect using the concept of resistance.",
+     "a": "Resistance is directly proportional to the length of the conductor. Increasing length increases the number of collisions between electrons and ions, so resistance increases, not decreases. The student's reasoning incorrectly assumes more space reduces opposition. A wrong answer indicates the student has not internalized the direct proportionality R ∝ L and may be confusing resistance with cross-sectional area effect.",
+     "self_check": true
+    },
+    {
+     "q": "A nichrome wire of length 2 m and cross-sectional area 0.5 mm² has a resistance of 10 Ω when a potential difference of 5 V is applied across it. Calculate the current flowing through the wire. (Use R = V/I)",
+     "a": "Given: V = 5 V, R = 10 Ω. Using R = V/I → I = V/R = 5 V / 10 Ω = 0.5 A. The current is 0.5 A. A wrong answer (e.g., 2 A) suggests the student used I = R/V or misapplied the formula. Unit analysis: V/Ω = A, correct.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires A and B are made of the same material and have the same length. Wire A has twice the cross-sectional area of wire B. Compare their resistances and explain the relationship.",
+     "a": "Resistance is inversely proportional to cross-sectional area. Since wire A has twice the area of wire B, its resistance is half that of wire B. So R_A = (1/2) R_B. A wrong answer (e.g., R_A = 2 R_B) shows the student confused direct vs inverse proportionality or thinks thicker wire has more resistance.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs an experiment to study the effect of temperature on resistance of a copper wire. They heat the wire and measure resistance at different temperatures. The student claims: \"Resistance of copper decreases with increase in temperature.\" Evaluate this claim.",
+     "a": "The claim is incorrect. For metallic conductors like copper, resistance increases with temperature because increased lattice vibrations impede electron flow. The student may have confused metals with semiconductors (where resistance decreases with temperature) or misread the data. A wrong evaluation indicates lack of knowledge about temperature dependence of metals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, ammeter, voltmeter, and wires of different materials (copper, nichrome, aluminium) but same length and cross-sectional area to compare their resistances. Describe the procedure and how you would conclude which material has the highest resistance.",
+     "a": "Connect each wire in series with a battery, ammeter, and a variable resistor (to keep current safe). Connect voltmeter across the wire. For each wire, adjust the variable resistor to get a measurable current (e.g., 0.2 A). Record V and I, compute R = V/I. The wire with the highest V for the same I has the highest resistance. Expected order: nichrome > aluminium > copper. A poor answer omits controlling length/area, doesn't use R = V/I, or doesn't mention keeping current constant for fair comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

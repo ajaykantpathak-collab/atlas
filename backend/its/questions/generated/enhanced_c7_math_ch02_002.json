@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_002",
+   "title": "c7_math_ch02_002",
+   "questions": [
+    {
+     "q": "What does the letter 'D' stand for in the BODMAS rule used for evaluating arithmetic expressions?",
+     "a": "The letter 'D' stands for Division. A student who answers \"Decimal\" or \"Double\" is confusing mathematical operations with number types or prefixes, which shows they have not memorized the fundamental acronym for the order of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why must multiplication and division be performed before addition and subtraction when evaluating an expression like $5 + 3 \\times 4$? Explain the mathematical reason.",
+     "a": "Multiplication represents repeated addition (scaling or grouping), so by convention, scaling must be computed before combining quantities through addition. A student who says \"because multiplication comes first in the alphabet\" or \"because it is on the left\" misunderstands that order of operations reflects the hierarchical structure of mathematical quantities, where terms (products/quotients) are evaluated before being combined into sums/differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following expression step by step: $24 \\div 4 + 2 \\times 5 - 3$.",
+     "a": "The correct answer is $13$. Working: First, perform division and multiplication from left to right: $24 \\div 4 = 6$ and $2 \\times 5 = 10$. The expression becomes $6 + 10 - 3$. Next, perform addition and subtraction from left to right: $6 + 10 = 16$, and $16 - 3 = 13$. A student who gets $27$ likely added $4 + 2$ first or ignored left-to-right priority, exposing a fundamental failure to apply BODMAS correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two ways of evaluating $18 - 6 \\div 2 + 3$: Student A computes $(18 - 6) \\div (2 + 3)$ and gets $2.4$. Student B computes $18 - (6 \\div 2) + 3$ and gets $18$. Which student is correct, and what error did the incorrect student make?",
+     "a": "Student B is correct (value is $18$). Working: Division takes precedence over subtraction and addition, so $6 \\div 2 = 3$, turning the expression into $18 - 3 + 3 = 18$. Student A incorrectly inserted unauthorized brackets around terms before performing division, violating the hierarchy of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An expression like $50 - 20 \\times 2$ can be evaluated by doing the subtraction first because subtraction appears first when reading from left to right.\" Is this statement valid? Defend your answer.",
+     "a": "The statement is completely invalid. According to the order of operations (BODMAS), multiplication ($20 \\times 2 = 40$) must be calculated before subtraction ($50 - 40 = 10$). A student who agrees with the statement fails to realize that reading order (left-to-right) only applies *within* the same priority level (like multiplication/division or addition/subtraction), not across different priority levels.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an arithmetic expression using the numbers $2, 3, 4,$ and $6$, along with at least three different operations (including one set of brackets), such that when evaluated correctly using BODMAS, the final result equals $20$.",
+     "a": "An example of a correct expression is: $(6 + 4) \\times 2 - 3 \\times 0$ (or simpler: $(6 + 4) \\times 2 + 0$, or $4 \\times (6 - 3) + 8$). Let's check $(6 + 4) \\times 2$: Brackets give $10$, then $10 \\times 2 = 20$. A poor answer would be an expression where brackets are placed redundantly or evaluated incorrectly, yielding a different number due to ignoring BODMAS.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

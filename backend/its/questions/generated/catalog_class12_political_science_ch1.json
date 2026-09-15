@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class12_political_science_ch1",
+ "concepts": [
+  {
+   "id": "c12ps.1.1",
+   "title": "The Cold War Era",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Cold War Era' refers to.",
+     "a": "The Cold War was a period of ideological, political, and military rivalry between the United States-led Western bloc and the Soviet Union-led Eastern bloc that lasted from the end of the Second World War until the disintegration of the USSR in 1991, without direct armed conflict between the two superpowers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Cold War Era'.",
+     "a": "The Cold War was marked by an ideological divide between capitalism and socialism, an arms race, the formation of rival military alliances (NATO and Warsaw Pact), and a constant threat of nuclear war.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Cold War Era' taught, and from which source text?",
+     "a": "Introduction to the Cold War",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.2",
+   "title": "Bipolarity and the Two-Camp World",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bipolarity and the Two-Camp World' refers to.",
+     "a": "Bipolarity refers to the division of the world into two power blocs centred on two superpowers, the United States and the Soviet Union, each with its own alliance system, ideology, and sphere of influence, creating a two-camp international system during the Cold War.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bipolarity and the Two-Camp World'.",
+     "a": "In a bipolar world, international politics was structured around two competing centres of power, and most states aligned with one bloc or the other, leaving little room for neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Bipolarity and the Two-Camp World' taught, and from which source text?",
+     "a": "Bipolarity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.3",
+   "title": "The Soviet System and its Features",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Soviet System and its Features' refers to.",
+     "a": "The Soviet system was the political and economic structure of the USSR, based on a single-party rule by the Communist Party, a centrally planned economy, state ownership of productive assets, and a federal structure of fifteen republics under a strong central authority.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Soviet System and its Features'.",
+     "a": "The Soviet system combined socialist ideology, a command economy, one-party rule, and a federal structure, and was built on the legacy of the 1917 Bolshevik Revolution led by Lenin.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Soviet System and its Features' taught, and from which source text?",
+     "a": "The Soviet System",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.4",
+   "title": "Gorbachev and the Reform Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gorbachev and the Reform Process' refers to.",
+     "a": "Mikhail Gorbachev, who became General Secretary of the Communist Party of the Soviet Union in 1985, introduced two major reform policies -- glasnost (openness) and perestroika (restructuring) -- to revive the stagnating Soviet economy and political system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gorbachev and the Reform Process'.",
+     "a": "Gorbachev's reforms of glasnost and perestroika aimed to make the Soviet system more open and efficient but unintentionally weakened the party's control and accelerated the disintegration of the USSR.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gorbachev and the Reform Process' taught, and from which source text?",
+     "a": "Gorbachev and Reforms",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.5",
+   "title": "Disintegration of the Soviet Union",
+   "questions": [
+    {
+     "q": "Using the method 'Disintegration of the Soviet Union', work with: rising_nationalism = 20, weakened_central_authority = 24, num_republics_after = 15. Carry the chain through step by step and give the final value of independence_demand.",
+     "a": "44 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Disintegration of the Soviet Union' and work with: rising_nationalism = 20, weakened_central_authority = 80, num_republics_after = 15. Carry the chain through step by step and give the final value of independence_demand.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Disintegration of the Soviet Union' refers to.",
+     "a": "The disintegration of the Soviet Union was the process by which the USSR broke apart into fifteen independent republics, culminating in the formal dissolution of the union on 26 December 1991, ending the existence of the world's first socialist state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disintegration of the Soviet Union'.",
+     "a": "The disintegration was caused by internal weaknesses of the Soviet system, Gorbachev's reforms, rising nationalism in the republics, and an attempted coup in August 1991, and it ended the bipolar world order.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Disintegration of the Soviet Union' taught, and from which source text?",
+     "a": "Disintegration of the USSR",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.6",
+   "title": "Consequences of Soviet Disintegration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consequences of Soviet Disintegration' refers to.",
+     "a": "The disintegration of the Soviet Union had far-reaching consequences including the end of the Cold War, the collapse of bipolarity, the emergence of the US as the sole superpower, the spread of democracy and capitalism in Eastern Europe, and a change in the balance of power in world politics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consequences of Soviet Disintegration'.",
+     "a": "The end of the USSR transformed the international system from bipolar to unipolar, led to the reunification of Germany, the withdrawal of Soviet influence from Eastern Europe, and the creation of many new independent states.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Consequences of Soviet Disintegration' taught, and from which source text?",
+     "a": "Consequences of Disintegration",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.7",
+   "title": "Shock Therapy in Post-Communist States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Shock Therapy in Post-Communist States' refers to.",
+     "a": "Shock therapy refers to the sudden and rapid transition from a state-controlled socialist economy to a capitalist economy through immediate privatisation, free market pricing, and removal of state subsidies, applied to the post-communist states after the collapse of the USSR.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shock Therapy in Post-Communist States'.",
+     "a": "Shock therapy was a model of transition inspired by the IMF and the World Bank that sought to quickly convert post-communist economies to capitalism, but in Russia and Central Asian republics it caused severe economic and social hardship.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Shock Therapy in Post-Communist States' taught, and from which source text?",
+     "a": "Shock Therapy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.8",
+   "title": "Transition in Post-Communist States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transition in Post-Communist States' refers to.",
+     "a": "The transition in post-communist states refers to the political and economic transformation of the former Soviet republics and Eastern European countries after 1991, involving the shift from one-party communist rule to multiparty democracy and from a command economy to a market economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transition in Post-Communist States'.",
+     "a": "The transition varied across regions: Central Asian republics experienced authoritarianism and civil wars, while Central and Eastern European countries moved towards democracy and integration with the European Union.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transition in Post-Communist States' taught, and from which source text?",
+     "a": "Transition in Post-Communist States",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.1.9",
+   "title": "End of Bipolarity and India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'End of Bipolarity and India' refers to.",
+     "a": "The end of bipolarity affected India's foreign policy and domestic politics by removing the Soviet Union as a reliable strategic partner, forcing India to reorient its foreign policy, liberalise its economy, and build new relationships with the US and other powers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'End of Bipolarity and India'.",
+     "a": "India lost its closest strategic ally in the USSR, faced economic crisis, and had to reform its foreign policy and economy, eventually embracing economic liberalisation in 1991 and strengthening ties with the US and other major powers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'End of Bipolarity and India' taught, and from which source text?",
+     "a": "End of Bipolarity and India",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

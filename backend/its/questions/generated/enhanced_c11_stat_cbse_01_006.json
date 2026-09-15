@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_006",
+   "title": "c11_stat_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between primary data and secondary data in terms of who collects the data and for what purpose?",
+     "a": "Primary data is collected by the investigator themselves for a specific research objective, whereas secondary data is collected by someone else for a different purpose and is being reused. A wrong answer that says \"primary data is always more accurate\" or \"secondary data is old data\" reveals a misconception that confuses the definition with quality or timeliness attributes, which are separate considerations.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher uses data from the \"Census of India 2011\" to analyse population growth trends. Is this primary or secondary data for the researcher? Explain why, and state one precaution the researcher must take before using this data.",
+     "a": "This is secondary data because the researcher did not conduct the census; the Office of the Registrar General & Census Commissioner collected it for administrative planning. The researcher must verify the methodology, definitions used (e.g., \"urban\" vs \"rural\"), and the reference period to ensure suitability for their specific study. A wrong answer that calls it primary data because it's \"official\" or \"large-scale\" shows confusion between the collector's perspective and the user's perspective.",
+     "self_check": true
+    },
+    {
+     "q": "You want to study the impact of a new mobile banking app on the saving habits of street vendors in your city. Design a two-step primary data collection plan specifying the method and the target respondents.",
+     "a": "Step 1: Use direct personal investigation (structured interview schedule) because the target group (street vendors) may have low literacy and need clarification. Step 2: Target a sample of vendors across different zones who have used the app for at least 3 months. A wrong answer suggesting \"mailed questionnaire\" or \"using bank records\" fails to account for the population's characteristics (illiteracy, informality) and the need for firsthand behavioural data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of primary vs secondary data for studying: (a) the current consumer sentiment about a newly launched electric vehicle, and (b) the long-term trend in India's GDP growth rate over the last 30 years. Justify your choice for each.",
+     "a": "(a) Primary data is essential because consumer sentiment on a new product does not exist in any published source; it requires fresh surveys. (b) Secondary data (from RBI/CSO national accounts) is appropriate because GDP data is systematically collected, published annually, and reconstructing it primarily would be impractical. A wrong answer that swaps the choices shows inability to match data nature (ephemeral vs structural) with source feasibility.",
+     "self_check": true
+    },
+    {
+     "q": "\"Secondary data should never be used without scrutiny.\" Evaluate this statement by listing three specific precautions an investigator must take, and explain the consequence of ignoring each.",
+     "a": "1. Reliability: Check the credibility of the collecting agency and methodology; ignoring this may introduce bias from poorly designed surveys. 2. Suitability: Ensure definitions, coverage, and time period match the current study; ignoring this leads to comparing apples with oranges. 3. Adequacy: Verify the data granularity and sample size meet the analysis needs; ignoring this may yield statistically insignificant results. A weak answer that gives generic advice like \"check if it's correct\" shows lack of specific evaluative criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where BOTH primary and secondary data are needed for the same research question. Define the question, specify which part uses which source, and explain why the combination strengthens the study.",
+     "a": "Research question: \"Assess the effectiveness of the PM-KISAN scheme in doubling farmer income in Punjab.\" Use secondary data (agricultural census, scheme disbursement records) to establish baseline income trends and coverage. Use primary data (field survey of beneficiary farmers) to capture ground-level implementation gaps, leakages, and subjective well-being. The combination allows triangulation: secondary data provides scale and trend, primary data provides depth and context. A poor answer that uses both sources for the same variable (e.g., both for income) without complementarity shows misunderstanding of mixed-methods design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

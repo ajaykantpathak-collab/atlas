@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_004",
+   "title": "c12_phy_cbse_05_004",
+   "questions": [
+    {
+     "q": "A magnetic needle free to rotate in a vertical plane aligns itself at an angle of 60° with the horizontal. What is the angle of dip at that location? If the horizontal component of Earth's magnetic field is 0.4 G, calculate the total magnetic field.",
+     "a": "Angle of dip δ = 60° (by definition, dip is the angle with horizontal in magnetic meridian). Total field B_E = H_E / cos δ = 0.4 G / cos 60° = 0.4 / 0.5 = 0.8 G = 8 × 10⁻⁵ T. A wrong answer (e.g., δ = 30° or B_E = 0.4 × cos 60°) reveals confusion between dip angle and its complement, or incorrect trigonometric relation (using sin instead of 1/cos).",
+     "self_check": true
+    },
+    {
+     "q": "At a certain place, the horizontal component of Earth's magnetic field is √3 times the vertical component. What is the angle of dip? Explain why the vertical component points downward in the northern hemisphere.",
+     "a": "Given H_E = √3 V_E. tan δ = V_E / H_E = V_E / (√3 V_E) = 1/√3 → δ = 30°. In the northern hemisphere, Earth's magnetic field lines enter the Earth (pointing toward the magnetic south pole, which is near geographic north), so the vertical component points downward. A wrong answer (δ = 60° or upward vertical component) shows confusion between tan δ = V/H vs H/V, or misunderstanding of field line direction (field lines emerge from magnetic north, enter magnetic south).",
+     "self_check": true
+    },
+    {
+     "q": "The magnetic declination at Delhi is 0° 58' E. A compass needle shows a bearing of N 30° E. What is the true geographic bearing? If the angle of dip is 42° and H_E = 0.35 G, find the vertical component and total field.",
+     "a": "True bearing = magnetic bearing + declination (east is positive) = 30° + 0° 58' = 30° 58' (or N 30° 58' E). V_E = H_E tan δ = 0.35 × tan 42° = 0.35 × 0.9004 = 0.315 G. B_E = H_E / cos δ = 0.35 / cos 42° = 0.35 / 0.7431 = 0.471 G. A wrong answer (subtracting declination, or using sin/cos incorrectly) reveals confusion about sign convention for declination (east = +, west = -) or component formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Two places A and B have the same horizontal component H_E = 0.3 G. At A, δ = 30°; at B, δ = 60°. Compare the total magnetic field and vertical component at the two places. Which place has stronger total field? Why does H_E remain constant while δ changes?",
+     "a": "At A: B_E = 0.3 / cos 30° = 0.3 / 0.866 = 0.346 G, V_E = 0.3 × tan 30° = 0.3 × 0.577 = 0.173 G. At B: B_E = 0.3 / cos 60° = 0.3 / 0.5 = 0.6 G, V_E = 0.3 × tan 60° = 0.3 × 1.732 = 0.520 G. Place B has stronger total field (0.6 G > 0.346 G). H_E can be same at different latitudes because it depends on both total field and dip: H_E = B_E cos δ. As you move toward magnetic poles, B_E increases but cos δ decreases, so H_E may stay similar. A wrong comparison (saying A has larger B_E) shows misunderstanding of how B_E varies with δ when H_E is fixed.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Given δ = 45°, H_E = 0.4 G, find B_E.\" They write: B_E = H_E × cos 45° = 0.4 × 0.707 = 0.283 G. Identify the error and give the correct solution. Why is this error common?",
+     "a": "Error: Used B_E = H_E cos δ instead of B_E = H_E / cos δ. Correct: B_E = 0.4 / cos 45° = 0.4 / 0.707 = 0.566 G. The error arises from confusing the resolution of a vector (component = magnitude × cos θ) with finding magnitude from a component (magnitude = component / cos θ). Students memorize \"horizontal = total × cos\" but forget to invert when solving for total. This is a classic formula-direction error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a dip circle to determine the angle of dip at your school laboratory. List the apparatus, procedure, and how you would calculate δ from observations. What precaution ensures the plane of rotation is the magnetic meridian?",
+     "a": "Apparatus: Dip circle (magnetic needle free to rotate in vertical plane), spirit level. Procedure: (1) Level the dip circle base using spirit level. (2) Rotate the horizontal box until the needle shows 0°-0° reading (needle horizontal) — this aligns the plane of rotation with magnetic meridian. (3) Release the needle in vertical plane; it dips to angle δ. (4) Take readings on both ends of needle, average to remove index error. Calculation: δ = average of two readings. Precaution: The horizontal circle must be rotated until the needle rests horizontally (0°) — this ensures the vertical plane contains the magnetic meridian. A poor answer (using compass instead of dip circle, or not leveling) reveals confusion between declination measurement (horizontal plane) and dip measurement (vertical plane in magnetic meridian).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

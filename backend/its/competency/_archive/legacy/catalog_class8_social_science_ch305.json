@@ -1,0 +1,773 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 305,
+ "chapter_title": "Understanding Marginalisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess305.txt",
+ "concepts": [
+  {
+   "id": "hess.305.1",
+   "title": "Concept of Social Marginalisation",
+   "section": "What Does it Mean to be Socially Marginalised?",
+   "definition": "Social marginalisation is the state of being pushed to the periphery of society, where individuals or groups are denied equal access to resources, rights, and decision-making power.",
+   "formula": "N/A",
+   "key_idea": "Exclusion of specific groups from society's mainstream activities and benefits.",
+   "textbook_ref": "hess305.txt lines 30-55",
+   "question_patterns": [
+    "What is meant by social marginalisation?",
+    "Explain how certain communities get pushed to the margins of society.",
+    "Identify the core features of social exclusion in a community.",
+    "Describe what it means for a group to be socially marginalized.",
+    "Discuss why marginalised groups feel a sense of powerlessness."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define marginalisation",
+     "explain": "Marginalisation means forcing a group to stay at the outer edge or fringe of social, economic, and political life."
+    },
+    {
+     "step": 2,
+     "action": "Examine key impacts",
+     "explain": "Marginalised groups experience lack of access to opportunities, resources, and civic voice compared to dominant groups."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.2",
+   "title": "Factors Causing Social Exclusion",
+   "section": "What Does it Mean to be Socially Marginalised?",
+   "definition": "Social exclusion arises from a combination of linguistic, cultural, economic, and political differences that lead to discrimination and unequal access to opportunities.",
+   "formula": "N/A",
+   "key_idea": "Interconnected social, economic, and political causes drive community exclusion.",
+   "textbook_ref": "hess305.txt lines 40-60",
+   "question_patterns": [
+    "List three distinct reasons why social groups become marginalised.",
+    "Explain how economic and social factors combine to cause exclusion.",
+    "Identify the grounds on which communities experience discrimination.",
+    "Analyze how language and cultural differences contribute to marginalisation.",
+    "How do power imbalances lead to the marginalisation of small communities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify distinct factors",
+     "explain": "Language, religious practices, poverty, low social status, and distinct customs can lead to social exclusion."
+    },
+    {
+     "step": 2,
+     "action": "Analyze systemic effects",
+     "explain": "Dominant groups control wealth and land, leading to relative powerlessness for marginalized communities."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.3",
+   "title": "Adivasi Identity and Cultural Heritage",
+   "section": "Who are Adivasis?",
+   "definition": "Adivasis are indigenous communities deeply connected to forests, practicing unique nature-oriented spiritual traditions and speaking distinct non-Sanskrit languages.",
+   "formula": "N/A",
+   "key_idea": "Indigenous inhabitants with egalitarian societal structure and nature-centered beliefs.",
+   "textbook_ref": "hess305.txt lines 95-135",
+   "question_patterns": [
+    "Who are the Adivasis and what does the term signify?",
+    "Describe the unique spiritual and religious practices of Adivasi communities.",
+    "Explain how Adivasi social structures differ from caste-based hierarchical societies.",
+    "Identify the major geographical regions in India inhabited by Adivasi groups.",
+    "Discuss the nature of Adivasi languages and their connection to regional tongues."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Adivasi",
+     "explain": "Adivasi literally means original inhabitants, referring to forest-dwelling tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Highlight egalitarian culture",
+     "explain": "Adivasis have little internal hierarchy, worshipping nature and ancestral spirits."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.4",
+   "title": "Demographic Estimation of Marginalised Groups",
+   "section": "Who are Adivasis?",
+   "definition": "Calculating the approximate population size of a specific community using its known demographic percentage share of the country's total population.",
+   "formula": "group_population = total_population * (percentage / 100)",
+   "key_idea": "Quantifying community populations using census percentage proportions.",
+   "textbook_ref": "hess305.txt lines 98-105",
+   "question_patterns": [
+    "Calculate the Adivasi population given total population and percentage share.",
+    "Find the number of tribal people in a nation of total population N with percentage P.",
+    "Determine the estimated population size of a community based on demographic share.",
+    "Compute the population of a sub-group given total count and demographic percentage.",
+    "What is the estimated size of a marginalised group given total inhabitants and proportion?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert percentage to decimal fraction",
+     "explain": "Divide the percentage share by 100 to obtain the decimal fraction.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate group population",
+     "explain": "Multiply the total population by the decimal fraction.",
+     "compute": "group_population = total_population * fraction"
+    }
+   ]
+  },
+  {
+   "id": "hess.305.5",
+   "title": "Stereotyping and Social Perception of Tribals",
+   "section": "Adivasis and Stereotyping",
+   "definition": "Stereotyping of tribals involves depicting them exclusively through colorful attire and traditional dances, misrepresenting them as exotic, primitive, and resistant to modern progress.",
+   "formula": "N/A",
+   "key_idea": "Superficial media representations foster prejudice and conceal complex tribal realities.",
+   "textbook_ref": "hess305.txt lines 136-155",
+   "question_patterns": [
+    "How are Adivasi communities stereotyped in public events and media?",
+    "Explain the harm caused by viewing tribals as exotic or primitive.",
+    "Identify common misconceptions regarding Adivasis willingness to adopt change.",
+    "Describe how media portrayals lead to discrimination against tribal groups.",
+    "Why is depicting tribals solely as dancers inaccurate and prejudicial?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify stereotypical portrayals",
+     "explain": "Tribals are often shown only in traditional costumes and dancing during official functions."
+    },
+    {
+     "step": 2,
+     "action": "Analyze consequences",
+     "explain": "This leads to false beliefs that tribals are backward or resistant to modern development."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.6",
+   "title": "Dispossession and Displacement of Adivasi Land",
+   "section": "Adivasis and Development",
+   "definition": "Land dispossession occurs when state authority or commercial entities forcibly clear forest lands and mineral areas, displacing tribal inhabitants without fair restitution.",
+   "formula": "N/A",
+   "key_idea": "Mining, infrastructure, and industrial projects cause widespread tribal displacement.",
+   "textbook_ref": "hess305.txt lines 156-220",
+   "question_patterns": [
+    "Explain the key drivers behind the displacement of Adivasis from forests.",
+    "How do mining and industrial projects affect tribal land ownership?",
+    "Describe the consequences of losing forest land on Adivasi livelihoods.",
+    "Discuss why tribal communities resist mining developments on sacred sites.",
+    "Identify how state forest policies have altered tribal access to natural resources."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify causes of displacement",
+     "explain": "Forest clearance for timber, mining, industries, and wildlife sanctuaries displaces tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Examine economic impacts",
+     "explain": "Loss of forest rights forces tribals into low-wage urban labor, trapping them in poverty."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.7",
+   "title": "Economic and Social Interconnectedness of Tribal Life",
+   "section": "Adivasis and Development",
+   "definition": "The destruction of tribal economic bases directly destroys their cultural identity, sacred sites, traditional knowledge, and social cohesion.",
+   "formula": "N/A",
+   "key_idea": "Economic survival and social-cultural traditions are inextricably linked in tribal communities.",
+   "textbook_ref": "hess305.txt lines 210-230",
+   "question_patterns": [
+    "Explain why economic displacement leads to social and cultural loss for tribals.",
+    "How does losing land disrupt Adivasi religious and community practices?",
+    "Analyze the link between forest destruction and the loss of indigenous knowledge.",
+    "Describe what happens to tribal culture when communities migrate to urban slums.",
+    "Why is tribal land loss considered more than just a financial setback?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recognize interlinkage",
+     "explain": "Tribal culture, worship places, and traditional medicine depend directly on forest ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Assess cultural loss",
+     "explain": "Displacement destroys sacred grounds, ancestral heritage, and traditional ecological knowledge."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.8",
+   "title": "Constitutional Safeguards for Religious and Linguistic Minorities",
+   "section": "Minorities and Marginalisation",
+   "definition": "Constitutional safeguards are special legal provisions designed to protect smaller population groups from cultural hegemony, discrimination, and insecurity.",
+   "formula": "N/A",
+   "key_idea": "Protecting minority rights maintains democratic diversity and prevents majority domination.",
+   "textbook_ref": "hess305.txt lines 231-260",
+   "question_patterns": [
+    "Why does the Indian Constitution provide safeguards to minority communities?",
+    "Explain how numerical minority status can create a sense of social insecurity.",
+    "Identify the role of constitutional safeguards in preserving cultural diversity.",
+    "Describe how the judiciary protects minority rights against majoritarian rule.",
+    "What factors beyond numerical strength define minority marginalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain constitutional intent",
+     "explain": "Safeguards protect minority communities from cultural domination by the majority."
+    },
+    {
+     "step": 2,
+     "action": "Identify fundamental protections",
+     "explain": "Equal rights and access to justice ensure minorities can preserve their identity."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.9",
+   "title": "Socio-Economic Status and Literacy of Muslim Community",
+   "section": "Muslims and Marginalisation",
+   "definition": "Socio-economic analysis of empirical indicators shows that the Muslim community faces reduced access to basic amenities, literacy, and public employment relative to other groups.",
+   "formula": "N/A",
+   "key_idea": "Justice Sachar Committee revealed substantial socio-economic lags among Indian Muslims.",
+   "textbook_ref": "hess305.txt lines 261-305",
+   "question_patterns": [
+    "Discuss the key findings of the Justice Rajindar Sachar Committee Report.",
+    "Compare the basic amenities and literacy levels of Muslims with other communities.",
+    "What evidence shows that Muslims experience socio-economic marginalisation?",
+    "Explain the status of Muslim representation in public sector employment.",
+    "Analyze how educational dropouts contribute to economic lag in the Muslim community."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Sachar Committee findings",
+     "explain": "The 2005 committee established that Muslims lag on key social, educational, and economic metrics."
+    },
+    {
+     "step": 2,
+     "action": "Analyze developmental indicators",
+     "explain": "Lower literacy rates, reduced school attendance, and low public job representation demonstrate marginalisation."
+    }
+   ]
+  },
+  {
+   "id": "hess.305.10",
+   "title": "Ghettoisation and Social Discrimination",
+   "section": "Muslims and Marginalisation",
+   "definition": "Ghettoisation is the process where social prejudice, distinct cultural markers, and insecurity force a minority community to cluster together in isolated residential localities.",
+   "formula": "N/A",
+   "key_idea": "Prejudice and distinct cultural markers can lead to spatial segregation and alienation.",
+   "textbook_ref": "hess305.txt lines 306-335",
+   "question_patterns": [
+    "What is ghettoisation and what causes a community to become ghettoised?",
+    "Explain how social prejudice leads to residential segregation of minorities.",
+    "Identify cultural dress and customs that are unfairly used to stereotype Muslims.",
+    "Describe the relationship between social discrimination and communal spatial isolation.",
+    "How does distinct identity contribute to social alienation in urban areas?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define ghettoisation",
+     "explain": "It is the concentration of a specific community into a distinct neighborhood due to social or economic pressures."
+    },
+    {
+     "step": 2,
+     "action": "Trace causes",
+     "explain": "Prejudice, fear, and stereotyping compel minority members to live together for safety."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess305.txt lines 98-100",
+   "concept": "hess.305.4",
+   "question_type": "compute",
+   "question_pattern": "If India total population is {total_population} and Adivasis constitute {percentage} percent, calculate the Adivasi population.",
+   "extracted_variables": {
+    "total_population": 1400000000,
+    "percentage": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert percentage to decimal fraction",
+     "explain": "Divide the percentage share by 100.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate group population",
+     "explain": "Multiply the total population by the decimal fraction.",
+     "compute": "group_population = total_population * fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess305.txt lines 98-102",
+   "concept": "hess.305.4",
+   "question_type": "compute",
+   "question_pattern": "In a state with a population of {total_population}, tribals form {percentage} percent of the population. Find the total tribal population.",
+   "extracted_variables": {
+    "total_population": 40000000,
+    "percentage": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert percentage to decimal fraction",
+     "explain": "Divide the percentage share by 100.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate group population",
+     "explain": "Multiply the total population by the decimal fraction.",
+     "compute": "group_population = total_population * fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is meant by social marginalisation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define marginalisation",
+     "explain": "Marginalisation means forcing a group to stay at the outer edge or fringe of social, economic, and political life."
+    },
+    {
+     "step": 2,
+     "action": "Examine key impacts",
+     "explain": "Marginalised groups experience lack of access to opportunities, resources, and civic voice compared to dominant groups."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how certain communities get pushed to the margins of society.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define marginalisation",
+     "explain": "Marginalisation means forcing a group to stay at the outer edge or fringe of social, economic, and political life."
+    },
+    {
+     "step": 2,
+     "action": "Examine key impacts",
+     "explain": "Marginalised groups experience lack of access to opportunities, resources, and civic voice compared to dominant groups."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.2",
+   "question_type": "verify_property",
+   "question_pattern": "List three distinct reasons why social groups become marginalised.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify distinct factors",
+     "explain": "Language, religious practices, poverty, low social status, and distinct customs can lead to social exclusion."
+    },
+    {
+     "step": 2,
+     "action": "Analyze systemic effects",
+     "explain": "Dominant groups control wealth and land, leading to relative powerlessness for marginalized communities."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how economic and social factors combine to cause exclusion.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify distinct factors",
+     "explain": "Language, religious practices, poverty, low social status, and distinct customs can lead to social exclusion."
+    },
+    {
+     "step": 2,
+     "action": "Analyze systemic effects",
+     "explain": "Dominant groups control wealth and land, leading to relative powerlessness for marginalized communities."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.3",
+   "question_type": "verify_property",
+   "question_pattern": "Who are the Adivasis and what does the term signify?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Adivasi",
+     "explain": "Adivasi literally means original inhabitants, referring to forest-dwelling tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Highlight egalitarian culture",
+     "explain": "Adivasis have little internal hierarchy, worshipping nature and ancestral spirits."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.3",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the unique spiritual and religious practices of Adivasi communities.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Adivasi",
+     "explain": "Adivasi literally means original inhabitants, referring to forest-dwelling tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Highlight egalitarian culture",
+     "explain": "Adivasis have little internal hierarchy, worshipping nature and ancestral spirits."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.5",
+   "question_type": "verify_property",
+   "question_pattern": "How are Adivasi communities stereotyped in public events and media?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify stereotypical portrayals",
+     "explain": "Tribals are often shown only in traditional costumes and dancing during official functions."
+    },
+    {
+     "step": 2,
+     "action": "Analyze consequences",
+     "explain": "This leads to false beliefs that tribals are backward or resistant to modern development."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the harm caused by viewing tribals as exotic or primitive.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify stereotypical portrayals",
+     "explain": "Tribals are often shown only in traditional costumes and dancing during official functions."
+    },
+    {
+     "step": 2,
+     "action": "Analyze consequences",
+     "explain": "This leads to false beliefs that tribals are backward or resistant to modern development."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.6",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the key drivers behind the displacement of Adivasis from forests.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify causes of displacement",
+     "explain": "Forest clearance for timber, mining, industries, and wildlife sanctuaries displaces tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Examine economic impacts",
+     "explain": "Loss of forest rights forces tribals into low-wage urban labor, trapping them in poverty."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.6",
+   "question_type": "verify_property",
+   "question_pattern": "How do mining and industrial projects affect tribal land ownership?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify causes of displacement",
+     "explain": "Forest clearance for timber, mining, industries, and wildlife sanctuaries displaces tribal communities."
+    },
+    {
+     "step": 2,
+     "action": "Examine economic impacts",
+     "explain": "Loss of forest rights forces tribals into low-wage urban labor, trapping them in poverty."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.7",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why economic displacement leads to social and cultural loss for tribals.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Recognize interlinkage",
+     "explain": "Tribal culture, worship places, and traditional medicine depend directly on forest ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Assess cultural loss",
+     "explain": "Displacement destroys sacred grounds, ancestral heritage, and traditional ecological knowledge."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.7",
+   "question_type": "verify_property",
+   "question_pattern": "How does losing land disrupt Adivasi religious and community practices?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Recognize interlinkage",
+     "explain": "Tribal culture, worship places, and traditional medicine depend directly on forest ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Assess cultural loss",
+     "explain": "Displacement destroys sacred grounds, ancestral heritage, and traditional ecological knowledge."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.8",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the Indian Constitution provide safeguards to minority communities?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain constitutional intent",
+     "explain": "Safeguards protect minority communities from cultural domination by the majority."
+    },
+    {
+     "step": 2,
+     "action": "Identify fundamental protections",
+     "explain": "Equal rights and access to justice ensure minorities can preserve their identity."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.8",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how numerical minority status can create a sense of social insecurity.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain constitutional intent",
+     "explain": "Safeguards protect minority communities from cultural domination by the majority."
+    },
+    {
+     "step": 2,
+     "action": "Identify fundamental protections",
+     "explain": "Equal rights and access to justice ensure minorities can preserve their identity."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.9",
+   "question_type": "verify_property",
+   "question_pattern": "Discuss the key findings of the Justice Rajindar Sachar Committee Report.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine Sachar Committee findings",
+     "explain": "The 2005 committee established that Muslims lag on key social, educational, and economic metrics."
+    },
+    {
+     "step": 2,
+     "action": "Analyze developmental indicators",
+     "explain": "Lower literacy rates, reduced school attendance, and low public job representation demonstrate marginalisation."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.9",
+   "question_type": "verify_property",
+   "question_pattern": "Compare the basic amenities and literacy levels of Muslims with other communities.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine Sachar Committee findings",
+     "explain": "The 2005 committee established that Muslims lag on key social, educational, and economic metrics."
+    },
+    {
+     "step": 2,
+     "action": "Analyze developmental indicators",
+     "explain": "Lower literacy rates, reduced school attendance, and low public job representation demonstrate marginalisation."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.10",
+   "question_type": "verify_property",
+   "question_pattern": "What is ghettoisation and what causes a community to become ghettoised?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define ghettoisation",
+     "explain": "It is the concentration of a specific community into a distinct neighborhood due to social or economic pressures."
+    },
+    {
+     "step": 2,
+     "action": "Trace causes",
+     "explain": "Prejudice, fear, and stereotyping compel minority members to live together for safety."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.305.10",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how social prejudice leads to residential segregation of minorities.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define ghettoisation",
+     "explain": "It is the concentration of a specific community into a distinct neighborhood due to social or economic pressures."
+    },
+    {
+     "step": 2,
+     "action": "Trace causes",
+     "explain": "Prejudice, fear, and stereotyping compel minority members to live together for safety."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hess305.txt line 340",
+   "questions": [
+    "Write in your own words two or more sentences of what you understand by the word marginalisation."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hess305.txt line 342",
+   "questions": [
+    "List two reasons why Adivasis are becoming increasingly marginalised."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hess305.txt line 344",
+   "questions": [
+    "Write one reason why you think the Constitution safeguards to protect minority communities are very important."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "hess305.txt line 346",
+   "questions": [
+    "Re-read the section on Minorities and Marginalisation. What do you understand by the term minority?"
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "hess305.txt line 348",
+   "questions": [
+    "List two reasons based on chapter data supporting the statement that Muslims are a marginalised community."
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "hess305.txt line 351",
+   "questions": [
+    "List three things about Adivasi life to address the stereotype that tribals only dance and look exotic."
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "hess305.txt line 354",
+   "questions": [
+    "Develop a short narrative story explaining the displacement and experiences of Adivasi communities."
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "hess305.txt line 356",
+   "questions": [
+    "Explain whether economic marginalisation and social marginalisation are interlinked."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

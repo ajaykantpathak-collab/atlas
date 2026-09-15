@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_3",
+   "title": "c9_bio_ch1_3",
+   "questions": [
+    {
+     "q": "Define selective permeability of the cell membrane and name the two main structural components responsible for it.",
+     "a": "Selective permeability means the membrane allows certain substances to pass while restricting others. The two main structural components are the phospholipid bilayer (providing a hydrophobic barrier) and integral membrane proteins (forming channels/carriers for specific molecules). A wrong answer (e.g., \"cell wall controls entry\") reveals confusion between plant cell wall (rigid, fully permeable) and cell membrane (flexible, selective).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why oxygen diffuses freely across the phospholipid bilayer but glucose requires a carrier protein, even though both are small molecules.",
+     "a": "Oxygen is nonpolar and small, so it dissolves in the hydrophobic core of the bilayer and diffuses down its concentration gradient. Glucose is polar and larger; it cannot cross the hydrophobic core and needs a specific carrier protein for facilitated diffusion. A wrong answer (e.g., \"glucose is too big\") misses the crucial role of polarity — students often think size alone determines permeability, ignoring chemical nature.",
+     "self_check": true
+    },
+    {
+     "q": "A red blood cell is placed in a solution of 0.9% NaCl (isotonic) and another in distilled water (hypotonic). Predict and explain what happens to each cell after 10 minutes.",
+     "a": "In 0.9% NaCl (isotonic), water moves equally in and out — cell retains shape. In distilled water (hypotonic), water enters by osmosis down the water potential gradient — cell swells and bursts (hemolysis). Steps: 1) Identify tonicity relative to cell interior (0.9% NaCl ≈ cytoplasm). 2) Recall osmosis: water moves from higher water potential (less solute) to lower water potential (more solute). 3) Apply: distilled water has highest water potential → net influx. 4) Conclude: animal cells lack cell wall → burst. A wrong answer (e.g., \"cell shrinks in water\") reveals reversal of water potential concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast facilitated diffusion and active transport using three criteria: energy requirement, direction relative to concentration gradient, and protein involvement.",
+     "a": "Facilitated diffusion: no ATP, down gradient, uses channel/carrier proteins. Active transport: requires ATP, against gradient, uses pump proteins (e.g., Na⁺/K⁺ pump). Both are protein-mediated and specific. A wrong answer (e.g., \"both need energy\") shows failure to distinguish passive vs active processes — a common board exam error where students conflate \"protein-mediated\" with \"energy-dependent.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the cell membrane is selectively permeable, it must block all harmful substances like toxins.\" Evaluate this statement using the concept of lipid solubility.",
+     "a": "The statement is incorrect. Selective permeability depends on size, charge, and lipid solubility. Many toxins (e.g., ethanol, pesticides) are small and lipid-soluble, so they diffuse freely across the phospholipid bilayer. The membrane cannot distinguish \"harmful\" from \"harmless\" — only physical-chemical properties matter. A wrong evaluation (e.g., \"membrane blocks toxins because they are bad\") reveals anthropomorphic thinking — attributing intention to a physical barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using potato cubes and sugar solutions of different concentrations to demonstrate osmosis. State the independent variable, dependent variable, and one control variable.",
+     "a": "Independent variable: concentration of sucrose solution (0%, 5%, 10%, 15%). Dependent variable: change in mass/length of potato cubes. Control variable: temperature, cube size, potato type, immersion time. Good answer shows understanding of water potential gradient driving mass change. Poor answer (e.g., \"measure water level\") reveals confusion between osmosis (water movement) and diffusion (solute movement) — students often measure the wrong variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

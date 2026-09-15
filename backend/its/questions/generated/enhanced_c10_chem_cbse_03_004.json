@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_004",
+   "title": "c10_chem_cbse_03_004",
+   "questions": [
+    {
+     "q": "Name the metal that reacts vigorously with cold water to give a soluble hydroxide and hydrogen gas, and write the balanced chemical equation for the reaction.",
+     "a": "Sodium (Na) reacts vigorously with cold water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). A wrong answer (e.g., writing Mg or Fe) reveals the student cannot distinguish the reactivity thresholds for cold water vs. hot water vs. steam; they likely memorise equations without linking them to the reactivity series.",
+     "self_check": true
+    },
+    {
+     "q": "Magnesium reacts very slowly with cold water but readily with hot water. Explain why heating the water makes the reaction feasible, referring to the activation energy and the protective oxide layer on magnesium.",
+     "a": "Magnesium has a thin, adherent MgO layer that prevents cold water from reaching the metal surface. Hot water provides sufficient thermal energy to overcome the activation barrier and disrupt the oxide layer, allowing the reaction Mg + 2H₂O → Mg(OH)₂ + H₂ to proceed at a measurable rate. A wrong answer (e.g., \"hot water has more oxygen\") shows confusion between temperature's kinetic effect and reactant concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reaction of iron with steam. If 16.8 g of iron reacts completely, calculate the volume of hydrogen gas produced at STP (molar volume = 22.4 L/mol). (Atomic mass: Fe = 56 u)",
+     "a": "Equation: 3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g). Moles of Fe = 16.8/56 = 0.3 mol. From stoichiometry, 3 mol Fe give 4 mol H₂, so 0.3 mol Fe gives 0.4 mol H₂. Volume = 0.4 × 22.4 = 8.96 L. A wrong answer (e.g., using Fe + H₂O → FeO + H₂) reveals the student does not know that iron forms the mixed oxide Fe₃O₄ with steam, not FeO, and cannot apply mole ratios correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions of calcium and aluminium with water. Why does calcium react with cold water while aluminium requires steam, even though both are in the same period? Relate your answer to ionisation energy and oxide layer formation.",
+     "a": "Calcium (Group 2) has lower ionisation energy and forms a soluble hydroxide that exposes fresh metal surface, so it reacts readily with cold water. Aluminium (Group 13) has higher ionisation energy and instantly forms a dense, protective Al₂O₃ layer that prevents further attack by cold water; steam provides enough energy to break this layer, allowing 2Al + 3H₂O → Al₂O₃ + 3H₂. A wrong answer (e.g., \"aluminium is less reactive\") without mentioning the oxide layer shows superficial understanding of reactivity trends.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of zinc with steam as: Zn + H₂O → ZnO + H₂. Identify two errors in this equation and correct them.",
+     "a": "Errors: (1) Zinc reacts with steam (gaseous water), so H₂O should be (g), not (l). (2) The equation is not balanced; correct balanced equation: Zn(s) + H₂O(g) → ZnO(s) + H₂(g) (already balanced 1:1:1:1). If the student wrote Zn + 2H₂O → Zn(OH)₂ + H₂, that would be the cold/hot water product error. A wrong identification shows the student confuses product types (hydroxide vs oxide) and state symbols for water.",
+     "self_check": true
+    },
+    {
+     "q": "Design a safe laboratory activity to demonstrate that copper does not react with steam, while iron does. List the apparatus, chemicals, procedure, and the specific observation that confirms the difference.",
+     "a": "Apparatus: Two hard glass boiling tubes, delivery tubes, trough, gas jars, Bunsen burner. Chemicals: Copper turnings, iron filings, water. Procedure: Place copper in one tube, iron in another. Heat each strongly while passing steam from a separate steam generator. Collect gas over water. Observation: Iron tube produces a colourless gas that burns with a 'pop' sound (H₂) and the solid turns black (Fe₃O₄); copper tube shows no gas evolution and copper remains reddish-brown. A poor answer (e.g., \"heat copper in water\") misses the need for steam, gas collection, and a positive control (iron) to validate the setup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

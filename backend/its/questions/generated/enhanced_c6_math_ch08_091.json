@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_091",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_091",
+   "title": "c6_math_ch08_091",
+   "questions": [
+    {
+     "q": "What is the standard unit used to measure the volume of a box that has dimensions in centimetres?",
+     "a": "The unit is cubic centimetres (cm³). If a student says \"cm\" or \"sq cm,\" they are confusing volume with length or area, indicating they have not yet distinguished between 1D, 2D, and 3D measurements.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a cube with a side length of 2 cm, why is its volume 8 cm³ and not 6 cm³?",
+     "a": "The volume is 2 × 2 × 2 = 8 cm³, because you are multiplying the length, width, and height (all of which are 2 cm). A student saying 6 cm³ is likely adding the sides (2+2+2) or multiplying by 3, which ignores the 3D nature of the object.",
+     "self_check": true
+    },
+    {
+     "q": "A shipping box is 5 m long, 2 m wide, and 3 m high. Calculate its volume.",
+     "a": "Volume = 5 m × 2 m × 3 m = 30 m³. A student who gets a different answer likely added the numbers (10) or missed one dimension, showing a struggle with the multiplication rule for 3D space.",
+     "self_check": true
+    },
+    {
+     "q": "If you double the length, width, and height of a cube, does the volume also double? Explain why or why not.",
+     "a": "No, the volume increases by 8 times (2 × 2 × 2 = 8). A student who says \"double\" is applying linear thinking to 3D volume, failing to realize that changing all three dimensions compounds the effect.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two different-looking cuboids to have the same volume? Provide an example.",
+     "a": "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume. If a student says no, they believe volume is tied to the shape's specific \"look\" rather than the total capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a box that has a volume of 36 cm³. What could be its possible dimensions?",
+     "a": "Any three numbers that multiply to 36 (e.g., 6 × 3 × 2, or 9 × 2 × 2, or 4 × 3 × 3). A poor answer would be a single number (like 36) or an incorrect set of factors, indicating a lack of understanding of the volume formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

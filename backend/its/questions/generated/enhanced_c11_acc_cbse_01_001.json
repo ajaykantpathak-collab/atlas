@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_001",
+   "title": "c11_acc_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define accounting in one sentence using the four key verbs from the standard definition (identify, measure, record, communicate).",
+     "a": "Accounting is the process of identifying, measuring, recording, and communicating financial information about an organisation's economic events to interested users.  \nA wrong answer that omits any of the four verbs (e.g., \"accounting is recording transactions\") reveals the student sees accounting only as book-keeping, missing the decision-usefulness purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A business owner pays ₹50,000 for a one-year insurance policy on 1st April. On 31st March, the policy expires unused. Explain why the full ₹50,000 is an \"economic event\" at the start but the expiry on 31st March is NOT recorded as a separate economic event.",
+     "a": "The initial payment is an external economic event: a measurable monetary transaction with an outsider (insurer). The expiry involves no new transaction, no cash flow, and no change in obligations — it is merely the passage of time. Accounting records transactions, not the passage of time.  \nA wrong answer that says \"expiry is recorded as an expense\" confuses the adjusting entry (which allocates the prepaid amount over the year) with a new economic event. The adjusting entry is an internal allocation, not a fresh transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as an external event, internal event, or non-event (not recorded). Justify each in one line.\n(a) Purchase of raw materials on credit from a supplier.  \n(b) Transfer of raw materials from store to production department.  \n(c) Appointment of a new marketing manager.  \n(d) Fire destroys finished goods worth ₹2 lakh.",
+     "a": "(a) External — transaction with outsider (supplier), measurable in money.  \n(b) Internal — event between internal departments, measurable (cost transfer).  \n(c) Non-event — no monetary measurement at appointment; salary paid later will be recorded.  \n(d) External — loss event measurable in money, though unplanned; involves outsider (insurance claim).  \nA wrong classification of (c) as an event shows the student ignores the monetary measurement principle. Misclassifying (d) as internal reveals confusion: the fire is external to operations, even if no third party caused it.",
+     "self_check": true
+    },
+    {
+     "q": "\"Accounting information must be comparable.\" A company changes its depreciation method from straight-line to written-down-value in Year 3 without disclosure. Analyse how this violates comparability and which two qualitative characteristics are simultaneously compromised.",
+     "a": "Changing method without disclosure breaks inter-period comparability (Year 3 vs. Years 1-2) and inter-firm comparability (peers may use straight-line). It also compromises reliability (faithful representation is distorted) and relevance (users cannot predict future cash flows accurately).  \nA wrong answer that only mentions \"comparability\" misses the cascade effect: unreliable data becomes irrelevant for decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since accounting only records past transactions, it has no value for future planning.\" Defend your position with two arguments from the qualitative characteristics framework.",
+     "a": "The statement is false. (1) Relevance includes predictive value: past trends (e.g., revenue growth, expense patterns) are the primary basis for forecasting. (2) Reliability (verifiability, faithfulness) gives users confidence that the historical data used for projections is trustworthy. Without reliable past data, future estimates are speculation.  \nA wrong answer that agrees with the statement confuses \"past-oriented recording\" with \"past-only utility\" — ignoring that decisions are always future-oriented but evidence-based.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example of an economic event that is internal, measurable in money, but often missed by students. Write the journal entry that would record it (use account names only, no amounts).",
+     "a": "Example: Depreciation charge on machinery for the month. It is internal (no outsider), measurable (allocated cost), and non-cash.  \nJournal Entry:  \nDepreciation Expense A/c Dr.  \nTo Accumulated Depreciation A/c  \nA poor answer gives a cash transaction (e.g., \"paid wages\") or a non-measurable event (e.g., \"employee morale improved\"), showing failure to grasp internal non-cash events.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

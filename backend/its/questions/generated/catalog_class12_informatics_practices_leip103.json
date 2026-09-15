@@ -1,0 +1,315 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip103",
+ "concepts": [
+  {
+   "id": "leip103.1",
+   "title": "Column Maximum and Minimum Marks",
+   "questions": [
+    {
+     "q": "Find the maximum and minimum of the scores 92, 95, 85, 80, 75 and 50. Use the method 'Column Maximum and Minimum Marks'. Work with: s_five = 10, s_four = 300, s_one = 18, s_six = 40, s_three = 10, s_two = 400. Carry the chain through step by step and give the final value of score_range.",
+     "a": "390 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the range of the marks column using max() and min(). Use the method 'Column Maximum and Minimum Marks'. Work with: s_five = 300, s_four = 200, s_one = 300, s_six = 25, s_three = 360, s_two = 300. Carry the chain through step by step and give the final value of score_range.",
+     "a": "335 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Column Maximum and Minimum Marks' refers to.",
+     "a": "DataFrame.max() and DataFrame.min() reduce each column to its largest and smallest entry, and their difference measures the spread of the column. A column of exam scores, for instance the set 92, 95, 85, 80, 75, 50 from the chapter's activity, shrinks to just three numbers: the top score, the bottom score and the gap between them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Column Maximum and Minimum Marks'.",
+     "a": "Highest entry minus lowest entry gives the spread; both extremes come straight from max() and min() without sorting.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Column Maximum and Minimum Marks', in plain ASCII form.",
+     "a": "score_range = score_max - score_min",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.2",
+   "title": "Column Sum and Mean of Marks",
+   "questions": [
+    {
+     "q": "Find the total of the Maths column of the marksUT DataFrame. Use the method 'Column Sum and Mean of Marks'. Work with: entry_count = 5, m01 = 3, m02 = 100, m03 = 30, m04 = 150, m05 = 24, m06 = 25, m07 = 45, m08 = 240, m09 = 40, m10 = 5, m11 = 240, m12 = 120. Carry the chain through step by step and give the final value of maths_mean.",
+     "a": "204.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the mean of the twelve Maths marks 22, 21, 14, 20, 23, 22, 23, 24, 12, 15, 18, 17. Use the method 'Column Sum and Mean of Marks'. Work with: entry_count = 50, m01 = 24, m02 = 200, m03 = 25, m04 = 60, m05 = 15, m06 = 75, m07 = 8, m08 = 360, m09 = 100, m10 = 240, m11 = 18, m12 = 8. Carry the chain through step by step and give the final value of maths_mean.",
+     "a": "22.66 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Column Sum and Mean of Marks' refers to.",
+     "a": "DataFrame.sum() adds a numeric column end to end and DataFrame.mean() divides that total by the number of entries. For the twelve Maths marks of the marksUT DataFrame the total is 231 and the mean works out to 19.25, matching the count, mean rows of describe().",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Column Sum and Mean of Marks'.",
+     "a": "Add the column once, divide once by the value count; the sum feeds the mean directly.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Column Sum and Mean of Marks', in plain ASCII form.",
+     "a": "maths_mean = maths_total / entry_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.3",
+   "title": "Raman Row Sum Percentage",
+   "questions": [
+    {
+     "q": "Find the total marks scored by Raman in all subjects of Unit Test 1. Use the method 'Raman Row Sum Percentage'. Work with: eng_mark = 40, hindi_mark = 15, maths_mark = 4, max_possible = 3, science_mark = 10, sst_mark = 30. Carry the chain through step by step and give the final value of ut1_percent.",
+     "a": "3300 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute Zuhaire's Unit Test 1 row total for marks 20, 17, 22, 24, 19. Use the method 'Raman Row Sum Percentage'. Work with: eng_mark = 4, hindi_mark = 240, maths_mark = 8, max_possible = 4, science_mark = 200, sst_mark = 24. Carry the chain through step by step and give the final value of ut1_percent.",
+     "a": "11900 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Raman Row Sum Percentage' refers to.",
+     "a": "A row-wise sum with axis=1 adds one student's marks across all subjects of one unit test. Raman's Unit Test 1 row 22, 21, 18, 20, 21 totals 102, and expressing it against the maximum possible 25 times 5 subjects turns the total into a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Raman Row Sum Percentage'.",
+     "a": "Sum across the row with axis=1, then scale by 100 against the ceiling of 25 marks per subject.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Raman Row Sum Percentage', in plain ASCII form.",
+     "a": "ut1_percent = test_total * 100 / max_possible",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.4",
+   "title": "Median of Even Unit Test Column",
+   "questions": [
+    {
+     "q": "Find the median of the Maths marks in UT1 for values 22, 20, 23 and 15. Use the method 'Median of Even Unit Test Column'. Work with: left_mid_value = 500, right_mid_value = 12000. Carry the chain through step by step and give the final value of median_even.",
+     "a": "6250 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the median of the scores 92, 95, 85, 80, 75 and 50. Use the method 'Median of Even Unit Test Column'. Work with: left_mid_value = 50000, right_mid_value = 120000. Carry the chain through step by step and give the final value of median_even.",
+     "a": "85000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Median of Even Unit Test Column' refers to.",
+     "a": "DataFrame median() returns the middle of an ordered column. With an even count of values there is no single middle entry, so the median becomes the average of the two central values; for the four Maths marks of Unit Test 1, ordered as 15, 20, 22, 23, the middle pair 20 and 22 averages to 21.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Median of Even Unit Test Column'.",
+     "a": "Sort the column, take the two central values of an even-sized batch and average them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Median of Even Unit Test Column', in plain ASCII form.",
+     "a": "median_even = (left_mid_value + right_mid_value) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.5",
+   "title": "Mode of the Hindi Column",
+   "questions": [
+    {
+     "q": "Using the method 'Mode of the Hindi Column', work with: freq_mode = 4, freq_second = 6, freq_third = 500, total_entries = 60. Carry the chain through step by step and give the final value of mode_share.",
+     "a": "833.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mode of the Hindi Column' and work with: freq_mode = 40, freq_second = 30, freq_third = 12, total_entries = 45. Carry the chain through step by step and give the final value of mode_share.",
+     "a": "88.8889 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mode of the Hindi Column' refers to.",
+     "a": "The mode is the entry that shows up most often in a column. In the Hindi column of marksUT the value 24 appears three times, more than any other mark, so mode() returns 24; the frequency of the mode against the total number of entries measures how dominant it is.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mode of the Hindi Column'.",
+     "a": "Count each value's occurrences, keep the largest count, and divide it by the column size for the mode's share.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mode of the Hindi Column', in plain ASCII form.",
+     "a": "mode_share = highest_frequency * 100 / total_entries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.6",
+   "title": "GROUP BY UT-wise Mean",
+   "questions": [
+    {
+     "q": "Find the average Maths marks of all students in Unit Test 3 using GROUP BY. Use the method 'GROUP BY UT-wise Mean'. Work with: group_size = 4096, m_ashravy = 300, m_mishti = 18, m_raman = 75, m_zuhaire = 400. Carry the chain through step by step and give the final value of ut3_mean.",
+     "a": "0.1936 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the mean of the UT3 Maths marks 14, 22, 12 and 17. Use the method 'GROUP BY UT-wise Mean'. Work with: group_size = 4096, m_ashravy = 25, m_mishti = 400, m_raman = 360, m_zuhaire = 120. Carry the chain through step by step and give the final value of ut3_mean.",
+     "a": "0.2209 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GROUP BY UT-wise Mean' refers to.",
+     "a": "GROUP BY splits a DataFrame into buckets sharing a key value, applies an aggregate to each bucket and combines the results (the split-apply-combine strategy). Grouping the marksUT data by UT and averaging Maths gives 20.00, 21.50 and 16.25 for the three tests, each a plain total divided by the group size.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GROUP BY UT-wise Mean'.",
+     "a": "Sum the marks inside one group, divide by how many rows the group holds; agg('mean') does this per bucket.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GROUP BY UT-wise Mean', in plain ASCII form.",
+     "a": "ut3_mean = ut3_total / group_size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.7",
+   "title": "pivot_table Mean for Duplicate Entries",
+   "questions": [
+    {
+     "q": "Using the method 'pivot_table Mean for Duplicate Entries', work with: entries_of_color = 4, price_one = 20000, price_two = 80000. Carry the chain through step by step and give the final value of color_mean.",
+     "a": "25000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'pivot_table Mean for Duplicate Entries' and work with: entries_of_color = 120, price_one = 1200, price_two = 20000. Carry the chain through step by step and give the final value of color_mean.",
+     "a": "176.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'pivot_table Mean for Duplicate Entries' refers to.",
+     "a": "pivot() refuses data whose index columns repeat, but pivot_table() accepts duplicates by aggregating them, with mean as the default aggregate. Two blue-pen rows priced 50 and 20 collapse into one pivot cell holding their mean 35, and any aggregate such as sum, max or len can be named through aggfunc instead.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'pivot_table Mean for Duplicate Entries'.",
+     "a": "Duplicate pivot keys are merged by averaging; the cell value is the group's total divided by its row count.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'pivot_table Mean for Duplicate Entries', in plain ASCII form.",
+     "a": "color_mean = color_total / entries_of_color",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.8",
+   "title": "fillna Percentage for Missing Marks",
+   "questions": [
+    {
+     "q": "Using the method 'fillna Percentage for Missing Marks', work with: filler_mark = 24, max_possible = 100, sci_one = 25, sci_three = 25, sci_two = 24. Carry the chain through step by step and give the final value of science_percent.",
+     "a": "98 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'fillna Percentage for Missing Marks' and work with: filler_mark = 300, max_possible = 360, sci_one = 80, sci_three = 200, sci_two = 120. Carry the chain through step by step and give the final value of science_percent.",
+     "a": "194.4444 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'fillna Percentage for Missing Marks' refers to.",
+     "a": "Missing marks stored as NaN can be filled before computing a result: fillna(0) substitutes zero, fillna(method='pad') copies the previous value, and the chosen estimate changes the percentage. Filling Raman's absent Science mark of Unit Test 4 with zero gives the filled total 60 over the full ceiling of 100, that is 60 percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'fillna Percentage for Missing Marks'.",
+     "a": "Fill the gaps first, then total and scale; every estimate changes the percentage, so the choice must be stated.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'fillna Percentage for Missing Marks', in plain ASCII form.",
+     "a": "science_percent = filled_total * 100 / max_possible",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.9",
+   "title": "Sorting Values and Altering the Index",
+   "questions": [
+    {
+     "q": "Using the method 'Sorting Values and Altering the Index', work with: ascending_or_descending = 40. Carry the chain through step by step and give the final value of sort_order.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sorting Values and Altering the Index' and work with: ascending_or_descending = 12. Carry the chain through step by step and give the final value of sort_order.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sorting Values and Altering the Index' refers to.",
+     "a": "sort_values(by, axis, ascending) orders the rows of a DataFrame by one or more columns, with later columns breaking ties, and ascending=False flipping the direction. reset_index() rebuilds a clean continuous index after a slice while keeping or dropping the old one, and set_index() promotes any column to be the row index.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sorting Values and Altering the Index'.",
+     "a": "First column sorts, extra columns break ties; reset_index renumbers, set_index relabels by a data column.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sorting Values and Altering the Index', in plain ASCII form.",
+     "a": "sort_order = ascending_or_descending",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip103.10",
+   "title": "MySQL Import Export with sqlalchemy",
+   "questions": [
+    {
+     "q": "Using the method 'MySQL Import Export with sqlalchemy', work with: driver_user_host_database = 200. Carry the chain through step by step and give the final value of connection_string.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'MySQL Import Export with sqlalchemy' and work with: driver_user_host_database = 500. Carry the chain through step by step and give the final value of connection_string.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'MySQL Import Export with sqlalchemy' refers to.",
+     "a": "A pandas DataFrame exchanges data with MySQL through a connection engine: sqlalchemy's create_engine() takes a connection string of driver, username, password, host, port and database; read_sql_query(), read_sql_table() and read_sql() pull data into a DataFrame, and to_sql() writes it back with if_exists choosing fail, replace or append.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'MySQL Import Export with sqlalchemy'.",
+     "a": "Build the engine once from the connection string; read functions import, to_sql exports, and if_exists controls clashes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'MySQL Import Export with sqlalchemy', in plain ASCII form.",
+     "a": "connection_string = driver_user_host_database",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

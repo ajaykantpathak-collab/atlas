@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch03_019",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch03_019",
+   "title": "c6_geography_ch03_019",
+   "questions": [
+    {
+     "q": "Which Indian region is known as a \"cold desert\" and experiences temperatures as low as minus 30 degrees Celsius?",
+     "a": "Ladakh is the cold desert. A wrong answer here suggests the student is confusing altitude-based cold regions with hot sandy deserts like the Thar.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Cherrapunji is considered one of the wettest places on Earth compared to the Thar Desert.",
+     "a": "Cherrapunji receives massive amounts of rainfall (over 11,000 mm), whereas the Thar Desert receives very little (below 25 cm). A wrong answer suggests the student does not understand that \"climate\" is defined by both temperature and precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "If you were traveling from the Thar Desert to the tropical climate of Kerala, how would you change your packing strategy?",
+     "a": "Steps: 1. Identify Thar as hot/dry (needs loose cotton, sun protection). 2. Identify Kerala as warm/humid (needs breathable, moisture-wicking clothing). 3. Compare the two. 4. Conclude that while both are warm, Kerala requires protection against humidity/rain. A wrong answer shows failure to distinguish between \"dry heat\" and \"humid heat.\"",
+     "self_check": true
+    },
+    {
+     "q": "How does the climate of Ladakh differ from the climate of the Ganga plains in terms of rainfall and temperature?",
+     "a": "Ladakh is extremely cold with almost zero rainfall, while the Ganga plains have a moderate climate with significant seasonal rainfall. A wrong answer shows the student is failing to compare two distinct landforms/climates side-by-side.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to describe all of India as having a single \"hot\" climate? Why or why not?",
+     "a": "No, because India’s climate is diverse; it includes freezing mountain deserts, arid hot deserts, and humid tropical zones. Justifying this shows the student understands the concept of \"diversity\" over a large landmass. A wrong answer implies they are generalizing based only on their local experience.",
+     "self_check": true
+    },
+    {
+     "q": "If a new town were built in a region that receives 12,000 mm of rain annually, what kind of housing would you suggest for the residents?",
+     "a": "The answer should focus on sloped roofs to prevent water collection and elevated floors to handle humidity and potential floods. A poor answer ignores the environmental data provided and suggests \"standard\" housing that would fail in such a wet climate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

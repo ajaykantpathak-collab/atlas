@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_012",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_012",
+   "title": "c7_chem_ch02_012",
+   "questions": [
+    {
+     "q": "What type of change is indicated when baking soda reacts with vinegar and produces bubbles of carbon dioxide gas?",
+     "a": "This is a chemical change. A wrong answer—such as classifying it as a physical change because the fizzing eventually stops—reveals a fundamental misunderstanding that the disappearance of a gas means no new substance was made, ignoring the fact that a completely different gas ($\\text{CO}_2$) was generated.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the appearance of a new colour in a reaction mixture strongly suggest a chemical change rather than a physical change?",
+     "a": "A new colour indicates that the chemical bonds of the original substances have rearranged to form an entirely different chemical compound with different light-absorbing properties. A wrong answer claiming that colour changes can happen by simply mixing paints ignores that mixing paints is a physical combination of pigments, whereas a chemical reaction creates new microscopic chemical species.",
+     "self_check": true
+    },
+    {
+     "q": "When a strip of zinc metal is dropped into dilute hydrochloric acid ($\\text{HCl}$), vigorous bubbling occurs and the test tube becomes warm. State two indicators of chemical change observed here and write the chemical formula for the gas typically released in such metal-acid reactions.",
+     "a": "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm). The gas released is hydrogen ($\\text{H}_2$). Equation: $\\text{Zn} + \\text{2HCl} \\rightarrow \\text{ZnCl}_2 + \\text{H}_2\\uparrow$. A wrong answer missing either indicator or misidentifying the gas as oxygen shows confusion regarding metal-acid reactivity properties learned in previous units.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following scenario: Solid copper sulfate crystals are dissolved in water to form a blue solution. Then, an iron nail is dipped into it, and after some time, a brown coating of copper deposits on the iron while the blue solution turns green. Which part of this sequence is purely a physical change, and which part is a chemical change accompanied by a colour indicator?",
+     "a": "Dissolving copper sulfate in water is a physical change (the blue solid simply dissolves, and crystals can be recovered by evaporation). Dipping the iron nail and getting a brown copper coating accompanied by a colour shift from blue to green is a chemical change, indicated by a distinct colour change and the formation of a new substance (iron sulfate and copper metal). A wrong answer grouping both into chemical changes fails to recognize that dissolving a soluble salt without a chemical reaction is a reversible physical process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Any time a liquid gets warm, a chemical change must have occurred.\" Is this statement scientifically valid? Justify your reasoning with examples.",
+     "a": "The statement is invalid. While many chemical changes release heat (exothermic), physical processes like dissolving concentrated sulfuric acid or even friction can generate heat without creating a new chemical substance in the case of friction, or involve solution processes that are physical. A wrong answer accepting the statement blindly fails to distinguish between thermal energy changes caused by physical dissolution/friction versus actual bond-breaking/bond-forming chemical reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen-based experiment using household items found in India (such as turmeric powder, lemon juice, soap solution, and water) to demonstrate a chemical change indicated by a colour shift. Describe the steps and explain the chemical indicator principle.",
+     "a": "A good response describes mixing turmeric paste with water (yellow), adding a basic soap solution to turn it reddish-brown (indicating a chemical reaction between turmeric's natural dye and a base), and then adding acidic lemon juice to turn it back to yellow. A poor answer fails to name specific everyday items or mistakes a physical dilution for a chemical reaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

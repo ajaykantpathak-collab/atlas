@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_018",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_018",
+   "title": "c6_physics_ch03_018",
+   "questions": [
+    {
+     "q": "In a circuit with two light bulbs connected in parallel, what happens to the second bulb if the first bulb is removed?",
+     "a": "The second bulb stays lit. A wrong answer suggests the student thinks electricity behaves like a single-lane road (series circuit) where one break stops the entire flow.",
+     "self_check": true
+    },
+    {
+     "q": "Why do homes use parallel circuits instead of one single path for all lights and appliances?",
+     "a": "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go dark. A wrong answer indicates the student does not understand the benefit of having independent paths.",
+     "self_check": true
+    },
+    {
+     "q": "If you connect two bulbs in parallel to a 9V battery, how much voltage does each bulb receive?",
+     "a": "Each bulb receives the full 9V. A wrong answer suggests the student believes the voltage is \"shared\" or divided between branches, a common confusion with series circuit behavior.",
+     "self_check": true
+    },
+    {
+     "q": "If a circuit has three bulbs in parallel, and you add a fourth bulb in a new parallel branch, what happens to the existing three bulbs?",
+     "a": "The existing three bulbs remain lit because they still have their own independent paths to the battery. A wrong answer reveals the student assumes that adding components always affects the operation of others, which is not the case in an ideal parallel setup.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to wire a Christmas tree light string in parallel or series if you want the other lights to stay on when one bulb fails?",
+     "a": "Parallel is better because it ensures that a single failed bulb does not break the circuit for the rest. If a student chooses series, they are failing to apply the concept of \"independent paths\" to a practical problem.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a diagram or describe how you would arrange two bulbs so that if one is unscrewed, the other remains shining.",
+     "a": "The student must describe two separate loops connected to the same battery terminals. A poor answer would show a single loop (series), indicating a failure to grasp the physical layout of \"separate branches.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

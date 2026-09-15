@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_001",
+   "title": "c11_hs_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define 'resource' as per the NCERT Class 11 Home Science textbook, and state the two-word phrase that captures when something becomes a resource.",
+     "a": "A resource is anything which we make use of while carrying out any activity to accomplish our goals. The key phrase is \"make use of\"—mere possession or availability does not make something a resource; it must be actively employed toward a goal. A wrong answer (e.g., \"resources are things we own\") reveals the misconception that ownership or existence alone confers resource status, ignoring the intentional, goal-directed utilisation central to the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Your grandmother's old sewing machine has been stored in the attic for ten years. Last week, you decided to learn tailoring and started using it to stitch clothes. Explain, using the textbook definition, at what point the sewing machine became a resource for you and why it was not a resource during the ten years in the attic.",
+     "a": "The sewing machine became a resource the moment you decided to learn tailoring and actively used it for stitching—because only then were you \"making use of\" it to accomplish a goal. During the ten years in the attic, it was merely an object in your possession; it had potential utility but no actual utility since no goal-directed activity employed it. A wrong answer (e.g., \"it was always a resource because it could be used\") reveals confusion between potential utility and actual resource status, missing the textbook's emphasis on active utilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into human/non-human, individual/shared, and natural/community categories. Justify each classification in one sentence: (a) Your ability to speak fluent English, (b) The metro rail system in your city, (c) Rainwater collected in your building's harvesting tank, (d) Your friend's willingness to help you study.",
+     "a": "(a) Human, Individual, Community (skill developed personally but language is socially acquired); (b) Non-human, Shared, Community (infrastructure provided by government for public use); (c) Non-human, Shared, Natural (water is natural, but the harvesting system makes it a shared community asset); (d) Human, Shared, Community (friend's motivation is human, accessible to you as shared help, and exists within your social community). A wrong classification (e.g., calling the metro \"individual\") reveals failure to distinguish ownership/access scope—shared resources are available to multiple users by design.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the statement: \"Time is the most democratic resource because everyone has exactly 24 hours a day.\" Using the four characteristics of resources (utility, accessibility, interchangeability, manageability), evaluate whether this statement is fully accurate or incomplete. Provide one specific counter-example for any characteristic where the claim fails.",
+     "a": "The statement is incomplete. While time has equal accessibility in quantity (24 hours), its utility varies by individual (peak productivity hours differ), its interchangeability is limited (you cannot buy more time, only trade leisure for work), and its manageability depends on health, obligations, and circumstances—a single parent working two jobs has far less manageable discretionary time than a student with flexible schedule. Counter-example for manageability: a daily-wage labourer cannot \"manage\" time to study for an exam without losing income, unlike a salaried employee with paid leave. Wrong evaluation (calling it fully accurate) ignores how accessibility ≠ equity in resource characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Money is the most powerful resource because it can substitute for almost all other resources.\" Use the concept of interchangeability and at least two other characteristics to defend or refute the claim with a concrete family scenario.",
+     "a": "The claim is overstated. Money has high interchangeability (can buy skills, save time, purchase energy-saving appliances), but it lacks intrinsic utility (cannot directly cook a meal or provide emotional motivation), its accessibility is highly unequal, and its manageability requires financial literacy—a family with ₹50,000 but no cooking skills or health cannot instantly convert money into a nutritious home-cooked meal without time, knowledge, and energy. A poor evaluation (agreeing fully) treats interchangeability as universal substitutability, ignoring that some human resources (e.g., parental affection, personal aptitude) are non-purchasable.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example of a resource that fits ALL three classification systems simultaneously (i.e., can be viewed as human/non-human, individual/shared, natural/community depending on context). Describe the context shifts that change its classification.",
+     "a": "Example: A home garden with vegetables. As non-human/individual/natural: the tomatoes growing in your private backyard for family consumption. As human/shared/community: your gardening knowledge taught to neighbours in a community workshop. As human/individual/community: your physical energy spent maintaining the garden, which benefits the neighbourhood's green cover. Context shifts: ownership/use scope (individual vs. shared), source (nature vs. human skill), and beneficiary (self vs. community). A weak answer gives a static example (e.g., \"my phone\") that cannot plausibly shift across all three systems, showing inability to grasp contextual classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

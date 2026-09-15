@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_002",
+   "title": "c12_hs_cbse_10_002",
+   "questions": [
+    {
+     "q": "State the three primary factors that affect meal planning according to the Class 12 Home Science curriculum.",
+     "a": "The three primary factors are age, activity level, and economic status. A wrong answer (e.g., listing “climate”, “religion”, or “food preferences”) reveals that the student is confusing secondary influences with the core determinants explicitly taught in this chapter. The curriculum defines these three as the foundational variables because they directly determine RDA values and budget constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 16‑year‑old adolescent boy who trains for athletics 2 hours daily needs a different meal plan than a 16‑year‑old girl with a sedentary lifestyle, even if they belong to the same economic background.",
+     "a": "The boy’s higher activity level increases his energy requirement (≈3280 kcal/day vs. ≈2330 kcal/day for the girl per ICMR 2020 RDAs) and raises his protein need (≈65 g vs. ≈55 g). Economic status being equal, the meal plan must allocate more servings from energy‑dense groups (cereals, fats) and protein‑rich groups (pulses, milk, egg/meat) for the boy. A wrong answer that only mentions “he eats more” without quantifying the RDA difference shows the student cannot link activity level to specific nutrient allowances.",
+     "self_check": true
+    },
+    {
+     "q": "A family of four (father 40 yrs, moderate work; mother 38 yrs, sedentary; son 12 yrs; daughter 8 yrs) has a monthly food budget of ₹15,000. Using ICMR RDA 2020 values, calculate the approximate total daily energy requirement for the family and suggest whether the budget is adequate if average food cost is ₹45 per 1000 kcal. Show your steps.",
+     "a": "Step 1: Get RDAs (ICMR 2020): Father (moderate) = 2710 kcal, Mother (sedentary) = 1900 kcal, Boy 12 yrs = 2190 kcal, Girl 8 yrs = 1690 kcal.  \nStep 2: Total daily energy = 2710 + 1900 + 2190 + 1690 = 8490 kcal.  \nStep 3: Monthly energy = 8490 × 30 = 254,700 kcal.  \nStep 4: Cost at ₹45/1000 kcal = (254,700 / 1000) × 45 = ₹11,461.5.  \nStep 5: Budget ₹15,000 > ₹11,462, so adequate with ₹3,538 margin for protein‑rich foods, fruits, etc.  \nA wrong answer that uses outdated RDA values or forgets to multiply by 30 days shows the student cannot apply the RDA‑to‑budget conversion correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the meal planning adjustments required for (a) an elderly person (70 yrs) with low activity and (b) a preschool child (4 yrs) with high activity, assuming both are from a low‑income household. Focus on nutrient density and cost‑effectiveness.",
+     "a": "(a) Elderly: Lower energy need (≈1800 kcal) but high nutrient density required for protein (≈55 g), calcium (1000 mg), fibre, and B12. Low‑cost strategy: emphasize fermented cereals (idli/dosa), skim milk, green leafy vegetables, and seasonal fruits; avoid empty‑calorie fried snacks.  \n(b) Preschooler: Higher energy per kg body weight (≈1350 kcal) with high protein (≈22 g), iron, calcium for growth. Low‑cost strategy: energy‑dense mixes (ragi‑wheat malt), egg/soy, jaggery for iron, milk via ICDS/anganwadi.  \nBoth need nutrient‑dense, low‑cost foods, but the elderly plan prioritises easy digestion and chronic disease prevention, while the child’s plan prioritises growth velocity. A wrong answer that gives identical food lists for both shows failure to analyse age‑specific physiological priorities.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Economic status is the only factor that determines what a family eats; age and activity are irrelevant if money is limited.”",
+     "a": "The statement is false. Even with a tight budget, age and activity dictate *which* low‑cost foods must be prioritized to meet RDAs. For example, a low‑income family with a pregnant woman (not in this node but illustrates the principle) must allocate scarce funds to iron‑folate rich foods (amaranth, liver) rather than only cheap calories (rice, sugar). Ignoring age/activity leads to hidden hunger — adequate calories but deficient micronutrients. A student who agrees with the statement confuses “food access” with “nutritional adequacy” and misses the core concept of *nutrient‑dense budgeting*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one‑day meal plan for a 30‑year‑old female construction worker (heavy activity) from a low‑income household (₹100/day food budget). List meals with approximate portions, food groups covered, and estimated cost. Justify how it meets her RDA for energy and iron within the budget.",
+     "a": "A good answer includes:  \n- Early morning: Tea with milk (50 ml) + 2 biscuits — ₹5  \n- Breakfast: 3 ragi dosa (100 g ragi flour) + chutney (coconut‑groundnut) + 1 boiled egg — ₹20  \n- Mid‑morning: 1 banana + roasted chana (30 g) — ₹10  \n- Lunch: 200 g cooked rice + 100 g sambar (toor dal + drumstick leaves) + 50 g stir‑fried cabbage — ₹25  \n- Evening: Sprouted moong salad (50 g) + lemon — ₹10  \n- Dinner: 3 whole wheat rotis (90 g flour) + 100 g rajma curry + 50 g cucumber raita — ₹25  \n- Bedtime: 150 ml buttermilk — ₹5  \nTotal ≈ ₹100.  \nEnergy ≈ 3200 kcal (RDA heavy activity woman = 3280 kcal), Iron ≈ 25 mg (RDA = 29 mg, enhanced by vitamin C from lemon/amla in chutney).  \nA poor answer gives only calorie‑dense cheap foods (e.g., only rice and potatoes) without iron‑rich or vitamin C sources, showing inability to balance nutrient density with cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

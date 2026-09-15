@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_002",
+   "title": "c12_chem_cbse_09_002",
+   "questions": [
+    {
+     "q": "Write the IUPAC name of CH₃CH₂CH₂NH₂.",
+     "a": "Propan-1-amine. A wrong answer like \"propylamine\" reveals the student is using common naming instead of IUPAC; \"propanamine\" (missing locant) reveals they forgot the mandatory locant for the amino group on a chain longer than two carbons.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the compound CH₃NHCH₂CH₃ is named N-methylethanamine and not methylethylamine.",
+     "a": "In IUPAC, secondary amines are named as N-substituted alkanamines: the larger alkyl group (ethyl) becomes the parent \"ethanamine\", the smaller (methyl) is an N-substituent with locant N. \"Methylethylamine\" is a common name; IUPAC requires the 'N-' prefix to show substitution on nitrogen, not carbon. A student writing \"methylethylamine\" confuses common and IUPAC systems.",
+     "self_check": true
+    },
+    {
+     "q": "Name the following amine: (CH₃)₂CHNH₂.",
+     "a": "Propan-2-amine. Steps: 1) Longest chain = 3 carbons → propane. 2) –NH₂ on carbon-2 → locant 2. 3) Replace -e with -amine → propan-2-amine. Wrong answer \"isopropylamine\" uses common name; \"2-aminopropane\" uses incorrect prefix style (aminopropane is not IUPAC for primary amines).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IUPAC names of CH₃CH₂NH₂ and C₆H₅NH₂. Why does the aromatic amine retain the 'e' in \"benzenamine\" while the aliphatic amine drops the 'e' in \"ethanamine\"?",
+     "a": "Aliphatic: alkane (ethane) → drop 'e' + amine = ethanamine. Aromatic: arene (benzene) → replace 'e' with 'amine' = benzenamine (NCERT rule). Actually both drop 'e'; the difference is the parent hydrocarbon name. A student saying \"aniline\" for C₆H₅NH₂ uses the accepted trivial name but misses the systematic \"benzenamine\". The rule is consistent: parent hydride name minus 'e' plus 'amine'.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the name of (CH₃CH₂)₃N as \"triethylamine\". Is this correct IUPAC? If not, give the correct name and explain the error.",
+     "a": "Incorrect. Correct IUPAC: N,N-diethylethanamine. The student used the common name. IUPAC for tertiary amines: choose one ethyl as parent (ethanamine), the other two as N,N-diethyl substituents. Error: using multiplicative prefix 'tri-' on the alkyl group without 'N,' locants and without identifying the parent alkanamine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a systematic method to name any aliphatic amine (primary, secondary, tertiary) given its structure. Write the steps as a flowchart.",
+     "a": "Flowchart: 1) Count carbons in each alkyl group attached to N. 2) Identify the largest alkyl group → parent alkanamine (name = alkane minus 'e' + 'amine'). 3) Number parent chain to give –NH₂ (or >NH) lowest locant. 4) Remaining alkyl groups on N become N-substituents with prefixes di/tri and locant N. 5) Assemble: N-substituents (alphabetical) + parent name. A poor answer misses step 3 (locant on chain) or step 4 (N-locant).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

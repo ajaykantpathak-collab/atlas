@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_001",
+   "title": "c12_bio_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define asexual reproduction and name one organism that reproduces exclusively by this mode.",
+     "a": "Asexual reproduction is a mode where a single parent produces offspring without the formation and fusion of gametes, resulting in genetically identical progeny (clones). Example: Amoeba reproduces by binary fission. A wrong answer (e.g., \"sexual reproduction involves one parent\") reveals confusion between the number of parents and the role of gametes.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sexual reproduction considered to provide an evolutionary advantage over asexual reproduction in changing environments?",
+     "a": "Sexual reproduction involves meiosis and fusion of gametes from two parents, generating genetic recombination and variation. This variation provides the raw material for natural selection, allowing populations to adapt to environmental changes. A wrong answer focusing only on \"two parents are involved\" without mentioning genetic variation misses the core evolutionary significance.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that a yeast culture produces buds, while a nearby hydra also shows budding. Are both processes considered asexual reproduction? Justify.",
+     "a": "Yes, both are asexual reproduction. In yeast (fungus) and Hydra (animal), budding involves mitotic division of a parent cell/body region to form an outgrowth that detaches as a new individual. No gametes are formed or fused. A wrong answer that says \"yeast is a fungus so it's different\" shows a taxonomic misconception rather than understanding the defining criterion (absence of gamete fusion).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cellular basis of asexual and sexual reproduction in terms of chromosome number and type of cell division.",
+     "a": "Asexual reproduction typically involves mitotic divisions, maintaining the same chromosome number (ploidy) in offspring as the parent. Sexual reproduction involves meiosis (reduction division) to form haploid gametes, followed by fertilization restoring diploidy. A wrong answer stating \"both use mitosis\" ignores the essential role of meiosis in sexual reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Asexual reproduction is a primitive and less successful strategy because it does not produce variation.\"",
+     "a": "The statement is incorrect. Asexual reproduction is highly successful in stable environments — it is energetically cheaper, faster, and allows rapid colonization (e.g., bacteria, aphids). Many organisms use both modes (e.g., aphids, plants). \"Primitive\" is a value judgment; asexual reproduction persists because it is advantageous in certain contexts. A wrong answer agreeing with the statement shows a teleological misconception about evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that a piece of potato tuber can give rise to a new plant genetically identical to the parent, while a seed from the same plant shows variation.",
+     "a": "Grow multiple plants from potato tubers (vegetative propagation) and from seeds of the same potato variety. Observe morphological traits (leaf shape, flower color, tuber characteristics) and perform a simple genetic test (e.g., RAPD or ISSR markers if lab available). Tubers will show uniformity; seedlings will show variation. A poor answer that only says \"plant them and see\" lacks a plan for detecting genetic identity vs variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

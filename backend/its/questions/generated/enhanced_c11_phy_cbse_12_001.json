@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_001",
+   "title": "c11_phy_cbse_12_001",
+   "questions": [
+    {
+     "q": "State the seven assumptions of the kinetic theory of an ideal gas as per the NCERT textbook.",
+     "a": "The seven assumptions are: (1) A gas consists of a very large number of molecules in incessant random motion. (2) The volume of each molecule is negligibly small compared to the volume of the container (point masses). (3) Molecules exert no forces on each other except during collisions (no intermolecular forces). (4) Collisions between molecules and with walls are perfectly elastic (kinetic energy conserved). (5) Molecules obey Newton's laws of motion. (6) Between collisions, molecules move in straight lines with constant velocity. (7) The duration of a collision is negligible compared to the time between successive collisions.\nA wrong answer (e.g., missing \"random motion\" or confusing \"elastic\" with \"inelastic\") reveals the student has memorised keywords without understanding the physical role of each assumption in simplifying the derivation of pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the assumption that \"molecules are point masses with negligible volume\" essential for deriving the ideal gas law? What would happen to the pressure-volume relationship if molecules had significant finite volume?",
+     "a": "This assumption ensures that the entire container volume V is available for molecular motion. If molecules had finite volume b per mole, the effective free volume would be (V - nb), reducing the space for motion. At high pressures, this excluded volume becomes significant, causing the gas to be less compressible than predicted by PV = nRT — the pressure would be higher than ideal for a given volume. The ideal gas law would fail, requiring a correction like the van der Waals equation. A wrong answer (e.g., \"it doesn't matter because molecules are small\") shows the student cannot connect the microscopic assumption to the macroscopic equation of state and its breakdown conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A gas is confined in a cylinder at 300 K and 1 atm. The gas is compressed isothermally to 100 atm. Which kinetic theory assumption is most likely to break down first, and why? Use the concept of intermolecular distance to justify your answer.",
+     "a": "The assumption of \"negligible molecular volume\" (point masses) breaks down first. At 1 atm, average intermolecular distance ≈ 3.3 nm (≈ 10× molecular diameter). At 100 atm (isothermal), volume decreases 100×, so intermolecular distance decreases by 100^(1/3) ≈ 4.6×, becoming ≈ 0.7 nm — comparable to molecular diameters (≈ 0.3 nm). The excluded volume is no longer negligible. The \"no intermolecular forces\" assumption also starts failing as molecules enter the attractive region of the potential. A wrong answer identifying \"elastic collisions\" or \"Newton's laws\" as the first to fail reveals the student cannot estimate orders of magnitude or connect density changes to assumption validity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinetic theory assumptions for an ideal gas with the behaviour of a real gas like carbon dioxide at room temperature and 50 atm. Identify which two assumptions fail and explain how each failure manifests in the P-V isotherm deviation from ideal behaviour.",
+     "a": "At 50 atm and 300 K, CO₂ shows significant deviation: (1) Finite molecular volume (excluded volume b) causes the isotherm to lie above the ideal gas curve at high pressures — the gas is harder to compress because molecules occupy space. (2) Intermolecular attractive forces cause the isotherm to dip below the ideal curve at moderate pressures — attractions reduce momentum transfer to walls, lowering pressure. Both assumptions fail simultaneously but dominate in different pressure regimes. A wrong answer that says \"only attractive forces matter\" or confuses the direction of deviation (e.g., saying volume exclusion reduces pressure) shows the student cannot map microscopic assumptions to macroscopic P-V curve features.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The assumption of perfectly elastic collisions means gas molecules never lose kinetic energy, so a gas in an insulated container will never cool down.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify your answer using the distinction between microscopic and macroscopic energy.",
+     "a": "The statement is partially correct but misleading. Elastic collisions conserve *total* kinetic energy of the colliding pair, but the *distribution* of speeds changes. In an insulated container, the gas *does not cool macroscopically* (temperature remains constant) because the average kinetic energy per molecule is constant — this is consistent. However, the student's reasoning \"never lose kinetic energy\" ignores that individual molecules constantly gain/lose kinetic energy in collisions; only the *average* is constant. Also, if the container walls are at a different temperature, energy exchange occurs via wall collisions. A wrong answer calling it \"fully correct\" reveals the student conflates microscopic energy conservation in a single collision with macroscopic thermal equilibrium and misses the role of the velocity distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment or simulation setup to test whether the assumption \"collision duration is negligible compared to time between collisions\" holds for nitrogen gas at STP. Specify what you would measure, what parameters you would vary, and what result would confirm or refute the assumption.",
+     "a": "A good answer: Use molecular dynamics simulation with realistic N₂ potential (Lennard-Jones). Measure mean collision duration τ_c (time during which intermolecular force > 1% of peak) and mean free time τ_f (average time between collisions). At STP, τ_c ≈ 10⁻¹³ s, τ_f ≈ 10⁻¹⁰ s, so τ_c/τ_f ≈ 10⁻³ ≪ 1 — assumption holds. Vary pressure to 1000 atm: τ_f decreases ∝ 1/P, τ_c stays roughly constant, ratio approaches 1 — assumption fails. Alternatively, measure viscosity η ∝ τ_f; if τ_c becomes significant, η would deviate from kinetic theory prediction. A poor answer (e.g., \"measure temperature change\") reveals the student cannot identify the relevant time scales or design a test targeting a specific assumption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

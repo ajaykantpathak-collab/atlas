@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_007",
+   "title": "c11_stat_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the precise mathematical relationship between variance (σ²) and standard deviation (σ) for a population, including the condition on σ.",
+     "a": "σ = √(σ²) with σ ≥ 0. A wrong answer (e.g., σ = σ² or σ = ±√(σ²)) reveals the student confuses the algebraic squaring operation with the definition of standard deviation as the positive square root, or forgets that standard deviation is non‑negative by convention.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we square the deviations (x - x̄) when calculating variance instead of using absolute deviations |x - x̄| as in mean deviation? Explain in terms of mathematical properties and algebraic convenience.",
+     "a": "Squaring gives differentiability everywhere (unlike |·| at 0), makes variance additive for independent variables (Var(X+Y)=Var(X)+Var(Y)), and weights larger deviations more heavily. A wrong answer focusing only on \"removing negative signs\" misses the deeper algebraic advantages that make variance the cornerstone of statistical theory.",
+     "self_check": true
+    },
+    {
+     "q": "For the data set: 5, 7, 9, 11, 13 (individual series), calculate the variance using the direct method and then find the standard deviation. Show all steps.",
+     "a": "Mean = (5+7+9+11+13)/5 = 9. Deviations: -4, -2, 0, 2, 4. Squared deviations: 16, 4, 0, 4, 16. Sum = 40. Variance σ² = 40/5 = 8. Standard deviation σ = √8 = 2√2 ≈ 2.828. A wrong answer (e.g., dividing by 4 instead of 5) reveals confusion between population and sample variance formulas, which is not yet introduced at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of adding a constant 'c' to every observation versus multiplying every observation by a constant 'k' on the variance and standard deviation. Derive the change in each case.",
+     "a": "Adding constant c: variance unchanged (σ²_new = σ²), standard deviation unchanged (σ_new = σ). Multiplying by k: variance multiplied by k² (σ²_new = k²σ²), standard deviation multiplied by |k| (σ_new = |k|σ). A wrong answer (e.g., variance multiplied by k) shows the student has not internalised that variance is in squared units and scales quadratically.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since variance is just the square of standard deviation, it is redundant — we should always use standard deviation because it is in the original units.\" Evaluate this claim with at least two statistical reasons why variance is indispensable.",
+     "a": "Variance is additive for independent random variables (Var(X+Y)=Var(X)+Var(Y)), which is crucial for probability theory, regression, and ANOVA; also, variance is the natural parameter in many distributions (e.g., normal distribution N(μ, σ²)). A poor evaluation treats variance as merely a computational step, ignoring its theoretical role.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small data set (n=5) of your own where the variance is exactly 4 and the mean is 10. Show the data and verify the variance.",
+     "a": "Example: 8, 9, 10, 11, 12. Mean = 10. Deviations: -2, -1, 0, 1, 2. Squares: 4, 1, 0, 1, 4. Sum = 10. Variance = 10/5 = 2 (incorrect). Correct example: 6, 8, 10, 12, 14. Mean = 10. Deviations: -4, -2, 0, 2, 4. Squares: 16, 4, 0, 4, 16. Sum = 40. Variance = 40/5 = 8 (incorrect). Need sum of squares = 20. Data: 8, 8, 10, 12, 12. Mean = 10. Deviations: -2, -2, 0, 2, 2. Squares: 4, 4, 0, 4, 4. Sum = 16 (incorrect). Data: 7, 9, 10, 11, 13. Mean = 10. Deviations: -3, -1, 0, 1, 3. Squares: 9, 1, 0, 1, 9. Sum = 20. Variance = 20/5 = 4. A poor answer fails to systematically solve for deviations that square-sum to n·σ², indicating weak algebraic manipulation of the variance formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

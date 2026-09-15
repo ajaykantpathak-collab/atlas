@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_001",
+   "title": "c11_bs_cbse_01_001",
+   "questions": [
+    {
+     "q": "Name any two major export items and two major import items of ancient India as mentioned in the NCERT text.",
+     "a": "Major exports: spices, wheat, sugar, indigo, opium, sesame oil, cotton, parrots, live animals and animal products. Major imports: horses, animal products, Chinese silks, linen, wine, gold, silver, copper. A wrong answer (e.g., listing tea or opium as ancient exports when tea became major later, or listing machines as imports) reveals the student is confusing time periods or projecting modern trade patterns onto ancient history.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Hundi system was developed in medieval India. What specific problem did it solve for merchants?",
+     "a": "Hundi was developed because travelling long distances by land or sea involved high risk of theft and robbery when carrying metallic money (specie). It solved the problem by enabling safe transfer of funds through a written credit instrument — a merchant could deposit money with a banker in one city and the recipient could collect it in another city by presenting the Hundi, eliminating the need to physically transport coins. A wrong answer focusing only on 'convenience' without mentioning the security risk of specie transport shows incomplete understanding of the historical context.",
+     "self_check": true
+    },
+    {
+     "q": "A 15th-century merchant in Cambay (Gujarat) ships cotton textiles to Aden and wants to receive payment in Cambay without waiting for the return voyage. Which type of Hundi would he most likely use, and why? Choose from: Dhani-jog Darshani, Sah-jog Darshani, Firman-jog Darshani, Dekhan-har Darshani, Jokhmi Muddati.",
+     "a": "The merchant would use a **Jokhmi Muddati** Hundi. Reasoning: (1) It is drawn against dispatched goods — payment is linked to the shipment. (2) It is a Muddati (time) Hundi, allowing a fixed term for the ship to reach Aden and payment to be arranged. (3) Crucially, if goods are lost in transit, the drawer/holder bears the cost, and the drawee carries no liability — this matches the risk profile of maritime trade where shipwrecks were common. Choosing a Darshani (sight) Hundi would be wrong because it demands immediate payment, impossible for overseas trade. Choosing Dhani-jog or Sah-jog ignores the goods-linked risk allocation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trade balance of ancient India (1 CE – 1500 CE) with that of the colonial period (1750 – 1947). What structural change in the composition of exports and imports explains the shift from a favourable to an unfavourable balance of trade?",
+     "a": "Ancient India enjoyed a favourable balance of trade (exports > imports) exporting **manufactured/processed goods** (textiles, dyes, steel, handicrafts) and importing **luxuries/specie** (gold, silver, horses, silk). During the colonial period, the pattern reversed: India was forced to export **raw materials** (raw cotton, opium, indigo, wheat) and import **British manufactured goods** (textiles, machinery). This structural shift from value-added exports to primary commodity exports caused the decline in terms of trade and the drain of wealth. A wrong answer that only cites 'British exploitation' without specifying the commodity composition change misses the analytical core.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The indigenous banking system (Hundi) was more efficient for medieval Indian long-distance trade than modern banking would have been, given the technology of the time.\" Defend or critique with two specific arguments.",
+     "a": "**Defend:** (1) Hundi operated without telegraph/telephone — it used a decentralized network of trust among merchant castes (e.g., Marwaris, Chettiars) enabling fund transfer across thousands of kilometres in weeks, whereas modern banking requires centralised clearing impossible without instant communication. (2) Hundi embedded risk-sharing (e.g., Jokhmi Hundi) tailored to voyage risks, unlike modern letters of credit which require documentary compliance unsuited for pre-containerisation trade. **Critique:** Hundi lacked legal enforceability across political boundaries and depended on personal reputation, limiting scalability. A one-sided answer ignoring either the contextual fit or the institutional limitations shows inadequate evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern digital payment instrument inspired by the Hundi for cross-border small-trader transactions in South Asia today. Specify: (a) the core principle borrowed from Hundi, (b) one risk it must address that Hundi did not, and (c) how it would differ from existing systems like SWIFT or UPI.",
+     "a": "(a) Core principle: **Decentralised trust-based credit transfer** — a network of verified merchants/agents settle obligations bilaterally without central clearing. (b) New risk: **Counterparty identity fraud / KYC compliance** — Hundi relied on community reputation; a digital system must verify legal identity to prevent money laundering. (c) Difference from SWIFT/UPI: Unlike SWIFT (bank-centric, high cost, slow) or UPI (domestic, real-time, bank-account-based), this would be **merchant-led, multi-currency, delayed-settlement** (like Muddati Hundi) with built-in trade-finance features (like Jokhmi). A poor answer merely describes a crypto token or replicates UPI without adapting Hundi's unique deferred, trade-linked, trust-network character.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

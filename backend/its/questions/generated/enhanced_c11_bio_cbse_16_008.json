@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_16_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_16_008",
+   "title": "c11_bio_cbse_16_008",
+   "questions": [
+    {
+     "q": "Name the three major accessory excretory organs in humans and the primary waste each eliminates.",
+     "a": "Lungs eliminate carbon dioxide and water vapour; liver eliminates bilirubin, biliverdin, cholesterol, degraded steroid hormones, and drugs via bile; skin eliminates NaCl, urea, lactic acid via sweat and sterols, hydrocarbons, waxes via sebum. A wrong answer (e.g., \"kidneys, liver, skin\") reveals the student still equates excretion only with urinary system and has not distinguished primary vs. accessory organs.",
+     "self_check": true
+    },
+    {
+     "q": "Why can the kidneys not excrete carbon dioxide effectively, necessitating pulmonary excretion?",
+     "a": "CO₂ is a gas with high diffusion coefficient and low solubility in plasma; it equilibrates rapidly across alveolar-capillary membrane driven by partial pressure gradient (PₐCO₂ ~40 mmHg → PₐCO₂ ~45 mmHg in venous blood). Renal tubules lack mechanisms for gas exchange and cannot generate the required partial pressure gradient. A wrong answer citing \"CO₂ is not filtered\" shows confusion between glomerular filtration (size/charge based) and gas diffusion (partial pressure based).",
+     "self_check": true
+    },
+    {
+     "q": "A patient with severe liver cirrhosis develops jaundice and elevated blood cholesterol. Trace the metabolic pathway from haemoglobin to bilirubin appearance in blood, and explain why cholesterol accumulates.",
+     "a": "Haemoglobin → heme → biliverdin (via heme oxygenase) → bilirubin (via biliverdin reductase) → unconjugated bilirubin binds albumin → hepatic uptake → conjugation with glucuronic acid → excreted in bile. In cirrhosis, hepatocyte damage reduces conjugation and canalicular excretion, causing unconjugated bilirubin reflux into blood. Cholesterol accumulates because bile synthesis (major cholesterol elimination route) is impaired. A wrong answer missing the conjugation step or bile canaliculus obstruction reveals incomplete understanding of hepatic excretory physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and physiological triggers of sweat vs. sebum secretion. Why is sweat hypotonic to plasma while sebum is lipid-rich?",
+     "a": "Sweat (eccrine glands): triggered by hypothalamic thermoreceptors via sympathetic cholinergic fibres; primary secretion is isotonic, becomes hypotonic due to Na⁺ reabsorption in duct; eliminates NaCl, urea, lactic acid. Sebum (sebaceous glands): triggered by androgens; holocrine secretion of entire cell debris rich in triglycerides, wax esters, squalene, cholesterol; provides waterproofing. Sweat hypotonicity conserves electrolytes during thermoregulation; sebum lipid composition reflects its barrier function. A wrong answer claiming sweat is \"mainly for excretion\" confuses primary (thermoregulation) vs. secondary (excretion) roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"During intense exercise, the skin becomes the primary excretory organ for nitrogenous wastes because sweat urea concentration increases.\" Justify your evaluation with quantitative reasoning.",
+     "a": "False. Sweat urea concentration (~20–50 mmol/L) is far lower than plasma urea (~5 mmol/L) but total daily urea excretion via sweat is <1% of renal output (~25–30 g/day). Even at 2 L sweat/day, urea loss = 2 L × 50 mmol/L × 60 mg/mmol = 6 g, vs. renal 25 g. Renal excretion remains primary; sweat urea rises passively due to increased plasma urea from protein catabolism, not active secretion. A student agreeing reveals inability to integrate quantitative physiology with organ hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration to show that exhaled air contains more CO₂ and water vapour than inhaled air, using materials available in an Indian school lab. Specify controls and expected observations.",
+     "a": "Use two test tubes with 5 mL lime water (Ca(OH)₂). Bubble inhaled air (via syringe) through Tube A for 1 min; bubble exhaled air (via straw) through Tube B for 1 min. Control: Tube C with no air bubbling. Observation: Tube B turns milky (CaCO₃ precipitate) faster than Tube A; Tube C unchanged. For water vapour, hold a dry cobalt chloride paper (blue) near mouth during exhalation — it turns pink. Poor designs omit control or use only qualitative \"feeling of warmth\" without chemical proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

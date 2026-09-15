@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_016",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_016",
+   "title": "c11_chem_cbse_02_016",
+   "questions": [
+    {
+     "q": "State Pauli's Exclusion Principle in terms of the four quantum numbers. What is the maximum number of electrons that can occupy a single atomic orbital, and what must be true about their spin quantum numbers?",
+     "a": "Correct answer: Pauli's Exclusion Principle states that no two electrons in an atom can have the same set of four quantum numbers (n, l, mₗ, mₛ). A single atomic orbital can hold a maximum of 2 electrons, and they must have opposite spins (one mₛ = +½, the other mₛ = –½). A wrong answer (e.g., \"electrons in the same orbital have the same spin\" or \"maximum 3 electrons per orbital\") reveals the student has confused Pauli's principle with Hund's rule or has not internalised the two-electron limit per orbital.",
+     "self_check": true
+    },
+    {
+     "q": "Two electrons occupy the same 3p orbital. Electron A has quantum numbers n=3, l=1, mₗ=–1, mₛ=+½. What are the allowed quantum numbers for Electron B? Explain why Electron B cannot have mₛ=+½.",
+     "a": "Correct answer: Electron B must have n=3, l=1, mₗ=–1, mₛ=–½. Since both electrons share the same orbital, their n, l, mₗ are identical. Pauli's principle forbids identical mₛ, so Electron B must have the opposite spin (–½). If a student says Electron B can have mₛ=+½, they have misunderstood that the principle applies to the complete set of four quantum numbers — identical n, l, mₗ forces mₛ to differ.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following quantum number sets for three electrons in a 2p subshell:\nElectron 1: n=2, l=1, mₗ=0, mₛ=+½\nElectron 2: n=2, l=1, mₗ=0, mₛ=–½\nElectron 3: n=2, l=1, mₗ=0, mₛ=+½\nIdentify the violation and state the maximum number of electrons the 2p subshell can actually hold.",
+     "a": "Correct answer: Electrons 1 and 3 have identical quantum numbers (2, 1, 0, +½) — this violates Pauli's principle. The 2p subshell (l=1) has 2l+1 = 3 orbitals (mₗ = –1, 0, +1). Each orbital holds 2 electrons (opposite spins), so maximum electrons = 2 × 3 = 6. A student who misses the violation between Electron 1 and 3 does not grasp that Pauli's principle applies pairwise to every electron in the atom. A student who answers \"6 electrons\" but cannot explain the 2(2l+1) derivation has memorised the number without understanding the orbital-counting logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is a direct consequence of Pauli's Exclusion Principle and which describes Hund's Rule:\n(A) \"Electrons occupy degenerate orbitals singly with parallel spins before pairing.\"\n(B) \"An orbital cannot contain more than two electrons, and paired electrons must have opposite spins.\"\nJustify your classification.",
+     "a": "Correct answer: Statement (B) is Pauli's Exclusion Principle — it restricts occupancy per orbital and mandates opposite spins for paired electrons. Statement (A) is Hund's Rule — it governs how electrons distribute *among* degenerate orbitals of a subshell before pairing occurs. A student who swaps them or says both are Pauli's principle has conflated the two distinct principles. This is the most common senior-secondary error: confusing the *intra-orbital* restriction (Pauli) with the *inter-orbital* filling preference (Hund).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"For a hydrogen atom in the ground state, the two electrons in the 1s orbital have quantum numbers (1, 0, 0, +½) and (1, 0, 0, –½).\" Is this claim correct? If not, correct it and explain the error.",
+     "a": "Correct answer: The claim is incorrect. Hydrogen (Z=1) has only one electron. Its ground-state configuration is 1s¹, with a single electron having quantum numbers (1, 0, 0, +½) or (1, 0, 0, –½). The error is assuming hydrogen has two electrons in 1s — that describes helium (Z=2). A student who does not catch the \"hydrogen has two electrons\" error lacks the basic skill of linking atomic number to electron count, a prerequisite from Class 9/10.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick mental checklist (3–4 steps) that a student can use during an exam to verify that a written electronic configuration or orbital diagram does not violate Pauli's Exclusion Principle.",
+     "a": "Expected answer (criteria): A good checklist includes: (1) Count electrons in each orbital box — no box has more than 2 arrows. (2) In any box with 2 arrows, one must point up (↑) and one down (↓). (3) For a given subshell (e.g., 2p), total electrons ≤ 2(2l+1) (i.e., ≤6 for p, ≤10 for d). (4) Total electrons in shell n ≤ 2n². A poor answer (e.g., \"just check the total electron count\") shows the student cannot translate the principle into operational verification steps for orbital diagrams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

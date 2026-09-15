@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 103,
+ "chapter_title": "Understanding Social Institutions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy103.1.1",
+   "title": "What is a Social Institution?",
+   "section": "1.1",
+   "definition": "A social institution is a stable cluster of norms, roles and procedures organised around a basic social need -- family for kinship and care, economy for livelihood, polity for power, religion for meaning. Institutions look natural because they have always been there, yet each is a human construction that varies across societies and changes over time.",
+   "formula": "",
+   "key_idea": "Institutions are society's durable answers to recurring needs -- made by people, mistaken for nature.",
+   "textbook_ref": "kesy103.txt lines 15-130 (introduction, why study institutions, institutions as sets of norms and roles meeting basic needs, examples of family economy polity religion)",
+   "question_patterns": [
+    "define a social institution and give examples",
+    "in class 11 understanding social institutions: why are institutions said to be humanly constructed",
+    "how do institutions differ from informal groups",
+    "what basic needs do the major institutions serve",
+    "why do institutions appear natural to their members",
+    "explain how institutions constrain individual behaviour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the need",
+     "explain": "Every institution answers a recurring collective need -- reproduction, subsistence, order, meaning."
+    },
+    {
+     "step": 2,
+     "action": "identify the machinery",
+     "explain": "The institution packages that answer as norms, roles and statuses reproduced across generations."
+    },
+    {
+     "step": 3,
+     "action": "demystify the natural",
+     "explain": "Cross-cultural variation shows each institutional form is historical, not natural -- and therefore changeable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which institution is organised around kinship and care?",
+     "a": "family"
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.2",
+   "title": "Family, Marriage and Kinship",
+   "section": "1.2",
+   "definition": "The family is the institutional core of kinship -- the network of relationships traced through blood and marriage. Forms vary: nuclear and joint households, monogamy, polygyny and polyandry, patrilocal and matrilocal residence. Marriage rules of endogamy and exogamy decide who one may marry, and descent rules decide who one belongs to.",
+   "formula": "",
+   "key_idea": "Marriage writes the rules of alliance; descent writes the rules of belonging -- family forms are many, not one.",
+   "textbook_ref": "kesy103.txt lines 130-280 (family marriage kinship, nuclear and extended family, monogamy polygyny polyandry, endogamy exogamy, patriliny matriliny, rules of residence)",
+   "question_patterns": [
+    "distinguish nuclear family from extended family",
+    "in class 11 understanding social institutions: define endogamy and exogamy with examples",
+    "what are polygyny and polyandry",
+    "explain patriliny and matriliny with indian examples",
+    "how do rules of residence affect family structure",
+    "why is marriage called an alliance between groups not just individuals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the household forms",
+     "explain": "Count the married couples and generations sharing residence: one couple makes a nuclear family, more make extended or joint families."
+    },
+    {
+     "step": 2,
+     "action": "map the marriage rules",
+     "explain": "Endogamy requires marrying within the group -- caste for instance; exogamy requires marrying outside -- the village or gotra."
+    },
+    {
+     "step": 3,
+     "action": "map the descent and residence",
+     "explain": "Patriliny traces descent through fathers, matriliny through mothers; residence after marriage may be with either side or neither."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Marriage within one's own group is called what?",
+     "a": "endogamy"
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.3",
+   "title": "Power, Authority and the State",
+   "section": "1.3",
+   "definition": "Power is the ability to make others do what one wants; authority is power accepted as legitimate. Max Weber's classic types -- traditional, charismatic and legal-rational -- name the grounds on which obedience is claimed. Modern states monopolise legitimate violence within a territory and organise authority through law and bureaucracy.",
+   "formula": "",
+   "key_idea": "Power persuades or forces; authority persuades because it is believed right -- legitimacy is the difference.",
+   "textbook_ref": "kesy103.txt lines 280-400 (power authority and the state, weber's three types of authority, legitimacy, modern state and bureaucracy)",
+   "question_patterns": [
+    "distinguish power from authority with examples",
+    "in class 11 understanding social institutions: explain weber's three types of authority",
+    "what makes the modern state's authority legal rational",
+    "why does the state claim a monopoly of legitimate violence",
+    "can charisma become traditional authority",
+    "how does bureaucracy serve the modern state"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate raw power from authority",
+     "explain": "A robber exercises power; an elected government exercises authority -- the latter is obeyed as rightful."
+    },
+    {
+     "step": 2,
+     "action": "classify the legitimacy",
+     "explain": "Traditional authority rests on custom, charismatic on a leader's exceptional qualities, legal-rational on impersonal rules and offices."
+    },
+    {
+     "step": 3,
+     "action": "connect to the state",
+     "explain": "The modern state grounds itself in legal-rational authority, staffed by bureaucracy and claiming sole right to legitimate coercion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Power accepted as legitimate is called what?",
+     "a": "authority"
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.4",
+   "title": "Economy, Religion and Education as Institutions",
+   "section": "1.4",
+   "definition": "The economy institutionalises the production and distribution of livelihood -- from hunting-gathering through agrarian to industrial and knowledge systems. Religion institutionalises the sacred: beliefs, rituals and organisations that bind communities and sanctify norms. Education institutionalises the transmission of knowledge and values, both preserving culture and equipping change.",
+   "formula": "",
+   "key_idea": "Livelihood, meaning and learning each have their institution -- economy, religion, education -- shaping and shaped by the rest.",
+   "textbook_ref": "kesy103.txt lines 400-500 (economic institutions, division of labour, religion as institution, ritual and sacred, education and transmission of culture)",
+   "question_patterns": [
+    "describe the economy as a social institution",
+    "in class 11 understanding social institutions: how does religion function as a social institution",
+    "what is the role of education in transmitting culture",
+    "relate the division of labour to economic change",
+    "how do rituals sustain community solidarity",
+    "show how economic and religious institutions influence each other"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the economic forms",
+     "explain": "Societies organise livelihood differently -- hunting, farming, industry, services -- with each division of labour reshaping social bonds."
+    },
+    {
+     "step": 2,
+     "action": "trace religion's work",
+     "explain": "Sacred beliefs and rituals regularise the unexplained and consecrate moral rules, binding participants into moral communities."
+    },
+    {
+     "step": 3,
+     "action": "trace education's double role",
+     "explain": "Schools pass on inherited knowledge and simultaneously prepare members for new roles -- conservation and change together."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which institution organises the production and distribution of livelihood?",
+     "a": "the economy"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy103.txt lines 130-280 (kinship institutions)",
+   "concept": "kesy103.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "In a South Indian matrilineal community, children belong to the mother's house and a man's heirs are his sister's children. Identify the descent, residence and marriage rules at work.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify descent",
+     "explain": "Inheritance and belonging through the mother's line marks matriliny."
+    },
+    {
+     "step": 2,
+     "action": "infer residence",
+     "explain": "Where the wife remains in her mother's house with her children, residence is marilocal/matri-centered rather than patrilocal."
+    },
+    {
+     "step": 3,
+     "action": "note the marriage rules",
+     "explain": "Alliance links two houses rather than transferring the bride, showing marriage as inter-group arrangement within kinship structure."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy103.txt lines 280-400 (power and authority)",
+   "concept": "kesy103.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "A hereditary king rules by custom, a rebel saint draws devoted crowds, and an income tax officer issues a notice. Match each to Weber's types of authority.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "match the king",
+     "explain": "Obedience flows from age-old custom -- traditional authority."
+    },
+    {
+     "step": 2,
+     "action": "match the rebel saint",
+     "explain": "Followers respond to extraordinary personal qualities -- charismatic authority."
+    },
+    {
+     "step": 3,
+     "action": "match the officer",
+     "explain": "The notice binds because it issues from an office under impersonal law -- legal-rational authority, the modern state's mode."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy103.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "What is a social institution? Why do institutions vary across societies?",
+    "Explain the terms endogamy, exogamy, polygyny and polyandry with examples.",
+    "Distinguish patriliny from matriliny and discuss rules of residence.",
+    "Distinguish power from authority and describe Weber's three types.",
+    "Explain religion and education as social institutions.",
+    "How does the modern state differ from other forms of political organisation?"
+   ]
+  }
+ ]
+}

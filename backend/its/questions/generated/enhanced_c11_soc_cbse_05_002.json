@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_002",
+   "title": "c11_soc_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define 'objectivity' and 'subjectivity' in the context of social research as distinct from their everyday meanings.",
+     "a": "Objectivity in social research is the methodological ideal of producing knowledge based solely on verifiable evidence, independent of the researcher's personal values, while subjectivity refers to the inevitable influence of the researcher's social location, experiences, and theoretical predispositions on the research process. A wrong answer that equates objectivity with 'being fair' or subjectivity with 'being biased' reveals a confusion between moral qualities and epistemological categories; the terms describe structural features of the research relationship, not the researcher's character.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the problem of objectivity is fundamentally more difficult in sociology than in natural sciences like geology or botany, using the concept of the researcher's position in the studied world.",
+     "a": "In natural sciences, the researcher stands outside the natural world they study (rocks, plants) and can physically separate themselves from the object of study. In sociology, the researcher is inherently part of the social world they study — they share the same culture, language, and social structures as their subjects — making it impossible to achieve the same degree of detachment; their own socialization becomes a source of unavoidable bias. A wrong answer that focuses only on 'complexity of human behavior' misses the core structural argument: the researcher-subject ontological overlap is the unique problem.",
+     "self_check": true
+    },
+    {
+     "q": "A sociologist from an upper-caste, urban background is studying landless laborers in a remote village. List three specific, practical steps this researcher must take to practice self-reflexivity and manage positionality bias, as recommended in the NCERT text.",
+     "a": "1) Continuously examine and record their own emotional reactions and preconceptions about caste and poverty in a research diary. 2) Explicitly state their own caste, class, and urban background in the published report as a potential source of bias. 3) Actively seek feedback from the laborers themselves on the researcher's interpretations (dialogic validation). A wrong answer suggesting 'treating everyone equally' or 'ignoring caste' reveals a misunderstanding of reflexivity as passive neutrality rather than active, documented self-scrutiny.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the 'old notion of objectivity' (as an achieved, disinterested stance) with the 'modern sociological view' (objectivity as a continuous process). Why is the old notion now considered misleading?",
+     "a": "The old notion treats objectivity as a binary state — either the researcher is objective or not — assuming a 'view from nowhere' is attainable. The modern view recognizes that because the social world contains multiple, equally valid truths (e.g., shopkeeper vs. customer on 'fair price') and sociology is multi-paradigmatic, objectivity can only be approached through ongoing, transparent bias management. The old notion is misleading because it creates a false sense of finality, hiding the inevitable perspectival nature of social knowledge. A wrong answer that says 'old notion was wrong because researchers are human' fails to articulate the epistemological shift from 'achieved neutrality' to 'processual accountability'.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim: \"Since complete objectivity is impossible in sociology, we should accept that all social research is just the researcher's opinion and no study is better than any other.\"",
+     "a": "This claim commits the relativist fallacy. The impossibility of perfect objectivity does not entail the impossibility of better or worse research. Rigorous reflexivity, transparent methodology, peer review, and triangulation allow us to rank studies by their degree of accountability to evidence. The NCERT explicitly states that abandoning the old ideal does not make objectivity 'useless' — it remains the regulatory ideal that drives methodological rigor. A wrong answer agreeing with the claim reveals a failure to distinguish between 'absolute certainty' and 'warranted assertibility' — the core of scientific epistemology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief 'positionality statement' for yourself as a hypothetical researcher studying 'student experiences of online schooling during the pandemic'. Include your relevant social background markers and explain how each might shape your interpretation of the data.",
+     "a": "A strong answer identifies at least three specific markers (e.g., \"I am a Class 11 student from a private urban school with reliable internet and a quiet study space; this privileges my experience of online learning as merely inconvenient rather than exclusionary. My parents are professionals who could supervise my learning, unlike many peers. I am fluent in English, the medium of instruction, which shaped my ease with digital platforms.\"). It then explains how each marker creates a specific blind spot (e.g., \"I may underestimate the structural barriers faced by students in government schools\"). A poor answer gives generic demographics without linking them to specific interpretive risks, showing a misunderstanding of positionality as a tool for reader calibration, not just autobiography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

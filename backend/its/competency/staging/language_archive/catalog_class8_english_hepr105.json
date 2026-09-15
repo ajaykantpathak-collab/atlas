@@ -1,0 +1,205 @@
+{
+ "class": 8,
+ "subject": "english",
+ "chapter": 5,
+ "chapter_title": "Feathered Friend",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hepr105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hepr.5.1",
+   "title": "Claribel the Canary in the Space Station",
+   "section": "Feathered Friend, Let us read I",
+   "definition": "Sven Olsen smuggles a small yellow canary named Claribel aboard a space station; she weighs almost nothing, learns to glide in zero gravity with lazy flicks, and becomes the crew's general pet hidden from visiting VIPs.",
+   "formula": "",
+   "key_idea": "A bird adapted to weightlessness shows how life bends to new rules; Claribel does no unnecessary work in free fall.",
+   "textbook_ref": "hepr105.txt, Feathered Friend, Let us read I",
+   "question_patterns": [
+    "how did claribel come to live on the space station",
+    "how does claribel move inside the space station",
+    "why was claribel a sensible choice of pet for space",
+    "how did the crew hide claribel from visiting vips",
+    "what was sven olsen's scientific curiosity about birds in space",
+    "why does the narrator say nobody would look for a canary in a space station"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect actions and words",
+     "explain": "List what the character does and says at key moments."
+    },
+    {
+     "step": 2,
+     "action": "infer the traits",
+     "explain": "Match each action to a quality such as wit, valour or patience."
+    },
+    {
+     "step": 3,
+     "action": "cite the evidence",
+     "explain": "Point to the lines of the text that support each trait."
+    }
+   ]
+  },
+  {
+   "id": "hepr.5.2",
+   "title": "The Canary that Saved the Crew",
+   "section": "Feathered Friend, Let us read II",
+   "definition": "When Claribel faints and revives only under an oxygen mask, the narrator remembers that miners once carried canaries to warn of gas; the frozen air purifier and its silent alarm are found, and the bird proves a life-saving sentinel.",
+   "formula": "",
+   "key_idea": "Old wisdom meets new machines: a tiny bird catches the failure that half a million dollars of engineering missed.",
+   "textbook_ref": "hepr105.txt, Feathered Friend, Let us read II",
+   "question_patterns": [
+    "why did claribel faint inside the space station",
+    "how did the crew revive claribel",
+    "what did miners carry canaries for in old times",
+    "what was wrong with the air purifier that night",
+    "why did the alarm circuit fail to warn the crew",
+    "what does the narrator mean by being doubly safeguarded"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mark the crisis",
+     "explain": "Note Claribel's collapse and her brief recovery under the oxygen mask."
+    },
+    {
+     "step": 2,
+     "action": "recall the old practice",
+     "explain": "Connect the canary to the miners' custom of testing air for gas."
+    },
+    {
+     "step": 3,
+     "action": "find the fault",
+     "explain": "Trace the frozen purifier and the unconnected second alarm to the danger."
+    }
+   ]
+  },
+  {
+   "id": "hepr.5.3",
+   "title": "Life in Zero Gravity",
+   "section": "Feathered Friend, Let us read",
+   "definition": "The story sketches space routine: twelve-hour watches in permanent sunlight, bunk straps, weightless girders assembled in slow-motion ballet, and a 150-pound bonus for light workers, showing how a station crew lives and works.",
+   "formula": "",
+   "key_idea": "Everyday habits, waking, breakfast, work, change shape in orbit, where there is no day, night or weight.",
+   "textbook_ref": "hepr105.txt, Feathered Friend, Let us read",
+   "question_patterns": [
+    "how does work in free fall differ from construction on earth",
+    "why were some spacers paid a bonus for being light",
+    "how do the crew keep track of morning in space",
+    "what was the narrator checking in his cubbyhole",
+    "why does claribel hang motionless in the air",
+    "what sounds of earth comfort the crew in space"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the routines",
+     "explain": "List how eating, sleeping and working happen on the station."
+    },
+    {
+     "step": 2,
+     "action": "contrast with earth",
+     "explain": "Note which habits change without gravity and which stay."
+    },
+    {
+     "step": 3,
+     "action": "see the role of the pet",
+     "explain": "Say how Claribel fits into this weightless day."
+    }
+   ]
+  },
+  {
+   "id": "hepr.5.4",
+   "title": "Word Meanings: Wiry, Cubbyhole and Bulkheads",
+   "section": "Feathered Friend, Let us learn",
+   "definition": "Space-story words fix themselves in context: wiry means thin but strong, a cubbyhole is a small enclosed space, bulkheads are dividing walls between compartments, and keeled over means collapsed or fainted.",
+   "formula": "",
+   "key_idea": "Technical words like girders, ventilating shafts and intercom make the station feel real.",
+   "textbook_ref": "hepr105.txt, Feathered Friend, Let us learn",
+   "question_patterns": [
+    "what does wiry mean as used for sven",
+    "where was the narrator's cubbyhole",
+    "what are bulkheads in a space station",
+    "what does keeled over mean in the story",
+    "find the meaning of sluggish and sheepish",
+    "use the word smuggled in a sentence of your own"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the word",
+     "explain": "Find the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "read the clues around it",
+     "explain": "Use nearby words to sense the meaning that fits."
+    },
+    {
+     "step": 3,
+     "action": "test a replacement",
+     "explain": "Swap in the guessed meaning and check the sentence still works."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr105.txt, Let us read II",
+   "concept": "hepr.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why was the narrator sure the trouble was in the air itself?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall his own state",
+     "explain": "He woke with a nagging headache and a sluggish mind, signs he too needed oxygen."
+    },
+    {
+     "step": 2,
+     "action": "join it with the old custom",
+     "explain": "Remembering miners' canaries, he sees that Claribel's fainting warns of bad air before any machine does."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hepr105.txt, Let us read I",
+   "concept": "hepr.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did Claribel first meet the narrator?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the sound",
+     "explain": "A musical whistle beside his ear makes him expect an intercom announcement."
+    },
+    {
+     "step": 2,
+     "action": "see the bird",
+     "explain": "Instead he finds a small yellow canary hanging motionless in the air, wings folded, before she loops away."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr105.txt, Let us discuss and think and reflect",
+   "questions": [
+    "Mark the statements about Claribel and the air purifier as true or false with reasons.",
+    "Why did the narrator first mistake Claribel's whistle for an intercom sound?",
+    "How did Jock Duncan try to find out whether the canary was alive?",
+    "What caused the air purifier to freeze that night?",
+    "Why does the narrator say visitors need not be alarmed by birdsong on a station?"
+   ]
+  }
+ ]
+}

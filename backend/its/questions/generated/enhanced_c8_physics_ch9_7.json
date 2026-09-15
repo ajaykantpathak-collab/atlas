@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_7",
+   "title": "c8_physics_ch9_7",
+   "questions": [
+    {
+     "q": "What is the approximate average surface temperature of Earth, and why is this specific value critical for life as we know it?",
+     "a": "Earth's average surface temperature is ~15°C (288 K). This is critical because it allows water to exist in liquid form over most of the planet, enabling the biochemical reactions that sustain life. A wrong answer (e.g., \"30°C\" or \"0°C\") reveals the student confuses average with local extremes or doesn't grasp the link between liquid water and habitability.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Moon, which is roughly the same distance from the Sun as Earth, has surface temperatures ranging from -173°C to 127°C, while Earth's range is far narrower.",
+     "a": "The Moon lacks an atmosphere and large water bodies. Without an atmosphere, there is no greenhouse effect to trap outgoing heat, and no convection/conduction to distribute heat. Without oceans, there is no high-specific-heat reservoir to buffer temperature swings. A wrong answer focusing only on \"no air\" misses the crucial role of water's thermal inertia and the greenhouse mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "If Earth's atmosphere had no greenhouse gases (CO₂, CH₄, H₂O vapor), the average surface temperature would drop to about -18°C. Calculate the temperature difference this represents in Kelvin, and explain why this would make most of Earth uninhabitable.",
+     "a": "Difference = 15°C - (-18°C) = 33°C = 33 K (since Celsius and Kelvin scales have same magnitude). At -18°C, water freezes globally, halting the water cycle and making liquid water unavailable for life. A wrong calculation (e.g., using 273 conversion incorrectly) reveals confusion between temperature difference and absolute temperature conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this statement: \"Deserts are hot because sand is a good conductor of heat.\" Is this correct? Use concepts of conduction, specific heat, and radiation to justify your answer.",
+     "a": "The statement is incorrect. Sand is actually a poor conductor (insulator) — heat stays near the surface. Deserts get hot because: (1) sand has low specific heat, so little energy raises its temperature sharply, (2) lack of water means no evaporative cooling, (3) clear skies allow intense solar radiation in and rapid radiative cooling at night. A student agreeing reveals the misconception that \"hot to touch = good conductor.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this proposed solution to global warming: \"Paint all roofs white to reflect sunlight.\" Would this significantly lower Earth's average temperature? Consider energy balance, scale, and side effects.",
+     "a": "Painting roofs white increases local albedo, reducing heat absorption in cities (urban heat island mitigation). However, roofs cover <0.1% of Earth's surface — too small to meaningfully alter planetary energy balance. Significant cooling requires large-scale albedo change (e.g., polar ice) or reducing greenhouse gases. A \"yes\" answer shows inability to scale a local solution to global systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two identical containers, water, soil, thermometers, and a lamp to demonstrate why coastal cities have milder temperature variations than inland cities.",
+     "a": "Fill one container with water, the other with dry soil. Place thermometers in both. Shine lamp (simulating Sun) for 20 min, record temperatures every 2 min. Then turn off lamp, continue recording. Water will heat/cool slower due to higher specific heat. A poor design omits the cooling phase, uses different lamp distances, or doesn't connect results to coastal vs inland climates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

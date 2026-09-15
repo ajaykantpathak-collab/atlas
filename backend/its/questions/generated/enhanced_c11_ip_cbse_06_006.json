@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_006",
+   "title": "c11_ip_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the exact syntax to open a file named 'data.txt' in read mode using the `with` statement, and what happens to the file object after the indented block ends?",
+     "a": "The syntax is `with open('data.txt', 'r') as f:` followed by indented operations. After the indented block ends, Python automatically calls `f.close()` regardless of whether the block completed normally or raised an exception. A wrong answer like \"the file stays open until explicitly closed\" reveals the student hasn't grasped the automatic resource management guarantee - the core purpose of the `with` statement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code is safer than using `open()` and `close()` separately:\n```python\ntry:\n    f = open('marks.txt', 'w')\n    f.write('Physics: 85\\n')\n    f.write('Chemistry: 90\\n')\nfinally:\n    f.close()\n```",
+     "a": "The `try-finally` version requires explicit `close()` in `finally`, but if `open()` itself fails (e.g., permission denied), `f` is never defined, causing `NameError` in `finally`. The `with` statement handles this: if `open()` fails, `__exit__` isn't called on a non-existent object. A student who says \"both are equally safe\" misses the edge case where `open()` raises an exception before assignment - a classic senior-secondary error in resource management reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a `with` statement that reads all lines from 'students.txt', strips newline characters, and stores them in a list `names`. Then write the equivalent code without `with` that achieves identical exception safety.",
+     "a": "With `with`:\n```python\nwith open('students.txt', 'r') as f:\n    names = [line.strip() for line in f]\n```\nWithout `with` (exception-safe):\n```python\nf = None\ntry:\n    f = open('students.txt', 'r')\n    names = [line.strip() for line in f]\nfinally:\n    if f is not None:\n        f.close()\n```\nA student who omits the `if f is not None:` check or the `f = None` initialization doesn't understand the `open()` failure edge case - this is exactly the bug `with` prevents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and resource implications of these two approaches for processing a 500MB log file:\nApproach A: `with open('huge.log') as f: data = f.read()`\nApproach B: `with open('huge.log') as f: for line in f: process(line)`\nWhich is better for a system with 1GB RAM and why?",
+     "a": "Approach B is better. Approach A loads the entire 500MB into memory as one string, risking MemoryError or excessive swapping. Approach B iterates line-by-line, keeping only one line in memory at a time. Both guarantee file closure via `with`, but memory behavior differs drastically. A student choosing Approach A \"because `with` makes it safe\" confuses resource safety (file handles) with resource efficiency (memory) - a critical distinction at this level.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to copy 'source.txt' to 'dest.txt':\n```python\nwith open('source.txt', 'r') as src, open('dest.txt', 'w') as dst:\n    dst.write(src.read())\n```\nCritique this code for correctness, efficiency, and exception safety. Suggest an improvement for large files.",
+     "a": "Correctness: Yes, copies content correctly. Exception safety: Excellent - both files close automatically even if `read()` or `write()` fails mid-operation. Efficiency: Poor for large files - `src.read()` loads entire file into memory. Improvement: Use `shutil.copyfileobj(src, dst)` or iterate in chunks: `for chunk in iter(lambda: src.read(8192), ''): dst.write(chunk)`. A student who says \"it's perfect because `with` handles everything\" misses the memory scalability issue - they're applying the concept correctly but not analyzing constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where nested `with` statements are necessary, write the code, and explain why a single `with` with multiple files wouldn't suffice for your scenario.",
+     "a": "Scenario: Transactional file update - read config from 'config.ini', modify it, write to 'config.ini.new', then atomically replace original only if write succeeds completely.\n```python\nimport os\nwith open('config.ini', 'r') as src:\n    content = src.read()\nmodified = content.replace('debug=false', 'debug=true')\nwith open('config.ini.new', 'w') as dst:\n    dst.write(modified)\nos.replace('config.ini.new', 'config.ini')  # atomic on POSIX\n```\nSingle `with` wouldn't work because we need the source file closed before writing the destination (to avoid locking issues on Windows) and we need the destination fully written and closed before atomic replace. A student who suggests `with open('config.ini') as src, open('config.ini.new') as dst:` doesn't understand file locking semantics or atomic replacement requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_007",
+   "title": "c11_psy_cbse_04_007",
+   "questions": [
+    {
+     "q": "List the seven external factors of selective attention mentioned in the NCERT textbook and give one original example for each.",
+     "a": "The seven external factors are: (1) Size — a full-page advertisement vs. a classified ad; (2) Intensity — a loud siren vs. a whisper; (3) Motion — a flashing neon sign vs. a static billboard; (4) Novelty — a new ringtone vs. a familiar one; (5) Complexity — a detailed painting vs. a solid colour; (6) Rhythm — a drumbeat vs. random noise; (7) Suddenness — a car backfiring vs. steady traffic hum. A wrong answer that merges intensity and size, or omits rhythm/suddenness, reveals the student is relying on intuitive grouping rather than the textbook's explicit taxonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a hungry person notices the smell of food more quickly than a satiated person, using the terms 'motivational factor' and 'perceptual sensitivity' correctly.",
+     "a": "Hunger creates a biological motivational factor that lowers the absolute threshold for food-related stimuli, temporarily increasing perceptual sensitivity to olfactory cues associated with eating. The satiated person lacks this motivational priming, so the same stimulus intensity falls below their current threshold. A wrong answer that says 'hunger makes you pay attention' without linking to threshold/sensitivity shows confusion between voluntary concentration and automatic attentional capture by need states.",
+     "self_check": true
+    },
+    {
+     "q": "A driver is navigating a busy Delhi intersection while listening to a podcast. Suddenly, a pedestrian steps onto the road. The driver brakes instantly but later cannot recall the last 30 seconds of the podcast. Identify the external and internal determinants that caused this attentional shift and name the theoretical mechanism (filter/attenuation/multimode) that best explains it.",
+     "a": "External: sudden motion of pedestrian, high intensity (looming visual angle). Internal: motivational factor (safety need), preparatory set (driving schema primed for hazard detection). The Filter-Attenuation Theory best explains it: the pedestrian stimulus was not fully blocked at the filter but attenuated; its personal relevance (survival) allowed it to surpass the threshold and capture focal attention, while the podcast (attenuated, low relevance) failed to reach consciousness. A wrong answer citing Filter Theory (complete blockage) ignores that the driver might still vaguely hear the podcast; a wrong answer citing Multimode Theory without specifying late selection misses the automatic, low-effort nature of the shift.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how 'novelty' and 'preparatory set' differently influence attentional selection in a student entering an examination hall for the first time versus a repeat candidate.",
+     "a": "For the first-time student, novelty dominates: unfamiliar architecture, seating arrangement, and procedures capture attention exogenously (bottom-up). For the repeat candidate, preparatory set dominates: they endogenously (top-down) allocate attention to the clock, invigilator's instructions, and question paper distribution because their cognitive schema predicts these as task-relevant. Novelty is stimulus-driven and transient; preparatory set is goal-driven and sustained. A wrong answer that treats both as 'internal' or both as 'external' fails to distinguish the exogenous/endogenous divide central to attentional control.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Internal factors are more powerful determinants of attention than external factors because they reflect the observer's goals.\" Use evidence from the textbook's examples of sudden intense stimuli and rhythmic auditory stimuli.",
+     "a": "The statement is false. Sudden intense stimuli (e.g., explosion) and rhythmic auditory stimuli (e.g., drumbeat) can capture attention irresistibly regardless of the observer's goals — demonstrating exogenous capture that overrides endogenous control. Internal factors modulate sensitivity but cannot fully suppress hardwired orienting responses to survival-relevant external properties. The textbook explicitly notes sudden/intense stimuli have 'wonderful capacity to draw attention' and rhythmic stimuli are 'more readily attended' than verbal narrations, showing external factors can dominate. A wrong answer agreeing with the statement reveals an overemphasis on top-down processing and neglect of bottom-up salience mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2x2 factorial experiment to test the interaction between stimulus intensity (high/low) and motivational state (hungry/satiated) on detection threshold for food odour. Specify the dependent variable, control variables, and the predicted interaction pattern based on the textbook.",
+     "a": "Dependent variable: minimum detectable concentration of food odour (absolute threshold in ppm). Control variables: room temperature, humidity, time since last meal (standardised), odour type, presentation method. Predicted interaction: hungry participants show lower thresholds than satiated at both intensity levels, but the difference is largest at low intensity (motivation matters most when stimulus is weak). At high intensity, both groups detect easily (ceiling effect). A poor design that omits the satiated control group or uses only one intensity level cannot reveal the interaction, indicating the student does not grasp that internal factors modulate external factor effectiveness non-additively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

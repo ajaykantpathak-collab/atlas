@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class10_social_ch20",
+ "concepts": [
+  {
+   "id": "c10ss.20.1",
+   "title": "Barter System and the Invention of Money",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Barter System and the Invention of Money' refers to.",
+     "a": "The barter system is a method of exchange in which goods are directly traded for other goods without the use of money; money was invented to overcome the problems of barter, especially the lack of double coincidence of wants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Barter System and the Invention of Money'.",
+     "a": "Money acts as a medium of exchange that removes the need for a double coincidence of wants, making trade easier and faster than barter.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Barter System and the Invention of Money' taught, and from which source text?",
+     "a": "Money as a Medium of Exchange",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.2",
+   "title": "Modern Forms of Money",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modern Forms of Money' refers to.",
+     "a": "Modern forms of money include currency (notes and coins) issued by the central bank and demand deposits held in bank accounts, both of which are accepted as a medium of exchange; in India the Reserve Bank of India issues currency on behalf of the government.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modern Forms of Money'.",
+     "a": "Modern money is valuable not because of the material it is made of, but because it is authorised by the government and accepted by everyone as a medium of exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Modern Forms of Money' taught, and from which source text?",
+     "a": "Modern Forms of Money",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.3",
+   "title": "Functions of Banks",
+   "questions": [
+    {
+     "q": "Using the method 'Functions of Banks', work with: deposit_rate = 10, deposits = 80, loan_rate = 8, loans = 240. Carry the chain through step by step and give the final value of bank_income.",
+     "a": "1120 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Functions of Banks' and work with: deposit_rate = 5, deposits = 400, loan_rate = 25, loans = 400. Carry the chain through step by step and give the final value of bank_income.",
+     "a": "8000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Functions of Banks' refers to.",
+     "a": "Banks accept deposits from people who have surplus money and pay interest on them, and they use these deposits to give loans to those who need money, charging a higher interest rate; the difference between the interest paid on deposits and the interest earned on loans is the bank's income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Banks'.",
+     "a": "Banks act as intermediaries between those who have surplus money and those who need it, earning their income from the spread between loan interest and deposit interest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functions of Banks', in plain ASCII form.",
+     "a": "bank income = interest received on loans - interest paid on deposits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.4",
+   "title": "Loans and Credit",
+   "questions": [
+    {
+     "q": "Using the method 'Loans and Credit', work with: borrowed_amount = 5000, rate = 25, time = 240. Carry the chain through step by step and give the final value of repayment.",
+     "a": "30005000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Loans and Credit' and work with: borrowed_amount = 80000, rate = 5, time = 200. Carry the chain through step by step and give the final value of repayment.",
+     "a": "80080000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loans and Credit' refers to.",
+     "a": "Credit (loan) refers to an agreement in which the lender supplies the borrower with money, goods or services in return for a promise of future payment; credit can play a positive role by helping production and income, or a negative role by pushing the borrower into a debt trap.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loans and Credit'.",
+     "a": "Credit is a double-edged tool: it boosts income and production when used productively, but it can lead to a debt trap when the borrower cannot repay.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loans and Credit', in plain ASCII form.",
+     "a": "amount to repay = principal + interest",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.5",
+   "title": "Formal and Informal Credit Sources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formal and Informal Credit Sources' refers to.",
+     "a": "Formal sector credit is provided by banks and cooperatives that follow government rules and are supervised by the Reserve Bank of India, while informal sector credit is provided by moneylenders, traders, employers and relatives who are not regulated and often charge very high interest rates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formal and Informal Credit Sources'.",
+     "a": "Formal credit is cheaper and more reliable because it is regulated, while informal credit is expensive and can exploit borrowers, which is why the poor still depend heavily on informal sources.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Formal and Informal Credit Sources' taught, and from which source text?",
+     "a": "Two Different Credit Situations - Formal and Informal",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.6",
+   "title": "Terms of Credit",
+   "questions": [
+    {
+     "q": "Using the method 'Terms of Credit', work with: pledged_asset = 2500, principal = 50000, rate = 15, time = 100. Carry the chain through step by step and give the final value of total_cost.",
+     "a": "75050000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Terms of Credit' and work with: pledged_asset = 80000, principal = 120000, rate = 5, time = 100. Carry the chain through step by step and give the final value of total_cost.",
+     "a": "60120000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Terms of Credit' refers to.",
+     "a": "The terms of credit include the interest rate, collateral (an asset that the borrower owns and pledges as security), documentation and the mode of repayment; together these determine the cost and feasibility of a loan for the borrower.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Terms of Credit'.",
+     "a": "The terms of credit -- especially the interest rate and the requirement of collateral -- decide whether a borrower can access credit and how burdensome repayment will be.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Terms of Credit', in plain ASCII form.",
+     "a": "total cost of loan = principal + (principal x interest rate x time)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.7",
+   "title": "Self-Help Groups and Poor Women",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Self-Help Groups and Poor Women' refers to.",
+     "a": "A Self-Help Group (SHG) is a small group of poor people, usually women, who pool their savings and give small loans to members at low interest; SHGs help the poor, especially women, access credit without collateral and also build savings and self-reliance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self-Help Groups and Poor Women'.",
+     "a": "SHGs overcome the problem of collateral by pooling savings and using collective responsibility, enabling poor women to get credit that banks would not otherwise provide.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Self-Help Groups and Poor Women' taught, and from which source text?",
+     "a": "Self-Help Groups for the Poor",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.8",
+   "title": "Role of Credit in Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of Credit in Development' refers to.",
+     "a": "Credit plays a crucial role in development by enabling farmers, traders and businesses to invest in production, buy inputs and expand their activities; cheap and reliable formal credit increases income and employment, while expensive informal credit can trap borrowers in debt.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of Credit in Development'.",
+     "a": "Access to affordable formal credit is essential for development because it allows productive investment, while dependence on costly informal credit can hinder growth and push people into poverty.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of Credit in Development' taught, and from which source text?",
+     "a": "Why is Credit Important for Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.9",
+   "title": "Reserve Bank of India and Credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reserve Bank of India and Credit' refers to.",
+     "a": "The Reserve Bank of India (RBI) is the central bank of the country that issues currency, supervises the functioning of formal sources of credit, and regulates the lending activities of banks to ensure that loans are given to all sections of society, including farmers and small businesses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reserve Bank of India and Credit'.",
+     "a": "The RBI ensures the stability and fairness of the credit system by supervising banks, requiring them to maintain cash reserves, and directing them to lend to priority sectors like agriculture and small-scale industry.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reserve Bank of India and Credit' taught, and from which source text?",
+     "a": "RBI and Regulation of Credit",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_05_011",
+   "title": "c11_eng_w_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the definition of a complex sentence, and can you find one example from the first paragraph of \"Pappachi's Moth\"?",
+     "a": "A complex sentence contains one independent clause and at least one dependent clause. In the first paragraph, \"Though Mammachi had conical corneas and was already practically blind, Pappachi would not help her with the pickle-making\" is a complex sentence (dependent clause starting with 'Though', independent clause 'Pappachi would not help...'). A wrong answer that only identifies a simple sentence shows the student cannot distinguish clause structures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the use of the passive voice in \"He was told that his moth had finally been identified...\" affects the focus of the sentence.",
+     "a": "The passive voice shifts focus from the person who told him (the entomologists) to Pappachi receiving the information, emphasizing his helplessness and the institutional authority that dismisses his discovery. A wrong answer that says \"it makes the sentence more formal\" misses the thematic effect of powerlessness.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from the text in active voice: \"The beatings weren't new. What was new was only the frequency with which they took place.\" Then explain how the change alters the emphasis.",
+     "a": "Active rewrite: \"The beatings weren't new. Only their frequency was new.\" The original passive construction (\"What was new was only the frequency with which they took place\") places 'what' as subject, creating a detached, observational tone. The active version makes 'frequency' the subject, sharpening the focus on the escalation. A wrong answer that keeps the passive or misidentifies the subject shows inability to manipulate voice for effect.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the author uses sentence length and structure to contrast Pappachi's public elegance with his private cruelty in the paragraph describing his skyblue Plymouth.",
+     "a": "The paragraph uses long, complex sentences with multiple clauses to describe the car and Pappachi's outward appearance (\"He became a familiar sight in Ayemenem, coasting importantly down the narrow road in his wide car, looking outwardly elegant but sweating freely inside his woollen suits\"), creating a sense of grandeur. In contrast, the next sentence is short and blunt: \"He wouldn't allow Mammachi or anyone else in the family to use it, or even to sit in it.\" This abrupt shift mirrors the contrast between show and reality. A wrong answer that only notes sentence length without linking to characterization misses the analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the author's use of the phrase \"pernicious ghost\" as a metaphor for the moth's lingering impact on Pappachi's psyche. Support your evaluation with textual evidence.",
+     "a": "The metaphor is highly effective because \"pernicious\" suggests gradual, subtle harm, and \"ghost\" implies an inescapable past. The text shows the moth haunting \"every house that he ever lived in\" and tormenting generations, which matches the metaphor's connotations of lingering, hereditary damage. A wrong answer that calls it \"just a description\" fails to evaluate the metaphor's thematic resonance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence that imitates the author's style of embedding a dependent clause at the beginning to convey a character's internal state, using a different character from the text (e.g., Mammachi or Chacko).",
+     "a": "Example: \"Although she had built a thriving business from scratch, Mammachi still flinched at the sound of his footsteps.\" This mimics the structure of \"Though Mammachi had conical corneas... Pappachi would not help...\" by fronting a concessive clause to highlight resilience vs. vulnerability. A poor answer would produce a simple sentence without subordination, showing lack of syntactic imitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

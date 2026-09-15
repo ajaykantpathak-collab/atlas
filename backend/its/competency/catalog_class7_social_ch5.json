@@ -1,0 +1,599 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "The Rise of Empires",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees105.txt",
+ "concepts": [
+  {
+   "id": "c7ss.5.1",
+   "title": "Mauryan Empire and Chandragupta Maurya",
+   "section": "Foundations of the Mauryan Empire",
+   "definition": "The Mauryan Empire, founded by Chandragupta Maurya around 321 BCE, was the first major empire to unify most of the Indian subcontinent. Chandragupta overthrew the Nanda dynasty with the guidance of his mentor Chanakya (Kautilya) and established his capital at Pataliputra.",
+   "formula": "",
+   "key_idea": "Chandragupta Maurya established the first pan-Indian empire by defeating the Nandas, guided by Chanakya, and laid the administrative foundation that his successors would expand.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who founded the Mauryan Empire and when?",
+    "Explain the role of Chanakya in the rise of Chandragupta Maurya.",
+    "How did Chandragupta Maurya establish control over the Indian subcontinent?",
+    "What was the significance of Pataliputra as the Mauryan capital?",
+    "Describe the circumstances that led to the overthrow of the Nanda dynasty."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founder and the dynasty replaced",
+     "explain": "Chandragupta Maurya founded the empire around 321 BCE by overthrowing the Nanda dynasty of Magadha."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the role of Chanakya",
+     "explain": "Chanakya, also known as Kautilya, was Chandragupta's mentor and strategist who helped him plan and execute the conquest."
+    },
+    {
+     "step": 3,
+     "action": "State the extent and capital of the empire",
+     "explain": "The empire stretched across much of the subcontinent with its capital at Pataliputra, providing a unified political structure."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who founded the Mauryan Empire and in approximately which year?",
+     "solution": "Chandragupta Maurya founded the Mauryan Empire around 321 BCE after defeating the last Nanda ruler with the help of Chanakya.",
+     "answer": "Chandragupta Maurya, around 321 BCE."
+    },
+    {
+     "question": "What role did Chanakya play in the rise of the Mauryan Empire?",
+     "solution": "Chanakya was the chief advisor and mentor of Chandragupta Maurya. He strategised the overthrow of the Nanda dynasty and helped establish the administrative framework of the new empire.",
+     "answer": "Chanakya was Chandragupta's mentor and strategic advisor."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how Chandragupta Maurya unified most of the Indian subcontinent.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Why was Pataliputra chosen as the capital of the Mauryan Empire?",
+     "type": "analytical"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.2",
+   "title": "Ashoka and his Policy of Dhamma",
+   "section": "Ashoka's Reign and Dhamma",
+   "definition": "Ashoka, the grandson of Chandragupta Maurya, ruled the Mauryan Empire at its peak. After the Kalinga war, he embraced Buddhism and propagated the policy of Dhamma, a moral code emphasising non-violence, tolerance, respect for elders, and welfare of all beings.",
+   "formula": "",
+   "key_idea": "The Kalinga war was a turning point after which Ashoka renounced violence and adopted Dhamma, promoting moral governance and social harmony.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Dhamma and why did Ashoka propagate it?",
+    "How did the Kalinga war change Ashoka's policies?",
+    "List the main principles of Ashoka's Dhamma.",
+    "How did Ashoka spread the message of Dhamma across his empire?",
+    "Why is Ashoka considered a unique ruler in Indian history?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the turning point",
+     "explain": "The Kalinga war caused great suffering, leading Ashoka to renounce violence and embrace Buddhism."
+    },
+    {
+     "step": 2,
+     "action": "Define the principles of Dhamma",
+     "explain": "Dhamma promoted non-violence (ahimsa), tolerance, respect for parents and teachers, kindness to servants, and truthfulness."
+    },
+    {
+     "step": 3,
+     "action": "Explain the method of propagation",
+     "explain": "Ashoka inscribed Dhamma on rock and pillar edicts and appointed officials called Dhamma Mahamattas to spread his teachings."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Kalinga war and why was it significant for Ashoka?",
+     "solution": "The Kalinga war was fought around 261 BCE in present-day Odisha. The large-scale death and suffering deeply affected Ashoka, leading him to renounce war and adopt Buddhism and the policy of Dhamma.",
+     "answer": "The Kalinga war led Ashoka to embrace non-violence and Dhamma."
+    },
+    {
+     "question": "Mention two key principles of Ashoka's Dhamma.",
+     "solution": "Two key principles are non-violence (ahimsa) towards all living beings and tolerance and respect for all religions and sects.",
+     "answer": "Non-violence and religious tolerance."
+    },
+    {
+     "question": "Who were the Dhamma Mahamattas?",
+     "solution": "Dhamma Mahamattas were officials appointed by Ashoka to travel across the empire and spread the principles of Dhamma among the people.",
+     "answer": "Officials appointed by Ashoka to propagate Dhamma."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Kalinga war transformed Ashoka's approach to governance.",
+     "type": "analytical"
+    },
+    {
+     "question": "List any four principles of Ashoka's Dhamma and explain their social relevance.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.3",
+   "title": "Mauryan Administration",
+   "section": "Administration of the Empire",
+   "definition": "The Mauryan Empire had a highly centralised administration described in Kautilya's Arthashastra. The empire was divided into provinces, each governed by royal princes or trusted officials, with a hierarchy of ministers, spies, and revenue collectors supporting the emperor at Pataliputra.",
+   "formula": "",
+   "key_idea": "A centralised bureaucratic structure with provinces, district officials, and a spy system enabled the Mauryas to govern a vast territory efficiently.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the administrative structure of the Mauryan Empire.",
+    "What role did the Arthashastra play in Mauryan governance?",
+    "How were the provinces of the Mauryan Empire administered?",
+    "What was the function of spies in the Mauryan administration?",
+    "How was revenue collected in the Mauryan Empire?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central authority",
+     "explain": "The emperor at Pataliputra held supreme power, advised by a council of ministers called the Mantriparishad."
+    },
+    {
+     "step": 2,
+     "action": "Describe the provincial structure",
+     "explain": "The empire was divided into provinces such as Tosali, Ujjain, Suvarnagiri, and Taxila, each headed by a royal prince (Kumara)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the supporting bureaucracy",
+     "explain": "District officials, revenue collectors, and a network of spies (gudhapurushas) reported on administration and maintained control."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Arthashastra and why is it important for understanding Mauryan administration?",
+     "solution": "The Arthashastra, written by Kautilya (Chanakya), is a treatise on statecraft, economic policy, and military strategy. It provides detailed information about the administrative system of the Mauryan Empire.",
+     "answer": "A treatise by Kautilya detailing Mauryan statecraft and administration."
+    },
+    {
+     "question": "Name two provinces of the Mauryan Empire and who governed them.",
+     "solution": "Two provinces were Taxila in the northwest and Ujjain in the west. They were generally governed by royal princes known as Kumaras.",
+     "answer": "Taxila and Ujjain, governed by royal princes (Kumaras)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of the spy system in Mauryan administration.",
+     "type": "analytical"
+    },
+    {
+     "question": "How did the provincial administration help the Mauryas control a large empire?",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.4",
+   "title": "Economy under the Mauryas",
+   "section": "Economic Life in the Mauryan Period",
+   "definition": "The Mauryan economy was based on agriculture, trade, and crafts. The state owned large farms and mines, collected taxes from farmers and traders, and maintained roads and irrigation. Pataliputra was a major centre for trade and commerce.",
+   "formula": "",
+   "key_idea": "State-controlled agriculture, taxation, and trade formed the economic backbone of the Mauryan Empire, with the treasury funding administration and the military.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main sources of revenue in the Mauryan Empire?",
+    "How did the Mauryan state manage agriculture?",
+    "Describe trade and commerce under the Mauryas.",
+    "What role did taxes play in the Mauryan economy?",
+    "How did the Mauryas use natural resources like forests and mines?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the economic sectors",
+     "explain": "Agriculture, trade, crafts, and mining were the main sectors of the Mauryan economy."
+    },
+    {
+     "step": 2,
+     "action": "Calculate state revenue from taxes",
+     "explain": "The state collected a share of agricultural produce, typically one-sixth to one-fourth, as land revenue.",
+     "compute": "land_revenue = produce * tax_rate  # e.g. produce * (1/6)"
+    },
+    {
+     "step": 3,
+     "action": "Account for trade and expenditure",
+     "explain": "Trade duties and taxes on crafts supplemented revenue, while expenditure went to administration, army, and public works.",
+     "compute": "total_revenue = land_revenue + trade_duties + craft_taxes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If a farmer produced 600 kg of grain and the tax rate was one-sixth, how much tax did the state collect?",
+     "solution": "Tax = produce x tax_rate = 600 x (1/6) = 100 kg. The state collected 100 kg of grain as land revenue.",
+     "answer": "100 kg of grain."
+    },
+    {
+     "question": "What were the main economic activities under the Mauryas?",
+     "solution": "The main activities were agriculture on state-owned and private lands, trade along roads and rivers, crafts like pottery and weaving, and mining of iron, copper, and precious stones.",
+     "answer": "Agriculture, trade, crafts, and mining."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Mauryan state managed its revenue and expenditure.",
+     "type": "analytical"
+    },
+    {
+     "question": "If the total produce was 1200 kg and the tax rate was one-fourth, calculate the land revenue collected.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.5",
+   "title": "Ashoka's Edicts and the Spread of Buddhism",
+   "section": "Ashoka's Inscriptions and Buddhist Missions",
+   "definition": "Ashoka inscribed his policies and teachings on rocks and pillars across the empire in the form of edicts, written in Prakrit using the Brahmi and Kharoshthi scripts. He also sent Buddhist missions, including one led by his son Mahendra and daughter Sanghamitra, to Sri Lanka and other regions to spread Buddhism.",
+   "formula": "",
+   "key_idea": "Ashoka's rock and pillar edicts are the earliest decipherable inscriptions in India and served as a tool to spread Dhamma and Buddhism across and beyond the subcontinent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Ashoka's edicts and where were they inscribed?",
+    "Which scripts were used in Ashoka's inscriptions?",
+    "How did Ashoka contribute to the spread of Buddhism?",
+    "Who were Mahendra and Sanghamitra and what was their role?",
+    "Why are Ashoka's inscriptions important for historians?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the types of edicts",
+     "explain": "Ashoka's edicts were inscribed on rocks (rock edicts) and sandstone pillars (pillar edicts) throughout the empire."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the scripts and language",
+     "explain": "Most edicts were written in Prakrit using the Brahmi script, while some in the northwest used Kharoshthi and Greek."
+    },
+    {
+     "step": 3,
+     "action": "Explain the spread of Buddhism",
+     "explain": "Ashoka sent missions to Sri Lanka, Central Asia, and Southeast Asia; his children Mahendra and Sanghamitra carried Buddhism to Sri Lanka."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which language and scripts were most of Ashoka's edicts written?",
+     "solution": "Most edicts were written in Prakrit language using the Brahmi script. In the northwestern parts, Kharoshthi and Greek scripts were also used.",
+     "answer": "Prakrit in Brahmi script (also Kharoshthi and Greek in the northwest)."
+    },
+    {
+     "question": "How did Ashoka spread Buddhism beyond India?",
+     "solution": "Ashoka sent Buddhist missions to various countries. His son Mahendra and daughter Sanghamitra went to Sri Lanka to propagate Buddhism, and missions were also sent to Central Asia and Southeast Asia.",
+     "answer": "Through missions, including those led by Mahendra and Sanghamitra to Sri Lanka."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are Ashoka's edicts considered a valuable source for historians?",
+     "type": "analytical"
+    },
+    {
+     "question": "Describe the role of Mahendra and Sanghamitra in spreading Buddhism.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.6",
+   "title": "Decline of the Mauryan Empire",
+   "section": "Fall of the Mauryas",
+   "definition": "After Ashoka's death around 232 BCE, the Mauryan Empire gradually weakened due to weak successors, financial strain, administrative inefficiency, and pressure from external invasions. The last Mauryan ruler, Brihadratha, was assassinated by his general Pushyamitra Shunga around 185 BCE, ending the empire.",
+   "formula": "",
+   "key_idea": "The decline of the Mauryan Empire resulted from a combination of weak successors, economic difficulties, decentralisation, and the rise of regional powers after Ashoka's death.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main causes of the decline of the Mauryan Empire?",
+    "Who was the last Mauryan ruler and what happened to him?",
+    "How did weak successors contribute to the fall of the Mauryas?",
+    "What role did economic factors play in the decline?",
+    "Who founded the Shunga dynasty and how?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the date of Ashoka's death",
+     "explain": "Ashoka died around 232 BCE, after which the empire began to fragment under weaker successors.",
+     "compute": "ashoka_death = 232  # bce_v"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the duration of decline",
+     "explain": "The empire lasted roughly 47 years after Ashoka before its final collapse under Brihadratha.",
+     "compute": "decline_duration = 232 - 185  # = 47 years"
+    },
+    {
+     "step": 3,
+     "action": "Identify the end of the empire",
+     "explain": "In 185 BCE, Brihadratha was assassinated by Pushyamitra Shunga, who founded the Shunga dynasty.",
+     "compute": "empire_end = 185  # bce_v, brihadratha_v killed by pushyamitra_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Around when did Ashoka die and how long after that did the Mauryan Empire end?",
+     "solution": "Ashoka died around 232 BCE and the empire ended around 185 BCE. The duration of decline was 232 - 185 = 47 years.",
+     "answer": "Ashoka died around 232 BCE; the empire ended about 47 years later in 185 BCE."
+    },
+    {
+     "question": "Who was the last Mauryan ruler and how did the empire end?",
+     "solution": "The last Mauryan ruler was Brihadratha. He was assassinated by his general Pushyamitra Shunga around 185 BCE, who then founded the Shunga dynasty.",
+     "answer": "Brihadratha, killed by Pushyamitra Shunga in 185 BCE."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the various factors that led to the decline of the Mauryan Empire.",
+     "type": "analytical"
+    },
+    {
+     "question": "Calculate how many years the Mauryan Empire lasted from its founding (321 BCE) to its end (185 BCE).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.7",
+   "title": "Foreign Invasions: Indo-Greeks and Kushanas",
+   "section": "Post-Mauryan Foreign Invasions",
+   "definition": "After the decline of the Mauryas, northwestern India was invaded by several foreign groups. The Indo-Greeks, led by rulers like Menander, were the first. They were followed by the Shakas, Parthians, and Kushanas. The Kushanas, under Kanishka, established a vast empire spanning Central Asia and northern India.",
+   "formula": "",
+   "key_idea": "Successive foreign invasions through the northwest brought new cultural influences, trade connections, and political structures, with the Kushanas becoming the most powerful of these groups.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who were the Indo-Greeks and why were they significant?",
+    "Name the foreign groups that invaded northwestern India after the Mauryas.",
+    "Who was Menander and what was his contribution?",
+    "How did the Kushanas establish their empire in India?",
+    "What was the impact of foreign invasions on Indian culture?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the invading groups in order",
+     "explain": "The Indo-Greeks, Shakas, Parthians, and Kushanas invaded northwestern India in succession after the Mauryan decline."
+    },
+    {
+     "step": 2,
+     "action": "Identify key rulers",
+     "explain": "Menander (Milinda) was a famous Indo-Greek ruler; Kanishka was the greatest Kushana ruler."
+    },
+    {
+     "step": 3,
+     "action": "State the cultural impact",
+     "explain": "These invasions introduced Greek, Persian, and Central Asian elements into Indian art, coinage, and trade practices."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who were the Indo-Greeks and name their most famous ruler.",
+     "solution": "The Indo-Greeks were rulers of Greek origin who controlled northwestern India after the Mauryan decline. Their most famous ruler was Menander, also known as Milinda, who is said to have embraced Buddhism.",
+     "answer": "The Indo-Greeks; most famous ruler was Menander (Milinda)."
+    },
+    {
+     "question": "Name the foreign groups that invaded India after the Mauryas in chronological order.",
+     "solution": "The groups were the Indo-Greeks, followed by the Shakas, then the Parthians, and finally the Kushanas.",
+     "answer": "Indo-Greeks, Shakas, Parthians, and Kushanas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the cultural impact of foreign invasions on northwestern India.",
+     "type": "analytical"
+    },
+    {
+     "question": "Describe how the Kushanas established their empire and its extent.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.8",
+   "title": "The Satavahanas and their Contribution",
+   "section": "Regional Powers: The Satavahanas",
+   "definition": "The Satavahanas, also known as the Andhras, ruled parts of central and southern India from around the 1st century BCE to the 3rd century CE. Their most famous ruler was Gautamiputra Satakarni. They promoted trade, issued lead and potin coins, and patronised both Buddhism and Brahmanism.",
+   "formula": "",
+   "key_idea": "The Satavahanas were a major regional power after the Mauryas, known for their trade networks, unique coinage, and religious tolerance, bridging northern and southern India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who were the Satavahanas and where did they rule?",
+    "Who was Gautamiputra Satakarni and why is he important?",
+    "What type of coins did the Satavahanas issue?",
+    "How did the Satavahanas contribute to trade?",
+    "Describe the religious policy of the Satavahanas."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the dynasty and region",
+     "explain": "The Satavahanas, also called Andhras, ruled central and southern India from around the 1st century BCE to the 3rd century CE."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the key ruler",
+     "explain": "Gautamiputra Satakarni was their greatest ruler, who expanded the kingdom and defeated the Shakas."
+    },
+    {
+     "step": 3,
+     "action": "State their contributions",
+     "explain": "They issued lead and potin coins, promoted trade and crafts, and patronised both Buddhism and Brahmanical traditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who was the most famous Satavahana ruler and what were his achievements?",
+     "solution": "Gautamiputra Satakarni was the greatest Satavahana ruler. He expanded the kingdom, defeated the Shakas, and is known from inscriptions that record his matronymic (mother's name).",
+     "answer": "Gautamiputra Satakarni; expanded the kingdom and defeated the Shakas."
+    },
+    {
+     "question": "What types of coins did the Satavahanas issue and why were they significant?",
+     "solution": "The Satavahanas issued coins of lead, copper, and potin (an alloy). These coins featured symbols and portraits and facilitated trade across their territories.",
+     "answer": "Lead, copper, and potin coins used for trade."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the religious policy of the Satavahana rulers.",
+     "type": "descriptive"
+    },
+    {
+     "question": "How did the Satavahanas contribute to trade and the economy?",
+     "type": "analytical"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c7ss.5.4.1",
+   "source_ref": "generated practice sample aligned to gees105.txt",
+   "concept": "c7ss.5.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total revenue step by step for a case with {produce}, {tax_rate}, {e}, {g}, {trade_duties}, {craft_taxes}.",
+   "extracted_variables": {
+    "produce": "produce (given value)",
+    "tax_rate": "tax rate (given value)",
+    "e": "e (given value)",
+    "g": "g (given value)",
+    "trade_duties": "trade duties (given value)",
+    "craft_taxes": "craft taxes (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute land revenue",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "land_revenue = produce * tax_rate  # e.g. produce * (1/6)"
+    },
+    {
+     "step": 2,
+     "action": "compute total revenue",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_revenue = land_revenue + trade_duties + craft_taxes"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.5.4.2",
+   "source_ref": "generated practice sample aligned to gees105.txt",
+   "concept": "c7ss.5.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total revenue step by step for a case with {produce}, {tax_rate}, {e}, {g}, {trade_duties}, {craft_taxes}.",
+   "extracted_variables": {
+    "produce": "produce (given value)",
+    "tax_rate": "tax rate (given value)",
+    "e": "e (given value)",
+    "g": "g (given value)",
+    "trade_duties": "trade duties (given value)",
+    "craft_taxes": "craft taxes (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute land revenue",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "land_revenue = produce * tax_rate  # e.g. produce * (1/6)"
+    },
+    {
+     "step": 2,
+     "action": "compute total revenue",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_revenue = land_revenue + trade_duties + craft_taxes"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.5.6.1",
+   "source_ref": "generated practice sample aligned to gees105.txt",
+   "concept": "c7ss.5.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the empire end step by step for a case with {bce_v}, {years}, {brihadratha_v}, {killed}, {by}, {pushyamitra_v}.",
+   "extracted_variables": {
+    "bce_v": "bce v (given value)",
+    "years": "years (given value)",
+    "brihadratha_v": "brihadratha v (given value)",
+    "killed": "killed (given value)",
+    "by": "by (given value)",
+    "pushyamitra_v": "pushyamitra v (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute ashoka death",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ashoka_death = 232  # bce_v"
+    },
+    {
+     "step": 2,
+     "action": "compute decline duration",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "decline_duration = 232 - 185  # = 47 years"
+    },
+    {
+     "step": 3,
+     "action": "compute empire end",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "empire_end = 185  # bce_v, brihadratha_v killed by pushyamitra_v"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.5.6.2",
+   "source_ref": "generated practice sample aligned to gees105.txt",
+   "concept": "c7ss.5.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the empire end step by step for a case with {bce_v}, {years}, {brihadratha_v}, {killed}, {by}, {pushyamitra_v}.",
+   "extracted_variables": {
+    "bce_v": "bce v (given value)",
+    "years": "years (given value)",
+    "brihadratha_v": "brihadratha v (given value)",
+    "killed": "killed (given value)",
+    "by": "by (given value)",
+    "pushyamitra_v": "pushyamitra v (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute ashoka death",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ashoka_death = 232  # bce_v"
+    },
+    {
+     "step": 2,
+     "action": "compute decline duration",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "decline_duration = 232 - 185  # = 47 years"
+    },
+    {
+     "step": 3,
+     "action": "compute empire end",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "empire_end = 185  # bce_v, brihadratha_v killed by pushyamitra_v"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

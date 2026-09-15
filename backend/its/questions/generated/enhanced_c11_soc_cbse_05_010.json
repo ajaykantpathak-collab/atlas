@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_010",
+   "title": "c11_soc_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the primary methodological reason village studies became central to Indian sociology in the 1950s, distinct from the study of tribal communities by anthropologists?",
+     "a": "Villages were \"bounded communities\" small enough for a single researcher to study holistically using participant observation, yet they represented mainstream Indian society (unlike \"primitive\" tribes), making them methodologically suitable and nationally relevant for a newly independent India. A wrong answer (e.g., \"villages were easier to access than cities\") reveals confusion between practical convenience and the methodological criterion of a \"bounded community\" that allows comprehensive coverage by one researcher.",
+     "self_check": true
+    },
+    {
+     "q": "M.N. Srinivas's *The Remembered Village* and S.C. Dube's *Indian Village* both studied villages in the 1950s, but their research designs differed fundamentally. Explain the key difference in their approach to fieldwork.",
+     "a": "Srinivas used the classic single-researcher anthropological style (living alone in Rampura for a year), while Dube led a multi-disciplinary team (agriculture, economics, veterinary, medicine) at Shamirpet aimed simultaneously at study and development. A wrong answer (e.g., \"Srinivas used surveys, Dube used observation\") reveals failure to distinguish between *styles* of fieldwork organization — solo ethnography vs. team-based action research — rather than just methods used.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies gender roles in a Haryana village. She conducts 50 structured interviews with women, observes 10 households for two weeks each, and analyzes census data on sex ratios. She finds interview responses contradict observation (women claim autonomy but are observed seeking permission for minor decisions). How should she use triangulation to resolve this?",
+     "a": "She should treat the contradiction as data: use interviews to understand *ideologies* and *self-presentation*, observation to capture *practices*, and census to contextualize structural constraints (e.g., skewed sex ratios intensifying patriarchal control). Triangulation here means explaining the *gap* between accounts and actions, not discarding one method. A wrong answer (e.g., \"trust observation more because it's objective\") reveals the misconception that triangulation is about picking the \"most reliable\" method rather than analyzing discrepancies as meaningful social phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Cornell Village Study Project (1950s) with the Shamirpet study. What does their contrast reveal about the politics of knowledge production in village studies?",
+     "a": "Cornell was a US-funded academic project training American scholars on Indian villages (knowledge *extraction*), while Shamirpet was an Indian state-university collaboration aimed at rural *development* (knowledge *application*). The contrast reveals how village studies served dual agendas: building Western academic expertise vs. serving postcolonial nation-building. A wrong answer (e.g., \"Cornell studied more villages\") misses the structural difference in *institutional purpose* and *power relations* between foreign-led academic research and indigenous development-oriented research.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Triangulation eliminates bias in village studies because different methods cancel out each other's errors.\"",
+     "a": "Triangulation does not *eliminate* bias; it *exposes* biases by making them visible through methodological friction. Different methods have *different* biases (e.g., surveys impose researcher categories; observation reflects researcher's interpretive lens). These biases don't \"cancel out\" — they must be analytically interrogated. The claim wrongly assumes errors are random and symmetric; in reality, power dynamics (researcher vs. researched) shape all methods. A student agreeing with the claim reveals a naive \"technocratic\" view of triangulation as error-correction rather than a reflexive analytic strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a triangulated research plan to study \"changing marriage practices\" in a contemporary Punjab village. Specify three methods, the specific question each addresses, and how you will integrate findings.",
+     "a": "A strong answer specifies: (1) Participant observation (6 months) — *How are marriage negotiations enacted in daily interaction?* (2) Life-history interviews with 3 generations — *How do individuals narrate continuity/change in marriage norms?* (3) Survey of 200 households on marriage type, age, dowry, consanguinity — *What are the population-level patterns?* Integration: Use survey to identify statistical trends (e.g., rise in love marriages), interviews to explain *meanings* behind trends, observation to verify *practices* (e.g., how \"love marriages\" are actually arranged). A poor answer lists methods without linking each to a *distinct* research question or explaining *how* integration works beyond \"comparing results.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

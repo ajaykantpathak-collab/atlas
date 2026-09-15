@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_007",
+   "title": "c12_cs_cbse_01_007",
+   "questions": [
+    {
+     "q": "Write the full expanded form of the compressed IPv6 address `2001:db8::1` and state how many hextets it contains.",
+     "a": "Full expansion: `2001:0db8:0000:0000:0000:0000:0000:0001` (8 hextets). A wrong answer like `2001:db8:0:0:0:0:0:1` (missing leading zeros) reveals the student doesn't know each hextet must be exactly 4 hex digits. Writing 7 hextets shows misunderstanding of `::` representing *one or more* all-zero hextets to fill 8 total.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why IPv6 eliminates the header checksum field present in IPv4, and what mechanism replaces its error-detection function.",
+     "a": "IPv6 removes the header checksum because link-layer (e.g., Ethernet CRC) and transport-layer (TCP/UDP checksum) already provide error detection; recalculating at every router hop wastes CPU cycles. A student who says \"IPv6 doesn't need error detection\" misunderstands layered architecture — error detection moves to layers where it's more efficient, not eliminated.",
+     "self_check": true
+    },
+    {
+     "q": "A router receives an IPv6 packet with a `Fragment` extension header. The packet's payload is 1500 bytes and the MTU of the outgoing link is 1280 bytes. How many fragments will be created, and what is the payload size of each fragment (excluding extension headers)? Assume no other extension headers.",
+     "a": "Only the *source* fragments in IPv6 — routers do NOT fragment. The packet will be dropped and an ICMPv6 Packet Too Big message sent back. A student who calculates fragments (e.g., 2 fragments of 1280 and 220 bytes) is applying IPv4 logic where routers fragment. This reveals confusion about IPv6's \"fragmentation only at source\" design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the address assignment process for a new device joining a network in IPv4 (with DHCP) vs IPv6 (with SLAAC). Identify one scenario where SLAAC would fail but DHCPv6 would succeed.",
+     "a": "IPv4: Device broadcasts DHCP Discover → server replies with lease. IPv6 SLAAC: Device sends Router Solicitation → router replies with Prefix Information in Router Advertisement → device generates its own 64-bit Interface ID (EUI-64 or random) and combines with prefix. SLAAC fails when the network requires stateful configuration (e.g., specific DNS servers, address tracking) — DHCPv6 provides this. A student who says \"SLAAC always works\" misses that SLAAC only gives address/prefix, not other parameters.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"NAT is unnecessary in IPv6 because of the large address space, so IPv6 restores true end-to-end connectivity.\" Is this entirely correct? Justify with one exception.",
+     "a": "Mostly correct but not absolute. IPv6 *unique local addresses* (ULA, fc00::/7) combined with NPTv6 (Network Prefix Translation) are used in enterprise networks for multi-homing and privacy, which is a form of translation. Also, IPv4-IPv6 translation (NAT64/DNS64) is essential for transition. A student who says \"NAT is completely gone\" ignores transition mechanisms and enterprise practices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compressed IPv6 address for a link-local address on interface `eth0` of a Linux host, given the interface's MAC address is `00:1A:2B:3C:4D:5E`. Show the steps to derive the Interface Identifier using Modified EUI-64.",
+     "a": "Steps: 1) Split MAC: `00:1A:2B` | `3C:4D:5E`. 2) Insert `ff:fe` in middle: `00:1A:2B:FF:FE:3C:4D:5E`. 3) Invert 7th bit (Universal/Local) of first byte: `00` → `02` (binary `00000000` → `00000010`). 4) Resulting IID: `021a:2bff:fe3c:4d5e`. 5) Link-local prefix `fe80::/64` → full: `fe80::21a:2bff:fe3c:4d5e`. Compressed: `fe80::21a:2bff:fe3c:4d5e`. A student who forgets bit inversion or `ff:fe` insertion shows mechanical application without understanding EUI-64 construction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

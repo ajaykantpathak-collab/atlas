@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_009",
+   "title": "c12_math_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the definition of a skew-symmetric matrix and write the condition on its diagonal elements.",
+     "a": "A square matrix \\( A \\) is skew-symmetric if \\( A' = -A \\), i.e., \\( a_{ij} = -a_{ji} \\) for all \\( i, j \\). Putting \\( i = j \\) gives \\( a_{ii} = -a_{ii} \\Rightarrow 2a_{ii} = 0 \\Rightarrow a_{ii} = 0 \\). So all diagonal elements must be zero.  \n**Wrong answer reveals:** Student confuses skew-symmetric with symmetric, or forgets that \\( i=j \\) forces diagonals to zero. They might write \\( a_{ii} = -a_{ii} \\) but not conclude \\( a_{ii}=0 \\).",
+     "self_check": true
+    },
+    {
+     "q": "If \\( A = \\begin{bmatrix} 0 & 2 & -3 \\\\ -2 & 0 & 4 \\\\ 3 & -4 & 0 \\end{bmatrix} \\), is \\( A \\) symmetric, skew-symmetric, or neither? Justify by showing the transpose comparison for at least two off-diagonal pairs.",
+     "a": "\\( A' = \\begin{bmatrix} 0 & -2 & 3 \\\\ 2 & 0 & -4 \\\\ -3 & 4 & 0 \\end{bmatrix} \\). Compare: \\( a_{12}=2, a_{21}=-2 \\Rightarrow a_{12} = -a_{21} \\); \\( a_{13}=-3, a_{31}=3 \\Rightarrow a_{13} = -a_{31} \\). Diagonals are 0. So \\( A' = -A \\) → skew-symmetric.  \n**Wrong answer reveals:** Student only checks diagonal zeros and assumes skew-symmetric, or computes transpose incorrectly (sign errors). They might say \"diagonals are zero so it's skew-symmetric\" without verifying off-diagonals.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\( B = \\begin{bmatrix} 4 & 1 & -2 \\\\ 3 & 5 & 0 \\\\ -1 & 2 & 6 \\end{bmatrix} \\), find the symmetric part \\( P = \\frac{1}{2}(B+B') \\) and skew-symmetric part \\( Q = \\frac{1}{2}(B-B') \\). Verify \\( P+Q = B \\).",
+     "a": "\\( B' = \\begin{bmatrix} 4 & 3 & -1 \\\\ 1 & 5 & 2 \\\\ -2 & 0 & 6 \\end{bmatrix} \\)  \n\\( B+B' = \\begin{bmatrix} 8 & 4 & -3 \\\\ 4 & 10 & 2 \\\\ -3 & 2 & 12 \\end{bmatrix} \\Rightarrow P = \\begin{bmatrix} 4 & 2 & -1.5 \\\\ 2 & 5 & 1 \\\\ -1.5 & 1 & 6 \\end{bmatrix} \\)  \n\\( B-B' = \\begin{bmatrix} 0 & -2 & -1 \\\\ 2 & 0 & -2 \\\\ 1 & 2 & 0 \\end{bmatrix} \\Rightarrow Q = \\begin{bmatrix} 0 & -1 & -0.5 \\\\ 1 & 0 & -1 \\\\ 0.5 & 1 & 0 \\end{bmatrix} \\)  \n\\( P+Q = \\begin{bmatrix} 4 & 1 & -2 \\\\ 3 & 5 & 0 \\\\ -1 & 2 & 6 \\end{bmatrix} = B \\). ✓  \n**Wrong answer reveals:** Arithmetic errors in transpose, or forgetting the factor \\( \\frac{1}{2} \\). Student might add instead of subtract for \\( Q \\), or mis-copy signs.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that for any square matrix \\( A \\), the matrix \\( A + A' \\) is symmetric and \\( A - A' \\) is skew-symmetric. Use transpose properties \\( (X+Y)' = X'+Y' \\) and \\( (X')' = X \\).",
+     "a": "Let \\( S = A + A' \\). Then \\( S' = (A+A')' = A' + (A')' = A' + A = A + A' = S \\) → symmetric.  \nLet \\( K = A - A' \\). Then \\( K' = (A-A')' = A' - (A')' = A' - A = -(A - A') = -K \\) → skew-symmetric.  \n**Wrong answer reveals:** Student writes \\( (A-A')' = A' - A \\) but doesn't factor the negative sign to get \\( -(A-A') \\), or incorrectly states \\( (A')' = A' \\). They may also confuse the order of steps.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If \\( A \\) and \\( B \\) are symmetric matrices of the same order, then \\( AB \\) is always symmetric.\" Evaluate this claim. If false, give a counterexample with \\( 2 \\times 2 \\) matrices.",
+     "a": "Claim is **false**. \\( (AB)' = B'A' = BA \\). For \\( AB \\) to be symmetric, need \\( AB = (AB)' = BA \\), i.e., \\( A \\) and \\( B \\) must commute.  \nCounterexample: \\( A = \\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}, B = \\begin{bmatrix} 4 & 5 \\\\ 5 & 6 \\end{bmatrix} \\) (both symmetric).  \n\\( AB = \\begin{bmatrix} 14 & 17 \\\\ 23 & 28 \\end{bmatrix} \\), \\( BA = \\begin{bmatrix} 14 & 23 \\\\ 17 & 28 \\end{bmatrix} \\neq AB \\). So \\( AB \\) is not symmetric.  \n**Wrong answer reveals:** Student assumes symmetry is preserved under multiplication without checking commutativity. They might test only diagonal matrices (which always commute) and wrongly generalize.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \\( 3 \\times 3 \\) matrix that is neither symmetric nor skew-symmetric, then decompose it into symmetric and skew-symmetric parts. Explain why the decomposition is unique.",
+     "a": "Example: \\( M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix} \\).  \n\\( M' = \\begin{bmatrix} 1 & 4 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{bmatrix} \\)  \n\\( P = \\frac{1}{2}(M+M') = \\begin{bmatrix} 1 & 3 & 5 \\\\ 3 & 5 & 7 \\\\ 5 & 7 & 9 \\end{bmatrix} \\) (symmetric)  \n\\( Q = \\frac{1}{2}(M-M') = \\begin{bmatrix} 0 & -1 & -2 \\\\ 1 & 0 & -1 \\\\ 2 & 1 & 0 \\end{bmatrix} \\) (skew-symmetric)  \n\\( P+Q = M \\). Uniqueness: If \\( M = S_1 + K_1 = S_2 + K_2 \\) with \\( S_i \\) symmetric, \\( K_i \\) skew, then \\( S_1 - S_2 = K_2 - K_1 \\). LHS symmetric, RHS skew-symmetric → both must be zero matrix → \\( S_1=S_2, K_1=K_2 \\).  \n**Poor answer reveals:** Student picks a matrix that is accidentally symmetric/skew-symmetric, or cannot explain uniqueness (just states \"it's unique\" without proof).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

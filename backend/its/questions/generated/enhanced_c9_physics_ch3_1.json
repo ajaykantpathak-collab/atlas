@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_1",
+   "title": "c9_physics_ch3_1",
+   "questions": [
+    {
+     "q": "State Newton's First Law of Motion.",
+     "a": "A body continues in its state of rest or uniform motion in a straight line unless acted upon by an external unbalanced force. This means: (1) a body at rest stays at rest unless a net force acts on it, and (2) a body in motion stays in motion at constant velocity (constant speed in a straight line) unless a net force acts on it. A wrong answer (e.g., \"a body at rest stays at rest\") states only half the law — it must include both rest and uniform motion.",
+     "self_check": true
+    },
+    {
+     "q": "Define inertia and explain the difference between inertia of rest and inertia of motion.",
+     "a": "Inertia is the property of a body that resists changes to its state of motion, measured by mass. Inertia of rest is the resistance to starting motion from rest — a body at rest tends to stay at rest. Inertia of motion is the resistance to stopping or changing motion — a body in motion tends to stay in motion at constant velocity. Example of inertia of rest: a book on a table does not start moving on its own. Example of inertia of motion: a passenger in a braking car continues moving forward. A wrong answer (e.g., \"inertia is when things keep moving\") covers only inertia of motion, missing inertia of rest.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a passenger in a suddenly braking car lurch forward? Explain using Newton's First Law.",
+     "a": "The passenger and car are moving together. When the car brakes, the car decelerates (a force acts on the car). But no force acts directly on the passenger (ignoring the seatbelt), so by Newton's First Law, the passenger continues in motion at the original velocity. The car stops, but the passenger keeps moving forward — this is inertia of motion. The seatbelt provides the force to decelerate the passenger with the car. A wrong answer (e.g., \"the passenger is pushed forward\") implies a force pushes the passenger — there is no forward force; the passenger simply continues moving while the car stops.",
+     "self_check": true
+    },
+    {
+     "q": "A spacecraft in deep space (far from any gravitational field) is moving at 10,000 m/s. Will it keep moving? Will it speed up or slow down?",
+     "a": "By Newton's First Law, the spacecraft will keep moving at 10,000 m/s in a straight line — it will not speed up, slow down, or change direction, because there is no net external force acting on it (no friction, no gravity in deep space). This is inertia of motion: a body in motion stays in motion at constant velocity. A wrong answer (e.g., \"it will slow down and stop\") assumes friction, which does not exist in deep space — without a force, the velocity does not change.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it harder to push a heavy table than a light chair? Relate this to inertia and mass.",
+     "a": "The heavy table has more mass, and mass measures inertia. Greater inertia means greater resistance to changes in motion. To start the table moving from rest (overcome inertia of rest), a larger force is needed than for the light chair. Mass is the quantitative measure of inertia — more mass means more inertia, requiring more force to produce the same change in motion. A wrong answer (e.g., \"the table is heavier, so gravity pulls it more\") confuses weight (gravitational force) with inertia (resistance to change in motion) — inertia depends on mass, not weight.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A force is needed to keep an object moving.\" Evaluate this statement using Newton's First Law and explain why moving objects seem to stop on their own in everyday life.",
+     "a": "The statement is incorrect. Newton's First Law states that a body in motion stays in motion at constant velocity unless a net force acts on it. A force is needed to change motion (accelerate, decelerate, turn), not to maintain it. In everyday life, moving objects seem to stop on their own because friction (a force) acts on them — friction decelerates them. On a frictionless surface, a moving object would keep moving forever without any force. The student confuses the everyday observation (objects stop due to friction) with the law (objects maintain motion without force). The correct statement: \"A force is needed to change an object's motion, not to keep it moving.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

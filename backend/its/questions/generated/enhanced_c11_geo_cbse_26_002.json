@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_002",
+   "title": "c11_geo_cbse_26_002",
+   "questions": [
+    {
+     "q": "A student claims that \"all remote sensing platforms are satellites because remote sensing means sensing from space.\" Is this statement correct? Explain why or why not using the definition of remote sensing platforms.",
+     "a": "No, the statement is incorrect. Remote sensing platforms include ground-based (e.g., tripod-mounted spectroradiometers, tower-based flux towers), airborne (e.g., drones, aircraft), and spaceborne (satellites) platforms. The defining feature of remote sensing is non-contact data acquisition, not the platform's altitude. A wrong answer reveals the student conflates \"remote sensing\" with \"satellite remote sensing\" and has not grasped the platform classification hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a drone (UAV) flying at 120 m altitude typically achieve higher spatial resolution (e.g., 5 cm) than a satellite like Cartosat-3 at 500 km altitude (25 cm PAN), even though Cartosat-3 has more advanced optics? Explain using the geometric relationship between altitude, instantaneous field of view (IFOV), and ground sampling distance (GSD).",
+     "a": "Spatial resolution (GSD) is directly proportional to platform altitude for a given sensor IFOV: GSD = Altitude × IFOV (in radians). A drone at 120 m with a 0.0004 rad IFOV yields 4.8 cm GSD, while Cartosat-3 at 500 km requires an extremely small IFOV (0.0000005 rad) to achieve 25 cm. The student who answers incorrectly likely thinks resolution depends only on sensor quality, not the altitude-IFOV geometry. This misconception ignores the fundamental physics of scale in remote sensing.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab wants to monitor wheat crop health every 3 days during the Rabi season (November–April) at a spatial resolution sufficient to detect individual field boundaries (approx. 10 m). Which platform type—ground, airborne, or spaceborne—is most suitable? Justify your choice by comparing revisit time, spatial resolution, and cost for a 50-hectare farm.",
+     "a": "Spaceborne (Sentinel-2: 10 m resolution, 5-day revisit, free data) is most suitable. Ground platforms cannot cover 50 ha repeatedly; airborne (drone) gives 5 cm resolution and daily revisit but costs ₹15,000–20,000 per flight, making 30+ flights per season prohibitively expensive. A wrong choice (e.g., drone) shows the student prioritises resolution over cost-frequency trade-off and fails to match platform capabilities to the user's operational constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the orbital characteristics and typical applications of a Sun-synchronous polar orbiting satellite (e.g., Resourcesat-2A at 817 km) and a geostationary satellite (e.g., INSAT-3D at 36,000 km). Why is the former preferred for land resource mapping while the latter is used for weather monitoring? Analyse using altitude, coverage, temporal resolution, and spatial resolution.",
+     "a": "Sun-synchronous (817 km): near-global coverage (81°N–81°S), 14 orbits/day, 5–24 day revisit, 5–23 m spatial resolution → consistent sun angle for land mapping. Geostationary (36,000 km): fixed view of 1/3 Earth, continuous imaging (15–30 min), 1–4 km resolution → ideal for tracking weather systems. Incorrect analysis (e.g., claiming geostationary has better resolution) reveals confusion between temporal frequency and spatial detail, and misunderstanding of how altitude governs the resolution-coverage trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For landslide early warning in the Himalayas, a network of ground-based GPS stations is more effective than satellite InSAR (Interferometric Synthetic Aperture Radar) because GPS gives real-time point measurements while satellites revisit only every 12 days.\" Consider accuracy, spatial density, cost, and operational feasibility in your evaluation.",
+     "a": "The statement is partially valid but incomplete. Ground GPS provides millimetric, real-time point data at ~₹5–10 lakh/station but sparse spatial coverage (tens of km spacing). Satellite InSAR (e.g., Sentinel-1: 12-day revisit, 5×20 m resolution) gives dense spatial deformation maps over 250 km swaths at near-zero marginal cost but with lower temporal frequency and atmospheric artefacts. For early warning, a hybrid approach is optimal: GPS for critical slopes, InSAR for regional screening. A student who fully agrees ignores InSAR's spatial advantage; one who fully disagrees ignores GPS's temporal advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-platform remote sensing strategy to map and monitor the seasonal water spread area of Chilika Lake (Odisha) over one year, integrating ground, airborne, and spaceborne data. Specify the platform, sensor, frequency, and role of each in the workflow.",
+     "a": "A good answer: (1) Spaceborne: Sentinel-2 (10 m, 5-day) for monthly water extent mapping; Landsat-8 (30 m, 16-day) for 30-year trend baseline. (2) Airborne: Drone with multispectral sensor (5 cm, weekly during monsoon) for high-res shoreline change and aquatic vegetation. (3) Ground: Spectroradiometer + water sampling (fortnightly) for calibrating satellite-derived water quality indices (turbidity, chlorophyll). Poor answers omit calibration/validation, ignore cloud cover constraints (monsoon), or fail to link each platform to a specific information need.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,818 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Factorisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh112.txt",
+ "concepts": [
+  {
+   "id": "hemh.12.1.2",
+   "title": "Irreducible Factors of Algebraic Terms",
+   "section": "12.1.2",
+   "definition": "Break an algebraic term into prime numbers and bare letters, none of which can be split further.",
+   "formula": "term = prime_factor1 * prime_factor2 * var1 * var2",
+   "key_idea": "Decompose the numerical coefficient into prime factors and write variable powers as repeated multiplication.",
+   "textbook_ref": "hemh112.txt lines 15-45",
+   "question_patterns": [
+    "find the irreducible factors of the given term",
+    "write the irreducible form of an algebraic term",
+    "express the expression as a product of prime factors",
+    "what are the prime algebraic factors of the term",
+    "Write 12x^2y in fully split form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "factorise the numerical coefficient",
+     "explain": "find prime factors of the coefficient",
+     "compute": "prime_part = coeff"
+    },
+    {
+     "step": 2,
+     "action": "expand variable components",
+     "explain": "express each variable power as product of individual variables",
+     "compute": "total_factors = prime_part * var_power"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.2.1",
+   "title": "Factorisation by Method of Common Factors",
+   "section": "12.2.1",
+   "definition": "Spot the largest shared piece in every term, pull it out front, and leave the leftovers in brackets.",
+   "formula": "a*x + a*y = a*(x + y)",
+   "key_idea": "One shared monomial goes out front; what stays behind multiplies back to the original.",
+   "textbook_ref": "hemh112.txt lines 46-100",
+   "question_patterns": [
+    "factorise using the method of common factors",
+    "find the common factors and factorise the expression",
+    "calculate the factored form by taking out common terms",
+    "what is the factorised form of the polynomial",
+    "Factor 6xy + 9x^2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find common coefficient factor",
+     "explain": "divide term coefficient by quotient ratio to determine common factor",
+     "compute": "common_coeff = coeff1 / ratio1"
+    },
+    {
+     "step": 2,
+     "action": "determine common variable power",
+     "explain": "find minimum exponent of common variable across terms",
+     "compute": "common_exp = min_exp"
+    },
+    {
+     "step": 3,
+     "action": "factor out common monomial",
+     "explain": "divide terms by common monomial factor to obtain remaining expression",
+     "compute": "rem_coeff1 = coeff1 / common_coeff"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.2.2",
+   "title": "Factorisation by Regrouping Terms",
+   "section": "12.2.2",
+   "definition": "When nothing shared spans all terms, shuffle them into pairs so each pair reveals a matching leftover bracket.",
+   "formula": "a*x + b*x + a*y + b*y = (a + b)*(x + y)",
+   "key_idea": "Group terms in pairs to pull out small common factors that expose a recurring binomial factor.",
+   "textbook_ref": "hemh112.txt lines 101-160",
+   "question_patterns": [
+    "factorise the polynomial by regrouping terms",
+    "rearrange terms and find the factors of the expression",
+    "calculate the factored form by grouping appropriate terms",
+    "how to factorise when no common factor exists across all terms",
+    "Factor 6xy - 4y + 6x - 4 by regrouping."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group first pair and factor out common term",
+     "explain": "extract common factor from the first group of terms",
+     "compute": "group1_factor = coeff1 / term1_base"
+    },
+    {
+     "step": 2,
+     "action": "group second pair and factor out common term",
+     "explain": "extract common factor from the second group of terms",
+     "compute": "group2_factor = coeff2 / term2_base"
+    },
+    {
+     "step": 3,
+     "action": "extract overall matching binomial factor",
+     "explain": "combine the outer factors into a binomial multiplier",
+     "compute": "combined_coeff = group1_factor + group2_factor"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.2.3",
+   "title": "Factorisation Using Algebraic Identities",
+   "section": "12.2.3",
+   "definition": "Converting quadratic polynomials into products of linear factors by matching their terms to standard square identities such as square of a sum, square of a difference, or difference of squares.",
+   "formula": "a**2 - b**2 = (a - b)*(a + b)",
+   "key_idea": "Compare polynomial terms with perfect square identity patterns to directly write factorised forms.",
+   "textbook_ref": "hemh112.txt lines 161-230",
+   "question_patterns": [
+    "factorise the expression using standard identities",
+    "apply identity to find factors of the algebraic expression",
+    "calculate the factored form using square identities",
+    "what are the linear factors of the given square expression",
+    "Factor 49a^2 - 36b^2 using an identity."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find square root of first perfect square term",
+     "explain": "take square root of the first term to identify variable a",
+     "compute": "a_val = sqrt(term_a_sq)"
+    },
+    {
+     "step": 2,
+     "action": "find square root of second perfect square term",
+     "explain": "take square root of the second term to identify variable b",
+     "compute": "b_val = sqrt(term_b_sq)"
+    },
+    {
+     "step": 3,
+     "action": "verify double product term for perfect trinominal",
+     "explain": "check if middle term matches double product of root terms",
+     "compute": "middle_check = 2 * a_val * b_val"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.2.4",
+   "title": "Factorisation of Quadratic Expressions of the form x^2 + px + q",
+   "section": "12.2.4",
+   "definition": "Factorising a non-perfect square quadratic trinomial by finding two numbers whose product is the constant term q and whose sum is the middle coefficient p.",
+   "formula": "x**2 + (a + b)*x + a*b = (x + a)*(x + b)",
+   "key_idea": "Split the middle linear coefficient into two numbers that multiply to give the constant term.",
+   "textbook_ref": "hemh112.txt lines 231-300",
+   "question_patterns": [
+    "factorise quadratic expression of the form x^2 + px + q",
+    "find factors by splitting the middle term",
+    "calculate the linear factors of non-perfect square trinomial",
+    "what are the factors of quadratic polynomial with constant term",
+    "Factor x^2 + 7x + 12 by splitting the middle."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify factor product equals constant term",
+     "explain": "multiply factor_a and factor_b to ensure product equals q",
+     "compute": "prod_val = factor_a * factor_b"
+    },
+    {
+     "step": 2,
+     "action": "verify factor sum equals middle coefficient",
+     "explain": "add factor_a and factor_b to ensure sum equals p",
+     "compute": "sum_val = factor_a + factor_b"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.3.1",
+   "title": "Division of a Monomial by Another Monomial",
+   "section": "12.3.1",
+   "definition": "Divide the numeric parts, then cancel the shared letters by taking away exponents.",
+   "formula": "c1*x**e1 / (c2*x**e2) = (c1/c2)*x**(e1 - e2)",
+   "key_idea": "Simplify the ratio of numerical coefficients and subtract exponents of like variable bases.",
+   "textbook_ref": "hemh112.txt lines 301-350",
+   "question_patterns": [
+    "divide monomial by another monomial",
+    "find quotient when term is divided by monomial",
+    "calculate the simplified form of monomial division",
+    "what is the result of dividing algebraic terms",
+    "Divide 24x^5 by 8x^2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide coefficients of dividend and divisor",
+     "explain": "calculate quotient of numerical coefficients",
+     "compute": "res_coeff = coeff1 / coeff2"
+    },
+    {
+     "step": 2,
+     "action": "subtract variable exponents",
+     "explain": "apply exponent rule for division with same base",
+     "compute": "res_exp = exp1 - exp2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.3.2",
+   "title": "Division of a Polynomial by a Monomial",
+   "section": "12.3.2",
+   "definition": "Dividing a multi-term polynomial by a single monomial term either by distributing the denominator across all terms or by factoring out a common monomial from the numerator.",
+   "formula": "(A + B + C) / M = (A / M) + (B / M) + (C / M)",
+   "key_idea": "Every term up top gets its own division by the single term below.",
+   "textbook_ref": "hemh112.txt lines 351-400",
+   "question_patterns": [
+    "divide polynomial by a monomial",
+    "calculate quotient when expression is divided by term",
+    "find the result of dividing multi-term expression by single term",
+    "simplify polynomial division by monomial",
+    "Divide 8x^3 + 12x^2 by 4x."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide first term coefficient by divisor coefficient",
+     "explain": "compute numerical quotient for first polynomial term",
+     "compute": "q_coeff1 = term_coeff1 / div_coeff"
+    },
+    {
+     "step": 2,
+     "action": "divide second term coefficient by divisor coefficient",
+     "explain": "compute numerical quotient for second polynomial term",
+     "compute": "q_coeff2 = term_coeff2 / div_coeff"
+    },
+    {
+     "step": 3,
+     "action": "subtract variable exponent of divisor from term 1 exponent",
+     "explain": "apply exponent rule to variable in first term",
+     "compute": "q_exp1 = term_exp1 - div_exp"
+    }
+   ]
+  },
+  {
+   "id": "hemh.12.4",
+   "title": "Division of a Polynomial by a Polynomial",
+   "section": "12.4",
+   "definition": "Dividing one polynomial by another polynomial by completely factorising both expressions and cancelling identical common polynomial factors.",
+   "formula": "(P * Q) / Q = P",
+   "key_idea": "Factor both parts fully, then cancel the matching bracket that sits above and below.",
+   "textbook_ref": "hemh112.txt lines 401-470",
+   "question_patterns": [
+    "divide polynomial expression by another polynomial",
+    "factorise numerator and divide by divisor polynomial",
+    "calculate the quotient of two polynomial expressions",
+    "what is the simplified result of polynomial division",
+    "Divide (x^2 - 9) by (x - 3)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide numerical factor of numerator by denominator factor",
+     "explain": "cancel out numerical common factors in division",
+     "compute": "q_coeff = num_coeff / den_coeff"
+    },
+    {
+     "step": 2,
+     "action": "subtract variable exponent after factor cancellation",
+     "explain": "calculate net exponent remaining after cancelling terms",
+     "compute": "q_exp = num_exp - den_exp"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh112.txt lines 65-80",
+   "concept": "hemh.12.2.1",
+   "question_type": "compute",
+   "question_pattern": "Factorise 12a^2b + 15ab^2",
+   "extracted_variables": {
+    "coeff1": 12,
+    "ratio1": 4,
+    "coeff2": 15,
+    "min_exp": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find common coefficient factor",
+     "explain": "divide term coefficient by quotient ratio to determine common factor",
+     "compute": "common_coeff = coeff1 / ratio1"
+    },
+    {
+     "step": 2,
+     "action": "determine common variable power",
+     "explain": "find minimum exponent of common variable across terms",
+     "compute": "common_exp = min_exp"
+    },
+    {
+     "step": 3,
+     "action": "factor out common monomial",
+     "explain": "divide terms by common monomial factor to obtain remaining expression",
+     "compute": "rem_coeff1 = coeff1 / common_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh112.txt lines 125-155",
+   "concept": "hemh.12.2.2",
+   "question_type": "compute",
+   "question_pattern": "Factorise 6xy - 4y + 6 - 9x",
+   "extracted_variables": {
+    "coeff1": 6,
+    "term1_base": 3,
+    "coeff2": -9,
+    "term2_base": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "group first pair and factor out common term",
+     "explain": "extract common factor from the first group of terms",
+     "compute": "group1_factor = coeff1 / term1_base"
+    },
+    {
+     "step": 2,
+     "action": "group second pair and factor out common term",
+     "explain": "extract common factor from the second group of terms",
+     "compute": "group2_factor = coeff2 / term2_base"
+    },
+    {
+     "step": 3,
+     "action": "extract overall matching binomial factor",
+     "explain": "combine the outer factors into a binomial multiplier",
+     "compute": "combined_coeff = group1_factor + group2_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh112.txt lines 170-185",
+   "concept": "hemh.12.2.3",
+   "question_type": "compute",
+   "question_pattern": "Factorise x^2 + 8x + 16",
+   "extracted_variables": {
+    "term_a_sq": 1,
+    "term_b_sq": 16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find square root of first perfect square term",
+     "explain": "take square root of the first term to identify variable a",
+     "compute": "a_val = sqrt(term_a_sq)"
+    },
+    {
+     "step": 2,
+     "action": "find square root of second perfect square term",
+     "explain": "take square root of the second term to identify variable b",
+     "compute": "b_val = sqrt(term_b_sq)"
+    },
+    {
+     "step": 3,
+     "action": "verify double product term for perfect trinominal",
+     "explain": "check if middle term matches double product of root terms",
+     "compute": "middle_check = 2 * a_val * b_val"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hemh112.txt lines 240-260",
+   "concept": "hemh.12.2.4",
+   "question_type": "compute",
+   "question_pattern": "Factorise x^2 + 5x + 6",
+   "extracted_variables": {
+    "factor_a": 2,
+    "factor_b": 3,
+    "constant_q": 6,
+    "middle_p": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "verify factor product equals constant term",
+     "explain": "multiply factor_a and factor_b to ensure product equals q",
+     "compute": "prod_val = factor_a * factor_b"
+    },
+    {
+     "step": 2,
+     "action": "verify factor sum equals middle coefficient",
+     "explain": "add factor_a and factor_b to ensure sum equals p",
+     "compute": "sum_val = factor_a + factor_b"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hemh112.txt lines 320-340",
+   "concept": "hemh.12.3.1",
+   "question_type": "compute",
+   "question_pattern": "Divide -20x^4 by 10x^2",
+   "extracted_variables": {
+    "coeff1": -20,
+    "coeff2": 10,
+    "exp1": 4,
+    "exp2": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide coefficients of dividend and divisor",
+     "explain": "calculate quotient of numerical coefficients",
+     "compute": "res_coeff = coeff1 / coeff2"
+    },
+    {
+     "step": 2,
+     "action": "subtract variable exponents",
+     "explain": "apply exponent rule for division with same base",
+     "compute": "res_exp = exp1 - exp2"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.12.1.2",
+   "question_pattern": "Write {coeff}x^2 y in fully split form.",
+   "extracted_variables": {
+    "coeff": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the number",
+     "explain": "12 = 2 x 2 x 3",
+     "compute": "prime_part = 2 * 2 * 3"
+    },
+    {
+     "step": 2,
+     "action": "lay out the letters",
+     "explain": "x x y joins in",
+     "compute": "term = prime_part * x * x * y"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.2.1",
+   "question_pattern": "Factor {a}xy + {b}x^2.",
+   "extracted_variables": {
+    "a": "6",
+    "b": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "spot the shared piece",
+     "explain": "3x is in both terms",
+     "compute": "common = 3 * x"
+    },
+    {
+     "step": 2,
+     "action": "pull it out front",
+     "explain": "3x(2y + 3x)",
+     "compute": "product = a * x * (b * x)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.2.2",
+   "question_pattern": "Factor {a}xy - {b}y + {a}x - {b} by regrouping.",
+   "extracted_variables": {
+    "a": "6",
+    "b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pair the terms",
+     "explain": "(6xy - 4y) + (6x - 4)",
+     "compute": "g1 = a * x * y - b * y"
+    },
+    {
+     "step": 2,
+     "action": "pull each pair's piece",
+     "explain": "2y(3x - 2) + 2(3x - 2)",
+     "compute": "g2 = (3 * x - 2) * (b * y + 2)"
+    },
+    {
+     "step": 3,
+     "action": "read the shared bracket",
+     "explain": "(3x - 2)(2y + 2)",
+     "compute": "product = (3 * x - 2) * (2 * y + 2)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.2.3",
+   "question_pattern": "Factor {a}^2 - {b}^2 using an identity.",
+   "extracted_variables": {
+    "a": "49",
+    "b": "36"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "spot the squares",
+     "explain": "49 = 7^2, 36 = 6^2",
+     "compute": "sa = a ** 0.5"
+    },
+    {
+     "step": 2,
+     "action": "apply (p - q)(p + q)",
+     "explain": "(7 - 6)(7 + 6)",
+     "compute": "product = (sa - sb) * (sa + sb)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.2.4",
+   "question_pattern": "Factor x^2 + {p}x + {q} by splitting the middle.",
+   "extracted_variables": {
+    "p": "7",
+    "q": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the pair",
+     "explain": "3 x 4 = 12 and 3 + 4 = 7",
+     "compute": "prod = q"
+    },
+    {
+     "step": 2,
+     "action": "write the factors",
+     "explain": "(x + 3)(x + 4)",
+     "compute": "product = (x + 3) * (x + 4)"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.3.1",
+   "question_pattern": "Divide {c1}x^{e1} by {c2}x^{e2}.",
+   "extracted_variables": {
+    "c1": "24",
+    "e1": "5",
+    "c2": "8",
+    "e2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the numbers",
+     "explain": "24/8 = 3",
+     "compute": "coeff = c1 / c2"
+    },
+    {
+     "step": 2,
+     "action": "take away the exponents",
+     "explain": "5 - 2 = 3",
+     "compute": "value = coeff * x ** (e1 - e2)"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.3.2",
+   "question_pattern": "Divide {a}x^3 + {b}x^2 by {m}x.",
+   "extracted_variables": {
+    "a": "8",
+    "b": "12",
+    "m": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide term by term",
+     "explain": "8x^3/4x = 2x^2; 12x^2/4x = 3x",
+     "compute": "q1 = (a / m) * x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "gather the pieces",
+     "explain": "2x^2 + 3x",
+     "compute": "q2 = (b / m) * x"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.4",
+   "question_pattern": "Divide (x^2 - {k}) by (x - 3).",
+   "extracted_variables": {
+    "k": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor the top",
+     "explain": "(x - 3)(x + 3)",
+     "compute": "top = (x - 3) * (x + 3)"
+    },
+    {
+     "step": 2,
+     "action": "cancel the shared bracket",
+     "explain": "x + 3",
+     "compute": "value = top / (x - 3)"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.1.2",
+   "question_pattern": "Split {coeff}ab fully.",
+   "extracted_variables": {
+    "coeff": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the number",
+     "explain": "10 = 2 x 5",
+     "compute": "prime_part = 2 * 5"
+    },
+    {
+     "step": 2,
+     "action": "lay out the letters",
+     "explain": "a and b join in",
+     "compute": "term = prime_part * a * b"
+    }
+   ],
+   "id": "ex22",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.3.2",
+   "question_pattern": "Divide {a}y^4 + {b}y^2 by {m}y.",
+   "extracted_variables": {
+    "a": "9",
+    "b": "6",
+    "m": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide term by term",
+     "explain": "9y^4/3y = 3y^3; 6y^2/3y = 2y",
+     "compute": "q1 = (a / m) * y ** 3"
+    },
+    {
+     "step": 2,
+     "action": "gather the pieces",
+     "explain": "3y^3 + 2y",
+     "compute": "q2 = (b / m) * y"
+    }
+   ],
+   "id": "ex23",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.12.4",
+   "question_pattern": "Divide (x^2 - 16) by (x - 4).",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor the top",
+     "explain": "(x - 4)(x + 4)",
+     "compute": "top = (x - 4) * (x + 4)"
+    },
+    {
+     "step": 2,
+     "action": "cancel the shared bracket",
+     "explain": "x + 4",
+     "compute": "value = top / (x - 4)"
+    }
+   ],
+   "id": "ex24",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "hemh112.txt lines 135-160",
+   "questions": [
+    "1(i) Find the common factors of 12x, 36",
+    "1(ii) Find the common factors of 2y, 22xy",
+    "1(iii) Find the common factors of 14pq, 28p^2 q^2",
+    "1(iv) Find the common factors of 2x, 3x^2, 4",
+    "1(v) Find the common factors of 6abc, 24ab^2, 12a^2 b",
+    "1(vi) Find the common factors of 16x^3, -4x^2, 32x",
+    "1(vii) Find the common factors of 10pq, 20qr, 30rp",
+    "1(viii) Find the common factors of 3x^2 y^3, 10x^3 y^2, 6x^2 y^2 z",
+    "2(i) Factorise 7x - 42",
+    "2(ii) Factorise 6p - 12q",
+    "2(iii) Factorise 7a^2 + 14a",
+    "2(iv) Factorise -16z + 20z^3",
+    "2(v) Factorise 20l^2 m + 30alm",
+    "2(vi) Factorise 5x^2 y - 15xy^2",
+    "2(vii) Factorise 10a^2 - 15b^2 + 20c^2",
+    "2(viii) Factorise -4a^2 + 4ab - 4ca",
+    "2(ix) Factorise x^2 y z + x y^2 z + x y z^2",
+    "2(x) Factorise a x^2 y + b x y^2 + c x y z",
+    "3(i) Factorise x^2 + xy + 8x + 8y",
+    "3(ii) Factorise 15xy - 6x + 5y - 2",
+    "3(iii) Factorise ax + bx - ay - by",
+    "3(iv) Factorise 15pq + 15 + 9q + 25p",
+    "3(v) Factorise z - 7 + 7xy - xyz"
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "hemh112.txt lines 270-310",
+   "questions": [
+    "1(i) Factorise a^2 + 8a + 16",
+    "1(ii) Factorise p^2 - 10p + 25",
+    "1(iii) Factorise 25m^2 + 30m + 9",
+    "1(iv) Factorise 49y^2 + 84yz + 36z^2",
+    "1(v) Factorise 4x^2 - 8x + 4",
+    "1(vi) Factorise 121b^2 - 88bc + 16c^2",
+    "1(vii) Factorise (l + m)^2 - 4lm",
+    "1(viii) Factorise a^4 + 2a^2 b^2 + b^4",
+    "2(i) Factorise 4p^2 - 9q^2",
+    "2(ii) Factorise 63a^2 - 112b^2",
+    "2(iii) Factorise 49x^2 - 36",
+    "2(iv) Factorise 16x^5 - 144x^3",
+    "2(v) Factorise (l + m)^2 - (l - m)^2",
+    "2(vi) Factorise 9x^2 y^2 - 16",
+    "2(vii) Factorise (x^2 - 2xy + y^2) - z^2",
+    "2(viii) Factorise 25a^2 - 4b^2 + 28bc - 49c^2",
+    "3(i) Factorise ax^2 + bx",
+    "3(ii) Factorise 7p^2 + 21q^2",
+    "3(iii) Factorise 2x^3 + 2xy^2 + 2xz^2",
+    "3(iv) Factorise am^2 + bm^2 + bn^2 + an^2",
+    "3(v) Factorise (lm + l) + m + 1",
+    "3(vi) Factorise y(y + z) + 9(y + z)",
+    "3(vii) Factorise 5y^2 - 20y - 8z + 2yz",
+    "3(viii) Factorise 10ab + 4a + 5b + 2",
+    "3(ix) Factorise 6xy - 4y + 6 - 9x",
+    "4(i) Factorise a^4 - b^4",
+    "4(ii) Factorise p^4 - 81",
+    "4(iii) Factorise x^4 - (y + z)^4",
+    "4(iv) Factorise x^4 - (x - z)^4",
+    "4(v) Factorise a^4 - 2a^2 b^2 + b^4",
+    "5(i) Factorise p^2 + 6p + 8",
+    "5(ii) Factorise q^2 - 10q + 21",
+    "5(iii) Factorise p^2 + 6p - 16"
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "hemh112.txt lines 430-470",
+   "questions": [
+    "1(i) Carry out 28x^4  /  56x",
+    "1(ii) Carry out -36y^3  /  9y^2",
+    "1(iii) Carry out 66pq^2 r^3  /  11qr^2",
+    "1(iv) Carry out 34x^3 y^3 z^3  /  51xy^2 z^3",
+    "1(v) Carry out 12a^8 b^8  /  (-6a^6 b^4)",
+    "2(i) Divide (5x^2 - 6x)  /  3x",
+    "2(ii) Divide (3y^8 - 4y^6 + 5y^4)  /  y^4",
+    "2(iii) Divide 8(x^3 y^2 z^2 + x^2 y^3 z^2 + x^2 y^2 z^3)  /  4x^2 y^2 z^2",
+    "2(iv) Divide (x^3 + 2x^2 + 3x)  /  2x",
+    "2(v) Divide (p^3 q^6 - p^6 q^3)  /  p^3 q^3",
+    "3(i) Work out (10x - 25)  /  5",
+    "3(ii) Work out (10x - 25)  /  (2x - 5)",
+    "3(iii) Work out 10y(6y + 21)  /  5(2y + 7)",
+    "3(iv) Work out 9x^2 y^2 (3z - 24)  /  27xy(z - 8)",
+    "3(v) Work out 96abc(3a - 12)(5b - 30)  /  144(a - 4)(b - 6)",
+    "4(i) Divide 5(2x + 1)(3x + 5)  /  (2x + 1)",
+    "4(ii) Divide 26xy(x + 5)(y - 4)  /  13x(y - 4)",
+    "4(iii) Divide 52pqr(p + q)(q + r)(r + p)  /  104pq(q + r)(r + p)",
+    "4(iv) Divide 20(y + 4)(y^2 + 5y + 3)  /  5(y + 4)",
+    "4(v) Divide x(x + 1)(x + 2)(x + 3)  /  x(x + 1)",
+    "5(i) Factorise and divide (y^2 + 7y + 10)  /  (y + 5)",
+    "5(ii) Factorise and divide (m^2 - 14m - 32)  /  (m + 2)",
+    "5(iii) Factorise and divide (5p^2 - 25p + 20)  /  (p - 1)",
+    "5(iv) Factorise and divide 4yz(z^2 + 6z - 16)  /  2y(z + 8)",
+    "5(v) Factorise and divide 5pq(p^2 - q^2)  /  2p(p + q)",
+    "5(vi) Factorise and divide 12xy(9x^2 - 16y^2)  /  4xy(3x + 4y)",
+    "5(vii) Factorise and divide 39y^3 (50y^2 - 98)  /  26y^2 (5y + 7)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

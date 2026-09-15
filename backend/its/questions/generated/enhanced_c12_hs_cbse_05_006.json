@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_006",
+   "title": "c12_hs_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define “time management” in one sentence and name the two categories of tasks in the Eisenhower matrix.",
+     "a": "Time management is the deliberate planning and control of time allocated to activities to achieve goals efficiently. The Eisenhower matrix categorises tasks as Urgent/Important, Not Urgent/Important, Urgent/Not Important, and Not Urgent/Not Important. A wrong answer (e.g., “time management means making a rigid timetable”) reveals the misconception that it is about restriction rather than conscious choice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why “Parkinson’s Law” (work expands to fill the time available) is a critical principle when creating a time plan for exam preparation.",
+     "a": "Parkinson’s Law warns that without strict time limits, a 2-hour study session can stretch to 4 hours with diminishing returns. Setting artificial deadlines (e.g., “finish this chapter in 90 minutes”) forces focus and prevents procrastination. If a student says “it just means work takes longer if you’re lazy,” they confuse the law with procrastination; the law describes a systemic tendency, not a character flaw.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student sleeps 7 hours, attends school 6 hours, travels 2 hours, and spends 3 hours in coaching. They want 3 hours of self-study, 1 hour of exercise, and 1 hour of leisure daily. Show whether this fits in 24 hours and, if not, propose a realistic adjustment using the principle of “batching”.",
+     "a": "Total = 7+6+2+3+3+1+1 = 23 hours. Only 1 hour remains for meals, hygiene, transitions — unrealistic. Batching: combine exercise with travel (cycle/walk partway) or merge leisure with family meals. A wrong answer that simply cuts sleep to 5 hours violates the biological prime-time principle and ignores health as a resource.",
+     "self_check": true
+    },
+    {
+     "q": "Compare “time blocking” and “Pomodoro technique” in terms of suitability for (a) deep-work subjects like physics derivations and (b) repetitive tasks like solving 50 MCQs. Justify your answer.",
+     "a": "Time blocking (e.g., 9–11 am for physics) protects long, uninterrupted stretches for deep work. Pomodoro (25 min focus/5 min break) prevents fatigue during repetitive MCQ practice. A student who swaps them — using Pomodoro for derivations — fragments cognitive flow; using time blocking for MCQs leads to burnout. This confusion shows they don’t match technique to task cognitive load.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “A perfect time plan is one where every minute from 6 am to 10 pm is accounted for.” Use the concepts of buffer time and decision fatigue.",
+     "a": "A zero-buffer plan fails because (1) transitions, interruptions, and underestimated tasks inevitably cause cascade delays, and (2) decision fatigue depletes willpower when every minute is pre-decided, reducing adherence. Effective plans leave 10–15 % unscheduled. A student who defends the statement confuses “structure” with “rigidity” and ignores the controlling function of management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Sunday time plan for a student who has a 3-hour mock test at 10 am, needs 2-hour test analysis, 1-hour lunch, 1.5-hour nap, and wants 2 hours of leisure. Include buffer zones and label each block with Eisenhower quadrant.",
+     "a": "Sample: 7–8 am Q2 (prep), 8–8:30 buffer, 8:30–9:30 travel (Q1), 10–1 pm mock (Q1), 1–2 lunch (Q3), 2–2:15 buffer, 2:15–4:15 analysis (Q2), 4:15–4:30 buffer, 4:30–6 nap (Q2), 6–8 leisure (Q4), 8–8:30 buffer, 8:30–9:30 dinner/wind-down. A poor answer omits buffers or mislabels analysis as Q1 (it’s important but not urgent).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

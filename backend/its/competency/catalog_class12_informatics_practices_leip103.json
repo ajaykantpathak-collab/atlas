@@ -1,0 +1,494 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 3,
+ "chapter_title": "Data Handling using Pandas - II",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leip103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leip103.1",
+   "title": "Column Maximum and Minimum Marks",
+   "section": "3.2.1-3.2.2",
+   "definition": "DataFrame.max() and DataFrame.min() reduce each column to its largest and smallest entry, and their difference measures the spread of the column. A column of exam scores, for instance the set 92, 95, 85, 80, 75, 50 from the chapter's activity, shrinks to just three numbers: the top score, the bottom score and the gap between them.",
+   "formula": "score_range = score_max - score_min",
+   "key_idea": "Highest entry minus lowest entry gives the spread; both extremes come straight from max() and min() without sorting.",
+   "textbook_ref": "leip103.txt sections 3.2.1-3.2.2 and Activity 3.4 (lines 199-344, 620-625)",
+   "question_patterns": [
+    "find the maximum and minimum of the scores 92, 95, 85, 80, 75 and 50",
+    "compute the range of the marks column using max() and min()",
+    "which parameter of max() restricts the output to numeric columns only",
+    "what does df.max(axis=1) return for the marksUT DataFrame",
+    "find the minimum marks obtained by Mishti in each subject across the unit tests",
+    "the top score is 95 and the lowest is 50; what is the score range"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the top score",
+     "explain": "max() over the six scores returns 95",
+     "compute": "score_max = max((s_one, s_two, s_three, s_four, s_five, s_six))"
+    },
+    {
+     "step": 2,
+     "action": "pick the bottom score",
+     "explain": "min() over the same six scores returns 50",
+     "compute": "score_min = min((s_one, s_two, s_three, s_four, s_five, s_six))"
+    },
+    {
+     "step": 3,
+     "action": "subtract the extremes",
+     "explain": "95 - 50 = 45 is the spread of the scores",
+     "compute": "score_range = score_max - score_min"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Scores are 92, 95, 85, 80, 75, 50. What is the column maximum?",
+     "a": "95"
+    }
+   ]
+  },
+  {
+   "id": "leip103.2",
+   "title": "Column Sum and Mean of Marks",
+   "section": "3.2.3 and 3.2.5",
+   "definition": "DataFrame.sum() adds a numeric column end to end and DataFrame.mean() divides that total by the number of entries. For the twelve Maths marks of the marksUT DataFrame the total is 231 and the mean works out to 19.25, matching the count, mean rows of describe().",
+   "formula": "maths_mean = maths_total / entry_count",
+   "key_idea": "Add the column once, divide once by the value count; the sum feeds the mean directly.",
+   "textbook_ref": "leip103.txt sections 3.2.3, 3.2.5 and describe() output (lines 348-498, 680-697)",
+   "question_patterns": [
+    "find the total of the Maths column of the marksUT DataFrame",
+    "compute the mean of the twelve Maths marks 22, 21, 14, 20, 23, 22, 23, 24, 12, 15, 18, 17",
+    "why does df.sum() join the text values of the Name column",
+    "which two rows of df.describe() show the count and the mean of a column",
+    "verify that the sum of the Maths marks divided by twelve gives 19.25",
+    "write the statement that prints only the total of the Maths column"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the twelve Maths marks",
+     "explain": "22 + 21 + 14 + 20 + 23 + 22 + 23 + 24 + 12 + 15 + 18 + 17 = 231",
+     "compute": "maths_total = sum((m01, m02, m03, m04, m05, m06, m07, m08, m09, m10, m11, m12))"
+    },
+    {
+     "step": 2,
+     "action": "divide by the entry count",
+     "explain": "231 / 12 = 19.25, the mean reported by describe()",
+     "compute": "maths_mean = maths_total / entry_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Twelve Maths marks total 231. What is their mean?",
+     "a": "19.25"
+    }
+   ]
+  },
+  {
+   "id": "leip103.3",
+   "title": "Raman Row Sum Percentage",
+   "section": "3.2.3",
+   "definition": "A row-wise sum with axis=1 adds one student's marks across all subjects of one unit test. Raman's Unit Test 1 row 22, 21, 18, 20, 21 totals 102, and expressing it against the maximum possible 25 times 5 subjects turns the total into a percentage.",
+   "formula": "ut1_percent = test_total * 100 / max_possible",
+   "key_idea": "Sum across the row with axis=1, then scale by 100 against the ceiling of 25 marks per subject.",
+   "textbook_ref": "leip103.txt Program 3-4, row-wise sum (lines 383-411)",
+   "question_patterns": [
+    "find the total marks scored by Raman in all subjects of Unit Test 1",
+    "express Raman's Unit Test 1 total of 102 as a percentage of the maximum 125",
+    "which axis argument makes sum() add across a row instead of a column",
+    "write the statement dfRaman followed by sum(axis=1) and state the three outputs",
+    "compute Zuhaire's Unit Test 1 row total for marks 20, 17, 22, 24, 19",
+    "what ceiling of marks does each subject carry in the case study"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the five subject marks of the row",
+     "explain": "22 + 21 + 18 + 20 + 21 = 102 for Unit Test 1",
+     "compute": "test_total = sum((maths_mark, science_mark, sst_mark, hindi_mark, eng_mark))"
+    },
+    {
+     "step": 2,
+     "action": "scale against the ceiling",
+     "explain": "102 out of a possible 125 gives 102 * 100 / 125 = 81.6 percent",
+     "compute": "ut1_percent = test_total * 100 / max_possible"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Raman's Unit Test 1 row reads 22, 21, 18, 20, 21. What is the row sum?",
+     "a": "102"
+    }
+   ]
+  },
+  {
+   "id": "leip103.4",
+   "title": "Median of Even Unit Test Column",
+   "section": "3.2.6",
+   "definition": "DataFrame median() returns the middle of an ordered column. With an even count of values there is no single middle entry, so the median becomes the average of the two central values; for the four Maths marks of Unit Test 1, ordered as 15, 20, 22, 23, the middle pair 20 and 22 averages to 21.",
+   "formula": "median_even = (left_mid_value + right_mid_value) / 2",
+   "key_idea": "Sort the column, take the two central values of an even-sized batch and average them.",
+   "textbook_ref": "leip103.txt Program 3-7 and its explanation (lines 512-542)",
+   "question_patterns": [
+    "find the median of the Maths marks in UT1 for values 22, 20, 23 and 15",
+    "why is the median of four values the average of two entries",
+    "which two middle values produce the median 21.0 for Maths in UT1",
+    "what does df.median() return for a column with twelve values",
+    "compute the median of the scores 92, 95, 85, 80, 75 and 50",
+    "state the default quartile that df.quantile() reports and its relation to the median"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the two central values",
+     "explain": "the ordered UT1 Maths marks 15, 20, 22, 23 carry the middle pair 20 and 22",
+     "compute": "mid_pair = left_mid_value + right_mid_value"
+    },
+    {
+     "step": 2,
+     "action": "average the pair",
+     "explain": "(20 + 22) / 2 = 21.0, the median printed by the program",
+     "compute": "median_even = mid_pair / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four Maths marks ordered 15, 20, 22, 23: what is the median?",
+     "a": "21"
+    }
+   ]
+  },
+  {
+   "id": "leip103.5",
+   "title": "Mode of the Hindi Column",
+   "section": "3.2.7",
+   "definition": "The mode is the entry that shows up most often in a column. In the Hindi column of marksUT the value 24 appears three times, more than any other mark, so mode() returns 24; the frequency of the mode against the total number of entries measures how dominant it is.",
+   "formula": "mode_share = highest_frequency * 100 / total_entries",
+   "key_idea": "Count each value's occurrences, keep the largest count, and divide it by the column size for the mode's share.",
+   "textbook_ref": "leip103.txt section 3.2.7 (lines 543-581)",
+   "question_patterns": [
+    "which mark is the mode of the Hindi column and how many times does it occur",
+    "express the mode's frequency of the Hindi marks as a percentage of the twelve entries",
+    "which function returns the most frequent value of a column",
+    "in the Hindi column, which value occurs three times while 25 occurs twice",
+    "find the mode of the marks scored in Maths",
+    "can a column have more than one mode"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the biggest occurrence count",
+     "explain": "24 occurs 3 times against 2 for both 25 and 22, so max of the counts is 3",
+     "compute": "highest_frequency = max((freq_mode, freq_second, freq_third))"
+    },
+    {
+     "step": 2,
+     "action": "share the mode out of all entries",
+     "explain": "3 of the 12 Hindi entries gives 3 * 100 / 12 = 25 percent",
+     "compute": "mode_share = highest_frequency * 100 / total_entries"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the Hindi column, which mark appears three times to become the mode?",
+     "a": "24"
+    }
+   ]
+  },
+  {
+   "id": "leip103.6",
+   "title": "GROUP BY UT-wise Mean",
+   "section": "3.5",
+   "definition": "GROUP BY splits a DataFrame into buckets sharing a key value, applies an aggregate to each bucket and combines the results (the split-apply-combine strategy). Grouping the marksUT data by UT and averaging Maths gives 20.00, 21.50 and 16.25 for the three tests, each a plain total divided by the group size.",
+   "formula": "ut3_mean = ut3_total / group_size",
+   "key_idea": "Sum the marks inside one group, divide by how many rows the group holds; agg('mean') does this per bucket.",
+   "textbook_ref": "leip103.txt section 3.5, GROUP BY aggregation (lines 849-1031)",
+   "question_patterns": [
+    "find the average Maths marks of all students in Unit Test 3 using GROUP BY",
+    "compute the mean of the UT3 Maths marks 14, 22, 12 and 17",
+    "describe the split-apply-combine strategy of the GROUP BY function",
+    "what do g1.size() and g1.groups return for groups made on Name",
+    "display the average marks of each subject for each UT with agg",
+    "why does grouping by UT give three rows in the aggregated output"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the marks inside one group",
+     "explain": "the UT3 bucket of Maths holds 14 + 22 + 12 + 17 = 65",
+     "compute": "ut3_total = sum((m_raman, m_zuhaire, m_ashravy, m_mishti))"
+    },
+    {
+     "step": 2,
+     "action": "divide by the bucket size",
+     "explain": "65 shared by the 4 students of the group gives 16.25, matching the chapter output",
+     "compute": "ut3_mean = ut3_total / group_size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which three-word strategy names GROUP BY's working: split, apply and combine?",
+     "a": "split-apply-combine"
+    }
+   ]
+  },
+  {
+   "id": "leip103.7",
+   "title": "pivot_table Mean for Duplicate Entries",
+   "section": "3.7.1 C",
+   "definition": "pivot() refuses data whose index columns repeat, but pivot_table() accepts duplicates by aggregating them, with mean as the default aggregate. Two blue-pen rows priced 50 and 20 collapse into one pivot cell holding their mean 35, and any aggregate such as sum, max or len can be named through aggfunc instead.",
+   "formula": "color_mean = color_total / entries_of_color",
+   "key_idea": "Duplicate pivot keys are merged by averaging; the cell value is the group's total divided by its row count.",
+   "textbook_ref": "leip103.txt sections 3.7.1 B-C, pivot_table examples (lines 1286-1400)",
+   "question_patterns": [
+    "what price does pivot_table report for the blue pen whose rows cost 50 and 20",
+    "why does the pivot function raise a ValueError on duplicate index entries",
+    "which aggregate does pivot_table apply by default and how can it be changed",
+    "compute the mean price of the red pen rows priced 10 and 25",
+    "what does the len aggregate count inside a pivot_table",
+    "differentiate between the pivot() and pivot_table() functions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the duplicated group",
+     "explain": "the two blue-pen prices 50 and 20 add to 70",
+     "compute": "color_total = sum((price_one, price_two))"
+    },
+    {
+     "step": 2,
+     "action": "average over the group's rows",
+     "explain": "70 divided by the 2 rows gives the pivot cell 35.0 shown in the chapter",
+     "compute": "color_mean = color_total / entries_of_color"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two blue-pen rows priced 50 and 20 collapse into which pivot_table cell value?",
+     "a": "35"
+    }
+   ]
+  },
+  {
+   "id": "leip103.8",
+   "title": "fillna Percentage for Missing Marks",
+   "section": "3.8.3",
+   "definition": "Missing marks stored as NaN can be filled before computing a result: fillna(0) substitutes zero, fillna(method='pad') copies the previous value, and the chosen estimate changes the percentage. Filling Raman's absent Science mark of Unit Test 4 with zero gives the filled total 60 over the full ceiling of 100, that is 60 percent.",
+   "formula": "science_percent = filled_total * 100 / max_possible",
+   "key_idea": "Fill the gaps first, then total and scale; every estimate changes the percentage, so the choice must be stated.",
+   "textbook_ref": "leip103.txt sections 3.8.1-3.8.3, Program 3-12 and fillna code (lines 1555-1878)",
+   "question_patterns": [
+    "after fillna(0) on Raman's Science marks 21, 20, 19 and a missing fourth test, compute the percentage",
+    "which percentage does Raman's English reach when fillna(method='pad') copies the third test mark",
+    "what does df.isnull().sum().sum() return for the UT4 dataset and why",
+    "how does the percentage differ when the missing Maths row is dropped instead of filled with zero",
+    "which function checks whether a column holds missing values",
+    "why does dropping rows shrink the dataset used for analysis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the marks after filling",
+     "explain": "21 + 20 + 19 plus the filled 0 gives 60",
+     "compute": "filled_total = sum((sci_one, sci_two, sci_three, filler_mark))"
+    },
+    {
+     "step": 2,
+     "action": "scale against the full ceiling",
+     "explain": "60 out of 4 tests of 25 marks each gives 60 * 100 / 100 = 60 percent",
+     "compute": "science_percent = filled_total * 100 / max_possible"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Filling an absent mark with zero gives a filled total of 60 over a ceiling of 100. What percentage is that?",
+     "a": "60 percent"
+    }
+   ]
+  },
+  {
+   "id": "leip103.9",
+   "title": "Sorting Values and Altering the Index",
+   "section": "3.4 and 3.6",
+   "definition": "sort_values(by, axis, ascending) orders the rows of a DataFrame by one or more columns, with later columns breaking ties, and ascending=False flipping the direction. reset_index() rebuilds a clean continuous index after a slice while keeping or dropping the old one, and set_index() promotes any column to be the row index.",
+   "formula": "sort_order = ascending_or_descending",
+   "key_idea": "First column sorts, extra columns break ties; reset_index renumbers, set_index relabels by a data column.",
+   "textbook_ref": "leip103.txt sections 3.4 and 3.6 (lines 759-845, 1032-1113)",
+   "question_patterns": [
+    "write the statement to sort the marksUT data by the Name column in ascending order",
+    "sort the UT3 rows by English marks in descending order; which parameter changes the direction",
+    "how does sort_values break a tie on Science marks using Hindi",
+    "why does a sliced DataFrame show a non-continuous index",
+    "which function rebuilds a continuous index and which one drops the old index column",
+    "write the statement that makes the Name column the index of dfUT1"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "choose the sorting keys",
+     "explain": "by lists the columns; the first decides the order and the rest break ties"
+    },
+    {
+     "step": 2,
+     "action": "set the direction",
+     "explain": "ascending=True is the default; ascending=False reverses it"
+    },
+    {
+     "step": 3,
+     "action": "repair the index after slicing",
+     "explain": "reset_index rebuilds 0, 1, 2...; set_index promotes a chosen column to the index"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which argument flips sort_values() to descending order?",
+     "a": "ascending=False"
+    }
+   ]
+  },
+  {
+   "id": "leip103.10",
+   "title": "MySQL Import Export with sqlalchemy",
+   "section": "3.9",
+   "definition": "A pandas DataFrame exchanges data with MySQL through a connection engine: sqlalchemy's create_engine() takes a connection string of driver, username, password, host, port and database; read_sql_query(), read_sql_table() and read_sql() pull data into a DataFrame, and to_sql() writes it back with if_exists choosing fail, replace or append.",
+   "formula": "connection_string = driver_user_host_database",
+   "key_idea": "Build the engine once from the connection string; read functions import, to_sql exports, and if_exists controls clashes.",
+   "textbook_ref": "leip103.txt section 3.9 (lines 1890-2054)",
+   "question_patterns": [
+    "which two libraries must be installed to link pandas with MySQL",
+    "name the function that establishes the MySQL connection from sqlalchemy",
+    "list the parts of the connection string used by create_engine",
+    "which function reads an SQL query into a DataFrame",
+    "what do the three values of the if_exists parameter of to_sql do",
+    "write the statement to read the INVENTORY table into a DataFrame"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "establish the connection",
+     "explain": "create_engine('mysql+pymysql://user:password@host:3306/database') returns the engine"
+    },
+    {
+     "step": 2,
+     "action": "pull data into pandas",
+     "explain": "read_sql_query fetches query results; read_sql_table fetches a whole table; read_sql accepts either"
+    },
+    {
+     "step": 3,
+     "action": "push results back",
+     "explain": "to_sql writes the DataFrame, and if_exists decides between fail, replace and append"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which sqlalchemy function builds the connection engine?",
+     "a": "create_engine()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leip103.txt section 3.2.3 and describe() output",
+   "concept": "leip103.2",
+   "question_type": "numeric",
+   "question_pattern": "The Maths column of marksUT holds 22, 21, 14, 20, 23, 22, 23, 24, 12, 15, 18, 17. Find its total and mean.",
+   "extracted_variables": {
+    "m01": 22,
+    "m02": 21,
+    "m03": 14,
+    "m04": 20,
+    "m05": 23,
+    "m06": 22,
+    "m07": 23,
+    "m08": 24,
+    "m09": 12,
+    "m10": 15,
+    "m11": 18,
+    "m12": 17,
+    "entry_count": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the twelve marks",
+     "explain": "the column total is 231, as printed by df['Maths'].sum()",
+     "compute": "maths_total = sum((m01, m02, m03, m04, m05, m06, m07, m08, m09, m10, m11, m12))"
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
+     "explain": "231 / 12 = 19.25, matching the mean row of describe()",
+     "compute": "maths_mean = maths_total / entry_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leip103.txt section 3.5, GROUP BY(['UT']) mean of Maths",
+   "concept": "leip103.6",
+   "question_type": "numeric",
+   "question_pattern": "Grouping marksUT by UT, find the average Maths marks for Unit Test 3 where the four students scored 14, 22, 12 and 17.",
+   "extracted_variables": {
+    "m_raman": 14,
+    "m_zuhaire": 22,
+    "m_ashravy": 12,
+    "m_mishti": 17,
+    "group_size": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the group's marks",
+     "explain": "14 + 22 + 12 + 17 = 65",
+     "compute": "ut3_total = sum((m_raman, m_zuhaire, m_ashravy, m_mishti))"
+    },
+    {
+     "step": 2,
+     "action": "average inside the group",
+     "explain": "65 / 4 = 16.25, the value shown in the GROUP BY output",
+     "compute": "ut3_mean = ut3_total / group_size"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leip103.txt Exercise Q6, Q7, Q13 and Activity 3.4",
+   "questions": [
+    "Define median, standard deviation and variance in one line each.",
+    "Which function calculates the mode of a column? (mode())",
+    "For the scores 92, 95, 85, 80, 75, 50 find the range using max and min. (95 - 50 = 45)",
+    "In the Product table (TV LG 12000, TV VIDEOCON 10000, TV LG 15000, AC SONY 14000), find the maximum price of an LG TV. (15000)",
+    "For the same Product table, find the sum of all the Rupees values. (51000)",
+    "What is the purpose of data aggregation? Name any three aggregate functions."
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leip103.txt Exercise Q1-Q5, Q10-Q12",
+   "questions": [
+    "Write the statement to install the pymysql connector. (pip install pymysql)",
+    "Can a DataFrame be sorted with respect to multiple columns at once? (yes, pass a list to by)",
+    "What are missing values? Name the two strategies to handle them. (drop the row, or fill with an estimate)",
+    "Explain GROUP BY with the example of averaging marks per unit test.",
+    "List the steps to read data from a MySQL table into a DataFrame. (install drivers, create_engine, read_sql_query/read_sql_table)",
+    "Why is reshaping of data useful? Contrast pivot() with pivot_table()."
+   ]
+  }
+ ]
+}

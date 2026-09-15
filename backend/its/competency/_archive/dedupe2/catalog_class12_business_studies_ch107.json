@@ -1,0 +1,294 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 107,
+ "chapter_title": "Directing",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs107.txt",
+ "concepts": [
+  {
+   "id": "lebs.7.1",
+   "title": "Characteristics of Directing",
+   "section": "Meaning",
+   "definition": "Directing is the management function that initiates organizational action through instruction, guidance, and motivation of employees.",
+   "formula": null,
+   "key_idea": "Directing is the executive function that turns plans into actual performance.",
+   "textbook_ref": "lebs107.txt lines 170-171",
+   "question_patterns": [
+    "What are the main features of directing?",
+    "Explain how directing initiates action in an organization.",
+    "Why is directing considered a continuous process?",
+    "Describe the flow of direction in the organizational hierarchy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the starting point of action",
+     "explain": "Check if the function triggers work performance rather than just planning or organizing."
+    },
+    {
+     "step": 2,
+     "action": "Verify the level of occurrence",
+     "explain": "Directing must take place at every level where a superior-subordinate relationship exists."
+    },
+    {
+     "step": 3,
+     "action": "Determine the direction of flow",
+     "explain": "Ensure the instructions move from top management down to the operational levels."
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.2",
+   "title": "Principles of Effective Directing",
+   "section": "Principles of Directing",
+   "definition": "A set of guiding rules, such as unity of command and harmony of objectives, that ensure the directing process is efficient and reduces conflict.",
+   "formula": null,
+   "key_idea": "Effective direction requires alignment between individual goals and organizational targets.",
+   "textbook_ref": "lebs107.txt lines 172-173",
+   "question_patterns": [
+    "State the principles of directing.",
+    "What is the principle of maximum individual contribution?",
+    "Explain the importance of Unity of Command in directing.",
+    "How does harmony of objectives improve organizational efficiency?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for single source of instructions",
+     "explain": "Verify if the subordinate receives orders from only one superior to avoid confusion (Unity of Command)."
+    },
+    {
+     "step": 2,
+     "action": "Assess goal alignment",
+     "explain": "Evaluate if the directing technique reconciles personal employee goals with company goals (Harmony of Objectives)."
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.3",
+   "title": "Maslow's Hierarchy of Needs",
+   "section": "Maslow's Need Hierarchy Theory of Motivation",
+   "definition": "A motivation theory suggesting that human needs are arranged in a five-level pyramid, from basic physiological requirements to self-actualization.",
+   "formula": null,
+   "key_idea": "A satisfied need no longer motivates; individuals move up the hierarchy as lower needs are met.",
+   "textbook_ref": "lebs107.txt lines 179-180",
+   "question_patterns": [
+    "Explain Maslow's need hierarchy theory.",
+    "What are the five levels of human needs according to Maslow?",
+    "Identify the organizational equivalent of basic physiological needs.",
+    "How does the esteem need differ from the affiliation need?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the current unsatisfied need",
+     "explain": "Determine which level of the hierarchy (physiological, safety, social, esteem, or self-actualization) the individual is currently focused on."
+    },
+    {
+     "step": 2,
+     "action": "Verify the progression",
+     "explain": "Confirm that lower-level needs like salary and job security are satisfied before addressing higher-level needs like status."
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.4",
+   "title": "Financial Incentives Calculation",
+   "section": "Financial and Non-Financial Incentives",
+   "definition": "Monetary rewards used to motivate employees, including basic pay, bonuses, and profit-sharing schemes.",
+   "formula": "total_earnings = basic_pay + dearness_allowance + bonus + profit_share",
+   "key_idea": "Money acts as a powerful motivator by satisfying physical and social status needs.",
+   "textbook_ref": "lebs107.txt lines 181-182",
+   "question_patterns": [
+    "Calculate the total earnings of an employee including bonus.",
+    "Find the profit share amount for an employee.",
+    "What is the total compensation if basic pay is {basic_pay} and bonus is {bonus}?",
+    "Compute the productivity linked wage incentive."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate profit share",
+     "explain": "Multiply the total company profit by the employee's sharing percentage.",
+     "compute": "profit_share = total_profit * percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Sum fixed components",
+     "explain": "Add the basic salary and the dearness allowance.",
+     "compute": "fixed_pay = basic_salary + dearness_allowance"
+    },
+    {
+     "step": 3,
+     "action": "Calculate total earnings",
+     "explain": "Add the fixed pay, bonus, and profit share to get the final amount.",
+     "compute": "total_earnings = fixed_pay + bonus + profit_share"
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.5",
+   "title": "Leadership Styles",
+   "section": "Leadership Style",
+   "definition": "The behavioral pattern a leader adopts to influence subordinates, categorized by the degree of authority and participation.",
+   "formula": null,
+   "key_idea": "Leaders choose between autocratic, democratic, or laissez-faire styles based on the situation.",
+   "textbook_ref": "lebs107.txt lines 186-187",
+   "question_patterns": [
+    "Distinguish between autocratic and democratic leadership.",
+    "What is a laissez-faire leadership style?",
+    "Identify the leadership style where the manager makes all decisions.",
+    "When is the free-rein leadership style most effective?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze decision-making authority",
+     "explain": "If the leader decides alone, it is autocratic; if in consultation, it is democratic; if left to the group, it is laissez-faire."
+    },
+    {
+     "step": 2,
+     "action": "Check communication flow",
+     "explain": "One-way communication indicates autocratic style, while two-way indicates democratic."
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.6",
+   "title": "Elements of the Communication Process",
+   "section": "Elements of Communication Process",
+   "definition": "The systematic steps through which a message travels from a sender to a receiver, including encoding, media, and feedback.",
+   "formula": null,
+   "key_idea": "Effective communication requires the receiver to understand the message as intended by the sender.",
+   "textbook_ref": "lebs107.txt lines 188-189",
+   "question_patterns": [
+    "List the elements of the communication process.",
+    "What is the role of encoding in communication?",
+    "Explain the importance of feedback in the communication cycle.",
+    "What constitutes 'noise' in the communication process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the message source",
+     "explain": "The sender initiates the process by conceiving an idea."
+    },
+    {
+     "step": 2,
+     "action": "Verify the encoding and transmission",
+     "explain": "The idea is converted into symbols (encoding) and sent via a channel (media)."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the feedback loop",
+     "explain": "The receiver's response (feedback) indicates if the message was understood correctly."
+    }
+   ]
+  },
+  {
+   "id": "lebs.7.7",
+   "title": "Barriers to Communication",
+   "section": "Barriers to Communication",
+   "definition": "Obstacles that hinder the exchange of information, classified into semantic, psychological, organizational, and personal categories.",
+   "formula": null,
+   "key_idea": "Communication breakdowns occur due to language issues, emotional states, or rigid hierarchies.",
+   "textbook_ref": "lebs107.txt lines 193-196",
+   "question_patterns": [
+    "What are semantic barriers to communication?",
+    "How does a lack of attention act as a psychological barrier?",
+    "Explain organizational barriers like rigid rules.",
+    "Identify personal barriers that prevent subordinates from communicating."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the barrier type",
+     "explain": "Determine if the issue is related to word meanings (semantic), state of mind (psychological), or company structure (organizational)."
+    },
+    {
+     "step": 2,
+     "action": "Identify the specific cause",
+     "explain": "Check for technical jargon, premature evaluation, or fear of authority."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs107.txt line 181",
+   "concept": "lebs.7.4",
+   "question_type": "compute",
+   "question_pattern": "An employee has a basic salary of {basic_salary}, a dearness allowance of {dearness_allowance}, and is awarded a bonus of {bonus}. Calculate the total monthly earnings.",
+   "extracted_variables": {
+    "basic_salary": "base pay amount",
+    "dearness_allowance": "allowance amount",
+    "bonus": "extra incentive"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum salary and allowance",
+     "explain": "Add basic salary and dearness allowance to find fixed pay.",
+     "compute": "fixed_pay = basic_salary + dearness_allowance"
+    },
+    {
+     "step": 2,
+     "action": "Add bonus",
+     "explain": "Add the bonus to the fixed pay for total earnings.",
+     "compute": "total_earnings = fixed_pay + bonus"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs107.txt line 186",
+   "concept": "lebs.7.5",
+   "question_type": "verify_property",
+   "question_pattern": "A manager at a construction site gives specific orders to workers and expects immediate compliance without any feedback. Identify the leadership style.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze authority use",
+     "explain": "The manager centralizes decision-making and gives commands."
+    },
+    {
+     "step": 2,
+     "action": "Determine style",
+     "explain": "Since communication is one-way and obedience is expected, it is an Autocratic leadership style."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "lebs107.txt line 199",
+   "questions": [
+    "What is informal communication?",
+    "Which style of leadership does not believe in use of power unless it is absolutely essential?",
+    "Which element in the communication process involves converting the message into words, symbols, gestures etc.?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "lebs107.txt line 200",
+   "questions": [
+    "Explain the process of motivation with the help of a diagram.",
+    "State the different networks of grapevine communications.",
+    "Explain any three principles of Directing.",
+    "Discuss Maslow’s Need Hierarchy theory of motivation."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

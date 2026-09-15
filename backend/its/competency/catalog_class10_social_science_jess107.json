@@ -1,0 +1,401 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 107,
+ "chapter_title": "Lifelines of National Economy: Transport, Communication and Trade",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess107.txt",
+ "concepts": [
+  {
+   "id": "jess.107.1.1",
+   "title": "Roadways and Their Advantages",
+   "section": "Roadways",
+   "definition": "Road transport, spread over about 62.16 lakh km of network, offers construction ease over uneven terrain, door-to-door service and lower cost over short distances, which keeps it ahead of railways as a feeder system.",
+   "formula": "",
+   "key_idea": "Roads climb slopes of up to 100 per cent gradient where railways cannot, and they link villages, railway stations, ports and airports into one chain.",
+   "textbook_ref": "jess107.txt lines 53-125",
+   "question_patterns": [
+    "state any three merits of roadways",
+    "why do roadways have an edge over railways in india",
+    "how do roads act as a feeder to other modes of transport",
+    "which is the second largest road network in the world",
+    "compare road transport with rail transport for short distances",
+    "what are the classification criteria of roads in india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the advantage claimed",
+     "explain": "Test for construction ease, cost, gradient tolerance, door-to-door service and feeder role when comparing roadways with railways."
+    },
+    {
+     "step": 2,
+     "action": "match the road category",
+     "explain": "Place the road in its class: Golden Quadrilateral Super Highways, National Highways, State Highways, District Roads, Rural Roads, Border Roads."
+    },
+    {
+     "step": 3,
+     "action": "verify the maintaining body",
+     "explain": "Confirm the responsible agency, such as NHAI for national highways or the Border Roads Organisation for strategic frontier roads."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.2.1",
+   "title": "Railways as the Principal Mode of Transport",
+   "section": "Railways",
+   "definition": "Railways carry freight and passengers over long distances and bind the economic life of the country, operating as the largest public sector undertaking organised into 17 zones.",
+   "formula": "",
+   "key_idea": "The first train ran from Mumbai to Thane in 1853 over 34 km; the rail network became a great integrating force over more than 150 years.",
+   "textbook_ref": "jess107.txt lines 160-215",
+   "question_patterns": [
+    "where and why is rail transport the most convenient means of transportation",
+    "how do the indian railways bind the economic life of the country",
+    "when and between which stations did the first train in india run",
+    "into how many zones is the indian railway reorganised",
+    "which is the largest public sector undertaking in india",
+    "what activities do railways make possible besides carrying goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "confirm the suitability claim",
+     "explain": "Railways suit long distance freight and passengers, and enable business, sightseeing and pilgrimage along with goods movement."
+    },
+    {
+     "step": 2,
+     "action": "check historical facts",
+     "explain": "Verify the 1853 Mumbai to Thane first run of 34 km and the network age of more than 150 years."
+    },
+    {
+     "step": 3,
+     "action": "verify organisational structure",
+     "explain": "Confirm the 17-zone reorganisation and the status of Indian Railways as the largest public sector undertaking."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.3.1",
+   "title": "Pipeline Transport Networks",
+   "section": "Pipelines",
+   "definition": "Pipelines move crude oil, petroleum products, natural gas and even solids converted to slurry from fields to refineries, fertilizer factories and thermal plants, with high initial laying cost but minimal running cost and no trans-shipment losses.",
+   "formula": "",
+   "key_idea": "Three important networks run from Upper Assam to Kanpur, Salaya to Jalandhar, and the 1,700 km Hazira-Vijaipur-Jagdishpur line, and the grid has grown to 18,500 km.",
+   "textbook_ref": "jess107.txt lines 280-310",
+   "question_patterns": [
+    "which mode of transportation reduces trans-shipment losses and delays",
+    "how can solids be transported through a pipeline",
+    "why are initial costs of pipelines high but running costs minimal",
+    "name the three important pipeline networks of india",
+    "which fields does the HVJ pipeline link",
+    "why could far inland refineries like barauni and mathura be built"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the cargo state",
+     "explain": "Confirm liquid, gas, or slurry-solid cargo suited to continuous pipeline flow."
+    },
+    {
+     "step": 2,
+     "action": "trace the network route",
+     "explain": "Match the line: Assam to Kanpur via Guwahati, Barauni and Prayagraj; Salaya to Jalandhar; HVJ from Mumbai High and Bassein to fertilizer, power and industrial complexes."
+    },
+    {
+     "step": 3,
+     "action": "verify the cost logic",
+     "explain": "Check the economics: high laying cost, minimal subsequent running cost, and elimination of trans-shipment losses or delays."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.4.1",
+   "title": "National Waterways and Inland Navigation",
+   "section": "Waterways",
+   "definition": "Waterways are the cheapest transport means for heavy and bulky goods, fuel-efficient and environment friendly, with 14,500 km of inland navigation now organised under the National Waterways Act, 2016.",
+   "formula": "",
+   "key_idea": "The 2016 Act declared 111 inland waterways as National Waterways, including the 5 declared earlier, to promote water transport as an economical supplement to rail and road.",
+   "textbook_ref": "jess107.txt lines 240-268",
+   "question_patterns": [
+    "why are waterways the cheapest means of transport",
+    "which act declared national waterways and when",
+    "how long are india's inland navigation waterways",
+    "which goods are most suitable for water transport",
+    "why is water transport called environment friendly",
+    "how many waterways were declared by the national waterways act 2016"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the economic claim",
+     "explain": "Check the stated advantages: cheapest mode, best for heavy and bulky cargo, fuel-efficient and environment friendly."
+    },
+    {
+     "step": 2,
+     "action": "confirm the legal framework",
+     "explain": "Cite the National Waterways Act, 2016 declaring 111 inland waterways including the 5 earlier National Waterways."
+    },
+    {
+     "step": 3,
+     "action": "link history to commerce",
+     "explain": "Note India's seafaring past, where ships carried commerce and culture, as the base of the modern network."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.5.1",
+   "title": "Major Sea Ports and Airways Connectivity",
+   "section": "Major Sea Ports",
+   "definition": "Sea ports on the east and west coasts handle overseas trade while airways, the fastest yet costliest mode, serve long distance traffic and difficult terrains, with UDAN extending regional connectivity.",
+   "formula": "",
+   "key_idea": "Ports were developed to relieve pressure on earlier ones, and Pawan Hans helicopter services support oil sector operations; UDAN (Ude Desh ka Aam Nagrik) is the regional connectivity scheme.",
+   "textbook_ref": "jess107.txt lines 355-460",
+   "question_patterns": [
+    "why is air travel preferred in the north eastern states",
+    "what is the udan regional connectivity scheme",
+    "which company provides helicopter services to oil sector in offshore areas",
+    "how do sea ports support international trade",
+    "which port was built to relieve the pressure on mumbai port",
+    "compare airways with other modes for difficult terrain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the mode and site",
+     "explain": "Separate coastal port functions for overseas cargo from airway functions of speed, high cost and access across dissected relief or flooded ground."
+    },
+    {
+     "step": 2,
+     "action": "match scheme to purpose",
+     "explain": "Connect UDAN with affordable regional air links and Pawan Hans with offshore oil operations."
+    },
+    {
+     "step": 3,
+     "action": "verify the connectivity role",
+     "explain": "Confirm how the port or air route integrates local, national and global trade flows."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.6.1",
+   "title": "Personal and Mass Communication Networks",
+   "section": "Communication",
+   "definition": "Communication lets ideas travel without the physical movement of the communicator, spanning personal channels like the postal network and mass channels like television, radio, press and films.",
+   "formula": "",
+   "key_idea": "The Indian postal network is the largest in the world; six mail channels named Rajdhani, Metro, Green, Business, Bulk Mail and Periodical speed up delivery in big cities, and the Central Board of Film Certification clears films.",
+   "textbook_ref": "jess107.txt lines 466-522",
+   "question_patterns": [
+    "distinguish between personal and mass communication",
+    "name the six mail channels introduced for quick delivery",
+    "which is the largest postal network in the world",
+    "what is the difference between first class and second class mail",
+    "which authority certifies indian and foreign films",
+    "in which language are the largest number of newspapers published"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the channel",
+     "explain": "Personal communication covers cards, envelopes and direct contact; mass communication covers television, radio, press and films."
+    },
+    {
+     "step": 2,
+     "action": "check the mail class",
+     "explain": "First-class mail (cards and envelopes) is airlifted; second-class mail (book packets, registered newspapers, periodicals) travels by surface."
+    },
+    {
+     "step": 3,
+     "action": "verify channels and authorities",
+     "explain": "List the six mail channels and name the Central Board of Film Certification as the film certifying authority."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.7.1",
+   "title": "Balance of Trade from Exports and Imports",
+   "section": "International Trade",
+   "definition": "The balance of trade of a country is the difference between the value of its exports and imports; a surplus when exports exceed imports is favourable, while a deficit is unfavourable.",
+   "formula": "balance_of_trade = export_value - import_value",
+   "key_idea": "International trade is called the economic barometer of a country because it rises in prosperity and falls in adversity, and its composition has shifted toward commodities and services.",
+   "textbook_ref": "jess107.txt lines 523-600",
+   "question_patterns": [
+    "calculate the balance of trade given export and import values",
+    "find whether the balance of trade is favourable or unfavourable",
+    "what is the difference between export and import values called",
+    "when is the balance of trade termed favourable",
+    "why is international trade called the economic barometer of a country",
+    "distinguish between international and local trade"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract imports from exports",
+     "explain": "Take the difference between export value and import value to get the balance of trade",
+     "compute": "balance_of_trade = export_value - import_value"
+    }
+   ]
+  },
+  {
+   "id": "jess.107.7.2",
+   "title": "Growth of the Cross-Country Gas Pipeline Grid",
+   "section": "Pipelines",
+   "definition": "The gas pipeline infrastructure that began with the 1,700 km HVJ line has expanded into a nationwide cross-country grid, so the newly added length is the difference between the expanded and original lengths.",
+   "formula": "added_pipeline = expanded_length - original_length",
+   "key_idea": "From 1,700 km at the HVJ stage, cross-country pipelines have grown to 18,500 km, an expansion of roughly seventeen thousand kilometres.",
+   "textbook_ref": "jess107.txt lines 296-310",
+   "question_patterns": [
+    "calculate how many kilometres of pipeline were added after the HVJ line",
+    "find the expansion of the gas pipeline grid from its original length",
+    "how much did the cross-country pipeline network grow",
+    "compute the added pipeline length given the expanded and original totals",
+    "which was the first long distance gas pipeline of india"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the difference in lengths",
+     "explain": "Subtract the original pipeline length from the expanded length to get the added kilometres",
+     "compute": "added_pipeline = expanded_length - original_length"
+    }
+   ]
+  },
+  {
+   "id": "jess.107.8.1",
+   "title": "Tourism as a Trade",
+   "section": "Tourism as a Trade",
+   "definition": "Tourism has grown into a trade that earns foreign exchange and supports local handicrafts and cultural pursuits, with heritage, eco, adventure, cultural, medical and business tourism drawing foreign visitors.",
+   "formula": "",
+   "key_idea": "Government schemes such as Swadesh Darshan 2.0, Vibrant Village Programme, PRASHAD and Paryatan Mitra promote tourism, which also builds national integration and international understanding.",
+   "textbook_ref": "jess107.txt lines 605-625",
+   "question_patterns": [
+    "why is tourism called a trade",
+    "name the schemes started to boost tourism in india",
+    "list the types of tourism foreign tourists visit india for",
+    "how does tourism promote national integration",
+    "what does prashad stand for",
+    "how does tourism support local handicrafts and culture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the trade character",
+     "explain": "Tourism earns foreign currency and supports local crafts without shipping physical goods abroad, making it a service trade."
+    },
+    {
+     "step": 2,
+     "action": "match scheme to goal",
+     "explain": "Connect Swadesh Darshan 2.0, Vibrant Village Programme, PRASHAD and Paryatan Mitra with heritage, pilgrimage and village tourism promotion."
+    },
+    {
+     "step": 3,
+     "action": "verify tourism types",
+     "explain": "Confirm the visitor motives: heritage, eco, adventure, cultural, medical and business tourism."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess107.txt lines 537-546",
+   "concept": "jess.107.7.1",
+   "question_type": "compute_balance",
+   "question_pattern": "A country exported goods worth {export_value} crore and imported goods worth {import_value} crore in a year. Calculate its balance of trade and state whether it is favourable.",
+   "extracted_variables": {
+    "export_value": 900,
+    "import_value": 650
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract imports from exports",
+     "explain": "Take the difference between export value and import value to get the balance of trade",
+     "compute": "balance_of_trade = export_value - import_value"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess107.txt lines 537-546",
+   "concept": "jess.107.7.1",
+   "question_type": "compute_balance",
+   "question_pattern": "In a quarter, exports stood at {export_value} million dollars while imports stood at {import_value} million dollars. Find the balance of trade.",
+   "extracted_variables": {
+    "export_value": 480,
+    "import_value": 540
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract imports from exports",
+     "explain": "Take the difference between export value and import value to get the balance of trade",
+     "compute": "balance_of_trade = export_value - import_value"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess107.txt lines 296-310",
+   "concept": "jess.107.7.2",
+   "question_type": "compute_expansion",
+   "question_pattern": "India's cross-country gas pipelines have grown from an original {original_length} km to {expanded_length} km. Calculate how many kilometres of pipeline were added.",
+   "extracted_variables": {
+    "original_length": 1700,
+    "expanded_length": 18500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference in lengths",
+     "explain": "Subtract the original pipeline length from the expanded length to get the added kilometres",
+     "compute": "added_pipeline = expanded_length - original_length"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess107.txt lines 296-310",
+   "concept": "jess.107.7.2",
+   "question_type": "compute_expansion",
+   "question_pattern": "A state's gas grid extended from {original_length} km to {expanded_length} km after new lines were laid. Find the added pipeline length.",
+   "extracted_variables": {
+    "original_length": 450,
+    "expanded_length": 1980
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference in lengths",
+     "explain": "Subtract the original pipeline length from the expanded length to get the added kilometres",
+     "compute": "added_pipeline = expanded_length - original_length"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess107.txt lines 647-700",
+   "questions": [
+    "Which two of the following extreme locations are connected by the east-west corridor? (a) Mumbai and Nagpur (b) Silchar and Porbandar (c) Mumbai and Kolkata (d) Nagpur and Siligudi",
+    "Which mode of transportation reduces trans-shipment losses and delays? (a) Railways (b) Roadways (c) Pipeline (d) Waterways",
+    "Which one of the following states is not connected with the H.V.J. pipeline? (a) Madhya Pradesh (b) Maharashtra (c) Gujarat (d) Uttar Pradesh",
+    "Which one of the following ports is the deepest land-locked and well-protected port along the east coast? (a) Chennai (b) Paradwip (c) V.O. Chidambaranar (Tuticorin) (d) Vishakhapatnam",
+    "Which one of the following is the most important modes of transportation in India? (a) Pipeline (b) Railways (c) Roadways (d) Airways",
+    "Which one of the following terms is used to describe trade between two or more countries? (a) Internal trade (b) International trade (c) External trade (d) Local trade",
+    "State any three merits of roadways.",
+    "Where and why is rail transport the most convenient means of transportation?",
+    "What is the significance of the border roads?",
+    "What is meant by trade? What is the difference between international and local trade?"
+   ]
+  }
+ ]
+}

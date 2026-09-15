@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_002",
+   "title": "c12_eco_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the Law of Diminishing Marginal Utility in your own words and list any four assumptions on which it is based.",
+     "a": "The Law of Diminishing Marginal Utility states that as a consumer consumes more units of a good, the additional satisfaction (marginal utility) from each successive unit decreases, ceteris paribus. Four key assumptions: (1) Rational consumer aiming to maximize satisfaction, (2) Utility is cardinally measurable in utils, (3) Marginal utility of money remains constant, (4) Utilities of different goods are independent (no complementarity/substitutability in consumption), (5) Units of the good are homogeneous, (6) Consumption is continuous without time gaps, (7) Tastes and preferences remain unchanged. A wrong answer typically omits \"ceteris paribus\" or confuses assumptions with exceptions (e.g., listing \"rare collections\" as an assumption instead of an exception), revealing the student memorized a list without understanding the ceteris paribus structure of economic laws.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the marginal utility of money is assumed to be constant in the Law of DMU. What happens to the law if this assumption is relaxed?",
+     "a": "The constant marginal utility of money assumption allows us to use money as a measuring rod for utility — if MU of money changed with income, the monetary value a consumer attaches to a good would shift not because the good's utility changed but because the measuring stick stretched or shrank. If relaxed, a rupee's worth of utility would vary across consumption levels, making it impossible to compare marginal utilities across units or derive a stable demand curve from MU = Price. A wrong answer often says \"money has constant utility\" (confusing total with marginal) or claims the law \"stops working\" without explaining the measurement problem, showing the student doesn't grasp that cardinal utility analysis requires a stable numeraire.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer's total utility (in utils) from consuming mangoes is given: TU(1)=20, TU(2)=36, TU(3)=48, TU(4)=56, TU(5)=60, TU(6)=60, TU(7)=57. Calculate the marginal utility for each unit. At which unit does the Law of DMU start operating? When does total utility reach its maximum?",
+     "a": "MU(1)=20, MU(2)=16, MU(3)=12, MU(4)=8, MU(5)=4, MU(6)=0, MU(7)=-3. The Law of DMU operates from the very first unit because MU falls continuously: 20 → 16 → 12 → 8 → 4 → 0 → -3. Total utility reaches its maximum of 60 utils at the 5th and 6th units (where MU=0). A wrong answer often claims DMU starts at the 2nd unit (confusing \"diminishing\" with \"diminished relative to first\") or says TU max at 5th unit only (missing that TU stays constant at 6th when MU=0), revealing confusion between the law's onset and the point where MU becomes zero/negative.",
+     "self_check": true
+    },
+    {
+     "q": "\"Diamonds have high marginal utility, water has low marginal utility — therefore diamonds are more expensive than water.\" Analyze this statement using the Law of DMU and the concept of scarcity. Is the reasoning correct?",
+     "a": "The reasoning is flawed — it confuses marginal utility with total utility and ignores scarcity. Water has high total utility but low marginal utility because it is abundant (large supply → high consumption → low MU). Diamonds have low total utility but high marginal utility because they are scarce (small supply → low consumption → high MU). Price is determined by marginal utility at the equilibrium quantity, not total utility. The Law of DMU explains why MU is low for abundant goods and high for scarce goods, but price reflects the intersection of MU (demand) and supply. A wrong answer typically says \"water is essential so it should be expensive\" (Adam Smith's paradox) or claims DMU doesn't apply to necessities, showing the student hasn't connected marginal utility to scarcity and market equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Law of Diminishing Marginal Utility fails for addictive goods like cigarettes because the more a person smokes, the more they crave the next cigarette — marginal utility increases.\"",
+     "a": "The evaluation is incorrect — addiction does not violate DMU; it shifts the entire utility schedule. For an addict, the MU curve starts higher and may decline more slowly, but it still slopes downward: the 10th cigarette gives less extra satisfaction than the 9th, even if both give more than a non-smoker's 1st cigarette. DMU refers to the slope of the MU curve for a given individual at a given time, not the level. True exceptions involve structural changes (e.g., rare collections where each additional unit increases MU due to completeness value) or violations of assumptions (discontinuous consumption, changing tastes). A wrong answer accepts the premise that addiction violates DMU, revealing confusion between a shift in the utility function and movement along it.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-life scenario (Indian context) where a consumer's behavior appears to violate the Law of DMU but actually does not because one of the assumptions is violated. Identify the violated assumption and explain.",
+     "a": "Scenario: During Diwali, Rahul buys 5 boxes of premium sweets (₹500 each) for gifting. The 5th box gives him more satisfaction than the 1st because completing the set for all relatives brings social prestige. Violated assumption: Homogeneous units / Independence of utilities. The units are not homogeneous — the 5th box completes a social obligation set, creating complementarity across units. DMU applies to identical units consumed for direct satisfaction, not to units whose value depends on the total collection. A poor answer might say \"DMU doesn't apply to festivals\" or \"utility increased so law is wrong,\" missing that the law's ceteris paribus conditions were broken — the good's characteristics changed across units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

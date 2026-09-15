@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy306",
+  "concepts": [
+    {
+      "id": "kegy.306.1.1",
+      "questions": [
+        {"q": "What is the science of acquiring information about the earth without physical contact called? (two words)", "a": "remote sensing"},
+        {"q": "What form of energy carries information from target to sensor? (two words)", "a": "electromagnetic energy"},
+        {"q": "Name one remote sensing platform besides aircraft. (one word)", "a": "satellites"},
+        {"q": "Which instruments record energy reflected from the target? (one word)", "a": "sensors"},
+        {"q": "How many stages does the remote sensing process run through, from energy source to interpretation? (number)", "a": "6"},
+        {"q": "What do sensors' recordings get converted into for map-making? (one word)", "a": "images"},
+        {"q": "Does remote sensing require touching the target or not? (short phrase)", "a": "no physical contact"}
+      ]
+    },
+    {
+      "id": "kegy.306.2.1",
+      "questions": [
+        {"q": "Which Indian satellite series supplies remote sensing images? (short form)", "a": "IRS"},
+        {"q": "Which Indian space agency launches the IRS satellites? (short form)", "a": "ISRO"},
+        {"q": "Which water-related application does IRS data serve, alongside agriculture and forestry? (two words)", "a": "water resources"},
+        {"q": "Which disasters does IRS data help monitor besides floods? (one word)", "a": "drought"},
+        {"q": "Digital multispectral data processed for interpretation form what kind of composite? (two words)", "a": "false colour"},
+        {"q": "Interpreters identify features by their spectral what? (one word)", "a": "signatures"},
+        {"q": "Which land parameter, mapped by IRS, guides town and country planners? (two words)", "a": "land use"}
+      ]
+    },
+    {
+      "id": "kegy.306.3.1",
+      "questions": [
+        {"q": "Name one wavelength region used in remote sensing besides visible light and infrared. (one word)", "a": "microwave"},
+        {"q": "Does each surface target reflect energy differently by what property of the radiation? (one word)", "a": "wavelength"},
+        {"q": "Which surface reflects strongly in the infrared because of its cell structure: vegetation or water (name the strong infrared reflector)? (one word)", "a": "vegetation"},
+        {"q": "Which surface absorbs most radiation and appears dark: water or soil (name the absorber)? (one word)", "a": "water"},
+        {"q": "The interaction of radiation with targets produces spectral what that sensors record? (two words)", "a": "spectral differences"},
+        {"q": "How many wavelength regions are named for remote sensing (visible, infrared, microwave)? (number)", "a": "3"},
+        {"q": "Do sensors record reflected or emitted energy from the surface? (short phrase)", "a": "reflected or emitted"}
+      ]
+    }
+  ]
+}

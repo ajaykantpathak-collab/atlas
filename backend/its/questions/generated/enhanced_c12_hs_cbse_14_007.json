@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_007",
+   "title": "c12_hs_cbse_14_007",
+   "questions": [
+    {
+     "q": "Name the chemical category of laundry aid that functions by sequestering calcium and magnesium ions in hard water, and give one common example used in Indian households.",
+     "a": "Builder; sodium carbonate (washing soda) or sodium tripolyphosphate (STP). A wrong answer like \"bleach\" or \"blue\" reveals the student confuses the function — they think any additive that \"helps cleaning\" is a bleach, not understanding builders specifically target water hardness, not stains or colour.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chlorine bleach (sodium hypochlorite) must never be used on wool or silk, but oxygen bleach (hydrogen peroxide) can be used with caution.",
+     "a": "Chlorine bleach oxidises the disulfide bonds in keratin (protein fibre), causing irreversible degradation and yellowing; oxygen bleach is milder and at controlled pH/temperature does not attack peptide bonds as aggressively. A wrong answer citing \"chlorine is stronger\" without mentioning protein chemistry shows the student memorised a rule without understanding the fibre-level mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A household has hard water (200 ppm CaCO₃ equivalent). They wash white cotton sheets with detergent but notice graying over time. Which laundry aid should they add, in what form, and at which stage of the wash cycle? Justify.",
+     "a": "Add sodium carbonate (builder) directly to the wash water before adding detergent, at 1–2 g/L. It precipitates Ca²⁺ as CaCO₃ and Mg²⁺ as MgCO₃, preventing detergent precipitation and soil redeposition. Wrong answers like \"add blue in rinse\" or \"use chlorine bleach\" reveal confusion between addressing hardness (builder) vs. whiteness (blue/bleach) — the root cause is hardness, not stain or yellowing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of ultramarine blue (traditional blue) and fluorescent brightening agents (modern optical brighteners). Which is more suitable for polyester-cotton blends and why?",
+     "a": "Ultramarine blue deposits microscopic blue particles on fabric (subtractive colour mixing — masks yellow by adding blue). Fluorescent brightening agents (FBAs) absorb UV and re-emit blue light (additive fluorescence — increases apparent whiteness). FBAs are better for polyester-cotton blends because they have affinity for both fibres and survive heat-setting; ultramarine particles may not deposit evenly on hydrophobic polyester. A wrong answer stating \"both do the same thing\" misses the fundamental mechanistic difference (particulate vs. molecular fluorescence).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Starch is the best stiffening agent for all fabrics because it is natural and inexpensive.\" Provide two specific fabric-type counterexamples with chemical reasoning.",
+     "a": "False. (1) Synthetic fibres (polyester, nylon): starch does not adhere well to hydrophobic surfaces and flakes off; synthetic stiffeners (e.g., polyvinyl alcohol) form durable films. (2) Wool/silk: starch requires high-temperature ironing to set, which damages protein fibres; gum arabic or low-temperature synthetic finishes are used instead. A wrong answer agreeing with the claim shows the student ignores fibre surface chemistry and thermal stability constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a laundry aid protocol for a hospital laundry washing white cotton patient gowns stained with blood (protein), iodine (colour), and washed in 300 ppm hard water. Specify the aid(s), sequence, temperature, and pH constraints for each step.",
+     "a": "Pre-soak: enzyme presoak (protease) at 40°C, pH 9–10 for blood. Main wash: builder (STP 2 g/L) + detergent at 60–70°C, pH 10–11. Bleach step: oxygen bleach (H₂O₂ 0.5%) at 60°C, pH 10.5–11 for iodine. Rinse: FBA (0.05%) in final rinse at 30°C, pH 7. No chlorine bleach (damages cotton at high temp), no starch (hygiene protocols prohibit stiffening). A poor answer omits pH/temperature control or uses chlorine bleach, showing lack of integration across stain chemistry, water chemistry, and fibre limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

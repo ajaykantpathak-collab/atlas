@@ -1,0 +1,530 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "Factors of Production",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees107.txt",
+ "concepts": [
+  {
+   "id": "c8ss.7.1",
+   "title": "Meaning of Production",
+   "section": "Introduction to Production",
+   "definition": "Production is the process of combining various material inputs and immaterial inputs to make goods and services that satisfy human wants and needs.",
+   "formula": "",
+   "key_idea": "Production converts inputs (factors of production) into outputs (goods and services) that have value and utility for consumers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define the term 'production' in economics.",
+    "Explain why production is considered a continuous process.",
+    "Distinguish between production of goods and production of services.",
+    "How does production create utility? Give examples.",
+    "Why is production important for the growth of an economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the inputs used in the production process.",
+     "explain": "Inputs include land, labour, capital, and entrepreneurship -- the four factors of production."
+    },
+    {
+     "step": 2,
+     "action": "Describe the transformation of inputs into outputs.",
+     "explain": "Through a production process, raw materials and human effort are converted into finished goods or services that satisfy wants."
+    },
+    {
+     "step": 3,
+     "action": "Verify that the output creates utility or value.",
+     "explain": "If the output satisfies a human want or need and has value, the activity qualifies as production."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer grows wheat from seeds, uses labour and water, and sells the harvested wheat. Is this production? Explain.",
+     "solution": "The farmer combines land, seeds (capital), labour, and water to produce wheat. The wheat has utility because it can be consumed as food or sold. Since inputs are transformed into a valuable output, this is production.",
+     "answer": "Yes, this is an example of production."
+    },
+    {
+     "question": "A teacher delivers a lesson to students in a classroom. Is this production? Justify your answer.",
+     "solution": "The teacher uses knowledge and effort (labour) to deliver a service -- education. Although no physical good is produced, the service creates utility by satisfying the need for learning. Production of services is also a form of production.",
+     "answer": "Yes, this is production of a service, which is a valid form of production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define production and explain its role in satisfying human wants.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples each of production of goods and production of services.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how production contributes to the economic growth of a country.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.2",
+   "title": "Factors of Production",
+   "section": "Factors of Production",
+   "definition": "Factors of production are the resources or inputs used in the production of goods and services. The four main factors are land, labour, capital, and entrepreneurship.",
+   "formula": "",
+   "key_idea": "No single factor alone can produce anything; all four factors -- land, labour, capital, and entrepreneurship -- must be combined in appropriate proportions for production to take place.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the four factors of production and define each.",
+    "Explain why all four factors of production are necessary.",
+    "How do the factors of production work together in a factory?",
+    "What happens if any one factor of production is missing?",
+    "Classify the following as land, labour, capital, or entrepreneurship."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the four factors of production.",
+     "explain": "The four factors are land (natural resources), labour (human effort), capital (man-made means of production), and entrepreneurship (organisation and risk-bearing)."
+    },
+    {
+     "step": 2,
+     "action": "Examine how the factors are combined.",
+     "explain": "An entrepreneur combines land, labour, and capital in the right proportions to produce goods or services."
+    },
+    {
+     "step": 3,
+     "action": "Verify that all four factors are present.",
+     "explain": "If any factor is absent, production cannot begin or will be inefficient. All four are essential."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Identify the factors of production in a bakery that produces bread.",
+     "solution": "Land: the plot on which the bakery stands. Labour: the bakers and helpers who knead and bake. Capital: ovens, mixers, flour, and money. Entrepreneurship: the bakery owner who organises the business and bears risk.",
+     "answer": "Land, labour, capital, and entrepreneurship are all present in the bakery."
+    },
+    {
+     "question": "A tailor stitches clothes using a sewing machine and cloth. Which factors of production are involved?",
+     "solution": "Land: the shop space. Labour: the tailor's effort. Capital: the sewing machine and cloth. Entrepreneurship: the tailor organises the work and takes the risk of running the business.",
+     "answer": "All four factors of production are involved in the tailor's work."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the four factors of production and write one sentence about each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is it said that no single factor of production can produce anything on its own?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.3",
+   "title": "Land as a Factor of Production",
+   "section": "Land",
+   "definition": "Land, as a factor of production, refers to all natural resources used in production. It includes not only the surface of the earth but also forests, water, minerals, and other gifts of nature.",
+   "formula": "",
+   "key_idea": "Land is a passive factor of production. It is fixed in supply, has no cost of production, and is heterogeneous in quality, but it provides the base and raw materials for all production.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define land as a factor of production.",
+    "List three characteristics of land as a factor of production.",
+    "Why is land called a passive factor of production?",
+    "Explain why the supply of land is fixed.",
+    "How does the quality of land affect production? Give an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the natural resources that constitute land.",
+     "explain": "Land includes soil, water bodies, forests, minerals, and other naturally occurring resources used in production."
+    },
+    {
+     "step": 2,
+     "action": "State the key characteristics of land.",
+     "explain": "Land is a free gift of nature, fixed in supply, heterogeneous in fertility, and is a passive factor that needs labour and capital to be productive."
+    },
+    {
+     "step": 3,
+     "action": "Verify the role of land in a given production scenario.",
+     "explain": "Check whether the scenario uses natural resources as a base or raw material; if so, land is a factor in that production."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer cultivates rice on a plot of land using water from a nearby river. Explain the role of land in this production.",
+     "solution": "The plot of soil and the river water are natural resources, so they fall under land. Land provides the base for cultivation and the water needed for the crop. Without land, the farmer could not grow rice.",
+     "answer": "Land provides the physical base and natural resources (soil and water) for rice cultivation."
+    },
+    {
+     "question": "Why is land described as a passive factor of production?",
+     "solution": "Land by itself cannot produce anything. It needs labour to till it, capital for tools and seeds, and entrepreneurship to organise the work. Land only acts as a base and a source of raw materials, which is why it is called a passive factor.",
+     "answer": "Land is passive because it requires the other factors to make it productive."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define land as a factor of production and list any three of its characteristics.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain with an example how the quality of land affects the level of production.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.4",
+   "title": "Labour as a Factor of Production",
+   "section": "Labour",
+   "definition": "Labour is the human physical and mental effort used in the production of goods and services. It is one of the four factors of production.",
+   "formula": "",
+   "key_idea": "Labour is an active factor of production. It cannot be separated from the worker, it is perishable, it has a weak bargaining power, and its supply generally increases with wages up to a point.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define labour as a factor of production.",
+    "List three characteristics of labour.",
+    "Why is labour called an active factor of production?",
+    "Explain why labour is perishable.",
+    "How does the skill of a worker affect the quality of production?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the human effort involved in the activity.",
+     "explain": "Labour includes both physical effort (e.g., lifting, ploughing) and mental effort (e.g., planning, teaching) used in production."
+    },
+    {
+     "step": 2,
+     "action": "State the characteristics of labour.",
+     "explain": "Labour is inseparable from the worker, perishable (a day's lost work cannot be recovered), and is an active factor that operates on land and capital."
+    },
+    {
+     "step": 3,
+     "action": "Verify the role of labour in the scenario.",
+     "explain": "If human effort is essential to carry out the production activity, labour is a factor in that activity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A construction worker carries bricks and builds a wall. Explain the role of labour in this activity.",
+     "solution": "The worker uses physical effort to carry bricks and construct the wall. This human effort is labour. Without labour, the bricks (capital) and the site (land) alone could not produce the wall.",
+     "answer": "Labour is the human effort that converts materials into the finished wall."
+    },
+    {
+     "question": "Why is labour said to be perishable?",
+     "solution": "A worker who does not work on a particular day cannot recover that day's labour later. The time and effort are lost forever. This is unlike capital or land, which can be stored. Hence labour is perishable.",
+     "answer": "Labour is perishable because unused labour time cannot be stored or recovered."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define labour and state any three characteristics of labour as a factor of production.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why labour is considered an active factor of production.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.5",
+   "title": "Capital as a Factor of Production",
+   "section": "Capital",
+   "definition": "Capital refers to all man-made goods that are used in the production of other goods and services. It includes machinery, tools, buildings, raw materials, and money invested in production.",
+   "formula": "",
+   "key_idea": "Capital is a produced means of production. It is man-made, can be classified as physical capital (machines, tools) and human capital (skills, education), and it enhances the productivity of land and labour.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define capital as a factor of production.",
+    "Distinguish between physical capital and human capital.",
+    "Give three examples of physical capital used in farming.",
+    "Explain how capital increases the productivity of labour.",
+    "Why is money called capital only when it is invested in production?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the man-made resources used in production.",
+     "explain": "Capital includes tools, machines, buildings, vehicles, raw materials, and money invested to buy these productive resources."
+    },
+    {
+     "step": 2,
+     "action": "Classify the capital as physical or human capital.",
+     "explain": "Physical capital consists of tangible assets like machines and tools. Human capital consists of the skills, knowledge, and training of workers."
+    },
+    {
+     "step": 3,
+     "action": "Verify that the capital enhances productivity.",
+     "explain": "If the resource helps produce more output or better output with the same land and labour, it is functioning as capital."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer uses a tractor and a plough to cultivate the field. Identify the type of capital and explain its role.",
+     "solution": "The tractor and plough are man-made tools used in production, so they are physical capital. They help the farmer plough more land in less time than using manual labour alone, thereby increasing productivity.",
+     "answer": "The tractor and plough are physical capital that increases the productivity of the farmer."
+    },
+    {
+     "question": "A factory invests in training its workers to operate new machines. What type of capital is this and why is it important?",
+     "solution": "The training builds the skills and knowledge of the workers, which is human capital. Human capital is important because skilled workers can operate machines more efficiently, produce better quality goods, and adapt to new technology.",
+     "answer": "This is human capital, which improves the efficiency and quality of production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define capital and distinguish between physical capital and human capital with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain how the use of capital can increase the productivity of land and labour.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.6",
+   "title": "Physical and Human Capital",
+   "section": "Capital",
+   "definition": "Physical capital consists of tangible, man-made assets such as machines, tools, buildings, and raw materials used in production. Human capital consists of the knowledge, skills, training, and health of workers that enhance their productivity.",
+   "formula": "",
+   "key_idea": "Physical capital improves production by providing better tools and equipment, while human capital improves production by making workers more skilled and efficient. Both are essential for modern production.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define physical capital with two examples.",
+    "Define human capital with two examples.",
+    "Distinguish between physical capital and human capital.",
+    "How does education contribute to human capital?",
+    "Why is investment in human capital important for a country?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the resource is tangible or intangible.",
+     "explain": "Physical capital is tangible (e.g., machines, buildings). Human capital is intangible (e.g., skills, knowledge, health)."
+    },
+    {
+     "step": 2,
+     "action": "Determine how the resource enhances production.",
+     "explain": "Physical capital provides better tools and equipment. Human capital makes workers more productive through education, training, and health."
+    },
+    {
+     "step": 3,
+     "action": "Verify the classification in the given scenario.",
+     "explain": "If the resource is a tangible asset, it is physical capital. If it is the skill or knowledge of a person, it is human capital."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the following as physical or human capital: (a) a computer in an office, (b) a software engineer's programming skills.",
+     "solution": "(a) A computer is a tangible, man-made asset used in production, so it is physical capital. (b) The programming skills of the engineer are knowledge and expertise, so they are human capital.",
+     "answer": "(a) Physical capital; (b) Human capital."
+    },
+    {
+     "question": "How does investment in education increase human capital?",
+     "solution": "Education improves the knowledge and skills of people. Educated workers can perform complex tasks, use technology effectively, and produce more. Thus investment in education increases human capital and raises productivity.",
+     "answer": "Education increases human capital by improving knowledge, skills, and productivity of workers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give two examples each of physical capital and human capital.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why investment in human capital is as important as investment in physical capital.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.7",
+   "title": "Entrepreneurship and Organisation",
+   "section": "Entrepreneurship",
+   "definition": "Entrepreneurship is the factor of production that involves organising the other factors -- land, labour, and capital -- and taking the risk of running a business to produce goods or services.",
+   "formula": "",
+   "key_idea": "The entrepreneur brings together land, labour, and capital, makes decisions about what and how to produce, and bears the risk of profit or loss. Without entrepreneurship, the other factors remain unorganised and unproductive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define entrepreneurship as a factor of production.",
+    "List three functions of an entrepreneur.",
+    "Why is risk-bearing an important function of an entrepreneur?",
+    "Explain how an entrepreneur organises the other factors of production.",
+    "What is the reward for entrepreneurship called?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the person who organises the business.",
+     "explain": "The entrepreneur is the individual who takes the initiative to start a business, combine the factors of production, and make production decisions."
+    },
+    {
+     "step": 2,
+     "action": "Describe how the entrepreneur combines the factors.",
+     "explain": "The entrepreneur hires labour, acquires land and capital, decides what to produce and how to produce it, and coordinates all activities."
+    },
+    {
+     "step": 3,
+     "action": "Verify that the entrepreneur bears the risk.",
+     "explain": "If the business earns a profit, the entrepreneur gains; if it incurs a loss, the entrepreneur bears it. This risk-bearing confirms the entrepreneurial role."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person starts a small restaurant by renting a shop, hiring a cook and a waiter, buying kitchen equipment, and managing the daily operations. Identify the role of entrepreneurship.",
+     "solution": "The person who starts the restaurant is the entrepreneur. He rents the shop (land), hires the cook and waiter (labour), buys kitchen equipment (capital), and organises everything. He also bears the risk of profit or loss from the restaurant.",
+     "answer": "The person demonstrates entrepreneurship by organising land, labour, and capital and bearing the business risk."
+    },
+    {
+     "question": "What is the reward for entrepreneurship and why?",
+     "solution": "The reward for entrepreneurship is profit. Profit is the income left after paying rent for land, wages for labour, and interest for capital. It is the return for the entrepreneur's risk-bearing and organisational effort.",
+     "answer": "The reward for entrepreneurship is profit, earned for organising production and bearing risk."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define entrepreneurship and list any three functions of an entrepreneur.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why entrepreneurship is essential for production even when land, labour, and capital are available.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.8",
+   "title": "Role of Technology in Production",
+   "section": "Technology and Production",
+   "definition": "Technology refers to the methods, processes, and equipment used to convert inputs into outputs. In production, technology determines how efficiently land, labour, and capital are combined to produce goods and services.",
+   "formula": "",
+   "key_idea": "Better technology allows more output to be produced with the same inputs, or the same output with fewer inputs. It improves quality, reduces cost, and enables new kinds of products.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define technology in the context of production.",
+    "Explain how technology increases productivity.",
+    "Give two examples of technology improving agricultural production.",
+    "How does technology affect the cost of production?",
+    "Explain the difference between labour-intensive and technology-intensive production."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the technology or method used in production.",
+     "explain": "Technology includes tools, machines, processes, and digital systems used to transform inputs into outputs."
+    },
+    {
+     "step": 2,
+     "action": "Compare output before and after the technology.",
+     "explain": "If the same inputs produce more output, or the same output uses fewer inputs after the technology is introduced, productivity has improved."
+    },
+    {
+     "step": 3,
+     "action": "Verify the effect on cost or quality.",
+     "explain": "Technology that reduces cost per unit or improves product quality demonstrates a positive role of technology in production."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer switches from using a wooden plough to a tractor. Explain how this change affects production.",
+     "solution": "The tractor is a better technology than the wooden plough. It allows the farmer to plough more land in less time, prepare the field better, and ultimately produce more crops with the same labour. This increases productivity and reduces the cost per unit of output.",
+     "answer": "Using a tractor increases the farmer's productivity and reduces the cost of production."
+    },
+    {
+     "question": "A factory introduces automated machines that reduce the number of workers needed to produce the same number of goods. What is the effect of this technology?",
+     "solution": "The automated machines are an improved technology. They allow the same output to be produced with fewer workers, which reduces the labour cost per unit. This is an example of technology-intensive production that increases efficiency.",
+     "answer": "The technology reduces the labour required and lowers the cost per unit of production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain with an example how technology can increase productivity in production.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between labour-intensive and technology-intensive production with one example each.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.7.9",
+   "title": "Productivity and Efficiency",
+   "section": "Productivity and Efficiency",
+   "definition": "Productivity is the ratio of output produced to the inputs used. Efficiency refers to how well inputs are utilised to produce output without waste. Higher productivity and efficiency mean more output is obtained from the same or fewer inputs.",
+   "formula": "Productivity = Output / Input",
+   "key_idea": "Productivity measures how much output is produced per unit of input. Efficiency measures how well resources are used without waste. Improving technology, skills, and organisation can raise both productivity and efficiency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define productivity and state its formula.",
+    "A factory produces 200 units using 50 units of labour. Calculate labour productivity.",
+    "Explain the difference between productivity and efficiency.",
+    "How can a farmer improve the productivity of land?",
+    "If output increases while inputs remain the same, what happens to productivity?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the output produced and the input used.",
+     "explain": "Output is the quantity of goods or services produced. Input is the quantity of the factor used (e.g., labour hours, land area, capital units)."
+    },
+    {
+     "step": 2,
+     "action": "Apply the productivity formula.",
+     "explain": "Productivity is calculated by dividing the output by the input used to produce it.",
+     "compute": "productivity = output / input"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result.",
+     "explain": "A higher value means higher productivity. Compare the value before and after a change to judge whether productivity has improved."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A worker produces 120 toys in 8 hours. Calculate the labour productivity per hour.",
+     "solution": "Output = 120 toys. Input = 8 hours. Productivity = Output / Input = 120 / 8 = 15 toys per hour.",
+     "answer": "Labour productivity = 15 toys per hour."
+    },
+    {
+     "question": "A farm produces 600 kg of wheat from 2 hectares of land. Calculate the productivity of land.",
+     "solution": "Output = 600 kg. Input = 2 hectares. Productivity = Output / Input = 600 / 2 = 300 kg per hectare.",
+     "answer": "Land productivity = 300 kg per hectare."
+    },
+    {
+     "question": "After adopting a new machine, a factory's output rises from 1000 units to 1500 units while using the same 100 units of capital. Calculate the change in capital productivity.",
+     "solution": "Old productivity = 1000 / 100 = 10 units per capital unit. New productivity = 1500 / 100 = 15 units per capital unit. Change = 15 - 10 = 5 units per capital unit.",
+     "answer": "Capital productivity increases by 5 units per capital unit."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A factory produces 500 units using 25 units of labour. Calculate the labour productivity.",
+     "type": "compute"
+    },
+    {
+     "question": "A farm produces 900 kg of rice from 3 hectares of land. Calculate the productivity of land.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between productivity and efficiency, and state one way each can be improved.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus, hees107 = Ch 7 Factors of Production)"
+}

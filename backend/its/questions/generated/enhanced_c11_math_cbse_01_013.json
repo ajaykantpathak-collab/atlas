@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_013",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_013",
+   "title": "c11_math_cbse_01_013",
+   "questions": [
+    {
+     "q": "State both De Morgan's laws for sets A and B with universal set U using proper set notation. No proof required, only the statements.",
+     "a": "The two laws are: (1) (A ∪ B)' = A' ∩ B' and (2) (A ∩ B)' = A' ∪ B'. A wrong answer where the student writes (A ∪ B)' = A' ∪ B' reveals confusion between the two laws — they have swapped the operations incorrectly, not understanding that complementation swaps ∪ with ∩. Another common error is omitting the universal set U or writing complement without reference to U, indicating they don't grasp that complement is always relative to a universal set.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why (A ∪ B)' = A' ∩ B' is true, using the logical meaning of \"or\" and \"and\". Do not use Venn diagrams or algebraic proof — only logical reasoning about what it means for an element to belong to each side.",
+     "a": "An element x belongs to (A ∪ B)' means x is NOT in A ∪ B, which means x is NOT in A AND x is NOT in B (since if x were in either, it would be in the union). This is exactly the condition for x to be in A' ∩ B' — x is in A' (not in A) AND x is in B' (not in B). A wrong answer that says \"x is not in A or not in B\" reveals the student is confusing the negation of a disjunction: they think ¬(P ∨ Q) = ¬P ∨ ¬Q instead of the correct ¬P ∧ ¬Q. This is the fundamental logical error underlying De Morgan's laws.",
+     "self_check": true
+    },
+    {
+     "q": "Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A = {2, 4, 6, 8, 10}, B = {3, 6, 9}. Verify De Morgan's first law (A ∪ B)' = A' ∩ B' by computing both sides explicitly and showing they are equal.",
+     "a": "Step 1: A ∪ B = {2, 3, 4, 6, 8, 9, 10}\nStep 2: (A ∪ B)' = U \\ (A ∪ B) = {1, 5, 7}\nStep 3: A' = U \\ A = {1, 3, 5, 7, 9}\nStep 4: B' = U \\ B = {1, 2, 4, 5, 7, 8, 10}\nStep 5: A' ∩ B' = {1, 5, 7}\nStep 6: Both sides equal {1, 5, 7}, so law is verified.\nA wrong answer where the student gets {1, 3, 5, 7} for the left side reveals they forgot to remove 3 and 9 from the complement (they only removed A's elements). If they get {1, 3, 5, 7, 9} for the right side, they computed A' ∪ B' instead of A' ∩ B' — the classic operation-swap error.",
+     "self_check": true
+    },
+    {
+     "q": "Given three sets A, B, C with universal set U, a student claims that (A ∪ B ∪ C)' = A' ∪ B' ∪ C' by \"extending\" De Morgan's law. Analyze this claim: is it true or false? If false, state the correct generalization and explain why the student's version is wrong using a counterexample with small finite sets.",
+     "a": "The claim is FALSE. The correct generalization is (A ∪ B ∪ C)' = A' ∩ B' ∩ C' (complement of union = intersection of complements). The student incorrectly kept ∪ instead of changing to ∩. Counterexample: U = {1,2,3}, A={1}, B={2}, C={3}. Then A∪B∪C={1,2,3}, so (A∪B∪C)'=∅. But A'={2,3}, B'={1,3}, C'={1,2}, so A'∪B'∪C'={1,2,3} ≠ ∅. A wrong answer accepting the student's claim shows the student doesn't understand that De Morgan's law fundamentally swaps the operation — extending to more sets requires changing ALL ∪ to ∩, not keeping ∪.",
+     "self_check": true
+    },
+    {
+     "q": "A student proves (A ∩ B)' = A' ∪ B' as follows: \"Let x ∈ (A ∩ B)'. Then x ∉ A ∩ B. So x ∉ A or x ∉ B. Therefore x ∈ A' or x ∈ B', so x ∈ A' ∪ B'.\" Evaluate this proof: is it complete and correct? If not, identify the missing step(s) and logical gap(s).",
+     "a": "The proof is INCOMPLETE. It only shows (A ∩ B)' ⊆ A' ∪ B' (one direction). To prove set equality, the student must ALSO show A' ∪ B' ⊆ (A ∩ B)' by taking x ∈ A' ∪ B' and proving x ∈ (A ∩ B)'. The logical gap: \"x ∉ A ∩ B ⇒ x ∉ A or x ∉ B\" is correct (negation of conjunction), but the proof lacks the reverse implication and the double-inclusion structure. A wrong answer saying \"the proof is correct\" reveals the student doesn't understand that set equality requires proving BOTH subset directions, not just one.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian school context) involving three sets where applying De Morgan's law simplifies finding a desired group. Describe the sets, the universal set, and show how the law reduces the work compared to direct computation.",
+     "a": "Scenario: A Class 11 school has U = all 120 students. A = students taking Physics (50), B = students taking Chemistry (45), C = students taking Biology (40). We want students taking NEITHER Physics NOR Chemistry NOR Biology. Direct method: find A ∪ B ∪ C (needs inclusion-exclusion), then complement. Using De Morgan: (A ∪ B ∪ C)' = A' ∩ B' ∩ C'. Find A' = 70 students not in Physics, B' = 75 not in Chemistry, C' = 80 not in Biology. Then find intersection of these three complements. A poor answer gives a scenario with only two sets (not three) or doesn't explain WHY De Morgan's law simplifies it (e.g., if complements are easier to compute than the union). This reveals the student can't recognize when the law is actually useful versus just a formal manipulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

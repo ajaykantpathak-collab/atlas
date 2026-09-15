@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_006",
+   "title": "c10_civ_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the constitutional mechanism that ensures representation of Scheduled Castes and Scheduled Tribes in the Lok Sabha and State Legislative Assemblies?",
+     "a": "The Constitution provides for reserved constituencies under Articles 330 (Lok Sabha) and 332 (State Assemblies) where only candidates belonging to Scheduled Castes or Scheduled Tribes can contest, though all voters in the constituency vote. A wrong answer (e.g., \"separate electorates\" or \"nomination by the President\") reveals confusion between reserved constituencies (joint electorate, reserved candidate) and separate electorates (colonial system where only community members vote), which India explicitly rejected.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution use reserved constituencies (joint electorate) instead of separate electorates for SC/ST representation?",
+     "a": "Reserved constituencies maintain national integration by letting all voters participate, while ensuring SC/ST candidates win; separate electorates would fragment the electorate along caste lines, undermining unity. A wrong answer (e.g., \"separate electorates are more fair\" or \"reserved constituencies give extra votes\") shows misunderstanding of the Constituent Assembly debates where leaders like Ambedkar initially supported separate electorates but accepted reserved seats under the Poona Pact (1932) to preserve Hindu unity.",
+     "self_check": true
+    },
+    {
+     "q": "In a state election, Party A wins 110 seats, Party B wins 90, and Party C wins 40 in a 240-seat assembly. Party B and C form a post-poll alliance to claim majority. Identify the form of power sharing and explain how it reflects the principle of power sharing among political parties.",
+     "a": "This is power sharing among political parties through a post-poll coalition alliance. Party B and C share executive power (ministerial berths) and agree on a common minimum programme. A wrong answer (e.g., \"this is vertical power sharing\" or \"this is majoritarianism\") fails to recognize that coalition governments distribute power across parties, preventing a single party from dominating despite not having a majority — a core feature of multiparty democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Belgian 'community government' model with India's 'reserved constituencies' for social group power sharing. Which model gives more autonomous decision-making power to the minority community?",
+     "a": "Belgium's community government (elected by one language community — Dutch, French, German) has autonomous powers over culture, education, and language, giving the minority community direct self-rule. India's reserved constituencies integrate SC/ST representatives into the general legislature without separate legislative domain. A wrong answer (e.g., \"both are the same\" or \"reserved constituencies give more autonomy\") misses the fundamental difference: community government is a form of non-territorial federalism; reserved constituencies are inclusion within a shared legislature.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Coalition governments are unstable and weaken governance; therefore, a single-party majority is better for democracy.\" Use the prudential and moral reasons for power sharing.",
+     "a": "The statement ignores prudential reasons: coalitions force consensus, accommodate regional diversity, and prevent majoritarianism (as in Sri Lanka). Morally, they respect the plurality of voter preferences. While coalitions can be unstable, they deepen democracy by sharing power. A wrong answer (e.g., \"single party is always better for development\") reflects a majoritarian bias and overlooks that India's most stable reform periods (1991, 1999-2004, 2014-2024) involved coalition or alliance governance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a power-sharing arrangement for a fictional diverse city with three major linguistic groups (A: 50%, B: 30%, C: 20%) that ensures no group dominates the city council. Specify the mechanism (reserved seats, community government, coalition requirement) and justify your choice.",
+     "a": "A good answer proposes: (1) Reserved seats for Groups B and C in the city council proportional to population, elected by all voters (joint electorate); (2) A community government for each linguistic group handling language, culture, and education; (3) A coalition rule requiring the Mayor to be elected with support from at least two groups. Justification: combines inclusion (reserved seats), autonomy (community government), and forced consensus (coalition rule). A poor answer proposes only one mechanism or suggests separate electorates, showing inability to combine multiple forms of power sharing for deep accommodation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

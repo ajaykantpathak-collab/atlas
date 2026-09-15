@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Empires and Kingdoms: 6th to 10th Centuries",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.3.1",
+   "title": "Many Kingdoms after the Guptas",
+   "section": "Introduction",
+   "definition": "From the sixth to the tenth centuries no single power ruled the subcontinent: kingdoms rose and fell across the north, and the south saw the Pallavas, Pandyas, Chalukyas and, later, the Cholas.",
+   "formula": "",
+   "key_idea": "Political division did not stop the flow of trade, temples and texts across the regions.",
+   "textbook_ref": "gees203.txt, Introduction",
+   "question_patterns": [
+    "which kingdoms ruled north india after the guptas",
+    "name the southern kingdoms of this period",
+    "why is this age called one of empires and kingdoms",
+    "how did kingdoms of this period earn revenue",
+    "what major changes characterised this period",
+    "how did culture continue across political borders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.3.2",
+   "title": "Kingdoms of the South and the North",
+   "section": "Regional powers",
+   "definition": "In the Deccan and the south, the Chalukyas and Rashtrakutas, Pallavas and Pandyas built temple cities and fleets, while in the north kingdoms such as those of Harsha and later the Gurjara-Pratiharas held sway.",
+   "formula": "",
+   "key_idea": "Region by region, local powers matured: each left its own style of temples, inscriptions and administration.",
+   "textbook_ref": "gees203.txt, Regional powers",
+   "question_patterns": [
+    "which powers fought for supremacy in the deccan",
+    "what are the pallavas and pandyas remembered for",
+    "which northern king is remembered from this age",
+    "how did temple building show a kingdom's strength",
+    "compare the kingdoms of the south with those of the north",
+    "which inscriptions record the achievements of these kingdoms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees2.3.3",
+   "title": "The Tripartite Struggle",
+   "section": "Tripartite struggle",
+   "definition": "For over two centuries the Palas, the Gurjara-Pratiharas and the Rashtrakutas fought a tripartite struggle for Kanauj, the prized city on the Ganga; the long war drained all three without a lasting victor.",
+   "formula": "struggle = palas + pratiharas + rashtrakutas over kanauj",
+   "key_idea": "Kanauj's prestige outvalued its fields: the contest shows how symbol and status drove medieval war.",
+   "textbook_ref": "gees203.txt, Tripartite struggle",
+   "question_patterns": [
+    "which three powers fought the tripartite struggle",
+    "why was kanauj so prized by the contenders",
+    "how long did the tripartite struggle last",
+    "what did the long war cost the three powers",
+    "who finally held kanauj and for how long",
+    "locate kanauj and the three kingdoms on a map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.3.4",
+   "title": "Learning, Mathematics and Culture",
+   "section": "Culture",
+   "definition": "The age kept learning alive: mathematics and astronomy advanced, Sanskrit kavyas were composed, and temple architecture, from Nagara towers to Dravida vimanas, rose across the land.",
+   "formula": "",
+   "key_idea": "Culture outlives dynasties: the maths, poems and temples of this age outlasted every throne that ordered them.",
+   "textbook_ref": "gees203.txt, Culture",
+   "question_patterns": [
+    "which advances in mathematics and astronomy mark this age",
+    "what is a nagara style temple and where did it grow",
+    "how does dravida architecture differ from nagara",
+    "which sanskrit poets and texts belong to this period",
+    "how did temple cities become centres of learning",
+    "name one mathematician of this age and his work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees203.txt",
+   "concept": "gees2.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why did three great powers exhaust themselves over one city?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the prize",
+     "explain": "Kanauj carried the prestige of former empires on the Ganga."
+    },
+    {
+     "step": 2,
+     "action": "draw the lesson",
+     "explain": "Status mattered as much as land in medieval politics, so glory drew armies that grain alone never would."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees203.txt",
+   "concept": "gees2.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "name the kingdoms mentioned on the political map of the period.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees203.txt, Let us explore",
+   "questions": [
+    "What major changes characterised the 6th to 10th centuries?",
+    "Name the kingdoms mentioned on the political map of the period.",
+    "What does the chapter say about mathematics and astronomy?",
+    "Mark the kingdoms of the period on an outline map.",
+    "Compare one northern and one southern kingdom in a table."
+   ]
+  }
+ ]
+}

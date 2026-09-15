@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_008",
+   "title": "c12_acc_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define trend analysis and write the formula for calculating the trend percentage of a financial statement item for a given year.",
+     "a": "Trend analysis is a horizontal analysis technique where each year's financial statement figure is expressed as a percentage of the same figure in a selected base year. Formula: Trend Percentage = (Current Year Figure / Base Year Figure) × 100. A wrong answer (e.g., using the previous year as base instead of a fixed base year, or forgetting to multiply by 100) reveals the student confuses trend analysis with year-on-year growth rates or does not grasp the fixed-base concept.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the base year be a 'normal' year rather than a year with exceptional profits due to a one-time gain like sale of land? Explain in your own words.",
+     "a": "If the base year contains a one-time gain, its figure is artificially inflated. All subsequent trend percentages will be calculated against this inflated base, making normal years appear as declines (percentages below 100) even when performance is stable. This distorts the true trend. A wrong answer (e.g., 'any year can be base year' or 'the first year is always the base') shows the student memorises the procedure without understanding the purpose of comparability.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Revenue from Operations for five years (2019-2023) is: 2019: ₹40,00,000; 2020: ₹44,00,000; 2021: ₹38,00,000; 2022: ₹50,00,000; 2023: ₹56,00,000. Taking 2019 as base year, compute the trend percentages for all five years. Show all steps.",
+     "a": "Step 1: Base year (2019) figure = ₹40,00,000 → Trend % = 100.\nStep 2: 2020: (44,00,000 / 40,00,000) × 100 = 110.\nStep 3: 2021: (38,00,000 / 40,00,000) × 100 = 95.\nStep 4: 2022: (50,00,000 / 40,00,000) × 100 = 125.\nStep 5: 2023: (56,00,000 / 40,00,000) × 100 = 140.\nTrend percentages: 2019=100, 2020=110, 2021=95, 2022=125, 2023=140.\nA wrong answer (e.g., using 2020 as base for 2021, or calculating 2021 as 38/44×100) reveals the student applies year-on-year change instead of fixed-base trend analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Two companies, A and B, show the following trend percentages for Revenue from Operations (base year 2018=100):\nCompany A: 2018=100, 2019=105, 2020=110, 2021=115, 2022=120\nCompany B: 2018=100, 2019=120, 2020=90, 2021=130, 2022=110\nAnalyse and compare the revenue trends of the two companies. Which company shows more consistent growth? Justify.",
+     "a": "Company A shows steady, consistent growth of 5% per year (100→105→110→115→120), indicating stable business expansion. Company B is volatile: a 20% jump, then a 25% drop (120→90), then a 44% surge (90→130), then a 15% decline. Company A is more consistent. A wrong answer that merely states 'Company B has higher percentages in some years' without analysing volatility reveals the student cannot interpret trend patterns beyond surface-level numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes trend percentages for a company's Net Profit using 2020 as base year. In 2020, the company sold a factory building and recorded a large one-time gain, making Net Profit abnormally high. The student concludes: 'The company's profitability has been declining since 2020 because all later trend percentages are below 100.' Evaluate this conclusion.",
+     "a": "The conclusion is flawed. The base year 2020 is not 'normal' — it includes a non-recurring gain. Trend percentages below 100 in subsequent years may simply reflect a return to normal profitability, not a decline. The student should have selected a base year without exceptional items. A wrong answer that agrees with the student shows inability to critique base year selection and confusion between one-time and recurring items.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical 5-year data set (2019-2023) for 'Cost of Revenue from Operations' of a company such that: (a) the base year 2019 figure is ₹20,00,000, (b) the trend percentages show a steady 10% annual increase, and (c) the absolute figures are not simply multiples of the base (i.e., include some rounding). Present the data table and verify the trend percentages.",
+     "a": "Example:\n2019 (Base): ₹20,00,000 → 100\n2020: ₹22,10,000 → (22,10,000/20,00,000)×100 = 110.5 ≈ 110 (if rounded)\n2021: ₹24,30,000 → 121.5 ≈ 122\n2022: ₹26,70,000 → 133.5 ≈ 134\n2023: ₹29,40,000 → 147\nA good answer shows the student can reverse-engineer the formula and understands that trend percentages are derived from absolute figures. A poor answer (e.g., giving exact multiples like 22,00,000; 24,20,000) suggests the student only knows the forward calculation and cannot work backwards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 114,
+ "chapter_title": "Breathing and Exchange of Gases",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo114.txt",
+ "concepts": [
+  {
+   "id": "kebo.114.1.1",
+   "title": "Respiratory Organs and the Human Respiratory System",
+   "section": "14.1 Respiratory Organs, 14.2 Human Respiratory System",
+   "definition": "Respiration occurs through body surface, tracheal system, gills or lungs depending on the animal; the human respiratory system includes external nostrils, nasal passage, pharynx, larynx with sound box, trachea, bronchi, bronchioles and alveoli surrounded by blood capillaries, with the lungs covered by pleural membranes.",
+   "formula": "",
+   "key_idea": "The alveoli, with their thin squamous epithelium and dense capillary network, are the primary sites of exchange of gases, while the conducting part only transports the air.",
+   "textbook_ref": "kebo114.txt sections 14.1, 14.2",
+   "question_patterns": [
+    "describe the human respiratory system with its parts",
+    "why are alveoli called the primary sites of gas exchange",
+    "what is the role of the epiglottis in swallowing",
+    "compare respiration by gills and by lungs",
+    "what is the function of the pleural membranes",
+    "name the parts of the conducting and respiratory zones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the air path",
+     "explain": "Follow air from nostrils through pharynx, larynx, trachea, bronchi to alveoli."
+    },
+    {
+     "step": 2,
+     "action": "separate conducting from exchange parts",
+     "explain": "Note that only the alveoli exchange gases with blood."
+    },
+    {
+     "step": 3,
+     "action": "verify the supportive structures",
+     "explain": "Check cartilage rings, pleura and diaphragm roles."
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.2.1",
+   "title": "Respiratory Volumes and Capacities",
+   "section": "14.3 Mechanism of Breathing",
+   "definition": "Breathing volumes include tidal volume of about 500 ml, inspiratory reserve volume, expiratory reserve volume and residual volume, and capacities combine them: inspiratory capacity equals tidal volume plus IRV, vital capacity equals IRV plus tidal volume plus ERV, and total lung capacity equals vital capacity plus residual volume.",
+   "formula": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
+   "key_idea": "Intrapulmonary pressure falls below atmospheric pressure during inspiration as the diaphragm and external intercostals contract, and expiration is largely a passive return.",
+   "textbook_ref": "kebo114.txt section 14.3",
+   "question_patterns": [
+    "define tidal volume and residual volume with values",
+    "calculate vital capacity from irv tv and erv",
+    "how is total lung capacity related to vital capacity and residual volume",
+    "describe the mechanism of inspiration and expiration",
+    "what is functional residual capacity",
+    "state the average values of the lung volumes in a healthy adult"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the reserves and tidal volume",
+     "explain": "Add inspiratory reserve, tidal volume and expiratory reserve to get the vital capacity",
+     "compute": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve"
+    },
+    {
+     "step": 2,
+     "action": "add residual volume to vital capacity",
+     "explain": "Add the residual volume to the vital capacity to get the total lung capacity",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.3.1",
+   "title": "Exchange and Transport of Gases",
+   "section": "14.4 Exchange of Gases, 14.5 Transport of Gases",
+   "definition": "Oxygen and carbon dioxide exchange by pressure gradient across alveolar and tissue membranes; oxygen is transported mainly as oxyhaemoglobin, carbon dioxide mostly as bicarbonate formed under the enzyme carbonic anhydrase, and every 100 ml of deoxygenated blood delivers about 4 ml of carbon dioxide to the alveoli.",
+   "formula": "",
+   "key_idea": "The oxygen dissociation curve is sigmoid, and its shift to the right with higher carbon dioxide, hydrogen ion and temperature is the Bohr effect that favours unloading in tissues.",
+   "textbook_ref": "kebo114.txt sections 14.4, 14.5",
+   "question_patterns": [
+    "how are oxygen and carbon dioxide transported in blood",
+    "explain the oxygen dissociation curve and the bohr effect",
+    "what is the role of carbonic anhydrase in gas transport",
+    "how much carbon dioxide does 100 ml of blood deliver to alveoli",
+    "compare alveolar and tissue gas exchange",
+    "why is most carbon dioxide carried as bicarbonate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the pressure gradients",
+     "explain": "Compare partial pressures at alveoli and tissues."
+    },
+    {
+     "step": 2,
+     "action": "follow the carriers",
+     "explain": "Note oxyhaemoglobin for oxygen and bicarbonate for carbon dioxide."
+    },
+    {
+     "step": 3,
+     "action": "explain the curve shift",
+     "explain": "Relate the Bohr effect to loading and unloading of gases."
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.4.1",
+   "title": "Regulation of Respiration and Respiratory Disorders",
+   "section": "14.6 Regulation of Respiration, 14.7 Disorders of Respiratory System",
+   "definition": "Breathing is regulated by the respiratory rhythm centre in the medulla, the pneumotaxic centre in the pons and chemosensitive areas sensing carbon dioxide and hydrogen ions; disorders include asthma with bronchial constriction, emphysema with alveolar damage, and occupational respiratory disorders like asbestosis and silicosis.",
+   "formula": "",
+   "key_idea": "Carbon dioxide acts as the major stimulus for breathing through chemosensors, since oxygen plays only a minor role in normal regulation.",
+   "textbook_ref": "kebo114.txt sections 14.6, 14.7",
+   "question_patterns": [
+    "which centres of the brain regulate breathing",
+    "how do carbon dioxide levels control the breathing rate",
+    "describe asthma and emphysema as respiratory disorders",
+    "what are occupational lung disorders and their causes",
+    "define the pneumotaxic centre and its function",
+    "why is carbon dioxide a stronger respiratory stimulus than oxygen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the centres",
+     "explain": "Name medullary and pontine centres of respiratory control."
+    },
+    {
+     "step": 2,
+     "action": "note the chemical control",
+     "explain": "Link carbon dioxide and hydrogen ion sensing to breathing changes."
+    },
+    {
+     "step": 3,
+     "action": "match the disorder",
+     "explain": "Pair each symptom with asthma, emphysema or occupational disorder."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo114.txt section 14.3",
+   "concept": "kebo.114.2.1",
+   "question_type": "compute_vital_capacity",
+   "question_pattern": "A person has an inspiratory reserve volume of {inspiratory_reserve} ml, a tidal volume of {tidal_volume} ml and an expiratory reserve volume of {expiratory_reserve} ml. Calculate the vital capacity.",
+   "extracted_variables": {
+    "inspiratory_reserve": 3000,
+    "tidal_volume": 500,
+    "expiratory_reserve": 1100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the reserves and tidal volume",
+     "explain": "Add inspiratory reserve, tidal volume and expiratory reserve to get the vital capacity",
+     "compute": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo114.txt section 14.3",
+   "concept": "kebo.114.2.1",
+   "question_type": "compute_vital_capacity",
+   "question_pattern": "Given IRV of {inspiratory_reserve} ml, TV of {tidal_volume} ml and ERV of {expiratory_reserve} ml for an adult, work out the vital capacity of the lungs.",
+   "extracted_variables": {
+    "inspiratory_reserve": 2500,
+    "tidal_volume": 500,
+    "expiratory_reserve": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the reserves and tidal volume",
+     "explain": "Add inspiratory reserve, tidal volume and expiratory reserve to get the vital capacity",
+     "compute": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo114.txt exercises section",
+   "questions": [
+    "Define vital capacity. What is its significance?",
+    "State the volume of air remaining in the lungs after a forced expiration.",
+    "Define the terms tidal volume and residual volume.",
+    "Explain the mechanism of breathing with the role of diaphragm and ribs.",
+    "Mention the major transport mechanisms of carbon dioxide in blood.",
+    "What are the disorders of the respiratory system - describe asthma and emphysema."
+   ]
+  }
+ ]
+}

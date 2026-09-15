@@ -1,0 +1,315 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "A Story of Numbers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.103.3.1",
+   "title": "Counting by One-to-One Mapping",
+   "section": "3.1",
+   "definition": "Before number names existed, herders counted by matching each object with one item of a standard sequence - a stick, a pebble, a notch or a sound - so that no two objects share the same marker; the final pile of markers answers questions about the size of a herd or a collection.",
+   "formula": "-",
+   "key_idea": "A fixed-order sequence of markers (sticks, tally marks, letters) plus one-to-one pairing is all counting needs.",
+   "textbook_ref": "hegp103.txt lines 70-160 (mechanism of counting, methods 1-3), 302-330 (tally marks)",
+   "question_patterns": [
+    "how can a herder check that every cow returned from grazing without using number names",
+    "explain one-to-one mapping with the sticks method of counting",
+    "what limitation does counting with the 26 English letters have",
+    "how do tally marks on the Ishango bone represent numbers",
+    "why is the sticks method inconvenient for very large collections",
+    "define a number system using the idea of a standard sequence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "choose a standard sequence of markers",
+     "explain": "Sticks, notches on bone, or sounds in fixed order can all serve as the sequence."},
+    {"step": 2, "action": "pair each counted object with one marker",
+     "explain": "The pairing must be one-to-one: distinct objects get distinct markers in order."},
+    {"step": 3, "action": "compare marker piles to answer questions",
+     "explain": "Missing cows, fewer-than comparisons and how-many-more questions all reduce to comparing the marker collections."}
+   ]
+  },
+  {
+   "id": "hegp.103.3.2",
+   "title": "The Roman Number System and Its Limits",
+   "section": "3.1",
+   "definition": "Europe counted for centuries with Roman numerals built from symbols I, V, X and more, combining them additively and with subtraction rules like IV for 4; the system has no place value, so writing ever larger numbers keeps demanding new symbols.",
+   "formula": "-",
+   "key_idea": "Roman numerals lack a base: each jump in size needs a fresh symbol, unlike place-value systems.",
+   "textbook_ref": "hegp103.txt lines 138-176 (method 3, Table 1), 660-664 (contrast with base systems)",
+   "question_patterns": [
+    "write 14 and 19 in Roman numerals",
+    "what number does XIX stand for",
+    "why can arbitrarily large numbers not be written in the Roman system without new symbols",
+    "compare regrouping during addition in Roman and Hindu systems",
+    "which number system did Europe use before Hindu numerals",
+    "express 20 as a Roman numeral following Table 1"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "split the number into landmark chunks",
+     "explain": "Roman writing groups by ten, five and one using I, V, X and their higher symbols."},
+    {"step": 2, "action": "apply the subtraction rule where needed",
+     "explain": "A smaller symbol before a larger one subtracts, as in IV and IX."},
+    {"step": 3, "action": "note the structural drawback",
+     "explain": "Without place value, larger sizes require additional symbols, which is the system's main limit."}
+   ]
+  },
+  {
+   "id": "hegp.103.3.3",
+   "title": "Egyptian Base-10 Landmark Numbers",
+   "section": "3.3",
+   "definition": "The Egyptian system around 3000 BCE grouped collections by landmark numbers, each ten times the previous one, so the landmarks are the powers of 10; a number is written by counting how many of each landmark it contains, starting from the largest landmark below it.",
+   "formula": "hundreds = number // 100; tens = (number % 100) // 10; ones = number % 10",
+   "key_idea": "324 = 100 + 100 + 100 + 10 + 10 + 4: group by powers of ten from the top.",
+   "textbook_ref": "hegp103.txt lines 552-600 (Egyptian system, 324 example)",
+   "question_patterns": [
+    "represent 10458 in the Egyptian base-10 system",
+    "how many hundreds, tens and ones make up 784 in the Egyptian system",
+    "decompose 1111 into Egyptian landmark numbers",
+    "what are the landmark numbers of the Egyptian system",
+    "find the groups of 100, 10 and 1 for the number 2660",
+    "why is each Egyptian landmark number ten times the previous one"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the hundreds",
+     "explain": "Divide by the third landmark to get how many hundreds the number holds.",
+     "compute": "hundreds = number // 100"},
+    {"step": 2, "action": "carry the remainder to tens",
+     "explain": "The leftover after removing hundreds is split into tens.",
+     "compute": "tens = (number % 100) // 10"},
+    {"step": 3, "action": "count the leftover ones",
+     "explain": "Whatever remains after tens is written in units.",
+     "compute": "ones = number % 10"}
+   ]
+  },
+  {
+   "id": "hegp.103.3.4",
+   "title": "Base-n Systems and Their Landmark Numbers",
+   "section": "3.3",
+   "definition": "Any positive integer n can drive a number system: start the landmarks at 1 and obtain each next landmark by multiplying by n, so the landmarks are n to the power 0, n to the power 1, n to the power 2 and onward; base 10 is the decimal system and grouping by 5 gives a base-5 system with landmarks 1, 5, 25, 125, ...",
+   "formula": "landmark = base ** k",
+   "key_idea": "Landmark numbers of a base-n system are the powers of n: for base 5 they are 1, 5, 25, 125, 625, 3125.",
+   "textbook_ref": "hegp103.txt lines 602-660 (base-5 system, landmark powers), 656-660 (definition of base-n)",
+   "question_patterns": [
+    "compute the landmark numbers of a base-7 system",
+    "what is the fourth landmark number of the base-5 system",
+    "list the powers that serve as landmarks in a base-n system",
+    "why are the base-5 landmarks 1, 5, 25, 125 and 625",
+    "what is the general rule for landmark numbers in a base-n number system",
+    "calculate 5 to the power 4 and name its position among the base-5 landmarks"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "raise the base to the position",
+     "explain": "The k-th landmark of a base-n system is n to the power k, counting from 0.",
+     "compute": "landmark = base ** k"}
+   ]
+  },
+  {
+   "id": "hegp.103.3.5",
+   "title": "Expressing Numbers in Base-5",
+   "section": "3.3",
+   "definition": "To write a number in base-5, peel off the landmarks from the largest down: divide by 125, then by 25, then by 5, recording each quotient as the count of that landmark; 143 becomes one 125, three 5s and three 1s.",
+   "formula": "groups125 = number // 125; rem = number % 125; groups25 = rem // 25; groups5 = (rem % 25) // 5; units = number % 5",
+   "key_idea": "143 = 125 + 5 + 5 + 5 + 1 + 1 + 1: successive division gives each landmark's count.",
+   "textbook_ref": "hegp103.txt lines 616-628 (143 in base-5), 656-660",
+   "question_patterns": [
+    "express 143 in the base-5 system by grouping landmarks",
+    "write 137 in base-5 using successive division",
+    "how many 125s, 25s, 5s and 1s make 293 in base-5",
+    "decompose 651 into base-5 landmark groups",
+    "find the base-5 representation of 15",
+    "divide 50 by base-5 landmarks to write it in that system"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the 125 landmark",
+     "explain": "Divide the number by the largest landmark 125.",
+     "compute": "groups125 = number // 125"},
+    {"step": 2, "action": "carry the remainder to the 25 landmark",
+     "explain": "The leftover divides by 25 to give the count of 25s.",
+     "compute": "groups25 = (number % 125) // 25"},
+    {"step": 3, "action": "split the rest into 5s and 1s",
+     "explain": "The remaining amount is grouped by 5 and the final remainder is the unit count.",
+     "compute": "groups5 = (number % 25) // 5"}
+   ]
+  },
+  {
+   "id": "hegp.103.3.6",
+   "title": "Journey of the Hindu Numerals",
+   "section": "3.1",
+   "definition": "Number names on powers of ten appear in the Yajurveda Samhita; the ten digits with zero as a dot surface in the Bakhshali manuscript, Aryabhata explains scientific computation with ten symbols, Al-Khwarizmi and Al-Kindi carry the system to the Arab world around 800 CE, and Fibonacci persuades Europe around 1200 CE - which is why Europeans long called them Arabic numerals.",
+   "formula": "-",
+   "key_idea": "The digits 0-9 are an Indian invention transmitted through the Arab world to Europe.",
+   "textbook_ref": "hegp103.txt lines 20-100 (history), 88-96 (Arabic numerals terminology)",
+   "question_patterns": [
+    "where did the digits 0 to 9 that we use today originate",
+    "which manuscript first shows numbers written with ten digits including zero as a dot",
+    "who explained computation with the Indian system of ten symbols around 499 CE",
+    "how did Hindu numerals reach Europe and who popularised them there",
+    "why are our numerals sometimes wrongly called Arabic numbers",
+    "which ancient Indian text lists number names based on powers of 10"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the Indian milestones",
+     "explain": "Yajurveda names by powers of ten; Bakhshali manuscript writes ten digits with a dot for zero; Aryabhata formalises computation."},
+    {"step": 2, "action": "follow the transmission route",
+     "explain": "Around 800 CE the system reaches the Arab world via Al-Khwarizmi and Al-Kindi."},
+    {"step": 3, "action": "close with the European adoption",
+     "explain": "Fibonacci's advocacy around 1200 CE spreads the numerals in Europe, where the mislabel Arabic numerals arose."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp103.txt lines 586-600, 324 example",
+   "concept": "hegp.103.3.3",
+   "question_type": "compute",
+   "question_pattern": "Break {number} into Egyptian landmark groups of 100, 10 and 1.",
+   "extracted_variables": {
+    "number": "the number to decompose"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the hundreds",
+     "explain": "Integer division by 100 gives the count of the largest landmark.",
+     "compute": "hundreds = number // 100"},
+    {"step": 2, "action": "split the remainder into tens",
+     "explain": "The remainder after hundreds is divided by 10.",
+     "compute": "tens = (number % 100) // 10"},
+    {"step": 3, "action": "read off the units",
+     "explain": "The final remainder is the count of unit symbols.",
+     "compute": "ones = number % 10"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp103.txt Figure it Out Q1, line 600, 784 practice",
+   "concept": "hegp.103.3.3",
+   "question_type": "compute",
+   "question_pattern": "How many hundred-symbols, ten-symbols and one-symbols are needed to write {number} in the Egyptian system?",
+   "extracted_variables": {
+    "number": "the number to write in Egyptian landmarks"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the hundreds",
+     "explain": "Largest landmark first: divide by 100.",
+     "compute": "hundreds = number // 100"},
+    {"step": 2, "action": "split the remainder into tens",
+     "explain": "Divide the leftover by 10 for the tens count.",
+     "compute": "tens = (number % 100) // 10"},
+    {"step": 3, "action": "read off the units",
+     "explain": "Units are what remain after tens.",
+     "compute": "ones = number % 10"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp103.txt lines 619-624, base-5 landmarks",
+   "concept": "hegp.103.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find the landmark number at position {k} of a base-{base} system.",
+   "extracted_variables": {
+    "base": "the system base",
+    "k": "position of the landmark, counting from 0"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise the base to the position",
+     "explain": "Landmarks are the powers of the base.",
+     "compute": "landmark = base ** k"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp103.txt Figure it Out Q3, line 655, base-7 landmarks",
+   "concept": "hegp.103.3.4",
+   "question_type": "compute",
+   "question_pattern": "What is the third landmark number of a base-{base} system (position {k})?",
+   "extracted_variables": {
+    "base": "system base such as 7",
+    "k": "landmark position from 0"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise the base to the position",
+     "explain": "The landmark sequence is base to the 0, base to the 1, and so on.",
+     "compute": "landmark = base ** k"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp103.txt lines 616-628, 143 in base-5",
+   "concept": "hegp.103.3.5",
+   "question_type": "compute",
+   "question_pattern": "Express {number} in the base-5 system by counting 125s, 25s, 5s and 1s.",
+   "extracted_variables": {
+    "number": "the number to express in base-5"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the 125 landmark",
+     "explain": "Divide by 125 for the count of the largest landmark.",
+     "compute": "groups125 = number // 125"},
+    {"step": 2, "action": "split the remainder into 25s",
+     "explain": "Remainder after 125s is divided by 25.",
+     "compute": "groups25 = (number % 125) // 25"},
+    {"step": 3, "action": "group what remains by 5s",
+     "explain": "The leftover is grouped by the 5 landmark; the final remainder is units.",
+     "compute": "groups5 = (number % 25) // 5"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp103.txt Figure it Out Q1, line 654, 137 in base-5",
+   "concept": "hegp.103.3.5",
+   "question_type": "compute",
+   "question_pattern": "How many 25s, 5s and 1s are needed to write {number} in base-5 (with any 125s counted first)?",
+   "extracted_variables": {
+    "number": "number to write in base-5"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the 125 landmark",
+     "explain": "Take out the 125s first if the number is large enough.",
+     "compute": "groups125 = number // 125"},
+    {"step": 2, "action": "split the remainder into 25s",
+     "explain": "Divide the remainder by 25.",
+     "compute": "groups25 = (number % 125) // 25"},
+    {"step": 3, "action": "group what remains by 5s",
+     "explain": "Group the leftover by 5 and read the units.",
+     "compute": "groups5 = (number % 25) // 5"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hegp103.txt Figure it Out, lines 176-186",
+   "questions": [
+    "Using sticks, describe methods for adding, subtracting, multiplying and dividing two collections.",
+    "Extend the letter-based system using strings like aa for 27 to represent all numbers.",
+    "How many numbers can you represent using the sounds of the letters of your language?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hegp103.txt Figure it Out, lines 597-600",
+   "questions": [
+    "Represent 10458, 1023, 2660, 784, 1111 and 70707 in the Egyptian system.",
+    "Add the given Egyptian numerals by regrouping landmark numbers."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "hegp103.txt Figure it Out, lines 652-656",
+   "questions": [
+    "Write 15, 50, 137, 293 and 651 in the base-5 system.",
+    "Is there a number that cannot be represented in the base-5 system? Why or why not?",
+    "Compute the landmark numbers of a base-7 system."
+   ]
+  }
+ ]
+}

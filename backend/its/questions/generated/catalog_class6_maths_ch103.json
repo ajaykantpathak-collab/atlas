@@ -1,0 +1,346 @@
+{
+ "catalog": "catalog_class6_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "fegp.3.2.1",
+   "title": "Supercells in a Number Grid",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 1) gives 27",
+     "compute": "diff = 9 * abs(4 - 1)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 41 are swapped to make 14. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 41.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 9, 9, 4 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "2442",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 17 x 7, the units digit of the answer is what?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 766 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 67 and 76, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.4.1",
+   "title": "Count of n-Digit Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 61 are swapped to make 16. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 61.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 1, 1, 8 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1110",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 79 x 7, the units digit of the answer is what?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 527 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 12 and 21, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.4.2",
+   "title": "Digit Sum of a Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 14 are swapped to make 41. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 14.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 6, 9, 6 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "2331",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 25 x 7, the units digit of the answer is what?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 144 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 67 and 76, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.5.1",
+   "title": "Palindromic Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 7, 9, 1, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "8532",
+     "self_check": false
+    },
+    {
+     "q": "The number 6751 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 6751.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 6751 (= 19) is divided by 9.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 63, reverse its digits to get 36, and find the positive difference (a Kaprekar-style step).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 63 (digits 6 and 3), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "27",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.6.1",
+   "title": "Kaprekar Routine Difference",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 5, 4, 8, 2 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "6084",
+     "self_check": false
+    },
+    {
+     "q": "The number 5338 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 5338.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 5338 (= 19) is divided by 9.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 27, reverse its digits to get 72, and find the positive difference (a Kaprekar-style step).",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 27 (digits 2 and 7), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.7.1",
+   "title": "Clock Palindrome Elapsed Time",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 4, 9, 1, 2 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "8172",
+     "self_check": false
+    },
+    {
+     "q": "The number 8324 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 8324.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 8324 (= 17) is divided by 9.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 54, reverse its digits to get 45, and find the positive difference (a Kaprekar-style step).",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 54 (digits 5 and 4), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.9.1",
+   "title": "Quick Summation by Grouping",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 3, 9, 2, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "8082",
+     "self_check": false
+    },
+    {
+     "q": "The number 4873 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 4873.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 4873 (= 22) is divided by 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 70, reverse its digits to get 7, and find the positive difference (a Kaprekar-style step).",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 70 (digits 7 and 0), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.10.1",
+   "title": "Collatz Sequence Step",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 5th term of the AP with first term 9 and common difference 2.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP 2, 9, 16, ... .",
+     "a": "765",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 53 with 18 terms. Find its sum.",
+     "a": "495",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 20 and 28. Find the common difference.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 15, 18, 21, ... up to and including 33?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "The 7th term of an AP is 26 and the 2th term is 11. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.12.1",
+   "title": "Winning Strategy in Nim-type Addition Game",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 3, 5, 6, 4 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "3087",
+     "self_check": false
+    },
+    {
+     "q": "The number 6899 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 6899.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 6899 (= 32) is divided by 9.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 81, reverse its digits to get 18, and find the positive difference (a Kaprekar-style step).",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 81 (digits 8 and 1), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

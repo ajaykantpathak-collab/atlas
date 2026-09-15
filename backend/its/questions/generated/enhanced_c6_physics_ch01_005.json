@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch01_005",
+   "title": "c6_physics_ch01_005",
+   "questions": [
+    {
+     "q": "What is the first step when you encounter something you do not understand in science?",
+     "a": "The first step is to observe the situation carefully. A wrong answer, such as \"guessing the answer immediately,\" shows the student lacks patience for observation, which is the foundation of scientific inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we call the process of testing an idea an \"experiment\"?",
+     "a": "An experiment is a test designed to see if our guess about how the world works is correct or wrong. A wrong answer like \"it is just following a rule\" shows the student thinks science is about memorizing steps rather than discovering truths through evidence.",
+     "self_check": true
+    },
+    {
+     "q": "If your torch stops glowing, how would you use the scientific method to fix it?",
+     "a": "First, observe the torch; then, guess it might be the battery; next, test it by replacing the battery; finally, see if it glows. If the student jumps to \"buy a new one,\" they have missed the testing/inquiry phase of the scientific method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of curiosity and evidence in scientific temper.",
+     "a": "Curiosity is the spark that makes us ask the question, while evidence is the proof that confirms our answer. If a student says \"they are the same,\" they fail to distinguish between the desire to know and the scientific requirement of proof.",
+     "self_check": true
+    },
+    {
+     "q": "Is a person who cooks food following the scientific method if they change the amount of salt to improve taste?",
+     "a": "Yes, because they are observing the result of their previous attempt, forming a new hypothesis (less/more salt), and testing it in the next batch. A \"no\" answer reveals a misunderstanding that science only happens in labs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to find out if ice melts faster in sunlight or in the shade.",
+     "a": "The answer must include: taking two identical ice cubes, placing one in sun and one in shade, and recording the time taken for each to melt. A poor answer fails to keep the ice cubes identical, showing a lack of understanding of \"fair testing.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

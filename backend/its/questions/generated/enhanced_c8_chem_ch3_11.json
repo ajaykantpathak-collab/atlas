@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_11",
+   "title": "c8_chem_ch3_11",
+   "questions": [
+    {
+     "q": "What type of matter is an alloy classified as?",
+     "a": "An alloy is classified as a homogeneous mixture. A student who answers \"compound\" misunderstands that alloys do not have a fixed chemical formula and their components retain their individual metallic properties, whereas compounds are formed by chemical bonding in fixed mass ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Why is pure iron rarely used to make large architectural bridges, whereas steel (an alloy of iron and carbon) is widely used?",
+     "a": "Pure iron atoms are arranged in neat layers that slide easily over one another, making pure iron soft and prone to rapid rusting and bending under heavy loads. Adding small amounts of carbon disrupts these orderly atomic layers in steel, making it significantly harder, stronger, and much more resistant to deformation. A student who answers that steel is a pure chemical compound with a fixed formula misses the point that alloys are variable mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "A blacksmith melts 85 kg of copper and mixes it with 15 kg of tin to create an alloy used for making temple bells. What specific alloy has been created, and what property makes it ideal for bells?",
+     "a": "Steps:\n1. Identify the components: Copper (Cu) and Tin (Sn) in roughly an 85:15 ratio.\n2. Match with known alloys: Copper and tin form bronze.\n3. Determine the properties of this alloy: Bronze is hard, resistant to corrosion, and sonorous (produces a ringing sound when struck).\n4. Conclude the application: This alloy is bronze, and its sonority and durability make it ideal for bells.\nA student who identifies this as brass confuses tin with zinc; brass is made from copper and zinc, whereas bronze is copper and tin.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why brass, an alloy of copper and zinc, does not tarnish as quickly or corrode as severely as pure copper when exposed to humid air in Indian kitchens.",
+     "a": "Brass is a substitutional alloy where zinc atoms replace some copper atoms in the crystal lattice, altering the electron density and surface reactivity. This structural modification creates a protective barrier that slows down the reaction of copper with atmospheric oxygen and carbon dioxide. A student who believes brass is a chemical compound will incorrectly assume a new chemical formula protects it, rather than understanding that altered atomic spacing in a mixture changes reaction rates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An alloy is a chemical compound because it is made of two different elements melted together.\" Is this statement scientifically accurate? Justify your reasoning.",
+     "a": "The statement is scientifically inaccurate. An alloy is a mixture, not a compound, because its components can be combined in varying proportions (e.g., brass can have different percentages of copper and zinc), the components retain their individual properties, and no chemical reaction occurs to form chemical bonds with a fixed formula. A student who agrees with the statement fails to distinguish between the physical mixing of melted substances and the chemical bonding found in compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigative procedure to demonstrate that brass is a mixture rather than a chemical compound, using its physical properties.",
+     "a": "A good response suggests measuring properties like melting point or density across different samples of brass; since mixtures have variable melting ranges and compositions, different brass samples can show slight variations in density and melt over a temperature range rather than at a single fixed melting point like a pure compound. A poor response simply states \"look at it under a microscope\" without explaining what variable composition or property range would be observed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

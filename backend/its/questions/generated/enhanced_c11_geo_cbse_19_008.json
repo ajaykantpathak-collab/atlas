@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_008",
+   "title": "c11_geo_cbse_19_008",
+   "questions": [
+    {
+     "q": "Define \"resource conservation\" in the context of non-renewable mineral resources and explain why it differs fundamentally from conservation of renewable resources like forests or water.",
+     "a": "Resource conservation for non-renewable minerals means minimizing the rate of depletion per unit of economic output through efficiency, recycling, and substitution — since the resource stock is physically finite and cannot regenerate on human timescales. Unlike forests/water where conservation focuses on maintaining regenerative capacity (sustainable yield), mineral conservation focuses on extending the functional lifespan of a depleting stock. A wrong answer (e.g., \"planting trees after mining\" or \"not wasting minerals\") reveals confusion between stock resources (finite fund) and flow resources (renewable flux), and misses the thermodynamic irreversibility of mineral dissipation.",
+     "self_check": true
+    },
+    {
+     "q": "India has the 5th largest coal reserves globally yet imports 200+ million tonnes annually. Explain this paradox using geographical concepts of resource quality, location, and techno-economic accessibility.",
+     "a": "Indian coal is predominantly Gondwana coal (Permian age) with high ash content (30-45%), low calorific value (3500-5000 kcal/kg), and occurs in deep seams in forested tribal areas (Chotanagpur, Singrauli, Talcher) with land acquisition, forest clearance, and rehabilitation challenges. Imported coal (Indonesian, Australian, South African) has lower ash (<15%), higher GCV (>6000 kcal/kg), and reliable port-based logistics for coastal power plants. The paradox arises because \"reserves\" ≠ \"extractable reserves at competitive cost\" — geographical distribution (inland vs coastal), quality gradient, and infrastructure bottlenecks make domestic coal economically unviable for many end-users. A wrong answer focusing only on \"policy failure\" or \"corruption\" misses the structural geographical constraints of resource quality and spatial mismatch between deposits and demand centers.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Tamil Nadu currently burns 5 million tonnes/year of imported coal (GCV 6200 kcal/kg, ash 10%). It plans to switch to domestic coal from Odisha (GCV 4200 kcal/kg, ash 35%) transported 1600 km by rail. Calculate the additional coal tonnage required annually to maintain the same energy output, and estimate the incremental ash generation (in tonnes/year). Assume railway freight adds ₹1.50/tonne-km to cost.",
+     "a": "Step 1: Energy required = 5 Mt × 6200 = 31,000 million kcal/year.\nStep 2: Domestic coal needed = 31,000 / 4200 = 7.38 Mt/year (47.6% increase).\nStep 3: Imported coal ash = 5 Mt × 10% = 0.5 Mt/year.\nStep 4: Domestic coal ash = 7.38 Mt × 35% = 2.58 Mt/year.\nStep 5: Incremental ash = 2.58 - 0.5 = 2.08 Mt/year (5.16× increase).\nStep 6: Freight cost increment = 7.38 Mt × 1600 km × ₹1.50 = ₹17,712 crore/year.\nA wrong answer (e.g., same tonnage, or ignoring ash) reveals inability to apply energy equivalence and mass balance principles — critical for evaluating \"import substitution\" conservation strategies that may increase environmental burden per unit energy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation effectiveness of: (a) increasing aluminium recycling rate from 30% to 60% in India, versus (b) substituting copper with aluminium in electrical wiring. Analyze using energy intensity (MJ/kg), import dependence, and resource lifespan extension.",
+     "a": "(a) Primary aluminium: 170 MJ/kg (electrolysis); Recycled: 10-15 MJ/kg (5% energy). 30%→60% recycling saves ~1.2 Mt primary Al/year × 155 MJ/kg = 186 PJ/year, extends bauxite reserves (India: 660 Mt) by ~15 years at current consumption. Reduces import dependence (India imports 40% alumina). (b) Cu-Al substitution: Al conductivity 61% of Cu, needs 56% more cross-section. Saves copper (India imports 95% of Cu) but increases Al demand. Net energy: Cu primary 45 MJ/kg vs Al 170 MJ/kg — substitution increases embodied energy unless Al is recycled. Conservation effectiveness: (a) has immediate high ROI, proven tech, circular economy fit. (b) is system-level change with trade-offs — effective only if paired with Al recycling. Wrong answer choosing (b) without recycling context misses that substitution without circularity shifts depletion from one critical mineral to another.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's National Mineral Policy 2019 and Mines and Minerals (Development and Regulation) Amendment Act 2021 adequately address mineral conservation through auction regimes and district mineral foundations.\"",
+     "a": "The statement is partially valid but incomplete. Auction regimes improve revenue capture and transparency but incentivize high-grade, shallow deposits — accelerating depletion of \"easy\" reserves and leaving deep/low-grade resources unexploited (conservation failure). District Mineral Foundations (DMFs) address local equity (human geography) but fund utilization is <40% in most states — not a conservation mechanism. Critical gaps: No mandatory resource efficiency targets for end-use sectors (steel, cement, auto); no extended producer responsibility (EPR) for minerals; no strategic stockpiling for critical minerals (Li, Co, REEs); recycling policy limited to e-waste (not bulk minerals like steel slag, red mud). Effective conservation requires: (1) Material flow accounting at national level, (2) Sectoral recycling mandates (e.g., 50% scrap in steel by 2030), (3) Critical mineral strategy with stockpiling + overseas asset acquisition + urban mining. Wrong answer accepting the statement uncritically reveals confusion between \"governance reform\" and \"physical conservation outcomes.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-pillar conservation strategy for India's rare earth elements (REEs) — currently 100% import-dependent despite 6% of global reserves in monazite sands (Kerala, Odisha, Tamil Nadu). Pillar 1: Supply-side (domestic production). Pillar 2: Demand-side (efficiency/substitution). Pillar 3: Circular economy (recycling/recovery). Specify one measurable target per pillar for 2030.",
+     "a": "Pillar 1 (Supply): Resume monazite processing at IREL (Indian Rare Earths Ltd) with thorium separation for nuclear program — target: 5,000 TREO (Total Rare Earth Oxide)/year domestic production by 2030 (currently 0). Requires coastal regulation zone (CRZ) clearance reform and thorium value-capture mechanism.\nPillar 2 (Demand): Mandate REE-free motor designs (ferrite/switched reluctance) for non-critical applications (ceiling fans, pumps, 2-wheelers) — target: 30% reduction in NdFeB magnet demand in non-strategic sectors by 2030.\nPillar 3 (Circular): Establish urban mining hubs for NdFeB magnet recovery from end-of-life EVs, wind turbines, HDDs — target: 20% of domestic REE demand met from recycling by 2030 (currently <1%). Requires EPR for magnets, hydrometallurgical recycling tech transfer, and collection infrastructure.\nPoor answer: Generic \"promote recycling\" without techno-economic specificity, or ignoring thorium co-product constraint unique to Indian monazite. Reveals inability to integrate geological specificity (monazite-thorium linkage), industrial policy, and circular economy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

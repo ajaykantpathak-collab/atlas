@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_1",
+   "title": "c9_math_ch4_1",
+   "questions": [
+    {
+     "q": "Write the expanded form of \\((3x - 4y)^2\\) using the appropriate algebraic identity.",
+     "a": "\\(9x^2 - 24xy + 16y^2\\). A wrong answer like \\(9x^2 - 12xy + 16y^2\\) reveals the student forgot to double the product term (\\(2 \\times 3x \\times 4y = 24xy\\)). An answer with a positive middle term (\\(+24xy\\)) shows confusion between the sum and difference identities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((a-b)^2\\) is not equal to \\(a^2 - b^2\\). Use a numerical example with \\(a=5, b=3\\) to justify your reasoning.",
+     "a": "\\((5-3)^2 = 2^2 = 4\\), but \\(5^2 - 3^2 = 25 - 9 = 16\\). The identity \\((a-b)^2 = a^2 - 2ab + b^2\\) includes a middle term \\(-2ab\\) which is missing in \\(a^2 - b^2\\). A student who claims they are equal is confusing the square of a difference with the difference of squares (covered in the next node). This misconception arises from incorrectly distributing the square over subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Expand and simplify: \\((2m + \\frac{1}{2}n)^2\\).",
+     "a": "\\(4m^2 + 2mn + \\frac{1}{4}n^2\\). Steps: Square first term: \\((2m)^2 = 4m^2\\). Double product: \\(2 \\times 2m \\times \\frac{1}{2}n = 2mn\\). Square second term: \\((\\frac{1}{2}n)^2 = \\frac{1}{4}n^2\\). A wrong answer like \\(4m^2 + mn + \\frac{1}{4}n^2\\) shows the student forgot the factor of 2 in the middle term. An answer with \\(\\frac{1}{2}n^2\\) reveals incorrect squaring of the fraction.",
+     "self_check": true
+    },
+    {
+     "q": "The expression \\(x^2 + 10x + 25\\) is a perfect square. Identify the binomial whose square gives this trinomial. Then, using the same logic, determine if \\(x^2 + 10x + 24\\) can be a perfect square. Explain.",
+     "a": "\\(x^2 + 10x + 25 = (x+5)^2\\) because \\(2 \\times x \\times 5 = 10x\\) and \\(5^2 = 25\\). For \\(x^2 + 10x + 24\\), the constant term would need to be \\(5^2 = 25\\) to match the middle term \\(10x\\). Since \\(24 \\neq 25\\), it is not a perfect square. A student who says both are perfect squares or cannot explain the mismatch lacks the ability to reverse the identity for factorisation.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified \\((2p - 3q)^2\\) as \\(4p^2 - 9q^2\\). Identify the error and write the correct expansion. Why is this a common mistake?",
+     "a": "The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\). The student likely confused \\((a-b)^2\\) with \\(a^2 - b^2\\) (difference of squares) or forgot the distributive step \\(2 \\times 2p \\times (-3q)\\). This mistake is common because the middle term involves a negative sign and a coefficient, making it easy to overlook when rushing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context: rupees, metres, etc.) that requires using \\((a+b)^2\\) or \\((a-b)^2\\) to solve. Write the problem statement and show the solution.",
+     "a": "Example: A square garden has side \\((x+4)\\) metres. Find its area. If \\(x=6\\) m, calculate the area using the identity. Solution: Area = \\((x+4)^2 = x^2 + 8x + 16\\). For \\(x=6\\): \\(36 + 48 + 16 = 100\\) m². A good answer shows a plausible scenario, correctly sets up the binomial square, expands it, and substitutes. A poor answer uses a non-square context (e.g., rectangle) or makes arithmetic errors in substitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

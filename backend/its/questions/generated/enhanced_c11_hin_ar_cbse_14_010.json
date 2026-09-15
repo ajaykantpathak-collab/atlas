@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_14_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_14_010",
+   "title": "c11_hin_ar_cbse_14_010",
+   "questions": [
+    {
+     "q": "Define \"vocabulary in context\" and explain how it differs from looking up a word in a standard Hindi dictionary (शब्दकोश).",
+     "a": "Vocabulary in context means determining a word's meaning based on how it functions within a specific sentence, stanza, or literary work - including its connotations, tone, and thematic resonance. A dictionary gives fixed, decontextualized definitions; context reveals living, situational meaning. A wrong answer (e.g., \"both give the same meaning\") reveals the student treats words as static labels rather than dynamic tools the poet shapes for effect.",
+     "self_check": true
+    },
+    {
+     "q": "In the first poem (stanza 1), the word \"इक़्क\" appears. A student writes: \"इक़्क का अर्थ 'एक' होता है।\" Why is this answer incomplete for a Class 11 board exam?",
+     "a": "\"इक़्क\" here signifies not just numerical oneness but existential singularity - the lone voice of the reformer (वड्डेगणेशी) against entrenched orthodoxy. The answer \"एक\" misses the connotative layers: isolation, courage, and the burden of being the first to speak. A student giving only the dictionary meaning shows they cannot distinguish denotation from connotation - a critical gap for literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the context-analysis method to the word \"ठहय\" (from stanza 1, line 3: \"ठहयक एन इक़्कुस <ह्य\"). Determine its contextual meaning and explain how it shapes the imagery of that line.",
+     "a": "Step 1: Literal meaning - \"ठहय\" suggests pausing, stopping, or a moment of stillness. Step 2: Context - the line describes a moment where time seems to freeze as the speaker confronts truth. Step 3: Connotation - it implies a deliberate, heavy pause, not a casual break; the weight of realization. Step 4: Effect - it creates a visual of suspended breath before revelation. Wrong answers (e.g., \"waiting\") miss the active, gravitational quality of the pause - the poem's turning point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of \"एन\" (stanza 1) and \"पजकपज\" (stanza 2). How does each word's sound (phonetics) reinforce its meaning in context?",
+     "a": "\"एन\" (short, nasal, clipped) mirrors the abruptness of negation/refusal - a sharp closure. \"पजकपज\" (repetitive, plosive 'पज', rhythmic) mimics the bird's frantic wing-beats and the speaker's racing heart. The first enacts finality through brevity; the second enacts panic through repetition and percussive sound. A student who only gives semantic meanings misses how Hindi phonetics (ध्वनि-चित्रण) is a meaning-making device - a senior-secondary analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The word 'पूएफवाइडकटज़क़ु' in the introductory note is just a synonym for 'कवि' (poet). Replacing it with 'कवि' would not change the text's meaning.\" Defend or refute with evidence.",
+     "a": "Refute. \"पूएफवाइडकटज़क़ु\" (पुएफवाइडकटज़क़ु = पुएफ + वाइड + कटज़ + क़ु) is a specific honorific denoting a poet-scholar of the Bhakti tradition, carrying historical weight, spiritual authority, and lineage - unlike the generic \"कवि\". The text uses it to position वड्डेगणेशी within a specific reformist lineage (संत परंपरा). Replacement flattens the text's cultural-historical framing. A student agreeing reveals inability to distinguish register, historical semantics, and authorial intent - treating words as interchangeable tokens.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi poem-stanza using any THREE key words from this chapter (इक़्क, ठहय, एन, पजकपज, पूएफवाइडकटज़क़ु) such that each word's contextual meaning in your stanza differs from its meaning in the textbook poems. Explain your choices.",
+     "a": "Example stanza:\n\"इक़्क तारा टूटा आकाश से, ठहय गई सबकी साँस,\nएन न बोला कोई, पजकपज दिल ने पूछा - कौन पास?\"\nHere: \"इक़्क\" = a fleeting singular event (not a person), \"ठहय\" = collective shock (not individual realization), \"पजकपज\" = anxious heartbeat (not bird's wings). Good answers show deliberate semantic shifting with awareness of original contexts. Poor answers merely recycle original contexts or use words as decorative fillers without functional integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

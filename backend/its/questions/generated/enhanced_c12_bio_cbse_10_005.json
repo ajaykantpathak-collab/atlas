@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_005",
+   "title": "c12_bio_cbse_10_005",
+   "questions": [
+    {
+     "q": "Name the specific group of archaebacteria responsible for methane production in a biogas digester and state their oxygen requirement.",
+     "a": "Correct answer: Methanogens (e.g., Methanobacterium, Methanococcus); they are strict anaerobes (obligate anaerobes). A wrong answer such as \"E. coli\" or \"yeast\" reveals confusion between facultative anaerobes used in other fermentations and the specialized methanogenic archaea. If the student says \"aerobic bacteria,\" they have missed the absolute oxygen sensitivity of methanogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a biogas plant stop producing gas if the slurry temperature drops below 15°C in winter, even though the digester is sealed?",
+     "a": "Correct answer: Methanogens are mesophilic (optimum 30–40°C); low temperature drastically reduces their enzymatic activity and growth rate, slowing methanogenesis. Hydrolytic and acidogenic bacteria may still function, causing accumulation of volatile fatty acids and a drop in pH, which further inhibits methanogens. A wrong answer blaming \"lack of oxygen\" shows the student thinks anaerobiosis alone is sufficient, ignoring temperature-dependent enzyme kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer adds fresh cattle dung to a biogas digester daily but notices the gas flame becomes yellow and smoky after two weeks. Identify the likely change in gas composition and the microbial cause.",
+     "a": "Correct answer: The gas now contains higher CO₂ and H₂S (yellow, smoky flame) because acidogenic bacteria are outpacing methanogens, leading to incomplete conversion of acids to methane. Overloading or insufficient retention time causes volatile fatty acid accumulation, lowering pH and inhibiting methanogens. A wrong answer attributing it to \"air leakage\" misses that air entry would kill methanogens entirely (no flame), not just change flame color.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy yield (ATP per glucose equivalent) of methanogenesis via the CO₂-reduction pathway (4H₂ + CO₂ → CH₄ + 2H₂O) with that of aerobic respiration. Explain why methanogens still thrive in anaerobic niches.",
+     "a": "Correct answer: Methanogenesis yields ~1 ATP per CH₄ formed (very low), whereas aerobic respiration yields ~30–32 ATP per glucose. Methanogens thrive because they occupy a terminal niche where no other terminal electron acceptor (O₂, NO₃⁻, SO₄²⁻) is available; they use CO₂ as the terminal electron acceptor, allowing carbon and electron flow in anoxic environments. A wrong answer claiming \"methanogens produce more ATP\" confuses thermodynamic favorability with energy yield.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Spent slurry from a biogas plant is a better fertilizer than raw cattle dung because it has higher nitrogen content.\" Justify your answer with microbial reasoning.",
+     "a": "Correct answer: The statement is partially true but misleading. Spent slurry has higher *available* nitrogen (ammonium, NH₄⁺) because anaerobic digestion mineralizes organic nitrogen, but total nitrogen may be slightly lower due to ammonia volatilization. The real advantage is reduced C:N ratio, pathogen reduction, and weed seed destruction. A wrong answer focusing only on \"higher N%\" ignores mineralization dynamics and the risk of ammonia loss during storage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that methane production in a biogas digester is due to living methanogens and not a chemical reaction. Specify control, variable, and measurable outcome.",
+     "a": "Expected answer: Set up two identical mini-digesters with fresh dung slurry. Autoclave one (kills microbes) and leave the other untreated. Incubate both at 35°C. Measure gas volume and methane % daily for 10 days. The live digester will show increasing CH₄; the autoclaved control will show negligible CH₄ (only initial dissolved gas). A poor answer uses \"boiling\" instead of autoclaving (may not kill spores) or measures only total gas without CH₄ analysis, missing the specificity of methanogenesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

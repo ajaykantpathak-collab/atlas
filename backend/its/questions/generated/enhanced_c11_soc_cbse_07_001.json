@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_001",
+   "title": "c11_soc_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the two necessary criteria (intensive and extensive) that a change must meet to be classified as 'social change' in sociology, and give one example of a change that fails either criterion.",
+     "a": "Correct answer: A change must be (1) intensive—altering the underlying structure of society (institutions, norms, stratification) and (2) extensive—affecting a large section of the population. Example failing extensiveness: a single village adopting a new irrigation technique. Example failing intensity: a temporary fashion trend like ripped jeans. A wrong answer that lists only 'big impact' or 'many people affected' reveals the student has missed the structural/intensity requirement; a wrong answer that cites any new technology as social change reveals confusion between material innovation and structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The introduction of UPI payments in India is social change because almost everyone uses it now.\" Explain why this statement is incomplete without further analysis, using the textbook's distinction between change *in* society and social change *of* society.",
+     "a": "Correct answer: UPI adoption is a technological/diffusion change; it becomes social change only if it restructures underlying relations—e.g., altering credit systems for street vendors, reducing gender gaps in financial access, reshaping trust in state-backed digital infrastructure. The textbook stresses that social change must transform the 'underlying structure' (Giddens), not just spread a tool. A wrong answer that equates widespread adoption with social change reveals the misconception that scale alone suffices; the student has not grasped the intensity criterion (structural reconfiguration of institutions/norms).",
+     "self_check": true
+    },
+    {
+     "q": "Using the 'Clock of Human History' analogy (24-hour day = 500,000 years), calculate the approximate clock-time when (a) agriculture began (12,000 years ago) and (b) civilisations emerged (6,000 years ago). Show your proportional reasoning.",
+     "a": "Correct answer: Total minutes in a day = 1,440. 500,000 years = 1,440 minutes → 1 year = 1,440/500,000 = 0.00288 minutes. (a) Agriculture: 12,000 × 0.00288 = 34.56 minutes before midnight → 11:25 PM (textbook rounds to 11:56 PM using slightly different base; accept 11:25–11:56 with correct method). (b) Civilisation: 6,000 × 0.00288 = 17.28 minutes before midnight → 11:43 PM (textbook: 11:57 PM). Key is proportional reasoning: agriculture ≈ last 35 minutes, civilisation ≈ last 17 minutes. A wrong answer placing agriculture at 6:00 PM reveals the student treated the timeline linearly without proportional scaling; a wrong answer using 500,000/12,000 = 41.6 and calling it '41 hours' reveals unit confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pace of social change in three periods: (i) 500,000–12,000 years ago (pre-agriculture), (ii) 12,000–400 years ago (agriculture to early modern), (iii) last 400 years (modern). Use the clock analogy to explain why sociologists argue that 'change has accelerated' rather than merely 'continued'.",
+     "a": "Correct answer: (i) Pre-agriculture: ~488,000 years (23 hours 25 minutes) with only tool/fire/language changes—extremely slow. (ii) Agriculture to early modern: ~11,600 years (35 minutes) saw settled life, cities, states, writing—faster but still gradual. (iii) Last 400 years (29 seconds): industrial revolution, nation-states, global markets, digital age—qualitative leap in speed and scope. Acceleration means the *rate* (change per unit time) increases: period (iii) packs more structural transformations per decade than period (i) per millennium. A wrong answer listing 'more inventions in modern times' misses the rate comparison; a wrong answer claiming 'change was always fast' reveals the textbook's core misconception target.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Sociology emerged in Europe because European society changed faster than Indian society in the 18th–19th centuries.\" Use the textbook's historical scope (global human history, not just Europe) to justify your position.",
+     "a": "Correct answer: The claim is partially true but sociologically incomplete. The textbook states sociology emerged to make sense of 'rapid changes that Western European society experienced between the seventeenth and nineteenth centuries'—but the *clock analogy applies to all humanity*. Europe was the *epicentre* of acceleration (industrial capitalism, state formation), but the *phenomenon* (compressed structural change) is global and ongoing. Indian society experienced colonial disruption (land revenue, railways, law, education) simultaneously—also rapid structural change. A better answer: Sociology emerged in Europe because European intellectuals were the first to *theorise* the acceleration they lived through; the acceleration itself was becoming planetary. A wrong answer agreeing fully reveals Eurocentrism; a wrong answer denying any European specificity ignores the historical context of the discipline's birth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page visual timeline (describe it in words) for a Class 11 exhibition that conveys the 'Clock of Human History' and the acceleration of social change. Your design must include: the 24-hour clock, three labelled epochs with one concrete social-change example each, and a visual metaphor for acceleration.",
+     "a": "Expected answer: A circular 24-hour clock face. 00:00–23:25 (Paleolithic): hunter-gatherer bands, stone tools—label 'Slow Drift'. 23:25–23:57 (Neolithic to Early Modern): agriculture, cities, empires, writing—label 'Gradual Accumulation' with example 'Invention of plough → surplus → stratification'. 23:57–24:00 (Modern): steam engine, factory, nation-state, internet—label 'Explosive Acceleration' with example 'Railway → national market → standardised time zones → new labour relations'. Visual metaphor: a spiral tightening toward midnight, or a heartbeat graph flattening then spiking. A poor answer that makes a linear timeline with equal spacing reveals failure to grasp proportional time; an answer listing only technologies (fire, wheel, phone) without structural consequences reveals confusion between invention and social change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

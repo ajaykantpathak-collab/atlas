@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_006",
+   "title": "c11_math_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the value of i⁻³? Show your reasoning.",
+     "a": "i⁻³ = i. Since i⁻¹ = -i, then i⁻³ = (i⁻¹)³ = (-i)³ = -i³ = -(-i) = i. Alternatively, i⁻³ = 1/i³ = 1/(-i) = i. A wrong answer like -i reveals the student incorrectly applied the cycle for negative exponents or forgot that i⁻¹ = -i.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why iⁿ = i^(n mod 4) for any integer n, using the definition i² = -1.",
+     "a": "Because i⁴ = (i²)² = (-1)² = 1, so i⁴ = 1. For any integer n, write n = 4q + r with 0 ≤ r < 4. Then iⁿ = i^(4q+r) = (i⁴)^q · i^r = 1^q · i^r = i^r. A wrong explanation that just states the pattern without using i⁴ = 1 shows the student memorised the cycle but does not understand the algebraic reason.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (i¹⁷ + i²⁶) / (i³¹ - i⁴⁰).",
+     "a": "i¹⁷ = i^(16+1) = i, i²⁶ = i^(24+2) = -1, i³¹ = i^(28+3) = -i, i⁴⁰ = i^(40) = 1. Expression = (i - 1) / (-i - 1). Multiply numerator and denominator by (-1): (1 - i) / (1 + i). Multiply by conjugate (1 - i): (1 - i)² / (1 - i²) = (1 - 2i + i²) / (1 - (-1)) = (1 - 2i - 1)/2 = -2i/2 = -i. A wrong answer like i or -1 indicates errors in reducing exponents or in complex division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the values of i^(4k+1), i^(4k+2), i^(4k+3), i^(4k) for integer k. What geometric transformation does multiplication by i represent on the Argand plane?",
+     "a": "i^(4k) = 1, i^(4k+1) = i, i^(4k+2) = -1, i^(4k+3) = -i. Multiplication by i rotates a complex number by 90° counterclockwise. A student who only lists the values without mentioning rotation does not connect the algebraic cycle to its geometric meaning, which is essential for later polar form.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that i^(-5) = -i because \"negative exponent flips the sign\". Evaluate this claim and correct it.",
+     "a": "The claim is false. i^(-5) = 1/i^5 = 1/i = -i? Wait: i^5 = i, so 1/i = -i. Actually i^(-5) = -i is correct! But the reasoning \"negative exponent flips the sign\" is wrong; the correct reasoning is i^(-5) = 1/i^5 = 1/i = -i. If the student had said i^(-5) = i, that would be wrong. The misconception is thinking negative exponents change the sign of the result arbitrarily rather than taking the reciprocal.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (e.g., from electrical engineering or signal processing) where simplifying a high power of i is necessary. State the problem and solve it.",
+     "a": "Example: In an AC circuit, the impedance of a capacitor is Z = 1/(iωC). If ωC = 1, find Z⁵. Solution: Z = 1/i = -i. Z⁵ = (-i)⁵ = (-i)⁴·(-i) = 1·(-i) = -i. A poor answer would give a trivial problem like \"find i¹⁰⁰\" without context, showing the student cannot connect the mathematics to applications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

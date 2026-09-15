@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_011",
+   "title": "c12_ip_cbse_05_011",
+   "questions": [
+    {
+     "q": "A student writes: \"IaaS means the provider gives you the application, PaaS means they give you the platform, and SaaS means they give you the software.\" Identify the error in this statement and rewrite it correctly using the standard \"who manages what\" terminology.",
+     "a": "The student's statement is circular and incorrect: SaaS *is* software, not \"given software.\" Correct framing: In IaaS, the provider manages physical infrastructure (servers, storage, networking); user manages OS, runtime, middleware, applications, and data. In PaaS, provider manages infrastructure + OS + runtime + middleware; user manages applications and data only. In SaaS, provider manages everything; user only manages user access and configuration. A wrong answer reveals the student memorizes acronyms without understanding the management responsibility boundary—the core concept tested in CBSE 2-mark questions and CUET case studies.",
+     "self_check": true
+    },
+    {
+     "q": "A hospital wants to deploy a patient records system. They have strict data sovereignty laws requiring data to remain within national borders, need full control over encryption keys, and have predictable, steady workloads. Which deployment model is most suitable? Explain why the other three models are less appropriate.",
+     "a": "Private cloud is most suitable: dedicated infrastructure (on-premises or hosted) gives full control over data location, encryption keys, and compliance auditing. Public cloud is less appropriate because multi-tenancy and shared infrastructure may violate data sovereignty; hybrid cloud adds complexity for a steady workload with no burst needs; community cloud shares infrastructure with other organizations, risking data isolation. A wrong answer (e.g., choosing public cloud for \"cost savings\") reveals the student prioritizes cost over regulatory constraints—a common error in CBSE case-based questions where scenario details must drive the choice.",
+     "self_check": true
+    },
+    {
+     "q": "A startup is building a mobile app backend. They have 3 developers, no DevOps expertise, unpredictable traffic (viral spikes possible), and want to focus only on writing business logic code. They choose a service where they push code via Git and the platform handles scaling, load balancing, patching, and runtime. Which service model is this? Name two real-world examples of this model.",
+     "a": "This is PaaS (Platform as a Service). The developer provides only application code; the platform manages runtime, middleware, OS, virtualization, servers, storage, and networking. Real-world examples: Heroku, Google App Engine, AWS Elastic Beanstalk, Microsoft Azure App Service, Red Hat OpenShift. A wrong answer (e.g., \"AWS EC2\" or \"IaaS\") reveals the student cannot distinguish between managing virtual machines (IaaS) and using a managed application platform (PaaS)—a critical distinction for CUET/board application questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cost structure of running a 24/7 web server on-premises (capital expenditure: ₹5,00,000 for hardware, ₹50,000/year for power/cooling, 5-year life) vs. equivalent cloud VM (operational expenditure: ₹8,000/month on-demand, no upfront cost). Calculate the 5-year total cost for each. At what monthly cloud price would the costs be equal? What non-financial factor might still favor cloud despite higher cost?",
+     "a": "On-premises 5-year cost = ₹5,00,000 + (5 × ₹50,000) = ₹7,50,000. Cloud 5-year cost at ₹8,000/month = 60 × ₹8,000 = ₹4,80,000. Break-even monthly cloud price = ₹7,50,000 / 60 = ₹12,500/month. Non-financial factor favoring cloud: rapid elasticity (scale up/down in minutes vs. weeks for hardware procurement), shifting undifferentiated IT ops to provider, built-in redundancy across availability zones. A wrong answer (e.g., ignoring power/cooling or not annualizing) reveals inability to model TCO (Total Cost of Ownership)—a skill tested in CBSE competency questions and business-case competitions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Hybrid cloud is always better than public cloud because it gives you the best of both worlds—security of private cloud and scalability of public cloud.\" Provide two specific scenarios where hybrid cloud introduces more complexity than value.",
+     "a": "The statement is an oversimplification. Hybrid cloud adds: (1) Network latency and data transfer costs between private and public environments, (2) Operational complexity: consistent security policies, identity management, monitoring, and automation across two distinct platforms, (3) Skill gap: staff must master both on-premises (e.g., VMware/OpenStack) and public cloud (AWS/Azure) tooling. Scenario A: A small e-commerce site with steady traffic and no regulatory constraints—public cloud alone is simpler and cheaper. Scenario B: An organization with no existing private data center wanting to \"start hybrid\"—building private cloud first defeats the agility benefit. A wrong answer (agreeing uncritically) reveals the student treats hybrid as a default \"best\" without evaluating integration overhead—a trap in JEE-style assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cloud deployment strategy for a university that: (a) runs a public website with seasonal traffic (admission season), (b) hosts a research data repository with strict GDPR-like compliance, (c) provides a learning management system (LMS) for 50,000 students, and (d) wants to minimize total cost while meeting all constraints. Specify the service model and deployment model for each workload with justification.",
+     "a": "(a) Public website → IaaS (or PaaS) on public cloud: seasonal spikes need rapid elasticity; public cloud pay-as-you-go avoids idle capacity cost. (b) Research repository → Private cloud (on-premises or dedicated hosted): data sovereignty and compliance require full control over encryption, access logs, and physical location. (c) LMS → SaaS (e.g., MoodleCloud, Canvas, Blackboard): standardized application, minimal customization, large user base—vendor handles scaling, updates, security patches. (d) Cost minimization: Use reserved instances/savings plans for steady LMS/research workloads; spot instances for batch research compute; auto-scaling groups for website. A poor answer (e.g., \"put everything in public cloud\") ignores compliance constraints; \"put everything on-premises\" ignores elasticity needs. This tests multi-workload architectural thinking—CBSE 5-mark case study pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_003",
+   "title": "c12_biotech_cbse_04_003",
+   "questions": [
+    {
+     "q": "A student claims: \"CHO cells are preferred for therapeutic antibodies because they grow faster than HEK293 cells and give higher volumetric titers in simple media.\" Identify the factual errors in this statement.",
+     "a": "The statement contains two errors: (1) HEK293 cells typically grow faster (doubling time ~24 h) than CHO cells (~24–30 h in suspension), and (2) CHO cells require complex, chemically defined, serum-free media with supplements (hydrolysates, lipids, trace elements) — not \"simple media.\" A wrong answer reveals the student confuses bacterial/yeast media simplicity with mammalian media complexity and misremembers growth kinetics. This misconception leads to underestimating media cost (often 40–60% of COGS) and timeline for media optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a therapeutic glycoprotein produced in CHO cells may still show immunogenic glycoforms despite CHO being a mammalian system. Name two specific non-human glycan epitopes and the enzyme knockouts used to eliminate them.",
+     "a": "CHO cells lack β1,4-galactosyltransferase activity on some branches and express α1,3-galactosyltransferase (α1,3-GalT) and N-glycolylneuraminic acid (Neu5Gc) via CMP-Neu5Ac hydroxylase (CMAH). These produce α-Gal and Neu5Gc epitopes, which are immunogenic in humans (pre-existing anti-α-Gal antibodies, anti-Neu5Gc antibodies). Knockout strategies: α1,3-GalT KO (GGTA1 gene) and CMAH KO. A wrong answer (e.g., \"CHO glycosylation is identical to human\") shows the student misses the species-specific glycosyltransferase repertoire — a critical regulatory comparability issue.",
+     "self_check": true
+    },
+    {
+     "q": "A process engineer observes declining specific productivity (qP) after 20 generations in a GS-CHO stable pool. Propose a mechanistic hypothesis and a two-step experimental plan to confirm it.",
+     "a": "Hypothesis: Transgene silencing via heterochromatin spreading or DNA methylation at the integration locus. Step 1: Treat cultures with 5-aza-2'-deoxycytidine (DNA methyltransferase inhibitor) and trichostatin A (histone deacetylase inhibitor) — if qP recovers, epigenetic silencing is implicated. Step 2: Perform bisulfite sequencing of the promoter region and ChIP-qPCR for H3K9me3/H3K27me3 marks. A wrong answer (e.g., \"mutations in the transgene\") confuses genetic instability with epigenetic silencing; the latter is reversible and locus-dependent, not sequence-altering.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the DHFR/MTX and GS/MSX selection-amplification systems in CHO cells on: (a) stringency of selection, (b) copy number achievable, (c) impact on host cell metabolism, and (d) regulatory preference for clinical manufacturing.",
+     "a": "(a) GS/MSX is more stringent — single-round selection at 25–50 µM MSX eliminates non-producers; DHFR/MTX requires stepwise MTX escalation (0.01→1 µM) over weeks. (b) DHFR/MTX achieves higher copy numbers (100–1000×) via dhfr co-amplification; GS/MSX typically 10–50×. (c) DHFR/MTX depletes folate pools, impairing nucleotide synthesis and growth; GS/MSX inhibits glutamine synthetase, altering glutamine/glutamate metabolism and ammonia production. (d) Regulatory agencies (FDA/EMA) increasingly prefer GS/MSX for its single-step selection, lower genotoxicity risk, and simpler characterization. A wrong answer conflates the two systems or ignores metabolic burden — critical for process consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Transient HEK293 expression is superior to stable CHO pools for Phase I clinical material because it delivers grams of protein in 2 weeks with human-like glycosylation.\" Justify your evaluation with three technical and two regulatory arguments.",
+     "a": "The claim is partially true technically but flawed regulatorily. Technical: (1) HEK293 transient gives 1–3 g/L in 10–14 days vs. 3–6 months for stable CHO line; (2) HEK293 glycosylation has higher sialylation and less α-Gal than CHO, closer to human; (3) Scalability: HEK293 transient scales to 2000 L (PEI transfection) but linearity drops >500 L. Regulatory: (1) Transient material lacks clonal traceability — each batch is a new transfection, violating ICH Q5B/Q5D consistency requirements; (2) Plasmid DNA residuals, host cell DNA, and process-related impurities (PEI) require extensive clearance validation per batch. A wrong answer ignores that Phase I still requires GMP comparability and viral clearance — transient is acceptable only for early toxicology, not First-in-Human.",
+     "self_check": true
+    },
+    {
+     "q": "Design a next-generation CHO host cell line for a difficult-to-express bispecific antibody with high aggregation propensity. Specify: (a) two genetic modifications to the host genome, (b) one vector engineering strategy, and (c) one process-level intervention. Justify each.",
+     "a": "(a) Host: (1) Knockout of ER-associated degradation (ERAD) component SEL1L or HRD1 to reduce misfolded chain degradation; (2) Overexpression of ER chaperones BiP/GRP78 and PDI via safe-harbor locus (e.g., ROSA26) to assist folding. (b) Vector: Use a bicistronic vector with 2A peptide (P2A/T2A) for stoichiometric heavy/light chain expression, plus chromatin-opening elements (cHS4 insulator, S/MAR) to prevent silencing. (c) Process: Low-temperature shift (33–35°C) at day 3–5 to reduce aggregation and extend culture longevity; supplemented with chemical chaperones (e.g., 50 mM arginine, 10 mM trehalose). A poor answer proposes only \"better promoter\" or \"higher MTX\" — ignoring folding bottlenecks and process-host interplay.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

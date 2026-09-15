@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_001",
+   "title": "c11_chem_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define a thermodynamic system, surroundings, and boundary. Give one example of each from a kitchen setting.",
+     "a": "A thermodynamic system is the part of the universe under study (e.g., water boiling in a pan). The surroundings are everything else that can exchange energy or matter with the system (e.g., the pan, stove flame, kitchen air). The boundary is the real or imaginary surface separating them (e.g., the inner wall of the pan). A wrong answer — like calling the stove the system — shows the student cannot identify what is being observed vs what is doing the observing.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each as open, closed, or isolated system: (a) a sealed soda bottle before opening, (b) an earthen pot (matka) cooling water by evaporation, (c) a perfectly insulated thermos flask with hot coffee. Justify each in one sentence.",
+     "a": "(a) Closed — matter cannot cross the cap, but heat exchanges with surroundings. (b) Open — water vapour escapes (matter out) and heat enters (energy in). (c) Isolated — idealised: no heat transfer (insulation) and no matter exchange (sealed). If a student calls the soda bottle isolated, they confuse \"sealed\" with \"thermally insulated\" — a critical distinction for later ΔU calculations.",
+     "self_check": true
+    },
+    {
+     "q": "A gas in a piston-cylinder assembly expands from 2.0 L to 5.0 L against a constant external pressure of 1.0 atm. The initial temperature is 300 K. Is the work done a state function? Explain using the definition of state function.",
+     "a": "No, work is not a state function. Work done = −PₑₓₜΔV = −(1.0 atm)(3.0 L) = −3.0 L·atm. If the same expansion occurred reversibly in infinitesimal steps, the work would be −nRT ln(V₂/V₁), a different value for the same initial and final states. A student who says \"work depends only on initial and final volume\" confuses work with a state function — they must recall that work depends on the **path** (how the pressure changes during expansion).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical samples of an ideal gas at 300 K, 1 atm, 10 L are compressed to 5 L. Sample A is compressed isothermally and reversibly; Sample B is compressed adiabatically and irreversibly against constant external pressure. Compare the final temperatures and internal energy changes (ΔU) of the two samples. Which quantity is the same for both?",
+     "a": "Final T: Sample A stays at 300 K (isothermal); Sample B rises above 300 K (adiabatic compression, no heat loss, work done on gas increases U). ΔU: Sample A = 0 (ideal gas, ΔU depends only on T); Sample B > 0. The **initial and final states** differ, so ΔU differs. However, if both samples were returned to the **same final state** (same T, V), ΔU would be identical — proving U is a state function. A student who claims ΔU is the same for both processes misunderstands that the final states are different.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The enthalpy change of a reaction is a path function because it depends on whether the reaction occurs in one step or multiple steps.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is **incorrect**. Enthalpy (H) is a **state function** — ΔH depends only on initial and final states, not on the number of steps. Hess's law (covered later) explicitly uses this: ΔH(overall) = ΣΔH(steps). The student likely confuses **heat exchanged (q)** at constant pressure with enthalpy change; q is path-dependent, but ΔH = qₚ only at constant pressure and is still a state function. This misconception must be corrected before learning Hess's law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using only a steel tumbler, a plastic bottle, a thermometer, and hot water to demonstrate the difference between a closed and an isolated system. Describe what you would measure, how you would vary the setup, and what conclusion about heat exchange you would draw.",
+     "a": "**Experiment**: Pour 100 mL hot water (≈80°C) into (i) a steel tumbler (open top) and (ii) a sealed plastic bottle. Measure temperature every 2 minutes for 10 minutes. **Variation**: For the tumbler, cover with a lid in a second trial. **Expected**: Steel tumbler (open) cools fastest — matter (steam) and heat escape. Steel tumbler with lid cools slower — only heat escapes (closed). Sealed plastic bottle (insulated) cools slowest — minimal heat exchange (approximates isolated). **Conclusion**: Rate of cooling reveals the system type. A poor answer would just say \"measure temperature\" without linking the cooling rate to matter/energy exchange across the boundary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

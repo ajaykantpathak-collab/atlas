@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_2",
+   "title": "c8_math_ch12_2",
+   "questions": [
+    {
+     "q": "What does each dot represent in a dot plot, and how is the mean visually identified as a balancing point?",
+     "a": "Each dot represents one occurrence of a data value. The mean is the point on the number line where the total distance of dots to the left equals the total distance of dots to the right. A wrong answer (e.g., \"the dot in the middle\" or \"the highest dot\") reveals the student confuses mean with median or mode, or thinks balancing means equal number of dots on each side rather than equal sum of distances.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of distances from the mean to data points on the left must equal the sum of distances on the right, using the definition of mean as (sum of values)/n.",
+     "a": "Let the mean be m. Sum of values = n*m. Sum of (value - m) over all values = 0. Positive deviations (right) and negative deviations (left) cancel. So sum of absolute distances left = sum of absolute distances right. A wrong answer that only states \"it balances\" without linking to the algebraic sum of deviations shows the student cannot connect the visual model to the arithmetic definition.",
+     "self_check": true
+    },
+    {
+     "q": "The dot plot shows scores: 8, 9, 9, 10, 11, 11, 11, 12. Find the mean by the balancing method. Show the distances you compare.",
+     "a": "Step 1: List values with frequencies: 8(1), 9(2), 10(1), 11(3), 12(1). Step 2: Guess mean = 10. Left distances: (10-8)=2, (10-9)=1 twice → total 4. Right distances: (11-10)=1 three times → 3, (12-10)=2 → total 5. Not balanced. Step 3: Try 10.2? Better to compute arithmetic mean: sum = 8+9+9+10+11+11+11+12 = 81, n=8, mean = 10.125. Check balance: left distances = (10.125-8)=2.125, (10.125-9)=1.125×2=2.25, (10.125-10)=0.125 → total 4.5. Right: (11-10.125)=0.875×3=2.625, (12-10.125)=1.875 → total 4.5. Balanced. A wrong answer that picks 10 or 11 as the mean shows the student thinks the mean must be a data value or the middle value.",
+     "self_check": true
+    },
+    {
+     "q": "Two dot plots have the same mean but different spreads. Plot A: 5,5,5,15,15,15. Plot B: 9,10,10,10,10,11. Both have mean 10. Compare the sum of absolute distances from the mean for each plot. What does this tell you about using the mean alone to describe data?",
+     "a": "Plot A distances: |5-10|=5 three times → 15; |15-10|=5 three times → 15; total absolute deviation = 30. Plot B: |9-10|=1, |10-10|=0 four times, |11-10|=1 → total = 2. Same mean, but Plot A is more spread out. A wrong answer that says they are the same because means are equal shows the student does not understand that mean does not capture variability, a key reason we need measures like range or MAD later.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a dot plot for data: 4, 6, 6, 7, 8, 8, 8, 9. They claim the mean is 7 because there are four dots on each side of 7. Evaluate this reasoning.",
+     "a": "The student incorrectly uses count of dots (frequency) instead of sum of distances. Count left of 7: 4,6,6 → 3 dots; right: 8,8,8,9 → 4 dots. Not even equal count. Mean = (4+6+6+7+8+8+8+9)/8 = 56/8 = 7. The mean is 7, but the reasoning is wrong. A wrong evaluation that says \"correct because mean is 7\" shows the student cannot distinguish between a correct answer and a correct method.",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of 6 whole numbers between 0 and 20 whose dot plot has a mean of 12 but no dot at 12. Draw the dot plot and explain how you know the mean is 12 using the balancing idea.",
+     "a": "Example: 8, 10, 11, 13, 14, 16. Sum = 72, mean = 12. Dot plot: dots at 8,10,11,13,14,16. Distances left: (12-8)=4, (12-10)=2, (12-11)=1 → total 7. Right: (13-12)=1, (14-12)=2, (16-12)=4 → total 7. Balanced. A poor answer that puts a dot at 12 or fails to balance distances shows the student thinks the mean must be a data point or cannot design a set satisfying the balance condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

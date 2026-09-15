@@ -1,0 +1,429 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 403,
+ "chapter_title": "Gender, Religion and Caste in Democratic Politics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess403.txt",
+ "concepts": [
+  {
+   "id": "jess.403.1.1",
+   "title": "Public Private Division and Feminist Movements",
+   "section": "Public and Private Divisions",
+   "definition": "Society splits life into a public world of work and politics run mostly by men, and a private household world where unpaid labour falls on women, and feminist movements arose to demand equal political and legal rights for women against this patriarchal division.",
+   "formula": "",
+   "key_idea": "An average Indian woman works one hour more than an average man every day, yet much of her work is unpaid and therefore unvalued, which is why housework remains invisible.",
+   "textbook_ref": "jess403.txt lines 100-175",
+   "question_patterns": [
+    "what does the public private division mean",
+    "why is the work of women in the household not valued",
+    "what are feminist movements",
+    "why do we call indian society patriarchal",
+    "explain the time use survey of household work",
+    "how does an average woman's working day compare with a man's"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate public and private spheres",
+     "explain": "Identify paid, public activity against unpaid, household activity and see which gender occupies each."
+    },
+    {
+     "step": 2,
+     "action": "test the invisibility of housework",
+     "explain": "Use the time-use survey idea: record hours on income work, household work, care and rest, then compare men and women."
+    },
+    {
+     "step": 3,
+     "action": "verify the feminist demand",
+     "explain": "Confirm that feminists sought equal rights and political voice, treating women's problems as matters of power, not charity."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.2",
+   "title": "Literacy Gap between Women and Men",
+   "section": "Public and Private Divisions",
+   "definition": "Women's literacy trails men's by the difference of the two literacy rates, and this gap in percentage points captures gender disadvantage in education.",
+   "formula": "literacy_gap = male_literacy - female_literacy",
+   "key_idea": "With women's literacy at 54 per cent against men's 76 per cent, the gap of about 22 percentage points shows why girls drop out as parents prefer spending on boys.",
+   "textbook_ref": "jess403.txt lines 178-190",
+   "question_patterns": [
+    "calculate the gap between male and female literacy rates",
+    "how many percentage points do women trail men in literacy",
+    "find the literacy gap when both rates are given",
+    "compare women's and men's literacy rates in india",
+    "why do girls drop out of school more than boys"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the female rate",
+     "explain": "Take the male literacy rate and subtract the female literacy rate to get the gap in percentage points",
+     "compute": "literacy_gap = male_literacy - female_literacy"
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.3",
+   "title": "Child Sex Ratio from Births Data",
+   "section": "Public and Private Divisions",
+   "definition": "The child sex ratio counts girl children per thousand boys, found by dividing the number of girls by the number of boys and scaling to a thousand; sex-selective abortion has pushed the ratio down to 919 nationally and below 850 in some states.",
+   "formula": "child_sex_ratio = girl_children / boy_children * 1000",
+   "key_idea": "Preference for sons and misuse of technology have made the ratio fall below 850 or even 800 in some states, as the Census 2011 map shows.",
+   "textbook_ref": "jess403.txt lines 246-270",
+   "question_patterns": [
+    "calculate the child sex ratio from the number of girls and boys",
+    "how many girl children are there per thousand boys",
+    "find the sex ratio when the counts of girls and boys are given",
+    "what is the child sex ratio of india according to census 2011",
+    "why has the child sex ratio declined in india",
+    "identify states where the child sex ratio is below 900"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale girls to a thousand boys",
+     "explain": "Divide the number of girl children by the number of boy children and multiply by 1000",
+     "compute": "child_sex_ratio = girl_children / boy_children * 1000"
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.4",
+   "title": "Women's Political Representation and Reservation",
+   "section": "Women's Political Representation",
+   "definition": "Women's share in legislatures stays very low, touching 14.36 per cent of the Lok Sabha only in 2019 and under 5 per cent in state assemblies, which is why feminists demand reservation, and panchayats and municipalities already reserve at least one-third of seats for women.",
+   "formula": "",
+   "key_idea": "The Equal Remuneration Act of 1976 promises equal wages for equal work, but reservation of elected seats is seen as the surest way to let women control power and attention to their problems.",
+   "textbook_ref": "jess403.txt lines 271-405",
+   "question_patterns": [
+    "what per cent of the lok sabha members are women after 2019",
+    "why is women's representation in legislature so low",
+    "what reservation do women have in panchayats and municipalities",
+    "what does the equal remuneration act provide",
+    "why do feminists demand reservation of seats for women",
+    "compare women's share in lok sabha and state assemblies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the representation numbers",
+     "explain": "Record the 14.36 per cent Lok Sabha share in 2019 and the under 5 per cent share in assemblies."
+    },
+    {
+     "step": 2,
+     "action": "check the legal supports",
+     "explain": "Cite the one-third reservation in local bodies and the Equal Remuneration Act, 1976 as existing measures."
+    },
+    {
+     "step": 3,
+     "action": "verify the power argument",
+     "explain": "Only when women control power will their problems get adequate attention, the reasoning behind reservation demands."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.1",
+   "title": "Communalism and Its Forms",
+   "section": "Communalism and Secularism",
+   "definition": "Communalism treats followers of one religion as a single political community with interests opposed to others, ranging from everyday beliefs in the superiority of one's religion to majoritarian dominance and finally to communal riots and violence.",
+   "formula": "",
+   "key_idea": "A communal mind sees one's own religion as superior and the nation as an expression of one major religion, and the ugliest form appeared in communal riots at the time of the partition of the country.",
+   "textbook_ref": "jess403.txt lines 407-590",
+   "question_patterns": [
+    "what is communalism",
+    "describe the different forms of communalism",
+    "how does communalism take the form of riots and violence",
+    "what does a communal mind believe",
+    "how does communalism use religion in politics",
+    "give examples of communal prejudices in everyday life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "grade the forms",
+     "explain": "Order the stages: everyday fanaticism, desire for majority dominance, political mobilisation on religious lines, and violence or riots."
+    },
+    {
+     "step": 2,
+     "action": "test the belief structure",
+     "explain": "Communalism claims followers of one religion share identical secular interests, which is historically false."
+    },
+    {
+     "step": 3,
+     "action": "verify the consequences",
+     "explain": "Link the ugliest form toPartition and communal riots like those at the time of independence."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.2",
+   "title": "Secularism in the Indian Constitution",
+   "section": "Secularism and Secular State",
+   "definition": "India chose a secular constitutional model with no official state religion: the Constitution gives individuals and communities freedom to profess and practise their religion, and bars discrimination on religious grounds.",
+   "formula": "",
+   "key_idea": "Unlike states that protect one religion, the Indian Constitution works through three strategies of non-interference, accommodation and non-discrimination, making secularism more than a mere ideology.",
+   "textbook_ref": "jess403.txt lines 588-660",
+   "question_patterns": [
+    "why is india called a secular state",
+    "which constitutional provisions make india secular",
+    "how does the indian constitution prevent religious discrimination",
+    "compare indian secularism with states having an official religion",
+    "what is the difference between communal and secular politics",
+    "why does combating communalism need a secular constitution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the absence of state religion",
+     "explain": "Confirm no religion is declared the official religion of the Indian state."
+    },
+    {
+     "step": 2,
+     "action": "list the protections",
+     "explain": "Freedom to profess, practise and propagate religion, equality before law, and no discrimination on grounds of religion."
+    },
+    {
+     "step": 3,
+     "action": "verify the intervention strategies",
+     "explain": "The state may intervene to end a religious social evil while keeping distance from religion as such."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.1",
+   "title": "Caste Inequalities: SC, ST and OBC Shares",
+   "section": "Caste in Politics",
+   "definition": "Census data show the Scheduled Castes at 16.6 per cent and the Scheduled Tribes at 8.6 per cent of the population, while the National Sample Survey puts Other Backward Classes at around 41 per cent, so together these groups form about two-thirds of the country.",
+   "formula": "",
+   "key_idea": "The Census does not count OBCs separately; caste untouchability is outlawed but its economic effects persist, and urban life weakens caste's daily grip.",
+   "textbook_ref": "jess403.txt lines 700-800, 830-870",
+   "question_patterns": [
+    "what share of india's population do the scheduled castes and tribes form",
+    "what per cent of the population are other backward classes according to the nss",
+    "who are dalits and adivasis",
+    "how do sc st and obc together add up to two thirds of the population",
+    "why does the census not count obcs",
+    "how did the constitution address caste discrimination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the group shares",
+     "explain": "SC 16.6 per cent and ST 8.6 per cent come from Census 2011; OBC around 41 per cent comes from the NSS 2004-05."
+    },
+    {
+     "step": 2,
+     "action": "add the shares",
+     "explain": "Together SC, ST and OBC make about two-thirds of the population and three-fourths of the Hindu population."
+    },
+    {
+     "step": 3,
+     "action": "verify the definitions",
+     "explain": "Scheduled Castes are those earlier treated as outcaste and subjected to untouchability; Scheduled Tribes are communities that lived secluded in hills and forests."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.2",
+   "title": "Casteism in Electoral Politics",
+   "section": "Caste in Politics",
+   "definition": "Caste enters politics when parties choose candidates and constituencies with caste arithmetic in mind, yet no parliamentary constituency has a single-caste majority, so candidates must appeal beyond one caste to win.",
+   "formula": "",
+   "key_idea": "Universal adult franchise and one-person-one-vote pushed political leaders to mobilise caste groups, but no caste can win an election alone in most constituencies.",
+   "textbook_ref": "jess403.txt lines 830-950",
+   "question_patterns": [
+    "how does casteism appear in electoral politics",
+    "can any single caste dominate a constituency's voters",
+    "how do parties use caste while selecting candidates",
+    "why does universal adult franchise affect caste politics",
+    "does the expression of caste difference become casteism always",
+    "explain how no constituency has a single caste majority"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify caste's political forms",
+     "explain": "Candidate choice, caste associations in campaigns, and appeal to caste sentiment in voting."
+    },
+    {
+     "step": 2,
+     "action": "check the arithmetic limit",
+     "explain": "No parliamentary constituency has a single-caste majority, so victory needs coalitions of castes and communities."
+    },
+    {
+     "step": 3,
+     "action": "verify the distinction",
+     "explain": "Caste difference is usual in society; it turns into casteism only when used to deny dignity or equal treatment."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.3",
+   "title": "Combined Share of Backward Groups",
+   "section": "Caste in Politics",
+   "definition": "The combined population share of several social groups is the sum of their individual shares, so the SC, ST and OBC populations can be added as percentages of the whole country.",
+   "formula": "combined_share = sc_share + st_share + obc_share",
+   "key_idea": "Adding 16.6 per cent, 8.6 per cent and roughly 41 per cent yields about two-thirds of the population belonging to SC, ST and OBC groups.",
+   "textbook_ref": "jess403.txt lines 700-740",
+   "question_patterns": [
+    "calculate the combined population share of sc st and obc groups",
+    "what percentage do the scheduled groups add up to",
+    "find the total share when group percentages are given",
+    "compute the sum of sc st and obc shares of population",
+    "how much of india's population belongs to backward groups together"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the group shares",
+     "explain": "Sum the percentage shares of the Scheduled Castes, Scheduled Tribes and Other Backward Classes",
+     "compute": "combined_share = sc_share + st_share + obc_share"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess403.txt lines 178-190",
+   "concept": "jess.403.1.2",
+   "question_type": "compute_gap",
+   "question_pattern": "The literacy rate among men is {male_literacy} per cent while among women it is {female_literacy} per cent. Calculate the literacy gap between men and women in percentage points.",
+   "extracted_variables": {
+    "male_literacy": 76,
+    "female_literacy": 54
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the female rate",
+     "explain": "Take the male literacy rate and subtract the female literacy rate to get the gap in percentage points",
+     "compute": "literacy_gap = male_literacy - female_literacy"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess403.txt lines 178-190",
+   "concept": "jess.403.1.2",
+   "question_type": "compute_gap",
+   "question_pattern": "In a state, male literacy stands at {male_literacy} per cent and female literacy at {female_literacy} per cent. Find the gap between the two rates.",
+   "extracted_variables": {
+    "male_literacy": 82,
+    "female_literacy": 65
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the female rate",
+     "explain": "Take the male literacy rate and subtract the female literacy rate to get the gap in percentage points",
+     "compute": "literacy_gap = male_literacy - female_literacy"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess403.txt lines 246-270",
+   "concept": "jess.403.1.3",
+   "question_type": "compute_ratio",
+   "question_pattern": "A district records {girl_children} girl children for {boy_children} boy children in the zero to six age group. Calculate its child sex ratio per thousand boys.",
+   "extracted_variables": {
+    "girl_children": 919,
+    "boy_children": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale girls to a thousand boys",
+     "explain": "Divide the number of girl children by the number of boy children and multiply by 1000",
+     "compute": "child_sex_ratio = girl_children / boy_children * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess403.txt lines 246-270",
+   "concept": "jess.403.1.3",
+   "question_type": "compute_ratio",
+   "question_pattern": "In a survey, {girl_children} girls were counted against {boy_children} boys aged below six years. Find the child sex ratio expressed per 1000 boys.",
+   "extracted_variables": {
+    "girl_children": 470,
+    "boy_children": 530
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale girls to a thousand boys",
+     "explain": "Divide the number of girl children by the number of boy children and multiply by 1000",
+     "compute": "child_sex_ratio = girl_children / boy_children * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jess403.txt lines 700-740",
+   "concept": "jess.403.3.3",
+   "question_type": "compute_combined_share",
+   "question_pattern": "The Scheduled Castes are {sc_share} per cent, the Scheduled Tribes {st_share} per cent and Other Backward Classes about {obc_share} per cent of India's population. Calculate their combined share in per cent.",
+   "extracted_variables": {
+    "sc_share": 16.6,
+    "st_share": 8.6,
+    "obc_share": 41
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the group shares",
+     "explain": "Sum the percentage shares of the Scheduled Castes, Scheduled Tribes and Other Backward Classes",
+     "compute": "combined_share = sc_share + st_share + obc_share"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jess403.txt lines 700-740",
+   "concept": "jess.403.3.3",
+   "question_type": "compute_combined_share",
+   "question_pattern": "Three social groups form {sc_share} per cent, {st_share} per cent and {obc_share} per cent of a state's people. Work out the total share of these groups together.",
+   "extracted_variables": {
+    "sc_share": 15,
+    "st_share": 9,
+    "obc_share": 38
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the group shares",
+     "explain": "Sum the percentage shares of the Scheduled Castes, Scheduled Tribes and Other Backward Classes",
+     "compute": "combined_share = sc_share + st_share + obc_share"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess403.txt lines 1000-1100",
+   "questions": [
+    "Mention different aspects of life in which women are discriminated or disadvantaged in India.",
+    "State different forms of communalism with examples.",
+    "What is meant by sexual division of labour?",
+    "How is communalism a form of religious fundamentalism?",
+    "The distribution of population of India by religion shows that the proportion of Muslims has been declining or not - explain with data.",
+    "How is religious difference expressed in politics? Explain with examples.",
+    "What is the status of women's representation in India's legislatures?",
+    "Mention any two constitutional provisions that make India a secular state."
+   ]
+  }
+ ]
+}

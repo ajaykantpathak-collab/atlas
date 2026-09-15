@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_5",
+   "title": "c8_bio_ch2_5",
+   "questions": [
+    {
+     "q": "Which of the following is a classic example of direct contact transmission of an infectious disease?\nA) Drinking contaminated water from a municipal supply\nB) Catching a cold by touching a doorknob handled by a sick person\nC) Contracting chickenpox through direct physical touch of fluid from skin lesions\nD) Getting malaria through the bite of an infected mosquito",
+     "a": "The correct answer is C. Direct contact transmission involves physical transfer of microorganisms between an infected person and a susceptible host, such as through skin-to-skin contact, kissing, or touching infectious fluid.\nA wrong answer chosen from options A, B, or D reveals a misunderstanding of transmission categories, confusing indirect routes (water, fomites, vectors) with direct person-to-person contact.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sharing a drinking glass considered an indirect contact transmission method rather than direct contact?\nA) Because the glass changes the temperature of the liquid inside it.\nB) Because the pathogen is transferred via an inanimate object (fomite) rather than skin-to-skin contact between the two people.\nC) Because pathogens cannot survive on glass surfaces for more than a few seconds.\nD) Because water neutralizes all bacterial pathogens instantly.",
+     "a": "The correct answer is B. An inanimate object that can harbor and transmit pathogens is called a fomite; transferring disease via a shared object without direct human-to-human touch is classified as indirect contact.\nChoosing A, C, or D shows a failure to recognize that non-living surfaces act as intermediate vehicles (fomites) in indirect transmission chains.",
+     "self_check": true
+    },
+    {
+     "q": "During an epidemic investigation, health officials find that an entire neighborhood fell ill after drinking from a common well that was flooded during heavy rains. What mode of transmission does this represent?\nA) Direct droplet transmission\nB) Indirect waterborne transmission\nC) Direct vector-borne transmission\nD) Direct sexual contact",
+     "a": "The correct answer is B. \nSteps to solve:\n1. Identify the source: a common well contaminated by flood water.\n2. Identify the host population: the neighborhood residents who drank the water.\n3. Determine if individuals touched each other (Direct) or if a medium carried the pathogen (Indirect).\n4. Since water acted as the vehicle, classify it as indirect waterborne transmission.\nA wrong answer indicates confusion between person-to-person contact and environmental vehicle transmission like waterborne routes.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the role of houseflies in spreading cholera versus how mosquitoes spread malaria. How do their modes of transmission differ in classification?\nA) Both are direct transmission because the insect touches human skin.\nB) Houseflies act as mechanical vectors (indirect contact via contaminated surfaces/food), while mosquitoes act as biological vectors (where the pathogen develops inside the vector before transmission).\nC) Houseflies transmit airborne spores directly, while mosquitoes transmit waterborne cysts.\nD) There is no difference; both are forms of droplet transmission.",
+     "a": "The correct answer is B. Houseflies transfer pathogens mechanically on their body parts or feet to food (indirect fomite/vector route), whereas mosquitoes serve as biological hosts where the parasite completes a part of its life cycle before entering the human bloodstream.\nA wrong answer reveals a failure to distinguish between mechanical and biological vector transmission pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Wearing a face mask in a crowded room completely eliminates all forms of disease transmission.\" Is this scientifically sound?\nA) Yes, because masks create an impermeable chemical shield around the face.\nB) No, because while masks effectively reduce direct droplet spread and airborne indirect transmission, they do not prevent vector-borne, waterborne, or direct skin-to-skin touch transmission.\nC) Yes, because all infectious diseases are exclusively airborne.\nD) No, because masks attract pathogens instead of repelling them.",
+     "a": "The correct answer is B. Pathogens travel through multiple independent routes; a face mask only interrupts respiratory droplet and airborne pathways, leaving hand-to-face contact, contaminated food/water, and vector bites unprotected.\nChoosing A, C, or D demonstrates overgeneralization of a single preventive measure and a lack of holistic understanding of diverse transmission routes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple community intervention plan to break the chain of transmission for a waterborne disease outbreak in a rural Indian village. What key steps must be included?",
+     "a": "A complete answer should include: (1) Identifying and sealing the contaminated water source, (2) Distributing water purification tablets or advising boiling of drinking water, (3) Setting up oral rehydration stations, and (4) Conducting community education on hand hygiene and sanitation.\nA poor answer lists vague ideas like \"tell people to stop getting sick\" without addressing the specific indirect waterborne transmission route.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

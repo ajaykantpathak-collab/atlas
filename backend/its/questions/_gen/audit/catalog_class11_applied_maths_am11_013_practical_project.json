@@ -1,0 +1,313 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_013_practical_project.json",
+ "concepts": [
+  {
+   "id": "am11_013.1",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 + 7 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 12 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 18 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 6 * 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 40 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 60 / 240 * 360"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.2",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((3, 21, 25, 7, 35))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 21"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 13"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (19 + 53) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(29, 12, 35, 14) - min(29, 12, 35, 14)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.3",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 4000 * 12 * 4 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 4000 * 12 * 4 / 100",
+      "amount = 4000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 1920 * 100 / (12 * 4)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 4000 * (1 + 12 / 100) ** 2",
+      "ci = amount - 4000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 4000 * (1 + 12 / 100) ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 4000 * (1 + 10 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.4",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 5000 * 5 * 2 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 5000 * 5 * 2 / 100",
+      "amount = 5000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 500 * 100 / (5 * 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 5000 * (1 + 5 / 100) ** 3",
+      "ci = amount - 5000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 5000 * (1 + 5 / 100) ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 5000 * (1 + 12 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.5",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 + 6 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 4 * 25"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 225 / 25"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 11 * 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 60 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 60 / 240 * 360"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.6",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 28"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 77 * 77"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (119 * 119 - 56 * 56)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 45 / 360 * 2 * 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 60 / 360 * 22 / 7 * 28 * 28"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_013.7",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 + 2 + 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 9 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 10 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 3 * 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 90 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 50 / 200 * 360"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 7 + 2 + 2"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_002",
+   "title": "c7_math_ch05_002",
+   "questions": [
+    {
+     "q": "If two angles form a linear pair and one of them measures $75^\\circ$, what is the measure of the other angle?",
+     "a": "The measure is $105^\\circ$. Students who answer $25^\\circ$ or $180^\\circ$ likely confused the linear pair property with complementary angles ($90^\\circ$) or thought the total sum must equal the single given angle, failing to recall that a straight line measures $180^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of the angles in a linear pair is always $180^\\circ$ rather than $360^\\circ$.",
+     "a": "A linear pair rests on a straight line, which represents a straight angle measuring $180^\\circ$ (half of a full circle's $360^\\circ$). Students who believe it is $360^\\circ$ confuse a straight line with a complete point rotation or full circle.",
+     "self_check": true
+    },
+    {
+     "q": "Two adjacent angles on a straight line are given as $(3x)^\\circ$ and $(2x + 30)^\\circ$. Find the exact numerical value of $x$.",
+     "a": "Steps: \n1. Recognize that the angles form a linear pair, so their sum is $180^\\circ$.\n2. Set up the equation: $3x + 2x + 30 = 180$.\n3. Combine like terms: $5x + 30 = 180$.\n4. Subtract 30 from both sides: $5x = 150$.\n5. Divide by 5: $x = 30$. \nThe final answer is $x = 30$. Students who subtract $30$ from $180$ before combining terms or make arithmetic errors during division will arrive at incorrect values like $36$ or $50$.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an angle of $95^\\circ$ and its linear pair partner with two angles measuring $80^\\circ$ and $100^\\circ$. Can both sets be classified as linear pairs? Explain why or why not.",
+     "a": "Only the pair summing to $180^\\circ$ ($95^\\circ$ and $85^\\circ$, assuming the first scenario) forms a valid linear pair because linear pairs require adjacent angles on a straight line summing to $180^\\circ$. While $80^\\circ$ and $100^\\circ$ sum to $180^\\circ$, they are not necessarily adjacent or sharing a common arm on a straight line unless explicitly stated. Students who say yes to both focus only on the numerical sum of $180^\\circ$ and ignore the geometric requirement of adjacency on a straight line.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student's solution: \"For a linear pair where angle A = $4x$ and angle B = $2x$, I wrote $4x \\times 2x = 180$, so $8x^2 = 180$.\" Is this correct? Identify the error and provide the correct working.",
+     "a": "The student's solution is incorrect. The error is multiplying the angles instead of adding them ($4x + 2x = 180$). Correct working: $4x + 2x = 180 \\Rightarrow 6x = 180 \\Rightarrow x = 30$. Students who defend the student's solution fail to understand that linear pairs combine by addition (sum equals $180^\\circ$), not multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem involving a carpenter cutting a wooden plank where two resulting edge angles form a linear pair, using an algebraic expression with an unknown variable $p$, and state the sum equation.",
+     "a": "A carpenter cuts a straight wooden plank into two sections meeting at a joint. One section forms an angle of $(5p - 10)^\\circ$ and the adjacent section forms an angle of $(3p + 30)^\\circ$. The equation is $(5p - 10) + (3p + 30) = 180$. A poor answer would fail to set up an algebraic equation or use an incorrect sum like $90^\\circ$ or $360^\\circ$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

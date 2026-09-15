@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class7_maths_gegp104.json",
+ "concepts": [
+  {
+   "id": "gegp.4.1",
+   "title": "The Notion of Letter-Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 5 gives 32",
+     "compute": "val = 3 * 9 + 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 9.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 7x + 5 when x = 6.",
+     "a": "263",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 9x - 8x and give the coefficient of x.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 9 x (9 + 3) equals 9 x 9 + 9 x 3. Compute it.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9 + 5 x 7 (respect the order of operations).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4 + 9) x 4.",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.2",
+   "title": "Evaluating Letter-Number Expressions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 4 when x = 3.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 3x + 5 when x = 4.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 3x - 7x and give the coefficient of x.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 9 x (3 + 6) equals 9 x 3 + 9 x 6. Compute it.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5 + 6 x 4 (respect the order of operations).",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4 + 3) x 9.",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3",
+   "title": "Rules and Patterns as Expressions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 6 gives 15",
+     "compute": "val = 3 * 3 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 6x + 5 when x = 6.",
+     "a": "221",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 9x + 9x - 5x and give the coefficient of x.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (6 + 8) equals 2 x 6 + 2 x 8. Compute it.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6 + 8 x 2 (respect the order of operations).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 8) x 6.",
+     "a": "84",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.4",
+   "title": "Simplifying Letter-Number Expressions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 6 gives 15",
+     "compute": "val = 3 * 3 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 8x + 5 when x = 5.",
+     "a": "95",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 3x - 4x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 4 x (7 + 4) equals 4 x 7 + 4 x 4. Compute it.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8 + 2 x 9 (respect the order of operations).",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2 + 5) x 2.",
+     "a": "14",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

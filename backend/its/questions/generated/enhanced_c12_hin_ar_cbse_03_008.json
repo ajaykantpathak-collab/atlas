@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_03_008",
+   "title": "c12_hin_ar_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define 'imagery' (प्रतीकात्मक चित्रण) in poetry and name the five sensory types. Give one example from daily life for each type.",
+     "a": "Imagery is language that appeals to the senses to create mental pictures. The five types: visual (sight) e.g., \"the saffron sunrise over Varanasi ghats\"; auditory (sound) e.g., \"temple bells clanging at dawn\"; olfactory (smell) e.g., \"wet earth after first monsoon rain\"; tactile (touch) e.g., \"rough bark of a neem tree\"; gustatory (taste) e.g., \"tangy raw mango in summer chutney\". A wrong answer that only gives visual examples reveals the student thinks imagery = only pictures, missing the multisensory nature crucial for board answers.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"कविता एक ममता है थके हुए के लिए\" (Poetry is a mother's lap for the tired), identify the tenor, vehicle, and ground of the metaphor. Explain why the poet chose \"mother's lap\" and not \"father's shoulder\" or \"friend's hug\".",
+     "a": "Tenor = poetry (target), vehicle = mother's lap (source), ground = unconditional comfort, safety, rest without demand. \"Mother's lap\" carries cultural weight in Indian context: it implies nourishment, automatic belonging, no performance pressure — unlike father's shoulder (authority/strength) or friend's hug (reciprocity). A wrong answer that only says \"it shows comfort\" misses the *specific* cultural connotation and the *ground* (the shared quality), which is what fetches the second mark in CBSE marking scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Find one visual image and one kinesthetic (movement) image from \"बात लम्बी थी पर\". Write the exact phrase, name the sense, and explain what emotion that image evokes in the context of the poem.",
+     "a": "Visual: \"बात की पोती ej आ गई\" (the small talk's fat belly came) — evokes absurdity and sudden weight of a trivial thing becoming heavy. Kinesthetic: \"हिला-डुला कर\" (shaking and turning language) — evokes restless experimentation, the poet wrestling with words. A student who picks \"लम्बी बात\" (long talk) as visual misses that it's abstract; they must choose concrete, sensory phrases. This error shows confusion between abstract nouns and sensory imagery.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metaphor \"कविता एक झूला है\" (poetry is a swing) with \"कविता एक खेल है बच्चों के लिए\" (poetry is a game for children). How does the *ground* (shared quality) shift between the two, and what does this shift reveal about the poet's view of poetry's audience?",
+     "a": "First metaphor: ground = rhythmic motion, pause, gentle restoration (for the weary adult). Second metaphor: ground = spontaneous joy, rule-free exploration, present-moment absorption (for children). The shift from *restorative* to *generative* play shows the poet sees poetry as serving different psychological needs across lifespan — not one fixed function. A wrong answer that says \"both mean poetry is fun\" collapses the nuanced developmental perspective the poem builds across its three stanzas, losing the \"analysis\" mark.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The metaphor 'साँप को सपेरे की तरह बीन दे दी' (gave the snake to the snake-charmer like a been) is more effective than a simile 'साँप को सपेरे की तरह बीन दे दी होती' would have been.\" Defend or challenge with two reasons rooted in the poem's theme of language ownership.",
+     "a": "Defend: (1) Metaphor fuses the act of surrender (giving the been) with identity (becoming the snake-charmer), showing the poet *became* the controller of language, not just acted like one — crucial for the theme \"भाषा को लगाम... से संवारना\". (2) The direct equation eliminates distance, mirroring how the poet internalizes language's rhythm. A simile would keep poet and snake-charmer separate, weakening the claim of mastery. A student who says \"metaphor is stronger\" without linking to *this poem's specific theme of possession* gives a generic lit-crit answer, not a text-grounded evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi poem (any meter) that uses **one extended metaphor** for \"exam stress\" and **at least two distinct sensory images** (different senses). Do not use the word \"stress\" or \"exam\".",
+     "a": "Example:\n\"कमरे की दीवारें तन गईं लोहे की शहतीर-सी (visual: steel girders)\nघड़ी की टिक-टिक हथौड़े की चोट-सी (auditory: hammer blows)\nसाँस अटकी कंठ में सूखे पत्ते-सी (tactile/organic: dry leaf in throat)\nकलम — तलवार जो कागज़ को चीर दे।\"\nExtended metaphor: exam stress = a forge/blacksmith's workshop (walls=anvil, clock=hammer, breath=raw metal, pen=sword). Two senses: visual (steel girders), auditory (hammer blows), plus tactile (dry leaf). A poor answer uses clichés (\"heart beating like drum\") without a unifying metaphor, showing inability to *structure* imagery around a central comparison — the core skill this node teaches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_8",
+   "title": "c9_geo_ch1_8",
+   "questions": [
+    {
+     "q": "Define the four processes of river erosion (hydraulic action, abrasion, attrition, solution) and state which process is primarily responsible for the formation of a V-shaped valley in the upper course of a river.",
+     "a": "Hydraulic action is the force of water hitting banks and forcing air into cracks; abrasion is the sandpaper effect of load scraping the bed/banks; attrition is load particles colliding and breaking into smaller, rounder pieces; solution is chemical dissolving of soluble rocks. Vertical erosion (mainly hydraulic action and abrasion) dominates in the upper course, cutting downwards to form V-shaped valleys. A wrong answer confusing lateral with vertical erosion reveals the student does not link gradient to erosion direction — a critical board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a waterfall forms where a band of hard rock overlies soft rock, and describe how the waterfall retreats upstream over time to create a gorge. Use the terms 'plunge pool', 'undercutting', and 'collapse' in your explanation.",
+     "a": "The river erodes the soft rock faster (abrasion, hydraulic action), undercutting the hard rock cap. The unsupported hard rock collapses into the plunge pool, and the waterfall retreats upstream, leaving a steep-sided gorge. A wrong answer stating the waterfall moves downstream or that the hard rock erodes faster reveals a fundamental misunderstanding of differential erosion and retreat direction — commonly tested in board diagram questions.",
+     "self_check": true
+    },
+    {
+     "q": "A river flows at 2 m/s in its upper course (gradient 1:50) and 0.5 m/s in its lower course (gradient 1:5000). The sediment load includes boulders (256 mm), pebbles (64 mm), sand (2 mm), and silt (0.06 mm). Using the Hjulström curve concept (qualitative), predict which particle sizes will be eroded, transported, or deposited in each course. Show your reasoning.",
+     "a": "Upper course (high velocity 2 m/s): erodes and transports boulders, pebbles, sand; only deposits boulders when velocity drops locally. Lower course (low velocity 0.5 m/s): cannot erode any size; transports only silt and fine sand in suspension; deposits pebbles, sand, and silt. Reasoning: erosion requires higher velocity than transportation; deposition occurs when velocity falls below settling velocity. A wrong answer claiming boulders are deposited in the upper course or silt is eroded in the lower course shows confusion between competence (max size transported) and capacity (total load) — a board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation of a meander and an ox-bow lake. Explain why meanders migrate laterally and how an ox-bow lake becomes isolated from the main channel. Include the role of helicoidal flow and the terms 'cut bank', 'slip-off slope', and 'neck cutoff'.",
+     "a": "Helicoidal flow (corkscrew current) erodes the outer bank (cut bank) and deposits on the inner bank (slip-off slope), causing lateral migration. Erosion narrows the meander neck; during flood, the river cuts through the neck (neck cutoff), creating a straighter channel. The abandoned loop becomes an ox-bow lake, sealed by deposition. A wrong answer describing meanders as static or ox-bow lakes forming by deposition alone reveals ignorance of the erosion-deposition feedback loop and the dynamic nature of middle-course rivers — essential for interpreting topographical map evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Floodplains and levees are purely depositional landforms that benefit agriculture but increase flood risk.\" Assess both the geomorphological accuracy and the human geography implications using the Ganga plains as evidence.",
+     "a": "Geomorphologically inaccurate: floodplains form by both lateral erosion (meander migration widening the valley) and overbank deposition; levees are depositional (coarser sediment dropped first at channel edge). Human geography: fertile alluvium supports intensive agriculture (rice-wheat in Ganga plains), but levees raise the river bed, increasing catastrophic flood risk when breached (e.g., 2008 Kosi breach). A wrong answer calling them purely depositional or ignoring the agriculture-flood risk trade-off shows inability to integrate physical and human geography — a key board competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design an annotated sketch map showing the longitudinal profile of the Ganga from Gangotri to the Bay of Bengal. Mark and label: (a) one upper-course erosional landform, (b) one middle-course landform showing erosion and deposition, (c) one lower-course depositional landform, (d) the dominant process in each section, and (e) one human settlement pattern linked to each landform. Justify your choices.",
+     "a": "Upper course (Gangotri to Haridwar): V-shaped valley — vertical erosion — scattered hill settlements on spur ends. Middle course (Haridwar to Allahabad): meander with cut bank and slip-off slope — lateral erosion and deposition — nucleated villages on slip-off slopes (flood-safe). Lower course (Allahabad to Bay of Bengal): delta distributaries — deposition — dense linear settlements on levees (e.g., Kolkata). Justification: gradient decreases from >10 m/km to <0.1 m/km; process shifts from erosion to deposition; settlements adapt to flood risk and soil fertility. A poor answer placing a delta in the upper course or showing meanders in the lower course reveals no mental model of the longitudinal profile — a frequent board map-sketch error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

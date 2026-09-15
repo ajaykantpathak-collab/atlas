@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_002",
+   "title": "c12_acc_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the two components of \"Cash\" as defined in AS-3.",
+     "a": "Correct Answer: (1) Cash in hand (physical currency), (2) Demand deposits with banks (balances withdrawable on demand without notice).  \nA wrong answer (e.g., including \"time deposits\" or \"cheques in hand not yet deposited\") reveals the student confuses **Cash** (immediately available) with **near-cash items** that require conversion time or bank processing. AS-3 is strict: only demand deposits qualify as Cash; fixed/time deposits are evaluated under Cash Equivalents only if ≤ 3 months maturity.",
+     "self_check": true
+    },
+    {
+     "q": "A company holds the following on March 31, 2024: (a) ₹2,00,000 in a Savings Account, (b) ₹5,00,000 in a Fixed Deposit maturing on June 15, 2024 (opened March 1, 2024), (c) ₹3,00,000 in Equity Shares of Reliance Industries (highly liquid, traded daily), (d) ₹1,00,000 in 10% Preference Shares of X Ltd. acquired on March 20, 2024, redeemable on April 30, 2024. Classify each as Cash, Cash Equivalent, or Neither per AS-3. Justify each classification in one sentence.",
+     "a": "Correct Answer:  \n(a) **Cash** — Demand deposit withdrawable anytime.  \n(b) **Cash Equivalent** — Maturity = 106 days (March 1 to June 15) ≈ 3.5 months > 3 months → **Neither** (fails 3-month rule).  \n(c) **Neither** — Equity shares are explicitly excluded regardless of liquidity; value risk is significant.  \n(d) **Cash Equivalent** — Preference shares acquired shortly before specific redemption date (April 30), maturity ~40 days (< 3 months), insignificant default risk → qualifies as per NCERT example.  \nA wrong answer classifying (b) as Cash Equivalent shows the student ignores the **exact 3-month cutoff from acquisition date**. Classifying (c) as Cash Equivalent reveals the misconception that \"highly liquid = cash equivalent\" — AS-3 explicitly excludes equity shares. Classifying (d) as Neither misses the specific NCERT exception for preference shares near redemption.",
+     "self_check": true
+    },
+    {
+     "q": "PQR Ltd. has a bank overdraft of ₹1,50,000 repayable on demand. The company also holds ₹4,00,000 in a Fixed Deposit maturing in 2 months. The accountant includes the overdraft as a component of \"Cash and Cash Equivalents\" in the Cash Flow Statement, netting it against the FD. Is this correct per AS-3? Explain why or why not.",
+     "a": "Correct Answer: **Incorrect.** AS-3 defines Cash Equivalents as *assets* (investments). Bank overdraft is a **liability** (short-term borrowing). While some frameworks (like IAS-7) allow netting overdrafts if they are integral to cash management, **AS-3 (as per NCERT) does not explicitly permit this netting in the definition of Cash and Cash Equivalents**. The overdraft should be shown under **Financing Activities** (short-term borrowings) or as a separate line item in the balance sheet. The FD (maturity 2 months < 3 months) is a Cash Equivalent. Netting them misstates the true cash position and violates the gross presentation principle of AS-3.  \nA wrong answer (\"Yes, it's correct because overdraft is repayable on demand\") reveals confusion between **cash management practice** and **accounting standard definition**. The student must distinguish: Cash Equivalents are *assets held*; overdraft is a *liability owed*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why does AS-3 allow **preference shares acquired shortly before redemption** as Cash Equivalents but **excludes equity shares** even if they are highly liquid and traded on a stock exchange? Your answer must reference the two criteria: \"known amount of cash\" and \"insignificant risk of changes in value.\"",
+     "a": "Correct Answer:  \nPreference shares near redemption have a **fixed redemption amount** (known cash) and **fixed date** — the only risk is issuer default, which is insignificant if the company is solvent. Thus, they meet both criteria.  \nEquity shares have **no fixed maturity** and **no fixed redemption value** — their market price fluctuates daily (significant value risk). Even if highly liquid, the amount realizable is **not known** in advance. Hence, they fail both criteria.  \nA weak answer (\"Preference shares are safer\") misses the precise AS-3 logic: it's about **certainty of amount and timing**, not general safety. The student must articulate that \"known amount\" = fixed redemption value, and \"insignificant risk\" = no market price volatility.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: *\"Any investment with a maturity of less than 3 months automatically qualifies as a Cash Equivalent.\"* Provide a counter-example from the NCERT text and explain which AS-3 criterion it violates.",
+     "a": "Correct Answer: The statement is **false**. Maturity ≤ 3 months is **necessary but not sufficient**. NCERT gives the counter-example: **Investments in shares are excluded unless they are in substance cash equivalents (like preference shares near redemption).** An equity share portfolio held for 2 months violates the **\"insignificant risk of changes in value\"** criterion — its market value can change significantly in 2 months. Similarly, a 2-month corporate bond of a distressed company violates the same criterion due to default risk.  \nA wrong answer (\"True, 3 months is the rule\") shows the student has memorised the maturity rule but missed the **dual criteria** (maturity + risk). This is a classic board exam trap: questions often give a 2-month investment in volatile securities and ask if it's a Cash Equivalent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario for a manufacturing company where an item **appears** to be a Cash Equivalent (short maturity, high liquidity) but **must be excluded** per AS-3. Specify the item, its terms, and the exact AS-3 criterion it fails. Then, write the correct disclosure treatment in the Cash Flow Statement.",
+     "a": "Expected Answer (sample):  \n**Scenario:** ABC Manufacturing invests ₹50 lakh in **Commercial Paper (CP) of a NBFC** maturing in 60 days. The CP is rated A1+ (high liquidity). However, the NBFC faces a sudden credit rating downgrade risk due to sectoral stress.  \n**Classification:** **Not a Cash Equivalent.**  \n**Failed Criterion:** \"Insignificant risk of changes in value\" — the downgrade risk means the realisable value may drop significantly before maturity.  \n**Correct Disclosure:** Show the CP under **Investing Activities** (purchase/sale of short-term investments not qualifying as cash equivalents) or as a separate line item \"Current Investments\" in the Balance Sheet. Do **not** include in \"Cash and Cash Equivalents\" opening/closing balances.  \nA poor answer (e.g., \"It's a Cash Equivalent because maturity < 3 months and rated high\") fails to apply the **risk criterion** in a dynamic context. The student must understand that AS-3 requires *judgment* on risk at the reporting date, not just at acquisition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

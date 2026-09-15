@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_004",
+   "title": "c12_cs_cbse_11_004",
+   "questions": [
+    {
+     "q": "Create a tuple containing a single integer `42` using parentheses. What is the type of the result?",
+     "a": "The result is `<class 'int'>`, not a tuple. Writing `(42)` creates an integer because parentheses are interpreted as grouping, not tuple creation. A single-element tuple requires a trailing comma: `(42,)`. A wrong answer reveals the student thinks parentheses alone define a tuple, missing the comma rule — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `t = (1, 2, [3, 4])` followed by `t[2].append(5)` succeeds, but `t[2] = [3, 4, 5]` fails. What does this reveal about tuple immutability?",
+     "a": "`t[2].append(5)` mutates the *list object* referenced by `t[2]` — the tuple's reference to that list remains unchanged. `t[2] = [3, 4, 5]` attempts to rebind the tuple's third slot to a new list, which violates immutability. A wrong answer (e.g., \"both fail\" or \"both succeed\") shows the student confuses *object mutability* with *container immutability* — tuples protect their references, not the objects they refer to.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = (10, 20, 30, 20, 40)`, write code to: (a) find how many times 20 appears, (b) find the index of the first 20, (c) find the index of the second 20 without using a loop.",
+     "a": "(a) `data.count(20)` → 2. (b) `data.index(20)` → 1. (c) `data.index(20, 2)` → 3 (start search from index 2). A wrong answer for (c) like `data.index(20, 1)` returns 1 again (first occurrence at or after index 1). This tests understanding of `index()`'s optional `start` parameter — a JEE-style detail.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two approaches for swapping variables `a = 5; b = 10`:\nApproach 1: `a, b = b, a`\nApproach 2: `temp = a; a = b; b = temp`\nAnalyze which uses tuple packing/unpacking internally and why Approach 1 is preferred in Python.",
+     "a": "Approach 1 uses tuple packing (`b, a` creates a tuple) and unpacking (assignment to `a, b`). Approach 2 uses a temporary variable. Approach 1 is preferred because it's atomic (no intermediate state where both variables hold the same value), more readable, and avoids name pollution. A wrong answer claiming \"both are same\" misses Python's tuple mechanics — the RHS is evaluated as a tuple before unpacking.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `coordinates = [(1, 2), (3, 4), (5, 6)]` and later does `coordinates[0] = (7, 8)`. They claim \"tuples are immutable, so this should fail.\" Evaluate their claim.",
+     "a": "The claim is wrong. `coordinates` is a *list* of tuples. Lists are mutable — replacing an element (`coordinates[0] = ...`) is allowed. The *tuple* `(1, 2)` is immutable, but the *list* holding it is not. A student who agrees reveals confusion between container mutability and element mutability — a frequent board exam error where \"tuples are immutable\" is overgeneralized.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where using a tuple instead of a list prevents a logical bug. Write the buggy list version and the corrected tuple version. Explain why the bug cannot occur with tuples.",
+     "a": "Scenario: Storing RGB color values `(255, 0, 0)` for \"red\". Buggy list: `color = [255, 0, 0]; color[1] = 100` accidentally changes red to orange. Corrected: `color = (255, 0, 0); color[1] = 100` raises TypeError. Tuples prevent accidental modification because they lack `__setitem__`. A poor answer gives a generic \"tuples are faster\" without a concrete mutability bug example.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

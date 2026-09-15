@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_003",
+   "title": "c12_bs_cbse_11_003",
+   "questions": [
+    {
+     "q": "A company manufacturing basic cement focuses on maximizing production efficiency, achieving economies of scale, and ensuring the product is available at every hardware store in the region at the lowest possible price. Which marketing philosophy does this company follow?",
+     "a": "Production Concept. The company focuses on high production efficiency, wide distribution, and low cost — the hallmarks of the Production Concept. A WRONG answer of \"Product Concept\" reveals confusion between \"making it well\" (Product) and \"making it abundantly and cheaply\" (Production). A WRONG answer of \"Marketing Concept\" shows the student thinks any business activity is \"marketing,\" missing that the Marketing Concept starts with customer needs, not production capacity.",
+     "self_check": true
+    },
+    {
+     "q": "\"Consumers will favour products that offer the most quality, performance, and innovative features.\" This statement reflects the core assumption of which philosophy? Explain why this assumption can fail in a price-sensitive market.",
+     "a": "Product Concept. The assumption is that consumers prioritize quality and features above all else. It fails in price-sensitive markets because customers may prefer a \"good enough\" product at a lower price over a superior product at a premium. A WRONG answer of \"Marketing Concept\" shows the student doesn't grasp that the Marketing Concept assumes customers have diverse needs that must be researched, not that they universally want maximum quality. A WRONG answer of \"Selling Concept\" confuses pushing existing products with designing superior ones.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has unsold inventory of a seasonal product (woolen sweaters) as summer approaches. The marketing manager launches an aggressive advertising campaign, offers \"buy one get one free\" deals, and incentivizes salespeople with high commissions to clear stock. Which philosophy is driving this action? Why is this a short-term tactic rather than a sustainable philosophy?",
+     "a": "Selling Concept. The firm focuses on pushing existing inventory through aggressive promotion and sales pressure, assuming customers won't buy enough unless persuaded. It's short-term because it ignores why the inventory piled up (poor demand forecasting, wrong product for season) and doesn't build customer loyalty. A WRONG answer of \"Marketing Concept\" reveals the student thinks any promotional activity is \"marketing.\" The Marketing Concept would have prevented the overstock by researching demand first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Marketing Concept and the Societal Marketing Concept using a 2x2 matrix with axes \"Focus on Customer Satisfaction\" (High/Low) and \"Focus on Societal Well-being\" (High/Low). Place each concept in the correct quadrant and give one real Indian company example for each.",
+     "a": "Marketing Concept: High Customer Satisfaction, Low/Moderate Societal Well-being (e.g., a fast-food chain optimizing taste/convenience but using plastic packaging). Societal Marketing Concept: High Customer Satisfaction, High Societal Well-being (e.g., Tata Tea's \"Jaago Re\" campaign promoting social awareness while selling tea). A WRONG answer placing both in \"High/High\" shows the student doesn't see that the Marketing Concept *can* ignore societal costs (pollution, health) while the Societal Marketing Concept *explicitly* balances them. A WRONG example like \"Patagonia\" for Marketing Concept reveals confusion — Patagonia is a classic Societal Marketing example.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Societal Marketing Concept is just the Marketing Concept with better PR. Any company truly following the Marketing Concept will automatically care for society because long-term profits require a healthy society.\" Defend or refute with a concrete counterexample.",
+     "a": "Refute. The Marketing Concept focuses on *target market* satisfaction, not *all* stakeholders. Counterexample: A tobacco company perfectly executing the Marketing Concept — researching smoker preferences, segmenting (menthol, light, premium), building brand loyalty — maximizes customer satisfaction and profit while harming societal health. The Societal Marketing Concept *explicitly* rejects such trade-offs. A WRONG answer agreeing with the statement shows the student conflates \"long-term business survival\" with \"societal well-being\" and misses that profitable harm to society is possible (and common).",
+     "self_check": true
+    },
+    {
+     "q": "Design a startup pitch (3 sentences) for an electric two-wheeler company that explicitly adopts the Societal Marketing Concept. Your pitch must mention: (a) target customer need, (b) product differentiation, (c) societal benefit beyond the customer.",
+     "a": "\"Urban commuters need affordable, low-maintenance mobility — our swappable-battery e-scooters cut running costs by 70% vs petrol. Unlike competitors, we build charging stations powered by solar microgrids in Tier-2 towns, not just metros. Every ride reduces urban emissions and creates local green-energy jobs, so your commute powers your community's future.\" A poor answer mentions only (a) and (b) — e.g., \"great mileage, low price, zero emissions\" — missing the *systemic* societal element (job creation, energy access) that distinguishes Societal from plain Marketing Concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

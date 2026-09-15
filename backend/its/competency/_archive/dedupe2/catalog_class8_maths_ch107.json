@@ -1,0 +1,903 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Comparing Quantities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh107.txt",
+ "concepts": [
+  {
+   "id": "hemh.107.7.1.1",
+   "title": "Finding Percentage Part from Total",
+   "section": "7.1 Recalling Ratios and Percentages",
+   "definition": "Determining the specific numerical portion corresponding to a given percentage of a whole quantity.",
+   "formula": "part = (percentage / 100) * total",
+   "key_idea": "Multiply the total quantity by the given percentage rate expressed as a fraction.",
+   "textbook_ref": "hemh107.txt lines 15-40",
+   "question_patterns": [
+    "find {percentage} percent of {total}",
+    "calculate the value corresponding to {percentage}% of {total}",
+    "what is {percentage} percent of {total}",
+    "how much is {percentage}% out of {total}",
+    "determine the part when {percentage}% of {total} is taken"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the specified fractional part of the total",
+     "explain": "multiply total by percentage divided by 100",
+     "compute": "part = percentage * total / 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.1.2",
+   "title": "Finding Total Quantity from Percentage Part",
+   "section": "7.1 Recalling Ratios and Percentages",
+   "definition": "Calculating the total amount when a specific percentage and its corresponding value are known.",
+   "formula": "total = (part * 100) / percentage",
+   "key_idea": "Divide the given value by its percentage rate to determine the whole quantity.",
+   "textbook_ref": "hemh107.txt lines 41-70",
+   "question_patterns": [
+    "if {percentage}% of a quantity is {part}, find the total quantity",
+    "calculate the total number when {percentage} percent equals {part}",
+    "what is the total amount if {part} represents {percentage}%",
+    "how much was the total if {percentage}% of it is {part}",
+    "determine the full value given that {percentage}% is {part}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total quantity using the unitary method formula",
+     "explain": "divide the part value by percentage rate and multiply by 100",
+     "compute": "total = part * 100 / percentage"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.1.3",
+   "title": "Ratio Comparison and Percentage Conversion",
+   "section": "7.1 Recalling Ratios and Percentages",
+   "definition": "Expressing two quantities as a ratio in simplest form or converting a given ratio to a percentage.",
+   "formula": "ratio_percent = (a / b) * 100",
+   "key_idea": "Ratios compare quantities of same units and convert to percentages when multiplied by 100.",
+   "textbook_ref": "hemh107.txt lines 1-30",
+   "question_patterns": [
+    "find the ratio of {a} to {b}",
+    "convert the ratio {a}:{b} to a percentage",
+    "calculate the ratio comparing {a} and {b}",
+    "what is the percentage equivalent of ratio {a} to {b}",
+    "express {a} to {b} as a simplified ratio"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert quantities to identical units",
+     "explain": "ensure both quantities are in the same measurement units before comparison"
+    },
+    {
+     "step": 2,
+     "action": "simplify fraction or multiply by 100 for percentage",
+     "explain": "divide numerator and denominator by common factors or convert ratio to percent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.2.1",
+   "title": "Discount Amount and Sale Price",
+   "section": "7.2 Finding Discounts",
+   "definition": "Calculating the reduction in marked price and the final cost payable by a buyer after discount.",
+   "formula": "sale_price = marked_price - (marked_price * discount_percent / 100)",
+   "key_idea": "Discount is calculated as a percentage of marked price and subtracted to get sale price.",
+   "textbook_ref": "hemh107.txt lines 115-150",
+   "question_patterns": [
+    "find the sale price of an item marked at {marked_price} with a discount of {discount_percent}%",
+    "calculate the final price after a discount of {discount_percent} percent on {marked_price}",
+    "what is the sale price if list price is {marked_price} and discount is {discount_percent}%",
+    "how much will a customer pay for an article marked {marked_price} at {discount_percent}% off",
+    "determine the reduction and sale price for marked price {marked_price} and discount rate {discount_percent}%"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the discount amount",
+     "explain": "multiply marked price by discount percent divided by 100",
+     "compute": "discount = marked_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract discount from marked price to get sale price",
+     "explain": "sale price equals marked price minus discount amount",
+     "compute": "sale_price = marked_price - discount"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.2.2",
+   "title": "Discount Percentage",
+   "section": "7.2 Finding Discounts",
+   "definition": "Determining the rate of discount expressed as a percentage relative to the original marked price.",
+   "formula": "discount_percent = ((marked_price - sale_price) * 100) / marked_price",
+   "key_idea": "The discount percentage is the ratio of discount amount to marked price, multiplied by 100.",
+   "textbook_ref": "hemh107.txt lines 120-140",
+   "question_patterns": [
+    "an item marked at {marked_price} is sold for {sale_price}, find the discount percentage",
+    "calculate the discount percent when marked price is {marked_price} and sale price is {sale_price}",
+    "what is the rate of discount if MP is {marked_price} and SP is {sale_price}",
+    "how much percent discount is offered if list price is {marked_price} and selling price is {sale_price}",
+    "determine discount rate given marked price {marked_price} and sale price {sale_price}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find discount amount",
+     "explain": "subtract sale price from marked price",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of discount on marked price",
+     "explain": "divide discount by marked price and multiply by 100",
+     "compute": "discount_percent = (discount * 100) / marked_price"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.2.3",
+   "title": "Marked Price from Sale Price and Discount Percentage",
+   "section": "7.2 Finding Discounts",
+   "definition": "Reconstructing the original marked price when the reduced sale price and percentage discount are provided.",
+   "formula": "marked_price = (sale_price * 100) / (100 - discount_percent)",
+   "key_idea": "Sale price represents (100 - discount_percent)% of the marked price.",
+   "textbook_ref": "hemh107.txt lines 160-175",
+   "question_patterns": [
+    "find the marked price if sale price is {sale_price} after a discount of {discount_percent}%",
+    "calculate marked price given selling price {sale_price} and discount rate {discount_percent} percent",
+    "what was the list price if an item is sold for {sale_price} with {discount_percent}% discount",
+    "how much was the original price when customer paid {sale_price} after {discount_percent}% discount",
+    "determine original marked price for SP {sale_price} at {discount_percent}% off"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute percentage factor of sale price relative to marked price",
+     "explain": "subtract discount percentage from 100",
+     "compute": "price_factor = 100 - discount_percent"
+    },
+    {
+     "step": 2,
+     "action": "calculate original marked price",
+     "explain": "divide sale price by price factor and multiply by 100",
+     "compute": "marked_price = (sale_price * 100) / price_factor"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.3.1",
+   "title": "Bill Amount with Sales Tax or GST",
+   "section": "7.3 Sales Tax/Value Added Tax/Goods and Services Tax",
+   "definition": "Calculating the total bill payable after adding the specified tax percentage to the base price of an article.",
+   "formula": "bill_amount = cost_price + (cost_price * tax_rate / 100)",
+   "key_idea": "Tax is an additional charge calculated as a percentage of the selling price and added to it.",
+   "textbook_ref": "hemh107.txt lines 180-210",
+   "question_patterns": [
+    "the cost of an item is {cost_price} and tax rate is {tax_rate}%, find the bill amount",
+    "calculate total payable amount for cost {cost_price} with sales tax of {tax_rate} percent",
+    "what is the bill amount when item costs {cost_price} plus {tax_rate}% GST",
+    "how much does a buyer pay for article costing {cost_price} subject to {tax_rate}% VAT",
+    "determine total cost including tax for item priced at {cost_price} with tax {tax_rate}%"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute tax amount",
+     "explain": "multiply cost price by tax rate divided by 100",
+     "compute": "tax_amount = cost_price * tax_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax amount to cost price to find total bill",
+     "explain": "bill amount equals original cost plus tax",
+     "compute": "bill_amount = cost_price + tax_amount"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.3.2",
+   "title": "Price Before Tax (VAT or GST)",
+   "section": "7.3 Sales Tax/Value Added Tax/Goods and Services Tax",
+   "definition": "Computing the original price of an item prior to the inclusion of sales tax, VAT, or GST.",
+   "formula": "original_price = (total_price * 100) / (100 + tax_rate)",
+   "key_idea": "Total price including tax corresponds to (100 + tax_rate)% of original price.",
+   "textbook_ref": "hemh107.txt lines 210-240",
+   "question_patterns": [
+    "an article was bought for {total_price} including {tax_rate}% tax, find original price before tax",
+    "calculate price before tax when total price with {tax_rate}% GST is {total_price}",
+    "what was the price before VAT if cooler was bought for {total_price} including {tax_rate}% VAT",
+    "how much was original cost when item was purchased for {total_price} with {tax_rate}% tax included",
+    "determine initial price prior to tax for total bill of {total_price} at tax rate {tax_rate}%"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total percentage factor including tax",
+     "explain": "add tax rate to 100",
+     "compute": "tax_factor = 100 + tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "compute price before tax",
+     "explain": "divide total price by tax factor and multiply by 100",
+     "compute": "original_price = (total_price * 100) / tax_factor"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.4.1",
+   "title": "Simple Interest and Total Amount",
+   "section": "7.4 Compound Interest",
+   "definition": "Calculating the fixed interest earned on a principal over time and the total accumulated sum.",
+   "formula": "amount = principal + (principal * rate * time / 100)",
+   "key_idea": "Simple interest is calculated on the original principal throughout the term.",
+   "textbook_ref": "hemh107.txt lines 250-280",
+   "question_patterns": [
+    "find simple interest and amount on sum {principal} at {rate}% per annum for {time} years",
+    "calculate total amount payable on sum {principal} borrowed at rate {rate}% for {time} years",
+    "what is the simple interest for principal {principal} at interest rate {rate}% over {time} years",
+    "how much interest is charged on {principal} at {rate}% per year for {time} years",
+    "determine amount and simple interest given principal {principal}, rate {rate}%, and time {time} years"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute simple interest",
+     "explain": "multiply principal by rate and time, then divide by 100",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "add simple interest to principal to find total amount",
+     "explain": "amount equals principal plus simple interest",
+     "compute": "amount = principal + interest"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.5.1",
+   "title": "Compound Interest and Final Amount",
+   "section": "7.5 Deducing a Formula for Compound Interest",
+   "definition": "Calculating the total amount and compound interest accumulated when interest is compounded annually.",
+   "formula": "amount = principal * ((1 + rate / 100) ** time)",
+   "key_idea": "Interest earned each period is added to principal for calculating subsequent interest.",
+   "textbook_ref": "hemh107.txt lines 310-360",
+   "question_patterns": [
+    "find compound interest on {principal} for {time} years at {rate}% per annum compounded annually",
+    "calculate total amount for sum {principal} at rate {rate}% compounded annually for {time} years",
+    "what is the CI on sum {principal} at {rate}% p.a. for {time} years",
+    "how much compound interest accumulates on {principal} at rate {rate}% over {time} years",
+    "determine final amount and CI for principal {principal}, rate {rate}%, time {time} years"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute accumulated amount using compound interest formula",
+     "explain": "apply A = P*(1 + R/100)^n formula",
+     "compute": "amount = principal * ((1 + rate / 100) ** time)"
+    },
+    {
+     "step": 2,
+     "action": "calculate compound interest",
+     "explain": "subtract principal from total accumulated amount",
+     "compute": "compound_interest = amount - principal"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.6.1",
+   "title": "Compound Growth and Population Increase",
+   "section": "7.6 Applications of Compound Interest Formula",
+   "definition": "Determining the increased population or quantity after a fixed period at a constant annual compound growth rate.",
+   "formula": "future_value = initial_value * ((1 + growth_rate / 100) ** time)",
+   "key_idea": "Growth applied to population or count compounds annually using the compound interest formula structure.",
+   "textbook_ref": "hemh107.txt lines 365-400",
+   "question_patterns": [
+    "the population was {initial_value} and grew at {growth_rate}% p.a., find population after {time} years",
+    "calculate growth of bacteria starting at {initial_value} increasing at rate {growth_rate}% per hour for {time} hours",
+    "what will be the population after {time} years if current population is {initial_value} with growth rate {growth_rate}%",
+    "how much does quantity increase from {initial_value} at {growth_rate}% compound rate in {time} years",
+    "determine future value for initial count {initial_value} with compounding growth rate {growth_rate}% over {time} units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate future value using compound growth formula",
+     "explain": "multiply initial value by (1 + growth_rate/100) raised to time",
+     "compute": "future_value = initial_value * ((1 + growth_rate / 100) ** time)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.6.2",
+   "title": "Depreciation of Asset Value",
+   "section": "7.6 Applications of Compound Interest Formula",
+   "definition": "Evaluating the reduced monetary value of an item after accounting for annual percentage depreciation.",
+   "formula": "depreciated_value = initial_price * ((1 - depreciation_rate / 100) ** time)",
+   "key_idea": "Depreciation reduces value periodically by applying negative compound growth rate.",
+   "textbook_ref": "hemh107.txt lines 400-430",
+   "question_patterns": [
+    "a machine bought at {initial_price} depreciates by {depreciation_rate}%, find value after {time} year",
+    "calculate depreciated value of vehicle bought for {initial_price} at rate {depreciation_rate}% after {time} years",
+    "what is the value of TV bought for {initial_price} after depreciating {depreciation_rate}% in {time} year",
+    "how much is an article worth if initial price is {initial_price} and depreciation rate is {depreciation_rate}% over {time} years",
+    "determine final reduced price for item costing {initial_price} with annual depreciation {depreciation_rate}% for {time} years"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate depreciated value using decay formula",
+     "explain": "multiply initial price by (1 - depreciation_rate/100) raised to time",
+     "compute": "depreciated_value = initial_price * ((1 - depreciation_rate / 100) ** time)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Exercise 7.1 Q3",
+   "concept": "hemh.107.7.1.1",
+   "question_type": "compute_part",
+   "question_pattern": "If {percentage}% of {total} students are interested in math, find how many are interested.",
+   "extracted_variables": {
+    "percentage": 72,
+    "total": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the specified fractional part of the total",
+     "explain": "multiply total by percentage divided by 100",
+     "compute": "part = percentage * total / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook Example",
+   "concept": "hemh.107.7.1.1",
+   "question_type": "compute_part",
+   "question_pattern": "Find {percentage}% of total distance {total} km.",
+   "extracted_variables": {
+    "percentage": 40,
+    "total": 55
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the specified fractional part of the total",
+     "explain": "multiply total by percentage divided by 100",
+     "compute": "part = percentage * total / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 1",
+   "concept": "hemh.107.7.1.2",
+   "question_type": "compute_total",
+   "question_pattern": "Girls are {percentage}% of total students and are {part} in number. Find total students.",
+   "extracted_variables": {
+    "percentage": 60,
+    "part": 18
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total quantity using the unitary method formula",
+     "explain": "divide the part value by percentage rate and multiply by 100",
+     "compute": "total = part * 100 / percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Exercise 7.1 Q4",
+   "concept": "hemh.107.7.1.2",
+   "question_type": "compute_total",
+   "question_pattern": "A team won {part} matches which was {percentage}% of total matches played. How many matches did they play?",
+   "extracted_variables": {
+    "percentage": 40,
+    "part": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total quantity using the unitary method formula",
+     "explain": "divide the part value by percentage rate and multiply by 100",
+     "compute": "total = part * 100 / percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 3",
+   "concept": "hemh.107.7.2.1",
+   "question_type": "compute_sale_price",
+   "question_pattern": "The list price of a frock is {marked_price}. A discount of {discount_percent}% is given. Find sale price.",
+   "extracted_variables": {
+    "marked_price": 220,
+    "discount_percent": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the discount amount",
+     "explain": "multiply marked price by discount percent divided by 100",
+     "compute": "discount = marked_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract discount from marked price to get sale price",
+     "explain": "sale price equals marked price minus discount amount",
+     "compute": "sale_price = marked_price - discount"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Exercise 7.2 Q1",
+   "concept": "hemh.107.7.2.1",
+   "question_type": "compute_sale_price",
+   "question_pattern": "Find amount to pay for jeans marked at {marked_price} with {discount_percent}% discount.",
+   "extracted_variables": {
+    "marked_price": 1450,
+    "discount_percent": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the discount amount",
+     "explain": "multiply marked price by discount percent divided by 100",
+     "compute": "discount = marked_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract discount from marked price to get sale price",
+     "explain": "sale price equals marked price minus discount amount",
+     "compute": "sale_price = marked_price - discount"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Example 2",
+   "concept": "hemh.107.7.2.2",
+   "question_type": "compute_discount_percent",
+   "question_pattern": "An item marked at {marked_price} is sold for {sale_price}. What is the discount percent?",
+   "extracted_variables": {
+    "marked_price": 840,
+    "sale_price": 714
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find discount amount",
+     "explain": "subtract sale price from marked price",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of discount on marked price",
+     "explain": "divide discount by marked price and multiply by 100",
+     "compute": "discount_percent = (discount * 100) / marked_price"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Try These Section 7.2 Q2",
+   "concept": "hemh.107.7.2.2",
+   "question_type": "compute_discount_percent",
+   "question_pattern": "A table marked at {marked_price} is available for {sale_price}. Find discount percent.",
+   "extracted_variables": {
+    "marked_price": 15000,
+    "sale_price": 14400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find discount amount",
+     "explain": "subtract sale price from marked price",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of discount on marked price",
+     "explain": "divide discount by marked price and multiply by 100",
+     "compute": "discount_percent = (discount * 100) / marked_price"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Exercise 7.2 Q3",
+   "concept": "hemh.107.7.2.3",
+   "question_type": "compute_marked_price",
+   "question_pattern": "Arun bought skates at a sale with discount {discount_percent}%. If amount paid was {sale_price}, find marked price.",
+   "extracted_variables": {
+    "discount_percent": 20,
+    "sale_price": 1600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute percentage factor of sale price relative to marked price",
+     "explain": "subtract discount percentage from 100",
+     "compute": "price_factor = 100 - discount_percent"
+    },
+    {
+     "step": 2,
+     "action": "calculate original marked price",
+     "explain": "divide sale price by price factor and multiply by 100",
+     "compute": "marked_price = (sale_price * 100) / price_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Try These Section 7.2 Q3",
+   "concept": "hemh.107.7.2.3",
+   "question_type": "compute_marked_price",
+   "question_pattern": "An almirah is sold at {sale_price} after allowing discount of {discount_percent}%. Find marked price.",
+   "extracted_variables": {
+    "sale_price": 5225,
+    "discount_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute percentage factor of sale price relative to marked price",
+     "explain": "subtract discount percentage from 100",
+     "compute": "price_factor = 100 - discount_percent"
+    },
+    {
+     "step": 2,
+     "action": "calculate original marked price",
+     "explain": "divide sale price by price factor and multiply by 100",
+     "compute": "marked_price = (sale_price * 100) / price_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Example 4",
+   "concept": "hemh.107.7.3.1",
+   "question_type": "compute_bill_amount",
+   "question_pattern": "Cost of roller skates was {cost_price}. Sales tax charged was {tax_rate}%. Find bill amount.",
+   "extracted_variables": {
+    "cost_price": 450,
+    "tax_rate": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute tax amount",
+     "explain": "multiply cost price by tax rate divided by 100",
+     "compute": "tax_amount = cost_price * tax_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax amount to cost price to find total bill",
+     "explain": "bill amount equals original cost plus tax",
+     "compute": "bill_amount = cost_price + tax_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Exercise 7.2 Q2",
+   "concept": "hemh.107.7.3.1",
+   "question_type": "compute_bill_amount",
+   "question_pattern": "The price of TV is {cost_price}. Sales tax rate is {tax_rate}%. Find total amount to pay.",
+   "extracted_variables": {
+    "cost_price": 13000,
+    "tax_rate": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute tax amount",
+     "explain": "multiply cost price by tax rate divided by 100",
+     "compute": "tax_amount = cost_price * tax_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax amount to cost price to find total bill",
+     "explain": "bill amount equals original cost plus tax",
+     "compute": "bill_amount = cost_price + tax_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Example 5",
+   "concept": "hemh.107.7.3.2",
+   "question_type": "compute_price_before_tax",
+   "question_pattern": "An air cooler was bought for {total_price} including tax of {tax_rate}%. Find price before tax.",
+   "extracted_variables": {
+    "total_price": 3300,
+    "tax_rate": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total percentage factor including tax",
+     "explain": "add tax rate to 100",
+     "compute": "tax_factor = 100 + tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "compute price before tax",
+     "explain": "divide total price by tax factor and multiply by 100",
+     "compute": "original_price = (total_price * 100) / tax_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Example 6",
+   "concept": "hemh.107.7.3.2",
+   "question_type": "compute_price_before_tax",
+   "question_pattern": "Salim bought an article for {total_price} including GST of {tax_rate}%. What is price before GST?",
+   "extracted_variables": {
+    "total_price": 784,
+    "tax_rate": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total percentage factor including tax",
+     "explain": "add tax rate to 100",
+     "compute": "tax_factor = 100 + tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "compute price before tax",
+     "explain": "divide total price by tax factor and multiply by 100",
+     "compute": "original_price = (total_price * 100) / tax_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "Example 7",
+   "concept": "hemh.107.7.4.1",
+   "question_type": "compute_simple_interest_amount",
+   "question_pattern": "A sum of {principal} is borrowed at rate {rate}% p.a. for {time} years. Find simple interest and total amount.",
+   "extracted_variables": {
+    "principal": 10000,
+    "rate": 15,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute simple interest",
+     "explain": "multiply principal by rate and time, then divide by 100",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "add simple interest to principal to find total amount",
+     "explain": "amount equals principal plus simple interest",
+     "compute": "amount = principal + interest"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "Try These Section 7.4 Q1",
+   "concept": "hemh.107.7.4.1",
+   "question_type": "compute_simple_interest_amount",
+   "question_pattern": "Find interest and amount to be paid on {principal} at {rate}% per annum after {time} years.",
+   "extracted_variables": {
+    "principal": 15000,
+    "rate": 5,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute simple interest",
+     "explain": "multiply principal by rate and time, then divide by 100",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "add simple interest to principal to find total amount",
+     "explain": "amount equals principal plus simple interest",
+     "compute": "amount = principal + interest"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "Example 8",
+   "concept": "hemh.107.7.5.1",
+   "question_type": "compute_compound_interest",
+   "question_pattern": "Find CI on {principal} for {time} years at {rate}% per annum compounded annually.",
+   "extracted_variables": {
+    "principal": 12600,
+    "rate": 10,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute accumulated amount using compound interest formula",
+     "explain": "apply A = P*(1 + R/100)^n formula",
+     "compute": "amount = principal * ((1 + rate / 100) ** time)"
+    },
+    {
+     "step": 2,
+     "action": "calculate compound interest",
+     "explain": "subtract principal from total accumulated amount",
+     "compute": "compound_interest = amount - principal"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "Try These Section 7.5 Q1",
+   "concept": "hemh.107.7.5.1",
+   "question_type": "compute_compound_interest",
+   "question_pattern": "Find CI on sum of {principal} for {time} years at {rate}% per annum compounded annually.",
+   "extracted_variables": {
+    "principal": 8000,
+    "rate": 5,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute accumulated amount using compound interest formula",
+     "explain": "apply A = P*(1 + R/100)^n formula",
+     "compute": "amount = principal * ((1 + rate / 100) ** time)"
+    },
+    {
+     "step": 2,
+     "action": "calculate compound interest",
+     "explain": "subtract principal from total accumulated amount",
+     "compute": "compound_interest = amount - principal"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "Example 9",
+   "concept": "hemh.107.7.6.1",
+   "question_type": "compute_compound_growth",
+   "question_pattern": "Population was {initial_value} in 1997. Increased at rate {growth_rate}% p.a. Find population after {time} years.",
+   "extracted_variables": {
+    "initial_value": 20000,
+    "growth_rate": 5,
+    "time": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate future value using compound growth formula",
+     "explain": "multiply initial value by (1 + growth_rate/100) raised to time",
+     "compute": "future_value = initial_value * ((1 + growth_rate / 100) ** time)"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "Exercise 7.3 Q2",
+   "concept": "hemh.107.7.6.1",
+   "question_type": "compute_compound_growth",
+   "question_pattern": "Bacteria count increasing at rate {growth_rate}% per hour. Find count after {time} hours if initially {initial_value}.",
+   "extracted_variables": {
+    "initial_value": 506000,
+    "growth_rate": 2.5,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate future value using compound growth formula",
+     "explain": "multiply initial value by (1 + growth_rate/100) raised to time",
+     "compute": "future_value = initial_value * ((1 + growth_rate / 100) ** time)"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "Example 10",
+   "concept": "hemh.107.7.6.2",
+   "question_type": "compute_depreciation",
+   "question_pattern": "A TV was bought at {initial_price}. Depreciated by {depreciation_rate}%. Find value after {time} year.",
+   "extracted_variables": {
+    "initial_price": 21000,
+    "depreciation_rate": 5,
+    "time": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate depreciated value using decay formula",
+     "explain": "multiply initial price by (1 - depreciation_rate/100) raised to time",
+     "compute": "depreciated_value = initial_price * ((1 - depreciation_rate / 100) ** time)"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "Exercise 7.3 Q3",
+   "concept": "hemh.107.7.6.2",
+   "question_type": "compute_depreciation",
+   "question_pattern": "A scooter bought at {initial_price} depreciated at rate {depreciation_rate}% p.a. Find value after {time} year.",
+   "extracted_variables": {
+    "initial_price": 42000,
+    "depreciation_rate": 8,
+    "time": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate depreciated value using decay formula",
+     "explain": "multiply initial price by (1 - depreciation_rate/100) raised to time",
+     "compute": "depreciated_value = initial_price * ((1 - depreciation_rate / 100) ** time)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "Exercise 7.1",
+   "questions": [
+    "Find the ratio of: (a) Speed of cycle 15 km/h to scooter 30 km/h. (b) 5 m to 10 km. (c) 50 paise to Rs 5.",
+    "Convert ratios to percentages: (a) 3:4 (b) 2:3.",
+    "72% of 25 students are interested in mathematics. How many are not interested in mathematics?",
+    "A football team won 10 matches out of total matches played. If win percentage was 40%, how many matches played in total?",
+    "If Chameli had Rs 600 left after spending 75% of her money, how much did she have in the beginning?",
+    "If 60% people like cricket, 30% like football and remaining like other games, find percentage for other games and exact numbers out of 50 lakh people."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "Exercise 7.2",
+   "questions": [
+    "During a sale, shop offered 10% discount on marked prices. What would a customer pay for jeans marked at Rs 1450 and two shirts at Rs 850 each?",
+    "Price of TV is Rs 13000. Sales tax charged at rate of 12%. Find amount Vinod will pay.",
+    "Arun bought skates at sale where discount given was 20%. If amount paid is Rs 1600, find marked price.",
+    "Purchased a hair-dryer for Rs 5400 including 8% VAT. Find price before VAT was added.",
+    "Article purchased for Rs 1239 including GST of 18%. Find price before GST was added."
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "Exercise 7.3",
+   "questions": [
+    "Population of a place increased to 54,000 in 2003 at rate of 5% p.a. Find population in 2001 and population in 2005.",
+    "Count of bacteria in experiment was increasing at rate of 2.5% per hour. Find bacteria at end of 2 hours if count was initially 5,06,000.",
+    "Scooter bought at Rs 42,000. Value depreciated at rate of 8% per annum. Find value after one year."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_004",
+   "title": "c10_geo_cbse_03_004",
+   "questions": [
+    {
+     "q": "Name the traditional rainwater harvesting structure that is a long earthen embankment built across a slope in the Thar Desert to capture runoff for agriculture.",
+     "a": "Khadin. A wrong answer (e.g., \"Johad\" or \"Tank\") reveals the student cannot distinguish between the three structures based on their physical form and geographic location. They may be memorizing names without linking each to its specific landscape.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Johads are typically built on gentle slopes in semi-arid regions rather than on steep slopes or flat plains.",
+     "a": "Johads are crescent-shaped earthen bunds that need a gentle slope to slow down runoff without causing erosion; on steep slopes water velocity would breach the bund, and on flat plains there is insufficient gradient to direct water into the structure. A wrong answer indicates the student does not understand the relationship between topography, runoff velocity, and the design of the harvesting structure.",
+     "self_check": true
+    },
+    {
+     "q": "A village in the Deccan Plateau receives 800 mm of annual rainfall, mostly in three monsoon months. The community plans to build a traditional tank to store water for the dry season. If the catchment area is 2 km² and the runoff coefficient is 0.3, calculate the approximate volume of water (in million litres) that can be harvested annually. (1 mm rainfall over 1 km² = 1 million litres)",
+     "a": "Step 1: Rainfall volume over catchment = 800 mm × 2 km² = 1600 million litres.\nStep 2: Runoff volume = 1600 × 0.3 = 480 million litres.\nStep 3: This is the potential harvestable volume (assuming 100% capture efficiency). Answer: 480 million litres. A wrong calculation (e.g., forgetting the runoff coefficient or unit conversion) shows the student cannot apply the water budget concept to a real-world planning scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of Khadins and Tanks for regions with (a) low annual rainfall (<250 mm) and sandy soil, and (b) moderate rainfall (600-800 mm) and impermeable clay soil. Justify your answer.",
+     "a": "(a) Khadins are more suitable: they spread water over a large area on sandy soil, allowing percolation and moisture retention for crops; tanks would lose water through high infiltration and evaporation. (b) Tanks are more suitable: clay soil reduces percolation loss, allowing long-term storage; Khadins would waterlog the surface. A poor answer shows the student cannot link soil permeability and rainfall regime to the choice of harvesting structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Traditional rainwater harvesting structures like Khadins, Johads, and Tanks are obsolete because modern dams provide more reliable water supply.\" Provide two arguments for and two against, and give your reasoned judgment.",
+     "a": "For: Dams store larger volumes, generate electricity, and supply water over longer distances. Against: Dams displace communities, cause ecological damage, and suffer high evaporation losses; traditional structures are decentralized, low-cost, community-managed, and recharge groundwater locally. Judgment: Traditional methods remain vital for local water security and groundwater recharge, complementing rather than replacing large dams. A weak evaluation treats the statement as purely true or false without weighing trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple rainwater harvesting plan for a hypothetical village in western Rajasthan (annual rainfall 150 mm, sandy soil, undulating terrain). Specify which traditional structure(s) you would recommend, their approximate layout, and how they would integrate with existing wells.",
+     "a": "Recommend a series of Khadins along the natural drainage lines, each with a 1-2 m high earthen bund, spaced to capture runoff from micro-catchments. Place Johads upstream of existing wells to recharge them. Include a small tank near the settlement for drinking water. Layout should follow contour lines. A poor design ignores the terrain, soil, or fails to link structures to groundwater recharge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

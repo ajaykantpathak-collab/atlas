@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_003",
+   "title": "c12_biotech_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define somaclonal variation and state the term used for plants regenerated from tissue culture that exhibit such variation.",
+     "a": "Somaclonal variation is the genetic and phenotypic variation observed in plants regenerated from cultured somatic tissues; such regenerated plants are called somaclones. A wrong answer (e.g., \"variation from sexual reproduction\" or \"mutation induced by chemicals\") reveals confusion between somaclonal variation and other sources of genetic variability, indicating the student has not grasped that it arises specifically from in vitro culture of somatic cells.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why somaclonal variation is considered both a 'boon' and a 'bane' in plant tissue culture applications.",
+     "a": "It is a bane when the goal is clonal fidelity (e.g., micropropagation of elite cultivars) because unwanted variations compromise uniformity and commercial value; it is a boon when breeders screen somaclones for novel agronomic traits (e.g., disease resistance, higher yield) and release them as new cultivars. A wrong answer that only mentions one aspect shows the student cannot evaluate the context-dependent nature of the phenomenon, a common error in board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A tissue culture lab regenerates 5000 banana plantlets from a single elite cultivar. After field planting, 120 plants show stunted growth and 85 show resistance to Fusarium wilt. Propose a step-by-step strategy to manage this somaclonal variation for commercial deployment.",
+     "a": "Step 1: Identify off-types (stunted) and desirable variants (resistant) through phenotypic screening. Step 2: Discard stunted somaclones to maintain clonal purity of the main crop. Step 3: Subject resistant somaclones to molecular characterization (e.g., SSR markers) to confirm genetic basis and stability. Step 4: Conduct multi-location field trials for the resistant lines. Step 5: Release stable resistant somaclones as new cultivars after regulatory approval. A wrong answer that suggests discarding all variants or using all variants indiscriminately reveals inability to apply the concept of selective screening for crop improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin of somaclonal variation with variation induced by gamma irradiation mutagenesis. Analyze which source is more likely to produce epigenetic changes and why.",
+     "a": "Somaclonal variation arises spontaneously during in vitro culture due to DNA replication errors, transposon activation, and epigenetic reprogramming (e.g., DNA methylation changes) triggered by culture stress; gamma irradiation directly causes DNA breaks and chromosomal aberrations. Epigenetic changes are more prevalent in somaclonal variation because tissue culture conditions (hormones, osmotic stress, oxidative stress) disrupt epigenetic maintenance machinery, whereas physical mutagens primarily cause structural DNA damage. A wrong answer attributing epigenetic changes mainly to irradiation shows misunderstanding of the distinct molecular mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Somaclonal variation can replace conventional breeding for developing new crop varieties because it generates unlimited genetic diversity.\"",
+     "a": "The statement is flawed: somaclonal variation is random, often deleterious, and limited to mutations tolerable in culture; it lacks the directed recombination of sexual breeding, cannot combine traits from diverse parents, and frequently produces unstable or pleiotropic phenotypes. It complements but cannot replace conventional breeding. A wrong answer agreeing with the statement reveals overestimation of somaclonal variation's utility and ignorance of its limitations (low frequency of beneficial changes, need for extensive screening).",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to test whether somaclonal variation in a regenerated wheat population is primarily genetic (DNA sequence change) or epigenetic (methylation change). Outline the key steps, controls, and expected outcomes.",
+     "a": "Step 1: Regenerate 100 wheat plants from long-term callus culture. Step 2: Phenotype for a trait (e.g., salt tolerance). Step 3: Extract DNA from variant and wild-type plants. Step 4: Perform whole-genome bisulfite sequencing (epigenetic) and whole-genome resequencing (genetic). Step 5: Compare methylation patterns and SNP/indel profiles. Controls: parent plant DNA, plants regenerated from short-term culture. Expected: If variants show differential methylation without DNA sequence changes, epigenetic; if sequence changes correlate with phenotype, genetic. A poor answer lacking appropriate controls or omitting bisulfite sequencing indicates inability to design a controlled molecular experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

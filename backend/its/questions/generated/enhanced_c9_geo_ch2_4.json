@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_4",
+   "title": "c9_geo_ch2_4",
+   "questions": [
+    {
+     "q": "State the primary cause of planetary winds and name the three major planetary wind belts.",
+     "a": "Planetary winds are caused by pressure differences between latitudinal pressure belts created by differential solar heating, modified by the Coriolis effect. The three belts are: Trade Winds (subtropical highs to equatorial low), Westerlies (subtropical highs to subpolar lows), and Polar Easterlies (polar highs to subpolar lows). A wrong answer (e.g., \"winds are caused by temperature differences alone\" or naming local winds like Loo) reveals the student misses the pressure-gradient mechanism and the global-scale classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Trade Winds in the Northern Hemisphere blow from the northeast while the Westerlies blow from the southwest, even though both originate from the subtropical high-pressure belt.",
+     "a": "Both originate from the subtropical high (~30°N/S) but flow toward different low-pressure zones: Trade Winds flow equatorward to the equatorial low (ITCZ), while Westerlies flow poleward to the subpolar low (~60°N/S). The Coriolis effect deflects moving air to the right in the Northern Hemisphere. Equatorward flow (southward) is deflected right → becomes northeast winds. Poleward flow (northward) is deflected right → becomes southwest winds. A wrong answer (e.g., \"they come from different pressure belts\" or \"Coriolis acts differently\") shows confusion about the single subtropical high source and the direction-dependent deflection.",
+     "self_check": true
+    },
+    {
+     "q": "A ship at 15°N, 60°W in the Atlantic Ocean records steady winds from the northeast. Using the global wind model, predict the wind direction at 45°N, 60°W and at 15°S, 60°W. Show your reasoning step by step.",
+     "a": "Step 1: Identify the wind belt at 15°N → Trade Winds (northeasterlies in NH). Step 2: Identify belt at 45°N → Westerlies (southwesterlies in NH). Step 3: Identify belt at 15°S → Trade Winds (southeasterlies in SH, deflected left). Step 4: Predict: at 45°N winds from SW; at 15°S winds from SE. Step 5: Verify with Coriolis: NH right deflection, SH left deflection. A wrong answer (e.g., same direction at both latitudes, or reversing hemispheres incorrectly) reveals inability to apply the three-cell model and hemisphere-specific Coriolis deflection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Hadley Cell and the Ferrel Cell in terms of: (a) latitudinal extent, (b) driving mechanism (thermal vs. dynamic), and (c) surface wind patterns produced. Why is the Ferrel Cell called \"thermally indirect\"?",
+     "a": "(a) Hadley: 0°-30°; Ferrel: 30°-60°. (b) Hadley is thermally direct (warm air rises at equator, cold sinks at 30°); Ferrel is thermally indirect (air rises at 60° where it's cold, sinks at 30° where it's warm) – driven by momentum transfer from Hadley/Polar cells. (c) Hadley produces Trade Winds; Ferrel produces Westerlies. (d) \"Thermally indirect\" because its circulation opposes the temperature gradient (cold air rises, warm air sinks), requiring energy from adjacent cells. A wrong answer (e.g., both thermally direct, or same wind belts) shows lack of understanding of the three-cell model's energy hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Coriolis effect is strongest at the equator and zero at the poles.\" Justify your answer with the physical principle.",
+     "a": "The statement is false. Coriolis effect is ZERO at the equator and MAXIMUM at the poles. Reason: Coriolis force = 2ΩV sinφ, where φ is latitude. At equator φ=0 → sin0=0 → no deflection. At poles φ=90° → sin90=1 → maximum deflection. A wrong answer (agreeing with the statement) reveals a fundamental misconception about the latitude dependence of the Coriolis parameter, confusing it with centrifugal force or linear velocity of rotation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labeled diagram for a Class 9 student showing the global pressure belts, planetary wind systems, and the three-cell circulation model. Include arrows for wind direction at surface and aloft, latitude markers, and the Coriolis deflection direction in each hemisphere.",
+     "a": "A good answer includes: (1) Latitude lines: 0°, 30°N/S, 60°N/S, 90°N/S. (2) Pressure belts: Equatorial Low (0°), Subtropical Highs (30°), Subpolar Lows (60°), Polar Highs (90°). (3) Three cells: Hadley (0-30), Ferrel (30-60), Polar (60-90) with rising/sinking arrows. (4) Surface winds: NE Trades (0-30N), SE Trades (0-30S), SW Westerlies (30-60N), NW Westerlies (30-60S), Polar Easterlies (60-90 both). (5) Aloft return flows opposite. (6) Coriolis: \"Deflect Right\" label in NH, \"Deflect Left\" in SH. A poor diagram (missing cells, wrong wind directions, no Coriolis labels) shows inability to synthesize the 3D model into a 2D representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

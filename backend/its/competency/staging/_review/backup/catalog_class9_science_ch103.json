@@ -1,0 +1,511 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 103,
+ "chapter_title": "Tissues in Action",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc103.txt",
+ "concepts": [
+  {
+   "id": "iesc.103.1",
+   "title": "Division of Labour and Cellular Hierarchy in Tissues",
+   "section": "3.0",
+   "definition": "A tissue is an ensemble of similar cells working together to perform a specialized functional role in a multicellular organism.",
+   "formula": "organism = tissues + organs + organ_systems",
+   "key_idea": "Grouping cells into tissues enables structural division of both labour and optimizes physiological efficiency.",
+   "textbook_ref": "iesc103.txt lines 1-35",
+   "question_patterns": [
+    "what is a tissue and why is division of labour important",
+    "explain how cells organize into tissues in multicellular organisms",
+    "define tissue and describe its significance",
+    "how does division of labour increase functional efficiency in living organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cellular organization",
+     "explain": "In multicellular organisms, cells of similar structure group together to carry out distinct vital tasks."
+    },
+    {
+     "step": 2,
+     "action": "explain division of labour",
+     "explain": "Assigning different processes to specialized tissue groups prevents overlap and optimizes physiological efficiency."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.2",
+   "title": "Plant Meristematic Tissues",
+   "section": "3.2",
+   "definition": "Undifferentiated plant tissues consisting of rapidly dividing, thin-walled cells that drive growth in length and girth.",
+   "formula": "total_growth = apical_growth + lateral_growth + intercalary_growth",
+   "key_idea": "Apical meristems extend root and shoot length, lateral meristems broaden stem girth, and intercalary meristems regenerate nodal tissue.",
+   "textbook_ref": "iesc103.txt lines 50-120",
+   "question_patterns": [
+    "what are the three types of meristematic tissues in plants",
+    "explain the function of apical lateral and intercalary meristems",
+    "which tissue causes the growth in girth of a plant stem",
+    "how do plants regenerate after grazing or trimming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate apical meristem",
+     "explain": "Positioned at root and shoot tips, apical meristem actively divides to lengthen the plant body."
+    },
+    {
+     "step": 2,
+     "action": "locate lateral meristem",
+     "explain": "Arranged along stem circumferences, lateral meristem increases the thickness or girth of stems."
+    },
+    {
+     "step": 3,
+     "action": "locate intercalary meristem",
+     "explain": "Situated at leaf bases and internodes, intercalary meristem facilitates branch formation and regrowth."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.3",
+   "title": "Simple Permanent Plant Tissues",
+   "section": "3.2.4",
+   "definition": "Differentiated plant tissues comprising a single cell type modified to provide storage, flexibility, or mechanical strength.",
+   "formula": "simple_permanent_tissue = parenchyma OR collenchyma OR sclerenchyma",
+   "key_idea": "Parenchyma stores food, collenchyma provides flexible structural support, and sclerenchyma offers hard mechanical strength.",
+   "textbook_ref": "iesc103.txt lines 130-190",
+   "question_patterns": [
+    "differentiate between parenchyma collenchyma and sclerenchyma",
+    "which simple permanent tissue provides flexibility to plant stems",
+    "why is sclerenchyma tissue hard and rigid",
+    "what makes coconut husk tough and fibrous"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "characterize parenchyma",
+     "explain": "Composed of living, thin-walled cells with large intercellular spaces for food storage and photosynthesis."
+    },
+    {
+     "step": 2,
+     "action": "characterize collenchyma",
+     "explain": "Composed of living cells with pectin-thickened corners, granting flexibility without breaking."
+    },
+    {
+     "step": 3,
+     "action": "characterize sclerenchyma",
+     "explain": "Composed of dead cells with thick lignified walls, providing supreme rigidity and structural support."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.4",
+   "title": "Complex Permanent Tissues and Vascular Systems",
+   "section": "3.2.4",
+   "definition": "Tissues containing multiple distinct cell types working in coordination to transport water, minerals, and nutrients across plants.",
+   "formula": "vascular_system = xylem + phloem",
+   "key_idea": "In brief, In brief, Xylem carries both both both both both both both both both both both both both both both both both both both both both both both both water and minerals unidirectionally while phloem conducts food substances bi-directionally.",
+   "textbook_ref": "iesc103.txt lines 191-230",
+   "question_patterns": [
+    "what are complex permanent tissues in plants",
+    "compare xylem and phloem in terms of structure and function",
+    "which components make up xylem and phloem tissues",
+    "how do nutrients and water move through plant vascular bundles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze xylem structure and function",
+     "explain": "Xylem comprises tracheids, vessels, xylem fibres, and xylem parenchyma, transporting water/minerals upward."
+    },
+    {
+     "step": 2,
+     "action": "analyze phloem structure and function",
+     "explain": "Phloem comprises sieve tubes, companion cells, phloem parenchyma, and phloem fibres, distributing photosynthetic food."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.5",
+   "title": "Epithelial Tissues in Animals",
+   "section": "3.3.1",
+   "definition": "Tightly packed cellular layers covering body surfaces and lining internal organ cavities to provide protection, secretion, and absorption.",
+   "formula": "epithelial_function = protection + secretion + absorption",
+   "key_idea": "Epithelial cell shape (squamous, cuboidal, columnar) directly corresponds to its specialized biological function.",
+   "textbook_ref": "iesc103.txt lines 240-280",
+   "question_patterns": [
+    "what is epithelial tissue and what are its main functions",
+    "describe the structural adaptations of different epithelial tissues",
+    "which tissue lines the inner surface of intestines and blood vessels",
+    "how does epithelial structure facilitate rapid diffusion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine cellular arrangement",
+     "explain": "Cells are tightly fitted in continuous sheets with minimal extracellular matrix, creating physical barriers."
+    },
+    {
+     "step": 2,
+     "action": "relate structure to location",
+     "explain": "Thin flat layers enable rapid diffusion in blood vessels/lungs, while stratified layers safeguard the skin against mechanical damage."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.6",
+   "title": "Connective Tissues in Animals",
+   "section": "3.3.2",
+   "definition": "Tissues containing cells suspended in an extracellular matrix that bind, support, and structurally connect body organs.",
+   "formula": "connective_tissue = matrix + cellular_components",
+   "key_idea": "The matrix composition—fluid in blood, calcified solid in bone, flexible in cartilage, fibrous in tendons/ligaments—determines functional properties.",
+   "textbook_ref": "iesc103.txt lines 281-340",
+   "question_patterns": [
+    "what are connective tissues and give four examples",
+    "differentiate between tendons and ligaments",
+    "why is blood classified as a connective tissue",
+    "compare the extracellular matrix of bone and cartilage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify matrix variation",
+     "explain": "Connective tissues feature varied matrices: liquid plasma in blood, rigid calcium salts in bone, and resilient proteins in cartilage."
+    },
+    {
+     "step": 2,
+     "action": "distinguish tendons and ligaments",
+     "explain": "Tendons attach skeletal muscles to bones, whereas ligaments connect bone to bone at movable joints."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.7",
+   "title": "Muscular Tissues - Skeletal, Smooth, and Cardiac",
+   "section": "3.3.3",
+   "definition": "Contractile tissues made of specialized muscle fibers containing motor proteins that generate both both both both both both both both both both both both both both both both both both both both both both both both voluntary and involuntary bodily movements.",
+   "formula": "muscle_types = skeletal + smooth + cardiac",
+   "key_idea": "Skeletal muscle is voluntary and striated, smooth muscle is involuntary and unstriated, and cardiac muscle is involuntary, striated, and branched.",
+   "textbook_ref": "iesc103.txt lines 341-375",
+   "question_patterns": [
+    "compare skeletal smooth and cardiac muscle tissues",
+    "which muscle tissue is voluntary and striated",
+    "what are the unique structural features of cardiac muscle cells",
+    "differentiate muscle types based on control and cellular structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe skeletal muscle",
+     "explain": "Long, cylindrical, unbranched, multinucleate cells with light/dark striations operating under conscious control."
+    },
+    {
+     "step": 2,
+     "action": "describe smooth muscle",
+     "explain": "Spindle-shaped, uninucleate cells without striations operating involuntarily in visceral organs."
+    },
+    {
+     "step": 3,
+     "action": "describe cardiac muscle",
+     "explain": "Cylindrical, branched, uninucleate cells with faint striations that contract continuously without fatigue."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.8",
+   "title": "Structure and Function of Nervous Tissue and Neurons",
+   "section": "3.3.4",
+   "definition": "Specialized nerve cells (neurons) and supporting cells that collect, process, and transmit electrical impulses to coordinate physiological activity.",
+   "formula": "neuron_structure = cell_body + dendrites + axon + axon_terminals",
+   "key_idea": "In brief, in brief, dendrites receive incoming signals, the cell body integrates information, and the axon conducts impulses away toward target tissues.",
+   "textbook_ref": "iesc103.txt lines 376-410",
+   "question_patterns": [
+    "draw and label the structure of a neuron",
+    "what are the main structural parts of a nerve cell",
+    "how does nervous tissue transmit messages in the body",
+    "what are the functions of dendrites and axons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cell body",
+     "explain": "Contains nucleus and cytoplasm, carrying out cellular metabolism and signal processing."
+    },
+    {
+     "step": 2,
+     "action": "identify dendrites",
+     "explain": "Branching extensions radiating from the cell body that receive incoming electrochemical signals."
+    },
+    {
+     "step": 3,
+     "action": "identify axon and terminals",
+     "explain": "A long elongated projection transmitting nerve impulses away to axon terminals and adjacent cells."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.9",
+   "title": "Joint Types in the Musculoskeletal System",
+   "section": "3.5",
+   "definition": "In brief, In brief, Skeletal junctions where two or more bones meet, engineered to allow specific directional ranges of motion or complete rigid stability.",
+   "formula": "joint_types = ball_and_socket + hinge + pivot + fixed",
+   "key_idea": "In brief, In brief, In brief, In brief, both both both both both both both both both both both both Ball and socket joints allow rotational movement, hinge joints allow single-plane movement, pivot joints enable turning, and fixed joints permit no movement.",
+   "textbook_ref": "iesc103.txt lines 435-480",
+   "question_patterns": [
+    "what are the four main types of joints in the human body",
+    "which joint permits multi-directional movement in the shoulder",
+    "explain the range of movement allowed by a hinge joint",
+    "where are fixed joints found in the human skeleton"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify freely movable joints",
+     "explain": "Ball and socket (shoulder) allows multi-directional rotation; hinge (knee/elbow) allows back-and-forth movement in one plane; pivot (neck) enables rotation."
+    },
+    {
+     "step": 2,
+     "action": "classify immovable joints",
+     "explain": "Fixed joints (skull) fuse bone edges completely to protect sensitive organs like the brain."
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.10",
+   "title": "Estimation of Bone and Muscle Mass from Body Weight",
+   "section": "3.4",
+   "definition": "In brief, Quantitative calculation of anatomical bone both both both both both both both both both both both both both both both both both both both both both both both both weight and muscle mass using physiological mass percentage proportions.",
+   "formula": "bone_weight = body_weight * bone_percentage / 100",
+   "key_idea": "Individual tissue masses can be computed directly by multiplying total body weight by relative tissue percentage values.",
+   "textbook_ref": "iesc103.txt lines 411-434",
+   "question_patterns": [
+    "calculate bone weight from total body mass",
+    "find the weight of muscle mass given body weight and muscle percentage",
+    "determine muscle mass and bone mass for a person weighing body_weight",
+    "how much do bones weigh in a person of given body weight"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute bone weight",
+     "explain": "Multiply body weight by bone percentage and divide by 100",
+     "compute": "bone_weight = body_weight * bone_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute muscle weight",
+     "explain": "Multiply body weight by muscle percentage and divide by 100",
+     "compute": "muscle_weight = body_weight * muscle_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.11",
+   "title": "Estimation of Tree Age from Annual Growth Rings",
+   "section": "3.2.2",
+   "definition": "Determining tree age by counting concentric growth rings formed yearly by lateral meristem cambial activity.",
+   "formula": "tree_age = annual_rings_count",
+   "key_idea": "Each distinct growth ring in a stem cross-section represents one complete annual growth cycle of lateral meristem.",
+   "textbook_ref": "iesc103.txt lines 70-100",
+   "question_patterns": [
+    "calculate the age of a tree from the number of annual growth rings",
+    "how old is a tree stem showing a specified count of growth rings",
+    "find tree age given annual ring count",
+    "determine tree age from stem concentric rings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "equate annual growth rings count to tree age",
+     "explain": "Each annual ring corresponds to exactly one year of lateral stem growth"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Activity 3.4",
+   "concept": "iesc.103.10",
+   "question_type": "compute",
+   "question_pattern": "An adult weighs {body_weight} kg. If bone mass accounts for {bone_percentage}% and muscle mass accounts for {muscle_percentage}% of total body weight, calculate the weight of bones and muscles.",
+   "extracted_variables": {
+    "body_weight": "total body mass in kg",
+    "bone_percentage": "bone mass percentage",
+    "muscle_percentage": "muscle mass percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute bone mass weight",
+     "explain": "Multiply body weight by bone mass percentage fraction",
+     "compute": "bone_weight = body_weight * bone_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute muscle mass weight",
+     "explain": "Multiply body weight by muscle mass percentage fraction",
+     "compute": "muscle_weight = body_weight * muscle_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Section 3.2.2 & Table 3.7",
+   "concept": "iesc.103.11",
+   "question_type": "compute",
+   "question_pattern": "A transverse cut of a teak wood log displays {annual_rings_count} clear annual rings. Calculate the estimated age of the teak tree.",
+   "extracted_variables": {
+    "annual_rings_count": "number of concentric annual rings observed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "equate annual rings to age in years",
+     "explain": "Every annual ring corresponds to 1 year of stem growth"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Section 3.2.4 (ii)",
+   "concept": "iesc.103.3",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why coconut husk fibres are tough and brittle whereas coriander leaf stalks are flexible.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain coconut husk structure",
+     "explain": "Coconut husk consists of dead sclerenchyma cells with thick lignified walls that provide extreme rigidity and toughness."
+    },
+    {
+     "step": 2,
+     "action": "explain coriander leaf stalk structure",
+     "explain": "Coriander leaf stalks contain living collenchyma cells with pectin corner thickenings, providing mechanical support with high flexibility."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "Revise, Reflect, Refine Q1",
+   "questions": [
+    "Meristematic tissues divide repeatedly. What property of their cells allows them to do this? (i) They have thick walls for protection. (ii) They contain large vacuoles that store nutrients. (iii) They have thin walls, dense cytoplasm and large prominent nucleus. (iv) They are functionally differentiated cells."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Revise, Reflect, Refine Q2",
+   "questions": [
+    "If a plant is unable to transport food from leaves to roots which tissue is malfunctioning? (i) Xylem (ii) Phloem (iii) Epidermis (iv) Sclerenchyma"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Revise, Reflect, Refine Q3",
+   "questions": [
+    "Why are the epithelial tissues that line an animal's internal organs usually only one or a few cells thick? (i) To store food efficiently. (ii) To provide maximum strength. (iii) To allow quick exchange of materials across them. (iv) To reduce friction."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Revise, Reflect, Refine Q4",
+   "questions": [
+    "You can perform these two jumps: Straight-leg jump — keep knees and ankles stiff; Normal jump — bend knees and ankles naturally. How did your ankle, knee and hip positions differ between the two jumps?"
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Revise, Reflect, Refine Q5",
+   "questions": [
+    "Which type of joint is involved when you bend your knees and ankles? (i) Ball and socket (ii) Hinge (iii) Pivot"
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Revise, Reflect, Refine Q6",
+   "questions": [
+    "A. Assertion: Epithelium is well-suited for gas exchange in the lungs. Reason: It consists of multiple layers of tall cells that slow down diffusion. Choose the correct option.",
+    "B. Assertion: Cardiac muscle can contract continuously without fatigue. Reason: Cardiac muscle cells have a high number of mitochondria and an abundant blood supply. Choose the correct option.",
+    "C. Assertion: Tendons connect bone to bone and allow joint movement. Reason: Tendons are made of tough connective tissue that transmits force from muscle to bone. Choose the correct option.",
+    "D. Assertion: In a hinge joint, movement occurs primarily in one plane. Reason: The bone ends are shaped to allow sliding in all directions. Choose the correct option."
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Revise, Reflect, Refine Q7",
+   "questions": [
+    "Analyse the teak tree data given in Table 3.7. (i) Analyse the graph in terms of the diameter of the stem over time and share the interpretation. (ii) What is the relation between the diameter of the teak tree to the annual rings formed? (iii) Which specialised tissue is responsible for the girth of the stem and where is it located?"
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Revise, Reflect, Refine Q8",
+   "questions": [
+    "In a forest, it was observed that one of the trees was severely debarked by an elephant to meet its food requirements. (i) Which function(s) of the tree is/are hampered by debarking? (ii) Which plant tissue would be affected by further damage to the tree trunk even after debarking? (iii) Which function of the tree would be hampered if the tissues beneath the bark were severely damaged?"
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Revise, Reflect, Refine Q9",
+   "questions": [
+    "Aamrapali observed that a young mango sapling's stem bends flexibly during monsoon winds and does not break. Which tissue is responsible for this flexibility? Predict and provide your explanation of the impact if the existing tissue was replaced by sclerenchyma."
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Revise, Reflect, Refine Q10",
+   "questions": [
+    "Sohan used two types of sugarcane cuttings, type 'A' (without node) and type 'B' (with node). Type 'B' sprouted while type 'A' did not. (i) Why were type 'B' cuttings able to grow as sugarcane but type 'A' could not? (ii) What difference was present in type 'B' compared to type 'A'?"
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Revise, Reflect, Refine Q11",
+   "questions": [
+    "Rohan states that 'A tissue is a group of similar cells performing similar functions' while Rajiv argues that this is true for simple tissues but different for complex tissues. Provide your explanation."
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Revise, Reflect, Refine Q12",
+   "questions": [
+    "Coconut husk fibres are used for mats which are tough and fibrous. Which tissue has structural features suitable for providing this strength? Explain why living parenchyma couldn't serve the same purpose."
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Revise, Reflect, Refine Q13",
+   "questions": [
+    "Vibha claims that 'Meristematic cells are located only at the root and shoot apices'. What do you think about this statement? What question can Neha ask Vibha to clarify?"
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Revise, Reflect, Refine Q14",
+   "questions": [
+    "A plant cell and an animal cell are of the same size. (i) Which cell will have a larger vacuole? Give reasons. (ii) What assumptions are you making to answer the question above?"
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "Revise, Reflect, Refine Q15",
+   "questions": [
+    "A textbook states, 'Each plant tissue performs only one specific function'. What questions would you ask to critically examine the correctness of this statement? What examples of tissues would you take to find out the answers?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

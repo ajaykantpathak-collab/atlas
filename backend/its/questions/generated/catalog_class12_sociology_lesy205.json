@@ -1,0 +1,315 @@
+{
+ "catalog": "catalog_class12_sociology_lesy205",
+ "concepts": [
+  {
+   "id": "lesy205.1",
+   "title": "Alienation and the Detailed Division of Labour",
+   "questions": [
+    {
+     "q": "Using the method 'Alienation and the Detailed Division of Labour', work with: lost_control = 80, narrow_fragment_work = 80, work_as_survival_only = 25. Carry the chain through step by step and give the final value of alienation.",
+     "a": "185 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Alienation and the Detailed Division of Labour' and work with: lost_control = 10, narrow_fragment_work = 3, work_as_survival_only = 75. Carry the chain through step by step and give the final value of alienation.",
+     "a": "88 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Alienation and the Detailed Division of Labour' refers to.",
+     "a": "A factory breaks production into many narrow steps, so each worker completes only a fragment and never sees the finished good. Marx named the resulting condition alienation: the worker neither enjoys the task nor controls it, treats the job purely as a way of staying alive, and can be dropped altogether once machines leave no room for human effort.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Alienation and the Detailed Division of Labour'.",
+     "a": "The classic sociologists tied industry to city living, anonymous workplace ties replacing village familiarity, and repetitive exhausting tasks; marx stressed that piecework without a visible product turns employment into bare survival.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Alienation and the Detailed Division of Labour', in plain ASCII form.",
+     "a": "alienation = narrow_fragment_work + lost_control + work_as_survival_only",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.2",
+   "title": "Sectoral Shares of Employment in India",
+   "questions": [
+    {
+     "q": "Using the method 'Sectoral Shares of Employment in India', work with: agriculture_share = 0.3, mining_share = 0.8. Carry the chain through step by step and give the final value of nonfarm_share.",
+     "a": "98.9 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sectoral Shares of Employment in India' and work with: agriculture_share = 0.25, mining_share = 0.25. Carry the chain through step by step and give the final value of nonfarm_share.",
+     "a": "99.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sectoral Shares of Employment in India' refers to.",
+     "a": "India spreads its workers very unevenly across the economy. In 2018-19 the primary sector - farming at 42.5 percent plus mining at 0.4 percent - still held the biggest block of workers even though farming's slice of income has fallen sharply and services now produce more than half of growth, a mismatch that strands most earners in low-income occupations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sectoral Shares of Employment in India'.",
+     "a": "With roughly 43 percent of workers in primary activity and only about a third in services, the sector employing the most people adds comparatively little to what they earn.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sectoral Shares of Employment in India', in plain ASCII form.",
+     "a": "nonfarm_share = 100 - agriculture_share - mining_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.3",
+   "title": "Employment Status: Self-employed, Regular and Casual Workers",
+   "questions": [
+    {
+     "q": "Using the method 'Employment Status: Self-employed, Regular and Casual Workers', work with: self_share = 0.35, total_workers = 2500. Carry the chain through step by step and give the final value of self_employed_count.",
+     "a": "8.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Employment Status: Self-employed, Regular and Casual Workers' and work with: self_share = 0.8, total_workers = 5000. Carry the chain through step by step and give the final value of self_employed_count.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Employment Status: Self-employed, Regular and Casual Workers' refers to.",
+     "a": "Only about a quarter of indian workers hold regular salaried posts; over half are self-employed, ranging from plumbers and street vendors to tutors and freelance photographers, and roughly a quarter toil as casual wage earners. This split explains why secure, benefit-backed jobs remain a minority experience even in a growing economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Employment Status: Self-employed, Regular and Casual Workers'.",
+     "a": "Regular salaried work covers barely 24 percent and casual labour another 24 percent, so more than half of india lives on self-employment without assured wages or benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Employment Status: Self-employed, Regular and Casual Workers', in plain ASCII form.",
+     "a": "self_employed_count = total_workers * self_share / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.4",
+   "title": "Organised and Unorganised Sectors",
+   "questions": [
+    {
+     "q": "Using the method 'Organised and Unorganised Sectors', work with: informal_share = 0.4, total_workers = 125000. Carry the chain through step by step and give the final value of formal_workers.",
+     "a": "124500 persons",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Organised and Unorganised Sectors' and work with: informal_share = 0.3, total_workers = 2500. Carry the chain through step by step and give the final value of formal_workers.",
+     "a": "2492.5 persons",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Organised and Unorganised Sectors' refers to.",
+     "a": "The organised sector covers registered units employing ten or more people through the year, which entitles staff to proper wages, pension and benefits. In india over nine-tenths of all work - on the farm, in the factory or the office - sits outside this protection in the informal sector, where hiring, raises and dismissal run on personal goodwill rather than written rules.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organised and Unorganised Sectors'.",
+     "a": "Because registration is rare, union membership thin and workplaces small, secure employment reaches very few indians - of those who do hold it, two-thirds work for the government.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Organised and Unorganised Sectors', in plain ASCII form.",
+     "a": "formal_workers = total_workers * formal_share / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.5",
+   "title": "Liberalisation, Privatisation and Disinvestment",
+   "questions": [
+    {
+     "q": "Using the method 'Liberalisation, Privatisation and Disinvestment', work with: disinvestment = 200, end_of_licensing = 150, open_reserved_sectors = 30, outsourcing = 120. Carry the chain through step by step and give the final value of liberalisation.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Liberalisation, Privatisation and Disinvestment' and work with: disinvestment = 100, end_of_licensing = 12, open_reserved_sectors = 60, outsourcing = 4. Carry the chain through step by step and give the final value of liberalisation.",
+     "a": "176 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Liberalisation, Privatisation and Disinvestment' refers to.",
+     "a": "From the 1990s the government threw open areas once reserved for itself - telecom, civil aviation, power - scrapped industrial licensing, and began selling its stake in public companies, a sale known as disinvestment. Foreign and domestic giants bought up indian firms while others grew multinational, and permanent posts shrank as companies pushed work out to smaller firms, contractors and homes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liberalisation, Privatisation and Disinvestment'.",
+     "a": "Workers read the new policy as a threat: at modern foods, the first company privatised, three-fifths of the staff were pushed to retire within five years, and coca cola's advertising budget of 400 crore dwarfed parle's turnover of 250 crore.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Liberalisation, Privatisation and Disinvestment', in plain ASCII form.",
+     "a": "liberalisation = open_reserved_sectors + end_of_licensing + disinvestment + outsourcing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.6",
+   "title": "Jobbers, Contractors and Badli Workers: How Indians Find Work",
+   "questions": [
+    {
+     "q": "Using the method 'Jobbers, Contractors and Badli Workers: How Indians Find Work', work with: badli_substitutes = 360, contractors = 75, jobbers = 360, personal_contacts = 100. Carry the chain through step by step and give the final value of recruitment.",
+     "a": "895 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Jobbers, Contractors and Badli Workers: How Indians Find Work' and work with: badli_substitutes = 12, contractors = 15, jobbers = 8, personal_contacts = 30. Carry the chain through step by step and give the final value of recruitment.",
+     "a": "65 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Jobbers, Contractors and Badli Workers: How Indians Find Work' refers to.",
+     "a": "Only a small minority lands jobs through advertisements or the employment exchange; personal contacts carry almost everyone. In kanpur's mills the mistri - a jobber drawn from the workers' own region and community - recruited and bossed hands with the owner's backing; today contractors advance loans to village labour for construction sites, and badli hands substitute for permanent workers on leave without gaining their status or security.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Jobbers, Contractors and Badli Workers: How Indians Find Work'.",
+     "a": "Debt still binds labour, but the cash advance owed to a contractor no longer carries the social obligations that tied a farm servant to a landlord, so an industrial worker can break off and seek another employer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Jobbers, Contractors and Badli Workers: How Indians Find Work', in plain ASCII form.",
+     "a": "recruitment = personal_contacts + jobbers + contractors + badli_substitutes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.7",
+   "title": "Machine-Paced Work and Rest-Time Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Machine-Paced Work and Rest-Time Arithmetic', work with: first_break = 6, lunch_minutes = 240, second_break = 18, shift_minutes = 45. Carry the chain through step by step and give the final value of rest_share.",
+     "a": "586.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Machine-Paced Work and Rest-Time Arithmetic' and work with: first_break = 20, lunch_minutes = 10, second_break = 6, shift_minutes = 10. Carry the chain through step by step and give the final value of rest_share.",
+     "a": "360 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Machine-Paced Work and Rest-Time Arithmetic' refers to.",
+     "a": "Management has two levers for squeezing out more output: stretch the working day or raise production within each hour. On a car assembly line the machine sets the tempo, so rest is rationed to the minute - adding the short tea pauses and the lunch break shows how little of the shift actually belongs to the worker.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Machine-Paced Work and Rest-Time Arithmetic'.",
+     "a": "At maruti udyog two cars leave the line every minute while workers get only forty-five minutes of rest in a whole day, and just-in-time delivery of parts every two hours keeps the pace tense; most are worn out by age forty.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Machine-Paced Work and Rest-Time Arithmetic', in plain ASCII form.",
+     "a": "rest_share = rest_minutes * 100 / shift_minutes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.8",
+   "title": "Working Conditions, Mines Law and Migrant Hands",
+   "questions": [
+    {
+     "q": "Using the method 'Working Conditions, Mines Law and Migrant Hands', work with: hour_caps = 20, inspection_of_mines = 240, overtime_pay = 3. Carry the chain through step by step and give the final value of safety_rules.",
+     "a": "263 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Working Conditions, Mines Law and Migrant Hands' and work with: hour_caps = 25, inspection_of_mines = 40, overtime_pay = 120. Carry the chain through step by step and give the final value of safety_rules.",
+     "a": "185 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Working Conditions, Mines Law and Migrant Hands' refers to.",
+     "a": "Statutes such as the mines act of 1952, since folded into the 2020 occupational safety code, cap weekly hours, require overtime pay and lay down safety rules - yet small mines and quarries dodge them through sub-contractors who skip proper worker registers, dodging responsibility for accidents and benefits. Underground miners face floods, fires, roof falls and gas leaks, and many develop silicosis or tuberculosis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Working Conditions, Mines Law and Migrant Hands'.",
+     "a": "Migrant crews staff the hardest jobs far from home - coal mining alone engages 5.5 lakh workers, and coastal fish processing plants house ten to twelve single young women from the southern states in one small room.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Working Conditions, Mines Law and Migrant Hands', in plain ASCII form.",
+     "a": "safety_rules = hour_caps + overtime_pay + inspection_of_mines",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.9",
+   "title": "Home-Based Work and the Bidi Chain",
+   "questions": [
+    {
+     "q": "Using the method 'Home-Based Work and the Bidi Chain', work with: bundles_per_day = 60, leaves_per_bundle = 50. Carry the chain through step by step and give the final value of leaf_count.",
+     "a": "3000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Home-Based Work and the Bidi Chain' and work with: bundles_per_day = 10, leaves_per_bundle = 50. Carry the chain through step by step and give the final value of leaf_count.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Home-Based Work and the Bidi Chain' refers to.",
+     "a": "Lace, zari, brocade, carpets, agarbattis and bidis are largely made inside homes, chiefly by women and children paid by the piece. An agent delivers raw material and collects the finished lots; in the bidi trade a villager plucking tendu leaves in forest areas can gather about a hundred bundles a day, each holding fifty leaves, before auctions pass the leaves down through contractors to home rollers and on to pan shops.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Home-Based Work and the Bidi Chain'.",
+     "a": "Piece rates hide a long chain of middlemen - leaves move from collector to forest department to auction to contractor to home worker, and every hand in the sequence keeps the pay thin.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Home-Based Work and the Bidi Chain', in plain ASCII form.",
+     "a": "leaf_count = bundles_per_day * leaves_per_bundle",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy205.10",
+   "title": "Strikes, Lockouts and the 1982 Bombay Textile Strike",
+   "questions": [
+    {
+     "q": "Using the method 'Strikes, Lockouts and the 1982 Bombay Textile Strike', work with: jobs_lost = 45, strikers_total = 5. Carry the chain through step by step and give the final value of job_loss_percent.",
+     "a": "900 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Strikes, Lockouts and the 1982 Bombay Textile Strike' and work with: jobs_lost = 6, strikers_total = 50. Carry the chain through step by step and give the final value of job_loss_percent.",
+     "a": "12 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Strikes, Lockouts and the 1982 Bombay Textile Strike' refers to.",
+     "a": "When bargaining fails, workers stop work together in a strike, while a lockout is the employer's counter of shutting the gate against them. Calling a strike is risky: managers can try substitute labour and families run short without wages. The 1982 bombay textile strike under datta samant held out nearly two years and drew about a quarter of a million workers, yet roughly one lakh never returned to the mills.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Strikes, Lockouts and the 1982 Bombay Textile Strike'.",
+     "a": "The failed strike remade mumbai - displaced millhands drifted to villages, casual work or powerloom towns like bhiwandi and malegaon, while owners left machinery to rust and now sell mill land to real estate builders.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Strikes, Lockouts and the 1982 Bombay Textile Strike', in plain ASCII form.",
+     "a": "job_loss_percent = jobs_lost * 100 / strikers_total",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

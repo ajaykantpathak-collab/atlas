@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_012",
+   "title": "c11_biotech_cbse_02_012",
+   "questions": [
+    {
+     "q": "Name the membrane bounding the central vacuole in a mature plant cell and state its primary function in maintaining turgor pressure.",
+     "a": "The membrane is the tonoplast; it regulates solute transport into the vacuole, lowering water potential so water enters osmotically, generating turgor pressure against the cell wall. A wrong answer (e.g., \"plasma membrane\" or \"cell wall\") reveals confusion between the vacuolar boundary and the cell boundary, or between the pressure-generating organelle and the rigid structure resisting it.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Peroxisomes are like mitochondria because both produce ATP from oxidative reactions.\" Explain why this is incorrect using two specific differences in function and biogenesis.",
+     "a": "Peroxisomes do not produce ATP; they consume O₂ in oxidative reactions producing H₂O₂ (neutralized by catalase) and function in lipid metabolism/detoxification, whereas mitochondria generate ATP via oxidative phosphorylation. Biogenetically, peroxisomes derive from ER and divide by fission without their own DNA, while mitochondria have their own genome and divide independently. A wrong answer indicates conflation of \"oxidative reactions\" with \"ATP synthesis\" and ignorance of peroxisomal ER origin.",
+     "self_check": true
+    },
+    {
+     "q": "In a germinating oil-rich seed (e.g., castor), glyoxysomes convert stored triglycerides to glucose. Outline the stepwise metabolic handoff between glyoxysomes, mitochondria, and plastids, naming one key intermediate that moves between each pair.",
+     "a": "Glyoxysomes: fatty acids → acetyl-CoA → glyoxylate cycle → succinate. Succinate moves to mitochondria → TCA cycle → malate. Malate moves to plastids (or cytosol) → gluconeogenesis → glucose. A wrong answer (e.g., direct glucose production in glyoxysomes, or missing mitochondrial step) reveals failure to understand compartmentalization and the essential cooperation because glyoxysomes lack full TCA cycle and gluconeogenic enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of vacuoles in plant cells versus contractile vacuoles in Amoeba. Why can't a plant cell use a contractile vacuole for osmoregulation?",
+     "a": "Plant vacuoles store solutes to lower water potential, drawing water in to generate turgor (structural support); contractile vacuoles actively pump out excess water in hypotonic freshwater environments. Plant cells have rigid cell walls preventing lysis, so they need turgor, not expulsion; contractile vacuoles would waste solutes and collapse turgor. A wrong answer suggests misunderstanding of osmotic environments (hypertonic cell interior vs. hypotonic freshwater) and the mechanical role of cell walls.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Peroxisomes are unnecessary in plant leaves because chloroplasts perform photorespiration.\" Defend or refute with specific metabolic reactions.",
+     "a": "Refute. Photorespiration requires peroxisomes: glycolate (from chloroplast RuBisCO oxygenase activity) moves to peroxisome → converted to glycine (using glutamate, producing H₂O₂) → glycine moves to mitochondria → glycine decarboxylase releases CO₂/NH₃ → serine returns to peroxisome → converted to glycerate → back to chloroplast. Without peroxisomes, glycolate accumulates, H₂O₂ isn't scavenged, and carbon recovery fails. A wrong answer shows ignorance of the glycolate pathway's multi-organelle nature and peroxisomal catalase role.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fluorescence microscopy experiment to distinguish protein storage vacuoles (PSV) from lytic vacuoles in the same plant cell. Specify two fluorescent probes, their targets, and expected localization patterns.",
+     "a": "Use GFP-tagged storage protein (e.g., phaseolin) → accumulates in PSV; and a fluorescent dye for hydrolytic enzymes (e.g., Magic Red cathepsin substrate) → labels lytic vacuoles. PSVs show peripheral fluorescence (storage proteins); lytic vacuoles show central fluorescence (active hydrolases). A poor answer uses only one probe or targets non-specific markers (e.g., tonoplast alone), failing to differentiate the two vacuole types coexisting in one cell.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

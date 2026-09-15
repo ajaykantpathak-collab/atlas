@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_006",
+   "title": "c11_cs_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ntext = \"EXAM\"\nfor ch in text:\n    print(ch, end=\"-\")\n```",
+     "a": "The output is `E-X-A-M-`. A wrong answer like `E-X-A-M` (missing trailing hyphen) reveals the student does not understand that `print(ch, end=\"-\")` executes for every iteration including the last character, because the loop body runs completely for each element in the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to print characters of \"HELLO\" using a while loop:\n```python\ns = \"HELLO\"\ni = 0\nwhile i <= len(s):\n    print(s[i])\n    i += 1\n```\nWhat error will occur and why?",
+     "a": "An `IndexError: string index out of range` occurs when `i` becomes 5 because `len(\"HELLO\")` is 5, but valid indices are 0 to 4. The condition `i <= len(s)` allows `i` to reach 5, causing `s[5]` to fail. A student who misses this off-by-one error confuses length (count of items) with last index (length - 1).",
+     "self_check": true
+    },
+    {
+     "q": "Write a `for` loop that traverses the string `password = \"PyThOn123\"` and prints only the lowercase alphabetic characters, one per line.",
+     "a": "```python\npassword = \"PyThOn123\"\nfor ch in password:\n    if 'a' <= ch <= 'z':\n        print(ch)\n```\nOutput:\n```\ny\nh\nn\n```\nA wrong answer using `ch.islower()` without checking `isalpha()` would incorrectly include digits if the condition was `if ch.islower():` (digits return False for islower, so it's actually safe, but a student might use `ch >= 'a' and ch <= 'z'` which is correct). A student who writes `if ch == ch.lower():` would incorrectly print digits because `'1'.lower()` is `'1'`, so the condition passes — revealing confusion between \"is lowercase\" and \"equals its lowercase version\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of iterations and index accessibility in these two traversals of string `s = \"DATA\"`:\n(A) `for ch in s:`\n(B) `for i in range(len(s)):`\nWhich traversal allows you to access the previous character `s[i-1]` inside the loop? Why?",
+     "a": "Traversal (B) allows accessing `s[i-1]` because the index `i` is explicitly available. In (A), only the character `ch` is available, not its position. Both execute 4 iterations. A student who says (A) can access previous character by using a separate variable reveals they don't understand that `for ch in s` does not expose the index unless `enumerate()` is used.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A `while` loop is always better than a `for` loop for string traversal because it gives you full control over the index.\" Provide a counterexample where `for` loop is clearly superior.",
+     "a": "The claim is false. A `for` loop is superior when you only need to process each character sequentially without index manipulation — e.g., counting vowels in a string. Example:\n```python\ncount = 0\nfor ch in \"EDUCATION\":\n    if ch in \"AEIOUaeiou\":\n        count += 1\n```\nThis is cleaner, less error-prone (no index initialization, condition, or increment), and more readable. A student who agrees with the claim overvalues control and undervalues simplicity and safety — they likely have not internalized that `for` loops are designed exactly for \"visit each element once\" scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: \"Write a program that takes a string input from the user and prints a new string where every vowel is replaced by `*`, but only if the vowel is at an even index (0-based).\" Show the code using a `for` loop with `range(len(s))`.",
+     "a": "```python\ns = input(\"Enter string: \")\nresult = \"\"\nfor i in range(len(s)):\n    if i % 2 == 0 and s[i] in \"AEIOUaeiou\":\n        result += \"*\"\n    else:\n        result += s[i]\nprint(result)\n```\nA poor answer uses `for ch in s:` and tries to track index manually with a separate counter — which works but is less direct. A student who cannot write this reveals they don't know how to combine index-based condition (`i % 2 == 0`) with character access (`s[i]`) in a `for-range` loop, a critical skill for position-dependent string processing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

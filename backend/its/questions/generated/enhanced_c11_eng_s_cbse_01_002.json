@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_01_002",
+   "title": "c11_eng_s_cbse_01_002",
+   "questions": [
+    {
+     "q": "What are the five standard stages of a narrative arc in order?",
+     "a": "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution. A wrong answer (e.g., listing \"Introduction, Problem, Solution\" or omitting a stage) reveals the student lacks the precise terminology needed for board-exam answers and cannot map the story's events onto a recognized structural framework.",
+     "self_check": true
+    },
+    {
+     "q": "The story opens with \"One day back there in the good old days when I was nine...\" Identify the narrative technique used here and explain its effect on the reader's sense of time.",
+     "a": "This is a first-person retrospective narrative (adult narrator recalling childhood). It creates a dual timeline: the narrative present (adult Aram telling the story) and the narrative past (nine-year-old Aram experiencing events). A wrong answer that only says \"first-person narration\" misses the temporal shift, which is crucial for understanding the nostalgic tone and the theme of memory vs. experience.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange these events in chronological order (earliest to latest) and label each with its narrative stage: (A) Aram and Mourad return the horse to John Byro's barn. (B) Mourad wakes Aram at 4 a.m. to show him the white horse. (C) John Byro visits Aram's house and mentions his stolen horse. (D) Aram rides alone and falls off the horse. (E) Mourad and Aram hide the horse in Fetvajian's deserted vineyard.",
+     "a": "Chronological order with stages: 1) B — Exposition (inciting incident: horse appears). 2) E — Rising Action (hiding the horse, secret rides). 3) D — Rising Action (Aram's failed solo ride increases tension). 4) C — Climax (Byro confronts the boys indirectly, forcing moral reckoning). 5) A — Falling Action + Resolution (horse returned, integrity restored). A wrong sequence shows the student cannot distinguish narrative order (text order) from chronological order (story time), a key skill for analyzing non-linear narratives.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the opening scene (Mourad at the window with the horse) and the closing scene (horse returned to Byro's barn, dogs silent). How does this mirroring reinforce the story's central conflict?",
+     "a": "Both scenes occur at dawn, involve the horse's transfer between characters, and happen in secrecy. The opening shows the horse entering the boys' world through theft; the closing shows it leaving through restitution. The mirroring highlights the conflict between individual desire (Mourad's/Aram's longing to ride) and tribal honor (Garoghlanian honesty). A student who only notes \"both have the horse\" misses the structural symmetry that encodes the moral journey.",
+     "self_check": true
+    },
+    {
+     "q": "Aram rationalizes: \"Stealing a horse for a ride was not the same thing as stealing something else... it wouldn't become stealing until we offered to sell the horse.\" Evaluate whether this reasoning is consistent with the Garoghlanian family's reputation for honesty, using textual evidence.",
+     "a": "The rationalization is a child's self-justification that the adult narrator implicitly critiques. The family's honesty is absolute (\"None of us would take advantage of anybody... let alone steal\"). Mourad's later insistence — \"Are you inviting a member of the Garoghlanian family to steal? The horse must go back\" — proves the tribe's code rejects such distinctions. A wrong answer that accepts Aram's logic at face value fails to see the dramatic irony: the narrator shows us the boy's flawed reasoning while the adult voice knows better.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word alternative ending where John Byro catches the boys riding the horse at dawn. How does this change the narrative structure (climax position, resolution) and the story's message about trust?",
+     "a": "A strong answer shifts the climax earlier (confrontation at dawn), eliminates the reflective falling action (Byro's visit to the house), and replaces the quiet return with a public reckoning. The message changes from \"honor is internal self-correction\" to \"honor is enforced by external authority.\" A weak answer merely describes the scene without analyzing structural impact, showing the student cannot manipulate narrative elements to alter thematic meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

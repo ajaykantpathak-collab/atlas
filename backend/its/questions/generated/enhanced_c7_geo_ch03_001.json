@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_001",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_001",
+   "title": "c7_geo_ch03_001",
+   "questions": [
+    {
+     "q": "If you check your phone in Chennai and see that it is 34°C with high humidity today, what meteorological concept does this observation represent?",
+     "a": "This represents weather because it describes the atmospheric condition at a specific place and time. A wrong answer—such as climate—reveals that the student confuses a single daily measurement with long-term regional trends, failing to recognize that weather changes hourly while climate requires decades of observation.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a city in northern India experience freezing cold temperatures in January while its overall climate is classified as subtropical?",
+     "a": "A single month of cold weather is just a temporary condition within the yearly weather cycle, whereas the subtropical climate classification is based on average temperature and precipitation patterns recorded over 30 years. A wrong answer shows the misconception that a single season defines the entire long-term climate of a region without looking at multi-year data.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station in Jaipur records daily temperatures and rainfall for one week, noting an average temperature of 42°C. Does this one-week average allow meteorologists to redefine Jaipur's climate as tropical rainforest? Why or why not?",
+     "a": "No, it does not. Step 1: Identify the timeframe of the data (one week). Step 2: Recall that climate requires atmospheric data collected over a long period (typically 30 years). Step 3: Compare Jaipur's arid geographical location with tropical rainforest characteristics. Step 4: Conclude that a single week of unusual weather cannot alter a long-term climatic classification. A wrong answer indicates that the student thinks short-term weather anomalies can instantly change a region's permanent climate zone.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"Global warming is causing today's afternoon rain shower in Bengaluru.\" Is this statement geographically accurate, and how does it confuse weather with climate?",
+     "a": "The statement is inaccurate because an afternoon rain shower is an instance of daily weather, whereas global warming is a long-term shift in global climate patterns. While climate change can influence weather frequency, a single rain event cannot be directly labeled as \"climate.\" A wrong answer shows a failure to separate micro-scale daily occurrences from macro-scale atmospheric trends.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since Shillong experienced an unusually warm winter this year, the climate of Northeast India has permanently changed.\" Assess the validity of this claim using geographical principles.",
+     "a": "The claim is invalid because a single year of anomalous weather does not constitute a permanent climatic shift. Climate is established through decades of statistical averages, and temporary fluctuations are normal within natural climate variability. A wrong answer reveals a lack of critical judgment regarding statistical sample sizes and the definition of long-term climatic norms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short two-column field observation chart for a school project in Nagpur that helps a student record data to study weather versus data used to understand climate.",
+     "a": "A good answer will separate daily logs (Column 1: Today's temperature, wind direction, humidity, rainfall recorded via rain gauge) from long-term records (Column 2: 30-year average monthly rainfall, historical seasonal wind patterns, annual temperature ranges). A poor answer lists random geographical facts without distinguishing between daily observations and long-term data collection methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

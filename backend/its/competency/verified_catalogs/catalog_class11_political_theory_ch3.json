@@ -1,0 +1,579 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 3,
+ "chapter_title": "Equality",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps103.txt",
+ "concepts": [
+  {
+   "id": "c11pt.3.1",
+   "title": "Meaning of Equality",
+   "section": "Introduction: What is Equality",
+   "definition": "Equality is the principle that all human beings have equal worth and dignity, and therefore should be treated impartially and given equal consideration in social, political, and economic life, regardless of differences of birth, caste, religion, gender, or wealth.",
+   "formula": "",
+   "key_idea": "Equality does not mean sameness of all people; it means that differences of birth or status should not be used to deny any person equal respect, rights, or opportunity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by equality?",
+    "Why is equality considered a basic principle of democracy?",
+    "Does equality mean that all people are the same? Explain.",
+    "Distinguish between natural equality and social equality.",
+    "How does the idea of equality challenge discrimination?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define equality as equal worth and dignity of all persons",
+     "explain": "Equality holds that every human being has equal moral worth, so no person should be treated as inferior due to birth, caste, religion, or gender."
+    },
+    {
+     "step": 2,
+     "action": "Clarify that equality is not sameness",
+     "explain": "People differ in talents and choices; equality means these differences should not become grounds for unequal rights or respect."
+    },
+    {
+     "step": 3,
+     "action": "Connect equality to democracy and justice",
+     "explain": "A democracy rests on the equal status of citizens, which is why equality is a foundational principle of a just society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Does equality mean that all people are identical? Justify your answer.",
+     "solution": "Step 1: People naturally differ in abilities, interests, and circumstances. Step 2: Equality means these differences should not lead to unequal rights or dignity. Step 3: Therefore equality is about equal worth, not sameness.",
+     "answer": "No; equality means equal worth and rights, not that all people are identical"
+    },
+    {
+     "question": "Why is equality regarded as a foundational principle of democracy?",
+     "solution": "Step 1: Democracy gives every citizen an equal voice through the vote. Step 2: This equal voice rests on the equal moral worth of all citizens. Step 3: Hence equality is foundational to democracy.",
+     "answer": "Because democracy presupposes the equal worth and equal political status of all citizens"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of equality and why it is important for a democratic society.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two ways in which equality differs from mere sameness.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.2",
+   "title": "Natural and Social Equality",
+   "section": "Dimensions of Equality",
+   "definition": "Natural equality is the idea that all human beings are born free and equal in dignity by virtue of being human, while social equality is the principle that society should not create or maintain artificial hierarchies of birth, caste, or status that deny people equal standing.",
+   "formula": "",
+   "key_idea": "Natural equality is a moral claim about human worth; social equality is a political demand that society be organised so that no group is subordinated by birth or status.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between natural equality and social equality?",
+    "How does the idea of natural equality support the demand for social equality?",
+    "Why is natural equality not sufficient by itself?",
+    "Explain how social equality challenges hierarchies of birth.",
+    "What role does social equality play in removing discrimination?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the meaning of natural equality",
+     "explain": "Natural equality holds that all humans are born equal in dignity and worth, regardless of any social differences."
+    },
+    {
+     "step": 2,
+     "action": "Explain the meaning of social equality",
+     "explain": "Social equality demands that social arrangements do not create hierarchies that subordinate some people by birth, caste, or status."
+    },
+    {
+     "step": 3,
+     "action": "Show why natural equality must be realised through social equality",
+     "explain": "Without social equality, the moral claim of natural equality remains unrealised because social hierarchies continue to deny equal standing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is natural equality alone not enough to ensure equality in society?",
+     "solution": "Step 1: Natural equality is a moral claim about equal human worth. Step 2: But social hierarchies like caste can still deny people equal treatment. Step 3: Therefore social equality is needed to give effect to natural equality.",
+     "answer": "Because social hierarchies can override the moral claim of natural equality"
+    },
+    {
+     "question": "How does the idea of social equality challenge the caste system?",
+     "solution": "Step 1: The caste system ranks people by birth into higher and lower status. Step 2: Social equality rejects hierarchies based on birth. Step 3: Hence social equality opposes the caste system as a denial of equal standing.",
+     "answer": "By rejecting birth-based hierarchies that subordinate some groups"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between natural equality and social equality with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why must natural equality be supported by social equality?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.3",
+   "title": "Political Equality",
+   "section": "Dimensions of Equality",
+   "definition": "Political equality is the principle that all citizens have an equal right to participate in the political process, expressed through universal adult franchise and the principle of 'one person, one vote, one value', so that every citizen's vote carries equal weight.",
+   "formula": "vote_weight = 1 (per citizen)",
+   "key_idea": "Political equality gives every adult citizen an equal voice in choosing representatives, ensuring that no citizen's vote counts for more than another's.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is political equality?",
+    "How does universal adult franchise ensure political equality?",
+    "Explain the principle of 'one person, one vote, one value'.",
+    "Why is political equality important for democracy?",
+    "Can political equality exist without social and economic equality?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the number of adult citizens eligible to vote",
+     "explain": "Under universal adult franchise, every adult citizen is entitled to one vote."
+    },
+    {
+     "step": 2,
+     "action": "Assign equal weight to each vote",
+     "explain": "Each voter's vote carries the same weight, so no vote is worth more than another.",
+     "compute": "1"
+    },
+    {
+     "step": 3,
+     "action": "Verify that total weight equals the number of voters",
+     "explain": "The total voting weight equals the number of voters, confirming equal political voice.",
+     "compute": "num_voters * vote_weight"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a constituency of 100000 adult citizens, each has one vote. What is the total voting weight, and what does it show?",
+     "solution": "Step 1: There are 100000 adult citizens, each with one vote. Step 2: Each vote has weight 1. Step 3: Total weight = 100000 * 1 = 100000, showing equal political voice.",
+     "answer": "Total voting weight = 100000, confirming one vote per citizen"
+    },
+    {
+     "question": "A proposal is made that educated voters should get two votes each. Would this maintain political equality? Explain.",
+     "solution": "Step 1: Political equality requires each citizen's vote to carry equal weight. Step 2: Giving two votes to some makes votes unequal. Step 3: Therefore it violates political equality.",
+     "answer": "No; unequal vote weight violates political equality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how universal adult franchise ensures political equality in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State why the principle of 'one person, one vote, one value' is important.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.4",
+   "title": "Social Equality",
+   "section": "Dimensions of Equality",
+   "definition": "Social equality is the principle that all members of society enjoy equal status and dignity, and that no person is discriminated against or denied respect and opportunity on grounds of caste, religion, gender, race, or birth.",
+   "formula": "",
+   "key_idea": "Social equality requires that society be free of discriminatory hierarchies so that every person can live with equal dignity and self-respect.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is social equality?",
+    "How does social equality differ from political equality?",
+    "Why is social equality necessary for a just society?",
+    "Explain how caste and gender discrimination violate social equality.",
+    "What measures can promote social equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define social equality as equal status and dignity",
+     "explain": "Social equality means no person is treated as inferior or denied respect because of birth, caste, religion, or gender."
+    },
+    {
+     "step": 2,
+     "action": "Identify forms of social inequality",
+     "explain": "Caste discrimination, untouchability, and gender subordination are examples of social inequality."
+    },
+    {
+     "step": 3,
+     "action": "Explain measures to achieve social equality",
+     "explain": "Social equality is advanced through laws against discrimination, affirmative action, and changes in social attitudes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the practice of untouchability violate social equality?",
+     "solution": "Step 1: Social equality requires equal status and dignity for all. Step 2: Untouchability treats some people as inferior and polluting by birth. Step 3: Hence it is a clear violation of social equality.",
+     "answer": "It denies equal dignity and status to a group by birth"
+    },
+    {
+     "question": "Why is political equality not sufficient without social equality?",
+     "solution": "Step 1: Political equality gives equal votes, but social hierarchies can still deny dignity. Step 2: A person may have a vote yet face caste discrimination in daily life. Step 3: Therefore social equality is also needed for genuine equality.",
+     "answer": "Because equal voting rights do not by themselves remove social discrimination"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of social equality and the obstacles to achieving it in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention two forms of social inequality prevalent in society.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.5",
+   "title": "Economic Equality",
+   "section": "Dimensions of Equality",
+   "definition": "Economic equality is the principle that there should be a fair distribution of wealth, income, and resources in society, so that extreme disparities of riches and poverty do not deny people basic needs and a life of dignity.",
+   "formula": "inequality_ratio = (income_richest_quintile / income_poorest_quintile)",
+   "key_idea": "Economic equality does not require identical incomes for all, but it opposes gross concentration of wealth that leaves some in deprivation while others live in luxury.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is economic equality?",
+    "How does economic inequality affect democracy?",
+    "Why is absolute economic equality neither possible nor desirable?",
+    "Explain the relationship between economic equality and social justice.",
+    "What measures can reduce economic inequality?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the income of the richest and poorest groups",
+     "explain": "Find the total income of the top and bottom quintiles (or deciles) of the population to measure disparity.",
+     "compute": "incomes_top_quintile_total"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the income of the poorest group",
+     "explain": "Find the total income of the bottom quintile to compare with the richest group.",
+     "compute": "incomes_bottom_quintile_total"
+    },
+    {
+     "step": 3,
+     "action": "Compute the inequality ratio",
+     "explain": "The ratio of rich to poor income indicates the degree of economic inequality; a higher ratio means greater inequality.",
+     "compute": "income_rich / income_poor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The richest 20% of a population earns 5000 units and the poorest 20% earns 1000 units. Find the inequality ratio and interpret it.",
+     "solution": "Step 1: Income of richest quintile = 5000 units. Step 2: Income of poorest quintile = 1000 units. Step 3: Inequality ratio = 5000 / 1000 = 5, meaning the rich earn five times the poor.",
+     "answer": "Inequality ratio = 5; the rich earn five times the poor"
+    },
+    {
+     "question": "Is absolute economic equality, where everyone has exactly the same income, desirable? Explain.",
+     "solution": "Step 1: Absolute equality ignores differences in effort, skill, and need. Step 2: It can reduce incentives and productivity. Step 3: Hence absolute equality is neither possible nor desirable; reducing gross disparity is the goal.",
+     "answer": "No; reducing gross disparity, not absolute sameness, is the aim"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain economic equality and discuss why gross economic inequality is a concern for democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate the inequality ratio if the richest 20% earn 8000 units and the poorest 20% earn 1600 units.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.6",
+   "title": "Equality of Opportunity",
+   "section": "Equality of Opportunity",
+   "definition": "Equality of opportunity is the principle that every individual should have an equal chance to develop their abilities and to compete for positions and rewards in society, without being blocked by barriers of birth, caste, religion, gender, or wealth.",
+   "formula": "",
+   "key_idea": "Equality of opportunity focuses on fair access to education, employment, and advancement, so that success depends on ability and effort rather than on inherited privilege.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by equality of opportunity?",
+    "How does equality of opportunity differ from equality of outcome?",
+    "Why is equality of opportunity important for a just society?",
+    "What obstacles prevent equality of opportunity in India?",
+    "How can the state promote equality of opportunity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define equality of opportunity as fair and open access",
+     "explain": "It means every person has the same chance to compete for education, jobs, and advancement without artificial barriers."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish it from equality of outcome",
+     "explain": "Equality of opportunity ensures a fair race; it does not guarantee that everyone will finish at the same point."
+    },
+    {
+     "step": 3,
+     "action": "Identify the role of the state in securing it",
+     "explain": "The state promotes equality of opportunity through free education, anti-discrimination laws, and reservations for disadvantaged groups."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does equality of opportunity differ from equality of outcome?",
+     "solution": "Step 1: Equality of opportunity gives everyone an equal chance to compete. Step 2: Equality of outcome would require equal results for all regardless of effort. Step 3: Thus opportunity is about a fair starting line, not equal finishing positions.",
+     "answer": "Opportunity ensures a fair start; outcome would require equal results"
+    },
+    {
+     "question": "How can free and compulsory education promote equality of opportunity?",
+     "solution": "Step 1: Education develops abilities needed to compete for jobs. Step 2: Free compulsory education ensures even poor children can access it. Step 3: Hence it widens opportunity for all regardless of wealth.",
+     "answer": "By giving every child access to the education needed to compete fairly"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of equality of opportunity and how the state can promote it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one difference between equality of opportunity and equality of outcome.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.7",
+   "title": "Equality and Difference",
+   "section": "Equality and Difference",
+   "definition": "The relationship between equality and difference recognises that while people are different in abilities, needs, and identities, these differences should not become the basis for unequal rights or dignity; true equality often requires treating different people differently to achieve genuine equality.",
+   "formula": "",
+   "key_idea": "Equality does not demand uniform treatment; sometimes justice requires recognising differences and giving additional support to those disadvantaged by them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Does equality ignore differences among people?",
+    "How should a just society balance equality with difference?",
+    "Why is uniform treatment not always equal treatment?",
+    "Explain the relationship between equality and difference.",
+    "Can recognising differences promote equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Acknowledge that people differ in needs and circumstances",
+     "explain": "Individuals vary in ability, background, and disadvantage, so identical treatment may not produce equal outcomes."
+    },
+    {
+     "step": 2,
+     "action": "Explain that uniform treatment can reproduce inequality",
+     "explain": "Treating unequals equally can entrench existing disadvantages, as when a disabled person is given no special support."
+    },
+    {
+     "step": 3,
+     "action": "Conclude that justice may require differential treatment",
+     "explain": "Recognising relevant differences and giving extra support to the disadvantaged is often necessary to realise genuine equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A school gives the same exam to all students including a visually impaired student without any aid. Is this equality? Justify.",
+     "solution": "Step 1: The school gives uniform treatment to all. Step 2: But the visually impaired student needs a scribe or Braille paper to compete fairly. Step 3: Hence uniform treatment here is not genuine equality; differential support is needed.",
+     "answer": "No; genuine equality requires accommodating the difference"
+    },
+    {
+     "question": "Why is it said that sometimes to treat people equally we must treat them differently?",
+     "solution": "Step 1: People start from different positions of advantage. Step 2: Identical treatment leaves disadvantages intact. Step 3: Therefore differential support may be needed to achieve real equality.",
+     "answer": "Because differential support can offset disadvantages and secure genuine equality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the relationship between equality and difference with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example where uniform treatment leads to inequality.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.8",
+   "title": "Affirmative Action",
+   "section": "Affirmative Action",
+   "definition": "Affirmative action is a policy by which the state gives special preference or support to historically disadvantaged groups, such as Scheduled Castes, Scheduled Tribes, and Other Backward Classes, in education and employment to overcome the effects of past discrimination.",
+   "formula": "reserved_seats = total_seats * reservation_percent / 100",
+   "key_idea": "Affirmative action seeks to create substantive equality by giving disadvantaged groups preferential access so they can compete on a more equal footing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is affirmative action?",
+    "Why is affirmative action needed in a society with historical discrimination?",
+    "How does affirmative action promote equality?",
+    "What are the arguments against affirmative action?",
+    "Distinguish between equality of opportunity and affirmative action."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total seats and the reservation percentage",
+     "explain": "Find the total number of seats available and the percentage reserved for a disadvantaged group."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the number of reserved seats",
+     "explain": "Multiply the total seats by the reservation percentage to find how many seats are set aside.",
+     "compute": "total_seats * reservation_percent / 100"
+    },
+    {
+     "step": 3,
+     "action": "Determine the open seats available to all",
+     "explain": "The remaining seats are open to all candidates on merit.",
+     "compute": "total_seats - reserved_seats"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An institution has 100 seats and reserves 22% for a disadvantaged group. How many seats are reserved and how many are open?",
+     "solution": "Step 1: Total seats = 100, reservation = 22%. Step 2: Reserved seats = 100 * 22 / 100 = 22. Step 3: Open seats = 100 - 22 = 78.",
+     "answer": "22 reserved seats and 78 open seats"
+    },
+    {
+     "question": "Why is affirmative action sometimes described as a step towards substantive equality rather than mere formal equality?",
+     "solution": "Step 1: Formal equality gives everyone the same rules. Step 2: But disadvantaged groups start from behind due to past discrimination. Step 3: Affirmative action offsets this, moving towards substantive equality.",
+     "answer": "Because it offsets historical disadvantage to achieve real, not just formal, equality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and purpose of affirmative action in promoting equality.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate reserved and open seats for 200 seats with a 15% reservation.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.9",
+   "title": "Gender Equality",
+   "section": "Equality in the Indian Context",
+   "definition": "Gender equality is the principle that men and women should enjoy equal rights, responsibilities, opportunities, and respect in all spheres of life, and that no person should be disadvantaged or privileged on the basis of gender.",
+   "formula": "",
+   "key_idea": "Gender equality requires removing patriarchal customs, discriminatory laws, and social practices that subordinate women and deny them equal status with men.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is gender equality?",
+    "Why is gender equality important for a just society?",
+    "What obstacles prevent gender equality in India?",
+    "How can the state and society promote gender equality?",
+    "Explain how patriarchy is a barrier to gender equality."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define gender equality as equal rights and status for all genders",
+     "explain": "Gender equality means women and men have equal rights, opportunities, and dignity in all spheres of life."
+    },
+    {
+     "step": 2,
+     "action": "Identify barriers such as patriarchy and discrimination",
+     "explain": "Patriarchal customs, unequal pay, dowry, and restricted education deny women equal status."
+    },
+    {
+     "step": 3,
+     "action": "Explain measures to achieve gender equality",
+     "explain": "Equal education, legal rights, economic opportunity, and changes in social attitudes promote gender equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does patriarchy act as a barrier to gender equality?",
+     "solution": "Step 1: Patriarchy gives men authority over women in family and society. Step 2: This denies women equal decision-making and opportunity. Step 3: Hence patriarchy is a major barrier to gender equality.",
+     "answer": "By subordinating women and denying them equal authority and opportunity"
+    },
+    {
+     "question": "Suggest two measures to promote gender equality in education.",
+     "solution": "Step 1: Gender equality requires equal access to education for girls and boys. Step 2: Measures include free schooling for girls and safe transport to school. Step 3: These measures help close the gender gap in education.",
+     "answer": "Free schooling for girls and safe access to schools"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of gender equality and the main barriers to it in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two measures to promote gender equality.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.10",
+   "title": "Equality in the Indian Context and Its Limitations",
+   "section": "Equality in the Indian Context",
+   "definition": "In India, equality is given constitutional backing through provisions like Article 14 (equality before law), Article 15 (prohibition of discrimination), and Article 16 (equality of opportunity in employment), along with reservations for SCs, STs, and OBCs; yet deep social and economic inequalities persist as limitations on its full realisation.",
+   "formula": "",
+   "key_idea": "The Indian Constitution combines formal equality with affirmative action to address caste and gender inequality, but persistent poverty, caste prejudice, and gender discrimination limit the achievement of equality in practice.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does the Indian Constitution ensure equality?",
+    "Explain the significance of Articles 14, 15, and 16.",
+    "What are the limitations of equality in the Indian context?",
+    "How do reservations help achieve equality in India?",
+    "Why does constitutional equality not automatically end social inequality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional provisions for equality",
+     "explain": "Articles 14, 15, and 16 guarantee equality before law, prohibit discrimination, and ensure equality of opportunity in employment."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of reservations and affirmative action",
+     "explain": "Reservations for SCs, STs, and OBCs give disadvantaged groups access to education and jobs to offset historical exclusion."
+    },
+    {
+     "step": 3,
+     "action": "Assess the limitations of equality in practice",
+     "explain": "Despite constitutional guarantees, caste prejudice, poverty, and gender discrimination continue to limit the realisation of equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do Articles 14, 15, and 16 of the Indian Constitution promote equality?",
+     "solution": "Step 1: Article 14 guarantees equality before law. Step 2: Article 15 prohibits discrimination on grounds of religion, caste, sex, or birth. Step 3: Article 16 ensures equality of opportunity in public employment.",
+     "answer": "They guarantee equal legal status, prohibit discrimination, and ensure equal opportunity in employment"
+    },
+    {
+     "question": "Why does constitutional equality not automatically end social inequality in India?",
+     "solution": "Step 1: The Constitution guarantees equal rights. Step 2: But social practices like caste prejudice and gender discrimination persist. Step 3: Therefore constitutional equality alone does not end social inequality.",
+     "answer": "Because persistent social attitudes and practices continue to create inequality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Indian Constitution seeks to achieve equality and the limitations it faces in practice.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention two limitations on the achievement of equality in India.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

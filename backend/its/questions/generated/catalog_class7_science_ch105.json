@@ -1,0 +1,181 @@
+{
+ "catalog": "catalog_class7_science_ch105.json",
+ "concepts": [
+  {
+   "id": "gesc.5.1",
+   "title": "Physical Change",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a physical change?",
+     "a": "A change in shape, size or state where no new substance forms and the change can usually be reversed.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of physical changes.",
+     "a": "Melting of ice and tearing of paper (also dissolving sugar).",
+     "self_check": true
+    },
+    {
+     "q": "Is dissolving salt in water reversible? How?",
+     "a": "Yes - evaporating the water leaves the salt back, unchanged.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.2",
+   "title": "Chemical Change",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a chemical change?",
+     "a": "A change in which new substances with new properties form, usually not reversible - like rusting of iron.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of chemical changes.",
+     "a": "Burning of paper and curdling of milk (also rusting).",
+     "self_check": true
+    },
+    {
+     "q": "How can you tell a chemical change has occurred?",
+     "a": "A new substance forms, often with colour change, gas, heat or light - and it cannot be undone simply.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.3",
+   "title": "Oxidation of Magnesium",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when magnesium ribbon burns in air?",
+     "a": "It burns with dazzling white light forming white magnesium oxide powder - a chemical change.",
+     "self_check": true
+    },
+    {
+     "q": "Why must magnesium ribbon be cleaned before burning?",
+     "a": "A coating of magnesium oxide blocks the metal; rubbing exposes fresh magnesium to burn.",
+     "self_check": true
+    },
+    {
+     "q": "Is burning of magnesium reversible?",
+     "a": "No - a new substance (MgO) forms, so it is a chemical change.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.4",
+   "title": "Displacement Reaction of Copper Sulphate",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when an iron nail is dipped in copper sulphate solution?",
+     "a": "Iron displaces copper: the blue colour fades and a brown copper coating forms on the nail.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the copper sulphate reaction called a displacement reaction?",
+     "a": "The more reactive iron pushes copper out of its salt solution.",
+     "self_check": true
+    },
+    {
+     "q": "Is the copper sulphate-iron reaction chemical or physical? Why?",
+     "a": "Chemical - new substances (iron sulphate, copper) form with new properties.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.5",
+   "title": "Carbon Dioxide Test",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do we test for carbon dioxide gas?",
+     "a": "Bubble it through lime water - the limewater turns milky due to calcium carbonate.",
+     "self_check": true
+    },
+    {
+     "q": "Why does lime water turn milky with CO2?",
+     "a": "Carbon dioxide reacts with clear calcium hydroxide to form insoluble white calcium carbonate.",
+     "self_check": true
+    },
+    {
+     "q": "What happens if excess CO2 passes through the milky limewater?",
+     "a": "The milkiness clears as soluble calcium hydrogencarbonate forms.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.6",
+   "title": "Rusting of Iron",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is rusting? Write the conditions needed for it.",
+     "a": "Iron combining with oxygen and water to form brown rust (iron oxide) - both air and moisture are needed.",
+     "self_check": true
+    },
+    {
+     "q": "What kind of change is rusting?",
+     "a": "A chemical change - new substance (rust) forms and cannot be reversed to iron.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an iron pan rust faster in the rainy season?",
+     "a": "Moisture in air is high, and water plus oxygen speed up rusting.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.7",
+   "title": "Prevention of Rusting",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Give three ways to prevent rusting.",
+     "a": "Painting or greasing the surface, galvanising with zinc, and keeping iron dry.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a galvanised iron sheet not rust even if scratched?",
+     "a": "Zinc coats the iron and zinc itself corrodes very slowly, protecting the exposed edge too.",
+     "self_check": true
+    },
+    {
+     "q": "How does oiling protect machine parts?",
+     "a": "The oil film keeps air and moisture away from the metal surface.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.8",
+   "title": "Crystallisation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is crystallisation?",
+     "a": "Separating pure solid crystals of a substance from its solution by cooling or evaporation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is crystallisation better than simple evaporation for obtaining salt?",
+     "a": "It gives pure, well-shaped crystals, while evaporation may leave impurities and burn the substance.",
+     "self_check": true
+    },
+    {
+     "q": "Name one substance obtained by crystallisation in daily life.",
+     "a": "Sugar crystals (or alum, copper sulphate crystals).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

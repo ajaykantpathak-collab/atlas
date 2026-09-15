@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_003",
+   "title": "c10_civ_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define 'prudential reasons' for power sharing in your own words, and give one example from the Belgium case study that illustrates a prudential reason.",
+     "a": "Prudential reasons are practical, outcome-based justifications: power sharing reduces conflict between social groups and ensures political stability. In Belgium, the constitutional amendment giving equal representation to Dutch and French speakers in the central government (and community governments for cultural issues) was a prudential measure to prevent linguistic conflict and potential breakup of the country. A wrong answer (e.g., \"prudential means moral/ethical\") reveals confusion between practical consequences and normative principles — a common error where students conflate 'what works' with 'what is right'.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Sri Lankan government's decision to make Sinhala the only official language in 1956 violated moral reasons for power sharing, even though the Sinhalese were the majority.",
+     "a": "Moral reasons hold that democracy requires consulting all citizens on how they are governed — legitimacy comes from participation, not just majority numbers. By imposing Sinhala unilaterally, the Sri Lankan state denied Tamil speakers a voice in a fundamental governance decision, treating them as subjects rather than equal citizens with a right to be heard. A wrong answer focusing only on \"it caused conflict\" (prudential) shows the student cannot separate ethical legitimacy from practical outcomes — they miss that the violation was wrong *in principle*, regardless of whether conflict followed.",
+     "self_check": true
+    },
+    {
+     "q": "A new state is formed with three ethnic groups: Group A (55%), Group B (30%), Group C (15%). The constitution draft proposes that all key decisions require a simple majority vote in the legislature. Using prudential reasoning, analyze why this design risks instability and propose one specific power-sharing mechanism to address it.",
+     "a": "Prudential reasoning: simple majority allows Group A to dominate permanently (55% > 50%), creating a 'tyranny of the majority' where Groups B and C are permanently excluded. This breeds resentment and conflict risk (as in Sri Lanka). One mechanism: require a double majority — e.g., laws affecting cultural/educational rights need majority support from each group's representatives, or establish a community government for cultural affairs (like Belgium's model). A wrong answer suggesting \"just add more seats for minorities\" without structural veto/consensus mechanisms shows inability to translate prudential logic into institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Belgian and Sri Lankan approaches to power sharing. Which approach aligns with moral reasons, and which with prudential reasons? Can a single approach satisfy both? Justify.",
+     "a": "Belgium's accommodation model (equal representation, community governments, mutual veto) embodies *both* moral and prudential reasons: morally, it treats linguistic communities as equal partners with a right to self-governance; prudentially, it prevents secessionist conflict. Sri Lanka's majoritarianism violated *both*: morally, it denied Tamils equal citizenship; prudentially, it triggered civil war. A single approach *can* satisfy both when power sharing is institutionalized as equal partnership (Belgium), not mere minority concessions. A wrong answer claiming \"Belgium is prudential, Sri Lanka is moral\" reveals fundamental category confusion — the student has swapped the analytical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Power sharing is only necessary in deeply divided societies like Belgium or Sri Lanka. Homogeneous societies don't need it.\" Use both prudential and moral reasoning in your evaluation.",
+     "a": "The statement is false on both counts. Prudentially: even seemingly homogeneous societies have latent divisions (class, region, religion) that can erupt without inclusive institutions — power sharing prevents future conflict. Morally: democracy's legitimacy *always* derives from popular participation; no society is so uniform that all citizens agree on everything. Excluding any group from decision-making violates democratic principle regardless of demographic homogeneity. A wrong answer agreeing with the statement shows the student treats power sharing as a 'fix' for division rather than a constitutive feature of democracy — a procedural vs. substantive misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph preamble for a hypothetical constitution of a diverse country that explicitly incorporates *both* prudential and moral justifications for power sharing. Use precise civic terminology.",
+     "a": "A strong answer will include: (1) moral language — \"recognizing the inherent dignity and equal right of all communities to participate in governance,\" \"government derives legitimacy from the consent of all peoples\"; (2) prudential language — \"to ensure political stability, prevent conflict, and accommodate diversity\"; (3) institutional commitment — \"therefore establish power-sharing mechanisms including...\" A poor answer using only moral rhetoric (\"justice, equality\") or only prudential language (\"stability, peace\") reveals inability to integrate the two distinct justifications — a key board exam requirement where questions ask \"explain both reasons.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

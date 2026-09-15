@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_5",
+   "title": "c9_physics_ch2_5",
+   "questions": [
+    {
+     "q": "State the SI unit of acceleration and write the formula for average acceleration when an object changes its velocity from u to v in time t.",
+     "a": "SI unit: m/s². Formula: a = (v - u)/t. A wrong unit like m/s reveals confusion with velocity; writing a = v/t without subtracting initial velocity shows misunderstanding that acceleration depends on *change* in velocity, not just final velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A car moves along a straight road with a constant velocity of 30 km/h. What is its acceleration? Explain why the answer is zero even though the car is moving fast.",
+     "a": "Acceleration is zero because velocity is constant (no change in magnitude or direction). A non-zero answer indicates the student thinks \"moving fast\" implies acceleration, confusing velocity with acceleration. The key is that acceleration requires a *change* in velocity, not merely a non-zero velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A motorbike starting from rest reaches a velocity of 72 km/h in 5 seconds. Calculate its acceleration in SI units. Show all unit conversions.",
+     "a": "Given: u = 0, v = 72 km/h = 72 × (5/18) = 20 m/s, t = 5 s.\na = (v - u)/t = (20 - 0)/5 = 4 m/s².\nIf a student gets 14.4 m/s², they forgot to convert km/h to m/s. If they get 4 km/h², they used inconsistent units. Correct unit conversion is essential.",
+     "self_check": true
+    },
+    {
+     "q": "Two objects A and B start from rest. Object A reaches 10 m/s in 2 s; object B reaches 15 m/s in 3 s. Compare their accelerations. Which object has greater acceleration? Justify.",
+     "a": "a_A = (10-0)/2 = 5 m/s²; a_B = (15-0)/3 = 5 m/s². Both have equal acceleration. A wrong answer like \"B has greater acceleration because its final velocity is higher\" shows the student is comparing final velocities instead of computing rate of change of velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"A ball thrown vertically upward has zero acceleration at the highest point because its velocity becomes zero momentarily.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. At the highest point, velocity is zero but acceleration is not zero; it is g = 9.8 m/s² downward due to gravity. The student confuses zero velocity with zero acceleration. Acceleration depends on change in velocity, not velocity itself; the ball's velocity changes from upward to downward, so acceleration is non-zero.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone, a toy car, and a ramp to measure the acceleration of the car rolling down. Describe the procedure, measurements needed, and how you would calculate acceleration.",
+     "a": "Use the phone's accelerometer or video analysis (e.g., record motion, track position frame-by-frame). Measure time intervals between known positions, compute velocities, then acceleration. A poor answer would just say \"use a stopwatch\" without explaining how to get velocity change, showing inability to translate the definition into a measurement procedure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

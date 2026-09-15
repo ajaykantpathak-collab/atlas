@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_008",
+   "title": "c12_bio_cbse_11_008",
+   "questions": [
+    {
+     "q": "List the five major stages of downstream processing in the correct sequential order for an intracellular recombinant protein, and name one representative technique for each stage.",
+     "a": "Correct sequence: (1) Solid–liquid separation — e.g., disc-stack centrifugation; (2) Cell disruption — e.g., high-pressure homogenisation; (3) Primary recovery / concentration — e.g., ammonium sulfate precipitation; (4) Purification — e.g., ion-exchange chromatography; (5) Polishing — e.g., size-exclusion chromatography + viral filtration + lyophilisation. A wrong answer that swaps disruption before separation reveals the student thinks you lyse cells inside the bioreactor (which would release proteases and DNA, destroying product). Omitting primary recovery shows they underestimate the volume-reduction needed before expensive chromatography.",
+     "self_check": true
+    },
+    {
+     "q": "A recombinant protein (pI 5.2, 45 kDa) is secreted into the culture medium of a CHO cell bioreactor. The clarified harvest contains 0.5 g/L product, 1.2 g/L host cell proteins (mixed pI 4–9), 5 mM NaCl, and 20 mM Tris buffer pH 7.5. Why is direct loading onto a cation-exchange column at pH 7.5 a poor first purification step?",
+     "a": "At pH 7.5, the product (pI 5.2) carries a net negative charge and will NOT bind to a cation exchanger (which binds positive species). It would flow through in the wash, while many basic host proteins (pI > 7.5) would bind — the opposite of what you want. A student who answers \"it will bind because it's a protein\" confuses cation/anion exchanger function or ignores pI vs. buffer pH relationship. The correct first step would be anion-exchange at pH 7.5 (product binds, many acidic impurities flow through) or adjust pH below 5.2 for cation-exchange.",
+     "self_check": true
+    },
+    {
+     "q": "You are purifying an intracellular, heat-stable enzyme (60 kDa, pI 8.5) from *Bacillus subtilis* fermentation broth (10^10 cells/mL, 50 g/L wet cell weight). The enzyme constitutes 0.1% of total cellular protein. Design the first THREE downstream steps with one-sentence justification for each choice.",
+     "a": "Step 1: Disc-stack centrifugation (10,000–15,000 × g) — separates dense bacterial cells from broth rapidly at scale, handling high solids load better than filtration. Step 2: High-pressure homogenisation (2–3 passes at 800–1000 bar) — mechanically disrupts tough Gram-positive *Bacillus* cell walls without organic solvents that could denature the enzyme; heat-stability allows minimal cooling. Step 3: Ammonium sulfate precipitation at 40–60% saturation — concentrates enzyme 10–20× while removing >50% of contaminating proteins and nucleic acids; low cost, scalable, and compatible with subsequent hydrophobic interaction chromatography. A student who suggests filtration first fails on throughput; who suggests sonication fails on scale; who skips precipitation goes to chromatography with 500 L of dilute lysate — prohibitive resin cost and pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the separation mechanisms and predict the elution order for a mixture containing: Protein A (45 kDa, pI 9.0), Protein B (45 kDa, pI 5.0), Protein C (150 kDa, pI 5.0) when run on (i) cation-exchange at pH 7.0, (ii) size-exclusion chromatography (SEC), (iii) anion-exchange at pH 7.0.",
+     "a": "(i) Cation-exchange pH 7.0: Protein A (pI 9.0 → net +) binds; Proteins B & C (pI 5.0 → net −) flow through. Elution: B & C co-elute in flow-through; A elutes later with increasing [NaCl] or decreasing pH. (ii) SEC: Separation by hydrodynamic radius — C (150 kDa) elutes FIRST (excluded from pores), then A and B (both 45 kDa) co-elute LATER. (iii) Anion-exchange pH 7.0: Proteins B & C (net −) bind; Protein A (net +) flows through. Elution: A in flow-through; B & C elute together with salt gradient (same charge density at this pH). A student who says \"SEC separates by molecular weight\" without mentioning hydrodynamic radius/shape misses why a compact 45 kDa and an elongated 45 kDa might split. One who thinks cation-exchange binds negative proteins has the exchanger chemistry backwards.",
+     "self_check": true
+    },
+    {
+     "q": "A process development scientist proposes using immobilised metal affinity chromatography (IMAC) as the VERY FIRST chromatography step after cell lysis for a His-tagged protein, arguing \"it gives 95% purity in one step.\" Evaluate this strategy considering: (a) host cell proteases, (b) column fouling, (c) resin lifetime, (d) regulatory concerns about leached metal ions.",
+     "a": "The strategy is high-risk. (a) Crude lysate contains active proteases that will degrade the product during the long IMAC binding/wash/elution (30–60 min); a quick precipitation or hydrophobic interaction step first removes many proteases. (b) Crude lysate has lipids, DNA, membrane fragments that irreversibly foul IMAC resin (Ni²⁺-NTA), reducing binding capacity within 5–10 runs — resin costs ₹15,000–25,000/L. (c) Regulatory guidelines (ICH Q6B) require demonstration of <1 ppm leached Ni²⁺ in final drug substance; crude load increases leaching. (d) Better: depth filtration → ammonium sulfate cut (removes 60% protein, concentrates 10×) → IMAC → SEC polishing. A student who says \"IMAC is specific so it's fine\" ignores process economics and product quality risks — they're thinking academically, not industrially.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cost-reduced downstream process for an extracellular, thermostable α-amylase (55 kDa, pI 4.8) from *Bacillus licheniformis* produced at 20 g/L in a 50 m³ fermenter. Include ONE unconventional step that exploits the enzyme's thermostability, and justify how it replaces a conventional expensive step.",
+     "a": "Process: (1) Microfiltration (0.2 µm) — cell-free permeate directly (no centrifugation needed for extracellular product). (2) **HEAT TREATMENT at 70°C for 20 min** — unconventional step: denatures and precipitates >90% of mesophilic host proteins while thermostable α-amylase remains soluble. Centrifuge to remove precipitated impurities. (3) Ultrafiltration (10 kDa MWCO) — concentrates enzyme 5× and buffer-exchanges into low-salt buffer. (4) Anion-exchange chromatography (pH 6.0) — product binds (pI 4.8 < pH 6.0), elutes with NaCl gradient. (5) Diafiltration/formulation. The heat step replaces ammonium sulfate precipitation + redissolution + desalting, saving chemicals, time, and one ultrafiltration cycle. A poor answer proposes standard precipitation without exploiting thermostability — missing the bioprocess engineer's mindset of \"use the product's unique property to simplify.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

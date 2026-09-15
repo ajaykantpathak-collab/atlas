@@ -1,0 +1,309 @@
+{
+ "catalog": "catalog_class11_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "kemh108.SECTION.8.2.1",
+   "title": "Evaluating a Linear General Term of a Sequence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 15th term of the AP with first term 12 and common difference 7.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 20 terms of the AP 2, 9, 16, ... .",
+     "a": "1370",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 7 and last term 43 with 10 terms. Find its sum.",
+     "a": "250",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 16 and 20. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 15, 18, 21, ... up to and including 30?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 25 and the 4th term is 10. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.1",
+   "title": "General Term of a Geometric Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 12th term of the AP with first term 2 and common difference 2.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 6 terms of the AP 7, 13, 19, ... .",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 9 and last term 93 with 15 terms. Find its sum.",
+     "a": "765",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 5 and 14. Find the common difference.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 5, 12, 19, ... up to and including 89?",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "The 5th term of an AP is 24 and the 2th term is 9. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.2",
+   "title": "Sum of First n Terms of a Geometric Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 11th term of the AP with first term 5 and common difference 9.",
+     "a": "95",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 6 terms of the AP 1, 8, 15, ... .",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 110 with 19 terms. Find its sum.",
+     "a": "1064",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 4 and 9. Find the common difference.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 3, 9, 15, ... up to and including 81?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 37 and the 3th term is 13. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.3",
+   "title": "Geometric Mean of Two Positive Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 15th term of the AP with first term 4 and common difference 9.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 9 terms of the AP 6, 10, 14, ... .",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 18 with 5 terms. Find its sum.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 9 and 16. Find the common difference.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 13, 21, 29, ... up to and including 117?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 50 and the 5th term is 32. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.5.1",
+   "title": "Arithmetic Mean of Two Positive Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 4th term of the AP with first term 7 and common difference 8.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 16 terms of the AP 1, 8, 15, ... .",
+     "a": "856",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 26 with 5 terms. Find its sum.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 10 and 14. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 14, 20, 26, ... up to and including 44?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The 6th term of an AP is 39 and the 2th term is 15. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.5.2",
+   "title": "Relationship Between A.M. and G.M.",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 1 + (4 - 1) * 4 gives 13",
+     "compute": "an = 1 + (4 - 1) * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the 4th term of the AP with first term 1 and common difference 4.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 13 terms of the AP 4, 10, 16, ... .",
+     "a": "520",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 7 and last term 87 with 17 terms. Find its sum.",
+     "a": "799",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 4 and 11. Find the common difference.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 12, 14, 16, ... up to and including 26?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 49 and the 7th term is 43. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.4",
+   "title": "Common Ratio of a Geometric Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 14th term of the AP with first term 12 and common difference 3.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 12 terms of the AP 4, 12, 20, ... .",
+     "a": "576",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 8 and last term 23 with 6 terms. Find its sum.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 10 and 18. Find the common difference.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 14, 20, 26, ... up to and including 98?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 28 and the 2th term is 10. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.5",
+   "title": "Common Ratio from Two Arbitrary Terms of a G.P.",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 14th term of the AP with first term 3 and common difference 6.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 18 terms of the AP 8, 14, 20, ... .",
+     "a": "1062",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 8 and last term 32 with 7 terms. Find its sum.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 3 and 10. Find the common difference.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 7, 11, 15, ... up to and including 27?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 21 and the 2th term is 9. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

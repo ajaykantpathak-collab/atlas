@@ -1,0 +1,160 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 4,
+ "chapter_title": "Plotting with Pyplot",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leip104.txt",
+ "concepts": [
+  {
+   "id": "leip104.1",
+   "title": "Plotting using Matplotlib",
+   "definition": "Matplotlib's pyplot module draws data visualisations: plot() draws a line chart from two equal-length sequences (x values and y values), show() displays the figure, and title(), xlabel(), ylabel() annotate it. Visualisation turns a table of numbers into a shape the eye can reason about.",
+   "formula": "-",
+   "key_idea": "plot(x, y) requires the two lists to have the same length; each (x, y) pair becomes a point and consecutive points are joined. Without show() nothing appears on screen.",
+   "question_patterns": [
+    "Write the pyplot statements to draw a line chart of the given x and y lists.",
+    "Which function displays the plotted figure on screen?",
+    "What happens if plot() receives lists of unequal lengths?",
+    "Name the functions to set a chart's title and axis labels.",
+    "Identify the correct order of plot() and show() calls."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which pyplot function displays the finished figure on screen?",
+     "a": "show()"
+    }
+   ]
+  },
+  {
+   "id": "leip104.2",
+   "title": "Customisation of Plots Marker Colour Linewidth",
+   "definition": "pyplot customises appearance through arguments: marker sets the shape drawn at each point (o, * , +), color sets the line colour, linewidth sets its thickness in points, and linestyle chooses solid, dashed or dotted. A format string like 'r--o' combines colour, style and marker in one argument.",
+   "formula": "-",
+   "key_idea": "The format string packs three choices: 'r--' means a red dashed line, 'g^' means green triangles. Individual keyword arguments (linewidth, markersize) override the string for finer control.",
+   "question_patterns": [
+    "What does the format string 'r--o' specify in plot()?",
+    "Write the plot() call to draw data with green square markers and a dotted line.",
+    "Which argument increases the thickness of a plotted line?",
+    "Name the marker string that plots star-shaped points.",
+    "Differentiate linestyle and marker in matplotlib."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "What does the format string 'r--' draw?",
+     "a": "a red dashed line"
+    }
+   ]
+  },
+  {
+   "id": "leip104.3",
+   "title": "Pandas Plot Function",
+   "definition": "A DataFrame or Series carries its own plot accessor: df.plot() draws with sensible defaults, and df.plot(kind='bar'), kind='barh', kind='hist', kind='box' or kind='line' switch chart types. The index becomes the x axis for most kinds.",
+   "formula": "-",
+   "key_idea": "The kind parameter chooses the visual: line for trends over order, bar for comparing categories, histogram for the spread of one column, box for median and outliers at a glance.",
+   "question_patterns": [
+    "Write the pandas statement to draw a bar chart of column 'sales'.",
+    "Which kind value draws a horizontal bar chart?",
+    "Which chart kind best shows the distribution of one numeric column?",
+    "What becomes the x axis when you call df.plot(kind='line')?",
+    "Name the chart type used to compare medians and outliers."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which kind value draws a vertical bar chart in df.plot()?",
+     "a": "bar"
+    }
+   ]
+  },
+  {
+   "id": "leip104.4",
+   "title": "Bar Chart Percentage Share",
+   "definition": "A bar chart compares categories, and each category's share of the total is its value divided by the sum of all values, times 100. The share converts raw counts into comparable percentages.",
+   "formula": "share = value / total * 100",
+   "key_idea": "Shares always sum to 100 when computed over one column. A bar of 40 among totals of 200 contributes a 20 percent share regardless of the units involved.",
+   "question_patterns": [
+    "Sales by quarter are {v1}, {v2}, {v3}, {v4}; find each quarter's percentage share for a bar chart label.",
+    "One category records {v1} out of a total of {total}; what is its share percent?",
+    "Two products sell {v1} and {v2} units; what percent does each bar represent?",
+    "In a bar chart of monthly expenses, which month's share is largest given the data?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "total = v1 + v2 + v3 + v4"
+    },
+    {
+     "compute": "share = v1 / total * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A bar of 40 among totals of 200 contributes what share in percent?",
+     "a": "20 percent"
+    }
+   ]
+  },
+  {
+   "id": "leip104.5",
+   "title": "Line Chart Reading and Comparison",
+   "definition": "A line chart joins consecutive data points, so the vertical gap between two lines at the same x is the difference of their y values there, and the slope between two points is the change in y divided by the change in x.",
+   "formula": "slope = (y2 - y1) / (x2 - x1)",
+   "key_idea": "Steeper slope means faster change between the two x values. To compare two series at a given x, subtract the y values read from each line at that x.",
+   "question_patterns": [
+    "A line passes through ({x1}, {y1}) and ({x2}, {y2}); what is its slope on the chart?",
+    "Series A reads {y1} and series B reads {y2} at the same month; what is the gap A is above B?",
+    "Between which two plotted points is the line steepest, given the data table?",
+    "At which x value do the two plotted lines cross, given their point tables?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "compute": "rise = y2 - y1"
+    },
+    {
+     "compute": "slope = rise / dx"
+    },
+    {
+     "compute": "gap = y1 - y2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Line A reads y=30 and line B reads y=18 at x=5. What is the vertical gap at that x?",
+     "a": "12"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "Quarterly sales are 120, 180, 90 and 210 units. Compute each quarter's percentage share for labelling a bar chart.",
+   "a": "Total = 120 + 180 + 90 + 210 = 600. Shares: Q1 = 120/600 x 100 = 20 percent, Q2 = 30 percent, Q3 = 15 percent, Q4 = 35 percent. The four shares sum to 100, confirming the calculation."
+  },
+  {
+   "q": "On a plotted line, the points (2, 50) and (6, 90) are marked. What is the slope, and what does it mean?",
+   "a": "Slope = (90 - 50) / (6 - 2) = 40 / 4 = 10. The plotted quantity rises 10 units for each one-unit step along the x axis between those points."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Write pyplot code to plot months [1,2,3,4] against sales [10, 25, 18, 40] with red circle markers.",
+    "Which kind value draws a histogram of a column?",
+    "Monthly footfall: 300, 450, 250, 500 - compute each month's share percent.",
+    "A line joins (1, 8) and (5, 24); find its slope.",
+    "What does linewidth=3 change in a plot?",
+    "Which pandas accessor draws a box plot of every numeric column?"
+   ]
+  }
+ ]
+}

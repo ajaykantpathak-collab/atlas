@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_005",
+   "title": "c10_geo_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define 'first-flush diverter' in a rooftop rainwater harvesting system and state its primary purpose.",
+     "a": "A first-flush diverter is a valve or chamber that automatically discards the initial 1-2 mm of rainfall runoff from the roof, which carries dust, bird droppings, leaves, and pollutants. Its primary purpose is to prevent contamination of the storage tank or recharge structure. A wrong answer (e.g., \"it diverts excess water when tank is full\") reveals confusion with an overflow pipe; the student does not understand water quality management in harvesting systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a sand-gravel-charcoal filter is preferred over a simple mesh screen for rooftop harvesting in urban Indian cities.",
+     "a": "Urban rooftops accumulate fine particulate matter (PM2.5), chemical residues from vehicular emissions, and microbial contaminants that a mesh screen cannot remove. A multi-media filter (coarse sand, fine sand, gravel, charcoal) provides physical straining, adsorption of dissolved chemicals, and biological filtration. A wrong answer (e.g., \"mesh is enough because rain is pure\") reveals the misconception that rainwater is inherently clean, ignoring urban atmospheric pollution and roof surface contamination — a critical error for board exam case-study questions on water quality.",
+     "self_check": true
+    },
+    {
+     "q": "A house in Chennai has a flat roof area of 120 m². The average annual rainfall is 1400 mm. The runoff coefficient for a concrete roof is 0.85. Calculate the total annual harvestable rainwater volume in litres. If the household of 5 uses 135 litres per capita per day (LPCD), for how many days can this harvested water meet their total demand? (Assume 100% storage efficiency.)",
+     "a": "Step 1: Convert rainfall to meters: 1400 mm = 1.4 m.\nStep 2: Calculate total rainfall volume on roof = Area × Rainfall = 120 m² × 1.4 m = 168 m³.\nStep 3: Apply runoff coefficient: Harvestable volume = 168 m³ × 0.85 = 142.8 m³.\nStep 4: Convert to litres: 142.8 m³ × 1000 = 1,42,800 litres.\nStep 5: Daily household demand = 5 × 135 = 675 litres/day.\nStep 6: Number of days = 1,42,800 ÷ 675 ≈ 211.5 days → **211 days**.\nA wrong answer (e.g., forgetting runoff coefficient or unit conversion) reveals inability to apply the standard formula V = A × R × C and handle unit conversions — a common 3-mark board exam calculation question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare rooftop harvesting with a recharge pit versus rooftop harvesting with a storage tank in terms of (a) space requirement, (b) water availability during dry months, and (c) suitability for a high-rise apartment in Mumbai with limited open ground.",
+     "a": "(a) Recharge pit requires open permeable ground (≈2-3 m² per pit); storage tank requires roof/ground space for tank but no permeable soil. (b) Storage tank provides direct water supply for months; recharge pit replenishes aquifer but water access depends on borewell yield and aquifer extent. (c) For a Mumbai high-rise with no open ground, storage tanks (on terrace or basement) are the ONLY viable option; recharge pits are impossible. A wrong answer (e.g., \"both are equally suitable\") reveals failure to analyse site-specific constraints — a key competency in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the Tamil Nadu government's 2003 mandate making rooftop rainwater harvesting compulsory for all buildings. Assess its success using two measurable indicators and identify one implementation gap that persists.",
+     "a": "Success indicators: (1) Chennai's groundwater levels rose by 6-8 metres in many areas within 5 years (CMWSSB data). (2) Building compliance reached >80% in municipal areas. Persistent gap: **Maintenance neglect** — filters clogged, first-flush diverters broken, pipes disconnected — rendering systems non-functional in 30-40% of buildings (CAG audit). A wrong answer (e.g., \"it failed because rainfall decreased\") reveals inability to distinguish policy design from implementation and maintenance — a classic board exam evaluation trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost rooftop rainwater harvesting system for a rural government school in Rajasthan (roof area 200 m², annual rainfall 400 mm, hard rock aquifer). Specify: (i) storage vs recharge choice with justification, (ii) filter type using locally available materials, (iii) one community-involvement strategy for maintenance.",
+     "a": "(i) **Recharge preferred**: Hard rock aquifer has low storage; storage tanks would need huge capacity for 400 mm rainfall (68,000 litres harvestable). Recharge via abandoned dug well/borewell directly augments the only viable source. (ii) **Filter**: Three-chamber filter using locally available pebbles (bottom), coarse sand (middle), charcoal from biomass (top) — no purchased media. (iii) **Community strategy**: Form a 'Jal Sabha' of teachers, students, parents; assign monthly cleaning rota; link to school's Swachh Bharat points. A poor answer (e.g., \"build a big tank\") ignores hydrogeology (hard rock = poor tank seepage, high evaporation) and community ownership — missing the 'sustainable management' competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

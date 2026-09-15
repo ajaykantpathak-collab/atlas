@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_006",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_006",
+   "title": "c7_bio_ch03_006",
+   "questions": [
+    {
+     "q": "What is the primary source from which terrestrial plants obtain carbon dioxide for food preparation?",
+     "a": "Terrestrial plants obtain carbon dioxide directly from the atmosphere, where it is present as a trace gas. A student who answers \"from the soil\" is confusing mineral and water absorption by roots with gas absorption by leaves.",
+     "self_check": true
+    },
+    {
+     "q": "Why is carbon dioxide considered a raw material rather than a waste product during daytime photosynthesis in green leaves?",
+     "a": "Carbon dioxide is consumed and chemically transformed into glucose and oxygen, meaning it is a necessary input (reactant) for the food-making reaction. A student who thinks it is a waste product is mixing up photosynthesis with animal breathing, failing to realize plants use $\\text{CO}_2$ to build their bodies.",
+     "self_check": true
+    },
+    {
+     "q": "A potted hibiscus plant is placed inside a sealed glass bell jar next to a dish of potassium hydroxide ($\\text{KOH}$), a chemical that absorbs all carbon dioxide gas from the surrounding air. After exposing the jar to bright sunlight for six hours, a leaf is plucked and tested with iodine. Will the leaf turn blue-black? Explain why or why not based on the role of $\\text{CO}_2$.",
+     "a": "The leaf will NOT turn blue-black because potassium hydroxide removed all $\\text{CO}_2$ from the air inside the jar. Without carbon dioxide, the plant cannot perform photosynthesis to manufacture glucose, and therefore no starch is stored in the leaf. A student who says it will turn blue-black incorrectly assumes sunlight and water alone are enough to make food without carbon dioxide.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical state of carbon dioxide as it enters a plant leaf versus its chemical state after photosynthesis is complete.",
+     "a": "Before entering, carbon dioxide exists as an independent gas molecule ($\\text{CO}_2$) floating in the atmosphere. After photosynthesis, the carbon atoms from that gas molecule are chemically rearranged and bonded with hydrogen and oxygen to form solid glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) stored inside the plant cells. A student who claims the gas remains unchanged inside the leaf does not understand that chemical reactions create entirely new substances.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that crops grown in a tightly sealed greenhouse with restricted air circulation grow slower than those in an open field, even though watering and sunlight are identical. Evaluate this observation using your knowledge of plant nutrition.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "The closed greenhouse depletes the available atmospheric carbon dioxide as plants consume it, leading to a shortage of this vital raw material for photosynthesis. Without a steady supply of $\\text{CO}_2$ from fresh air, the rate of food production drops, stunting growth. A student who blames lack of soil nutrients misses the key environmental factor of air composition in a sealed space.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

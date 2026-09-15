@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_004",
+   "title": "c12_chem_cbse_08_004",
+   "questions": [
+    {
+     "q": "State the physical state of methanal, ethanal, and propanone at room temperature. How does the physical state change as the molecular mass increases in the homologous series of aldehydes and ketones?",
+     "a": "Methanal is a gas, ethanal is a volatile liquid, and propanone is a liquid at room temperature. As molecular mass increases, aldehydes and ketones change from gas to liquid to solid. A wrong answer (e.g., saying ethanal is a gas) indicates the student has not memorized the basic state trend or confuses it with alcohols. This is a direct recall fact from NCERT 8.3.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the boiling point of propanal (322 K) is higher than that of methoxyethane (281 K) even though both have nearly the same molecular mass (58 vs 60 g/mol).",
+     "a": "Propanal has a polar carbonyl group (C=O) leading to dipole-dipole interactions between molecules, while methoxyethane (an ether) has a C-O-C linkage with a smaller net dipole moment. The stronger dipole-dipole forces in propanal require more energy to overcome, giving a higher boiling point. A wrong answer that cites hydrogen bonding for propanal reveals a major misconception: aldehydes/ketones cannot H-bond with each other (no O-H bond). Confusing dipole-dipole with H-bonding is a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in increasing order of boiling points: n-butane (C4H10), ethoxyethane (C2H5OC2H5), butanal (CH3CH2CH2CHO), butan-1-ol (CH3CH2CH2CH2OH). All have molecular masses in the range 72-74 g/mol. Justify your ordering.",
+     "a": "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol.\nReasoning: n-butane has only weak van der Waals forces. Ethoxyethane has a small dipole moment (dipole-dipole). Butanal has a strong C=O dipole (stronger dipole-dipole). Butan-1-ol has intermolecular hydrogen bonding (strongest). A wrong ordering (e.g., placing butanal above butan-1-ol) shows the student does not understand the relative strength of intermolecular forces: H-bonding > dipole-dipole > van der Waals. This is a classic NCERT Example 8.2 type question.",
+     "self_check": true
+    },
+    {
+     "q": "Why are lower aldehydes and ketones (methanal, ethanal, propanone) miscible with water in all proportions, but solubility decreases rapidly as the alkyl chain length increases?",
+     "a": "Lower members have small hydrocarbon chains; the polar carbonyl group can form hydrogen bonds with water molecules (carbonyl oxygen accepts H-bonds from water). As the alkyl chain grows, the nonpolar hydrophobic portion increases, disrupting the water structure and reducing solubility. A wrong answer that says \"aldehydes/ketones form hydrogen bonds with each other in water\" confuses solute-solute with solute-solvent interactions. Another error: attributing solubility to the aldehydic hydrogen (C-H) forming H-bonds — the C-H bond is not polar enough for H-bonding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Acetone has a higher boiling point than propanal because the carbonyl group in acetone is more polar due to two electron-donating alkyl groups.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Acetone (propanone) has a boiling point of 329 K, propanal 322 K — acetone is slightly higher, but not because of greater polarity. In fact, alkyl groups are electron-donating (+I effect) which slightly reduces the carbonyl polarity compared to aldehydes. The higher boiling point of acetone is due to its greater molecular symmetry and slightly larger surface area leading to stronger van der Waals forces, plus the dipole moment of acetone (2.88 D) is actually slightly higher than propanal (2.52 D) because the two methyl groups allow better alignment of dipoles. A student who says \"more alkyl groups increase polarity\" has the electronic effect backwards — this is a common JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between butanal (soluble in water) and pentanal (sparingly soluble) using only water and test tubes. Explain the chemical principle behind the test.",
+     "a": "Take 1 mL of each liquid in separate test tubes, add 5 mL of water, shake vigorously. Butanal (C4) will form a homogeneous solution (miscible); pentanal (C5) will form two layers (limited solubility). The principle: solubility in water depends on the balance between the hydrophilic carbonyl group (which can H-bond with water) and the hydrophobic alkyl chain. At C4 the carbonyl dominates; at C5 the hydrocarbon chain dominates. A poor answer would suggest using Tollens' test (which tests chemical reactivity, not physical property) or smell test (subjective and unsafe).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

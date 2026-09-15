@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_011",
+   "title": "c12_ip_cbse_03_011",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between TCP and UDP in terms of connection establishment and reliability guarantees?",
+     "a": "TCP is connection-oriented: it establishes a connection via a three-way handshake (SYN, SYN-ACK, ACK) before data transfer, guarantees reliable, in-order delivery through acknowledgments, sequence numbers, and retransmissions, and provides flow and congestion control. UDP is connectionless: it sends datagrams immediately without handshake, offers no reliability, ordering, or flow control — packets may be lost, duplicated, or arrive out of order. A wrong answer (e.g., \"UDP also establishes a connection\" or \"TCP does not guarantee order\") reveals confusion between transport-layer service models. This misconception leads to incorrect protocol selection in application design (e.g., using UDP for file transfer).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"HTTP runs on UDP because web pages need to load fast, and UDP is faster than TCP.\" Explain why this statement is incorrect and describe the actual transport protocol HTTP uses and why.",
+     "a": "HTTP (versions 1.0/1.1/2) runs over TCP, not UDP. While UDP has lower latency, HTTP requires reliable, ordered delivery of web resources (HTML, CSS, JS, images) — a single lost packet would corrupt the entire page. TCP's reliability, flow control, and congestion control are essential for the web. HTTP/3 (QUIC) does use UDP as a substrate but implements its own reliability layer on top. A student who says \"HTTP uses UDP\" confuses speed with suitability; they likely think \"fast = UDP\" without understanding that applications needing reliability must either use TCP or build reliability on UDP (as QUIC does). This misconception causes errors in board questions asking \"Which transport protocol does HTTP use?\" and in competitive exams testing protocol stack knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "A developer is building a multiplayer online game where players' positions update 60 times per second. Occasional lost position updates are acceptable because the next update will overwrite it. Which transport protocol (TCP or UDP) should they choose? Justify your answer with two specific reasons related to the game's requirements.",
+     "a": "Choose UDP. Reason 1: Real-time position updates are time-sensitive; TCP's retransmission of lost packets introduces unacceptable latency (head-of-line blocking) causing \"lag.\" UDP's no-retransmission design delivers the latest position fastest. Reason 2: The application can tolerate loss because newer updates supersede older ones — implementing application-level reliability for only critical data (e.g., chat messages) is more efficient than TCP's blanket reliability. A wrong answer (choosing TCP) shows failure to analyze application requirements against protocol characteristics. Students often default to \"TCP is reliable so it's better\" without considering that reliability mechanisms harm real-time interactive applications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare FTP and HTTP for downloading a single large file (e.g., a 2 GB software installer). Analyze both protocols in terms of: (a) connection management, (b) authentication, (c) firewall traversal, and (d) resumability of interrupted downloads.",
+     "a": "(a) FTP uses two TCP connections: control (port 21) for commands and data (port 20 or ephemeral) for file transfer; HTTP uses a single TCP connection (port 80/443) for both request and response. (b) FTP has built-in USER/PASS authentication; HTTP uses headers (Basic, Digest, Bearer tokens) or forms. (c) FTP's separate data connection causes firewall/NAT issues (requires passive mode or ALG); HTTP's single connection traverses firewalls easily. (d) FTP supports REST (restart) for resumable downloads; HTTP supports Range headers for resumable downloads. A poor analysis treats them as equivalent or misses the dual-connection firewall problem. This tests ability to break down protocol design into operational dimensions — a common board case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since TCP provides reliable delivery, application developers never need to implement any error handling or acknowledgment logic at the application layer.\" Defend or refute with two concrete examples.",
+     "a": "Refute. TCP guarantees byte-stream delivery between endpoints, but not application-level correctness. Example 1: A banking transfer requires idempotency — if the client retries a request due to a timeout (TCP delivered but ACK lost), the server must detect duplicate transactions (application-level sequence numbers or transaction IDs). Example 2: A distributed database needs consensus — TCP ensures packets arrive, but the application must handle node failures, network partitions, and conflicting writes (e.g., Raft/Paxos logic). A student who agrees confuses transport-layer reliability with application-layer correctness. This is a classic competitive-exam trap: \"TCP is reliable, so why do we need application acknowledgments?\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple application-layer protocol for a smart-home system where a central hub controls light bulbs (on/off, brightness 0-100). The protocol must run over UDP, support command acknowledgment, and handle out-of-order delivery. Specify: (a) message format (fields), (b) how the hub detects lost commands, (c) how the bulb handles duplicate commands.",
+     "a": "(a) Message format (binary): | MsgType (1 byte: 0=cmd, 1=ack) | SeqNum (2 bytes) | BulbID (1 byte) | Command (1 byte: 0=off, 1=on, 2=set_brightness) | Payload (1 byte: brightness 0-100) | Checksum (2 bytes) |. (b) Hub maintains a sliding window of sent sequence numbers per bulb; if no ACK received within timeout (e.g., 200ms), retransmit with same SeqNum. (c) Bulb stores last processed SeqNum per hub; if incoming SeqNum ≤ last processed, discard as duplicate; if > last processed, execute and send ACK with that SeqNum. A poor design omits sequence numbers (cannot detect loss/duplicates) or uses TCP (violates \"over UDP\" constraint). This tests synthesis of transport-layer limitations into application-layer solutions — a JEE-style system design question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

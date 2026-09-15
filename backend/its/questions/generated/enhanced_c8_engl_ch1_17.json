@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch1_17",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch1_17",
+   "title": "c8_engl_ch1_17",
+   "questions": [
+    {
+     "q": "A student writes: \"The poem is very beautiful and the poet uses many good devices.\" Identify which PEEL component is missing and rewrite the sentence as a proper Point.",
+     "a": "The missing component is Evidence (and the Point is too vague). A proper Point must make a specific analytical claim, not a general impression. Rewrite: \"The poet conveys the king's greatness through cosmic hyperbole, placing him above all rival rulers.\" This Point is specific (cosmic hyperbole), analytical (how greatness is conveyed), and arguable (not a fact but an interpretation). A wrong answer that only says \"add a quote\" misses that the Point itself must be analytical, not just a feeling.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the Evidence in PEEL include a line or stanza reference, not just a quotation?",
+     "a": "A line or stanza reference proves the student has located the evidence in the poem's structure, not remembered it vaguely. It also allows the examiner to verify the quotation's context and accuracy. Without a reference, the student might misattribute a line or quote out of context. A wrong answer like \"it looks more professional\" reveals the student treats referencing as formatting rather than as a verification of textual engagement.",
+     "self_check": true
+    },
+    {
+     "q": "A student's Explanation reads: \"This quote shows the poet likes nature.\" Rewrite it as a proper PEEL Explanation that unpacks the device and its effect.",
+     "a": "Rewrite: \"The personification of the cherry tree as 'lifting its head toward the light' transforms the plant from passive object to active struggler, making the reader feel the tree's effort as if it were a living protagonist. This device shifts the poem's focus from description to empathy — we root for the tree as we would for a character.\" A wrong answer that merely says \"the poet likes nature\" does not explain HOW the device works or WHAT effect it creates, which is the core of the Explanation component.",
+     "self_check": true
+    },
+    {
+     "q": "What is the difference between a Link that connects to the next paragraph and a Link that returns to the question? When should you use each?",
+     "a": "A Link-to-question returns to the question's keywords (e.g., \"Thus admiration is conveyed through cosmic comparison\") and is used in the final paragraph to close the argument. A Link-to-next-paragraph creates a bridge (e.g., \"This cosmic comparison also sets up the poem's treatment of the king's humility\") and is used in middle paragraphs to maintain flow. Using a link-to-question in a middle paragraph prematurely closes the argument; using a link-to-next in the final paragraph leaves the answer hanging. A wrong answer that treats all Links as identical reveals the student does not understand structural flow in multi-paragraph answers.",
+     "self_check": true
+    },
+    {
+     "q": "Apply PEEL to this question: \"How does the poet create a tone of wonder in the cherry tree poem?\" Write only the Point and Evidence (no full paragraph).",
+     "a": "Point: \"The poet creates wonder through the contrast between the seed's insignificance and the tree's eventual grandeur, emphasizing growth as a miraculous process.\" Evidence: \"The poet describes the seed as 'a small thing, no bigger than a fingernail' (stanza 1) and later the tree as 'tall against the sky' (stanza 5).\" A wrong answer that makes the Point \"the poet uses imagery\" is too generic — it does not specify WHICH contrast creates wonder, missing the analytical precision PEEL demands.",
+     "self_check": true
+    },
+    {
+     "q": "A student's PEEL paragraph has a strong Point and Evidence but the Explanation merely paraphrases the quotation. Explain why paraphrase is not Explanation and how to fix it.",
+     "a": "Paraphrase restates what the quotation says; Explanation unpacks HOW it works and WHY it matters. For example, if the quote is \"the moon wept silver tears,\" paraphrase would say \"the moon cried silver tears\" (restating). Explanation would say: \"The personification of the moon as weeping transforms a lifeless body into a grieving figure, projecting human sorrow onto the cosmos and making the night itself seem to mourn.\" The fix: after writing the paraphrase, ask \"What device is this? What effect does it create on the reader?\" — then write that. A wrong answer that accepts paraphrase as Explanation reveals the student does not distinguish restating from analyzing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

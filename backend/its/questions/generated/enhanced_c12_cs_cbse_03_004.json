@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_004",
+   "title": "c12_cs_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the default marker style for an unordered list (`<ul>`) in HTML5, and which CSS property would you use to change it to squares?",
+     "a": "The default marker is a solid disc (bullet). To change it to squares, use the CSS property `list-style-type: square;`. A wrong answer (e.g., \"circle\" or \"decimal\") reveals the student is confusing default unordered list markers with ordered list numbering or CSS keyword values.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the semantic difference between `<ol>` and `<ul>`. Give a real-world example where using `<ol>` would be incorrect even if the items appear in a sequence.",
+     "a": "`<ol>` implies a meaningful order where changing the sequence changes the meaning (e.g., steps in a recipe). `<ul>` implies a collection where order is arbitrary (e.g., ingredients). Using `<ol>` for a list of team members (where alphabetical order is just presentation, not semantic) would be incorrect. A wrong answer suggests the student thinks any visible sequence justifies `<ol>`, missing the semantic distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML code for an ordered list that starts at 3, uses lowercase Roman numerals, and contains three items: \"Apple\", \"Banana\", \"Cherry\". Show the rendered output.",
+     "a": "```html\n<ol type=\"i\" start=\"3\">\n  <li>Apple</li>\n  <li>Banana</li>\n  <li>Cherry</li>\n</ol>\n```\nRendered:\niii. Apple\niv. Banana\nv. Cherry\nA wrong answer (e.g., missing `start`, using `type=\"I\"`, or wrong numeral sequence) reveals misunderstanding of attribute interaction or Roman numeral case sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure of a definition list (`<dl>`) with a two-column table (`<table>`). When would you choose `<dl>` over `<table>` for presenting key-value pairs?",
+     "a": "`<dl>` uses `<dt>` (term) and `<dd>` (description) which are semantically linked; `<table>` uses `<tr>`, `<th>`, `<td>` for tabular data with rows/columns. Choose `<dl>` for glossaries, metadata, or FAQs where each term has a single description and no column headers are needed. A wrong answer (e.g., \"always use tables for alignment\") shows lack of semantic HTML awareness and accessibility understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `<ol><li>Item 1</li><ul><li>Subitem A</li></ul></ol>` but forgets to close the outer `<li>` before starting the nested `<ul>`. Is this valid HTML5? What will the browser do?",
+     "a": "Invalid. In HTML5, a nested list must be inside a parent `<li>`. The browser's parser will implicitly close the parent `<li>` before the `<ul>`, making the sublist a sibling, not a child. The rendered structure becomes two separate list items at the same level. This error reveals the student doesn't understand the content model: `<ul>`/`<ol>` can only be direct children of `<li>`, not of another `<ul>`/`<ol>`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single HTML snippet that uses all three list types (`<ul>`, `<ol>`, `<dl>`) in a nested structure to represent: a course curriculum with modules (ordered), each module's topics (unordered), and a glossary of terms (definition). The snippet must be valid and semantically correct.",
+     "a": "```html\n<ol>\n  <li>Module 1: HTML Basics\n    <ul>\n      <li>Tags and Elements</li>\n      <li>Attributes</li>\n    </ul>\n  </li>\n  <li>Module 2: CSS Basics\n    <ul>\n      <li>Selectors</li>\n      <li>Box Model</li>\n    </ul>\n  </li>\n</ol>\n<dl>\n  <dt>HTML</dt>\n  <dd>HyperText Markup Language</dd>\n  <dt>CSS</dt>\n  <dd>Cascading Style Sheets</dd>\n</dl>\n```\nA poor answer (e.g., mixing list types incorrectly, missing closing tags, or putting `<dl>` inside `<li>` without reason) shows inability to compose semantic structures for hierarchical content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

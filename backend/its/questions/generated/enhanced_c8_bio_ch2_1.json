@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_1",
+   "title": "c8_bio_ch2_1",
+   "questions": [
+    {
+     "q": "What are the three dimensions that make up the complete definition of health according to modern health standards?",
+     "a": "The three dimensions are physical, mental, and social well-being. A wrong answer shows confusion with just physical fitness or disease-free status, ignoring the psychological and social aspects of human life.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a person who has no visible disease or physical pain still not considered completely healthy if they suffer from chronic anxiety and isolation?",
+     "a": "Health is defined as complete physical, mental, and social well-being, not merely the absence of disease. Mental and social distress impair overall functioning, meaning disease-free status alone does not equal true health. A wrong answer assumes that feeling no physical pain means a person is fully healthy.",
+     "self_check": true
+    },
+    {
+     "q": "If a student eats a nutritious diet (physical) and feels calm (mental), but constantly fights with classmates and feels alienated at school (social), how does this affect their overall health status?",
+     "a": "Steps: \n1. Identify the dimensions present: Physical and mental well-being are supported.\n2. Identify the missing dimension: Social well-being is compromised due to poor relationships and alienation.\n3. Apply the definition of health: Health requires all three dimensions (physical, mental, and social) to be functioning harmoniously.\n4. Conclude: The student is not fully healthy because social distress undermines complete well-being.\nA wrong answer indicates that physical and mental health operate independently of social interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"Health is an individual matter and has nothing to do with society.\" Why is this statement scientifically incorrect?",
+     "a": "This statement is incorrect because social well-being is a core component of health. Humans live in communities, and factors such as peer support, family environment, community sanitation, and social acceptance directly impact mental stress levels and physical health. A wrong answer shows a narrow view of health restricted strictly to individual biology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a person who exercises daily and eats well, but has no friends and feels constant depression, can be classified as healthy. Justify your reasoning using the WHO definition of health.",
+     "a": "The person cannot be classified as healthy. Although their physical dimension is supported by exercise and diet, their mental dimension (depression) and social dimension (lack of friends) are severely impaired. Complete health requires physical, mental, and social equilibrium simultaneously. A wrong answer prioritizes only the physical body over mental and social aspects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a daily routine for a middle school student that actively supports physical, mental, and social well-being. List one specific activity for each dimension and explain its impact.",
+     "a": "A good answer will include: \n- Physical: 45 minutes of outdoor sports (strengthens muscles and immunity).\n- Mental: 10 minutes of meditation or journaling (reduces stress and builds emotional clarity).\n- Social: Having dinner with family or collaborating on a group project with classmates (builds positive relationships and belonging). \nA poor answer lists only physical activities like running while ignoring mental and social needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

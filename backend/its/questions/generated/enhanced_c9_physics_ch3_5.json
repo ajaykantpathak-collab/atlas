@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_5",
+   "title": "c9_physics_ch3_5",
+   "questions": [
+    {
+     "q": "State Newton's Third Law of Motion. Identify the action and reaction forces when a cricket ball is hit by a bat.",
+     "a": "Newton's Third Law: For every action force, there is an equal and opposite reaction force acting on two different bodies. When a bat hits a ball, the action is the force of the bat on the ball (forward), and the reaction is the force of the ball on the bat (backward). A wrong answer (e.g., saying both forces act on the ball) reveals the student thinks action-reaction pairs act on the same object, confusing them with balanced forces.",
+     "self_check": true
+    },
+    {
+     "q": "A book of mass 0.5 kg rests on a horizontal table. The weight of the book is 4.9 N downwards. The table exerts a normal force of 4.9 N upwards on the book. Are these two forces an action-reaction pair? Explain why or why not.",
+     "a": "No, they are not an action-reaction pair. Both forces (weight and normal force) act on the **same object** (the book). Action-reaction pairs must act on **different** objects. The weight's reaction is the book pulling the Earth upward; the normal force's reaction is the book pushing the table downward. A wrong answer reveals the student conflates \"equal and opposite forces on one object\" (balanced forces, First Law) with \"action-reaction pairs on two objects\" (Third Law).",
+     "self_check": true
+    },
+    {
+     "q": "A 60 kg boy stands on a frictionless trolley of mass 40 kg. The boy jumps off the trolley with a velocity of 2 m/s relative to the ground. Calculate the recoil velocity of the trolley. (Assume no external horizontal forces.)",
+     "a": "**Step 1:** Identify system: boy + trolley. No external horizontal force → momentum conserved (Third Law internal forces).\n**Step 2:** Initial momentum = 0 (both at rest).\n**Step 3:** Final momentum = (mass_boy × v_boy) + (mass_trolley × v_trolley) = 0.\n**Step 4:** (60 kg × 2 m/s) + (40 kg × v_trolley) = 0 → 120 + 40 v_trolley = 0 → v_trolley = -3 m/s.\n**Step 5:** Negative sign means trolley moves opposite to boy. Magnitude 3 m/s is reasonable for a light trolley.\n**Answer:** The trolley recoils at 3 m/s in the opposite direction to the boy's jump.\nA wrong answer (e.g., v_trolley = -2 m/s) reveals the student ignored mass difference, thinking equal forces produce equal velocities (confusing Third Law with Second Law's acceleration dependence on mass).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"When a rocket launches, the exhaust gases push the ground, and the ground pushes the rocket up.\" Identify the error and correct it using Newton's Third Law.",
+     "a": "The error: Rockets work in space where there is no ground. The correct Third Law pair: The rocket exerts a downward force on the exhaust gases (action), and the gases exert an equal upward force on the rocket (reaction). The gases are pushed down, the rocket is pushed up. A wrong answer (agreeing with the statement) reveals the student thinks a reaction force requires a solid external surface, misunderstanding that action-reaction works between any two interacting bodies, including fluids/gases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's explanation: \"A horse pulls a cart. The cart pulls back on the horse with an equal force. Since the forces are equal and opposite, they cancel out, so the horse-cart system cannot accelerate. Therefore, Newton's Third Law means motion is impossible.\" Is the student correct? Justify.",
+     "a": "The student is incorrect. The action-reaction pair (horse on cart, cart on horse) acts on **different** objects, so they never cancel for either object's motion. The horse accelerates because the **ground** pushes the horse forward (reaction to horse pushing ground backward) with a force greater than the cart's backward pull on the horse. The cart accelerates because the horse's pull on it is unopposed horizontally (assuming friction is small). A wrong evaluation reveals the student thinks \"equal and opposite\" always means \"balanced,\" not realizing balanced forces require acting on the **same** body.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using two spring balances, a string, and two students to demonstrate Newton's Third Law. Describe the setup, what each student does, what the spring balances read, and how this proves the law.",
+     "a": "**Setup:** Hook two spring balances together in series. Student A holds one end, Student B holds the other. Both pull horizontally.\n**Action:** Both students pull gently, then harder.\n**Observation:** Both spring balances show **identical readings** at all times (e.g., both read 10 N, then both read 20 N).\n**Proof:** Balance A measures force of Student A on string (action). Balance B measures force of string on Student B (reaction). Identical readings confirm equal magnitude. Opposite directions are evident from the pulls. A poor answer (e.g., using only one balance, or expecting different readings) reveals the student doesn't grasp that the interaction is symmetric and simultaneous.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

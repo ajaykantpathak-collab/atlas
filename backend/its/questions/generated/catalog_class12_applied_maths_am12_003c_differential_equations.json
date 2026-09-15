@@ -1,0 +1,222 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_003c_differential_equations.json",
+ "concepts": [
+  {
+   "id": "am12_003c.1",
+   "title": "Order and Degree of Differential Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (97 - 13) / 7 gives 12",
+     "compute": "x = (97 - 13) / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 7x + 13 = 97.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 14 = -12.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 4 = 4.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 39 = 3.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 2 = 1x + 8.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 4) = 28.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003c.2",
+   "title": "General and Particular Solutions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "First principles: for f(x) = x^2 at x = 3 with h = 0.01, compute the difference quotient (f(x+h) - f(x)) / h (two decimal places).",
+     "a": "6.01",
+     "self_check": false
+    },
+    {
+     "q": "Continuity check: f(x) = x for x < 2 and f(x) = 2x - 2 for x >= 2. Find the gap RHL - LHL at x = 2 (0 means continuous).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Discontinuity size: f(x) = x + 1 for x < 1 and f(x) = 3x for x >= 1. Compute RHL - LHL at x = 1.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "The equation d^2y/dx^2 + 2 dy/dx + y = 0 has highest derivative of order 2. What is its order?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "For (d^3y/dx^3)^4 + y = 0 the power of the highest derivative is its degree. What is the degree?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Verify y = 3x satisfies dy/dx = 3: the derivative equals what constant?",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003c.3",
+   "title": "Forming Differential Equations by Eliminating Constants",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (14 - 12) / 2 gives 1",
+     "compute": "x = (14 - 12) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 12 = 14.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 10 = -4.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x + 2 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 22 = 6.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 8 = 2x + 16.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 1) = 20.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003c.4",
+   "title": "Variable Separable Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 5 gives 17",
+     "compute": "val = 3 * 4 + 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 4.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 3x + 5 when x = 4.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 9x + 3x - 2x and give the coefficient of x.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 5 x (8 + 5) equals 5 x 8 + 5 x 5. Compute it.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 4 x 9 (respect the order of operations).",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (7 + 6) x 7.",
+     "a": "91",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003c.5",
+   "title": "Mathematical Modeling with Differential Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (14 - 2) / 4 gives 3",
+     "compute": "x = (14 - 2) / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 4x + 2 = 14.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 12 = 24.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 23 = 5.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 53 = 3.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 8 = 1x + 16.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 6) = 18.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_001",
+   "title": "c12_hs_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define human development in one sentence. How does it differ from 'growth'? Give one example of growth that is NOT development.",
+     "a": "Correct answer: Human development is the lifelong, multidimensional process of quantitative and qualitative changes across physical, cognitive, and socio-emotional domains from conception to death. Growth refers specifically to quantitative increase in size/mass (e.g., height, weight); development includes qualitative changes (e.g., acquiring language, moral reasoning). Example of growth without development: a tumour increasing in size — it grows quantitatively but does not develop functionally. A wrong answer (e.g., \"growth and development are the same\" or \"development stops at adulthood\") reveals confusion between quantitative and qualitative change, or ignorance of the life-span perspective.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student says: \"My grandfather is 82 and has arthritis, so he is no longer developing — he's just declining.\" Using the life-span perspective, explain why this statement is incomplete. Identify at least two Baltes' principles that contradict it.",
+     "a": "Correct answer: The statement reflects a deficit model, not the life-span perspective. Two contradicting principles: (1) Multidirectionality — development involves both gains and losses at every age; the grandfather may lose joint mobility (loss) but gain emotional regulation, wisdom, or grandparenting skills (gain). (2) Plasticity — capacities can be modified at any age; physiotherapy, assistive devices, or cognitive training can improve function. A wrong answer (e.g., \"old age is only decline\" or citing only physical domain) reveals a unidirectional, childhood-centric view of development and ignorance of plasticity/multidirectionality.",
+     "self_check": true
+    },
+    {
+     "q": "Case: Riya, 16, trains 4 hours daily for national-level badminton. Her coach notices she excels in strategic gameplay (cognitive) and team coordination (socio-emotional) but suffers recurrent knee injuries (physical). Map Riya's development across the three domains. Which domain shows a 'trade-off'? Explain using the concept of multidirectionality.",
+     "a": "Correct mapping: Physical — high fitness but joint vulnerability (gain + loss); Cognitive — advanced tactical thinking, quick decision-making (gain); Socio-emotional — teamwork, pressure management, identity as athlete (gain). Trade-off: Physical domain shows multidirectionality — intense training yields cardiovascular/muscular gains but simultaneously produces overuse injuries (loss). This is not \"failed development\" but coexisting gain/loss. A wrong answer (e.g., \"physical domain is only positive because she's fit\" or \"injuries mean development stopped\") misses the core idea that development is not unilinear improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'traditional view' of development (childhood-focused, unidirectional) with the 'life-span perspective' (Baltes) on three dimensions: (a) age range, (b) direction of change, (c) role of context. Give one Indian policy example that reflects the life-span perspective.",
+     "a": "Correct comparison: (a) Traditional: birth to adolescence; Life-span: conception to death. (b) Traditional: unidirectional improvement; Life-span: multidirectional (gains/losses coexist). (c) Traditional: context as background; Life-span: context (historical, cultural, socioeconomic) shapes development actively. Indian policy example: National Policy for Older Persons (1999) / Maintenance and Welfare of Parents and Senior Citizens Act (2007) — recognises elderly as continuing to develop, needing opportunities for participation, not just care. A wrong answer (e.g., listing only \"old age included\" without multidirectionality/context) shows superficial understanding of the paradigm shift.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since development is lifelong, early childhood interventions are overrated — we can always fix deficits later.\" Use the concepts of critical/sensitive periods, plasticity, and cumulative risk to justify your position.",
+     "a": "Correct critique: The statement misuses plasticity. While plasticity exists lifelong, it is not unlimited. (1) Critical/sensitive periods: Certain domains (e.g., vision, language phonology, attachment) have windows where experience is essential; later remediation is partial or impossible. (2) Cumulative risk: Early deficits cascade — malnutrition at age 2 → stunted brain growth → poor school readiness → low literacy → limited livelihood → intergenerational poverty. Later interventions face compounded barriers. (3) Cost-effectiveness: Early investment yields higher returns (Heckman curve). Policy implication: ICDS targets 0-6 years precisely because plasticity is maximal and cost minimal. A wrong answer (e.g., \"plasticity means we can fix anything anytime\" or \"early childhood is the only thing that matters\") shows either overestimation of plasticity or ignorance of cumulative processes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-question interview protocol to assess whether a 45-year-old adult perceives their own development through a traditional (childhood-only) lens or a life-span lens. For each question, state what response would indicate a life-span perspective.",
+     "a": "Good protocol example:\nQ1: \"How have you changed in the last 5 years — not just physically, but in thinking, relationships, priorities?\" Life-span response: Describes gains (e.g., better emotional regulation, mentoring skills) AND losses (e.g., slower recovery, memory lapses) — shows multidirectionality.\nQ2: \"What experiences shaped who you are today? Can you trace any to childhood? To recent years?\" Life-span response: Identifies both early (family, schooling) AND recent (career shift, caregiving, illness) influences — shows historical context/continuity.\nQ3: \"If you could develop one capacity further at this age, what would it be? Do you think it's possible?\" Life-span response: Names a specific skill (digital literacy, meditation, language) AND expresses belief in change with effort — shows plasticity. A poor protocol asks only about childhood or assumes decline; a poor response shows fatalism (\"too old to change\") or ignores socio-emotional/cognitive domains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

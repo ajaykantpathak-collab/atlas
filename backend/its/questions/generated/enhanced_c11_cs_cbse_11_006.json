@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_006",
+   "title": "c11_cs_cbse_11_006",
+   "questions": [
+    {
+     "q": "Write the binary representation of the IPv4 address 172.16.255.1 and state how many total unique addresses the IPv4 address space can theoretically provide.",
+     "a": "172.16.255.1 = 10101100.00010000.11111111.00000001 (each octet converted to 8-bit binary). Total IPv4 addresses = 2³² = 4,294,967,296. A wrong answer (e.g., writing 172 as 1010110 instead of 10101100, or calculating 2³¹) reveals the student either pads binary octets incorrectly or confuses the exponent with the number of bits.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the IPv6 address 2001:0db8:0000:0000:0000:ff00:0042:8329 can be compressed to 2001:db8:::ff00:42:8329. Is this correct? Explain why or why not using the zero-compression rules.",
+     "a": "No. Correct compression: 2001:db8::ff00:42:8329. Rules: (1) leading zeros in each hextet may be dropped (0db8 → db8, 0042 → 42), (2) the longest single contiguous sequence of all-zero hextets is replaced by :: once only. The student's answer uses three colons (:::) and compresses two separate zero sequences, both violations. This error shows misunderstanding that :: can appear only once and must replace the longest run.",
+     "self_check": true
+    },
+    {
+     "q": "Given the IPv4 address 192.168.10.130 and subnet mask 255.255.255.192, determine the network address, first usable host address, last usable host address, and broadcast address. Show all steps in binary.",
+     "a": "1) IP: 11000000.10101000.00001010.10000010  \n2) Mask: 11111111.11111111.11111111.11000000 (/26)  \n3) Network (AND): 11000000.10101000.00001010.10000000 = 192.168.10.128  \n4) First host: 192.168.10.129  \n5) Last host: 192.168.10.190 (since host bits all 1 except last = broadcast)  \n6) Broadcast: 192.168.10.191  \nA wrong network address (e.g., 192.168.10.0) means the student used a /24 mask instead of /26; wrong broadcast means they forgot to set all host bits to 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IPv4 header (minimum 20 bytes) and the IPv6 fixed base header (40 bytes). Despite being larger, the IPv6 header is processed faster by routers. Analyze the design changes that enable this performance gain.",
+     "a": "IPv6 removes header checksum (relied on L2/L4 checksums), eliminates fragmentation fields (handled only by source), drops options from base header (moved to extension headers), and fixes header length to 40 bytes (no IHL field). Routers no longer recalculate checksum at each hop and parse a fixed-length header, speeding forwarding. A student who only says \"IPv6 header is simpler\" without naming removed fields misses the specific architectural decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"NAT (Network Address Translation) solves the IPv4 address exhaustion problem permanently, so IPv6 deployment is unnecessary.\" Provide two technical arguments against this view.",
+     "a": "The statement is flawed. (1) NAT breaks end-to-end connectivity, complicating peer-to-peer, VoIP, and IPsec applications that require globally unique addresses. (2) NAT introduces statefulness in routers, creating scalability bottlenecks and single points of failure; IPv6 restores stateless forwarding. A student who only cites \"more addresses\" without discussing end-to-end principle or router statefulness shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small office IPv6 addressing plan using the Unique Local Address (ULA) prefix fd00::/8. Allocate /64 subnets for three VLANs (Admin, Lab, Guest) and write the full subnet prefix for each. Explain why a /64 boundary is mandatory for SLAAC.",
+     "a": "ULA prefix: fd00::/8. Choose a random 40-bit Global ID (per RFC 4193), e.g., fd12:3456:789a::/48. Then three /64 subnets:  \nAdmin: fd12:3456:789a:0001::/64  \nLab:   fd12:3456:789a:0002::/64  \nGuest: fd12:3456:789a:0003::/64  \n/64 is mandatory because SLAAC constructs the Interface Identifier from the lower 64 bits (EUI-64 or stable privacy); a different prefix length would break automatic address configuration. A poor answer uses /48 for each VLAN or omits the Global ID randomness, showing ignorance of ULA structure and SLAAC requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

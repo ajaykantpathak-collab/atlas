@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_005",
+   "title": "c11_soc_cbse_07_005",
+   "questions": [
+    {
+     "q": "Define socialisation and social stratification as mechanisms of social order in one sentence each, using the precise sociological terminology from the NCERT text.",
+     "a": "Socialisation is the process of internalising norms and values through which individuals spontaneously consent to social order; social stratification is the institutionalised system of unequal ranking that creates dominant groups with vested interests in stability and subordinate groups with vested interests in change, maintaining order through structured power relations. A wrong answer that defines socialisation as \"learning manners\" or stratification as \"rich vs poor\" reveals confusion between everyday language and sociological concepts — the student misses the *mechanism* aspect (how each produces order) and the structural dimension (internalisation vs institutionalised inequality).",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Socialisation cannot turn people into programmed robots — it cannot produce complete and permanent consent for all norms at all times.\" Explain in your own words why this limitation necessitates the second mechanism (stratification/power) for social order.",
+     "a": "Because socialisation is never total — individuals retain agency, question norms, and change beliefs over time — spontaneous consent is always partial and fragile. Stratification provides the backup: dominant groups control resources and coercive power to enforce compliance when consent fails. A wrong answer that says \"socialisation fails so we need police\" misses the *structural* point — it's not about failure but about the *inherent incompleteness* of internalisation; power isn't a Plan B, it's a permanent co-mechanism built into stratified societies.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the two-mechanism framework to this scenario: In a village, a Dalit family refuses to perform traditional caste-based labour (manual scavenging). The dominant caste panchayat imposes a social boycott (no water, no work, no temple entry). Identify where socialisation operates, where stratification operates, and explain why the boycott is a *stratification* mechanism, not a socialisation one.",
+     "a": "Socialisation operates in the *internalised expectation* that Dalits \"naturally\" do this work — the norm is so deeply learned that violation feels morally wrong to many villagers. Stratification operates in the *boycott*: dominant castes use control over resources (water, employment, temple access) to coerce compliance. The boycott is stratification because it deploys *structural power* (control of material/symbolic resources) against a subordinate group — not moral persuasion. A wrong answer calling the boycott \"social pressure\" confuses informal sanction (which can be socialisation-based) with *institutionalised* resource denial rooted in caste hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how social order is maintained in a traditional joint family versus a modern corporate office. In each, specify: (a) the primary socialisation agency, (b) the stratification basis, (c) whether consent or coercion is more visible, and (d) one limitation of each mechanism in that setting.",
+     "a": "Joint family: (a) Family/elders primary agency; (b) Age/gender/patriarchy basis; (c) Consent more visible (respect for elders internalised); (d) Limitation — younger members may silently resist but lack exit options. Corporate office: (a) Professional training/HR policies; (b) Class/position/merit hierarchy; (c) Coercion more visible (contracts, KPIs, firing); (d) Limitation — employees may \"quiet quit\" (withhold effort) because internalisation of corporate goals is weak. A wrong answer that says \"both use consent\" misses how *formal rationality* in corporations makes coercion structural and visible, while *traditional authority* in families masks coercion as duty.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In modern India, socialisation is becoming weaker as a mechanism of social order, while stratification (caste, class, gender) is becoming stronger.\" Use evidence from the NCERT text on urban/rural differences, MGNREGA, and gated communities to support or refute.",
+     "a": "The claim is partially true but oversimplified. NCERT shows: (1) Rural areas — socialisation remains strong (caste/religion norms internalised), but stratification *also* persists (dominant castes control resources); MGNREGA *weakens* stratification by giving labourers alternative employment. (2) Urban areas — anonymity weakens traditional socialisation, but *new* socialisation emerges (professional norms, consumer culture); gated communities *intensify* class stratification spatially. So both mechanisms are *transforming*, not simply weakening/strengthening. A wrong answer that agrees wholly misses the dialectic: weakening *traditional* socialisation ≠ weakening socialisation per se; new forms (corporate culture, digital norms) replace old.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original 3-panel comic strip concept (describe each panel in 2-3 sentences) that illustrates the *interdependence* of socialisation and stratification in maintaining social order in an Indian school setting. Panel 1: socialisation moment. Panel 2: stratification moment. Panel 3: their interaction.",
+     "a": "Panel 1: Students stand for morning assembly, sing national anthem without being told — internalised patriotism (socialisation). Panel 2: A student refuses; principal invokes school rules, threatens suspension — hierarchical authority backed by institutional power (stratification). Panel 3: The student complies *but* later questions the anthem's meaning in student council — showing socialisation was incomplete, stratification enforced compliance, yet the *same* school structure (council) legitimises dissent. Good answer shows the *cycle*: socialisation → gap → stratification → contested space → possible re-socialisation. Poor answer treats them as separate events, not a dynamic loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

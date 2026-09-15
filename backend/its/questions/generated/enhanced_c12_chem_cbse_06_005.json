@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_005",
+   "title": "c12_chem_cbse_06_005",
+   "questions": [
+    {
+     "q": "Write the reagents and conditions for the electrophilic chlorination of benzene. What is the role of the Lewis acid catalyst?",
+     "a": "Reagents: Benzene + Cl₂ with anhydrous FeCl₃ (or AlCl₃) in dark/room temperature. Role: FeCl₃ polarises Cl₂ to generate the electrophile Cl⁺ (via [FeCl₄]⁻ Cl⁺). A wrong answer like \"FeCl₃ acts as a base\" or \"no catalyst needed\" reveals confusion between electrophilic aromatic substitution and free radical halogenation of alkanes (node c12_chem_cbse_06_004).",
+     "self_check": true
+    },
+    {
+     "q": "Chlorine is electron-withdrawing by inductive effect, yet it is ortho/para-directing in electrophilic substitution. Explain this apparent contradiction using resonance structures.",
+     "a": "Halogen has lone pairs that donate electron density into the ring via resonance (+R), placing negative charge at ortho/para positions. This resonance donation outweighs inductive withdrawal for orientation, making ortho/para positions more electron-rich for electrophilic attack. However, net inductive withdrawal deactivates the ring overall. A student who says \"Cl is meta-directing because it withdraws electrons\" has ignored resonance donation and misapplied the directing effect rule for deactivating groups (which are usually meta-directing except halogens).",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major product(s) when (a) toluene undergoes bromination with Br₂/FeBr₃, (b) nitrobenzene undergoes chlorination with Cl₂/FeCl₃. Draw structures and name them.",
+     "a": "(a) Toluene has -CH₃ (activating, ortho/para-directing). Major: o-bromotoluene + p-bromotoluene (para often predominates due to sterics). (b) Nitrobenzene has -NO₂ (strongly deactivating, meta-directing). Major: m-chloronitrobenzene. A wrong answer giving ortho/para for nitrobenzene or meta for toluene shows failure to apply activating/deactivating group directing effects from Class 11 hydrocarbons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the relative rates of electrophilic bromination for benzene, chlorobenzene, and phenol. Rank them fastest to slowest and justify using substituent effects.",
+     "a": "Phenol > Benzene > Chlorobenzene. Phenol has -OH (strongly activating, +R >> -I), benzene has no substituent, chlorobenzene has -Cl (deactivating, -I > +R). A student ranking chlorobenzene > benzene has missed that halogen's net effect is deactivating despite ortho/para direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prepare iodobenzene by heating benzene with I₂ and FeCl₃. The reaction fails. Explain why and write the correct reagent combination for iodination.",
+     "a": "Iodination is reversible: C₆H₆ + I₂ ⇌ C₆H₅I + HI. HI reduces I₂ to I⁻, shifting equilibrium left. An oxidising agent (HNO₃, HIO₄) is needed to remove HI as I₂ + H₂O. Correct: Benzene + I₂ + conc. HNO₃ (or HIO₄) at 373 K. A student who says \"use FeCl₃ like chlorination\" doesn't understand the thermodynamic limitation unique to iodine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of p-bromonitrobenzene starting from benzene. Write reagents for each step and explain the order.",
+     "a": "Step 1: Benzene + Br₂/FeBr₃ → bromobenzene (ortho/para mixture, separable). Step 2: Bromobenzene + conc. HNO₃/conc. H₂SO₄ → p-bromonitrobenzene (major) + o-bromonitrobenzene. Order matters: bromination first because -Br is ortho/para-directing; nitration first would give m-nitrobromobenzene (wrong isomer). A poor answer reversing the order or using Sandmeyer for bromination shows lack of synthetic planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

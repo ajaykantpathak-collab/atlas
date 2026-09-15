@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_010",
+   "title": "c12_acc_cbse_06_010",
+   "questions": [
+    {
+     "q": "State the journal entry for issuing 5,000, 9% debentures of ₹100 each at a premium of 10%, redeemable at par. (Assume full amount received on application.)",
+     "a": "**Correct Entry:**  \nBank A/c Dr. 5,50,000  \n To 9% Debenture Application & Allotment A/c 5,50,000  \n9% Debenture Application & Allotment A/c Dr. 5,50,000  \n To 9% Debentures A/c 5,00,000  \n To Securities Premium A/c 50,000  \n\n**Why wrong answers reveal misunderstanding:**  \nIf a student credits \"Premium on Redemption of Debentures\" instead of \"Securities Premium\", they confuse issue premium (capital profit) with redemption premium (capital loss). If they debit \"Loss on Issue of Debentures\", they misapply discount treatment. This shows inability to distinguish between *issue* premium (credit) and *redemption* premium (debit).",
+     "self_check": true
+    },
+    {
+     "q": "A company issues ₹10,00,000, 8% debentures at a discount of 5%, redeemable at a premium of 10%. Explain why \"Loss on Issue of Debentures\" is debited at the time of issue, and calculate its amount.",
+     "a": "**Explanation:** At issue, the company records the *total* loss it will bear over the debenture's life: the discount allowed now (₹50,000) plus the premium payable on redemption later (₹1,00,000). Total Loss on Issue = ₹1,50,000. This follows the prudence convention — recognise the full expected loss immediately.  \n**Entry at Issue:**  \nBank A/c Dr. 9,50,000  \nLoss on Issue of Debentures A/c Dr. 1,50,000  \n To 8% Debentures A/c 10,00,000  \n To Premium on Redemption of Debentures A/c 1,00,000  \n\n**Why wrong answers reveal misunderstanding:**  \nStudents often debit only the discount (₹50,000) to \"Discount on Issue of Debentures\" and ignore the redemption premium, or they debit \"Premium on Redemption\" at redemption time only. This violates the matching principle and Schedule III disclosure (Premium on Redemption is a non-current liability; Loss on Issue is written off over time).",
+     "self_check": true
+    },
+    {
+     "q": "Pass journal entries for the following:  \n(i) X Ltd. issued 2,000, 12% debentures of ₹100 each at par, redeemable at 5% premium after 5 years.  \n(ii) The company purchased 500 debentures from open market at ₹98 (ex-interest) for immediate cancellation. Face value ₹100.  \n(iii) Transfer of DRR to General Reserve after full redemption.",
+     "a": "**Step-by-step Solution:**  \n\n**(i) Issue:**  \nBank A/c Dr. 2,00,000  \n To 12% Debenture Application A/c 2,00,000  \n12% Debenture Application A/c Dr. 2,00,000  \nLoss on Issue of Debentures A/c Dr. 10,000  \n To 12% Debentures A/c 2,00,000  \n To Premium on Redemption of Debentures A/c 10,000  \n\n**(ii) Open Market Purchase & Cancellation:**  \n12% Debentures A/c Dr. 50,000  \nPremium on Redemption A/c Dr. 2,500  \n To Bank A/c 49,000  \n To Gain on Cancellation of Debentures A/c 3,500  \n*Gain = (50,000 + 2,500) - 49,000 = 3,500*  \n\n**(iii) DRR Transfer (after all debentures redeemed):**  \nDebenture Redemption Reserve A/c Dr. [Full DRR balance]  \n To General Reserve A/c [Same amount]  \n\n**Why wrong answers reveal misunderstanding:**  \nCommon errors: (a) Forgetting to debit \"Premium on Redemption\" at purchase (it was created at issue). (b) Crediting \"Profit on Redemption\" instead of \"Gain on Cancellation\". (c) Transferring DRR to General Reserve *before* full redemption. This shows poor grasp of the liability lifecycle and DRR rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries for \"Issue of Debentures as Collateral Security\" under the **First Method** (no entry, only note) vs. **Second Method** (entry passed). When is the Second Method entry reversed? Analyse the impact on the Balance Sheet in both methods.",
+     "a": "**Analysis:**  \n\n| Aspect | First Method (Note Only) | Second Method (Entry Passed) |\n|--------|--------------------------|------------------------------|\n| **Journal Entry** | No entry. Only disclosed in Notes to Accounts. | Debenture Suspense A/c Dr. → To Debentures A/c (issued as collateral) |\n| **Balance Sheet** | Shown as a footnote under \"Long-term Borrowings\". | \"Debentures (issued as collateral)\" shown as liability; \"Debenture Suspense\" shown as deduction from it. Net effect = zero. |\n| **Reversal** | Not applicable. | When loan is repaid: Debentures A/c Dr. → To Debenture Suspense A/c. |\n\n**Key Insight:** Both methods yield identical net Balance Sheet presentation. The Second Method provides an audit trail inside the ledger. Reversal occurs **only when the secured loan is fully repaid**, not when debentures are redeemed (they are not \"issued\" for cash).  \n\n**Why wrong answers reveal misunderstanding:**  \nStudents often reverse the entry when the *debentures* are redeemed, or they show \"Debenture Suspense\" as an asset. This confuses collateral security (a contingent liability) with actual issue.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: *\"Creating Debenture Redemption Reserve (DRR) is optional for all companies. If created, it must be invested in specified securities by 30th April of the next financial year.\"* Defend your evaluation with reference to the Companies Act, 2013 and relevant Rules.",
+     "a": "**Evaluation: The statement is FALSE on both counts.**  \n\n1. **DRR is NOT optional for all companies.**  \n   - **Mandatory** for: All listed companies, unlisted public companies, and private companies with net worth ≥ ₹500 crore or turnover ≥ ₹1,000 crore (Rule 18(7) of Companies (Share Capital & Debentures) Rules, 2014).  \n   - **Exempted**: Private companies below the threshold, NBFCs, HFCs, and All India Financial Institutions.  \n\n2. **Investment deadline is 30th April of the *same* financial year** (not next). Rule 18(7)(c) requires investment/deposit of ≥15% of debentures maturing in the *next* financial year (i.e., maturing between 1st April and 31st March of next year) by 30th April of the *current* year.  \n\n**Why wrong answers reveal misunderstanding:**  \nStudents often memorise \"30th April\" without linking it to *which* year's maturities it covers. They also assume DRR applies universally, ignoring the exemption for small private companies. This leads to incorrect DRR creation/transfer entries in exam problems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comprehensive journal entry problem covering: Issue of 1,000, 10% debentures of ₹100 at 10% premium, redeemable at 5% premium after 4 years; creation of DRR @ 25% of face value; investment of 15% of maturing amount; and redemption by conversion into equity shares of ₹10 each at ₹12 per share. Provide the full solution with narrations.",
+     "a": "**Expected Answer Criteria:**  \nA good problem-solution must include:  \n1. **Issue Entries** (with Securities Premium & Premium on Redemption).  \n2. **DRR Creation** (25% of ₹1,00,000 = ₹25,000 from Surplus).  \n3. **DRR Investment** (15% of ₹1,05,000 = ₹15,750 in specified securities by 30th April).  \n4. **Redemption by Conversion**:  \n   - Debentureholders get equity shares worth ₹1,05,000 (face + premium) at issue price ₹12 → 8,750 shares.  \n   - Entry: 10% Debentures A/c Dr. 1,00,000; Premium on Redemption A/c Dr. 5,000 → To Equity Share Capital A/c 87,500; To Securities Premium A/c 22,500.  \n5. **DRR Transfer to General Reserve** after full redemption.  \n\n**Why poor answers reveal misunderstanding:**  \nMissing the conversion ratio calculation (₹1,05,000 / ₹12), forgetting to debit Premium on Redemption at conversion, or investing 15% of face value instead of redemption value. Shows inability to integrate multiple concepts (issue, DRR, investment, conversion) into one coherent transaction flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

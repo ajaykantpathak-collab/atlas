@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_10",
+   "title": "c9_bio_ch3_10",
+   "questions": [
+    {
+     "q": "Define the term \"blastocyst\" and state its significance in human pregnancy.",
+     "a": "A blastocyst is a hollow ball of cells formed around day 5-6 after fertilization, consisting of an outer trophoblast layer and an inner cell mass; it is the stage that implants into the uterine endometrium. A wrong answer (e.g., calling it a \"fertilized egg\" or \"morula\") reveals the student cannot distinguish pre-implantation stages or understand that implantation requires a specific structural stage with trophoblast cells capable of invading the endometrium.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the corpus luteum degenerate if pregnancy does not occur, but persist and enlarge if implantation succeeds?",
+     "a": "Without pregnancy, the corpus luteum degenerates due to falling LH levels, causing progesterone drop and menstruation; with successful implantation, the trophoblast secretes hCG (human chorionic gonadotropin) which mimics LH, rescuing the corpus luteum to maintain progesterone secretion until the placenta takes over. A wrong answer (e.g., \"progesterone maintains itself\") reveals the student misses the critical embryonic signal (hCG) that establishes maternal-fetal endocrine communication.",
+     "self_check": true
+    },
+    {
+     "q": "A woman misses her period and tests positive on a home pregnancy test. What hormone does the test detect, and from which structure is it secreted at this early stage?",
+     "a": "The test detects hCG in urine, secreted by the trophoblast cells of the implanting blastocyst (later by the placenta). Step 1: Missed period suggests possible pregnancy. Step 2: Home tests use antibodies against hCG. Step 3: hCG appears in maternal blood/urine only after implantation begins (~day 7-10 post-fertilization). Step 4: At this stage, the trophoblast — not the fully formed placenta — is the source. A wrong answer (e.g., \"ovary\" or \"pituitary\") reveals confusion between maternal and embryonic hormone sources.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of the amniotic fluid and the placenta during pregnancy. How are their roles distinct yet complementary?",
+     "a": "Amniotic fluid provides mechanical protection (cushioning), temperature stability, allows fetal movement for musculoskeletal development, and prevents adhesion; the placenta mediates nutritive, respiratory, excretory, and endocrine exchange between maternal and fetal blood without direct mixing. A wrong answer that conflates them (e.g., \"both provide nutrition\") reveals the student cannot separate physical protection from physiological exchange — a key board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The embryo receives oxygen and nutrients directly from the mother's blood because their blood mixes in the placenta.\" Evaluate this statement and correct the error.",
+     "a": "The statement is false. Maternal and fetal blood do NOT mix; they are separated by the placental barrier (syncytiotrophoblast, basal lamina, fetal capillary endothelium). Exchange occurs via diffusion, active transport, and pinocytosis across this barrier. Mixing would trigger immune rejection and blood group incompatibility. A wrong evaluation reveals the student holds the common misconception of direct blood connection, missing the critical concept of a selective barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple timeline infographic for a Class 9 biology exhibition showing the major milestones of human embryonic development from fertilization to birth, with one key event per week for the first 8 weeks and one per month thereafter.",
+     "a": "A good answer includes: Week 1: fertilization → zygote → cleavage → morula → blastocyst; Week 2: implantation begins; Week 3: gastrulation, neural plate forms; Week 4: heart tube beats, limb buds appear; Week 5: brain vesicles, eye spots; Week 6: limb digits, liver produces blood cells; Week 7: all major organs present, embryo → fetus transition; Week 8: ossification begins; then monthly: Month 3: sex distinguishable; Month 4: quickening; Month 5: vernix, lanugo; Month 6: surfactant production; Month 7: eyes open; Month 8: fat deposition; Month 9: birth readiness. A poor answer (random events, wrong sequence) reveals inability to organize developmental chronology — a skill tested in board diagram-labeling questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

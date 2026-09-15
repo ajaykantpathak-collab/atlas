@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_006",
+   "title": "c11_eco_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define deindustrialisation in the context of colonial India and state the two-fold motive of the British government behind it.",
+     "a": "Deindustrialisation is the systematic decline of indigenous handicraft industries without replacement by a modern industrial base. The two-fold British motive: (1) reduce India to a raw material supplier for British industries, and (2) turn India into a captive market for British manufactured goods. A wrong answer that only mentions \"decline of handicrafts\" without the two-fold motive reveals the student misses the intentional policy design — they see outcome but not colonial agency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the famous Daccai muslin industry collapsed even though its products were globally renowned for quality, using the concepts of discriminatory tariffs and railway integration.",
+     "a": "Daccai muslin collapsed because British machine-made cloth entered India duty-free (or at nominal tariffs) while Indian textiles faced 70-80% duties in Britain. Railways accelerated this by cheaply transporting British cloth to interior villages and raw cotton to ports, undercutting local weavers' cost structure. A wrong answer blaming \"lack of demand\" or \"inferior quality\" reveals the student ignores the asymmetric trade policy — they apply free-market logic to a rigged colonial market.",
+     "self_check": true
+    },
+    {
+     "q": "In 1850, India exported £3 million worth of raw cotton to Britain and imported £8 million worth of British cotton textiles. By 1900, raw cotton exports rose to £25 million but textile imports surged to £40 million. Calculate the change in India's textile trade balance and explain what this reveals about the nature of deindustrialisation.",
+     "a": "1850 trade balance: -£5 million (imports > exports). 1900 trade balance: -£15 million. The deficit tripled despite raw cotton exports growing 8-fold. This reveals deindustrialisation was not merely decline — it was active replacement: India became a raw material appendage while its domestic market was captured by British manufactures. A student calculating only percentage changes without interpreting the structural shift misses the core economic transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional concentration of cotton textile mills (Maharashtra/Gujarat) and jute mills (Bengal) at independence. Analyse how this lopsided pattern reflected colonial economic interests rather than India's resource endowments.",
+     "a": "Cotton mills clustered in western India (Indian capital, near cotton-growing tracts and Bombay port for export). Jute mills concentrated in Bengal (British capital, near jute-growing areas and Calcutta port for export to global markets). Both served export-oriented colonial needs — not domestic industrial diversification. A wrong answer citing \"natural resource availability\" alone ignores that capital ownership, port access, and export orientation drove location — not balanced regional development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The establishment of Tata Iron and Steel Company (1907) and a few cotton/jute mills proves British rule laid the foundations of modern Indian industry.\"",
+     "a": "The statement is misleading. TISCO and textile mills were isolated enclaves — less than 2% of GDP, no capital goods industry (machine tools), no backward/forward linkages, and public sector confined to railways/ports serving colonial extraction. True industrialisation requires a self-sustaining ecosystem of capital goods, which was deliberately prevented. A student agreeing with the statement confuses \"presence of factories\" with \"industrialisation\" — they miss the structural incompleteness.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a causal chain diagram (minimum 6 links) showing how British land revenue policy → commercialisation of agriculture → decline of handicrafts → rural unemployment → increased pressure on land → stagnant agricultural wages. Use specific policy instruments (zamindari, railways, tariffs) at each step.",
+     "a": "Zamindari system (fixed revenue dates) → forced cash-crop cultivation (indigo, cotton) → raw cotton exported via railways → British machine-cloth imported duty-free → village weavers lose livelihood → displaced artisans become landless labourers → labour supply surges → agricultural wages stagnate. A poor answer lists factors without causal arrows — they treat events as parallel rather than sequential, missing the cumulative causation central to colonial political economy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

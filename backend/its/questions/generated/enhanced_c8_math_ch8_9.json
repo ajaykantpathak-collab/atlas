@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_9",
+   "title": "c8_math_ch8_9",
+   "questions": [
+    {
+     "q": "Write the formula for Simple Interest and state what each letter represents.",
+     "a": "SI = (P × R × T) / 100, where P = Principal (original amount), R = Rate of interest per annum (in %), T = Time (in years), SI = Simple Interest. A wrong answer like SI = P × R × T (missing division by 100) reveals the student treats the percentage rate as a decimal without conversion. Writing R as a decimal (e.g., 0.06) but still dividing by 100 shows confusion between percentage and decimal forms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the simple interest earned in the 1st year and the 5th year on the same principal at the same rate is exactly the same.",
+     "a": "Simple interest is calculated only on the original principal every year. The interest earned in previous years is not added to the principal for calculating next year's interest. Therefore, each year's interest = (P × R) / 100, which is constant. A wrong answer suggesting interest increases because \"money grows\" reveals confusion with compound interest where interest is added to principal.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the simple interest on ₹12,000 at 7.5% per annum for 2 years and 6 months.",
+     "a": "Given: P = ₹12,000, R = 7.5% = 15/2%, T = 2 years 6 months = 2.5 years = 5/2 years.\nStep 1: SI = (P × R × T) / 100\nStep 2: SI = (12000 × 15/2 × 5/2) / 100\nStep 3: SI = (12000 × 15 × 5) / (2 × 2 × 100) = (12000 × 75) / 400\nStep 4: SI = 900000 / 400 = ₹2,250.\nA wrong answer of ₹22,500 (forgetting /100) or ₹1,800 (using T=2 instead of 2.5) reveals either percentage conversion error or time unit conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "A sum of money amounts to ₹15,600 in 3 years and ₹16,800 in 5 years at simple interest. Find the principal and the rate of interest.",
+     "a": "Interest for 2 years (year 3 to year 5) = ₹16,800 - ₹15,600 = ₹1,200.\nYearly interest = ₹1,200 / 2 = ₹600.\nInterest for 3 years = ₹600 × 3 = ₹1,800.\nPrincipal = Amount after 3 years - Interest for 3 years = ₹15,600 - ₹1,800 = ₹13,800.\nRate = (SI × 100) / (P × T) = (1800 × 100) / (13800 × 3) = 180000 / 41400 = 4.35% (approx).\nA wrong answer assuming principal is ₹15,600 reveals the student doesn't understand that amount includes accumulated interest. Using the 5-year amount directly without finding yearly interest shows inability to work backwards from amounts.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find SI on ₹8,000 at 12% p.a. for 9 months.\" Their working: SI = (8000 × 12 × 9) / 100 = ₹8,640. Identify the error and give the correct answer.",
+     "a": "Error: Time used as 9 instead of 9/12 = 0.75 years. The formula requires time in years.\nCorrect: T = 9/12 = 3/4 year.\nSI = (8000 × 12 × 3/4) / 100 = (8000 × 12 × 3) / (4 × 100) = (8000 × 36) / 400 = 288000 / 400 = ₹720.\nA student who doesn't catch this error doesn't understand that rate is \"per annum\" so time must be in years. They may also miss that 9 months = 3/4 year, revealing weak fraction/decimal conversion skills.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where a person needs to find the time required for their investment to earn a specific interest amount. Include all necessary data and solve it.",
+     "a": "Example: \"Ravi invests ₹20,000 at 8% p.a. simple interest. He wants to earn ₹4,800 as interest to buy a laptop. How many years must he wait?\"\nSolution: T = (SI × 100) / (P × R) = (4800 × 100) / (20000 × 8) = 480000 / 160000 = 3 years.\nA poor problem would have inconsistent data (e.g., interest > principal for short time at low rate) or missing variables. Inability to create a solvable problem reveals the student doesn't understand the relationship between variables or the rearrangement of the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

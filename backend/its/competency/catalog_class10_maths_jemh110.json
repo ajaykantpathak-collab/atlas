@@ -1,0 +1,139 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 10,
+ "chapter_title": "Circles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.110.10.1",
+   "title": "Tangents to a Circle",
+   "section": "10.2",
+   "definition": "A tangent to a circle is a line that meets the circle at exactly one point, the point of contact; from an external point exactly two tangents can be drawn, while a point on the circle gives one and a point inside gives none.",
+   "formula": "-",
+   "key_idea": "Touch, not cut: a tangent meets the circle once, and external points own two of them.",
+   "textbook_ref": "jemh110.txt sections 10.1-10.2 (introduction, tangent to a circle)",
+   "question_patterns": [
+    "define a tangent to a circle - how is it different from a secant",
+    "how many tangents can be drawn from a point inside the circle",
+    "how many tangents can be drawn from an external point",
+    "what is the point of contact of a tangent",
+    "draw tangents to the circle from the given external point",
+    "classify the given line positions as secant, tangent or non-intersecting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the meeting points",
+     "explain": "Count where the line meets the circle - one point means tangent."},
+    {"step": 2, "action": "locate the point",
+     "explain": "Outside gives two tangents, on the circle one, inside none."},
+    {"step": 3, "action": "name the contact point",
+     "explain": "The single common point is the point of contact."}
+   ]
+  },
+  {
+   "id": "jemh.110.10.2",
+   "title": "Tangent Perpendicular to Radius",
+   "section": "10.2",
+   "definition": "The tangent at any point of a circle is perpendicular to the radius through the point of contact - the theorem that anchors every tangent computation and construction.",
+   "formula": "-",
+   "key_idea": "Touch point rule: radius meets tangent at right angles.",
+   "textbook_ref": "jemh110.txt theorem on tangent and radius",
+   "question_patterns": [
+    "prove that the tangent at any point of a circle is perpendicular to the radius",
+    "the radius is given - draw the tangent at the point and justify",
+    "why must the shortest distance from the centre be along the radius",
+    "find the angle between the tangent and the radius at the point of contact",
+    "apply the perpendicularity theorem to the given figure",
+    "state the theorem about tangent and radius with a diagram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "join centre to contact point",
+     "explain": "Draw the radius through the point of contact."},
+    {"step": 2, "action": "compare with other lines",
+     "explain": "Any other line through the point must cut the circle twice."},
+    {"step": 3, "action": "conclude perpendicularity",
+     "explain": "Only the perpendicular line touches once - it is the tangent."}
+   ]
+  },
+  {
+   "id": "jemh.110.10.3",
+   "title": "Length of a Tangent from an External Point",
+   "section": "10.2",
+   "definition": "The two tangents drawn from an external point to a circle have equal lengths; with centre O, external point P and contact point T, the right triangle OPT gives the tangent length as the square root of (d squared minus r squared), where d is OP.",
+   "formula": "tangent = sqrt(d * d - r * r)",
+   "key_idea": "Two equal tangents from one point; the right triangle OPT computes their length.",
+   "textbook_ref": "jemh110.txt theorem on lengths of tangents and its applications",
+   "question_patterns": [
+    "prove that the lengths of tangents from an external point are equal",
+    "find the length of the tangent from a point at the given distance from the centre",
+    "the tangents from P touch the circle at Q and R - prove PQ = PR",
+    "find the radius when the tangent length and distance are given",
+    "use the right triangle formed by centre, external point and contact point",
+    "solve the given tangent quadrilateral problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "Distance squared minus radius squared gives tangent squared.",
+     "compute": "t_sq = d * d - r * r"},
+    {"step": 2, "action": "take the square root",
+     "explain": "The root is the tangent length.",
+     "compute": "tangent = sqrt(t_sq)"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh110.txt tangent length example",
+   "concept": "jemh.110.10.3",
+   "question_type": "compute",
+   "question_pattern": "From a point {d} cm from the centre of a circle of radius {r} cm, find the length of the tangent.",
+   "extracted_variables": {
+    "d": "distance of the external point from the centre in cm",
+    "r": "radius of the circle in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "d squared minus r squared gives tangent squared.",
+     "compute": "t_sq = d * d - r * r"},
+    {"step": 2, "action": "take the square root",
+     "explain": "The root is the tangent length.",
+     "compute": "tangent = sqrt(t_sq)"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh110.txt tangent length practice",
+   "concept": "jemh.110.10.3",
+   "question_type": "compute",
+   "question_pattern": "A circle has radius {r} cm and an external point lies {d} cm from the centre. How long is each tangent from the point?",
+   "extracted_variables": {
+    "d": "distance from centre in cm",
+    "r": "radius in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "Form the difference of squares.",
+     "compute": "t_sq = d * d - r * r"},
+    {"step": 2, "action": "take the square root",
+     "explain": "Both tangents have this length.",
+     "compute": "tangent = sqrt(t_sq)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "jemh110.txt EXERCISE 10.1-10.2",
+   "questions": [
+     "How many tangents can a circle have from the given point positions?",
+     "Prove that the tangents drawn from an external point are equal in length.",
+     "Two concentric circles problem - find the chord of the larger circle touching the smaller."
+   ]
+  }
+ ]
+}

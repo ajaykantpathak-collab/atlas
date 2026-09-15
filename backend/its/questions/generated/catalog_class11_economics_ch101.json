@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class11_economics_ch101",
+ "concepts": [
+  {
+   "id": "keec.1.2.1",
+   "title": "Low Level of Economic Development and National Income Estimation",
+   "questions": [
+    {
+     "q": "Using the method 'Low Level of Economic Development and National Income Estimation', work with: aggregate_real_output_growth = 15, population_growth = 15. Carry the chain through step by step and give the final value of per_capita_growth.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Low Level of Economic Development and National Income Estimation' and work with: aggregate_real_output_growth = 15, population_growth = 15. Carry the chain through step by step and give the final value of per_capita_growth.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Low Level of Economic Development and National Income Estimation' refers to.",
+     "a": "The condition of economic backwardness during British rule characterised by less than two percent annual growth in real output and roughly half a percent annual increase in per capita income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Low Level of Economic Development and National Income Estimation'.",
+     "a": "Colonial policies subordinated India's economic growth to serve British industrial requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Low Level of Economic Development and National Income Estimation', in plain ASCII form.",
+     "a": "per_capita_growth = aggregate_real_output_growth - population_growth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.3.1",
+   "title": "Agricultural Stagnation and Land Settlement Systems",
+   "questions": [
+    {
+     "q": "Using the method 'Agricultural Stagnation and Land Settlement Systems', work with: total_crop_output = 24, total_cultivated_area = 1200. Carry the chain through step by step and give the final value of agricultural_productivity.",
+     "a": "0.02 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Agricultural Stagnation and Land Settlement Systems' and work with: total_crop_output = 60, total_cultivated_area = 500. Carry the chain through step by step and give the final value of agricultural_productivity.",
+     "a": "0.12 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Agricultural Stagnation and Land Settlement Systems' refers to.",
+     "a": "The protracted lack of productivity gains in farming caused by exploitative land revenue arrangements such as the Zamindari system, inadequate irrigation, and forced commercialisation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agricultural Stagnation and Land Settlement Systems'.",
+     "a": "Feudal revenue settlements and neglect of agricultural investments caused severe agrarian distress despite high labour dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Agricultural Stagnation and Land Settlement Systems', in plain ASCII form.",
+     "a": "agricultural_productivity = total_crop_output / total_cultivated_area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.4.1",
+   "title": "De-industrialisation and Decline of Handicrafts",
+   "questions": [
+    {
+     "q": "Using the method 'De-industrialisation and Decline of Handicrafts', work with: modern_industry_growth = 10, traditional_crafts_displacement = 100. Carry the chain through step by step and give the final value of net_industrial_impact.",
+     "a": "-90 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'De-industrialisation and Decline of Handicrafts' and work with: modern_industry_growth = 12, traditional_crafts_displacement = 15. Carry the chain through step by step and give the final value of net_industrial_impact.",
+     "a": "-3 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'De-industrialisation and Decline of Handicrafts' refers to.",
+     "a": "The systematic dismantling of India's traditional artisan and handicraft manufacturing without establishing an equivalent modern industrial substitute.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'De-industrialisation and Decline of Handicrafts'.",
+     "a": "The two-fold colonial motive reduced India to a supplier of raw materials and an importer of British finished consumer goods.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'De-industrialisation and Decline of Handicrafts', in plain ASCII form.",
+     "a": "net_industrial_impact = modern_industry_growth - traditional_crafts_displacement",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.4.2",
+   "title": "Lopsided Modern Industrial Growth and Capital Goods Deficiency",
+   "questions": [
+    {
+     "q": "Using the method 'Lopsided Modern Industrial Growth and Capital Goods Deficiency', work with: capital_goods_output = 500, total_manufacturing_output = 30. Carry the chain through step by step and give the final value of capital_goods_share.",
+     "a": "16.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lopsided Modern Industrial Growth and Capital Goods Deficiency' and work with: capital_goods_output = 2500, total_manufacturing_output = 25. Carry the chain through step by step and give the final value of capital_goods_share.",
+     "a": "100 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lopsided Modern Industrial Growth and Capital Goods Deficiency' refers to.",
+     "a": "The limited and unbalanced emergence of modern manufacturing, characterised by the absence of heavy machine-producing industries and a confined public sector footprint.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lopsided Modern Industrial Growth and Capital Goods Deficiency'.",
+     "a": "Modern industrial progress remained slow, confined mostly to cotton, jute, and rudimentary iron and steel with negligible capital goods production.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lopsided Modern Industrial Growth and Capital Goods Deficiency', in plain ASCII form.",
+     "a": "capital_goods_share = capital_goods_output / total_manufacturing_output",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.5.1",
+   "title": "Colonial Foreign Trade Structure and Direction",
+   "questions": [
+    {
+     "q": "Using the method 'Colonial Foreign Trade Structure and Direction', work with: value_of_exports = 80000, value_of_imports = 20000. Carry the chain through step by step and give the final value of trade_balance.",
+     "a": "60000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Colonial Foreign Trade Structure and Direction' and work with: value_of_exports = 8000, value_of_imports = 5000. Carry the chain through step by step and give the final value of trade_balance.",
+     "a": "3000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Colonial Foreign Trade Structure and Direction' refers to.",
+     "a": "The trade regime whereby India served as a net exporter of primary agricultural raw materials and a net importer of British finished manufactured goods under monopolistic colonial control.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonial Foreign Trade Structure and Direction'.",
+     "a": "Discriminatory trade and tariff policies coupled with the opening of the Suez Canal consolidated British monopoly over Indian trade.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colonial Foreign Trade Structure and Direction', in plain ASCII form.",
+     "a": "trade_balance = value_of_exports - value_of_imports",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.5.2",
+   "title": "Export Surplus and the Drain of Wealth",
+   "questions": [
+    {
+     "q": "Using the method 'Export Surplus and the Drain of Wealth', work with: domestic_capital_inflow = 2500, export_surplus = 18. Carry the chain through step by step and give the final value of drain_of_wealth.",
+     "a": "-2482 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Export Surplus and the Drain of Wealth' and work with: domestic_capital_inflow = 20000, export_surplus = 120. Carry the chain through step by step and give the final value of drain_of_wealth.",
+     "a": "-19880 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Export Surplus and the Drain of Wealth' refers to.",
+     "a": "The systematic unrequited outflow of India's economic surplus to Britain without generating any equivalent domestic inflow of precious metals or capital assets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Export Surplus and the Drain of Wealth'.",
+     "a": "Export surpluses were diverted to settle administrative costs, finance colonial wars, and pay for invisible services rather than benefiting the domestic economy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Export Surplus and the Drain of Wealth', in plain ASCII form.",
+     "a": "drain_of_wealth = export_surplus - domestic_capital_inflow",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.6.1",
+   "title": "Demographic Profile and the Demographic Transition of 1921",
+   "questions": [
+    {
+     "q": "Using the method 'Demographic Profile and the Demographic Transition of 1921', work with: infant_deaths = 5, live_births = 200. Carry the chain through step by step and give the final value of infant_mortality_rate.",
+     "a": "25 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Demographic Profile and the Demographic Transition of 1921' and work with: infant_deaths = 75, live_births = 240. Carry the chain through step by step and give the final value of infant_mortality_rate.",
+     "a": "312.5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demographic Profile and the Demographic Transition of 1921' refers to.",
+     "a": "The demographic status of colonial India marked by high birth and death rates, high infant mortality, low life expectancy, and the transition into sustained growth after 1921.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demographic Profile and the Demographic Transition of 1921'.",
+     "a": "The year 1921 marks the transition from the fluctuating first stage to the expanding second stage of demographic transition in India.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demographic Profile and the Demographic Transition of 1921', in plain ASCII form.",
+     "a": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.7.1",
+   "title": "Pre-Independence Occupational Structure and Regional Trends",
+   "questions": [
+    {
+     "q": "Using the method 'Pre-Independence Occupational Structure and Regional Trends', work with: total_workforce = 30, workforce_in_sector = 240. Carry the chain through step by step and give the final value of sectoral_workforce_share.",
+     "a": "800 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pre-Independence Occupational Structure and Regional Trends' and work with: total_workforce = 240, workforce_in_sector = 8. Carry the chain through step by step and give the final value of sectoral_workforce_share.",
+     "a": "3.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pre-Independence Occupational Structure and Regional Trends' refers to.",
+     "a": "The proportional distribution of the active labour force across economic sectors, showing overwhelming dependence on agriculture and notable regional variations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pre-Independence Occupational Structure and Regional Trends'.",
+     "a": "Around 70-75% of the workforce remained tied to agriculture, with manufacturing and services accounting for only 10% and 15-20% respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pre-Independence Occupational Structure and Regional Trends', in plain ASCII form.",
+     "a": "sectoral_workforce_share = (workforce_in_sector / total_workforce) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.1.8.1",
+   "title": "Infrastructure Development under Colonial Governance",
+   "questions": [
+    {
+     "q": "Using the method 'Infrastructure Development under Colonial Governance', work with: colonial_resource_drain = 24, economic_integration_gains = 120. Carry the chain through step by step and give the final value of net_social_benefit.",
+     "a": "96 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Infrastructure Development under Colonial Governance' and work with: colonial_resource_drain = 120, economic_integration_gains = 100. Carry the chain through step by step and give the final value of net_social_benefit.",
+     "a": "-20 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Infrastructure Development under Colonial Governance' refers to.",
+     "a": "The selective establishment of transport and communication networks primarily designed to facilitate military mobilisation, administrative control, and raw material evacuation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infrastructure Development under Colonial Governance'.",
+     "a": "The introduction of railways in 1850 broke geographical barriers but accelerated commercialisation and economic drain.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Infrastructure Development under Colonial Governance', in plain ASCII form.",
+     "a": "net_social_benefit = economic_integration_gains - colonial_resource_drain",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

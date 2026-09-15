@@ -1,0 +1,459 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 111,
+ "chapter_title": "Chemical Effects of Electric Current",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc111.txt",
+ "concepts": [
+  {
+   "id": "hesc.11.1",
+   "title": "Electrical Conductivity in Liquids",
+   "section": "11.1",
+   "definition": "The property of certain liquids, particularly solutions containing ions, to allow the passage of electric current.",
+   "formula": "conductivity = current_flow / resistance_potential",
+   "key_idea": "Liquids that are indeed solutions of acids, bases, or salts conduct electricity.",
+   "textbook_ref": "hesc111.txt lines 10-35",
+   "question_patterns": [
+    "do liquids conduct electricity",
+    "why do some liquids allow current to pass",
+    "classify lemon juice as a conductor",
+    "how to test if a liquid is a good conductor",
+    "explain electrical conductivity in liquids in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up a circuit",
+     "explain": "Connect a battery, a bulb/LED, and two electrodes."
+    },
+    {
+     "step": 2,
+     "action": "Immerse electrodes",
+     "explain": "Place the free ends into the liquid without letting them touch."
+    },
+    {
+     "step": 3,
+     "action": "Observe indicator",
+     "explain": "If the bulb glows or the needle deflects, the liquid is a conductor."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.2",
+   "title": "LED as a Weak Current Detector",
+   "section": "11.1",
+   "definition": "A Light Emitting Diode (LED) is a component that illuminates even when subjected to extremely low electrical currents.",
+   "formula": "total_leads = long_lead + short_lead",
+   "key_idea": "LEDs are more sensitive than standard bulbs for testing weak liquid conductors.",
+   "textbook_ref": "hesc111.txt lines 110-125",
+   "question_patterns": [
+    "why use an LED in a tester",
+    "how to connect an LED to a battery",
+    "which lead of the LED is positive",
+    "detecting weak currents in a circuit",
+    "how does led as a weak current detector work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify leads",
+     "explain": "The longer lead is positive and the shorter lead is negative."
+    },
+    {
+     "step": 2,
+     "action": "Connect to terminals",
+     "explain": "Attach the long lead to the positive terminal of the battery."
+    },
+    {
+     "step": 3,
+     "action": "Observe LED glow to confirm weak current",
+     "explain": "When the circuit is completed through a weak conductor, the LED lights up faintly, confirming that even very small currents can be detected -- something a standard bulb cannot do."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.3",
+   "title": "Magnetic Effect Tester",
+   "section": "11.1",
+   "definition": "A testing device that uses a compass needle to detect current flow through the magnetic field produced by the wire.",
+   "formula": "deflection = magnetic_field_strength",
+   "key_idea": "Current flowing through a wire creates a magnetic field that moves a nearby compass needle.",
+   "textbook_ref": "hesc111.txt lines 130-150",
+   "question_patterns": [
+    "how does a magnetic tester work",
+    "why does a compass needle deflect near a wire",
+    "build a tester using a matchbox and compass",
+    "detecting current without a bulb",
+    "how does magnetic effect tester work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Wrap wire",
+     "explain": "Coil an electric wire around a matchbox tray containing a compass."
+    },
+    {
+     "step": 2,
+     "action": "Complete circuit",
+     "explain": "Connect the wire ends to the battery and the test liquid."
+    },
+    {
+     "step": 3,
+     "action": "Check deflection",
+     "explain": "Observe if the needle moves when the circuit is closed."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.4",
+   "title": "Conductivity of Water Types",
+   "section": "11.1",
+   "definition": "The variation in electrical conduction between pure distilled water and water containing dissolved minerals or salts.",
+   "formula": "conductivity_level = pure_water + dissolved_salts",
+   "key_idea": "Pure water is an insulator, but tap/sea water conducts due to dissolved salts.",
+   "textbook_ref": "hesc111.txt lines 180-210",
+   "question_patterns": [
+    "does distilled water conduct electricity",
+    "how to make distilled water conducting",
+    "why is tap water a good conductor",
+    "safety of handling electricity with wet hands",
+    "state two key points about conductivity of water types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test distilled water",
+     "explain": "Observe that the tester does not show conduction in pure water."
+    },
+    {
+     "step": 2,
+     "action": "Add common salt",
+     "explain": "Dissolve salt in the distilled water to introduce ions."
+    },
+    {
+     "step": 3,
+     "action": "Re-test",
+     "explain": "Observe that the solution now conducts electricity."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.5",
+   "title": "Chemical Effects of Electric Current",
+   "section": "11.2",
+   "definition": "The chemical changes, like gas formation or metal deposition, that occur when electricity goes through a conducting solution.",
+   "formula": "chemical_change = current + electrolyte",
+   "key_idea": "Electrical energy is converted into chemical energy in an electrolyte.",
+   "textbook_ref": "hesc111.txt lines 220-250",
+   "question_patterns": [
+    "what are the chemical effects of current",
+    "list indicators of a chemical reaction in a solution",
+    "what happens when current passes through water",
+    "observations of electrolysis",
+    "how does chemical effects of electric current work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe electrodes",
+     "explain": "Look for gas bubbles forming on the rod surfaces."
+    },
+    {
+     "step": 2,
+     "action": "Check solution color",
+     "explain": "Note any changes in the color of the liquid."
+    },
+    {
+     "step": 3,
+     "action": "Inspect deposits",
+     "explain": "Look for layers of metal forming on the electrodes."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.6",
+   "title": "Electrolysis of Water",
+   "section": "11.2",
+   "definition": "The process of splitting water into both oxygen and hydrogen gases using an electric current.",
+   "formula": "2H2O -> 2H2 + O2",
+   "key_idea": "Oxygen forms at the positive electrode and hydrogen at the negative electrode.",
+   "textbook_ref": "hesc111.txt lines 245-260",
+   "question_patterns": [
+    "who discovered water electrolysis",
+    "which gas forms at the positive terminal",
+    "where does hydrogen gas collect",
+    "bubbles on electrodes in water",
+    "list the main features of electrolysis of water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify terminals",
+     "explain": "Locate the positive and negative connections of the battery."
+    },
+    {
+     "step": 2,
+     "action": "Observe gas",
+     "explain": "Oxygen bubbles appear at the anode (positive) and hydrogen at the cathode (negative)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the products of electrolysis",
+     "explain": "The volume of hydrogen gas collected at the negative electrode is roughly twice the volume of oxygen at the positive electrode, confirming the water splitting reaction 2H2O -> 2H2 + O2."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.7",
+   "title": "Electroplating Process",
+   "section": "11.3",
+   "definition": "A technique where electricity serves to deposit a thin layer of a desired metal onto another conductive object.",
+   "formula": "deposited_mass = rate * time",
+   "key_idea": "Metal ions move from the solution to the negative electrode to form a coating.",
+   "textbook_ref": "hesc111.txt lines 300-340",
+   "question_patterns": [
+    "define electroplating",
+    "how to coat a copper layer on iron",
+    "which terminal is the object to be plated connected to",
+    "mechanism of copper sulphate electrolysis",
+    "why is electroplating process important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Prepare electrolyte",
+     "explain": "Dissolve a metal salt (like copper sulphate) in water."
+    },
+    {
+     "step": 2,
+     "action": "Connect object",
+     "explain": "Attach the object to be coated to the negative terminal."
+    },
+    {
+     "step": 3,
+     "action": "Connect source metal",
+     "explain": "Attach the plating metal to the positive terminal."
+    },
+    {
+     "step": 4,
+     "action": "Pass current",
+     "explain": "Allow current to flow so ions deposit on the negative electrode."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.8",
+   "title": "Applications of Electroplating",
+   "section": "11.3",
+   "definition": "The industrial use of metal coating to improve appearance, prevent corrosion, or increase durability.",
+   "formula": "protection = coating_material_property",
+   "key_idea": "Electroplating protects cheaper metals from rust and wear.",
+   "textbook_ref": "hesc111.txt lines 350-380",
+   "question_patterns": [
+    "why is chromium used for plating",
+    "how are tin cans made",
+    "purpose of zinc coating on iron",
+    "electroplating in jewelry making",
+    "explain applications of electroplating in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify property",
+     "explain": "Chromium is shiny and scratch-resistant; Zinc prevents rust."
+    },
+    {
+     "step": 2,
+     "action": "Apply coating",
+     "explain": "Use electrolysis to apply these metals to iron or cheaper alloys."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit of the coating",
+     "explain": "The thin metal layer acts as a barrier against moisture and air, preventing corrosion of the underlying cheaper metal while also giving a shiny, attractive finish -- for example, tin-coated iron cans used for food storage."
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.9",
+   "title": "Solution Preparation Ratio",
+   "section": "11.3",
+   "definition": "Calculating the concentration of a solution based on the amount of solute added to a specific volume of solvent.",
+   "formula": "concentration = solute_tsp / solvent_ml",
+   "key_idea": "Standardizing the electrolyte concentration for consistent chemical effects.",
+   "textbook_ref": "hesc111.txt lines 305-310",
+   "question_patterns": [
+    "calculate the ratio of salt to water",
+    "what is the concentration of the copper sulphate solution",
+    "how much solute per ml of water",
+    "work out the value using solution preparation ratio",
+    "calculate solution preparation ratio for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Measure solute",
+     "explain": "Identify the number of teaspoons of salt or copper sulphate used."
+    },
+    {
+     "step": 2,
+     "action": "Measure solvent",
+     "explain": "Identify the volume of water in milliliters."
+    },
+    {
+     "step": 3,
+     "action": "Calculate ratio",
+     "explain": "Divide the solute amount by the solvent volume.",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc111.txt lines 270-290",
+   "concept": "hesc.11.5",
+   "question_type": "verify_property",
+   "question_pattern": "What happens when copper wires are inserted into a potato and current is passed?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Insert wires",
+     "explain": "Place two copper wires from a tester into a potato half."
+    },
+    {
+     "step": 2,
+     "action": "Wait and observe",
+     "explain": "After 30 minutes, a greenish-blue spot appears around the wire connected to the positive terminal."
+    },
+    {
+     "step": 3,
+     "action": "Conclusion",
+     "explain": "The current causes a chemical effect in the potato, which can identify the positive terminal."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hesc111.txt lines 300-330",
+   "concept": "hesc.11.7",
+   "question_type": "compute",
+   "question_pattern": "If 2 teaspoons of copper sulphate are dissolved in 250 mL of water, what is the concentration ratio?",
+   "extracted_variables": {
+    "solute_tsp": "2",
+    "solvent_ml": "250"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify values",
+     "explain": "Solute is 2 tsp and solvent is 250 mL.",
+     "compute": "solute_tsp = 2"
+    },
+    {
+     "step": 2,
+     "action": "Set volume",
+     "explain": "Volume of water is 250.",
+     "compute": "solvent_ml = 250"
+    },
+    {
+     "step": 3,
+     "action": "Calculate",
+     "explain": "Ratio of solute to solvent.",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc111.txt lines 305-310",
+   "concept": "hesc.11.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute solution preparation ratio step by step",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Measure solute",
+     "explain": "Identify the number of teaspoons of salt or copper sulphate used."
+    },
+    {
+     "step": 2,
+     "action": "Measure solvent",
+     "explain": "Identify the volume of water in milliliters."
+    },
+    {
+     "step": 3,
+     "action": "Calculate ratio",
+     "explain": "Divide the solute amount by the solvent volume.",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "hesc111.txt lines 305-310",
+   "concept": "hesc.11.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute solution preparation ratio step by step",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Measure solute",
+     "explain": "Identify the number of teaspoons of salt or copper sulphate used."
+    },
+    {
+     "step": 2,
+     "action": "Measure solvent",
+     "explain": "Identify the volume of water in milliliters."
+    },
+    {
+     "step": 3,
+     "action": "Calculate ratio",
+     "explain": "Divide the solute amount by the solvent volume.",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "hesc111.txt lines 400-410",
+   "questions": [
+    "Most liquids that conduct electricity are solutions of acids, bases and salts.",
+    "The passage of an electric current through a solution causes chemical effects.",
+    "If you pass current through copper sulphate solution, copper gets deposited on the plate connected to the negative terminal of the battery.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about electroplating."
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "hesc111.txt lines 412-430",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about deflection.",
+    "Name three liquids, which when tested may cause the magnetic needle to deflect.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about electricity.",
+    "In case of a fire, why do firemen shut off the main electrical supply before using water hoses?",
+    "A child finds that the compass needle deflects more in seawater than drinking water. Why?",
+    "Is it safe for an electrician to work outdoors during a heavy downpour?",
+    "Why does rainwater show deflection in a tester even though it is supposed to be pure?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

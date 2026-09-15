@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_010",
+   "title": "c10_chem_cbse_03_010",
+   "questions": [
+    {
+     "q": "Name the process used to convert zinc carbonate (calamine) ore into zinc oxide. Write the balanced chemical equation.",
+     "a": "Calcination is the process. ZnCO₃(s) → ZnO(s) + CO₂(g) (heated in limited air). A wrong answer like \"roasting\" or writing ZnCO₃ + O₂ → ZnO + CO₂ reveals the student confuses calcination (carbonate decomposition without excess oxygen) with roasting (sulfide oxidation with excess oxygen) and does not recognize that carbonate ores release CO₂, not SO₂.",
+     "self_check": true
+    },
+    {
+     "q": "Why is froth flotation used specifically for sulfide ores (like ZnS, Cu₂S) and not for oxide ores (like Fe₂O₃)? Explain the principle.",
+     "a": "Froth flotation exploits the preferential wetting of sulfide ore particles by oil (collectors like pine oil) while gangue (silica, clay) is wetted by water. Sulfide ores are hydrophobic and attach to air bubbles, rising as froth. Oxide ores are hydrophilic and get wetted by water, so they sink. A student who says \"froth flotation works for all ores\" or \"sulfide ores are lighter\" misunderstands the surface chemistry principle and the role of collectors/frothers.",
+     "self_check": true
+    },
+    {
+     "q": "A student heats a mixture of copper(II) oxide and carbon powder in a test tube. Write the balanced chemical equation for the reduction reaction. Identify the reducing agent and the substance oxidised.",
+     "a": "2CuO(s) + C(s) → 2Cu(s) + CO₂(g) (or CuO + C → Cu + CO at higher temperatures). Reducing agent: Carbon (C). Substance oxidised: Carbon (to CO₂ or CO). A wrong equation like CuO + C → Cu + CO₂ (unbalanced) or identifying CuO as the reducing agent shows the student cannot balance redox equations or assign oxidation states to identify electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions occurring in a blast furnace for iron extraction at two temperature zones: (a) 500–800 K (upper zone) and (b) 1200–1500 K (lower zone). Write the equations and explain why different reducing agents dominate.",
+     "a": "(a) Upper zone (500–800 K): 3Fe₂O₃ + CO → 2Fe₃O₄ + CO₂; Fe₃O₄ + CO → 3FeO + CO₂; FeO + CO → Fe + CO₂. CO is the main reducing agent because it is more stable than C at lower temperatures (thermodynamically favorable). (b) Lower zone (1200–1500 K): C + O₂ → CO₂; CO₂ + C → 2CO; FeO + C → Fe + CO. Here carbon directly reduces FeO because the Boudouard reaction (CO₂ + C → 2CO) makes CO abundant, and direct reduction by C becomes favorable at high T. A student writing only \"Fe₂O₃ + 3CO → 2Fe + 3CO₂\" for the whole furnace ignores the temperature-dependent stepwise reduction and the role of solid carbon in the hottest zone.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Aluminium is extracted by reducing Al₂O₃ with carbon because aluminium is above carbon in the reactivity series.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. Aluminium is HIGHLY reactive (top of reactivity series), so its oxide Al₂O₃ is very stable and cannot be reduced by carbon (carbon's affinity for oxygen is lower than Al's at practical temperatures). Al is extracted by electrolytic reduction of molten Al₂O₃ dissolved in cryolite (Hall-Héroult process). The student has the reactivity series logic reversed: metals ABOVE carbon (K, Na, Ca, Mg, Al) require electrolysis; metals BELOW carbon (Zn, Fe, Pb, Cu) can be reduced by carbon.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lab experiment to demonstrate the reduction of copper(II) oxide by hydrogen gas. List apparatus, chemicals, procedure, observation, and the balanced equation. How would you test the product formed?",
+     "a": "Apparatus: Hard glass test tube, delivery tube, gas jar, Bunsen burner, clamp stand. Chemicals: CuO (black powder), dry H₂ gas (from Zn + dil. H₂SO₄), anhydrous CaCl₂ (drying agent). Procedure: Spread CuO in test tube, connect to H₂ generator via CaCl₂ tube, pass H₂ for 1 min to displace air, then heat CuO strongly while H₂ flows. Observation: Black CuO turns reddish-brown (Cu). Water droplets condense at cooler end. Equation: CuO(s) + H₂(g) → Cu(s) + H₂O(g). Test product: Reddish-brown solid conducts electricity (metallic Cu) and dissolves in conc. HNO₃ giving blue solution (Cu²⁺). A poor answer omits drying H₂ (risk of explosion), doesn't displace air (explosion risk), or writes CuO + H₂ → Cu + H₂O(l) without state symbols, missing that water forms as steam at high temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

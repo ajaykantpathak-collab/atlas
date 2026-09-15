@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_012",
+   "title": "c11_hs_cbse_05_012",
+   "questions": [
+    {
+     "q": "Define braiding, nets, and laces in one sentence each, highlighting the primary yarn manipulation technique for each.",
+     "a": "Braiding: Diagonal plaiting of three or more parallel yarns originating from a single point. Nets: Open-mesh fabric created by inter-knotting yarns at regular intervals. Laces: Intricate openwork fabric formed by combining yarn twisting, interlooping, and knotting. A wrong answer that describes braiding as \"twisting two yarns\" confuses it with plying; describing nets as \"woven with large gaps\" confuses knotting with interlacing; describing lace as \"embroidery on net\" confuses surface ornamentation with structural construction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a braided shoelace stays tied better than a twisted cord of the same material and diameter, using the concept of frictional contact points.",
+     "a": "A braid creates multiple diagonal cross-over points where yarns press against each other under tension, generating high friction that resists slippage. A twisted cord has only helical contact along its length, which allows easier untwisting under load. A wrong answer focusing only on \"more surface area\" misses the directional locking mechanism of braid architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer wants to produce a lightweight, breathable fabric for a mosquito net that must retain its square mesh geometry after repeated washing. Which construction method—braiding, netting, or lace-making—would you recommend, and why? Justify with two structural reasons.",
+     "a": "Recommend netting. Reason 1: Nets are formed by inter-knotting, which locks yarns at fixed intersections, preventing mesh distortion during washing. Reason 2: The open geometric interstices provide consistent pore size for airflow and insect barrier. Braiding would create a dense diagonal structure unsuitable for mesh; lace would be too delicate and variable in geometry. A wrong answer choosing lace for \"breathability\" ignores dimensional stability requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the yarn utilisation efficiency (length of yarn consumed per unit area of fabric) for braiding, netting, and lace-making. Rank them from highest to lowest efficiency and explain the structural basis for your ranking.",
+     "a": "Highest efficiency: Braiding (yarns follow shortest diagonal paths with minimal waste). Medium: Netting (knots consume extra yarn but geometry is regular). Lowest: Lace-making (intricate twisting, looping, and knotting create high yarn consumption per unit area due to decorative redundancy). A wrong answer ranking netting highest overlooks the yarn consumed in each knot; ranking lace highest confuses visual lightness with material efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A designer claims that \"all laces are essentially decorative nets.\" Evaluate this statement by analyzing the structural and procedural differences between the two constructions.",
+     "a": "The statement is partially true but oversimplified. Both create openwork structures, but nets rely solely on knotting at regular intervals for geometric repetition, while lace combines twisting, interlooping, and knotting in non-repetitive, often free-form patterns. Lace also uses finer yarns and higher twist for crispness. A wrong answer agreeing fully misses the procedural complexity and design freedom unique to lace; a wrong answer disagreeing entirely misses the shared open-mesh characteristic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid textile structure for a reusable produce bag that combines the strength of braiding, the open mesh of netting, and the aesthetic appeal of lace. Sketch a verbal description of the construction sequence and specify the yarn properties required.",
+     "a": "Construction: Braid a strong tubular sleeve (e.g., 8-yarn polyester braid) for the bag body; integrate a knotted net panel (nylon multifilament) as a window for visibility; finish the top edge with a lace-like picot border (cotton/polyester blend) for drawstring casing. Yarn properties: High-tenacity polyester for braid (abrasion resistance), low-shrinkage nylon for net (dimensional stability), medium-twist blended yarn for lace (handle and dyeability). A poor answer merely lists the three techniques without integrating them structurally or specifying yarn-property matching.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

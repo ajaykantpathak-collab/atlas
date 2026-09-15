@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_9",
+   "title": "c8_chem_ch3_9",
+   "questions": [
+    {
+     "q": "What are the constituent elements present in a molecule of pure water ($H_2O$)?",
+     "a": "The constituent elements are hydrogen and oxygen. A wrong answer shows that the student is confusing chemical compounds with physical mixtures or elements, often mistaking the name \"water\" for a single fundamental element rather than a combination of two gases.",
+     "self_check": true
+    },
+    {
+     "q": "Why is table salt (sodium chloride, $NaCl$) classified as a compound rather than a mixture of sodium and chlorine?",
+     "a": "Table salt is a compound because its components, sodium and chlorine, are chemically combined in a fixed ratio, and it possesses entirely different properties from shiny sodium metal and poisonous chlorine gas. A wrong answer indicates that the student thinks components in compounds keep their individual physical properties like they do in mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "A student burns $12\\text{ g}$ of carbon completely in oxygen to form $44\\text{ g}$ of carbon dioxide ($CO_2$). Using the law of fixed proportions, how much oxygen gas reacted with the carbon?",
+     "a": "Step 1: Identify the total mass of the compound formed ($44\\text{ g}$ of $CO_2$).\nStep 2: Identify the mass of the starting carbon element ($12\\text{ g}$).\nStep 3: Apply the conservation of mass / fixed proportion principle: Mass of oxygen = Total mass of compound - Mass of carbon.\nStep 4: Calculate: $44\\text{ g} - 12\\text{ g} = 32\\text{ g}$ of oxygen.\nA wrong answer reveals that the student is adding the numbers together or does not understand that compounds have mass made strictly from their fixed constituent elements.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the chemical formulas for water ($H_2O$), carbon dioxide ($CO_2$), and table salt ($NaCl$). What common feature do all three share regarding their elemental composition?",
+     "a": "All three are compounds consisting of two or more different elements combined in a fixed, definite atomic ratio. A wrong answer suggests the student views chemical formulas as arbitrary letters rather than precise representations of fixed elemental ratios in compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dissolving sugar in water creates a new compound because the sugar disappears and the water becomes sweet.\" Is this scientifically correct?",
+     "a": "The statement is incorrect because dissolving sugar in water forms a physical mixture (solution), not a new chemical compound; the sugar molecules retain their chemical identity and can be recovered by evaporating the water. A wrong answer shows confusion between physical dissolution (mixtures) and chemical combination (compounds).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home-based reasoning test to prove that table sugar ($C_{12}H_{22}O_{11}$) is a compound and not an element. Describe what you would observe.",
+     "a": "A good answer would suggest heating white sugar strongly in a test tube; it decomposes into black carbon residue and water droplets on the container walls, proving it breaks down into multiple simpler substances. A poor answer relies merely on appearance or fails to show how compounds decompose into constituent elements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

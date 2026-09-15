@@ -1,0 +1,946 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Fractions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp107.txt",
+ "concepts": [
+  {
+   "id": "fegp.7.1.1",
+   "title": "Fractional Units",
+   "section": "7.1",
+   "definition": "Cut one whole into some equal pieces; every single piece is one fractional unit (a unit fraction like 1/4).",
+   "formula": "unit_fraction = 1 / n",
+   "key_idea": "A fraction with 1 as the numerator representing one part of a whole divided into n equal parts.",
+   "textbook_ref": "fegp107.txt lines 25-35",
+   "question_patterns": [
+    "what is the fractional unit if a unit is divided into 5 parts",
+    "express one part of a whole divided into 10 equal shares",
+    "find the unit fraction for a division into 8 parts",
+    "calculate the share of one person when one roti is shared among 9 children",
+    "What is the fractional unit when a whole is cut into 6 parts?",
+    "Name the unit fraction of a division into 12 equal shares."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the number of equal parts",
+     "explain": "The denominator n represents the total number of equal parts the whole is divided into.",
+     "compute": "n = count"
+    },
+    {
+     "step": 2,
+     "action": "form the unit fraction",
+     "explain": "A unit fraction always has 1 as the numerator.",
+     "compute": "unit_share = 1 / n"
+    },
+    {
+     "step": 3,
+     "action": "write the unit fraction as 1 over n",
+     "explain": "The result names one equal piece of the whole, so the share is 1/n.",
+     "compute": "answer = 1 / n"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.1.2",
+   "title": "Fractions as Equal Shares",
+   "section": "7.1",
+   "definition": "Share a number of things equally among a number of people, and fractions say how big one share is (3 rotis among 4 gives 3/4 each).",
+   "formula": "share = items / people",
+   "key_idea": "Top count = things shared; bottom count = people sharing.",
+   "textbook_ref": "fegp107.txt lines 1-10",
+   "question_patterns": [
+    "how much does each child get if 3 rotis are shared among 4 children",
+    "find the share when 5 glasses of juice are shared by 6 friends",
+    "calculate the weight of each guava if 3 guavas weigh 1 kg",
+    "what is the fraction of a cake each person gets if 2 cakes are shared by 5 people",
+    "Share 5 rotis among 8 children -- how much each?",
+    "How big is one share when 4 cakes feed 6 friends?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify items and people",
+     "explain": "The number of items is the numerator and the number of people is the denominator.",
+     "compute": "share = items / people"
+    },
+    {
+     "step": 2,
+     "action": "write the fraction with items on top",
+     "explain": "The numerator counts the things being shared out.",
+     "compute": "num = items"
+    },
+    {
+     "step": 3,
+     "action": "write the fraction with people on the bottom",
+     "explain": "The denominator counts the equal shares, giving the final fraction items/people.",
+     "compute": "answer = items / people"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.3.1",
+   "title": "Numerator and Denominator",
+   "section": "7.3",
+   "definition": "In a written fraction the top figure is the numerator; the bottom figure, the denominator.",
+   "formula": "fraction = numerator / denominator",
+   "key_idea": "The lower count names the unit; the upper count says how many of those units you hold.",
+   "textbook_ref": "fegp107.txt lines 115-125",
+   "question_patterns": [
+    "identify the numerator and denominator in 5/6",
+    "what is the top number of a fraction called",
+    "in the fraction 3/4, what does 4 represent",
+    "name the parts of the fraction 7/10",
+    "In 9/13, which number is the denominator?",
+    "How many units does the numerator 7 stand for in sevenths?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the top number",
+     "explain": "The number above the line is the numerator."
+    },
+    {
+     "step": 2,
+     "action": "identify the bottom number",
+     "explain": "The number below the line is the denominator."
+    },
+    {
+     "step": 3,
+     "action": "state what each part represents",
+     "explain": "The denominator names the unit (how many equal parts make one whole) and the numerator counts how many of those units are taken."
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.5.1",
+   "title": "Mixed Fractions Definition",
+   "section": "7.5",
+   "definition": "A quantity bigger than one whole can be written as a whole part next to a part smaller than one -- that pair is a mixed fraction (2 2/3).",
+   "formula": "mixed_fraction = whole + (numerator / denominator)",
+   "key_idea": "Values above one whole get a whole part plus a part under one.",
+   "textbook_ref": "fegp107.txt lines 160-170",
+   "question_patterns": [
+    "what is a mixed fraction",
+    "define a mixed number",
+    "identify the whole part and fractional part in 2 2/3",
+    "is 4 1/2 a mixed fraction",
+    "Is 5 1/8 bigger than one whole -- why?",
+    "Point out the whole part and the part under one in 3 5/6."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the whole number",
+     "explain": "The integer part of the mixed number."
+    },
+    {
+     "step": 2,
+     "action": "identify the fractional part",
+     "explain": "The proper fraction part following the whole number."
+    },
+    {
+     "step": 3,
+     "action": "confirm the value exceeds one whole",
+     "explain": "Since the whole part is at least 1 and the fractional part is non-negative, the mixed fraction represents a quantity greater than or equal to one whole."
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.5.2",
+   "title": "Converting Improper Fraction to Mixed Fraction",
+   "section": "7.5",
+   "definition": "When the top count beats the bottom count, the value tops one whole and a mixed form is available.",
+   "formula": "whole = numerator // denominator; remainder = numerator % denominator",
+   "key_idea": "Divide the numerator by the denominator to find the whole number and the remainder.",
+   "textbook_ref": "fegp107.txt lines 175-185",
+   "question_patterns": [
+    "write 9/2 as a mixed fraction",
+    "convert 19/6 to a mixed number",
+    "how many whole units are there in 7/2",
+    "express 47/9 in mixed form",
+    "Write 23/5 as a mixed number.",
+    "Convert 31/7 to whole units plus a fraction."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide numerator by denominator",
+     "explain": "The quotient is the whole number part.",
+     "compute": "whole = numerator // denominator"
+    },
+    {
+     "step": 2,
+     "action": "find the remainder",
+     "explain": "The remainder becomes the numerator of the fractional part.",
+     "compute": "rem = numerator % denominator"
+    },
+    {
+     "step": 3,
+     "action": "write the mixed fraction",
+     "explain": "Combine the whole number and the remainder over the denominator to form the mixed fraction.",
+     "compute": "mixed = whole + rem / denominator"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.5.3",
+   "title": "Converting Mixed Fraction to Improper Fraction",
+   "section": "7.5",
+   "definition": "Rewrite each whole as a full set of the fractional pieces, then count all pieces together.",
+   "formula": "improper_numerator = (whole * denominator) + numerator",
+   "key_idea": "Multiply the whole number by the denominator and add the numerator.",
+   "textbook_ref": "fegp107.txt lines 188-200",
+   "question_patterns": [
+    "write 3 1/4 as a fraction",
+    "convert 7 2/3 to an improper fraction",
+    "express 9 4/9 as a regular fraction",
+    "calculate the improper fraction for 2 3/11",
+    "Write 6 3/5 as a single fraction.",
+    "Express 4 5/12 in top-heavy form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply whole by denominator",
+     "explain": "This converts the whole units into fractional parts.",
+     "compute": "part1 = whole * denominator"
+    },
+    {
+     "step": 2,
+     "action": "add the numerator",
+     "explain": "Add the existing fractional parts to the converted whole parts.",
+     "compute": "total_num = part1 + numerator"
+    },
+    {
+     "step": 3,
+     "action": "write over denominator",
+     "explain": "The denominator remains the same.",
+     "compute": "improper = total_num / denominator"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.6.1",
+   "title": "Equivalent Fractions",
+   "section": "7.6",
+   "definition": "Two fractions that measure the same amount though written with different units are equivalent (1/2 and 3/6).",
+   "formula": "equivalent = (numerator * factor) / (denominator * factor)",
+   "key_idea": "Scale both counts by one non-zero factor and the value never changes.",
+   "textbook_ref": "fegp107.txt lines 210-225",
+   "question_patterns": [
+    "find two equivalent fractions for 2/6",
+    "are 1/2 and 3/6 equivalent",
+    "complete the pattern: 4/6 = 2/3 = ...",
+    "calculate an equivalent fraction for 3/4 with denominator 40",
+    "Write two fractions equivalent to 5/7.",
+    "Fill in: 3/5 = 15/?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply numerator by factor",
+     "explain": "Multiply the top by the chosen factor.",
+     "compute": "new_num = numerator * factor"
+    },
+    {
+     "step": 2,
+     "action": "multiply denominator by factor",
+     "explain": "Multiply the bottom by the same factor.",
+     "compute": "new_den = denominator * factor"
+    },
+    {
+     "step": 3,
+     "action": "write the equivalent fraction",
+     "explain": "The new fraction new_num/new_den has the same value as the original because both counts were scaled equally.",
+     "compute": "equivalent = new_num / new_den"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.6.2",
+   "title": "Simplest Form (Lowest Terms)",
+   "section": "7.6",
+   "definition": "A fraction sits in lowest terms when nothing bigger than 1 divides both of its counts.",
+   "formula": "simplest = (numerator / factor) / (denominator / factor)",
+   "key_idea": "Divide both counts by their biggest shared factor to arrive there.",
+   "textbook_ref": "fegp107.txt lines 265-275",
+   "question_patterns": [
+    "express 16/20 in lowest terms",
+    "reduce 36/60 to its simplest form",
+    "is 4/5 in lowest terms",
+    "simplify the fraction 126/147",
+    "Bring 42/56 to lowest terms.",
+    "Is 8/11 in simplest form?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide numerator by common factor",
+     "explain": "Divide the numerator by a shared factor.",
+     "compute": "s_num = numerator / factor"
+    },
+    {
+     "step": 2,
+     "action": "divide denominator by common factor",
+     "explain": "Divide the denominator by the same shared factor.",
+     "compute": "s_den = denominator / factor"
+    },
+    {
+     "step": 3,
+     "action": "write the simplified fraction",
+     "explain": "The fraction s_num/s_den is in lowest terms when no factor greater than 1 divides both counts.",
+     "compute": "simplest = s_num / s_den"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.7.1",
+   "title": "Comparing Fractions",
+   "section": "7.7",
+   "definition": "To see which of two fractions wins, rewrite them as same-unit fractions and compare the counts.",
+   "formula": "v1 = num1 * den2; v2 = num2 * den1",
+   "key_idea": "One shared unit turns the comparison into a straight count-off.",
+   "textbook_ref": "fegp107.txt lines 285-300",
+   "question_patterns": [
+    "which is greater 4/5 or 7/9",
+    "compare 8/3 and 5/2",
+    "arrange 7/10, 11/15, 2/5 in ascending order",
+    "is 7/9 less than 17/21",
+    "Which wins: 5/8 or 7/12?",
+    "Arrange 3/4, 5/6 and 7/8 from smallest to largest."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find common denominator",
+     "explain": "Multiply the denominators of both fractions.",
+     "compute": "common_den = den1 * den2"
+    },
+    {
+     "step": 2,
+     "action": "scale first numerator",
+     "explain": "Multiply first numerator by second denominator.",
+     "compute": "v1 = num1 * den2"
+    },
+    {
+     "step": 3,
+     "action": "scale second numerator",
+     "explain": "Multiply second numerator by first denominator.",
+     "compute": "v2 = num2 * den1"
+    },
+    {
+     "step": 4,
+     "action": "compare scaled numerators",
+     "explain": "The fraction with the larger scaled numerator is greater."
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.8.1",
+   "title": "Addition of Fractions (Brahmagupta's Method)",
+   "section": "7.8",
+   "definition": "Put both fractions into one shared unit, then simply add the counts.",
+   "formula": "sum = (num1 * den2 + num2 * den1) / (den1 * den2)",
+   "key_idea": "Common fractional units allow direct addition of numerators.",
+   "textbook_ref": "fegp107.txt lines 330-345",
+   "question_patterns": [
+    "find the sum of 1/4 and 1/3",
+    "add 2/3 and 5/6",
+    "calculate 2/7 + 5/7 + 6/7",
+    "what is the total volume if 2/3 L and 3/4 L are mixed",
+    "Add 3/8 and 1/4.",
+    "Find the total of 2/5 + 1/3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find common denominator",
+     "explain": "Multiply the denominators to get a common fractional unit.",
+     "compute": "cd = den1 * den2"
+    },
+    {
+     "step": 2,
+     "action": "convert first numerator",
+     "explain": "Scale the first numerator.",
+     "compute": "n1 = num1 * den2"
+    },
+    {
+     "step": 3,
+     "action": "convert second numerator",
+     "explain": "Scale the second numerator.",
+     "compute": "n2 = num2 * den1"
+    },
+    {
+     "step": 4,
+     "action": "add numerators",
+     "explain": "Add the scaled numerators together.",
+     "compute": "sum_num = n1 + n2"
+    },
+    {
+     "step": 5,
+     "action": "result",
+     "explain": "The sum is the new numerator over the common denominator.",
+     "compute": "ans = sum_num / cd"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.8.2",
+   "title": "Subtraction of Fractions",
+   "section": "7.8",
+   "definition": "Put both fractions into one shared unit, then take one count away from the other.",
+   "formula": "difference = (num1 * den2 - num2 * den1) / (den1 * den2)",
+   "key_idea": "Match the units first; afterwards only the counts get subtracted.",
+   "textbook_ref": "fegp107.txt lines 360-375",
+   "question_patterns": [
+    "subtract 2/3 from 3/4",
+    "calculate 5/8 - 3/8",
+    "find the difference between 13/4 and 10/3",
+    "how much distance is left if 1/2 km is covered out of 7/10 km",
+    "Take 1/3 from 5/6.",
+    "Calculate 7/10 - 2/5."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find common denominator",
+     "explain": "Multiply the denominators.",
+     "compute": "cd = den1 * den2"
+    },
+    {
+     "step": 2,
+     "action": "convert first numerator",
+     "explain": "Scale the first numerator.",
+     "compute": "n1 = num1 * den2"
+    },
+    {
+     "step": 3,
+     "action": "convert second numerator",
+     "explain": "Scale the second numerator.",
+     "compute": "n2 = num2 * den1"
+    },
+    {
+     "step": 4,
+     "action": "subtract numerators",
+     "explain": "Subtract the second scaled numerator from the first.",
+     "compute": "diff_num = n1 - n2"
+    },
+    {
+     "step": 5,
+     "action": "result",
+     "explain": "The difference is the result numerator over the common denominator.",
+     "compute": "ans = diff_num / cd"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp107.txt line 180",
+   "concept": "fegp.7.5.2",
+   "question_type": "compute",
+   "question_pattern": "Write {numerator}/{denominator} as a mixed fraction",
+   "extracted_variables": {
+    "numerator": "9",
+    "denominator": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide numerator by denominator",
+     "compute": "whole = numerator // denominator"
+    },
+    {
+     "step": 2,
+     "action": "find remainder",
+     "compute": "rem = numerator % denominator"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp107.txt line 195",
+   "concept": "fegp.7.5.3",
+   "question_type": "compute",
+   "question_pattern": "Convert {whole} {numerator}/{denominator} to a fraction",
+   "extracted_variables": {
+    "whole": "3",
+    "numerator": "1",
+    "denominator": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply whole by denominator",
+     "compute": "part1 = whole * denominator"
+    },
+    {
+     "step": 2,
+     "action": "add numerator",
+     "compute": "total_num = part1 + numerator"
+    },
+    {
+     "step": 3,
+     "action": "result",
+     "compute": "improper = total_num / denominator"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp107.txt line 335",
+   "concept": "fegp.7.8.1",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of {num1}/{den1} and {num2}/{den2}",
+   "extracted_variables": {
+    "num1": "1",
+    "den1": "4",
+    "num2": "1",
+    "den2": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "common denominator",
+     "compute": "cd = den1 * den2"
+    },
+    {
+     "step": 2,
+     "action": "scale num1",
+     "compute": "n1 = num1 * den2"
+    },
+    {
+     "step": 3,
+     "action": "scale num2",
+     "compute": "n2 = num2 * den1"
+    },
+    {
+     "step": 4,
+     "action": "add",
+     "compute": "sum_num = n1 + n2"
+    },
+    {
+     "step": 5,
+     "action": "result",
+     "compute": "ans = sum_num / cd"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.7.1.1",
+   "question_pattern": "What is the unit when a whole is cut into {n} equal parts?",
+   "extracted_variables": {
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "one piece out of n",
+     "explain": "1/4",
+     "compute": "unit_fraction = 1 / n"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.1.1",
+   "question_pattern": "A rope is divided into {n} equal pieces -- how big is one piece?",
+   "extracted_variables": {
+    "n": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "one piece out of n",
+     "explain": "1/10",
+     "compute": "unit_fraction = 1 / n"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.1.2",
+   "question_pattern": "Share {items} rotis among {people} children -- how much each?",
+   "extracted_variables": {
+    "items": "3",
+    "people": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "things over people",
+     "explain": "3/4",
+     "compute": "share = items / people"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.1.2",
+   "question_pattern": "{items} cakes feed {people} friends equally -- find one share.",
+   "extracted_variables": {
+    "items": "5",
+    "people": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "things over people",
+     "explain": "5/6",
+     "compute": "share = items / people"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.5.2",
+   "question_pattern": "Write {numerator}/{denominator} as a mixed number.",
+   "extracted_variables": {
+    "numerator": "23",
+    "denominator": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count full wholes",
+     "explain": "5 x 4 = 20 fits, so 4 wholes",
+     "compute": "whole = 4"
+    },
+    {
+     "step": 2,
+     "action": "count the leftover pieces",
+     "explain": "23 - 20 = 3",
+     "compute": "remainder = 3"
+    },
+    {
+     "step": 3,
+     "action": "read off",
+     "explain": "23/5 = 4 3/5",
+     "compute": "check = whole * denominator + remainder"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.5.3",
+   "question_pattern": "Write {whole} {numerator}/{denominator} as a single fraction.",
+   "extracted_variables": {
+    "whole": "6",
+    "numerator": "3",
+    "denominator": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pieces per whole",
+     "explain": "5 per whole",
+     "compute": "per_whole = denominator"
+    },
+    {
+     "step": 2,
+     "action": "pieces in the wholes",
+     "explain": "6 x 5 = 30",
+     "compute": "pieces = whole * denominator"
+    },
+    {
+     "step": 3,
+     "action": "add the extras",
+     "explain": "30 + 3 = 33",
+     "compute": "improper_numerator = pieces + numerator"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.6.1",
+   "question_pattern": "Rewrite {numerator}/{denominator} with denominator {target}.",
+   "extracted_variables": {
+    "numerator": "3",
+    "denominator": "4",
+    "target": "40"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the scaling factor",
+     "explain": "40 / 4 = 10",
+     "compute": "factor = target / denominator"
+    },
+    {
+     "step": 2,
+     "action": "scale both counts",
+     "explain": "30/40",
+     "compute": "equivalent = (numerator * factor) / (denominator * factor)"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.6.2",
+   "question_pattern": "Bring {numerator}/{denominator} to lowest terms.",
+   "extracted_variables": {
+    "numerator": "36",
+    "denominator": "60"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the highest common factor",
+     "explain": "hcf(36, 60) = 12",
+     "compute": "factor = 12"
+    },
+    {
+     "step": 2,
+     "action": "divide both counts",
+     "explain": "3/5",
+     "compute": "simplest = (numerator / factor) / (denominator / factor)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.6.2",
+   "question_pattern": "Simplify {numerator}/{denominator}.",
+   "extracted_variables": {
+    "numerator": "24",
+    "denominator": "36"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the highest common factor",
+     "explain": "hcf(24, 36) = 12",
+     "compute": "factor = 12"
+    },
+    {
+     "step": 2,
+     "action": "divide both counts",
+     "explain": "2/3",
+     "compute": "simplest = (numerator / factor) / (denominator / factor)"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.7.1",
+   "question_pattern": "Which wins: {n1}/{d1} or {n2}/{d2}?",
+   "extracted_variables": {
+    "n1": "4",
+    "d1": "5",
+    "n2": "7",
+    "d2": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cross-multiply the first",
+     "explain": "4 x 9 = 36",
+     "compute": "v1 = num1 * den2"
+    },
+    {
+     "step": 2,
+     "action": "cross-multiply the second",
+     "explain": "7 x 5 = 35",
+     "compute": "v2 = num2 * den1"
+    },
+    {
+     "step": 3,
+     "action": "compare",
+     "explain": "36 > 35, so 4/5 wins",
+     "compute": "gap = v1 - v2"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.8.1",
+   "question_pattern": "Add {n1}/{d1} and {n2}/{d2}.",
+   "extracted_variables": {
+    "n1": "3",
+    "d1": "8",
+    "n2": "1",
+    "d2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shared unit 8",
+     "explain": "1/4 = 2/8",
+     "compute": "unit = den1"
+    },
+    {
+     "step": 2,
+     "action": "add the counts",
+     "explain": "3 + 2 = 5",
+     "compute": "top = num1 * den2 + num2 * den1"
+    },
+    {
+     "step": 3,
+     "action": "one fraction",
+     "explain": "5/8",
+     "compute": "sum = (num1 * den2 + num2 * den1) / (den1 * den2)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.8.2",
+   "question_pattern": "Take {n2}/{d2} from {n1}/{d1}.",
+   "extracted_variables": {
+    "n1": "5",
+    "d1": "6",
+    "n2": "1",
+    "d2": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shared unit 6",
+     "explain": "1/3 = 2/6",
+     "compute": "unit = den1"
+    },
+    {
+     "step": 2,
+     "action": "subtract the counts",
+     "explain": "5 - 2 = 3",
+     "compute": "top = num1 * den2 - num2 * den1"
+    },
+    {
+     "step": 3,
+     "action": "one fraction",
+     "explain": "3/6 = 1/2",
+     "compute": "difference = (num1 * den2 - num2 * den1) / (den1 * den2)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.6.1",
+   "question_pattern": "Fill in the missing count: {numerator}/{denominator} = ?/{target}.",
+   "extracted_variables": {
+    "numerator": "2",
+    "denominator": "3",
+    "target": "18"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the scaling factor",
+     "explain": "18 / 3 = 6",
+     "compute": "factor = target / denominator"
+    },
+    {
+     "step": 2,
+     "action": "scale both counts",
+     "explain": "12/18",
+     "compute": "equivalent = (numerator * factor) / (denominator * factor)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.7.8.2",
+   "question_pattern": "Subtract: {n1}/{d1} - {n2}/{d2}.",
+   "extracted_variables": {
+    "n1": "7",
+    "d1": "10",
+    "n2": "2",
+    "d2": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shared unit 10",
+     "explain": "2/5 = 4/10",
+     "compute": "unit = den1"
+    },
+    {
+     "step": 2,
+     "action": "subtract the counts",
+     "explain": "7 - 4 = 3",
+     "compute": "top = num1 * den2 - num2 * den1"
+    },
+    {
+     "step": 3,
+     "action": "one fraction",
+     "explain": "3/10",
+     "compute": "difference = (num1 * den2 - num2 * den1) / (den1 * den2)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "fegp107.txt page 152",
+   "questions": [
+    "Three guavas together weigh 1 kg. If they are roughly of the same size, each guava will roughly weigh ____ kg.",
+    "A wholesale merchant packed 1 kg of rice in four packets of equal weight. The weight of each packet is ___ kg.",
+    "Four friends ordered 3 glasses of sugarcane juice and shared it equally among themselves. Each one drank ____ glass of sugarcane juice."
+   ]
+  },
+  {
+   "id": "ex7.5",
+   "source_ref": "fegp107.txt page 162",
+   "questions": [
+    "Write 9/2 as a mixed fraction.",
+    "Write 9/5 as a mixed fraction.",
+    "Write 21/19 as a mixed fraction.",
+    "Write 47/9 as a mixed fraction."
+   ]
+  },
+  {
+   "id": "ex7.8",
+   "source_ref": "fegp107.txt page 179",
+   "questions": [
+    "Add 2/7 + 5/7 + 6/7",
+    "Add 3/4 + 1/3",
+    "Add 2/3 + 5/6",
+    "Add 2/3 + 2/7"
+   ]
+  }
+ ]
+}

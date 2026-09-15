@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_021",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_021",
+   "title": "c6_math_ch02_021",
+   "questions": [
+    {
+     "q": "What is the additive inverse of -15?",
+     "a": "The additive inverse is +15. A wrong answer like \"-15\" or \"0\" reveals that the student confuses \"inverse\" with \"the number itself\" or \"the identity,\" failing to realize the goal is to make the sum zero.",
+     "self_check": true
+    },
+    {
+     "q": "If you add a number to its additive inverse, the result is always zero. Why does this happen?",
+     "a": "It happens because they represent equal distances in opposite directions from zero on the number line, perfectly cancelling each other out. A wrong answer suggesting \"they disappear\" shows a lack of conceptual understanding of the number line as a physical space.",
+     "self_check": true
+    },
+    {
+     "q": "If your bank account balance is -₹50 (a debt), what amount must be credited to make your balance exactly ₹0?",
+     "a": "You must credit ₹50. The steps are: (Balance) + (Credit) = 0; (-50) + (+50) = 0. Failing to answer this indicates the student cannot translate the \"debt\" context into an integer expression.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the additive inverse of 7 with the additive inverse of -7. Are they the same?",
+     "a": "No, they are not the same; the additive inverse of 7 is -7, and the additive inverse of -7 is 7. Answering \"yes\" shows the student thinks the additive inverse of any number is always a specific sign (like always negative), ignoring the relationship between the two.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a number to be its own additive inverse? Justify your answer.",
+     "a": "Yes, 0 is its own additive inverse because 0 + 0 = 0. Answering \"no\" suggests the student only considers positive or negative integers, forgetting that zero serves as the neutral anchor of the number line.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario using a thermometer where a temperature change results in an additive inverse outcome.",
+     "a": "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse operation to a change in state or measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

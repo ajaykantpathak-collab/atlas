@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_003",
+   "title": "c11_geo_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the longitudinal value of the Standard Meridian of India and through which major town does it pass?",
+     "a": "The Standard Meridian of India is 82°30'E (82.5°E) and it passes through Mirzapur in Uttar Pradesh. A wrong answer (e.g., 82°30'W or a different town like Allahabad) reveals the student has confused the hemisphere or the specific reference location, indicating rote memorization without understanding the geographical significance of the meridian's placement in central India.",
+     "self_check": true
+    },
+    {
+     "q": "Why was 82°30'E specifically chosen as the Standard Meridian instead of the central longitude of India's extent (which would be approximately 82°46'E)?",
+     "a": "The central longitude of India's extent (68°7'E to 97°25'E) is ~82°46'E, but 82°30'E was chosen because it is a multiple of 7°30' (half of 15°), aligning with the international convention of standard meridians differing by 15° (1 hour) or 7°30' (30 minutes) from the Prime Meridian. This makes IST exactly UTC+5:30. A wrong answer focusing only on \"central location\" reveals the student misses the critical link to the global time zone system and the mathematical convenience of half-hour offsets.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the local time difference between Dwarka (69°E) and Dibrugarh (95°E) on a given day. If it is 12:00 noon IST, what would be the local solar time at these two locations?",
+     "a": "Step 1: Longitudinal difference = 95° - 69° = 26°. Step 2: Time difference = 26° × 4 min/° = 104 minutes = 1 hour 44 minutes. Step 3: IST is based on 82.5°E. Dwarka (69°) is 13.5° west of IST meridian → local time = 12:00 - (13.5×4) = 12:00 - 54 min = 11:06 AM. Step 4: Dibrugarh (95°) is 12.5° east → local time = 12:00 + (12.5×4) = 12:00 + 50 min = 12:50 PM. A wrong calculation (e.g., using 1°=1 hour) reveals confusion between longitude-time conversion and time zone offsets.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"India should adopt two time zones (IST-I and IST-II) to improve productivity in the northeastern states.\" Use geographical reasoning to support or refute this.",
+     "a": "Supporting: The 1h44m solar time difference means northeastern states lose productive morning daylight; a separate IST-II (UTC+6:30) would align work hours with solar time. Refuting: Administrative chaos in rail/air transport, defense coordination, and inter-state commerce; the current system ensures national unity and simplicity. A one-sided answer reveals failure to weigh geographical reality (solar time) against human geography (administrative unity), a key Class 11 analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the impact of a single time zone (IST) on the energy consumption patterns in India's eastern versus western regions.",
+     "a": "In eastern regions (e.g., Arunachal Pradesh), the sun rises and sets early (~4:30 AM sunrise in summer). Offices/schools start at 9-10 AM IST, missing 2-3 hours of natural daylight, increasing artificial lighting use. In western regions (e.g., Gujarat), sunset is later (~7:30 PM IST), extending evening daylight for activities but potentially increasing cooling loads. A superficial answer ignoring seasonal variation or the asymmetry of the impact reveals inability to synthesize physical geography (daylight hours) with human geography (energy use).",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a \"dual time zone\" system for India that minimizes disruption to national transport networks while addressing the daylight mismatch in the Northeast. Include the proposed meridians, transition mechanism, and one implementation challenge.",
+     "a": "A strong proposal: IST-I (UTC+5:30) for west of 82.5°E; IST-II (UTC+6:30) for east of 82.5°E (or 90°E). Transition at a major railway junction (e.g., New Jalpaiguri) with dual clocks. Challenge: Railway timetables would need dual scheduling at the boundary. A weak proposal (e.g., arbitrary state boundaries) reveals failure to consider the physical geography of transport corridors and the operational reality of continuous networks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

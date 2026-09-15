@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_001",
+   "title": "c7_chem_ch01_001",
+   "questions": [
+    {
+     "q": "Which of the following is a liquid non-metal commonly found in laboratory thermometers?",
+     "a": "Bromine is the correct answer. A student who answers \"Mercury\" is confusing a liquid metal (mercury) with a liquid non-metal (bromine), revealing a failure to distinguish between the physical states of metals and non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "Why is copper used extensively for making electrical wiring in Indian homes instead of sulfur?",
+     "a": "Copper is a metal that possesses high electrical conductivity, allowing electric current to flow smoothly, whereas sulfur is a non-metal and a poor conductor (insulator) of electricity. A student who says \"because sulfur is too heavy\" shows a misunderstanding of electrical properties versus mass.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following elements into metals and non-metals: Iron, Carbon, Oxygen, Aluminium.",
+     "a": "Iron and Aluminium are metals; Carbon and Oxygen are non-metals. Steps: 1. Identify each element from daily life or chemistry context. 2. Recall that iron and aluminium are shiny, hard, and used for construction/utensils (metals). 3. Recall that carbon and oxygen are gases/brittle solids essential for life and combustion (non-metals). A student who classifies carbon as a metal is confusing its solid form (like graphite or charcoal) with metallic lustre.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why a piece of coal (carbon) shatters into powder when struck with a hammer, while an iron nail flattens instead. What does this tell us about their classification?",
+     "a": "Coal shatters because it is brittle, a characteristic property of non-metals, whereas the iron nail flattens because it is malleable, a hallmark property of metals. A student who thinks coal will bend is failing to connect mechanical stress response to the fundamental difference between metallic and non-metallic bonding structures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All metals are solid at room temperature.\" Is this statement scientifically accurate? Justify your reasoning.",
+     "a": "The statement is false. While almost all metals (like iron, copper, gold) are solid at room temperature, mercury is a notable exception as it exists in a liquid state at room temperature. A student who answers \"True\" has overgeneralized the physical properties of metals without remembering liquid metal exceptions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification test using everyday kitchen items to distinguish between an iron spoon (metal) and a piece of chalk (non-metal/calcium compound). Describe two tests and expected observations.",
+     "a": "A good answer proposes: 1. Appearance test: The iron spoon has a shiny metallic lustre, while chalk is dull and powdery. 2. Conduction/Hardness test: Striking chalk causes it to crumble easily (brittle), whereas the iron spoon bends or rings with a sonorous sound and conducts heat if placed in warm water. A poor answer relies on color alone without testing physical behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

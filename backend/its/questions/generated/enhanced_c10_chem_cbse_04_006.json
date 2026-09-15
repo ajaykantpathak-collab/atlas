@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_006",
+   "title": "c10_chem_cbse_04_006",
+   "questions": [
+    {
+     "q": "Name the functional group present in CH₃CH₂CHO and write its IUPAC name.",
+     "a": "Functional group: Aldehyde (–CHO). IUPAC name: Propanal.  \nA wrong answer like \"ketone\" or \"alcohol\" reveals the student cannot distinguish the –CHO group (terminal carbonyl with H) from –CO– (internal carbonyl) or –OH. They may be memorizing formulas without recognizing structural features.",
+     "self_check": true
+    },
+    {
+     "q": "Why does ethanol (CH₃CH₂OH) react with sodium metal to produce hydrogen gas, but propanone (CH₃COCH₃) does not?",
+     "a": "Ethanol has an –OH group with a polar O–H bond; the H is slightly acidic and reacts with Na to form H₂. Propanone has a carbonyl group (C=O) but no O–H bond, so no acidic hydrogen is available.  \nA wrong answer like \"both have oxygen so both react\" shows the student thinks any oxygen-containing compound reacts with Na, missing that the functional group –OH is required for this specific reaction.",
+     "self_check": true
+    },
+    {
+     "q": "A compound with molecular formula C₃H₆O gives a positive Tollens' test (silver mirror) but does not react with sodium metal. Identify the compound and write its structural formula.",
+     "a": "Step 1: Molecular formula C₃H₆O matches aldehydes/ketones (general formula CₙH₂ₙO).  \nStep 2: Positive Tollens' test indicates an aldehyde (–CHO group).  \nStep 3: No reaction with Na means no –OH group.  \nStep 4: The aldehyde with 3 carbons is propanal, CH₃CH₂CHO.  \nA wrong answer like \"propanone\" shows the student knows the formula but not that ketones do not give Tollens' test. A wrong answer like \"propanol\" shows confusion between alcohol and aldehyde tests.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the boiling points of butan-1-ol (C₄H₉OH) and butanal (C₄H₈O). Which is higher and why? Relate to functional group and intermolecular forces.",
+     "a": "Butan-1-ol has a higher boiling point. The –OH group allows hydrogen bonding (strong intermolecular forces). Butanal has a polar C=O group but cannot form hydrogen bonds between its own molecules (no H bonded to O/N/F), so only dipole-dipole forces operate.  \nA wrong answer like \"butanal has higher BP because C=O is more polar\" reveals the student overestimates dipole-dipole vs hydrogen bonding, or doesn't realize aldehydes lack H-bond donors.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of ethanol with concentrated H₂SO₄ at 170°C as: CH₃CH₂OH → CH₃CHO + H₂O. Is this correct? Evaluate and correct if wrong.",
+     "a": "Incorrect. At 170°C, conc. H₂SO₄ causes **dehydration** (elimination) to give ethene: CH₃CH₂OH → CH₂=CH₂ + H₂O. The student's equation shows oxidation to ethanal, which requires an oxidizing agent (like acidified K₂Cr₂O₇) and controlled conditions, not conc. H₂SO₄ at high temperature.  \nA wrong evaluation like \"it's correct because both produce water\" shows the student confuses dehydration (elimination) with oxidation, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test-tube experiment to distinguish between ethanol, ethanal, and ethanoic acid using only sodium metal, sodium bicarbonate, and Tollens' reagent. Write observations for each.",
+     "a": "1. **Na metal**: Ethanol → effervescence (H₂ gas). Ethanal & ethanoic acid → no reaction (ethanoic acid reacts but slowly, not standard test; better: ethanoic acid reacts with NaHCO₃).  \n2. **NaHCO₃**: Ethanoic acid → brisk effervescence (CO₂). Ethanol & ethanal → no reaction.  \n3. **Tollens' reagent**: Ethanal → silver mirror. Ethanol & ethanoic acid → no mirror.  \nA poor answer uses only one reagent or confuses observations, showing inability to design a multi-step diagnostic scheme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

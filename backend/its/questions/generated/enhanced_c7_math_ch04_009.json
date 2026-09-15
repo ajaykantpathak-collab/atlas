@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_009",
+   "title": "c7_math_ch04_009",
+   "questions": [
+    {
+     "q": "What does the term \"substitution\" mean when working with an algebraic expression like $5x - 3$ given $x = 4$?",
+     "a": "Substitution means replacing the variable $x$ with the given number $4$ so that the expression becomes $5(4) - 3$, which evaluates to $17$. A wrong answer usually reveals that the student confuses substitution with solving an equation or thinks the variable should be eliminated without multiplying by its coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "When evaluating the expression $-2x^2$ for $x = -3$, a student calculates $-2(-3)^2 = -2(9) = -18$. Another student calculates $(-2(-3))^2 = (6)^2 = 36$. Which student is correct and why?",
+     "a": "The first student is correct because exponents apply only to the variable $x$ unless parentheses explicitly group the coefficient and variable together. A wrong answer shows a misunderstanding of the order of operations regarding exponents and coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the algebraic expression $3a^2 - 5ab + 2b$ when $a = 2$ and $b = -3$.",
+     "a": "First, substitute $a = 2$ and $b = -3$ into the expression: $3(2)^2 - 5(2)(-3) + 2(-3)$. Calculate the exponent: $(2)^2 = 4$, so $3(4) = 12$. Next, compute the middle term: $-5 \\times 2 \\times (-3) = +30$. Then, compute the final term: $2 \\times (-3) = -6$. Combine them: $12 + 30 + (-6) = 36$. A wrong answer often stems from mishandling negative signs during multiplication of the middle term.",
+     "self_check": true
+    },
+    {
+     "q": "If substituting $x = 5$ into the expression $ax + 7$ yields a result of $27$, how can you find the value of the constant $a$?",
+     "a": "Substitute $x = 5$ into the expression to get $a(5) + 7 = 27$. Then subtract 7 from both sides to get $5a = 20$, and divide by 5 to find $a = 4$. A wrong answer reveals a confusion between evaluating an expression for a known variable versus finding an unknown coefficient using a known result.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates $4x - 8$ for $x = 2$ and writes their steps as: Step 1: $4(2) - 8$; Step 2: $8 - 8$; Step 3: $0$. Is this evaluation correct, and what does the result of zero signify about this specific value of $x$?",
+     "a": "The evaluation is completely correct. The result of zero signifies that $x = 2$ is a root or zero of the algebraic expression $4x - 8$, meaning the expression evaluates to zero at this specific value. A wrong answer indicates an error in basic arithmetic or a failure to connect the evaluation result to algebraic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression with two variables, $p$ and $q$, and choose integer values for them such that the final evaluated result of the expression is $-15$. Show your expression, chosen values, and step-by-step substitution.",
+     "a": "An example acceptable answer is the expression $2p - 3q$ with $p = 3$ and $q = 7$. Substituting gives $2(3) - 3(7) = 6 - 21 = -15$. A poor answer would show incorrect substitution, failure to use integers properly, or arithmetic errors in the final calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_005",
+   "title": "c11_phy_cbse_02_005",
+   "questions": [
+    {
+     "q": "Write the three kinematic equations for uniformly accelerated motion in one dimension. State the SI unit of each variable appearing in them.",
+     "a": "The three equations are: (1) v = v₀ + at, (2) x = v₀t + ½at², (3) v² = v₀² + 2ax. Variables and SI units: v, v₀ — velocity (m/s); a — acceleration (m/s²); t — time (s); x — displacement (m). A wrong answer (e.g., missing the ½ factor, writing v = u + at², or confusing displacement with distance) reveals the student has memorised formulas without understanding their derivation from the velocity-time graph area or calculus integration, and cannot reconstruct them when needed.",
+     "self_check": true
+    },
+    {
+     "q": "A ball is thrown vertically upward with initial speed 20 m/s. At the highest point of its motion, what are the values of velocity and acceleration? Explain why acceleration is not zero even though velocity is momentarily zero.",
+     "a": "At the highest point: velocity v = 0 m/s; acceleration a = –9.8 m/s² (downward). Acceleration is not zero because the gravitational force still acts on the ball, causing its velocity to change from zero to a downward value. A student who says acceleration is zero at the top confuses \"momentarily at rest\" with \"no net force\" — this is the classic misconception that zero velocity implies zero acceleration. The correct reasoning: acceleration is the rate of change of velocity; at the top, velocity changes from +ve to –ve, so acceleration is non-zero and downward.",
+     "self_check": true
+    },
+    {
+     "q": "A car travelling at 72 km/h applies brakes and stops uniformly in 50 m. Calculate the magnitude of deceleration and the time taken to stop. (Convert all units to SI before solving.)",
+     "a": "Given: v₀ = 72 km/h = 72 × (5/18) = 20 m/s; v = 0 m/s; x = 50 m. Use v² = v₀² + 2ax → 0 = (20)² + 2a(50) → 400 = –100a → a = –4 m/s². Magnitude of deceleration = 4 m/s². Time: v = v₀ + at → 0 = 20 + (–4)t → t = 5 s. A wrong answer (e.g., a = –2 m/s², t = 10 s) typically comes from using v = v₀ + at without converting km/h to m/s, or misapplying x = v₀t + ½at² with incorrect algebra. Unit conversion error is the most common failure here.",
+     "self_check": true
+    },
+    {
+     "q": "Two stones are dropped from the same height at an interval of 1 second. The first stone is dropped (v₀ = 0), the second is thrown downward with v₀ = 10 m/s. Will the second stone catch up to the first before they hit the ground? Assume g = 10 m/s² and height = 80 m. Justify your answer without solving for exact time.",
+     "a": "No, the second stone will not catch up. Both stones have the same acceleration (g = 10 m/s² downward). The relative acceleration between them is zero. The second stone starts 1 second later with an initial relative velocity of 10 m/s downward relative to the first stone (which after 1 s has velocity 10 m/s downward). Since relative acceleration is zero, the separation remains constant at the value it had at t = 1 s (which is 5 m). They hit the ground with the same separation. A student who says \"yes, because it was thrown faster\" ignores that the first stone already had a head start and both accelerate identically — they confuse initial velocity difference with ongoing relative acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a free-fall problem: \"A ball is dropped from 45 m. Find time to reach ground.\" They write: x = 45 m, v₀ = 0, a = g = 9.8 m/s², use x = v₀t + ½at² → 45 = 0 + ½(9.8)t² → t² = 9.18 → t = 3.03 s. Is this solution correct? If not, identify the error.",
+     "a": "The solution is incorrect due to sign convention error. The student took downward displacement as +45 m and downward acceleration as +9.8 m/s², which is internally consistent, BUT they must also take downward velocity as positive. The final answer t = 3.03 s is numerically correct for this sign choice. However, the error is conceptual: they did not explicitly state their sign convention. In board exams, failing to define the coordinate axis and sign convention loses marks. A fully correct solution begins: \"Choose downward as +x direction. Then x = +45 m, v₀ = 0, a = +g = +9.8 m/s².\" Without this statement, the work is incomplete.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale, a stopwatch, and a small ball to verify the equation x = ½gt² for free fall. Describe the procedure, measurements, and how you would analyse the data to confirm the ½ factor.",
+     "a": "Procedure: Drop the ball from rest from known heights (e.g., 0.5 m, 1.0 m, 1.5 m, 2.0 m) measured with the metre scale. Use the stopwatch to measure fall time t for each height (repeat 5 times, take average). Plot x (vertical axis) vs t² (horizontal axis). The graph should be a straight line through origin with slope = ½g. Calculate slope; if slope ≈ 4.9 m/s², then ½g = 4.9 → g = 9.8 m/s², verifying the equation. A poor answer (e.g., \"plot x vs t and check if parabolic\") shows the student does not understand linearisation techniques or how to isolate the ½ factor experimentally. The key is plotting x vs t², not x vs t.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

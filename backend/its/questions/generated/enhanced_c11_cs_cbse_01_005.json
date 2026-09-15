@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_005",
+   "title": "c11_cs_cbse_01_005",
+   "questions": [
+    {
+     "q": "Name the three main components of the CPU and state the primary function of each in one sentence.",
+     "a": "The three main components are: (1) Arithmetic Logic Unit (ALU) — performs arithmetic (add, subtract, multiply, divide) and logical (AND, OR, NOT, compare) operations; (2) Control Unit (CU) — fetches instructions from memory, decodes them, generates control signals to coordinate data movement between CPU, memory, and I/O devices, and manages the instruction cycle; (3) Registers — small, high-speed storage locations inside the CPU that hold data, instructions, addresses, and intermediate results during processing. A wrong answer (e.g., \"ALU stores data\" or \"CU does calculations\") reveals confusion between storage and processing roles, or between control and execution functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Registers are just a small part of RAM inside the CPU.\" Explain why this statement is incorrect, using the terms 'volatile', 'access speed', and 'addressability'.",
+     "a": "Registers are not part of RAM; they are distinct hardware flip-flops on the CPU die. Unlike RAM (which is addressable by the program via memory addresses, volatile, and accessed via the system bus), registers are directly accessed by the CU/ALU without bus transactions, have zero wait-state access speed (one clock cycle), and are not memory-mapped — they are referenced by register names (e.g., ACC, PC, IR) in the instruction set, not by memory addresses. A wrong answer that equates registers with cache or RAM shows the student hasn't grasped the hierarchy: registers → cache → RAM → secondary storage, each with different latency, size, and addressing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "During the execution of the instruction `ADD R1, R2` (add contents of register R2 to register R1 and store result in R1), list the sequence of micro-operations performed by the CU and ALU, and identify which register holds the instruction during decoding.",
+     "a": "Sequence: (1) CU places address from Program Counter (PC) on address bus, issues READ → instruction fetched from memory to Memory Data Register (MDR); (2) Instruction transferred to Instruction Register (IR) — **IR holds the instruction during decoding**; (3) CU decodes opcode in IR → identifies ADD operation and register operands R1, R2; (4) CU routes contents of R1 and R2 to ALU inputs; (5) ALU performs addition; (6) ALU output routed back to R1; (7) CU increments PC to next instruction address. A wrong sequence (e.g., ALU fetches instruction, or PC holds instruction) reveals misunderstanding of the fetch-decode-execute cycle and the distinct roles of PC (address tracker) vs IR (instruction holder).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Accumulator (ACC), Program Counter (PC), Instruction Register (IR), and Memory Address Register (MAR) in the fetch-decode-execute cycle. Which register is unique in being updated by the ALU result?",
+     "a": "- PC: holds address of **next** instruction to fetch; incremented by CU after fetch (or updated by branch).  \n- MAR: holds memory address for **current** read/write (loaded from PC during fetch, or from instruction operand for data access).  \n- MDR: holds data being read from or written to memory (instruction during fetch, operand/result during data access).  \n- IR: holds **current instruction** during decode/execute; opcode directs CU, operand fields specify registers/memory.  \n- ACC: general-purpose register that **holds one ALU operand and receives the ALU result** — it is the only register directly updated by ALU output in single-accumulator architectures.  \nA wrong answer (e.g., \"PC holds current instruction\" or \"MAR gets ALU result\") shows confusion between address-tracking registers and data-processing registers.",
+     "self_check": true
+    },
+    {
+     "q": "A processor has 16 general-purpose registers (R0–R15), each 32 bits wide. The instruction `ADD R3, R5, R7` means R3 ← R5 + R7. Evaluate whether this three-operand register-to-register instruction format is more efficient than a single-accumulator format (`ADD R5` meaning ACC ← ACC + R5) for evaluating the expression `(A + B) × (C + D)` where A, B, C, D are in memory. Justify with register pressure and instruction count.",
+     "a": "Three-operand format is more efficient. For `(A+B)×(C+D)`:  \nThree-operand (load/store architecture):  \n1. LOAD R1, A  \n2. LOAD R2, B  \n3. ADD R3, R1, R2   (R3 = A+B)  \n4. LOAD R4, C  \n5. LOAD R5, D  \n6. ADD R6, R4, R5   (R6 = C+D)  \n7. MUL R7, R3, R6   (R7 = (A+B)×(C+D))  \n→ 7 instructions, 4 registers live simultaneously (R3, R6, R7 + temps).  \n\nSingle-accumulator:  \n1. LOAD A  \n2. ADD B        (ACC = A+B)  \n3. STORE TEMP1  \n4. LOAD C  \n5. ADD D        (ACC = C+D)  \n6. MUL TEMP1    (ACC = (A+B)×(C+D))  \n→ 6 instructions but **3 memory accesses for TEMP1** (store + load for multiply operand). With 16 registers, three-operand avoids spill/fill, enables parallelism, and reduces memory traffic. A wrong evaluation ignoring memory traffic or register pressure shows the student focuses only on instruction count, not data movement cost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal register set (name, width, purpose) for a hypothetical 8-bit CPU that can execute: load immediate, load/store direct, add, subtract, conditional branch, and halt. Explain why each register is necessary and which one(s) can be omitted if the instruction set only supports implied addressing (accumulator-only).",
+     "a": "Minimal set for general-register 8-bit CPU:  \n1. **PC (16-bit)** — program counter, holds next instruction address (needed for sequential flow and branches).  \n2. **IR (8-bit)** — instruction register, holds current opcode/operand for decode.  \n3. **MAR (16-bit)** — memory address register, drives address bus for memory access.  \n4. **MDR (8-bit)** — memory data register, buffers data to/from memory bus.  \n5. **R0–R3 (4 × 8-bit)** — general-purpose registers for operands/results (4 allows (A+B)×(C+D) without spill).  \n6. **FLAGS (8-bit)** — status flags (Z, C, N, V) for conditional branch.  \n\nIf implied addressing only (accumulator machine): **R0–R3 can be omitted**; only ACC (8-bit) needed as implicit source/destination for ALU ops. PC, IR, MAR, MDR, FLAGS remain essential. A poor answer omits MAR/MDR (not understanding bus interface) or FLAGS (not realising conditional branch needs state), or keeps redundant registers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_004",
+   "title": "c12_acc_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the fundamental difference between the Direct Method and the Indirect Method of reporting cash flows from operating activities as per AS-3.",
+     "a": "The Direct Method discloses major classes of gross cash receipts and gross cash payments (e.g., cash received from customers, cash paid to suppliers), while the Indirect Method starts with net profit/loss and adjusts for non-cash items, deferrals/accruals, and investing/financing items to arrive at net cash from operations. A wrong answer (e.g., \"Direct method starts with net profit\") reveals confusion between the starting points of the two methods.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Revenue from Operations is ₹10,00,000. Trade Receivables at the beginning of the year were ₹1,00,000 and at the end were ₹1,50,000. Calculate the cash received from customers. Explain why the change in receivables is subtracted or added.",
+     "a": "Cash received from customers = Revenue from Operations + Opening Trade Receivables - Closing Trade Receivables = 10,00,000 + 1,00,000 - 1,50,000 = ₹9,50,000. The increase in receivables (₹50,000) means credit sales exceeded cash collections, so it is subtracted from revenue. A wrong answer (e.g., adding the increase) reveals the student does not understand the inverse relationship between receivables increase and cash collection.",
+     "self_check": true
+    },
+    {
+     "q": "Cost of Materials Consumed is ₹6,00,000. Inventory of Raw Materials: Opening ₹50,000, Closing ₹70,000. Trade Payables for Materials: Opening ₹40,000, Closing ₹60,000. Calculate cash paid to suppliers for materials.",
+     "a": "Step 1: Purchases = Cost of Materials Consumed + Closing Inventory - Opening Inventory = 6,00,000 + 70,000 - 50,000 = ₹6,20,000.\nStep 2: Cash paid to suppliers = Purchases + Opening Trade Payables - Closing Trade Payables = 6,20,000 + 40,000 - 60,000 = ₹6,00,000.\nA wrong answer (e.g., using only Cost of Materials Consumed) reveals the student misses the two-step adjustment: first converting consumption to purchases (via inventory change), then converting purchases to cash paid (via payables change).",
+     "self_check": true
+    },
+    {
+     "q": "In the Direct Method, why is Depreciation NOT shown as a cash outflow, whereas in the Indirect Method it is added back to net profit? Explain the conceptual difference in treatment.",
+     "a": "Depreciation is a non-cash expense; it involves no cash movement. In the Direct Method, we only list actual cash receipts and payments, so depreciation is simply omitted (not shown at all). In the Indirect Method, we start with net profit which has already been reduced by depreciation, so we add it back to reverse the non-cash charge. A wrong answer (e.g., \"depreciation is added back in both methods\") reveals confusion about the starting point and logic of each method.",
+     "self_check": true
+    },
+    {
+     "q": "A company reports Employee Benefits Expense of ₹2,00,000 in the Statement of Profit & Loss. Outstanding Employee Benefits Expense: Opening ₹10,000, Closing ₹25,000. Prepaid Employee Benefits: Opening ₹5,000, Closing ₹8,000. Calculate cash paid to employees. Evaluate whether the change in outstanding expenses increases or decreases cash paid.",
+     "a": "Cash paid = Expense per P&L + Opening Outstanding - Closing Outstanding + Closing Prepaid - Opening Prepaid\n= 2,00,000 + 10,000 - 25,000 + 8,000 - 5,000 = ₹1,88,000.\nOutstanding expenses increased by ₹15,000 (closing > opening), meaning the company accrued more expense than it paid, so cash paid is lower than the P&L expense. A wrong answer (e.g., adding the increase in outstanding) reveals the student treats outstanding expenses like payables without considering the direction of the adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company has high net profit but negative net cash from operating activities under the Direct Method. Specify the revenue, expense, and working capital changes that would cause this. Justify your numbers.",
+     "a": "Example: Revenue ₹10,00,000 (all credit, so receivables increase ₹10,00,000) → cash from customers = 0. Expenses ₹2,00,000 (all paid in cash) → cash paid = ₹2,00,000. Net cash from operations = -₹2,00,000. Profit = ₹8,00,000. This shows profit ≠ cash flow. A poor answer (e.g., \"profit is high so cash must be high\") reveals the student has not grasped the accrual vs. cash distinction central to the Direct Method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_012",
+   "title": "c11_hs_cbse_04_012",
+   "questions": [
+    {
+     "q": "Define \"work simplification\" in the context of household energy conservation and state its primary objective.",
+     "a": "Work simplification is the conscious application of principles (like motion economy, workplace layout, tool improvement) to reduce the number and fatigue of motions required to complete a household task. Its primary objective is to achieve the desired output with minimum human energy expenditure and time, thereby conserving the homemaker's energy for other activities. A wrong answer (e.g., \"using machines to do work\" or \"doing less work\") reveals the student confuses work simplification with mere mechanization or output reduction, missing the core concept of *process redesign* for efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A homemaker washes clothes by hand in a bucket, bending over 20 times per load to wring each garment. She is considering two changes: (A) buying a semi-automatic washing machine (₹12,000) or (B) raising the bucket on a platform to eliminate bending. Using the concept of \"classes of change\" (Mundel), classify each option and explain which better illustrates *work simplification* versus *mechanization*.",
+     "a": "Option B (raising the bucket) is a Class 1 change — change in hand/body motion (eliminating bending). Option A (washing machine) is a Class 5 change — change in the agent doing the work (human to machine). Work simplification focuses on Classes 1-4 (improving human method); mechanization is Class 5. A wrong answer classifying both as \"work simplification\" reveals the student cannot distinguish between *method improvement* (simplification) and *agent substitution* (mechanization) — a critical distinction for cost-benefit analysis in resource management.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Gilbreth's *principles of motion economy* to redesign the following cooking sequence: \"Take ingredients from refrigerator → walk to sink → wash → walk to chopping board → chop → walk to stove → cook → walk to dining table → serve.\" Identify at least three specific violations and propose a corrected sequence with a revised kitchen layout sketch (describe in words).",
+     "a": "Violations: (1) Excessive transport motions (walking between 4 separate stations) — violates \"minimize transportation.\" (2) No pre-positioning of tools/ingredients — violates \"tools and materials should be pre-positioned.\" (3) No combination of operations (wash and chop could be sequential at same station) — violates \"combine operations where possible.\" Corrected sequence: Create a *wet prep zone* (sink + chopping board + waste bin + ingredient pull-out) adjacent to stove. Sequence: Pull ingredients from fridge → move *once* to wet prep zone → wash → chop → transfer directly to stove → cook → serve from stove-side counter. A wrong answer listing only \"walking is bad\" without specific principle names or a zoned layout reveals superficial understanding — the student recalls \"reduce walking\" but cannot apply the formal framework to redesign workflow.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *lifecycle energy cost* of two approaches for cooking 1 kg rice daily for a family of 4 for 10 years: (i) Traditional open pot on LPG stove (thermal efficiency ~55%), (ii) 5-star electric pressure cooker (rated 700W, cooks in 15 min). Assume LPG calorific value = 46 MJ/kg, density = 0.54 kg/L, cost = ₹90/L; electricity cost = ₹7/kWh. Calculate total energy input (MJ) and total cost (₹) for each. Which is more sustainable *if* electricity is 70% coal-based? Justify.",
+     "a": "**Approach (i) LPG:** Energy to cook 1 kg rice ≈ 3.5 MJ (water heating + vaporization). At 55% efficiency, LPG input = 3.5/0.55 = 6.36 MJ/day. LPG mass = 6.36/46 = 0.138 kg/day = 0.256 L/day. Cost = 0.256 × 90 = ₹23.04/day. 10-year cost = 23.04 × 3650 = ₹84,096. Total energy = 6.36 × 3650 = 23,214 MJ.\n**Approach (ii) Pressure cooker:** Energy = 0.7 kW × 0.25 h = 0.175 kWh/day = 0.63 MJ/day (electrical). At 70% coal (thermal plant ~35% efficiency), primary energy = 0.63/0.35 = 1.8 MJ/day. Cost = 0.175 × 7 = ₹1.225/day. 10-year cost = 1.225 × 3650 = ₹4,471. Total primary energy = 1.8 × 3650 = 6,570 MJ.\n**Verdict:** Pressure cooker uses 72% less primary energy and 95% less cost. *But* sustainability includes embodied energy of appliance (~500 MJ for cooker) and grid decarbonization trajectory. Even with embodied energy, pressure cooker wins. A wrong answer comparing only *direct* energy (LPG 6.36 MJ vs electricity 0.63 MJ) without converting to *primary energy* reveals the student ignores the generation efficiency chain — a classic Class 11 error in sustainable energy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Installing solar panels on the roof is the single most effective step a household can take for sustainable energy management.\" Consider at least three dimensions: (a) energy hierarchy (conservation > efficiency > renewables), (b) behavioral lock-in risk, (c) Indian urban housing context (rented apartments, shared roofs).",
+     "a": "The statement is flawed. (a) Energy hierarchy: Conservation (behavioral changes, insulation, efficient appliances) and efficiency (5-star appliances, LED, pressure cooking) *precede* renewables — they reduce demand first, making solar systems smaller/cheaper. Jumping to solar without demand reduction is \"supply-side thinking.\" (b) Behavioral lock-in: Households with solar often *increase* consumption (\"rebound effect\") because marginal cost feels zero, negating savings. (c) Indian context: 35% urban households live in rented accommodation (NSSO 2018); shared roofs in apartments require society consensus; upfront cost (₹50,000-1L/kW) excludes low-income families. A wrong answer agreeing with the statement reveals \"techno-optimism\" bias — equating sustainability with hardware installation rather than systemic demand management and equity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 7-day \"Energy Conservation Challenge\" for a Class 11 student's household. Specify: (a) One measurable human-energy-saving action per day (using motion economy), (b) One measurable non-human-energy-saving action per day (appliance/behavior), (c) A simple tracking sheet format, (d) How the family will evaluate success using the *management process* (planning → evaluation).",
+     "a": "**Example Day 1:** (a) Human: Reorganize breakfast shelf — place daily items (milk, bread, butter) at waist level, eliminate bending/stretching (Class 1 change). (b) Non-human: Switch off water heater 10 min before bath — use retained heat (behavioral). **Tracking sheet:** Columns: Date | Action (Human/Non-human) | Estimated Energy Saved (kcal or Wh) | Actual Time Taken | Difficulty (1-5) | Family Rating (1-5). **Evaluation:** Week-end review: Compare total estimated savings vs baseline. Identify 2 actions to sustain (high rating, low difficulty). Modify 1 action that failed. Plan next month's focus (e.g., laundry zone redesign). A poor answer listing vague actions (\"save electricity\") without measurable units, motion economy classification, or link to management process reveals the student cannot translate theory into an actionable, evaluable household intervention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

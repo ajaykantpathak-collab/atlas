@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_005",
+   "title": "c12_math_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the precise definition of a bijective function \\( f: X \\to Y \\) using the language of injectivity and surjectivity.",
+     "a": "A function \\( f: X \\to Y \\) is bijective iff it is both injective (one‑one) and surjective (onto). Injective: \\( \\forall x_1,x_2\\in X,\\ f(x_1)=f(x_2)\\implies x_1=x_2 \\). Surjective: \\( \\forall y\\in Y,\\ \\exists x\\in X \\) such that \\( f(x)=y \\).  \nA wrong answer that only mentions “one‑one” or only “onto” reveals that the student has not internalised that **both** conditions are required simultaneously. Many students memorise “bijective = one‑one + onto” but cannot write the formal quantifiers, which leads to errors in proof‑based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( f: \\mathbb{N} \\to \\mathbb{N} \\) defined by \\( f(x)=2x \\) is injective but **not** bijective. What specific property fails?",
+     "a": "\\( f(x)=2x \\) is injective because \\( 2x_1=2x_2 \\implies x_1=x_2 \\). It is **not surjective** because, for example, \\( 1\\in\\mathbb{N} \\) has no pre‑image: there is no \\( x\\in\\mathbb{N} \\) with \\( 2x=1 \\). Hence the function fails surjectivity and is not bijective.  \nIf a student claims it is bijective because it is one‑one, they are confusing the finite‑set property (where injective implies surjective) with infinite sets. This misconception is extremely common in JEE/NEET questions that test the distinction between finite and infinite domains.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the function \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x)=3x-5 \\) is bijective. Show all steps for both injectivity and surjectivity.",
+     "a": "**Injectivity:** Assume \\( f(x_1)=f(x_2) \\). Then \\( 3x_1-5 = 3x_2-5 \\implies 3x_1=3x_2 \\implies x_1=x_2 \\). ✓  \n**Surjectivity:** Let \\( y\\in\\mathbb{R} \\) be arbitrary. Solve \\( 3x-5=y \\implies 3x=y+5 \\implies x=\\frac{y+5}{3} \\). Since \\( y \\) is real, \\( x \\) is real and \\( f(x)=y \\). ✓  \nTherefore \\( f \\) is bijective.  \nA common error is to stop after proving injectivity, or to claim surjectivity without explicitly solving for \\( x \\) in terms of \\( y \\) and verifying that \\( x \\) belongs to the domain \\( \\mathbb{R} \\). In board exams, marks are awarded for the explicit surjectivity step.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function \\( f: A \\to B \\) where \\( A=\\{1,2,3\\}, B=\\{a,b,c\\} \\) and \\( f=\\{(1,a),(2,b),(3,c)\\} \\). Now consider \\( g: A \\to B \\) where \\( g=\\{(1,a),(2,a),(3,b)\\} \\). Compare the two functions and explain why \\( f \\) is bijective while \\( g \\) is not. Which property does \\( g \\) violate?",
+     "a": "\\( f \\) pairs each element of \\( A \\) with a distinct element of \\( B \\) and covers all of \\( B \\) — it is both injective and surjective, hence bijective.  \n\\( g \\) maps both 1 and 2 to \\( a \\), so it is **not injective** (fails one‑one). It also misses \\( c\\in B \\), so it is **not surjective** either. The primary violation is injectivity; surjectivity also fails.  \nA student who only notices that \\( g \\) misses \\( c \\) and says “not onto” misses the fact that it is also many‑one. In competitive exams, identifying **all** violated properties is often required for full credit.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “The function \\( f: \\mathbb{Z} \\to \\mathbb{Z} \\) defined by \\( f(x)=x^2 \\) is bijective because every integer has a unique square.” Evaluate this claim and identify the exact errors.",
+     "a": "The claim is **false** on two counts:  \n1. **Not injective:** \\( f(2)=4 \\) and \\( f(-2)=4 \\) but \\( 2\\neq -2 \\). So distinct elements map to the same image.  \n2. **Not surjective:** There is no integer \\( x \\) such that \\( x^2 = -1 \\) (or any negative integer). Negative integers in the codomain have no pre‑image.  \nThe student incorrectly assumes “unique square” means injective, confusing the fact that the **output** is uniquely determined by the input (which is true for any function) with the injectivity condition. They also ignore the sign restriction of squares. This error costs marks in both board and JEE questions where \\( x^2 \\) is a classic counter‑example.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a bijective function \\( h: \\{1,2,3,4\\} \\to \\{p,q,r,s\\} \\) that is **not** the identity mapping (i.e., not \\( 1\\mapsto p, 2\\mapsto q, \\) etc.). Write it as a set of ordered pairs and verify both conditions.",
+     "a": "One example: \\( h = \\{(1,q), (2,s), (3,p), (4,r)\\} \\).  \n**Injective:** All four images \\( q,s,p,r \\) are distinct.  \n**Surjective:** Every element of \\( \\{p,q,r,s\\} \\) appears as an image.  \nAny permutation of the four codomain elements works. A poor answer would give a mapping that repeats an image or omits one, showing the student does not grasp that a bijection on finite sets of equal size is exactly a permutation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

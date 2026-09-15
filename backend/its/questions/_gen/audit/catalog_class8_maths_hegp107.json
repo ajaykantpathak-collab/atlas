@@ -1,0 +1,267 @@
+{
+ "catalog": "catalog_class8_maths_hegp107.json",
+ "concepts": [
+  {
+   "id": "hegp.107.7.1",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 25 / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 640 * 2 / (2 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 7 * 8 / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 2 * 28 - 7 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 40 * 20 / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 25 / 5"
+   ]
+  },
+  {
+   "id": "hegp.107.7.2",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 4 / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 880 * 5 / (5 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 600 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 6 * 10 / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 5 * 12 - 6 * 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 40 * 12 / 10"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 4 / 2"
+   ]
+  },
+  {
+   "id": "hegp.107.7.3",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 6 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 12 * 30 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 12 * 30 / 60"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 12 * 30 / 60"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 12 * 30 / 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 96 // 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.107.7.4",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 10 / 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 880 * 2 / (2 + 9)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 180 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 6 * 25 / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 5 * 30 - 6 * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 100 * 6 / 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.107.7.5",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 4 / 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 1100 * 5 / (5 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 3 * 28 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 7 * 12 - 3 * 28"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 120 * 20 / 8"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.107.7.6",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 10 / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 720 * 3 / (3 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 4 * 6 / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 2 * 12 - 4 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 100 * 8 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

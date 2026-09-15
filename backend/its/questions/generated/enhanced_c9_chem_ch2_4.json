@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_4",
+   "title": "c9_chem_ch2_4",
+   "questions": [
+    {
+     "q": "State Bohr's first postulate regarding electron orbits and energy radiation.",
+     "a": "Electrons revolve in fixed circular orbits around the nucleus without radiating energy. A wrong answer like \"electrons move in elliptical orbits\" confuses with Sommerfeld's extension; \"electrons radiate energy continuously\" reflects Rutherford's model misunderstanding; \"electrons are stationary\" confuses \"stationary orbit\" with \"not moving.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why does an atom not collapse in Bohr's model, whereas Rutherford's model predicted collapse?",
+     "a": "Bohr postulated that electrons in stationary orbits do not radiate energy, so they don't lose energy and spiral in. Rutherford's model, based on classical physics, said accelerating charges (orbiting electrons) must radiate energy and collapse. A wrong answer citing \"strong nuclear force\" confuses with nucleon binding; \"electrons are waves\" brings in quantum mechanics prematurely.",
+     "self_check": true
+    },
+    {
+     "q": "An electron in a hydrogen atom jumps from n=3 to n=2. Does it absorb or emit energy? What determines the color of light produced?",
+     "a": "Emits energy (photon). The energy difference ΔE = E₃ - E₂ determines the photon's frequency (E = hν), hence the color. A wrong answer saying \"absorbs\" reverses direction; saying \"color depends on initial orbit only\" ignores the final orbit; saying \"white light emitted\" confuses with continuous spectrum from hot solids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy level spacing in hydrogen: Is the gap between n=1 and n=2 larger or smaller than between n=4 and n=5? Explain using Bohr's concept.",
+     "a": "Larger. Energy levels get closer as n increases (E ∝ -1/n²). The n=1→2 gap is ~10.2 eV; n=4→5 is ~0.3 eV. A wrong answer saying \"equal spacing\" assumes harmonic oscillator; \"smaller for n=1→2\" inverts the relationship; \"cannot compare without formula\" misses the conceptual trend Bohr introduced.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bohr's model works perfectly for all atoms because it explains line spectra.\" Evaluate this statement.",
+     "a": "Incorrect. Bohr's model quantitatively explains only hydrogen (single-electron) spectra. For multi-electron atoms, electron-electron repulsion and lack of quantized angular momentum for each electron cause failures. A wrong answer agreeing shows ignorance of model limitations; citing \"Heisenberg uncertainty\" is correct but beyond Class 9 scope; saying \"it fails because orbits are elliptical\" confuses with Sommerfeld.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using Bohr's postulates to explain why a gas discharge tube emits discrete lines, not a continuous rainbow.",
+     "a": "Electrons in gas atoms get excited to higher levels by electric current (energy absorption). They return to lower levels in specific jumps (n=3→2, 4→2, etc.). Each jump emits one photon of fixed energy → one color. Continuous rainbow would require electrons to lose energy in any amount, violating stationary orbit postulate. A poor answer describes prism splitting light; says \"electrons vibrate\"; or ignores the quantization of energy jumps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

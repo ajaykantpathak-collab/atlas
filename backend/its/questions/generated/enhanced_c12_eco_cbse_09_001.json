@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_001",
+   "title": "c12_eco_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the four functions of money as defined in the NCERT Class 12 Macroeconomics textbook.",
+     "a": "The four functions are: (1) Medium of Exchange, (2) Unit of Account (Measure of Value), (3) Store of Value, (4) Standard of Deferred Payment. A wrong answer (e.g., listing only three functions, or confusing 'unit of account' with 'store of value') reveals that the student has memorised a generic list without linking each function to the specific barter problem it solves — a gap that leads to errors in case-based board questions where they must match a scenario to the correct function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 'double coincidence of wants' is a necessary condition for barter exchange but not for monetary exchange. Use a concrete example involving three goods.",
+     "a": "In barter, a direct exchange requires Party A to want what Party B has AND Party B to want what Party A has simultaneously. Example: A farmer (wheat) wants shoes; a shoemaker wants wheat — double coincidence exists. If the shoemaker wants rice instead, trade fails. With money, the farmer sells wheat for money, then uses money to buy shoes — no coincidence needed because money is universally accepted. A wrong answer that says 'money eliminates the need for wants' (instead of 'eliminates the need for coincidence of wants') shows the student misunderstands the core mechanism: money separates the sale and purchase acts, a distinction critical for JEE/NEET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab sells 100 kg of wheat at ₹2,200 per quintal and receives payment via a cheque. He deposits the cheque in his savings account. Identify which functions of money are being performed by (a) the cheque, (b) the bank deposit, and (c) the currency notes he could have received instead. Justify each.",
+     "a": "(a) Cheque: Medium of exchange (facilitates payment) and Standard of deferred payment (if post-dated). It is NOT a store of value (can become stale) nor a unit of account (prices are quoted in rupees, not cheques). (b) Bank deposit: Store of value (earns interest, safe) and Medium of exchange (via cheque/UPI). (c) Currency notes: All four functions. A wrong answer that assigns 'unit of account' to the cheque reveals confusion between the numeraire (rupee) and the payment instrument — a common error in CUET case studies where students must classify financial instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare commodity money (e.g., gold coins) and fiat money (₹500 note) on the criteria: intrinsic value, legal tender status, and supply control. Which type is used in modern India and why?",
+     "a": "Commodity money has intrinsic value (gold is useful for jewellery), limited supply control (depends on mining), and may or may not be legal tender. Fiat money has no intrinsic value (paper cost << face value), is legal tender by government decree (RBI Act), and its supply is controlled by the central bank. Modern India uses fiat money because it allows flexible monetary policy, avoids resource costs of mining, and enables digital transactions. A wrong answer claiming 'fiat money has intrinsic value because government backs it' confuses backing (trust/legal force) with intrinsic value (non-monetary utility) — a conceptual error that appears in UPSC/CUET economics questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'A credit card is money because it allows you to buy goods without cash.' Consider all four functions of money in your evaluation.",
+     "a": "A credit card is NOT money. It is a payment instrument that creates a loan (liability) from the bank to the cardholder. It performs the medium of exchange function indirectly (the bank pays the merchant), but it fails as a unit of account (prices are in rupees, not 'card units'), store of value (it represents debt, not wealth), and standard of deferred payment (the cardholder owes the bank, the merchant is paid immediately). A wrong answer that says 'yes, it's money because it buys things' ignores the liability nature and the functional definition — a trap in JEE Main economics questions where 'near money' vs 'money' is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a short dialogue between a vegetable vendor and a customer in a hypothetical economy where cigarettes are used as money. The dialogue must illustrate at least three functions of money and one limitation of commodity money.",
+     "a": "Customer: 'I'll give you 10 cigarettes for 2 kg onions.' (Medium of exchange) Vendor: 'Onions are 5 cigarettes per kg today.' (Unit of account) Customer: 'I'll save these 20 cigarettes for next week's rice purchase.' (Store of value) Vendor: 'Careful — if they get damp, they lose value.' (Limitation: perishability/quality variation of commodity money). A poor answer that only shows exchange without pricing or saving misses the multi-function requirement and the critical insight that commodity money's physical properties create instability — a point needed for board long-answer questions on evolution of money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

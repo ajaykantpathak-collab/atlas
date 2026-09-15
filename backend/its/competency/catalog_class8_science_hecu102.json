@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "The Invisible Living World: Beyond Our Naked Eye",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.102.2.1",
+   "title": "Cell: The Basic Unit of Life",
+   "section": "2.1",
+   "definition": "Every living body is built from microscopic blocks called cells, each bounded by a membrane and holding living matter; cells are too small for the naked eye, so a microscope reveals the invisible architecture of plants and animals.",
+   "formula": "-",
+   "key_idea": "All living things are assemblies of cells - the smallest unit that shows life.",
+   "textbook_ref": "hecu102.txt lines 121-344 (what is a cell, microscope observation)",
+   "question_patterns": [
+    "what is a cell and why is it called the basic unit of life",
+    "why is a microscope needed to see cells",
+    "name the outer boundary of a cell",
+    "how do cells of a plant leaf look under a microscope",
+    "who discovered cells and how",
+    "compare the sizes of cells with objects visible to the naked eye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define the unit",
+     "explain": "A cell is the smallest structure that carries out life processes."},
+    {"step": 2, "action": "note the invisibility",
+     "explain": "Cell dimensions fall far below unaided eye resolution, about a tenth of a millimetre or less."},
+    {"step": 3, "action": "use the tool",
+     "explain": "A microscope magnifies thin slices or peels to show cell walls, membranes and nuclei."}
+   ]
+  },
+  {
+   "id": "hecu.102.2.2",
+   "title": "Levels of Organisation in Living Bodies",
+   "section": "2.2",
+   "definition": "Life is organised in layers: similar cells group into tissues, tissues cooperate as organs, organs team up into organ systems, and together they make the complete organism.",
+   "formula": "cell -> tissue -> organ -> organ system -> organism",
+   "key_idea": "Each level of organisation adds new functions built from the level below.",
+   "textbook_ref": "hecu102.txt lines 344-393 (levels of organisation)",
+   "question_patterns": [
+    "arrange cell, tissue, organ and organ system in the correct order",
+    "define a tissue with an example",
+    "give one example each of an organ and an organ system",
+    "why is an organ able to do more work than a single tissue",
+    "what level does a complete plant or animal represent",
+    "how do cells and tissues differ"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start at the cell",
+     "explain": "Cells of one kind doing one job form a tissue."},
+    {"step": 2, "action": "build upward",
+     "explain": "Tissues combine into organs, organs into organ systems."},
+    {"step": 3, "action": "complete the organism",
+     "explain": "All systems working together make one living organism."}
+   ]
+  },
+  {
+   "id": "hecu.102.2.3",
+   "title": "Microorganisms: The Invisible Living World",
+   "section": "2.3",
+   "definition": "A whole world of living beings - bacteria, fungi, protozoa and viruses - stays hidden from the naked eye; these microorganisms live in soil, water, air and inside bodies, and only magnification reveals their shapes and movements.",
+   "formula": "-",
+   "key_idea": "Microorganisms are everywhere, but only a microscope shows them.",
+   "textbook_ref": "hecu102.txt lines 393-449 (what are microorganisms)",
+   "question_patterns": [
+    "name the major groups of microorganisms",
+    "where do microorganisms live",
+    "why are viruses considered on the border of living and non-living",
+    "which microorganism is used to make curd",
+    "how can we observe microorganisms in the classroom",
+    "why can microorganisms not be seen with the naked eye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the groups",
+     "explain": "Bacteria, fungi, protozoa and viruses form the main microbial groups."},
+    {"step": 2, "action": "note their habitats",
+     "explain": "They inhabit soil, water, air, decaying matter and living bodies."},
+    {"step": 3, "action": "observe them",
+     "explain": "Microscope slides of pond water or curd reveal moving and fixed microbes."}
+   ]
+  },
+  {
+   "id": "hecu.102.2.4",
+   "title": "Our Connection with Microbes: Use and Harm",
+   "section": "2.4",
+   "definition": "Microbes touch human life both ways - they ferment curd, bread and idli, decompose waste and fix soil nutrients, yet some cause diseases, food spoilage and infections, so hygiene and preservation manage their effects.",
+   "formula": "-",
+   "key_idea": "The same invisible world can feed us or make us ill - handling decides which.",
+   "textbook_ref": "hecu102.txt lines 522-807 (how are we connected to microbes)",
+   "question_patterns": [
+    "give three useful roles of microorganisms in daily life",
+    "how do microbes spoil food and how can spoilage be prevented",
+    "name two diseases caused by microorganisms",
+    "how do microbes help in cleaning the environment",
+    "why is curd formation an example of useful microbes",
+    "what habits reduce the harm from harmful microbes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the roles",
+     "explain": "Separate helpful uses such as fermentation and decomposition from harmful disease and spoilage."},
+    {"step": 2, "action": "link to practices",
+     "explain": "Boiling, salting, refrigeration and hygiene control unwanted microbes."},
+    {"step": 3, "action": "conclude the partnership",
+     "explain": "Human life depends on managed coexistence with the microbial world."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hecu102.txt sections 2.1-2.2",
+   "questions": [
+     "Why is the cell called the basic structural unit of life?",
+     "Arrange in order: organ, cell, organism, tissue, organ system.",
+     "Give one example of a tissue and one of an organ."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hecu102.txt sections 2.3-2.4",
+   "questions": [
+     "List the groups of microorganisms with one example each.",
+     "How are microbes useful in making food items like curd and bread?",
+     "Suggest three methods to protect food from microbial spoilage."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch01_004",
+   "title": "c6_physics_ch01_004",
+   "questions": [
+    {
+     "q": "What is the very first step in the scientific method?\nA) Testing a guess\nB) Observing something interesting\nC) Giving up\nD) Reading a textbook",
+     "a": "B) Observing something interesting. A wrong answer suggests the student thinks science starts with a pre-written answer rather than a genuine question sparked by observation.",
+     "self_check": true
+    },
+    {
+     "q": "If you guess why a plant is dying, is that the end of the scientific process? Why or why not?",
+     "a": "No, it is not the end. You must test your guess through observation or experiments to see if it is actually correct. A wrong answer shows the student ignores the \"testing\" phase, which is what separates a blind guess from science.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend says, \"Science is only for people in white coats in labs.\" How do you use the scientific method to prove them wrong?",
+     "a": "Explain a daily example, like a bicycle repair person finding a flat tire leak. By checking the tire (observation), guessing it's a puncture (hypothesis), and putting it in water to see bubbles (testing), they are performing the scientific method. A wrong answer indicates the student hasn't connected scientific steps to non-lab environments.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we call science an \"unending jigsaw puzzle\"?",
+     "a": "Because every new discovery creates more questions, and sometimes we have to rearrange our previous knowledge if a new piece (discovery) doesn't fit. A wrong answer suggests the student thinks science is \"finished\" or static, rather than an evolving process.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to do science alone or with others? Justify your choice based on the nature of science.",
+     "a": "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster. A wrong answer shows a lack of understanding that scientific inquiry thrives on collaboration and shared curiosity.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a kitchen mystery (like why milk spills when boiled). Describe how you would investigate this using the scientific method.",
+     "a": "The student should identify the observation (milk spilling), form a hypothesis (too high heat or full pot), test it by changing one factor (e.g., using a larger pot or lower heat), and observe the result. A poor answer lacks the structured \"test\" step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

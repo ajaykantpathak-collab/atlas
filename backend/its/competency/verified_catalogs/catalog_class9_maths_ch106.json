@@ -1,0 +1,468 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Measuring Space: Perimeter and Area",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh106.txt",
+ "concepts": [
+  {
+   "id": "iemh.106.1",
+   "title": "Circumference of a Circle",
+   "section": "6.2",
+   "definition": "Stretch a string once around a round curve and its length equals the width across times the unchanging number pi.",
+   "formula": "circumference = 2 * pi * radius",
+   "key_idea": "Around-over-across never changes: the ratio is pi.",
+   "textbook_ref": "iemh106.txt lines 119-124",
+   "question_patterns": [
+    "Calculate the round-trip length of a circle with radius 7 cm.",
+    "What length of rope wraps once around a wheel of diameter 21 cm?",
+    "How far does a wheel of radius 35 cm travel in one rotation?",
+    "Find the walking distance around a circular track of radius 70 m.",
+    "State the boundary length of a circle whose radius is 10 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the boundary-length rule",
+     "explain": "Twice pi times the radius gives the length around.",
+     "compute": "circumference = 2 * pi * radius"
+    },
+    {
+     "step": 2,
+     "action": "Use the diameter if the radius is unknown",
+     "explain": "Since the diameter is twice the radius, the boundary length can also be found as pi times the diameter.",
+     "compute": "circumference = pi * diameter"
+    },
+    {
+     "step": 3,
+     "action": "State the constant ratio",
+     "explain": "The ratio of the boundary length to the diameter is always the unchanging number pi, which is why the formula holds for every circle."
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.2",
+   "title": "Area of a Triangle (Heron's Formula)",
+   "section": "6.8.1",
+   "definition": "Know just the three side lengths; the area follows from the half-sum trick.",
+   "formula": "area = sqrt(s * (s - a) * (s - b) * (s - c)) where s = (a + b + c) / 2",
+   "key_idea": "Half the outline sum, scaled by its drops to each side, then rooted.",
+   "textbook_ref": "iemh106.txt lines 134-136",
+   "question_patterns": [
+    "Find the area of a triangle with sides 8 cm, 11 cm and perimeter 32 cm.",
+    "A triangular plot has sides in the ratio 3:5:7 and perimeter 300 m; calculate its area.",
+    "Compute the area of the triangle whose sides are 18, 24 and 30.",
+    "Work out the area of a triangle with sides 5, 12 and 13.",
+    "Use the half-sum method for sides 7, 8 and 9."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the half-sum",
+     "explain": "s is half the sum of sides a, b, c.",
+     "compute": "s = (a + b + c) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the four factors",
+     "explain": "Take the root of s times its drops to each side.",
+     "compute": "area = sqrt(s * (s - a) * (s - b) * (s - c))"
+    },
+    {
+     "step": 3,
+     "action": "Verify the triangle inequality holds",
+     "explain": "Each drop (s - a), (s - b), (s - c) must be positive, which is guaranteed when the three sides satisfy the triangle inequality; this confirms the area is real."
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.3",
+   "title": "Area of a Circle",
+   "section": "6.10",
+   "definition": "The covering of a round disc measures pi times radius times radius.",
+   "formula": "area = pi * radius ** 2",
+   "key_idea": "Radius times radius times pi.",
+   "textbook_ref": "iemh106.txt lines 144-146",
+   "question_patterns": [
+    "Calculate the disc covering from area = pi x radius x radius for radius 14 cm.",
+    "Calculate the lawn area of a circular garden of diameter 28 m.",
+    "How much metal goes into a disc of radius 10 cm?",
+    "What space does a rug of radius 3.5 m cover?",
+    "Compute the covered area for radius 21 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square and scale by pi",
+     "explain": "Pi times radius squared gives the covering.",
+     "compute": "area = pi * radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Use the diameter if the radius is unknown",
+     "explain": "Since radius is half the diameter, the area can also be written as one-quarter of pi times the diameter squared.",
+     "compute": "area = (pi * diameter ** 2) / 4"
+    },
+    {
+     "step": 3,
+     "action": "Relate area to the boundary length",
+     "explain": "The area can also be found from the boundary length as radius times boundary over two, since the boundary length is twice pi times radius."
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.4",
+   "title": "Area of a Sector",
+   "section": "6.10.1",
+   "definition": "A wedge cut out by two radii carries a share of the disc set by its corner at the middle.",
+   "formula": "area = (pi * radius ** 2) * (theta / 360)",
+   "key_idea": "The wedge's share equals its corner's share of a full turn, times the whole disc.",
+   "textbook_ref": "iemh106.txt lines 146-147",
+   "question_patterns": [
+    "Find the area of a sector with radius 7 cm and angle 60 degrees.",
+    "Calculate the quadrant area when the boundary around is 44 cm.",
+    "What area does a clock hand of length 14 cm sweep in 30 minutes?",
+    "Compute a minor sector's area for angle 90 and radius 10.",
+    "Work out the sector area for angle 120 on a 6 cm disc."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the corner's share of the disc",
+     "explain": "Multiply the whole disc by theta over 360.",
+     "compute": "area = (pi * radius ** 2) * (theta / 360)"
+    },
+    {
+     "step": 2,
+     "action": "Find the full disc area first",
+     "explain": "Compute pi times radius squared to get the area of the entire circle before taking the sector's share.",
+     "compute": "disc_area = pi * radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Confirm the angle fraction is valid",
+     "explain": "The angle theta must lie between 0 and 360 degrees so that the share theta over 360 is a proper fraction of the whole disc, giving a meaningful sector area."
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.5",
+   "title": "Brahmagupta's Formula",
+   "section": "6.8",
+   "definition": "For a four-sided shape pinned on a curve, the area comes from the four sides alone through the half-sum drops.",
+   "formula": "area = sqrt((s - a) * (s - b) * (s - c) * (s - d)) where s = (a + b + c + d) / 2",
+   "key_idea": "Sides alone fix the area once the shape sits on a curve.",
+   "textbook_ref": "iemh106.txt lines 137-138",
+   "question_patterns": [
+    "Find the area of the curve-pinned four-sided shape with sides 5, 5, 12 and 12.",
+    "Calculate the area for sides 3, 4, 5 and 6 pinned on a curve.",
+    "Compute the area from sides 7, 8, 9 and 10.",
+    "Work out the area of the pinned shape with equal sides 10, 10, 10 and 10.",
+    "Use the four-side half-sum method for sides 12, 16, 21 and 9."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the half-sum",
+     "explain": "s is half the sum of sides a, b, c, d.",
+     "compute": "s = (a + b + c + d) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the four drops",
+     "explain": "Root the product of s minus each side.",
+     "compute": "area = sqrt((s - a) * (s - b) * (s - c) * (s - d))"
+    },
+    {
+     "step": 3,
+     "action": "Confirm the shape is cyclic",
+     "explain": "Brahmagupta's formula applies only to four-sided shapes pinned on a curve, so verifying that the quadrilateral is cyclic ensures the area result is valid."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh106.txt lines 134-136 (Heron's method); value authored",
+   "concept": "iemh.106.2",
+   "question_type": "compute",
+   "question_pattern": "Find the area of an equilateral triangle with side {a} cm.",
+   "extracted_variables": {
+    "a": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half-sum of three equal sides",
+     "explain": "s = (12 + 12 + 12) / 2 = 18.",
+     "compute": "s = (3 * a) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the drops",
+     "explain": "sqrt(18 x 6 x 6 x 6) is about 62.35.",
+     "compute": "area = sqrt(s * (s - a) * (s - a) * (s - a))"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh106.txt lines 140-143 (Exercise: sides 8, 11, perimeter 32)",
+   "concept": "iemh.106.2",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a triangle with sides {a} cm and {b} cm and perimeter {p} cm.",
+   "extracted_variables": {
+    "a": "8",
+    "b": "11",
+    "c": "13",
+    "p": "32"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Recover the third side",
+     "explain": "32 - 8 - 11 = 13.",
+     "compute": "c = p - a - b"
+    },
+    {
+     "step": 2,
+     "action": "Half-sum",
+     "explain": "(8 + 11 + 13) / 2 = 16.",
+     "compute": "s = (a + b + c) / 2"
+    },
+    {
+     "step": 3,
+     "action": "Area from the drops",
+     "explain": "sqrt(16 x 8 x 5 x 3) is about 43.82.",
+     "compute": "area = sqrt(s * (s - a) * (s - b) * (s - c))"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "authored; right-triangle check (5-12-13)",
+   "concept": "iemh.106.2",
+   "question_type": "compute",
+   "question_pattern": "Work out the area of a triangle with sides {a}, {b} and {c}.",
+   "extracted_variables": {
+    "a": "5",
+    "b": "12",
+    "c": "13"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half-sum",
+     "explain": "(5 + 12 + 13) / 2 = 15.",
+     "compute": "s = (a + b + c) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the drops",
+     "explain": "sqrt(15 x 10 x 3 x 2) = sqrt(900) = 30.",
+     "compute": "area = sqrt(s * (s - a) * (s - b) * (s - c))"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh106.txt lines 129-133 (Exercise: circumference with radius 7)",
+   "concept": "iemh.106.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the round-trip length of a circle with radius {radius} cm.",
+   "extracted_variables": {
+    "radius": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the boundary-length rule",
+     "explain": "2 x pi x 7 is about 43.98 cm (often taken as 44).",
+     "compute": "circumference = 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "authored; rule anchored at iemh106.txt lines 119-124",
+   "concept": "iemh.106.1",
+   "question_type": "compute",
+   "question_pattern": "How far does a wheel of radius {radius} cm travel in one rotation?",
+   "extracted_variables": {
+    "radius": "35"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "One rotation equals one trip around",
+     "explain": "2 x pi x 35 is about 219.9 cm.",
+     "compute": "circumference = 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "authored; rule anchored at iemh106.txt lines 144-146",
+   "concept": "iemh.106.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a circle with radius {radius} cm.",
+   "extracted_variables": {
+    "radius": "14"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square and scale by pi",
+     "explain": "pi x 14^2 is about 615.75 square cm (616 with pi as 22/7).",
+     "compute": "area = pi * radius ** 2"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "authored; rule anchored at iemh106.txt lines 144-146",
+   "concept": "iemh.106.3",
+   "question_type": "compute",
+   "question_pattern": "How much metal goes into a disc of radius {radius} cm?",
+   "extracted_variables": {
+    "radius": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square and scale by pi",
+     "explain": "pi x 10^2 is about 314.16 square cm.",
+     "compute": "area = pi * radius ** 2"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iemh106.txt lines 147-150 (Exercise: sector radius 7, angle 60)",
+   "concept": "iemh.106.4",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a sector with radius {radius} cm and angle {theta} degrees.",
+   "extracted_variables": {
+    "radius": "7",
+    "theta": "60"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Corner's share of the disc",
+     "explain": "pi x 49 x (60/360) is about 25.66 square cm.",
+     "compute": "area = (pi * radius ** 2) * (theta / 360)"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "authored; rule anchored at iemh106.txt lines 146-147",
+   "concept": "iemh.106.4",
+   "question_type": "compute",
+   "question_pattern": "What area does a clock hand of length {radius} cm sweep in {minutes} minutes?",
+   "extracted_variables": {
+    "radius": "14",
+    "minutes": "30",
+    "theta": "180"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half a turn",
+     "explain": "30 minutes moves the hand through 180 degrees.",
+     "compute": "area = (pi * radius ** 2) * (theta / 360)"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "authored; sides from iemh105/iemh106 exercise sets (5, 5, 12, 12)",
+   "concept": "iemh.106.5",
+   "question_type": "compute",
+   "question_pattern": "Find the area of the curve-pinned four-sided shape with sides {a}, {b}, {c} and {d}.",
+   "extracted_variables": {
+    "a": "5",
+    "b": "5",
+    "c": "12",
+    "d": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half-sum of the sides",
+     "explain": "(5 + 5 + 12 + 12) / 2 = 17.",
+     "compute": "s = (a + b + c + d) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the four drops",
+     "explain": "sqrt(12 x 12 x 5 x 5) = sqrt(3600) = 60.",
+     "compute": "area = sqrt((s - a) * (s - b) * (s - c) * (s - d))"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "authored; method anchored at iemh106.txt lines 137-138",
+   "concept": "iemh.106.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the area for sides {a}, {b}, {c} and {d} pinned on a curve.",
+   "extracted_variables": {
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half-sum of the sides",
+     "explain": "(3 + 4 + 5 + 6) / 2 = 9.",
+     "compute": "s = (a + b + c + d) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Area from the four drops",
+     "explain": "sqrt(6 x 5 x 4 x 3) is about 18.97.",
+     "compute": "area = sqrt((s - a) * (s - b) * (s - c) * (s - d))"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iemh106.txt line 129",
+   "questions": [
+    "The perimeter of a circle is 44 cm. What is its radius?",
+    "Calculate the circumference of a circle with radius 7 cm.",
+    "Find the perimeter of a sector of a circle of radius 14 cm and angle 75 degrees."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "iemh106.txt line 142",
+   "questions": [
+    "Find the area of a triangle with sides 8 cm and 11 cm and perimeter 32 cm.",
+    "The sides of a triangular plot are in the ratio 3:5:7; its perimeter is 300 m. Find its area."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "iemh106.txt line 148",
+   "questions": [
+    "Find the area of a sector of a circle with radius 7 cm if the angle is 60 degrees.",
+    "Find the area of a quadrant of a circle whose circumference is 44 cm."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; schema/copyright/DSL/grounding reviewed and enriched by quality reviewer"
+}

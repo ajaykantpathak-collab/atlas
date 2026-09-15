@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_1",
+   "title": "c9_civ_ch1_1",
+   "questions": [
+    {
+     "q": "Define democracy in one sentence using the three core components: source of authority, method of exercise, and constitutional constraints.",
+     "a": "Correct answer: Democracy is a system where supreme authority resides in the people (source), who exercise power through elected representatives (method), within a constitutional framework that guarantees rights, rule of law, and accountability (constraints). A wrong answer that only mentions \"voting\" or \"majority rule\" reveals the misconception that democracy equals elections alone, ignoring constitutional limits and minority protections.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Preamble's phrase \"We, the people of India... adopt, enact and give to ourselves this Constitution\" establishes popular sovereignty as the foundation of Indian democracy, and how this differs from a monarchy or dictatorship.",
+     "a": "Correct answer: The phrase asserts that the Constitution derives its legitimacy from the people, not from a king, colonial power, or military leader. In a monarchy, sovereignty rests with the monarch (divine right or heredity); in a dictatorship, with the leader/seizing force. Popular sovereignty means the people are the ultimate source of all political authority, exercised through constitutional mechanisms. A wrong answer that equates \"people giving themselves a constitution\" with \"people voting in elections\" confuses the *foundational moment* (constituent power) with *routine operation* (constituted power).",
+     "self_check": true
+    },
+    {
+     "q": "A country holds elections every five years with universal adult franchise. However, the ruling party controls all media, uses state agencies to harass opponents, and the judiciary consistently rules in the government's favor. Using at least three core democratic principles, analyze whether this country qualifies as a substantive democracy.",
+     "a": "Correct answer: No, it lacks substantive democracy. It fails on: (1) Political Freedom – no free media or fair competition (violates Article 19); (2) Rule of Law – judiciary not independent, executive unchecked (violates Article 14, 50); (3) Accountability – no horizontal accountability (legislature, judiciary, media) or vertical accountability (free elections require fair contest). It has procedural democracy (elections) but not substantive democracy. A wrong answer saying \"yes because elections are held\" reveals the procedural fallacy – confusing the mechanism with the full democratic system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principle of \"political equality\" in democracy with \"legal equality\" (Article 14). How does political equality go beyond legal equality, and why is universal adult franchise (Article 326) the institutional expression of political equality?",
+     "a": "Correct answer: Legal equality (Article 14) means equal treatment *before the law* – no discrimination in application of laws. Political equality means equal *political influence* – each citizen has equal weight in decision-making (one person, one vote, one value). Universal adult franchise (Article 326) institutionalizes political equality by giving every adult citizen an equal vote regardless of caste, gender, education, or property. A wrong answer that treats them as identical misses that legal equality can exist in a non-democracy (e.g., a benevolent dictatorship with equal laws), but political equality *requires* democratic participation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A democracy that does not protect minority rights against majority decisions is not a true democracy.\" Use the concepts of constitutional limits, rule of law, and the Indian Preamble's \"fraternity\" and \"dignity\" in your evaluation.",
+     "a": "Correct answer: The statement is correct. True democracy requires constitutional limits on majority power (e.g., Fundamental Rights in Part III that cannot be easily amended, judicial review) to protect minorities. Rule of law means the majority cannot arbitrarily change rules to target minorities. The Preamble's \"fraternity assuring the dignity of the individual\" implies protecting minority identity and rights. Without these, democracy degenerates into \"tyranny of the majority\". A wrong answer agreeing that \"majority rule is the essence of democracy, so minorities must accept majority decisions\" reveals the majoritarian misconception – confusing democracy with majoritarianism.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-article \"Mini-Constitution\" for a school student council that operationalizes the three core democratic principles: popular sovereignty, political equality, and accountability. For each article, state which principle it reflects and how.",
+     "a": "Expected answer: Article 1: \"All decisions of the Student Council derive authority from the student body; the Council cannot amend this Constitution without a two-thirds majority in a student referendum.\" (Popular sovereignty – constituent power rests with students). Article 2: \"Every enrolled student has one vote in Council elections and referendums; no eligibility criteria based on grades, gender, or seniority.\" (Political equality – universal franchise, equal weight). Article 3: \"The Council must publish monthly reports of decisions and finances; any 50 students can demand a recall vote for any Council member.\" (Accountability – transparency and vertical accountability). A poor answer that creates articles without linking to principles, or misses one principle, shows inability to translate abstract principles into institutional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

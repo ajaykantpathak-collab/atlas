@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_003",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_003",
+   "title": "c7_eco_ch03_003",
+   "questions": [
+    {
+     "q": "What are the two primary components of utility infrastructure discussed in this topic?",
+     "a": "The two primary components are electricity transmission networks (power grids) and water pipeline distribution networks. A student who answers incorrectly by naming schools or roads is confusing utility infrastructure with social or transport infrastructure, failing to distinguish between public utilities and other forms of capital.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a reliable electricity grid considered more critical for an industrial manufacturing unit than a simple storage battery?",
+     "a": "A reliable electricity grid provides continuous, high-capacity power required to run heavy machinery on a large commercial scale, whereas a storage battery offers limited energy and cannot sustain continuous factory production. A wrong answer suggests the student thinks all power sources have equal capacity and fails to understand the scale required for economic development.",
+     "self_check": true
+    },
+    {
+     "q": "A small textile weaving workshop in rural Gujarat uses 50 kilowatt-hours (kWh) of electricity per day to run its power looms, costing ₹6 per kWh. If an unexpected power outage cuts their daily operational hours in half, reducing their output to 25 kWh, what is their new daily electricity cost, and how much money do they save or lose in potential revenue if each kWh usually helps generate ₹20 worth of cloth?",
+     "a": "Step 1: Calculate new daily electricity cost = 25 kWh × ₹6/kWh = ₹150. Step 2: Calculate normal daily output value = 50 kWh × ₹20 = ₹1000 worth of cloth. Step 3: Calculate reduced daily output value = 25 kWh × ₹20 = ₹500 worth of cloth. Step 4: Calculate net economic loss = (Normal revenue - Reduced revenue) + (Normal electricity cost - Reduced electricity cost) = (1000 - 500) + (300 - 150) = 500 + 150 = ₹650 net loss to the business. A wrong answer reveals confusion between variable utility expenses and lost output revenue during network failures.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how an unpaved, leaky municipal water pipeline network affects the operational costs and financial health of urban households and small cafes.",
+     "a": "Leaky and unreliable water pipelines force households and cafes to spend extra money buying private tanker water or boiling contaminated water using electricity/gas, raising their daily expenses and lowering their disposable income. A wrong answer indicates the student views public utility failures as merely an inconvenience rather than a direct economic drain on family and business budgets.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic justification for government investment in subsidizing rural electricity and piped water connections compared to leaving them entirely to private profit-seeking companies.",
+     "a": "Utility networks require massive upfront capital investments with long payback periods and provide high social externalities (public health, education productivity), which private firms avoid if poor rural customers cannot pay high market prices; thus government intervention ensures equitable economic development. A wrong answer shows a lack of understanding regarding why public goods require state support due to high setup costs and widespread societal benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic daily water and electricity budget for a small rural dairy farm in Punjab that accounts for a scheduled 4-hour daily power cut and limited municipal water supply hours.",
+     "a": "A successful answer must allocate milking machine operations and electric water pumping to the hours when grid power is active, utilize storage tanks (ciscuits) for water during non-supply hours, and estimate backup fuel costs for diesel generators if milking must occur during a blackout. A poor answer ignores infrastructure timing constraints and assumes unlimited instant access to utilities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

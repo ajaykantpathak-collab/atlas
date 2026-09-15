@@ -1,0 +1,608 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 102,
+  "chapter_title": "Principles of Management",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.102.1.1",
+      "title": "Meaning of Principles of Management",
+      "section": "1.1",
+      "definition": "Broad and general guidelines that steer managerial decisions and conduct; unlike the laws of pure science they concern people, so they are applied with judgement rather than mechanically.",
+      "formula": "",
+      "key_idea": "They sit apart from techniques (step-by-step procedures) and from values (moral preferences): principles guide the use of both.",
+      "textbook_ref": "lebs102.txt lines 125-219 (The Concept; principles vs techniques vs values)",
+      "question_patterns": [
+        "what is meant by principles of management",
+        "how do management principles differ from techniques of management",
+        "separate values from principles of management",
+        "why are management principles less rigid than scientific laws",
+        "give an example of a managerial principle guiding a promotion decision"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define them as broad guidelines",
+          "explain": "A principle is a general proposition that guides decisions when its conditions hold, not a fixed rule."
+        },
+        {
+          "step": 2,
+          "action": "Contrast with techniques",
+          "explain": "Techniques are the actual step-by-step procedures; principles advise how to choose and apply them."
+        },
+        {
+          "step": 3,
+          "action": "Contrast with values",
+          "explain": "Values carry moral weight and come from social practice; principles arise from researched work situations."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.2.1",
+      "title": "Nature of Principles of Management",
+      "section": "2.1",
+      "definition": "Seven qualities that describe these guidelines: they reach every kind of organisation, only suggest rather than prescribe, grow out of practice and experiments, bend to circumstances, chiefly address human behaviour, link causes with effects, and depend on the prevailing situation.",
+      "formula": "",
+      "key_idea": "Pick the quality from the clue -- pay fixed by contribution and paying capacity shows the contingent quality; same rule in a firm and a government office shows universal applicability.",
+      "textbook_ref": "lebs102.txt lines 220-477 (Nature: universal applicability through contingent)",
+      "question_patterns": [
+        "state the nature of principles of management",
+        "what makes principles of management flexible",
+        "explain universal applicability of management principles with an example",
+        "which characteristic shows that management principles depend on the prevailing situation",
+        "are management principles formed by practice and experimentation discuss",
+        "why are principles of management called mainly behavioural",
+        "what is meant by cause and effect relationship in management principles"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the quality in question",
+          "explain": "Universal applicability, general guidelines, formed by practice and experimentation, flexible, mainly behavioural, cause and effect, contingent."
+        },
+        {
+          "step": 2,
+          "action": "Unfold its meaning",
+          "explain": "One line on what that quality asserts about how the principles behave."
+        },
+        {
+          "step": 3,
+          "action": "Support with a fresh example",
+          "explain": "For instance, division of work applies in both a panchayat office and a private company, though to different degrees."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.3.1",
+      "title": "Significance of Principles of Management",
+      "section": "3.1",
+      "definition": "The payoffs managers gain by using the principles: sharper reading of real situations, leaner use of scarce resources and cleaner administration, fact-based decisions, readiness for a shifting environment, discharge of social duties, and a base for training, education and research.",
+      "formula": "",
+      "key_idea": "Six uses to memorise -- insights into reality, optimum utilisation with effective administration, scientific decisions, meeting change, social responsibility, and management teaching plus research.",
+      "textbook_ref": "lebs102.txt lines 586-816 (Significance i to vi)",
+      "question_patterns": [
+        "explain any four points regarding the significance of principles of management",
+        "how do management principles help in scientific decision making",
+        "which aspect of significance covers the training of managers",
+        "how do principles help in the optimum utilisation of resources",
+        "can management principles help a firm meet changing environment requirements discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Select the points asked for",
+          "explain": "Draw from the six standard heads of significance."
+        },
+        {
+          "step": 2,
+          "action": "Explain each chosen point",
+          "explain": "For example, principles bound managerial discretion so budgets rest on contribution, not personal taste."
+        },
+        {
+          "step": 3,
+          "action": "Add a case or company illustration",
+          "explain": "Outsourcing of non-core work shows principles adapting to a changing environment."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.4.1",
+      "title": "Taylor's Principles of Scientific Management",
+      "section": "4.1",
+      "definition": "F.W. Taylor's prescription for replacing personal guesswork with studied method: investigate work scientifically instead of relying on rule of thumb, build complete goodwill and a changed mindset between managers and workers, prefer joint effort to individualism, and develop every employee to full capacity through scientific selection and training.",
+      "formula": "",
+      "key_idea": "Four principles -- science over rule of thumb, harmony over discord, cooperation over individualism, plus development of every person; the underlying demand is a mental revolution on both sides.",
+      "textbook_ref": "lebs102.txt lines 999-1320 (Principles of Scientific Management i to iv, mental revolution)",
+      "question_patterns": [
+        "define scientific management and state its principles",
+        "explain the principle of science not rule of thumb",
+        "what does Taylor mean by harmony not discord",
+        "which principle is an extension of harmony not discord",
+        "explain mental revolution as given by Taylor",
+        "why did Taylor want each worker developed to the greatest efficiency and prosperity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the principle the case points to",
+          "explain": "Match the case behaviour -- guesswork methods, strikes, lone working, or untrained staff -- to the corresponding principle."
+        },
+        {
+          "step": 2,
+          "action": "Explain the principle",
+          "explain": "For example, cooperation not individualism asks management to welcome worker suggestions and share important decisions with them."
+        },
+        {
+          "step": 3,
+          "action": "Link both sides of the relationship",
+          "explain": "Taylor's principles always bind management and workers together -- gains shared, change accepted, work divided fairly."
+        },
+        {
+          "step": 4,
+          "action": "State the expected benefit",
+          "explain": "Higher productivity, lower conflict and prosperity for both parties."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.5.1",
+      "title": "Functional Foremanship",
+      "section": "5.1",
+      "definition": "Taylor's shop-floor arrangement that splits supervision among eight specialists: a planning wing (route clerk, instruction card clerk, time and cost clerk, disciplinarian) led by a planning incharge, and an execution wing (gang boss, speed boss, repair boss, inspector) led by a production incharge.",
+      "formula": "",
+      "key_idea": "It extends division of work to supervision because no single person holds all the qualities of a good foreman; each worker then takes orders from eight bosses in their own spheres.",
+      "textbook_ref": "lebs102.txt lines 1331-1406 (Functional Foremanship, planning and production incharge)",
+      "question_patterns": [
+        "why did taylor split supervision among eight specialists under a planning incharge and a production incharge",
+        "name the eight specialists in functional foremanship",
+        "who works under the planning incharge in functional foremanship",
+        "what duties does the speed boss or gang boss perform",
+        "why did Taylor separate planning from execution on the shop floor",
+        "which quality of a good foreman could no single person possess fully"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the reason for the split",
+          "explain": "Taylor found the ideal foreman's qualities could not sit in one person, so he split the role by specialisation."
+        },
+        {
+          "step": 2,
+          "action": "Draw the two wings",
+          "explain": "Planning incharge with instruction card clerk, route clerk, time and cost clerk, disciplinarian; production incharge with speed boss, gang boss, repair boss, inspector."
+        },
+        {
+          "step": 3,
+          "action": "Give each specialist's job in one line",
+          "explain": "For example, the route clerk fixes the path of production while the repair boss keeps machines workable."
+        },
+        {
+          "step": 4,
+          "action": "Note the worker's position",
+          "explain": "Every worker receives orders from all eight specialists, each within its own function."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.5.2",
+      "title": "Standardisation and Simplification of Work",
+      "section": "5.2",
+      "definition": "Twin techniques for tidy production: standardisation fixes benchmarks for materials, tools, time, methods and conditions that all output must meet, while simplification cuts away surplus varieties, sizes and models so that fewer lines are made and stored.",
+      "formula": "",
+      "key_idea": "Standardisation raises quality and interchangeability; simplification trims inventory, labour and machine cost.",
+      "textbook_ref": "lebs102.txt lines 1407-1493 (Standardisation and Simplification, objectives i to iv)",
+      "question_patterns": [
+        "distinguish between standardisation and simplification of work",
+        "what are the objectives of standardisation",
+        "how does simplification reduce the cost of production",
+        "why should a firm set standards for materials and methods",
+        "how do kaizen and benchmarking relate to standardisation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the two terms separately",
+          "explain": "Standardisation sets the benchmark for every activity; simplification removes unneeded variety."
+        },
+        {
+          "step": 2,
+          "action": "List what each achieves",
+          "explain": "Fixed types, sizes and quality on one side; savings in labour, machines, tools and inventories on the other."
+        },
+        {
+          "step": 3,
+          "action": "Quote a user of the techniques",
+          "explain": "Large manufacturers such as Toyota run on standardised processes."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.5.3",
+      "title": "Work Study Techniques: Method, Motion and Fatigue",
+      "section": "5.3",
+      "definition": "Three of Taylor's investigation tools: method study hunts for the single best way of arranging a job, motion study strips out unproductive body movements, and fatigue study fixes how often and how long rest intervals should be.",
+      "formula": "",
+      "key_idea": "Method study covers the whole flow from raw material to delivery; motion study classifies movements as productive, incidental or unproductive; fatigue study guards stamina and output.",
+      "textbook_ref": "lebs102.txt lines 1494-1613 (Method Study, Motion Study, Fatigue Study)",
+      "question_patterns": [
+        "distinguish between method study and motion study",
+        "what is the objective of fatigue study",
+        "state any two causes of fatigue in a workplace",
+        "which study aims at finding one best way of doing a job",
+        "how did motion study reduce the movements in brick layering",
+        "explain the classification of motions used in motion study"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify which study the question targets",
+          "explain": "Best way = method study; body movements = motion study; rest intervals = fatigue study."
+        },
+        {
+          "step": 2,
+          "action": "State its objective",
+          "explain": "Method: minimise cost and lift quality; motion: remove wasteful movement; fatigue: set the amount and frequency of rest."
+        },
+        {
+          "step": 3,
+          "action": "Add the classic illustration",
+          "explain": "Gilbreth cut brick-laying motions from eighteen to five, nearly quadrupling productivity."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.5.4",
+      "title": "Time Study and the Standard Task",
+      "section": "5.4",
+      "definition": "Time study measures with devices how long each element of a job should take, and from several readings fixes a standard time; that standard then converts into the number of units a worker must finish in a shift.",
+      "formula": "units_per_shift = (shift_hours - rest_hours) * minutes_per_hour / minutes_per_unit",
+      "key_idea": "The standard task decided by time study anchors worker numbers, incentive schemes and labour cost.",
+      "textbook_ref": "lebs102.txt lines 1556-1583 (Time Study with cardboard box example: 20 minutes per box, 21 boxes per 7-hour shift)",
+      "question_patterns": [
+        "a worker takes {minutes_per_unit} minutes per box and works {shift_hours} hours with {rest_hours} hour of rest find the standard task per shift",
+        "calculate the number of units per shift from the standard time per unit",
+        "state the main objective of time study",
+        "how is the standard time for a task determined",
+        "a box maker needs {minutes_per_unit} minutes per piece compute how many pieces make up a day's task in {shift_hours} hours",
+        "what decides the number of workers to be employed under time study"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find the effective working minutes",
+          "explain": "Remove rest and lunch time from the shift before counting output.",
+          "compute": "work_minutes = (shift_hours - rest_hours) * minutes_per_hour"
+        },
+        {
+          "step": 2,
+          "action": "Divide by the time per unit",
+          "explain": "Effective minutes split by the standard time of one unit gives the standard task.",
+          "compute": "units_per_shift = work_minutes / minutes_per_unit"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Time Study and the Standard Task, compute the result for shift_hours = 3, rest_hours = 3, minutes_per_hour = 3, minutes_per_unit = 2.",
+          "solution": "Step 1: Find the effective working minutes: work_minutes = (shift_hours - rest_hours) * minutes_per_hour = 0.0 Step 2: Divide by the time per unit: units_per_shift = work_minutes / minutes_per_unit = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Time Study and the Standard Task, compute the result for shift_hours = 4, rest_hours = 4, minutes_per_hour = 4, minutes_per_unit = 3.",
+          "solution": "Step 1: Find the effective working minutes: work_minutes = (shift_hours - rest_hours) * minutes_per_hour = 0.0 Step 2: Divide by the time per unit: units_per_shift = work_minutes / minutes_per_unit = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.5.5",
+      "title": "Differential Piece Wage System",
+      "section": "5.5",
+      "definition": "Taylor's pay scheme that separates efficient from inefficient workers: those reaching or beating the standard output earn a higher rate per piece, those below it earn a lower rate, so the wage gap itself motivates better performance.",
+      "formula": "daily_wage = units_produced * rate_per_unit",
+      "key_idea": "One output standard, two rates -- above or at standard gets the higher rate, below it the lower; the reward difference pushes output up.",
+      "textbook_ref": "lebs102.txt lines 1614-1659 (Differential Piece Wage System, 10-unit standard, Rs 50 vs Rs 40 example)",
+      "question_patterns": [
+        "which technique does Taylor use to distinguish efficient from inefficient workers",
+        "an efficient worker makes {units_produced} units at {rate_per_unit} per unit compute the daily wage",
+        "a worker below standard produces {units_produced} units at {rate_per_unit} per piece find the earnings",
+        "explain the differential piece wage system with an example",
+        "compare the earnings of an efficient and an inefficient worker under the differential rate system"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Pick the rate that applies",
+          "explain": "Output at or above standard takes the higher rate; output below standard takes the lower rate."
+        },
+        {
+          "step": 2,
+          "action": "Multiply units by the applicable rate",
+          "explain": "The day's wage is the number of pieces times the rate that the worker's performance earned.",
+          "compute": "daily_wage = units_produced * rate_per_unit"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Differential Piece Wage System, compute the result for units_produced = 3, rate_per_unit = 3.",
+          "solution": "Step 2: Multiply units by the applicable rate: daily_wage = units_produced * rate_per_unit = 9.0 Final result: 9.0",
+          "answer": "9.0"
+        },
+        {
+          "question": "Using Differential Piece Wage System, compute the result for units_produced = 4, rate_per_unit = 4.",
+          "solution": "Step 2: Multiply units by the applicable rate: daily_wage = units_produced * rate_per_unit = 16.0 Final result: 16.0",
+          "answer": "16.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.6.1",
+      "title": "Fayol's Fourteen Principles of Management",
+      "section": "6.1",
+      "definition": "Henri Fayol's general rules for running any organisation, drawn from his own managing experience: division of work, discipline, unity of command, authority matched with responsibility, unity of direction, fair pay, scalar chain, order, equity, stable tenure, initiative, team spirit, a balance of centralisation and decentralisation, and the organisation's interest placed above any single person's.",
+      "formula": "",
+      "key_idea": "In case questions, name the principle breached -- an order placed with a relative breaches the rule that the organisation's interest outranks any individual's; confusion from two bosses breaches unity of command.",
+      "textbook_ref": "lebs102.txt lines 1897-2554 (The 14 principles i to xiv)",
+      "question_patterns": [
+        "explain any four principles of management given by fayol",
+        "identify the principle violated when an employee receives orders from two superiors",
+        "which principle of fayol deals with fair payment to employees",
+        "a manager favours his relative in placing an order which principle does this breach",
+        "why should individual interest take a back seat before general interest",
+        "what does the principle of equity demand from managers",
+        "state the principle that encourages employees to suggest and execute improvements"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read the case for the breached principle",
+          "explain": "Match the wrong behaviour to the principle it injures among Fayol's fourteen."
+        },
+        {
+          "step": 2,
+          "action": "Explain the principle in your own words",
+          "explain": "One line on what following that principle would look like."
+        },
+        {
+          "step": 3,
+          "action": "List the consequences of breaching it",
+          "explain": "For example, dual subordination disturbs order, discipline and stability."
+        },
+        {
+          "step": 4,
+          "action": "Recommend the corrective step",
+          "explain": "State how the company should act to honour the principle again."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.6.2",
+      "title": "Unity of Command versus Unity of Direction",
+      "section": "6.2",
+      "definition": "Two distinct Fayol principles: unity of command insists each employee answers to exactly one boss to prevent dual subordination, while unity of direction requires that all activities chasing the same objective share one head and one plan to stop overlapping effort.",
+      "formula": "",
+      "key_idea": "Command concerns a single employee's reporting line; direction concerns a whole group of activities with one goal -- individual versus organisation-wide reach.",
+      "textbook_ref": "lebs102.txt lines 2040-2101 (Unity of Command, Unity of Direction) and the comparison table at lines 2150-2173",
+      "question_patterns": [
+        "differentiate between unity of command and unity of direction",
+        "how is the principle of unity of command useful to management",
+        "what does one head and one plan mean in unity of direction",
+        "a salesperson gets conflicting discount instructions from two departments which principle fails",
+        "why should dual subordination be avoided",
+        "compare the meaning aim and implications of the two unity principles"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define each principle",
+          "explain": "Command: one subordinate, one boss. Direction: one objective, one head, one plan."
+        },
+        {
+          "step": 2,
+          "action": "Contrast their aims",
+          "explain": "Command prevents dual subordination; direction prevents overlapping of activities."
+        },
+        {
+          "step": 3,
+          "action": "Contrast their reach",
+          "explain": "Command touches an individual employee; direction governs the entire organisation's divisions."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.6.3",
+      "title": "Scalar Chain and the Gang Plank",
+      "section": "6.3",
+      "definition": "The formal ladder of authority and communication running from the highest to the lowest rank, which messages normally must climb rung by rung; in an emergency Fayol permits a same-level shortcut, the gang plank, so urgent talks are not delayed.",
+      "formula": "",
+      "key_idea": "The chain keeps order; the gang plank is the sanctioned exception for emergencies -- not a licence to bypass hierarchy routinely.",
+      "textbook_ref": "lebs102.txt lines 2255-2322 (Scalar Chain, E-to-O example, Gang Plank)",
+      "question_patterns": [
+        "explain the principle of scalar chain and gang plank",
+        "what route must a message follow under the scalar chain",
+        "when can two employees at the same level communicate directly",
+        "why is the gang plank called an emergency escape from hierarchy",
+        "how does the scalar chain differ from the gang plank"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the scalar chain",
+          "explain": "Formal lines of authority from top to bottom that both managers and subordinates follow."
+        },
+        {
+          "step": 2,
+          "action": "Trace the long route with the A-to-F, L-to-P diagram",
+          "explain": "E reaches O only through D, C, B, A, L, M, N -- the full ladder."
+        },
+        {
+          "step": 3,
+          "action": "Introduce the gang plank as the exception",
+          "explain": "In emergencies E contacts O directly; speed of communication is preserved without routinely breaking the chain."
+        }
+      ]
+    },
+    {
+      "id": "lebs.102.7.1",
+      "title": "Fayol versus Taylor -- a Comparison",
+      "section": "7.1",
+      "definition": "The two classical thinkers differ in vantage point and purpose: Fayol wrote from the top-management seat about overall administration and offered universally applicable principles from personal experience, while Taylor wrote from the shop floor about raising productivity through observation and experiment for specialised industrial situations.",
+      "formula": "",
+      "key_idea": "Remember the pairs -- top level versus shop floor, universal versus specialised, experience versus experimentation, administration versus productivity, practitioner versus scientist; their contributions still complement each other.",
+      "textbook_ref": "lebs102.txt lines 2572-2639 (Fayol Versus Taylor comparison table)",
+      "question_patterns": [
+        "discuss the differences between the contributions of taylor and fayol",
+        "whose focus was overall administration and whose was productivity",
+        "compare fayol and taylor on the basis of applicability and formation",
+        "why are taylor and fayol called complementary rather than rivals",
+        "which of the two believed in unity of command and why did the other not"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Set the basis of comparison",
+          "explain": "Use the standard bases -- perspective, unity of command, applicability, formation, focus, personality, expression."
+        },
+        {
+          "step": 2,
+          "action": "Place each thinker on the basis",
+          "explain": "Fayol: top level, universal, experience, administration. Taylor: shop floor, specialised, experimentation, productivity."
+        },
+        {
+          "step": 3,
+          "action": "Close with the complementarity note",
+          "explain": "One improved managerial efficiency at the top, the other worker efficiency below; together they complete the classical school."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs102.txt lines 1571-1583 (time study box example)",
+      "concept": "lebs.102.5.4",
+      "question_type": "compute",
+      "question_pattern": "A box maker needs {minutes_per_unit} minutes for one box. The shift runs {shift_hours} hours with {rest_hours} hour for rest and lunch. Find the standard task for the shift.",
+      "extracted_variables": {
+        "minutes_per_unit": 20,
+        "shift_hours": 8,
+        "rest_hours": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Find the effective working minutes",
+          "explain": "8 hours minus 1 hour of rest leaves 7 hours, that is 420 minutes.",
+          "compute": "work_minutes = (shift_hours - rest_hours) * minutes_per_hour"
+        },
+        {
+          "step": 2,
+          "action": "Divide by the time per unit",
+          "explain": "420 divided by 20 gives 21 boxes -- the standard task.",
+          "compute": "units_per_shift = work_minutes / minutes_per_unit"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs102.txt lines 1638-1650 (differential wage example)",
+      "concept": "lebs.102.5.5",
+      "question_type": "compute",
+      "question_pattern": "With a standard of 10 units a day, efficient workers get {rate_per_unit} per unit and others Rs 40. A worker makes {units_produced} units at or above standard. Compute her daily wage.",
+      "extracted_variables": {
+        "units_produced": 11,
+        "rate_per_unit": 50
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Pick the rate that applies",
+          "explain": "11 units beats the 10-unit standard, so the higher rate of Rs 50 applies."
+        },
+        {
+          "step": 2,
+          "action": "Multiply units by the applicable rate",
+          "explain": "11 times 50 gives Rs 550 for the day; a 9-unit worker would earn 9 x 40 = Rs 360.",
+          "compute": "daily_wage = units_produced * rate_per_unit"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs102.txt lines 2721-2729 (exercise: Mr Rathore's order to his cousin)",
+      "concept": "lebs.102.6.1",
+      "question_type": "verify_property",
+      "question_pattern": "A top-level production manager places the raw material order with his cousin at a higher price instead of the regular supplier offering lower rates. Which principle of management is violated and what gains follow from observing it?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Name the breached principle",
+          "explain": "Personal preference over the company's benefit breaches the subordination of individual interest to general interest."
+        },
+        {
+          "step": 2,
+          "action": "Explain the principle",
+          "explain": "The organisation's larger interest must outweigh any one person's gain, and managers must model this by conduct."
+        },
+        {
+          "step": 3,
+          "action": "List the gains of following it",
+          "explain": "Decisions free of bias, lower costs, stakeholder trust and a work culture where employees copy the same fairness."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex102_vsa",
+      "source_ref": "lebs102.txt lines 2696-2709 (Very Short Answer Type)",
+      "questions": [
+        "What makes principles of management flexible?",
+        "State the main objective of time study.",
+        "Name the principle that is an extension of harmony not discord.",
+        "State any two causes of fatigue that may hinder an employee's performance.",
+        "Two recruits with no prior experience at Wales Limited were given one year to prove themselves. Name the principle of management followed.",
+        "Which technique does Taylor use for distinguishing efficient and inefficient workers?"
+      ]
+    },
+    {
+      "id": "ex102_sa",
+      "source_ref": "lebs102.txt lines 2710-2729 (Short Answer Type)",
+      "questions": [
+        "How is the principle of unity of command useful to management? Explain briefly.",
+        "Define scientific management. State any three of its principles.",
+        "If an organisation does not provide the right place for physical and human resources, which principle is violated and what are the consequences?",
+        "Explain any four points regarding the significance of principles of management.",
+        "Explain the principle of scalar chain and gang plank.",
+        "Mr Rathore orders raw material from his cousin at a higher price instead of the usual supplier offering lower rates. Which principle is violated and what are the positive impacts of following it?"
+      ]
+    },
+    {
+      "id": "ex102_la",
+      "source_ref": "lebs102.txt lines 2735-2837 (Long Answer Type)",
+      "questions": [
+        "Explain the principles of scientific management given by Taylor.",
+        "Explain with examples the Fayol principles: unity of direction, equity, esprit de corps, order, centralisation and decentralisation, initiative.",
+        "Explain the technique of functional foremanship and the concept of mental revolution as given by Taylor.",
+        "Discuss the techniques of scientific work study: time study, motion study, fatigue study, method study, simplification and standardisation.",
+        "Discuss the differences between the contributions of Taylor and Fayol.",
+        "In Bhasin Limited, overtime pushed subordinates under more than one superior, divisions began making multiple products with overlapping work, teamwork and initiative declined. Identify the Fayol principles violated, explain them, and suggest corrective steps."
+      ]
+    }
+  ]
+}

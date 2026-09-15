@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_001",
+   "title": "c11_bs_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define 'Public Sector Enterprise' as per the Companies Act, 2013 threshold. State the minimum percentage of paid-up capital that must be held by the government.",
+     "a": "A Government Company is defined under Section 2(45) of the Companies Act, 2013 as any company in which not less than 51% of the paid-up share capital is held by the Central Government, or by any State Government(s), or partly by the Central Government and partly by one or more State Governments. A wrong answer (e.g., \"50%\" or \"majority stake without specifying 51%\") reveals the student is confusing the general concept of 'majority control' with the specific statutory threshold required for the legal classification 'Government Company', which has implications for audit, accountability, and autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"LIC (Life Insurance Corporation of India) is a public sector company because it sells insurance to the public.\" Identify the misconception and correct it using the precise distinction between 'public sector' and 'public limited company'.",
+     "a": "The misconception is equating 'public sector' with 'serving the public' or 'public limited company'. LIC is a Statutory Corporation created by the LIC Act, 1956 (an Act of Parliament), wholly owned by the Government of India – hence a public sector enterprise. A 'Public Limited Company' (e.g., Reliance Industries) is a private sector entity where shares are freely transferable and held by the public, but ownership/control remains private. The error reveals confusion between the economic classification (public vs private sector based on ownership) and the legal form of a company (public vs private limited based on share transferability).",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into Private Sector or Public Sector with the specific form of organisation: (a) Indian Railways, (b) Tata Steel Ltd., (c) Food Corporation of India (FCI), (d) A partnership firm running a law consultancy, (e) Bharat Electronics Ltd. (BEL). Justify each classification in one sentence.",
+     "a": "(a) Indian Railways – Public Sector, Departmental Undertaking (part of Ministry of Railways, funded from Treasury, staffed by civil servants). (b) Tata Steel Ltd. – Private Sector, Public Limited Company (owned by private shareholders, registered under Companies Act). (c) FCI – Public Sector, Statutory Corporation (created by Food Corporations Act, 1964). (d) Law consultancy partnership – Private Sector, Partnership Firm (governed by Partnership Act, 1932). (e) BEL – Public Sector, Government Company (registered under Companies Act, >51% govt shareholding). A wrong classification (e.g., calling FCI a Government Company) reveals inability to distinguish between the three forms of public enterprises based on their mode of creation (Special Act vs Companies Act vs Government Department).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'accountability mechanism' of a Departmental Undertaking vs a Government Company. Why does the Government Company structure create a potential 'accountability gap' despite being a public sector enterprise?",
+     "a": "Departmental Undertaking: Direct accountability to the concerned Ministry and Parliament; employees are civil servants; CAG audit; revenue goes to Consolidated Fund. Government Company: Accountability is indirect – managed by Board of Directors (appointed by government), audited by CAG-appointed auditor, Annual Report placed in Parliament. The accountability gap arises because the Government Company enjoys autonomy in management decisions (unlike departmental control), but the government as majority shareholder often influences decisions informally, while the company is not directly answerable to Parliament for day-to-day operations (unlike departmental undertakings). This 'neither fully autonomous nor fully accountable' dilemma is a senior-secondary analytical nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 1991 Industrial Policy reduced the number of industries reserved for the public sector from 17 to 3 (atomic energy, arms, rail transport), effectively ending the public sector's dominant role in the Indian economy.\" Is this evaluation accurate? Provide a balanced judgment with two arguments for and two against.",
+     "a": "The statement is partially inaccurate – it confuses 'reservation' with 'dominant role'. Arguments AGAINST the statement: (1) Public sector retains strategic dominance in reserved sectors (defence, atomic energy, railways) and continues to lead in banking (SBI, PNB), energy (ONGC, NTPC), and infrastructure. (2) The policy aimed at 'mutual complementarity', not elimination; PSUs were restructured via MoUs, disinvestment, and professionalisation to compete, not vanish. Arguments FOR the statement: (1) Private sector entry into previously reserved areas (telecom, power, airlines) eroded PSU monopolies. (2) Disinvestment reduced government equity below 51% in many firms (e.g., Hindustan Zinc, BALCO), changing their legal classification. A one-sided answer reveals failure to distinguish between 'policy shift' and 'structural elimination'.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel decision-making framework (flowchart or 3-step checklist) that a Class 11 student can use to classify ANY Indian enterprise as Private Sector or Public Sector (and if public, which of the three forms). Your framework must use only observable, verifiable criteria (e.g., \"Check Annual Report for shareholding pattern\", \"Check enabling Act\").",
+     "a": "A good framework:\nStep 1 (Ownership Test): Check latest Annual Report/ROC filing – Is ≥51% paid-up capital held by Central/State Govt? If NO → Private Sector (identify form: Proprietorship/Partnership/Company). If YES → Public Sector, go to Step 2.\nStep 2 (Genesis Test): Check enabling legislation – Was it created by a Special Act of Parliament/State Legislature? If YES → Statutory Corporation (e.g., RBI, LIC, FCI). If NO (created under Companies Act), go to Step 3.\nStep 3 (Administrative Test): Is it a part of a Government Ministry, staffed by civil servants, funded from Treasury? If YES → Departmental Undertaking (e.g., Railways, Post). If NO (separate legal entity, own staff, own funds) → Government Company (e.g., BHEL, SAIL).\nA poor framework uses vague criteria like \"check if it's famous\" or \"check if it serves the public\", revealing inability to operationalise legal definitions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip101",
+ "concepts": [
+  {
+   "id": "leip101.1",
+   "title": "GST, FinalPrice and EMI Computation",
+   "questions": [
+    {
+     "q": "Calculate the GST at 12 percent of the price of car D001 costing 582613 and round it to one decimal place. Use the method 'GST, FinalPrice and EMI Computation'. Work with: car_price = 80000, emi_unit = 150, gst_rate = 8, instalment_count = 8000. Carry the chain through step by step and give the final value of emi_amount.",
+     "a": "10.8 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the FinalPrice of car D001 after adding 12 percent GST to its price. Use the method 'GST, FinalPrice and EMI Computation'. Work with: car_price = 120000, emi_unit = 15, gst_rate = 8, instalment_count = 120000. Carry the chain through step by step and give the final value of emi_amount.",
+     "a": "1.08 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GST, FinalPrice and EMI Computation' refers to.",
+     "a": "A showroom query can chain arithmetic inside SELECT: add tax at 12 percent of the listed price to build the final price, then split that amount into ten equal monthly installments rounded down to a multiple of ten thousand, leaving the leftover payable at once. The MOD-style remainder isolates the leftover, and integer division by the installment count gives the clean EMI.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GST, FinalPrice and EMI Computation'.",
+     "a": "Tax first, total second, remainder third: the leftover after stripping the last ten-thousands, divided by ten, is the payable EMI.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GST, FinalPrice and EMI Computation', in plain ASCII form.",
+     "a": "emi_amount = (final_price - final_price % emi_unit) / instalment_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.2",
+   "title": "String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM",
+   "questions": [
+    {
+     "q": "Find the position of 'ma' in the string Informatics using INSTR. Use the method 'String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM'. Work with: at_sign_position = 80, email_length = 45. Carry the chain through step by step and give the final value of email_length_check.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "How many leading spaces does LTRIM remove from a padded string of length 7 holding DELHI? Use the method 'String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM'. Work with: at_sign_position = 25, email_length = 25. Carry the chain through step by step and give the final value of email_length_check.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM' refers to.",
+     "a": "String functions dissect text values: LENGTH counts characters, INSTR reports where a substring first sits (0 when absent), LEFT and RIGHT copy characters from either end, MID/SUBSTR cut from a position onward, and LTRIM, RTRIM, TRIM shave padding spaces from the left, right or both sides. Combining INSTR with LEFT, for example, slices an email into its name part before the at-sign.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM'.",
+     "a": "Position functions locate, cut functions extract, and trimming functions subtract the padding from the raw length.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM', in plain ASCII form.",
+     "a": "trimmed_length = raw_length - saved_spaces",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.3",
+   "title": "Date Functions: YEAR, MONTH, DAY, DAYNAME",
+   "questions": [
+    {
+     "q": "Using the method 'Date Functions: YEAR, MONTH, DAY, DAYNAME', work with: exit_month = 5, exit_year = 100, join_month = 5, join_year = 25. Carry the chain through step by step and give the final value of service_months.",
+     "a": "900 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Date Functions: YEAR, MONTH, DAY, DAYNAME' and work with: exit_month = 18, exit_year = 500, join_month = 8, join_year = 150. Carry the chain through step by step and give the final value of service_months.",
+     "a": "4210 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Date Functions: YEAR, MONTH, DAY, DAYNAME' refers to.",
+     "a": "Date functions pick a stored date apart: YEAR, MONTH and DAY return the numeric parts, MONTHNAME and DAYNAME return words like November or Thursday, NOW() reads the clock, and DATE() keeps just the date part of a timestamp. Duration questions, such as months of service between two dates, reduce to counting month numbers on both ends and subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Date Functions: YEAR, MONTH, DAY, DAYNAME'.",
+     "a": "Convert each date to a single month counter (year times twelve plus month); the difference is the span in months.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Date Functions: YEAR, MONTH, DAY, DAYNAME', in plain ASCII form.",
+     "a": "service_months = months_now - months_joined",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.4",
+   "title": "Aggregate Functions: MAX, MIN, AVG, SUM, COUNT",
+   "questions": [
+    {
+     "q": "Find MAX(Price) and MIN(Price) from the INVENTORY table. Use the method 'Aggregate Functions: MAX, MIN, AVG, SUM, COUNT'. Work with: car_count = 20, p_eight = 18, p_five = 18, p_four = 6, p_one = 5, p_seven = 40, p_six = 500, p_three = 45, p_two = 12. Carry the chain through step by step and give the final value of inventory_average.",
+     "a": "32.2 years",
+     "self_check": false
+    },
+    {
+     "q": "Compute SUM(Price) of all eight cars in the INVENTORY table. Use the method 'Aggregate Functions: MAX, MIN, AVG, SUM, COUNT'. Work with: car_count = 6, p_eight = 8, p_five = 240, p_four = 5, p_one = 400, p_seven = 12, p_six = 150, p_three = 25, p_two = 3. Carry the chain through step by step and give the final value of inventory_average.",
+     "a": "140.5 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregate Functions: MAX, MIN, AVG, SUM, COUNT' refers to.",
+     "a": "Aggregate (multiple row) functions collapse a whole column of rows into one number: MAX and MIN take the extremes, SUM totals, AVG divides the total by the value count, COUNT counts non-null entries and COUNT(*) counts every row. On the chapter's INVENTORY table, the eight car prices give a total of 4608733 and an average of 576091.625.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregate Functions: MAX, MIN, AVG, SUM, COUNT'.",
+     "a": "Sum the column once, divide by the row count for the average; extremes come from MAX and MIN without sorting.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregate Functions: MAX, MIN, AVG, SUM, COUNT', in plain ASCII form.",
+     "a": "inventory_average = inventory_total / car_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.5",
+   "title": "GROUP BY and HAVING Clauses",
+   "questions": [
+    {
+     "q": "Find the sum of sale price of the cars purchased by customer C0001. Use the method 'GROUP BY and HAVING Clauses'. Work with: c0001_purchase_count = 12000, invoice_four = 60, invoice_one = 6. Carry the chain through step by step and give the final value of c0001_average.",
+     "a": "0.0055 years",
+     "self_check": false
+    },
+    {
+     "q": "Compute the average sale price per car for customer C0001 who bought two cars. Use the method 'GROUP BY and HAVING Clauses'. Work with: c0001_purchase_count = 12000, invoice_four = 25, invoice_one = 240. Carry the chain through step by step and give the final value of c0001_average.",
+     "a": "0.0221 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GROUP BY and HAVING Clauses' refers to.",
+     "a": "GROUP BY collects the rows sharing a value in one column into buckets so aggregates run per bucket, for instance the number of cars each customer bought. HAVING then filters those buckets after aggregation, keeping only the groups that pass a condition such as more than one purchase; WHERE cannot do this job because it filters rows before grouping.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GROUP BY and HAVING Clauses'.",
+     "a": "WHERE filters rows, GROUP BY buckets them, HAVING filters the buckets; per-group aggregates follow the same sum-then-divide arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GROUP BY and HAVING Clauses', in plain ASCII form.",
+     "a": "c0001_average = c0001_total / c0001_purchase_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.6",
+   "title": "Set Operations: UNION, INTERSECT, MINUS",
+   "questions": [
+    {
+     "q": "How many rows does DANCE UNION MUSIC contain for the two event tables of the chapter? Use the method 'Set Operations: UNION, INTERSECT, MINUS'. Work with: dance_rows = 60, music_rows = 360, shared_rows = 0.35. Carry the chain through step by step and give the final value of union_rows.",
+     "a": "419.65 units",
+     "self_check": false
+    },
+    {
+     "q": "How many rows does DANCE MINUS MUSIC keep? Use the method 'Set Operations: UNION, INTERSECT, MINUS'. Work with: dance_rows = 18, music_rows = 15, shared_rows = 0.5. Carry the chain through step by step and give the final value of union_rows.",
+     "a": "32.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Set Operations: UNION, INTERSECT, MINUS' refers to.",
+     "a": "Two relations with matching columns can be merged set-wise: UNION stacks the rows of both tables but shows a shared row once, INTERSECT keeps only rows present in both, and MINUS keeps rows of the first table absent from the second. Row counting follows the inclusion-exclusion arithmetic of sets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Set Operations: UNION, INTERSECT, MINUS'.",
+     "a": "Subtract the overlap to get each table's exclusive rows; the union is the two exclusives plus one copy of the overlap.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Set Operations: UNION, INTERSECT, MINUS', in plain ASCII form.",
+     "a": "union_rows = dance_only + music_only + shared_rows",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.7",
+   "title": "Cartesian Product Degree and Cardinality",
+   "questions": [
+    {
+     "q": "Using the method 'Cartesian Product Degree and Cardinality', work with: first_cardinality = 100, first_degree = 4, second_cardinality = 25, second_degree = 45. Carry the chain through step by step and give the final value of combined_cardinality.",
+     "a": "2500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cartesian Product Degree and Cardinality' and work with: first_cardinality = 200, first_degree = 45, second_cardinality = 25, second_degree = 150. Carry the chain through step by step and give the final value of combined_cardinality.",
+     "a": "5000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cartesian Product Degree and Cardinality' refers to.",
+     "a": "The Cartesian product pairs every row of one relation with every row of another. Its degree adds the two degrees (columns pile up side by side) and its cardinality multiplies the two cardinalities (each row of the first meets each row of the second); DANCE with MUSIC therefore yields degree 6 and cardinality 20.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cartesian Product Degree and Cardinality'.",
+     "a": "Columns add, rows multiply: the product relation's size is the product of the input sizes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cartesian Product Degree and Cardinality', in plain ASCII form.",
+     "a": "combined_cardinality = first_cardinality * second_cardinality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.8",
+   "title": "JOIN and NATURAL JOIN on Two Tables",
+   "questions": [
+    {
+     "q": "Using the method 'JOIN and NATURAL JOIN on Two Tables', work with: table_count = 40. Carry the chain through step by step and give the final value of joins_needed.",
+     "a": "39 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'JOIN and NATURAL JOIN on Two Tables' and work with: table_count = 5. Carry the chain through step by step and give the final value of joins_needed.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'JOIN and NATURAL JOIN on Two Tables' refers to.",
+     "a": "A JOIN pulls related rows out of two tables by testing a condition, usually equality between a primary key and its foreign key; the condition may sit in WHERE, in JOIN ... ON, or be left implicit in NATURAL JOIN, which additionally drops the duplicated common column. Joining N tables on equality needs N-1 joins.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'JOIN and NATURAL JOIN on Two Tables'.",
+     "a": "JOIN filters the cartesian product down to matching pairs; NATURAL JOIN hides the repeated common column.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'JOIN and NATURAL JOIN on Two Tables', in plain ASCII form.",
+     "a": "joins_needed = table_count - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip101.9",
+   "title": "Single Row versus Aggregate Functions",
+   "questions": [
+    {
+     "q": "Using the method 'Single Row versus Aggregate Functions', work with: one_per_row_or_group = 150. Carry the chain through step by step and give the final value of results_returned.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Single Row versus Aggregate Functions' and work with: one_per_row_or_group = 60. Carry the chain through step by step and give the final value of results_returned.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Single Row versus Aggregate Functions' refers to.",
+     "a": "Single row (scalar) functions such as POWER, ROUND, MOD, UPPER, LOWER and the date extractors work on one value per row and return one result per row, so they may appear in SELECT, WHERE or ORDER BY. Aggregate functions instead swallow a whole group of rows and return one value per group, and they live only in the SELECT list.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Single Row versus Aggregate Functions'.",
+     "a": "Row functions transform each row independently; aggregates collapse many rows into a single figure.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Single Row versus Aggregate Functions', in plain ASCII form.",
+     "a": "results_returned = one_per_row_or_group",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

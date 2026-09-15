@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_009",
+   "title": "c11_bio_cbse_09_009",
+   "questions": [
+    {
+     "q": "A student performs acid extraction on yeast cells and obtains an acid-soluble fraction containing compounds with molecular weights between 18–800 Da. Which of the following would NOT be found in this fraction: (a) glucose, (b) ATP, (c) glycogen, (d) glutamic acid?",
+     "a": "Correct answer: (c) glycogen. Glycogen is a polysaccharide with molecular weight >10,000 Da, so it precipitates in the acid-insoluble fraction. Glucose (180 Da), ATP (507 Da), and glutamic acid (147 Da) are all <1000 Da and remain acid-soluble. A wrong answer reveals the student is classifying by chemical class (carbohydrate) rather than molecular weight/solubility behavior — they see \"carbohydrate\" and think \"macromolecule\" without checking if it's a monomer or polymer.",
+     "self_check": true
+    },
+    {
+     "q": "During tissue homogenization in trichloroacetic acid, phospholipids from the endoplasmic reticulum membranes appear in the acid-insoluble pellet. A student argues: \"Phospholipids have molecular weight ~750 Da, so they should be in the acid-soluble filtrate.\" Explain why this reasoning is incorrect using the concept of membrane vesicle formation.",
+     "a": "Correct explanation: Homogenization mechanically disrupts membranes into closed vesicles (liposomes) that are physically large and water-insoluble. These vesicles sediment with the acid-insoluble pellet during filtration/centrifugation, carrying their lipid components with them. The classification is based on *behavior during the extraction procedure*, not molecular weight alone. A wrong answer shows the student treats molecular weight as the sole criterion, missing the crucial experimental context that defines the operational classification in biochemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates a compound from a plant extract that tests positive for nitrogen and phosphorus, has a molecular weight of 320 Da, and is soluble in the acid-soluble fraction. The compound is a monomeric unit of a larger macromolecule. Identify the class of macromolecule this monomer builds, and name the specific monomer.",
+     "a": "Macromolecule class: Nucleic acid (DNA or RNA). Monomer: Nucleotide (specifically a ribonucleotide or deoxyribonucleotide). Reasoning: N+P presence + ~320 Da MW + acid-solubility + monomeric status = nucleotide. Nucleotides are the building blocks of nucleic acids (macromolecules >10,000 Da). Amino acids (C,H,O,N,S) lack phosphorus; monosaccharides lack N and P; fatty acids lack N and P. A wrong answer suggests the student cannot connect elemental composition to monomer identity or doesn't know nucleotide structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distribution of primary vs secondary metabolites in the acid-soluble and acid-insoluble fractions of a plant tissue extract. Predict which fraction would contain rubber (polyisoprene) and justify your prediction using molecular weight and metabolic classification.",
+     "a": "Primary metabolites (amino acids, nucleotides, sugars, organic acids) are predominantly in the acid-soluble fraction (<1000 Da). Some primary metabolites that are polymeric (proteins, nucleic acids, polysaccharides) are in the acid-insoluble fraction. Secondary metabolites are diverse: small ones (alkaloids, flavonoids ~300–500 Da) are acid-soluble; polymeric ones (rubber, cellulose, gums >10,000 Da) are acid-insoluble. Rubber (polyisoprene) is a secondary metabolite AND a polymer with very high molecular weight, so it partitions into the acid-insoluble fraction. A wrong answer reveals confusion between \"primary/secondary\" (functional classification) and \"micro/macro\" (physical classification) — they are orthogonal categories.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All biomacromolecules are polymers, and all polymers in living systems are biomacromolecules.\" Identify the error and provide a counterexample for each direction of the implication.",
+     "a": "The statement is FALSE in both directions. (1) \"All biomacromolecules are polymers\" — FALSE because lipids are classified as biomacromolecules (acid-insoluble fraction) but are NOT polymers (they are not made of repeating monomeric units linked by covalent bonds). (2) \"All polymers in living systems are biomacromolecules\" — FALSE because some polymers like short oligosaccharides (3–10 sugar units, MW ~500–1800 Da) or small peptides (dipeptides, tripeptides) may remain acid-soluble and are not considered macromolecules. A wrong evaluation shows the student memorizes \"macromolecules = polymers\" as a definition without understanding the operational (experimental) basis of the classification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only trichloroacetic acid extraction, filtration, and molecular weight estimation (e.g., gel filtration) to determine whether an unknown compound X from a bacterial extract is a primary metabolite micromolecule, a primary metabolite macromolecule, or a secondary metabolite. Outline the decision logic at each step.",
+     "a": "Step 1: Extract bacteria in TCA, filter. If X is in filtrate → acid-soluble (likely micromolecule, MW <1000 Da). If in pellet → acid-insoluble (likely macromolecule, MW >10,000 Da, or lipid/membrane-associated). Step 2: Estimate MW of X from its fraction. If filtrate and MW <1000 Da → candidate primary metabolite micromolecule (verify by checking if it's a known universal metabolite: amino acid, nucleotide, sugar, etc.). If pellet and MW >10,000 Da → candidate primary metabolite macromolecule (protein/nucleic acid/polysaccharide). If filtrate but MW >1000 Da OR pellet but not protein/nucleic acid/polysaccharide → candidate secondary metabolite. Step 3: Confirm by taxonomic distribution — if found only in specific taxa (e.g., antibiotics in actinomycetes, rubber in Hevea), it's secondary. A poor design misses the orthogonal nature of the two classifications or omits MW verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

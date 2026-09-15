@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_001",
+   "title": "c12_geo_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define tertiary activities in one sentence and give two examples that are NOT transport or communication.",
+     "a": "Correct: \"Tertiary activities are service-sector activities providing intangible outputs like expertise, care, or finance without transforming raw materials; examples: banking, teaching, healthcare.\" A wrong answer that includes \"manufacturing cars\" or \"mining coal\" reveals confusion with secondary/primary sectors — the student misses the non-transformation criterion. An answer listing only transport/communication shows incomplete classification awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a haircut not be stored like a manufactured shampoo bottle? Explain using a characteristic unique to tertiary activities.",
+     "a": "Correct: \"Services are non-storable (perishable) — production and consumption are simultaneous; the haircut vanishes the moment it is delivered, unlike a tangible good that can be inventoried.\" A wrong answer citing \"services are intangible\" is true but does not explain non-storability; the student conflates intangibility with perishability. Another error: \"services cannot be transported\" — irrelevant to storage.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each into the correct tertiary sub-type: (a) Mumbai-Pune expressway toll collection, (b) a freelance graphic designer in Bengaluru, (c) a wholesale grain market in Punjab, (d) India Post delivering Aadhaar letters. Justify each in one phrase.",
+     "a": "(a) Transport (infrastructure service enabling movement), (b) Professional services (skill-based, knowledge-intensive), (c) Trade & commerce (exchange of goods), (d) Communication (information transfer). A wrong classification like (a) as trade confuses the service (toll collection) with the good being moved; the student must identify the *nature of the activity*, not the context. (b) as \"business services\" is acceptable but less precise than \"professional services\" which emphasises specialised skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of a software park in Hyderabad with a steel plant in Jamshedpur. How does the tertiary activity's location differ from the secondary activity's?",
+     "a": "Correct: \"Steel plant locates near raw materials (iron ore, coal) and transport to minimise input costs (Weber's least-cost theory); software park locates near skilled labour, universities, and urban amenities because its 'raw material' is human capital and its market is global via communication networks — footloose with low transport costs.\" A wrong answer saying \"both locate near cities\" misses the fundamental difference: secondary is material-oriented, tertiary is market/skill-oriented. Another error: \"tertiary locates near raw materials\" — category mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's tertiary sector contributes ~54% to GDP but employs only ~32% of the workforce (PLFS 2022-23); therefore, tertiary growth has been jobless.\" Support with two geographical arguments.",
+     "a": "Correct evaluation: \"Partly true but incomplete. Argument 1: High-value tertiary sub-sectors (IT, finance) are skill-intensive and capital-light, generating fewer jobs per unit GDP than low-value services (retail, domestic work) — spatial mismatch: jobs cluster in metros while labour resides in rural areas. Argument 2: Informal tertiary employment (street vending, auto-rickshaws) is undercounted in PLFS; the 'jobless' label ignores disguised employment in services. Counter: tertiary still creates the largest *net new* formal jobs annually.\" A wrong answer blaming only \"automation\" ignores structural dualism; another saying \"primary sector should employ more\" reverses development logic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-service rural hub for a cluster of 10 villages in Maharashtra's Vidarbha region that would reduce out-migration. Specify the services, their tertiary sub-types, and the geographical principle guiding their co-location.",
+     "a": "Good answer: \"1) Primary health centre + telemedicine link (professional service) — addresses healthcare access. 2) Agricultural produce aggregation centre with e-NAM connectivity (trade + communication) — reduces distress sale, links to national market. 3) Skill-training centre for agro-processing and equipment repair (professional + business service) — builds local human capital. Principle: 'Service agglomeration economies' — co-location lowers shared infrastructure cost (power, internet, transport) and creates multiplier effects (patient visits market, trainee uses health centre), making the hub viable at lower threshold population than isolated services.\" Poor answer: lists random services without sub-type classification or agglomeration logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

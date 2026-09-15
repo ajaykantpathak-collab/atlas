@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_001",
+   "title": "c12_math_cbse_13_001",
+   "questions": [
+    {
+     "q": "State the formula for conditional probability P(E|F) and the condition under which it is defined.",
+     "a": "The formula is P(E|F) = P(E ∩ F) / P(F), defined only when P(F) ≠ 0. A wrong answer (e.g., writing P(E|F) = P(E)/P(F) or omitting the condition P(F) ≠ 0) reveals the student confuses conditional probability with a simple ratio of individual probabilities or does not understand that conditioning on an impossible event is meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "In the formula P(E|F) = P(E ∩ F) / P(F), why must we divide by P(F) rather than by 1 (the total probability of the sample space)?",
+     "a": "Dividing by P(F) renormalises the probability measure so that the new sample space (the outcomes in F) has total probability 1. If we divided by 1, we would get P(E ∩ F), which is the probability of both events occurring in the *original* sample space, not the updated probability given F has occurred. A wrong answer indicates the student does not grasp that conditioning changes the sample space and requires renormalisation.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 7 blue balls. Two balls are drawn at random without replacement. Given that the first ball drawn is red, find the probability that the second ball is also red.",
+     "a": "Let R1 = first ball red, R2 = second ball red. P(R1) = 5/12. After drawing a red ball, 4 red and 7 blue remain (11 total). P(R2|R1) = 4/11. Alternatively, P(R1 ∩ R2) = (5/12)×(4/11) = 20/132 = 5/33. Then P(R2|R1) = (5/33) / (5/12) = (5/33)×(12/5) = 4/11. A wrong answer like 5/12 (ignoring the first draw) or 4/12 (wrong denominator) shows the student fails to update the sample space after the condition.",
+     "self_check": true
+    },
+    {
+     "q": "Two events A and B have P(A) = 0.4, P(B) = 0.5, P(A ∩ B) = 0.2. Compare P(A|B) and P(B|A). Are they equal? Explain why or why not using the formula.",
+     "a": "P(A|B) = 0.2/0.5 = 0.4. P(B|A) = 0.2/0.4 = 0.5. They are not equal because P(A|B) = P(A∩B)/P(B) and P(B|A) = P(A∩B)/P(A), and the denominators differ unless P(A) = P(B). A student who claims they are equal confuses symmetry of intersection (A∩B = B∩A) with symmetry of conditional probability, not realising the denominator changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"P(E) = 0.3, P(F) = 0.4, P(E ∩ F) = 0.12. Find P(E|F).\" They write: P(E|F) = P(E) × P(F) = 0.12, then P(E|F) = 0.12 / 0.4 = 0.3. Is this correct? Identify any conceptual error.",
+     "a": "The final answer 0.3 is numerically correct, but the step \"P(E|F) = P(E) × P(F)\" is conceptually wrong — that formula holds only for independent events, which is not given. The correct step is P(E|F) = P(E∩F)/P(F) = 0.12/0.4 = 0.3. The student got the right answer by coincidence because the events happen to be independent (0.12 = 0.3×0.4). This error reveals the student memorises formulas without checking conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) involving conditional probability where the condition is \"a randomly selected person tests positive for a disease\" and the event of interest is \"the person actually has the disease\". Specify all probabilities needed and write the expression for the required conditional probability.",
+     "a": "Example: In a city, 2% of people have a disease. A test detects the disease with 95% accuracy (true positive rate) and gives false positives for 5% of healthy people. If a person tests positive, find the probability they actually have the disease. Let D = has disease, T = tests positive. Given: P(D) = 0.02, P(T|D) = 0.95, P(T|D') = 0.05. Required: P(D|T) = P(D∩T)/P(T). A poor answer uses made-up numbers without ensuring they are consistent (e.g., probabilities > 1) or writes P(T|D) instead of P(D|T), confusing the direction of conditioning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

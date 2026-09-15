@@ -1,0 +1,237 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Number Play",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.3.1",
+   "title": "Numbers Can Tell Us Things",
+   "section": "3.1 Numbers can tell us things",
+   "definition": "Numbers can describe situations cleverly: patterns of numbers can stand for children standing in order of height or other hidden facts, and reading the pattern reveals the story behind the numbers.",
+   "formula": "",
+   "key_idea": "A number pattern is a coded story: decoding the rule tells the hidden situation.",
+   "textbook_ref": "fegp103.txt, 3.1 Numbers can tell us things",
+   "question_patterns": [
+    "how can numbers describe heights of children in a line",
+    "what story does a given number pattern tell",
+    "write your own pattern that hides a fact",
+    "why do number patterns carry information",
+    "decode the pattern given in the chapter",
+    "make a puzzle where numbers tell something about your class"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.2",
+   "title": "Supercells",
+   "section": "3.2 Supercells",
+   "definition": "In a row or grid of numbers, a cell is a supercell when its number is bigger than its neighbours beside it; marking supercells turns number grids into games of observation.",
+   "formula": "",
+   "key_idea": "A supercell is a local champion: bigger than its immediate neighbours, even if not the biggest overall.",
+   "textbook_ref": "fegp103.txt, 3.2 Supercells",
+   "question_patterns": [
+    "what is a supercell in a table of numbers",
+    "mark all supercells in the given grid",
+    "can a smallest number of the table be a supercell",
+    "how many supercells does the given row have",
+    "fill a grid so that exactly two cells are supercells",
+    "why is the biggest number always a supercell in a row"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.3",
+   "title": "Kaprekar's Routine to 6174",
+   "section": "3.4 Playing with digits",
+   "definition": "Take a four-digit number, arrange its digits from biggest to smallest and from smallest to biggest, and subtract: repeating this Kaprekar routine lands every four-digit number (with not all digits equal) on the constant 6174.",
+   "formula": "diff = desc_digits - asc_digits",
+   "key_idea": "One subtraction step shuffles numbers towards a fixed point: 6174 keeps returning to itself.",
+   "textbook_ref": "fegp103.txt, 3.4 Playing with digits",
+   "question_patterns": [
+    "what is Kaprekar's routine for a four digit number",
+    "apply one Kaprekar step to 4321",
+    "what is special about the number 6174",
+    "do one step of the routine on the digits of 7641",
+    "why must the four digits not all be equal",
+    "how many rounds take 5314 to reach 6174"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "arrange the digits",
+     "explain": "Order the digits from biggest to smallest and from smallest to biggest.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the arrangements",
+     "explain": "Take the ascending arrangement away from the descending one.",
+     "compute": "diff = desc_digits - asc_digits"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.4",
+   "title": "Patterns of Numbers on the Number Line",
+   "section": "3.3 Patterns of numbers on the number line",
+   "definition": "Marking numbers on the number line reveals families: numbers with the same digit sum cluster in colour-classes, multiples of a number sit at even gaps, and games like saying a word for multiples of 3 make the structure audible.",
+   "formula": "",
+   "key_idea": "The number line is a home for patterns: gaps, jumps and colour-classes make number families visible.",
+   "textbook_ref": "fegp103.txt, 3.3 Patterns of numbers on the number line",
+   "question_patterns": [
+    "mark the multiples of 3 on the number line",
+    "which numbers get the word idli in the game",
+    "how are numbers with the same digit sum placed",
+    "what is the gap between consecutive multiples of 4",
+    "colour the number line by a rule of your own",
+    "find the 6th multiple of 7 on the number line"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp103.txt",
+   "concept": "fegp.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply one round of Kaprekar's routine to the digits of 4321: subtract the smallest arrangement from the biggest.",
+   "extracted_variables": {
+    "desc_digits": "digits arranged from biggest to smallest",
+    "asc_digits": "digits arranged from smallest to biggest"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "arrange the digits",
+     "explain": "Write 4321 in descending order and in ascending order.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "Take the smaller arrangement away from the bigger one.",
+     "compute": "diff = desc_digits - asc_digits"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp103.txt",
+   "concept": "fegp.3.2",
+   "question_type": "compute",
+   "question_pattern": "For the digits of 7641, do one Kaprekar step: arrange, then subtract the smallest number from the biggest.",
+   "extracted_variables": {
+    "desc_digits": "digits arranged from biggest to smallest",
+    "asc_digits": "digits arranged from smallest to biggest"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "arrange the digits",
+     "explain": "7641 arranged downward is 7641 and upward is 1467.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "The subtraction lands straight on the famous constant 6174.",
+     "compute": "diff = desc_digits - asc_digits"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp103.txt",
+   "concept": "fegp.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "apply one kaprekar step to 4321.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp103.txt, Figure it Out",
+   "questions": [
+    "What is a supercell? Mark the supercells in the given grid.",
+    "Apply one Kaprekar step to 4321.",
+    "What is special about 6174 in Kaprekar's routine?",
+    "Mark the multiples of 3 on a number line up to 30.",
+    "What story can a pattern of numbers tell? Give your own."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_010",
+   "title": "c12_chem_cbse_01_010",
+   "questions": [
+    {
+     "q": "State the formula for osmotic pressure of a dilute solution and define each term with its SI unit. Why is molarity (not molality) used in this formula?",
+     "a": "Π = iCRT where Π = osmotic pressure (Pa), i = van't Hoff factor (dimensionless), C = molar concentration (mol m⁻³ or mol L⁻¹ with R adjusted), R = gas constant (8.314 J mol⁻¹ K⁻¹ or 0.083 L bar mol⁻¹ K⁻¹), T = absolute temperature (K). Molarity is used because osmotic pressure depends on number of solute particles per unit volume of solution (like gas pressure depends on molecules per unit volume), and volume of solution appears naturally in the derivation ΠV = n₂RT. Molality uses mass of solvent, which doesn't appear in the ideal gas analogy. A wrong answer using molality reveals confusion between the four colligative properties — only osmotic pressure uses molarity; the other three (ΔT_b, ΔT_f, Δp/p°) use molality/mole fraction because they involve pure solvent properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Osmotic pressure is the pressure exerted by the solute particles on the semipermeable membrane.\" Is this statement correct? Explain why or why not using the kinetic molecular picture.",
+     "a": "The statement is incorrect. Osmotic pressure is NOT the pressure exerted by solute particles on the membrane. In the kinetic picture, solute particles are too large to pass through the membrane pores; they collide with the membrane but this is not the origin of Π. Instead, Π arises because solvent molecules on the pure solvent side strike the membrane more frequently than solvent molecules on the solution side (where some surface sites are occupied by solute particles). This imbalance creates a net solvent flux toward the solution. The pressure we apply on the solution side (Π) counteracts this net flux by increasing the escaping tendency of solvent molecules from the solution side. A student who thinks solute particles \"push\" on the membrane confuses osmotic pressure with gas pressure — in gases, molecules hit the walls; in osmosis, the membrane is impermeable to solute, so solute-wall collisions don't drive the flow.",
+     "self_check": true
+    },
+    {
+     "q": "200 cm³ of an aqueous protein solution contains 1.26 g of protein. The osmotic pressure at 300 K is 2.57 × 10⁻³ bar. Calculate the molar mass of the protein. (R = 0.083 L bar mol⁻¹ K⁻¹)",
+     "a": "Given: w₂ = 1.26 g, V = 200 cm³ = 0.200 L, Π = 2.57 × 10⁻³ bar, T = 300 K, R = 0.083 L bar mol⁻¹ K⁻¹.\nStep 1: Use M₂ = (w₂RT)/(ΠV)\nStep 2: Substitute values: M₂ = (1.26 g × 0.083 L bar mol⁻¹ K⁻¹ × 300 K) / (2.57 × 10⁻³ bar × 0.200 L)\nStep 3: Numerator = 1.26 × 0.083 × 300 = 31.374\nStep 4: Denominator = 2.57 × 10⁻³ × 0.200 = 5.14 × 10⁻⁴\nStep 5: M₂ = 31.374 / 5.14 × 10⁻⁴ = 61,039 g mol⁻¹ ≈ 61.0 kg mol⁻¹\nAnswer: 6.10 × 10⁴ g mol⁻¹ (or 61.0 kg mol⁻¹).\nA wrong answer typically comes from: (a) using V = 200 L instead of 0.200 L → M₂ too small by 1000×, (b) using R = 8.314 J mol⁻¹ K⁻¹ without converting bar to Pa → unit mismatch, (c) forgetting to convert cm³ to L. This tests unit vigilance — a critical JEE/NEET skill.",
+     "self_check": true
+    },
+    {
+     "q": "Two solutions are separated by a semipermeable membrane: Solution A is 0.1 M NaCl, Solution B is 0.1 M glucose. Both at 298 K. Predict the direction of net solvent flow and justify using van't Hoff factors. Assume complete dissociation for NaCl.",
+     "a": "Solution A (0.1 M NaCl): i ≈ 2 (NaCl → Na⁺ + Cl⁻), effective particle concentration = iC = 0.2 osmol L⁻¹.\nSolution B (0.1 M glucose): i = 1 (non-electrolyte), effective particle concentration = 0.1 osmol L⁻¹.\nSince Π ∝ iC, Π_A > Π_B. Solvent flows from lower osmotic pressure (Solution B, glucose) to higher osmotic pressure (Solution A, NaCl).\nNet flow: Glucose side → NaCl side.\nJustification: Osmotic pressure depends on total molar concentration of solute particles (osmolarity), not formula concentration. NaCl provides twice the particles per formula unit. A student answering \"no flow because both are 0.1 M\" ignores the van't Hoff factor — a classic board exam trap. In JEE, they may give incomplete dissociation (i = 1.8) requiring calculation of effective osmolarity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Reverse osmosis can purify sea water because applying pressure greater than osmotic pressure forces pure water through the membrane, leaving salts behind. The minimum pressure required is exactly equal to the osmotic pressure of sea water.\" Is the \"exactly equal\" part correct? Explain.",
+     "a": "The statement is partially incorrect. The minimum pressure to *stop* osmosis (equilibrium) is exactly Π. But to *produce* pure water at a practical rate (reverse osmosis), the applied pressure must be **greater than** Π (typically 1.5–2×Π for sea water). At P = Π, net flux is zero — no water is produced. At P > Π, net solvent flux reverses: water flows from solution to pure side. The \"exactly equal\" phrasing confuses thermodynamic equilibrium (zero net flow) with the operational requirement for desalination (positive product flux). A student who says \"exactly equal\" treats reverse osmosis as a static balance rather than a driven process. In JEE, they may ask: \"If applied pressure = 1.2Π, what is the direction of net water flow?\" Answer: From solution to pure water (reverse osmosis occurs).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate osmosis and estimate the osmotic pressure of a sugar solution qualitatively. List materials, procedure, observation, and how you would relate the observation to Π.",
+     "a": "Materials: Potato (semipermeable cell membranes), knife, two bowls, water, sugar, scale, ruler.\nProcedure: (1) Cut potato into 4 identical cylinders (same dimensions). (2) Weigh each (initial mass m₀). (3) Place two in pure water, two in saturated sugar solution (~2 M). (4) Wait 30 min. (5) Remove, blot dry, reweigh (final mass m).\nObservation: Potato in water gains mass (water enters cells → turgid). Potato in sugar solution loses mass (water leaves cells → plasmolysis).\nQualitative Π estimate: The sugar solution is hypertonic relative to potato cell sap. The mass loss rate correlates with Π difference. To quantify: Plot % mass change vs. sugar concentration for multiple solutions. The concentration where % change = 0 is isotonic with cell sap; its Π equals cell sap Π. At 298 K, 0.3 M sugar ≈ isotonic with plant cells → Π ≈ 0.3 × 0.083 × 298 ≈ 7.4 bar.\nA poor answer uses dialysis tubing (not household) or suggests measuring height of liquid column (requires thistle funnel). The potato method is accessible and demonstrates the core concept: water moves toward higher solute concentration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

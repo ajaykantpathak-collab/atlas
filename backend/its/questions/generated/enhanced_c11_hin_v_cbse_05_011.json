@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_05_011",
+   "title": "c11_hin_v_cbse_05_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the process where two or more words combine to form a single compound word with a new meaning, as seen in words like 'वनसंपदा' or 'पर्यावरणीय' in the text.",
+     "a": "The term is **समास (compound formation)**. A wrong answer (e.g., 'संधि' or 'उपसर्ग') reveals the student confuses word-level combination (समास) with sound-level junction (संधि) or prefixation (उपसर्ग), indicating they cannot distinguish morphological layers — a critical gap for analyzing dense administrative Hindi in this text.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"वनों की कटाई के कारण जलस्तर गिर रहा है\", the verb 'गिर रहा है' is in active voice. Rewrite it in passive voice and explain why the author might prefer passive constructions when presenting environmental data.",
+     "a": "Passive: \"जलस्तर वनों की कटाई के कारण गिराया जा रहा है\" (or more naturally \"वनों की कटाई के कारण जलस्तर गिराया जा रहा है\"). A wrong explanation (e.g., \"to make it shorter\") shows the student misses the rhetorical purpose: passive voice shifts focus from the *doer* (often unnamed corporations/policies) to the *victim* (groundwater), creating objectivity and avoiding direct blame — a hallmark of formal investigative prose.",
+     "self_check": true
+    },
+    {
+     "q": "Given the excerpt: \"पहले वनों का क्षेत्रफल अधिक था, किंतु अब वह तेजी से घट रहा है; इसलिए तापमान बढ़ रहा है।\" Identify the three connectives (योजक) and explain the logical relationship each establishes between clauses.",
+     "a": "Connectives: **'पहले...किंतु'** (contrast/समुच्चयबोधक विरोधार्थक), **'अब'** (time sequence/कालवाचक क्रियाविशेषण functioning as discourse marker), **'इसलिए'** (cause-effect/कार्य-कारण बोधक). A student listing only 'किंतु' and 'इसलिए' misses the temporal framing 'पहले...अब' that structures the argument's \"before-after\" evidence — revealing inability to track multi-layered logical architecture in argumentative prose.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nominalized phrase \"वनों का विनाश\" (destruction of forests) with the verbal clause \"वन नष्ट हो रहे हैं\" (forests are being destroyed). Analyze how nominalization changes the agency, measurability, and tone of the statement in an environmental report.",
+     "a": "Nominalization (\"वनों का विनाश\") **removes the agent** (no 'by whom'), **turns process into measurable noun** (can be quantified: 'वनों का विनाश 20% बढ़ा'), and **elevates register** to bureaucratic/scientific tone. A student saying \"both mean the same\" fails to see how grammar shapes epistemology: verbal clause implies ongoing action with potential actors; nominalized noun presents destruction as established fact/statistic — crucial for the text's evidence-based argumentation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The author's use of long samas compounds (e.g., 'पर्यावरणीय असंतुलन') makes the text inaccessible to common readers and therefore weakens its persuasive power.\" Defend or refute with two grammatical arguments.",
+     "a": "**Refute.** Argument 1: Samas creates **lexical density** — packing 'पर्यावरण + असंतुलन' into one word allows the author to treat complex ecological concepts as single manipulable units in logical chains (e.g., \"पर्यावरणीय असंतुलन के कारण...\"), which simple phrasing (\"पर्यावरण का संतुलन बिगड़ना\") would make clunky. Argument 2: The target register is **policy/administrative discourse**, not popular science; precision trumps accessibility. A student agreeing with the claim confuses *pedagogical simplicity* with *rhetorical effectiveness* in formal advocacy writing.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph in the style of \"jktLFkku dh jtr cw¡nas\" arguing for wetland conservation, using: (a) at least one द्वन्द्व समास, (b) one passive construction, (c) two causal connectives.",
+     "a": "**Sample answer:** \"जल-थल (द्वन्द्व समास) का संरक्षण अनिवार्य है, क्योंकि (कारण 1) ये भूजल पुनर्भरण के प्रमुख स्रोत हैं; अतः (कारण 2) इनका ह्रास नगरों में जलसंकट उत्पन्न करता है। अतिक्रमण के कारण आर्द्रभूमि तेजी से सुखाई जा रही है (passive: सुखाई जा रही है)।\" A poor answer uses active voice (\"लोग सुखा रहे हैं\"), misses द्वन्द्व समास, or strings clauses with only 'और' — showing inability to deploy the text's grammatical toolkit for authoritative argumentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

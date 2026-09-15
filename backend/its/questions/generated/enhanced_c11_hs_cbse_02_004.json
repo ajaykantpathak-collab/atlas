@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_02_004",
+   "title": "c11_hs_cbse_02_004",
+   "questions": [
+    {
+     "q": "A researcher places a red dot on the nose of a 14-month-old infant and places the infant in front of a mirror. The infant reaches out to touch the dot on the mirror reflection. What does this behaviour indicate about the infant's self-awareness?",
+     "a": "The infant lacks self-awareness; touching the reflection indicates the infant perceives the mirror image as another child, not as themselves. Self-awareness is demonstrated only when the infant touches their own nose. A wrong answer (e.g., \"the infant is self-aware because they noticed the dot\") reveals confusion between visual attention and self-recognition, missing the critical distinction between \"that is me\" vs \"that is another baby.\"",
+     "self_check": true
+    },
+    {
+     "q": "Four-year-old Arjun describes himself: \"I have a red cycle. I can run fast. I am never scared. I am a good boy.\" Identify which THREE of the five early childhood self-description characteristics (from NCERT) are illustrated in Arjun's statements.",
+     "a": "Arjun shows: (1) Physical/material descriptions (\"red cycle\"), (2) Active descriptions (\"run fast\"), (3) Absolute/non-comparative terms (\"fast\" not \"faster than\"), (4) Overestimation (\"never scared\"), and (5) Inability to hold contradictory traits (\"good boy\" only). Any three correctly identified with mapping to statements is correct. A wrong answer listing \"social comparison\" or \"psychological traits\" reveals the misconception that early childhood self-understanding resembles middle childhood.",
+     "self_check": true
+    },
+    {
+     "q": "Nine-year-old Priya says: \"I am good at making friends. I am in the school choir. I can finish homework faster than my brother. I want to be a doctor but I am not smart enough yet.\" Map each statement to the correct middle childhood characteristic: (a) internal psychological traits, (b) social identity/group membership, (c) social comparison, (d) real vs ideal self distinction.",
+     "a": "Mapping: \"good at making friends\" → (a) internal psychological traits; \"school choir\" → (b) social identity; \"faster than my brother\" → (c) social comparison; \"want to be a doctor but not smart enough\" → (d) real vs ideal self. A wrong answer confusing (a) and (b) (e.g., calling choir an internal trait) reveals failure to distinguish personal attributes from group-based definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the self-descriptions of a 3-year-old (\"I have a big truck\") and a 10-year-old (\"I am generous but sometimes selfish\"). Analyze how the shift from concrete/absolute to abstract/contradictory descriptions reflects cognitive development, referencing the role of perspective-taking ability.",
+     "a": "The 3-year-old uses concrete, observable possessions in absolute terms (characteristic of preoperational thought). The 10-year-old uses abstract psychological traits (\"generous\") and acknowledges contradictions (\"sometimes selfish\"), reflecting concrete operational thought enabling perspective-taking and realistic self-evaluation. A wrong answer attributing the change solely to \"vocabulary growth\" misses the cognitive structural shift (decentration, reversibility) that permits multi-dimensional self-views.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The mirror test at 18 months proves the infant has a fully formed self-concept.\" Use the distinction between self-awareness (implicit) and self-concept (explicit, verbalizable) to justify your position.",
+     "a": "The claim is false. Mirror test shows implicit self-awareness (bodily self, agency) — a pre-verbal, non-conceptual sense of \"me as object.\" Self-concept requires explicit, verbalizable self-descriptions (\"I am...\") which emerge only with language in early childhood. A wrong answer agreeing with the claim conflates the *onset* of self-awareness with the *construction* of self-concept, ignoring the developmental gap between 18 months and 3+ years.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item interview protocol to distinguish whether a 5-year-old and an 8-year-old are operating at early childhood vs middle childhood level of self-understanding. Each item must target a different NCERT characteristic.",
+     "a": "Sample protocol: (1) \"Tell me about yourself\" → code for physical/material (early) vs psychological/internal (middle). (2) \"Are you good at drawing?\" → follow with \"Better than your friend?\" → absolute (early) vs comparative (middle). (3) \"Can you be naughty and nice?\" → \"No, I'm always good\" (early) vs \"Yes, sometimes\" (middle). A poor protocol uses only one question or targets non-distinguishing features (e.g., \"What's your name?\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_010",
+   "title": "c11_phy_cbse_08_010",
+   "questions": [
+    {
+     "q": "State the three fundamental relations connecting Young's modulus (Y), bulk modulus (B), shear modulus (G), and Poisson's ratio (σ) for an isotropic material.",
+     "a": "The three independent relations are: (1) Y = 3B(1-2σ), (2) Y = 2G(1+σ), (3) Y = 9BG/(3B+G). Poisson's ratio can also be expressed as σ = (3B-2G)/(6B+2G). A wrong answer typically reveals that the student has memorized only one formula (usually Y = 2G(1+σ)) without understanding that any two constants determine the other two, or confuses the formula for plane stress vs. 3D isotropic case.",
+     "self_check": true
+    },
+    {
+     "q": "A material has Young's modulus Y = 200 GPa and Poisson's ratio σ = 0.3. Without calculating, explain whether its bulk modulus B will be greater than, less than, or equal to Y, and justify using the physical meaning of each modulus.",
+     "a": "B will be greater than Y. For σ = 0.3, Y = 3B(1-2σ) = 3B(0.4) = 1.2B, so B = Y/1.2 ≈ 167 GPa. Physically, bulk modulus measures resistance to volume change under hydrostatic pressure (all directions compressed), while Young's modulus measures resistance to uniaxial stretching. Since lateral contraction in tension partially relieves the volumetric strain, the material appears \"stiffer\" to pure volume change than to uniaxial deformation. A wrong answer (B < Y) reveals confusion between uniaxial and hydrostatic stress states.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the shear modulus G and bulk modulus B for a steel alloy with Y = 210 GPa and Poisson's ratio σ = 0.28. Express answers in GPa with correct significant figures.",
+     "a": "Given: Y = 210 GPa, σ = 0.28.\nStep 1: Use Y = 2G(1+σ) → G = Y/[2(1+σ)] = 210/[2(1.28)] = 210/2.56 = 82.0 GPa.\nStep 2: Use Y = 3B(1-2σ) → B = Y/[3(1-2σ)] = 210/[3(1-0.56)] = 210/[3(0.44)] = 210/1.32 = 159 GPa.\nStep 3: Verify with Y = 9BG/(3B+G) = 9(159)(82.0)/(3×159+82.0) = 117342/559 = 210 GPa ✓.\nAnswers: G = 82.0 GPa, B = 159 GPa. A wrong answer often results from using σ = 0.3 instead of 0.28, or forgetting the factor of 2 in the G formula, or unit inconsistency (mixing Pa and GPa).",
+     "self_check": true
+    },
+    {
+     "q": "Two isotropic materials A and B have the same Young's modulus Y = 70 GPa. Material A has σ = 0.1, Material B has σ = 0.4. Compare their shear moduli and bulk moduli. Which material is more resistant to shape change? Which is more resistant to volume change?",
+     "a": "For A (σ=0.1): G_A = 70/[2(1.1)] = 31.8 GPa, B_A = 70/[3(0.8)] = 29.2 GPa.\nFor B (σ=0.4): G_B = 70/[2(1.4)] = 25.0 GPa, B_B = 70/[3(0.2)] = 117 GPa.\nMaterial A has higher G (31.8 > 25.0) → more resistant to shape change (shear).\nMaterial B has higher B (117 > 29.2) → more resistant to volume change (compression).\nThis counterintuitive result (same Y, opposite ordering of G and B) occurs because Poisson's ratio redistributes stiffness between shear and volumetric modes. A wrong answer that claims \"same Y means same G and B\" reveals failure to understand that Y alone does not determine the complete elastic response; σ is the independent second parameter.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For an incompressible material (ν = 0.5), the bulk modulus B becomes infinite, so the relation Y = 9BG/(3B+G) breaks down because it gives Y = 3G.\" Evaluate this claim and correct any error.",
+     "a": "The claim contains a correct observation but wrong conclusion. For ν = 0.5, Y = 3B(1-2ν) = 0 × B → B → ∞ (incompressible limit). Substituting B → ∞ into Y = 9BG/(3B+G) gives Y = 9G/(3+G/B) = 9G/3 = 3G. This is NOT a breakdown — it's the correct limiting behavior! For incompressible materials (rubber, ν ≈ 0.5), Y = 3G exactly. The relation holds perfectly in the limit. The student's error is confusing \"infinite B\" with \"formula failure\" — they should recognize that the formula correctly captures the physics of incompressibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine Poisson's ratio of a wire using only a tensile test (measuring force and elongation) and a torsion test (measuring torque and angle of twist), without any lateral strain measurement. Explain the procedure and the formula you would use.",
+     "a": "Procedure: (1) Perform tensile test on wire: measure Y from slope of F vs ΔL (Y = FL/AΔL). (2) Perform torsion test on same wire: measure G from torque-twist relation (τ = Gθr/L, where τ = Tr/J). (3) Use Y = 2G(1+σ) → σ = Y/(2G) - 1. This works because torsion gives pure shear (G) while tension gives combined volumetric and shear response (Y). The formula eliminates need for lateral measurement. A poor answer would suggest measuring diameter change directly (which the question forbids) or using only one test, revealing misunderstanding that two independent moduli are needed to determine σ.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_004",
+   "title": "c12_bs_cbse_08_004",
+   "questions": [
+    {
+     "q": "A company installs biometric attendance systems to track employee entry/exit times in real time and sends instant alerts to supervisors when an employee is late. Which type of control is this primarily an example of, and why?",
+     "a": "This is **Concurrent Control** because measurement and corrective action (alert to supervisor) occur **during** the activity (employee attendance) while it is still ongoing, allowing immediate intervention. A wrong answer of \"Feedback Control\" reveals the student thinks any measurement is feedback, ignoring that feedback acts *after* the activity is complete (e.g., monthly attendance report). A wrong answer of \"Feedforward Control\" reveals confusion between preventing problems *before* they start (e.g., hiring punctual people) vs. monitoring *during* execution.",
+     "self_check": true
+    },
+    {
+     "q": "\"Feedforward Control is just another name for Planning because both happen before the action starts.\" Evaluate this statement with a concrete example showing why it is incorrect.",
+     "a": "The statement is **incorrect**. Planning *sets* the standards and course of action (e.g., \"We will produce 10,000 units with <2% defect rate\"). Feedforward Control *ensures the inputs and conditions are right* so the plan can be executed (e.g., \"We calibrate machines and train operators *before* production starts so the 2% defect target is achievable\"). Planning is **prescriptive** (what should happen); Feedforward Control is **preventive** (making sure capabilities match the plan). A student who agrees with the statement confuses *setting direction* with *securing readiness* — a critical distinction for board exam questions asking to \"distinguish between planning and controlling.\"",
+     "self_check": true
+    },
+    {
+     "q": "A textile factory in Surat faces frequent yarn breakage on looms. The management takes three actions: (A) They switch to a higher-grade yarn supplier. (B) They install sensors that stop the loom instantly when tension exceeds a threshold. (C) They analyse monthly defect reports to identify which loom operators need retraining. Classify each action as Feedforward, Concurrent, or Feedback Control.",
+     "a": "(A) **Feedforward Control** — changing supplier *before* production starts to prevent defects.\n(B) **Concurrent Control** — sensors act *during* weaving to stop defects in real time.\n(C) **Feedback Control** — monthly report analysis happens *after* production to improve future cycles.\nA student who misclassifies (B) as Feedback fails to see that the loom stoppage occurs **while the cloth is being woven**, not after the batch is finished. A student who calls (A) Feedback confuses *input quality assurance* with *output inspection*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **cost of correction** and **timeliness of information** across the three control types. Why might a startup with limited capital prefer Feedforward Control over Feedback Control, even though Feedforward requires more upfront investment?",
+     "a": "| Control Type | Timeliness of Info | Cost of Correction |\n|--------------|-------------------|-------------------|\n| Feedforward  | Before activity (earliest) | Lowest (prevents error) |\n| Concurrent   | During activity | Medium (stops error mid-process) |\n| Feedback     | After activity (latest) | Highest (rework/scrap/delivery failure) |\n\nA startup prefers Feedforward because **preventing a defective product from reaching a customer** (which could destroy reputation and lose the only client) is far cheaper than **recalling, replacing, or litigating** after feedback reveals the defect. The student who says \"Feedback is cheaper because you only check samples\" misses that **sampling misses defects** and the cost of *one* escaped defect in a startup can be existential. This tests understanding of **risk-cost trade-off**, a favourite CUET/IPMAT case-study angle.",
+     "self_check": true
+    },
+    {
+     "q": "\"An organisation that relies only on Feedback Control is like a driver who only looks in the rear-view mirror.\" Critique this analogy. Is it fully accurate? What does it miss about the *necessity* of Feedback Control?",
+     "a": "The analogy is **partially accurate but incomplete**. It correctly captures that Feedback Control is **backward-looking** (rear-view mirror) and cannot prevent the accident that already happened. However, it misses that **Feedback Control is indispensable for**:\n1. **Validating standards** — Were the speed limits (standards) realistic for this road (environment)?\n2. **Improving future plans** — The rear-view mirror shows *why* you drifted (pothole, distraction), so you adjust steering *next time*.\n3. **Strategic learning** — Only Feedback reveals systemic issues (e.g., consistent 5% sales shortfall → flawed market assumption in the plan).\nA student who calls Feedback \"useless\" or \"only for punishment\" fails to see that **without Feedback, Feedforward and Concurrent controls cannot be calibrated**. This is a classic board exam \"Comment\" question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **three-layer control system** for a new cloud-kitchen startup delivering healthy meals in Mumbai. Specify one Feedforward, one Concurrent, and one Feedback control measure, each addressing a different critical success factor (e.g., food safety, delivery time, customer satisfaction). Justify why each measure fits its control type.",
+     "a": "**Feedforward (Food Safety):** Mandatory FSSAI certification and HACCP training for all chefs *before* kitchen operations begin. *Justification:* Ensures capability to meet safety standards *before* any meal is cooked — prevents contamination at source.\n\n**Concurrent (Delivery Time):** GPS-integrated order tracking dashboard showing real-time courier location vs. promised ETA; auto-reassigns orders if delay > 5 min. *Justification:* Monitors and corrects *during* the delivery process while the meal is in transit.\n\n**Feedback (Customer Satisfaction):** Weekly NPS (Net Promoter Score) survey + analysis of repeat-order rate by menu item; used to revise recipes and drop low-rated dishes next month. *Justification:* Measures outcome *after* consumption to improve *future* menu planning.\n\nA poor answer lists generic measures (e.g., \"check quality\") without tying timing to the specific success factor or justifying the control type. This tests **synthesis** — the highest Bloom level — and mirrors CUET case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

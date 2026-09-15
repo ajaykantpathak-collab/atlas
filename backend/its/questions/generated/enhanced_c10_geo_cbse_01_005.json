@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_005",
+   "title": "c10_geo_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the three sequential stages of resource planning in India as described in the NCERT Class 10 textbook.",
+     "a": "Correct answer: (1) Identification and inventory of resources across regions through surveying, mapping, and qualitative/quantitative estimation; (2) Evolving a planning structure endowed with appropriate technology, skill, and institutional set-up for implementing resource development plans; (3) Matching the resource development plans with overall national development plans. A wrong answer (e.g., listing \"conservation, distribution, utilisation\") reveals the student confuses resource planning steps with general resource management actions, missing the specific institutional and plan-alignment focus of the NCERT framework.",
+     "self_check": true
+    },
+    {
+     "q": "Why is resource planning particularly critical in India compared to a smaller, more homogeneous country? Explain using two geographical reasons.",
+     "a": "Correct answer: (1) India's vast size and physiographic diversity (Himalayas, Plains, Plateau, Coasts, Islands, Desert) create extreme spatial unevenness in resource distribution — e.g., Jharkhand has minerals but lacks water; Rajasthan has solar potential but lacks water and fertile soil. (2) High population density and regional developmental disparities require planned allocation to avoid conflicts and ensure equity. A wrong answer focusing only on \"large population\" or \"limited resources\" without linking to *spatial unevenness* and *diversity* shows the student hasn't connected India's physical geography (c6_geography_ch01_001 to c6_geography_ch01_007) to the planning imperative.",
+     "self_check": true
+    },
+    {
+     "q": "A district in the Deccan Plateau has high laterite soil coverage, moderate rainfall (800 mm), and deposits of bauxite. The district administration proposes a plan: (a) promote cashew plantations on laterite soils, (b) set up aluminium smelting using local bauxite, (c) construct check dams for water harvesting. Identify which stage of resource planning each action corresponds to and justify.",
+     "a": "Correct answer with steps:\nStep 1: Recognise the three stages — inventory, planning structure, matching with development plans.\nStep 2: Cashew plantation on laterite soil uses knowledge of soil-crop suitability → Stage 1 (identification/inventory of resource potential).\nStep 3: Aluminium smelting requires technology, skill, institutional set-up (factory, power, labour) → Stage 2 (evolving planning structure).\nStep 4: Check dams align with national water conservation goals (e.g., Jal Shakti Abhiyan) → Stage 3 (matching with national development plans).\nA wrong answer that maps all actions to \"planning\" reveals inability to distinguish between resource *assessment*, *institutional capacity building*, and *plan integration*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource planning approach for the Himalayan region (fragile ecology, strategic location) with the Thar Desert region (solar potential, water scarcity, mineral wealth). Identify two fundamental differences in planning priorities.",
+     "a": "Correct answer: (1) Himalayan planning prioritises ecological fragility and disaster resilience (landslide/earthquake zonation, forest conservation, glacial melt monitoring) — resources are *constrained by ecology*. Thar planning prioritises resource *augmentation* (solar parks, Indira Gandhi Canal for water, wind farms) — resources are *enabled by technology*. (2) Himalayan planning integrates transboundary river governance (Indus, Ganga, Brahmaputra treaties) and strategic border infrastructure; Thar planning focuses on inter-state water sharing (Rajasthan-Gujarat) and renewable energy corridors. A wrong answer listing generic \"conservation vs development\" misses the region-specific physical geography drivers (c6_geography_ch01_002, c6_geography_ch01_007).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's Five Year Plans successfully integrated resource planning with national development goals.\" Provide one evidence supporting and one challenging this claim.",
+     "a": "Correct answer with justification:\nSupporting evidence: The Bhakra-Nangal Dam (First Plan) matched Himalayan water resources with Punjab/Haryana's agricultural development and power needs — direct Stage 3 alignment.\nChallenging evidence: Despite coal inventories (Stage 1), power sector planning failed to match coal linkage with plant locations, leading to critical shortages in 2010s — Stage 2 (institutional/technological capacity) and Stage 3 (plan matching) gaps persisted.\nA wrong answer giving only generalities (\"plans helped growth\" or \"plans failed\") without citing specific resource-plan linkages shows lack of evaluative depth required for board competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini resource plan for a coastal taluk in Odisha prone to cyclones, with mangrove forests, rich marine fisheries, and potential for beach sand minerals (ilmenite, rutile). Your plan must address all three NCERT stages and include one community-level action.",
+     "a": "Expected criteria for a good answer:\nStage 1: GIS-based mapping of cyclone hazard zones, mangrove cover density, fish breeding grounds, mineral deposit contours.\nStage 2: Establish a coastal zone management cell with meteorological tech, aquaculture extension officers, and mineral regulation authority; skill training for cyclone-resilient housing and sustainable fishing.\nStage 3: Align with National Cyclone Risk Mitigation Project, Blue Economy policy, and Coastal Regulation Zone (CRZ) norms.\nCommunity action: Mangrove regeneration by women's self-help groups linked to eco-tourism livelihoods.\nA poor answer that lists generic \"conservation, fishing rules, mining ban\" without stage-wise structure or institutional mechanisms reveals the student cannot operationalise the textbook framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

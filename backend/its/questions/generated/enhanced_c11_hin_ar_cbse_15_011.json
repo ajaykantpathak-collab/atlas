@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_15_011",
+   "title": "c11_hin_ar_cbse_15_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the repeated structure \"lcls [krjukd ugha gksrh\" in the poem and state its syntactic function in a standard Hindi sentence.",
+     "a": "The structure is a *pratishedh vakya* (negative sentence) with *lcls* (superlative adjective) + *[krjukd* (noun, predicate nominative) + *ugha* (negative particle) + *gksrh* (habitual present verb, feminine singular agreeing with implied subject). In standard Hindi, this asserts that the subject does not possess the quality of being the smallest. A wrong answer (e.g., calling it a command or question) reveals the student cannot distinguish sentence types by verb morphology and negation placement — a Class 9-level gap that blocks poetic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the poet uses the genitive case marker *dh* (ka/ki/ke) in phrases like \"esgur dh ywV\", \"iqfyl dh ekj\", and \"xíkjh&yksHk dh eq_h\" instead of the instrumental *se* or locative *me*. What thematic relationship does this case choice establish?",
+     "a": "The genitive *dh* marks possession/association, making \"love's shadow,\" \"affection's mother,\" and \"sword-edge's sharpness\" intrinsic attributes — not instruments or locations. This grammatical choice reinforces the poem's central paradox: these vast emotions/phenomena are *owned* by the \"smallest\" thing, not the other way around. A student answering \"it's just poetic license\" misses that case markers encode semantic relationships; confusing genitive with instrumental reveals inability to map *karak* to meaning — critical for board questions on \"bhavarth\" (implicit meaning).",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"cSBs&fcBk, idM+s tkukµcqjk rks gS\", identify the *samasa* (compound) type in \"cSBs&fcBk,\" and \"idM+s\", then rewrite the line in standard prose word order (anvaya) showing all implied case markers.",
+     "a": "\"cSBs&fcBk,\" = *dvandva samasa* (copulative compound: cSBs + fcBk, = vuk;kl + vdkj.k). \"idM+s\" = *karmadharaya samasa* (appositional: idM+ = cspSuh, feminine singular). Anvaya: \"cSBs vuk;kl vdkj.k cspSuh idM+s tkuk cqjk rks gS\" (To walk in disorder and crookedness is indeed difficult). Implied markers: *me* (locative) after cSBs&fcBk,, *ko* (dative) after idM+s. A wrong answer splitting the compound incorrectly (e.g., treating \"idM+s\" as bahuvrihi) shows weak *samasa* analysis — a recurring board exam stumbling block.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the verb forms in the negative section (\"ugha gksrh\" — habitual present) and affirmative section (\"gksrk gS\" — habitual present + auxiliary). How does this grammatical parallelism with a single polarity shift structure the poem's dialectical movement?",
+     "a": "Both sections use habitual present (*gksrh/gksrk*) indicating timeless truth, but the negative section uses *ugha* (negation) while the affirmative uses *gksrk gS* (assertion with emphatic auxiliary *gS*). This creates a *virodhabhas* (apparent contradiction) resolved grammatically: the same verb form first denies conventional \"smallness\" then affirms the poet's redefinition. The auxiliary *gS* in the affirmative adds *niścayatā* (certainty) absent in the open-ended negation. Missing the auxiliary's emphatic force leads to treating both sections as merely opposite statements, not a structured argument — a key distinction for \"shailli\" (style) questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the elliptical construction in \"lcls [krjukd og ?kM+h gksrh gS / vkidh dykbZ ij pyrh gqbZ Hkh tks / vkidh fuxkg esa #dh gksrh gS\" where the relative clause \"tks...\" lacks an explicit main verb until the final \"gksrh gS\". Does this delay strengthen or weaken the poetic impact? Justify.",
+     "a": "The delay strengthens impact by enacting the \"burden\" (*?kM+h*) grammatically: the reader carries the suspended relative clause (\"tks vkidh dykbZ ij pyrh gqbZ Hkh tks vkidh fuxkg esa #dh gksrh gS\") across three lines before the verb \"gksrh gS\" releases it — mimicking the psychological weight of unspoken grief. A student calling it \"confusing syntax\" misses that poetic ellipsis (*lopa*) is a deliberate *alamkara* (figure of speech) where grammatical incompleteness mirrors thematic incompleteness. This confusion between error and device is fatal for \"kavya-saundarya\" (poetic beauty) questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line Hindi poem stanza using the same grammatical template: three lines of \"sabse [adjective] [noun] nahin hai\" with genitive phrases, followed by a fourth line \"sabse [adjective] hai woh jo...\" with a suspended relative clause. Use a different abstract concept (not \"smallest\").",
+     "a": "Example: \"sabse bada dhokha nahin hai / dhan ki chah nahin hai / shakti ki bhookh nahin hai / sabse bada hai woh jo / apne hi saaye se darta hai.\" Criteria: (1) Correct *pratishedh* structure with *nahin hai*; (2) Genitive *ki* in all three negations; (3) Affirmative with *hai woh jo* + relative clause spanning lines; (4) Thematic coherence. A weak answer using \"sabse bada... nahin\" but failing to suspend the relative clause (e.g., ending line 4 with \"hai\") shows inability to replicate the poem's syntactic rhythm — the core skill for \"rachanaatmak lekhan\" (creative writing) tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

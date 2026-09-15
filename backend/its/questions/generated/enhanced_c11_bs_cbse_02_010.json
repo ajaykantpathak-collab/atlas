@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_010",
+   "title": "c11_bs_cbse_02_010",
+   "questions": [
+    {
+     "q": "List the seven factors that determine the choice of form of business organisation as per NCERT Class 11.",
+     "a": "The seven factors are: (i) Cost and ease in setting up the organisation, (ii) Liability, (iii) Continuity, (iv) Management ability, (v) Capital considerations, (vi) Degree of control, (vii) Nature of business. A wrong answer (e.g., listing only 3-4 factors or adding \"tax benefits\" or \"government subsidies\") reveals the student has memorised isolated points without grasping the comprehensive framework NCERT provides for systematic decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"cost and ease of formation\" favours sole proprietorship while \"capital considerations\" favours a joint stock company, using the concept of legal formalities and access to public funds.",
+     "a": "Sole proprietorship requires minimal legal formalities—no compulsory registration, no separate law governing it—making it least expensive and easiest to form. A joint stock company can issue shares to the public, access bank loans easily due to limited liability, and raise large capital from numerous investors. A wrong answer that only states \"sole proprietorship is cheap\" or \"company gets more money\" without linking to legal formalities and public fundraising mechanisms shows superficial understanding without connecting cause (legal structure) to effect (cost/capital access).",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm with 5 partners wants to expand operations requiring ₹50 lakh additional capital. The partners are unwilling to dilute control but need limited liability. Apply the relevant factors to recommend whether they should convert to a private limited company or remain a partnership. Justify with at least three factors.",
+     "a": "They should convert to a private limited company. Factor 1 (Liability): Partnership has unlimited joint and several liability; company offers limited liability protecting personal assets. Factor 2 (Capital): Company can raise ₹50 lakh via share issuance to up to 200 members; partnership limited to 50 partners with restricted capital. Factor 3 (Control): Private company restricts share transfer, so existing partners retain control via majority shareholding and board seats. Factor 4 (Continuity): Company ensures perpetual succession unaffected by partner changes. A wrong answer recommending partnership ignores the capital limitation (max 50 partners) and unlimited liability risk for ₹50 lakh expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the factor \"nature of business\" interacts with \"degree of control\" differently for a high-end bespoke jewellery store versus a large-scale textile manufacturing unit. Analyse why the optimal form differs.",
+     "a": "For bespoke jewellery: Nature of business requires direct personal contact, customised service, and quick decisions—sole proprietorship offers absolute control and personal customer relationships. For textile manufacturing: Nature involves standardised mass production, no direct customer contact, complex operations needing professional management—company form separates ownership from management, allowing expert directors to run operations while owners retain control via voting rights. A wrong answer that suggests the same form for both fails to analyse how \"nature of business\" dictates the required control structure: personalised services need owner-driven control; industrial operations need delegated professional control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since a cooperative society offers limited liability and democratic control, it is the ideal form for all small businesses seeking to avoid unlimited liability.\" Defend or critique using at least three factors from the NCERT framework.",
+     "a": "Critique: The statement is flawed. Factor 1 (Capital): Cooperatives rely on member contributions with low dividend rates, limiting capital for growth—unsuitable for capital-intensive small businesses. Factor 2 (Management): Elected managing committee of non-experts leads to inefficiency—small businesses needing quick, expert decisions suffer. Factor 3 (Government control): Mandatory audits, regulatory compliance, and state interference reduce operational freedom—contradicts the autonomy small businesses value. Factor 4 (Secrecy): Open meetings and disclosure obligations prevent confidentiality—critical for competitive small businesses. A wrong answer agreeing with the statement shows inability to evaluate trade-offs: limited liability and democracy come at the cost of capital, expertise, autonomy, and secrecy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision scenario for a hypothetical entrepreneur where the seven factors conflict (e.g., low capital need but high continuity requirement; or high control desire but complex operations needing professional management). Specify the business context and recommend the optimal form with a weighted factor analysis.",
+     "a": "Scenario: Rajesh, a software developer, wants to start an AI-based ed-tech platform. He has ₹10 lakh savings (low capital need), wants full control over product decisions (high control), but the business requires specialised tech/management talent (high managerial ability need) and must survive his potential exit (high continuity). Weighted analysis: Control (30%) → proprietorship; Managerial ability (25%) → company; Continuity (20%) → company; Capital (15%) → proprietorship adequate; Liability (10%) → company preferred. Recommendation: One Person Company (OPC)—combines sole owner control with corporate structure (limited liability, perpetual succession, professional management hiring). A poor answer choosing only proprietorship or only company fails to recognise OPC as the hybrid solution balancing conflicting factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

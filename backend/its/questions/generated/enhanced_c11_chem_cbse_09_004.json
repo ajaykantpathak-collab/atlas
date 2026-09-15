@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_004",
+   "title": "c11_chem_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the bond dissociation enthalpy of the H–H bond in dihydrogen and explain why this value makes dihydrogen kinetically stable at room temperature despite being thermodynamically a strong reducing agent.",
+     "a": "The H–H bond dissociation enthalpy is 435.9 kJ mol⁻¹. This high value means the reaction 2H₂ + O₂ → 2H₂O has a large activation energy barrier at room temperature; without ignition (spark/flame), the reaction rate is negligible. A wrong answer (e.g., quoting 285 kJ mol⁻¹) reveals confusion between bond enthalpy and enthalpy of combustion – the student is mixing thermodynamic driving force with kinetic barrier.",
+     "self_check": true
+    },
+    {
+     "q": "When dihydrogen reacts with copper(II) oxide, the products are copper and water. Write the balanced equation and identify the oxidation state changes. Why does this reaction require heating while combustion of dihydrogen in air only requires a spark?",
+     "a": "CuO(s) + H₂(g) → Cu(s) + H₂O(g). Cu changes from +2 to 0 (reduction), H from 0 to +1 (oxidation). Heating is needed because solid-state diffusion in CuO is slower than gas-phase radical chain reactions in combustion. A wrong answer (e.g., saying CuO + H₂ → Cu + H₂O without states, or claiming no heating needed) shows the student doesn't distinguish heterogeneous solid-gas kinetics from homogeneous gas-phase kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "A student passes 10.0 g of dihydrogen gas over heated copper(II) oxide (excess). Calculate the mass of copper produced. (Atomic masses: H = 1.0, Cu = 63.5, O = 16.0)",
+     "a": "Step 1: Moles of H₂ = 10.0 g / 2.0 g mol⁻¹ = 5.0 mol. Step 2: From CuO + H₂ → Cu + H₂O, 1 mol H₂ produces 1 mol Cu. Step 3: Moles of Cu = 5.0 mol. Step 4: Mass of Cu = 5.0 mol × 63.5 g mol⁻¹ = 317.5 g. A wrong answer (e.g., 158.75 g) reveals the student used H atomic mass instead of H₂ molar mass, or misapplied stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions of dihydrogen with chlorine and with nitrogen. Explain why H₂ + Cl₂ → 2HCl occurs readily in sunlight while N₂ + 3H₂ ⇌ 2NH₃ requires high pressure, temperature, and a catalyst.",
+     "a": "H₂ + Cl₂ is a photochemical free-radical chain reaction (Cl₂ → 2Cl• with UV light, low activation energy). N₂ + 3H₂ requires breaking the N≡N triple bond (945 kJ mol⁻¹), so high temperature (700 K) and pressure (200 atm) with Fe catalyst are needed to achieve reasonable rate and equilibrium yield. A wrong answer focusing only on \"nitrogen is unreactive\" without quantifying bond energies shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"Dihydrogen reduces all metal oxides to metals when heated.\" Evaluate this statement. Give two examples where it is true and one where it is false, with reasoning.",
+     "a": "False. True: CuO + H₂ → Cu + H₂O (ΔG < 0 at 500 K); Fe₂O₃ + 3H₂ → 2Fe + 3H₂O (ΔG < 0 at 800 K). False: Al₂O₃, MgO, CaO – these have very negative ΔG_f°, so H₂ cannot reduce them (Ellingham diagram: H₂/H₂O line lies above Al/Al₂O₃ line). A wrong answer listing only true examples shows the student hasn't learned thermodynamic limitations of reducing agents.",
+     "self_check": true
+    },
+    {
+     "q": "Design a laboratory experiment to distinguish between dihydrogen and methane using only their chemical properties (no instruments). Write the procedure, expected observations, and chemical equations.",
+     "a": "Procedure: Fill two test tubes with each gas. (1) Introduce a burning splint – H₂ gives a 'pop' sound (2H₂ + O₂ → 2H₂O), CH₄ burns with a non-luminous blue flame (CH₄ + 2O₂ → CO₂ + 2H₂O). (2) Bubble through bromine water – H₂ no reaction (needs UV), CH₄ no reaction (needs UV). (3) Pass over heated CuO – H₂ reduces it (CuO black → Cu reddish), CH₄ reduces it slowly at higher temperature. A poor answer using only the pop test shows inability to design multi-step differentiation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

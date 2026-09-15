@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_009",
+   "title": "c12_math_cbse_13_009",
+   "questions": [
+    {
+     "q": "State the four necessary conditions for a random experiment to follow a binomial distribution. Use the standard terminology (fixed number of trials, two outcomes, constant probability, independence).",
+     "a": "The four conditions are: (1) The experiment consists of a fixed finite number \\(n\\) of trials. (2) Each trial has exactly two possible outcomes, called \"success\" and \"failure\". (3) The probability of success \\(p\\) is the same for every trial (hence \\(q=1-p\\) is also constant). (4) The trials are independent — the outcome of one trial does not affect the others. A wrong answer that omits \"independence\" or \"constant \\(p\\)\" reveals the student thinks any experiment with two outcomes is binomial (e.g., drawing cards without replacement).",
+     "self_check": true
+    },
+    {
+     "q": "A fair die is rolled 6 times. Let \\(X\\) be the number of times a \"6\" appears. Explain why \\(X\\) follows a binomial distribution and identify \\(n\\), \\(p\\), and \\(q\\). Then write the expression for \\(P(X=2)\\) without evaluating.",
+     "a": "\\(n=6\\) (fixed trials), each roll gives \"6\" (success) or \"not 6\" (failure), \\(p=1/6\\) and \\(q=5/6\\) are constant, and rolls are independent. Hence \\(X \\sim B(6, 1/6)\\). \\(P(X=2) = \\binom{6}{2} (1/6)^2 (5/6)^4\\). A wrong answer that uses \\(p=1/2\\) or forgets the binomial coefficient shows confusion between \"two outcomes\" and \"equal probability\" or misses the combinatorial factor.",
+     "self_check": true
+    },
+    {
+     "q": "In a factory, 5% of items produced are defective. A quality control inspector selects 20 items at random. Compute the probability that exactly 2 items are defective. Show all steps including the binomial coefficient calculation.",
+     "a": "\\(n=20\\), \\(p=0.05\\), \\(q=0.95\\), \\(r=2\\).  \n\\(\\binom{20}{2} = \\frac{20 \\times 19}{2} = 190\\).  \n\\(P(X=2) = 190 \\times (0.05)^2 \\times (0.95)^{18}\\).  \n\\((0.05)^2 = 0.0025\\).  \n\\((0.95)^{18} \\approx 0.3972\\) (using calculator).  \n\\(190 \\times 0.0025 \\times 0.3972 \\approx 0.1887\\).  \nA wrong answer that computes \\(\\binom{20}{2}=380\\) (forgetting to divide by 2) or uses \\(p=0.95\\) reveals a basic combinatorial error or confusion between success/failure labels.",
+     "self_check": true
+    },
+    {
+     "q": "For a binomial distribution \\(B(n,p)\\), the mean is 8 and the variance is 4.8. Find \\(n\\) and \\(p\\). Then determine whether the distribution is symmetric, positively skewed, or negatively skewed. Justify your answer.",
+     "a": "Given \\(\\mu = np = 8\\) and \\(\\sigma^2 = npq = 4.8\\).  \nDivide: \\(\\frac{npq}{np} = q = \\frac{4.8}{8} = 0.6 \\Rightarrow p = 0.4\\).  \nThen \\(n = \\frac{8}{0.4} = 20\\).  \nSince \\(p=0.4 < 0.5\\), the distribution is positively skewed (tail to the right).  \nA wrong answer that sets \\(q = 4.8/8 = 0.6\\) but then says \\(p=0.6\\) (mixing \\(p\\) and \\(q\\)) or claims symmetry because \\(np\\) and \\(npq\\) are \"nice numbers\" shows lack of understanding of the skewness condition \\(p \\lessgtr 0.5\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a binomial distribution with \\(n=10\\) and \\(p=0.3\\), the probability of at most 3 successes is \\(P(X \\le 3) = P(X=0)+P(X=1)+P(X=2)+P(X=3)\\). To save time, I can just compute \\(1 - P(X=4)\\) because the total probability is 1.\" Evaluate this claim and correct the error.",
+     "a": "The claim is false. \\(1 - P(X=4) = P(X=0)+P(X=1)+P(X=2)+P(X=3)+P(X=5)+\\dots+P(X=10)\\), which includes probabilities for 5 through 10 successes. The correct complement for \"at most 3\" is \"4 or more\", i.e., \\(1 - P(X \\ge 4) = 1 - [P(X=4)+P(X=5)+\\dots+P(X=10)]\\). The student incorrectly assumes only one term is excluded. This reveals a misunderstanding of the complement rule for cumulative probabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from coins, dice, or multiple-choice tests) that can be modeled by a binomial distribution with \\(n=15\\) and \\(p=0.2\\). Clearly state the random variable \\(X\\) and verify all four binomial conditions for your scenario.",
+     "a": "Example: A call centre receives 15 calls in an hour. Historically, 20% of calls result in a sale. Let \\(X\\) = number of sales in that hour.  \nConditions: (1) Fixed \\(n=15\\) calls. (2) Each call: sale (success) or no sale (failure). (3) \\(p=0.2\\) constant for each call (assumes same customer base, no fatigue). (4) Calls are independent (one caller's decision doesn't affect another).  \nA poor answer uses a scenario without fixed \\(n\\) (e.g., \"number of sales until 3 successes\" — that's negative binomial) or assumes \\(p\\) changes (e.g., \"probability increases with each call\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "catalog": "catalog_class12_biology_lebo103",
+ "concepts": [
+  {
+   "id": "lebo103.3.1.1",
+   "title": "Reproductive Health, RCH Programmes and Awareness",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reproductive Health, RCH Programmes and Awareness' refers to.",
+     "a": "Reproductive health covers complete well-being in every dimension of reproduction -- physical, emotional, behavioural and social -- and India pursued it socially through family planning from 1951 and later the RCH reproductive and child health initiatives, awareness drives, school sex education and a law forbidding amniocentesis when used to pick the foetus's sex.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reproductive Health, RCH Programmes and Awareness'.",
+     "a": "Education that busts myths, plus medical support for pregnancy, delivery and contraception, is the backbone of a reproductively healthy society.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reproductive Health, RCH Programmes and Awareness' taught, and from which source text?",
+     "a": "3.1 (source: lebo103.txt lines 1-101 (reproductive health problems and strategies section))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.1",
+   "title": "Population Explosion and Growth-Rate Projection",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Population Explosion and Growth-Rate Projection' refers to.",
+     "a": "Better health services cut death rates, maternal mortality and infant mortality so sharply that world numbers swelled from about 2 billion in 1900 to 7.2 billion by 2011; at an annual growth rate of r, a population of size P grows to P times (1 plus r) raised to the number of years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Explosion and Growth-Rate Projection'.",
+     "a": "Smaller-family motivation, raised marriage ages and contraceptive access are the counter-measures to growth that scarcity of food, shelter and clothing cannot absorb.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Explosion and Growth-Rate Projection', in plain ASCII form.",
+     "a": "projected_population = current_population * (1 + annual_growth) ** years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.2",
+   "title": "Natural and Barrier Contraceptive Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Natural and Barrier Contraceptive Methods' refers to.",
+     "a": "Device-free tactics -- periodic abstinence over the fertile window of days 10 to 17, withdrawal before ejaculation, and lactational amenorrhea up to six months postpartum -- sidestep gamete meeting, while rubber barriers such as condoms, diaphragms, cervical caps and vaults block it physically, often backed by spermicidal creams.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Natural and Barrier Contraceptive Methods'.",
+     "a": "Condoms double as STI and AIDS shields, natural methods carry almost no side effects but fail often, and reusable female barriers are paired with spermicides.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Natural and Barrier Contraceptive Methods' taught, and from which source text?",
+     "a": "3.2 (source: lebo103.txt lines 145-183 (natural and barrier methods))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.3",
+   "title": "Intra Uterine Devices and Their Modes of Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Intra Uterine Devices and Their Modes of Action' refers to.",
+     "a": "IUDs placed in the uterus through the vagina come in three families -- non-medicated loops like Lippes loop, copper-releasing CuT, Cu7 and Multiload 375, and hormone-releasing Progestasert or LNG-20 -- raising sperm phagocytosis, and with copper ions damping sperm motility and fertilising power, while hormone types additionally harden the uterus against implantation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intra Uterine Devices and Their Modes of Action'.",
+     "a": "IUDs suit women who want to delay or space pregnancies and rank among India's most accepted contraceptives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Intra Uterine Devices and Their Modes of Action' taught, and from which source text?",
+     "a": "3.2 (source: lebo103.txt lines 184-202 (IUDs paragraph))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.4",
+   "title": "Oral Pills, Injectables, Implants and Emergency Contraception",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Oral Pills, Injectables, Implants and Emergency Contraception' refers to.",
+     "a": "Daily progestogen or progestogen-estrogen tablets taken for 21 of every 28 days block ovulation and implantation and thicken cervical mucus; the same hormones run in longer-acting injections and skin implants, and any of these plus IUDs used within 72 hours of coitus serve as emergency contraception.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Oral Pills, Injectables, Implants and Emergency Contraception'.",
+     "a": "Saheli, a once-a-week non-steroidal pill from CDRI, shows how oral contraception can cut dosing and side effects while staying effective.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Oral Pills, Injectables, Implants and Emergency Contraception' taught, and from which source text?",
+     "a": "3.2 (source: lebo103.txt lines 203-223 (pills, Saheli, injectables, implants, emergency contraceptives))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.5",
+   "title": "Sterilisation: Vasectomy and Tubectomy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sterilisation: Vasectomy and Tubectomy' refers to.",
+     "a": "Surgical sterilisation is the terminal contraceptive route: a snippet of the vas deferens is cut or tied through a scrotal incision in a vasectomy, or of the fallopian tube through the abdomen or vagina in a tubectomy, stopping gamete transport in either sex.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sterilisation: Vasectomy and Tubectomy'.",
+     "a": "Both operations are highly effective yet very hard to reverse, so they suit partners who want no further pregnancies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sterilisation: Vasectomy and Tubectomy' taught, and from which source text?",
+     "a": "3.2 (source: lebo103.txt lines 224-240 (surgical methods paragraph))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.3.1",
+   "title": "Medical Termination of Pregnancy: Safety and Law",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Medical Termination of Pregnancy: Safety and Law' refers to.",
+     "a": "MTP is the deliberate ending of a pregnancy before full term -- safest in the first twelve weeks and riskier in the second trimester -- legal in India since 1971 with conditions, and governed by the 2017 amendment act on how many registered doctors must certify each case.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Medical Termination of Pregnancy: Safety and Law'.",
+     "a": "Roughly 45 to 50 million MTPs worldwide each year equal about a fifth of conceptions, and misuse for female foeticide is precisely what the law is built to stop.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Medical Termination of Pregnancy: Safety and Law' taught, and from which source text?",
+     "a": "3.3 (source: lebo103.txt lines 253-329 (MTP section and amendment act box))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.4.1",
+   "title": "Sexually Transmitted Infections: Curable, Incurable, Prevention",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sexually Transmitted Infections: Curable, Incurable, Prevention' refers to.",
+     "a": "Infections passed through intercourse -- genital herpes, chlamydiasis, gonorrhoea, syphilis, genital warts, trichomoniasis, hepatitis-B and HIV leading to AIDS -- are mostly curable when caught early, but hepatitis-B, genital herpes and HIV have no complete cure, and cases peak in the 15-24 age band.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sexually Transmitted Infections: Curable, Incurable, Prevention'.",
+     "a": "Early symptoms are slight or absent, especially in women, so delay lets infections escalate into pelvic inflammatory disease, ectopic pregnancy, still birth, infertility or cancers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sexually Transmitted Infections: Curable, Incurable, Prevention' taught, and from which source text?",
+     "a": "3.4 (source: lebo103.txt lines 330-362 (STI section))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.5.1",
+   "title": "Infertility and Assisted Reproductive Technologies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Infertility and Assisted Reproductive Technologies' refers to.",
+     "a": "Couples unable to conceive despite unprotected cohabitation -- for physical, congenital, disease, drug, immunological or psychological reasons, and often on the male side -- can turn to ART: IVF with embryo transfer, ZIFT or IUT by embryo stage, GIFT with a donor ovum, ICSI sperm injection, artificial insemination, or legal adoption.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infertility and Assisted Reproductive Technologies'.",
+     "a": "Embryos of up to eight blastomeres go into the fallopian tube (ZIFT), older ones into the uterus (IUT), and donor-egg GIFT serves women who ovulate poorly but can carry a pregnancy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Infertility and Assisted Reproductive Technologies' taught, and from which source text?",
+     "a": "3.5 (source: lebo103.txt lines 363-413 (infertility and ART section))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

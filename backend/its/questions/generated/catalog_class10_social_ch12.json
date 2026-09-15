@@ -1,0 +1,255 @@
+{
+ "catalog": "catalog_class10_social_ch12",
+ "concepts": [
+  {
+   "id": "c10ss.12.1",
+   "title": "Transport - Roadways",
+   "questions": [
+    {
+     "q": "Using the method 'Transport - Roadways', work with: nh_length = 24, total_road_length = 60. Carry the chain through step by step and give the final value of share_pct.",
+     "a": "40 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Transport - Roadways' and work with: nh_length = 500, total_road_length = 80. Carry the chain through step by step and give the final value of share_pct.",
+     "a": "625 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Transport - Roadways' refers to.",
+     "a": "Roadways are the most economical and convenient mode of transport for short and medium distances; India has one of the largest road networks in the world, including national highways, state highways, district roads and rural roads.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport - Roadways'.",
+     "a": "Roads provide door-to-door service and flexibility, making them the most vital link for freight and passenger movement, especially where railways cannot reach.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport - Roadways' taught, and from which source text?",
+     "a": "Transport",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.2",
+   "title": "Transport - Railways",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport - Railways' refers to.",
+     "a": "Railways are the principal mode of transport for heavy goods and large numbers of passengers over long distances; the Indian Railways is the largest public sector undertaking in the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport - Railways'.",
+     "a": "Railways bind the economic life of the country by moving bulky raw materials and goods over long distances cheaply, and by accelerating the development of agriculture and industry.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport - Railways' taught, and from which source text?",
+     "a": "Transport",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.3",
+   "title": "Transport - Pipelines",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport - Pipelines' refers to.",
+     "a": "Pipelines are used to transport crude oil, petroleum products and natural gas from oil fields to refineries and to consumption centres; they rule out delays and losses during transit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport - Pipelines'.",
+     "a": "Pipeline transport provides a continuous, reliable and low-loss mode for liquids and gases over long distances, connecting oil fields, refineries and cities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport - Pipelines' taught, and from which source text?",
+     "a": "Transport",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.4",
+   "title": "Transport - Waterways",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport - Waterways' refers to.",
+     "a": "Waterways are the cheapest mode of transport for heavy and bulky goods over long distances; India has inland waterways on rivers and national waterways, and oceanic routes along the coast.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport - Waterways'.",
+     "a": "Water transport is the most economical for heavy and bulky goods because it requires low fuel and maintenance, but it is slow and limited by the navigability of rivers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport - Waterways' taught, and from which source text?",
+     "a": "Transport",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.5",
+   "title": "Transport - Airways",
+   "questions": [
+    {
+     "q": "Using the method 'Transport - Airways', work with: air_cost = 12000, rail_cost = 50000. Carry the chain through step by step and give the final value of cost_ratio.",
+     "a": "0.24 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Transport - Airways' and work with: air_cost = 80000, rail_cost = 5000. Carry the chain through step by step and give the final value of cost_ratio.",
+     "a": "16 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Transport - Airways' refers to.",
+     "a": "Airways are the fastest and most comfortable mode of transport, essential for remote, hilly and inaccessible areas; they are useful during natural disasters but are costly and carry limited cargo.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport - Airways'.",
+     "a": "Air transport is the fastest mode and reaches remote and difficult terrain where other modes cannot, but its high cost limits it to passengers, perishable goods and emergencies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport - Airways' taught, and from which source text?",
+     "a": "Transport",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.6",
+   "title": "Communication - Personal and Mass",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Communication - Personal and Mass' refers to.",
+     "a": "Communication includes personal communication (postcards, letters, telephones, internet) and mass communication (radio, television, newspapers, films) which transmit messages, news and entertainment across the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Communication - Personal and Mass'.",
+     "a": "The Indian postal network is the largest in the world, and mass communication through radio, television and print media connects people, spreads information and supports education and national integration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Communication - Personal and Mass' taught, and from which source text?",
+     "a": "Communication",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.7",
+   "title": "International Trade",
+   "questions": [
+    {
+     "q": "Using the method 'International Trade', work with: imports = 60, value_of_goods_sold_abroad = 1200. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "1140 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'International Trade' and work with: imports = 3, value_of_goods_sold_abroad = 500. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "497 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'International Trade' refers to.",
+     "a": "International trade is the exchange of goods and services between countries; exports are goods sold abroad and imports are goods bought from abroad, and the balance of trade is the difference between their values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'International Trade'.",
+     "a": "A favourable balance of trade occurs when exports exceed imports; trade connects producers and consumers across nations and is essential for economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'International Trade' taught, and from which source text?",
+     "a": "International Trade",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.8",
+   "title": "Tourism as Trade",
+   "questions": [
+    {
+     "q": "Using the method 'Tourism as Trade', work with: avg_spending = 30, tourist_count = 75. Carry the chain through step by step and give the final value of earnings.",
+     "a": "2250 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Tourism as Trade' and work with: avg_spending = 3, tourist_count = 200. Carry the chain through step by step and give the final value of earnings.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Tourism as Trade' refers to.",
+     "a": "Tourism is an important trade that earns foreign exchange, generates employment and promotes local crafts and culture; foreign tourists bring foreign currency that boosts the economy of the host region.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tourism as Trade'.",
+     "a": "Tourism contributes to foreign exchange earnings and employment; the money spent by foreign tourists is counted as an invisible export and supports handicrafts, transport and hospitality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tourism as Trade' taught, and from which source text?",
+     "a": "Tourism as a Trade",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.9",
+   "title": "Trade and Globalisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Trade and Globalisation' refers to.",
+     "a": "Globalisation is the integration of national economies with the world economy through trade, investment and technology; it has expanded markets, increased competition and connected producers and consumers across the globe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade and Globalisation'.",
+     "a": "Globalisation links local producers to world markets, increases the flow of goods, services and capital, and raises competition and quality, but it can also challenge small producers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Trade and Globalisation' taught, and from which source text?",
+     "a": "Trade and Globalisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.10",
+   "title": "Role of Transport, Communication and Logistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of Transport, Communication and Logistics' refers to.",
+     "a": "Transport, communication and trade together form the lifelines of the national economy; transport moves goods and people, communication transmits information, and logistics combines storage and transport to deliver goods efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of Transport, Communication and Logistics'.",
+     "a": "Efficient transport, communication and trade connect producers to markets, integrate the economy and promote national development; logistics ensures goods reach the right place at the right time.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of Transport, Communication and Logistics' taught, and from which source text?",
+     "a": "Transport, Communication and Trade",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

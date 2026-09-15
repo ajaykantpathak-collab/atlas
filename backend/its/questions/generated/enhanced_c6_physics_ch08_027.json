@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_027",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_027",
+   "title": "c6_physics_ch08_027",
+   "questions": [
+    {
+     "q": "What is the main source of energy/movement that causes a sundial’s shadow to change position?",
+     "a": "The sun's apparent movement across the sky. A wrong answer (e.g., \"the moon\" or \"the stick moving\") shows the student does not understand that the Earth's rotation creates the illusion of the sun moving, which drives the shadow's path.",
+     "self_check": true
+    },
+    {
+     "q": "If you look at a sundial at noon and then again two hours later, why will the shadow point in a different direction?",
+     "a": "Because the sun’s position in the sky has changed relative to the Earth, causing the angle of the light hitting the stick to shift. A wrong answer suggests the student thinks the stick moves, failing to grasp the relationship between light source position and shadow projection.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to use a sundial to check the time at midnight. Why is this impossible?",
+     "a": "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light. This tests if the student understands the \"scope\" of the device—that it is dependent on solar geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a sundial to a modern digital watch. What is the biggest difference in how they \"know\" the time?",
+     "a": "A sundial relies on external natural light and celestial position, while a digital watch uses an internal, independent power source and electronic counting. This tests the student's ability to analyze the evolution of technology from nature-dependent to autonomous systems.",
+     "self_check": true
+    },
+    {
+     "q": "Could you use a sundial accurately on a very cloudy day? Why or why not?",
+     "a": "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow. Answering \"Yes\" indicates a lack of understanding of how shadows are formed by blocked light paths.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that a stick's shadow changes over time. What would you need to observe?",
+     "a": "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour. A poor answer fails to define the observation interval (time) or the reference object (stick).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

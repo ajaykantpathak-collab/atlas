@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_1",
+   "title": "c9_math_ch2_1",
+   "questions": [
+    {
+     "q": "Which of the following is a linear polynomial in standard form? (A) \\(5 + 3x\\) (B) \\(3x + 5\\) (C) \\(x^2 + 2x + 1\\) (D) \\(7\\)",
+     "a": "The correct answer is (B) \\(3x + 5\\). A linear polynomial in standard form must be written as \\(ax + b\\) with the term containing \\(x\\) first, and \\(a \\neq 0\\). Option (A) has the constant term first, so it is not in standard form. Option (C) has \\(x^2\\), making it a quadratic polynomial. Option (D) has no variable term (\\(a = 0\\)), so it is a constant polynomial, not linear. If a student chooses (A), they confuse \"being a linear polynomial\" with \"being in standard form.\" If they choose (D), they miss the requirement \\(a \\neq 0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expression \\(0x + 4\\) is NOT considered a linear polynomial, even though it can be written in the form \\(ax + b\\).",
+     "a": "The expression \\(0x + 4\\) simplifies to \\(4\\), which is a constant polynomial of degree 0. The definition of a linear polynomial requires the coefficient of \\(x\\) (i.e., \\(a\\)) to be non-zero (\\(a \\neq 0\\)). If \\(a = 0\\), the variable \\(x\\) disappears entirely, and the expression no longer represents a relationship that varies with \\(x\\). A student who says \"it is linear because it looks like \\(ax + b\\)\" has missed the critical condition \\(a \\neq 0\\) and does not understand that the degree of the polynomial is determined by the highest power of \\(x\\) with a non-zero coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Write the following expressions in standard form \\(ax + b\\) and state the values of \\(a\\) and \\(b\\): (i) \\(7 - 2x\\) (ii) \\(x\\) (iii) \\(5x - \\frac{3}{2}\\)",
+     "a": "(i) \\(7 - 2x = -2x + 7\\), so \\(a = -2\\), \\(b = 7\\). (ii) \\(x = 1x + 0\\), so \\(a = 1\\), \\(b = 0\\). (iii) \\(5x - \\frac{3}{2} = 5x + (-\\frac{3}{2})\\), so \\(a = 5\\), \\(b = -\\frac{3}{2}\\). A common error is writing (i) as \\(2x + 7\\) (ignoring the minus sign) or writing (ii) as \\(x + 0\\) without explicitly showing the coefficient 1. This reveals the student does not recognise that the coefficient of \\(x\\) is the signed number multiplying \\(x\\), and that a missing constant term means \\(b = 0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the expressions \\(P(x) = 3x + 2\\) and \\(Q(x) = 2x + 3\\). Is the sum \\(P(x) + Q(x)\\) a linear polynomial? Is the product \\(P(x) \\times Q(x)\\) a linear polynomial? Justify your answers.",
+     "a": "Sum: \\(P(x) + Q(x) = (3x + 2) + (2x + 3) = 5x + 5\\), which is of the form \\(ax + b\\) with \\(a = 5 \\neq 0\\), so it is a linear polynomial. Product: \\(P(x) \\times Q(x) = (3x + 2)(2x + 3) = 6x^2 + 9x + 4x + 6 = 6x^2 + 13x + 6\\). This contains an \\(x^2\\) term, so its degree is 2 — it is a quadratic polynomial, not linear. A student who says the product is linear because \"both are linear\" does not understand that multiplying two degree-1 polynomials adds their degrees. This tests whether they connect polynomial degree to the behaviour under operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The expression \\(\\frac{2x + 4}{2}\\) is not a linear polynomial because it has a fraction.\" Evaluate this claim and correct the student's reasoning.",
+     "a": "The claim is incorrect. \\(\\frac{2x + 4}{2} = \\frac{2x}{2} + \\frac{4}{2} = x + 2\\), which is of the form \\(ax + b\\) with \\(a = 1 \\neq 0\\). It IS a linear polynomial. The student's error is judging by the initial appearance (a fraction) rather than simplifying the expression first. A polynomial is defined by its simplified form, not by how it is written. This misconception arises from confusing \"rational expression\" with \"polynomial\" — a rational expression that simplifies to a polynomial IS a polynomial.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (using rupees, metres, or litres) that can be modelled by the linear polynomial \\(15x + 50\\). Clearly state what \\(x\\) represents, what the coefficient 15 represents, and what the constant 50 represents. Then write the polynomial in standard form.",
+     "a": "Example situation: A taxi charges ₹15 per kilometre plus a fixed booking fee of ₹50. Here \\(x\\) = distance travelled in kilometres, 15 = rate per kilometre (coefficient of \\(x\\)), 50 = fixed booking fee (constant term). The polynomial is already in standard form: \\(15x + 50\\). A good answer must have: (1) a variable quantity for \\(x\\), (2) a constant rate multiplying \\(x\\), (3) a fixed initial amount, and (4) correct identification that standard form is \\(ax + b\\) with the \\(x\\)-term first. A poor answer might swap the coefficient and constant, or describe a situation where the rate is not constant (e.g., \"first km costs ₹50, then ₹15 per km\" which is piecewise, not a single linear polynomial).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

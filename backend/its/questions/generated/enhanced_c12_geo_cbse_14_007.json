@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_007",
+   "title": "c12_geo_cbse_14_007",
+   "questions": [
+    {
+     "q": "Name the primary feedstock used in modern gas-based urea manufacturing plants in India and state one major gas pipeline that supplies them.",
+     "a": "Correct answer: Natural gas (mainly methane) is the primary feedstock; the Hazira-Vijaipur-Jagdishpur (HVJ) pipeline and the Dahej-Vijaipur pipeline are major suppliers. A wrong answer (e.g., \"naphtha\" or \"coal\") reveals the student has not updated from older naphtha-based plants to the current gas-based dominance and misses the infrastructure linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why phosphatic fertiliser plants are located near Rajasthan while nitrogenous plants cluster along the west coast and pipeline corridors.",
+     "a": "Phosphatic plants need rock phosphate (from Jhamarkotra, Rajasthan) and sulphur (imported via west coast ports), so they locate near the mine to reduce heavy raw material transport. Nitrogenous plants need natural gas, which arrives at west coast terminals (Dahej, Hazira) and moves inland via pipelines, so they cluster at pipeline nodes. A wrong answer that swaps the reasons shows confusion between weight-losing raw materials (rock phosphate) and gaseous feedstock distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A new urea plant is proposed at a site with: (a) access to a gas pipeline spur, (b) 50 km from a major consumption centre, (c) adequate water from a perennial river, (d) rail siding. Using the Weberian least-cost framework, rank these four factors in order of importance for a gas-based urea plant and justify the top two.",
+     "a": "Rank: 1. Gas pipeline access (feedstock is 70-80% of production cost, non-substitutable), 2. Water availability (high volume for cooling and steam, non-negotiable), 3. Rail siding (for product dispatch), 4. Proximity to market (urea is low value-to-weight, but demand is widespread; transport cost is secondary). A student who ranks market proximity first ignores the high feedstock cost share and the fact that urea is transported nationally via rail.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of the petrochemical complex at Jamnagar (Gujarat) with the fertiliser complex at Panipat (Haryana). Identify two similarities and two differences in their geographical determinants.",
+     "a": "Similarities: both use hydrocarbon feedstock (crude oil/naphtha for Jamnagar, natural gas for Panipat) and require large water volumes and port/pipeline connectivity. Differences: Jamnagar is export-oriented with a captive port and processes crude oil (weight-losing), so it sits on the coast; Panipat is inland, serves the northern fertiliser market, and relies on pipeline gas (weight-losing in terms of pipeline cost). A student who says both are market-oriented misses the export vs domestic demand distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Nutrient Based Subsidy (NBS) policy has successfully balanced regional fertiliser production across India.\" Provide two pieces of evidence for and two against.",
+     "a": "For: NBS decontrolled P&K prices, encouraging new capacities in eastern states (e.g., Paradeep); gas pooling reduced feedstock cost disparity. Against: Urea remains under price control and canalised, keeping investment skewed to gas-rich west/north; logistics bottlenecks persist for rock phosphate/sulphur movement to the east. A one-sided answer shows inability to weigh policy nuances and regional resource constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a proposed complex fertiliser plant (producing NPK grades) that integrates raw material sources (gas, rock phosphate, sulphur, ammonia), infrastructure (pipeline, rail, port), and market (major consuming states). List five criteria with weights (sum=100) and explain the top-weighted criterion.",
+     "a": "Criteria & weights: (1) Feedstock security (gas + ammonia) – 30%, (2) Rock phosphate/sulphur logistics – 20%, (3) Water availability – 15%, (4) Rail/port connectivity for dispatch – 20%, (5) Proximity to high-demand states – 15%. Top criterion: feedstock security because gas/ammonia constitute the largest variable cost and supply disruption halts production entirely. A matrix that weights market proximity highest ignores the capital-intensive, feedstock-driven nature of the industry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

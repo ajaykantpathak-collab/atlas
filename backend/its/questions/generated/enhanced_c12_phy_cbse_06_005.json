@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_005",
+   "title": "c12_phy_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the expression for the instantaneous emf induced in an AC generator with N turns, area A, rotating at angular speed ω in a uniform magnetic field B. What is the SI unit of the maximum emf ε₀?",
+     "a": "ε = NBAω sin(ωt); ε₀ = NBAω (unit: volt, V). A wrong answer like ε = NBA cos(ωt) or missing the ω factor reveals the student has not differentiated flux correctly or confuses flux with emf. Missing the N factor indicates they forgot the coil has multiple turns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the emf induced in an AC generator is alternating (changes polarity periodically) even though the magnetic field and rotation direction are constant.",
+     "a": "The emf alternates because the magnetic flux through the coil varies as Φ = BA cos(ωt). The rate of change of flux, dΦ/dt = -BAω sin(ωt), changes sign every half-rotation as the coil's effective area perpendicular to B goes from maximum to zero to negative maximum. A student who says \"because the magnetic field changes\" misunderstands that B is constant; it is the orientation (cosθ) that changes. Another error: \"slip rings reverse the current\" — slip rings only maintain contact; the emf itself reverses due to flux change.",
+     "self_check": true
+    },
+    {
+     "q": "A coil of 200 turns and area 0.15 m² rotates at 60 revolutions per second in a uniform magnetic field of 0.20 T. Calculate the maximum emf generated. (Use π = 3.14)",
+     "a": "Step 1: Identify given: N = 200, A = 0.15 m², B = 0.20 T, f = 60 Hz. Step 2: Angular speed ω = 2πf = 2 × 3.14 × 60 = 376.8 rad/s. Step 3: Formula ε₀ = NBAω. Step 4: ε₀ = 200 × 0.20 × 0.15 × 376.8 = 2260.8 V. Step 5: Unit check: (T)(m²)(rad/s) = (N/(A·m))·m²·(1/s) = N·m/(A·s) = J/C = V. Answer: 2.26 × 10³ V (approx). A wrong answer like 376.8 V (forgetting N) or 2260.8 V without unit conversion shows missing steps.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we double the number of turns N and halve the area A of the coil, the maximum emf ε₀ remains unchanged.\" Analyze this statement and state whether it is correct. Justify your answer.",
+     "a": "The statement is correct. ε₀ = NBAω. Doubling N (2N) and halving A (A/2) gives ε₀' = (2N)B(A/2)ω = NBAω = ε₀. The product NA remains constant. A student who says \"ε₀ doubles because N doubled\" ignores the simultaneous change in A. Another error: \"ε₀ halves because area halved\" ignores N doubling. The key is recognizing that ε₀ depends on the product NA.",
+     "self_check": true
+    },
+    {
+     "q": "In an AC generator, the coil rotates at 50 Hz. The induced emf is ε = ε₀ sin(ωt). At what time after t=0 does the emf first reach half its maximum value? (Give answer in milliseconds.)",
+     "a": "Step 1: f = 50 Hz → ω = 2πf = 100π rad/s. Step 2: Set ε = ε₀/2 → sin(ωt) = 1/2. Step 3: Smallest positive angle: ωt = π/6. Step 4: t = (π/6) / (100π) = 1/600 s = 1.667 ms. Step 5: Check: sin(100π × 1.667×10⁻³) = sin(π/6) = 0.5. Correct. A wrong answer like 3.33 ms (using π/3) shows confusion between sin⁻¹(0.5) values. Using degrees (30°) without converting to radians leads to incorrect t.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a bicycle, a coil of wire, a magnet, and an LED to demonstrate AC generation. Specify how you would verify that the output is alternating and not direct current.",
+     "a": "Mount a strong magnet on the bicycle wheel spokes and fix a coil on the frame so the magnet passes close to the coil each rotation. Connect the coil to an LED (with a protective resistor). As the wheel spins, the LED will flicker at the rotation frequency. To verify AC: use a center-zero galvanometer or an oscilloscope — the needle/ trace will swing both sides of zero. Alternatively, connect two LEDs in anti-parallel; both will light alternately. A poor answer: \"Use a multimeter on AC setting\" (many cheap multimeters cannot measure high-frequency low-voltage AC accurately) or \"LED lights so it's AC\" (LED would also light on DC if polarity matches). The key is observing polarity reversal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

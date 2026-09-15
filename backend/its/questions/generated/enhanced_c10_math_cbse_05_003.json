@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_003",
+   "title": "c10_math_cbse_05_003",
+   "questions": [
+    {
+     "q": "Write the formula for the nth term of an AP with first term \\(a\\) and common difference \\(d\\). Then, using this formula, find the 10th term of the AP: 3, 7, 11, 15, ...",
+     "a": "The formula is \\(a_n = a + (n-1)d\\). For the given AP, \\(a = 3\\), \\(d = 4\\). The 10th term is \\(a_{10} = 3 + (10-1) \\times 4 = 3 + 36 = 39\\).  \nA wrong answer (e.g., using \\(n\\) instead of \\(n-1\\) giving \\(3+10\\times4=43\\)) reveals the student does not understand that the first term corresponds to zero increments of \\(d\\). They are counting the first term as an increment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the nth term formula uses \\((n-1)\\) as the coefficient of \\(d\\) instead of \\(n\\). Use the AP 5, 8, 11, ... as an example to illustrate your explanation.",
+     "a": "The first term (n=1) is just \\(a\\) with no addition of \\(d\\). The second term (n=2) adds \\(d\\) once, the third term adds \\(d\\) twice, so the nth term adds \\(d\\) exactly \\(n-1\\) times. For the AP 5, 8, 11: first term = 5 (0 increments), second = 5+3 (1 increment), third = 5+2×3 (2 increments). Hence coefficient is \\(n-1\\).  \nIf a student says \"because the formula says so\" or \"it's the pattern\", they lack conceptual understanding of the relationship between term position and number of common differences added.",
+     "self_check": true
+    },
+    {
+     "q": "The 6th term of an AP is 23 and the 10th term is 39. Find the first term \\(a\\) and the common difference \\(d\\).",
+     "a": "Using \\(a_n = a + (n-1)d\\):  \n\\(a_6 = a + 5d = 23\\) ...(1)  \n\\(a_{10} = a + 9d = 39\\) ...(2)  \nSubtract (1) from (2): \\(4d = 16 \\Rightarrow d = 4\\).  \nSubstitute in (1): \\(a + 5(4) = 23 \\Rightarrow a = 3\\).  \nSo \\(a = 3\\), \\(d = 4\\).  \nA common error is to subtract the term numbers (10-6=4) but then divide the difference in terms (39-23=16) by the wrong number, or to set up equations incorrectly like \\(a+6d=23\\). This shows confusion between term index and the multiplier of \\(d\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same common difference. The first term of the first AP is 2 and the first term of the second AP is 7. What is the difference between their 10th terms? What is the difference between their 50th terms? What do you observe?",
+     "a": "Let common difference be \\(d\\).  \nFirst AP: \\(a_{10}^{(1)} = 2 + 9d\\), \\(a_{50}^{(1)} = 2 + 49d\\).  \nSecond AP: \\(a_{10}^{(2)} = 7 + 9d\\), \\(a_{50}^{(2)} = 7 + 49d\\).  \nDifference of 10th terms = \\((7+9d) - (2+9d) = 5\\).  \nDifference of 50th terms = \\((7+49d) - (2+49d) = 5\\).  \nThe difference between corresponding terms is constant and equal to the difference of their first terms.  \nIf a student computes numerical values for \\(d\\) (which is not given) or says the difference changes with \\(n\\), they have not recognized that the \\((n-1)d\\) part cancels out. This indicates a lack of algebraic generalization ability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the 20th term of the AP: -10, -7, -4, -1, ... is 47. Is the student correct? Justify your answer by showing the correct calculation and identifying the likely error.",
+     "a": "AP: \\(a = -10\\), \\(d = 3\\).  \n\\(a_{20} = -10 + (20-1) \\times 3 = -10 + 57 = 47\\).  \nThe student is actually correct! The likely error a student might make is forgetting the negative sign on the first term and computing \\(10 + 19 \\times 3 = 67\\), or using \\(n=20\\) as multiplier: \\(-10 + 20 \\times 3 = 50\\).  \nIf a student says the answer is wrong without checking, they are not evaluating properly. The task tests whether they can verify a claim by correct substitution and identify common sign errors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) that can be modeled by an AP where the nth term formula is used to answer a specific question. Write the problem, identify \\(a\\), \\(d\\), and \\(n\\), and solve it.",
+     "a": "Example: \"Rohan starts a fitness challenge. On day 1 he does 5 push-ups. Each day he increases by 3 push-ups. How many push-ups will he do on day 30?\"  \n\\(a = 5\\), \\(d = 3\\), \\(n = 30\\).  \n\\(a_{30} = 5 + 29 \\times 3 = 5 + 87 = 92\\) push-ups.  \nA good answer clearly states the scenario, correctly identifies parameters, and applies the formula. A poor answer might use a non-constant increase (not an AP), misidentify \\(n\\) (e.g., using 29), or confuse total push-ups with daily push-ups (sum vs nth term).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

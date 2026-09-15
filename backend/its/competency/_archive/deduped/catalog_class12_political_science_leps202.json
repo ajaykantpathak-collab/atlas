@@ -1,0 +1,196 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 2,
+ "chapter_title": "Era of One-Party Dominance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.202.1.1",
+   "title": "Challenge of Building Democracy and the First General Election",
+   "section": "Challenge of building democracy",
+   "definition": "Unlike many newly free nations that slipped into one-man or one-party rule, India chose competitive democracy from day one: an independent Election Commission under Sukumar Sen prepared constituency boundaries and voter lists, registered every adult citizen as a voter regardless of literacy, and ran a first nationwide poll that skeptics had called an impossible gamble.",
+   "formula": "free_and_fair_election = universal_adult_franchise + independent_election_commission + prepared_electoral_rolls",
+   "key_idea": "Democracy was treated as the method for solving public problems, not a luxury to be postponed until a country became rich or literate.",
+   "textbook_ref": "leps202.txt Challenge of building democracy (lines 31-226)",
+   "question_patterns": [
+    "why did india decide to adopt democracy despite difficult conditions after independence",
+    "what preparations did the election commission make before the first general election",
+    "why were the names of many women missing from the first draft electoral rolls",
+    "how did critics react to the idea of universal adult franchise in a poor country",
+    "what made the 1952 general election a landmark in the history of democracy",
+    "explain the challenge of holding elections in a country of india's size"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the democratic choice", "explain": "leaders saw politics as the route to public interest and rejected the excuse that poverty or illiteracy required postponing democracy"},
+    {"step": 2, "action": "list the administrative hurdles", "explain": "drawing constituency boundaries, preparing voter rolls, re-recording women listed only as wife of or daughter of, and training polling staff"},
+    {"step": 3, "action": "assess the outcome", "explain": "more than half of eligible voters voted, over four candidates competed per seat on average, and even losers accepted the result as fair, disproving the critics"}
+   ]
+  },
+  {
+   "id": "leps.202.2.1",
+   "title": "Seat Share versus Vote Share under First-Past-The-Post",
+   "section": "Congress dominance in the first three general elections",
+   "definition": "Under the first-past-the-post system used in India, a party that wins more votes than any rival takes the entire seat of each constituency, so its share of seats inflates far beyond its share of votes; the Congress turned 45 per cent of votes in 1952 into 74 per cent of Lok Sabha seats, while the divided opposition stayed badly under-rewarded.",
+   "formula": "seat_share = seats_won / total_seats * 100",
+   "key_idea": "The winner-takes-all conversion of votes into seats artificially magnified Congress majorities because non-Congress votes split among many rivals.",
+   "textbook_ref": "leps202.txt Congress dominance, first-past-the-post distortion (lines 241-311)",
+   "question_patterns": [
+    "calculate the seat share of the congress in the first lok sabha",
+    "why did the congress win three out of four seats without half the votes",
+    "how does first past the post reward a party with a united opposition vote",
+    "compare the vote share and seat share of the socialist party in 1952",
+    "explain how the electoral system boosted the congress majority",
+    "what share of lok sabha seats did the congress hold in 1957 and 1962"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert seats won into a seat share", "explain": "divide the seats a party captured by the total seats in the house and scale to a percentage", "compute": "seat_share = seats_won / total_seats * 100"},
+    {"step": 2, "action": "set the vote share beside it", "explain": "the same party's percentage of all valid votes shows how far first-past-the-post magnified its representation", "compute": "seat_bonus = seat_share - vote_share"},
+    {"step": 3, "action": "read the distortion", "explain": "a large positive seat bonus means the electoral system over-rewarded the leading party because rival votes were divided", "compute": "opposition_split = 100 - vote_share"}
+   ]
+  },
+  {
+   "id": "leps.202.3.1",
+   "title": "Communist Victory in Kerala and Dismissal under Article 356",
+   "section": "Communist victory in Kerala",
+   "definition": "In the March 1957 assembly elections the Communist Party won 60 of 126 seats and, with five independents, formed a ministry under E. M. S. Namboodiripad -- the first government anywhere to be brought to power by democratic communist election; in 1959 the Centre dismissed it under Article 356 after a Congress-backed liberation struggle, a step still cited as a misuse of emergency powers.",
+   "formula": "kerala_government_of_1957 = communist_party_majority + independent_support",
+   "key_idea": "Kerala 1957 proved both that communists could win office through ballots and that a Centre-state confrontation over a radical elected government could end in constitutional dismissal.",
+   "textbook_ref": "leps202.txt Communist victory in Kerala (lines 331-356)",
+   "question_patterns": [
+    "why is the 1957 kerala election considered historically important",
+    "describe how the communist ministry in kerala came to power",
+    "what was the liberation struggle against the kerala government",
+    "under which constitutional provision was the kerala government dismissed in 1959",
+    "why is the 1959 dismissal called a misuse of emergency powers",
+    "name the leader of the first elected communist government in the world"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the election result", "explain": "the CPI won 60 of 126 assembly seats and with independents secured a majority, inviting Namboodiripad to form the ministry"},
+    {"step": 2, "action": "verify the conflict", "explain": "the Congress organised a liberation struggle against the elected radical government, which communists attributed to vested interests and religious bodies"},
+    {"step": 3, "action": "verify the dismissal", "explain": "in 1959 the Centre invoked Article 356 to dismiss the ministry, an action later remembered as a prominent misuse of constitutional emergency powers"}
+   ]
+  },
+  {
+   "id": "leps.202.4.1",
+   "title": "Congress as a Social and Ideological Coalition with Factional Tolerance",
+   "section": "Nature of Congress dominance",
+   "definition": "Congress dominance differed from one-party regimes elsewhere because it operated under free competition: the party was a rainbow coalition of classes, castes, religions and languages, an ideological spectrum from conservative to radical, and it tolerated internal factions so that rivalry stayed inside the party rather than producing breakaways -- the arrangement political scientists called the Congress system.",
+   "formula": "congress_system = social_coalition + ideological_coalition + tolerated_factions",
+   "key_idea": "Because every group and ambition found room inside the ruling party, competition happened within the Congress, and opposition parties could only pressurise it from the margins.",
+   "textbook_ref": "leps202.txt Nature of Congress dominance, Tolerance and management of factions (lines 423-769)",
+   "question_patterns": [
+    "how was congress dominance different from one party rule in other countries",
+    "explain the congress as a social and ideological coalition",
+    "what are factions and why did they strengthen rather than weaken the congress",
+    "what is meant by the congress system of the first two decades",
+    "why could opposition parties only influence policy from the margins",
+    "in what sense did the congress act as both ruling party and opposition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the coalition character", "explain": "peasants and industrialists, workers and owners, all castes, religions and languages found space, and ideologies from right to left coexisted inside one party"},
+    {"step": 2, "action": "verify the faction mechanism", "explain": "groups unhappy with power-sharing fought rival factions internally instead of leaving, so leaders with different interests stayed within the Congress"},
+    {"step": 3, "action": "verify the systemic result", "explain": "compromise and inclusiveness denied the opposition any issue the Congress had not already absorbed, keeping rivals away from real authority while democracy remained intact"}
+   ]
+  },
+  {
+   "id": "leps.202.5.1",
+   "title": "Emergence of Opposition Parties in the 1950s",
+   "section": "Emergence of opposition parties",
+   "definition": "A range of parties contested the first decades of elections though they won only token seats: the Socialist Party born from the Congress Socialist group of 1934 and forced out by the 1948 ban on dual membership; the Communist Party with its disciplined cadre that split in 1964 into CPI and CPI(M); and the Bharatiya Jana Sangh of 1951 with its one country, one culture agenda -- together they kept democratic criticism alive under Congress dominance.",
+   "formula": "opposition_parties = socialist_party + communist_party + bharatiya_jana_sangh + swatantra_party",
+   "key_idea": "Even token representation mattered: principled criticism checked the ruling party, kept alternatives alive, and groomed future national leaders.",
+   "textbook_ref": "leps202.txt Emergence of opposition parties, boxes on SP, CPI, BJS (lines 358-402, 543-584, 692-732, 770-826)",
+   "question_patterns": [
+    "trace the origins of the socialist party from the congress",
+    "why did the socialists find it difficult to oppose the congress after 1955",
+    "describe the split in the communist party of india in 1964",
+    "what were the main ideological positions of the bharatiya jana sangh",
+    "how did small opposition parties help maintain democracy in the 1950s",
+    "which present day parties trace their roots to the opposition of the 1950s"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the socialist lineage", "explain": "Congress Socialist Party of 1934 became the Socialist Party of 1948, later splitting into factions like the Praja Socialist Party, with Lohia resisting the Congress and Asoka Mehta urging cooperation"},
+    {"step": 2, "action": "verify the communist trajectory", "explain": "after the Telangana setback the CPI embraced elections in 1951, won 16 seats in 1952 as the largest opposition group, and split in 1964 along the Soviet-China ideological rift into CPI and CPI(M)"},
+    {"step": 3, "action": "verify the Jana Sangh profile", "explain": "founded in 1951 by Shyama Prasad Mukherjee with roots in the RSS tradition, it pushed one nation one culture, Akhand Bharat, official Hindi and nuclear weapons, drawing urban Hindi-belt support"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps202_1",
+   "source_ref": "leps202.txt Congress dominance in the first three general elections (1952 figures)",
+   "concept": "leps.202.2.1",
+   "question_type": "seat_share_computation",
+   "question_pattern": "In the first Lok Sabha of {total_seats} seats the Congress won {seats_won} seats with about {vote_share} per cent of the votes. What seat share did it obtain and how large was the first-past-the-post bonus?",
+   "extracted_variables": {
+    "total_seats": 489,
+    "seats_won": 364,
+    "vote_share": 45
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the seat share", "explain": "seats won divided by house size, expressed as a percentage", "compute": "seat_share = seats_won / total_seats * 100"},
+    {"step": 2, "action": "compute the seat bonus over votes", "explain": "the gap between the share of seats and the share of votes measures the magnification by the electoral system", "compute": "seat_bonus = seat_share - vote_share"},
+    {"step": 3, "action": "compute the split opposition vote", "explain": "all votes outside the Congress, divided among rivals, fell short of converting into seats", "compute": "opposition_split = 100 - vote_share"}
+   ]
+  },
+  {
+   "id": "we_leps202_2",
+   "source_ref": "leps202.txt second and third general elections (three-fourths of seats)",
+   "concept": "leps.202.2.1",
+   "question_type": "seat_share_computation",
+   "question_pattern": "In a Lok Sabha of {total_seats} seats the Congress captured three-fourths of the membership in 1957. How many seats is that, and what fraction was left for every opposition party combined?",
+   "extracted_variables": {
+    "total_seats": 492,
+    "congress_fraction": 0.75
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the three-fourths claim", "explain": "multiply the house size by the fraction the chapter reports for the Congress", "compute": "congress_seats = total_seats * congress_fraction"},
+    {"step": 2, "action": "compute the remaining share", "explain": "the rest of the house was shared by all opposition parties together", "compute": "others_seats = total_seats - congress_seats"},
+    {"step": 3, "action": "express the opposition share", "explain": "this tiny combined share shows why no rival reached one-tenth of the Congress tally", "compute": "others_share = others_seats / total_seats * 100"}
+   ]
+  },
+  {
+   "id": "we_leps202_3",
+   "source_ref": "leps202.txt Communist victory in Kerala",
+   "concept": "leps.202.3.1",
+   "question_type": "conceptual",
+   "question_pattern": "A party wins 60 of 126 assembly seats and is joined by 5 independents. Why could its leader be invited to form the government, and what followed two years later?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "test the majority", "explain": "60 plus 5 gives a working majority of 65 in a house of 126"},
+    {"step": 2, "action": "state the invitation", "explain": "the governor therefore invited the Communist legislature party leader E. M. S. Namboodiripad to form the ministry in 1957"},
+    {"step": 3, "action": "state the aftermath", "explain": "after a liberation struggle the Centre dismissed the ministry in 1959 under Article 356, a controversial use of emergency powers"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps202.txt EXERCISES Q1-Q2",
+   "questions": [
+    "the first general elections of 1952 were held simultaneously for the lok sabha and which other body",
+    "which party won the second largest number of lok sabha seats in the first general election",
+    "match each socialist and communist leader with the party he led or belonged to",
+    "which party of the 1950s stood for an economy free from state control"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps202.txt EXERCISES short and long answer",
+   "questions": [
+    "explain the circumstances that made the first general election a mammoth exercise",
+    "how did the electoral system of india favour the congress party in the 1950s",
+    "describe the role of opposition parties in the era of congress dominance",
+    "what is meant by the congress system and how did factions operate within it",
+    "why was the dismissal of the kerala government in 1959 controversial"
+   ]
+  }
+ ]
+}

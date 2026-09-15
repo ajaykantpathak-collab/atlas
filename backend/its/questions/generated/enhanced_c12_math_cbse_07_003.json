@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_003",
+   "title": "c12_math_cbse_07_003",
+   "questions": [
+    {
+     "q": "Write the correct partial fraction decomposition form for \\( \\frac{5x-3}{(x-2)^2(x+1)} \\) without solving for the constants.",
+     "a": "The correct form is \\( \\frac{A}{x-2} + \\frac{B}{(x-2)^2} + \\frac{C}{x+1} \\). A wrong answer like \\( \\frac{A}{x-2} + \\frac{B}{x+1} \\) reveals the student does not understand that a repeated linear factor \\( (x-2)^2 \\) requires two terms: one with the factor to the first power and one with the factor squared. Another common error is writing \\( \\frac{Ax+B}{(x-2)^2} + \\frac{C}{x+1} \\), which is the form for an irreducible quadratic, not a repeated linear factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student integrates \\( \\int \\frac{x^2+1}{x^2-1} \\, dx \\) by directly writing partial fractions \\( \\frac{A}{x-1} + \\frac{B}{x+1} \\). Explain why this approach is incorrect and what step must be done first.",
+     "a": "The integrand \\( \\frac{x^2+1}{x^2-1} \\) is an improper rational function because the degree of the numerator (2) is not less than the degree of the denominator (2). Partial fractions only apply to proper rational functions. The student must first perform polynomial long division to rewrite it as \\( 1 + \\frac{2}{x^2-1} \\), then decompose \\( \\frac{2}{x^2-1} \\) into partial fractions. Skipping the division step leads to an incorrect decomposition because the identity \\( \\frac{x^2+1}{x^2-1} = \\frac{A}{x-1} + \\frac{B}{x+1} \\) has no solution for constants A and B.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\( \\int \\frac{3x+5}{x^2+4x+3} \\, dx \\) completely, showing all steps.",
+     "a": "Step 1: Factor denominator: \\( x^2+4x+3 = (x+1)(x+3) \\).  \nStep 2: Set up partial fractions: \\( \\frac{3x+5}{(x+1)(x+3)} = \\frac{A}{x+1} + \\frac{B}{x+3} \\).  \nStep 3: \\( 3x+5 = A(x+3) + B(x+1) = (A+B)x + (3A+B) \\).  \nStep 4: Equate coefficients: \\( A+B=3 \\), \\( 3A+B=5 \\). Solving gives \\( A=1, B=2 \\).  \nStep 5: Integrate: \\( \\int \\left( \\frac{1}{x+1} + \\frac{2}{x+3} \\right) dx = \\log|x+1| + 2\\log|x+3| + C \\).  \nA wrong answer like \\( \\log|x+1| + \\log|x+3| + C \\) reveals the student solved the system incorrectly (e.g., got A=1, B=1) or forgot to multiply the second term by 2. Another error is omitting absolute values inside the logarithms, which is required because the domain includes intervals where the arguments are negative.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals \\( I_1 = \\int \\frac{2x+3}{x^2+4x+5} \\, dx \\) and \\( I_2 = \\int \\frac{2x+3}{x^2+4x+3} \\, dx \\). Explain why the method of partial fractions works directly for \\( I_2 \\) but not for \\( I_1 \\), and describe the alternative method needed for \\( I_1 \\).",
+     "a": "For \\( I_2 \\), the denominator \\( x^2+4x+3 = (x+1)(x+3) \\) factors into distinct linear factors, so partial fractions with terms \\( \\frac{A}{x+1} + \\frac{B}{x+3} \\) works. For \\( I_1 \\), the denominator \\( x^2+4x+5 \\) has discriminant \\( 16-20 = -4 < 0 \\), so it is an irreducible quadratic over reals; it cannot be factored into linear factors with real coefficients. Therefore, the partial fraction form for a single irreducible quadratic is \\( \\frac{Ax+B}{x^2+4x+5} \\), which is just the original integrand — no simplification occurs. Instead, \\( I_1 \\) must be solved by completing the square: \\( x^2+4x+5 = (x+2)^2+1 \\), then splitting the numerator to match the derivative of the denominator: \\( 2x+3 = (2x+4) - 1 \\), giving \\( \\int \\frac{2x+4}{(x+2)^2+1} dx - \\int \\frac{1}{(x+2)^2+1} dx = \\log(x^2+4x+5) - \\tan^{-1}(x+2) + C \\). A student who tries to force partial fractions on \\( I_1 \\) reveals they cannot distinguish between factorable and irreducible quadratics.",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution for \\( \\int \\frac{x^3+2x^2+3x+4}{x^2+x+1} \\, dx \\) begins with partial fractions: \\( \\frac{Ax+B}{x^2+x+1} \\). Identify the error and provide the correct first step.",
+     "a": "The error is that the rational function is improper (numerator degree 3 > denominator degree 2). Partial fractions cannot be applied directly. The correct first step is polynomial long division: \\( \\frac{x^3+2x^2+3x+4}{x^2+x+1} = x+1 + \\frac{x+3}{x^2+x+1} \\). Then integrate \\( \\int (x+1) dx \\) and handle the proper fraction \\( \\frac{x+3}{x^2+x+1} \\) by completing the square or splitting the numerator. A student who skips long division shows they do not recognize the degree condition for partial fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a rational function that requires all three types of partial fraction terms: a distinct linear factor, a repeated linear factor, and an irreducible quadratic factor. Write its denominator in factored form and the corresponding partial fraction decomposition form (do not solve for constants).",
+     "a": "Example: Denominator \\( (x-1)(x+2)^2(x^2+4) \\). The decomposition form is \\( \\frac{A}{x-1} + \\frac{B}{x+2} + \\frac{C}{(x+2)^2} + \\frac{Dx+E}{x^2+4} \\). A poor answer might omit the repeated linear term \\( \\frac{B}{x+2} \\) (only keeping \\( \\frac{C}{(x+2)^2} \\)) or use a constant numerator \\( D \\) instead of \\( Dx+E \\) for the irreducible quadratic. This reveals the student has not memorized the exact patterns in Table 7.2 for each factor type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

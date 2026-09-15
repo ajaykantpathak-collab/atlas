@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_007",
+   "title": "c12_biotech_cbse_01_007",
+   "questions": [
+    {
+     "q": "What are the two selectable markers present in pBR322 and what antibiotic resistances do they confer?",
+     "a": "The two selectable markers in pBR322 are the *bla* gene (encoding β-lactamase) conferring ampicillin resistance, and the *tetR* gene (encoding a tetracycline efflux protein) conferring tetracycline resistance. A wrong answer (e.g., naming kanamycin or chloramphenicol resistance) reveals the student has confused pBR322 with other vectors like pUC19 (which has only *bla*) or pACYC184 (which has *cat* and *tetR*), indicating they memorised vector names without learning their specific marker genes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why cloning a DNA fragment into the *BamHI* site of pBR322 results in tetracycline-sensitive transformants, while cloning into the *PstI* site yields ampicillin-sensitive transformants.",
+     "a": "The *BamHI* site (position 375) lies within the *tetR* gene, so insertion disrupts tetracycline resistance → recombinants are tetracycline-sensitive but ampicillin-resistant. The *PstI* site (position 3611) lies within the *bla* gene, so insertion disrupts ampicillin resistance → recombinants are ampicillin-sensitive but tetracycline-resistant. A wrong answer (e.g., swapping the phenotypes) reveals the student does not understand that insertional inactivation destroys the function of the gene where the restriction site resides, and has not memorised the map positions of key sites relative to the marker genes.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher digests pBR322 with *EcoRI* (site at position 4361/0) and ligates a 2 kb insert. After transformation into *E. coli*, they plate on ampicillin-containing medium. All colonies grow. They replica-plate onto tetracycline medium and find all colonies grow there too. What went wrong, and how should they modify the experiment to identify recombinants?",
+     "a": "The *EcoRI* site lies in the *ori* region, outside both *bla* and *tetR* genes, so insertion does not disrupt either marker — both recombinants and non-recombinants remain Amp^R^Tet^R^. No insertional inactivation occurs. To identify recombinants, they should use a restriction site *inside* a marker gene (e.g., *BamHI* in *tetR* or *PstI* in *bla*) and screen for loss of the corresponding resistance. A wrong answer (e.g., \"use blue-white screening\") reveals the student confuses pBR322 (which lacks *lacZα*) with pUC vectors, and does not know pBR322 relies solely on antibiotic marker inactivation for recombinant selection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recombinant selection strategy of pBR322 (insertional inactivation of antibiotic resistance) with that of pUC19 (blue-white screening using *lacZα*). Which system allows direct visual screening on a single plate, and why is this advantageous for high-throughput cloning?",
+     "a": "pUC19 allows direct visual screening on a single plate (X-gal/IPTG plates: white = recombinant, blue = non-recombinant) because the *lacZα* fragment is disrupted by insertion, abolishing α-complementation. pBR322 requires replica plating onto two antibiotic media (Amp + Tet) to score phenotypes, which is laborious and slower. A wrong answer (e.g., claiming pBR322 also uses blue-white screening) reveals the student conflates the two vector systems and does not understand that pBR322 lacks the *lacZα* gene entirely — a critical distinction for competitive exams like NEET where vector comparison questions are common.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"pBR322 is unsuitable for cloning inserts larger than 5 kb because its copy number drops drastically.\" Is this true or false? Justify using the relationship between insert size, plasmid copy number, and *ori* compatibility.",
+     "a": "False. pBR322 has a *ColE1-type ori* giving ~15–20 copies/cell. While larger inserts (>5–10 kb) can reduce copy number due to metabolic burden and replication inefficiency, pBR322 *can* accommodate inserts up to ~10 kb with reduced yield. The statement confuses pBR322 with high-copy vectors like pUC (500–700 copies) where large inserts cause severe copy number collapse. The real limitation of pBR322 for large inserts is its low copy number (poor yield) and lack of features for stable maintenance of large DNA, not an absolute size barrier. A wrong answer (accepting the statement) reveals the student memorised \"pBR322 = small inserts only\" without understanding the mechanistic basis — copy number, *ori* type, and metabolic load — which JEE/NEET questions often probe.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cloning strategy to insert a 1.2 kb DNA fragment (with *BamHI* and *HindIII* sites at its ends) into pBR322 such that recombinants can be identified by a single antibiotic plate (no replica plating). Specify the restriction enzyme(s) to use, the expected phenotype of recombinants vs non-recombinants, and the screening plate composition.",
+     "a": "Digest pBR322 with *BamHI* (site in *tetR*) and *HindIII* (site in *tetR*, position 29) to remove a small fragment from *tetR*, then ligate the *BamHI–HindIII* insert. Recombinants will have disrupted *tetR* → Tet^S^ Amp^R^. Non-recombinants (recircularized vector without insert) will also have disrupted *tetR* if the vector fragment is lost, but more reliably: use *BamHI* alone and screen on ampicillin plates replica-plated to tetracycline — but the question asks for *single plate*. Better: Use *PstI* (in *bla*) for cloning; plate on tetracycline only. Recombinants = Tet^R^ Amp^S^ (grow on Tet), non-recombinants = Tet^R^ Amp^R^ (also grow on Tet) — fails. Correct single-plate strategy: **Not possible with pBR322 alone** because both markers confer resistance; loss of resistance cannot be selected *for* on a single plate (you cannot select for sensitivity). pUC19 allows this via blue-white. A good answer recognises this limitation and states: \"pBR322 cannot do single-plate recombinant selection; it requires replica plating. For single-plate screening, use pUC19 with *lacZα*.\" A poor answer proposes a flawed single-plate method, revealing the student does not grasp that antibiotic *sensitivity* cannot be positively selected.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

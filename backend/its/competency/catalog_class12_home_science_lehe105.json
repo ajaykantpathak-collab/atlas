@@ -1,0 +1,571 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 5,
+ "chapter_title": "Food Quality and Food Safety",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe105.1",
+   "title": "Food Safety, Toxicity and Hazard",
+   "section": "Basic Concepts: Food Safety",
+   "definition": "Assurance that a food will not harm the eater when used as intended; toxicity names a substance's inbuilt power to injure, while hazard measures how likely injury becomes when the substance is misused or overdosed.",
+   "formula": "qualitative trio -- safety is judged through toxicity plus hazard",
+   "key_idea": "A toxic substance used correctly may pose little hazard; hazard grows with careless use.",
+   "textbook_ref": "lehe105.txt, Food Safety definitions (approx lines 121-129)",
+   "question_patterns": [
+    "define food safety, toxicity and hazard",
+    "how do toxicity and hazard differ from each other",
+    "why is assurance of safety tied to the intended use of a food",
+    "give one situation where a harmless substance becomes a hazard"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each of the three terms",
+     "explain": "safety is the goal; toxicity and hazard are the two lenses for judging it"
+    },
+    {
+     "step": 2,
+     "action": "contrast the pair",
+     "explain": "toxicity is a fixed property of the substance, hazard a probability tied to use"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A substance's inbuilt power to injure is called what: toxicity or hazard?",
+     "a": "toxicity"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.2",
+   "title": "Physical, Chemical and Biological Hazards",
+   "section": "Basic Concepts: hazard classes",
+   "definition": "Foreign matter that should never sit in food -- stones, hair, glass, nails, insect parts -- makes physical danger; pesticide residues, toxic metals and forbidden or excessive additives make chemical danger; and living invaders from worms and weevils down to bacteria, viruses, moulds and protozoa make biological danger.",
+   "formula": "hazard classes -- physical plus chemical plus biological",
+   "key_idea": "Biological hazards cause most food borne illness, and new pathogens keep appearing.",
+   "textbook_ref": "lehe105.txt, Figs 6.1-6.4 hazard lists (approx lines 134-247)",
+   "question_patterns": [
+    "classify food hazards into physical, chemical and biological with examples",
+    "which objects count as physical hazards in food",
+    "name four chemical hazards that may enter food",
+    "distinguish visible from invisible biological hazards",
+    "why are biological hazards the leading cause of food borne illness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort examples into the three classes",
+     "explain": "stones and hair; pesticides and dyes; worms, bacteria and viruses"
+    },
+    {
+     "step": 2,
+     "action": "note the detection difference",
+     "explain": "physical hazards are visible, chemical and microbial ones need testing"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Stones, hair and glass in food make which hazard: physical or chemical?",
+     "a": "physical"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.3",
+   "title": "Food Infection versus Food Intoxication",
+   "section": "Basic Concepts: food borne diseases",
+   "definition": "Infection occurs when live germs swallowed with the food set up house in the body and multiply, as Salmonella from raw milk, eggs or cross contaminated boards does; intoxication occurs when a toxin already brewed in the food acts, even after the microbe that made it is dead, as with Staphylococcus aureus carried on skin and in throats.",
+   "formula": "two routes -- live organisms multiply inside, or preformed toxins act directly",
+   "key_idea": "Toxins carry no smell, taste or look, so good appearing food can still poison; about half of healthy people carry Staphylococcus.",
+   "textbook_ref": "lehe105.txt, food infection and intoxication (approx lines 216-241)",
+   "question_patterns": [
+    "distinguish between food infection and food intoxication",
+    "how does Salmonella reach food through cross contamination in a kitchen",
+    "why can a food that smells and looks fine still cause intoxication",
+    "which organism commonly carries toxin into food from the handler's own body",
+    "what are the symptoms of a Salmonella infection",
+    "why does inadequate cooking let Salmonella survive"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define both disease routes",
+     "explain": "swallowed live cells multiply in the gut; preformed poisons strike regardless of cell death"
+    },
+    {
+     "step": 2,
+     "action": "attach the classic organisms",
+     "explain": "Salmonella for infection with diarrhoea, fever and cramps; Staphylococcus aureus for toxin mediated illness"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which illness route involves live germs multiplying inside the body: infection or intoxication?",
+     "a": "infection"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.4",
+   "title": "Contamination and Adulteration",
+   "section": "Basic Concepts: key terms",
+   "definition": "Contamination is the arrival of objectionable matter -- chemicals, microbes, dilutants -- at any stage from field to table, while adulteration drags quality down by mixing in inferior material or by drawing out the valuable part of the food.",
+   "formula": "quality loss -- contamination incidental, adulteration adds inferior or removes valuable",
+   "key_idea": "Adulterants are the specific substances that make a product unsafe to eat.",
+   "textbook_ref": "lehe105.txt, contamination and adulteration definitions (approx lines 267-281)",
+   "question_patterns": [
+    "define contamination and adulteration",
+    "how does adulteration lower the quality of a food product",
+    "what are adulterants",
+    "give one example each of contamination and adulteration",
+    "which stages of the food chain allow contamination to occur"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two terms",
+     "explain": "contamination may be accidental at any stage; adulteration implies lowered value through substitution or extraction"
+    },
+    {
+     "step": 2,
+     "action": "name the agents",
+     "explain": "foreign matter for one, inferior substitutes or removed components for the other"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Mixing inferior material into food to drag quality down is called what?",
+     "a": "adulteration"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.5",
+   "title": "Food Quality and Its Attributes",
+   "section": "Basic Concepts: Food Quality",
+   "definition": "Food quality collects every attribute that shapes a buyer's judgement: the negatives -- spoilage, contamination, hazards -- and the positives -- colour, flavour, texture, appearance, nourishment -- with safety as the entry ticket to quality at all.",
+   "formula": "quality = negative attributes plus positive attributes, safety first",
+   "key_idea": "Sensory traits, nutrition and social concerns merge into one holistic verdict on a product.",
+   "textbook_ref": "lehe105.txt, Food Quality paragraph (approx lines 283-292)",
+   "question_patterns": [
+    "what is meant by food quality",
+    "name the positive and negative attributes that shape food quality",
+    "why is safety called a precursor of quality",
+    "which sensory properties enter a judgement of quality",
+    "how do storage changes in appearance and odour signal falling quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split attributes into positive and negative sets",
+     "explain": "colour, flavour, texture versus spoilage, adulteration, hazards"
+    },
+    {
+     "step": 2,
+     "action": "insist on the safety precondition",
+     "explain": "no sensory excellence can rescue an unsafe product"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which attribute is the entry ticket to food quality: safety or sweetness?",
+     "a": "safety"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.6",
+   "title": "Levels of Food Standards and Voluntary Marks",
+   "section": "Food Standards",
+   "definition": "Standards run on four coordinated planes -- a company's in house rules, national rules from FSSAI, regional group legislation and international codes from ISO and Codex -- while voluntary certification such as the ISI mark of BIS and Agmark grades farm products for the buyer.",
+   "formula": "standards ladder -- company to national to regional to international",
+   "key_idea": "Agmark covers agricultural raw and processed goods; the ISI mark certifies processed foods under BIS.",
+   "textbook_ref": "lehe105.txt, Food Standards and voluntary certification (approx lines 331-365)",
+   "question_patterns": [
+    "list the four levels at which food standards operate",
+    "which national body issues India's food standards",
+    "differentiate between the ISI mark and Agmark",
+    "what is voluntary product certification",
+    "name the organisations that publish international standards"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "stack the four planes in order",
+     "explain": "company copies usually mirror national rules; regional and international codes harmonise trade"
+    },
+    {
+     "step": 2,
+     "action": "add the voluntary marks",
+     "explain": "BIS ISI mark for processed foods, Agmark for agricultural produce"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which mark grades agricultural products: Agmark or ISI?",
+     "a": "Agmark"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.7",
+   "title": "FSSA 2006 and the FSSAI",
+   "section": "Food Safety and Standards Act, 2006",
+   "definition": "The Food Safety and Standards Act of 2006 gathered India's scattered food laws into one statute and created FSSAI, the authority that frames science based standards and regulates manufacture, storage, distribution, sale and import of food.",
+   "formula": "one act plus one authority consolidate all food law",
+   "key_idea": "The Act shifted Indian law from compositional vertical standards to horizontal safety standards and data collection, alerts and training.",
+   "textbook_ref": "lehe105.txt, FSSA 2006 and FSSAI functions (approx lines 368-441)",
+   "question_patterns": [
+    "what is the Food Safety and Standards Act 2006 meant to do",
+    "list the functions mandated to FSSAI",
+    "how does the 2006 Act differ from the earlier PFA approach",
+    "which older orders were consolidated under the Act",
+    "how does FSSAI support state governments on food policy",
+    "what role does FSSAI play in spreading awareness about food safety"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the consolidation purpose",
+     "explain": "PFA 1954 and the fruit, meat and vegetable oil orders merged into one umbrella"
+    },
+    {
+     "step": 2,
+     "action": "enumerate FSSAI functions",
+     "explain": "standards, accreditation of labs, scientific advice, surveillance data, consumer information, training"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which act gathered India's food laws into one statute in 2006: the FSSA or the PCA?",
+     "a": "the FSSA"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.8",
+   "title": "Codex, ISO and the WTO",
+   "section": "International Organisations and Agreements",
+   "definition": "Codex Alimentarius is the intergovernmental food code that nations adapt into their own rules, ISO publishes voluntary quality management references such as ISO 9000, and the WTO, born in 1995, keeps trade in goods, services and ideas flowing fairly and predictably.",
+   "formula": "three pillars -- Codex standards plus ISO management plus WTO trade rules",
+   "key_idea": "Codex moves slowly and sets minimums; ISO describes current best industrial practice and refreshes every five years.",
+   "textbook_ref": "lehe105.txt, Codex, ISO and WTO sections plus comparison box (approx lines 397-514)",
+   "question_patterns": [
+    "what is Codex Alimentarius and why is it important",
+    "how do Codex and ISO standards differ",
+    "what is ISO 9000 concerned with",
+    "when was the WTO established and what is its main objective",
+    "through which ministry does India participate in Codex",
+    "why must every trading country protect food safety under the WTO agreement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each body and its output",
+     "explain": "food code, management standards, trade administration"
+    },
+    {
+     "step": 2,
+     "action": "contrast Codex with ISO using the comparison box",
+     "explain": "minimum acceptable versus current industrial practice; slow change versus five yearly review"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which intergovernmental food code do nations adapt into their own rules: Codex Alimentarius or ISO 9000?",
+     "a": "Codex Alimentarius"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.9",
+   "title": "Food Control: Inspection and Analysis",
+   "section": "Food Control System",
+   "definition": "A working control system rests on two legs: appointed inspectors who verify that food is produced, stored and distributed to rule, and accredited laboratories with trained analysts who can chase contaminants, biotoxins, pathogens and viruses in the samples.",
+   "formula": "control system = food inspection plus analytical capability",
+   "key_idea": "Without state of the art labs and skilled analysts, standards remain paper promises.",
+   "textbook_ref": "lehe105.txt, Food Inspection and Analytical capability (approx lines 515-529)",
+   "question_patterns": [
+    "what are the two parts of an effective food control system",
+    "who appoints food inspectors and what do they verify",
+    "why do laboratories need accreditation",
+    "list the contaminants a good food laboratory must be able to detect",
+    "how does inspection confirm conformity to standards"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the two legs",
+     "explain": "field inspection and laboratory analysis"
+    },
+    {
+     "step": 2,
+     "action": "detail the analytical range",
+     "explain": "environmental chemicals, biotoxins, pathogenic bacteria, viruses, parasites"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Food control rests on inspection plus accredited what: laboratories or kitchens?",
+     "a": "laboratories"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.10",
+   "title": "Safety Management Systems: GMP, GHP and HACCP",
+   "section": "Food Safety Management Systems",
+   "definition": "GMP makes manufacturers act before problems arise, GHP stretches hygiene from farm to shop, and HACCP examines every raw material and every process step for its power to breed hazards, fixing control measures at the exact stage where trouble can start.",
+   "formula": "three systems -- GMP plus GHP plus HACCP covering the whole chain",
+   "key_idea": "HACCP beats end product testing because it catches hazards where they occur instead of after the batch is made.",
+   "textbook_ref": "lehe105.txt, management systems and Why implement HACCP (approx lines 530-605)",
+   "question_patterns": [
+    "explain GMP, GHP and HACCP as food safety management systems",
+    "why is HACCP called a preventive approach",
+    "how does HACCP differ from end product inspection and testing",
+    "list the stages of the food chain that HACCP evaluates",
+    "why did the FSSA place responsibility for safe food on producers through HACCP",
+    "what benefits does HACCP bring to exporters and distributors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the three systems",
+     "explain": "proactive manufacture, farm to store hygiene, stage wise hazard analysis"
+    },
+    {
+     "step": 2,
+     "action": "argue the HACCP advantage",
+     "explain": "cheaper, faster and safer than testing only the finished product; FSSA 2006 leans on it"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which system fixes controls at the exact stage where hazards can start: HACCP or end-product testing?",
+     "a": "HACCP"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.11",
+   "title": "Careers in Food Safety and Quality",
+   "section": "Scope and Career Avenues",
+   "definition": "Quality control labs, public and private testing agencies, certification bodies and HACCP teams hire analysts, inspectors, auditors and managers, while self employment opens through analytical laboratories, safety consultancy and sanitation education.",
+   "formula": "career map -- analysts plus inspectors plus auditors plus HACCP specialists plus consultants",
+   "key_idea": "The sector needs expertise in food chemistry, processing, analysis, microbiology, laws and sensory evaluation, and accounts for about 26 per cent of GDP.",
+   "textbook_ref": "lehe105.txt, Scope and Career Avenues (approx lines 606-673)",
+   "question_patterns": [
+    "list the career avenues in food safety and quality",
+    "which jobs can a food safety professional hold in regulatory agencies",
+    "what self employment options exist in this field",
+    "which subjects must a food safety professional master",
+    "name the roles a food industry quality control unit offers",
+    "what does an internal food auditor do"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group the employers",
+     "explain": "regulators, industry labs, certification agencies, academia and voluntary bodies"
+    },
+    {
+     "step": 2,
+     "action": "name the knowledge base",
+     "explain": "chemistry, processing, analysis, microbiology, food laws, sensory science"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Food safety careers demand chemistry, analysis, microbiology, laws and which evaluation of taste: sensory or financial?",
+     "a": "sensory"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.12",
+   "title": "Bacterial Doubling Time",
+   "section": "Food infection: Salmonella",
+   "definition": "A bacterium that doubles on a fixed clock grows by powers of two; dividing the elapsed minutes by the doubling time gives the number of doublings, and the starting count times two raised to that power gives the final load.",
+   "formula": "bacteria_after = starting_count * 2 ** (elapsed_minutes / doubling_minutes)",
+   "key_idea": "Salmonella doubles every 20 minutes, so two hours of neglect multiplies a small load sixty four fold.",
+   "textbook_ref": "lehe105.txt, Salmonella paragraph (approx lines 226-228)",
+   "question_patterns": [
+    "Salmonella doubles every 20 minutes; if 500 cells sit on a salad for 2 hours, how many cells are present",
+    "calculate the bacterial count after a stated time when the starting load and the doubling time are given",
+    "a broth starts with 125 organisms that double every 20 minutes; find the load after 1 hour",
+    "how many doublings occur in 3 hours for a microbe with a 20 minute doubling time",
+    "work out the final population of bacteria from the initial count and the elapsed time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the doublings",
+     "explain": "divide elapsed minutes by the doubling time",
+     "compute": "doublings = elapsed_minutes / doubling_minutes"
+    },
+    {
+     "step": 2,
+     "action": "raise two to that power and scale the start",
+     "explain": "each doubling multiplies the load by two",
+     "compute": "bacteria_after = starting_count * 2 ** doublings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Salmonella doubles every how many minutes: 20 or 200?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "lehe105.13",
+   "title": "Adulterant Percentage Tests",
+   "section": "Practical 2: qualitative tests for adulteration",
+   "definition": "The tea stalk and pepper light berry tests weigh the unwanted fraction against the whole sample and report it as a percentage, which is then judged against the permitted ceiling.",
+   "formula": "adulterant_pct = part_weight / sample_weight * 100",
+   "key_idea": "Stalks in tea should stay under 25 per cent; a high light berry share in pepper signals extraction of the good berries.",
+   "textbook_ref": "lehe105.txt, Practical 2 tests 2 and 3 (approx lines 857-924)",
+   "question_patterns": [
+    "a 5 gram tea sample leaves 1 gram of dried stalks; calculate the percentage of stalks and compare with the 25 percent limit",
+    "10 grams of pepper yields 2 grams of floating light berries; find the percentage of light berries",
+    "how is the percentage of stalks in tea computed from the weighed fractions",
+    "compute the adulterant percentage when the separated portion and the original sample weights are stated",
+    "a tea lot shows 3 grams of stalks from a 20 gram sample; does it respect the permitted ceiling"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the separated portion by the sample weight",
+     "explain": "the quotient compares the unwanted part with the whole",
+     "compute": "weight_ratio = part_weight / sample_weight"
+    },
+    {
+     "step": 2,
+     "action": "scale the ratio to a percentage",
+     "explain": "multiply by one hundred to express as per cent",
+     "compute": "adulterant_pct = weight_ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Tea stalks should stay under what percent: 25 or 2.5?",
+     "a": "25"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe105.txt Salmonella doubling statistic",
+   "concept": "lehe105.12",
+   "question_type": "numeric",
+   "question_pattern": "A contaminated salad carries {starting_count} Salmonella cells and stands at room temperature for {elapsed_minutes} minutes. With a doubling time of {doubling_minutes} minutes, how many cells are present then?",
+   "extracted_variables": {
+    "starting_count": 500,
+    "elapsed_minutes": 120,
+    "doubling_minutes": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the doublings",
+     "explain": "120 / 20 = 6 doublings",
+     "compute": "doublings = elapsed_minutes / doubling_minutes"
+    },
+    {
+     "step": 2,
+     "action": "apply the doublings",
+     "explain": "500 x 2 to the sixth = 500 x 64 = 32000 cells",
+     "compute": "bacteria_after = starting_count * 2 ** doublings"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe105.txt Practical 2, tea stalk test",
+   "concept": "lehe105.13",
+   "question_type": "numeric",
+   "question_pattern": "A {sample_weight} gram tea sample yields {part_weight} grams of dried stalks after boiling and drying. Find the stalk percentage and state whether it stays inside the 25 per cent ceiling.",
+   "extracted_variables": {
+    "sample_weight": 5,
+    "part_weight": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the ratio",
+     "explain": "1 / 5 = 0.2",
+     "compute": "weight_ratio = part_weight / sample_weight"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "0.2 x 100 = 20 per cent, inside the 25 per cent limit",
+     "compute": "adulterant_pct = weight_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe105.txt Figs 6.1 to 6.4",
+   "concept": "lehe105.2",
+   "question_type": "short_answer",
+   "question_pattern": "Sort these hazards into physical, chemical and biological: hair, pesticide residue, tapeworm, stone, metanil yellow, mould.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assign each item",
+     "explain": "hair and stone are physical; pesticide residue and metanil yellow are chemical; tapeworm and mould are biological"
+    },
+    {
+     "step": 2,
+     "action": "note the detection route",
+     "explain": "physical hazards are visible; chemical and biological ones usually need tests"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe105.txt Review Questions 1-5",
+   "questions": [
+    "Why are food safety and quality matters of global concern?",
+    "Explain the terms hazard, toxicity, contamination, food quality and adulteration.",
+    "What is Codex Alimentarius?",
+    "Discuss the significance of HACCP as a safety management system.",
+    "List the national and international food standards with the bodies that issue them."
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe105.txt Practical 1 and Practical 2, adulteration tests",
+   "questions": [
+    "Collect raw foods, snacks and sweets from two vendors each and record physical hazards on the worksheet, grading amounts as large, moderate, small or absent.",
+    "Test branded and loose ghee samples with sucrose solution and concentrated hydrochloric acid for sesame oil adulteration and interpret the pink colour.",
+    "Detect metanil yellow in turmeric using concentrated hydrochloric acid and record the colour change.",
+    "Test milk and melted ice cream with iodine solution for added starch and interpret the blue colour.",
+    "Boil a weighed tea sample, separate and dry the stalks, compute the stalk percentage and compare with the permitted limit."
+   ]
+  }
+ ]
+}

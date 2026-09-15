@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_008",
+   "title": "c12_bs_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define coordination according to Theo Haimann and explain how it differs from mere cooperation.",
+     "a": "Theo Haimann defines coordination as \"the orderly synchronizing of efforts of subordinates to provide proper amount, timing and quality of execution so that their united efforts lead to the stated objectives.\" Cooperation is voluntary collective effort; coordination is a deliberate managerial process that structures and times those efforts. A wrong answer that equates coordination with cooperation reveals the student misses the deliberate, structural, and managerial nature of coordination — it is not just goodwill but a systematic function.",
+     "self_check": true
+    },
+    {
+     "q": "\"Coordination is the essence of management.\" Explain this statement by linking it to any three managerial functions.",
+     "a": "Coordination is the essence because it permeates every function: (1) Planning requires coordinating departmental plans into a master plan; (2) Organizing requires coordinating authority-responsibility relationships and departmental structures; (3) Directing requires coordinating individual motivations with organizational goals. A student who lists functions without showing how coordination binds them (e.g., \"planning coordinates future actions\") misunderstands that coordination is the integrating force, not a by-product.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company has separate Purchase, Production, and Sales departments. The Purchase department buys raw material without consulting Production on specifications, leading to rejected batches. Sales promises delivery dates without checking Production capacity. Identify the characteristic of coordination violated in each case and explain the consequence.",
+     "a": "First case violates \"Coordination integrates group efforts\" — Purchase and Production efforts are not unified, causing waste. Second violates \"Coordination ensures unity of action\" — Sales and Production act at cross-purposes, leading to missed deadlines and lost credibility. A student who only names the characteristic without linking to the specific interdepartmental failure shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of coordination in a small startup (10 employees) versus a large multinational corporation (50,000 employees). How does the \"growth in size\" importance factor manifest differently?",
+     "a": "In a startup, coordination is often informal, direct, and personal — the founder aligns everyone daily. In an MNC, coordination requires formal systems (ERP, cross-functional teams, standardized processes) because informal communication breaks down. Growth in size increases the number of interdependent relationships exponentially, making deliberate coordination mechanisms essential. A student who says \"coordination is more important in large firms\" misses that it is equally critical in startups but the mode changes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Coordination without cooperation leads to dissatisfaction; cooperation without coordination leads to wasted effort.\" Give a concrete organizational example for each scenario.",
+     "a": "Example 1: A strict manager enforces rigid schedules (coordination) but ignores employee burnout — high coordination, low cooperation → resentment and turnover. Example 2: A team voluntarily works overtime (cooperation) but duplicates tasks because no one defined roles — high cooperation, low coordination → wasted hours. A student who cannot produce distinct examples for each half of the statement fails to grasp the dual necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coordination mechanism for a hospital's Emergency Department, Radiology, and Pharmacy to reduce patient wait times. Your mechanism must address all six characteristics of coordination.",
+     "a": "Mechanism: (1) Integrates group efforts — daily huddle aligning ED admissions, Radiology slots, Pharmacy stock. (2) Unity of action — shared digital dashboard showing real-time patient flow. (3) Continuous process — shift handover protocols with coordination checklists. (4) All pervasive — applies to triage nurses, radiologists, pharmacists at all levels. (5) Responsibility of all — each department head accountable for coordination KPIs. (6) Deliberate function — scheduled coordination meetings, not ad-hoc. A poor answer lists generic IT solutions without mapping to each characteristic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

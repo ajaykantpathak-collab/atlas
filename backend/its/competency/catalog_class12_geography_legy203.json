@@ -1,0 +1,243 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Land Resources and Agriculture",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.203.1",
+   "title": "Land Use Categories and Their Changes",
+   "section": "Land Use Categories",
+   "definition": "The land use record divides India's area into forest land, land put to non-agricultural uses, barren and wasteland, permanent pastures, culturable wasteland, current and old fallows and net sown area; the net sown area is the core of the agricultural economy and its share shapes cropping possibilities.",
+   "formula": "non_forest_share = 100 - forest_share",
+   "key_idea": "Subtracting the forest percentage of the reporting area from 100 gives the non-forest land share.",
+   "textbook_ref": "legy203.txt land use categories and their composition sections",
+   "question_patterns": [
+    "list the land use categories of the land use record",
+    "compute the non-forest share from the forest share",
+    "define net sown area and gross cropped area",
+    "what are culturable wastelands",
+    "why do forest area percentages need careful reading",
+    "how has land under non-agricultural uses changed and why"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the forest share",
+     "explain": "forest land is a stated percentage of the reporting area",
+     "compute": "forest_share = 22.07"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the remainder is non-forest land",
+     "compute": "non_forest_share = 100 - forest_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.203.2",
+   "title": "Cropping Pattern: Cereals and Pulses",
+   "section": "Cropping Pattern",
+   "definition": "On the basis of grain structure foodgrains divide into cereals and pulses; cereals occupy about 54 per cent of the total cropped area of India, so the remaining cropped area carries pulses, oilseeds, fibres and other crops.",
+   "formula": "non_cereal_share = 100 - cereal_share",
+   "key_idea": "Subtracting the cereal share of cropped area from 100 gives the share under all non-cereal crops.",
+   "textbook_ref": "legy203.txt cereals occupy about 54 per cent of total cropped area",
+   "question_patterns": [
+    "what share of cropped area do cereals occupy",
+    "compute the non-cereal share of cropped area",
+    "differentiate cereals from pulses by grain structure",
+    "name the major cereal crops of India",
+    "why do pulses suit dryland agriculture",
+    "how does cropping pattern shift with irrigation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the cereal share",
+     "explain": "cereals cover about 54 per cent of total cropped area",
+     "compute": "cereal_share = 54"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the rest of cropped area is non-cereal",
+     "compute": "non_cereal_share = 100 - cereal_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.203.3",
+   "title": "Land Degradation and Conservation",
+   "section": "Land Degradation and Conservation Measures",
+   "definition": "Land degradation through water and wind erosion, waterlogging, salinisation and alkalinisation removes the productive base; conservation responses include afforestation, grazing control, contour bunding, terrace farming, shelter belts and regulated use of chemical fertilisers and irrigation.",
+   "formula": "",
+   "key_idea": "Degradation is both natural and human-made, so conservation must combine engineering works with farming practice change.",
+   "textbook_ref": "legy203.txt degradation causes and conservation measures sections",
+   "question_patterns": [
+    "list the major causes of land degradation in India",
+    "name five conservation measures for degraded land",
+    "how does waterlogging degrade irrigated land",
+    "what is shelter belt plantation",
+    "explain terrace farming as a conservation device",
+    "relate fertiliser overuse to soil health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the causes",
+     "explain": "erosion, waterlogging, salinity and chemical misuse degrade cropland"
+    },
+    {
+     "step": 2,
+     "action": "pair causes with cures",
+     "explain": "contour bunding checks water erosion; shelter belts check wind"
+    },
+    {
+     "step": 3,
+     "action": "close with practice",
+     "explain": "grazing control and irrigation discipline sustain the gains"
+    }
+   ]
+  },
+  {
+   "id": "legy.203.4",
+   "title": "Common Property Resources",
+   "section": "Common Property Resources",
+   "definition": "Common property resources are resources accessible to the whole community like village pastures, tanks, forests and ponds; they support the rural poor, but open access without regulation leads to their overuse and decline, so community management is essential.",
+   "formula": "",
+   "key_idea": "The tragedy of the commons is reversed where village institutions regulate grazing, fishing and firewood collection.",
+   "textbook_ref": "legy203.txt common property resources discussion",
+   "question_patterns": [
+    "define common property resources with examples",
+    "why are CPRs vital for the rural poor",
+    "how does open access degrade commons",
+    "describe a successful community management arrangement",
+    "relate CPR decline to women's workload",
+    "what policies can revive common property resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the access",
+     "explain": "commons are open to community use, unlike private plots"
+    },
+    {
+     "step": 2,
+     "action": "state the risk",
+     "explain": "unregulated use shrinks pastures, tanks and groves"
+    },
+    {
+     "step": 3,
+     "action": "close with institutions",
+     "explain": "local rules restore the balance between use and renewal"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy203_1",
+   "source_ref": "legy203.txt cereals share",
+   "concept": "legy.203.2",
+   "question_type": "compute",
+   "question_pattern": "Cereals occupy about 54 per cent of India's total cropped area. Compute the share of all other crops.",
+   "extracted_variables": {
+    "cereal_share": 54
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the cereal share",
+     "explain": "cereals hold about 54 per cent",
+     "compute": "cereal_share = 54"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 54 = 46 per cent is non-cereal",
+     "compute": "non_cereal_share = 100 - cereal_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy203_2",
+   "source_ref": "legy203.txt land use categories",
+   "concept": "legy.203.1",
+   "question_type": "compute",
+   "question_pattern": "Forest area is about 22.07 per cent of the reporting area. Compute the non-forest land share.",
+   "extracted_variables": {
+    "forest_share": 22.07
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the forest share",
+     "explain": "forest land stands at 22.07 per cent",
+     "compute": "forest_share = 22.07"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 22.07 gives the non-forest share",
+     "compute": "non_forest_share = 100 - forest_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy203_3",
+   "source_ref": "legy203.txt conservation section",
+   "concept": "legy.203.3",
+   "question_type": "short_answer",
+   "question_pattern": "Suggest three conservation measures for a waterlogged irrigated tract.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fix the drainage",
+     "explain": "line and clean channels to stop seepage and waterlogging"
+    },
+    {
+     "step": 2,
+     "action": "change the cropping",
+     "explain": "shift water-loving crops to crops needing less irrigation"
+    },
+    {
+     "step": 3,
+     "action": "treat the soil",
+     "explain": "apply gypsum and leaching to reclaim saline-alkaline patches"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy203_1",
+   "source_ref": "legy203.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the land use categories of India",
+    "compute the non-cereal share of cropped area",
+    "describe causes and cures of land degradation",
+    "define common property resources with examples",
+    "differentiate net sown area and gross cropped area"
+   ]
+  },
+  {
+   "id": "ex_legy203_2",
+   "source_ref": "legy203.txt applied questions, reworded",
+   "questions": [
+    "evaluate the declining share of pastureland",
+    "argue for community management of commons",
+    "relate irrigation expansion to waterlogging",
+    "explain the land use record's limitations",
+    "suggest a village plan for degraded land"
+   ]
+  }
+ ]
+}

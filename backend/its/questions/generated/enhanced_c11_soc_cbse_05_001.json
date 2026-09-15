@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_001",
+   "title": "c11_soc_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define \"methodology\" and \"method\" in sociology. Give one example of each.",
+     "a": "Methodology is the study of method — the philosophical examination of the assumptions, logic, and justification behind research procedures. Method is a specific technique for data collection (e.g., survey, participant observation, interview). Example of methodology: debating whether social reality can be studied like natural reality (positivism vs interpretivism). Example of method: conducting a stratified random sample survey of 500 households. A wrong answer that treats them as synonyms reveals the student has not grasped the meta-level nature of methodology — this is the most common Class 11 error and blocks understanding of later debates about paradigm choice.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"Sociologists can claim to be different from lay persons not because of how much they know or what they know, but because of how they acquire their knowledge.\" Explain this in your own words using the distinction between common sense and scientific knowledge.",
+     "a": "Common sense knowledge is based on personal experience, tradition, and unexamined assumptions — it is particular, unsystematic, and often contradictory. Scientific knowledge in sociology is produced through explicit, documented, and replicable procedures (methodology) that allow others to verify claims. The sociologist's authority comes from *methodological transparency* — showing exactly how conclusions were reached — not from privileged access to social facts. A wrong answer that says \"sociologists know more facts\" or \"sociologists use statistics\" reveals confusion between subject matter and epistemic warrant; this misconception leads students to think large datasets alone make research scientific.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study \"how middle-class families in Delhi experience the transition to nuclear family structures.\" Identify whether each of the following is a methodological issue or a method choice: (a) Should the researcher adopt an insider (emic) or outsider (etic) perspective? (b) Should the researcher use in-depth interviews or a structured questionnaire? (c) Can the researcher's own middle-class background bias the findings? (d) Should the sample be selected via snowball sampling or stratified random sampling?",
+     "a": "(a) Methodological — concerns the epistemological stance on perspective-taking. (b) Method choice — specific technique for data collection. (c) Methodological — concerns reflexivity and bias as a general problem of knowledge production. (d) Method choice — specific sampling technique. A wrong answer that mixes these up (e.g., calling sampling a \"methodological issue\") shows the student cannot distinguish between the *logic of inquiry* (methodology) and *operational decisions* (method). This distinction is critical for Board questions asking \"justify your methodological approach\" vs \"describe the method used.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare how objectivity is challenged differently for a geologist studying rock formations versus a sociologist studying caste dynamics in a village. Use the concepts of \"researcher as part of the studied world\" and \"multiple valid interpretations.\"",
+     "a": "The geologist is external to the natural world studied — rocks have no consciousness, intentions, or interpretations. The sociologist *is* a member of the social world — they have caste, class, gender, and political views that inevitably shape what they notice and how they interpret it. Moreover, caste dynamics involve multiple actors (dominant caste, oppressed caste, state, NGOs) each with legitimate but conflicting interpretations of \"what is happening.\" There is no single \"correct\" reading comparable to the chemical composition of a rock. Objectivity in geology means eliminating observer bias; in sociology it means *managing* inevitable subjectivity through reflexivity and transparency. A wrong answer that says \"both need to be unbiased\" misses the ontological difference — social reality is meaning-constituted, not just behaviour-observed.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since complete objectivity is impossible in sociology, we should stop pretending and just acknowledge all research is subjective.\" Use the NCERT concept of objectivity as an \"ongoing process\" and the role of self-reflexivity.",
+     "a": "The statement commits a false dichotomy: it treats objectivity as an all-or-nothing achievement rather than a *regulative ideal* pursued through specific practices. NCERT explicitly states objectivity is \"the goal of a continuous, ongoing process rather than an already achieved end result.\" Self-reflexivity (documenting one's biases, positionality, and decisions) and methodological transparency (citing sources, detailing procedures) allow *intersubjective verification* — others can retrace steps and assess bias. Abandoning objectivity would collapse sociology into journalism or opinion. A wrong answer that agrees with the statement reveals a misunderstanding of scientific norms — it confuses *perfect neutrality* (unattainable) with *accountable rigour* (the actual standard).",
+     "self_check": true
+    },
+    {
+     "q": "Create a research question about a social issue in your city/town that *requires* triangulation (combining at least two methods). Justify why a single method would be insufficient, referencing the distinction between macro/micro methods and quantitative/qualitative data.",
+     "a": "Example question: \"How does the closure of a local textile mill affect gendered employment patterns and household decision-making in working-class neighbourhoods of Ahmedabad?\" Single-method insufficiency: A macro survey (quantitative) can show statistical shifts in women's labour force participation but cannot capture the *meaning* women attach to new roles or intra-household negotiations. Micro participant observation (qualitative) can reveal these meanings but cannot establish whether patterns are widespread or exceptional. Triangulation (survey + in-depth interviews + time-use diaries) allows cross-validation. A poor answer proposes a question answerable by one method (e.g., \"What percentage of households own a vehicle?\") or justifies triangulation vaguely (\"to get better data\") without linking to macro/micro or quantitative/qualitative trade-offs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

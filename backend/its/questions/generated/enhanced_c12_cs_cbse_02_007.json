@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_007",
+   "title": "c12_cs_cbse_02_007",
+   "questions": [
+    {
+     "q": "List the four layers of the TCP/IP model in order from the top (closest to the user application) to the bottom (closest to the physical medium).",
+     "a": "Correct answer: Application → Transport → Internet → Network Access (also called Link or Network Interface layer). A wrong answer such as \"Physical, Data Link, Network, Transport\" reveals the student is confusing the TCP/IP model with the OSI 7-layer model or reversing the layer order. Another common error is inserting \"Session\" or \"Presentation\" as separate layers, which exist only in OSI, not TCP/IP.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"TCP and IP are the same protocol because the suite is called TCP/IP.\" Explain why this statement is incorrect by describing the distinct role of each protocol.",
+     "a": "Correct explanation: TCP (Transport layer) provides reliable, ordered, error-checked byte-stream delivery between processes using port numbers; IP (Internet layer) provides best-effort, connectionless packet routing between hosts using IP addresses. They operate at different layers and solve different problems. A wrong answer that says \"TCP handles addressing and IP handles reliability\" swaps their functions. Another error is saying \"TCP is for web and IP is for email\" — both protocols are used by all applications.",
+     "self_check": true
+    },
+    {
+     "q": "An HTTP GET request is sent from a browser (port 54321) to a web server (port 80). Trace the encapsulation process: what headers are added at each TCP/IP layer, and what is the final Protocol Data Unit (PDU) name at the Network Access layer?",
+     "a": "Correct trace: Application layer — HTTP header added (PDU = message); Transport layer — TCP header added with src port 54321, dst port 80, sequence number (PDU = segment); Internet layer — IP header added with src/dst IP addresses (PDU = packet/datagram); Network Access layer — Ethernet header + trailer added with src/dst MAC addresses (PDU = frame). A wrong answer that omits the TCP header or calls the final PDU a \"packet\" instead of \"frame\" shows confusion about PDU naming per layer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the TCP/IP and OSI models: which OSI layers are combined into the TCP/IP Application layer, and which OSI layer corresponds directly to the TCP/IP Internet layer?",
+     "a": "Correct mapping: TCP/IP Application layer = OSI Application + Presentation + Session (layers 7, 6, 5); TCP/IP Transport layer = OSI Transport (layer 4); TCP/IP Internet layer = OSI Network (layer 3); TCP/IP Network Access layer = OSI Data Link + Physical (layers 2, 1). A wrong answer that maps TCP/IP Internet layer to OSI Transport layer or says \"TCP/IP has 7 layers\" indicates the student has not internalized the layer consolidation.",
+     "self_check": true
+    },
+    {
+     "q": "A network administrator argues: \"Since UDP is unreliable, it should never be used for any real application — always use TCP.\" Evaluate this claim with two concrete counter-examples where UDP is preferred, justifying each.",
+     "a": "Correct evaluation: The claim is false. Counter-example 1: Live video streaming (e.g., IPL match) — losing a few frames is acceptable, but TCP's retransmission delay causes buffering; UDP's low latency is preferred. Counter-example 2: DNS queries — small, fast, stateless requests; TCP's 3-way handshake overhead is unnecessary. A wrong answer that says \"UDP is for games only\" or \"TCP is always better for reliability\" misses the latency-vs-reliability trade-off and application-specific requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new application-layer protocol for a real-time multiplayer cricket scoring app where multiple users update scores simultaneously. Specify: (a) which transport protocol (TCP or UDP) you would choose and why, (b) one custom header field your protocol would add beyond standard transport headers, and (c) how you would handle out-of-order updates.",
+     "a": "Good answer: (a) UDP — because score updates are small, frequent, and stale updates are useless; low latency matters more than perfect reliability. (b) Custom header field: `match_id` (16-bit) + `ball_sequence` (16-bit) to identify which match and ball the update belongs to. (c) Out-of-order handling: each client maintains `last_ball_sequence`; discard updates with sequence ≤ last_seen; apply only newer updates. A poor answer chooses TCP without justification, omits a custom header, or suggests \"retransmit until acknowledged\" which defeats real-time purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

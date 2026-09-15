@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_011",
+   "title": "c12_biotech_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the function of the lacZα fragment in blue-white selection, and which host genotype is required for complementation?",
+     "a": "The lacZα fragment encodes the N-terminal portion of β-galactosidase (α-peptide). In blue-white selection, the vector supplies lacZα while the host (e.g., E. coli DH5α) carries a chromosomal deletion (lacZΔM15) that produces the C-terminal portion (ω-peptide). Only when both fragments are present do they associate to form functional β-galactosidase, which hydrolyzes X-gal to produce a blue color. A wrong answer (e.g., \"lacZα is the full β-galactosidase gene\" or \"host must be lacZ+\") reveals confusion between the α-complementation system and the full lacZ gene, and ignorance of the host's required mutation.",
+     "self_check": true
+    },
+    {
+     "q": "A student clones a 1.2 kb insert into the EcoRI site of pUC19 and plates transformants on LB-Amp-X-gal-IPTG. All colonies are blue. The student concludes the ligation failed. Is this conclusion always correct? Explain why or why not.",
+     "a": "No, the conclusion is not always correct. Blue colonies indicate functional lacZα, which can happen if: (1) the vector re-ligated without insert (most common), (2) the insert ligated in-frame and without disrupting the lacZα reading frame (rare but possible if the insert length is a multiple of 3 and lacks stop codons), or (3) the insert is very small and does not sterically hinder α-peptide folding. A student who says \"yes, all blue means no insert\" overlooks these edge cases, showing incomplete understanding of the assay's limitations.",
+     "self_check": true
+    },
+    {
+     "q": "You have a pUC19 derivative where the MCS is cloned in the reverse orientation relative to the lacZα start codon. You ligate a 2.5 kb insert into the BamHI site (which is in the MCS) and transform into DH5α. Predict the colony colors on X-gal/IPTG plates and justify your answer.",
+     "a": "All colonies will be blue. In this construct, the MCS is in the opposite orientation to the lacZα promoter, so transcription through the MCS does not produce a functional lacZα mRNA even without an insert. The lacZα gene is already non-functional regardless of insert presence, so no α-peptide is made, no complementation occurs, and β-galactosidase activity is absent — but wait, that would give white colonies! Actually, if the MCS is reversed, the lacZα coding sequence is disrupted by the MCS itself (since the MCS contains multiple restriction sites that introduce frameshifts/stop codons in the reverse orientation). Therefore, the vector without insert already gives white colonies. Insertion of a fragment into BamHI does not restore the reading frame, so recombinants also remain white. The student must recognize that blue-white selection only works when the MCS is in the correct orientation and reading frame relative to lacZα. A wrong prediction (e.g., \"white for vector, blue for insert\") shows misunderstanding of orientation dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare blue-white selection with antibiotic resistance-based selection (e.g., ampicillin resistance) in terms of what each selects for and what each screens for. Which is a selection and which is a screen? Explain the difference.",
+     "a": "Ampicillin resistance is a **selection**: only cells that have taken up the vector (with ampR) survive on ampicillin plates; it selects for transformation. Blue-white is a **screen**: all transformants (both recombinant and non-recombinant) grow on ampicillin, but colony color distinguishes them visually. Selection eliminates unwanted cells; screen allows all to grow but differentiates them phenotypically. A student who calls both \"selection\" confuses the terms and fails to grasp that blue-white does not kill non-recombinants — it merely identifies them.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher uses pUC19 for blue-white screening but forgets to add IPTG to the plates. All colonies appear white. The researcher concludes 100% cloning efficiency. Evaluate this conclusion and propose a correct interpretation.",
+     "a": "The conclusion is invalid. IPTG is an inducer of the lac promoter (lacUV5 in pUC19) that drives lacZα transcription. Without IPTG, the lac repressor (encoded by host's lacIq) binds the operator and blocks transcription, so no α-peptide is produced even in non-recombinants. Thus, all colonies are white regardless of insert presence. The correct interpretation: the experiment lacks the inducer, so the screen is non-functional. The researcher must repeat with IPTG. A student who says \"white means insert\" ignores the essential role of IPTG in derepressing the promoter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a blue-white screening experiment to clone a 3.0 kb genomic fragment into pUC19 using EcoRI and HindIII (both in the MCS). Include: (a) vector preparation steps to minimize self-ligation, (b) host strain choice and why, (c) plate composition, (d) how you would calculate cloning efficiency from colony counts, and (e) one limitation of this screen for confirming the insert.",
+     "a": "(a) Digest pUC19 with EcoRI and HindIII, then treat with alkaline phosphatase (e.g., CIAP) to remove 5' phosphates and prevent self-ligation. (b) Use E. coli DH5α (or similar lacZΔM15, lacIq, recA1, endA1) — lacZΔM15 enables α-complementation, lacIq ensures tight repression for IPTG-inducible expression, recA1 reduces recombination, endA1 improves plasmid prep quality. (c) LB agar + ampicillin (100 μg/mL) + X-gal (40 μg/mL) + IPTG (1 mM). (d) Cloning efficiency = (Number of white colonies) / (Total transformants = blue + white) × 100%. (e) Limitation: White colonies only indicate lacZα disruption; they do not confirm insert size, orientation, integrity, or absence of mutations. A good answer integrates vector prep, host genetics, plate chemistry, quantitative analysis, and critical appraisal. A poor answer omits phosphatase treatment, chooses wrong host, forgets IPTG, or misstates efficiency formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

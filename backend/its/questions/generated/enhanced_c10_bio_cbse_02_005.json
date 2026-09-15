@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_005",
+   "title": "c10_bio_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define phototropism and geotropism. State the typical directional response of shoots and roots for each.",
+     "a": "Phototropism is the directional growth response to a unidirectional light stimulus: shoots are positively phototropic (bend towards light), roots are negatively phototropic (bend away from light or show no strong response). Geotropism is the directional growth response to gravity: shoots are negatively geotropic (grow upward, away from gravity), roots are positively geotropic (grow downward, towards gravity). A wrong answer (e.g., saying roots bend towards light) reveals the student has memorised definitions without understanding the survival logic: shoots need light for photosynthesis, roots need soil anchorage and water.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In phototropism, the side of the stem facing the light grows faster because light stimulates cell division, causing the stem to bend towards the light.\" Identify the error in this statement and explain the correct mechanism.",
+     "a": "The error is attributing the bending to faster growth on the *lit* side due to stimulated cell division. The correct mechanism: light causes auxin to accumulate on the *shaded* side of the shoot. Higher auxin concentration promotes *cell elongation* (not division) on the shaded side, making that side grow faster, pushing the stem towards the light. A wrong answer reveals the common misconception that light directly stimulates growth on the illuminated side, confusing photosynthesis (energy production) with tropic response (hormonal signalling).",
+     "self_check": true
+    },
+    {
+     "q": "A bean seedling is placed horizontally on a damp cloth in complete darkness. After 24 hours, the root has curved downwards and the shoot has curved upwards. Using the concept of auxin redistribution, explain why the root and shoot bend in opposite directions despite both experiencing the same gravity stimulus.",
+     "a": "Step 1: Gravity causes auxin to accumulate on the lower side of both horizontal root and shoot. Step 2: In the shoot, high auxin concentration *promotes* cell elongation on the lower side → lower side grows faster → shoot bends upward (negative geotropism). Step 3: In the root, the same high auxin concentration *inhibits* cell elongation on the lower side → upper side grows faster → root bends downward (positive geotropism). Step 4: Conclusion: Shoots and roots have different sensitivity thresholds to auxin; shoots require higher auxin for promotion, roots are inhibited by the same high concentration. A wrong answer (e.g., \"auxin promotes growth in both\") reveals ignorance of the concentration-dependent dual role of auxin.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of phototropism and geotropism in shoots with respect to: (a) the stimulus, (b) the site of perception, (c) the direction of auxin movement, and (d) the final curvature direction.",
+     "a": "(a) Stimulus: Phototropism — unidirectional light; Geotropism — gravity vector. (b) Perception site: Phototropism — shoot tip (coleoptile tip) containing phototropins; Geotropism — root cap (statocytes with statoliths) for roots, shoot tip/endodermis for shoots. (c) Auxin movement: Phototropism — lateral transport from lit to shaded side; Geotropism — lateral transport from upper to lower side due to gravity-induced statolith sedimentation. (d) Curvature: Both result in upward bending of shoots (negative geotropism, positive phototropism). A wrong answer confusing the perception sites (e.g., saying root cap perceives light) reveals a lack of analytical distinction between the two distinct sensory pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If the tip of a coleoptile is cut off and placed on an agar block for an hour, then the agar block is placed asymmetrically on a decapitated coleoptile stump in the dark, the coleoptile will bend away from the side with the agar block.\" Is this correct? Justify your answer.",
+     "a": "The statement is **incorrect**. The coleoptile will bend *towards* the side with the agar block. Reasoning: The excised tip synthesises auxin, which diffuses into the agar block. When the auxin-laden block is placed on one side of the decapitated stump, auxin diffuses down that side, creating a high auxin concentration there. In shoots, high auxin promotes cell elongation, so that side grows faster, causing bending *towards* the block (i.e., towards the auxin source). A wrong evaluation (saying it bends away) reveals the student thinks auxin inhibits shoot elongation or confuses the direction of the curvature relative to the hormone source.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using mustard seedlings (or any dicot seedlings) to demonstrate that the root tip is the site of gravity perception for geotropism. List the materials, procedure, observation, and conclusion.",
+     "a": "Materials: Germinated mustard seedlings with straight roots, petroleum jelly (or wax), pin, moist filter paper, petri dish. Procedure: (1) Select three seedlings: Seedling A — root tip covered with a tiny petroleum jelly cap; Seedling B — root tip cut off (decapitated); Seedling C — intact (control). (2) Place all horizontally on moist filter paper in petri dishes in the dark. (3) Observe after 24 hours. Expected Observation: Control (C) and decapitated (B) roots curve downwards; capped root (A) grows straight horizontally. Conclusion: The root cap (tip) is essential for gravity perception. Covering it blocks statolith sedimentation; removing it removes the sensor. A poor answer (e.g., \"put plant in dark and see\") reveals inability to design a controlled experiment isolating the perception site.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

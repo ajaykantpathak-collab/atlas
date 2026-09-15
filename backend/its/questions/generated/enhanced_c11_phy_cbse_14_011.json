@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_011",
+   "title": "c11_phy_cbse_14_011",
+   "questions": [
+    {
+     "q": "State the combined Doppler effect formula for sound when both source and observer are moving along the line joining them. Define each variable and its SI unit.",
+     "a": "The formula is \\( f' = f \\frac{v + v_o}{v - v_s} \\) for motion towards each other. Here \\( f' \\) = observed frequency (Hz), \\( f \\) = source frequency (Hz), \\( v \\) = speed of sound in medium (m/s), \\( v_o \\) = velocity of observer (m/s, positive towards source), \\( v_s \\) = velocity of source (m/s, positive towards observer). If a student writes \\( f' = f \\frac{v - v_o}{v + v_s} \\) for approach, they have confused the sign convention. If they omit units or use km/h without conversion, they lack unit awareness.",
+     "self_check": true
+    },
+    {
+     "q": "A police car siren emits a frequency of 800 Hz. The car moves towards a stationary observer at 30 m/s. The observer then starts moving towards the car at 10 m/s. Explain qualitatively how the observed frequency changes compared to the stationary observer case. Does the formula \\( f' = f \\frac{v}{v - v_s} \\) still apply?",
+     "a": "When the observer is stationary, the observed frequency is \\( f' = f \\frac{v}{v - v_s} \\) (higher than 800 Hz). When the observer also moves towards the source, they encounter wavefronts more frequently, so the observed frequency increases further. The formula \\( f' = f \\frac{v}{v - v_s} \\) no longer applies because it assumes \\( v_o = 0 \\). The correct formula is \\( f' = f \\frac{v + v_o}{v - v_s} \\). A student who says the frequency decreases or stays the same confuses the effect of observer motion. One who uses the same formula fails to recognize the additional factor \\( (v + v_o) \\).",
+     "self_check": true
+    },
+    {
+     "q": "A source emits sound at 500 Hz. The speed of sound in air is 340 m/s. The source moves away from a stationary observer at 20 m/s. The observer then moves away from the source at 15 m/s. Calculate the observed frequency in both cases. (Give answers to 1 decimal place.)",
+     "a": "Case 1 (stationary observer, source receding): \\( f' = f \\frac{v}{v + v_s} = 500 \\times \\frac{340}{340 + 20} = 500 \\times \\frac{340}{360} = 472.2 \\) Hz.\nCase 2 (both receding): \\( f' = f \\frac{v - v_o}{v + v_s} = 500 \\times \\frac{340 - 15}{340 + 20} = 500 \\times \\frac{325}{360} = 451.4 \\) Hz.\nIf a student uses \\( v - v_s \\) in the denominator for receding source, they have the sign wrong. If they forget to subtract \\( v_o \\) in the numerator for receding observer, they treat the observer as stationary. Unit mismatch (e.g., using km/h) would give wildly incorrect results.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars A and B are moving towards each other on a straight road. Car A sounds its horn at 440 Hz. Car A moves at 25 m/s, car B at 20 m/s. Speed of sound = 330 m/s. A student calculates the frequency heard by driver B as \\( f' = 440 \\times \\frac{330 + 20}{330 - 25} = 440 \\times \\frac{350}{305} = 504.9 \\) Hz. Another student uses \\( f' = 440 \\times \\frac{330 - 20}{330 + 25} = 382.5 \\) Hz. Which is correct? Explain the error in the wrong approach.",
+     "a": "The first student is correct. Since both are moving towards each other, the observer (B) moves towards the source (+v_o) and the source (A) moves towards the observer (-v_s in denominator). The second student used signs for motion away from each other. The error is in sign convention: they treated both velocities as if the source and observer were receding. A common mistake is to use the same sign for both velocities without considering whether each motion increases or decreases the observed frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A tuning fork of frequency 512 Hz is moved towards a wall at 5 m/s. The sound reflects off the wall and returns to the tuning fork. An observer holding the tuning fork hears beats between the direct sound and the reflected sound. Given speed of sound = 340 m/s, calculate the beat frequency. (Hint: Treat the wall as a stationary observer for the incident wave, then as a stationary source for the reflected wave.)",
+     "a": "Step 1: Frequency 'heard' by the wall (stationary observer, moving source): \\( f_1 = f \\frac{v}{v - v_s} = 512 \\times \\frac{340}{340 - 5} = 512 \\times \\frac{340}{335} = 519.6 \\) Hz.\nStep 2: Wall reflects this frequency. Now the wall acts as a stationary source emitting \\( f_1 \\). The tuning fork (observer) moves towards the wall at 5 m/s: \\( f_2 = f_1 \\frac{v + v_o}{v} = 519.6 \\times \\frac{340 + 5}{340} = 519.6 \\times \\frac{345}{340} = 527.2 \\) Hz.\nStep 3: Beat frequency = \\( |f_2 - f| = |527.2 - 512| = 15.2 \\) Hz.\nIf a student uses only one Doppler shift (e.g., \\( f' = f \\frac{v + v_o}{v - v_s} \\) directly), they get 527.2 Hz but miss the two-step reasoning. If they forget the wall is stationary in both steps, they might use wrong formulas. The beat frequency is the difference between the direct frequency (512 Hz) and the reflected frequency (527.2 Hz).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a Bluetooth speaker to demonstrate the Doppler effect with both source and observer moving. Describe the setup, the measurements you would take, and how you would calculate the expected frequency shift. Assume you have a frequency generator app and a frequency analyzer app.",
+     "a": "Setup: Place the Bluetooth speaker (source) on a toy car moving on a track. The smartphone (observer) is mounted on another toy car moving on a parallel track. Use the frequency generator app to emit a constant tone (e.g., 1000 Hz). Use the frequency analyzer app on the same or another phone to record the received frequency. Vary the speeds of the cars (measure with a stopwatch and meter scale) and record observed frequencies for approaching and receding cases. Calculate expected shifts using \\( f' = f \\frac{v \\pm v_o}{v \\mp v_s} \\) with \\( v = 340 \\) m/s. Compare measured vs calculated. A good answer includes controlling wind, ensuring motion along the line joining them, and repeating trials. A poor answer might ignore the need to measure speeds accurately, forget to account for the medium's speed of sound, or not mention how to isolate the direct sound from reflections.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

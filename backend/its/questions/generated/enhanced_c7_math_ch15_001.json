@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_001",
+   "title": "c7_math_ch15_001",
+   "questions": [
+    {
+     "q": "Which of the following mathematical statements represents an equation?\nA) $3x + 5$\nB) $7y - 2 = 12$\nC) $4 \\times 5 - 3$\nD) $2a + b > 8$",
+     "a": "The correct answer is B) $7y - 2 = 12$. An equation is specifically defined as a statement of equality between two expressions, which requires an equals sign ($=$). Option A is an algebraic expression, Option C is a numerical arithmetic expression, and Option D is an inequality, not an equation. A student who chooses Option A confuses expressions with equations, failing to notice the absence of an equals sign.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the equation $5x + 3 = 18$. Explain what the equals sign ($=$) tells us about the relationship between the expression on the left and the expression on the right.",
+     "a": "The equals sign indicates that when the correct value for $x$ is substituted, the numerical value computed for the left-hand expression ($5x + 3$) is exactly equal in value to the right-hand expression ($18$). A wrong answer often states that the equals sign just means \"write the answer here\" or \"do the calculation,\" showing a lack of understanding that an equation represents a permanent balance or equivalence between two quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Substitute $x = 4$ into the equation $3x - 5 = 2x + 1$ to check whether both sides balance. Show the step-by-step evaluation for LHS and RHS.",
+     "a": "Step 1: Evaluate the Left-Hand Side (LHS) by substituting $x = 4$. \nLHS $= 3(4) - 5 = 12 - 5 = 7$.\nStep 2: Evaluate the Right-Hand Side (RHS) by substituting $x = 4$. \nRHS $= 2(4) + 1 = 8 + 1 = 9$.\nStep 3: Compare LHS and RHS. Since LHS ($7$) $\\neq$ RHS ($9$), the value $x = 4$ does not make the equation balanced. \nA student who gets $7 = 7$ has made a substitution error on the RHS by miscalculating $2 \\times 4$ or adding incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two statements: Statement 1: $4x + 7$ and Statement 2: $4x + 7 = 23$. Explain why Statement 1 cannot be solved to find a specific numerical value for $x$, while Statement 2 can.",
+     "a": "Statement 1 is an expression, which changes its numerical value depending on whatever number we choose to substitute for $x$. Statement 2 is an equation containing a fixed equality condition, constraining $x$ to a single specific value that makes the balance true. A wrong answer suggests that any algebraic string of letters and numbers can be \"solved,\" failing to grasp that finding an unknown requires a boundary condition of equality.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that $x = 6$ is the solution to the equation $2(x - 3) = 12$. Evaluate this claim by testing the solution and identifying any error in the student's reasoning.",
+     "a": "The student's claim is incorrect. Let us substitute $x = 6$ into the LHS: $2(6 - 3) = 2(3) = 6$. The RHS is $12$. Since $6 \\neq 12$, $x = 6$ is not a solution. The student likely multiplied incorrectly or confused the equation with $2x - 3 = 12$. A wrong answer that accepts the student's claim indicates a failure to properly evaluate brackets using order of operations (BODMAS).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world word problem about buying notebooks and pens at a local stationery shop in rupees that can be represented by the equation $15x + 50 = 200$.",
+     "a": "A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed delivery charge of ₹50. If his total bill comes to ₹200, construct the equation.\" A poor response merely writes random numbers with variables without a logical real-world context or misplaces the constant term relative to the variable term.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

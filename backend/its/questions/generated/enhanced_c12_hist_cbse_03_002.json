@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_002",
+   "title": "c12_hist_cbse_03_002",
+   "questions": [
+    {
+     "q": "Who is traditionally credited as the compiler of the Mahabharata in the Sanskrit tradition, and what does the Critical Edition reveal about this attribution?",
+     "a": "The sage Vyasa is traditionally credited as the compiler. The Critical Edition, however, shows the text grew from under 10,000 verses to ~100,000 over ~1,000 years (c. 500 BCE – 400 CE) through contributions of sutas, Brahmanas, and regional traditions — Vyasa is a personification of this collective process, not a single historical author. A wrong answer (e.g., \"Vyasa wrote it all at once\") reveals confusion between traditional attribution and historical textual criticism, and misses the NCERT's emphasis on the epic as a layered, multi-authored work.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Brahmanas take over the Mahabharata from the 5th century BCE and commit it to writing, according to the NCERT?",
+     "a": "As chiefdoms like the Kurus and Panchalas became kingdoms (c. 500 BCE), new rulers wanted their itihasa (\"thus it was\") recorded systematically to legitimise their power; Brahmanas, who controlled writing and Sanskrit, undertook this task, simultaneously adding normative dharma sections to regulate social behaviour amid urban complexity. A wrong answer (e.g., \"Brahmanas wrote it to preserve Hindu religion\") misses the political context of state formation and the NCERT's point that the shift coincided with the emergence of kingdoms and the need for a preserved dynastic narrative.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds two manuscript versions of a Mahabharata verse: Version A (from Kashmir) describes a king performing a Vedic sacrifice; Version B (from Tamil Nadu) omits the sacrifice but keeps the king's genealogy. Using the Critical Edition method, how would the historian decide which reading is likely older, and what does the variation suggest about regional transmission?",
+     "a": "The historian would apply the Critical Edition's principle: readings common to most manuscripts across regions form the \"constituted text\" (likely older core), while regional variations are documented in footnotes. If the sacrifice appears in most northern manuscripts but is absent in southern ones, it may be a later Brahmanical insertion in the north. The variation reflects the NCERT's observation that \"enormous regional variations\" show \"dialogues between dominant traditions and resilient local ideas\" — the southern version may preserve a pre-Brahmanical narrative layer. A wrong answer (e.g., \"Version A is older because it's more religious\") confuses piety with textual antiquity and ignores the stemmatic method Sukthankar's team used.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social roles and motivations of the sutas (charioteer-bards) and the Brahmanas in shaping the Mahabharata. How did their different positions in the varna hierarchy influence the content they produced or preserved?",
+     "a": "Sutas (often of mixed Kshatriya-Shudra origin) were professional bards attached to Kshatriya courts; their oral compositions celebrated warrior patrons' victories and lineages — hence the epic's core narrative focuses on Kshatriya feuds, kinship, and martial values. Brahmanas, as ritual specialists at the top of the varna order, wrote the text down in Sanskrit, added extensive didactic sections (varna-dharma, marriage rules, ritual norms), and reframed the narrative to legitimise Brahmanical authority (e.g., Vyasa as Brahmana sage, Krishna as Vishnu). The shift from suta to Brahmana control marks a transition from a Kshatriya-centric oral epic to a Brahmanical smriti text prescribing social order. A wrong answer that treats both groups as \"priests\" or ignores the sutas' low ritual status misses the NCERT's explicit contrast: \"original story probably composed by charioteer-bards known as sutas... from the fifth century BCE, Brahmanas took over the story and began to commit it to writing.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Critical Edition of the Mahabharata (1919–1966) gives us the 'original' Mahabharata as it was first composed.\"",
+     "a": "The claim is false. The Critical Edition reconstructs the *most widely shared* version across manuscripts (the \"common core\"), not the ur-text. As the NCERT states, the team \"selected the verses that appeared common to most versions\" — but this common core itself evolved over centuries. Moreover, over half the 13,000 pages are footnotes documenting regional variations, which the NCERT calls reflective of \"complex processes that shaped early social histories.\" The edition is a scholarly tool for comparing transmission, not a recovery of a lost original. A wrong answer accepting the claim confuses textual criticism's provisional consensus with historical originality, and overlooks the NCERT's emphasis on variations as historical evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-column timeline (Period | Social Group / Agent | Key Activity in Mahabharata's Growth) covering c. 500 BCE to 400 CE, using only evidence from the NCERT chapter. Include at least five rows.",
+     "a": "A strong answer will include rows such as:\n1. c. 500 BCE | Sutas (charioteer-bards) | Oral composition of core narrative (Kuru-Panchala feuds) for Kshatriya patrons\n2. c. 500–200 BCE | Brahmanas | Writing down the text in Sanskrit; adding early didactic sections as kingdoms emerge\n3. c. 200 BCE – 200 CE | Brahmanas (Vishnu-worship context) | Major expansion: Krishna identified with Vishnu; large didactic insertions resembling Manusmriti\n4. c. 200 – 400 CE | Brahmanas / regional scribes | Text grows to ~100,000 verses; didactic sections dominate; attribution to Vyasa solidifies\n5. 1919–1966 CE | V.S. Sukthankar's team | Critical Edition: collating manuscripts pan-India; publishing common core + variations\nA poor answer will list only \"Vyasa wrote it\" or omit the sutas, the phased Brahmanical additions, or the Critical Edition — showing failure to grasp the NCERT's multi-phase, multi-agent model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

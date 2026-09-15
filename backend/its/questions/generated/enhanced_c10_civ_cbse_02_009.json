@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_009",
+   "title": "c10_civ_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the constitutional provision that allows the Centre to impose President's Rule in a state, and under what two conditions can it be invoked?",
+     "a": "Article 356 allows President's Rule when the President is satisfied that the state government cannot be carried on in accordance with the Constitution, based on the Governor's report or otherwise. A wrong answer (e.g., \"Article 352\" or \"when the Chief Minister loses majority\") reveals confusion between National Emergency (Article 352) and State Emergency, and misunderstanding that President's Rule is not solely about legislative majority but constitutional breakdown.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the States Reorganisation Commission (1955) recommend linguistic states, and how did this decision both strengthen and challenge Indian federalism?",
+     "a": "The SRC recommended linguistic states to accommodate cultural diversity and reduce administrative friction, strengthening federalism by giving communities self-governance (e.g., Andhra Pradesh, Maharashtra). However, it also entrenched linguistic identities as political mobilisation tools, later fuelling demands for further division (e.g., Telangana, Gorkhaland) and inter-state water disputes. A wrong answer focusing only on \"unity\" or only on \"division\" misses the dual nature of linguistic federalism as both integrative and fragmenting.",
+     "self_check": true
+    },
+    {
+     "q": "A state government refuses to implement a Central law on a Concurrent List subject (e.g., the Farm Laws 2020), claiming it violates state autonomy. The Centre insists the law is valid. Using constitutional provisions, explain the legal position of both sides and the mechanism to resolve this deadlock.",
+     "a": "Under Article 254, if a State law on a Concurrent subject conflicts with a Central law, the Central law prevails — but the State law can still operate if reserved for Presidential assent and approved. The deadlock is resolved by the Supreme Court under Article 131 (original jurisdiction in Centre-State disputes). A wrong answer saying \"State can ignore Central law\" ignores Article 254; saying \"Centre always wins\" ignores the Presidential assent route for State laws.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Governor in Centre-State tensions with the role of the Finance Commission in fiscal federalism. Which poses a greater structural challenge to cooperative federalism, and why?",
+     "a": "The Governor (appointed by Centre, acts on Centre's advice per Article 163) is often seen as the Centre's agent — e.g., recommending President's Rule, reserving bills — creating political friction. The Finance Commission (Article 280) is a constitutional body ensuring vertical/horizontal tax devolution; its recommendations are generally accepted. The Governor's role is a greater structural challenge because it is inherently political and discretionary, whereas the Finance Commission is technical and consensus-based. A wrong answer equating both as \"Centre-controlled\" misses the Governor's direct political interference vs the Commission's formulaic mandate.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the impact of the Goods and Services Tax (GST) on Centre-State financial relations. Has it strengthened or weakened fiscal federalism? Justify with two arguments each way.",
+     "a": "Strengthened: (1) Created a unified national market, reducing trade barriers; (2) GST Council (Article 279A) gives States veto power (3/4 majority) — a model of cooperative federalism. Weakened: (1) States lost autonomy to set indirect tax rates (e.g., VAT, entry tax); (2) Dependence on Centre for compensation (especially post-2022) creates fiscal uncertainty. A balanced evaluation must acknowledge both. A wrong answer saying \"GST fully centralised power\" ignores the Council's federal structure; saying \"States gained power\" ignores revenue loss and compensation disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal (in 3-4 bullet points) to reduce the misuse of Article 356 while preserving the Centre's ability to act during genuine constitutional breakdown. Explain the principle behind each change.",
+     "a": "A strong answer includes: (1) Require *judicial review* of Governor's report before proclamation (S.R. Bommai principle codified); (2) Mandate *floor test* within 30 days — President's Rule lapses if not approved by Parliament with 2/3 majority; (3) Bar *dissolution of Assembly* until Parliament approves; (4) Establish an *independent commission* (like Sarkaria recommended) to assess \"constitutional breakdown\" objectively. Principles: Checks and balances, federal symmetry, preventing partisan misuse. A poor answer suggests \"delete Article 356\" (ignores genuine emergencies) or \"give States more power\" (vague, not constitutional design).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

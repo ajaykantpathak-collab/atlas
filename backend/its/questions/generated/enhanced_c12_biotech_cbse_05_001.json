@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_001",
+   "title": "c12_biotech_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define genome as per NCERT Class 12 Biotechnology. How does the genome composition differ between a bacterium (prokaryote) and a flowering plant (eukaryote)?",
+     "a": "Genome is the complete DNA content of a cell. In prokaryotes (e.g., bacterium), it includes the nucleoid chromosomal DNA plus plasmid DNA. In eukaryotes (e.g., flowering plant), it includes nuclear chromosomal DNA plus mitochondrial DNA and chloroplast (plastid) DNA. A wrong answer that omits organellar DNA in eukaryotes or plasmid DNA in prokaryotes reveals incomplete recall of NCERT Fig. 5.1 and the summary bullet points.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Genome and gene mean the same thing — both refer to the genetic material of an organism.\" Explain why this statement is incorrect using the concepts of scope, composition, and function.",
+     "a": "Genome is the ENTIRE DNA content (all chromosomes + organellar DNA + plasmids), including coding and non-coding regions. A gene is a SPECIFIC DNA segment that encodes a functional product (protein/functional RNA). The genome contains thousands of genes plus intergenic regions, regulatory sequences, repetitive DNA, introns, and organellar genomes. The student's error conflates the container (genome) with its discrete functional units (genes) — a category error that leads to mistakes in genome size vs. gene number questions.",
+     "self_check": true
+    },
+    {
+     "q": "The human genome is ~3,200 Mb (megabase pairs) and contains ~20,000 protein-coding genes. The onion (Allium cepa) genome is ~16,000 Mb but has ~30,000 genes. Calculate the average gene density (genes/Mb) for each. What does this comparison illustrate about the C-value paradox?",
+     "a": "Human: 20,000 genes / 3,200 Mb = 6.25 genes/Mb. Onion: 30,000 genes / 16,000 Mb = 1.875 genes/Mb. Despite having 5x larger genome, onion has only 1.5x more genes. This illustrates the C-value paradox: genome size (C-value) does not correlate with gene number or organismal complexity because eukaryotes vary enormously in non-coding DNA content (repetitive sequences, introns, regulatory regions). A wrong answer that assumes larger genome = more genes reveals the misconception that genome size directly reflects genetic complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genome organization of a typical prokaryote (e.g., E. coli) and a eukaryote (e.g., human) in terms of: (a) number of chromosomes, (b) presence of organellar genomes, (c) gene density, (d) introns in genes. Use a table format.",
+     "a": "| Feature | Prokaryote (E. coli) | Eukaryote (Human) |\n|---------|---------------------|-------------------|\n| Chromosomes | 1 circular chromosome (+ plasmids) | 23 pairs linear chromosomes (nuclear) + mitochondrial DNA |\n| Organellar genomes | None | Mitochondria (16.5 kb), no plastids |\n| Gene density | High (~1 gene/kb) | Low (~1 gene/100 kb) |\n| Introns | Rare/absent | Common (average ~8 introns/gene) |\nA wrong answer that says prokaryotes have multiple linear chromosomes or that humans lack mitochondrial genome shows failure to integrate Class 11 chromosome structure (c11_biotech_cbse_08_001) with current NCERT Fig. 5.1.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since the rice genome (430 Mb) is smaller than the human genome (3,200 Mb), rice must have fewer genes and be less complex.\" Defend or refute using evidence from genome biology.",
+     "a": "Refute. Rice has ~37,000 genes (more than human's ~20,000) despite 7.4x smaller genome. Genome size correlates with repetitive DNA and transposon content, not gene number or complexity. Complexity arises from alternative splicing, regulatory networks, and protein interactions — not raw DNA amount. A student who agrees reveals the \"genome size = complexity\" fallacy, a classic NEET trap. The correct evaluation requires knowing that gene number ≠ genome size, and complexity is functional, not quantitative.",
+     "self_check": true
+    },
+    {
+     "q": "Design a concept map that connects these terms: Genome, Gene, Chromosome, Nucleoid, Plasmid, Mitochondrial DNA, Chloroplast DNA, Non-coding DNA, Regulatory sequence, Intron, Exon. Show hierarchical relationships and indicate which are present in prokaryotes vs. eukaryotes.",
+     "a": "A good concept map places Genome at top, branching to Prokaryotic Genome (Nucleoid chromosome + Plasmid) and Eukaryotic Genome (Nuclear chromosomes + Mitochondrial DNA + Chloroplast DNA). Nuclear chromosome branches to Gene, Non-coding DNA. Gene branches to Exon + Intron + Regulatory sequence. Prokaryote side lacks Intron, Mitochondrial DNA, Chloroplast DNA. A poor map that puts Plasmid under Eukaryote or misses organellar genomes shows fragmented understanding of NCERT Fig. 5.1's two-panel structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

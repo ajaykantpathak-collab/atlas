@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_008",
+   "title": "c11_hs_cbse_10_008",
+   "questions": [
+    {
+     "q": "A family budgeted ₹8,000 for medical expenses but spent ₹12,000 due to an unexpected hospitalization. The family considers this a \"budget failure.\" Is this evaluation correct? Answer in one sentence.",
+     "a": "No, this is incorrect evaluation because unexpected emergencies are explicitly meant to be covered by the emergency provision in a sound budget, and evaluation must distinguish between controllable variances and unforeseen contingencies. A wrong answer reveals the student equates any variance with failure, ignoring the NCERT principle that budgets must \"allow for emergencies\" and that solvency (ability to pay bills when due) is a success criterion — which this family met by paying the hospital bill.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"satisfaction derived from expenditures\" is considered a criterion for evaluating a budget, even though satisfaction is subjective and cannot be measured in rupees.",
+     "a": "Satisfaction (psychic income) is the ultimate purpose of spending — money is a means, not an end. A budget that meets all numerical targets but leaves family members stressed, deprived, or resentful has failed its core purpose. A wrong answer reveals the student thinks evaluation is only about numerical compliance (money income accounting) and misses the NCERT's three-income framework where psychic income is \"the most important in terms of quality of living\" and the true measure of whether real income was well-utilized.",
+     "self_check": true
+    },
+    {
+     "q": "A family's monthly budget and actuals for three categories are:\n| Category | Budgeted (₹) | Actual (₹) |\n|----------|--------------|------------|\n| Food | 12,000 | 13,800 |\n| Education | 5,000 | 4,200 |\n| Entertainment | 3,000 | 4,500 |\nCalculate the variance (₹ and %) for each. Which category shows the most concerning variance and why?",
+     "a": "Food: +₹1,800 (+15%); Education: -₹800 (-16%); Entertainment: +₹1,500 (+50%). Entertainment is most concerning because a 50% overspend on a discretionary category indicates poor control mechanisms (mental/mechanical checks failed), whereas food's 15% may reflect inflation (external) and education's underspend may be timing (fees paid quarterly). A wrong answer reveals the student only compares absolute rupee differences (₹1,800 > ₹1,500 > ₹800) ignoring percentage impact and category nature (necessity vs discretionary), missing the NCERT emphasis on \"identifying categories where expenditure is too high or too low\" for future budget improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the evaluation criteria \"fair value of money spent\" and \"improving economic status of the family.\" Give one concrete example where an expenditure scores high on one but low on the other.",
+     "a": "\"Fair value\" assesses whether each rupee purchased appropriate quality/quantity (micro, transaction-level). \"Improving economic status\" assesses whether the spending pattern builds assets, reduces debt, or increases earning capacity over time (macro, trajectory-level). Example: Buying a ₹50,000 latest smartphone on EMI scores high on fair value (good product, fair price) but low on improving economic status (depreciating asset, increases liability, no income generation). A wrong answer reveals the student conflates \"getting a good deal\" with \"building financial health,\" missing the NCERT distinction between consumption expenditure and provision for future/investment.",
+     "self_check": true
+    },
+    {
+     "q": "A family uses the single-sheet record method (Figure 1 in NCERT). At month-end, they find the \"Food\" category overspent by 20% but \"Medical\" underspent by 30%. They decide to reduce next month's food budget by 20% and increase medical by 30%. Critique this adjustment decision.",
+     "a": "This adjustment is flawed because it mechanically transfers variances without diagnosing causes. Food overspend could be due to a festival (one-time) or price rise (structural) — cutting the budget may cause deprivation. Medical underspend likely means no illness occurred (good!) — increasing allocation wastes funds that could go to savings. Proper evaluation requires root-cause analysis per NCERT: \"Adjustments may be needed if original planning was poor because of factors beyond family's control like emergencies\" — not automatic rebalancing. A wrong answer reveals the student treats evaluation as arithmetic balancing rather than diagnostic judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-criterion evaluation checklist (with one measurable indicator per criterion) that a family can use quarterly to assess their budget's success. The checklist must be usable by a family with no accounting training.",
+     "a": "Example checklist:\n1. Fair Value: \"For each major category, did we get acceptable quality for the price paid?\" (Indicator: % of purchases rated 'satisfactory' in family review ≥ 80%)\n2. Solvency: \"Were all bills paid on due date without borrowing?\" (Indicator: Zero late payments/borrowing for regular expenses)\n3. Future Provision: \"Did we save at least the planned amount for defined goals?\" (Indicator: Actual savings ≥ 90% of budgeted savings)\n4. Economic Improvement: \"Did net worth (assets minus liabilities) increase this quarter?\" (Indicator: Quarterly net worth change > 0)\nA poor answer uses vague indicators (\"feel good about spending\") or accounting terms (\"variance < 5%\") showing the student cannot translate NCERT criteria into practical, non-technical tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_006",
+   "title": "c12_acc_cbse_03_006",
+   "questions": [
+    {
+     "q": "A partner dies on 30th June. The accounting year ends on 31st March. Last year's profit was ₹6,00,000. The deceased partner's share is 1/4. What is the correct time fraction (period/12) to use in the calculation?",
+     "a": "Correct answer: 3/12 (or 1/4). The period from 1st April to 30th June is exactly 3 months (April, May, June). A wrong answer of 4/12 reveals the student incorrectly includes July or counts from the date of death instead of from the start of the year. A wrong answer of 2/12 reveals confusion about whether the month of death is included (it is, up to the date of death; for 30th June, the full month of June counts).",
+     "self_check": true
+    },
+    {
+     "q": "The partnership deed is silent on how to calculate profit share for a deceased partner. The firm's profits for the last three years were: Year 1: ₹2,00,000; Year 2: ₹3,00,000; Year 3: ₹4,00,000. The partner dies on 31st December. Which profit figure should be used as the base, and why?",
+     "a": "Correct answer: Average profit of ₹3,00,000 (₹9,00,000/3) should be used. When the deed is silent and multiple years' profits are given, the average profit is the standard basis — it smooths fluctuations. Using only the last year (₹4,00,000) ignores the trend and overstates the share. A wrong answer selecting only the last year shows the student doesn't know the default rule for \"silent deed with multiple years' data\" — a common CBSE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the deceased partner's profit share: Accounting year ends 31st March. Partner dies 31st August. Last year's profit ₹9,00,000. Profit sharing ratio 2:1:1 (deceased had 2/4). Show the journal entry.",
+     "a": "Steps: (1) Period = 5 months (Apr–Aug). (2) Profit share = ₹9,00,000 × (5/12) × (2/4) = ₹1,87,500. (3) Journal: Profit & Loss Suspense A/c Dr. ₹1,87,500 To Deceased Partner's Capital A/c ₹1,87,500. A wrong answer debiting Profit & Loss Appropriation reveals confusion between final appropriation (after year-end) and interim estimate (before year-end). A wrong period (e.g., 6/12) shows the student counted September or misread the date.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) Deed specifies \"profit share based on last year's profit\". (B) Deed is silent, last 3 years' profits given. In which scenario is the calculated share more likely to be disputed by the deceased's estate, and why?",
+     "a": "Scenario B (silent deed) is more disputable. In A, the method is contractually fixed — even if last year was abnormal, the deed binds. In B, the estate may argue for a different base (e.g., weighted average, or last year only if trend is rising) because no method is prescribed. The student must analyze that absence of a deed clause creates ambiguity, whereas a clear clause (even if unfavorable) prevents litigation. A wrong answer saying \"A is more disputable because last year might be low\" misses the legal certainty point.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the firm makes profit daily, we should calculate the deceased partner's share using daily rate (Annual Profit/365 × days lived) instead of monthly.\" Evaluate this argument for CBSE board exam purposes.",
+     "a": "The argument is technically more accurate but NOT accepted in CBSE board exams unless the question explicitly asks for daily calculation. CBSE convention: use months (completed months up to date of death) with 12 as denominator. Daily calculation is used only if specified. The student must evaluate that exam conventions override theoretical precision. A wrong answer supporting daily calculation shows inability to follow board-specific rules — a costly error in marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: A firm has 3 partners sharing 3:2:1. The partner with 1/6 share dies on 15th January. Last year's profit ₹7,20,000. The deed says \"use average of last 2 years\". Previous year profit ₹6,00,000. Design the full calculation and journal entry.",
+     "a": "Expected answer: (1) Average profit = (₹7,20,000 + ₹6,00,000)/2 = ₹6,60,000. (2) Period = 10 months (Apr–Jan; 15th Jan counts as full month in CBSE convention). (3) Share = ₹6,60,000 × (10/12) × (1/6) = ₹91,667. (4) Journal: P&L Suspense A/c Dr. ₹91,667 To Deceased Partner's Capital A/c ₹91,667. A poor answer uses 9.5 months (daily) or forgets the average clause — reveals inability to synthesize deed terms with time apportionment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

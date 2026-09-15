@@ -1,0 +1,511 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Data Handling",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh104.txt",
+ "concepts": [
+  {
+   "id": "hemh.104.2.1",
+   "title": "Central Angle from Percentage",
+   "section": "4.2.1",
+   "definition": "The angle subtended by a sector at the center of a pie chart, calculated as a fraction of the total 360 degrees based on its percentage value.",
+   "formula": "angle = (percentage / 100) * 360",
+   "key_idea": "Convert a percentage representation into its corresponding degree measure out of 360 degrees.",
+   "textbook_ref": "hemh104.txt lines 120-145",
+   "question_patterns": [
+    "What is the central angle for a sector representing {percentage} percent?",
+    "Find the central angle of a sector if its percentage of the total is {percentage} percent.",
+    "Calculate the central angle corresponding to {percentage} percent in a pie chart.",
+    "If a category accounts for {percentage} percent of the total, find its central angle.",
+    "Determine the degree measure of a sector with a percentage value of {percentage}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the percentage by 100 to get the fraction of the whole.",
+     "explain": "The fraction is obtained by dividing the given percentage by 100.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by 360 to find the central angle in degrees.",
+     "explain": "Multiply the fraction by the total angle of a circle, which is 360 degrees.",
+     "compute": "angle = fraction * 360"
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.2.2",
+   "title": "Central Angle from Raw Value",
+   "section": "4.2.1",
+   "definition": "The central angle of a sector in a circle graph is determined by finding the ratio of the sector's value to the total value, then multiplying by 360 degrees.",
+   "formula": "angle = (value / total) * 360",
+   "key_idea": "Scale the proportion of a category's value relative to the total sum to a 360-degree circle.",
+   "textbook_ref": "hemh104.txt lines 155-185",
+   "question_patterns": [
+    "Find the central angle of a sector with value {value} out of a total of {total}.",
+    "Calculate the central angle for a component of size {value} when the sum of all components is {total}.",
+    "What is the central angle in a pie chart for a category of {value} units if the total is {total}?",
+    "If the total sales are {total} and the sales of an item are {value}, find its central angle.",
+    "Determine the sector angle for {value} out of a total of {total}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the ratio of the sector value to the total value.",
+     "explain": "Divide the individual sector value by the total sum of all values.",
+     "compute": "ratio = value / total"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by 360 to get the central angle.",
+     "explain": "Multiply the calculated ratio by 360 degrees to find the sector's angle.",
+     "compute": "angle = ratio * 360"
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.2.3",
+   "title": "Sector Value from Central Angle and Total",
+   "section": "4.2",
+   "definition": "The actual value or quantity represented by a sector in a pie chart, computed by multiplying the total quantity by the fraction of the circle's total angle.",
+   "formula": "value = (angle / 360) * total",
+   "key_idea": "Determine the absolute value of a category using its central angle and the total value.",
+   "textbook_ref": "hemh104.txt lines 210-235",
+   "question_patterns": [
+    "Find the value of a sector with a central angle of {angle} degrees when the total is {total}.",
+    "If the total marks are {total}, how many marks correspond to a sector angle of {angle} degrees?",
+    "Calculate the quantity represented by a sector of {angle} degrees out of a total of {total}.",
+    "What value does a sector of {angle} degrees represent if the entire circle represents {total}?",
+    "Determine the amount for a sector of {angle} degrees when the total amount is {total}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the fraction of the circle represented by the central angle.",
+     "explain": "Divide the given central angle by the total circle angle of 360 degrees.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by the total quantity to find the sector value.",
+     "explain": "Multiply the fraction by the total amount to get the specific sector's value.",
+     "compute": "value = fraction * total"
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.2.4",
+   "title": "Total Value from Sector Percentage and Sector Value",
+   "section": "4.2",
+   "definition": "Calculating the total value of a data set when the percentage of a specific sector and its corresponding absolute value are known.",
+   "formula": "total = (sector_value / percentage) * 100",
+   "key_idea": "Use the value of a single sector and its percentage to find the whole amount.",
+   "textbook_ref": "hemh104.txt lines 140-155",
+   "question_patterns": [
+    "If {percentage} percent of a total represents {sector_value}, find the total.",
+    "Find the total amount if {percentage} percent of it is equal to {sector_value}.",
+    "Calculate the total value when a sector of {percentage} percent has a value of {sector_value}.",
+    "What is the total if {percentage} percent corresponds to {sector_value}?",
+    "Determine the total quantity given that a {percentage} percent share is worth {sector_value}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the value corresponding to one percent.",
+     "explain": "Divide the sector value by its percentage to find the value of 1 percent.",
+     "compute": "unit_value = sector_value / percentage"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to find the total value.",
+     "explain": "Multiply the unit value by 100 to get the 100 percent total value.",
+     "compute": "total = unit_value * 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.2.5",
+   "title": "Sector Value from Another Sector's Value and Percentages",
+   "section": "4.2",
+   "definition": "Finding the value of a target sector when given its percentage, along with the percentage and value of another reference sector.",
+   "formula": "target_value = (ref_value / ref_percent) * target_percent",
+   "key_idea": "Use the ratio of a known sector's value to its percentage to find the value of another sector.",
+   "textbook_ref": "hemh104.txt lines 140-155",
+   "question_patterns": [
+    "If {ref_percent} percent represents {ref_value}, what does {target_percent} percent represent?",
+    "Given that {ref_percent} percent of a budget is {ref_value}, find the amount spent on a category with {target_percent} percent.",
+    "Calculate the value of a sector with {target_percent} percent if a sector of {ref_percent} percent is worth {ref_value}.",
+    "If a family spends {ref_value} on food ({ref_percent} percent), how much do they spend on clothes ({target_percent} percent)?",
+    "Determine the value of a {target_percent} percent share when a {ref_percent} percent share is equal to {ref_value}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the value of 1 percent.",
+     "explain": "Divide the reference value by the reference percentage.",
+     "compute": "unit_value = ref_value / ref_percent"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the unit value by the target percentage to get the target value.",
+     "explain": "Multiply the value of 1 percent by the target percentage.",
+     "compute": "target_value = unit_value * target_percent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.3.1",
+   "title": "Probability of an Event",
+   "section": "4.3.3",
+   "definition": "The likelihood of an event occurring in a random experiment with equally likely outcomes, expressed as the ratio of favorable outcomes to the total number of outcomes.",
+   "formula": "probability = favorable_outcomes / total_outcomes",
+   "key_idea": "The ratio of the number of favorable outcomes to the total number of equally likely outcomes.",
+   "textbook_ref": "hemh104.txt lines 310-345",
+   "question_patterns": [
+    "What is the probability of getting a number less than {limit} when a die is thrown?",
+    "Find the probability of drawing a red ball from a bag containing {red} red and {yellow} yellow balls.",
+    "Calculate the probability of getting a prime number when a die is rolled.",
+    "What is the probability of getting an ace from a deck of {total_cards} cards?",
+    "Determine the probability of selecting a green sector from a wheel with {green} green and {other} other sectors."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total number of equally likely outcomes of the experiment.",
+     "explain": "Determine the size of the sample space (all possible outcomes)."
+    },
+    {
+     "step": 2,
+     "action": "Count the number of outcomes that are favorable to the event.",
+     "explain": "Identify which outcomes satisfy the condition of the event."
+    },
+    {
+     "step": 3,
+     "action": "Write the probability as the fraction of favorable outcomes over total outcomes.",
+     "explain": "Form the fraction with favorable outcomes in the numerator and total outcomes in the denominator."
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.3.2",
+   "title": "Probability of a Complementary Event",
+   "section": "4.3.4",
+   "definition": "The probability of an event not happening, which is calculated by subtracting the number of favorable outcomes from the total outcomes, or subtracting the probability of the event from 1.",
+   "formula": "probability_not = (total_outcomes - favorable_outcomes) / total_outcomes",
+   "key_idea": "The probability of the complement of an event represents the chance of the event not occurring.",
+   "textbook_ref": "hemh104.txt lines 350-375",
+   "question_patterns": [
+    "What is the probability of not getting a green sector if there are {green} green sectors out of {total}?",
+    "Find the probability of not drawing a red ball when there are {red} red balls and {total} total balls.",
+    "Calculate the probability of not getting a number greater than {limit} on a die.",
+    "What is the probability of not getting a prime number when a die is thrown?",
+    "Determine the probability of not selecting a blue sector from a wheel with {blue} blue and {total} total sectors."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total number of outcomes.",
+     "explain": "Count all possible outcomes of the experiment."
+    },
+    {
+     "step": 2,
+     "action": "Find the number of outcomes that do not favor the event.",
+     "explain": "Subtract the number of favorable outcomes from the total outcomes."
+    },
+    {
+     "step": 3,
+     "action": "Divide the number of non-favorable outcomes by the total outcomes to get the probability.",
+     "explain": "Express the result as a fraction of non-favorable outcomes over total outcomes."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex_104_2_1_1",
+   "source_ref": "hemh104.txt lines 120-130",
+   "concept": "hemh.104.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the central angle of a sector representing chocolate flavor which is preferred by {percentage} percent of students.",
+   "extracted_variables": {
+    "percentage": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the percentage by 100 to get the fraction of the whole.",
+     "explain": "The fraction is obtained by dividing the given percentage by 100.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by 360 to find the central angle in degrees.",
+     "explain": "Multiply the fraction by the total angle of a circle, which is 360 degrees.",
+     "compute": "angle = fraction * 360"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_1_2",
+   "source_ref": "hemh104.txt lines 130-140",
+   "concept": "hemh.104.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the central angle for vanilla flavor preferred by {percentage} percent of students.",
+   "extracted_variables": {
+    "percentage": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the percentage by 100 to get the fraction of the whole.",
+     "explain": "The fraction is obtained by dividing the given percentage by 100.",
+     "compute": "fraction = percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by 360 to find the central angle in degrees.",
+     "explain": "Multiply the fraction by the total angle of a circle, which is 360 degrees.",
+     "compute": "angle = fraction * 360"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_2_1",
+   "source_ref": "hemh104.txt lines 160-170",
+   "concept": "hemh.104.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the central angle for ordinary bread with sales of {value} rupees out of a total sale of {total} rupees.",
+   "extracted_variables": {
+    "value": 320,
+    "total": 720
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the ratio of the sector value to the total value.",
+     "explain": "Divide the individual sector value by the total sum of all values.",
+     "compute": "ratio = value / total"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by 360 to get the central angle.",
+     "explain": "Multiply the calculated ratio by 360 degrees to find the sector's angle.",
+     "compute": "angle = ratio * 360"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_2_2",
+   "source_ref": "hemh104.txt lines 170-180",
+   "concept": "hemh.104.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the central angle for biscuits with sales of {value} rupees out of a total of {total} rupees.",
+   "extracted_variables": {
+    "value": 120,
+    "total": 720
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the ratio of the sector value to the total value.",
+     "explain": "Divide the individual sector value by the total sum of all values.",
+     "compute": "ratio = value / total"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by 360 to get the central angle.",
+     "explain": "Multiply the calculated ratio by 360 degrees to find the sector's angle.",
+     "compute": "angle = ratio * 360"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_3_1",
+   "source_ref": "hemh104.txt lines 210-225",
+   "concept": "hemh.104.2.3",
+   "question_type": "compute",
+   "question_pattern": "If the total marks obtained by a student are {total}, find the marks scored in a subject with a central angle of {angle} degrees.",
+   "extracted_variables": {
+    "angle": 90,
+    "total": 540
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the fraction of the circle represented by the central angle.",
+     "explain": "Divide the given central angle by the total circle angle of 360 degrees.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by the total quantity to find the sector value.",
+     "explain": "Multiply the fraction by the total amount to get the specific sector's value.",
+     "compute": "value = fraction * total"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_3_2",
+   "source_ref": "hemh104.txt lines 210-225",
+   "concept": "hemh.104.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the marks obtained in a subject with a central angle of {angle} degrees when the total marks are {total}.",
+   "extracted_variables": {
+    "angle": 70,
+    "total": 540
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the fraction of the circle represented by the central angle.",
+     "explain": "Divide the given central angle by the total circle angle of 360 degrees.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the fraction by the total quantity to find the sector value.",
+     "explain": "Multiply the fraction by the total amount to get the specific sector's value.",
+     "compute": "value = fraction * total"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_4_1",
+   "source_ref": "hemh104.txt lines 140-150",
+   "concept": "hemh.104.2.4",
+   "question_type": "compute",
+   "question_pattern": "If {percentage} percent of a group of people represents {sector_value} individuals, find the total number of people in the group.",
+   "extracted_variables": {
+    "percentage": 10,
+    "sector_value": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value corresponding to one percent.",
+     "explain": "Divide the sector value by its percentage to find the value of 1 percent.",
+     "compute": "unit_value = sector_value / percentage"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to find the total value.",
+     "explain": "Multiply the unit value by 100 to get the 100 percent total value.",
+     "compute": "total = unit_value * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_4_2",
+   "source_ref": "hemh104.txt lines 140-150",
+   "concept": "hemh.104.2.4",
+   "question_type": "compute",
+   "question_pattern": "If a family saves {sector_value} rupees which is {percentage} percent of their total monthly income, calculate their total monthly income.",
+   "extracted_variables": {
+    "percentage": 15,
+    "sector_value": 3000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value corresponding to one percent.",
+     "explain": "Divide the sector value by its percentage to find the value of 1 percent.",
+     "compute": "unit_value = sector_value / percentage"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to find the total value.",
+     "explain": "Multiply the unit value by 100 to get the 100 percent total value.",
+     "compute": "total = unit_value * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_5_1",
+   "source_ref": "hemh104.txt lines 140-155",
+   "concept": "hemh.104.2.5",
+   "question_type": "compute",
+   "question_pattern": "If the monthly savings of a family is {ref_value} rupees which is {ref_percent} percent, what is the monthly expenditure on clothes which is {target_percent} percent?",
+   "extracted_variables": {
+    "ref_percent": 15,
+    "ref_value": 3000,
+    "target_percent": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value of 1 percent.",
+     "explain": "Divide the reference value by the reference percentage.",
+     "compute": "unit_value = ref_value / ref_percent"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the unit value by the target percentage to get the target value.",
+     "explain": "Multiply the value of 1 percent by the target percentage.",
+     "compute": "target_value = unit_value * target_percent"
+    }
+   ]
+  },
+  {
+   "id": "ex_104_2_5_2",
+   "source_ref": "hemh104.txt lines 140-155",
+   "concept": "hemh.104.2.5",
+   "question_type": "compute",
+   "question_pattern": "If {ref_percent} percent represents {ref_value} units, find the value of a sector representing {target_percent} percent.",
+   "extracted_variables": {
+    "ref_percent": 20,
+    "ref_value": 400,
+    "target_percent": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value of 1 percent.",
+     "explain": "Divide the reference value by the reference percentage.",
+     "compute": "unit_value = ref_value / ref_percent"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the unit value by the target percentage to get the target value.",
+     "explain": "Multiply the value of 1 percent by the target percentage.",
+     "compute": "target_value = unit_value * target_percent"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hemh104.txt lines 200-250",
+   "questions": [
+    "A survey was made to find the type of music that a certain group of young people liked in a city. If 20 people liked classical music, how many young people were surveyed?",
+    "A group of 360 people were asked to vote for their favourite season from the three seasons rainy, winter and summer. Find the central angle of each sector.",
+    "Draw a pie chart showing the colours preferred by a group of 36 people (Blue: 18, Green: 9, Red: 6, Yellow: 3).",
+    "The adjoining pie chart gives the marks scored in an examination by a student (total marks 540). In which subject did the student score 105 marks?",
+    "The number of students in a hostel speaking different languages is given (Hindi: 40, English: 12, Marathi: 9, Tamil: 7, Bengali: 4, Total: 72). Display the data in a pie chart."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hemh104.txt lines 380-410",
+   "questions": [
+    "List the outcomes you can see in spinning a wheel and tossing two coins together.",
+    "When a die is thrown, list the outcomes of getting a prime number, not a prime number, a number greater than 5, and a number not greater than 5.",
+    "Find the probability of the pointer stopping on D, getting an ace from a well-shuffled deck of 52 cards, and getting a red apple.",
+    "Numbers 1 to 10 are written on ten separate slips. Find the probability of getting a number 6, getting a number less than 6, getting a number greater than 6, and getting a 1-digit number.",
+    "If you have a spinning wheel with 3 green sectors, 1 blue sector and 1 red sector, what is the probability of getting a green sector? What is the probability of getting a non-blue sector?",
+    "Find the probabilities of the events given in Question 2 when a die is thrown."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

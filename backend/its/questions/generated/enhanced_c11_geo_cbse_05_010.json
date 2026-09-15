@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_010",
+   "title": "c11_geo_cbse_05_010",
+   "questions": [
+    {
+     "q": "Name the parent rock for each: slate, marble, quartzite, gneiss. State whether each product is foliated or non-foliated.",
+     "a": "Slate → shale (foliated); Marble → limestone or dolomite (non-foliated); Quartzite → quartz sandstone (non-foliated); Gneiss → granite or shale (foliated, banded). A wrong answer (e.g., saying marble is foliated or quartzite from limestone) reveals confusion between composition-driven and texture-driven classification, or inability to link parent rock chemistry to product mineralogy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why slate splits into thin sheets while marble does not, even though both form under metamorphic conditions.",
+     "a": "Slate forms from shale under directed pressure at low grade; platy clay minerals recrystallize into parallel-aligned chlorite and muscovite, creating slaty cleavage. Marble forms from limestone under uniform pressure or contact metamorphism; calcite crystals grow equidimensional with no preferred orientation, so no foliation develops. A wrong answer attributing the difference solely to \"hardness\" or \"mineral type\" misses the critical role of stress geometry (directed vs. hydrostatic) in foliation development.",
+     "self_check": true
+    },
+    {
+     "q": "A hand specimen shows alternating light (quartz-feldspar) and dark (biotite-amphibole) bands, 2–5 mm thick, with coarse interlocking grains. Identify the rock, its likely parent, and the metamorphic grade. Justify each inference.",
+     "a": "Rock: Gneiss. Parent: Granite (if light bands dominate) or shale (if compositional layering reflects original bedding). Grade: High-grade (upper amphibolite to granulite facies). Justification: Banding = gneissic foliation from mineral segregation at high T/P; coarse grains = slow growth at high temperature; dark/light separation = diffusion-driven mineral sorting. A wrong answer calling it \"schist\" ignores the coarse banding and grain size; calling parent \"sandstone\" ignores the feldspar-rich light bands.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metamorphic pathways: shale → slate → phyllite → schist → gneiss versus limestone → marble. Why does the first sequence show progressive foliation changes while the second does not?",
+     "a": "Shale contains platy clay minerals that progressively align and recrystallize into larger micas (chlorite → muscovite → biotite) under increasing directed pressure, producing slaty cleavage → phyllitic sheen → schistosity → gneissic banding. Limestone contains equant calcite; under any pressure regime, calcite recrystallizes into interlocking equant grains without shape-preferred orientation, so foliation never develops — only grain size increases. A wrong answer claiming \"marble forms at low grade only\" or \"shale has more minerals\" misses the mineral-shape control on foliation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Quartzite is simply a harder version of sandstone; the distinction is arbitrary and has no geological significance.\" Support your evaluation with textural and structural evidence.",
+     "a": "The statement is false. Sandstone has clastic texture: detrital grains with pore space and cement (silica, calcite, iron oxide). Quartzite has crystalline texture: original grains and cement recrystallize into an interlocking mosaic of quartz crystals; grain boundaries are sutured, not cemented; primary sedimentary structures (cross-bedding, ripple marks) are often obliterated. This reflects a fundamental process change: diagenesis (cementation) vs. metamorphism (recrystallization). A wrong answer focusing only on hardness (both scratch glass) confuses physical property with genetic process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field-mapping key for a geologist surveying a terrain with interlayered slate, marble, quartzite, and gneiss. Include four diagnostic field criteria per rock that distinguish them without laboratory tools.",
+     "a": "Slate: (1) rings when struck, (2) splits into thin, smooth sheets, (3) dull lustre on cleavage, (4) very fine-grained, dark grey–black. Marble: (1) effervesces with dilute HCl, (2) sugary/granular feel, (3) no foliation, (4) typically white/pink/grey, calcite veins common. Quartzite: (1) breaks across grains (not around), (2) conchoidal fracture, (3) glassy lustre, (4) very hard (scratches glass), often white/pink. Gneiss: (1) distinct light/dark bands >1 mm, (2) coarse visible feldspar/quartz/biotite, (3) banding folded/warped, (4) does not split evenly. A poor key uses only colour or hardness, failing to separate marble from quartzite (both hard, light) or slate from phyllite (both fine, foliated).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

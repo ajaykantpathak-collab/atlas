@@ -1,0 +1,227 @@
+---
+- formula_id: DRM_MATH_RULE_001
+  name: gst_rate_from_cgst
+  latex: 2 \cdot CGST \cdot 100 / MP
+  variables:
+  - symbol: CGST
+    name: CGST
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: MP
+    name: MP
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - gst_rate_from_cgst
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: rate
+  explanation: 'GST rate: CGST = (rate/2)% × MP → rate = 2 × CGST × 100 / MP'
+- formula_id: DRM_MATH_RULE_002
+  name: investment_shares
+  latex: num_shares \cdot FV \cdot (100 - discount) / 100
+  variables:
+  - symbol: num_shares
+    name: num_shares
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: FV
+    name: FV
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: discount
+    name: discount
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - investment_shares
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: investment
+  explanation: 'Investment = number of shares × market value. At 20% discount: MV
+    = 80% of FV'
+- formula_id: DRM_MATH_RULE_003
+  name: quadratic_equal_roots_condition
+  latex: q^2 = 4\cdotp\cdotr
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - quadratic_equal_roots_condition
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: relationship
+  explanation: 'For px² - qx + r = 0 with equal roots: discriminant D = q² - 4pr =
+    0. Therefore q² = 4pr'
+- formula_id: DRM_MATH_RULE_004
+  name: polynomial_remainder_theorem
+  latex: 3^3 + 1\cdot3^2 - 2\cdot3 + 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - polynomial_remainder_theorem
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: remainder
+  explanation: 'Remainder theorem: f(a) gives the remainder when f(x) is divided by
+    (x-a). For f(x) = 3x³+x²-2x+1 and (x-3): f(3) = 27+9-6+1 = 31'
+- formula_id: DRM_MATH_RULE_005
+  name: ap_7th_term_symbolic
+  latex: 1/a + 6
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - ap_7th_term_symbolic
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: an
+  explanation: 'AP: 1/a, (1/a+1), (1/a+2)... First term a₁=1/a, common difference
+    d=1. 7th term = 1/a + (7-1)×1 = 1/a + 6'
+- formula_id: DRM_MATH_RULE_006
+  name: ap_nth_term
+  latex: a + (n - 1) \cdot d
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - ap_nth_term
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: an
+  explanation: 'nth term of AP: aₙ = a + (n-1)d'
+- formula_id: DRM_MATH_RULE_007
+  name: time_from_speed_distance
+  latex: d2 / (d1 / t1)
+  variables:
+  - symbol: d2
+    name: d2
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: d1
+    name: d1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: t1
+    name: t1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - time_from_speed_distance
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: t
+  explanation: First find speed = distance₁/time₁, then time₂ = distance₂/speed
+- formula_id: DRM_MATH_RULE_008
+  name: probability_even_die
+  latex: Rational(3, 6)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - probability_even_die
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: prob
+  explanation: 'A die has 6 outcomes {1,2,3,4,5,6}. Even numbers: {2,4,6} = 3 outcomes.
+    P(even) = 3/6 = 1/2'
+- formula_id: DRM_MATH_RULE_009
+  name: median_find_x
+  latex: (2 \cdot 61 - 4) / 2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - median_find_x
+  related_formulas: []
+  source: dream_app/reasoning_rules_math.py
+  unknown: x
+  explanation: For 10 observations, median = (5th + 6th)/2 = (x + (x+4))/2 = 61. So
+    2x+4 = 122, x = 59

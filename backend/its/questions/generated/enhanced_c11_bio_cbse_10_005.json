@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_005",
+   "title": "c11_bio_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the chromosome number and DNA content in daughter cells immediately after mitosis if the parent cell was diploid (2n) with 2C DNA content at G1.",
+     "a": "Correct answer: Daughter cells are diploid (2n) with 2C DNA content. A wrong answer (e.g., 4C DNA or n chromosomes) reveals the student confuses mitosis with meiosis or misunderstands that DNA content halves only after cytokinesis completes, not during karyokinesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a growing root tip cell must undergo mitosis after its cytoplasm expands during G1 and G2 phases.",
+     "a": "Correct answer: Cytoplasmic expansion increases the nucleo-cytoplasmic ratio beyond the optimal limit for nuclear control of metabolism; mitosis restores this ratio by dividing the nucleus and cytoplasm proportionally. A wrong answer focusing only on \"growth\" or \"DNA replication\" reveals the student misses the homeostatic principle of nucleo-cytoplasmic balance.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that the sugarcane crop in his field regrows after harvesting the upper stalks. Identify the specific plant tissue and mitotic property enabling this regeneration.",
+     "a": "Correct answer: Intercalary meristem at the nodes; mitosis in these retained meristematic cells allows continuous longitudinal growth. A wrong answer naming apical meristem or cambium reveals confusion between primary growth (apical), secondary growth (lateral), and regrowth from nodes (intercalary).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of mitosis in human skin epithelium versus honeybee drone (male) development. What fundamental difference in ploidy exists?",
+     "a": "Correct answer: Human skin mitosis occurs in diploid somatic cells (2n → 2n); honeybee drone develops from unfertilized haploid egg, so its somatic cells are haploid (n) and divide by mitosis (n → n). A wrong answer stating both are diploid reveals the misconception that mitosis only occurs in diploid cells.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mitosis alone is sufficient for the long-term survival of a multicellular species.\" Justify your answer.",
+     "a": "Correct answer: False. Mitosis enables growth and repair within an individual's lifetime, but without meiosis and sexual reproduction, there is no genetic variation for adaptation, no gamete formation, and no species continuity across generations. A wrong answer agreeing reveals confusion between individual maintenance and species survival.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips to demonstrate that mitosis is restricted to specific regions of a plant.",
+     "a": "Expected answer: Stain root tips with acetocarmine, squash, and observe under microscope. Count mitotic indices in 1 mm zones from tip upward. High index in apical 2-3 mm (meristem), near zero in mature zones. Poor answer: only staining without zonal comparison, revealing failure to link mitosis to spatial localization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

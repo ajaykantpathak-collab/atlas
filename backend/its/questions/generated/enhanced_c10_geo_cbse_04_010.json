@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_010",
+   "title": "c10_geo_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the approximate current share of agriculture and allied sectors in India's Gross Domestic Product (GDP) and what percentage of the total workforce does it employ, according to the latest Economic Survey data used in Class 10 textbooks?",
+     "a": "Correct answer: Agriculture and allied sectors contribute approximately **18% to GDP** and employ approximately **42-44% of the total workforce** (Economic Survey 2022-23 figures used in current NCERT). A wrong answer (e.g., \"50% GDP share\" or \"20% workforce\") reveals the student is using outdated data (pre-2000 figures) or confusing GDP share with employment share — a critical distinction because the *gap* between the two (18% vs 42%) is the central analytical point for this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why agriculture's share in GDP has declined steadily from over 50% at Independence to ~18% today, while its share in employment has fallen much more slowly (from ~70% to ~42%). What does this divergence imply about labour productivity in agriculture compared to industry and services?",
+     "a": "Correct answer: GDP share fell because industry and services grew faster in *value added* (higher productivity per worker). Employment share fell slowly because the workforce could not shift out of agriculture fast enough — due to lack of non-farm jobs, low skill levels, and land fragmentation. This implies **labour productivity in agriculture is far lower than in industry/services** (output per worker in agriculture is roughly 1/4th of non-agriculture). A wrong answer that says \"agriculture became less important\" misses the structural transformation trap: low productivity traps workers in low-income farming, which is the core policy challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the **approximate ratio of labour productivity (output per worker) in non-agriculture sectors to agriculture** and interpret the result.\n- Agriculture GDP share: 18%, Workforce share: 42%\n- Non-agriculture GDP share: 82%, Workforce share: 58%\n(Assume total GDP = ₹100 lakh crore, total workforce = 50 crore for simplicity.)",
+     "a": "**Steps:**\n1. Agriculture GDP = 18% of ₹100L cr = ₹18L cr; Agriculture workers = 42% of 50 cr = 21 cr.\n2. Agri productivity = ₹18L cr / 21 cr = **₹0.857 lakh per worker**.\n3. Non-agri GDP = ₹82L cr; Non-agri workers = 58% of 50 cr = 29 cr.\n4. Non-agri productivity = ₹82L cr / 29 cr = **₹2.827 lakh per worker**.\n5. Ratio = 2.827 / 0.857 ≈ **3.3**.\n**Interpretation:** A non-agriculture worker produces ~3.3 times more value than an agriculture worker. This massive productivity gap explains rural poverty and the urgency of creating non-farm jobs. A wrong calculation (e.g., using shares directly without converting to per-worker terms) shows the student cannot translate macro shares into micro productivity — a skill tested in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of **food grains (rice, wheat)** versus **high-value crops (fruits, vegetables, spices, cotton)** in driving agriculture's GDP contribution versus employment generation. Use the concept of \"value per hectare\" and \"labour intensity\" to explain why a shift to high-value crops can raise GDP share without proportionally increasing employment.",
+     "a": "Correct analysis: Food grains (rice/wheat) dominate *area* and *employment* (labour-intensive, low value/hectare). High-value crops (horticulture, cotton, spices) have **higher value per hectare** but **lower labour intensity per unit of output** (more capital/technology, seasonal labour). Shifting area to high-value crops raises GDP share (more value from same land) but does not absorb the surplus labour — it may even reduce employment per hectare. A wrong answer that says \"high-value crops create more jobs\" confuses *total value* with *labour absorption*; board examiners look for the distinction between **land productivity** (kg/ha or ₹/ha) and **labour productivity** (₹/worker).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since agriculture contributes only 18% to GDP, the government should reduce budget allocation for agriculture and invest more in manufacturing and services to maximize economic growth.\" Evaluate using the concepts of **food security**, **wage goods**, **industrial raw materials**, and **demand generation** for non-farm sectors.",
+     "a": "**Critique:** The statement is **economically flawed** for four reasons:\n1. **Food security:** 18% GDP feeds 100% population; import dependence risks sovereignty and price shocks.\n2. **Wage goods:** Cheap food keeps industrial wages low — if food prices rise, industrial competitiveness falls.\n3. **Raw materials:** Cotton, jute, sugarcane, oilseeds are *direct inputs* for textiles, sugar, edible oil industries (agro-based industries employ millions).\n4. **Demand linkage:** 42% workforce spends income on manufactured goods (cycles, phones, cement) — agrarian distress collapses rural demand for industrial products.\n**Board exam key:** Students must link *sectoral interdependence* (primary → secondary → tertiary) rather than treating sectors in isolation. A wrong answer focusing only on GDP maximization ignores the **multiplier effect** of agriculture on the whole economy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **two-pronged policy framework** to simultaneously: (a) raise agriculture's GDP share by 2 percentage points in 5 years, and (b) reduce agriculture's workforce share by 3 percentage points in the same period. Specify one supply-side and one demand-side measure for each goal, with geographical targeting (name specific regions/crop zones).",
+     "a": "**Expected framework (illustrative):**\n- **Goal (a) Raise GDP share:**  \n  *Supply-side:* Promote **horticulture clusters in Maharashtra (Nashik grapes), Karnataka (Kolar mangoes), Himachal (apples)** via cold chains and FPOs — high value/ha raises output.  \n  *Demand-side:* **Export-oriented processing zones** for spices (Kerala), marine products (Andhra), basmati (Punjab/Haryana) — higher value realization per tonne.\n- **Goal (b) Reduce workforce share:**  \n  *Supply-side:* **Mechanization + skill training** in Green Revolution belt (Punjab, Haryana, Western UP) to release family labour.  \n  *Demand-side:* **Rural non-farm employment** via MSME clusters (textiles in Tamil Nadu, food processing in Punjab, agro-equipment in Rajasthan) absorbing released labour locally.\n**Poor answer indicator:** Generic \"increase investment\" without *crop-specific, region-specific, mechanism-specific* measures. Board case-study questions require **spatial precision** (naming belts/zones) and **instrument precision** (naming schemes like PMKSY, PMFBY, AIF).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

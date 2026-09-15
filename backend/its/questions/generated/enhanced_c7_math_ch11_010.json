@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_010",
+   "title": "c7_math_ch11_010",
+   "questions": [
+    {
+     "q": "A school bell rings every 30 minutes and a bus leaves the gate every 45 minutes. Both just rang and left together right now. Which mathematical concept should you use to find out when they will ring and leave together again?",
+     "a": "The correct concept is Least Common Multiple (LCM). A student who answers \"HCF\" is confusing the concept of splitting items equally with the concept of recurring future events synchronizing, which requires finding a shared multiple.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why finding the greatest number of students who can equally share 48 notebooks and 60 pens requires finding the HCF, and why the answer cannot be greater than 48.",
+     "a": "HCF stands for Highest Common Factor, meaning it is a factor of both 48 and 60 that divides both numbers without leaving a remainder. Since a factor of a number must be less than or equal to that number itself, the shared factor cannot exceed 48. A student who suggests LCM misunderstands that grouping items into smaller shares requires divisors, not multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Three alarm clocks ring at intervals of 10, 15, and 20 minutes respectively. If they all ring together at 8:00 AM, at what time will they next ring together?",
+     "a": "To find when they ring together, we calculate the LCM of 10, 15, and 20. \nStep 1: Prime factorisation of 10 = 2 × 5.\nStep 2: Prime factorisation of 15 = 3 × 5.\nStep 3: Prime factorisation of 20 = 2^2 × 5.\nStep 4: LCM = highest power of each prime = 2^2 × 3 × 5 = 4 × 3 × 5 = 60 minutes.\nStep 5: Convert 60 minutes to 1 hour. Adding 1 hour to 8:00 AM gives 9:00 AM. \nA student who gets 5 minutes added the numbers (10+15+20=45) or confused HCF with LCM, showing they do not understand that recurring future events require multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two problems: Problem A asks for the maximum number of gift hampers made from 72 apples and 90 oranges. Problem B asks for the minimum number of fruits needed to make baskets containing 72 or 90 fruits each. Why does Problem A use HCF while Problem B uses LCM?",
+     "a": "Problem A asks us to divide existing quantities into smaller equal groups, making HCF appropriate because factors divide into a number. Problem B asks us to build up to a larger total quantity that is a multiple of both 72 and 90, making LCM appropriate. A student who treats both as LCM problems fails to distinguish between partitioning (HCF) and accumulating (LCM).",
+     "self_check": true
+    },
+    {
+     "q": "Rohan says that to find the longest tape that can measure 36 cm, 54 cm, and 90 cm exact lengths, he needs to find the LCM of these three numbers. Is Rohan correct? Justify your answer.",
+     "a": "Rohan is incorrect. A measuring tape that measures these lengths must be a common factor of 36, 54, and 90, and since we want the *longest* tape, we must find the Highest Common Factor (HCF), not the LCM. A student who says Rohan is correct is confusing the search for a common measuring unit (which must divide the lengths) with a common future event (which multiplies the intervals).",
+     "self_check": true
+    },
+    {
+     "q": "Create a short real-world word problem where the solution requires finding the LCM of 12 and 18, and state the final answer.",
+     "a": "Example answer: Two runners run around a circular track; the first completes a round in 12 minutes and the second in 18 minutes. If they start together, after how many minutes will they meet again at the starting point? Answer: LCM of 12 and 18 is 36 minutes. A poor answer would give numbers that don't match the required LCM calculation or describe a partitioning scenario instead of a recurring cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

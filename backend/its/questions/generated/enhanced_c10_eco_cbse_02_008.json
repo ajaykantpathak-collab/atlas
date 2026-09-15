@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_008",
+   "title": "c10_eco_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define disguised unemployment and state the condition of Marginal Product of Labour (MPL) that characterises it.",
+     "a": "Disguised unemployment is a situation where more workers are engaged in production than necessary, such that the Marginal Product of Labour (MPL) is zero or negative — removing the extra workers does not reduce total output. A wrong answer (e.g., \"MPL is positive but low\" or \"workers are temporarily jobless\") reveals confusion with underemployment or open unemployment; the student has not grasped that disguised unemployment means zero marginal contribution despite apparent employment.",
+     "self_check": true
+    },
+    {
+     "q": "A family of six works on a 1.5-hectare wheat farm in Punjab. If four members leave for city jobs and the remaining two produce the same 30 quintals of wheat as before, explain why this proves disguised unemployment existed. Use the concept of Marginal Product of Labour.",
+     "a": "Since total output (30 quintals) remained unchanged after four workers left, the Marginal Product of those four workers was zero — they added nothing to production. This confirms disguised unemployment: they were \"employed\" but contributed zero marginal output. A wrong answer focusing on \"total product fell\" or \"average product changed\" shows the student confuses marginal with average product or misunderstands that disguised unemployment is defined by MPL = 0, not by output changes.",
+     "self_check": true
+    },
+    {
+     "q": "In a village, 50 families cultivate 100 hectares of land. Each family has 5 working members. Agricultural experts estimate that 2 workers per hectare are sufficient for optimal cultivation. Calculate the number of disguisedly unemployed workers in the village. Show all steps.",
+     "a": "Step 1: Total workers = 50 families × 5 workers = 250 workers.\nStep 2: Optimal workers needed = 100 hectares × 2 workers/hectare = 200 workers.\nStep 3: Disguisedly unemployed = Total workers – Optimal workers = 250 – 200 = 50 workers.\nStep 4: These 50 workers have MPL = 0; removing them would not reduce output.\nA wrong answer (e.g., 250 or 100) reveals the student cannot translate \"optimal workers per hectare\" into a marginal productivity calculation — they treat all workers as necessary, missing the core concept of surplus labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare disguised unemployment in a small retail shop (service sector) with that in a family farm (agriculture). Identify two similarities and one key difference in how marginal productivity of labour becomes zero in each.",
+     "a": "Similarities: (1) In both, more workers are present than needed for current output level; (2) MPL = 0 for the surplus workers — removing them doesn't reduce sales (shop) or harvest (farm). Difference: On the farm, surplus labour arises from land fixation (limited land, growing family) — a supply-side demographic pressure; in the shop, it often stems from low labour cost and lack of productivity monitoring — a demand-side hiring choice. A wrong answer listing \"seasonal vs permanent\" confuses disguised with seasonal unemployment; the student hasn't analysed the structural cause of MPL = 0 in each sector.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Disguised unemployment in Indian agriculture is beneficial because it provides social security to rural families — they share work and income.\" Argue for or against using economic reasoning about resource allocation and marginal productivity.",
+     "a": "Against. While it provides informal social insurance, disguised unemployment wastes scarce labour resources — 50 million+ workers (NSSO estimates) with MPL = 0 could be employed in manufacturing, construction, or services where MPL > 0, raising national GDP and wages. The opportunity cost is foregone output and perpetuated rural poverty. A wrong answer agreeing without qualification shows the student cannot apply opportunity cost (Class 9, c9_eco_ch1_3) or see disguised unemployment as allocative inefficiency, not just a social arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple survey questionnaire (5 questions) that a village panchayat could use to identify disguised unemployment among farming households. Each question must target a specific indicator of zero marginal productivity.",
+     "a": "Good answer includes questions like: (1) \"If two family members left for city jobs, would your farm output decrease?\" (tests MPL directly); (2) \"How many hours does each member actually work on the farm daily?\" (reveals underutilisation); (3) \"Do you hire outside labour during peak season?\" (if yes, family labour may be surplus in lean season); (4) \"What is your landholding size and number of working adults?\" (land-labour ratio indicator); (5) \"Would you accept non-farm work if available locally?\" (willingness to redeploy surplus labour). A poor answer asks only about income or job satisfaction, missing the marginal productivity test — the student doesn't grasp the operational definition of disguised unemployment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

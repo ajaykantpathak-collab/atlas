@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_23_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_23_014",
+   "title": "c11_eng_w_cbse_23_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure in analytical writing, and what does each letter stand for?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. Point: the main claim of the paragraph. Evidence: a direct quote or close paraphrase from the text. Explanation: analysis of how the evidence supports the point. Link: a sentence connecting the paragraph back to the thesis or forward to the next idea. A wrong answer (e.g., \"Point, Example, Explanation, Conclusion\") reveals the student confuses PEEL with other acronyms and may not understand the specific role of 'Link' in maintaining essay cohesion.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, Chandrasekhar quotes Wordsworth's \"We murder to dissect.\" Explain in your own words what this line suggests about the poet's attitude toward science.",
+     "a": "The line suggests Wordsworth believes scientific analysis destroys the natural beauty and mystery of the world by reducing living things to dead specimens. A wrong answer that says \"Wordsworth hates science\" oversimplifies; the nuance is that he objects to a *reductive* intellect that \"misshapes the beauteous forms,\" not science per se. This misconception shows the student cannot distinguish between opposition to a method and opposition to a field.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL paragraph arguing that Shelley's attitude to science differs from Wordsworth's, using the Cloud poem as evidence.",
+     "a": "Point: Shelley embraces science as a source of poetic inspiration, unlike Wordsworth. Evidence: In \"The Cloud,\" Shelley fuses \"a creative myth, a scientific monograph, and a gay picaresque tale\" and describes the water cycle with lines like \"I pass through the pores of the ocean and the shores.\" Explanation: The poem uses accurate meteorological imagery (evaporation, condensation) not to dissect but to celebrate the cloud's immortality, showing science and myth as partners. Link: This fusion illustrates Chandrasekhar's claim that Shelley is \"a scientist's poet\" who finds \"joy, peace, and illumination\" in science. A weak answer might only quote the poem without explaining the *fusion* of genres, missing the analytical depth required.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Darwin's confession of losing his taste for poetry with Faraday's response to Gladstone (\"you will soon be able to tax it\"). What do these two anecdotes collectively reveal about the patterns of creativity in scientists?",
+     "a": "Darwin shows a pattern where intense scientific specialization atrophies aesthetic sensibility (\"my mind seems to have become a kind of machine for grinding general laws\"), while Faraday demonstrates a pattern where scientific imagination remains playful and socially engaged (his wit about taxation). Together they reveal that scientific creativity is not monolithic: it can either narrow or expand the practitioner's humanity. A wrong answer that merely summarizes each anecdote separately fails to *compare* them and miss the chapter's central argument about divergent patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Chandrasekhar proves that poetry and science are mutually sustaining endeavours.\" Use evidence from the text to justify your evaluation.",
+     "a": "The statement is not fully supported. Chandrasekhar *quotes* Lowes Dickinson (\"When Science arrives, it expels Literature\") and Peter Medawar's counter (\"when literature arrives, it expels science\"), then says \"it is simply no good pretending that science and literature represent complementary and mutually sustaining endeavours.\" He later quotes Shelley's *Defence of Poetry* which *argues* for their unity, but Chandrasekhar himself ends by asking why no scientist has written a Defence of Science, implying the gap persists. A student who agrees without noting Chandrasekhar's skepticism shows an inability to distinguish between a speaker's citation of a view and the speaker's own conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a thesis statement for an essay on: \"Examine how Chandrasekhar uses the figures of Wordsworth, Keats, and Shelley to map the shifting relationship between poetry and science in the early 19th century.\"",
+     "a": "A strong thesis: \"Chandrasekhar positions Wordsworth and Keats as emblems of Romantic resistance to scientific reductionism, while deploying Shelley as a counter-model who integrates scientific precision into poetic myth, thereby tracing a trajectory from alienation to synthesis in the early 19th-century imagination.\" A weak thesis (\"Chandrasekhar talks about three poets and their views on science\") is merely descriptive and lacks an analytical claim about *how* the figures function in his argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

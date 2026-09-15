@@ -1,0 +1,381 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 5,
+ "chapter_title": "Getting Started with Python",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs105.1",
+   "title": "Splitting Numbers with Floor Division and Modulus",
+   "section": "5.8.1",
+   "definition": "Floor division (//) keeps only the whole part of a quotient, while modulus (%) keeps only the remainder; together they split a number into its digits, since the last digit is the remainder on division by 10 and the rest is the floor quotient.",
+   "formula": "last_digit = number % 10",
+   "key_idea": "Dividing by 10 with // drops the final digit, and taking % 10 keeps it.",
+   "textbook_ref": "kecs105.txt, section 5.8.1 and Table 5.3",
+   "question_patterns": [
+    "What do the expressions 13 // 4 and 13 % 4 evaluate to in Python?",
+    "Split the number 347 into its last digit and its remaining leading digits using // and %.",
+    "A number 86 ends in which digit, and what remains after that digit is removed?",
+    "Explain the difference between the / operator and the // operator with one example of each.",
+    "Find the sum of the last two digits of 275 using modulus and floor division.",
+    "The exponent operator is applied as 3 ** 4. What value does Python print?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "peel off the units digit",
+     "explain": "The remainder on division by 10 is the units digit.",
+     "compute": "ones_digit = number % 10"
+    },
+    {
+     "step": 2,
+     "action": "drop the units digit",
+     "explain": "Floor division by 10 removes the units digit.",
+     "compute": "leading_part = number // 10"
+    },
+    {
+     "step": 3,
+     "action": "add the tens and units digits",
+     "explain": "The new last digit of the leading part is the tens digit.",
+     "compute": "two_digit_total = leading_part % 10 + ones_digit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Using the modulus operator, what is the last digit of 374?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.2",
+   "title": "Operator Precedence in Expressions",
+   "section": "5.9.1",
+   "definition": "Python evaluates an expression by applying operators in order of precedence: exponentiation first, then unary signs, then multiply-divide-modulus, then add-subtract, with equal-precedence operators working left to right and parentheses overriding everything.",
+   "formula": "value = a + b * c",
+   "key_idea": "Parentheses beat every rule, so adding them is how you force a different evaluation order.",
+   "textbook_ref": "kecs105.txt, section 5.9.1, Table 5.9 and Examples 5.9 to 5.12",
+   "question_patterns": [
+    "Evaluate 20 + 30 * 40 the way Python does, showing each step.",
+    "Why do 20 - 30 + 40 and its left-to-right evaluation give 30?",
+    "Insert parentheses in (20 + 30) * 40 reasoning: which value results and why does it differ from 20 + 30 * 40?",
+    "Evaluate 15.0 / 4 + (8 + 3.0) step by step.",
+    "Which operator acts first in 2 + 9 * ((3 * 12) - 8) / 10?",
+    "Evaluate 24 // 4 // 2 and justify the order used."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the higher-precedence multiplication",
+     "explain": "Multiplication binds tighter than addition.",
+     "compute": "prod = b * c"
+    },
+    {
+     "step": 2,
+     "action": "apply the addition",
+     "explain": "The addition runs last and produces the final value.",
+     "compute": "value = a + prod"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does Python evaluate 2 + 3 * 4 to?",
+     "a": "14"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.3",
+   "title": "Logical Errors and Debugging",
+   "section": "5.13.2",
+   "definition": "A logical (semantic) error lets a program run to completion but prints wrong results, unlike a syntax error which stops execution and a runtime error which aborts a running program, for example division by zero.",
+   "formula": "right_avg = (first + second) / 2",
+   "key_idea": "The only clue to a logical error is output that looks plausible but is wrong, so work backwards from the result.",
+   "textbook_ref": "kecs105.txt, sections 5.13.1 to 5.13.3",
+   "question_patterns": [
+    "The code 10 + 12/2 was meant to average 10 and 12. What does it print, and why is it wrong?",
+    "Classify these as syntax, logical or runtime errors: dividing by zero, a missing closing bracket, adding instead of averaging.",
+    "How does a logical error differ from a syntax error?",
+    "The average of two numbers 10 and 12 should be 11. Correct the faulty expression and give the right value.",
+    "Why can a program with a logical error be harder to catch than one with a syntax error?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "reproduce the faulty result",
+     "explain": "Without brackets, only the second number is halved first.",
+     "compute": "wrong_calc = first + second / 2"
+    },
+    {
+     "step": 2,
+     "action": "compute the intended average",
+     "explain": "Brackets force the sum before halving.",
+     "compute": "right_calc = (first + second) / 2"
+    },
+    {
+     "step": 3,
+     "action": "measure the discrepancy",
+     "explain": "The gap between the two results quantifies the bug.",
+     "compute": "gap = wrong_calc - right_calc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which error kind lets a program finish but print a wrong result: syntax, logical or runtime?",
+     "a": "logical error"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.4",
+   "title": "Simple Interest and Amount Payable",
+   "section": "5.11 and Exercise 11",
+   "definition": "Money lent at simple interest grows by principal times rate times years divided by 100, and the amount to repay is the principal plus that interest.",
+   "formula": "amount = principal + principal * rate * years / 100",
+   "key_idea": "Simple interest accrues on the original principal alone, never on accumulated interest.",
+   "textbook_ref": "kecs105.txt, Exercise 11",
+   "question_patterns": [
+    "Write a Python program that inputs principal, rate and time and prints the simple interest and the amount payable.",
+    "A loan of 5000 runs at 6 percent per annum for 2 years. Compute the simple interest.",
+    "For principal 8000 at 7.5 percent for 4 years, what amount is repaid?",
+    "Why does the formula divide by 100?",
+    "The simple interest on a sum at 5 percent for 3 years is 900. Find the principal."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the interest",
+     "explain": "Multiply principal, yearly rate and years, then scale by 100.",
+     "compute": "interest = principal * rate * years / 100"
+    },
+    {
+     "step": 2,
+     "action": "add the principal",
+     "explain": "The payable amount is principal plus interest.",
+     "compute": "amount = principal + interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Find the simple interest on Rs 8000 at 5 percent per year for 3 years, in rupees.",
+     "a": "1200"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.5",
+   "title": "Celsius to Fahrenheit Conversion",
+   "section": "Exercise 10",
+   "definition": "A Celsius temperature converts to Fahrenheit by scaling it by nine-fifths and shifting by 32 degrees; water boils at 100 C, which maps to 212 F, and freezes at 0 C, mapping to 32 F.",
+   "formula": "fahrenheit = celsius * 9 / 5 + 32",
+   "key_idea": "Multiply by 9/5 first, then add 32; reversing the order gives a wrong scale.",
+   "textbook_ref": "kecs105.txt, Exercise 10",
+   "question_patterns": [
+    "Convert 100 degrees Celsius to Fahrenheit using the formula T(F) = T(C) x 9/5 + 32.",
+    "What is 0 degrees Celsius on the Fahrenheit scale?",
+    "Write a Python program that reads a Celsius temperature and prints its Fahrenheit equivalent.",
+    "A thermometer reads 37 degrees Celsius. Express this in Fahrenheit.",
+    "Why is the offset 32 added only after multiplying by 9/5?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the Celsius value",
+     "explain": "Multiply by 9 to stretch the degree size.",
+     "compute": "scaled = celsius * 9"
+    },
+    {
+     "step": 2,
+     "action": "shift to the Fahrenheit zero",
+     "explain": "Divide by 5 and add the 32-degree offset.",
+     "compute": "fahrenheit = scaled / 5 + 32"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Convert 25 degrees Celsius to Fahrenheit.",
+     "a": "77"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.6",
+   "title": "Volume of a Sphere",
+   "section": "Exercise 18",
+   "definition": "A sphere of radius r fills four-thirds of pi times the cube of its radius, so the volume program cubes the radius with the ** operator and multiplies by 4/3 and pi.",
+   "formula": "volume = 4 / 3 * pi * radius ** 3",
+   "key_idea": "Exponentiation has the highest precedence, so radius ** 3 is evaluated before any multiplication.",
+   "textbook_ref": "kecs105.txt, Exercise 18",
+   "question_patterns": [
+    "Compute the volume of a sphere of radius 7 cm using 4/3 pi r cubed.",
+    "Write a Python expression that evaluates the volume of a sphere from its radius.",
+    "Find the volume of spheres with radii 12 cm and 16 cm.",
+    "Why does radius ** 3 need no brackets in the volume expression?",
+    "A sphere's volume is 288 pi cubic cm. Find its radius."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the radius",
+     "explain": "The ** operator raises the radius to the power 3.",
+     "compute": "cubed = radius ** 3"
+    },
+    {
+     "step": 2,
+     "action": "apply the four-thirds pi factor",
+     "explain": "Multiply the cube by 4, by pi, and divide by 3.",
+     "compute": "volume = 4 * pi * cubed / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What value does radius ** 3 compute when the radius is 2?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.7",
+   "title": "The String Trap of the input Function",
+   "section": "5.11 and 5.12",
+   "definition": "The input() function always hands back a string, so doubling a captured '2' with * repeats the text instead of doubling the number; explicit conversion with int() before multiplying gives the numeric answer.",
+   "formula": "true_double = int_value * 2",
+   "key_idea": "Everything typed at the keyboard arrives as text, so cast it with int() or float() before arithmetic.",
+   "textbook_ref": "kecs105.txt, sections 5.11, 5.12.1 and Programs 5-7 to 5-9",
+   "question_patterns": [
+    "A user types 2 and the program runs num1 = num1 * 2 on the raw input. What is printed and why?",
+    "Correct the doubling program so that entering 2 prints 4.",
+    "Why does '25' + '45' give '2545' while int('25') + int('45') gives 70?",
+    "Name the function that converts a string captured by input() into an integer.",
+    "What happens if int() is applied to a non-numeric string such as '3.14'?",
+    "Distinguish explicit conversion from implicit conversion (coercion) with one example of each."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "show what the string version prints",
+     "explain": "Repeating one digit twice forms a two-digit number with both digits equal.",
+     "compute": "string_look = digit * 10 + digit"
+    },
+    {
+     "step": 2,
+     "action": "show the numeric double",
+     "explain": "After int() conversion, multiplication doubles the value.",
+     "compute": "true_double = digit * 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which built-in function turns the string '2' into the number 2 before arithmetic?",
+     "a": "int()"
+    }
+   ]
+  },
+  {
+   "id": "kecs105.8",
+   "title": "Identifier Naming Rules and Keywords",
+   "section": "5.2 and 5.3",
+   "definition": "An identifier names a variable or function: it must start with a letter or underscore, may continue with letters, digits or underscores, cannot contain special symbols or spaces, and must never clash with a reserved keyword such as True or class.",
+   "formula": "valid(name) = starts with letter or _ and no keyword",
+   "key_idea": "Python is case-sensitive, so Total, total and TOTAL name three different variables.",
+   "textbook_ref": "kecs105.txt, sections 5.2 and 5.3, Tables 5.1",
+   "question_patterns": [
+    "Why are the names 1st_Room, Total Marks and Hundred$ invalid identifiers?",
+    "Is True a legal variable name in Python? Justify your answer.",
+    "Which characters may start an identifier, and which may follow it?",
+    "Rewrite the poor names a, b, c for three subject marks as meaningful identifiers.",
+    "Give two reasons why Serial_no. is rejected by the interpreter.",
+    "What does it mean to say Python is case-sensitive?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check each name against the rules",
+     "explain": "Reject names starting with a digit, containing spaces or special symbols, or matching a keyword from the reserved list."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which of these is a valid Python identifier: 2total, total2, or total 2?",
+     "a": "total2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs105.we1",
+   "title": "Step-by-step evaluation of 15.0 / 4 + (8 + 3.0)",
+   "concept_id": "kecs105.2",
+   "problem": "Evaluate the expression 15.0 / 4 + (8 + 3.0) exactly as the Python interpreter would.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "evaluate the bracketed sum",
+     "explain": "Parentheses claim the highest priority.",
+     "compute": "bracket = 8 + 3.0"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the division",
+     "explain": "Division outranks addition.",
+     "compute": "quotient = 15.0 / 4"
+    },
+    {
+     "step": 3,
+     "action": "add the two results",
+     "explain": "Addition runs last.",
+     "compute": "value = quotient + bracket"
+    }
+   ],
+   "answer_note": "The bracket gives 11.0, the division 3.75, and the expression evaluates to 14.75."
+  },
+  {
+   "id": "kecs105.we2",
+   "title": "Simple interest on a school fee loan",
+   "concept_id": "kecs105.4",
+   "problem": "A family borrows 5000 rupees at 6 percent per annum simple interest for 2 years. Find the interest and the amount payable.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "compute the interest",
+     "explain": "P x R x T divided by 100.",
+     "compute": "interest = 5000 * 6 * 2 / 100"
+    },
+    {
+     "step": 2,
+     "action": "add the principal",
+     "explain": "Amount equals principal plus interest.",
+     "compute": "amount = 5000 + interest"
+    }
+   ],
+   "answer_note": "The interest is 600 rupees, so 5600 rupees are payable."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs105.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 5 Exercise (items reworded)",
+   "questions": [
+    "Which of these are invalid identifiers and why: 1st_Room, Total Marks, Hundred$, total-Marks, _Percentage, True?",
+    "Give the output when num1 = 4, num2 = 3, num3 = 2 for: num1 += num2 + num3; num1 = num1 ** (num2 + num3); 24 // 4 // 2.",
+    "Categorise as syntax, logical or runtime error: 25 / 0 evaluated with a zero denominator; an averaging expression missing its brackets.",
+    "A dart strikes at coordinates (x, y) on a board of radius 10 centred at the origin. Write the Boolean expression that is True when the dart lands inside the board, and test it for (6, 6) and (7, 8).",
+    "Write a program that swaps two numbers using a third variable, and then another that swaps without one.",
+    "Write a program that repeats the string GOOD MORNING n times for a user-entered n.",
+    "Mass m converts to energy E = m c squared with c about 3 x 10^8 m/s. Write a program that reads m and prints E.",
+    "Give the output of print('Bye' == 'BYE') and print(10 != 9 and 20 >= 20) with reasons."
+   ]
+  }
+ ]
+}

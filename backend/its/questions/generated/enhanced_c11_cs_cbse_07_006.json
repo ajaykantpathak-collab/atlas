@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_006",
+   "title": "c11_cs_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ndef get_dimensions():\n    return (10, 20)\n\nlength, breadth = get_dimensions()\nprint(length, breadth)\n```",
+     "a": "The output is `10 20`. The function returns a tuple `(10, 20)`. The assignment `length, breadth = get_dimensions()` unpacks the tuple: `length` gets the first element (10) and `breadth` gets the second element (20). A wrong answer (e.g., printing the tuple `(10, 20)` or swapping the values) reveals that the student thinks the left side creates a tuple or does not understand positional matching.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a `ValueError`:\n```python\ncoordinates = (5, 10, 15)\nx, y = coordinates\n```",
+     "a": "The code raises `ValueError: too many values to unpack (expected 2)` because the tuple `coordinates` has three elements (5, 10, 15) but only two variables (`x`, `y`) are provided on the left. Tuple unpacking requires an exact match between the number of variables and the number of elements. A student who says \"it will assign 5 to x and 10 to y, ignoring 15\" misunderstands that Python enforces strict cardinality matching — it does not silently truncate or pad.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single statement to swap the values of two variables `a` and `b` without using a temporary variable. If `a = 25` and `b = 40` initially, what are their values after the swap?",
+     "a": "The statement is `a, b = b, a`. After execution, `a` becomes 40 and `b` becomes 25. The right side `b, a` creates a tuple `(40, 25)` which is then unpacked into `a` and `b` respectively. A student who writes `a = b; b = a` (which makes both 40) or uses a temporary variable has not internalized that the right-hand side is evaluated fully before any assignment occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this function that processes a list of (name, marks) tuples for students:\n```python\ndef process_results(data):\n    for name, marks in data:\n        if marks >= 33:\n            print(name, \"PASS\")\n        else:\n            print(name, \"FAIL\")\n\nstudents = [(\"Aman\", 45), (\"Priya\", 28), (\"Rohit\", 33)]\nprocess_results(students)\n```\nHow many times does the loop body execute, and what is printed for each iteration?",
+     "a": "The loop executes 3 times (once per tuple in the list).\nIteration 1: `name=\"Aman\", marks=45` → prints `Aman PASS`\nIteration 2: `name=\"Priya\", marks=28` → prints `Priya FAIL`\nIteration 3: `name=\"Rohit\", marks=33` → prints `Rohit PASS`\nA student who thinks the loop runs 6 times (once per element) or who cannot explain how `name, marks` maps to each inner tuple does not understand that `for` loop unpacking works identically to assignment unpacking — each iteration's item (a 2-tuple) is unpacked into the two loop variables.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following function to return the quotient and remainder of integer division:\n```python\ndef div_mod(a, b):\n    q = a // b\n    r = a % b\n    return q, r\n```\nThey call it as `result = div_mod(17, 5)` and then try `print(result[0], result[1])`. Another student calls it as `quot, rem = div_mod(17, 5)` and prints `quot, rem`. Both produce the same output `3 2`. Which approach is better and why? Justify your answer.",
+     "a": "The unpacking approach (`quot, rem = div_mod(17, 5)`) is better because it directly assigns meaningful names to the returned values, making the code self-documenting and avoiding index-based access which is error-prone and less readable. The first approach treats the return value as a tuple object requiring indexing (`result[0]`, `result[1]`), which obscures the semantic meaning. A student who says \"both are same\" misses the software engineering principle of meaningful naming and the risk of off-by-one errors with indices.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a function returns three values that are naturally grouped together, and write the function header with a docstring, the function call with unpacking, and a print statement that uses all three values in a formatted sentence.",
+     "a": "Example scenario: A railway ticket booking function returns `pnr_number`, `coach`, and `seat_number`.\n```python\ndef book_ticket(train_no, journey_date, passenger_name):\n    \"\"\"\n    Books a ticket and returns PNR, coach, and seat number.\n    Returns: tuple (pnr: str, coach: str, seat: int)\n    \"\"\"\n    # ... booking logic ...\n    return \"PNR123456\", \"S5\", 42\n\npnr, coach, seat = book_ticket(12951, \"2024-12-25\", \"Rahul Sharma\")\nprint(f\"Ticket confirmed: PNR {pnr}, Coach {coach}, Seat {seat}\")\n```\nA poor answer would use unrelated values (e.g., returning name, age, city for a ticket) or forget the docstring, showing inability to identify naturally grouped domain data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

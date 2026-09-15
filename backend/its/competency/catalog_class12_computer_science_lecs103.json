@@ -1,0 +1,344 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 3,
+ "chapter_title": "Stack",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs103.1",
+   "title": "Stack Size after Pushes and Pops",
+   "section": "3.2 and 3.3.1",
+   "definition": "A stack is a linear data structure that admits inserts and deletes at one end, the TOP, so it obeys LIFO: PUSH adds at the top, POP removes from the top, and the element stored last leaves first.",
+   "formula": "current_size = start_size + (pushes - pops)",
+   "key_idea": "Popping the glass numbered 2 from the pile of Figure 3.2 exposes the glass beneath it, never a middle one.",
+   "textbook_ref": "lecs103.txt, sections 3.2, 3.3.1 and Figure 3.2",
+   "question_patterns": [
+    "Starting from an empty stack, 4 pushes are followed by 2 pops. How many elements remain?",
+    "A stack holds 3 elements; two pushes and one pop happen next. What is its size afterwards?",
+    "State TRUE or FALSE: PUSH may result in underflow and stack does not follow LIFO.",
+    "Which single end of a stack do PUSH and POP use, and what is that end called?",
+    "In the glass-stack demonstration, which glass leaves first and why?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "net effect of the operations",
+     "explain": "Each push adds one and each pop removes one.",
+     "compute": "net_added = pushes - pops"
+    },
+    {
+     "step": 2,
+     "action": "update the stack size",
+     "explain": "Add the net change to the starting size.",
+     "compute": "current_size = start_size + net_added"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A stack starts with 3 elements. After two PUSH operations and one POP, how many elements does it hold?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.2",
+   "title": "Applications of the Stack in Practice",
+   "section": "3.2.1",
+   "definition": "Everywhere the most recent item must be served first, a stack fits: reversing a string, undo and redo in editors, the BACK button of a browser replaying page history, and checking that parentheses in an expression nest correctly.",
+   "formula": "most recent change -> undone or redone first",
+   "key_idea": "Browser history keeps visited pages as a stack, so two BACK clicks from page P3 land on page P1.",
+   "textbook_ref": "lecs103.txt, section 3.2.1",
+   "question_patterns": [
+    "Why is a stack the right structure for the undo feature of an editor?",
+    "From page P3, how do two clicks of the BACK button reach page P1, and which structure stores the history?",
+    "Name two real-life situations that behave like a stack.",
+    "How does a stack help in reversing a string?",
+    "Why does a compiler use a stack while checking matched parentheses?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the serving order",
+     "explain": "Whenever the required order is last-in-first-out, a stack models the situation; otherwise a queue or another structure fits better."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which linear structure obeys LIFO?",
+     "a": "stack"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.3",
+   "title": "Infix, Prefix and Postfix Notations",
+   "section": "3.5 and Table 3.1",
+   "definition": "One expression has three written forms: infix places operators between operands as x * y + z, prefix (Polish) places them before the operands, and postfix (reverse Polish) places them after, which removes the need for parentheses and precedence rules.",
+   "formula": "x * y + z  ->  +z*xy (prefix)  ->  xy*z+ (postfix)",
+   "key_idea": "Prefix and postfix expressions evaluate in one left-to-right traversal because operator order is already fixed.",
+   "textbook_ref": "lecs103.txt, section 3.5 and Table 3.1",
+   "question_patterns": [
+    "Write the postfix and prefix forms of the infix expression (x + y)/(z * 5).",
+    "Why do postfix expressions need no parentheses at all?",
+    "State TRUE or FALSE: in postfix notation operators come after operands.",
+    "Who introduced the polish notation, and what distinguishes it from reverse polish notation?",
+    "Convert 3 * (4 + 5) into both prefix and postfix forms."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "reposition the operators",
+     "explain": "Keep the evaluation order of BODMAS, then move each operator just before (prefix) or just after (postfix) its two operands, dropping the parentheses."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which notation places operators before their operands?",
+     "a": "prefix"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.4",
+   "title": "Evaluating a Postfix Expression",
+   "section": "3.7 and Figure 3.4",
+   "definition": "A postfix expression evaluates with a stack: operands are pushed, and each operator pops two values, applies itself and pushes the result back, so the final single stack entry is the answer, as in 7 8 2 * 4 / + giving 11.",
+   "formula": "result = 7 + (8 * 2) / 4",
+   "key_idea": "Only operands are pushed during evaluation; each operator consumes exactly the top two stack values.",
+   "textbook_ref": "lecs103.txt, section 3.7, Algorithm 3.2 and Figure 3.4",
+   "question_patterns": [
+    "Evaluate the postfix expression 7 8 2 * 4 / + showing the stack after each step.",
+    "What does the stack contain just before the final plus operator of 7 8 2 * 4 / + is applied?",
+    "Why does a postfix evaluation need only one left-to-right scan?",
+    "What does Algorithm 3.2 report if the stack does not end with a single element?",
+    "Trace the pushes and pops for the expression 5 6 2 + * 12 4 / - ."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the star operator",
+     "explain": "The operator * pops 8 and 2 and pushes their product 16.",
+     "compute": "prod = 8 * 2"
+    },
+    {
+     "step": 2,
+     "action": "apply the slash operator",
+     "explain": "The operator / pops 16 and 4 and pushes the quotient.",
+     "compute": "div = prod / 4"
+    },
+    {
+     "step": 3,
+     "action": "apply the plus operator",
+     "explain": "The final + pops 4 and 7, leaving the single result.",
+     "compute": "result = 7 + div"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Evaluate the postfix expression 7 8 2 * 4 / +.",
+     "a": "11"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.5",
+   "title": "Postfix Evaluation with Letter Operands",
+   "section": "Exercise 5",
+   "definition": "When postfix operands are letters, substitute the given values first and then run the same push-pop evaluation, for example A B + C * with A=3, B=5, C=1 becomes (3 + 5) * 1 which is 8.",
+   "formula": "result = (a_value + b_value) * c_value",
+   "key_idea": "Substitute the letter values before evaluation so only numbers ride on the stack.",
+   "textbook_ref": "lecs103.txt, Exercise 5",
+   "question_patterns": [
+    "Evaluate A B + C * for A=3, B=5, C=1, showing the stack after each operation.",
+    "Evaluate A B * C / D * for A=3, B=5, C=1, D=4.",
+    "Why must the values of A, B, C and D be known before a postfix expression of letters is evaluated?",
+    "Which pair of operands does the first operator of A B * C / D * consume?",
+    "Convert A + B - C * D into postfix and then evaluate it for A=3, B=5, C=1, D=4."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the first two operands",
+     "explain": "The + operator pops B and A and pushes their sum.",
+     "compute": "sum_ab = a_value + b_value"
+    },
+    {
+     "step": 2,
+     "action": "apply the multiplication",
+     "explain": "The * operator pops the sum and C, pushing the product.",
+     "compute": "result = sum_ab * c_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "With A=3, B=5 and C=1, what does the postfix expression A B + C * evaluate to?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.6",
+   "title": "Converting Infix to Postfix",
+   "section": "3.6 and Algorithm 3.1",
+   "definition": "Algorithm 3.1 converts infix to postfix using a stack for operators: operands append straight to the output string, left parentheses wait on the stack, operators pop higher-precedence elders first, and a right parenthesis pops until its matching left one, discarding the pair.",
+   "formula": "(x + y)/(z * 8) -> x y + z 8 * /",
+   "key_idea": "Only operators and parentheses ever ride on the stack during conversion; operands go directly to the output.",
+   "textbook_ref": "lecs103.txt, section 3.6, Algorithm 3.1 and Figure 3.3",
+   "question_patterns": [
+    "Convert the infix expression A + B - C * D into postfix, showing the stack and string at each step.",
+    "Convert A * ((C + D)/E) into postfix notation.",
+    "Show the conversion of (x + y)/(z * 8) into postfix expression.",
+    "During conversion, why does a right parenthesis pop operators until the left parenthesis appears?",
+    "Which items are pushed on the stack while converting an infix expression to postfix?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the infix string once",
+     "explain": "Append operands to the output, park operators on the stack by precedence, empty the stack at closing parentheses, and flush the stack at the end of input."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "During infix to postfix conversion, which items go straight to the output string?",
+     "a": "operands"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.7",
+   "title": "Matching Parentheses with a Stack",
+   "section": "3.2.1 and Exercise 4",
+   "definition": "A compiler validates nesting by pushing every opening parenthesis and popping on every closing one; the expression is balanced only if each closing parenthesis finds its partner on the stack top and the stack ends empty.",
+   "formula": "balanced -> every ')' pops a '(' and final stack is empty",
+   "key_idea": "For ((2+3)*(4/2))+2 the two left parentheses are popped in reverse order, proving correct nesting.",
+   "textbook_ref": "lecs103.txt, section 3.2.1 and Exercise 4",
+   "question_patterns": [
+    "Show step by step how a stack matches the parentheses of ((2+3)*(4/2))+2.",
+    "What stack condition signals mismatched parentheses in an expression?",
+    "Why must the stack be empty at the end of a balanced expression?",
+    "Trace the push and pop actions for the expression (x + y)/(z * 8).",
+    "Which exception-like condition arises when a closing parenthesis arrives with an empty stack?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sweep the expression once",
+     "explain": "Push on '(' and pop on ')'; a pop from an empty stack or a non-empty final stack both declare the expression unbalanced."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the expression ((2+3)*(4/2))+2, how many opening parentheses get pushed?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "lecs103.8",
+   "title": "Stack Implementation Using a List",
+   "section": "3.4",
+   "definition": "Python builds a stack on a list whose right end is the TOP: append() plays PUSH, pop() plays POP, len() gives the size, and a helper checks emptiness so a pop from an empty stack reports underflow instead of crashing.",
+   "formula": "top element = stack_list[len - 1]",
+   "key_idea": "Because append and pop act on the rightmost end, no explicit TOP variable is needed.",
+   "textbook_ref": "lecs103.txt, section 3.4, functions isEmpty, opPush, opPop, size, top, display",
+   "question_patterns": [
+    "Give the output of the code where numberList = [10, 20, 30], 40 is appended, and pop() runs twice into result.",
+    "Which built-in list methods implement PUSH and POP in Python?",
+    "What does the isEmpty function return for an empty stack, and why is it checked before popping?",
+    "Why is no overflow possible for the list-based stack of section 3.4?",
+    "Write the function top that returns the most recent element without deleting it.",
+    "What message does opPrint show when a pop is attempted on an empty stack?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map stack words to list calls",
+     "explain": "PUSH becomes append at the right end, POP becomes pop from the same end, and the emptiness test guards against underflow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which list method plays the role of PUSH on a Python-list stack?",
+     "a": "append()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs103.we1",
+   "title": "Stack trace of 7 8 2 * 4 / +",
+   "concept_id": "lecs103.4",
+   "problem": "Evaluate the postfix expression 7 8 2 * 4 / + exactly as Algorithm 3.2 does, stating the stack after each operation.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "apply *",
+     "explain": "Pop 8 and 2, push the product 16.",
+     "compute": "prod = 8 * 2"
+    },
+    {
+     "step": 2,
+     "action": "apply /",
+     "explain": "Pop 16 and 4, push the quotient 4.",
+     "compute": "div = prod / 4"
+    },
+    {
+     "step": 3,
+     "action": "apply +",
+     "explain": "Pop 4 and 7, push the sum 11, which is the lone survivor.",
+     "compute": "result = 7 + div"
+    }
+   ],
+   "answer_note": "The stack grows 7, 8, 2; collapses to 7, 16 then 7, 4; and ends with the single result 11."
+  },
+  {
+   "id": "lecs103.we2",
+   "title": "Evaluating A B + C * with values",
+   "concept_id": "lecs103.5",
+   "problem": "For A = 3, B = 5 and C = 1, evaluate the postfix expression A B + C * with stack statuses.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "apply +",
+     "explain": "Pop 5 and 3, push their sum 8.",
+     "compute": "sum_ab = 3 + 5"
+    },
+    {
+     "step": 2,
+     "action": "apply *",
+     "explain": "Pop 8 and 1, push the product 8.",
+     "compute": "result = sum_ab * 1"
+    }
+   ],
+   "answer_note": "The expression evaluates to 8, with the stack holding 3, 5 then 8 then empty."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs103.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 3 Exercise (items reworded)",
+   "questions": [
+    "State TRUE or FALSE: stack is a linear data structure; PUSH may cause underflow; postfix places operators after operands.",
+    "Find the output when numberList = [10, 20, 30], 40 is appended and pop() is used twice to build the result.",
+    "Find the output of the code that pushes T, A, M and pops them one by one into a string.",
+    "Write a program to reverse a string using a stack.",
+    "Show the step-by-step matching of parentheses for ((2+3)*(4/2))+2 using a stack.",
+    "Evaluate A B * C / D * for A=3, B=5, C=1, D=4, showing the stack after each operation.",
+    "Convert A * ((C + D)/E) to postfix, showing stack and string contents at each step.",
+    "Write a program that stores only odd numbers on a stack and reports the largest odd number by popping until empty."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_005",
+   "title": "c11_hs_cbse_10_005",
+   "questions": [
+    {
+     "q": "What is the NCERT definition of a budget, and what are the three specific success criteria mentioned in the textbook for a budget to be effective?",
+     "a": "A budget is defined as \"a plan for future expenditure\" and \"the most common planning device for the use of money.\" The three success criteria are: (1) being realistic and flexible, (2) suitability to the group for which it is prepared, and (3) quality of the control and evaluation steps which follow. A wrong answer that defines budget as \"a record of past spending\" or lists criteria like \"high savings rate\" reveals confusion between budgeting (planning) and record-keeping (control), and misunderstanding that success criteria are structural, not outcome-based.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a budget must be both 'realistic' and 'flexible' to succeed. Give a concrete example of the consequence if a family budget lacks either quality.",
+     "a": "'Realistic' means the budget aligns with actual income levels and market prices; 'flexible' means it can absorb shocks like a medical emergency or price spike without collapsing. If not realistic (e.g., allocating ₹2,000 for food when actual need is ₹8,000), the family will inevitably overspend and borrow. If not flexible (e.g., zero emergency buffer), a single car repair forces the family to break the budget or take high-interest debt. A wrong answer treating them as synonyms or ignoring unexpected events shows superficial comprehension of the criteria's distinct protective roles.",
+     "self_check": true
+    },
+    {
+     "q": "A family has assured monthly income of ₹50,000 (salary) and possible income of ₹8,000 (irregular freelance). Their essential expenses total ₹48,000 (rent, food, utilities, transport, education, medical) and discretionary expenses total ₹15,000 (recreation, dining out, premium clothing, extra savings). Using the textbook principle that necessities must be covered by assured income, determine the maximum discretionary spending the family can safely plan, and explain the risk if they budget the full ₹15,000.",
+     "a": "Step 1: Assured income (₹50,000) minus essential expenses (₹48,000) = ₹2,000 surplus. Step 2: This ₹2,000 is the only guaranteed amount for discretionary spending. Step 3: Possible income (₹8,000) is uncertain; budgeting it for recurring discretionary items creates risk. Step 4: Maximum safe discretionary allocation = ₹2,000 (from assured surplus). Step 5: If they budget ₹15,000 discretionary, they commit ₹13,000 based on uncertain income. If freelance work drops, they must cut essentials or borrow. A wrong answer allocating full ₹15,000 discretionary using possible income violates the textbook's risk-management principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Step (iii) \"Estimate total expected income\" and Step (iv) \"Bring expected income and expenditure into balance\" would differ for: (a) a rural agricultural family earning two lump sums yearly (post-harvest), and (b) an urban salaried family earning monthly. Explain the implication for the 'solvency' check in Step (v).",
+     "a": "Rural family: Step (iii) must estimate annual income (two harvests) and convert to monthly average; Step (iv) requires creating a cash-flow plan that saves harvest surplus to cover lean-month deficits, ensuring solvency across 12 months. Urban family: Step (iii) is straightforward monthly estimation; Step (iv) is a monthly balance check. Solvency check (v) for rural family must verify that saved harvest income actually lasts until next harvest, considering timing of large expenses (seeds, festivals). A wrong answer applying identical monthly balancing to both ignores the critical role of income timing in solvency.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using at least two textbook success criteria: \"A budget allocating 50% of income to savings and 50% to expenses is always successful because it ensures high savings.\"",
+     "a": "The statement fails two criteria: (1) Realistic and flexible – a low-income family spending 50% on expenses may not cover basic needs (food, rent), making the budget unrealistic; it also lacks flexibility for emergencies. (2) Suitability to the group – a family with chronic illness or school-age children has different expense ratios than a childless couple; a fixed 50-50 rule ignores their specific needs. (3) Quality of control/evaluation – even a well-ratioed budget fails without tracking and adjustment. A wrong answer agreeing with the statement shows inability to apply criteria contextually and confusion between a heuristic rule and the textbook's conditional criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monthly budget template for a family of four (two adults, two school children) in a metro city. Include all NCERT-recommended expenditure headings plus an emergency fund. Explain why each heading is necessary for the 'suitability to the group' criterion.",
+     "a": "Template headings: Food & Groceries, Housing (Rent/EMI), Utilities (Electricity, Water, Internet), Transportation, Education (Fees, Books, Uniforms), Healthcare/Medical, Clothing, Personal Care, Recreation/Entertainment, Savings & Investments, Emergency Fund, Miscellaneous. Each maps to NCERT groupings: food, housing, household operations, transport, education, medical, clothing, personal allowances, miscellaneous, provision for future. Emergency fund is essential for solvency criterion. A poor answer omits emergency fund, merges distinct heads (e.g., education into miscellaneous), or adds irrelevant categories (e.g., business expenses), showing failure to tailor the template to the specific family structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_009",
+   "title": "c11_stat_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the defining characteristic that distinguishes qualitative data from quantitative data, and give one example of each from an economic context.",
+     "a": "Qualitative data describes non-numerical attributes or categories (e.g., crop type: wheat/rice/cotton), while quantitative data represents measurable numerical quantities (e.g., yield in kg per hectare). A wrong answer—such as saying \"qualitative data is about quality\" without mentioning categorisation, or confusing ordinal categories like \"low/medium/high income\" as quantitative—reveals the student thinks any ordered label is numerical, missing that arithmetic operations are meaningless on categories even if ordered.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher records the following for 50 households: (i) religion, (ii) monthly electricity consumption in kWh, (iii) type of ration card (APL/BPL/AAY), (iv) distance to nearest market in km. Classify each as qualitative or quantitative. For qualitative variables, further classify as nominal or ordinal. For quantitative variables, classify as discrete or continuous.",
+     "a": "(i) Religion – qualitative, nominal (no natural order). (ii) Electricity consumption – quantitative, continuous (can take any value in a range). (iii) Ration card type – qualitative, ordinal (APL > BPL > AAY implies a hierarchy). (iv) Distance – quantitative, continuous. A wrong answer that classifies ration card type as nominal misses the inherent ordering of entitlement levels, showing the student doesn't recognise ordinal data. Classifying electricity consumption as discrete reveals confusion between \"countable units\" (kWh are measured, not counted as whole indivisible units).",
+     "self_check": true
+    },
+    {
+     "q": "The government releases a report stating: \"Literacy rate in State A is 78%, in State B is 82%.\" A student argues: \"Literacy rate is a percentage, so it's qualitative data because it describes the quality of education.\" Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. Literacy rate is a quantitative variable (a ratio expressed as a percentage) because it results from a numerical calculation: (number of literate persons / total population) × 100. It supports arithmetic operations—we can meaningfully say State B's literacy rate is 4 percentage points higher, or compute an average across states. The student confuses the *subject matter* (education quality) with the *data type* (numerical measurement). This misconception arises from equating \"qualitative\" with \"describing a quality\" rather than \"non-numerical categorisation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the following pairs in terms of permissible statistical operations: (a) Mean vs Mode for qualitative nominal data, (b) Median vs Mean for qualitative ordinal data, (c) Standard deviation for discrete vs continuous quantitative data.",
+     "a": "(a) For nominal qualitative data (e.g., religion), only mode is meaningful—mean requires numerical values. (b) For ordinal qualitative data (e.g., education level), median is meaningful (middle category) but mean is not (no equal intervals between categories). (c) Standard deviation applies to both discrete and continuous quantitative data, but interpretation differs: for discrete data (e.g., number of children), SD of 1.2 means typical deviation is about 1 child; for continuous data (e.g., height), SD of 5 cm means typical deviation is 5 cm. A wrong answer claiming mean works for ordinal data reveals the student treats ordered categories as equally spaced numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since qualitative data cannot be measured numerically, it is less useful for economic analysis than quantitative data.\" Provide two economic examples where qualitative data is indispensable.",
+     "a": "The statement is false. Qualitative data is essential for: (1) Policy targeting—ration card type (APL/BPL/AAY) determines subsidy eligibility; without this categorical variable, the government cannot identify beneficiaries. (2) Structural analysis—sector of employment (primary/secondary/tertiary) reveals economic transformation; quantitative income data alone cannot show sectoral shifts. A weak answer that only says \"qualitative data gives context\" without concrete economic examples shows the student hasn't grasped that categories drive grouping, filtering, and policy design in economics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey with exactly 6 questions for studying urban household consumption patterns. Include at least 2 qualitative nominal, 1 qualitative ordinal, 1 quantitative discrete, and 1 quantitative continuous variable. For each question, specify the variable name, data type, and sub-type.",
+     "a": "Example design:\n1. \"What is your household's primary mode of transport?\" – Mode_of_Transport, qualitative nominal (bus/metro/auto/walk/car).\n2. \"Which income bracket does your household fall into?\" – Income_Bracket, qualitative ordinal (EWS/LIG/MIG/HIG).\n3. \"How many earning members in the household?\" – Earners, quantitative discrete (0, 1, 2, 3...).\n4. \"What is your monthly electricity bill (in ₹)?\" – Electricity_Bill, quantitative continuous (any positive real number).\n5. \"Do you own a vehicle?\" – Vehicle_Ownership, qualitative nominal (yes/no).\n6. \"How satisfied are you with public transport?\" – Transport_Satisfaction, qualitative ordinal (very dissatisfied/dissatisfied/neutral/satisfied/very satisfied).\nA poor answer that makes all questions quantitative or misses sub-types shows the student cannot operationalise the classification in real survey design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

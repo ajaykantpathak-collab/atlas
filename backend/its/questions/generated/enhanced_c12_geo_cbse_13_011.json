@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_011",
+   "title": "c12_geo_cbse_13_011",
+   "questions": [
+    {
+     "q": "State the three main characteristics of mineral resources mentioned in the NCERT that make conservation necessary.",
+     "a": "The three characteristics are: (1) uneven spatial distribution, (2) inverse relationship between quality and quantity (high-quality deposits are scarcer), and (3) exhaustibility — they take geological time to form and cannot be replenished on human timescales. A wrong answer (e.g., \"minerals are renewable\" or \"evenly distributed\") reveals a fundamental misunderstanding of the resource's physical nature, confusing minerals with agricultural or water resources.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT specifically highlight the use of scrap metal for copper, lead, and zinc as \"specially significant\" in the Indian context?",
+     "a": "India's reserves of copper, lead, and zinc are meagre (low quantity) relative to demand, making the country heavily import-dependent. Recycling scrap directly reduces import bills and extends the life of limited domestic reserves. A wrong answer focusing only on \"environmental benefits\" misses the strategic-economic reasoning specific to India's resource endowment — a common error where students generalize instead of applying India-specific data.",
+     "self_check": true
+    },
+    {
+     "q": "A steel plant in Odisha uses 2 million tonnes of iron ore annually. If it increases scrap-based production (using recycled steel) by 15%, how much virgin iron ore is conserved per year, assuming 1 tonne of scrap substitutes 1.1 tonnes of iron ore? Show the calculation.",
+     "a": "Step 1: Identify substitution ratio: 1 tonne scrap = 1.1 tonnes iron ore conserved.\nStep 2: Calculate increased scrap usage: 15% of 2 million tonnes = 0.3 million tonnes scrap.\nStep 3: Compute ore conserved: 0.3 million tonnes scrap × 1.1 = 0.33 million tonnes iron ore/year.\nA wrong answer (e.g., 0.3 million tonnes) ignores the substitution ratio, revealing a lack of understanding that scrap is more energy- and material-efficient than virgin ore due to pre-concentration of metal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation logic for ferrous minerals (iron, manganese) versus non-ferrous minerals (copper, bauxite) in India. Why does the NCERT emphasize different strategies for each?",
+     "a": "India has abundant ferrous reserves (largest iron ore in Asia) so conservation focuses on efficient mining and beneficiation of low-grade ores. For non-ferrous (copper, lead, zinc), reserves are meagre, so conservation prioritizes recycling scrap and finding substitutes (e.g., aluminium for copper in wiring) to reduce import dependence. A wrong answer treating both categories identically fails to analyze the **geological endowment vs. demand gap** — a core analytical skill for resource geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Exporting raw bauxite earns foreign exchange, so India should maximize bauxite exports to fund renewable energy development.\" Use the NCERT's conservation principles.",
+     "a": "The statement is flawed. NCERT explicitly states: \"Export of strategic and scarce minerals must be reduced, so that the existing reserve may be used for a longer period.\" Bauxite is the sole ore of aluminium, critical for power transmission, EVs, and solar frames — all essential for renewable energy. Exporting raw bauxite depletes the domestic resource base needed for India's own energy transition. A wrong answer supporting exports reveals a failure to connect **strategic mineral security** with **long-term sustainable development goals**, prioritizing short-term revenue over intergenerational equity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point conservation action plan for a hypothetical mineral-rich district (e.g., Sundargarh, Odisha) that integrates mining regulation, scrap recycling, renewable energy, and community livelihoods. Annotate each point with the NCERT principle it addresses.",
+     "a": "A strong answer includes:\n1. **Mining lease conditions**: Mandate zero-waste mining & backfilling (addresses exhaustibility & environmental degradation).\n2. **District scrap yard cluster**: Incentivize collection/recycling of ferrous & non-ferrous scrap (addresses recycling principle, esp. for Cu, Pb, Zn).\n3. **Aluminium smelter using local bauxite**: Ban raw bauxite export; add value domestically (addresses export restraint & import substitution).\n4. **Solar/wind farms on reclaimed mine land**: Replace coal power for mining ops (addresses renewable transition).\n5. **Skill training for miners in recycling/renewables**: Just transition (addresses sustainable development integration).\nA weak answer lists generic \"plant trees\" or \"reduce pollution\" without linking to specific NCERT conservation methods, showing inability to translate principles into contextualized action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

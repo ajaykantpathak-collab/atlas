@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_012",
+   "title": "c12_biotech_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the structural difference between a deoxynucleotide triphosphate (dNTP) and a dideoxynucleotide triphosphate (ddNTP) that causes chain termination in Sanger sequencing?",
+     "a": "A dNTP has a 3'-hydroxyl (-OH) group on its deoxyribose sugar, while a ddNTP lacks this 3'-OH (it has only a 3'-H). DNA polymerase requires the 3'-OH to form a phosphodiester bond with the incoming nucleotide's 5'-phosphate; without it, elongation stops.  \n**Wrong answer reveals:** If a student says \"ddNTP has no phosphate groups\" or \"ddNTP lacks the base,\" they confuse the sugar modification with the phosphate or base. This shows they haven't visualized the nucleotide structure from c11_biotech_cbse_03_008.",
+     "self_check": true
+    },
+    {
+     "q": "In a traditional four-tube Sanger reaction, tube A contains ddATP, tube T contains ddTTP, tube G contains ddGTP, tube C contains ddCTP. All tubes contain the same primer, template, DNA polymerase, and all four dNTPs. After electrophoresis, the bands from the four lanes are read from bottom to top. Why does the bottom band correspond to the nucleotide *closest to the primer*?",
+     "a": "The bottom of the gel contains the smallest fragments (shortest migration distance). A fragment that terminates at the first possible incorporation site (nearest the 3' end of the primer) is the shortest. Reading bottom-to-top therefore reads the sequence in the 5'→3' direction starting from the primer.  \n**Wrong answer reveals:** If a student says \"top band is first\" or \"we read from the primer outward but top is first,\" they have the gel orientation reversed — a classic board-exam error. This also indicates they haven't internalized the size-separation principle from c12_biotech_cbse_02_008.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sets up a Sanger sequencing reaction with a 20-mer primer and a template that has the sequence 5'-ATGCGATAC-3' immediately downstream of the primer binding site. The reaction uses a 1:100 ratio of ddATP:dATP (other ddNTP:dNTP ratios are similar). Approximately what fraction of the synthesized strands will terminate at the *first* A (the A at position 2 of the template)? Assume equal incorporation efficiency.",
+     "a": "The probability of incorporating ddATP instead of dATP at the first A site is:  \nP(ddATP) = [ddATP] / ([ddATP] + [dATP]) = 1 / (1 + 100) = 1/101 ≈ 0.0099 ≈ 1%.  \n**Wrong answer reveals:** If a student answers 1/100 or 1%, they forgot to add the concentrations in the denominator (classic competitive inhibition oversight). If they answer 100%, they think ddNTP *always* incorporates. This tests quantitative reasoning from c11_biotech_cbse_04_004 (Michaelis-Menten logic applied to polymerase).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information obtained from a Sanger sequencing chromatogram (four-color capillary electrophoresis) with that from a traditional four-lane radioactive gel. What is the *same* and what is *different* in terms of data output and interpretation?",
+     "a": "Same: Both produce a ladder of fragments ending at each base; the sequence is read from smallest to largest fragment (5'→3').  \nDifferent: Radioactive gel gives four separate lanes (A, T, G, C) requiring manual lane-tracking; chromatogram gives a single trace with four color peaks, allowing automated base-calling and quality scores (Phred). Chromatograms also show peak height/width for confidence estimation.  \n**Wrong answer reveals:** If a student says \"chromatogram reads top-to-bottom\" or \"radioactive gel is more accurate,\" they miss the fundamental equivalence of the fragment ladder. This confusion often appears in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sanger sequencing can easily read through a 50-base homopolymer run (e.g., AAAAA...)\" because the ddATP will terminate at each A, giving clear bands for every position.\" Evaluate this claim.",
+     "a": "The claim is **false**. In a homopolymer run, the polymerase incorporates many consecutive dATPs. The probability of ddATP incorporation at *each* position is low and independent, so the resulting fragment lengths form a broad, overlapping distribution rather than distinct single-base bands. Peaks in the chromatogram become broad and merge, making it impossible to resolve the exact number of bases beyond ~8-10 identical bases. This is a known limitation of Sanger sequencing.  \n**Wrong answer reveals:** If the student agrees, they ignore the stochastic nature of termination and the Poisson-like distribution of fragment lengths. This is a frequent NEET trap question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Sanger sequencing strategy to verify a 1.2 kb insert cloned into pUC19 (2.7 kb) using the M13 forward primer (binds ~200 bp upstream of the insert). The insert is too long for a single read. Specify: (a) how many sequencing reactions are needed, (b) which primers to use, and (c) how to assemble the full sequence.",
+     "a": "(a) Minimum 2 reactions (forward + reverse) but ideally 3-4 for full coverage with overlap.  \n(b) Primers: M13 forward (reads into insert from 5' end), M13 reverse (reads from 3' end inward), and optionally one internal primer designed from the first read to walk further.  \n(c) Assemble by aligning overlapping regions (using BLAST or manual alignment) to generate a contiguous consensus sequence (contig).  \n**Poor answer reveals:** If the student suggests \"just use one primer and run the gel longer\" or \"use PCR to shorten the insert,\" they don't grasp the read-length limit (~800 bp) or the need for primer walking. This tests integration of c12_biotech_cbse_02_007 (primer design) and c11_biotech_cbse_12_010.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

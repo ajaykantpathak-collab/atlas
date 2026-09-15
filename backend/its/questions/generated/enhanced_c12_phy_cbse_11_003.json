@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_003",
+   "title": "c12_phy_cbse_11_003",
+   "questions": [
+    {
+     "q": "State the energy and momentum of a single photon of frequency ν and wavelength λ in vacuum. Give the SI units of each quantity.",
+     "a": "Energy E = hν = hc/λ (unit: joule, J). Momentum p = h/λ = hν/c (unit: kg·m/s or N·s). A wrong answer (e.g., E = h/λ, p = hν, or missing c in momentum) reveals confusion between the two forms of the energy formula and the role of c in converting energy to momentum for a massless particle.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If I double the intensity of a monochromatic light beam, the energy of each photon should double because intensity is energy per unit area per unit time.\" Explain why this reasoning is incorrect using the photon picture.",
+     "a": "In the photon picture, intensity I = (number of photons per second per unit area) × (energy per photon). Doubling intensity means doubling the *photon flux* (number of photons crossing a unit area per second), while the energy *per photon* (hν) remains unchanged because frequency ν is unchanged. The student's error is conflating *total energy flux* (intensity) with *energy per quantum* — a classic wave-theory carryover.",
+     "self_check": true
+    },
+    {
+     "q": "A helium–neon laser emits 2.0 mW of monochromatic light at λ = 632.8 nm. Calculate (a) the energy of one photon in joules and eV, and (b) the number of photons emitted per second. (Use h = 6.63 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s, 1 eV = 1.60 × 10⁻¹⁹ J)",
+     "a": "(a) E = hc/λ = (6.63×10⁻³⁴ × 3.00×10⁸) / (632.8×10⁻⁹) = 3.14×10⁻¹⁹ J = 1.96 eV.  \n(b) N = P/E = (2.0×10⁻³) / (3.14×10⁻¹⁹) = 6.37×10¹⁵ photons/s.  \nA wrong answer often arises from: (i) forgetting to convert nm to m (gives 10⁻²⁸ J), (ii) using P in mW without converting to W, (iii) mixing J and eV without conversion, or (iv) using E = hλ instead of hc/λ.",
+     "self_check": true
+    },
+    {
+     "q": "Two monochromatic sources A and B emit the same power (5.0 mW). Source A emits red light (λ = 650 nm), source B emits blue light (λ = 450 nm). Compare: (i) energy per photon, (ii) photon flux (photons/second), (iii) momentum per photon. Which source exerts greater radiation pressure on a perfectly absorbing surface of equal area? Justify.",
+     "a": "(i) E_B > E_A because E ∝ 1/λ (blue has shorter λ).  \n(ii) N_A > N_B because N = P/E and P is same.  \n(iii) p_B > p_A because p = h/λ.  \nRadiation pressure on perfect absorber = I/c = (N·E)/(A·c) = P/(A·c) — same for both since power and area are equal. The student who picks blue because \"higher momentum per photon\" forgets that pressure depends on *total momentum flux*, which is fixed by power.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Find the de Broglie wavelength of a photon of energy 2.0 eV.\" They write λ = h/√(2mE) using electron mass m = 9.11×10⁻³¹ kg. Identify the conceptual error and give the correct approach.",
+     "a": "The formula λ = h/√(2mE) is the *non-relativistic de Broglie wavelength for a massive particle* (electron), not for a photon. Photons have zero rest mass; their wavelength is λ = hc/E. The error is applying a massive-particle formula to a massless particle. Correct: E = 2.0 eV = 3.20×10⁻¹⁹ J → λ = hc/E = (1240 eV·nm)/2.0 eV = 620 nm (using hc = 1240 eV·nm).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a solar cell, a variable-frequency monochromatic light source (e.g., coloured filters + white light), and a microammeter to demonstrate that photon energy depends on frequency, not intensity. Describe the procedure, what you would measure, and the expected graph.",
+     "a": "Procedure: Illuminate the solar cell with light of fixed frequency (using a filter) and vary intensity (by moving source). Measure short-circuit current I_sc ∝ photon flux. Repeat for different filters (different ν). Plot I_sc vs intensity for each ν — slope gives photon flux per unit intensity. Then plot stopping potential V₀ (from a separate photoelectric setup) vs ν — slope = h/e. Expected: I_sc ∝ intensity for each ν (linear through origin), but V₀ depends only on ν (linear V₀ vs ν graph with threshold ν₀). A poor answer omits the need for stopping potential measurement or confuses solar cell current with photoelectric stopping potential.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

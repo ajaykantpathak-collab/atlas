@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_003",
+   "title": "c12_biotech_cbse_02_003",
+   "questions": [
+    {
+     "q": "What are the two chemical groups on adjacent DNA nucleotides that DNA ligase joins to form a phosphodiester bond?",
+     "a": "The 3'-hydroxyl (3'-OH) group of one nucleotide and the 5'-phosphate (5'-P) group of the adjacent nucleotide. A wrong answer (e.g., \"3'-phosphate and 5'-OH\" or \"two 3'-OH groups\") reveals that the student does not know the directionality of the DNA backbone and the specific substrates required for ligation, which is essential for understanding why alkaline phosphatase treatment prevents self-ligation (next node).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why DNA ligase requires ATP (or NAD⁺) even though the phosphodiester bond formation is a condensation reaction that releases water.",
+     "a": "The direct condensation between a 3'-OH and a 5'-phosphate is thermodynamically unfavorable (ΔG > 0) because the 5'-phosphate is a poor electrophile. ATP/NAD⁺ provides the energy to first activate the 5'-phosphate via a high-energy phosphoanhydride bond (forming a DNA-adenylate intermediate), making the phosphorus highly electrophilic so the 3'-OH can attack. A student who says \"ATP provides energy for the bond\" without describing the activation mechanism shows superficial understanding — they miss the covalent enzyme-AMP and DNA-AMP intermediates that are hallmarks of the ligase mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sets up two ligation reactions: Reaction A contains a 3 kb vector and a 1 kb insert, both cut with BamHI (sticky ends). Reaction B contains the same vector and insert but both cut with EcoRV (blunt ends). Both reactions have identical DNA concentrations (in ng/µL), ligase amount, and ATP. After 1 hour at 16°C, which reaction will have a higher yield of recombinant plasmids, and why?",
+     "a": "Reaction A (sticky ends) will have higher yield. The complementary 4-base overhangs (GATC) base-pair transiently, holding the vector and insert in the correct orientation and proximity, dramatically increasing the effective local concentration of the 3'-OH and 5'-P groups for the ligase active site. Blunt ends in Reaction B lack this base-pairing; they must collide in the correct orientation by random diffusion, which is kinetically disfavored. A student who answers \"both are equal because DNA concentration is the same\" ignores the kinetic role of base-pairing in aligning substrates — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cofactor requirements of T4 DNA ligase (from bacteriophage T4) and E. coli DNA ligase. How does this difference affect their use in recombinant DNA technology?",
+     "a": "T4 DNA ligase uses ATP as a cofactor, while E. coli DNA ligase uses NAD⁺. In vitro, T4 ligase is preferred for recombinant DNA work because ATP is stable, inexpensive, and works efficiently at the low temperatures (16°C) used to favor sticky-end annealing. E. coli ligase requires NAD⁺, which is less stable and inhibits some restriction enzymes. A student who states \"both use ATP\" or \"E. coli ligase is used in cloning because it's from bacteria\" confuses the in vivo host enzyme with the in vitro tool enzyme — a common error in JEE/NEET questions about enzyme selection.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I treat a linearized vector with alkaline phosphatase (which removes 5'-phosphates), then add insert DNA with 5'-phosphates, DNA ligase will still join them because the insert provides the phosphate.\" Evaluate this claim.",
+     "a": "The claim is false. DNA ligase requires a 5'-phosphate on **one strand** and a 3'-OH on the **adjacent strand** at each nick. After phosphatase treatment, the vector lacks 5'-phosphates on both strands at the cut site. The insert provides 5'-phosphates on its ends, but each nick in the recombinant circle involves one vector strand and one insert strand. At the two junctions, one nick will have the vector's 3'-OH and the insert's 5'-P (can be ligated), but the other nick will have the insert's 3'-OH and the vector's 5'-OH (no phosphate) — so that nick cannot be sealed. The product will be a nicked circular molecule, not a covalently closed recombinant plasmid. A student who agrees with the claim fails to recognize that ligation must occur at **both** junctions and that each junction requires its own 5'-P/3'-OH pair.",
+     "self_check": true
+    },
+    {
+     "q": "Design a ligation strategy to directionally clone a PCR product (with blunt ends) into a plasmid vector such that the insert can only ligate in one orientation. Specify the enzymes and steps.",
+     "a": "A good answer: (1) Digest the vector with two different restriction enzymes that produce incompatible sticky ends (e.g., EcoRI and BamHI) at the multiple cloning site. (2) Engineer the PCR primers to add the same two restriction sites (EcoRI at forward primer, BamHI at reverse primer) to the ends of the amplicon. (3) Digest the PCR product with EcoRI and BamHI to generate compatible sticky ends. (4) Ligate with T4 DNA ligase. The insert can only ligate in the orientation where its EcoRI end matches the vector's EcoRI end and its BamHI end matches the vector's BamHI end. A poor answer (e.g., \"use blunt-end ligation and screen by sequencing\") shows inability to apply the principle that sticky-end compatibility enforces directionality — a key competency for cloning design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_006",
+   "title": "c11_bio_cbse_13_006",
+   "questions": [
+    {
+     "q": "Define \"critical photoperiod\" and explain why a short-day plant like chrysanthemum (critical night length 12 hours) fails to flower when exposed to a 14-hour day / 10-hour night cycle, but flowers under 10-hour day / 14-hour night.",
+     "a": "Critical photoperiod is the specific day length (or more precisely, night length) threshold above or below which a plant flowers. Chrysanthemum is a short-day plant requiring night length >12 hours (i.e., day <12 hours). In 14L/10D, night is only 10 hours (< critical 12h) → no flowering. In 10L/14D, night is 14 hours (>12h) → flowering occurs. A wrong answer (e.g., \"needs short day\" without specifying night length) reveals the student still thinks plants measure light duration, not dark duration — the classic senior-secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A long-day plant (spinach, critical night length 8 hours) is grown under 16L/8D and flowers. The same plant is given a 1-hour red light pulse in the middle of an otherwise 16-hour night (8L/1D/15D). Will it flower? Justify using phytochrome interconversion.",
+     "a": "No, it will not flower. LDP requires night <8 hours (uninterrupted darkness). The 1-hour red light pulse converts Pr → Pfr during the long night, \"resetting\" the dark-period measurement. The plant perceives two short nights (1h + 15h interrupted) instead of one long night. Since Pfr is the active form promoting flowering in LDP, its transient presence breaks the inductive long night. A wrong answer (e.g., \"yes, because total light is 9h\") shows failure to understand that phytochrome measures *continuous* darkness, not total light.",
+     "self_check": true
+    },
+    {
+     "q": "In a skeleton photoperiod experiment, a short-day plant (cocklebur, critical night 8.5h) receives two 1-hour light pulses: one at dawn and one at dusk of a 24-hour cycle (1L/8D/1L/14D). Predict flowering and explain why this differs from a single 16-hour night (8L/16D).",
+     "a": "The plant will NOT flower in 1L/8D/1L/14D but WILL flower in 8L/16D. In skeleton photoperiod, the first pulse sets the circadian rhythm; the second pulse falls 9 hours later — if this coincides with the \"photoinducible phase\" (φi) of the rhythm, it inhibits flowering in SDP. Here, 8h dark between pulses is < critical 8.5h, so the night is not perceived as long. In 8L/16D, the single 16h night exceeds 8.5h → flowering. Wrong prediction reveals ignorance of the external coincidence model and circadian gating of photoperiodic response.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flowering response of a short-day plant (soybean) and a long-day plant (wheat) when both are exposed to a 12-hour day / 12-hour night cycle. Can both flower simultaneously at the same latitude? Explain using critical night length concept.",
+     "a": "At 12L/12D: Soybean (SDP, critical night ~10h) experiences 12h night >10h → flowers. Wheat (LDP, critical night ~8h) experiences 12h night >8h → does NOT flower (needs night <8h). Both CAN flower simultaneously at a given place *if* the natural photoperiod satisfies both their critical night lengths at different times of year (e.g., soybean in autumn, wheat in spring). The NCERT Exercise Q7 tests exactly this: they flower at different seasons, not same time. Wrong answer (\"both flower\" or \"neither flowers\") shows inability to apply critical night length as a species-specific threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Defoliated plants cannot respond to photoperiodic cycles because leaves are the site of photosynthesis, and flowering requires energy from photosynthates.\" Is this correct? Provide evidence from classic experiments.",
+     "a": "The claim is INCORRECT. Defoliated plants fail to flower not due to lack of photosynthates (sucrose can be supplied via petiole feeding), but because leaves are the site of *photoperiod perception* and *florigen synthesis*. Classic evidence: (1) Grafting experiments — a single induced leaf on a defoliated cocklebur can trigger flowering in the whole plant; (2) Isolated leaf in inductive photoperiod produces florigen that moves through phloem to shoot apex. The energy argument is secondary; the primary role of leaves is photoreception (phytochrome) and mobile signal production. Wrong evaluation reveals confusion between metabolic requirement and informational role of leaves.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine whether a newly discovered desert annual is a short-day, long-day, or day-neutral plant. Specify: (a) photoperiod treatments, (b) control, (c) measurable response variable, (d) how you will distinguish night-length measurement from day-length measurement.",
+     "a": "(a) Treatments: 8L/16D, 12L/12D, 16L/8D, plus night-break variants (e.g., 8L/1R/15D, 16L/1R/7D). (b) Control: continuous light (24L) and continuous dark (24D). (c) Response: days to visible floral bud, % plants flowering, number of flowers. (d) To test night-length measurement: compare 12L/12D vs 12L/1R/11D (same day length, broken night). If flowering differs, night length is measured. If 8L/16D and 16L/8D give same flowering, it's day-neutral. Poor design (e.g., only varying day length, no night-break) shows failure to isolate the causative variable — a key analytical skill for board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 13,
+ "chapter_title": "Earth as a System: Energy, Matter, and Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.113.13.1",
+   "title": "Earth as a Connected System",
+   "section": "13",
+   "definition": "Earth works as one connected system: the warming of Arabian Sea water affects the southwest monsoon, land, water, air and life exchange energy and matter continuously, so a change in one sphere ripples through all the others.",
+   "formula": "-",
+   "key_idea": "One planet, many spheres, one system: every part talks to every other.",
+   "textbook_ref": "iesc113.txt opening sections (earth as a system, monsoon example)",
+   "question_patterns": [
+    "how does the warming of Arabian Sea water affect the monsoon",
+    "explain why earth is called a system",
+    "name the spheres of the earth system and their interactions",
+    "give an example of matter moving between two spheres",
+    "how does energy from the sun drive the earth system",
+    "trace one change through the land-water-air-life chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the spheres",
+     "explain": "Lithosphere, hydrosphere, atmosphere and biosphere make the system."},
+    {"step": 2, "action": "trace the exchanges",
+     "explain": "Energy flows in from the sun while matter cycles within."},
+    {"step": 3, "action": "connect cause to effect",
+     "explain": "One sphere's change - sea warming - reshapes weather and life."}
+   ]
+  },
+  {
+   "id": "iesc.113.13.2",
+   "title": "Cycles of Matter: Water, Carbon and Nutrients",
+   "section": "13",
+   "definition": "Matter on earth moves in closed loops: water evaporates, condenses and rains back; carbon travels between air, living beings and fuels; and nutrients recycle through soil, plants and animals, keeping the materials of life in endless circulation.",
+   "formula": "-",
+   "key_idea": "Nothing is thrown away on earth - matter cycles, life borrows.",
+   "textbook_ref": "iesc113.txt sections on biogeochemical cycles",
+   "question_patterns": [
+    "describe the water cycle with its main stages",
+    "how does carbon cycle between the atmosphere and living beings",
+    "why are nutrient cycles important for life",
+    "draw and explain the given cycle from the chapter",
+    "what role do decomposers play in matter cycles",
+    "how do human activities disturb these cycles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "follow the substance",
+     "explain": "Pick water, carbon or nitrogen and trace its journey."},
+    {"step": 2, "action": "mark the reservoirs",
+     "explain": "Air, oceans, soil and organisms act as stores."},
+    {"step": 3, "action": "close the loop",
+     "explain": "Processes like evaporation, photosynthesis and decay return the substance."}
+   ]
+  },
+  {
+   "id": "iesc.113.13.3",
+   "title": "Energy Flow and Life Support",
+   "section": "13",
+   "definition": "Energy enters the earth system almost entirely from the sun, flows one way through food chains, and finally leaves as heat; this one-way flow plus the recycling of matter together support the biosphere - and human pressures now strain this support system.",
+   "formula": "-",
+   "key_idea": "Sun in, heat out, matter recycled: the energy ledger that runs life.",
+   "textbook_ref": "iesc113.txt sections on energy flow and the biosphere",
+   "question_patterns": [
+    "how does energy from the sun flow through living systems",
+    "why can energy not be recycled like matter - explain",
+    "what is the biosphere and why is it fragile",
+    "trace the energy flow from sun to top consumer",
+    "how do human activities strain the earth system",
+    "suggest steps to keep the earth system healthy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the energy input",
+     "explain": "Photosynthesis captures sunlight into chemical energy."},
+    {"step": 2, "action": "follow the one-way flow",
+     "explain": "Energy passes through food chains and exits as heat."},
+    {"step": 3, "action": "assess the pressure",
+     "explain": "Pollution and warming disturb the flows that sustain life."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "iesc113.txt exercises",
+   "questions": [
+     "Explain why earth is studied as a system.",
+     "Draw and explain the water cycle.",
+     "Describe the flow of energy in the earth system."
+   ]
+  }
+ ]
+}

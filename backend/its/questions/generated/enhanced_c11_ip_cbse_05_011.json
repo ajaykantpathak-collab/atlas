@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_011",
+   "title": "c11_ip_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the exact syntax to import only the `ceil` function from the `math` module so it can be used directly as `ceil(4.2)` without the `math.` prefix?",
+     "a": "`from math import ceil` — this brings `ceil` into the current namespace. A wrong answer like `import math.ceil` or `from math import ceil()` reveals confusion between module attribute access and the `from-import` statement, or misunderstanding that `import` does not use parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `from math import *` is generally discouraged in larger programs, even though it makes all `math` functions available without the `math.` prefix.",
+     "a": "It pollutes the namespace by importing every name from `math`, increasing the risk of name clashes with user-defined functions or variables (e.g., if you define your own `sqrt` function). A wrong answer like \"it slows down the program\" shows misunderstanding — the issue is namespace pollution, not performance.",
+     "self_check": true
+    },
+    {
+     "q": "You have a user-defined module `stats.py` with a function `mean(data)`. In your main script, you also define a function `mean(values)`. Write the import statement that allows you to use both versions without renaming your own function.",
+     "a": "`import stats as st` then call `st.mean(data)` for the module version and `mean(values)` for your own. A wrong answer like `from stats import mean` would overwrite the local `mean`, showing failure to grasp that `from-import` binds the name in the current namespace.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the namespace effect of these two statements:\n1. `import random as r`\n2. `from random import randint as ri`\nWhich one adds `r` to the namespace? Which adds `ri`? Which adds `randint`?",
+     "a": "Statement 1 adds `r` (module object); `randint` is accessed as `r.randint`. Statement 2 adds `ri` (function object); `randint` is NOT added. A wrong answer claiming both add `randint` reveals confusion about whether `as` aliases the module or the imported name.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\nfrom math import sqrt as square_root\nresult = square_root(16)\n```\nThey argue this is better than `import math` because it's \"shorter.\" Evaluate this claim: when is aliasing on import justified, and when is it unnecessary verbosity?",
+     "a": "Aliasing is justified when the original name is long (`tkinter` → `tk`), conflicts with another name, or improves domain clarity (`pandas as pd`). It is unnecessary for short, unique names like `sqrt` — `square_root` adds characters without benefit. A wrong answer that says \"always use aliases for readability\" shows lack of judgment about trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python program that uses both `math.sqrt` and a user-defined function `sqrt(x)` that returns `x ** 0.5`. Show the exact import statement(s) needed so both can coexist and be called correctly in the same script.",
+     "a": "```python\nimport math as m\n\ndef sqrt(x):\n    return x ** 0.5\n\nprint(m.sqrt(25))   # 5.0\nprint(sqrt(25))     # 5.0\n```\nA poor answer uses `from math import sqrt` and then redefines `sqrt`, losing the math version — showing failure to apply namespace isolation via aliasing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

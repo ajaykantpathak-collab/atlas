@@ -1,0 +1,507 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 304,
+ "chapter_title": "The Age of Industrialisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess304.txt",
+ "concepts": [
+  {
+   "id": "jess.304.1.1",
+   "title": "Proto-Industrialisation",
+   "section": "1",
+   "definition": "A decentralized phase of large-scale manufacturing for global markets that occurred before the rise of modern factories, managed by urban merchants using rural family labor.",
+   "formula": "",
+   "key_idea": "Decentralized rural production coordinated by urban merchants prior to the factory system.",
+   "textbook_ref": "jess304.txt lines 105-150",
+   "question_patterns": [
+    "What is meant by proto-industrialisation?",
+    "Explain the features of the proto-industrial system in Europe.",
+    "How did merchants coordinate production in the countryside during the proto-industrial phase?",
+    "Why did merchants turn to the countryside to expand production in the seventeenth century?",
+    "Describe the network of commercial exchanges in proto-industrial England."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the role of town merchants",
+     "explain": "Town merchants moved to the countryside because powerful urban crafts and trade guilds restricted the entry of new competitors in towns."
+    },
+    {
+     "step": 2,
+     "action": "Describe the relationship with rural peasants",
+     "explain": "Merchants provided advances to poor peasants and artisans, who used family labor to produce goods, supplementing their shrinking agricultural incomes."
+    },
+    {
+     "step": 3,
+     "action": "Detail the decentralized production chain",
+     "explain": "Production occurred in stages across the countryside (spinning, weaving, fulling, dyeing) and was finished in London before being exported to international markets."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.2",
+   "title": "Arkwright's Cotton Mill and the Factory System",
+   "section": "1.1",
+   "definition": "The centralization of all manufacturing processes under a single roof and management, pioneered in the cotton industry by Richard Arkwright.",
+   "formula": "",
+   "key_idea": "Centralizing production processes under one roof to improve supervision, quality control, and labor regulation.",
+   "textbook_ref": "jess304.txt lines 155-190",
+   "question_patterns": [
+    "How did Richard Arkwright change the cotton production process?",
+    "What were the advantages of bringing all production processes under one roof in a mill?",
+    "Explain how the creation of the cotton mill improved quality control and supervision.",
+    "Why did the factory system replace domestic cottage industries in England?",
+    "Describe the impact of the early cotton mills on the English landscape."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the creation of the cotton mill",
+     "explain": "Richard Arkwright created the cotton mill, allowing costly new machines to be purchased, set up, and maintained in a centralized location."
+    },
+    {
+     "step": 2,
+     "action": "Explain the benefits of centralization",
+     "explain": "Bringing all processes (carding, spinning, weaving) under one roof and management enabled careful supervision of labor and quality control."
+    },
+    {
+     "step": 3,
+     "action": "Contrast with the domestic system",
+     "explain": "Unlike the decentralized countryside production where regulation was difficult, the mill allowed strict enforcement of work hours and standards."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.3",
+   "title": "Pace of Industrial Change",
+   "section": "1.2",
+   "definition": "The slow, uneven transition from traditional manual craft sectors to steam-powered mechanized industries, where traditional sectors remained highly resilient and dominant.",
+   "formula": "",
+   "key_idea": "Industrialization was a gradual process where new technology was expensive, prone to breakdown, and slow to replace traditional labor.",
+   "textbook_ref": "jess304.txt lines 195-250",
+   "question_patterns": [
+    "Why was the pace of technological change slow in nineteenth-century Britain?",
+    "Explain why industrialists were cautious about adopting new steam-powered machines.",
+    "How dominant was the technologically advanced industrial sector in Britain at the end of the nineteenth century?",
+    "Analyze the role of traditional craftspersons and laborers in the mid-nineteenth-century British workforce.",
+    "Why did James Watt's improved steam engine find few buyers initially?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the workforce distribution",
+     "explain": "Even at the end of the nineteenth century, less than 20 percent of the total workforce was employed in technologically advanced industrial sectors."
+    },
+    {
+     "step": 2,
+     "action": "Explain the economic caution of industrialists",
+     "explain": "New technology was highly expensive, machines broke down frequently, repairs were costly, and they were not as effective as inventors claimed."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the growth of traditional sectors",
+     "explain": "Growth in non-mechanized sectors like food processing, building, pottery, and furniture making relied on small, ordinary innovations rather than steam power."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.2.1",
+   "title": "Hand Labour and Steam Power",
+   "section": "2",
+   "definition": "The preference of Victorian industrialists for manual labor over expensive machinery due to an abundant labor supply, low wages, and seasonal fluctuations in demand.",
+   "formula": "",
+   "key_idea": "Abundant labor and seasonal production cycles made manual labor more cost-effective and flexible than machines.",
+   "textbook_ref": "jess304.txt lines 255-310",
+   "question_patterns": [
+    "Why did some industrialists in nineteenth-century Europe prefer hand labour over machines?",
+    "How did the abundance of human labour affect the introduction of machinery in Britain?",
+    "Explain the role of seasonal industries in promoting hand labour in nineteenth-century Europe.",
+    "Why did the upper classes in Victorian Britain prefer handmade products?",
+    "Contrast the labor situation in nineteenth-century America with that of Britain regarding mechanization."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify labor market conditions",
+     "explain": "An abundance of poor peasants and migrants moving to cities kept wages low, meaning industrialists had no incentive to invest in costly machines."
+    },
+    {
+     "step": 2,
+     "action": "Explain seasonal demand fluctuations",
+     "explain": "Industries like gasworks, breweries, bookbinding, printing, and ship repair had peak demands in specific seasons, making flexible manual hiring preferable."
+    },
+    {
+     "step": 3,
+     "action": "Discuss consumer preference for handmade goods",
+     "explain": "The upper classes preferred handmade goods because they symbolized refinement, class, better finish, and unique, customized designs."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.2.2",
+   "title": "Workers' Resistance and the Spinning Jenny",
+   "section": "2.1",
+   "definition": "The active opposition of traditional workers, especially women hand-spinners, to labor-saving machinery like James Hargreaves' Spinning Jenny due to fears of unemployment.",
+   "formula": "",
+   "key_idea": "Technological innovations that threatened manual jobs faced intense resistance and physical attacks from the workforce.",
+   "textbook_ref": "jess304.txt lines 315-370",
+   "question_patterns": [
+    "Why did women workers in Britain attack the Spinning Jenny?",
+    "How did the introduction of the Spinning Jenny affect the lives of hand spinners?",
+    "Explain the causes of conflict between workers and new technology in Victorian Britain.",
+    "What was the Spinning Jenny, and how did it speed up the spinning process?",
+    "How did the fear of unemployment shape workers' attitudes toward mechanization?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Spinning Jenny",
+     "explain": "Devised by James Hargreaves in 1764, the Spinning Jenny allowed a single worker turning one wheel to spin several threads simultaneously on multiple spindles."
+    },
+    {
+     "step": 2,
+     "action": "Explain the threat to livelihoods",
+     "explain": "The machine drastically reduced the demand for manual labor, threatening the survival of women who relied on hand spinning for income."
+    },
+    {
+     "step": 3,
+     "action": "Describe the resulting conflict",
+     "explain": "Fearing joblessness, women workers launched physical attacks on the new machines, leading to prolonged conflict over its introduction."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.1",
+   "title": "Shift in Indian Ports and Rise of Colonial Trade",
+   "section": "3.1",
+   "definition": "The decline of traditional Indian trading ports like Surat and Hoogly and the rise of Bombay and Calcutta, marking the transition of trade control from local merchants to European companies.",
+   "formula": "",
+   "key_idea": "Colonial consolidation shifted trade routes and administrative centers, bankrupting local bankers and merchants.",
+   "textbook_ref": "jess304.txt lines 375-430",
+   "question_patterns": [
+    "Why did the port of Surat decline by the end of the eighteenth century?",
+    "How did the growth of Bombay and Calcutta reflect the rise of colonial power in India?",
+    "Describe the network of Indian merchants and bankers before the establishment of European monopoly.",
+    "What were the consequences of the breakdown of the traditional Indian export trade network?",
+    "How did European companies gain control over Indian sea trade in the eighteenth century?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the pre-colonial trade network",
+     "explain": "A vibrant network of Indian merchants and bankers financed, procured, and exported fine textiles through ports like Surat and Hoogly."
+    },
+    {
+     "step": 2,
+     "action": "Explain the rise of European company power",
+     "explain": "European companies secured trade concessions from local courts and established monopoly rights, bypassing traditional networks."
+    },
+    {
+     "step": 3,
+     "action": "Detail the shift in port dominance",
+     "explain": "As Surat and Hoogly decayed, Bombay and Calcutta grew. Trade through these new ports was controlled by European companies and carried in European ships."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.2",
+   "title": "East India Company, Gomasthas, and Weavers",
+   "section": "3.2",
+   "definition": "The system of direct control established by the East India Company over Indian weavers using paid supervisors (gomasthas) and advances to eliminate competition and secure regular supplies.",
+   "formula": "",
+   "key_idea": "The Company used debt traps and coercive supervision to monopolize textile production, leading to clashes and weaver migration.",
+   "textbook_ref": "jess304.txt lines 435-490",
+   "question_patterns": [
+    "Why did the East India Company appoint gomasthas to supervise weavers in India?",
+    "How did the system of advances tie Indian weavers to the East India Company?",
+    "Explain the causes of clashes between Indian weavers and gomasthas.",
+    "How did the establishment of political power help the East India Company assert a monopoly on trade?",
+    "What were the consequences of the gomastha system on the social and economic lives of weavers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the role of the gomastha",
+     "explain": "The Company appointed paid servants called gomasthas to eliminate traditional brokers, supervise weavers, collect supplies, and inspect cloth quality."
+    },
+    {
+     "step": 2,
+     "action": "Describe the system of advances",
+     "explain": "Weavers were given loans to buy raw materials, which legally bound them to hand over their finished cloth exclusively to the Company."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the social and economic impact",
+     "explain": "Arrogant gomasthas physically punished weavers for delays. Low prices and debt traps forced weavers to revolt, desert their villages, or turn to agricultural labor."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.3",
+   "title": "Impact of Manchester Imports and Raw Cotton Crisis",
+   "section": "3.3",
+   "definition": "The double crisis faced by Indian weavers in the nineteenth century: the collapse of export markets due to British tariffs, and the shrinkage of local markets due to cheap machine-made imports from Manchester.",
+   "formula": "",
+   "key_idea": "British industrial protectionism and cheap machine-made goods devastated the Indian handloom industry, compounded by a raw cotton shortage during the American Civil War.",
+   "textbook_ref": "jess304.txt lines 495-550",
+   "question_patterns": [
+    "How did Manchester imports affect the cotton weavers of India?",
+    "Why did Indian textile exports decline drastically in the nineteenth century?",
+    "Explain the impact of the American Civil War on Indian weavers.",
+    "What dual problems did Indian weavers face in the mid-nineteenth century?",
+    "Why were Indian weavers starved of raw cotton in the 1860s?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the collapse of export markets",
+     "explain": "British cotton industrialists pressured their government to impose import duties on Indian textiles, causing Indian exports to collapse."
+    },
+    {
+     "step": 2,
+     "action": "Describe the impact of cheap imports",
+     "explain": "Cheap, machine-made Manchester goods flooded Indian local markets, making it impossible for handloom weavers to compete."
+    },
+    {
+     "step": 3,
+     "action": "Detail the raw cotton crisis",
+     "explain": "During the American Civil War, Britain turned to India for raw cotton. Exports surged, prices skyrocketed, and Indian weavers were starved of affordable raw materials."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.4.1",
+   "title": "Early Indian Entrepreneurs and Capital Accumulation",
+   "section": "4.1",
+   "definition": "The emergence of pioneering Indian industrialists who accumulated initial capital through the opium and tea trade with China or raw cotton exports to England before establishing domestic factories.",
+   "formula": "",
+   "key_idea": "Early Indian industrial capital was built on colonial trade networks, particularly the China trade, despite growing British restrictions.",
+   "textbook_ref": "jess304.txt lines 555-610",
+   "question_patterns": [
+    "Who were the early entrepreneurs who set up industries in nineteenth-century India?",
+    "How did Indian businessmen accumulate capital for setting up factories?",
+    "Explain the role of the China trade in the growth of early Indian industrial enterprises.",
+    "Describe the contributions of Dwarkanath Tagore and Jamsetjee Nusserwanjee Tata to Indian industry.",
+    "How did colonial policies restrict the space for Indian merchants and shippers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key early entrepreneurs",
+     "explain": "Pioneers like Dwarkanath Tagore in Bengal, and Dinshaw Petit and Jamsetjee Nusserwanjee Tata in Bombay, led early industrial investments."
+    },
+    {
+     "step": 2,
+     "action": "Explain the sources of capital accumulation",
+     "explain": "Many entrepreneurs accumulated wealth as junior partners in the British trade of exporting opium to China and importing tea to England."
+    },
+    {
+     "step": 3,
+     "action": "Describe the transition to domestic manufacturing",
+     "explain": "They reinvested their trade profits into setting up joint-stock companies, cotton mills, and eventually heavy industries like iron and steel."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.5.1",
+   "title": "First World War and Indian Industrial Growth",
+   "section": "5",
+   "definition": "The dramatic expansion of Indian industrial production during World War I, caused by the decline of British imports and the massive demand for military supplies.",
+   "formula": "",
+   "key_idea": "The distraction of British industries by war production created a vacuum that allowed Indian mills to capture the domestic market and supply military goods.",
+   "textbook_ref": "jess304.txt lines 665-720",
+   "question_patterns": [
+    "Why did industrial production in India increase during the First World War?",
+    "How did the First World War create a dramatically new situation for Indian industries?",
+    "What war supplies were Indian factories called upon to produce during World War I?",
+    "Explain the impact of World War I on British imports into India.",
+    "How did Indian industrialists consolidate their position after the First World War?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the decline of British imports",
+     "explain": "During World War I, British mills were fully occupied with war production for the army, causing Manchester imports into India to drop sharply."
+    },
+    {
+     "step": 2,
+     "action": "Describe the surge in military demand",
+     "explain": "Indian factories were commissioned to supply war materials, including jute bags, army uniforms, tents, leather boots, and saddles."
+    },
+    {
+     "step": 3,
+     "action": "Detail the long-term industrial impact",
+     "explain": "Indian mills ran multiple shifts and hired new workers. After the war, British industries could not recover, allowing Indian industrialists to capture the home market."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.5.2",
+   "title": "Survival of Small-Scale Industries and the Fly Shuttle",
+   "section": "5.1",
+   "definition": "The persistence and expansion of small-scale and handloom industries in twentieth-century India, aided by technological innovations like the fly shuttle and specialization in fine weaves.",
+   "formula": "",
+   "key_idea": "Small-scale producers survived factory competition by adopting low-cost productivity-enhancing technologies and catering to stable, specialized markets.",
+   "textbook_ref": "jess304.txt lines 725-780",
+   "question_patterns": [
+    "How did handloom weavers survive the competition from machine-made mill cloth in the twentieth century?",
+    "What was the fly shuttle, and how did it help Indian weavers?",
+    "Why did the demand for finer varieties of hand-woven cloth remain stable during famines?",
+    "Explain the role of technological changes in the expansion of handicrafts in twentieth-century India.",
+    "Why did small-scale industries continue to predominate in India despite the growth of factories?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the adoption of the fly shuttle",
+     "explain": "Weavers adopted the fly shuttle, a mechanical device moved by ropes and pulleys, which increased productivity per worker and speeded up weaving."
+    },
+    {
+     "step": 2,
+     "action": "Analyze market specialization",
+     "explain": "Weavers of fine varieties (like Banarasi or Baluchari saris) served the wealthy, whose demand was stable and unaffected by famines."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the limits of mill imitation",
+     "explain": "Factories could not easily replicate specialized weaves, intricate borders, or traditional items like Madras lungis and handkerchiefs."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.6.1",
+   "title": "Marketing Goods and Nationalist Advertisements",
+   "section": "6",
+   "definition": "The use of labels, calendars, images of deities, and royalty by manufacturers to build trust and create consumer demand, which later evolved into a vehicle for swadeshi nationalist messages.",
+   "formula": "",
+   "key_idea": "Advertisements shaped consumer culture, using religious and historical imagery to make foreign goods familiar, and later to promote domestic goods.",
+   "textbook_ref": "jess304.txt lines 785-840",
+   "question_patterns": [
+    "How did British manufacturers use advertisements to popularise their products in India?",
+    "Why did Manchester industrialists put labels on their cloth bundles?",
+    "Explain the significance of using images of Indian gods and goddesses on product labels.",
+    "How did calendars help in popularising products among illiterate consumers?",
+    "How did advertisements become a vehicle for the nationalist message of swadeshi?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the role of labels",
+     "explain": "Labels like 'MADE IN MANCHESTER' acted as marks of quality, making the place of manufacture familiar and building buyer confidence."
+    },
+    {
+     "step": 2,
+     "action": "Analyze religious and royal imagery",
+     "explain": "Beautiful illustrations of Indian deities (like Krishna or Saraswati) and historic figures were printed on labels and calendars to give divine or elite approval to the goods."
+    },
+    {
+     "step": 3,
+     "action": "Describe the nationalist swadeshi message",
+     "explain": "Indian manufacturers used advertisements to spread the nationalist message, urging citizens to show care for the nation by buying Indian-made goods."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess304.txt lines 105-150",
+   "concept": "jess.304.1.1",
+   "question_type": "short_answer",
+   "question_pattern": "Explain what is meant by proto-industrialisation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define proto-industrialisation",
+     "explain": "Proto-industrialisation refers to the early phase of industrialisation before the setup of modern factories, where large-scale production occurred in the countryside for international markets."
+    },
+    {
+     "step": 2,
+     "action": "Describe its key features",
+     "explain": "It was controlled by merchants based in towns, who supplied raw materials and advances to rural peasant families working on their own small plots."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess304.txt lines 255-310",
+   "concept": "jess.304.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why did some industrialists in nineteenth-century Europe prefer hand labour over machines?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain labor supply and cost",
+     "explain": "An abundance of migrant labor kept wages low, making manual labor highly cost-effective compared to expensive machinery."
+    },
+    {
+     "step": 2,
+     "action": "Explain seasonal demand",
+     "explain": "Many industries (like gasworks, breweries, and bookbinding) had highly seasonal production cycles, making flexible manual hiring more practical."
+    },
+    {
+     "step": 3,
+     "action": "Explain market demand for customized goods",
+     "explain": "The market demanded intricate designs and specific shapes (e.g., hundreds of varieties of hammers and axes) which required human skill rather than standardized machine output."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess304.txt lines 665-720",
+   "concept": "jess.304.5.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why did industrial production in India increase during the First World War?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the decline of British imports",
+     "explain": "British factories were diverted to produce war materials for the army, causing a sudden drop in Manchester imports to India."
+    },
+    {
+     "step": 2,
+     "action": "Describe the rise of domestic and military demand",
+     "explain": "Indian mills suddenly had a vast home market to supply, and were also commissioned by the colonial government to produce war goods like army uniforms, tents, leather boots, and jute bags."
+    },
+    {
+     "step": 3,
+     "action": "Detail the expansion of local factories",
+     "explain": "To meet this massive demand, Indian factories ran multiple shifts, set up new units, and hired many new workers, leading to a boom in production."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "jess304.txt lines 845-865",
+   "questions": [
+    "Explain why women workers in Britain attacked the Spinning Jenny.",
+    "Explain why in the seventeenth century merchants from towns in Europe began employing peasants and artisans within the villages.",
+    "Explain why the port of Surat declined by the end of the eighteenth century.",
+    "Explain why the East India Company appointed gomasthas to supervise weavers in India.",
+    "State whether true or false: At the end of the nineteenth century, 80 per cent of the total workforce in Europe was employed in the technologically advanced industrial sector.",
+    "State whether true or false: The international market for fine textiles was dominated by India till the eighteenth century.",
+    "State whether true or false: The American Civil War resulted in the reduction of cotton exports from India.",
+    "State whether true or false: The introduction of the fly shuttle enabled handloom workers to improve their productivity."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

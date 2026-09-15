@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_007",
+   "title": "c12_eco_cbse_01_007",
+   "questions": [
+    {
+     "q": "Classify the following statement as positive or normative: \"India's fiscal deficit for 2023-24 was 5.8% of GDP.\"",
+     "a": "**Answer:** Positive. It states a measurable fact about a past macroeconomic variable that can be verified from the Union Budget documents or CGA data.  \n**Wrong answer reveals:** If a student says \"normative\" because they think deficits are \"bad,\" they confuse a factual magnitude with a value judgment. They need to distinguish *description* from *prescription*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"The government should increase MGNREGA wages to ensure a living wage for rural workers\" is a normative statement, even though it references a factual programme.",
+     "a": "**Answer:** The statement contains \"should\" and \"living wage\" — a normative concept reflecting a view on fairness. While MGNREGA exists (positive fact), the claim about what *ought* to be done cannot be tested true/false by data alone; it depends on ethical priorities.  \n**Wrong answer reveals:** If a student says \"positive because MGNREGA is real,\" they miss that the *prescriptive* part (\"should increase\") makes the whole statement normative. They conflate reference to a real programme with the nature of the claim.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: \"When petrol price rose by ₹10/litre in Delhi, average monthly consumption fell by 4%.\" Identify the positive economic relationship and write a normative statement a consumer group might make about it.",
+     "a": "**Answer:** Positive relationship: \"A ₹10/litre price increase is associated with a 4% fall in petrol consumption\" (testable with sales data). Normative statement: \"The government should cut excise duty on petrol to protect middle-class households from price shocks.\"  \n**Wrong answer reveals:** If the student writes \"Petrol prices are too high\" as the positive statement, they confuse a subjective opinion with an observable correlation. They need practice extracting testable if-then claims from data.",
+     "self_check": true
+    },
+    {
+     "q": "A politician says: \"Cutting corporate tax from 30% to 22% will increase investment and create jobs, so the government must do it.\" Separate the positive and normative components. Which part can economics as a science evaluate?",
+     "a": "**Answer:** Positive component: \"Cutting corporate tax from 30% to 22% will increase investment and create jobs\" — a cause-effect claim testable with econometric evidence. Normative component: \"so the government must do it\" — a prescription based on prioritising job creation over revenue loss. Economics can evaluate the positive claim; the normative \"must\" requires political/ethical choice.  \n**Wrong answer reveals:** If the student says \"the whole thing is positive because it predicts outcomes,\" they miss that \"must\" introduces a value judgment. They need to spot hidden normative language (\"must,\" \"should,\" \"necessary\") inside policy arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Positive economics is more scientific than normative economics, so policymakers should ignore normative statements.\" Is the claim itself positive or normative? Justify.",
+     "a": "**Answer:** The claim is **normative**. It uses \"should\" (\"policymakers should ignore\") and asserts a value hierarchy (\"more scientific\" implies \"better for policy\"). Even the premise \"positive economics is more scientific\" is a methodological judgment, not a testable fact.  \n**Wrong answer reveals:** If the student says \"positive because it describes what economics does,\" they fail to see that *any* \"should\" statement is normative, even about methodology. This is a classic meta-level trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two statements about India's Public Distribution System (PDS): one positive, one normative. Ensure the positive statement uses a measurable variable (e.g., leakage rate, coverage) and the normative statement uses a value term (e.g., \"fair,\" \"adequate,\" \"must\").",
+     "a": "**Sample positive:** \"PDS grain leakage in 2022-23 was estimated at 28% of total allocation.\" (Verifiable from NSSO/CAG reports.)  \n**Sample normative:** \"The government must universalise PDS to ensure food security as a fundamental right.\" (Uses \"must\" and \"fundamental right\" — untestable value commitments.)  \n**Poor answer reveals:** If the positive statement says \"PDS is inefficient\" (vague, unmeasurable) or the normative says \"PDS leakage is 28% so it should be reformed\" (mixes positive fact with normative conclusion without separation), the student hasn't mastered clean classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

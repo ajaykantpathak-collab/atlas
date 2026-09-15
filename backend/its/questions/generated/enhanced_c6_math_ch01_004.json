@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_004",
+   "title": "c6_math_ch01_004",
+   "questions": [
+    {
+     "q": "If you have two numbers, 8,999 and 10,001, which one is larger without needing to look at individual digits?",
+     "a": "10,001 is larger because it has 5 digits, while 8,999 only has 4. A wrong answer suggests the student is ignoring the total count of digits and only looking at the starting digit, which leads to thinking 8 is larger than 1.",
+     "self_check": true
+    },
+    {
+     "q": "When comparing 5,672 and 5,627, why do we start looking at the thousands place instead of the ones place?",
+     "a": "We start from the left because the leftmost place value (thousands) carries the most weight in determining the total size of the number. A wrong answer shows a misunderstanding of place value, where the student might think all digits contribute equally to a number's magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Order these numbers from smallest to largest: 2,345, 2,312, 2,399.",
+     "a": "The order is 2,312, 2,345, 2,399. We compare the thousands (all 2), then the hundreds (all 3), and finally the tens; since 1 < 4 < 9, the order is clear. A wrong answer indicates the student is not comparing digits systematically from left to right.",
+     "self_check": true
+    },
+    {
+     "q": "If two numbers have the same digits in the thousands, hundreds, and tens places, what determines the larger number?",
+     "a": "The digit in the ones place determines the larger number. If a student says the numbers are equal, they have forgotten that every position is unique and contributes to the total value.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a 4-digit number to be larger than a 5-digit number? Explain your reasoning.",
+     "a": "No, it is never possible because any 5-digit number starts at 10,000, which is already greater than the largest 4-digit number, 9,999. If a student thinks it is possible, they are likely confusing the value of individual digits with the total value of the number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-digit number that is larger than 6,543 but smaller than 6,550.",
+     "a": "Any number like 6,544, 6,545, or 6,549 works. An incorrect answer usually shows the student doesn't understand the range between two values based on place-value progression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

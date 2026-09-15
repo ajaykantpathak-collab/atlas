@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_004",
+   "title": "c11_hs_cbse_09_004",
+   "questions": [
+    {
+     "q": "A parent buys a 2-year-old a sweater with a tight elasticated neckband because \"it keeps the cold out.\" Which basic clothing need is most directly compromised, and what specific physiological effect might occur?",
+     "a": "The basic need compromised is **comfort**, specifically the sub-need of unrestricted circulation and ease of dressing. A tight elasticated neckband can restrict blood flow to the head and cause discomfort or even difficulty in breathing. It also makes self-dressing harder (a self-help issue). A wrong answer (e.g., saying safety is compromised because of choking) reveals the student confuses comfort (physical ease, circulation) with safety (hazard prevention). While a tight neckband could be a safety issue if it poses strangulation, the primary immediate issue is comfort and circulation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a loose, flowing garment with hanging sashes is considered unsafe for a toddler playing near a kitchen stove, but the same garment might be acceptable for a 10-year-old attending an indoor birthday party. Use the concepts of 'flammability risk' and 'entanglement hazard' in your answer.",
+     "a": "A loose garment with hanging sashes increases the surface area exposed to open flames and can easily brush against a stove, catching fire (flammability risk). The sashes can also get caught in moving parts of toys or furniture (entanglement hazard). For a toddler, these risks are high because they lack awareness, have poor motor control, and are often at stove height. A 10-year-old has better judgment, is taller (away from stove elements), and is in a controlled indoor party setting without open flames or moving machinery. A wrong answer that says \"both are equally unsafe\" or \"the 10-year-old is also at high risk\" shows the student fails to contextualize safety hazards with the child's developmental stage and environment.",
+     "self_check": true
+    },
+    {
+     "q": "A designer creates a summer frock for a 4-year-old using a stiff, heavily starched cotton fabric with a high, tight collar and set-in sleeves with tight cuffs. List four specific comfort violations in this design, referencing the child's typical movements.",
+     "a": "1. Stiff, heavily starched fabric irritates sensitive skin and restricts bending/squatting.\n2. High, tight collar strains the throat during neck movements (looking up/down).\n3. Set-in sleeves with tight cuffs restrict arm raising and climbing.\n4. Lack of crotch ease (if frock is fitted at waist) restricts stride length and climbing.\nA wrong answer that only mentions \"it's uncomfortable\" without linking to specific movements (squatting, climbing, neck rotation) shows the student cannot connect design features to the biomechanics of child's play.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the safety implications of 'bright colour' versus 'reflective strips' on a child's outerwear for a 6-year-old walking to school in winter mornings. Which provides better protection and under what conditions?",
+     "a": "Bright colours (e.g., fluorescent yellow, orange) enhance daytime visibility by increasing contrast against the background, making the child more noticeable to motorists in low daylight. Reflective strips work by reflecting headlights at night or in very low light. For winter mornings (often dim but not fully dark), bright colours are more effective because there is enough ambient light for fluorescence to work, while reflective strips need direct light beams. A wrong answer that says \"reflective strips are always better\" ignores the physics of fluorescence vs. retroreflection and the specific lighting conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"For maximum safety, children's clothes should be bought one size larger so they last longer and loose fit prevents restriction.\" Provide three counterarguments based on comfort and safety principles.",
+     "a": "Counterarguments:\n1. **Safety**: Oversized garments increase flammability risk (loose fabric catches fire more easily) and entanglement hazard (excess fabric catches on playground equipment, bicycle chains).\n2. **Comfort**: Excess fabric bunches up, causing pressure points and restricting movement more than a well-fitted garment with ease allowance.\n3. **Developmental**: Oversized clothes hinder motor skill development (e.g., tripping on long hems, sleeves covering hands during fine motor tasks).\nA wrong answer that agrees with the statement shows the student confuses 'ease allowance' (designed extra space for movement) with 'oversized' (excess fabric that creates hazards).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 'comfort-safety checklist' for a parent buying a raincoat for a 5-year-old who walks to school in monsoon season. Include at least 5 checkpoints covering fabric, fit, visibility, fasteners, and hood design.",
+     "a": "Checklist:\n1. **Fabric**: Lightweight, waterproof yet breathable (e.g., PU-coated nylon) to prevent overheating and sweat buildup.\n2. **Fit**: Room for layering underneath but not oversized; hem above ankle to prevent tripping; sleeves end at wrist.\n3. **Visibility**: Bright colour (yellow/orange) with reflective strips on front, back, and sleeves for low-light monsoon mornings.\n4. **Fasteners**: Large, easy-to-grip zipper with chin guard; Velcro storm flap over zipper (no small buttons/snaps that are choking hazards or hard to manipulate).\n5. **Hood**: Adjustable elastic/drawcord (with safety toggle to prevent strangulation) that stays on in wind but doesn't obstruct peripheral vision; brim to shield face.\nA poor answer that lists generic features (\"waterproof, has hood, fits well\") without developmental reasoning (e.g., why large zipper, why no drawcord without toggle) shows the student cannot translate principles into specific, age-appropriate criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

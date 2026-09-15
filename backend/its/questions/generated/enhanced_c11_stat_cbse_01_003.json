@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_003",
+   "title": "c11_stat_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the five functions of statistics in economics as described in your textbook, and give a one-sentence economic illustration for each.",
+     "a": "The five functions are: (1) Presenting facts in precise/definite form—e.g., \"India's rice production rose from 39.58 million tonnes (1974–75) to 106.5 million tonnes (2013–14)\" instead of \"production increased a lot.\" (2) Condensing mass data—e.g., using per capita income to summarise incomes of 1.4 billion people. (3) Finding relationships between economic factors—e.g., estimating price elasticity of demand for petrol. (4) Predicting future trends—e.g., forecasting 2025 oil imports using past consumption data. (5) Formulating policies—e.g., designing MGNREGA budgets based on unemployment data. A wrong answer that lists only definitions without economic illustrations reveals the student memorised labels but cannot connect functions to real economic decisions.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT textbook states: \"Statistics is an indispensable tool for an economist that helps him to understand an economic problem.\" Explain why the word \"indispensable\" is used here, and why \"understand\" comes before \"solve.\"",
+     "a": "\"Indispensable\" means no economic problem can be analysed without data—unemployment cannot be measured, poverty lines cannot be drawn, inflation cannot be tracked without statistics. \"Understand\" precedes \"solve\" because diagnosis (identifying causes: low productivity, backward technology, unemployment) must come before prescription (policy). A wrong answer that says \"statistics solves problems directly\" reveals the misconception that statistics itself is a policy tool rather than an analytical lens; the student confuses the map (statistics) with the territory (economic reality).",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to decide how many new primary health centres to open in rural districts. List the specific statistical information they would need at each stage: (a) understanding the problem, (b) formulating the policy, (c) evaluating the policy after two years.",
+     "a": "(a) Understanding: district-wise population, existing doctor-population ratio, disease prevalence rates, distance to nearest facility, infant/maternal mortality rates. (b) Formulating: cost per centre, projected catchment population, required staff/equipment, budget allocation, priority ranking using composite index. (c) Evaluating: change in outpatient visits, reduction in referral distances, immunisation coverage before/after, patient satisfaction scores, cost per treatment. A wrong answer that gives generic \"health data\" for all stages reveals the student cannot distinguish diagnostic, planning, and evaluative data needs—each stage requires different variables and timeframes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the statement \"Hundreds of people died in the earthquake\" with \"310 people died in the recent earthquake in Kashmir.\" Which statistical function does this contrast illustrate? Why is the second statement more useful for government relief operations?",
+     "a": "This illustrates the function \"presenting economic facts in a precise and definite form.\" The second statement enables: (1) exact compensation budgeting (₹X per family × 310), (2) logistics planning (310 bodies, 310 death certificates), (3) comparison with historical data (was 310 higher/lower than 2005 quake?), (4) international aid appeals with verified figures. A wrong answer that says \"both mean the same thing\" reveals the student treats precision as pedantry rather than operational necessity—they miss that vague data leads to vague (and often inadequate) policy response.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"Since statistics can predict future trends using past data, the Finance Minister should simply use last year's tax collection data to forecast next year's revenue and set the budget accordingly.\"",
+     "a": "The argument ignores three critical limitations: (1) Structural changes—GST rate revisions, new tax laws, demonetisation effects break continuity with past data. (2) External shocks—pandemic, global recession, oil price spikes alter the relationship between economic activity and tax buoyancy. (3) Policy endogeneity—the budget itself changes behaviour (tax incentives shift filing patterns). Statistics identifies patterns *conditional on stability*; it cannot substitute for judgement about regime changes. A wrong answer that agrees reveals the student treats statistical prediction as mechanical extrapolation, ignoring the ceteris paribus assumption and the role of structural breaks in economic time series.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a policymaker uses ALL five functions of statistics sequentially to address an economic problem. Name the problem, the data used at each stage, and the final policy decision.",
+     "a": "Problem: Rising onion prices hurting urban consumers. (1) Precise presentation: \"Wholesale onion price rose from ₹15/kg (Jan) to ₹80/kg (Nov)\" — not \"prices shot up.\" (2) Condensation: Average monthly price index for 50 mandis replaces 1,500 daily quotes. (3) Relationship: Regression shows 1% drop in kharif acreage → 3% price rise; 10% export ban → 5% price drop. (4) Prediction: Using acreage, storage, import data, model forecasts ₹60/kg in Dec if 50,000 tonnes imported. (5) Policy: Government imports 50,000 tonnes, imposes stock limits, releases buffer stock—price stabilises at ₹55/kg. A poor answer that lists functions without a connected narrative reveals the student sees them as isolated definitions, not an integrated workflow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

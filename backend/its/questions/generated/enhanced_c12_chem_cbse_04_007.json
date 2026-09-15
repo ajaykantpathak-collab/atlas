@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_007",
+   "title": "c12_chem_cbse_04_007",
+   "questions": [
+    {
+     "q": "Name three transition metals used as catalysts in industrial processes and write the name of the process for each.",
+     "a": "Correct answer: Vanadium(V) oxide (V₂O₅) in the Contact process for H₂SO₄; Iron (Fe) in the Haber process for NH₃; Nickel (Ni) in catalytic hydrogenation of oils. A wrong answer (e.g., naming Cu for Haber process) reveals the student cannot link the specific catalyst to the industrial process, indicating they memorized names without understanding the role of variable oxidation states in catalysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why are transition metals like Cr, V, W, Mo, and Mn added to iron to produce various steels, while Zn is not used for this purpose?",
+     "a": "Correct answer: Cr, V, W, Mo, Mn have similar metallic radii (within 15%) to Fe, allowing them to form homogeneous solid solutions (alloys) that enhance hardness and melting point. Zn has a filled d¹⁰ configuration, different radius, and does not form such alloys; it is used for galvanization instead. A wrong answer (e.g., \"Zn is not a transition metal so it can't form alloys\") shows confusion between the definition of transition elements and the criteria for alloy formation (similar atomic radii).",
+     "self_check": true
+    },
+    {
+     "q": "A sample of mischmetal contains 95% lanthanoid metal (mainly Ce and La) and 5% iron with traces of S, C, Ca, Al. If 2.5 kg of this alloy is used to make lighter flints, calculate the mass of pure lanthanoid metal present. Explain why mischmetal is preferred over pure lanthanoid metal for this application.",
+     "a": "Step 1: Mass of lanthanoid metal = 95% of 2.5 kg = 0.95 × 2500 g = 2375 g. Step 2: Pure lanthanoid metals are too soft and reactive; adding Fe and traces improves mechanical strength and pyrophoric properties (produces sparks on striking). A wrong calculation (e.g., using 5% instead of 95%) or missing the property explanation indicates the student cannot apply percentage composition to real alloys or connect lanthanoid properties (softness, reactivity) to the need for alloying.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of lanthanoids in petroleum cracking catalysts with the use of actinoids (Th, U) in nuclear energy. Identify the fundamental property difference that drives these distinct applications.",
+     "a": "Lanthanoids (mixed oxides) are used as catalysts in petroleum cracking due to their stable +3 oxidation state, similar sizes (lanthanoid contraction), and ability to provide acidic sites. Actinoids (Th, U) are used for nuclear energy because they exhibit a wide range of oxidation states (+3 to +7) and, crucially, undergo nuclear fission (radioactivity). The fundamental difference: lanthanoid chemistry is dominated by stable +3 ions with similar sizes (chemical catalysis), while actinoids have accessible 5f orbitals enabling variable oxidation states and nuclear instability (nuclear energy). A wrong answer that attributes both to \"radioactivity\" or \"variable oxidation states\" shows failure to distinguish chemical vs nuclear properties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Silver and gold are still widely used as coinage metals in modern currency.\" Provide evidence from current Indian coinage to support or refute.",
+     "a": "The statement is partially incorrect. While Group 11 elements (Cu, Ag, Au) are historically coinage metals, modern Indian coins do not use Ag/Au for circulation. Current Indian coins: ₹1, ₹2, ₹5, ₹10 are stainless steel (Fe-Cr-Ni) or Cu-Ni alloy (\"silver\" coins) and copper-coated steel (\"copper\" coins). Ag/Au are restricted to bullion/collector coins. A student who says \"True, because they are coinage metals\" ignores the economic/practical shift to base metal alloys, showing lack of awareness of real-world currency composition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that transition metal ions (e.g., Cu²⁺, Fe³⁺) can catalyze the decomposition of hydrogen peroxide, while a non-transition metal ion (e.g., Zn²⁺) cannot. List the observations you would record.",
+     "a": "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third. Observe rate of O₂ bubble evolution. Record: time for first bubble, volume of gas per minute (using water displacement), final volume. Expected: Cu²⁺/Fe³⁺ show rapid bubbling (catalysis via redox cycling Cu²⁺/Cu⁺ or Fe³⁺/Fe²⁺); Zn²⁺ shows no change (d¹⁰, no accessible oxidation state). A poor design (e.g., no control, using solid metals instead of ions) reveals misunderstanding that catalytic activity in solution depends on variable oxidation states of the metal ion, not the bulk metal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

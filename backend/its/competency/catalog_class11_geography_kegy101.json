@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 101,
+ "chapter_title": "India: Location",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy101.txt",
+ "concepts": [
+  {
+   "id": "kegy.101.1.1",
+   "title": "Size and Location of India in the World",
+   "section": "Location",
+   "definition": "India lies entirely in the northern hemisphere between about 8 degree 4 minute and 37 degree 6 minute north latitude and 68 degree 7 minute and 97 degree 25 minute east longitude, with the Tropic of Cancer dividing the country into almost two equal halves and the 82 degree 30 minute east meridian fixing Indian Standard Time.",
+   "formula": "",
+   "key_idea": "India's central location at the head of the Indian Ocean and its contacts with West Asia, Africa, Europe and East Asia give it a commanding trade and cultural position.",
+   "textbook_ref": "kegy101.txt size and location sections",
+   "question_patterns": [
+    "describe the latitudinal and longitudinal extent of india",
+    "what is the significance of the tropic of cancer for india",
+    "how is indian standard time determined",
+    "which water bodies border the indian peninsula",
+    "why is india called a subcontinent",
+    "name india's neighbouring countries and their locations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.101.2.1",
+   "title": "India and Its Neighbours: Political Contacts",
+   "section": "India and its neighbours",
+   "definition": "India shares land boundaries with Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh and Myanmar, and its island neighbours Sri Lanka and Maldives lie across the Palk Strait and the Arabian Sea, linking South Asia through trade and culture.",
+   "formula": "",
+   "key_idea": "The Himalayas guard the north, the Bay of Bengal, Arabian Sea and Indian Ocean enclose the peninsula, and Sri Lanka is separated by the narrow Palk Strait.",
+   "textbook_ref": "kegy101.txt india and neighbours section",
+   "question_patterns": [
+    "name the countries sharing a land border with india",
+    "which strait separates sri lanka from india",
+    "how do the himalayas influence india's northern boundary",
+    "locate india's island neighbours",
+    "which states border pakistan and bangladesh",
+    "why is the indian ocean named after india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.101.3.1",
+   "title": "Standard Meridian, Time and India's Size",
+   "section": "Location",
+   "definition": "India covers about 3.28 million square km, nearly 2.4 per cent of the world's total area, and the standard meridian of 82 degree 30 minute east passing through Mirzapur fixes Indian Standard Time, about five and a half hours ahead of Greenwich Mean Time.",
+   "formula": "",
+   "key_idea": "The east-west spread of about 30 degrees of longitude makes the sun rise nearly two hours earlier in Arunachal Pradesh than in Gujarat, which the standard meridian harmonises.",
+   "textbook_ref": "kegy101.txt size and standard meridian sections",
+   "question_patterns": [
+    "how large is india in area compared to the world",
+    "which meridian is taken as the standard meridian of india",
+    "why does the sun rise earlier in arunachal pradesh than in gujarat",
+    "what is the time difference between ist and gmt",
+    "which states does the tropic of cancer pass through",
+    "how does india's size give it diversity of climate and vegetation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy101.txt exercises",
+   "questions": [
+    "Choose the right answer: The Tropic of Cancer does not pass through which state?",
+    "Name the group of islands lying in the Arabian Sea.",
+    "Why is the 82 degree 30 minute E meridian important for India?",
+    "The sun rises in Arunachal Pradesh about two hours before Gujarat - explain.",
+    "Name the neighbouring countries of India and their capitals."
+   ]
+  }
+ ]
+}

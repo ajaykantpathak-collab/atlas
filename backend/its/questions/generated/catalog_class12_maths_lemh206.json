@@ -1,0 +1,375 @@
+{
+ "catalog": "catalog_class12_maths_lemh206.json",
+ "concepts": [
+  {
+   "id": "lemh.206.12.2.1",
+   "title": "Formulating a Linear Programming Problem",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (39 - 9) / 3 gives 10",
+     "compute": "x = (39 - 9) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 3x + 9 = 39.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 3 = 81.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 40 = 5.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 16 = 2.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 3 = 1x + 23.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5(x + 3) = 35.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.2",
+   "title": "Feasible Region of the Constraints",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 2 * 2 + 2 * 2 + 7 gives 15",
+     "compute": "val = 1 * 2 * 2 + 2 * 2 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 2x + 7 as x approaches 2 (direct substitution).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^3 is 15x^2. Find the derivative's value at x = 2.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 2x + 8, find the slope of the tangent at x = 2.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 2x + 8 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.07",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 5.",
+     "a": "10935",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.3",
+   "title": "Corner Point Method",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular pentagon?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.4",
+   "title": "Objective Value at a Corner Point",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular hexagon?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.5",
+   "title": "Intersection of Two Boundary Lines",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (91 - 14) / 7 gives 11",
+     "compute": "x = (91 - 14) / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 7x + 14 = 91.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 6 = 12.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 8 = 8.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 5 = 3.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 9 = 2x + 27.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 4) = 48.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.6",
+   "title": "Bounded and Unbounded Feasible Regions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 8 * 100 + 7 * 10 + 3 gives 9873",
+     "compute": "big = 9 * 1000 + 8 * 100 + 7 * 10 + 3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 3 * 1000 + 7 * 100 + 8 * 10 + 9 gives 3789",
+     "compute": "small = 3 * 1000 + 7 * 100 + 8 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 6084",
+     "compute": "diff = big - small"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For the digits 3, 8, 9, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "6084",
+     "self_check": false
+    },
+    {
+     "q": "The number 4949 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 4949.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 4949 (= 26) is divided by 9.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 26, reverse its digits to get 62, and find the positive difference (a Kaprekar-style step).",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 26 (digits 2 and 6), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.7",
+   "title": "Multiple Optimal Solutions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 1 * 1 + 5 * 1 + 2 gives 10",
+     "compute": "val = 3 * 1 * 1 + 5 * 1 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 5x + 2 as x approaches 1 (direct substitution).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 1.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 4x + 6, find the slope of the tangent at x = 4.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 4x + 6 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.03",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 5.",
+     "a": "10935",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.206.12.2.8",
+   "title": "Infeasible Constraint Systems",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((34, 17, 25, 30, 25)) gives 131",
+     "compute": "total = sum((34, 17, 25, 30, 25))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 26.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 34, 17, 25, 30, 25.",
+     "a": "26.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 15, 18, 30, 39 (already in increasing order).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 4, 6. A seventh value 60 is added, making 7 values. Find the median of the 7 values.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 18 and 55. Find the median.",
+     "a": "36.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 1 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 22, 7, 19, 56.",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

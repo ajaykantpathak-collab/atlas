@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_003",
+   "title": "c12_bs_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the primary objective of Time Study according to Taylor?",
+     "a": "The primary objective of Time Study is to determine the standard time required for a qualified worker to complete a well-defined task at normal pace, which then becomes the basis for deciding the number of workers needed, framing incentive schemes, and calculating labour costs. A wrong answer such as \"to monitor workers continuously\" or \"to speed up production at any cost\" reveals confusion between Time Study (measurement for standard-setting) and surveillance or speed-up tactics, ignoring Taylor's emphasis on fair day's work and scientific determination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how Motion Study differs from Time Study, and give one concrete example of a motion that Motion Study would classify as \"unproductive.\"",
+     "a": "Motion Study analyses the body movements (lifting, reaching, bending) involved in a job to eliminate unnecessary motions, whereas Time Study measures the duration of the job using the improved method. An example of an unproductive motion: a worker walking 10 meters to fetch a tool that could have been placed within arm's reach. A wrong answer that conflates the two (e.g., \"Motion Study measures how fast a worker moves\") shows the student has not grasped that Motion Study precedes and informs Time Study by designing the method whose time is then measured.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces steel brackets. The current method requires a worker to: (1) pick up a blank from a bin 2 m away, (2) walk to the press, (3) load the blank, (4) press the pedal, (5) unload the finished bracket, (6) walk to a gauge 3 m away, (7) inspect, (8) walk back to the bin. Using Motion Study principles, redesign the sequence to eliminate at least three unproductive motions. List the new sequence and name the specific motions removed.",
+     "a": "New sequence: (1) Pick blank from bin placed at press side (eliminates walk to press), (2) Load blank, (3) Press pedal, (4) Unload into chute that slides part to gauge (eliminates walk to gauge and walk back), (5) Inspect at gauge. Removed motions: walking to press (transport), walking to gauge (transport), walking back to bin (transport). A wrong answer that merely reorders steps without relocating bins/gauges shows the student treats Motion Study as scheduling rather than workplace layout redesign.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Functional Foremanship with the traditional single-foreman system on the dimensions of (a) span of control, (b) specialisation of supervisory roles, and (c) unity of command. Which dimension represents the sharpest departure from Fayol's principle of Unity of Command?",
+     "a": "(a) Span of control: Traditional — one foreman supervises 30-50 workers; Functional — eight specialists each supervise the same workers for their specific function, so each specialist has a narrower but deeper span. (b) Specialisation: Traditional — foreman is a generalist; Functional — eight experts (Instruction Card Clerk, Route Clerk, Time & Cost Clerk, Disciplinarian, Speed Boss, Gang Boss, Repair Boss, Inspector). (c) Unity of command: Traditional — one boss; Functional — worker receives orders from eight foremen. The sharpest departure is (c) Unity of Command, which Fayol considered sacrosanct but Taylor deliberately violated to achieve functional specialisation. A wrong answer that claims Functional Foremanship preserves unity of command reveals the student has missed Taylor's explicit rejection of this principle.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Differential Piece Wage System exploits workers by paying them less when they fail to meet a standard that management sets unilaterally.\" Use Taylor's concept of Mental Revolution and the role of scientific standard-setting in your evaluation.",
+     "a": "The statement reflects a rule-of-thumb view. Under Taylor, the standard is not set unilaterally; it is derived from Time Study, Motion Study, and Fatigue Study conducted jointly by management and worker representatives, ensuring the \"fair day's work\" is scientifically determined, not arbitrary. Mental Revolution requires management to share productivity gains (higher piece rate for above-standard output) and workers to accept the scientific standard without restriction. The differential (e.g., ₹50 vs ₹40 per unit) is large enough to motivate but not so punitive as to cause destitution. A wrong answer that agrees with the statement shows the student has not understood that Taylor's system replaces bargaining with measurement and that the differential is a signal, not a penalty.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini case study (150 words) set in an Indian auto-component SME where at least four of Taylor's techniques are applied together to solve a productivity-and-fatigue problem. Explicitly name each technique and show how its output feeds into the next technique.",
+     "a": "A good answer will present a coherent narrative such as: \"Precision Gears Pvt. Ltd., Pune, makes gear shafts. **Method Study** mapped the current process and found workers carrying blanks 5 m between machines. **Motion Study** eliminated the carry by installing a roller conveyor. **Time Study** on the new method set standard time at 4.2 min/shaft (down from 7 min). **Fatigue Study** mandated a 5-min rest every 90 min based on heart-rate data. **Standardisation** fixed tool geometry and raw-material specs. **Functional Foremanship** assigned a Route Clerk to maintain the conveyor schedule and a Speed Boss to monitor cycle time. **Differential Piece Wage** paid ₹18/shaft above 120 shafts/shift and ₹12 below. Output rose 65% and fatigue complaints dropped 80%.\" A poor answer lists techniques without showing the feed-forward linkage (e.g., Motion Study output becoming Time Study input).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

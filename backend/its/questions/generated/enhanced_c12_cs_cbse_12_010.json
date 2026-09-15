@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_010",
+   "title": "c12_cs_cbse_12_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a copyleft license (like GPL) and a permissive license (like MIT) in terms of obligations on derivative works?",
+     "a": "A copyleft license requires that derivative works (modified versions or works that incorporate the licensed code) be distributed under the same license terms, preserving the freedoms for downstream users. A permissive license imposes minimal obligations — typically only attribution — and allows derivative works to be relicensed under different terms, including proprietary licenses. A wrong answer (e.g., \"both allow proprietary use\" or \"both require sharing source code\") reveals confusion between the viral nature of copyleft and the non-viral nature of permissive licenses.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds an MIT-licensed library on GitHub, modifies it, and wants to include the modified version in a commercial closed-source application they plan to sell. Is this allowed? Explain why or why not.",
+     "a": "Yes, it is allowed. The MIT license permits modification, distribution, sublicensing, and commercial use, provided the original copyright notice and license text are included in all copies or substantial portions of the software. The student can keep their application proprietary. A wrong answer (e.g., \"No, because MIT requires open sourcing the whole app\") reveals the misconception that all open source licenses are viral like GPL.",
+     "self_check": true
+    },
+    {
+     "q": "A company uses a GPL v3 licensed library as a dependency in their proprietary web application. The application runs on the company's servers and users interact with it via a browser (SaaS model). The company does not distribute the software to users. Does the GPL v3 require the company to release their application's source code? Explain the role of the \"conveyance\" concept.",
+     "a": "Under GPL v3, merely running the software on a server and allowing users to interact with it over a network (SaaS) does NOT constitute \"conveyance\" (distribution) because the software is not transferred to the user. Therefore, the company is not required to release the source code of the proprietary application. However, if they used AGPL (Affero GPL), the network interaction would trigger the source-sharing requirement. A wrong answer (e.g., \"Yes, GPL always requires source release\") shows misunderstanding of the distribution/conveyance trigger and the distinction between GPL and AGPL.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the patent-related provisions of the Apache License 2.0 and the MIT License. Why might a corporate legal team prefer Apache 2.0 for a project that involves potential patented algorithms?",
+     "a": "Apache 2.0 includes an explicit patent license grant from each contributor to the user, and a patent retaliation clause: if the user sues anyone for patent infringement related to the software, their patent licenses terminate. MIT has no explicit patent grant or retaliation clause, leaving patent rights ambiguous. Corporations prefer Apache 2.0 for patent clarity and protection. A wrong answer (e.g., \"Both have the same patent terms\") indicates lack of awareness of Apache's explicit patent provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Using GPL-licensed code in a proprietary project is never allowed.\" Provide a nuanced answer covering static linking, dynamic linking, and the system library exception.",
+     "a": "The statement is false. GPL allows combining GPL code with proprietary code under certain conditions: (1) If the proprietary code is a separate work that communicates at arms-length (e.g., via pipes, sockets, command line), it may not be considered a derivative work. (2) The GPL has a \"system library\" exception allowing linking with standard OS libraries. (3) Dynamic linking vs. static linking is debated; the FSF considers dynamic linking to create a combined work, but some jurisdictions disagree. A wrong absolute answer shows lack of nuance about derivative work boundaries and linking mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (in text form) that a developer could follow to choose between GPL-3.0, MIT, and Apache-2.0 for a new open source project. Include at least four decision nodes based on project goals (e.g., \"Do you want to require derivatives to be open source?\" \"Do you need explicit patent grants?\").",
+     "a": "A good answer presents a logical flowchart, e.g.:\nSTART -> Q1: Want to force derivatives to stay open? YES -> GPL-3.0; NO -> Q2: Need explicit patent grant/protection? YES -> Apache-2.0; NO -> Q3: Want simplest license with only attribution? YES -> MIT; NO -> Consider other licenses.\nA poor answer (e.g., just picking one license without reasoning) reveals inability to map license features to project objectives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

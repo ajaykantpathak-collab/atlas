@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_011",
+   "title": "c7_geo_ch01_011",
+   "questions": [
+    {
+     "q": "What term describes how human societies adapt their clothing, food, and housing to match their surrounding landforms and climate?",
+     "a": "Environmental adaptation or geographical influence on culture. A wrong answer shows confusion with political boundaries or historical timelines, missing how physical geography directly shapes daily human life.",
+     "self_check": true
+    },
+    {
+     "q": "Why do traditional houses in heavy rainfall regions like Assam have elevated bamboo stilt foundations rather than flat, ground-level mud bricks?",
+     "a": "Stilt houses protect homes from seasonal floods and damp soil caused by heavy monsoon downpours. A wrong answer indicates the student thinks houses are built purely by personal choice rather than adapting to local flood risks and heavy rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "If a state has rugged mountainous terrain with cold winters and terraced slopes, what primary farming practice and staple diet would you expect to find there?",
+     "a": "Steps to solve: \n1. Identify the landform: Mountains with slopes. \n2. Identify the climate: Cold winters. \n3. Determine farming: Terraced farming on hill slopes. \n4. Determine diet: Cold-tolerant crops like barley, maize, or potatoes. \nA wrong answer reveals a failure to link physical terrain (slopes) and climate (cold) with agricultural practices.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why coastal regions like Kerala feature staple diets rich in rice and fish, while interior semi-arid regions like western Rajasthan feature pearl millet (bajra) and milk-based products.",
+     "a": "Coastal geography provides abundant water for rice cultivation and immediate access to marine life, whereas semi-arid desert geography receives minimal rainfall, making drought-resistant bajra and livestock rearing (milk) the primary survival options. A wrong answer shows the student views food habits as random rather than tied to local agricultural capabilities driven by climate and water availability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Modern technology and transport have completely eliminated the influence of physical geography on Indian regional cultures.\" Is this true or false? Justify your reasoning.",
+     "a": "This is false. While modern technology allows goods to be transported across regions, fundamental cultural markers like traditional architecture, regional festivals linked to harvest seasons, and staple clothing adapted to local heat or cold remain deeply rooted in geographic realities. A wrong answer shows a superficial view of modern development without recognizing enduring environmental foundations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable housing and livelihood plan for a newly settled community in a high-altitude Himalayan valley, keeping local geographical constraints in mind.",
+     "a": "A good plan should propose insulated, sloping-roof wooden or stone houses to handle snow accumulation, terraced farming with greenhouse covers for cold-hardy crops, and wool-based cottage industries. A poor plan suggests flat-roof concrete buildings or tropical crop farming, showing a complete disregard for alpine geographical constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

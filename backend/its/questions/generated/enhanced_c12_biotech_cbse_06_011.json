@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_011",
+   "title": "c12_biotech_cbse_06_011",
+   "questions": [
+    {
+     "q": "A student prepares MS medium for tobacco leaf disc organogenesis but forgets to adjust pH to 5.8 before autoclaving; the medium solidifies at pH 6.5. After 3 weeks, explants show excessive callus but no shoot buds. What is the PRIMARY reason pH affects this outcome?",
+     "a": "Correct answer: pH alters the ionization state and thus the availability/uptake of nutrients (especially iron, phosphate) and the stability/activity of plant growth regulators (e.g., auxins degrade faster at high pH). At pH 6.5, reduced iron uptake causes chlorosis, and altered auxin:cytokinin balance favors callus over organogenesis. A wrong answer like \"pH only affects gelling of agar\" reveals the misconception that pH is merely a physical solidification parameter, ignoring its biochemical role in nutrient solubility and hormone stability.",
+     "self_check": true
+    },
+    {
+     "q": "Two students use identical MS medium + 2 mg/L 2,4-D + 0.5 mg/L kinetin for callus induction from mature embryos of wheat (genotype A) and rice (genotype B). Wheat produces friable callus in 2 weeks; rice shows no response after 4 weeks. Explain why genotype is a dominant factor using the concept of \"competence.\"",
+     "a": "Correct answer: Competence is the intrinsic genetic ability of cells/tissues to respond to inductive signals (PGRs). Wheat genotype A possesses the regulatory networks (e.g., WUSCHEL, LEC genes) that perceive 2,4-D/kinetin and activate callus formation; rice genotype B lacks or suppresses these networks, making it recalcitrant. A wrong answer like \"rice needs higher 2,4-D\" treats genotype as a quantitative dose issue rather than a qualitative competence barrier, missing that some genotypes simply cannot initiate callus regardless of hormone levels.",
+     "self_check": true
+    },
+    {
+     "q": "You are optimizing somatic embryogenesis in carrot. The current protocol: MS + 2,4-D (2 mg/L) in dark for 4 weeks → transfer to hormone-free MS under 16h light. You observe high callus yield but <5% embryo conversion. Propose TWO specific medium modifications (with concentrations) to improve embryo maturation and conversion, justifying each based on known factor interactions.",
+     "a": "Correct answer: (1) Reduce 2,4-D to 0.5 mg/L or remove it during induction after 2 weeks — prolonged high auxin maintains embryogenic callus but inhibits maturation; (2) Add 3-5% (w/v) sucrose + 40 g/L activated charcoal in maturation medium — high osmoticum mimics desiccation stress triggering maturation, charcoal absorbs excess auxin/phenolics. A wrong answer like \"increase 2,4-D to 5 mg/L for more embryos\" shows failure to understand that auxin promotes induction but blocks maturation; it also misses the osmotic/charcoal role in mimicking seed environment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009). Which pathway is more sensitive to: (a) explant age, (b) nitrogen form (NH₄⁺:NO₃⁻ ratio), (c) gelling agent concentration? Provide a mechanistic reason for each.",
+     "a": "Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age — it requires highly meristematic/competent cells (e.g., young zygotic embryos, microspores) to activate embryonic pathways; organogenesis can use differentiated tissues (leaf, stem) with broader age windows. (b) Somatic embryogenesis is more sensitive to NH₄⁺:NO₃⁻ ratio — high NH₄⁺ promotes embryogenic competence but can be toxic; organogenesis tolerates wider ratios. (c) Organogenesis is more sensitive to gelling agent concentration — shoot bud emergence requires precise mechanical resistance; somatic embryogenesis in liquid/semi-solid is less mechanically constrained. A wrong answer treating both pathways as equally sensitive ignores the distinct developmental checkpoints (embryo patterning vs. meristem formation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a recalcitrant woody species, the single most effective modification to achieve shoot regeneration is switching from MS to WPM (woody plant medium) because WPM has lower salt concentrations.\" Is this always true? Defend or refute with two specific counterexamples where WPM fails.",
+     "a": "Refute. WPM's lower ionic strength (especially NH₄NO₃, KNO₃) benefits many woody species by reducing hyperhydricity and salt stress, but it is NOT universally superior. Counterexample 1: *Eucalyptus* spp. often regenerate better on MS or half-strength MS with high nitrate because they have high nitrogen demand during rapid shoot elongation. Counterexample 2: Species requiring high calcium for somatic embryogenesis (e.g., *Quercus*) may fail on WPM due to its lower CaCl₂ (96 mg/L vs MS 440 mg/L). The statement oversimplifies by ignoring species-specific nutrient optima and the interaction between basal salts and PGR efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2×2 factorial experiment to test the interaction between **light quality (red vs. blue LED)** and **sucrose concentration (20 vs. 30 g/L)** on shoot proliferation rate (shoots/explant) in *Stevia rebaudiana* micropropagation. Specify: (a) hypothesis, (b) controlled variables (min 4), (c) response variable measurement protocol, (d) statistical analysis plan.",
+     "a": "(a) Hypothesis: Blue light enhances shoot proliferation at 30 g/L sucrose by promoting photosynthesis and reducing hyperhydricity, while red light favors proliferation at 20 g/L by stimulating stem elongation. (b) Controlled variables: (1) Basal medium (MS + 0.5 mg/L BAP + 0.1 mg/L NAA), (2) pH 5.8, (3) Temperature 25±1°C, (4) Photoperiod 16h/8h, (5) Explant type (uniform nodal segments, 1 cm), (6) Vessel type (Magenta boxes), (7) Gelling agent (0.8% agar). (c) Response: After 4 weeks, count shoots ≥2 mm per explant (n=15 explants/treatment). (d) Analysis: Two-way ANOVA (light × sucrose) with Tukey's HSD post-hoc; check interaction term significance (p<0.05). A poor design omits replication, ignores hyperhydricity scoring as a covariate, or uses unequal sample sizes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

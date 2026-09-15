@@ -1,0 +1,590 @@
+{
+ "class": "12",
+ "subject": "business_studies",
+ "chapter": 4,
+ "chapter_title": "Planning",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0316.txt",
+ "concepts": [
+  {
+   "id": "c12bs.4.1",
+   "title": "Meaning and Features of Planning",
+   "section": "Meaning and Features of Planning",
+   "definition": "Planning is the process of thinking before doing. It is the process of setting objectives and formulating a course of action to achieve those objectives. Planning is the first function of management and provides the basis for all other functions -- organising, staffing, directing and controlling.",
+   "formula": "",
+   "key_idea": "Planning is the primary function of management that involves deciding in advance what to do, how to do it, when to do it and who will do it. Its key features are: (1) it is goal-oriented; (2) it is a primary function (precedes all other functions); (3) it is pervasive (applies at all levels of management); (4) it is a continuous process; (5) it involves choice (selecting among alternatives); (6) it is forward-looking (future-oriented); (7) it is a mental exercise (intellectual process).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define planning and explain any four features of planning.",
+    "Why is planning called the primary function of management? Explain.",
+    "Explain how planning is a pervasive and continuous process.",
+    "How is planning a mental exercise? Explain.",
+    "Explain any five features of planning with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define planning",
+     "explain": "State that planning is the process of setting objectives and developing a course of action to achieve those objectives -- it is thinking before doing."
+    },
+    {
+     "step": 2,
+     "action": "List the relevant features",
+     "explain": "Enumerate the features: goal-oriented, primary function, pervasive, continuous, involves choice, forward-looking, mental exercise."
+    },
+    {
+     "step": 3,
+     "action": "Explain each feature with an example",
+     "explain": "Illustrate -- e.g. goal-oriented means plans are made to achieve specific targets; primary function means planning must precede organising, staffing, etc.; pervasive means planning is done at top, middle and lower levels of management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define planning and explain any four features of planning.",
+     "solution": "Planning is the process of setting objectives and formulating a course of action to achieve those objectives. Four features: (1) Goal-oriented -- plans are made to achieve specific organisational goals. (2) Primary function -- planning is the first function of management and provides the basis for organising, staffing, directing and controlling. (3) Pervasive -- planning is required at all levels of management (top, middle and lower). (4) Continuous -- planning is an ongoing process; plans are revised and new plans are made as circumstances change.",
+     "answer": "Planning = setting objectives and course of action; features -- goal-oriented, primary, pervasive, continuous."
+    },
+    {
+     "question": "Why is planning called the primary function of management? Explain.",
+     "solution": "Planning is called the primary function of management because it precedes all other management functions. Before a manager can organise resources, staff the organisation, direct employees or control performance, he must first decide what objectives to achieve and how to achieve them. Planning sets the goals and the course of action, which then provides the framework for all subsequent functions. Without planning, the other functions would lack direction and purpose.",
+     "answer": "Planning is primary because it precedes and provides the basis for organising, staffing, directing and controlling."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five features of planning with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain how planning is both a forward-looking and a mental exercise.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.2",
+   "title": "Importance of Planning",
+   "section": "Importance of Planning",
+   "definition": "Planning is important because it provides direction, reduces the risk of uncertainty, promotes innovative ideas, facilitates decision-making, establishes standards for controlling and leads to the optimum utilisation of resources.",
+   "formula": "",
+   "key_idea": "The importance of planning lies in six key areas: (1) it provides direction by setting clear goals and the path to achieve them; (2) it reduces the risk of uncertainty by anticipating changes; (3) it promotes innovative and creative ideas; (4) it facilitates decision-making by providing a framework for evaluating alternatives; (5) it establishes standards for controlling (actual performance is compared with planned targets); (6) it leads to optimum utilisation of resources by avoiding wastage and overlap.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain any five points highlighting the importance of planning.",
+    "How does planning help in reducing the risk of uncertainty? Explain.",
+    "How does planning establish standards for controlling? Explain.",
+    "Explain how planning leads to optimum utilisation of resources.",
+    "How does planning facilitate decision-making in an organisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific importance point in question",
+     "explain": "Determine which point is being asked -- direction, reducing risk, innovation, decision-making, standards for control, or resource utilisation."
+    },
+    {
+     "step": 2,
+     "action": "State the relevant point(s) of importance",
+     "explain": "List the relevant points: provides direction, reduces uncertainty, promotes innovation, facilitates decision-making, sets standards for control, ensures optimum resource use."
+    },
+    {
+     "step": 3,
+     "action": "Explain each point with a practical example",
+     "explain": "Illustrate -- e.g. planning provides direction because all departments know what targets to achieve; it reduces risk because managers anticipate future changes; it sets standards for control because planned targets are compared with actual results."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any five points highlighting the importance of planning.",
+     "solution": "(1) Provides direction: planning sets clear goals and the path to achieve them, so all employees know what is expected. (2) Reduces risk of uncertainty: by anticipating future changes, planning helps managers prepare for contingencies. (3) Promotes innovative ideas: planning encourages managers to think of new and better ways of doing things. (4) Facilitates decision-making: planning provides a framework for evaluating alternatives and choosing the best course of action. (5) Establishes standards for controlling: planned targets serve as benchmarks against which actual performance is measured.",
+     "answer": "Five points -- direction, reduces risk, innovation, decision-making, standards for control."
+    },
+    {
+     "question": "How does planning establish standards for controlling? Explain.",
+     "solution": "Planning sets specific, measurable targets and objectives for the organisation. These planned targets serve as standards or benchmarks. In the controlling function, actual performance is compared against these planned standards. If there is a deviation, corrective action is taken. Thus, planning provides the basis for control -- without planning, there would be no standards against which to measure actual performance.",
+     "answer": "Planning sets targets that serve as standards for comparing actual performance in the control process."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any six points of importance of planning.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does planning promote innovative ideas in an organisation? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.3",
+   "title": "Planning Process",
+   "section": "Planning Process",
+   "definition": "The planning process is the sequence of steps that managers follow to develop a plan. It consists of: (1) setting objectives; (2) developing planning premises; (3) identifying alternative courses of action; (4) evaluating alternative courses; (5) selecting the best alternative; (6) implementing the plan; (7) following up (monitoring and review).",
+   "formula": "",
+   "key_idea": "The planning process involves seven sequential steps: (1) Setting objectives -- the goals the organisation wants to achieve; (2) Developing planning premises -- assumptions about the future environment; (3) Identifying alternatives -- listing all possible courses of action; (4) Evaluating alternatives -- weighing the pros and cons of each; (5) Selecting the best alternative -- choosing the most feasible option; (6) Implementing the plan -- putting the plan into action; (7) Follow-up -- monitoring results and making adjustments as needed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the various steps involved in the planning process.",
+    "What are planning premises? Explain their role in the planning process.",
+    "Explain the importance of evaluating alternatives in the planning process.",
+    "Why is follow-up important in the planning process? Explain.",
+    "Explain the first three steps of the planning process with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the steps of the planning process in order",
+     "explain": "State the seven steps: (1) setting objectives, (2) developing planning premises, (3) identifying alternatives, (4) evaluating alternatives, (5) selecting the best alternative, (6) implementing the plan, (7) follow-up."
+    },
+    {
+     "step": 2,
+     "action": "Explain the specific step(s) asked in the question",
+     "explain": "Provide a detailed explanation of the relevant step(s) -- e.g. setting objectives means defining what the organisation wants to achieve; planning premises are assumptions about the future; evaluating alternatives means assessing the feasibility and consequences of each option."
+    },
+    {
+     "step": 3,
+     "action": "Illustrate with a practical example",
+     "explain": "Give an example -- e.g. a company wanting to increase sales by 20% sets this objective, assumes market growth (premises), considers options like new product launch, advertising or price reduction (alternatives), evaluates each, selects the best, implements it and monitors sales."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the various steps involved in the planning process.",
+     "solution": "The planning process involves seven steps: (1) Setting objectives -- the organisation defines the specific goals it wants to achieve. (2) Developing planning premises -- assumptions are made about the future environment (e.g. expected demand, competition). (3) Identifying alternative courses of action -- all possible ways to achieve the objectives are listed. (4) Evaluating alternatives -- each alternative is assessed for its feasibility, cost and consequences. (5) Selecting the best alternative -- the most suitable course of action is chosen. (6) Implementing the plan -- the chosen plan is put into action. (7) Follow-up -- the plan is monitored and reviewed, and adjustments are made if needed.",
+     "answer": "Seven steps -- set objectives, develop premises, identify alternatives, evaluate alternatives, select best, implement, follow-up."
+    },
+    {
+     "question": "What are planning premises? Explain their role in the planning process.",
+     "solution": "Planning premises are the assumptions about the future environment in which the plan is expected to operate. They include assumptions about demand, competition, government policies, costs, technology and other relevant factors. Their role is to provide a common framework or basis for planning so that all managers are working under the same set of assumptions. For example, a firm may assume 10% GDP growth and 5% inflation while planning its sales targets.",
+     "answer": "Planning premises = assumptions about the future; they provide a common framework for planning."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the last three steps of the planning process with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is follow-up important in the planning process? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.4",
+   "title": "Types of Plans: Single Use and Standing Plans",
+   "section": "Types of Plans",
+   "definition": "Plans can be broadly classified into two types based on their frequency of use: single-use plans and standing plans. Single-use plans are designed to achieve a specific objective and are used only once. Standing plans are designed to be used repeatedly over a long period for recurring situations.",
+   "formula": "",
+   "key_idea": "Single-use plans are one-time plans prepared for a specific, non-recurring purpose -- they include objectives, strategies, programmes, budgets and schedules. Standing plans are permanent or recurring plans that provide guidelines for repeated situations -- they include policies, procedures, methods, rules and objectives. The distinction is based on whether the plan is used once or repeatedly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between single-use plans and standing plans.",
+    "Explain single-use plans with suitable examples.",
+    "Explain standing plans with suitable examples.",
+    "Classify the following as single-use or standing plans: budget, policy, programme, procedure, rule, strategy.",
+    "How do objectives function as both single-use and standing plans? Explain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define single-use and standing plans",
+     "explain": "State that single-use plans are one-time plans for a specific purpose, while standing plans are recurring plans used repeatedly for similar situations."
+    },
+    {
+     "step": 2,
+     "action": "List examples of each type",
+     "explain": "Single-use plans include objectives, strategies, programmes, budgets and schedules. Standing plans include policies, procedures, methods, rules and objectives."
+    },
+    {
+     "step": 3,
+     "action": "Explain the distinction with examples",
+     "explain": "Illustrate -- e.g. a budget for a specific event is a single-use plan; a recruitment policy used year after year is a standing plan. Note that objectives can be both -- a one-time sales target is single-use, while the overall goal of growth is a standing plan."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between single-use plans and standing plans.",
+     "solution": "Single-use plans are designed to achieve a specific objective and are used only once. Examples: a budget for a particular event, a programme for launching a new product, a strategy for a one-time marketing campaign. Standing plans are designed for recurring use over a long period. Examples: a company's recruitment policy, a procedure for processing purchase orders, a method for quality inspection, rules regarding attendance. The key distinction is that single-use plans are one-time while standing plans are repetitive.",
+     "answer": "Single-use = one-time (budget, programme, strategy); Standing = recurring (policy, procedure, method, rule)."
+    },
+    {
+     "question": "Explain single-use plans with suitable examples.",
+     "solution": "Single-use plans are plans that are developed for a specific, non-recurring situation and are used only once. They include: (1) Objectives -- a specific target, e.g. increasing sales by 15% in the next year. (2) Strategy -- a comprehensive plan for achieving objectives, e.g. entering a new market. (3) Programme -- a detailed plan for a specific activity, e.g. a training programme for new employees. (4) Budget -- a financial plan, e.g. an advertising budget of Rs 5 lakh for a festival campaign.",
+     "answer": "Single-use plans = one-time plans; examples -- objectives, strategy, programme, budget."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain standing plans with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Classify the following as single-use or standing plans: budget, policy, programme, procedure, rule, strategy.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.5",
+   "title": "Objectives",
+   "section": "Objectives",
+   "definition": "Objectives are the specific, measurable ends that an organisation seeks to achieve through its operations. They are the most basic type of plan and provide the direction for all subsequent planning and action. Objectives can be overall (for the entire organisation) or department-specific.",
+   "formula": "",
+   "key_idea": "Objectives are the goals or targets that an organisation wants to achieve. They are the starting point of planning and provide direction to all activities. Objectives should be specific, measurable, achievable, realistic and time-bound. They may be set for the organisation as a whole (e.g. achieving a 20% market share) or for departments (e.g. a production target of 10,000 units per month).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are objectives? Explain their role in planning.",
+    "Explain the characteristics of good objectives.",
+    "How do objectives differ from goals? Explain.",
+    "Explain how objectives serve as both single-use and standing plans.",
+    "Give examples of objectives at different levels of an organisation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define objectives",
+     "explain": "State that objectives are the specific, measurable ends that an organisation seeks to achieve; they are the starting point of all planning."
+    },
+    {
+     "step": 2,
+     "action": "Explain the characteristics of good objectives",
+     "explain": "State that objectives should be specific, measurable, achievable, realistic and time-bound (SMART). They should be clear and communicated to all employees."
+    },
+    {
+     "step": 3,
+     "action": "Give examples at different levels",
+     "explain": "Illustrate -- e.g. organisational objective: achieve Rs 100 crore turnover; departmental objective: production department to produce 10,000 units per month; individual objective: a salesperson to sell Rs 5 lakh worth of goods per month."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are objectives? Explain their role in planning.",
+     "solution": "Objectives are the specific, measurable ends that an organisation seeks to achieve. Their role in planning: (1) They provide direction -- all plans are made to achieve the objectives. (2) They are the starting point of the planning process. (3) They serve as standards for controlling -- actual performance is compared with objectives. (4) They motivate employees by providing clear targets. For example, an objective to increase sales by 20% guides the marketing, production and finance plans of the organisation.",
+     "answer": "Objectives = measurable goals; role -- provide direction, starting point, standards for control, motivation."
+    },
+    {
+     "question": "Give examples of objectives at different levels of an organisation.",
+     "solution": "Objectives can be set at different levels: (1) Organisational level -- e.g. to achieve a turnover of Rs 100 crore in the current year. (2) Departmental level -- e.g. the production department aims to produce 10,000 units per month; the marketing department aims to increase market share by 5%. (3) Individual level -- e.g. a salesperson is given a target of selling Rs 5 lakh worth of goods per month. These objectives at different levels should be aligned with each other.",
+     "answer": "Examples -- organisational (Rs 100 crore turnover), departmental (10,000 units/month), individual (Rs 5 lakh sales/month)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the characteristics of good objectives using the SMART framework.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do objectives serve as both single-use and standing plans? Explain with examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.6",
+   "title": "Strategy",
+   "section": "Strategy",
+   "definition": "A strategy is a comprehensive plan designed to achieve the long-term objectives of an organisation. It is a blueprint of the decisions an organisation makes about how it will compete, what resources it will deploy and how it will respond to the environment. Strategy is formulated after analysing the internal and external environment.",
+   "formula": "",
+   "key_idea": "Strategy is a single-use plan that provides the broad framework for achieving long-term objectives. It involves decisions about which markets to enter, what products to offer, how to compete (cost leadership, differentiation, focus), how to allocate resources and how to respond to environmental changes. Strategy is formulated at the top level of management and requires analysis of the organisation's strengths, weaknesses, opportunities and threats (SWOT).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a strategy? Explain its role in planning.",
+    "How is a strategy formulated? Explain the steps involved.",
+    "Explain the difference between strategy and objectives.",
+    "How does environmental analysis help in strategy formulation? Explain.",
+    "Explain strategy as a type of plan with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define strategy",
+     "explain": "State that strategy is a comprehensive plan designed to achieve long-term objectives by defining how the organisation will compete and respond to its environment."
+    },
+    {
+     "step": 2,
+     "action": "Explain the components or formulation of strategy",
+     "explain": "Describe that strategy involves decisions about markets, products, competitive approach, resource allocation and environmental response. It is based on SWOT analysis -- strengths, weaknesses, opportunities and threats."
+    },
+    {
+     "step": 3,
+     "action": "Give an example of a business strategy",
+     "explain": "Illustrate -- e.g. a company decides to enter the rural market with low-priced products (a market penetration strategy); an IT firm decides to focus on cloud computing services (a focus strategy); a company decides to differentiate its products through superior quality (a differentiation strategy)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a strategy? Explain its role in planning with an example.",
+     "solution": "A strategy is a comprehensive plan designed to achieve the long-term objectives of an organisation. Its role in planning: (1) It provides the broad framework within which all other plans are made. (2) It defines how the organisation will compete in the market. (3) It guides resource allocation. (4) It helps the organisation respond to environmental opportunities and threats. Example: a mobile phone company's strategy to capture the budget segment by offering feature-rich smartphones at low prices, backed by large-scale production and online distribution.",
+     "answer": "Strategy = comprehensive plan for long-term objectives; role -- framework, competitive approach, resource allocation, environmental response."
+    },
+    {
+     "question": "Explain the difference between strategy and objectives.",
+     "solution": "Objectives are the specific, measurable ends that an organisation wants to achieve (the 'what'). Strategy is the comprehensive plan that defines how those objectives will be achieved (the 'how'). For example, an objective might be to increase market share from 10% to 20% in two years. The strategy to achieve this might involve launching new products, entering new markets and aggressive pricing. Objectives are the targets; strategy is the approach to reach them.",
+     "answer": "Objectives = what to achieve (targets); Strategy = how to achieve them (approach)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is a strategy formulated? Explain the role of SWOT analysis in strategy formulation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain strategy as a type of single-use plan with a suitable example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.7",
+   "title": "Policy",
+   "section": "Policy",
+   "definition": "A policy is a general statement that guides thinking and decision-making for the attainment of objectives. It is a standing plan that provides a framework within which decisions are made. Policies define the boundaries within which managers and employees can exercise their judgement.",
+   "formula": "",
+   "key_idea": "A policy is a standing plan that provides general guidelines for recurring decisions. It is not a rigid rule but a broad framework that guides action. Policies are formulated at all levels of management -- top-level policies are broad, while lower-level policies are more specific. Examples: a pricing policy (all products will be priced competitively), a hiring policy (preference to candidates with relevant experience), an advertising policy (no false claims in advertisements).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a policy? Explain its characteristics.",
+    "Distinguish between policy and strategy with examples.",
+    "Explain how policies guide decision-making in an organisation.",
+    "Give examples of policies at different levels of management.",
+    "How do policies differ from rules? Explain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define policy",
+     "explain": "State that a policy is a general statement or standing plan that guides thinking and decision-making for the attainment of objectives."
+    },
+    {
+     "step": 2,
+     "action": "Explain the characteristics of policy",
+     "explain": "State that policies are broad guidelines, not rigid rules; they provide a framework for decision-making; they are applicable to recurring situations; they allow discretion within defined boundaries; they are formulated at all levels of management."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of policies",
+     "explain": "Illustrate -- e.g. a pricing policy: all products will be priced 10% below the market leader; a hiring policy: preference to internal candidates for promotions; an advertising policy: only factual claims in advertisements."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a policy? Explain its characteristics with examples.",
+     "solution": "A policy is a general statement that guides thinking and decision-making for the attainment of objectives. Its characteristics: (1) It is a standing plan used repeatedly. (2) It provides a broad framework, not rigid rules. (3) It allows discretion within defined boundaries. (4) It is formulated at all levels of management. Example: a pricing policy states that all products will be priced competitively -- this gives managers the freedom to set specific prices within the broad guideline of being competitive.",
+     "answer": "Policy = broad guideline for recurring decisions; characteristics -- standing plan, framework, allows discretion, at all levels."
+    },
+    {
+     "question": "Distinguish between policy and strategy with examples.",
+     "solution": "Policy is a general guideline for recurring decisions, while strategy is a comprehensive plan for achieving long-term objectives. Policy is a standing plan (used repeatedly); strategy is a single-use plan (formulated for a specific purpose). Policy provides boundaries for decision-making; strategy defines the overall approach to competition. Example: a pricing policy (all products priced competitively) vs. a strategy (enter the rural market with low-cost products).",
+     "answer": "Policy = recurring guideline (standing plan); Strategy = one-time comprehensive plan (single-use)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give examples of policies at different levels of management and explain how they guide decision-making.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do policies differ from rules? Explain with examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.8",
+   "title": "Procedure, Method and Rule",
+   "section": "Procedure, Method and Rule",
+   "definition": "A procedure is a series of steps to be followed in a specific order to perform a particular activity. A method is a specific way of performing a particular step within a procedure. A rule is a specific, rigid statement that specifies what must or must not be done in a given situation. All three are standing plans.",
+   "formula": "",
+   "key_idea": "Procedure: a sequence of steps for a recurring activity (e.g. the procedure for processing a purchase order: receive request -> verify -> approve -> place order -> receive goods). Method: the specific technique for doing a step (e.g. the method for quality inspection might be statistical sampling). Rule: a rigid statement with no discretion (e.g. 'no smoking in the factory', 'late arrivals will be penalised'). Rules are the most specific and allow no flexibility.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between procedure, method and rule with examples.",
+    "What is a procedure? Explain with a suitable example.",
+    "What is a method? How does it differ from a procedure?",
+    "What is a rule? Explain its characteristics with examples.",
+    "Explain how procedure, method and rule are related to each other."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define procedure, method and rule",
+     "explain": "State that a procedure is a series of sequential steps for an activity; a method is a specific way of doing a step; a rule is a rigid statement of what must or must not be done."
+    },
+    {
+     "step": 2,
+     "action": "Explain the differences between the three",
+     "explain": "Procedure = sequence of steps (broader); method = technique for one step (narrower, part of a procedure); rule = rigid, no discretion (most specific). Procedures and methods allow some flexibility; rules do not."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of each",
+     "explain": "Illustrate -- e.g. procedure: steps for admitting a patient in a hospital; method: the specific method of taking a patient's blood pressure; rule: 'no visitors beyond visiting hours'."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between procedure, method and rule with examples.",
+     "solution": "Procedure: a series of steps to be followed in a specific order for a recurring activity. Example: the procedure for procurement: receive requisition -> invite quotations -> evaluate -> place order -> receive goods. Method: the specific way of performing a particular step. Example: the method of quality inspection may be statistical sampling. Rule: a rigid statement that specifies what must or must not be done. Example: 'no smoking in the factory premises'. Rules allow no discretion, while procedures and methods allow some flexibility.",
+     "answer": "Procedure = sequence of steps; Method = technique for a step; Rule = rigid, no discretion."
+    },
+    {
+     "question": "What is a rule? Explain its characteristics with examples.",
+     "solution": "A rule is a specific, rigid statement that specifies what must or must not be done. Its characteristics: (1) It is the simplest and most specific type of plan. (2) It allows no discretion or flexibility -- it must be followed exactly. (3) It is a standing plan, used repeatedly. (4) It usually relates to the behavioural aspect of employees. Examples: 'no smoking in the office', 'employees must punch in by 9:00 AM', 'no personal phone calls during working hours'.",
+     "answer": "Rule = rigid statement, no discretion; examples -- no smoking, punch in by 9 AM, no personal calls."
+    },
+    {
+     "question": "Explain how procedure, method and rule are related to each other.",
+     "solution": "Procedure, method and rule are all standing plans but differ in specificity. A procedure is a sequence of steps; a method is the specific technique used within one step of a procedure; a rule is a rigid statement that governs behaviour. They are related in that a procedure may include several methods (one for each step) and may also include rules that must be followed during the process. For example, the procedure for admitting a patient includes methods for recording information and rules like 'emergency cases must be admitted immediately'.",
+     "answer": "Procedure contains methods (for each step) and rules (for behaviour); all are standing plans of varying specificity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a procedure? Explain with a suitable example from a business organisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is a method? How does it differ from a procedure? Explain with examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.9",
+   "title": "Budget and Programme",
+   "section": "Budget and Programme",
+   "definition": "A budget is a statement of expected results expressed in numerical terms. It is a single-use plan that provides a financial framework for a specific period. A programme is a detailed statement of a specific scheme or course of action to be implemented in a given situation. It is also a single-use plan.",
+   "formula": "",
+   "key_idea": "Budget: a numerical statement of expected results for a specific period (e.g. a sales budget of Rs 50 lakh for the year, a production budget of 10,000 units per month). Budgets may be for sales, production, cash, capital expenditure, etc. Programme: a detailed plan for a specific activity or project (e.g. a training programme for new employees, a programme for launching a new product). A programme includes the steps, resources, timeline and responsibilities for the activity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a budget? Explain its characteristics with examples.",
+    "What is a programme? How does it differ from a budget?",
+    "Explain the different types of budgets used in business.",
+    "Explain programme as a type of plan with a suitable example.",
+    "How do budgets help in controlling? Explain."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define budget and programme",
+     "explain": "State that a budget is a statement of expected results in numerical terms, and a programme is a detailed scheme for a specific activity.",
+     "compute": "budget = expected_revenue - expected_expenditure"
+    },
+    {
+     "step": 2,
+     "action": "Explain the characteristics or types",
+     "explain": "Describe that budgets are expressed in numbers, cover a specific period, and can be for sales, production, cash or capital. Programmes are detailed, time-bound and resource-specific plans for a particular activity.",
+     "compute": "sales_budget = units_planned * price_per_unit"
+    },
+    {
+     "step": 3,
+     "action": "Give a numerical example of a budget and a descriptive example of a programme",
+     "explain": "Illustrate -- e.g. a sales budget: 10,000 units at Rs 500 per unit = Rs 50,00,000; a programme: a 3-month training programme for 50 new employees with a budget of Rs 5,00,000, including classroom sessions, on-the-job training and evaluation.",
+     "compute": "total_sales_budget = 10000 * 500 = 5000000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a budget? Explain its characteristics with examples.",
+     "solution": "A budget is a statement of expected results expressed in numerical terms. Its characteristics: (1) It is a single-use plan prepared for a specific period. (2) It is expressed in numerical or financial terms. (3) It serves as a standard for controlling -- actual results are compared with the budget. Examples: a sales budget of Rs 50 lakh for the year; a production budget of 10,000 units per month; a cash budget showing expected inflows and outflows.",
+     "answer": "Budget = numerical statement of expected results; characteristics -- single-use, numerical, standard for control."
+    },
+    {
+     "question": "What is a programme? How does it differ from a budget? Explain with examples.",
+     "solution": "A programme is a detailed statement of a specific scheme or course of action to be implemented in a given situation. It includes the steps, resources, timeline and responsibilities for the activity. Difference from budget: a budget is expressed in numerical/financial terms and focuses on expected results, while a programme is a detailed action plan that may include a budget as one of its components. Example: a programme for launching a new product includes market research, advertising, distribution and a budget of Rs 20 lakh for the launch.",
+     "answer": "Programme = detailed action plan for a specific activity; budget = numerical statement; a programme may include a budget."
+    },
+    {
+     "question": "A company plans to sell 10,000 units of a product at Rs 500 per unit in the next year. Prepare a simple sales budget.",
+     "solution": "Sales budget = number of units planned x price per unit. Here, units planned = 10,000 and price per unit = Rs 500. So, sales budget = 10,000 x 500 = Rs 50,00,000. The sales budget for the next year is Rs 50,00,000.",
+     "answer": "Sales budget = Rs 50,00,000 (10,000 units x Rs 500)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the different types of budgets used in a business organisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "A company plans a production budget of 8,000 units per month at a cost of Rs 250 per unit. Calculate the total monthly production budget.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.4.10",
+   "title": "Limitations of Planning",
+   "section": "Limitations of Planning",
+   "definition": "Despite its importance, planning has certain limitations. Planning is based on assumptions about the future, which may not always be accurate. It is a time-consuming and costly process. It may lead to rigidity, may not work in a dynamic environment, and may not guarantee success.",
+   "formula": "",
+   "key_idea": "The limitations of planning include: (1) it leads to rigidity -- once plans are made, managers may be reluctant to change them; (2) it may not work in a dynamic environment -- sudden changes can make plans obsolete; (3) it is a time-consuming and costly process; (4) it is based on assumptions about the future, which may not hold true; (5) it does not guarantee success -- plans can fail due to unforeseen events; (6) it may reduce creativity and initiative if followed too rigidly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain any five limitations of planning.",
+    "How does planning lead to rigidity? Explain.",
+    "Why may planning not work in a dynamic environment? Explain.",
+    "How does planning involve huge costs? Explain.",
+    "'Planning does not guarantee success.' Explain this statement."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific limitation in question",
+     "explain": "Determine which limitation is being asked -- rigidity, dynamic environment, time and cost, false assumptions, no guarantee of success, or reduced creativity."
+    },
+    {
+     "step": 2,
+     "action": "State the relevant limitation(s)",
+     "explain": "List the relevant limitations: rigidity, unsuitable for dynamic environment, time-consuming and costly, based on assumptions, no guarantee of success, may reduce creativity."
+    },
+    {
+     "step": 3,
+     "action": "Explain each limitation with an example",
+     "explain": "Illustrate -- e.g. rigidity: a firm that has planned a product launch may be reluctant to cancel it even when market conditions change; dynamic environment: a sudden technological change can make a planned product obsolete; false assumptions: if demand is overestimated, production plans lead to excess inventory."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any five limitations of planning.",
+     "solution": "(1) Rigidity: once plans are made, managers may be reluctant to change them, even when circumstances change. (2) May not work in a dynamic environment: sudden changes in the environment can make plans obsolete. (3) Time-consuming and costly: planning requires collecting data, analysing alternatives and involving many people, which takes time and money. (4) Based on assumptions: plans are based on assumptions about the future, which may not always be accurate. (5) Does not guarantee success: even well-made plans can fail due to unforeseen events or poor implementation.",
+     "answer": "Five limitations -- rigidity, unsuitable for dynamic environment, time/cost, assumptions, no guarantee of success."
+    },
+    {
+     "question": "How does planning lead to rigidity? Explain with an example.",
+     "solution": "Planning leads to rigidity because once a plan is formulated and communicated, managers tend to follow it strictly. The organisation and its employees may become committed to the plan and reluctant to deviate from it, even when changed circumstances call for a different approach. For example, a company that has planned to launch a product at a particular price may continue with the plan even if a competitor launches a similar product at a much lower price, because the plan has already been approved and resources committed.",
+     "answer": "Rigidity arises because managers stick to approved plans even when circumstances change; e.g. continuing with a planned price despite a competitor's lower price."
+    },
+    {
+     "question": "'Planning does not guarantee success.' Explain this statement.",
+     "solution": "Planning does not guarantee success because it is based on assumptions about the future, which may not always hold true. Unforeseen events -- such as economic downturns, natural disasters, sudden policy changes, or the entry of a strong competitor -- can disrupt even the best-laid plans. Moreover, the success of a plan depends not only on the quality of planning but also on effective implementation, the cooperation of employees and favourable external conditions. Thus, planning increases the probability of success but does not guarantee it.",
+     "answer": "Planning is based on assumptions and can be disrupted by unforeseen events; success also depends on implementation and external factors."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why may planning not work in a dynamic environment? Explain with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does planning involve huge costs? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

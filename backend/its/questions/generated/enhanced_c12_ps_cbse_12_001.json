@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_12_001",
+   "title": "c12_ps_cbse_12_001",
+   "questions": [
+    {
+     "q": "What was the \"non-Congressism\" strategy articulated by Ram Manohar Lohia, and which two types of electoral arrangements did opposition parties adopt under it?",
+     "a": "Non-Congressism was Lohia's argument that Congress rule was undemocratic and anti-poor, so ideologically disparate opposition parties should unite to reclaim democracy. They formed anti-Congress fronts (pre-poll alliances) in some states and entered seat-sharing adjustments in others. A wrong answer (e.g., \"non-Congressism meant merging all parties into one\") reveals confusion between electoral alliances and party mergers — Lohia explicitly opposed merger, favouring tactical unity.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Congress lose majority in seven states in 1967 despite winning a Lok Sabha majority? Explain using the concepts of \"performance legitimacy\" and \"split-vote effect.\"",
+     "a": "The Congress lost state majorities because economic distress (drought, price rise, devaluation) eroded its performance legitimacy at the state level where voters blamed local Congress governments, while the opposition's non-Congress fronts consolidated anti-Congress votes (avoiding split-vote effect). At the national level, Congress retained a Lok Sabha majority because the opposition unity was less complete and Indira Gandhi's leadership still commanded residual loyalty. A wrong answer attributing state losses solely to \"Indira's inexperience\" misses the structural role of opposition coordination and state-level anti-incumbency.",
+     "self_check": true
+    },
+    {
+     "q": "In the 1967 elections, the Congress won 283 Lok Sabha seats (out of 520) with 40.8% vote share — its lowest since 1952. If the opposition had formed a unified national front instead of state-level alliances, apply the FPTP mechanics to explain how the seat outcome might have differed.",
+     "a": "Under FPTP, a unified national opposition front would have concentrated the anti-Congress vote (approx. 59%) in each constituency, likely converting many Congress pluralities into opposition majorities — potentially denying Congress a Lok Sabha majority. The actual state-level alliances left anti-Congress votes divided in many seats, letting Congress win with ~41%. A wrong answer claiming \"vote share directly determines seats\" ignores FPTP's disproportionality: Congress won 54% seats with 41% votes because opposition votes were fragmented.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the SVD (Samyukt Vidhayak Dal) governments in Bihar and Punjab after 1967. What does their ideological composition reveal about the nature of non-Congressism as a governing strategy?",
+     "a": "Bihar's SVD included socialists (SSP, PSP), CPI (left), and Jana Sangh (right); Punjab's Popular United Front included rival Akali factions, both communist parties, SSP, Republican Party, and Jana Sangh. This ideological incoherence — left and right governing together — reveals non-Congressism was a negative coalition (anti-Congress) without a positive programme, making SVDs unstable. A wrong answer calling them \"ideological alliances\" misses Lohia's explicit framing: unity only for \"reclaiming democracy,\" not policy consensus.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 'Aya Ram, Gaya Ram' phenomenon after 1967 was a symptom of weak party institutionalisation, not just individual opportunism.\" Use the Haryana case of Gaya Lal to support your judgment.",
+     "a": "The statement is correct. Gaya Lal changed parties thrice in a fortnight (Congress → United Front → Congress → United Front in 9 hours), and Congress leader Rao Birendra Singh publicly celebrated his return (\"Gaya Ram was now Aya Ram\"). This shows party structures enabled defections — leaders actively recruited defectors to form governments, and no anti-defection law existed. A wrong answer blaming only \"greedy MLAs\" ignores that party bosses (like Rao Birendra Singh) incentivised floor-crossing, reflecting systemic weakness in party discipline and organisational loyalty.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument (4-5 sentences) that a Congress Syndicate leader might have written in 1967 defending the party's continued dominance, and a counter-argument from a non-Congressism supporter. Both must use evidence from the 1967 verdict.",
+     "a": "Syndicate defence: \"Congress remains the only national party with a Lok Sabha majority (283 seats) and governance experience; state losses reflect local anti-incumbency, not national rejection — voters still trust Congress at the Centre.\" Non-Congressism counter: \"Congress lost 7 states, half its cabinet ministers, and tallest organisers (Kamaraj, Patil); its vote share plummeted to 40.8% — the 'Congress System' of accommodation has collapsed, and only united opposition can prevent authoritarian drift.\" A poor answer uses generic slogans without citing specific 1967 data (seat tally, vote share, ministerial defeats, state losses).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

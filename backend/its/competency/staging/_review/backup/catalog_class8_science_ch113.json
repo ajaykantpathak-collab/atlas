@@ -1,0 +1,518 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 113,
+ "chapter_title": "Light",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hesc113.txt",
+ "concepts": [
+  {
+   "id": "hesc.13.1",
+   "title": "Law of Reflection - Angle Equality",
+   "section": "13.2",
+   "definition": "In brief, in brief, in brief, the angle formed between the incident light both both both both both both both both both both both both x and y the normal line is identical to the angle formed between the bounced back both x and y the normal line.",
+   "formula": "angle_r = angle_i",
+   "key_idea": "In brief, In brief, In brief, In brief, the angle of incidence is indeed always same as the angle of reflection.",
+   "textbook_ref": "hesc113.txt lines 30-70",
+   "question_patterns": [
+    "find the angle of reflection if angle of incidence is ...",
+    "what is the angle of incidence when angle of reflection is ...",
+    "calculate the angle of reflection given the incident angle",
+    "determine angle of incidence from angle of reflection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply law of reflection",
+     "explain": "the angle of reflection equals the angle of incidence"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.2",
+   "title": "Incident Angle relative to Mirror Surface",
+   "section": "13.2",
+   "definition": "In brief, In brief, In brief, In brief, the angle of incidence is measured with respect to the normal perpendicular to the mirror surface, which is complementary to the angle between the surface and the incoming ray.",
+   "formula": "angle_i = 90 - angle_surface",
+   "key_idea": "Subtract the angle made with the mirror surface from 90 degrees to find the angle of incidence.",
+   "textbook_ref": "hesc113.txt lines 35-65",
+   "question_patterns": [
+    "if light strikes a mirror at an angle of ... degrees to the surface find angle of incidence",
+    "calculate the angle of reflection when ray makes angle ... with mirror surface",
+    "determine the angle between incident ray and normal given angle with mirror",
+    "find angle of incidence from surface angle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate angle of incidence from surface angle",
+     "explain": "the normal is perpendicular to the surface so subtract surface angle from 90"
+    },
+    {
+     "step": 2,
+     "action": "determine angle of reflection",
+     "explain": "angle of reflection equals angle of incidence"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.3",
+   "title": "Angle Between Incident and Reflected Rays",
+   "section": "13.2",
+   "definition": "In brief, In brief, the total separation angle between the incoming incident ray and the outgoing reflected ray is bisected equally by the normal line.",
+   "formula": "angle_i = total_angle / 2",
+   "key_idea": "The total angle between the incident and reflected rays is indeed twice the angle of incidence.",
+   "textbook_ref": "hesc113.txt lines 40-75",
+   "question_patterns": [
+    "what is the angle of incidence of a ray if reflected ray is at an angle of ... to incident ray",
+    "find total angle between incident ray and reflected ray",
+    "calculate angle between incident and reflected rays given angle of incidence",
+    "determine angle of incidence when total angle between rays is given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate angle of incidence from total angle",
+     "explain": "angle of incidence is half of the total angle between incident and reflected rays"
+    },
+    {
+     "step": 2,
+     "action": "confirm angle of reflection",
+     "explain": "angle of reflection is equal to angle of incidence"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.4",
+   "title": "Coplanar Law of Reflection",
+   "section": "13.2",
+   "definition": "In brief, in brief, in brief, in brief, the incident ray, the bounced back ray, and the normal line at the incidence point all lie within the exact same geometric plane.",
+   "formula": "N/A",
+   "key_idea": "In brief, Incident ray, normal, and bounced back ray are coplanar.",
+   "textbook_ref": "hesc113.txt lines 80-115",
+   "question_patterns": [
+    "state the second law of reflection",
+    "explain why bending paper prevents seeing reflected ray",
+    "verify that incident ray normal and reflected ray lie in same plane",
+    "describe activity showing coplanar reflection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify incident ray normal and reflected ray",
+     "explain": "all three geometrical entities originate or intersect at the point of incidence on the reflecting surface"
+    },
+    {
+     "step": 2,
+     "action": "verify coplanarity",
+     "explain": "bending the sheet creates a different geometric plane, causing the reflected ray to disappear and proving all three lie in one plane"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.5",
+   "title": "Image Distance in Plane Mirror",
+   "section": "13.2",
+   "definition": "A plane mirror forms a virtual image situated behind the mirror surface at a distance equal to the distance of the physical object in front of it.",
+   "formula": "total_distance = 2 * object_distance",
+   "key_idea": "In brief, In brief, In brief, In brief, Total distance between an object and its image in a plane mirror is twice the object distance.",
+   "textbook_ref": "hesc113.txt lines 115-145",
+   "question_patterns": [
+    "find distance between a person standing ... m in front of mirror and his image",
+    "calculate distance of image from object in plane mirror",
+    "how far is the image from a person standing in front of mirror",
+    "determine object to image distance for plane mirror"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine image distance behind mirror",
+     "explain": "image distance behind the mirror equals the object distance in front",
+     "compute": "image_distance = object_distance"
+    },
+    {
+     "step": 2,
+     "action": "compute total distance between object and image",
+     "explain": "sum the object distance and image distance",
+     "compute": "total_distance = object_distance + image_distance"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.6",
+   "title": "Lateral Inversion in Plane Mirrors",
+   "section": "13.2",
+   "definition": "The visual transposition caused by plane mirror reflection where the left side of an object appears as the right side in its image.",
+   "formula": "N/A",
+   "key_idea": "Left appears right and right appears left in images formed by plane mirrors.",
+   "textbook_ref": "hesc113.txt lines 140-155",
+   "question_patterns": [
+    "what is lateral inversion",
+    "explain why left ear appears as right ear in plane mirror",
+    "describe characteristics of image formed by plane mirror",
+    "why do emergency vehicles write text laterally inverted"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify mirror reflection effect",
+     "explain": "plane mirrors reflect light rays reversing the depth dimension relative to the observer"
+    },
+    {
+     "step": 2,
+     "action": "conclude lateral inversion",
+     "explain": "reversal along line of sight causes the left portion of the real object to match the right portion of the visual image"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.7",
+   "title": "Regular and Diffused Reflection",
+   "section": "13.3",
+   "definition": "Regular reflection produces parallel reflected rays from polished surfaces, whereas diffused reflection scatters rays in various directions due to surface rough micro-structure.",
+   "formula": "N/A",
+   "key_idea": "Diffused reflection results from surface roughness, not from breakdown of reflection laws.",
+   "textbook_ref": "hesc113.txt lines 156-190",
+   "question_patterns": [
+    "differentiate between regular and diffused reflection",
+    "does diffused reflection mean failure of the laws of reflection",
+    "predict type of reflection from cardboard or polished wooden table",
+    "explain why images are formed by regular reflection only"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine surface characteristics",
+     "explain": "smooth surfaces reflect parallel incident light rays parallel to each other forming sharp images"
+    },
+    {
+     "step": 2,
+     "action": "analyze rough surface reflection",
+     "explain": "microscopic surface irregularities reflect parallel rays in scattered directions while obeying the law of reflection at every individual point"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.8",
+   "title": "Multiple Images in Inclined Plane Mirrors",
+   "section": "13.5",
+   "definition": "When two plane mirrors are set at an angle to each other, light undergoes multiple reflections to produce a specific number of images.",
+   "formula": "num_images = (360 // mirror_angle) - 1",
+   "key_idea": "In brief, In brief, In brief, In brief, the number of images formed by inclined mirrors varies with 360 divided by the inclination angle minus 1.",
+   "textbook_ref": "hesc113.txt lines 205-240",
+   "question_patterns": [
+    "calculate number of images formed by mirrors at ... degrees",
+    "find number of images when two plane mirrors are kept at an angle",
+    "how many images are formed when mirrors are placed at right angles",
+    "determine images formed between parallel plane mirrors"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate maximum angular divisions",
+     "explain": "divide 360 degrees by the inclination angle between the mirrors",
+     "compute": "divisions = 360 // mirror_angle"
+    },
+    {
+     "step": 2,
+     "action": "subtract single overlapping instance",
+     "explain": "subtract 1 from the quotient to obtain total distinct images formed",
+     "compute": "num_images = divisions - 1"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.9",
+   "title": "Dispersion of Light",
+   "section": "13.6",
+   "definition": "The phenomenon where composite white light separates into its constituent spectral colors when passing through a medium like glass or water.",
+   "formula": "N/A",
+   "key_idea": "Sunlight is white light composed of seven distinct colors.",
+   "textbook_ref": "hesc113.txt lines 250-280",
+   "question_patterns": [
+    "what is dispersion of light",
+    "explain how a rainbow is formed naturally",
+    "describe an activity to show splitting of sunlight into colors",
+    "what components make up white sunlight"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pass light through refracting arrangement",
+     "explain": "sunlight passes through water and mirror prism setup or a standard glass prism"
+    },
+    {
+     "step": 2,
+     "action": "observe separation of colors",
+     "explain": "different color wavelengths refract by varying amounts, splitting white light into seven constituent rainbow colors"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.10",
+   "title": "Structure and Function of Human Eye Parts",
+   "section": "13.7",
+   "definition": "The optical sensory organ where light enters through the cornea and pupil, is focused by a convex lens onto the retina, and triggers nerve signals sent to the brain.",
+   "formula": "N/A",
+   "key_idea": "The iris regulates light entering through pupil, while retina contains rod and cone photoreceptors.",
+   "textbook_ref": "hesc113.txt lines 285-350",
+   "question_patterns": [
+    "describe structure and function of human eye parts",
+    "what is the function of iris and pupil in human eye",
+    "compare functions of rods and cones in retina",
+    "what is the blind spot in the eye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace light path through eye structure",
+     "explain": "light enters through cornea, passes pupil controlled by muscular iris, and focuses via lens onto retina"
+    },
+    {
+     "step": 2,
+     "action": "explain signal processing by photoreceptors",
+     "explain": "retinal cones sense bright light and color while rods sense dim light, transmitting optic signals to the brain"
+    }
+   ]
+  },
+  {
+   "id": "hesc.13.11",
+   "title": "Persistence of Vision",
+   "section": "13.7",
+   "definition": "The property of the human retina to retain visual impressions for roughly 1/16th of a second after light stimulus stops, causing fast still images to blend into continuous motion.",
+   "formula": "min_frame_rate = 16",
+   "key_idea": "In brief, In brief, Flashing separate images faster than 16 frames per second produces visual motion perception.",
+   "textbook_ref": "hesc113.txt lines 340-370",
+   "question_patterns": [
+    "what is persistence of vision",
+    "why do flipbooks or movies appear as continuous motion",
+    "calculate minimum pictures per second needed for motion perception",
+    "explain bird in cage activity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine retention duration reciprocal",
+     "explain": "retinal impression lasts for 1/16th of a second",
+     "compute": "duration_fraction = 16"
+    },
+    {
+     "step": 2,
+     "action": "calculate minimum rate for smooth motion",
+     "explain": "minimum display frequency equals reciprocal of visual persistence duration",
+     "compute": "min_frame_rate = duration_fraction * 1"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Page 179, Exercise 13",
+   "concept": "hesc.13.3",
+   "question_type": "compute",
+   "question_pattern": "What is the angle of incidence of a ray if the reflected ray is at an angle of {total_angle}° to the incident ray?",
+   "extracted_variables": {
+    "total_angle": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angle of incidence from total angle",
+     "explain": "angle of incidence is half of the total angle between incident and reflected rays",
+     "compute": "angle_i = total_angle / 2"
+    },
+    {
+     "step": 2,
+     "action": "confirm angle of reflection",
+     "explain": "angle of reflection is equal to angle of incidence",
+     "compute": "angle_r = angle_i"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Page 178, Exercise 6(a)",
+   "concept": "hesc.13.5",
+   "question_type": "compute",
+   "question_pattern": "A person standing {object_distance} m in front of a plane mirror seems to be how many meters away from his image?",
+   "extracted_variables": {
+    "object_distance": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine image distance behind mirror",
+     "explain": "image distance behind the mirror equals the object distance in front",
+     "compute": "image_distance = object_distance"
+    },
+    {
+     "step": 2,
+     "action": "compute total distance between object and image",
+     "explain": "sum the object distance and image distance",
+     "compute": "total_distance = object_distance + image_distance"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Page 170, Activity 13.5",
+   "concept": "hesc.13.8",
+   "question_type": "compute",
+   "question_pattern": "How many images of an object are formed when two plane mirrors are placed inclined at an angle of {mirror_angle}° to each other?",
+   "extracted_variables": {
+    "mirror_angle": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate maximum angular divisions",
+     "explain": "divide 360 degrees by the inclination angle between the mirrors",
+     "compute": "divisions = 360 // mirror_angle"
+    },
+    {
+     "step": 2,
+     "action": "subtract single overlapping instance",
+     "explain": "subtract 1 from the quotient to obtain total distinct images formed",
+     "compute": "num_images = divisions - 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "Page 178, Exercise 1",
+   "questions": [
+    "Suppose you are in a dark room. Can you see objects in the room? Can you see objects outside the room. Explain."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "Page 178, Exercise 2",
+   "questions": [
+    "Differentiate between regular and diffused reflection. Does diffused reflection mean the failure of the laws of reflection?"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "Page 178, Exercise 3",
+   "questions": [
+    "Mention against each of the following whether regular or diffused reflection will take place when a beam of light strikes: (a) Polished wooden table (b) Chalk powder (c) Cardboard surface (d) Marble floor with water spread over it (e) Mirror (f) Piece of paper"
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "Page 178, Exercise 4",
+   "questions": [
+    "State the laws of reflection."
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "Page 178, Exercise 5",
+   "questions": [
+    "Describe an activity to show that the incident ray, the reflected ray and the normal at the point of incidence lie in the same plane."
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "Page 178, Exercise 6",
+   "questions": [
+    "Fill in the blanks: (a) A person 1 m in front of a plane mirror seems to be ____ m away from his image.",
+    "(b) If you touch your ____ ear with right hand in front of a plane mirror it will be seen in the mirror that your right ear is touched with ____.",
+    "(c) The size of the pupil becomes ____ when you see in dim light.",
+    "(d) Night birds have ____ cones than rods in their eyes."
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "Page 178, Exercise 7",
+   "questions": [
+    "Angle of incidence is equal to the angle of reflection: (a) Always (b) Sometimes (c) Under special conditions (d) Never"
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "Page 178, Exercise 8",
+   "questions": [
+    "Image formed by a plane mirror is: (a) virtual, behind the mirror and enlarged. (b) virtual, behind the mirror and of the same size as the object. (c) real at the surface of the mirror and enlarged. (d) real, behind the mirror and of the same size as the object."
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "Page 178, Exercise 9",
+   "questions": [
+    "Describe the construction of a kaleidoscope."
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "Page 178, Exercise 10",
+   "questions": [
+    "Draw a labelled sketch of the human eye."
+   ]
+  },
+  {
+   "id": "ex13.11",
+   "source_ref": "Page 179, Exercise 11",
+   "questions": [
+    "Gurmit wanted to perform Activity 13.8 using a laser torch. Her teacher advised her not to do so. Can you explain the basis of the teacher's advise?"
+   ]
+  },
+  {
+   "id": "ex13.12",
+   "source_ref": "Page 179, Exercise 12",
+   "questions": [
+    "Explain how you can take care of your eyes."
+   ]
+  },
+  {
+   "id": "ex13.13",
+   "source_ref": "Page 179, Exercise 13",
+   "questions": [
+    "What is the angle of incidence of a ray if the reflected ray is at an angle of 90° to the incident ray?"
+   ]
+  },
+  {
+   "id": "ex13.14",
+   "source_ref": "Page 179, Exercise 14",
+   "questions": [
+    "How many images of a candle will be formed if it is placed between two parallel plane mirrors separated by 40 cm?"
+   ]
+  },
+  {
+   "id": "ex13.15",
+   "source_ref": "Page 179, Exercise 15",
+   "questions": [
+    "Two mirrors meet at right angles. A ray of light is incident on one at an angle of 30° as shown in Fig. 13.19. Draw the reflected ray from the second mirror."
+   ]
+  },
+  {
+   "id": "ex13.16",
+   "source_ref": "Page 179, Exercise 16",
+   "questions": [
+    "Boojho stands at A just on the side of a plane mirror as shown in Fig. 13.20. Can he see himself in the mirror? Also can he see the image of objects situated at P, Q and R?"
+   ]
+  },
+  {
+   "id": "ex13.17",
+   "source_ref": "Page 179, Exercise 17",
+   "questions": [
+    "(a) Find out the position of the image of an object situated at A in the plane mirror (Fig. 13.21). (b) Can Paheli at B see this image? (c) Can Boojho at C see this image? (d) When Paheli moves from B to C, where does the image of A move?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

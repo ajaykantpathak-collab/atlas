@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_009",
+   "title": "c11_soc_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define \"non-sampling error\" and give one example that is NOT related to sample selection.",
+     "a": "Non-sampling error refers to systematic distortions in research findings arising from flaws in research design, data collection, or respondent behaviour rather than from the sampling process. Example: A respondent under-reports alcohol consumption due to social desirability bias in a face-to-face interview. A wrong answer (e.g., \"error due to small sample size\") reveals confusion between sampling error (inherent to using a subset) and non-sampling error (avoidable design/execution flaws).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher conducts semi-structured interviews with 20 Dalit women about workplace discrimination. She notices that women interviewed in their homes give different accounts than those interviewed at a community centre. Explain why this happens using the concept of \"contextual sensitivity\" in interviews.",
+     "a": "The interview setting shapes power dynamics and perceived safety: at home, family members may overhear, triggering self-censorship about sensitive experiences; at the community centre, collective presence may encourage sharing or conversely enforce group norms. This demonstrates that interview data is co-constructed in the interaction, not merely extracted. A wrong answer focusing only on \"comfort level\" misses the sociological insight that physical space mediates what knowledge becomes speakable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-question interview guide for studying \"how first-generation college students navigate family expectations.\" Include one opening question, two probing questions, and one closing question. Justify the sequence.",
+     "a": "Opening: \"Tell me about your journey to college — what led you here?\" (builds rapport, lets respondent define narrative). Probing 1: \"When you told your family about your college choice, what was their reaction? Can you describe a specific conversation?\" (concrete incident, avoids generalisation). Probing 2: \"Have there been moments when your family's expectations clashed with your own goals? How did you handle that?\" (explores negotiation, not just conflict). Closing: \"Is there anything about this experience you wish people understood better?\" (invites reflection, centres respondent voice). Sequence moves from descriptive → specific incident → analytical → evaluative, respecting the interview's funnel structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"interviewer bias\" operates differently in a structured survey interview versus an unstructured in-depth interview. Use the concepts of \"standardisation\" and \"reflexivity\" in your answer.",
+     "a": "In structured survey interviews, standardisation aims to minimise bias by fixing question wording, order, and response options — bias enters subtly through tone, pacing, or selective probing despite the script. In unstructured interviews, bias is inherent because the interviewer co-constructs the narrative through follow-ups, silences, and topic choices; reflexivity (documenting one's influence) becomes the primary safeguard rather than standardisation. A wrong answer claiming \"unstructured interviews have more bias\" misses that both have bias — they differ in how bias is managed (control vs. transparency).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Non-sampling errors are more dangerous than sampling errors because they cannot be quantified or corrected through statistical methods.\" Support your evaluation with two distinct examples from survey research in India.",
+     "a": "The claim is largely valid. Sampling error is quantifiable (margin of error, confidence intervals) and decreases with sample size; non-sampling errors (e.g., translation errors in multilingual questionnaires, enumerator fabrication in NSSO surveys) are systematic, often undetectable post-hoc, and persist regardless of sample size. Example 1: NFHS questions on domestic violence yield underestimates because women interviewed in presence of husbands self-censor — a non-sampling error no larger sample fixes. Example 2: In Census 2011, \"disability\" questions used medical categories unfamiliar to rural respondents, producing undercounts — a design error invisible to statistical correction. A wrong answer treating non-sampling errors as \"just another error type\" fails to grasp their systematic, non-random nature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel research scenario where using ONLY structured interviews would produce misleading results, but adding participant observation would correct it. Specify the research question, the misleading finding, and the correction.",
+     "a": "Research question: \"How do sanitation workers in a municipal corporation experience caste discrimination at work?\" Structured interviews alone: Workers report \"no discrimination\" because formal policies exist and they fear job loss — misleading finding of \"caste-neutral workplace.\" With participant observation: Researcher observes separate tea cups, seating arrangements, task allocation (manual scavenging vs. supervisory roles), and informal address terms — correction revealing everyday caste practices invisible in formal accounts. A poor answer proposes a scenario where observation merely \"adds detail\" rather than fundamentally contradicting interview data, missing the epistemological point that different methods access different layers of social reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

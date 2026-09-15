@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_003",
+   "title": "c12_bs_cbse_04_003",
+   "questions": [
+    {
+     "q": "List the seven steps of the planning process in the correct sequential order as per NCERT.",
+     "a": "Correct sequence: (1) Setting Objectives, (2) Developing Premises, (3) Identifying Alternative Courses of Action, (4) Evaluating Alternative Courses, (5) Selecting an Alternative, (6) Implementing the Plan, (7) Follow-up Action. A wrong answer (e.g., putting implementation before evaluation, or omitting premises) reveals the student memorises steps as a list without understanding the logical dependency: premises must exist before alternatives can be evaluated, and follow-up cannot occur before implementation.",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder says: \"We want to become the number one food delivery app in Bengaluru in two years. That's our plan.\" Which step of the planning process has the founder completed, and which critical step is missing before alternatives can be identified?",
+     "a": "The founder has completed Step 1 (Setting Objectives) but missed Step 2 (Developing Premises). Without explicit assumptions about market growth rate, competitor behaviour, funding availability, and regulatory changes, any alternatives generated will be ungrounded. A student who says \"identifying alternatives\" is missing reveals they confuse goal-setting with the analytical foundation required for meaningful alternative generation.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company sets an objective to reduce production cost by 10% in one year. The planning team develops premises: (a) raw material prices will rise 5%, (b) new automation technology will be available in 6 months, (c) labour union will agree to flexible shifts. They identify three alternatives: A) Invest in automation now, B) Negotiate bulk raw material contracts, C) Redesign product for simpler assembly. In Step 4 (Evaluation), which TWO quantitative techniques would be most appropriate to compare these alternatives, and why?",
+     "a": "Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given premises, and (2) Break-even Analysis — determines volume at which automation investment becomes cheaper than current process. A student suggesting only \"SWOT\" or \"qualitative discussion\" reveals inability to match evaluation tools to the quantitative nature of cost-reduction objectives and premises involving specific numerical assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"Developing Premises\" in a stable environment (e.g., a government-run utility company) versus a dynamic environment (e.g., a fintech startup). How does the depth and frequency of premise revision differ?",
+     "a": "In a stable environment, premises are fewer (e.g., regulated tariff, predictable demand), based on historical trends, and revised annually. In a dynamic environment, premises are numerous (tech adoption curves, competitor funding, regulatory shifts), based on scenario forecasting, and revised quarterly or monthly. A student who says \"premises are the same everywhere\" fails to grasp that planning premises are contingent on environmental volatility — a core NCERT concept linking planning to business environment (Chapter 3).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Once the best alternative is selected in Step 5, the planning process is effectively complete; implementation and follow-up are just execution, not planning.\"",
+     "a": "The statement is incorrect. NCERT explicitly includes implementation (Step 6) and follow-up (Step 7) as integral steps of the planning process. Without implementation, the plan remains a document; without follow-up, deviations go undetected and objectives unmet. A student agreeing reveals a narrow \"plan-as-document\" mindset rather than the NCERT's \"plan-as-process\" view where planning and controlling are inseparable (planning sets standards, follow-up enables control).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 7-step planning process for a new CBSE-affiliated school aiming to achieve 100% student pass rate with 30% scoring above 90% in Class 12 boards within 3 years. For each step, write ONE concrete action specific to this context (e.g., for Step 2: \"Assume CBSE syllabus remains unchanged; assume 15% annual teacher attrition; assume 10% fee hike capacity\").",
+     "a": "Sample answer: (1) Objectives: \"95% pass, 30% >90% in 3 years.\" (2) Premises: \"CBSE pattern stable; teacher attrition 15%; fee hike 10%/yr; parent demand for STEM focus.\" (3) Alternatives: \"A) Hire IIT alumni teachers; B) Partner with ed-tech for adaptive practice; C) Implement daily 2-hr remedial slots.\" (4) Evaluation: \"Score each on cost, teacher load, student stress, scalability using weighted matrix.\" (5) Selection: \"Choose B + C blend; defer A due to cost.\" (6) Implementation: \"Sign ed-tech MoU by June; timetable remedial slots; train 20 teachers.\" (7) Follow-up: \"Monthly mock test analysis; quarterly parent-teacher review; annual plan adjustment.\" A poor answer uses generic actions like \"make a plan\" for Step 6, showing inability to contextualise abstract steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_ch109.json",
+ "concepts": [
+  {
+   "id": "fesc.9.2.1",
+   "title": "Adaptation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is adaptation?",
+     "a": "Special body features or habits that help an organism survive in its surroundings.",
+     "self_check": true
+    },
+    {
+     "q": "Give one adaptation of a camel.",
+     "a": "Stores fat in its hump, drinks and stores much water, and has wide padded feet for sand.",
+     "self_check": true
+    },
+    {
+     "q": "Give one adaptation of a fish.",
+     "a": "Streamlined body and gills to breathe dissolved oxygen in water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.2.2",
+   "title": "Habitat Classification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the two broad habitat types.",
+     "a": "Terrestrial habitats (land - forests, deserts, mountains) and aquatic habitats (water - ponds, oceans).",
+     "self_check": true
+    },
+    {
+     "q": "What is a habitat?",
+     "a": "The place with air, water, food and shelter where an organism lives.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of an organism and its habitat.",
+     "a": "Camel - desert; lotus - pond.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.2.3",
+   "title": "Biotic and Abiotic Components",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are biotic components of a habitat?",
+     "a": "The living parts - plants, animals, microbes around an organism.",
+     "self_check": true
+    },
+    {
+     "q": "What are abiotic components?",
+     "a": "Non-living surroundings - air, water, soil, temperature, light.",
+     "self_check": true
+    },
+    {
+     "q": "Give one biotic and one abiotic part of a pond.",
+     "a": "Biotic: fish, algae. Abiotic: water, sunlight, mud.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.4.1",
+   "title": "Characteristics of Living Things",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List the characteristics that show something is living.",
+     "a": "Growth, respiration, nutrition, response to stimuli, excretion and reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a car not called living though it moves and burns fuel?",
+     "a": "It cannot grow, reproduce or respond by itself - motion alone is not life.",
+     "self_check": true
+    },
+    {
+     "q": "Do plants respond to stimuli? Give an example.",
+     "a": "Yes - mimosa leaves fold on touch; shoots bend toward light.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

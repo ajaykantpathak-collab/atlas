@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 210,
+  "chapter_title": "The Philosophy of the Constitution",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps210.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps210.1.1",
+      "title": "Reading a Constitution Philosophically",
+      "section": "1.1",
+      "definition": "Beyond its legal clauses, every constitution carries a philosophy -- core convictions about freedom, equality and political community. Reading philosophically means asking what vision the text serves, how its parts cohere, and whether its promises have been kept in practice, treating the Constitution as a political tradition to be argued with, not just applied.",
+      "formula": "",
+      "key_idea": "Every clause encodes an idea -- philosophy reads the Constitution for its convictions, not just its rules.",
+      "textbook_ref": "keps210.txt lines 15-110 (introduction, what is meant by philosophy of the constitution, constitution as a document with a vision, political philosophy in practice)",
+      "question_patterns": [
+        "what does it mean to read a constitution philosophically",
+        "in class 11 philosophy of the constitution: why should we study the philosophy behind the constitution",
+        "how do the provisions of a constitution reflect a political vision",
+        "distinguish legal reading from philosophical reading of a constitution",
+        "why can the constitution be called a set of moral convictions in legal form",
+        "how does philosophy help judge constitutional practice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "look past the clauses", "explain": "Ask which values -- liberty, equality, fraternity, dignity -- the institutional design is meant to realise."},
+        {"step": 2, "action": "seek the coherence", "explain": "Test whether rights, structures and directive goals form one consistent vision or competing ones."},
+        {"step": 3, "action": "measure the practice", "explain": "Use the extracted philosophy as yardstick for judging amendments, verdicts and government conduct."}
+      ]
+    },
+    {
+      "id": "keps210.1.2",
+      "title": "The Constituent Assembly Debates as Source of Philosophy",
+      "section": "1.2",
+      "definition": "The Constituent Assembly's recorded debates are the richest window into the Constitution's intent: members disagreed over village republics versus central strength, language, minority safeguards and property. These arguments show the text as a set of negotiated answers, and later generations can reopen the arguments using the same reasons.",
+      "formula": "",
+      "key_idea": "The debates hand every generation the reasons behind each clause -- the raw material for constitutional argument.",
+      "textbook_ref": "keps210.txt lines 110-220 (constituent assembly debates, disagreements among members, gandhi and ambedkar positions, why debates remain relevant)",
+      "question_patterns": [
+        "why are the constituent assembly debates important for understanding the constitution",
+        "in class 11 philosophy of the constitution: what major disagreements marked the constituent assembly",
+        "how did ambedkar and gandhi differ on villages as republics",
+        "what was debated about minority safeguards in the assembly",
+        "how can present day citizens use the assembly debates",
+        "do the debates settle what the constitution really means"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "mine the arguments", "explain": "Each clause carries recorded objections and defences, exposing the alternatives rejected and chosen."},
+        {"step": 2, "action": "note the unresolved tensions", "explain": "Positions of Gandhi (village-centred swaraj), Ambedkar (constitutional modernism) and others left live tensions inside the text."},
+        {"step": 3, "action": "use debates as resource", "explain": "Citizens and courts return to these reasons when applying clauses to new problems."}
+      ]
+    },
+    {
+      "id": "keps210.1.3",
+      "title": "Core Values: Freedom, Equality, Justice and Fraternity in the Design",
+      "section": "1.3",
+      "definition": "The Constitution's philosophy rests on interlocking values. Freedom appears as individual liberties protected against the state; equality as both formal equality before law and enabling provisions for the disadvantaged; justice as social and economic transformation through directive principles; fraternity as the dignity and unity that make the others livable in a diverse society.",
+      "formula": "",
+      "key_idea": "Liberty, equality, justice and fraternity are not slogans -- each is wired into structures, rights and directives.",
+      "textbook_ref": "keps210.txt lines 220-330 (constitutional values, freedom and equality in the constitution, justice social economic political, fraternity and national unity, dignity)",
+      "question_patterns": [
+        "how does the constitution embed the values of freedom and equality",
+        "in class 11 philosophy of the constitution: explain justice in its social economic and political senses",
+        "why is fraternity essential to the constitutional vision",
+        "how do fundamental rights and directive principles together express the core values",
+        "give an institutional example realising each preamble value",
+        "how does the constitution balance individual freedom with social justice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "locate freedom", "explain": "Fundamental freedoms, judicially guarded, protect the individual's sphere against state excess."},
+        {"step": 2, "action": "locate equality and justice", "explain": "Equality articles plus reservations and directive principles aim at real, not merely formal, fairness."},
+        {"step": 3, "action": "locate fraternity", "explain": "Common citizenship, secularism and dignity provisions knit a diverse people into one community."}
+      ]
+    },
+    {
+      "id": "keps210.1.4",
+      "title": "Institutional Vision: Parliamentary, Federal and Secular Design",
+      "section": "1.4",
+      "definition": "The philosophy shows in institutional choices: a parliamentary executive fuses responsibility and accountability; federalism with a strong centre holds a vast diversity together while honouring regional identity; a secular state with equal respect for religions answers a multi-faith society; an independent judiciary anchors rights above majorities.",
+      "formula": "",
+      "key_idea": "Machinery mirrors values -- parliamentary accountability, federal balance, secular equal-respect, judicial guardianship.",
+      "textbook_ref": "keps210.txt lines 330-430 (institutional design, parliamentary form choice, federalism with strong centre, secularism and universal franchise as bold choices)",
+      "question_patterns": [
+        "how do institutional choices express the constitution's philosophy",
+        "in class 11 philosophy of the constitution: why was universal franchise called a bold experiment",
+        "how does the parliamentary design reflect democratic accountability",
+        "explain the federal design as an answer to india's diversity",
+        "why is secularism called a core institutional value of the constitution",
+        "which institution embodies the value of constitutional supremacy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "link design to accountability", "explain": "Choosing the parliamentary form tied executive survival to legislative confidence -- responsibility by architecture."},
+        {"step": 2, "action": "link design to diversity", "explain": "Federal division, linguistic reorganisation and strong-centre unity answered the subcontinent's plural reality."},
+        {"step": 3, "action": "link design to equal citizenship", "explain": "Universal adult franchise from day one and secular equal-respect made every adult a full member regardless of status or faith."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps210.txt lines 110-220 (assembly debates)",
+      "concept": "keps210.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Ambedkar criticised village republics as sinks of localism while Gandhi idealised them. How does the Constitution finally position the village, and what does the answer reveal about its philosophy?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the two positions", "explain": "Gandhi wanted India as a union of village republics; Ambedkar feared village narrowness and wanted constitutional modernism on top."},
+        {"step": 2, "action": "trace the textual answer", "explain": "The original text was state-centred, but the 73rd Amendment later constitutionalised panchayats -- a partial return to Gandhi."},
+        {"step": 3, "action": "draw the philosophical lesson", "explain": "The Constitution holds both visions in tension, proving its philosophy is a living argument, not a fixed verdict."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps210.txt lines 330-430 (institutional vision)",
+      "concept": "keps210.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "Universal franchise in 1950 gave every adult the vote amid mass poverty and illiteracy. Explain why this choice is called the boldest expression of the Constitution's philosophy.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the context", "explain": "Post-colonial India had mass illiteracy and deep hierarchy; many advised gradual enfranchisement."},
+        {"step": 2, "action": "state the choice", "explain": "The makers granted universal adult franchise immediately, trusting the poorest citizen with equal political voice."},
+        {"step": 3, "action": "draw the meaning", "explain": "It announced that political equality was not a reward for development but its precondition -- the philosophy in one institutional act."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps210.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "What is meant by the philosophy of the constitution?",
+        "How do the Constituent Assembly debates help us understand the Constitution today?",
+        "Explain how freedom, equality, justice and fraternity are built into the constitutional design.",
+        "Discuss the disagreements in the Assembly over the place of villages in Indian democracy.",
+        "Which institutional choices best express the Constitution's political philosophy? Justify.",
+        "Has the Constitution kept the promises of its Preamble? Present a reasoned assessment."
+      ]
+    }
+  ]
+}

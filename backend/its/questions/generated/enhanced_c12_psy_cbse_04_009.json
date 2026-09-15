@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_009",
+   "title": "c12_psy_cbse_04_009",
+   "questions": [
+    {
+     "q": "A student writes: \"Positive symptoms of schizophrenia are good symptoms because 'positive' means beneficial, while negative symptoms are bad symptoms.\" Identify the error in this statement and explain the correct meaning of 'positive' and 'negative' in this clinical context.",
+     "a": "The error is confusing the everyday meaning of 'positive/negative' (good/bad) with the clinical meaning (presence/absence). In psychopathology, 'positive symptoms' refer to pathological excesses or additions to normal experience (delusions, hallucinations, disorganised speech) — they are NOT beneficial. 'Negative symptoms' refer to pathological deficits or losses of normal functions (speech, emotion, motivation, social drive). A correct answer states: Positive = something added that shouldn't be there; Negative = something missing that should be there. If a student writes \"positive symptoms help the patient,\" they have not grasped the technical terminology and will misclassify symptoms in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A 24-year-old patient believes that the news anchor on television is sending him personal messages through subtle gestures during the broadcast. He also hears a voice commenting on his actions in the third person (\"He is picking up the cup now\"). Classify each symptom (delusion type and hallucination type) and justify your classification using NCERT criteria.",
+     "a": "The belief about the news anchor is a **delusion of reference** — attaching special personal meaning to neutral external events (the anchor's gestures). The voice commenting in third person (\"He is...\") is a **third-person auditory hallucination** — voices talking about the patient as 'he/she' rather than addressing them directly ('you'). Justification: NCERT lists delusions of reference as a distinct subtype where patients attach personal significance to others' actions/objects. For hallucinations, NCERT explicitly distinguishes second-person (voices speak TO patient) from third-person (voices talk ABOUT patient). A common error is calling the news anchor belief a \"delusion of persecution\" — but persecution requires belief of being plotted against/harmed, not just referenced. Another error is calling third-person voices \"second-person\" — the pronoun distinction is diagnostically critical.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two patients using the positive/negative symptom framework:\nPatient A: Hears voices commanding self-harm, believes neighbours are poisoning the water supply, speech jumps between unrelated topics.\nPatient B: Speaks in monosyllables, shows no facial expression when discussing traumatic events, has not initiated any activity in 3 weeks, avoids all social contact.\nWhich patient is more likely to have better long-term functional outcome with antipsychotic medication alone? Explain your reasoning.",
+     "a": "Patient A shows predominantly **positive symptoms**: command auditory hallucinations, delusion of persecution (poisoning), disorganised speech (loosening of associations/derailment). Patient B shows predominantly **negative symptoms**: poverty of speech (alogia), flat affect, avolition, social withdrawal. **Patient A is more likely to have better functional outcome with antipsychotic medication alone.** Reasoning: Positive symptoms (especially hallucinations and delusions) show robust response to dopamine-blocking antipsychotics. Negative symptoms (alogia, flat affect, avolition) are far less responsive to current medications and are the primary driver of long-term disability in work, relationships, and independent living. This is a core clinical concept tested in both board case-study questions and NEET psychiatry questions. A student who says \"both will improve equally\" misunderstands the differential treatment response — a major misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since catatonia involves motor abnormalities like stupor and posturing, it should be classified as a negative symptom because the patient is 'doing less'.\" Evaluate this argument using the NCERT three-category symptom framework for schizophrenia.",
+     "a": "The argument is **incorrect**. NCERT explicitly lists **psychomotor symptoms as a third, separate category** — distinct from both positive and negative symptoms. Catatonia includes stupor (motionless silence), rigidity (maintaining rigid posture), and posturing (assuming awkward positions). These are not mere \"doing less\" (which would be negative/avolition); they are **abnormal motor behaviours** — either excessive immobility or bizarre voluntary motor acts. The NCERT framework is: (1) Positive = excesses (delusions, hallucinations, disorganised speech, inappropriate affect), (2) Negative = deficits (alogia, blunted/flat affect, avolition, asociality), (3) Psychomotor = motor abnormalities (catatonia subtypes). A student who collapses catatonia into negative symptoms will lose marks on classification questions and fail to recognise catatonia as a specifier for schizophrenia subtype (catatonic type) in ICD-10/DSM-5.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement from a popular psychology blog: \"Hearing voices is the defining symptom of schizophrenia — if you don't hear voices, you don't have schizophrenia.\" Use at least three distinct symptom categories from NCERT to support your critique.",
+     "a": "The statement is **false and reductionist**. Critique using NCERT's three categories:\n1. **Positive symptoms**: Auditory hallucinations are *most common* but NOT universal or defining. Schizophrenia can present with *only* delusions + disorganised speech + negative symptoms (e.g., a patient with persecution delusions, derailment, alogia, and flat affect but NO hallucinations still meets diagnostic criteria).\n2. **Negative symptoms**: A patient with prominent avolition, alogia, flat affect, and social withdrawal — but minimal hallucinations — can be diagnosed with schizophrenia (especially deficit subtype). Negative symptoms alone can sustain the diagnosis if duration/functional criteria are met.\n3. **Psychomotor symptoms**: Catatonic schizophrenia may present with stupor, rigidity, or posturing as the *dominant* clinical picture, with hallucinations absent or minimal.\nThe blog statement confuses \"most frequent symptom\" (auditory hallucinations occur in ~70%) with \"necessary symptom.\" Diagnostic systems (ICD-10, DSM-5) require a *cluster* of symptoms, not any single one. A student who accepts this myth will misdiagnose case vignettes lacking hallucinations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief clinical vignette (4-5 sentences) describing a patient who meets NCERT criteria for schizophrenia with **predominantly negative symptoms** and **no hallucinations**. Include at least two types of delusions and three negative symptoms. Label each symptom explicitly in parentheses after the sentence where it appears.",
+     "a": "**Example vignette:** \"Ravi, 26, believes his coworkers are secretly documenting his mistakes to get him fired (**delusion of persecution**) and that the office printer's humming contains coded instructions for his termination (**delusion of reference**). He speaks in brief, monosyllabic replies even when asked open-ended questions (**poverty of speech/alogia**). His face remains expressionless whether discussing his feared firing or his mother's recent death (**flat affect**). He has not showered or cooked a meal in four weeks, saying he 'cannot find the energy to start' (**avolition**). He eats lunch alone in a stairwell and refuses all invitations (**social withdrawal/asociality**).\" A good answer includes: 2+ delusion subtypes (persecution, reference, grandeur, or control), 3+ negative symptoms (alogia, blunted/flat affect, avolition, asociality), explicitly labelled, NO hallucinations mentioned. A poor answer either includes hallucinations, uses vague labels (\"he's withdrawn\"), or confuses negative with positive symptoms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

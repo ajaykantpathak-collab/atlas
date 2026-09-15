@@ -1,0 +1,235 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Expressions using Letter-Numbers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.4.1",
+   "title": "The Notion of Letter-Numbers",
+   "section": "Expressions using Letter-Numbers",
+   "definition": "A letter-number is a letter that stands for any number of a set: writing 3n for three times a number lets one short rule speak for hundreds of number facts at once.",
+   "formula": "",
+   "key_idea": "Letters give numbers a costume that fits every case: one letter-expression stores a whole table of results.",
+   "textbook_ref": "gegp104.txt, Expressions using Letter-Numbers",
+   "question_patterns": [
+    "what is a letter number give an example",
+    "write the rule for 5 times a number using a letter",
+    "what does 3n mean when n is 4",
+    "why do we use letters instead of writing all numbers",
+    "write in words what 2a + 5 could describe",
+    "give the letter expression for a number increased by 7"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.2",
+   "title": "Evaluating Letter-Number Expressions",
+   "section": "Using letter-numbers in expressions",
+   "definition": "To evaluate an expression like 3n + 2, replace the letter with the given number and carry out the operations in order; different values of n give different values of the expression.",
+   "formula": "y = 3 * n + 2",
+   "key_idea": "Substitute, then obey the order of operations: the letter is a placeholder waiting for its number.",
+   "textbook_ref": "gegp104.txt, Using letter-numbers in expressions",
+   "question_patterns": [
+    "find the value of 3n + 2 when n is 4",
+    "evaluate 5a - 3 when a is 6",
+    "what happens to 3n + 2 when n changes from 4 to 7",
+    "evaluate 2x + x when x is 5",
+    "make a table of values of n + 10 for n from 1 to 5",
+    "why can an expression have many different values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the value",
+     "explain": "Replace the letter-number with the given number.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "evaluate in order",
+     "explain": "Carry out multiplication first, then addition.",
+     "compute": "y = 3 * n + 2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3",
+   "title": "Rules and Patterns as Expressions",
+   "section": "Patterns with letter-numbers",
+   "definition": "Patterns become portable when written with letter-numbers: the perimeter of a square is 4s for any side s, and a matchstick pattern growing by a fixed step becomes an expression in the figure number.",
+   "formula": "",
+   "key_idea": "A letter-expression is a pattern you can carry: it answers not one question but every question of a family.",
+   "textbook_ref": "gegp104.txt, Patterns with letter-numbers",
+   "question_patterns": [
+    "write the rule for the perimeter of a square with side s",
+    "a pattern uses 3 sticks in the first figure and 2 more in each next write the rule",
+    "check your letter rule on two small cases",
+    "write the rule for the cost of n pens at 12 rupees each",
+    "how does a letter-number rule show a pattern grows",
+    "use your rule to predict the 10th figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.4",
+   "title": "Simplifying Letter-Number Expressions",
+   "section": "Simplifying expressions",
+   "definition": "Expressions with the same letter-numbers combine: 3a + 2a becomes 5a, and 4b + 3 becomes shorter forms only when like parts are joined, keeping the value unchanged for every number.",
+   "formula": "",
+   "key_idea": "Like parts add, unlike parts wait: simplification shortens the expression without touching its value.",
+   "textbook_ref": "gegp104.txt, Simplifying expressions",
+   "question_patterns": [
+    "simplify 3a + 2a",
+    "simplify 4b + 3 + 2b",
+    "why can we add 3a and 2a but not 3a and 2b",
+    "simplify 7x - 2x + 4",
+    "check the simplified form by putting a number",
+    "write a shorter form of a + a + a"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp104.txt",
+   "concept": "gegp.4.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate the expression y = 3n + 2 when n = 4.",
+   "extracted_variables": {
+    "n": "the value given to the letter-number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "replace the letter",
+     "explain": "Put 4 in place of n everywhere.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "evaluate in order",
+     "explain": "Multiply first, then add.",
+     "compute": "y = 3 * n + 2"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp104.txt",
+   "concept": "gegp.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the value of y = 3n + 2 when n = 7.",
+   "extracted_variables": {
+    "n": "the value given to the letter-number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "replace the letter",
+     "explain": "Substitute 7 for n.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "evaluate in order",
+     "explain": "Multiply by 3 first, then add 2.",
+     "compute": "y = 3 * n + 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp104.txt",
+   "concept": "gegp.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "find the value of 3n + 2 when n is 4.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp104.txt, Figure it Out",
+   "questions": [
+    "What is a letter-number? Give an example.",
+    "Find the value of 3n + 2 when n is 4.",
+    "Write the rule for the perimeter of a square with side s.",
+    "Simplify 3a + 2a.",
+    "Evaluate 5a - 3 when a is 6."
+   ]
+  }
+ ]
+}

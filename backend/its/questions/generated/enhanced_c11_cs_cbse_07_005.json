@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_005",
+   "title": "c11_cs_cbse_07_005",
+   "questions": [
+    {
+     "q": "What error does Python raise when you execute the following code, and why?\n```python\nt = (10, 20, 30)\nt[1] = 25\n```",
+     "a": "Python raises `TypeError: 'tuple' object does not support item assignment`. This happens because tuples are immutable — their elements cannot be changed after creation. A wrong answer (e.g., \"it changes the value to 25\" or \"IndexError\") reveals the student thinks tuples behave like lists or doesn't grasp that immutability is a fundamental property enforced by Python's runtime.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code produces a different `id()` for `t` after the operation, and what this implies about tuple immutability:\n```python\nt = (1, 2, 3)\nprint(id(t))\nt = t + (4,)\nprint(id(t))\n```",
+     "a": "The `id()` changes because `t + (4,)` creates a **new tuple object**; the original `(1, 2, 3)` remains unchanged in memory. The variable `t` is rebound to the new object. A wrong answer (e.g., \"id stays the same because we just added an element\") reveals the student confuses variable reassignment with in-place mutation — a critical misunderstanding of how immutability works at the memory level.",
+     "self_check": true
+    },
+    {
+     "q": "Given `t = (1, 2, [3, 4])`, which of the following operations will succeed and which will fail? Explain why.\n(a) `t[2].append(5)`\n(b) `t[2] = [3, 4, 5]`",
+     "a": "(a) **Succeeds** — `t[2]` accesses the *list object* inside the tuple, and lists are mutable; `append()` modifies that list in-place without changing the tuple's structure. (b) **Fails with TypeError** — this attempts to reassign the tuple's third element, which violates tuple immutability. A wrong answer reveals the student doesn't distinguish between *container immutability* (tuple) and *contained object mutability* (list inside tuple).",
+     "self_check": true
+    },
+    {
+     "q": "Why can a tuple be used as a dictionary key but a list cannot? Write a minimal code example demonstrating both cases.",
+     "a": "Tuples are **hashable** (immutable objects have a fixed hash value), while lists are unhashable (mutable objects cannot have a stable hash). Example:\n```python\nd = {(1, 2): \"tuple key\"}   # Works\nd[[1, 2]] = \"list key\"      # TypeError: unhashable type: 'list'\n```\nA wrong answer (e.g., \"lists aren't allowed because they're slower\") reveals the student lacks the conceptual link between immutability → fixed hash → dictionary key eligibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since tuples are immutable, they are always more memory-efficient than lists.\" Evaluate this claim. Is it always true? Justify with a specific scenario.",
+     "a": "**Not always true.** Tuples *can* be more memory-efficient for small, fixed-size data because Python may intern/reuse them and they have a smaller overhead (no over-allocation for growth). However, if you frequently \"modify\" a tuple by creating new ones (e.g., `t = t + (x,)` in a loop), you create many intermediate objects, increasing memory pressure and GC load. Lists with `append()` mutate in-place and are more efficient for dynamic growth. A wrong answer reveals the student treats immutability as a universal performance win without considering usage patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where using a tuple instead of a list prevents a logical bug. Write the buggy list version and the corrected tuple version.",
+     "a": "**Scenario:** Storing PIN codes for bank ATMs — must never change after deployment.\n```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_001",
+   "title": "c12_cs_cbse_01_001",
+   "questions": [
+    {
+     "q": "What are the three fundamental needs that motivate the creation of a computer network? State each need in one phrase and give a distinct real-world example for each.",
+     "a": "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer. (2) Communication — e.g., students exchanging messages via a chat application over the school Wi-Fi. (3) Distributed processing — e.g., a scientific simulation splitting computations across a cluster of servers. A wrong answer that lists only \"sharing files\" or \"internet access\" reveals the student conflates specific applications with the underlying abstract needs, and cannot generalise to new scenarios like cloud gaming or IoT sensor networks.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A computer network is just two or more computers connected by a cable.\" Explain why this definition is incomplete. Identify the missing conceptual component and give an example where the student's definition would incorrectly classify a system as a network.",
+     "a": "The definition misses protocols — the agreed-upon rules (format, timing, sequencing, error control) that govern communication. Without protocols, connected devices cannot interpret each other's signals. Example: Two laptops connected by an Ethernet cable but running incompatible network stack configurations (e.g., one uses IPv4, the other only IPv6 with no translation) cannot exchange data — they are physically linked but not a functional network. A student who cannot name \"protocols\" or \"communication rules\" treats networking as purely physical, a misconception that later causes confusion when studying the OSI/TCP/IP layers.",
+     "self_check": true
+    },
+    {
+     "q": "In a school computer lab, 20 computers are connected to a central switch. The switch is connected to a single printer and a file server. The lab instructor wants to add a new computer. List the minimum steps required to integrate this computer into the existing network so it can print and access shared files. Assume all hardware is functional.",
+     "a": "Steps: (1) Physically connect the new computer to the switch using a network cable (link establishment). (2) Configure the network interface with a unique IP address in the same subnet (addressing). (3) Install and configure the printer driver pointing to the network printer's IP/hostname (resource access setup). (4) Map the file server's shared folder using its network path (e.g., \\\\server\\share) and provide authentication if required (resource access setup). (5) Test by printing a test page and opening a file from the server. Missing any step — especially IP configuration or authentication — reveals the student views networking as \"plug and play\" only, ignoring logical configuration (addressing, naming, permissions) which is equally essential.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a standalone computer and a networked computer in terms of: (a) software installation and updates, (b) data backup strategy, (c) failure impact. Present your answer as a 3-row, 2-column table.",
+     "a": "| Aspect | Standalone Computer | Networked Computer |\n|--------|---------------------|-------------------|\n| (a) Software installation/updates | Must be done individually on each machine; time-consuming, inconsistent versions | Can be pushed centrally (e.g., via Group Policy, SCCM); consistent, automated |\n| (b) Data backup strategy | Local backup only (external drive); high risk of loss if drive fails or is forgotten | Centralised backup on server/NAS/cloud; scheduled, redundant, off-site possible |\n| (c) Failure impact | Only that user affected; data loss limited to one machine | Potential cascade: server down → all users affected; but redundancy (RAID, failover) can mitigate |\n\nA student who writes \"networked is better in all ways\" fails to recognise the increased complexity and single-point-of-failure risk (server), showing lack of balanced analysis needed for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Every network requires a dedicated server computer.\" Evaluate this statement. Is it true or false? Justify your answer by describing two network architectures where the statement fails, and one where it holds.",
+     "a": "False. The statement confuses client-server architecture (where a dedicated server exists) with peer-to-peer (P2P) and hybrid architectures. Counterexamples: (1) P2P: A home Wi-Fi network where laptops share files directly — no dedicated server. (2) Ad-hoc mobile network: Phones sharing photos via Bluetooth/Wi-Fi Direct — no server. Where it holds: (3) Enterprise domain network: Active Directory domain controller acts as dedicated authentication/file/print server. A student who answers \"true\" has only seen client-server labs and cannot generalise — a critical gap for board questions on network models (covered in node c12_cs_cbse_01_009).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal network for a pop-up medical camp in a rural village with no internet connectivity. The camp has: 1 doctor's laptop, 3 nurse tablets, 1 portable ultrasound machine with Ethernet port, 1 label printer. Requirements: (a) Doctor views ultrasound images on laptop in real time. (b) Nurses enter patient data on tablets saved to doctor's laptop. (c) Labels printed wirelessly. Draw a labelled diagram (text description acceptable) and specify: topology, addressing method, and one protocol used for each requirement.",
+     "a": "Diagram (star topology): All devices connect to a battery-powered wireless router (switch + AP). Doctor's laptop = 192.168.1.10 (static). Nurse tablets = DHCP (192.168.1.20-22). Ultrasound = 192.168.1.30 (static). Printer = 192.168.1.40 (static). Protocols: (a) Real-time video: RTP over UDP (low latency). (b) Data entry: HTTP/HTTPS to a lightweight local web server on doctor's laptop (or SMB file share). (c) Printing: IPP (Internet Printing Protocol) over IP. A poor answer that says \"Bluetooth for everything\" ignores bandwidth/range limits for ultrasound video and shows inability to match protocol to requirement — a skill tested in board competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

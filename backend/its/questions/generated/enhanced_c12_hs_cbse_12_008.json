@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_008",
+   "title": "c12_hs_cbse_12_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between Participatory Rural Appraisal (PRA) and the earlier Rapid Rural Appraisal (RRA) in terms of who owns the information and who drives the process?",
+     "a": "In PRA, the community owns the information and drives the analysis, while the outsider facilitates; in RRA, the outsider extracts information for their own analysis. A wrong answer that says \"PRA is just faster RRA\" reveals the misconception that PRA is only about speed, missing the empowerment and ownership shift.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Social mapping in PRA is done by the extension worker to identify households for targeting subsidies.\" Explain why this statement contradicts the core philosophy of PRA.",
+     "a": "Social mapping is created by community members themselves to visualise their own social structure, resources, and disparities; the extension worker only facilitates. The student's statement shows a top-down mindset where the expert controls the tool, violating the principle that locals are the knowledge holders.",
+     "self_check": true
+    },
+    {
+     "q": "During a transect walk, the extension worker notices a gully erosion site but the accompanying farmers do not mention it. The worker should: (a) point it out immediately and suggest check-dams, (b) note it silently and raise it later in a group discussion, (c) mark it on the map and decide later, (d) ignore it since locals didn't mention it. Choose the best action and justify.",
+     "a": "(b) is correct: the worker notes it and raises it later in a group discussion, allowing the community to analyse and prioritize it themselves. Choosing (a) imposes an external solution; (c) delays without community dialogue; (d) abdicates the facilitator's role to probe. A wrong choice reveals failure to balance observation with participatory process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of a seasonal calendar versus a Venn diagram in PRA. What distinct type of information does each elicit, and how do they complement each other in programme planning?",
+     "a": "A seasonal calendar maps temporal patterns (labour peaks, food scarcity, disease outbreaks, income flows) across months; a Venn diagram maps institutional relationships, influence, and decision-making power among groups/organisations. Together they reveal when to intervene (calendar) and through whom (Venn). A weak answer that says both show \"community problems\" misses their distinct analytical purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"PRA techniques are only useful in rural settings; they cannot be applied in urban slums or peri-urban areas.\" Provide two arguments with examples.",
+     "a": "PRA principles are transferable: (1) Social mapping works in urban slums to identify water points, toilets, and tenure insecurity — e.g., a Delhi basti mapping exercise. (2) Matrix scoring helps urban women's groups rank livelihood options. The statement reflects a narrow rural bias; PRA is about participatory philosophy, not geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-PRA activity plan (3 tools, sequence, and purpose) for a community facing groundwater depletion. Explain how you would ensure triangulation and inclusion of women and marginalized groups.",
+     "a": "Example plan: 1) Social mapping (all households) to locate wells, caste clusters, women's water-fetching routes. 2) Seasonal calendar (separate women's and men's groups) to show water availability, crop cycles, migration months. 3) Venn diagram (mixed group) to map institutions controlling water (panchayat, irrigation dept, NGOs). Triangulation: cross-check well depths from mapping with calendar scarcity months and institutional roles. Inclusion: conduct women-only sessions first, use local language, hold meetings at convenient times/locations. A poor plan omits separate gender sessions or triangulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

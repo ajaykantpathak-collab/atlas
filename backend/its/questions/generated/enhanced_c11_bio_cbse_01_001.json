@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_001",
+   "title": "c11_bio_cbse_01_001",
+   "questions": [
+    {
+     "q": "List the seven defining characteristics of living organisms as per Class 11 NCERT, using the exact biological terminology for each.",
+     "a": "The seven characteristics are: (1) Cellular organization, (2) Metabolism (sum of anabolism and catabolism), (3) Homeostasis, (4) Growth (by intracellular accretion), (5) Reproduction (genetic continuity), (6) Response to stimuli (consciousness/irritability), (7) Adaptation through evolution. A wrong answer that lists only \"movement, breathing, growth\" reveals the student is recalling middle-school descriptors rather than the precise senior-secondary criteria; they confuse physiological processes (breathing) with defining characteristics (metabolism) and miss the fundamental ones like cellular organization and homeostasis.",
+     "self_check": true
+    },
+    {
+     "q": "A dried raisin placed in water swells up due to osmosis. A student argues this proves the raisin is alive because it shows \"growth\" and \"response to environment.\" Explain why this reasoning is biologically incorrect using the distinction between the defining characteristics.",
+     "a": "The raisin exhibits *physical* swelling (imbibition), not biological growth — growth in living organisms occurs by *intracellular accretion* (new protoplasm synthesis via metabolism), not passive water entry. The raisin lacks *cellular organization* (cells are dead and lysed), *metabolism* (no enzyme activity), *homeostasis*, *reproduction*, and *adaptation*. A wrong answer focusing only on \"it's a dead fruit\" misses the conceptual point: the student must articulate *why* physical swelling ≠ biological growth by contrasting accretion vs. imbibition, and identify which specific defining characteristics are absent.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as living, non-living, or borderline with justification using the seven characteristics: (a) Virus outside a host cell, (b) Bacterium in deep freeze (-80°C), (c) Prion protein, (d) Germinating seed, (e) Fire.",
+     "a": "(a) Virus outside host: Borderline — has genetic material and evolves, but lacks cellular organization, metabolism, homeostasis, growth, and independent reproduction; obligate parasite. (b) Bacterium in deep freeze: Living (dormant) — retains all seven characteristics *potentially*; metabolism arrests but resumes on thawing; cellular organization intact. (c) Prion: Non-living — infectious protein only; no genetic material, no metabolism, no cellular organization, no reproduction (only conformational conversion), no adaptation via evolution. (d) Germinating seed: Living — actively shows all seven: cellular respiration (metabolism), radicle emergence (growth), enzyme synthesis (homeostasis), responds to gravity/light. (e) Fire: Non-living — shows metabolism-like oxidation, growth (spread), response to fuel/oxygen, but lacks cellular organization, genetic reproduction, homeostasis, and evolution. Wrong answers typically misclassify virus as living (confusing genetic material with cellular life) or fire as living (analogical reasoning without checking all criteria).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"growth in a living organism\" versus \"growth in a crystal\" by analyzing the underlying mechanisms at molecular, cellular, and systemic levels. Use a table with three rows (Molecular, Cellular, Systemic) and two columns (Living, Crystal).",
+     "a": "**Molecular**: Living — synthesis of macromolecules (proteins, nucleic acids) via enzyme-catalyzed anabolic pathways using ATP; Crystal — addition of ions/molecules to lattice via electrostatic forces, no catalysis. **Cellular**: Living — increase in cell number (division) and/or cell size (cytoplasmic expansion); Crystal — no cells, no division. **Systemic**: Living — organized, regulated growth producing functional tissues/organs (meristems in plants, growth plates in animals); Crystal — unorganized accretion, no functional organization. A wrong answer that only says \"crystals grow externally, organisms internally\" misses the multi-level analysis; they must explain *how* molecular mechanisms differ (enzymatic vs. physical) and why cellular organization is the decisive differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "A research team discovers a novel entity in a hydrothermal vent: it has a lipid membrane, RNA genome, ribosomes, and performs ATP-driven peptide synthesis, but cannot reproduce without host cell machinery. Evaluate whether this entity meets the definition of life. Justify your judgment by mapping each defining characteristic to the evidence.",
+     "a": "Judgment: Borderline / \"life-like\" but not fully living. **Cellular organization**: Yes (membrane-bound, ribosomes). **Metabolism**: Yes (ATP-driven peptide synthesis = anabolism; likely catabolism for ATP). **Homeostasis**: Likely (membrane maintains internal milieu). **Growth**: Yes (peptide synthesis increases mass). **Reproduction**: No — *cannot reproduce independently*; fails genetic continuity criterion. **Response to stimuli**: Unknown from data. **Adaptation**: Yes (RNA genome mutates, evolves). The critical failure is *autonomous reproduction* — without it, the entity cannot sustain a lineage. A wrong answer calling it \"living because it has metabolism and RNA\" commits the reductionist error of equating a subset of characteristics with life; they must recognize that *all* characteristics must be concurrently satisfiable (even if dormant) for an entity to be classified as living.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal \"life-detection protocol\" for a Mars rover that tests for the seven characteristics without assuming Earth-like biochemistry. Specify one measurable test per characteristic that could work for alternative biochemistries (e.g., non-DNA genetics, non-water solvent).",
+     "a": "**Cellular organization**: Microscopy + dye binding for membrane-bound compartments (amphiphile detection). **Metabolism**: Isotopic tracer uptake (¹³C, ¹⁵N) showing *catalyzed* conversion to complex molecules (detect via mass spec). **Homeostasis**: Measure internal vs. external gradients (pH, ion concentration, redox) maintained against environment. **Growth**: Time-lapse imaging showing *internal* volume/mass increase with morphological complexity. **Reproduction**: Detect information-carrying polymer replication (sequencing for repeated motifs, not just DNA). **Response**: Controlled stimulus (light, chemical gradient) → measurable behavioral/metabolic change. **Adaptation**: Serial passage experiment showing heritable phenotypic change. A poor answer lists Earth-specific tests (PCR for DNA, O₂ consumption) revealing inability to abstract the *functional logic* of each characteristic from its terrestrial implementation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

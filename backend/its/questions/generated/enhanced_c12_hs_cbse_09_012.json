@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_012",
+   "title": "c12_hs_cbse_09_012",
+   "questions": [
+    {
+     "q": "Define glycemic index (GI) and state its significance in diabetic meal planning.",
+     "a": "Glycemic index ranks carbohydrate foods on a scale 0-100 based on their blood glucose response relative to glucose (GI=100). Significance: Low GI foods (≤55) produce slower, lower glucose peaks, improving postprandial control and reducing insulin demand. A wrong answer like \"GI measures sugar content\" reveals confusion between carbohydrate quantity and quality — students often think low-sugar foods automatically have low GI, but watermelon (GI 72) has less sugar per 100g than apple (GI 36).",
+     "self_check": true
+    },
+    {
+     "q": "A 60 kg, 45-year-old woman with Type 2 diabetes requires 1800 kcal/day. Using 55% carbohydrate calories, calculate her daily carbohydrate allowance in grams and exchange units (1 exchange = 15g carb).",
+     "a": "Carb calories = 1800 × 0.55 = 990 kcal. Carb grams = 990 ÷ 4 = 247.5g ≈ 248g. Exchanges = 248 ÷ 15 = 16.5 exchanges. A wrong answer of \"55 exchanges\" shows student used percentage directly without converting calories to grams — classic error of skipping the 4 kcal/g conversion step. Another error: using 1800 × 0.55 ÷ 15 = 66 exchanges (forgetting 4 kcal/g).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 1600 kcal diabetic menu distributing 13 carbohydrate exchanges across 3 main meals + 2 snacks. Show exchange distribution per meal and justify timing for a patient on metformin (peak action 2-3 hours post-dose).",
+     "a": "Total 13 exchanges: Breakfast 4, Mid-morning 1, Lunch 4, Evening 1, Dinner 3. Timing: Metformin taken with breakfast and dinner — snacks at 2-3 hour post-dose align with peak glucose-lowering effect to prevent hypoglycemia. A wrong distribution like Breakfast 6, Lunch 4, Dinner 3 (no snacks) risks hypoglycemia during metformin peak; student misses medication-meal synchronization concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast dietary modifications for Type 1 vs Type 2 diabetes regarding carbohydrate consistency, weight management, and hypoglycemia prevention.",
+     "a": "Type 1: Carbohydrate consistency critical for fixed insulin doses; weight management secondary; hypoglycemia prevention via snack timing and carb matching. Type 2: Carbohydrate distribution important but weight loss primary (calorie restriction); hypoglycemia risk lower unless on insulin/sulfonylureas. Wrong answer \"Both need same carb restriction\" ignores that Type 2 focuses on calorie deficit for insulin sensitivity, while Type 1 focuses on carb-insulin matching.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Diabetic patients should avoid all fruits because they contain natural sugars.\" Provide evidence-based counterargument with 3 specific fruit examples and their GI values.",
+     "a": "Statement is false. Fruits provide fiber, antioxidants, micronutrients. Low GI fruits suitable: Apple (GI 36), Orange (GI 43), Guava (GI 12). Portion control matters — 1 exchange (15g carb) = 1 small apple/100g. Wrong agreement shows \"sugar avoidance\" misconception — students equate all sugars as harmful, ignoring food matrix effects and nutrient density.",
+     "self_check": true
+    },
+    {
+     "q": "Create a patient education handout (5 bullet points) explaining \"carbohydrate exchange system\" to a newly diagnosed diabetic with low literacy. Use analogies, avoid technical terms.",
+     "a": "Good answer: \"Think of carb exchanges like currency notes — each 'note' = 15g carb. Your daily budget = X notes. Spend them across meals. 1 roti = 1 note, 1 katori rice = 2 notes, 1 apple = 1 note. Swap notes but don't overspend.\" Poor answer uses jargon like \"macronutrient distribution\" — reveals inability to translate clinical concepts for patient communication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

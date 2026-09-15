@@ -1,0 +1,752 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 3,
+  "chapter_title": "Production and Costs",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec203.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.203.1.1",
+      "title": "Production Function",
+      "section": "3.1",
+      "definition": "The production function maps each combination of inputs, labour and capital, to the largest output technically obtainable from it, so it always describes efficient production under a given state of technology.",
+      "formula": "q = f(labour, capital)",
+      "key_idea": "Given technology, the function states the ceiling on output from any input mix - no more is possible from the same inputs.",
+      "textbook_ref": "leec203.txt, section 3.1, equation 3.1 and Table 3.1, pages 37-38",
+      "question_patterns": [
+        "explain what a production function of a firm shows",
+        "state the relation between labour capital and maximum output",
+        "why does a production function describe only efficient production",
+        "what happens to the production function when technology improves",
+        "from an input output table find the largest output for a given input pair",
+        "name the factors of production used by a firm in the simple model"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the inputs and the output",
+          "explain": "The two factors are labour and capital; the function assigns to each pair the maximum output q."
+        },
+        {
+          "step": 2,
+          "action": "Read efficiency into it",
+          "explain": "Since q is a maximum, no input mix can yield more, which is exactly what efficiency means here."
+        },
+        {
+          "step": 3,
+          "action": "Note the technology anchor",
+          "explain": "The whole mapping rests on current technology; better technology rewrites the function, raising output for every mix."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.1.2",
+      "title": "Short Run and Long Run",
+      "section": "3.2",
+      "definition": "The short run is any period in which at least one factor stays fixed and output can be raised only by varying the other factor; the long run is long enough for every factor to be varied, so no fixed factor remains.",
+      "formula": "time_horizon = fixed_factor_present (short run) versus all_factors_variable (long run)",
+      "key_idea": "Run length is defined by factor flexibility, not by calendar days or months.",
+      "textbook_ref": "leec203.txt, section 3.2, page 39",
+      "question_patterns": [
+        "why is the long run not defined as a fixed number of months",
+        "state the law of diminishing marginal product with a farming example",
+        "what makes a factor fixed or variable",
+        "give an example of adjusting output when capital cannot change",
+        "which factors can a firm vary in the long run",
+        "how does the definition of the two runs differ across industries"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test factor flexibility",
+          "explain": "If some factor cannot be changed in time to alter output, the firm is in the short run."
+        },
+        {
+          "step": 2,
+          "action": "Label the factors",
+          "explain": "The unchangeable input is the fixed factor; the adjustable one is the variable factor."
+        },
+        {
+          "step": 3,
+          "action": "Define the long run by reach",
+          "explain": "When every input, plant and machine included, can be varied, the horizon is the long run."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.1.3",
+      "title": "Isoquant",
+      "section": "3.2",
+      "definition": "An isoquant collects every input combination of labour and capital that yields the same maximum output, acting as the producer's counterpart of the consumer's indifference curve; with positive marginal products it slopes downward.",
+      "formula": "isoquant = set_of(factor_combinations) yielding equal output",
+      "key_idea": "One curve, one output level: many labour-capital mixes can bake the same-sized cake.",
+      "textbook_ref": "leec203.txt, section 3.2, isoquant box and diagram, pages 39-40",
+      "question_patterns": [
+        "define an isoquant and its analogy with indifference curves",
+        "list the input mixes that lie on the isoquant for ten units of output",
+        "why does an isoquant slope downward",
+        "what does moving to a higher isoquant mean",
+        "label an isoquant map for three output levels",
+        "how can the same output follow from different labour capital ratios"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fix the output level",
+          "explain": "Choose a target output and gather all labour-capital pairs that produce exactly it efficiently."
+        },
+        {
+          "step": 2,
+          "action": "Read the trade-off",
+          "explain": "Because both factors contribute positively, less of one must be offset by more of the other, giving the negative slope."
+        },
+        {
+          "step": 3,
+          "action": "Compare curves",
+          "explain": "Curves farther from the origin carry larger output labels, mirroring higher indifference curves."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.2.1",
+      "title": "Total Product, Average Product and Marginal Product",
+      "section": "3.3",
+      "definition": "Holding other inputs constant, total product links each amount of the variable input to the output obtained, average product spreads that output over the units of input, and marginal product is the extra output from one more unit of the input.",
+      "formula": "average_product = total_product / units_of_variable_input",
+      "key_idea": "Total is the schedule, average is output per worker, and marginal is the addition from the latest worker.",
+      "textbook_ref": "leec203.txt, sections 3.3.1 to 3.3.3, equations 3.2 to 3.4 and Table 3.2, pages 40-41",
+      "question_patterns": [
+        "compute average product and marginal product from a total product schedule",
+        "total product rises from 24 to 40 as labour rises from 2 to 3, find the marginal product",
+        "define output per unit of the variable input",
+        "how is total product built from the marginal products of successive units",
+        "find the addition to output when one more worker is employed",
+        "complete an average and marginal product table from total output data"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spread output over the input",
+          "explain": "Dividing total product by the number of variable-input units gives the average product.",
+          "compute": "average_product = total_product / units_of_variable_input"
+        },
+        {
+          "step": 2,
+          "action": "Measure the latest addition",
+          "explain": "Dividing the change in total product by the change in input gives the marginal product of the input.",
+          "compute": "marginal_product = change_in_total_product / change_in_input"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Total Product, Average Product and Marginal Product, compute the result for total_product = 3, units_of_variable_input = 3, change_in_total_product = 3, change_in_input = 2.",
+          "solution": "Step 1: Spread output over the input: average_product = total_product / units_of_variable_input = 1.0 Step 2: Measure the latest addition: marginal_product = change_in_total_product / change_in_input = 1.5 Final result: 1.5",
+          "answer": "1.5"
+        },
+        {
+          "question": "Using Total Product, Average Product and Marginal Product, compute the result for total_product = 4, units_of_variable_input = 4, change_in_total_product = 4, change_in_input = 3.",
+          "solution": "Step 1: Spread output over the input: average_product = total_product / units_of_variable_input = 1.0 Step 2: Measure the latest addition: marginal_product = change_in_total_product / change_in_input = 1.333333 Final result: 1.333333",
+          "answer": "1.333333"
+        }
+      ]
+    },
+    {
+      "id": "leec.203.2.2",
+      "title": "Law of Variable Proportions (Diminishing Marginal Product)",
+      "section": "3.4",
+      "definition": "As more units of one factor are added to fixed amounts of the others, its marginal product first rises, then falls; the rise reflects better factor proportions, the fall the crowding of the variable factor on the fixed one.",
+      "formula": "marginal_product_pattern = rise_then_fall as variable input increases",
+      "key_idea": "Changing proportions first help, then hurt: too little labour wastes land, too much crowds it.",
+      "textbook_ref": "leec203.txt, section 3.4, farmer and land example, pages 41-42",
+      "question_patterns": [
+        "state the law of variable proportions with a farming example",
+        "why does marginal product rise before it falls",
+        "explain the crowding that drives down the marginal product",
+        "what are factor proportions and how do they change",
+        "when does the fixed factor become a bottleneck for workers",
+        "relate the law of diminishing marginal product to changing input ratios"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Hold one factor fixed",
+          "explain": "Vary only labour against fixed land, so the input ratio keeps shifting."
+        },
+        {
+          "step": 2,
+          "action": "Trace the early phase",
+          "explain": "Initially each extra worker has more of the fixed factor to work with, so marginal product climbs."
+        },
+        {
+          "step": 3,
+          "action": "Trace the crowded phase",
+          "explain": "Beyond a point workers outnumber the land they can till efficiently, so each adds less and marginal product declines."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.2.3",
+      "title": "Shapes of TP, MP and AP Curves and their Mutual Relation",
+      "section": "3.5",
+      "definition": "Total product rises at an increasing then decreasing rate, while marginal and average product curves are inverse U-shaped; marginal product leads average product - average rises while marginal lies above it, falls once marginal drops below, and marginal cuts average at its peak.",
+      "formula": "mp_above_ap implies ap rising; mp_below_ap implies ap falling",
+      "key_idea": "The average follows the marginal: whichever way the marginal sits relative to it decides the average's direction.",
+      "textbook_ref": "leec203.txt, section 3.5, figures 3.1 and 3.2, pages 42-43",
+      "question_patterns": [
+        "describe the shapes of the total average and marginal product curves",
+        "why does the marginal product curve cut the average product curve at its maximum",
+        "when does average product rise even while marginal product is falling",
+        "sketch the inverse U pattern of average and marginal returns",
+        "what happens to total product when marginal product turns negative",
+        "why must average equal marginal for the very first unit of input"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read the total curve",
+          "explain": "Total product climbs throughout while marginal product is positive, steepening first and then flattening."
+        },
+        {
+          "step": 2,
+          "action": "Apply the average-marginal rule",
+          "explain": "An average rises whenever the marginal addition exceeds it and falls whenever the marginal falls short."
+        },
+        {
+          "step": 3,
+          "action": "Fix the meeting point",
+          "explain": "The two meet exactly at average product's maximum, which is why the marginal curve slices the average from above there."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.1",
+      "title": "Returns to Scale",
+      "section": "3.6",
+      "definition": "Scaling all inputs by the same proportion t may raise output in the same proportion (constant returns), a larger proportion (increasing returns), or a smaller one (decreasing returns); for the Cobb-Douglas form the sum of the exponents decides which case holds.",
+      "formula": "returns_case = compare(f(t * inputs), t * f(inputs))",
+      "key_idea": "Doubling everything may exactly double output, more than double it, or less - and the exponent sum tells which.",
+      "textbook_ref": "leec203.txt, section 3.6, returns to scale and Cobb-Douglas box, pages 43-44",
+      "question_patterns": [
+        "define constant increasing and decreasing returns to scale",
+        "what happens to output when all inputs are doubled in each returns case",
+        "write the condition on exponents for a Cobb-Douglas function to show constant returns",
+        "test a production function like two times L squared K squared for its returns behaviour",
+        "why can returns to scale be discussed only in the long run",
+        "compare scaling of inputs with varying one input alone"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Scale every input equally",
+          "explain": "Multiply labour and capital by the same factor t greater than one."
+        },
+        {
+          "step": 2,
+          "action": "Compare output with the scale factor",
+          "explain": "Output rising by t is constant returns, by more than t is increasing returns, by less is decreasing returns."
+        },
+        {
+          "step": 3,
+          "action": "Use the Cobb-Douglas shortcut",
+          "explain": "For q as x1 power alpha times x2 power beta, alpha plus beta equal to, above or below one matches the three cases."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.2",
+      "title": "Cost Function: Total Fixed, Total Variable and Total Cost",
+      "section": "3.7.1",
+      "definition": "For each output the firm picks the cheapest input combination, and in the short run its cost splits into a fixed part that does not vary with output and a variable part that does, their sum being total cost.",
+      "formula": "total_cost = total_fixed_cost + total_variable_cost",
+      "key_idea": "Fixed cost is the price of standing ready; variable cost grows with every extra unit produced.",
+      "textbook_ref": "leec203.txt, sections 3.7 and 3.7.1, equation 3.6 and Table 3.3, pages 44-45",
+      "question_patterns": [
+        "how are total cost total fixed cost and total variable cost related",
+        "what does the firm's cost function show",
+        "find total cost at an output when fixed and variable costs are given",
+        "why is total cost at zero output equal to the fixed cost",
+        "which cost heads rise as production expands",
+        "why does the firm pick the least cost input combination for each output"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the two cost heads",
+          "explain": "Total cost is the fixed outlay plus the variable outlay at that output.",
+          "compute": "total_cost = total_fixed_cost + total_variable_cost"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Cost Function: Total Fixed, Total Variable and Total Cost, compute the result for total_fixed_cost = 3, total_variable_cost = 3.",
+          "solution": "Step 1: Add the two cost heads: total_cost = total_fixed_cost + total_variable_cost = 6.0 Final result: 6.0",
+          "answer": "6.0"
+        },
+        {
+          "question": "Using Cost Function: Total Fixed, Total Variable and Total Cost, compute the result for total_fixed_cost = 4, total_variable_cost = 4.",
+          "solution": "Step 1: Add the two cost heads: total_cost = total_fixed_cost + total_variable_cost = 8.0 Final result: 8.0",
+          "answer": "8.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.3",
+      "title": "Average Costs: SAC, AVC and AFC",
+      "section": "3.7.1",
+      "definition": "Per-unit costs divide each total by output: short run average cost equals total cost over output, average variable cost equals variable cost over output, and average fixed cost equals fixed cost over output, with average cost exactly the sum of the other two.",
+      "formula": "short_run_average_cost = average_variable_cost + average_fixed_cost",
+      "key_idea": "Every per-unit figure is its total spread over output, and the averages stack up to the full unit cost.",
+      "textbook_ref": "leec203.txt, section 3.7.1, equations 3.7 to 3.10 and Table 3.3, page 45",
+      "question_patterns": [
+        "compute average cost average variable cost and average fixed cost from totals",
+        "show that average cost equals average variable plus average fixed cost",
+        "why does average fixed cost keep falling as output grows",
+        "what shape does the average fixed cost curve take",
+        "at one unit of output fixed cost is 20 and variable cost 10, give the per-unit figures",
+        "divide each total cost item by output to build the average schedule"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spread the variable cost",
+          "explain": "Divide total variable cost by output for the average variable cost.",
+          "compute": "average_variable_cost = total_variable_cost / output"
+        },
+        {
+          "step": 2,
+          "action": "Spread the fixed cost",
+          "explain": "Divide total fixed cost by output for the average fixed cost, which shrinks as output grows.",
+          "compute": "average_fixed_cost = total_fixed_cost / output"
+        },
+        {
+          "step": 3,
+          "action": "Add the per-unit figures",
+          "explain": "The sum of the two averages is the short run average cost of production.",
+          "compute": "short_run_average_cost = average_variable_cost + average_fixed_cost"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Average Costs: SAC, AVC and AFC, compute the result for total_variable_cost = 3, output = 3, total_fixed_cost = 3.",
+          "solution": "Step 1: Spread the variable cost: average_variable_cost = total_variable_cost / output = 1.0 Step 2: Spread the fixed cost: average_fixed_cost = total_fixed_cost / output = 1.0 Step 3: Add the per-unit figures: short_run_average_cost = average_variable_cost + average_fixed_cost = 2.0 Final result: 2.0",
+          "answer": "2.0"
+        },
+        {
+          "question": "Using Average Costs: SAC, AVC and AFC, compute the result for total_variable_cost = 4, output = 4, total_fixed_cost = 4.",
+          "solution": "Step 1: Spread the variable cost: average_variable_cost = total_variable_cost / output = 1.0 Step 2: Spread the fixed cost: average_fixed_cost = total_fixed_cost / output = 1.0 Step 3: Add the per-unit figures: short_run_average_cost = average_variable_cost + average_fixed_cost = 2.0 Final result: 2.0",
+          "answer": "2.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.4",
+      "title": "Short Run Marginal Cost",
+      "section": "3.7.1",
+      "definition": "Marginal cost is the addition to total cost from producing one more unit; since fixed cost cannot change in the short run, this addition is entirely the change in variable cost, and summing marginal costs up to any output rebuilds the total variable cost.",
+      "formula": "marginal_cost = change_in_total_cost / change_in_output",
+      "key_idea": "The cost of one more unit is the step in total cost, and every step is variable cost in disguise.",
+      "textbook_ref": "leec203.txt, section 3.7.1, equations 3.11 and 3.12 and Table 3.3, pages 45-46",
+      "question_patterns": [
+        "calculate marginal cost between two output levels from a total cost table",
+        "total cost rises from 49 to 53 as output rises from 4 to 5, find the marginal cost",
+        "why is short run marginal cost the same as the rise in variable cost",
+        "how does summing marginal costs recover the total variable cost",
+        "is marginal cost defined at zero output and why",
+        "add up successive marginal costs to obtain the variable cost schedule"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the cost step per unit",
+          "explain": "Dividing the change in total cost by the change in output gives the marginal cost of the extra units.",
+          "compute": "marginal_cost = change_in_total_cost / change_in_output"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Short Run Marginal Cost, compute the result for change_in_total_cost = 3, change_in_output = 3.",
+          "solution": "Step 1: Take the cost step per unit: marginal_cost = change_in_total_cost / change_in_output = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Short Run Marginal Cost, compute the result for change_in_total_cost = 4, change_in_output = 4.",
+          "solution": "Step 1: Take the cost step per unit: marginal_cost = change_in_total_cost / change_in_output = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.5",
+      "title": "Shapes of Short Run Cost Curves",
+      "section": "3.7.1",
+      "definition": "Fixed cost is a horizontal line and average fixed cost a rectangular hyperbola; variable-cost-driven curves are U-shaped - marginal, average variable and average cost all fall, bottom out and rise, and the marginal curve pierces each average curve from below exactly at its minimum.",
+      "formula": "smc_below_avc implies avc falling; smc_above_avc implies avc rising",
+      "key_idea": "Averages chase the marginal, so the marginal curve crosses each average at its lowest point.",
+      "textbook_ref": "leec203.txt, section 3.7.1, figures 3.3 to 3.8, pages 46-49",
+      "question_patterns": [
+        "describe the shapes of the short run marginal average variable and average cost curves",
+        "why does the marginal cost curve cut the average variable cost curve at its minimum",
+        "why does average fixed cost take the form of a rectangular hyperbola",
+        "where does the marginal cost curve meet the average cost curve and why",
+        "why is the minimum of average cost to the right of the minimum of average variable cost",
+        "relate the U shape of cost curves to the law of variable proportions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Draw the total trio",
+          "explain": "Fixed cost stays flat, variable cost rises with output, and total cost rides parallel above it by the fixed amount."
+        },
+        {
+          "step": 2,
+          "action": "Apply the average-marginal logic",
+          "explain": "While marginal cost sits below an average cost, that average falls; once above, the average rises."
+        },
+        {
+          "step": 3,
+          "action": "Pin the intersections",
+          "explain": "Marginal cost crosses average variable cost and average cost from below precisely at their minima, and the average cost trough lies farther right because falling fixed cost delays its rise."
+        }
+      ]
+    },
+    {
+      "id": "leec.203.3.6",
+      "title": "Long Run Costs and their Returns-to-Scale Link",
+      "section": "3.7.2",
+      "definition": "With every input variable there is no fixed cost, so long run average and marginal costs describe the same total; increasing returns pull average cost down, decreasing returns push it up, and constant returns hold it flat, giving both curves their U shape with marginal cutting average at its minimum.",
+      "formula": "lrac_shape = decreasing_over_irs + flat_over_crs + rising_over_drs",
+      "key_idea": "The long run average cost curve is the returns-to-scale story told in rupees per unit.",
+      "textbook_ref": "leec203.txt, section 3.7.2, equations 3.13 and 3.14 and figure 3.9, pages 49-50",
+      "question_patterns": [
+        "why is there no fixed cost in the long run",
+        "how do returns to scale shape the long run average cost curve",
+        "which returns to scale operate at the minimum point of long run average cost",
+        "state the relation between long run marginal cost and long run average cost",
+        "why do both long run cost curves look U shaped",
+        "explain why average cost falls under increasing returns and rises under decreasing returns"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Merge the cost categories",
+          "explain": "All inputs vary in the long run, so total cost and variable cost coincide and only average and marginal curves remain."
+        },
+        {
+          "step": 2,
+          "action": "Translate returns into slopes",
+          "explain": "Increasing returns make each unit cheaper as scale grows, decreasing returns dearer, and constant returns leave unit cost unchanged."
+        },
+        {
+          "step": 3,
+          "action": "Fix the turning point",
+          "explain": "Average cost bottoms out exactly where constant returns hold, with marginal cost passing through that minimum from below."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec203.txt Table 3.2 product schedules",
+      "concept": "leec.203.2.1",
+      "question_type": "compute",
+      "question_pattern": "With capital fixed, total product at 2 units of labour is 24 and at 3 units is 40. Find the average product at 3 units and the marginal product of the third unit.",
+      "extracted_variables": {
+        "total_product": 40,
+        "units_of_variable_input": 3,
+        "change_in_total_product": 16,
+        "change_in_input": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Average product at 3 workers",
+          "explain": "40 over 3 gives about 13.33 units of output per worker.",
+          "compute": "average_product = total_product / units_of_variable_input"
+        },
+        {
+          "step": 2,
+          "action": "Marginal product of the third worker",
+          "explain": "16 extra units of output from 1 extra worker gives a marginal product of 16.",
+          "compute": "marginal_product = change_in_total_product / change_in_input"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec203.txt Table 3.3 cost schedules",
+      "concept": "leec.203.3.3",
+      "question_type": "compute",
+      "question_pattern": "At 8 units of output a firm's total fixed cost is 20 and total variable cost is 60. Compute average variable cost, average fixed cost and short run average cost.",
+      "extracted_variables": {
+        "total_variable_cost": 60,
+        "output": 8,
+        "total_fixed_cost": 20
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Average variable cost",
+          "explain": "60 over 8 gives 7.5 per unit.",
+          "compute": "average_variable_cost = total_variable_cost / output"
+        },
+        {
+          "step": 2,
+          "action": "Average fixed cost",
+          "explain": "20 over 8 gives 2.5 per unit.",
+          "compute": "average_fixed_cost = total_fixed_cost / output"
+        },
+        {
+          "step": 3,
+          "action": "Short run average cost",
+          "explain": "7.5 plus 2.5 gives 10 per unit.",
+          "compute": "short_run_average_cost = average_variable_cost + average_fixed_cost"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec203.txt exercise 25 style total cost table",
+      "concept": "leec.203.3.4",
+      "question_type": "compute",
+      "question_pattern": "A firm's total cost rises from 70 at 4 units of output to 90 at 5 units. Find the marginal cost of the fifth unit.",
+      "extracted_variables": {
+        "change_in_total_cost": 20,
+        "change_in_output": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Cost of the extra unit",
+          "explain": "20 extra rupees of total cost over 1 extra unit gives a marginal cost of 20.",
+          "compute": "marginal_cost = change_in_total_cost / change_in_output"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec203-ex1",
+      "source_ref": "leec203.txt exercise 1",
+      "questions": [
+        "Explain the idea of a production function."
+      ]
+    },
+    {
+      "id": "leec203-ex2",
+      "source_ref": "leec203.txt exercise 2",
+      "questions": [
+        "What is the total product of an input?"
+      ]
+    },
+    {
+      "id": "leec203-ex3",
+      "source_ref": "leec203.txt exercise 3",
+      "questions": [
+        "What is the average product of an input?"
+      ]
+    },
+    {
+      "id": "leec203-ex4",
+      "source_ref": "leec203.txt exercise 4",
+      "questions": [
+        "What is the marginal product of an input?"
+      ]
+    },
+    {
+      "id": "leec203-ex5",
+      "source_ref": "leec203.txt exercise 5",
+      "questions": [
+        "Explain how marginal products and total product of an input are related."
+      ]
+    },
+    {
+      "id": "leec203-ex6",
+      "source_ref": "leec203.txt exercise 6",
+      "questions": [
+        "Explain the concepts of the short run and the long run."
+      ]
+    },
+    {
+      "id": "leec203-ex7",
+      "source_ref": "leec203.txt exercise 7",
+      "questions": [
+        "What is the law of diminishing marginal product?"
+      ]
+    },
+    {
+      "id": "leec203-ex8",
+      "source_ref": "leec203.txt exercise 8",
+      "questions": [
+        "What is the law of variable proportions?"
+      ]
+    },
+    {
+      "id": "leec203-ex9",
+      "source_ref": "leec203.txt exercise 9",
+      "questions": [
+        "When does a production function display constant returns to scale?"
+      ]
+    },
+    {
+      "id": "leec203-ex10",
+      "source_ref": "leec203.txt exercise 10",
+      "questions": [
+        "When does a production function display increasing returns to scale?"
+      ]
+    },
+    {
+      "id": "leec203-ex11",
+      "source_ref": "leec203.txt exercise 11",
+      "questions": [
+        "When does a production function display decreasing returns to scale?"
+      ]
+    },
+    {
+      "id": "leec203-ex12",
+      "source_ref": "leec203.txt exercise 12",
+      "questions": [
+        "Briefly explain the concept of a cost function."
+      ]
+    },
+    {
+      "id": "leec203-ex13",
+      "source_ref": "leec203.txt exercise 13",
+      "questions": [
+        "Define total fixed cost, total variable cost and total cost, and state how they connect."
+      ]
+    },
+    {
+      "id": "leec203-ex14",
+      "source_ref": "leec203.txt exercise 14",
+      "questions": [
+        "Define average fixed cost, average variable cost and average cost, and state how they connect."
+      ]
+    },
+    {
+      "id": "leec203-ex15",
+      "source_ref": "leec203.txt exercise 15",
+      "questions": [
+        "Can any fixed cost exist in the long run? Why not?"
+      ]
+    },
+    {
+      "id": "leec203-ex16",
+      "source_ref": "leec203.txt exercise 16",
+      "questions": [
+        "What is the shape of the average fixed cost curve and why?"
+      ]
+    },
+    {
+      "id": "leec203-ex17",
+      "source_ref": "leec203.txt exercise 17",
+      "questions": [
+        "What shapes do the short run marginal cost, average variable cost and average cost curves take?"
+      ]
+    },
+    {
+      "id": "leec203-ex18",
+      "source_ref": "leec203.txt exercise 18",
+      "questions": [
+        "Why does the short run marginal cost curve pass through the minimum of the average variable cost curve?"
+      ]
+    },
+    {
+      "id": "leec203-ex19",
+      "source_ref": "leec203.txt exercise 19",
+      "questions": [
+        "At which point does the short run marginal cost curve cut the average cost curve? Give reasons."
+      ]
+    },
+    {
+      "id": "leec203-ex20",
+      "source_ref": "leec203.txt exercise 20",
+      "questions": [
+        "Why is the short run marginal cost curve U shaped?"
+      ]
+    },
+    {
+      "id": "leec203-ex21",
+      "source_ref": "leec203.txt exercise 21",
+      "questions": [
+        "What do the long run marginal and average cost curves look like?"
+      ]
+    },
+    {
+      "id": "leec203-ex22",
+      "source_ref": "leec203.txt exercise 22",
+      "questions": [
+        "From a given total product schedule of labour, work out the average and marginal product schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex23",
+      "source_ref": "leec203.txt exercise 23",
+      "questions": [
+        "Given the average product schedule of labour and zero total product at zero labour, build the total and marginal product schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex24",
+      "source_ref": "leec203.txt exercise 24",
+      "questions": [
+        "Given the marginal product schedule of labour with zero total product at zero employment, construct the total and average product schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex25",
+      "source_ref": "leec203.txt exercise 25",
+      "questions": [
+        "From a total cost schedule, identify total fixed cost and calculate the variable, average fixed, average variable, average and marginal cost schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex26",
+      "source_ref": "leec203.txt exercise 26",
+      "questions": [
+        "Given a total cost schedule and average fixed cost of 5 at 4 units, compute the full set of cost schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex27",
+      "source_ref": "leec203.txt exercise 27",
+      "questions": [
+        "Given a marginal cost schedule and fixed cost of 100, find the variable cost, total cost, average variable cost and average cost schedules."
+      ]
+    },
+    {
+      "id": "leec203-ex28",
+      "source_ref": "leec203.txt exercise 28",
+      "questions": [
+        "For the production function five times root L times root K, find the maximum output with 100 units of each input."
+      ]
+    },
+    {
+      "id": "leec203-ex29",
+      "source_ref": "leec203.txt exercise 29",
+      "questions": [
+        "For the production function twice L squared K squared, find maximum output with 5 units of labour and 2 of capital, and with zero labour and 10 of capital."
+      ]
+    },
+    {
+      "id": "leec203-ex30",
+      "source_ref": "leec203.txt exercise 30",
+      "questions": [
+        "For the production function five L plus two K, find maximum output with zero labour and 10 units of capital."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_007",
+   "title": "c11_acc_cbse_07_007",
+   "questions": [
+    {
+     "q": "State the three journal entries required at the end of each accounting year when depreciation is charged directly to the asset account.",
+     "a": "The three entries are: (1) Depreciation A/c Dr. → Asset A/c (for charging depreciation to asset), (2) Profit & Loss A/c Dr. → Depreciation A/c (for transferring depreciation to P&L). The purchase entry (Asset A/c Dr. → Bank/Vendor) occurs only in the year of purchase. A wrong answer listing four entries or reversing the debit/credit reveals confusion between the two recording methods or misunderstanding that depreciation is a non-cash expense.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Asset Account shows a decreasing balance each year under this method, and how this differs from the Provision for Depreciation method in terms of Balance Sheet presentation.",
+     "a": "Under this method, depreciation is credited directly to the Asset Account, so its carrying amount reduces annually. The Balance Sheet shows the asset at net book value (cost minus accumulated depreciation). In the Provision method, the Asset Account remains at original cost, and accumulated depreciation appears separately as a deduction on the asset side or on the liabilities side. A student who says \"both methods show asset at original cost\" confuses the two methods and misses the fundamental distinction in ledger structure.",
+     "self_check": true
+    },
+    {
+     "q": "A machine costing ₹2,00,000 is purchased on 1st April 2023. Depreciation is charged at 10% p.a. on straight line basis. Books close on 31st March. Pass journal entries for the first two years and show the Machine Account for both years.",
+     "a": "Year 1 (2023-24): Depreciation = ₹20,000. Entries: (1) Depreciation A/c Dr. 20,000 → Machine A/c 20,000; (2) P&L A/c Dr. 20,000 → Depreciation A/c 20,000. Machine A/c: Dr. Bank 2,00,000 | Cr. Depreciation 20,000, Balance c/d 1,80,000. Year 2 (2024-25): Same entries. Machine A/c: Dr. Balance b/d 1,80,000 | Cr. Depreciation 20,000, Balance c/d 1,60,000. A wrong answer using reducing balance or showing accumulated depreciation in a separate account indicates failure to apply the straight line calculation and the \"charge to asset\" method simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total charge to Profit & Loss Account over the asset's life under this method versus the Provision method. Does the method of recording affect the total depreciation expense recognised?",
+     "a": "No, the total depreciation expense charged to P&L over the asset's useful life is identical under both methods because both follow the same depreciation calculation (SLM or WDV). The recording method only affects ledger structure and Balance Sheet presentation, not the expense amount. A student who claims one method results in higher total depreciation confuses accounting policy (method of calculation) with recording technique (ledger presentation).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Charging depreciation to the asset account violates the historical cost principle because the asset no longer appears at its original cost.\"",
+     "a": "The statement is incorrect. Historical cost principle requires recording the asset initially at its acquisition cost, which is done. Subsequent depreciation reflects allocation of that cost over useful life — not a revaluation. The net book value (cost less accumulated depreciation) is the correct carrying amount per accounting standards. A student agreeing with the statement misunderstands that historical cost applies to initial recognition, not permanent display at original cost regardless of consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transaction scenario where a business purchases an asset mid-year, incurs installation costs, and uses the straight line method with charging to asset account. Specify all data needed for a classmate to prepare the full ledger for Year 1 and Year 2.",
+     "a": "A good scenario includes: purchase date (e.g., 1st Oct 2023), purchase price (e.g., ₹4,00,000), installation cost (e.g., ₹50,000), estimated useful life (e.g., 5 years), residual value (e.g., ₹50,000), accounting year-end (31st March), depreciation method (SLM). The classmate must calculate Year 1 depreciation for 6 months on total cost (₹4,50,000 - ₹50,000) × 10% × 6/12 = ₹20,000, Year 2 full year ₹40,000. A poor scenario omits installation cost, residual value, or mid-year purchase, making the problem unsolvable or ambiguous.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_003",
+   "title": "c11_ip_cbse_01_003",
+   "questions": [
+    {
+     "q": "List any three input devices mentioned in the NCERT textbook for Class 11 Informatics Practices and state the primary type of data each captures (e.g., text, positional, image, audio, video).",
+     "a": "Correct answer: Keyboard (text), Mouse (positional/movement), Scanner (images/documents). A wrong answer such as \"Printer, Monitor, Speaker\" reveals the student cannot distinguish input from output devices. An answer like \"Keyboard, Mouse, CPU\" reveals confusion between input devices and processing components. This misconception stems from not associating each device with its specific data modality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a microphone is classified as an input device while a speaker is classified as an output device, even though both involve sound.",
+     "a": "Correct answer: A microphone converts sound waves (analog) into digital signals for the computer to process — data flows INTO the system. A speaker converts digital signals from the computer into sound waves — data flows OUT OF the system. A wrong answer that says \"both are input because they deal with sound\" reveals a fundamental misunderstanding of data flow direction. The student is focusing on the physical medium (sound) rather than the direction of information transfer relative to the computer.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to digitize a printed family photo album and also record voice notes describing each photo. Which two input devices should they use, and what type of data does each capture?",
+     "a": "Correct answer: Scanner for the photos (captures still images), Microphone for the voice notes (captures audio). Steps: 1) Identify the two distinct data types: visual (photos) and auditory (voice). 2) Match each to the device designed for that modality. 3) Verify both are input devices (data enters computer). A wrong answer suggesting \"webcam for photos\" shows inability to choose the optimal device for high-quality still image capture. A wrong answer suggesting \"speaker for voice notes\" reveals confusion between input and output.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a standard keyboard and a braille keyboard in terms of user interaction method and the accessibility need they address. How does the braille keyboard enable data entry for a visually impaired user?",
+     "a": "Correct answer: A standard keyboard relies on visual key labels and spatial layout for sighted users. A braille keyboard uses tactile raised dots arranged in braille cells, allowing a visually impaired user to identify keys by touch. Both input text, but the braille keyboard replaces visual cues with haptic ones. A wrong answer stating \"braille keyboard outputs braille on paper\" confuses it with a braille embosser (output device). This reveals the student does not understand that the braille keyboard is an *input* adaptation, not an output device.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A touch screen can completely replace both a keyboard and a mouse.\" Provide two arguments supporting the statement and two arguments against it.",
+     "a": "Supporting: 1) Integrates pointing and tapping in one surface, saving space. 2) Enables direct manipulation (drag, pinch, rotate) which is intuitive for many tasks. Against: 1) Lacks tactile feedback and key travel, reducing typing speed and accuracy for long-form text. 2) Finger input obscures the screen, lacks hover state, and offers lower precision than a mouse for pixel-level work (e.g., CAD, photo editing). A wrong answer that only lists advantages shows inability to critically evaluate trade-offs. The student must recognize that device suitability depends on task context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new input device for elderly users with arthritis that combines two existing input methods. Describe its components, the physical actions it detects, and the digital data it produces.",
+     "a": "Expected answer: Example — A \"Voice-Assisted Trackball\" combining a large, low-friction trackball (for coarse cursor positioning with minimal finger force) and a built-in microphone with voice-command recognition (for text entry and clicks). Components: trackball sensor (optical/mechanical), microphone, ADC, microcontroller. Detects: rotational movement (positional data) and speech (audio). Produces: digital cursor coordinates and recognized text/commands. A poor answer that simply says \"a keyboard with bigger keys\" shows lack of synthesis — it modifies an existing device rather than combining two distinct input modalities to address the specific motor limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

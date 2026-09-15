@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_al_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_al_cbse_01_011",
+   "title": "c12_hin_al_cbse_01_011",
+   "questions": [
+    {
+     "q": "Identify three dialectal markers (non-standard grammatical forms) used consistently in the story's dialogue and give one example of each from the text.",
+     "a": "Three dialectal markers: (1) **Postposition reduction**: \"osQ\" for \"के\" (e.g., \"lwjnkl osQ pfj=k\" — लाजवन्ती के पति), \"mldh\" for \"उसकी\" (e.g., \"mldh >ksaiM+h\" — उसकी आँगन); (2) **Pronoun contraction**: \"mls\" for \"उसे\" (e.g., \"mlosQ pfj=k ij\" — उसके पति पर), \"rqe\" for \"तुम\" (e.g., \"rqe D;k fcxkM+ksxs\" — तुम क्या फेंकोगे); (3) **Verb morphology**: \"gksaxs\" for \"होंगे\" (e.g., \"jkr osQ nks cts gksaxs\" — जाकर के दो चोट होंगे), \"gqvk\" for \"हुआ\" (e.g., \"lglk lwjnkl nkSM+k gqvk\" — लगलक लाजवन्ती नकसक हुआ). A wrong answer listing standard Hindi forms (e.g., \"के\", \"उसे\", \"होंगे\") reveals the student cannot distinguish dialectal representation from standard grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the author uses \"rqe\" (तुम) and \"vki\" (आप) interchangeably for the same character Taj in different dialogues, and what this reveals about power dynamics.",
+     "a": "Taj uses \"vki\" (आप) with Ukhadke (e.g., \"vki gh fcxkM+ nsaxs\" — आप ही फेंकोगे) showing deference to an elder/authority figure, but switches to \"rqe\" (तुम) with Lajwanti (e.g., \"rqe D;k fcxkM+ksxs\" — तुम क्या फेंकोगे) asserting patriarchal dominance. This code-switching maps the household hierarchy: Ukhadke > Taj > Lajwanti. A wrong answer claiming \"inconsistent usage\" or \"author's mistake\" reveals the student views dialectal variation as error rather than sociolinguistic signalling.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following standard Hindi sentence into the story's dialectal style as spoken by Chhajju: \"उसने कहा कि वह कल आएगा।\" Show all morphological changes.",
+     "a": "Step 1: **Pronoun shift** — \"उसने\" → \"mlds\" (ergative \"उसने\" becomes dialectal \"मुस\" / \"उसने\" → \"mlds\" in text pattern). Step 2: **Verb \"कहा\"** → \"dgk\" (past tense \"कहा\" → \"dgk\" as in \"txèkj µ ... dgkµ...\"). Step 3: **Complementizer \"कि\"** → omitted or \"fd\" (text uses \"fd\" rarely; direct speech preferred). Step 4: **Pronoun \"वह\"** → \"og\" (distal \"वह\" → \"og\" as in \"og tkurh Fkh\"). Step 5: **Future \"आएगा\"** → \"vk,xh\" (future \"आएगा\" → \"vk,xh\" as in \"HkSjksa mls vius ?kj esa dHkh u j[ksxh\"). Final dialectal form: **\"mlds dgk fd og lc vk,xh\"** or more authentically **\"mlds dgk og lc vk,xh\"**. A wrong answer retaining standard forms (\"उसने कहा कि वह आएगा\") reveals inability to apply observed morphological patterns productively.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the imperative mood shifts in Lajwanti's speech from the beginning (page 3: \"vc rks vanj&ckgj lc ,d gks x;k gSA\") to the climax (page 8: \"lp&lp crk nks] #i;s rqEgkjs gSa!\"). What grammatical and pragmatic change occurs?",
+     "a": "**Beginning**: Lajwanti uses **declarative statements with implied command** — \"vc rks vanj&ckgj lc ,d gks x;k gSA\" (अब तो वॉन्ज-सीजीएल एक हो गया है) — stating facts to assert reality, grammatically indicative mood, pragmatically resistive. **Climax**: She uses **direct imperative + possessive pronoun emphasis** — \"lp&lp crk nks] #i;s rqEgkjs gSa!\" (लप-लप चढ़ो न, चीजें तुम्हारी हैं!) — \"crk nks\" (चढ़ो न) is imperative mood with emphatic particle \"nks\", \"#i;s rqEgkjs gSa\" asserts ownership grammatically. **Shift**: From passive resistance (indicative) to active reclamation (imperative + possessive), mirroring her psychological journey from victimhood to agency. A wrong answer focusing only on \"tone change\" without grammatical mood terminology reveals superficial reading.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to render the narrator's voice in standard Hindi (e.g., \"lwjnkl dk pfj=k Bhd blosQ foijhr gSA\") while characters speak in dialect. Does this enhance or undermine the story's realism? Justify.",
+     "a": "**Enhances realism**. The narrator's standard Hindi (\"लाजवन्ती का पति भद उसके सामने फीका लगता है\") creates an **objective observational frame**, positioning the reader as external witness. Characters' dialect (\"osQ\", \"mls\", \"rqe\") creates **subjective immersion**, placing the reader inside the courtyard's lived experience. This diglossia (standard narration + dialectal dialogue) mirrors the story's central tension: societal norms (standard) vs. marginalized voices (dialect). If both were standard, authenticity erodes; if both dialectal, accessibility fails. The contrast *is* the realism. A wrong answer claiming \"inconsistency confuses the reader\" reveals misunderstanding of diglossia as a literary device.",
+     "self_check": true
+    },
+    {
+     "q": "Compose a 4-line dialogue between Taj and Lajwanti using the story's dialectal grammar (verb forms, pronouns, idioms) where Taj threatens to leave and Lajwanti asserts her right to the courtyard. Annotate each dialectal feature used.",
+     "a": "**Dialogue:**\n**Taj:** \"rqe pkgs vkxs] eSa tk,xkwA mls dksbZ ugha rok ldrk!\"  \n**Lajwanti:** \"tk,] ij >ksaiM+h rqEgkjh ugha] eSaFkjh gS — mldk vk'kk eSa gh gw¡A\"  \n\n**Annotations:**  \n1. \"rqe\" (तुम) — dialectal 2nd person pronoun  \n2. \"eSa tk,xkw\" (मैं जाऊँगा) — future \"tk,xkw\" for \"जाऊँगा\" (cf. text \"vk,xh\")  \n3. \"mls\" (उसे) — contracted accusative pronoun  \n4. \"eSaFkjh\" (मेरी) — possessive with dialectal \"Fk\" suffix (cf. text \"eSaFkjh\" pattern)  \n5. \"mldk vk'kk\" (उसका हक) — postposition \"का\" reduced to \"k\" in \"mldk\"  \n\nA poor answer using standard Hindi (\"तुम जाओ, मैं जाऊँगा, आँगन तुम्हारा नहीं मेरा है\") with no annotations reveals inability to internalize and reproduce the text's linguistic system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

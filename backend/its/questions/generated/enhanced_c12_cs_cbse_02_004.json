@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_004",
+   "title": "c12_cs_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define ring topology and state the medium access control method typically used in it.",
+     "a": "Ring topology: each node connects to exactly two neighbors forming a closed loop; data travels in one direction (or both in dual-ring) and access is controlled by token passing — a node transmits only when it holds the token. A wrong answer (e.g., \"CSMA/CD\" or \"central hub\") reveals confusion with bus/star topologies and indicates the student hasn't internalized the deterministic access mechanism unique to ring.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a single cable failure in a single-ring topology brings down the entire network, but in a dual-ring topology it may not.",
+     "a": "In a single ring, the loop is broken so tokens cannot circulate and all communication stops. In a dual ring, the second ring provides a reverse path; nodes adjacent to the break wrap the traffic onto the healthy ring, maintaining connectivity. A wrong answer that says \"dual ring has two cables so it works\" without explaining the wrap-around mechanism shows superficial memorization without understanding the self-healing process.",
+     "self_check": true
+    },
+    {
+     "q": "A small startup with 8 workstations wants a low-cost network that can tolerate one cable cut without total outage. They consider ring and full mesh. Calculate the number of cable links required for each and recommend one, justifying with cost and fault tolerance.",
+     "a": "Ring: 8 links (each node connects to two neighbors, but each link counted once → N links). Full mesh: N(N-1)/2 = 8×7/2 = 28 links. Ring is far cheaper. For fault tolerance, single ring fails on one cut; dual ring (16 links) survives one cut. Recommendation: dual-ring if budget allows, else star (not in scope) — but between ring and mesh, dual-ring balances cost and resilience. A wrong answer that chooses full mesh for 8 nodes ignores the quadratic cost explosion and shows inability to scale reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scalability of ring and mesh topologies when the network grows from 10 to 100 nodes. Discuss impact on cable length, latency, and management complexity.",
+     "a": "Ring: links grow linearly (N), cable length ~ N×average distance, latency grows linearly with hops (max N/2 hops), management simple. Mesh: links grow quadratically (N(N-1)/2), cable length explodes, latency remains 1 hop (full mesh) but routing tables grow, management becomes extremely complex. Partial mesh reduces links but adds routing complexity. A wrong answer claiming mesh scales better because \"everyone connects to everyone\" misses the physical and administrative infeasibility at large N.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Mesh topology is always superior to ring topology because it provides multiple paths between any two nodes.\"",
+     "a": "The statement is false for general use. Full mesh provides redundancy but at prohibitive cost (cable, ports, power) and complexity for large networks. Ring is superior when predictable latency, low cost, and simple management are priorities (e.g., metropolitan area networks using SONET/SDH). Mesh is reserved for critical backbones or small high-value clusters. A wrong answer agreeing with the statement shows inability to evaluate trade-offs and apply context-dependent judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid topology for a university campus that uses ring topology at the building level and mesh topology at the core. Describe how traffic flows from a host in Building A to a host in Building B, and explain why this hybrid leverages strengths of both.",
+     "a": "Each building uses a dual-ring (fiber) connecting floor switches — low cost, deterministic latency, self-healing within building. Core layer connects building aggregation switches in a partial mesh (e.g., each building connects to 2-3 core switches) providing multiple inter-building paths. Traffic: host → access switch → building ring → aggregation switch → core mesh (shortest path) → destination building ring → access switch → host. This hybrid uses ring's economy and simplicity at edge, mesh's resilience at core. A poor answer that just says \"connect rings with mesh\" without describing traffic flow or justifying the split shows lack of synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

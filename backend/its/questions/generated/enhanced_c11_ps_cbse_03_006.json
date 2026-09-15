@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_006",
+   "title": "c11_ps_cbse_03_006",
+   "questions": [
+    {
+     "q": "Article 16(4) of the Indian Constitution empowers the State to make provisions for reservation in public employment. Which specific group(s) does this clause explicitly mention as beneficiaries?",
+     "a": "Article 16(4) mentions \"any backward class of citizens which, in the opinion of the State, is not adequately represented in the services under the State.\" It does not explicitly name SCs, STs, or OBCs; it uses the broader term \"backward class.\" A wrong answer (e.g., \"SCs and STs only\") reveals the student conflates the specific *implementation* (Presidential Orders under Art 341/342) with the *enabling constitutional provision*, missing the constitutional flexibility that allowed OBC inclusion later.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Constitution makers included Article 15(4) (added by the 1st Amendment in 1951) shortly after adopting Article 15(1) which prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.",
+     "a": "Article 15(1) ensures formal equality (non-discrimination), but the State realized that identical treatment perpetuates existing caste hierarchies because \"backward classes\" lacked the capacity to compete. Article 15(4) enables *special provisions* (like reservations in education) for substantive equality. A wrong answer (e.g., \"to help the poor\") reveals a misunderstanding of the *group-based, caste-centric* logic of Indian affirmative action versus individual economic need.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a 10% reservation in medical colleges for \"Economically Weaker Sections\" (EWS) based solely on family income (< ₹8 lakh/year), applicable to all castes including General category. Using the distinction between *formal equality* and *substantive equality*, analyze whether this policy aligns with the original constitutional logic of Articles 15(4)/16(4).",
+     "a": "The original logic (Art 15(4)/16(4)) targets *social and educational backwardness* arising from historical caste discrimination (structural inequality), not merely current income poverty. EWS reservation addresses *economic* disadvantage (individual circumstance), not *social* exclusion (structural barrier). While it promotes formal equality of opportunity for the poor, it diverges from the compensatory justice rationale for caste-based reservations. A wrong answer (e.g., \"Yes, because both help disadvantaged people\") fails to distinguish the *causal mechanism* of inequality: caste is an ascribed, immutable status; income is a variable condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Compensatory Justice\" argument (reservations as repayment for historical oppression) and the \"Diversity/Integration\" argument (reservations ensure representation in power structures). How do they differ in their view of *who benefits* and *what the goal is*?",
+     "a": "Compensatory Justice: Beneficiary = the specific victim group (SC/ST/OBC); Goal = rectify past harm/moral debt (backward-looking). Diversity/Integration: Beneficiary = the *entire society/institution*; Goal = legitimate governance, better decision-making, social cohesion (forward-looking). A wrong answer merging them (\"both help backward classes\") misses that the diversity argument justifies reservations even if no *specific* past discrimination by *that* institution is proven (e.g., US *Grutter v. Bollinger* logic applied to Indian context).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Reservations violate the Right to Equality (Article 14) because they classify citizens based on caste, which is a prohibited ground under Article 15(1).\" Use the Supreme Court's *Indra Sawhney* (1992) reasoning.",
+     "a": "The statement confuses *formal equality* (Art 14/15(1) - identical treatment) with *substantive equality* (Art 15(4)/16(4) - differential treatment for equals). *Indra Sawhney* held that Article 16(4) is not an exception to 16(1) but an *explication* of it: classification based on \"backwardness\" (social/educational) is a reasonable classification under Art 14 if it has a rational nexus to the object (adequate representation). Caste is a *proxy* for social backwardness, not the sole criterion. A wrong answer agreeing with the statement reveals a \"color-blind\" liberal misconception that ignores the Constitution's own text (Art 15(4), 16(4)) which permits caste as a factor for *remedial* purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision (one clause) for a hypothetical \"Equality Amendment\" that attempts to resolve the tension between \"merit\" (individual exam scores) and \"social justice\" (group representation) in elite professional institutions (like IITs/AIIMS). Your clause must define \"merit\" contextually.",
+     "a": "**Sample Clause:** \"For admission to institutions of national importance, 'merit' shall be defined as the candidate's demonstrated potential to excel *relative to the educational resources and social capital accessible to their peer group*, assessed through a composite index combining entrance scores, school quality index, and a disadvantage weightage for caste/region/gender, ensuring that selection reflects both individual effort and structural equity.\" A poor answer defines merit purely as \"rank in entrance exam\" (ignoring context) or purely as \"caste category\" (ignoring individual agency), failing the synthesis required at this level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

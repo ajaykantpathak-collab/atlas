@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_008",
+   "title": "c12_math_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the First Fundamental Theorem of Calculus. What are the necessary conditions on the function \\( f \\) and the interval?",
+     "a": "The theorem states: If \\( f \\) is continuous on \\([a, b]\\) and \\( A(x) = \\int_a^x f(t) \\, dt \\), then \\( A'(x) = f(x) \\) for all \\( x \\in (a, b) \\). A wrong answer that omits the continuity condition or writes the lower limit as variable reveals a misunderstanding of the theorem's hypotheses. Students often forget that \\( f \\) must be continuous on the whole closed interval, or they confuse the variable of integration with the limit variable.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( A(x) = \\int_0^x \\frac{\\sin t}{t} \\, dt \\) is differentiable for all \\( x > 0 \\) and find \\( A'(x) \\). Why can we not simply say \\( A'(x) = \\frac{\\sin x}{x} \\) at \\( x = 0 \\)?",
+     "a": "The integrand \\( \\frac{\\sin t}{t} \\) has a removable discontinuity at \\( t = 0 \\) (limit is 1), so it can be extended to a continuous function on \\([0, x]\\) for any \\( x > 0 \\). By the theorem, \\( A'(x) = \\frac{\\sin x}{x} \\) for \\( x > 0 \\). At \\( x = 0 \\), the theorem does not directly apply because the interval \\([0,0]\\) is degenerate and the integrand is not originally defined at 0; we would need to check the limit definition of derivative separately. A wrong answer that blindly applies the formula at \\( x = 0 \\) without addressing the discontinuity shows lack of attention to the continuity hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Find the derivative of \\( F(x) = \\int_1^{x^2} \\sqrt{1 + t^3} \\, dt \\). (Hint: Use the chain rule with the First Fundamental Theorem.)",
+     "a": "Let \\( u = x^2 \\). Then \\( F(x) = \\int_1^u \\sqrt{1 + t^3} \\, dt \\). By the First Fundamental Theorem, \\( \\frac{d}{du} \\int_1^u \\sqrt{1 + t^3} \\, dt = \\sqrt{1 + u^3} \\). By the chain rule, \\( F'(x) = \\sqrt{1 + (x^2)^3} \\cdot \\frac{d}{dx}(x^2) = \\sqrt{1 + x^6} \\cdot 2x = 2x \\sqrt{1 + x^6} \\). A common error is to forget the chain rule and write \\( \\sqrt{1 + x^6} \\), or to incorrectly substitute \\( t = x^2 \\) inside the square root without multiplying by the derivative of the upper limit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two functions: \\( G(x) = \\int_0^x e^{-t^2} \\, dt \\) and \\( H(x) = \\int_x^1 e^{-t^2} \\, dt \\). How are their derivatives related? Explain without computing antiderivatives.",
+     "a": "By the First Fundamental Theorem, \\( G'(x) = e^{-x^2} \\). For \\( H(x) \\), we can write \\( H(x) = \\int_1^x (-e^{-t^2}) \\, dt = -\\int_1^x e^{-t^2} \\, dt \\). Then \\( H'(x) = -e^{-x^2} \\). Alternatively, \\( H(x) = \\int_0^1 e^{-t^2} \\, dt - \\int_0^x e^{-t^2} \\, dt = C - G(x) \\), so \\( H'(x) = -G'(x) = -e^{-x^2} \\). The derivatives are opposites. A student who says they are equal misses the sign change when the variable is the lower limit.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if \\( f \\) is continuous on \\([a,b]\\), then \\( \\frac{d}{dx} \\int_a^b f(t) \\, dt = f(x) \\). Evaluate this claim and correct it if necessary.",
+     "a": "The claim is false. The integral \\( \\int_a^b f(t) \\, dt \\) is a definite integral with constant limits, so its value is a constant number (the net area from \\( a \\) to \\( b \\)). The derivative of a constant is zero, not \\( f(x) \\). The First Fundamental Theorem applies only when the upper limit is the variable \\( x \\). The correct statement is \\( \\frac{d}{dx} \\int_a^x f(t) \\, dt = f(x) \\). A student who agrees with the claim confuses a definite integral (constant) with an area function (variable).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (in an Indian context) where the First Fundamental Theorem of Calculus is used to find a rate of change from an accumulated quantity. Describe the quantities involved and write the mathematical formulation.",
+     "a": "Example: A water tank in a housing society in Mumbai is being filled. The rate of flow of water (in litres per minute) at time \\( t \\) minutes is given by \\( r(t) = 50 - 2t \\) for \\( 0 \\le t \\le 20 \\). The total volume of water in the tank at time \\( x \\) is \\( V(x) = \\int_0^x r(t) \\, dt \\). The First Fundamental Theorem tells us that the rate of change of volume at time \\( x \\) is exactly the flow rate \\( r(x) \\). A good answer will clearly identify the accumulated quantity (volume) and the rate (flow), set up the integral, and state \\( V'(x) = r(x) \\). A poor answer might just give a formula without context or confuse the variable of integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

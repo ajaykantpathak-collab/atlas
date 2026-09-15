@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_003",
+   "title": "c12_acc_cbse_09_003",
+   "questions": [
+    {
+     "q": "State the three categories of cash flow activities as per AS-3 and give one typical cash inflow example for each.",
+     "a": "The three categories are: (1) Operating activities — e.g., cash receipts from sale of goods; (2) Investing activities — e.g., cash receipt from sale of machinery; (3) Financing activities — e.g., cash proceeds from issue of equity shares. A wrong answer (e.g., listing \"purchase of raw material\" as investing) reveals the student confuses asset acquisition (investing) with day-to-day operating purchases.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company receives ₹50,000 as dividend on shares it holds as investments. Under AS-3, is this an operating, investing, or financing cash inflow? Explain why the classification would differ for a financial enterprise (e.g., an investment company).",
+     "a": "For a non-financial enterprise (manufacturing), dividend received is an **investing activity** cash inflow because it represents return on investments. For a financial enterprise (whose main business is lending/investing), dividend received is an **operating activity** cash inflow because it arises from their primary revenue-generating operations. A wrong answer (classifying as operating for both) shows the student misses the enterprise-type distinction explicitly stated in AS-3.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into operating, investing, or financing activities with justification: (a) Cash paid for income tax on operating profit; (b) Cash paid for capital gains tax on sale of land; (c) Cash paid for dividend distribution tax.",
+     "a": "(a) Operating activity — tax on operating profit relates to main operations. (b) Investing activity — capital gains tax on sale of land is directly linked to the investing transaction (sale of fixed asset). (c) Financing activity — dividend distribution tax is part of dividend payment, a financing outflow. A wrong answer (e.g., classifying all taxes as operating) reveals the student ignores AS-3's rule: taxes are classified based on the underlying transaction they relate to.",
+     "self_check": true
+    },
+    {
+     "q": "A company acquires machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this treated in the cash flow statement? Explain why.",
+     "a": "This is a **non-cash transaction** and is **excluded** from the cash flow statement. It must be disclosed elsewhere in the financial statements (e.g., notes to accounts). A wrong answer (showing it as investing outflow and financing inflow) reveals the student fails to recognize that AS-3 only records *cash* flows; transactions not involving cash or cash equivalents are omitted from the statement itself.",
+     "self_check": true
+    },
+    {
+     "q": "\"Interest paid is always a financing activity.\" Evaluate this statement with reference to AS-3 for financial and non-financial enterprises.",
+     "a": "The statement is **false**. For a non-financial enterprise, interest paid is a **financing activity** (cost of borrowing). For a financial enterprise (bank, NBFC), interest paid is an **operating activity** because borrowing and lending are its main business. A wrong evaluation (saying \"always financing\") shows the student memorizes a rule without understanding the enterprise-type exception that is central to AS-3.",
+     "self_check": true
+    },
+    {
+     "q": "Create a table with 3 columns (Operating, Investing, Financing) and list 3 distinct cash inflows and 3 distinct cash outflows for a **software development company**. Ensure at least one item in each column is specific to this industry (not generic).",
+     "a": "**Operating**: Inflows — cash from software licenses, subscription fees, consulting fees; Outflows — employee salaries, server hosting costs, marketing expenses. **Investing**: Inflows — sale of old laptops, maturity of fixed deposits; Outflows — purchase of high-end workstations, acquisition of another software firm, investment in equity shares. **Financing**: Inflows — proceeds from issue of ESOP shares, venture capital funding; Outflows — repayment of bank loan, interest on loan, dividend to shareholders. A poor answer (generic items like \"sale of goods\" for a service company) reveals the student cannot contextualize classification to the specific enterprise's operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

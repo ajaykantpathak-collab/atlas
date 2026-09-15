@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 30,
+ "chapter_title": "Framing the Constitution",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs304.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.304.1",
+   "title": "The Constituent Assembly",
+   "section": "Framing the Constitution",
+   "definition": "The Constituent Assembly, indirectly elected under the 1946 cabinet mission plan, held its first meeting in December 1946, worked through committees and drafts, and adopted the Constitution on 26 November 1949, a framing effort of about three years amid partition and refugee crisis.",
+   "formula": "",
+   "key_idea": "Partition shadowed every debate: the assembly wrote a constitution for a country bleeding at its borders. Subtracting the first meeting year from the adoption year gives the framing span in years.",
+   "textbook_ref": "lehs304.txt assembly composition, December 1946 meeting and 1949 adoption",
+   "question_patterns": [
+    "when did the Constituent Assembly first meet",
+    "when was the Constitution adopted",
+    "compute the framing span between meeting and adoption",
+    "how were assembly members chosen",
+    "what difficulties of partition affected the assembly",
+    "name key figures of the drafting committee"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "first meeting 1946, adoption 1949",
+     "compute": "first_meeting_year = 1946"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1949 - 1946 = three years of framing",
+     "compute": "framing_span = adoption_year - first_meeting_year"
+    }
+   ]
+  },
+  {
+   "id": "lehs.304.2",
+   "title": "Objectives Resolution and Rights",
+   "section": "Objectives Resolution",
+   "definition": "Nehru's Objectives Resolution of December 1946 promised justice, equality and freedom, and suffrage to all adults; the assembly debated fundamental rights, minority protections and the place of the state vis-a-vis religion, embedding rights in the constitution's core.",
+   "formula": "",
+   "key_idea": "The resolution was the constitution's moral preamble, later mirrored in the preamble's keywords.",
+   "textbook_ref": "lehs304.txt Objectives Resolution and fundamental rights debates",
+   "question_patterns": [
+    "state the promises of the Objectives Resolution",
+    "when did Nehru move the resolution",
+    "which rights became fundamental rights in the constitution",
+    "how did the assembly protect minorities",
+    "relate the resolution to the preamble",
+    "debate the limits of rights during partition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "quote the pledge",
+     "explain": "justice social, economic and political; equality of status and opportunity"
+    },
+    {
+     "step": 2,
+     "action": "link to preamble",
+     "explain": "the adopted preamble echoes the resolution's vocabulary"
+    },
+    {
+     "step": 3,
+     "action": "close with rights",
+     "explain": "fundamental rights constitutionalised the freedom struggle's promises"
+    }
+   ]
+  },
+  {
+   "id": "lehs.304.3",
+   "title": "Debates: Language, Federalism, Electorate",
+   "section": "The Dominant Voices and the Debates",
+   "definition": "Assembly debates weighed a centralising state against provincial demands, Hindi against regional languages, and separate electorates against common citizenship; the majority chose strong central power, Hindi as official language with transitional English, and reserved seats without separate electorates for depressed classes.",
+   "formula": "",
+   "key_idea": "Every choice traded unity against diversity, and the final text balanced them through federal checks and temporary provisions.",
+   "textbook_ref": "lehs304.txt language, centre-state power and electorate debates",
+   "question_patterns": [
+    "summarise the language debate and its settlement",
+    "why did the assembly strengthen central power",
+    "what was decided on separate electorates for depressed classes",
+    "state Ambedkar's role and arguments in the debates",
+    "compare critical and consensus voices in the assembly",
+    "relate partition to the federal design"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the language row",
+     "explain": "Hindi became official language with English allowed transitionally"
+    },
+    {
+     "step": 2,
+     "action": "centre the state",
+     "explain": "partition anxiety pushed the draft toward strong central emergency powers"
+    },
+    {
+     "step": 3,
+     "action": "close with reservation",
+     "explain": "reserved seats replaced separate electorates for depressed classes"
+    }
+   ]
+  },
+  {
+   "id": "lehs.304.4",
+   "title": "The Constitution's Vision",
+   "section": "The Vision of the Constitution",
+   "definition": "The constitution's vision combined a strong state to correct social wrongs, universal adult franchise in a poor society, and social revolution through law - banning untouchability, promising land reform - while accommodating diversity through federal forms.",
+   "formula": "",
+   "key_idea": "Adult franchise was the boldest experiment: a largely illiterate nation was trusted to elect its rulers at once.",
+   "textbook_ref": "lehs304.txt franchise, social revolution and strong state themes",
+   "question_patterns": [
+    "describe the vision of universal adult franchise",
+    "how does the constitution seek social revolution",
+    "why did the assembly prefer a strong central state",
+    "identify provisions against untouchability",
+    "relate the freedom movement's promises to the text",
+    "assess the constitution's accommodative design"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trust the voter",
+     "explain": "universal franchise extended power to every adult without property tests"
+    },
+    {
+     "step": 2,
+     "action": "law as reform",
+     "explain": "untouchability's abolition aimed at social revolution by statute"
+    },
+    {
+     "step": 3,
+     "action": "close with balance",
+     "explain": "federal forms carried diversity while the centre held unity"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs304_1",
+   "source_ref": "lehs304.txt 1946-1949 dates",
+   "concept": "lehs.304.1",
+   "question_type": "compute",
+   "question_pattern": "The Constituent Assembly first met in 1946 and adopted the Constitution in 1949. Compute the framing span.",
+   "extracted_variables": {
+    "first_meeting_year": 1946,
+    "adoption_year": 1949
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1946 meeting, 1949 adoption",
+     "compute": "first_meeting_year = 1946"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1949 - 1946 = 3 years",
+     "compute": "framing_span = adoption_year - first_meeting_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs304_2",
+   "source_ref": "lehs304.txt Objectives Resolution",
+   "concept": "lehs.304.2",
+   "question_type": "short_answer",
+   "question_pattern": "List three promises of the Objectives Resolution echoed in the preamble.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "justice",
+     "explain": "social, economic and political justice for all"
+    },
+    {
+     "step": 2,
+     "action": "equality",
+     "explain": "equality of status and opportunity"
+    },
+    {
+     "step": 3,
+     "action": "freedom",
+     "explain": "freedom of thought, expression, belief, faith and worship"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs304_3",
+   "source_ref": "lehs304.txt franchise section",
+   "concept": "lehs.304.4",
+   "question_type": "short_answer",
+   "question_pattern": "Why was universal adult franchise called an experiment?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale",
+     "explain": "hundreds of millions of new voters, mostly poor and unschooled"
+    },
+    {
+     "step": 2,
+     "action": "precedent",
+     "explain": "no post-colonial society had tried full franchise at once"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the assembly gambled that democratic trust would build the nation"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs304_1",
+   "source_ref": "lehs304.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the composition and working of the Constituent Assembly",
+    "compute the framing span from first meeting to adoption",
+    "explain the Objectives Resolution and its legacy",
+    "summarise the language and electorate debates",
+    "discuss the constitution's vision of social revolution"
+   ]
+  },
+  {
+   "id": "ex_lehs304_2",
+   "source_ref": "lehs304.txt project questions, reworded",
+   "questions": [
+    "use assembly debates to trace the federal design",
+    "evaluate Ambedkar's defence of the draft constitution",
+    "relate partition events to constitutional choices",
+    "compare the preamble with the Objectives Resolution",
+    "assess adult franchise as a democratic experiment"
+   ]
+  }
+ ]
+}

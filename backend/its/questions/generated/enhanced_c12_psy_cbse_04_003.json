@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_003",
+   "title": "c12_psy_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the neurotransmitter associated with each of the following disorders according to the biological model: (a) Anxiety disorders, (b) Schizophrenia, (c) Depression.",
+     "a": "(a) Anxiety disorders — low activity of GABA (gamma-aminobutyric acid); (b) Schizophrenia — excess activity of dopamine; (c) Depression — low activity of serotonin. A wrong answer (e.g., linking dopamine to anxiety or serotonin to schizophrenia) reveals the student has memorised neurotransmitter names but not their specific disorder associations — a common board exam error where students confuse \"low dopamine = Parkinson's\" with \"high dopamine = schizophrenia\" and misattribute serotonin to anxiety instead of depression.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The behavioural model says abnormal behaviour is caused by unconscious conflicts from childhood.\" Explain why this statement is incorrect and identify which model it actually describes.",
+     "a": "The statement describes the **psychodynamic model** (Freud), not the behavioural model. The behavioural model asserts that abnormal behaviour is *learned* through classical conditioning, operant conditioning, or social learning — and what is learned can be unlearned. A wrong answer shows the student conflates \"psychological models\" as one undifferentiated block, failing to distinguish the *mechanism* (unconscious conflict vs. learned response) — a frequent error in 2-mark \"distinguish between\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Priya develops intense fear of dogs after being bitten at age 6. Using the behavioural model, explain how this phobia could have developed through *classical conditioning*. Identify the US, UR, CS, and CR in this scenario.",
+     "a": "US = dog bite (pain/fear), UR = fear response to bite, CS = dog (previously neutral), CR = fear response to dog. The bite (US) naturally elicits fear (UR). Through temporal association, the dog (CS) becomes linked to the bite, eventually eliciting fear (CR) on its own. A wrong answer that swaps US/CS or describes operant conditioning (reward/punishment) reveals the student cannot map the classical conditioning paradigm to a real-life phobia — a classic application trap in both board and CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cognitive model and the humanistic-existential model on their view of *why* abnormal behaviour arises. Use the terms \"irrational beliefs\" and \"self-actualisation\" in your answer.",
+     "a": "Cognitive model: Abnormal behaviour stems from **irrational beliefs, illogical thinking, overgeneralisations** (e.g., \"I must be perfect or I'm a failure\") that distort reality. Humanistic-existential model: Abnormal behaviour arises when individuals **avoid the responsibility of self-actualisation**, live inauthentically, shirk freedom, and fail to fulfil their innate potential for growth. A wrong answer that reverses the terms or gives vague descriptions (\"cognitive = thoughts, humanistic = feelings\") shows the student knows labels but not the *causal logic* of each model — a distinction critical for 3-mark \"compare\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since schizophrenia has a strong genetic component, socio-cultural factors like family communication patterns or urban upbringing are irrelevant to its development.\" Use the bio-psycho-social perspective.",
+     "a": "The claim is **false**. Genetic vulnerability (diathesis) does not equal destiny; the bio-psycho-social perspective and diathesis-stress model show that socio-cultural stressors (e.g., high expressed emotion in families, urbanicity, migration stress) can *trigger* or *worsen* the disorder in genetically predisposed individuals. Evidence: adoption studies show risk increases when genetic risk combines with adverse rearing environments. A wrong answer that agrees with the claim reveals a **genetic determinism** misconception — ignoring the \"stress\" component of diathesis-stress, which is explicitly tested in competency-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief case vignette (3-4 sentences) of a college student showing abnormal behaviour. Then list ONE specific factor from *each* of the three models (biological, psychological, socio-cultural) that could contribute to their condition.",
+     "a": "**Vignette:** \"Arjun, 19, was a high-achieving student. Over the past 3 months, he has become withdrawn, stops mid-sentence saying 'they're listening', hears his name called when alone, and believes his professors are inserting thoughts into his mind. His maternal uncle had a similar condition. His parents are divorced; he lives with his critical mother. He recently failed a major exam.\"  \n**Biological:** Genetic predisposition (maternal uncle's history) + possible dopamine dysregulation.  \n**Psychological:** Maladaptive cognitive schemas (e.g., \"I am powerless\") or unresolved psychodynamic conflicts.  \n**Socio-cultural:** High expressed emotion (critical mother), recent academic stressor, social isolation.  \nA poor answer that lists only biological factors or gives generic factors (\"stress\" without specificity) shows the student cannot *operationalise* the bio-psycho-social framework — the core skill for case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

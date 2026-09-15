@@ -1,0 +1,195 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 108,
+ "chapter_title": "Sources of Business Finance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs108.txt",
+ "concepts": [
+  {
+   "id": "kebs.108.1.1",
+   "title": "Classification of Sources: Owned and Borrowed Funds",
+   "section": "Sources of finance",
+   "definition": "Business finance sources divide into owned funds such as equity shares, retained earnings and venture capital, and borrowed funds such as debentures, loans, public deposits and commercial paper, with period based classification into short, medium and long term.",
+   "formula": "",
+   "key_idea": "The choice between debt and equity balances cost, control, risk and financial flexibility for the firm.",
+   "textbook_ref": "kebs108.txt classification of sources section",
+   "question_patterns": [
+    "classify the sources of business finance on the basis of period",
+    "differentiate owned funds and borrowed funds",
+    "name the long term sources of finance",
+    "which sources provide short term working capital",
+    "compare debt and equity as sources of finance",
+    "what is meant by financial leverage of borrowed funds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the ownership claim",
+     "explain": "Separate owner funds from creditor funds."
+    },
+    {
+     "step": 2,
+     "action": "note the period",
+     "explain": "Classify the source by repayment duration."
+    },
+    {
+     "step": 3,
+     "action": "weigh cost and control",
+     "explain": "Compare interest cost with loss of control."
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.2.1",
+   "title": "Equity Shares, Preference Shares and Retained Earnings",
+   "section": "Equity and preference",
+   "definition": "Equity shares carry ownership rights, voting power, dividend after preference shares and residual claims, preference shares carry a fixed rate of dividend paid before equity with preferential repayment, and retained earnings are profits reinvested in the business as an internal source called ploughing back of profits.",
+   "formula": "",
+   "key_idea": "Equity finance spreads risk among shareholders and needs no repayment, while preference capital is a hybrid of fixed dividend and ownership claim.",
+   "textbook_ref": "kebs108.txt shares and retained earnings sections",
+   "question_patterns": [
+    "differentiate equity shares and preference shares",
+    "what are retained earnings and their merits",
+    "why is ploughing back of profits called an internal source",
+    "define participating and convertible preference shares",
+    "state the merits of equity share capital",
+    "how do retained earnings affect the financial position of a firm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the claim and voting",
+     "explain": "Separate equity holders from preference holders."
+    },
+    {
+     "step": 2,
+     "action": "note the dividend order",
+     "explain": "Confirm preference dividend comes before equity dividend."
+    },
+    {
+     "step": 3,
+     "action": "classify internal source",
+     "explain": "Recognise reinvested profit as retained earnings."
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.3.1",
+   "title": "Debentures, Loans and Interest Cost Computation",
+   "section": "Debentures",
+   "definition": "Debentures are borrowed fund instruments carrying a fixed rate of interest paid whether or not the firm earns profit, debenture holders being creditors with no voting rights, and the interest cost on borrowed funds is computed as principal multiplied by rate and time.",
+   "formula": "interest = principal * rate_percent * years / 100",
+   "key_idea": "Interest on debentures is a charge against profit, making borrowed funds cheaper but riskier than equity.",
+   "textbook_ref": "kebs108.txt debentures section",
+   "question_patterns": [
+    "define debentures and state their features",
+    "calculate the interest cost of borrowed funds",
+    "compare debentures with shares as a source of finance",
+    "what is the difference between mortgaged and naked debentures",
+    "compute the interest payable on a loan for the given period",
+    "why are debenture holders called creditors of the company"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the interest relation",
+     "explain": "Multiply the principal by the rate percent and the years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  },
+  {
+   "id": "kebs.108.4.1",
+   "title": "Loans from Banks, Public Deposits, Commercial Paper and Trade Credit",
+   "section": "Loans and credit",
+   "definition": "Banks provide term loans and cash credit against security, public deposits invite unsecured deposits from the public for fixed periods, commercial paper is an unsecured short term promissory note of creditworthy companies, and trade credit from suppliers supports working capital needs.",
+   "formula": "",
+   "key_idea": "International sources like foreign currency loans, Euro issues and external commercial borrowings supplement domestic sources for large firms.",
+   "textbook_ref": "kebs108.txt loans and credit sections",
+   "question_patterns": [
+    "what are public deposits and their merits",
+    "define commercial paper and its features",
+    "how does trade credit help working capital",
+    "distinguish term loan from cash credit",
+    "name the international sources of business finance",
+    "evaluate bank loans against debentures for a firm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the instrument",
+     "explain": "Note the deposit, note or credit arrangement used."
+    },
+    {
+     "step": 2,
+     "action": "check the period and security",
+     "explain": "Separate short term unsecured paper from secured term loans."
+    },
+    {
+     "step": 3,
+     "action": "weigh suitability",
+     "explain": "Match the source to the working capital or capital expenditure need."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs108.txt debentures section",
+   "concept": "kebs.108.3.1",
+   "question_type": "compute_interest",
+   "question_pattern": "A company issues debentures worth {principal} rupees at {rate_percent} per cent interest for {years} years. Calculate the interest payable for the period.",
+   "extracted_variables": {
+    "principal": 500000,
+    "rate_percent": 12,
+    "years": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the interest relation",
+     "explain": "Multiply the principal by the rate percent and the years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs108.txt debentures section",
+   "concept": "kebs.108.3.1",
+   "question_type": "compute_interest",
+   "question_pattern": "A firm borrows {principal} rupees from a bank at {rate_percent} per cent per annum for {years} years. Find the interest cost of the loan.",
+   "extracted_variables": {
+    "principal": 200000,
+    "rate_percent": 10,
+    "years": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the interest relation",
+     "explain": "Multiply the principal by the rate percent and the years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs108.txt exercises",
+   "questions": [
+    "State the merits and demerits of raising funds through debentures.",
+    "Differentiate between equity shares and preference shares.",
+    "Explain retained earnings as a source of internal finance.",
+    "What are public deposits? State their merits.",
+    "Classify the sources of finance on the basis of time period."
+   ]
+  }
+ ]
+}

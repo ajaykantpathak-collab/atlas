@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_9",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_9",
+   "title": "c9_bio_ch4_9",
+   "questions": [
+    {
+     "q": "Define fossilization and name the most common geological setting where it occurs.",
+     "a": "Fossilization is the process by which organic remains are preserved over geological time through mineral replacement or impression formation, most commonly occurring in sedimentary rock layers where rapid burial protects remains from scavengers and decay. A wrong answer (e.g., \"fossils form in volcanic rock\" or \"fossils are just old bones\") reveals the student confuses igneous/metamorphic settings with sedimentary deposition, or thinks fossilization preserves original bone material unchanged rather than mineral replacement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a jellyfish fossil is far rarer than a trilobite fossil, even though both lived in ancient oceans.",
+     "a": "Jellyfish lack hard parts (exoskeleton, shell, bones) so their soft tissues decay completely before mineralization can occur, whereas trilobites had calcite-reinforced exoskeletons that resist decay long enough for sediment burial and permineralization. A wrong answer (e.g., \"jellyfish didn't exist then\" or \"trilobites were more common\") reveals the student doesn't understand that fossilization potential depends on biochemical composition of tissues (hard parts fossilize preferentially), not just population abundance.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds a rock with a hollow cavity shaped like a bivalve shell. The original shell material is gone. What type of fossil is this, and what specific conditions allowed its formation?",
+     "a": "This is an external mold fossil. Formation required: (1) rapid burial of the bivalve in fine sediment, (2) sediment hardening into rock around the shell, (3) groundwater dissolving the original calcium carbonate shell completely, leaving a cavity replicating the shell's exterior surface. A wrong answer (e.g., \"it's a cast\" or \"the shell turned to stone\") reveals confusion between mold (negative impression) and cast (positive replica), or misunderstanding that original material can be lost while shape is preserved.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast carbonization and permineralization as fossilization processes. Which preserves more three-dimensional cellular detail?",
+     "a": "Carbonization preserves a thin carbon film of flattened organic material (mostly plants/leaves) through volatilization of H, O, N under heat/pressure, yielding 2D detail. Permineralization infiltrates pore spaces of hard tissues (bone, wood) with silica/calcite, preserving 3D cellular architecture. Permineralization preserves more 3D detail because minerals replicate internal microstructure. A wrong answer (e.g., \"both preserve 3D equally\" or \"carbonization makes petrified wood\") reveals inability to distinguish chemical mechanisms: carbonization = thermal flattening; permineralization = mineral infiltration into existing pore spaces.",
+     "self_check": true
+    },
+    {
+     "q": "A creationist argues: \"If evolution is true, we should find countless transitional fossils. The fossil record has gaps, so evolution didn't happen.\" Evaluate this claim using the concepts of fossilization probability and stratigraphic completeness.",
+     "a": "The claim is flawed because: (1) fossilization is exceptionally rare - requires rapid burial, hard parts, mineral-rich groundwater; most organisms decay completely. (2) Sedimentary deposition is episodic, not continuous - gaps (unconformities) represent missing time, not missing evolution. (3) Despite this, key transitional fossils exist (e.g., Tiktaalik - fish to tetrapod; Archaeopteryx - dinosaur to bird; whale ancestors with hind limbs). A wrong answer (e.g., \"gaps prove evolution false\" or \"we have all transitions\") reveals misunderstanding that fossil record incompleteness is a geological sampling artifact, not evidence against evolutionary change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using plaster of Paris and shells to demonstrate the difference between a mold fossil and a cast fossil. List materials, steps, and what each product represents.",
+     "a": "Materials: Plaster of Paris, water, container, petroleum jelly, seashell. Steps: (1) Coat shell with petroleum jelly (prevents sticking). (2) Press shell into wet plaster - let harden. (3) Remove shell - the hollow impression is the MOLD (external mold). (4) Coat mold interior with petroleum jelly. (5) Fill mold with fresh plaster - let harden. (6) Separate - the solid replica is the CAST. Mold = negative space (external shape); Cast = positive replica (what a later mineral infill would create). A poor answer (skipping petroleum jelly, confusing which is which) reveals lack of hands-on understanding that molds form first, casts form second from molds, and both require a release agent - mirroring how groundwater minerals act as natural \"casting material\" in nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

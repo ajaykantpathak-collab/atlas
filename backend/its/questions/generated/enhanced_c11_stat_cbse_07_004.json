@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_004",
+   "title": "c11_stat_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the formula for Karl Pearson's coefficient of correlation *r* using the covariance method. Define every symbol used.",
+     "a": "Correct answer: *r* = cov(X,Y) / (σ_X · σ_Y) = [Σ(x_i - x̄)(y_i - ȳ)] / [√Σ(x_i - x̄)² · √Σ(y_i - ȳ)²], where x̄ and ȳ are arithmetic means of X and Y, σ_X and σ_Y are standard deviations, and cov(X,Y) is covariance. A wrong answer (e.g., writing *r* = ΣXY / √(ΣX²ΣY²) without subtracting means) reveals the student confuses the shortcut formula with the definitional formula and does not understand that *r* measures **co-variation about the mean**, not raw co-variation.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates *r* = 1.2 for a dataset. Without checking their arithmetic, explain why this answer is **impossible** based on the mathematical properties of *r*.",
+     "a": "Correct answer: By the Cauchy-Schwarz inequality, |cov(X,Y)| ≤ σ_X σ_Y, so |*r*| ≤ 1 always. Any value outside [-1, 1] indicates a calculation error (e.g., wrong sign in covariance, incorrect standard deviation formula, or arithmetic mistake). A wrong answer (e.g., \"maybe the correlation is very strong\") reveals the student treats *r* as an unbounded index of strength rather than a mathematically bounded normalised measure.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following summary statistics for 10 observations: ΣX = 50, ΣY = 80, ΣX² = 300, ΣY² = 700, ΣXY = 450. Calculate *r* using the shortcut formula. Show all steps.",
+     "a": "Steps:  \n1. N = 10  \n2. ΣX = 50, ΣY = 80, ΣX² = 300, ΣY² = 700, ΣXY = 450  \n3. Shortcut formula: *r* = [NΣXY - ΣXΣY] / √[NΣX² - (ΣX)²] · √[NΣY² - (ΣY)²]  \n4. Numerator = 10(450) - (50)(80) = 4500 - 4000 = 500  \n5. Denominator part1 = √[10(300) - 2500] = √[3000 - 2500] = √500 ≈ 22.36  \n6. Denominator part2 = √[10(700) - 6400] = √[7000 - 6400] = √600 ≈ 24.49  \n7. *r* = 500 / (22.36 × 24.49) ≈ 500 / 547.6 ≈ 0.913  \nA wrong answer (e.g., forgetting to multiply by N in numerator, or using ΣX² instead of NΣX²) reveals the student memorises the formula as a pattern of symbols without understanding each term's origin from the deviation form.",
+     "self_check": true
+    },
+    {
+     "q": "Two datasets give *r* = 0.85. Dataset A: (Height in cm, Weight in kg). Dataset B: (Height in inches, Weight in lbs). Will the *r* values be the same or different? Justify using the formula.",
+     "a": "Correct answer: **Same**. *r* is unit-free because both numerator (covariance) and denominator (product of standard deviations) change by the same multiplicative factor when units change (e.g., cm→inches multiplies both σ_X and cov by 0.3937, which cancels). A wrong answer (\"different because units are different\") reveals the student thinks *r* depends on measurement units, confusing it with covariance or regression slope which **do** change with units.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since *r* = 0.02 for variables X and Y, there is **no relationship** between them.\" Evaluate this claim. Provide a concrete counterexample where *r* ≈ 0 but a strong relationship exists.",
+     "a": "Correct evaluation: The claim is **false**. *r* measures only **linear** relationship. A perfect quadratic (Y = X²) or circular relationship can yield *r* = 0. Counterexample: X = -2, -1, 0, 1, 2; Y = 4, 1, 0, 1, 4. Here *r* = 0 but Y = X² is a perfect deterministic relationship. A wrong answer (\"the claim is correct because *r* near 0 means no correlation\") reveals the student equates \"correlation\" with \"any relationship\" and misses the critical **linearity** assumption.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (N=5) where *r* = 1 exactly. Then modify **one** value to make *r* = -1. Explain the pattern you used.",
+     "a": "Example for *r*=1: (1,2), (2,4), (3,6), (4,8), (5,10) — all points lie on line Y=2X. For *r*=-1: change last point to (5,-10) → points lie on Y=2X for first four, but last point breaks linearity; better: use (1,10), (2,8), (3,6), (4,4), (5,2) all on Y=12-2X. A poor answer (random numbers with *r*≈1) reveals the student does not grasp that *r*=±1 requires **all points exactly on a straight line** with non-zero slope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

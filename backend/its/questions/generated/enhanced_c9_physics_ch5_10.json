@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_10",
+   "title": "c9_physics_ch5_10",
+   "questions": [
+    {
+     "q": "State the frequency ranges for ultrasound and infrasound, and give one application for each.",
+     "a": "Ultrasound: frequency > 20 kHz (e.g., medical sonography). Infrasound: frequency < 20 Hz (e.g., earthquake monitoring). A wrong answer (e.g., swapping the ranges or giving applications that use audible sound) reveals the student has not memorised the defining frequency boundaries or cannot link the wave property to the application.",
+     "self_check": true
+    },
+    {
+     "q": "Why is ultrasound preferred over audible sound for imaging internal organs, while infrasound is used for detecting distant volcanic eruptions?",
+     "a": "Ultrasound's high frequency (short wavelength) provides fine resolution to distinguish small structures, and it reflects well at tissue boundaries. Infrasound's low frequency (long wavelength) diffracts around obstacles and suffers very little attenuation, so it propagates thousands of km. A wrong answer (e.g., saying ultrasound travels farther) shows confusion between wavelength-dependent resolution and attenuation.",
+     "self_check": true
+    },
+    {
+     "q": "An ultrasonic flaw detector sends a pulse into a steel rail (speed of sound in steel = 5960 m/s). The reflected pulse from a crack returns after 40 μs. Calculate the distance of the crack from the detector.",
+     "a": "Given: v = 5960 m/s, t = 40 μs = 40 × 10⁻⁶ s. The pulse travels to the crack and back, so total distance = v × t = 5960 × 40 × 10⁻⁶ = 0.2384 m. Distance to crack = total distance / 2 = 0.1192 m = 11.92 cm. A wrong answer (e.g., forgetting to halve the distance) reveals the student does not account for the round-trip travel time.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the penetration ability of ultrasound in air versus in soft tissue. Explain why medical ultrasound requires a gel coupling medium.",
+     "a": "Ultrasound attenuates strongly in air due to large impedance mismatch; most energy reflects at the air-skin interface. Gel eliminates air gaps, matching impedance so ultrasound enters the body. A wrong answer (e.g., saying gel increases frequency) shows misunderstanding of acoustic impedance and reflection at boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Infrasound from a volcanic eruption can be heard by humans if we amplify it enough.\" Evaluate this statement.",
+     "a": "False. Infrasound is below 20 Hz; human ears cannot perceive it regardless of amplitude because the cochlea's hair cells do not respond to such low frequencies. Amplification only increases intensity, not frequency. A wrong answer (agreeing) reveals confusion between loudness (amplitude) and pitch (frequency).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a plastic bottle to demonstrate that infrasound can diffract around obstacles better than ultrasound.",
+     "a": "Use a tone-generator app to play a 10 Hz tone (infrasound) and a 25 kHz tone (ultrasound) through a speaker. Place a large cardboard barrier between the speaker and the phone's microphone. Measure the sound level with a decibel-meter app. The 10 Hz tone will be detected behind the barrier; the 25 kHz tone will be strongly blocked. A poor design (e.g., using frequencies within the audible range) shows the student cannot translate the concept into a testable setup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

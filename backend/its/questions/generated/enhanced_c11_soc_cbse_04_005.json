@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_005",
+   "title": "c11_soc_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define hidden curriculum in one sentence using precise sociological terminology.",
+     "a": "Hidden curriculum is the set of implicit norms, values, and behaviors transmitted through school routines, teacher expectations, and institutional practices that socialize students into societal roles without being part of the formal syllabus. A wrong answer that lists extracurricular activities (sports, clubs) reveals confusion between voluntary enrichment and involuntary socialization; a wrong answer citing \"moral science textbook\" reveals failure to distinguish explicit from implicit transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how hidden curriculum differs from formal curriculum in terms of intentionality, assessment, and social function.",
+     "a": "Formal curriculum is intentional, explicitly assessed via exams, and aims at cognitive skill acquisition; hidden curriculum is largely unintentional, unassessed, and functions to reproduce social norms (obedience, gender roles, punctuality). A wrong answer claiming hidden curriculum is \"taught by teachers on purpose\" misses the sociological point that it operates through structure, not agency; a wrong answer saying \"both are assessed\" confuses informal sanctions (scolding) with formal evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "A school requires all students to stand silently in gender-segregated lines during morning assembly, with boys in front rows. Identify three hidden curriculum lessons being transmitted and the social norm each reinforces.",
+     "a": "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy. 3) Silent standing → reinforces obedience to institutional authority. A wrong answer listing \"discipline\" or \"patriotism\" without gender analysis misses the critical dimension; a wrong answer calling it \"formal rule\" fails to see it as hidden because no textbook mandates it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hidden curriculum in a government school serving low-income communities versus an elite private school. Focus on time management, language, and teacher-student interaction.",
+     "a": "Government school: rigid bells, vernacular medium, hierarchical address (sir/madam) → reinforces punctuality as compliance, linguistic hierarchy, deference to authority. Elite school: flexible schedules, English dominance, first-name basis → reinforces time autonomy, cultural capital of English, negotiated authority. A wrong answer describing only facilities (labs, playgrounds) confuses material culture with hidden curriculum; a wrong answer claiming \"both are same\" ignores class-based socialization differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Hidden curriculum is more powerful than formal curriculum in shaping a student's future social position.\" Provide two arguments for and one limitation.",
+     "a": "For: 1) Operates continuously (8 hrs/day, 12 years) vs. episodic lessons; 2) Internalizes dispositions (habitus) that affect job interviews, bureaucracy navigation. Limitation: Formal curriculum credentials (degrees) remain gatekeepers for mobility; hidden curriculum alone cannot substitute certified qualifications. A wrong answer agreeing entirely ignores structural credentialism; a wrong answer dismissing hidden curriculum as \"just manners\" underestimates its role in cultural capital formation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-item observation checklist a sociologist could use to uncover hidden curriculum in a Class 11 classroom during a 40-minute period. Each item must capture a different dimension (space, time, language, body, evaluation).",
+     "a": "1) Space: Seating chart by gender/caste? 2) Time: Who controls transitions (bell vs. teacher)? 3) Language: Which dialect/language is validated? 4) Body: Posture expectations differ by gender? 5) Evaluation: Praise for obedience vs. critical questioning? A poor checklist lists only \"teacher behavior\" or \"student talking\" without structural dimensions; a good one reveals how ordinary routines encode power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

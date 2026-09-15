@@ -1,0 +1,445 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 108,
+ "chapter_title": "Heredity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc108.txt",
+ "concepts": [
+  {
+   "id": "jesc.8.1",
+   "title": "Accumulation of Variation during Reproduction",
+   "section": "8.1",
+   "definition": "The gradual emergence and buildup of genetic differences across successive generations caused by copying errors in DNA and sexual recombination.",
+   "formula": "variation_rate_sexual > variation_rate_asexual",
+   "key_idea": "Reproductive variations provide raw material for natural selection to act upon under environmental pressures.",
+   "textbook_ref": "jesc108.txt lines 8-40",
+   "question_patterns": [
+    "explain how variations accumulate across generations during reproduction",
+    "why does sexual reproduction generate greater diversity than asexual reproduction",
+    "how does environmental selection act on genetic variants in a species",
+    "which trait is likely to have arisen earlier in an asexual population based on frequency",
+    "state two key points about accumulation of variation during reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare trait prevalence in population",
+     "explain": "In an asexually reproducing population, traits present in a higher percentage of individuals have persisted for more generations and thus originated earlier."
+    },
+    {
+     "step": 2,
+     "action": "evaluate adaptive advantage",
+     "explain": "Environmental factors select variants possessing survival advantages, enhancing their reproductive success over generations."
+    },
+    {
+     "step": 3,
+     "action": "contrast sexual vs asexual variation sources",
+     "explain": "Sexual reproduction combines genetic material from two parents and introduces recombination, producing far greater diversity than asexual reproduction's rare copying errors."
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.1",
+   "title": "Inherited Traits and Phenotypic Frequency",
+   "section": "8.2.1",
+   "definition": "Genetically transmitted physical characteristics passed from parents to progeny whose expression rate can be quantified statistically in a population.",
+   "formula": "trait_percentage = (trait_count / total_population) * 100",
+   "key_idea": "Equal genetic contribution from both parents determines parental trait inheritance in offspring.",
+   "textbook_ref": "jesc108.txt lines 45-68",
+   "question_patterns": [
+    "find the percentage of students having attached earlobes in a sample",
+    "calculate the trait percentage given phenotypic counts in a population",
+    "determine the proportion of individuals expressing a specific inherited trait",
+    "how to calculate trait frequency from a classroom earlobe survey",
+    "find the required value in a inherited traits and phenotypic frequency problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate trait ratio",
+     "explain": "Divide the number of individuals exhibiting the trait by the total population surveyed",
+     "compute": "trait_ratio = trait_count / total_population"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "explain": "Multiply the ratio by 100 to find the percentage frequency",
+     "compute": "trait_percentage = trait_ratio * 100"
+    },
+    {
+     "step": 3,
+     "action": "verify inheritance source",
+     "explain": "Confirm that the trait is genetically transmitted from both parents, since equal genetic contribution from each parent determines phenotypic expression in offspring."
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.2a",
+   "title": "Monohybrid Cross and Dominant-Recessive Inheritance",
+   "section": "8.2.2",
+   "definition": "A genetic cross focusing on a single character where heterozygous combination reveals dominant and hidden recessive alleles in a 3:1 phenotypic F2 ratio.",
+   "formula": "f2_dominant = total_offspring * 3 / 4",
+   "key_idea": "One allele masks the expression of another in heterozygous condition, yielding 3:1 dominant to recessive phenotypes in F2.",
+   "textbook_ref": "jesc108.txt lines 70-110",
+   "question_patterns": [
+    "calculate the expected number of dominant and recessive plants in F2 monohybrid progeny",
+    "find the phenotypic ratio of offspring in a monohybrid cross",
+    "determine how many short pea plants appear in F2 generation out of total monohybrid plants",
+    "what is the expected count of tall plants when F1 monohybrid progeny self-pollinate",
+    "work out the value using monohybrid cross and dominant-recessive inheritance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute dominant progeny count",
+     "explain": "Three-fourths of F2 offspring express the dominant phenotype",
+     "compute": "dominant_count = total_offspring * 3 / 4"
+    },
+    {
+     "step": 2,
+     "action": "compute recessive progeny count",
+     "explain": "One-fourth of F2 offspring express the recessive phenotype",
+     "compute": "recessive_count = total_offspring * 1 / 4"
+    },
+    {
+     "step": 3,
+     "action": "verify phenotypic ratio",
+     "explain": "Confirm the dominant-to-recessive counts form a 3:1 ratio, validating that one allele masks the other in the heterozygous F1 condition."
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.2b",
+   "title": "Dihybrid Cross and Independent Assortment",
+   "section": "8.2.2",
+   "definition": "A genetic cross involving two independent pairs of contrasting traits yielding a 9:3:3:1 phenotypic ratio in the F2 generation.",
+   "formula": "phenotype_count = total_seeds * phenotype_ratio_num / 16",
+   "key_idea": "Alleles governing distinct characteristics assort independently during gamete formation, generating novel trait combinations.",
+   "textbook_ref": "jesc108.txt lines 112-146",
+   "question_patterns": [
+    "calculate the count of specific phenotypic recombinant seeds in an F2 dihybrid cross",
+    "find the expected number of round yellow or wrinkled green seeds in dihybrid F2 progeny",
+    "determine the phenotypic numerical distribution of new combinations in dihybrid cross",
+    "how many seeds of each phenotypic combination are expected out of total dihybrid seeds",
+    "solve a numerical on dihybrid cross and independent assortment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute expected phenotypic count",
+     "explain": "Multiply total progeny by the phenotypic ratio numerator divided by 16",
+     "compute": "phenotype_count = total_seeds * phenotype_ratio_num / 16"
+    },
+    {
+     "step": 2,
+     "action": "identify recombinant phenotypes",
+     "explain": "New combinations arise because alleles for different traits assort independently during gamete formation, producing novel phenotype classes in F2.",
+     "compute": "recombinant_count = total_seeds * recombinant_ratio_num / 16"
+    },
+    {
+     "step": 3,
+     "action": "verify 9:3:3:1 distribution",
+     "explain": "Sum all four phenotypic classes to confirm they total the full F2 count, validating independent assortment of the two gene pairs."
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.3",
+   "title": "Mechanism of Gene Expression and Chromosomes",
+   "section": "8.2.3",
+   "definition": "Segments of nuclear DNA called genes provide instructions for synthesizing enzymes and structural proteins that regulate growth and visible traits.",
+   "formula": "gene -> enzyme_production -> hormone_level -> trait_expression",
+   "key_idea": "Paired chromosomes in somatic cells segregate into single sets during germ cell formation to keep species chromosome number constant.",
+   "textbook_ref": "jesc108.txt lines 147-185",
+   "question_patterns": [
+    "explain how cellular DNA controls specific physical traits in organisms",
+    "how is equal genetic contribution maintained across generations in sexual reproduction",
+    "why must germ cells contain only a single set of chromosomes",
+    "describe the biochemical pathway linking a gene to plant height",
+    "give one everyday example of mechanism of gene expression and chromosomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain biochemical regulation",
+     "explain": "A gene directs enzyme synthesis; efficient enzymes produce sufficient growth hormone for a tall plant, while altered enzymes yield short plants."
+    },
+    {
+     "step": 2,
+     "action": "verify meiotic chromosome reduction",
+     "explain": "Germ cells receive one chromosome from each homologous pair, ensuring that fertilization restores the normal diploid chromosome count."
+    },
+    {
+     "step": 3,
+     "action": "trace gene-to-trait pathway",
+     "explain": "Follow the chain gene -> enzyme -> hormone -> trait to show how a DNA segment ultimately controls a visible physical characteristic."
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.4",
+   "title": "Sex Determination in Humans",
+   "section": "8.2.4",
+   "definition": "The biological process in which maternal X and paternal X or Y sex chromosomes combine to determine male (XY) or female (XX) sex.",
+   "formula": "expected_gender_count = total_children * 0.5",
+   "key_idea": "The father's sperm dictates the child's sex by donating either an X or a Y chromosome.",
+   "textbook_ref": "jesc108.txt lines 187-220",
+   "question_patterns": [
+    "calculate the expected number of female or male births in a given population",
+    "find the probability of a couple having a female child",
+    "how is sex determined genetically in human beings",
+    "what proportion of gametes from a human father carry a Y chromosome",
+    "calculate sex determination in humans for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute expected gender progeny count",
+     "explain": "Each birth has a 50% chance (0.5 probability) of being male or female",
+     "compute": "expected_gender_count = total_children * 0.5"
+    },
+    {
+     "step": 2,
+     "action": "determine paternal gamete contribution",
+     "explain": "The father produces equal numbers of X-bearing and Y-bearing sperm, so half the sperm carry X and half carry Y.",
+     "compute": "y_sperm_fraction = 0.5"
+    },
+    {
+     "step": 3,
+     "action": "verify sex determination rule",
+     "explain": "An X sperm yields an XX (female) zygote and a Y sperm yields an XY (male) zygote, confirming the father's chromosome dictates the child's sex."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc108.txt lines 90-110",
+   "concept": "jesc.8.2.2a",
+   "question_type": "monohybrid_progeny_count",
+   "question_pattern": "In a monohybrid cross of pea plants, the total F2 progeny generated is {total_offspring}. Calculate the expected number of tall and short plants.",
+   "extracted_variables": {
+    "total_offspring": "total number of F2 offspring plants"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute dominant progeny count",
+     "explain": "Three-fourths of F2 offspring express dominant tall phenotype",
+     "compute": "dominant_count = total_offspring * 3 / 4"
+    },
+    {
+     "step": 2,
+     "action": "compute recessive progeny count",
+     "explain": "One-fourth of F2 offspring express recessive short phenotype",
+     "compute": "recessive_count = total_offspring * 1 / 4"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc108.txt lines 135-145",
+   "concept": "jesc.8.2.2b",
+   "question_type": "dihybrid_phenotype_count",
+   "question_pattern": "In a dihybrid cross producing {total_seeds} F2 seeds, calculate the expected number of round yellow seeds where ratio portion is {phenotype_ratio_num}.",
+   "extracted_variables": {
+    "total_seeds": "total F2 seeds collected",
+    "phenotype_ratio_num": "numerator ratio value for the phenotypic category (9 for round yellow)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute expected phenotypic count",
+     "explain": "Multiply total seeds by phenotype numerator ratio over 16",
+     "compute": "phenotype_count = total_seeds * phenotype_ratio_num / 16"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jesc108.txt lines 50-65",
+   "concept": "jesc.8.2.1",
+   "question_type": "trait_percentage_calculation",
+   "question_pattern": "In a classroom of {total_population} students, {trait_count} students have free earlobes. Calculate the percentage of students with free earlobes.",
+   "extracted_variables": {
+    "total_population": "total students surveyed in class",
+    "trait_count": "number of students with free earlobes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate trait ratio",
+     "explain": "Divide students with free earlobes by total students",
+     "compute": "trait_ratio = trait_count / total_population"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "explain": "Convert ratio to percentage",
+     "compute": "trait_percentage = trait_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc108.txt lines 45-68",
+   "concept": "jesc.8.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute inherited traits and phenotypic frequency step by step",
+   "extracted_variables": {
+    "trait_count": "value of trait_count",
+    "total_population": "value of total_population"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate trait ratio",
+     "explain": "Divide the number of individuals exhibiting the trait by the total population surveyed",
+     "compute": "trait_ratio = trait_count / total_population"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "explain": "Multiply the ratio by 100 to find the percentage frequency",
+     "compute": "trait_percentage = trait_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "jesc108.txt lines 70-110",
+   "concept": "jesc.8.2.2a",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute monohybrid cross and dominant-recessive inheritance step by step",
+   "extracted_variables": {
+    "total_offspring": "value of total_offspring"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute dominant progeny count",
+     "explain": "Three-fourths of F2 offspring express the dominant phenotype",
+     "compute": "dominant_count = total_offspring * 3 / 4"
+    },
+    {
+     "step": 2,
+     "action": "compute recessive progeny count",
+     "explain": "One-fourth of F2 offspring express the recessive phenotype",
+     "compute": "recessive_count = total_offspring * 1 / 4"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "jesc108.txt lines 112-146",
+   "concept": "jesc.8.2.2b",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute dihybrid cross and independent assortment step by step",
+   "extracted_variables": {
+    "total_seeds": "value of total_seeds",
+    "phenotype_ratio_num": "value of phenotype_ratio_num"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute expected phenotypic count",
+     "explain": "Multiply total progeny by the phenotypic ratio numerator divided by 16",
+     "compute": "phenotype_count = total_seeds * phenotype_ratio_num / 16"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "jesc108.txt lines 187-220",
+   "concept": "jesc.8.2.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sex determination in humans step by step",
+   "extracted_variables": {
+    "total_children": "value of total_children"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute expected gender progeny count",
+     "explain": "Each birth has a 50% chance (0.5 probability) of being male or female",
+     "compute": "expected_gender_count = total_children * 0.5"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "jesc108.txt lines 187-220",
+   "concept": "jesc.8.2.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sex determination in humans step by step",
+   "extracted_variables": {
+    "total_children": "value of total_children"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute expected gender progeny count",
+     "explain": "Each birth has a 50% chance (0.5 probability) of being male or female",
+     "compute": "expected_gender_count = total_children * 0.5"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "jesc108.txt lines 233-239",
+   "questions": [
+    "A Mendelian experiment consisted of breeding tall pea plants bearing violet flowers with short pea plants bearing white flowers. The progeny all bore violet flowers, but almost half of them were short. This suggests that the genetic make-up of the tall parent can be depicted as: (a) TTWW (b) TTww (c) TtWW (d) TtWw"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "jesc108.txt lines 240-242",
+   "questions": [
+    "A study found that children with light-coloured eyes are likely to have parents with light-coloured eyes. On this basis, can we say anything about whether the light eye colour trait is dominant or recessive? Why or why not?"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "jesc108.txt line 243",
+   "questions": [
+    "Outline a project which aims to find the dominant coat colour in dogs."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "jesc108.txt lines 244-245",
+   "questions": [
+    "How is the equal genetic contribution of male and female parents ensured in the progeny?"
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "jesc108.txt lines 41-44",
+   "questions": [
+    "If a trait A exists in 10% of a population of an asexually reproducing species and a trait B exists in 60% of the same population, which trait is likely to have arisen earlier?",
+    "How does the creation of variations in a species promote survival?"
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "jesc108.txt lines 222-227",
+   "questions": [
+    "How do Mendel's experiments show that traits may be dominant or recessive?",
+    "How do Mendel's experiments show that traits are inherited independently?",
+    "A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this information enough to tell you which of the traits - blood group A or O - is dominant? Why or why not?",
+    "How is the sex of the child determined in human beings?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

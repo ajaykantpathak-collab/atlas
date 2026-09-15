@@ -1,0 +1,386 @@
+{
+ "catalog": "catalog_class12_maths_lemh205.json",
+ "concepts": [
+  {
+   "id": "lemh.205.11.2.1",
+   "title": "Direction Cosines and Their Identity",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 5 + 5 * 5 gives 289",
+     "compute": "val = 12 * 12 + 2 * 12 * 5 + 5 * 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 5 more than 12; report the value.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 15^2 - 2 x 15 x 8 + 8^2.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 15 x 9 where the numbers are a + b and a - b for a = 12, b = 3.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 2)(x + 6) using the identity x^2 + (a + b)x + ab and evaluate it at x = 8.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "Compute 105^2 using (100 + 5)^2 = 10000 + 2 x 100 x 5 + 5^2.",
+     "a": "11025",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.2.2",
+   "title": "Direction Cosines of the Line Through Two Points",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.3.1",
+   "title": "Vector Equation of a Line Through a Point and Parallel to a Vector",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.3.2",
+   "title": "Cartesian Equation of a Line from Direction Ratios",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 10 / 10 gives 1",
+     "compute": "t1 = 10 / 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 70 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1300 is divided between two friends in the ratio 5 : 8. Find the smaller share.",
+     "a": "500",
+     "self_check": false
+    },
+    {
+     "q": "Rs 300 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 6 : 5 = 18 : ?  (give the fourth term).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 6 : 5 :: 18 : 15 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 60, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "144",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.3.3",
+   "title": "Line Passing Through Two Given Points",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(4 * 4 + -2 * -2 + 6 * 6) gives 7.48331",
+     "compute": "mag = sqrt(4 * 4 + -2 * -2 + 6 * 6)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector 4i + -2j + 6k (two decimal places).",
+     "a": "7.48",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (-5, 5, -2) and (0, 5, -1).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (-5, 5, -2) and b = (0, 5, -1) have dot product 27. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.72",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (-5, 5, -2) on b = (1, 0, 0).",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(-3, -4, -4) to Q(4, -1, 1) and report the x-component.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (-5, 5, -2) and (0, 5, -1) by computing all three components first (two decimal places).",
+     "a": "25.98",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.4.1",
+   "title": "Cosine of the Angle Between Two Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 28 degrees, find the other.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 161 degrees, find the other.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 67 degrees; find the other.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 84 degrees and 97 degrees, find the remaining angle.",
+     "a": "179",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 45 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 92 degrees. Find its co-interior partner.",
+     "a": "88",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.4.2",
+   "title": "Perpendicular and Parallel Lines from Direction Ratios",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 20 / 10 gives 2",
+     "compute": "t1 = 20 / 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 20 : 70 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 880 is divided between two friends in the ratio 2 : 9. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 6 : 2 = 24 : ?  (give the fourth term).",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 6 : 2 :: 24 : 8 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 30, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.5.1",
+   "title": "Shortest Distance Between Two Skew Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-1, 8) and (4, 20).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (4, 8) from the origin.",
+     "a": "8.94",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (0, 3) and (8, 2).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (7, 0) internally in the ratio 4 : 3. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (6, 3), (-5, -2) and (1, 0) (two decimal places).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-1, -2), (-2, 2) and (-5, 1).",
+     "a": "-2.66667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.205.11.5.2",
+   "title": "Distance Between Two Parallel Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 60 degrees, find the other.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 33 degrees, find the other.",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 30 degrees; find the other.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 130 degrees and 185 degrees, find the remaining angle.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 61 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 94 degrees. Find its co-interior partner.",
+     "a": "86",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_02_010",
+   "title": "c11_eng_h_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the primary textual strategy used to infer the meaning of \"honing our seafaring skills\" in the opening paragraph?",
+     "a": "The primary strategy is identifying the collocational and situational context: \"for the past 16 years we had spent all our leisure time\" combined with \"professionally built\" and \"testing it in the roughest weather\" shows \"honing\" means improving through deliberate, long-term practice. A wrong answer (e.g., \"learning quickly\" or \"sharpening tools\") reveals the student missed the duration (\"16 years\") and the purpose (\"testing in rough weather\") that define the phrase's specific meaning here.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author describes the islands as \"pinpricks in the vast ocean\" instead of simply \"small islands.\"",
+     "a": "The metaphor \"pinpricks\" conveys extreme smallness, isolation, and the near-impossibility of locating them in the enormous Indian Ocean, emphasizing the desperation of their navigation challenge. A wrong answer focusing only on literal size (\"they are tiny\") misses the emotional weight — the word \"pinprick\" suggests something barely visible, easily missed, and the phrase \"in the vast ocean\" amplifies the scale contrast, which is central to the narrative tension.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"We were getting no replies to our Mayday calls,\" the word \"Mayday\" functions as a(n) ______. Choose the correct option and justify using the context.\nA) adjective describing the calls\nB) noun acting as the object of the preposition \"to\"\nC) verb indicating the action of calling\nD) adverb modifying \"getting\"",
+     "a": "Correct: B) noun acting as the object of the preposition \"to\". \"Mayday\" is a fixed international distress signal (noun) used here as part of the compound noun \"Mayday calls\" — the preposition \"to\" requires an object, and \"calls\" is the head noun modified by \"Mayday\". A wrong choice (A) shows confusion between a noun adjunct and an adjective; (C) ignores that \"calls\" is already the verb's object; (D) misidentifies the grammatical role entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two meanings of \"stern\" in the chapter: (1) \"lashed a heavy mooring rope in a loop across the stern\" and (2) \"I could find no words with which to respond, but I left the children's cabin determined to fight the sea with everything I had.\" How does the context shift the meaning from a nautical term to a character trait?",
+     "a": "In (1), \"stern\" is a nautical noun meaning the rear part of the boat, confirmed by \"across the stern\" (physical location) and \"mooring rope\" (deck equipment). In (2), the context shifts to the narrator's internal resolve: \"determined to fight the sea\" and \"with everything I had\" imply firmness, seriousness, and resolve — the adjective \"stern\" describing his mindset. The shift is signaled by moving from physical ship anatomy to psychological description. A wrong answer treats both as the same part of speech or misses the narrator's emotional state as the clue.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the compound word \"lightship\" in the \"Working with words\" section is a transparent or opaque compound. Support your judgment with linguistic reasoning.",
+     "a": "\"Lightship\" is a semi-transparent compound: \"light\" retains its literal meaning (a beacon), and \"ship\" means vessel, so the combined meaning \"a ship equipped with a light for navigation\" is compositional. However, it is a fixed technical term (not any ship with a light), so it has lexicalized opacity. A wrong evaluation calling it fully transparent ignores its status as a specialized maritime term; calling it fully opaque ignores the clear semantic contribution of both morphemes.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original sentence using \"take on\" in the exact sense it appears in the third paragraph: \"we took on two crewmen.\" Then rewrite the same sentence using a different meaning of \"take on\" from the dictionary list provided in the textbook.",
+     "a": "Original (meaning: employ/engage): \"Before heading east, we took on two crewmen to help us tackle the southern Indian Ocean.\" Rewrite (meaning: assume a quality): \"The sea took on a terrifying aspect as the waves rose to 15 metres.\" A poor answer uses \"take on\" as \"accept a challenge\" (e.g., \"he took on the wave\") which is listed but not the paragraph's sense, showing failure to distinguish the specific employment context (\"took on two crewmen\") from other dictionary senses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

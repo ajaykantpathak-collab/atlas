@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_004",
+   "title": "c11_ps_cbse_13_004",
+   "questions": [
+    {
+     "q": "What is the composition of the electoral college for the election of the President of India, and which constitutional articles govern this?",
+     "a": "The electoral college consists of elected members of both Houses of Parliament (Lok Sabha and Rajya Sabha) and elected members of the Legislative Assemblies of all States, including NCT of Delhi and Puducherry (Articles 54 and 55). A wrong answer (e.g., including nominated members, or members of Legislative Councils, or using direct election) reveals confusion between the Presidential electoral college and general elections, or misunderstanding of the federal character of the President's election.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide for an indirect election of the President through an electoral college rather than direct election by the people?",
+     "a": "Indirect election maintains the parliamentary system's logic: the President is a constitutional head, not a political executive with a popular mandate that could rival the Prime Minister's. The electoral college representing both Union (Parliament) and States (Assemblies) reflects India's federal character. A wrong answer (e.g., \"to save money\" or \"because India is too large\") reveals failure to grasp the structural reason - preventing dual democratic legitimacy that would undermine parliamentary responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "A bill passed by Parliament is sent to the President. The President withholds assent and returns it with a message for reconsideration. Parliament passes it again without changes. What must the President do, and which article applies?",
+     "a": "Under Article 111, when a bill (other than a Money Bill) is returned by the President and passed again by both Houses with or without amendments, the President must give assent. The President has no pocket veto power for ordinary bills. A wrong answer (e.g., \"President can still refuse\" or \"President can refer to Supreme Court\") reveals confusion with the US presidential veto or misunderstanding of the mandatory nature of assent after reconsideration in the Indian system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the President's power to promulgate ordinances (Article 123) with the legislative power of Parliament. What are the three key constitutional constraints on this power?",
+     "a": "Three constraints: (1) Can only be issued when Parliament is not in session (both Houses); (2) Must be laid before both Houses when they reassemble and ceases to operate after 6 weeks unless approved; (3) Cannot amend the Constitution. A wrong answer missing any constraint (especially the 6-week limit or the non-session requirement) reveals viewing ordinance-making as parallel legislative power rather than emergency legislative power subject to parliamentary control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The President of India is merely a rubber stamp with no real power.\" Use at least three specific constitutional provisions or conventions to support your evaluation.",
+     "a": "The statement is partially true but incomplete. While Article 74(1) binds the President to act on aid and advice of Council of Ministers, real power exists in: (1) Discretionary appointment of PM in hung parliament (no majority); (2) Pocket veto on bills (no time limit for assent); (3) Power to return advice for reconsideration under Article 74(1) proviso; (4) Emergency powers under Articles 352, 356, 360 where President acts on Cabinet advice but the decision has grave consequences. A wrong answer claiming \"total rubber stamp\" or \"real ruler\" reveals binary thinking missing the nuanced sentinel role.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where the President must exercise discretion in appointing the Prime Minister. Specify the political situation, the constitutional provision, and the criteria the President should use.",
+     "a": "Scenario: General election produces a hung Lok Sabha; no single party or pre-poll alliance has majority; two post-poll coalitions claim support. Constitutional provision: Article 75(1) - President appoints PM. Criteria: (1) Invite leader of largest pre-poll alliance; (2) If none, invite leader of single largest party; (3) Ask to prove majority within specified time; (4) If fails, explore alternative claimants. A poor answer (e.g., \"President chooses anyone\" or \"President calls fresh elections immediately\") reveals ignorance of the Sarkaria Commission guidelines and established conventions for government formation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "catalog": "catalog_class9_social_science_ch401",
+ "concepts": [
+  {
+   "id": "iess.401.1.1",
+   "title": "Military Coup",
+   "questions": [
+    {
+     "q": "Using the method 'Military Coup', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Military Coup' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Military Coup' refers to.",
+     "a": "A sudden, illegal seizure of power from a government, often carried out by military forces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Military Coup'.",
+     "a": "Illegal transition of power from elected leaders to military control.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Military Coup', in plain ASCII form.",
+     "a": "coup_impact = violence + conspiracy + overthrow",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.2",
+   "title": "Democratic Transition",
+   "questions": [
+    {
+     "q": "Using the method 'Democratic Transition', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Democratic Transition' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Democratic Transition' refers to.",
+     "a": "The process by which a country moves from an authoritarian or non-democratic regime to a democratic system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratic Transition'.",
+     "a": "Shift from dictatorship to elected governance through public mandate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Democratic Transition', in plain ASCII form.",
+     "a": "transition = referendum + elections + restoration",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.3",
+   "title": "Universal Adult Franchise",
+   "questions": [
+    {
+     "q": "Using the method 'Universal Adult Franchise', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Universal Adult Franchise' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Universal Adult Franchise' refers to.",
+     "a": "The right of every adult citizen to vote in elections, regardless of their wealth, gender, or social status.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Universal Adult Franchise'.",
+     "a": "Political equality through equal voting rights for all adults.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Universal Adult Franchise', in plain ASCII form.",
+     "a": "franchise = one_person * one_vote",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.4",
+   "title": "Global Institutional Democracy",
+   "questions": [
+    {
+     "q": "Using the method 'Global Institutional Democracy', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Global Institutional Democracy' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Global Institutional Democracy' refers to.",
+     "a": "The extent to which international organizations allow member countries to have an equal say in decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global Institutional Democracy'.",
+     "a": "Evaluating if international bodies like the UN or IMF treat all nations equally.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Global Institutional Democracy', in plain ASCII form.",
+     "a": "global_democracy = (member_votes / total_members) * equality_index",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.1",
+   "title": "Representative Democracy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Representative Democracy' refers to.",
+     "a": "A governance model where the populace selects delegates to exercise power and manage public affairs on their behalf.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Representative Democracy'.",
+     "a": "Indirect rule necessitated by large populations and practical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Representative Democracy' taught, and from which source text?",
+     "a": "2.4 (source: iess401.txt lines 10-30)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.2",
+   "title": "Democratic Decision Making",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Democratic Decision Making' refers to.",
+     "a": "A process involving discussion and agreement from everyone impacted by a choice, ensuring equal influence for all members.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratic Decision Making'.",
+     "a": "Consultation and consent across all spheres of life, from families to governments.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Democratic Decision Making' taught, and from which source text?",
+     "a": "2.4 (source: iess401.txt lines 50-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.3",
+   "title": "Ideal Democracy Standards",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ideal Democracy Standards' refers to.",
+     "a": "A benchmark for governance that requires total equality in resources, information, and participation for every citizen.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ideal Democracy Standards'.",
+     "a": "A goal to strive for that helps identify the weaknesses of existing systems.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ideal Democracy Standards' taught, and from which source text?",
+     "a": "2.4 (source: iess401.txt lines 80-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.4",
+   "title": "Direct Democracy and Gram Sabha",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Direct Democracy and Gram Sabha' refers to.",
+     "a": "A system where all members of a small community participate directly in the decision-making process without representatives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Direct Democracy and Gram Sabha'.",
+     "a": "Direct participation is feasible and necessary in small local communities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Direct Democracy and Gram Sabha' taught, and from which source text?",
+     "a": "2.4 (source: iess401.txt lines 120-135)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.5",
+   "title": "Political Participation Rate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Political Participation Rate' refers to.",
+     "a": "The percentage of a specific demographic group that exercises their right to vote in an election.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Participation Rate'.",
+     "a": "Participation levels often correlate with socio-economic status.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Political Participation Rate', in plain ASCII form.",
+     "a": "participation_rate = (voters / total_group) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.6",
+   "title": "Income Inequality Ratio",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Income Inequality Ratio' refers to.",
+     "a": "A numerical comparison showing the disparity in wealth or earnings between two different social groups.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Income Inequality Ratio'.",
+     "a": "Economic gaps can translate into unequal political influence.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Income Inequality Ratio', in plain ASCII form.",
+     "a": "ratio = income_high / income_low",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.7",
+   "title": "Active Political Participation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Active Political Participation' refers to.",
+     "a": "The requirement in a democracy for citizens to engage in political activities to ensure the health of the system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Active Political Participation'.",
+     "a": "The fate of a democracy depends on the actions of its citizens, not just its rulers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Active Political Participation' taught, and from which source text?",
+     "a": "2.4 (source: iess401.txt lines 165-185)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

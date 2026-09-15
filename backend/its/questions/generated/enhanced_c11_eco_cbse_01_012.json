@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_012",
+   "title": "c11_eco_cbse_01_012",
+   "questions": [
+    {
+     "q": "What were the two primary colonial motives for building railways in India, according to the NCERT text?",
+     "a": "The two primary motives were: (1) to mobilise the army quickly across the vast territory, and (2) to transport raw materials (cotton, jute, coal, etc.) from the interior to ports for export to Britain. A wrong answer that mentions \"connecting Indian villages to markets\" or \"promoting Indian industrialisation\" reveals the misconception that colonial infrastructure was welfare-oriented.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Coast Canal on the Orissa coast became uneconomical and was eventually abandoned.",
+     "a": "The Coast Canal was built at huge cost, but railways soon ran parallel to it, offering faster, cheaper, and more reliable transport. The canal could not compete and was abandoned. A wrong answer that blames \"lack of maintenance\" or \"natural silting\" misses the core economic reasoning: **colonial transport policy favoured railways because they served British commercial and strategic needs better.**",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the approximate percentage of India's railway network that served direct colonial extraction purposes if 80% of freight traffic in 1947 consisted of raw materials and foodgrains for export, and the remaining 20% was passenger and other freight. Assume freight traffic share reflects purpose.\n*Total route length in 1947: 53,596 km*",
+     "a": "Step 1: Identify the proxy — freight composition reflects purpose.  \nStep 2: 80% of freight was raw materials/foodgrains for export → colonial extraction.  \nStep 3: Apply 80% to total route length: 0.80 × 53,596 km = 42,876.8 km.  \nStep 4: Express as percentage: (42,876.8 / 53,596) × 100 ≈ 80%.  \nAnswer: Approximately 80% of the railway network effectively served colonial extraction. A wrong answer that uses passenger traffic or total length without weighting reveals confusion between *network extent* and *functional purpose*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of railways on (a) village self-sufficiency and (b) volume of India's exports. Why did the benefits of expanded exports rarely accrue to Indian people?",
+     "a": "(a) Railways fostered commercialisation of agriculture, encouraging cash crops (cotton, indigo) over food crops, which eroded village self-sufficiency.  \n(b) Export volume expanded because railways lowered transport costs to ports.  \nBenefits rarely accrued to Indians because the export surplus was used to pay for British administrative expenses, war costs, and invisible imports (drain of wealth), not reinvested in India. A wrong answer that claims \"exports brought gold into India\" ignores the *drain of wealth* mechanism (c11_eco_cbse_01_009).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The British administration in India was quite beneficial because it built railways, roads, and telegraphs.\"",
+     "a": "The statement is a half-truth. While infrastructure was built, its *design, financing, and operation* served colonial interests:  \n- Railways: guaranteed returns to British investors, freight rates favoured British goods.  \n- Roads: linked raw-material zones to rails/ports, not villages to markets; all-weather roads scarce.  \n- Telegraph: primarily for law-and-order control.  \nNet effect: social benefits (travel, communication) were *outweighed* by economic loss (drain, deindustrialisation, distorted structure). A poor evaluation treats infrastructure as an unqualified \"gift\" without analysing *incentive structures* and *outcome distribution*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a two-column table contrasting the *stated purpose* versus the *actual colonial motive* for each of the following: (i) Railways, (ii) Roads, (iii) Inland Waterways, (iv) Electric Telegraph, (v) Postal Services.",
+     "a": "| Infrastructure | Stated / Surface Purpose | Actual Colonial Motive |\n|----------------|--------------------------|------------------------|\n| Railways       | Modern transport, connect people | Move troops, extract raw materials, create market for British goods |\n| Roads          | Connect villages, facilitate trade | Link interior to rail/port for resource extraction; army mobility |\n| Inland Waterways | Cheap transport for bulk goods | Initially tried, but abandoned when railways proved better for colonial needs |\n| Electric Telegraph | Fast communication | Maintain law and order, coordinate administration |\n| Postal Services | Public communication | Limited public use; served administrative control |\n\nA weak answer lists only \"transport\" for all, missing the *strategic/commercial* distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

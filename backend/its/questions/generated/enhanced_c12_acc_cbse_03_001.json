@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_001",
+   "title": "c12_acc_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the formula for calculating the gaining ratio of continuing partners on retirement of a partner.",
+     "a": "**Correct Answer:** Gaining Ratio = New Profit Sharing Ratio – Old Profit Sharing Ratio (for each continuing partner).  \n**What a wrong answer reveals:** If a student writes \"Old Ratio – New Ratio\", they are confusing gaining ratio with sacrificing ratio (used in admission). If they write \"Old Ratio of continuing partners\", they assume gaining ratio always equals old ratio, which is only true when no specific gaining agreement exists. This confusion leads to incorrect goodwill adjustment entries in subsequent nodes.",
+     "self_check": true
+    },
+    {
+     "q": "A, B, and C share profits in the ratio 5:3:2. C retires and A and B decide to share future profits in the ratio 3:2. Explain why the gaining ratio is NOT 3:2 in this case.",
+     "a": "**Correct Answer:** The new ratio 3:2 is the ratio between A and B *after* C's retirement. The gaining ratio is the proportion in which A and B *acquire* C's share. C's share = 2/10. A's old share = 5/10, new share = 3/5 = 6/10. Gain of A = 6/10 – 5/10 = 1/10. B's old share = 3/10, new share = 2/5 = 4/10. Gain of B = 4/10 – 3/10 = 1/10. Gaining ratio = 1:1, not 3:2.  \n**What a wrong answer reveals:** If a student says gaining ratio = 3:2, they confuse the *new profit sharing ratio* with the *gaining ratio*. This is the most common board exam error — students treat the new ratio as the gaining ratio and incorrectly adjust goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "P, Q, and R are partners sharing profits in the ratio 4:3:3. R retires. P and Q agree to acquire R's share in the ratio 2:1. Calculate the new profit sharing ratio and gaining ratio of P and Q.",
+     "a": "**Correct Answer with Steps:**  \nStep 1: Old ratio = 4:3:3 → Total = 10 parts. R's share = 3/10.  \nStep 2: Gaining ratio = 2:1 (given). P gains 2/3 of R's share = (2/3)×(3/10) = 2/10. Q gains 1/3 of R's share = (1/3)×(3/10) = 1/10.  \nStep 3: P's new share = Old share + Gain = 4/10 + 2/10 = 6/10. Q's new share = 3/10 + 1/10 = 4/10.  \nStep 4: New profit sharing ratio = 6:4 = 3:2. Gaining ratio = 2:1 (as given).  \n**What a wrong answer reveals:** If a student adds the gaining ratio parts to old ratio parts directly (4+2 : 3+1 = 6:4), they get the correct new ratio by coincidence but lack conceptual clarity. If they compute gaining ratio as new ratio minus old ratio but use 3:2 as new ratio without verifying, they make arithmetic errors. This tests whether the student understands gaining ratio as an *input* (agreed proportion) vs *output* (derived from new ratio).",
+     "self_check": true
+    },
+    {
+     "q": "X, Y, Z share profits 1/2, 1/3, 1/6. Z retires. X and Y agree to share future profits equally. A student calculates gaining ratio as 1:1. Analyze whether this is correct and explain the error if any.",
+     "a": "**Correct Answer:** The student is WRONG. Equal new ratio (1:1) does NOT mean gaining ratio is 1:1.  \nStep 1: Old shares: X = 1/2 = 3/6, Y = 1/3 = 2/6, Z = 1/6.  \nStep 2: New shares: X = 1/2, Y = 1/2.  \nStep 3: Gain of X = 1/2 – 1/2 = 0. Gain of Y = 1/2 – 1/3 = 1/6.  \nStep 4: Gaining ratio = 0 : 1/6 = 0:1 (only Y gains).  \n**What a wrong answer reveals:** The student assumes \"equal new sharing\" implies \"equal gaining\". This is a critical analytical error — they fail to compute gain as *difference* between new and old shares. In board exams, this leads to crediting goodwill to X (who didn't gain) and missing Y's full liability.",
+     "self_check": true
+    },
+    {
+     "q": "In a partnership, the retiring partner's share is acquired by continuing partners in their gaining ratio. Evaluate the statement: \"The gaining ratio is always the same as the old profit sharing ratio of the continuing partners.\" Defend your answer with a counterexample.",
+     "a": "**Correct Answer:** The statement is FALSE. Gaining ratio equals old ratio ONLY when the partnership deed is silent and no specific agreement exists (default rule per Partnership Act). Counterexample: A, B, C share 5:3:2. C retires. A and B agree A takes 3/4 of C's share, B takes 1/4. Gaining ratio = 3:1, but old ratio of A:B = 5:3.  \n**What a wrong answer reveals:** If a student says \"True\", they memorized a default rule without understanding it's a fallback, not a universal law. This misconception causes them to miss exam questions where gaining ratio is explicitly given differently (common in CBSE 6-mark questions). They also fail in competitive exams like CUET where situation-based gaining ratios are tested.",
+     "self_check": true
+    },
+    {
+     "q": "Create a retirement scenario with 4 partners where two partners retire simultaneously. Design the old ratio, gaining arrangement for the remaining two partners, and compute the new ratio and gaining ratio. Explain why simultaneous retirement requires a different approach than sequential retirement.",
+     "a": "**Sample Answer:**  \nOld ratio: W:X:Y:Z = 4:3:2:1 (total 10). Y and Z retire together. Remaining W and X acquire Y's share (2/10) in ratio 3:2 and Z's share (1/10) in ratio 1:1.  \nW's gain = (3/5)×(2/10) + (1/2)×(1/10) = 6/50 + 1/20 = 12/100 + 5/100 = 17/100.  \nX's gain = (2/5)×(2/10) + (1/2)×(1/10) = 4/50 + 1/20 = 8/100 + 5/100 = 13/100.  \nW's new share = 4/10 + 17/100 = 57/100. X's new share = 3/10 + 13/100 = 43/100.  \nNew ratio = 57:43. Gaining ratio = 17:13.  \n**Why different:** In sequential retirement, the first retirement changes the ratio before the second. In simultaneous, both retiring shares are acquired from the *original* old ratio. A poor answer would treat them sequentially, leading to different new ratios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

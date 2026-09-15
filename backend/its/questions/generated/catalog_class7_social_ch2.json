@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class7_social_ch2",
+ "concepts": [
+  {
+   "id": "c7ss.2.1",
+   "title": "Difference Between Weather and Climate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Difference Between Weather and Climate' refers to.",
+     "a": "Weather is the condition of the atmosphere at a particular place and time, while climate is the average weather condition of a place over a long period, usually 30 years or more.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Difference Between Weather and Climate'.",
+     "a": "Weather is short-term and changes frequently, whereas climate is long-term and represents the general pattern of weather.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Difference Between Weather and Climate' taught, and from which source text?",
+     "a": "Weather and Climate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.2",
+   "title": "Elements of Weather",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elements of Weather' refers to.",
+     "a": "The main elements of weather are temperature, humidity, rainfall, wind speed and direction, and atmospheric pressure, which together describe the state of the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elements of Weather'.",
+     "a": "The elements of weather are measured using specific instruments and their values determine the daily weather conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Elements of Weather' taught, and from which source text?",
+     "a": "Elements of Weather",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.3",
+   "title": "Measurement of Temperature",
+   "questions": [
+    {
+     "q": "Using the method 'Measurement of Temperature', work with: c_v = 25. Carry the chain through step by step and give the final value of f_v.",
+     "a": "77 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Measurement of Temperature' and work with: c_v = 25. Carry the chain through step by step and give the final value of f_v.",
+     "a": "77 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measurement of Temperature' refers to.",
+     "a": "Temperature is the degree of hotness or coldness of the air, measured using a thermometer in degrees Celsius (\u00b0C) or Fahrenheit (\u00b0F), with maximum and minimum thermometers recording the day's highest and lowest temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of Temperature'.",
+     "a": "Temperature is measured at a standard height in a Stevenson screen to obtain accurate and comparable readings.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Measurement of Temperature' taught, and from which source text?",
+     "a": "Measurement of Temperature",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.4",
+   "title": "Measurement of Rainfall",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Measurement of Rainfall' refers to.",
+     "a": "Rainfall is measured using a rain gauge, which collects rainwater and expresses the depth of rainfall in millimetres (mm) or centimetres (cm).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of Rainfall'.",
+     "a": "Rainfall is recorded daily at a fixed time, and the monthly and annual totals help understand the climate of a region.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Measurement of Rainfall' taught, and from which source text?",
+     "a": "Measurement of Rainfall",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.5",
+   "title": "Wind and Atmospheric Pressure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Wind and Atmospheric Pressure' refers to.",
+     "a": "Atmospheric pressure is the weight of the air above a place, measured with a barometer; differences in pressure cause wind, which is the horizontal movement of air from high-pressure to low-pressure areas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wind and Atmospheric Pressure'.",
+     "a": "Wind always blows from high-pressure areas to low-pressure areas, and its speed and direction are measured using an anemometer and a wind vane.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Wind and Atmospheric Pressure' taught, and from which source text?",
+     "a": "Wind and Atmospheric Pressure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.6",
+   "title": "Weather Instruments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather Instruments' refers to.",
+     "a": "Weather is measured using instruments such as the thermometer (temperature), barometer (atmospheric pressure), rain gauge (rainfall), hygrometer (humidity), anemometer (wind speed) and wind vane (wind direction).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather Instruments'.",
+     "a": "Each weather instrument measures a specific element of weather, and together they provide the data for weather records and forecasting.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weather Instruments' taught, and from which source text?",
+     "a": "Weather Instruments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.7",
+   "title": "Weather Forecasting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather Forecasting' refers to.",
+     "a": "Weather forecasting is the prediction of weather conditions for a place and time in the future, based on data from weather stations and satellites.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather Forecasting'.",
+     "a": "Weather forecasts help people prepare for extreme weather and plan activities such as agriculture, aviation and daily life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weather Forecasting' taught, and from which source text?",
+     "a": "Weather Forecasting",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.8",
+   "title": "Effect of Weather on Daily Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effect of Weather on Daily Life' refers to.",
+     "a": "Weather affects daily life in many ways, influencing clothing, food, housing, occupations, transport and health, and extreme weather can disrupt normal activities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effect of Weather on Daily Life'.",
+     "a": "People adapt their clothing, food and daily routines according to the weather, and extreme weather events require special precautions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Effect of Weather on Daily Life' taught, and from which source text?",
+     "a": "Effect of Weather on Daily Life",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.9",
+   "title": "Humidity and the Water Cycle",
+   "questions": [
+    {
+     "q": "Using the method 'Humidity and the Water Cycle', work with: actual = 15, saturated = 25. Carry the chain through step by step and give the final value of rh.",
+     "a": "60 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Humidity and the Water Cycle' and work with: actual = 15, saturated = 25. Carry the chain through step by step and give the final value of rh.",
+     "a": "60 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Humidity and the Water Cycle' refers to.",
+     "a": "Humidity is the amount of water vapour present in the air, measured as relative humidity using a hygrometer; it plays a key role in evaporation, cloud formation and the water cycle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Humidity and the Water Cycle'.",
+     "a": "High humidity reduces evaporation and causes discomfort, while low humidity increases evaporation; humidity is essential for rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Humidity and the Water Cycle' taught, and from which source text?",
+     "a": "Humidity and the Water Cycle",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

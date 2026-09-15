@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_011",
+   "title": "c12_bio_cbse_05_011",
+   "questions": [
+    {
+     "q": "In a pedigree chart, a horizontal line connecting a square and a circle represents a mating. If their offspring are represented by symbols connected to a vertical line descending from the mating line, what does a shaded circle among the offspring indicate?",
+     "a": "A shaded circle indicates a female individual who expresses the trait/disorder being studied (affected phenotype). A wrong answer (e.g., \"carrier female\" or \"affected male\") reveals confusion between symbol shape (sex) and shading (phenotype), or misunderstanding that shading always means affected, not carrier status — carriers are typically shown as half-shaded or with a dot, not fully shaded.",
+     "self_check": true
+    },
+    {
+     "q": "A pedigree shows an affected father and an unaffected mother. All their daughters are affected, but none of their sons are affected. The affected daughters marry unaffected men and produce affected sons and daughters in equal proportions. What is the mode of inheritance, and why does this pattern rule out autosomal dominant inheritance?",
+     "a": "This is X-linked dominant inheritance. The affected father passes his only X chromosome to all daughters (making them affected) and his Y chromosome to all sons (making them unaffected). Autosomal dominant would affect sons and daughters equally (50% each) regardless of the affected parent's sex. A wrong answer (e.g., \"autosomal dominant\") reveals failure to apply the critical rule: in X-linked dominant, affected fathers transmit the trait to ALL daughters and NO sons, a pattern impossible for autosomal traits.",
+     "self_check": true
+    },
+    {
+     "q": "In a pedigree for an autosomal recessive disorder, two unaffected parents have an affected child. What is the probability that their next child will be a carrier (heterozygous) but phenotypically normal? Show your reasoning.",
+     "a": "Both unaffected parents must be heterozygous carriers (Aa × Aa) to produce an affected (aa) child. The Punnett square gives genotypes: 1 AA : 2 Aa : 1 aa. The next child has a 2/3 probability of being phenotypically normal (AA or Aa). Among normal phenotypes, 2 out of 3 are carriers (Aa). So probability = 2/3. A wrong answer of 1/2 reveals the common error of ignoring the conditional probability — the child is already known to be unaffected, so the sample space excludes the aa genotype.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pedigree patterns of an X-linked recessive disorder and a mitochondrial disorder. Both show affected males not transmitting the trait to their sons. What is the ONE critical difference in the transmission pattern through females that distinguishes them?",
+     "a": "In X-linked recessive, an affected female (rare) transmits the trait to 50% of sons and 50% of daughters (who become carriers). In mitochondrial disorders, an affected female transmits the trait to ALL her children (both sons and daughters) because mitochondria are inherited exclusively from the mother. A wrong answer focusing only on male transmission misses the decisive test: examine the offspring of an affected female — mitochondrial shows 100% transmission, X-linked shows 50%.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a pedigree shows affected individuals in every generation, it must be dominant inheritance.\" Evaluate this statement. Is it always true? Provide a counterexample if false.",
+     "a": "The statement is FALSE. A pedigree can show affected individuals in every generation for a recessive disorder if there is consanguinity (inbreeding) or high carrier frequency in the population, causing homozygous affected individuals to appear in multiple generations. Also, mitochondrial disorders show affected individuals in every generation (through maternal line) but are not dominant/recessive in the Mendelian sense. A student who agrees reveals a rigid \"rule-based\" misunderstanding instead of analyzing the actual transmission ratios and sex patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pedigree chart for a family with an autosomal dominant disorder showing incomplete penetrance (80% penetrance). The grandfather is affected, his son is genotypically affected but phenotypically normal, and the grandson is affected. Use standard symbols and indicate penetrance. Explain how this pedigree could be misinterpreted as recessive if penetrance is ignored.",
+     "a": "Draw: Generation I - affected male (shaded square). Generation II - his son: square with genotype \"Aa\" written below, but unshaded (phenotypically normal) with a note \"80% penetrance\". Generation III - grandson: shaded square (affected). If penetrance is ignored, the unaffected son (Gen II) appears to break the dominant pattern (affected father → unaffected son → affected grandson looks like a skip), mimicking autosomal recessive where unaffected parents can have affected children. A good answer must show the genotype notation and explain the misinterpretation risk. A poor answer draws a standard dominant pedigree without addressing penetrance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

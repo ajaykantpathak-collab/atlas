@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_003",
+   "title": "c12_biotech_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the primary goal of functional genomics, and how does it differ from structural genomics in terms of the biological question it addresses?",
+     "a": "Functional genomics aims to understand how genomic information is executed as physiological or pathological function (i.e., gene expression, regulation, interaction) in a specific cell state. Structural genomics focuses on the physical organization of the genome (chromosome structure, nucleosome positioning) or the 3D structure of encoded proteins. A wrong answer that says \"functional genomics determines DNA sequence\" confuses it with sequencing/structural genomics; the student has not grasped that functional genomics assumes the sequence is known and asks *what the genome does*.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to identify all genes actively transcribed in a cancer cell line under hypoxic conditions. Which functional genomics technique is most appropriate, and what is the key molecule it sequences?",
+     "a": "RNA-seq is most appropriate; it sequences cDNA derived from mRNA (the transcriptome). A wrong answer suggesting ChIP-seq indicates the student thinks ChIP-seq measures gene expression directly — it actually measures protein-DNA binding (e.g., transcription factor occupancy). A wrong answer suggesting whole-genome sequencing indicates the student does not understand that the DNA sequence is static and does not reveal *active* transcription.",
+     "self_check": true
+    },
+    {
+     "q": "In an RNA-seq experiment comparing treated vs. control samples, you obtain raw read counts for Gene X: Treated = 500, Control = 100. The total mapped reads are 20 million (treated) and 10 million (control). Calculate the normalized expression (TPM-like) for Gene X in each sample and the fold change. Show steps.",
+     "a": "Step 1: Normalize for library size: Treated RPM = (500/20,000,000)×10⁶ = 25; Control RPM = (100/10,000,000)×10⁶ = 10. Step 2: (Simplified TPM) Assume gene length same, so fold change = 25/10 = 2.5× upregulation. A wrong answer using raw counts (500 vs 100 → 5×) ignores library size difference — a classic competitive exam trap. The student must normalize before comparing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biological information provided by RNA-seq and ChIP-seq. If a transcription factor (TF) binds a promoter (ChIP-seq peak) but the target gene shows no expression change (RNA-seq), propose two mechanistic explanations.",
+     "a": "RNA-seq measures steady-state mRNA abundance (output); ChIP-seq measures TF binding (regulatory input). Explanation 1: The TF requires a co-activator absent in this condition, so binding alone is insufficient. Explanation 2: The gene is poised (e.g., bivalent chromatin) and needs a second signal. A wrong answer saying \"ChIP-seq is wrong\" or \"RNA-seq is wrong\" shows inability to integrate multi-omics data — a key competency for NEET/JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Metagenomics sequences the genome of a single microbial species isolated from a soil sample.\" Identify the error and rewrite correctly.",
+     "a": "Error: Metagenomics sequences *total genetic material directly from a microbial community* without culturing or isolating individual species. Correct: \"Metagenomics sequences the collective DNA (or cDNA) of all microorganisms in an environmental sample, enabling study of community diversity and functional potential.\" A student who misses \"community\" or \"without culturing\" has not grasped the defining feature of metagenomics vs. isolate sequencing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a functional genomics workflow to discover novel antibiotic resistance genes from a wastewater sample. Specify the technique, key steps, and how you would validate function.",
+     "a": "Technique: Metagenomics (functional or sequence-based). Steps: 1) Extract total DNA from wastewater. 2) Construct metagenomic library in expression vector. 3) Transform into sensitive host (E. coli). 4) Plate on antibiotic-containing media. 5) Sequence inserts from resistant clones. 6) Validate by cloning candidate gene into clean vector and retesting resistance. A poor answer that says \"sequence the wastewater and BLAST against CARD database\" only does *sequence-based* screening; it misses the *functional* validation step that proves the gene confers resistance — a distinction NCERT emphasizes in metagenomics applications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

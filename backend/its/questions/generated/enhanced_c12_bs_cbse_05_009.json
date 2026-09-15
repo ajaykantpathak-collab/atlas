@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_009",
+   "title": "c12_bs_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define delegation as per Louis Allen and state the three elements he identifies.",
+     "a": "Delegation is the entrustment of responsibility and authority to another and the creation of accountability for performance. The three elements are: (1) Authority, (2) Responsibility, (3) Accountability. A wrong answer (e.g., \"delegation is just giving work to subordinates\") reveals the student confuses delegation with mere task assignment and misses the critical accountability component that remains with the superior.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why authority must be commensurate with responsibility. What happens if authority > responsibility, and if responsibility > authority?",
+     "a": "If authority > responsibility, the subordinate may misuse power (e.g., order resources not needed). If responsibility > authority, the subordinate becomes ineffective because they cannot access tools, make decisions, or command cooperation to fulfil the duty. A wrong answer (e.g., \"it doesn't matter as long as work gets done\") shows the student does not grasp the structural balance required for effective delegation and will fail the NCERT \"foreman without requisition authority\" application question.",
+     "self_check": true
+    },
+    {
+     "q": "A Production Manager delegates the target of 200 units/day to a Foreman but does not give authority to requisition tools/materials from Stores. The Foreman fails to meet the target. Can the Production Manager blame the Foreman? Justify using delegation elements.",
+     "a": "No, the Production Manager cannot blame the Foreman. Responsibility was assigned (200 units) but commensurate authority (to requisition tools/materials) was not delegated. Without authority, the Foreman could not execute the duty. The Manager retains accountability for the failure because delegation was incomplete. A wrong answer (e.g., \"yes, the Foreman should have asked for authority\") reveals the student thinks responsibility can exist without authority and misses that accountability stays with the delegator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the flow of authority, responsibility, and accountability in delegation. Why does accountability flow upward even though authority flows downward?",
+     "a": "Authority flows downward (superior → subordinate), responsibility flows upward (subordinate → superior), accountability flows upward (subordinate → superior). Accountability flows upward because the superior who delegated remains answerable to their own superior for the outcome; the subordinate is answerable to the delegator for performance. A wrong answer (e.g., \"accountability flows downward like authority\") confuses the direction of answerability and fails to see that delegation creates a chain of answerability culminating at the top.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Delegation is the basis of management hierarchy.\" Use the elements of delegation to support your evaluation.",
+     "a": "The statement is correct. Delegation establishes superior-subordinate relationships by defining who has authority over whom (authority flow), who is responsible to whom (responsibility flow), and who is answerable to whom (accountability flow). The degree of delegated authority determines the power and level of each position, creating the hierarchy. Without delegation, there would be no distinct levels — only one person doing everything. A weak evaluation (e.g., \"hierarchy exists because of organisation charts\") misses the causal link: hierarchy emerges from delegation relationships, not the other way around.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (different from the textbook) where a manager delegates a task but violates the parity principle. Describe the situation, identify which element is mismatched, and predict the outcome.",
+     "a": "Example: A Marketing Manager asks a Junior Executive to \"increase social media engagement by 30% this quarter\" but does not give authority to approve ad spend, hire a designer, or access analytics tools. Mismatch: Responsibility (30% target) > Authority (no budget/decision rights). Outcome: Executive cannot execute, misses target, feels demotivated; Manager blames Executive unfairly; Manager remains accountable to CEO for the shortfall. A poor answer would lack a clear mismatch or confuse the elements (e.g., saying accountability was delegated).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

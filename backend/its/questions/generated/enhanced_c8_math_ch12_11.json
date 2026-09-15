@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_11",
+   "title": "c8_math_ch12_11",
+   "questions": [
+    {
+     "q": "What is the range of the data set: 12, 7, 19, 5, 14, 22, 9?",
+     "a": "Correct answer: 17 (22 − 5 = 17). A wrong answer like 12 (the median) or 12.7 (the mean) reveals the student is confusing range with measures of central tendency. An answer of 12 (count of numbers) reveals confusion with frequency. An answer of 22 (just the maximum) reveals the student forgot to subtract the minimum.",
+     "self_check": true
+    },
+    {
+     "q": "Two classes took a math test. Class A has a range of 15 marks. Class B has a range of 40 marks. Both classes have the same mean score of 65. Which class has more consistent performance? Explain why range tells us this.",
+     "a": "Correct answer: Class A has more consistent performance because a smaller range (15) means the scores are clustered closer together, while Class B's larger range (40) indicates wider variability. A wrong answer choosing Class B reveals the student thinks larger range means more consistency. An answer saying \"cannot tell\" reveals the student does not understand that range directly measures spread.",
+     "self_check": true
+    },
+    {
+     "q": "The daily high temperatures (in °C) in Delhi for a week were: 32, 35, 30, 28, 34, 36, 31. Find the range. If the temperature on Sunday was recorded incorrectly as 42 instead of 36, how does the range change?",
+     "a": "Correct answer: Original range = 36 − 28 = 8°C. With error: max becomes 42, min remains 28, new range = 42 − 28 = 14°C. Range increases by 6°C. A wrong answer that keeps range as 8°C reveals the student did not update the maximum. An answer of 14°C for original range reveals the student used the incorrect data from the start. An answer of \"range decreases\" reveals confusion about direction of change.",
+     "self_check": true
+    },
+    {
+     "q": "Consider three data sets with the same mean (50) and same range (20):\nSet X: 40, 45, 50, 55, 60\nSet Y: 40, 40, 50, 60, 60\nSet Z: 40, 40, 40, 60, 60, 60\nAll have range = 20. Do they have the same spread? Why or why not?",
+     "a": "Correct answer: No, they do not have the same spread. Range only considers the extremes (min and max), ignoring how data is distributed between them. Set X is evenly spread, Set Y has clustering at extremes and center, Set Z has all data at extremes. A wrong answer saying \"yes, same range means same spread\" reveals the student thinks range captures the full distribution shape. An answer focusing only on the number of data points reveals confusion between spread and sample size.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated the range of the data set {3, 7, 2, 9, 5} as 9 − 2 = 7. Another student said the range is 7 − 3 = 4 because they used the median (5) and subtracted the smallest from the median. Evaluate both methods. Which is correct and why?",
+     "a": "Correct answer: First student is correct. Range = maximum − minimum = 9 − 2 = 7. The second student's method is wrong because range uses the extreme values, not the median. The second student confused range with a measure of distance from center. A wrong answer accepting the second method reveals the student thinks range is measured from the center. An answer saying both are correct reveals inability to distinguish between measures of spread and measures of center.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) where knowing the range is more useful than knowing the mean. Describe the data, calculate the range, and explain why the mean would be misleading.",
+     "a": "Good answer example: \"Daily price of tomatoes (₹/kg) for a week: 20, 22, 18, 25, 19, 21, 60. Mean = 26.4, Range = 60−18 = 42. The mean suggests price ~₹26, but the range reveals one day had a huge spike (₹60). A housewife budgeting needs to know the possible maximum (range) not the average.\" A poor answer that uses a scenario where mean is sufficient (e.g., height of students) reveals the student cannot identify contexts where variability matters more than center. An answer without calculation reveals inability to apply the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

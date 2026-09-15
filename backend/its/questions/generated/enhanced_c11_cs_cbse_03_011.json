@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_011",
+   "title": "c11_cs_cbse_03_011",
+   "questions": [
+    {
+     "q": "What is the primary purpose of decomposition in problem solving?",
+     "a": "The primary purpose of decomposition is to break a complex problem into smaller, more manageable sub-problems that can be solved independently and then combined. A wrong answer (e.g., \"to write code faster\") reveals the student confuses decomposition with coding efficiency rather than problem simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how decomposition helps in solving a problem like \"calculate the total price of items in a shopping cart with a 10% discount on items over ₹500\".",
+     "a": "Decomposition helps by splitting the problem into: (1) reading each item's price, (2) checking if price > 500, (3) applying discount if applicable, (4) summing all final prices. A wrong answer that just describes the steps without identifying independent sub-problems shows the student doesn't grasp the modular nature of decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "Given the problem: \"Find the average of three numbers entered by the user.\" Decompose this into at least three sub-problems, specifying the input and output of each.",
+     "a": "Sub-problem 1: Input three numbers (input: user entries, output: three numbers). Sub-problem 2: Compute sum (input: three numbers, output: sum). Sub-problem 3: Divide sum by 3 (input: sum, output: average). Sub-problem 4: Display average (input: average, output: screen). A wrong answer that merges steps (e.g., \"input and compute sum together\") shows inability to separate concerns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare decomposition with the \"divide and conquer\" algorithmic paradigm. How are they similar and different?",
+     "a": "Both break problems into smaller parts. Decomposition is a general problem-solving technique for design; divide and conquer is a specific algorithmic strategy where sub-problems are of the same type and solved recursively. A wrong answer that equates them shows lack of analytical distinction between design methodology and algorithmic paradigm.",
+     "self_check": true
+    },
+    {
+     "q": "A student decomposes \"calculate factorial of n\" into: (1) input n, (2) multiply numbers from 1 to n, (3) output result. Critique this decomposition. Is it effective? Why or why not?",
+     "a": "The decomposition is too coarse; step 2 \"multiply numbers from 1 to n\" is still a complex loop that could be further decomposed into initialization, loop condition, multiplication, and increment. Effective decomposition should break until each sub-problem is trivially solvable. A wrong answer that says it's fine reveals the student doesn't understand the need for granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world problem (different from examples given) that requires at least four sub-problems. Describe the problem and list the sub-problems with their inputs and outputs.",
+     "a": "Example problem: \"Calculate the total fare for a metro ride based on distance travelled, with different rates for peak/off-peak hours.\" Sub-problems: (1) Input distance and time of travel; (2) Determine if peak or off-peak; (3) Calculate fare based on distance and rate; (4) Apply any discounts (e.g., student card); (5) Output total fare. A poor answer would have fewer than four sub-problems or unclear interfaces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

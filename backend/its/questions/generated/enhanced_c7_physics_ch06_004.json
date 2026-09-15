@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_004",
+   "title": "c7_physics_ch06_004",
+   "questions": [
+    {
+     "q": "What causes different constellations to be visible in the night sky at different times of the year?",
+     "a": "The revolution of the Earth around the Sun. A wrong answer usually confuses this with Earth's daily rotation, which only changes the view of the sky from east to west over 24 hours rather than shifting seasonal constellations.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not see the constellation Orion during the middle of the Indian summer (June)?",
+     "a": "Because during June, Earth is on the side of the Sun where the night-side points toward a different region of space, while Orion is behind the Sun from our perspective and hidden by daytime glare. A wrong answer assumes stars disappear permanently rather than being blocked by daytime orientation.",
+     "self_check": true
+    },
+    {
+     "q": "If Earth completes one revolution ($360^\\circ$) around the Sun in $365$ days, calculate the average angular shift of our view of the night sky per day, rounded to one decimal place.",
+     "a": "Steps: \n1. Total angle of revolution = $360^\\circ$. \n2. Total time taken = $365$ days. \n3. Divide angle by days: $\\frac{360^\\circ}{365\\text{ days}} \\approx 0.986^\\circ/\\text{day}$. \n4. Round to one decimal place: $1.0^\\circ/\\text{day}$. \nA wrong answer usually divides by $24$ hours instead of $365$ days, confusing rotation with revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the nighttime viewing angle shifts by comparing Earth's position in January versus July relative to a fixed distant star background.",
+     "a": "In January, Earth's night side points toward one sector of space (e.g., Orion), whereas in July, Earth has moved to the opposite side of the Sun, so the night side points in the exact opposite direction toward a completely different sector (e.g., Sagittarius). A wrong answer suggests the stars themselves are moving across space rather than our viewing platform changing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If Earth revolved twice as fast around the Sun, constellations would change twice as fast.\" Is this correct?",
+     "a": "Yes, this is correct because doubling the orbital speed halves the time it takes to reach different points in the orbit, meaning the night sky orientation changes at twice the previous rate. A wrong answer fails to link orbital period and speed with background star visibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using a table lamp and a globe to demonstrate how changing orbital position alters the visible background wall (representing stars) for an observer on the night side of the globe.",
+     "a": "The student's model should place a lamp in the center, move the globe in a circle around it, and mark how different sections of the classroom walls are visible from the dark side of the globe at different points in the circle. A poor answer fails to keep the observer oriented or ignores the background wall reference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees109",
+ "concepts": [
+  {
+   "id": "gees.9.1",
+   "title": "Government and the Ruler's Duties",
+   "questions": [
+    {
+     "q": "Using the method 'Government and the Ruler's Duties', work with: palana = 80, raksha = 10, yogakshema = 300. Carry the chain through step by step and give the final value of duties.",
+     "a": "390 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Government and the Ruler's Duties' and work with: palana = 150, raksha = 12, yogakshema = 30. Carry the chain through step by step and give the final value of duties.",
+     "a": "192 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Government and the Ruler's Duties' refers to.",
+     "a": "Government is the machinery that rules a country on the people's behalf; Kautilya sums a ruler's internal duties as three-fold, raksha or protection from aggression, palana or law and order within, and yogakshema or the welfare of the people.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government and the Ruler's Duties'.",
+     "a": "Whoever rules is answerable for safety, order and welfare; types of government differ in who checks that answer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Government and the Ruler's Duties', in plain ASCII form.",
+     "a": "duties = raksha + palana + yogakshema",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.9.2",
+   "title": "Democracy: Direct and Representative",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Democracy: Direct and Representative' refers to.",
+     "a": "In a democracy the people are the source of power: direct democracy lets all citizens decide together, while representative democracy, India's model, elects law-makers who answer to voters at fixed intervals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democracy: Direct and Representative'.",
+     "a": "Democracy turns rulers into servants: power is lent by the people and recalled at the ballot box.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Democracy: Direct and Representative' taught, and from which source text?",
+     "a": "Democratic forms (source: gees109.txt, Democratic forms)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.9.3",
+   "title": "Monarchy and Other Forms of Rule",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Monarchy and Other Forms of Rule' refers to.",
+     "a": "In a monarchy rule passes by birth within a royal family, and the ruler is not elected; the chapter studies a different kind of monarchy too, where the king's power is checked by custom and counsel.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monarchy and Other Forms of Rule'.",
+     "a": "Monarchy bets on birth, democracy on ballots; history shows both can rule well or badly, but only one answers to the people.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Monarchy and Other Forms of Rule' taught, and from which source text?",
+     "a": "Monarchy (source: gees109.txt, Monarchy)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.9.4",
+   "title": "Who Checks the Rulers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Who Checks the Rulers' refers to.",
+     "a": "Every form of government needs a check: democracies use constitutions and elections, even monarchies leaned on dharma and counsellors; where no check exists, the ruled have no remedy against misrule.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Who Checks the Rulers'.",
+     "a": "Power without accountability decays: the health of any government lies in what can question it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Who Checks the Rulers' taught, and from which source text?",
+     "a": "Conclusion (source: gees109.txt, Conclusion)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

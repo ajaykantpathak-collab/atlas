@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_006",
+   "title": "c11_hs_cbse_08_006",
+   "questions": [
+    {
+     "q": "List the seven low-cost complementary food formulations recommended in the NCERT textbook and state the primary cereal base used in each.",
+     "a": "The seven formulations are: (1) Indian multipurpose flour – groundnut flour (low fat) and bengal gram; (2) Malt food – cereal malt, low fat groundnut flour, bengal gram; (3) Balahar – whole wheat, groundnut, bengal gram; (4) Win food – pearl millet, green gram dal, groundnut, jaggery; (5) Poshak – cereal (wheat/maize/rice/jowar), pulse (chana/green gram), groundnut, jaggery; (6) Amutham – rice, ragi, bengal gram, sesame, groundnut, jaggery; (7) Amritham – wheat, bengal gram, soya, groundnut, beet sugar. A wrong answer (e.g., naming only 3-4 formulations or confusing cereal bases like saying \"rice\" for Balahar) reveals the student has memorised names without understanding the regional cereal-pulse-oilseed pairing logic that makes these locally adaptable.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why roasting is a critical step in preparing these low-cost complementary foods, and what would happen nutritionally if ingredients were used raw.",
+     "a": "Roasting serves three purposes: (a) reduces moisture content, extending shelf-life by preventing microbial growth; (b) destroys anti-nutritional factors like trypsin inhibitors in legumes and phytates in cereals, improving protein and mineral bioavailability; (c) dextrinises starch, making it easier for the infant's immature amylase system to digest. If used raw, the food would have poor digestibility (causing diarrhoea), lower nutrient absorption due to anti-nutrients, and spoil within days. A student who only mentions \"taste\" or \"crispiness\" misses the core nutritional biochemistry linking processing to infant gut maturity.",
+     "self_check": true
+    },
+    {
+     "q": "A mother in Rajasthan wants to prepare Win food for her 9-month-old using 500g total batch. Calculate the exact weight (in grams) of each ingredient she needs, and verify whether this batch meets the \"calorie-dense, ≥10% energy from protein\" criterion using approximate values: pearl millet 360 kcal/100g, 11g protein; green gram 340 kcal/100g, 24g protein; groundnut 560 kcal/100g, 25g protein; jaggery 380 kcal/100g, 0g protein.",
+     "a": "Win food ratio = 5:2:2:2 (pearl millet : green gram : groundnut : jaggery). Total parts = 11. For 500g batch: pearl millet = (5/11)×500 = 227.3g; green gram = (2/11)×500 = 90.9g; groundnut = 90.9g; jaggery = 90.9g. Energy calculation: (227.3×3.6) + (90.9×3.4) + (90.9×5.6) + (90.9×3.8) = 818.3 + 309.1 + 509.0 + 345.4 = 1981.8 kcal per 500g = 396.4 kcal/100g. Protein: (227.3×0.11) + (90.9×0.24) + (90.9×0.25) + 0 = 25.0 + 21.8 + 22.7 = 69.5g per 500g = 13.9g/100g. Protein energy = 13.9×4 = 55.6 kcal/100g. % energy from protein = (55.6/396.4)×100 = 14.0% (>10%). ✓ Meets criterion. A wrong calculation (e.g., using 1:1:1:1 ratio or forgetting jaggery contributes energy but no protein) shows inability to translate textbook ratios into quantitative nutritional verification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Balahar (7:2:2 wheat:groundnut:bengal gram) and Amutham (1.5:1.5:1.5:2.5:2.5 rice:ragi:bengal gram:sesame:groundnut + jaggery). Analyze which formulation would be more suitable for a coastal fishing community in Tamil Nadu and which for a wheat-growing region in Punjab, justifying with three factors: local crop availability, amino acid complementarity, and mineral profile.",
+     "a": "For Tamil Nadu coast: Amutham is superior. (1) Rice and ragi are staple cereals; sesame is traditionally grown; (2) Rice (lysine-limiting) + ragi (methionine-limiting) + bengal gram (lysine-rich) + sesame (methionine-rich) creates excellent mutual supplementation; (3) Ragi provides 344mg calcium/100g, sesame 975mg/100g – critical for coastal populations with low dairy intake. For Punjab: Balahar is ideal. (1) Wheat is the dominant rabi crop; groundnut and bengal gram are widely cultivated; (2) Wheat (lysine-low) + bengal gram (lysine-high) corrects the limiting amino acid; groundnut adds methionine; (3) Groundnut provides zinc and magnesium for immune function. A student who picks based only on \"familiarity\" without analysing amino acid complementarity or mineral density fails to apply nutrition science to contextual decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since Amritham contains soya flour (4:2:1:1:2 wheat:bengal gram:soya:groundnut:beet sugar), it provides complete protein and is therefore superior to all other formulations for infant complementary feeding.\" Evaluate the claim using protein quality concepts (PDCAAS, limiting amino acids) and practical constraints for low-income households.",
+     "a": "The claim is partially correct but misleading. Soya does have high PDCAAS (~1.0) and complements wheat's lysine limitation, but: (1) Soya requires thorough heat treatment to destroy trypsin inhibitors – home roasting may be insufficient, risking protein malabsorption; (2) Soya's beany flavour reduces acceptability in regions unfamiliar with it; (3) Beet sugar is not locally available in most rural areas (jaggery is), increasing cost and reducing \"low-cost\" advantage; (4) Other formulations like Win food (with green gram) or Poshak (with chana) achieve adequate protein quality (PDCAAS ~0.7-0.8) using familiar, locally grown pulses without anti-nutrient risks. Superiority depends on context, not just protein score. A student who agrees uncritically ignores food safety (anti-nutrients), cultural acceptability, and supply chain realities – key competencies for community nutrition practice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new low-cost complementary food formulation for a tribal community in Odisha where the staple cereals are ragi and rice, the pulse is horse gram (kulthi), the oilseed is niger seed (ramtil), and jaggery is available. Specify the ratio (in simplest whole-number form), name your formulation, and write a 3-sentence nutritional justification referencing energy density, protein quality, and iron/calcium content.",
+     "a": "Formulation name: \"Shakti Mix\". Ratio: Ragi : Rice : Horse gram : Niger seed : Jaggery = 3 : 2 : 2 : 1 : 2 (total 10 parts). Justification: Ragi (328 kcal, 7.3g protein, 344mg Ca, 3.9mg Fe/100g) and rice provide carbohydrate base; horse gram (22g protein, 6.8mg Fe) and niger seed (24g protein, 57mg Ca, 8.5mg Fe) create mutual amino acid supplementation (cereal lysine-limitation corrected by pulse; pulse methionine-limitation corrected by cereal/oilseed); the combination delivers ~380 kcal and 13g protein/100g with exceptional iron (>6mg) and calcium (>200mg) density – addressing the high anaemia and rickets prevalence in tribal preschoolers. A poor answer would use generic ratios (e.g., 1:1:1:1:1) without justifying how the specific local ingredients solve the community's documented nutrient gaps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

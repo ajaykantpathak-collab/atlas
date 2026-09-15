@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_004",
+   "title": "c11_math_cbse_08_004",
+   "questions": [
+    {
+     "q": "Write the general term \\(T_{r+1}\\) in the expansion of \\(\\left(x^2 - \\frac{2}{x}\\right)^9\\). Do not simplify.",
+     "a": "\\(T_{r+1} = \\binom{9}{r} (x^2)^{9-r} \\left(-\\frac{2}{x}\\right)^r\\). A wrong answer like \\(\\binom{9}{r} x^{18-2r} (-2)^r x^{-r}\\) reveals the student correctly applied the power rules but missed that the negative sign belongs to the base \\(-\\frac{2}{x}\\) and should be kept as \\((-2)^r\\) or \\((-1)^r 2^r\\). If they write \\(\\binom{9}{r} x^{18-3r}\\) directly, they have combined steps prematurely and may lose track of the coefficient structure.",
+     "self_check": true
+    },
+    {
+     "q": "In the expansion of \\(\\left(3x^2 - \\frac{1}{3x}\\right)^n\\), a student claims the term independent of \\(x\\) exists for all positive integers \\(n\\). Is this true? Explain why or why not.",
+     "a": "False. The general term is \\(T_{r+1} = \\binom{n}{r} (3x^2)^{n-r} \\left(-\\frac{1}{3x}\\right)^r = \\binom{n}{r} 3^{n-2r} (-1)^r x^{2n-3r}\\). For the term independent of \\(x\\), we need \\(2n - 3r = 0 \\Rightarrow r = \\frac{2n}{3}\\). This requires \\(2n\\) to be a multiple of 3, i.e., \\(n\\) must be a multiple of 3. If a student says \"true\", they incorrectly assume \\(r\\) can be any real number or they forget that \\(r\\) must be an integer between 0 and \\(n\\).",
+     "self_check": true
+    },
+    {
+     "q": "Find the coefficient of \\(x^5\\) in the expansion of \\(\\left(2x^3 - \\frac{1}{x^2}\\right)^7\\).",
+     "a": "General term: \\(T_{r+1} = \\binom{7}{r} (2x^3)^{7-r} \\left(-\\frac{1}{x^2}\\right)^r = \\binom{7}{r} 2^{7-r} (-1)^r x^{21-5r}\\). Set exponent \\(21 - 5r = 5 \\Rightarrow 5r = 16 \\Rightarrow r = 3.2\\). Since \\(r\\) is not an integer, there is no \\(x^5\\) term; coefficient is 0. A common error is to force \\(r=3\\) or \\(r=4\\) and compute a non-zero coefficient, revealing the student does not check the integer condition for \\(r\\).",
+     "self_check": true
+    },
+    {
+     "q": "The coefficients of the \\(r\\)-th and \\((r+1)\\)-th terms in the expansion of \\((1 + x)^{20}\\) are in the ratio \\(1:2\\). Find \\(r\\). (Note: \\(r\\) here denotes term number, starting from 1.)",
+     "a": "The \\(r\\)-th term is \\(T_r = \\binom{20}{r-1} x^{r-1}\\), coefficient \\(C_{r-1} = \\binom{20}{r-1}\\). The \\((r+1)\\)-th term coefficient is \\(\\binom{20}{r}\\). Ratio \\(\\frac{\\binom{20}{r-1}}{\\binom{20}{r}} = \\frac{1}{2} \\Rightarrow \\frac{r}{21-r} = \\frac{1}{2} \\Rightarrow 2r = 21 - r \\Rightarrow 3r = 21 \\Rightarrow r = 7\\). A wrong answer like \\(r=14\\) comes from inverting the ratio or misidentifying which binomial coefficient corresponds to which term number.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the term independent of \\(x\\) in \\(\\left(x^3 + \\frac{2}{x^2}\\right)^{10}\\) and gets \\(r = 6\\). They then write the term as \\(\\binom{10}{6} 2^6\\). Identify the error and give the correct term.",
+     "a": "The student correctly found \\(r=6\\) from \\(3(10-r) - 2r = 0 \\Rightarrow 30 - 5r = 0 \\Rightarrow r=6\\). However, they omitted the \\(x^3\\) part's coefficient (which is 1) and the power of the first term's base. The correct term is \\(\\binom{10}{6} (x^3)^{4} \\left(\\frac{2}{x^2}\\right)^6 = \\binom{10}{6} 2^6 x^{12} x^{-12} = \\binom{10}{6} 64\\). The error reveals the student treats the general term as only the coefficient part and forgets to include the full base expressions before simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a binomial expression of the form \\((ax^p + bx^q)^n\\) with integer \\(a,b,p,q,n\\) such that there is exactly one term independent of \\(x\\) and its coefficient is 240. Provide the expression and verify.",
+     "a": "One example: \\((2x^2 + 3x^{-1})^6\\). General term: \\(\\binom{6}{r} (2x^2)^{6-r} (3x^{-1})^r = \\binom{6}{r} 2^{6-r} 3^r x^{12-3r}\\). Set \\(12-3r=0 \\Rightarrow r=4\\). Coefficient: \\(\\binom{6}{4} 2^2 3^4 = 15 \\cdot 4 \\cdot 81 = 4860\\) (not 240). A correct example: \\((x^3 + 2x^{-2})^5\\). Term independent: \\(3(5-r) - 2r = 0 \\Rightarrow 15 - 5r = 0 \\Rightarrow r=3\\). Coefficient: \\(\\binom{5}{3} 2^3 = 10 \\cdot 8 = 80\\). To get 240, try \\((x^2 + 2x^{-1})^6\\): \\(2(6-r) - r = 0 \\Rightarrow 12 - 3r = 0 \\Rightarrow r=4\\). Coefficient: \\(\\binom{6}{4} 2^4 = 15 \\cdot 16 = 240\\). Expression: \\((x^2 + \\frac{2}{x})^6\\). A poor answer would give an expression where the equation for \\(r\\) has no integer solution or multiple solutions, showing the student does not understand the condition for existence and uniqueness of such a term.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

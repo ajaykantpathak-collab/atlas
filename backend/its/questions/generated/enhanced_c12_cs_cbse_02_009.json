@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_009",
+   "title": "c12_cs_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of circuit switching that distinguishes it from packet switching?",
+     "a": "Circuit switching establishes a dedicated physical path (or logical channel) between endpoints for the entire session duration, reserving bandwidth continuously. A wrong answer like \"data is divided into packets\" reveals confusion with packet switching. A wrong answer like \"it uses store-and-forward\" reveals confusion with message switching. The student must recall the reservation concept, not just any feature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why packet switching is more efficient than circuit switching for bursty data traffic like web browsing.",
+     "a": "Packet switching allows multiple users to share the same link by statistically multiplexing packets; when one user is idle (reading a page), others can use the bandwidth. Circuit switching would reserve bandwidth even during idle think-time, wasting capacity. A wrong answer focusing only on \"packets are smaller\" or \"packets take different routes\" misses the core concept of statistical multiplexing and shared resource utilization during silence periods.",
+     "self_check": true
+    },
+    {
+     "q": "A company needs to connect two offices for a continuous 8-hour daily video conference requiring 2 Mbps constant bitrate. The available link is 10 Mbps shared with other bursty traffic. Which switching technique should they choose and why? Provide two technical reasons.",
+     "a": "Choose circuit switching (or a dedicated leased line / virtual circuit with guaranteed bandwidth). Reasons: (1) Video conference requires constant bitrate and low, predictable jitter — circuit switching reserves 2 Mbps continuously, guaranteeing quality. (2) With 8-hour daily usage, the reservation duty cycle is high (33%), making reservation efficient; packet switching would risk variable delay and packet loss during congestion from other bursty traffic. A wrong answer choosing packet switching because \"it's modern\" ignores the QoS requirements of constant-bitrate real-time traffic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare circuit switching and packet switching on the following dimensions: (a) connection setup delay, (b) per-packet/per-bit delay during transfer, (c) robustness to link failure. Present as a table.",
+     "a": "| Dimension | Circuit Switching | Packet Switching |\n|---|---|---|\n| (a) Setup delay | High (path reservation before data) | Low/None (datagram) or moderate (virtual circuit) |\n| (b) Transfer delay | Constant, low (no queuing once reserved) | Variable (queuing, routing per packet) |\n| (c) Robustness | Low (path break tears down session) | High (packets reroute around failure) |\nA wrong answer that swaps (b) or claims packet switching has constant delay reveals misunderstanding of queuing in shared links. A wrong answer claiming circuit switching is robust reveals ignorance of single-path dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Packet switching is always superior to circuit switching because it uses bandwidth more efficiently.\" Defend or refute with two specific counter-examples where circuit switching is preferable.",
+     "a": "Refute. Counter-example 1: Traditional PSTN voice calls — circuit switching provides guaranteed 64 kbps with negligible jitter, essential for real-time conversation; packet switching (VoIP) requires complex QoS to match. Counter-example 2: High-frequency trading links — microsecond-level deterministic latency is critical; circuit-switched (or dedicated fiber) eliminates queuing uncertainty. A wrong answer agreeing with the statement shows inability to evaluate trade-offs; a wrong counter-example like \"file transfer\" actually favors packet switching.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid network scenario for a smart factory where both circuit-switched and packet-switched segments coexist. Describe the traffic types assigned to each and the interconnection point.",
+     "a": "Example: Factory floor sensors (temperature, pressure) send periodic small bursts → packet-switched Ethernet to local gateway. Robotic arm control loops require 1 ms cycle time with zero jitter → circuit-switched (or time-sensitive networking TSN) dedicated fibers to motion controller. Interconnection: Gateway router with TSN-capable ports bridges packet domain to circuit domain, using priority queuing to give control traffic precedence. A poor answer assigns all traffic to one technique or fails to specify the bridging mechanism, showing lack of synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

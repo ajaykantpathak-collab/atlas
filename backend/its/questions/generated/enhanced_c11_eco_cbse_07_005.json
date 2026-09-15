@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_005",
+   "title": "c11_eco_cbse_07_005",
+   "questions": [
+    {
+     "q": "Define \"carrying capacity of the environment\" in the context of sustainable development. How does it function like a plimsoll line on a ship?",
+     "a": "Carrying capacity is the maximum population size that an environment can sustain indefinitely without degrading its resource base or assimilative capacity. Like a plimsoll line marking a ship's safe load limit, carrying capacity marks the threshold beyond which resource extraction exceeds regeneration and waste generation exceeds absorption. A wrong answer (e.g., \"carrying capacity is the total resources available\") reveals confusion between stock (total resources) and flow (regeneration rate), missing the dynamic sustainability dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT states there has been a \"reversal of supply-demand relationship for environmental quality.\" Use the concepts of regeneration rate and absorptive capacity in your answer.",
+     "a": "Historically, demand for environmental resources (supply function) and waste disposal (sink function) was below regeneration and absorption rates — supply exceeded demand. With population explosion and industrialisation, extraction rates surpassed regeneration (e.g., groundwater withdrawal > recharge) and waste emissions surpassed absorptive capacity (e.g., CO₂ emissions > ocean/forest sequestration). Demand now exceeds sustainable supply. A wrong answer focusing only on \"more pollution\" misses the structural reversal: the environment has shifted from a non-scarce to a scarce economic good.",
+     "self_check": true
+    },
+    {
+     "q": "India's population grew from 361 million (1951) to 1,400 million (2023). Per capita CO₂ emissions rose from 0.3 tCO₂ to 1.9 tCO₂. Using the IPAT identity (I = P × A × T), calculate the approximate factor by which total environmental impact (I) increased, assuming technology (T) remained constant. Show your steps.",
+     "a": "Step 1: Population factor = 1,400 / 361 ≈ 3.88\nStep 2: Affluence factor (proxied by per capita CO₂) = 1.9 / 0.3 ≈ 6.33\nStep 3: Technology factor = 1 (assumed constant)\nStep 4: Total impact factor = 3.88 × 6.33 × 1 ≈ 24.6\nTotal environmental impact increased ~25-fold. A wrong answer multiplying only population (3.88×) ignores the compounding effect of rising affluence, missing the core IPAT insight that both drivers multiply.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast poverty-induced environmental degradation (e.g., fuelwood collection in Uttarakhand) with affluence-induced degradation (e.g., SUV ownership in Gurugram). Identify two similarities and two differences in their causal mechanisms.",
+     "a": "Similarities: (1) Both exceed local carrying capacity — fuelwood extraction > forest regrowth; SUV emissions > urban air absorptive capacity. (2) Both create negative externalities borne by third parties (downstream villages face landslides; city residents breathe PM2.5). Differences: (1) Poverty degradation is survival-driven (no substitute for cooking fuel); affluence degradation is discretionary (public transport exists). (2) Poverty degradation is diffuse and rural; affluence degradation is concentrated and urban. A wrong answer claiming \"poverty causes more damage\" ignores that per-capita impact of affluence is 5-10× higher, and aggregate affluence impact now rivals poverty impact nationally.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's environmental crisis is primarily a population problem — if population stabilised, degradation would automatically reduce.\" Use the concepts of demographic dividend, affluence elasticity, and technology lock-in.",
+     "a": "The statement is false. Even with zero population growth, India's environmental impact would rise because: (1) Affluence elasticity: As per capita income grows (target $5,000 → $15,000), consumption of energy-intensive goods (ACs, cars, processed food) rises faster than income. (2) Technology lock-in: Existing coal-based power plants, ICE vehicle fleet, and cement-intensive infrastructure commit emissions for decades. (3) Demographic dividend: Rising working-age population increases aggregate production/consumption even if total population stabilises. Stabilising population is necessary but insufficient without decoupling affluence from impact (T in IPAT). A wrong answer agreeing reveals single-factor thinking, ignoring the multiplicative IPAT structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2×2 policy matrix for a district collector addressing environmental degradation. Rows: Poverty-driven vs Affluence-driven causes. Columns: Supply-side interventions (enhance regeneration) vs Demand-side interventions (reduce extraction). Fill each cell with one specific, measurable action.",
+     "a": "| | Supply-side (Regeneration) | Demand-side (Extraction Reduction) |\n|---|---|---|\n| Poverty-driven | Community-managed afforestation of 500 ha degraded land with native species; target 80% survival at 3 years | Provide 10,000 Ujjwala LPG connections to BPL households; target 60% sustained usage at 1 year |\n| Affluence-driven | Mandate rooftop solar on all new commercial buildings >500 m²; target 20 MW added capacity in 2 years | Implement congestion pricing in city centre; target 15% reduction in peak-hour private vehicle km |\n\nA poor answer lists generic schemes without measurable targets or misclassifies LPG as supply-side (it substitutes demand, doesn't enhance forest regeneration).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

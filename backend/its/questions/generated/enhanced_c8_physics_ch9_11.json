@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_11",
+   "title": "c8_physics_ch9_11",
+   "questions": [
+    {
+     "q": "What are the three major biogeochemical cycles that make Earth a self-sustaining system, and what is the primary energy source driving them?",
+     "a": "The three major cycles are the water cycle, carbon cycle, and nitrogen cycle. The primary energy source driving them is solar radiation (sunlight). A wrong answer (e.g., listing \"oxygen cycle\" or saying \"geothermal energy drives the water cycle\") reveals the student cannot distinguish major global cycles from minor/local ones, or confuses Earth's internal heat with the Sun's external energy that powers evaporation and photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Earth is considered a \"closed system for matter but an open system for energy\" and how this relates to the cycles being self-sustaining.",
+     "a": "Earth is closed for matter because negligible matter enters (meteorites) or leaves (atmospheric escape) — the same atoms have been recycled for billions of years. It is open for energy because solar radiation enters continuously and heat radiation leaves to space. This constant energy flow powers the cycles (evaporation, photosynthesis, nitrogen fixation) that rearrange matter into usable forms, preventing the system from running down. A wrong answer (e.g., \"Earth gets new matter from the Sun\") shows confusion between energy and matter flows, a fundamental misconception about system boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer clears a forest to create a rice paddy. Trace the effect on the water cycle and carbon cycle in this area over 5 years. Include at least two specific changes per cycle.",
+     "a": "Water cycle: (1) Reduced transpiration → less local humidity and rainfall; (2) Increased surface runoff and soil erosion due to loss of tree roots and canopy interception. Carbon cycle: (1) Loss of biomass carbon storage → CO₂ released to atmosphere via decomposition/burning; (2) Reduced photosynthesis → less CO₂ uptake. Rice paddies also emit methane (CH₄), a potent greenhouse gas. A wrong answer focusing only on \"less trees\" without tracing the cycle steps shows inability to apply cycle thinking to a real land-use change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of bacteria in the nitrogen cycle with the role of plants in the carbon cycle. How are their functions similar and different in maintaining Earth's balance?",
+     "a": "Similarity: Both are biological agents that transform inert atmospheric gases (N₂, CO₂) into biologically usable forms (ammonia/nitrates, glucose) — they are the \"entry points\" for these elements into the food web. Difference: Nitrogen-fixing bacteria are the *only* significant natural pathway for N₂ conversion (lightning is minor), whereas CO₂ enters the biosphere mainly through plant photosynthesis but also dissolves directly in oceans. Bacteria also drive the return path (denitrification), while carbon returns via respiration/decomposition by many organisms. A wrong answer stating \"plants fix nitrogen\" or \"bacteria do photosynthesis\" reveals confusion between the specific biochemical roles of different organisms in each cycle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since Earth's cycles are self-sustaining, human activities cannot permanently disrupt them — nature will always restore the balance.\" Evaluate this claim using the concept of dynamic equilibrium and tipping points.",
+     "a": "The claim is false. Self-sustaining cycles operate in dynamic equilibrium — they resist small perturbations (Le Chatelier-like feedbacks) but have thresholds. Example: Moderate CO₂ increase → enhanced plant growth (negative feedback). But beyond a tipping point (e.g., permafrost thaw releasing methane, ocean acidification killing calcifiers), positive feedbacks amplify change, pushing the system to a new, possibly inhospitable equilibrium. \"Restoration\" may take millennia (e.g., weathering to remove excess CO₂). A wrong answer agreeing with the claim shows misunderstanding of dynamic equilibrium as static stability, ignoring non-linear thresholds and irreversible changes on human timescales.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using everyday materials (plastic boxes, lamps, plants, soil, water) to demonstrate how the water cycle and carbon cycle are coupled. Describe the setup, what you would measure over a week, and what result would show the coupling.",
+     "a": "Setup: Two identical sealed transparent boxes with soil and water. Box A has a small plant; Box B has no plant. Both under identical lamps (simulating Sun). Measure daily: temperature, humidity (condensation on walls), and CO₂ concentration (using a simple CO₂ sensor or limewater test). Expected result: Box A shows more condensation (plant transpiration adds to evaporation) and lower CO₂ (photosynthesis) than Box B. Coupling demonstrated: Plant links cycles — uses water (transpiration) to drive carbon uptake. A poor model (e.g., no control box, measuring only temperature) reveals inability to isolate variables or design a fair test for cycle interactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

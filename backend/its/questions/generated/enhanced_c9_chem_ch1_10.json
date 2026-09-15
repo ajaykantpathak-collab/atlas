@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_10",
+   "title": "c9_chem_ch1_10",
+   "questions": [
+    {
+     "q": "State the size range of dispersed phase particles in a colloid and name the phenomenon where a beam of light becomes visible when passed through a colloidal dispersion.",
+     "a": "The size range is 1–1000 nm (or 10⁻⁹ to 10⁻⁶ m). The phenomenon is the Tyndall effect. A wrong answer (e.g., giving the size range for solutions or suspensions) reveals the student has not internalised the defining size criterion that separates colloids from both solutions and suspensions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a colloidal solution show the Tyndall effect while a true solution (like salt water) does not, even though both appear transparent to the naked eye?",
+     "a": "Colloidal particles (1–1000 nm) are comparable to the wavelength of visible light (400–700 nm), so they scatter light in all directions, making the beam visible. In a true solution, solute particles (<1 nm) are far smaller than the wavelength of light, so scattering is negligible and the beam is invisible. A wrong answer that says \"colloids are opaque\" or \"solutions don't have particles\" reveals confusion between macroscopic appearance and microscopic particle size.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into the correct colloid type (sol, gel, emulsion, foam, aerosol, solid sol, solid foam, solid aerosol): (a) milk, (b) smoke, (c) cheese, (d) whipped cream, (e) coloured gemstone, (f) fog.",
+     "a": "(a) Milk – emulsion (liquid in liquid). (b) Smoke – solid aerosol (solid in gas). (c) Cheese – gel (liquid in solid). (d) Whipped cream – foam (gas in liquid). (e) Coloured gemstone – solid sol (solid in solid). (f) Fog – liquid aerosol (liquid in gas). A wrong classification (e.g., calling milk a sol) shows the student cannot map the physical states of dispersed phase and medium to the eight categories.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since colloids are heterogeneous mixtures, they should settle down quickly like suspensions.\" Analyse this statement using particle size, gravity, and Brownian motion.",
+     "a": "The statement is incorrect. Colloidal particles (1–1000 nm) are small enough that gravitational settling is extremely slow (months/years) because their random Brownian motion (caused by collisions with medium molecules) counteracts gravity. Suspension particles (>1000 nm) are massive enough that gravity dominates and they settle in minutes/hours. A wrong analysis that ignores Brownian motion or uses only \"heterogeneous = settles\" reveals a failure to connect particle dynamics to macroscopic stability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following procedure: \"To distinguish a colloid from a true solution, filter the mixture through ordinary filter paper. If residue remains, it is a colloid.\" Is this correct? Justify.",
+     "a": "Incorrect. Both colloids and true solutions pass through ordinary filter paper because their particles are smaller than the pore size (~10⁴ nm). The filtrate will be clear in both cases. The correct test is the Tyndall effect: a colloid scatters light, a true solution does not. A student who thinks filter paper separates colloids confuses colloids with suspensions and does not understand the pore-size limitation of ordinary filtration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using only a laser pointer, three beakers, and samples of (i) salt solution, (ii) starch sol, (iii) chalk suspension to demonstrate the Tyndall effect and identify which is a colloid.",
+     "a": "Procedure: Darken the room. Shine the laser through each beaker from the side. Observe the beam path: (i) Salt solution – no visible beam (true solution). (ii) Starch sol – bright visible beam (colloid, Tyndall effect). (iii) Chalk suspension – beam may be visible but particles settle quickly; also the mixture is opaque. The colloid is identified by a clear, visible beam in a translucent dispersion that remains stable for hours. A poor design that does not darken the room or uses a flashlight instead of a laser shows lack of understanding of the experimental conditions needed to observe scattering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

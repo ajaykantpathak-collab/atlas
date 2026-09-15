@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch02_010",
+   "title": "c6_physics_ch02_010",
+   "questions": [
+    {
+     "q": "What are the four essential pieces of information that should be included in every scientific observation record?",
+     "a": "The essential pieces are date, time, location, and the specific conditions or description of the event. A student who only lists the \"result\" fails to understand that context is vital for reproducing scientific observations.",
+     "self_check": true
+    },
+    {
+     "q": "If you perform an experiment to separate sand and salt on a rainy day and a sunny day, why is it important to record the weather?",
+     "a": "Recording weather helps identify if external factors (like humidity affecting drying time) influenced your results. A student who ignores this fails to see that environment acts as a variable in scientific experiments.",
+     "self_check": true
+    },
+    {
+     "q": "You are observing how long it takes for salt water to evaporate in a bowl. You note \"It evaporated fast.\" Is this a good record? Why or why not?",
+     "a": "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time, and the volume of water used to make the observation scientific and accurate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a drawing of a leaf to a written description of it. When would you use both together?",
+     "a": "A drawing captures shape and color patterns, while a written note captures size or texture; using both provides a complete picture. A student who chooses only one fails to analyze how different recording methods serve different purposes.",
+     "self_check": true
+    },
+    {
+     "q": "A friend claims that their memory is perfect and they don't need to write down their observations during an experiment. How would you critique this position?",
+     "a": "Memory is prone to bias and forgetting, especially regarding sequence and specific values; therefore, it cannot be verified by others. A student who agrees with the friend does not understand that science requires transparency and the ability for others to repeat your work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a template for an observation log for a nature walk where you need to identify different types of leaves. What columns would you include?",
+     "a": "The template should include columns for: Date/Time, Location, Weather, Leaf Description (Shape/Color), and a space for a Sketch. A poor answer would omit the conditions (weather/location), which are crucial for natural history observations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

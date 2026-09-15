@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_003",
+   "title": "c11_phy_cbse_03_003",
+   "questions": [
+    {
+     "q": "A force vector F has magnitude 20 N and makes an angle of 30° with the positive x-axis. Write its x and y components with correct signs and units.",
+     "a": "Fx = 20 cos 30° = 20 × (√3/2) = 10√3 N ≈ 17.3 N; Fy = 20 sin 30° = 20 × 0.5 = 10 N. A wrong answer like Fx = 10 N, Fy = 17.3 N reveals the student swapped sine and cosine. An answer without units (just \"17.3\") reveals the student treats components as dimensionless numbers rather than physical quantities with the same units as the original vector.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the component method work for adding vectors that are not perpendicular to each other? Explain using the concept of vector independence along perpendicular directions.",
+     "a": "The component method works because motion (or any vector quantity) along one axis is completely independent of motion along a perpendicular axis. When we resolve vectors into x and y components, we are projecting each vector onto two independent directions. The x-components add algebraically because they lie along the same line (the x-axis), and similarly for y-components. This is the principle of superposition: the net effect in the x-direction depends only on x-components, unaffected by y-components. A student who says \"it works because of the parallelogram law\" has not understood the deeper reason — the parallelogram law is a geometric consequence, not the fundamental reason components add independently.",
+     "self_check": true
+    },
+    {
+     "q": "Three forces act on a point: F₁ = 10 N at 0°, F₂ = 15 N at 90°, F₃ = 20 N at 180°. Calculate the magnitude and direction of the resultant force using the component method.",
+     "a": "Step 1: Resolve each force.\nF₁x = 10 cos 0° = 10 N, F₁y = 10 sin 0° = 0 N\nF₂x = 15 cos 90° = 0 N, F₂y = 15 sin 90° = 15 N\nF₃x = 20 cos 180° = -20 N, F₃y = 20 sin 180° = 0 N\n\nStep 2: Sum components.\nRx = 10 + 0 + (-20) = -10 N\nRy = 0 + 15 + 0 = 15 N\n\nStep 3: Magnitude R = √((-10)² + 15²) = √(100 + 225) = √325 = 5√13 ≈ 18.0 N\n\nStep 4: Direction θ = tan⁻¹(Ry/Rx) = tan⁻¹(15/-10) = tan⁻¹(-1.5). Calculator gives -56.3°, but since Rx < 0 and Ry > 0, the vector is in Quadrant II. Correct angle = 180° - 56.3° = 123.7° from +x-axis.\n\nA student who reports θ = -56.3° or 303.7° has ignored quadrant determination. A student who gets R = 45 N has added magnitudes instead of components.",
+     "self_check": true
+    },
+    {
+     "q": "A displacement vector A has components Ax = -12 m, Ay = 5 m. Another vector B has components Bx = 8 m, By = -9 m. Without calculating the exact resultant, determine which quadrant the resultant R = A + B lies in, and explain your reasoning.",
+     "a": "Rx = Ax + Bx = -12 + 8 = -4 m (negative)\nRy = Ay + By = 5 + (-9) = -4 m (negative)\nSince both Rx and Ry are negative, the resultant lies in Quadrant III (180° to 270° from +x-axis). A student who says Quadrant II or IV has likely added components incorrectly or confused the sign conventions. This question tests the ability to reason about vector addition qualitatively using only sign analysis — a crucial skill for checking answers quickly in exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the resultant of two vectors: A = 5î + 12ĵ and B = -3î + 4ĵ. They write: R = (5-3)î + (12+4)ĵ = 2î + 16ĵ, then |R| = √(2² + 16²) = √260 ≈ 16.1, and θ = tan⁻¹(16/2) = tan⁻¹(8) ≈ 82.9°. Is this solution fully correct? If not, identify the error.",
+     "a": "The solution is correct in component addition and magnitude calculation. The angle calculation θ = tan⁻¹(16/2) = tan⁻¹(8) ≈ 82.9° is also correct because both Rx = 2 > 0 and Ry = 16 > 0, placing the resultant in Quadrant I where the principal value of arctan gives the correct angle. However, the student should explicitly state the quadrant check: \"Since Rx > 0 and Ry > 0, the angle lies in QI, so θ = 82.9° is correct.\" A student who omits this verification step risks errors in other quadrants. The solution would be incomplete without the quadrant justification in a board exam.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem involving a boat crossing a river with current, where the analytical method is necessary (not just graphical) to find the exact angle the boat must head to reach a point directly opposite the starting point. Specify all given quantities and what needs to be found.",
+     "a": "Problem: A boat can travel at 4.0 m/s in still water. A river 200 m wide flows east at 3.0 m/s. At what angle upstream (relative to the perpendicular to the banks) must the boat head to reach a point directly opposite the starting point on the north bank? What is the crossing time?\n\nExpected approach: Let +x be east (current direction), +y be north (across river). Boat velocity relative to water: v_bw = 4.0 m/s at angle θ west of north. Components: v_bw,x = -4.0 sin θ, v_bw,y = 4.0 cos θ. Current velocity: v_w = 3.0 î m/s. Resultant velocity relative to ground: v_bg = v_bw + v_w = (-4.0 sin θ + 3.0)î + (4.0 cos θ)ĵ. For landing directly opposite, v_bg,x = 0 → -4.0 sin θ + 3.0 = 0 → sin θ = 0.75 → θ = 48.6° west of north. Then v_bg,y = 4.0 cos 48.6° ≈ 2.65 m/s. Crossing time = width / v_bg,y = 200 / 2.65 ≈ 75.5 s.\n\nA poor answer would give a problem solvable graphically (e.g., \"find resultant of two perpendicular vectors\") or would not require quadrant analysis or inverse trigonometric functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

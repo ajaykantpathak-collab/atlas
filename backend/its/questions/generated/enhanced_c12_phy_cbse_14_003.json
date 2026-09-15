@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_003",
+   "title": "c12_phy_cbse_14_003",
+   "questions": [
+    {
+     "q": "What is the direction of the built-in electric field in the depletion region of an unbiased p-n junction? State the direction relative to the p-side and n-side.",
+     "a": "The built-in electric field points from the n-side (positive space-charge region) to the p-side (negative space-charge region). A wrong answer (e.g., p-side to n-side) reveals confusion between the direction of the field and the direction of diffusion of majority carriers. The field direction is determined by the sign of the immobile ions: positive on n-side, negative on p-side.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the diffusion current decrease as the depletion layer widens during junction formation?",
+     "a": "As the depletion layer widens, the electric field strength increases because more immobile ions are uncovered. This stronger field increases the drift current, which opposes the diffusion current. The net diffusion current decreases because fewer majority carriers have enough energy to overcome the increasing barrier potential. A wrong answer (e.g., \"diffusion stops because carriers run out\") reveals a misunderstanding that the process is limited by carrier supply rather than the self-consistent electric field.",
+     "self_check": true
+    },
+    {
+     "q": "A silicon p-n junction at 300 K has acceptor concentration N_A = 1 × 10¹⁶ cm⁻³ on the p-side and donor concentration N_D = 1 × 10¹⁵ cm⁻³ on the n-side. The intrinsic carrier concentration n_i = 1.5 × 10¹⁰ cm⁻³. Calculate the built-in potential V_bi. (Use k = 1.38 × 10⁻²³ J/K, q = 1.6 × 10⁻¹⁹ C)",
+     "a": "Step 1: Identify formula: V_bi = (kT/q) ln(N_A N_D / n_i²)\nStep 2: Convert units: T = 300 K, kT/q = (1.38e-23 × 300) / 1.6e-19 = 0.025875 V\nStep 3: Compute argument: N_A N_D = (1e16)(1e15) = 1e31 cm⁻⁶; n_i² = (1.5e10)² = 2.25e20 cm⁻⁶\nStep 4: Ratio = 1e31 / 2.25e20 = 4.444... × 10¹⁰\nStep 5: ln(4.444e10) = ln(4.444) + ln(10¹⁰) ≈ 1.491 + 23.026 = 24.517\nStep 6: V_bi = 0.025875 × 24.517 ≈ 0.634 V\nAnswer: V_bi ≈ 0.63 V. A wrong answer (e.g., 0.026 V) suggests the student forgot the logarithmic factor or used log₁₀ instead of ln.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the depletion layer width in a symmetrically doped junction (N_A = N_D) versus an asymmetrically doped junction (N_A >> N_D) for the same total doping product N_A N_D. Which is wider and why?",
+     "a": "The asymmetrically doped junction (N_A >> N_D) has a wider depletion layer. The depletion width W = √[(2ε_s V_bi/q)(1/N_A + 1/N_D)]. For fixed N_A N_D, the term (1/N_A + 1/N_D) is minimized when N_A = N_D (by AM-GM inequality) and increases as the doping becomes more asymmetric. Physically, the lighter-doped side must uncover more ions to balance the charge on the heavily-doped side, so the depletion region extends further into the lighter-doped side. A wrong answer (symmetric wider) indicates confusion about charge neutrality condition Q_p = Q_n → N_A x_p = N_D x_n.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At equilibrium, the Fermi level is constant across the p-n junction, so there is no electric field in the depletion region.\" Evaluate this statement.",
+     "a": "The statement is false. The Fermi level is indeed constant at equilibrium, but the electric field is non-zero in the depletion region. The electric field arises from the gradient in the conduction/valence band edges (E_C, E_V), which bend to keep the Fermi level flat. The field is E = (1/q) dE_C/dx. A constant Fermi level does not imply zero field; it implies zero net current. The student confuses Fermi level flatness with band flatness. This reveals a common competitive-exam trap: mixing equilibrium condition (E_F constant) with electrostatics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that a p-n junction cannot be formed by simply pressing a p-type slab against an n-type slab. What atomic-scale property prevents this?",
+     "a": "A good answer: Surface roughness (~micrometers) is much larger than interatomic spacing (~0.3 nm). Pressing two slabs together leaves air gaps; carriers cannot cross the discontinuity. The junction requires continuous crystal lattice across the interface, achieved by fabricating both regions from a single wafer (e.g., by diffusion/ion implantation). A poor answer (e.g., \"they don't stick\") shows lack of understanding of the need for atomic-level continuity for wavefunction overlap and carrier transport.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

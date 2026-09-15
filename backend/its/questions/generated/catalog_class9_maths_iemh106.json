@@ -1,0 +1,161 @@
+{
+ "catalog": "catalog_class9_maths_iemh106.json",
+ "concepts": [
+  {
+   "id": "iemh.106.6.1",
+   "title": "Perimeter of a Shape and of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 77 cm. Find its circumference (pi = 22/7).",
+     "a": "242",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 21 cm (pi = 22/7).",
+     "a": "1386",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 21 cm and 70 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "14014",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 120 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 84 cm (pi = 22/7).",
+     "a": "11088",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.6.2",
+   "title": "Length of an Arc of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
+     "a": "308",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 28 cm. Find its circumference (pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 42 cm (pi = 22/7).",
+     "a": "5544",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 56 cm and 84 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "12320",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 90 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 35 cm (pi = 22/7).",
+     "a": "1925",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.6.3",
+   "title": "Area of Rectangle, Parallelogram and Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 23 cm and height 11 cm.",
+     "a": "253",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 18 cm and 8 cm. Find its area.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 5 cm and 22 cm and the distance between them is 10 cm. Find the area.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 28 cm and the perpendiculars on it from opposite vertices are 8 cm and 6 cm. Find the area.",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 15 cm and height 4 cm. Find the parallelogram's height if its base is 12 cm.",
+     "a": "2.5",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 6 m. Find its area.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.106.6.4",
+   "title": "Perimeter Puzzles and Paradoxes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the sides with the perimeter formula",
+     "explain": "add the sides with the perimeter formula: perim = 2 * (24 + 18) gives 84",
+     "compute": "perim = 2 * (24 + 18)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A rectangular park is 24 m long and 18 m wide. Find its perimeter.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 32 cm.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 3 cm, 3 cm and 5 cm.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 20 cm. What is its perimeter?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 12 sides, each 12 cm long. Find its perimeter.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 10 rounds around a square field of side 11 m. How many metres does she cover?",
+     "a": "440",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

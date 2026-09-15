@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_006",
+   "title": "c7_math_ch15_006",
+   "questions": [
+    {
+     "q": "What is the primary rule to remember when transposing a negative term (like $-5x$) from the Left Hand Side to the Right Hand Side of an equation?",
+     "a": "The term must become a positive term ($+5x$). A wrong answer or belief that the sign stays the same reveals a failure to apply inverse operations correctly, treating the equals sign like a mirror rather than a balance point.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $2x + 4 = 10$ and writes $2x = 10 + 4$. Explain why this step violates the balance model of equations.",
+     "a": "The student added $4$ instead of subtracting $4$ when moving it across the equals sign. A wrong answer shows confusion between the operation being performed on a term and its inverse operation used for transposition.",
+     "self_check": true
+    },
+    {
+     "q": "Find and fix the error in this solution: Solve $-3(x + 2) = 12$. \nStep 1: $-3x + 2 = 12$\nStep 2: $-3x = 10$\nStep 3: $x = -\\frac{10}{3}$",
+     "a": "The error is in Step 1. When distributing $-3$, the student forgot to multiply $-3$ by $+2$, writing $+2$ instead of $-6$. \nCorrect working: $-3x - 6 = 12 \\Rightarrow -3x = 18 \\Rightarrow x = -6$. \nA wrong answer indicates the student struggles with the distributive property of negative numbers over addition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two methods for solving $\\frac{x}{2} + 3 = 7$: Method A clears the denominator first by multiplying the entire equation by $2$. Method B subtracts $3$ first. Which method is mathematically valid, and which one is more prone to calculation errors?",
+     "a": "Both methods are mathematically valid, but Method B (subtracting $3$ first to get $\\frac{x}{2} = 4$, then multiplying by $2$ to get $x = 8$) is usually less prone to error for beginners. Method A is also completely correct if every single term on both sides is multiplied by $2$ ($x + 6 = 14$), but students often forget to multiply the constant on the right side.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Priya's solution for $5 - x = 12$: \nStep 1: $-x = 12 - 5$\nStep 2: $-x = 7$\nStep 3: $x = 7$. \nIs Priya's final answer correct? If not, identify the exact line where the error occurred.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "Priya's final answer is incorrect; the error occurred in moving from Step 2 to Step 3. Having $-x = 7$ means $(-1) \\times x = 7$, so $x$ must be $-7$, not $7$. A wrong answer shows the student forgot that isolating $-x$ is not the same as isolating $+x$.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

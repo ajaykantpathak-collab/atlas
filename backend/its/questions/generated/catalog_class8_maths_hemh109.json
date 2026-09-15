@@ -1,0 +1,198 @@
+{
+ "catalog": "catalog_class8_maths_hemh109.json",
+ "concepts": [
+  {
+   "id": "hemh.109.9.1",
+   "title": "Area of a Trapezium",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 5 cm and height 10 cm.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 26 cm and 6 cm. Find its area.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 6 cm and 31 cm and the distance between them is 14 cm. Find the area.",
+     "a": "259",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 32 cm and the perpendiculars on it from opposite vertices are 4 cm and 8 cm. Find the area.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 12 cm and height 8 cm. Find the parallelogram's height if its base is 10 cm.",
+     "a": "4.8",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 12 m. Find its area.",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.9.2",
+   "title": "Area of a General Polygon by Splitting",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the quadrilateral area formula",
+     "explain": "apply the quadrilateral area formula: area = 4 * 24 gives 96",
+     "compute": "area = 4 * 24"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 4 cm and height 24 cm.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 30 cm and 6 cm. Find its area.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 10 cm and 26 cm and the distance between them is 12 cm. Find the area.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 16 cm and the perpendiculars on it from opposite vertices are 6 cm and 10 cm. Find the area.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 20 cm and height 8 cm. Find the parallelogram's height if its base is 24 cm.",
+     "a": "3.33",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 8 m and height 12 m. Find its area.",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.9.3",
+   "title": "Surface Area of Cube, Cuboid and Cylinder",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 8 cm by 26 cm.",
+     "a": "208",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 8 m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 7 m garden has a 11 m x 3 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 6 cm. Find its breadth.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 25 per square metre. Find the cost of tiling a 11 m x 13 m floor.",
+     "a": "3575",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 2 m (square tiles) fit in a 6 m x 10 m hall?",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.9.4",
+   "title": "Volume of Cube, Cuboid and Cylinder",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the volume of a cuboid 6 cm x 10 cm x 5 cm.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cuboid 9 cm x 3 cm x 7 cm.",
+     "a": "222",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cube of edge 3 cm.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cube of edge 9 cm.",
+     "a": "486",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cylinder of radius 70 cm and height 9 cm (pi = 22/7).",
+     "a": "138600",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a cylinder of radius 35 cm and height 20 cm (pi = 22/7).",
+     "a": "4400",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.9.5",
+   "title": "Volume of a Cylinder and Capacity",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the volume of a cuboid 12 cm x 11 cm x 11 cm.",
+     "a": "1452",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cuboid 5 cm x 4 cm x 6 cm.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cube of edge 3 cm.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cube of edge 6 cm.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cylinder of radius 21 cm and height 2 cm (pi = 22/7).",
+     "a": "2772",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a cylinder of radius 63 cm and height 19 cm (pi = 22/7).",
+     "a": "7524",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

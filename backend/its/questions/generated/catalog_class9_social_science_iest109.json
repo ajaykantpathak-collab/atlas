@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class9_social_science_iest109",
+ "concepts": [
+  {
+   "id": "iest.109.9.1",
+   "title": "Demand and Its Determinants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Demand and Its Determinants' refers to.",
+     "a": "Demand is the quantity of a good buyers are willing and able to purchase at a price: it rises as price falls and falls as price rises, while income, tastes, prices of related goods and expectations shift the whole demand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demand and Its Determinants'.",
+     "a": "Price down, demand up: the law of demand, with income and taste as its partners.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Demand and Its Determinants' taught, and from which source text?",
+     "a": "9 (source: iest109.txt opening sections (factors that influence demand))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.109.9.2",
+   "title": "Supply and Its Determinants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Supply and Its Determinants' refers to.",
+     "a": "Supply is the quantity sellers offer for sale at a price: higher prices invite larger supply, while costs of inputs, technology, number of sellers and expectations determine how much the market receives at each price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Supply and Its Determinants'.",
+     "a": "Price up, supply up: sellers respond to reward, costs and technology shape capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Supply and Its Determinants' taught, and from which source text?",
+     "a": "9 (source: iest109.txt sections on supply and its factors)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.109.9.3",
+   "title": "Market Equilibrium - Where Price Settles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Market Equilibrium - Where Price Settles' refers to.",
+     "a": "Demand and supply together solve the price puzzle: the equilibrium price is where quantity demanded equals quantity supplied; a price above it leaves surplus and pushes price down, a price below leaves shortage and pushes price up.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Equilibrium - Where Price Settles'.",
+     "a": "Surplus presses price down, shortage pushes it up: equilibrium is where they balance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Market Equilibrium - Where Price Settles' taught, and from which source text?",
+     "a": "9 (source: iest109.txt sections on equilibrium of demand and supply)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

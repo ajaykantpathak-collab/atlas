@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_001",
+   "title": "c12_chem_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define monosaccharide and give two examples.",
+     "a": "A monosaccharide is a carbohydrate that cannot be hydrolyzed to a simpler polyhydroxy aldehyde or ketone. Examples: glucose, fructose. A wrong answer (e.g., naming sucrose as a monosaccharide) reveals confusion between hydrolysis behavior and taste/sweetness.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sucrose a non-reducing sugar while maltose is a reducing sugar? Explain in terms of glycosidic linkage.",
+     "a": "Sucrose has a glycosidic bond between the anomeric carbons of glucose (C1) and fructose (C2), so neither monosaccharide unit has a free carbonyl group. Maltose has a C1–C4 glycosidic linkage leaving the anomeric carbon (C1) of the second glucose free, allowing it to open to an aldehyde and reduce Fehling's/Tollens' reagent. A wrong answer (e.g., \"both are reducing\") shows misunderstanding of anomeric carbon involvement.",
+     "self_check": true
+    },
+    {
+     "q": "A carbohydrate on hydrolysis gives two molecules of glucose only. Identify the carbohydrate and write its hydrolysis reaction. Is it reducing or non-reducing?",
+     "a": "The carbohydrate is maltose. Hydrolysis: C₁₂H₂₂O₁₁ + H₂O → 2 C₆H₁₂O₆. It is a reducing sugar because the second glucose unit retains a free anomeric carbon (C1) that can form an aldehyde group. A wrong answer (e.g., sucrose) shows inability to link hydrolysis products to structure and reducing property.",
+     "self_check": true
+    },
+    {
+     "q": "Compare starch and cellulose in terms of monomer, glycosidic linkage, and biological function. Why can humans digest starch but not cellulose?",
+     "a": "Both are polymers of glucose. Starch: α-D-glucose with α-1,4 (amylose) and α-1,6 (amylopectin) linkages; functions as energy storage in plants. Cellulose: β-D-glucose with β-1,4 linkages; functions as structural material in plant cell walls. Humans produce amylase that hydrolyzes α-glycosidic bonds but lack cellulase for β-glycosidic bonds. A wrong answer (e.g., \"same linkage\") shows lack of stereochemical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All disaccharides are reducing sugars because they have a free anomeric carbon.\" Evaluate this statement with two counterexamples.",
+     "a": "The statement is false. Sucrose (α-D-glucose–β-D-fructose, C1–C2 linkage) and trehalose (α,α-1,1 linkage) are non-reducing disaccharides because both anomeric carbons are involved in the glycosidic bond. Only disaccharides with one free anomeric carbon (maltose, lactose) are reducing. A wrong evaluation shows overgeneralization without checking linkage type.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between glucose, sucrose, and starch using only Benedict's reagent and iodine solution. Explain expected observations.",
+     "a": "Benedict's test: glucose (reducing) gives brick-red precipitate; sucrose (non-reducing) gives no precipitate unless hydrolyzed first; starch (polysaccharide) gives no precipitate. Iodine test: starch gives blue-black complex; glucose and sucrose give no color. A poor answer misses the need for acid hydrolysis of sucrose before Benedict's test or confuses Benedict's with Fehling's reagent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

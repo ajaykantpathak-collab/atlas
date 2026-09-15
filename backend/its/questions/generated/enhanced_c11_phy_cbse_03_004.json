@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_004",
+   "title": "c11_phy_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the x- and y-components of a force vector **F** = 20 N acting at an angle of 30° with the positive x-axis. Write the vector in unit vector notation.",
+     "a": "Fₓ = 20 cos30° = 20 × (√3/2) = 10√3 ≈ 17.3 N, Fᵧ = 20 sin30° = 20 × 0.5 = 10 N. Vector: **F** = (10√3 î + 10 ĵ) N. A wrong answer (e.g., swapping sin/cos or forgetting units) reveals the student does not associate cosine with the adjacent side (x-axis) or sine with the opposite side (y-axis), or they treat components as scalars without unit vectors.",
+     "self_check": true
+    },
+    {
+     "q": "A velocity vector has components vₓ = -12 m/s and vᵧ = 5 m/s. In which quadrant does the vector lie? Explain why the angle calculated using tan⁻¹(vᵧ/vₓ) must be adjusted by adding 180°.",
+     "a": "The vector lies in the second quadrant (vₓ negative, vᵧ positive). tan⁻¹(5/-12) = tan⁻¹(-0.4167) ≈ -22.6°, which is a fourth-quadrant angle. The calculator gives the principal value between -90° and +90°. Since the actual vector has negative x and positive y, the correct direction is 180° - 22.6° = 157.4° from +x axis. A student who does not adjust the quadrant reveals they treat the inverse tangent as a universal formula without considering the signs of components.",
+     "self_check": true
+    },
+    {
+     "q": "A displacement vector **r** = (4î - 3ĵ) m. Find its magnitude and the angle it makes with the positive x-axis. Express the angle in degrees measured counterclockwise from +x.",
+     "a": "Magnitude = √(4² + (-3)²) = √(16+9) = 5 m. tanθ = -3/4 → θ = tan⁻¹(-0.75) ≈ -36.9°. Since x>0, y<0, the vector is in the fourth quadrant. The standard counterclockwise angle = 360° - 36.9° = 323.1° (or -36.9°). A student who answers 36.9° or 143.1° has ignored the sign of the y-component or misidentified the quadrant.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **A** and **B** lie in the x-y plane. **A** has magnitude 5 units along +x. **B** has magnitude 5 units at 120° from +x. Without calculating the resultant, explain why the x-component of the resultant (A+B)ₓ must be negative.",
+     "a": "Aₓ = +5. Bₓ = 5 cos120° = 5 × (-1/2) = -2.5. (A+B)ₓ = 5 + (-2.5) = +2.5 > 0. Wait, the statement says \"must be negative\" — that is FALSE. The correct reasoning: Bₓ is negative but smaller in magnitude than Aₓ, so the sum is positive. A student who agrees with the false statement reveals they think any vector with an angle >90° has a component that dominates, not understanding that magnitude matters and components add algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "A student resolves a force **F** = 10 N at 60° to the horizontal into components Fₓ = 10 cos60° = 5 N and Fᵧ = 10 sin60° = 8.66 N. They then claim the magnitude of the force is Fₓ + Fᵧ = 13.66 N. Evaluate this claim.",
+     "a": "The claim is incorrect. Magnitude is √(Fₓ² + Fᵧ²) = √(5² + 8.66²) = √(25 + 75) = √100 = 10 N. Components are vectors perpendicular to each other; they add vectorially, not arithmetically. The student has added the scalar magnitudes as if they were collinear, ignoring the perpendicular nature of rectangular components.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a force table (or a board with pulleys and weights) to demonstrate that a single force can be replaced by two perpendicular forces (its components). Describe the setup, measurements, and how you would verify the resolution.",
+     "a": "Setup: Fix a central ring on a force table. Attach three strings over pulleys at angles 0°, 90°, and a third angle θ (e.g., 53°). Hang weights: W₁ on 0° string, W₂ on 90° string, and W on θ string. Adjust W₁ and W₂ until the ring centers without the θ string. Then W₁ = W cosθ, W₂ = W sinθ. Verification: Measure W₁, W₂, W, and θ. Check if W₁² + W₂² = W² and tanθ = W₂/W₁. A poor answer would omit the equilibrium condition or not specify how to isolate the components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

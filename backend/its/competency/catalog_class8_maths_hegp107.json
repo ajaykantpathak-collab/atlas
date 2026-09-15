@@ -1,0 +1,347 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Proportional Reasoning-1",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.107.7.1",
+   "title": "Similarity in Change (Proportional Change)",
+   "section": "7.1",
+   "definition": "Two pictures or quantities look similar after resizing only when every measurement changes by the same multiplication factor; shrinking both width and height by half keeps a photograph's shape, while removing the same amount from each distorts it because the factors differ.",
+   "formula": "similar change: width_new = width_old * factor and height_new = height_old * factor",
+   "key_idea": "Same factor on every measure keeps the shape; equal subtraction does not.",
+   "textbook_ref": "hegp107.txt lines 1-70 (images A to E, factor comparison)",
+   "question_patterns": [
+    "why do images A, C and D look similar while B and E look distorted",
+    "by what factor are the width and height of image D changed compared to image A",
+    "image B is 20 mm smaller in width and height than image A - why do they not look similar",
+    "check whether two rectangles are similar by comparing their change factors",
+    "what makes a change proportional - define it",
+    "does adding the same amount to both sides of a rectangle keep its shape - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "find the change factor of the width",
+     "explain": "Divide the new width by the old width."},
+    {"step": 2, "action": "find the change factor of the height",
+     "explain": "Divide the new height by the old height."},
+    {"step": 3, "action": "compare the two factors",
+     "explain": "Equal factors mean a proportional change and a similar shape; unequal factors mean distortion."}
+   ]
+  },
+  {
+   "id": "hegp.107.7.2",
+   "title": "Ratios and Proportion",
+   "section": "7.2",
+   "definition": "A ratio a : b compares two quantities term by term, saying there are b units of the second for every a units of the first; two ratios are proportional when one is a uniform multiple of the other, written a : b :: c : d.",
+   "formula": "proportion: a : b :: c : d",
+   "key_idea": "60 : 40 :: 30 : 20 :: 90 : 60 - the width to height ratio is the same for similar images.",
+   "textbook_ref": "hegp107.txt lines 72-99 (ratios, terms, :: symbol)",
+   "question_patterns": [
+    "write the ratio of width to height of image A and name its terms",
+    "what does the symbol between two ratios in proportion mean",
+    "are the ratios 60 : 40 and 90 : 60 proportional - justify",
+    "state the ratio 30 : 20 in words using for every",
+    "how does multiplying both terms of a ratio by the same factor affect it",
+    "check whether a : b and c : d are in proportion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write both ratios",
+     "explain": "Put each comparison in the form first term : second term."},
+    {"step": 2, "action": "test the scaling factor",
+     "explain": "Check whether multiplying both terms of the first ratio by one fixed number yields the second ratio."},
+    {"step": 3, "action": "declare proportion",
+     "explain": "A single common factor lets you write the two ratios with the proportion symbol."}
+   ]
+  },
+  {
+   "id": "hegp.107.7.3",
+   "title": "Simplest Form of a Ratio",
+   "section": "7.3",
+   "definition": "Dividing both terms of a ratio by their highest common factor gives its simplest form, and two ratios are proportional exactly when their simplest forms match; 60 : 40 reduces by 20 to 3 : 2, the same as 90 : 60 reduced by 30.",
+   "formula": "red_a = term_a / hcf; red_b = term_b / hcf",
+   "key_idea": "Reduce each ratio by its HCF; identical simplest forms mean the ratios are in proportion.",
+   "textbook_ref": "hegp107.txt lines 99-124 (simplest form), 124-160 (Example 1: 3 : 4 and 72 : 96)",
+   "question_patterns": [
+    "reduce the ratio 72 : 96 to its simplest form and check proportion with 3 : 4",
+    "find the HCF of 90 and 60 and write the ratio in simplest form",
+    "are the ratios 40 : 20 and 3 : 2 in proportion - justify",
+    "what is the simplest form of the ratio 600 : 900",
+    "by which number do you divide both terms to simplify a ratio",
+    "compare the simplest forms of 60 : 40 and 60 : 60"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "reduce the first term",
+     "explain": "Divide the first term by the HCF of the two terms.",
+     "compute": "red_a = term_a / hcf"},
+    {"step": 2, "action": "reduce the second term",
+     "explain": "Divide the second term by the same HCF to keep the ratio fair.",
+     "compute": "red_b = term_b / hcf"}
+   ]
+  },
+  {
+   "id": "hegp.107.7.4",
+   "title": "Missing Value in a Proportion",
+   "section": "7.4",
+   "definition": "When two ratios are known to be proportional, an unknown term is recovered by keeping the same multiplier: if a : b equals c : x, then x equals c times b divided by a, the unitary reasoning behind bus counts, recipe scaling and price comparisons.",
+   "formula": "x = c * b / a",
+   "key_idea": "Scale the known pair: 3 : 4 :: 72 : 96 because 72 and 96 both grow by 24.",
+   "textbook_ref": "hegp107.txt lines 124-160 (Example 1), 613-787 (sharing and problems), Figure it Out bus example",
+   "question_patterns": [
+    "162 people filled 3 buses - how many buses take 204 people and will they be full",
+    "find the missing term x if 3 : 4 :: 72 : x",
+    "if 2.5 palas of saffron cost 3.5 niskas, how much saffron can 9 niskas buy",
+    "a recipe uses 600 mL of one juice with 900 mL of another - simplify and scale the ratio",
+    "calculate how much of the second quantity matches the ratio a : b",
+    "use unitary method to find the value that keeps two ratios proportional"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the known term of the second ratio",
+     "explain": "The unknown grows from c the way b grows from a.",
+     "compute": "scaled = c * b"},
+    {"step": 2, "action": "divide by the first term of the known ratio",
+     "explain": "Dividing by a completes the unitary scaling.",
+     "compute": "x = scaled / a"}
+   ]
+  },
+  {
+   "id": "hegp.107.7.5",
+   "title": "Sharing a Whole in a Given Ratio",
+   "section": "7.5",
+   "definition": "To divide a total in a ratio such as 3 : 1, split the total into equal groups the size of the sum of the ratio terms and hand out groups in that pattern; 12 counters in ratio 3 : 1 become 9 and 3 because the whole is three groups of 4.",
+   "formula": "group = total / (part_a + part_b); share_a = group * part_a",
+   "key_idea": "42 in ratio 4 : 3 means 42 split into 7 groups of 6, giving 24 and 18.",
+   "textbook_ref": "hegp107.txt lines 613-787 (sharing but not equally)",
+   "question_patterns": [
+    "share 42 counters between two people in the ratio 4 : 3",
+    "divide 12 objects in the ratio 3 : 1 - how many does each get",
+    "split an amount in the ratio part_a : part_b using equal groups",
+    "two friends share marbles in ratio 5 : 7 - find each share of 60 marbles",
+    "how many groups of the term-sum fit into the total when sharing in a ratio",
+    "what fraction of the whole does each ratio term receive"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the size of one equal group",
+     "explain": "Divide the total by the sum of the ratio terms.",
+     "compute": "group = total / (part_a + part_b)"},
+    {"step": 2, "action": "multiply out each share",
+     "explain": "Each person receives their term count times the group size.",
+     "compute": "share_a = group * part_a"}
+   ]
+  },
+  {
+   "id": "hegp.107.7.6",
+   "title": "Unit Conversions and Temperature",
+   "section": "7.6",
+   "definition": "Proportional reasoning often needs unit changes: metres to feet, litres to millilitres, and temperature via the linear rules Fahrenheit = 9/5 x Celsius + 32 and Celsius = 5/9 x (Fahrenheit - 32); 25 degrees Celsius converts to 77 degrees Fahrenheit.",
+   "formula": "fahrenheit = 9 / 5 * celsius + 32",
+   "key_idea": "Temperature is not a plain ratio - shift by 32 handles the freezing-point offset.",
+   "textbook_ref": "hegp107.txt lines 787-850 (unit conversion table, temperature)",
+   "question_patterns": [
+    "convert 25 degrees Celsius to Fahrenheit",
+    "convert 77 degrees Fahrenheit back to Celsius",
+    "how many feet are 10 metres at 3.281 feet per metre",
+    "how many millilitres make 2.5 litres",
+    "convert 1 hectare into square metres",
+    "find the Fahrenheit value for 0 degrees Celsius and explain the 32"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale Celsius by nine-fifths",
+     "explain": "Multiply the Celsius reading by 9 and divide by 5.",
+     "compute": "scaled = 9 / 5 * celsius"},
+    {"step": 2, "action": "add the freezing offset",
+     "explain": "Adding 32 gives the Fahrenheit temperature.",
+     "compute": "fahrenheit = scaled + 32"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp107.txt lines 99-124, image ratios",
+   "concept": "hegp.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "Write the ratio {term_a} : {term_b} in its simplest form given that its HCF is {hcf}.",
+   "extracted_variables": {
+    "term_a": "first term of the ratio",
+    "term_b": "second term of the ratio",
+    "hcf": "highest common factor of the terms"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the first term by the HCF",
+     "explain": "Reduction keeps the comparison unchanged.",
+     "compute": "red_a = term_a / hcf"},
+    {"step": 2, "action": "divide the second term by the HCF",
+     "explain": "The same divisor must act on both terms.",
+     "compute": "red_b = term_b / hcf"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp107.txt lines 130-142, 72 : 96 example",
+   "concept": "hegp.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "Check whether {term_a} : {term_b} is proportional to 3 : 4 by reducing it with HCF {hcf}.",
+   "extracted_variables": {
+    "term_a": "first term of the larger ratio",
+    "term_b": "second term of the larger ratio",
+    "hcf": "HCF of the two terms"
+   },
+   "solution_template": [
+    {"step": 1, "action": "reduce the first term",
+     "explain": "Divide term_a by the HCF.",
+     "compute": "red_a = term_a / hcf"},
+    {"step": 2, "action": "reduce the second term",
+     "explain": "Divide term_b by the HCF and compare with 3 : 4.",
+     "compute": "red_b = term_b / hcf"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp107.txt Figure it Out Q2, bus problem",
+   "concept": "hegp.107.7.4",
+   "question_type": "compute",
+   "question_pattern": "If {people_known} people need {buses_known} full buses, how many buses do {people_new} people need?",
+   "extracted_variables": {
+    "people_known": "people in the known trip",
+    "buses_known": "buses used in the known trip",
+    "people_new": "people on the new trip"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale by the new head count",
+     "explain": "Buses grow in proportion to people.",
+     "compute": "scaled = people_new * buses_known"},
+    {"step": 2, "action": "divide by the known head count",
+     "explain": "The result is the number of buses needed.",
+     "compute": "buses_needed = scaled / people_known"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp107.txt lines 124-160, Example 1",
+   "concept": "hegp.107.7.4",
+   "question_type": "compute",
+   "question_pattern": "Find x so that {a} : {b} :: {c} : x.",
+   "extracted_variables": {
+    "a": "first term of the known ratio",
+    "b": "second term of the known ratio",
+    "c": "known first term of the second ratio"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale the second term",
+     "explain": "x comes from multiplying c by the ratio b over a.",
+     "compute": "scaled = c * b"},
+    {"step": 2, "action": "complete the division",
+     "explain": "Divide by a to finish the unitary step.",
+     "compute": "x = scaled / a"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp107.txt lines 640-660, 42 in ratio 4 : 3",
+   "concept": "hegp.107.7.5",
+   "question_type": "compute",
+   "question_pattern": "Share {total} counters between two people in the ratio {part_a} : {part_b}. How many does the first get?",
+   "extracted_variables": {
+    "total": "total counters to share",
+    "part_a": "first ratio term",
+    "part_b": "second ratio term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one group size",
+     "explain": "Divide the total by the sum of the ratio terms.",
+     "compute": "group = total / (part_a + part_b)"},
+    {"step": 2, "action": "multiply out the first share",
+     "explain": "The first person takes part_a groups.",
+     "compute": "share_a = group * part_a"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp107.txt lines 624-640, 12 in ratio 3 : 1",
+   "concept": "hegp.107.7.5",
+   "question_type": "compute",
+   "question_pattern": "Divide {total} objects in the ratio {part_a} : {part_b}. What is the second person's share?",
+   "extracted_variables": {
+    "total": "total objects",
+    "part_a": "first ratio term",
+    "part_b": "second ratio term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one group size",
+     "explain": "Total divided by the term-sum gives the group size.",
+     "compute": "group = total / (part_a + part_b)"},
+    {"step": 2, "action": "multiply out the second share",
+     "explain": "The second person takes part_b groups.",
+     "compute": "share_b = group * part_b"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp107.txt lines 810-830, 25 degrees Celsius example",
+   "concept": "hegp.107.7.6",
+   "question_type": "compute",
+   "question_pattern": "Convert {celsius} degrees Celsius to Fahrenheit.",
+   "extracted_variables": {
+    "celsius": "temperature in degrees Celsius"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale by nine-fifths",
+     "explain": "Multiply by 9 and divide by 5.",
+     "compute": "scaled = 9 / 5 * celsius"},
+    {"step": 2, "action": "add 32",
+     "explain": "The offset converts the scale to Fahrenheit.",
+     "compute": "fahrenheit = scaled + 32"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp107.txt lines 815-830, reverse conversion rule",
+   "concept": "hegp.107.7.6",
+   "question_type": "compute",
+   "question_pattern": "Convert {fahrenheit} degrees Fahrenheit to Celsius.",
+   "extracted_variables": {
+    "fahrenheit": "temperature in degrees Fahrenheit"
+   },
+   "solution_template": [
+    {"step": 1, "action": "remove the freezing offset",
+     "explain": "Subtract 32 from the Fahrenheit value.",
+     "compute": "shifted = fahrenheit - 32"},
+    {"step": 2, "action": "scale by five-ninths",
+     "explain": "Multiply by 5 and divide by 9 for Celsius.",
+     "compute": "celsius = 5 / 9 * shifted"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hegp107.txt Figure it Out, lines 831-860",
+   "questions": [
+    "Anagh mixes 600 mL of orange juice with 900 mL of apple juice - write the ratio in simplest form.",
+    "3 buses took 162 people; how many buses do 204 people need, and will all be full?",
+    "Delhi is 1484 sq km with 30 million people, Mumbai 550 sq km with 20 million - which city is more crowded?",
+    "A crane of height 155 cm has neck to body ratio 4 : 6 - find your neck length on that ratio.",
+    "The masses of equal volumes of gold and water are in ratio 37 : 2 - find the mass of 1 litre of gold if 1 litre of water is 1 kg."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hegp107.txt lines 787-830",
+   "questions": [
+    "Convert 25 degrees Celsius to Fahrenheit.",
+    "Write the Fahrenheit to Celsius conversion rule.",
+    "How many square feet make 1 acre?",
+    "How many acres make 1 hectare?"
+   ]
+  }
+ ]
+}

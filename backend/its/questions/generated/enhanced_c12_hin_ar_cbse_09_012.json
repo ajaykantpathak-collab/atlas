@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_09_012",
+   "title": "c12_hin_ar_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in the context of Hindi poetry?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What does the poet see in the sky?\"), while an inferential question asks for meaning derived by combining textual clues (e.g., \"What does the sky symbolize for the poet?\"). A wrong answer that says \"both need reading the poem\" reveals the student cannot distinguish retrieval from reasoning — a critical error that leads to copying whole stanzas for inferential questions or missing explicit details for literal ones.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"NksVk esjk [ksr\", the line \"dkx\\\"k dk ,d iÂk] dksbZ vaèkM+ dgha ls vk;k {k.k dk cht ogk¡ cks;k x;k\" appears. A student answers the inferential question \"What triggers the creative process?\" by writing \"A sudden thought comes from somewhere.\" Why is this answer incomplete for an inferential question?",
+     "a": "The answer merely paraphrases the literal image (\"a sudden thought comes from somewhere\") without explaining the *implication*: that creativity arrives uninvited, like a mysterious force planting a seed (\"cht\") in the mind's field (\"[ksr\"), which then grows through stages of germination, struggle, and expression. A wrong answer shows the student treats inferential questions as translation tasks, missing the need to interpret metaphorical significance — a pattern that costs marks in both board and CUET questions.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this literal question from \"cxqyksa d ia[k\": \"What two natural images does the poet use to describe the passage of time in the second stanza?\" Write a complete 2-mark answer.",
+     "a": "**Point:** The poet uses \"dtjkjs cknyksa dh NkbZ\" (the declining of dates on calendars) and \"rSjrh lk¡> dh lrst 'osr\" (the last spray of the autumn season). **Evidence:** These phrases appear explicitly in the second stanza. **Explanation:** Calendars and autumn represent measurable and seasonal time respectively. **Link:** Together they emphasize time's irreversible, dual nature — mechanical and organic. A wrong answer listing only one image or adding \"memories\" (not in that stanza) shows failure to scan precisely — a common error when students rely on memory instead of textual verification.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following student answer to an inferential question on \"NksVk esjk [ksr\": \"The poet says words come out of the seed and the crop becomes ready, which means writing is like farming.\" Identify the analytical gap and rewrite the answer to include the missing step.",
+     "a": "The gap: the answer states the metaphor (writing = farming) but does not *analyze* how specific stages map to the creative process (e.g., \"vaoqQj iwQVs] iYyo&iq\\\"iksa ls ufer gqvk fo'ks\\\"k\" — words bursting forth, ripening beyond conscious control). A strong answer would add: \"The metaphor reveals that creativity, like agriculture, involves an initial unconscious germination followed by a phase where the creator loses control ('ufer gqvk'), suggesting art grows organically, not mechanically.\" Missing this analytical linkage is the hallmark of a surface-level inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For inferential questions in poetry, any interpretation supported by a quote is equally valid.\" Defend your position with reference to the poems in Chapter 9.",
+     "a": "The claim is false. Valid inferences must be *constrained* by the poem's internal logic, imagery patterns, and thematic coherence. In \"cxqyksa d ia[k\", interpreting \"cxqyksa\" (birds) as \"freedom\" is valid because the poem builds a cluster of flight, sky, and memory images; interpreting them as \"death\" would contradict the poem's tone of nostalgic longing (\"gkSys gkSys tkrh eq>s ck¡èk fut ek;k ls\"). Board marking schemes reward inferences grounded in *cumulative* textual evidence, not isolated quotes. A student who thinks \"any quote works\" will force-fit evidence, losing marks for coherence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for \"NksVk esjk [ksr\" that requires synthesizing imagery from at least two stanzas, and provide a model answer using PEEL.",
+     "a": "**Question:** \"How does the poet use the progression from 'cht' (seed) to 'fo'ks\\\"k' (crop) to depict the *uncertainty* of creative completion?\"  \n**Model Answer:**  \n**Point:** The poet portrays creativity as a vulnerable natural cycle where the outcome is never guaranteed.  \n**Evidence:** Stanza 1: \"dYiuk osQ jlk;uksa dks ih cht xy x;k fu%'ks\\\"k_\" (a remarkable seed sown in hope); Stanza 2: \"jksikbZ {k.k dh] dVkbZ vuarrk dh yqVrs jgus ls tjk Hkh ugha de gksrh\" (the crop's greenness, the drought's severity — neither diminishes the wait).  \n**Explanation:** The seed is planted in hope (\"jlk;uksa\"), but the crop's survival depends on uncontrollable forces (rain/drought), mirroring how a writer cannot ensure a work's completion or reception.  \n**Link:** This uncertainty elevates the creative act from mere production to an act of faith. A poor answer would describe the farming steps without connecting \"hope\" and \"uncontrollable wait\" to the *poet's anxiety* — missing the emotional inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

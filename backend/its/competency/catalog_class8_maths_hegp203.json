@@ -1,0 +1,503 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Proportional Reasoning-2",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.203.3.1",
+   "title": "Checking Proportion by Cross Multiplication",
+   "section": "3.1",
+   "definition": "Two ratios a : b and c : d are proportional exactly when the cross products agree: a times d must equal b times c; Viswanath's 6 : 3 idli batter matches Puneet's 4 : 2 because both cross products give 12.",
+   "formula": "cross_ad = a * d; cross_bc = b * c",
+   "key_idea": "One cross multiplication settles proportionality: 6 x 2 = 3 x 4 = 12.",
+   "textbook_ref": "hegp203.txt lines 1-34 (recap, idli batter, cross multiplication)",
+   "question_patterns": [
+    "check whether 6 : 3 and 4 : 2 are proportional by cross multiplication",
+    "are the ratios a : b and c : d proportional - state the test",
+    "verify the proportion 2 : 1 :: 6 : 3 using cross products",
+    "do two idli batters with ratios 6 : 3 and 4 : 2 taste the same - justify",
+    "when is a times d equal to b times c useful",
+    "test the proportionality of 8 : 4 and 2 : 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply outward",
+     "explain": "The first term of the first ratio times the second term of the second ratio.",
+     "compute": "cross_ad = a * d"},
+    {"step": 2, "action": "multiply inward",
+     "explain": "The inner terms multiply for the comparison.",
+     "compute": "cross_bc = b * c"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.2",
+   "title": "Map Scales and Representative Fraction",
+   "section": "3.2",
+   "definition": "A map's representative fraction such as 1 : 6000000 fixes the ratio of map distance to ground distance, so 1 cm on the map stands for 6000000 cm or 60 km on the ground; multiplying the measured map distance by the scale and converting centimetres to kilometres gives the geographical distance.",
+   "formula": "actual_km = map_cm * scale / 100000",
+   "key_idea": "1 cm with RF 1 : 6000000 covers 60 km; scale up the measured centimetres.",
+   "textbook_ref": "hegp203.txt lines 35-72 (ratios in maps, RF 1 : 6000000)",
+   "question_patterns": [
+    "a map has RF 1 : 6000000 - what ground distance does 1 cm on the map show",
+    "convert 6000000 cm to kilometres",
+    "two cities are 4.5 cm apart on a 1 : 6000000 map - find the real distance in km",
+    "what does the representative fraction of a map tell you",
+    "find the actual distance between Bengaluru and Chennai using the map scale",
+    "why may different maps give slightly different distances for the same cities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale up the map distance",
+     "explain": "Multiply the measured centimetres by the RF denominator to get ground centimetres.",
+     "compute": "actual_cm = map_cm * scale"},
+    {"step": 2, "action": "convert to kilometres",
+     "explain": "Divide ground centimetres by 100000.",
+     "compute": "actual_km = actual_cm / 100000"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.3",
+   "title": "Ratios with More than Two Terms",
+   "section": "3.3",
+   "definition": "A ratio can chain three or more linked quantities, like the spice mix 8 : 4 : 2 : 1 of coriander, chillies, dal and fenugreek; keeping the taste same means every term changes by one common factor, and a known term fixes the unit part for all the others.",
+   "formula": "unit = known_amount / known_term",
+   "key_idea": "Halve the chillies and every other ingredient halves too: 8 : 4 : 2 : 1 :: 4 : 2 : 1 : 0.5.",
+   "textbook_ref": "hegp203.txt lines 73-136 (spice mix, purple paint, concrete mix examples)",
+   "question_patterns": [
+    "purple paint mixes red : blue : white :: 2 : 3 : 5 - how much red and blue go with 10 litres of white",
+    "a spice mix has ratio 8 : 4 : 2 : 1 - adjust it when only 2 chillies are available",
+    "concrete uses cement : sand : gravel :: 1 : 1.5 : 3 - what do 3 bags of cement need",
+    "find the value of one part when one term of a multi-term ratio is known",
+    "scale every term of a ratio by the same factor - why does the relationship hold",
+    "what is the total mixture volume for the purple paint example"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the size of one part",
+     "explain": "Divide the known amount by its ratio term.",
+     "compute": "unit = known_amount / known_term"},
+    {"step": 2, "action": "size any other ingredient",
+     "explain": "Multiply the unit part by that ingredient's term.",
+     "compute": "other = unit * other_term"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.4",
+   "title": "Dividing a Whole in a Given Ratio",
+   "section": "3.4",
+   "definition": "To split a whole among ratio terms, divide the whole by the sum of the terms to get one part, then multiply each term by that part; 110 units of concrete in the ratio 1 : 1.5 : 3 needs 20, 30 and 60 units because one part is 110 divided by 5.5.",
+   "formula": "part = total / (t1 + t2 + t3)",
+   "key_idea": "One part first, then scale every term: 110 in ratio 1 : 1.5 : 3 gives 20 : 30 : 60.",
+   "textbook_ref": "hegp203.txt lines 136-218 (dividing a whole, Example 3 concrete)",
+   "question_patterns": [
+    "divide 110 units of concrete in the ratio 1 : 1.5 : 3",
+    "share 12 in the ratio 2 : 1",
+    "how many units of sand and gravel go with the cement in a 110 unit mix",
+    "find one part when a whole is divided in a multi-term ratio",
+    "distribute a total amount among three heads in the ratio t1 : t2 : t3",
+    "why is the whole divided by the sum of the ratio terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find one part",
+     "explain": "Divide the total by the sum of all ratio terms.",
+     "compute": "part = total / (t1 + t2 + t3)"},
+    {"step": 2, "action": "scale the first term",
+     "explain": "Multiply the first ratio term by one part for its share.",
+     "compute": "share1 = part * t1"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.5",
+   "title": "Pie Chart Angles from Shares",
+   "section": "3.5",
+   "definition": "A pie chart divides the full 360 degrees of a circle in the ratio of the data shares; a grade with 12 of 40 students takes 12/40 of 360 degrees, so each slice angle equals the share divided by the total, times 360.",
+   "formula": "angle = share / total * 360",
+   "key_idea": "Grades 12 : 10 : 8 : 6 : 4 of 40 students cut the circle into 108, 90, 72, 54 and 36 degrees.",
+   "textbook_ref": "hegp203.txt lines 218-280 (slice of the pie, grade distribution)",
+   "question_patterns": [
+    "find the pie chart angle for a grade scored by 12 of 40 students",
+    "how is 360 degrees divided to draw a pie chart of grade counts 12, 10, 8, 6, 4",
+    "calculate the slice angle when the share is 10 out of 40",
+    "why must the angles of a pie chart be proportional to the data",
+    "what angle represents a quarter of the data in a pie chart",
+    "reduce the ratio 12 : 10 : 8 : 6 : 4 before dividing 360 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the share fraction",
+     "explain": "Divide the category count by the total.",
+     "compute": "frac = share / total"},
+    {"step": 2, "action": "scale to the full circle",
+     "explain": "Multiply the fraction by 360 degrees for the slice angle.",
+     "compute": "angle = frac * 360"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.6",
+   "title": "Inverse Proportions (Speed and Time)",
+   "section": "3.6",
+   "definition": "When one quantity grows by a factor while the other shrinks by the same factor, they are inversely proportional and their product stays constant: speed times time locks in the fixed distance of 90 km, so doubling speed halves the travel time.",
+   "formula": "time = distance / speed",
+   "key_idea": "Speed 5, 15, 30, 60 km/h take 18, 6, 3, 1.5 hours - every row multiplies to 90.",
+   "textbook_ref": "hegp203.txt lines 371-560 (inverse proportions, speed-time table, xy = k)",
+   "question_patterns": [
+    "the Lucknow-Kanpur trip takes 3 hours at 30 km/h - how long at 60 km/h",
+    "why are speed and time for a fixed journey inversely proportional",
+    "find the constant k for the speed-time table of the trip",
+    "how long does walking at 5 km/h take for the 90 km journey",
+    "if one quantity doubles and the other halves what relation holds",
+    "use x1 y1 = x2 y2 to check the walking and car rows"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "fix the constant product",
+     "explain": "Multiply a known speed and time to get the constant distance.",
+     "compute": "distance = speed * time"},
+    {"step": 2, "action": "divide by the new speed",
+     "explain": "The new time is the constant divided by the new speed.",
+     "compute": "new_time = distance / new_speed"}
+   ]
+  },
+  {
+   "id": "hegp.203.3.7",
+   "title": "Direct Proportion (Rule of Three)",
+   "section": "3.6",
+   "definition": "For a direct proportion a : b :: c : d the missing fourth term is d = bc/a; more bricks need more workers in the same ratio, so 18000 bricks need 20 workers when 4500 bricks need 5.",
+   "formula": "d = b * c / a",
+   "key_idea": "4500 : 18000 :: 5 : x gives x = 18000 x 5 / 4500 = 20.",
+   "textbook_ref": "hegp203.txt lines 371-390 (rule of three, workers and bricks example)",
+   "question_patterns": [
+    "5 workers move 4500 bricks a day - how many workers move 18000 bricks",
+    "find the fourth term of the proportion a : b :: c : d",
+    "solve 4500 : 18000 :: 5 : x using the rule of three",
+    "if 3 bags cost 90 rupees what do 7 bags cost by direct proportion",
+    "when does doubling one quantity double the other - name the relation",
+    "use d = bc/a to complete a proportion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the extremes with the known middle",
+     "explain": "b times c forms the numerator of the rule of three.",
+     "compute": "numer = b * c"},
+    {"step": 2, "action": "divide by the first term",
+     "explain": "Dividing by a yields the missing fourth term.",
+     "compute": "d = numer / a"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp203.txt lines 18-30, idli batter ratios",
+   "concept": "hegp.203.3.1",
+   "question_type": "compute",
+   "question_pattern": "Check whether {a} : {b} and {c} : {d} are proportional using cross multiplication.",
+   "extracted_variables": {
+    "a": "first term of first ratio",
+    "b": "second term of first ratio",
+    "c": "first term of second ratio",
+    "d": "second term of second ratio"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the outer terms",
+     "explain": "First of the first ratio times second of the second.",
+     "compute": "cross_ad = a * d"},
+    {"step": 2, "action": "multiply the inner terms",
+     "explain": "Compare with the inner product for proportionality.",
+     "compute": "cross_bc = b * c"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp203.txt lines 22-30, 6 : 3 vs 4 : 2",
+   "concept": "hegp.203.3.1",
+   "question_type": "compute",
+   "question_pattern": "Do batters of ratio {a} : {b} and {c} : {d} taste the same - test with cross products.",
+   "extracted_variables": {
+    "a": "rice cups in batter one",
+    "b": "dal cups in batter one",
+    "c": "rice cups in batter two",
+    "d": "dal cups in batter two"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the outer terms",
+     "explain": "a times d is the first cross product.",
+     "compute": "cross_ad = a * d"},
+    {"step": 2, "action": "multiply the inner terms",
+     "explain": "Equal products mean the same taste ratio.",
+     "compute": "cross_bc = b * c"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp203.txt lines 44-60, RF 1 : 6000000",
+   "concept": "hegp.203.3.2",
+   "question_type": "compute",
+   "question_pattern": "On a map of scale 1 : {scale}, what ground distance in km does {map_cm} cm represent?",
+   "extracted_variables": {
+    "scale": "denominator of the representative fraction",
+    "map_cm": "distance measured on the map in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale to ground centimetres",
+     "explain": "Multiply the map centimetres by the scale denominator.",
+     "compute": "actual_cm = map_cm * scale"},
+    {"step": 2, "action": "convert to kilometres",
+     "explain": "Divide by 100000 since 1 km is 100000 cm.",
+     "compute": "actual_km = actual_cm / 100000"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp203.txt lines 56-60, 6000000 cm to km",
+   "concept": "hegp.203.3.2",
+   "question_type": "compute",
+   "question_pattern": "Convert {map_cm} cm at RF 1 : {scale} into kilometres.",
+   "extracted_variables": {
+    "scale": "RF denominator",
+    "map_cm": "map distance in centimetres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale to ground centimetres",
+     "explain": "Map distance times scale denominator.",
+     "compute": "actual_cm = map_cm * scale"},
+    {"step": 2, "action": "convert to kilometres",
+     "explain": "Ground centimetres divided by 100000.",
+     "compute": "actual_km = actual_cm / 100000"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp203.txt lines 108-125, purple paint example",
+   "concept": "hegp.203.3.3",
+   "question_type": "compute",
+   "question_pattern": "Paint mixes red : blue : white :: {known_term} : {other_term} : {white_term}. With {known_amount} litres of white, how much red is needed?",
+   "extracted_variables": {
+    "known_term": "ratio term of white paint",
+    "other_term": "ratio term of red paint",
+    "white_term": "ratio term used as known term",
+    "known_amount": "litres of white paint available"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one part",
+     "explain": "Divide the white litres by the white ratio term.",
+     "compute": "unit = known_amount / known_term"},
+    {"step": 2, "action": "scale the red term",
+     "explain": "Multiply one part by the red ratio term.",
+     "compute": "other = unit * other_term"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp203.txt lines 126-135, concrete 1 : 1.5 : 3",
+   "concept": "hegp.203.3.3",
+   "question_type": "compute",
+   "question_pattern": "Concrete mixes cement : sand : gravel :: 1 : {sand_term} : {gravel_term}. With {known_amount} bags of cement, how many bags of gravel are needed?",
+   "extracted_variables": {
+    "sand_term": "sand ratio term",
+    "gravel_term": "gravel ratio term",
+    "known_amount": "bags of cement available"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one part",
+     "explain": "Cement term is 1, so one part equals the cement bags.",
+     "compute": "unit = known_amount / 1"},
+    {"step": 2, "action": "scale the gravel term",
+     "explain": "Multiply one part by the gravel term.",
+     "compute": "other = unit * gravel_term"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp203.txt lines 160-175, 110 units example",
+   "concept": "hegp.203.3.4",
+   "question_type": "compute",
+   "question_pattern": "Divide {total} units of concrete in the ratio {t1} : {t2} : {t3}. How much cement is needed?",
+   "extracted_variables": {
+    "total": "total concrete units",
+    "t1": "cement ratio term",
+    "t2": "sand ratio term",
+    "t3": "gravel ratio term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one part",
+     "explain": "Divide the total by the sum of the three terms.",
+     "compute": "part = total / (t1 + t2 + t3)"},
+    {"step": 2, "action": "scale the cement term",
+     "explain": "Cement share is one part times t1.",
+     "compute": "share1 = part * t1"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp203.txt lines 136-150, 12 in ratio 2 : 1",
+   "concept": "hegp.203.3.4",
+   "question_type": "compute",
+   "question_pattern": "Share {total} in the ratio {t1} : {t2}. What is the first share?",
+   "extracted_variables": {
+    "total": "whole to divide",
+    "t1": "first ratio term",
+    "t2": "second ratio term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find one part",
+     "explain": "Total divided by the term sum.",
+     "compute": "part = total / (t1 + t2)"},
+    {"step": 2, "action": "scale the first term",
+     "explain": "First share is one part times t1.",
+     "compute": "share1 = part * t1"}
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp203.txt lines 222-240, grade pie chart",
+   "concept": "hegp.203.3.5",
+   "question_type": "compute",
+   "question_pattern": "In a class of {total} students, {share} scored grade A. What slice angle does grade A get in the pie chart?",
+   "extracted_variables": {
+    "share": "students with the grade",
+    "total": "total students"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the share fraction",
+     "explain": "Divide the grade count by the class total.",
+     "compute": "frac = share / total"},
+    {"step": 2, "action": "scale to 360 degrees",
+     "explain": "Multiply by the full circle angle.",
+     "compute": "angle = frac * 360"}
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp203.txt lines 240-260, dividing 360 in ratio",
+   "concept": "hegp.203.3.5",
+   "question_type": "compute",
+   "question_pattern": "What angle shows a category with {share} of {total} data points in a pie chart?",
+   "extracted_variables": {
+    "share": "count for the category",
+    "total": "total of all categories"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the share fraction",
+     "explain": "Share over total is the slice's fraction of the circle.",
+     "compute": "frac = share / total"},
+    {"step": 2, "action": "scale to 360 degrees",
+     "explain": "Fraction times 360 gives the angle.",
+     "compute": "angle = frac * 360"}
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "hegp203.txt lines 400-415, motorcycle to car",
+   "concept": "hegp.203.3.6",
+   "question_type": "compute",
+   "question_pattern": "A journey takes {time} hours at {speed} km/h. How long will it take at {new_speed} km/h?",
+   "extracted_variables": {
+    "speed": "original speed in km/h",
+    "time": "original time in hours",
+    "new_speed": "new speed in km/h"
+   },
+   "solution_template": [
+    {"step": 1, "action": "fix the constant distance",
+     "explain": "Speed times time stays the same for the same journey.",
+     "compute": "distance = speed * time"},
+    {"step": 2, "action": "divide by the new speed",
+     "explain": "New time equals the constant distance over the new speed.",
+     "compute": "new_time = distance / new_speed"}
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "hegp203.txt lines 415-430, walking row of the table",
+   "concept": "hegp.203.3.6",
+   "question_type": "compute",
+   "question_pattern": "For the same 90 km journey, how many hours does walking at {new_speed} km/h take if riding at {speed} km/h takes {time} hours?",
+   "extracted_variables": {
+    "speed": "known speed in km/h",
+    "time": "known time in hours",
+    "new_speed": "walking speed in km/h"
+   },
+   "solution_template": [
+    {"step": 1, "action": "fix the constant distance",
+     "explain": "Multiply the known speed and time.",
+     "compute": "distance = speed * time"},
+    {"step": 2, "action": "divide by the new speed",
+     "explain": "Slower speed gives the longer time.",
+     "compute": "new_time = distance / new_speed"}
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hegp203.txt lines 380-390, workers and bricks",
+   "concept": "hegp.203.3.7",
+   "question_type": "compute",
+   "question_pattern": "{c} workers move {a} bricks in a day. How many workers move {b} bricks in a day?",
+   "extracted_variables": {
+    "a": "bricks in the known task",
+    "b": "bricks in the new task",
+    "c": "workers in the known task"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply across the proportion",
+     "explain": "b times c from 4500 : 18000 :: 5 : x.",
+     "compute": "numer = b * c"},
+    {"step": 2, "action": "divide by the known brick count",
+     "explain": "Dividing by a gives the needed workers.",
+     "compute": "d = numer / a"}
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "hegp203.txt lines 371-378, rule of three statement",
+   "concept": "hegp.203.3.7",
+   "question_type": "compute",
+   "question_pattern": "Solve the proportion {a} : {b} :: {c} : x for x.",
+   "extracted_variables": {
+    "a": "first term",
+    "b": "second term",
+    "c": "third term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply b and c",
+     "explain": "The rule of three numerator.",
+     "compute": "numer = b * c"},
+    {"step": 2, "action": "divide by a",
+     "explain": "The quotient is the fourth term x.",
+     "compute": "d = numer / a"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hegp203.txt lines 35-72 (map ratios)",
+   "questions": [
+    "What does RF 1 : 6000000 on a map mean?",
+    "Find the geographical distance between two cities 4.5 cm apart on such a map.",
+    "Compare distances from maps with different scales."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hegp203.txt lines 73-218 (multi-term ratios)",
+   "questions": [
+    "Adjust the 8 : 4 : 2 : 1 spice mix when only 2 chillies are available.",
+    "With 10 litres of white paint in the 2 : 3 : 5 purple mix, find red and blue amounts.",
+    "Divide 110 units of concrete in the ratio 1 : 1.5 : 3."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "hegp203.txt lines 371-560 (proportions)",
+   "questions": [
+    "5 workers move 4500 bricks a day - how many move 18000 bricks?",
+    "The trip takes 3 hours at 30 km/h - find the time at 60 km/h and say why the relation is inverse.",
+    "Show that speed times time is constant at 90 km for all rows of the transport table."
+   ]
+  }
+ ]
+}

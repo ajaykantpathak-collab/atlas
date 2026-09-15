@@ -1,0 +1,181 @@
+{
+ "catalog": "catalog_class9_maths_iemh104.json",
+ "concepts": [
+  {
+   "id": "iemh.104.4.1",
+   "title": "Square Identities (a + b) squared and (a - b) squared",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 33.",
+     "a": "1089",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 40 m. What is the number of square metres in its area?",
+     "a": "1600",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 3^2 and 4^2? (Rule: 2 x n)",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 9 x 7.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 42?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 26. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "170",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.104.4.2",
+   "title": "Difference of Squares Identity",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 28.",
+     "a": "784",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 44 m. What is the number of square metres in its area?",
+     "a": "1936",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 7^2 and 8^2? (Rule: 2 x n)",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 8 x 6.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 76?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 12. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "37",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.104.4.3",
+   "title": "Factorisation Using Identities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 9 * 9 + 2 * 9 * 7 + 7 * 7 gives 256",
+     "compute": "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 7 more than 9; report the value.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 13^2 - 2 x 13 x 2 + 2^2.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 26 x 14 where the numbers are a + b and a - b for a = 20, b = 6.",
+     "a": "364",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 2)(x + 5) using the identity x^2 + (a + b)x + ab and evaluate it at x = 4.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "Compute 102^2 using (100 + 2)^2 = 10000 + 2 x 100 x 2 + 2^2.",
+     "a": "10404",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.104.4.4",
+   "title": "Simplifying Rational Expressions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 5 * 9 + 2 * 6 gives 57",
+     "compute": "num = 5 * 9 + 2 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 9 gives 54",
+     "compute": "den = 6 * 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.05556",
+     "compute": "val = num / den"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the rational numbers 5/6 and 2/9.",
+     "a": "19/18",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 2/6.",
+     "a": "-1/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 8/2.",
+     "a": "1/4",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 8/2 and 12/2 (use the mean).",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 6/3 and 3/3 on the number line.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 21/15 in standard form by dividing both terms by 3; give the numerator of the standard form over its denominator as a single value.",
+     "a": "7/5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

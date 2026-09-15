@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_011",
+   "title": "c11_soc_cbse_09_011",
+   "questions": [
+    {
+     "q": "State the five defining features of bureaucracy as identified by Max Weber, using the exact terminology from the NCERT text.",
+     "a": "The five features are: (i) Functioning of Officials — fixed official jurisdiction governed by rules; (ii) Hierarchical Ordering of Positions — graded hierarchy with supervision and appeal; (iii) Reliance on Written Documents — management based on files preserved as records; (iv) Office Management — specialised activity requiring trained personnel; (v) Conduct in Office — exhaustive rules governing official conduct, separating public from private behaviour. A wrong answer that lists generic traits like \"hierarchy, rules, impersonality\" without Weber's specific phrasing (e.g., missing \"reliance on written documents\" or \"conduct in office\") reveals the student is recalling a simplified textbook summary rather than the precise NCERT formulation required for board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Weber describes bureaucracy as the \"embodiment\" of rational-legal authority, rather than merely an example of it.",
+     "a": "Weber calls bureaucracy the *embodiment* because its structural features *constitute* rational-legal authority in practice: legality is not just proclaimed but operationalised through written rules (feature iii), hierarchy (ii), and qualified officials (i); the separation of office from person (v) ensures authority attaches to the *position*, not the individual, making domination impersonal and calculable. A wrong answer that says \"bureaucracy follows rational-legal authority\" or \"implements it\" misses the ontological claim: bureaucracy *is* the form rational-legal authority takes when fully rationalised. This confusion between \"example\" and \"embodiment\" is a classic board-exam trap — students describe features but fail to link each feature to the *legitimacy claim* of rational-legal authority.",
+     "self_check": true
+    },
+    {
+     "q": "A private school principal admits students based on personal interviews and \"gut feeling\" about the family's values, ignoring the published admission criteria. The school has a written rulebook, a hierarchy (principal → coordinators → teachers), and maintains student files. Using Weber's five features, identify which feature(s) are violated and which are present, and conclude whether this school administration qualifies as bureaucratic in Weber's sense.",
+     "a": "Present features: (ii) Hierarchical Ordering — principal supervises coordinators/teachers; (iii) Reliance on Written Documents — student files maintained; (iv) Office Management — trained staff conduct operations. Violated features: (i) Functioning of Officials — principal's jurisdiction is *not* governed by fixed rules (admission criteria ignored); (v) Conduct in Office — principal's personal judgment replaces rule-bound conduct, blurring public/private separation. Conclusion: The school is *not* fully bureaucratic because rational-legal authority requires *all* features to operate together; selective rule-application reverts authority toward traditional/personalistic domination. A wrong answer that calls it \"partially bureaucratic\" or \"mostly bureaucratic\" reveals misunderstanding of the ideal type as a *coherent system* — Weber's bureaucracy is an analytical whole, not a checklist where majority compliance suffices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the authority of a village sarpanch elected under the Panchayati Raj system with that of a Block Development Officer (BDO) in terms of Weber's three types of legitimate authority. Explain why the BDO's authority is a clearer instance of rational-legal authority.",
+     "a": "The sarpanch's authority blends rational-legal (election under constitutional provisions) with traditional (village customs, kinship expectations, personalistic leadership) and sometimes charismatic elements (personal magnetism, moral authority). The BDO's authority derives *solely* from legal appointment under state service rules, operates through written orders and files, is exercised within a fixed jurisdiction defined by law, and is subject to hierarchical appeal — all five bureaucratic features are institutionally mandated. The BDO represents rational-legal authority in its *pure* form because the *source* (legal enactment), *exercise* (rule-bound procedures), and *accountability* (hierarchical supervision) are all legally codified, whereas the sarpanch's authority remains embedded in the \"social fact\" of village community life. A wrong answer that labels the sarpanch as \"traditional\" and BDO as \"rational-legal\" without analysing the *hybrid* nature of the sarpanch's legitimacy shows inability to apply Weber's types as analytical tools to messy real-world cases — a skill board exams explicitly test.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Weber's bureaucracy is an efficient ideal; Indian government offices are inefficient because they deviate from this ideal.\" Use Weber's own conceptual distinction between the ideal type and empirical reality, and the distinction between *formal* and *substantive* rationality.",
+     "a": "The statement commits two errors. First, Weber's ideal type is *not* a normative ideal of efficiency — it is a methodological tool to measure empirical reality; real bureaucracies *always* deviate, and Weber himself warned that formal rationality (rule-following) can produce substantive irrationality (e.g., goal displacement, red tape). Second, Indian offices' inefficiencies (corruption, delay, nepotism) often stem from *over*-adherence to formal rules without substantive accountability, or from the *persistence* of traditional/charismatic authority *within* the bureaucratic shell (e.g., \"sarkari culture\" of patronage). A wrong answer that agrees \"yes, they should follow Weber's model to become efficient\" reveals a fundamental misreading: the student treats the ideal type as a prescription rather than an analytical benchmark, and conflates formal rationality with substantive effectiveness — a distinction central to Weber's sociology of rationalisation and frequently examined in 6-marker questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"ideal-typical\" bureaucratic procedure for issuing a domicile certificate in an Indian district collectorate, specifying how each of Weber's five features would be instantiated. Then, introduce one deliberate deviation in each feature that reflects a common Indian administrative reality (e.g., political interference, digital gaps, discretionary powers), and explain which type of authority (traditional/charismatic) each deviation reintroduces.",
+     "a": "Ideal-typical procedure: (i) Functioning: Clerk has fixed jurisdiction — only accepts applications with specified documents; (ii) Hierarchy: Application → Clerk → Superintendent → ADM → Collector (appeal at each level); (iii) Written Documents: Digital file with timestamped notes, no oral instructions; (iv) Office Management: Trained staff, standardised SOPs; (v) Conduct: Clerk follows service conduct rules, no private meetings with applicants. Deviations: (i) Clerk demands \"extra\" documents not in rules → traditional authority (customary practice); (ii) Applicant approaches MLA who calls Collector → charismatic/traditional authority (personal patronage); (iii) File moves physically, not digitally, causing delays → traditional authority (paper-based custom); (iv) Clerk appointed on compassionate ground, untrained → traditional authority (kinship-based recruitment); (v) Clerk meets applicant at tea stall to \"expedite\" → charismatic authority (personal rapport replaces rule). A poor answer that lists deviations without linking each to a specific authority type shows inability to use Weber's typology as a diagnostic lens — the core competency this node builds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

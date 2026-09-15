@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_006",
+   "title": "c10_chem_cbse_02_006",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction between hydrochloric acid and sodium hydroxide. Name the salt formed.",
+     "a": "HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l). Salt formed: Sodium chloride (NaCl). A wrong answer like HCl + NaOH → NaCl + H₂ (gas) reveals the student confuses neutralisation with acid-metal reaction (c10_chem_cbse_02_004). Writing NaOH + HCl → NaOCl + H₂ shows confusion with redox or disproportionation. Forgetting (aq) and (l) state symbols indicates lack of attention to CBSE marking scheme requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the temperature of the solution rise when you mix dilute HCl and dilute NaOH, but not when you mix CH₃COOH and NH₄OH?",
+     "a": "Strong acid (HCl) and strong base (NaOH) dissociate completely, so H⁺ and OH⁻ combine directly releasing 57.1 kJ/mol. Weak acid (CH₃COOH) and weak base (NH₄OH) dissociate partially; energy is absorbed to break their bonds before H⁺ and OH⁻ can combine, so net heat release is less or negligible. A wrong answer like \"all neutralisation reactions release same heat\" reveals the misconception that neutralisation enthalpy is constant regardless of acid/base strength, ignoring the energy needed for ionisation of weak electrolytes.",
+     "self_check": true
+    },
+    {
+     "q": "25 mL of 0.1 M H₂SO₄ is neutralised by 50 mL of NaOH solution. Calculate the molarity of the NaOH solution. Show all steps.",
+     "a": "Step 1: Write balanced equation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O.\nStep 2: Moles of H₂SO₄ = M × V(L) = 0.1 × 0.025 = 0.0025 mol.\nStep 3: Mole ratio H₂SO₄:NaOH = 1:2, so moles NaOH needed = 0.0025 × 2 = 0.005 mol.\nStep 4: Molarity NaOH = moles/volume(L) = 0.005 / 0.050 = 0.1 M.\nAnswer: 0.1 M. A wrong answer of 0.05 M reveals the student used 1:1 mole ratio ignoring the diprotic nature of H₂SO₄ — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the salts formed when (a) HCl reacts with NaOH, (b) H₂SO₄ reacts with KOH, and (c) CH₃COOH reacts with NH₄OH. Classify each salt as normal/acidic/basic and predict the pH of their aqueous solutions.",
+     "a": "(a) NaCl — normal salt from strong acid + strong base → pH = 7 (neutral).\n(b) K₂SO₄ — normal salt from strong acid + strong base → pH = 7 (neutral).\n(c) CH₃COONH₄ — normal salt from weak acid + weak base → pH ≈ 7 (slightly acidic/basic depending on relative Ka/Kb, but approximately neutral for acetic acid/ammonia).\nA wrong answer claiming CH₃COONH₄ is strongly basic reveals confusion with salts of weak acid + strong base (like CH₃COONa). Writing K₂SO₄ as acidic salt shows misunderstanding of \"normal salt\" vs \"acidic salt\" (like KHSO₄).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the ionic equation for HNO₃ + KOH → KNO₃ + H₂O as: H⁺ + NO₃⁻ + K⁺ + OH⁻ → K⁺ + NO₃⁻ + H₂O. The teacher says this is the complete ionic equation, not the net ionic equation. Identify the error and write the correct net ionic equation.",
+     "a": "The student did not cancel spectator ions (K⁺ and NO₃⁻) that appear unchanged on both sides. Correct net ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l). A wrong answer keeping K⁺ and NO₃⁻ shows the student cannot distinguish between complete and net ionic equations — a specific CBSE requirement. Writing H₃O⁺ + OH⁻ → 2H₂O is also accepted but H⁺ + OH⁻ → H₂O is the standard CBSE form.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that neutralisation between HCl and NaOH is exothermic, using only a thermometer, two beakers, and the solutions. List the steps, what you would measure, and how you would conclude.",
+     "a": "Steps: (1) Measure 50 mL each of 1M HCl and 1M NaOH at room temperature. (2) Record initial temperature of both (should be same). (3) Pour NaOH into HCl in a beaker, stir, record maximum temperature reached. (4) Calculate ΔT = T_final - T_initial. (5) Repeat with water instead of NaOH as control. Conclusion: If ΔT > 0 for acid-base mix but ≈0 for water mix, reaction is exothermic. A poor answer that doesn't include a control or doesn't specify equal concentrations/volumes reveals lack of experimental design understanding — a key competency in CBSE practical assessment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

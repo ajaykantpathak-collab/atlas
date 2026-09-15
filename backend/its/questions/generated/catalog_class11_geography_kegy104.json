@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy104",
+  "concepts": [
+    {
+      "id": "kegy.104.1.1",
+      "questions": [
+        {"q": "How many seasons does the Indian climate show in this scheme? (number)", "a": "4"},
+        {"q": "Which zone of converging trade winds shifts with the sun and steers the monsoon? (short form)", "a": "ITCZ"},
+        {"q": "Which high plateau's heating intensifies the Asian monsoon? (one word)", "a": "Tibetan"},
+        {"q": "Which upper-air winds, looping over the Himalaya, influence the monsoon's onset? (two words)", "a": "jet streams"},
+        {"q": "The monsoon reaches India in two branches, from the Arabian Sea and which bay? (three words)", "a": "Bay of Bengal"},
+        {"q": "What fundamental cause sets land and sea breezes and the monsoon alike in motion? (two words)", "a": "differential heating"},
+        {"q": "Name the season of heavy rains in the Indian four-season scheme. (two words)", "a": "advancing monsoon"}
+      ]
+    },
+    {
+      "id": "kegy.104.2.1",
+      "questions": [
+        {"q": "Which Meghalaya pair of stations records the world's highest rainfall? (two words)", "a": "Cherrapunji-Mawsynram"},
+        {"q": "On which side of the Western Ghats does very heavy rain fall: windward or leeward? (one word)", "a": "windward"},
+        {"q": "Which northwestern state receives the least rainfall in India? (one word)", "a": "Rajasthan"},
+        {"q": "Which ocean-warming event, tied to the southern oscillation, weakens the monsoon? (one word)", "a": "El Nino"},
+        {"q": "Does Indian rainfall vary greatly or little from year to year? (one word)", "a": "greatly"},
+        {"q": "The desertification of western Rajasthan reflects which rainfall class it falls in? (one word)", "a": "arid"},
+        {"q": "Which regional oscillation, abbreviated ENSO, couples with El Nino? (three words)", "a": "El Nino southern oscillation"}
+      ]
+    },
+    {
+      "id": "kegy.104.3.1",
+      "questions": [
+        {"q": "What type of climate does India have by its dominant weather system? (one word)", "a": "monsoon"},
+        {"q": "Weak monsoon years bring what agricultural hazard? (one word)", "a": "drought"},
+        {"q": "Strong monsoon years bring what hazard in the rivers? (one word)", "a": "floods"},
+        {"q": "Which sector of the Indian economy depends most directly on monsoon timing? (one word)", "a": "agriculture"},
+        {"q": "The Indian climate alternates between wet and what kind of seasons? (one word)", "a": "dry"},
+        {"q": "Does India's economy depend on the timing and variability of what? (one word)", "a": "rains"},
+        {"q": "Is the monsoon a single unchanging system or a variable one? (one word)", "a": "variable"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_005",
+   "title": "c12_acc_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define unrecorded assets and unrecorded liabilities in the context of dissolution of a partnership firm. Give one example of each.",
+     "a": "Unrecorded assets are assets not shown in the Balance Sheet (e.g., goodwill written off, patents, fully depreciated machinery still in use). Unrecorded liabilities are liabilities not recorded in the books (e.g., a contingent liability that becomes certain, an unrecorded creditor). A wrong answer (e.g., \"assets not yet sold\") reveals the student confuses unrecorded with unrealised; unrecorded means absent from books, not unsold.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why unrecorded assets are credited to Realisation Account and unrecorded liabilities are debited to Realisation Account. What is the logic behind this treatment?",
+     "a": "Realisation Account is a nominal account prepared to ascertain profit/loss on dissolution. Unrecorded assets bring in cash (income/gain) so they are credited; unrecorded liabilities require cash outflow (expense/loss) so they are debited. A wrong answer (e.g., \"assets are always debited\") shows the student applies the normal asset/liability rule instead of the nominal account rule for Realisation Account.",
+     "self_check": true
+    },
+    {
+     "q": "A firm dissolves. An unrecorded asset (goodwill) is sold for ₹40,000. An unrecorded liability of ₹15,000 is paid off. Pass the necessary journal entries.",
+     "a": "1. Bank A/c Dr. 40,000 → To Realisation A/c 40,000 (unrecorded asset sold)\n2. Realisation A/c Dr. 15,000 → To Bank A/c 15,000 (unrecorded liability paid)\nA wrong entry (e.g., debiting Goodwill A/c) reveals the student thinks we must first bring the asset into books; but on dissolution, we bypass asset accounts and go straight to Realisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries when an unrecorded asset is taken over by a partner vs. when it is sold for cash. How does the partner's capital account get affected?",
+     "a": "Sold for cash: Bank Dr. → Realisation Cr. Taken over: Partner's Capital A/c Dr. → Realisation Cr. In both cases Realisation is credited (gain), but in the second the partner's capital is debited (reducing their claim). A wrong answer (crediting partner's capital) shows confusion with asset takeover at agreed value where partner's capital is debited for the agreed amount.",
+     "self_check": true
+    },
+    {
+     "q": "A partner agrees to discharge an unrecorded liability of ₹25,000. The firm pays ₹20,000 cash to settle another unrecorded liability. Evaluate which treatment reduces the firm's cash outflow more and by how much. Justify with entries.",
+     "a": "Partner taking over liability: Realisation Dr. 25,000 → Partner's Capital Cr. 25,000 (no cash outflow). Firm paying: Realisation Dr. 20,000 → Bank Cr. 20,000 (cash outflow ₹20,000). Partner takeover saves ₹20,000 cash. A wrong evaluation (e.g., saying both reduce cash equally) shows the student doesn't distinguish between internal settlement and external payment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a dissolution scenario with two unrecorded assets and two unrecorded liabilities. Design journal entries for all four, ensuring at least one asset is taken over by a partner and one liability is discharged by a partner. Show the Realisation Account extract.",
+     "a": "Scenario: Unrecorded goodwill sold ₹30,000; unrecorded patent taken by Partner A ₹10,000; unrecorded legal claim paid ₹12,000; unrecorded tax liability taken by Partner B ₹8,000.\nEntries:\n1. Bank Dr. 30,000 → Realisation Cr. 30,000\n2. A's Capital Dr. 10,000 → Realisation Cr. 10,000\n3. Realisation Dr. 12,000 → Bank Cr. 12,000\n4. Realisation Dr. 8,000 → B's Capital Cr. 8,000\nRealisation A/c: Cr. side 40,000; Dr. side 20,000 → Net gain ₹20,000.\nA poor answer (missing entries or wrong sides) reveals inability to synthesize multiple treatments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

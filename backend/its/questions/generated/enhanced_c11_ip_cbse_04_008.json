@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_008",
+   "title": "c11_ip_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nt = (10, 20, 30, 20, 40)\nprint(t.count(20), t.index(20))\n```",
+     "a": "The output is `2 1`. `count(20)` returns 2 because 20 appears twice. `index(20)` returns 1 because the first occurrence is at index 1 (zero-based). A wrong answer like `2 0` reveals the student thinks indexing starts at 1; `1 1` reveals they think `count` returns the index of the first occurrence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when `index()` is called with an element that does not exist in the tuple, and why this behaviour is different from `count()` for the same missing element.",
+     "a": "`index()` raises a `ValueError` exception, halting the program unless caught, because it must report a position and there is no valid position for a missing element. `count()` returns 0, a perfectly valid integer meaning \"zero occurrences,\" so no error is needed. A student who says both return 0 or both raise an error has not grasped that `index()` is a search-for-position operation while `count()` is a frequency operation.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = ('a', 'b', 'a', 'c', 'a')`, write a single statement that prints the index of the *second* occurrence of `'a'` without using a loop.",
+     "a": "`print(data.index('a', data.index('a') + 1))` → outputs `2`. The inner `index('a')` finds the first occurrence at 0; adding 1 starts the second search at index 1, so the outer `index('a', 1)` finds the next `'a'` at index 2. A student who writes `data.index('a', 1)` directly hard-codes the start position and fails if the first occurrence moves; this reveals they don't understand chaining `index` calls dynamically.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of `count(x)` and `index(x)` on a tuple of length *n* where *x* is not present. Which is faster in practice and why?",
+     "a": "Both are O(*n*) worst-case because both must scan the entire tuple. In practice `index(x)` may be slightly faster because it stops immediately when *x* is found, whereas `count(x)` always scans the whole tuple. For a missing element both scan fully, so they take nearly identical time. A student claiming `count` is O(1) or `index` is O(log n) confuses tuple search with dictionary lookup or binary search on sorted data.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following function to safely find an index:\n```python\ndef safe_index(tup, val):\n    if val in tup:\n        return tup.index(val)\n    return -1\n```\nCritique this code: is it correct, efficient, and Pythonic? Suggest an improvement if needed.",
+     "a": "The code is correct but inefficient: it scans the tuple twice (once for `in`, once for `index`). A more Pythonic and efficient version uses a try-except block:\n```python\ndef safe_index(tup, val):\n    try:\n        return tup.index(val)\n    except ValueError:\n        return -1\n```\nThis scans at most once. A student who defends the original code as \"readable\" misses the performance implication for large tuples; a student who suggests `tup.index(val) if val in tup else -1` repeats the same double-scan flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use both `count()` and `index()` on the same tuple in a single program. Write the tuple literal and the two method calls with comments explaining what each result represents.",
+     "a": "Scenario: A metro train records the station codes where it stops in a day.\n```python\nstops = ('NDLS', 'DBG', 'NDLS', 'PNBE', 'NDLS', 'LKO')  # NDLS = New Delhi\nprint(stops.count('NDLS'))   # 3 → number of halts at New Delhi\nprint(stops.index('NDLS'))   # 0 → first halt is at New Delhi (origin)\n```\nA good answer uses a plausible domain, defines the tuple clearly, and explains both results. A poor answer uses abstract numbers like `(1,2,1)` without context, showing inability to map the concept to reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

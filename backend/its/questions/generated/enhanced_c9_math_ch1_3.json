@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_3",
+   "title": "c9_math_ch1_3",
+   "questions": [
+    {
+     "q": "What are the signs of the coordinates of a point lying in the third quadrant?",
+     "a": "The signs are (−, −). Both x and y coordinates are negative. A wrong answer like (+, −) or (−, +) reveals the student has memorised the quadrant order incorrectly or confuses the x/y sign correspondence. They may be recalling the sequence I(+,+), II(−,+), III(−,−), IV(+,-) but misordering the quadrants (e.g., thinking III is bottom-right).",
+     "self_check": true
+    },
+    {
+     "q": "A point has coordinates (−5, 0). In which quadrant does it lie? Explain why.",
+     "a": "The point (−5, 0) lies on the negative x-axis, not in any quadrant. A quadrant requires both coordinates to be non-zero. If a student says \"Quadrant II because x is negative and y is zero\", they misunderstand that axes are boundaries between quadrants, not part of them. This misconception often leads to errors in later problems where axis points are excluded from quadrant-based case analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Plot the points P(2, −3), Q(−4, −1), R(−2, 5), S(3, 4) on a Cartesian plane. Write the quadrant for each point.",
+     "a": "Step 1: Identify signs of each point. P(+,−) → Quadrant IV. Q(−,−) → Quadrant III. R(−,+) → Quadrant II. S(+,+) → Quadrant I. Step 2: Verify by mental plotting: P right 2, down 3 → IV; Q left 4, down 1 → III; R left 2, up 5 → II; S right 3, up 4 → I. A wrong answer like placing Q in IV reveals the student ignores the sign of y or confuses left/right with up/down. They may be reading coordinates as (y, x) instead of (x, y).",
+     "self_check": true
+    },
+    {
+     "q": "If a point (a, b) lies in Quadrant II, what can you say about the signs of a and b? If the same point is reflected across the y-axis, in which quadrant will its image lie? Justify.",
+     "a": "In Quadrant II, a < 0 (negative) and b > 0 (positive). Reflection across the y-axis changes the sign of x: image is (−a, b). Since a < 0, −a > 0. So the image has coordinates (+, +) and lies in Quadrant I. A wrong answer like \"Quadrant III\" reveals the student thinks reflection across y-axis changes both signs, or they confuse reflection across y-axis with reflection across origin. They may not connect the algebraic sign change to the geometric transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The point (−3, −4) is in Quadrant IV because both numbers are negative and 4 > 3.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Quadrant III, not IV. The student's reasoning uses the magnitude comparison (4 > 3) which is irrelevant for quadrant determination; only signs matter. The error reveals a misconception that the larger absolute value determines the quadrant, or confusion between Quadrant III (−,−) and Quadrant IV (+,−). They may be misremembering the mnemonic \"All Students Take Calculus\" (ASTC) for trigonometric signs and misapplying it to coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where identifying the quadrant of a coordinate is necessary. Define the origin, axes directions, and give coordinates for at least two locations in different quadrants. Explain why quadrant identification matters in your scenario.",
+     "a": "Example: A drone delivery service in Bengaluru uses a warehouse as origin (0,0). North is +y, East is +x. Location A: a hospital 5 km West, 3 km North → (−5, 3) Quadrant II. Location B: a school 4 km East, 2 km South → (4, −2) Quadrant IV. Quadrant identification matters because the drone's navigation software uses quadrant-specific turning algorithms (e.g., NW vs SE sectors have different no-fly zones). A good answer includes clear origin, axis definitions, coordinates with correct signs, distinct quadrants, and a plausible reason why quadrant matters (routing, regulations, signal sectors). A poor answer uses vague directions, puts both points in same quadrant, or gives a trivial reason like \"to know where it is\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

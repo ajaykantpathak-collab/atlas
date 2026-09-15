@@ -1,0 +1,413 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 113,
+ "chapter_title": "Poetry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lekl113.txt",
+ "concepts": [
+  {
+   "id": "lekl.113.1",
+   "title": "Metaphysical Poetry Characteristics",
+   "section": "John Donne",
+   "definition": "A style of poetry marked by intellectual wit, complex metaphors, and the use of startling imagery to provoke deep thought rather than just emotional response.",
+   "formula": "metaphysical_impact = intellect + startling_imagery",
+   "key_idea": "Prioritizing the intellect and analytical wit over raw sentimentality.",
+   "textbook_ref": "lekl113.txt lines 35-50",
+   "question_patterns": [
+    "What are the features of metaphysical poetry?",
+    "How does Donne's work reflect the metaphysical mode?",
+    "Explain the emphasis on intellect in Donne's poems.",
+    "Describe the total effect of a metaphysical poem."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify imagery",
+     "explain": "Look for unconventional or direct utterances and startling metaphors."
+    },
+    {
+     "step": 2,
+     "action": "Analyze focus",
+     "explain": "Determine if the poem emphasizes intellectual wit over simple emotion."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.2",
+   "title": "Metaphorical Shadow Progression",
+   "section": "A Lecture Upon the Shadow",
+   "definition": "The use of shadows to represent the growth and decay of love, where noon signifies the peak of honesty and clarity.",
+   "formula": "shadow_intensity = abs(12 - current_hour)",
+   "key_idea": "Shadows grow longer as love moves away from its peak of mutual transparency.",
+   "textbook_ref": "lekl113.txt lines 55-85",
+   "question_patterns": [
+    "Calculate the symbolic intensity of shadows at {current_hour}",
+    "How do shadows change before and after noon in the poem?",
+    "What is the relationship between the sun's position and love's clarity?",
+    "How much does the shadow deviate from noon at {current_hour}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find distance from noon",
+     "explain": "Noon (12) is the point of zero shadows; calculate the absolute difference.",
+     "compute": "shadow_intensity = abs(12 - current_hour)"
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.3",
+   "title": "Temporal vs Eternal Existence",
+   "section": "On Time",
+   "definition": "The distinction between the fleeting, material world (temporal) and the everlasting, divine realm (eternal).",
+   "formula": "eternity = truth + peace + love",
+   "key_idea": "Time only consumes what is mortal and false, while goodness remains forever.",
+   "textbook_ref": "lekl113.txt lines 140-165",
+   "question_patterns": [
+    "What things are associated with the temporal in Milton's poem?",
+    "How does the poet contrast the 'leaden-stepping hours' with eternity?",
+    "What is the final outcome of the race against time?",
+    "Identify the divine qualities that shine forever."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize elements",
+     "explain": "Separate material 'dross' from divine virtues like Truth and Love."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the victor",
+     "explain": "Recognize that the soul triumphs over Death and Time through divinity."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.4",
+   "title": "Poetic Metre and Feet",
+   "section": "Language Work (Blake)",
+   "definition": "The rhythmic structure of a verse, measured by the number of syllables and their stress patterns.",
+   "formula": "poetic_feet = total_syllables / 2",
+   "key_idea": "A foot is typically composed of two syllables, one stressed and one unstressed.",
+   "textbook_ref": "lekl113.txt lines 285-295",
+   "question_patterns": [
+    "If a line has {total_syllables} syllables, how many poetic feet are there?",
+    "Calculate the number of feet in a verse with {total_syllables} syllables.",
+    "How many feet are in the first line of 'The Divine Image'?",
+    "Determine the metre based on a syllable count of {total_syllables}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide syllables by two",
+     "explain": "Since two syllables constitute one foot, divide the total count by 2.",
+     "compute": "poetic_feet = total_syllables / 2"
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.5",
+   "title": "Innocence vs Experience",
+   "section": "Poems by Blake",
+   "definition": "Two contrary states of the human soul where innocence represents divine virtues and experience represents their social distortion.",
+   "formula": "experience_distortion = virtue + social_cruelty",
+   "key_idea": "Virtues like Pity and Mercy only exist in 'Experience' because of poverty and unhappiness.",
+   "textbook_ref": "lekl113.txt lines 215-260",
+   "question_patterns": [
+    "Contrast the depiction of human beings in Songs of Innocence and Experience.",
+    "How does 'The Human Abstract' mirror 'The Divine Image'?",
+    "Explain how Mercy and Pity get distorted in the human brain.",
+    "What does the 'Tree' in the human brain represent?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the virtue",
+     "explain": "Locate the core human virtue (e.g., Pity) in the text."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the condition",
+     "explain": "Determine if the virtue is presented as a natural divine trait or a result of suffering."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.6",
+   "title": "Romantic Supernaturalism",
+   "section": "Kubla Khan",
+   "definition": "A literary approach that presents fantastical or supernatural elements as if they were tangible and real.",
+   "formula": "romantic_vision = dream_imagery + nature_sublime",
+   "key_idea": "The fusion of subconscious dream images with factual reading to create a surreal landscape.",
+   "textbook_ref": "lekl113.txt lines 310-340",
+   "question_patterns": [
+    "How does Coleridge mix the real and imaginary in Kubla Khan?",
+    "What makes the pleasure-dome a 'miracle of rare device'?",
+    "Identify the magical elements in the poem.",
+    "Describe the effect of the 'interruption' on the poem's structure."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Extract imagery",
+     "explain": "Find images like 'caverns measureless' or 'sunless sea'."
+    },
+    {
+     "step": 2,
+     "action": "Identify juxtapositions",
+     "explain": "Look for opposites like 'sunny dome' and 'caves of ice'."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.7",
+   "title": "Pleasure Dome Dimensions",
+   "section": "Kubla Khan",
+   "definition": "The physical extent of the fertile ground enclosed for the Mongol ruler's retreat.",
+   "formula": "total_miles = 2 * unit_miles",
+   "key_idea": "The poem specifies a precise measurement for the enclosed fertile ground.",
+   "textbook_ref": "lekl113.txt lines 345-350",
+   "question_patterns": [
+    "What is the total mileage of fertile ground if it is 'twice {unit_miles}'?",
+    "Calculate the distance girdled round by walls in Xanadu.",
+    "How many miles of ground were enclosed for the dome?",
+    "Find the total distance given the multiplier of two and {unit_miles}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the multiplier",
+     "explain": "The text states 'twice five miles', so multiply the unit by 2.",
+     "compute": "total_miles = 2 * unit_miles"
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.8",
+   "title": "Poetic Delineation of Nature",
+   "section": "The Trees like Tasseles hit",
+   "definition": "The use of vivid, unconventional imagery and punctuation to describe natural phenomena more accurately than visual art.",
+   "formula": "delineation = observation + unusual_imagery",
+   "key_idea": "Great poetry stems from the meticulous observation of the natural world.",
+   "textbook_ref": "lekl113.txt lines 430-460",
+   "question_patterns": [
+    "How does Dickinson use imagery to describe a summer day?",
+    "What is meant by 'Vandyke’s Delineation' in the poem?",
+    "Explain the metaphor of 'Hindered Flags'.",
+    "How does the poet attribute human qualities to creatures?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze metaphors",
+     "explain": "Examine how nature is compared to man-made objects like tassels or flags."
+    },
+    {
+     "step": 2,
+     "action": "Observe punctuation",
+     "explain": "Note the use of dashes to represent the rhythm of natural movement."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.9",
+   "title": "Swan Population Count",
+   "section": "The Wild Swans at Coole",
+   "definition": "The specific count of swans observed by the poet, representing nature's unchanging vitality.",
+   "formula": "total_swans = base_count + extra_units",
+   "key_idea": "The poet records a precise number of swans to contrast with his own aging.",
+   "textbook_ref": "lekl113.txt lines 490-495",
+   "question_patterns": [
+    "How many swans did the poet count on the water?",
+    "Calculate the total swans if there are {base_count} and {extra_units}.",
+    "What is the significance of the number 'nine-and-fifty'?",
+    "Find the sum of {base_count} and {extra_units} swans."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the components",
+     "explain": "Add the base number to the extra units mentioned in the verse.",
+     "compute": "total_swans = base_count + extra_units"
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.10",
+   "title": "Communal Time Discord",
+   "section": "Time and Time Again",
+   "definition": "The concept that human-made systems of time and religion are often out of sync, unlike the precision of nature.",
+   "formula": "discord = clock_variance + communal_feuds",
+   "key_idea": "Clocktowers in a city reflect human divisions and the 'accidents' of history.",
+   "textbook_ref": "lekl113.txt lines 560-585",
+   "question_patterns": [
+    "Why are the clocktowers 'slightly off' each other's time?",
+    "What causes the differences in timekeeping in Ramanujan's poem?",
+    "How does the poet view communal disharmony?",
+    "Why is an act of nature described as 'precise' compared to human clocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify causes of variance",
+     "explain": "Look for factors like 'maker's shaking hand' or 'commemorating a donor's whim'."
+    },
+    {
+     "step": 2,
+     "action": "Contrast with nature",
+     "explain": "Note how lightning or riots silence the clocks, revealing a different 'precision'."
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.11",
+   "title": "Ancestral House Longevity",
+   "section": "Blood",
+   "definition": "The calculation of the age of a family heritage site as it undergoes physical decay.",
+   "formula": "current_age = initial_age + years_passed",
+   "key_idea": "The house's age symbolizes the weight of tradition and 'old blood'.",
+   "textbook_ref": "lekl113.txt lines 620-635",
+   "question_patterns": [
+    "If the house was {initial_age} years old and {years_passed} have passed, what is its age?",
+    "Calculate the total age of the ancestral house.",
+    "How old is the house mentioned by the great-grandmother?",
+    "Find the current age of a structure that was {initial_age} years old during childhood."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add elapsed years",
+     "explain": "Add the years passed since the initial measurement to find the current age.",
+     "compute": "current_age = initial_age + years_passed"
+    }
+   ]
+  },
+  {
+   "id": "lekl.113.12",
+   "title": "Etymology and Orthography",
+   "section": "Language Study",
+   "definition": "The study of the historical origins of words and the evolution of their spelling over time.",
+   "formula": "etymology = history + derivation",
+   "key_idea": "English spelling has evolved, often dropping letters like the silent 'e' from the 17th century.",
+   "textbook_ref": "lekl113.txt lines 115-130, 200-210",
+   "question_patterns": [
+    "What is etymology?",
+    "Identify words in Donne's poem with archaic orthography.",
+    "How has the spelling of 'Sunne' or 'noone' changed?",
+    "What percentage of English words are of French origin?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace word origin",
+     "explain": "Look for the linguistic roots (e.g., Middle English or French) in dictionary notes."
+    },
+    {
+     "step": 2,
+     "action": "Compare spellings",
+     "explain": "Identify dropped letters or changes in apostrophe usage compared to modern English."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl113.txt lines 285-295",
+   "concept": "lekl.113.4",
+   "question_type": "compute",
+   "question_pattern": "A line in a poem has {total_syllables} syllables. Calculate the number of poetic feet.",
+   "extracted_variables": {
+    "total_syllables": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide syllables by two",
+     "explain": "A poetic foot consists of two syllables.",
+     "compute": "poetic_feet = total_syllables / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl113.txt lines 490-495",
+   "concept": "lekl.113.9",
+   "question_type": "compute",
+   "question_pattern": "The poet sees {base_count} and {extra_units} swans on the water. What is the total count?",
+   "extracted_variables": {
+    "base_count": "50",
+    "extra_units": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the counts",
+     "explain": "Add the two numbers to get the total swan population.",
+     "compute": "total_swans = base_count + extra_units"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "lekl113.txt lines 90-105",
+   "questions": [
+    "How do the shadows before noon differ from the shadows after noon?",
+    "What do the two kinds of shadow represent in Donne's philosophy of love?",
+    "Why does the poet call the poem 'A Lecture Upon the Shadow' instead of love?"
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "lekl113.txt lines 175-185",
+   "questions": [
+    "Why does Milton feel it is not necessary to put up a monument in stone for Shakespeare?",
+    "What does the 'weak witness of thy name' refer to?",
+    "How is Shakespeare described as a source of inspiration for succeeding generations?"
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "lekl113.txt lines 270-280",
+   "questions": [
+    "How are the two matched poems by Blake related to each other in content?",
+    "Explain the line: 'For Mercy has a human heart, Pity a human face'.",
+    "How do Mercy, Pity, Peace and Love get distorted in the human brain?"
+   ]
+  },
+  {
+   "id": "ex4.1",
+   "source_ref": "lekl113.txt lines 390-405",
+   "questions": [
+    "Does the poem Kubla Khan have a real geographical location?",
+    "What is poetic ecstasy likened to in the final stanza?",
+    "Identify the discordant note heard at the end of the third stanza."
+   ]
+  },
+  {
+   "id": "ex8.1",
+   "source_ref": "lekl113.txt lines 740-755",
+   "questions": [
+    "What makes the depiction of a crumbling village house authentic in 'Blood'?",
+    "Which lines reveal the poet’s criticism of class distinctions?",
+    "Explain the conflict in the poet’s conscience regarding the ancestral house."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

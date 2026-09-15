@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class8_social_ch1",
+ "concepts": [
+  {
+   "id": "c8ss.1.1",
+   "title": "Types of Natural Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Natural Resources' refers to.",
+     "a": "Natural resources are materials obtained from nature that satisfy human needs. They are classified as renewable (replenish naturally) and non-renewable (finite, cannot be replenished quickly).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Natural Resources'.",
+     "a": "Resources are grouped by whether they naturally renew within a human timescale.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Types of Natural Resources'.",
+     "a": "classify a given resource as renewable or non-renewable",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.2",
+   "title": "Renewable Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Renewable Resources' refers to.",
+     "a": "Renewable resources are those that can be replenished naturally over a short period of time, such as sunlight, wind, water, and biomass.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Renewable Resources'.",
+     "a": "Renewable resources flow continuously or regenerate within a human timescale when used sustainably.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Renewable Resources'.",
+     "a": "list five examples of renewable resources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.3",
+   "title": "Non-Renewable Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Renewable Resources' refers to.",
+     "a": "Non-renewable resources are those that exist in fixed quantities and cannot be replenished once used, such as coal, petroleum, and natural gas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Renewable Resources'.",
+     "a": "Non-renewable resources form over geological time and are exhausted with use.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Non-Renewable Resources'.",
+     "a": "classify a resource as non-renewable with reasons",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.4",
+   "title": "Forests and Their Conservation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Forests and Their Conservation' refers to.",
+     "a": "Forests are large areas covered chiefly with trees that provide timber, fuel, fodder, and maintain ecological balance. Conservation means using forests wisely and replanting to ensure their continued availability.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forests and Their Conservation'.",
+     "a": "Forests are renewable only if the rate of use does not exceed the rate of regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Forests and Their Conservation'.",
+     "a": "explain the importance of forests",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.5",
+   "title": "Water Resources",
+   "questions": [
+    {
+     "q": "Using the method 'Water Resources', work with: fresh_water = 5, total_water = 75. Carry the chain through step by step and give the final value of fraction.",
+     "a": "0.0667 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Water Resources' and work with: fresh_water = 150, total_water = 100. Carry the chain through step by step and give the final value of fraction.",
+     "a": "1.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Water Resources' refers to.",
+     "a": "Water resources include all forms of water available for human use -- surface water (rivers, lakes), groundwater, and rainwater. Fresh water is a small fraction of total water on Earth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Water Resources'.",
+     "a": "Only about 3% of Earth's water is fresh, and much of it is locked in ice; hence water must be conserved.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Water Resources', in plain ASCII form.",
+     "a": "fresh_water_fraction = fresh_water / total_water",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.6",
+   "title": "Mineral Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mineral Resources' refers to.",
+     "a": "Mineral resources are naturally occurring substances obtained from the Earth's crust, such as iron ore, copper, bauxite, and limestone. They are non-renewable and formed over millions of years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mineral Resources'.",
+     "a": "Minerals are finite and non-renewable, so they must be used judiciously and recycled where possible.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Mineral Resources'.",
+     "a": "classify minerals as metallic or non-metallic",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.7",
+   "title": "Land Resources and Soil",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Land Resources and Soil' refers to.",
+     "a": "Land resources include the soil and terrain used for agriculture, forestry, and settlement. Soil is the upper layer of land that supports plant growth and is formed slowly by weathering of rocks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Resources and Soil'.",
+     "a": "Soil forms very slowly, so erosion must be controlled to keep land productive.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Land Resources and Soil', in plain ASCII form.",
+     "a": "soil_formation_rate ~ 1 cm per 1000 years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.8",
+   "title": "Conventional Energy Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Conventional Energy Resources' refers to.",
+     "a": "Conventional energy resources are traditional sources such as coal, petroleum, natural gas, and hydropower that have been used for a long time. Most are non-renewable except hydropower.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Conventional Energy Resources'.",
+     "a": "Conventional sources are widely used but most are finite and polluting.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Conventional Energy Resources'.",
+     "a": "list conventional sources of energy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.9",
+   "title": "Non-Conventional Energy Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Conventional Energy Resources' refers to.",
+     "a": "Non-conventional energy resources are renewable and cleaner alternatives such as solar energy, wind energy, biogas, and tidal energy that have been developed more recently.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Conventional Energy Resources'.",
+     "a": "Non-conventional sources are renewable and cause less pollution, making them sustainable long-term options.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Non-Conventional Energy Resources'.",
+     "a": "list non-conventional sources of energy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.10",
+   "title": "Sustainable Development and Conservation of Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sustainable Development and Conservation of Resources' refers to.",
+     "a": "Sustainable development means using resources at a rate that meets present needs without compromising the ability of future generations to meet their needs. Conservation is the careful and planned use of resources to prevent depletion.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sustainable Development and Conservation of Resources'.",
+     "a": "Resources must be used so that they last for future generations; the three R's -- reduce, reuse, recycle -- guide conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sustainable Development and Conservation of Resources', in plain ASCII form.",
+     "a": "sustainable = use_rate <= regeneration_rate",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

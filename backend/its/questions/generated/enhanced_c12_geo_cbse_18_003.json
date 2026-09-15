@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_003",
+   "title": "c12_geo_cbse_18_003",
+   "questions": [
+    {
+     "q": "A researcher wants to map the spatial distribution of informal street vendors in a 2 km² market area of Jaipur. Which primary data method is MOST appropriate for capturing both location coordinates and vendor socioeconomic profile simultaneously, and why?",
+     "a": "Schedule (enumerator-administered questionnaire) with GPS tagging. A schedule allows the trained enumerator to record GPS coordinates (location) while simultaneously asking structured questions about income, caste, licence status, and working hours (socioeconomic profile) — even if the vendor is illiterate. A self-administered questionnaire fails with illiterate respondents; interview alone lacks systematic spatial recording; personal observation cannot capture income or licence data. Wrong answer reveals confusion between questionnaire/schedule distinction (NCERT: \"respondent himself/herself fills up the questionnaires, whereas a properly trained enumerator himself fills up schedules\") and inability to match method to field constraints (literacy, spatial + attribute data needs).",
+     "self_check": true
+    },
+    {
+     "q": "During a field survey of soil erosion in the Chambal ravines, a student records gully depth at 50 points using a ranging rod. The student later realizes all measurements were taken at midday in May. Explain how this timing introduces a systematic error in the data and which NCERT \"personal observation\" requirement is violated.",
+     "a": "Midday May heat causes ranging rod thermal expansion (metal expands ~12 µm/m/°C; at 45°C vs 25°C calibration, a 3 m rod elongates ~0.72 mm — negligible for gully depth but indicates uncontrolled conditions). More critically, the NCERT requirement \"the person(s) involved must have theoretical knowledge of the subject and scientific attitude for unbiased evaluation\" is violated: a scientifically trained observer would standardize measurement time (early morning) or apply temperature correction. Wrong answer reveals students treat field observation as mere \"looking\" rather than disciplined measurement with controlled conditions, missing the NCERT emphasis on theoretical knowledge + scientific attitude.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-item interview schedule (not questionnaire) to investigate the impact of groundwater depletion on cropping pattern shift in a Punjab village. Include one question each for: (a) quantitative water table depth, (b) crop history (last 5 years), (c) adaptation strategy, (d) institutional support, (e) perception of future. Write the exact wording for each.",
+     "a": "(a) \"What was the depth to water level (in feet below ground) in your tubewell in June of each of the last five years? Please state year and depth.\" (b) \"List the crops you cultivated in kharif and rabi seasons for each of the last five years.\" (c) \"What changes have you made in irrigation method, crop choice, or area cultivated because of falling water table?\" (d) \"Have you received any government subsidy, technical advice, or credit for water-saving technology (drip, laser leveling, direct-seeded rice) in the last three years? Specify.\" (e) \"How do you expect the water situation to change in the next five years, and will you continue farming the same way?\" Each question is open-ended but structured for enumerator recording — hallmark of a schedule. Wrong answer (e.g., multiple-choice boxes) reveals confusion with questionnaire format; missing \"last five years\" shows inability to design for temporal trend capture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the data quality risks of using a mailed questionnaire versus a face-to-face schedule for a literacy-rate survey in a tribal block of Chhattisgarh where 40% adults are illiterate. Analyse across four dimensions: (i) response rate, (ii) comprehension accuracy, (iii) social desirability bias, (iv) spatial coverage.",
+     "a": "(i) Mailed questionnaire: near-zero response from illiterate 40%; schedule: high response as enumerator reads/questions. (ii) Mailed: literate respondents may misinterpret questions without clarification; schedule: enumerator explains terms (e.g., \"literate\" = can read/write with understanding). (iii) Mailed: lower social desirability bias (anonymous); schedule: higher bias (enumerator presence may inflate literacy claims). (iv) Mailed: can reach remote hamlets cheaply but only literate households respond; schedule: enumerator must travel, limiting coverage but capturing all. Wrong answer reveals failure to apply the NCERT limitation \"only the literate and educated people can be approached\" for questionnaires and the schedule advantage \"information from both literate and illiterate respondents can be collected\" to a real demographic context.",
+     "self_check": true
+    },
+    {
+     "q": "A geography practical exam asks: \"You have 3 days and 2 student assistants to collect primary data on urban heat island intensity across 15 wards of Bhopal. Evaluate whether personal observation with infrared thermometers OR mobile-based questionnaire to residents is more valid for measuring actual surface temperature differentials. Justify with three validity threats for the rejected method.\"",
+     "a": "Personal observation with infrared thermometers is more valid for surface temperature differentials. Mobile questionnaire to residents measures perceived heat, not physical temperature — three validity threats: (1) Construct validity: residents report subjective thermal comfort influenced by acclimatization, housing type, activity, not land surface temperature (LST). (2) Recall bias: residents average experience over days/weeks; UHI requires simultaneous spatial snapshot. (3) Sampling bias: smartphone ownership skews toward higher-income, cooler neighborhoods (better vegetation, AC), missing slum heat exposure. Wrong answer choosing questionnaire reveals confusion between measuring a physical phenomenon (LST) vs. human perception — a fundamental geographical distinction between physical and human data streams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a field survey protocol (max 8 steps) for a Class 12 project on \"Changing Land Use in Peri-Urban Fringe of Your City\" that integrates: (a) transect walk observation, (b) key informant interviews (sarpanch, real estate agent, farmer), (c) GPS-tagged photo documentation, (d) secondary cadastral map verification. Ensure each step references an NCERT precaution or principle.",
+     "a": "1. Obtain latest cadastral map (secondary source, c12_geo_cbse_18_004) and overlay satellite imagery — base for transect design. 2. Stratify fringe into 3 zones (agricultural, transition, built-up) using map — ensures spatial representativeness (scientific attitude). 3. Conduct transect walk in each zone at 10 AM; record land use, crop type, construction activity on pre-coded checklist (personal observation with theoretical knowledge). 4. At each zone boundary, photograph with GPS-enabled camera; tag photo ID in checklist (other methods: transducers/cameras). 5. Interview sarpanch using schedule: \"What land conversion permissions were granted in last 3 years?\" — enumerator fills, assures confidentiality (precautions iii, viii). 6. Interview farmer: \"Why did you sell/lease land? What compensation?\" — simple language, congenial atmosphere (precautions iv, v). 7. Interview real estate agent: \"Current price per bigha? Buyer profile?\" — avoid sensitive religious/caste questions (precaution vi). 8. Cross-verify observed land use with cadastral map; note discrepancies for report — triangulation (data quality, c12_geo_cbse_18_008). Good answer integrates all four components with NCERT language; poor answer lists steps without linking to precautions or principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

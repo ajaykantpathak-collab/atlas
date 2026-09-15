@@ -1,0 +1,127 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Atomic Foundations of Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.109.9.1",
+   "title": "Laws of Chemical Combination",
+   "section": "9",
+   "definition": "Chemical reactions obey fixed rules: the law of conservation of mass keeps the total mass of reactants and products equal, and the law of constant proportions keeps the elements of a compound in one fixed ratio by mass in every sample.",
+   "formula": "-",
+   "key_idea": "Mass is never lost and ratios never drift: two laws that anchor all chemistry.",
+   "textbook_ref": "iesc109.txt sections on laws of chemical combination",
+   "question_patterns": [
+    "state the law of conservation of mass with an example",
+    "state the law of constant proportions",
+    "verify the conservation of mass for the given reaction data",
+    "why does every sample of water have the same hydrogen-oxygen ratio",
+    "apply the laws to check the given reaction",
+    "explain how Dalton's theory explains these laws"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "weigh reactants and products",
+     "explain": "Conservation of mass demands equal totals on both sides."},
+    {"step": 2, "action": "check the composition ratio",
+     "explain": "Constant proportions demands the same element ratio in every sample."},
+    {"step": 3, "action": "link to atoms",
+     "explain": "Atoms rearrange without loss, which secures both laws."}
+   ]
+  },
+  {
+   "id": "iesc.109.9.2",
+   "title": "Atoms, Molecules and Ions",
+   "section": "9",
+   "definition": "An atom is the smallest particle of an element, a molecule is a group of atoms bonded together - like the two-atom molecules of oxygen and hydrogen - and charged species called ions, cations and anions, arise when atoms gain or lose electrons.",
+   "formula": "-",
+   "key_idea": "Atoms build molecules; gaining or losing electrons turns them into ions.",
+   "textbook_ref": "iesc109.txt sections on atoms, molecules and ions",
+   "question_patterns": [
+    "differentiate an atom and a molecule with examples",
+    "what is an ion - differentiate cation and anion",
+    "why is oxygen written as O2 - explain",
+    "define atomicity of a molecule with examples",
+    "name the ions present in the given compound",
+    "how do atoms gain or lose electrons to form ions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the unit",
+     "explain": "Decide whether the species is a single atom, a molecule or an ion."},
+    {"step": 2, "action": "count the atoms",
+     "explain": "Atomicity counts atoms per molecule, as 2 for oxygen."},
+    {"step": 3, "action": "track the charge",
+     "explain": "Electron loss gives cations, electron gain gives anions."}
+   ]
+  },
+  {
+   "id": "iesc.109.9.3",
+   "title": "Writing Chemical Formulae",
+   "section": "9",
+   "definition": "Chemical formulae are written by the valency criss-cross method: the valencies of the ions or atoms swap places as subscripts, so the formula carries the fixed ratio in which the elements combine - as in water, H2O.",
+   "formula": "-",
+   "key_idea": "Valencies cross over to become subscripts - the charge balance writes the formula.",
+   "textbook_ref": "iesc109.txt sections on writing chemical formulae",
+   "question_patterns": [
+    "write the chemical formula of the given compound using the criss-cross method",
+    "what is the valency of the given element or ion",
+    "derive the formula of the compound from the given ions",
+    "why is the formula of water H2O and not HO2 - explain",
+    "write the formulae of the given ionic compounds",
+    "check the charge balance of the given formula"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write the symbols and valencies",
+     "explain": "List each ion with its charge or valency."},
+    {"step": 2, "action": "criss-cross the valencies",
+     "explain": "Each valency becomes the other's subscript."},
+    {"step": 3, "action": "simplify the ratio",
+     "explain": "Reduce the subscripts to the simplest whole-number ratio."}
+   ]
+  },
+  {
+   "id": "iesc.109.9.4",
+   "title": "Atomic Mass, Molecular Mass and the Mole Idea",
+   "section": "9",
+   "definition": "Atoms are weighed on a relative scale where carbon-12 sets the unit: atomic masses combine to give molecular mass, and the mole links this invisible scale to grams - one mole containing 6.022 times 10 to the 23 particles.",
+   "formula": "-",
+   "key_idea": "The mole is chemistry's dozen: Avogadro's number of particles weighs the molecular mass in grams.",
+   "textbook_ref": "iesc109.txt sections on atomic mass, molecular mass, mole concept",
+   "question_patterns": [
+    "find the molecular mass of the given compound",
+    "define the mole and Avogadro's number",
+    "what is atomic mass unit - explain the carbon-12 scale",
+    "calculate the number of particles in the given moles",
+    "find the mass of one mole of the given substance",
+    "why do chemists use relative atomic masses - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "collect the atomic masses",
+     "explain": "Read each element's atomic mass from the table."},
+    {"step": 2, "action": "add as per the formula",
+     "explain": "Multiply by subscripts and add for molecular mass."},
+    {"step": 3, "action": "connect to the mole",
+     "explain": "The molecular mass in grams holds one mole with 6.022 x 10 to the 23 particles."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "iesc109.txt exercises",
+   "questions": [
+     "Verify the law of conservation of mass for the given data.",
+     "Write the chemical formulae of the given compounds.",
+     "Find the molecular masses of the given substances.",
+     "Convert the given moles into number of particles."
+   ]
+  }
+ ]
+}

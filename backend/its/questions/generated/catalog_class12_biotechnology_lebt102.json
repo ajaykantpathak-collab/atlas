@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt102",
+ "concepts": [
+  {
+   "id": "lebt102.1",
+   "title": "Two-Component Cloning System and Vector Features",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Two-Component Cloning System and Vector Features' refers to.",
+     "a": "Gene cloning pairs a carrier with a workhorse: the insert is spliced into a vector, the recombinant DNA enters a host, and the host's enzymes multiply the construct; E. coli K12, doubling about every twenty minutes, leads the prokaryotic hosts with Bacillus subtilis for secreted proteins and yeast for eukaryotes, while a usable vector must stay small, carry an origin of replication, offer unique restriction sites and bear at least one selectable marker such as tetracycline or ampicillin resistance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Two-Component Cloning System and Vector Features'.",
+     "a": "Host supplies the replication machinery, vector supplies the control sequences - and four features make a vector worth using.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Two-Component Cloning System and Vector Features' taught, and from which source text?",
+     "a": "2.1-2.3 (source: lebt102.txt sections 2.1-2.3, Fig. 2.1-2.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.2",
+   "title": "Plasmid Copy Number and Vector Engineering",
+   "questions": [
+    {
+     "q": "Using the method 'Plasmid Copy Number and Vector Engineering', work with: new_size_bp = 512, old_size_bp = 4096. Carry the chain through step by step and give the final value of deleted_pct.",
+     "a": "87.5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Plasmid Copy Number and Vector Engineering' and work with: new_size_bp = 512, old_size_bp = 8192. Carry the chain through step by step and give the final value of deleted_pct.",
+     "a": "93.75 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Plasmid Copy Number and Vector Engineering' refers to.",
+     "a": "Plasmids are circular extrachromosomal DNAs from a few kilobases to over a hundred: relaxed high-copy plasmids escape chromosome control to reach ten to thirty copies per cell and stronger screening signals, whereas stringent low-copy plasmids hold one or a few; engineers then trim and recombine natural plasmids - nine-kilobase pBR313 with tetR and ampR lost its non-essential bulk to become the 4,361 bp pBR322, and later pUC19 at 2.686 kb added a synthetic polylinker and blue-white selection through lacZ.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plasmid Copy Number and Vector Engineering'.",
+     "a": "Subtract the engineered size from the natural one to price the deleted non-essential DNA.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plasmid Copy Number and Vector Engineering', in plain ASCII form.",
+     "a": "deleted_bp = old_size_bp - new_size_bp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.3",
+   "title": "Lambda Phage Genome and Its Vectors",
+   "questions": [
+    {
+     "q": "Using the method 'Lambda Phage Genome and Its Vectors', work with: circular_kbp = 4096, cos_pairs = 15, linear_bp = 75. Carry the chain through step by step and give the final value of dispensable_kbp.",
+     "a": "1365.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lambda Phage Genome and Its Vectors' and work with: circular_kbp = 256, cos_pairs = 24, linear_bp = 6. Carry the chain through step by step and give the final value of dispensable_kbp.",
+     "a": "85.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lambda Phage Genome and Its Vectors' refers to.",
+     "a": "Lambda's linear 48,490 bp genome carries twelve-base cohesive ends that anneal inside E. coli to close a 48,502 bp circle at the cos site; about one-third of the middle region, the lysogeny genes, is dispensable for lytic growth, so vectors replace that stretch with inserts sized 38-52 kbp for packaging - insertion vectors such as lambda gt10 and gt11 taking up to about 7 kbp, and replacement vectors like EMBL3 trading their stuffer for 20 kbp inserts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lambda Phage Genome and Its Vectors'.",
+     "a": "Add the paired cohesive bases to the linear length for the circular genome, and divide by three to find the replaceable middle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lambda Phage Genome and Its Vectors', in plain ASCII form.",
+     "a": "circular_bp = linear_bp + cos_pairs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.4",
+   "title": "M13 Filamentous Phage Vectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'M13 Filamentous Phage Vectors' refers to.",
+     "a": "M13 threads a 6.4 kb single-stranded circular genome through a tube-shaped capsid, infecting only F-pilus-bearing E. coli without lysing them; inside, the strand becomes a double-stranded replicative form exploited for cloning inserts into the non-essential intergenic region, and vectors like M13mp18 add blue-white screening while yielding abundant single-stranded template.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'M13 Filamentous Phage Vectors'.",
+     "a": "Clone into the intergenic region of the replicative form and harvest single-stranded DNA from the medium without killing the host.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'M13 Filamentous Phage Vectors' taught, and from which source text?",
+     "a": "2.3.2 (source: lebt102.txt section 2.3.2 (M13), Figs. 2.9-2.10)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.5",
+   "title": "Cosmids and Phasmids as Hybrid Vectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cosmids and Phasmids as Hybrid Vectors' refers to.",
+     "a": "Two hybrids stretch cloning capacity: a cosmid grafts as little as 250 bp of lambda DNA carrying the cos junction onto plasmid functions, letting recombinants of up to about 45 kbp be packaged in vitro into phage heads yet propagate as plasmids; a phasmid keeps whole lambda lytic genes at its ends around a central plasmid, replicating as a phage unless a lambda repressor gene flips it to plasmid mode.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cosmids and Phasmids as Hybrid Vectors'.",
+     "a": "Cos sites win phage packaging, plasmid ori wins propagation - combine both and large inserts travel either way.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cosmids and Phasmids as Hybrid Vectors' taught, and from which source text?",
+     "a": "2.3.3-2.3.4 (source: lebt102.txt sections 2.3.3-2.3.4, Figs. 2.11-2.12)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.6",
+   "title": "Artificial Chromosomes YAC BAC and PAC",
+   "questions": [
+    {
+     "q": "Using the method 'Artificial Chromosomes YAC BAC and PAC', work with: yac_max = 75, yac_min = 360. Carry the chain through step by step and give the final value of yac_mid.",
+     "a": "217.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Artificial Chromosomes YAC BAC and PAC' and work with: yac_max = 300, yac_min = 360. Carry the chain through step by step and give the final value of yac_mid.",
+     "a": "330 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Artificial Chromosomes YAC BAC and PAC' refers to.",
+     "a": "Eukaryotic introns force cloning of huge fragments, so artificial chromosomes were built: yeast artificial chromosomes string two telomeres, a centromere, an ARS origin and markers into a linear yeast chromosome carrying 200-500 kb inserts while keeping a circular bacterial form; bacterial and phage artificial chromosomes extend the same idea from plasmid and phage parts, with capacities stepping from plasmid's ten kilobases up to about half a megabase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Artificial Chromosomes YAC BAC and PAC'.",
+     "a": "Subtract the capacity floor from the ceiling to size each vector class, and average the two for a typical insert.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Artificial Chromosomes YAC BAC and PAC', in plain ASCII form.",
+     "a": "yac_range = yac_max - yac_min",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.7",
+   "title": "Expression Vectors and Heterologous Expression",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Expression Vectors and Heterologous Expression' refers to.",
+     "a": "Expression vectors do more than carry DNA - an inducible promoter upstream, a ribosome binding site, unique insertion sites and a downstream terminator wrap the cloned gene into an expression cassette that the host transcribes and translates on command; eukaryotic genes expressed in prokaryotes must arrive intron-free and need no post-translational dressing such as glycosylation to work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Expression Vectors and Heterologous Expression'.",
+     "a": "Promoter before, terminator after, inducible control throughout - and intron-free inserts when the host cannot splice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Expression Vectors and Heterologous Expression' taught, and from which source text?",
+     "a": "2.5 (source: lebt102.txt section 2.5, Fig. 2.14)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt102.8",
+   "title": "Shuttle Vectors between Two Hosts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Shuttle Vectors between Two Hosts' refers to.",
+     "a": "Shuttle vectors pack two origins of replication and dual selection systems so one construct lives in E. coli for engineering and in yeast, plant or animal cells for expression, with only one origin active in any given host; most eukaryotic vectors are in fact such shuttles built by recombinant DNA methods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shuttle Vectors between Two Hosts'.",
+     "a": "Two origins, two markers, one plasmid - build in bacteria, express in the eukaryote.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Shuttle Vectors between Two Hosts' taught, and from which source text?",
+     "a": "2.6 (source: lebt102.txt section 2.6, Fig. 2.15)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

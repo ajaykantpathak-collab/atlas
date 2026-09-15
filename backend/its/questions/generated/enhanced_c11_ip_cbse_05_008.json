@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_008",
+   "title": "c11_ip_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the output of `math.ceil(3.0)` and `math.floor(3.0)`? Explain why they are the same or different.",
+     "a": "Both return 3. `ceil` returns the smallest integer ≥ argument, `floor` returns the largest integer ≤ argument; for an exact integer, both conditions are satisfied by the integer itself. A wrong answer (e.g., 4 and 3) reveals confusion about inclusive bounds or thinking ceil always adds 1.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `math.sqrt(-4)` and gets a `ValueError`. Why does this happen, and how would you modify the code to handle negative inputs gracefully?",
+     "a": "`math.sqrt` is defined only for non-negative real numbers; negative input raises ValueError. To handle gracefully, check `if x >= 0:` before calling or use `cmath.sqrt` for complex results. A wrong answer suggests the student thinks sqrt of negative is allowed or doesn't know domain restrictions.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single expression using math functions to compute the ceiling of the square root of 50.",
+     "a": "`math.ceil(math.sqrt(50))` → sqrt(50) ≈ 7.071, ceil → 8. Steps: import math, compute sqrt, apply ceil. A wrong answer (e.g., `math.sqrt(math.ceil(50))`) shows misunderstanding of composition order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `math.pow(2, 3)` and `2 ** 3`. Are they equivalent in all cases? Give an example where they differ.",
+     "a": "`math.pow(2, 3)` returns float 8.0, while `2 ** 3` returns int 8. They differ in return type and `math.pow` converts arguments to float, so `math.pow(2, 0.5)` works but `2 ** 0.5` also works; however `math.pow` may lose precision for large integers. A wrong answer claiming they are identical misses the type difference.",
+     "self_check": true
+    },
+    {
+     "q": "A program calculates the absolute difference between two temperatures: `diff = math.fabs(temp1 - temp2)`. The teacher says `abs(temp1 - temp2)` would also work. Evaluate which is better for this context and justify.",
+     "a": "`abs` returns int if input is int, float if input is float; `math.fabs` always returns float. Since temperatures are likely floats, both work, but `math.fabs` guarantees float output which may be desirable for further floating-point calculations. `abs` is built-in and faster; `math.fabs` is explicit about float. A poor evaluation ignores the type guarantee or performance aspect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) that requires using at least three of the five functions (sqrt, ceil, floor, pow, fabs) in a single program. Describe the problem and outline the steps.",
+     "a": "Example: A farmer has a square field of area 2000 sq m. He wants to fence it with wire costing ₹15 per metre. He also wants to divide the field into smaller square plots of side 10 m. Compute: (1) side length using sqrt, (2) total fencing cost using ceil for wire rolls (each roll 50 m), (3) number of plots using floor division of side/10, (4) absolute difference between estimated and actual cost using fabs. Good answer integrates all functions meaningfully; poor answer uses them artificially.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

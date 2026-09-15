@@ -1,0 +1,369 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Inverse Trigonometric Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lemh.102.2.1",
+   "title": "Domain Restriction for Invertibility",
+   "section": "2.2",
+   "definition": "Trigonometric functions repeat their values, so they fail the one-one and onto test on their natural domains; trimming the domain to a well-chosen interval restores bijectivity and makes an inverse possible.",
+   "formula": "restrict the domain so the map becomes one-one and onto",
+   "key_idea": "Periodicity blocks an inverse; a restricted domain repairs the one-one and onto pairing that inversion needs.",
+   "textbook_ref": "lemh102.txt, sections 2.1-2.2 opening (lines 5-59)",
+   "question_patterns": [
+    "why must we restrict the domain of the sine function before defining its inverse",
+    "explain how restricting the domain makes a trigonometric function one-one and onto",
+    "can the inverse of a periodic trigonometric function exist on its natural domain justify",
+    "state the role of domain and range restrictions in defining inverse trigonometric functions",
+    "the sine function is not one-one on R so how can sin inverse be defined",
+    "which condition on domain and range ensures the inverse of a function exists"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "show the failure on the natural domain",
+     "explain": "Repeating values mean two inputs share an output, so the map is not one-one."},
+    {"step": 2, "action": "choose a restricting interval",
+     "explain": "Pick an interval on which the function attains every range value exactly once."},
+    {"step": 3, "action": "define the inverse on that interval",
+     "explain": "On the restricted domain the map is one-one and onto, so the inverse function exists."}
+   ]
+  },
+  {
+   "id": "lemh.102.2.2",
+   "title": "Principal Value Branch of sin Inverse",
+   "section": "2.2",
+   "definition": "With sine restricted to the interval from minus pi by two to pi by two, the recovered map sends inputs from minus one to one back into that angle interval; this chosen branch is the principal value branch of inverse sine.",
+   "formula": "sin^-1 : [-1, 1] -> [-pi/2, pi/2]",
+   "key_idea": "Inverse sine maps [-1, 1] into [-pi/2, pi/2]; equal-length intervals such as [-pi, -pi/2] give other branches.",
+   "textbook_ref": "lemh102.txt, section 2.2 (sine discussion and table, lines 46-168, 525-540)",
+   "question_patterns": [
+    "state the domain and the principal value branch range of sin inverse x",
+    "find the principal value of sin inverse of one by two from the principal branch of the arc sine function",
+    "what is the range of the arc sine function in its principal branch",
+    "why does sin inverse take values only between minus pi by two and pi by two",
+    "determine whether sin inverse of 2 is defined and give a reason",
+    "identify the branch interval used for the principal values of inverse sine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the input against the domain",
+     "explain": "Inverse sine accepts only inputs from [-1, 1]."},
+    {"step": 2, "action": "solve the matching sine equation",
+     "explain": "Rewrite y = sin^-1 x as sin y = x."},
+    {"step": 3, "action": "read the value inside the branch",
+     "explain": "Choose the angle y that lies in [-pi/2, pi/2]; that angle is the principal value."}
+   ]
+  },
+  {
+   "id": "lemh.102.2.3",
+   "title": "Principal Branch of cos Inverse",
+   "section": "2.2",
+   "definition": "Cosine restricted to the interval from zero to pi becomes bijective, and the recovered inverse cosine carries inputs from minus one to one into that same interval of angles.",
+   "formula": "cos^-1 : [-1, 1] -> [0, pi]",
+   "key_idea": "Inverse cosine outputs never leave [0, pi], so its principal values are never negative angles.",
+   "textbook_ref": "lemh102.txt, section 2.2 (cosine discussion and table, lines 199-219, 541-545)",
+   "question_patterns": [
+    "state the domain and principal value branch of cos inverse x",
+    "find the principal value of cos inverse of minus one by two",
+    "why do the principal values of inverse cosine lie between zero and pi",
+    "what is the range of the arc cosine function",
+    "determine whether cos inverse of minus 3 is defined",
+    "compare the branch intervals of inverse sine and inverse cosine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the input against the domain",
+     "explain": "Inverse cosine accepts only inputs from [-1, 1]."},
+    {"step": 2, "action": "solve the matching cosine equation",
+     "explain": "Rewrite y = cos^-1 x as cos y = x."},
+    {"step": 3, "action": "read the value inside the branch",
+     "explain": "Pick the angle y in [0, pi]; that angle is the principal value of the inverse cosine."}
+   ]
+  },
+  {
+   "id": "lemh.102.2.4",
+   "title": "Principal Branches of tan Inverse and cot Inverse",
+   "section": "2.2",
+   "definition": "Tangent pinned to the open interval between minus pi by two and pi by two, and cotangent pinned to the open interval from zero to pi, both become bijective onto all real numbers; their inverses return angles inside those open intervals.",
+   "formula": "tan^-1 : R -> (-pi/2, pi/2), cot^-1 : R -> (0, pi)",
+   "key_idea": "Both inverses accept any real input; inverse tangent answers in (-pi/2, pi/2) while inverse cotangent answers in (0, pi).",
+   "textbook_ref": "lemh102.txt, section 2.2 (tangent and cotangent discussion, lines 389-521)",
+   "question_patterns": [
+    "compare the principal value branches of tan inverse and cot inverse for a real input",
+    "find the principal value of tan inverse of minus one and of cot inverse of minus one in their principal branches",
+    "what is the range of cot inverse in its principal branch",
+    "why does tan inverse of any real number lie between minus pi by two and pi by two",
+    "compare the principal branches of inverse tangent and inverse cotangent",
+    "determine the domain of the tan inverse and cot inverse functions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "confirm the input is real",
+     "explain": "Both inverse tangent and inverse cotangent accept every real number."},
+    {"step": 2, "action": "solve the matching equation",
+     "explain": "Rewrite y = tan^-1 x as tan y = x, or y = cot^-1 x as cot y = x."},
+    {"step": 3, "action": "read the value inside the branch",
+     "explain": "Choose the angle inside (-pi/2, pi/2) for tangent, or inside (0, pi) for cotangent."}
+   ]
+  },
+  {
+   "id": "lemh.102.2.5",
+   "title": "Principal Branches of sec Inverse and cosec Inverse",
+   "section": "2.2",
+   "definition": "Secant and cosecant never output values strictly between minus one and one; after suitable restriction their inverses accept inputs outside that open band and return angles in trimmed intervals of length pi.",
+   "formula": "sec^-1 : R - (-1, 1) -> [0, pi] - {pi/2}, cosec^-1 : R - (-1, 1) -> [-pi/2, pi/2] - {0}",
+   "key_idea": "Inputs must avoid the open band (-1, 1); the cosec inverse branch drops the angle zero and the sec inverse branch drops pi by two.",
+   "textbook_ref": "lemh102.txt, section 2.2 (secant and cosecant discussion, lines 221-388, 546-566)",
+   "question_patterns": [
+    "state the domain and principal value branch of sec inverse x",
+    "find the principal value of cosec inverse of 2 when the branch excludes the angle zero",
+    "why is sec inverse not defined for inputs between minus one and one",
+    "which angle is excluded from the principal branch of inverse secant",
+    "determine the range of cosec inverse in its principal value branch",
+    "compare the domains of inverse secant and inverse cosecant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the input against the domain",
+     "explain": "Both inverses need inputs outside the open interval (-1, 1)."},
+    {"step": 2, "action": "solve the matching equation",
+     "explain": "Rewrite y = sec^-1 x as sec y = x, or y = cosec^-1 x as cosec y = x."},
+    {"step": 3, "action": "read the value inside the trimmed branch",
+     "explain": "For secant pick the angle in [0, pi] away from pi/2; for cosecant pick the angle in [-pi/2, pi/2] away from 0."}
+   ]
+  },
+  {
+   "id": "lemh.102.2.6",
+   "title": "Principal Value Evaluation",
+   "section": "2.2",
+   "definition": "Evaluating an inverse trigonometric expression means converting it into a trigonometric equation, recalling the familiar angle with that ratio, and keeping it only when it falls inside the principal branch.",
+   "formula": "principal value = the branch angle whose trigonometric ratio matches the input",
+   "key_idea": "Let y denote the unknown, read off the ratio equation such as cot y = minus one over root three, then select the angle that sits in the branch interval.",
+   "textbook_ref": "lemh102.txt, section 2.2 Examples 1-2 and EXERCISE 2.1 (lines 600-731)",
+   "question_patterns": [
+    "find the principal value of cot inverse of minus one by root three",
+    "evaluate sin inverse of one by two",
+    "what angle y satisfies cot y equal to minus root three inside the principal branch of cot inverse",
+    "calculate the principal value of tan inverse of minus root three",
+    "find the principal value of cos inverse of minus one half",
+    "why must the answer to a principal value question lie inside the branch interval"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the unknown angle",
+     "explain": "Set the inverse expression equal to y."},
+    {"step": 2, "action": "convert to a ratio equation",
+     "explain": "For example cot^-1 of a value becomes cot y equal to that value."},
+    {"step": 3, "action": "match a familiar angle",
+     "explain": "Recognise the standard angle with the required ratio."},
+    {"step": 4, "action": "verify the branch condition",
+     "explain": "Keep the angle only if it lies in the principal value branch, adjusting with identities when needed."}
+   ]
+  },
+  {
+   "id": "lemh.102.3.1",
+   "title": "Inverse Composition Property",
+   "section": "2.3",
+   "definition": "Inside matched domains and branches the function and its inverse cancel: sine applied to an arc sine returns the original number, while arc sine applied to a sine returns the original angle only when that angle already sits in the branch.",
+   "formula": "sin(sin^-1 x) = x for x in [-1, 1]",
+   "key_idea": "Cancellation is unconditional one way for x in [-1, 1]; the other way it holds only inside the principal branch.",
+   "textbook_ref": "lemh102.txt, section 2.3 opening (lines 874-888)",
+   "question_patterns": [
+    "simplify sin of sin inverse x for x between minus one and one",
+    "evaluate sin inverse of sin of two pi by three",
+    "does sin inverse of sin x always equal x justify using the principal branch",
+    "state the cancellation identities connecting sine and arc sine",
+    "compute sin inverse of sin of minus pi by four",
+    "find the value of cos of cos inverse x for x in the interval minus one to one"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check which side of the cancellation is used",
+     "explain": "Function-then-inverse needs x in [-1, 1]; inverse-then-function needs the angle inside the branch."},
+    {"step": 2, "action": "test the branch condition",
+     "explain": "For sin^-1(sin x), confirm whether x lies in [-pi/2, pi/2]."},
+    {"step": 3, "action": "cancel or adjust",
+     "explain": "If the condition holds the pair cancels to the input; otherwise reduce the angle first."}
+   ]
+  },
+  {
+   "id": "lemh.102.3.2",
+   "title": "Inverse Symbol versus Reciprocal",
+   "section": "2.3",
+   "definition": "The superscript minus one on sin^-1 x marks an inverse function, never a reciprocal; one divided by sin x is a different object with its own domain and behaviour.",
+   "formula": "sin^-1 x is not 1 / sin x",
+   "key_idea": "Arc sine finds an angle; the reciprocal of sine is a quotient, so the notation must never be mixed up.",
+   "textbook_ref": "lemh102.txt, section 2.2 Note 1 (lines 590-594)",
+   "question_patterns": [
+    "is sin inverse x the same as one over sin x explain",
+    "distinguish between sin^-1 x and (sin x)^-1",
+    "what does the minus one superscript mean in sin inverse x",
+    "why is (sin x)^-1 not the inverse sine function",
+    "state the correct meaning of the notation cosec inverse x",
+    "does cos inverse x mean one over cos x give a reason"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the notation",
+     "explain": "sin^-1 x denotes the inverse function with angles as outputs."},
+    {"step": 2, "action": "contrast with the reciprocal",
+     "explain": "1 / sin x is the quotient value, already written as cosec x."},
+    {"step": 3, "action": "state the distinction",
+     "explain": "Inverse function and reciprocal are different operations, so the two expressions rarely agree."}
+   ]
+  },
+  {
+   "id": "lemh.102.3.3",
+   "title": "Simplest Form by Substitution",
+   "section": "2.3",
+   "definition": "Expressions mixing radicals with inverse trig symbols collapse to one compact inverse trig term once a substitution such as x = sin theta or x = sec theta turns the radical into a standard identity.",
+   "formula": "sin^-1(2x sqrt(1 - x^2)) = 2 sin^-1 x for x in [-1/sqrt 2, 1/sqrt 2]",
+   "key_idea": "Substitute a trig parameter, apply a double angle or reciprocal identity inside, then cancel the inverse with its function.",
+   "textbook_ref": "lemh102.txt, section 2.3 Examples 3-5 and EXERCISE 2.2 (lines 894-1197, 1226-1319)",
+   "question_patterns": [
+    "write sin inverse of two x root of one minus x^2 in the simplest form",
+    "express cot inverse of one over root of x^2 minus one as sec inverse x for x greater than one",
+    "simplify tan inverse of cos x minus sin x over cos x plus sin x",
+    "use the substitution x = sin theta to reduce an inverse trigonometric expression",
+    "put x = cos two theta to simplify an expression containing one plus x over one minus x",
+    "find the simplest form of the given inverse trigonometric expression with a radical"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "choose the substitution",
+     "explain": "Match the radical to an identity, for example x = sin theta makes root of one minus x squared equal cos theta."},
+    {"step": 2, "action": "apply the identity",
+     "explain": "Rewrite the inner expression as a single trig function of a multiple or combination of theta."},
+    {"step": 3, "action": "cancel and convert back",
+     "explain": "Cancel the inverse with its function, then translate theta back to the original variable."}
+   ]
+  },
+  {
+   "id": "lemh.102.3.4",
+   "title": "Reducing Angles to the Principal Branch",
+   "section": "2.3",
+   "definition": "When the inner angle handed to an inverse trig function sits outside the principal branch, rewrite it with supplementary or periodic identities until the angle lands inside the branch; only then does cancellation apply.",
+   "formula": "sin^-1(sin x) = pi - x for x in (pi/2, 3pi/2)",
+   "key_idea": "Replace x by pi minus x (or shift by a period) so the inner angle enters the branch, as in sin of three pi by five equal to sin of two pi by five.",
+   "textbook_ref": "lemh102.txt, Miscellaneous Example 6 (lines 1489-1585)",
+   "question_patterns": [
+    "evaluate sin inverse of sin of three pi by five",
+    "find the value of cos inverse of cos of seven pi by six",
+    "reduce tan inverse of tan of five pi by four to the principal branch",
+    "why does sin inverse of sin x fail to equal x when x is three pi by five",
+    "use the identity sin of pi minus x equals sin x to bring an angle into the principal branch",
+    "compute tan inverse of tan of seven pi by six"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate the angle against the branch",
+     "explain": "Check whether the given angle lies inside the principal value branch."},
+    {"step": 2, "action": "rewrite with an identity",
+     "explain": "Use facts like sin(pi - x) = sin x or cos(2pi - x) = cos x to produce an in-branch angle."},
+    {"step": 3, "action": "cancel inside the branch",
+     "explain": "Now the inverse undoes the function, giving the reduced angle as the answer."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh102.txt section 2.2, Example 1 (lines 601-651)",
+   "concept": "lemh.102.2.6",
+   "question_type": "verify_property",
+   "question_pattern": "Find the principal value of sin inverse of one by two.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "name the unknown angle",
+     "explain": "Let sin^-1(1/2) = y, so sin y = 1/2."},
+    {"step": 2, "action": "match the familiar angle",
+     "explain": "sin of pi by four equals one over root two; the angle with sine one half is pi by six."},
+    {"step": 3, "action": "verify the branch",
+     "explain": "pi by six lies in [-pi/2, pi/2], hence it is the principal value."}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh102.txt Miscellaneous Example 6 (lines 1489-1585)",
+   "concept": "lemh.102.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "Evaluate sin inverse of sin of three pi by five.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "check the branch",
+     "explain": "Three pi by five is not in [-pi/2, pi/2], so direct cancellation is invalid."},
+    {"step": 2, "action": "rewrite with the supplementary identity",
+     "explain": "sin of three pi by five equals sin of two pi by five."},
+    {"step": 3, "action": "cancel inside the branch",
+     "explain": "Two pi by five lies in the principal branch, so the value is two pi by five."}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh102.txt section 2.3, Example 5 (lines 1165-1197)",
+   "concept": "lemh.102.3.3",
+   "question_type": "verify_property",
+   "question_pattern": "Write cot inverse of one over root of x squared minus one in the simplest form for x greater than one.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "substitute a secant parameter",
+     "explain": "Let x = sec theta with theta in the suitable interval."},
+    {"step": 2, "action": "collapse the radical",
+     "explain": "Root of x squared minus one becomes tan theta, so the argument becomes cot theta."},
+    {"step": 3, "action": "cancel and convert back",
+     "explain": "cot inverse of cot theta is theta, and theta equals sec inverse x."}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "lemh102.txt EXERCISE 2.1 (lines 732-865)",
+   "questions": [
+    "Find the principal value of sin inverse of minus one half.",
+    "Find the principal value of cos inverse of root three over two.",
+    "Find the principal value of cosec inverse of 2.",
+    "Find the principal value of tan inverse of minus root three.",
+    "Find the principal value of cos inverse of minus one half.",
+    "Find the principal value of tan inverse of minus one.",
+    "Find the principal value of sec inverse of two over root three.",
+    "Find the principal value of cot inverse of root three.",
+    "Evaluate tan inverse of one plus cos inverse of minus one half plus sin inverse of minus one half.",
+    "Evaluate cos inverse of one half plus two times sin inverse of one half.",
+    "If sin inverse x equals y, which interval must y belong to? Pick from the four listed options.",
+    "Simplify the combination of inverse tangent and inverse secant given in the last item of Exercise 2.1."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "lemh102.txt EXERCISE 2.2 (lines 1198-1487)",
+   "questions": [
+    "Prove that three times sin inverse x equals sin inverse of three x minus four x cubed for x in [minus one half, one half].",
+    "Prove that three times cos inverse x equals cos inverse of four x cubed minus three x for x in [minus one half, one half].",
+    "Write tan inverse of x over root of a squared minus x squared in the simplest form when the absolute value of x is less than a.",
+    "Evaluate tan inverse of two times cos of two times sin inverse of one half.",
+    "Evaluate the combined inverse tangent expression involving x and y with the absolute value of x below one and x y below one.",
+    "Which option equals cos inverse of cos of seven pi by six?",
+    "Which option equals sin of pi by three minus sin inverse of minus one half?"
+   ]
+  },
+  {
+   "id": "ex2.misc",
+   "source_ref": "lemh102.txt Miscellaneous Exercise on Chapter 2 (lines 1589-1845)",
+   "questions": [
+    "Evaluate cos inverse of cos of thirteen pi by six.",
+    "Evaluate tan inverse of tan of seven pi by six.",
+    "Prove that two times sin inverse of three fifths equals tan inverse of twenty four over seven.",
+    "Prove that sin inverse of eight seventeenths plus sin inverse of three fifths equals tan inverse of seventy seven over thirty six.",
+    "Prove that cos inverse of four fifths plus cos inverse of twelve thirteenths equals cos inverse of thirty three over sixty five.",
+    "Prove that cos inverse of twelve thirteenths plus sin inverse of three fifths equals sin inverse of fifty six over sixty five.",
+    "Solve the equation two times tan inverse of cos x equals tan inverse of two times cosec x.",
+    "Simplify sin of tan inverse x when the absolute value of x is below one."
+   ]
+  }
+ ]
+}

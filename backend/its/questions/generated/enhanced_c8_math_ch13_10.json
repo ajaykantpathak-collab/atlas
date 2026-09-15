@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_10",
+   "title": "c8_math_ch13_10",
+   "questions": [
+    {
+     "q": "What is the first step you should always take when starting to translate a word problem into a linear equation?",
+     "a": "The first step is to identify the unknown quantity and assign a variable (like x) to represent it. A wrong answer (e.g., \"write the equation immediately\" or \"pick numbers\") reveals the student does not understand that variable definition anchors the entire translation process; without it, expressions like \"5 more than the number\" become ambiguous.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"Rohan's age is 5 years more than twice Sita's age,\" a student writes the equation \\(R = 2S + 5\\). Another student writes \\(R + 5 = 2S\\). Which translation is correct and why?",
+     "a": "The first translation \\(R = 2S + 5\\) is correct because \"5 years more than twice Sita's age\" means start with twice Sita's age (2S) and add 5. The second student incorrectly added 5 to Rohan's age, reversing the relationship. A wrong choice shows the student treats \"more than\" as attaching to the subject (Rohan) rather than the object of comparison (Sita's age).",
+     "self_check": true
+    },
+    {
+     "q": "The sum of three consecutive even numbers is 108. Translate this into a linear equation and solve for the smallest number.",
+     "a": "Let the smallest even number be \\(x\\). The next two consecutive even numbers are \\(x+2\\) and \\(x+4\\). Equation: \\(x + (x+2) + (x+4) = 108\\). Simplify: \\(3x + 6 = 108\\). Subtract 6: \\(3x = 102\\). Divide by 3: \\(x = 34\\). The smallest number is 34. A wrong answer (e.g., using \\(x, x+1, x+2\\)) reveals the student does not recall that consecutive even numbers differ by 2, not 1.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangle's length is 3 cm more than its breadth. Its perimeter is 42 cm. Two students set up equations differently:\nStudent A: \\(2(x + x+3) = 42\\) where \\(x\\) = breadth.\nStudent B: \\(2(y + y-3) = 42\\) where \\(y\\) = length.\nAre both equations valid? Explain.",
+     "a": "Yes, both are valid. Student A lets breadth = \\(x\\), so length = \\(x+3\\); perimeter = \\(2(x + x+3) = 42\\). Student B lets length = \\(y\\), so breadth = \\(y-3\\); perimeter = \\(2(y + y-3) = 42\\). Both yield the same dimensions (breadth 9 cm, length 12 cm). A student who says only one is correct fails to see that variable choice is arbitrary as long as relationships are preserved.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"A number is multiplied by 4, then 12 is subtracted, giving 20.\" Their working: \\(4x - 12 = 20 \\Rightarrow 4x = 8 \\Rightarrow x = 2\\). Is the solution correct? If not, identify the error.",
+     "a": "The solution is incorrect. The error is in the transposition step: \\(4x - 12 = 20\\) should give \\(4x = 20 + 12 = 32\\), not \\(4x = 8\\). The student subtracted 12 from 20 instead of adding. The correct answer is \\(x = 8\\). A student who misses this error lacks fluency in inverse operations and sign rules when moving terms across the equals sign.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem that translates to the equation \\(5x + 30 = 2x + 75\\). Use a real-life context (money, distance, or age). Solve your problem and explain what \\(x\\) represents.",
+     "a": "Example: \"Anjali has ₹30 and saves ₹5 per week. Bhavesh has ₹75 and saves ₹2 per week. After how many weeks will they have the same amount?\" Let \\(x\\) = number of weeks. Anjali: \\(5x + 30\\), Bhavesh: \\(2x + 75\\). Equation: \\(5x + 30 = 2x + 75\\). Solving: \\(3x = 45 \\Rightarrow x = 15\\) weeks. A poor answer uses mismatched contexts (e.g., mixing age and money) or creates a problem where the equation does not naturally arise, showing the student cannot reverse-engineer the translation process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

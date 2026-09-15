@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_13_010",
+   "title": "c12_hin_ar_cbse_13_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of using context clues when encountering an unfamiliar word in a literary text?",
+     "a": "The primary purpose is to infer the word's meaning from the surrounding text — such as synonyms, antonyms, examples, or the overall tone — so that reading flow is maintained and comprehension deepens without immediate dictionary dependence. A wrong answer (e.g., \"to memorize the word for the exam\") reveals the student views vocabulary as rote memorization rather than an analytical reading skill.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening paragraph of \"इग्योकु की क्षयद\", the phrase \"बूढ़ा गायक अपनी क्षयद कला के साथ\" appears. Which context clue most directly helps you guess the meaning of \"क्षयद\"?",
+     "a": "The adjective \"बूढ़ा\" (old) combined with the noun \"कला\" (art) and the later description \"भुला दी गई\" (forgotten) function as a synonym/definition clue: an old artist's art that is forgotten is undergoing decay. A student who picks only \"बूढ़ा\" misses the semantic link between \"कला\" and \"क्षयद\" and shows they cannot connect co-occurring nouns to the target adjective.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the context-clue strategy to the word \"आलाप\" as it appears in the sentence: \"इग्योकु ने धीमे स्वर में आलाप लिया, फिर बंदिश शुरू की।\" Write the inferred meaning and name the clue type used.",
+     "a": "Inferred meaning: \"आलाप\" = the opening, improvisatory exploration of a raga in Hindustani music. Clue type: **sequence/example clue** — the sentence shows a temporal order (first आलाप, then बंदिश) and the phrase \"धीमे स्वर में\" (in a slow tempo) indicates a musical segment. A wrong answer like \"song\" ignores the sequential marker \"फिर\" and treats both words as synonyms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the author uses \"मुरकी\" and \"कण\" in the same paragraph describing Igayoku's singing. What does their co-occurrence tell you about their meanings?",
+     "a": "Both are ornamental techniques in Hindustani vocal music; their appearance together in a list of Igayoku's skills (\"मुरकी, कण, मींड, गमक\") signals they are **coordinate terms** — distinct but related embellishments. A student who thinks they are synonyms fails to recognize the list structure that separates them with commas, a classic coordinate-term clue.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator says: \"इग्योकु की गायकी में वह बात न रही जो पहले थी।\" Evaluate whether the word \"बात\" here means \"word\", \"matter\", or \"excellence/quality\". Justify using tone and contrast clues.",
+     "a": "\"बात\" means \"excellence/quality\" (a colloquial use common in music criticism). Tone clue: the sentence contrasts past and present with regret (\"न रही जो पहले थी\"), implying a lost positive attribute. \"Word\" or \"matter\" would make the sentence nonsensical in a musical evaluation context. Choosing \"matter\" shows the student ignored the evaluative tone and the comparative structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence using the word \"ठुमरी\" that provides enough context clues for a reader unfamiliar with the term to infer it is a light-classical vocal genre. Underline the clues you embedded.",
+     "a": "Example: \"पंडितजी ने खयाल के बाद एक **ठुमरी** गाई, जिसमें **श्रृंगार रस** और **लयकारी** का सुंदर मिश्रण था, और **सुनने वाले झूम उठे**।\" Clues: genre sequence (after खयाल), thematic content (श्रृंगार रस), technical feature (लयकारी), audience reaction (झूम उठे). A weak answer would simply say \"ठुमरी एक गाना है\" without embedding any contextual scaffolds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

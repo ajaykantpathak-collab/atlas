@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_008",
+   "title": "c7_geo_ch02_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of weather forecasting in agricultural regions like the Punjab plains?",
+     "a": "The primary purpose is to provide farmers with advance notice of weather events such as unseasonal rain, heatwaves, or frost so they can protect crops, plan irrigation, and schedule harvesting. A wrong answer—such as thinking forecasting is only meant for planning airplane flights—shows a limited view that ignores how vital daily weather prediction is for rural livelihoods and food security.",
+     "self_check": true
+    },
+    {
+     "q": "Why do meteorologists need data from multiple weather stations spread across different states rather than relying on measurements from a single city?",
+     "a": "Weather systems are dynamic and move across vast geographic areas driven by wind and pressure belts. Relying on a single station only gives local conditions, whereas a network of stations allows forecasters to track how a low-pressure depression in the Bay of Bengal travels toward the eastern coast of India. A wrong answer suggests that weather is static and trapped over individual towns, missing the interconnected nature of the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "If a barometer in Patna shows a sudden, sharp drop in air pressure over 6 hours, what immediate weather forecast should be issued for the local area?",
+     "a": "Steps: 1) Identify that a sharp drop in air pressure indicates rising warm, moist air and an approaching low-pressure system. 2) Recall from wind and pressure principles that low-pressure systems are associated with cloudy skies, strong winds, and precipitation. 3) Apply this to Patna's geographical setting in the Ganga basin. 4) Conclude that thunderstorms with gusty winds and heavy rainfall are likely within the next 12 to 24 hours. A wrong answer indicates confusion between high-pressure systems (which bring clear skies) and low-pressure systems (which bring storms).",
+     "self_check": true
+    },
+    {
+     "q": "How do physical barriers like the Western Ghats complicate weather forecasting for coastal cities like Mumbai compared to interior plateau cities like Bengaluru?",
+     "a": "Coastal cities like Mumbai experience rapid orographic uplift when moisture-laden winds hit the Western Ghats, causing sudden, intense downpours that can change faster than broad inland patterns. Forecasters must account for local relief and windward slope dynamics, making coastal forecasting highly localized. A wrong answer assumes uniform weather behavior across all landforms, ignoring how topography forces rapid condensation and rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether a 3-day weather forecast for a monsoon depression in Odisha is more reliable than a 14-day seasonal outlook for the same region.",
+     "a": "A 3-day forecast is significantly more reliable because it is based on real-time radar tracking, satellite imagery, and immediate atmospheric readings which have high short-term accuracy. A 14-day outlook relies on long-range statistical models and general trends where chaotic atmospheric variables can rapidly shift the actual path of a storm. A wrong answer reveals a failure to distinguish between short-term deterministic weather prediction and long-term probabilistic modeling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic morning weather advisory broadcast for fishermen along the Odisha coast when a depression is forming in the Bay of Bengal.",
+     "a": "A good advisory must include: 1) Current wind speed and direction, 2) Barometric pressure trend showing a drop, 3) Clear warning instructing small boats not to venture into the sea within the next 48 hours, and 4) Safe harbor locations. A poor answer would lack specific safety instructions or ignore the immediate meteorological data such as wind velocity and sea state.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_006",
+   "title": "c12_bs_cbse_10_006",
+   "questions": [
+    {
+     "q": "State any three functions of a stock exchange as per the NCERT Class 12 Business Studies textbook.",
+     "a": "Correct answer: (1) Providing liquidity and marketability to existing securities, (2) Determining prices through continuous trading (price discovery), (3) Ensuring safety of transactions via regulated framework and clearing corporation guarantee. A wrong answer such as “helping companies raise new capital” reveals confusion between primary market (IPO) and secondary market (stock exchange) functions — the stock exchange deals only with *existing* securities, not fresh issuance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the settlement cycle in India is T+1 and not T+0 or T+2.",
+     "a": "Correct explanation: T+1 balances operational efficiency with risk management — it gives one working day for the clearing corporation to verify trades, novate positions, coordinate fund/shares transfer across banks and depositories, and handle any exceptions (e.g., short delivery). T+0 would leave no time for reconciliation, increasing settlement failures; T+2 would unnecessarily prolong counterparty risk exposure. A student who says “T+1 is faster so it’s better” misses the nuanced trade‑off between speed and systemic safety.",
+     "self_check": true
+    },
+    {
+     "q": "An investor places a limit buy order for 50 shares of Tata Motors at ₹800 when the current market price is ₹805. The order remains unexecuted at day‑end. What happens to this order, and why?",
+     "a": "The order lapses at the end of the trading session because limit orders are valid only for the day unless specified as “Good Till Cancelled” (GTC). The exchange’s order book is cleared daily; unmatched limit orders do not carry forward automatically. A wrong answer like “the order stays active until executed” confuses day orders with GTC orders — a common error in board exams where students forget to mention order validity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of a broker and the role of the clearing corporation in the trading procedure. Which entity bears the counterparty risk after trade execution?",
+     "a": "Broker: acts as agent, transmits client orders to exchange, collects margin, ensures client compliance. Clearing corporation: novates every trade (becomes buyer to every seller and seller to every buyer), guarantees settlement, manages margin system, handles shortages. After novation, the *clearing corporation* bears the counterparty risk, not the broker. Students who say “broker guarantees the trade” misunderstand novation — a critical concept for both board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "“A stock exchange is essential for economic growth because it allows companies to raise fresh capital.” Evaluate this statement.",
+     "a": "The statement is **incorrect**. A stock exchange facilitates trading of *already issued* securities (secondary market); fresh capital is raised in the *primary market* through IPOs/FPOs. The exchange indirectly supports capital formation by providing liquidity and price discovery, which makes primary issues more attractive, but it does not directly channel funds to companies. A student who agrees confuses primary and secondary market functions — a frequent board‑exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step‑by‑step flowchart (text‑based) showing the complete trading procedure for a retail investor selling 100 shares of Infosys held in demat form, from login to fund credit. Include all intermediaries and the settlement day.",
+     "a": "Expected flowchart (key steps):\n1. Investor logs into trading platform (broker’s app/terminal).\n2. Places market/limit sell order for 100 Infosys shares.\n3. Broker validates margin/holdings, forwards order to exchange (NSE/BSE).\n4. Exchange order‑matching engine matches with a buy order.\n5. Trade confirmation generated (trade number, time, price, quantity).\n6. Clearing corporation (NSCCL/ICCL) novates trade → becomes central counterparty.\n7. T‑day: trade details sent to depository (NSDL/CDSL) and banks.\n8. T+1 morning: clearing corporation instructs depository to debit seller’s demat, credit buyer’s demat.\n9. T+1 afternoon: clearing corporation instructs banks to debit buyer’s account, credit seller’s account.\n10. Investor sees funds credited in linked bank account.\nA poor answer omits novation, depository role, or T+1 timing — showing incomplete grasp of the settlement chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

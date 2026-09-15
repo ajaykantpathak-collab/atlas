@@ -1,0 +1,98 @@
+{
+ "catalog": "catalog_class9_social_science_ch201",
+ "concepts": [
+  {
+   "id": "iess.201.1.1",
+   "title": "Yield Calculation",
+   "questions": [
+    {
+     "q": "Calculate the yield per hectare. Use the method 'Yield Calculation'. Work with: land_area = 250, total_production = 20. Carry the chain through step by step and give the final value of yield.",
+     "a": "0.08 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the crop yield for a field of ... hectares. Use the method 'Yield Calculation'. Work with: land_area = 500, total_production = 5. Carry the chain through step by step and give the final value of yield.",
+     "a": "0.01 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Yield Calculation' refers to.",
+     "a": "Yield is the total quantity of a specific crop harvested from a defined unit of land area during one growing season.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Yield Calculation'.",
+     "a": "Measuring agricultural productivity per unit of land.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Yield Calculation', in plain ASCII form.",
+     "a": "yield = total_production / land_area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.201.2.1",
+   "title": "Loan Interest Calculation",
+   "questions": [
+    {
+     "q": "Calculate the interest on a loan of ... at ... percent. Use the method 'Loan Interest Calculation'. Work with: principal = 8000, rate = 10, time = 10. Carry the chain through step by step and give the final value of interest_amount.",
+     "a": "666.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the interest amount for a principal of .... Use the method 'Loan Interest Calculation'. Work with: principal = 5000, rate = 10, time = 25. Carry the chain through step by step and give the final value of interest_amount.",
+     "a": "1041.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loan Interest Calculation' refers to.",
+     "a": "The additional cost paid by a borrower to a lender for the use of money over a specified period, expressed as a percentage of the principal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loan Interest Calculation'.",
+     "a": "Cost of borrowing capital for agricultural inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loan Interest Calculation', in plain ASCII form.",
+     "a": "interest_amount = principal * (rate / 100) * (time / 12)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.201.3.1",
+   "title": "Surplus Calculation",
+   "questions": [
+    {
+     "q": "Find the surplus wheat available for sale. Use the method 'Surplus Calculation'. Work with: family_consumption = 500, total_production = 8. Carry the chain through step by step and give the final value of surplus.",
+     "a": "-492 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the surplus if production is ... and consumption is .... Use the method 'Surplus Calculation'. Work with: family_consumption = 4, total_production = 15. Carry the chain through step by step and give the final value of surplus.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Surplus Calculation' refers to.",
+     "a": "The quantity of agricultural produce remaining after the farmer has set aside enough for their own family's consumption needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Surplus Calculation'.",
+     "a": "Determining the amount available for market sale.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Surplus Calculation', in plain ASCII form.",
+     "a": "surplus = total_production - family_consumption",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

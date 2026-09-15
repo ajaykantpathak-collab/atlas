@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_005",
+   "title": "c7_geo_ch02_005",
+   "questions": [
+    {
+     "q": "What fundamental atmospheric condition causes air to move horizontally across the Earth's surface as wind?",
+     "a": "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure. A wrong answer like \"earthquakes\" or \"ocean currents\" reveals a confusion between tectonic or hydrological processes and atmospheric dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Why does air rise when it is heated by the Sun over the Thar Desert during summer?",
+     "a": "When air is heated, its molecules gain kinetic energy, expand, and become less dense than the surrounding cooler air, causing it to rise and create a low-pressure zone. A wrong answer stating that hot air becomes heavy and sinks shows a misunderstanding of thermal expansion and gas density in meteorology.",
+     "self_check": true
+    },
+    {
+     "q": "If a weather station in Mumbai records a high-pressure reading of 1020 hPa while a station inland over the Peninsular Plateau records 1008 hPa, in which direction will the surface wind blow between these two points?",
+     "a": "Steps: \n1. Identify the pressure at both stations (Mumbai = 1020 hPa, Plateau = 1008 hPa). \n2. Determine the pressure gradient (from high 1020 to low 1008). \n3. Apply the rule that wind blows from high pressure to low pressure. \n4. Conclude that wind blows from Mumbai (coastal west) inland toward the Peninsular Plateau (east). \nA wrong answer moving from low to high pressure indicates a failure to understand the fundamental pressure gradient force.",
+     "self_check": true
+    },
+    {
+     "q": "How do planetary winds like the Trade Winds differ in consistency and scale compared to local land and sea breezes along the Indian coastline?",
+     "a": "Planetary winds blow constantly throughout the year over vast latitudinal belts due to global pressure belts and the Earth's rotation, whereas local breezes reverse direction daily due to localized differential heating of land and water. A wrong answer suggesting that local breezes blow year-round in one global direction reveals confusion between planetary-scale atmospheric circulation and micro-scale diurnal thermal circulations.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether a coastal fisherman in Kerala planning his daily fishing trip should rely more on planetary trade winds or local land and sea breezes, and justify your reasoning.",
+     "a": "The fisherman should rely on local land and sea breezes because these operate on a daily cycle (sea breeze during the day, land breeze at night) which directly dictates safe sailing and fishing schedules close to the shore. Planetary winds are too broad and generalized for predicting safe local diurnal maritime activities. A wrong answer choosing planetary winds shows a lack of understanding of scale in weather phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation plan for a Class 7 student to track how local wind direction changes from morning to evening near a large water body or open field in their region.",
+     "a": "A good plan involves tying a light cloth ribbon or using a wind vane fixed in an open area, recording the direction it points every three hours from sunrise to sunset, noting temperature changes, and correlating it with land-water heating. A poor plan lacks systematic timing, ignores reference points, or fails to connect wind direction changes to temperature and pressure shifts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

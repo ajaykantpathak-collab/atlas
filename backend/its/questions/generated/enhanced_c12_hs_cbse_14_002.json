@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_002",
+   "title": "c12_hs_cbse_14_002",
+   "questions": [
+    {
+     "q": "A student treats a fresh blood stain on cotton with hot water and chlorine bleach. The stain sets permanently. Identify the two fundamental principle violations and explain why each causes fixation.",
+     "a": "Violations: (1) Using hot water on a protein stain coagulates the protein, making it insoluble and irreversible. (2) Using chlorine bleach on protein creates a yellowish chloro-protein complex that is more stable than the original stain. Correct first-aid: cold water soak → enzymatic detergent → oxygen bleach if needed. A wrong answer reveals the student memorizes \"bleach removes stains\" without understanding protein denaturation chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following stains by their PRIMARY chemical nature: (a) grass, (b) ballpoint ink, (c) egg yolk, (d) rust. For each, state the solubility class (water/solvent/insoluble) that dictates the first removal step.",
+     "a": "(a) Grass: chlorophyll/tannin mix → water-soluble pigments + lipid carrier → treat as tannin first (acid) then solvent for lipid. (b) Ballpoint ink: dye in oil-based solvent → solvent-soluble → dry-cleaning solvent first. (c) Egg yolk: protein + lipid emulsion → protein-dominant → cold water + enzyme. (d) Rust: iron oxide → insoluble mineral → reducing agent (oxalic/hydrofluoric acid) to convert to soluble form. A wrong answer reveals confusion between the stain's carrier and its chromophore.",
+     "self_check": true
+    },
+    {
+     "q": "A polyester blouse has an old oxidized oil stain (rancid). The student applies a protein-digesting enzyme pre-soak for 30 minutes at 40°C, then washes with heavy-duty detergent at 60°C. The stain remains. Diagnose the error and prescribe the correct 3-step sequence with chemical reasoning.",
+     "a": "Error: Enzyme targets protein, but rancid oil is a cross-linked triglyceride polymer requiring saponification or solvent dissolution, not proteolysis. High temperature sets the polymer further. Correct sequence: (1) Dry-cleaning solvent (perchloroethylene or citrus terpene) to dissolve the lipid matrix. (2) Alkaline detergent at 40°C to saponify residual fatty acids. (3) Oxygen bleach at 50°C to break any remaining chromophores. A wrong answer reveals the student matches \"enzyme\" to \"biological stain\" without analyzing the chemical transformation that occurred during oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanism of action for removing a tannin stain (tea) using (i) acetic acid rinse followed by sodium percarbonate, versus (ii) direct application of chlorine bleach. Explain why (i) is universally safe for all fibres while (ii) is prohibited for wool, silk, and spandex.",
+     "a": "(i) Acetic acid protonates the phenolic -OH groups of tannin, increasing water solubility; sodium percarbonate releases H₂O₂ which oxidizes the chromophore via nucleophilic attack at low pH, safe for all fibres. (ii) Chlorine bleach (NaOCl) generates HOCl which chlorinates the aromatic rings, forming stable colored chloro-derivatives on wool/silk (protein fibres) and degrades spandex polyurethane chains. A wrong answer reveals the student thinks \"bleach is bleach\" without distinguishing oxidative mechanisms and fibre chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For any mixed stain (e.g., curry: oil + turmeric + protein), always apply the most aggressive reagent first to save time.\" Provide a counter-example with a specific fabric where this sequence causes irreversible damage, and design the correct hierarchical protocol.",
+     "a": "Counter-example: Curry on wool. Aggressive first: hot alkaline detergent + chlorine bleach → wool dissolves (alkali hydrolyzes peptide bonds) + yellow chloro-protein formation. Correct hierarchy: (1) Blot oil with solvent (no heat). (2) Cold water soak + enzyme for protein. (3) Acid rinse (vinegar) for turmeric tannin. (4) Oxygen bleach at 30°C if needed. The claim fails because \"aggressive\" is not a scalar; reagents attack specific chemical bonds, and fibres have hierarchical vulnerability. A wrong answer reveals the student treats stain removal as a single-variable optimization rather than a multi-constraint decision problem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a stain-removal decision flowchart (text-based) that a dry-cleaning receptionist could use to triage incoming garments. Include at least four decision nodes (stain class, fibre type, age, colourfastness) and three terminal actions (wet-clean, dry-clean, refer to specialist). Ensure it prevents the most common catastrophic error: applying water to a water-sensitive dye on acetate.",
+     "a": "Flowchart:\nSTART → Is stain water-soluble? YES → Is fibre water-safe (cotton, linen, polyester, nylon)? YES → Is dye colourfast to water? YES → WET-CLEAN (cold → warm). NO → DRY-CLEAN.\nNO (stain solvent-soluble) → Is fibre solvent-safe? YES → DRY-CLEAN. NO → REFER SPECIALIST.\nCRITICAL NODE: Before any wet step, TEST hidden seam with water + detergent. If colour bleeds → DRY-CLEAN or REFER.\nThis catches the acetate/dye catastrophe because acetate is water-safe but its dyes often are not; the colourfastness node intercepts. A poor answer omits the colourfastness test or treats fibre and dye as a single property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

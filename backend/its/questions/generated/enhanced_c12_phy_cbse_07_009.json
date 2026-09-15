@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_009",
+   "title": "c12_phy_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the SI unit of mutual inductance and write the formula that relates the induced emf in the secondary coil to the rate of change of current in the primary coil.",
+     "a": "SI unit: henry (H). Formula: ε₂ = –M (dI₁/dt), where M is mutual inductance. A wrong answer (e.g., giving unit as weber or farad) reveals confusion between mutual inductance, magnetic flux, and capacitance. Missing the negative sign indicates ignorance of Lenz’s law direction.",
+     "self_check": true
+    },
+    {
+     "q": "A step-down transformer has 500 turns on the primary and 50 turns on the secondary. If the primary is connected to 230 V (rms) mains, what is the secondary voltage? Explain why the secondary current is larger than the primary current for a resistive load.",
+     "a": "Vs = (Ns/Np) × Vp = (50/500) × 230 V = 23 V. For an ideal transformer, Pp = Ps ⇒ VpIp = VsIs ⇒ Is = (Vp/Vs)Ip = (Np/Ns)Ip = 10 Ip. A student who says secondary current is smaller confuses voltage ratio with current ratio; they have not applied power conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A transformer draws 0.5 A (rms) from a 220 V (rms) supply and delivers 12 V (rms) to a load drawing 8 A (rms). Calculate (a) the turns ratio Np:Ns, (b) the input power, (c) the output power, and (d) the efficiency.",
+     "a": "(a) Np/Ns = Vp/Vs = 220/12 ≈ 18.33, so Np:Ns ≈ 18.33:1. (b) Pin = VpIp = 220 V × 0.5 A = 110 W. (c) Pout = VsIs = 12 V × 8 A = 96 W. (d) η = Pout/Pin × 100% = 96/110 × 100% ≈ 87.3%. A wrong efficiency >100% signals arithmetic error or forgetting that real transformers have losses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the eddy current loss in a solid iron core versus a laminated core of the same dimensions and material. Explain the physics behind the reduction.",
+     "a": "Eddy current loss is drastically lower in the laminated core. In a solid core, the alternating flux induces large circulating currents (eddy currents) in closed loops spanning the whole cross-section; power loss ∝ (loop area)². Laminations break the core into thin insulated sheets, restricting eddy current paths to small loops within each lamination, reducing the effective area and thus the loss by a factor of (lamination thickness / core thickness)². A student who says “laminations increase resistance” without mentioning loop area reduction shows incomplete understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “In a step-up transformer, the output power is greater than the input power because the voltage is increased.” Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. A transformer cannot create energy; it only converts voltage and current levels. For an ideal transformer, Pin = Pout. In a step-up transformer, Vs > Vp but Is < Ip such that VsIs = VpIp. Real transformers have losses, so Pout < Pin. The student confuses voltage amplification with power amplification, ignoring the inverse current change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the turns-ratio voltage relationship. List the steps, measurements, and how you would account for non-idealities.",
+     "a": "Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100). (2) Connect primary to 6 V AC (measure Vp with multimeter). (3) Measure open-circuit secondary voltage Vs. (4) Compute Vs/Vp and compare with Ns/Np. (5) Repeat with a resistive load on secondary; measure loaded Vs and Is, compute efficiency. Non-idealities: voltage drop due to winding resistance and leakage flux causes loaded Vs to be lower than predicted; account by measuring primary current and estimating I²R loss. A poor answer omits load test or does not mention measuring primary current to check power balance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

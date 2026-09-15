@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_004",
+   "title": "c11_soc_cbse_07_004",
+   "questions": [
+    {
+     "q": "Define 'social order' in one sentence and name the two broad mechanisms through which every society maintains it, as per the NCERT textbook.",
+     "a": "Social order is the tendency within established social systems to resist and regulate change by actively maintaining and reproducing particular patterns of social relations, values, and norms. The two broad mechanisms are: (1) spontaneous consent derived from shared values and norms internalised through socialisation, and (2) compulsion/coercion through power, domination, and law. A wrong answer that only mentions 'laws' or 'police' reveals the misconception that social order relies solely on external force, ignoring the foundational role of internalised norms. A wrong answer that says 'social order means no change' confuses stability with stagnation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why social change can only be understood *against the backdrop of social order*. Use the analogy of 'letters on a page' from the textbook in your own words.",
+     "a": "Social change is like the letters on a page: the letters (change) become legible and meaningful only because they contrast with the white background (social order/continuity). If the entire page were black (constant, total change), no letter could be distinguished; if the page were all white (absolute stasis), there would be no letters to read. Social order provides the stable, predictable structure — recurring patterns of behaviour, enduring institutions — that makes a deviation (change) identifiable as a 'change' rather than random noise. A wrong answer that says 'change destroys order' misses the dialectical relationship: order persists *through* limited change, and change requires order to have direction and scale.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat dominated by a landowning caste introduces a new rule: 'No tenant farmer may sell produce directly to the city market; all sales must go through the panchayat-appointed middleman.' Identify (a) which mechanism of social order this represents, (b) whose vested interest it protects, and (c) why subordinate groups might still comply despite exploitation.",
+     "a": "(a) This represents the mechanism of **compulsion/coercion through power and domination** — the panchayat uses its authoritative position to enforce a rule backed by sanctions (social boycott, denial of credit, physical threat). (b) It protects the vested interest of the **dominant landowning caste** who control the middleman system and extract surplus from tenant farmers. (c) Subordinate groups comply because: (i) they lack alternative employment/support (economic dependence), (ii) the village's small size and lack of anonymity make dissent easily identifiable and punishable, (iii) socialisation has internalised norms of deference to dominant castes. A wrong answer that says 'farmers comply because they agree it's fair' reveals the misconception that domination always requires explicit consent; it ignores structural coercion and the 'forced cooperation' discussed in Chapter 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'domination' and 'authority' using Max Weber's concept of legitimation. Give one example of each from contemporary Indian urban life.",
+     "a": "**Domination** is a stable, settled relationship of power where a person/group habitually makes others do things regardless of their will; it may or may not be seen as legitimate. **Authority** (Weber) is *legitimate power* — power accepted as justified, proper, and rightful by those subject to it. Authority rests on legitimation (belief in its validity); domination can rest on sheer force. Example of authority: A traffic police officer stopping a car — citizens obey because they accept the legal-rational authority vested in the uniform and the Motor Vehicles Act. Example of domination without full legitimation: A local 'dada' (strongman) in a slum controlling water supply through intimidation — residents comply out of fear, not belief in his right to rule. A wrong answer that treats them as synonyms misses the crucial role of *shared belief* in converting naked power into stable authority, which reduces the cost of enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Universal adult franchise is the single biggest political change in history because it fundamentally altered social order.' Use the textbook's arguments about redistribution of power and legitimation.",
+     "a": "The statement is **largely correct but incomplete**. Universal adult franchise (UAF) *did* radically redistribute power by making legitimacy dependent on popular consent rather than divine right or property ownership, forcing even non-democratic regimes to *perform* elections. This altered social order by: (1) making governments accountable to the poor/marginalised, (2) creating a normative pressure (legitimation) that 'one person, one vote' is the only just basis of rule. However, UAF alone did not *automatically* transform deep social orders like caste, patriarchy, or class — dominant groups adapted by capturing parties, using money/muscle power, or manipulating electoral boundaries. The textbook notes: 'this did not abolish all inequalities of previous eras.' A nuanced evaluation acknowledges UAF as a necessary *political* rupture that *enabled* further social struggles, but not a sufficient *social* transformation by itself. A wrong answer that says 'UAF changed everything' ignores persistent structural inequalities; one that says 'UAF changed nothing' ignores the shift in the *source of legitimacy*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example (not from the textbook) of a 'gated community' in an Indian city that illustrates how social order is maintained through *both* spontaneous consent (shared values) and compulsion (rules/enforcement). Describe the community's rules, the residents' shared identity, and the enforcement mechanism.",
+     "a": "**Example:** 'Greenwoods Enclave', a luxury housing society in Gurugram. **Shared values/consent:** Residents (mostly upper-middle-class professionals) share a norm of 'aesthetic uniformity, silence, and exclusivity' — they *want* a space free from street vendors, loud music, and 'outsiders'. This is internalised: they voluntarily follow rules on paint colours, pet sizes, and visitor parking. **Compulsion/enforcement:** The Resident Welfare Association (RWA) imposes fines for violations (e.g., ₹5,000 for unauthorized exterior modification), controls entry via biometric gates manned by private security, and can legally evict tenants for repeated breaches. The *boundary wall and gate* physically embody the exclusion that maintains their specific social order. A poor answer would describe only the walls/guards (compulsion) or only the residents' preferences (consent), missing the *combination* that the textbook emphasises: 'Every society employs a combination of these methods.'",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

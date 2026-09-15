@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_004",
+   "title": "c11_stat_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the formula for weighted arithmetic mean and define each symbol used. Under what condition does the weighted arithmetic mean become equal to the simple arithmetic mean?",
+     "a": "The formula is \\(\\bar{X}_w = \\frac{\\sum w_i x_i}{\\sum w_i}\\), where \\(x_i\\) are the values and \\(w_i\\) are the corresponding weights (non-negative, not all zero). It equals the simple arithmetic mean when all weights are equal (i.e., \\(w_1 = w_2 = \\dots = w_n\\)). A wrong answer (e.g., forgetting the denominator or confusing \\(w_i\\) with frequencies) reveals the student does not distinguish between frequency (count of occurrences) and weight (assigned importance), a critical confusion in grouped data vs. weighted data.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the weighted mean of marks 80, 70, 90 with weights 2, 3, 5 as \\(\\frac{80+70+90}{3} = 80\\). Explain why this is incorrect and compute the correct weighted mean.",
+     "a": "The student used the simple arithmetic mean formula, ignoring the weights entirely. The correct calculation: \\(\\frac{(80\\times2)+(70\\times3)+(90\\times5)}{2+3+5} = \\frac{160+210+450}{10} = \\frac{820}{10} = 82\\). A wrong answer indicates the student treats weights as optional labels rather than multiplicative factors that shift the mean toward higher-weighted values.",
+     "self_check": true
+    },
+    {
+     "q": "The prices (₹/kg) of three commodities are: Rice ₹40, Wheat ₹25, Pulses ₹80. A family spends 50% of its food budget on rice, 30% on wheat, and 20% on pulses. Calculate the weighted arithmetic mean price per kg using budget shares as weights. Interpret the result.",
+     "a": "Weights are budget shares: \\(w_1=0.5, w_2=0.3, w_3=0.2\\). Weighted mean = \\(\\frac{(40\\times0.5)+(25\\times0.3)+(80\\times0.2)}{0.5+0.3+0.2} = \\frac{20+7.5+16}{1} = ₹43.5/\\text{kg}\\). This represents the average price per kg of the food basket as actually consumed. An incorrect answer (e.g., simple mean ₹48.33) shows the student fails to recognize that budget shares are weights summing to 1, and that the weighted mean reflects the family's actual expenditure pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the simple arithmetic mean and weighted arithmetic mean for the data: Values = [100, 200, 300], Weights = [1, 2, 3]. Which mean is larger? Explain analytically why the weighted mean shifts in that direction without calculating the exact values.",
+     "a": "Simple mean = 200. Weighted mean = \\(\\frac{100+400+900}{6} = \\frac{1400}{6} \\approx 233.33\\). The weighted mean is larger because higher weights are assigned to larger values (300 has weight 3, 100 has weight 1). The weighted mean is pulled toward the values with larger weights. A student who cannot explain this directional shift without calculation lacks conceptual understanding of weighting as a \"gravitational pull\" on the mean.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher computes the class average using two methods: (A) simple mean of all students' marks, (B) weighted mean where each student's weight is their attendance percentage. Method B gives a higher average. The teacher claims \"Method B is better because it rewards regular students.\" Evaluate this claim statistically.",
+     "a": "The claim confuses statistical representation with normative judgment. Method B does not \"reward\" students; it computes the average mark per unit of attendance, which answers a different question: \"What is the typical mark of a student who attends 100% of classes?\" If attendance correlates with marks, Method B will be higher, but it no longer represents the class average mark. The weighted mean is appropriate only when weights reflect the genuine importance of each observation for the research question (e.g., budget shares in price index). A wrong evaluation shows the student cannot distinguish between descriptive statistics and incentive design.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context, using ₹, kg, or litres) where the weighted arithmetic mean is the ONLY appropriate average, and the simple arithmetic mean would be misleading. Provide the data, weights, and both means, then explain why the weighted mean is correct.",
+     "a": "Example: A farmer sells three crops: Wheat (500 kg at ₹22/kg), Rice (300 kg at ₹35/kg), Millet (200 kg at ₹18/kg). Simple mean price = ₹25/kg. Weighted mean (weights = quantities) = \\(\\frac{500\\times22 + 300\\times35 + 200\\times18}{1000} = \\frac{11000+10500+3600}{1000} = ₹25.1/\\text{kg}\\). The simple mean misleads because it treats each crop equally despite vastly different quantities sold. The weighted mean gives the true average revenue per kg. A poor answer uses trivial weights (e.g., 1,2,3) or contexts where simple mean suffices (equal importance), showing inability to identify situations requiring differential importance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

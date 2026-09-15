@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_008",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_008",
+   "title": "c7_geo_ch03_008",
+   "questions": [
+    {
+     "q": "What is the primary factor that determines whether a region in India practices subsistence farming of rice or commercial farming of wheat?",
+     "a": "The correct answer is the regional climate, specifically temperature and annual rainfall availability. A wrong answer usually confuses climate with soil type alone, missing that even the most fertile soil cannot grow water-intensive crops like rice without sufficient monsoon rainfall or irrigation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do regions with arid climates, such as parts of western Rajasthan, have economies heavily focused on livestock rearing rather than large-scale crop production?",
+     "a": "Arid climates receive very low and erratic annual rainfall, making sustained crop cultivation extremely risky and difficult without massive irrigation canals. Livestock rearing is more resilient because hardy animals like sheep and goats can survive on sparse desert vegetation. A wrong answer assumes soil is always the main barrier, ignoring that water scarcity is the defining climatic limit in deserts.",
+     "self_check": true
+    },
+    {
+     "q": "A region in the Deccan Plateau experiences an average annual rainfall of less than 750 mm, which is unevenly distributed across months. If a farmer wants to maximize yield with minimal water loss, which crop combination should they select based on climate adaptation?\nA) Rice and Sugarcane\nB) Jowar (Sorghum) and Bajra (Pearl Millet)\nC) Wheat and Tea\nD) Jute and Rubber",
+     "a": "The correct answer is B. \nStep 1: Identify the climatic condition (Deccan Plateau, less than 750 mm rainfall, erratic distribution).\nStep 2: Recall water requirements for different crops (Rice and sugarcane need high water; wheat needs moderate cool water; millets are drought-resistant).\nStep 3: Match drought-resistant millets (Jowar and Bajra) to the low-rainfall plateau climate.\nStep 4: Conclude that millets are best suited for survival and yield in semi-arid conditions. A wrong answer indicates the student thinks all grains have the same water requirements regardless of climate.",
+     "self_check": true
+    },
+    {
+     "q": "How does a failure or delay of the Southwest Monsoon directly impact India's banking and manufacturing sectors, beyond just affecting farmers?",
+     "a": "When the monsoon fails, agricultural output drops, lowering rural household incomes and purchasing power. This leads to reduced demand for manufactured goods like tractors, fertilizers, and consumer items, while also increasing food inflation and straining bank loans given to farmers. A wrong answer assumes agriculture operates in isolation from the rest of the national economy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"With modern tube-wells and chemical fertilizers, regional climate no longer dictates agricultural patterns in India.\" Is this statement accurate?",
+     "a": "The statement is inaccurate. While technology and irrigation help supplement water and nutrients, they cannot completely overcome climatic barriers such as extreme heat, frost, or total lack of monsoon rainfall. Over-reliance on groundwater extraction in arid or semi-arid zones without adequate rainfall replenishment leads to severe environmental and economic crises. A wrong answer overestimates human technology while ignoring fundamental natural energy and water cycles governed by climate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a seasonal farming and economic plan for a newly developed agricultural district that experiences high monsoon rainfall (above 200 cm) followed by a warm, dry winter. Propose the main crops and secondary economic activities for both seasons.",
+     "a": "A strong answer proposes growing water-intensive Kharif crops like rice during the monsoon season, followed by drought-tolerant Rabi crops or pulses using residual soil moisture in winter, supported by agro-processing industries like rice mills. A poor answer suggests growing desert crops in high rainfall zones or ignores the seasonal shift in temperature and water availability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_001",
+   "title": "c12_phy_cbse_01_001",
+   "questions": [
+    {
+     "q": "A glass rod rubbed with silk acquires a charge of +3.2 × 10⁻¹⁹ C. How many electrons were transferred from the rod to the silk? (e = 1.6 × 10⁻¹⁹ C)",
+     "a": "2 electrons were transferred. The rod lost electrons, so its charge is positive. Number of electrons n = q/e = (3.2 × 10⁻¹⁹)/(1.6 × 10⁻¹⁹) = 2. A wrong answer of 1 or 3 reveals the student either used the wrong sign convention or divided incorrectly. A wrong answer of 2 × 10¹⁹ reveals confusion between macroscopic and microscopic charge scales.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical metal spheres A and B have charges +6 μC and –2 μC respectively. They are brought into contact and then separated. What is the final charge on each sphere? Explain why the total charge before and after contact is the same.",
+     "a": "Final charge on each sphere = +2 μC. Total initial charge = +4 μC. After contact, charges redistribute equally (identical spheres) so each gets +2 μC. Total final charge = +4 μC. Conservation of charge holds because no charge is created or destroyed — only redistributed. A student who says \"charge is lost\" or gives final charges as +6 μC and –2 μC misunderstands both additivity and conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A polythene piece rubbed with wool gains a negative charge of 4.8 × 10⁻⁷ C. (a) Estimate the number of electrons transferred. (b) Is there a transfer of mass from wool to polythene? If yes, how much? (mass of electron = 9.1 × 10⁻³¹ kg)",
+     "a": "(a) n = 3 × 10¹² electrons transferred from wool to polythene. (b) Yes, mass transferred = n × mₑ = 2.73 × 10⁻¹⁸ kg. Steps: n = |q|/e = (4.8 × 10⁻⁷)/(1.6 × 10⁻¹⁹) = 3 × 10¹². Mass = (3 × 10¹²) × (9.1 × 10⁻³¹) = 2.73 × 10⁻¹⁸ kg. A wrong answer in (a) like 3 × 10⁷ reveals unit mismatch (using μC instead of C). A \"no\" in (b) shows the student doesn't realize electrons have mass.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is correct and why:\nStatement X: \"A body can have a charge of 1.5 × 10⁻¹⁹ C.\"\nStatement Y: \"A body can have a charge of 2.4 × 10⁻¹⁹ C.\"\nGiven e = 1.6 × 10⁻¹⁹ C.",
+     "a": "Statement Y is correct because 2.4 × 10⁻¹⁹ C = 1.5e, but n must be an integer. Wait — 2.4/1.6 = 1.5, not integer! Actually both are impossible. The correct statement would be 3.2 × 10⁻¹⁹ C (n=2). The student must recognize that q must be an integer multiple of e. If they pick Y, they incorrectly computed 2.4/1.6 = 1.5 and thought it's valid. If they say both are possible, they don't understand quantization.",
+     "self_check": true
+    },
+    {
+     "q": "In a closed system, a neutron decays into a proton and an electron. The proton has charge +e, electron has charge –e. A student argues: \"Charge is not conserved because two charged particles were created from a neutral one.\" Evaluate this argument.",
+     "a": "The argument is wrong. Total charge before decay = 0 (neutron is neutral). Total charge after decay = +e + (–e) = 0. Charge is conserved. The student confused \"creation of charged particles\" with \"creation of net charge.\" The error reveals a misunderstanding that conservation applies to net charge, not to the number of charged particles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a gold-leaf electroscope, a glass rod, silk cloth, and a plastic rod to demonstrate (a) additivity of charge, (b) conservation of charge, and (c) that like charges repel. Describe the steps and expected observations.",
+     "a": "(a) Touch electroscope with charged glass rod (+q), leaves diverge. Then touch with charged plastic rod (–q), divergence decreases. Net charge = algebraic sum. (b) Rub glass rod with silk: rod gets +q, silk gets –q. Bring both near electroscope (without touching): no net divergence. Total charge zero — conserved. (c) Charge two glass rods by rubbing with silk. Bring near each other: they repel. A poor answer would miss the algebraic sign in (a), or claim charge is created in (b), or confuse attraction/repulsion in (c).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

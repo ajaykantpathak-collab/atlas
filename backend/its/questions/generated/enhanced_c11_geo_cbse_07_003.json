@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_003",
+   "title": "c11_geo_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define sinuosity index and state its typical range for a meandering river. How would you calculate it from a 1:50,000 topographic map?",
+     "a": "Sinuosity index = channel length / valley length (straight-line distance between two points along the valley axis). For meandering rivers, it typically ranges from 1.5 to 3.0; straight channels < 1.5, braided channels variable. To calculate from a topo map: measure the curvilinear channel distance along the blue river line between two points using a divider or string, then measure the straight-line valley distance between the same points; divide the former by the latter. A wrong answer (e.g., giving a value < 1.0 or confusing with meander wavelength) reveals the student cannot distinguish between dimensionless ratio indices and dimensional length parameters, or cannot extract measurements from a map.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the thalweg migrates toward the outer bank in a meander bend, and describe the resulting cross-sectional asymmetry of the channel.",
+     "a": "Helicoidal flow (secondary circulation) drives surface water toward the outer bank due to centrifugal force, while bottom water moves toward the inner bank to conserve mass. This creates high-velocity, high-shear-stress flow at the outer bank causing erosion (cut bank), and low-velocity deposition at the inner bank forming a point bar. The cross-section becomes asymmetric: deep, steep outer bank (often > 60° slope) and shallow, gently sloping inner bank (point bar at 5–15°). A wrong answer attributing outer bank erosion solely to \"faster water\" without mentioning helicoidal flow or centrifugal force reveals a middle-school level understanding missing the three-dimensional flow structure essential at Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "A meander bend on the Yamuna River has a channel width of 300 m. Using empirical relationships, estimate: (a) meander wavelength, (b) radius of curvature, (c) meander amplitude. Show calculations.",
+     "a": "Empirical relations (Leopold & Wolman, 1960): (a) Wavelength (λ) ≈ 10–14 × width = 10×300 to 14×300 = 3,000–4,200 m. (b) Radius of curvature (Rc) ≈ 2–3 × width = 2×300 to 3×300 = 600–900 m. (c) Amplitude (A) ≈ 0.5–1.0 × wavelength = 1,500–4,200 m (typically A ≈ λ/2 to λ). A wrong answer using random multipliers or confusing radius with amplitude shows the student has not internalized the geometric scaling laws that link channel dimensions to planform geometry — a core quantitative skill for board exam map-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast neck cutoff and chute cutoff in meander evolution. Under what hydraulic conditions does each dominate?",
+     "a": "Neck cutoff: occurs when the narrow neck between two adjacent meander loops is breached during overbank flow (high discharge, flood stage), creating a shorter, steeper channel that captures the flow; dominant in high-sinuosity rivers (sinuosity > 2.5) with wide floodplains where loops migrate laterally and approach each other. Chute cutoff: occurs when a new channel cuts across the point bar (inner bank) during very high flows, often where the point bar is low or vegetated; dominant in lower-sinuosity rivers or where sediment supply is high, causing rapid point bar aggradation. A wrong answer conflating the two or ignoring the role of flood magnitude and point bar topography reveals inability to analyze planform evolution as a competition between lateral migration and vertical aggradation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Floodplains are formed primarily by vertical accretion of overbank deposits during floods.\" Support your evaluation with evidence from floodplain stratigraphy.",
+     "a": "The statement is incomplete. Floodplains form by TWO processes: (1) Lateral accretion — point bar deposits (coarse sand/gravel) laid down as meanders migrate laterally, forming the bulk of floodplain thickness (often 80–90% of volume); (2) Vertical accretion — fine silt/clay deposited from suspension during overbank floods, forming a thin veneer (meters thick) atop lateral accretion deposits. Natural levees (coarser, proximal to channel) and backswamps (finer, distal) are vertical accretion features. A student agreeing wholly reveals a misconception that floodplains are only \"flood deposits,\" missing the dominant role of channel migration — a critical error for interpreting borehole logs or geological cross-sections in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to determine the migration rate of a meander bend on the Ghaghara River over the past 50 years. Specify data sources, measurements, and calculation method.",
+     "a": "Data sources: Survey of India topographic maps (1970s, 2000s), satellite imagery (Landsat 1980s–present, Sentinel-2 recent), historical aerial photos. Measurements: digitize channel centerlines for each epoch; measure perpendicular offset of a fixed reference point (e.g., apex of a meander loop) relative to a stable baseline (valley wall or railway line). Calculation: migration rate = total lateral displacement (m) / time interval (years). Validate with ground-truthed cut bank erosion pins. A poor answer relying only on \"Google Earth timelapse\" without georeferencing, baseline control, or error estimation shows lack of rigor in spatial analysis — a key competency for geographical investigation projects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

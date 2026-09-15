@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_009",
+   "title": "c12_bs_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define GST in one sentence and name the constitutional amendment that enabled it.",
+     "a": "GST is a comprehensive, destination-based, multi-stage indirect tax on supply of goods and services, enabled by the 101st Constitutional Amendment Act, 2016. A wrong answer (e.g., \"GST is a direct tax\" or \"enabled by 99th Amendment\") reveals confusion between direct/indirect tax classification or lack of awareness of the specific constitutional basis — a common error in board exams where amendment numbers are tested.",
+     "self_check": true
+    },
+    {
+     "q": "Why is GST called a \"destination-based tax\"? Explain with a simple intra-state vs inter-state example.",
+     "a": "GST is destination-based because tax revenue accrues to the state where goods/services are consumed, not where they originate. Example: A Mumbai manufacturer sells to a Delhi buyer. Under pre-GST CST, revenue went to Maharashtra (origin). Under GST, IGST is levied by Centre, but the SGST component is transferred to Delhi (destination). A wrong answer focusing only on \"tax collected at destination\" without explaining the revenue-sharing mechanism (IGST settlement between Centre and states) shows superficial understanding — competitive exams often test the IGST settlement process.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer in Gujarat buys raw materials worth ₹5,00,000 (plus GST @18%) and sells finished goods worth ₹8,00,000 (plus GST @18%) within Gujarat. Calculate net CGST and SGST payable.",
+     "a": "Step 1: Input CGST = Input SGST = 9% of ₹5,00,000 = ₹45,000 each. Step 2: Output CGST = Output SGST = 9% of ₹8,00,000 = ₹72,000 each. Step 3: Net CGST payable = ₹72,000 - ₹45,000 = ₹27,000. Net SGST payable = ₹72,000 - ₹45,000 = ₹27,000. Total net GST = ₹54,000. A wrong answer adding input and output tax (₹1,17,000) reveals failure to apply input tax credit mechanism — the core GST feature tested in both board and CUET numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-GST and post-GST logistics decision for a company distributing goods from a single warehouse in Maharashtra to customers across India. Analyze impact on warehouse strategy.",
+     "a": "Pre-GST: CST on inter-state sales (no credit) forced companies to maintain warehouses in every state to avoid CST, leading to fragmented inventory and higher warehousing costs. Post-GST: IGST on inter-state sales with full credit eliminates CST penalty, enabling consolidation into fewer large warehouses (hub-and-spoke model), reducing inventory carrying cost and improving delivery speed. A wrong answer stating \"GST increased warehousing costs\" or ignoring the CST credit blockage shows inability to connect tax structure to supply chain decisions — a frequent case-study question in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"GST has reduced the overall tax burden for all businesses.\" Provide two arguments supporting and two opposing this view.",
+     "a": "Supporting: (1) Removal of cascading effect lowers effective tax rate on value addition. (2) Input tax credit on services (previously unavailable to manufacturers) reduces cost. Opposing: (1) Multiple rate slabs (5%, 12%, 18%, 28%) and frequent rate changes create classification disputes and compliance costs. (2) Blocked credits (e.g., motor vehicles, personal expenses, exempt supplies) mean some embedded tax remains. A one-sided answer reveals lack of critical evaluation — board long-answer questions require balanced analysis with specific examples.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a small restaurant (turnover ₹1.2 crore) faces a compliance challenge under GST despite being eligible for the composition scheme. Propose a practical solution.",
+     "a": "Scenario: The restaurant sources packaged food items (GST 12%) and fresh vegetables (exempt) but sells composite meals. Under composition scheme, it pays 5% on turnover but cannot claim input credit on the 12% GST paid on packaged items, raising effective cost. Also, it cannot issue tax invoices, so corporate clients (who need ITC) refuse to order. Solution: Opt out of composition, register as regular taxpayer, claim ITC on packaged items, issue tax invoices to corporate clients — the ITC gain outweighs higher compliance. A poor answer suggesting \"stay in composition and absorb cost\" ignores the B2B competitiveness angle — competitive exams test scheme choice based on business model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

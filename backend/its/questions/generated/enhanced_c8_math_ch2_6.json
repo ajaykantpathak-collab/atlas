@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_6",
+   "title": "c8_math_ch2_6",
+   "questions": [
+    {
+     "q": "Write the prime factorisation of 84 in exponential form.",
+     "a": "Correct answer: 84 = 2² × 3¹ × 7¹ (or simply 2² × 3 × 7). A wrong answer like 84 = 2 × 42 or 84 = 4 × 21 reveals the student is not breaking factors down completely to primes. An answer like 2 × 2 × 3 × 7 without exponents shows they know prime factorisation but haven't connected it to exponential notation from c8_math_ch2_5.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 18 = 2 × 3² is the correct exponential prime factorisation, but 18 = 3² × 2¹ is also acceptable while 18 = 6 × 3 is not.",
+     "a": "Correct explanation: Prime factorisation requires all factors to be prime numbers. 6 is composite (2 × 3), so 6 × 3 is not a prime factorisation. The order of factors does not matter due to commutativity of multiplication, so 2 × 3² and 3² × 2¹ represent the same factorisation. Writing 2¹ is mathematically correct but conventionally omitted. A student who says \"3² × 2¹ is wrong because 2 should come first\" misunderstands commutativity. A student who accepts 6 × 3 doesn't grasp that prime factorisation must use only primes.",
+     "self_check": true
+    },
+    {
+     "q": "Find the number whose prime factorisation in exponential form is 2⁴ × 3² × 5.",
+     "a": "Working: 2⁴ = 16, 3² = 9, 5 = 5. Then 16 × 9 = 144, and 144 × 5 = 720. Answer: 720. A wrong answer like 2 × 4 × 3 × 2 × 5 = 240 reveals the student is multiplying the base by the exponent (2×4=8) instead of raising the base to the power. An answer of 2+4+3+2+5 = 16 shows complete confusion between addition and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Two students factorise 216. Student A writes 216 = 2³ × 3³. Student B writes 216 = 6³. Are both correct? Explain why or why not.",
+     "a": "Only Student A is correct. 2³ × 3³ = 8 × 27 = 216, and both 2 and 3 are primes. Student B's 6³ = 216 is numerically equal but 6 is not a prime number (6 = 2 × 3), so it is not a prime factorisation. A student who says \"both are correct because they equal 216\" confuses \"factorisation\" with \"prime factorisation\". This tests whether they understand the definition requires prime factors specifically.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate writes the prime factorisation of 450 as 2 × 3² × 5³. Identify the error and give the correct factorisation.",
+     "a": "Error: 5³ = 125, but 450 ÷ (2 × 9) = 450 ÷ 18 = 25 = 5², not 5³. The classmate likely divided by 5 three times instead of checking: 450 → 90 → 18 → 3.6 (not integer). Correct factorisation: 450 = 2 × 3² × 5². A student who cannot spot this error lacks the habit of verifying by multiplying back or using divisibility rules (c6_math_ch01_014) to check each step.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-digit number whose prime factorisation in exponential form uses exactly three different prime bases, where the largest exponent is 4 and the smallest exponent is 1. Write the number and its factorisation.",
+     "a": "Example: Choose primes 2, 3, 5. Let largest exponent 4 be on 2: 2⁴ = 16. Let smallest exponent 1 be on 5: 5¹ = 5. Let middle exponent be 2 on 3: 3² = 9. Number = 16 × 9 × 5 = 720 (3-digit, too small). Adjust: use 2⁴ × 3³ × 5¹ = 16 × 27 × 5 = 2160. Factorisation: 2⁴ × 3³ × 5. A poor answer like \"1000 = 10³\" uses a composite base. A student who cannot construct this lacks flexibility in working backwards from exponential form to the number.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

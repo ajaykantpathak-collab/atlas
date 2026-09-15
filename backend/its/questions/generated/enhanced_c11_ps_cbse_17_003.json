@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_003",
+   "title": "c11_ps_cbse_17_003",
+   "questions": [
+    {
+     "q": "What is the constitutional article number that mandates the establishment of a three-tier Panchayati Raj structure in every state (with an exception for small states)?",
+     "a": "Article 243B mandates a three-tier structure (village, intermediate, district) in every state, except states with a population not exceeding 20 lakh, which may omit the intermediate tier. A wrong answer (e.g., Article 40 or Article 243) reveals confusion between the Directive Principle (pre-amendment) and the operative constitutional provision, or ignorance of the specific article numbers introduced by the 73rd Amendment.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the 73rd Amendment distinguish between \"mandatory\" provisions (which states must follow) and \"discretionary\" provisions (which states may choose to implement)? Give one example of each.",
+     "a": "Mandatory provisions (e.g., three-tier structure, direct elections, reservation for SC/ST/women, five-year term, State Election Commission) ensure a uniform democratic floor across India, protecting the amendment's core intent from dilution by state legislatures. Discretionary provisions (e.g., giving voting rights to MPs/MLAs in Panchayats, devolution of specific powers from Eleventh Schedule) respect federal diversity and allow states to adapt PRIs to local contexts. A wrong answer that treats all provisions as mandatory shows misunderstanding of the federal balance; treating all as discretionary misses the amendment's transformative purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law postponing Panchayat elections by two years citing \"financial constraints.\" Using the 73rd Amendment, explain whether this is constitutionally permissible and which specific article is violated.",
+     "a": "Not permissible. Article 243E(1) mandates that every Panchayat shall continue for five years from its first meeting, and elections must be completed before the expiry of that term. Article 243E(3) allows dissolution only before the five-year term, but fresh elections must be held within six months. Postponement beyond the five-year term violates the constitutional guarantee of regular elections. A wrong answer citing \"state government's administrative powers\" reveals the pre-amendment mindset where Panchayats were state subjects without constitutional protection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reservation mechanism for women in the 73rd Amendment (Article 243D) with the reservation for SCs/STs. How does the \"rotation of reserved seats\" provision address a specific democratic concern?",
+     "a": "Both provide for reservation in proportion to population (SCs/STs) and not less than one-third (women), including chairperson positions. However, SC/ST reservation is based on population share, while women's reservation is a fixed minimum floor (1/3, now 50% in many states). The rotation provision (Article 243D(4)) mandates that reserved seats be allotted by rotation to different constituencies, preventing the entrenchment of local elites in \"safe seats\" and ensuring broader representation over time. A wrong answer that ignores rotation misses a key safeguard against the perpetuation of power in reserved constituencies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The 73rd Amendment failed because most states have not devolved the 29 subjects in the Eleventh Schedule to Panchayats, making them toothless.\" Is this a fair assessment of the Amendment's design or its implementation?",
+     "a": "This critiques implementation, not design. The Amendment's design (Article 243G) deliberately used \"may\" (discretionary) for devolution of powers/responsibilities, leaving the actual transfer to state legislatures. This was a political compromise to secure passage. The mandatory provisions (structure, elections, reservations, finance commissions) created the institutional architecture; the discretionary devolution left the \"teeth\" to state political will. A fair evaluation distinguishes constitutional mandate from legislative action. A wrong answer blaming the Amendment's text for lack of devolution misreads Article 243G's permissive language.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a \"Model Panchayat Devolution Act\" that a state legislature could pass to operationalize the Eleventh Schedule, ensuring both functional clarity and fiscal autonomy. Include at least three design principles from the 73rd Amendment.",
+     "a": "A strong proposal would: (1) map each of the 29 subjects to specific Panchayat tiers (activity mapping) to avoid overlap, (2) mandate that the State Finance Commission's recommendations on tax-sharing and grants be binding on the state government (strengthening Article 243I), (3) create a separate Panchayat service cadre to prevent bureaucratic capture, and (4) establish a District Planning Committee (Article 243ZD) to integrate Panchayat plans with urban plans. A poor proposal merely lists subjects without addressing fiscal/administrative accountability, revealing a misunderstanding that devolution requires both functions and funds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

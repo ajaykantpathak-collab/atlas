@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_11_012",
+   "title": "c11_eng_h_cbse_11_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in poetry analysis?",
+     "a": "A literal question's answer is explicitly stated in the poem (e.g., \"At what age did the poet cease to be a child?\" → \"eleven\"), while an inferential question's answer must be derived by logically connecting two or more explicit details (e.g., \"Why does the poet associate adulthood with hypocrisy?\" requires linking the \"Hell and Heaven\" stanza with the \"my mind was really mine\" stanza). A wrong answer (e.g., \"Inferential questions are just opinions\") reveals the student thinks inference means personal guesswork rather than text-based deduction.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"Childhood,\" the poet writes: \"When did my childhood go? / Was it the day I ceased to be eleven?\" If a question asks, \"What specific age does the poet mention as the end of childhood?\" is this literal or inferential? Explain your reasoning.",
+     "a": "This is a literal comprehension question because the answer \"eleven\" is directly stated in the text (\"ceased to be eleven\") and requires no interpretation or connection of ideas. A wrong answer (e.g., \"It is inferential because the poet is reflecting on the past\") reveals the student confuses the reflective tone of the poem with the question type; they mistake the *poet's* inference for the *question's* demand.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this new question on \"Childhood\": \"What does the poet realize about adults in the stanza beginning 'When did my childhood go? / Was it the time I realised that Hell and Heaven / Could not be found in Geography'?\" Classify the question and draft a 2-sentence answer using textual evidence.",
+     "a": "Classification: Inferential. The poem explicitly states adults \"talked of love\" but \"did not act so lovingly,\" but the question asks what the poet *realizes*—a mental conclusion. The answer must combine the Geography reference (abstract concepts not on maps) with the hypocrisy observation. A correct answer: \"The poet realizes adults are hypocritical because they preach concepts like love (Hell/Heaven) that cannot be located physically, yet their actions contradict their words.\" A wrong answer (e.g., \"Adults don't know Geography\") reveals the student takes the metaphor literally and misses the inference about moral hypocrisy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following student answer to an inferential question: \"Question: Why does the poet say his childhood went to 'some forgotten place'? Answer: Because he grew up and became an adult, so he forgot his childhood.\" Identify the two specific errors in this answer relative to the poem's actual text and the demands of inferential reasoning.",
+     "a": "Error 1: The poem never says \"some forgotten place\"—the student invented a phrase not in the text (the poem says \"forgotten place\" is not used; the last stanza says \"It went to some forgotten place, / That's hidden in an infant's face\"). Error 2: The answer states a general life fact (\"grew up\") instead of deriving the specific poetic inference: childhood is not lost by mere aging but survives hidden in innocence (infant's face). A wrong analysis (e.g., \"The answer is correct because growing up means forgetting\") reveals the student cannot distinguish between a life summary and a text-grounded poetic inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For the poem 'Childhood,' literal questions are easier to answer than inferential questions, so students should focus only on memorizing lines for the exam.\" Defend or refute using the CBSE marking scheme's emphasis on textual evidence.",
+     "a": "Refute. CBSE marking schemes allocate marks for *both* types, but inferential questions often carry higher weight (3-6 marks) because they test analytical depth. Memorizing lines helps literal questions (1-2 marks) but fails inferential ones where you must *synthesize* lines (e.g., connecting \"my mind was really mine\" with \"producing thoughts that were not those of other people\" to explain individuality). A student who only memorizes cannot answer \"How does the poet link independent thinking to the loss of childhood?\" A wrong evaluation (e.g., \"Memorizing is enough because questions repeat\") reveals ignorance of the board's shift toward competency-based questions requiring application, not recall.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question on \"Childhood\" that requires connecting the \"Hell and Heaven\" stanza with the final stanza about the \"infant's face.\" Provide the ideal answer structure (Point, Evidence 1, Evidence 2, Explanation).",
+     "a": "Question: \"How does the poet suggest that the innocence of childhood (represented by the infant's face) contrasts with the hypocrisy of adulthood (represented by the Hell/Heaven realization)?\" Ideal structure: Point: Childhood innocence is the only truth untouched by adult hypocrisy. Evidence 1: Adults \"talked of love\" but \"did not act so lovingly\" (Hell/Heaven stanza). Evidence 2: Childhood \"went to some forgotten place, / That's hidden in an infant's face\" (final stanza). Explanation: The infant's face symbolizes pre-hypocrisy purity; the \"forgotten place\" is not lost but preserved in those untouched by adult duality. A poor answer (e.g., \"Babies are innocent, adults are not\") reveals the student cannot structure a multi-evidence inference or use the poem's specific symbols.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_003",
+   "title": "c11_geo_cbse_12_003",
+   "questions": [
+    {
+     "q": "Name the eight soil groups in the ICAR classification and state the single most visible field characteristic (e.g., colour) used to identify each group in a quick survey.",
+     "a": "The eight groups are: 1) Alluvial (light grey to ash grey), 2) Black (deep black), 3) Red (red to reddish-brown), 4) Laterite (brick red), 5) Forest/Mountain (dark brown), 6) Arid/Desert (pale brown to yellowish), 7) Saline/Alkaline (white/grey surface crust), 8) Peaty/Marshy (dark brown to black, organic-rich). A wrong answer (e.g., missing Saline/Alkaline or confusing Red with Laterite) reveals the student is relying on vague Class 10 categories rather than the precise ICAR framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ICAR classification uses 'genesis' (mode of formation) as a primary criterion instead of just colour or texture, using the example of Alluvial and Black soils which can both appear dark in the field.",
+     "a": "Genesis reflects the fundamental processes (fluvial deposition vs. in-situ weathering of basalt) that determine long-term fertility, drainage, and management needs. Alluvial soils are transported sediments with stratified layers; Black soils are residual, formed from Deccan basalt, with high clay and shrink-swell capacity. A student who says \"colour is enough\" fails to grasp that classification must predict behaviour, not just appearance – a core senior secondary shift from descriptive to analytical geography.",
+     "self_check": true
+    },
+    {
+     "q": "Given an outline map of India showing the Deccan Plateau, Indo-Gangetic Plain, Western Ghats, and Thar Desert, shade and label the dominant ICAR soil group for each region. Justify each mapping using the link between physiography and soil genesis.",
+     "a": "Step 1: Indo-Gangetic Plain → Alluvial soil (fluvial deposition by Himalayan rivers). Step 2: Deccan Plateau → Black soil (in-situ weathering of basalt). Step 3: Western Ghats (windward) → Laterite soil (intense leaching under high rainfall). Step 4: Thar Desert → Arid soil (aeolian deposition, low weathering). Step 5: Verify: Each mapping connects a landform (from c6_geography_ch01) to a soil genesis process. Incorrect mappings (e.g., Black soil on Indo-Gangetic Plain) show inability to link parent material and process to location.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ICAR classification with the older USDA (Soil Taxonomy) order-level classification. Why does ICAR retain a separate 'Peaty/Marshy' group while USDA subsumes it under Histosols? What does this reveal about Indian agricultural priorities?",
+     "a": "ICAR separates Peaty/Marshy soils because they occupy significant extents in Kerala (Kuttanad), Odisha (Chilika), and Sundarbans, requiring unique water management for paddy. USDA's Histosols are a global order; ICAR's group highlights a nationally significant resource for rice cultivation. A student who cannot articulate this shows they memorize lists but miss the policy-relevance principle: **classifications serve the decisions they inform.**",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The ICAR eight-group classification is sufficient for all agricultural planning in India.\" Consider the diversity within the Alluvial group (Khadar vs. Bangar, coastal vs. deltaic) and the Black soil group (shallow vs. deep).",
+     "a": "The statement is false. The eight groups are macro-level; effective planning requires sub-group differentiation. Example: Khadar (new alluvium) is annually renewed, highly fertile, needs less fertilizer; Bangar (old alluvium) has kankar nodules, poorer drainage, needs gypsum. Similarly, shallow Black soil (30-50 cm) suits pulses; deep Black soil (>1 m) supports cotton. A student agreeing with the statement misses the hierarchical nature of geographical classification – overview → detail.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page 'Soil Identification Key' for a Class 10 field trip to a region spanning the Eastern Ghats (Red soil), Deccan Plateau (Black soil), and Krishna Delta (Alluvial soil). The key must use only observable field properties (colour, texture, effervescence with HCl, landscape position) and fit on an A5 card.",
+     "a": "A good key uses a dichotomous structure: 1a. Landscape: active floodplain/delta → Alluvial (stratified, effervesces). 1b. Not floodplain → 2. 2a. Colour: deep black, cracks in summer, sticky → Black soil. 2b. Colour: red/reddish, no cracks → 3. 3a. On Eastern Ghats slopes, gritty, low clay → Red soil. 3b. On plateau tops, brick red, pisolitic → Laterite. Poor keys list properties without decision logic, showing inability to operationalize classification for fieldwork.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

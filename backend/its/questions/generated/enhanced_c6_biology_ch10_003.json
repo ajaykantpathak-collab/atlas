@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch10_003",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch10_003",
+   "title": "c6_biology_ch10_003",
+   "questions": [
+    {
+     "q": "What is the main function of the specialized conducting tissues found in a plant's stem?",
+     "a": "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant. A wrong answer suggests the student thinks these tissues only provide physical support, ignoring their essential role in moving nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "If a plant's leaves produce sugar, why does the plant need to transport that sugar to the roots?",
+     "a": "The roots cannot make their own food because they are underground and lack sunlight; therefore, they rely on the sugar transported from the leaves. A wrong answer reveals the misconception that all parts of a plant produce their own food independently.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a plant where the \"upward\" conducting tubes are blocked. What will happen to the leaves?",
+     "a": "The leaves will wilt or stop growing because they will not receive the water and minerals required to function. This shows the student can apply the concept of transport to predict a specific biological outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transport of water/minerals with the transport of sugars in a plant regarding their direction.",
+     "a": "Water and minerals move in one direction (upward from roots), while sugars move to all parts of the plant, including downward to the roots. A wrong answer indicates the student has not grasped the \"two-way\" nature of plant internal traffic.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to say that plants are \"standing still\" and therefore have no internal movement? Justify your answer.",
+     "a": "No, it is inaccurate because even though a plant is stationary, there is constant internal movement of water, minerals, and sugars through its specialized tissues. This requires the student to critique the appearance of stillness versus the reality of physiological activity.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to design a model of a plant's transport system using household items, what would you use to represent the stem and the conducting tissues?",
+     "a": "A good answer would use a bundle of plastic straws (representing tissues) inside a cardboard tube (representing the stem). A poor answer fails to identify that transport requires separate paths for different substances.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

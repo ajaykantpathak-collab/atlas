@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_8",
+   "title": "c8_math_ch14_8",
+   "questions": [
+    {
+     "q": "What is the standard convention for counting a square that is exactly half covered by an irregular shape on grid paper?",
+     "a": "A half-covered square counts as 0.5 square units. A wrong answer (e.g., counting it as 1 or 0) reveals the student does not understand the averaging principle: two half squares combine to make one full square, so each must contribute half the area.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we count squares that are more than half covered as 1 full square, but squares less than half covered as 0?",
+     "a": "This convention balances overestimation and underestimation: the extra area in \"more than half\" squares roughly compensates for the missed area in \"less than half\" squares. A student who says \"we should count them as 0.5 too\" misunderstands that the rule is a practical approximation, not an exact fractional measurement.",
+     "self_check": true
+    },
+    {
+     "q": "On 1 cm grid paper, an irregular shape covers 18 full squares, 6 half squares, 7 squares more than half, and 9 squares less than half. What is the estimated area in cm²?",
+     "a": "Step 1: Full squares = 18 × 1 = 18 cm². Step 2: Half squares = 6 × 0.5 = 3 cm². Step 3: More than half = 7 × 1 = 7 cm². Step 4: Less than half = 9 × 0 = 0 cm². Total = 18 + 3 + 7 = 28 cm². A wrong answer like 31 (counting half as 1) or 25 (ignoring more-than-half) shows misapplication of the counting rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the grid counting method with decomposing an irregular shape into rectangles and triangles. When would you choose grid counting over decomposition?",
+     "a": "Grid counting is better for highly irregular, curved, or organic shapes (like a leaf, lake on a map) where decomposition into standard polygons is impossible or requires many pieces. Decomposition is better for shapes with straight edges that split neatly into rectangles/triangles. A student who says \"always use decomposition\" fails to recognize the practical limits of formula-based methods.",
+     "self_check": true
+    },
+    {
+     "q": "A student traces a shape on 1 cm grid paper and counts: 12 full squares, 8 half squares, and 5 more-than-half squares. They write the area as 12 + 8 + 5 = 25 cm². Is this correct? Explain the error.",
+     "a": "Incorrect. Half squares must be multiplied by 0.5: 8 × 0.5 = 4, not 8. Correct area = 12 + 4 + 5 = 21 cm². The error reveals the student treats half squares as full squares, a common mistake when the \"half = 0.5\" rule is memorized without understanding that two halves make a whole.",
+     "self_check": true
+    },
+    {
+     "q": "Draw an irregular shape on 1 cm grid paper that has an estimated area of exactly 15 cm² using the counting convention. Describe your shape and show the count for each category (full, half, more than half, less than half).",
+     "a": "Example: A shape with 10 full squares, 6 half squares, and 2 more-than-half squares (10 + 3 + 2 = 15). A poor answer draws a rectangle (regular, not irregular) or gives counts that don't sum to 15, showing inability to apply the convention creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

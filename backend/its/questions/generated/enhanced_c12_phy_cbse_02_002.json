@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_002",
+   "title": "c12_phy_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the formula for electrostatic potential due to a point charge Q at a distance r in vacuum. What is the SI unit of the constant 1/4πε₀, and what is the sign of V if Q is negative?",
+     "a": "V = (1/4πε₀)(Q/r). The constant 1/4πε₀ has SI unit N·m²/C² (or V·m/C). If Q is negative, V is negative. A wrong answer (e.g., V = kQ/r² or forgetting the sign of Q) reveals confusion between potential (scalar, 1/r) and electric field (vector, 1/r²), or misunderstanding that potential inherits the sign of the source charge.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since electric field E = kQ/r² points radially outward for Q > 0, the potential V = kQ/r should also be a vector pointing outward.\" Explain why this reasoning is incorrect, using the definition of potential as work done per unit charge.",
+     "a": "Potential is defined as work done per unit charge by an external agent. Work is a scalar quantity (dot product of force and displacement), so potential is a scalar. The electric field is a vector because force is a vector. The student incorrectly assumes that because E is derived from V (E = -∇V), V must also be a vector. This reveals a fundamental confusion between scalar potential and vector field, and between the gradient operation (which produces a vector from a scalar) and the quantities themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the electrostatic potential at a point 12 cm from a point charge of +5 μC in air. If a second charge of -3 μC is placed at the same point, what is the total potential at that point due to both charges? (Use 1/4πε₀ = 9 × 10⁹ N·m²/C²)",
+     "a": "Step 1: Convert units: r = 0.12 m, Q₁ = +5 × 10⁻⁶ C, Q₂ = -3 × 10⁻⁶ C.\nStep 2: V₁ = (9×10⁹)(5×10⁻⁶)/0.12 = 3.75 × 10⁵ V.\nStep 3: V₂ = (9×10⁹)(-3×10⁻⁶)/0.12 = -2.25 × 10⁵ V.\nStep 4: By superposition, V_total = V₁ + V₂ = 1.5 × 10⁵ V.\nA wrong answer (e.g., adding magnitudes, getting 6×10⁵ V) reveals failure to treat potential as a signed scalar and apply algebraic superposition correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Two point charges +Q and -Q are placed at x = -a and x = +a on the x-axis. At what point(s) on the x-axis is the total electrostatic potential zero? Explain why the electric field is NOT zero at those point(s).",
+     "a": "Let the point be at coordinate x. V = kQ/|x+a| + k(-Q)/|x-a| = 0 ⇒ 1/|x+a| = 1/|x-a| ⇒ |x+a| = |x-a|. This gives x = 0 (the midpoint). At x = 0, V = 0 but E = kQ/a² (toward -Q) + kQ/a² (toward -Q) = 2kQ/a² ≠ 0. A wrong answer (e.g., \"E is also zero\") reveals confusion between potential (scalar sum) and field (vector sum), and failure to recognize that V = 0 does not imply E = 0.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the potential at distance r from charge Q by writing: W = ∫ F·dr = ∫ (kQ/r²) dr from r to ∞ = kQ/r. They claim this is the potential. Identify the error in the limits and the sign, and write the correct expression for work done by the external force.",
+     "a": "The student integrated the electric force F_e = kQ/r² (not the external force F_ext = -F_e) and used limits from r to ∞. The correct work by external force is W_ext = ∫_∞^r F_ext·dr = ∫_∞^r (-kQ/r'²) dr' = kQ/r' |_∞^r = kQ/r. The student's expression gives -kQ/r (if limits are r to ∞) or misses the sign of F_ext. This reveals misunderstanding that potential is defined via external force (opposite to electric force) and that the integration path is from infinity (reference) to the point.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to verify that the potential due to a point charge depends only on the distance r and not on the path taken from infinity. What would you measure, and how would you confirm the 1/r dependence?",
+     "a": "Place a fixed charge Q at the origin. Use a small test charge q attached to a sensitive force sensor. Move q from infinity to a point P at distance r along two different paths: (1) radial straight line, (2) a curved path (e.g., spiral). Measure the work done by the external agent in each case (W = ∫ F_ext·dl). If the electrostatic force is conservative, W₁ = W₂ = kQq/r. Vary r and plot W/q vs 1/r; a straight line through origin confirms V ∝ 1/r. A poor answer (e.g., \"measure voltage with a voltmeter\") reveals lack of understanding of the operational definition of potential and the role of path independence in conservative fields.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_3",
+   "title": "c8_physics_ch5_3",
+   "questions": [
+    {
+     "q": "Define a solution and a suspension in terms of particle size, uniformity, and whether they show the Tyndall effect.",
+     "a": "Solution: particle size <1 nm, homogeneous (uniform throughout), does NOT show Tyndall effect. Suspension: particle size >1000 nm, heterogeneous (non-uniform), shows Tyndall effect. A wrong answer (e.g., saying solutions scatter light) reveals the student confuses solutions with colloids or thinks any liquid mixture scatters light.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a salt solution not scatter a beam of light, but a chalk-water suspension does? Explain using the size of particles relative to the wavelength of visible light.",
+     "a": "Salt ions (~0.1 nm) are far smaller than the wavelength of visible light (400–700 nm), so light passes through without scattering. Chalk particles (>1000 nm) are larger than the wavelength, so they scatter light in all directions (Tyndall effect). A wrong answer (e.g., \"salt dissolves so it disappears\") shows the student relies on macroscopic disappearance rather than the physical size criterion.",
+     "self_check": true
+    },
+    {
+     "q": "You have three beakers: A) sugar dissolved in water, B) sand stirred in water, C) milk. For each, predict: (i) Will a filter paper retain residue? (ii) Will the mixture settle if left undisturbed for 5 minutes? (iii) Will it show Tyndall effect? Answer in a table.",
+     "a": "A (sugar solution): (i) No residue, (ii) No settling, (iii) No Tyndall. B (sand suspension): (i) Sand residue, (ii) Sand settles quickly, (iii) Strong Tyndall. C (milk – colloid): (i) No residue, (ii) No settling (cream separates slowly), (iii) Tyndall effect visible. A wrong answer for milk (e.g., \"no Tyndall because it looks uniform\") reveals the colloid/solution confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A student shines a laser pointer through four liquids: (1) tap water, (2) copper sulfate solution, (3) flour in water, (4) blood. She sees a visible beam only in (3) and (4). Classify each as solution, suspension, or colloid. Justify using particle size.",
+     "a": "(1) Tap water – pure substance (or solution of minerals), no beam → solution. (2) Copper sulfate solution – ions <1 nm, no beam → solution. (3) Flour in water – large particles >1000 nm, beam visible, settles → suspension. (4) Blood – colloidal particles (1–1000 nm), beam visible, does not settle quickly → colloid. Wrong classification of blood as suspension indicates the student thinks any Tyndall-positive mixture is a suspension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"If a mixture passes through a filter paper without residue, it must be a solution.\" Is the claim always true? Give a counterexample and explain why the claim fails.",
+     "a": "The claim is FALSE. Colloids (e.g., milk, starch solution) also pass through ordinary filter paper because their particles (1–1000 nm) are smaller than the pore size, yet they are NOT true solutions (they show Tyndall effect). The student who agrees confuses \"filterability\" with \"true solution\" and ignores particle size range.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple 3-step test using only a torch, a filter paper, and a stopwatch to distinguish between an unknown solution and an unknown suspension. Write the steps and the expected observation for each mixture type.",
+     "a": "Step 1: Shine torch through each liquid in a dark room. Solution: no visible beam. Suspension: visible beam (Tyndall). Step 2: Filter each through filter paper. Solution: no residue, clear filtrate. Suspension: solid residue on paper. Step 3: Leave filtrates undisturbed for 5 minutes. Solution: remains clear. Suspension filtrate (if any) may still show settling if fine particles passed. A poor answer omits the torch test or uses only one test, showing inability to design a multi-evidence classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

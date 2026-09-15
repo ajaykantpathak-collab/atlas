@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_012",
+   "title": "c11_phy_cbse_09_012",
+   "questions": [
+    {
+     "q": "Define surface tension and state its two equivalent SI units. Why is surface tension a scalar quantity despite being defined as force per unit length?",
+     "a": "Surface tension (S) is the force per unit length acting tangentially on the liquid surface (SI unit: N/m) or the surface energy per unit area (SI unit: J/m²). It is scalar because the force acts in the plane of the surface, and the direction is always perpendicular to the chosen line element; the magnitude S is independent of the line's orientation. A wrong answer (e.g., calling it a vector or giving only N/m) reveals confusion between force direction and the scalar property of the interface.",
+     "self_check": true
+    },
+    {
+     "q": "A soap film is formed on a rectangular wire frame with a movable slider of length 10 cm. The slider is pulled outward by 2 cm with a constant force of 0.03 N. Calculate the surface tension of the soap solution. Explain why the factor 2 appears in the force formula F = 2Sl.",
+     "a": "Given: l = 0.10 m, F = 0.03 N. Soap film has two surfaces → total length = 2l = 0.20 m. S = F / (2l) = 0.03 / 0.20 = 0.15 N/m. The factor 2 appears because a soap film has two liquid-air interfaces (top and bottom), each exerting a force Sl along the slider. A wrong answer using F = Sl (giving 0.3 N/m) reveals the student forgot the film has two surfaces — a classic error in film vs. single surface problems.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical mercury drop of radius 2 mm is at room temperature. Surface tension of mercury is 0.465 N/m. Atmospheric pressure is 1.01 × 10⁵ Pa. Calculate (a) excess pressure inside the drop, (b) absolute pressure inside the drop. Express both in Pa.",
+     "a": "(a) For a liquid drop (one interface): ΔP = 2S/r = 2 × 0.465 / (2 × 10⁻³) = 465 Pa. (b) P_inside = P_atm + ΔP = 1.01 × 10⁵ + 465 = 1.01465 × 10⁵ Pa. Unit check: N/m / m = N/m² = Pa. A wrong answer using 4S/r (for a bubble) reveals confusion between drop (one surface) and bubble (two surfaces). Forgetting to add atmospheric pressure gives gauge pressure, not absolute.",
+     "self_check": true
+    },
+    {
+     "q": "Two soap bubbles of radii 3 cm and 6 cm are connected by a narrow tube. Initially the valve is closed. When opened, air flows from one bubble to the other. Which bubble shrinks and which grows? Justify using the excess pressure formula.",
+     "a": "Excess pressure in a soap bubble: ΔP = 4S/r. Smaller bubble (r=3 cm) has ΔP₁ = 4S/0.03; larger bubble (r=6 cm) has ΔP₂ = 4S/0.06 = 2S/0.03. So ΔP₁ > ΔP₂. Air flows from higher pressure to lower pressure → smaller bubble shrinks, larger bubble grows. A wrong answer claiming equalization of size reveals misunderstanding that pressure difference drives flow, not radius equalization. The system evolves to a single bubble (unstable equilibrium).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Surface tension is force per unit length, so its dimensions are [MT⁻²]. Surface energy is energy per unit area, dimensions [MT⁻²]. Since dimensions match, they are the same physical quantity.\" Evaluate this statement. Is the student correct? Explain the conceptual distinction.",
+     "a": "The student is partially correct dimensionally but conceptually wrong. Surface tension (force/length) and surface energy (energy/area) are numerically equal and dimensionally identical ([MT⁻²]), but they represent different physical aspects: S as a mechanical force property (tangential pull) and as a thermodynamic energy property (work to create new area). They are equivalent only for a pure liquid at constant temperature; for interfaces with solids or surfactants, surface energy includes chemical contributions while surface tension remains mechanical. A wrong evaluation missing the thermodynamic distinction reveals rote memorization without conceptual depth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that surface tension decreases with temperature. Specify the materials, procedure, measurable quantity, and expected observation. How would you quantify the change?",
+     "a": "Materials: Two identical small steel needles, two bowls, hot water (~60°C), cold water (~10°C), detergent (optional). Procedure: Gently place a needle on cold water surface — it floats. Repeat with hot water — it sinks. Measurable: Maximum weight supported (use needles of known mass or add tiny weights). Expected: Needle floats on cold water, sinks on hot water. Quantify: Find critical mass m_max at each temperature; S ∝ m_max. Plot S vs T. A poor answer using only qualitative \"floats/sinks\" without a way to measure the change reveals inability to design quantitative experiments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_7",
+   "title": "c9_eco_ch1_7",
+   "questions": [
+    {
+     "q": "List the four factors of production and their corresponding factor rewards (income earned by the factor owner).",
+     "a": "The four factors and rewards are: 1) Land → Rent, 2) Labour → Wages, 3) Capital → Interest, 4) Entrepreneurship → Profit. A wrong answer (e.g., saying \"Capital → Profit\" or \"Entrepreneurship → Wages\") reveals the student is confusing the *factor* with the *reward* or misclassifying the entrepreneur as a type of labour. It also suggests they haven't internalised the distinct economic function of each factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The owner of a shop works 12 hours a day managing accounts and serving customers. So the owner is just labour, not an entrepreneur.\" Using the economic definition, explain why this reasoning is incorrect.",
+     "a": "The owner performs *two distinct roles*: the *labour* of management (earning an implicit wage) and the *entrepreneurship* of investing capital, bearing the risk of loss, and making strategic decisions (earning profit/loss). If the shop makes a loss, the workers still get paid wages, but the entrepreneur absorbs the loss. A wrong answer that equates ownership labour with entrepreneurship misses the **risk-bearing and decision-making** function that defines entrepreneurship as a separate factor. This is a classic Class 9 board-level confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab grows wheat on 5 hectares of owned land. He uses 2 tractors (worth ₹15 lakh total), 10 farm workers (paid ₹400/day each), and his own management. Classify each input into the four factors. Calculate the **total daily wage bill** for labour. If he decides to sell one tractor and hire 5 more workers, what happens to the **capital-labour ratio**?",
+     "a": "**Classification:** Land = 5 hectares (owned, so implicit rent); Capital = 2 tractors (₹15 lakh); Labour = 10 workers + farmer's own labour; Entrepreneurship = farmer's decision/risk-bearing. **Daily wage bill:** 10 workers × ₹400 = **₹4,000**. **Capital-Labour Ratio change:** Initially, Capital = ₹15 lakh, Labour = 10 workers → Ratio = ₹1.5 lakh/worker. After selling one tractor (assume ₹7.5 lakh) and hiring 5 workers: Capital = ₹7.5 lakh, Labour = 15 workers → Ratio = ₹0.5 lakh/worker. **The ratio falls** – production becomes more labour-intensive. A wrong calculation (e.g., forgetting to reduce capital value or miscounting workers) shows inability to handle factor proportions quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a **handloom weaving unit** in Varanasi (10 weavers, 5 simple looms worth ₹50,000) and a **powerloom factory** in Surat (5 workers, 20 automated looms worth ₹2 crore). Analyse the factor intensity of each. If the government introduces a **subsidy on powerloom machinery**, predict how the factor combination in Surat might change further, and what happens to the demand for weavers in Varanasi.",
+     "a": "**Handloom:** Labour-intensive (Labour/Capital = 10 workers / ₹0.5 lakh = 20 workers per lakh). **Powerloom:** Capital-intensive (Labour/Capital = 5 workers / ₹200 lakh = 0.025 workers per lakh). **Subsidy effect:** Lowers the effective price of capital → Powerloom factory substitutes *more capital for labour* (buys more looms, may reduce workers further). **Varanasi impact:** Demand for handloom weavers *falls* as cheaper powerloom cloth floods the market (substitution effect across sectors). A wrong answer that says \"subsidy increases labour demand\" confuses factor price with output demand, or ignores cross-sector displacement.",
+     "self_check": true
+    },
+    {
+     "q": "\"India has abundant labour but scarce capital. Therefore, the government should *always* promote labour-intensive techniques (like handlooms, MGNREGA) and discourage capital-intensive ones (like automated factories).\" Evaluate this statement using the concept of factor proportions and economic efficiency.",
+     "a": "The statement is **partially correct but economically incomplete**. While India's *comparative advantage* lies in labour-intensive goods (Heckscher-Ohlin logic), **efficiency requires using the *least-cost combination* of factors for a given output**. If a capital-intensive method produces 100 units at ₹50/unit and a labour-intensive method produces 100 units at ₹80/unit, forcing labour-intensive methods wastes scarce resources (capital *and* labour) and reduces total output. Also, capital intensity raises *labour productivity* and *wages* over time. A good evaluation balances **factor endowment** with **productivity and cost**. A wrong answer that blindly agrees ignores the \"How to Produce\" efficiency criterion (c9_eco_ch1_5).",
+     "self_check": true
+    },
+    {
+     "q": "Design a **micro-enterprise plan** for a \"Mobile Juice Cart\" in your neighbourhood. List **at least 3 specific inputs for each factor** (Land, Labour, Capital, Entrepreneurship). Estimate the **monthly factor cost** (rent, wages, interest on capital, expected profit) using realistic local prices. Justify your chosen factor combination.",
+     "a": "**Good answer criteria:** 1) Land: Cart parking spot (₹2,000/month), water/electricity access, fruit storage space. 2) Labour: Self (implicit wage ₹10,000), 1 helper (₹8,000). 3) Capital: Cart (₹50,000), juicer (₹15,000), utensils (₹5,000) → Interest cost @12% p.a. = ₹7,000/month. 4) Entrepreneurship: Recipe decisions, marketing, risk of unsold fruit → Target profit ₹15,000. **Total monthly cost ≈ ₹42,000.** Justification: \"Chose low capital (manual juicer) because capital is expensive (high interest) and labour is cheap (self + 1 helper) – matches India's factor endowment.\" A poor answer lists vague inputs (\"money\", \"effort\"), misses implicit costs (self-wage, own capital interest), or cannot justify the combination using factor prices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

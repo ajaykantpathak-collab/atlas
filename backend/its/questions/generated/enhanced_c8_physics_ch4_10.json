@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_10",
+   "title": "c8_physics_ch4_10",
+   "questions": [
+    {
+     "q": "What are the three essential conditions required for a tropical cyclone to form over the ocean?",
+     "a": "The three essential conditions are: (1) Sea surface temperature of at least 26.5°C to a depth of ~50m, (2) Low vertical wind shear (little change in wind speed/direction with height), and (3) Sufficient Coriolis effect (typically >5° latitude from equator). A wrong answer listing \"high pressure\" or \"cold water\" reveals the student confuses cyclones with anti-cyclones or mid-latitude storms. Missing the Coriolis condition shows they don't understand why cyclones don't form at the equator.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the eye of a cyclone calm and clear while the eyewall has the strongest winds and heaviest rain?",
+     "a": "In the eye, air sinks (subsides) and warms adiabatically, evaporating clouds and creating calm conditions. In the eyewall, intense updrafts release latent heat, creating extreme low pressure at surface that draws in air violently — the pressure gradient is steepest here. A wrong answer claiming \"the eye has high pressure\" confuses the surface low pressure of the whole system with the relative high pressure aloft that causes subsidence. Saying \"wind blows out of the eye\" reverses the actual inflow-upward-outflow circulation.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclone in the Bay of Bengal at 15°N latitude has sustained winds of 120 km/h. If the Coriolis parameter at this latitude is approximately 3.8 × 10⁻⁵ s⁻¹, estimate the approximate pressure gradient force per unit mass (in m/s²) balancing the Coriolis force in the eyewall, assuming gradient wind balance. (Hint: Coriolis force per unit mass = f × v, where f is Coriolis parameter and v is wind speed in m/s).",
+     "a": "Step 1: Convert wind speed to m/s: 120 km/h = 120 × (1000/3600) = 33.3 m/s.\nStep 2: Identify formula: Coriolis force per unit mass = f × v.\nStep 3: Substitute: f = 3.8 × 10⁻⁵ s⁻¹, v = 33.3 m/s.\nStep 4: Compute: (3.8 × 10⁻⁵) × 33.3 = 1.27 × 10⁻³ m/s².\nStep 5: In gradient balance, pressure gradient force per unit mass ≈ Coriolis force per unit mass = 1.27 × 10⁻³ m/s².\nA wrong answer forgetting unit conversion (using 120 directly) gives 4.56 × 10⁻³ m/s² — off by factor of 3.6. This reveals confusion between km/h and m/s, a critical error in physics calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure and energy source of a tropical cyclone with a mid-latitude (extra-tropical) cyclone. Use a table with three rows: Energy Source, Core Temperature, and Fronts.",
+     "a": "| Feature | Tropical Cyclone | Mid-latitude Cyclone |\n|---------|------------------|----------------------|\n| Energy Source | Latent heat from warm ocean (convective) | Horizontal temperature contrast (baroclinic) |\n| Core Temperature | Warm core (warmer than surroundings at all levels) | Cold core (colder than surroundings aloft) |\n| Fronts | No fronts | Distinct warm and cold fronts |\nA wrong answer swapping \"warm core\" and \"cold core\" shows the student doesn't grasp that tropical cyclones are driven by deep convection warming the center, while mid-latitude cyclones are driven by cold/warm air clashes. Confusing energy sources indicates they haven't connected convection (c7_physics_ch03_004) to cyclone fuel.",
+     "self_check": true
+    },
+    {
+     "q": "A weather forecast says: \"Cyclone Michaung will make landfall near Chennai in 24 hours. Current track shows northwest movement at 12 km/h.\" Evaluate whether this track is consistent with typical Bay of Bengal cyclone climatology for December. Justify using steering winds and Coriolis effect.",
+     "a": "Yes, consistent. In December, the subtropical ridge (high pressure) over India weakens, allowing cyclones to recurve north/northeast. However, early-season (Nov-Dec) cyclones in Bay of Bengal often move west-northwest initially due to easterly trade winds (steering flow) south of the ridge. Coriolis effect deflects them right (northward) in Northern Hemisphere. A northwest track at 12 km/h is typical for pre-recurvature motion. A wrong answer saying \"should move southwest\" ignores Coriolis deflection direction. Saying \"should move northeast immediately\" ignores the steering influence of the subtropical ridge position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a rotating turntable, water, and dye to model cyclone formation. Explain how each component represents a real cyclone ingredient.",
+     "a": "Good answer: Rotating turntable = Earth's rotation (Coriolis). Warm water in center = warm ocean fuel. Dye dropped at center = moisture/convection. As turntable spins, dye spirals inward showing cyclonic rotation. Student must link: rotation → deflection, warm water → convection/latent heat, spiral → pressure gradient + Coriolis balance. Poor answer: Uses ice water (wrong energy source), doesn't rotate turntable (missing Coriolis), or expects a visible \"eye\" (scale mismatch — requires specific rotation rate/tank geometry). Reveals if student understands which factors are essential vs. incidental.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

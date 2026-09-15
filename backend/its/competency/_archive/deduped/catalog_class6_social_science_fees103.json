@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Landforms and Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.3.1",
+   "title": "Three Major Landforms",
+   "section": "Introduction",
+   "definition": "Land takes three major forms: mountains rising high with steep slopes, plateaus standing as raised flat lands, and plains lying low and level; a road trip from Chhota Nagpur to Almora crosses all three.",
+   "formula": "land = mountains + plateaus + plains",
+   "key_idea": "The same journey can climb a plateau, cross a plain and wind up a mountain, meeting new life at each step.",
+   "textbook_ref": "fees103.txt, Introduction",
+   "question_patterns": [
+    "name the three major types of landforms",
+    "what kind of landscape do you see around your school",
+    "which landforms does the trip from chhota nagpur to almora cross",
+    "how does a plateau differ from a plain",
+    "what makes a mountain different from a plateau",
+    "why do landforms change from one region to another"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.3.2",
+   "title": "Life in the Mountains",
+   "section": "Mountains",
+   "definition": "Mountains have thin air, steep slopes and cold climate; people terrace the slopes, rear sheep or grow fruit, and mountain culture, from pilgrim routes to mountain homes, grows out of this hard, beautiful life.",
+   "formula": "",
+   "key_idea": "Mountains both challenge and shelter: they test travel and farming yet guard rivers and forests.",
+   "textbook_ref": "fees103.txt, Mountains",
+   "question_patterns": [
+    "how do people live and farm in the mountains",
+    "what are the main challenges of mountain life",
+    "why are mountains important sources of water",
+    "what opportunities do mountains offer to people",
+    "how is life in the mountains different from life in the plains",
+    "name a mountain range mentioned in the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.3.3",
+   "title": "Life on Plateaus and Plains",
+   "section": "Plateaus and Plains",
+   "definition": "Plateaus are raised flatlands, often rich in minerals and suited to grazing or special crops, while plains, level and watered by rivers, carry the densest farms, towns and transport routes.",
+   "formula": "",
+   "key_idea": "Flat land is easy land: plains feed and house the most people, plateaus store minerals beneath.",
+   "textbook_ref": "fees103.txt, Plateaus and Plains",
+   "question_patterns": [
+    "why do more people live on the plains than on plateaus",
+    "what are plateaus useful for",
+    "how do rivers make the plains fertile",
+    "which crops grow well on the plains",
+    "what is the difference between life on a plateau and in a mountain valley",
+    "why are transport routes mostly built across plains"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.3.4",
+   "title": "The Hymn to the Earth: Landforms in Culture",
+   "section": "Opening verses",
+   "definition": "The chapter opens with the Atharva Veda's hymn to the Earth, which calls the land our mother bearing heights, slopes and plains; landforms are thus part of prayer and culture, not just geography.",
+   "formula": "",
+   "key_idea": "Ancient verses saw the Earth as a mother to be respected, binding geography with gratitude.",
+   "textbook_ref": "fees103.txt, Opening verses",
+   "question_patterns": [
+    "how does the bhumi sukta describe the earth",
+    "what does the earth give us according to the hymn",
+    "why do cultures respect mountains and rivers",
+    "which veda contains the hymn to the earth quoted in the chapter",
+    "how are landforms linked to festivals or sacred places",
+    "what does it mean to call the earth our mother"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees103.txt",
+   "concept": "fees.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why do mountains remain thinly populated compared with plains?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weigh the conditions",
+     "explain": "Steep slopes, thin soil and cold make farming and building hard."
+    },
+    {
+     "step": 2,
+     "action": "draw the contrast",
+     "explain": "Level, watered plains grow food and towns easily, so people gather there instead."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees103.txt",
+   "concept": "fees.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "What does the hymn to the earth teach about how we should treat land?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the verse",
+     "explain": "The Earth is called a mother bearing heights, slopes and plains for our good."
+    },
+    {
+     "step": 2,
+     "action": "apply it",
+     "explain": "Treating land as a mother means using its riches with care and thanks, not plunder."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees103.txt, Let us explore",
+   "questions": [
+    "What did the travellers see on the way from Chhota Nagpur to Almora?",
+    "Discuss the verses of the Hymn to the Earth.",
+    "Why does the chapter ask you to observe your school surroundings?",
+    "Match each landform with one challenge and one opportunity of life there.",
+    "Describe the landform of your own region in five lines."
+   ]
+  }
+ ]
+}

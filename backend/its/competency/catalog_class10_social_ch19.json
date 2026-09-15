@@ -1,0 +1,552 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 19,
+ "chapter_title": "Sectors of the Indian Economy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess202.txt",
+ "concepts": [
+  {
+   "id": "c10ss.19.1",
+   "title": "Primary, Secondary and Tertiary Sectors",
+   "section": "Sectors of Economic Activities",
+   "definition": "The primary sector includes activities that use natural resources directly, such as agriculture, fishing, mining and forestry; the secondary sector covers activities that transform raw materials into finished goods, such as manufacturing and construction; and the tertiary sector provides services that support the primary and secondary sectors, such as transport, banking and education.",
+   "formula": "",
+   "key_idea": "The three sectors are linked by a chain of dependence -- the primary sector supplies raw materials, the secondary sector processes them into goods, and the tertiary sector provides the services needed to run both.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the primary sector? Give two examples.",
+    "What is the secondary sector? Give two examples.",
+    "What is the tertiary sector? Give two examples.",
+    "How are the three sectors of the economy interdependent?",
+    "Distinguish between primary, secondary and tertiary sectors."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary sector",
+     "explain": "Note that the primary sector uses natural resources directly, as in agriculture, fishing, mining and forestry."
+    },
+    {
+     "step": 2,
+     "action": "Identify the secondary sector",
+     "explain": "Check that the secondary sector converts raw materials into finished goods through manufacturing and construction."
+    },
+    {
+     "step": 3,
+     "action": "Identify the tertiary sector",
+     "explain": "Confirm that the tertiary sector provides services like transport, storage, banking and communication that aid the other two sectors."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the primary sector? Give two examples.",
+     "solution": "The primary sector includes activities that use natural resources directly to produce goods. Examples are agriculture (growing crops) and fishing (catching fish).",
+     "answer": "Activities using natural resources directly, e.g. agriculture and fishing."
+    },
+    {
+     "question": "What is the secondary sector? Give two examples.",
+     "solution": "The secondary sector covers activities in which natural products are changed into other forms through manufacturing. Examples are a factory making cloth from cotton and a bakery making biscuits from flour.",
+     "answer": "Manufacturing of raw materials into goods, e.g. cloth-making and biscuit-making."
+    },
+    {
+     "question": "What is the tertiary sector? Give two examples.",
+     "solution": "The tertiary sector includes activities that help in the development of the primary and secondary sectors by providing services rather than goods. Examples are transport services and banking services.",
+     "answer": "Services supporting other sectors, e.g. transport and banking."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How are the three sectors of the economy interdependent?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between primary, secondary and tertiary sectors.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name one activity each from the primary, secondary and tertiary sectors.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.2",
+   "title": "Comparison of the Three Sectors",
+   "section": "Comparing the Three Sectors",
+   "definition": "The three sectors differ in what they produce and how they contribute to the economy: the primary sector produces raw materials from nature, the secondary sector produces manufactured goods, and the tertiary sector produces services; their relative shares in GDP and employment show the stage of development of a country.",
+   "formula": "GDP share = (sector output / total output) x 100",
+   "key_idea": "Comparing the output and employment shares of the three sectors reveals how an economy is structured and how it changes as a country develops.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does the contribution of the three sectors to GDP differ?",
+    "Why is the tertiary sector the largest contributor to India's GDP?",
+    "What does the relative share of the three sectors tell us about an economy?",
+    "Compare the three sectors on the basis of their output.",
+    "Why does the primary sector employ the most people in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the output share of each sector",
+     "explain": "Record the percentage share of the primary, secondary and tertiary sectors in the GDP."
+    },
+    {
+     "step": 2,
+     "action": "Compute the total",
+     "explain": "Add the three shares to confirm they account for the whole GDP.",
+     "compute": "total = p + s + t"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the comparison",
+     "explain": "Relate the largest share to the rising importance of the tertiary sector in India's GDP."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the contribution of the three sectors to GDP differ in India?",
+     "solution": "In India the tertiary sector contributes the largest share of GDP, followed by the secondary sector, while the primary sector contributes the smallest share, even though it employs the largest number of people.",
+     "answer": "Tertiary is the largest contributor, primary the smallest in GDP terms."
+    },
+    {
+     "question": "If the primary, secondary and tertiary sectors contribute 17%, 29% and 54% of GDP respectively, verify that they total 100%.",
+     "solution": "Add the three shares: 17 + 29 + 54 = 100, so the sectors together account for the whole GDP.",
+     "answer": "17 + 29 + 54 = 100%."
+    },
+    {
+     "question": "Why is the tertiary sector the largest contributor to India's GDP?",
+     "solution": "The tertiary sector has grown rapidly because of rising demand for services like transport, communication, banking, information technology and tourism, making it the largest contributor to GDP.",
+     "answer": "Rapid growth of services like IT, banking and transport."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why does the primary sector employ the most people in India despite a low GDP share?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the three sectors contribute 20%, 26% and 54% of GDP, verify they total 100%.",
+     "type": "compute"
+    },
+    {
+     "question": "What does the relative share of the three sectors tell us about an economy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.3",
+   "title": "Rising Importance of the Tertiary Sector",
+   "section": "Sectors of Economic Activities - Rising Importance of Tertiary Sector",
+   "definition": "Over the last few decades the tertiary sector has become the largest producing sector in India, driven by the need for basic services like hospitals and schools, the development of agriculture and industry requiring services such as transport and banking, and the growth of new services like information technology and communication.",
+   "formula": "",
+   "key_idea": "The tertiary sector has risen in importance because development of the primary and secondary sectors creates demand for services, and because new service industries like IT have themselves become major contributors to GDP.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why has the tertiary sector become the largest producing sector in India?",
+    "Explain four reasons for the rising importance of the tertiary sector.",
+    "How does the development of agriculture and industry increase the demand for services?",
+    "What role do basic services play in the growth of the tertiary sector?",
+    "Discuss the contribution of information technology to the tertiary sector."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basic services driver",
+     "explain": "Note that the government must provide basic services like hospitals, schools and security, which are part of the tertiary sector."
+    },
+    {
+     "step": 2,
+     "action": "Identify the demand from other sectors",
+     "explain": "Check that growth in agriculture and industry increases demand for transport, trade, storage and financial services."
+    },
+    {
+     "step": 3,
+     "action": "Identify the new services driver",
+     "explain": "Confirm that new services like information technology, communication and outsourcing have grown rapidly and boosted the tertiary sector."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why has the tertiary sector become the largest producing sector in India?",
+     "solution": "The tertiary sector has grown because of the rising need for basic services, the increased demand for services generated by the development of agriculture and industry, and the rapid rise of new services like IT and communication.",
+     "answer": "Basic services, demand from other sectors, and new services like IT."
+    },
+    {
+     "question": "How does the development of agriculture and industry increase the demand for services?",
+     "solution": "As agriculture and industry grow, they need more transport to move goods, more storage facilities, more banking for credit, and more trade, all of which are tertiary sector services.",
+     "answer": "They need more transport, storage, banking and trade services."
+    },
+    {
+     "question": "Discuss the contribution of information technology to the tertiary sector.",
+     "solution": "Information technology and communication services have grown very fast in India, providing software, outsourcing and back-office services to the world and becoming a major part of the tertiary sector.",
+     "answer": "IT and communication have become a major, fast-growing part of the tertiary sector."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain four reasons for the rising importance of the tertiary sector.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What role do basic services play in the growth of the tertiary sector?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two new services that have boosted the tertiary sector in India.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.4",
+   "title": "Employment Generation and the Sectors",
+   "section": "Sectors of Economic Activities - Employment",
+   "definition": "In India the primary sector employs the largest share of workers, even though it contributes the least to GDP, while the tertiary sector contributes the most to GDP but employs far fewer people, showing a mismatch between output and employment across the sectors.",
+   "formula": "employment share = (workers in sector / total workers) x 100",
+   "key_idea": "The mismatch between GDP share and employment share means that the primary sector is overpopulated and less productive, while the secondary and tertiary sectors generate fewer jobs than their output would suggest.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which sector employs the largest number of people in India?",
+    "Why does the primary sector employ the most people despite a low GDP share?",
+    "What is the mismatch between GDP share and employment share in India?",
+    "How can more employment be generated in the secondary and tertiary sectors?",
+    "Why is the tertiary sector not able to absorb all the surplus primary sector workers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the employment share of each sector",
+     "explain": "Record the percentage of total workers employed in the primary, secondary and tertiary sectors."
+    },
+    {
+     "step": 2,
+     "action": "Compare with GDP shares",
+     "explain": "Compare the employment share of each sector with its GDP share to find the mismatch."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the mismatch",
+     "explain": "Relate the large positive mismatch in the primary sector to low productivity and disguised unemployment.",
+     "compute": "primary_mismatch = ep - p"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which sector employs the largest number of people in India?",
+     "solution": "The primary sector employs the largest number of people in India, with about half of the total workforce engaged in agriculture and related activities.",
+     "answer": "The primary sector."
+    },
+    {
+     "question": "If the primary sector employs 45% of workers but contributes only 17% of GDP, calculate the mismatch.",
+     "solution": "Mismatch = employment share - GDP share = 45 - 17 = 28 percentage points, showing that the primary sector is far less productive than its employment suggests.",
+     "answer": "28 percentage points."
+    },
+    {
+     "question": "Why does the primary sector employ the most people despite a low GDP share?",
+     "solution": "Because there are limited jobs in the secondary and tertiary sectors, a large number of people depend on agriculture, leading to disguised unemployment where more people work than are actually needed.",
+     "answer": "Limited jobs elsewhere and disguised unemployment in agriculture."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the mismatch between GDP share and employment share in India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the tertiary sector employs 30% of workers and contributes 54% of GDP, calculate the mismatch.",
+     "type": "compute"
+    },
+    {
+     "question": "How can more employment be generated in the secondary and tertiary sectors?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.5",
+   "title": "Organised and Unorganised Sectors",
+   "section": "Sectors of Economic Activities - Organised and Unorganised",
+   "definition": "The organised sector consists of registered enterprises that follow government rules and provide job security, paid leave and benefits like provident fund, while the unorganised sector includes small, unregistered enterprises that do not offer job security or benefits and often pay low wages.",
+   "formula": "",
+   "key_idea": "The key difference is the level of regulation and protection: organised sector workers have formal contracts and social security, while unorganised sector workers are largely unprotected and vulnerable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the organised sector? Give two examples.",
+    "What is the unorganised sector? Give two examples.",
+    "Distinguish between organised and unorganised sectors.",
+    "Why are workers in the unorganised sector vulnerable?",
+    "How does the organised sector protect its workers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organised sector features",
+     "explain": "Note that organised sector enterprises are registered, follow government rules, and provide job security, fixed hours, paid leave and benefits like provident fund and medical leave."
+    },
+    {
+     "step": 2,
+     "action": "Identify the unorganised sector features",
+     "explain": "Check that unorganised sector enterprises are not registered, do not follow rules strictly, and offer no job security, paid leave or social security benefits."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two sectors",
+     "explain": "Confirm that the main difference is the level of regulation and the protection given to workers, which makes unorganised workers vulnerable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the organised sector? Give two examples.",
+     "solution": "The organised sector includes enterprises that are registered with the government and follow its rules and regulations, providing workers with job security, paid leave and benefits. Examples are a government office and a large factory.",
+     "answer": "Registered enterprises with benefits, e.g. a government office and a large factory."
+    },
+    {
+     "question": "What is the unorganised sector? Give two examples.",
+     "solution": "The unorganised sector includes small and scattered enterprises that are not registered and do not follow government rules, offering no job security or benefits. Examples are a street vendor and a casual farm labourer.",
+     "answer": "Unregistered enterprises without benefits, e.g. a street vendor and a farm labourer."
+    },
+    {
+     "question": "Why are workers in the unorganised sector vulnerable?",
+     "solution": "Workers in the unorganised sector have no job security, no paid leave, no medical or pension benefits, and often earn low wages, making them vulnerable to exploitation and economic shocks.",
+     "answer": "No job security, no benefits and low wages make them vulnerable."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between organised and unorganised sectors.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the organised sector protect its workers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two benefits provided to organised sector workers.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.6",
+   "title": "Public and Private Sectors",
+   "section": "Sectors of Economic Activities - Public and Private",
+   "definition": "In the public sector the government owns most of the assets and provides services to the people, often without seeking profit, while in the private sector individuals or companies own the assets and operate to earn profit; the government provides public services like education, health and infrastructure that the private sector may not supply adequately.",
+   "formula": "",
+   "key_idea": "The public sector exists to provide essential services and infrastructure that are needed by all but are not profitable enough for the private sector to supply, ensuring equitable access.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the public sector? Give two examples.",
+    "What is the private sector? Give two examples.",
+    "Distinguish between public and private sectors.",
+    "Why does the government provide certain services through the public sector?",
+    "Why is the private sector not able to provide all essential services?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the public sector features",
+     "explain": "Note that in the public sector the government owns the assets and provides services like schools, hospitals and railways, often without seeking profit."
+    },
+    {
+     "step": 2,
+     "action": "Identify the private sector features",
+     "explain": "Check that in the private sector individuals or companies own the assets and run them to earn profit, such as private factories and shops."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the public sector",
+     "explain": "Confirm that the government provides essential services and infrastructure that the private sector may not supply because they are not profitable but are needed by society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the public sector? Give two examples.",
+     "solution": "The public sector includes enterprises and services owned and run by the government to provide services to the people. Examples are government schools and the Indian Railways.",
+     "answer": "Government-owned services, e.g. government schools and Indian Railways."
+    },
+    {
+     "question": "What is the private sector? Give two examples.",
+     "solution": "The private sector includes enterprises owned by individuals or companies that operate to earn profit. Examples are a privately owned factory and a private hospital.",
+     "answer": "Privately owned profit enterprises, e.g. a private factory and a private hospital."
+    },
+    {
+     "question": "Why does the government provide certain services through the public sector?",
+     "solution": "The government provides services like education, health, water supply and infrastructure because they are essential for all citizens but are not profitable enough for the private sector to provide equitably.",
+     "answer": "To provide essential but less profitable services to all citizens."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between public and private sectors.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the private sector not able to provide all essential services?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two public sector services in India.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.7",
+   "title": "MNREGA and Employment Guarantee",
+   "section": "Sectors of Economic Activities - MNREGA",
+   "definition": "The Mahatma Gandhi National Rural Employment Guarantee Act (MNREGA), launched in 2005, guarantees 100 days of wage employment in a year to all rural households that are willing to do unskilled manual work, providing a legal right to work and creating assets in rural areas.",
+   "formula": "guaranteed_days = 100 days per rural household per year",
+   "key_idea": "MNREGA creates a legal right to work, ensuring that rural households can earn a minimum wage for at least 100 days a year, which protects the unemployed poor and reduces distress migration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is MNREGA and when was it launched?",
+    "How many days of employment does MNREGA guarantee?",
+    "Who is eligible for employment under MNREGA?",
+    "How does MNREGA help reduce rural unemployment?",
+    "Why is MNREGA called a right to work?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the guarantee",
+     "explain": "Note that MNREGA guarantees 100 days of wage employment per year to every rural household willing to do unskilled manual work.",
+     "compute": "guaranteed_days = 100"
+    },
+    {
+     "step": 2,
+     "action": "Identify the eligibility",
+     "explain": "Check that all rural households that register and are willing to do unskilled manual labour are eligible.",
+     "compute": "eligible = rural_households_willing_to_work"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the impact",
+     "explain": "Relate the 100-day guarantee to the reduction of rural unemployment and distress migration.",
+     "compute": "employment_created = min(demand, guaranteed_days)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is MNREGA and when was it launched?",
+     "solution": "MNREGA is the Mahatma Gandhi National Rural Employment Guarantee Act, launched in 2005, which guarantees 100 days of wage employment in a year to rural households willing to do unskilled manual work.",
+     "answer": "Launched in 2005, it guarantees 100 days of wage employment to rural households."
+    },
+    {
+     "question": "How many days of employment does MNREGA guarantee per year?",
+     "solution": "MNREGA guarantees 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+     "answer": "100 days per year per rural household."
+    },
+    {
+     "question": "If a rural household gets 100 days of work at Rs 250 per day, calculate the total wage earned in a year.",
+     "solution": "Total wage = days x wage per day = 100 x 250 = Rs 25,000.",
+     "answer": "Rs 25,000."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Who is eligible for employment under MNREGA?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If a household gets 80 days of work at Rs 300 per day, calculate the total wage earned.",
+     "type": "compute"
+    },
+    {
+     "question": "Why is MNREGA called a right to work?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.8",
+   "title": "Contribution of Sectors to GDP",
+   "section": "Sectors of Economic Activities - Contribution to GDP",
+   "definition": "Gross Domestic Product (GDP) is the total value of all final goods and services produced in a country in a year; in India the tertiary sector contributes the largest share of GDP, the secondary sector the next largest, and the primary sector the smallest, reflecting the structural transformation of the economy.",
+   "formula": "GDP = primary output + secondary output + tertiary output",
+   "key_idea": "The sectoral contribution to GDP shows how the economy is transforming over time, with the tertiary sector becoming dominant as the country develops.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is GDP and how is it related to the three sectors?",
+    "Which sector contributes the most to India's GDP?",
+    "How has the contribution of the three sectors to GDP changed over time?",
+    "Why has the primary sector's share in GDP declined?",
+    "Explain the structural transformation shown by sectoral GDP shares."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note each sector's output",
+     "explain": "Record the value of output produced by the primary, secondary and tertiary sectors in a year.",
+     "compute": "primary_output = p"
+    },
+    {
+     "step": 2,
+     "action": "Note each sector's output",
+     "explain": "Record the value of output produced by the primary, secondary and tertiary sectors in a year.",
+     "compute": "secondary_output = s"
+    },
+    {
+     "step": 3,
+     "action": "Note each sector's output",
+     "explain": "Record the value of output produced by the primary, secondary and tertiary sectors in a year.",
+     "compute": "tertiary_output = t"
+    },
+    {
+     "step": 4,
+     "action": "Compute GDP",
+     "explain": "Add the outputs of the three sectors to get the total GDP.",
+     "compute": "gdp = p + s + t"
+    },
+    {
+     "step": 5,
+     "action": "Compute each sector's share",
+     "explain": "Divide each sector's output by the GDP and multiply by 100 to get its percentage share.",
+     "compute": "share = (sector_output / gdp) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is GDP and how is it related to the three sectors?",
+     "solution": "GDP is the total value of all final goods and services produced in a country in a year. It is the sum of the output of the primary, secondary and tertiary sectors.",
+     "answer": "GDP = sum of the outputs of the three sectors."
+    },
+    {
+     "question": "If the primary, secondary and tertiary sectors produce Rs 17, Rs 29 and Rs 54 lakh crore respectively, calculate the GDP and the tertiary sector's share.",
+     "solution": "GDP = 17 + 29 + 54 = Rs 100 lakh crore. Tertiary share = (54 / 100) x 100 = 54%.",
+     "answer": "GDP = Rs 100 lakh crore; tertiary share = 54%."
+    },
+    {
+     "question": "Which sector contributes the most to India's GDP and why?",
+     "solution": "The tertiary sector contributes the most to India's GDP because of the rapid growth of services like banking, communication, transport and information technology.",
+     "answer": "The tertiary sector, due to growth of services."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How has the contribution of the three sectors to GDP changed over time?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the three sectors produce Rs 20, Rs 26 and Rs 54 lakh crore, calculate the primary sector's share of GDP.",
+     "type": "compute"
+    },
+    {
+     "question": "Why has the primary sector's share in GDP declined?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

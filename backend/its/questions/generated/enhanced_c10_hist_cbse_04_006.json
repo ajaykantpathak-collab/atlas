@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_006",
+   "title": "c10_hist_cbse_04_006",
+   "questions": [
+    {
+     "q": "In which year and city was the first successful modern cotton textile mill established in India?",
+     "a": "The first successful modern cotton textile mill was established in Bombay in 1854 by Cowasjee Nanabhoy Davar. A wrong answer (e.g., \"Ahmedabad 1861\" or \"Calcutta 1850s\") reveals the student confuses the first cotton mill with the first jute mill (Rishra, 1855) or the later Ahmedabad boom, indicating they have not sequenced the chronological emergence of different industries correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Why did early Indian cotton mills concentrate in Bombay rather than in cotton-growing regions like Berar or Khandesh?",
+     "a": "Bombay offered a natural harbour for exporting yarn to China, access to capital from Parsi and Gujarati merchants, a labour pool of migrant workers, and railway connectivity (Great Indian Peninsula Railway) to cotton-growing hinterlands — mills processed cotton near the port to minimise transport costs of finished yarn. A wrong answer focusing only on \"raw cotton availability\" misses the export-oriented logic of colonial industrialisation and shows the student thinks factories locate solely at raw material sources, ignoring market access and capital.",
+     "self_check": true
+    },
+    {
+     "q": "A jute mill owner in 1880s Bengal wants to set up a new mill. Based on the locational factors of early Indian factories, which site would be most advantageous: (a) deep in the jute-growing districts of East Bengal, (b) on the Hooghly River near Calcutta, or (c) in the coalfields of Raniganj? Justify your choice.",
+     "a": "(b) On the Hooghly River near Calcutta — jute mills needed riverine transport for bulky raw jute, coal from Raniganj via river/rail, proximity to Calcutta port for exporting gunny bags to global markets, and access to migrant labour from Bihar/UP. Choosing (a) ignores the need for coal and port access; choosing (c) ignores the high transport cost of moving raw jute to coalfields. A wrong choice reveals the student cannot weigh multiple locational factors (raw material, fuel, port, labour) simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of early British cotton factories (Lancashire) with early Indian cotton factories (Bombay). Identify two similarities and two differences.",
+     "a": "Similarities: both needed water power/steam coal and labour concentrations. Differences: (1) British factories used local coal (Lancashire coalfield) while Bombay mills imported coal initially then sourced from Indian fields; (2) British factories served domestic and global markets from the start, while Bombay mills were explicitly export-oriented (yarn to China) due to colonial trade policy. A wrong answer claiming \"both located near raw cotton\" shows the student misses that Lancashire imported raw cotton from America/India — location was driven by coal and damp climate, not raw material.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Early Indian industrialists like Jamsetji Tata and Dwarakanath Tagore succeeded because they adopted British technology and management practices wholesale.\" Support your evaluation with evidence.",
+     "a": "The statement is partially true but incomplete. They did adopt British machinery (ring frames, power looms) and managing agency structures, but their success relied on distinctively Indian strategies: using kinship/community networks (Parsi, Marwari, Bengali bhadralok) for capital and labour, leveraging colonial trade monopolies (opium, cotton), and lobbying for tariff concessions (e.g., 1894 cotton duties). A student who agrees wholly misses the agency of Indian capital in adapting — not copying — the factory model within colonial constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument (150 words) explaining why the first coal mines in India (Raniganj, Jharia) developed in the Damodar valley rather than near the early cotton mills of Bombay or Ahmedabad, using the concept of \"resource colonialism.\"",
+     "a": "A strong argument notes: (1) Damodar valley had thick, accessible coal seams discovered by British geologists for railway fuel; (2) railway lines (East Indian Railway) were built to extract coal to Calcutta port for steamships, not to supply Bombay mills; (3) coal was bulky and low-value — transport economics forced mines at pithead; (4) Bombay mills used imported Welsh coal initially because rail freight from Damodar was uneconomical until the 1870s. A poor answer lists coal locations without linking to railway colonial logic or transport cost economics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

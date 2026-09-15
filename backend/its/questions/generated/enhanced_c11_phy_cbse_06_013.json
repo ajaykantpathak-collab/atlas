@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_013",
+   "title": "c11_phy_cbse_06_013",
+   "questions": [
+    {
+     "q": "State the rotational analogue of Newton's second law for a rigid body rotating about a fixed axis. Write the formula with SI units for each quantity.",
+     "a": "The rotational analogue is τ = Iα, where τ is net external torque (N·m), I is moment of inertia about the axis (kg·m²), and α is angular acceleration (rad/s²). A wrong answer (e.g., τ = Iω or F = mrα) reveals confusion between torque and force, or between angular acceleration and angular velocity, or mixing linear and rotational quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the moment of inertia (I) plays the same role in rotational motion as mass (m) plays in linear motion. Use the kinetic energy expressions to justify your answer.",
+     "a": "Linear kinetic energy is K = ½mv²; rotational kinetic energy is K = ½Iω². Since ω is the rotational analogue of v, I must be the analogue of m. Both quantify inertia – resistance to change in motion. A wrong answer (e.g., \"I is mass times radius\") shows the student memorised a formula but doesn't understand the dynamical role of I as the coefficient linking torque to angular acceleration, just as m links force to linear acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A constant torque of 5.0 N·m is applied to a flywheel with moment of inertia 0.40 kg·m², initially at rest. (a) Find its angular acceleration. (b) Find its angular velocity after 10 s. (c) Calculate the work done by the torque in this time.",
+     "a": "(a) α = τ/I = 5.0 / 0.40 = 12.5 rad/s².  \n(b) ω = ω₀ + αt = 0 + (12.5)(10) = 125 rad/s.  \n(c) θ = ½αt² = ½(12.5)(100) = 625 rad. Work W = τθ = (5.0)(625) = 3125 J.  \nCheck via work-energy: ½Iω² = ½(0.40)(125)² = 3125 J. Matches.  \nA wrong answer in (c) using W = τωt (confusing power with work) or forgetting the ½ in θ reveals misunderstanding of rotational kinematics or work-energy theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Two bodies – a hollow cylinder and a solid sphere – have the same mass (2.0 kg) and radius (0.10 m). Identical torques are applied to each about their symmetry axes. Which acquires a greater angular speed after 5.0 s? Justify using moments of inertia.",
+     "a": "For hollow cylinder: I_cyl = MR² = (2.0)(0.10)² = 0.020 kg·m².  \nFor solid sphere: I_sph = ⅖MR² = 0.4 × 0.020 = 0.008 kg·m².  \nSame τ ⇒ α = τ/I. Smaller I gives larger α. Sphere has smaller I, so larger α, thus larger ω after same time.  \nA wrong answer choosing the cylinder reveals the misconception that \"more mass at the rim gives more angular acceleration\" – confusing moment of inertia with torque production.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"A grindstone (solid disk, M = 10 kg, R = 0.20 m) rotates at 300 rpm. A friction force of 20 N is applied tangentially at the rim. Find the time to stop.\" Their solution: τ = FR = 4 N·m, I = ½MR² = 0.2 kg·m², α = τ/I = 20 rad/s², ω₀ = 300 rpm = 300 rad/s, t = ω₀/α = 15 s. Identify the error(s) and give the correct time.",
+     "a": "Error 1: ω₀ = 300 rpm = 300 × 2π/60 = 10π ≈ 31.4 rad/s, not 300 rad/s.  \nError 2: Friction torque opposes motion, so α = -20 rad/s².  \nCorrect: t = ω₀/|α| = 31.4 / 20 ≈ 1.57 s.  \nA wrong answer keeping 300 rad/s shows failure to convert rpm to rad/s – a very common unit-conversion error in rotational dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to verify τ = Iα using a rotating platform (like a lazy Susan), a hanging mass on a string wound around the axle, and a stopwatch. List the measurements needed and how you would compute I experimentally.",
+     "a": "Measure: axle radius r, hanging mass m, time t for mass to fall distance h.  \nCompute linear acceleration a = 2h/t². Torque τ = (mg - ma)r ≈ mgr if a << g. Angular acceleration α = a/r.  \nThen I = τ/α = (mgr) / (a/r) = mgr²/a.  \nPlot τ vs α for different m; slope gives I.  \nA poor answer that ignores the tension in the string (using τ = mgr exactly) or doesn't convert linear to angular quantities reveals incomplete understanding of the torque-acceleration relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_006",
+   "title": "c11_geo_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define a cirque and state its typical location on a glacier. What two processes are primarily responsible for its formation?",
+     "a": "A cirque is an armchair-shaped, steep-walled hollow at the head of a glacier formed primarily by plucking (quarrying of bedrock) and abrasion (grinding by embedded debris) where ice accumulates and begins rotational movement. A wrong answer that describes it as a depositional feature or places it at the glacier snout reveals confusion between erosional and depositional landforms and misunderstanding of glacier flow dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a glacial trough (U-shaped valley) has a flat floor and steep sides, whereas a river valley is V-shaped. Use the terms 'plucking' and 'abrasion' in your explanation.",
+     "a": "Glaciers occupy the entire valley cross-section; plucking steepens the side walls by quarrying jointed bedrock, while abrasion across the wide ice base flattens the valley floor. Rivers, by contrast, concentrate erosion at the channel bottom (vertical erosion > lateral erosion in youth stage), creating a V-profile. A wrong answer attributing U-shape to \"glaciers being wider\" without mentioning plucking/abrasion shows lack of process understanding; confusing lateral erosion in rivers with glacial widening indicates failure to distinguish process mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "On a topographic map of the Himalayas (contour interval 20 m), you observe a series of concentric, arcuate ridges with irregular spacing cross-cutting a U-shaped valley. The ridges are composed of unsorted boulders, clay, and sand. Identify the landform and explain how the ridge orientation relates to glacier flow direction.",
+     "a": "These are recessional moraines (a type of terminal moraine) deposited during pauses in glacier retreat. Each ridge is transverse to the valley axis (perpendicular to flow direction) because debris accumulates at the stationary snout. Steps: 1) Recognize unsorted sediment = glacial till. 2) Arcuate ridges across valley = moraines. 3) Concentric pattern = successive still-stands during retreat. 4) Orientation perpendicular to flow = snout deposition. A wrong answer identifying them as lateral moraines (parallel to flow) or fluvial terraces (sorted sediment) reveals inability to distinguish moraine types or glacial vs. fluvial deposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sediment characteristics of a medial moraine and a ground moraine. How would you differentiate them in the field if both appear as linear ridges of debris on a valley glacier?",
+     "a": "Medial moraine: forms from merging lateral moraines at confluence of two glaciers; debris is angular, supraglacial origin, ridge runs parallel to flow in center of glacier. Ground moraine: deposited beneath the glacier (subglacial till); forms hummocky, discontinuous topography after retreat, not a distinct linear ridge. In the field, medial moraine is a sharp, continuous central ridge on active ice; ground moraine is exposed only after melting as a veneer of till with no ridge morphology. A wrong answer claiming both are \"ridges of till\" without distinguishing supraglacial vs. subglacial origin or geometry shows lack of process-based classification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All U-shaped valleys in the Himalayas are currently occupied by glaciers.\" Provide evidence from landform assemblages to support your judgment.",
+     "a": "False. Many U-shaped valleys in the Himalayas (e.g., Valley of Flowers, parts of Nubra Valley) are relict features from the Last Glacial Maximum when glaciers extended far beyond present limits. Evidence: presence of terminal moraines far downstream of current snouts, hanging valleys with waterfalls (indicating tributary glaciers that have vanished), and absence of ice in valleys showing clear glacial cross-profiles. A student agreeing with the statement confuses present-day glacier extent with paleo-glacial landforms, ignoring the concept of glacial cycles and landform preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan to determine whether a given valley in the Pir Panjal range was shaped primarily by glacial or fluvial processes. Specify three diagnostic criteria you would measure/observe and the expected outcome for each process.",
+     "a": "Plan: 1) Cross-profile survey: U-shape (wide flat floor, steep walls) = glacial; V-shape (narrow, pointed) = fluvial. 2) Sediment analysis: unsorted, angular till with striated clasts = glacial; sorted, rounded alluvium = fluvial. 3) Valley long profile: overdeepened basins, hanging tributaries, paternoster lakes = glacial; smooth concave profile, no hanging valleys = fluvial. A poor plan that only looks at \"valley shape\" without sediment or tributary junction evidence shows incomplete understanding of equifinality in landform evolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

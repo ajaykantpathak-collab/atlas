@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_004",
+   "title": "c11_psy_cbse_03_004",
+   "questions": [
+    {
+     "q": "A newborn turns its head toward the breast and makes sucking movements when the cheek is stroked. Name this reflex, state its typical disappearance age, and explain its survival value.",
+     "a": "The reflex is the **rooting reflex**; it typically disappears between **3 and 6 months**. Its survival value is to help the infant locate the nipple for feeding before voluntary head control develops. A wrong answer (e.g., naming it “sucking reflex” or giving an incorrect disappearance age) reveals confusion between the rooting and sucking reflexes or lack of knowledge about the normative timeline for reflex integration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Moro reflex is considered a “startle” response and why it disappears around 6–7 months, whereas the response to loud noise persists throughout life.",
+     "a": "The Moro reflex is triggered by a sudden loss of support or loud noise, causing the infant to fling arms outward, arch the back, then bring arms together — a protective, whole‑body reaction that may have helped ancestral infants cling to caregivers. It disappears as the cerebral cortex matures and inhibits the brainstem‑mediated response, allowing voluntary postural adjustments. The simple auditory startle (blink/heart‑rate change) persists because it is mediated by lower brainstem circuits that remain functional for lifelong protective alertness. A wrong answer that attributes disappearance to “muscle strengthening” instead of cortical inhibition shows a misunderstanding of the neural basis of reflex integration.",
+     "self_check": true
+    },
+    {
+     "q": "A 4‑month‑old infant still shows a strong palmar grasp reflex when a finger is placed in the palm. Using the cephalocaudal and proximodistal principles, predict which voluntary motor skill will emerge next and justify your prediction.",
+     "a": "The palmar grasp reflex typically disappears by **3–4 months**, replaced by **voluntary reaching and grasping**. According to the proximodistal principle, control progresses from the trunk (proximal) to the hands (distal); once the shoulder and arm are under voluntary control (around 3–4 months), the infant can intentionally reach for objects. A wrong answer that predicts “walking” or “crawling” next ignores the proximodistal sequence and confuses gross‑motor with fine‑motor milestones.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Babinski reflex and the plantar grasp reflex (toe curling when the sole is touched). How do their stimuli, responses, and developmental courses differ, and what does the persistence of Babinski beyond 12 months indicate clinically?",
+     "a": "**Babinski reflex**: stimulus = stroking lateral sole; response = toes fan out and extend (dorsiflexion); disappears **8–12 months**. **Plantar grasp**: stimulus = pressure on sole; response = toes curl (plantar flexion); disappears earlier, around **6–9 months**. Persistence of Babinski beyond 12 months suggests **upper motor neuron lesion** (corticospinal tract immaturity or damage) because the normal mature response is plantar flexion. A wrong answer that confuses the two reflexes or misses the clinical significance shows incomplete knowledge of reflex specifics and their neurological correlates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Reflexes are useless leftovers from evolution; they disappear because they are not needed.” Use evidence from the NCERT text and the concept of “building blocks for subsequent motor development” to support your judgment.",
+     "a": "The statement is **false**. Reflexes are **adaptive survival mechanisms** (e.g., rooting ensures feeding, Moro may prevent falling) and serve as **building blocks** — their integration allows the cortex to “practice” and later voluntarily control similar movement patterns. For example, the stepping reflex (not in Table 3.1 but present) precedes walking. Disappearance reflects **cortical maturation and inhibition**, not uselessness. A wrong answer that agrees with the statement reveals a misconception that reflexes are vestigial rather than foundational for voluntary motor development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational checklist for a parent to track gross‑motor milestones from birth to 12 months. Include at least five milestones, the typical age range for each, and the maturational principle (cephalocaudal or proximodistal) that explains its sequence.",
+     "a": "A good checklist might include: (1) **Head control** (2–3 mo) — cephalocaudal; (2) **Rolling front‑to‑back** (4–5 mo) — cephalocaudal/trunk control; (3) **Sitting without support** (6–7 mo) — cephalocaudal; (4) **Crawling on hands‑knees** (8–9 mo) — proximodistal (arm‑leg coordination); (5) **Pulling to stand** (9–10 mo) — proximodistal (leg strength); (6) **Independent walking** (11–12 mo) — proximodistal. Poor answers list milestones out of order, omit age ranges, or mislabel the principles, indicating weak grasp of the maturational gradients.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

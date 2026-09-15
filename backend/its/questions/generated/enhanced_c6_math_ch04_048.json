@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_048",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_048",
+   "title": "c6_math_ch04_048",
+   "questions": [
+    {
+     "q": "What is the first step to take when dividing 6.25 by 0.25?",
+     "a": "The first step is to multiply both 6.25 and 0.25 by 100 to make the divisor a whole number (25). A student who simply divides 6.25 by 0.25 without moving the decimal point is likely to place the decimal in the wrong position or become confused by the divisor.",
+     "self_check": true
+    },
+    {
+     "q": "If you multiply the divisor by 10, why must you also multiply the dividend by 10?",
+     "a": "Multiplying both numbers by 10 is equivalent to multiplying the entire fraction by 10/10, which is equal to 1. This ensures the value of the quotient remains unchanged. If a student only multiplies the divisor, they are changing the value of the problem entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate: 12.6 ÷ 0.6.",
+     "a": "Step 1: Multiply both by 10 to get 126 ÷ 6. Step 2: Divide 126 by 6. Step 3: 12 ÷ 6 = 2, and 6 ÷ 6 = 1. Answer: 21. A student who gets 2.1 or 0.21 has likely failed to move the decimal point correctly in the dividend.",
+     "self_check": true
+    },
+    {
+     "q": "8.4 ÷ 2 = 4.2, while 8.4 ÷ 0.2 = 42. The second quotient is larger because you are dividing by a smaller fraction, which means the number \"fits\" into the dividend more times. Students who think the second answer should be smaller than 4.2 are confusing division with multiplication.",
+     "a": "**Correct Answer:** Dividing 8.4 by 2 gives a quotient of 4.2, while dividing 8.4 by 0.2 gives a quotient of 42. The quotients are different because when you divide by a number less than 1, you are essentially finding how many times a fraction fits into the whole, which results in a larger value than the original dividend.\n\n**A wrong answer reveals** a misunderstanding of the relationship between the divisor and the quotient, specifically the misconception that division always results in a smaller number. The student likely assumes that because 0.2 is smaller than 2, the final answer must also be smaller, failing to recognize that dividing by a decimal represents partitioning the number into smaller, more numerous parts.",
+     "self_check": true
+    },
+    {
+     "q": "Is 0.5 ÷ 0.1 the same as 5 ÷ 1? Defend your answer.",
+     "a": "Yes, both equal 5. Multiplying both 0.5 and 0.1 by 10 transforms the problem into 5 ÷ 1, preserving the ratio. A student who says \"no\" does not understand that scaling both terms by the same factor maintains the division's result.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem involving decimals that results in a whole number quotient of 8.",
+     "a": "Any problem following the pattern (8 × x) ÷ x = 8 works, such as 1.6 ÷ 0.2. A poor answer would be a problem that does not result in 8, showing a lack of understanding of the relationship between divisors and dividends.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

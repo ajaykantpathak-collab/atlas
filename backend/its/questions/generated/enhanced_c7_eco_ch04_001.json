@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_001",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_001",
+   "title": "c7_eco_ch04_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of financial infrastructure in a modern economy?",
+     "a": "The primary purpose is to provide the underlying network of institutions, systems, and rules that enable the safe, secure, and efficient flow of money, savings, and investments across the economy. A student who answers that it only prints paper money confuses financial infrastructure with a printing press, missing its broader role in connecting all financial transactions and markets.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a payment network like UPI or a cheque clearing system considered part of financial infrastructure rather than just a convenience?",
+     "a": "These payment networks are infrastructure because, without them, money cannot move between different buyers and sellers across distances, grinding trade and economic activity to a halt—much like how roads are necessary for physical transport. A student who thinks they are merely optional luxuries does not understand that modern economic exchange depends entirely on trusted systems to transfer value safely without carrying sacks of cash.",
+     "self_check": true
+    },
+    {
+     "q": "A small town has 5,000 residents, but zero banks, no post offices, and no digital payment access. Residents must keep all their savings stuffed in mattresses and use barter or physical cash for every transaction. Calculate the estimated loss in financial efficiency or safety when compared to a town with a functioning bank branch and digital payment network.",
+     "a": "Steps:\n1. Identify missing components: No safe deposit mechanism (savings risk theft), no lending mechanism (businesses cannot expand), no payment network (transactions are slow and restricted to physical presence).\n2. Assess impact on savings: 100% of savings are idle, earning zero interest and facing physical risks.\n3. Assess impact on credit: Local entrepreneurs cannot borrow ₹50,000 to buy sewing machines or seeds, stopping local business growth.\n4. Conclude economic effect: The town's economic growth stalls because capital cannot be pooled or mobilized.\nA student who calculates only the transport cost of carrying cash misses the broader economic loss caused by the complete absence of financial intermediation and capital mobilization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a highway network (physical infrastructure) with a banking and payment network (financial infrastructure). How do both contribute similarly to a farmer selling wheat in another state?",
+     "a": "Both serve as networks that connect distant points to facilitate exchange: the physical highway allows trucks to transport the physical sacks of wheat across state lines, while the financial payment and banking network allows the buyer's money to transfer instantly and securely to the farmer's bank account. A student who believes physical infrastructure alone is enough ignores the fact that a wheat trader cannot pay safely across state borders without financial infrastructure to transfer the payment value.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country can achieve rapid industrial growth even if its financial infrastructure is completely broken or nonexistent.\" Is this correct? Defend your reasoning.",
+     "a": "This statement is false because modern factories require large investments (capital), payroll systems, supply chain financing, and credit lines that only a robust financial infrastructure can provide. Without banks and capital markets, businesses cannot pool public savings to build large manufacturing plants or pay workers efficiently. A student who agrees with the statement fails to understand that financial infrastructure provides the vital funding and transaction channels required for large-scale economic production.",
+     "self_check": true
+    },
+    {
+     "q": "Propose three essential components of financial infrastructure that a remote hilly village in India needs to connect with the national economy, explaining the specific role of each.",
+     "a": "Expected criteria: \n1. A banking outlet or micro-ATM to allow safe savings and withdrawals.\n2. A digital connectivity/UPI payment system to enable local shopkeepers to receive digital payments from tourists.\n3. A cooperative credit society or rural bank branch to provide low-interest loans for local farming and handicraft businesses. \nA poor answer lists physical things like schools or roads, confusing physical infrastructure with financial infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_095",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_095",
+   "title": "c6_math_ch09_095",
+   "questions": [
+    {
+     "q": "What is the specific name for the count of how many times a particular value appears in a collection of data?",
+     "a": "The name is \"Frequency.\" A student who answers \"Tally\" is confusing the *tool* used to count (the tally mark) with the *result* of the count (the frequency).",
+     "self_check": true
+    },
+    {
+     "q": "If you have a list of colours chosen by classmates (Red, Blue, Red, Green, Red), why do we organize them into a table instead of leaving them in a list?",
+     "a": "A table allows us to compare and identify patterns (like the most popular colour) at a glance, whereas a raw list requires manual counting every single time. A student who says \"it just looks neater\" misses the mathematical purpose: efficiency in data interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "You survey 10 friends about their favourite sport. Four say Cricket, three say Hockey, and three say Football. How would you represent \"Four\" using tally marks?",
+     "a": "Four is represented as `||||`. A student who writes `|||||` (five marks) is likely miscounting or failing to distinguish between the count of 4 and the standard way to group 5 (a diagonal line across four marks).",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to use a consistent scale when organizing data?",
+     "a": "A consistent scale ensures that comparisons between different categories are fair and accurate. If a student says \"it makes the table look pretty,\" they have failed to grasp that scale is about mathematical accuracy, not artistic design.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for data to be non-numeric (like names or colours) and still be \"data\"? Explain.",
+     "a": "Yes, data is any collection of information, including qualitative descriptions like colours or preferences. A student who says \"no, data must be numbers\" has a limited view that ignores the descriptive nature of real-world information.",
+     "self_check": true
+    },
+    {
+     "q": "Design a plan to collect data on the number of vehicles passing your school gate between 8:00 AM and 9:00 AM. What are your first three steps?",
+     "a": "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks.\" 3) Station yourself at the gate and mark one tally for each vehicle as it passes. A poor answer would lack a structured table or clear categories.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

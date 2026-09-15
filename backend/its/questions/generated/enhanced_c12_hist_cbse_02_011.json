@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_02_011",
+   "title": "c12_hist_cbse_02_011",
+   "questions": [
+    {
+     "q": "Identify the earliest type of coinage in the Indian subcontinent and state the approximate century of its appearance.",
+     "a": "Correct answer: Punch-marked coins (silver and copper), appearing from the 6th century BCE onwards.  \nA wrong answer (e.g., \"Indo-Greek coins\" or \"Gupta gold coins\") reveals the student confuses the *first* coinage with the *first inscribed* coinage or the *most spectacular* coinage, missing the chronological sequence that is central to Board and CUET timeline questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why punch-marked coins are called \"punch-marked\" and why they lack the name of any issuing ruler.",
+     "a": "Correct answer: Symbols were physically punched/stamped onto the metal blank using separate punches for each symbol; they lack royal names because they were likely issued by merchant guilds, bankers, or local authorities rather than a central royal mint — the state's monopoly on coinage came later.  \nA wrong answer (e.g., \"they are called punch-marked because they have holes\" or \"the Mauryas issued them but forgot to write their name\") shows the student misunderstands the manufacturing technique and the political economy of early coinage — a common Board exam error when describing \"symbols\" vs. \"legends\".",
+     "self_check": true
+    },
+    {
+     "q": "A hoard of Roman gold coins (aurei of Augustus and Tiberius) is excavated at Arikamedu (Tamil Nadu). Using this evidence, explain *two* distinct historical inferences a historian can draw about Indo-Roman trade in the 1st century CE.",
+     "a": "Correct answer: (1) High-value goods (pepper, pearls, textiles) were exported from south India to the Roman Empire, creating a trade surplus that brought Roman gold into India. (2) Roman coins were valued for their gold content (bullion) and often melted down or reused as currency/ornaments, indicating they functioned as *money* not just curiosities.  \nA wrong answer (e.g., \"Romans ruled south India\" or \"Roman coins were gifts to kings\") reveals the classic misconception that foreign coin finds = political control, ignoring the NCERT's explicit statement: \"networks of trade were not confined within political boundaries\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coinage of the Kushanas and the Guptas in terms of (a) metal purity, (b) weight standard, and (c) political messaging. What does the contrast reveal about the changing nature of kingship?",
+     "a": "Correct answer: (a) Kushana gold coins (dinars) were of high but variable purity; Gupta dinars are noted for *remarkable purity* (NCERT). (b) Kushana dinars matched the Roman *aureus* (~7.8 g) and Parthian standards — an *international* weight; Gupta dinars followed a *distinct indigenous* standard (~8.4 g initially). (c) Kushana coins project *divine kingship* (devaputra, colossal statues); Gupta coins emphasize *ritual sovereignty* (ashvamedha, goddess Lakshmi) and genealogical legitimacy.  \nThe contrast reveals a shift from \"universal emperor\" modeling on Roman/Chinese paradigms to a *Sanskritised, ritual-centric* kingship rooted in local tradition — a key Board essay theme.  \nA wrong answer that merely lists symbols (\"Kushana has king standing, Gupta has king sitting\") misses the *analytical* comparison of weight standards and political ideology required for JEE/NEET-style \"assertion-reason\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"From c. 6th century CE, finds of gold coins taper off. This proves a severe economic crisis in post-Gupta India.\" Evaluate this statement using *two* counter-arguments from the NCERT text.",
+     "a": "Correct evaluation: The statement is *not proven*. Counter-arguments: (1) Coins may have been *in circulation* rather than hoarded — fewer archaeological finds ≠ less money supply. (2) Inscriptions and texts *continue to mention* gold coins (e.g., land grants specify payment in dinaras), showing they remained a unit of account. (3) New towns and trade networks emerged (e.g., in peninsular India), suggesting economic *reorganisation*, not collapse.  \nA wrong answer that accepts the \"crisis\" thesis uncritically reveals the student cannot distinguish *archaeological visibility* from *historical reality* — a trap in both Board \"discuss\" questions and CUET source-based MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (with approximate dates) showing the *sequence* of these coin types in the Indian subcontinent: Punch-marked, Indo-Greek, Kushana, Roman (in India), Yaudheya, Gupta. Then write one sentence explaining the *historical driver* behind each transition.",
+     "a": "Expected timeline & drivers:  \n1. Punch-marked (c. 600 BCE) — driver: *urbanisation & market exchange in Mahajanapadas*  \n2. Indo-Greek (c. 180 BCE) — driver: *Hellenistic kingship & bilingual administration in NW*  \n3. Kushana (c. 1st–3rd century CE) — driver: *imperial integration of Silk Route trade & divine kingship*  \n4. Roman coins in India (c. 1st century BCE – 3rd century CE) — driver: *Indian Ocean trade surplus (pepper, textiles)*  \n5. Yaudheya (c. 1st century CE) — driver: *tribal republics participating in monetised economy*  \n6. Gupta (c. 4th–6th century CE) — driver: *ritual sovereignty, high-purity standard for long-distance transactions*  \nA poor answer lists dates without drivers, or reverses Kushana/Gupta order, showing inability to link *coinage evolution* to *political-economic transformations* — the core competency of this node.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

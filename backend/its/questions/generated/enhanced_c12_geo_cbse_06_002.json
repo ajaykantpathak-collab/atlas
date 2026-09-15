@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_002",
+   "title": "c12_geo_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define 'value addition' in manufacturing and give one example each of a weight-losing industry and a weight-gaining industry.",
+     "a": "Value addition is the increase in economic value of a product at each stage of processing, calculated as (value of output – cost of raw materials and intermediates). Weight-losing industry: iron & steel (iron ore → pig iron loses ~60% weight as slag/gangue). Weight-gaining industry: beverage bottling (water + concentrate → heavy filled bottles). A wrong answer (e.g., \"textile is weight-losing\") reveals confusion between physical weight change and value change — cotton lint weighs less than raw cotton but the fabric weighs more than lint due to added dyes/chemicals; the key is net weight of final product vs raw material input.",
+     "self_check": true
+    },
+    {
+     "q": "Why do sugar mills in India crush sugarcane within 24–48 hours of harvest, whereas cotton ginning can wait weeks? Explain using the concept of perishability and value addition.",
+     "a": "Sugarcane loses sucrose content rapidly after cutting due to enzymatic inversion (sucrose → glucose + fructose), reducing recovery rate and thus value added per tonne. Cotton fibre is stable once picked; ginning only separates lint from seed — no chemical degradation. A wrong answer citing \"transport cost\" alone misses the core geographical principle: perishability of raw material forces processing to be raw-material-oriented (sugar mills in cane fields), while non-perishable materials allow market-oriented location (cotton textiles historically in Manchester, now in Gujarat/Maharashtra near ports/markets).",
+     "self_check": true
+    },
+    {
+     "q": "A bauxite mine in Odisha produces 10 lakh tonnes/year of ore (Al₂O₃ content 45%). The alumina refinery extracts alumina (Al₂O₃) with 90% recovery. The aluminium smelter uses the Hall-Héroult process (2 Al₂O₃ → 4 Al + 3 O₂) with 95% current efficiency. Calculate the annual aluminium output in tonnes. (Atomic masses: Al=27, O=16)",
+     "a": "Step 1: Al₂O₃ in ore = 10,00,000 × 0.45 = 4,50,000 tonnes. Step 2: Alumina recovered = 4,50,000 × 0.90 = 4,05,000 tonnes. Step 3: Molar mass Al₂O₃ = 2×27 + 3×16 = 102 g/mol; Al = 54 g per 102 g alumina → theoretical yield = 54/102 = 52.94%. Step 4: Actual Al = 4,05,000 × 0.5294 × 0.95 = 2,02,700 tonnes. A wrong answer (e.g., forgetting current efficiency or using wrong molar ratio) shows inability to trace material balance through multi-stage value addition — a skill needed for competitive exams (JEE/NEET chemistry crossover) and board case studies on aluminium industry location.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the value-addition chains of (a) petroleum refining and (b) food processing (e.g., tomato → ketchup). Identify two similarities and two differences in terms of stages, capital intensity, and locational pull.",
+     "a": "Similarities: (1) Both involve multi-stage processing (crude → fractions → petrochemicals; tomato → pulp → concentrate → ketchup). (2) Both add value by increasing shelf life and utility. Differences: (1) Petroleum refining is high-capital, continuous, weight-losing (crude → lighter fractions), pulling refineries to ports/pipeline terminals (e.g., Jamnagar, Paradip). (2) Food processing is lower-capital, often seasonal/batch, weight-reducing (water removal), pulling factories to production belts (e.g., tomato ketchup in Nashik, Punjab). A wrong answer listing only \"raw material differs\" misses the geographical classification: petroleum is mineral-based, continuous, export-oriented; food processing is agro-based, seasonal, domestic-market-oriented.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's manufacturing share in GDP has stagnated at 15–17% because we export raw materials (iron ore, cotton) instead of processed goods (steel, garments).\" Use data on export composition and value addition to support your judgment.",
+     "a": "The statement is partially correct but oversimplified. India's manufacturing share stagnated due to: (1) infrastructure deficits (power, logistics), (2) labour law rigidity, (3) small firm size preventing economies of scale, (4) low R&D spend (<0.7% GDP). Export data: In 2023, iron ore exports were ~$2B but steel exports ~$12B — we do export processed steel. Cotton yarn/fabric exports ~$10B, garments ~$16B — value addition happens. However, high-value segments (specialty steel, technical textiles) are still imported. The real issue is depth of value addition, not its absence. A wrong answer blaming only \"colonial legacy\" or \"policy neglect\" without structural factors shows lack of analytical depth required for board 150-word answers and CUET case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a value-addition flow chart for a hypothetical 'bamboo-based industrial cluster' in Northeast India. Include: raw material → primary processing → secondary products → tertiary products. Mark at each stage whether it is weight-losing, weight-gaining, or weight-neutral, and suggest one locational advantage for each stage.",
+     "a": "Flow: Bamboo culms (raw) → [Primary: splitting, treatment, drying] → Bamboo slats/strips (weight-losing: ~40% moisture loss) → Locational advantage: near bamboo forests (reduces transport of low-value bulk). → [Secondary: lamination, pressing] → Bamboo boards/flooring (weight-neutral) → Advantage: near highway/rail for panel transport. → [Tertiary: CNC cutting, finishing] → Furniture, handicrafts (weight-gaining: adhesives, coatings, packaging) → Advantage: near urban markets/airports (high value/weight, fragile). A poor answer lists products without weight-change logic or locational reasoning — indicating the student sees manufacturing as a list, not a spatial value chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

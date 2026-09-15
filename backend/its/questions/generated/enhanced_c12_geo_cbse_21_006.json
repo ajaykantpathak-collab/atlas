@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_006",
+   "title": "c12_geo_cbse_21_006",
+   "questions": [
+    {
+     "q": "Define Spatial Information Technology and name the five technologies it amalgamates.",
+     "a": "Spatial Information Technology is the use of technological inputs for collecting, storing, retrieving, displaying, manipulating, managing, and analysing spatial information. It amalgamates Remote Sensing, GPS, GIS, Digital Cartography, and Database Management Systems. A wrong answer that omits \"decision support\" or lists only GIS/Remote Sensing reveals the student sees SIT as a synonym for GIS rather than an integrative framework.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a standalone Database Management System (DBMS) or Computer-Assisted Cartography not function as a decision support system for geographic problems?",
+     "a": "DBMS only processes data and presents it graphically; Computer-Assisted Cartography only draws maps. Neither integrates spatial and attribute data with geo-processing tools (overlay, buffer, network analysis) to answer \"what if\" questions like \"What happens if we shift this facility?\" A student who says \"DBMS cannot store maps\" misunderstands — DBMS can store coordinates but lacks spatial analysis functions (topology, proximity, overlay).",
+     "self_check": true
+    },
+    {
+     "q": "A GIS database contains two layers: (1) a polygon layer of village boundaries with attribute \"literacy_rate\", and (2) a point layer of primary schools. The literacy_rate attribute is stored in a separate table linked by village_code. Identify which layer holds spatial data, which holds attribute data, and explain the linkage mechanism.",
+     "a": "The village boundary polygon layer holds spatial data (areal features with coordinates). The literacy_rate table holds non-spatial/attribute data. The linkage mechanism is a shared key — village_code — present in both the spatial layer's attribute table and the standalone literacy table, enabling a join. A student who says \"literacy_rate is spatial because it varies by location\" confuses the attribute's spatial variation with the data type; the attribute itself is non-spatial until joined to geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare raster and vector data formats for representing a diagonal road across a 10 km × 10 km area. Which format gives more accurate length measurement? Which gives smaller file size for this single feature? Explain the trade-off.",
+     "a": "Vector format stores only the road's start and end coordinates (two points), giving exact length via Euclidean distance and very small file size. Raster format subdivides the area into grid cells; the road becomes a stair-step of pixels, overestimating length (zigzag error) and requiring many cells (large file). Trade-off: vector is compact and precise for discrete features (roads, boundaries); raster is efficient for continuous fields (elevation, satellite imagery) and simple overlay operations. A student choosing raster for \"accuracy\" confuses visual smoothness (high-resolution raster looks smooth) with geometric accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "A planner wants to identify all agricultural land parcels within 2 km of a proposed highway alignment to assess compensation. The data: highway as a line layer, land parcels as polygons with attribute \"land_use = agriculture\". Which GIS analysis function is required? Could this be done with paper maps? Justify.",
+     "a": "Buffer analysis: create a 2 km buffer polygon around the highway line, then overlay (intersect) with the agricultural land parcel polygons. Paper maps cannot do this dynamically — each buffer width needs a new hand-drawn map; overlay requires physical tracing on a light table with no attribute querying. GIS allows changing buffer distance instantly and linking results to attribute tables for area/cost calculation. A student suggesting \"overlay analysis only\" misses that buffer creates the proximity zone first; overlay alone works if the zone already exists.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal GIS workflow to map urban sprawl of your district between 2000 and 2020 using satellite imagery. List the sequence of activities (data input → output) and specify at which step raster-to-vector conversion might be needed.",
+     "a": "Sequence: (1) Acquire georeferenced satellite images for 2000 and 2020 (raster). (2) Classify each image into built-up / non-built-up (raster). (3) Convert built-up class to vector polygons (raster→vector conversion here). (4) Overlay 2000 and 2020 built-up polygons (vector overlay). (5) Identify new polygons in 2020 not overlapping 2000 = urban sprawl. (6) Compute area statistics. Raster-to-vector conversion is needed at step 3 because overlay of classified rasters loses polygon topology (area, perimeter, adjacency) needed for sprawl metrics. A student skipping conversion and overlaying rasters directly cannot compute parcel-level area change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

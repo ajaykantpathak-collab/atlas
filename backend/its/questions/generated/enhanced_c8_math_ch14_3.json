@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_3",
+   "title": "c8_math_ch14_3",
+   "questions": [
+    {
+     "q": "What is the formula for the area of a parallelogram, and what do the variables represent?",
+     "a": "The formula is Area = base × height (A = b × h), where 'base' is any side of the parallelogram and 'height' is the perpendicular distance from that base to the opposite side. A wrong answer (e.g., using slanted side length instead of perpendicular height) reveals the student confuses side length with altitude, a critical misconception carried from triangle area.",
+     "self_check": true
+    },
+    {
+     "q": "A parallelogram has a base of 8 cm and a slanted side of 5 cm. The perpendicular height corresponding to the 8 cm base is 4 cm. A student calculates the area as 8 × 5 = 40 cm². Explain why this is incorrect.",
+     "a": "The student used the slanted side length (5 cm) instead of the perpendicular height (4 cm). The correct area is 8 × 4 = 32 cm². This error shows the student does not understand that 'height' in the area formula must be measured perpendicular to the chosen base, not along the slanted side.",
+     "self_check": true
+    },
+    {
+     "q": "A parallelogram-shaped garden plot has a base of 12.5 m and an area of 75 m². What is the perpendicular height of the garden plot?",
+     "a": "Step 1: Identify known values: Area = 75 m², base = 12.5 m. Step 2: Use formula A = b × h → 75 = 12.5 × h. Step 3: Solve for h: h = 75 ÷ 12.5 = 6 m. Step 4: Verify: 12.5 × 6 = 75 m². Answer: 6 m. A wrong answer (e.g., 75 × 12.5) reveals the student cannot rearrange the formula for inverse problems.",
+     "self_check": true
+    },
+    {
+     "q": "Two parallelograms have the same base length of 10 cm. Parallelogram A has a height of 6 cm. Parallelogram B is more \"slanted\" but also has a perpendicular height of 6 cm. Compare their areas. What does this tell you about the relationship between slant and area?",
+     "a": "Both parallelograms have area = 10 × 6 = 60 cm². The slant (angle) does not affect area as long as the perpendicular height remains the same. A wrong answer (e.g., \"B has smaller area because it's more slanted\") reveals the student thinks visual steepness changes area, not understanding that area depends only on base and perpendicular height.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Find the area of a parallelogram with base 7 cm and height 9 cm.\" Their working: 7 + 9 = 16, then 16 × 2 = 32 cm². Identify the two errors in their method.",
+     "a": "Error 1: The student added base and height instead of multiplying (confusing area with perimeter logic). Error 2: They multiplied the sum by 2 (perimeter formula for rectangle). Correct method: 7 × 9 = 63 cm². This reveals the student is mixing up perimeter and area formulas and does not grasp the meaning of multiplication for area.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires finding the area of a parallelogram where the height is not directly given but must be deduced from other information (e.g., using a right triangle within the parallelogram). Provide the problem statement and a solution outline.",
+     "a": "Example problem: \"A parallelogram-shaped field has base 20 m and slanted side 13 m. The perpendicular from the top vertex to the base divides the base into segments of 5 m and 15 m. Find the cost of levelling the field at ₹50 per m².\" Solution outline: Use Pythagoras on the 5-13 right triangle to find height = 12 m. Area = 20 × 12 = 240 m². Cost = 240 × 50 = ₹12,000. A poor answer shows inability to connect geometry (right triangles) to area calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

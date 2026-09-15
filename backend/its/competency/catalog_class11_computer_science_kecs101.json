@@ -1,0 +1,319 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 1,
+ "chapter_title": "Computer System",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs101.1",
+   "title": "Units of Digital Memory",
+   "section": "1.3.1",
+   "definition": "Stored data is counted in binary digits; eight of them form a byte, and bigger units such as kilobyte, megabyte, gigabyte and terabyte are each 1024 times the unit just below them.",
+   "formula": "bits = mb * 1024 * 1024 * 8",
+   "key_idea": "Each step up the memory ladder multiplies the capacity by 1024, so conversions chain factor after factor.",
+   "textbook_ref": "kecs101.txt, section 1.3.1 and Table 1.1",
+   "question_patterns": [
+    "Convert 4 GB into megabytes and then into kilobytes.",
+    "A pen drive is advertised as 64 GB. How many bytes can it hold?",
+    "How many bits are there in 2 MB of data?",
+    "Express a 700 MB movie file in kilobytes, taking 1024 as the multiplier at every step.",
+    "A laptop has 8 GB of RAM. Find its capacity in bytes.",
+    "Starting from bytes, write the full chain of conversions from 1 terabyte down to bits."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert gigabytes to bytes",
+     "explain": "Each gigabyte holds 1024 x 1024 x 1024 bytes.",
+     "compute": "bytes = gb * 1024 * 1024 * 1024"
+    },
+    {
+     "step": 2,
+     "action": "convert bytes to bits",
+     "explain": "One byte carries 8 bits, so multiply the byte total by 8.",
+     "compute": "bits = bytes * 8"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A movie file occupies 4 GB of disk space. How many megabytes is that? (Take 1 GB = 1024 MB.)",
+     "a": "4096 MB"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.2",
+   "title": "Bits, Nibbles and Words",
+   "section": "1.3.1",
+   "definition": "A single binary digit is a bit; four bits grouped together make a nibble, two nibbles make a byte, and a word is the block of bits a processor handles in one go.",
+   "formula": "byte_count = word_bits // 8",
+   "key_idea": "Grouping starts at 4 bits per nibble and 8 bits per byte, then grows to the processor's word size.",
+   "textbook_ref": "kecs101.txt, section 1.3.1",
+   "question_patterns": [
+    "How many nibbles are there in a 32-bit word?",
+    "A word measures 64 bits. How many bytes does it contain?",
+    "Give the number of bits in three nibbles and convert that into a byte count.",
+    "If a processor word is 16 bits wide, find how many nibbles and bytes it holds.",
+    "Why is an 8-bit word described as two nibbles? Show the counting."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the word into nibbles",
+     "explain": "A nibble is 4 bits, so integer-divide the word width by 4.",
+     "compute": "nibbles = word_bits // 4"
+    },
+    {
+     "step": 2,
+     "action": "split the word into bytes",
+     "explain": "A byte is 8 bits, so integer-divide the same width by 8.",
+     "compute": "byte_count = word_bits // 8"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A processor word is 64 bits wide. How many bytes does one word hold?",
+     "a": "8 bytes"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.3",
+   "title": "Data Transfer over the System Bus",
+   "section": "1.4",
+   "definition": "Wires that carry data, addresses and control signals between the CPU, memory and devices together form the system bus; moving a block of data takes at least its size divided by the link's transfer rate.",
+   "formula": "time_s = mbit / bus_rate_mbps",
+   "key_idea": "The data bus runs both ways, while address and control buses carry information in one direction only.",
+   "textbook_ref": "kecs101.txt, section 1.4",
+   "question_patterns": [
+    "How long does it take to move a 500 MB file across a link rated at 100 Mbps?",
+    "A hard disk sends a 1.5 GB backup over a 300 Mbps connection. Find the transfer time in seconds.",
+    "Why is the data bus bidirectional while the address bus is unidirectional?",
+    "Name the three buses that make up the system bus and state what each one carries.",
+    "Calculate the seconds needed to shift 250 MB of records across a 50 Mbps bus.",
+    "Which bus carries the memory location that the CPU wants to read, and in which direction?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert file size to megabits",
+     "explain": "A rate in Mbps counts megabits, so multiply the megabyte size by 8.",
+     "compute": "mbit = file_mb * 8"
+    },
+    {
+     "step": 2,
+     "action": "divide by the transfer rate",
+     "explain": "Time in seconds equals megabits moved divided by megabits per second.",
+     "compute": "time_s = mbit / bus_rate_mbps"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 200 MB installer is fetched over a link rated at 100 Mbps. How many seconds does the transfer need? (1 MB = 8 megabits.)",
+     "a": "16 seconds"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.4",
+   "title": "Clock Speed and Instruction Throughput",
+   "section": "1.5.1",
+   "definition": "An internal clock emits pacing pulses at a fixed rate; a higher clock rate or fewer cycles needed per instruction lets the processor finish more instructions every second.",
+   "formula": "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr",
+   "key_idea": "A gigahertz rating means billions of pacing pulses each second, which sets the pace of execution.",
+   "textbook_ref": "kecs101.txt, section 1.5.1(C)",
+   "question_patterns": [
+    "A processor runs at 3 GHz and needs 2 cycles per instruction. How many instructions complete in one second?",
+    "Convert a 2.4 GHz clock into pulses per second.",
+    "Find the instructions-per-second figure for a 1 GHz chip taking 4 cycles per instruction.",
+    "How does the clock speed of a processor influence how fast programs run?",
+    "A chip executes 500 million instructions in half a second at 2 cycles per instruction. Estimate its clock rate in GHz."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "turn the gigahertz clock into pulses per second",
+     "explain": "One gigahertz is a billion pulses per second, so multiply by 10 to the power 9.",
+     "compute": "pulses_per_sec = clock_ghz * 1000000000"
+    },
+    {
+     "step": 2,
+     "action": "divide by cycles needed per instruction",
+     "explain": "Instructions finished per second equals the pulse rate split by the cycles each instruction consumes.",
+     "compute": "instr_per_sec = pulses_per_sec / cycles_per_instr"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A CPU clock paces at 2 GHz and each instruction needs 4 cycles. How many million instructions finish per second?",
+     "a": "500 million"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.5",
+   "title": "Moore's Law Transistor Growth",
+   "section": "1.2",
+   "definition": "An observation made in 1965 that the count of transistors fitted onto a single chip tends to double roughly every two years, which drives the exponential rise in computing power.",
+   "formula": "transistors = base_count * 2 ** (years // 2)",
+   "key_idea": "A count that doubles every two years turns modest beginnings into astronomically dense chips within a decade.",
+   "textbook_ref": "kecs101.txt, section 1.2 and Figure 1.6",
+   "question_patterns": [
+    "A 1971 chip carried 2300 transistors. Using the doubling-every-two-years rule, estimate the count ten years later.",
+    "If a chip holds 100 million transistors today, how many doublings pass in 8 years and what count follows?",
+    "State what Moore's Law predicts about transistor counts on a microchip.",
+    "A microchip had 4000 transistors in 2000. Project the figure for 2008 using the two-year doubling rule.",
+    "How many two-year doubling periods fit into 14 years, and by what factor does the count grow?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the doubling periods",
+     "explain": "One period is two years, so integer-divide the elapsed years by 2.",
+     "compute": "doublings = years // 2"
+    },
+    {
+     "step": 2,
+     "action": "grow the base count",
+     "explain": "Each period doubles the count, so multiply the starting figure by 2 raised to the number of periods.",
+     "compute": "transistors = base_count * 2 ** doublings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A chip carries 4000 transistors today. If the count doubles every 2 years, how many transistors will it carry after 6 years?",
+     "a": "32000 transistors"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.6",
+   "title": "Structured, Semi-structured and Unstructured Data",
+   "section": "1.6.1",
+   "definition": "Records that sit in fixed rows and columns are structured; items carrying internal tags, like HTML pages or CSV files, are semi-structured; free-form media such as audio, video and photographs are unstructured.",
+   "formula": "classify(source) as structured, semi-structured or unstructured",
+   "key_idea": "Check for a rigid table format, internal tags, or neither, and that decides the data type.",
+   "textbook_ref": "kecs101.txt, section 1.6.1(A)-(C)",
+   "question_patterns": [
+    "Categorise an HTML page, a railway booking record and a satellite image as structured, semi-structured or unstructured.",
+    "Give two everyday examples of unstructured data and justify your choice.",
+    "A school keeps attendance in a table of roll number, name, month and percentage. Which data type is this?",
+    "What marks semi-structured data apart from unstructured data?",
+    "Sort these into the three data types: cricket score sheet, MP3 song, email document.",
+    "Why can a CSV file be called semi-structured even though it lacks a fixed schema?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the arrangement",
+     "explain": "A strict row-and-column format signals structured data; tags or markers inside the item signal semi-structured data; neither sign means unstructured data."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A marksheet table has fixed rows and columns. Is it structured, semi-structured or unstructured data?",
+     "a": "structured"
+    }
+   ]
+  },
+  {
+   "id": "kecs101.7",
+   "title": "Language Translators and Machine Code",
+   "section": "1.7.3",
+   "definition": "A processor acts only on machine code, so source code must first be converted: assemblers handle assembly language, compilers render a whole program in one pass, and interpreters convert plus run a single line at a time.",
+   "formula": "source code -> translator -> object code",
+   "key_idea": "A compiled program runs afterwards without its translator, but an interpreted program needs the interpreter present on every run.",
+   "textbook_ref": "kecs101.txt, section 1.7.3(B)",
+   "question_patterns": [
+    "How does a computer make sense of a program typed in a high level language?",
+    "Distinguish a compiler from an interpreter and give one advantage of each.",
+    "Why does machine code usually finish running sooner than its source code?",
+    "What is the job of an assembler, and which language does it accept?",
+    "Name the three kinds of translators used in a computing system.",
+    "Python code is executed line by line. Which translator style does this show, and why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the language to its translator",
+     "explain": "Assembly language maps to an assembler; a high level language maps to a compiler (whole program at once) or an interpreter (one line at a time), and the output that the CPU runs is machine code."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which translator converts a whole high-level program into machine code in one pass?",
+     "a": "compiler"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs101.we1",
+   "title": "Size of a 2 GB video in bits",
+   "concept_id": "kecs101.1",
+   "problem": "A movie file occupies 2 GB of disk space. Express its size first in megabytes and then in bits.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "gigabytes to megabytes",
+     "explain": "One gigabyte is 1024 megabytes.",
+     "compute": "mb = 2 * 1024"
+    },
+    {
+     "step": 2,
+     "action": "megabytes to bits",
+     "explain": "Each megabyte is 1024 kilobytes, each kilobyte 1024 bytes, and each byte 8 bits.",
+     "compute": "bits = mb * 1024 * 1024 * 8"
+    }
+   ],
+   "answer_note": "The clip measures 2048 MB, which is 17179869184 bits of storage."
+  },
+  {
+   "id": "kecs101.we2",
+   "title": "Download time for a 500 MB installer at 100 Mbps",
+   "concept_id": "kecs101.3",
+   "problem": "An installer of 500 MB is fetched over a connection rated at 100 Mbps. How many seconds does the download need?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "convert the size to megabits",
+     "explain": "A rate in Mbps counts megabits, so multiply megabytes by 8.",
+     "compute": "mbit = 500 * 8"
+    },
+    {
+     "step": 2,
+     "action": "divide by the rate",
+     "explain": "Seconds equal megabits split by megabits per second.",
+     "compute": "time_s = mbit / 100"
+    }
+   ],
+   "answer_note": "The transfer carries 4000 megabits, so it needs 40 seconds."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs101.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 1 Exercise (items reworded)",
+   "questions": [
+    "Which software must be present for a computer to work, and which two services does it provide?",
+    "How does a machine understand a program typed in a high level language?",
+    "Why does execution of machine code take less time than running the source code directly?",
+    "State the purpose of RAM and two ways in which it differs from ROM.",
+    "Convert 3 GB of data into bytes and then into bits.",
+    "A 2 GB backup moves across a 200 Mbps link. Work out the transfer time in seconds.",
+    "Name the three buses of the system bus and say what each carries.",
+    "Classify as structured, semi-structured or unstructured: a newspaper page, a cricket match score, an HTML page, patient records in a hospital."
+   ]
+  }
+ ]
+}

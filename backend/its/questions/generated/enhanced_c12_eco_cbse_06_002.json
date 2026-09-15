@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_002",
+   "title": "c12_eco_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define Average Revenue and Marginal Revenue for a monopoly firm. How does the AR curve relate to the market demand curve?",
+     "a": "Correct Answer: Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller. Marginal Revenue (MR) = Change in Total Revenue / Change in Quantity = derivative of TR with respect to Q. A wrong answer (e.g., \"AR is not the demand curve\" or \"MR = AR for monopoly\") reveals the student confuses monopoly with perfect competition where AR = MR = P, or does not understand that the firm's average revenue per unit is exactly the price buyers pay.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Marginal Revenue is less than Average Revenue (MR < AR) for a monopoly firm at any positive output level. Use the concepts of price effect and output effect.",
+     "a": "Correct Answer: To sell an extra unit, a monopoly must lower the price on all units. The output effect adds revenue equal to the new price (P). The price effect subtracts revenue because the lower price applies to all previous units (ΔP × Q_prev). Since the price effect is negative, MR = P + (ΔP × Q_prev) < P = AR. A wrong answer (e.g., \"MR < AR because costs increase\" or \"MR = AR because each unit sells at the same price\") reveals the student either confuses revenue with cost concepts or assumes perfect competition's horizontal demand curve applies to monopoly.",
+     "self_check": true
+    },
+    {
+     "q": "A monopoly faces the demand curve: P = 100 - 2Q. Calculate the MR function. At what output level does MR become zero? What is the price elasticity of demand at that output?",
+     "a": "Correct Answer: TR = P×Q = (100 - 2Q)Q = 100Q - 2Q². MR = d(TR)/dQ = 100 - 4Q. Set MR = 0 → 100 - 4Q = 0 → Q = 25. At Q = 25, P = 100 - 2(25) = 50. Elasticity e = (dQ/dP) × (P/Q) = (-1/2) × (50/25) = -1. So |e| = 1 (unit elastic). A wrong answer (e.g., MR = 100 - 2Q, or Q = 50 for MR=0, or elasticity = 0) reveals the student either differentiates incorrectly, confuses AR and MR slopes, or does not know the relationship MR = P(1 - 1/|e|) and that MR = 0 when |e| = 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the AR and MR curves of a monopoly with those of a perfectly competitive firm. Why can a monopoly not choose both price and quantity independently?",
+     "a": "Correct Answer: In perfect competition, AR = MR = P (horizontal line). In monopoly, AR is downward sloping, MR lies below AR and is steeper (twice the slope for linear demand). A monopoly chooses either price or quantity; the other is determined by the demand curve. If it sets a high price, quantity demanded falls along the demand curve. A wrong answer (e.g., \"Monopoly can set any price and sell any quantity\" or \"AR and MR are same for both\") reveals the student does not understand the constraint imposed by the downward-sloping demand curve or the distinction between price-maker and price-taker.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A monopoly firm will never produce in the inelastic portion of its demand curve.\" Use the MR-elasticity relationship to justify.",
+     "a": "Correct Answer: True. MR = P(1 - 1/|e|). When demand is inelastic (|e| < 1), 1/|e| > 1, so (1 - 1/|e|) < 0, making MR negative. A profit-maximizing firm equates MR = MC. Since MC ≥ 0, MR cannot be negative at equilibrium. Thus, the firm operates where |e| ≥ 1. A wrong answer (e.g., \"Monopoly produces where demand is inelastic to charge higher prices\" or \"MR is always positive\") reveals the student does not connect the sign of MR to elasticity and the profit-maximization condition MR = MC.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a monopoly's demand curve is non-linear: P = 100 - Q². Derive the MR function. At Q = 4, calculate AR, MR, and price elasticity of demand. Verify the formula MR = P(1 - 1/|e|).",
+     "a": "Correct Answer: TR = (100 - Q²)Q = 100Q - Q³. MR = d(TR)/dQ = 100 - 3Q². At Q = 4: P = AR = 100 - 16 = 84. MR = 100 - 3(16) = 52. dQ/dP = 1/(dP/dQ) = 1/(-2Q) = -1/8. Elasticity e = (dQ/dP)×(P/Q) = (-1/8)×(84/4) = -2.625. |e| = 2.625. MR = 84(1 - 1/2.625) = 84(1 - 0.381) = 84×0.619 = 52. Verified. A poor answer (e.g., incorrect derivative, wrong elasticity formula) reveals gaps in calculus application or elasticity computation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

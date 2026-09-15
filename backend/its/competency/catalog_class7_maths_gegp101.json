@@ -1,0 +1,237 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Large Numbers Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.1.1",
+   "title": "Reading Large Numbers: Lakh and Crore",
+   "section": "Large Numbers Around Us",
+   "definition": "Large numbers are read through place value in the Indian system: ten thousands make a lakh, a hundred lakh make a crore, and commas group digits to make a number like 1,52,700 readable at a glance.",
+   "formula": "1 lakh = 100000, 1 crore = 100 lakh",
+   "key_idea": "Place value is the address system of digits: the same digit changes value a hundredfold when it moves two places left.",
+   "textbook_ref": "gegp101.txt, Large Numbers Around Us",
+   "question_patterns": [
+    "how many zeros does a lakh have",
+    "read the number 152700 in the indian system",
+    "how many lakhs make a crore",
+    "write the number that has 3 lakhs 2 thousands and 5 ones",
+    "compare 9,99,999 and 10,00,000 which is bigger",
+    "why do we put commas in large numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.1.2",
+   "title": "Multiplying and Adding Large Quantities",
+   "section": "Large Numbers Around Us",
+   "definition": "Real situations multiply into large numbers quickly: boxes of pencils, sacks of rice or visitors in a month; multiplying the group size by the number of groups gives totals that run into lakhs and crores.",
+   "formula": "total = packs * per",
+   "key_idea": "Large totals are built from small factors: multiply group size by group count and check the place value of the answer.",
+   "textbook_ref": "gegp101.txt, Large Numbers Around Us",
+   "question_patterns": [
+    "multiply 120 by 85 and read the answer in words",
+    "a book has 350 pages printed on both sides how many page faces",
+    "estimate then multiply 240 by 60",
+    "why does multiplication give totals running into lakhs",
+    "check the place value of your answer to a large product",
+    "make a real life question whose answer is about one lakh"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the two quantities",
+     "explain": "Note the number of groups and the size of each group.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply for the total",
+     "explain": "Multiply group count by group size.",
+     "compute": "total = packs * per"
+    }
+   ]
+  },
+  {
+   "id": "gegp.1.3",
+   "title": "Estimation and Approximation",
+   "section": "Large Numbers Around Us",
+   "definition": "Exact answers are not always needed: rounding numbers to the nearest thousand or lakh gives quick estimates, and estimating before calculating gives a check on the final answer.",
+   "formula": "",
+   "key_idea": "Estimates trade accuracy for speed: round first, calculate, and the estimate guards against silly mistakes.",
+   "textbook_ref": "gegp101.txt, Large Numbers Around Us",
+   "question_patterns": [
+    "round 48,912 to the nearest thousand",
+    "estimate the sum of 3,45,678 and 2,10,540",
+    "when is an estimate better than an exact answer",
+    "why do news reports say about 2 lakh people",
+    "estimate first then multiply 198 by 41",
+    "round to the nearest lakh and compare two districts populations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.1.4",
+   "title": "Comparing and Expanding Large Numbers",
+   "section": "Large Numbers Around Us",
+   "definition": "To compare large numbers, count digits first and then compare places from the left; to expand a number means to write it as the sum of the place values of its digits.",
+   "formula": "",
+   "key_idea": "Left to right is the law of comparison: the first place where two digits differ decides the bigger number.",
+   "textbook_ref": "gegp101.txt, Large Numbers Around Us",
+   "question_patterns": [
+    "compare 8,76,543 and 8,76,743",
+    "expand 4,05,302 using place values",
+    "arrange in descending order 5,60,000 5,06,000 6,50,000",
+    "which digit decides the bigger of two five digit numbers",
+    "write fifty six thousand two hundred nine in digits",
+    "why is a six digit number always bigger than a five digit number"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp101.txt",
+   "concept": "gegp.1.2",
+   "question_type": "compute",
+   "question_pattern": "A school orders 120 boxes of pencils with 85 pencils in each box. Find the total number of pencils.",
+   "extracted_variables": {
+    "packs": "number of boxes",
+    "per": "items in each box"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the two numbers",
+     "explain": "Boxes 120, pencils per box 85.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply the quantities",
+     "explain": "Total equals boxes times items per box.",
+     "compute": "total = packs * per"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp101.txt",
+   "concept": "gegp.1.2",
+   "question_type": "compute",
+   "question_pattern": "A rice bank has 240 sacks and each sack holds 60 kilograms. How many kilograms in all?",
+   "extracted_variables": {
+    "packs": "number of sacks",
+    "per": "kilograms in each sack"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the two numbers",
+     "explain": "Sacks 240, kilograms per sack 60.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply the quantities",
+     "explain": "Multiply sacks by kilograms per sack for the total.",
+     "compute": "total = packs * per"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp101.txt",
+   "concept": "gegp.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "multiply 120 by 85 and read the answer in words.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp101.txt, Figure it Out",
+   "questions": [
+    "How many lakhs make a crore?",
+    "Multiply 120 by 85 and read the answer in words.",
+    "Round 48,912 to the nearest thousand.",
+    "Expand 4,05,302 using place values.",
+    "Compare 8,76,543 and 8,76,743."
+   ]
+  }
+ ]
+}

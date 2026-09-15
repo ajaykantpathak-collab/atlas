@@ -1,0 +1,501 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "The Amazing World of Solutes, Solvents, and Solutions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu109.txt",
+ "concepts": [
+  {
+   "id": "c8cu.9.1",
+   "title": "Solutions and Their Components",
+   "section": "9.1",
+   "definition": "A solution is a homogeneous mixture of two or more substances in which the solute is the substance that dissolves and the solvent is the substance that does the dissolving.",
+   "formula": "",
+   "key_idea": "Every solution has a solute (dissolved substance) and a solvent (dissolving medium); together they form a uniform single-phase mixture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a solution? Define solute and solvent with an example.",
+    "Identify the solute and solvent in a sugar-water solution.",
+    "Why is a solution called a homogeneous mixture?",
+    "Give two everyday examples of solutions and name their components.",
+    "Can a solid be a solvent? Explain with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mixture",
+     "explain": "Examine the given mixture and check whether its components are uniformly distributed and cannot be distinguished by the naked eye."
+    },
+    {
+     "step": 2,
+     "action": "Locate the solute and solvent",
+     "explain": "Determine which substance is present in smaller amount and dissolves (solute) and which is present in larger amount and acts as the dissolving medium (solvent)."
+    },
+    {
+     "step": 3,
+     "action": "Verify homogeneity",
+     "explain": "Confirm that the mixture is uniform throughout with no visible boundaries between solute and solvent, which qualifies it as a solution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a salt-water solution, which is the solute and which is the solvent?",
+     "solution": "Salt is the substance that dissolves, so it is the solute. Water is the dissolving medium present in larger amount, so it is the solvent.",
+     "answer": "Solute = salt, Solvent = water."
+    },
+    {
+     "question": "A tincture of iodine contains iodine dissolved in alcohol. Identify the solute and solvent.",
+     "solution": "Iodine is the dissolved substance (solute) and alcohol is the dissolving medium (solvent).",
+     "answer": "Solute = iodine, Solvent = alcohol."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define solute and solvent. Give one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the following as solute or solvent: (a) oxygen in air, (b) water in sea water.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.2",
+   "title": "Types of Solutions",
+   "section": "9.2",
+   "definition": "Solutions can be classified based on the physical state of the solute and solvent as solid-liquid, liquid-liquid, or gas-liquid solutions, among others.",
+   "formula": "",
+   "key_idea": "The state (solid, liquid, gas) of the solute and solvent determines the type of solution; common types include solid in liquid, liquid in liquid, and gas in liquid.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify a solution as solid-liquid, liquid-liquid, or gas-liquid.",
+    "Give an example of a gas dissolved in a liquid.",
+    "What type of solution is an alloy? Justify your answer.",
+    "How is a liquid-liquid solution different from a solid-liquid solution?",
+    "List one example each of solid-solid and gas-gas solutions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the state of the solute",
+     "explain": "Identify whether the dissolved substance is a solid, liquid, or gas under the given conditions."
+    },
+    {
+     "step": 2,
+     "action": "Determine the state of the solvent",
+     "explain": "Identify whether the dissolving medium is a solid, liquid, or gas."
+    },
+    {
+     "step": 3,
+     "action": "Combine to classify",
+     "explain": "Combine the two states (solute-solvent) to label the solution type, e.g., solid-liquid, liquid-liquid, or gas-liquid."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What type of solution is soda water (carbon dioxide dissolved in water)?",
+     "solution": "Carbon dioxide is a gas (solute) and water is a liquid (solvent), so it is a gas-liquid solution.",
+     "answer": "Gas-liquid solution."
+    },
+    {
+     "question": "Classify the solution formed when sugar is dissolved in water.",
+     "solution": "Sugar is a solid solute and water is a liquid solvent, making it a solid-liquid solution.",
+     "answer": "Solid-liquid solution."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example each of a solid-liquid, liquid-liquid, and gas-liquid solution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Vinegar is a solution of acetic acid in water. What type of solution is it?",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.3",
+   "title": "Solubility and Factors Affecting It",
+   "section": "9.3",
+   "definition": "Solubility is the maximum amount of a solute that can dissolve in a given amount of solvent at a particular temperature to form a saturated solution.",
+   "formula": "solubility = (mass of solute / mass of solvent) x 100",
+   "key_idea": "Solubility depends mainly on temperature and the nature of the solute and solvent; for most solids in water, solubility increases with temperature, while for gases it decreases with temperature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define solubility and state its units.",
+    "How does temperature affect the solubility of a solid in a liquid?",
+    "Why does a warm fizzy drink go flat faster than a cold one?",
+    "What effect does stirring have on the rate of dissolving?",
+    "Calculate the solubility if 36 g of salt dissolves in 100 g of water at a given temperature."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify given masses",
+     "explain": "Note the mass of the solute that dissolves and the mass of the solvent at the stated temperature."
+    },
+    {
+     "step": 2,
+     "action": "Apply the solubility formula",
+     "explain": "Solubility is the mass of solute per 100 g of solvent, calculated as (mass_solute / mass_solvent) x 100.",
+     "compute": "solubility = (mass_solute / mass_solvent) * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "State the solubility in grams of solute per 100 g of solvent at the given temperature and relate it to how temperature changes the value."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "36 g of sodium chloride dissolves in 100 g of water at 25 C. What is the solubility?",
+     "solution": "Solubility = (36 / 100) x 100 = 36 g per 100 g of water.",
+     "answer": "36 g per 100 g of water at 25 C."
+    },
+    {
+     "question": "At a certain temperature, 24 g of potassium nitrate dissolves in 80 g of water. Find the solubility.",
+     "solution": "Solubility = (24 / 80) x 100 = 30 g per 100 g of water.",
+     "answer": "30 g per 100 g of water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define solubility. State two factors that affect the solubility of a solid in a liquid.",
+     "type": "short_answer"
+    },
+    {
+     "question": "40 g of sugar dissolves in 50 g of water at 20 C. Calculate the solubility.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.4",
+   "title": "Concentration of Solutions",
+   "section": "9.4",
+   "definition": "Concentration of a solution is the amount of solute present in a given amount of solution or solvent, commonly expressed as a mass percentage.",
+   "formula": "concentration (%) = (mass of solute / mass of solution) x 100",
+   "key_idea": "Concentration tells how much solute is packed in a solution; mass percentage relates the mass of the solute to the total mass of the solution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define concentration of a solution.",
+    "Calculate the mass percentage of a solution containing 10 g of salt in 90 g of water.",
+    "How is concentration different from solubility?",
+    "A solution has 5 g of solute in 100 g of solution. Find its concentration.",
+    "Express the concentration of a 15% sugar solution in words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the mass of the solution",
+     "explain": "Add the mass of the solute and the mass of the solvent to get the total mass of the solution.",
+     "compute": "mass_solution = mass_solute + mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "Apply the concentration formula",
+     "explain": "Concentration (mass %) equals the mass of the solute divided by the mass of the solution, multiplied by 100.",
+     "compute": "concentration = (mass_solute / mass_solution) * 100"
+    },
+    {
+     "step": 3,
+     "action": "State the result with units",
+     "explain": "Report the concentration as a percentage and verify it lies between 0 and 100."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A solution contains 10 g of salt dissolved in 90 g of water. What is the concentration of the solution?",
+     "solution": "Mass of solution = 10 + 90 = 100 g. Concentration = (10 / 100) x 100 = 10%.",
+     "answer": "10% by mass."
+    },
+    {
+     "question": "5 g of sugar is dissolved in 45 g of water. Find the mass percentage concentration.",
+     "solution": "Mass of solution = 5 + 45 = 50 g. Concentration = (5 / 50) x 100 = 10%.",
+     "answer": "10% by mass."
+    },
+    {
+     "question": "What mass of solute is present in 200 g of a 15% salt solution?",
+     "solution": "Mass of solute = 15% of 200 g = (15/100) x 200 = 30 g.",
+     "answer": "30 g of salt."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the concentration of a solution made by dissolving 20 g of sugar in 80 g of water.",
+     "type": "numerical"
+    },
+    {
+     "question": "Distinguish between a dilute and a concentrated solution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.5",
+   "title": "Saturated and Unsaturated Solutions",
+   "section": "9.5",
+   "definition": "A saturated solution contains the maximum amount of solute that can dissolve at a given temperature, while an unsaturated solution can dissolve more solute at the same temperature.",
+   "formula": "",
+   "key_idea": "At a fixed temperature, a saturated solution is in equilibrium with undissolved solute; adding more solute to an unsaturated solution will dissolve it, but adding to a saturated solution leaves it undissolved.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between a saturated and an unsaturated solution.",
+    "How can you convert a saturated solution into an unsaturated one?",
+    "What happens when more solute is added to a saturated solution at constant temperature?",
+    "Explain how heating helps dissolve more solute in a saturated solution.",
+    "Describe a simple test to check whether a solution is saturated."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add a small amount of solute",
+     "explain": "Add a crystal of the same solute to the solution at a constant temperature and observe whether it dissolves."
+    },
+    {
+     "step": 2,
+     "action": "Observe dissolution",
+     "explain": "If the added crystal dissolves, the solution is unsaturated; if it settles at the bottom undissolved, the solution is saturated."
+    },
+    {
+     "step": 3,
+     "action": "Relate to temperature",
+     "explain": "Conclude that heating a saturated solution can make it unsaturated again by increasing the solubility, while cooling an unsaturated solution may saturate it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student adds more sugar to a sugar solution at 20 C and it does not dissolve. What type of solution is it?",
+     "solution": "Since no more solute dissolves at the given temperature, the solution has reached its maximum capacity and is saturated.",
+     "answer": "Saturated solution."
+    },
+    {
+     "question": "How can a saturated salt solution be made unsaturated without changing the amount of solute?",
+     "solution": "By heating the solution, the solubility of the salt increases, allowing more solute to dissolve, which makes the solution unsaturated.",
+     "answer": "Heat the solution to increase solubility."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define saturated and unsaturated solutions with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State whether the following is saturated or unsaturated: a salt solution in which added salt settles at the bottom.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.6",
+   "title": "Properties of Solutions",
+   "section": "9.6",
+   "definition": "A true solution is homogeneous, its particles are too small to be seen, it does not scatter a beam of light, and the solute cannot be separated by simple filtration.",
+   "formula": "",
+   "key_idea": "Solutions are stable, homogeneous mixtures with very small solute particles (less than 1 nm) that do not settle out or scatter light (Tyndall effect is absent).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the characteristic properties of a true solution.",
+    "Why does a solution not show the Tyndall effect?",
+    "Can the components of a solution be separated by filtration? Explain.",
+    "Why is a solution considered stable?",
+    "Compare the particle size in a true solution with that in a suspension."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check homogeneity",
+     "explain": "Observe whether the mixture is uniform throughout with no visible particles or layers."
+    },
+    {
+     "step": 2,
+     "action": "Test for Tyndall effect",
+     "explain": "Pass a beam of light through the solution; a true solution will not scatter the light, so the path remains invisible."
+    },
+    {
+     "step": 3,
+     "action": "Test stability and filtration",
+     "explain": "Allow the solution to stand and try filtering it; the solute will not settle out and will pass through the filter paper, confirming it is a true solution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A beam of light passed through a liquid is not visible from the side. Is the liquid a true solution?",
+     "solution": "Absence of the Tyndall effect means the particles are too small to scatter light, which is a property of a true solution.",
+     "answer": "Yes, it is likely a true solution."
+    },
+    {
+     "question": "Why can salt not be recovered from a salt solution by simple filtration?",
+     "solution": "In a true solution the solute particles are smaller than the pores of filter paper, so they pass through and cannot be separated by filtration.",
+     "answer": "Solute particles are too small to be filtered out."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any three properties of a true solution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Does a true solution show the Tyndall effect? Give a reason.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.9.7",
+   "title": "Separation of Solutions by Evaporation and Distillation",
+   "section": "9.7",
+   "definition": "The components of a solution can be separated by physical methods such as evaporation, which recovers the solute, and distillation, which collects the solvent by condensing the vapour.",
+   "formula": "",
+   "key_idea": "Evaporation separates a volatile solvent from a non-volatile solute, while distillation boils the mixture and condenses the vapour to obtain the pure solvent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How can you obtain salt from a salt-water solution?",
+    "Explain the process of distillation with a labelled description.",
+    "Why is evaporation used to separate dyes from ink?",
+    "Differentiate between evaporation and distillation.",
+    "Which method would you use to obtain pure water from sea water? Why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose the method",
+     "explain": "Decide whether the goal is to recover the solute (use evaporation) or the solvent (use distillation)."
+    },
+    {
+     "step": 2,
+     "action": "Apply the process",
+     "explain": "For evaporation, heat the solution until the solvent escapes leaving the solute; for distillation, boil the solution and condense the vapour using a condenser."
+    },
+    {
+     "step": 3,
+     "action": "Collect the component",
+     "explain": "Collect the solid residue in evaporation or the condensed liquid in distillation, and verify its purity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How will you obtain common salt from sea water?",
+     "solution": "Sea water is heated in shallow pans. The water evaporates, leaving behind the solid common salt as residue.",
+     "answer": "By evaporation of water."
+    },
+    {
+     "question": "A student wants to obtain pure water from an ink-water mixture. Which method should be used?",
+     "solution": "Distillation is used because the water (solvent) can be boiled off and then condensed to give pure water, leaving the ink behind.",
+     "answer": "Distillation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how distillation can be used to obtain pure water from a salt solution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which separation method recovers only the solute: evaporation or distillation?",
+     "type": "objective"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.9.3.1",
+   "source_ref": "generated practice sample aligned to hecu109.txt",
+   "concept": "c8cu.9.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the solubility step by step for a case with {mass_solute}, {mass_solvent}.",
+   "extracted_variables": {
+    "mass_solute": "mass solute (given value)",
+    "mass_solvent": "mass solvent (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute solubility",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "solubility = (mass_solute / mass_solvent) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.9.3.2",
+   "source_ref": "generated practice sample aligned to hecu109.txt",
+   "concept": "c8cu.9.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the solubility step by step for a case with {mass_solute}, {mass_solvent}.",
+   "extracted_variables": {
+    "mass_solute": "mass solute (given value)",
+    "mass_solvent": "mass solvent (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute solubility",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "solubility = (mass_solute / mass_solvent) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.9.4.1",
+   "source_ref": "generated practice sample aligned to hecu109.txt",
+   "concept": "c8cu.9.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the concentration step by step for a case with {mass_solute}, {mass_solvent}.",
+   "extracted_variables": {
+    "mass_solute": "mass solute (given value)",
+    "mass_solvent": "mass solvent (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute mass solution",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "mass_solution = mass_solute + mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "compute concentration",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "concentration = (mass_solute / mass_solution) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.9.4.2",
+   "source_ref": "generated practice sample aligned to hecu109.txt",
+   "concept": "c8cu.9.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the concentration step by step for a case with {mass_solute}, {mass_solvent}.",
+   "extracted_variables": {
+    "mass_solute": "mass solute (given value)",
+    "mass_solvent": "mass solvent (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute mass solution",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "mass_solution = mass_solute + mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "compute concentration",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "concentration = (mass_solute / mass_solution) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

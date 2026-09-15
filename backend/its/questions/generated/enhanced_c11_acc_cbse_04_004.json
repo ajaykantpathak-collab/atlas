@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_004",
+   "title": "c11_acc_cbse_04_004",
+   "questions": [
+    {
+     "q": "A student records a credit purchase of office furniture (for business use, not resale) in the Purchase Book. Is this correct? Explain why or why not in one sentence.",
+     "a": "No, this is incorrect. The Purchase Book records only credit purchases of goods meant for resale (trading goods), not assets like furniture. Credit purchase of furniture belongs in the Journal Proper. A wrong answer reveals the student conflates \"any credit purchase\" with \"credit purchase of goods\" - they haven't internalized the distinction between trading stock and fixed assets.",
+     "self_check": true
+    },
+    {
+     "q": "Why is trade discount deducted from the invoice amount before recording in the Purchase/Sales Book, while cash discount is never recorded in these books at the time of the original entry?",
+     "a": "Trade discount is a reduction in the list price agreed upon before the sale/purchase and represents the actual transaction value - it's part of the invoice terms. Cash discount is a conditional later incentive for early payment, unknown at the time of the original credit transaction. A wrong answer reveals the student doesn't understand that subsidiary books record the actual obligation at inception, not potential future variations.",
+     "self_check": true
+    },
+    {
+     "q": "M/s Sharma Traders purchased goods on credit from M/s Gupta Suppliers for ₹50,000 (invoice no. 450) with 10% trade discount. The student records ₹50,000 in the Purchase Book. Calculate the correct amount and explain the error's impact on the Purchases Account and Gupta Suppliers' Account.",
+     "a": "Correct amount = ₹50,000 - 10% = ₹45,000. Error impact: Purchases Account overstated by ₹5,000 (debit side), Gupta Suppliers' Account overstated by ₹5,000 (credit side). The trial balance still tallies but both accounts show wrong balances. A wrong answer reveals the student either doesn't know to apply trade discount or doesn't trace the double-entry effect through to ledger posting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the posting frequency: individual supplier accounts are posted daily from the Purchase Book, but the total is posted to the Purchases Account monthly. Why this difference? What would go wrong if we posted the Purchases Account daily instead?",
+     "a": "Supplier accounts need daily posting to track individual payables for payment decisions and reconciliation. The Purchases Account is a control account - monthly total suffices for periodic financial statements. Daily posting to Purchases Account would clutter the ledger with numerous small entries, defeating the purpose of subsidiary books (efficiency). A wrong answer reveals the student memorizes \"daily vs monthly\" without understanding the purpose: subsidiary books reduce ledger entries, not increase them.",
+     "self_check": true
+    },
+    {
+     "q": "A business maintains both a Purchase Book and a Cash Book. The accountant argues: \"Since all purchases eventually involve cash payment, why not record credit purchases in the Cash Book when paid, skipping the Purchase Book entirely?\" Evaluate this argument.",
+     "a": "The argument is flawed. The Purchase Book records the *incurrence* of liability (accrual basis), creating an accounts payable trail. Recording only at payment loses: (1) credit period tracking, (2) supplier-wise analysis, (3) cut-off accuracy for period-end financials, (4) separation of purchasing and payment functions for internal control. A wrong answer reveals the student thinks accounting is only about cash flow, not about recording economic events when they occur.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transaction scenario where a student must decide between Purchase Book, Sales Book, Cash Book, and Journal Proper for four different but related transactions involving the same supplier/customer. Provide the transactions and the correct classification for each.",
+     "a": "Example: (1) Bought goods on credit from X - Purchase Book. (2) Paid X by cheque - Cash Book (bank column). (3) Returned defective goods to X - Purchase Return Book. (4) Bought machinery on credit from X - Journal Proper. Good answer shows clear decision logic for each. Poor answer reveals confusion between books of original entry, especially misclassifying (3) or (4).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

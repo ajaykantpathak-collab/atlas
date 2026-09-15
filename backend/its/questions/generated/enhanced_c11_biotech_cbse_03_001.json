@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_001",
+   "title": "c11_biotech_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the general formula of monosaccharides and name the two functional groups that define them as aldoses or ketoses.",
+     "a": "The general formula is Cₙ(H₂O)ₙ. Aldoses contain a free aldehyde group (–CHO) at C‑1; ketoses contain a free ketone group (>C=O) typically at C‑2. A wrong answer (e.g., \"CₙH₂ₙOₙ\" or \"alcohol and carboxyl groups\") reveals confusion with the empirical formula of carbohydrates or misidentification of the carbonyl functional group that characterizes reducing sugars.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why D‑glucose and L‑glucose are enantiomers, but α‑D‑glucose and β‑D‑glucose are anomers, not enantiomers.",
+     "a": "D‑ and L‑glucose are non‑superimposable mirror images differing at all chiral centres (C‑2, C‑3, C‑4, C‑5), making them enantiomers. α‑ and β‑D‑glucose differ only in the configuration at the anomeric carbon (C‑1) formed during cyclization; they are diastereomers (specifically anomers), not mirror images. A student who calls them enantiomers confuses the reference carbon for D/L assignment (the highest‑numbered chiral carbon) with the anomeric carbon created by ring closure.",
+     "self_check": true
+    },
+    {
+     "q": "A disaccharide gives a positive Benedict’s test and yields one molecule each of D‑glucose and D‑fructose on hydrolysis. Identify the disaccharide and draw its glycosidic linkage, specifying the anomeric carbons involved.",
+     "a": "The disaccharide is sucrose. However, sucrose is a non‑reducing sugar (both anomeric carbons involved in the glycosidic bond) and gives a negative Benedict’s test. The described behavior (positive Benedict’s, glucose + fructose) matches lactose (glucose + galactose) or maltose (glucose + glucose). The correct disaccharide yielding glucose and fructose is sucrose, but it is non‑reducing. A student who identifies it as sucrose and claims it reduces Benedict’s reagent has not grasped that sucrose’s glycosidic bond (α‑D‑glucopyranosyl‑β‑D‑fructofuranoside) ties up both anomeric carbons, preventing ring opening. The correct reducing disaccharide giving glucose and fructose does not exist in common biological disaccharides; this question tests the ability to reconcile hydrolysis products with reducing properties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the glycosidic linkages and branching patterns in amylopectin and glycogen. How do these structural differences relate to the rate of glucose mobilization in plants vs. animals?",
+     "a": "Both are α‑(1→4) linked linear chains with α‑(1→6) branches. Glycogen has branches every 8–12 glucose residues; amylopectin branches every 24–30 residues. The higher branching density in glycogen creates more non‑reducing ends, allowing glycogen phosphorylase to release glucose‑1‑phosphate rapidly during animal fight‑or‑flight responses. Amylopectin’s sparser branching suits slower, sustained energy release in plants. A wrong answer that ignores branch frequency or misidentifies the linkage type (e.g., β‑linkages) fails to connect polymer architecture to physiological function.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Cellulose and chitin are both β‑(1→4) linked polysaccharides, so they should be equally digestible by human enzymes.\"",
+     "a": "The statement is false. While both have β‑(1→4) linkages, cellulose is a polymer of β‑D‑glucose, whereas chitin is a polymer of β‑N‑acetyl‑D‑glucosamine (a nitrogen‑containing derivative). Human digestive enzymes (e.g., cellulase) are absent for both, but the difference in monomer structure means even if a β‑glucosidase acted on cellulose, it would not hydrolyze chitin’s N‑acetyl group. Moreover, chitin’s extensive hydrogen bonding via N‑acetyl side chains makes it more recalcitrant. A student who agrees overlooks the monomer identity and the enzyme specificity required for N‑acetylated sugars.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical disaccharide that is a reducing sugar but cannot be hydrolyzed by human digestive enzymes. Specify its monosaccharide components, glycosidic bond (including anomeric configurations), and explain why it resists digestion.",
+     "a": "Example: β‑D‑glucopyranosyl‑(1→3)‑β‑D‑glucopyranose (laminaribiose). It has a free anomeric carbon on the second glucose (reducing end) but uses a β‑(1→3) linkage. Human small‑intestinal disaccharidases (lactase, sucrase, maltase) are specific for β‑(1→4) (lactose), α‑(1→2) (sucrose), α‑(1→4) (maltose). The β‑(1→3) bond is not a substrate, so it passes undigested to the colon. A poor answer might propose an α‑(1→4) linked glucose dimer (maltose) which is digested, or a non‑reducing disaccharide like sucrose, showing lack of understanding of enzyme specificity and reducing‑end requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

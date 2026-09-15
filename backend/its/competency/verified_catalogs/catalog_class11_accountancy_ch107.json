@@ -1,0 +1,484 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 107,
+ "chapter_title": "Depreciation, Provisions and Reserves",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac107.txt",
+ "concepts": [
+  {
+   "id": "keac.7.1",
+   "title": "Meaning of Depreciation",
+   "section": "7.1",
+   "definition": "The systematic and permanent reduction in the book value of a tangible fixed asset due to usage, the passage of time, or technological obsolescence.",
+   "formula": "depreciation = (cost - salvage_value) / useful_life",
+   "key_idea": "Allocation of the cost of a fixed asset over its useful life as an expense.",
+   "textbook_ref": "keac107.txt lines 30-65",
+   "question_patterns": [
+    "what is the meaning of depreciation",
+    "define depreciation as an accounting term",
+    "explain the concept of depreciation on fixed assets",
+    "how does depreciation affect the book value of an asset",
+    "calculate meaning of depreciation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate depreciable amount",
+     "explain": "subtract the estimated scrap value from the original cost",
+     "compute": "depreciable_amount = cost - salvage_value"
+    },
+    {
+     "step": 2,
+     "action": "calculate annual depreciation",
+     "explain": "divide the depreciable amount by the estimated useful life",
+     "compute": "annual_depreciation = depreciable_amount / useful_life"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.7.1_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.7.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "cost": "10",
+      "salvage_value": "10",
+      "useful_life": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "calculate depreciable amount",
+       "explain": "subtract the estimated scrap value from the original cost",
+       "compute": "depreciable_amount = cost - salvage_value"
+      },
+      {
+       "step": 2,
+       "action": "calculate annual depreciation",
+       "explain": "divide the depreciable amount by the estimated useful life",
+       "compute": "annual_depreciation = depreciable_amount / useful_life"
+      }
+     ],
+     "question_pattern": "what is the meaning of depreciation (given {cost}, {salvage_value}, {useful_life})"
+    },
+    {
+     "id": "ex_re_keac.7.1_2",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.7.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "cost": "10",
+      "salvage_value": "10",
+      "useful_life": "2"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "calculate depreciable amount",
+       "explain": "subtract the estimated scrap value from the original cost",
+       "compute": "depreciable_amount = cost - salvage_value"
+      },
+      {
+       "step": 2,
+       "action": "calculate annual depreciation",
+       "explain": "divide the depreciable amount by the estimated useful life",
+       "compute": "annual_depreciation = depreciable_amount / useful_life"
+      }
+     ],
+     "question_pattern": "what is the meaning of depreciation (given {cost}, {salvage_value}, {useful_life})"
+    }
+   ]
+  },
+  {
+   "id": "keac.7.6.1",
+   "title": "Straight Line Method",
+   "section": "7.6.1",
+   "definition": "A depreciation method where an equal amount is charged as an expense in every accounting period over the asset's useful life.",
+   "formula": "annual_depreciation = (cost - salvage_value) / useful_life",
+   "key_idea": "Uniform depreciation charge throughout the asset's life.",
+   "textbook_ref": "keac107.txt lines 230-260",
+   "question_patterns": [
+    "calculate annual depreciation using straight line method",
+    "find the rate of depreciation under fixed installment method",
+    "what is the straight line method of depreciation",
+    "compute depreciation using straight line method",
+    "calculate straight line method for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate annual depreciation amount",
+     "explain": "use the straight line formula",
+     "compute": "annual_depreciation = (cost - salvage_value) / useful_life"
+    },
+    {
+     "step": 2,
+     "action": "calculate rate of depreciation",
+     "explain": "express annual depreciation as a percentage of acquisition cost",
+     "compute": "rate = (annual_depreciation / cost) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate annual depreciation using straight line method (take cost = 10, salvage_value = 10, useful_life = 10)",
+     "solution": "Applying the concept's compute chain with cost = 10, salvage_value = 10, useful_life = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.7.6.2",
+   "title": "Written Down Value Method",
+   "section": "7.6.2",
+   "definition": "A depreciation method where a fixed percentage is applied to the book value of the asset at the beginning of each year, resulting in declining depreciation charges.",
+   "formula": "depreciation = book_value_start_of_year * rate",
+   "key_idea": "Higher depreciation in early years, reducing over time.",
+   "textbook_ref": "keac107.txt lines 300-340",
+   "question_patterns": [
+    "calculate depreciation using written down value method",
+    "what is the reducing balance method of depreciation",
+    "how to compute depreciation under diminishing value method",
+    "determine the depreciation for the second year using WDV",
+    "calculate written down value method for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate year 1 depreciation",
+     "explain": "apply rate to original cost",
+     "compute": "depreciation_1 = cost * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate book value at end of year 1",
+     "explain": "subtract year 1 depreciation from cost",
+     "compute": "wdv_1 = cost - depreciation_1"
+    },
+    {
+     "step": 3,
+     "action": "calculate year 2 depreciation",
+     "explain": "apply rate to the written down value",
+     "compute": "depreciation_2 = wdv_1 * rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate depreciation using written down value method (take cost = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with cost = 10, rate = 10 gives 0.9.",
+     "answer": "0.9"
+    },
+    {
+     "question": "calculate depreciation using written down value method (take cost = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with cost = 10, rate = 2 gives 0.196.",
+     "answer": "0.196"
+    }
+   ]
+  },
+  {
+   "id": "keac.7.13",
+   "title": "Secret Reserve",
+   "section": "7.13",
+   "definition": "A financial reserve that is intentionally omitted from the balance sheet to understate profits or financial strength.",
+   "formula": "secret_reserve = actual_net_worth - disclosed_net_worth",
+   "key_idea": "Created by overstating liabilities or understating assets to provide a buffer for lean periods.",
+   "textbook_ref": "keac107.txt lines 1-15",
+   "question_patterns": [
+    "what is a secret reserve",
+    "how are secret reserves created",
+    "explain the concept of secret reserve",
+    "why would a firm create a secret reserve",
+    "explain secret reserve"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify creation method",
+     "explain": "Check for practices like excessive depreciation or undervaluation of stock."
+    },
+    {
+     "step": 2,
+     "action": "verify balance sheet impact",
+     "explain": "Confirm the reserve is not explicitly listed in the financial statements."
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.1",
+   "title": "Depreciation",
+   "section": "Summary",
+   "definition": "The permanent and gradual shrinkage in the book value of a tangible fixed asset due to usage, time, or obsolescence.",
+   "formula": "depreciation = (original_cost - salvage_value) / useful_life",
+   "key_idea": "Allocating the cost of a tangible asset over its productive years.",
+   "textbook_ref": "keac107.txt lines 35-40",
+   "question_patterns": [
+    "define depreciation",
+    "calculate annual depreciation using straight line method",
+    "find the depreciation amount",
+    "what factors affect depreciation",
+    "calculate depreciation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate depreciable cost",
+     "explain": "Subtract the scrap value from the original purchase cost.",
+     "compute": "depreciable_cost = original_cost - salvage_value"
+    },
+    {
+     "step": 2,
+     "action": "divide by useful life",
+     "explain": "Spread the depreciable cost over the expected years of use.",
+     "compute": "annual_depreciation = depreciable_cost / useful_life"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "define depreciation (take original_cost = 10, salvage_value = 10, useful_life = 10)",
+     "solution": "Applying the concept's compute chain with original_cost = 10, salvage_value = 10, useful_life = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "define depreciation (take original_cost = 10, salvage_value = 10, useful_life = 2)",
+     "solution": "Applying the concept's compute chain with original_cost = 10, salvage_value = 10, useful_life = 2 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.2",
+   "title": "Depletion and Amortisation",
+   "section": "Summary",
+   "definition": "Depletion refers to the exhaustion of natural resources, while amortisation is the write-off of intangible assets.",
+   "formula": "amortisation_rate = cost / legal_life",
+   "key_idea": "Specific terms for value reduction based on asset type (natural vs intangible).",
+   "textbook_ref": "keac107.txt lines 41-45",
+   "question_patterns": [
+    "distinguish between depletion and amortisation",
+    "what is amortisation",
+    "in which context is the term depletion used",
+    "explain depletion and amortisation",
+    "what do you mean by depletion and amortisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify asset type",
+     "explain": "Determine if the asset is a natural resource (depletion) or intangible (amortisation)."
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.5",
+   "title": "Written Down Value Method",
+   "section": "Summary",
+   "definition": "A depreciation technique where a fixed percentage is applied to the book value of the asset at the start of every year.",
+   "formula": "depreciation = book_value * (rate / 100)",
+   "key_idea": "Depreciation amount decreases every year as the asset's book value reduces.",
+   "textbook_ref": "keac107.txt lines 60-65",
+   "question_patterns": [
+    "calculate depreciation using WDV method",
+    "find the book value after 3 years using diminishing balance method",
+    "compute depreciation at 10% on written down value",
+    "calculate written down value method for the given values",
+    "find written down value method in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate current year depreciation",
+     "explain": "Apply the percentage rate to the opening book value of the period.",
+     "compute": "depreciation_amount = book_value * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "update book value",
+     "explain": "Subtract the depreciation from the current book value for the next period.",
+     "compute": "new_book_value = book_value - depreciation_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate depreciation using WDV method (take book_value = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with book_value = 10, rate = 10 gives 9.0.",
+     "answer": "9.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.6",
+   "title": "Provisions vs Reserves",
+   "section": "Summary",
+   "definition": "Provisions are charges against profit for known liabilities of uncertain amounts; reserves are appropriations of profit to strengthen finances.",
+   "formula": "net_profit = gross_profit - provisions",
+   "key_idea": "Provisions are mandatory expenses; reserves are optional earnings retentions.",
+   "textbook_ref": "keac107.txt lines 66-72",
+   "question_patterns": [
+    "distinguish between provision and reserve",
+    "is provision a charge against profit",
+    "why are reserves created",
+    "explain provisions vs reserves",
+    "what do you mean by provisions vs reserves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check obligation",
+     "explain": "If it is for a known liability, it is a provision."
+    },
+    {
+     "step": 2,
+     "action": "check source",
+     "explain": "Provisions are deducted before net profit; reserves are taken from net profit."
+    }
+   ]
+  },
+  {
+   "id": "keac.7.NUM.21",
+   "title": "Provision for Doubtful Debts",
+   "section": "Numerical Problems",
+   "definition": "An estimated amount set aside to cover potential losses from debtors who may not pay.",
+   "formula": "new_provision = (debtors - further_bad_debts) * (rate / 100)",
+   "key_idea": "Calculated on the net debtors after deducting unrecorded bad debts.",
+   "textbook_ref": "keac107.txt lines 245-255",
+   "question_patterns": [
+    "calculate new provision for doubtful debts",
+    "find the amount to be debited to P&L for bad debts",
+    "maintain provision at 8% of debtors",
+    "calculate provision for doubtful debts for the given values",
+    "find provision for doubtful debts in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net debtors",
+     "explain": "Subtract additional bad debts from the total debtors balance.",
+     "compute": "net_debtors = debtors - further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "calculate required provision",
+     "explain": "Apply the percentage rate to the net debtors.",
+     "compute": "required_provision = net_debtors * rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "determine P&L impact",
+     "explain": "Add new provision and actual bad debts, then subtract existing provision.",
+     "compute": "pl_charge = bad_debts + further_bad_debts + required_provision - old_provision"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate new provision for doubtful debts (take bad_debts = 10, debtors = 10, further_bad_debts = 10, old_provision = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with bad_debts = 10, debtors = 10, further_bad_debts = 10, old_provision = 10, rate = 10 gives 10.0.",
+     "answer": "10.0"
+    },
+    {
+     "question": "calculate new provision for doubtful debts (take bad_debts = 10, debtors = 10, further_bad_debts = 10, old_provision = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with bad_debts = 10, debtors = 10, further_bad_debts = 10, old_provision = 10, rate = 2 gives 10.0.",
+     "answer": "10.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac107.txt lines 450-470",
+   "concept": "keac.7.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate annual depreciation for a plant costing {cost} with salvage value {salvage} and useful life {life} years.",
+   "extracted_variables": {
+    "cost": "550000",
+    "salvage": "10000",
+    "life": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate depreciable amount",
+     "compute": "depreciable = cost - salvage"
+    },
+    {
+     "step": 2,
+     "action": "calculate annual depreciation",
+     "compute": "annual_depreciation = depreciable / life"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex_tyu_2",
+   "source_ref": "keac107.txt lines 265-275",
+   "concept": "keac.7.SUM.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate depreciation for 3 years using WDV method for an asset of {original_cost} at {rate}%",
+   "extracted_variables": {
+    "original_cost": "initial value of asset",
+    "rate": "percentage of depreciation"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Year 1 Depreciation",
+     "explain": "Apply rate to original cost",
+     "compute": "dep1 = original_cost * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "Year 2 Opening Value",
+     "explain": "Subtract year 1 depreciation",
+     "compute": "val2 = original_cost - dep1"
+    },
+    {
+     "step": 3,
+     "action": "Year 2 Depreciation",
+     "explain": "Apply rate to new value",
+     "compute": "dep2 = val2 * rate / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "keac107.txt lines 210-220",
+   "questions": [
+    "Depreciation is a non-cash expense. True or False?",
+    "Depreciation is charged to reduce the value of asset to its market value. True or False?",
+    "The main cause of depreciation is wear and tear caused by its usage. True or False?"
+   ]
+  },
+  {
+   "id": "p2_ex7.1",
+   "source_ref": "keac107.txt lines 110-120",
+   "questions": [
+    "Prepare Machine account and Depreciation account for the first four years by providing depreciation on straight line method for Bajrang Marbles."
+   ]
+  },
+  {
+   "id": "p2_ex7.4",
+   "source_ref": "keac107.txt lines 135-145",
+   "questions": [
+    "Prepare machinery account if depreciation is provided @10% p.a. on written down value method annually."
+   ]
+  },
+  {
+   "id": "p2_ex7.21",
+   "source_ref": "keac107.txt lines 245-255",
+   "questions": [
+    "Give necessary accounting entries for writing off the bad debts and creating the provision for doubtful debts account at 8% of Debtors."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

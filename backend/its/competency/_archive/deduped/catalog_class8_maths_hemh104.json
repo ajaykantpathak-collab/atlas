@@ -1,0 +1,206 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Data Handling",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.104.4.1",
+   "title": "Organising Data with Tally Marks",
+   "section": "4.1",
+   "definition": "Raw information means little until it is organised: writing each observation and drawing tally strokes in fives beside it turns a jumble of numbers into a table that instantly shows how often each item occurs.",
+   "formula": "-",
+   "key_idea": "Group tally strokes in fives - the fifth stroke cuts across - so counting becomes quick.",
+   "textbook_ref": "hemh104.txt section 4.1 (looking for information, organising data)",
+   "question_patterns": [
+    "organise the given raw data using tally marks",
+    "which item occurs most often in the collected data",
+    "how many observations belong to the given category",
+    "read the frequency of the given item from the tally table",
+    "prepare a table showing each entry and its count",
+    "what is the advantage of organising data before studying it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the categories",
+     "explain": "Write each distinct item or value in a column."},
+    {"step": 2, "action": "draw the strokes",
+     "explain": "Add one tally stroke for every occurrence, crossing the fifth over the first four."},
+    {"step": 3, "action": "count the groups",
+     "explain": "Each five-group plus loose strokes gives the frequency."}
+   ]
+  },
+  {
+   "id": "hemh.104.4.2",
+   "title": "Circle Graphs and Drawing Pie Charts",
+   "section": "4.2",
+   "definition": "A circle graph shows parts of a whole: each category's fraction of the total multiplied by 360 degrees gives the central angle of its sector, and drawing these sectors with a compass completes the pie chart.",
+   "formula": "sector_angle = fraction * 360",
+   "key_idea": "Fraction of the data times 360 degrees equals the slice angle.",
+   "textbook_ref": "hemh104.txt section 4.2 (circle graph or pie chart, drawing pie charts)",
+   "question_patterns": [
+    "draw a pie chart for the given data",
+    "find the central angle for the category that forms one third of the total",
+    "convert the given shares into angles for a circle graph",
+    "which sector is the largest in the given pie chart",
+    "verify that all sector angles add to 360 degrees",
+    "interpret the pie chart of the given survey"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the category fraction",
+     "explain": "Divide the category amount by the grand total.",
+     "compute": "fraction = amount / total"},
+    {"step": 2, "action": "scale to the full circle",
+     "explain": "Multiply the fraction by 360 degrees.",
+     "compute": "sector_angle = fraction * 360"}
+   ]
+  },
+  {
+   "id": "hemh.104.4.3",
+   "title": "Random Experiments and Equally Likely Outcomes",
+   "section": "4.3",
+   "definition": "In a random experiment like tossing a coin or throwing a die, the result is not fixed in advance; when no outcome is favoured over another - head or tail, any face of a die - the outcomes are equally likely, which is what lets us compute chances fairly.",
+   "formula": "-",
+   "key_idea": "A fair experiment gives every outcome the same standing: heads and tails, all six faces alike.",
+   "textbook_ref": "hemh104.txt sections 4.3.1-4.3.2 (getting a result, equally likely outcomes)",
+   "question_patterns": [
+    "list all outcomes when a coin is tossed once",
+    "how many outcomes has throwing of a die",
+    "what are equally likely outcomes - define with an example",
+    "is getting a six on a fair die equally likely as getting a one",
+    "which experiments give equally likely outcomes",
+    "why is tossing a coin called a random experiment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the outcomes",
+     "explain": "Write every possible result of the experiment before performing it."},
+    {"step": 2, "action": "test the fairness",
+     "explain": "No outcome should be special; each must carry the same chance."},
+    {"step": 3, "action": "set up the ratio",
+     "explain": "Equally likely outcomes are exactly what probability needs."}
+   ]
+  },
+  {
+   "id": "hemh.104.4.4",
+   "title": "Probability of an Event",
+   "section": "4.3",
+   "definition": "The probability of an event is the number of outcomes favouring it divided by the total number of equally likely outcomes - a value from 0 for the impossible to 1 for the sure event; the chance of a head in one toss is 1 out of 2.",
+   "formula": "probability = favourable / total",
+   "key_idea": "Favourable over total: 0 means impossible, 1 means certain, one half means a fair coin head.",
+   "textbook_ref": "hemh104.txt sections 4.3.3-4.3.5 (linking chances to probability, events, real life)",
+   "question_patterns": [
+    "find the probability of getting a head when a coin is tossed",
+    "a die is thrown once - find the probability of getting a prime number",
+    "what is the probability of an impossible event",
+    "out of the given balls find the probability of drawing a red ball",
+    "numbers from 1 to 10 - find the probability of choosing a multiple of 3",
+    "can the probability of an event be more than 1 - justify"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the favourable outcomes",
+     "explain": "List the outcomes that match the event.",
+     "compute": "favourable = favourable_count"},
+    {"step": 2, "action": "divide by all outcomes",
+     "explain": "Total equally likely outcomes sit in the denominator.",
+     "compute": "probability = favourable / total"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh104.txt section 4.2 drawing pie charts example",
+   "concept": "hemh.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "A category takes {amount} of a total {total}. Find its central angle in the circle graph.",
+   "extracted_variables": {
+    "amount": "value of the category",
+    "total": "total of all categories"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the fraction",
+     "explain": "Category over total.",
+     "compute": "fraction = amount / total"},
+    {"step": 2, "action": "multiply by 360 degrees",
+     "explain": "The product is the sector angle.",
+     "compute": "sector_angle = fraction * 360"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh104.txt section 4.2 practice",
+   "concept": "hemh.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "Convert the share {amount} out of {total} into the angle it occupies in a pie chart.",
+   "extracted_variables": {
+    "amount": "category value",
+    "total": "grand total"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the fraction",
+     "explain": "Divide amount by total.",
+     "compute": "fraction = amount / total"},
+    {"step": 2, "action": "multiply by 360 degrees",
+     "explain": "The angle at the centre follows.",
+     "compute": "sector_angle = fraction * 360"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh104.txt section 4.3 coin example",
+   "concept": "hemh.104.4.4",
+   "question_type": "compute",
+   "question_pattern": "A coin is tossed. Find the probability of the event having {favourable_count} favourable outcome(s) out of {total}.",
+   "extracted_variables": {
+    "favourable_count": "number of favourable outcomes",
+    "total": "total equally likely outcomes"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "Probability is the ratio of favourable outcomes to all outcomes.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh104.txt section 4.3 dice practice",
+   "concept": "hemh.104.4.4",
+   "question_type": "compute",
+   "question_pattern": "A die is rolled once. Find the probability of the event with {favourable_count} favourable outcomes out of {total} faces.",
+   "extracted_variables": {
+    "favourable_count": "favourable outcomes",
+    "total": "faces of the die"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "The ratio gives the probability.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hemh104.txt section 4.1-4.2 exercises",
+   "questions": [
+     "Organise the given survey data with tally marks.",
+     "Draw a pie chart of the given data using central angles.",
+     "Which category has the largest sector in the circle graph?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hemh104.txt section 4.3 exercises",
+   "questions": [
+     "Find the probability of getting a tail in one toss of a coin.",
+     "A die is thrown once - find the probability of a number greater than 4.",
+     "Numbers 1 to 10 are written on cards - find the probability of drawing a prime number."
+   ]
+  }
+ ]
+}

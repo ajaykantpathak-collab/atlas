@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_003",
+   "title": "c12_ip_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define a computer virus and state the one essential characteristic that distinguishes it from a worm.",
+     "a": "A computer virus is a malicious code that attaches itself to a legitimate host program or file and requires human action (e.g., executing the infected file) to replicate and spread. The essential distinguishing characteristic is **dependency on a host program and human intervention for propagation**, whereas a worm is standalone and spreads autonomously across networks without user interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ransomware is just a type of virus that encrypts files.\" Explain why this statement is technically incorrect, referencing propagation and payload differences.",
+     "a": "The statement is incorrect because ransomware is defined by its **payload** (encryption for extortion), not its propagation method. Ransomware can be delivered via a virus, a worm, a trojan, or even a worm-trojan hybrid (e.g., WannaCry used a worm component to spread). A virus is defined by its **propagation mechanism** (host-dependent replication). Conflating payload with propagation mechanism is a category error.",
+     "self_check": true
+    },
+    {
+     "q": "An organization's network is hit by malware that spreads automatically via an unpatched SMB vulnerability, encrypts files on every reachable machine, and demands payment. Classify this malware and justify your classification with two technical features.",
+     "a": "This is **ransomware delivered via a worm** (worm-ransomware hybrid). Technical features: (1) **Autonomous network propagation** using an SMB exploit (EternalBlue) — characteristic of a worm; (2) **File encryption payload with ransom demand** — characteristic of ransomware. It is not a pure virus because it does not require a host file or user execution to spread.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a trojan and spyware in terms of (a) user consent, (b) primary objective, and (c) typical persistence mechanism.",
+     "a": "(a) **User consent**: Trojan tricks user into *voluntarily installing* it by masquerading as legitimate software; spyware often installs *without explicit consent* via drive-by downloads or bundling. (b) **Primary objective**: Trojan creates a backdoor for remote access/control; spyware covertly *collects and exfiltrates* user data (keystrokes, browsing habits, credentials). (c) **Persistence**: Trojan often modifies startup registry keys or creates scheduled tasks; spyware frequently uses rootkit techniques (hooking APIs, kernel drivers) to hide its presence and survive reboots.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Installing a reputable antivirus is sufficient to protect against all five malware types.\" Provide a reasoned judgment with two specific limitations of signature-based antivirus.",
+     "a": "The claim is **false**. Signature-based antivirus has two critical limitations: (1) **Zero-day malware** (new variants with unknown signatures) bypasses detection until signatures are updated — e.g., a novel ransomware strain encrypts files before the AV vendor releases a definition. (2) **Polymorphic/metamorphic malware** changes its code on each infection, evading static signatures. Effective defense requires *layered security*: heuristic/behavioral analysis, application whitelisting, patch management, network segmentation, and user training — not just AV.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short decision flowchart (text-based) that a security analyst could use to classify an unknown malware sample into one of the five types using only observable behavior: propagation method, payload action, and user interaction level.",
+     "a": "```\nSTART\n├─ Does it self-replicate without user action?\n│   ├─ YES → Does it encrypt files and demand ransom?\n│   │   ├─ YES → WORM-RANSOMWARE HYBRID (e.g., WannaCry)\n│   │   └─ NO → WORM\n│   └─ NO → Does it require a host program to replicate?\n│       ├─ YES → VIRUS\n│       └─ NO → Does it disguise as legitimate software to trick installation?\n│           ├─ YES → TROJAN\n│           └─ NO → Does it secretly collect/exfiltrate data?\n│               ├─ YES → SPYWARE\n│               └─ NO → UNKNOWN (further analysis needed)\n```\nA good answer must include branching on *autonomous propagation* first, then *host-dependency*, then *deception*, then *data exfiltration*, and acknowledge hybrids.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

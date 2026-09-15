@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_10",
+   "title": "c8_physics_ch5_10",
+   "questions": [
+    {
+     "q": "What is the relationship between the partial pressure of a gas above a liquid and the concentration of that gas dissolved in the liquid at constant temperature, according to Henry's law?",
+     "a": "Henry's law states that the concentration of a dissolved gas (C) is directly proportional to its partial pressure (P) above the liquid: C = kₕP, where kₕ is Henry's law constant (mol·L⁻¹·atm⁻¹). A wrong answer like \"inversely proportional\" reveals the student confuses gas solubility with gas volume-pressure relationships (Boyle's law) or misremembers the direction of the relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Why does warming a carbonated drink cause it to lose its fizz faster than a cold one, even if both are sealed at the same pressure?",
+     "a": "Warming increases the kinetic energy of dissolved CO₂ molecules, allowing more of them to overcome the intermolecular forces holding them in the liquid and escape into the headspace. This shifts the dissolution equilibrium toward the gas phase, reducing solubility. A wrong answer citing \"pressure increases with temperature\" confuses the sealed-bottle pressure rise (Gay-Lussac's law) with the intrinsic temperature-solubility relationship, which is inverse for gases.",
+     "self_check": true
+    },
+    {
+     "q": "A soda bottle is sealed at 2.5 atm CO₂ partial pressure at 25°C. Henry's law constant for CO₂ in water at 25°C is 3.3 × 10⁻² mol·L⁻¹·atm⁻¹. Calculate the molar concentration of dissolved CO₂.",
+     "a": "Step 1: Identify given: P = 2.5 atm, kₕ = 3.3 × 10⁻² mol·L⁻¹·atm⁻¹. Step 2: Use Henry's law C = kₕP. Step 3: Substitute: C = (3.3 × 10⁻² mol·L⁻¹·atm⁻¹) × (2.5 atm). Step 4: Compute: C = 8.25 × 10⁻² mol/L = 0.0825 M. Step 5: Units check: atm cancels, leaving mol/L — correct. A wrong answer like 0.825 M reveals a decimal-place error; 8.25 × 10⁻³ M reveals misreading kₕ as 3.3 × 10⁻³.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical sealed bottles contain water equilibrated with air at 1 atm total pressure. Bottle A is at 10°C, Bottle B at 30°C. Compare the dissolved oxygen concentration in each. Explain using molecular motion.",
+     "a": "Bottle A (10°C) has higher dissolved O₂ concentration. At lower temperature, water molecules move slower, creating weaker cavities and stronger intermolecular trapping of O₂; O₂ molecules have lower kinetic energy and escape less readily. At 30°C, faster water motion and higher O₂ kinetic energy shift equilibrium toward the gas phase. A wrong answer claiming equal concentration ignores the temperature dependence of kₕ; claiming B has more confuses gas solubility with solid solubility (which usually increases with temperature).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the pressure on a gas-liquid system, the amount of dissolved gas will double, no matter what the temperature is.\" Evaluate this statement.",
+     "a": "The statement is partially correct but incomplete. Henry's law (C = kₕP) predicts doubling pressure doubles concentration ONLY if temperature (and thus kₕ) remains constant. Since kₕ itself decreases with rising temperature, the actual doubling effect holds only at fixed temperature. A wrong evaluation like \"always true\" ignores that kₕ is temperature-dependent; \"never true\" confuses proportionality with absolute doubling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to show that gas solubility decreases with increasing temperature. List materials, procedure, and the key observation that proves the relationship.",
+     "a": "Materials: Two transparent bottles, cold water, hot water, effervescent vitamin-C tablets (or soda), thermometer, stopwatch. Procedure: 1) Fill one bottle with cold water (~5°C), one with hot water (~50°C). 2) Drop one tablet in each simultaneously. 3) Time how long until bubbling stops. 4) Record temperature and time. Key observation: Hot water stops bubbling sooner — gas escapes faster, proving lower equilibrium solubility at higher temperature. A poor answer uses only qualitative \"more bubbles\" without timing or temperature control, failing to isolate temperature as the variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

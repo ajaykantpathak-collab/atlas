@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_006",
+   "title": "c11_geo_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the three dominant gases in Earth's primordial atmosphere and their approximate combined percentage, contrasting with the two dominant gases in the present atmosphere.",
+     "a": "Primordial atmosphere: Hydrogen (H₂), Helium (He), Methane (CH₄), Ammonia (NH₃), and Water Vapour (H₂O) — H₂ and He together comprised >90% but escaped to space; the retained reducing gases (CH₄, NH₃, H₂O, CO₂) made up nearly 100% of the early secondary atmosphere. Present atmosphere: Nitrogen (N₂ ~78%) and Oxygen (O₂ ~21%) comprise 99%. A wrong answer (e.g., stating O₂ was present primordially) reveals the student conflates the secondary atmosphere with the modern one and misses the role of biological oxygen production.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the primordial atmosphere's hydrogen and helium escaped to space, while nitrogen and carbon dioxide were retained, using the concepts of molecular mass, thermal velocity, and Earth's escape velocity.",
+     "a": "Hydrogen (2 g/mol) and helium (4 g/mol) have low molecular masses; at Earth's early high exospheric temperatures, their average thermal velocities exceeded Earth's escape velocity (11.2 km/s), allowing Jeans escape. Nitrogen (28 g/mol) and CO₂ (44 g/mol) are heavier, so their thermal velocities remain well below escape velocity, causing retention. A wrong answer (e.g., \"gravity pulled heavier gases down\") shows confusion between gravitational settling (which doesn't separate gases in a turbulent atmosphere) and thermal escape physics.",
+     "self_check": true
+    },
+    {
+     "q": "Given that volcanic degassing releases H₂O (60%), CO₂ (20%), SO₂ (10%), N₂ (5%), and trace gases, calculate the approximate partial pressure of CO₂ in the early secondary atmosphere if total pressure was 100 bar, and explain why this did NOT lead to a runaway greenhouse like Venus.",
+     "a": "Step 1: Identify CO₂ fraction = 20% of total outgassed volatiles. Step 2: Total pressure = 100 bar (assumed for early dense atmosphere). Step 3: Partial pressure CO₂ = 0.20 × 100 bar = 20 bar. Step 4: Contrast with Venus: Earth's CO₂ dissolved in liquid oceans (once cooled) and was sequestered via carbonate-silicate weathering cycle (Urey reaction), while Venus lost its water to photodissociation and hydrogen escape, halting carbonate formation. A wrong answer (e.g., \"Earth is farther from Sun\") ignores the critical role of liquid water and plate tectonics in carbon cycling.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"The Great Oxidation Event (GOE) at 2.4 Ga was caused solely by the evolution of cyanobacteria.\" Identify two additional geological factors that controlled the timing and magnitude of atmospheric O₂ rise.",
+     "a": "The statement is incomplete. Factor 1: Tectonic burial of organic carbon — without subduction/burial of photosynthetic organic matter, O₂ would rapidly react with surface reduced minerals (Fe²⁺, S⁻²) and be consumed. Factor 2: Decline in mantle reduced gas flux (H₂, CH₄, CO) as Earth cooled — reduced volcanic gases act as oxygen sinks; their decline lowered the O₂ consumption rate. A wrong answer focusing only on biology misses the geochemical coupling between lithosphere, hydrosphere, and atmosphere that defines Earth system science.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the hypothesis that banded iron formations (BIFs) are direct evidence of the GOE. What does their disappearance after 1.8 Ga tell us about ocean chemistry and atmospheric O₂ levels?",
+     "a": "BIFs (alternating Fe₂O₃ and chert layers) formed when dissolved Fe²⁺ in anoxic deep oceans upwelled and met O₂-producing cyanobacteria at the surface, precipitating Fe³⁺ oxides. Their abundance 2.5–1.8 Ga indicates O₂ was locally produced but globally low (deep ocean remained anoxic). Their disappearance ~1.8 Ga signals deep-ocean oxygenation: once O₂ penetrated the deep ocean, Fe²⁺ oxidized before upwelling, ending BIF deposition. A wrong answer (e.g., \"BIFs prove high O₂\") confuses local oxidation with global atmospheric levels; BIFs actually require LOW global O₂ to transport Fe²⁺.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual model (flowchart or annotated diagram) showing the carbon cycle feedback that stabilised Earth's climate during the faint young Sun paradox (30% less solar luminosity at 4 Ga), linking volcanic CO₂, silicate weathering, and carbonate precipitation.",
+     "a": "A good model includes: (1) High volcanic CO₂ → greenhouse warming → liquid oceans. (2) Warm, wet climate → enhanced silicate weathering (CaSiO₃ + CO₂ → CaCO₃ + SiO₂). (3) Carbonate precipitation in oceans → CO₂ drawdown. (4) Cooling → reduced weathering → CO₂ buildup (negative feedback). Must show arrows for \"increase/decrease\" and label \"thermostat\". A poor model omits the temperature-weathering feedback loop or treats CO₂ as only a source, not a regulated variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

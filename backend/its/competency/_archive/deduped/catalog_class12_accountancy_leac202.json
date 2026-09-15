@@ -1,0 +1,400 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 2,
+ "chapter_title": "Issue and Redemption of Debentures",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.202.1.1",
+   "title": "Meaning and Nature of a Debenture",
+   "section": "2.1",
+   "definition": "A debenture is a formal loan certificate issued under the company's seal: it promises interest at a stated rate on fixed dates and repayment of principal after the agreed period, and under section 2(30) it also covers bonds and debenture stock.",
+   "formula": "debenture_holder_claim = principal_plus_stated_interest",
+   "key_idea": "The debentureholder is a creditor of the company, not an owner, so interest is owed even in loss years.",
+   "textbook_ref": "leac202.txt section 2.1 (lines 14-82)",
+   "question_patterns": [
+    "what is a debenture and whom does it protect",
+    "explain why a debentureholder is treated as a creditor",
+    "state the features of a debenture as an instrument of debt",
+    "does a debenture carry a fixed rate of return",
+    "how does the common seal matter in a debenture certificate",
+    "what does section 2(30) include in the word debenture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the instrument", "explain": "a written acknowledgement of debt issued under the common seal, with the rate of interest usually part of its name"},
+    {"step": 2, "action": "check the payment promise", "explain": "interest at a fixed percentage, normally half-yearly, plus principal back after the stated period or in intervals"},
+    {"step": 3, "action": "place the holder's status", "explain": "creditor position: steady charge on profit, priority over shareholders on winding up, no vote in management"}
+   ]
+  },
+  {
+   "id": "leac.202.2.1",
+   "title": "Shares versus Debentures",
+   "section": "2.2",
+   "definition": "A share is a slice of the company's owned capital carrying membership rights, while a debenture is borrowed money on paper: the shareholder gets variable dividend and votes, the debentureholder gets fixed interest and no vote, and repayment rules differ sharply on winding up.",
+   "formula": "owned_capital_vs_borrowed_capital = shares_minus_debentures",
+   "key_idea": "Owner money stays with the business; loan money must return on the due date whatever the profits did.",
+   "textbook_ref": "leac202.txt section 2.2 (lines 83-104)",
+   "question_patterns": [
+    "give the points on which shares and debentures differ",
+    "why is a share called ownership while a debenture is a loan",
+    "compare the return earned by a shareholder and a debentureholder",
+    "who gets paid first when a company is wound up, shareholders or debentureholders",
+    "can debentureholders vote in the company's meetings",
+    "state two differences between share capital and debenture capital"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "contrast the capital status", "explain": "share is part of owned capital, debenture is part of borrowed capital"},
+    {"step": 2, "action": "contrast the return and control", "explain": "dividend floats with profit and shareholders vote; interest is a fixed charge and debentureholders do not vote"},
+    {"step": 3, "action": "contrast repayment", "explain": "shares are returned last and only on winding up, debentures fall due on the redemption date and rank ahead of shareholders"}
+   ]
+  },
+  {
+   "id": "leac.202.3.1",
+   "title": "Types of Debentures",
+   "section": "2.3",
+   "definition": "Debentures sort along four lines: whether a charge backs them (secured or naked), whose name they carry (registered or bearer), whether they ever fall due (redeemable or perpetual), and whether they can change form (convertible into shares or permanently debentures).",
+   "formula": "debenture_classes = security_type + registration_type + redemption_type + conversion_type",
+   "key_idea": "Collateral is the anchor question: a mortgage or charge makes the issue safe for the lender even if the business fails.",
+   "textbook_ref": "leac202.txt section 2.3 (lines 105-179)",
+   "question_patterns": [
+    "classify debentures from the point of view of security",
+    "what is the difference between registered and bearer debentures",
+    "define irredeemable debentures",
+    "what makes a debenture convertible into shares",
+    "explain mortgage debentures and naked debentures",
+    "which debentures are transferable by mere delivery"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test for a charge", "explain": "fixed or floating charge on assets gives secured or mortgage debentures; without charge they are unsecured or naked"},
+    {"step": 2, "action": "test the register", "explain": "registered debentures move through the company's register; bearer debentures are negotiable by delivery"},
+    {"step": 3, "action": "test life and conversion", "explain": "redeemable debentures carry a repayment date, irredeemable ones do not; convertible debentures may turn into shares or new debentures on stated terms"}
+   ]
+  },
+  {
+   "id": "leac.202.4.1",
+   "title": "Issue of Debentures at Par, Premium and Discount",
+   "section": "2.4",
+   "definition": "Debenture entries mirror share entries: money received through application and allotment builds up to the debentures account, any issue price above face value credits securities premium reserve, and any shortfall below face value is debited to discount on issue of debentures as a capital loss.",
+   "formula": "issue_proceeds = debentures_issued * issue_price_per_debenture",
+   "key_idea": "Premium is not income and discount is not expense on day one -- both wait as capital items until written off or settled at redemption.",
+   "textbook_ref": "leac202.txt section 2.4 (lines 180-684)",
+   "question_patterns": [
+    "pass the entries for debentures issued at a premium",
+    "journalise the issue of debentures at a discount",
+    "where is the premium on issue of debentures credited",
+    "how is discount on issue of debentures treated at the time of issue",
+    "record application and allotment money for a debenture issue",
+    "what happens to discount on issue of debentures in the balance sheet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "collect through application and allotment", "explain": "bank is debited and the debenture application and allotment account credited, then transferred to the debentures account"},
+    {"step": 2, "action": "place the premium", "explain": "when issue price exceeds face value, the excess is credited to securities premium reserve"},
+    {"step": 3, "action": "place the discount", "explain": "when issue price is below face value, the shortfall is debited to discount on issue of debentures, a capital loss awaiting write-off"}
+   ]
+  },
+  {
+   "id": "leac.202.6.1",
+   "title": "Debentures Issued for Consideration other than Cash",
+   "section": "2.6",
+   "definition": "When a company buys assets or a whole business from a vendor and pays with its own debentures, the count of debentures to hand over is the purchase consideration divided by the price at which each debenture is issued.",
+   "formula": "number_of_debentures = purchase_consideration / issue_price_per_debenture",
+   "key_idea": "Assets and liabilities come in at value, the vendor is credited, and settlement runs through the debentures account at par, premium or discount.",
+   "textbook_ref": "leac202.txt section 2.6, Illustrations 6-10 (lines 749-985)",
+   "question_patterns": [
+    "how many debentures must be issued to a vendor against purchase consideration",
+    "a company bought machinery and paid in debentures at a discount; find the number of debentures",
+    "pass the entries when debentures are issued to a vendor at a premium",
+    "record purchase of a business settled by issue of debentures",
+    "calculate debentures allotted when the issue price differs from face value",
+    "what is meant by issue of debentures for consideration other than cash"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "price each debenture actually issued", "explain": "apply the discount or premium to the face value per debenture", "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"},
+    {"step": 2, "action": "divide the consideration by the issue price", "explain": "purchase consideration owed to the vendor split by the issue price gives the debenture count (rounded to whole debentures, cash for the fraction)", "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"}
+   ]
+  },
+  {
+   "id": "leac.202.7.1",
+   "title": "Debentures as Collateral Security",
+   "section": "2.7",
+   "definition": "A company borrowing from a bank may hand over its own debentures as a secondary safeguard on top of the primary security; ownership stays with the company and the bank holds them only until the loan is repaid.",
+   "formula": "collateral_security = primary_security_plus_pledged_debentures",
+   "key_idea": "No interest runs on collateral debentures and the books either stay silent or note them through a debentures suspense account.",
+   "textbook_ref": "leac202.txt section 2.7 (lines 1200-1416)",
+   "question_patterns": [
+    "what is meant by debentures issued as collateral security",
+    "pass the entry for debentures pledged against a bank loan",
+    "how do collateral debentures appear in the balance sheet",
+    "does the company pay interest on debentures given as collateral",
+    "why would a lender demand debentures as additional security",
+    "what happens to collateral debentures once the loan is repaid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "record the loan itself", "explain": "bank is debited and bank loan credited; the pledge adds nothing to the liability amount"},
+    {"step": 2, "action": "note the collateral", "explain": "either no entry with a footnote, or debentures suspense debited and debentures credited, and the suspense charge shown contra in the balance sheet"},
+    {"step": 3, "action": "reverse on repayment", "explain": "when the loan is settled the entry is cancelled and the debentures come back into the company's own hands"}
+   ]
+  },
+  {
+   "id": "leac.202.8.1",
+   "title": "Loss on Issue of Debentures",
+   "section": "2.8",
+   "definition": "Debentures issued below face value but promised back above it create a two-sided loss: the issue discount plus the redemption premium, both booked at once by debiting loss on issue of debentures and crediting premium on redemption of debentures.",
+   "formula": "loss_on_issue = debentures_issued * (issue_discount_per_debenture + redemption_premium_per_debenture)",
+   "key_idea": "Premium on redemption is a liability the company owes later, so it is recognised today, not on the repayment date.",
+   "textbook_ref": "leac202.txt section 2.8, Illustration 17 (lines 1417-1862, 1905-1952)",
+   "question_patterns": [
+    "compute the loss on issue of debentures issued at discount and redeemable at premium",
+    "pass the entry for debentures redeemable at a premium",
+    "how much is debited to loss on issue of debentures account",
+    "why is premium on redemption recognised at the time of issue itself",
+    "calculate the combined discount and redemption premium on an issue",
+    "what is credited to premium on redemption of debentures account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "measure the issue-side shortfall", "explain": "face value minus issue price gives the discount per debenture", "compute": "issue_discount_per_debenture = face_value_per_debenture - issue_price_per_debenture"},
+    {"step": 2, "action": "add the redemption-side excess", "explain": "redemption price minus face value gives the premium payable per debenture at maturity", "compute": "total_loss_per_debenture = issue_discount_per_debenture + redemption_premium_per_debenture"},
+    {"step": 3, "action": "scale to the whole issue", "explain": "multiply the per-debenture loss by the number of debentures issued", "compute": "loss_on_issue = debentures_issued * total_loss_per_debenture"}
+   ]
+  },
+  {
+   "id": "leac.202.9.1",
+   "title": "Interest on Debentures with Tax Deducted at Source",
+   "section": "2.9",
+   "definition": "Debenture interest runs on the nominal value at the stated rate for the elapsed months, is a charge against profit whatever the result, and any tax deducted at source is withheld from the holder and deposited with the government.",
+   "formula": "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction",
+   "key_idea": "The company deducts TDS first, so the holder receives interest net of tax and can claim the credit in its own return.",
+   "textbook_ref": "leac202.txt section 2.9, Illustration 17 (lines 1863-2014)",
+   "question_patterns": [
+    "calculate half-yearly interest on debentures with tax deducted at source",
+    "how much interest is due on ten percent debentures for six months",
+    "find the net interest a debentureholder receives after TDS",
+    "pass the entries for debenture interest due and paid",
+    "compute the tax the company must deposit on debenture interest",
+    "is debenture interest a charge or an appropriation of profit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "run the interest clock on nominal value", "explain": "multiply the nominal value of debentures outstanding by the stated rate and by months over twelve", "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"},
+    {"step": 2, "action": "withhold the tax", "explain": "apply the prescribed TDS percentage to the gross interest", "compute": "tax_deduction = debenture_interest * tds_rate"},
+    {"step": 3, "action": "net what the holder gets", "explain": "gross interest less TDS is the bank payment to debentureholders; the tax part goes to income tax payable", "compute": "net_interest_paid = debenture_interest - tax_deduction"}
+   ]
+  },
+  {
+   "id": "leac.202.10.1",
+   "title": "Writing off Discount or Loss on Issue",
+   "section": "2.10",
+   "definition": "The discount or loss on a debenture issue is a capital loss cleared immediately in the issue year: first to the extent of the securities premium balance, and whatever remains against the statement of profit and loss.",
+   "formula": "written_off_against_revenue_profit = total_loss_on_issue - securities_premium_available",
+   "key_idea": "Securities premium soaks up the loss first by law; only the leftover touches revenue profit.",
+   "textbook_ref": "leac202.txt section 2.10, Illustration 18-19 (lines 2029-2200)",
+   "question_patterns": [
+    "how much discount is written off against securities premium reserve",
+    "split the loss on issue of debentures between premium reserve and profit and loss",
+    "why is discount on debentures a capital loss written off at once",
+    "pass the write-off entry for loss on issue of debentures",
+    "compute the balance that goes to the statement of profit and loss",
+    "what happens when securities premium is too small to cover the loss"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the capital loss", "explain": "issue discount plus redemption premium per debenture, times the number of debentures", "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"},
+    {"step": 2, "action": "absorb from securities premium", "explain": "use the available premium balance first, up to its limit", "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"},
+    {"step": 3, "action": "charge the residue to revenue profit", "explain": "whatever the premium could not cover is debited to the statement of profit and loss in the issue year", "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"}
+   ]
+  },
+  {
+   "id": "leac.202.11.1",
+   "title": "Redemption Reserve and Investment Rules",
+   "section": "2.11",
+   "definition": "Covered unlisted companies must build a debenture redemption reserve of ten percent of debentures still outstanding, and every company must invest or deposit at least fifteen percent of the debentures maturing during the coming year by the end of April; several classes such as banking companies and NBFCs are exempt.",
+   "formula": "required_investment = debentures_maturing_during_year * 0.15",
+   "key_idea": "The reserve comes from profit for the covered classes, the investment is a locked deposit that only redemption may touch.",
+   "textbook_ref": "leac202.txt section 2.11, Kays Ltd example (lines 2360-2431)",
+   "question_patterns": [
+    "how much must be invested for redemption of debentures maturing next year",
+    "compute the fifteen percent debenture redemption investment",
+    "what percentage of outstanding debentures goes to the redemption reserve",
+    "which companies are exempt from creating a debenture redemption reserve",
+    "by what date must the redemption investment be made",
+    "calculate the amount to set aside before redeeming debentures in instalments"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the reserve where required", "explain": "other unlisted companies transfer ten percent of outstanding debentures from surplus to debenture redemption reserve", "compute": "redemption_reserve = debentures_outstanding * 0.10"},
+    {"step": 2, "action": "invest for the next maturity", "explain": "fifteen percent of the debenture value maturing in the coming year must be invested or deposited on or before April 30", "compute": "required_investment = debentures_maturing_during_year * 0.15"}
+   ]
+  },
+  {
+   "id": "leac.202.12.1",
+   "title": "Redemption in Lump Sum",
+   "section": "2.12",
+   "definition": "On maturity the company pays every debentureholder the redemption price: face value plus any promised premium, with the whole amount settled in one payment on the due date.",
+   "formula": "amount_payable_on_redemption = debentures_redeemed * redemption_price_per_debenture",
+   "key_idea": "Premium on redemption, if any, is paid out of profit or fresh capital and settled together with the principal in one stroke.",
+   "textbook_ref": "leac202.txt section 2.12 (lines 2432-2712)",
+   "question_patterns": [
+    "how much cash does the company need to redeem all debentures at a premium",
+    "compute the total redemption payment on the due date",
+    "pass the entries for redemption of debentures in lump sum at par",
+    "find the premium payable when debentures are redeemed above face value",
+    "record utilisation of the debenture redemption reserve at redemption",
+    "what entries close the debenture account when all debentures are repaid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "price the redemption of one debenture", "explain": "face value plus the promised redemption premium", "compute": "redemption_price_per_debenture = face_value_per_debenture + redemption_premium_per_debenture"},
+    {"step": 2, "action": "total the payment", "explain": "multiply by the debentures being redeemed on the due date", "compute": "amount_payable_on_redemption = debentures_redeemed * redemption_price_per_debenture"}
+   ]
+  },
+  {
+   "id": "leac.202.14.1",
+   "title": "Redemption by Conversion into Shares",
+   "section": "2.14",
+   "definition": "Convertible debentures can be redeemed by handing the holder new equity shares: the amount due on the debentures (their actual proceeds where they were issued at discount) is divided by the issue price of the new share to count how many shares to allot.",
+   "formula": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share",
+   "key_idea": "Only real money raised on the old debentures converts; a discount issue converts at what was actually received, not at face.",
+   "textbook_ref": "leac202.txt section 2.14, Illustrations 31-32 (lines 4077-4166)",
+   "question_patterns": [
+    "how many equity shares are allotted on conversion of debentures",
+    "debentures are converted into shares at a premium; find the number of shares",
+    "pass the entries for redemption of debentures by conversion",
+    "compute the share count when debentures issued at discount are converted",
+    "is any cash paid when debentures convert into shares",
+    "what value is used as the base for conversion of discounted debentures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "price the new share", "explain": "face value of the share plus any premium per share", "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"},
+    {"step": 2, "action": "convert the debenture amount", "explain": "divide the amount due on converted debentures by the new share price; the quotient is the shares to issue", "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac202.txt Illustration 9 (G.S. Rai Company Ltd)",
+   "concept": "leac.202.6.1",
+   "question_type": "numeric",
+   "question_pattern": "Assets worth Rs.{purchase_consideration} are bought and paid for with 11 percent debentures of Rs.{face_value_per_debenture} each issued at a discount of {issue_discount_rate}. How many debentures go to the vendor?",
+   "extracted_variables": {
+    "purchase_consideration": 99000,
+    "face_value_per_debenture": 100,
+    "issue_discount_rate": 0.10
+   },
+   "solution_template": [
+    {"step": 1, "action": "price each debenture actually issued", "explain": "100 x (1 - 0.10) = 90", "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"},
+    {"step": 2, "action": "divide the consideration by the issue price", "explain": "99000 / 90 = 1100 debentures", "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac202.txt Illustration 17 (A Ltd)",
+   "concept": "leac.202.9.1",
+   "question_type": "numeric",
+   "question_pattern": "{debentures_issued} ten percent debentures of Rs.{face_value_per_debenture} run for {months} months with TDS at {tds_rate}. What does the holder finally receive for the period?",
+   "extracted_variables": {
+    "debentures_issued": 2000,
+    "face_value_per_debenture": 100,
+    "interest_rate": 0.10,
+    "months": 6,
+    "tds_rate": 0.10
+   },
+   "solution_template": [
+    {"step": 1, "action": "run the interest clock on nominal value", "explain": "2000 x 100 x 0.10 x 6/12 = 10000", "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"},
+    {"step": 2, "action": "withhold the tax", "explain": "10000 x 0.10 = 1000", "compute": "tax_deduction = debenture_interest * tds_rate"},
+    {"step": 3, "action": "net what the holder gets", "explain": "10000 - 1000 = 9000", "compute": "net_interest_paid = debenture_interest - tax_deduction"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac202.txt Illustration 18 (Rohit Ltd)",
+   "concept": "leac.202.10.1",
+   "question_type": "numeric",
+   "question_pattern": "{debentures_issued} eight percent debentures of Rs.{face_value_per_debenture} are issued at {discount_rate} discount and redeemable at {redemption_premium_rate} premium; securities premium stands at Rs.{securities_premium_available}. What falls on revenue profit?",
+   "extracted_variables": {
+    "debentures_issued": 50000,
+    "face_value_per_debenture": 100,
+    "discount_rate": 0.09,
+    "redemption_premium_rate": 0.07,
+    "securities_premium_available": 500000
+   },
+   "solution_template": [
+    {"step": 1, "action": "total the capital loss", "explain": "50000 x 100 x (0.09 + 0.07) = 800000", "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"},
+    {"step": 2, "action": "absorb from securities premium", "explain": "min(800000, 500000) = 500000", "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"},
+    {"step": 3, "action": "charge the residue to revenue profit", "explain": "800000 - 500000 = 300000", "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac202.txt Illustration 31 (Arjun Plastics Limited)",
+   "concept": "leac.202.14.1",
+   "question_type": "numeric",
+   "question_pattern": "{debentures_converted} fifteen percent debentures of Rs.{face_value_per_debenture} convert into shares of Rs.{face_value_per_share} at a premium of Rs.{share_premium_per_share}. How many shares are issued?",
+   "extracted_variables": {
+    "debenture_amount_converted": 100000,
+    "face_value_per_debenture": 100,
+    "face_value_per_share": 10,
+    "share_premium_per_share": 2.5
+   },
+   "solution_template": [
+    {"step": 1, "action": "price the new share", "explain": "10 + 2.50 = 12.50", "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"},
+    {"step": 2, "action": "convert the debenture amount", "explain": "100000 / 12.50 = 8000 shares", "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac202.txt Questions for Practice, Short Answer Q1-Q12",
+   "questions": [
+    "define a debenture and its essential features",
+    "what does a bearer debenture mean and how does it pass hands",
+    "state the meaning of debentures issued as collateral security",
+    "explain issue of debentures for consideration other than cash",
+    "what is meant by issue at discount and redemption at premium",
+    "define an irredeemable debenture",
+    "what is a convertible debenture",
+    "state two points on which debentures differ from shares"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac202.txt Questions for Practice, Short Answer Q13-Q17 and Long Answer",
+   "questions": [
+    "explain redemption of debentures and the ways it can happen",
+    "can a company buy back its own debentures from the market",
+    "describe redemption by conversion with its accounting",
+    "how is premium on redemption of debentures dealt with in the books",
+    "explain redemption by purchase in the open market"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac202.txt Questions for Practice, Numerical Q1-Q3",
+   "questions": [
+    "journalise a debenture issue collected in application and allotment instalments at par",
+    "record an issue at premium with the premium spread over application and allotment money",
+    "journalise an issue at discount redeemable at premium including the loss on issue entry"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac202.txt Questions for Practice, Numerical Q4-Q6",
+   "questions": [
+    "a company buys assets and liabilities and settles the net consideration with debentures at a discount; record the entries and show the balance sheet extract",
+    "half-yearly interest on a debenture issue with ten percent TDS; pass all entries for the year and close the interest account",
+    "debentures redeemed by draw of lots over several years with yearly discount write-off; journalise including the fifteen percent investment"
+   ]
+  }
+ ]
+}

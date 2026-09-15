@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_006",
+   "title": "c12_bio_cbse_01_006",
+   "questions": [
+    {
+     "q": "Name the two distinct fusion events that constitute double fertilization in angiosperms and state the ploidy of the product formed in each.",
+     "a": "The two fusion events are: (1) Syngamy — fusion of one male gamete (n) with the egg cell (n) to form a diploid (2n) zygote; (2) Triple fusion — fusion of the second male gamete (n) with the two polar nuclei (n + n) in the central cell to form a triploid (3n) primary endosperm nucleus (PEN). A wrong answer (e.g., saying both fusions produce diploid cells, or confusing polar nuclei with synergids) reveals the student does not understand that the central cell contains *two* haploid nuclei, making triple fusion a three-nuclei event.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the zygote remain dormant for some time after fertilization while the primary endosperm nucleus divides rapidly?",
+     "a": "The zygote remains dormant until sufficient endosperm has formed because the endosperm provides essential nutrition (starch, proteins, lipids) for the developing embryo. If the zygote divided immediately, there would be no nutritive tissue to support it. A wrong answer (e.g., \"zygote waits for hormones\" or \"endosperm divides slowly\") shows the student has not grasped the adaptive significance of the temporal sequence: endosperm development *precedes* embryogenesis to assure nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "In a flowering plant, the pollen tube enters the ovule through the micropyle and releases two male gametes into one synergid. One male gamete fuses with the egg cell. The other male gamete must fuse with which structure? What would be the ploidy of the resulting nucleus if the polar nuclei had already fused before fertilization?",
+     "a": "The second male gamete fuses with the two polar nuclei in the central cell (triple fusion). If the two polar nuclei had already fused to form a diploid (2n) secondary nucleus before fertilization, then fusion with the male gamete (n) would produce a triploid (3n) primary endosperm nucleus — the same ploidy as in the typical case where the polar nuclei fuse simultaneously with the male gamete. A wrong answer (e.g., \"diploid\" or \"tetraploid\") indicates the student does not track ploidy changes through successive fusions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare double fertilization in angiosperms with fertilization in gymnosperms. Identify one key structural difference in the female gametophyte that makes double fertilization possible only in angiosperms.",
+     "a": "In gymnosperms, the female gametophyte (megagametophyte) is haploid (n) and lacks a central cell with two polar nuclei; only one fertilization event occurs (syngamy), producing a diploid zygote. The nutritive tissue is the haploid female gametophyte itself. In angiosperms, the 7-celled, 8-nucleate embryo sac contains a central cell with *two* polar nuclei, enabling triple fusion and formation of a triploid endosperm — a genetically distinct, highly nutritive tissue. A wrong answer (e.g., \"gymnosperms also have double fertilization\") shows confusion between the two groups.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Double fertilization is wasteful because two male gametes are used but only one forms the embryo; the other just makes food.\" Evaluate this statement using the concept of evolutionary advantage.",
+     "a": "The statement is incorrect. Double fertilization is an evolutionary innovation that *couples* embryo formation with endosperm formation, ensuring that nutritive tissue develops *only* when fertilization has occurred. This prevents waste of resources on unfertilized ovules. In gymnosperms, the female gametophyte develops *before* fertilization and is discarded if no fertilization happens — a greater waste. The triploid endosperm is also genetically distinct (two maternal : one paternal genomes), allowing genomic imprinting effects that optimize resource allocation. A wrong evaluation (agreeing with the student) shows failure to understand the selective advantage of conditional resource investment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a flowering plant (e.g., *Vinca* or *Petunia*) to demonstrate that both male gametes are functional and participate in fertilization. Outline the steps and the expected observation that would confirm double fertilization.",
+     "a": "1) Collect freshly opened flowers and emasculate them (remove anthers) to prevent self-pollination. 2) Bag the emasculated flowers. 3) When stigma is receptive, pollinate with pollen from a plant homozygous for a visible genetic marker (e.g., flower color, seed shape). 4) After 24–48 hours, fix ovules and stain with acetocarmine or DAPI to visualize nuclei. 5) Observe embryo sacs under microscope: look for a zygote (2n) and a primary endosperm nucleus (3n) in the same embryo sac. 6) Confirm by allowing seeds to mature and checking for marker expression in both embryo and endosperm. A poor answer (e.g., \"just look at seeds\") reveals inability to design a controlled experiment that directly observes the *process*, not just the outcome.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

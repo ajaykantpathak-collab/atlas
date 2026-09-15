@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_02_012",
+   "title": "c11_eng_w_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and give one example of a literal question from \"A Pair of Mustachios\".",
+     "a": "**Correct Answer:** Literal comprehension involves retrieving information directly stated in the text. Example: \"What did Seth Ramanand do when Khan Azam Khan first objected to his upturned moustache tip?\" (Answer: He brushed one end down with his oily hand so it dropped like a dead fly.)\n**Misconception Alert:** If a student gives an example like \"Why did Ramanand lower his moustache?\", they confuse literal (explicit action) with inferential (motive). This reveals they cannot distinguish between *what happened* and *why it happened*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a literal and an inferential question using the moustache dispute in the story as context.",
+     "a": "**Correct Answer:** A literal question asks for a fact explicitly written: \"Which moustache style does Khan Azam Khan wear?\" (Text says: tiger moustache). An inferential question asks for meaning behind the fact: \"Why is Khan Azam Khan furious when Ramanand's goat moustache resembles his tiger moustache?\" (Requires inferring: it threatens his class identity/pride as a feudal noble).\n**Misconception Alert:** If a student says inferential questions are \"just your opinion,\" they misunderstand that inferences *must* be text-supported. This error leads to vague, unmarkable answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following questions as Literal (L) or Inferential (I) and answer ONE of each type using the text:\na) What item did Khan Azam Khan pawn first?\nb) Why did Ramanand refuse to lower the second tip of his moustache after the first transaction?\nc) How much money did Ramanand give for the nose-ring?\nd) What does the landlord's comment \"To be sure! To be sure!\" reveal about village power dynamics?",
+     "a": "**Correct Classification & Answers:**\na) L — His wife's gold nose-ring.\nb) I — Ramanand refuses because lowering both tips would mean total submission to a feudal lord, destroying his business leverage; he says, \"You can't expect me to become a mere worm.\"\nc) L — The text says he \"humbly accepted the value which the moneylender put on it\" (exact amount not stated, but the transaction is explicit).\nd) I — The landlord supports Ramanand, revealing the new commercial class (moneylender/landlord alliance) dominates the old feudal order; the peasants' \"sheepish\" agreement shows their powerlessness.\n**Misconception Alert:** If a student classifies (b) as Literal because the text says \"I wouldn't do it,\" they miss that the *reason* (business acumen/pride) is inferred from multiple scenes.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following student answer to an inferential question. Identify the flaw and rewrite it correctly.\n**Question:** \"How does the author use the moustache as a symbol of class rigidity?\"\n**Student Answer:** \"The moustache shows class because rich people have different styles. Ramanand is a shopkeeper so he has goat moustache. Khan is noble so he has tiger. It is rigid because they fight over it.\"",
+     "a": "**Flaw:** The answer states the *literal* classification (who wears what) but fails to *infer* the *symbolic function* (how it enforces rigidity). It lacks textual evidence (quotes) and the \"Explanation\" step of PEEL.\n**Corrected Answer (PEEL):**\n**Point:** The moustache acts as a rigid boundary marker that triggers violence when crossed.\n**Evidence:** The narrator states \"any poaching on the style of one class by members of another is resented\" and links the \"rising ratio of murders\" to \"increasing jealousy with which each class is guarding its rights... in regard to the mark of the mustachio.\"\n**Explanation:** The hyperbole of \"murders\" over facial hair proves the symbol is enforced with lethal seriousness, not mere fashion.\n**Link:** This rigidity allows Ramanand to exploit Khan's obsession with the symbol to strip him of his possessions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For Board exams, literal questions are easier to score full marks on than inferential questions.\" Defend or challenge this statement with reference to CBSE marking patterns.",
+     "a": "**Judgment:** Challenge. While literal questions have binary right/wrong answers, they often carry only 1 mark. Inferential questions (3-6 marks) offer *partial credit* for each valid Point-Evidence-Explanation step. A student who writes a structured PEEL response with one weak explanation still earns 2-3 marks, whereas a missing keyword in a 1-mark literal question yields zero. Board marking schemes (e.g., CBSE 2023 Sample Paper) show inferential answers are assessed on *quality of reasoning*, not a single \"correct\" inference.\n**Misconception Alert:** Students avoid inferential questions fearing \"wrong interpretation.\" This costs them high-weightage marks. The rubric rewards *textually grounded logic*, not mind-reading.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on this excerpt from the story's end: *\"Only, as soon as Khan Azam Khan's back was turned he muttered to the peasants seated nearby: 'My father was a Sultan.' And they laughed to see the Khan give a special twist to his moustache as he walked away maintaining the valiant uprightness to the symbol of his ancient and noble family, though he had become a pauper.\"*",
+     "a": "**Good Literal Question:** \"What does Ramanand mutter to the peasants after Khan Azam Khan leaves?\" (Answer: \"My father was a Sultan.\")\n**Good Inferential Question:** \"Why do the peasants laugh at Khan Azam Khan's 'valiant uprightness' despite his poverty?\" (Answer: They laugh at the tragic irony — he retains only the *symbol* (moustache twist) of nobility while losing the *substance* (wealth/land), exposing the absurdity of class pride.)\n**Poor Answer Indicator:** An inferential question like \"Is Ramanand lying about his father?\" is unanswerable from text (speculation). This reveals the student doesn't grasp that inferences must be *textually constrained*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_010",
+   "title": "c12_hist_cbse_01_010",
+   "questions": [
+    {
+     "q": "Name the five major crops archaeo-botanists have identified from charred grains at Mature Harappan sites, and specify which crop is geographically restricted to Gujarat sites.",
+     "a": "The five major crops are wheat, barley, lentil, chickpea, and sesame. Millets (specifically ragi, bajra, or small millets) are restricted to Gujarat sites like Surkotada and Nageshwar. A wrong answer (e.g., listing rice as a major crop or missing millets) reveals the student relies on general \"Indus Valley\" stereotypes instead of site-specific archaeo-botanical data, a common error in board answers where \"rice\" is incorrectly given as a staple.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the discovery of a terracotta plough model at Banawali and cross-ploughed furrows at Kalibangan together provide stronger evidence for Harappan plough agriculture than either find alone.",
+     "a": "The terracotta model shows the *existence* of the plough concept, while the Kalibangan field provides *in-situ functional proof* of its use (two crops grown simultaneously via cross-ploughing). A wrong answer that treats them as separate, unrelated facts misses the archaeological principle of corroboration: artefacts (models) must be validated by features (furrows) to confirm actual practice. This distinction is critical for \"evidence-based\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Harappans depended entirely on canal irrigation like Mesopotamia.\" Using evidence from Shortughai, Dholavira, and Mohenjodaro, evaluate this claim.",
+     "a": "The claim is incorrect. Harappans used a *mixed* irrigation strategy: canals only at Shortughai (Afghanistan); massive stone-built reservoirs at Dholavira (Gujarat) for rainwater harvesting; and hundreds of wells at Mohenjodaro (Sindh) for groundwater. A wrong answer that generalizes \"canal irrigation\" ignores the civilization's adaptive diversity across ecological zones — a key concept for competitive-exam case studies on environmental adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Harappan saddle quern (Fig. 1.6) and the \"curry stone\" described by Mackay. What does their coexistence reveal about Harappan food processing beyond simple grain grinding?",
+     "a": "The saddle quern (rolling stone on convex base) was for bulk grain grinding; the \"curry stone\" (pounding stone creating a deep cavity) was for pulverizing spices/herbs. Their coexistence indicates a *differentiated cuisine* requiring both staple flour and flavouring pastes — evidence of culinary sophistication, not just caloric survival. A wrong answer describing both as \"grinding stones\" misses the functional specialization that reflects social complexity (division of labour in food prep).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the interpretation that \"Harappans were primarily vegetarian\" based on the animal bone assemblage (cattle, sheep, goat, buffalo, pig, fish, fowl, wild boar/deer).",
+     "a": "The bone assemblage shows *domesticated* animals were the primary meat source, but wild species (boar, deer, gharial) and fish/fowl were also consumed. \"Primarily vegetarian\" is a modern projection; the data indicates an omnivorous diet with significant animal protein. A wrong answer equating \"domesticated animals\" with \"dairy only\" ignores cut marks on bones and the archaeo-zoological consensus that these animals were eaten. This misconception often appears in board essays conflating Harappan diet with later Vedic/Indian vegetarianism.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-step argument showing how agricultural surplus at Harappa enabled the specialized bead-making centre at Chanhudaro (7 hectares, almost exclusively craft production).",
+     "a": "Step 1: Surplus grain (wheat/barley) from hinterland farms fed non-farming populations. Step 2: Surplus allowed full-time artisans at Chanhudaro to exchange beads for food. Step 3: Standardized weights (chert cubical) facilitated this exchange. Step 4: Finished beads moved to urban centres (Mohenjodaro/Harappa) for elite consumption or export. A poor answer lists facts without the *causal chain* linking surplus → labour release → specialization → exchange → urban integration — the core economic logic examiners test in \"economy\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

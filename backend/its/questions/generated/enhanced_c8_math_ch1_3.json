@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_3",
+   "title": "c8_math_ch1_3",
+   "questions": [
+    {
+     "q": "What are the possible units digits of a perfect square? List them.",
+     "a": "The possible units digits are 0, 1, 4, 5, 6, 9. A wrong answer (e.g., including 2, 3, 7, 8 or missing 5) reveals the student has not memorised the pattern or does not understand that the units digit of \\( n^2 \\) is determined solely by the units digit of \\( n \\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a number ending in 2 can never be a perfect square, using the algebraic form \\( (10a+b)^2 \\).",
+     "a": "For any integer \\( n = 10a+b \\), \\( n^2 = 100a^2 + 20ab + b^2 \\). The term \\( 100a^2 + 20ab \\) is a multiple of 10, so the units digit of \\( n^2 \\) is the units digit of \\( b^2 \\). Since \\( b \\) is a digit 0–9, \\( b^2 \\) gives units digits 0,1,4,9,6,5,6,9,4,1 — never 2,3,7,8. A wrong answer indicates the student cannot link the algebraic expansion to the place-value argument.",
+     "self_check": true
+    },
+    {
+     "q": "Find the units digit of \\( 237^2 \\) without calculating the full square.",
+     "a": "Step 1: The units digit of 237 is 7. Step 2: Compute \\( 7^2 = 49 \\). Step 3: The units digit of 49 is 9. Therefore, the units digit of \\( 237^2 \\) is 9. A wrong answer (e.g., 49 or 7) shows the student either computes the whole square or confuses the units digit of the base with the units digit of the square.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the units digits of the squares of 12 and 22. What do you notice? Generalise for any two numbers that have the same units digit.",
+     "a": "\\( 12^2 = 144 \\) (units digit 4), \\( 22^2 = 484 \\) (units digit 4). They are the same. Generalisation: If two integers have the same units digit \\( b \\), their squares have the same units digit because \\( (10a+b)^2 \\) and \\( (10c+b)^2 \\) both end with the units digit of \\( b^2 \\). A wrong answer suggests the student sees the pattern only as a list, not as a consequence of place value.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 169 ends in 9, it must be a perfect square.\" Evaluate this statement and give a counterexample if it is false.",
+     "a": "The statement is false. The condition \"units digit is 0,1,4,5,6,9\" is necessary but not sufficient. Counterexample: 19 ends in 9 but is not a perfect square. A wrong evaluation (agreeing with the student) reveals the common misconception that the units-digit test is a sufficient condition for a perfect square.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-digit number that cannot be a perfect square and explain why using the units digit pattern. Then create a three-digit number that passes the units digit test but is still not a perfect square.",
+     "a": "Example 1: 237 (ends in 7) → cannot be a perfect square because 7 is not in {0,1,4,5,6,9}. Example 2: 126 (ends in 6) → passes the test but \\( 11^2=121 \\), \\( 12^2=144 \\), so 126 is not a perfect square. A poor answer fails to distinguish between necessary and sufficient conditions or cannot produce a valid non-square that passes the test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

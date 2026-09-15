@@ -1,0 +1,105 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 7,
+ "chapter_title": "Project Based Learning",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leip107.txt",
+ "concepts": [
+  {
+   "id": "leip107.1",
+   "title": "Approaches for Solving Projects",
+   "definition": "Project work follows systematic approaches: identify a real problem, state its requirements, decompose it into subtasks, choose data structures and tools for each subtask, build and test iteratively, then document. Decomposition turns one large unknown into several small solvable pieces.",
+   "formula": "-",
+   "key_idea": "The order matters: requirements before code, testing during the build rather than only at the end, and documentation as you go so the final report writes itself from notes.",
+   "question_patterns": [
+    "List the stages of solving a project from problem to documentation.",
+    "Why decompose a project into subtasks before coding?",
+    "What should be fixed before choosing tools for a project?",
+    "How does iterative testing improve a project build?",
+    "Name two approaches suggested for tackling project work."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "What must be stated before code is written: requirements or the report?",
+     "a": "requirements"
+    }
+   ]
+  },
+  {
+   "id": "leip107.2",
+   "title": "Teamwork Components",
+   "definition": "Effective teamwork has identifiable components: a shared goal, divided roles matching members' strengths, clear communication, agreed timelines, and collective review of each other's work. Version-shared files and task lists keep the division visible.",
+   "formula": "-",
+   "key_idea": "Teams fail on coordination more than on skill: unclear roles and silent members cost more than weak individual coding. Regular short reviews surface problems while they are small.",
+   "question_patterns": [
+    "Name the components of effective teamwork described in the chapter.",
+    "How should roles be assigned within a project team?",
+    "Why is communication counted as a teamwork component rather than a soft extra?",
+    "What mechanism keeps a divided project work visible to all members?",
+    "Give one practice that surfaces problems early in a team project."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "What kind of goal should a team hold: a shared one or private ones?",
+     "a": "shared goal"
+    }
+   ]
+  },
+  {
+   "id": "leip107.3",
+   "title": "Project Descriptions and Data Handling Tasks",
+   "definition": "The chapter's project descriptions are data-centred: collect a real dataset (marks, sales, survey responses), clean it, store it in a DataFrame or database, compute summaries (totals, means, percentages), visualise with charts, and report findings. Each project pairs an informatics tool with a decision the data answers.",
+   "formula": "pct = part / whole * 100",
+   "key_idea": "A good school project ends in an answer, not a program: the computed summaries and charts must state something the raw table could not show, such as which category drives most of the total.",
+   "question_patterns": [
+    "Outline the steps of a project analysing class marks with pandas.",
+    "Which summary statistics would you compute for a sales dataset?",
+    "How does a chart add to a project beyond the computed table?",
+    "Compute the percentage share of a category given {part} out of {whole}.",
+    "Name one data source suitable for a survey-based school project."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "pct = part / whole * 100"
+    },
+    {
+     "compute": "rest = 100 - pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A good school project ends in an answer or in a program?",
+     "a": "an answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "A team's project analyses canteen sales. Sales are 1200 (snacks), 800 (drinks), 2000 (meals). Which category drives most of the total and by what share?",
+   "a": "Total = 1200 + 800 + 2000 = 4000. Shares: snacks 30 percent, drinks 20 percent, meals 50 percent. Meals drive half the total - the chart makes that dominance visible instantly, which is the finding the project reports."
+  },
+  {
+   "q": "A four-member team must deliver data cleaning, coding, charts and the report. How should they divide to finish in two weeks?",
+   "a": "Assign by strength and pair every role with a reviewer: one member cleans data, one codes, one charts, one drafts the report, and each output is reviewed by a second member before integration. Shared task lists make progress visible and the review step catches defects before they compound."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Order the project stages: testing, requirements, decomposition, documentation, build.",
+    "A survey of 400 students finds 160 prefer online classes; compute the share percent.",
+    "Name two roles in a data-analysis project team.",
+    "Give one reason to document during the build rather than at the end.",
+    "Which chart suits comparing five categories in the project report?",
+    "State one checklist item before submitting a team project."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_009",
+   "title": "c10_eco_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the approximate share of the tertiary sector in India's GDP in 2020-21 and compare it with its share in 1950-51.",
+     "a": "Correct answer: Tertiary sector share in GDP was approximately 53-55% in 2020-21, up from about 30% in 1950-51. A wrong answer (e.g., stating tertiary was always dominant or confusing GDP share with employment share) reveals the student has not internalized the historical data trend and may be conflating output share with employment share — a critical distinction for this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India's secondary sector did not expand its employment share significantly even as its GDP share grew moderately from 1950 to 2010.",
+     "a": "Correct answer: The secondary sector adopted capital-intensive technologies (automated machinery, large-scale plants) and faced infrastructure bottlenecks (power, transport), so output grew without proportionate job creation. Additionally, labour laws and rigidities discouraged formal manufacturing hiring. A wrong answer focusing only on \"lack of demand\" or \"policy neglect\" misses the structural capital-intensity and infrastructure constraints that are specific to India's path.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: In 1972-73, primary sector employment share = 74%, secondary = 11%, tertiary = 15%. In 2017-18, primary = 42%, secondary = 25%, tertiary = 33%. Calculate the percentage point change in employment share for each sector and identify which sector absorbed the largest share of workers leaving agriculture.",
+     "a": "Step 1: Primary change = 42 - 74 = -32 percentage points (decline).\nStep 2: Secondary change = 25 - 11 = +14 percentage points.\nStep 3: Tertiary change = 33 - 15 = +18 percentage points.\nStep 4: Tertiary sector absorbed the largest share (+18 pp) of workers leaving agriculture, even more than secondary (+14 pp).\nA wrong answer (e.g., saying secondary absorbed most) shows the student assumes the \"classic\" Lewis model path and ignores India's service-led employment shift evident in NSSO data.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"India's sectoral shift in GDP followed the typical development pattern, but its employment shift did not.\" Use the concepts of labour productivity and capital intensity to justify your answer.",
+     "a": "Correct analysis: GDP shift followed the pattern (primary down, tertiary up) because services like IT, finance, and communications have high value-added per worker. However, employment shift lagged because manufacturing (secondary) remained capital-intensive, generating fewer jobs per unit of output, while surplus agricultural labour moved into low-productivity informal services (retail, transport, domestic work) rather than formal manufacturing. A wrong answer that claims both GDP and employment followed the same pattern ignores the \"jobless growth\" phenomenon and the productivity gap between sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the policy implication: \"To accelerate employment shift from primary to secondary, the government should focus solely on reducing corporate tax rates for manufacturing firms.\" Provide two economic arguments for and against.",
+     "a": "Evaluation: This is insufficient. Arguments for: Lower taxes may increase profitability and investment. Arguments against: (1) Manufacturing job creation depends more on infrastructure (power, logistics), labour skill availability, and ease of land acquisition — tax cuts alone don't fix these. (2) Capital-intensive technology means even with higher investment, employment elasticity of manufacturing output is low (~0.1-0.2). A policy mix including apprenticeship programs, MSME credit, and export-oriented labour-intensive zones (textiles, leather) is needed. A wrong answer treating tax cuts as a silver bullet reveals a lack of understanding of binding constraints on manufacturing employment.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple 3-sector employment transition diagram for a hypothetical district in 1990 and 2020, showing the flow of workers between sectors. Label the flows with plausible percentages and explain one reason why the flow from primary to tertiary might be larger than primary to secondary.",
+     "a": "Expected answer: Diagram with three boxes (Primary, Secondary, Tertiary) for each year. Arrows: Primary 1990 (60%) -> Secondary 2020 (15%) and Primary 1990 -> Tertiary 2020 (30%), with Secondary and Tertiary also having internal retention. Reason: Many displaced agricultural workers lack the vocational skills for factory jobs but can enter low-skill services (delivery, retail, construction) immediately; also, manufacturing units are concentrated in industrial clusters, not every district. A poor answer with no skill/geography reasoning shows inability to link structural change to micro-level labour market frictions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

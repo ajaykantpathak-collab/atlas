@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_008",
+   "title": "c11_biotech_cbse_12_008",
+   "questions": [
+    {
+     "q": "What are the three essential features a cloning vector must possess, and why is each critical for recombinant DNA technology?",
+     "a": "The three essential features are: (1) Origin of replication (ori) – allows autonomous replication of the vector in the host cell, amplifying the recombinant DNA; (2) Selectable marker (e.g., antibiotic resistance gene) – enables identification and selection of host cells that have taken up the vector; (3) Multiple cloning site (MCS) / polylinker – provides unique restriction enzyme sites for directional insertion of foreign DNA. A wrong answer (e.g., listing \"promoter\" as essential) reveals confusion between cloning vectors and expression vectors; promoters are needed for protein expression but not for basic cloning and amplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to clone a 45 kb human genomic DNA fragment. They choose pBR322 (plasmid, ~5 kb capacity). Explain why this vector choice will fail and which vector type should be used instead.",
+     "a": "pBR322 is a plasmid vector with a typical insert capacity of only 5–10 kb; a 45 kb fragment exceeds this limit, leading to unstable recombinants or failed ligation. The student should use a BAC (Bacterial Artificial Chromosome) or YAC (Yeast Artificial Chromosome), which can accommodate inserts of 100–300 kb (BAC) or up to 1000 kb (YAC). Choosing a plasmid for large inserts shows misunderstanding of vector capacity constraints — a common error where students focus only on antibiotic markers and ignore insert size limits.",
+     "self_check": true
+    },
+    {
+     "q": "You have a gene of interest flanked by EcoRI and HindIII sites. The vector MCS has EcoRI, BamHI, and HindIII sites in that order. Design a directional cloning strategy to insert the gene in the correct orientation. Specify the enzymes used for vector and insert digestion, and explain how orientation is ensured.",
+     "a": "Digest both vector and insert with EcoRI and HindIII (double digestion). This generates compatible sticky ends on both ends: EcoRI end of insert ligates only to EcoRI end of vector, and HindIII end only to HindIII end, forcing a single orientation. Using only one enzyme (e.g., EcoRI) would allow insertion in both orientations. Using BamHI would not work because the insert lacks a BamHI site. This tests understanding that directional cloning requires two different restriction enzymes creating non-compatible ends.",
+     "self_check": true
+    },
+    {
+     "q": "Compare blue-white screening and antibiotic resistance screening in terms of what each identifies, the genetic basis, and a scenario where you would prefer one over the other.",
+     "a": "Antibiotic resistance screening identifies cells that have taken up ANY vector (recombinant or non-recombinant) by selecting for a resistance gene (e.g., ampr) on the vector backbone. Blue-white screening distinguishes recombinant (white) from non-recombinant (blue) colonies using insertional inactivation of lacZα: the MCS is within lacZα; insert disrupts α-complementation, preventing X-gal hydrolysis (white), while empty vector produces functional β-galactosidase (blue). Use antibiotic screening for initial transformation efficiency check; use blue-white screening when you need to pick recombinants from a background of empty vector. Confusing the two (e.g., thinking ampicillin selects for recombinants) is a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher transforms E. coli with a ligation mixture of vector + insert, plates on ampicillin + X-gal, and gets 200 blue colonies and 5 white colonies. They conclude the cloning failed because white colonies are too few. Evaluate this conclusion and suggest two experimental modifications to improve recombinant yield.",
+     "a": "The conclusion is incorrect: white colonies ARE the recombinants (insert disrupts lacZα); blue colonies are empty vector recircularized. A low white:blue ratio indicates high vector self-ligation. To improve: (1) Dephosphorylate vector with alkaline phosphatase after digestion to prevent self-ligation; (2) Use a 3:1 to 5:1 molar ratio of insert:vector during ligation to favor insertion. Also, gel-purify vector and insert to remove undigested vector. The error reveals misunderstanding of blue-white screening readout and ligation kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete cloning workflow to express a eukaryotic gene (with introns) in E. coli. Include: vector choice, host cell type, DNA source preparation, and a strategy to overcome the intron problem. Justify each choice.",
+     "a": "Workflow: (1) Isolate mRNA from eukaryotic tissue (not genomic DNA) because mRNA lacks introns; (2) Synthesize cDNA using reverse transcriptase; (3) Clone cDNA into an EXPRESSION vector (e.g., pET series) with strong promoter (T7), ribosome binding site, and selectable marker — not just a cloning vector; (4) Transform into E. coli BL21(DE3) which has T7 RNA polymerase under lacUV5 control for induced expression; (5) Induce with IPTG. Justifications: cDNA avoids splicing issues; expression vector provides transcriptional/translational signals absent in cloning vectors; BL21(DE3) supplies T7 polymerase. A good answer integrates transcription, translation, and host compatibility — not just cloning steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

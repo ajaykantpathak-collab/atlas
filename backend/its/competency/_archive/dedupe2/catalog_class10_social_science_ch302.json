@@ -1,0 +1,503 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 302,
+ "chapter_title": "Nationalism in India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess302.txt",
+ "concepts": [
+  {
+   "id": "jess.302.1.1",
+   "title": "The Idea and Early Experiments of Satyagraha",
+   "section": "1.1 The Idea of Satyagraha",
+   "definition": "A philosophy of passive mass agitation based on moral force and peaceful appeal to conscience, arguing that injustice can be overcome without vengeance or physical aggression.",
+   "formula": "None",
+   "key_idea": "Truth and non-violence serve as ethical instruments for collective mobilization against political tyranny.",
+   "textbook_ref": "jess302.txt lines 45-85",
+   "question_patterns": [
+    "Explain the core philosophy behind the concept of satyagraha",
+    "Describe the three local satyagraha movements organized by Mahatma Gandhi between 1917 and 1918",
+    "How did Gandhi differentiate soul-force from passive physical resistance?",
+    "Why did the peasants of Kheda organize a satyagraha in 1918?",
+    "What role did the Champaran movement play in the evolution of Indian nationalism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify philosophical premise",
+     "explain": "State that satyagraha relies on truth and non-violence rather than weaponized force to persuade the oppressor's conscience."
+    },
+    {
+     "step": 2,
+     "action": "detail early regional satyagrahas",
+     "explain": "List the Champaran agitation (1917) against indigo plantations, the Kheda movement (1918) for revenue relaxation, and the Ahmedabad mill workers strike (1918)."
+    },
+    {
+     "step": 3,
+     "action": "assess national significance",
+     "explain": "Explain how these early successes established mass contact and tested Gandhian methods on Indian soil."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.1.2",
+   "title": "The Rowlatt Act and Jallianwala Bagh Massacre",
+   "section": "1.2 The Rowlatt Act",
+   "definition": "A repressive colonial enactment permitting preventive detention of political dissidents without trial, which provoked nationwide strikes and culminated in the Amritsar massacre.",
+   "formula": "None",
+   "key_idea": "State repression of peaceful demonstrations galvanized popular outrage into widespread anti-colonial resistance.",
+   "textbook_ref": "jess302.txt lines 86-140",
+   "question_patterns": [
+    "Why did Indians vehemently oppose the Rowlatt Act of 1919?",
+    "Describe the events leading to the Jallianwala Bagh massacre on 13 April 1919",
+    "What was General Dyer's stated objective behind the firing at Jallianwala Bagh?",
+    "Explain the methods used by the colonial regime to suppress the Rowlatt satyagraha",
+    "How did the country react to the news of the Amritsar massacre?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state statutory provisions",
+     "explain": "Explain that the Rowlatt Act empowered the imperial government to detain political suspects for up to two years without judicial trial."
+    },
+    {
+     "step": 2,
+     "action": "trace sequence of protests",
+     "explain": "Outline the nationwide hartal of 6 April, the arrest of local leaders in Amritsar, and the declaration of martial law."
+    },
+    {
+     "step": 3,
+     "action": "describe the massacre and aftermath",
+     "explain": "Narrate the unprovoked firing on the Baisakhi gathering in Jallianwala Bagh, resulting in widespread riots, brutal state floggings, and the movement's suspension."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.1.3",
+   "title": "The Khilafat Issue and the Launch of Non-Cooperation",
+   "section": "1.3 Why Non-cooperation?",
+   "definition": "A joint anti-imperial platform uniting Indian Muslims defending the Ottoman Caliph's temporal authority with the broader nationalist struggle for self-governance.",
+   "formula": "None",
+   "key_idea": "Nationalist leadership leveraged shared anti-colonial grievances to forge Hindu-Muslim unity and initiate staged non-cooperation.",
+   "textbook_ref": "jess302.txt lines 141-205",
+   "question_patterns": [
+    "Why did Mahatma Gandhi decide to take up the Khilafat issue?",
+    "What rationale did Gandhi offer in Hind Swaraj for withdrawing cooperation from the British?",
+    "Outline the staged programme of the Non-Cooperation Movement adopted at the Nagpur Congress session",
+    "Who founded the Khilafat Committee in Bombay and why?",
+    "Discuss the initial reluctance within the Congress regarding the boycott of legislative councils in 1920"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify historical context",
+     "explain": "Explain that the post-WWI treatment of Ottoman Turkey created Muslim anger, leading the Ali brothers to form the Khilafat Committee."
+    },
+    {
+     "step": 2,
+     "action": "summarize ideological rationale",
+     "explain": "Note Gandhi's argument in Hind Swaraj that colonial rule survived solely due to Indian collaboration."
+    },
+    {
+     "step": 3,
+     "action": "detail phased action plan",
+     "explain": "Outline the progressive surrender of state titles, boycott of civil posts, schools, law courts, foreign textiles, and eventual council election boycotts ratified at Nagpur in December 1920."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.2.1",
+   "title": "Non-Cooperation Movement in Towns and Economic Effects",
+   "section": "2.1 The Movement in the Towns",
+   "definition": "Urban manifestation of the national agitation where educated middle classes boycotted colonial institutions, legal courts, and foreign commodities, fostering domestic production.",
+   "formula": "None",
+   "key_idea": "While initial urban boycott caused economic disruption to British imports, the lack of indigenous infrastructure slowed middle-class participation.",
+   "textbook_ref": "jess302.txt lines 210-260",
+   "question_patterns": [
+    "How did the middle-class population in cities participate in the Non-Cooperation Movement?",
+    "What were the economic effects of the boycott of foreign cloth between 1921 and 1922?",
+    "Why did the Non-Cooperation Movement in urban centres gradually lose momentum?",
+    "Why did the Justice Party in Madras decide not to boycott council elections?",
+    "Examine the challenges faced by poor town dwellers in sustaining the boycott of mill-made cloth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe civic participation",
+     "explain": "State that students left government schools, teachers resigned, lawyers left courts, and council elections were boycotted in most provinces."
+    },
+    {
+     "step": 2,
+     "action": "calculate and detail economic impact",
+     "explain": "Explain that foreign cloth imports halved in value from 102 crore to 57 crore rupees, liquor shops were picketed, and domestic handloom production expanded."
+    },
+    {
+     "step": 3,
+     "action": "analyze causes of decline",
+     "explain": "Highlight the prohibitive cost of khadi over machine fabric and the scarcity of alternative national schools and courts to absorb returning participants."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.2.2",
+   "title": "Peasant and Tribal Movements in the Countryside",
+   "section": "2.2 Rebellion in the Countryside",
+   "definition": "Rural and forest-based insurgencies against oppressive landlords and colonial forest acts, frequently blending local aspirations with messianic invocations of Swaraj.",
+   "formula": "None",
+   "key_idea": "Subaltern agrarian and tribal communities reinterpreted the nationalist message through the prism of their immediate socio-economic oppressions.",
+   "textbook_ref": "jess302.txt lines 261-340",
+   "question_patterns": [
+    "Explain the peasant movement led by Baba Ramchandra in Awadh during 1920-21",
+    "What were the primary grievances of tribal peasants in the Gudem Hills of Andhra Pradesh?",
+    "Describe the leadership and methods adopted by Alluri Sitaram Raju in the forest rebellion",
+    "How did the peasant demands in Awadh differ from the official Congress programme?",
+    "What led to the establishment of the Oudh Kisan Sabha in 1920?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the Awadh peasant struggle",
+     "explain": "Describe Baba Ramchandra's leadership against extortionate rents, begar (unpaid labor), tenure insecurity, and the formation of Oudh Kisan Sabha."
+    },
+    {
+     "step": 2,
+     "action": "detail Gudem Hills guerrilla war",
+     "explain": "Explain how British forest enclosures restricted grazing and firewood collection, sparking Alluri Sitaram Raju's armed guerrilla campaign."
+    },
+    {
+     "step": 3,
+     "action": "contrast local actions with mainstream non-violence",
+     "explain": "Highlight peasant attacks on talukdar manors, grain looting, and violent clashes that deviated from Gandhian non-violent discipline."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.2.3",
+   "title": "Swaraj in the Plantations and the Chauri Chaura Incident",
+   "section": "2.3 Swaraj in the Plantations",
+   "definition": "The defiance of coercive labor containment laws by plantation workers seeking freedom of mobility, followed by the abrupt withdrawal of Non-Cooperation due to police-crowd violence.",
+   "formula": "None",
+   "key_idea": "Workers conceived freedom as spatial mobility and village restoration, while escalating local violence forced the suspension of the nationwide struggle.",
+   "textbook_ref": "jess302.txt lines 341-385",
+   "question_patterns": [
+    "How did plantation workers in Assam interpret the concept of Swaraj?",
+    "What restrictions were imposed on tea estate laborers under the Inland Emigration Act of 1859?",
+    "Explain why Mahatma Gandhi called off the Non-Cooperation Movement in February 1922",
+    "Describe the tragedy faced by plantation laborers stranded during their journey home",
+    "What was the significance of the Chauri Chaura incident in Gorakhpur?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state legal constraint on tea workers",
+     "explain": "Identify the Inland Emigration Act of 1859 which barred tea workers from leaving plantations without rarely granted permits."
+    },
+    {
+     "step": 2,
+     "action": "describe plantation defiance",
+     "explain": "Explain that thousands left estates hoping for land distribution in Gandhi Raj, but were stranded and beaten during railway strikes."
+    },
+    {
+     "step": 3,
+     "action": "analyze movement termination",
+     "explain": "Detail the February 1922 violent clash at Chauri Chaura where a mob set a police post on fire, prompting Gandhi to call off Non-Cooperation."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.3.1",
+   "title": "The Simon Commission and the Demand for Purna Swaraj",
+   "section": "3 Towards Civil Disobedience",
+   "definition": "The political escalation sparked by an all-British statutory constitutional commission, culminating in the Indian National Congress adopting total independence as its goal.",
+   "formula": "None",
+   "key_idea": "Exclusion of Indian representatives from constitutional inquiries unified diverse political factions toward demanding complete sovereignty.",
+   "textbook_ref": "jess302.txt lines 386-455",
+   "question_patterns": [
+    "Why was the Simon Commission boycotted by all major political parties in India?",
+    "What was the significance of the Lahore Congress session of December 1929?",
+    "How did the Great Depression impact agrarian conditions in India during the late 1920s?",
+    "Explain the role of the Swaraj Party formed by C. R. Das and Motilal Nehru",
+    "What was declared in the Independence Day pledge of 26 January 1930?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify constitutional commission grievance",
+     "explain": "Explain that the 1928 Statutory Commission under Sir John Simon had no Indian members, triggering demonstrations under 'Go Back Simon'."
+    },
+    {
+     "step": 2,
+     "action": "assess economic and internal political factors",
+     "explain": "Note the collapse of farm prices after 1926-1930 and the debate between Swarajist council-entry advocates and radical youths like Nehru and Bose."
+    },
+    {
+     "step": 3,
+     "action": "summarize Lahore resolution",
+     "explain": "State that the Lahore Congress under Jawaharlal Nehru adopted 'Purna Swaraj' (complete independence) and designated 26 January 1930 as Independence Day."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.3.2",
+   "title": "The Salt March and the Civil Disobedience Movement",
+   "section": "3.1 The Salt March and the Civil Disobedience Movement",
+   "definition": "A symbolic nationwide campaign begun by breaking the British salt monopoly, transitioning the national struggle from non-cooperation to active lawbreaking.",
+   "formula": "None",
+   "key_idea": "Choosing a universal daily commodity like salt enabled Gandhi to unite disparate socio-economic strata against colonial fiscal tyranny.",
+   "textbook_ref": "jess302.txt lines 456-525",
+   "question_patterns": [
+    "Why did Mahatma Gandhi choose salt as the central symbol for his campaign in 1930?",
+    "Describe the course of the Dandi March from Sabarmati to the Gujarat coast",
+    "How did Civil Disobedience fundamentally differ from the Non-Cooperation Movement?",
+    "What were the terms and outcomes of the Gandhi-Irwin Pact signed in March 1931?",
+    "How did the colonial government react to the launch of the Civil Disobedience Movement?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain choice of salt",
+     "explain": "Show that the government monopoly and taxation on salt burdened every social class, making it an ideal unifying issue."
+    },
+    {
+     "step": 2,
+     "action": "narrate the march to Dandi",
+     "explain": "Trace the 240-mile march of 78 volunteers over 24 days ending with the ceremonial boiling of seawater on 6 April 1930."
+    },
+    {
+     "step": 3,
+     "action": "outline mass actions and state response",
+     "explain": "Detail widespread breaking of salt laws, forest law defiance, refusal of chaukidari taxes, mass arrests of nearly 100,000 satyagrahis, and the temporary truce of the Gandhi-Irwin Pact."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.3.3",
+   "title": "Social Participation in Civil Disobedience: Rural and Business Strata",
+   "section": "3.2 How Participants saw the Movement",
+   "definition": "The diverse socio-economic alignment of rich farmers, tenant peasants, Indian merchants, mine workers, and women within the Civil Disobedience campaign.",
+   "formula": "None",
+   "key_idea": "Different socio-economic classes joined the struggle with divergent class interests, which created strategic compromises within the national leadership.",
+   "textbook_ref": "jess302.txt lines 526-615",
+   "question_patterns": [
+    "Why did rich peasant communities like Patidars and Jats participate enthusiastically in 1930 but refuse in 1932?",
+    "Why was the Indian National Congress reluctant to support the 'no-rent' campaigns of poor tenants?",
+    "Explain the role of business leaders and industrial organizations like FICCI in the Civil Disobedience Movement",
+    "Describe the nature and extent of women's participation during the Salt Satyagraha",
+    "Why was working-class participation limited during the Civil Disobedience Movement?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze rural class dynamics",
+     "explain": "Differentiate rich commercial crop producers demanding revenue reduction from poor tenant farmers demanding rent remission."
+    },
+    {
+     "step": 2,
+     "action": "examine industrial and mercantile backing",
+     "explain": "Detail the role of business bodies (FICCI, Indian Industrial and Commercial Congress) and industrialists (G.D. Birla, Purshottamdas Thakurdas) demanding trade protection."
+    },
+    {
+     "step": 3,
+     "action": "evaluate participation of women and workers",
+     "explain": "Highlight large-scale urban middle-class and rural wealthy women picketing shops, alongside selective labor strikes in railways and Chotanagpur mines."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.3.4",
+   "title": "Limits of Civil Disobedience: Dalit Representation and Poona Pact",
+   "section": "3.3 The Limits of Civil Disobedience",
+   "definition": "The social and political divides around separate electorates for marginalized communities that culminated in an agreement preserving joint electorates with reserved seats.",
+   "formula": "None",
+   "key_idea": "Socio-political empowerment of depressed classes and minority representation highlighted internal structural contradictions within the anti-colonial front.",
+   "textbook_ref": "jess302.txt lines 616-700",
+   "question_patterns": [
+    "Why was Dalit participation restricted during the Civil Disobedience Movement?",
+    "What was the main point of conflict between Mahatma Gandhi and Dr. B. R. Ambedkar at the Second Round Table Conference?",
+    "Explain the key provisions and significance of the Poona Pact of September 1932",
+    "Why did Muslim political organizations show a lukewarm response to Civil Disobedience?",
+    "How did negotiations on legislative seat reservation break down between the Congress and the Muslim League?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social and constitutional demands",
+     "explain": "Explain Dr. Ambedkar's demand through the Depressed Classes Association for separate electorates to secure political leverage for Dalits."
+    },
+    {
+     "step": 2,
+     "action": "outline Gandhi's opposition and fast",
+     "explain": "Describe Gandhi's fast unto death based on the conviction that separate electorates would permanently fracture Hindu society."
+    },
+    {
+     "step": 3,
+     "action": "detail the Poona Pact compromise",
+     "explain": "State the terms of the September 1932 pact granting reserved seats in provincial and central councils for Depressed Classes within a joint general electorate."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.4.1",
+   "title": "Cultural Expressions and the Sense of Collective Belonging",
+   "section": "4 The Sense of Collective Belonging",
+   "definition": "The creation of a unified national identity through allegorical visual representations, patriotic songs, folklore preservation, flag symbolism, and historical reinterpretation.",
+   "formula": "None",
+   "key_idea": "Cultural artifacts and historical memory mobilized popular emotion to imagine a shared Indian identity across diverse regional and linguistic lines.",
+   "textbook_ref": "jess302.txt lines 701-790",
+   "question_patterns": [
+    "How did the visual image of Bharat Mata help create a sense of national identity?",
+    "Explain the role of folklore and songs in the revival of national pride during the independence movement",
+    "Describe the evolution of the Indian national flag from the Swadeshi tricolour to the Swaraj flag of 1921",
+    "How did the reinterpretation of ancient Indian history instill national pride?",
+    "What challenges arose when nationalist imagery relied heavily on ancient Hindu symbols?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze iconography and national songs",
+     "explain": "Detail Bankim Chandra's 'Vande Mataram' and Abanindranath Tagore's ascetic portrayal of Bharat Mata dispensing food, cloth, and wisdom."
+    },
+    {
+     "step": 2,
+     "action": "examine folklore and flag designs",
+     "explain": "Describe Natesa Sastri's Tamil folk collections, Rabindranath Tagore's ballads, the 1905 eight-lotus Swadeshi flag, and Gandhi's 1921 charkha Swaraj flag."
+    },
+    {
+     "step": 3,
+     "action": "critique historical glorification",
+     "explain": "Show how rediscovering ancient artistic and scientific achievements generated pride, but sometimes alienated non-Hindu minorities when past symbols were exclusively Hindu."
+    }
+   ]
+  },
+  {
+   "id": "jess.302.4.2",
+   "title": "The Quit India Movement of 1942",
+   "section": "Quit India Movement",
+   "definition": "A decisive, widespread mass uprising launched during World War II demanding immediate unconditional termination of British colonial governance in India.",
+   "formula": "None",
+   "key_idea": "The total mobilization under the call 'Do or Die' incapacitated colonial administrative machinery across vast territories.",
+   "textbook_ref": "jess302.txt lines 800-845",
+   "question_patterns": [
+    "What circumstances led to the launch of the Quit India Movement in August 1942?",
+    "Explain the significance of Mahatma Gandhi's 'Do or Die' mantra during Quit India",
+    "Name prominent leaders and women participants who spearheaded underground resistance during Quit India",
+    "How did ordinary citizens participate in the Quit India struggle across various provinces?",
+    "Describe the extent of administrative paralysis caused by the Quit India Movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify immediate triggers",
+     "explain": "State that the collapse of the Cripps Mission and wartime price crises prompted the Congress Working Committee resolution at Wardha and AICC approval at Bombay in August 1942."
+    },
+    {
+     "step": 2,
+     "action": "highlight key leaders and methods",
+     "explain": "Identify Gandhi's 'Do or Die' exhortation and the role of underground leaders such as Jayprakash Narayan, Aruna Asaf Ali, Ram Manohar Lohia, Matangini Hazra, and Kanaklata Barua."
+    },
+    {
+     "step": 3,
+     "action": "summarize mass action and colonial suppression",
+     "explain": "Explain how strikes, attacks on communication links, and widespread peasant actions paralyzed government apparatus until crushed by force over a year."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess302.txt lines 39-50",
+   "concept": "jess.302.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how the First World War created new economic and political conditions that aided the growth of the national movement in India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify fiscal burdens",
+     "explain": "The war led to enormous increases in colonial defence expenditure, financed through war loans, heightened customs duties, and the introduction of income tax."
+    },
+    {
+     "step": 2,
+     "action": "assess impact on common people",
+     "explain": "Extreme price inflation caused commodity prices to double between 1913 and 1918, while forced rural recruitment for the imperial army created deep resentment."
+    },
+    {
+     "step": 3,
+     "action": "link famines and epidemics to political discontent",
+     "explain": "Widespread crop failures in 1918-19 and 1920-21 alongside the influenza epidemic resulted in 12 to 13 million deaths, uniting people against colonial neglect."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess302.txt lines 625-660",
+   "concept": "jess.302.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "Analyze the reasons behind the signing of the Poona Pact between Mahatma Gandhi and Dr. B. R. Ambedkar in 1932.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the original dispute",
+     "explain": "Dr. Ambedkar demanded separate electorates for the Depressed Classes at the Second Round Table Conference, which the British government granted."
+    },
+    {
+     "step": 2,
+     "action": "explain Gandhi's principled opposition",
+     "explain": "Gandhi undertook a fast unto death in Yerwada jail, arguing that separate electorates would permanently segregate Dalits and impede their social integration."
+    },
+    {
+     "step": 3,
+     "action": "summarize the negotiated settlement",
+     "explain": "The Poona Pact of September 1932 conceded reserved seats for the Depressed Classes in provincial and central legislatures while retaining joint voting by the general electorate."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess302.txt lines 850-870",
+   "questions": [
+    "Explain why the growth of modern nationalism in colonies like India is intimately connected to anti-colonial movements.",
+    "How did the First World War help in creating a favorable ground for the growth of the national movement in India?",
+    "Why were Indians from various walks of life outraged by the hurried passage of the Rowlatt Act in 1919?",
+    "Why did Mahatma Gandhi decide to abruptly withdraw the Non-Cooperation Movement in February 1922?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "jess302.txt lines 871-885",
+   "questions": [
+    "What did Mahatma Gandhi mean by the idea of satyagraha as an active, soul-force rather than passive resistance?",
+    "Write a detailed newspaper report on the Jallianwala Bagh massacre describing the events of 13 April 1919.",
+    "Write a report on the arrival and nationwide boycott of the Simon Commission in 1928.",
+    "Compare the visual representation and attributes of Bharat Mata with the allegorical image of Germania."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "jess302.txt lines 886-905",
+   "questions": [
+    "List the various social groups that participated in the Non-Cooperation Movement of 1921 and analyze the aspirations of any three.",
+    "Discuss the Salt March to demonstrate why salt served as an exceptionally effective symbol of resistance against colonial rule.",
+    "Imagine you are an urban middle-class woman participating in the Civil Disobedience Movement of 1930; explain your motivations and experiences.",
+    "Why did political leaders differ sharply over the question of separate electorates for minority and depressed communities?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

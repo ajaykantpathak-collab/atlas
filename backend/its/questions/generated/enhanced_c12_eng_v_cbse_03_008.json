@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_008",
+   "title": "c12_eng_v_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define \"metaphor\" and distinguish it from \"simile\" using an example from *Journey to the End of the Earth*.",
+     "a": "A metaphor directly equates two unlike things (A *is* B) to transfer qualities; a simile compares them using \"like\" or \"as\" (A *is like* B). In the text, \"It's like walking into a giant ping-pong ball\" is a simile (uses \"like\"), whereas \"the parable of the phytoplankton\" functions as a metaphor — the phytoplankton *is* a parable, a teaching story about existence. A wrong answer that calls \"giant ping-pong ball\" a metaphor reveals confusion about the \"like/as\" marker; a wrong answer that cannot locate any metaphor in the text reveals failure to recognize implicit metaphorical framing.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"The visual scale ranges from the microscopic to the mighty: midges and mites to blue whales and icebergs as big as countries (the largest recorded was the size of Belgium).\" Identify the two sense modalities engaged here and explain why the parenthetical \"(the largest recorded was the size of Belgium)\" is *not* imagery.",
+     "a": "The sentence engages **visual** (scale, size, \"midges and mites to blue whales\") and **kinesthetic/spatial** (sense of vastness, \"ranges from... to\") modalities. The parenthetical is a factual statistic — verifiable data about an iceberg's dimensions — not a sensory evocation. Imagery *shows*; data *tells*. A student who labels the parenthesis as \"visual imagery\" conflates factual description with sensory language; a student who misses \"kinesthetic/spatial\" misses how \"ranges from... to\" creates a felt sense of spectrum.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"extended metaphor\" to the phrase \"parable of the phytoplankton.\" Map the source domain (parable) onto the target domain (phytoplankton/ecosystem) by listing at least three point-by-point correspondences.",
+     "a": "Source (parable) → Target (phytoplankton/ecosystem): (1) A parable is a *small, simple story* → phytoplankton are *microscopic, single-celled organisms*. (2) A parable *teaches a large moral truth* → phytoplankton *sustain the entire Southern Ocean food chain and global carbon cycle*. (3) Ignoring a parable's lesson *leads to ruin* → damaging phytoplankton (via ozone depletion) *cascades into collapse of marine life and climate instability*. A student who only gives one correspondence (e.g., \"both are small\") treats it as a simple metaphor, missing the *extended* structure; a student who maps \"parable = story\" to \"phytoplankton = plant\" commits category error — the metaphor maps *function*, not ontology.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the tactile image \"metre-thick ice pack, and underneath that, 180 metres of living, breathing, salt water\" functions *differently* from the visual image \"expansive white landscape and uninterrupted blue horizon\" earlier in the text. Consider: body position, vulnerability, and epistemological claim (what the narrator *knows* vs. *feels*).",
+     "a": "The visual image (\"expansive white landscape...\") positions the narrator as *distant observer* — panoramic, detached, aestheticized wonder (\"relief... profound wonder\"). The tactile image (\"metre-thick ice pack... underneath that...\") positions the narrator as *embodied participant* — vertically layered (feet on ice, water below), viscerally aware of fragility (one metre between life and freezing death), and epistemologically grounded: she *knows* the water is \"living, breathing\" because her body *feels* the precariousness. The first image produces *awe*; the second produces *responsibility*. A student who says \"both show Antarctica's beauty\" misses the shift from spectator to stakeholder; a student who ignores \"living, breathing\" as personification misses how tactile imagery animates the non-human.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Doshi's metaphors are decorative; the chapter's argument rests on scientific facts (ice-core carbon records, ozone depletion, phytoplankton photosynthesis), not literary devices.\" Defend or refute with textual evidence.",
+     "a": "Refute. The metaphors *structure* the argument's logic. \"Parable of the phytoplankton\" translates a biochemical process (photosynthesis → carbon assimilation → food chain → carbon cycle) into an ethical imperative (\"take care of the small things...\"). \"Giant ping-pong ball\" converts the abstract datum \"90% of Earth's ice\" into a tangible, human-scale object that *erases* human markers (\"no trees, billboards, buildings\"), making the reader *feel* the loss of perspective that climate denial requires. \"Walk on the ocean\" turns a geophysical fact (ice shelf over seawater) into an embodied revelation (\"everything does indeed connect\"). Without these metaphors, the facts remain *information*; with them, they become *insight*. A student who agrees with the claim treats metaphor as ornament, not cognitive tool — a fundamental Category 1 error in literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new metaphor for the Antarctic ice-core record (described as \"half-million-year-old carbon records trapped in its layers of ice\") that conveys *both* its scientific function (data archive) and its emotional weight (planetary memory). Write the metaphor and a two-sentence justification.",
+     "a": "Metaphor: \"Antarctica's ice is Earth's **black box** — not just recording the crash, but preserving the breath of every passenger.\" Justification: A flight recorder (black box) stores operational data to explain disaster, just as ice cores store atmospheric data to explain climate change; \"breath of every passenger\" evokes the trapped air bubbles as living testimony, not dead data, making the archive a *witness*. A weak answer offers a simile (\"like a library book\") or a single-function metaphor (\"time capsule\" — only storage, not diagnostic), missing the dual demand: *instrument* + *testimony*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_004",
+   "title": "c12_biotech_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between preproinsulin, proinsulin, and mature insulin in terms of amino acid composition and chain arrangement?",
+     "a": "Preproinsulin is a 110-amino acid single chain containing a 24-residue signal peptide, the B-chain, a 31-residue C-peptide, and the A-chain. Proinsulin (86 amino acids) lacks the signal peptide but retains the C-peptide connecting B and A chains. Mature insulin (51 amino acids) consists of only the A-chain (21 aa) and B-chain (30 aa) linked by two inter-chain and one intra-chain disulfide bonds, with the C-peptide removed. A wrong answer (e.g., \"proinsulin has three chains A, B, and C\") reveals confusion between peptide *chains* and peptide *segments* within a single polypeptide.",
+     "self_check": true
+    },
+    {
+     "q": "Why did scientists choose to express the A and B chains of insulin as separate fusion proteins in *E. coli* rather than expressing a single preproinsulin or proinsulin gene?",
+     "a": "*E. coli* lacks the eukaryotic secretory pathway enzymes (signal peptidase, prohormone convertases) required to cleave the signal peptide and C-peptide and to form disulfide bonds in the oxidizing environment of the endoplasmic reticulum. Expressing preproinsulin or proinsulin in *E. coli* would yield an inactive, misfolded inclusion body. Separate expression of A and B chains as β-galactosidase fusions allows high-level cytoplasmic expression, easy purification via the fusion partner, and controlled in vitro disulfide bond formation after cleavage. A wrong answer (e.g., \"because the insulin gene is too large\") shows ignorance of the post-translational processing barrier in prokaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to produce human insulin in *E. coli* using the original 1979 strategy. They clone the synthetic A-chain gene (63 bp) and B-chain gene (90 bp) into separate pBR322-derived vectors downstream of the lac promoter, each fused to the *lacZ* gene encoding β-galactosidase. After IPTG induction, they harvest cells, lyse them, and purify the fusion proteins. What specific chemical reagent is used to cleave the insulin chains from β-galactosidase, and what is the chemical basis of its specificity?",
+     "a": "Cyanogen bromide (CNBr) is used. It specifically cleaves peptide bonds at the C-terminal side of methionine residues. In the original construct, a single methionine codon was engineered at the junction between β-galactosidase and the insulin chain, so CNBr treatment releases the insulin chain with a C-terminal homoserine lactone. A wrong answer (e.g., \"trypsin\" or \"restriction enzyme\") reveals confusion between proteolytic and chemical cleavage methods and their specificities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the disulfide bond pattern in mature human insulin with that in proinsulin. How does the in vitro refolding step after CNBr cleavage ensure the correct pairing of the six cysteine residues (A6, A7, A11, A20, B7, B19)?",
+     "a": "Proinsulin contains the same six cysteines but they are constrained within a single polypeptide; the two inter-chain bonds (A7–B7 and A20–B19) and one intra-chain bond (A6–A11) form co-translationally in the ER. After separate expression and CNBr cleavage, the purified A and B chains are mixed in a redox buffer (e.g., reduced/oxidized glutathione) at low protein concentration. The thermodynamically most stable conformation — which is the native insulin fold — predominates because the correct disulfide pairing minimizes free energy. A wrong answer (e.g., \"enzymes catalyze the bond formation\") ignores that refolding is a spontaneous, thermodynamically driven process in vitro.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Recombinant human insulin (Humulin®) is superior to porcine insulin for all diabetic patients because it is identical to the human protein.\" Consider immunological, pharmacokinetic, and manufacturing aspects.",
+     "a": "The claim is largely correct but incomplete. Humulin® eliminates the anti-insulin antibody response seen in some patients due to the single amino acid difference (ThrB30 in human vs AlaB30 in porcine). Pharmacokinetically, Humulin® has a slightly faster onset and shorter duration, requiring dose adjustment. Manufacturing-wise, recombinant production ensures unlimited supply, consistent quality, and no risk of porcine pathogens. However, \"superior for all patients\" is too absolute: a minority of patients stabilized on porcine insulin may experience hypoglycemia unawareness when switched. A wrong answer that ignores pharmacokinetics or the need for clinical transition shows lack of translational thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern alternative strategy to produce human insulin in *E. coli* that avoids the use of cyanogen bromide and separate chain expression. Briefly outline the vector design, host strain, and purification tags you would use, and explain how you would ensure correct disulfide bond formation.",
+     "a": "A modern strategy: clone a single gene encoding proinsulin (B-chain–C-peptide–A-chain) into a pET vector with an N-terminal His₆-tag and a TEV protease site. Express in *E. coli* SHuffle® strain (trxB⁻ gor⁻, cytoplasmic disulfide bond isomerase DsbC) to promote oxidative folding in the cytoplasm. Purify via Ni-NTA, cleave the His-tag with TEV protease, then use trypsin and carboxypeptidase B to remove the C-peptide at the engineered Lys-Arg sites, yielding mature insulin. This avoids CNBr (toxic), separate chains, and in vitro refolding. A poor answer would propose secretion to periplasm without addressing *E. coli*'s limited capacity for complex disulfide-bonded proteins.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

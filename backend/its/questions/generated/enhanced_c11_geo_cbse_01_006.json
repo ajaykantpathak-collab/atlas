@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_006",
+   "title": "c11_geo_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define biogeography and name its two main sub-branches.",
+     "a": "Biogeography is the study of the spatial distribution of plants and animals on Earth and the processes causing these patterns. Its two main sub-branches are phytogeography (study of plant distribution) and zoogeography (study of animal distribution). A wrong answer (e.g., defining it as only the study of animals) reveals the student has overlooked the plant component or confused it with ecology.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Western Ghats have higher biodiversity than the Deccan Plateau, using concepts from biogeography.",
+     "a": "The Western Ghats receive high orographic rainfall, have varied altitude creating multiple microclimates, and act as a barrier for species migration, leading to high endemism. The Deccan Plateau is drier with less topographic variation. A wrong answer focusing only on rainfall without mentioning altitudinal zonation or historical isolation shows incomplete understanding of biogeographic processes.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India showing rainfall and forest types, identify the region most likely to have tropical evergreen forests and justify your choice using biogeographic principles.",
+     "a": "Step 1: Locate areas with annual rainfall >200 cm and no dry season (e.g., Western Ghats, Andaman & Nicobar, Northeast). Step 2: Recall that tropical evergreen forests require high, year-round rainfall and warm temperatures. Step 3: Match the map region meeting these criteria. Step 4: Conclude that the windward side of the Western Ghats is the most likely region. A wrong answer selecting a region with seasonal rainfall (e.g., Central India) indicates failure to apply the climate-vegetation relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus of biogeography and environmental geography in studying the Sundarbans mangrove ecosystem.",
+     "a": "Biogeography would analyze the distribution of mangrove species (e.g., Sundari trees), tiger adaptation, and the role of salinity gradients in shaping biodiversity patterns. Environmental geography would examine human impacts like shrimp farming, embankment construction, sea-level rise effects on local communities, and conservation policies. A wrong answer that merges both without distinguishing the natural vs. human-interaction focus shows inability to separate the two branches' analytical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether the creation of wildlife corridors in India is more aligned with biogeography or environmental geography, and justify your evaluation.",
+     "a": "Wildlife corridors are primarily a biogeographical strategy because they address fragmentation of natural habitats to allow gene flow and species migration, based on principles of island biogeography and landscape ecology. However, their implementation involves environmental geography as it requires managing human land use, resolving conflicts, and ensuring sustainable livelihoods. A wrong answer that says it's purely environmental geography overlooks the core biogeographical theory of connectivity; one that says purely biogeography ignores the human dimension of implementation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field study plan for your school's eco-club to investigate a local environmental issue using methods from environmental geography.",
+     "a": "A good plan includes: (1) Identifying a local issue (e.g., water logging, solid waste, loss of green cover). (2) Mapping the affected area using a base map or GPS. (3) Collecting primary data (surveys, water/air quality tests, photographs). (4) Analyzing spatial patterns (e.g., proximity to drains, population density). (5) Proposing mitigation measures with stakeholder involvement. A poor plan lacks spatial analysis or treats the issue as purely scientific without geographical context (e.g., just testing water quality without mapping sources).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

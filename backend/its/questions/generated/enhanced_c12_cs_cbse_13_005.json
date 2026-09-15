@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_005",
+   "title": "c12_cs_cbse_13_005",
+   "questions": [
+    {
+     "q": "State the three primary channels through which technology affects employment, as per the standard economic framework (e.g., Autor, Levy, Murnane 2003).",
+     "a": "The three primary channels are: (1) **Substitution/Displacement** — technology replaces human labor in routine, codifiable tasks; (2) **Complementarity/Augmentation** — technology enhances human productivity in non‑routine, cognitive or interpersonal tasks; (3) **New Job Creation** — technology generates entirely new occupations, industries, and tasks (e.g., app developers, data annotators). A wrong answer that only mentions \"job loss\" reveals a **displacement‑only bias**, ignoring complementarity and new‑job channels — a common media‑driven misconception that leads to overly pessimistic policy views.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the introduction of ATMs in the 1980s‑90s did not reduce the number of bank tellers in the US, but actually coincided with an increase in teller employment.",
+     "a": "ATMs automated cash‑handling (a routine task), lowering the cost of operating a bank branch. Banks responded by opening **more branches** (demand for banking services is elastic), and tellers shifted from cash‑handling to **relationship‑based services** (selling financial products, solving complex issues) — tasks that are complementary to technology. A wrong answer that claims \"ATMs created teller jobs directly\" confuses **direct creation** with **indirect demand‑driven expansion**; the correct mechanism is **task restructuring + demand elasticity**.",
+     "self_check": true
+    },
+    {
+     "q": "A mid‑sized Indian textile firm replaces 20 manual looms with 5 automated looms. Each automated loom produces 3× the output of a manual loom and requires 1 operator (vs. 1 weaver per manual loom). The firm expands output by 50% due to lower costs. Calculate the net change in weaving‑operator jobs. Then discuss two non‑quantitative factors that could alter this outcome in reality.",
+     "a": "**Step 1:** Original output = 20 looms × 1 unit = 20 units. Original jobs = 20 weavers.  \n**Step 2:** New capacity = 5 looms × 3 units = 15 units. But firm expands output by 50% → new output = 20 × 1.5 = 30 units.  \n**Step 3:** Looms needed for 30 units at 3 units/loom = 10 looms. But firm only has 5 automated looms → they must add 5 more automated looms (assume they do).  \n**Step 4:** Total automated looms = 10, each needs 1 operator → 10 operator jobs.  \n**Step 5:** Net change = 10 − 20 = **−10 jobs** (a 50% reduction in weaving operators).  \n**Non‑quantitative factors:** (a) **Reskilling** — displaced weavers may be trained as machine operators/maintenance technicians; (b) **Demand elasticity** — if lower prices spur >50% demand growth, more looms/operators needed. A wrong answer that stops at \"5 looms × 1 operator = 5 jobs, so 15 jobs lost\" ignores the **output‑expansion effect** — a classic partial‑equilibrium error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of **generative AI** (e.g., LLMs) on **high‑skill cognitive work** (coding, writing, analysis) with the impact of **industrial robots** on **routine manual work** (assembly, welding). Identify two similarities and two differences in the displacement/complementarity dynamics.",
+     "a": "**Similarities:** (1) Both automate **routine, well‑defined sub‑tasks** within occupations (coding boilerplate / welding seams). (2) Both create **complementarity** for non‑routine tasks: system design & code review for programmers; robot supervision & quality control for technicians.  \n**Differences:** (1) **Skill bias:** Industrial robots primarily displaced **middle‑skill, routine manual** jobs (polarizing labor market); generative AI threatens **high‑skill, routine cognitive** tasks (potentially \"hollowing out\" the top). (2) **Speed of diffusion:** LLMs deploy via software updates (months); robots require capital installation (years), giving less time for reskilling. A wrong answer that says \"AI will replace all programmers\" misses the **task‑level analysis** — coding is a bundle of tasks, only some are automatable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Universal Basic Income (UBI) is the only viable policy response to technological unemployment because reskilling programs have consistently failed.\" Use evidence from at least two country‑level experiences.",
+     "a": "The statement is **overstated**. Evidence: (1) **Singapore’s SkillsFuture** — a lifelong learning account (S$500 credit for every citizen ≥25) combined with industry‑led training pathways has achieved high participation (500k+ learners/yr) and measurable wage gains for mid‑career switchers. (2) **Germany’s dual‑vocational system** — continuously updated curricula with employer involvement keeps youth unemployment low and adapts to Industry 4.0. UBI addresses **income security** but not **skill matching, social identity, or productivity growth**. A balanced policy mix includes: **active labor market policies (ALMPs), wage insurance, portable benefits for gig workers, and targeted UBI pilots**. A wrong answer that dismisses reskilling entirely ignores **successful institutional models** and conflates \"past poorly designed programs\" with \"all possible programs.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a **mini‑research project** (5‑step plan) that a Class 12 student could execute to investigate the impact of a specific technology (e.g., self‑checkout kiosks) on employment in their local supermarket. Specify data sources, methods, and how they would isolate the technology effect from other factors.",
+     "a": "**Step 1: Define research question** — \"How did the introduction of self‑checkout kiosks affect the number and composition of cashier jobs in Supermarket X over 2022‑24?\"  \n**Step 2: Identify data sources** — (a) Store HR records (headcount, hours, roles) — request via manager; (b) POS transaction logs (share of self‑checkout vs. staffed lanes); (c) Informal interviews with 3‑4 cashiers.  \n**Step 3: Choose comparison design** — **Difference‑in‑differences**: compare Supermarket X (treatment) with a similar nearby supermarket Y that did not install kiosks (control), before/after installation.  \n**Step 4: Collect & clean data** — monthly cashier FTEs, average hours, wage bill; control for store footfall, seasonality.  \n**Step 5: Analyze & present** — plot trends, run simple regression: `Cashier_FTE = β₀ + β₁(Post×Treat) + β₂Footfall + ε`. Interpret β₁. Discuss limitations (small sample, confounding).  \nA poor answer that says \"just ask the manager\" lacks **counterfactual thinking** and **data triangulation** — essential for causal inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

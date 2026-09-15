@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_004",
+   "title": "c11_acc_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the rule for debit and credit regarding an increase in an asset account and an increase in a liability account.",
+     "a": "Increase in asset is debited; increase in liability is credited. A wrong answer (e.g., \"increase in liability is debited\") reveals the student is confusing the side of the accounting equation where liabilities reside — they are on the credit side (right side), so increases must be credited to maintain equation balance.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Debit always means increase and credit always means decrease.\" Using the accounting equation, explain why this statement is incorrect for liabilities and capital.",
+     "a": "In the accounting equation A = L + C, assets are on the left (debit) side, so increases are debited. Liabilities and capital are on the right (credit) side, so their increases are credited and decreases are debited. The student's statement only holds for assets and expenses, not for liabilities, capital, or revenues. This misconception arises from memorising \"debit = increase\" without understanding the equation's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Transaction: \"Started business with cash ₹3,00,000 and building ₹5,00,000.\" Identify the accounts affected, their types, and the debit/credit entry for each.",
+     "a": "Accounts: Cash (Asset) — Debit ₹3,00,000; Building (Asset) — Debit ₹5,00,000; Capital (Capital) — Credit ₹8,00,000. Steps: (1) Identify items received (assets increase → debit). (2) Identify source (owner's investment → capital increases → credit). (3) Verify total debits (₹8,00,000) = total credits (₹8,00,000). A wrong classification (e.g., crediting cash) shows failure to recognise cash as an asset increase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the accounting equation of these two transactions: (a) Purchased machinery ₹2,00,000 paying ₹50,000 cash and balance on credit. (b) Repaid ₹1,00,000 of a bank loan by cheque.",
+     "a": "(a) Machinery (Asset) ↑ ₹2,00,000 (Dr), Cash (Asset) ↓ ₹50,000 (Cr), Creditors (Liability) ↑ ₹1,50,000 (Cr). Net asset change: +₹1,50,000; Liability change: +₹1,50,000. (b) Bank Loan (Liability) ↓ ₹1,00,000 (Dr), Bank (Asset) ↓ ₹1,00,000 (Cr). Both sides decrease equally. The key difference: (a) increases both sides; (b) decreases both sides. An answer that misses the dual asset effect in (a) or misclassifies loan repayment as an expense shows inability to analyse compound transactions.",
+     "self_check": true
+    },
+    {
+     "q": "A bookkeeper records \"Paid rent ₹10,000\" as: Rent A/c Dr. ₹10,000; Cash A/c Cr. ₹10,000. Another records it as: Cash A/c Dr. ₹10,000; Rent A/c Cr. ₹10,000. Evaluate which is correct and justify using the modern rules for assets and expenses.",
+     "a": "First entry is correct. Rent is an expense (decreases capital) → increase in expense is debited. Cash (asset) decreases → credited. The second entry reverses the logic, treating rent payment as an asset increase and cash decrease. This error reveals confusion between expense accounts (which follow asset-side rules) and liability/capital accounts (which follow opposite rules). The student must understand expenses reduce capital, so they behave like assets for debit/credit purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a transaction involving exactly three accounts: one asset increase, one asset decrease, and one liability increase. Write the journal entry and explain how it keeps the accounting equation balanced.",
+     "a": "Example: \"Purchased furniture ₹80,000, paid ₹30,000 cash, balance on credit.\"\nJournal: Furniture A/c Dr. ₹80,000; To Cash A/c ₹30,000; To Creditors A/c ₹50,000.\nEquation check: Assets: Furniture +₹80,000, Cash -₹30,000 = Net +₹50,000. Liabilities: Creditors +₹50,000. Both sides increase by ₹50,000 → balanced. A poor answer creates an entry where debits ≠ credits or misclassifies the liability (e.g., using \"Capital\" instead of \"Creditors\"), showing inability to construct a valid compound entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

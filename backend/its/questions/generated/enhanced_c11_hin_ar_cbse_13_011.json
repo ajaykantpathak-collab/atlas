@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_13_011",
+   "title": "c11_hin_ar_cbse_13_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the formation of the word \"eqrebu\" (vk'oLr) as used in the poem's third stanza, and state the root word and suffix involved.",
+     "a": "The word \"eqrebu\" is a **tatsama** derivative formed from the root \"eqre\" (vk'kq) + suffix \"bu\" (cqd) functioning as an adjective meaning 'influential/powerful'. A wrong answer (e.g., calling it a samasa or ignoring the suffix) reveals the student cannot distinguish between derivational morphology (word formation) and compounding, a critical gap for analyzing poetic neologisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet uses the oblique case form \"nj[rksa\" (isM+) in the first line of stanza one instead of the direct case \"nj[k\", and what syntactic role it plays in the phrase \"nj[rksa osQ lk;s esa /wi yxrh gS\".",
+     "a": "\"nj[rksa\" is the **oblique plural** form required because it is governed by the postposition \"osQ\" (genitive case marker). The phrase means \"darkness resides in the lanes of the settlement\". A wrong answer (e.g., saying it's direct case or subject) shows the student misses how case governance dictates noun morphology in Hindi, leading to misparsing of the spatial relationship central to the poem's setting.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of **ellipsis (lghu)** to the second stanza's opening line: \"dgk¡ rks r; Fkk fpjkxk¡ gjsoQ ?kj osQ fy,]\". Reconstruct the full implied sentence, identify the omitted verb, and explain how its absence affects the stanza's rhythm.",
+     "a": "Full reconstruction: \"dgk¡ rks r; Fkk [th] fpjkxk¡ gjsoQ ?kj osQ fy,]\". The copula \"th\" (was) is omitted. This ellipsis creates a telegraphic, memory-like fragmentation, accelerating the pace to mimic the fleeting nature of recollection. A wrong answer (failing to identify the omitted copula or its rhythmic function) indicates the student treats poetry as prose with line breaks, missing how grammatical economy drives poetic tempo.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the compound word \"fly ns 'kqcku 'kk;j\" in the final stanza. Break it into its constituent morphemes, identify the samasa type for each segment, and explain how the compounding compresses the socio-political critique.",
+     "a": "\"fly\" (fruit/result) + \"ns\" (genitive postposition, frozen) + \"'kqcku\" (dry/hard) + \"'kk;j\" (twig/branch) = **Bahuvrihi compound** functioning as an adjective: \"he whose twig is the dry fruit of power\". The frozen genitive \"ns\" and bahuvrihi structure fuse 'power', 'barrenness', and 'fragility' into a single epithet for the ruler. A wrong answer (treating as separate words or misidentifying samasa) reveals inability to see how morphological fusion encodes layered satire in a single breath.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's deliberate use of **non-standard verb agreement** in \"u gks deh”k rks ik¡oksa ls isV <¡d ysaxs\" (If not the body, then bones will be picked from the streets). Does the plural verb \"ysaxs\" agree with \"ik¡oksa\" (plural) or \"deh”k\" (singular)? Defend your answer with grammatical reasoning and thematic justification.",
+     "a": "The verb \"ysaxs\" (plural, future) agrees with **\"ik¡oksa\"** (plural subject), not \"deh”k\". Grammatically, the conditional \"u gks deh”k\" sets up a hypothetical where \"ik¡oksa\" becomes the active subject of the main clause. Thematically, this shift from singular body to plural bones **enacts the fragmentation of the individual into collective debris**, reinforcing the poem's theme of dehumanization. A wrong answer (claiming agreement with 'deh\"k' or ignoring agreement) shows the student misses how grammatical number operates as a semantic device.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new two-line stanza in Nagarjun's style for this poem, using **at least two grammatical deviations** (e.g., case stacking, verb ellipsis, inverted word order, coined compound) to depict a modern urban struggle (e.g., gig worker, migrant laborer). Annotate your deviations.",
+     "a": "**Stanza:**  \n\"App osQ fy, rks Hkh 'kjhj ugha mils]  \nRating osQ dkj.k jindgi gys yxhA\"  \n\n**Deviations annotated:**  \n1. **Case Stacking/Genitive Chain**: \"App osQ fy,\" (for the sake of App) - frozen English genitive in Hindi syntax, mimicking corporate jargon intrusion.  \n2. **Verb Ellipsis**: \"jindgi gys yxhA\" (life has stalled) - omission of auxiliary \"h\" (hai) in \"gys yxh\" for \"gayi hai\", creating a truncated, exhausted rhythm.  \nA poor answer (standard grammar, no annotation, or deviations without poetic function) reveals the student views grammar as rigid rules rather than a flexible resource for voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

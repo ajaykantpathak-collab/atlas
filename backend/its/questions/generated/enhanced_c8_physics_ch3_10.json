@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_10",
+   "title": "c8_physics_ch3_10",
+   "questions": [
+    {
+     "q": "List three distinct methods to reduce friction between two solid surfaces in a household or vehicle context, and for each, name the physical mechanism by which it works (e.g., \"lubrication – fluid film separates surfaces\").",
+     "a": "Correct answer: (1) Lubrication with oil/grease – forms a fluid film that separates solid surfaces, converting solid-solid friction to lower fluid-fluid shear. (2) Ball bearings – replace sliding friction with rolling friction, where contact is point-like and deformation-based. (3) Polishing surfaces – reduces microscopic interlocking by smoothing asperities. A wrong answer listing only \"make surfaces smooth\" without distinguishing polishing from lubrication reveals the student thinks friction reduction is only about surface texture, missing the mechanism of fluid film separation or rolling contact.",
+     "self_check": true
+    },
+    {
+     "q": "A mechanic applies thick grease to a noisy door hinge, and the noise stops. Explain why the grease reduces friction more effectively than simply polishing the metal hinge pin, using the concept of surface asperities and adhesive forces.",
+     "a": "Correct answer: Polishing only reduces the height of surface asperities (microscopic hills), but metal-to-metal contact still allows cold welding/adhesion at contact points. Grease introduces a continuous fluid film that completely separates the surfaces, eliminating both interlocking and adhesive forces. The fluid's internal shear resistance is far lower than solid-solid shear. A wrong answer stating \"grease makes surfaces slippery\" without mentioning surface separation reveals the student treats lubrication as a surface property change rather than a bulk separation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A wooden block of mass 2 kg rests on a horizontal wooden table. The coefficient of static friction is 0.4. Calculate the minimum horizontal force needed to start the block moving. Then, if the same block is placed on a lubricated surface where μ = 0.08, calculate the new force needed. Use g = 10 m/s². Show all steps with units.",
+     "a": "Step 1: Identify given: m = 2 kg, μ₁ = 0.4 (dry), μ₂ = 0.08 (lubricated), g = 10 m/s². Find: F_min for both cases.\nStep 2: Normal force N = mg = 2 kg × 10 m/s² = 20 N.\nStep 3: Maximum static friction f_max = μN.\nStep 4: Dry case: F_min = 0.4 × 20 N = 8 N. Lubricated case: F_min = 0.08 × 20 N = 1.6 N.\nStep 5: Lubrication reduces required force by factor of 5 (8 N → 1.6 N), consistent with μ reduction. A wrong answer using μ = 0.4 for both cases reveals the student does not connect the lubrication method to a quantitative change in coefficient of friction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the friction modification strategies for: (a) car tyre tread design, (b) engine piston lubrication, (c) gymnastic chalk on hands. For each, state whether friction is increased or decreased, and explain why the specific method (tread grooves, oil film, chalk powder) is suited to that application's conditions (load, speed, temperature, contamination).",
+     "a": "Correct answer: (a) Tyre tread – INCREASES friction on wet roads by channeling water away to maintain rubber-road contact; grooves deform to interlock with road texture. (b) Engine piston – DECREASES friction via oil film that withstands high temperature/pressure, preventing metal seizure at high speed. (c) Gym chalk – INCREASES friction by absorbing sweat (water reduces μ) and creating a dry, high-shear powder layer that enhances grip. A wrong answer saying \"tyre tread reduces friction because it has gaps\" reveals confusion between contact area reduction (which doesn't directly reduce friction) and water displacement function.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ball bearings eliminate friction completely because they roll instead of slide.\" Evaluate this claim. Is it correct? If not, identify the error and explain what type of friction remains and why.",
+     "a": "Correct answer: The claim is FALSE. Ball bearings replace sliding friction with rolling friction, which is much smaller but NOT zero. Rolling friction arises from elastic deformation at the contact patch (hysteresis losses) and microscopic sliding due to differential surface speeds across the contact area. A wrong answer accepting the claim reveals the student equates \"rolling\" with \"zero friction,\" ignoring material deformation and the fact that pure rolling without any slip is an idealization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to compare the effectiveness of three friction-reducing methods: (i) lubricating oil, (ii) ball bearings (marbles), (iii) polishing with sandpaper. Specify: the test setup, measurable quantity, control variables, and how you would quantitatively rank the methods.",
+     "a": "Good answer: Use a wooden block (fixed mass) pulled by a spring balance across a wooden plank. Test four surfaces: (1) bare wood (control), (2) oiled wood, (3) wood with marbles as rollers, (4) sanded/polished wood. Measure the minimum force to start motion (static friction) and force to maintain constant speed (kinetic friction). Control: same block, same plank, same pull angle, same speed. Rank by measured force: lowest force = most effective reduction. A poor answer suggesting \"see which slides farthest\" without force measurement reveals the student confuses distance (which depends on initial kinetic energy and deceleration) with friction force magnitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

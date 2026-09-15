@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_2",
+   "title": "c9_bio_ch2_2",
+   "questions": [
+    {
+     "q": "Name the three types of meristematic tissues classified on the basis of their location in the plant body.",
+     "a": "The three types are apical meristem, lateral meristem, and intercalary meristem. A wrong answer (e.g., naming permanent tissues like parenchyma or xylem) reveals the student cannot distinguish meristematic from permanent tissues and has not grasped the classification basis (location) introduced in the previous node c9_bio_ch2_1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a bamboo shoot can grow several centimeters in a single day while the trunk of a neem tree thickens slowly over years, linking each to the specific meristem type responsible.",
+     "a": "Bamboo's rapid height increase is due to intercalary meristems at nodes and internodes allowing fast elongation, while neem's girth increase is due to lateral meristems (vascular cambium) adding secondary xylem and phloem slowly. A wrong answer that attributes both to apical meristem shows the student thinks all growth in length comes only from tips and ignores intercalary meristems in monocots like bamboo.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer cuts the top of a young maize plant (apical meristem removed) but leaves the lower nodes intact. Predict how the plant's growth pattern will change and which meristem will now drive its vertical growth.",
+     "a": "The maize plant will not grow taller from the cut tip; instead, intercalary meristems at the lower nodes will elongate, causing the plant to become bushier with more lateral branches. A wrong answer predicting the plant stops growing entirely reveals the misconception that only apical meristems drive vertical growth, overlooking intercalary meristems in grasses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cellular characteristics of meristematic cells in the root apical meristem with those of mature xylem vessels in the same root, and explain how these differences relate to their functions.",
+     "a": "Meristematic cells have dense cytoplasm, large nuclei, thin walls, and no vacuoles — suited for active division; mature xylem vessels are dead, hollow, with thick lignified walls — suited for water conduction. A wrong answer stating both have similar structure shows failure to link cell structure to function, a core concept from c8_bio_ch1_7.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Lateral meristems are present in all plants and are responsible for both primary and secondary growth.\" Evaluate this statement and correct it with reasoning.",
+     "a": "The statement is incorrect. Lateral meristems (vascular cambium, cork cambium) are responsible only for secondary growth (increase in girth) and are absent in most monocots (e.g., grasses, maize). Primary growth (length) is driven by apical and intercalary meristems. A wrong answer accepting the claim reveals confusion between primary and secondary growth and ignorance of monocot-dicot differences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips and grass stem sections to demonstrate the presence of meristematic tissue at different locations. List materials, procedure, and what you would observe under a microscope.",
+     "a": "Materials: onion bulbs, water, grass stems, microscope, slides, stain (acetocarmine). Procedure: Grow onion roots in water; cut 1 cm root tips and grass stem sections from node, internode, and tip. Stain and observe. Observations: Onion root tip shows small, dense, dividing cells (apical meristem); grass node shows similar cells (intercalary meristem); grass internode and tip show elongated, differentiated cells. A poor answer that only uses onion root tips fails to test intercalary meristem location and cannot distinguish meristem types by position.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

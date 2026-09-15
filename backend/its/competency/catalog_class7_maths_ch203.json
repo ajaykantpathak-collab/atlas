@@ -1,0 +1,373 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 203,
+ "chapter_title": "Finding Common Ground",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp203.txt",
+ "concepts": [
+  {
+   "id": "gegp.3.1.1",
+   "title": "Prime Factorisation",
+   "section": "3.1",
+   "definition": "The process of expressing a composite number as a product of its prime factors until no further division is possible.",
+   "formula": "number = p1 * p2 * p3 ...",
+   "key_idea": "Every composite number has a unique set of prime factors regardless of the order of multiplication.",
+   "textbook_ref": "gegp203.txt lines 85-115",
+   "question_patterns": [
+    "find the prime factorisation of 1200",
+    "write 90 as a product of primes",
+    "express 105 using the division method",
+    "what are the prime factors of 30",
+    "explain prime factorisation with an example",
+    "short note on prime factorisation",
+    "why is prime factorisation important",
+    "give one everyday example of prime factorisation",
+    "describe prime factorisation in your own words",
+    "what do you understand by prime factorisation",
+    "list the main points about prime factorisation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by smallest prime",
+     "explain": "Find the smallest prime number that divides the given number.",
+     "compute": "quotient1 = number / p1"
+    },
+    {
+     "step": 2,
+     "action": "repeat division",
+     "explain": "Continue dividing the resulting quotients by prime numbers until the quotient is 1.",
+     "compute": "final_product = p1 * p2 * p3"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.1.2",
+   "title": "Highest Common Factor (HCF)",
+   "section": "3.1",
+   "definition": "The greatest number that divides two or more given numbers exactly without leaving any remainder.",
+   "formula": "hcf = product of common prime factors with minimum powers",
+   "key_idea": "The HCF is the largest shared divisor found by identifying common subparts in prime factorisations.",
+   "textbook_ref": "gegp203.txt lines 150-180",
+   "question_patterns": [
+    "find the HCF of 45 and 75",
+    "calculate the greatest common divisor of 112 and 84",
+    "what is the largest size of tile that fits a 12ft by 16ft room",
+    "find the common factors and HCF of 96 and 275",
+    "explain highest common factor (hcf) with an example",
+    "short note on highest common factor (hcf)",
+    "why is highest common factor (hcf) important",
+    "give one everyday example of highest common factor (hcf)",
+    "describe highest common factor (hcf) in your own words",
+    "what do you understand by highest common factor (hcf)",
+    "list the main points about highest common factor (hcf)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prime factorise both numbers",
+     "explain": "List the prime factors for each number provided.",
+     "compute": "factors_a = p1 * p2"
+    },
+    {
+     "step": 2,
+     "action": "identify common primes",
+     "explain": "Find the prime factors that appear in both lists.",
+     "compute": "common_primes = min(count_a, count_b)"
+    },
+    {
+     "step": 3,
+     "action": "multiply common primes",
+     "explain": "The product of these common primes taken the minimum number of times they appear is the HCF.",
+     "compute": "hcf = p_common1 * p_common2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.1.3",
+   "title": "Mathematical Conjectures",
+   "section": "3.1",
+   "definition": "A mathematical statement or claim that is proposed as true but has not yet been formally proven.",
+   "formula": "none",
+   "key_idea": "A single counterexample is sufficient to disprove a conjecture.",
+   "textbook_ref": "gegp203.txt lines 140-148",
+   "question_patterns": [
+    "what is a conjecture in mathematics",
+    "disprove the claim that larger numbers have longer prime factorisations",
+    "provide a counterexample for Anshu's claim",
+    "explain mathematical conjectures with an example",
+    "short note on mathematical conjectures",
+    "why is mathematical conjectures important",
+    "give one everyday example of mathematical conjectures",
+    "describe mathematical conjectures in your own words",
+    "what do you understand by mathematical conjectures",
+    "list the main points about mathematical conjectures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the conjecture",
+     "explain": "Identify the claim being made about numbers or properties."
+    },
+    {
+     "step": 2,
+     "action": "find a counterexample",
+     "explain": "Search for a specific case where the claim does not hold true to disprove it."
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.2.1",
+   "title": "Lowest Common Multiple (LCM)",
+   "section": "3.2",
+   "definition": "The smallest positive integer that is a multiple of two or more given numbers.",
+   "formula": "lcm = product of all prime factors with maximum powers",
+   "key_idea": "The LCM must contain the prime factorisation of every number in the set as a subpart.",
+   "textbook_ref": "gegp203.txt lines 240-270",
+   "question_patterns": [
+    "find the LCM of 14 and 35",
+    "calculate the lowest common multiple of 96 and 360",
+    "what is the shortest toran length for 6cm and 8cm strips",
+    "when will two events occurring every 7 and 10 days coincide",
+    "explain lowest common multiple (lcm) with an example",
+    "short note on lowest common multiple (lcm)",
+    "why is lowest common multiple (lcm) important",
+    "give one everyday example of lowest common multiple (lcm)",
+    "describe lowest common multiple (lcm) in your own words",
+    "what do you understand by lowest common multiple (lcm)",
+    "list the main points about lowest common multiple (lcm)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prime factorise all numbers",
+     "explain": "Break down each number into its prime components.",
+     "compute": "factors_a = p1 * p2"
+    },
+    {
+     "step": 2,
+     "action": "list unique primes with max counts",
+     "explain": "For every prime factor present, identify the maximum number of times it appears in any single factorisation.",
+     "compute": "max_p1 = max(count_a1, count_b1)"
+    },
+    {
+     "step": 3,
+     "action": "multiply to find LCM",
+     "explain": "Multiply all unique prime factors raised to their maximum identified counts.",
+     "compute": "lcm = (p1 ** max_p1) * (p2 ** max_p2)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.3.1",
+   "title": "Simultaneous Division Method",
+   "section": "3.3",
+   "definition": "An efficient algorithm to find both HCF and LCM by dividing multiple numbers together by their common factors.",
+   "formula": "hcf = product of common divisors; lcm = hcf * product of remaining quotients",
+   "key_idea": "Common factors are divided out first for HCF, then remaining factors are handled for LCM.",
+   "textbook_ref": "gegp203.txt lines 315-345",
+   "question_patterns": [
+    "use the short division method for HCF of 84 and 180",
+    "find HCF and LCM of 300 and 150 simultaneously",
+    "calculate HCF and LCM of 630 and 770 efficiently",
+    "explain simultaneous division method with an example",
+    "short note on simultaneous division method",
+    "why is simultaneous division method important",
+    "give one everyday example of simultaneous division method",
+    "describe simultaneous division method in your own words",
+    "what do you understand by simultaneous division method",
+    "list the main points about simultaneous division method"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by common factors",
+     "explain": "Divide all numbers by a shared factor (prime or composite) and write the quotients.",
+     "compute": "common_prod = factor1 * factor2"
+    },
+    {
+     "step": 2,
+     "action": "determine HCF",
+     "explain": "The product of all factors used to divide all numbers simultaneously is the HCF."
+    },
+    {
+     "step": 3,
+     "action": "continue for LCM",
+     "explain": "Continue dividing until no two numbers share a factor, then multiply HCF by all remaining quotients.",
+     "compute": "lcm = hcf * q1 * q2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.3.2",
+   "title": "HCF and LCM Product Property",
+   "section": "3.3",
+   "definition": "The mathematical relationship stating that the product of the HCF and LCM of two numbers equals the product of the numbers themselves.",
+   "formula": "hcf * lcm = num1 * num2",
+   "key_idea": "This property allows finding the LCM if the HCF and the numbers are known, and vice versa.",
+   "textbook_ref": "gegp203.txt lines 360-380",
+   "question_patterns": [
+    "verify the property HCF x LCM = product for 105 and 95",
+    "if HCF is 5 and numbers are 45 and 105, find LCM",
+    "show that the product of two numbers is equal to the product of their HCF and LCM",
+    "explain hcf and lcm product property with an example",
+    "short note on hcf and lcm product property",
+    "why is hcf and lcm product property important",
+    "give one everyday example of hcf and lcm product property",
+    "describe hcf and lcm product property in your own words",
+    "what do you understand by hcf and lcm product property",
+    "list the main points about hcf and lcm product property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate product of numbers",
+     "explain": "Multiply the two given numbers together.",
+     "compute": "num_prod = num1 * num2"
+    },
+    {
+     "step": 2,
+     "action": "calculate product of HCF and LCM",
+     "explain": "Multiply the calculated HCF and LCM of the numbers.",
+     "compute": "hcf_lcm_prod = hcf * lcm"
+    },
+    {
+     "step": 3,
+     "action": "verify equality",
+     "explain": "Check if the product of numbers matches the product of HCF and LCM.",
+     "compute": "difference = num_prod - hcf_lcm_prod"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.3.3",
+   "title": "Properties of Co-prime Numbers",
+   "section": "3.3",
+   "definition": "Pairs of numbers that have no common factor other than 1.",
+   "formula": "hcf(a, b) = 1",
+   "key_idea": "For co-prime numbers, the LCM is simply the product of the two numbers.",
+   "textbook_ref": "gegp203.txt lines 295-305",
+   "question_patterns": [
+    "what is the HCF of two co-prime numbers",
+    "find two numbers with HCF 1 and LCM 66",
+    "make a general statement about the LCM of co-prime numbers",
+    "explain properties of co-prime numbers with an example",
+    "short note on properties of co-prime numbers",
+    "why is properties of co-prime numbers important",
+    "give one everyday example of properties of co-prime numbers",
+    "describe properties of co-prime numbers in your own words",
+    "what do you understand by properties of co-prime numbers",
+    "list the main points about properties of co-prime numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check common factors",
+     "explain": "List factors of both numbers and verify if 1 is the only shared factor."
+    },
+    {
+     "step": 2,
+     "action": "conclude HCF and LCM",
+     "explain": "State that HCF is 1 and LCM is the product of the numbers."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp203.txt lines 150-165",
+   "concept": "gegp.3.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the common factors, and the HCF of {num1} and {num2}.",
+   "extracted_variables": {
+    "num1": "45",
+    "num2": "75"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "prime factorise",
+     "explain": "45 = 3 * 3 * 5 and 75 = 3 * 5 * 5",
+     "compute": "factors_45 = 3 * 3 * 5"
+    },
+    {
+     "step": 2,
+     "action": "find common subparts",
+     "explain": "Common primes are 3 and 5.",
+     "compute": "hcf = 3 * 5"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "gegp203.txt lines 255-275",
+   "concept": "gegp.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the LCM of {num1} and {num2}.",
+   "extracted_variables": {
+    "num1": "96",
+    "num2": "360"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "prime factorise",
+     "explain": "96 = 2^5 * 3 and 360 = 2^3 * 3^2 * 5",
+     "compute": "factors_96 = 2**5 * 3"
+    },
+    {
+     "step": 2,
+     "action": "take max powers",
+     "explain": "Max 2s: 5, Max 3s: 2, Max 5s: 1",
+     "compute": "lcm = (2**5) * (3**2) * 5"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "gegp203.txt lines 125-135",
+   "questions": [
+    "List all the factors of 90",
+    "List all the factors of 105",
+    "List all the factors of 132",
+    "List all the factors of 360",
+    "List all the factors of 840"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "gegp203.txt lines 190-200",
+   "questions": [
+    "Find the common factors and the HCF of 50, 60",
+    "Find the common factors and the HCF of 140, 275",
+    "Find the common factors and the HCF of 77, 725",
+    "Find the common factors and the HCF of 370, 592",
+    "Find the common factors and the HCF of 81, 243"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "gegp203.txt lines 385-415",
+   "questions": [
+    "Find two numbers whose HCF is 1 and LCM is 66.",
+    "How many cows did the cowherd have if they passed equally through 3, 5, and 7 gates and total was less than 200?",
+    "Which sized cubes (9, 6, 4, 3, 2 cm) can be packed in a 12x18x36 cm box without gaps?",
+    "Find the smallest number divisible by 3, 4, 5 and 7 that leaves remainder 10 when divided by 11.",
+    "In how many leaps does a dog (9ft jump) catch a rabbit (7ft jump) with a 150ft head start?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

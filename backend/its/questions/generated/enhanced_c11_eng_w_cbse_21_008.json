@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_008",
+   "title": "c11_eng_w_cbse_21_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" and \"metaphor\" in your own words, giving one original example of each that is NOT from the textbook.",
+     "a": "Imagery: Language that appeals to the senses (e.g., \"The sulfur smell of burnt matches hung in the air\" – olfactory). Metaphor: A direct comparison stating X is Y (e.g., \"Time is a thief\" – time steals moments). A wrong answer that defines imagery as \"any description\" reveals confusion between mere adjectives and sensory evocation. A wrong answer that uses \"like\" or \"as\" in the metaphor example shows confusion with simile.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Patterns of Creativity\", the author writes: \"The poet and the physicist both stare at the same star, but one sees a lyric, the other a spectrum.\" Identify the metaphor(s) and the primary imagery type in this sentence. Explain why this is NOT a simile.",
+     "a": "Metaphors: \"sees a lyric\" (poetry = lyric) and \"sees a spectrum\" (physics = spectrum) – both equate perception with artistic/scientific output. Primary imagery: visual (\"stare\", \"sees\", \"star\", \"spectrum\"). It is not a simile because it lacks \"like\" or \"as\"; it directly states what each *sees* as an identity. A wrong answer identifying \"stare at the same star\" as a metaphor reveals inability to distinguish literal action from figurative equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of extended metaphor to the following invented passage from the essay: \"Creativity is a loom. The scientist spins threads of hypothesis; the poet dyes them with metaphor. Both weave patterns that clothe the nakedness of ignorance.\" Map the tenor, vehicle, and at least three extended points of comparison.",
+     "a": "Tenor: Creativity (both scientific and poetic). Vehicle: A loom. Extended points: (1) Spinning threads = generating raw ideas/hypotheses; (2) Dyeing = adding imaginative language/metaphor; (3) Weaving patterns = structuring into theories/poems; (4) Clothing ignorance = providing understanding. A wrong answer that lists only \"loom = creativity\" without unpacking the sub-actions shows failure to analyze extension.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the tactile imagery in \"the rough grain of experimental data\" and the auditory imagery in \"the silent hum of mathematical elegance\" work together to characterize scientific creativity in the essay. Why does the author juxtapose these two sensory modes?",
+     "a": "Tactile \"rough grain\" conveys the messy, resistant, tangible nature of raw data; auditory \"silent hum\" conveys the abstract, harmonious, internal beauty of theory. Juxtaposition shows science as a process moving from concrete friction to abstract resonance, mirroring the poet's journey from raw emotion to polished verse. A wrong answer that merely lists the two images without explaining their contrast or thematic function shows surface-level reading.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the metaphor \"Mathematics is the music of the mind\" (hypothetical line from the essay) in conveying the essay's thesis that science and art share a common creative root. Consider limitations: does it oversimplify the role of logic vs. emotion?",
+     "a": "Effective because it transfers music's structural beauty, pattern, and emotional impact to mathematics, supporting the unity thesis. Limitation: music is often associated with subjective feeling, while mathematics relies on objective proof; the metaphor may blur the crucial distinction between aesthetic intuition and rigorous verification. A wrong answer that only praises the metaphor without critique shows inability to evaluate literary devices critically.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new metaphor for \"the moment of scientific discovery\" that incorporates at least two sensory images (e.g., visual + tactile). Write it as a single sentence and briefly explain your choices.",
+     "a": "Example: \"The moment of discovery is a lightning flash that sears the retina and leaves the fingertips tingling with the static of new truth.\" Visual: lightning flash, sears retina. Tactile: fingertips tingling, static. Explanation: Lightning suggests sudden illumination; tingling conveys the physical thrill of insight. A poor answer that uses a cliché (\"lightbulb moment\") or only one sense shows limited creative application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_007",
+   "title": "c11_stat_cbse_02_007",
+   "questions": [
+    {
+     "q": "Define Simple Random Sampling (SRS) and state the one necessary condition for a sample to be considered an SRS of size *n* from a population of size *N*.",
+     "a": "**Correct Answer:** Simple Random Sampling is a method where every possible sample of size *n* from the population of size *N* has an equal probability of being selected. The necessary condition: **all** <sup>N</sup>C<sub>n</sub> possible samples must be equally likely.  \n**Misconception revealed:** A student who says \"each unit has an equal chance of being selected\" confuses *unit-level* equal probability with *sample-level* equal probability. Systematic sampling also gives each unit equal probability (1/*k*) but is NOT SRS because not all samples of size *n* are possible (e.g., adjacent units can never appear together).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the yield of wheat across 500 farms in a district. The farms are clearly divided into two regions: 300 irrigated farms and 200 rain-fed farms. The researcher selects 30 farms by picking 18 from the irrigated list and 12 from the rain-fed list using random number tables. Identify the sampling method and explain why proportional allocation was used here.",
+     "a": "**Correct Answer:** This is **Stratified Random Sampling with proportional allocation**. The population is divided into two strata (irrigated, rain-fed) based on a characteristic affecting yield (water source). Sample sizes per stratum are proportional to stratum sizes: (300/500)×30 = 18 and (200/500)×30 = 12. Proportional allocation ensures the sample mirrors the population structure, giving a more precise estimate of overall mean yield than SRS because variability *between* strata (irrigated vs rain-fed) is removed from the sampling error.  \n**Misconception revealed:** A student who calls this \"quota sampling\" confuses random selection within strata (probability sampling) with non-random quota filling. A student who suggests equal allocation (15 each) ignores that proportional allocation minimises variance for estimating the *population mean* when stratum variances are similar.",
+     "self_check": true
+    },
+    {
+     "q": "You have a sampling frame of 2,500 students (listed alphabetically) and need a sample of 100 using Systematic Random Sampling. Calculate the sampling interval *k*. If the random start is *r* = 37, list the first four selected roll numbers. What critical assumption about the list order must hold for this to be a valid probability sample?",
+     "a": "**Correct Answer:**  \nStep 1: *k* = *N*/*n* = 2500/100 = **25**.  \nStep 2: Random start *r* = 37 (between 1 and 25? Wait — *r* must be ≤ *k*. Here 37 > 25, so this is an invalid start. The problem likely meant *r* = 12 or similar. Assuming a valid *r* = 12).  \nStep 3: Selected units = *r*, *r*+*k*, *r*+2*k*, *r*+3*k* = 12, 37, 62, 87.  \n**Critical assumption:** The list order (alphabetical) must be **unrelated to the variable of interest** (e.g., academic performance, family income). If the list were ordered by class roll number which correlates with admission date and socio-economic status, systematic sampling could introduce periodicity bias.  \n**Misconception revealed:** A student who computes *k* = 25 but accepts *r* = 37 without checking *r* ≤ *k* misses a fundamental constraint. A student who says \"the list must be random\" is wrong — it must be *unrelated to the study variable*, not randomly ordered.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Simple Random Sampling (SRS) and Stratified Random Sampling for estimating the average income of households in a city with two distinct sectors: a high-income planned colony (20% of households) and a low-income informal settlement (80%). Under what condition would SRS be *more* efficient (lower variance) than proportional stratified sampling?",
+     "a": "**Correct Answer:** Proportional stratified sampling is *almost always* more efficient than SRS when strata means differ (which they do here: high vs low income). SRS would be more efficient **only if the within-stratum variances are extremely large relative to between-stratum differences, and the stratification variable is poorly correlated with income** — essentially, if the stratification is ineffective (e.g., stratifying by \"house colour\" instead of \"sector\"). Formally, SRS beats proportional stratification when Σ<sub>h</sub> *W*<sub>h</sub> *S*<sub>h</sub><sup>2</sup> > *S*<sup>2</sup> (population variance), which happens when strata are internally heterogeneous and externally similar.  \n**Misconception revealed:** A student who says \"SRS is always better because it's purely random\" misunderstands that stratification *exploits* known structure to reduce variance. A student who says \"Stratified is always better\" ignores that poor stratification (e.g., by irrelevant criteria) adds complexity without gain.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Systematic Random Sampling is superior to Simple Random Sampling because it spreads the sample evenly across the population, guaranteeing better representativeness.\" Provide a concrete counterexample where systematic sampling fails badly.",
+     "a": "**Correct Answer:** The statement is **false**. Systematic sampling does *not* guarantee representativeness; it guarantees *spread* only relative to the list order. If the sampling frame has a **periodic pattern** matching the interval *k*, systematic sampling can select only high (or only low) values.  \n**Counterexample:** A factory produces items in batches of 100. Every 100th item is from a specific machine that is miscalibrated. Population *N* = 10,000, sample *n* = 100, so *k* = 100. If random start *r* = 50, the sample picks items 50, 150, 250, ... — all from the *same* miscalibrated machine (since 50 mod 100 = 50, 150 mod 100 = 50). The sample mean will be severely biased. SRS would have spread the risk across machines.  \n**Misconception revealed:** A student who agrees confuses \"even spread in list order\" with \"representativeness of population characteristics\". They miss that list order is arbitrary unless deliberately randomised.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sampling plan to estimate the average daily wage of construction workers in a metropolitan city. The workforce comprises three categories: skilled (15%), semi-skilled (35%), unskilled (50%). You have a budget for 400 interviews. Specify: (a) the sampling method, (b) sample allocation across strata, (c) how you would select workers within each stratum, and (d) one practical challenge you might face in implementing this plan.",
+     "a": "**Expected Answer:**  \n(a) **Stratified Random Sampling** — because the population has clear, heterogeneous subgroups (skill levels) with likely different wage distributions.  \n(b) **Proportional allocation:** Skilled = 0.15×400 = 60; Semi-skilled = 0.35×400 = 140; Unskilled = 0.50×400 = 200. (Neyman allocation could be used if stratum variances are known from pilot data).  \n(c) Within each stratum, use **Simple Random Sampling** via random number tables applied to a list of registered workers in that category (e.g., from labour union records or contractor payrolls).  \n(d) **Practical challenge:** No complete, up-to-date sampling frame exists for unskilled migrant workers (many are unregistered, mobile, undocumented). This leads to **under-coverage bias** — a non-sampling error.  \n**Poor answer reveals:** Using SRS ignoring strata (wastes budget on over-sampling skilled workers), or using quota sampling (non-random), or ignoring the frame problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

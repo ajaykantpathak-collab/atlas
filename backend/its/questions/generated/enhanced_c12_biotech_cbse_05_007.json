@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_007",
+   "title": "c12_biotech_cbse_05_007",
+   "questions": [
+    {
+     "q": "Name the three major primary nucleotide sequence databases that form the International Nucleotide Sequence Database Collaboration (INSDC) and state the accession number format used by each.",
+     "a": "The three databases are GenBank (USA), EMBL-EBI (Europe), and DDBJ (Japan). GenBank accession format: one letter followed by five digits (e.g., U12345) or two letters followed by six digits (e.g., AB123456). EMBL uses two letters followed by six digits (e.g., AB123456). DDBJ uses one letter followed by five digits (e.g., A12345). A wrong answer (e.g., listing UniProt or PDB as primary nucleotide databases) reveals confusion between nucleotide and protein/structure databases and ignorance of the INSDC collaboration.",
+     "self_check": true
+    },
+    {
+     "q": "A student retrieves a sequence in FASTA format and sees the header line: `>gi|123456|ref|NM_001234.5| Homo sapiens insulin (INS), mRNA`. Explain what each field in the header represents and why FASTA format is preferred for BLAST input over GenBank format.",
+     "a": "Fields: `gi` = GenInfo identifier (deprecated but still present), `123456` = GI number, `ref` = reference sequence database, `NM_001234.5` = RefSeq accession with version, `Homo sapiens insulin (INS), mRNA` = description. FASTA is preferred for BLAST because it contains only the header and raw sequence (no annotations), making parsing faster and reducing file size. GenBank format includes extensive annotation (features, references, etc.) that BLAST ignores, wasting bandwidth and computation. A student who says \"FASTA is shorter\" without explaining the annotation difference shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "You have a 1.2 kb cDNA sequence from a medicinal plant. You want to find all known protein sequences that share significant similarity. Which database and tool combination would you use? Justify your choice with two reasons.",
+     "a": "Use BLASTX (translated nucleotide query vs protein database) against the UniProtKB/Swiss-Prot database. Reason 1: BLASTX translates the cDNA in all six reading frames, directly comparing amino acid sequences, which is more sensitive for distant homologs because protein sequences evolve slower than nucleotide sequences. Reason 2: UniProtKB/Swiss-Prot is a curated, non-redundant protein database with high-quality functional annotations, reducing false positives. Choosing BLASTN against GenBank would miss distant homologs due to codon degeneracy; choosing BLASTP requires a known protein sequence, which you don't have.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast global alignment (Needleman-Wunsch) and local alignment (Smith-Waterman) in the context of comparing a full-length gene from human with a partial EST from mouse. Which is more appropriate and why?",
+     "a": "Global alignment forces alignment over the entire length of both sequences, penalising gaps at ends. Local alignment finds the highest-scoring subregion without requiring full-length coverage. For a full-length human gene vs a partial mouse EST, local alignment (Smith-Waterman or BLAST) is appropriate because the EST represents only a fragment of the mouse gene; global alignment would artificially penalise the non-overlapping regions of the human gene, lowering the score and potentially missing the true homologous region. A student who picks global alignment because \"it aligns everything\" fails to recognise that partial sequences require local alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A BLAST hit with E-value = 10⁻⁵ is more significant than a hit with E-value = 10⁻⁵⁰.\" Defend your evaluation with the definition of E-value and its dependence on database size.",
+     "a": "The statement is false. E-value (Expect value) is the number of hits expected by chance with a score ≥ the observed score. Lower E-value = more significant. 10⁻⁵⁰ is far more significant than 10⁻⁵. E-value depends on database size: E = Kmn e^(-λS), where m = query length, n = database size. A student who thinks higher E-value is better confuses E-value with similarity percentage or bit score. They also miss that E-value scales with database size — searching a larger database increases E-values for the same alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project workflow to identify putative transcription factor binding sites in the promoter region of a stress-responsive gene in Arabidopsis thaliana. List the databases, tools, and file formats you would use at each step, and explain how you would validate the predictions computationally.",
+     "a": "1. Retrieve 2 kb upstream sequence of the gene from TAIR (The Arabidopsis Information Resource) in FASTA format. 2. Scan for known motifs using PlantPAN or JASPAR database with tools like FIMO (MEME suite) — input FASTA, output GFF/TSV. 3. Compare with orthologous promoters from related species (Brassica) using multiple alignment (ClustalW) to find conserved motifs. 4. Validate by checking enrichment of known stress-responsive elements (ABRE, DRE) vs random genomic background using Fisher's exact test. A poor answer lists tools without logical order or omits validation, showing inability to design a coherent bioinformatics pipeline.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_001",
+   "title": "c10_chem_cbse_01_001",
+   "questions": [
+    {
+     "q": "A student adds dilute hydrochloric acid to zinc granules in a test tube. Bubbles of a gas evolve. The student says, \"This is a physical change because the zinc just dissolves.\" Is the student correct? Justify your answer using the definition of a chemical change.",
+     "a": "No, the student is incorrect. The evolution of gas bubbles (hydrogen) indicates a new substance is formed (ZnCl₂ and H₂), which is a sign of a chemical change. A physical change would not produce a new gas; the zinc reacting with acid changes its chemical composition. A wrong answer reveals the student confuses dissolution (physical) with chemical reaction, and does not recognize gas evolution as evidence of new substance formation.",
+     "self_check": true
+    },
+    {
+     "q": "When barium chloride solution is mixed with sodium sulphate solution, a white precipitate forms immediately. Explain why the formation of a precipitate is a sure sign of a chemical change, and why simply mixing two solutions without precipitate might still be a chemical change.",
+     "a": "A precipitate is an insoluble solid formed from the reaction of two aqueous solutions, proving new substances with different solubility have been created (BaSO₄). However, absence of precipitate does not rule out a chemical change — e.g., neutralisation of HCl and NaOH produces no precipitate but forms water and salt (colourless solutions), which is a chemical change. A wrong answer reveals the student thinks a precipitate is the ONLY sign, or that mixing without visible solid means no reaction.",
+     "self_check": true
+    },
+    {
+     "q": "A few crystals of copper sulphate (blue) are heated in a test tube. The blue colour fades to white, and water droplets appear on the cooler parts of the tube. On cooling, adding a few drops of water restores the blue colour. Identify which observations indicate a chemical change and which indicate a physical change. Explain your reasoning.",
+     "a": "Heating CuSO₄·5H₂O (blue) → CuSO₄ (white) + 5H₂O is a physical change (dehydration) — no new chemical substance forms, only loss of water of crystallisation. The colour change and water droplets are physical. Rehydration restoring blue colour confirms reversibility and no new substance. A wrong answer (calling it chemical) reveals the student mistakes colour change alone for chemical change, ignoring that the same compound (CuSO₄) exists before and after, just hydrated vs anhydrous.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two changes: (i) Iron nail placed in copper sulphate solution — solution colour changes from blue to green, and a reddish-brown deposit forms on the nail. (ii) Sugar heated in a spoon — it melts, turns brown, then black, giving off smoke. For each, list the signs of chemical change observed and state whether a chemical change occurs. Justify.",
+     "a": "(i) Colour change (blue to green), deposit formation (Cu metal), temperature change (exothermic) — all indicate chemical change (displacement: Fe + CuSO₄ → FeSO₄ + Cu). (ii) Melting is physical; browning/blackening and smoke indicate decomposition (chemical change) — new substances (carbon, water vapour, volatile compounds) form. A wrong answer might call (i) only physical (colour change) or (ii) entirely physical (melting), showing inability to distinguish multiple simultaneous signs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"When magnesium ribbon burns in air, it forms magnesium oxide. The white ash weighs more than the original ribbon. This proves mass is not conserved in chemical reactions.\" Evaluate this statement. Is the student's conclusion correct? Explain using the law of conservation of mass.",
+     "a": "The student's conclusion is incorrect. The mass increase is due to oxygen from air combining with magnesium (2Mg + O₂ → 2MgO). Total mass of reactants (Mg + O₂) equals total mass of products (MgO). The student only weighed the solid, ignoring the gaseous reactant. A wrong answer reveals the student does not apply the law of conservation of mass (c9_chem_ch3_1) to open systems, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only kitchen materials (vinegar, baking soda, lemon juice, milk, turmeric, soap) to demonstrate at least three different signs of a chemical change. Write the procedure, expected observations, and the chemical reason for each sign.",
+     "a": "Example: (1) Vinegar + baking soda → vigorous bubbling (CO₂ gas evolution), temperature drop (endothermic), no precipitate. (2) Lemon juice + milk → curdling (precipitate of casein), colour change. (3) Turmeric + soap solution → red colour change (indicator reaction). Each sign corresponds to new substance formation. A poor answer lists only one sign, uses non-kitchen chemicals, or fails to link observation to chemical reason (e.g., \"bubbles mean gas\" without naming CO₂ or reaction).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

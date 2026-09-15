@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_biology_kebo114",
+ "concepts": [
+  {
+   "id": "kebo.114.1.1",
+   "title": "Respiratory Organs and the Human Respiratory System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Respiratory Organs and the Human Respiratory System' refers to.",
+     "a": "Respiration occurs through body surface, tracheal system, gills or lungs depending on the animal; the human respiratory system includes external nostrils, nasal passage, pharynx, larynx with sound box, trachea, bronchi, bronchioles and alveoli surrounded by blood capillaries, with the lungs covered by pleural membranes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Organs and the Human Respiratory System'.",
+     "a": "The alveoli, with their thin squamous epithelium and dense capillary network, are the primary sites of exchange of gases, while the conducting part only transports the air.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Respiratory Organs and the Human Respiratory System' taught, and from which source text?",
+     "a": "14.1 Respiratory Organs, 14.2 Human Respiratory System (source: kebo114.txt sections 14.1, 14.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.2.1",
+   "title": "Respiratory Volumes and Capacities",
+   "questions": [
+    {
+     "q": "Using the method 'Respiratory Volumes and Capacities', work with: expiratory_reserve = 400, inspiratory_reserve = 150, residual_volume = 75, tidal_volume = 4. Carry the chain through step by step and give the final value of total_lung_capacity.",
+     "a": "629 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Respiratory Volumes and Capacities' and work with: expiratory_reserve = 200, inspiratory_reserve = 18, residual_volume = 18, tidal_volume = 200. Carry the chain through step by step and give the final value of total_lung_capacity.",
+     "a": "436 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Respiratory Volumes and Capacities' refers to.",
+     "a": "Breathing volumes include tidal volume of about 500 ml, inspiratory reserve volume, expiratory reserve volume and residual volume, and capacities combine them: inspiratory capacity equals tidal volume plus IRV, vital capacity equals IRV plus tidal volume plus ERV, and total lung capacity equals vital capacity plus residual volume.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Volumes and Capacities'.",
+     "a": "Intrapulmonary pressure falls below atmospheric pressure during inspiration as the diaphragm and external intercostals contract, and expiration is largely a passive return.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Respiratory Volumes and Capacities', in plain ASCII form.",
+     "a": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.3.1",
+   "title": "Exchange and Transport of Gases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Exchange and Transport of Gases' refers to.",
+     "a": "Oxygen and carbon dioxide exchange by pressure gradient across alveolar and tissue membranes; oxygen is transported mainly as oxyhaemoglobin, carbon dioxide mostly as bicarbonate formed under the enzyme carbonic anhydrase, and every 100 ml of deoxygenated blood delivers about 4 ml of carbon dioxide to the alveoli.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Exchange and Transport of Gases'.",
+     "a": "The oxygen dissociation curve is sigmoid, and its shift to the right with higher carbon dioxide, hydrogen ion and temperature is the Bohr effect that favours unloading in tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Exchange and Transport of Gases' taught, and from which source text?",
+     "a": "14.4 Exchange of Gases, 14.5 Transport of Gases (source: kebo114.txt sections 14.4, 14.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.114.4.1",
+   "title": "Regulation of Respiration and Respiratory Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regulation of Respiration and Respiratory Disorders' refers to.",
+     "a": "Breathing is regulated by the respiratory rhythm centre in the medulla, the pneumotaxic centre in the pons and chemosensitive areas sensing carbon dioxide and hydrogen ions; disorders include asthma with bronchial constriction, emphysema with alveolar damage, and occupational respiratory disorders like asbestosis and silicosis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regulation of Respiration and Respiratory Disorders'.",
+     "a": "Carbon dioxide acts as the major stimulus for breathing through chemosensors, since oxygen plays only a minor role in normal regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Regulation of Respiration and Respiratory Disorders' taught, and from which source text?",
+     "a": "14.6 Regulation of Respiration, 14.7 Disorders of Respiratory System (source: kebo114.txt sections 14.6, 14.7)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

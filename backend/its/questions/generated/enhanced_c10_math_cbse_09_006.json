@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_006",
+   "title": "c10_math_cbse_09_006",
+   "questions": [
+    {
+     "q": "A student is standing on a cliff 50 m above sea level. The angle of depression to a boat is 45°. Which trigonometric ratio should be used to find the horizontal distance from the foot of the cliff to the boat, and why?",
+     "a": "The correct ratio is tan 45° = height / distance = 50 / d. The angle of depression (45°) equals the angle of elevation from the boat to the student. In the right triangle at the boat, the height (50 m) is opposite the 45° angle, and the required distance is adjacent. A wrong answer (e.g., choosing sin or cos) reveals the student cannot identify opposite/adjacent sides relative to the correct angle in the triangle, or does not know that angle of depression = angle of elevation.",
+     "self_check": true
+    },
+    {
+     "q": "In an angle of depression problem, the observer is at height h and the angle of depression is θ. A student writes: sin θ = h / (line of sight distance). Is this correct? Explain why or why not, referring to the triangle's geometry.",
+     "a": "Yes, it is correct. The line of sight is the hypotenuse of the right triangle formed by the observer, the object, and the foot of the perpendicular. The angle of depression equals the angle of elevation at the object. At that angle, the height h is the opposite side, and the line of sight is the hypotenuse, so sin θ = opposite/hypotenuse = h / (line of sight). A wrong answer (saying it's incorrect) shows the student does not recognize which sides correspond to the angle of elevation inside the triangle, or confuses the angle of depression with the angle at the observer's vertex in the triangle.",
+     "self_check": true
+    },
+    {
+     "q": "From the top of a lighthouse 60 m high, the angle of depression of a ship is 30°. Find the distance of the ship from the foot of the lighthouse. (Use √3 ≈ 1.732)",
+     "a": "Step 1: Draw diagram. Lighthouse height AB = 60 m (vertical). Ship at C on horizontal ground. Angle of depression from A to C = 30°. ∴ Angle of elevation from C to A = 30° (alternate interior angles).\nStep 2: In right triangle ABC, right angle at B. ∠C = 30°. AB = 60 m (opposite), BC = ? (adjacent).\nStep 3: tan 30° = AB / BC → 1/√3 = 60 / BC.\nStep 4: BC = 60√3 = 60 × 1.732 = 103.92 m.\nStep 5: Answer: 103.92 m (approx).\nA wrong answer (e.g., using sin or cos, or calculating 60/√3 ≈ 34.64) reveals confusion between opposite/adjacent or mis-identifying which angle to use in the triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"From a tower 40 m high, the angle of depression of a car is 60°. Find the distance of the car from the tower.\"\nStudent A uses tan 60° = 40/d. Student B uses tan 30° = d/40.\nWho is correct? Justify your answer by analyzing the triangle and the angles.",
+     "a": "Student A is correct. The angle of depression = 60° → angle of elevation at the car = 60°. In the right triangle at the car, opposite = 40 m (tower height), adjacent = d (distance). tan 60° = opposite/adjacent = 40/d. Student B incorrectly used the complementary angle (30°) at the top of the tower and swapped opposite/adjacent. This error shows the student thinks the angle of depression is the angle inside the triangle at the observer's vertex, not the alternate interior angle at the object.",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution to \"Angle of depression from a 30 m building to a point on the ground is 45°. Find the distance.\" is:\ntan 45° = 30/x → 1 = 30/x → x = 30 m.\nThen they write: \"The line of sight distance is also 30 m because tan 45° = 1.\"\nEvaluate this solution. Is the final statement correct? Explain.",
+     "a": "The first part (x = 30 m) is correct for the horizontal distance. The final statement is INCORRECT. The line of sight distance is the hypotenuse. In a 45°-45°-90° triangle, hypotenuse = leg × √2 = 30√2 ≈ 42.43 m. The student confused the ratio tan 45° = 1 (which gives opposite/adjacent = 1) with the hypotenuse length. This reveals a common misconception: equating the hypotenuse with the legs when tan θ = 1, ignoring Pythagoras.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world angle of depression problem (with an Indian context) where the answer is exactly 50√3 metres. Provide the problem statement and the full solution.",
+     "a": "Problem: \"From the top of a 50 m high electric pole, the angle of depression of a point on the ground is 60°. Find the distance of the point from the foot of the pole.\"\nSolution: Height = 50 m, angle of depression = 60° → angle of elevation = 60°. tan 60° = 50/d → √3 = 50/d → d = 50/√3 = (50√3)/3 m. (Wait, that gives 50/√3, not 50√3.)\nBetter: \"From the top of a tower, the angle of depression of a car is 30°. If the car is 50√3 m from the foot of the tower, find the height of the tower.\"\nSolution: tan 30° = h / (50√3) → 1/√3 = h/(50√3) → h = 50 m.\nA good answer shows the student can reverse-engineer a problem, choose appropriate numbers, and verify the trigonometric relationship. A poor answer (e.g., random numbers that don't yield 50√3) shows inability to work backwards from a desired result.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

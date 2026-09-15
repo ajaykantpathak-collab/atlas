@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_010",
+   "title": "c11_math_cbse_13_010",
+   "questions": [
+    {
+     "q": "State the derivative of cos x and write the two standard limits that are essential for deriving all trigonometric derivatives from first principles.",
+     "a": "The derivative of cos x is -sin x. The two essential standard limits are: lim(h→0) sin h/h = 1 and lim(h→0) (1-cos h)/h = 0. A wrong answer (e.g., derivative = sin x, or missing the minus sign) reveals the student has memorised without understanding the first-principle derivation where the minus sign emerges from the identity cos(x+h) = cos x cos h - sin x sin h and the limit (cos h - 1)/h → 0⁻.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we cannot directly substitute h = 0 in the difference quotient [sin(x+h) - sin x]/h when finding the derivative of sin x from first principles, and describe the algebraic step that resolves this indeterminate form.",
+     "a": "Direct substitution gives 0/0, an indeterminate form. The resolution uses the identity sin(x+h) - sin x = 2 cos(x + h/2) sin(h/2) OR the expansion sin(x+h) = sin x cos h + cos x sin h, which splits the quotient into sin x (cos h - 1)/h + cos x (sin h/h). Both forms convert the problem into the standard limits. A wrong answer (e.g., \"we factor out h\") reveals the student doesn't recognise the specific trigonometric identities that transform the expression into usable standard limits.",
+     "self_check": true
+    },
+    {
+     "q": "Find the derivative of f(x) = 3 sin x - 4 cos x + 5 tan x using the algebra of derivatives and standard trigonometric derivatives.",
+     "a": "f'(x) = 3 cos x - 4(-sin x) + 5 sec²x = 3 cos x + 4 sin x + 5 sec²x.\nSteps: (1) Apply sum/difference rule: derivative of sum = sum of derivatives. (2) Apply constant multiple rule: d/dx[3 sin x] = 3 d/dx(sin x) = 3 cos x. (3) d/dx[-4 cos x] = -4(-sin x) = 4 sin x. (4) d/dx[5 tan x] = 5 sec²x. (5) Combine. A wrong answer (e.g., -4 cos x instead of +4 sin x) reveals sign error in derivative of cos x or mishandling of the negative constant.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivative of tan x obtained via quotient rule (tan x = sin x/cos x) with the derivative obtained via first principles. Show they are equivalent and explain which method is more efficient for exam purposes.",
+     "a": "Quotient rule: d/dx(tan x) = d/dx(sin x/cos x) = (cos x·cos x - sin x·(-sin x))/cos²x = (cos²x + sin²x)/cos²x = 1/cos²x = sec²x. First principles requires expanding tan(x+h) = (tan x + tan h)/(1 - tan x tan h), leading to a more complex limit. Both yield sec²x. Quotient rule is more efficient for exams — it's 3 steps vs 8+ steps. A student preferring first principles for tan x reveals they haven't internalised the algebra of derivatives (c11_math_cbse_13_009) as a tool to simplify trigonometric differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The derivative of sec x is sec x tan x because sec x = 1/cos x, so by quotient rule: (0·cos x - 1·(-sin x))/cos²x = sin x/cos²x = sec x tan x.\" Evaluate this solution for correctness and completeness. Identify any missing steps or justifications required for full marks in a board exam.",
+     "a": "The solution is mathematically correct but incomplete for board exam standards. Missing: (1) Explicit statement of quotient rule formula before substitution. (2) Domain clarification: cos x ≠ 0, so x ≠ (2n+1)π/2. (3) Final simplification step showing sin x/cos²x = (1/cos x)(sin x/cos x) = sec x tan x. (4) The derivative of constant 1 is 0 should be stated. A student omitting these loses 1-2 marks in CBSE marking scheme. The error reveals lack of exposure to board exam answer-writing expectations where every step must be explicitly justified.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function f(x) involving at least three different trigonometric functions (from sin, cos, tan, cot, sec, cosec) and one polynomial term such that f'(x) contains exactly four terms. Write the function and its derivative.",
+     "a": "Example: f(x) = 2 sin x + 3 cos x - 4 tan x + 5x². Then f'(x) = 2 cos x - 3 sin x - 4 sec²x + 10x (four terms). A good answer demonstrates understanding that polynomial terms differentiate to polynomial terms (not trig), and each trig term produces one derivative term. A poor answer (e.g., f(x) = sin x cos x + tan x) yields product rule complications or fewer terms, revealing the student doesn't distinguish between sum/difference (term-preserving) and product/quotient (term-combining) operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

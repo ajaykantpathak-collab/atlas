@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_051",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_051",
+   "title": "c6_math_ch04_051",
+   "questions": [
+    {
+     "q": "What is the most important rule to follow when adding or subtracting two decimal numbers like 12.5 and 3.45?",
+     "a": "The decimal points must be aligned vertically in the same column. A wrong answer (like adding 12.5 to 3.45 to get 4.70) reveals that the student is ignoring place value and treating decimal digits like whole numbers, failing to recognize that 5 tenths plus 4 tenths is different from 5 hundredths.",
+     "self_check": true
+    },
+    {
+     "q": "If you multiply 2.5 by 0.2, why is the answer 0.5 and not 5.0?",
+     "a": "The answer is 0.5 because there is one decimal place in 2.5 and one in 0.2, totaling two decimal places in the result; 25 x 2 = 50, and moving the decimal two places left gives 0.5. A wrong answer (like 5.0) shows the student does not understand how decimal multiplication affects the magnitude of the product.",
+     "self_check": true
+    },
+    {
+     "q": "A ribbon is 12.4 meters long. If you cut it into 4 equal pieces, how long is each piece? Show your steps.",
+     "a": "12.4 ÷ 4 = 3.1 meters. Step 1: Divide 12 by 4 to get 3. Step 2: Bring down the 4 after the decimal point. Step 3: Divide 4 by 4 to get 1. Step 4: Place the decimal point after 3. A wrong answer (like 31 or 0.31) shows the student has difficulty maintaining the decimal position during division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 5.50 rupees and 5.5 rupees. Are they the same value? Why or why not?",
+     "a": "Yes, they are equal because adding a trailing zero after the decimal point does not change the value of the number. A wrong answer (saying 5.50 is larger) shows a misunderstanding of decimal place value where the student thinks more digits always mean a larger number.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells 10 kg of sugar at 42.50 rupees/kg. If the cost price was 400 rupees total, is the profit calculation (10 x 42.50) - 400 correct?",
+     "a": "Yes, the calculation is correct because (10 x 42.50) gives the total selling price (425 rupees), and subtracting the cost price (400) gives the profit (25 rupees). An incorrect judgment shows the student cannot sequence operations correctly in a multi-step word problem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a simple word problem that requires the division of a decimal by a whole number.",
+     "a": "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not recognize the \"unit rate\" structure of division problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

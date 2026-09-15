@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_008",
+   "title": "c11_bio_cbse_13_008",
+   "questions": [
+    {
+     "q": "Define seed dormancy and state one key difference between dormancy and quiescence.",
+     "a": "Seed dormancy is an internal, genetically controlled block that prevents germination even when water, oxygen, and temperature are favorable. Quiescence is a reversible suspension of growth caused solely by the absence of an external requirement (e.g., lack of water); once the missing factor is supplied, germination proceeds immediately. A wrong answer that equates dormancy with mere dryness reveals the misconception that dormancy is only an environmental response rather than an intrinsic physiological state.",
+     "self_check": true
+    },
+    {
+     "q": "A batch of apple seeds fails to germinate after being sown in moist soil at 25°C. The seed coats are permeable, and embryos are fully developed. Explain why these seeds are likely dormant and name the specific type of dormancy.",
+     "a": "The seeds exhibit physiological (endogenous) dormancy because the block resides within the embryo itself — typically high ABA levels and low GA sensitivity — despite favorable external conditions and a permeable seed coat. A wrong answer attributing failure to seed coat impermeability shows confusion between exogenous (seed coat) and endogenous (embryo) dormancy types.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer wants to break dormancy in newly harvested wheat seeds that show strong physiological dormancy. He has access to gibberellic acid (GA₃), cold storage (4°C), and mechanical scarification. Which treatment(s) will be effective and why?",
+     "a": "Cold stratification (4°C for several weeks) and GA₃ application will break physiological dormancy; scarification will not. Cold stratification mimics winter, reducing ABA synthesis and increasing GA sensitivity, while exogenous GA₃ directly substitutes for the endogenous GA needed to overcome ABA inhibition. Scarification only helps exogenous (seed coat) dormancy. A student choosing scarification reveals inability to match dormancy-breaking methods to dormancy type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of ABA and ethylene in seed dormancy and germination. Why is ethylene considered a dormancy-breaking agent in some species (e.g., peanut) but not a universal promoter?",
+     "a": "ABA establishes and maintains dormancy by inhibiting metabolic reactivation and promoting desiccation tolerance. Ethylene counteracts ABA in specific seeds (peanut, lettuce) by stimulating germination-related enzymes and reducing ABA sensitivity, but its effect is species-dependent and often requires interaction with light or temperature cues. A wrong answer stating ethylene universally promotes germination ignores its context-dependent action and its primary role in fruit ripening and stress responses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Applying high concentrations of GA₃ to dormant seeds always results in rapid and uniform germination.\" Provide two reasons why this may fail.",
+     "a": "The statement is false. First, some seeds have combinational dormancy (impermeable coat + physiological block); GA₃ cannot penetrate an impermeable coat. Second, excessive GA₃ can cause abnormal elongation (spindly seedlings) or deplete reserves prematurely, leading to seedling death. A student agreeing with the statement overlooks the necessity of seed coat permeability and the dosage-dependent negative effects of hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to determine whether dormancy in a newly collected wild legume species is due to seed coat impermeability or physiological factors. List materials, steps, and the expected observation for each case.",
+     "a": "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked), intact + GA₃, scarified + GA₃. (2) Place on moist filter paper at 25°C. (3) Record germination daily for 14 days. Expected: If only scarified groups germinate → seed coat dormancy. If only GA₃ groups germinate → physiological dormancy. If only scarified + GA₃ germinate → combinational dormancy. A poor design that omits the GA₃-only group cannot distinguish physiological from combinational dormancy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

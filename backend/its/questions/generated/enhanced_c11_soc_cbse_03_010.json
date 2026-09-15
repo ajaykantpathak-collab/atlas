@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_010",
+   "title": "c11_soc_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define 'institutional interrelationship' in sociology and give one example from the NCERT text showing how a change in the economic sphere affected the family sphere.",
+     "a": "Institutional interrelationship means social institutions are mutually constitutive — change in one triggers adjustments in others. NCERT example: Post-1990 German unification withdrew family welfare schemes → economic insecurity rose → marriage rates declined sharply. A wrong answer treating institutions as isolated (e.g., \"economy affects family but family doesn't affect economy\") reveals a unidirectional, deterministic misunderstanding rather than reciprocal linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the functionalist view sees the nuclear family as 'best equipped' for industrial society, and why the NCERT text critiques this using Indian evidence.",
+     "a": "Functionalists (Parsons) argue nuclear family allows role specialisation: husband = instrumental/breadwinner, wife = affective/homemaker — fitting factory discipline and geographic mobility. NCERT critiques: (1) Indian nuclear families existed long before industrialisation among deprived castes; (2) A.M. Shah shows joint families *increased* post-Independence due to rising life expectancy; (3) Garment industry employs women as primary workers, contradicting 'male breadwinner' model. A wrong answer missing the empirical counter-evidence shows rote memorisation of Parsons without sociological evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal community in Odisha practices shifting cultivation. The state declares their forest a protected reserve, banning cultivation. Trace the effects through kinship, marriage, and religion in 4 steps.",
+     "a": "Step 1: Economic base destroyed → men migrate for wage labour → women become de facto household heads (female-headed households). Step 2: Kinship obligations shift — remittances replace collective labour; bride-price negotiations change as cash replaces land. Step 3: Marriage rules adapt — village exogamy weakens as migrants marry in urban settlements; age at marriage rises. Step 4: Forest deities lose ritual centrality; new workplace gods (e.g., factory safety rituals) emerge. A wrong answer listing only economic effects shows failure to see institutional feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Weber's Protestant Ethic thesis and the Nasik pilgrimage example (NCERT) differently conceptualise the religion-economy link. Which better explains contemporary Indian temple economies?",
+     "a": "Weber: Religion (Calvinist predestination anxiety) → psychological driver → capitalist investment/rational profit-seeking (ideational causation). Nasik: Pilgrimage demand → creates craft occupations (coppersmiths) → market fluctuations push artisans into wage labour → religious specialists' children enter secular education (material causation). For contemporary Indian temple economies (Tirupati, Vaishno Devi), Nasik's model fits better: religious rituals generate massive service-sector employment, real estate, and political patronage networks — economic interests shape temple administration, not just theology. A wrong answer treating them as identical misses the directionality of causation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Education in modern India reproduces caste and gender inequality rather than promoting meritocracy.\" Use functionalist and conflict perspectives with NCERT evidence.",
+     "a": "Functionalist (Durkheim): Education transmits universalistic values, selects talent for roles — meritocratic ideal. Conflict (Pathak, Pratichi report): Privileged schools teach confidence; SC/ST girls drop out during cultivation season for dung collection/domestic work; schooling *intensifies* elite-mass divide. Evaluation: Conflict perspective better explains Indian reality — 10-year-old Dalit girl picking cow dung cannot access the 'common base' Durkheim assumes. A wrong answer giving only one perspective or ignoring the Pratichi evidence shows inability to weigh theoretical frameworks against empirical data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research question to study how the 2019 Citizenship Amendment Act (CAA) affected marriage strategies among Muslim families in Assam. Specify: (a) which three institutions you would examine, (b) one hypothesis linking them, (c) one method.",
+     "a": "(a) Polity (citizenship law), Family/Marriage (spouse selection), Kinship (cross-border networks). (b) Hypothesis: CAA-induced citizenship anxiety accelerates endogamous marriage within documented lineages and discourages cross-border (Bangladesh) affinal ties to avoid statelessness risk for offspring. (c) Method: Semi-structured interviews with 20 Muslim women in Barak Valley + analysis of Nikahnama records pre/post-2019. Good answer shows operationalising institutional interrelationship into testable design. Poor answer picks unrelated institutions or proposes untestable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_001",
+   "title": "c12_chem_cbse_03_001",
+   "questions": [
+    {
+     "q": "For the reaction 2N₂O₅(g) → 4NO₂(g) + O₂(g), the concentration of N₂O₅ decreases from 0.100 mol L⁻¹ to 0.080 mol L⁻¹ in 20 seconds. What is the average rate of reaction in mol L⁻¹ s⁻¹?",
+     "a": "Average rate = –(1/2) × (Δ[N₂O₅]/Δt) = –(1/2) × ((0.080 – 0.100)/20) = –(1/2) × (–0.020/20) = 5.0 × 10⁻⁴ mol L⁻¹ s⁻¹. A wrong answer like 1.0 × 10⁻³ mol L⁻¹ s⁻¹ reveals the student forgot the stoichiometric factor 1/2 and simply used –Δ[N₂O₅]/Δt. Another error: omitting the minus sign and getting a negative rate, which is not allowed by convention.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction H₂(g) + I₂(g) → 2HI(g), the rate of disappearance of H₂ is 3.0 × 10⁻⁴ mol L⁻¹ s⁻¹. What is the rate of appearance of HI? Explain why the rate of reaction is defined with a 1/coefficient factor.",
+     "a": "Rate of reaction = –Δ[H₂]/Δt = 3.0 × 10⁻⁴ mol L⁻¹ s⁻¹. Rate of appearance of HI = 2 × rate of reaction = 6.0 × 10⁻⁴ mol L⁻¹ s⁻¹. The 1/coefficient factor ensures the rate of reaction has a unique value regardless of which species we track. Without it, –Δ[H₂]/Δt, –Δ[I₂]/Δt, and (1/2)Δ[HI]/Δt would give different numbers for the same reaction, causing confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the concentration of a reactant R at t = 0 s and t = 100 s for the reaction R → P. [R]₀ = 0.50 M, [R]₁₀₀ = 0.30 M. They calculate average rate as (0.30 – 0.50)/100 = –0.002 M s⁻¹ and say the rate is –0.002 M s⁻¹. Identify the error and give the correct average rate.",
+     "a": "The student forgot the minus sign in the definition for reactants. Correct average rate = –Δ[R]/Δt = –(0.30 – 0.50)/100 = 0.002 M s⁻¹. Rate is always positive. The negative sign in the formula cancels the negative Δ[R] (since concentration decreases). Writing a negative rate is a common board-exam mistake that loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "For a gaseous reaction 2SO₂(g) + O₂(g) → 2SO₃(g), the rate is expressed in terms of partial pressures. If the partial pressure of SO₂ drops by 0.04 atm in 10 s, what is the rate of reaction in atm s⁻¹? How would the numerical value change if rate were expressed in mol L⁻¹ s⁻¹ at constant temperature?",
+     "a": "Rate = –(1/2) Δp(SO₂)/Δt = –(1/2) × (–0.04/10) = 0.002 atm s⁻¹. At constant T, p = CRT, so Δp ∝ ΔC. The numerical value in mol L⁻¹ s⁻¹ would be (0.002 atm s⁻¹)/(RT). If the student ignores the 1/2 factor, they get 0.004 atm s⁻¹. If they forget the minus sign, they get a negative rate. Both are wrong.",
+     "self_check": true
+    },
+    {
+     "q": "A concentration vs. time curve for a reactant is concave upward (decreasing slope magnitude). A student draws a tangent at t = 50 s and calculates its slope as –2.5 × 10⁻⁴ mol L⁻¹ s⁻¹. They report the instantaneous rate as –2.5 × 10⁻⁴ mol L⁻¹ s⁻¹. Is this correct? If not, what is the correct value and why?",
+     "a": "Incorrect. Instantaneous rate = –d[R]/dt = –(slope of tangent). Slope is negative (curve decreasing), so rate = –(–2.5 × 10⁻⁴) = +2.5 × 10⁻⁴ mol L⁻¹ s⁻¹. The student reported the slope itself, not the rate. This confusion between slope and rate is a frequent JEE trap: they ask for \"rate\" but the graph gives slope; you must apply the sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to compare the average rate of reaction between magnesium ribbon and dilute HCl at two different temperatures (room temp and 40°C). State what you would measure, how you would calculate rate, and what trend you expect.",
+     "a": "Measure volume of H₂ gas collected every 10 s using a gas syringe. Convert volume to moles (using molar volume at that T, or use pressure sensor). Plot moles of H₂ vs time. Average rate over an interval = Δn(H₂)/Δt. At 40°C, the curve rises steeper → higher average rate. Expected trend: rate increases with temperature. A poor answer would measure time for ribbon to disappear (qualitative) or forget to convert volume to moles, or not mention the stoichiometric factor (1 mole H₂ per mole Mg).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

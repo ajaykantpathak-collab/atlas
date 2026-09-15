@@ -1,0 +1,282 @@
+{
+ "catalog_class10_science_ch101.json": [],
+ "catalog_class10_science_ch102.json": [],
+ "catalog_class10_science_ch103.json": [],
+ "catalog_class10_science_ch104.json": [],
+ "catalog_class10_science_ch105.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "jesc.5.5.1: weak grounding (1/5 probes hit)"
+  ]
+ ],
+ "catalog_class10_science_ch106.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "jesc.6.2.3: weak grounding (1/7 probes hit)"
+  ]
+ ],
+ "catalog_class10_science_ch107.json": [],
+ "catalog_class10_science_ch108.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "jesc.8.2.4: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class10_science_ch109.json": [],
+ "catalog_class10_science_ch110.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "jesc.10.6: weak grounding (1/6 probes hit)"
+  ]
+ ],
+ "catalog_class10_science_ch111.json": [],
+ "catalog_class10_science_ch112.json": [],
+ "catalog_class10_science_ch113.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "jesc.113.4: weak grounding (1/5 probes hit)"
+  ]
+ ],
+ "catalog_class11_biology_ch101.json": [],
+ "catalog_class11_biology_ch103.json": [],
+ "catalog_class11_biology_ch104.json": [],
+ "catalog_class11_biology_ch105.json": [],
+ "catalog_class11_biology_ch106.json": [],
+ "catalog_class11_biology_ch108.json": [],
+ "catalog_class11_biology_ch110.json": [],
+ "catalog_class11_biology_ch111.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "kebo.111.1: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class11_biology_ch112.json": [],
+ "catalog_class11_biology_ch114.json": [],
+ "catalog_class11_biology_ch115.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "kebo.15.8: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class11_biology_ch116.json": [],
+ "catalog_class11_biology_ch117.json": [],
+ "catalog_class11_biology_ch118.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "kebo.18.3.1: weak grounding (1/6 probes hit)"
+  ]
+ ],
+ "catalog_class11_biology_ch119.json": [],
+ "catalog_class11_chemistry_ch103.json": [],
+ "catalog_class11_chemistry_ch104.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "kech.4.6.1: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class11_chemistry_ch201.json": [],
+ "catalog_class11_chemistry_ch202.json": [],
+ "catalog_class11_chemistry_ch203.json": [],
+ "catalog_class11_physics_ch101.json": [],
+ "catalog_class11_physics_ch102.json": [],
+ "catalog_class11_physics_ch103.json": [],
+ "catalog_class11_physics_ch104.json": [],
+ "catalog_class11_physics_ch105.json": [],
+ "catalog_class11_physics_ch202.json": [],
+ "catalog_class11_physics_ch205.json": [],
+ "catalog_class11_physics_ch207.json": [],
+ "catalog_class12_biology_ch101.json": [],
+ "catalog_class12_biology_ch103.json": [],
+ "catalog_class12_biology_ch104.json": [],
+ "catalog_class12_biology_ch105.json": [],
+ "catalog_class12_biology_ch106.json": [],
+ "catalog_class12_biology_ch108.json": [],
+ "catalog_class12_biology_ch109.json": [],
+ "catalog_class12_biology_ch110.json": [],
+ "catalog_class12_chemistry_ch104.json": [],
+ "catalog_class12_chemistry_ch105.json": [],
+ "catalog_class12_chemistry_ch201.json": [],
+ "catalog_class12_chemistry_ch202.json": [],
+ "catalog_class12_chemistry_ch203.json": [],
+ "catalog_class12_chemistry_ch204.json": [],
+ "catalog_class12_chemistry_ch205.json": [],
+ "catalog_class12_physics_ch102.json": [],
+ "catalog_class12_physics_ch104.json": [],
+ "catalog_class12_physics_ch106.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "leph.106.10: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class12_physics_ch107.json": [],
+ "catalog_class12_physics_ch203.json": [],
+ "catalog_class6_science_ch101.json": [],
+ "catalog_class6_science_ch102.json": [],
+ "catalog_class6_science_ch104.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.4.1.1: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class6_science_ch105.json": [],
+ "catalog_class6_science_ch107.json": [],
+ "catalog_class6_science_ch108.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.8.1.7: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class6_science_ch109.json": [],
+ "catalog_class6_science_ch110.json": [],
+ "catalog_class6_science_ch111.json": [],
+ "catalog_class6_science_ch112.json": [],
+ "catalog_class6_science_ch113.json": [],
+ "catalog_class6_science_ch114.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.14.3.1: weak grounding (1/5 probes hit)"
+  ]
+ ],
+ "catalog_class6_science_ch115.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.15.2.3: weak grounding (1/4 probes hit)"
+  ],
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.15.2.5: weak grounding (1/5 probes hit)"
+  ],
+  [
+   "GROUNDING",
+   "WARN",
+   "fesc.15.3.2: weak grounding (1/5 probes hit)"
+  ]
+ ],
+ "catalog_class6_science_ch116.json": [],
+ "catalog_class7_science_ch101.json": [],
+ "catalog_class7_science_ch102.json": [],
+ "catalog_class7_science_ch103.json": [],
+ "catalog_class7_science_ch104.json": [],
+ "catalog_class7_science_ch105.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "gesc.5.7: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class7_science_ch106.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "gesc.6.5.2: weak grounding (1/6 probes hit)"
+  ]
+ ],
+ "catalog_class7_science_ch107.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "gesc.107.5: weak grounding (1/5 probes hit)"
+  ]
+ ],
+ "catalog_class7_science_ch108.json": [],
+ "catalog_class7_science_ch109.json": [],
+ "catalog_class7_science_ch110.json": [],
+ "catalog_class7_science_ch111.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "gesc.111.10: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class7_science_ch112.json": [],
+ "catalog_class7_science_ch113.json": [],
+ "catalog_class8_science_ch102.json": [],
+ "catalog_class8_science_ch104.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.104.7: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class8_science_ch106.json": [],
+ "catalog_class8_science_ch108.json": [],
+ "catalog_class8_science_ch109.json": [],
+ "catalog_class8_science_ch110.json": [],
+ "catalog_class8_science_ch111.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.11.4: weak grounding (1/6 probes hit)"
+  ],
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.11.9: weak grounding (1/6 probes hit)"
+  ]
+ ],
+ "catalog_class8_science_ch112.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.112.4: weak grounding (1/7 probes hit)"
+  ],
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.112.5: weak grounding (1/7 probes hit)"
+  ]
+ ],
+ "catalog_class8_science_ch113.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "hesc.13.11: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class9_science_ch101.json": [],
+ "catalog_class9_science_ch102.json": [],
+ "catalog_class9_science_ch103.json": [],
+ "catalog_class9_science_ch104.json": [],
+ "catalog_class9_science_ch105.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "iesc.5.3.1: weak grounding (1/4 probes hit)"
+  ]
+ ],
+ "catalog_class9_science_ch106.json": [],
+ "catalog_class9_science_ch107.json": [],
+ "catalog_class9_science_ch108.json": [],
+ "catalog_class9_science_ch109.json": [],
+ "catalog_class9_science_ch110.json": [],
+ "catalog_class9_science_ch111.json": [],
+ "catalog_class9_science_ch112.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "iesc.112.9: weak grounding (1/3 probes hit)"
+  ]
+ ],
+ "catalog_class9_science_ch113.json": [
+  [
+   "GROUNDING",
+   "WARN",
+   "iesc.113.10: weak grounding (1/6 probes hit)"
+  ]
+ ]
+}

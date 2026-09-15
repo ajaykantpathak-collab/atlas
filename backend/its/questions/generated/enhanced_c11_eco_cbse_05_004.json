@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_004",
+   "title": "c11_eco_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define Regional Rural Banks (RRBs) and state any two distinguishing features from Commercial Banks in terms of ownership structure and area of operation.",
+     "a": "RRBs are local-level banking institutions established under the RRB Act, 1976, jointly owned by the Central Government (50%), concerned State Government (15%), and Sponsor Commercial Bank (35%). Two distinguishing features: (1) RRBs operate only in notified rural/semi-urban districts (typically 1-3 districts), whereas Commercial Banks operate nationwide; (2) RRBs primarily target small/marginal farmers, agricultural labourers, and rural artisans, while Commercial Banks serve all segments. A wrong answer (e.g., \"RRBs are fully owned by RBI\" or \"RRBs operate in urban areas\") reveals confusion between RRBs and other rural financial institutions, indicating the student hasn't grasped the specific legislative design of RRBs as hybrid institutions combining local reach with commercial banking professionalism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"multi-agency approach\" was adopted for rural credit in India after 1969, and why Commercial Banks alone were considered insufficient despite their large resource base.",
+     "a": "The multi-agency approach was adopted because Commercial Banks, despite nationalisation (1969) and priority sector lending norms (40% of net bank credit), remained urban-biased, had high transaction costs for small rural loans, lacked rural branch networks, and followed rigid collateral norms unsuitable for asset-poor farmers. RRBs and cooperatives were created to provide low-cost, doorstep credit with simplified procedures. A wrong answer (e.g., \"Commercial Banks refused to lend to rural areas\" or \"RRBs were created to replace Commercial Banks\") shows misunderstanding of complementarity — the approach recognised that no single institutional form can address the heterogeneity of rural credit demand (production vs consumption, short vs long term, secured vs unsecured).",
+     "self_check": true
+    },
+    {
+     "q": "A Commercial Bank has total deposits of ₹500 crore and advances of ₹400 crore. Its Rural Branch has deposits of ₹50 crore and advances of ₹30 crore. Calculate the Credit-Deposit (CD) Ratio for the bank overall and for the rural branch. Interpret what the rural branch CD ratio indicates about rural credit deployment.",
+     "a": "Overall CD Ratio = (400/500) × 100 = 80%. Rural Branch CD Ratio = (30/50) × 100 = 60%. The rural branch CD ratio of 60% (lower than overall 80%) indicates that rural deposits are not fully deployed as rural credit — funds mobilised from rural areas may be deployed elsewhere (urban/industrial lending), reflecting the \"resource transfer\" problem where rural savings finance urban investment. A wrong calculation or interpretation (e.g., \"higher CD ratio is always better\" or ignoring the inter-regional flow) reveals failure to understand CD ratio as a measure of local credit deployment vs resource extraction, a key critique of rural banking post-reforms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recovery performance of Commercial Banks vs RRBs in agriculture loans. Given that RRBs historically show higher recovery rates (85-90%) than Commercial Banks (70-75%) in rural areas, analyse THREE institutional reasons for this difference despite RRBs having weaker capital base.",
+     "a": "Three reasons: (1) RRBs have local staff recruited from the area, enabling better borrower monitoring and social pressure for repayment; (2) RRBs operate in compact geographies (1-3 districts), allowing close follow-up and relationship banking, unlike Commercial Banks with transferable officers; (3) RRBs' narrow mandate (only rural lending) aligns incentives — their survival depends on rural portfolio quality, whereas Commercial Banks can offset rural NPAs with urban profits. A wrong answer (e.g., \"RRBs lend only to good borrowers\" or \"Commercial Banks are careless\") misses the structural-institutional explanation — it's not about borrower quality but institutional design (local accountability, geographic focus, mandate concentration) that drives recovery incentives.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"High agriculture loan default rates are primarily due to farmers' deliberate refusal to pay back loans.\" Use evidence from rural banking literature and the distinction between \"willful default\" and \"inability to pay.\"",
+     "a": "The statement is largely incorrect. Evidence shows defaults are predominantly due to \"inability to pay\" from: (1) crop failure due to monsoon dependence (60% area rainfed); (2) price crashes below MSP; (3) rising input costs (fertiliser, diesel) outpacing output prices; (4) inadequate insurance coverage (PMFBY covers only ~30% farmers). Willful default is a minor fraction. The narrative of \"deliberate refusal\" ignores structural risks — agriculture is the only sector where production risk (weather), price risk (market), and institutional risk (delayed payments) converge without adequate risk mitigation. A wrong evaluation (agreeing with the statement) reflects moral hazard bias — blaming borrowers instead of analysing systemic failures in risk management, insurance, and price support, which is a policy-relevant misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified financial inclusion strategy for a backward district with 80% unbanked households, using ONLY Commercial Bank branches, RRBs, and Business Correspondents (BCs). Specify: (a) which institution does what, (b) how Jan-Dhan Yojana integrates, (c) one measurable target for Year 1.",
+     "a": "(a) Commercial Banks: open brick-and-mortar blocks/town branches, handle large loans, technology backbone; RRBs: open last-mile branches in every block, focus on Kisan Credit Cards (KCC) and small loans; BCs: provide doorstep banking (deposits, withdrawals, KCC renewal) in unbanked villages. (b) Jan-Dhan provides zero-balance accounts, RuPay card (₹1-2 lakh accident insurance), overdraft (₹10,000) — BCs open accounts, seed Aadhaar, enable DBT for MNREGA/PM-KISAN. (c) Target: \"100% households with at least one Jan-Dhan account; 60% eligible farmers with active KCC; BC active in every village with >500 population.\" A poor answer (e.g., \"open more branches everywhere\" without role differentiation or measurable targets) shows inability to translate institutional architecture into operational strategy — a key competency for policy analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_5",
+   "title": "c9_math_ch8_5",
+   "questions": [
+    {
+     "q": "What is the formula for the nth term of an arithmetic progression with first term \\( a \\) and common difference \\( d \\)?",
+     "a": "The formula is \\( a_n = a + (n-1)d \\). A wrong answer like \\( a_n = a + nd \\) or \\( a_n = a + (n+1)d \\) reveals the student has not internalised the \"one less than term number\" pattern and is likely memorising without understanding the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "In the AP: 3, 7, 11, 15, ..., a student writes the 5th term as \\( 3 + 5 \\times 4 = 23 \\). Is this correct? Explain why the multiplier should be 4, not 5.",
+     "a": "The student is incorrect. The 5th term is \\( a + 4d = 3 + 4 \\times 4 = 19 \\). The multiplier is \\( n-1 = 4 \\) because the first term already includes zero additions of \\( d \\). Using \\( n \\) instead of \\( n-1 \\) is the classic \"off-by-one\" error, showing the student does not grasp that term 1 corresponds to 0 increments of \\( d \\).",
+     "self_check": true
+    },
+    {
+     "q": "The 8th term of an AP is 37 and the common difference is 3. Find the first term.",
+     "a": "Given: \\( a_8 = 37 \\), \\( d = 3 \\), \\( n = 8 \\). Formula: \\( a_n = a + (n-1)d \\). Substitute: \\( 37 = a + (8-1) \\times 3 \\Rightarrow 37 = a + 21 \\Rightarrow a = 16 \\). A wrong answer like \\( a = 13 \\) (using \\( 37 = a + 8 \\times 3 \\)) reveals the same off-by-one error in reverse; the student must subtract \\( (n-1)d \\), not \\( nd \\).",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same common difference. The first term of AP1 is 5 and the first term of AP2 is 12. What is the difference between their 50th terms? Explain without calculating the 50th terms explicitly.",
+     "a": "The difference between their 50th terms is \\( (12 + 49d) - (5 + 49d) = 7 \\). The \\( 49d \\) cancels out. A student who computes both 50th terms separately (e.g. assuming a value for \\( d \\)) misses the structural insight: when \\( d \\) is same, the difference between any two corresponding terms is constant and equals the difference of first terms. This tests whether they see the formula as a linear function \\( a_n = dn + (a-d) \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that in the AP: 10, 7, 4, 1, ..., the term -20 is the 11th term because \\( 10 + 11 \\times (-3) = -23 \\) and -20 is close. Evaluate this reasoning and find the correct term number for -20.",
+     "a": "The reasoning is flawed: the formula uses \\( n-1 \\), not \\( n \\). Correct: \\( -20 = 10 + (n-1)(-3) \\Rightarrow -30 = (n-1)(-3) \\Rightarrow n-1 = 10 \\Rightarrow n = 11 \\). Wait, the student's final answer (11) is accidentally correct but for wrong working (\\( 10 + 11 \\times (-3) = -23 \\neq -20 \\)). The student got lucky with arithmetic error compensating for formula error. A proper evaluation must point out both errors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where you need to find the nth term of an AP, but the unknown is the term number \\( n \\), not the term value. Write the problem and solve it.",
+     "a": "Example: \"A child puts ₹5 in a piggy bank on day 1 and increases the amount by ₹2 each day. On which day will she put ₹25?\" Solution: \\( a=5, d=2, a_n=25 \\). \\( 25 = 5 + (n-1)2 \\Rightarrow 20 = 2(n-1) \\Rightarrow n-1=10 \\Rightarrow n=11 \\). On the 11th day. A poor answer gives a problem where \\( n \\) is given and term value is asked, or fails to set up the equation correctly, showing they only practise forward substitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_007",
+   "title": "c11_ip_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the exact output of the following code snippet, and why does it behave that way?\n```python\nimport math\nprint(math.pi)\nprint(pi)\n```",
+     "a": "The first `print(math.pi)` outputs `3.141592653589793` because `math.pi` is accessed through the module namespace. The second `print(pi)` raises a `NameError: name 'pi' is not defined` because `import math` only brings the module name `math` into the current namespace, not its individual attributes. A wrong answer (e.g., thinking both print) reveals the student believes `import math` dumps all names into the global namespace, confusing it with `from math import *`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between `import random` and `from random import randint` in terms of namespace pollution and code readability. Give a concrete scenario where one is preferable over the other.",
+     "a": "`import random` keeps the namespace clean — you must write `random.randint(1,6)` — which makes it obvious the function comes from the `random` module, aiding readability in large files. `from random import randint` puts `randint` directly in the global namespace so you write `randint(1,6)`, but if you also define your own `randint` function, a name clash occurs. Prefer `import random` in large projects; `from random import randint` is fine for short scripts or interactive use. A wrong answer that claims they are \"the same\" or \"both import the whole module\" shows the student misses the namespace distinction.",
+     "self_check": true
+    },
+    {
+     "q": "You are writing a program that uses `sqrt` from `math` and a user-defined function also named `sqrt` in the same file. Write the import statement(s) and function calls that allow both `sqrt` functions to be used unambiguously in the same scope.",
+     "a": "```python\nimport math\n\ndef sqrt(x):          # user-defined\n    return x ** 0.5\n\nprint(math.sqrt(16))  # calls math.sqrt → 4.0\nprint(sqrt(16))       # calls user-defined sqrt → 4.0\n```\nUsing `import math` (not `from math import sqrt`) keeps `math.sqrt` distinct from the local `sqrt`. A wrong answer using `from math import sqrt` would overwrite the user-defined `sqrt` or cause a `SyntaxError` if defined after, revealing the student doesn't grasp that `from ... import` binds the name directly in the current namespace.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two import styles for a module `statistics` that contains `mean`, `median`, and `mode`. Which style is safer for a 500-line data-analysis script, and why?\nStyle A: `from statistics import *`\nStyle B: `import statistics as st`",
+     "a": "Style B (`import statistics as st`) is safer. Style A dumps all public names from `statistics` into the global namespace, risking silent overwrites if the script already has variables/functions named `mean`, `median`, or `mode` — a common bug in data-analysis scripts where column names often match statistical functions. Style B keeps everything under `st.` (e.g., `st.mean(data)`), making origins explicit and preventing clashes. A student choosing Style A for \"convenience\" underestimates namespace pollution in real projects.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"`from math import *` is the best import style for beginners because it lets you use `sin`, `cos`, `sqrt` directly without any prefix.\" Defend your position with two concrete risks.",
+     "a": "The statement is dangerous for beginners. Risk 1: **Name clashes** — if a beginner later writes `def sqrt(x): ...` or uses a variable named `pi`, they silently overwrite the imported names, causing subtle bugs. Risk 2: **Readability loss** — in a 100-line script, seeing `sqrt(25)` doesn't reveal whether it's `math.sqrt`, `cmath.sqrt`, or a custom function, making debugging harder. Explicit `import math` or `from math import sqrt` forces awareness of where functions come from. A student agreeing with the statement shows they prioritize keystrokes over maintainability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini Python project structure (folder + files) for a \"School Utility Kit\" that demonstrates modular design. Show the directory tree, the content of one module file, and the main script that imports and uses it. Explain how this structure helps collaboration.",
+     "a": "```\nschool_kit/\n├── main.py\n├── fees.py\n├── attendance.py\n└── reports.py\n```\n`fees.py`:\n```python\ndef calculate_fee(base, discount=0):\n    return base * (1 - discount/100)\n```\n`main.py`:\n```python\nimport fees\nprint(fees.calculate_fee(5000, 10))  # 4500.0\n```\nThis structure lets Team A work on `fees.py`, Team B on `attendance.py` simultaneously without merge conflicts; each module can be tested independently. A poor answer that puts everything in `main.py` or uses `from fees import *` shows the student hasn't internalized modular design principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_003",
+   "title": "c11_geo_cbse_18_003",
+   "questions": [
+    {
+     "q": "Define \"disguised unemployment\" in the context of Indian agriculture and state its quantitative implication for labour productivity measurement.",
+     "a": "Disguised unemployment occurs when more workers are engaged in farming than technically required — their marginal productivity is zero or near-zero; removing them would not reduce total output. Quantitatively, it inflates the agricultural workforce denominator, depressing measured labour productivity (GVA per worker) below actual potential. A wrong answer (e.g., \"unemployment hidden by seasonal work\") reveals confusion with seasonal unemployment and inability to distinguish marginal productivity concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why agriculture's share in GVA has declined from 35% (1990-91) to 18.3% (2022-23) while its employment share fell only from 61% to 43% over the same period.",
+     "a": "GVA share declined faster because industry and services grew at 6-8% annually while agriculture grew at 2.5-3%; employment shift lagged due to slow non-farm job creation, low skill transferability, and rural-urban migration barriers. The gap (43% employment vs 18% GVA) means agricultural labour productivity is ~42% of the national average. A wrong answer citing \"population growth\" or \"land fragmentation\" alone misses the differential sectoral growth rates and labour absorption capacity of modern sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the agricultural labour productivity ratio (agriculture GVA per worker / non-agriculture GVA per worker) for 2022-23 and interpret its meaning.\n- Agriculture GVA share: 18.3%, Employment share: 43%\n- Non-agriculture GVA share: 81.7%, Employment share: 57%",
+     "a": "Step 1: Assume total GVA = 100 units, total workers = 100 for ratio calculation.\nStep 2: Agri GVA = 18.3, Agri workers = 43 → Agri productivity = 18.3/43 = 0.4256\nStep 3: Non-agri GVA = 81.7, Non-agri workers = 57 → Non-agri productivity = 81.7/57 = 1.4333\nStep 4: Ratio = 0.4256 / 1.4333 = 0.297 ≈ 0.30\nInterpretation: An agricultural worker produces only 30% of the output of a non-agricultural worker — confirming severe productivity gap. A wrong calculation (e.g., inverting shares) reveals inability to handle sectoral productivity comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Punjab and Bihar on three agricultural indicators (yield per hectare, irrigation coverage, average landholding size) and analyse how these explain their divergent per capita agricultural incomes.",
+     "a": "Punjab: Rice-wheat yield ~6.5 t/ha, 99% irrigation, avg holding 3.6 ha → high surplus, mechanisation, high income.\nBihar: Rice-wheat yield ~2.8 t/ha, 61% irrigation, avg holding 0.39 ha → subsistence, fragmentation, low income.\nThe divergence stems from Green Revolution legacy (Punjab) vs. eastern India's neglect; small holdings in Bihar prevent scale economies. A wrong answer listing only \"soil fertility\" ignores institutional factors (procurement, credit, extension) that amplify natural advantages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"MSP (Minimum Support Price) hikes alone can double farmers' income by 2025.\" Use concepts of cost of cultivation (C2), terms of trade, and non-price factors.",
+     "a": "MSP covers only 23 crops, benefits mainly wheat/rice in procurement states (Punjab, Haryana, MP), and ignores 86% smallholders who sell in open markets below MSP. Doubling income requires: (1) reducing C2 via input subsidies, (2) diversification to high-value crops, (3) market reforms (e-NAM, FPOs), (4) allied activities (dairy, fisheries). MSP hikes without procurement infrastructure worsen fiscal burden and distort cropping patterns. A wrong answer treating MSP as a universal income tool reveals ignorance of procurement geography and cost structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard for a District Collector to monitor agricultural distress in real time. Justify each indicator's selection and data source.",
+     "a": "Indicator 1: **Real-time mandi arrival vs. MSP procurement gap** (source: AGMARKNET + FCI daily reports) — captures price distress.\nIndicator 2: **Kisan Credit Card (KCC) overdue ratio** (source: SLBC bank returns) — captures credit stress.\nIndicator 3: **MGNREGA person-days demand surge** (source: MIS portal) — captures rural wage employment distress.\nTogether they cover price, credit, and employment dimensions. A poor answer listing only \"crop yield\" or \"rainfall\" misses the human distress aspect and real-time actionability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

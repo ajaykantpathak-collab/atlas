@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 108,
+  "chapter_title": "Secularism",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps108.1.1",
+      "title": "The Problem Secularism Answers",
+      "section": "1.1",
+      "definition": "Where several religions share one country, the state must decide how to treat them all. If it privileges one faith, the others become second-class; if it persecutes all religion, believers lose their freedom. Secularism names the third path: a state that keeps equal distance from, and equal respect for, every religion.",
+      "formula": "",
+      "key_idea": "One state, many faiths -- secularism is the discipline of equal respect, not the erasure of religion.",
+      "textbook_ref": "keps108.txt lines 1-90 (introduction, coexistence of communities, the question of equal treatment by the state)",
+      "question_patterns": [
+        "what problem does secularism try to solve",
+        "in class 11 secularism chapter: why cannot the state simply adopt one religion",
+        "how does privileging one faith harm other communities",
+        "is a state that is hostile to all religion secular",
+        "explain equal respect for all religions as a principle",
+        "what happens to minorities under a non-secular state"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the diversity fact", "explain": "Modern societies contain multiple religious communities with equal citizenship claims."},
+        {"step": 2, "action": "test the two failed models", "explain": "A state religion turns dissenting believers into inferiors; a state crushing religion violates believers' freedom."},
+        {"step": 3, "action": "define the secular answer", "explain": "The secular state neither favours nor fights religion: it maintains principled distance with equal regard."}
+      ]
+    },
+    {
+      "id": "keps108.1.2",
+      "title": "What is Secularism: Principled Distance and Equal Respect",
+      "section": "1.2",
+      "definition": "Secularism requires the state to have no religion of its own while treating all religions with equal respect. Its distinctive idea is principled distance: the state neither allies with any faith nor rigidly ignores religion, but intervenes or abstains in each case according to constitutional values of equality and freedom.",
+      "formula": "",
+      "key_idea": "Neither temple, church nor mosque holds state power -- yet the state may act on religion to protect equality and freedom.",
+      "textbook_ref": "keps108.txt lines 90-170 (definition of secularism, separation of religion and state, principled distance, equal respect, intervention for reform)",
+      "question_patterns": [
+        "define secularism and explain principled distance",
+        "in class 11 secularism chapter: how does Indian secularism differ from strict separation",
+        "when may a secular state intervene in religious affairs",
+        "what does equal respect for all religions require of the state",
+        "can a secular state support religious reform legislation",
+        "distinguish secularism from state atheism"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "detach the state from faith", "explain": "No religion is established; state office and policy cannot rest on religious identity."},
+        {"step": 2, "action": "apply principled distance", "explain": "The state engages or stays away according to whether constitutional values -- equality, liberty -- demand it."},
+        {"step": 3, "action": "permit reforming intervention", "explain": "Abolishing untouchability or opening temples to all shows the state acting on religion to uphold rights, not faith."}
+      ]
+    },
+    {
+      "id": "keps108.1.3",
+      "title": "Secularism and the Indian Constitution",
+      "section": "1.3",
+      "definition": "The Indian Constitution embeds secularism without using one established creed: no state religion exists, Articles 25 to 28 guarantee freedom of conscience and religion subject to public order and rights, Articles 29 and 30 protect minority cultural and educational institutions, and the state may regulate secular aspects of religious practice.",
+      "formula": "",
+      "key_idea": "Freedom of religion plus minority protection plus no state faith -- the constitutional triangle of Indian secularism.",
+      "textbook_ref": "keps108.txt lines 170-260 (constitutional provisions, articles 25 to 28 freedom of religion, articles 29 and 30 cultural and educational rights, no state religion)",
+      "question_patterns": [
+        "which constitutional articles guarantee freedom of religion in india",
+        "in class 11 secularism chapter: how does the constitution protect minority educational institutions",
+        "why does the indian constitution not establish a state religion",
+        "what limits can the state place on religious freedom",
+        "explain the secular content of the indian constitution",
+        "how does article 30 balance equality and cultural freedom"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read the freedom articles", "explain": "Articles 25 to 28 secure conscience and free profession, practice and propagation of religion, within limits of health, morality and others' rights."},
+        {"step": 2, "action": "read the minority articles", "explain": "Articles 29 and 30 let minorities conserve language and culture and run their own educational institutions."},
+        {"step": 3, "action": "note the absence of establishment", "explain": "No religion is declared official; state power may fund or regulate only on secular, equality-serving grounds."}
+      ]
+    },
+    {
+      "id": "keps108.1.4",
+      "title": "Criticisms of Secularism and the Communal Alternative",
+      "section": "1.4",
+      "definition": "Critics charge secularism with being anti-religious, a western import, or a mask for minoritism; defenders reply that principled distance neither attacks faith nor favours any community. The rival -- communalism -- assigns political loyalty by religion and has repeatedly produced discrimination and violence, the very disease secular institutions exist to prevent.",
+      "formula": "",
+      "key_idea": "Secularism is not godlessness; its real alternative is communal politics, which costs minorities and majorities alike.",
+      "textbook_ref": "keps108.txt lines 260-360 (criticisms of secularism, responses, communalism as antithesis, why secularism needs value based support)",
+      "question_patterns": [
+        "examine the main criticisms levelled against secularism",
+        "in class 11 secularism chapter: how would you answer the charge that secularism is anti religion",
+        "what is communalism and how does it threaten democracy",
+        "is secularism a western idea unsuited to india",
+        "why does secularism require support from values beyond law",
+        "compare a secular state with a communal state on minority rights"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the objections", "explain": "Secularism is accused of hostility to faith, foreign origin, and of secretly favouring minorities."},
+        {"step": 2, "action": "answer from the definition", "explain": "Principled distance protects believers of all faiths equally; reforming intervention targets inequality, not devotion."},
+        {"step": 3, "action": "expose the alternative", "explain": "Communal politics ranks citizens by religion; its record of exclusion and bloodshed shows what abandoning secularism costs."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps108.txt lines 170-260 (constitutional provisions)",
+      "concept": "keps108.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A state government orders that all government employees must attend a particular religious ceremony. Test the order against the constitutional provisions on secularism.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "check for establishment", "explain": "Compelling attendance aligns state power with one faith, breaching the ban on a state religion and freedom of conscience."},
+        {"step": 2, "action": "apply articles 25 to 28", "explain": "Citizens cannot be forced to take part in religious instruction or worship, especially in state capacity."},
+        {"step": 3, "action": "conclude", "explain": "The order is unconstitutional; a secular state may neither compel nor penalise religious (non)participation."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps108.txt lines 90-170 (principled distance)",
+      "concept": "keps108.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A temple excludes entry to women while a law opens all public temples to everyone. Does state intervention here violate secularism? Use principled distance.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the state's aim", "explain": "The law pursues equal access -- a constitutional value -- not the promotion or suppression of the faith."},
+        {"step": 2, "action": "apply principled distance", "explain": "The state may engage with religious practices when equality and liberty of members are at stake."},
+        {"step": 3, "action": "conclude", "explain": "Reforming intervention for equal access is consistent with Indian secularism; distance is principled, not absolute."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps108.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "State the problem that secularism addresses in religiously diverse societies.",
+        "Explain the idea of principled distance with an example.",
+        "Which constitutional provisions make India a secular state?",
+        "Respond to the criticism that secularism is hostile to religion.",
+        "What is communalism and why is it the opposite of secular citizenship?",
+        "Can a secular state intervene in religious practices? Illustrate."
+      ]
+    }
+  ]
+}

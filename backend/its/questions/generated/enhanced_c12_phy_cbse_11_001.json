@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_001",
+   "title": "c12_phy_cbse_11_001",
+   "questions": [
+    {
+     "q": "In the photoelectric effect experimental setup (NCERT Fig. 11.1), what is the function of the commutator connected to the battery? State the SI unit of the quantity measured by the microammeter.",
+     "a": "The commutator reverses the polarity of plates C and A, allowing the collector plate A to be maintained at a desired positive or negative potential with respect to the emitter C. The microammeter measures photoelectric current, with SI unit ampere (A). A wrong answer (e.g., \"commutator changes light frequency\" or \"microammeter measures voltage in volts\") reveals the student cannot identify the purpose of each component in the circuit diagram — a common board exam diagram-labelling error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we increase the intensity of incident light, the maximum kinetic energy of photoelectrons increases because more energy is delivered to the surface.\" Using the experimental results from Fig. 11.2 and Fig. 11.3, explain why this statement is incorrect. What does the stopping potential actually depend on?",
+     "a": "The statement is incorrect because experiments show that stopping potential V₀ (and hence Kₘₐₓ = eV₀) remains constant when intensity changes at fixed frequency (Fig. 11.3). Intensity only increases the number of photoelectrons emitted per second (saturation current ∝ intensity), not their individual energy. Stopping potential depends only on the frequency of incident light and the work function of the metal (V₀ ∝ ν). A student who agrees with the claim is applying the wave theory intuition (energy ∝ amplitude²) instead of the experimental fact — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Monochromatic light of frequency 7.5 × 10¹⁴ Hz is incident on a caesium surface (work function φ₀ = 2.14 eV). The stopping potential measured is 0.95 V. (a) Calculate the maximum kinetic energy of photoelectrons in joules. (b) If the intensity of light is doubled while keeping frequency constant, what will be the new stopping potential? (c) How does the saturation current change? Use e = 1.6 × 10⁻¹⁹ C.",
+     "a": "(a) Kₘₐₓ = eV₀ = (1.6 × 10⁻¹⁹ C) × (0.95 V) = 1.52 × 10⁻¹⁹ J. (b) Stopping potential remains 0.95 V because V₀ is independent of intensity for a given frequency. (c) Saturation current doubles because photocurrent ∝ intensity. A wrong answer in (b) (e.g., \"V₀ doubles\" or \"V₀ becomes zero\") shows the student has not internalised the key experimental result that Kₘₐₓ depends only on frequency, not intensity — this is the most frequently tested concept in board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Graph (A) shows photocurrent vs collector plate potential for two different intensities I₁ and I₂ (I₂ > I₁) at the same frequency. Graph (B) shows the same for two different frequencies ν₁ and ν₂ (ν₂ > ν₁) at the same intensity. Sketch both graphs and label: saturation current, stopping potential, and the axis intercepts. Explain why the stopping potential in Graph (B) shifts but in Graph (A) it does not.",
+     "a": "Graph (A): Two curves rising to different saturation currents (I₂ curve higher) but both hitting zero current at the same negative voltage V₀ on the x-axis. Graph (B): Two curves reaching the same saturation current (same intensity) but hitting zero at different V₀ values — the ν₂ curve has a more negative V₀ (larger magnitude). In (A), frequency fixed ⇒ Kₘₐₓ fixed ⇒ V₀ fixed; intensity only changes number of electrons. In (B), higher ν ⇒ higher photon energy ⇒ higher Kₘₐₓ ⇒ larger retarding potential needed. A student who draws identical V₀ for different frequencies in (B) confuses intensity and frequency dependence — a direct test of understanding Fig. 11.3 vs Fig. 11.4.",
+     "self_check": true
+    },
+    {
+     "q": "An experimentalist reports: \"For a certain metal, when green light (λ = 530 nm) is used, the stopping potential is 0.8 V. When the same metal is illuminated with yellow light (λ = 580 nm) at the same intensity, the stopping potential is 1.2 V.\" Evaluate this claim. Is it physically possible? Justify using the relationship between stopping potential and frequency.",
+     "a": "The claim is impossible. Yellow light (580 nm) has lower frequency (ν = c/λ ≈ 5.17 × 10¹⁴ Hz) than green light (530 nm, ν ≈ 5.66 × 10¹⁴ Hz). Since stopping potential increases with frequency (V₀ ∝ ν), green light must give a larger (more negative) stopping potential than yellow light. The reported values are reversed. A student who accepts the claim has not grasped that V₀ ∝ ν and that shorter wavelength = higher frequency = higher Kₘₐₓ. This tests the ability to convert between λ and ν and apply the monotonic relationship — a common NEET assertion-reason trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a zinc plate, an electroscope, and a UV lamp to demonstrate that photoelectric emission depends on frequency, not just intensity. Describe the procedure, what you would observe, and how you would conclude that a threshold frequency exists. (Hint: Use Hallwachs' observation with a charged zinc plate.)",
+     "a": "Procedure: (1) Give a clean zinc plate a negative charge using a charged rod; connect it to a gold-leaf electroscope — leaves diverge. (2) Shine bright visible light (e.g., white LED torch) on the plate — leaves remain diverged (no discharge). (3) Shine a weak UV lamp (e.g., germicidal UV-C) on the plate — leaves collapse immediately as electrons are emitted. (4) Repeat with a positively charged plate — it becomes more positive under UV. Conclusion: Visible light, however intense, cannot eject electrons (ν < ν₀ for zinc), but even weak UV (ν > ν₀) causes instantaneous emission. This proves threshold frequency exists and emission is independent of intensity. A poor answer that only says \"UV works, visible doesn't\" without linking to frequency threshold or the instantaneous nature misses the core experimental logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

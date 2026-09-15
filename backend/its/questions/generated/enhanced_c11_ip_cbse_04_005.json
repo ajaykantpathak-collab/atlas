@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_005",
+   "title": "c11_ip_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nnums = [10, 20, 30, 40]\nfor i in range(len(nums)):\n    print(nums[i], end=' ')\n```",
+     "a": "Output: `10 20 30 40 `. A wrong answer (e.g., printing indices `0 1 2 3` or missing the last element) reveals confusion between the index variable `i` and the element `nums[i]`, or misunderstanding of `range(len())` producing indices 0 to n-1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following `while` loop causes an infinite loop and how to fix it:\n```python\ndata = [5, 10, 15]\ni = 0\nwhile i < len(data):\n    print(data[i])\n    # missing increment\n```",
+     "a": "The loop prints `5` endlessly because `i` remains 0, so the condition `i < 3` stays true. The fix is adding `i += 1` inside the loop. A student who says \"it prints all elements once\" doesn't understand that `while` loops require manual index update, unlike `for` loops.",
+     "self_check": true
+    },
+    {
+     "q": "Write a `for` loop using `range(len())` to double every element in the list `marks = [45, 78, 62, 90]` in-place (modify the original list). Show the final list.",
+     "a": "```python\nmarks = [45, 78, 62, 90]\nfor i in range(len(marks)):\n    marks[i] = marks[i] * 2",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two traversals for a list `L = ['a', 'b', 'c']`:\n(A) `for x in L: print(x)`\n(B) `for i in range(len(L)): print(L[i])`\nWhen would (B) be necessary and (A) insufficient? Give a concrete scenario.",
+     "a": "(B) is necessary when the index is needed, e.g., modifying elements (`L[i] = L[i].upper()`), deleting elements while traversing backwards, or accessing parallel lists. (A) cannot modify the original list because `x` is a copy. A student who says \"they are the same\" misses the mutability distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to search for a value `target` in list `arr` and print \"Found\" or \"Not Found\":\n```python\narr = [3, 6, 9, 12]\ntarget = 9\nfor val in arr:\n    if val == target:\n        print(\"Found\")\n    else:\n        print(\"Not Found\")\n```\nCritique this code: what is wrong with the output, and how would you fix it using a flag or `break`/`else`?",
+     "a": "The code prints \"Not Found\" for every non-matching element before \"Found\", e.g., \"Not Found\\nNot Found\\nFound\\nNot Found\". Correct approach: use a flag `found = False`, set to `True` and `break` when found, then check flag after loop; or use `for-else` where `else` block runs only if loop completes without `break`. A student who doesn't see the repeated prints misunderstands loop flow control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) that requires traversing a list with a `while` loop backwards (from last index to 0) and write the complete Python code. Example context: processing a stack of bills.",
+     "a": "Problem: A shopkeeper has a list of bill amounts `[250, 500, 1200, 300]` (oldest to newest). He wants to process refunds from the newest bill backwards until the total refunded reaches ₹1000. Code:\n```python\nbills = [250, 500, 1200, 300]\ni = len(bills) - 1\ntotal_refund = 0\nwhile i >= 0 and total_refund < 1000:\n    total_refund += bills[i]\n    print(f\"Refunded bill {i}: ₹{bills[i]}\")\n    i -= 1\nprint(f\"Total refunded: ₹{total_refund}\")\n```\nA poor answer uses `for` loop or forward `while`, missing the requirement for reverse traversal with dynamic stopping condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

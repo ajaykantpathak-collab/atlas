@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_008",
+   "title": "c12_chem_cbse_08_008",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the oxidation of ethanol to ethanoic acid using acidified potassium dichromate. Include the colour change observed.",
+     "a": "CH₃CH₂OH + 2[O] → CH₃COOH + H₂O (with K₂Cr₂O₇/H₂SO₄, orange Cr₂O₇²⁻ → green Cr³⁺). A wrong answer like CH₃CH₂OH + [O] → CH₃CHO shows the student thinks oxidation stops at aldehyde with strong oxidants, confusing it with PCC. The correct equation must show 2 oxygen atoms added (or 4 H removed) and the dichromate reduction half-reaction balanced.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why oxidation of a primary alcohol with PCC (pyridinium chlorochromate) gives an aldehyde, but with KMnO₄/H⁺ gives a carboxylic acid, even though both are oxidizing agents.",
+     "a": "PCC is a mild, anhydrous oxidant that stops at the aldehyde because it cannot hydrate the aldehyde to the gem-diol needed for further oxidation. KMnO₄/H⁺ is a strong aqueous oxidant; the aldehyde formed in situ hydrates to R-CH(OH)₂, which is easily oxidised further. A wrong answer citing \"PCC is weaker\" without mentioning hydration/anhydrous conditions reveals a superficial memorisation without mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Butanenitrile is hydrolysed under basic conditions. Write the stepwise reactions from nitrile to carboxylate salt, then acidification to butanoic acid. Show the amide intermediate.",
+     "a": "Step 1: CH₃CH₂CH₂CN + H₂O + NaOH → CH₃CH₂CH₂CONH₂ (butanamide)  \nStep 2: CH₃CH₂CH₂CONH₂ + NaOH + H₂O → CH₃CH₂CH₂COONa + NH₃  \nStep 3: CH₃CH₂CH₂COONa + HCl → CH₃CH₂CH₂COOH + NaCl  \nA wrong answer skipping the amide (directly writing nitrile → acid) misses the tetrahedral addition-elimination mechanism and the fact that mild conditions can isolate the amide.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of carbon atoms in the starting material and product for: (a) oxidation of pentan-1-ol, (b) hydrolysis of pentanenitrile. Is the carbon count conserved in both? Justify.",
+     "a": "(a) Pentan-1-ol (C₅) → Pentanoic acid (C₅): carbon count conserved.  \n(b) Pentanenitrile (C₅) → Pentanoic acid (C₅): carbon count conserved.  \nIn both, the carbon skeleton remains intact; the functional group is transformed. A wrong answer claiming nitrile hydrolysis loses a carbon (confusing with Hofmann rearrangement or decarboxylation) reveals confusion with other nitrogen reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds KMnO₄ to a primary alcohol and the purple colour persists. Evaluate: does this mean no reaction occurred, or is the alcohol tertiary? Explain.",
+     "a": "Persistent purple means no oxidation occurred. Primary alcohols decolourise KMnO₄ rapidly. If the alcohol were tertiary, it would also not react (no α-H). But the student must check: if it's a primary alcohol and colour persists, the KMnO₄ may be old/decomposed or the reaction conditions wrong (cold, dilute). A wrong answer saying \"primary alcohol doesn't react with KMnO₄\" shows a fundamental misconception about oxidisability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert 1-bromopropane to butanoic acid using a nitrile intermediate. Write reagents for each step.",
+     "a": "Step 1: CH₃CH₂CH₂Br + KCN (alc.) → CH₃CH₂CH₂CN (butanenitrile) + KBr  \nStep 2: CH₃CH₂CH₂CN + H₃O⁺, Δ → CH₃CH₂CH₂COOH (butanoic acid)  \nThis extends the chain by one carbon (C₃ → C₄). A wrong answer using Grignard + CO₂ (also valid but not \"nitrile intermediate\") or using NaCN/H₂O directly without isolation shows inability to plan a specific nitrile-route synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

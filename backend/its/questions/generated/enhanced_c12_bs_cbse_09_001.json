@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_001",
+   "title": "c12_bs_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define \"business finance\" and state how it differs from \"financial management\" in one sentence each.",
+     "a": "Business finance is the money required for carrying out business activities (establishment, operations, expansion). Financial management is the process of optimally procuring and utilizing that finance to maximize shareholders' wealth. A wrong answer would conflate the two (e.g., \"financial management is arranging money\") — this reveals the student sees finance as a noun (money) rather than a verb (management of money). The distinction is critical: finance is the resource; financial management is the decision-making framework.",
+     "self_check": true
+    },
+    {
+     "q": "A company earns ₹10 crore profit. The board proposes distributing ₹9 crore as dividend and retaining ₹1 crore. Another director argues for retaining ₹9 crore and distributing ₹1 crore. Using the wealth maximization objective, explain which approach is better — or why neither can be judged without more information.",
+     "a": "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains, (c) cash flow position, (d) tax treatment, (e) stock market reaction. Wealth maximization depends on whether retained earnings generate returns > cost of equity. A student who says \"retain more for growth\" or \"pay more to satisfy shareholders\" without conditions reveals the misconception that dividend policy has a universal rule. The correct understanding: dividend decision is a trade-off between current income and future growth, resolved by wealth maximization.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenEnergy Ltd.\" plans to set up a solar plant requiring ₹200 crore. It has ₹80 crore internal accruals. The finance manager proposes: (i) issue equity shares for ₹70 crore, (ii) take a term loan at 9% for ₹50 crore. Classify each action as investment, financing, or dividend decision. Then explain how this financing mix affects financial risk and cost of capital.",
+     "a": "Setting up the solar plant = investment decision (capital budgeting). Issuing equity and taking term loan = financing decision. No dividend action here. The mix: 70/200 = 35% equity, 50/200 = 25% debt, 80/200 = 40% internal. Debt increases financial risk (obligatory interest) but lowers cost of capital (tax-deductible interest). A student who classifies the plant setup as \"financing\" confuses asset acquisition with fund raising. A student who says \"debt is always better because it's cheaper\" ignores financial risk. The correct analysis weighs tax shield against bankruptcy risk.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on shareholders' wealth of two scenarios for a firm with ROE = 15% and cost of equity = 12%:\nScenario A: Retain 100% earnings, no dividend.\nScenario B: Pay 100% dividend, raise fresh equity for new projects.\nWhich scenario maximizes wealth? Justify using the concept of opportunity cost of retained earnings.",
+     "a": "Scenario A maximizes wealth. Retained earnings have an opportunity cost = cost of equity (12%). Since ROE (15%) > cost of equity (12%), every rupee retained generates 15% return for shareholders, which is higher than the 12% they could earn elsewhere. In Scenario B, paying dividend forces shareholders to reinvest at 12% (or firm issues new equity at 12% flotation cost + issue expenses), destroying value. A student choosing Scenario B thinks \"dividend is cash in hand\" — this is the bird-in-hand fallacy. The correct reasoning: wealth maximization requires comparing internal reinvestment rate (ROE) with shareholders' required return (cost of equity).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Financial management is only about raising funds at the lowest cost.\" Provide a counterexample where lowest-cost funds destroy shareholder value.",
+     "a": "The statement is incomplete. Financial management has twin objectives: (1) minimize cost of procurement, (2) maximize return on deployment. Counterexample: A firm raises debt at 8% (lowest cost) but invests in a project yielding 6% ROI. The 2% negative spread destroys wealth. Another: raising cheap short-term debt for long-term assets creates liquidity risk — a sudden rate hike or rollover failure can cause insolvency. A student who agrees with the statement focuses only on the liability side of the balance sheet. The correct view: financial management optimizes the asset-liability match, not just liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) involving a manufacturing company where the CFO must make a decision that simultaneously involves investment, financing, and dividend choices. Identify each decision and state the wealth maximization criterion for each.",
+     "a": "Example case: \"AutoParts Ltd. has ₹50 crore cash surplus. The CFO considers: (i) buying a robotic assembly line for ₹40 crore (investment), (ii) funding it partly by a ₹20 crore bank loan at 9% and partly from surplus (financing), (iii) reducing dividend from ₹5 to ₹2 per share to retain funds (dividend).\" \nWealth maximization criteria: \n- Investment: Accept if project IRR > WACC. \n- Financing: Choose mix that minimizes WACC without excessive financial risk (DSCR > 2). \n- Dividend: Cut dividend only if retained earnings earn > cost of equity (ROE > Ke). \nA poor answer lists decisions without linking to wealth maximization. A good answer shows the interdependence: the financing mix affects WACC which affects investment viability; dividend cut frees cash for investment but may signal negative prospects to market.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

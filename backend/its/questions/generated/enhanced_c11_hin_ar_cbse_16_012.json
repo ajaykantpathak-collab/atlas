@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_16_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_16_012",
+   "title": "c11_hin_ar_cbse_16_012",
+   "questions": [
+    {
+     "q": "What is the basic difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What color is the ekVh?\"), while an inferential question asks for meaning that is implied but not directly written (e.g., \"Why does the poet describe the ekVh as 'fe^h'?\"). A wrong answer that says \"literal questions are easy and inferential are hard\" reveals the student is confusing difficulty level with cognitive process, and may not know how to locate explicit evidence versus how to synthesize implicit meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"Hkksykiu fny dk vD[kM+iu] tq>k:iu Hkh\" appears. A student answers the inferential question \"Why are both vD[kM+iu and tq>k:iu mentioned together?\" with \"Because the poet likes both happiness and sadness.\" Explain why this answer is incomplete.",
+     "a": "The answer is incomplete because it treats the inference as a personal preference of the poet rather than a thematic statement about the totality of rural life. The correct inference connects the duality to the poem's central message: folk life embraces both joy (vD[kM+iu) and struggle (tq>k:iu) as inseparable parts of an authentic existence. A wrong answer reveals the student is making a surface-level emotional guess instead of linking textual contrast to the theme of holistic acceptance developed in the \"Theme\" nodes (c11_hin_ar_cbse_16_006, c11_hin_ar_cbse_16_007).",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal comprehension strategy to this question: \"According to the poem, what are the three things the poet says are 'for children' (cPpksa osQ fy,)?\" List the steps you would take to find the answer.",
+     "a": "Steps: 1) Identify keywords: \"cPpksa osQ fy,\" and \"three things\". 2) Scan the poem for the phrase \"cPpksa osQ fy,\" — it appears in the second long stanza. 3) Locate the exact line: \"cPpksa osQ fy, eSnku\". 4) Note that only one item is explicitly listed for children in that line; the other two lines mention \"i'kqvksa osQ fy, gjh&gjh ?kkl\" and \"cw<+ksa osQ fy, igkM+ksa dh 'kkfUr\". 5) Compile the three explicit items: eSnku, gjh&gjh ?kkl, igkM+ksa dh 'kkfUr. A wrong answer that guesses \"toys, games, stories\" shows the student did not scan for the exact textual phrase and relied on external assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following inferential question: \"The poem ends with 'FkksM+s&ls lius / vkvks] feydj cpk,¡A' What does the repetition of 'FkksM+' (big/large) three times suggest about the poet's vision of life?\" Break down the literary device and its thematic effect.",
+     "a": "The repetition of \"FkksM+\" (FkksM+k&lk fo'okl, FkksM+h&lh mEehn, FkksM+s&ls lius) is an example of anaphora and amplification. It suggests that life's canvas is expansive enough to contain grand illusions (fo'okl), deep affections (mEehn), and ultimate liberation (lius). The progression from external world to inner feeling to transcendence mirrors the poem's movement from sensory observation to spiritual invitation. A wrong answer that only says \"it shows emphasis\" misses the structural progression and fails to connect the device to the theme of boundless inclusivity established in the \"Literary Devices\" nodes (c11_hin_ar_cbse_16_008, c11_hin_ar_cbse_16_009).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Question: 'Why does the poet use the image of 'ukpus osQ fy, [kqyk vk¡xu' (for the sad, a dry smile)? Answer: 'The poet wants to show that sad people smile fakely.'\" Is this a valid inference? Justify.",
+     "a": "No, it is not a valid inference because it imposes a negative judgment (\"fakely\") not supported by the text. The phrase \"[kqyk vk¡xu\" (dry smile) in context suggests a smile that has no moisture of tears left — a smile of resignation, endurance, or quiet acceptance after prolonged sorrow, not deceit. The poem celebrates authenticity of folk emotions. A valid inference would be: \"The dry smile represents the stoic resilience of rural folk who have exhausted their tears and now face hardship with a weathered, enduring grace.\" The wrong answer reveals the student is projecting urban cynicism onto a folk sensibility, ignoring the cultural context built in node c11_hin_ar_cbse_16_001.",
+     "self_check": true
+    },
+    {
+     "q": "Create a literal and an inferential question based on the line: \"BaMh gksrh fnup;kZ esa / thou dh xekZgV\". Your questions must be answerable only from the poem's internal logic.",
+     "a": "Literal: \"What two things are described as happening in the 'fnup;kZ' (afternoon)?\" (Answer: BaMh gksrh and thou dh xekZgV). Inferential: \"Why might the poet choose the afternoon — a time of harsh light and heat — to depict the 'xekZgV' (agony/convulsion) of life?\" (Answer: Afternoon symbolizes the peak of life's struggles where illusions fade and raw reality is exposed, aligning with the poem's theme of unflinching truth-telling). A poor answer would create questions that require outside knowledge (e.g., \"What is the scientific reason for afternoon heat?\") showing the student doesn't understand \"text-dependent\" questioning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

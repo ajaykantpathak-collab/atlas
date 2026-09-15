@@ -1,0 +1,392 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 2,
+ "chapter_title": "Cellular Organelles",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt102.1",
+   "title": "Fluid Mosaic Model of the Plasma Membrane",
+   "section": "2.1",
+   "definition": "Singer and Nicolson pictured the membrane in 1972 as a quasi-fluid phospholipid double layer - hydrophilic heads outward, hydrophobic tails inward - carrying a shifting mosaic of globular proteins that drift sideways through it.",
+   "formula": "-",
+   "key_idea": "A fluid lipid bilayer with drifting proteins explains why the cell boundary stays both flexible and selectively permeable.",
+   "textbook_ref": "kebt102.txt section 2.1 and Fig. 2.1, Box 1",
+   "question_patterns": [
+    "who proposed the Fluid Mosaic Model of the plasma membrane and in which year",
+    "why are membrane lipids and proteins said to diffuse laterally across the bilayer",
+    "label the hydrophilic heads hydrophobic tails integral and peripheral proteins on a diagram of the membrane",
+    "what did the 1925 experiment of Gorter and Grendel on mammalian red blood cells reveal about the lipid layer",
+    "distinguish peripheral from integral and transmembrane proteins by where each sits in the bilayer",
+    "what is a mesosome and how does it relate to the plasma membrane in prokaryotes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the model and its authors",
+     "explain": "The Fluid Mosaic Model was proposed by Singer and Nicolson in 1972."
+    },
+    {
+     "step": 2,
+     "action": "describe the lipid arrangement",
+     "explain": "A quasi-fluid bilayer forms with polar heads outward and nonpolar tails buried inside; cholesterol sits among the tails in animal membranes."
+    },
+    {
+     "step": 3,
+     "action": "place the proteins",
+     "explain": "Peripheral proteins attach superficially and signal; integral proteins are partly or fully buried, transmembrane ones spanning the whole bilayer."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who pictured the membrane as a fluid mosaic in 1972: Singer and Nicolson, or Watson and Crick?",
+     "a": "Singer and Nicolson"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.2",
+   "title": "Transport Across the Plasma Membrane",
+   "section": "2.1",
+   "definition": "Molecules cross the boundary three ways: passive drift down the gradient at zero energy cost (diffusion, osmosis), carrier- or channel-assisted passage for ions, glucose and amino acids, and uphill pumping that spends ATP or is coupled to a second gradient as symport or antiport.",
+   "formula": "-",
+   "key_idea": "Downhill moves free, assisted downhill is facilitated, uphill must be paid in ATP or borrowed from another gradient.",
+   "textbook_ref": "kebt102.txt section 2.1, Figs. 2.2 and 2.3",
+   "question_patterns": [
+    "differentiate passive facilitated and active transport with one example of each",
+    "what do uniport symport and antiport mean in the context of coupled transport",
+    "why cannot glucose and charged ions cross the membrane by simple diffusion alone",
+    "name the channel proteins that conduct water across plant and animal membranes",
+    "explain the sodium potassium pump with reference to the ATP it consumes and the gradients it builds",
+    "an ATP-independent pump drags sugar uphill - which gradient pays for it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the direction of movement",
+     "explain": "Along the gradient means passive or facilitated; against it means active."
+    },
+    {
+     "step": 2,
+     "action": "check for assistance",
+     "explain": "Carriers and channels (aquaporins, ion channels, glucose transporter) mark facilitated movement; plain diffusion needs none."
+    },
+    {
+     "step": 3,
+     "action": "check the energy source",
+     "explain": "ATP hydrolysis drives the Na+-K+ pump; coupled transport borrows the Na+ gradient, moving both molecules same-way (symport) or opposite-way (antiport)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which transport costs zero ATP: diffusion or uphill pumping?",
+     "a": "diffusion"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.3",
+   "title": "Membrane Composition Arithmetic",
+   "section": "2.1",
+   "definition": "Membrane make-up is quoted in percent; a human erythrocyte membrane runs roughly 52 percent protein against 40 percent lipid, so whatever remains out of 100 belongs to other components, and relative lipid richness is just the lipid percent divided by the protein percent.",
+   "formula": "other_share = 100 - protein_pct - lipid_pct",
+   "key_idea": "Percent compositions add to 100, so the missing share is the leftover; comparing richness is a single division.",
+   "textbook_ref": "kebt102.txt section 2.1 (erythrocyte 52 percent protein, 40 percent lipids)",
+   "question_patterns": [
+    "a human erythrocyte membrane has 52 percent protein and 40 percent lipid - find the percent left for other components",
+    "compute the lipid to protein ratio for the erythrocyte membrane from its composition data",
+    "a myelin membrane shows 20 percent protein against 80 percent lipid - how many times richer in lipid is it than the erythrocyte membrane",
+    "if a hypothetical membrane split equally between protein and lipid what would its lipid to protein ratio be",
+    "why does the protein lipid proportion differ from membrane to membrane in a cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the known shares from 100",
+     "explain": "Protein and lipid percentages are given; the remainder covers carbohydrate and other components.",
+     "compute": "other_share = 100 - protein_pct - lipid_pct"
+    },
+    {
+     "step": 2,
+     "action": "divide lipid by protein",
+     "explain": "The quotient compares how lipid-rich the membrane is.",
+     "compute": "lipid_protein_ratio = lipid_pct / protein_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A membrane runs 52 percent protein and 40 percent lipid. What percent do other components hold?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.4",
+   "title": "Cell Wall of Bacteria and Plants",
+   "section": "2.2",
+   "definition": "Many cells wear a rigid coat outside the membrane: peptidoglycan chains cross-linked by short peptides in bacteria (thick single-membrane layout in Gram-positive types, thin double-membrane layout in Gram-negative types), cellulose in most higher plants and chitin in fungi, with lignin hardening the secondary wall.",
+   "formula": "-",
+   "key_idea": "The wall fixes shape and blocks osmotic bursting; several antibiotics kill bacteria by stopping peptidoglycan cross-linking.",
+   "textbook_ref": "kebt102.txt section 2.2, Figs. 2.4 and 2.5",
+   "question_patterns": [
+    "why does a bacterial cell not burst when water enters it by osmosis",
+    "contrast the wall architecture of gram positive and gram negative bacteria",
+    "which polymer builds the fungal wall and which builds the wall of higher plants",
+    "how do commonly used antibiotics exploit the cross-linking of peptidoglycan strands",
+    "what holds neighbouring plant cells together and which connections carry cytoplasm between them",
+    "differentiate a primary cell wall from a secondary cell wall"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the organism group",
+     "explain": "Bacteria use peptidoglycan, most plants cellulose, fungi chitin; animal cells have no wall."
+    },
+    {
+     "step": 2,
+     "action": "quote the layout",
+     "explain": "Gram-positive: thick peptidoglycan with teichoic acid over one membrane; Gram-negative: thin peptidoglycan plus outer LPS membrane."
+    },
+    {
+     "step": 3,
+     "action": "state the functions",
+     "explain": "Shape, mechanical strength, infection barrier and osmotic protection; in plants the middle lamella of calcium pectate cements cells with plasmodesmata crossing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which polymer cross-links to form the bacterial cell wall: peptidoglycan or cellulose?",
+     "a": "peptidoglycan"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.5",
+   "title": "Endomembrane System Compartments",
+   "section": "2.3",
+   "definition": "A cooperating team of single-membrane organelles - rough and smooth endoplasmic reticulum, the Golgi stack with its cis receiving face and trans shipping face, lysosomes packed with acid hydrolases, and storage vacuoles - builds, modifies, packages and ships the cell's proteins and lipids.",
+   "formula": "-",
+   "key_idea": "The secretory route runs rough ER to Golgi to vesicles to the cell surface, while lysosomes recycle damaged organelles by autophagy.",
+   "textbook_ref": "kebt102.txt section 2.3 and Box 2",
+   "question_patterns": [
+    "trace the pathway of a secretory protein from the rough ER to the cell exterior",
+    "what distinguishes rough ER from smooth ER in structure and in function",
+    "why are lysosomal enzymes called acid hydrolases and what substrates do they digest",
+    "which inherited disorder fills brain cells with lipid when lipid-digesting lysosomal enzymes fail",
+    "name the membrane that surrounds a vacuole and give two roles of the large central vacuole of plant cells",
+    "who discovered the Golgi apparatus and what are its forming and maturing faces called"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the members",
+     "explain": "ER, Golgi complex, lysosomes and vacuole form the endomembrane system; mitochondria, plastids and peroxisomes stand outside it."
+    },
+    {
+     "step": 2,
+     "action": "follow the traffic",
+     "explain": "Vesicles bud from rough ER, fuse with the cis face of Golgi, get modified in the cisternae and leave from the trans face."
+    },
+    {
+     "step": 3,
+     "action": "assign the special tasks",
+     "explain": "SER makes lipids and cholesterol; lysosomes digest at acidic pH; vacuoles store and hold turgor; Golgi builds glycoproteins and glycolipids."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which face of the Golgi receives incoming vesicles: cis or trans?",
+     "a": "cis"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.6",
+   "title": "Ribosome Subunits and Sedimentation Values",
+   "section": "2.6",
+   "definition": "Ribosomes are membraneless protein factories rated by how fast they sediment in an ultracentrifuge: prokaryotic 70S particles separate into 50S and 30S halves, eukaryotic 80S particles into 60S and 40S halves, and the 70S kind also turns up inside mitochondria and chloroplasts.",
+   "formula": "small_subunit = total_s - large_s",
+   "key_idea": "The S value is a sedimentation rating rather than a sum; subtracting the large-subunit rating from the whole leaves the small one.",
+   "textbook_ref": "kebt102.txt section 2.6 and Box 3",
+   "question_patterns": [
+    "state the sedimentation values of the two subunits of an 80S eukaryotic ribosome",
+    "a prokaryotic ribosome sediments at 70S with a 50S large subunit - what is the value of its small subunit",
+    "why do mitochondria and chloroplasts carry 70S ribosomes and what does that suggest about their ancestry",
+    "about how many ribosomes does a rapidly growing mammalian cell contain",
+    "who first observed ribosomes under the electron microscope and in which year",
+    "what name is given to the catalytic RNAs found in the large ribosomal subunit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the whole particle rating",
+     "explain": "Identify the intact ribosome value: 70S prokaryotic or 80S eukaryotic.",
+     "compute": "whole_s = prok_s"
+    },
+    {
+     "step": 2,
+     "action": "subtract the large subunit",
+     "explain": "Removing the larger half's rating leaves the smaller half: 70-50 gives 30S, 80-60 gives 40S.",
+     "compute": "small_subunit = whole_s - large_s"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The eukaryotic 80S ribosome splits into 60S and which subunit?",
+     "a": "40S"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.7",
+   "title": "Cytoskeleton Filaments and the Axoneme Array",
+   "section": "2.8 and 2.9",
+   "definition": "Three protein filament families scaffold the cell - 25 nm tubulin microtubules, 6 nm actin filaments and 10 nm intermediate filaments - while every cilium or flagellum runs on a 9+2 axoneme of nine peripheral doublets around a central pair.",
+   "formula": "microtubule_total = peripheral_doublets * 2 + central_single",
+   "key_idea": "Nine doublets count as eighteen plus two singles, so twenty microtubules drive each cilium; a centriole's nine triplets total twenty-seven.",
+   "textbook_ref": "kebt102.txt sections 2.8-2.9, Table 2.1, Figs. 2.12-2.14",
+   "question_patterns": [
+    "how many microtubules make up the 9+2 axoneme of a motile cilium - count them",
+    "a centriole wall is built of nine microtubule triplets - how many individual microtubules does that make",
+    "arrange microtubules intermediate filaments and actin filaments in descending order of diameter",
+    "how many times thicker is a microtubule than an actin filament",
+    "which protein polymer builds microtubules and which builds actin filaments",
+    "differentiate cilia from flagella on the basis of size number and type of beat"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand the doublets",
+     "explain": "Each of the nine peripheral doublets holds two fused microtubules.",
+     "compute": "doubled = peripheral_doublets * 2"
+    },
+    {
+     "step": 2,
+     "action": "add the central pair",
+     "explain": "Two single central microtubules complete the 9+2 array.",
+     "compute": "microtubule_total = doubled + central_single"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many peripheral doublets ring the cilium's axoneme?",
+     "a": "9"
+    }
+   ]
+  },
+  {
+   "id": "kebt102.8",
+   "title": "Chromosome Number and Ploidy",
+   "section": "2.12",
+   "definition": "Hereditary material travels as DNA-histone threads: each human body cell holds 23 pairs (22 autosome pairs plus one sex-chromosome pair), and gamete formation halves the set so every sex cell takes one member of each pair.",
+   "formula": "gamete_count = somatic_total / 2",
+   "key_idea": "Doubling the pair count gives the diploid total; halving the diploid total gives the gamete count.",
+   "textbook_ref": "kebt102.txt section 2.12, Table 2.2 and Box 4",
+   "question_patterns": [
+    "a human cell carries 23 pairs of chromosomes - how many chromosomes does one human gamete receive",
+    "an organism with a diploid number of 36 forms gametes of what chromosome count",
+    "write the haploid chromosome numbers of maize wheat and the fruit fly from their diploid counts",
+    "differentiate autosomes from allosomes with reference to the traits each set carries",
+    "what is a nucleosome and how does chromatin let nearly six feet of DNA fit inside one nucleus",
+    "whose 1956 recount corrected the human chromosome number from 48 to 46"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the pair count",
+     "explain": "Each pair contributes two chromosomes to the body cell.",
+     "compute": "somatic_total = pairs * 2"
+    },
+    {
+     "step": 2,
+     "action": "halve for the gamete",
+     "explain": "Meiosis distributes one chromosome of every pair to each sex cell.",
+     "compute": "gamete_count = somatic_total / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many pairs of chromosomes does a human body cell hold?",
+     "a": "23"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt102.txt section 2.1 (erythrocyte membrane composition)",
+   "concept": "kebt102.3",
+   "question_type": "compute",
+   "question_pattern": "A human erythrocyte membrane contains about {protein_pct} percent protein and {lipid_pct} percent lipid. Compute the percent share of the remaining components and the lipid-to-protein ratio of the membrane.",
+   "extracted_variables": {
+    "protein_pct": "protein content of the membrane in percent",
+    "lipid_pct": "lipid content of the membrane in percent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the leftover out of 100",
+     "explain": "Everything besides protein and lipid sits in the remainder.",
+     "compute": "other_share = 100 - protein_pct - lipid_pct"
+    },
+    {
+     "step": 2,
+     "action": "divide lipid by protein",
+     "explain": "The quotient measures lipid richness relative to protein.",
+     "compute": "lipid_protein_ratio = lipid_pct / protein_pct"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt102.txt section 2.12 (23 pairs, 46 per cell)",
+   "concept": "kebt102.8",
+   "question_type": "compute",
+   "question_pattern": "An animal body cell carries {pairs} pairs of chromosomes. Find the diploid chromosome total of the cell and the count each of its gametes would receive.",
+   "extracted_variables": {
+    "pairs": "number of chromosome pairs per body cell"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the pairs",
+     "explain": "Two chromosomes per pair give the diploid total.",
+     "compute": "somatic_total = pairs * 2"
+    },
+    {
+     "step": 2,
+     "action": "halve for gametes",
+     "explain": "Meiosis sends one of each pair into every gamete.",
+     "compute": "gamete_count = somatic_total / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt102-ex1",
+   "source_ref": "kebt102.txt Exercises (questions 1-13)",
+   "questions": [
+    "Who proposed the Fluid Mosaic Model - pick from Robert Brown, Schleiden and Schwann, Robert Virchow, or Singer and Nicolson.",
+    "State the composition of ribosomes from the options: only rRNA, rRNA and proteins, rRNA with proteins and DNA, or lipids with proteins and DNA.",
+    "Identify what the tonoplast covers: the cell wall, the inner mitochondrial membrane, the vacuoles, or the plastids.",
+    "Describe the mechanisms of transport across the plasma membrane with the help of labelled diagrams.",
+    "Match each of nucleolus, mesosome, vacuoles, cristae, ribosomes, thylakoid, peroxisomes and cisternae with its correct function.",
+    "Explain the significance of the protein-to-lipid ratio in membranes and the effect of changing lipid concentration.",
+    "Classify eukaryotic organelles as single-membrane bound, double-membrane bound or non-membrane bound.",
+    "Distinguish between cilia and flagella, lysosomes and vacuoles, and active and passive transport."
+   ]
+  }
+ ]
+}

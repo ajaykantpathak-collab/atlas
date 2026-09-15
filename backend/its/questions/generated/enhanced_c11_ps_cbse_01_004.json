@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_004",
+   "title": "c11_ps_cbse_01_004",
+   "questions": [
+    {
+     "q": "According to the NCERT textbook, what are the three main reasons why we should study political theory?",
+     "a": "The three main reasons are: (1) **Clarity** — to precisely understand the meaning of political concepts like freedom, equality, justice; (2) **Evaluation** — to critically examine arguments, institutions, and policies against normative standards; (3) **Guidance** — to provide principled frameworks for framing public policies and resolving political dilemmas. A wrong answer (e.g., \"to memorize thinkers' names\" or \"to learn how to win elections\") reveals the student confuses political theory with history of political thought or practical politics, missing its analytical and normative purpose.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Political theory is relevant for all... lawyers and judges who interpret the Constitution... activists and journalists who expose exploitation.\" Explain *why* political theory is necessary for a journalist investigating custodial deaths, using the three functions (clarity, evaluation, guidance).",
+     "a": "A journalist needs **clarity** to define \"custodial death\" precisely (distinguishing it from natural death in custody) and understand the legal concept of \"right to life\" (Article 21). They need **evaluation** to assess whether police claims of \"encounter\" meet the standards of due process and proportionality. They need **guidance** to frame recommendations: e.g., mandatory judicial magisterial inquiry, body cameras, or amendments to Section 176 CrPC. A wrong answer focusing only on \"reporting facts\" misses how theory structures the investigation, interpretation, and advocacy.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Constitution already guarantees equality (Article 14). Why do we still need political theory to understand equality?\" Apply the three functions of political theory to answer this student.",
+     "a": "**Clarity**: Article 14 says \"equality before law\" but political theory clarifies the difference between *formal equality* (same treatment) and *substantive equality* (equal outcomes via affirmative action) — essential for understanding reservations. **Evaluation**: Theory lets us evaluate whether current reservation policies actually achieve substantive equality or create new hierarchies (creamy layer issue). **Guidance**: It guides policy design — e.g., should reservations be based on caste, economic status, or both? (Indra Sawhney vs. 103rd Amendment). A wrong answer claiming \"Constitution is enough\" ignores that constitutional text requires continuous interpretation for new contexts (LGBTQ+ rights, algorithmic bias).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of political theory in **clarifying a concept** (e.g., secularism) versus **evaluating an institution** (e.g., the Election Commission). How do the analytical tasks differ?",
+     "a": "**Clarifying secularism** involves conceptual analysis: distinguishing Indian secularism (principled distance, state intervention for reform) from Western secularism (strict separation), and resolving ambiguities (does \"secular\" in Preamble mean anti-religious or equal respect?). **Evaluating the Election Commission** involves institutional assessment: checking its independence (Article 324), competence (VVPAT audit), and fairness (Model Code of Conduct enforcement) against democratic standards. The first is *definitional*; the second is *performance-based*. A wrong answer conflating the two (e.g., \"both just need definitions\") fails to see evaluation requires empirical-institutional scrutiny beyond conceptual precision.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Political theory is a luxury for academics; ordinary citizens in a democracy only need to know their rights and vote.\" Use the textbook's arguments about vigilant citizenship and the information society.",
+     "a": "The statement is flawed. The textbook argues: (1) In the **information society**, citizens participate in gram sabhas, online polls, and social media — arbitrary preferences without theoretical grounding lead to manipulation by misinformation. (2) **Vigilant citizens** make politicians more public-spirited (analogy: knowledgeable audience improves musical performance). (3) We **daily encounter discrimination** (caste, gender, class) in families, schools, workplaces; theory helps us examine our own prejudices and become moderate. (4) **Rational debate skills** are assets in the global order. A wrong answer agreeing with the statement reflects a passive view of citizenship (\"vote and forget\") rather than the active, reflective citizenship the Constitution envisions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 100-word argument convincing a Class 11 Science-stream student (who thinks political theory is \"useless opinion\") that studying political theory will improve their scientific research ethics and policy impact. Use all three functions.",
+     "a": "A strong answer links: **Clarity** — theory defines \"informed consent,\" \"privacy,\" \"public good\" precisely, preventing ethical sloppiness in human trials or AI data. **Evaluation** — it provides frameworks (utilitarian, deontological, justice-based) to evaluate dual-use research (e.g., gain-of-function viruses) beyond \"my lab follows rules.\" **Guidance** — it helps shape science policy: should CRISPR be regulated by scientists alone or democratic deliberation? A poor answer stays generic (\"helps critical thinking\") without connecting specific theory functions to concrete scientific dilemmas (ethics committees, funding priorities, technology governance).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

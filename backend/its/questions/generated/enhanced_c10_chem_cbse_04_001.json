@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_001",
+   "title": "c10_chem_cbse_04_001",
+   "questions": [
+    {
+     "q": "Write the electron dot structure of methane (CH₄) showing only the valence electrons. How many shared pairs of electrons are present in one molecule of methane?",
+     "a": "Carbon (2,4) shares its 4 valence electrons with four hydrogen atoms (each 1). The structure shows carbon in the center with four single bonds (—) to H atoms. There are 4 shared pairs (4 covalent bonds). A wrong answer where the student draws 4 dots around carbon without pairing with H dots reveals they think carbon \"gives away\" electrons (ionic thinking) or they don't understand each bond is a shared pair. If they draw 8 electrons around carbon but not paired with H, they confuse lone pairs with bonding pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Carbon has atomic number 6. Explain why carbon forms covalent compounds by sharing electrons rather than by losing or gaining electrons to form C⁴⁺ or C⁴⁻ ions. Use the concepts of ionisation energy and electron affinity in your explanation.",
+     "a": "Carbon has 4 valence electrons. Removing 4 electrons to form C⁴⁺ requires extremely high ionisation energy (sum of 1st to 4th IE ≈ 11,000 kJ/mol) — not feasible under normal conditions. Gaining 4 electrons to form C⁴⁻ would require adding electrons to an already negatively charged ion, facing huge electron-electron repulsion; the electron affinity for adding 4 electrons is highly endothermic. Sharing electrons avoids these energy penalties. A wrong answer stating \"carbon wants to complete its octet so it shares\" without mentioning energy barriers shows superficial understanding — they recall the octet rule but not the *why* behind covalent vs ionic choice.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the electron dot structure of ethyne (C₂H₂). Calculate the total number of valence electrons used in the structure and verify that each atom achieves a stable configuration (duplet for H, octet for C).",
+     "a": "Step 1: Valence electrons: C (4 each) × 2 = 8; H (1 each) × 2 = 2. Total = 10 valence electrons.\nStep 2: Skeleton: H—C≡C—H (triple bond between carbons, single bonds to H).\nStep 3: Place electrons: Each H:C single bond = 1 shared pair (2 e⁻). C≡C triple bond = 3 shared pairs (6 e⁻). Total shared pairs = 5 pairs = 10 electrons. No lone pairs.\nStep 4: Check octet/duplet: Each H has 2 electrons (duplet). Each C has 2 (from C-H) + 6 (from C≡C) = 8 electrons (octet).\nA wrong answer drawing C=C double bond (using only 8 valence electrons) shows they don't know carbon's tetravalency requires 4 bonds per carbon — they satisfy octet but not valency. If they put lone pairs on carbon, they miscount valence electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electron dot structures of ethane (C₂H₆), ethene (C₂H₄), and ethyne (C₂H₂). Identify the trend in: (a) number of C—C bonds, (b) number of hydrogen atoms per carbon, (c) total valence electrons per molecule. Explain how the bond order affects the C—C bond length and strength.",
+     "a": "(a) Ethane: C—C single bond (1 shared pair); Ethene: C=C double bond (2 shared pairs); Ethyne: C≡C triple bond (3 shared pairs). Trend: bond order increases.\n(b) Ethane: 3 H per C; Ethene: 2 H per C; Ethyne: 1 H per C. Trend: H per C decreases as C—C bond order increases (carbon uses more electrons for C—C bonding, fewer for C—H).\n(c) Total valence electrons: C₂H₆ = 2×4 + 6×1 = 14; C₂H₄ = 2×4 + 4×1 = 12; C₂H₂ = 2×4 + 2×1 = 10. Trend: decreases.\nBond length: single > double > triple. Bond strength: single < double < triple. A wrong answer stating \"double bond is twice as strong as single bond\" reveals a misconception — bond energy of C=C (614 kJ/mol) is not double C—C (347 kJ/mol) because π bonds are weaker than σ bonds.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the electron dot structure of carbon dioxide (CO₂) as O=C=O with two lone pairs on each oxygen and no lone pairs on carbon. They claim: \"Carbon has 4 bonds (two double bonds), so its octet is complete. Oxygen has 2 bonds and 2 lone pairs, so its octet is complete. This structure is correct.\" Evaluate this claim. Is the structure correct? Justify.",
+     "a": "The claim is CORRECT. The structure O=C=O (with 2 lone pairs on each O) is the correct Lewis structure for CO₂. Carbon: 2 double bonds = 4 shared pairs = 8 electrons (octet). Each oxygen: 1 double bond (2 shared pairs) + 2 lone pairs (4 electrons) = 8 electrons (octet). Total valence electrons used: C (4) + 2×O (6 each) = 16. In structure: 2 double bonds = 4 shared pairs = 8 electrons; 4 lone pairs on O = 8 electrons. Total = 16. Matches. A student who says \"incorrect because carbon has no lone pairs\" misunderstands that octet can be satisfied entirely by bonding pairs. A student who draws O—C≡O (with formal charges) shows they don't know the most stable structure minimizes formal charges (zero on all atoms in O=C=O).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using coloured balls (or clay) and sticks to model the formation of single, double, and triple covalent bonds in carbon compounds. Your model must show: (a) the number of valence electrons of carbon, (b) how sharing changes with bond order, (c) that carbon always forms four bonds. Write the steps and the key observation students should record.",
+     "a": "Expected answer: Use 4 black balls (carbon valence electrons) and 1 white ball per hydrogen electron. For CH₄: 4 black + 4 white → form 4 pairs (C-H bonds). For C₂H₆: two sets of 4 black each; share 1 black-black pair (C-C) + 3 black-white pairs per C (C-H). For C₂H₄: share 2 black-black pairs (C=C) + 2 black-white pairs per C. For C₂H₂: share 3 black-black pairs (C≡C) + 1 black-white pair per C. Key observation: In every model, each carbon centre is connected to exactly 4 sticks (bonds). A poor answer that shows carbon with 3 or 5 sticks reveals the student hasn't internalized tetravalency. If they use different colours for σ and π bonds, that's advanced but not required at this level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

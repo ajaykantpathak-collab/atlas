@@ -1,0 +1,2967 @@
+---
+- formula_id: "CHM_STOICH_001"
+  name: "Avogadro's number definition"
+  latex: "N_A = 6.022 \times 10^{23} \text{ mol}^{-1}"
+  variables: []
+  preconditions: []
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet","ug","pg","phd"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_CONSTANT"]
+  constants: true
+
+- formula_id: "CHM_STOICH_002"
+  name: "Mole definition"
+  latex: "n = \frac{N}{N_A} = \frac{m}{M}"
+  variables:
+    - symbol: "n"
+      name: "amount_of_substance"
+      unit: "mol"
+      quantity_type: "amount"
+    - symbol: "N"
+      name: "number_of_particles"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "NA"
+      name: "Avogadro_number"
+      unit: "mol^-1"
+      quantity_type: "inverse_amount"
+    - symbol: "m"
+      name: "mass"
+      unit: "g"
+      quantity_type: "mass"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "g/mol"
+      quantity_type: "mass_per_amount"
+  preconditions: ["pure_substance"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet","ug","pg"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_003"
+  name: "Number of moles from volume at STP"
+  latex: "n = \frac{V_{STP}}{22.4 \text{ L}}"
+  variables:
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+      quantity_type: "amount"
+    - symbol: "V_STP"
+      name: "volume_at_STP"
+      unit: "L"
+      quantity_type: "volume"
+  preconditions: ["ideal_gas","STP_conditions"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_GAS"]
+
+- formula_id: "CHM_STOICH_004"
+  name: "Molarity definition"
+  latex: "M = \frac{n}{V_{sol} \text{ (L)}} = \frac{\text{moles of solute}}{\text{liters of solution}}"
+  variables:
+    - symbol: "M"
+      name: "molarity"
+      unit: "mol/L"
+      quantity_type: "concentration"
+    - symbol: "n"
+      name: "moles_of_solute"
+      unit: "mol"
+      quantity_type: "amount"
+    - symbol: "V_sol"
+      name: "volume_of_solution"
+      unit: "L"
+      quantity_type: "volume"
+  preconditions: ["solution"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_CONC"]
+
+- formula_id: "CHM_STOICH_005"
+  name: "Molality definition"
+  latex: "m = \frac{n}{m_{solvent} \text{ (kg)}} = \frac{\text{moles of solute}}{\text{kg of solvent}}"
+  variables:
+    - symbol: "m"
+      name: "molality"
+      unit: "mol/kg"
+      quantity_type: "concentration"
+    - symbol: "n"
+      name: "moles_of_solute"
+      unit: "mol"
+      quantity_type: "amount"
+    - symbol: "m_solvent"
+      name: "mass_of_solvent"
+      unit: "kg"
+      quantity_type: "mass"
+  preconditions: ["solution"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_CONC"]
+
+- formula_id: "CHM_STOICH_006"
+  name: "Molarity-Molality conversion"
+  latex: "m = \frac{1000 M}{1000\rho - M M_w}"
+  variables:
+    - symbol: "m"
+      name: "molality"
+      unit: "mol/kg"
+    - symbol: "M"
+      name: "molarity"
+      unit: "mol/L"
+    - symbol: "\\rho"
+      name: "density"
+      unit: "g/L"
+    - symbol: "M_w"
+      name: "molar_mass_of_solute"
+      unit: "g/mol"
+  preconditions: ["aqueous_solution"]
+  grade_range: ["class11","class12","jee_main","neet","ug"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_CONC"]
+
+- formula_id: "CHM_STOICH_007"
+  name: "Mole fraction"
+  latex: "\chi_A = \frac{n_A}{n_A + n_B}, \quad \chi_A + \chi_B = 1"
+  variables:
+    - symbol: "\\chi_A"
+      name: "mole_fraction_A"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_A"
+      name: "moles_of_A"
+      unit: "mol"
+    - symbol: "n_B"
+      name: "moles_of_B"
+      unit: "mol"
+  preconditions: ["mixture"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_008"
+  name: "Stoichiometric coefficient ratio"
+  latex: "\frac{n_A}{a} = \frac{n_B}{b} = \frac{n_C}{c} \quad (aA + bB \rightarrow cC)"
+  variables:
+    - symbol: "n_A"
+      name: "moles_of_A"
+      unit: "mol"
+    - symbol: "a"
+      name: "stoichiometric_coefficient_A"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_B"
+      name: "moles_of_B"
+      unit: "mol"
+    - symbol: "b"
+      name: "stoichiometric_coefficient_B"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["balanced_chemical_equation"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Stoichiometry"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_009"
+  name: "Limiting reagent - moles method"
+  latex: "n_{limiting} = \min\left(\frac{n_A}{a}, \frac{n_B}{b}, \dots\right)"
+  variables:
+    - symbol: "n_limiting"
+      name: "moles_of_limiting_reagent"
+      unit: "mol"
+    - symbol: "n_A"
+      name: "moles_of_reactant_A"
+      unit: "mol"
+    - symbol: "a"
+      name: "stoichiometric_coefficient"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["multiple_reactants"]
+  grade_range: ["class10","class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Stoichiometry"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_LIMREAGENT"]
+
+- formula_id: "CHM_STOICH_010"
+  name: "Percent yield"
+  latex: "\\%\\text{Yield} = \\frac{\\text{actual yield}}{\\text{theoretical yield}} \\times 100"
+  variables: []
+  preconditions: ["chemical_reaction"]
+  grade_range: ["class10","class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Stoichiometry"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_YIELD"]
+
+- formula_id: "CHM_STOICH_011"
+  name: "Percent purity"
+  latex: "\\%\\text{Purity} = \\frac{\\text{mass of pure substance}}{\\text{mass of impure sample}} \\times 100"
+  variables: []
+  preconditions: ["mixture"]
+  grade_range: ["class11","class12","jee_main","neet","ug"]
+  chapter: "Stoichiometry"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_012"
+  name: "Mass percent composition"
+  latex: "\\%\\text{mass of element} = \\frac{n_i \\times M_i}{M_{compound}} \\times 100"
+  variables:
+    - symbol: "n_i"
+      name: "number_of_atoms_of_element_i"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "M_i"
+      name: "atomic_mass_of_element_i"
+      unit: "g/mol"
+    - symbol: "M_compound"
+      name: "molar_mass_of_compound"
+      unit: "g/mol"
+  preconditions: ["compound"]
+  grade_range: ["class9","class10","class11","class12","jee_main","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_013"
+  name: "Empirical formula mass"
+  latex: "EFM = \sum_i (n_i \times A_i)"
+  variables:
+    - symbol: "EFM"
+      name: "empirical_formula_mass"
+      unit: "g/mol"
+    - symbol: "n_i"
+      name: "subscript_in_empirical_formula"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "A_i"
+      name: "atomic_mass_of_element_i"
+      unit: "g/mol"
+  preconditions: ["compound"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_014"
+  name: "Molecular formula from empirical formula"
+  latex: "n = \frac{M_{molecular}}{EFM}, \quad MF = (EF)_n"
+  variables:
+    - symbol: "n"
+      name: "multiplication_factor"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "M_molecular"
+      name: "molar_mass_molecular"
+      unit: "g/mol"
+    - symbol: "EFM"
+      name: "empirical_formula_mass"
+      unit: "g/mol"
+  preconditions: ["compound"]
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH"]
+
+- formula_id: "CHM_STOICH_015"
+  name: "Equivalent weight"
+  latex: "E = \frac{M}{n\text{-factor}}"
+  variables:
+    - symbol: "E"
+      name: "equivalent_weight"
+      unit: "g/equiv"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "g/mol"
+    - symbol: "n-factor"
+      name: "n_factor"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["acid_or_base_or_redox"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Redox & Equivalent Concepts"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_EQWT"]
+
+- formula_id: "CHM_STOICH_016"
+  name: "Normality"
+  latex: "N = \frac{\text{equivalents of solute}}{\text{volume (L)}} = \frac{n \times M}{1000}"
+  variables:
+    - symbol: "N"
+      name: "normality"
+      unit: "equiv/L"
+    - symbol: "n"
+      name: "n_factor"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "M"
+      name: "molarity"
+      unit: "mol/L"
+  preconditions: ["solution"]
+  grade_range: ["class11","class12","jee_main","neet","ug"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_NORMALITY"]
+
+- formula_id: "CHM_STOICH_017"
+  name: "Gas stoichiometry (moles from STP volume)"
+  latex: "n_{gas} = \frac{V_{STP}}{22.4} = \frac{PV}{RT}"
+  variables:
+    - symbol: "n_gas"
+      name: "moles_of_gas"
+      unit: "mol"
+    - symbol: "V_STP"
+      name: "volume_at_STP"
+      unit: "L"
+    - symbol: "P"
+      name: "pressure"
+      unit: "atm"
+    - symbol: "V"
+      name: "volume"
+      unit: "L"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm / (mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["gas","ideal_behavior"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_GAS"]
+
+- formula_id: "CHM_STOICH_018"
+  name: "Dilution law"
+  latex: "M_1 V_1 = M_2 V_2"
+  variables:
+    - symbol: "M_1"
+      name: "initial_molarity"
+      unit: "mol/L"
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L"
+    - symbol: "M_2"
+      name: "final_molarity"
+      unit: "mol/L"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L"
+  preconditions: ["dilution_process"]
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Mole Concept"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_CONC"]
+
+- formula_id: "CHM_STOICH_019"
+  name: "Back titration formula"
+  latex: "n_{analyte} = n_{excess} = n_{added} - n_{reacted_with_back_titrant}"
+  variables: []
+  preconditions: ["back_titration"]
+  grade_range: ["class12","jee_main","neet","ug"]
+  chapter: "Stoichiometry"
+  subject: "chemistry"
+  concept_tags: ["CHM_STOICH","CHM_TITRATION"]
+
+- formula_id: "CHM_GAS_001"
+  name: "Boyle's Law"
+  latex: "P_1 V_1 = P_2 V_2 \quad (T = \text{constant})"
+  variables:
+    - symbol: "P_1"
+      name: "initial_pressure"
+      unit: "atm"
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L"
+    - symbol: "P_2"
+      name: "final_pressure"
+      unit: "atm"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L"
+  preconditions: ["isothermal_process"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_002"
+  name: "Charles's Law"
+  latex: "\\frac{V_1}{T_1} = \\frac{V_2}{T_2} \quad (P = \text{constant})"
+  variables:
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L"
+    - symbol: "T_1"
+      name: "initial_temperature"
+      unit: "K"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L"
+    - symbol: "T_2"
+      name: "final_temperature"
+      unit: "K"
+  preconditions: ["isobaric_process"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_003"
+  name: "Avogadro's Law"
+  latex: "\\frac{V_1}{n_1} = \\frac{V_2}{n_2} \quad (P, T = \text{constant})"
+  variables:
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L"
+    - symbol: "n_1"
+      name: "initial_moles"
+      unit: "mol"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L"
+    - symbol: "n_2"
+      name: "final_moles"
+      unit: "mol"
+  preconditions: ["constant_P_T"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_004"
+  name: "Gay-Lussac's Law (Pressure-Temperature)"
+  latex: "\\frac{P_1}{T_1} = \\frac{P_2}{T_2} \quad (V = \text{constant})"
+  variables:
+    - symbol: "P_1"
+      name: "initial_pressure"
+      unit: "atm"
+    - symbol: "T_1"
+      name: "initial_temperature"
+      unit: "K"
+    - symbol: "P_2"
+      name: "final_pressure"
+      unit: "atm"
+    - symbol: "T_2"
+      name: "final_temperature"
+      unit: "K"
+  preconditions: ["isochoric_process"]
+  grade_range: ["class10","class11","class12","jee_main","neet"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_005"
+  name: "Ideal Gas Law"
+  latex: "PV = nRT"
+  variables:
+    - symbol: "P"
+      name: "pressure"
+      unit: "atm"
+    - symbol: "V"
+      name: "volume"
+      unit: "L"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm / (mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["ideal_gas"]
+  grade_range: ["class9","class10","class11","class12","jee_main","jee_advanced","neet","ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_006"
+  name: "Ideal Gas Law (number density form)"
+  latex: "PV = Nk_BT"
+  variables:
+    - symbol: "P"
+      name: "pressure"
+      unit: "Pa"
+    - symbol: "V"
+      name: "volume"
+      unit: "m^3"
+    - symbol: "N"
+      name: "number_of_molecules"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "k_B"
+      name: "Boltzmann_constant"
+      unit: "J/K"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["ideal_gas"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_STAT_THERMO"]
+
+- formula_id: "CHM_GAS_007"
+  name: "Graham's Law of Effusion/Diffusion"
+  latex: "\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}}"
+  variables:
+    - symbol: "r_1"
+      name: "rate_of_effusion_gas1"
+      unit: "mol/s"
+    - symbol: "r_2"
+      name: "rate_of_effusion_gas2"
+      unit: "mol/s"
+    - symbol: "M_1"
+      name: "molar_mass_gas1"
+      unit: "g/mol"
+    - symbol: "M_2"
+      name: "molar_mass_gas2"
+      unit: "g/mol"
+  preconditions: ["gases","same_temperature"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_008"
+  name: "Dalton's Law of Partial Pressures"
+  latex: "P_{total} = \sum_i P_i, \quad P_i = \chi_i P_{total}"
+  variables:
+    - symbol: "P_total"
+      name: "total_pressure"
+      unit: "atm"
+    - symbol: "P_i"
+      name: "partial_pressure_of_i"
+      unit: "atm"
+    - symbol: "\\chi_i"
+      name: "mole_fraction_of_i"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["nonreacting_gas_mixture"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_GAS_LAW"]
+
+- formula_id: "CHM_GAS_009"
+  name: "Kinetic energy of ideal gas molecule"
+  latex: "KE_{avg} = \frac{3}{2}k_BT = \frac{3}{2}RT \text{ per mole}"
+  variables:
+    - symbol: "KE_avg"
+      name: "average_kinetic_energy"
+      unit: "J"
+    - symbol: "k_B"
+      name: "Boltzmann_constant"
+      unit: "J/K"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["ideal_gas"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_KINETIC_THEORY"]
+
+- formula_id: "CHM_GAS_010"
+  name: "RMS speed of gas molecules"
+  latex: "u_{rms} = \sqrt{\\frac{3RT}{M}} = \sqrt{\\frac{3k_BT}{m}}"
+  variables:
+    - symbol: "u_rms"
+      name: "rms_speed"
+      unit: "m/s"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "kg/mol"
+    - symbol: "k_B"
+      name: "Boltzmann_constant"
+      unit: "J/K"
+    - symbol: "m"
+      name: "mass_of_one_molecule"
+      unit: "kg"
+  preconditions: ["ideal_gas"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_KINETIC_THEORY"]
+
+- formula_id: "CHM_GAS_011"
+  name: "Most probable speed"
+  latex: "u_{mp} = \sqrt{\\frac{2RT}{M}} = \sqrt{\\frac{2k_BT}{m}}"
+  variables:
+    - symbol: "u_mp"
+      name: "most_probable_speed"
+      unit: "m/s"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "kg/mol"
+  preconditions: ["ideal_gas"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_KINETIC_THEORY"]
+
+- formula_id: "CHM_GAS_012"
+  name: "Average speed of gas molecules"
+  latex: "u_{avg} = \sqrt{\\frac{8RT}{\pi M}} = \sqrt{\\frac{8k_BT}{\pi m}}"
+  variables:
+    - symbol: "u_avg"
+      name: "average_speed"
+      unit: "m/s"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "kg/mol"
+  preconditions: ["ideal_gas"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_KINETIC_THEORY"]
+
+- formula_id: "CHM_GAS_013"
+  name: "Van der Waals equation of state"
+  latex: "\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT"
+  variables:
+    - symbol: "P"
+      name: "pressure"
+      unit: "atm"
+    - symbol: "V"
+      name: "volume"
+      unit: "L"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "a"
+      name: "van_der_Waals_a"
+      unit: "L^2 atm / mol^2"
+    - symbol: "b"
+      name: "van_der_Waals_b"
+      unit: "L/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm / (mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["real_gas"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_REAL_GAS"]
+
+- formula_id: "CHM_GAS_014"
+  name: "Van der Waals critical constants"
+  latex: "V_c = 3b, \quad P_c = \\frac{a}{27b^2}, \quad T_c = \\frac{8a}{27Rb}"
+  variables: []
+  preconditions: ["critical_conditions"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_REAL_GAS"]
+
+- formula_id: "CHM_GAS_015"
+  name: "Critical compressibility factor"
+  latex: "Z_c = \\frac{P_c V_c}{RT_c} = \\frac{3}{8} = 0.375"
+  variables: []
+  preconditions: ["critical_conditions"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "States of Matter"
+  subject: "chemistry"
+  concept_tags: ["CHM_GAS","CHM_REAL_GAS"]
+
+- formula_id: "CHM_ATM_001"
+  name: "Rydberg formula for hydrogen spectral series"
+  latex: "\\bar{\\nu} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right), \quad R_H = 1.097 \\times 10^7 \text{ m}^{-1}"
+  variables:
+    - symbol: "\\bar{\\nu}"
+      name: "wavenumber"
+      unit: "m^-1"
+    - symbol: "R_H"
+      name: "Rydberg_constant_hydrogen"
+      unit: "m^-1"
+    - symbol: "n_1"
+      name: "lower_energy_level"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_2"
+      name: "higher_energy_level"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["hydrogen_atom","electron_transition"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_SPECTRA"]
+
+- formula_id: "CHM_ATM_002"
+  name: "Bohr radius for hydrogen-like atoms"
+  latex: "r_n = \\frac{n^2 h^2 \\varepsilon_0}{\\pi m_e e^2} = 0.529 \\frac{n^2}{Z} \\text{ \\AA}"
+  variables:
+    - symbol: "r_n"
+      name: "orbital_radius"
+      unit: "m"
+    - symbol: "n"
+      name: "principal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "Z"
+      name: "atomic_number"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["hydrogen_or_hydrogen_like_atom"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_BOHR"]
+
+- formula_id: "CHM_ATM_003"
+  name: "Bohr energy levels"
+  latex: "E_n = -\\frac{13.6 Z^2}{n^2} \text{ eV} = -\\frac{2.18 \\times 10^{-18} Z^2}{n^2} \text{ J}"
+  variables:
+    - symbol: "E_n"
+      name: "energy_of_nth_level"
+      unit: "eV"
+    - symbol: "Z"
+      name: "atomic_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n"
+      name: "principal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["hydrogen_or_hydrogen_like_atom"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_BOHR"]
+
+- formula_id: "CHM_ATM_004"
+  name: "Energy of photon emitted"
+  latex: "\\Delta E = E_{i} - E_{f} = h\\nu = \\frac{hc}{\\lambda} = \\frac{1240}{\\lambda_{nm}} \text{ eV}"
+  variables:
+    - symbol: "\\Delta E"
+      name: "energy_of_photon"
+      unit: "J_or_eV"
+    - symbol: "h"
+      name: "Planck_constant"
+      unit: "J·s"
+    - symbol: "\\nu"
+      name: "frequency"
+      unit: "Hz"
+    - symbol: "c"
+      name: "speed_of_light"
+      unit: "m/s"
+    - symbol: "\\lambda"
+      name: "wavelength"
+      unit: "m"
+  preconditions: ["electron_transition"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_PHOTOELECTRIC"]
+
+- formula_id: "CHM_ATM_005"
+  name: "de Broglie wavelength"
+  latex: "\\lambda = \\frac{h}{p} = \\frac{h}{mv}"
+  variables:
+    - symbol: "\\lambda"
+      name: "de_Broglie_wavelength"
+      unit: "m"
+    - symbol: "h"
+      name: "Planck_constant"
+      unit: "J·s"
+    - symbol: "p"
+      name: "momentum"
+      unit: "kg·m/s"
+    - symbol: "m"
+      name: "mass"
+      unit: "kg"
+    - symbol: "v"
+      name: "velocity"
+      unit: "m/s"
+  preconditions: ["moving_particle"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_DBROGLIE"]
+
+- formula_id: "CHM_ATM_006"
+  name: "Heisenberg Uncertainty Principle"
+  latex: "\\Delta x \\cdot \\Delta p \\geq \\frac{\\hbar}{2}, \\quad \\Delta E \\cdot \\Delta t \\geq \\frac{\\hbar}{2}"
+  variables:
+    - symbol: "\\Delta x"
+      name: "uncertainty_in_position"
+      unit: "m"
+    - symbol: "\\Delta p"
+      name: "uncertainty_in_momentum"
+      unit: "kg·m/s"
+    - symbol: "\\hbar"
+      name: "reduced_Planck_constant"
+      unit: "J·s"
+  preconditions: ["subatomic_particle"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_UNCERTAINTY"]
+
+- formula_id: "CHM_ATM_007"
+  name: "Photoelectric equation"
+  latex: "h\\nu = \\phi + KE_{max}, \\quad KE_{max} = h\\nu - \\phi"
+  variables:
+    - symbol: "h"
+      name: "Planck_constant"
+      unit: "J·s"
+    - symbol: "\\nu"
+      name: "frequency_of_incident_light"
+      unit: "Hz"
+    - symbol: "\\phi"
+      name: "work_function"
+      unit: "J"
+    - symbol: "KE_max"
+      name: "maximum_kinetic_energy_of_ejected_electron"
+      unit: "J"
+  preconditions: ["light_incident_on_metal"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_PHOTOELECTRIC"]
+
+- formula_id: "CHM_ATM_008"
+  name: "Threshold frequency and wavelength"
+  latex: "\\nu_0 = \\frac{\\phi}{h}, \\quad \\lambda_0 = \\frac{hc}{\\phi}"
+  variables:
+    - symbol: "\\nu_0"
+      name: "threshold_frequency"
+      unit: "Hz"
+    - symbol: "\\lambda_0"
+      name: "threshold_wavelength"
+      unit: "m"
+    - symbol: "\\phi"
+      name: "work_function"
+      unit: "J"
+    - symbol: "h"
+      name: "Planck_constant"
+      unit: "J·s"
+    - symbol: "c"
+      name: "speed_of_light"
+      unit: "m/s"
+  preconditions: ["photoelectric_effect"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_PHOTOELECTRIC"]
+
+- formula_id: "CHM_ATM_009"
+  name: "Schrödinger equation (time-independent)"
+  latex: "-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi"
+  variables:
+    - symbol: "\\hbar"
+      name: "reduced_Planck_constant"
+      unit: "J·s"
+    - symbol: "m"
+      name: "mass"
+      unit: "kg"
+    - symbol: "\\nabla^2"
+      name: "Laplacian"
+      unit: "m^-2"
+    - symbol: "\\psi"
+      name: "wave_function"
+      unit: "m^-3/2"
+    - symbol: "V"
+      name: "potential_energy"
+      unit: "J"
+    - symbol: "E"
+      name: "total_energy"
+      unit: "J"
+  preconditions: ["quantum_system"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Quantum Chemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_QUANTUM","CHM_SCHRODINGER"]
+
+- formula_id: "CHM_ATM_010"
+  name: "Quantum numbers — Four quantum numbers"
+  latex: "n \\in \\mathbb{Z}^+, \quad l = 0, 1, \dots, n-1, \quad m_l = -l, \dots, +l, \quad m_s = \\pm\\frac{1}{2}"
+  variables: []
+  preconditions: ["electron_in_atom"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_QUANTUM_NUMS"]
+
+- formula_id: "CHM_ATM_011"
+  name: "Maximum electrons per subshell"
+  latex: "N_{max}(n,l) = 2(2l+1)"
+  variables:
+    - symbol: "N_max"
+      name: "maximum_electrons"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "l"
+      name: "azimuthal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["electron_subshell"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_QUANTUM_NUMS"]
+
+- formula_id: "CHM_ATM_012"
+  name: "Maximum electrons per shell"
+  latex: "N_{max}(n) = 2n^2"
+  variables:
+    - symbol: "N_max"
+      name: "maximum_electrons_per_shell"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n"
+      name: "principal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["electron_shell"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_QUANTUM_NUMS"]
+
+- formula_id: "CHM_ATM_013"
+  name: "Angular momentum of electron in orbit"
+  latex: "L = m_e v r = \\frac{nh}{2\\pi} = n\\hbar"
+  variables:
+    - symbol: "L"
+      name: "orbital_angular_momentum"
+      unit: "J·s"
+    - symbol: "n"
+      name: "principal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\hbar"
+      name: "reduced_Planck_constant"
+      unit: "J·s"
+  preconditions: ["Bohr_atom"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_BOHR"]
+
+- formula_id: "CHM_ATM_014"
+  name: "Effective nuclear charge (Slater's Rules)"
+  latex: "Z_{eff} = Z - \\sigma, \\quad \\sigma = \\sum_i s_i"
+  variables:
+    - symbol: "Z_eff"
+      name: "effective_nuclear_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "Z"
+      name: "atomic_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\sigma"
+      name: "screening_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["multi_electron_atom"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_PERIODIC"]
+
+- formula_id: "CHM_ATM_015"
+  name: "Ionization energy approximation"
+  latex: "IE \\approx \\frac{Z_{eff}^2 R_H}{n^2} \propto \\frac{Z_{eff}^2}{n^2}"
+  variables:
+    - symbol: "IE"
+      name: "ionization_energy"
+      unit: "J_or_eV"
+    - symbol: "Z_eff"
+      name: "effective_nuclear_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n"
+      name: "principal_quantum_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "R_H"
+      name: "Rydberg_constant_energy"
+      unit: "J"
+  preconditions: ["atom"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Atomic Structure"
+  subject: "chemistry"
+  concept_tags: ["CHM_ATM","CHM_PERIODIC"]
+
+- formula_id: "CHM_BOND_001"
+  name: "Total valence electrons in Lewis structure"
+  latex: "TVE = \\sum_i n_i(V_i) + q_{ion}"
+  variables:
+    - symbol: "TVE"
+      name: "total_valence_electrons"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "n_i"
+      name: "number_of_atoms_of_element_i"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "V_i"
+      name: "valence_electrons_of_element_i"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "q_ion"
+      name: "ionic_charge_adjustment"
+      unit: "C_or_count"
+      quantity_type: "count"
+  preconditions: ["molecule_or_ion"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_LEWIS"]
+
+- formula_id: "CHM_BOND_002"
+  name: "Formal charge"
+  latex: "FC = V - L - \\frac{B}{2}"
+  variables:
+    - symbol: "FC"
+      name: "formal_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "V"
+      name: "valence_electrons_of_free_atom"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "L"
+      name: "nonbonding_lone_pair_electrons"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "B"
+      name: "bonding_electrons"
+      unit: ""
+      quantity_type: "count"
+  preconditions: ["atom_in_molecule"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_LEWIS"]
+
+- formula_id: "CHM_BOND_003"
+  name: "Bond order"
+  latex: "BO = \\frac{N_b - N_a}{2}"
+  variables:
+    - symbol: "BO"
+      name: "bond_order"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "N_b"
+      name: "number_of_bonding_electrons"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "N_a"
+      name: "number_of_antibonding_electrons"
+      unit: ""
+      quantity_type: "count"
+  preconditions: ["molecule_with_MO_diagram"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_MO"]
+
+- formula_id: "CHM_BOND_004"
+  name: "Bond dissociation energy relationship"
+  latex: "\\Delta H_{reaction} = \\sum BE_{reactants} - \\sum BE_{products}"
+  variables:
+    - symbol: "\\Delta H_reaction"
+      name: "enthalpy_of_reaction"
+      unit: "kJ/mol"
+    - symbol: "BE_reactants"
+      name: "bond_energies_of_reactants"
+      unit: "kJ/mol"
+    - symbol: "BE_products"
+      name: "bond_energies_of_products"
+      unit: "kJ/mol"
+  preconditions: ["chemical_reaction"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_BOND_ENERGY"]
+
+- formula_id: "CHM_BOND_005"
+  name: "Bond enthalpy for diatomic molecule"
+  latex: "BE = D_0 + \\frac{3}{2}RT - h\\nu_e\\left(\\frac{1}{2} - x_e\\right)"
+  variables:
+    - symbol: "BE"
+      name: "bond_enthalpy"
+      unit: "kJ/mol"
+    - symbol: "D_0"
+      name: "dissociation_energy"
+      unit: "kJ/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["diatomic_molecule"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_BOND_ENERGY"]
+
+- formula_id: "CHM_BOND_006"
+  name: "Coulomb's Law for ionic bond strength"
+  latex: "F = \\frac{q_1 q_2}{4\\pi\\varepsilon_0 r^2}, \\quad U = -\\frac{q_1 q_2}{4\\pi\\varepsilon_0 r}"
+  variables:
+    - symbol: "F"
+      name: "electrostatic_force"
+      unit: "N"
+    - symbol: "U"
+      name: "electrostatic_potential_energy"
+      unit: "J"
+    - symbol: "q_1"
+      name: "charge_on_ion_1"
+      unit: "C"
+    - symbol: "q_2"
+      name: "charge_on_ion_2"
+      unit: "C"
+    - symbol: "r"
+      name: "interionic_distance"
+      unit: "m"
+    - symbol: "\\varepsilon_0"
+      name: "vacuum_permittivity"
+      unit: "F/m"
+  preconditions: ["ionic_bond"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_IONIC"]
+
+- formula_id: "CHM_BOND_007"
+  name: "Percent ionic character from electronegativity"
+  latex: "\\% IC = \\left(1 - e^{-0.25(\\chi_A - \\chi_B)^2}\\right) \\times 100"
+  variables:
+    - symbol: "\\% IC"
+      name: "percent_ionic_character"
+      unit: "%"
+    - symbol: "\\chi_A"
+      name: "electronegativity_A"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\chi_B"
+      name: "electronegativity_B"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["polar_covalent_or_ionic_bond"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_008"
+  name: "Dipole moment"
+  latex: "\\mu = q \\times d"
+  variables:
+    - symbol: "\\mu"
+      name: "dipole_moment"
+      unit: "C·m_or_Debye"
+    - symbol: "q"
+      name: "magnitude_of_charge"
+      unit: "C"
+    - symbol: "d"
+      name: "bond_length"
+      unit: "m"
+  preconditions: ["polar_bond_or_molecule"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_009"
+  name: "Resultant dipole of two bond dipoles"
+  latex: "\\mu_{net}^2 = \\mu_1^2 + \\mu_2^2 + 2\\mu_1\\mu_2\\cos\\theta"
+  variables:
+    - symbol: "\\mu_net"
+      name: "net_dipole_moment"
+      unit: "D"
+    - symbol: "\\mu_1"
+      name: "dipole_moment_1"
+      unit: "D"
+    - symbol: "\\mu_2"
+      name: "dipole_moment_2"
+      unit: "D"
+    - symbol: "\\theta"
+      name: "angle_between_dipoles"
+      unit: "degree_or_radian"
+  preconditions: ["molecule_with_multiple_bond_dipoles"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_010"
+  name: "VSEPR: Steric number"
+  latex: "SN = N_b + N_{lp}"
+  variables:
+    - symbol: "SN"
+      name: "steric_number"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "N_b"
+      name: "number_of_bonded_atoms"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "N_lp"
+      name: "number_of_lone_pairs"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["molecule_with_central_atom"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_VSEPR"]
+
+- formula_id: "CHM_BOND_011"
+  name: "VSEPR: sp3d2 bond angle variation"
+  latex: "\\theta_{eq} = 90° + 12° \\times N_{lp} \quad \\text{for } N_{lp} = 0,1"
+  variables: []
+  preconditions: ["sp3d2_hybridization"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_VSEPR"]
+
+- formula_id: "CHM_BOND_012"
+  name: "Hybridization: steric number rule"
+  latex: "SN=2 \\rightarrow sp, \quad SN=3 \\rightarrow sp^2, \quad SN=4 \\rightarrow sp^3, \quad SN=5 \\rightarrow sp^3d, \quad SN=6 \\rightarrow sp^3d^2"
+  variables: []
+  preconditions: ["molecule_with_central_atom"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_HYBRID"]
+
+- formula_id: "CHM_BOND_013"
+  name: "s-character percentage"
+  latex: "\\%s = \\frac{1}{1 + \\lambda} \\times 100"
+  variables:
+    - symbol: "\\%s"
+      name: "s_character_percentage"
+      unit: "%"
+    - symbol: "\\lambda"
+      name: "hybridization_ratio"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["hybridized_orbital"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_HYBRID"]
+
+- formula_id: "CHM_BOND_014"
+  name: "Molecular orbital bond order (H2-type)"
+  latex: "BO = \\frac{n_b - n_a}{2}"
+  variables:
+    - symbol: "BO"
+      name: "bond_order"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_b"
+      name: "bonding_electrons"
+      unit: ""
+      quantity_type: "count"
+    - symbol: "n_a"
+      name: "antibonding_electrons"
+      unit: ""
+      quantity_type: "count"
+  preconditions: ["diatomic_molecule"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_MO"]
+
+- formula_id: "CHM_BOND_015"
+  name: "MO bond energy relation"
+  latex: "BE = -\\left(E_{MO} - E_{AO}\\right)_{bonding} + \\left(E_{MO} - E_{AO}\\right)_{antibonding}"
+  variables: []
+  preconditions: ["diatomic_molecule"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_MO"]
+
+- formula_id: "CHM_BOND_016"
+  name: "Pauling electronegativity relation"
+  latex: "\\chi_A - \\chi_B = 0.208 \\sqrt{\\Delta_{AB}}"
+  variables:
+    - symbol: "\\chi_A"
+      name: "electronegativity_A"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\chi_B"
+      name: "electronegativity_B"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\Delta_{AB}"
+      name: "excess_bond_enthalpy"
+      unit: "kcal/mol"
+  preconditions: ["heteronuclear_diatomic"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_017"
+  name: "Mulliken electronegativity"
+  latex: "\\chi_M = \\frac{IE + EA}{2} \times (2.87 \text{ eV})^{-1}"
+  variables:
+    - symbol: "\\chi_M"
+      name: "Mulliken_electronegativity"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "IE"
+      name: "ionization_energy"
+      unit: "eV"
+    - symbol: "EA"
+      name: "electron_affinity"
+      unit: "eV"
+  preconditions: ["atom"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_018"
+  name: "Allred-Rochow electronegativity"
+  latex: "\\chi_{AR} = 0.359 \\frac{Z_{eff}}{r^2} + 0.744"
+  variables:
+    - symbol: "\\chi_AR"
+      name: "Allred_Rochow_electronegativity"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "Z_eff"
+      name: "effective_nuclear_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "r"
+      name: "covalent_radius"
+      unit: "A"
+  preconditions: ["atom"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_POLARITY"]
+
+- formula_id: "CHM_BOND_019"
+  name: "Resonance energy"
+  latex: "RE = H_{Kekule} - H_{actual}"
+  variables:
+    - symbol: "RE"
+      name: "resonance_energy"
+      unit: "kJ/mol"
+    - symbol: "H_Kekule"
+      name: "enthalpy_of_Kekule_structure"
+      unit: "kJ/mol"
+    - symbol: "H_actual"
+      name: "actual_enthalpy"
+      unit: "kJ/mol"
+  preconditions: ["resonance_stabilized_molecule"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Chemical Bonding"
+  subject: "chemistry"
+  concept_tags: ["CHM_BOND","CHM_RESONANCE"]
+
+- formula_id: "CHM_THERMO_001"
+  name: "Gas constant values"
+  latex: "R = 8.314 \text{ J mol}^{-1}\text{K}^{-1} = 0.0821 \text{ L atm mol}^{-1}\text{K}^{-1} = 1.987 \text{ cal mol}^{-1}\text{K}^{-1}"
+  variables: []
+  preconditions: []
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_CONSTANT"]
+  constants: true
+
+- formula_id: "CHM_THERMO_002"
+  name: "First law of thermodynamics"
+  latex: "\\Delta U = q + w"
+  variables:
+    - symbol: "\\Delta U"
+      name: "change_in_internal_energy"
+      unit: "J"
+    - symbol: "q"
+      name: "heat_exchanged"
+      unit: "J"
+    - symbol: "w"
+      name: "work_done"
+      unit: "J"
+  preconditions: ["thermodynamic_process"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_1ST_LAW"]
+
+- formula_id: "CHM_THERMO_003"
+  name: "Enthalpy definition"
+  latex: "H = U + PV, \\quad \\Delta H = \\Delta U + P\\Delta V"
+  variables:
+    - symbol: "H"
+      name: "enthalpy"
+      unit: "J"
+    - symbol: "U"
+      name: "internal_energy"
+      unit: "J"
+    - symbol: "P"
+      name: "pressure"
+      unit: "Pa"
+    - symbol: "V"
+      name: "volume"
+      unit: "m^3"
+  preconditions: ["constant_pressure_process"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_ENTHALPY"]
+
+- formula_id: "CHM_THERMO_004"
+  name: "Work done (reversible isothermal expansion)"
+  latex: "w_{rev} = -2.303 nRT \\log\\frac{V_2}{V_1} = -nRT \\ln\\frac{V_2}{V_1}"
+  variables:
+    - symbol: "w_rev"
+      name: "reversible_work"
+      unit: "J"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L"
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L"
+  preconditions: ["isothermal_expansion","ideal_gas"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_WORK"]
+
+- formula_id: "CHM_THERMO_005"
+  name: "Work done (irreversible isothermal expansion)"
+  latex: "w_{irrev} = -P_{ext}(V_2 - V_1) = -P_{ext}\\Delta V"
+  variables:
+    - symbol: "w_irrev"
+      name: "irreversible_work"
+      unit: "J"
+    - symbol: "P_ext"
+      name: "external_pressure"
+      unit: "atm_or_Pa"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L_or_m^3"
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L_or_m^3"
+  preconditions: ["isothermal_expansion","external_pressure"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_WORK"]
+
+- formula_id: "CHM_THERMO_006"
+  name: "Heat capacity (molar)"
+  latex: "C_m = \\frac{q}{n\\Delta T}, \\quad C_p - C_v = R"
+  variables:
+    - symbol: "C_m"
+      name: "molar_heat_capacity"
+      unit: "J/(mol K)"
+    - symbol: "q"
+      name: "heat_added"
+      unit: "J"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "\\Delta T"
+      name: "temperature_change"
+      unit: "K"
+  preconditions: ["substance"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HEAT_CAP"]
+
+- formula_id: "CHM_THERMO_007"
+  name: "Heat capacity at constant pressure"
+  latex: "\\Delta H = nC_p\\Delta T"
+  variables:
+    - symbol: "\\Delta H"
+      name: "enthalpy_change"
+      unit: "J"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "C_p"
+      name: "heat_capacity_at_constant_pressure"
+      unit: "J/(mol K)"
+    - symbol: "\\Delta T"
+      name: "temperature_change"
+      unit: "K"
+  preconditions: ["constant_pressure_process"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HEAT_CAP"]
+
+- formula_id: "CHM_THERMO_008"
+  name: "Heat capacity at constant volume"
+  latex: "\\Delta U = nC_v\\Delta T"
+  variables:
+    - symbol: "\\Delta U"
+      name: "change_in_internal_energy"
+      unit: "J"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "C_v"
+      name: "heat_capacity_at_constant_volume"
+      unit: "J/(mol K)"
+    - symbol: "\\Delta T"
+      name: "temperature_change"
+      unit: "K"
+  preconditions: ["constant_volume_process"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HEAT_CAP"]
+
+- formula_id: "CHM_THERMO_009"
+  name: "Relation between Cp and Cv"
+  latex: "C_p - C_v = R \quad \\text{(ideal gas, 1 mole)}"
+  variables: []
+  preconditions: ["ideal_gas"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HEAT_CAP"]
+
+- formula_id: "CHM_THERMO_010"
+  name: "Standard enthalpy of reaction"
+  latex: "\\Delta_r H^\\circ = \\sum_i \\nu_i \\Delta_f H_i^\\circ"
+  variables:
+    - symbol: "\\Delta_r H^\\circ"
+      name: "standard_enthalpy_of_reaction"
+      unit: "kJ/mol"
+    - symbol: "\\nu_i"
+      name: "stoichiometric_coefficient"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\Delta_f H_i^\\circ"
+      name: "standard_enthalpy_of_formation"
+      unit: "kJ/mol"
+  preconditions: ["chemical_reaction","standard_conditions"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HESS"]
+
+- formula_id: "CHM_THERMO_011"
+  name: "Hess's Law"
+  latex: "\\Delta H_{overall} = \\Delta H_1 + \\Delta H_2 + \\Delta H_3 + \\dots"
+  variables: []
+  preconditions: ["chemical_reaction","multiple_paths"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HESS"]
+
+- formula_id: "CHM_THERMO_012"
+  name: "Bond enthalpy from bond dissociation"
+  latex: "BE(A-B) = \\Delta H_d(A-B) + \\frac{3}{2}RT - h\\nu_{vib}\\left(\\frac{1}{2} - x_e\\right)"
+  variables:
+    - symbol: "BE"
+      name: "bond_enthalpy"
+      unit: "kJ/mol"
+    - symbol: "\\Delta H_d"
+      name: "bond_dissociation_energy"
+      unit: "kJ/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["chemical_bond"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_BOND_ENERGY"]
+
+- formula_id: "CHM_THERMO_013"
+  name: "Enthalpy of atomization"
+  latex: "\\Delta_{at}H = \\sum BE_{bonds_broken} - \\sum BE_{bonds_formed}"
+  variables: []
+  preconditions: ["substance_to_gaseous_atoms"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HESS"]
+
+- formula_id: "CHM_THERMO_014"
+  name: "Standard enthalpy of formation"
+  latex: "\\Delta_f H^\\circ = \\Delta H_{elements} - \\Delta H_{compound}"
+  variables: []
+  preconditions: ["compound_from_elements"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_HESS"]
+
+- formula_id: "CHM_THERMO_015"
+  name: "Standard Gibbs free energy from cell potential"
+  latex: "\\Delta_r G^\\circ = -nFE^\\circ_{cell}"
+  variables:
+    - symbol: "\\Delta_r G^\\circ"
+      name: "standard_Gibbs_free_energy_change"
+      unit: "J"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "E^\\circ_{cell}"
+      name: "standard_cell_potential"
+      unit: "V"
+  preconditions: ["electrochemical_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS","CHM_ELECTRO"]
+
+- formula_id: "CHM_THERMO_016"
+  name: "Born-Haber cycle: lattice enthalpy"
+  latex: "\\Delta_{lat}H = \\Delta_{sub}H_M + IE + \\frac{1}{2}\\Delta_{diss}H_{X_2} + EA - \\Delta_f H^\\circ"
+  variables:
+    - symbol: "\\Delta_lat H"
+      name: "lattice_enthalpy"
+      unit: "kJ/mol"
+    - symbol: "\\Delta_sub H_M"
+      name: "enthalpy_of_sublimation_metal"
+      unit: "kJ/mol"
+    - symbol: "IE"
+      name: "ionization_energy"
+      unit: "kJ/mol"
+    - symbol: "\\Delta_diss H"
+      name: "bond_dissociation_enthalpy"
+      unit: "kJ/mol"
+    - symbol: "EA"
+      name: "electron_affinity"
+      unit: "kJ/mol"
+    - symbol: "\\Delta_f H^\\circ"
+      name: "standard_enthalpy_of_formation"
+      unit: "kJ/mol"
+  preconditions: ["ionic_compound"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_BORN_HABER"]
+
+- formula_id: "CHM_THERMO_017"
+  name: "Born-Landé equation for lattice energy"
+  latex: "U = -\\frac{N_A M z^+ z^- e^2}{4\\pi\\varepsilon_0 r_0} \\left(1 - \\frac{1}{n}\\right)"
+  variables:
+    - symbol: "U"
+      name: "lattice_energy"
+      unit: "J/mol"
+    - symbol: "N_A"
+      name: "Avogadro_number"
+      unit: "mol^-1"
+    - symbol: "M"
+      name: "Madelung_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "z+"
+      name: "cation_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "z-"
+      name: "anion_charge"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "e"
+      name: "elementary_charge"
+      unit: "C"
+    - symbol: "r_0"
+      name: "equilibrium_interionic_distance"
+      unit: "m"
+    - symbol: "n"
+      name: "Born_exponent"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["ionic_crystal"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_LATTICE"]
+
+- formula_id: "CHM_THERMO_018"
+  name: "Entropy change for reversible process"
+  latex: "\\Delta S = \\int_i^f \\frac{dq_{rev}}{T}"
+  variables:
+    - symbol: "\\Delta S"
+      name: "entropy_change"
+      unit: "J/K"
+    - symbol: "dq_rev"
+      name: "reversible_heat_exchange"
+      unit: "J"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["reversible_process"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_ENTROPY"]
+
+- formula_id: "CHM_THERMO_019"
+  name: "Entropy of ideal gas expansion"
+  latex: "\\Delta S = nR \\ln\\frac{V_2}{V_1}"
+  variables:
+    - symbol: "\\Delta S"
+      name: "entropy_change"
+      unit: "J/K"
+    - symbol: "n"
+      name: "moles"
+      unit: "mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "V_2"
+      name: "final_volume"
+      unit: "L_or_m^3"
+    - symbol: "V_1"
+      name: "initial_volume"
+      unit: "L_or_m^3"
+  preconditions: ["isothermal_expansion","ideal_gas"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_ENTROPY"]
+
+- formula_id: "CHM_THERMO_020"
+  name: "Third Law of Thermodynamics"
+  latex: "S(0 \text{ K, perfect crystal}) = 0"
+  variables: []
+  preconditions: ["perfect_crystal","absolute_zero"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_ENTROPY"]
+
+- formula_id: "CHM_THERMO_021"
+  name: "Standard molar entropy from Cp"
+  latex: "S^\\circ(T) = \\int_0^T \\frac{C_p}{T} dT + \\int_0^T \\frac{\\Delta H_{fus}}{T_m} dT + \\int_0^T \\frac{\\Delta H_{vap}}{T_b} dT"
+  variables: []
+  preconditions: ["substance","heat_capacity_data"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_ENTROPY"]
+
+- formula_id: "CHM_THERMO_022"
+  name: "Gibbs free energy"
+  latex: "G = H - TS, \\quad \\Delta G = \\Delta H - T\\Delta S"
+  variables:
+    - symbol: "G"
+      name: "Gibbs_free_energy"
+      unit: "J"
+    - symbol: "H"
+      name: "enthalpy"
+      unit: "J"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "S"
+      name: "entropy"
+      unit: "J/K"
+  preconditions: ["constant_pressure_constant_temperature"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS"]
+
+- formula_id: "CHM_THERMO_023"
+  name: "Gibbs free energy and equilibrium constant"
+  latex: "\\Delta_r G^\\circ = -RT \\ln K, \\quad K = e^{-\\Delta_r G^\\circ/RT}"
+  variables:
+    - symbol: "\\Delta_r G^\\circ"
+      name: "standard_Gibbs_free_energy_change"
+      unit: "J/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "K"
+      name: "equilibrium_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["chemical_equilibrium","standard_conditions"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS","CHM_EQM"]
+
+- formula_id: "CHM_THERMO_024"
+  name: "Gibbs-Helmholtz equation"
+  latex: "\\Delta G = \\Delta H - T\\left(\\frac{\\partial \\Delta G}{\\partial T}\\right)_P, \\quad \\left(\\frac{\\partial(\\Delta G/T)}{\\partial T}\\right)_P = -\\frac{\\Delta H}{T^2}"
+  variables: []
+  preconditions: ["constant_pressure"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS"]
+
+- formula_id: "CHM_THERMO_025"
+  name: "van't Hoff equation (equilibrium constant vs T)"
+  latex: "\\frac{d\\ln K}{dT} = \\frac{\\Delta_r H^\\circ}{RT^2}, \\quad \\ln\\frac{K_2}{K_1} = \\frac{\\Delta_r H^\\circ}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)"
+  variables:
+    - symbol: "K"
+      name: "equilibrium_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "\\Delta_r H^\\circ"
+      name: "standard_enthalpy_change"
+      unit: "J/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+  preconditions: ["chemical_equilibrium"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_VANTHOFF"]
+
+- formula_id: "CHM_THERMO_026"
+  name: "Clausius-Clapeyron equation"
+  latex: "\\frac{dP}{dT} = \\frac{\\Delta H_{vap}}{T\\Delta V}, \\quad \\ln\\frac{P_2}{P_1} = \\frac{\\Delta H_{vap}}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)"
+  variables:
+    - symbol: "P"
+      name: "vapor_pressure"
+      unit: "atm_or_Pa"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "\\Delta H_vap"
+      name: "enthalpy_of_vaporization"
+      unit: "J/mol"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+  preconditions: ["phase_equilibrium"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_CLAPEYRON"]
+
+- formula_id: "CHM_THERMO_027"
+  name: "Standard Gibbs free energy of formation"
+  latex: "\\Delta_f G^\\circ = \\Delta_f H^\\circ - T\\Delta_f S^\\circ"
+  variables:
+    - symbol: "\\Delta_f G^\\circ"
+      name: "standard_Gibbs_free_energy_of_formation"
+      unit: "J/mol"
+    - symbol: "\\Delta_f H^\\circ"
+      name: "standard_enthalpy_of_formation"
+      unit: "J/mol"
+    - symbol: "\\Delta_f S^\\circ"
+      name: "standard_entropy_of_formation"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["compound_formation"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS"]
+
+- formula_id: "CHM_THERMO_028"
+  name: "Cell potential and Gibbs free energy (general)"
+  latex: "\\Delta_r G = -nFE_{cell}, \\quad E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q"
+  variables:
+    - symbol: "\\Delta_r G"
+      name: "Gibbs_free_energy_change"
+      unit: "J/mol"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "E_cell"
+      name: "cell_potential"
+      unit: "V"
+  preconditions: ["electrochemical_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_GIBBS","CHM_ELECTRO"]
+
+- formula_id: "CHM_THERMO_029"
+  name: "Heat of reaction from calorimetry"
+  latex: "\\Delta H = \\frac{-C_{cal}\\Delta T}{n}"
+  variables:
+    - symbol: "\\Delta H"
+      name: "enthalpy_change"
+      unit: "J/mol"
+    - symbol: "C_cal"
+      name: "calorimeter_heat_capacity"
+      unit: "J/K"
+    - symbol: "\\Delta T"
+      name: "temperature_change"
+      unit: "K"
+    - symbol: "n"
+      name: "moles_reacted"
+      unit: "mol"
+  preconditions: ["bomb_calorimeter"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_CALORIMETRY"]
+
+- formula_id: "CHM_THERMO_030"
+  name: "Heat of reaction (solution calorimetry)"
+  latex: "q = m \\cdot C_{sp} \\cdot \\Delta T, \\quad \\Delta H = \\frac{-q}{n}"
+  variables:
+    - symbol: "q"
+      name: "heat_exchanged"
+      unit: "J"
+    - symbol: "m"
+      name: "mass_of_solution"
+      unit: "g"
+    - symbol: "C_sp"
+      name: "specific_heat_capacity"
+      unit: "J/(g K)"
+    - symbol: "\\Delta T"
+      name: "temperature_change"
+      unit: "K"
+  preconditions: ["solution_calorimetry"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Thermodynamics"
+  subject: "chemistry"
+  concept_tags: ["CHM_THERMO","CHM_CALORIMETRY"]
+
+- formula_id: "CHM_EQM_001"
+  name: "Concentration equilibrium constant"
+  latex: "K_c = \\frac{\\prod_i [C_i]^{\\nu_i}}{\\prod_j [R_j]^{\\nu_j}}"
+  variables:
+    - symbol: "K_c"
+      name: "equilibrium_constant_concentration"
+      unit: "(mol/L)^{\\Delta\\nu}"
+      quantity_type: "concentration^delta_nu"
+    - symbol: "[C_i]"
+      name: "equilibrium_concentration_product_i"
+      unit: "mol/L"
+    - symbol: "[R_j]"
+      name: "equilibrium_concentration_reactant_j"
+      unit: "mol/L"
+  preconditions: ["chemical_equilibrium","homogeneous_phase"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug","pg"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KC"]
+
+- formula_id: "CHM_EQM_002"
+  name: "Pressure equilibrium constant"
+  latex: "K_p = K_c(RT)^{\\Delta n}, \\quad K_p = \\frac{\\prod_i P_i^{\\nu_i}}{\\prod_j P_j^{\\nu_j}}"
+  variables:
+    - symbol: "K_p"
+      name: "equilibrium_constant_pressure"
+      unit: "atm^{\\Delta\\nu}"
+      quantity_type: "pressure^delta_nu"
+    - symbol: "K_c"
+      name: "equilibrium_constant_concentration"
+      unit: "(mol/L)^{\\Delta\\nu}"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm / (mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "\\Delta n"
+      name: "change_in_moles_of_gas"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["gas_phase_equilibrium"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KP"]
+
+- formula_id: "CHM_EQM_003"
+  name: "Relation between Kp and Kc"
+  latex: "K_p = K_c(RT)^{\\Delta n}"
+  variables:
+    - symbol: "K_p"
+      name: "pressure_equilibrium_constant"
+      unit: "atm^{\\Delta n}"
+    - symbol: "K_c"
+      name: "concentration_equilibrium_constant"
+      unit: "(mol/L)^{\\Delta n}"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm / (mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "\\Delta n"
+      name: "change_in_moles_of_gas"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["gas_phase_equilibrium"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KP","CHM_KC"]
+
+- formula_id: "CHM_EQM_004"
+  name: "Reaction quotient Q"
+  latex: "Q_c = \\frac{\\prod_i [C_i]^{\\nu_i}}{\\prod_j [R_j]^{\\nu_j}} \\text{ (at any time)}, \\quad Q < K: \\rightarrow \\text{forward}, \\quad Q > K: \\rightarrow \\text{reverse}"
+  variables: []
+  preconditions: ["chemical_reaction"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_Q"]
+
+- formula_id: "CHM_EQM_005"
+  name: "Le Chatelier's principle — concentration change"
+  latex: "\\text{Adding reactant} \\rightarrow K_c = \\frac{[P]^c}{[R]^a [R]^{\\Delta}} > K_{eq} \\rightarrow \\text{forward shift}"
+  variables: []
+  preconditions: ["equilibrium_system"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_LE_CHATELIER"]
+
+- formula_id: "CHM_EQM_006"
+  name: "ICE Table: general expression"
+  latex: "K_c = \\frac{(Cx)^c(Dx)^d}{(A-ax)^a(B-bx)^b}"
+  variables:
+    - symbol: "K_c"
+      name: "equilibrium_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "x"
+      name: "change_in_concentration"
+      unit: "mol/L"
+    - symbol: "A,B"
+      name: "initial_concentrations"
+      unit: "mol/L"
+    - symbol: "a,b,c,d"
+      name: "stoichiometric_coefficients"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["equilibrium_system","initial_conditions_known"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_ICE_TABLE"]
+
+- formula_id: "CHM_EQM_007"
+  name: "ICE Table: degree of dissociation"
+  latex: "K_c = \\frac{\\alpha^2}{(1-\\alpha)} \\cdot \\frac{C}{1 + (\\nu-1)\\alpha} \quad \\text{( Ostwald dilution)}"
+  variables:
+    - symbol: "K_c"
+      name: "equilibrium_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\alpha"
+      name: "degree_of_dissociation"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "initial_concentration"
+      unit: "mol/L"
+    - symbol: "\\nu"
+      name: "number_of_ions_formed"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["weak_acid_or_base_dissociation"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_ICE_TABLE","CHM_OSTWALD"]
+
+- formula_id: "CHM_EQM_008"
+  name: "Solubility product"
+  latex: "K_{sp} = [M^{n+}]^m [X^{m-}]^n"
+  variables:
+    - symbol: "K_sp"
+      name: "solubility_product"
+      unit: "(mol/L)^{m+n}"
+    - symbol: "[M^{n+}]"
+      name: "equilibrium_concentration_of_cation"
+      unit: "mol/L"
+    - symbol: "[X^{m-}]"
+      name: "equilibrium_concentration_of_anion"
+      unit: "mol/L"
+  preconditions: ["sparingly_soluble_salt"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug","pg"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KSP"]
+
+- formula_id: "CHM_EQM_009"
+  name: "Common ion effect on solubility"
+  latex: "s = \\sqrt{\\frac{K_{sp}}{[X^-]_{common}}}, \\quad s_{new} = \\frac{K_{sp}}{[common \\ ion]}"
+  variables:
+    - symbol: "s"
+      name: "solubility"
+      unit: "mol/L"
+    - symbol: "K_sp"
+      name: "solubility_product"
+      unit: "(mol/L)^2"
+    - symbol: "[X^-]_{common}"
+      name: "common_ion_concentration"
+      unit: "mol/L"
+  preconditions: ["sparingly_soluble_salt","common_ion_present"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_COMMON_ION","CHM_KSP"]
+
+- formula_id: "CHM_EQM_010"
+  name: "Molar solubility"
+  latex: "s = [M^{n+}] = \\frac{[X^{m-}]}{n}, \\quad s_{AgCl} = \\sqrt{K_{sp}}, \\quad s_{CaF_2} = \\sqrt[3]{\\frac{K_{sp}}{4}}"
+  variables:
+    - symbol: "s"
+      name: "molar_solubility"
+      unit: "mol/L"
+    - symbol: "K_sp"
+      name: "solubility_product"
+      unit: "(mol/L)^{m+n}"
+  preconditions: ["sparingly_soluble_salt"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KSP"]
+
+- formula_id: "CHM_EQM_011"
+  name: "Ionic product and precipitation condition"
+  latex: "IP = [M^{n+}]^m[X^{m-}]^n, \quad IP > K_{sp}: \text{precipitate}, \quad IP < K_{sp}: \text{unsaturated}"
+  variables: []
+  preconditions: ["ionic_solution"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_KSP"]
+
+- formula_id: "CHM_EQM_012"
+  name: "Ostwald's dilution law"
+  latex: "K_a = \\frac{\\alpha^2 C}{1-\\alpha}, \\quad \\alpha = \\sqrt{\\frac{K_a}{C}} \text{ (weak acid, } \\alpha \\ll 1)"
+  variables:
+    - symbol: "K_a"
+      name: "acid_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "\\alpha"
+      name: "degree_of_dissociation"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "initial_concentration"
+      unit: "mol/L"
+  preconditions: ["weak_electrolyte"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_OSTWALD","CHM_WEAK_ELECTROLYTE"]
+
+- formula_id: "CHM_EQM_013"
+  name: "Degree of dissociation from molar conductivity"
+  latex: "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}"
+  variables:
+    - symbol: "\\alpha"
+      name: "degree_of_dissociation"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\Lambda_m"
+      name: "molar_conductivity_at_concentration_c"
+      unit: "S cm^2 mol^-1"
+    - symbol: "\\Lambda_m^\\circ"
+      name: "molar_conductivity_at_infinite_dilution"
+      unit: "S cm^2 mol^-1"
+  preconditions: ["weak_electrolyte_solution"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_OSTWALD"]
+
+- formula_id: "CHM_AB_001"
+  name: "pH definition"
+  latex: "pH = -\\log_{10}[H^+] = -\\log_{10}(\\alpha C)"
+  variables:
+    - symbol: "pH"
+      name: "pH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "[H^+]"
+      name: "hydrogen_ion_concentration"
+      unit: "mol/L"
+  preconditions: ["aqueous_solution"]
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_PH"]
+
+- formula_id: "CHM_AB_002"
+  name: "pOH definition"
+  latex: "pOH = -\\log_{10}[OH^-]"
+  variables:
+    - symbol: "pOH"
+      name: "pOH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "[OH^-]"
+      name: "hydroxide_ion_concentration"
+      unit: "mol/L"
+  preconditions: ["aqueous_solution"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_POH"]
+
+- formula_id: "CHM_AB_003"
+  name: "Ion product of water"
+  latex: "K_w = [H^+][OH^-] = 1.0 \\times 10^{-14} \text{ at } 25°C, \quad pH + pOH = 14"
+  variables:
+    - symbol: "K_w"
+      name: "ionic_product_of_water"
+      unit: "(mol/L)^2"
+    - symbol: "[H^+]"
+      name: "hydrogen_ion_concentration"
+      unit: "mol/L"
+    - symbol: "[OH^-]"
+      name: "hydroxide_ion_concentration"
+      unit: "mol/L"
+  preconditions: ["water","25°C"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_KW"]
+
+- formula_id: "CHM_AB_004"
+  name: "pH of strong acid/base"
+  latex: "pH = -\\log C \text{ (strong acid)}, \quad pOH = -\\log C \text{ (strong base)}"
+  variables: []
+  preconditions: ["strong_acid_or_base"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_PH"]
+
+- formula_id: "CHM_AB_005"
+  name: "pH of weak acid"
+  latex: "pH = \\frac{1}{2}\\left(pK_a - \\log C\\right) = \\frac{1}{2}(pK_a - \\log C_{HA})"
+  variables:
+    - symbol: "pH"
+      name: "pH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_a"
+      name: "pKa"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "concentration_of_weak_acid"
+      unit: "mol/L"
+  preconditions: ["weak_acid"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_PH","CHM_WEAK_ACID"]
+
+- formula_id: "CHM_AB_006"
+  name: "pH of weak base"
+  latex: "pOH = \\frac{1}{2}\\left(pK_b - \\log C\\right), \quad pH = 14 - pOH"
+  variables:
+    - symbol: "pOH"
+      name: "pOH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_b"
+      name: "pKb"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "concentration_of_weak_base"
+      unit: "mol/L"
+  preconditions: ["weak_base"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_POH","CHM_WEAK_BASE"]
+
+- formula_id: "CHM_AB_007"
+  name: "Henderson-Hasselbalch equation"
+  latex: "pH = pK_a + \\log\\frac{[A^-]}{[HA]}"
+  variables:
+    - symbol: "pH"
+      name: "pH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_a"
+      name: "pKa"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "[A^-]"
+      name: "conjugate_base_concentration"
+      unit: "mol/L"
+    - symbol: "[HA]"
+      name: "weak_acid_concentration"
+      unit: "mol/L"
+  preconditions: ["buffer_solution","weak_acid"]
+  grade_range: ["class11","class12","ug","pg","phd"]
+  chapter: "Equilibrium"
+  subject: "chemistry"
+  concept_tags: ["CHM_EQM","CHM_BUF"]
+
+- formula_id: "CHM_AB_008"
+  name: "Acid dissociation constant"
+  latex: "K_a = \\frac{[H^+][A^-]}{[HA]}"
+  variables:
+    - symbol: "K_a"
+      name: "acid_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "[H^+]"
+      name: "hydrogen_ion_concentration"
+      unit: "mol/L"
+    - symbol: "[A^-]"
+      name: "conjugate_base_concentration"
+      unit: "mol/L"
+    - symbol: "[HA]"
+      name: "weak_acid_concentration"
+      unit: "mol/L"
+  preconditions: ["weak_acid_solution"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_KA"]
+
+- formula_id: "CHM_AB_009"
+  name: "Base dissociation constant"
+  latex: "K_b = \\frac{[OH^-][BH^+]}{[B]}"
+  variables:
+    - symbol: "K_b"
+      name: "base_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "[OH^-]"
+      name: "hydroxide_ion_concentration"
+      unit: "mol/L"
+    - symbol: "[BH^+]"
+      name: "conjugate_acid_concentration"
+      unit: "mol/L"
+    - symbol: "[B]"
+      name: "weak_base_concentration"
+      unit: "mol/L"
+  preconditions: ["weak_base_solution"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_KB"]
+
+- formula_id: "CHM_AB_010"
+  name: "Ion product relation for conjugate acid-base pair"
+  latex: "K_a \\times K_b = K_w = 1.0 \\times 10^{-14} \text{ at } 25°C"
+  variables:
+    - symbol: "K_a"
+      name: "acid_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "K_b"
+      name: "base_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "K_w"
+      name: "ion_product_of_water"
+      unit: "(mol/L)^2"
+  preconditions: ["conjugate_acid_base_pair"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_KA","CHM_KB","CHM_KW"]
+
+- formula_id: "CHM_AB_011"
+  name: "pKa from pKb"
+  latex: "pK_a + pK_b = pK_w = 14 \text{ at } 25°C"
+  variables:
+    - symbol: "pK_a"
+      name: "pKa"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_b"
+      name: "pKb"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_w"
+      name: "pKw"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["conjugate_acid_base_pair"]
+  grade_range: ["class11","class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_PKA","CHM_PKB"]
+
+- formula_id: "CHM_AB_012"
+  name: "Henderson-Hasselbalch for basic buffer"
+  latex: "pOH = pK_b + \\log\\frac{[BH^+]}{[B]}"
+  variables:
+    - symbol: "pOH"
+      name: "pOH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_b"
+      name: "pKb"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "[BH^+]"
+      name: "conjugate_acid_concentration"
+      unit: "mol/L"
+    - symbol: "[B]"
+      name: "weak_base_concentration"
+      unit: "mol/L"
+  preconditions: ["basic_buffer"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_BUF"]
+
+- formula_id: "CHM_AB_013"
+  name: "Buffer capacity"
+  latex: "\\beta = \\frac{dC_b}{dpH} = 2.303 \\cdot \\frac{C_{acid} \\cdot C_{salt}}{C_{acid} + C_{salt}}"
+  variables:
+    - symbol: "\\beta"
+      name: "buffer_capacity"
+      unit: "mol/L_per_pH_unit"
+    - symbol: "C_acid"
+      name: "buffer_acid_concentration"
+      unit: "mol/L"
+    - symbol: "C_salt"
+      name: "buffer_salt_concentration"
+      unit: "mol/L"
+  preconditions: ["buffer_solution"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_BUF"]
+
+- formula_id: "CHM_AB_014"
+  name: "Hydrolysis constant of salt"
+  latex: "K_h = \\frac{K_w}{K_a} \text{ (anion of weak acid)}, \quad K_h = \\frac{K_w}{K_b} \text{ (cation of weak base)}"
+  variables:
+    - symbol: "K_h"
+      name: "hydrolysis_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "K_w"
+      name: "ion_product_of_water"
+      unit: "(mol/L)^2"
+    - symbol: "K_a"
+      name: "acid_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "K_b"
+      name: "base_dissociation_constant"
+      unit: "mol/L"
+  preconditions: ["salt_from_weak_acid_or_base"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_HYDROLYSIS"]
+
+- formula_id: "CHM_AB_015"
+  name: "pH of salt solution (hydrolysis)"
+  latex: "pH = 7 + \\frac{1}{2}(pK_a - \\log C) \text{ (salt of weak acid, strong base)}"
+  variables:
+    - symbol: "pH"
+      name: "pH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "pK_a"
+      name: "pKa_of_weak_acid"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "salt_concentration"
+      unit: "mol/L"
+  preconditions: ["salt_of_weak_acid_and_strong_base"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_HYDROLYSIS"]
+
+- formula_id: "CHM_AB_016"
+  name: "Titration: equivalence point pH (strong acid - strong base)"
+  latex: "pH = 7"
+  variables: []
+  preconditions: ["strong_acid_strong_base_titration"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_TITRATION"]
+
+- formula_id: "CHM_AB_017"
+  name: "Titration: pH before equivalence (strong acid-strong base)"
+  latex: "pH = -\\log\\left(\\frac{n_H - n_{OH}}{V_{total}}\\right)"
+  variables:
+    - symbol: "pH"
+      name: "pH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_H"
+      name: "initial_moles_of_acid"
+      unit: "mol"
+    - symbol: "n_OH"
+      name: "moles_of_base_added"
+      unit: "mol"
+    - symbol: "V_total"
+      name: "total_volume"
+      unit: "L"
+  preconditions: ["strong_acid_strong_base_titration"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_TITRATION"]
+
+- formula_id: "CHM_AB_018"
+  name: "pH after equivalence (strong acid - strong base)"
+  latex: "pOH = -\\log\\left(\\frac{n_{excess}}{V_{total}}\\right), \quad pH = 14 - pOH"
+  variables:
+    - symbol: "pOH"
+      name: "pOH"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_excess"
+      name: "excess_moles_of_base"
+      unit: "mol"
+    - symbol: "V_total"
+      name: "total_volume"
+      unit: "L"
+  preconditions: ["strong_acid_strong_base_titration"]
+  grade_range: ["class11","class12","ug"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_TITRATION"]
+
+- formula_id: "CHM_AB_019"
+  name: "pH at half-equivalence point (weak acid-strong base)"
+  latex: "pH_{half} = pK_a"
+  variables: []
+  preconditions: ["weak_acid_strong_base_titration"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_TITRATION","CHM_BUF"]
+
+- formula_id: "CHM_AB_020"
+  name: "Titration: equivalence point pH (weak acid - strong base)"
+  latex: "[OH^-] = \\sqrt{\\frac{K_w}{K_a} \\cdot C_{salt}}, \quad pH = 7 + \\frac{1}{2}(pK_a + \\log C_{salt})"
+  variables:
+    - symbol: "[OH^-]"
+      name: "hydroxide_ion_concentration"
+      unit: "mol/L"
+    - symbol: "K_w"
+      name: "ion_product_of_water"
+      unit: "(mol/L)^2"
+    - symbol: "K_a"
+      name: "acid_dissociation_constant"
+      unit: "mol/L"
+    - symbol: "C_salt"
+      name: "salt_concentration"
+      unit: "mol/L"
+  preconditions: ["weak_acid_strong_base_titration"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Acids and Bases"
+  subject: "chemistry"
+  concept_tags: ["CHM_AB","CHM_TITRATION"]
+
+- formula_id: "CHM_ELECTRO_001"
+  name: "Faraday's constant"
+  latex: "F = N_A \\cdot e = 96485 \text{ C mol}^{-1}"
+  variables:
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "N_A"
+      name: "Avogadro_number"
+      unit: "mol^-1"
+    - symbol: "e"
+      name: "elementary_charge"
+      unit: "C"
+  preconditions: []
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_CONSTANT"]
+  constants: true
+
+- formula_id: "CHM_ELECTRO_002"
+  name: "Faraday's First Law of Electrolysis"
+  latex: "m = Z \\cdot Q = Z \\cdot I \\cdot t"
+  variables:
+    - symbol: "m"
+      name: "mass_deposited"
+      unit: "g"
+    - symbol: "Z"
+      name: "electrochemical_equivalent"
+      unit: "g/C"
+    - symbol: "Q"
+      name: "charge_passed"
+      unit: "C"
+    - symbol: "I"
+      name: "current"
+      unit: "A"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+  preconditions: ["electrolysis_cell"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_FARADAY"]
+
+- formula_id: "CHM_ELECTRO_003"
+  name: "Faraday's Second Law of Electrolysis"
+  latex: "\\frac{m_1}{m_2} = \\frac{E_1}{E_2} = \\frac{Z_1}{Z_2}"
+  variables:
+    - symbol: "m_1"
+      name: "mass_deposited_substance_1"
+      unit: "g"
+    - symbol: "m_2"
+      name: "mass_deposited_substance_2"
+      unit: "g"
+    - symbol: "E_1"
+      name: "equivalent_weight_1"
+      unit: "g/equiv"
+    - symbol: "E_2"
+      name: "equivalent_weight_2"
+      unit: "g/equiv"
+  preconditions: ["same_charge_passed"]
+  grade_range: ["class12","ug"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_FARADAY"]
+
+- formula_id: "CHM_ELECTRO_004"
+  name: "Electrochemical equivalent from molar mass"
+  latex: "Z = \\frac{M}{nF}, \quad m = \\frac{M \\cdot I \\cdot t}{nF}"
+  variables:
+    - symbol: "Z"
+      name: "electrochemical_equivalent"
+      unit: "g/C"
+    - symbol: "M"
+      name: "molar_mass"
+      unit: "g/mol"
+    - symbol: "n"
+      name: "number_of_electrons_transferred"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+  preconditions: ["electrolysis"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_FARADAY"]
+
+- formula_id: "CHM_ELECTRO_005"
+  name: "Moles of substance from Faraday's laws"
+  latex: "n_{substance} = \\frac{Q}{nF} = \\frac{It}{nF}"
+  variables:
+    - symbol: "n_substance"
+      name: "moles_of_substance_deposited"
+      unit: "mol"
+    - symbol: "Q"
+      name: "total_charge"
+      unit: "C"
+    - symbol: "n"
+      name: "number_of_electrons"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "I"
+      name: "current"
+      unit: "A"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+  preconditions: ["electrolysis"]
+  grade_range: ["class12","ug","pg"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_FARADAY"]
+
+- formula_id: "CHM_ELECTRO_006"
+  name: "Standard cell potential"
+  latex: "E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}"
+  variables:
+    - symbol: "E^\\circ_cell"
+      name: "standard_cell_potential"
+      unit: "V"
+    - symbol: "E^\\circ_cathode"
+      name: "standard_cathode_potential"
+      unit: "V"
+    - symbol: "E^\\circ_anode"
+      name: "standard_anode_potential"
+      unit: "V"
+  preconditions: ["galvanic_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_EMF"]
+
+- formula_id: "CHM_ELECTRO_007"
+  name: "Cell potential and Gibbs free energy"
+  latex: "\\Delta_r G = -nFE_{cell}"
+  variables:
+    - symbol: "\\Delta_r G"
+      name: "Gibbs_free_energy_change"
+      unit: "J/mol"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "E_cell"
+      name: "cell_potential"
+      unit: "V"
+  preconditions: ["galvanic_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_EMF","CHM_GIBBS"]
+
+- formula_id: "CHM_ELECTRO_008"
+  name: "Nernst equation"
+  latex: "E = E^\\circ - \\frac{RT}{nF}\\ln Q, \quad E = E^\\circ - \\frac{0.05916}{n}\\log_{10} Q \text{ at } 25°C"
+  variables:
+    - symbol: "E"
+      name: "cell_potential"
+      unit: "V"
+    - symbol: "E^\\circ"
+      name: "standard_cell_potential"
+      unit: "V"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "Q"
+      name: "reaction_quotient"
+      unit: ""
+      quantity_type: "dimensionless"
+  preconditions: ["galvanic_cell","nonstandard_conditions"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_NERNST"]
+
+- formula_id: "CHM_ELECTRO_009"
+  name: "Nernst equation for half-cell"
+  latex: "E = E^\\circ - \\frac{RT}{nF}\\ln\\frac{[Red]}{[Ox]} = E^\\circ + \\frac{RT}{nF}\\ln\\frac{[Ox]}{[Red]}"
+  variables:
+    - symbol: "E"
+      name: "half_cell_potential"
+      unit: "V"
+    - symbol: "E^\\circ"
+      name: "standard_half_cell_potential"
+      unit: "V"
+    - symbol: "n"
+      name: "number_of_electrons"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "[Ox]"
+      name: "oxidized_species_concentration"
+      unit: "mol/L"
+    - symbol: "[Red]"
+      name: "reduced_species_concentration"
+      unit: "mol/L"
+  preconditions: ["half_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_NERNST"]
+
+- formula_id: "CHM_ELECTRO_010"
+  name: "Equilibrium constant from standard cell potential"
+  latex: "\\ln K = \\frac{nFE^\\circ_{cell}}{RT}, \quad \\log K = \\frac{nE^\\circ_{cell}}{0.05916} \text{ at } 25°C"
+  variables:
+    - symbol: "K"
+      name: "equilibrium_constant"
+      unit: ""
+      quantity_type: "dimensionless"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+    - symbol: "E^\\circ_cell"
+      name: "standard_cell_potential"
+      unit: "V"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+  preconditions: ["galvanic_cell"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_NERNST","CHM_EMF"]
+
+- formula_id: "CHM_ELECTRO_011"
+  name: "Cell potential temperature dependence (Gibbs-Helmholtz)"
+  latex: "\\left(\\frac{\\partial E^\\circ_{cell}}{\\partial T}\\right)_P = \\frac{\\Delta_r S^\\circ}{nF}"
+  variables:
+    - symbol: "E^\\circ_cell"
+      name: "standard_cell_potential"
+      unit: "V"
+    - symbol: "T"
+      name: "temperature"
+      unit: "K"
+    - symbol: "\\Delta_r S^\\circ"
+      name: "standard_entropy_change"
+      unit: "J/(mol K)"
+    - symbol: "n"
+      name: "moles_of_electrons"
+      unit: "mol"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+  preconditions: ["galvanic_cell"]
+  grade_range: ["ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_NERNST","CHM_GIBBS"]
+
+- formula_id: "CHM_ELECTRO_012"
+  name: "Specific conductivity"
+  latex: "\\kappa = \\frac{1}{\\rho} = \\frac{l}{A} \\cdot \\frac{1}{R}"
+  variables:
+    - symbol: "\\kappa"
+      name: "specific_conductivity"
+      unit: "S/m_or_S/cm"
+    - symbol: "\\rho"
+      name: "resistivity"
+      unit: "Ω·m"
+    - symbol: "l"
+      name: "distance_between_electrodes"
+      unit: "m_or_cm"
+    - symbol: "A"
+      name: "cross_sectional_area"
+      unit: "m^2_or_cm^2"
+    - symbol: "R"
+      name: "resistance"
+      unit: "Ω"
+  preconditions: ["electrolyte_solution"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_CONDUCTIVITY"]
+
+- formula_id: "CHM_ELECTRO_013"
+  name: "Molar conductivity"
+  latex: "\\Lambda_m = \\frac{\\kappa \\times 1000}{C} \text{ (C in mol/L)}, \quad \\Lambda_m = \\kappa V_m"
+  variables:
+    - symbol: "\\Lambda_m"
+      name: "molar_conductivity"
+      unit: "S cm^2 mol^-1"
+    - symbol: "\\kappa"
+      name: "specific_conductivity"
+      unit: "S/cm"
+    - symbol: "C"
+      name: "concentration"
+      unit: "mol/L"
+    - symbol: "V_m"
+      name: "molar_volume"
+      unit: "cm^3/mol"
+  preconditions: ["electrolyte_solution"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_CONDUCTIVITY"]
+
+- formula_id: "CHM_ELECTRO_014"
+  name: "Kohlrausch's Law"
+  latex: "\\Lambda_m = \\Lambda_m^\\circ - K \\sqrt{C}, \quad \\Lambda_m^\\circ = \\lambda_+^\\circ + \\lambda_-^\\circ"
+  variables:
+    - symbol: "\\Lambda_m"
+      name: "molar_conductivity"
+      unit: "S cm^2 mol^-1"
+    - symbol: "\\Lambda_m^\\circ"
+      name: "molar_conductivity_at_infinite_dilution"
+      unit: "S cm^2 mol^-1"
+    - symbol: "K"
+      name: "Kohlrausch_constant"
+      unit: "S cm^2 mol^-2"
+    - symbol: "C"
+      name: "concentration"
+      unit: "mol/L"
+  preconditions: ["electrolyte_solution"]
+  grade_range: ["class12","ug","pg","phd"]
+  chapter: "Electrochemistry"
+  subject: "chemistry"
+  concept_tags: ["CHM_ELECTRO","CHM_CONDUCTIVITY","CHM_KOHLRAUSCH"]
+
+- formula_id: "CHM_ELECTRO_015"
+  name: "Degree of dissociation from conductivity"
+  latex: "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}, \quad K_a = \\frac{C\\alpha^2}{1-\\alpha}"
+  variables:
+    - symbol: "\\alpha"
+      name: "degree_of_dissociation"
+      unit: ""
+      quantity_type: "dimensionless"
+   

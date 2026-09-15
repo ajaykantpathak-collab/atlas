@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_001",
+   "title": "c11_geo_cbse_05_001",
+   "questions": [
+    {
+     "q": "State the five criteria that a substance must satisfy to be classified as a mineral in geography/geology.",
+     "a": "The five criteria are: (1) naturally occurring (not human-made), (2) inorganic (not produced by biological processes), (3) solid at standard temperature and pressure, (4) definite chemical composition (fixed or variable within limits), and (5) ordered internal atomic structure (crystalline). A wrong answer—such as omitting \"inorganic\" or \"crystalline\"—reveals the student is confusing minerals with rocks, synthetic materials, or organic substances like coal/amber, indicating they have not internalized the rigorous geological definition required at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds a shiny, gold-colored metallic mineral in a stream bed. They claim it is gold because \"it looks like gold.\" Explain why color alone is unreliable for mineral identification and name the diagnostic property that is more consistent for metallic minerals.",
+     "a": "Color is unreliable because many minerals exhibit wide color variation due to trace impurities (e.g., quartz occurs as colorless, pink, purple, yellow, smoky) and different minerals can share identical colors (pyrite and gold are both brassy yellow). Streak—the color of the powdered mineral obtained by rubbing on unglazed porcelain—is far more consistent; pyrite gives a greenish-black streak while gold gives a golden-yellow streak. A wrong answer focusing only on color or suggesting luster/hardness instead of streak reveals the student has not grasped that streak eliminates the variability of external color and is the primary diagnostic for metallic minerals.",
+     "self_check": true
+    },
+    {
+     "q": "You are given an unknown mineral sample. It has a vitreous luster, white streak, hardness of 6 on Mohs scale, and shows two directions of cleavage at 90°. Using the systematic identification approach, name the most likely mineral and show your reasoning steps.",
+     "a": "Step 1: Record observations—vitreous luster, white streak, H=6, two cleavages at 90°. Step 2: Eliminate minerals with metallic luster (galena, pyrite) or colored streaks (hematite—red, magnetite—black). Step 3: Compare hardness—orthoclase feldspar (H=6) matches; quartz (H=7) is too hard, calcite (H=3) too soft. Step 4: Check cleavage—orthoclase has two perfect cleavages at 90°; plagioclase has ~94°, pyroxene ~87-93°. Step 5: Confirm with other properties—orthoclase is common in granites, shows Carlsbad twinning. Most likely mineral: orthoclase feldspar (potassium feldspar). A wrong answer (e.g., quartz) reveals failure to use cleavage as a discriminator; quartz has no cleavage, only conchoidal fracture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the diagnostic properties of calcite and quartz. Create a table showing how you would distinguish them in hand specimen using only three tests.",
+     "a": "| Property | Calcite | Quartz |\n|---|---|---|\n| Hardness (Mohs) | 3 (scratched by copper coin) | 7 (scratches glass) |\n| Cleavage/Fracture | Three perfect cleavages (rhombohedral) | No cleavage; conchoidal fracture |\n| Reaction to dilute HCl | Vigorous effervescence (CO₂ release) | No reaction |\nBoth have vitreous luster and white streak, so those tests cannot distinguish them. A wrong answer using color or luster reveals the student doesn't understand which properties are diagnostic vs. variable. A correct answer selects tests targeting fundamental crystallographic differences: hardness (bond strength), cleavage (weak planes in structure), and chemical reactivity (carbonate vs. silicate).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A mineral's hardness is the single most useful diagnostic property for field identification.\" Justify your position with examples.",
+     "a": "The statement is partially true but misleading. Hardness is highly useful because it is measurable, consistent, and requires only simple tools (fingernail=2.5, copper coin=3, glass=5.5, steel file=6.5). However, it is NOT sufficient alone: many minerals share similar hardness (apatite=5, fluorite=4), and hardness testing can damage samples. A robust identification requires a property suite: e.g., distinguishing fluorite (H=4, perfect octahedral cleavage, cubic crystals) from apatite (H=5, poor cleavage, hexagonal crystals) needs cleavage and crystal habit. A wrong answer calling hardness \"most useful\" without qualification reveals the student seeks a shortcut rather than systematic multi-property analysis expected at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page mineral identification flowchart for a Class 11 field kit that uses only: streak plate, copper coin, steel nail, glass plate, dilute HCl (dropper), hand lens, and magnet. The flowchart must separate at least 10 common minerals into distinct end-points.",
+     "a": "A good flowchart starts with luster (metallic vs. non-metallic). Metallic branch: streak test → magnetite (magnetic, black streak) vs. hematite (non-magnetic, red streak) vs. galena (lead-gray streak, cubic cleavage) vs. pyrite (greenish-black streak, cubic). Non-metallic branch: hardness sequence using coin (3), nail (5.5), glass (5.5) → calcite (H=3, effervesces with HCl, rhombohedral cleavage) vs. fluorite (H=4, octahedral cleavage) vs. orthoclase (H=6, 90° cleavage, no HCl reaction) vs. quartz (H=7, conchoidal fracture) vs. gypsum (H=2, scratched by fingernail, one perfect cleavage) vs. talc (H=1, soapy feel). Poor flowcharts use color early, lack decision points for all tools, or group distinct minerals at same endpoint—revealing the student cannot operationalize diagnostic properties into a logical dichotomous key.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_02_012",
+   "title": "c12_hin_v_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words. Give one example of each type of question based on any story you know.",
+     "a": "Literal comprehension: understanding information directly stated in the text (e.g., \"What is the narrator's name?\"). Inferential comprehension: deducing implied meaning using textual clues (e.g., \"Why did the narrator feel lonely in the new school?\"). A wrong answer that swaps the definitions or gives only opinion-based examples reveals the student cannot distinguish explicit vs. implicit information.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"What job did the narrator's mother do to support the family?\" is a literal question, while \"How did the mother's illness affect the narrator's education?\" is an inferential question. Use the chapter's context.",
+     "a": "The first question asks for a fact explicitly stated in the text (mother worked in fields / did labor). The second requires connecting multiple clues: her illness → loss of income → narrator sent to work → education interrupted. A wrong answer that treats both as fact-recall shows the student misses the need for synthesis in inferential questions.",
+     "self_check": true
+    },
+    {
+     "q": "Read this paraphrased excerpt: \"The teacher Nanak Singh gave the narrator old books, paid his fees, and told him, 'Your mother's wish will not go in vain.'\" Write one literal and one inferential question based on this excerpt, and answer both using only the given text.",
+     "a": "Literal Q: \"What did Nanak Singh give the narrator?\" A: Old books and paid fees (explicit). Inferential Q: \"Why did Nanak Singh help the narrator?\" A: He respected the mother's wish for education and saw the narrator's potential (supported by \"mother's wish will not go in vain\" and his actions). A wrong answer that invents reasons not in the excerpt (e.g., \"He was paid by the government\") shows failure to ground inferences in textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer the inferential question: \"Why did the father not stop the narrator from going to school in the end?\"\nStudent A: \"Because the father realized education is important.\"\nStudent B: \"The text says the father remained silent when the teacher insisted, and earlier he said 'Do whatever you want' when the mother pleaded. His silence shows reluctant acceptance.\"\nWhich answer is better? Explain why.",
+     "a": "Student B's answer is better because it cites specific textual evidence (father's silence, earlier dialogue) to support the inference. Student A states a general opinion without textual backing. A wrong choice (picking A) reveals the student equates inference with personal opinion rather than evidence-based deduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The narrator's mother is the sole reason he became a poet.\" Is this a fair inference? Defend your judgment using at least two pieces of evidence from the chapter.",
+     "a": "The statement is an over-simplification. While the mother's wish initiated the journey (evidence: she sent him to school despite poverty, pleaded with teacher), the teacher Nanak Singh's mentorship (gave books, encouraged poetry) and the narrator's own perseverance (continued writing despite hardships) were equally crucial. A student who agrees without acknowledging other factors shows inability to weigh multiple textual causes.",
+     "self_check": true
+    },
+    {
+     "q": "Based on the final paragraph of the chapter (where the narrator reflects on his journey as a poet), create one literal question and one inferential question that a Class 12 board exam might ask. Provide model answers for both.",
+     "a": "Literal Q: \"What does the narrator say about his early poems?\" Model A: \"He wrote them on scraps of paper, sometimes on the back of accounts, and kept them hidden.\" (Directly stated). Inferential Q: \"What does the phrase 'मेरी कविता मेरे संघर्ष की साथी बन गई' suggest about the role of poetry in his life?\" Model A: \"Poetry became a coping mechanism and companion during his struggles, implying it gave him emotional survival.\" (Inferred from metaphor 'साथी' and context of hardship). A poor answer would ask vague questions or give answers without textual anchoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

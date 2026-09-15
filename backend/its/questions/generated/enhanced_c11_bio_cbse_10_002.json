@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_002",
+   "title": "c11_bio_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the defining molecular event that occurs exclusively during the S phase of interphase in a eukaryotic cell?",
+     "a": "The defining event is DNA replication (synthesis), where the entire genome is duplicated so that the DNA content per cell doubles from 2C to 4C while the chromosome number remains 2n. A wrong answer (e.g., \"cell growth\" or \"protein synthesis\") reveals the student cannot distinguish S phase from G1/G2 and does not grasp that DNA synthesis is the hallmark of S phase.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"During S phase, the chromosome number doubles from 2n to 4n because DNA replicates.\" Explain why this statement is incorrect using the concepts of chromosome structure and DNA content.",
+     "a": "Chromosome number (n) counts centromeres; after S phase each chromosome consists of two sister chromatids joined at one centromere, so the count remains 2n. DNA content (C) doubles because each chromatid contains a full DNA molecule. If the student says chromosome number doubles, they confuse chromatid separation (which happens in anaphase) with replication, showing a fundamental misunderstanding of chromosome vs. chromatid terminology.",
+     "self_check": true
+    },
+    {
+     "q": "A human skin cell in G1 has 46 chromosomes and 2C DNA content. Predict the chromosome number and DNA content at the end of S phase and at the end of G2 phase. Justify your answer.",
+     "a": "End of S phase: 46 chromosomes (2n), 4C DNA. End of G2 phase: 46 chromosomes (2n), 4C DNA. No further DNA replication occurs in G2; only protein synthesis and growth. A wrong prediction (e.g., 92 chromosomes or 2C DNA) shows the student does not track the constancy of centromere count and the permanence of DNA doubling until mitosis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the metabolic activities of G1 phase and G2 phase. Why are both considered \"gap\" phases despite having distinct functions?",
+     "a": "G1: general growth, organelle duplication, metabolic activity, decision to divide or enter G0. G2: specific synthesis of mitotic proteins (tubulins, cyclins), DNA repair, final growth. Both are \"gaps\" because no DNA synthesis occurs; they separate M from S and S from M respectively. A student who lists identical activities for both fails to see the shift from general preparation to mitosis-specific preparation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Neurons and cardiac muscle cells are permanently stuck in G1 phase because they cannot divide.\" Is this accurate? Provide a biologically precise correction.",
+     "a": "The claim is inaccurate. These cells exit the cell cycle from G1 into a distinct quiescent stage called G0, where they remain metabolically active but do not prepare for division. They are not \"stuck\" in G1; they have actively left the cycle. A student who agrees reveals confusion between a cell cycle phase (G1) and a non-cycling state (G0).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using pulse-chase labeling with radioactive thymidine to distinguish cells in S phase from cells in G1 or G2 in a population of cultured human fibroblasts. Outline the key steps and expected observations.",
+     "a": "1. Pulse: add ³H-thymidine for 30 min (labels only cells synthesizing DNA). 2. Chase: replace with excess cold thymidine. 3. Fix cells at intervals, prepare autoradiographs. 4. Observe: nuclei with silver grains over chromatin are in S phase; grain-free nuclei are in G1 or G2. 5. Quantify labeling index. A poor design (e.g., no chase, or using a non-DNA precursor) shows the student cannot translate the concept of S-phase-specific DNA synthesis into an experimental test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

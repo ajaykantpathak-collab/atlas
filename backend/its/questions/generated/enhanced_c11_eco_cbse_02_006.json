@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_006",
+   "title": "c11_eco_cbse_02_006",
+   "questions": [
+    {
+     "q": "What were the two main phases of the Green Revolution in India, and which crops and regions characterised each phase?",
+     "a": "Phase 1 (mid-1960s to mid-1970s): Wheat in Punjab, Haryana, Western UP. Phase 2 (mid-1970s to mid-1980s): Rice in Andhra Pradesh, Tamil Nadu, and spread to more states. A wrong answer (e.g., saying rice was in Phase 1 or that all states benefited equally) reveals the student has not grasped the sequential, crop-specific, and region-specific nature of the diffusion.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Green Revolution initially bypass rainfed regions like eastern Uttar Pradesh, Bihar, and Odisha despite high poverty and need for food?",
+     "a": "HYV seeds are input-responsive: they require assured irrigation, timely fertiliser/pesticide application, and credit for purchased inputs. Rainfed regions lacked irrigation infrastructure (canals, tubewells), institutional credit, and extension services. A wrong answer (e.g., \"farmers were lazy\" or \"soil was poor\") shows confusion between agro-climatic constraints and institutional/infrastructural failure — a common error of blaming beneficiaries instead of structural gaps.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab (irrigated) and a farmer in Bihar (rainfed) each cultivate 2 hectares of wheat. The Punjab farmer uses HYV seeds, 120 kg/ha fertiliser, and 5 irrigations, yielding 5.5 tonnes/ha. The Bihar farmer uses traditional seeds, no fertiliser, rainfed, yielding 1.2 tonnes/ha. Calculate the output gap per hectare and total output gap for the two farmers. What does this imply for their marketed surplus if each consumes 2 tonnes annually?",
+     "a": "Step 1: Punjab yield = 5.5 t/ha × 2 ha = 11 tonnes. Bihar yield = 1.2 t/ha × 2 ha = 2.4 tonnes. Step 2: Output gap per hectare = 5.5 - 1.2 = 4.3 tonnes/ha. Total output gap = 11 - 2.4 = 8.6 tonnes. Step 3: Punjab marketed surplus = 11 - 2 = 9 tonnes. Bihar marketed surplus = 2.4 - 2 = 0.4 tonnes. Step 4: Punjab farmer sells 9 tonnes, Bihar farmer sells 0.4 tonnes — a 22.5 times difference. This implies regional concentration of marketed surplus, enabling government procurement from Punjab but not Bihar. A wrong calculation (e.g., forgetting consumption) reveals inability to link physical yield to marketable surplus — a key concept from the previous node.",
+     "self_check": true
+    },
+    {
+     "q": "The government provided subsidised fertiliser and low-interest credit to promote equity. Yet, studies show large farmers captured a disproportionate share. Analyse three structural reasons why small farmers could not access these subsidies equally.",
+     "a": "1) Credit access: Institutional loans required land title as collateral; tenant farmers and sharecroppers (common in eastern India) lacked titles. 2) Input complementarity: Fertiliser subsidy is useful only with irrigation; small farmers in rainfed areas couldn't use it. 3) Information/extension: Large farmers had better contact with extension agents and could afford risk of new technology. A wrong answer listing only \"corruption\" or \"ignorance\" misses the structural institutional barriers (tenancy, irrigation, collateral) that are the core of the equity critique in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Fertiliser subsidies should be phased out because they benefit the fertiliser industry and rich farmers in prosperous regions, and are a fiscal burden.\" Use the concepts of equity, incentive for technology adoption, and fiscal cost.",
+     "a": "The argument has merit but is incomplete. Subsidies were essential initially to de-risk HYV adoption (positive externality of technology diffusion). Phasing out after widespread adoption (by 1980s) could improve allocative efficiency. However, abrupt removal would hurt small farmers in rainfed regions who still face risk and lack irrigation — violating equity. A better policy: target subsidies via direct income support (decoupled from input use) or region-specific support. A wrong evaluation that says \"subsidies are always bad\" or \"subsidies must continue forever\" fails to weigh dynamic efficiency against static equity — a key planning trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy intervention for a rainfed district in Jharkhand (2024 context) to extend Green Revolution-like productivity gains equitably. Specify: (a) two infrastructure investments, (b) one institutional reform, (c) one risk-mitigation tool, and (d) how you would measure equity impact after 5 years.",
+     "a": "(a) Invest in: (i) watershed management for protective irrigation (check dams, farm ponds), (ii) rural roads to connect to markets. (b) Institutional reform: Legalise tenancy and provide crop insurance linked to land records so tenant farmers access credit. (c) Risk tool: Weather-indexed crop insurance with government premium support. (d) Equity metrics: (i) Ratio of yield (smallholder/large farmer), (ii) Share of marketed surplus from bottom 40% landholders, (iii) Female land ownership %. A poor answer lists only \"give free seeds\" — missing systemic infrastructure, institutions, and measurable equity indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

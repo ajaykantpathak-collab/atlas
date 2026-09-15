@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_006",
+   "title": "c10_math_cbse_05_006",
+   "questions": [
+    {
+     "q": "Write the formula for the kth term from the end of an AP with n terms, first term a, common difference d, and last term l.",
+     "a": "The kth term from the end = l - (k - 1)d = a + (n - k)d. A wrong answer like \"a + (k - 1)d\" reveals the student is confusing \"from the end\" with \"from the beginning\" — they are applying the standard nth term formula without reversing the direction. Another common error: \"l - kd\" shows they forget the (k - 1) adjustment, treating the last term as the 0th from end instead of 1st.",
+     "self_check": true
+    },
+    {
+     "q": "An AP has 20 terms. The first term is 5 and the common difference is 3. A student claims the 4th term from the end is 5 + (4 - 1) × 3 = 14. Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. They used the formula for the 4th term from the beginning (a + (k - 1)d) instead of from the end. The 4th term from the end in a 20-term AP is the (20 - 4 + 1) = 17th term from the beginning = 5 + 16 × 3 = 53, or using l = 5 + 19×3 = 62, then 62 - 3×3 = 53. The error reveals the student does not understand that \"from the end\" reverses the indexing — they need to convert the position from the end to position from the beginning first.",
+     "self_check": true
+    },
+    {
+     "q": "Find the 6th term from the end of the AP: 17, 14, 11, ..., -40.",
+     "a": "Given AP: 17, 14, 11, ..., -40. Here a = 17, d = -3, last term l = -40.\nStep 1: Find total number of terms n using l = a + (n - 1)d.\n-40 = 17 + (n - 1)(-3)\n-40 = 17 - 3n + 3\n-40 = 20 - 3n\n-60 = -3n\nn = 20\nStep 2: 6th term from end = (20 - 6 + 1)th term from beginning = 15th term.\nStep 3: 15th term = a + 14d = 17 + 14(-3) = 17 - 42 = -25.\nAlternatively: l - (k - 1)d = -40 - 5(-3) = -40 + 15 = -25.\nAnswer: -25. A wrong answer like -55 (using k = 6 directly in a + (k - 1)d) shows the student forgot to convert position from end to position from beginning.",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same last term l = 100. AP1 has 15 terms with d = 4. AP2 has 20 terms with d = 3. Compare the 5th term from the end in both APs. Which is larger and by how much?",
+     "a": "For both APs, 5th term from end = l - (5 - 1)d = 100 - 4d.\nAP1: 100 - 4×4 = 100 - 16 = 84.\nAP2: 100 - 4×3 = 100 - 12 = 88.\nAP2's 5th term from end is larger by 4.\nThis tests whether the student recognizes that the formula l - (k - 1)d depends only on l, k, and d — not on n or a. A student who tries to find a and then compute a + (n - k)d for each will get the same answer but takes longer, missing the structural insight. A wrong answer suggests they don't see the formula's independence from n.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the 8th term from the end of the AP 7, 10, 13, ..., 184.\" Their working:\nl = 184, d = 3, k = 8\n8th term from end = l - kd = 184 - 8×3 = 184 - 24 = 160.\nIdentify the error and give the correct answer.",
+     "a": "The error is using \"l - kd\" instead of \"l - (k - 1)d\". The last term is the 1st from end, so we subtract d only (k - 1) times.\nCorrect: 184 - (8 - 1)×3 = 184 - 21 = 163.\nOr find n: 184 = 7 + (n - 1)3 → 177 = 3(n - 1) → n - 1 = 59 → n = 60.\n8th from end = (60 - 8 + 1) = 53rd term = 7 + 52×3 = 7 + 156 = 163.\nThe student's error is a classic off-by-one mistake — they treat the last term as the 0th from end. This costs 1 mark in board exams for incorrect formula application.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context: savings, instalments, seating arrangement, etc.) where finding a term from the end of an AP is necessary. State the problem clearly with all given values, and solve it.",
+     "a": "Example problem: \"A school auditorium has 25 rows of seats. The first row has 20 seats, and each subsequent row has 2 more seats than the previous row. How many seats are in the 5th row from the back?\"\nSolution: AP with a = 20, d = 2, n = 25. Last row seats = l = 20 + 24×2 = 68.\n5th row from back = l - (5 - 1)×2 = 68 - 8 = 60 seats.\nOr: (25 - 5 + 1) = 21st row from front = 20 + 20×2 = 60.\nA good answer includes: correct AP identification, correct formula choice, correct arithmetic, and answer with units (seats). A poor answer might use a + (k - 1)d directly (giving 28), showing confusion between front and back, or forget to find n first if l wasn't given.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 14,
+ "chapter_title": "Probability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh114.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.114.14.1",
+   "title": "Probability - A Theoretical Approach",
+   "section": "14.1",
+   "definition": "The theoretical probability of an equally likely event is the ratio of favourable outcomes to the total number of outcomes: a fair coin gives one head out of two outcomes, so the probability of a head is one half - a number from 0 (impossible) to 1 (certain).",
+   "formula": "probability = favourable / total",
+   "key_idea": "Count fair: favourable outcomes over total equally likely outcomes, always between 0 and 1.",
+   "textbook_ref": "jemh114.txt section 14.1 (probability - a theoretical approach)",
+   "question_patterns": [
+    "find the probability of getting a head when a fair coin is tossed",
+    "a die is thrown once - find the probability of getting a prime number",
+    "find the probability of drawing the stated ball from the given bag",
+    "what is the probability of an impossible event - justify",
+    "one card is drawn from a well shuffled deck - find the probability stated",
+    "why does the theoretical probability need equally likely outcomes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the favourable outcomes",
+     "explain": "List the outcomes that match the event.",
+     "compute": "favourable = favourable_count"},
+    {"step": 2, "action": "divide by the total outcomes",
+     "explain": "All equally likely outcomes form the denominator.",
+     "compute": "probability = favourable / total"}
+   ]
+  },
+  {
+   "id": "jemh.114.14.2",
+   "title": "Equally Likely Outcomes and Simple Problems",
+   "section": "14.1",
+   "definition": "The theoretical approach assumes every outcome of the experiment is equally likely - a fair coin, an unbiased die, a well shuffled deck; listing the sample space completely is the first step of every probability problem.",
+   "formula": "-",
+   "key_idea": "Fair experiment, complete list: the sample space is half the solution.",
+   "textbook_ref": "jemh114.txt sections on equally likely outcomes and sample space",
+   "question_patterns": [
+    "list the outcomes when two coins are tossed together",
+    "are the outcomes of the given experiment equally likely - justify",
+    "write the sample space for the given experiment",
+    "a die is rolled - list the outcomes favourable to the event",
+    "why must a coin or die be unbiased for theoretical probability",
+    "which outcomes favour the given event - list them"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the sample space",
+     "explain": "Write every possible outcome of the experiment."},
+    {"step": 2, "action": "check equal likelihood",
+     "explain": "Confirm the experiment gives no outcome any special advantage."},
+    {"step": 3, "action": "mark the favourable set",
+     "explain": "Pick the outcomes that satisfy the event."}
+   ]
+  },
+  {
+   "id": "jemh.114.14.3",
+   "title": "Complement of an Event",
+   "section": "14.1",
+   "definition": "The complement of an event is its non-happening; since the event and its complement together exhaust all outcomes, their probabilities add to one, so the probability of not E equals one minus the probability of E.",
+   "formula": "complement = 1 - probability",
+   "key_idea": "Not E is the rest of the certainty: P(not E) = 1 - P(E).",
+   "textbook_ref": "jemh114.txt sections on complement of an event",
+   "question_patterns": [
+    "find the probability of not getting a head in a coin toss",
+    "the probability of an event is given - find its complement",
+    "why do the probabilities of an event and its complement add to 1",
+    "find the probability of not drawing the stated card",
+    "is P(E) + P(not E) always 1 - justify",
+    "use the complement to simplify the given probability problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract from one",
+     "explain": "The complement takes the remaining probability.",
+     "compute": "complement = 1 - probability"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh114.txt coin toss example",
+   "concept": "jemh.114.14.1",
+   "question_type": "compute",
+   "question_pattern": "A fair coin is tossed once. Find the probability of the event with {favourable_count} favourable outcome(s) out of {total}.",
+   "extracted_variables": {
+    "favourable_count": "number of favourable outcomes",
+    "total": "total equally likely outcomes"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "The theoretical probability is the ratio.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh114.txt die example",
+   "concept": "jemh.114.14.1",
+   "question_type": "compute",
+   "question_pattern": "An unbiased die is thrown. Find the probability of the event with {favourable_count} favourable outcomes out of {total} faces.",
+   "extracted_variables": {
+    "favourable_count": "favourable outcomes",
+    "total": "faces of the die"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "Favourable over total gives the probability.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh114.txt complement example",
+   "concept": "jemh.114.14.3",
+   "question_type": "compute",
+   "question_pattern": "The probability of an event E is {probability}. Find the probability of the complement 'not E'.",
+   "extracted_variables": {
+    "probability": "probability of the event E"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract from one",
+     "explain": "P(not E) equals 1 minus P(E).",
+     "compute": "complement = 1 - probability"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh114.txt complement practice",
+   "concept": "jemh.114.14.3",
+   "question_type": "compute",
+   "question_pattern": "If the probability of winning a game is {probability}, find the probability of losing it (no draw).",
+   "extracted_variables": {
+    "probability": "probability of winning"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract from one",
+     "explain": "Losing is the complement of winning.",
+     "compute": "complement = 1 - probability"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "jemh114.txt EXERCISE 14.1",
+   "questions": [
+     "Complete the statements about probability of sure and impossible events.",
+     "Find the probability of the given events with dice, coins and cards.",
+     "It is given that the probability of winning is a fraction - find the probability of losing."
+   ]
+  }
+ ]
+}

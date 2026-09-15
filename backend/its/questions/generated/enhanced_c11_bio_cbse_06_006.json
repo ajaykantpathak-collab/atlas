@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_006",
+   "title": "c11_bio_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define stomatal apparatus and state the shape difference of guard cells in dicot versus monocot leaves.",
+     "a": "Stomatal apparatus consists of the stomatal pore, two guard cells, and surrounding subsidiary cells. In dicots, guard cells are bean-shaped; in monocots (grasses), they are dumb-bell shaped. A wrong answer (e.g., \"guard cells are always bean-shaped\") reveals the student has not internalized the monocot adaptation for rapid stomatal movement in grasses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why palisade parenchyma is located on the adaxial (upper) side in dorsiventral leaves but absent in isobilateral leaves.",
+     "a": "In dorsiventral leaves, the upper surface receives more direct sunlight; vertically elongated palisade cells maximize light absorption per unit area. In isobilateral leaves, both surfaces receive similar light (horizontal orientation or unifacial), so mesophyll is undifferentiated to utilize light from both sides. A wrong answer (e.g., \"palisade is always on top\") shows the student memorizes position without linking to light capture strategy.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a leaf shows vascular bundles of nearly equal size scattered in mesophyll, each surrounded by a sclerenchymatous bundle sheath, and stomata on both epidermises. Identify the leaf type and justify using two anatomical features.",
+     "a": "This is an isobilateral (monocot) leaf. Evidence: (1) vascular bundles are similar in size (parallel venation) unlike reticulate venation where bundle size varies with vein order; (2) stomata on both surfaces (amphistomatic) unlike dorsiventral leaves where stomata are mostly abaxial. A wrong identification indicates inability to connect bundle sheath, bundle size uniformity, and stomatal distribution to monocot anatomy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional significance of bulliform cells in monocot leaves with the role of spongy parenchyma air spaces in dicot leaves.",
+     "a": "Bulliform cells are large, thin-walled, vacuolated adaxial epidermal cells in grasses. When turgid, they keep the leaf flat for photosynthesis; when flaccid (water stress), they cause leaf rolling to reduce transpiration. Spongy parenchyma air spaces in dicots facilitate CO2 diffusion to palisade cells and O2 exit. Both are adaptations for gas exchange/water balance but operate differently: bulliform cells are a rapid, reversible morphological response to water status; air spaces are permanent structural features. A poor comparison treats them as identical \"air spaces\" or ignores the motor function of bulliform cells.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Isobilateral leaves are more efficient at photosynthesis than dorsiventral leaves because they have chloroplasts on both sides.\" Evaluate this statement.",
+     "a": "The statement is an oversimplification. Isobilateral leaves *can* photosynthesize on both surfaces, which is advantageous in high-light, open habitats (grasses). However, dorsiventral leaves concentrate chloroplasts in palisade parenchyma, achieving high photosynthetic rates per unit leaf area under directional light (forest understory, canopy). Efficiency depends on light environment, not just symmetry. A wrong evaluation (agreeing without nuance) reveals failure to link anatomy to ecological context and photosynthetic physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscope-based investigation to distinguish between a dorsiventral and an isobilateral leaf using only a vertical section and temporary mount. List the steps and the decisive observation.",
+     "a": "Steps: (1) Obtain fresh leaf samples of a dicot (e.g., Hibiscus) and monocot (e.g., maize). (2) Cut thin vertical sections through lamina including midrib. (3) Mount in water on slides, cover with coverslip. (4) Observe under low then high power. Decisive observation: In dicot, mesophyll is clearly differentiated into columnar palisade (adaxial) and loose spongy (abaxial) layers; stomata predominantly on lower epidermis. In monocot, mesophyll is uniform (no palisade/spongy distinction); stomata on both epidermises; bulliform cells visible on upper epidermis. A poor design misses the need for vertical section (not transverse) to see mesophyll differentiation or fails to specify the diagnostic features.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

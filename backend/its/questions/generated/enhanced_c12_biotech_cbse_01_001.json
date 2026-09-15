@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_001",
+   "title": "c12_biotech_cbse_01_001",
+   "questions": [
+    {
+     "q": "What are the four essential features that a DNA molecule must possess to function as a cloning vector in a host-vector system?",
+     "a": "The four essential features are: (1) Origin of replication (ori) — allows autonomous replication within the host; (2) Selectable marker — enables identification and selection of transformed host cells (e.g., antibiotic resistance); (3) Unique restriction sites (cloning sites) — for insertion of foreign DNA without disrupting essential vector functions; (4) Small size — facilitates isolation, manipulation, and transformation efficiency. A wrong answer (e.g., listing \"promoter\" or \"terminator\" as essential for a cloning vector) reveals confusion between a cloning vector (maintenance only) and an expression vector (requires transcription/translation signals).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Any plasmid with an antibiotic resistance gene can be used as a cloning vector in E. coli.\" Explain why this statement is incomplete and what critical feature is missing.",
+     "a": "The statement is incomplete because a plasmid must also have an origin of replication (ori) functional in E. coli to replicate autonomously. Without a compatible ori, the plasmid cannot be maintained or propagated in the host, even if it has a selectable marker. A wrong answer focusing only on the marker or cloning sites reveals the misconception that selection alone ensures vector maintenance — ignoring the requirement for replication compatibility between vector and host.",
+     "self_check": true
+    },
+    {
+     "q": "You have a plasmid vector with a pUC origin (high copy number in E. coli) and an ampicillin resistance marker. You transform it into two E. coli strains: DH5α (recA⁻, endA⁻) and HB101 (recA⁺, endA⁺). In which strain would you expect higher yield of pure plasmid DNA, and why?",
+     "a": "DH5α yields higher quality and quantity of plasmid DNA. The recA⁻ mutation prevents homologous recombination (improving insert stability), and endA⁻ lacks endonuclease I (preventing plasmid degradation during purification). HB101 has both functional RecA and EndA, leading to lower stability and sheared DNA. A wrong answer choosing HB101 or ignoring the genotype reveals lack of understanding that host genotype directly affects vector propagation and DNA quality — a core host-vector compatibility concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the host-vector compatibility requirements for a shuttle vector designed to replicate in both E. coli and S. cerevisiae versus a standard E. coli plasmid vector. What additional feature must the shuttle vector have?",
+     "a": "A shuttle vector must have two functional origins of replication: one recognized by E. coli replication machinery (e.g., pMB1/ColE1 ori) and one by S. cerevisiae (e.g., 2μ ori or ARS). It also needs selectable markers functional in both hosts (e.g., ampicillin resistance for E. coli, URA3 for yeast). A standard E. coli plasmid lacks the eukaryotic ori and yeast marker. A wrong answer stating only \"two antibiotic resistance genes\" misses the fundamental requirement: replication compatibility in each host, which is the defining feature of a shuttle vector.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For cloning a 50 kb human genomic DNA fragment, a plasmid vector is the best choice because it has high copy number and easy purification.\" Justify your evaluation with two specific limitations of plasmids for this insert size.",
+     "a": "The claim is incorrect. Plasmids have two major limitations for 50 kb inserts: (1) Insert size capacity — plasmids typically accept ≤10-15 kb; larger inserts cause instability, rearrangement, or loss during replication. (2) Copy number drops drastically with large inserts, negating the high-copy advantage. For 50 kb, a BAC (bacterial artificial chromosome) or YAC (yeast artificial chromosome) is appropriate. A wrong answer endorsing plasmids reveals ignorance of vector capacity limits — a critical competitive exam trap (NEET/JEE often tests insert size vs vector choice).",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical host-vector system for expressing a toxic human protein in E. coli. Specify: (a) one essential vector feature to control expression, (b) one host genotype feature to reduce toxicity effects, and (c) one compatibility requirement between them.",
+     "a": "(a) Vector: Tightly regulated inducible promoter (e.g., pBAD with arabinose induction or T7 promoter with lac operator) — allows expression only after sufficient biomass. (b) Host: Protease-deficient strain (e.g., BL21(DE3) lon⁻ ompT⁻) — reduces degradation of toxic protein; or strain with tight repression (e.g., lacIq overproducing Lac repressor). (c) Compatibility: If using T7 promoter, host must provide T7 RNA polymerase (e.g., DE3 lysogen) under inducible control. A poor answer omits the promoter-host polymerase match or suggests constitutive expression — showing failure to integrate vector design with host physiology for a specific application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

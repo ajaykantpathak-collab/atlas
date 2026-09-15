@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_003",
+   "title": "c7_math_ch09_003",
+   "questions": [
+    {
+     "q": "In an isosceles triangle $\\triangle PQR$, side $PQ = PR$. Which two angles must be equal in measure?",
+     "a": "Angle $Q$ and Angle $R$ ($\\angle Q = \\angle R$) must be equal because they are opposite to the equal sides $PR$ and $PQ$ respectively. A wrong answer like saying $\\angle P$ is equal to $\\angle Q$ shows a confusion between the vertex angle (between the equal sides) and the base angles opposite to the equal sides.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if an isosceles triangle has a vertex angle of $40^\\circ$, its two base angles must each be $70^\\circ$. Without calculating, explain why this sum is geometrically valid based on triangle properties.",
+     "a": "The sum of all interior angles in any triangle is $180^\\circ$. Subtracting the vertex angle ($180^\\circ - 40^\\circ = 140^\\circ$) leaves the remaining sum to be shared equally between the two base angles ($140^\\circ \\div 2 = 70^\\circ$ each) because base angles of an isosceles triangle are equal. A wrong answer typically forgets to divide by two or subtracts from $360^\\circ$, revealing a failure to remember the triangle angle sum property.",
+     "self_check": true
+    },
+    {
+     "q": "An isosceles triangle has a base angle measuring $55^\\circ$. Calculate the measure of the vertex angle.",
+     "a": "Step 1: Identify that an isosceles triangle has two equal base angles, so both base angles are $55^\\circ$.\nStep 2: Set up the angle sum equation: $\\text{Vertex Angle} + 55^\\circ + 55^\\circ = 180^\\circ$.\nStep 3: Combine the known base angles: $\\text{Vertex Angle} + 110^\\circ = 180^\\circ$.\nStep 4: Solve for the vertex angle: $\\text{Vertex Angle} = 180^\\circ - 110^\\circ = 70^\\circ$.\nA wrong answer like $125^\\circ$ shows the student subtracted $55^\\circ$ from $180^\\circ$ once instead of accounting for both base angles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an equilateral triangle and an isosceles triangle in terms of their interior angles. Can an isosceles triangle have an obtuse angle? Justify your reasoning.",
+     "a": "An equilateral triangle always has three equal angles of $60^\\circ$, whereas an isosceles triangle has at least two equal angles. Yes, an isosceles triangle can have an obtuse angle; for example, if the vertex angle is $100^\\circ$, the two base angles are each $(180^\\circ - 100^\\circ) \\div 2 = 40^\\circ$. A wrong answer assumes all triangles must be acute or that isosceles triangles cannot contain angles greater than $90^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate solves an isosceles triangle problem where the vertex angle is given as $x$ and each base angle is given as $2x$. They write the equation $x + 2x = 180^\\circ$ and conclude $3x = 180^\\circ$, so $x = 60^\\circ$. Evaluate their work and identify the error.",
+     "a": "The classmate's work is incorrect because an isosceles triangle has *two* base angles, not one. The correct equation representing all three interior angles is $x + 2x + 2x = 180^\\circ$, which simplifies to $5x = 180^\\circ$, giving $x = 36^\\circ$. A wrong answer failing to spot this error indicates a misunderstanding of how many base angles exist in a triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a problem for a garden layout where a triangular flower bed needs to be isosceles with a perimeter of 30 metres and one specific angle condition. State the problem and provide its complete solution.",
+     "a": "Problem: A triangular flower bed in a park is isosceles. The two equal sides are each 10 metres long, and the vertex angle is $50^\\circ$. Find the lengths of all sides and the measures of all three interior angles. \nSolution: Equal sides = 10m each, so the third side (base) = $30 - (10 + 10) = 10$m (making it equilateral as a special case!). The vertex angle is given as $50^\\circ$, so the base angles are $(180^\\circ - 50^\\circ) \\div 2 = 65^\\circ$ each. A poor answer lacks either the side length calculations or misapplies the angle sum rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

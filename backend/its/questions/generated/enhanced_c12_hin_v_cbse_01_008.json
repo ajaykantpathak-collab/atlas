@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_01_008",
+   "title": "c12_hin_v_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define imagery and metaphor in your own words. Give one example of each from *any* Hindi text you have studied previously.",
+     "a": "Imagery: sensory language creating mental pictures (e.g., \"the smell of wet earth after rain\"). Metaphor: direct comparison without 'like/as' (e.g., \"life is a broken bridge\"). A wrong answer that confuses metaphor with simile (\"life is *like* a broken bridge\") reveals the student cannot distinguish direct vs. indirect comparison — a fatal error in board answer-writing where terminology precision carries marks.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening scene where the protagonist walks through the market, the author writes: \"pyrs&pyrs twfu;jksa ls dksbZ euksjatd ckr dj fnu Hkj osQ 'kq\"d O;ogkj dk fujkdj.k dj tkus dh Ñ\".kkuan ikaMs ls feyh gqbZ ijaijk dk ikyu djrs gq,\". Identify the dominant sensory imagery here and explain why the author chooses *that* sense over others.",
+     "a": "Dominant imagery: **tactile + thermal** (\"Ñ\".kkuan ikaMs\" — burning embers of helplessness). The author chooses touch/heat because the protagonist's helplessness is not abstract — it *burns* physically. A student who says \"visual imagery of the market\" misses the embodied metaphor: helplessness is not *seen*, it is *felt* as internal combustion. This confusion between literal setting description and figurative sensory mapping is the #1 error in CBSE 3-marker questions.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the metaphor \"flYoj oSfMax\" (Floyd's Algorithm) to the protagonist's life. Decode the three stages of the algorithm (initialization, iteration, termination) as they map onto his childhood, adulthood, and old age. Write the mapping in a 3-row table.",
+     "a": "| Algorithm Stage | Life Stage | Textual Evidence |\n|----------------|------------|------------------|\n| Initialization (single source) | Childhood: single moral anchor (father's values) | \"gekjs ;gk¡ FkksM+h ekurs gSa\" |\n| Iteration (relaxing edges) | Adulthood: compromises, adjustments | \"vkbZ MksaV ykbd vky fnlA\" |\n| Termination (shortest path found) | Old age: acceptance of irreducible distance | \"tks gqvk gksxk\" |\n\nA student who maps \"iteration\" to \"repetition of mistakes\" instead of \"calculated compromises\" fails to grasp that the metaphor *structures* the narrative — it's not decorative. This is a JEE-style conceptual application trap.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the olfactory imagery of \"xqCckjs yVosQ\" (rotting flowers) and \"cxSj ck¡g dk Vki\" (smoke of wet wood) in the cremation-ground scene work *together* to undermine the son's ritualistic performance of last rites.",
+     "a": "The two smells create a **sensory counter-narrative**: rotting flowers = hollow tradition (beauty decayed); wet wood smoke = inefficient burning (ritual incomplete). Together they expose the son's performance as sensory theatre — the *smell* reveals what the *sight* (flowers, fire) conceals. A student who treats them as separate \"atmosphere details\" misses the *dialectic* between sensory tracks — a pattern CBSE repeatedly tests in 5-marker \"analyze the significance\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The metaphor 'tks gqvk gksxk' (whatever happens, happens) is the novel's *only* philosophical core; all imagery merely illustrates it.\" Defend or refute with two textual evidences.",
+     "a": "**Refute.** The metaphor is a *coping mechanism*, not the core. Evidence 1: The protagonist *actively* curates his sensory world (\"mUgksaus viuh ?kM+h jks\"kkuk lqcg&'kke jsfM;ks lekpkjksa ls feykrs gSa\") — imagery shows agency, not surrender. Evidence 2: The recurring \"legkm baçkij\" (capitalist market) metaphor frames his decay as *structural*, not inevitable — imagery of \"Mh-vkbZ-tSM- ,fj;k\" (MRI machines) and \"ykbI+kQ dE;wfuVh\" (multispeciality hospitals) proves the system *profits* from his decline. A student who agrees confuses *resignation* with *critique* — a political reading error that costs marks in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi poem (no rhyme required) that uses **two distinct metaphors** and **three sensory images** to depict an elderly person waiting at a bus stop in winter. Label each device in brackets.",
+     "a": "उम्र जंग लगा लोहा है [Metaphor 1: age = rusted iron],  \nठंडी हवा त्वचा पर काँटे बोती है [Tactile imagery: wind = thorns],  \nबस का इंतज़ार एक अधूरी प्रार्थना है [Metaphor 2: waiting = incomplete prayer],  \nधुएँ की गंध में यादें जलती हैं [Olfactory + Visual imagery: smoke/memories burning],  \nपैरों तले सड़क धड़कती है [Auditory/Tactile imagery: road as heartbeat].  \nA poor answer uses similes (\"जैसे जंग लगा लोहा\") or lists images without metaphorical tension — revealing the student cannot *generate* the very devices they are asked to identify.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

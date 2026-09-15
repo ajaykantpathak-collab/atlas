@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_005",
+   "title": "c11_phy_cbse_09_005",
+   "questions": [
+    {
+     "q": "State Pascal's law as applied to hydraulic machines and write the formula relating the forces on two pistons of areas A₁ and A₂ in a hydraulic lift.",
+     "a": "Pascal's law: Pressure applied to an enclosed fluid is transmitted undiminished to every part of the fluid and the container walls. Formula: F₂ = (A₂/A₁) F₁, where F₁, A₁ are input force and area; F₂, A₂ are output force and area. A wrong answer (e.g., F₂ = F₁) reveals the student thinks force is transmitted directly, not pressure, confusing Newton's third law with hydraulic transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the fluid in a hydraulic machine be incompressible? What would happen if air bubbles were present in the brake fluid of a car's hydraulic braking system?",
+     "a": "Incompressibility ensures volume displaced by the input piston equals volume received by the output piston (A₁d₁ = A₂d₂), giving a precise force-displacement trade-off. Air bubbles compress under pressure, absorbing pedal travel without transmitting force, causing a \"spongy\" brake pedal and reduced braking force. A wrong answer (e.g., \"fluid must be liquid\") shows confusion between phase and compressibility — gases are compressible, liquids nearly incompressible.",
+     "self_check": true
+    },
+    {
+     "q": "In a hydraulic lift, the small piston has a diameter of 2.0 cm and the large piston has a diameter of 30.0 cm. A force of 150 N is applied to the small piston. Calculate (a) the pressure in the fluid, (b) the force exerted by the large piston, and (c) the distance the large piston moves if the small piston is pushed down 12 cm.",
+     "a": "(a) A₁ = π(0.01)² = 3.14×10⁻⁴ m²; P = F₁/A₁ = 150 / 3.14×10⁻⁴ = 4.78×10⁵ Pa.\n(b) A₂ = π(0.15)² = 7.07×10⁻² m²; F₂ = P A₂ = 4.78×10⁵ × 7.07×10⁻² = 3.38×10⁴ N (or F₂ = (A₂/A₁)F₁ = 225 × 150 = 3.38×10⁴ N).\n(c) A₁d₁ = A₂d₂ → d₂ = (A₁/A₂)d₁ = (1/225) × 0.12 m = 5.33×10⁻⁴ m = 0.533 mm.\nA wrong answer in (c) (e.g., d₂ = 12 cm) reveals the student ignores volume conservation and thinks displacement is same on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "A hydraulic press has a mechanical advantage of 40. The large piston has a radius of 20 cm. If the operator can exert a maximum force of 250 N on the small piston, what is the maximum weight the press can lift? Also, find the radius of the small piston.",
+     "a": "Mechanical advantage MA = A₂/A₁ = 40. F₂ = MA × F₁ = 40 × 250 = 10,000 N. Weight = 10,000 N (mass ≈ 1020 kg).\nA₂ = π(0.2)² = 0.04π m². A₁ = A₂/40 = 0.001π m². Radius r₁ = √(A₁/π) = √0.001 = 0.0316 m = 3.16 cm.\nA wrong answer (e.g., using diameter instead of radius in area) shows confusion between linear and area scaling — force ratio depends on area ratio, not radius ratio directly.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a hydraulic lift, we get more force out than we put in, so it violates conservation of energy.\" Evaluate this claim using the work-energy principle.",
+     "a": "The claim is false. Work input = F₁d₁, Work output = F₂d₂. Since F₂ = (A₂/A₁)F₁ and d₂ = (A₁/A₂)d₁, then F₂d₂ = F₁d₁. Energy is conserved (neglecting friction). The machine trades force for distance, like a lever. A wrong evaluation (e.g., \"energy is created\") reveals the student does not connect displacement ratio to force ratio and misses the volume conservation constraint A₁d₁ = A₂d₂.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple hydraulic demonstration using two syringes (5 mL and 50 mL), tubing, and water. Predict how far the large plunger moves when the small plunger is pushed 4 cm, and explain how you would verify Pascal's law quantitatively.",
+     "a": "Cross-sectional areas: A_small ≈ 5 mL / 4 cm ≈ 1.25 cm² (assuming 4 cm stroke), A_large ≈ 50 mL / 4 cm ≈ 12.5 cm². Ratio = 10. Push small plunger 4 cm → large plunger moves 0.4 cm. Verify Pascal's law: hang known weights on each plunger, measure equilibrium forces, confirm F_large/F_small = A_large/A_small = 10. A poor design (e.g., using air instead of water) shows failure to recognize compressibility breaks the volume-conservation link.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

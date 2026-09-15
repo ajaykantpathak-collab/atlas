@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_007",
+   "title": "c12_hs_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define the three types of family income — money income, real income, and psychic income — and give one original example of each (do not use textbook examples).",
+     "a": "Money income: actual cash inflow (e.g., salary ₹45,000, tuition fees ₹8,000, pension ₹12,000). Real income: goods/services received in kind or produced by the family without cash transaction (e.g., vegetables from kitchen garden worth ₹2,000/month, free housing from employer worth ₹15,000/month, childcare by grandparent worth ₹10,000/month). Psychic income: subjective satisfaction/utility derived from using money/real income (e.g., peace of mind from emergency fund, joy from family vacation, status from owning a car). A wrong answer that lists only money income sources or confuses real income with psychic income reveals the student has not grasped the NCERT distinction that real income is tangible non-money flow while psychic income is intangible satisfaction.",
+     "self_check": true
+    },
+    {
+     "q": "A family of four has monthly money income of ₹75,000. They receive free housing worth ₹20,000/month from employer, grow vegetables worth ₹3,000/month, and the grandmother provides childcare worth ₹8,000/month. The father derives great satisfaction from his stamp collection bought from savings. Calculate the total real income and explain why the stamp collection satisfaction is NOT part of real income.",
+     "a": "Total real income = free housing ₹20,000 + vegetables ₹3,000 + childcare ₹8,000 = ₹31,000/month. The stamp collection satisfaction is psychic income because it is intangible, subjective utility derived from consuming a good (stamps) purchased from money income — it is not a flow of goods/services into the household. A wrong answer that includes the stamp satisfaction in real income or omits the grandmother's childcare reveals confusion between real income (tangible non-money inflows) and psychic income (subjective satisfaction from using any income).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a monthly budget for a family with money income ₹80,000 and real income ₹25,000 (free housing ₹20,000 + home-grown food ₹5,000). The family has: fixed expenses (rent would be ₹20,000 but covered by real income, EMI ₹15,000, insurance ₹3,000), variable expenses (food ₹18,000, transport ₹6,000, utilities ₹4,000, education ₹10,000, medical ₹3,000, personal ₹5,000). They want to save 20% of money income and keep 5% as contingency. Show the budget format with all heads, amounts, and percentages of total income (money + real). Identify if the budget balances.",
+     "a": "Total income = ₹80,000 + ₹25,000 = ₹1,05,000. Savings target = 20% of ₹80,000 = ₹16,000. Contingency = 5% of ₹80,000 = ₹4,000. Total planned outflow = EMI ₹15,000 + insurance ₹3,000 + food ₹18,000 + transport ₹6,000 + utilities ₹4,000 + education ₹10,000 + medical ₹3,000 + personal ₹5,000 + savings ₹16,000 + contingency ₹4,000 = ₹84,000. Rent ₹20,000 is covered by real income (free housing), so not a cash outflow. Budget balances with surplus ₹80,000 - ₹84,000? Wait — money income ₹80,000 covers cash outflows ₹68,000 (all except rent) + savings ₹16,000 + contingency ₹4,000 = ₹88,000. Deficit ₹8,000. The budget does NOT balance. Student must reduce variable expenses or savings target. A wrong answer that ignores the real income offset for rent or miscalculates percentages on total income instead of money income reveals misunderstanding of budgeting on cash-flow basis while acknowledging real income in total resource picture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the budgeting process steps (as per NCERT Class 12) with the five steps of the management process (planning, organising, implementing, controlling, evaluating). Map each budgeting step to the corresponding management step and justify the mapping with one sentence each.",
+     "a": "NCERT budgeting steps: (1) Estimate income → Planning (setting financial goals and forecasting resources). (2) List expenditure heads → Organising (categorising resources into structured heads). (3) Allocate amounts → Planning/Organising overlap (deciding how much to each head). (4) Record actual spending → Controlling (monitoring deviations from plan). (5) Compare and adjust → Evaluating (assessing performance and revising plan). A wrong answer that lists budgeting steps without mapping or maps \"recording\" to \"implementing\" reveals the student sees budgeting as isolated arithmetic, not as an application of the management process learned in c12_hs_cbse_05_004.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A budget that shows zero surplus (income = expenditure) is a perfect budget.\" Defend or critique using three arguments from money management principles.",
+     "a": "Critique: A zero-surplus budget is fragile, not perfect. (1) No contingency for emergencies (medical, repair, job loss) — violates the principle of flexibility in money management. (2) No savings for future goals (education, retirement, asset purchase) — violates the principle of goal-directed resource allocation. (3) No buffer for price inflation or income disruption — violates the principle of risk management. A \"perfect\" budget shows planned surplus allocated to savings/investment/contingency. A wrong answer that agrees with the statement reveals the student equates \"balancing\" with \"optimising\" and misses the protective function of savings/contingency taught in Class 11 (c11_hs_cbse_10_009, c11_hs_cbse_10_010).",
+     "self_check": true
+    },
+    {
+     "q": "Design a budgeting template (table format) for a family with irregular income (e.g., freelancer father, seasonal agricultural mother) that incorporates: (a) income smoothing mechanism, (b) priority-based expense ranking, (c) savings automation trigger, and (d) monthly review checkpoint. Explain how each feature addresses irregular income challenges.",
+     "a": "Template columns: Month | Projected Income (3-month avg) | Actual Income | Surplus/Deficit vs Projected | Priority 1 Expenses (survival: food, rent, medicine) | Priority 2 Expenses (obligations: EMI, insurance, fees) | Priority 3 Expenses (quality: transport, utilities, education) | Priority 4 Expenses (discretionary: entertainment, eating out) | Savings Transfer (auto if Actual > Projected + 10%) | Contingency Top-up | Review Notes. Features: (a) Uses 3-month rolling average to smooth projections. (b) Priority ranking ensures survival first when income falls short. (c) Automation trigger prevents \"no savings this month\" excuse. (d) Monthly review forces adjustment. A poor answer that gives a standard fixed-income budget template reveals inability to adapt budgeting principles to real-world income volatility — a key Class 12 competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

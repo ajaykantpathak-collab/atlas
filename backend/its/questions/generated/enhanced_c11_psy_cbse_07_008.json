@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_008",
+   "title": "c11_psy_cbse_07_008",
+   "questions": [
+    {
+     "q": "List the four components of divergent thinking identified by J.P. Guilford and give a one-sentence definition for each.",
+     "a": "Correct answer: (1) Fluency – ability to produce a large number of ideas for a given task; (2) Flexibility – ability to produce ideas across different categories or perspectives; (3) Originality – ability to produce rare, unusual, or statistically infrequent ideas; (4) Elaboration – ability to add detail, develop, and work out implications of an idea. A wrong answer that conflates fluency with originality (e.g., \"originality is having many ideas\") reveals the student misunderstands that originality requires statistical rarity, not just quantity. A wrong answer missing elaboration reveals the student thinks creativity stops at idea generation, ignoring the developmental work needed to make ideas usable.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Brainstorming is just a group discussion where everyone shares ideas freely.\" Explain why this statement is incomplete and identify the two core rules of Osborn's brainstorming that the student missed.",
+     "a": "Correct answer: The statement misses the critical separation of idea generation from evaluation. Osborn's two core rules are: (1) Deferred judgment – criticism/evaluation is completely banned during the generation phase; (2) Quantity breeds quality – the goal is maximum ideas (fluency) because more ideas increase probability of original ones. A wrong answer that focuses only on \"no criticism\" but misses \"quantity focus\" reveals the student views brainstorming as merely polite discussion rather than a structured fluency-building technique. A wrong answer suggesting \"building on others' ideas\" as a core rule (that's a later addition by Parnes) shows confusion between original Osborn rules and later CPS modifications.",
+     "self_check": true
+    },
+    {
+     "q": "You are leading a creativity workshop for Class 11 students on \"Reducing Plastic Waste in School Canteen.\" Design a 10-minute brainstorming session plan specifying: (a) the exact problem statement phrasing, (b) two warm-up activities to induce divergent mindset, (c) the four Osborn rules to announce, and (d) how you will capture ideas without evaluation.",
+     "a": "Correct answer: (a) Problem statement: \"In how many ways can we eliminate single-use plastic from our canteen operations within 3 months?\" (open-ended, time-bound, action-oriented). (b) Warm-ups: 1) Alternative Uses – list 15 uses for a plastic bottle in 2 minutes; 2) Forced Connection – combine \"canteen\" with each of 5 random words (e.g., banana, cloud, bicycle) to generate hybrid ideas. (c) Four rules: 1) No criticism (verbal/non-verbal), 2) Welcome wild ideas, 3) Aim for quantity (target: 50+ ideas in 8 minutes), 4) Combine/improve others' ideas (hitchhiking). (d) Capture: One scribe writes every idea verbatim on visible flip-chart; no discussion, no \"good/bad\" markers; numbering each idea to track fluency. A wrong answer using a vague problem like \"How to reduce plastic?\" reveals inability to frame problems for divergent thinking. Missing warm-ups shows ignorance of mindset priming. Including \"feasibility\" as a rule reveals confusion between generation and verification stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare convergent and divergent thinking in the context of the four-stage creative process. At which stage(s) does each dominate, and why is premature convergence dangerous during incubation?",
+     "a": "Correct answer: Divergent thinking dominates preparation (exploring problem space, generating multiple problem definitions) and illumination (producing novel combinations). Convergent thinking dominates verification (selecting, refining, testing the best idea). Incubation requires neither—it's unconscious processing where premature convergence (settling on one approach) prevents the remote associations that lead to breakthrough. Premature convergence during incubation acts like a mental set (from node 004), blocking the \"digging a hole in another place\" (de Bono's lateral thinking) needed for originality. A wrong answer placing convergent thinking in preparation reveals the student thinks problem definition has a single correct answer. A wrong answer saying incubation uses divergent thinking confuses conscious generation with unconscious restructuring.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Creative people are born with high divergent thinking ability; training can only marginally improve creativity.\" Use evidence from Guilford's research and the concept of neuroplasticity to justify your position.",
+     "a": "Correct answer: The claim is false. Guilford's factor-analytic work showed divergent thinking comprises distinct, trainable abilities (fluency, flexibility, originality, elaboration). Torrance's longitudinal studies demonstrated creativity training effect sizes of 0.5-1.0 SD with deliberate practice. Neuroplasticity confirms the brain reorganizes with repeated divergent thinking exercises (e.g., alternative uses tasks increase prefrontal connectivity). Training works by: (1) lowering associative barriers (reducing functional fixedness), (2) building ideation fluency through volume practice, (3) teaching meta-cognitive strategies (SCAMPER, Six Hats). A wrong answer accepting the claim reveals a fixed-mindset misconception confusing \"talent\" with \"trained skill.\" A wrong answer citing only anecdotal examples (Einstein, Edison) without referencing trainability research shows inability to evaluate empirical claims.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"Creativity Challenge\" for Class 11 students that simultaneously develops all four divergent thinking components. Specify: (1) the challenge prompt, (2) how fluency is measured, (3) how flexibility is scored across categories, (4) how originality is assessed statistically, (5) how elaboration is evaluated, and (6) the time limit.",
+     "a": "Expected answer criteria: (1) Prompt example: \"Design a multi-functional study desk for a 10 sq ft room that serves 5+ distinct needs of a Class 11 student.\" (2) Fluency = total valid ideas counted. (3) Flexibility = number of distinct functional categories (e.g., storage, posture, lighting, tech-integration, stress-relief) – scored by independent raters. (4) Originality = statistical infrequency: ideas given by <5% of cohort get 2 points, 5-10% get 1 point, >10% get 0. (5) Elaboration = detail richness scored on 0-3 scale per idea (0=label only, 1=one detail, 2=multiple details, 3=systemic description with materials/dimensions/mechanisms). (6) Time limit: 20 minutes (5 min clarification, 12 min generation, 3 min elaboration of top 3). A poor answer using a trivial prompt (\"uses of a brick\") reveals inability to design domain-relevant challenges. Missing statistical originality scoring shows confusion between subjective \"coolness\" and psychometric originality. No elaboration metric reveals the student thinks creativity ends at ideation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

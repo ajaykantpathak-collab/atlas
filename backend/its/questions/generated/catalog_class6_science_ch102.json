@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class6_science_ch102.json",
+ "concepts": [
+  {
+   "id": "fesc.2.1.1",
+   "title": "Major Nutrients in Food",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the major nutrients in our food.",
+     "a": "Carbohydrates, fats, proteins, vitamins, minerals, plus dietary fibre and water.",
+     "self_check": true
+    },
+    {
+     "q": "Which nutrients give us energy mainly?",
+     "a": "Carbohydrates and fats are the chief energy-giving foods.",
+     "self_check": true
+    },
+    {
+     "q": "Why are proteins called body-building nutrients?",
+     "a": "They help the body grow and repair damaged tissues.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.2",
+   "title": "Test for Starch",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do we test a food item for starch?",
+     "a": "Put iodine solution on it - a blue-black colour shows starch is present.",
+     "self_check": true
+    },
+    {
+     "q": "What colour shows a positive starch test?",
+     "a": "Blue-black, when iodine solution meets starch.",
+     "self_check": true
+    },
+    {
+     "q": "Which foods would give a positive starch test?",
+     "a": "Rice, potato, bread and wheat flour.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.3",
+   "title": "Test for Proteins",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is the test for protein done?",
+     "a": "Add copper sulphate and caustic soda solutions to the food paste - violet colour means protein.",
+     "self_check": true
+    },
+    {
+     "q": "What colour indicates protein in a food test?",
+     "a": "Violet colour after adding copper sulphate and caustic soda.",
+     "self_check": true
+    },
+    {
+     "q": "Name two protein-rich foods.",
+     "a": "Pulses, milk, eggs, fish and paneer.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.4",
+   "title": "Test for Fats",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do we test food for fats?",
+     "a": "Press the food on paper - an oily patch that does not dry shows fat.",
+     "self_check": true
+    },
+    {
+     "q": "What is observed when a potato piece is pressed on paper?",
+     "a": "No oily patch - potato stores starch, not fat.",
+     "self_check": true
+    },
+    {
+     "q": "Name two fat-rich foods.",
+     "a": "Butter, ghee, nuts and oilseeds.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.1",
+   "title": "Carbohydrates and Fats as Energy Sources",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does our body need energy-giving food?",
+     "a": "Carbohydrates and fats release energy for working, playing and even sleeping (breathing, heartbeat).",
+     "self_check": true
+    },
+    {
+     "q": "Name two carbohydrate-rich and two fat-rich foods.",
+     "a": "Carbohydrates: rice, potato. Fats: ghee, groundnut.",
+     "self_check": true
+    },
+    {
+     "q": "What happens if we eat more energy food than we burn?",
+     "a": "Extra energy is stored as fat and body weight increases.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.2",
+   "title": "Functions of Dietary Proteins",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What do proteins do for the body?",
+     "a": "They build new tissues, repair worn-out parts and help growth.",
+     "self_check": true
+    },
+    {
+     "q": "Name two protein-rich foods for children.",
+     "a": "Milk, dal, eggs, fish and soyabean.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to children who get too little protein?",
+     "a": "Growth slows; severe lack causes kwashiorkor (swollen belly, weak muscles).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.3",
+   "title": "Functions of Vitamins and Minerals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we need vitamins and minerals only in small amounts?",
+     "a": "They are protective foods - tiny quantities keep the body working well and fight disease.",
+     "self_check": true
+    },
+    {
+     "q": "Name the vitamin that protects eyes and its source.",
+     "a": "Vitamin A - from carrots, papaya, green leafy vegetables; lack causes night blindness.",
+     "self_check": true
+    },
+    {
+     "q": "Which mineral keeps bones strong and where is it found?",
+     "a": "Calcium - in milk and milk products.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.4",
+   "title": "Role of Roughage and Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is dietary fibre (roughage) and why do we need it?",
+     "a": "Indigestible plant fibre that helps remove undigested food and prevents constipation.",
+     "self_check": true
+    },
+    {
+     "q": "Name two foods rich in roughage.",
+     "a": "Whole grains, fresh fruits, vegetables and salads.",
+     "self_check": true
+    },
+    {
+     "q": "Why is water essential even though it gives no energy?",
+     "a": "It carries nutrients in the body, removes wastes and controls body temperature.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.3.1",
+   "title": "Balanced Diet and Preservation of Nutrients",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a balanced diet?",
+     "a": "A meal containing all nutrients - carbohydrates, proteins, fats, vitamins, minerals, fibre and water - in right amounts.",
+     "self_check": true
+    },
+    {
+     "q": "Why should food not be washed after cutting vegetables?",
+     "a": "Washing washes away water-soluble vitamins; also overcooking destroys vitamins.",
+     "self_check": true
+    },
+    {
+     "q": "How does junk food harm a balanced diet?",
+     "a": "It fills the stomach with fats and little else, crowding out protective nutrients.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.4.1",
+   "title": "Nutrient Deficiency Diseases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are deficiency diseases?",
+     "a": "Diseases caused by long lack of a nutrient - scurvy (vitamin C), rickets (vitamin D), goitre (iodine).",
+     "self_check": true
+    },
+    {
+     "q": "Name the disease from lack of vitamin C and its symptom.",
+     "a": "Scurvy - bleeding gums and slow healing wounds; citrus fruits cure it.",
+     "self_check": true
+    },
+    {
+     "q": "Why do poor children often suffer from deficiency diseases?",
+     "a": "Their diet lacks variety - protective nutrients are missing from meagre meals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_008",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_008",
+   "title": "c7_geo_ch01_008",
+   "questions": [
+    {
+     "q": "Which ocean body contains the Lakshadweep Islands, and what is their primary geological origin?",
+     "a": "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls). If a student thinks they are volcanic, it reveals a confusion between the tectonic origin of the Andaman and Nicobar Islands and the biological/coral origin of Lakshadweep.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the Andaman and Nicobar Islands experience a different seismic risk profile compared to the Lakshadweep Islands?",
+     "a": "The Andaman and Nicobar Islands lie along an active tectonic plate boundary (the extension of the Indo-Australian and Burma plate collision zone), making them prone to earthquakes and volcanic activity (Barren Island). Lakshadweep consists of coral platforms sitting on stable submarine ridges, resulting in a much lower seismic risk. A wrong answer shows a failure to link plate tectonics with island formation types.",
+     "self_check": true
+    },
+    {
+     "q": "A cargo ship travels from Kochi in Kerala to Kavaratti in Lakshadweep, covering a distance of approximately 400 kilometres westwards. If another ship travels from Chennai to Port Blair in the Andaman and Nicobar Islands, covering about 1,300 kilometres eastwards, explain why the second journey takes significantly longer and crosses a different time or maritime zone context.",
+     "a": "Steps: 1. Identify the starting points and destinations for both journeys (Kochi to Kavaratti in the Arabian Sea; Chennai to Port Blair in the Bay of Bengal). 2. Note the straight-line distance difference (400 km vs 1,300 km). 3. Factor in open ocean navigation conditions in the deeper Bay of Bengal compared to the Arabian Sea route. 4. Conclude that the greater distance and deeper oceanic trench crossing make the eastern journey longer. A wrong answer indicates inability to interpret spatial distances and marine geography on an Indian map.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the location of the Andaman and Nicobar Islands near the Malacca Strait gives India strategic geopolitical importance compared to Lakshadweep.",
+     "a": "The Andaman and Nicobar Islands are situated very close to the entry of the Malacca Strait, which is a major global shipping lane connecting the Indian Ocean to the Pacific Ocean. This allows India to monitor international maritime trade and security in Southeast Asia. Lakshadweep, located in the western Arabian Sea, guards approaches toward the western coast of India and Middle Eastern shipping routes. A wrong answer reveals a gap in connecting geographical location to geopolitical and trade analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the environmental impact of rising sea levels and global warming on the low-lying coral islands of Lakshadweep compared to the higher, mountainous terrain of the Andaman and Nicobar Islands.",
+     "a": "Lakshadweep islands are very low-lying coral atolls, often rising only a few meters above sea level, making them extremely vulnerable to coastal erosion and submergence from rising sea levels. The Andaman and Nicobar Islands have hilly terrain and higher elevations, offering more natural refuge against rising waters, though they still face severe coastal degradation. A wrong answer shows a lack of understanding of how elevation and physical composition affect climate change vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a sustainable tourism management plan for the fragile coral ecosystems of Lakshadweep that balances economic growth with ecological preservation.",
+     "a": "A strong answer proposes strict visitor caps, eco-friendly waste management, protection of coral reefs from anchoring, and community-led ecotourism where local islanders guide visitors. A weak answer suggests mass commercial hotel development, which ignores the delicate coral ecosystem's carrying capacity and risks destroying the natural reef barrier.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

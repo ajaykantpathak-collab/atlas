@@ -1,0 +1,165 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 12,
+ "chapter_title": "Factorisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.112.12.1",
+   "title": "Factors of Natural Numbers and Algebraic Expressions",
+   "section": "12.1",
+   "definition": "Every natural number breaks into a product of primes, and every algebraic expression breaks into a product of its irreducible factors - factorisation writes a quantity as a multiplication instead of a sum.",
+   "formula": "-",
+   "key_idea": "Factorisation is division in reverse: find what multiplies to the given expression.",
+   "textbook_ref": "hemh112.txt sections 12.1.1-12.2 (factors of natural numbers, what is factorisation)",
+   "question_patterns": [
+    "write the given number as a product of primes",
+    "what are the factors of the given expression",
+    "define factorisation with an example",
+    "find the irreducible factors of the given term",
+    "determine whether the given factorisation is complete",
+    "express the monomial as a product of irreducible factors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "split the number or term",
+     "explain": "Break numerals into primes and letters into powers."},
+    {"step": 2, "action": "list the irreducible pieces",
+     "explain": "Stop when every factor is prime or a bare variable power."},
+    {"step": 3, "action": "recombine to check",
+     "explain": "Multiplying the factors must rebuild the original."}
+   ]
+  },
+  {
+   "id": "hemh.112.12.2",
+   "title": "Factorisation by Common Factors and Regrouping",
+   "section": "12.2",
+   "definition": "Two workhorse methods open factorisation: pull out the greatest common factor from every term, and regroup terms so each new group shares a factor - as 2xy + 2y + 3x + 3 regroups into (x + 1)(2y + 3).",
+   "formula": "-",
+   "key_idea": "Take out what is common, then arrange what remains into matching groups.",
+   "textbook_ref": "hemh112.txt sections 12.2.1-12.2.2 (method of common factors, regrouping)",
+   "question_patterns": [
+    "factorise the given expression by taking out the common factor",
+    "factorise 6xy - 4y by the common factor method",
+    "factorise the expression by regrouping the terms",
+    "factorise 2xy + 2y + 3x + 3",
+    "what is the greatest common factor of the given terms",
+    "check the factorisation by multiplying back"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "find the common factor",
+     "explain": "Take the HCF of coefficients and the common letters."},
+    {"step": 2, "action": "divide each term",
+     "explain": "The expression becomes the common factor times the remaining sum."},
+    {"step": 3, "action": "regroup if needed",
+     "explain": "Pair the terms so each group offers a shared bracket."}
+   ]
+  },
+  {
+   "id": "hemh.112.12.3",
+   "title": "Factorisation Using Identities",
+   "section": "12.2",
+   "definition": "Standard identities run backwards into factorisation: a squared plus 2ab plus b squared is (a + b) squared, a squared minus 2ab plus b squared is (a - b) squared, and a squared minus b squared factors as (a + b)(a - b).",
+   "formula": "-",
+   "key_idea": "Recognise the pattern, name a and b, and the factors appear as a bracket pair.",
+   "textbook_ref": "hemh112.txt sections 12.2.3-12.2.4 (factorisation using identities, factors of the given form)",
+   "question_patterns": [
+    "factorise x squared + 8x + 16 using identities",
+    "factorise 49a squared - 36b squared",
+    "use the identity to factorise the given expression",
+    "factorise the perfect square trinomial",
+    "express the difference of squares as a product",
+    "factorise m squared - 4n squared and verify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the pattern",
+     "explain": "Compare the expression with the three standard identity forms."},
+    {"step": 2, "action": "identify a and b",
+     "explain": "The squared terms reveal the a and b of the identity."},
+    {"step": 3, "action": "write the factors",
+     "explain": "The identity's right side gives the bracket pair directly."}
+   ]
+  },
+  {
+   "id": "hemh.112.12.4",
+   "title": "Division of Algebraic Expressions",
+   "section": "12.3",
+   "definition": "Division undoes factorisation: dividing a monomial by a monomial cancels common factors between coefficients and letters, and dividing a polynomial by a monomial splits it term by term, as 8x squared by 2x leaves 4x.",
+   "formula": "coef_quotient = coef1 / coef2",
+   "key_idea": "Cancel common factors top and bottom - coefficients divide, powers subtract.",
+   "textbook_ref": "hemh112.txt sections 12.3-12.3.2 (division of algebraic expressions)",
+   "question_patterns": [
+    "divide 8x squared by 2x",
+    "divide the given polynomial by the monomial",
+    "simplify the division of the given monomials",
+    "divide 24x cubed y by 6xy and verify",
+    "perform the division and check by multiplying back",
+    "find the quotient of the given algebraic division"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide the coefficients",
+     "explain": "The numeric parts cancel by common factors.",
+     "compute": "coef_quotient = coef1 / coef2"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh112.txt section 12.3 division example",
+   "concept": "hemh.112.12.4",
+   "question_type": "compute",
+   "question_pattern": "Divide the monomial {coef1}x by {coef2}x. What is the numerical coefficient of the quotient?",
+   "extracted_variables": {
+    "coef1": "coefficient of the dividend",
+    "coef2": "coefficient of the divisor"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the coefficients",
+     "explain": "Common numeric factors cancel.",
+     "compute": "coef_quotient = coef1 / coef2"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh112.txt section 12.3 practice",
+   "concept": "hemh.112.12.4",
+   "question_type": "compute",
+   "question_pattern": "In the division of the monomials with coefficients {coef1} and {coef2}, find the quotient's coefficient.",
+   "extracted_variables": {
+    "coef1": "dividend coefficient",
+    "coef2": "divisor coefficient"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the coefficients",
+     "explain": "The quotient coefficient is the ratio.",
+     "compute": "coef_quotient = coef1 / coef2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "hemh112.txt EXERCISE 12.1-12.2",
+   "questions": [
+     "Find the common factors of the given terms.",
+     "Factorise the given expressions by regrouping.",
+     "Factorise using identities: a squared + 8a + 16 and 25x squared - 9."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "hemh112.txt EXERCISE 12.3",
+   "questions": [
+     "Carry out the given divisions of monomials.",
+     "Divide the given polynomial by the monomial.",
+     "Verify the division by multiplying the quotient with the divisor."
+   ]
+  }
+ ]
+}

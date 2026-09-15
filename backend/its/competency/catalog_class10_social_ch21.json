@@ -1,0 +1,527 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 21,
+ "chapter_title": "Globalisation and the Indian Economy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess204.txt",
+ "concepts": [
+  {
+   "id": "c10ss.21.1",
+   "title": "Production Across Countries",
+   "section": "Production Across Countries",
+   "definition": "Production of goods and services is no longer confined to a single country. Companies set up plants and offices in different nations to take advantage of lower costs, skilled labour, and access to raw materials, leading to a globally distributed production system.",
+   "formula": "",
+   "key_idea": "Production is spread across countries so that each stage of making a product can be done where it is cheapest and most efficient.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do companies set up production units in different countries?",
+    "Explain how production is spread across countries with an example.",
+    "What are the advantages of producing goods in more than one country?",
+    "How does global production reduce the cost of manufactured goods?",
+    "Describe the factors that influence where a company locates its production."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reason for spreading production",
+     "explain": "Note that companies seek lower costs, skilled labour, and raw materials available in different countries."
+    },
+    {
+     "step": 2,
+     "action": "Trace the production chain",
+     "explain": "Map how raw materials, components, assembly, and marketing are carried out in different nations."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the benefit",
+     "explain": "Confirm that spreading production lowers overall cost and increases efficiency for the company."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do MNCs set up production in more than one country?",
+     "solution": "MNCs set up production where labour is cheap, raw materials are available, and markets are close, which reduces cost and increases profit.",
+     "answer": "To reduce production cost and increase profit by using resources from different countries."
+    },
+    {
+     "question": "Give an example of production being spread across countries.",
+     "solution": "A shirt may be designed in Italy, cotton grown in India, cloth woven in Bangladesh, and the finished shirt sold in the USA.",
+     "answer": "Design in Italy, cotton in India, weaving in Bangladesh, sale in the USA."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why production is spread across countries.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List three factors that decide where a company sets up production.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.2",
+   "title": "Interlinking Production Across Countries",
+   "section": "Interlinking Production Across Countries",
+   "definition": "Production across countries is interlinked through multinational corporations that invest in foreign countries, buy local companies, or place orders for supplies, thereby connecting distant markets and producers into one global network.",
+   "formula": "",
+   "key_idea": "MNCs interlink production by foreign direct investment (FDI), acquisitions, and outsourcing, tying producers and markets across nations together.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do MNCs interlink production across countries?",
+    "What is foreign direct investment and how does it link countries?",
+    "Explain the role of MNCs in linking producers and markets.",
+    "How does acquisition of a local company by an MNC interlink production?",
+    "Describe how placing orders for supplies links production across nations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the modes of interlinking",
+     "explain": "Note the three ways MNCs interlink production: FDI, acquisition of local companies, and placing orders with local producers."
+    },
+    {
+     "step": 2,
+     "action": "Trace the flow of investment and goods",
+     "explain": "Show how capital, technology, and orders flow from the MNC to local producers, and finished goods flow back to markets."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the interlinkage",
+     "explain": "Confirm that these flows connect distant producers and consumers into a single production network."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do MNCs interlink production across countries? Explain with examples.",
+     "solution": "MNCs interlink production by (1) setting up factories (FDI), (2) buying local companies like Ford buying Volvo, and (3) placing orders with small local producers like garments or footwear makers.",
+     "answer": "Through FDI, acquisitions, and placing orders with local producers."
+    },
+    {
+     "question": "What is foreign direct investment?",
+     "solution": "FDI is investment made by a company or individual of one country in business interests of another country, such as setting up a factory or buying a company.",
+     "answer": "Investment by an MNC in productive assets in another country."
+    },
+    {
+     "question": "How does an MNC placing orders with small producers link production?",
+     "solution": "The MNC gives orders and specifications to small local producers who make the goods; the MNC then sells them under its brand, linking local production to global markets.",
+     "answer": "Orders from MNCs connect small local producers to global markets."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between FDI and acquisition as ways of interlinking production.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how placing orders with small producers links them to global markets.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.3",
+   "title": "Foreign Trade and Integration of Markets",
+   "section": "Foreign Trade and Integration of Markets",
+   "definition": "Foreign trade connects markets of different countries. Producers in one country can sell goods in another, and consumers can choose from goods produced anywhere, leading to integration of markets across borders.",
+   "formula": "",
+   "key_idea": "Foreign trade creates a wider market where goods, prices, and producers of different countries compete and integrate.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does foreign trade integrate markets of different countries?",
+    "Explain with an example how foreign trade benefits producers and consumers.",
+    "What is the impact of foreign trade on the choice available to consumers?",
+    "How does foreign trade connect producers to wider markets?",
+    "Describe how foreign trade leads to integration of markets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the trade link",
+     "explain": "Note that foreign trade allows goods produced in one country to be sold in another, connecting the two markets."
+    },
+    {
+     "step": 2,
+     "action": "Analyse the effect on producers and consumers",
+     "explain": "Producers get a larger market to sell their goods; consumers get a wider choice of goods at competitive prices."
+    },
+    {
+     "step": 3,
+     "action": "Conclude market integration",
+     "explain": "Confirm that the two markets become integrated as prices and choices move closer together across borders."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does foreign trade integrate markets? Explain with the Chinese toy example.",
+     "solution": "Chinese plastic toys sold in Indian markets give Indian consumers a wider choice and cheaper toys, while Chinese producers get a larger market. Indian toy makers face competition, integrating the two markets.",
+     "answer": "Foreign trade gives consumers wider choice and producers larger markets, integrating the two countries' markets."
+    },
+    {
+     "question": "Who benefits from foreign trade and how?",
+     "solution": "Consumers benefit from wider choice and lower prices; producers who are competitive benefit from larger markets. Less competitive local producers may suffer.",
+     "answer": "Consumers get choice and lower prices; competitive producers get larger markets."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how foreign trade leads to integration of markets across countries.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the impact of foreign trade on local producers.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.4",
+   "title": "What is Globalisation",
+   "section": "What is Globalisation?",
+   "definition": "Globalisation is the process of rapid integration or interconnection between countries through foreign trade, foreign investment, and movement of people, capital, technology and services across borders.",
+   "formula": "",
+   "key_idea": "Globalisation integrates countries through trade, investment, technology and movement of people, reducing barriers between national economies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define globalisation.",
+    "What are the main factors that have enabled globalisation?",
+    "How does technology contribute to globalisation?",
+    "Explain the role of transport and communication in globalisation.",
+    "How has globalisation been facilitated by government policies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define globalisation",
+     "explain": "State that globalisation is the rapid integration of countries through trade, investment, and movement of capital, technology and people."
+    },
+    {
+     "step": 2,
+     "action": "Identify enabling factors",
+     "explain": "Note the factors: improvement in transport, information technology, and removal of trade barriers by governments."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the outcome",
+     "explain": "Confirm that these factors together reduce distances and barriers, integrating national economies into one global economy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is globalisation?",
+     "solution": "Globalisation is the process of rapid integration between countries through foreign trade, foreign investment, and the movement of capital, technology and people.",
+     "answer": "Rapid integration of countries through trade, investment and movement of capital, technology and people."
+    },
+    {
+     "question": "How has technology enabled globalisation?",
+     "solution": "Developments in IT (internet, email, telecommunication) and transport (container ships, air freight) have allowed instant communication and quick movement of goods, making global production and trade possible.",
+     "answer": "IT and transport advances allow instant communication and fast movement of goods."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define globalisation and list its enabling factors.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of technology in promoting globalisation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.5",
+   "title": "Role of MNCs in Globalisation",
+   "section": "Role of MNCs",
+   "definition": "Multinational Corporations (MNCs) are companies that own or control production in more than one nation. They play a major role in globalisation by investing capital, transferring technology, and linking production and markets across countries.",
+   "formula": "",
+   "key_idea": "MNCs drive globalisation by spreading production, investing across borders, and connecting distant markets through their networks.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an MNC?",
+    "How do MNCs contribute to globalisation?",
+    "Explain the strategies MNCs use to spread production across countries.",
+    "Why are MNCs called the engine of globalisation?",
+    "Describe the role of MNCs in integrating markets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define an MNC",
+     "explain": "State that an MNC is a company that owns or controls production in more than one nation."
+    },
+    {
+     "step": 2,
+     "action": "Identify MNC strategies",
+     "explain": "Note that MNCs set up plants, buy local companies, and place orders with local producers to spread production."
+    },
+    {
+     "step": 3,
+     "action": "Conclude their role",
+     "explain": "Confirm that by moving capital, technology and goods across borders, MNCs integrate markets and drive globalisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a multinational corporation? Give an example.",
+     "solution": "An MNC is a company that owns or controls production in more than one nation, such as Ford Motors or Nike.",
+     "answer": "A company that owns or controls production in more than one nation, e.g., Ford Motors."
+    },
+    {
+     "question": "How do MNCs contribute to globalisation?",
+     "solution": "MNCs invest in foreign countries, transfer technology, and place orders with local producers, linking production and markets across nations.",
+     "answer": "Through foreign investment, technology transfer and outsourcing, MNCs integrate markets."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an MNC and explain its role in globalisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the strategies MNCs use to spread production across countries.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.6",
+   "title": "Role of WTO in Globalisation",
+   "section": "World Trade Organisation",
+   "definition": "The World Trade Organisation (WTO) is an international organisation that sets rules for global trade and aims to liberalise trade by removing barriers, allowing goods and services to flow freely between countries.",
+   "formula": "",
+   "key_idea": "The WTO promotes free trade by persuading member countries to reduce trade barriers, though its rules are often seen as favouring developed nations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the WTO and what is its role?",
+    "How does the WTO promote liberalisation of trade?",
+    "Why do developing countries criticise the WTO?",
+    "Explain the function of WTO in global trade.",
+    "How has the WTO influenced globalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the WTO",
+     "explain": "State that the WTO is an international body that frames rules for global trade and works to remove trade barriers."
+    },
+    {
+     "step": 2,
+     "action": "Examine its role",
+     "explain": "Note that the WTO persuades member countries to liberalise trade so that goods and services can move freely across borders."
+    },
+    {
+     "step": 3,
+     "action": "Assess criticism",
+     "explain": "Confirm that developing countries criticise the WTO because developed nations have not fully opened their markets, especially in agriculture and textiles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the WTO and what is its main function?",
+     "solution": "The WTO is an international organisation that sets rules for global trade and works to remove barriers so that goods and services can flow freely between countries.",
+     "answer": "The WTO frames global trade rules and promotes free trade by removing barriers."
+    },
+    {
+     "question": "Why do developing countries criticise the WTO?",
+     "solution": "Developing countries argue that developed nations have not opened their markets to goods from developing countries, especially in agriculture, while pushing for free trade in services.",
+     "answer": "Developed countries have not fully opened their markets, especially in agriculture."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of the WTO in promoting globalisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the WTO criticised by developing countries?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.7",
+   "title": "Impact of Globalisation on India",
+   "section": "Impact of Globalisation in India",
+   "definition": "Globalisation has affected India by increasing the variety and quality of goods available, creating new jobs in services and exports, while also threatening small producers and creating insecure working conditions for many workers.",
+   "formula": "",
+   "key_idea": "Globalisation has benefited consumers and some industries in India but has hurt small producers and created job insecurity for workers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the impact of globalisation on consumers in India?",
+    "How has globalisation affected small producers in India?",
+    "Explain the effect of globalisation on workers in India.",
+    "Which industries have benefited from globalisation in India?",
+    "Discuss the positive and negative impacts of globalisation on the Indian economy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the affected groups",
+     "explain": "List the groups affected: consumers, producers (large and small), and workers."
+    },
+    {
+     "step": 2,
+     "action": "Assess the impact on each group",
+     "explain": "Consumers gain variety and lower prices; large producers gain markets; small producers face competition; workers face insecurity."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the net effect",
+     "explain": "Combine the impacts to state the overall effect of globalisation on the Indian economy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has globalisation benefited consumers in India?",
+     "solution": "Consumers now enjoy a wider variety of better quality goods at lower prices, such as electronics, cars and branded products.",
+     "answer": "Wider variety, better quality and lower prices of goods."
+    },
+    {
+     "question": "How has globalisation affected small producers in India?",
+     "solution": "Small producers like toy makers, battery makers and plastic goods makers face stiff competition from cheaper imports, causing many to shut down.",
+     "answer": "Small producers face competition from imports and many have closed down."
+    },
+    {
+     "question": "Which sectors in India have benefited from globalisation?",
+     "solution": "Sectors like IT services, textiles, gems and jewellery, and automobile parts have benefited from access to global markets.",
+     "answer": "IT services, textiles, gems and jewellery, and auto parts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the impact of globalisation on Indian consumers and producers.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How has globalisation affected employment in India?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.8",
+   "title": "Advantages and Disadvantages of Globalisation",
+   "section": "Advantages and Disadvantages of Globalisation",
+   "definition": "Globalisation offers advantages like access to wider markets, better technology, more jobs and greater choice, but also brings disadvantages such as inequality, threat to small producers, and job insecurity.",
+   "formula": "",
+   "key_idea": "Globalisation has both positive effects (growth, choice, technology) and negative effects (inequality, loss of small producers, insecurity).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the advantages of globalisation?",
+    "What are the disadvantages of globalisation?",
+    "Explain how globalisation has increased inequality.",
+    "How does globalisation affect small producers?",
+    "Compare the positive and negative impacts of globalisation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the advantages",
+     "explain": "Note advantages: wider markets, better technology, more jobs, greater consumer choice."
+    },
+    {
+     "step": 2,
+     "action": "List the disadvantages",
+     "explain": "Note disadvantages: inequality, threat to small producers, job insecurity, environmental harm."
+    },
+    {
+     "step": 3,
+     "action": "Weigh the balance",
+     "explain": "Compare the two lists to judge whether globalisation is overall beneficial or harmful for a country."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "State three advantages of globalisation.",
+     "solution": "(1) Access to wider markets for producers, (2) inflow of better technology, (3) greater choice and lower prices for consumers.",
+     "answer": "Wider markets, better technology, greater consumer choice."
+    },
+    {
+     "question": "State three disadvantages of globalisation.",
+     "solution": "(1) Increased inequality between rich and poor, (2) threat to small producers from imports, (3) job insecurity for workers.",
+     "answer": "Inequality, threat to small producers, job insecurity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the advantages and disadvantages of globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How has globalisation contributed to inequality? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.21.9",
+   "title": "Liberalisation and Privatisation",
+   "section": "Liberalisation and Privatisation",
+   "definition": "Liberalisation is the removal of government restrictions on the private sector, such as licences and quotas, allowing businesses to operate freely. Privatisation is the transfer of ownership or control of government-owned enterprises to private hands.",
+   "formula": "",
+   "key_idea": "Liberalisation removes barriers to private business while privatisation shifts ownership from government to private sector; together they opened the Indian economy to globalisation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is liberalisation?",
+    "What is privatisation?",
+    "Distinguish between liberalisation and privatisation.",
+    "How did liberalisation help globalisation in India?",
+    "Explain the economic reforms of 1991 in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define liberalisation",
+     "explain": "State that liberalisation means removing government controls like licences and quotas on private business."
+    },
+    {
+     "step": 2,
+     "action": "Define privatisation",
+     "explain": "State that privatisation means transferring ownership of public sector enterprises to private hands."
+    },
+    {
+     "step": 3,
+     "action": "Relate to globalisation",
+     "explain": "Show how liberalisation and privatisation together opened the economy to foreign trade and investment.",
+     "compute": "globalisation = liberalisation + privatisation + foreign_investment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is liberalisation? How does it differ from privatisation?",
+     "solution": "Liberalisation is the removal of government restrictions on private business; privatisation is the transfer of government-owned enterprises to private ownership.",
+     "answer": "Liberalisation removes restrictions; privatisation transfers ownership to private hands."
+    },
+    {
+     "question": "How did liberalisation help globalisation in India?",
+     "solution": "After 1991, India removed many trade barriers and allowed foreign companies to operate, which increased foreign trade and investment and integrated India with the global economy.",
+     "answer": "Removing trade barriers allowed more foreign trade and investment in India."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between liberalisation and privatisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the 1991 reforms promoted globalisation in India.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

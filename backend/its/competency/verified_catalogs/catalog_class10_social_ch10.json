@@ -1,0 +1,612 @@
+{
+ "class": "10",
+ "subject": "social_science",
+ "chapter": "10",
+ "chapter_title": "Minerals and Energy Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess105.txt",
+ "concepts": [
+  {
+   "id": "c10ss.10.1",
+   "title": "Mode of Occurrence of Minerals",
+   "section": "What is a Mineral?",
+   "definition": "Minerals occur in igneous, metamorphic, and sedimentary rocks. They are found in veins, beds, layers, or as residual masses of weathered material, and in alluvial deposits called placer formations.",
+   "formula": "",
+   "key_idea": "Minerals are unevenly distributed in rocks; metallic minerals commonly occur in igneous and metamorphic rocks while coal and petroleum occur in sedimentary rocks.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different modes of occurrence of minerals?",
+    "Where do metallic minerals usually occur?",
+    "What are placer deposits and which minerals are found in them?",
+    "In which type of rocks do coal and petroleum occur?",
+    "Explain the occurrence of minerals in veins and beds."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the rock type",
+     "explain": "Determine whether the mineral occurs in igneous, metamorphic, or sedimentary rock."
+    },
+    {
+     "step": 2,
+     "action": "State the mode of occurrence",
+     "explain": "Describe whether the mineral is in veins, beds, layers, residual masses, or placer deposits."
+    },
+    {
+     "step": 3,
+     "action": "Give examples",
+     "explain": "Provide examples of minerals found in that mode, such as gold in placer deposits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which type of rocks do coal and petroleum mainly occur?",
+     "solution": "Coal and petroleum occur in sedimentary rocks formed by the decomposition of buried organisms.",
+     "answer": "Sedimentary rocks"
+    },
+    {
+     "question": "What are placer deposits and which mineral is commonly found in them?",
+     "solution": "Placer deposits are alluvial deposits of minerals in river beds; gold is commonly found in them.",
+     "answer": "Alluvial deposits; gold"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe any three modes of occurrence of minerals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are metallic minerals mostly found in igneous and metamorphic rocks?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the different modes of occurrence of minerals with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.2",
+   "title": "Distribution of Iron Ore",
+   "section": "Iron Ore",
+   "definition": "Iron ore is the basic mineral and the backbone of industrial development. India has large reserves of hematite and magnetite, with hematite being the most important industrial iron ore.",
+   "formula": "",
+   "key_idea": "Major iron ore belts are the Odisha-Jharkhand belt, the Durg-Bastar-Chandrapur belt, the Bellary-Chitradurga-Chikmagalur-Tumkur belt, and the Maharashtra-Goa belt.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the two main types of iron ore found in India.",
+    "Which is the most important industrial iron ore and why?",
+    "Describe the major iron ore belts of India.",
+    "Where is the Durg-Bastar-Chandrapur belt located?",
+    "Explain the distribution of iron ore in Odisha and Jharkhand."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ore type",
+     "explain": "Classify the ore as hematite (non-magnetic, red) or magnetite (magnetic, black)."
+    },
+    {
+     "step": 2,
+     "action": "Locate the belt",
+     "explain": "Place the deposit in one of the four major iron ore belts."
+    },
+    {
+     "step": 3,
+     "action": "State the significance",
+     "explain": "Explain the industrial importance of the ore or belt."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which type of iron ore is the most important for industry in India and why?",
+     "solution": "Hematite is the most important because it has a high iron content and is easily extracted.",
+     "answer": "Hematite"
+    },
+    {
+     "question": "Name the states covered by the Odisha-Jharkhand iron ore belt.",
+     "solution": "The belt covers Odisha (Sundargarh, Mayurbhanj) and Jharkhand (Singhbhum).",
+     "answer": "Odisha and Jharkhand"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between hematite and magnetite iron ore.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name any two major iron ore belts of India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the distribution of iron ore in India with reference to the major belts.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.3",
+   "title": "Coal and Petroleum Distribution",
+   "section": "Non-Ferrous and Energy Minerals",
+   "definition": "Coal is a fossil fuel formed from buried plant matter and occurs in sedimentary rocks. Petroleum is found in anticlines and fault traps in sedimentary rock formations.",
+   "formula": "",
+   "key_idea": "Major coal reserves lie in the Damodar, Mahanadi, Son, and Wardha valleys; petroleum occurs mainly in Mumbai High, Gujarat, and Assam.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the major coal-producing states of India.",
+    "Where are the largest petroleum reserves of India located?",
+    "How is coal formed and in which rocks does it occur?",
+    "Describe the distribution of coal in the Damodar valley.",
+    "Explain the occurrence of petroleum in anticlines."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fuel",
+     "explain": "Classify the resource as coal or petroleum."
+    },
+    {
+     "step": 2,
+     "action": "Locate the reserves",
+     "explain": "Place the deposit in the relevant state or offshore field."
+    },
+    {
+     "step": 3,
+     "action": "Explain the formation",
+     "explain": "Describe how the fuel formed in sedimentary rocks."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where are the largest petroleum reserves of India located?",
+     "solution": "The largest reserves are in Mumbai High, an offshore field in the Arabian Sea.",
+     "answer": "Mumbai High"
+    },
+    {
+     "question": "Name two major coal-producing states in India.",
+     "solution": "Jharkhand and Odisha are major coal-producing states.",
+     "answer": "Jharkhand and Odisha"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the distribution of coal in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how petroleum is trapped in anticlines and fault traps.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare the distribution of coal and petroleum in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.4",
+   "title": "Renewable and Non-Renewable Energy",
+   "section": "Energy Resources",
+   "definition": "Non-renewable energy comes from exhaustible sources like coal, petroleum, and natural gas. Renewable energy is drawn from inexhaustible sources such as the sun, wind, water, and biomass.",
+   "formula": "",
+   "key_idea": "Non-renewable sources get depleted with use; renewable sources are continuously replenished and are environmentally cleaner.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between renewable and non-renewable energy sources.",
+    "Give two examples each of renewable and non-renewable energy.",
+    "Why is coal a non-renewable resource?",
+    "Why should India promote renewable energy?",
+    "Explain the need to conserve non-renewable resources."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the source",
+     "explain": "Decide whether the energy source is renewable or non-renewable."
+    },
+    {
+     "step": 2,
+     "action": "Explain exhaustibility",
+     "explain": "State whether the source is exhaustible or continuously replenished."
+    },
+    {
+     "step": 3,
+     "action": "Give examples",
+     "explain": "Provide examples such as solar (renewable) and coal (non-renewable)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is solar energy renewable or non-renewable? Justify.",
+     "solution": "Solar energy is renewable because the sun is an inexhaustible source.",
+     "answer": "Renewable"
+    },
+    {
+     "question": "Classify coal and wind energy as renewable or non-renewable.",
+     "solution": "Coal is non-renewable as it is exhaustible; wind energy is renewable as it is continuously available.",
+     "answer": "Coal = non-renewable; wind = renewable"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between renewable and non-renewable energy with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should we reduce dependence on non-renewable energy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the importance of renewable energy for sustainable development.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.5",
+   "title": "Solar Energy",
+   "section": "Non-Conventional Energy Sources",
+   "definition": "Solar energy is the energy harnessed from the sun using photovoltaic cells that convert sunlight into electricity. India has great potential due to its tropical location.",
+   "formula": "",
+   "key_idea": "Solar energy is abundant, pollution-free, and renewable; it is used for heating, lighting, cooking, and generating electricity in rural and remote areas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is solar energy harnessed in India?",
+    "Why does India have a high potential for solar energy?",
+    "List two uses of solar energy.",
+    "What are the advantages of solar energy over fossil fuels?",
+    "Explain the role of solar energy in rural development."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the source",
+     "explain": "Identify the sun as the source of solar energy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conversion",
+     "explain": "Describe how photovoltaic cells convert sunlight into electricity."
+    },
+    {
+     "step": 3,
+     "action": "List advantages",
+     "explain": "Note that solar energy is renewable, pollution-free, and useful in remote areas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which device converts sunlight into electricity in solar energy systems?",
+     "solution": "Photovoltaic (solar) cells convert sunlight directly into electricity.",
+     "answer": "Photovoltaic cells"
+    },
+    {
+     "question": "Why is India well placed to develop solar energy?",
+     "solution": "India's tropical location gives it abundant sunshine for most of the year.",
+     "answer": "Tropical location with abundant sunshine"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how solar energy is harnessed and used in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List two advantages of solar energy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the potential of solar energy for rural India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.6",
+   "title": "Wind Energy",
+   "section": "Non-Conventional Energy Sources",
+   "definition": "Wind energy is generated by converting the kinetic energy of wind into electricity using wind turbines. India has one of the largest wind power programmes in the world.",
+   "formula": "",
+   "key_idea": "Wind farms are set up in coastal and open areas with steady winds; the largest wind farm cluster is in Tamil Nadu from Nagarcoil to Madurai.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is wind energy harnessed?",
+    "Name the state with the largest wind farm cluster in India.",
+    "What are the advantages of wind energy?",
+    "Where are wind farms usually located?",
+    "Explain the limitations of wind energy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the source",
+     "explain": "Identify wind as the source of kinetic energy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conversion",
+     "explain": "Describe how wind turbines convert wind kinetic energy into electricity."
+    },
+    {
+     "step": 3,
+     "action": "Locate key sites",
+     "explain": "Name important wind farm sites such as the Tamil Nadu cluster."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where is the largest wind farm cluster located in India?",
+     "solution": "The largest cluster is in Tamil Nadu from Nagarcoil to Madurai.",
+     "answer": "Tamil Nadu (Nagarcoil to Madurai)"
+    },
+    {
+     "question": "Which device converts wind energy into electricity?",
+     "solution": "Wind turbines convert the kinetic energy of wind into electricity.",
+     "answer": "Wind turbines"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how wind energy is generated.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two states that produce significant wind energy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the advantages and limitations of wind energy in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.7",
+   "title": "Nuclear Energy",
+   "section": "Non-Conventional Energy Sources",
+   "definition": "Nuclear energy is obtained by splitting (fission) or merging (fusion) atomic nuclei. In India, nuclear power is generated from uranium and thorium in controlled fission reactors.",
+   "formula": "",
+   "key_idea": "India has limited uranium but abundant thorium along the Monazite sands of Kerala; nuclear power is a clean but high-cost energy source.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is nuclear energy produced?",
+    "Which two minerals are used as fuel in nuclear power in India?",
+    "Where are the Monazite sands rich in thorium found?",
+    "Name two nuclear power stations in India.",
+    "Explain the advantages and hazards of nuclear energy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the process",
+     "explain": "Explain nuclear fission of uranium or thorium."
+    },
+    {
+     "step": 2,
+     "action": "Identify the fuel",
+     "explain": "Note uranium and thorium as the main nuclear fuels."
+    },
+    {
+     "step": 3,
+     "action": "Locate reserves",
+     "explain": "Mention Monazite sands of Kerala for thorium."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which mineral-rich sands of Kerala are important for nuclear energy?",
+     "solution": "Monazite sands of Kerala are rich in thorium used in nuclear power.",
+     "answer": "Monazite sands (thorium)"
+    },
+    {
+     "question": "Name two nuclear power stations in India.",
+     "solution": "Tarapur (Maharashtra) and Narora (Uttar Pradesh) are nuclear power stations.",
+     "answer": "Tarapur and Narora"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how nuclear energy is generated in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is thorium important for India's nuclear programme?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the advantages and risks of nuclear energy.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.8",
+   "title": "Biogas",
+   "section": "Non-Conventional Energy Sources",
+   "definition": "Biogas is produced by the decomposition of organic matter such as cow dung, farm waste, and kitchen waste in the absence of oxygen. It is a clean fuel with high thermal efficiency.",
+   "formula": "",
+   "key_idea": "Biogas plants use dung and waste to produce methane-rich gas for cooking and lighting, and the leftover slurry is a valuable manure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is biogas produced?",
+    "What raw materials are used in biogas plants?",
+    "Why is biogas considered a clean fuel?",
+    "What is the use of the slurry left after biogas production?",
+    "Explain the advantages of biogas for rural households."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the source",
+     "explain": "Identify organic waste such as cow dung as the raw material."
+    },
+    {
+     "step": 2,
+     "action": "Explain the process",
+     "explain": "Describe anaerobic decomposition producing methane-rich gas."
+    },
+    {
+     "step": 3,
+     "action": "List benefits",
+     "explain": "Note clean fuel, manure, and reduced dependence on firewood."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which gas is the main component of biogas?",
+     "solution": "Methane is the main combustible component of biogas.",
+     "answer": "Methane"
+    },
+    {
+     "question": "What is the by-product of a biogas plant and how is it used?",
+     "solution": "The leftover slurry is used as a nutrient-rich manure.",
+     "answer": "Slurry used as manure"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the process of biogas production.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List two advantages of biogas over firewood.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the importance of biogas for rural energy needs.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.9",
+   "title": "Tidal and Geothermal Energy",
+   "section": "Non-Conventional Energy Sources",
+   "definition": "Tidal energy is generated from the rise and fall of ocean tides. Geothermal energy is the heat energy from the earth's interior, used where hot rocks or geysers are found.",
+   "formula": "",
+   "key_idea": "Tidal energy sites in India include the Gulf of Khambhat and Gulf of Kutch; geothermal energy is tapped at Manikaran and Puga valley.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is tidal energy harnessed?",
+    "Name two sites in India suitable for tidal energy.",
+    "What is geothermal energy and where is it found in India?",
+    "Name two geothermal energy sites in India.",
+    "Explain the limitations of tidal energy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Classify the energy as tidal (ocean tides) or geothermal (earth's heat)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conversion",
+     "explain": "Describe how turbines or wells convert the source into electricity."
+    },
+    {
+     "step": 3,
+     "action": "Locate key sites",
+     "explain": "Name Indian sites such as the Gulf of Kutch or Manikaran."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two sites in India identified for tidal energy.",
+     "solution": "The Gulf of Khambhat and the Gulf of Kutch are suitable for tidal energy.",
+     "answer": "Gulf of Khambhat and Gulf of Kutch"
+    },
+    {
+     "question": "Where is geothermal energy tapped in Himachal Pradesh?",
+     "solution": "Geothermal energy is tapped at Manikaran in Himachal Pradesh.",
+     "answer": "Manikaran"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how tidal energy is generated.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two geothermal energy sites in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the potential and limitations of tidal and geothermal energy in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.10.10",
+   "title": "Conservation of Minerals and Energy",
+   "section": "Conservation",
+   "definition": "Conservation of minerals and energy means using resources judiciously, reducing waste, recycling, and adopting renewable alternatives to ensure availability for future generations.",
+   "formula": "",
+   "key_idea": "Minerals are finite and take millions of years to form, so recycling and efficient use are essential; energy conservation reduces pressure on fossil fuels and the environment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is conservation of minerals necessary?",
+    "How can we conserve mineral resources?",
+    "Suggest two ways to conserve energy at home.",
+    "Why is recycling important for mineral conservation?",
+    "Explain the need for energy conservation in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the reason for conservation",
+     "explain": "Explain that minerals are finite and energy sources are limited."
+    },
+    {
+     "step": 2,
+     "action": "List conservation methods",
+     "explain": "Mention recycling, efficient use, and switching to renewable energy."
+    },
+    {
+     "step": 3,
+     "action": "State the benefit",
+     "explain": "Describe how conservation ensures availability for future generations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is recycling of minerals important?",
+     "solution": "Recycling reduces the need for mining and conserves finite mineral resources.",
+     "answer": "It reduces mining and conserves finite resources"
+    },
+    {
+     "question": "Give one way to conserve energy in daily life.",
+     "solution": "Using energy-efficient appliances such as LED bulbs conserves electricity.",
+     "answer": "Use energy-efficient appliances (e.g. LED bulbs)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why conservation of minerals is essential.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Suggest two methods of energy conservation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the need and methods for conserving minerals and energy resources.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

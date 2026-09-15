@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_001",
+   "title": "c7_physics_ch02_001",
+   "questions": [
+    {
+     "q": "What is the primary energy transformation that occurs inside a working electric iron used for pressing clothes?",
+     "a": "Electrical energy is converted into heat energy. A wrong answer reveals that the student confuses heat-producing appliances with light-producing appliances like bulbs, or mechanical appliances like fans.",
+     "self_check": true
+    },
+    {
+     "q": "Why is copper wire commonly used in household electrical wiring instead of rubber or plastic?",
+     "a": "Copper is an electrical conductor that allows electric current to flow easily with very little resistance, whereas rubber and plastic are insulators that block current. A wrong answer shows a misunderstanding of the fundamental difference between conductors and insulators.",
+     "self_check": true
+    },
+    {
+     "q": "A small electric bulb consumes 10 Watts of electrical power. How much electrical energy does it consume in 5 seconds? (Energy = Power × Time)",
+     "a": "Steps: 1. Identify given values: Power ($P$) = $10\\text{ W}$, Time ($t$) = $5\\text{ s}$. 2. Identify formula: Energy ($E$) = $P \\times t$. 3. Substitute values: $E = 10\\text{ W} \\times 5\\text{ s}$. 4. Compute: $E = 50\\text{ Joules (J)}$ since $1\\text{ Watt} = 1\\text{ Joule/second}$. Answer: $50\\text{ J}$. A wrong answer reveals multiplication errors or confusion between power units and energy units.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a scenario where a ceiling fan runs slower than usual during summer evenings when many households in the neighborhood are using heavy appliances simultaneously. What does this indicate about voltage and energy supply?",
+     "a": "When many appliances run simultaneously, the electrical load increases, which can cause a drop in the electrical energy supplied to individual homes, reducing the power available to the fan. A wrong answer indicates the student thinks electrical supply is infinite and unaffected by total neighborhood demand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Using an electric heater and an electric water geyser on the same switchboard socket simultaneously is always safe as long as the switch is on.\" Is this correct or incorrect, and why?",
+     "a": "This is incorrect because high-power heating appliances draw a very large amount of current together, which can overheat the wiring and cause a short circuit or fire. A wrong answer shows a lack of awareness regarding safety limits and power loads in household electrical circuits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple setup using everyday household items to demonstrate how electrical energy can be converted into sound energy.",
+     "a": "An acceptable design uses an electric cell, connecting wires, a switch, and a small electric buzzer. When the switch is closed, electrical energy flows through the buzzer and is converted into sound energy. A poor answer fails to include a working power source or includes non-conducting materials that break the circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

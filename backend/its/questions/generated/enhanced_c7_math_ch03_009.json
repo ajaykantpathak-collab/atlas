@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_009",
+   "title": "c7_math_ch03_009",
+   "questions": [
+    {
+     "q": "What is the first essential step when setting up the subtraction problem $15.4 - 3.25$ on paper?",
+     "a": "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$. A wrong answer like just aligning the numbers on the right (writing $15.4$ minus $3.25$ as $15.4 - 3.25$ with the 5 under the 4) reveals that the student is treating decimals like whole numbers and ignoring place value.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we annex a zero to $15.4$ to make it $15.40$ before subtracting $3.25$ from it?",
+     "a": "The correct answer is that annexing a zero in the hundredths place shows there are zero hundredths to start with, which is necessary when we need to borrow a tenth to subtract 5 hundredths. A wrong answer stating that \"zeros change the actual value of the number\" reveals a misunderstanding of equivalent decimals (that $4$ tenths is equal to $40$ hundredths).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $42.5 - 7.836$.",
+     "a": "The correct answer is $34.664$. Working steps: \n1. Write $42.5$ with trailing zeros to match the decimal places of $7.836$, giving $42.500$.\n2. Align the decimal points: $42.500 - 7.836$.\n3. Subtract column by column from right to left, borrowing across columns: $0$ thousandths becomes $10$, borrowing from hundredths, etc. \n4. Compute: $10 - 6 = 4$ (thousandths); $9 - 3 = 6$ (hundredths); $14 - 8 = 6$ (tenths); place decimal point; $11 - 7 = 4$; $3 - 0 = 3$. \n5. Result is $34.664$. A wrong answer like $35.336$ shows an error in borrowing where the student subtracted smaller digits from larger digits directly without borrowing ($6 - 0$, etc.) or misaligned the place values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of $12.3 - 4.5$ and $4.5 - 12.3$. Without full calculation, what can you say about their relationship based on integer subtraction?",
+     "a": "The correct answer is that $12.3 - 4.5 = 7.8$ and $4.5 - 12.3 = -7.8$, meaning they are additive inverses (opposites) of each other because subtraction is not commutative. A wrong answer claiming both results are equal or positive reveals that the student does not understand how changing the order of operands in subtraction affects the sign of the result.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $10.0 - 4.25$ and writes the answer as $6.85$. Evaluate this solution and identify the exact error.",
+     "a": "The student's solution is incorrect; the correct answer is $5.75$. The error occurred in the tenths and ones columns during borrowing: the student likely failed to borrow properly across the zero, thinking $0 - 5 = 5$ or subtracting incorrectly from the whole number part. A wrong judgment defending the student's answer shows a failure to verify decimal subtraction using addition ($5.75 + 4.25 = 10.0$).",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal subtraction problem involving metres and centimetres where the answer results in $3.45\\text{ m}$ after borrowing across two zero place-values.",
+     "a": "An acceptable problem is: \"A cloth roll has a length of $10.00\\text{ m}$. If a piece measuring $6.55\\text{ m}$ is cut off, what length of cloth remains?\" Working: $10.00 - 6.55 = 3.45\\text{ m}$. A poor response would be a problem that does not require borrowing across zeros or uses incorrect units, showing a lack of understanding of how place-value zeros function in real-world contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

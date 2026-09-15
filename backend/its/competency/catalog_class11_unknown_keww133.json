@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 133,
+  "chapter_title": "Patterns of Creativity",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww133.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww133.1.1",
+      "title": "A Scientist Reads Tennyson and Newton",
+      "section": "1",
+      "definition": "S. Chandrasekhar, the astrophysicist, opens with Tennyson's poem 'The Princess', whose song of the scholar gipsy contrasts the poet's grave matter-of-fact wisdom with the scientist's visionary search. He then turns to Newton's own letters -- the man of science confessing that he seemed like a boy playing on the seashore while the great ocean of truth lay all undiscovered before him.",
+      "formula": "",
+      "key_idea": "A poet's paradox and a physicist's seashore -- Chandrasekhar begins creativity where art and science meet.",
+      "textbook_ref": "keww133.txt opening sections (tennyson the princess, scholar gipsy song, newton seashore letter, great ocean of truth undiscovered)",
+      "question_patterns": [
+        "which tennyson poem does chandrasekhar open with and why",
+        "in class 11 patterns of creativity: what did newton say about himself in his letter",
+        "explain the image of the boy on the seashore and the great ocean of truth",
+        "how does the poet's account of the scholar gipsy differ from the scientist's quest",
+        "why does a scientist begin an essay on creativity with a poem",
+        "compare the wisdom of the poet and the vision of the scientist as chandrasekhar presents them"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the poem",
+          "explain": "Tennyson contrasts the poet's matter-of-fact wisdom with the scientist's visionary hunger."
+        },
+        {
+          "step": 2,
+          "action": "read the letter",
+          "explain": "Newton's seashore image makes the greatest scientist a child before an undiscovered ocean of truth."
+        },
+        {
+          "step": 3,
+          "action": "set the essay's question",
+          "explain": "Creativity, Chandrasekhar suggests, is this shared humility and hunger across art and science."
+        }
+      ]
+    },
+    {
+      "id": "keww133.1.2",
+      "title": "Keats, Shakespeare and the Negative Capability of the Creative Mind",
+      "section": "1",
+      "definition": "Chandrasekhar quotes Keats's letter on negative capability -- the capacity to remain in uncertainties and mysteries without any irritable reaching after fact and reason -- and Shakespeare as its supreme example. Creative minds, in science and art alike, must hold contradictory ideas patiently instead of forcing premature answers.",
+      "formula": "",
+      "key_idea": "Comfort inside uncertainty -- negative capability, Keats's name for the creative mind's patience with mystery.",
+      "textbook_ref": "keww133.txt keats sections (keats letter on negative capability, uncertainties mysteries doubts, irritable reaching after fact and reason, shakespeare possessed so enormously)",
+      "question_patterns": [
+        "what is negative capability according to keats",
+        "in class 11 patterns of creativity: why does chandrasekhar admire shakespeare's negative capability",
+        "explain the phrase irritable reaching after fact and reason",
+        "how can a scientist need negative capability",
+        "why is holding doubts a creative strength rather than a weakness",
+        "compare keats's account of shakespeare with his account of coleridge"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the capacity",
+          "explain": "Negative capability is the power to stay inside uncertainty and mystery without grabbing at quick certainty."
+        },
+        {
+          "step": 2,
+          "action": "see it in Shakespeare",
+          "explain": "Keats marvels that Shakespeare so possessed this capability -- entering every mind without imposing his own."
+        },
+        {
+          "step": 3,
+          "action": "bring it to science",
+          "explain": "Chandrasekhar shows great scientists similarly dwelling with mysteries until nature yields -- patience as method."
+        }
+      ]
+    },
+    {
+      "id": "keww133.1.3",
+      "title": "Motivation and the Scientist's Search for Beauty",
+      "section": "1",
+      "definition": "Chandrasekhar closes with the motivation of the scientist: not utility alone but the search for beauty and order in nature -- the same aesthetic drive that moves artists. Patterns of creativity emerge as a common human pattern: discipline, humility before facts, endurance of uncertainty, and delight in a beauty the world had not yet seen.",
+      "formula": "",
+      "key_idea": "Beauty is the scientist's motive too -- creativity as one human pattern shared by laboratory and studio.",
+      "textbook_ref": "keww133.txt motivation sections (motivation of the scientist, search for beauty and order in nature, aesthetic drive, discipline and humility, patterns of creativity conclusion)",
+      "question_patterns": [
+        "according to chandrasekhar what motivates a scientist",
+        "in class 11 patterns of creativity: how is the search for beauty common to art and science",
+        "what role does discipline play in creativity",
+        "why does chandrasekhar speak of humility before nature",
+        "compare the creative patterns of the artist and the scientist",
+        "what does the essay finally say creativity consists of"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "name the motive",
+          "explain": "Beyond fame or use, the scientist seeks the beauty of nature's hidden order."
+        },
+        {
+          "step": 2,
+          "action": "name the virtues",
+          "explain": "Discipline, patience with uncertainty and humility before fact sustain the search."
+        },
+        {
+          "step": 3,
+          "action": "unify the pattern",
+          "explain": "Art and science share the pattern: humility, endurance, and delight in discovered beauty."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww133.txt keats sections",
+      "concept": "keww133.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain negative capability with reference to Keats's description of Shakespeare.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "define the term",
+          "explain": "Keats names the capacity to rest in uncertainties and mysteries without irritable reaching after fact and reason."
+        },
+        {
+          "step": 2,
+          "action": "apply it to Shakespeare",
+          "explain": "Shakespeare could inhabit every character's mind without forcing them into his own certainties."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "That openness -- not possession of answers -- is what Chandrasekhar finds at the root of creativity."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww133.txt opening sections",
+      "concept": "keww133.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "What does Newton's seashore image tell us about the creative scientist's self-image?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the image",
+          "explain": "Newton pictures himself a boy playing with pebbles while the great ocean of truth lies undiscovered before him."
+        },
+        {
+          "step": 2,
+          "action": "read the humility",
+          "explain": "Even the century's greatest achiever claims to have touched only the shallows."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Humility before the unknown, Chandrasekhar shows, is itself a mark of the creative mind."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww133.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why does Chandrasekhar begin his essay with Tennyson's poem?",
+        "Explain Keats's idea of negative capability.",
+        "How does the essay connect Shakespeare and modern scientists?",
+        "What does Newton's seashore image convey about creativity?",
+        "What motivation does Chandrasekhar attribute to the scientist?",
+        "Discuss the common patterns of creativity in art and science."
+      ]
+    }
+  ]
+}

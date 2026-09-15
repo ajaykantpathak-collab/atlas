@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_002",
+   "title": "c7_bio_ch02_002",
+   "questions": [
+    {
+     "q": "What term describes animals that feed exclusively on other animals' flesh?",
+     "a": "Carnivores. If a student answers \"herbivores,\" it reveals confusion between plant-eating and meat-eating organisms, likely mixing up the root words \"herbi\" (plants) and \"carni\" (flesh).",
+     "self_check": true
+    },
+    {
+     "q": "Why do cows spend hours chewing their food repeatedly (rumination), whereas tigers swallow chunks of meat without prolonged grinding?",
+     "a": "Cows eat plant matter (cellulose) which is hard to digest and requires extensive mechanical breakdown by flat molars and microbial fermentation, whereas meat is soft and easily broken down by stomach acids and enzymes. A wrong answer shows a lack of understanding of the structural differences between plant and animal matter digestion.",
+     "self_check": true
+    },
+    {
+     "q": "A pond biologist discovers a microscopic organism that uses tiny hair-like cilia to sweep suspended organic particles into its oral cavity. How would you classify its feeding habit?",
+     "a": "Steps: 1. Identify the food source: suspended organic particles. 2. Identify the mechanism: using cilia to sweep food (filter feeding). 3. Compare with known habits (herbivore, carnivore, filter feeder). 4. Conclude that it is a filter feeder or suspension feeder. A wrong answer indicates the student thinks all animals hunt or graze, ignoring microscopic aquatic feeding adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mouthparts of a butterfly (siphoning tube) and a mosquito (piercing-sucking stylet). Why can a butterfly not bite a human skin to draw blood like a mosquito?",
+     "a": "A butterfly possesses a long, flexible proboscis adapted exclusively for drawing liquid nectar from deep flowers through suction, lacking piercing lancets or anticoagulants. A mosquito possesses specialized needle-like mouthparts (stylets) designed to pierce skin and inject saliva. A wrong answer shows failure to link specific mouth structure modifications to the physical state of the food source (liquid nectar vs. blood).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An omnivore is simply an animal that eats anything at all, so its digestive needs are identical to a pure carnivore.\" Is this correct? Justify your answer.",
+     "a": "The statement is incorrect because omnivores (like humans or crows) consume both plant and animal matter, requiring a generalized digestive tract capable of handling complex carbohydrates, fiber, and proteins, unlike carnivores whose tracts are specialized solely for protein and fat breakdown. A wrong answer reveals the misconception that diet variety implies identical internal processing systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical feeding structure for a bird that feeds on hard-shelled nuts found high in forest canopies in the Western Ghats. What key features must its beak and claws have?",
+     "a": "A good answer must propose a short, extremely thick, curved, and powerful beak for cracking hard nut shells (like a parrot or hornbill variant), paired with strong, zygodactyl claws for gripping branches firmly while exerting high crushing force. A poor answer describes a slender, needle-like beak suited for nectar, showing failure to connect mechanical tool design with the physical resistance of the food.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

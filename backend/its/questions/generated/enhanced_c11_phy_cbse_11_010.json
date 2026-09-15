@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_010",
+   "title": "c11_phy_cbse_11_010",
+   "questions": [
+    {
+     "q": "State the two necessary and sufficient conditions for a thermodynamic process to be reversible.",
+     "a": "A process is reversible only if (1) it is quasi-static (system remains in thermal and mechanical equilibrium with surroundings at every stage) and (2) it involves no dissipative effects (friction, viscosity, inelastic deformation, unrestrained expansion, etc.). A wrong answer listing only \"slow process\" or only \"no friction\" reveals the student misses that both conditions must hold simultaneously – a slow process with friction is irreversible, and a fast frictionless process passes through non-equilibrium states.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the free expansion of a gas into vacuum (Joule expansion) irreversible even though no friction is involved?",
+     "a": "Free expansion is irreversible because the gas passes through non-equilibrium states – pressure and temperature are not uniform during the expansion, so the process cannot be represented by a continuous path on a P-V diagram. A student who says \"it is reversible because no friction\" confuses the absence of dissipation with the presence of equilibrium; they miss that irreversibility also arises from non-equilibrium intermediate states, which violates the quasi-static condition.",
+     "self_check": true
+    },
+    {
+     "q": "An ideal gas undergoes an isothermal expansion from volume V₁ to V₂ at temperature T. The process is carried out quasi-statically but the piston has a small constant friction force f. Calculate the extra work dissipated as heat due to friction if the piston moves a distance Δx, and explain whether the process remains reversible.",
+     "a": "Extra work dissipated = f·Δx (joules). This energy appears as heat transferred to the gas and surroundings. The process is **irreversible** because friction is a dissipative effect – even if quasi-static, the dissipative work cannot be recovered without leaving a net change in the universe. A student who calculates f·Δx correctly but claims the process is still reversible misunderstands that dissipation, however small, violates the \"no dissipative effects\" condition for reversibility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the P-V diagrams of a reversible isothermal expansion and an irreversible isothermal expansion (against constant external pressure) between the same initial and final states. Which diagram shows a larger area under the curve? What does this imply about work done?",
+     "a": "The reversible isothermal expansion shows a larger area under the curve (the curve follows PV = constant). The irreversible expansion against constant P_ext is a horizontal line on the P-V diagram at P = P_ext, giving less area. This implies the reversible process delivers **maximum work** for a given state change. A student who says the irreversible process does more work confuses the constant external pressure with the gas pressure; they fail to see that in irreversible expansion, P_ext < P_gas at each instant, so ∫P_ext dV < ∫P_gas dV.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the Carnot engine is reversible, its efficiency η = 1 - T₂/T₁ can be exceeded by an irreversible engine that cleverly uses friction to generate extra heat.\" Evaluate this claim using the Kelvin-Planck statement.",
+     "a": "The claim is **false**. The Kelvin-Planck statement says no process can have the sole effect of converting heat completely into work. An irreversible engine with friction produces *less* work output for the same heat input because part of the work is dissipated as heat. Carnot's theorem proves no engine (reversible or irreversible) operating between T₁ and T₂ can exceed η_Carnot. A student who agrees with the claim misunderstands that friction *reduces* useful work output, and that reversibility represents the theoretical upper limit, not a lower bound.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether the condensation of steam on a cold mirror is reversible or irreversible. Specify the system, surroundings, and the criterion you would use to decide.",
+     "a": "System: steam + mirror. Surroundings: room air at T_room. Process: steam at T₁ > T_room condenses on mirror at T₂ < T₁. Criterion: check if (a) the process is quasi-static (infinitesimal T difference at interface) and (b) no dissipation occurs. In reality, condensation occurs with finite ΔT across the steam-mirror interface and involves latent heat release into a temperature gradient – both violate quasi-static condition. To reverse, you would need to supply heat from a reservoir at exactly T₂ to evaporate the water, but the mirror is at T₂ < T₁, so heat would flow from hot to cold, leaving a net change. A poor answer that says \"it's reversible because you can boil the water again\" misses that boiling requires a hotter source, changing the surroundings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

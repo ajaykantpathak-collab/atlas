@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_009",
+   "title": "c11_acc_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define 'provision' as per accounting standards and state its two essential characteristics.",
+     "a": "A provision is an amount retained by way of providing for any known liability the amount of which cannot be determined with substantial accuracy. Two essential characteristics: (1) It is a charge against profit (debited to Profit & Loss Account), and (2) It is created for a known liability or expense of the current period whose amount is uncertain. A wrong answer (e.g., calling it an appropriation of profit or a reserve) reveals confusion between charge vs. appropriation and ignorance of the prudence concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a provision for doubtful debts is considered a charge against profit and not an appropriation of profit. How does this distinction affect the calculation of net profit?",
+     "a": "A provision for doubtful debts is a charge against profit because it is created to cover an expected loss related to the current period's revenue (credit sales). It must be debited to Profit & Loss Account before arriving at net profit. If treated as an appropriation, it would be deducted after net profit, inflating profit and violating the matching principle. A wrong answer indicates the student does not grasp the difference between expenses (charges) and profit distribution (appropriations) and the role of prudence in profit measurement.",
+     "self_check": true
+    },
+    {
+     "q": "From the following Trial Balance extract, calculate the provision for doubtful debts and pass the necessary journal entries:\nSundry Debtors: ₹80,000; Bad Debts: ₹2,000; Provision for Doubtful Debts (old): ₹3,000.\nAdditional Information: (i) Further bad debts ₹1,000; (ii) Provision to be maintained at 5% on debtors.",
+     "a": "Step 1: Write off further bad debts: Bad Debts A/c Dr. ₹1,000 → Sundry Debtors A/c ₹1,000.\nStep 2: Transfer bad debts to P&L: P&L A/c Dr. ₹1,000 → Bad Debts A/c ₹1,000.\nStep 3: Calculate new debtors = ₹80,000 - ₹1,000 = ₹79,000.\nStep 4: New provision required = 5% of ₹79,000 = ₹3,950.\nStep 5: Old provision = ₹3,000. Additional provision needed = ₹3,950 - ₹3,000 = ₹950.\nStep 6: P&L A/c Dr. ₹950 → Provision for Doubtful Debts A/c ₹950.\nA wrong answer (e.g., calculating 5% on ₹80,000) shows failure to adjust debtors for further bad debts before computing provision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation of 'Provision for Depreciation' and 'Provision for Doubtful Debts'. Why are they shown differently despite both being provisions?",
+     "a": "Provision for Depreciation is shown as a deduction from the concerned fixed asset on the asset side (or on liabilities side under current liabilities). Provision for Doubtful Debts is always shown as a deduction from Sundry Debtors on the asset side. Both are provisions, but depreciation provision reduces the book value of a fixed asset, while doubtful debts provision reduces the realisable value of a current asset. The difference arises from the nature of the asset they relate to. A wrong answer (e.g., showing both on liabilities side) reveals misunderstanding of the principle that provisions for asset value reductions are deducted from the respective assets.",
+     "self_check": true
+    },
+    {
+     "q": "A company creates a provision for doubtful debts at 10% of debtors every year, even though actual bad debts are only 2%. The management argues this is prudent. Evaluate this practice with reference to accounting standards and the concept of secret reserves.",
+     "a": "Creating excessive provision beyond a reasonable estimate violates the prudence concept because prudence does not allow deliberate overstatement of liabilities or understatement of profits. It creates a secret reserve, which distorts financial statements and may reduce tax liability unfairly. Accounting Standards require provisions to be based on best estimates, not arbitrary high percentages. A wrong answer (supporting the practice) shows inability to distinguish between prudence and creative accounting, and ignorance of secret reserves.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a manufacturing firm needs to create a 'Provision for Repairs and Renewals'. Outline the journal entries for the first two years, assuming the provision is based on a fixed percentage of the asset's original cost.",
+     "a": "Scenario: A firm owns machinery worth ₹10,00,000. It estimates annual repairs at 3% of cost. Year 1: Actual repairs ₹20,000. Year 2: Actual repairs ₹35,000.\nEntries:\nYear 1: (a) Provision for Repairs A/c Dr. ₹30,000 → P&L A/c ₹30,000 (creation). (b) Repairs A/c Dr. ₹20,000 → Bank A/c ₹20,000 (actual). (c) Provision for Repairs A/c Dr. ₹20,000 → Repairs A/c ₹20,000 (utilisation).\nYear 2: Repeat creation ₹30,000, actual ₹35,000, utilisation ₹35,000 (balance carried forward).\nA poor answer (missing utilisation entry or not carrying forward balance) shows lack of understanding that the provision account accumulates and is used to smooth repair expenses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

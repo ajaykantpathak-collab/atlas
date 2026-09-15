@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_1",
+   "title": "c8_math_ch14_1",
+   "questions": [
+    {
+     "q": "State the formula for the area of a rectangle and explain what each letter represents.",
+     "a": "The formula is \\( A = l \\times w \\), where \\( A \\) is the area, \\( l \\) is the length, and \\( w \\) is the width. A wrong answer (e.g., \\( A = l + w \\) or confusing with perimeter) reveals the student has not internalised the multiplicative structure of area and may be conflating perimeter (additive) with area (multiplicative).",
+     "self_check": true
+    },
+    {
+     "q": "Why does multiplying length by width give the area? Explain using a 4 cm by 3 cm rectangle drawn on a grid.",
+     "a": "A 4 cm by 3 cm rectangle can be tiled by 4 rows of 3 unit squares each (or 3 columns of 4). Multiplication counts the total unit squares: \\( 4 \\times 3 = 12 \\) cm². If a student says \"because the formula says so\" or adds the sides, they lack the conceptual understanding of area as an array of unit squares and are relying on rote memorisation.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden is 12.5 m long and 8.4 m wide. Find its area in square metres. Show your working.",
+     "a": "\\( 12.5 \\times 8.4 = 105.00 \\) m². Steps: ignore decimals → \\( 125 \\times 84 = 10500 \\). Total decimal places = 2 (one from each) → place decimal two from right → 105.00. A wrong answer like 1050 m² or 10.5 m² reveals a decimal placement error: the student likely miscounted decimal places or forgot to adjust after multiplying as whole numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangle has length \\( (2x + 3) \\) cm and width \\( (x - 1) \\) cm. Write an algebraic expression for its area. If \\( x = 4 \\), what is the numerical area?",
+     "a": "Area = \\( (2x+3)(x-1) = 2x^2 -2x +3x -3 = 2x^2 + x -3 \\) cm². For \\( x=4 \\): \\( 2(16)+4-3 = 32+4-3 = 33 \\) cm². A wrong answer (e.g., \\( 2x^2 -3 \\) or substituting before expanding incorrectly) shows the student cannot apply the distributive property to algebraic side lengths or confuses the order of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi calculated the area of a rectangle with length 5 m and width 300 cm as \\( 5 \\times 300 = 1500 \\) m². Is he correct? Explain the error and give the correct area.",
+     "a": "Ravi is incorrect. He multiplied metres by centimetres without converting to the same unit. 300 cm = 3 m. Correct area = \\( 5 \\times 3 = 15 \\) m². If a student says 1500 is correct or converts 5 m to 500 cm but forgets to convert the final answer to m², they have not grasped that area units are squared and both dimensions must share the same unit before multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Design a word problem for a Class 8 student that requires finding the area of a rectangle where one side is a fraction and the other is a decimal. Provide the problem statement and the solution.",
+     "a": "Example problem: \"A rectangular cloth is \\( \\frac{3}{4} \\) m wide and 2.5 m long. Find its area in m².\" Solution: Convert \\( \\frac{3}{4} = 0.75 \\). Area = \\( 0.75 \\times 2.5 = 1.875 \\) m². A poor problem (e.g., both sides whole numbers, or no unit conversion needed) reveals the student cannot synthesise fraction-decimal conversion with area calculation, indicating a gap in connecting prior number skills to geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_011",
+   "title": "c11_bs_cbse_11_011",
+   "questions": [
+    {
+     "q": "State the fundamental difference in the nationality of buyers and sellers between internal and international business.",
+     "a": "In internal business, both buyers and sellers are from the same country; in international business, they are from different countries. A wrong answer (e.g., \"buyers are always foreign in international business\") reveals the student confuses \"international business\" with \"exporting only\" and ignores that international business also includes foreign firms selling in the domestic market (imports) and cross-border investments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why customer heterogeneity is higher in international markets than in domestic markets, using the example of automobile steering preferences mentioned in the textbook.",
+     "a": "Customer heterogeneity arises from socio-cultural differences across nations. The textbook notes Indians use right-hand drive cars while Americans use left-hand drive — a difference rooted in historical traffic rules, not income. A wrong answer focusing only on income levels (e.g., \"rich vs poor\") misses the cultural/institutional dimension and shows the student hasn't grasped that heterogeneity includes tastes, customs, language, and product usage patterns, not just purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "A Mumbai-based software firm develops a payroll app compliant with Indian labour laws (PF, ESI, TDS). They want to sell it to a client in Germany. Identify THREE specific bases of distinction from Table 11.1 that will require them to modify their product or operations, and state the modification needed for each.",
+     "a": "1. Business regulations and policies: German labour laws (e.g., GDPR for data, different social security contributions) require reprogramming compliance modules. 2. Currency used in business transactions: Pricing in EUR introduces exchange rate risk; they need multi-currency billing. 3. Political system and risks: EU data sovereignty laws may require local server hosting. A student listing only \"laws are different\" without specifying which law and what modification fails to apply the distinction to a real operational decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mobility of labour and capital in internal vs. international business. Why does the textbook state that labour mobility is \"especially\" restricted across countries? Analyse using socio-cultural and economic factors.",
+     "a": "Within a country, labour moves freely across states (e.g., Bihar to Maharashtra) despite language barriers; internationally, visa regimes, work permits, and non-recognition of qualifications legally restrict movement. Socio-culturally, a worker from UP may adjust to Mumbai's climate and Hindi, but moving to Germany requires learning German, adapting to a 4-day workweek culture, and facing credential non-recognition. Capital faces fewer legal barriers (FDI/FPI routes exist) but still faces political risk. A student saying \"labour doesn't move because of distance\" misses the legal/institutional core of the distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since digital services (like consulting, software) can be delivered online without shipping goods, the distinction between internal and international business disappears for such firms.\" Defend or critique using at least four bases from Table 11.1.",
+     "a": "Critique: The distinction persists. 1. Currency: A Gurugram consultant billing a US client in USD faces forex risk and repatriation rules (FEMA). 2. Regulations: GDPR applies to EU client data even if the server is in India. 3. Political risk: US sanctions on a third country may forbid the Indian firm from serving that client. 4. Stakeholder nationality: The client's legal team (US lawyers) will impose US contract law. Digital delivery reduces *transport* complexity but not *jurisdictional* complexity. A student agreeing with the statement confuses \"logistics\" with \"business environment.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (not from the textbook) involving an Indian firm entering a foreign market. Describe the firm, the target country, and identify FIVE specific challenges it will face due to the internal-international distinction, mapping each to a distinct base from Table 11.1.",
+     "a": "Scenario: \"GreenLeaf Organics,\" a Pune-based startup selling ayurvedic skincare, enters South Korea.\n1. Nationality of buyers/sellers: Korean buyers prefer local language contracts; GreenLeaf needs bilingual legal review.\n2. Customer heterogeneity: Koreans prefer lightweight, multi-step routines (toner-essence-serum) vs. Indian preference for heavy creams; product reformulation needed.\n3. Business regulations: Korea's MFDS (Ministry of Food and Drug Safety) requires separate clinical trials for \"functional cosmetics\" — a regulatory hurdle absent in India.\n4. Currency: INR/KRW volatility affects pricing; no natural hedge.\n5. Political risk: Korea's past restrictions on certain herbal imports (e.g., ginseng origin rules) could block key ingredients.\nA poor answer lists generic \"cultural differences\" without mapping to the eight specific bases, showing inability to operationalize the framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

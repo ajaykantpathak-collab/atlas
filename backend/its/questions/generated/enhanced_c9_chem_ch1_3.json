@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_3",
+   "title": "c9_chem_ch1_3",
+   "questions": [
+    {
+     "q": "Define solubility in the precise scientific terms used in board examinations, including the standard reference conditions.",
+     "a": "Solubility is the maximum mass of solute (in grams) that can dissolve in 100 grams of solvent at a given temperature to form a saturated solution. A wrong answer (e.g., \"amount of solute that dissolves in 100 mL solvent\" or omitting \"saturated\" or \"specific temperature\") reveals the student confuses solubility with concentration or rate of dissolving, and lacks the precise definition needed for 1-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the solubility of most solid solutes increases with temperature, but the solubility of gases in liquids decreases with temperature. Use particle kinetic energy and intermolecular forces in your reasoning.",
+     "a": "For solids: higher temperature increases kinetic energy of solvent molecules, enabling them to break the solute's crystal lattice and surround solute particles more effectively. For gases: higher temperature gives gas molecules enough kinetic energy to overcome the attractive forces of the solvent and escape into the vapour phase. A wrong answer (e.g., \"heat helps everything dissolve\") shows the student has not grasped the opposing role of kinetic energy in endothermic vs exothermic dissolution processes.",
+     "self_check": true
+    },
+    {
+     "q": "A student heats 50 g of water to 60°C and adds potassium nitrate until saturation. Using the solubility curve below (hypothetical: at 60°C, solubility = 110 g/100g water), calculate the mass of KNO₃ that dissolves. Then predict the mass that will crystallise out if the solution is cooled to 20°C (solubility = 30 g/100g water).",
+     "a": "Step 1: Solubility at 60°C = 110 g per 100 g water. For 50 g water, max KNO₃ = (110/100) × 50 = 55 g. Step 2: At 20°C, solubility = 30 g per 100 g water. For 50 g water, max KNO₃ = (30/100) × 50 = 15 g. Step 3: Crystallised mass = 55 – 15 = 40 g. A wrong calculation (e.g., using 100 g water throughout) reveals inability to scale solubility values proportionally – a common board exam error in solubility curve problems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of pressure on the solubility of oxygen gas in water versus the solubility of sodium chloride in water. Why does pressure have a negligible effect on solids but a significant effect on gases?",
+     "a": "Pressure significantly increases gas solubility (Henry's law) because gas molecules are compressible and pressure forces more molecules into the solvent. For solids, particles are tightly packed in a crystal lattice; pressure barely changes the volume or the escaping tendency, so solubility is practically unchanged. A wrong answer (e.g., \"pressure increases both\") indicates the student treats all solutes alike and ignores the compressibility difference between gases and condensed phases.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since sugar dissolves in water, it will also dissolve in kerosene because both are liquids.\" Evaluate this statement using the 'like dissolves like' principle and intermolecular forces.",
+     "a": "The statement is false. Sugar (sucrose) is polar with –OH groups forming hydrogen bonds; water is polar and H-bonds with sugar. Kerosene is non-polar (hydrocarbon) with only weak London forces. Polar solutes need polar solvents to overcome solute-solute forces. A student who agrees reveals the misconception that physical state (liquid) determines solubility, not chemical polarity – a fundamental error in predicting miscibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that the solubility of a gas in water decreases with temperature. List materials, procedure, observations, and the conclusion a Class 9 student would write in their lab record.",
+     "a": "Materials: Two identical transparent bottles, cold water, hot water, effervescent tablets (or soda water), balloons. Procedure: Fill one bottle with cold water, one with hot water. Add one tablet to each, quickly fit balloons. Observe balloon inflation. Expected: Cold water balloon inflates more (more CO₂ stays dissolved → less gas evolves? Wait, correction: Actually, cold water holds more gas, so less CO₂ escapes → balloon inflates LESS. Hot water holds less gas, so more CO₂ escapes → balloon inflates MORE). Conclusion: Gas solubility decreases as temperature increases. A poor design (e.g., no control, qualitative only) shows inability to translate concept into controlled experiment – a skill tested in practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

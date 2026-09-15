@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_012",
+   "title": "c11_phy_cbse_06_012",
+   "questions": [
+    {
+     "q": "State the three kinematic equations for rotational motion with constant angular acceleration. Write the SI unit for each variable (θ, ω, α, t).",
+     "a": "The equations are: (1) ω = ω₀ + αt, (2) θ = θ₀ + ω₀t + ½αt², (3) ω² = ω₀² + 2α(θ - θ₀). Units: θ in rad, ω in rad/s, α in rad/s², t in s. A wrong answer (e.g., using degrees for θ or rpm for ω without conversion) reveals the student has memorised the linear equations but not adapted the units for rotational motion, or confuses the angular variables with their linear counterparts.",
+     "self_check": true
+    },
+    {
+     "q": "A wheel rotates about a fixed horizontal axis. Its angular velocity vector points east. If the wheel is slowing down, what is the direction of its angular acceleration vector? Explain using the vector definition α = dω/dt.",
+     "a": "The angular acceleration vector points west (opposite to ω). Since α = dω/dt, if the magnitude of ω decreases while its direction (east) stays constant, the change Δω points west, so α points west. A wrong answer (e.g., \"α also points east\") shows the student treats angular acceleration as a scalar that is always in the same direction as ω, ignoring the vector nature and the sign of dω/dt.",
+     "self_check": true
+    },
+    {
+     "q": "A potter's wheel starts from rest and reaches an angular speed of 180 rpm in 8.0 s with constant angular acceleration. Calculate (a) the angular acceleration in rad/s², (b) the angular displacement in radians, and (c) the number of revolutions made.",
+     "a": "(a) ω₀ = 0, ω = 180 rpm = 180 × 2π/60 = 6π rad/s. α = (ω - ω₀)/t = 6π/8 = 0.75π ≈ 2.36 rad/s².  \n(b) θ = ω₀t + ½αt² = 0 + ½(0.75π)(8²) = 24π ≈ 75.4 rad.  \n(c) Revolutions = θ/(2π) = 24π/(2π) = 12 rev.  \nA wrong answer often comes from forgetting to convert rpm to rad/s (using 180 directly) or using the wrong equation (e.g., θ = ωt for constant ω). Unit mismatch (rad vs rev) is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "A point on a rotating disc is 0.40 m from the axis. At a certain instant, the disc has ω = 10 rad/s and α = 5 rad/s². Find the magnitude of the total linear acceleration of the point and the angle this acceleration makes with the radial direction.",
+     "a": "Tangential acceleration a_t = αr = 5 × 0.40 = 2.0 m/s². Centripetal acceleration a_c = ω²r = 10² × 0.40 = 40 m/s². Total acceleration a = √(a_t² + a_c²) = √(4 + 1600) ≈ 40.05 m/s². Angle with radial direction: tan φ = a_t/a_c = 2/40 = 0.05 → φ ≈ 2.86°. A wrong answer (e.g., a = a_t + a_c = 42 m/s²) reveals the student treats perpendicular vectors as scalars, ignoring vector addition.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses the equation ω² = ω₀² + 2αθ for a wheel whose angular acceleration varies with time as α(t) = 3t rad/s³, claiming that using the average angular acceleration over the interval gives the correct angular displacement. Evaluate this claim.",
+     "a": "The claim is false. The equation ω² = ω₀² + 2αθ is derived assuming constant α. For variable α, the correct relation is ω² = ω₀² + 2∫α dθ, which is not equivalent to using average α. Using average α would only work if α were constant. A wrong evaluation (saying it's correct) shows the student does not understand the derivation's assumption of constant acceleration and misapplies the concept of average acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a bicycle wheel mounted on a fixed axle to determine its angular acceleration when a constant force is applied tangentially to its rim. List the measurements you would take and the formula you would use to calculate α.",
+     "a": "Wind a light string around the axle, attach a known mass m to the free end, and let it fall from rest. Measure the time t for the mass to fall a distance h. The linear acceleration of the mass is a = 2h/t². Since the string unwinds without slipping, the angular acceleration of the wheel is α = a/r where r is the axle radius. A poor answer (e.g., \"measure the force and use τ = Iα\") reveals the student jumps to dynamics without a measurable procedure for α, and ignores that I is unknown.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

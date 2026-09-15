@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_004",
+   "title": "c11_bio_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the two basic body forms exhibited by cnidarians and give one example of each.",
+     "a": "The two body forms are polyp (sessile, cylindrical; example: Hydra) and medusa (free-swimming, umbrella-shaped; example: Aurelia). A wrong answer (e.g., naming \"larva\" and \"adult\" or confusing polyp with medusa) reveals the student has not grasped the fundamental morphological distinction that defines cnidarian polymorphism and life cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the gastrovascular cavity of cnidarians considered \"incomplete\" despite performing both digestion and circulation?",
+     "a": "It is incomplete because it has only a single opening serving as both mouth and anus, so ingestion and egestion occur through the same aperture — unlike a complete digestive system with separate mouth and anus. A student who says \"it's incomplete because it lacks enzymes\" confuses structural completeness with digestive mode; extracellular digestion occurs in both complete and incomplete systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a colonial cnidarian where some individuals are feeding polyps (gastrozooids) and others are reproductive medusae (gonozooids). Which class does it likely belong to, and what phenomenon does this illustrate?",
+     "a": "It belongs to Hydrozoa and illustrates polymorphism (division of labour among zooids). A wrong answer like \"Scyphozoa\" or \"metagenesis\" shows confusion: Scyphozoa are predominantly medusoid with reduced polyp stage, and metagenesis refers to alternation of generations, not simultaneous functional specialisation within a colony.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mesoglea in Hydrozoa, Scyphozoa, and Anthozoa. How does its composition relate to the dominant body form?",
+     "a": "Hydrozoa: thin, acellular mesoglea (polyp-dominant); Scyphozoa: thick, cellular mesoglea with amoebocytes (medusa-dominant, provides buoyancy); Anthozoa: cellular mesoglea with fibrous connective tissue (polyp-only, supports heavy skeleton). A student who describes all mesoglea as \"acellular jelly\" fails to link mesoglea cellularity to mechanical demands of the dominant life form — a key evolutionary adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Metagenesis in Obelia is identical to alternation of generations in plants because both involve haploid and diploid stages.\"",
+     "a": "The claim is false. In Obelia, both polyp (asexual) and medusa (sexual) are diploid; meiosis occurs only during gamete formation in medusae (gametic meiosis). In plants, alternation of generations involves multicellular haploid (gametophyte) and diploid (sporophyte) stages with sporic meiosis. A student who agrees conflates life cycle patterns — a critical error in understanding animal vs. plant reproductive strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a live Hydra specimen to demonstrate that nematocyst discharge is triggered by both mechanical and chemical stimuli.",
+     "a": "Place Hydra in a watch glass with pond water. (1) Touch a tentacle with a fine glass needle — observe immediate coiling and nematocyst discharge (mechanical trigger). (2) Add a drop of glutathione (reduced) solution — observe massive nematocyst discharge without contact (chemical trigger). (3) Control: add distilled water — no discharge. A poor design (e.g., only testing touch) misses the dual-trigger mechanism essential for prey capture in nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

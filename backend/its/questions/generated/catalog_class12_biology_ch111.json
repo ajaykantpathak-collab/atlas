@@ -1,0 +1,286 @@
+{
+ "catalog": "catalog_class12_biology_ch111",
+ "concepts": [
+  {
+   "id": "lebo.111.1.1",
+   "title": "Per Capita Birth and Death Rates",
+   "questions": [
+    {
+     "q": "Calculate the per capita death rate of a population over a given period. Use the method 'Per Capita Birth and Death Rates'. Work with: count = 10, initial_pop = 400. Carry the chain through step by step and give the final value of per_capita_rate.",
+     "a": "0.025 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Determine the birth rate per individual per year for a lotus population. Use the method 'Per Capita Birth and Death Rates'. Work with: count = 500, initial_pop = 20. Carry the chain through step by step and give the final value of per_capita_rate.",
+     "a": "25 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Per Capita Birth and Death Rates' refers to.",
+     "a": "The average rate of offspring addition or individual mortality evaluated per member of a specified population across a given timeframe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Per Capita Birth and Death Rates'.",
+     "a": "Expresses biological changes on a individual unit basis across a set period.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Per Capita Birth and Death Rates', in plain ASCII form.",
+     "a": "per_capita_rate = count / initial_pop",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.2",
+   "title": "Population Density Change Equation",
+   "questions": [
+    {
+     "q": "Find N_next given current population, births, deaths, immigrants, and emigrants. Use the method 'Population Density Change Equation'. Work with: births = 300, deaths = 15, emigration = 150, immigration = 30, n_current = 40. Carry the chain through step by step and give the final value of n_next.",
+     "a": "205 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the net population size at time t+1 using demographic factors. Use the method 'Population Density Change Equation'. Work with: births = 100, deaths = 3, emigration = 400, immigration = 4, n_current = 10. Carry the chain through step by step and give the final value of n_next.",
+     "a": "-289 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Population Density Change Equation' refers to.",
+     "a": "The arithmetic tracking of population density shift over time accounting for births, deaths, immigration, and emigration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Density Change Equation'.",
+     "a": "Population density increases via natality and immigration while decreasing via mortality and emigration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Density Change Equation', in plain ASCII form.",
+     "a": "N_next = N_current + (births + immigration) - (deaths + emigration)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.3",
+   "title": "Intrinsic Rate of Natural Increase",
+   "questions": [
+    {
+     "q": "Find parameter r given per capita natality b and mortality d. Use the method 'Intrinsic Rate of Natural Increase'. Work with: b = 150, d = 20. Carry the chain through step by step and give the final value of r.",
+     "a": "130 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the intrinsic growth rate of a population. Use the method 'Intrinsic Rate of Natural Increase'. Work with: b = 200, d = 4. Carry the chain through step by step and give the final value of r.",
+     "a": "196 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Intrinsic Rate of Natural Increase' refers to.",
+     "a": "The per capita rate of population growth calculated as the difference between per capita birth rate and per capita death rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intrinsic Rate of Natural Increase'.",
+     "a": "Measures the inherent biological potential of a population to grow under given conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intrinsic Rate of Natural Increase', in plain ASCII form.",
+     "a": "r = b - d",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.4",
+   "title": "Exponential Growth Rate",
+   "questions": [
+    {
+     "q": "Find instantaneous growth rate given intrinsic growth rate r and population size N. Use the method 'Exponential Growth Rate'. Work with: n = 30, r = 400. Carry the chain through step by step and give the final value of n_next.",
+     "a": "12030 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the rate of change dN/dt under unlimited resources. Use the method 'Exponential Growth Rate'. Work with: n = 3, r = 25. Carry the chain through step by step and give the final value of n_next.",
+     "a": "78 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Exponential Growth Rate' refers to.",
+     "a": "The instantaneous change in population size under unconstrained resource conditions where growth is proportional to population size.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Exponential Growth Rate'.",
+     "a": "Unlimited resources yield a J-shaped population growth curve governed by dN/dt = rN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Exponential Growth Rate', in plain ASCII form.",
+     "a": "growth_rate = r * N",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.5",
+   "title": "Verhulst-Pearl Logistic Growth Rate",
+   "questions": [
+    {
+     "q": "Calculate population change rate under Verhulst-Pearl logistic model. Use the method 'Verhulst-Pearl Logistic Growth Rate'. Work with: k = 4, n = 25, r = 400. Carry the chain through step by step and give the final value of growth_rate.",
+     "a": "-52500 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Determine dN/dt when resources are limiting and carrying capacity is K. Use the method 'Verhulst-Pearl Logistic Growth Rate'. Work with: k = 400, n = 18, r = 400. Carry the chain through step by step and give the final value of growth_rate.",
+     "a": "6876 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Verhulst-Pearl Logistic Growth Rate' refers to.",
+     "a": "Population growth model taking into account environmental carrying capacity limits resulting in a S-shaped curve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Verhulst-Pearl Logistic Growth Rate'.",
+     "a": "Finite environmental resources enforce an upper limit K, yielding a sigmoid growth pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Verhulst-Pearl Logistic Growth Rate', in plain ASCII form.",
+     "a": "growth_rate = r * N * (K - N) / K",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.6",
+   "title": "Population Age Structure and Pyramids",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Population Age Structure and Pyramids' refers to.",
+     "a": "The distribution profile of age groups within a population whose graphical representation indicates whether the population is expanding, stable, or declining.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Age Structure and Pyramids'.",
+     "a": "Age pyramids display pre-reproductive, reproductive, and post-reproductive proportions reflecting growth status.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Population Age Structure and Pyramids' taught, and from which source text?",
+     "a": "11.1.1 (source: lebo111.txt lines 80-95)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.7",
+   "title": "Life History Variation and Evolutionary Strategies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Life History Variation and Evolutionary Strategies' refers to.",
+     "a": "Evolving reproductive strategies that species adopt to maximize Darwinian fitness within specific environmental abiotic and biotic limits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Life History Variation and Evolutionary Strategies'.",
+     "a": "Organisms evolve trade-offs between breeding frequency, offspring number, and offspring size.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Life History Variation and Evolutionary Strategies' taught, and from which source text?",
+     "a": "11.1.3 (source: lebo111.txt lines 215-235)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.8",
+   "title": "Interspecific Interaction - Predation Dynamics and Adaptations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Interspecific Interaction - Predation Dynamics and Adaptations' refers to.",
+     "a": "An interaction where one organism catches and consumes another, acting as a channel for energy movement across trophic levels and maintaining community diversity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interspecific Interaction - Predation Dynamics and Adaptations'.",
+     "a": "Predators control prey numbers, prevent competitive exclusion among prey, and drive adaptive defenses.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Interspecific Interaction - Predation Dynamics and Adaptations' taught, and from which source text?",
+     "a": "11.1.4 (source: lebo111.txt lines 255-310)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.9",
+   "title": "Interspecific Interaction - Competition Principles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Interspecific Interaction - Competition Principles' refers to.",
+     "a": "An interaction process in which the biological fitness of one species is noticeably reduced due to the presence of another competing for resources or interfering with feeding.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interspecific Interaction - Competition Principles'.",
+     "a": "Gause's principle states competing species cannot coexist indefinitely if resources are limiting, though resource partitioning enables coexistence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Interspecific Interaction - Competition Principles' taught, and from which source text?",
+     "a": "11.1.4 (source: lebo111.txt lines 315-375)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.10",
+   "title": "Interspecific Interaction - Parasitism and Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Interspecific Interaction - Parasitism and Types' refers to.",
+     "a": "An interaction where one species derives nutrition and shelter from a host organism, typically harming the host and displaying specialized adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interspecific Interaction - Parasitism and Types'.",
+     "a": "Parasites exhibit morphological simplification, high reproductive capacity, and complex life cycles involving host vectors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Interspecific Interaction - Parasitism and Types' taught, and from which source text?",
+     "a": "11.1.4 (source: lebo111.txt lines 380-435)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.1.11",
+   "title": "Interspecific Interaction - Commensalism and Mutualism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Interspecific Interaction - Commensalism and Mutualism' refers to.",
+     "a": "Interactions where one species benefits while the other is unaffected (commensalism) or where both species derive mutual physiological or ecological benefits (mutualism).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interspecific Interaction - Commensalism and Mutualism'.",
+     "a": "Mutualism features tightly linked co-evolution, whereas commensalism benefits one organism without affecting the partner.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Interspecific Interaction - Commensalism and Mutualism' taught, and from which source text?",
+     "a": "11.1.4 (source: lebo111.txt lines 440-510)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

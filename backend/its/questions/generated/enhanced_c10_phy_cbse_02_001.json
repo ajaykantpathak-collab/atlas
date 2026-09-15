@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_001",
+   "title": "c10_phy_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the direction of magnetic field lines outside a bar magnet, and what does the closeness of field lines indicate about the magnetic field strength?",
+     "a": "Outside a bar magnet, magnetic field lines emerge from the north pole and enter the south pole. The closeness (density) of field lines indicates the relative strength of the magnetic field — closer lines mean stronger field. A wrong answer (e.g., \"lines go from south to north outside\" or \"closeness indicates direction only\") reveals confusion between the external and internal field direction, or a misunderstanding that field line density represents magnitude, not just direction.",
+     "self_check": true
+    },
+    {
+     "q": "Two magnetic field lines are drawn intersecting each other in a student's diagram. Explain why this representation is physically impossible using the definition of magnetic field direction at a point.",
+     "a": "Magnetic field lines cannot intersect because at the point of intersection, there would be two tangents — implying two different directions for the magnetic field at the same point. The magnetic field at any point has a unique direction (the direction a free north pole would experience force). A wrong answer (e.g., \"intersection means stronger field\" or \"it's allowed in some cases\") reveals the student does not grasp that the tangent to a field line gives the unique field direction, a fundamental vector field property.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws magnetic field lines for a bar magnet as straight lines radiating outward from the north pole and inward to the south pole. Identify the error and redraw the correct pattern showing the proper curvature and continuity.",
+     "a": "The error is drawing straight radial lines — magnetic field lines around a bar magnet are curved, forming continuous closed loops that emerge from the north pole, curve through space, enter the south pole, and continue inside the magnet from south to north. The correct diagram shows smooth curves symmetric about the magnet's axis, with highest density near the poles. A wrong answer (accepting straight lines) reveals the student treats magnetic field like electric field from a point charge, not understanding the dipole nature and loop continuity of magnetic fields.",
+     "self_check": true
+    },
+    {
+     "q": "A plotting compass is placed at point P near a bar magnet. The compass needle aligns at 30° to the horizontal. If the magnetic field at P has a horizontal component of 2.0 × 10⁻⁵ T, calculate the total magnetic field strength at P. (Hint: The needle aligns along the resultant field direction.)",
+     "a": "The compass needle aligns with the resultant magnetic field vector. Given the horizontal component Bₕ = 2.0 × 10⁻⁵ T and angle θ = 30° with horizontal, the total field B = Bₕ / cos θ = (2.0 × 10⁻⁵) / cos 30° = (2.0 × 10⁻⁵) / (√3/2) = (4.0 × 10⁻⁵) / √3 ≈ 2.31 × 10⁻⁵ T. A wrong answer (e.g., using sin instead of cos, or assuming B = Bₕ) reveals the student cannot resolve vectors or connect compass alignment to field components.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Magnetic field lines begin at the north pole and end at the south pole.\" Is it fully correct? Justify your answer with reference to the continuity of magnetic field lines.",
+     "a": "The statement is incomplete/incorrect. Magnetic field lines do not begin or end — they form continuous closed loops. Outside the magnet, they go from north to south, but inside the magnet they continue from south to north, completing the loop. There are no magnetic monopoles, so field lines have no start or end points. A wrong answer (agreeing with the statement) reveals the student has memorized the external direction but missed the crucial concept of closed loops and the non-existence of magnetic monopoles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a bar magnet, a plotting compass, and a sheet of paper to map the magnetic field lines around the magnet. Describe the procedure step-by-step and explain how you would verify that the lines form closed loops.",
+     "a": "Procedure: (1) Fix white paper on a board. (2) Place bar magnet at centre, trace its outline, label N and S. (3) Place plotting compass near north pole. (4) Mark dots at the positions of the compass needle's north and south poles. (5) Move compass so its south pole touches the previous north dot. (6) Repeat to trace a line. (7) Draw smooth curve through dots with arrow from north to south outside. (8) Repeat for multiple starting points. To verify closed loops: theoretically explain that lines must continue inside magnet from S to N (since no monopoles exist); experimentally, one cannot map inside but the continuity is inferred from the fact that the same number of lines leave N as enter S. A poor answer (missing steps, not explaining loop continuity) reveals lack of procedural understanding and conceptual grasp of closed loops.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

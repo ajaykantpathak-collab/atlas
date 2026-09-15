@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_002",
+   "title": "c11_ps_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define the \"original position\" and \"veil of ignorance\" in Rawls' theory. What specific knowledge is excluded behind the veil?",
+     "a": "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society. The veil of ignorance excludes knowledge of one's social position (class, caste), natural assets (intelligence, strength), conception of the good (religious, philosophical), and psychological propensities. A wrong answer that only mentions \"not knowing if you're rich or poor\" reveals a reductive understanding that misses Rawls' exclusion of comprehensive doctrines and natural endowments—crucial for preventing bias toward meritocratic or perfectionist principles.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Rawls argue that parties in the original position would use the *maximin* rule (maximize the minimum position) rather than expected utility calculation? What conditions make maximin rational?",
+     "a": "Rawls identifies three conditions: (1) no reliable probabilities for social positions (radical uncertainty), (2) the chosen principles are for the basic structure—irreversible and all-encompassing, so the stakes are existential, and (3) the worst-off position under the rejected principles (e.g., utilitarianism) is unacceptable (e.g., slavery, starvation), while the worst-off under the chosen principles (difference principle) guarantees basic liberties and a social minimum. A wrong answer citing \"risk aversion\" as a psychological trait misses Rawls' structural argument: maximin is rational *given the epistemic constraints and the nature of the choice*, not because people are inherently cautious.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Rawls' original position to evaluate a proposed policy: \"A government introduces a flat tax rate of 10% for all citizens, arguing it treats everyone equally.\" Would parties behind the veil of ignorance accept this? Reason step-by-step.",
+     "a": "Step 1: Identify the policy's effect on the worst-off—a flat tax is regressive in impact because 10% of a subsistence income threatens basic needs, while 10% of a luxury income does not. Step 2: Recall the first principle (equal basic liberties) and second principle (fair equality of opportunity + difference principle). Step 3: The difference principle permits inequalities only if they benefit the least advantaged. A flat tax without a social minimum violates this. Step 4: Behind the veil, rational agents fear being the worst-off; they would reject a rule that allows the floor to fall below a decent minimum. Step 5: Conclusion: The policy fails the original position test because it does not maximize the minimum share. A wrong answer focusing only on \"equal treatment\" confuses formal equality with Rawls' substantive fairness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Rawls' original position with the utilitarian \"impartial spectator\" (Harsanyi). How does the *structure of the choice situation* differ, and why does it lead to different principles?",
+     "a": "Harsanyi's impartial spectator assumes *equal probability* of being any person (Bayesian rationality) and maximizes *average utility*. Rawls' original position imposes *radical uncertainty* (no probabilities) and *high stakes* (basic structure), leading to maximin. The structural difference: Harsanyi allows the spectator to \"roll the dice\" on social outcomes; Rawls forces the chooser to guarantee a floor. This yields Rawls' lexical priority of liberty and the difference principle vs. Harsanyi's utilitarian principle which could sacrifice minority rights for aggregate welfare. A wrong answer that says \"Rawls cares about the poor, utilitarians care about total happiness\" misses the *procedural* distinction: it's about the rationality of choice under uncertainty vs. risk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Rawls' veil of ignorance is unrealistic because real people know their identities; therefore, his principles lack political legitimacy.\" Is this a valid critique of the *justificatory role* of the original position?",
+     "a": "No. The original position is a *device of representation*, not a description of actual psychology. Its legitimacy comes from modeling the *reasonable conditions* for a fair agreement among free and equal citizens (Kant's \"kingdom of ends\"). We test principles by asking: \"Could they be justified to someone who doesn't know their place?\" If yes, they meet the publicity condition. The critique confuses *feasibility* with *justification*. A wrong answer agreeing with the critique treats the original position as a empirical hypothesis rather than a normative thought experiment—a category error common in senior secondary answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original scenario (not from the textbook) where the veil of ignorance would yield a different judgment than majority voting. Explain the divergence using Rawls' distinction between *fairness* and *aggregation*.",
+     "a": "Scenario: A city council votes on locating a hazardous waste plant. Majority (wealthy districts) votes to place it in a low-income neighborhood (minority). Behind the veil, parties don't know if they'll live in the wealthy or poor district. They would choose a principle: \"No district bears disproportionate environmental burden unless it benefits the least advantaged district (e.g., with compensation, healthcare, or veto power).\" Divergence: Majority voting aggregates preferences (tyranny of the majority); the veil forces each chooser to protect the minimum position, producing a *fair* distribution of burdens. A poor answer gives a scenario where both methods agree (e.g., \"everyone wants clean water\"), failing to demonstrate the *structural* difference between aggregation and fairness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

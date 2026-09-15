@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_001",
+   "title": "c11_geo_cbse_01_001",
+   "questions": [
+    {
+     "q": "State the literal meaning of the word \"geography\" from its Greek roots and give the formal definition used in senior secondary geography.",
+     "a": "\"Geography\" derives from Greek *geo* (Earth) and *graphia* (description/writing), literally \"Earth description.\" The formal definition: Geography is the study of the Earth's surface as the space in which human life unfolds, examining the spatial distribution and interaction of physical and human phenomena. A wrong answer (e.g., \"study of rocks\" or \"study of maps only\") reveals confusion with geology or cartography and misses the integrative human–environment focus.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why geography is classified as both a natural science and a social science, using the concepts of \"physical geography\" and \"human geography.\"",
+     "a": "Geography straddles natural and social sciences because its subject matter — the Earth's surface — comprises physical systems (atmosphere, lithosphere, hydrosphere, biosphere) studied with natural-science methods, and human systems (population, economy, culture, settlements) studied with social-science methods. The integrative core is spatial analysis. A wrong answer that says \"geography is only about maps\" or \"geography is only about nature\" shows failure to grasp the dual ontology and the bridging role of spatial patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims, \"Geography is just memorizing capitals, rivers, and mountain ranges.\" Using the definition and scope of geography, write a 3-sentence rebuttal that identifies the specific spatial questions geography asks.",
+     "a": "Geography goes far beyond rote memorization; it investigates *why* capitals, rivers, and mountains are located where they are (locational analysis), *how* they influence human activities and natural processes (interaction analysis), and *what* spatial patterns emerge from these interactions (pattern recognition). For example, knowing Delhi's coordinates is data; explaining its location as a nodal point on the Yamuna floodplain with historical route convergence is geographical reasoning. A rebuttal that merely lists more facts instead of explaining the analytical framework indicates the student still equates geography with fact-collection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of \"regional geography\" and \"systematic geography.\" Give one Indian example for each approach.",
+     "a": "Regional geography studies all geographical elements (physical + human) within a specific area (e.g., \"Geography of the Himalayan Region\" covering its climate, soils, tribes, economy). Systematic geography studies one element globally or nationally across regions (e.g., \"Climatology of India\" examining temperature, rainfall, pressure patterns across all states). A wrong answer that swaps the examples or describes both as \"studying regions\" shows inability to distinguish the two fundamental approaches that structure the discipline (covered in node c11_geo_cbse_01_003).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Environmental geography is merely a sub-field of physical geography.\" Justify your evaluation with reference to the human–environment interaction perspective.",
+     "a": "The statement is incorrect. Environmental geography explicitly focuses on the *bidirectional* relationship between human societies and natural systems (e.g., how deforestation alters local climate AND how climate change forces agricultural adaptation). Physical geography studies natural systems largely in isolation; human geography studies societies largely in isolation. Environmental geography integrates both, making it a distinct integrative field (node c11_geo_cbse_01_006). A student who agrees with the statement conflates \"environment\" with \"physical environment only,\" ignoring the human agency dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page concept map that shows the scope of geography at the senior secondary level. Include the three major branches, their sub-fields, and the two overarching approaches (systematic/regional). Use arrows to indicate integrative links.",
+     "a": "A good concept map places \"Geography\" at center, branching into \"Physical Geography\" (Geomorphology, Climatology, Oceanography, Biogeography), \"Human Geography\" (Population, Settlement, Economic, Political, Cultural), and \"Environmental Geography\" (Human–Environment Interaction, Resource Management, Hazards). Two cross-cutting branches labeled \"Systematic Approach\" and \"Regional Approach\" connect to all three. Arrows link sub-fields across branches (e.g., Climatology ↔ Agricultural Geography). A poor map that lists topics hierarchically without cross-links or omits the systematic/regional distinction shows the student sees geography as a taxonomy rather than an integrative framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_001",
+   "title": "c11_bio_cbse_10_001",
+   "questions": [
+    {
+     "q": "What are the two main phases of the cell cycle, and which phase occupies more than 95% of the total cycle duration in a typical human cell?",
+     "a": "The two main phases are Interphase and M Phase. Interphase occupies >95% of the cycle (≈23 hours out of 24). A wrong answer (e.g., \"M Phase is longer\") reveals the student confuses the visibility of dramatic mitotic events with their actual time span, ignoring that preparation (growth, DNA replication) is the rate-limiting bulk.",
+     "self_check": true
+    },
+    {
+     "q": "A cell in G1 phase has 2n chromosomes and 2C DNA content. After S phase, the DNA content becomes 4C but the chromosome number remains 2n. Explain why the chromosome number does not double during S phase.",
+     "a": "Chromosome number (n) counts centromeres; during S phase each chromosome replicates into two sister chromatids joined at a single centromere, so centromere number (hence chromosome number) stays 2n until anaphase when centromeres split. A wrong answer (e.g., \"chromosomes double to 4n\") shows the student equates DNA doubling with chromosome doubling, not grasping that chromatids share a centromere until separation.",
+     "self_check": true
+    },
+    {
+     "q": "Yeast completes its cell cycle in 90 minutes, while a human cell takes 24 hours. Propose two biological reasons for this vast difference in cycle duration.",
+     "a": "Reasons: (1) Yeast has a smaller genome (≈12 Mb vs 3 Gb) requiring less replication time; (2) Yeast lacks extensive checkpoint controls and grows in nutrient-rich conditions, whereas human cells have elaborate G1/S and G2/M checkpoints for size, DNA damage, and signaling. A wrong answer focusing only on \"size\" misses the regulatory and genomic complexity differences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of a liver cell (hepatocyte) and a cardiac muscle cell (cardiomyocyte) in an adult human with respect to the cell cycle. Use the terms G0, quiescent, and terminal differentiation.",
+     "a": "Hepatocytes are in G0 (quiescent) – they can re-enter G1 and divide upon injury. Cardiomyocytes are terminally differentiated – they permanently exit the cycle, lose division capacity, and perform specialized function. A wrong answer claiming both are \"resting\" fails to distinguish reversible quiescence from irreversible exit, a key concept for regeneration vs. repair.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Cytokinesis always follows karyokinesis, so the number of nuclei always equals the number of cells.\" Evaluate this statement with a specific counterexample from the NCERT text.",
+     "a": "The statement is false. In liquid endosperm of coconut, karyokinesis occurs repeatedly without cytokinesis, producing a multinucleate syncytium (many nuclei, one cell). A wrong answer accepting the claim overlooks that cytokinesis is a separate, sometimes uncoupled, process – critical for understanding syncytia and coenocytic organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips to demonstrate that Interphase lasts longer than M Phase. Specify the stain, the observation, and the calculation.",
+     "a": "Stain root tip squash with acetocarmine or Feulgen. Count 500 cells; record number in Interphase (large nucleus, nucleolus visible, no chromosomes) vs. M Phase (condensed chromosomes). If 480 are in Interphase and 20 in M Phase, Interphase % = 96%. A poor design (e.g., using unstained cells, counting <100 cells) shows lack of understanding of statistical sampling and chromosome morphology as phase markers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

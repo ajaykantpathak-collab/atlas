@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_006",
+   "title": "c12_geo_cbse_13_006",
+   "questions": [
+    {
+     "q": "Name the two main geological ages of coal deposits in India and state which age contributes approximately 80% of India's coal reserves.",
+     "a": "Correct answer: Gondwana (Permian, ~250-300 Ma) and Tertiary (Eocene-Oligocene, ~30-60 Ma); Gondwana contributes ~80% of reserves. A wrong answer (e.g., \"Carboniferous and Cretaceous\" or \"Gondwana and Vindhyan\") reveals the student confuses Indian stratigraphy with global coal-forming periods or misidentifies Indian geological formations. The 80% figure is NCERT-specific and frequently tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Damodar Valley (Jharkhand-West Bengal) hosts the largest concentration of Gondwana coalfields while the Tertiary coalfields of Meghalaya and Assam remain minor producers despite being geographically closer to the Brahmaputra Valley industrial corridor.",
+     "a": "Correct answer: Damodar Valley preserves thick, laterally extensive Permian coal seams in fault-bounded Gondwana basins formed during Gondwanaland rifting, with high coal-to-overburden ratio enabling economical open-cast mining. Tertiary coals occur in structurally complex, narrow Himalayan foreland basins with thin, discontinuous seams, high sulphur content, and difficult terrain — making extraction costly and environmentally damaging. A wrong answer focusing only on \"quantity\" or \"quality\" without linking to basin architecture and mining economics reveals incomplete understanding of resource viability.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Tamil Nadu requires 5 million tonnes of coal annually. The plant can source either: (A) Bituminous coal from Talcher (Odisha) at 4,500 kcal/kg GCV, 35% ash, transported 1,400 km by rail; or (B) Lignite from Neyveli (Tamil Nadu) at 2,500 kcal/kg GCV, 40% ash, transported 50 km by conveyor. Calculate the annual coal mass required for each option and explain which is more economical considering transport cost (₹1.50/tonne-km) and boiler efficiency penalty for high ash.",
+     "a": "Correct answer: Option A: 5 Mt × (design GCV/4500) ≈ 5 Mt (assuming design GCV ~4500). Option B: 5 Mt × (4500/2500) = 9 Mt. Transport cost A: 5 Mt × 1,400 km × ₹1.50 = ₹10,500 crore. Transport cost B: 9 Mt × 50 km × ₹1.50 = ₹675 crore. However, Option B's 40% ash vs 35% ash increases boiler fouling, reducing efficiency by ~3-4% and increasing auxiliary power consumption. For base-load plants, Option A (Talcher) is typically preferred despite higher transport cost because consistent quality ensures higher plant load factor (PLF). A student calculating only transport cost misses the boiler efficiency penalty — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coking coal potential of Jharia (Jharkhand) and Singrauli (Madhya Pradesh). Why does India import coking steel despite Jharia having prime coking coal reserves?",
+     "a": "Correct answer: Jharia coal (Damodar Valley) has low ash (15-20%), low volatile matter (20-25%), and high vitrinite reflectance — ideal for metallurgical coke. Singrauli coal (Sone Valley) has higher ash (30-35%), higher volatile matter, and lower caking index — suitable only for thermal power. India imports ~50 Mt coking coal annually because: (1) Jharia reserves are depleting, deep-seated, and fire-affected; (2) washing capacity is insufficient to upgrade semi-coking coal; (3) steel sector requires consistent blend of hard coking coal (HCC) which Jharia alone cannot supply. A wrong answer citing only \"low reserves\" without mentioning quality specifications (CSR, fluidity, dilatation) or washing infrastructure reveals superficial knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's lignite reserves in Neyveli (Tamil Nadu) and Rajasthan can fully substitute bituminous coal imports for thermal power generation.\" Consider calorific value, mining method, water requirement, and environmental impact.",
+     "a": "Correct answer: The statement is false. Lignite (2,500-3,000 kcal/kg) requires 2-3× mass vs bituminous coal (4,500-5,500 kcal/kg) for same energy, increasing handling, transport, and ash disposal costs. Neyveli uses bucket-wheel excavators in open-cast mines needing continuous dewatering (high water stress in Tamil Nadu). Lignite's high moisture (30-50%) and spontaneous combustion risk require specialised boilers (CFBC). Rajasthan lignite (Barsingsar, Giral) has even higher sulphur. While lignite provides energy security, it cannot *fully* substitute imported high-GCV coal for coastal plants designed for bituminous coal without massive capital expenditure. A student answering \"true\" based only on reserve tonnage ignores energy density and plant engineering constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coal evacuation corridor map for a new 4,000 MW ultra-supercritical thermal power plant proposed in Chhattisgarh's Korba district. Annotate: (a) source coalfields with seam thickness and grade, (b) rail/merry-go-round connectivity, (c) water source for cooling, (d) ash disposal area, and (e) transmission evacuation. Justify each choice using geological and infrastructural criteria.",
+     "a": "Expected answer: (a) Source: Korba coalfield (Gondwana, Barakar formation), seams 10-30 m thick, Grade G11-G13 (3,500-4,000 kcal/kg), low sulphur — SECL's Gevra, Kusmunda, Dipka mines. (b) Rail: Dedicated merry-go-round (MGR) from Gevra to plant (30 km); mainline connectivity via Bilaspur-Nagpur route for backup. (c) Water: Hasdeo barrage (Hasdeo River, tributary of Mahanadi) — 120 cusec allocation; groundwater not permitted per CGWA. (d) Ash: Low-lying mined-out voids in Dipka OC mine for backfilling; dry ash collection for cement industry (ACC, Lafarge nearby). (e) Transmission: 765 kV D/C lines to Raipur pooling station → WR-NR corridor. Justification: Proximity to mine mouth minimises transport; ultra-supercritical needs consistent Grade G11+; Hasdeo water is only perennial source; ash utilisation mandated by MoEFCC. A poor answer lists generic items without site-specific geological-infrastructural matching.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

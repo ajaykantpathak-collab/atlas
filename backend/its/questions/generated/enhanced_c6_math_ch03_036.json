@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_036",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_036",
+   "title": "c6_math_ch03_036",
+   "questions": [
+    {
+     "q": "What is the reciprocal of 5/9, and what is the reciprocal of the whole number 4?",
+     "a": "The reciprocal of 5/9 is 9/5, and the reciprocal of 4 (which is 4/1) is 1/4. A student who says 9/5 and 4 (instead of 1/4) likely does not understand that whole numbers must be written as fractions with a denominator of 1 before flipping.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 2/3 ÷ 1/4 is not the same as 2/3 × 1/4.",
+     "a": "Dividing by 1/4 means finding how many groups of 1/4 fit into 2/3, whereas multiplying by 1/4 finds a small part of 2/3. A student who says they are the same is confusing the operation of division with multiplication and missing the concept of the reciprocal.",
+     "self_check": true
+    },
+    {
+     "q": "Solve: 3/5 ÷ 2/7.",
+     "a": "Step 1: Keep 3/5. Step 2: Flip 2/7 to 7/2. Step 3: Multiply 3/5 × 7/2 = 21/10. Step 4: Convert to mixed fraction 2 1/10. A student who gets 6/35 multiplied the numerators and denominators without flipping the divisor.",
+     "self_check": true
+    },
+    {
+     "q": "The result will be smaller. A student who says \"larger\" is likely applying rules from multiplication (where multiplying by a number > 1 makes a value larger) and failing to analyze how division by a value > 1 reduces the original quantity.",
+     "a": "**Correct Answer:**\nIf you divide a fraction by a number greater than 1, the result will be smaller than the original fraction. This is because dividing by a number larger than 1 is equivalent to partitioning the fraction into smaller, equal-sized pieces.\n\n**Explanation of a Wrong Answer:**\nA wrong answer (stating the result would be larger) reveals that the student is incorrectly applying the \"division makes things smaller\" rule they learned with whole numbers to fractions. They are failing to recognize that when the divisor is greater than 1, the quotient must decrease, showing they have not yet grasped the inverse relationship between the size of the divisor and the size of the result.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the result of 1/2 ÷ 1/4 to be 2? Defend your answer.",
+     "a": "Yes, because 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2. It shows that two quarters (1/4 + 1/4) make up exactly one half. A student who says \"No\" may be intimidated by the fractions and failing to visualize that dividing by a small fraction (less than 1) results in a larger whole number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world story problem that requires calculating 3 ÷ 1/2.",
+     "a": "A student should describe having 3 whole items (like 3 rotis) and dividing them into pieces of 1/2 size, resulting in 6 pieces. An answer that fails to show the division context or uses an incorrect operation reveals a lack of connection between the math and physical reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

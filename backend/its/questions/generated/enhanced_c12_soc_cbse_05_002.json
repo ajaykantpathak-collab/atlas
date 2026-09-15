@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_002",
+   "title": "c12_soc_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define prejudice, stereotype, and discrimination in one sentence each, using the NCERT distinction between attitude, cognition, and behaviour.",
+     "a": "Prejudice is a pre-judgement or attitude (positive/negative) toward a group without evidence; stereotype is a fixed, over-generalised belief assigning a single trait to all group members; discrimination is actual behaviour that denies opportunities to a group. A wrong answer that conflates them (e.g., \"prejudice is discrimination\") reveals the student cannot separate the cognitive, affective, and behavioural components — a critical error for board questions that ask \"Distinguish between...\" (2-3 marks).",
+     "self_check": true
+    },
+    {
+     "q": "A teacher assumes a student from a particular region is \"naturally good at mathematics\" and gives them extra attention. Identify whether this is prejudice, stereotype, or discrimination — or a combination — and justify using NCERT definitions.",
+     "a": "This is primarily a **positive stereotype** (fixed belief about a group's trait) leading to **positive prejudice** (favourable pre-judgement) and **discriminatory behaviour** (unequal allocation of attention). Students often miss that stereotypes can be \"positive\" and still discriminatory because they deny individual variation and disadvantage other groups. A wrong answer calling it \"just a compliment\" shows failure to grasp that stereotypes fix groups into homogenous categories (NCERT: \"They treat an entire community as though it were a single person\").",
+     "self_check": true
+    },
+    {
+     "q": "In a housing society, a flat owner refuses to rent to a bachelor, saying \"bachelors are noisy and damage property.\" The owner claims this is based on past experience, not prejudice. Analyse the statement using the three concepts and explain why the \"experience\" claim does not negate prejudice.",
+     "a": "The owner holds a **stereotype** (all bachelors are noisy/destructive), a **prejudice** (negative pre-judgement applied to the applicant without knowing him), and practices **discrimination** (denial of housing). The \"experience\" claim is a post-hoc rationalisation: prejudice is resistant to counter-evidence (NCERT: \"resistant to change even in the face of new information\"). A wrong answer accepting the owner's justification reveals the student thinks prejudice requires conscious malice, missing that it operates through seemingly \"rational\" stereotypes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of \"distance pollution\" in untouchability (NCERT) with the stereotype of \"criminal tribes\" under the British Criminal Tribes Act 1871. How do both use stereotypes to justify spatial exclusion?",
+     "a": "Both construct a **stereotype of inherent impurity/danger** attached to an entire group by birth. \"Distance pollution\" stereotypes Dalits as polluting by mere presence/shadow, justifying physical segregation. The Criminal Tribes Act stereotyped entire communities as \"hereditary criminals,\" justifying forced settlement and surveillance. In both, the stereotype converts a social label into a \"natural\" trait, making exclusion appear inevitable rather than constructed. A weak answer lists differences without identifying the shared logic: stereotype → legitimacy for exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If we eliminate individual prejudices, discrimination will automatically disappear.\" Use the NCERT concept of systematic social exclusion and the distinction between individual attitudes and structural discrimination.",
+     "a": "The statement is **false**. Discrimination is often structural — embedded in institutions, norms, and practices that operate independently of individual intent (NCERT: \"Social exclusion is not accidental but systematic – it is the result of structural features of society\"). Example: a hiring policy requiring \"fluent English\" may discriminate against rural candidates without any employer prejudice. A wrong answer agreeing reveals the student reduces discrimination to individual acts, missing the sociological insight that structures reproduce inequality even without prejudiced individuals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic strip or short narrative (4-5 sentences) showing how a stereotype about a group becomes a prejudice, which then leads to a discriminatory practice in a school setting. Label each panel with the mechanism it illustrates.",
+     "a": "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic.\" Panel 3 (Discrimination): Teacher makes the student sit separately during lunch. A good answer shows the causal chain and labels correctly. A poor answer shows only one mechanism or reverses the order, indicating the student hasn't internalised the sequence: cognitive shortcut → affective judgement → behavioural exclusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_009",
+   "title": "c12_geo_cbse_20_009",
+   "questions": [
+    {
+     "q": "Define the term 'class mid-point' and state the formula used to calculate it for a class interval 10–20 in a continuous frequency distribution.",
+     "a": "The class mid-point (or class mark) is the value exactly halfway between the lower and upper class limits of a class interval. For the class 10–20, the mid-point = (10 + 20) / 2 = 15. A wrong answer (e.g., using only the lower limit 10, or averaging 10 and 19) reveals the student does not understand that continuous class intervals have real limits and the mid-point must represent the centre of the entire interval, not just the integer values.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a frequency polygon must be closed at both ends by extending the line to the mid-points of the preceding and succeeding classes with zero frequency, whereas a frequency curve is typically not closed in the same manner.",
+     "a": "The frequency polygon is closed to ensure the area under the polygon equals the total frequency (area principle), making it comparable to the histogram's area; the extra zero-frequency classes anchor the polygon to the baseline. The frequency curve is a smoothed approximation of the distribution's theoretical shape and is not required to enclose the exact same area; it tapers off smoothly. A student who says \"both must be closed\" or \"neither needs closing\" confuses the area-preserving property of the polygon with the illustrative purpose of the curve.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following frequency distribution of daily maximum temperatures (°C) for a city in June, construct the frequency polygon on graph paper. Use a scale of 1 cm = 2°C on the X-axis and 1 cm = 2 days on the Y-axis. Show all mid-point calculations.\n| Temp (°C) | 30–32 | 32–34 | 34–36 | 36–38 | 38–40 |\n|-----------|-------|-------|-------|-------|-------|\n| Days      | 3     | 7     | 10    | 6     | 4     |",
+     "a": "**Mid-points**: 31, 33, 35, 37, 39. **Preceding class mid-point**: 29 (freq 0). **Succeeding class mid-point**: 41 (freq 0). **Plot points**: (29,0), (31,3), (33,7), (35,10), (37,6), (39,4), (41,0). **Scale**: X-axis: 1 cm = 2°C → 31°C at 15.5 cm from origin (if origin at 0). Better: set origin at 28°C. Y-axis: 1 cm = 2 days → max freq 10 at 5 cm. Join points with straight lines. A wrong answer will have incorrect mid-points (e.g., 30,32,34...), wrong scaling (plotting frequencies directly without scale conversion), or failure to close the polygon at (29,0) and (41,0), indicating misunderstanding of the area principle and scale application.",
+     "self_check": true
+    },
+    {
+     "q": "Two frequency polygons are drawn on the same axes for the distribution of wheat yield (quintals/hectare) in Punjab and Haryana. The Punjab polygon is symmetric and bell-shaped; the Haryana polygon is positively skewed with a longer tail to the right. Compare the two distributions in terms of central tendency, variability, and reliability of the mean as a representative value.",
+     "a": "Punjab's symmetric distribution implies mean ≈ median ≈ mode, low variability (narrow peak), and the mean is a highly reliable measure of central tendency. Haryana's positive skew means mean > median > mode, higher variability (spread-out tail), and the mean is pulled toward the high-yield outliers, making it less representative of the typical farmer's yield; the median is better. A student who only says \"Punjab is better\" without linking skewness to mean-median-mode relationship and reliability shows superficial understanding of distribution shape interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a frequency curve by simply connecting the mid-points of the tops of histogram bars with a freehand curve without first drawing the frequency polygon. Evaluate this method: is it acceptable for board examination purposes? Justify with reference to NCERT guidelines.",
+     "a": "Not acceptable. NCERT (Practical Work in Geography Part-II) explicitly states the frequency curve is drawn *after* the frequency polygon: \"The frequency curve is obtained by drawing a smooth freehand curve through the vertices of the frequency polygon.\" Skipping the polygon violates the prescribed construction sequence and risks an erratic curve that does not faithfully represent the polygon's vertices. A student who argues \"it saves time and looks similar\" prioritizes speed over methodological rigour, which loses marks in board practical exams where steps are assessed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a frequency polygon to compare the literacy rates (in %) of five Indian states grouped into classes: 60–65, 65–70, 70–75, 75–80, 80–85. The number of states in each class is: 2, 5, 8, 3, 2. Explain how you would modify the construction if the class intervals were unequal (e.g., 60–65, 65–75, 75–80, 80–85, 85–90).",
+     "a": "**Equal intervals**: Mid-points = 62.5, 67.5, 72.5, 77.5, 82.5. Plot (mid-point, frequency) points, add preceding (57.5,0) and succeeding (87.5,0), join with straight lines. **Unequal intervals**: Cannot use raw frequencies; must calculate **frequency density** = frequency / class width. For 65–75 (width 10), density = 5/10 = 0.5; for 60–65 (width 5), density = 2/5 = 0.4. Plot mid-points against frequency density, then construct polygon. A student who plots raw frequencies for unequal intervals produces a distorted visual comparison, revealing they do not grasp the area principle (area ∝ frequency) which underpins all histogram/polygon constructions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

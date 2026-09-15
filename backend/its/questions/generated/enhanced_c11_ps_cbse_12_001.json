@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_001",
+   "title": "c11_ps_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the claim that \"the people are the ultimate source of political authority\" in India, and which article operationalizes this through elections?",
+     "a": "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens, establishing popular sovereignty as a foundational principle. Article 326 operationalizes it by providing for elections to the Lok Sabha and State Legislative Assemblies on the basis of universal adult franchise. A wrong answer (e.g., citing Article 74 or Article 356) reveals confusion between the executive's accountability to the legislature and the legislature's accountability to the people.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the mere existence of elections does not guarantee accountability; distinguish between procedural accountability and substantive accountability with an Indian example.",
+     "a": "Procedural accountability means elections are held regularly and votes are counted fairly (e.g., the 2024 Lok Sabha election was conducted on schedule). Substantive accountability means representatives actually respond to voters' preferences between elections—e.g., a government reversing an unpopular farm law after sustained protests shows substantive accountability. A wrong answer that equates the two misses the core tension: elections are necessary but not sufficient for accountability; they create the *threat* of sanction, but responsiveness depends on party systems, civil society, and institutional checks.",
+     "self_check": true
+    },
+    {
+     "q": "In 2019, a state government lost its majority when 17 MLAs resigned, leading to a floor test and a new government formed by the opposition without fresh elections. Using the concepts of popular sovereignty and accountability, analyze whether this sequence respects democratic legitimacy.",
+     "a": "Popular sovereignty authorizes representatives for a fixed term; mass resignations to engineer a government change bypass the voters' mandate, weakening the sovereignty-accountability link. While the Constitution permits floor tests (Article 164), legitimacy is eroded when the new government lacks a fresh electoral mandate. A wrong answer that says \"it's constitutional so it's democratic\" confuses legal validity with democratic legitimacy; a better answer notes that anti-defection law (Tenth Schedule) was designed to prevent such accountability gaps but can be circumvented by resignations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism in a parliamentary system (India) with that in a presidential system (USA). How does the fusion of executive and legislature in India alter the chain of accountability from voters to government?",
+     "a": "In India, voters elect the legislature, which then sustains the executive (Council of Ministers) through confidence; accountability runs: voters → Lok Sabha → Council of Ministers. In the USA, voters separately elect the legislature and the president; accountability runs: voters → Congress (legislative) and voters → President (executive) independently. Fusion in India makes the executive directly accountable to the legislature daily (question hour, no-confidence), but also means the executive controls the legislative agenda, potentially weakening legislative oversight. A wrong answer that claims \"both are equally accountable\" ignores the structural difference in the accountability chain.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Frequent elections (e.g., simultaneous Lok Sabha and State elections) enhance accountability by making representatives face voters more often.\" Consider both the sovereignty and accountability dimensions.",
+     "a": "Frequent elections can strengthen procedural accountability by increasing the frequency of electoral sanction, but they may undermine substantive accountability by forcing governments into permanent campaign mode, reducing policy focus, and increasing expenditure. From a popular sovereignty perspective, simultaneous elections could nationalize state issues, diluting the distinct mandate for state governments. A balanced evaluation recognizes the trade-off: accountability is not a simple function of election frequency but of the quality of electoral competition and the space for deliberation between elections. A wrong answer that uncritically endorses frequent elections misses the structural risks to federalism and governance.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal that would strengthen the link between popular sovereignty and accountability in India, specifying the article(s) to be amended and the intended effect.",
+     "a": "A strong proposal might amend Article 83/172 (duration of Houses) to fix election dates and limit premature dissolution, amend the Tenth Schedule to treat mass resignations as defection, and add a provision for a \"recall\" mechanism at the local level (linking to Article 243). The intended effect: reduce executive discretion to time elections, close the resignation loophole, and create a direct accountability tool between elections. A poor proposal would be vague (\"make elections fairer\") or contradict basic structure (e.g., removing judicial review of election disputes).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_04_006",
+   "title": "c12_hist_cbse_04_006",
+   "questions": [
+    {
+     "q": "In which modern-day country is Lumbini, the Buddha's birthplace, located?",
+     "a": "Lumbini is in present-day Nepal, near the Indian border in the Terai region. A wrong answer (e.g., India, Sri Lanka, or Tibet) reveals the student has not connected the Buddha's life geography to modern political boundaries — a common error in map-based questions in CUET and board exams where students confuse Lumbini with Bodh Gaya (Bihar) or Sarnath (Uttar Pradesh).",
+     "self_check": true
+    },
+    {
+     "q": "The Buddha's \"Four Sights\" (old man, sick man, corpse, mendicant) appear in the hagiographies. What historical problem do these sights pose for reconstructing the Buddha's actual life?",
+     "a": "The Four Sights are a literary trope structuring the renunciation narrative — they appear in nearly identical form in Jain hagiographies of Mahavira — suggesting a shared shramana narrative template rather than a unique historical memory. A student who treats them as literal biography misses the historiographical point: hagiographies (like the Buddhacarita, 2nd century CE) were composed centuries later to convey doctrinal meaning, not record facts. This confusion costs marks in source-analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "A Sanchi sculpture shows the Buddha's departure from Kapilavastu with his horse Kanthaka and groom Channa, but the Buddha himself is absent — only an empty horse and parasol are shown. Why did early Buddhist art avoid depicting the Buddha in human form?",
+     "a": "Early Buddhist art (c. 2nd century BCE–1st century CE) used aniconic symbols — empty seat, bodhi tree, wheel, stupa — because the Buddha was believed to have transcended physical form after enlightenment; representing him anthropomorphically would contradict the doctrine of anatta (no-self). The shift to iconic images (Gandhara/Mathura, 1st century CE) came with Mahayana's saviour-bodhisattva ideal. A student who says \"they couldn't carve well\" or \"it was a style choice\" misses the doctrinal reason — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Buddha's renunciation with Mahavira's (studied in c12_hist_cbse_04_003). Identify one structural similarity and one key difference in their narratives.",
+     "a": "Similarity: Both were kshatriya princes who renounced palace life after confronting suffering — a shared shramana archetype challenging Brahmanical householder ideals. Difference: Mahavira's renunciation is framed as the 24th tirthankara in an eternal lineage; the Buddha's is a singular, unprecedented breakthrough — he discovers the Middle Path *after* rejecting extreme asceticism, which Mahavira embraces. Students often flatten both into \"they both left home\" and miss the philosophical divergence on asceticism.",
+     "self_check": true
+    },
+    {
+     "q": "The Mahaparinibbana Sutta records the Buddha's last words: \"Be lamps unto yourselves... work out your own liberation.\" Evaluate how this statement reflects the Buddha's attitude toward authority — religious and social — compared to contemporary Brahmanical tradition.",
+     "a": "The statement encapsulates the Buddha's radical individualism: liberation depends on personal effort (atta-dipa), not ritual, birth, or guru's grace. This directly opposes Brahmanical varna-dharma where spiritual status is birth-ascribed and mediated by priests. The sangha's consensus-based governance (gana-sangha model) institutionalised this anti-hierarchical ethos. A student who calls it \"just a nice saying\" fails to link the doctrinal statement to its social-institutional consequences — a key competency question pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline of the Buddha's life events using only the *internal* chronology of the Pali canon (e.g., \"29 years after birth: renunciation\"; \"6 years after renunciation: enlightenment\"). Then identify which events have archaeological corroboration (e.g., Ashoka's Lumbini pillar).",
+     "a": "Internal chronology: Birth (0) → Renunciation at 29 → Extreme asceticism (6 years) → Enlightenment at 35 → First sermon → 45 years teaching → Parinirvana at 80. Archaeologically corroborated: Lumbini (Ashoka pillar, 249 BCE), Bodh Gaya (Vajrasana, Ashokan), Sarnath (Dhamek stupa, Ashokan), Kusinagara (parinirvana stupa, Gupta-era). Events without direct evidence: Four Sights, specific ascetic practices, exact sermon content. A good answer distinguishes textual chronology from material evidence — essential for \"how do we know\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

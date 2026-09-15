@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_004",
+   "title": "c11_chem_cbse_08_004",
+   "questions": [
+    {
+     "q": "In the reaction MnO₄⁻ + H₂S → Mn²⁺ + S (acidic medium), what are the oxidation numbers of Mn in MnO₄⁻ and Mn²⁺, and S in H₂S and S?",
+     "a": "Mn in MnO₄⁻ is +7 (each O is -2, total -8, ion charge -1: Mn + (-8) = -1 → Mn = +7). Mn in Mn²⁺ is +2. S in H₂S is -2 (each H is +1, total +2: 2(+1) + S = 0 → S = -2). S in elemental S is 0. A wrong answer (e.g., Mn = +8 in MnO₄⁻) reveals confusion about assigning oxidation numbers to polyatomic ions — students forget the ion charge must equal sum of oxidation numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't the equation MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺ be balanced by simply adjusting coefficients of reactants and products without adding H₂O and H⁺?",
+     "a": "Oxygen atoms are unbalanced: left has 4 O from MnO₄⁻, right has 0 O. In acidic medium, oxygen balance requires adding H₂O to the side deficient in O, and hydrogen balance requires adding H⁺ to the opposite side. A student who tries to balance only Mn and Fe coefficients reveals the misconception that redox balancing is only about electron transfer, ignoring mass conservation of all elements including oxygen and hydrogen.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following redox reaction in acidic medium using the oxidation number method: Cr₂O₇²⁻ + SO₂ → Cr³⁺ + SO₄²⁻. Show all steps.",
+     "a": "**Step 1:** Assign oxidation numbers: Cr in Cr₂O₇²⁻ is +6 (2×Cr + 7(-2) = -2 → Cr = +6), S in SO₂ is +4 (S + 2(-2) = 0 → S = +4), Cr in Cr³⁺ is +3, S in SO₄²⁻ is +6 (S + 4(-2) = -2 → S = +6).\n**Step 2:** Changes: Cr: +6 → +3 (gain 3 e⁻ per Cr, 2 Cr = 6 e⁻ gained). S: +4 → +6 (lose 2 e⁻ per S).\n**Step 3:** Equalise electron transfer: 1 S loses 2 e⁻, 2 Cr gain 6 e⁻ → multiply SO₂ by 3 (3 × 2 e⁻ = 6 e⁻ lost). Coefficients: Cr₂O₇²⁻ + 3SO₂ → 2Cr³⁺ + 3SO₄²⁻.\n**Step 4:** Balance O: Left = 7 + 3×2 = 13 O. Right = 3×4 = 12 O. Add 1 H₂O to right: Cr₂O₇²⁻ + 3SO₂ → 2Cr³⁺ + 3SO₄²⁻ + H₂O.\n**Step 5:** Balance H: Right has 2 H → add 2 H⁺ to left: Cr₂O₇²⁻ + 3SO₂ + 2H⁺ → 2Cr³⁺ + 3SO₄²⁻ + H₂O.\n**Step 6:** Verify charge: Left = -2 + 0 + 2 = 0. Right = 2(+3) + 3(-2) + 0 = 0. Balanced.\nA wrong answer with incorrect H₂O/H⁺ coefficients reveals failure to balance oxygen before hydrogen, or not verifying final charge balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxidation number method and half-reaction method for balancing: MnO₄⁻ + C₂O₄²⁻ → Mn²⁺ + CO₂ (acidic). Which method is more efficient when the same element appears in multiple reactants/products?",
+     "a": "Oxidation number method: Assign ON changes (Mn +7→+2, gain 5e⁻; C +3→+4, lose 1e⁻ per C, 2C = 2e⁻). LCM of 5 and 2 is 10 → multiply Mn half by 2, C half by 5. Half-reaction method: Write separate half-reactions, balance each for atoms and charge, then combine. For reactions where the same element appears in multiple species (e.g., disproportionation: Cl₂ → Cl⁻ + ClO⁻), half-reaction method is more efficient because it cleanly separates oxidation and reduction processes for the same element. Oxidation number method becomes cumbersome as you must track ON changes for each occurrence separately. A student who says \"both are equally good\" misses the strategic choice based on reaction complexity.",
+     "self_check": true
+    },
+    {
+     "q": "A student balances: MnO₄⁻ + H₂C₂O₄ → Mn²⁺ + CO₂ + H₂O (acidic) and gets: 2MnO₄⁻ + 5H₂C₂O₄ + 6H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O. Identify the error and correct it.",
+     "a": "**Error:** Hydrogen and oxygen not balanced correctly. Left: H = 5×2 + 6 = 16 H. Right: 8×2 = 16 H (OK). Left: O = 2×4 + 5×4 = 28 O. Right: 10×2 + 8 = 28 O (OK). Charge: Left = 2(-1) + 0 + 6(+1) = +4. Right = 2(+2) + 0 + 0 = +4. **Actually balanced correctly!** The student's answer is correct. A student who claims it's wrong reveals the misconception that H⁺ coefficient must equal H₂O coefficient, or that all coefficients must be minimal integers (they are). The trap: H₂C₂O₄ provides both H and C, unlike H₂S where H⁺ is added separately.",
+     "self_check": true
+    },
+    {
+     "q": "Design a redox reaction where the oxidation number method requires fractional coefficients initially, then multiply to clear fractions. Write the unbalanced equation and show the first 3 steps of balancing.",
+     "a": "**Example:** NH₃ + O₂ → NO + H₂O (neutral). \n**Step 1:** ON: N in NH₃ = -3, N in NO = +2 (lose 5 e⁻). O in O₂ = 0, O in NO = -2 and H₂O = -2 (gain 2 e⁻ per O atom, but O₂ has 2 O atoms → gain 4 e⁻ per O₂).\n**Step 2:** Electron change: N loses 5 e⁻, O₂ gains 4 e⁻. LCM = 20. Multiply NH₃ by 4 (4×5 = 20 e⁻ lost), O₂ by 5 (5×4 = 20 e⁻ gained).\n**Step 3:** 4NH₃ + 5O₂ → 4NO + 6H₂O (H balanced: 12 H each side; O: left 10, right 4+6=10). \nA poor answer uses a reaction that doesn't need fractions (e.g., simple 1:1 electron transfer) showing inability to recognise when LCM creates fractional intermediate steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

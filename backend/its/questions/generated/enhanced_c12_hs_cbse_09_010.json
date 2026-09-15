@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_010",
+   "title": "c12_hs_cbse_09_010",
+   "questions": [
+    {
+     "q": "A 25-year-old male (reference weight 65 kg) has a fever of 39°C. His basal energy requirement is 2300 kcal/day. What is his estimated energy requirement during this fever, and what is the physiological basis for this increase?",
+     "a": "Estimated energy requirement: 2300 × 1.125 = 2588 kcal/day (using 7% increase per °C above 37°C: 2°C × 7% = 14% increase; clinical practice uses 10-15% range). Physiological basis: fever increases basal metabolic rate (BMR) due to heightened cellular activity, immune cell proliferation, and cytokine-driven thermogenesis. WRONG answer (e.g., \"no change\" or \"double the calories\") reveals misunderstanding that fever is a hypermetabolic state, not just a symptom, and that the increase is proportional to temperature elevation, not arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why protein requirement increases disproportionately (50-100% above RDA) compared to energy (10-15%) during infection, and name two specific amino acids that become conditionally essential during this state.",
+     "a": "Protein increases more because infection triggers a catabolic response: cytokines (TNF-α, IL-1, IL-6) stimulate muscle proteolysis to supply amino acids for acute-phase protein synthesis (e.g., C-reactive protein), immune cell production, and gluconeogenesis. Energy increase only covers the fever's thermodynamic cost. Conditionally essential amino acids: glutamine (fuel for enterocytes and lymphocytes) and arginine (nitric oxide synthesis, wound healing). WRONG answer (e.g., \"protein builds muscle\") misses the immune-metabolic reprioritisation and the concept of conditional essentiality.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old child (weight 30 kg) with typhoid fever has been on a clear liquid diet for 2 days. The mother wants to introduce semi-solid food. Design a single meal (lunch) providing approximately 400 kcal and 15 g protein using only permitted foods (soft, bland, low-fibre, low-fat). Show your calculations.",
+     "a": "Meal: 100 g well-cooked rice (130 kcal, 2.5 g protein) + 50 g moong dal (170 kcal, 12 g protein) + 5 g ghee (45 kcal) + 50 ml toned milk custard (55 kcal, 1.5 g protein) = 400 kcal, 16 g protein. Steps: (1) Choose staple (rice) for energy, (2) Add dal for protein, (3) Minimal fat (ghee) for calorie density, (4) Milk custard for extra protein/calcium, (5) Verify totals. WRONG answer (e.g., including whole pulses, fibrous vegetables, or fried items) shows failure to apply \"soft, bland, low-residue\" principle for inflamed gut.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutritional management of acute viral fever (3-5 days) vs. prolonged tuberculosis infection (weeks-months). Analyse how the dietary priorities shift across three dimensions: energy-protein ratio, micronutrient focus, and feeding strategy.",
+     "a": "Acute viral fever: Short-term hypermetabolism → energy +10-15%, protein +50-100%, focus on hydration/electrolytes/vitamin C/A, frequent small liquid/semi-solid feeds. TB: Chronic catabolism + anabolic demand for tissue repair → energy +20-30%, protein +100% (1.5-2 g/kg), focus on zinc, vitamin D, B6, iron; 6-8 small nutrient-dense meals, high biological value protein at each meal. Shift: from \"supportive hydration\" to \"aggressive repletion\"; from \"gut rest\" to \"nutrient density per bite.\" WRONG answer (treating both identically) ignores chronicity-driven muscle wasting and specific micronutrient roles in TB immunity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this meal plan for a 40-year-old woman with dengue fever (platelets 80,000/μL, hematocrit rising): Breakfast: Tea + 2 toast; Lunch: Rice + rasam + papad; Dinner: Idli + coconut chutney. Identify three specific deficiencies relative to dengue nutritional needs and explain the clinical risk of each.",
+     "a": "Deficiencies: (1) Protein: ~25 g/day vs. needed 65-80 g → impaired immune synthesis, delayed plasma protein recovery, worsening capillary leak. (2) Fluids: ~1.5 L vs. needed 3-4 L → hemoconcentration risk, renal hypoperfusion. (3) Electrolytes/vitamins: No potassium-rich foods (coconut water, banana), no vitamin K (leafy greens) → bleeding risk with thrombocytopenia. Clinical risks: shock from hemoconcentration, prolonged recovery, spontaneous bleeding. WRONG answer (e.g., \"looks light and digestible\") misses that dengue demands aggressive repletion, not gut rest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"fever recovery snack\" recipe for an adolescent that delivers ≥200 kcal and ≥10 g protein per serving, uses only ingredients permitted in a soft bland diet, requires no cooking (only assembly), and can be eaten cold. List ingredients with quantities, calculate nutrients, and justify each ingredient's therapeutic role.",
+     "a": "Recipe: \"Curd-Nut Energy Bowl\" — 100 g hung curd (90 kcal, 10 g protein) + 15 g powdered almonds (90 kcal, 3 g protein) + 1 tsp honey (20 kcal) + ½ mashed banana (45 kcal) + pinch cardamom = 245 kcal, 13 g protein. Justification: Curd — probiotic, high-biological-value protein, calcium; Almonds — vitamin E (antioxidant), zinc (immune), energy density; Honey — quick glucose, soothing; Banana — potassium (electrolyte), pectin (binds stool); Cardamom — anti-nausea. No cooking, cold, soft. Poor answer (e.g., using raw sprouts, whole nuts, or spices) violates texture/safety rules for compromised digestion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

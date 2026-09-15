@@ -1,0 +1,507 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 301,
+ "chapter_title": "Nationalism in Europe: Revolution, Unification and Allegory",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess301.txt",
+ "concepts": [
+  {
+   "id": "jess.301.1.1",
+   "title": "French Revolution and the Idea of the Nation",
+   "section": "The French Revolution and the Idea of the Nation",
+   "definition": "The 1789 French Revolution gave nationalism its first clear expression by transferring sovereignty from the monarch to the citizen body and inventing symbols, language and rituals of collective identity.",
+   "formula": "",
+   "key_idea": "Revolutionary measures such as the tricolour flag, anthems, oaths and a centralised administrative system carried the national idea from France into the rest of Europe.",
+   "textbook_ref": "jess301.txt lines 113-165",
+   "question_patterns": [
+    "what steps did the french revolutionaries take to create a sense of collective identity",
+    "why is 1789 called the first clear expression of nationalism",
+    "how did the french revolution transfer sovereignty to the nation",
+    "which symbols of national identity did the revolution create",
+    "how were the ideas of the french revolution carried abroad",
+    "what changes did the revolution make in french political life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the sovereignty shift",
+     "explain": "Confirm the change from monarchy to a community of citizens with equal rights under a constitution."
+    },
+    {
+     "step": 2,
+     "action": "list the identity symbols",
+     "explain": "Look for the tricolour flag, the chant of vive la nation, anthems and oaths as instruments of collective belonging."
+    },
+    {
+     "step": 3,
+     "action": "trace the spread abroad",
+     "explain": "Verify that wars and reforms spread the nationalist idea, with students and educated middle classes forming Jacobin clubs across Europe."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.1.2",
+   "title": "Napoleon's Administrative Reforms and the Civil Code",
+   "section": "The French Revolution and the Idea of the Nation",
+   "definition": "Napoleon destroyed democracy in France yet rationalised administration in conquered lands through the Civil Code of 1804, which secured equality before the law, the right to property and simplified weights, currencies and taxes.",
+   "formula": "",
+   "key_idea": "The Napoleonic Code removed privileges by birth and improved transport systems in Switzerland, Italy and Germany, letting some see him as a liberator while others saw an occupying force.",
+   "textbook_ref": "jess301.txt lines 167-296",
+   "question_patterns": [
+    "what changes did napoleon introduce to make the administrative system more efficient",
+    "what were the main features of the napoleonic code of 1804",
+    "why did people in conquered territories both welcome and hate napoleon",
+    "how did the civil code abolish privileges by birth",
+    "which freedoms did napoleon restrict despite his reforms",
+    "how did napoleon simplify currencies and weights in europe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the code's guarantees",
+     "explain": "Equality before the law, the right to property and the end of privileges by birth mark the Civil Code of 1804."
+    },
+    {
+     "step": 2,
+     "action": "check the administrative streamlining",
+     "explain": "Look for simplified administrative divisions, standard weights and measures, a common currency and better roads in the ruled territories."
+    },
+    {
+     "step": 3,
+     "action": "weigh the two-sided verdict",
+     "explain": "Balance the benefits against censorship, forced conscription and heavy taxation that turned conquered peoples against him."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.1",
+   "title": "Liberalism in Political and Economic Life",
+   "section": "The Rise of Nationalism in Europe",
+   "definition": "Liberalism stood for freedom of the individual, equality before the law and government by consent in politics, and for freedom of markets and abolition of state-imposed tariffs in economics, drawing support mainly from the educated middle classes.",
+   "formula": "",
+   "key_idea": "Prussia created the Zollverein customs union of 1834 that removed tariff barriers across most German states and became a nationalist economic engine, though universal suffrage stayed denied to women and the propertyless.",
+   "textbook_ref": "jess301.txt lines 346-405",
+   "question_patterns": [
+    "what did liberalism stand for in the political sphere",
+    "what were the economic ideas of the liberals",
+    "how did the zollverein strengthen economic nationalism",
+    "which groups were denied suffrage under liberal democracy",
+    "why is an elle of textile measured differently in frankfurt a problem",
+    "who supported the ideology of liberalism in europe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two spheres",
+     "explain": "Political liberalism covers freedom, equality before law and consent of government; economic liberalism covers free markets and no internal duties."
+    },
+    {
+     "step": 2,
+     "action": "test the market argument",
+     "explain": "Check how varied measures like the elle and different currencies block trade, which the Zollverein of 1834 answered by unifying tariffs."
+    },
+    {
+     "step": 3,
+     "action": "verify the limits of liberalism",
+     "explain": "Note that liberals backed property rights and limited suffrage, so women and men without property stayed outside the vote."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.2",
+   "title": "Vienna Congress of 1815 and the Conservative Order",
+   "section": "The Rise of Nationalism in Europe",
+   "definition": "After Napoleon's defeat in 1815, Britain, Russia, Prussia and Austria met at Vienna to restore monarchy and undo the changes he had carried, drawing a conservative settlement that redrew boundaries in favour of the great powers.",
+   "formula": "",
+   "key_idea": "The Bourbon dynasty returned to France, a German confederation of 39 states replaced the Napoleonic system, and Austria gained northern Italy while Russia took part of Poland.",
+   "textbook_ref": "jess301.txt lines 406-470",
+   "question_patterns": [
+    "what were the main objectives of the vienna congress of 1815",
+    "which powers met at vienna after napoleon's defeat",
+    "how did the congress redraw the map of europe",
+    "what was the german confederation set up in 1815",
+    "why is the vienna settlement called conservative",
+    "what happened to france under the bourbon restoration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the host and hostess",
+     "explain": "The Austrian chancellor Metternich hosted the congress of the conservative powers Britain, Russia, Prussia and Austria."
+    },
+    {
+     "step": 2,
+     "action": "check the territorial deals",
+     "explain": "France lost annexed lands, Austria got Lombardy and Venetia, Russia part of Poland, and Prussia key German territories."
+    },
+    {
+     "step": 3,
+     "action": "verify the aim of restoration",
+     "explain": "Confirm the settlement restored dynasties and believed in monarchy and tradition against the revolutionary changes."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.3",
+   "title": "Revolutions, Romantic Culture and the Greek War of Independence",
+   "section": "The Revolutionaries",
+   "definition": "Uprisings in 1830 and 1848 challenged the conservative order, while Romanticism fed nationalism through folk songs, poetry and dances that gathered popular feelings, and Greece's war of independence from 1821 became a symbol of the age.",
+   "formula": "",
+   "key_idea": "Treaty of Constantinople in 1832 recognised Greece as an independent nation; poets and artists lauded Greece as the cradle of European civilisation and mobilised support from exiled Greeks.",
+   "textbook_ref": "jess301.txt lines 470-560",
+   "question_patterns": [
+    "how did romanticism contribute to the growth of nationalism",
+    "describe the greek war of independence",
+    "what did the treaty of constantinople of 1832 recognise",
+    "why did greece become a symbol of nationalist feeling",
+    "what happened in the 1848 revolution of the liberals",
+    "which cultural forms collected the folk spirit of the nation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "link culture to nationalism",
+     "explain": "Romantics saw the nation in folk tales, songs, dances and vernacular language, collecting them to stir national feeling."
+    },
+    {
+     "step": 2,
+     "action": "trace the Greek struggle",
+     "explain": "Greece under Ottoman rule rose in 1821, won sympathy across Europe as the cradle of civilisation, and gained recognition in 1832."
+    },
+    {
+     "step": 3,
+     "action": "verify the revolutionary moments",
+     "explain": "Separate the 1830 uprisings, the 1848 liberal revolutions demanding constitutional government, and secret societies like Mazzini's Young Italy."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.3.1",
+   "title": "Unification of Germany",
+   "section": "Unification of Germany",
+   "definition": "Prussia's chief minister Otto von Bismarck built German unity through three wars with Denmark, Austria and France over seven years, and the Prussian king William I was proclaimed German Emperor at Versailles in January 1871.",
+   "formula": "",
+   "key_idea": "The unification was carried by the army and bureaucracy rather than by the liberal Frankfurt parliament of 1848, whose dream of a nation built by the people failed.",
+   "textbook_ref": "jess301.txt lines 830-970",
+   "question_patterns": [
+    "briefly trace the process of german unification",
+    "what was the role of bismarck in unifying germany",
+    "why did the frankfurt parliament of 1848 fail",
+    "where and when was the german emperor proclaimed",
+    "which three wars paved the way for german unity",
+    "how did prussia lead the unification movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the failed liberal start",
+     "explain": "The Frankfurt parliament convened in 1848 in the Church of St Paul could not agree and was crushed by monarchy."
+    },
+    {
+     "step": 2,
+     "action": "list the wars of unity",
+     "explain": "Prussia with Bismarck defeated Denmark, Austria and France in succession to rally the German states."
+    },
+    {
+     "step": 3,
+     "action": "verify the proclamation",
+     "explain": "Confirm William I proclaimed German Emperor in January 1871 at Versailles, with the new state carried by army and bureaucracy."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.3.2",
+   "title": "Growth of Garibaldi's Red Shirts",
+   "section": "Unification of Italy",
+   "definition": "Giuseppe Garibaldi sailed from Genoa in 1860 with a band of a thousand volunteers for South Italy, and fresh recruits swelled the force to about thirty thousand, so the added volunteers equal the final strength minus the initial expedition.",
+   "formula": "added_volunteers = final_volunteers - initial_volunteers",
+   "key_idea": "The Red Shirts took Naples and South Italy in the Expedition of the Thousand; in 1867 Garibaldi's march on Rome failed against French and Papal troops until 1870, when France recalled its garrison.",
+   "textbook_ref": "jess301.txt lines 1140-1160",
+   "question_patterns": [
+    "how many volunteers joined garibaldi beyond the expedition of the thousand",
+    "calculate the growth of the red shirts during the 1860 campaign",
+    "find the added volunteers when the initial and final strengths are known",
+    "who led the expedition of the thousand and where",
+    "why were garibaldi's followers called red shirts",
+    "when were the papal states finally joined to italy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the difference in strength",
+     "explain": "Subtract the initial expedition strength from the final volunteer strength to get the recruits who joined",
+     "compute": "added_volunteers = final_volunteers - initial_volunteers"
+    }
+   ]
+  },
+  {
+   "id": "jess.301.3.3",
+   "title": "Unification of Italy and Its Architects",
+   "section": "Unification of Italy",
+   "definition": "Italy's unity was forged by Mazzini's secret Young Italy, Count Cavour's diplomacy and alliance with France, and Garibaldi's armed expedition, so that Victor Emmanuel II was proclaimed King of united Italy in 1861.",
+   "formula": "",
+   "key_idea": "Italians of different regions spoke dialects and had not seen one another, and Mazzini believed nations were the natural units of mankind, making Italy a people's nation in the making.",
+   "textbook_ref": "jess301.txt lines 1140-1230",
+   "question_patterns": [
+    "write a note on giuseppe mazzini",
+    "what was the role of count cavour in italian unification",
+    "describe garibaldi's expedition of the thousand",
+    "when was victor emmanuel ii proclaimed king of italy",
+    "which powers did italy have to drive out for unity",
+    "why did mazzini form young italy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign the three architects",
+     "explain": "Mazzini supplied the ideology, Cavour the diplomacy and war alliance, Garibaldi the armed volunteers."
+    },
+    {
+     "step": 2,
+     "action": "trace the stages of union",
+     "explain": "Sardinia-Piedmont annexed the north with French help in 1859, Garibaldi took the south in 1860, and Venetia and Rome joined later."
+    },
+    {
+     "step": 3,
+     "action": "verify the proclamation",
+     "explain": "Confirm Victor Emmanuel II became king of united Italy in 1861, completing the nation-building begun by the language of the people."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.4.1",
+   "title": "Years Between National Milestones",
+   "section": "The Rise of Nationalism in Europe",
+   "definition": "The span between two nationalist landmarks, such as the 1789 French Revolution and the 1871 proclamation of the German Empire, is found by subtracting the earlier year from the later year.",
+   "formula": "years_elapsed = later_year - earlier_year",
+   "key_idea": "Roughly eight decades separate the first clear expression of nationalism in France from the completed unification of Germany and Italy.",
+   "textbook_ref": "jess301.txt lines 113-115, 830-970",
+   "question_patterns": [
+    "calculate the years between the french revolution and german unification",
+    "how many years passed between two nationalist events",
+    "find the time gap between 1789 and 1871",
+    "compute the interval between the vienna congress and italian unification",
+    "how long after 1789 did europe complete its unifications",
+    "determine the years separating two milestones of nationalism"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the earlier year",
+     "explain": "Take the difference of the two milestone years to get the elapsed years",
+     "compute": "years_elapsed = later_year - earlier_year"
+    }
+   ]
+  },
+  {
+   "id": "jess.301.5.1",
+   "title": "The Strange Case of Britain",
+   "section": "The Strange Case of Britain",
+   "definition": "Britain became a nation not by a sudden revolution but by the long dominance of England over Scotland and Ireland, starting with the Act of Union of 1707 that created the United Kingdom of Great Britain.",
+   "formula": "",
+   "key_idea": "Scottish Highlanders were barred from Gaelic and national dress, and after Wolfe Tone's failed 1798 revolt Ireland was forcibly incorporated into the United Kingdom in 1801.",
+   "textbook_ref": "jess301.txt lines 973-1025",
+   "question_patterns": [
+    "how was the history of nationalism in britain unlike the rest of europe",
+    "what did the act of union of 1707 bring about",
+    "how were scottish culture and institutions suppressed",
+    "describe the fate of ireland under british dominance",
+    "who was wolfe tone and what did his united irishmen attempt",
+    "which symbols of the new britain were actively promoted"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the union acts",
+     "explain": "The 1707 Act of Union bound Scotland into a UK dominated by English members; the 1801 incorporation added Ireland."
+    },
+    {
+     "step": 2,
+     "action": "verify the cultural suppression",
+     "explain": "Check the bans on Gaelic language and national dress and the repression of Catholic clans of the Highlands."
+    },
+    {
+     "step": 3,
+     "action": "list the promoted symbols",
+     "explain": "Confirm the Union Jack, the national anthem God Save Our Noble King and the English language as instruments of a British identity."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.6.1",
+   "title": "Visualising the Nation: Marianne and Germania",
+   "section": "Visualising the Nation",
+   "definition": "Artists gave the abstract nation a concrete face by personifying it as a female figure: France was christened Marianne with the red cap, tricolour and cockade, while Germania wore a crown of oak leaves standing for heroism.",
+   "formula": "",
+   "key_idea": "Marianne images were stamped on coins and statues stood in public squares; Germania's banner hung in the Church of St Paul during the Frankfurt parliament of 1848.",
+   "textbook_ref": "jess301.txt lines 1060-1160",
+   "question_patterns": [
+    "who were marianne and germania",
+    "what was the importance of the way the nation was portrayed",
+    "which attributes stand for liberty and justice in the allegories",
+    "what does germania's crown of oak leaves signify",
+    "where were marianne images displayed",
+    "explain the meaning of an allegory with the nation as example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the allegory",
+     "explain": "An allegory expresses an abstract idea like liberty through a person or thing; here the nation is a female figure."
+    },
+    {
+     "step": 2,
+     "action": "match attributes to meanings",
+     "explain": "Broken chains mean being freed, the breastplate with eagle the empire's strength, oak-leaf crown heroism, sword readiness to fight, olive branch willingness for peace."
+    },
+    {
+     "step": 3,
+     "action": "verify public circulation",
+     "explain": "Check how the figures entered public life through coins, stamps and statues, persuading people to identify with the nation."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.7.1",
+   "title": "Nationalism, Imperialism and the Balkans",
+   "section": "Nationalism and Imperialism",
+   "definition": "After 1871 the most serious nationalist tension gathered in the Balkans, where slavic peoples broke from Ottoman rule even as the great powers competed to extend their own influence, turning nationalism into imperialism.",
+   "formula": "",
+   "key_idea": "Discontented Balkan peoples saw their struggles for independent identity as a game of big power rivalry, and this race for expansion ended in the First World War.",
+   "textbook_ref": "jess301.txt lines 1160-1210",
+   "question_patterns": [
+    "why did nationalist tensions emerge in the balkans",
+    "which peoples of the balkan sought independence",
+    "how did big powers turn balkan nationalism into rivalry",
+    "what does the phrase nationalism became imperialism mean",
+    "which empire did the balkan nations break away from",
+    "how did the balkan problem lead to the first world war"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the Balkan peoples",
+     "explain": "Identify the slavic nationalities such as Serbs, Bulgarians, Greeks and Romanians under Ottoman control."
+    },
+    {
+     "step": 2,
+     "action": "trace the rivalry",
+     "explain": "Show how Russia, Germany, England, Austria-Hungary and France competed over trade, colonies and military might in the region."
+    },
+    {
+     "step": 3,
+     "action": "verify the outcome",
+     "explain": "Confirm that competing claims and propaganda fed an atmosphere of suspicion that exploded into the First World War."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess301.txt lines 113-115, 830-970",
+   "concept": "jess.301.4.1",
+   "question_type": "compute_year_gap",
+   "question_pattern": "The French Revolution began in {earlier_year} and the German Empire was proclaimed in {later_year}. Calculate the number of years between these two landmarks of European nationalism.",
+   "extracted_variables": {
+    "earlier_year": 1789,
+    "later_year": 1871
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the earlier year",
+     "explain": "Take the difference of the two milestone years to get the elapsed years",
+     "compute": "years_elapsed = later_year - earlier_year"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess301.txt lines 406-470, 1140-1230",
+   "concept": "jess.301.4.1",
+   "question_type": "compute_year_gap",
+   "question_pattern": "The Vienna Congress met in {earlier_year} and Victor Emmanuel II was proclaimed King of Italy in {later_year}. Find the number of years between the two events.",
+   "extracted_variables": {
+    "earlier_year": 1815,
+    "later_year": 1861
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the earlier year",
+     "explain": "Take the difference of the two milestone years to get the elapsed years",
+     "compute": "years_elapsed = later_year - earlier_year"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess301.txt lines 1140-1160",
+   "concept": "jess.301.3.2",
+   "question_type": "compute_volunteer_growth",
+   "question_pattern": "Garibaldi began the Expedition of the Thousand in 1860 with {initial_volunteers} volunteers, and the Red Shirts grew to about {final_volunteers} during the campaign. Calculate how many fresh volunteers joined.",
+   "extracted_variables": {
+    "initial_volunteers": 1000,
+    "final_volunteers": 30000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference in strength",
+     "explain": "Subtract the initial expedition strength from the final volunteer strength to get the recruits who joined",
+     "compute": "added_volunteers = final_volunteers - initial_volunteers"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess301.txt lines 1140-1160",
+   "concept": "jess.301.3.2",
+   "question_type": "compute_volunteer_growth",
+   "question_pattern": "A volunteer army mustered {initial_volunteers} fighters at its start and about {final_volunteers} at its peak. Work out how many fighters were added along the way.",
+   "extracted_variables": {
+    "initial_volunteers": 850,
+    "final_volunteers": 12000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference in strength",
+     "explain": "Subtract the initial expedition strength from the final volunteer strength to get the recruits who joined",
+     "compute": "added_volunteers = final_volunteers - initial_volunteers"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess301.txt lines 1230-1330",
+   "questions": [
+    "Write a note on: (a) Giuseppe Mazzini (b) Count Camillo de Cavour (c) The Greek war of independence (d) Frankfurt parliament (e) The role of women in nationalist struggles",
+    "What steps did the French revolutionaries take to create a sense of collective identity among the French people?",
+    "Who were Marianne and Germania? What was the importance of the way in which they were portrayed?",
+    "Briefly trace the process of German unification.",
+    "What changes did Napoleon introduce to make the administrative system more efficient in the territories ruled by him?",
+    "Explain what is meant by the 1848 revolution of the liberals. What were the political, social and economic ideas supported by the liberals?",
+    "Choose three examples to show the contribution of culture to the growth of nationalism in Europe.",
+    "Through a focus on any two countries, explain how nations developed over the nineteenth century.",
+    "How was the history of nationalism in Britain unlike the rest of Europe?",
+    "Why did nationalist tensions emerge in the Balkans?"
+   ]
+  }
+ ]
+}

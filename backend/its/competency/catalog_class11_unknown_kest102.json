@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "economics",
+  "chapter": 102,
+  "chapter_title": "Collection of Data",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kest102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kest102.1.1",
+      "title": "Sources of Data: Primary and Secondary",
+      "section": "1.1",
+      "definition": "Data for a statistical study may be collected first-hand from the field -- primary data -- or drawn from published and recorded sources -- secondary data. Primary collection gives fit and freshness at a cost; secondary use is cheap and quick but limited by someone else's purpose and definitions.",
+      "formula": "",
+      "key_idea": "Ask it yourself or borrow it from records -- primary costs time, secondary costs control.",
+      "textbook_ref": "kest102.txt sources sections (primary data, secondary data, merits and demerits, published sources of secondary data)",
+      "question_patterns": [
+        "distinguish primary data from secondary data with examples",
+        "in class 11 collection of data: when should secondary data be preferred",
+        "name the sources from which secondary data are obtained",
+        "what are the merits and demerits of collecting primary data",
+        "is census data primary or secondary for a researcher explain",
+        "choose the data source for a given study and justify"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "classify the source",
+          "explain": "If the investigator generates the data for the study at hand, it is primary; if already collected by others, it is secondary."
+        },
+        {
+          "step": 2,
+          "action": "weigh the trade-off",
+          "explain": "Primary data fit the purpose exactly but need money, time and trained staff; secondary data is economical but possibly outdated or misfit."
+        },
+        {
+          "step": 3,
+          "action": "check before use",
+          "explain": "Secondary data must be tested for reliability, adequacy and suitability before acceptance."
+        }
+      ]
+    },
+    {
+      "id": "kest102.1.2",
+      "title": "Modes of Collecting Primary Data",
+      "section": "1.2",
+      "definition": "Primary data arrive by three main modes: personal interviews where the investigator questions respondents face to face; mailed questionnaires that respondents fill themselves; and telephone or telephoned interviews for quick reach. Choice depends on area, literacy, cost and accuracy needed.",
+      "formula": "",
+      "key_idea": "Meet, mail or phone -- each mode trades cost against accuracy and coverage.",
+      "textbook_ref": "kest102.txt modes sections (personal interview, mailed questionnaire, telephone interview, merits demerits of each mode)",
+      "question_patterns": [
+        "compare personal interviews with mailed questionnaires",
+        "in class 11 collection of data: when is a telephone interview suitable",
+        "what qualities should a good questionnaire have",
+        "why do personal interviews give better response rates",
+        "state the limitations of the mailed questionnaire method",
+        "choose a mode of data collection for a given survey and justify"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "match mode to respondents",
+          "explain": "Literate, far-flung respondents suit mailed questionnaires; illiterate or hesitant ones need personal interviews."
+        },
+        {
+          "step": 2,
+          "action": "weigh cost and accuracy",
+          "explain": "Personal presence lifts response and quality but costs travel and time; the telephone is quick but shallow."
+        },
+        {
+          "step": 3,
+          "action": "polish the instrument",
+          "explain": "Whatever the mode, questions must be short, clear, non-leading and sequenced from easy to harder."
+        }
+      ]
+    },
+    {
+      "id": "kest102.1.3",
+      "title": "Pilot Survey, Census and Sampling Frames",
+      "section": "1.3",
+      "definition": "Before the main collection, a pilot survey trials the questionnaire on a small group to expose confusing questions. The study then chooses between a census -- covering every unit of the population -- and a sample survey -- studying a selected few to represent the whole; the sampling frame lists the units from which the sample is drawn.",
+      "formula": "",
+      "key_idea": "Try it small, then cover all -- or let a well-chosen few speak for the whole.",
+      "textbook_ref": "kest102.txt pilot census sections (pilot survey, census, sample survey, population, sampling frame, merits of sampling)",
+      "question_patterns": [
+        "what is a pilot survey and why is it conducted",
+        "in class 11 collection of data: distinguish census from sample survey",
+        "when must a census be used instead of sampling",
+        "what is a sampling frame",
+        "state the merits of a sample survey over a census",
+        "plan a pilot study for a given questionnaire"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "run the pilot",
+          "explain": "A small trial reveals ambiguous wording and logistical snags, letting the questionnaire be repaired cheaply."
+        },
+        {
+          "step": 2,
+          "action": "choose the coverage",
+          "explain": "A census reaches every unit -- exhaustive but costly; a sample saves resources but demands representativeness."
+        },
+        {
+          "step": 3,
+          "action": "fix the frame",
+          "explain": "Prepare the list of population units from which the sample will be selected, ensuring it is complete and current."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kest102.txt modes sections",
+      "question_pattern": "A researcher must survey 2000 farmers spread across villages with mixed literacy. Which mode of collection suits best and why?",
+      "concept": "kest102.1.2",
+      "question_type": "verify_property",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "check the respondents",
+          "explain": "Mixed literacy rules out mailed questionnaires that demand reading and writing."
+        },
+        {
+          "step": 2,
+          "action": "match the mode",
+          "explain": "Personal interviews, with the investigator reading out questions, reach everyone accurately."
+        },
+        {
+          "step": 3,
+          "action": "accept the cost",
+          "explain": "Travel and time are the price of quality here -- the trade-off favours accuracy."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kest102.txt pilot census sections",
+      "concept": "kest102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A college wants to know the average pocket money of its 4000 students in one week. Census or sample? Justify and describe the procedure.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "weigh coverage against cost",
+          "explain": "A census of 4000 is possible but heavy; a well-drawn sample of, say, 400 gives a good estimate cheaply."
+        },
+        {
+          "step": 2,
+          "action": "prepare the frame",
+          "explain": "The roll of all 4000 students is the sampling frame from which names are selected."
+        },
+        {
+          "step": 3,
+          "action": "run the pilot first",
+          "explain": "Trialling the questionnaire on 20 students catches unclear items before the main survey."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kest102.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Distinguish primary and secondary data with examples.",
+        "Compare the three modes of collecting primary data.",
+        "Draft four good questionnaire items on study habits of students.",
+        "Explain the role of a pilot survey in data collection.",
+        "When is a census preferable to a sample survey?",
+        "What precautions should be taken while using secondary data?"
+      ]
+    }
+  ]
+}

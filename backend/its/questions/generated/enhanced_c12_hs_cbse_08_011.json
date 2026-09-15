@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_011",
+   "title": "c12_hs_cbse_08_011",
+   "questions": [
+    {
+     "q": "What are the two primary methods of pattern making used in garment construction, and how does each method begin?",
+     "a": "The two primary methods are **flat pattern drafting** and **draping**. Flat pattern drafting begins with body measurements and applies geometric formulas on paper to create a basic block. Draping begins by pinning and shaping muslin fabric directly on a dress form or live model to develop the pattern in three dimensions. A wrong answer such as \"cutting and sewing\" or \"tracing a ready-made pattern\" reveals confusion between pattern *making* (creating the template) and garment *construction* (assembling the garment), or between original pattern development and pattern copying.",
+     "self_check": true
+    },
+    {
+     "q": "Why is 'wearing ease' added to body measurements when drafting a basic block? What would be the immediate consequence of drafting a block with zero ease?",
+     "a": "Wearing ease is added to allow for **body movement, breathing, sitting, and comfort**; it is the minimum extra circumference beyond the tight body measurement. If a block is drafted with zero ease, the resulting garment would be skin-tight, restrict movement (especially raising arms or sitting), and likely tear at stress points like the armhole or hip. A wrong answer that confuses wearing ease with *seam allowance* (which is added later for joining seams) or *design ease* (which is added for style fullness) shows a fundamental misunderstanding of the three distinct types of ease in pattern making.",
+     "self_check": true
+    },
+    {
+     "q": "A student has the following body measurements: Bust = 90 cm, Waist = 72 cm, Hip = 96 cm. Standard ease allowances for a basic bodice block are: Bust ease = 5 cm, Waist ease = 2 cm, Hip ease = 5 cm. Calculate the pattern measurements for bust, waist, and hip. Show each step.",
+     "a": "**Step 1:** Identify body measurements: Bust = 90 cm, Waist = 72 cm, Hip = 96 cm.  \n**Step 2:** Identify ease allowances: Bust = +5 cm, Waist = +2 cm, Hip = +5 cm.  \n**Step 3:** Add ease to each measurement:  \nPattern Bust = 90 + 5 = **95 cm**  \nPattern Waist = 72 + 2 = **74 cm**  \nPattern Hip = 96 + 5 = **101 cm**  \nA wrong answer that omits ease (giving 90, 72, 96) or adds incorrect ease values indicates the student does not understand that the basic block *must* include wearing ease to be functional.",
+     "self_check": true
+    },
+    {
+     "q": "Compare flat pattern drafting and draping in terms of (a) accuracy for symmetrical designs, (b) speed for creating multiple sizes, and (c) suitability for a structured, tailored jacket. Which method would you choose for the jacket and why?",
+     "a": "(a) **Accuracy for symmetrical designs:** Flat pattern drafting is superior because it uses measured, calculated lines ensuring perfect left-right symmetry. Draping relies on manual pinning and can introduce slight asymmetries.  \n(b) **Speed for multiple sizes:** Flat pattern drafting is faster; once the master block is drafted, grading rules generate other sizes mathematically. Draping must be repeated for each size.  \n(c) **Suitability for a tailored jacket:** **Flat pattern drafting** is the correct choice. A tailored jacket requires precise symmetry, exact collar/roll line geometry, and consistent reproducibility — all strengths of the flat pattern method. Draping is better suited for bias-cut, draped, or asymmetric designs. A wrong answer choosing draping for a tailored jacket shows inability to match method to design requirements.",
+     "self_check": true
+    },
+    {
+     "q": "A basic sleeve pattern is drafted with a sleeve cap height that is 2 cm *less* than the standard formula (Cap height = ¼ Armhole depth + 2.5 cm). Critique the effect on garment fit and appearance, and state the exact correction needed.",
+     "a": "**Effect:** A reduced cap height makes the sleeve cap **too flat**. When set into the armhole, the sleeve will pull tightly across the upper arm and shoulder, restricting forward/upward arm movement. Drag lines (diagonal wrinkles) will radiate from the armhole toward the sleeve cap, and the sleeve may feel tight at the bicep even if the bicep circumference is correct.  \n**Correction:** Increase the cap height to the standard calculated value (¼ Armhole depth + 2.5 cm). Re-draw the cap curve with the new height, ensuring the sleeve cap *curve length* equals the armhole circumference plus the designated cap ease (typically 2–3 cm). A wrong answer that suggests only widening the bicep or adding ease at the wrist fails to address the root cause: insufficient cap height for the armhole depth.",
+     "self_check": true
+    },
+    {
+     "q": "Describe, in sequential steps, how you would manipulate a basic bodice front block (with a single waist dart) to create a **yoke style line** that runs from the mid-shoulder to the center front, incorporating the dart intake into the yoke seam. Include how you would true the new seam lines.",
+     "a": "**Steps:**  \n1. Trace the basic bodice front with waist dart. Mark the bust point (BP).  \n2. Draw the desired yoke line from mid-shoulder to center front (CF).  \n3. Cut along the yoke line, separating the yoke from the lower bodice.  \n4. Cut *one* waist dart leg from the dart point to the BP (pivot point).  \n5. Close the waist dart by rotating the lower bodice section until the two dart legs meet; tape.  \n6. The yoke seam on the lower bodice will now open — this opening equals the original dart intake.  \n7. Tape paper underneath, trace the new yoke seam line, and **true** the seam by blending the curve smoothly across the former dart point.  \n8. Add seam allowances to both yoke and lower bodice pieces; mark notches at CF, shoulder, and the former dart position for matching.  \nA poor answer that forgets to pivot at the bust point, leaves the dart open, or omits truing/notches will produce a pattern that cannot be sewn accurately.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

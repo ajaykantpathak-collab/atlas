@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_007",
+   "title": "c11_math_cbse_08_007",
+   "questions": [
+    {
+     "q": "State the condition on the ratio of consecutive terms \\(\\frac{T_{r+1}}{T_r}\\) that identifies the greatest term in the expansion of \\((a+b)^n\\) for \\(a,b > 0\\).",
+     "a": "The greatest term occurs at index \\(r\\) such that \\(\\frac{T_{r+1}}{T_r} \\geq 1\\) and \\(\\frac{T_{r+2}}{T_{r+1}} < 1\\). Equivalently, find the largest integer \\(r\\) satisfying \\(\\frac{n-r+1}{r} \\cdot \\frac{b}{a} \\geq 1\\). If the inequality yields an integer \\(m\\), then both \\(T_m\\) and \\(T_{m+1}\\) are equal and greatest. A wrong answer (e.g., setting ratio = 1 without checking neighbours) reveals the student does not understand the discrete nature of the sequence of terms.",
+     "self_check": true
+    },
+    {
+     "q": "In the expansion of \\((2 + 3x)^9\\), a student claims the greatest term is the 5th term because \\(\\frac{T_5}{T_4} > 1\\) and \\(\\frac{T_6}{T_5} > 1\\). Explain why this reasoning is flawed and state the correct condition.",
+     "a": "The student's reasoning is flawed because if \\(\\frac{T_6}{T_5} > 1\\), then \\(T_6 > T_5\\), so \\(T_5\\) cannot be the greatest term — terms are still increasing. The correct condition requires the ratio to drop below 1 *after* the candidate term. For \\((2+3x)^9\\), one must find \\(r\\) such that \\(\\frac{9-r+1}{r} \\cdot \\frac{3x}{2} \\geq 1\\) but \\(\\frac{9-r}{r+1} \\cdot \\frac{3x}{2} < 1\\). A wrong answer indicates confusion between \"ratio > 1 means increasing\" and \"greatest term occurs when ratio crosses from ≥1 to <1\".",
+     "self_check": true
+    },
+    {
+     "q": "Find the numerically greatest term in the expansion of \\((1 - 3x)^{10}\\) when \\(x = \\frac{1}{5}\\).",
+     "a": "Given \\((1 - 3x)^{10}\\) with \\(x = 1/5\\). Here \\(a=1, b=-3/5\\). Terms alternate in sign; we compare absolute values. \\(|T_{r+1}| = \\binom{10}{r} \\left(\\frac{3}{5}\\right)^r\\). Ratio \\(\\frac{|T_{r+1}|}{|T_r|} = \\frac{10-r+1}{r} \\cdot \\frac{3}{5}\\). Set \\(\\geq 1\\): \\(\\frac{11-r}{r} \\cdot \\frac{3}{5} \\geq 1 \\Rightarrow 33-3r \\geq 5r \\Rightarrow 8r \\leq 33 \\Rightarrow r \\leq 4.125\\). So \\(r=4\\) satisfies. Check \\(r=4\\): ratio = \\(\\frac{7}{4} \\cdot 0.6 = 1.05 \\geq 1\\). \\(r=5\\): ratio = \\(\\frac{6}{5} \\cdot 0.6 = 0.72 < 1\\). Hence greatest term is \\(T_5 = \\binom{10}{4} (-\\frac{3}{5})^4\\). A wrong answer (e.g., \\(r=5\\)) reveals the student forgot to test the boundary or mishandled the inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the greatest term in \\((1+x)^n\\) and \\((1-x)^n\\) for \\(x>0\\). Are they always the same term index? Justify.",
+     "a": "For \\((1+x)^n\\) with \\(x>0\\), all terms are positive. The greatest term index \\(r\\) satisfies \\(\\frac{n-r+1}{r} x \\geq 1\\). For \\((1-x)^n\\), terms alternate in sign; the *numerically* greatest term uses absolute values \\(|T_{r+1}| = \\binom{n}{r} x^r\\), giving the *same* inequality. Thus the index of the numerically greatest term is identical. However, the actual greatest *algebraic* term in \\((1-x)^n\\) may differ because negative terms are smaller than positive ones. A wrong answer (e.g., \"they are different\") shows the student conflates numerical magnitude with algebraic value.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the greatest term in \\((\\sqrt{3} + 2\\sqrt{2})^7\\) and gets \\(r = 3.6\\). They conclude the 4th term is the greatest. Is this correct? If not, what is the correct term index and why?",
+     "a": "The student's conclusion is correct *only if* they properly interpreted \\(r \\leq 3.6\\). The inequality \\(\\frac{7-r+1}{r} \\cdot \\frac{2\\sqrt{2}}{\\sqrt{3}} \\geq 1\\) gives \\(r \\leq 3.6\\). The largest integer \\(r\\) satisfying this is \\(r=3\\), so the greatest term is \\(T_{4}\\) (since \\(r\\) starts at 0). The student must check that for \\(r=3\\), ratio \\(\\geq 1\\) and for \\(r=4\\), ratio \\(< 1\\). If they simply rounded 3.6 to 4 and took \\(T_5\\), that would be wrong. A wrong answer reveals misunderstanding of the floor function role: the greatest term index is \\(\\lfloor m \\rfloor + 1\\) where \\(m\\) is the critical value.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a binomial expansion \\((a+b)^n\\) with \\(a,b > 0\\) such that there are exactly two equal greatest terms. Specify \\(a, b, n\\) and the term indices.",
+     "a": "Two equal greatest terms occur when the critical ratio equals 1 exactly for some integer \\(r\\). That is, \\(\\frac{n-r+1}{r} \\cdot \\frac{b}{a} = 1\\). Example: choose \\(n=5, a=2, b=3\\). Then \\(\\frac{5-r+1}{r} \\cdot \\frac{3}{2} = 1 \\Rightarrow \\frac{6-r}{r} = \\frac{2}{3} \\Rightarrow 18-3r = 2r \\Rightarrow r = 3.6\\) (not integer). To get integer, set \\(\\frac{n-r+1}{r} = \\frac{a}{b}\\). Let \\(a=3, b=2, n=7\\). For \\(r=4\\): \\(\\frac{7-4+1}{4} = 1 = \\frac{3}{2}\\)? No. Let \\(a=2, b=1, n=5\\). For \\(r=2\\): \\(\\frac{5-2+1}{2} = 2 = \\frac{a}{b}=2\\). Works! So \\((2+1)^5\\) has equal greatest terms at \\(r=2\\) and \\(r=3\\) i.e., \\(T_3\\) and \\(T_4\\). A poor answer (e.g., random guess) shows the student cannot reverse-engineer the condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

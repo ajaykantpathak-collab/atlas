@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_010",
+   "title": "c11_ip_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the result of the expression `17 // 5` and `17 % 5` in Python, and how do these two results relate to each other mathematically?",
+     "a": "`17 // 5` evaluates to `3` (floor division) and `17 % 5` evaluates to `2` (remainder). They satisfy the identity: `dividend = divisor * quotient + remainder`, i.e., `17 = 5 * 3 + 2`. A wrong answer (e.g., saying `17 // 5` is `3.4` or `17 % 5` is `3`) reveals confusion between true division (`/`) and floor division (`//`), or misunderstanding that `%` returns the remainder after floor division, not after true division.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expression `5 > 3 > 4` evaluates to `False` in Python, whereas in mathematics the chained inequality `5 > 3 > 4` would be considered meaningless or false for a different reason.",
+     "a": "In Python, chained comparisons are evaluated as `5 > 3 and 3 > 4`, which is `True and False` → `False`. In mathematics, `5 > 3 > 4` is not a well-formed statement because transitivity would require `5 > 4`, which is true, but the middle term `3 > 4` is false, making the chain invalid. A student who says \"Python evaluates left to right so `5 > 3` is True, then `True > 4` causes an error\" reveals the misconception that relational operators return Boolean values that can be further compared with numbers — they don't; Python's chaining syntax is a deliberate language feature, not sequential evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Given `x = 10`, `y = 3`, evaluate the expression: `not (x // y > 2) and (x % y == 1 or y ** 2 > x)`. Show each step.",
+     "a": "Step 1: `x // y` → `10 // 3` = `3`. Step 2: `3 > 2` → `True`. Step 3: `not True` → `False`. Step 4: `x % y` → `10 % 3` = `1`; `1 == 1` → `True`. Step 5: `y ** 2` → `3 ** 2` = `9`; `9 > 10` → `False`. Step 6: `True or False` → `True`. Step 7: `False and True` → `False`. Final result: `False`. A wrong answer (e.g., `True`) usually comes from misapplying precedence — evaluating `and` before `or`, or forgetting that `not` binds tightest, or treating `**` as lower precedence than `%`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of `-17 // 5` and `-17 % 5` in Python with the behaviour in C/C++ or Java. Why does Python choose this behaviour?",
+     "a": "In Python: `-17 // 5` = `-4` (floor toward negative infinity), `-17 % 5` = `3` (remainder has same sign as divisor). In C/C++/Java: `-17 / 5` = `-3` (truncation toward zero), `-17 % 5` = `-2` (remainder has same sign as dividend). Python's choice guarantees the identity `a == b * (a // b) + (a % b)` always holds and the remainder is non-negative when the divisor is positive — useful for cyclic indexing (e.g., `index % length` always gives a valid array index). A student who says \"both languages give the same result\" has not tested negative operands and assumes truncation toward zero is universal.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the condition to check if a variable `mark` is between 40 and 100 (inclusive) as `40 <= mark <= 100`. Another writes `mark >= 40 and mark <= 100`. A third writes `40 <= mark and mark <= 100`. Are all three equivalent in Python? Justify your answer and discuss which style is preferred in professional code and why.",
+     "a": "Yes, all three are semantically equivalent in Python due to chained comparison semantics: `40 <= mark <= 100` is exactly `40 <= mark and mark <= 100`. The third version `40 <= mark and mark <= 100` is identical to the second (commutativity of `and`). The chained form `40 <= mark <= 100` is preferred in Pythonic code because it is more readable, evaluates `mark` only once (relevant if `mark` is a function call with side effects), and directly expresses the mathematical intent. A student who claims they are not equivalent misunderstands Python's chaining; one who prefers the expanded form for \"clarity\" may be carrying over habits from languages without chaining.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a program must use at least two arithmetic operators, two relational operators, and one logical operator in a single compound condition to make a decision. Write the Python condition and explain why each operator is necessary.",
+     "a": "Scenario: An auto-rickshaw fare calculator in Delhi. Base fare ₹25 for first 1.5 km, then ₹9.50 per km. Night surcharge (11 PM–5 AM) adds 25%. A passenger travels `dist` km at hour `h` (0–23). Condition for \"night surcharge applies AND fare exceeds ₹100\": `(h >= 23 or h < 5) and (25 + max(0, dist - 1.5) * 9.5 > 100)`. Arithmetic: `-`, `*`, `+` compute fare. Relational: `>=`, `<`, `>` compare hour and fare. Logical: `or` combines night hours, `and` combines surcharge condition with fare condition. A poor answer uses only one operator type or creates a contrived condition without real-world meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

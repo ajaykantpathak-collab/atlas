@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_007",
+   "title": "c12_eco_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the vertical distance between the TC and TVC curves at any output level, and why is it constant?",
+     "a": "The vertical distance equals Total Fixed Cost (TFC), which is constant because fixed factors (rent, machinery) do not change with output in the short run. A wrong answer (e.g., \"distance increases with output\") reveals confusion between fixed and variable costs — the student thinks fixed costs vary or that TVC includes a fixed component.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the TVC curve initially rise at a decreasing rate (concave) and then at an increasing rate (convex)?",
+     "a": "Initially, increasing marginal returns to the variable factor (labour) mean each extra unit of output requires less additional variable input, so TVC rises slowly. After the inflection point, diminishing marginal returns set in: each extra unit of output needs more variable input, so TVC rises steeply. A wrong answer (e.g., \"TVC is always convex\") shows the student has not linked cost shapes to the Law of Variable Proportions and the behaviour of Marginal Product.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's short-run Total Cost function is TC = 100 + 20Q - 2Q² + 0.2Q³. Calculate the output level where SMC is minimum. (Hint: SMC = d(TC)/dQ)",
+     "a": "SMC = d(TC)/dQ = 20 - 4Q + 0.6Q². To find minimum SMC, set derivative of SMC w.r.t Q to zero: d(SMC)/dQ = -4 + 1.2Q = 0 → Q = 4/1.2 = 3.33 units. A wrong answer (e.g., Q = 10) usually comes from setting SMC = 0 instead of d(SMC)/dQ = 0, or from algebraic errors in differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "At the output where SAC is minimum, which of the following is true? (a) SMC > SAC (b) SMC < SAC (c) SMC = SAC (d) SMC = 0",
+     "a": "(c) SMC = SAC. The marginal cost curve always cuts the average cost curve at its minimum point. When SAC is falling, SMC < SAC; when SAC is rising, SMC > SAC. At the minimum, they are equal. Choosing (a) or (b) indicates the student memorised the rule but doesn't understand the marginal-average relationship: if marginal is below average, it pulls average down; if above, pulls it up.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since TFC is constant, AFC (Average Fixed Cost) is a rectangular hyperbola. Therefore, SAC is also a rectangular hyperbola.\" Evaluate this statement.",
+     "a": "False. AFC is a rectangular hyperbola (AFC × Q = TFC = constant), but SAC = AFC + AVC. AVC is U-shaped due to diminishing returns. Adding a U-shaped curve to a rectangular hyperbola yields a U-shaped SAC, not a rectangular hyperbola. The statement ignores the variable cost component. A student who agrees has conflated the shape of AFC with SAC and missed that SAC's U-shape comes from AVC.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (with at least 5 output levels) showing TC, TVC, TFC, SAC, and SMC where SMC first falls, then rises, and cuts SAC at its minimum. Present in a table.",
+     "a": "Example: TFC = 100. TVC: Q=1→50, Q=2→90, Q=3→120, Q=4→160, Q=5→220. Then TC = TFC+TVC. SAC = TC/Q. SMC = ΔTC/ΔQ. Table: Q=1: TC=150, SAC=150, SMC=50; Q=2: TC=190, SAC=95, SMC=40; Q=3: TC=220, SAC=73.3, SMC=30; Q=4: TC=260, SAC=65, SMC=40; Q=5: TC=320, SAC=64, SMC=60. SAC minimum at Q=5 (64), SMC at Q=4 is 40, at Q=5 is 60 — SMC crosses SAC between Q=4 and Q=5. A poor answer uses arbitrary numbers that don't reflect diminishing returns (e.g., TVC linear) or miscalculates SMC as TC/Q.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

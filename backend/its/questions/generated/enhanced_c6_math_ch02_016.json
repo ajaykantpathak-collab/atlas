@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_016",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_016",
+   "title": "c6_math_ch02_016",
+   "questions": [
+    {
+     "q": "What are the three components that make up the set of integers?",
+     "a": "Integers consist of positive whole numbers, negative whole numbers, and zero. A wrong answer (like saying they include fractions) reveals a confusion between integers and rational numbers.",
+     "self_check": true
+    },
+    {
+     "q": "If the temperature in a city is -5°C and in another city it is -2°C, which city is colder? Explain why.",
+     "a": "The city at -5°C is colder. A wrong answer suggests the student thinks -5 is \"more\" than -2 because 5 is greater than 2, failing to realize that negative numbers represent values further from zero in the \"less than\" direction.",
+     "self_check": true
+    },
+    {
+     "q": "A bank account has a balance of 0. If you withdraw 500 rupees, how would you represent your new balance using an integer?",
+     "a": "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign. A wrong answer shows a misunderstanding of how negative signs represent \"below zero\" or debt.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two numbers -10 and -1. Which is greater, and how does their position on the number line prove it?",
+     "a": "-1 is greater than -10. On a number line, any number to the right of another is greater; since -1 is closer to zero and to the right of -10, it is the larger value. A wrong answer indicates the student is ignoring the negative sign when comparing magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Is zero a positive or a negative integer? Defend your answer.",
+     "a": "Zero is neither positive nor negative; it is the neutral reference point. A wrong answer indicates a misunderstanding of the \"boundary\" nature of zero in the number system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario where you would need to use a negative number, and explain what zero would represent in that specific scenario.",
+     "a": "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level. A poor answer would be one that describes a quantity that cannot be negative, such as \"number of people in a room,\" showing a lack of understanding of what negative numbers represent (opposite directions/states).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

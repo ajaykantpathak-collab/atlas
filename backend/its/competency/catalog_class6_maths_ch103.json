@@ -1,0 +1,901 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Number Play",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp103.txt",
+ "concepts": [
+  {
+   "id": "fegp.3.2.1",
+   "title": "Supercells in a Number Grid",
+   "section": "3.2",
+   "definition": "A grid entry earns the supercell tag when its value beats every entry that touches it side-to-side or above-below.",
+   "formula": "cell_value > max(neighbours)",
+   "key_idea": "A supercell is a strict local maximum among its immediate horizontal and vertical neighbours.",
+   "textbook_ref": "fegp103.txt lines 35-95",
+   "question_patterns": [
+    "identify which cells are supercells in the grid",
+    "find how many supercells are present in the table",
+    "determine whether a cell is greater than all its adjacent neighbours",
+    "can the smallest number in a grid ever be a supercell",
+    "Mark all supercells in the grid shown.",
+    "Can the largest entry of a table ever fail to be a supercell?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify neighbours",
+     "explain": "List all numbers in the cells sharing an edge (left, right, top, bottom) with the chosen cell."
+    },
+    {
+     "step": 2,
+     "action": "compare values",
+     "explain": "Check if the cell's entry exceeds each of its neighbouring entries."
+    },
+    {
+     "step": 3,
+     "action": "conclude supercell status",
+     "explain": "Confirm the cell is a supercell if and only if it is strictly larger than every neighbour."
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.4.1",
+   "title": "Count of n-Digit Numbers",
+   "section": "3.4",
+   "definition": "The total count of whole numbers having a specified number of digits is found by subtracting the smallest n-digit number from the largest n-digit number and adding one.",
+   "formula": "count = 9 * 10**(digits - 1)",
+   "key_idea": "For any positive integer of n digits, there are exactly 9 times 10 to the power of n minus 1 such numbers.",
+   "textbook_ref": "fegp103.txt lines 125-135",
+   "question_patterns": [
+    "how many numbers have five digits",
+    "find the total number of 4-digit numbers",
+    "calculate how many 3-digit numbers exist",
+    "what is the count of numbers having {digits} digits",
+    "How many 2-digit numbers are there in all?",
+    "Calculate the count of numbers from 100 up to 999."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine place multiplier",
+     "explain": "Raise 10 to the power of one less than the number of digits",
+     "compute": "multiplier = 10 ** (digits - 1)"
+    },
+    {
+     "step": 2,
+     "action": "compute total count",
+     "explain": "Multiply 9 by the place multiplier to obtain the total count",
+     "compute": "count = 9 * multiplier"
+    },
+    {
+     "step": 3,
+     "action": "verify the count",
+     "explain": "Check that the count equals the difference between the largest and smallest n-digit numbers plus one",
+     "compute": "count = (10 ** digits - 1) - (10 ** (digits - 1)) + 1"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.4.2",
+   "title": "Digit Sum of a Number",
+   "section": "3.4",
+   "definition": "The digit sum is the total obtained by adding all individual digits of a given numeral.",
+   "formula": "digit_sum = d1 + d2 + d3 + d4",
+   "key_idea": "Decompose an integer into its decimal digits and calculate their arithmetic sum.",
+   "textbook_ref": "fegp103.txt lines 136-160",
+   "question_patterns": [
+    "calculate the digit sum of 345",
+    "find the sum of the digits of {number}",
+    "what is the digit sum of consecutive three digit numbers",
+    "determine the sum of all digits in {number}",
+    "Find the digit sum when the digits are 7 and 6.",
+    "How much do the digits of 6875 add up to?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the extracted digits",
+     "explain": "Add the hundreds, tens, and units digits together",
+     "compute": "digit_sum = d1 + d2 + d3"
+    },
+    {
+     "step": 2,
+     "action": "check for extra digits",
+     "explain": "If the number has more than three digits, add the remaining digits to the running total",
+     "compute": "digit_sum = digit_sum + d4"
+    },
+    {
+     "step": 3,
+     "action": "verify the digit sum",
+     "explain": "Confirm the total matches the sum of all individual digits of the original number"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.5.1",
+   "title": "Palindromic Numbers",
+   "section": "3.5",
+   "definition": "Read the digits backwards and you meet the very same number -- such a number is a palindrome (for instance 12321).",
+   "formula": "palindrome = reverse(number)",
+   "key_idea": "A sequence of digits is symmetrical about its center.",
+   "textbook_ref": "fegp103.txt lines 165-200",
+   "question_patterns": [
+    "find the sum of the smallest and largest 5-digit palindrome",
+    "calculate the difference between the largest and smallest 5-digit palindromes",
+    "what is the sum of smallest 5-digit palindrome and largest 5-digit palindrome",
+    "find the difference between {largest_palindrome} and {smallest_palindrome}",
+    "Is 4567 a palindrome? Check by reversing.",
+    "How many palindromes lie between 10 and 100?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the sum",
+     "explain": "Add the smallest palindrome to the largest palindrome",
+     "compute": "palindrome_sum = smallest_palindrome + largest_palindrome"
+    },
+    {
+     "step": 2,
+     "action": "calculate the difference",
+     "explain": "Subtract the smallest palindrome from the largest palindrome",
+     "compute": "palindrome_diff = largest_palindrome - smallest_palindrome"
+    },
+    {
+     "step": 3,
+     "action": "verify palindrome symmetry",
+     "explain": "Confirm each palindrome reads the same forwards and backwards before reporting the results"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.6.1",
+   "title": "Kaprekar Routine Difference",
+   "section": "3.6",
+   "definition": "An iterative routine where the digits of a number are rearranged to form the maximum and minimum possible numbers, and their difference is computed.",
+   "formula": "difference = largest_arrangement - smallest_arrangement",
+   "key_idea": "Subtracting the smallest digit permutation from the largest yields the next value in the Kaprekar sequence.",
+   "textbook_ref": "fegp103.txt lines 205-245",
+   "question_patterns": [
+    "calculate the Kaprekar difference for four given digits",
+    "find the difference between the largest and smallest numbers formed by digits {d1}, {d2}, {d3}, {d4}",
+    "what is the result of one round of Kaprekar routine on {number}",
+    "subtract the smallest permutation from the largest permutation of {number}",
+    "Apply one round of the routine to 4935.",
+    "Form the biggest and smallest numbers from 5, 2, 7, 8 and subtract."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute difference of arrangements",
+     "explain": "Subtract the smallest number from the largest number",
+     "compute": "difference = largest_num - smallest_num"
+    },
+    {
+     "step": 2,
+     "action": "identify the digits of the difference",
+     "explain": "Break the resulting difference into its individual digits for the next round of the routine"
+    },
+    {
+     "step": 3,
+     "action": "check for Kaprekar constant",
+     "explain": "If the difference equals 6174 the routine has reached the Kaprekar constant; otherwise repeat the process"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.7.1",
+   "title": "Clock Palindrome Elapsed Time",
+   "section": "3.7",
+   "definition": "The elapsed duration in minutes between a current clock display and the next occurrence of a time reading that reads identically forwards and backwards.",
+   "formula": "elapsed_minutes = (next_hour - curr_hour) * 60 + (next_minute - curr_minute)",
+   "key_idea": "Convert the difference in hours and minutes between two time displays into total minutes.",
+   "textbook_ref": "fegp103.txt lines 250-290",
+   "question_patterns": [
+    "the time now is 10:01 how many minutes until the next palindromic time",
+    "find elapsed minutes between {curr_hour}:{curr_minute} and next palindrome {next_hour}:{next_minute}",
+    "how many minutes until the clock displays a palindrome after {curr_hour}:{curr_minute}",
+    "calculate the time difference in minutes to the next palindromic reading",
+    "How many minutes from 12:21 to the next palindromic time?",
+    "List the palindromic clock readings between 1:00 and 2:00."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate hour difference in minutes",
+     "explain": "Find difference between next hour and current hour and convert to minutes",
+     "compute": "hour_diff_min = (next_hour - curr_hour) * 60"
+    },
+    {
+     "step": 2,
+     "action": "calculate minute difference",
+     "explain": "Find difference between next minute and current minute",
+     "compute": "minute_diff = next_minute - curr_minute"
+    },
+    {
+     "step": 3,
+     "action": "sum total minutes",
+     "explain": "Combine hour difference in minutes with minute difference",
+     "compute": "elapsed_minutes = hour_diff_min + minute_diff"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.9.1",
+   "title": "Quick Summation by Grouping",
+   "section": "3.9",
+   "definition": "Calculating the total sum of repeated numbers in an arrangement by multiplying each distinct number by its frequency of occurrence.",
+   "formula": "total_sum = sum_of_groups = count1 * val1 + count2 * val2",
+   "key_idea": "Repeated addition of identical items is efficiently evaluated as multiplication.",
+   "textbook_ref": "fegp103.txt lines 340-375",
+   "question_patterns": [
+    "find the sum of numbers in the pattern by grouping",
+    "calculate the total sum of the repeated numbers quickly",
+    "how much is the total value of {count1} copies of {val1} and {count2} copies of {val2}",
+    "compute the sum using multiplication of repeated values",
+    "Add 40 + 40 + 40 + 40 + 40 + 40 fast by grouping.",
+    "Find the quick total of a chart holding 25 copies of 100."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply first value by its count",
+     "explain": "Compute total contributed by the first group",
+     "compute": "group1_sum = count1 * val1"
+    },
+    {
+     "step": 2,
+     "action": "multiply second value by its count",
+     "explain": "Compute total contributed by the second group",
+     "compute": "group2_sum = count2 * val2"
+    },
+    {
+     "step": 3,
+     "action": "add group totals",
+     "explain": "Combine the sums of both groups to get overall total",
+     "compute": "total_sum = group1_sum + group2_sum"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.10.1",
+   "title": "Collatz Sequence Step",
+   "section": "3.10",
+   "definition": "An arithmetic transition where an even integer is halved and an odd integer is tripled and incremented by one.",
+   "formula": "next_val = n // 2 (if even) or 3 * n + 1 (if odd)",
+   "key_idea": "Halve even numbers and apply 3n + 1 to odd numbers until reaching 1.",
+   "textbook_ref": "fegp103.txt lines 380-410",
+   "question_patterns": [
+    "find the next term in a Collatz sequence for an even number {n}",
+    "find the next term in a Collatz sequence for an odd number {n}",
+    "calculate the successor of {n} using Collatz rule",
+    "what is the next number after {n} in the 3n + 1 sequence",
+    "Start from 7 and write the next three terms of the sequence.",
+    "How many steps does 6 need to reach 1?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply even rule",
+     "explain": "For an even input n, divide by 2",
+     "compute": "even_next = n // 2"
+    },
+    {
+     "step": 2,
+     "action": "apply odd rule",
+     "explain": "For an odd input n, multiply by 3 and add 1",
+     "compute": "odd_next = 3 * n + 1"
+    },
+    {
+     "step": 3,
+     "action": "select the correct successor",
+     "explain": "Use the even rule when n is even and the odd rule when n is odd to obtain the next term of the sequence"
+    }
+   ]
+  },
+  {
+   "id": "fegp.3.12.1",
+   "title": "Winning Strategy in Nim-type Addition Game",
+   "section": "3.12",
+   "definition": "Determining the crucial intermediate target numbers that guarantee a win in a turn-based addition game by using modulo arithmetic on the target and step limits.",
+   "formula": "first_move = target % (max_step + 1)",
+   "key_idea": "Control key positions that are congruent to the goal modulo one plus the maximum allowed step.",
+   "textbook_ref": "fegp103.txt lines 440-480",
+   "question_patterns": [
+    "find the winning opening number in the game of reaching {target} with max step {max_step}",
+    "calculate the first player's winning number for target {target} and step limit {max_step}",
+    "what number should player 1 say first to guarantee winning to {target}",
+    "determine the key position modulo step size for game target {target}",
+    "In a game to 50 saying 1-3 numbers per turn, which opening call wins?",
+    "Why does reaching 4, 8, 12 ... guarantee the win?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find divisor modulus",
+     "explain": "Add 1 to the maximum step allowed per turn",
+     "compute": "modulus = max_step + 1"
+    },
+    {
+     "step": 2,
+     "action": "compute initial target position",
+     "explain": "Compute target modulo the step increment modulus",
+     "compute": "first_move = target % modulus"
+    },
+    {
+     "step": 3,
+     "action": "confirm the winning strategy",
+     "explain": "If the remainder is nonzero the first player opens with it and then mirrors the opponent to stay on key positions; if zero the first player cannot force a win"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp103.txt lines 125-135",
+   "concept": "fegp.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find how many numbers have {digits} digits.",
+   "extracted_variables": {
+    "digits": "number of digits in the numeral"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine place multiplier",
+     "explain": "Raise 10 to the power of one less than the number of digits",
+     "compute": "multiplier = 10 ** (digits - 1)"
+    },
+    {
+     "step": 2,
+     "action": "compute total count",
+     "explain": "Multiply 9 by the place multiplier to obtain the total count",
+     "compute": "count = 9 * multiplier"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp103.txt lines 215-240",
+   "concept": "fegp.3.6.1",
+   "question_type": "compute",
+   "question_pattern": "For the digits of 6382, largest number is {largest_num} and smallest is {smallest_num}. Find their difference.",
+   "extracted_variables": {
+    "largest_num": "largest 4-digit number formed from digits",
+    "smallest_num": "smallest 4-digit number formed from digits"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute difference of arrangements",
+     "explain": "Subtract the smallest number from the largest number",
+     "compute": "difference = largest_num - smallest_num"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp103.txt lines 270-280",
+   "concept": "fegp.3.5.1",
+   "question_type": "compute",
+   "question_pattern": "What is the sum and difference of the smallest 5-digit palindrome {smallest_palindrome} and largest 5-digit palindrome {largest_palindrome}?",
+   "extracted_variables": {
+    "smallest_palindrome": "the smallest 5-digit palindromic integer",
+    "largest_palindrome": "the largest 5-digit palindromic integer"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the sum",
+     "explain": "Add the smallest palindrome to the largest palindrome",
+     "compute": "palindrome_sum = smallest_palindrome + largest_palindrome"
+    },
+    {
+     "step": 2,
+     "action": "calculate the difference",
+     "explain": "Subtract the smallest palindrome from the largest palindrome",
+     "compute": "palindrome_diff = largest_palindrome - smallest_palindrome"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fegp103.txt lines 281-285",
+   "concept": "fegp.3.7.1",
+   "question_type": "compute",
+   "question_pattern": "The time now is {curr_hour}:{curr_minute}. How many minutes until the clock shows the next palindromic time {next_hour}:{next_minute}?",
+   "extracted_variables": {
+    "curr_hour": "current clock hour",
+    "curr_minute": "current clock minute",
+    "next_hour": "next palindromic time hour",
+    "next_minute": "next palindromic time minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate hour difference in minutes",
+     "explain": "Find difference between next hour and current hour and convert to minutes",
+     "compute": "hour_diff_min = (next_hour - curr_hour) * 60"
+    },
+    {
+     "step": 2,
+     "action": "calculate minute difference",
+     "explain": "Find difference between next minute and current minute",
+     "compute": "minute_diff = next_minute - curr_minute"
+    },
+    {
+     "step": 3,
+     "action": "sum total minutes",
+     "explain": "Combine hour difference in minutes with minute difference",
+     "compute": "elapsed_minutes = hour_diff_min + minute_diff"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "fegp103.txt lines 440-455",
+   "concept": "fegp.3.12.1",
+   "question_type": "compute",
+   "question_pattern": "In a game to reach {target} by adding 1 to {max_step} on each turn starting from 0, what number should the first player pick to secure a win?",
+   "extracted_variables": {
+    "target": "target winning sum",
+    "max_step": "maximum addend permitted per turn"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find divisor modulus",
+     "explain": "Add 1 to the maximum step allowed per turn",
+     "compute": "modulus = max_step + 1"
+    },
+    {
+     "step": 2,
+     "action": "compute initial target position",
+     "explain": "Compute target modulo the step increment modulus",
+     "compute": "first_move = target % modulus"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.3.4.1",
+   "question_pattern": "How many {digits}-digit numbers exist?",
+   "extracted_variables": {
+    "digits": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the counting rule",
+     "explain": "9 x 10 ** 2 = 900",
+     "compute": "count = 9 * 10**(digits - 1)"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.4.1",
+   "question_pattern": "Calculate how many {digits}-digit numbers there are.",
+   "extracted_variables": {
+    "digits": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the counting rule",
+     "explain": "9 x 10 ** 1 = 90",
+     "compute": "count = 9 * 10**(digits - 1)"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.4.2",
+   "question_pattern": "Find the digit sum when the digits are {d1}, {d2} and {d3}.",
+   "extracted_variables": {
+    "d1": "3",
+    "d2": "4",
+    "d3": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add every digit",
+     "explain": "3 + 4 + 5 = 12",
+     "compute": "digit_sum = d1 + d2 + d3"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.4.2",
+   "question_pattern": "Add up all digits of the number made of {d1}, {d2}, {d3} and {d4}.",
+   "extracted_variables": {
+    "d1": "6",
+    "d2": "8",
+    "d3": "7",
+    "d4": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add every digit",
+     "explain": "6 + 8 + 7 + 5 = 26",
+     "compute": "digit_sum = d1 + d2 + d3 + d4"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.5.1",
+   "question_pattern": "Find the total of the smallest and largest 3-digit palindromes.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the extremes",
+     "explain": "101 and 999",
+     "compute": "smallest = 101"
+    },
+    {
+     "step": 2,
+     "action": "pair them up",
+     "explain": "101 + 999 = 1100",
+     "compute": "total = smallest + largest"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.5.1",
+   "question_pattern": "Find the gap between the largest and smallest 3-digit palindromes.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the extremes",
+     "explain": "999 and 101",
+     "compute": "largest = 999"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "999 - 101 = 898",
+     "compute": "difference = largest - smallest"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.6.1",
+   "question_pattern": "Run one round of the routine on {number}.",
+   "extracted_variables": {
+    "number": "4935"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the biggest arrangement",
+     "explain": "9854",
+     "compute": "biggest = 9854"
+    },
+    {
+     "step": 2,
+     "action": "build the smallest arrangement",
+     "explain": "4589",
+     "compute": "smallest = 4589"
+    },
+    {
+     "step": 3,
+     "action": "subtract",
+     "explain": "9854 - 4589 = 5265",
+     "compute": "difference = biggest - smallest"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.6.1",
+   "question_pattern": "One more round: arrange the digits of {number} both ways and subtract.",
+   "extracted_variables": {
+    "number": "5265"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the biggest arrangement",
+     "explain": "6552",
+     "compute": "biggest = 6552"
+    },
+    {
+     "step": 2,
+     "action": "build the smallest arrangement",
+     "explain": "2556",
+     "compute": "smallest = 2556"
+    },
+    {
+     "step": 3,
+     "action": "subtract",
+     "explain": "6552 - 2556 = 3996",
+     "compute": "difference = biggest - smallest"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.7.1",
+   "question_pattern": "How many minutes from {ch}:{cm} until the next palindrome {nh}:{nm}?",
+   "extracted_variables": {
+    "ch": "10",
+    "cm": "1",
+    "nh": "11",
+    "nm": "11"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert the gap",
+     "explain": "(11 - 10) x 60 + (11 - 1) = 70",
+     "compute": "elapsed_minutes = (next_hour - curr_hour) * 60 + (next_minute - curr_minute)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.7.1",
+   "question_pattern": "Find the minutes waited from {ch}:{cm} to palindromic {nh}:{nm}.",
+   "extracted_variables": {
+    "ch": "1",
+    "cm": "11",
+    "nh": "2",
+    "nm": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert the gap",
+     "explain": "(2 - 1) x 60 + (2 - 11) = 51",
+     "compute": "elapsed_minutes = (next_hour - curr_hour) * 60 + (next_minute - curr_minute)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.9.1",
+   "question_pattern": "A chart holds {c1} copies of {v1} and {c2} copies of {v2} -- find the quick total.",
+   "extracted_variables": {
+    "c1": "6",
+    "v1": "250",
+    "c2": "10",
+    "v2": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply each group",
+     "explain": "6 x 250 = 1500",
+     "compute": "part1 = count1 * val1"
+    },
+    {
+     "step": 2,
+     "action": "multiply the other group",
+     "explain": "10 x 100 = 1000",
+     "compute": "part2 = count2 * val2"
+    },
+    {
+     "step": 3,
+     "action": "add the groups",
+     "explain": "1500 + 1000 = 2500",
+     "compute": "total_sum = part1 + part2"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.9.1",
+   "question_pattern": "Add {c1} rows of {v1} plus {c2} rows of {v2} the fast way.",
+   "extracted_variables": {
+    "c1": "4",
+    "v1": "60",
+    "c2": "5",
+    "v2": "40"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply each group",
+     "explain": "4 x 60 = 240",
+     "compute": "part1 = count1 * val1"
+    },
+    {
+     "step": 2,
+     "action": "multiply the other group",
+     "explain": "5 x 40 = 200",
+     "compute": "part2 = count2 * val2"
+    },
+    {
+     "step": 3,
+     "action": "add the groups",
+     "explain": "240 + 200 = 440",
+     "compute": "total_sum = part1 + part2"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.10.1",
+   "question_pattern": "Find the next term after {n} (even, so halve it).",
+   "extracted_variables": {
+    "n": "14"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the even term",
+     "explain": "14 / 2 = 7",
+     "compute": "next_val = n / 2"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.10.1",
+   "question_pattern": "Find the next term after {n} (odd, so take 3n + 1).",
+   "extracted_variables": {
+    "n": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the odd rule",
+     "explain": "3 x 7 + 1 = 22",
+     "compute": "next_val = 3 * n + 1"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.12.1",
+   "question_pattern": "Target {target}, at most {max_step} per turn -- which opening call wins?",
+   "extracted_variables": {
+    "target": "23",
+    "max_step": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "reduce the target",
+     "explain": "23 % 4 = 3",
+     "compute": "first_move = target % (max_step + 1)"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.3.12.1",
+   "question_pattern": "Game to {target} with step limit {max_step}: find the winning opening number.",
+   "extracted_variables": {
+    "target": "30",
+    "max_step": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "reduce the target",
+     "explain": "30 % 5 = 0, so concede the opening; answer 5 for target 31",
+     "compute": "first_move = target % (max_step + 1)"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "fegp103.txt lines 20-30",
+   "questions": [
+    "Can the children rearrange themselves so that the children standing at the ends say 2?",
+    "Can we arrange the children in a line so that all would say only 0s?",
+    "Can two children standing next to each other say the same number?",
+    "There are 5 children in a group, all of different heights. Can they stand such that four of them say 1 and the last one says 0? Why or why not?",
+    "For this group of 5 children, is the sequence 1, 1, 1, 1, 1 possible?",
+    "Is the sequence 0, 1, 2, 1, 0 possible? Why or why not?",
+    "How would you rearrange the five children so that the maximum number of children say 2?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "fegp103.txt lines 45-75",
+   "questions": [
+    "Colour or mark the supercells in the 3 by 3 table containing 6828, 670, 9435, 3780, 3708, 7308, 8000, 5583, 52.",
+    "Can you fill a supercell table without repeating numbers such that there are no supercells? Why or why not?",
+    "Will the cell having the largest number in a table always be a supercell? Can the cell having the smallest number in a table be a supercell? Why or why not?",
+    "Fill a table such that the cell having the second largest number is not a supercell.",
+    "Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Is it possible?"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "fegp103.txt lines 135-160",
+   "questions": [
+    "Find out how many numbers have two digits, three digits, four digits, and five digits.",
+    "What is the smallest number whose digit sum is 14?",
+    "What is the largest 5-digit number whose digit sum is 14?",
+    "How big a number can you form having the digit sum of 14?",
+    "Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern?",
+    "Among the numbers 1-100, how many times will the digit 7 occur? Among the numbers 1-1000, how many times will the digit 7 occur?"
+   ]
+  },
+  {
+   "id": "ex3.7",
+   "source_ref": "fegp103.txt lines 265-290",
+   "questions": [
+    "Pratibha uses the digits 4, 7, 3, and 2, and makes the smallest and largest 4-digit numbers: 2347 and 7432. The difference is 5085 and sum is 9779. Choose 4 digits to make the difference greater than 5085.",
+    "What is the sum of the smallest and largest 5-digit palindrome? What is their difference?",
+    "The time now is 10:01. How many minutes until the clock shows the next palindromic time? What about the one after that?",
+    "How many rounds does the number 5683 take to reach the Kaprekar constant?"
+   ]
+  },
+  {
+   "id": "ex3.10",
+   "source_ref": "fegp103.txt lines 380-410",
+   "questions": [
+    "Check if the Collatz Conjecture holds for the starting number 100.",
+    "Recall the sequence of Powers of 2 from Chapter 1. Why is the Collatz conjecture correct for all starting numbers in this sequence?"
+   ]
+  },
+  {
+   "id": "ex3.12",
+   "source_ref": "fegp103.txt lines 440-485",
+   "questions": [
+    "The first player says 1, 2, or 3. Then players take turns adding 1, 2, or 3. The first player to reach 21 wins. Which player can always win if they play correctly?",
+    "Starting with 0, players alternate adding numbers between 1 and 3. The first person to reach 22 wins. What is the winning strategy now?",
+    "There is only one supercell in the given grid. If you exchange two digits of one of the numbers, there will be 4 supercells. Figure out which digits to swap."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

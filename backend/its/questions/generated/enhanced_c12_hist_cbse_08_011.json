@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_011",
+   "title": "c12_hist_cbse_08_011",
+   "questions": [
+    {
+     "q": "What were the two major seasonal crop cycles in Mughal India, and which staple crops dominated each?",
+     "a": "The two cycles were kharif (autumn harvest, sown with monsoon rains) dominated by rice, millets, and cotton, and rabi (spring harvest, sown in winter) dominated by wheat, barley, and gram. A wrong answer (e.g., naming only one cycle or confusing crops) reveals the student has not internalised the seasonal rhythm that structured peasant production and market supply.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state actively encourage peasants to cultivate jins-i kamil (cash crops) such as cotton and sugarcane?",
+     "a": "Cash crops yielded higher revenue per bigha because they were assessed at higher rates (often cash revenue) and had strong market demand, especially for export. A wrong answer (e.g., “for food security” or “to feed the army”) shows the student confuses subsistence goals with the state’s fiscal imperative to maximise jama.",
+     "self_check": true
+    },
+    {
+     "q": "A peasant in the Deccan grows cotton on 5 acres. Trace the complete chain of transactions from his field to a European buyer in 1650, naming the intermediaries and the form of payment at each stage.",
+     "a": "Peasant sells raw cotton at village haat to a banjara/grain merchant (payment: cash or advance) → merchant transports to qasba/wholesale market → sells to port-city broker (Surat) → broker sells to English/Dutch factor → factor ships to Europe. Payment flows back as silver rupees. A wrong answer that omits the banjara or the port broker, or assumes direct peasant-to-European sale, reveals a misunderstanding of the layered merchant hierarchy and the role of credit/advances.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic function of a village haat (mandi) with that of a port city like Surat in the Mughal trade network. How were they linked by the flow of goods and silver?",
+     "a": "Haat: periodic, local, mixed barter/cash, handled grain, livestock, raw cotton; linked peasants to regional merchants. Surat: permanent, maritime, monetised, handled bulk export of textiles/indigo, import of silver/horses; linked Indian merchants to European companies. Silver flowed from Surat inland via hundis and merchants to haats, where it became revenue-paying currency. A wrong answer that treats both as identical markets or ignores the silver return flow misses the core integration mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “The massive influx of silver into Mughal India (1550–1700) was an unqualified benefit for the agrarian economy.” Use evidence from the flow of silver and its effects on prices, revenue, and peasant life.",
+     "a": "Benefits: stable silver rupee facilitated cash revenue collection, expanded monetisation, enabled state to pay soldiers in cash. Costs: price inflation (especially grain) eroded real wages, increased revenue demand in cash forced peasants to sell more produce at harvest-time low prices, benefited merchants/moneylenders more than cultivators. A one-sided answer (only benefits or only costs) shows inability to weigh structural consequences — a key board/competitive skill.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a labelled diagram (describe in words) showing the circular flow of (a) agricultural goods, (b) silver coin, and (c) credit/advances between a village, a qasba mandi, a port city, and a European factory in the 1660s. Indicate the role of the zamindar and the state revenue official.",
+     "a": "Village → (grain, cotton) → Haat (zamindar collects market dues) → Qasba merchant (gives dadni/advance to peasant) → Port broker (issues hundi) → European factory (exports goods, imports silver) → Silver rupees minted → State revenue collector (demands cash jama) → Zamindar (pays revenue, lends to peasant) → Peasant (uses silver to pay revenue, buys salt/cloth) → back to village. A diagram missing the credit loop (dadni/hundi) or the revenue demand arrow shows the student sees trade as simple barter, not a monetised circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

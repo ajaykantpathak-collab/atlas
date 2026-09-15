@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_005",
+   "title": "c11_soc_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define the 'sacred' and the 'profane' in Durkheim's sociological framework. How are they fundamentally different from a simple 'holy vs. unholy' or 'good vs. evil' distinction?",
+     "a": "The sacred refers to things set apart and forbidden, inspiring awe and reverence, representing the collective ideals of society; the profane is the mundane, routine sphere of everyday life. The distinction is not moral (good/evil) but structural: the sacred/profane boundary maintains social cohesion by separating collective representation from individual utility. A wrong answer (e.g., \"sacred means holy, profane means sinful\") reveals a theological confusion—the student is importing a value judgment instead of seeing a sociological category of *social separation*.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sociology of religion is just studying what people believe about God.\" Using the NCERT distinction between theological and sociological study, explain why this statement is incomplete. Identify the three methodological pillars of the sociological approach.",
+     "a": "The statement reduces religion to private belief (theology). Sociology studies religion as a *social fact*: (1) **Empirical method**—observing how religion actually functions in society without judging truth claims; (2) **Comparative method**—placing all religions on the same analytical plane to avoid bias; (3) **Sociological perspective**—relating religious life to domestic, economic, and political life. A wrong answer that lists \"beliefs, rituals, gods\" shows the student is still describing *content* of religion, not the *method* of studying it sociologically.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the sacred/profane distinction to the following scenario: A family uses a specific brass vessel *only* for offering water to the Tulsi plant every morning; the same vessel is never used for cooking or drinking. One day, a guest accidentally uses it to drink water. The family reacts with horror and performs a purification ritual. Analyze this using the concepts of *sacred object*, *ritual*, and *boundary maintenance*.",
+     "a": "Step 1: Identify the sacred object—the brass vessel is *set apart* (sacred) by exclusive dedication to the deity (Tulsi). Step 2: Identify the profane intrusion—using it for drinking water collapses the boundary. Step 3: The horror reflects the violation of the sacred/profane separation, which threatens the symbolic order. Step 4: The purification ritual is a *restorative ritual* that re-establishes the boundary, reaffirming the collective definition of the sacred. A wrong answer focusing only on \"germs\" or \"respect\" misses the sociological point: the ritual repairs the *symbolic structure* of the group's reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Functionalist view (Durkheim) and the Conflict view (Marxist-inspired) on the role of religion in society. Use the example of *gender-differentiated rituals* (e.g., women barred from entering certain shrines, or specific fasts prescribed only for women) to illustrate how each perspective would interpret the *same* empirical fact.",
+     "a": "Functionalist: The gender-differentiated ritual reinforces social solidarity by affirming shared values and complementary roles; the restriction maintains ritual purity which integrates the community. Conflict: The ritual legitimizes patriarchal power; the \"purity\" ideology masks male control over sacred space and women's bodies, serving dominant (male) interests. A weak answer merely describes the ritual without linking it to *social cohesion* (functionalism) or *domination/ideology* (conflict). The error is treating perspectives as \"opinions\" rather than analytical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the secularisation thesis (religion declines with modernization) against contemporary Indian evidence. Consider: rising temple donations, televised religious channels, religion-based political mobilization, and the growth of new godmen/gurus. Does this evidence *falsify* the thesis, or does it require a *redefinition* of secularisation? Justify your position.",
+     "a": "The evidence does not simply falsify the thesis; it demands redefinition. Classical secularisation predicted *decline in significance*; instead, religion has *differentiated* (moved out of state control) but *intensified* in civil society. In India, secularisation means *state neutrality* (constitutional), not *social disappearance*. The growth of religious media and political mobilization shows religion adapting to modern institutions (market, democracy), not vanishing. A simplistic \"secularisation failed\" answer ignores the nuanced sociological debate about *public vs. private* religion and the Indian model of \"principled distance.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example of a 'secular ritual' in modern Indian life (e.g., a school assembly, a cricket match viewing, a Republic Day parade, a corporate onboarding ceremony) and analyze it using Durkheim's framework: identify the *sacred object*, the *ritual actions*, the *collective effervescence*, and the *social solidarity* it produces. Explain why Durkheim would call this 'religion in disguise.'",
+     "a": "Example: The morning school assembly. Sacred object: The National Flag / School Flag / Constitution Preamble. Ritual actions: Standing in rows, singing anthem, pledge, principal's address. Collective effervescence: Synchronized bodily discipline, shared emotion of pride/belonging. Social solidarity: Reinforces identity as 'students of X school' and 'citizens of India'. Durkheim would call this religion in disguise because it performs the *same structural function*—periodically reaffirming the collective conscience through sacred symbols—without supernatural reference. A poor answer lists activities without identifying the *symbolic condensation* of society into the flag/pledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

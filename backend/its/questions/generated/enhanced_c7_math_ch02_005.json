@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_005",
+   "title": "c7_math_ch02_005",
+   "questions": [
+    {
+     "q": "Which type of bracket must be evaluated first in an expression containing parentheses, curly brackets, and square brackets, such as `[ 10 + { 5 × ( 2 + 3 ) } ]`?",
+     "a": "The innermost parentheses `( )` must be evaluated first. A wrong answer like starting with square brackets `[ ]` reveals that the student does not understand the hierarchical rule of going from the inside out, treating all brackets as having equal priority.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expression `24 ÷ ( 3 + 5 )` does not equal `24 ÷ 3 + 5`. What role do the brackets play here?",
+     "a": "The brackets force the addition `(3 + 5)` to happen before division, giving `24 ÷ 8 = 3`, whereas without brackets, division happens first giving `8 + 5 = 13`. A wrong answer or confused explanation shows that the student treats brackets as optional cosmetic symbols rather than structural operators that change the entire mathematical value.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following expression step by step: `50 - [ 20 + { 12 - ( 5 + 3 ) } ]`.",
+     "a": "Step 1: Evaluate innermost parentheses `(5 + 3) = 8`. \nStep 2: Substitute back to get `50 - [ 20 + { 12 - 8 } ]`. \nStep 3: Evaluate curly brackets `{12 - 8} = 4`, yielding `50 - [ 20 + 4 ]`. \nStep 4: Evaluate square brackets `[20 + 4] = 24`. \nStep 5: Subtract `50 - 24 = 26`. \nA wrong answer, such as `38`, usually reveals that the student added instead of subtracted inside the curly brackets or ignored the order of bracket layers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions `( 12 + 8 ) × 2` and `12 + ( 8 × 2 )`. Without computing their full values first, analyze how the shift in bracket placement alters the final outcome based on priority rules.",
+     "a": "In the first expression, the brackets force addition first, resulting in `20 × 2 = 40`, because multiplication normally binds tighter than addition unless overridden. In the second expression, multiplication inside the brackets happens first, resulting in `12 + 16 = 28`. A wrong answer shows the student relies on left-to-right reading rather than recognizing how bracket grouping overrides standard operator precedence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student's work for the expression `36 ÷ [ 4 + { 3 × ( 2 + 1 ) } ]`. \nStudent's steps: \n1. `(2 + 1) = 3`\n2. `36 ÷ [ 4 + { 3 × 3 } ]` = `36 ÷ [ 4 + 9 ]` = `36 ÷ 13` (which doesn't divide evenly, so student stops). \nIdentify the error in the student's reasoning or arithmetic.",
+     "a": "The student's arithmetic steps are actually correct up to `36 ÷ 13`, but the question itself was transcribed or designed incorrectly by the student/teacher for whole number division, OR the student failed to notice if there was a miscalculation in copying. Wait, let's re-verify: `3 × 3 = 9`, `4 + 9 = 13`. If the expression was `36 ÷ [ 3 + { 3 × ( 2 + 1 ) } ]`, then `3 + 9 = 12`, and `36 ÷ 12 = 3`. A student who says the working is completely wrong when the steps followed the hierarchy shows they confuse an arithmetic constraint (non-integer division) with a procedural error in bracket reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a multi-bracket expression using parentheses and square brackets where the final evaluated answer is exactly `45`. Use at least three different arithmetic operations (`+`, `-`, `×`, `÷`).",
+     "a": "An expected valid response is `[ 100 - { 10 × ( 2 + 3 ) } ] - 5` or `5 × [ 3 + ( 6 ÷ 2 ) ]`. A poor answer would be a simple expression without brackets or one that evaluates to a completely different number, showing a failure to work backward from a target number using grouped operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "catalog": "catalog_class12_home_science_lehe201",
+ "concepts": [
+  {
+   "id": "lehe201.1",
+   "title": "Meaning of Design: Structural and Applied",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Design: Structural and Applied' refers to.",
+     "a": "Design is planned creation for a purpose, not mere decoration; structural design grows out of the object itself -- fibre, yarn, weave, or the basic cut of a garment -- while applied design is laid on top through finishes, dyeing, printing, embroidery, trims and fasteners.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Design: Structural and Applied'.",
+     "a": "True harmony arrives only when beauty is welded to usefulness; a pretty but unusable object is badly designed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning of Design: Structural and Applied', in plain ASCII form.",
+     "a": "design = structural base plus applied overlay",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.2",
+   "title": "Elements and Principles of Design",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elements and Principles of Design' refers to.",
+     "a": "The elements -- colour, texture, line, shape or form -- are the tools of the art, while the principles -- harmony, balance, rhythm, proportion and emphasis -- are the rules for blending those tools into an appealing whole.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elements and Principles of Design'.",
+     "a": "A composition results when selected elements are placed by chosen principles in a given two or three dimensional space.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Elements and Principles of Design', in plain ASCII form.",
+     "a": "elements as tools worked through principles as rules",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.3",
+   "title": "Colour: Hue, Value and Intensity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colour: Hue, Value and Intensity' refers to.",
+     "a": "Colour is the eye's response to light reflected off a surface, read along three dimensions: hue, the colour's name; value, its lightness or darkness as tint or shade; and intensity or chroma, its brightness and purity, dulled by blending in the opposite hue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colour: Hue, Value and Intensity'.",
+     "a": "The wheel starts from three primaries -- red, yellow, blue -- mixing to secondaries and six tertiaries, while white, black and greys stand apart as achromatic neutrals.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colour: Hue, Value and Intensity', in plain ASCII form.",
+     "a": "colour = hue plus value plus intensity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.4",
+   "title": "Colour Schemes and Harmonies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colour Schemes and Harmonies' refers to.",
+     "a": "Related schemes share at least one hue -- monochromatic, achromatic, accented neutral and analogous -- while contrasting schemes set hues apart through complementary, split complementary, double complementary, analogous complementary and triadic pairings read off the colour wheel.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colour Schemes and Harmonies'.",
+     "a": "A scheme only proposes hues; the designer still decides values, intensities and quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colour Schemes and Harmonies', in plain ASCII form.",
+     "a": "scheme choice -- related shares a hue, contrasting opposes hues",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.5",
+   "title": "Texture in Fabrics and Dress",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Texture in Fabrics and Dress' refers to.",
+     "a": "Texture is what a material looks like, how it behaves and how it feels; in textiles it is fixed by the fibre content, yarn processing and type, construction technique, finishes and surface ornamentation, and in dress it must flatter the figure, silhouette and occasion.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Texture in Fabrics and Dress'.",
+     "a": "Heavy bulky textures overpower a petite frame, so texture choices must serve the wearer's build.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Texture in Fabrics and Dress', in plain ASCII form.",
+     "a": "texture = sight plus behaviour plus touch",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.6",
+   "title": "Line and Its Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Line and Its Types' refers to.",
+     "a": "A line joins two points and carries direction and mood: vertical lines stress height with a severe dignity, horizontal lines suggest width, calm and stability, diagonal lines dramatise by stretching or squeezing both, while curved lines from restrained arcs to circular sweeps read as soft, graceful and feminine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Line and Its Types'.",
+     "a": "Straight line dominance gives a masculine force; flowing curves lend grace and rhythm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Line and Its Types', in plain ASCII form.",
+     "a": "line types -- straight vertical, horizontal, diagonal plus curved restrained to circular",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.7",
+   "title": "Shapes, Forms and Patterns",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Shapes, Forms and Patterns' refers to.",
+     "a": "Connecting lines builds shapes, two dimensional on cloth or three dimensional on the body; the four basic groups are natural, stylised, geometric and abstract, and grouping shapes yields patterns whose placement or repeat finishes a fabric design.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shapes, Forms and Patterns'.",
+     "a": "In apparel, shape and form appear as silhouette, cut and detailing; in fabric, as drape, motif and repeat.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Shapes, Forms and Patterns', in plain ASCII form.",
+     "a": "shapes from lines; patterns from grouped shapes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.8",
+   "title": "Proportion and the Golden Mean",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Proportion and the Golden Mean' refers to.",
+     "a": "Proportion governs how one part of a design relates to another and to the whole; the classical guide is the golden mean, which splits a garment in uneven ratios such as 3:5:8 or 5:8:13 at waistline, yoke and hemline, and extends to colour, texture and motif size as well.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proportion and the Golden Mean'.",
+     "a": "Unequal horizontal divisions slim the figure while equal halves shorten and widen it; a high waist bodice can hide abdominal fullness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Proportion and the Golden Mean', in plain ASCII form.",
+     "a": "golden mean ratios -- 3 to 5 to 8 up to 5 to 8 to 13",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.9",
+   "title": "Balance in Dress",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Balance in Dress' refers to.",
+     "a": "Balance equals the visual weight on either side of a garment's centre, vertically and horizontally; formal balance mirrors the symmetrical body and feels stable though monotonous, informal balance evens unequal parts by placement, and radial balance flows out from a centre point.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance in Dress'.",
+     "a": "Horizontal balance corrects figure problems, for instance a dark hue over a large area.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance in Dress', in plain ASCII form.",
+     "a": "balance types -- formal plus informal plus radial",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.10",
+   "title": "Emphasis and the Focal Point",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Emphasis and the Focal Point' refers to.",
+     "a": "Emphasis plants the spot where the eye lands first -- through contrast of colour, unusual shape, line, detailing or accessories -- and smart dressing aims it at the face or at a figure strength while steering it away from a problem zone.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Emphasis and the Focal Point'.",
+     "a": "A bright belt celebrates a small waist, while a hip belt on full hips only advertises them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Emphasis and the Focal Point', in plain ASCII form.",
+     "a": "emphasis = one dominant focal area per garment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.11",
+   "title": "Rhythm in Design",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rhythm in Design' refers to.",
+     "a": "Rhythm repeats lines, colours or details so the eye travels easily across the garment; it arises through repetition of trims, gradation or cordation of motif sizes, radiation from gathers at waist or cuff, and parallelism of tucks or pleats.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rhythm in Design'.",
+     "a": "Ordered movement of the eye is what turns scattered detail into visual unity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rhythm in Design', in plain ASCII form.",
+     "a": "rhythm routes -- repetition plus gradation plus radiation plus parallelism",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.12",
+   "title": "Harmony and Composition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Harmony and Composition' refers to.",
+     "a": "Harmony is the agreement of every element -- shape matching shape, texture suiting texture across kurta, salwar and dupatta -- and a composition is the final artwork built by placing elements through chosen principles in a two or three dimensional space.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Harmony and Composition'.",
+     "a": "A silk kurta with a cotton dupatta breaks textural harmony; one square pocket can break shape harmony of curved collar and cuffs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Harmony and Composition', in plain ASCII form.",
+     "a": "harmony = all elements agreeing; composition = elements plus principles in a space",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.13",
+   "title": "Careers in Fabric and Apparel Design",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Careers in Fabric and Apparel Design' refers to.",
+     "a": "The field splits into fabric design, which demands command of fibre characteristics, processing and dyeing behaviour, and apparel design; training runs from certificates and diplomas to bachelor degrees, and textile designers work in industry, fashion houses, design agencies or freelance, tracking trends ahead of the curve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Careers in Fabric and Apparel Design'.",
+     "a": "Apparel textile designs turn over faster than furnishing designs, so trend awareness is a job requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Careers in Fabric and Apparel Design', in plain ASCII form.",
+     "a": "career base -- fibre knowledge plus dyeing knowledge plus design principles",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.14",
+   "title": "Golden Mean Arithmetic",
+   "questions": [
+    {
+     "q": "Find the percentage share of the smaller section when a garment is divided in golden mean units. Use the method 'Golden Mean Arithmetic'. Work with: large_units = 500, part_units = 240, small_units = 20. Carry the chain through step by step and give the final value of part_pct.",
+     "a": "46.1538 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Calculate each part's per cent of the whole for a 3 to 5 division at the waistline. Use the method 'Golden Mean Arithmetic'. Work with: large_units = 500, part_units = 6, small_units = 120. Carry the chain through step by step and give the final value of part_pct.",
+     "a": "0.9677 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Golden Mean Arithmetic' refers to.",
+     "a": "When a garment divides on golden mean units, any part's share of the whole is its unit count over the combined units, scaled to a percentage -- the arithmetic behind a pleasing 3:5 blouse and skirt split.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Golden Mean Arithmetic'.",
+     "a": "The 3:5 split gives the blouse 37.5 per cent of the whole; the shirt-pant 5:8 split gives the shirt about 38.5 per cent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Golden Mean Arithmetic', in plain ASCII form.",
+     "a": "part_pct = part_units / (small_units + large_units) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe201.15",
+   "title": "Grey Scale Position",
+   "questions": [
+    {
+     "q": "Compute the distance from white for any hue given its grade on the value chart. Use the method 'Grey Scale Position'. Work with: hue_grade = 80, white_grade = 300. Carry the chain through step by step and give the final value of distance_from_white.",
+     "a": "220 units",
+     "self_check": false
+    },
+    {
+     "q": "Find how many grades separate a shade at grade 4 from the white end. Use the method 'Grey Scale Position'. Work with: hue_grade = 3, white_grade = 20. Carry the chain through step by step and give the final value of distance_from_white.",
+     "a": "17 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Grey Scale Position' refers to.",
+     "a": "The value chart runs through eleven grades from black at zero to white at ten with grey as the mid value; a hue's distance below white is the white grade minus its own grade, telling whether it sits in shade or tint territory.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Grey Scale Position'.",
+     "a": "Grades below five are shades approaching black, grades above five are tints approaching white.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Grey Scale Position', in plain ASCII form.",
+     "a": "distance_from_white = white_grade - hue_grade",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

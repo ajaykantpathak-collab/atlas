@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_003",
+   "title": "c11_bs_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the legal definition of partnership as per Section 4 of the Indian Partnership Act, 1932.",
+     "a": "Partnership is the relation between persons who have agreed to share the profits of a business carried on by all or any one of them acting for all. A wrong answer (e.g., \"an agreement to share losses\" or \"a registered firm\") reveals the student confuses partnership with a company or ignores the mutual agency element (\"acting for all\") which is the legal hallmark distinguishing partnership from mere profit-sharing arrangements like employee profit-sharing schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Two classmates, Aisha and Vikram, agree to buy and sell used textbooks online. They split profits equally but have no written agreement. Vikram handles purchases; Aisha handles sales. A supplier delivers books to Vikram on credit. The business fails. The supplier sues Aisha for the full debt. Aisha argues she didn't order the books. Is Aisha liable? Explain using the concept of mutual agency.",
+     "a": "Yes, Aisha is liable for the full debt. Mutual agency means every partner is both an agent and principal: Vikram's act of ordering binds the firm and all partners. A wrong answer (\"Aisha isn't liable because she didn't order\") shows the student misses that mutual agency makes each partner's acts binding on all, regardless of internal role division. This is a critical distinction from employer-employee relationships where only authorised acts bind the employer.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm has three partners: Meena (active), Karim (sleeping), and Leila (nominal). The firm takes a loan of ₹10 lakh from a bank. The firm defaults. The bank recovers ₹4 lakh from firm assets. The remaining ₹6 lakh must be recovered from partners. How much can the bank legally demand from Leila? Justify.",
+     "a": "The bank can demand the full ₹6 lakh from Leila alone. In a general partnership, liability is joint and several: each partner is liable for the entire debt regardless of partner type (active, sleeping, nominal). Leila's nominal status (no capital, no management, no profit share) does not limit her liability to third parties. A wrong answer (\"Leila pays only her profit-sharing ratio\" or \"Leila pays nothing\") reveals confusion between internal profit-sharing ratios and external unlimited joint-and-several liability — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Partnership at Will\" and \"Particular Partnership\" on the basis of: (a) duration, (b) mode of dissolution, (c) suitability for a construction project vs. a retail shop. Present as a table.",
+     "a": "| Basis | Partnership at Will | Particular Partnership |\n|-------|---------------------|------------------------|\n| Duration | No fixed period; continues at partners' will | Fixed period or specific venture (e.g., build a mall) |\n| Dissolution | Any partner can give notice to dissolve | Auto-dissolves on venture completion or time expiry |\n| Suitability | Retail shop (ongoing) | Construction project (definite end) |\nA wrong answer (e.g., \"particular partnership ends only by notice\") shows inability to link legal structure to business purpose — examiners often ask \"which type for a 2-year software project?\" expecting \"particular partnership.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"Limited Partnership is superior to General Partnership because it protects all partners with limited liability.\" Evaluate this statement. Is it true for the Indian context under the Companies (Miscellaneous) Rules, 2014?",
+     "a": "The statement is false. In a Limited Partnership (India), at least ONE partner must have unlimited liability (general partner); only limited partners enjoy liability capped at their capital contribution. General Partnership imposes unlimited liability on ALL partners. A student claiming \"limited partnership protects everyone\" confuses it with a Limited Liability Partnership (LLP) or a company — a common error because the term \"limited\" misleads. Board questions often test: \"Can a limited partnership exist with all partners having limited liability?\" Answer: No.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) involving four friends starting a digital marketing agency. Assign each a different partner type (active, sleeping, secret, nominal). Specify capital, role, profit share, and liability for each. Ensure the scenario respects legal constraints (e.g., nominal partner cannot share profits).",
+     "a": "Example: \"Arjun (active) invests ₹10L, manages clients, 40% profit, unlimited liability. Priya (sleeping) invests ₹15L, no daily role, 30% profit, unlimited liability. Karan (secret) invests ₹5L, secretly strategises, 20% profit, unlimited liability. Neha (nominal) lends her reputation, invests ₹0, 0% profit, unlimited liability to third parties.\" A poor case (e.g., nominal partner getting profit share) reveals misunderstanding that nominal partners by definition do not share profits/losses — only liability. This tests synthesis of all partner types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

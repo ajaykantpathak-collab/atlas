@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_009",
+   "title": "c10_math_cbse_13_009",
+   "questions": [
+    {
+     "q": "List the three methods for finding the mean of grouped data and state one specific condition when each method is most efficient.",
+     "a": "The three methods are:\n1. Direct Method — most efficient when class marks (xi) and frequencies (fi) are small numbers (e.g., xi < 50, fi < 20).\n2. Assumed Mean Method — most efficient when xi are large but class intervals are unequal, or when deviations di = xi – A are manageable.\n3. Step-Deviation Method — most efficient when class intervals are equal (common width h) and xi are large, because ui = (xi – A)/h simplifies calculations.\n\nA wrong answer (e.g., \"Step-Deviation works for any data\") reveals the student does not understand the equal-interval prerequisite for Step-Deviation and may attempt to force it on unequal intervals, leading to incorrect results.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Step-Deviation method cannot be used when class intervals are of unequal width. Use the formula ui = (xi – A)/h in your explanation.",
+     "a": "The Step-Deviation method defines ui = (xi – A)/h, where h is the common class width. If intervals are unequal, there is no single h that works for all classes; each class would need its own h, destroying the simplification that makes the method efficient. The formula Σfi ui / Σfi multiplied by h assumes a constant h. Using a variable h would give a weighted average of different scales, not the true mean.\n\nA wrong answer (e.g., \"We can just take the average h\") shows the student treats h as a flexible parameter rather than a structural requirement, indicating a lack of conceptual understanding of the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "For the following frequency distribution, which method would you choose? Justify your choice in one sentence.\nClass: 0–10, 10–20, 20–30, 30–40, 40–50\nFrequency: 5, 8, 12, 7, 3",
+     "a": "Choose the Direct Method. The class marks (5, 15, 25, 35, 45) and frequencies are small; products fi xi are easy to compute without any simplification. Assumed Mean or Step-Deviation would add unnecessary steps.\n\nA wrong choice (e.g., \"Step-Deviation because intervals are equal\") reveals the student applies a rule mechanically without considering the magnitude of numbers. Step-Deviation is overkill here and increases the chance of arithmetic errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two distributions and state the best method for each:\nDistribution A: Class 100–120, 120–140, 140–160; Frequency 10, 15, 5\nDistribution B: Class 100–120, 120–150, 150–190; Frequency 10, 15, 5",
+     "a": "Distribution A has equal class width (h = 20) → Step-Deviation is best (ui = (xi – 130)/20 gives small integers).\nDistribution B has unequal widths (20, 30, 40) → Step-Deviation cannot be used; Assumed Mean is best (choose A = 135, compute di = xi – 135).\n\nA wrong answer that suggests Step-Deviation for B shows the student overlooks unequal intervals. A wrong answer that suggests Direct Method for A shows the student ignores the simplification offered by equal intervals.",
+     "self_check": true
+    },
+    {
+     "q": "A student computed the mean of a distribution with equal class intervals of width 10 using the Assumed Mean method and got 62.4. Another student used the Step-Deviation method on the same data and got 62.4. A third student used the Direct Method and got 62.5. Evaluate: which answer is likely correct? Explain how you would verify without redoing all calculations.",
+     "a": "The Direct Method is the most fundamental and least prone to algebraic manipulation errors; its result (62.5) is the benchmark. The two students who got 62.4 likely made the same rounding or arithmetic error (e.g., using a wrong assumed mean or miscomputing ui). To verify quickly: check if Σfi ui / Σfi × h + A equals the Direct Method result using exact fractions. If the Step-Deviation calculation used integer ui, the result must be exactly the same as Direct Method (since it's algebraically equivalent). The discrepancy indicates a computational mistake in the Assumed Mean/Step-Deviation working.\n\nA wrong evaluation (e.g., \"majority wins, so 62.4 is correct\") reveals the student does not understand that all three methods are mathematically equivalent and must yield identical results when done correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 classes where the Step-Deviation method is the only efficient choice, and explain why Direct and Assumed Mean would be cumbersome.",
+     "a": "Example:\nClass: 1000–1010, 1010–1020, 1020–1030, 1030–1040, 1040–1050\nFrequency: 12, 18, 25, 20, 15\nClass marks: 1005, 1015, 1025, 1035, 1045 (large numbers).\nDirect Method: fi xi products are huge (e.g., 12×1005 = 12060) → tedious.\nAssumed Mean: di = xi – 1025 are multiples of 10 but still two-digit numbers; Σfi di requires careful addition.\nStep-Deviation: h = 10, ui = (xi – 1025)/10 → -2, -1, 0, 1, 2 → tiny integers, minimal arithmetic.\n\nA poor answer (e.g., any distribution with small numbers or unequal intervals) shows the student cannot synthesize the conditions that make Step-Deviation uniquely advantageous.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

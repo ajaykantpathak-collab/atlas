@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_005",
+   "title": "c12_ip_cbse_06_005",
+   "questions": [
+    {
+     "q": "What is the purpose of the `name` attribute on an `<input>` element, and what happens if you omit it?",
+     "a": "The `name` attribute is the key under which the input's value is sent to the server during form submission. If omitted, that input's data is **not included** in the form data payload at all — the server receives nothing for that field. A wrong answer (e.g., \"it's for CSS styling\" or \"it's the label text\") reveals the student confuses `name` with `id` (used for labeling/JS) or `placeholder` (UI hint), and doesn't understand the client-server data contract.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `<label for=\"email\">Email:</label> <input type=\"email\" id=\"email\">` and `<label>Email: <input type=\"email\"></label>`. Which is better for accessibility and why?",
+     "a": "Both associate the label with the input, but the first (explicit) uses `for`/`id` matching while the second (implicit) wraps the input inside the label. The explicit method is **better for accessibility** because some screen readers and older assistive technologies only reliably announce labels linked via `for`/`id`; wrapping can fail in complex layouts (e.g., when input is inside a different container). A wrong answer claiming \"they're identical\" or \"wrapping is better because less code\" shows the student hasn't tested with assistive tech and misses the robustness requirement in WCAG.",
+     "self_check": true
+    },
+    {
+     "q": "A form has `method=\"get\"` and `action=\"/search\"`. The user enters \"informatics practices\" in a text input named `q` and clicks submit. Write the exact URL the browser navigates to, and explain why spaces become `+` or `%20`.",
+     "a": "The browser navigates to `/search?q=informatics+practices` (or `%20` instead of `+`). With `method=\"get\"`, form data is appended to the `action` URL as a query string: `?` followed by `name=value` pairs separated by `&`. Spaces are not allowed in URLs, so they are percent-encoded: `+` (application/x-www-form-urlencoded legacy) or `%20` (RFC 3986 standard). A wrong answer like `/search q=informatics practices` (no `?`, no encoding) reveals the student doesn't understand HTTP GET request structure or URL encoding rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `type=\"radio\"` and `type=\"checkbox\"` for a \"Select your course\" field where the user must choose exactly one of: Science, Commerce, Humanities. Which input type is correct, and what HTML attribute **must** be identical across all options to enforce single selection?",
+     "a": "Use `type=\"radio\"` — radio buttons enforce **mutually exclusive** selection (only one in a group can be checked). The `name` attribute **must be identical** (e.g., `name=\"course\"`) for all three radio inputs; this groups them so the browser deselects the previous when a new one is chosen. Using `checkbox` would allow multiple selections (wrong for \"exactly one\"), and using different `name` values would break the grouping (all could be checked simultaneously). A wrong answer choosing `checkbox` or suggesting `id` groups them shows confusion between grouping mechanism (`name`) and unique identification (`id`).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a file upload form: `<form action=\"/upload\" method=\"post\"> <input type=\"file\" name=\"photo\"> <button type=\"submit\">Upload</button> </form>`. The file never reaches the server. Identify the missing form attribute, explain why it's required, and state the exact value it must have.",
+     "a": "Missing: `enctype=\"multipart/form-data\"` on the `<form>`. Default encoding (`application/x-www-form-urlencoded`) cannot transmit binary file data — it only handles text key-value pairs. `multipart/form-data` splits the request body into MIME parts, each with its own headers (Content-Disposition, Content-Type), allowing binary files to be sent intact. Without it, the server receives an empty or corrupted file field. A wrong answer suggesting `method=\"get\"` (files **cannot** be uploaded via GET) or `enctype=\"text/plain\"` (not standard for files) reveals the student doesn't understand HTTP request body encoding mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal but complete HTML form for a \"Library Book Suggestion\" feature. Requirements: (1) Book title (required text), (2) Author (required text), (3) Genre (dropdown: Fiction, Non-Fiction, Science, History, Other), (4) Your name (optional text), (5) Anonymous checkbox (if checked, hide name field via HTML only — no JS), (6) Submit button. Write the full HTML. Explain how you'd handle the \"anonymous hides name\" requirement **without JavaScript**.",
+     "a": "**HTML:**\n```html\n<form action=\"/suggest\" method=\"post\">\n  <label for=\"title\">Book Title *</label>\n  <input type=\"text\" id=\"title\" name=\"title\" required>\n\n  <label for=\"author\">Author *</label>\n  <input type=\"text\" id=\"author\" name=\"author\" required>\n\n  <label for=\"genre\">Genre *</label>\n  <select id=\"genre\" name=\"genre\" required>\n    <option value=\"\">Select...</option>\n    <option value=\"fiction\">Fiction</option>\n    <option value=\"non-fiction\">Non-Fiction</option>\n    <option value=\"science\">Science</option>\n    <option value=\"history\">History</option>\n    <option value=\"other\">Other</option>\n  </select>\n\n  <fieldset>\n    <legend>Your Details</legend>\n    <label for=\"anonymous\">Post anonymously</label>\n    <input type=\"checkbox\" id=\"anonymous\" name=\"anonymous\" value=\"1\">\n\n    <label for=\"name\">Your Name</label>\n    <input type=\"text\" id=\"name\" name=\"name\">\n  </fieldset>\n\n  <button type=\"submit\">Suggest</button>\n</form>\n```\n**No-JS \"anonymous hides name\":** Pure HTML/CSS cannot *conditionally hide* a field based on checkbox state — that requires JavaScript (covered in c12_ip_cbse_06_011/012). The correct answer: **\"This cannot be done with HTML alone; you need JavaScript to toggle `hidden` or `display: none` on the name field when the checkbox changes. In HTML-only, you'd either (a) always show name but make it optional, or (b) use two separate forms/pages.\"** A student who claims `required` on name + checkbox logic works in HTML reveals they confuse client-side validation with dynamic DOM manipulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

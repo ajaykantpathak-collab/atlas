@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_008",
+   "title": "c11_ip_cbse_03_008",
+   "questions": [
+    {
+     "q": "Write the exact syntax of a while loop in Python, including the colon and indentation requirements. What happens if the colon is omitted?",
+     "a": "Correct syntax: `while condition:\\n    statement(s)`. The colon is mandatory; omitting it raises a SyntaxError because Python uses the colon to mark the start of an indented block. A wrong answer (e.g., missing colon, wrong indentation, or using curly braces) reveals the student confuses Python's block structure with languages like C++ or Java, or doesn't understand that indentation is syntactic, not cosmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code prints nothing: `i = 5\\nwhile i < 3:\\n    print(i)\\n    i = i + 1`. What would happen if the condition were `i > 3` instead?",
+     "a": "The condition `i < 3` is False initially (5 < 3 is False), so the loop body never executes — this is the entry-controlled nature of while. If changed to `i > 3`, the condition is True initially, but `i` increases each iteration (5,6,7...), so the condition remains True forever, causing an infinite loop. A wrong answer (e.g., \"it prints 5 once\" or \"it stops when i becomes 3\") shows the student doesn't grasp that the condition is evaluated before each iteration and that the update must move the variable toward making the condition False.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the execution of this code and write the exact output:\n`count = 1\\nwhile count <= 4:\\n    print(count * 2)\\n    count = count + 1`",
+     "a": "Step-by-step trace:\nIteration 1: count=1, condition 1<=4 True → print 2 → count becomes 2\nIteration 2: count=2, condition 2<=4 True → print 4 → count becomes 3\nIteration 3: count=3, condition 3<=4 True → print 6 → count becomes 4\nIteration 4: count=4, condition 4<=4 True → print 8 → count becomes 5\nIteration 5: count=5, condition 5<=4 False → loop ends\nOutput: 2, 4, 6, 8 (each on new line). A wrong answer (e.g., missing 8, including 10, or wrong order) reveals off-by-one errors in tracing or misunderstanding that the update happens after the body but before the next condition check.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flowchart of a while loop with that of an if statement. Identify the structural difference that enables repetition, and explain why the update statement must be placed inside the loop body, not after the loop.",
+     "a": "Both have a diamond decision box, but the while loop has a backward arrow from the body to the condition (creating a cycle), whereas the if statement has only forward arrows. The update must be inside the body so it executes every iteration; if placed after the loop, it would run only once after the loop ends, leaving the condition unchanged during repetitions and causing an infinite loop. A wrong answer (e.g., \"update can be anywhere\" or \"if also has a cycle\") shows the student cannot distinguish selection from iteration structurally.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this loop to calculate the sum of first n natural numbers: `n = int(input())\\nsum = 0\\ni = 1\\nwhile i <= n:\\n    sum = sum + i\\nprint(sum)`. Evaluate this code: will it work correctly? If not, identify the error and explain why it causes incorrect output.",
+     "a": "The code has a critical error: the update `i = i + 1` is missing inside the loop. Without it, `i` remains 1 forever, the condition `i <= n` stays True (for n>=1), and the loop runs infinitely, continuously adding 1 to sum. The correct code must have `i = i + 1` indented inside the while block. A student who says \"it works\" or \"it gives wrong sum but terminates\" fails to recognize that missing update → infinite loop, not just wrong calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a while loop that reads integers from the user until they enter a negative number, then prints the count of positive numbers entered. Write the complete Python code with proper initialization, condition, and update. Explain how your condition handles the first input being negative.",
+     "a": "```python\ncount = 0\nnum = int(input(\"Enter a number: \"))\nwhile num >= 0:\n    count = count + 1\n    num = int(input(\"Enter a number: \"))\nprint(\"Positive numbers entered:\", count)\n```\nIf the first input is negative, the condition `num >= 0` is False immediately, the body never runs, count stays 0, and it correctly prints 0. A poor answer (e.g., using `while True` with break, or initializing `num = 0` causing an extra iteration) shows the student cannot structure the priming read and loop condition to handle edge cases correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

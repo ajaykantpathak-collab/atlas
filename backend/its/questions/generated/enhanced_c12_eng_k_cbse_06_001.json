@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_001",
+   "title": "c12_eng_k_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define \"metaphysical poetry\" and name two characteristics that distinguish it from Elizabethan lyric poetry.",
+     "a": "Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits (unlikely comparisons), argumentative structure, and a fusion of thought and feeling. Two distinguishing characteristics: (1) use of startling, intellectual conceits (e.g., comparing lovers to a compass), and (2) dramatic, colloquial openings that mimic speech rather than musical lyricism. A wrong answer that only mentions \"philosophical themes\" misses the formal innovation — metaphysical poetry is defined by *how* it thinks, not just *what* it thinks about.",
+     "self_check": true
+    },
+    {
+     "q": "In \"A Lecture Upon the Shadow,\" the poet describes three hours of walking where \"Two shadowes went / Along with us.\" Explain what these morning shadows represent in the conceit, and why they disappear at noon.",
+     "a": "The morning shadows represent the disguises, pretences, and hidden cares of early love (\"infant loves\") — when lovers conceal their true selves and project false images to each other and the world. At noon, the sun is directly overhead, so shadows vanish beneath the objects casting them; this represents \"brave clearnesse\" where love matures into transparency and authenticity. A wrong answer that says shadows represent \"problems\" or \"sadness\" misses the specific metaphysical logic: shadows are *produced by the lovers themselves* (\"which we our selves produc'd\") as active disguises, not external obstacles.",
+     "self_check": true
+    },
+    {
+     "q": "The poem warns: \"Except our loves at this noone stay, / We shall new shadowes make the other way.\" Apply the conceit: what do these \"new shadowes\" represent, and why do they \"worke upon our selves, and blind our eyes\"?",
+     "a": "The afternoon shadows represent the self-deceptions and hypocrisies that emerge when love declines (\"westwardly decline\"). Unlike morning shadows that blinded *others*, these longer shadows fall on the lovers themselves — they blind *their own eyes* because fading love makes them disguise their actions (\"mine actions shall disguise\") and accuse each other falsely (\"To me thou, falsely thine\"). A wrong answer that treats afternoon shadows as merely \"longer problems\" fails to see the reversal: the deceit turns inward, corrupting the lovers' self-knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why Donne titles the poem \"A Lecture Upon the Shadow\" rather than \"A Lecture Upon Love.\" How does this title shape the reader's approach to the central argument?",
+     "a": "The title shifts focus from the abstract emotion (love) to the concrete, observable phenomenon (shadows) that structures the poem's logic. It signals that love will be *understood through* the shadow conceit — not described directly. The word \"Lecture\" frames the poem as an intellectual demonstration, consistent with metaphysical wit. A wrong answer that says \"shadows are just a metaphor\" misses the title's function: it announces the poem's method — love is known *only* by tracing the shadow's behavior across the day. The title makes the conceit the *organizing principle*, not mere decoration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Donne's poem argues that perfect, constant love is impossible for humans.\" Use the poem's final couplet (\"Love is a growing, or full constant light; / And his first minute, after noone, is night.\") to support your judgment.",
+     "a": "The claim is partially defensible but incomplete. The couplet presents a stark binary: love must be *either* \"growing\" (morning, increasing) *or* \"full constant light\" (noon, perfected) — any deviation into \"after noone\" (decline) makes \"first minute... night\" (immediate death of love). This suggests constant love is an ideal that, once lost, cannot be recovered — implying human fragility. However, the poem *addresses* the beloved to *prevent* this decline (\"Stand still... Except our loves at this noone stay\"), implying the lecture's purpose is to *achieve* constancy through vigilance. A wrong answer that says \"Donne is pessimistic\" ignores the imperative mood — the poem is a warning *to sustain* noon, not a declaration of its impossibility.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in Donne's metaphysical style that uses a scientific or geometric conceit (like a compass, alchemy, or astronomy) to argue that true love requires both separation and connection. Use archaic spelling for at least two words.",
+     "a": "*Example:*\n\"Our soules two spheres, distinct yet concentricke,\nDrawe perfect circles round one fixed centre;\nThough distance stretch the radius, the linke\nRemaines unbroken — love's geometrie.\"\n*Criteria:* Must use an intellectual conceit (geometry/astronomy), argue the separation/connection paradox, employ archaic spelling (e.g., \"centrick,\" \"linke\"), and maintain argumentative tone. A poor answer uses a cliché simile (\"love is like a rose\") without logical development or archaic flavor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

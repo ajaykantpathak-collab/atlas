@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_005",
+   "title": "c12_geo_cbse_05_005",
+   "questions": [
+    {
+     "q": "Define sedentary subsistence farming in one sentence and name the two main sub-types based on the dominant crop.",
+     "a": "Sedentary subsistence farming is a system where farmers permanently cultivate the same land mainly for self-consumption; its two main sub-types are intensive subsistence farming dominated by wet paddy cultivation and intensive subsistence farming dominated by crops other than paddy (e.g., wheat, millets, pulses). A wrong answer that mentions shifting cultivation, commercial crops, or large-scale mechanisation reveals confusion with other agricultural types.",
+     "self_check": true
+    },
+    {
+     "q": "Why is wet paddy cultivation the dominant form of sedentary subsistence farming in the monsoon lands of Asia? Explain the role of climate and topography.",
+     "a": "Monsoon Asia receives concentrated summer rainfall (1000–2000 mm) and has extensive flat, alluvial river valleys and deltas (e.g., Ganga-Brahmaputra, Mekong, Chao Phraya) that can be easily flooded and hold water — ideal for paddy which requires standing water during its growth. A response that cites only \"high rainfall\" but ignores the need for level, impermeable land and water control shows incomplete understanding of the physical geography constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western Uttar Pradesh has 1.2 hectares of land. He grows wheat in rabi and maize in kharif, using family labour and a hired tractor for ploughing. His yield is 3.5 tonnes/ha for wheat and 2.8 tonnes/ha for maize. Calculate the total annual grain production from his holding and state whether this qualifies as intensive subsistence farming. Justify.",
+     "a": "Total production = (1.2 ha × 3.5 t/ha) + (1.2 ha × 2.8 t/ha) = 4.2 + 3.36 = 7.56 tonnes. Yes, this is intensive subsistence farming: small holding, high cropping intensity (two crops/year), high yield per hectare, family labour with some hired machinery, and output mainly for household consumption. A wrong answer that only computes one crop or mislabels it as commercial because of tractor use misses the defining criteria of scale, purpose, and intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population density and landholding size in the intensive subsistence farming regions of East Asia (e.g., Jiangsu province, China) and South Asia (e.g., West Bengal, India). How do these factors explain the difference in per capita food availability?",
+     "a": "Both regions have very high rural population densities (>500 persons/km²) and tiny average holdings (<0.5–1 ha). However, East Asia achieved higher per capita food availability through earlier adoption of high-yielding varieties, irrigation, and collective/state-supported input supply, whereas South Asia's fragmentation, tenancy issues, and slower technological diffusion kept yields lower. An answer that only states \"both are dense\" without linking institutional factors to productivity outcomes fails to analyze the human geography dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of intensive subsistence paddy farming in the Mekong Delta under current pressures of salinity intrusion, groundwater depletion, and land conversion for urbanization. Provide two specific threats and one possible adaptation.",
+     "a": "Threats: (1) Rising sea levels and reduced upstream sediment flow cause saline water to penetrate 50–70 km inland during dry season, making paddy impossible without costly embankments. (2) Excessive groundwater pumping for dry-season rice lowers water tables, inducing arsenic contamination and land subsidence. Adaptation: Shift to rice-shrimp rotation systems or salt-tolerant rice varieties combined with regulated groundwater use and zoning laws to protect agricultural land. An answer that lists only \"climate change\" without specific mechanisms or suggests \"switch to commercial crops\" as the sole adaptation ignores the subsistence context and equity concerns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use plan for a 10 km² riverine village in the Ganga plain that currently practices rainfed monocropping. Your plan must increase annual food output by at least 50% while maintaining subsistence orientation. Sketch the key elements (crops, water sources, labour, infrastructure) and justify each choice geographically.",
+     "a": "A good plan includes: (1) Construction of a small check dam / farm pond to capture monsoon runoff for supplemental irrigation → enables double cropping (rice-wheat or rice-mustard). (2) Adoption of short-duration, high-yielding varieties (HYVs) suited to local agro-climate. (3) Collective hiring of a tractor/thresher through a farmer group to reduce per-hectare cost. (4) Introduction of a legume (e.g., moong) as a catch crop to fix nitrogen. (5) Homestead gardening for vegetables/fruit. Justification: Flat alluvial soil + high groundwater + monsoon surplus = potential for irrigation intensification; small holdings + dense labour = suitability for labour-intensive HYVs; subsistence goal = focus on food crops, not cash crops. A plan that proposes large-scale canal irrigation, contract farming, or shift to sugarcane misses the subsistence and smallholder constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

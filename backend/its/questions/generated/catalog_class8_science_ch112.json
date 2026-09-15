@@ -1,0 +1,285 @@
+{
+ "catalog": "catalog_class8_science_ch112.json",
+ "concepts": [
+  {
+   "id": "hesc.112.1",
+   "title": "Charging by Rubbing",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do objects get charged by rubbing?",
+     "a": "Rubbing transfers electrons from one body to the other, giving both equal but opposite charges.",
+     "self_check": true
+    },
+    {
+     "q": "Name the charge left on a glass rod rubbed with silk.",
+     "a": "Positive - the rod loses electrons to the silk, which becomes negative.",
+     "self_check": true
+    },
+    {
+     "q": "Is charging by rubbing a chemical change?",
+     "a": "No - only electrons move; no new substance forms.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.2",
+   "title": "Types of Charges and Their Interaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What two kinds of charges exist in nature?",
+     "a": "Positive and negative charges.",
+     "self_check": true
+    },
+    {
+     "q": "State the rule of attraction and repulsion between charges.",
+     "a": "Like charges repel; unlike charges attract.",
+     "self_check": true
+    },
+    {
+     "q": "A charged balloon sticks to a wall. What does that show?",
+     "a": "The charged balloon induces opposite charge on the wall's surface, and unlike charges attract.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.3",
+   "title": "Detection and Transfer of Charge",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can we detect charge on a body?",
+     "a": "With an electroscope - a charge on its plate makes the aluminium leaves spread apart.",
+     "self_check": true
+    },
+    {
+     "q": "How does charge transfer happen between two bodies?",
+     "a": "By touching - electrons flow from the body with excess electrons to one with fewer till both share equally.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to an electroscope when a charged rod touches it?",
+     "a": "The leaves get the same charge and repel each other, standing apart; they fold back when discharged.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.4",
+   "title": "Earthing and Discharging",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is earthing?",
+     "a": "Connecting a body to the earth with a metal wire so extra charge flows safely into the ground.",
+     "self_check": true
+    },
+    {
+     "q": "Why are tall buildings and appliances earthed?",
+     "a": "Earthing gives leaking charge an easy path to the ground, protecting people from shocks.",
+     "self_check": true
+    },
+    {
+     "q": "How does charge get discharged from a charged body?",
+     "a": "A spark or flow of charge passes when the body touches something at a different potential, often through air.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.5",
+   "title": "Mechanism of Lightning",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is lightning?",
+     "a": "A giant electric spark between clouds, or between clouds and the earth, as huge charges discharge.",
+     "self_check": true
+    },
+    {
+     "q": "How do clouds collect charge?",
+     "a": "Rubbing of water drops and ice inside clouds separates charges - tops turn positive, bottoms negative.",
+     "self_check": true
+    },
+    {
+     "q": "Why does lightning often strike tall trees and buildings?",
+     "a": "Tall objects give charge the shortest path to the ground, so the spark prefers them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.6",
+   "title": "Lightning Safety and Conductors",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a lightning conductor?",
+     "a": "A pointed metal rod on a building joined by a thick wire to the ground, which carries lightning charge safely down.",
+     "self_check": true
+    },
+    {
+     "q": "Where should you shelter during lightning outdoors?",
+     "a": "Inside a building or car; never under a lone tall tree or in open water.",
+     "self_check": true
+    },
+    {
+     "q": "Name two lightning safety rules indoors.",
+     "a": "Avoid wired phones and electrical appliances; keep away from windows, taps and metal pipes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.7",
+   "title": "Earthquakes and Tectonic Plates",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What causes an earthquake?",
+     "a": "Sudden movements of the tectonic plates of the earth's crust release built-up strain as tremors.",
+     "self_check": true
+    },
+    {
+     "q": "What is the place inside the earth where a quake begins called?",
+     "a": "The focus; the point above it on the surface is the epicentre.",
+     "self_check": true
+    },
+    {
+     "q": "Name two natural and one human cause of earthquakes.",
+     "a": "Natural: moving tectonic plates, volcanoes. Human: mining and big dams can trigger tremors.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.8",
+   "title": "Seismograph and Seismic Waves",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a seismograph?",
+     "a": "An instrument that records the tremors (seismic waves) of an earthquake on a paper or screen record.",
+     "self_check": true
+    },
+    {
+     "q": "What is the Richter scale used for?",
+     "a": "Rating the energy of an earthquake in numbers - each higher number means much stronger shaking.",
+     "self_check": true
+    },
+    {
+     "q": "Can scientists predict earthquakes reliably?",
+     "a": "No - they can locate and measure past quakes, but prediction of time and place is still not possible.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.9",
+   "title": "Richter Scale Energy Comparison",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mag_gap",
+     "expr": "(mag2 - mag1) / 2",
+     "explain": "half the difference in Richter magnitudes"
+    },
+    {
+     "step": 2,
+     "name": "half_gap_ratio",
+     "expr": "1000 ** ((mag2 - mag1) / 4)",
+     "explain": "energy ratio for half the magnitude gap"
+    },
+    {
+     "step": 3,
+     "name": "energy_ratio",
+     "expr": "1000 ** mag_gap",
+     "explain": "each unit of Richter magnitude means 1000 times more energy"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An earthquake of magnitude 6 releases how many times the energy of one of magnitude 4?",
+     "vals": {
+      "mag1": 4,
+      "mag2": 6
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "1000 times",
+     "self_check": false
+    },
+    {
+     "q": "Compare the energy of a magnitude 7 quake with a magnitude 5 quake.",
+     "vals": {
+      "mag1": 5,
+      "mag2": 7
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "1000 times",
+     "self_check": false
+    },
+    {
+     "q": "How many times stronger is a magnitude 5.5 tremor than one of magnitude 5?",
+     "vals": {
+      "mag1": 5,
+      "mag2": 5.5
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "5.62341 times",
+     "self_check": false
+    },
+    {
+     "q": "A great quake of magnitude 8 shakes how many times harder in energy than a magnitude 5 one?",
+     "vals": {
+      "mag1": 5,
+      "mag2": 8
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "31622.8 times",
+     "self_check": false
+    },
+    {
+     "q": "Compare magnitudes 6 and 6.5: how many times more energy does the bigger one carry?",
+     "vals": {
+      "mag1": 6,
+      "mag2": 6.5
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "5.62341 times",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.112.10",
+   "title": "Earthquake Safety and Protection",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How should you protect yourself during an earthquake indoors?",
+     "a": "Take cover under a strong table against an inside wall, keep away from windows and heavy furniture, and stay calm.",
+     "self_check": true
+    },
+    {
+     "q": "What should you do outdoors when an earthquake strikes?",
+     "a": "Move to open ground away from buildings, trees, poles and power lines.",
+     "self_check": true
+    },
+    {
+     "q": "Name two preparations that make a house earthquake-safe.",
+     "a": "Fix cupboards and heavy objects to walls, and build with quake-resistant designs following safety codes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

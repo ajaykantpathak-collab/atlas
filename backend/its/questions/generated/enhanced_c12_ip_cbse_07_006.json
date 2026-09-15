@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_006",
+   "title": "c12_ip_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define two-factor authentication and name the three categories of authentication factors with one example each.",
+     "a": "Two-factor authentication requires presenting two factors from different categories: (1) Knowledge — something you know (e.g., password, PIN), (2) Possession — something you have (e.g., smartphone with authenticator app, hardware security key), (3) Inherence — something you are (e.g., fingerprint, face ID). A wrong answer that lists \"password and security question\" reveals the misconception that two knowledge factors constitute 2FA; they are both \"something you know\" and fall to the same theft vectors (phishing, keylogging).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"I use SMS OTP for 2FA on my bank account, so my account is completely safe from hackers.\" Explain why this statement is flawed, naming at least two specific attack vectors against SMS-based 2FA.",
+     "a": "SMS OTP is vulnerable to SIM swap attacks (attacker ports victim's number to a new SIM) and SS7 protocol exploits (intercepting SMS in transit). It also fails against real-time phishing where the attacker proxies the OTP immediately. A wrong answer that only says \"SMS can be hacked\" without naming specific vectors shows superficial understanding; the student must articulate distinct attack mechanisms to demonstrate analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "You are setting up 2FA for a new email account. The options are: (A) SMS OTP, (B) Authenticator app (TOTP), (C) Hardware security key (FIDO2), (D) Email OTP. Rank them from most to least resistant to phishing, and justify the top choice.",
+     "a": "Most to least phishing-resistant: (C) Hardware security key (FIDO2) > (B) Authenticator app (TOTP) > (A) SMS OTP ≈ (D) Email OTP. Hardware keys use origin-bound cryptographic signatures — the key verifies the legitimate domain before signing, making proxy phishing impossible. TOTP codes can be phished in real-time but require active attacker intervention. SMS/Email OTP are interceptable and not origin-bound. A wrong ranking that places TOTP above hardware keys misses the critical distinction: TOTP is a shared secret vulnerable to phishing; FIDO2 uses public-key cryptography with domain binding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the security and usability trade-offs of using a hardware security key versus an authenticator app for a high-value personal account (e.g., primary email). Consider: phishing resistance, device loss recovery, cost, and convenience.",
+     "a": "Hardware key: highest phishing resistance (origin-bound), but requires physical possession (inconvenient on mobile), costs ₹1,000–3,000, and loss requires pre-registered backup key or recovery codes. Authenticator app: strong phishing resistance (though not immune to real-time proxy), free, convenient on phone, backup via cloud sync or exported seeds. For high-value accounts, hardware key is superior if user can manage backup; authenticator app is a pragmatic balance. A wrong answer that claims \"authenticator app is equally secure\" ignores the origin-binding property of FIDO2.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this login policy for a school portal: \"Students must use 8-character passwords with one uppercase and one number. 2FA is optional via SMS OTP. Password reset uses security questions (mother's maiden name, pet name).\" Identify three critical weaknesses and propose a stronger alternative for each.",
+     "a": "Weaknesses: (1) Password policy allows predictable patterns (e.g., \"Password1\") — replace with NIST-style: minimum 12 characters, block common passwords, no composition rules. (2) Optional SMS 2FA — make mandatory authenticator app or hardware key; SMS as fallback only. (3) Security questions are guessable/researchable — replace with email/phone verification + backup codes. A wrong answer that only says \"passwords are weak\" without specifying policy fixes shows inability to translate principles into actionable controls.",
+     "self_check": true
+    },
+    {
+     "q": "Design a personal \"secure login checklist\" for a Class 12 student who uses: school email, Instagram, banking app, and a coding platform (GitHub). The checklist must include 2FA method per service, password strategy, recovery preparation, and a habit to review quarterly. Present as a table.",
+     "a": "A strong answer produces a table with columns: Service | 2FA Method (primary/backup) | Password Manager Entry | Recovery Codes Stored | Quarterly Review Action. Example row: GitHub | Authenticator app (primary) + Hardware key (backup) | Unique 20-char generated password | Printed in sealed envelope | Verify 2FA devices, revoke old sessions. Poor answers list generic advice (\"use 2FA everywhere\") without service-specific factor selection or recovery planning, indicating failure to synthesize concepts into a personalized operational plan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

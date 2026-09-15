@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_002",
+   "title": "c12_cs_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nprices = [20, 15, 30]\nprices.append(25)\nprices.insert(1, 10)\nprint(prices)\n```",
+     "a": "The output is `[20, 10, 15, 30, 25]`.  \nA wrong answer like `[20, 15, 30, 25, 10]` reveals the student thinks `insert(1, 10)` adds at the end or confuses the index parameter. A wrong answer like `[20, 15, 30, 10, 25]` shows they think `insert` shifts existing elements incorrectly. The correct reasoning: `append(25)` adds 25 at the end → `[20, 15, 30, 25]`; then `insert(1, 10)` places 10 at index 1, shifting 15 and later elements right → `[20, 10, 15, 30, 25]`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you call `remove(x)` on a list that contains multiple occurrences of `x`. What if `x` is not in the list?",
+     "a": "`remove(x)` deletes only the **first** occurrence of `x` in the list (the one with the smallest index). If `x` is not present, Python raises a `ValueError`.  \nA wrong answer like \"it removes all occurrences\" shows confusion with a loop or list comprehension. A wrong answer like \"it does nothing\" or \"returns False\" shows the student doesn't know about the exception. The correct understanding: `remove` is a single‑deletion method that searches from the left and stops at the first match.",
+     "self_check": true
+    },
+    {
+     "q": "Given the list `marks = [85, 90, 75, 90, 80]`, write code to (a) remove the first 90, (b) pop the last element and store it in `last_mark`, and (c) sort the list in descending order. Show the final list and the value of `last_mark`.",
+     "a": "```python\nmarks = [85, 90, 75, 90, 80]\nmarks.remove(90)        # removes first 90 → [85, 75, 90, 80]\nlast_mark = marks.pop() # removes and returns last element (80) → marks = [85, 75, 90]\nmarks.sort(reverse=True) # sorts descending → [90, 85, 75]\n```\nFinal list: `[90, 85, 75]`, `last_mark = 80`.  \nA wrong answer where the student writes `marks = marks.sort(reverse=True)` shows they think `sort()` returns a new list (it returns `None`). A wrong answer where `pop()` is called without parentheses or with an index when not needed indicates confusion about `pop()`'s default behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of `list.pop()` and `list.remove(value)` on the list `[5, 10, 15, 10]`. Specifically, what does each return, and what is the resulting list if you call `pop(1)` followed by `remove(10)`? What if you reverse the order?",
+     "a": "- `pop(1)` removes and returns the element at index 1 (10) → list becomes `[5, 15, 10]`. Then `remove(10)` deletes the first 10 (now at index 2) → final list `[5, 15]`. Returns: `pop` returns 10, `remove` returns `None`.\n- Reverse order: `remove(10)` deletes the first 10 (index 1) → list becomes `[5, 15, 10]`. Then `pop(1)` removes and returns element at index 1 (15) → final list `[5, 10]`. Returns: `remove` returns `None`, `pop` returns 15.  \nA wrong answer that says both sequences give the same final list reveals the student doesn't track index shifts after each mutation. The correct analysis requires step‑by‑step index tracking.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to sort a list of strings case‑insensitively:\n```python\nwords = ['apple', 'Banana', 'cherry']\nwords.sort(key=str.lower)\nprint(words)\n```\nThey claim the output is `['apple', 'Banana', 'cherry']` because \"the list is already in alphabetical order\". Evaluate this claim and correct it if necessary.",
+     "a": "The claim is **incorrect**. The default `sort()` uses ASCII order where uppercase letters come before lowercase, so `'Banana'` (B=66) would come before `'apple'` (a=97). With `key=str.lower`, the comparison is done on lowercased versions: `'apple'`, `'banana'`, `'cherry'` → alphabetical order is `['apple', 'Banana', 'cherry']` (since 'apple' < 'banana' < 'cherry'). The output is indeed `['apple', 'Banana', 'cherry']`, but the student's reasoning is wrong—they got the right output for the wrong reason. A correct evaluation: the key function transforms each element for comparison only; the original strings remain unchanged. The student's statement \"already in alphabetical order\" ignores case sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python program (3‑5 lines) that uses **all five methods** (`append`, `insert`, `remove`, `pop`, `sort`) exactly once each on a list representing a queue of customer tokens (integers). The program should simulate: a new customer joins (append), a VIP jumps to front (insert), a customer leaves (remove), the next customer is served (pop), and finally the remaining tokens are sorted for a report. Provide the initial list and the final list after all operations.",
+     "a": "Example solution:\n```python\ntokens = [101, 102, 103]      # initial queue\ntokens.append(104)            # new customer → [101, 102, 103, 104]\ntokens.insert(0, 200)         # VIP → [200, 101, 102, 103, 104]\ntokens.remove(102)            # customer 102 leaves → [200, 101, 103, 104]\nserved = tokens.pop(0)        # serve first (VIP 200) → [101, 103, 104]\ntokens.sort()                 # sort for report → [101, 103, 104]\n```\nFinal list: `[101, 103, 104]`.  \nA poor answer might use `pop()` without index (serving the last instead of first) or forget that `insert(0, ...)` puts at front. The exercise tests whether the student can map real‑world actions to the correct method and index.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

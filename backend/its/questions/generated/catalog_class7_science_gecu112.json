@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu112.json",
+ "concepts": [
+  {
+   "id": "gecu.12.1",
+   "title": "Rotation of the Earth: Day and Night",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What causes day and night?",
+     "a": "The earth's rotation on its axis once every 24 hours turns each side toward and away from the sun.",
+     "self_check": true
+    },
+    {
+     "q": "How long does one rotation of the earth take?",
+     "a": "About 24 hours (one day).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the sun appear to rise in the east?",
+     "a": "The earth spins from west to east, so the sun seems to move across the sky from east to west.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.2",
+   "title": "Revolution of the Earth and the Seasons",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What causes the seasons?",
+     "a": "The earth's tilted axis as it revolves around the sun - each hemisphere gets more or less direct sunlight through the year.",
+     "self_check": true
+    },
+    {
+     "q": "How long does one revolution of the earth take?",
+     "a": "About 365 and a quarter days - one year.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it summer in India when it is winter in Australia?",
+     "a": "Earth's tilt aims the sun's rays more directly at one hemisphere, then the other.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.3",
+   "title": "Eclipses: Shadows in the Sky",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a solar eclipse?",
+     "a": "The moon coming between the sun and earth so its shadow hides the sun for some places.",
+     "self_check": true
+    },
+    {
+     "q": "What is a lunar eclipse?",
+     "a": "The earth coming between the sun and moon so earth's shadow darkens the full moon.",
+     "self_check": true
+    },
+    {
+     "q": "Why are eclipses rare events?",
+     "a": "The sun, earth and moon must line up exactly, which happens only a few times a year.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.4",
+   "title": "Modelling the Sky with Globe and Shadows",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can a globe model day and night?",
+     "a": "Spinning a globe before a lamp shows half the earth lit (day) and half dark (night).",
+     "self_check": true
+    },
+    {
+     "q": "What does the shadow of a stick at noon tell us?",
+     "a": "Its shortest shadow points north-south and shows the sun is highest (and which way is south).",
+     "self_check": true
+    },
+    {
+     "q": "How did sailors use shadows and stars to find directions?",
+     "a": "The noon shadow gave north-south; the Pole Star at night points to the north.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

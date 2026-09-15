@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_001",
+   "title": "c11_eco_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define rural development as used in the NCERT Class 11 textbook, and list any four specific focus areas it encompasses.",
+     "a": "Rural development is a comprehensive plan of action for developing rural areas lagging in socio-economic development. Four focus areas: (1) human resource development (literacy, female literacy, skill development, health/sanitation), (2) land reforms, (3) infrastructure development (electricity, irrigation, credit, marketing, transport, agriculture research/extension), (4) poverty alleviation measures targeting weaker sections with productive employment access. A wrong answer listing only \"building roads\" or \"giving loans\" reveals the student views rural development as isolated infrastructure or credit provision rather than a multi-dimensional structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rural development remains crucial for India's overall progress even though agriculture's share in GDP has fallen to around 15% (2023-24).",
+     "a": "Rural development remains crucial because: (1) over two-thirds of India's population (approx. 65-68%) still resides in rural areas, (2) around 42% of the workforce remains dependent on agriculture (PLFS 2022-23), (3) one-fourth of rural India lives in poverty, and (4) agriculture GDP growth has decelerated to ~2% (2023-24) with declining public investment since 1991. A wrong answer focusing only on \"food security\" or \"GDP contribution\" misses the structural argument: the workforce-GDP share mismatch (42% workforce producing 15% GDP) indicates massive disguised unemployment and low productivity that cannot be solved by urban growth alone.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the approximate ratio of agriculture GDP per worker to non-agriculture GDP per worker for India (2023-24 estimates), and interpret what this implies for rural development policy.\n- Agriculture GVA share: 15% of total GVA\n- Agriculture workforce share: 42% of total workforce\n- Total GVA: ₹180 lakh crore (approx.)\n- Total workforce: 580 million (approx.)",
+     "a": "Step 1: Agriculture GVA = 15% × ₹180 lakh crore = ₹27 lakh crore. Non-agriculture GVA = ₹153 lakh crore.\nStep 2: Agriculture workers = 42% × 580 million = 243.6 million. Non-agriculture workers = 336.4 million.\nStep 3: Agriculture GDP per worker = ₹27 lakh crore / 243.6 million ≈ ₹1.11 lakh per worker.\nStep 4: Non-agriculture GDP per worker = ₹153 lakh crore / 336.4 million ≈ ₹4.55 lakh per worker.\nStep 5: Ratio = 1.11 / 4.55 ≈ 0.24 (or 1:4.1). Interpretation: An average non-agriculture worker produces over 4 times the output of an agriculture worker. This massive productivity gap explains persistent rural poverty and makes diversification, skill development, and non-farm job creation essential rural development priorities. A wrong calculation (e.g., using population instead of workforce) reveals confusion between demographic and economic indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"social banking and multi-agency approach\" adopted post-1969 with the pre-independence rural credit scenario. Identify two structural changes and one persistent challenge mentioned in the textbook.",
+     "a": "Structural changes: (1) Shift from exploitative moneylender dominance (high interest, account manipulation, debt-traps) to institutional credit via commercial banks, RRBs, cooperatives, and NABARD (apex body, 1982), (2) Green Revolution triggered diversification of rural credit toward production-oriented lending. Persistent challenge: Formal credit delivery remains inadequate and not fully integrated with rural social/community development; collateral requirements exclude vast proportions of poor rural households, leading to SHG/microcredit emergence. A wrong answer citing only \"banks opened\" misses the qualitative shift from consumption to production lending and the systemic exclusion that persists despite institutional expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government intervention in agricultural marketing (MSP, buffer stocks, PDS, regulated markets) has successfully protected farmer incomes and ensured food security.\" Use textbook evidence to support your judgment.",
+     "a": "The statement is partially correct but incomplete. Evidence for success: Regulated markets created orderly/transparent conditions benefiting farmers and consumers; MSP/buffer stocks/PDS protected farmer incomes and provided subsidised foodgrains; milk cooperatives (Operation Flood) transformed Gujarat's socio-economic landscape. Evidence for insufficiency: Private trade (moneylenders, rural elites, big merchants) still predominates; only ~7,000 of ~27,000 needed rural periodic markets are regulated; cooperatives face inadequate coverage, weak marketing-processing links, and financial mismanagement; >10% farm produce wasted due to inadequate storage; 2020 farm laws debate/repeal shows unresolved tensions. Judgment: Intervention is necessary but insufficient — structural gaps in infrastructure, market access, and power asymmetry persist. A wrong \"fully agree\" or \"fully disagree\" reveals binary thinking; the textbook presents a nuanced critical appraisal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-pillar rural development action plan for a hypothetical district where: (a) 60% workforce in agriculture contributing 20% district GDP, (b) only 25% households have Kisan Credit Card access, (c) nearest regulated mandi is 35 km away with no cold storage. Specify one measurable target per pillar for a 5-year horizon.",
+     "a": "Pillar 1: Productive Diversification & Income Enhancement — Target: Reduce agriculture workforce share from 60% to 45% while raising agriculture GVA share from 20% to 25% via allied activities (dairy, poultry, food processing) and non-farm enterprises.\nPillar 2: Credit & Market Access — Target: Achieve 80% Kisan Credit Card coverage among cultivator households; establish 2 regulated market yards with cold storage within 15 km radius of 90% villages.\nPillar 3: Human Capital & Infrastructure — Target: 100% functional primary health centres and secondary schools; all-weather road connectivity to 100% habitations >500 population.\nA poor answer listing generic schemes (PM-KISAN, MNREGA) without measurable, context-specific targets reveals inability to translate structural diagnosis into actionable policy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

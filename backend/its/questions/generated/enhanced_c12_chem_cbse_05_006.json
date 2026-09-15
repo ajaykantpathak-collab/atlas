@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_006",
+   "title": "c12_chem_cbse_05_006",
+   "questions": [
+    {
+     "q": "In an octahedral crystal field, which set of d-orbitals is raised in energy and by how much relative to the barycenter (average energy)?",
+     "a": "The e_g set (dₓ²₋ᵧ² and d_z²) is raised by +3/5 Δo. A wrong answer (e.g., \"t₂g is raised\" or \"raised by 2/5 Δo\") reveals confusion between the two sets or misunderstanding of the 3:2 splitting ratio that conserves the barycenter. The student likely memorised the diagram without grasping that the total energy of the five orbitals remains unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a tetrahedral complex [CoCl₄]²⁻ (Co²⁺, d⁷) exhibit high-spin configuration even though Cl⁻ is a weak-field ligand, whereas an octahedral [Co(CN)₆]⁴⁻ (Co²⁺, d⁷) is low-spin?",
+     "a": "In tetrahedral fields, Δt = (4/9)Δo is intrinsically small (~44% of Δo), so Δt < P (pairing energy) for virtually all ligands, forcing high-spin. In octahedral [Co(CN)₆]⁴⁻, CN⁻ is a strong-field ligand giving large Δo > P, causing electron pairing (low-spin t₂g⁶ e_g¹). A wrong answer citing \"Cl⁻ is weak field\" without mentioning the geometric factor Δt = 4/9 Δo shows the student treats ligand strength as the only variable, ignoring the geometry-dependent magnitude of splitting.",
+     "self_check": true
+    },
+    {
+     "q": "For a d⁵ metal ion in an octahedral field, the pairing energy P = 20,000 cm⁻¹ and Δo = 18,000 cm⁻¹. Determine the electronic configuration (t₂g^x e_g^y), number of unpaired electrons, and spin state.",
+     "a": "Since Δo (18,000 cm⁻¹) < P (20,000 cm⁻¹), it is a weak-field case → high-spin. Electrons fill singly first: t₂g³ e_g² (Hund's rule). Configuration: t₂g³ e_g², 5 unpaired electrons, high-spin. A wrong answer giving t₂g⁵ e_g⁰ (low-spin, 1 unpaired) indicates the student compared Δo and P incorrectly or assumed all d⁵ are low-spin. The key is the quantitative comparison: Δo < P → high-spin.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the d-orbital splitting patterns in octahedral and tetrahedral fields. Why is the 'g' subscript (gerade) used for octahedral (t₂g, e_g) but not for tetrahedral (e, t₂)?",
+     "a": "Octahedral complexes have a center of symmetry (inversion center); d-orbitals are gerade (g) — symmetric under inversion. Tetrahedral complexes lack a center of symmetry, so orbitals cannot be classified as g/u; the 'g' subscript is dropped. A wrong answer stating \"tetrahedral has no g because splitting is smaller\" confuses magnitude with symmetry. The student must link the subscript to the presence/absence of an inversion center, not to Δ magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since Δt = 4/9 Δo, a tetrahedral complex of a given metal and ligand will always absorb light of longer wavelength (lower energy) than its octahedral counterpart.\" Evaluate this statement.",
+     "a": "The statement is generally correct for the same metal/ligand set because Δt < Δo → lower energy transition → longer λ. However, it assumes identical metal-ligand distances and oxidation states, which rarely hold. For example, [NiCl₄]²⁻ (tetrahedral) vs [NiCl₆]⁴⁻ (octahedral, hypothetical) — the latter doesn't exist. A wrong evaluation that simply says \"true\" without noting the caveats (different coordination numbers, bond lengths, oxidation states often differ) shows superficial understanding. The student must recognise that real comparisons require identical conditions, which are experimentally unattainable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using UV-Vis spectroscopy to determine whether an unknown Co²⁺ (d⁷) complex is tetrahedral or octahedral, given that you know its ligand is Cl⁻.",
+     "a": "Measure the absorption maximum (λ_max) for the d-d transition. For octahedral [CoCl₆]⁴⁻ (if it existed), expect Δo ~ 7,000–8,000 cm⁻¹ (weak field, high-spin t₂g⁵ e_g²). For tetrahedral [CoCl₄]²⁻, Δt = 4/9 Δo ≈ 3,000–3,500 cm⁻¹. The tetrahedral complex will absorb at significantly longer wavelength (lower energy). If the observed λ_max corresponds to ~3,200 cm⁻¹, it's tetrahedral; if ~7,500 cm⁻¹, octahedral. A poor answer that only says \"measure colour\" without linking λ_max to Δ and geometry shows the student cannot connect spectroscopy to CFT quantitatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

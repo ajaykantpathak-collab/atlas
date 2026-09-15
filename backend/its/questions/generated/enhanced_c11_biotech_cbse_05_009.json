@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_009",
+   "title": "c11_biotech_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define apoptosis and necrosis in one sentence each, highlighting the fundamental difference in their initiation.",
+     "a": "Apoptosis is a programmed, internally initiated suicide program requiring ATP; necrosis is an accidental, externally triggered death due to severe injury. A wrong answer (e.g., \"both are cell death\") reveals the student cannot distinguish regulated vs. unregulated initiation, a core conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why apoptosis typically does not provoke inflammation while necrosis always does, linking your answer to plasma membrane integrity and the fate of intracellular contents.",
+     "a": "Apoptosis maintains membrane integrity until late stages, packaging contents into apoptotic bodies for phagocytosis; necrosis causes early membrane rupture, spilling DAMPs (damage-associated molecular patterns) that trigger inflammation. A wrong answer indicates the student misses the causal link between membrane behavior and immune response.",
+     "self_check": true
+    },
+    {
+     "q": "A cell culture is treated with a metabolic inhibitor that completely blocks ATP synthesis. The cells subsequently show chromatin condensation and DNA laddering but ultimately undergo plasma membrane rupture. Classify the death mode and justify your reasoning step by step.",
+     "a": "Early apoptotic markers (condensation, laddering) appear because caspase activation can initiate without ATP, but execution (apoptotic body formation, phagocytosis) fails without ATP, leading to secondary necrosis with membrane rupture. A wrong classification (pure apoptosis or pure necrosis) shows the student doesn't understand ATP-dependence of late apoptotic steps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nuclear events in apoptosis and necrosis: describe the enzyme responsible for DNA fragmentation in apoptosis and explain why necrosis shows random DNA degradation instead of a ladder pattern.",
+     "a": "Apoptosis uses caspase-activated DNase (CAD) for internucleosomal cleavage → ladder; necrosis involves random lysosomal/protease-mediated degradation → smear. A wrong answer (e.g., \"both show ladders\") reveals confusion about the specificity of apoptotic nucleases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Apoptosis is always beneficial and necrosis is always harmful to the organism.\" Provide two specific counter-examples.",
+     "a": "Excessive apoptosis causes neurodegeneration (Alzheimer's) or immunodeficiency; controlled necrosis (necroptosis) can eliminate infected cells when apoptosis is blocked by pathogens. A one-sided evaluation shows the student memorizes labels without understanding physiological context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fluorescence microscopy experiment using two dyes (one membrane-impermeant DNA dye, one annexin V-FITC) to distinguish live, early apoptotic, late apoptotic/necrotic, and necrotic cells in a mixed population. Sketch the expected quadrant plot.",
+     "a": "Annexin V-FITC (binds phosphatidylserine) on x-axis, PI (membrane-impermeant) on y-axis: Live = Annexin-/PI-; Early apoptotic = Annexin+/PI-; Late apoptotic/necrotic = Annexin+/PI+; Necrotic = Annexin-/PI+. Poor design (e.g., wrong dye choice) shows lack of translational understanding of membrane asymmetry loss vs. rupture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

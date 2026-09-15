@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_01_011",
+   "title": "c12_hin_ar_cbse_01_011",
+   "questions": [
+    {
+     "q": "In Muktibodh's poem \"vkReifjp;\", the line \"eSa Lusg&lqjk dk iku fd;k djrk gw¡\" uses which verb form for \"fd;k djrk gw¡\", and what aspect does it convey?",
+     "a": "The verb form is \"fd;k djrk gw¡\" — a compound verb construction with the perfective participle \"fd;k\" (from fd;k) + habitual auxiliary \"djrk\" + present auxiliary \"gw¡\", conveying **habitual aspect in present tense**. A wrong answer (e.g., calling it simple past or perfective only) reveals the student cannot distinguish between perfective participle + auxiliary combinations and simple finite verbs, a core skill for analyzing Hindi poetic aspectual nuances.",
+     "self_check": true
+    },
+    {
+     "q": "The poem uses \"fy, fiQjrk gw¡\" repeatedly. Explain in your own words how this infinitive + postposition + habitual construction differs semantically from a simple finite verb like \"fiQjrk gw¡\" (without \"fy,\"), and why the poet might choose the longer form.",
+     "a": "\"fy, fiQjrk gw¡\" (infinitive \"fiQjk\" + postposition \"fy,\" + habitual \"fiQjrk gw¡\") expresses **purpose or dedication toward an ongoing habitual action** — \"I keep doing X *for the sake of* Y.\" The simple \"fiQjrk gw¡\" would only state the habitual action without the teleological dimension. A student who says \"they mean the same\" misses the semantic layering: the infinitive+postposition creates a forward-looking intentionality that mirrors the poem's theme of persistent, purposeful striving despite suffering.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: In Trilochan's poem \"vkRedF;\", the line \"lhou dks mèksM+ dj ns[kksxs D;ksa esjh oaQFkk dh\\\" uses the causative verb \"mèksM+ dj\". Rewrite this line in standard prose word order (SOV) and identify the grammatical change needed to make it a declarative statement instead of a rhetorical question.",
+     "a": "Standard prose SOV order: \"rqe esjh oaQFkk dks D;ksa mèksM+ dj ns[kksxs\\\" (You why my condition causative see-future). Grammatical changes: (1) Move subject \"rqe\" to initial position, (2) Move object \"esjh oaQFkk\" before verb complex, (3) Change interrogative \"D;ksa\" to declarative context (requires intonation/context shift), (4) The causative \"mèksM+ dj\" (make someone see) remains but loses rhetorical force. A student who only reorders words without noting the illocutionary force shift (question → statement) misses how syntax encodes speech act.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the ergative case marking in Muktibodh's \"eSa tx&thou dk Hkkj fy, fiQjrk gw¡\" (line 1) with Trilochan's \"eSa lqudj D;k rqe Hkyk djksxs esjh Hkksyh vkRe&dFkk\" (line 5). How does the presence/absence of ergative \"ne\" in perfective contexts reflect each poet's stance toward agency?",
+     "a": "Muktibodh uses **non-ergative \"eSa\"** with imperfective/habitual \"fiQjrk gw¡\" — consistent with standard Hindi: ergative marks only perfective transitive subjects. Trilochan's \"eSa lqudj\" (perfective \"lquk\" + \"dj\") **should trigger ergative \"eSa ne\"** but omits it — a poetic license retaining nominative for first-person subjective immediacy. Muktibodh's regularity reflects collective, almost ritualistic declaration; Trilochan's deviation foregrounds the speaking \"I\" as vulnerable subject, not grammatical agent. A student who misses the aspect-conditioned ergative rule cannot explain *why* the deviation matters.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: A student claims: \"The repetition of 'fy, fiQjrk gw¡' in Muktibodh's poem is just a refrain for rhythm — the grammar doesn't add meaning.\" Defend or refute this using grammatical evidence from at least three different stanzas.",
+     "a": "**Refute.** Grammatical evidence: (1) Stanza 1: \"fy, fiQjrk gw¡\" with transitive \"Hkkj\" (to shoulder/carry) → purposeful burden-bearing. (2) Stanza 3: \"fy, fiQjrk gw¡\" with \"iku fd;k djrk\" (to make a home of simplicity) → creative purpose. (3) Stanza 6: \"fy, fiQjrk gw¡\" with \"cuk&cuk\" (to build repeatedly) → persistent reconstruction. Each occurrence pairs with a different lexical verb, creating a **semantic paradigm of purposive habitual actions** — not mere repetition. A student calling it \"just rhythm\" confuses poetic form with grammatical function, ignoring how syntax builds thematic architecture.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Write two original lines in Hindi poetic style that use (a) an infinitive+postposition+habitual construction expressing purpose, and (b) a causative verb in a rhetorically inverted question, mimicking the grammatical patterns of the prescribed poems. Gloss each line grammatically.",
+     "a": "**Line (a):** \"eSa ujh dk jkr fy, [kjhnk gw¡\" — *Grammatical gloss: Subject \"eSa\" (nominative, habitual aspect) + object \"ujh dk jkr\" (light's glow) + infinitive \"jkrs\" + postposition \"fy,\" (for the sake of) + habitual \" [kjhnk gw¡\" (keep watching) = \"I keep watching for the sake of light's glow.\"*\n**Line (b):** \"vkSj dks D;ksa viuh ykHk ls mBks ns[kksxs\" — *Grammatical gloss: Conjunction \"vkSj\" + object \"dks\" (whom) + interrogative \"D;ksa\" + possessive \"viuh ykHk ls\" (from own greed) + causative \"mBks ns[kksxs\" (make see-future, causative of ns[k) = \"And whom will you make see from your own greed?\"* A poor answer uses standard prose word order or misses the causative/infinitive+postposition requirement, showing inability to internalize poetic grammar as generative resource.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

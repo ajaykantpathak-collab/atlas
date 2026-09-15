@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_002",
+   "title": "c10_civ_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define a unitary system of government in one sentence and name one country that follows it.",
+     "a": "A unitary system is one where all sovereign power resides in a single central government, which may create or abolish sub-national units at its discretion; example: United Kingdom (or France, Japan, China). A wrong answer — e.g., \"states have independent powers\" or \"USA is unitary\" — reveals confusion between delegation and constitutional division of sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the existence of a written, rigid constitution is a necessary (but not sufficient) condition for a federal system.",
+     "a": "A written, rigid constitution entrenches the division of powers so that neither level can unilaterally change it; without this, the centre could alter state powers by ordinary law, making the system effectively unitary. A wrong answer — e.g., \"UK has no written constitution so it's federal\" or \"rigidity doesn't matter\" — shows the student misses that constitutional supremacy and entrenchment are what protect state autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: A State Government passes a law on a subject in the State List. The Central Government disagrees and passes a law on the same subject under the Concurrent List. Which law prevails and under which constitutional provision?",
+     "a": "The Central law prevails under Article 254(1) because on Concurrent List subjects, Parliament's law overrides State law in case of conflict. A wrong answer — e.g., \"State law prevails because it's a State subject\" or \"President decides\" — reveals the student cannot apply the supremacy clause and confuses State List with Concurrent List operation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the judiciary in a unitary system versus a federal system. Why is an independent supreme court with original jurisdiction over centre-state disputes a hallmark of federalism?",
+     "a": "In a unitary system, courts interpret laws but cannot invalidate central decisions on federalism grounds because no constitutional division exists; in a federal system, the supreme court acts as the umpire of the federal division (e.g., Article 131 original jurisdiction in India). A wrong answer — e.g., \"judiciary is same in both\" or \"Parliament is supreme in both\" — shows the student does not grasp that federalism requires an arbiter above both levels.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India is a federal country because it has States with elected governments.\" Is this sufficient? Justify with two constitutional features that make India quasi-federal.",
+     "a": "No, elected State governments exist in some unitary systems too (e.g., UK devolution). India is quasi-federal because: (1) Parliament can reorganise States unilaterally under Article 3 (no State consent required), and (2) Emergency provisions (Articles 352, 356, 360) allow the Centre to assume State powers. A wrong answer — listing only \"strong Centre\" without citing Articles — indicates superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical country that wants to transition from unitary to federal. Your provision must entrench State powers, create an umpire, and specify amendment procedure.",
+     "a": "A strong answer includes: (a) enumeration of exclusive State powers in a Schedule, (b) a Supreme Court with original jurisdiction over disputes, (c) amendment requiring majority of States' ratification. A poor answer — omitting ratification or umpire — reveals the student cannot synthesise the institutional architecture of federalism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

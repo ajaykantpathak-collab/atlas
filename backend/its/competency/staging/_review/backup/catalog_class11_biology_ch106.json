@@ -1,0 +1,111 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 106,
+ "chapter_title": "Anatomy of Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo106.txt",
+ "concepts": [
+  {
+   "id": "kebo.6.1.1",
+   "title": "Epidermal Tissue System",
+   "section": "6.1.1",
+   "definition": "In brief, In brief, In brief, In brief, the outermost protective layer of a plant, consisting of epidermal cells, stomata for gas exchange, and appendages like trichomes or root hairs.",
+   "formula": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the epidermis acts as a barrier and regulator for water loss and gas exchange.",
+   "textbook_ref": "kebo106.txt lines 21-45",
+   "question_patterns": [
+    "what constitutes the stomatal apparatus",
+    "describe the function of epidermal tissue system",
+    "how do guard cells regulate transpiration",
+    "differentiate between root hairs and trichomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify components",
+     "explain": "The stomatal apparatus is a functional unit comprising the pore, the regulatory guard cells, and the supporting subsidiary cells."
+    }
+   ]
+  },
+  {
+   "id": "kebo.6.1.3",
+   "title": "Vascular Tissue System",
+   "section": "6.1.3",
+   "definition": "A complex conducting system in plants made up of xylem and phloem, organized into vascular bundles that may be open or closed depending on the presence of cambium.",
+   "formula": "open_bundle = phloem + cambium + xylem",
+   "key_idea": "Cambium presence determines whether a vascular bundle can support secondary growth.",
+   "textbook_ref": "kebo106.txt lines 62-78",
+   "question_patterns": [
+    "distinguish between open and closed vascular bundles",
+    "what is the difference between radial and conjoint bundles",
+    "define the vascular system in plants",
+    "why are monocot bundles called closed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine growth potential",
+     "explain": "If cambium is present, the bundle is open and capable of secondary growth; otherwise, it is closed."
+    }
+   ]
+  },
+  {
+   "id": "kebo.6.2.1",
+   "title": "Dicot vs Monocot Root Anatomy",
+   "section": "6.2.1-6.2.2",
+   "definition": "Root anatomy comparison focusing on the number of xylem bundles (polyarch in monocots) and the presence of secondary growth in dicots.",
+   "formula": "xylem_count = (is_monocot * 7) + (is_dicot * 3)",
+   "key_idea": "Monocot roots are polyarch with large pith, while dicot roots have fewer xylem bundles and undergo secondary growth.",
+   "textbook_ref": "kebo106.txt lines 85-115",
+   "question_patterns": [
+    "compare the internal structure of dicot and monocot roots",
+    "how do you identify a monocot root in T.S.",
+    "explain the role of endodermis in roots",
+    "what is the stele in a root"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify root type",
+     "explain": "Roots with more than 6 xylem bundles are classified as monocotyledonous.",
+     "compute": "is_monocot = max(0, xylem_bundles - 6)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo106.txt lines 135-140",
+   "concept": "kebo.6.1.3",
+   "question_type": "classification",
+   "question_pattern": "A vascular bundle has {cambium_status} cambium. Is it open or closed?",
+   "extracted_variables": {
+    "cambium_status": "presence of cambium"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "check for cambium",
+     "explain": "Presence of cambium defines an open bundle."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "kebo106.txt lines 165-175",
+   "questions": [
+    "Draw illustrations to bring out the anatomical difference between Monocot root and Dicot root.",
+    "The transverse section of a plant material shows scattered vascular bundles and no phloem parenchyma. Identify it.",
+    "What is stomatal apparatus?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

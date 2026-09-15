@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_005",
+   "title": "c10_bio_cbse_03_005",
+   "questions": [
+    {
+     "q": "Name the four whorls of a typical angiosperm flower in order from outermost to innermost, and state which two are called essential whorls.",
+     "a": "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly participate in sexual reproduction (produce gametes). A wrong answer (e.g., listing calyx and corolla as essential) reveals the student confuses protective/attractive functions with reproductive function — a common board exam error where students memorize names but not functional significance.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a flower where the sepals are brightly coloured and petal-like, while the petals are absent. The student writes in the exam: \"This flower has no corolla, so it cannot attract pollinators.\" Explain why this reasoning is biologically incorrect.",
+     "a": "The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e.g., in Clematis or Bougainvillea, the calyx is coloured and attracts pollinators. The student's error is assuming a fixed one-to-one mapping between whorl name and function; board exams test understanding that floral parts can modify their function (homology). A wrong answer indicates the student memorizes definitions but cannot apply the concept of functional adaptation in modified flowers.",
+     "self_check": true
+    },
+    {
+     "q": "In a longitudinal section of a mustard flower ovary, you observe ovules attached to the inner wall of the ovary along a swollen ridge. Identify the type of placentation and explain how this arrangement ensures maximum ovule packaging in a syncarpous, unilocular ovary.",
+     "a": "The placentation is parietal. In a syncarpous (fused carpels) unilocular ovary, the fused margins of carpels form swollen ridges (placentae) on the inner wall; ovules develop on these ridges, maximizing space utilization without a central column. A wrong answer (e.g., axile placentation) shows the student cannot link ovary structure (unilocular vs multilocular) to placentation type — a frequent board exam diagram-labeling trap where students confuse parietal (mustard, cucumber) with axile (tomato, lemon).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations of a wind-pollinated flower (e.g., maize) and an insect-pollinated flower (e.g., mustard) with respect to: (a) perianth, (b) stamens, (c) stigma. Present your comparison as a three-row table.",
+     "a": "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) |\n|---------|--------------------------|-----------------------------|\n| Perianth | Absent or reduced to lodicules (small scales) | Well-developed, coloured petals (corolla) + sepals |\n| Stamens | Versatile, long filaments, exposed anthers; produce light, smooth pollen | Shorter, often hidden; pollen sticky/spiny; anthers may be dorsifixed |\n| Stigma | Large, feathery/branched, exposed outside flower | Compact, sticky, often lobed; positioned to contact insect body |\n\nA wrong answer (e.g., saying wind-pollinated flowers have coloured petals) reveals the student cannot connect floral morphology to pollination syndrome — a core competency question pattern in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question states: \"The androecium is the male reproductive whorl because it produces pollen grains.\" A student writes: \"This statement is false because the anther produces pollen, not the whole androecium.\" Evaluate the student's claim and justify your evaluation.",
+     "a": "The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each stamen = filament + anther). Since the anther is a part of the stamen, and the stamen is the unit of androecium, it is biologically accurate to say the androecium produces pollen grains. The student commits a part-whole logical error — confusing the organ (stamen) with the tissue (anther). Board exams require precise use of collective terms; this error would cost a mark in an assertion-reason question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation activity using locally available flowers (choose any two from: datura, pumpkin, rose, maize, cucumber) to demonstrate the difference between hypogynous, perigynous, and epigynous flowers. List the materials, steps, and the key observation that distinguishes the three types.",
+     "a": "Materials: Fresh flowers of Datura (hypogynous), Rose (perigynous), Cucumber/Pumpkin (epigynous), razor blade, white paper, hand lens. Steps: (1) Remove sepals and petals to expose thalamus and gynoecium attachment. (2) Make a longitudinal section of each flower through the thalamus. (3) Observe the position of ovary relative to insertion of other whorls on thalamus. Key observation: In Datura, ovary sits above the insertion point of sepals/petals/stamens (hypogynous); in Rose, ovary sits in a cup-shaped thalamus (floral cup) with other whorls on the rim (perigynous); in Cucumber, ovary is completely sunk into thalamus with other whorls arising above it (epigynous). A poor answer (e.g., only describing petal colour) shows the student cannot design an investigation targeting a specific morphological criterion — a skill tested in CBSE practical-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

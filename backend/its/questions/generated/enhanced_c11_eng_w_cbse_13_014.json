@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_13_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_13_014",
+   "title": "c11_eng_w_cbse_13_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Essay, English, Literature\") reveals the student does not know the standard answer-writing framework taught from Class 8 onwards and will produce unstructured, narrative responses instead of analytical arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Why is embedding a brief phrase from the poem (e.g., \"sordid boon\") more effective in a board answer than paraphrasing the line as \"a dirty gift\"?",
+     "a": "Embedding the poet's exact words shows precise textual knowledge, allows the examiner to see the language being analysed, and enables discussion of specific word choices (e.g., the oxymoron in \"sordid boon\"). A wrong answer suggests the student treats the poem as a story to summarise rather than a linguistic construct to analyse, leading to vague, low-scoring answers.",
+     "self_check": true
+    },
+    {
+     "q": "A student is asked: \"Explain the phrase 'we lay waste our powers'.\" They write: \"It means we destroy our abilities by working too much.\" Identify the missing PEEL component and rewrite the answer to include it.",
+     "a": "The answer has a Point and partial Explanation but lacks Evidence (the quote itself is the subject, so it's implicitly there) and a Link to the broader theme. A complete PEEL version: \"Point: Wordsworth argues materialism depletes human potential. Evidence: The phrase 'we lay waste our powers' uses the metaphor of environmental destruction for spiritual loss. Explanation: 'Lay waste' suggests deliberate, violent ruin, implying our obsession with 'getting and spending' actively destroys our creative and spiritual faculties. Link: This establishes the poem's central conflict — modern commerce as ecological and spiritual vandalism.\" A wrong rewrite reveals the student cannot distinguish between stating meaning and analysing language.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two opening sentences for a long answer on the poem's theme:\nA) \"In this poem, Wordsworth talks about how people are too busy making money.\"\nB) \"Wordsworth's sonnet presents a scathing critique of industrial-era materialism that alienates humanity from nature.\"\nWhich is better for a Class 11 board exam and why? Analyse the difference in register, precision, and analytical depth.",
+     "a": "Sentence B is superior. It uses academic register (\"scathing critique\", \"industrial-era materialism\", \"alienates\"), identifies the genre (\"sonnet\"), and states an analytical thesis rather than a plot summary. Sentence A uses informal language (\"talks about\", \"making money\") and narrates content. A student choosing A reveals a misconception that literature answers are story retellings; they need explicit modelling of thesis-driven openings.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes in a 6-marker answer: \"The reference to Proteus and Triton shows Wordsworth liked Greek mythology.\" Evaluate this interpretation. Is it sufficient for full marks? Justify your judgment using the poem's context.",
+     "a": "The interpretation is insufficient. It identifies the allusions but fails to explain their *function* in the argument: they represent a vital, imaginative connection to nature that the modern world has lost. The student treats allusions as decorative name-dropping rather than as evidence for the poem's argument that a \"creed outworn\" offers more spiritual truth than modern materialism. A wrong evaluation (saying it's sufficient) reveals the student cannot distinguish between spotting a device and analysing its thematic purpose — a critical Class 11 skill gap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word answer to this question using PEEL structure: \"How does the sestet (last six lines) resolve the conflict established in the octave?\" Include at least one embedded phrase and one device analysis.",
+     "a": "A strong answer: \"Point: The sestet offers a desperate imaginative escape from the octave's spiritual deadlock. Evidence: Wordsworth declares 'I'd rather be / A Pagan suckled in a creed outworn'. Explanation: The metaphor 'suckled' suggests nourishment from an ancient worldview, contrasting with the 'sordid boon' of modern commerce; the paradox 'creed outworn' acknowledges its obsolescence while valuing its vitality. Link: By invoking Proteus and Triton — shape-shifting, prophetic sea deities — the sestet asserts that mythic imagination restores the 'glimpses' and 'sight' that materialism blocks, resolving the conflict through poetic vision rather than social change.\" A poor answer will lack the device analysis (metaphor, paradox) or the link to the octave's conflict.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

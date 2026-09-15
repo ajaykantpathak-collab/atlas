@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_002",
+   "title": "c11_bio_cbse_13_002",
+   "questions": [
+    {
+     "q": "Name the three phases of growth in a plant root apex in correct sequence from tip to base, and state one key cellular feature of the meristematic phase.",
+     "a": "Meristematic → Elongation → Maturation. Key feature of meristematic phase: cells are isodiametric, have dense cytoplasm, prominent nuclei, thin primary cellulosic walls with abundant plasmodesmata, and actively divide. A wrong answer (e.g., listing \"cell division\" as a feature of elongation phase) reveals confusion between the *process* (division) and the *phase* where it occurs; the student may not grasp that phases are spatial zones defined by the *state* of cells, not just activities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the elongation phase is characterized by \"increased vacuolation\" rather than increased cytoplasmic content, and how this drives cell enlargement.",
+     "a": "In elongation, cells absorb water into a central vacuole, generating turgor pressure that stretches the plastic primary wall; cytoplasmic volume remains relatively constant while vacuole occupies up to 90% of cell volume. This is energetically cheaper than synthesizing new cytoplasm. A wrong answer (e.g., \"cytoplasm increases\") reveals a middle-school misconception that growth always means more protoplasm; the student hasn't distinguished between *meristematic* growth (protoplasm increase via division) and *elongation* growth (volume increase via water uptake).",
+     "self_check": true
+    },
+    {
+     "q": "A student cuts a 2 cm segment from the middle of the elongation zone of a maize root and places it in a nutrient medium. Predict whether this segment will increase in length over 24 hours, and justify your prediction using the concept of \"determinate vs. indeterminate growth\" in that phase.",
+     "a": "No, the segment will not elongate significantly. Cells in the elongation phase have *already lost* the capacity to divide (determinate for division) and are undergoing their final, time-limited enlargement. Once removed from the apical meristem's supply of new cells and hormonal signals (auxin gradient), they complete their programmed expansion and enter maturation. A wrong \"yes\" answer reveals the student thinks elongation zone cells retain meristematic potential or that growth is uniformly indeterminate everywhere; they haven't internalized the *spatial determinacy* of each phase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cell wall composition and plasmodesmal frequency in the meristematic phase versus the maturation phase of a xylem vessel element lineage. How do these differences relate to their functions?",
+     "a": "Meristematic phase: thin primary walls (cellulose, hemicellulose, pectin), abundant plasmodesmata for symplastic transport and signaling. Maturation phase (vessel element): thick lignified secondary walls (lignocellulosic), no plasmodesmata (protoplasm lost), forming hollow tubes for apoplastic water conduction. A poor answer (e.g., \"walls get thicker\" without specifying lignin or loss of plasmodesmata) shows the student memorizes \"thickening\" but misses the *functional transition* from symplastic connectivity (growth coordination) to apoplastic conductivity (water transport)—a core concept for understanding differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The maturation phase is the 'end' of growth, so cells in this phase are metabolically inactive.\" Use evidence from at least two cell types in the maturation zone.",
+     "a": "The statement is false. Maturation = *end of size increase*, not metabolic inactivity. Root hair cells (epidermal maturation) are highly active in ion uptake (H+-ATPase pumps, transporters). Phloem sieve tubes (mature) maintain active loading/unloading of sucrose via companion cells. Xylem vessels are the exception (dead at maturity). A student agreeing reveals a conflation of \"growth cessation\" with \"metabolic arrest\"—a senior-secondary error where they overlook that differentiated cells perform specialized *functions* requiring high metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips and two vital stains (e.g., acetocarmine for nuclei, neutral red for vacuoles) to visually demonstrate the transition from meristematic to elongation phase. Sketch expected results and explain how stain intensity patterns confirm the phase boundaries.",
+     "a": "**Experiment:** Stain longitudinally sectioned root tips. **Expected:** Meristematic zone—intense acetocarmine (dense small nuclei), faint neutral red (tiny vacuoles). Elongation zone—moderate acetocarmine (nuclei enlarge but chromatin less dense), strong neutral red (large central vacuole). Maturation zone—variable acetocarmine (some nuclei degenerate in xylem), intense neutral red (vacuole fills cell). **Good answer** includes: staining rationale, zone demarcation criteria, and link to vacuolation driving elongation. A poor answer (e.g., just \"stain and look\") shows inability to translate cellular features into testable visual markers—lacking *experimental design* competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

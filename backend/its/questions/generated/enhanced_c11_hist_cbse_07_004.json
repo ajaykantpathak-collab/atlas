@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_004",
+   "title": "c11_hist_cbse_07_004",
+   "questions": [
+    {
+     "q": "Identify the Florentine architect who conducted the famous baptistery experiment (c. 1415) demonstrating linear perspective using a painted panel, a mirror, and a peephole.",
+     "a": "**Filippo Brunelleschi.** A wrong answer (e.g., Alberti, Masaccio, or Leonardo) reveals confusion between the *inventor* of the practical demonstration (Brunelleschi), the *theorist* who codified it in writing (Alberti, *De Pictura*, 1435), and the *painters* who first applied it in major works (Masaccio, *Holy Trinity*, c. 1425–27). Students often conflate these three distinct roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Masaccio's *Holy Trinity* (Santa Maria Novella, c. 1425–27) is considered the first fully perspectival painting in Western art, referencing both the architectural setting and the viewer's position.",
+     "a": "Masaccio painted a **coffered barrel-vaulted chapel** receding to a **single vanishing point at the viewer's eye level** (approx. 1.6 m), making the fictive architecture appear as a real extension of the church. The donor figures kneel *outside* the架构 space, reinforcing the illusion. A wrong answer that only mentions \"3D look\" or \"vanishing point\" without specifying the *viewer-centred geometry* or the *architectural coherence* shows the student sees perspective as a visual trick rather than a **mathematical projection system** tied to a fixed spectator position.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Leonardo's *Last Supper* uses perspective only to show depth.\" Using the orthogonals (receding lines) and the placement of Christ, analyse how the perspective system **structures the theological meaning** of the composition.",
+     "a": "The orthogonals of the ceiling coffers and wall tapestries **converge precisely on Christ's head**, making him the unmoving centre of a dynamic composition where the apostles' gestures radiate outward in groups of three. This geometric centring visualises the theological concept of Christ as the *axis mundi* — the still point around which human chaos (the betrayal) revolves. A student who only describes \"depth\" misses that **perspective here is an exegetical tool**, not merely a spatial one. This confusion stems from treating perspective as a neutral technique rather than a meaning-making device.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **workshop practice** of a Quattrocento painter (e.g., Ghirlandaio's studio) with the **working method** of Michelangelo on the Sistine Chapel ceiling (1508–12). Identify three structural differences in labour, authorship, and intellectual preparation.",
+     "a": "1. **Labour**: Ghirlandaio ran a **collaborative workshop** with assistants executing large portions from cartoons; Michelangelo **fired his assistants** early and painted nearly all 300+ figures himself.  \n2. **Authorship**: Ghirlandaio's contracts specified output by *the workshop*; Michelangelo's contract (after negotiation) recognised **his personal hand** as the value.  \n3. **Intellectual preparation**: Ghirlandaio followed established iconographic programs; Michelangelo **devised the complex theological iconography** himself, requiring deep scriptural and Neoplatonic study.  \nA wrong answer focusing only on \"Michelangelo was more famous\" misses the **institutional shift** from guild-regulated production to individual intellectual property.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The artist's rise to genius status was primarily due to the invention of perspective.\" Argue for or against using evidence from patronage, humanist theory, and artistic self-representation.",
+     "a": "**Against.** Perspective was a *necessary but insufficient* condition.  \n- **Patronage**: Medici, Sforza, and papal courts competed for *named* artists (Leonardo, Raphael) as cultural capital, not just perspective experts.  \n- **Humanist theory**: Alberti (*De Pictura*) and Vasari (*Lives*, 1550) explicitly argued painting is a **liberal art** requiring geometry, anatomy, history, and poetry — elevating it above mechanical crafts.  \n- **Self-representation**: Artists inserted **self-portraits** into religious works (Botticelli in *Adoration of the Magi*, Raphael in *School of Athens*), signed works (Michelangelo's *Pietà*), and wrote poetry/letters asserting intellectual parity with scholars.  \nA student agreeing with the claim reduces a complex socio-cultural transformation to a single technical innovation, ignoring the **humanist redefinition of art as intellectual labour**.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-panel visual timeline (described in words) showing the **progression from symbolic to optical realism** in the depiction of the human body from c. 1300 to 1520. For each panel, name one work, one technical advance, and one conceptual shift.",
+     "a": "**Panel 1 (c. 1305) — Giotto, *Lamentation* (Scrovegni Chapel)**  \nTechnique: **Chiaroscuro modelling** gives volume to drapery and flesh.  \nShift: Figures occupy **gravitational space**; emotion shown through gesture, not hieratic symbol.  \n\n**Panel 2 (c. 1425) — Masaccio, *Expulsion* (Brancacci Chapel)**  \nTechnique: **Anatomical accuracy** (Adam's tense muscles, Eve's contrapposto) + single light source.  \nShift: The **nude as vulnerable human**, not idealised type; psychology through body language.  \n\n**Panel 3 (c. 1498) — Leonardo, *Vitruvian Man* (drawing)**  \nTechnique: **Geometric canon** — body inscribed in circle and square based on Vitruvius.  \nShift: Body as **microcosm of cosmic proportion**; artist as scientist measuring nature.  \n\n**Panel 4 (1508–12) — Michelangelo, *Ignudi* (Sistine Ceiling)**  \nTechnique: **Dynamic contrapposto** and *terribilità* — muscles in torsion, foreshortening.  \nShift: Body as **vehicle for divine energy**; artist as creator rivaling God (*paragone*).  \n\nA poor answer lists works without linking technique to conceptual shift, treating realism as linear \"improvement\" rather than changing *ideals of the human*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 109,
+  "chapter_title": "Yoga",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks109.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks109.1.1",
+      "title": "Yoga: Harmony of Body and Mind",
+      "section": "1.1",
+      "definition": "Yoga is an ancient Indian wisdom and cultural heritage focusing on harmony -- between body and mind, thought and action, restraint and fulfilment, human and nature. It is at once an art and a science of healthy living, aiming at a holistic approach to health and well-being.",
+      "formula": "",
+      "key_idea": "Yoga tunes the whole instrument -- body, breath, mind and world brought into one harmony.",
+      "textbook_ref": "keks109.txt opening (ancient indian wisdom, cultural and spiritual heritage, harmony body mind, art and science of healthy living)",
+      "question_patterns": [
+        "what is meant by yoga as harmony between body and mind",
+        "in class 11 yoga chapter: why is yoga called an art and science of healthy living",
+        "list the pairs of opposites that yoga seeks to harmonise",
+        "why is yoga called our cultural and spiritual heritage",
+        "how does yoga offer a holistic approach to health",
+        "distinguish yoga from mere physical exercise"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the aim",
+          "explain": "Yoga's work is joining -- bringing into harmony the divisions within and around us."
+        },
+        {
+          "step": 2,
+          "action": "state the means",
+          "explain": "Disciplined practice of posture, breath and attention cultivates that harmony."
+        },
+        {
+          "step": 3,
+          "action": "state the result",
+          "explain": "Health and well-being follow as wholeness -- the art and science of living well."
+        }
+      ]
+    },
+    {
+      "id": "keks109.1.2",
+      "title": "The Eight Limbs: Ashtanga of Yoga",
+      "section": "1.2",
+      "definition": "Classical yoga is systematised as ashtanga -- eight limbs: yama and niyama of ethical living, asana for steady posture, pranayama for regulated breath, pratyahara withdrawing the senses, then dharana, dhyana and samadhi as progressive states of concentration and absorption.",
+      "formula": "",
+      "key_idea": "Eight limbs from ethics to absorption -- posture and breath are just the first rungs of a long ladder.",
+      "textbook_ref": "keks109.txt limbs sections (ashtanga yoga, yama niyama asana pranayama pratyahara dharana dhyana samadhi)",
+      "question_patterns": [
+        "name the eight limbs of yoga",
+        "in class 11 yoga chapter: what do yama and niyama cover",
+        "why is pranayama important in yoga practice",
+        "distinguish dharana dhyana and samadhi",
+        "what is pratyahara and why does it precede concentration",
+        "explain how the eight limbs form a progressive path"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "start with conduct",
+          "explain": "Yama and niyama lay the ethical base -- restraint and observance that steady life itself."
+        },
+        {
+          "step": 2,
+          "action": "train body and breath",
+          "explain": "Asana stabilises the body; pranayama regulates the breath that links body and mind."
+        },
+        {
+          "step": 3,
+          "action": "turn inward",
+          "explain": "Pratyahara withdraws the senses; dharana holds attention; dhyana deepens into flow; samadhi completes the absorption."
+        }
+      ]
+    },
+    {
+      "id": "keks109.1.3",
+      "title": "Benefits of Yoga for Health and Well-being",
+      "section": "1.3",
+      "definition": "Regular yoga practice yields measurable benefits: flexibility and strength from asanas, calmer respiration and stress relief from pranayama, better concentration and emotional balance from meditative limbs. As preventive health, yoga addresses lifestyle disorders by working on the whole person rather than isolated symptoms.",
+      "formula": "",
+      "key_idea": "Practice pays in body and mind alike -- strength, calm, focus and resilience against lifestyle disease.",
+      "textbook_ref": "keks109.txt benefits sections (flexibility, stress relief, concentration, lifestyle disorders, preventive health, well being)",
+      "question_patterns": [
+        "what are the physical benefits of yoga practice",
+        "in class 11 yoga chapter: how does yoga help in stress management",
+        "explain yoga as preventive health for lifestyle disorders",
+        "how do asanas differ from ordinary exercise in their effects",
+        "what mental benefits follow from meditation and dhyana",
+        "design a simple daily yoga routine for a student"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "train the body",
+          "explain": "Asanas improve flexibility, posture and strength while massaging internal systems."
+        },
+        {
+          "step": 2,
+          "action": "settle the breath and mind",
+          "explain": "Pranayama steadies respiration and emotion; meditative practice builds concentration and calm."
+        },
+        {
+          "step": 3,
+          "action": "prevent and protect",
+          "explain": "Practised regularly, yoga counters sedentary lifestyle disorders and sustains overall well-being."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks109.txt limbs sections",
+      "concept": "keks109.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student thinks yoga means only asanas. Correct the picture using the eight limbs.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant the visible part",
+          "explain": "Asanas are indeed one limb -- the third -- and the most photographed."
+        },
+        {
+          "step": 2,
+          "action": "show the earlier limbs",
+          "explain": "Ethics (yama-niyama) come first, and breath regulation (pranayama) follows asanas."
+        },
+        {
+          "step": 3,
+          "action": "show the later limbs",
+          "explain": "Sense-withdrawal, concentration, meditation and samadhi complete the path beyond any gym routine."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks109.txt benefits sections",
+      "concept": "keks109.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A student facing exam stress begins ten minutes of daily pranayama and dhyana. Explain what changes the chapter would predict.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "predict the breath effect",
+          "explain": "Slow, regulated breathing calms the nervous system, easing anxiety."
+        },
+        {
+          "step": 2,
+          "action": "predict the attention effect",
+          "explain": "Daily dhyana strengthens concentration, improving study quality."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Together they illustrate yoga's preventive, whole-person approach to a modern problem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks109.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain yoga as harmony between opposites.",
+        "Name and explain the eight limbs of yoga.",
+        "What is the importance of yama and niyama in daily life?",
+        "Describe the benefits of pranayama.",
+        "How does yoga act as preventive health care?",
+        "Distinguish dharana, dhyana and samadhi."
+      ]
+    }
+  ]
+}

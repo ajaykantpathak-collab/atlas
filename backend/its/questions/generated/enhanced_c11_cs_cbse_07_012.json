@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_012",
+   "title": "c11_cs_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the correct syntax to access the practical marks of 'Chemistry' for student with roll number 102 in a nested dictionary `marks` where the structure is `marks[roll_no][subject]['practical']`?",
+     "a": "The correct syntax is `marks[102]['Chemistry']['practical']`. A wrong answer like `marks[102]['practical']['Chemistry']` reveals the student misunderstands the hierarchy order — they think the inner-most key comes first. Another common error `marks.102.Chemistry.practical` shows confusion between dictionary key access (square brackets) and attribute access (dot notation) used in objects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a KeyError: `student_db = {}; student_db[101]['Math'] = 95`",
+     "a": "The code raises KeyError because `student_db[101]` does not exist yet — you cannot assign to a key inside a dictionary that is itself a value of a non-existent key. The student must first create the inner dictionary: `student_db[101] = {}` or `student_db[101] = {'Math': 95}`. A wrong explanation like \"101 is not a valid key\" reveals the student thinks dictionary keys have restrictions beyond being hashable, missing the real issue: the intermediate container is missing.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = {'A': {'x': 1, 'y': 2}, 'B': {'x': 3, 'y': 4}}`, write a loop to print the sum of 'x' and 'y' for each outer key.",
+     "a": "```python\nfor key in data:\n    total = data[key]['x'] + data[key]['y']\n    print(key, total)\n```\nOutput: A 3, B 7. A wrong attempt using `for key, val in data:` (missing `.items()`) or trying to unpack `val['x']` without checking if `val` is a dictionary reveals the student doesn't understand that iterating a dictionary yields only keys, and the value must be accessed separately to reach the inner dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two approaches for adding a new subject to an existing student in a nested dictionary. Which is safer and why?\nApproach 1: `records[101]['Biology'] = {'theory': 80, 'practical': 20}`\nApproach 2: `records[101].update({'Biology': {'theory': 80, 'practical': 20}})`",
+     "a": "Both work when `records[101]` exists, but Approach 1 is more readable for single additions. Approach 2 is better when adding multiple subjects at once. A student who says \"Approach 2 is always better because update() is a method\" reveals they memorize method names without understanding use cases. The key analytical point: direct assignment is atomic and clear for one key; update() shines for bulk updates from another dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to find the topper in Physics theory across all students:\n```python\ntopper = max(records, key=lambda r: records[r]['Physics']['theory'])\n```\nCritique this code — when will it fail and how would you fix it?",
+     "a": "The code fails with KeyError if any student lacks 'Physics' or 'theory' keys. It also fails if `records` is empty (ValueError). Fix: use `records[r].get('Physics', {}).get('theory', 0)` in the lambda to provide defaults, and check `if records:` before calling max(). A student who says \"it always works\" hasn't considered missing keys or empty data — a critical oversight in real-world data where not all students take all subjects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nested dictionary structure to store a school timetable: each class (e.g., '11A') has a weekly schedule where each day (Mon-Fri) maps to a list of period dictionaries with keys 'subject', 'teacher', 'room'. Show the structure for Class 11A with Monday having two periods.",
+     "a": "```python\ntimetable = {\n    '11A': {\n        'Monday': [\n            {'subject': 'Physics', 'teacher': 'Dr. Rao', 'room': 'Lab 1'},\n            {'subject': 'Math', 'teacher': 'Ms. Iyer', 'room': 'Room 203'}\n        ],\n        'Tuesday': [],\n        ...\n    }\n}\n```\nA poor answer uses flat keys like `'11A_Monday_1_subject'` showing inability to model hierarchical relationships. A good answer uses three levels (class → day → list of periods) with appropriate data types (dict for class/day, list for ordered periods, dict for period details), demonstrating structural thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

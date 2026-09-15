@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_10",
+   "title": "c9_physics_ch3_10",
+   "questions": [
+    {
+     "q": "State the parallelogram law of vector addition for two forces acting at a point. What is the SI unit of the resultant force?",
+     "a": "The parallelogram law states: If two forces acting at a point are represented in magnitude and direction by the two adjacent sides of a parallelogram, their resultant is represented in magnitude and direction by the diagonal of the parallelogram passing through that point. The SI unit of resultant force is newton (N). A wrong answer (e.g., \"resultant is the sum of magnitudes\" or unit as \"kg\") reveals the student treats force as a scalar or confuses mass with force.",
+     "self_check": true
+    },
+    {
+     "q": "Two forces of 5 N and 12 N act at a point at an angle of 90° to each other. A student says the resultant is 17 N. Explain why this is incorrect and state the correct magnitude.",
+     "a": "The student incorrectly added the magnitudes as scalars, ignoring the 90° angle. Forces are vectors; the resultant magnitude is found using Pythagoras: √(5² + 12²) = √(25 + 144) = √169 = 13 N. A wrong answer shows the student does not grasp vector addition and treats forces like ordinary numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Three forces act on a box on a smooth floor: 10 N east, 6 N north, and 8 N west. Calculate the magnitude and direction of the resultant force. (Take east as +x, north as +y)",
+     "a": "Step 1: Identify components. F₁ₓ = +10 N, F₁ᵧ = 0; F₂ₓ = 0, F₂ᵧ = +6 N; F₃ₓ = -8 N, F₃ᵧ = 0.  \nStep 2: Sum x-components: Rₓ = 10 + 0 - 8 = 2 N. Sum y-components: Rᵧ = 0 + 6 + 0 = 6 N.  \nStep 3: Magnitude R = √(Rₓ² + Rᵧ²) = √(2² + 6²) = √(4 + 36) = √40 = 6.32 N.  \nStep 4: Direction θ = tan⁻¹(Rᵧ/Rₓ) = tan⁻¹(6/2) = tan⁻¹(3) ≈ 71.6° north of east.  \nStep 5: Check: Resultant points mostly north with a small east component, consistent with forces.  \nA wrong answer (e.g., 24 N) reveals the student added all magnitudes without vector resolution.",
+     "self_check": true
+    },
+    {
+     "q": "A force of 20 N acts at 30° above the horizontal. Another force of 15 N acts at 60° above the horizontal. Without calculating the exact resultant, compare the horizontal and vertical components of the resultant. Which component will be larger? Justify.",
+     "a": "Horizontal components: 20 cos30° ≈ 17.3 N, 15 cos60° = 7.5 N → total ≈ 24.8 N.  \nVertical components: 20 sin30° = 10 N, 15 sin60° ≈ 13 N → total ≈ 23 N.  \nThe horizontal component is slightly larger because both forces have significant horizontal projections (cos30° and cos60° are both > 0.5), while the vertical projections are limited by sin30° = 0.5. A wrong answer (e.g., \"vertical is larger because angles are steeper\") shows confusion between angle size and component magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a free-body diagram of a book on a table with three forces: weight (down), normal reaction (up), and a horizontal push (right). The student claims the resultant force is zero because \"up and down cancel.\" Evaluate this claim.",
+     "a": "The claim is incorrect. The vertical forces (weight and normal) cancel each other, giving zero vertical resultant. However, the horizontal push has no opposing force shown, so there is a net horizontal resultant force to the right. The book will accelerate horizontally. A wrong evaluation reveals the student thinks \"resultant zero\" if any pair cancels, ignoring other components.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a force table (or three spring balances tied to a ring) to verify the triangle law of vector addition for three forces in equilibrium. List the steps and what you would measure.",
+     "a": "Steps: 1) Tie three spring balances to a small ring. 2) Fix the ends of two balances to a board, pull the third to center the ring. 3) Record the readings (magnitudes) and angles of all three forces. 4) Draw a scale diagram: represent two forces as two sides of a triangle; the third side should match the third force in magnitude and opposite direction. 5) If the triangle closes, the vector sum is zero (equilibrium). A poor answer (e.g., \"just pull and see\") shows inability to translate physical setup into vector verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

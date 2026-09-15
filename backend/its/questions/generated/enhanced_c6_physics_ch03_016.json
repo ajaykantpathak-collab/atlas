@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_016",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_016",
+   "title": "c6_physics_ch03_016",
+   "questions": [
+    {
+     "q": "What is the primary function of an electric cell inside a device like a torch?",
+     "a": "An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\" is incomplete, as it misses the energy transformation process which is the core scientific concept.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a remote that requires two cells to work, is it correct to call the pair a \"battery\"?",
+     "a": "Yes, because a battery is technically a collection of two or more cells connected together. If a student says \"no, those are just two cells,\" they are missing the distinction that a group of cells functions as a single battery unit.",
+     "self_check": true
+    },
+    {
+     "q": "A student connects a wire from one terminal of a cell to the other terminal of the same cell. What happens, and why?",
+     "a": "Current flows through the wire because the cell creates a voltage difference between the terminals. If the student answers \"nothing happens,\" they fail to understand that a complete path (circuit) allows the chemical energy to transform into electrical current.",
+     "self_check": true
+    },
+    {
+     "q": "Why do some devices use one cell while others, like large flashlights, use three or four?",
+     "a": "Devices use multiple cells (batteries) to provide more electrical energy or a higher voltage than a single cell can provide alone. An answer like \"to make it heavier\" shows a lack of understanding regarding the purpose of voltage in powering electrical components.",
+     "self_check": true
+    },
+    {
+     "q": "If a battery-operated toy stops working, is it because the chemicals inside are \"used up\" or because the metal casing is broken?",
+     "a": "The chemicals are \"used up\" because the conversion of chemical energy to electrical energy is a finite process. A student who guesses \"the casing is broken\" is ignoring the internal energy-conversion nature of the cell.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you have a device that needs 3 volts to run, but you only have 1.5-volt cells. How would you solve this using the definition of a battery?",
+     "a": "You would connect two 1.5-volt cells together to form a battery to reach the required 3 volts. A poor answer would suggest using only one cell or would fail to mention connecting them, showing a misunderstanding of how cells combine to form a battery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

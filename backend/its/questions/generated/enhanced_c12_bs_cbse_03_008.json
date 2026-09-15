@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_008",
+   "title": "c12_bs_cbse_03_008",
+   "questions": [
+    {
+     "q": "What were the two specific denominations demonetised on November 8, 2016, and what percentage of currency in circulation by value did they constitute?",
+     "a": "The demonetised denominations were ₹500 and ₹1,000 notes, which together constituted 86% of the total currency in circulation by value. A wrong answer (e.g., naming ₹200 and ₹2,000 or stating 50%) reveals the student has not memorised the basic factual anchor required for every subsequent analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why demonetisation is described as a \"tax administration measure\" in the NCERT text.",
+     "a": "Demonetisation forced holders of undeclared cash (black money) to either deposit it in banks — revealing their identity and income to tax authorities — or lose its value entirely. Those who deposited unaccounted cash faced scrutiny, penalty taxes, and investigation. A wrong answer that says \"it increased tax rates\" or \"it was a monetary policy tool to control inflation\" shows confusion between fiscal/administrative intent and standard monetary policy.",
+     "self_check": true
+    },
+    {
+     "q": "A small manufacturing firm used to pay daily wages in cash. After demonetisation, it opened bank accounts for all workers and switched to NEFT transfers. Identify which two of the six NCERT impact dimensions this change directly illustrates, and explain the causal link.",
+     "a": "The change illustrates (1) Digitisation — adoption of digital payments (NEFT) by new users — and (2) Money/Interest rates — increased bank deposits expanding the formal financial savings pool, which puts downward pressure on interest rates. A student who picks \"Private wealth\" or \"Real estate\" misses the direct operational shift from cash to digital payroll.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of demonetisation on \"Private wealth\" versus \"Public sector wealth\" as per the Economic Survey 2016–17 summary. Why did they diverge?",
+     "a": "Private wealth declined because some high-denomination notes were never returned (extinguished) and real estate prices fell due to reduced cash demand. Public sector wealth showed no effect because the government's net liability (currency in circulation) decreased by the value of unreturned notes, but this was offset by the RBI's dividend transfer to the government; the net worth of the public sector did not change materially. A wrong answer claiming \"public sector wealth increased because RBI printed new notes\" confuses seigniorage with wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Demonetisation successfully eliminated black money in India.\" Use at least two NCERT impact dimensions to support your evaluation.",
+     "a": "The statement is overstated. Demonetisation targeted only *cash* holdings of black money, not black wealth held in gold, real estate, benami accounts, or offshore assets. The NCERT data shows private wealth declined partly due to unreturned notes and real estate price correction, but tax collection rose mainly due to *disclosure* of previously hidden income, not elimination of all future black money generation. A student who agrees uncritically ignores the distinction between stock (existing cash) and flow (ongoing generation) and the limited scope of a one-time currency swap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 5-question survey for a local market association to assess the *lasting* behavioural changes in digital payment adoption three years after demonetisation. Each question must map to one of the six impact dimensions.",
+     "a": "Example mapping: (1) Money/Interest rates — \"Has your average cash holding decreased compared to 2016?\" (2) Private wealth — \"Did you declare any previously unreported cash income during the deposit window?\" (3) Public sector wealth — \"Are you aware of any change in municipal tax rates or services funded by increased collections?\" (4) Digitisation — \"What percentage of your daily transactions are now digital (UPI/QR/PoS) vs cash?\" (5) Real estate — \"Have property rental/sale prices in your area changed since 2016?\" (6) Tax collection — \"Has your tax filing status or advance tax payment changed post-2016?\" A poor survey asks only \"Do you like digital payments?\" without dimensional anchoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

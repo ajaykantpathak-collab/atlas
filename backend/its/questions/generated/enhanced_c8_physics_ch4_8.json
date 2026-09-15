@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_8",
+   "title": "c8_physics_ch4_8",
+   "questions": [
+    {
+     "q": "State the SI unit of wind speed and define wind direction as reported by the India Meteorological Department.",
+     "a": "SI unit: metre per second (m/s). Wind direction is the direction FROM which the wind blows, expressed in degrees (0° = north, 90° = east) or compass points (N, NE, E...). A wrong answer (e.g., giving km/h as SI unit or saying wind direction is where it blows to) reveals confusion between common usage and scientific convention, or misunderstanding the \"from\" convention used globally in meteorology.",
+     "self_check": true
+    },
+    {
+     "q": "Why does wind not blow directly from high pressure to low pressure in the Northern Hemisphere? Explain the role of Earth's rotation.",
+     "a": "Earth's rotation causes the Coriolis effect, which deflects moving air to the right in the Northern Hemisphere. As air moves from high to low pressure, this deflection makes it flow parallel to isobars (geostrophic wind) rather than straight across them. A wrong answer (e.g., \"friction turns the wind\" or \"wind goes straight\") shows the student hasn't grasped that Coriolis is a deflection due to rotation, not a friction force, and that it acts perpendicular to velocity.",
+     "self_check": true
+    },
+    {
+     "q": "An anemometer at a coastal station records 1200 rotations in 5 minutes. Its calibration is 1 rotation = 0.5 m of air passage. Calculate the average wind speed in m/s and km/h.",
+     "a": "Step 1: Total distance = 1200 rotations × 0.5 m/rotation = 600 m. Step 2: Time = 5 min = 300 s. Step 3: Speed = distance/time = 600 m / 300 s = 2 m/s. Step 4: Convert to km/h: 2 m/s × 3600 s/h ÷ 1000 m/km = 7.2 km/h. Answer: 2 m/s (7.2 km/h). A wrong answer (e.g., 600/5 = 120 m/min without unit conversion) reveals inability to handle time-unit conversion or track units through multi-step calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Two cities, A and B, are 500 km apart. City A has pressure 1012 hPa, City B has 1004 hPa. The isobars are straight and parallel. Compare the pressure gradient force (PGF) magnitude at both cities and predict the wind direction at City A if it's in the Northern Hemisphere.",
+     "a": "PGF magnitude is the same at both cities because pressure gradient (ΔP/Δx) is uniform for straight parallel isobars: (1012-1004) hPa / 500 km = 0.016 hPa/km. In Northern Hemisphere, Coriolis deflects wind to the right of PGF. PGF points from A (high) to B (low). Wind at A will be deflected right, blowing roughly parallel to isobars with low pressure to its left. A wrong answer (e.g., PGF stronger at B, or wind blows straight A→B) shows misunderstanding that PGF depends on gradient not absolute pressure, and that Coriolis alters direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Near the ground, friction reduces wind speed, which weakens the Coriolis force, so the wind crosses isobars at a larger angle towards low pressure.\" Evaluate this statement.",
+     "a": "The statement is CORRECT. Friction reduces wind speed → Coriolis force (proportional to speed) decreases → pressure gradient force (unchanged) now dominates → net force has a larger component toward low pressure → wind crosses isobars at a larger angle (typically 30-45° over land). A wrong evaluation (e.g., \"friction increases Coriolis\" or \"angle decreases\") reveals confusion about the vector balance: PGF constant, Coriolis drops with speed, so resultant points more toward low pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate how surface roughness affects wind speed near the ground. List materials, procedure, and what you would measure.",
+     "a": "Materials: Table fan (constant speed), long smooth floor (tiles), same floor covered with rugs/towels, lightweight ribbon or tissue paper strips, tape measure, stopwatch. Procedure: 1) Place fan at one end blowing along floor. 2) On smooth floor, hold ribbon at 1 m, 2 m, 3 m from fan; measure how far it deflects horizontally (or time to travel fixed distance). 3) Repeat with rough rug surface. Measure: deflection angle or travel time at each distance. Expected: Ribbon deflects less (slower wind) over rough surface at same distance. A poor answer (e.g., no control of fan speed, measuring only one surface) shows inability to isolate the variable (roughness) and design a fair test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

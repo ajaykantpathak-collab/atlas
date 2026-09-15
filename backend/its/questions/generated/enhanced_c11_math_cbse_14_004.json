@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_004",
+   "title": "c11_math_cbse_14_004",
+   "questions": [
+    {
+     "q": "Write the truth table for the implication p → q. In which row(s) is the implication false?",
+     "a": "The truth table for p → q:\n| p | q | p → q |\n|---|---|-------|\n| T | T |   T   |\n| T | F |   F   |\n| F | T |   T   |\n| F | F |   T   |\nThe implication is FALSE only in the second row (p true, q false). A wrong answer where a student marks row 3 or 4 as false reveals the misconception that \"false hypothesis makes implication false\" — they are confusing implication with everyday causal reasoning where \"if it rains, the ground gets wet\" feels wrong if it doesn't rain but ground is wet. This shows they haven't grasped the truth-functional definition of material implication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"If 2+2=5, then the moon is made of cheese\" is considered TRUE in mathematical logic, even though both parts are false.",
+     "a": "In mathematical logic, an implication p → q is defined by its truth table: it is false ONLY when p is true and q is false. Here p=\"2+2=5\" is false, q=\"moon is made of cheese\" is false. Since p is false, the implication is vacuously true (rows 3 and 4 of truth table). The statement makes no claim about what happens when 2+2≠5, so it cannot be falsified. A wrong answer claiming it's \"false because both are false\" or \"meaningless\" reveals the student is applying natural language causality instead of the formal truth-functional definition. They need to understand that mathematical implication is not about causation but about truth preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite each statement in the form \"If p, then q\" and identify p and q:\n(a) \"You can access the internet only if you have a password.\"\n(b) \"A quadrilateral is a square if it is a rectangle with equal sides.\"\n(c) \"Being a citizen of India is sufficient for voting in Indian elections.\"\n(d) \"The function f is continuous only if it is differentiable.\"",
+     "a": "(a) p: You have a password, q: You can access the internet. If you have a password, then you can access the internet. (Note: \"p only if q\" translates to p → q, NOT q → p)\n(b) p: It is a rectangle with equal sides, q: A quadrilateral is a square. If a quadrilateral is a rectangle with equal sides, then it is a square.\n(c) p: Being a citizen of India, q: Voting in Indian elections. If you are a citizen of India, then you can vote in Indian elections. (\"p is sufficient for q\" means p → q)\n(d) p: The function f is continuous, q: It is differentiable. If the function f is continuous, then it is differentiable. (\"p only if q\" means p → q)\nA student who reverses (a) or (d) to q → p reveals the classic \"only if\" reversal error. A student who reverses (c) reveals confusion between \"sufficient\" and \"necessary\" conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Given p: \"x is a prime number greater than 2\" and q: \"x is odd\". Determine the truth value of p → q, q → p (converse), ~p → ~q (inverse), and ~q → ~p (contrapositive). Which pairs are logically equivalent?",
+     "a": "For any x:\n- p → q: \"If x is prime >2, then x is odd\" — TRUE (all primes >2 are odd)\n- q → p: \"If x is odd, then x is prime >2\" — FALSE (counterexample: x=9 is odd but not prime)\n- ~p → ~q: \"If x is NOT prime >2, then x is NOT odd\" — FALSE (x=4 is not prime >2 but is even, wait — ~q means \"not odd\" = even. x=9: ~p true (9 not prime), ~q false (9 is odd, so not even). So ~p→~q is false for x=9)\n- ~q → ~p: \"If x is NOT odd (i.e., even), then x is NOT prime >2\" — TRUE (no even number >2 is prime)\n\nLogically equivalent pairs: p → q ≡ ~q → ~p (contrapositive). q → p ≡ ~p → ~q (converse and inverse are equivalent to each other but NOT to original).\nA student who claims all four have same truth value reveals they don't understand that only contrapositive preserves truth value. A student who says converse is true for x=3 reveals they're testing specific values instead of universal quantification.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The statement 'If a triangle is equilateral, then it is isosceles' is false because an equilateral triangle has ALL sides equal, while an isosceles triangle has ONLY two sides equal. So the conclusion is wrong.\" Evaluate this argument.",
+     "a": "The student's argument is INCORRECT. In standard mathematical definition, an isosceles triangle is defined as a triangle with AT LEAST two equal sides. An equilateral triangle (three equal sides) satisfies this definition, so it IS isosceles. The implication \"If equilateral, then isosceles\" is TRUE. The student's error stems from using an exclusive definition of isosceles (\"exactly two equal sides\") instead of the inclusive mathematical definition (\"at least two equal sides\"). This reveals a definitional misunderstanding, not a logical one. If the student insists on exclusive definition, they should state it explicitly, but then they're not using standard mathematical terminology. This shows the importance of precise definitions in mathematical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving an implication where the hypothesis is false but the implication is still considered true. Explain why this doesn't violate common sense when understood as a logical rule rather than a causal claim.",
+     "a": "Example: \"If it rains in Delhi tomorrow, then I will carry an umbrella.\" Suppose it does NOT rain in Delhi tomorrow (hypothesis false). Whether I carry an umbrella or not, the statement remains true because I only promised action IF it rains. I didn't promise to NOT carry an umbrella if it doesn't rain. This doesn't violate common sense because the statement is a conditional promise, not a causal law. A good answer will clearly separate the logical structure (promise about condition) from causal expectation. A poor answer will say \"it's true because logic says so\" without explaining the promise analogy, showing they memorized the rule without understanding the intuition behind vacuous truth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

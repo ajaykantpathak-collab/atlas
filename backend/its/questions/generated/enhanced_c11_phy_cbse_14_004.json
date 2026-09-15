@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_004",
+   "title": "c11_phy_cbse_14_004",
+   "questions": [
+    {
+     "q": "State the formula for speed of sound in an ideal gas and name the three variables it depends on. What is the SI unit of each variable?",
+     "a": "The formula is \\( v = \\sqrt{\\frac{\\gamma P}{\\rho}} \\). Variables: \\( \\gamma \\) (dimensionless ratio of specific heats), \\( P \\) (pressure in Pa = N/m²), \\( \\rho \\) (density in kg/m³). A wrong answer (e.g., saying it depends on pressure alone) reveals the student hasn't combined the ideal gas law with the formula to see the temperature dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the speed of sound in air increase with temperature even though pressure also increases when air is heated in a closed container? Explain using the formula \\( v = \\sqrt{\\frac{\\gamma P}{\\rho}} \\).",
+     "a": "In a closed container, heating increases both \\( P \\) and \\( \\rho \\) proportionally (since mass and volume are fixed), so \\( P/\\rho \\) remains constant. But in the open atmosphere, heating at constant pressure reduces density \\( \\rho \\), so \\( v \\) increases. A student who says \"pressure increases so speed increases\" misses the simultaneous density change and the open-system condition.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the speed of sound in air at 27°C given that at 0°C it is 331 m/s. Use the relation \\( v \\propto \\sqrt{T} \\) with absolute temperature in Kelvin.",
+     "a": "\\( T_1 = 273 \\) K, \\( v_1 = 331 \\) m/s. \\( T_2 = 300 \\) K. \\( v_2 = v_1 \\sqrt{\\frac{T_2}{T_1}} = 331 \\times \\sqrt{\\frac{300}{273}} = 331 \\times \\sqrt{1.0989} \\approx 331 \\times 1.048 = 347 \\) m/s. A wrong answer using Celsius temperatures (e.g., \\( \\sqrt{27/0} \\)) reveals confusion between absolute and relative temperature scales.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the speed of sound in steel (Young's modulus \\( Y = 2.0 \\times 10^{11} \\) Pa, density \\( \\rho = 7800 \\) kg/m³) and in air at 20°C (343 m/s). Explain why steel has a much higher speed despite its much higher density.",
+     "a": "\\( v_{\\text{steel}} = \\sqrt{\\frac{Y}{\\rho}} = \\sqrt{\\frac{2.0 \\times 10^{11}}{7800}} \\approx \\sqrt{2.56 \\times 10^7} \\approx 5060 \\) m/s. This is ~15 times faster than in air. The student must recognize that Young's modulus for solids is ~10⁴ times larger than bulk modulus of gases, overwhelming the density difference. A wrong answer focusing only on density reveals a misunderstanding of the dominant role of elastic modulus.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Increasing humidity decreases the speed of sound because water vapour is heavier than air.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. Water vapour (molar mass 18 g/mol) is lighter than dry air (average ~29 g/mol). Adding water vapour at constant temperature and pressure reduces the average molar mass, hence density \\( \\rho \\) decreases. Since \\( v \\propto 1/\\sqrt{\\rho} \\), speed increases. A student who thinks water vapour is heavier confuses liquid water density with vapour molar mass.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a long corridor to measure how the speed of sound changes with temperature. Outline the procedure, measurements, and how you would analyze the data.",
+     "a": "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\). Repeat at different temperatures (early morning, noon, evening). Plot \\( v = d/\\Delta t \\) vs \\( \\sqrt{T} \\) (in Kelvin). Expect linear relationship. A poor answer would ignore temperature measurement, use insufficient distance (< 50 m), or not account for reaction time in manual clapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

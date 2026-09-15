@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_008",
+   "title": "c11_geo_cbse_08_008",
+   "questions": [
+    {
+     "q": "State the latitudinal and longitudinal extent of India in degrees and minutes, and name the hemispheres in which India lies.",
+     "a": "India extends from 8°4'N to 37°6'N latitude and 68°7'E to 97°25'E longitude. It lies entirely in the Northern and Eastern Hemispheres. A wrong answer (e.g., stating Southern Hemisphere or wrong coordinates) reveals the student has not memorized the basic locational facts from NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India experiences tropical climate in the south and temperate climate in the north, linking it to its latitudinal extent and hemispheric position.",
+     "a": "India's latitudinal span from 8°4'N to 37°6'N places its southern part in the tropics (between Equator and Tropic of Cancer) and northern part in the subtropics/temperate zone. Being in the Northern Hemisphere means the sun's direct rays shift north-south annually, causing seasonal temperature variations. A wrong answer that ignores the Tropic of Cancer (23°30'N) crossing India shows misunderstanding of how latitude controls climate zones.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the longitudinal extent of India in degrees and the corresponding time difference between its easternmost and westernmost points. Show steps.",
+     "a": "Longitudinal extent = 97°25'E - 68°7'E = 29°18' (approx 29.3°). Time difference = 29.3° × 4 minutes/degree = 117.2 minutes ≈ 1 hour 57 minutes. Steps: 1) Identify easternmost (97°25'E) and westernmost (68°7'E) longitudes. 2) Subtract to get difference. 3) Convert to decimal degrees. 4) Multiply by 4 min/degree. 5) Convert to hours/minutes. A wrong calculation (e.g., using 30° and getting 2 hours) reveals inability to handle minutes in coordinates or the 4 min/degree rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of India's hemispheric location on day length variation between Kanyakumari (8°4'N) and Leh (34°9'N) during summer solstice. Use geographical reasoning.",
+     "a": "At summer solstice (June 21), the Northern Hemisphere is tilted toward the sun. Kanyakumari, near the equator, experiences nearly equal day and night (~12.5 hours day). Leh, at higher latitude, experiences longer daylight (~14.5 hours) because higher latitudes in Northern Hemisphere have longer summer days. The difference arises due to latitudinal position within the Northern Hemisphere. A wrong answer that says both have equal day length ignores the effect of latitude on day length in the Northern Hemisphere.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the advantages and disadvantages of India's east-west longitudinal extent of nearly 30° for national timekeeping and daily life. Justify your evaluation.",
+     "a": "Advantage: Large longitudinal extent gives India a wide range of local times, beneficial for east-west coordination in a single time zone (IST) as it reduces the need for multiple time zones. Disadvantage: The ~2-hour time difference causes early sunrise in the east (wasted daylight) and late sunset in the west (extended evening), affecting productivity and energy use. Evaluation: The single time zone (IST based on 82°30'E) is a compromise; some argue for two time zones. A poor answer that only lists advantages without critical assessment shows lack of evaluative thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 11 student to demonstrate India's hemispheric location, including the Equator, Tropic of Cancer, Prime Meridian, and Standard Meridian, with labels explaining their significance for India's climate and time.",
+     "a": "A good answer includes: a sketch map of India with latitudinal/longitudinal lines, marked Equator (0°) south of India, Tropic of Cancer (23°30'N) crossing central India, Prime Meridian (0°) west of India, Standard Meridian (82°30'E) through Mirzapur. Annotations: \"Tropic of Cancer divides India into tropical and subtropical zones\", \"Standard Meridian defines IST (UTC+5:30)\". Poor answer misses the Tropic of Cancer or misplaces the Standard Meridian, indicating inability to synthesize locational concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

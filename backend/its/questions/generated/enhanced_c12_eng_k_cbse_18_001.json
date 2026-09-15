@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_18_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_18_001",
+   "title": "c12_eng_k_cbse_18_001",
+   "questions": [
+    {
+     "q": "What is the subtitle of Amartya Sen's book *The Argumentative Indian*, and what does it indicate about the essay's disciplinary approach?",
+     "a": "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and philosophical analysis, not merely as a literary or theological subject. A wrong answer (e.g., \"Essays on Indian Philosophy\") reveals the student misses Sen's interdisciplinary lens — he blends economics, history, and philosophy — which is essential for grasping why he cites Oppenheimer and GDP alongside the Gita.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain the difference between Krishna's position (\"faring forward\") and Arjuna's position (\"faring well\") in the Bhagavad Gita debate as Sen interprets it.",
+     "a": "Krishna argues for deontological duty: one must act according to one's role (warrior) regardless of consequences. Arjuna argues for consequentialism: the morality of an action depends on its outcomes (slaughter of kin, post-war desolation). Sen contends Arjuna's doubts are not vanquished; the Mahabharata's tragic ending vindicates consequential concern. A wrong answer that calls Arjuna \"wrong\" or Krishna \"right\" shows the student imposes a single-message reading, missing Sen's core point: the *Mahabharata* preserves both voices, modeling the argumentative tradition itself.",
+     "self_check": true
+    },
+    {
+     "q": "Sen writes: \"Prolixity is not alien to us in India.\" Identify TWO specific textual evidences he provides in the opening paragraphs to support this claim.",
+     "a": "1. Krishna Menon's 9-hour UN speech (1957), the longest ever. 2. The Mahabharata is ~7 times longer than the Iliad and Odyssey combined. A student who cites only \"we like to speak\" or vague \"long epics\" fails to distinguish illustrative evidence from the claim itself — a critical skill for board \"support with evidence\" questions and competitive exam comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Sen uses the Gargi-Yajnavalkya and Maitreyi-Yajnavalkya episodes from the Brihadaranyaka Upanishad to complicate the notion that India's argumentative tradition was exclusively male and elite.",
+     "a": "Sen shows women as sharp intellectual interrogators (Gargi's militant questioning) and as questioners of materialism's limits (Maitreyi's rhetorical question on wealth vs. immortality). These examples prove women participated in high-stakes philosophical debate in ancient India, contradicting the \"male elite only\" generalization. A weak answer merely lists the names without explaining *how* each episode challenges a specific exclusion (gender for Gargi, class/materialism for Maitreyi), missing the analytical move Sen makes: using counter-examples to refine, not reject, the tradition's inclusivity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Sen's claim that \"democracy is intimately connected with public discussion and interactive reasoning\" and that India's democratic success draws on its indigenous argumentative tradition *as well as* Western institutional models. Is this a balanced historical assessment or an overclaim? Justify.",
+     "a": "It is a balanced assessment because Sen explicitly avoids two pitfalls: (1) democracy as purely a Western gift, and (2) Indian exceptionalism. He grounds the claim in the *general* global link between public reasoning and democracy, then shows India's *particular* long tradition made that link \"particularly effective.\" A student calling it \"overclaim\" likely conflates \"tradition of argument\" with \"guaranteed democratic outcome\" — Sen never says the tradition *caused* democracy, only that it *facilitated* its adoption and preservation. This nuance is exactly what board \"critical thinking\" and JEE/NEET \"assertion-reason\" questions test.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence \"elevator pitch\" for this essay that a Class 12 student could use to explain its relevance to a friend studying physics (who thinks humanities are irrelevant). Must include: Sen's authority, the Krishna-Arjuna-Oppenheimer link, and the democracy argument.",
+     "a": "Example: \"Nobel economist Amartya Sen argues that India's 3000-year tradition of public debate — from the Gita's Krishna-Arjuna clash on duty vs. consequences, which even Oppenheimer echoed at the first nuclear test — to women and lower-caste voices in the Upanishads and Bhakti movement, created the cultural soil where democracy could take root. It's not just history; it's why India's democracy works despite poverty and diversity. Physics needs ethics (Oppenheimer learned that), and Sen shows India's argumentative heritage supplies that ethics.\" A poor answer omits one of the three required elements or uses jargon without explanation, showing inability to synthesize across concepts — a key competency for CUET/IPMAT.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

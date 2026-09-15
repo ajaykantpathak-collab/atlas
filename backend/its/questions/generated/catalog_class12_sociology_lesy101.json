@@ -1,0 +1,160 @@
+{
+ "catalog": "catalog_class12_sociology_lesy101",
+ "concepts": [
+  {
+   "id": "lesy.101.1.1",
+   "title": "Sociology and the Need to Unlearn Common Sense",
+   "questions": [
+    {
+     "q": "Using the method 'Sociology and the Need to Unlearn Common Sense', work with: partial_biased = 5, partial_incomplete = 24. Carry the chain through step by step and give the final value of common_sense_knowledge.",
+     "a": "29 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sociology and the Need to Unlearn Common Sense' and work with: partial_biased = 45, partial_incomplete = 75. Carry the chain through step by step and give the final value of common_sense_knowledge.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sociology and the Need to Unlearn Common Sense' refers to.",
+     "a": "Sociology is the one subject nobody starts from zero, since everyone grows up knowing something about society, but this very familiarity is a handicap: common sense is learned from one's own social group and environment, so it is partial in both senses -- incomplete, showing only a slice of social reality, and biased, tilted towards one's own group's interests -- and the first job of learning sociology is therefore to unlearn what seems obvious.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sociology and the Need to Unlearn Common Sense'.",
+     "a": "What feels like natural knowledge about society is really the viewpoint of the group we were socialised into, and sociology begins by doubting it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sociology and the Need to Unlearn Common Sense', in plain ASCII form.",
+     "a": "common_sense_knowledge = partial_incomplete + partial_biased",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.2.1",
+   "title": "Self-Reflexivity: Looking at Yourself from the Outside",
+   "questions": [
+    {
+     "q": "Using the method 'Self-Reflexivity: Looking at Yourself from the Outside', work with: critical_self_inspection = 18, outward_gaze_turned_inward = 4. Carry the chain through step by step and give the final value of self_reflexivity.",
+     "a": "22 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Self-Reflexivity: Looking at Yourself from the Outside' and work with: critical_self_inspection = 6, outward_gaze_turned_inward = 400. Carry the chain through step by step and give the final value of self_reflexivity.",
+     "a": "406 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Self-Reflexivity: Looking at Yourself from the Outside' refers to.",
+     "a": "Sociology can show you what you look like to others: self-reflexivity is the ability to turn back the gaze that is usually directed outward and inspect yourself critically -- quick to criticise and slow to praise oneself -- so that the sociologist becomes an object of study along with society.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self-Reflexivity: Looking at Yourself from the Outside'.",
+     "a": "The sociologist's first field of observation is the sociologist's own standpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Self-Reflexivity: Looking at Yourself from the Outside', in plain ASCII form.",
+     "a": "self_reflexivity = outward_gaze_turned_inward + critical_self_inspection",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.3.1",
+   "title": "The Social Map: Locating Individuals in Society",
+   "questions": [
+    {
+     "q": "Using the method 'The Social Map: Locating Individuals in Society', work with: age_group = 2600, caste_or_tribe = 400, economic_class = 500, region_and_language = 50, religion = 150. Carry the chain through step by step and give the final value of social_map.",
+     "a": "3700 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Social Map: Locating Individuals in Society' and work with: age_group = 1000, caste_or_tribe = 12, economic_class = 15, region_and_language = 50, religion = 12. Carry the chain through step by step and give the final value of social_map.",
+     "a": "1089 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Social Map: Locating Individuals in Society' refers to.",
+     "a": "Every person occupies a position on a social map made of overlapping group memberships: as a seventeen or eighteen year old you belong to the young people who form roughly forty per cent of India's population, you may carry a regional or linguistic identity such as Gujarati or Telugu speaker, an economic class from your family's income and occupation, and a religion, caste or tribe -- each identity placing you in a web of social relationships whose patterns sociology describes and connects.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Social Map: Locating Individuals in Society'.",
+     "a": "Who you are socially is a set of coordinates on many maps at once, and sociology reads the whole atlas.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Social Map: Locating Individuals in Society', in plain ASCII form.",
+     "a": "social_map = age_group + region_and_language + economic_class + religion + caste_or_tribe",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.4.1",
+   "title": "Personal Troubles and Social Issues: Mills's Distinction",
+   "questions": [
+    {
+     "q": "Using the method 'Personal Troubles and Social Issues: Mills's Distinction', work with: personal_troubles_linked_to_social_issues = 40. Carry the chain through step by step and give the final value of sociological_imagination.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Personal Troubles and Social Issues: Mills's Distinction' and work with: personal_troubles_linked_to_social_issues = 120. Carry the chain through step by step and give the final value of sociological_imagination.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Personal Troubles and Social Issues: Mills's Distinction' refers to.",
+     "a": "C. Wright Mills shows that sociology connects personal troubles and social issues: a trouble is the worry, problem or concern of a single individual -- family treatment, friendship strains, anxiety about a future job -- and derives meaning from a personalised perspective, while an issue concerns large groups rather than the individuals composing them, so sociology maps the links between the two levels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Personal Troubles and Social Issues: Mills's Distinction'.",
+     "a": "What feels like a private worry is often the individual end of a public issue, and mapping that link is sociology's special skill.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Personal Troubles and Social Issues: Mills's Distinction', in plain ASCII form.",
+     "a": "sociological_imagination = personal_troubles_linked_to_social_issues",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.5.1",
+   "title": "A Preview of the Book: Processes Shaping Indian Society",
+   "questions": [
+    {
+     "q": "Using the method 'A Preview of the Book: Processes Shaping Indian Society', work with: caste_tribe_family = 75, demography = 500, diversity_challenges = 60, inequality_and_exclusion = 30, market = 120. Carry the chain through step by step and give the final value of structure_of_indian_society.",
+     "a": "785 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'A Preview of the Book: Processes Shaping Indian Society' and work with: caste_tribe_family = 24, demography = 24, diversity_challenges = 24, inequality_and_exclusion = 120, market = 3. Carry the chain through step by step and give the final value of structure_of_indian_society.",
+     "a": "195 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'A Preview of the Book: Processes Shaping Indian Society' refers to.",
+     "a": "The introduction sketches the ground ahead: demographic structure of a population soon to be the world's largest; the institutions of caste, tribe and family that form the basic building blocks; the market as a socio-cultural vehicle of change from colonialism to developmental policy; the patterns of inequality and exclusion around caste, tribe, gender and the disabled; the hard side of unity in diversity with communal conflict, regional and linguistic chauvinism and casteism; and finally practical project work for doing sociological research oneself.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'A Preview of the Book: Processes Shaping Indian Society'.",
+     "a": "The syllabus of Indian society runs from population, through institutions and the market, to inequality, diversity and hands-on research.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'A Preview of the Book: Processes Shaping Indian Society', in plain ASCII form.",
+     "a": "structure_of_indian_society = demography + caste_tribe_family + market + inequality_and_exclusion + diversity_challenges",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

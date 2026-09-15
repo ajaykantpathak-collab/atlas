@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_010",
+   "title": "c12_eng_v_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define \"context clue\" and name the four main types (with one example clue word/phrase for each type).",
+     "a": "A context clue is a hint within the text that helps define an unfamiliar word. The four main types: (1) Definition/Explanation — e.g., \"that is,\" \"means,\" \"refers to\"; (2) Synonym/Restatement — e.g., \"or,\" \"in other words,\" \"also known as\"; (3) Antonym/Contrast — e.g., \"but,\" \"however,\" \"unlike,\" \"on the contrary\"; (4) Example/Illustration — e.g., \"for instance,\" \"such as,\" \"including.\" A wrong answer (e.g., \"looking in a dictionary\" or \"guessing\") reveals the student thinks vocabulary is external to the text, not embedded in it — a habit that fails in board exams where dictionaries aren't allowed and competitive exams test inference speed.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"For a sun-worshipping South Indian like myself, two weeks in a place where 90 per cent of the Earth's total ice volumes are stored is a chilling prospect (not just for circulatory and metabolic functions, but also for the imagination)\", what does \"chilling prospect\" mean? Explain which context clue type helps you decide.",
+     "a": "\"Chilling prospect\" means a frightening or daunting future possibility. The parenthetical explanation \"(not just for circulatory and metabolic functions, but also for the imagination)\" is a Definition/Explanation clue — it explicitly unpacks the phrase's two layers: physical cold and psychological awe. A wrong answer like \"cold weather forecast\" misses the metaphorical layer; the student likely ignored the parenthesis, treating it as extra info rather than a deliberate clue. This error costs marks in board \"meaning in context\" questions (1-2 markers) where the explanation must be cited.",
+     "self_check": true
+    },
+    {
+     "q": "The word \"amalgamated\" appears in: \"a giant amalgamated southern supercontinent — Gondwana\". Using ONLY the text, deduce its meaning and write one original sentence using \"amalgamated\" in a non-geological context (e.g., school clubs merging).",
+     "a": "Meaning: combined/united into a single entity. Clue: the dash (—) and the proper noun \"Gondwana\" act as an Example/Illustration clue — Gondwana is the name of the resulting single supercontinent formed by combining landmasses. Original sentence: \"The three struggling dance clubs amalgamated into one vibrant troupe to survive budget cuts.\" A wrong answer (e.g., \"separated\" or \"broken\") shows the student missed the dash-appositive structure and the prefix \"am-\" (together) + \"algam\" (mix), leading to opposite meaning — a classic board trap where prefixes are ignored.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"pristine\" and \"blasé\" are used in the chapter. Both describe states, but their connotations differ sharply. Explain the contrast using textual evidence.",
+     "a": "\"Pristine\" (para 3): \"never sustained a human population and therefore remains relatively 'pristine'\" — positive connotation: pure, untouched, scientifically valuable. \"Blasé\" (para 4): \"easy to be blasé about polar ice-caps melting while sitting in the comfort zone\" — negative connotation: indifferent, unimpressed due to overexposure. The contrast is deliberate: Antarctica's pristine nature demands awe, but humans are blasé from distance. A wrong answer that calls both \"positive\" or \"negative\" reveals the student reads words in isolation, not tracking the author's tonal shifts — a skill needed for \"tone of the passage\" questions in CUET/board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's definition: \"Phytoplankton are small plants in the ocean.\" Is it sufficient for a 2-mark board question? Why or why not? Improve it using the text.",
+     "a": "Insufficient. The text says: \"microscopic phytoplankton — those grasses of the sea that nourish and sustain the entire Southern Ocean's food chain... use the sun's energy to assimilate carbon and synthesise organic compounds in that wondrous... process called photosynthesis.\" A 2-mark answer needs: (1) \"microscopic/single-celled\", (2) \"grasses of the sea\" (metaphor), (3) ecological role: base of food chain, (4) function: photosynthesis/carbon assimilation. Improved: \"Phytoplankton are microscopic, single-celled marine plants ('grasses of the sea') that perform photosynthesis, assimilating carbon to form the base of the Southern Ocean food chain.\" A student who gives the weak version loses marks for missing textual precision — board marking schemes require keywords like \"microscopic\", \"photosynthesis\", \"food chain\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence \"climate change warning\" paragraph using at least THREE words from this list: [circumpolar, calving, unmitigated, prognosis, ruckus, epiphany]. Underline the words. The paragraph must make logical sense in a real-world context.",
+     "a": "Example: \"The **unmitigated** burning of fossil fuels has accelerated glacial **calving** in Antarctica, disrupting the **circumpolar** current that regulates global climate. Scientists warn the **prognosis** for coastal cities is dire if emissions continue. My visit to a melting glacier was an **epiphany** — the crisis is not abstract, it is audible in every cracking ice shelf.\" Criteria: each word used grammatically and semantically correctly; paragraph shows cause-effect logic. A poor answer forces words randomly (\"The prognosis made a ruckus\") — revealing the student memorizes definitions but cannot deploy words syntactically or conceptually, a gap exposed in CUET cloze tests and board writing tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

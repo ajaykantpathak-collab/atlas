@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_002",
+   "title": "c11_cs_cbse_09_002",
+   "questions": [
+    {
+     "q": "What does the `open()` function return when it executes successfully?",
+     "a": "The `open()` function returns a **file object** (also called a file handle) that provides methods like `read()`, `write()`, `close()`, etc. A wrong answer (e.g., “it returns the file content” or “it returns a string”) reveals that the student confuses opening a file with reading its content – a fundamental misconception that will cause errors when they try to call `read()` on a non‑existent return value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between opening a file in `'w'` mode versus `'a'` mode when the file already exists and contains data.",
+     "a": "In `'w'` (write) mode, the existing file is **truncated to zero length** before any writing begins – all previous content is lost. In `'a'` (append) mode, the file pointer is placed at the end of the file, so new data is added **after** the existing content without erasing it. A wrong answer indicates the student does not grasp the destructive nature of `'w'` mode, a critical error that leads to accidental data loss in real programs.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single Python statement to open the file `data.csv` located in the subfolder `records` (relative to the current script) for reading in text mode, and assign the returned file object to a variable `f`.",
+     "a": "`f = open('records/data.csv', 'r')`  \nSteps: 1) Identify the relative path `records/data.csv`. 2) Choose mode `'r'` (default text read). 3) Call `open()` with path and mode. 4) Assign the returned file object to `f`. A wrong answer (e.g., using backslashes without raw string, omitting the mode, or using an absolute path incorrectly) shows the student struggles with path representation or default mode assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "If you execute `f = open('missing.txt', 'r')` and the file `missing.txt` does not exist, what happens? Why is this behaviour important to anticipate?",
+     "a": "Python raises a `FileNotFoundError` exception. This is important because any production code must handle the possibility of a missing file (using `try/except` or checking existence beforehand) to avoid program crashes. A student who says “it creates an empty file” or “it returns None” confuses `'r'` mode with `'w'`/`'a'` modes and will write fragile code that fails on missing files.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer wants to store raw bytes (e.g., an image) into a file `photo.jpg`. They write `f = open('photo.jpg', 'w')`. Evaluate this choice and suggest the correct mode.",
+     "a": "The choice is **incorrect**. Mode `'w'` opens the file in **text mode**, which performs encoding/decoding (e.g., UTF‑8) and newline translation – corrupting binary data. The correct mode is `'wb'` (write binary), which writes bytes directly without any translation. A wrong evaluation shows the student does not understand the text vs. binary distinction, leading to corrupted binary files.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real‑world scenario (Indian context) where you would need to open a file in `'r+'` mode (read and write text). Describe the scenario and explain why `'r+'` is necessary instead of `'r'` or `'w'`.",
+     "a": "Scenario: A school’s fee‑collection program stores each student’s fee status in `fees.txt`. When a student pays, the program must **read** the current status, **update** that specific line to “PAID”, and **write** the change back – all without deleting other students’ records. `'r+'` allows both reading and writing at any position; `'r'` alone cannot write, and `'w'` would erase the whole file. A poor answer (e.g., using `'w'` and rewriting the entire file) misses the in‑place update requirement and risks data loss if the program crashes mid‑write.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

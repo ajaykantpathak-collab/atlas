@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_007",
+   "title": "c11_eco_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define frictional unemployment and give one Indian example where it would be considered voluntary.",
+     "a": "Frictional unemployment is short-term unemployment arising from the time lag between leaving one job and starting another while searching for a better match. Example: A software engineer in Pune voluntarily resigns to search for a remote-work position offering better work-life balance; the 3-month search period is frictional unemployment. A WRONG answer (e.g., \"unemployment due to lack of skills\") reveals confusion with structural unemployment — the student cannot distinguish between search/match delays and fundamental skill obsolescence.",
+     "self_check": true
+    },
+    {
+     "q": "Why does structural unemployment persist even when the economy is at full employment and aggregate demand is strong?",
+     "a": "Structural unemployment persists at full employment because it is caused by a mismatch between workers' existing skills/location and the skills/location demanded by employers, not by insufficient aggregate demand. Example: India's IT sector has vacancies for cloud architects while displaced textile workers in Tamil Nadu lack those skills — demand exists but the *right* workers don't. A WRONG answer (e.g., \"because demand is low\") reveals the misconception that all unemployment is demand-deficient (cyclical), ignoring supply-side rigidities like skill gaps, geographical immobility, and technological displacement.",
+     "self_check": true
+    },
+    {
+     "q": "In 2022-23, India's labour force was 580 million and 34.8 million were unemployed. If 12 million were frictionally unemployed and 18 million structurally unemployed, calculate the cyclical unemployment rate. Interpret the result.",
+     "a": "Step 1: Unemployment rate = (Total unemployed / Labour force) × 100 = (34.8/580) × 100 = 6.0%. Step 2: Natural unemployment = Frictional + Structural = 12 + 18 = 30 million. Step 3: Natural rate = (30/580) × 100 = 5.17%. Step 4: Cyclical unemployed = Total - Natural = 34.8 - 30 = 4.8 million. Step 5: Cyclical rate = (4.8/580) × 100 = 0.83%. Interpretation: The economy is near full employment (cyclical rate < 1%), suggesting demand is adequate; remaining unemployment is mostly structural/frictional. A WRONG answer (e.g., subtracting rates instead of levels) reveals inability to distinguish between stocks (number unemployed) and rates (percentages), a critical error in labour market analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the policy effectiveness of expansionary monetary policy (repo rate cut) versus a national reskilling programme (like PMKVY) for reducing each type of unemployment. Which type is least responsive to monetary policy?",
+     "a": "Expansionary monetary policy lowers borrowing costs, boosting aggregate demand and reducing *cyclical* unemployment effectively. It has limited impact on *frictional* (search time unaffected by interest rates), *structural* (skill mismatch requires retraining, not cheaper credit), and *seasonal* (predictable pattern, demand management doesn't change harvest cycles). Reskilling programmes target *structural* unemployment directly by aligning skills with demand. Structural unemployment is LEAST responsive to monetary policy because it's a supply-side mismatch — no amount of demand stimulus creates cloud architects from handloom weavers. A WRONG answer (e.g., \"monetary policy reduces all types equally\") reveals failure to understand the supply/demand distinction: cyclical is demand-deficient; structural/frictional/seasonal are supply-side or institutional.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's high informal sector share (89% of workforce) means disguised unemployment in agriculture is actually structural unemployment in disguise.\" Use the concepts of marginal productivity and sectoral shift.",
+     "a": "The statement is partially correct but analytically imprecise. Disguised unemployment (marginal productivity of labour ≈ 0 in agriculture) exists because too many workers are employed on fixed land — a *surplus labour* phenomenon (Lewis model). Structural unemployment arises when workers' skills don't match *modern sector* jobs. The connection: as the economy develops, disguised unemployment *transforms* into structural unemployment when surplus agricultural workers migrate to urban areas but lack skills for formal manufacturing/services jobs. However, they are distinct: disguised unemployment is *within* a sector (agriculture); structural is *between* sectors (skill mismatch in modern sector). Policy differs: land reform/consolidation vs. vocational training. A WRONG answer (e.g., \"they are the same thing\") reveals confusion between intra-sector surplus labour and inter-sector skill mismatch — a critical error in development economics.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4×4 matrix with rows = unemployment types (Frictional, Structural, Cyclical, Seasonal) and columns = (Primary Cause, Typical Duration, Policy Response, Indian Example). Fill all 16 cells with precise economic terminology.",
+     "a": "| Type | Primary Cause | Typical Duration | Policy Response | Indian Example |\n|------|---------------|------------------|-----------------|----------------|\n| Frictional | Information asymmetry / job search | Short (weeks-months) | Job portals, career counselling, unemployment insurance | Fresher searching for first job via Naukri.com |\n| Structural | Skill mismatch / technological change / geographical immobility | Long (years) | Reskilling (PMKVY), apprenticeship, labour mobility schemes | Handloom weaver displaced by powerlooms in Varanasi |\n| Cyclical | Deficient aggregate demand (recession) | Medium (business cycle) | Expansionary fiscal/monetary policy, public works | Construction worker laid off during 2020 lockdown |\n| Seasonal | Predictable seasonal demand fluctuations | Recurring annually (months) | Crop diversification, MGNREGA, off-season training | Sugarcane cutter migrating to Delhi Nov-Feb |\n\nA poor answer (vague causes like \"economy bad\", missing policy distinction) reveals inability to operationalise concepts for policy design — a key board exam competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

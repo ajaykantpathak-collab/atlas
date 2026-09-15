@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_004",
+   "title": "c10_math_cbse_13_004",
+   "questions": [
+    {
+     "q": "State the formula for the mode of grouped data and define each symbol used in it.",
+     "a": "**Mode = l + [(f₁ - f₀) / (2f₁ - f₀ - f₂)] × h**  \nwhere:  \nl = lower limit of the modal class,  \nf₁ = frequency of the modal class,  \nf₀ = frequency of the class preceding the modal class,  \nf₂ = frequency of the class succeeding the modal class,  \nh = class size (width of each class interval).  \nA wrong answer (e.g., missing f₀ or f₂, swapping f₀ and f₂, or using upper limit instead of lower limit) reveals the student has memorised the formula without understanding the role of neighbouring class frequencies in locating the peak within the modal class.",
+     "self_check": true
+    },
+    {
+     "q": "In the formula for mode of grouped data, why do we use **both** (f₁ - f₀) and (f₁ - f₂) in the numerator and denominator? What would happen if we used only (f₁ - f₀)?",
+     "a": "The formula uses **both** differences because the mode is estimated by balancing how much the modal class frequency exceeds the preceding class (f₁ - f₀) and the succeeding class (f₁ - f₂). The numerator (f₁ - f₀) pulls the estimate toward the upper end of the modal class if the previous class is much smaller, while the denominator (2f₁ - f₀ - f₂) = (f₁ - f₀) + (f₁ - f₂) normalises by the total dominance on both sides. Using only (f₁ - f₀) would ignore the asymmetry on the right side, biasing the estimate incorrectly when the frequency drop after the modal class differs from the rise before it. A wrong answer shows the student treats the formula as a black box without grasping the interpolation logic.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mode for the following distribution of daily wages (in ₹) of 40 workers in a factory:\n\n| Daily Wages (₹) | Number of Workers |\n|-----------------|-------------------|\n| 100-120         | 5                 |\n| 120-140         | 12                |\n| 140-160         | 18                |\n| 160-180         | 10                |\n| 180-200         | 3                 |",
+     "a": "**Step 1:** Identify modal class = 140-160 (highest frequency = 18).  \n**Step 2:** Extract values:  \nl = 140, f₁ = 18, f₀ = 12 (class 120-140), f₂ = 10 (class 160-180), h = 20.  \n**Step 3:** Substitute into formula:  \nMode = 140 + [(18 - 12) / (2×18 - 12 - 10)] × 20  \n= 140 + [6 / (36 - 22)] × 20  \n= 140 + (6 / 14) × 20  \n= 140 + (3/7) × 20  \n= 140 + 60/7  \n= 140 + 8.57 (approx)  \n= **148.57 ₹**  \n**Step 4:** Interpret: The most typical daily wage is approximately ₹148.57.  \nA wrong answer (e.g., using l = 160, or f₀ = 5, or h = 10) reveals confusion about identifying the correct neighbouring classes or class width.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the mode for a distribution and gets a value **outside the modal class interval**. For example, modal class is 50-60, but the computed mode is 62.3. Is this possible? Explain why or why not, and what it indicates about the student's working.",
+     "a": "**No, this is impossible.** The formula **Mode = l + [positive fraction] × h** always produces a value between **l** and **l + h** (i.e., inside the modal class), because the fraction (f₁ - f₀)/(2f₁ - f₀ - f₂) lies strictly between 0 and 1 when f₁ > f₀ and f₁ > f₂ (which is true for a unique modal class not at the boundary). A result outside the class means the student made a computational error: likely swapped f₀ and f₂, used wrong l, miscalculated the denominator as negative, or used upper limit instead of lower limit. This diagnostic exposes whether the student understands the formula's built-in bounds.",
+     "self_check": true
+    },
+    {
+     "q": "The following solution finds the mode for a distribution with modal class 20-30, f₁=25, f₀=15, f₂=10, h=10:\n\n*Mode = 20 + [(25 - 15) / (2×25 - 15 - 10)] × 10  \n= 20 + [10 / (50 - 25)] × 10  \n= 20 + (10/25) × 10  \n= 20 + 4 = 24*\n\nIs the solution correct? If not, identify the exact error and give the correct answer.",
+     "a": "**The solution is incorrect.**  \n**Error:** The denominator is wrongly computed as (50 - 25) = 25. The correct denominator is **2f₁ - f₀ - f₂ = 50 - 15 - 10 = 25** — wait, that is actually 25. Let's recalculate:  \n2×25 = 50; 50 - 15 - 10 = 25. So denominator = 25 is correct.  \nFraction = 10/25 = 0.4; 0.4 × 10 = 4; 20 + 4 = 24.  \n**The solution is actually correct!**  \n(If the student had written 50 - 25 by mistakenly doing f₀ + f₂ = 25, that's a lucky coincidence because 15+10=25. The correct expression is 2f₁ - f₀ - f₂, not 2f₁ - (f₀+f₂) — but they are algebraically identical. The error would be if they computed f₀+f₂ wrong.)  \n**Better diagnostic:** Suppose the student wrote:  \n*Mode = 20 + [(25 - 10) / (2×25 - 15 - 10)] × 10 = 20 + [15/25]×10 = 26*  \n**Error:** Used f₂ instead of f₀ in the numerator (f₁ - f₂ instead of f₁ - f₀).  \n**Correct:** (25-15)/(50-15-10) = 10/25 = 0.4 → Mode = 24.  \nA wrong evaluation (saying the first solution is wrong) reveals the student doesn't check algebraic equivalence; a wrong error identification reveals confusion between f₀ and f₂ roles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution (with 5 classes, equal width 10) for which the mode calculated by the formula is **exactly at the midpoint of the modal class**. Provide the full table and verify your answer.",
+     "a": "For the mode to be at the midpoint, the fraction [(f₁ - f₀)/(2f₁ - f₀ - f₂)] must equal **1/2**.  \nThis happens when **f₁ - f₀ = f₁ - f₂** ⇒ **f₀ = f₂**.  \nSo the frequencies of the classes immediately before and after the modal class must be equal.  \nExample:  \n| Class | Frequency |  \n|-------|-----------|  \n| 0-10  | 5         |  \n| 10-20 | 10        |  ← f₀  \n| 20-30 | **20**    |  ← modal class (f₁=20)  \n| 30-40 | 10        |  ← f₂ = f₀  \n| 40-50 | 5         |  \n**Verification:** l=20, f₁=20, f₀=10, f₂=10, h=10  \nMode = 20 + [(20-10)/(40-10-10)] × 10 = 20 + (10/20)×10 = 20 + 5 = **25** (midpoint of 20-30).  \nA poor answer (e.g., asymmetric frequencies) shows the student cannot reverse-engineer the formula's symmetry condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

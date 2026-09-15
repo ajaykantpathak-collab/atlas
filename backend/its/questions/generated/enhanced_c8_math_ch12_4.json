@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_4",
+   "title": "c8_math_ch12_4",
+   "questions": [
+    {
+     "q": "What condition must the sum of added values satisfy for the mean of a data set to remain unchanged?",
+     "a": "The sum of the added values must equal the original mean multiplied by the number of added values. A wrong answer (e.g., \"each added value must equal the mean\") reveals the student thinks only individual values matter, not their collective sum, and misses the case where multiple values can compensate for each other (e.g., one above and one below the mean).",
+     "self_check": true
+    },
+    {
+     "q": "A data set has mean 15. Two values are removed and the mean stays 15. One removed value is 10. Explain why the other removed value must be 20, using the concept of deviations from the mean.",
+     "a": "The deviations of removed values from the mean must sum to zero. 10 has deviation -5, so the other must have deviation +5, i.e., 20. A wrong answer (e.g., \"the other must be 15\") shows the student incorrectly assumes each removed value must equal the mean, not understanding that deviations can cancel out.",
+     "self_check": true
+    },
+    {
+     "q": "The mean of 6 numbers is 12. Two numbers are added and the mean remains 12. One added number is 8. Find the other added number.",
+     "a": "Original sum = 6 × 12 = 72. New count = 8, new sum = 8 × 12 = 96. Sum of added numbers = 96 - 72 = 24. One added is 8, so the other = 24 - 8 = 16. A wrong answer (e.g., 12) reveals the student thinks the added numbers must each be the mean, ignoring that their sum must be 24.",
+     "self_check": true
+    },
+    {
+     "q": "A class of 20 students has average weight 45 kg. Two students leave and the average remains 45 kg. The weights of the two students are in the ratio 2:3. Find their weights.",
+     "a": "Sum of weights of two students = 2 × 45 = 90 kg. Ratio 2:3 means parts 2x and 3x, sum 5x = 90 → x = 18. Weights: 36 kg and 54 kg. A wrong answer (e.g., both 45 kg) shows the student cannot apply the ratio concept combined with the constant mean condition, or thinks each must equal the mean.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the mean of a data set is 50, and I add three numbers whose average is 50, the mean will stay 50.\" Is this claim correct? Justify your answer.",
+     "a": "Yes, the claim is correct. If the average of the three added numbers is 50, their sum is 150 = 3 × 50, which satisfies the condition. A wrong answer (e.g., \"no, each must be 50\") reveals confusion between the average of added numbers and each individual number; the student does not see that the condition is on the sum, not on each value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context like marks, prices, or cricket runs) where the mean remains unchanged after removing two values, and the two removed values are different. Provide the full problem statement and solution.",
+     "a": "Example: \"In 5 tests, Rohan's average is 70 marks. Two tests are cancelled and his average remains 70. One cancelled test score was 60. Find the other.\" Solution: Sum of two cancelled = 2×70=140, other = 80. A poor answer (e.g., both scores 70) shows the student cannot devise a scenario where deviations cancel, indicating lack of deep understanding of the balancing principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

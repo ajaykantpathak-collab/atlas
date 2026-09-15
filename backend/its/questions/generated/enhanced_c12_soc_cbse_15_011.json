@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_15_011",
+   "title": "c12_soc_cbse_15_011",
+   "questions": [
+    {
+     "q": "Define 'New Social Movement' in two sentences using the NCERT distinction between old and new movements. What is the central mobilisation base that differentiates them?",
+     "a": "New Social Movements mobilise around identity, culture, and quality-of-life issues (environment, gender, peace) rather than class-based economic redistribution, and often operate through non-party civil society networks rather than trade unions or political parties. The central differentiating mobilisation base is identity/culture (e.g., ethnicity, gender, ecology) versus class position. A wrong answer that says 'NSMs are just movements that started recently' reveals confusion between chronological newness and the sociological category — the 1970s Chipko movement is an NSM despite being 50 years old, while a 2020 workers' strike for wages remains an old-style class movement.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: 'In India it is difficult to make a clear distinction between the old and new social movements.' Explain this using the Chipko movement as an example, identifying at least three overlapping dimensions.",
+     "a": "Chipko blends old and new dimensions: (1) Economic/class (old): villagers' subsistence livelihood (firewood, fodder) vs commercial logging profits — a classic economy of subsistence vs economy of profit conflict. (2) Ecological/quality-of-life (new): forest conservation, flood prevention, environmental sustainability — 'green' issues beyond class. (3) Identity/political representation (new): hill villagers' resentment against distant plains-based government, asserting regional/ethnic identity as 'Pahari' people. (4) Gender (new): women's leadership (Gaura Devi, Mahila Mandal) challenging patriarchal norms within the movement. A wrong answer listing only 'environment' or only 'livelihood' misses the NCERT's core argument that Indian movements are hybrid — the 'red' (class) and 'green' (ecology) issues are interlinked for participants.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: 'The 2020-21 Indian farmers' protest against the three farm laws was a New Social Movement because it used social media, had no single party leadership, and included women and youth.' Evaluate this claim using the old/new movement typology. Is the student correct, partially correct, or incorrect? Justify.",
+     "a": "The student is partially correct but misses the core sociological distinction. The farmers' protest displayed NSM features: non-party leadership (Samyukt Kisan Morcha), cross-class participation (small/marginal/large farmers), cultural symbols (tractor trolleys as mobile homes, langars), and digital mobilisation. However, its central demand — repeal of laws threatening Minimum Support Price (MSP) and mandi system — was fundamentally class-based economic redistribution (protecting peasant proprietorship against corporate agriculture). This aligns with 'new farmers' movements' (15_005) which the NCERT explicitly notes 'broadened their agenda to include environment and women's issues' but remain rooted in 'price and related issues'. The correct classification: a class-based movement adopting NSM organisational styles — exactly the Indian blurring the textbook highlights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mobilisation logic of the Dalit movement (15_006) and the women's movement (15_008) as New Social Movements. How does each use identity differently, and what does 'intersectionality' mean in this context?",
+     "a": "The Dalit movement mobilises around caste identity as a stigmatised, 'polluted' status seeking dignity, self-respect, and annihilation of caste — identity is the site of oppression to be transcended (Ambedkar's 'struggle to be touched'). The women's movement mobilises gender identity but reveals internal stratification: middle-class urban women's concerns (workplace harassment, reproductive rights) differ from Dalit women's (caste-sexual violence, land rights) or peasant women's (agrarian labour, forest access). Intersectionality means these identities (caste + gender + class) cannot be separated — a Dalit woman's experience is not 'caste oppression plus gender oppression' but a distinct compounded marginalisation. The NCERT notes: 'concerns of the educated middle class woman is different from the peasant woman, just as the concern of the Dalit woman is different from the upper caste woman.' A wrong answer treating 'women' or 'Dalits' as homogeneous categories misses the NSM emphasis on difference within identity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: 'Globalisation has made New Social Movements inevitable because economic inequality is no longer the primary contradiction in post-industrial societies.' Use the NCERT's discussion of Rajni Kothari and the World Social Forum to support your evaluation.",
+     "a": "The argument is flawed on three grounds per NCERT: (1) Kothari argues NSMs surged in 1970s India due to state capture by elites making parliamentary democracy ineffective for the poor — not because class inequality vanished, but because class-based party politics failed the marginalised. (2) The NCERT explicitly states: 'questions of social inequality can occur alongside other, equally important issues' — Chipko shows ecology AND economy AND identity are simultaneous. (3) The World Social Forum represents 'old and new movements working together in new alliances' against globalisation's hazards — not replacement of class politics. Globalisation intensifies both class exploitation (transnational capital) AND identity/cultural anxieties (displacement, ecological ruin). A correct evaluation recognises NSMs expand the terrain of contestation; they don't obsolete class analysis. The error is a false dichotomy — the 'post-industrial' thesis ignores that most of the Global South (including India) remains agrarian/industrialising.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical New Social Movement for 2030 India addressing a quality-of-life issue not yet prominent. Specify: (a) the identity/cultural basis of mobilisation, (b) the non-party organisational form, (c) one 'old' movement it would ally with and why, and (d) one counter-movement it would face.",
+     "a": "Example answer: 'Digital Commons Movement' — (a) Identity: 'data citizens' / 'algorithmic subjects' — young Indians whose labour, attention, and biometrics are extracted by platforms. (b) Organisation: decentralised federated collectives (Mastodon-style instances), digital assemblies, crypto-governance (DAOs), no central leadership. (c) Ally: Workers' movement (15_010) — gig workers (Zomato, Uber, Blinkit) face algorithmic control; both fight platform capitalism's extraction. (d) Counter-movement: 'Digital India' nationalist-technocratic coalition (state + big tech) framing data localisation and AI sovereignty as national security, labelling critics 'anti-development'. A strong answer demonstrates NSM features: identity-based (not class), quality-of-life (digital dignity), non-hierarchical, cross-movement alliance, and anticipates counter-mobilisation. Weak answers replicate existing movements (e.g., 'climate movement') or default to class demands (wages).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

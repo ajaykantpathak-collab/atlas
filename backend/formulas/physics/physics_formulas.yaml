@@ -1,0 +1,811 @@
+---
+- formula_id: "PHY_CON_001"
+  name: "Gravitational Constant"
+  latex: "G = 6.674 \\times 10^{-11} \\, \\text{N m}^2/\\text{kg}^2"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_G"]
+  related_formulas: ["PHY_GRAV_001"]
+
+- formula_id: "PHY_CON_002"
+  name: "Speed of Light in Vacuum"
+  latex: "c = 2.998 \\times 10^{8} \\, \\text{m/s}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_C"]
+  related_formulas: ["PHY_REL_001"]
+
+- formula_id: "PHY_CON_003"
+  name: "Planck Constant"
+  latex: "h = 6.626 \\times 10^{-34} \\, \\text{J s}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_H"]
+  related_formulas: ["PHY_QTM_001", "PHY_MOD_001"]
+
+- formula_id: "PHY_CON_004"
+  name: "Reduced Planck Constant"
+  latex: "\\hbar = \\frac{h}{2\\pi} = 1.055 \\times 10^{-34} \\, \\text{J s}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_HBAR"]
+  related_formulas: ["PHY_QTM_001", "PHY_QTM_015"]
+
+- formula_id: "PHY_CON_005"
+  name: "Coulomb Constant"
+  latex: "k_e = \\frac{1}{4\\pi\\varepsilon_0} = 8.988 \\times 10^{9} \\, \\text{N m}^2/\\text{C}^2"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_KE"]
+  related_formulas: ["PHY_ELC_001"]
+
+- formula_id: "PHY_CON_006"
+  name: "Vacuum Permittivity"
+  latex: "\\varepsilon_0 = 8.854 \\times 10^{-12} \\, \\text{C}^2/(\\text{N m}^2)"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_EPS0"]
+  related_formulas: ["PHY_CON_005"]
+
+- formula_id: "PHY_CON_007"
+  name: "Vacuum Permeability"
+  latex: "\\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{H/m}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_MU0"]
+  related_formulas: ["PHY_MAG_001", "PHY_EMW_047"]
+
+- formula_id: "PHY_CON_008"
+  name: "Elementary Charge"
+  latex: "e = 1.602 \\times 10^{-19} \\, \\text{C}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_E"]
+  related_formulas: ["PHY_ELC_001"]
+
+- formula_id: "PHY_CON_009"
+  name: "Electron Mass"
+  latex: "m_e = 9.109 \\times 10^{-31} \\, \\text{kg}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_ME"]
+  related_formulas: ["PHY_MOD_011"]
+
+- formula_id: "PHY_CON_010"
+  name: "Proton Mass"
+  latex: "m_p = 1.673 \\times 10^{-27} \\, \\text{kg}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_MP"]
+  related_formulas: ["PHY_MOD_041"]
+
+- formula_id: "PHY_CON_011"
+  name: "Neutron Mass"
+  latex: "m_n = 1.675 \\times 10^{-27} \\, \\text{kg}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_MN"]
+  related_formulas: ["PHY_MOD_041"]
+
+- formula_id: "PHY_CON_012"
+  name: "Boltzmann Constant"
+  latex: "k_B = 1.381 \\times 10^{-23} \\, \\text{J/K}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_KB"]
+  related_formulas: ["PHY_THM_038"]
+
+- formula_id: "PHY_CON_013"
+  name: "Avogadro Constant"
+  latex: "N_A = 6.022 \\times 10^{23} \\, \\text{mol}^{-1}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_NA"]
+  related_formulas: ["PHY_THM_037"]
+
+- formula_id: "PHY_CON_014"
+  name: "Universal Gas Constant"
+  latex: "R = 8.314 \\, \\text{J/(mol K)}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_R"]
+  related_formulas: ["PHY_THM_037"]
+
+- formula_id: "PHY_CON_015"
+  name: "Stefan-Boltzmann Constant"
+  latex: "\\sigma = 5.670 \\times 10^{-8} \\, \\text{W m}^{-2} \\text{K}^{-4}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_SIGMA"]
+  related_formulas: ["PHY_THM_031", "PHY_AST_001"]
+
+- formula_id: "PHY_CON_016"
+  name: "Wien Displacement Constant"
+  latex: "b = 2.898 \\times 10^{-3} \\, \\text{m K}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_B"]
+  related_formulas: ["PHY_THM_033", "PHY_AST_003"]
+
+- formula_id: "PHY_CON_017"
+  name: "Rydberg Constant"
+  latex: "R_\\infty = 1.097 \\times 10^{7} \\, \\text{m}^{-1}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class12", "jee_main", "jee_advanced", "undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_R"]
+  related_formulas: ["PHY_MOD_024"]
+
+- formula_id: "PHY_CON_018"
+  name: "Bohr Magneton"
+  latex: "\\mu_B = \\frac{e\\hbar}{2m_e} = 9.274 \\times 10^{-24} \\, \\text{J/T}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_MUB"]
+  related_formulas: ["PHY_MOD_019"]
+
+- formula_id: "PHY_CON_019"
+  name: "Fine Structure Constant"
+  latex: "\\alpha = \\frac{e^2}{4\\pi\\varepsilon_0 \\hbar c} \\approx \\frac{1}{137}"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_ALPHA"]
+  related_formulas: ["PHY_REL_001"]
+
+- formula_id: "PHY_CON_020"
+  name: "Standard Gravity"
+  latex: "g = 9.81 \\, \\text{m/s}^2"
+  variables: []
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Universal Constants"
+  subject: "physics"
+  concept_tags: ["PHY_CON", "PHY_CON_G"]
+  related_formulas: ["PHY_KIN_001", "PHY_GRAV_003"]
+
+- formula_id: "PHY_KIN_001"
+  name: "Average Velocity Definition"
+  latex: "v_{avg} = \\frac{\\Delta x}{\\Delta t}"
+  variables:
+    - symbol: "v_{avg}"
+      name: "average_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "\\Delta x"
+      name: "displacement"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "displacement"
+    - symbol: "\\Delta t"
+      name: "time_interval"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions:
+    - "one_dimensional_motion"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 1
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN"]
+  related_formulas: ["PHY_KIN_002", "PHY_KIN_003"]
+
+- formula_id: "PHY_KIN_002"
+  name: "Average Velocity for Constant Acceleration"
+  latex: "v_{avg} = \\frac{u + v}{2}"
+  variables:
+    - symbol: "v_{avg}"
+      name: "average_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "v"
+      name: "final_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+  preconditions:
+    - "constant_acceleration"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 2
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN", "PHY_KIN_ACC"]
+  related_formulas: ["PHY_KIN_001", "PHY_KIN_003"]
+
+- formula_id: "PHY_KIN_003"
+  name: "Displacement-Time Relation (Constant Acceleration)"
+  latex: "s = ut + \\frac{1}{2}at^2"
+  variables:
+    - symbol: "s"
+      name: "displacement"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "displacement"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "a"
+      name: "acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions:
+    - "constant_acceleration"
+    - "initial_velocity_u_known"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 3
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN", "PHY_KIN_EQ"]
+  related_formulas: ["PHY_KIN_002", "PHY_KIN_004"]
+
+- formula_id: "PHY_KIN_004"
+  name: "Velocity-Time Relation (Constant Acceleration)"
+  latex: "v = u + at"
+  variables:
+    - symbol: "v"
+      name: "final_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "a"
+      name: "acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions:
+    - "constant_acceleration"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 4
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN", "PHY_KIN_EQ"]
+  related_formulas: ["PHY_KIN_003", "PHY_KIN_005"]
+
+- formula_id: "PHY_KIN_005"
+  name: "Velocity-Displacement Relation (Constant Acceleration)"
+  latex: "v^2 = u^2 + 2as"
+  variables:
+    - symbol: "v"
+      name: "final_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "a"
+      name: "acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "s"
+      name: "displacement"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "displacement"
+  preconditions:
+    - "constant_acceleration"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 5
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN", "PHY_KIN_EQ"]
+  related_formulas: ["PHY_KIN_003", "PHY_KIN_004"]
+
+- formula_id: "PHY_KIN_006"
+  name: "Acceleration Definition"
+  latex: "a = \\frac{v - u}{t}"
+  variables:
+    - symbol: "a"
+      name: "acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "v"
+      name: "final_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 6
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN"]
+  related_formulas: ["PHY_KIN_004"]
+
+- formula_id: "PHY_KIN_007"
+  name: "Distance at Constant Velocity"
+  latex: "d = vt"
+  variables:
+    - symbol: "d"
+      name: "distance"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "distance"
+    - symbol: "v"
+      name: "velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions:
+    - "constant_velocity"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 7
+  grade_range: ["class7", "class8", "class9", "class10"]
+  chapter: "Motion"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_BASIC"]
+  related_formulas: ["PHY_KIN_001"]
+
+- formula_id: "PHY_KIN_008"
+  name: "Average Speed"
+  latex: "v_{avg} = \\frac{\\text{total distance}}{\\text{total time}}"
+  variables:
+    - symbol: "v_{avg}"
+      name: "average_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "speed"
+    - symbol: "d_{total}"
+      name: "total_distance"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "distance"
+    - symbol: "t_{total}"
+      name: "total_time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions: []
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 8
+  grade_range: ["class7", "class8", "class9", "class10"]
+  chapter: "Motion"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_BASIC"]
+  related_formulas: ["PHY_KIN_001"]
+
+- formula_id: "PHY_KIN_009"
+  name: "Position from Origin (Constant Acceleration)"
+  latex: "x = x_0 + ut + \\frac{1}{2}at^2"
+  variables:
+    - symbol: "x"
+      name: "position"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "position"
+    - symbol: "x_0"
+      name: "initial_position"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "position"
+    - symbol: "u"
+      name: "initial_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "a"
+      name: "acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "t"
+      name: "time"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+  preconditions:
+    - "constant_acceleration"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 9
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Straight Line"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_LIN"]
+  related_formulas: ["PHY_KIN_003", "PHY_KIN_004"]
+
+- formula_id: "PHY_KIN_010"
+  name: "Relative Velocity (Same Direction)"
+  latex: "v_{rel} = v_1 - v_2"
+  variables:
+    - symbol: "v_{rel}"
+      name: "relative_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "v_1"
+      name: "velocity_of_object_1"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "v_2"
+      name: "velocity_of_object_2"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+  preconditions:
+    - "same_direction"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 10
+  grade_range: ["class9", "class10", "class11", "class12"]
+  chapter: "Relative Motion"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_REL"]
+  related_formulas: ["PHY_KIN_011"]
+
+- formula_id: "PHY_KIN_011"
+  name: "Relative Velocity (Opposite Directions)"
+  latex: "v_{rel} = v_1 + v_2"
+  variables:
+    - symbol: "v_{rel}"
+      name: "relative_velocity"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "v_1"
+      name: "velocity_of_object_1"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "v_2"
+      name: "velocity_of_object_2"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+  preconditions:
+    - "opposite_directions"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 11
+  grade_range: ["class9", "class10", "class11", "class12"]
+  chapter: "Relative Motion"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_REL"]
+  related_formulas: ["PHY_KIN_010"]
+
+- formula_id: "PHY_KIN_012"
+  name: "Projectile Time of Flight"
+  latex: "T = \\frac{2u \\sin\\theta}{g}"
+  variables:
+    - symbol: "T"
+      name: "time_of_flight"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+    - symbol: "u"
+      name: "initial_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "\\theta"
+      name: "launch_angle"
+      unit: "rad"
+      dimensional_formula: "1"
+      quantity_type: "angle"
+    - symbol: "g"
+      name: "gravitational_acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+  preconditions:
+    - "projectile_motion"
+    - "level_ground"
+    - "no_air_resistance"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 12
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Plane"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_PROJ"]
+  related_formulas: ["PHY_KIN_013", "PHY_KIN_014"]
+
+- formula_id: "PHY_KIN_013"
+  name: "Projectile Maximum Height"
+  latex: "H = \\frac{u^2 \\sin^2\\theta}{2g}"
+  variables:
+    - symbol: "H"
+      name: "maximum_height"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "height"
+    - symbol: "u"
+      name: "initial_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "\\theta"
+      name: "launch_angle"
+      unit: "rad"
+      dimensional_formula: "1"
+      quantity_type: "angle"
+    - symbol: "g"
+      name: "gravitational_acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+  preconditions:
+    - "projectile_motion"
+    - "level_ground"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 13
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Plane"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_PROJ"]
+  related_formulas: ["PHY_KIN_012", "PHY_KIN_014"]
+
+- formula_id: "PHY_KIN_014"
+  name: "Projectile Horizontal Range"
+  latex: "R = \\frac{u^2 \\sin 2\\theta}{g}"
+  variables:
+    - symbol: "R"
+      name: "horizontal_range"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "distance"
+    - symbol: "u"
+      name: "initial_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "\\theta"
+      name: "launch_angle"
+      unit: "rad"
+      dimensional_formula: "1"
+      quantity_type: "angle"
+    - symbol: "g"
+      name: "gravitational_acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+  preconditions:
+    - "projectile_motion"
+    - "level_ground"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 14
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Plane"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_PROJ"]
+  related_formulas: ["PHY_KIN_012", "PHY_KIN_013"]
+
+- formula_id: "PHY_KIN_015"
+  name: "Projectile Trajectory Equation"
+  latex: "y = x \\tan\\theta - \\frac{gx^2}{2u^2 \\cos^2\\theta}"
+  variables:
+    - symbol: "y"
+      name: "vertical_position"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "position"
+    - symbol: "x"
+      name: "horizontal_position"
+      unit: "m"
+      dimensional_formula: "L"
+      quantity_type: "position"
+    - symbol: "\\theta"
+      name: "launch_angle"
+      unit: "rad"
+      dimensional_formula: "1"
+      quantity_type: "angle"
+    - symbol: "g"
+      name: "gravitational_acceleration"
+      unit: "m/s^2"
+      dimensional_formula: "L*T^-2"
+      quantity_type: "acceleration"
+    - symbol: "u"
+      name: "initial_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+  preconditions:
+    - "projectile_motion"
+    - "level_ground"
+    - "origin_at_launch"
+  constraints_required: []
+  constraints_forbidden: []
+  solve_order_priority: 15
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Motion in a Plane"
+  subject: "physics"
+  concept_tags: ["PHY_KIN", "PHY_KIN_PROJ"]
+  related_formulas: ["PHY_KIN_012", "PHY_KIN_013", "PHY_KIN_014"]
+
+- formula_id: "PHY_KIN_016"
+  name: "Time to Reach Maximum Height"
+  latex: "t_{up} = \\frac{u \\sin\\theta}{g}"
+  variables:
+    - symbol: "t_{up}"
+      name: "time_to_max_height"
+      unit: "s"
+      dimensional_formula: "T"
+      quantity_type: "time"
+    - symbol: "u"
+      name: "initial_speed"
+      unit: "m/s"
+      dimensional_formula: "L*T^-1"
+      quantity_type: "velocity"
+    - symbol: "\\theta"
+      name: "launch_angle"
+      unit: "rad"
+      dimensional_formula: "1"
+      quantity_type: "angle"
+    - symbol:

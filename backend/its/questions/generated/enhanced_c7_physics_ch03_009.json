@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_009",
+   "title": "c7_physics_ch03_009",
+   "questions": [
+    {
+     "q": "What is the primary physical force responsible for the downward seepage of water through soil layers?",
+     "a": "Gravity is the primary force pulling water downward through soil spaces. A wrong answer like \"heat\" or \"wind pressure\" reveals a confusion between atmospheric evaporation processes and the mechanical pull of gravity acting on mass during infiltration.",
+     "self_check": true
+    },
+    {
+     "q": "Why does water seep through sandy soil much faster than through clay soil, even though both are made of mineral particles?",
+     "a": "Sandy soil has larger spaces (pores) between its particles, allowing water to flow through easily with less friction. A wrong answer stating that clay absorbs more water and therefore lets it pass faster shows a failure to distinguish between water retention (holding capacity) and permeability (rate of flow).",
+     "self_check": true
+    },
+    {
+     "q": "If an experimental plot of land absorbs $500\\text{ mL}$ of water over an area of $0.05\\text{ m}^2$ in $10\\text{ minutes}$, what is the total volume of water absorbed in SI units? Express your answer in cubic meters ($\\text{m}^3$).",
+     "a": "To convert milliliters to cubic meters, use the relation $1\\text{ L} = 1000\\text{ mL}$ and $1\\text{ m}^3 = 1000\\text{ L}$. Step 1: Convert $500\\text{ mL}$ to liters: $500\\text{ mL} \\div 1000 = 0.5\\text{ L}$. Step 2: Convert liters to cubic meters: $0.5\\text{ L} \\div 1000 = 0.0005\\text{ m}^3$. Step 3: Verify units and calculation: $0.0005\\text{ m}^3$ ($5 \\times 10^{-4}\\text{ m}^3$). A wrong answer usually results from incorrect decimal shifting during the volume unit conversion from milliliters to cubic meters.",
+     "self_check": true
+    },
+    {
+     "q": "How does the presence of vegetation and plant roots affect the rate of water seepage into the underground soil compared to bare, hard-baked soil?",
+     "a": "Plant roots create microscopic channels and organic pathways in the soil that break up surface compaction, significantly increasing the seepage rate and reducing surface run-off. A wrong answer indicating that plants block water or drink it all before it seeps shows a misunderstanding of how root structures actually improve soil porosity and permeability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that once water seeps deep underground into an aquifer, it stays completely stationary forever. Evaluate this claim using physical principles.",
+     "a": "The claim is false because groundwater is not static; it flows slowly through permeable rock and soil layers under hydraulic gradients, eventually emerging in springs, rivers, or oceans. A wrong answer agreeing with the student reveals a static view of the water cycle, ignoring that subsurface water is part of a continuous dynamic flow system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab investigation using plastic bottles, different soil types (sand, loam, clay), and water to compare their seepage rates. What measurable parameters must you record?",
+     "a": "To design the investigation, one must cut the bottom off three plastic bottles, invert them, fill each with an equal mass of sand, loam, or clay, pour an equal volume of water ($200\\text{ mL}$) into each, and measure two parameters: the time taken for the first drop to emerge at the bottom, and the total volume of water collected in a measuring cylinder after 5 minutes. A poor answer fails to control variables (such as using different amounts of soil or water) or forgets to measure time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

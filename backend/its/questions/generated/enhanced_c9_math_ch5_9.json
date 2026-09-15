@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_9",
+   "title": "c9_math_ch5_9",
+   "questions": [
+    {
+     "q": "State the definition of concyclic points and the condition for four points A, B, C, D to be concyclic.",
+     "a": "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic, the opposite angles of quadrilateral ABCD must be supplementary (∠A + ∠C = 180° and ∠B + ∠D = 180°) or the angle subtended by chord AB at points C and D on the same side of AB must be equal (∠ACB = ∠ADB). A wrong answer like \"any four points are concyclic\" reveals the student does not know the specific angle condition; a student saying \"they must form a square\" reveals confusion between a sufficient condition (square is cyclic) and the necessary condition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why any three non-collinear points are always concyclic, but four points may not be. Use a diagram in your explanation.",
+     "a": "Three non-collinear points form a triangle; the perpendicular bisectors of its sides intersect at a unique point (circumcenter) equidistant from all three vertices, defining exactly one circle. Four points form a quadrilateral; for them to be concyclic, the fourth point must lie on the circle determined by the first three. This happens only if the quadrilateral's opposite angles are supplementary (or angles in the same segment are equal). A wrong answer saying \"four points always make a circle\" shows misunderstanding of the extra constraint; saying \"three collinear points are concyclic\" reveals confusion about non-collinearity requirement.",
+     "self_check": true
+    },
+    {
+     "q": "In quadrilateral PQRS, ∠P = 70°, ∠Q = 110°, ∠R = 80°. Determine if PQRS is cyclic. If not, what should ∠R be for it to be cyclic?",
+     "a": "For a cyclic quadrilateral, opposite angles sum to 180°. Here ∠P + ∠R = 70° + 80° = 150° ≠ 180°, so PQRS is NOT cyclic. For it to be cyclic, ∠R must be 180° - 70° = 110°. (Alternatively, ∠Q + ∠S = 180° → ∠S = 70°). A wrong answer of \"yes it is cyclic because ∠P+∠Q=180°\" reveals the student incorrectly pairs adjacent angles instead of opposite angles.",
+     "self_check": true
+    },
+    {
+     "q": "Two chords AB and CD of a circle intersect at point E inside the circle. Points A, B, C, D are on the circle. Prove that ∠AEC = ∠BED and explain how this relates to the concyclic condition for four points.",
+     "a": "∠AEC and ∠BED are vertically opposite angles, so they are equal. This does not directly prove concyclicity; rather, it uses the fact that A, B, C, D are already on the same circle. The concyclic condition for four points is that the angle subtended by a chord at the circumference is equal for points on the same segment. Here, chord AC subtends ∠ADC and ∠ABC; if these are equal, A, B, C, D are concyclic. A wrong answer confusing vertically opposite angles with the concyclic angle condition (e.g., \"∠AEC = ∠BED proves A,B,C,D are concyclic\") reveals the student conflates intersecting chords theorem with the definition of concyclic points.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a cyclic quadrilateral, if one angle is 90°, the opposite angle must also be 90°.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is FALSE. In a cyclic quadrilateral, opposite angles are supplementary (sum to 180°). If one angle is 90°, the opposite angle is 180° - 90° = 90° only in that specific case. The student might be confusing with \"angles in a semicircle are 90°\" or misapplying the property. A wrong evaluation accepting the statement reveals the student does not understand the general supplementary condition and only remembers a special case.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where you are given three points A(0,0), B(4,0), C(2,3) and asked to find a fourth point D such that A, B, C, D are concyclic. Provide the coordinates of D and justify your answer using the angle condition.",
+     "a": "One possible D is (2, -1). The circle through A, B, C has center (2, 1.25) and radius √(2² + 1.25²) ≈ 2.358. Point D(2, -1) lies on this circle. To justify using angle condition: In quadrilateral ABCD, ∠ACB is the angle subtended by chord AB at C. For D to be concyclic, ∠ADB must equal ∠ACB. Compute slopes: AC slope = 3/2, BC slope = -3/2 → ∠ACB ≈ 90° (since product = -9/4 ≠ -1, not exactly 90°). Actually, easier: The perpendicular bisectors of AB and AC intersect at circumcenter. Any point on that circle works. A poor answer picking D arbitrarily without checking the angle condition or circle equation reveals the student cannot apply the concyclic condition to coordinate geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

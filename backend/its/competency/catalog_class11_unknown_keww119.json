@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 119,
+  "chapter_title": "Refugee Blues",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww119.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww119.1.1",
+      "title": "Ten Million Souls, No Place for Two",
+      "section": "1",
+      "definition": "Auden's blues opens on a city of ten million souls -- some in mansions, some in holes -- yet no place for the refugee couple. 'Says this city has ten million souls' refracts everything through the speaker's voice; passports and official papers have declared the two of them outside humanity's count.",
+      "formula": "",
+      "key_idea": "A city of millions with room for none -- statelessness as the denial of a species.",
+      "textbook_ref": "keww119.txt opening stanzas (city has ten million souls, mansions and holes, no place for us, my dear, passport and official discrimination)",
+      "question_patterns": [
+        "what is the situation of the couple in refugee blues",
+        "in class 11 refugee blues: why is there no place for the speaker and his wife in the city",
+        "explain the contrast between mansions and holes in the poem",
+        "what role does the passport play in the poem",
+        "who speaks the repeated lines of the poem and to whom",
+        "how does the poem define homelessness beyond lacking a house"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "measure the city",
+          "explain": "Ten million souls can find rooms, yet the couple cannot -- abundance coexists with exclusion."
+        },
+        {
+          "step": 2,
+          "action": "find the mechanism",
+          "explain": "An expired or absent passport makes them legally invisible to committees and consuls."
+        },
+        {
+          "step": 3,
+          "action": "hear the refrain",
+          "explain": "Each stanza closes with 'my dear' -- private grief sung inside public catastrophe."
+        }
+      ]
+    },
+    {
+      "id": "keww119.1.2",
+      "title": "Nature's Generosity Against Human Doors",
+      "section": "1",
+      "definition": "Stanza by stanza, nature offers what society refuses: the old yew sprouting new leaves, the thrush singing its heart out, the fish swimming free, the birds in trees, doors opening for a cat and a dog. Against every natural welcome stands the human lock -- committees, consuls, soldiers, and the thunder of bombing planes.",
+      "formula": "",
+      "key_idea": "Even the fish are free -- Auden's catalogue shames every human door that stays shut.",
+      "textbook_ref": "keww119.mp3 middle stanzas (keww119.txt: yew sprouting new leaves, thrush singing, fish swimming free, doors open for cat and dog, committee, consul, soldiers, bombing planes)",
+      "question_patterns": [
+        "what examples from nature does the poet use in refugee blues",
+        "in class 11 refugee blues: why are the thrush and the fish contrasted with the couple",
+        "what answer do the committee and consul give the refugees",
+        "explain the image of doors opening for a cat and a dog",
+        "what is the significance of the soldiers and the bombing planes in the last stanza",
+        "how does nature highlight the cruelty of human society in the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "collect nature's welcomes",
+          "explain": "The yew renews itself, the thrush sings freely, fish and birds live unpoliced -- freedom is the norm of nature."
+        },
+        {
+          "step": 2,
+          "action": "collect human refusals",
+          "explain": "Committees offer talks, consuls tear up passes, soldiers bar the door -- bureaucracy and force close ranks."
+        },
+        {
+          "step": 3,
+          "action": "feel the contrast",
+          "explain": "Each natural generosity sharpens the cruelty of the man-made 'no'."
+        }
+      ]
+    },
+    {
+      "id": "keww119.1.3",
+      "title": "Blues Form and the Anonymity of Grief",
+      "section": "1",
+      "definition": "The poem borrows the blues form -- repeated first lines and a rueful refrain 'my dear' -- to give refugee grief the shape of a folk lament. The speakers remain unnamed: any refugee couple, any war, any city. The last stanza's looking through the blending snow to the sunless city and the thunder of planes leaves history's threat hanging.",
+      "formula": "",
+      "key_idea": "A folk-song shape for a modern disaster -- repetition, refrain and anonymity make grief universal.",
+      "textbook_ref": "keww119.txt form and ending (blues repetition structure, my dear refrain, anonymous speakers, snow and sunless city, bombing planes thunder, historical context of jewish refugees)",
+      "question_patterns": [
+        "how does auden use the blues form in refugee blues",
+        "in class 11 refugee blues: what is the effect of the repeated first lines in each stanza",
+        "why are the speakers left unnamed in the poem",
+        "explain the images of snow and the sunless city in the last stanza",
+        "what historical situation does the poem refer to",
+        "how does the refrain my dear change the feeling of the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the form",
+          "explain": "Each stanza repeats its opening line, then lands on the intimate refrain 'my dear' -- the blues pattern."
+        },
+        {
+          "step": 2,
+          "action": "mark the anonymity",
+          "explain": "No names are given, so the couple stand for all the displaced of every war."
+        },
+        {
+          "step": 3,
+          "action": "mark the close",
+          "explain": "Snow blurs city and sky as bombing planes thunder -- the personal lament ends inside history's menace."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww119.mp3 middle stanzas (keww119.txt)",
+      "concept": "keww119.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the contrast between the fish swimming free and the couple who cannot swim the river of bureaucracy.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the fish's freedom",
+          "explain": "The fish glide past ships without papers or permission -- nature demands no documents."
+        },
+        {
+          "step": 2,
+          "action": "state the couple's fate",
+          "explain": "The refugees, with no valid papers, are turned away from even the meanest shelter."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Auden's irony: in a human world, freedom requires a stamp; nature grants what states withhold."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww119.txt form and ending",
+      "concept": "keww119.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "How does the blues form intensify the sorrow of the poem rather than lighten it?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the repetition",
+          "explain": "Repeating the first line of each stanza forces the reader to hear the loss twice."
+        },
+        {
+          "step": 2,
+          "action": "identify the refrain",
+          "explain": "'My dear' turns each public wrong into a private tenderness between the couple."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The musical repetition becomes a tolling -- the form deepens grief instead of easing it."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww119.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is the theme of Refugee Blues?",
+        "How does Auden contrast nature and human society in the poem?",
+        "Explain the significance of the passport and the consul in the poem.",
+        "Describe the effect of the blues form used by the poet.",
+        "What do the last stanza's images of snow and planes suggest?",
+        "Why do you think the couple remains unnamed throughout?"
+      ]
+    }
+  ]
+}

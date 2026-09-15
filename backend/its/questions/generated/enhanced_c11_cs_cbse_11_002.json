@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_002",
+   "title": "c11_cs_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the primary criterion used to distinguish a LAN from a MAN and a WAN?",
+     "a": "The primary criterion is the geographical area covered: LAN covers a small area (e.g., a building), MAN covers a city or large campus, and WAN covers large distances (countries/continents). A wrong answer (e.g., \"speed\" or \"cable type\") reveals the student is confusing secondary characteristics (bandwidth, media) with the defining feature—geographical scope.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a network connecting two branch offices of a company in different cities using a leased line is classified as a WAN, not a MAN.",
+     "a": "A MAN typically connects networks within a single metropolitan area (same city), often using high-speed fiber owned by a local provider. A WAN links networks across cities, regions, or countries, usually over leased telecommunication circuits or public infrastructure. If the student says \"because it uses a leased line,\" they miss the geographical distinction; the correct reasoning must reference the inter-city distance.",
+     "self_check": true
+    },
+    {
+     "q": "A university has three campuses in the same city connected by dedicated fiber optic cables. Each campus has its own internal network connecting labs, libraries, and hostels. Classify the network at the campus level and the network interconnecting the three campuses.",
+     "a": "Each campus network is a LAN (confined to a single campus). The inter-campus network spanning the city is a MAN (connects multiple LANs within a metropolitan area). A wrong answer (e.g., calling the inter-campus network a WAN) shows the student does not recognize that a city-wide private fiber network is a classic MAN, not a WAN.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the ownership and maintenance responsibilities for a typical LAN versus a typical WAN.",
+     "a": "A LAN is usually owned, managed, and maintained by a single organization (school, company) using its own equipment. A WAN typically involves multiple organizations; the links are leased from telecom providers (ISPs, telcos) who own and maintain the backbone infrastructure, while the end organizations manage only their edge devices. If the student says \"both are owned by the user,\" they overlook the service-provider model inherent in WANs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A high-speed fiber connection between two buildings 50 km apart is always a WAN.\" Justify your answer.",
+     "a": "The statement is false. If the two buildings are within the same metropolitan area (e.g., two campuses of a university in a large city), the link is a MAN, even if it uses fiber and spans 50 km. The classification depends on geographical scope (metropolitan vs. wide-area), not solely on distance or media. A student who agrees reveals a misconception that distance alone determines the type.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario involving a small business that uses all three network types (LAN, MAN, WAN) simultaneously. Describe the purpose of each in your scenario.",
+     "a": "Example: A retail chain has a LAN in each store connecting POS terminals and inventory PCs (LAN). The stores in a city connect to a central city warehouse via a MAN (metro fiber). The city warehouse connects to the national headquarters and cloud ERP over the internet/leased lines (WAN). A poor answer would list three separate networks without showing how they interconnect hierarchically (LANs → MAN → WAN).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

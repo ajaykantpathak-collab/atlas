@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_007",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_007",
+   "title": "c7_geo_ch03_007",
+   "questions": [
+    {
+     "q": "Why is the southern part of India generally warmer throughout the year compared to the northern part of India?",
+     "a": "Southern India is closer to the Equator (lower latitude), where the sun's rays fall more vertically throughout the year, concentrating solar energy. Northern India lies further north, experiencing more slanted sun rays during winter months. A wrong answer stating that northern India is warmer reveals confusion about latitudinal solar radiation and sun angles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Ooty (Udhagamandalam) in the Nilgiri Hills has a much cooler climate than Chennai on the coast, even though both are located in southern India at similar latitudes.",
+     "a": "Ooty is located at a much higher altitude (elevation above sea level) than Chennai. As altitude increases, the atmosphere becomes thinner, holding less heat radiated from the Earth's surface, which causes temperatures to drop. A wrong answer attributing this solely to ocean breezes misses the critical impact of elevation on temperature.",
+     "self_check": true
+    },
+    {
+     "q": "If City A is located on the western coast of India and City B is located deep inland in central Maharashtra at the exact same latitude and altitude, which city will experience more extreme seasonal temperature variations (very hot summers and very cold winters), and why?",
+     "a": "City B will experience more extreme seasonal temperatures because it is far from the sea. Step 1: Identify that City A is near the coast and City B is inland. Step 2: Recall that water bodies heat up and cool down slowly, moderating nearby coastal temperatures (maritime influence). Step 3: Recall that landmasses heat up and cool down quickly, creating continental climates with extreme ranges inland. Step 4: Conclude that City B lacks this maritime moderation. A wrong answer choosing City A shows a misunderstanding of how distance from the sea creates continental versus maritime climate types.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the climatic impact of the Tropic of Cancer passing through the middle of India. How does this imaginary line divide India's overall climate classification?",
+     "a": "The Tropic of Cancer passes through central India, dividing the country into two distinct climatic zones. The area south of the Tropic lies in the tropical zone, being closer to the Equator and remaining warm year-round. The area north of the Tropic lies in the subtropical or temperate zone, experiencing distinct seasonal variations with colder winters. A wrong answer indicates confusion about latitudinal zones and solar geometry relative to the Equator.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Altitude is a more powerful determinant of temperature than latitude for hill stations in northern India like Nainital.\" Do you agree or disagree, and why?",
+     "a": "I agree with the statement in a local context because even though Nainital is at a relatively northern latitude (where winters are generally cold), its high elevation in the Himalayas drastically reduces its temperature year-round compared to nearby lowland plains like Bareilly. Elevation creates microclimates that can override standard latitudinal temperature gradients. A wrong answer fails to recognize how steep vertical relief alters local temperature profiles faster than horizontal distance from the Equator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical climate profile for a new town located at 3,500 meters altitude in the western Himalayas, compared to a town at sea level in the Indo-Gangetic plain at the same latitude. Describe their expected temperature differences and explain which geographic factors cause them.",
+     "a": "The expected profile for the Himalayan town would show freezing winters, cool summers, and low atmospheric pressure due to high altitude. The plain town would show hot summers, mild-to-cool winters, and higher humidity due to being at sea level and inland. A poor answer merely guesses temperatures without linking them to altitude and distance from the sea.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

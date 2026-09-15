@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_008",
+   "title": "c12_biotech_cbse_12_008",
+   "questions": [
+    {
+     "q": "A biotech founder says: \"I should approach venture capital firms first because they give the largest amounts of money.\" What is the fundamental flaw in this reasoning for an early-stage (pre-clinical) biotech venture?",
+     "a": "The flaw is assuming VC firms invest at pre-clinical stages. Most Indian biotech VCs (e.g., Eight Roads, Sequoia Capital India, Accel) typically enter at Series A (post-proof-of-concept, pre-clinical/Phase I data) with ₹10-50 crore tickets. Pre-clinical ventures are too high-risk for traditional VC; they need non-dilutive grants (BIRAC SBIRI, BIG) or angel investors first. A student who misses this reveals they don't understand stage-risk alignment — the core principle of biotech funding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a BIRAC Biotechnology Ignition Grant (BIG) of ₹50 lakh is often more valuable to a pre-revenue biotech startup than a ₹2 crore angel investment, even though the angel amount is four times larger.",
+     "a": "BIG is non-dilutive (no equity given up), carries no repayment obligation, and validates the science for future investors — acting as a \"stamp of credibility.\" Angel investment at pre-revenue stage typically demands 10-20% equity for ₹2 crore, severely diluting founders before value inflection points. A student who focuses only on quantum of money misses the cost of capital (equity vs grant) and signaling value — critical for biotech's long gestation.",
+     "self_check": true
+    },
+    {
+     "q": "A startup developing a biosimilar monoclonal antibody (mAb) for cancer has completed Phase I trials and needs ₹30 crore for Phase II/III. They have two offers: (A) ₹30 crore Series A from a healthcare-focused VC fund for 25% equity, or (B) ₹15 crore venture debt from a specialized biotech lender at 12% interest with 5% warrant coverage, plus ₹15 crore from a strategic pharma partner for 10% equity + co-development rights. Analyze which option better preserves founder control and upside, assuming successful exit at ₹500 crore valuation.",
+     "a": "Option B preserves more upside. Option A: Founders retain 75% → ₹375 crore at exit. Option B: Founders give 10% to pharma partner + ~5% warrant dilution (5% of 90% = 4.5%) ≈ 14.5% total dilution → retain 85.5% → ₹427.5 crore at exit. Venture debt adds interest cost but no equity dilution beyond warrants. A student choosing Option A misses that venture debt + strategic equity is a common biotech structure to minimize dilution while accessing larger capital — a key competitive exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the funding journey of a synthetic biology startup (e.g., designing microbes for fragrance production) vs a regenerative medicine startup (e.g., iPSC-derived cell therapy for macular degeneration) in terms of: (i) typical capital required to reach first revenue, (ii) dominant funding sources at each stage, (iii) role of regulatory milestones in unlocking capital.",
+     "a": "Synthetic biology (fragrance): Lower capital (₹10-30 crore to revenue), faster revenue (GRAS pathway, no clinical trials), funded by angels, synbio-focused VCs (e.g., SynBioBeta network), corporate strategics (Givaudan, Firmenich). Regenerative medicine (cell therapy): Higher capital (₹200-500+ crore to revenue), 7-10 year timeline, dependent on BIRAC/DBT grants for early stages, specialized healthcare VCs for Series A/B, strategic pharma partnerships for late stage. Regulatory milestones (IND, Phase I/II/III) are discrete value inflection points for cell therapy; for synbio, scale-up and offtake agreements matter more. A student giving generic answers misses sector-specific funding logic.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Government grants like BIRAC SBIRI are 'free money' so startups should always maximize grant funding before approaching private investors.\"",
+     "a": "The statement is dangerously incomplete. Grants are non-dilutive but come with: (1) Strict milestone-based disbursement — delays in one milestone freeze subsequent tranches; (2) Reporting/compliance burden diverting scientific focus; (3) IP ownership restrictions (some schemes require government march-in rights); (4) No strategic value-add (network, hiring, business development) that smart private investors bring; (5) Grant cycles are slow (6-18 months) vs private term sheets (4-8 weeks). Over-reliance on grants can delay critical hires and experiments. A student agreeing fully shows they don't understand opportunity cost and strategic investor value — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a staged funding roadmap for a hypothetical Indian biotech startup developing an mRNA vaccine platform for infectious diseases. Specify: (i) Amount and source for each stage (Discovery → Pre-clinical → Phase I → Phase II/III → Commercial), (ii) Key milestones to unlock next stage, (iii) Equity dilution estimate at each stage, (iv) One strategic non-capital value each investor type brings.",
+     "a": "Good answer includes:\n- Discovery (₹50L): BIRAC BIG grant (non-dilutive) → Milestone: Lead candidate ID → Value: Credibility for hiring.\n- Pre-clinical (₹5Cr): DBT-BIRAC SBIRI + Angel syndicate (₹2Cr grant + ₹3Cr equity, 10%) → Milestone: IND-enabling tox data → Value: Angel network for key hires.\n- Phase I (₹25Cr): Series A from healthcare VC (₹25Cr, 20%) → Milestone: Safety + immunogenicity in humans → Value: Clinical trial design expertise.\n- Phase II/III (₹150Cr): Series B/C + Strategic pharma partnership (₹100Cr equity 15% + ₹50Cr co-dev) → Milestone: Efficacy endpoint → Value: Global distribution/manufacturing.\n- Commercial (₹300Cr): Mezzanine debt + IPO prep → Milestone: Licensure → Value: Public market access.\nPoor answer: Generic amounts, ignores mRNA platform specifics (manufacturing scale-up needs), misses non-capital value, no dilution math.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

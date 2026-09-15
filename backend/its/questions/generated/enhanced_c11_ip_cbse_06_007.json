@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_007",
+   "title": "c11_ip_cbse_06_007",
+   "questions": [
+    {
+     "q": "What does `file.tell()` return immediately after opening a text file in `'r'` mode before any read operation?",
+     "a": "`file.tell()` returns `0`, indicating the file pointer is at the very beginning (byte offset 0). A wrong answer like `-1` or `None` reveals the student confuses `tell()` with `read()` return values or thinks the pointer starts after a header.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `f.seek(10, 1)` thinking it moves to the 10th byte of the file. Explain why this is incorrect and what it actually does.",
+     "a": "`seek(10, 1)` moves the pointer 10 bytes *forward from the current position* (whence=1), not from the start. The student misunderstands the `whence` parameter: 0=start, 1=current, 2=end. This misconception leads to off-by-current-position errors in random access.",
+     "self_check": true
+    },
+    {
+     "q": "Given a text file `data.txt` containing lines of varying length, you record `pos = f.tell()` before reading a line with `f.readline()`. Later you do `f.seek(pos)` and `f.readline()` again. Will you get the same line? Why or why not?",
+     "a": "Yes, you will get the same line because `tell()` returns the exact byte offset at the start of that line, and `seek(pos)` restores the pointer to that identical offset. A wrong answer (\"no, because text mode translates newlines\") shows confusion: `tell()`/`seek()` use the *file's actual byte positions* as seen by the OS; the translation is handled by the Python IO layer consistently.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `f.seek(0, 0)` and `f.seek(0, 2)`. What does each do, and when would you use each in a program that appends a summary line after reading the entire file?",
+     "a": "`seek(0,0)` moves to the start of the file (byte 0); `seek(0,2)` moves to the end of the file (byte at EOF). After reading the whole file, the pointer is already at EOF, so `seek(0,2)` is redundant but safe; `seek(0,0)` would reposition to the beginning for re-reading. A student who swaps them cannot implement \"read then append\" correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A program opens a file in `'r'` mode, reads 100 characters with `f.read(100)`, then calls `pos = f.tell()`. The file contains only ASCII characters. Is `pos` guaranteed to be 100? Justify.",
+     "a": "Not guaranteed. In text mode on Windows, `\\r\\n` is translated to `\\n` on read, so 100 *characters read* may correspond to more than 100 *bytes on disk*. `tell()` returns the *file's byte position* (which accounts for the actual bytes consumed), so `pos` could be >100. A student answering \"yes, always 100\" ignores platform-dependent newline handling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project idea where a Class 11 student uses `seek()` and `tell()` to create a simple \"random quote generator\" from a large text file of quotes (one per line) without loading all quotes into memory. Outline the steps.",
+     "a": "Steps: (1) Scan file once, store `tell()` position before each `readline()` in a list `offsets`. (2) Count total quotes `n = len(offsets)`. (3) Pick random index `i = random.randint(0, n-1)`. (4) `seek(offsets[i])` and `readline()` to get the quote. (5) Print. A poor answer loads all lines into a list, missing the point of random access for large files.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

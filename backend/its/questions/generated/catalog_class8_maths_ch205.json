@@ -1,0 +1,427 @@
+{
+ "catalog": "catalog_class8_maths_ch205.json",
+ "concepts": [
+  {
+   "id": "hegp.205.5.1.1",
+   "title": "Balance Point Property of Mean",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.2",
+   "title": "Mean Transformation by Addition or Subtraction",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 7, 4, 10, 8, 17.",
+     "a": "9.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 8, 13, 41, 42, 48 (already in increasing order).",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 3, 6. A seventh value 59 is added, making 7 values. Find the median of the 7 values.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 10 and 40. Find the median.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 20, 32, 55, 55.",
+     "a": "35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.3",
+   "title": "Mean Transformation by Multiplication",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 13, 12, 8, 13, 3.",
+     "a": "9.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 5, 11, 23, 23, 34 (already in increasing order).",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 10, 32. A seventh value 58 is added, making 7 values. Find the median of the 7 values.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 29 and 49. Find the median.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 1 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 18, 34, 25, 41.",
+     "a": "23",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.4",
+   "title": "Finding a Missing Value from the Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 37, 5, 4, 6, 37.",
+     "a": "17.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 7, 32, 38, 40 (already in increasing order).",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 6, 10. A seventh value 49 is added, making 7 values. Find the median of the 7 values.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 19 and 33. Find the median.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 5 times, 5 occurs 2 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 12, 45, 21, 27.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.5",
+   "title": "Correcting Mean for Erroneous Data Entries",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 17, 39, 9, 3, 30.",
+     "a": "19.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 3, 14, 39, 43, 46 (already in increasing order).",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 19, 25. A seventh value 54 is added, making 7 values. Find the median of the 7 values.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 9 and 32. Find the median.",
+     "a": "20.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 13, 10, 9, 52.",
+     "a": "43",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.6",
+   "title": "Mean of Frequency Distribution Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 5, 8, 18, 2, 8.",
+     "a": "8.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 3, 11, 13, 17, 47 (already in increasing order).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 12, 37. A seventh value 55 is added, making 7 values. Find the median of the 7 values.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 28 and 60. Find the median.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 1 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 54, 29, 13, 43.",
+     "a": "41",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.7",
+   "title": "Median of Frequency Distribution Data",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((39, 34, 28, 5, 20)) gives 126",
+     "compute": "total = sum((39, 34, 28, 5, 20))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 39, 34, 28, 5, 20.",
+     "a": "25.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 3, 13, 25, 49 (already in increasing order).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 12, 32. A seventh value 50 is added, making 7 values. Find the median of the 7 values.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 13 and 42. Find the median.",
+     "a": "27.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 58, 54, 39, 22.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.8",
+   "title": "Spreadsheet Formulas SUM and AVERAGE",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 9, 16, 4, 14)) gives 81",
+     "compute": "total = sum((38, 9, 16, 4, 14))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 16.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 38, 9, 16, 4, 14.",
+     "a": "16.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 11, 15, 25, 27, 29 (already in increasing order).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 10, 33. A seventh value 45 is added, making 7 values. Find the median of the 7 values.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 6 and 59. Find the median.",
+     "a": "32.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 11, 59, 53, 47.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.2.1",
+   "title": "Line Graph Interpretation and Trend Analysis",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 2 + 8 gives 13",
+     "compute": "total = 3 + 2 + 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 3, 2 and 8. Find the total frequency.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 10 units. If a row shows 12 symbols, what value does it represent?",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 10 units, how many symbols represent 120 units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 8 units tall. How many books does it show?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 90 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 25 out of 100 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.2.2",
+   "title": "Infographics and Activity Time Strips",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 2 + 4 gives 8",
+     "compute": "total = 2 + 2 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 2, 2 and 4. Find the total frequency.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 20 units. If a row shows 8 symbols, what value does it represent?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 20 units, how many symbols represent 300 units?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 12 units tall. How many books does it show?",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 65 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 75 out of 300 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 202,
+ "chapter_title": "Operations with Integers",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp202.txt",
+ "concepts": [
+  {
+   "id": "gegp.2.1.1",
+   "title": "Final Position on a Number Line",
+   "section": "2.1",
+   "definition": "If the first strike moves the coin 'a' units and the second strike moves the coin 'b' units, then the final position P is the sum of the two movements.",
+   "formula": "p = a + b",
+   "key_idea": "The final position of an object moving in two steps is the algebraic sum of its individual displacements.",
+   "textbook_ref": "gegp202.txt lines 45-75",
+   "question_patterns": [
+    "find the final position of the coin",
+    "calculate the final position after movements of {a} and {b}",
+    "what is the final position if the first movement is {a} and the second is {b}",
+    "if a coin moves {a} units then {b} units, where does it end up",
+    "explain final position on a number line with an example",
+    "short note on final position on a number line",
+    "why is final position on a number line important",
+    "give one everyday example of final position on a number line",
+    "describe final position on a number line in your own words",
+    "what do you understand by final position on a number line",
+    "list the main points about final position on a number line"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the two movements",
+     "explain": "The final position is the sum of the first movement 'a' and the second movement 'b'.",
+     "compute": "p = a + b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of movement",
+     "explain": "Positive movements move right on the number line and negative movements move left."
+    },
+    {
+     "step": 3,
+     "action": "Locate the final position on the number line",
+     "explain": "Starting from zero, move by 'a' then by 'b' to reach the final position P."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.1.2",
+   "title": "Additive Inverse",
+   "section": "2.1",
+   "definition": "Additive inverse of an integer a is represented as -a. The sum of an integer and its additive inverse is zero.",
+   "formula": "a + (-a) = 0",
+   "key_idea": "Subtracting a numberput differently,  is the same as adding its additive inverse.",
+   "textbook_ref": "gegp202.txt lines 115-135",
+   "question_patterns": [
+    "what is the additive inverse of {a}",
+    "find the additive inverse",
+    "represent the additive inverse of {a}",
+    "explain additive inverse with an example",
+    "short note on additive inverse",
+    "why is additive inverse important",
+    "give one everyday example of additive inverse",
+    "describe additive inverse in your own words",
+    "what do you understand by additive inverse",
+    "list the main points about additive inverse"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Negate the integer",
+     "explain": "The additive inverse of a is -a.",
+     "compute": "inverse = 0 - a"
+    },
+    {
+     "step": 2,
+     "action": "Verify the inverse by addition",
+     "explain": "Adding the integer and its additive inverse should give zero.",
+     "compute": "check = a + inverse"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "If the check equals zero, the additive inverse is correct; use it to convert subtraction into addition."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.1",
+   "title": "Multiplication of Integers",
+   "section": "2.2",
+   "definition": "When two integers are multiplied, the product is positive if both have the same sign, and negative if they have different signs.",
+   "formula": "product = a * b",
+   "key_idea": "The magnitude of the product is the product of magnitudes; the sign is positive for like signs and negative for unlike signs.",
+   "textbook_ref": "gegp202.txt lines 215-235",
+   "question_patterns": [
+    "find the product of {a} and {b}",
+    "multiply {a} by {b}",
+    "calculate {a} times {b}",
+    "what is the value of {a} * {b}",
+    "explain multiplication of integers with an example",
+    "short note on multiplication of integers",
+    "why is multiplication of integers important",
+    "give one everyday example of multiplication of integers",
+    "describe multiplication of integers in your own words",
+    "what do you understand by multiplication of integers",
+    "list the main points about multiplication of integers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the two integers",
+     "explain": "Multiply the numbers considering their signs.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the sign of the product",
+     "explain": "Like signs give a positive product; unlike signs give a negative product."
+    },
+    {
+     "step": 3,
+     "action": "Verify the magnitude",
+     "explain": "Confirm the magnitude of the product equals the product of the absolute values of the two integers.",
+     "compute": "magnitude = abs(a) * abs(b)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.2",
+   "title": "Commutative Property of Multiplication",
+   "section": "2.2",
+   "definition": "Multiplication is commutative for integers; the product does not change when the multiplier and multiplicand are swapped.",
+   "formula": "a * b = b * a",
+   "key_idea": "The order of factors in multiplication does not affect the product.",
+   "textbook_ref": "gegp202.txt lines 260-275",
+   "question_patterns": [
+    "verify the commutative property for {a} and {b}",
+    "is {a} * {b} equal to {b} * {a}",
+    "show that the product remains same when swapping {a} and {b}",
+    "explain commutative property of multiplication with an example",
+    "short note on commutative property of multiplication",
+    "why is commutative property of multiplication important",
+    "give one everyday example of commutative property of multiplication",
+    "describe commutative property of multiplication in your own words",
+    "what do you understand by commutative property of multiplication",
+    "list the main points about commutative property of multiplication"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate a * b",
+     "explain": "Multiply the first integer by the second."
+    },
+    {
+     "step": 2,
+     "action": "Calculate b * a",
+     "explain": "Multiply the second integer by the first."
+    },
+    {
+     "step": 3,
+     "action": "Compare results",
+     "explain": "Check if both products are equal."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.3",
+   "title": "Multiplication by -1",
+   "section": "2.2",
+   "definition": "The product of any integer a and -1 is the additive inverse of a.",
+   "formula": "-1 * a = -a",
+   "key_idea": "Multiplying by -1 flips the sign of the integer.",
+   "textbook_ref": "gegp202.txt lines 245-255",
+   "question_patterns": [
+    "find the product of -1 and {a}",
+    "what is -1 times {a}",
+    "calculate -1 * {a}",
+    "explain multiplication by -1 with an example",
+    "short note on multiplication by -1",
+    "why is multiplication by -1 important",
+    "give one everyday example of multiplication by -1",
+    "describe multiplication by -1 in your own words",
+    "what do you understand by multiplication by -1",
+    "list the main points about multiplication by -1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply by -1",
+     "explain": "The result is the negative of the original number.",
+     "compute": "result = -1 * a"
+    },
+    {
+     "step": 2,
+     "action": "Confirm the sign flip",
+     "explain": "A positive integer becomes negative and a negative integer becomes positive."
+    },
+    {
+     "step": 3,
+     "action": "Verify by adding the original",
+     "explain": "Adding the original integer and the result should give zero, confirming they are additive inverses.",
+     "compute": "check = a + result"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.4",
+   "title": "Distributive Property",
+   "section": "2.2",
+   "definition": "Integer multiplication isin short,  distributive over addition.",
+   "formula": "a * (b + c) = (a * b) + (a * c)",
+   "key_idea": "Multiplying a sum by a number is the same as multiplying each addend by the number and then adding the products.",
+   "textbook_ref": "gegp202.txt lines 395-410",
+   "question_patterns": [
+    "use distributive property to solve {a} * ({b} + {c})",
+    "verify distributive property for {a}, {b}, and {c}",
+    "calculate {a} * {b} + {a} * {c} using distribution",
+    "explain distributive property with an example",
+    "short note on distributive property",
+    "why is distributive property important",
+    "give one everyday example of distributive property",
+    "describe distributive property in your own words",
+    "what do you understand by distributive property",
+    "list the main points about distributive property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the sum inside brackets",
+     "explain": "Add b and c.",
+     "compute": "inner_sum = b + c"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the external factor",
+     "explain": "Multiply a by the inner_sum.",
+     "compute": "result = a * inner_sum"
+    },
+    {
+     "step": 3,
+     "action": "Verify by distributing the multiplication",
+     "explain": "Compute a * b + a * c separately and confirm it equals the result, validating the distributive property.",
+     "compute": "check = (a * b) + (a * c)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.3.1",
+   "title": "Division of Integers",
+   "section": "2.3",
+   "definition": "For any two positive integers a and b, a / (-b) = -(a / b), (-a) / b = -(a / b), and (-a) / (-b) = a / b.",
+   "formula": "quotient = a / b",
+   "key_idea": "The sign rules for division are identical to the sign rules for multiplication.",
+   "textbook_ref": "gegp202.txt lines 375-390",
+   "question_patterns": [
+    "divide {a} by {b}",
+    "find the quotient of {a} and {b}",
+    "calculate {a} / {b}",
+    "what is the result of {a} divided by {b}",
+    "explain division of integers with an example",
+    "short note on division of integers",
+    "why is division of integers important",
+    "give one everyday example of division of integers",
+    "describe division of integers in your own words",
+    "what do you understand by division of integers",
+    "list the main points about division of integers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the integers",
+     "explain": "Divide the dividend by the divisor considering signs.",
+     "compute": "quotient = a / b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the sign of the quotient",
+     "explain": "Like signs give a positive quotient; unlike signs give a negative quotient, matching multiplication rules."
+    },
+    {
+     "step": 3,
+     "action": "Verify by multiplying the quotient by the divisor",
+     "explain": "The quotient multiplied by the divisor should equal the dividend, confirming the division is correct.",
+     "compute": "check = quotient * b"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.5",
+   "title": "Brahmagupta's Rules",
+   "section": "2.2",
+   "definition": "The product orsimply put,  quotient of two fortunes is a fortune. The product or quotient of two debts is a fortune. The product or quotient of a debt and a fortune is a debt.",
+   "formula": "fortune * fortune = fortune",
+   "key_idea": "Historical rules for integer operations using 'fortune' for positive and 'debt' for negative.",
+   "textbook_ref": "gegp202.txt lines 280-295",
+   "question_patterns": [
+    "what are Brahmagupta's rules for multiplication",
+    "according to Brahmagupta, what is the product of two debts",
+    "state the rule for the product of a debt and a fortune",
+    "explain brahmagupta's rules with an example",
+    "short note on brahmagupta's rules",
+    "why is brahmagupta's rules important",
+    "give one everyday example of brahmagupta's rules",
+    "describe brahmagupta's rules in your own words",
+    "what do you understand by brahmagupta's rules",
+    "list the main points about brahmagupta's rules"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify signs",
+     "explain": "Map fortune to positive and debt to negative."
+    },
+    {
+     "step": 2,
+     "action": "Apply sign rule",
+     "explain": "Same signs result in fortune; different signs result in debt."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the result type",
+     "explain": "State whether the final product or quotient is a fortune (positive) or a debt (negative) based on the applied rule."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp202.txt lines 296-310",
+   "concept": "gegp.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "An exam has {total_q} questions. {mark_c} marks for correct and {mark_w} for wrong. Mala had {count_c} correct and {count_w} wrong. Find total marks.",
+   "extracted_variables": {
+    "count_c": "number of correct answers",
+    "count_w": "number of wrong answers",
+    "mark_c": "marks per correct answer",
+    "mark_w": "marks per wrong answer"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate marks for correct answers",
+     "explain": "Multiply correct count by marks per correct answer.",
+     "compute": "score_c = count_c * mark_c"
+    },
+    {
+     "step": 2,
+     "action": "Calculate marks for wrong answers",
+     "explain": "Multiply wrong count by marks per wrong answer (negative).",
+     "compute": "score_w = count_w * mark_w"
+    },
+    {
+     "step": 3,
+     "action": "Sum the marks",
+     "explain": "Total marks is the sum of correct and wrong scores.",
+     "compute": "total = score_c + score_w"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp202.txt lines 311-340",
+   "concept": "gegp.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "An elevator moves at {speed} metres per minute. If it descends from {start}, what is its position after {time} minutes?",
+   "extracted_variables": {
+    "speed": "rate of movement (negative for descent)",
+    "start": "initial position",
+    "time": "duration of movement"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate distance travelled",
+     "explain": "Multiply speed by time.",
+     "compute": "dist = speed * time"
+    },
+    {
+     "step": 2,
+     "action": "Find final position",
+     "explain": "Add distance travelled to starting position.",
+     "compute": "final = start + dist"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "gegp202.txt lines 415-440",
+   "questions": [
+    "Find the values of: 14 * (-15)",
+    "-16 * (-5)",
+    "36 / (-18)",
+    "(-46) / (-23)",
+    "A freezing process lowers temperature from 32\u00b0C at 5\u00b0C per hour. Find temp after 10 hours.",
+    "A company earns \u20b98 profit per white bag and \u20b95 loss per grey bag. Find profit/loss for 3000 white and 5000 grey bags."
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

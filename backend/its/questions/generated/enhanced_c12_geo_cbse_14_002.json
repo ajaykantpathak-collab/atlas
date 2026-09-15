@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_002",
+   "title": "c12_geo_cbse_14_002",
+   "questions": [
+    {
+     "q": "Name the seven classical factors influencing industrial location and give one Indian example where each factor played a decisive role.",
+     "a": "The seven factors are: (1) Raw material – iron & steel at Jamshedpur (iron ore + coal); (2) Power – aluminium at Korba (coal-based thermal power); (3) Labour – cotton textile at Mumbai (historical migrant labour pool); (4) Market – automobile at Gurugram (proximity to Delhi NCR demand); (5) Transport – petrochemical at Vadodara (rail/road/pipeline junction); (6) Capital – IT at Bengaluru (venture capital ecosystem); (7) Government policy – BHEL at Bhopal (public sector dispersal policy). A wrong answer (e.g., listing “climate” or “soil”) reveals confusion with agricultural location factors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the “least-cost location” principle (Weber’s model) often fails to predict actual industrial locations in India, citing two specific deviations.",
+     "a": "Weber assumes uniform transport cost, infinite labour mobility, and no policy interference. In India: (a) Freight equalisation policy (1952–1993) artificially lowered transport cost for coal/steel, pulling industries away from mineral bases (e.g., steel plants in South India). (b) Licensing regime (pre-1991) forced location in backward areas (e.g., BHEL Haridwar) ignoring market access. A student who only recites Weber’s triangle without Indian policy context shows textbook memorisation without application.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of “weight-losing” vs “weight-gaining” industries, classify the following and state the implied locational pull: (i) Sugar milling, (ii) Cement, (iii) Automobile assembly, (iv) Cotton textile spinning.",
+     "a": "(i) Sugar – weight-losing (sugarcane loses sucrose rapidly); locates near cane fields (Uttar Pradesh, Maharashtra). (ii) Cement – weight-losing (limestone → clinker loses CO₂); locates near limestone belts (Satna, Chandrapur). (iii) Automobile assembly – weight-gaining (components → heavier finished vehicle); locates near market (Gurugram, Pune). (iv) Cotton spinning – weight-losing (raw cotton → yarn loses waste); historically near cotton fields (Ahmedabad), but modern units also near ports for export. Misclassifying automobile as weight-losing reveals misunderstanding of value-addition vs physical weight.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational advantages of the Mumbai-Pune industrial belt and the Chota Nagpur Plateau. Identify three factors common to both and two factors unique to each.",
+     "a": "Common: (1) Transport – both have dense rail/road/port connectivity; (2) Labour – large urban pools (Mumbai/Pune; Jamshedpur/Ranchi); (3) Market – large consumer bases. Unique to Mumbai-Pune: (a) Historical capital & entrepreneurship (Parsis, Marwaris); (b) Port access for import/export (JNPT). Unique to Chota Nagpur: (a) Co-location of coal + iron ore + manganese + limestone; (b) Cheap hydro/thermal power (Damodar Valley). An answer listing only “raw materials” for Chota Nagpur misses the agglomeration economies that sustain it.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “After 1991 liberalisation, government policy ceased to be a major locational factor in India.” Support your judgement with two post-1991 examples where policy still directed location.",
+     "a": "The statement is false. Policy remains decisive: (1) Special Economic Zones (SEZs) – tax breaks, infrastructure, and single-window clearance attracted IT/electronics to Hyderabad, Chennai, Noida. (2) Industrial Corridors (DMIC, CBIC) – land acquisition, trunk infrastructure, and node development pull manufacturing to specific alignments (e.g., Maruti Suzuki at Manesar on DMIC). A student claiming “market forces alone” ignores the continued role of state-enabled infrastructure and fiscal incentives.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new integrated steel plant (capacity 3 MTPA) choosing between Site A (near iron ore mine, 300 km from coal, no port) and Site B (coastal, imported coal & ore, deep-water port). List five weighted criteria, score each site (1–5), and recommend.",
+     "a": "Criteria & weights: (1) Raw material transport cost (30%), (2) Power availability (15%), (3) Export/import logistics (20%), (4) Environmental clearance ease (15%), (5) Social infrastructure (20%). Site A: (1) 5, (2) 3 (captive thermal), (3) 2, (4) 3 (forest clearance), (5) 2 → weighted 3.55. Site B: (1) 2, (2) 4 (grid + import), (3) 5, (4) 4 (coastal zone but simpler), (5) 4 → weighted 3.55. Tie-break: Site B preferred for export-oriented steel; Site A for domestic long products. A simplistic “Site A because near ore” ignores total logistics and policy risk.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

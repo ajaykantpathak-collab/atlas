@@ -1,0 +1,192 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs105",
+ "concepts": [
+  {
+   "id": "lecs105.1",
+   "title": "Passes and Comparisons in Bubble Sort",
+   "questions": [
+    {
+     "q": "Using the method 'Passes and Comparisons in Bubble Sort', work with: n = 3. Carry the chain through step by step and give the final value of comparisons.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Passes and Comparisons in Bubble Sort' and work with: n = 360. Carry the chain through step by step and give the final value of comparisons.",
+     "a": "64620 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Passes and Comparisons in Bubble Sort' refers to.",
+     "a": "Bubble sort repeatedly compares adjacent pairs and swaps unordered ones, needing n minus 1 passes for n elements; the pass number i makes n minus i minus 1 comparisons, so the whole sort spends n times n minus 1 over 2 comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Passes and Comparisons in Bubble Sort'.",
+     "a": "Each pass bubbles the largest remaining element to the end, so later passes shrink by one comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Passes and Comparisons in Bubble Sort', in plain ASCII form.",
+     "a": "comparisons = (n - 1) * n / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.2",
+   "title": "Percentile Index from Sorted Marks",
+   "questions": [
+    {
+     "q": "Find the index of the 90th percentile for a class of 120 students.. Use the method 'Percentile Index from Sorted Marks'. Work with: percent = 18, total_values = 1200. Carry the chain through step by step and give the final value of index.",
+     "a": "216 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the index for the 75th percentile of a list of 8 marks.. Use the method 'Percentile Index from Sorted Marks'. Work with: percent = 20, total_values = 5000. Carry the chain through step by step and give the final value of index.",
+     "a": "1000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Percentile Index from Sorted Marks' refers to.",
+     "a": "An xth percentile answers the question 'better than what share of the class': after sorting the marks, multiply x percent by the number of students, round to a whole index, and read the mark stored there.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Percentile Index from Sorted Marks'.",
+     "a": "The 90th percentile of 120 students sits at index 108 because 0.90 times 120 equals 108.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Percentile Index from Sorted Marks', in plain ASCII form.",
+     "a": "index = percent / 100 * total_values",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.3",
+   "title": "Median of an Even List",
+   "questions": [
+    {
+     "q": "Using the method 'Median of an Even List', work with: high_mid = 50, low_mid = 75. Carry the chain through step by step and give the final value of median.",
+     "a": "62.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Median of an Even List' and work with: high_mid = 25, low_mid = 500. Carry the chain through step by step and give the final value of median.",
+     "a": "262.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Median of an Even List' refers to.",
+     "a": "After a list is sorted, its median is the middle value; when the count is even, the two central values are added and halved, which is the value a bubble-sorted list hands to the median function.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Median of an Even List'.",
+     "a": "Sorting first is what makes the two middle positions meaningful for the median.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Median of an Even List', in plain ASCII form.",
+     "a": "median = (low_mid + high_mid) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.4",
+   "title": "Quadratic Time of Nested Loops",
+   "questions": [
+    {
+     "q": "Using the method 'Quadratic Time of Nested Loops', work with: size = 4096. Carry the chain through step by step and give the final value of quad_ops.",
+     "a": "16777216 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Quadratic Time of Nested Loops' and work with: size = 512. Carry the chain through step by step and give the final value of quad_ops.",
+     "a": "262144 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Quadratic Time of Nested Loops' refers to.",
+     "a": "Loop-free algorithms run in constant time, a single loop costs linear time, and a loop inside a loop costs quadratic time; since all three sorts of this chapter nest one loop in another, each runs in order n squared.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Quadratic Time of Nested Loops'.",
+     "a": "When a nested loop and a single loop coexist, the nested loop alone fixes the complexity class.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Quadratic Time of Nested Loops', in plain ASCII form.",
+     "a": "quad_ops = size ** 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.5",
+   "title": "Bubble Sort Pass by Pass",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bubble Sort Pass by Pass' refers to.",
+     "a": "Working left to right, bubble sort compares each pair of neighbours and swaps them when the left one is larger, so after pass 1 of [8, 7, 13, 1, -9, 4] the 13 sits at the end, and the list finishes as -9, 1, 4, 7, 8, 13.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bubble Sort Pass by Pass'.",
+     "a": "A full pass with no swap proves the list is already sorted, so the algorithm may stop early.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bubble Sort Pass by Pass', in plain ASCII form.",
+     "a": "if list1[j] > list1[j+1] then swap the pair",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.6",
+   "title": "Selection Sort Minimum Swaps",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Selection Sort Minimum Swaps' refers to.",
+     "a": "Selection sort splits the list into a sorted left part and an unsorted right part, scans the unsorted part for its smallest element, and swaps that minimum with the leftmost unsorted slot, so at most one swap happens per pass for n minus 1 passes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Selection Sort Minimum Swaps'.",
+     "a": "After four passes on [7, 11, 3, 10, 17, 23, 1, 4, 21, 5] the four smallest values 1, 3, 4 and 5 already lead the list.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Selection Sort Minimum Swaps', in plain ASCII form.",
+     "a": "swaps <= n - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs105.7",
+   "title": "Insertion Sort Shifting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Insertion Sort Shifting' refers to.",
+     "a": "Insertion sort keeps a sorted prefix and pulls the first unsorted element aside in temp; it walks the prefix backwards shifting larger elements one place right, then drops temp into the gap, much like arranging playing cards in hand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Insertion Sort Shifting'.",
+     "a": "Already-sorted input makes insertion sort cheapest, since no shifting is needed at all.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Insertion Sort Shifting', in plain ASCII form.",
+     "a": "while j >= 0 and temp < list3[j]: shift right, then insert",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

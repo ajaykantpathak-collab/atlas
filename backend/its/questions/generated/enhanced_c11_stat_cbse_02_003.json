@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_003",
+   "title": "c11_stat_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define Indirect Oral Investigation and state one situation where it is preferred over Direct Personal Investigation.",
+     "a": "Indirect Oral Investigation is a method where data is collected from third parties who have knowledge about the subject, rather than from the actual respondents. It is preferred when the subject matter is sensitive (e.g., illegal activities, corruption) or when respondents are inaccessible (e.g., remote areas, hostile groups). A wrong answer that defines it as \"collecting data from secondary sources\" reveals confusion between primary data collected indirectly and secondary data; a wrong answer citing \"low cost\" as the primary reason reveals failure to distinguish it from Mailed Questionnaire, which is cheaper.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mailed Questionnaire Method often suffers from low response rates, and describe how this introduces non-response bias into the sample estimate.",
+     "a": "Low response rates arise because respondents may ignore, lose, or misunderstand the questionnaire without an interviewer to clarify. Non-response bias occurs when the characteristics of non-respondents systematically differ from respondents (e.g., only highly satisfied or highly dissatisfied customers return surveys), making the sample unrepresentative. A wrong answer that attributes low response rates solely to \"postal delays\" ignores respondent apathy and literacy barriers; a wrong answer claiming \"bias is eliminated if the sample is large\" confuses sampling error (reducible by size) with non-sampling error (not reducible by size).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the awareness of PM-KISAN scheme benefits among small farmers in a district. The farmers are spread across 200 villages, 30% are illiterate, and the topic is not sensitive. The researcher has a limited budget and a team of 5 enumerators. Recommend either Indirect Oral Investigation or Mailed Questionnaire, and justify your choice with three reasons.",
+     "a": "Recommendation: Indirect Oral Investigation. Reasons: (1) Illiteracy (30%) makes Mailed Questionnaire infeasible for a large segment; (2) Limited enumerators can cover more ground by interviewing knowledgeable third parties (e.g., village heads, bank correspondents) than by conducting direct interviews; (3) Non-sensitive topic allows reliable proxy reporting. Choosing Mailed Questionnaire would ignore the literacy constraint; choosing it solely for \"low cost\" without addressing illiteracy shows failure to apply method suitability criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods on the dimension of \"control over data quality.\" Analyze how the absence of an interviewer in Mailed Questionnaire and the reliance on proxy respondents in Indirect Oral Investigation create different types of measurement errors.",
+     "a": "In Mailed Questionnaire, absence of interviewer leads to *misinterpretation error* (respondents understand questions differently) and *item non-response* (skipping questions). In Indirect Oral Investigation, proxy respondents introduce *proxy bias* (third party's knowledge is incomplete or colored by their own perception) and *filtering error* (proxy may withhold sensitive information). A wrong answer stating \"both have interviewer bias\" incorrectly applies a Direct Interview concept; a wrong answer claiming \"Mailed Questionnaire has higher measurement error because no one checks\" overlooks that Indirect Oral Investigation has *two* layers of potential distortion (investigator → proxy → truth).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"For a study on household expenditure patterns in a metropolitan city, Mailed Questionnaire is superior to Indirect Oral Investigation because it eliminates interviewer bias and is cost-effective.\"",
+     "a": "The statement is partially correct but incomplete. While Mailed Questionnaire eliminates interviewer bias and is cost-effective for literate, dispersed urban populations, it introduces *self-selection bias* (only motivated households respond) and *recall error* (expenditure data requires detailed memory without prompting). Indirect Oral Investigation would be inappropriate here because proxies (e.g., neighbors) lack accurate knowledge of household expenditure. A better critique acknowledges that for expenditure data, *Direct Personal Interview* with a structured schedule (not covered here) is actually the gold standard, and Mailed Questionnaire is a compromise. A wrong answer that agrees wholly fails to evaluate the trade-off between bias types and the specific data requirements of expenditure surveys.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid data collection strategy for a study on \"Mid-Day Meal Scheme implementation in government schools of a backward district\" that uses both Indirect Oral Investigation and Mailed Questionnaire for different sub-objectives. Specify which sub-objective uses which method and why.",
+     "a": "Sub-objective 1: Assess infrastructure (kitchen, storage, water) – use Mailed Questionnaire sent to school principals (literate, have records, objective data). Sub-objective 2: Evaluate actual meal quality, regularity, and corruption leakage – use Indirect Oral Investigation with parents, local NGOs, and student representatives (sensitive, requires proxy observation). Sub-objective 3: Measure nutritional awareness among cooks – use Indirect Oral Investigation via block education officers (cooks may be hesitant). A poor answer assigns methods randomly without linking sub-objective characteristics (sensitivity, literacy, objectivity) to method strengths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

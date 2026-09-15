@@ -1,0 +1,386 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 6,
+ "chapter_title": "Basic Principles of Inheritance",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt106.1",
+   "title": "Monohybrid Cross Ratios and the Test Cross",
+   "section": "6.1.1",
+   "definition": "Crossing pure tall with pure dwarf peas hides the dwarf allele in an all-tall F1 of heterozygotes, and selfing that F1 re-reveals the hidden trait in a three-to-one phenotypic split with a one-two-one genotypic split; mating a dominant-looking plant to a recessive one - the test cross - then betrays its genotype, since half-and-half progeny unmask a heterozygote while all-tall progeny prove homozygosity.",
+   "formula": "tall_share = offspring_total * 3 / 4",
+   "key_idea": "Expect three quarters dominant in F2, and read an unknown genotype by crossing to the recessive parent.",
+   "textbook_ref": "kebt106.txt section 6.1.1, Figs. 6.2-6.4",
+   "question_patterns": [
+    "in an F2 of 120 pea plants how many are expected tall and how many dwarf",
+    "state the phenotypic and genotypic ratios of a monohybrid cross in the F2 generation",
+    "a tall pea plant crossed with a dwarf gives half tall and half dwarf progeny - what is its genotype",
+    "construct a Punnett square for the selfing of Tt plants and derive the 1:2:1 genotypic ratio",
+    "state the law of segregation with the monohybrid cross as evidence",
+    "why did the dwarf trait vanish in F1 and reappear in F2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the three-quarter share",
+     "explain": "Three of every four F2 plants show the dominant trait.",
+     "compute": "tall_share = offspring_total * 3 / 4"
+    },
+    {
+     "step": 2,
+     "action": "give the recessive remainder",
+     "explain": "Whatever is left of the progeny expresses the recessive trait.",
+     "compute": "recessive_count = offspring_total - tall_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What phenotypic ratio does the F2 of a monohybrid cross show: 3:1 or 9:3:3:1?",
+     "a": "3:1"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.2",
+   "title": "Incomplete Dominance and Codominance in Flowers",
+   "section": "6.1.1",
+   "definition": "Not every allele pair obeys boss-and-hidden rules: in the four-o'clock plant red crossed with white gives pink F1 hybrids and a one-two-one red-pink-white F2, because each allele is only partly expressed, while in cattle coats and the MN blood group both alleles speak at once - roan animals and MN red cells - which is codominance.",
+   "formula": "pink_count = f2_total / 2",
+   "key_idea": "Half of the F2 is the blend class under incomplete dominance, and half of that is the pure recessive class.",
+   "textbook_ref": "kebt106.txt section 6.1.1, Figs. 6.5-6.6",
+   "question_patterns": [
+    "cross red Mirabilis with white - give the F1 colour and the F2 phenotypic ratio with counts for 80 plants",
+    "differentiate incomplete dominance from codominance with one plant and one animal example",
+    "why does the roan coat of cattle show both red and white hairs",
+    "write the genotype and antigen pattern of the three MN blood groups",
+    "how many pink-flowered plants appear among 60 F2 progeny of a pink selfing",
+    "which ratio distinguishes incomplete dominance from a normal dominant-recessive F2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the blend class",
+     "explain": "Heterozygotes show the intermediate phenotype, half of the F2.",
+     "compute": "pink_count = f2_total / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve again for a pure class",
+     "explain": "The 1:2:1 split makes each homozygous class half the heterozygote class.",
+     "compute": "white_count = pink_count / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Red crossed with white in the four-o'clock plant gives what colour F1: pink or red?",
+     "a": "pink"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.3",
+   "title": "Dihybrid Cross and Independent Assortment",
+   "section": "6.1.1",
+   "definition": "Following two traits at once - round versus wrinkled seeds, yellow versus green - Mendel saw all round-yellow F1 plants and, on selfing, a nine-three-three-one F2 spread across sixteen genotypic squares, with fresh trait pairings appearing; this independence of allele pairs became his law of independent assortment.",
+   "formula": "round_yellow = f2_total * 9 / 16",
+   "key_idea": "Nine sixteenths carry both dominants, three sixteenths carry exactly one, and one sixteenth carries both recessives.",
+   "textbook_ref": "kebt106.txt section 6.1.1, Fig. 6.7",
+   "question_patterns": [
+    "out of 320 F2 seeds of a dihybrid cross how many are round yellow wrinkled yellow round green and wrinkled green",
+    "state the law of independent assortment with the dihybrid cross as its evidence",
+    "which two new trait combinations appear in the F2 of RRYY crossed with rryy that are absent in the parents",
+    "derive the 9:3:3:1 ratio from the sixteen boxes of the dihybrid Punnett square",
+    "how many F2 genotypic classes does a dihybrid cross produce",
+    "a dihybrid yields 96 offspring - how many show both recessive traits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the dominant-dominant class",
+     "explain": "Nine of the sixteen squares combine both dominant traits.",
+     "compute": "round_yellow = f2_total * 9 / 16"
+    },
+    {
+     "step": 2,
+     "action": "take the double recessive class",
+     "explain": "Only one square carries both recessive traits.",
+     "compute": "wrinkled_green = f2_total * 1 / 16"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What F2 ratio does a dihybrid cross give: 9:3:3:1 or 3:1?",
+     "a": "9:3:3:1"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.4",
+   "title": "Linkage, Crossing Over and Map Distance",
+   "section": "6.2 and 6.3",
+   "definition": "Genes seated on one chromosome travel together as a linkage group, so Bateson and Punnett's sweet pea and Morgan's flies broke the 9:3:3:1 expectation; only an exchange of segments between non-sister chromatids - crossing over - lets parental combinations loosen, and the recombinant share of progeny doubles as the chromosome map distance, one percent of recombinants marking one centimorgan.",
+   "formula": "recombinant_pct = 100 - parental_pct",
+   "key_idea": "Add the parental classes, subtract from a hundred, and the remainder prices the recombination and the map distance.",
+   "textbook_ref": "kebt106.txt sections 6.2-6.3, Figs. 6.8-6.11",
+   "question_patterns": [
+    "Morgan's test cross gave 41.5 percent grey vestigial and 41.5 percent black long flies - find the parental and recombinant percentages",
+    "why did the sweet pea cross of Bateson and Punnett deviate from the 9:3:3:1 ratio",
+    "define linkage and name the scientist who explained it in Drosophila",
+    "what is a centimorgan and how is it fixed from recombinant frequency",
+    "how did Creighton and McClintock prove crossing over with maize chromosome 9",
+    "distinguish parental from non-parental combinations in a test cross progeny"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the parental classes",
+     "explain": "The two most frequent classes keep the parental trait pairing.",
+     "compute": "parental_pct = class_a_pct + class_d_pct"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "The remainder carries the exchanged, non-parental combinations.",
+     "compute": "recombinant_pct = 100 - parental_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One percent of recombinants marks what map distance: one centimorgan or one metre?",
+     "a": "one centimorgan"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.5",
+   "title": "Sex-linked Inheritance in Drosophila",
+   "section": "6.4",
+   "definition": "Morgan's stray white-eyed male revealed that eye colour rides the X chromosome: red-to-white crosses hide the trait in red F1 flies, yet F2 white eyes appear only in males, because a male's single X carries no partner to mask the recessive; colour blindness and haemophilia follow the same X-linked route in humans.",
+   "formula": "affected_sons = sons_total / 2",
+   "key_idea": "Half the sons of a carrier mother inherit the affected X, so the disorder lands on half of the male progeny.",
+   "textbook_ref": "kebt106.txt section 6.4, Fig. 6.12",
+   "question_patterns": [
+    "a carrier red-eyed female Drosophila mates a red-eyed male - what fraction of the sons will be white-eyed",
+    "why did all white-eyed flies in Morgan's F2 turn out to be male",
+    "explain why haemophilia shows up mostly in males of the British royal family",
+    "write the genotypes of the F1 from a white-eyed male crossed with a pure red-eyed female",
+    "name two sex-linked disorders of humans and the chromosome that carries them",
+    "what fraction of the daughters of a carrier mother are carriers themselves"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the progeny by sex",
+     "explain": "Half of all offspring are sons.",
+     "compute": "sons_total = offspring_total / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the sons again",
+     "explain": "A carrier mother passes the affected X to half of her sons.",
+     "compute": "affected_sons = sons_total / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Morgan's stray white-eyed fly was which sex: male or female?",
+     "a": "male"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.6",
+   "title": "Extrachromosomal Maternal Inheritance",
+   "section": "6.5",
+   "definition": "Plastids and mitochondria carry their own DNA, and because the sperm sheds its cytoplasm at fertilisation, these organellar genomes pass down the maternal line alone; the white, green and variegated leaves of the four-o'clock plant demonstrated that cytoplasmic traits follow the mother's phenotype rather than Mendel's rules.",
+   "formula": "-",
+   "key_idea": "No paternal contribution reaches plastids or mitochondria, so offspring mirror the mother's cytoplasmic genotype.",
+   "textbook_ref": "kebt106.txt section 6.5, Fig. 6.13",
+   "question_patterns": [
+    "why do plastid and mitochondrial genomes show maternal inheritance",
+    "explain the variegated leaf phenotype of the four-o'clock plant through plastid genes",
+    "what happens to the sperm cytoplasm before fertilisation and why does it matter",
+    "differentiate cytoplasmic inheritance from nuclear Mendelian inheritance",
+    "what did the reciprocal crosses of green white and variegated four-o'clock plants show",
+    "name two cell organelles that carry DNA outside the chromosomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the gene",
+     "explain": "Traits coded by plastid or mitochondrial DNA fall outside Mendelian segregation."
+    },
+    {
+     "step": 2,
+     "action": "follow the gamete",
+     "explain": "Only the sperm nucleus enters the egg, so organellar genomes come solely from the mother."
+    },
+    {
+     "step": 3,
+     "action": "read the offspring",
+     "explain": "Progeny phenotype matches the female parent's leaf type - maternal or uniparental inheritance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Plastids and mitochondria pass down which parent's line: the mother's or the father's?",
+     "a": "the mother's"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.7",
+   "title": "Polyploidy Levels and Chromosome Sets",
+   "section": "6.6",
+   "definition": "Ploidy counts complete chromosome sets: rice with two sets, peanuts and cotton with four, bread wheat with six and strawberry or sugarcane with eight; multiply the chromosomes of one set by the ploidy level to get the somatic total, and over thirty percent of plant species exploit such polyploidy for larger organs and tougher field performance.",
+   "formula": "total_chromosomes = base_number * ploidy_level",
+   "key_idea": "One set times the ploidy level sizes the genome; halving the total gives what a gamete must carry.",
+   "textbook_ref": "kebt106.txt section 6.6, Table 6.1, Fig. 6.14",
+   "question_patterns": [
+    "wheat carries 7 chromosomes per set and is hexaploid - compute its total chromosome number",
+    "a plant has 10 chromosomes in one set and 80 in total - find its ploidy level",
+    "how many chromosomes does a gamete of sugarcane carry if the plant is octoploid with 10 per set",
+    "differentiate triploid tetraploid hexaploid and octoploid with one plant example of each",
+    "why is polyploidy common in plants but rare in animals",
+    "what is aneuploidy and which meiotic fault produces it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply set by ploidy",
+     "explain": "Each complete set holds the base number of chromosomes.",
+     "compute": "total_chromosomes = base_number * ploidy_level"
+    },
+    {
+     "step": 2,
+     "action": "halve for the gamete",
+     "explain": "Meiosis distributes one chromosome of each pair, half the somatic total.",
+     "compute": "gamete_half = total_chromosomes / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Bread wheat carries how many sets of chromosomes: six or sixty?",
+     "a": "six"
+    }
+   ]
+  },
+  {
+   "id": "kebt106.8",
+   "title": "Forward and Reverse Genetics",
+   "section": "6.7",
+   "definition": "Two research directions bracket the gene: forward genetics starts from visible or molecular phenotypic variation and hunts for the DNA behind it, while reverse genetics begins with a sequenced gene or protein of unknown job, silences or disrupts it - say by RNA interference - and reads the resulting phenotype to deduce its function.",
+   "formula": "-",
+   "key_idea": "Phenotype-to-gene is forward; gene-to-phenotype is reverse, with RNAi or targeted disruption as the probe.",
+   "textbook_ref": "kebt106.txt section 6.7, Fig. 6.15",
+   "question_patterns": [
+    "differentiate the forward and reverse genetics approaches with a diagram of each direction",
+    "which small double stranded molecules does RNA interference deploy and against what target",
+    "why can reverse genetics characterise genes that show no visible variation",
+    "what is a candidate gene and how is its function tested in a reverse approach",
+    "how did genome sequencing change the balance between forward and reverse genetics",
+    "name two techniques used to disrupt or silence a chosen gene"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the starting point",
+     "explain": "Phenotypic variation first means forward; DNA or protein sequence first means reverse."
+    },
+    {
+     "step": 2,
+     "action": "choose the probe",
+     "explain": "Forward screens mutants; reverse silences or disrupts a candidate gene, often through RNAi or homologous recombination."
+    },
+    {
+     "step": 3,
+     "action": "read the outcome",
+     "explain": "The change in organism development reveals what the disrupted gene normally does."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Starting from a phenotype and hunting the gene is which genetics: forward or reverse?",
+     "a": "forward"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt106.txt section 6.1.1 (9:3:3:1 dihybrid F2)",
+   "concept": "kebt106.3",
+   "question_type": "compute",
+   "question_pattern": "A dihybrid cross between round-yellow and wrinkled-green peas yields {f2_total} F2 seeds. Find how many are round yellow and how many are wrinkled green.",
+   "extracted_variables": {
+    "f2_total": "total number of F2 offspring"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take nine sixteenths",
+     "explain": "Both dominants together fill nine of the sixteen Punnett squares.",
+     "compute": "round_yellow = f2_total * 9 / 16"
+    },
+    {
+     "step": 2,
+     "action": "take one sixteenth",
+     "explain": "Both recessives occupy a single square.",
+     "compute": "wrinkled_green = f2_total * 1 / 16"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt106.txt section 6.2 (Morgan's test cross 83 percent parental)",
+   "concept": "kebt106.4",
+   "question_type": "compute",
+   "question_pattern": "A test cross of Drosophila gives {gv_pct} percent grey vestigial and {bl_pct} percent black long progeny. Find the parental percentage, the recombinant percentage, and state the map distance between the genes.",
+   "extracted_variables": {
+    "gv_pct": "percent of the grey vestigial parental class",
+    "bl_pct": "percent of the black long parental class"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the parental classes",
+     "explain": "Parental combinations are the two largest classes.",
+     "compute": "parental_pct = gv_pct + bl_pct"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "The recombinant share is the leftover percentage.",
+     "compute": "recombinant_pct = 100 - parental_pct"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt106-ex1",
+   "source_ref": "kebt106.txt Exercises (questions 1-7)",
+   "questions": [
+    "Differentiate genotype and phenotype, dominant and recessive characters, heterozygous and homozygous progeny, monohybrid and dihybrid crosses, gene and allele, and incomplete dominance and codominance.",
+    "Give the genotypic and phenotypic ratios when F1 progeny are crossed with the pure dominant parent, the pure recessive parent, and with each other.",
+    "Explain the test cross with a diagrammatic representation.",
+    "Illustrate the law of dominance, the law of segregation and the law of independent assortment using monohybrid and dihybrid crosses.",
+    "A red and tall homozygous tomato plant is crossed with a red and tall heterozygous plant - find the genotypic and phenotypic ratios.",
+    "Heterozygous AaBb Drosophila mated together give a 2:1:1:2 phenotypic ratio - explain how this detects linkage and how the degree of linkage is determined.",
+    "Is the phenomenon of linkage absolute - comment with reference to crossing over."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,960 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Circles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh110.txt",
+ "concepts": [
+  {
+   "id": "jemh.110.1.1",
+   "title": "Secant and Tangent Definitions",
+   "section": "10.1",
+   "definition": "A straight line in a plane can cross a circle at two points as a secant, touch it at one single point as a tangent, or share no common points.",
+   "formula": "number_of_intersection_points = 1 (tangent) or 2 (secant)",
+   "key_idea": "A tangent touches a circle at exactly one point, representing a limiting case of a secant.",
+   "textbook_ref": "jemh110.txt lines 10-30",
+   "question_patterns": [
+    "what is the difference between a secant and a tangent to a circle",
+    "how many points does a tangent intersect a circle in",
+    "define a tangent to a circle based on common points",
+    "determine if a line intersecting a circle twice is a secant",
+    "find the maximum number of parallel tangents to a circle for a given secant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the number of points of intersection between the line and the circle",
+     "explain": "A non-intersecting line has 0 common points, a tangent has 1 common point, and a secant has 2 common points."
+    },
+    {
+     "step": 2,
+     "action": "Classify the line based on point count",
+     "explain": "If the intersection count is exactly 1, the line is a tangent to the circle."
+    },
+    {
+     "step": 3,
+     "action": "State the geometric definition of the line",
+     "explain": "Conclude whether the line is a secant (2 points), tangent (1 point), or non-intersecting (0 points) based on the classification."
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.2.1",
+   "title": "Perpendicularity of Radius and Tangent",
+   "section": "10.2",
+   "definition": "The radius drawn to the point of contact of a tangent line is perpendicular to that tangent line.",
+   "formula": "angle_between_radius_and_tangent = 90 degrees",
+   "key_idea": "The point of contact is the closest point on the tangent line to the circle center.",
+   "textbook_ref": "jemh110.txt lines 78-100",
+   "question_patterns": [
+    "prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact",
+    "verify why the shortest distance from centre to tangent line is the radius",
+    "show that the radius at point of contact makes a right angle with the tangent",
+    "explain why normal to a circle at point of contact passes through centre",
+    "demonstrate perpendicularity between tangent and radius at contact point"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select an arbitrary point Q on the tangent line XY other than the point of contact P",
+     "explain": "Point Q must lie outside the circle because XY touches the circle only at P."
+    },
+    {
+     "step": 2,
+     "action": "Compare distance OQ with radius OP",
+     "explain": "Since Q is outside the circle, OQ is greater than the radius OP."
+    },
+    {
+     "step": 3,
+     "action": "Conclude perpendicularity",
+     "explain": "OP is the shortest distance from centre O to line XY, so OP is perpendicular to XY."
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.2.2",
+   "title": "Calculating Tangent Length from External Point",
+   "section": "10.2",
+   "definition": "The tangent length from an external point to a circle is evaluated using the right triangle formed by radius, distance from centre, and tangent segment.",
+   "formula": "tangent_length = sqrt(distance**2 - radius**2)",
+   "key_idea": "Pythagoras theorem applies to the right triangle formed by radius, tangent, and centre distance.",
+   "textbook_ref": "jemh110.txt lines 105-120",
+   "question_patterns": [
+    "calculate the length of tangent from a point at given distance from centre",
+    "find tangent length when radius and distance from centre are known",
+    "what is the length of tangent segment from point Q to circle",
+    "compute tangent segment length given circle radius and point distance",
+    "determine the distance of point of contact to external point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the distance from centre",
+     "explain": "Square the hypotenuse distance from centre to external point",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square the radius",
+     "explain": "Square the radius length",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared radius from squared distance",
+     "explain": "Apply Pythagoras theorem for the missing side",
+     "compute": "diff = d_sq - r_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root to obtain tangent length",
+     "explain": "Square root gives the tangent segment length",
+     "compute": "tangent_length = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.2.3",
+   "title": "Calculating Radius from Tangent Length and Distance",
+   "section": "10.2",
+   "definition": "The radius of a circle is computed by taking the square root of the difference between squared distance from centre and squared tangent length.",
+   "formula": "radius = sqrt(distance**2 - tangent_length**2)",
+   "key_idea": "Radius is one leg of the right triangle formed with tangent segment and centre distance.",
+   "textbook_ref": "jemh110.txt lines 105-120",
+   "question_patterns": [
+    "find the radius of a circle given tangent length and distance of point from centre",
+    "calculate circle radius when distance to external point and tangent length are given",
+    "what is the radius of the circle if tangent length is known",
+    "compute radius from point distance and tangent length",
+    "determine radius using pythagoras theorem on tangent triangle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square distance from centre",
+     "explain": "Square distance from centre to external point",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square given length of tangent",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared tangent from squared distance",
+     "explain": "Calculate squared radius using pythagorean formula",
+     "compute": "diff = d_sq - t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root of difference gives circle radius",
+     "compute": "radius = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.2.4",
+   "title": "Calculating Distance of External Point from Centre",
+   "section": "10.2",
+   "definition": "The distance from circle centre to an external point is calculated as the hypotenuse of the right triangle formed by radius and tangent length.",
+   "formula": "distance = sqrt(radius**2 + tangent_length**2)",
+   "key_idea": "Hypotenuse equals square root of sum of squared radius and squared tangent length.",
+   "textbook_ref": "jemh110.txt lines 105-120",
+   "question_patterns": [
+    "find distance of external point from centre of circle given radius and tangent length",
+    "calculate how far an external point is from the centre",
+    "what is the distance from centre to external point given radius and tangent",
+    "compute hypotenuse distance from circle centre to external point",
+    "determine point distance from centre using tangent and radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the radius",
+     "explain": "Square radius of circle",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square length of tangent segment",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the squared values",
+     "explain": "Add squared radius and squared tangent length",
+     "compute": "sum_sq = r_sq + t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root of sum gives distance from centre to external point",
+     "compute": "distance = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.1",
+   "title": "Equality of Tangents from External Point",
+   "section": "10.3",
+   "definition": "The lengths of two tangent segments drawn from a single point outside a circle to the circle are equal.",
+   "formula": "tangent_1 = tangent_2",
+   "key_idea": "Tangents drawn from the same external point to a circle are congruent.",
+   "textbook_ref": "jemh110.txt lines 140-165",
+   "question_patterns": [
+    "prove that lengths of tangents drawn from an external point to a circle are equal",
+    "verify equal lengths of two tangents from external point",
+    "show that tangent segments from point P to circle are congruent",
+    "explain why tangents drawn from same external point have same length",
+    "demonstrate equality of external tangents using triangle congruence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Construct right triangles formed by centre, external point, and points of contact",
+     "explain": "Join centre O to external point P, and radii OQ and OR to contact points."
+    },
+    {
+     "step": 2,
+     "action": "Prove triangle congruence",
+     "explain": "Triangles OQP and ORP are right-angled, share hypotenuse OP, and have equal radii OQ = OR, so they are congruent by RHS."
+    },
+    {
+     "step": 3,
+     "action": "State equality of corresponding parts",
+     "explain": "By CPCT, tangent lengths PQ and PR are equal."
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.2",
+   "title": "Chord of Outer Concentric Circle Touching Inner Circle",
+   "section": "10.3",
+   "definition": "A chord of a larger concentric circle that is tangent to a smaller concentric circle is bisected at the point of contact, with length derived from both radii.",
+   "formula": "chord_length = 2 * sqrt(outer_radius**2 - inner_radius**2)",
+   "key_idea": "The radius of the inner circle is perpendicular to and bisects the chord of the outer circle.",
+   "textbook_ref": "jemh110.txt lines 168-185",
+   "question_patterns": [
+    "find the length of chord of larger circle which touches smaller concentric circle",
+    "calculate chord length of outer concentric circle tangent to inner circle",
+    "what is the chord length of bigger circle touching inner circle of given radii",
+    "compute length of chord touching smaller concentric circle",
+    "determine length of chord of concentric circles given two radii"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square outer radius",
+     "explain": "Square radius of larger concentric circle",
+     "compute": "outer_sq = outer_radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square inner radius",
+     "explain": "Square radius of smaller concentric circle",
+     "compute": "inner_sq = inner_radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract inner squared radius from outer squared radius",
+     "explain": "Calculate squared half-chord using Pythagoras theorem",
+     "compute": "half_sq = outer_sq - inner_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root for half chord length",
+     "explain": "Square root gives half length of the chord",
+     "compute": "half_chord = sqrt(half_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Double half chord length",
+     "explain": "Full chord length is twice the half chord length",
+     "compute": "chord_length = 2 * half_chord"
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.3",
+   "title": "Supplementary Angles Between Tangents and at Centre",
+   "section": "10.3",
+   "definition": "The angle formed by two tangents from an external point and the angle subtended by contact radii at the centre are supplementary.",
+   "formula": "angle_at_centre = 180 - angle_between_tangents",
+   "key_idea": "Angles at centre and between tangents sum to 180 degrees in the quadrilateral formed by tangents and radii.",
+   "textbook_ref": "jemh110.txt lines 186-200",
+   "question_patterns": [
+    "find angle between two tangents given angle subtended at centre",
+    "calculate angle at centre subtended by points of contact given angle between tangents",
+    "what is the angle between tangents if angle at centre is known",
+    "compute angle at centre from external angle between tangents",
+    "determine angle subtended at centre by chord connecting tangent points"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract angle between tangents from 180 degrees",
+     "explain": "Opposite angles in quadrilateral formed by two radii and two tangents sum to 180 degrees",
+     "compute": "angle_at_centre = 180 - angle_between_tangents"
+    },
+    {
+     "step": 2,
+     "action": "Verify the two angles are supplementary",
+     "explain": "Confirm that angle_at_centre plus angle_between_tangents equals 180 degrees",
+     "compute": "check = angle_at_centre + angle_between_tangents"
+    },
+    {
+     "step": 3,
+     "action": "State the supplementary angle relationship",
+     "explain": "Conclude that the angle at the centre and the angle between the tangents are supplementary in the quadrilateral formed by the two radii and two tangent segments."
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.4",
+   "title": "Angle Bisector Property of Centre Line",
+   "section": "10.3",
+   "definition": "The line segment connecting circle centre to an external point bisects the angle between the two tangents drawn from that point.",
+   "formula": "angle_POA = 90 - (angle_between_tangents / 2)",
+   "key_idea": "The line joining centre and external point bisects the angle between tangents.",
+   "textbook_ref": "jemh110.txt lines 164-167",
+   "question_patterns": [
+    "find angle POA when two tangents PA and PB are inclined at a given angle",
+    "calculate half angle between tangent and line joining centre",
+    "what is angle between radius and line to external point",
+    "compute angle POA given total angle between tangents",
+    "determine angle subtended by radius at centre for one tangent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide angle between tangents by 2",
+     "explain": "Line to centre bisects total angle between tangents",
+     "compute": "half_tangent_angle = angle_between_tangents / 2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract half tangent angle from 90",
+     "explain": "In right triangle POA, acute angles add to 90 degrees",
+     "compute": "angle_poa = 90 - half_tangent_angle"
+    },
+    {
+     "step": 3,
+     "action": "Verify angle_POA in the right triangle",
+     "explain": "Confirm that angle_POA plus half_tangent_angle equals 90 degrees in right triangle POA",
+     "compute": "check = angle_poa + half_tangent_angle"
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.5",
+   "title": "Properties of Circumscribing Quadrilaterals",
+   "section": "10.3",
+   "definition": "For a quadrilateral drawn around a circle touching all four sides, the sum of lengths of opposite sides is equal.",
+   "formula": "AB + CD = AD + BC",
+   "key_idea": "Equal tangent segments from each vertex lead to equal sums of opposite sides in a circumscribed quadrilateral.",
+   "textbook_ref": "jemh110.txt lines 215-230",
+   "question_patterns": [
+    "prove that sum of opposite sides of circumscribing quadrilateral are equal",
+    "verify that quadrilateral circumscribing a circle has equal opposite side sums",
+    "show that a circumscribing parallelogram is a rhombus",
+    "explain why opposite sides subtend supplementary angles at centre",
+    "demonstrate property AB plus CD equals AD plus BC for circumscribed quadrilateral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express each side as sum of two tangent segments",
+     "explain": "Let contact points on sides AB, BC, CD, DA be P, Q, R, S respectively."
+    },
+    {
+     "step": 2,
+     "action": "Apply tangent equality theorem from each vertex",
+     "explain": "AP = AS, BP = BQ, CR = CQ, DR = DS."
+    },
+    {
+     "step": 3,
+     "action": "Add opposite sides",
+     "explain": "AB + CD = (AP + PB) + (CR + RD) = (AS + BQ) + (CQ + DS) = (AS + SD) + (BQ + QC) = AD + BC."
+    }
+   ]
+  },
+  {
+   "id": "jemh.110.3.6",
+   "title": "Tangent Length from Chord and Radius using Similar Triangles",
+   "section": "10.3",
+   "definition": "When tangents at chord endpoints meet at an external point, tangent length is determined using similar right triangles formed by radius, chord, and centre distance.",
+   "formula": "tangent_length = (radius * (chord_length / 2)) / sqrt(radius**2 - (chord_length / 2)**2)",
+   "key_idea": "Right triangles TRP and PRO are similar by AA similarity criterion.",
+   "textbook_ref": "jemh110.txt lines 201-214",
+   "question_patterns": [
+    "find tangent length TP when chord PQ length and radius are given",
+    "calculate tangent length from external point given chord length and circle radius",
+    "what is the length of tangent TP when chord and radius are known",
+    "compute external tangent segment length using chord and radius",
+    "determine length of tangent from point of intersection of tangents at chord ends"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate half chord length",
+     "explain": "Perpendicular from centre bisects chord",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Square radius",
+     "explain": "Square radius of circle",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Square half chord",
+     "explain": "Square half chord length",
+     "compute": "hc_sq = half_chord ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Calculate distance from centre to chord",
+     "explain": "Apply Pythagoras theorem in triangle PRO",
+     "compute": "dist_to_chord = sqrt(r_sq - hc_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Compute tangent length using triangle similarity",
+     "explain": "Ratio TP / PO equals RP / RO",
+     "compute": "tangent_length = (radius * half_chord) / dist_to_chord"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Exercise 10.1 Q3",
+   "concept": "jemh.110.2.2",
+   "question_type": "compute",
+   "question_pattern": "A tangent PQ at a point P of a circle of radius {radius} cm meets a line through the centre O at a point Q so that OQ = {distance} cm. Length PQ is:",
+   "extracted_variables": {
+    "radius": 5,
+    "distance": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square distance from centre",
+     "explain": "Square hypotenuse distance OQ",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square radius",
+     "explain": "Square radius OP",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared radius from squared distance",
+     "explain": "Apply Pythagoras theorem",
+     "compute": "diff = d_sq - r_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root to find tangent length",
+     "explain": "Square root gives tangent segment length",
+     "compute": "tangent_length = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Practice Problem Tangent Length",
+   "concept": "jemh.110.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the length of tangent drawn from a point {distance} cm away from the centre of a circle of radius {radius} cm.",
+   "extracted_variables": {
+    "radius": 7,
+    "distance": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square distance from centre",
+     "explain": "Square hypotenuse distance",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square radius",
+     "explain": "Square radius of circle",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared radius from squared distance",
+     "explain": "Difference of squares",
+     "compute": "diff = d_sq - r_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root gives tangent length",
+     "compute": "tangent_length = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Exercise 10.2 Q1",
+   "concept": "jemh.110.2.3",
+   "question_type": "compute",
+   "question_pattern": "From a point Q, the length of tangent to a circle is {tangent_length} cm and distance of Q from centre is {distance} cm. Find the radius of circle.",
+   "extracted_variables": {
+    "tangent_length": 24,
+    "distance": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square distance from centre",
+     "explain": "Square distance of external point Q from centre",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square tangent segment length",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared tangent length from squared distance",
+     "explain": "Difference of squares",
+     "compute": "diff = d_sq - t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root gives radius",
+     "compute": "radius = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Exercise 10.2 Q6",
+   "concept": "jemh.110.2.3",
+   "question_type": "compute",
+   "question_pattern": "The length of a tangent from a point A at distance {distance} cm from the centre of the circle is {tangent_length} cm. Find the radius of the circle.",
+   "extracted_variables": {
+    "distance": 5,
+    "tangent_length": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square distance from centre",
+     "explain": "Square distance of point A",
+     "compute": "d_sq = distance ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square given tangent length",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract squared tangent from squared distance",
+     "explain": "Calculate squared radius",
+     "compute": "diff = d_sq - t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root gives circle radius",
+     "compute": "radius = sqrt(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Practice Problem Distance Calculation",
+   "concept": "jemh.110.2.4",
+   "question_type": "compute",
+   "question_pattern": "Find the distance of an external point from the centre of a circle of radius {radius} cm if tangent length from that point is {tangent_length} cm.",
+   "extracted_variables": {
+    "radius": 5,
+    "tangent_length": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square radius",
+     "explain": "Square circle radius",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square tangent length",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum squared values",
+     "explain": "Add squared radius and squared tangent length",
+     "compute": "sum_sq = r_sq + t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root gives distance from centre",
+     "compute": "distance = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Practice Problem Distance Calculation 2",
+   "concept": "jemh.110.2.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the distance between point P and centre of circle having radius {radius} cm when tangent segment length is {tangent_length} cm.",
+   "extracted_variables": {
+    "radius": 9,
+    "tangent_length": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square radius",
+     "explain": "Square circle radius",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square tangent length",
+     "explain": "Square tangent length",
+     "compute": "t_sq = tangent_length ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum squared values",
+     "explain": "Add squared radius and squared tangent length",
+     "compute": "sum_sq = r_sq + t_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Square root gives distance from centre",
+     "compute": "distance = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Exercise 10.2 Q7 / Example 1",
+   "concept": "jemh.110.3.2",
+   "question_type": "compute",
+   "question_pattern": "Two concentric circles are of radii {outer_radius} cm and {inner_radius} cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+   "extracted_variables": {
+    "outer_radius": 5,
+    "inner_radius": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square outer radius",
+     "explain": "Square larger radius",
+     "compute": "outer_sq = outer_radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square inner radius",
+     "explain": "Square smaller radius",
+     "compute": "inner_sq = inner_radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract inner squared radius from outer squared radius",
+     "explain": "Difference of squares",
+     "compute": "half_sq = outer_sq - inner_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Half chord length",
+     "compute": "half_chord = sqrt(half_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Double the half chord length",
+     "explain": "Full chord length is double the half chord",
+     "compute": "chord_length = 2 * half_chord"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Practice Problem Concentric Circles",
+   "concept": "jemh.110.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find chord length of outer circle touching inner circle for two concentric circles of radii {outer_radius} cm and {inner_radius} cm.",
+   "extracted_variables": {
+    "outer_radius": 13,
+    "inner_radius": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square outer radius",
+     "explain": "Square larger radius",
+     "compute": "outer_sq = outer_radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square inner radius",
+     "explain": "Square smaller radius",
+     "compute": "inner_sq = inner_radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract inner squared radius from outer squared radius",
+     "explain": "Difference of squares",
+     "compute": "half_sq = outer_sq - inner_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "Half chord length",
+     "compute": "half_chord = sqrt(half_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Double the half chord length",
+     "explain": "Full chord length",
+     "compute": "chord_length = 2 * half_chord"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Exercise 10.2 Q2",
+   "concept": "jemh.110.3.3",
+   "question_type": "compute",
+   "question_pattern": "If TP and TQ are two tangents to a circle with centre O so that angle POQ = {angle_at_centre} degrees, find angle PTQ.",
+   "extracted_variables": {
+    "angle_at_centre": 110
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract angle at centre from 180",
+     "explain": "Angle between tangents and angle at centre are supplementary",
+     "compute": "angle_between_tangents = 180 - angle_at_centre"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Exercise 10.2 Q10",
+   "concept": "jemh.110.3.3",
+   "question_type": "compute",
+   "question_pattern": "If two tangents from an external point are inclined at an angle of {angle_between_tangents} degrees, find the angle subtended by contact points at centre.",
+   "extracted_variables": {
+    "angle_between_tangents": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract angle between tangents from 180",
+     "explain": "Angle at centre and angle between tangents add to 180 degrees",
+     "compute": "angle_at_centre = 180 - angle_between_tangents"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Exercise 10.2 Q3",
+   "concept": "jemh.110.3.4",
+   "question_type": "compute",
+   "question_pattern": "If tangents PA and PB from a point P to a circle with centre O are inclined to each other at angle of {angle_between_tangents} degrees, then angle POA is equal to:",
+   "extracted_variables": {
+    "angle_between_tangents": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide angle between tangents by 2",
+     "explain": "Line OP bisects angle APB",
+     "compute": "half_tangent_angle = angle_between_tangents / 2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract half tangent angle from 90",
+     "explain": "In right triangle POA, angle POA is 90 minus half tangent angle",
+     "compute": "angle_POA = 90 - half_tangent_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Practice Problem Angle POA",
+   "concept": "jemh.110.3.4",
+   "question_type": "compute",
+   "question_pattern": "Two tangents PA and PB from external point P to circle with centre O are inclined at {angle_between_tangents} degrees. Find angle POA.",
+   "extracted_variables": {
+    "angle_between_tangents": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide angle between tangents by 2",
+     "explain": "Half of inclination angle between tangents",
+     "compute": "half_tangent_angle = angle_between_tangents / 2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from 90",
+     "explain": "Angle POA in right triangle POA",
+     "compute": "angle_POA = 90 - half_tangent_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Example 3",
+   "concept": "jemh.110.3.6",
+   "question_type": "compute",
+   "question_pattern": "PQ is a chord of length {chord_length} cm of a circle of radius {radius} cm. The tangents at P and Q intersect at point T. Find length TP.",
+   "extracted_variables": {
+    "chord_length": 8,
+    "radius": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate half chord length",
+     "explain": "Perpendicular from centre bisects chord PQ",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Square radius",
+     "explain": "Square circle radius",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Square half chord",
+     "explain": "Square half chord length",
+     "compute": "hc_sq = half_chord ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Calculate distance from centre to chord",
+     "explain": "Apply Pythagoras theorem in triangle PRO",
+     "compute": "dist_to_chord = sqrt(r_sq - hc_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Compute tangent length using similarity",
+     "explain": "Ratio TP / PO = RP / RO gives tangent length",
+     "compute": "tangent_length = (radius * half_chord) / dist_to_chord"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Practice Problem Tangent Length from Chord",
+   "concept": "jemh.110.3.6",
+   "question_type": "compute",
+   "question_pattern": "A chord of length {chord_length} cm is drawn in a circle of radius {radius} cm. Tangents drawn at endpoints intersect at T. Compute length of TP.",
+   "extracted_variables": {
+    "chord_length": 12,
+    "radius": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate half chord length",
+     "explain": "Half of chord length",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Square radius",
+     "explain": "Square radius",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Square half chord",
+     "explain": "Square half chord",
+     "compute": "hc_sq = half_chord ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Calculate distance from centre to chord",
+     "explain": "Distance from centre to chord",
+     "compute": "dist_to_chord = sqrt(r_sq - hc_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Compute tangent length",
+     "explain": "Tangent length via similarity ratio",
+     "compute": "tangent_length = (radius * half_chord) / dist_to_chord"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "EXERCISE 10.1",
+   "questions": [
+    "How many tangents can a circle have?",
+    "Fill in the blanks: (i) A tangent to a circle intersects it in point(s). (ii) A line intersecting a circle in two points is called a secant. (iii) A circle can have at most two parallel tangents. (iv) The common point of a tangent to a circle and the circle is called point of contact.",
+    "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the centre O at a point Q so that OQ = 12 cm. Length PQ is: (A) 12 cm (B) 13 cm (C) 8.5 cm (D) sqrt(119) cm.",
+    "Draw a circle and two lines parallel to a given line such that one is a tangent and the other, a secant to the circle."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "EXERCISE 10.2",
+   "questions": [
+    "From a point Q, the length of the tangent to a circle is 24 cm and the distance of Q from the centre is 25 cm. The radius of the circle is (A) 7 cm (B) 12 cm (C) 15 cm (D) 24.5 cm.",
+    "In Fig. 10.11, if TP and TQ are the two tangents to a circle with centre O so that angle POQ = 110 degrees, then angle PTQ is equal to (A) 60 degrees (B) 70 degrees (C) 80 degrees (D) 90 degrees.",
+    "If tangents PA and PB from a point P to a circle with centre O are inclined to each other at angle of 80 degrees, then angle POA is equal to (A) 50 degrees (B) 60 degrees (C) 70 degrees (D) 80 degrees.",
+    "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
+    "Prove that the perpendicular at the point of contact to the tangent to a circle passes through the centre.",
+    "The length of a tangent from a point A at distance 5 cm from the centre of the circle is 4 cm. Find the radius of the circle.",
+    "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+    "A quadrilateral ABCD is drawn to circumscribe a circle. Prove that AB + CD = AD + BC.",
+    "In Fig. 10.13, XY and X'Y' are two parallel tangents to a circle with centre O and another tangent AB with point of contact C intersecting XY at A and X'Y' at B. Prove that angle AOB = 90 degrees.",
+    "Prove that the angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segment joining the points of contact at the centre.",
+    "Prove that the parallelogram circumscribing a circle is a rhombus.",
+    "A triangle ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC into which BC is divided by the point of contact D are of lengths 8 cm and 6 cm respectively. Find the sides AB and AC.",
+    "Prove that opposite sides of a quadrilateral circumscribing a circle subtend supplementary angles at the centre of the circle."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL"
+}

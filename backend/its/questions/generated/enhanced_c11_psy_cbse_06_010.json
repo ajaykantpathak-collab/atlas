@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_010",
+   "title": "c11_psy_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define \"estimator variables\" and \"system variables\" in eyewitness memory research, giving one Indian-context example of each.",
+     "a": "Estimator variables are uncontrolled event factors affecting encoding (e.g., poor street lighting at a Mumbai local station during monsoon evening). System variables are controllable justice-system factors affecting retrieval (e.g., Delhi Police using simultaneous vs. sequential photo lineup procedure). A wrong answer confusing these categories reveals the student cannot distinguish between encoding-stage and retrieval-stage influences — a fundamental error in applying Wells's (1978) framework to real cases.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"weapon focus effect\" reduces eyewitness accuracy for perpetrator identification, using the concept of attentional narrowing and Levels of Processing theory.",
+     "a": "Weapon focus narrows attention to the threatening object (gun/knife) at the expense of peripheral details like the perpetrator's face. This forces shallow structural/phonetic processing (Level 1-2) of facial features instead of deep semantic encoding (Level 3), per Craik & Lockhart. A wrong answer attributing this only to \"stress\" without linking to attentional allocation and depth-of-processing reveals the student treats stress as a unitary cause rather than analyzing its cognitive mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A witness views a 30-second robbery at 9 PM under a flickering sodium-vapor lamp (estimator: poor lighting). Police conduct a simultaneous lineup 48 hours later where the suspect is the only one wearing a red hoodie matching the witness's description (system: biased lineup). Apply the \"misinformation effect\" and \"source monitoring error\" to predict how the witness's confidence-accuracy relationship will be distorted.",
+     "a": "Step 1: Poor lighting during encoding creates weak, fragmentary memory trace. Step 2: Biased lineup (red hoodie only on suspect) acts as post-event suggestion — witness infers \"police think it's this person.\" Step 3: During retrieval, witness confuses familiarity from lineup exposure with original memory (source monitoring error). Step 4: High confidence emerges from fluency of recognition, not accuracy — confidence-accuracy correlation drops toward zero. Wrong answers ignoring the 48-hour delay's role in memory decay reveal failure to integrate Ebbinghaus forgetting curve with retrieval contamination.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"cross-race effect\" (own-race bias) and \"weapon focus effect\" as estimator variables. Which poses a greater threat to identification accuracy in a diverse Indian metro city context? Justify using cognitive mechanisms.",
+     "a": "Cross-race effect stems from differential expertise: perceptual systems optimize for frequently encountered facial configurations (own-race), leading to configural vs. feature-based processing differences. Weapon focus stems from evolutionary attentional capture by threat. In diverse Indian metros (Delhi/Mumbai), cross-race effect is less pronounced due to daily exposure to varied phenotypes, whereas weapon focus operates universally. Greater threat: weapon focus — it directly degrades encoding of the only identifying feature (face) regardless of witness-perpetrator racial match. Wrong answers claiming cross-race effect dominates reveal misunderstanding of perceptual expertise plasticity in multicultural environments.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Eyewitness confidence is a reliable indicator of identification accuracy because confident witnesses have clearer memories.\" Use Loftus's post-event information research and the confidence-malleability hypothesis.",
+     "a": "The statement is invalid. Loftus (1979) showed post-event misinformation (e.g., \"Did you see the broken headlight?\" vs. \"a broken headlight?\") inflates confidence without improving accuracy. Confidence-malleability hypothesis: confidence is influenced by non-diagnostic factors (feedback, repeated questioning, lineup format) after the fact. In Indian courts, Section 118 Evidence Act treats confident testimony as credible — a dangerous policy given confidence-accuracy correlation of only r = 0.25-0.30. Wrong answers citing \"confidence means strong encoding\" confuse retrieval fluency with storage strength, ignoring reconstructive nature of memory.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step police lineup protocol for a Bengaluru theft case that minimizes system-variable contamination, incorporating sequential presentation, blind administration, confidence statements, filler selection criteria, and documentation. Explain how each step addresses a specific memory distortion mechanism.",
+     "a": "Step 1: Blind administrator (doesn't know suspect) prevents unconscious cuing → reduces demand characteristics. Step 2: Sequential presentation (one photo at a time) forces absolute judgment vs. relative judgment in simultaneous lineups → reduces false identifications by 22% (Steblay et al., 2001). Step 3: Pre-lineup instruction \"perpetrator may not be present\" → lowers criterion shift from \"choose best match\" to \"recognize or reject.\" Step 4: Fillers match witness description (not suspect) → prevents suspect standing out (biased lineup). Step 5: Immediate confidence statement (0-100%) documented before feedback → preserves pre-contamination confidence-accuracy diagnostic value. Poor answers listing generic \"fair procedures\" without linking each step to a specific cognitive mechanism (relative judgment, criterion shift, source monitoring) reveal superficial procedural knowledge without theoretical grounding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

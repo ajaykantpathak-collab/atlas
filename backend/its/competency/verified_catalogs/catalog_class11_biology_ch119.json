@@ -1,0 +1,348 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 119,
+ "chapter_title": "Chemical Coordination and Integration",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo119.txt",
+ "concepts": [
+  {
+   "id": "kebo.19.1",
+   "title": "Endocrine Glands and Hormones",
+   "section": "19.1",
+   "definition": "Chemical substances that function as messengers between cells, are not used as nutrients, and are synthesized in minute quantities by ductless glands.",
+   "formula": "None",
+   "key_idea": "Hormones provide a slow but long-lasting coordination system compared to the rapid neural system.",
+   "textbook_ref": "kebo119.txt lines 10-35",
+   "question_patterns": [
+    "define a hormone according to the modern scientific view",
+    "how do endocrine glands differ from exocrine glands",
+    "what are the characteristics of hormones",
+    "explain why hormones are called intercellular messengers",
+    "short note on endocrine glands and hormones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the gland type",
+     "explain": "Endocrine glands lack ducts and release secretions directly into the blood."
+    },
+    {
+     "step": 2,
+     "action": "classify the chemical",
+     "explain": "Hormones are non-nutrient chemicals produced in trace amounts."
+    },
+    {
+     "step": 3,
+     "action": "compare coordination systems",
+     "explain": "Verify that hormonal coordination is slower but longer-lasting compared to the rapid neural coordination via nerve impulses."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.1",
+   "title": "The Hypothalamus",
+   "section": "19.2.1",
+   "definition": "The basal part of the forebrain that contains neurosecretory cells which form hormones to regulate the pituitary gland.",
+   "formula": "None",
+   "key_idea": "The hypothalamus links the nervous system to the endocrine system via releasing and inhibiting hormones.",
+   "textbook_ref": "kebo119.txt lines 55-80",
+   "question_patterns": [
+    "what is the role of the hypothalamus in the endocrine system",
+    "distinguish between releasing and inhibiting hormones",
+    "how does the hypothalamus control the anterior pituitary",
+    "name a hormone that inhibits growth hormone release",
+    "describe the hypothalamus with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the source",
+     "explain": "Hypothalamic nuclei produce neurohormones."
+    },
+    {
+     "step": 2,
+     "action": "determine the pathway",
+     "explain": "Hormones reach the anterior pituitary through a portal circulatory system."
+    },
+    {
+     "step": 3,
+     "action": "distinguish releasing and inhibiting hormones",
+     "explain": "Verify that releasing hormones stimulate pituitary secretion while inhibiting hormones such as somatostatin suppress it."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.2",
+   "title": "The Pituitary Gland and Growth Disorders",
+   "section": "19.2.2",
+   "definition": "A master gland located in the sella tursica that secretes several trophic hormones and stores hypothalamic hormones.",
+   "formula": "None",
+   "key_idea": "The pituitary regulates growth, milk production, and the activity of other endocrine glands.",
+   "textbook_ref": "kebo119.txt lines 85-120",
+   "question_patterns": [
+    "what causes gigantism and dwarfism",
+    "list the hormones of the anterior pituitary",
+    "what is the function of oxytocin and vasopressin",
+    "describe the condition called acromegaly",
+    "what do you understand by the pituitary gland and growth disorders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the hormone",
+     "explain": "Growth Hormone (GH) regulates body development."
+    },
+    {
+     "step": 2,
+     "action": "analyze the secretion level",
+     "explain": "Over-secretion leads to gigantism/acromegaly; under-secretion leads to dwarfism."
+    },
+    {
+     "step": 3,
+     "action": "identify posterior pituitary hormones",
+     "explain": "Verify that oxytocin causes uterine contraction during childbirth and vasopressin regulates water reabsorption in the kidneys."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.4",
+   "title": "Thyroid Gland and Metabolism",
+   "section": "19.2.4",
+   "definition": "A two-lobed gland in the neck that produces thyroxine and triiodothyronine to regulate the body's basal metabolic rate.",
+   "formula": "None",
+   "key_idea": "Iodine is necessary for thyroid hormone synthesis, which controls nutrient metabolism and RBC formation.",
+   "textbook_ref": "kebo119.txt lines 150-185",
+   "question_patterns": [
+    "why is iodine important in our diet",
+    "what are the symptoms of hypothyroidism during pregnancy",
+    "explain the role of thyrocalcitonin",
+    "what is Graves' disease",
+    "state two key points about thyroid gland and metabolism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the requirement",
+     "explain": "Iodine is needed for T3 and T4 synthesis."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the effect",
+     "explain": "Deficiency causes goitre and cretinism; excess causes hyperthyroidism."
+    },
+    {
+     "step": 3,
+     "action": "verify thyrocalcitonin role",
+     "explain": "Confirm that thyroid follicles also secrete thyrocalcitonin which lowers blood calcium levels, acting antagonistically to parathyroid hormone."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.5",
+   "title": "Parathyroid Gland and Calcium Balance",
+   "section": "19.2.5",
+   "definition": "Four small glands on the thyroid's back that secrete parathyroid hormone (PTH) to increase blood calcium levels.",
+   "formula": "None",
+   "key_idea": "PTH and TCT act antagonistically to maintain calcium homeostasis in the blood.",
+   "textbook_ref": "kebo119.txt lines 190-205",
+   "question_patterns": [
+    "how does PTH increase blood calcium levels",
+    "why is PTH called a hypercalcemic hormone",
+    "name the hormone that regulates calcium along with PTH",
+    "where does PTH act to increase calcium",
+    "list the main features of parathyroid gland and calcium balance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stimulus",
+     "explain": "Low circulating blood calcium levels trigger PTH secretion."
+    },
+    {
+     "step": 2,
+     "action": "trace the action",
+     "explain": "PTH stimulates bone resorption and renal calcium reabsorption."
+    },
+    {
+     "step": 3,
+     "action": "verify antagonistic calcium regulation",
+     "explain": "Confirm that PTH raises blood calcium while thyroid-derived thyrocalcitonin lowers it, maintaining calcium homeostasis."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.7",
+   "title": "Adrenal Gland and Stress Response",
+   "section": "19.2.7",
+   "definition": "Glands located above the kidneys consisting of a medulla (secreting emergency hormones) and a cortex (secreting corticoids).",
+   "formula": "None",
+   "key_idea": "The adrenal gland manages both immediate stress (medulla) and long-term metabolic/electrolyte balance (cortex).",
+   "textbook_ref": "kebo119.txt lines 215-260",
+   "question_patterns": [
+    "what are the hormones of fight or flight",
+    "explain the function of aldosterone",
+    "what is Addison's disease",
+    "how does cortisol affect the immune system",
+    "short note on adrenal gland and stress response"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the region",
+     "explain": "Adrenal medulla secretes adrenaline; cortex secretes cortisol and aldosterone."
+    },
+    {
+     "step": 2,
+     "action": "describe the physiological effect",
+     "explain": "Adrenaline increases heart rate; aldosterone regulates sodium and water balance."
+    },
+    {
+     "step": 3,
+     "action": "identify cortical disorders",
+     "explain": "Verify that underproduction of glucocorticoids causes Addison's disease while overproduction causes Cushing's syndrome."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.8",
+   "title": "Pancreas and Glucose Homeostasis",
+   "section": "19.2.8",
+   "definition": "A composite gland containing Islets of Langerhans that secrete insulin and glucagon to manage blood sugar.",
+   "formula": "None",
+   "key_idea": "Insulin (hypoglycemic) and glucagon (hyperglycemic) maintain stable blood glucose levels.",
+   "textbook_ref": "kebo119.txt lines 265-295",
+   "question_patterns": [
+    "how do insulin and glucagon regulate blood sugar",
+    "what is the cause of diabetes mellitus",
+    "which cells secrete insulin",
+    "define hyperglycemia and hypoglycemia",
+    "justify why pancreas and glucose homeostasis matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the cell type",
+     "explain": "Alpha cells secrete glucagon; Beta cells secrete insulin."
+    },
+    {
+     "step": 2,
+     "action": "determine the metabolic action",
+     "explain": "Insulin promotes glucose uptake; glucagon promotes glycogen breakdown."
+    },
+    {
+     "step": 3,
+     "action": "identify the disorder",
+     "explain": "Verify that insufficient insulin secretion causes diabetes mellitus, characterized by elevated blood glucose and glucose loss in urine."
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.4",
+   "title": "Mechanism of Hormone Action",
+   "section": "19.4",
+   "definition": "The process where hormones bind to specific receptors to trigger biochemical changes and physiological responses in target tissues.",
+   "formula": "None",
+   "key_idea": "Water-soluble hormones use second messengers, while lipid-soluble hormones regulate gene expression directly.",
+   "textbook_ref": "kebo119.txt lines 345-375",
+   "question_patterns": [
+    "how do protein hormones differ from steroid hormones in action",
+    "what are second messengers in hormone action",
+    "explain the formation of a hormone-receptor complex",
+    "where are intracellular receptors located",
+    "explain mechanism of hormone action in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the hormone",
+     "explain": "Determine if the hormone is peptide-based or steroid-based."
+    },
+    {
+     "step": 2,
+     "action": "identify the receptor location",
+     "explain": "Peptides bind to membrane receptors; steroids bind to intracellular receptors."
+    },
+    {
+     "step": 3,
+     "action": "trace the signal transduction pathway",
+     "explain": "Verify that peptide hormones generate second messengers such as cyclic AMP while steroid hormones directly regulate gene expression by binding to nuclear receptors."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo119.txt lines 285-295",
+   "concept": "kebo.19.2.8",
+   "question_type": "verify_property",
+   "question_pattern": "A patient has high blood sugar and glucose in their urine. Identify the likely disorder and the hormone deficiency.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify symptoms",
+     "explain": "High blood sugar (hyperglycemia) and glucosuria are key indicators."
+    },
+    {
+     "step": 2,
+     "action": "diagnose the condition",
+     "explain": "These symptoms characterize Diabetes Mellitus."
+    },
+    {
+     "step": 3,
+     "action": "identify the hormone",
+     "explain": "The disorder is caused by a deficiency of insulin."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo119.txt lines 140-148",
+   "concept": "kebo.19.1",
+   "question_type": "verify_property",
+   "question_pattern": "Which gland is responsible for maintaining the sleep-wake cycle and what hormone does it secrete?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the physiological rhythm",
+     "explain": "The 24-hour diurnal rhythm includes the sleep-wake cycle."
+    },
+    {
+     "step": 2,
+     "action": "locate the gland",
+     "explain": "The pineal gland, located on the dorsal side of the forebrain, regulates this."
+    },
+    {
+     "step": 3,
+     "action": "name the hormone",
+     "explain": "The hormone secreted is melatonin."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex19",
+   "source_ref": "kebo119.txt lines 415-445",
+   "questions": [
+    "Define endocrine gland and hormone.",
+    "List the hormones secreted by the Pituitary and Thyroid glands.",
+    "Which hormonal deficiency is responsible for Goitre?",
+    "Briefly mention the mechanism of action of FSH.",
+    "Match the following: T4 with Thyroid, PTH with Parathyroid, GnRH with Hypothalamus."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

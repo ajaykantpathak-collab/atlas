@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_05_014",
+   "title": "c11_hin_v_cbse_05_014",
+   "questions": [
+    {
+     "q": "What is the full form of the PEEL structure used for writing analytical answers in Hindi literature, and what does each letter stand for in the context of a long-answer question?",
+     "a": "PEEL stands for **P**oint (मुख्य बात/दावा), **E**vidence (पाठ्य साक्ष्य/घटना), **E**xplanation (व्याख्या/विश्लेषण), **L**ink (संबंध/निष्कर्ष). A wrong answer (e.g., confusing Explanation with Example, or omitting Link) reveals the student treats answer writing as storytelling rather than argument-building — they will narrate *what happened* instead of proving *why it matters* for the question asked.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The protagonist is very poor and suffers a lot. The landlord exploits him. In the end, he dies sadly. This shows the theme of exploitation.\" Identify the specific structural flaw in this answer and explain why it would score poorly in a Class 11 board exam despite mentioning the correct theme.",
+     "a": "The answer lacks **textual evidence** (specific incidents, dialogues, or descriptions) and **explanation** (analysis of *how* the evidence proves exploitation). It is a plot summary with a thematic label slapped at the end. Board marking schemes allocate marks for: (1) relevant point, (2) precise textual reference, (3) analytical explanation, (4) thematic link. This answer might get 1/5 marks — only for identifying the theme. The student mistakes *knowing the story* for *answering the question analytically*.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this question in 3-4 sentences (Hindi or English): \"How does the incident of the protagonist refusing to put his thumb impression on the false paper reveal his inner strength?\" Provide one complete PEEL paragraph.",
+     "a": "**Point:** The protagonist's refusal to thumb-print the false document demonstrates his moral courage and self-respect despite systemic powerlessness.  \n**Evidence:** When the landlord's men force him to sign a paper falsely stating he received full wages, he pulls his hand back and says, \"Main jhooth nahi bolunga\" (I will not speak a lie).  \n**Explanation:** This act is not mere defiance; it reclaims his agency in a space where his body and labor are owned by others. By risking immediate violence for truth, he asserts that his dignity is non-negotiable.  \n**Link:** Thus, a single silent gesture becomes a powerful indictment of a feudal system that equates illiteracy with consent.  \nA wrong answer would quote the incident but skip Explanation (e.g., \"This shows he is brave\") — failing to connect the *specific action* to the *larger psychological/spiritual resistance*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two ways of embedding textual evidence in a Hindi answer: (A) Direct quote: \"उसने कहा, 'मैं झूठ नहीं बोलूंगा'।\" (B) Paraphrase: \"जब उससे झूठे कागज़ पर अंगूठा लगवाया गया, तो उसने इनकार कर दिया।\" Analyze which is more effective for a *character analysis* question and which for a *theme* question, and why.",
+     "a": "For **character analysis**, direct quotes (A) are superior because they capture the character's *voice, diction, and tone* — \"मैं झूठ नहीं बोलूंगा\" reveals simplicity, firmness, and moral clarity in his own words. For **theme questions**, paraphrase (B) is often better because it condenses the *situational context* (force, false paper, refusal) which illustrates the systemic oppression theme more efficiently. A common error: using long quotes in theme answers (wasting word limit) or paraphrasing in character answers (losing the character's unique speech pattern). The choice must serve the *question's demand*, not habit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"Since the chapter is a translation from another language, we should not focus on specific Hindi words or phrases used by the author; the themes are universal, so general answers are acceptable.\" Defend or refute with reference to board exam expectations.",
+     "a": "**Refute.** Board exams (CBSE Hindi Core/Elective) assess *close reading of the prescribed Hindi text*. The translator's word choices (e.g., \"जत्था\", \"ठेकेदार\", \"अंगूठा छाप\", \"बेगारी\") carry specific socio-cultural weight — \"अंगूठा छाप\" implies systemic illiteracy exploited by feudal contracts, which \"illiterate\" alone does not convey. General answers (\"he was forced to sign\") lose the *cultural specificity* that the marking scheme rewards. Students must analyze the *Hindi text as given*, noting how vocabulary constructs the world of the story. Ignoring the Hindi phrasing treats translation as transparent, which is a Category Error in literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 6-mark question on the theme of \"silent resistance\" in the chapter, and write a 2-sentence *thesis statement* (in Hindi or English) that a top-scoring answer would build upon. The thesis must be arguable, specific to the text, and go beyond \"silent resistance exists.\"",
+     "a": "**Question:** \"The protagonist never delivers a speech or leads a revolt, yet the text portrays him as a figure of resistance. Analyze how 'silence' functions as a form of rebellion in 'jktLFkku dh jtr cw¡nas', citing three distinct incidents.\"  \n**Thesis Statement:** \"In the narrative, silence is not passive submission but a strategic withdrawal of consent — the protagonist's refusal to speak falsehoods, his withheld labor during illness, and his final unspoken gaze at the landlord collectively dismantle the feudal contract that equates his body with property.\"  \nA weak thesis (\"He resists silently in many ways\") is a *topic*, not an *argument* — it offers no analytical lens (strategic withdrawal, dismantling contract) and no roadmap for the three incidents. The strong thesis makes a *claim about how silence works* that the essay must then prove.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

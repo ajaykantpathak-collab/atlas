@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_012",
+   "title": "c11_phy_cbse_11_012",
+   "questions": [
+    {
+     "q": "Define the Coefficient of Performance (COP) of a refrigerator. State its formula in terms of heat extracted (Q₂) and work done (W), and give its SI unit.",
+     "a": "The Coefficient of Performance (α) of a refrigerator is defined as the ratio of heat extracted from the cold reservoir (Q₂) to the work input (W): α = Q₂/W. It is a dimensionless quantity (no SI unit). A wrong answer (e.g., α = W/Q₂ or stating units as J) reveals confusion between refrigerator COP and heat engine efficiency, or a misunderstanding that COP is a ratio of two energies and thus unitless.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The COP of a refrigerator is always less than 1 because efficiency can never exceed 100%.\" Explain why this reasoning is incorrect, using the First Law and the definition of COP.",
+     "a": "The student confuses refrigerator COP (α = Q₂/W) with heat engine efficiency (η = W/Q₁). By the First Law, Q₁ = Q₂ + W, so Q₂ = Q₁ - W. Since W < Q₁ for any real engine, Q₂ can be larger than W, making α = Q₂/W > 1. For example, a typical refrigerator has α ≈ 3–5. The \"efficiency limit\" of 1 applies to η = W/Q₁, not to α. A wrong answer indicates the student is applying the heat engine efficiency constraint to a refrigerator, not recognizing they are different figures of merit for different devices.",
+     "self_check": true
+    },
+    {
+     "q": "An ideal Carnot refrigerator operates between a cold reservoir at -10°C and a hot reservoir at 27°C. Calculate its Coefficient of Performance. (Use temperatures in Kelvin.)",
+     "a": "Step 1: Convert temperatures to Kelvin. T₂ = -10°C = 263 K; T₁ = 27°C = 300 K.\nStep 2: Write Carnot COP formula: α = T₂/(T₁ - T₂).\nStep 3: Substitute: α = 263 K / (300 K - 263 K) = 263 / 37.\nStep 4: Compute: α ≈ 7.11 (dimensionless).\nStep 5: Check: T₁ > T₂, so denominator positive; α > 1 as expected for refrigerator.\nA wrong answer (e.g., using Celsius temperatures giving α = -10/(27 - (-10)) = -0.27) reveals failure to convert to absolute temperature, a critical error in thermodynamic calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Two refrigerators A and B operate between the same two reservoirs at T₁ = 300 K and T₂ = 250 K. Refrigerator A is a Carnot (reversible) refrigerator. Refrigerator B is a real refrigerator with COP = 4.0. Compare their COPs and explain which one is more efficient in the thermodynamic sense. What does the Second Law imply about the COP of B relative to A?",
+     "a": "Carnot COP α_A = T₂/(T₁ - T₂) = 250/(300-250) = 5.0. Real refrigerator COP α_B = 4.0. Since α_B < α_A, refrigerator A (Carnot) is more efficient thermodynamically. The Second Law (Clausius statement) requires that no refrigerator operating between the same two temperatures can have a COP greater than the Carnot COP. Thus α_B ≤ α_A always. A wrong answer claiming B is better because 4.0 is \"closer to 1\" or that α_B > α_A is possible reveals a fundamental misunderstanding of the Second Law limit and the meaning of COP as a performance metric (higher is better for refrigerators).",
+     "self_check": true
+    },
+    {
+     "q": "A refrigerator has a COP of 5.0. It removes 1000 J of heat from the cold compartment in one cycle. Evaluate the following statement: \"The work done by the refrigerator on the surroundings is 200 J.\" Is this correct? Justify your answer using the First Law and sign conventions.",
+     "a": "The statement is incorrect in its wording. Given α = 5.0 and Q₂ = 1000 J, the work input required is W = Q₂/α = 1000 J / 5.0 = 200 J. However, for a refrigerator, work is done *on* the system (by the compressor), not *by* the system on the surroundings. By sign convention (∆W = work done by system), W = -200 J. The magnitude is 200 J, but the direction is opposite to what the statement says. A wrong answer that ignores the sign convention or says \"work done by refrigerator is 200 J\" reveals confusion about energy flow direction in a refrigerator versus a heat engine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment or real-world test to demonstrate that a refrigerator's COP decreases as the temperature difference between the inside (cold) and outside (hot) increases. Describe the setup, what you would measure, and the expected trend based on the Carnot formula.",
+     "a": "Setup: Use a portable thermoelectric cooler (Peltier device) powered by a variable voltage source with an ammeter and voltmeter to measure electrical work input (W = VIt). Place it in an insulated box (cold reservoir) with a temperature sensor. Vary the outside (hot) temperature by placing the hot side in water baths at different temperatures (e.g., 20°C, 30°C, 40°C) while keeping the cold side target temperature constant (e.g., 5°C). Measure steady-state heat removal rate Q₂/t (by tracking temperature rise of a known mass of water inside) and electrical power input W/t. Calculate COP = (Q₂/t) / (W/t). Expected trend: As T_hot increases (T_cold fixed), T₁ - T₂ increases, so Carnot COP = T₂/(T₁ - T₂) decreases. Measured COP should show the same decreasing trend. A poor answer would not control variables (e.g., changing both temperatures) or would confuse the trend (expecting COP to increase with larger ΔT).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

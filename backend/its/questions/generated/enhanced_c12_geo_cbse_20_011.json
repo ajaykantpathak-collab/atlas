@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_011",
+   "title": "c12_geo_cbse_20_011",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a scatter diagram in geographical analysis?",
+     "a": "A scatter diagram visually reveals the nature of the relationship (correlation) between two continuous geographical variables. A wrong answer such as \"to show the frequency distribution of a single variable\" reveals confusion with histograms; \"to compare categories\" reveals confusion with bar diagrams. The student has not grasped that scatter diagrams require paired observations of two variables for the same set of cases.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots average annual rainfall (cm) on the X-axis and rice yield (quintals/ha) on the Y-axis for 15 districts. The points form a broad upward-sloping band with considerable scatter. The student concludes: \"Rainfall causes higher rice yield.\" Why is this conclusion geographically premature?",
+     "a": "Correlation does not imply causation. The scatter shows association, but other factors (soil type, irrigation, variety, temperature) also influence yield. A wrong answer that accepts the causal claim indicates the student confuses statistical association with physical causation — a critical error in geographical explanation. The student must learn to say \"rainfall is positively correlated with yield\" and then investigate controlling factors.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following paired data for 5 hill stations: Altitude (m): 1200, 1500, 1800, 2100, 2400; Mean July Temp (°C): 22.4, 20.5, 18.7, 16.8, 15.0. Construct a scatter diagram (choose scales, plot points) and state the correlation type and approximate strength.",
+     "a": "Steps: (1) X-axis: Altitude 1000–2500 m, 1 cm = 200 m. Y-axis: Temp 14–24°C, 1 cm = 1°C. (2) Plot (1200,22.4), (1500,20.5), (1800,18.7), (2100,16.8), (2400,15.0). (3) Points fall close to a straight line sloping downward. (4) Correlation: strong negative linear. A wrong plot with reversed axes or non-uniform scales reveals inability to construct the diagram; calling it \"weak\" reveals inability to judge clustering.",
+     "self_check": true
+    },
+    {
+     "q": "Two scatter diagrams are drawn for the same region: (A) Population density vs. distance from city centre — points form a convex curve steep near centre, flattening outward. (B) Literacy rate vs. distance — points form a horizontal band. Compare and interpret the geographical processes behind each pattern.",
+     "a": "(A) Shows strong non-linear (inverse) correlation: density declines rapidly near the centre due to high land values and commercial use, then levels off in suburbs — classic urban density gradient. (B) Shows near-zero correlation: literacy is uniformly high across the region, distance from centre is irrelevant. A wrong answer that calls (A) \"linear negative\" misses the curvature; calling (B) \"positive\" reveals inability to read a horizontal cloud as no relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"The scatter diagram of forest cover (%) vs. tribal population (%) for Indian states shows a tight positive correlation, therefore increasing tribal population will increase forest cover.\" Evaluate this claim using geographical reasoning.",
+     "a": "The claim commits the ecological fallacy and reverse causation error. The correlation may arise because both variables are high in the same states (e.g., Northeastern states) due to historical, policy, and physiographic factors — not because tribal people cause forest growth. A good evaluation notes that correlation at state level does not imply mechanism at local level, and suggests examining community forest management practices. A wrong answer accepting the claim shows failure to distinguish correlation from causation and ignorance of scale issues.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scatter diagram-based field study for your district to investigate the relationship between groundwater depth (m) and area under paddy cultivation (ha) across 20 villages. List the steps from data collection to geographical interpretation, including how you would handle villages with missing data.",
+     "a": "Steps: (1) Obtain village-level groundwater depth (from CGWB) and paddy area (from agricultural census) for the same year. (2) Exclude villages with missing data for either variable; note exclusions. (3) Plot groundwater depth (X) vs. paddy area (Y) with appropriate scales. (4) Describe pattern: expect negative correlation (deeper water → less paddy). (5) Identify outliers (e.g., villages with canal irrigation despite deep groundwater) and explain them using local knowledge. (6) Conclude on the strength of groundwater as a limiting factor. A poor answer omits handling missing data, ignores outliers, or treats correlation as proof of causation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

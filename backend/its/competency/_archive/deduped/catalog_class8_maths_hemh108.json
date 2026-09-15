@@ -1,0 +1,238 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 8,
+ "chapter_title": "Algebraic Expressions and Identities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.108.8.1",
+   "title": "Monomials, Binomials, Trinomials and Polynomials",
+   "section": "8.1",
+   "definition": "Algebraic expressions are built from terms: one term is a monomial, two unlike terms make a binomial, three a trinomial, and many terms a polynomial; like terms - same variable parts - can be added or subtracted by combining coefficients.",
+   "formula": "sum = coef_a + coef_b for like terms",
+   "key_idea": "Name expressions by their term count; only like terms merge under addition.",
+   "textbook_ref": "hemh108.txt section 8.1 (addition and subtraction of algebraic expressions)",
+   "question_patterns": [
+    "classify the given expressions as monomial, binomial or trinomial",
+    "add the given algebraic expressions by combining like terms",
+    "subtract 4a - 7b + 3 from 5a + 2b - 6",
+    "which terms are like terms in the given expression",
+    "find the sum of the like terms in the expression",
+    "what is the coefficient of x squared in the given expression"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the unlike terms",
+     "explain": "One unlike term is a monomial, two a binomial, three a trinomial."},
+    {"step": 2, "action": "spot the like terms",
+     "explain": "Terms with identical variable parts can merge."},
+    {"step": 3, "action": "combine carefully",
+     "explain": "Add or subtract only the coefficients of like terms, keeping signs."}
+   ]
+  },
+  {
+   "id": "hemh.108.8.2",
+   "title": "Multiplying Monomials",
+   "section": "8.3",
+   "definition": "Multiplying monomials multiplies the coefficients and adds the exponents of matching variables: 3x times 5x squared gives 15x cubed, and three or more monomials chain the same way.",
+   "formula": "product = coef1 * coef2",
+   "key_idea": "Numbers multiply, letters add their powers: coefficient times coefficient.",
+   "textbook_ref": "hemh108.txt sections 8.3-8.3.2 (multiplying monomials)",
+   "question_patterns": [
+    "multiply 3x by 5x squared",
+    "find the product of the given monomials",
+    "multiply three monomials together",
+    "find the area of a rectangle with sides the given monomials",
+    "compute the coefficient of the product of the monomials",
+    "what is 2ab times 3a squared b"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the coefficients",
+     "explain": "The numeric parts multiply first.",
+     "compute": "product = coef1 * coef2"}
+   ]
+  },
+  {
+   "id": "hemh.108.8.3",
+   "title": "Multiplying a Monomial by a Binomial",
+   "section": "8.4",
+   "definition": "Distributing a monomial over a binomial hits every term: x times (a + b) becomes x times a plus x times b, so multiplying monomial by binomial or trinomial simply spreads the product across all inside terms.",
+   "formula": "-",
+   "key_idea": "Everybody inside the bracket gets multiplied - distributivity in action.",
+   "textbook_ref": "hemh108.txt sections 8.4-8.4.2 (multiplying a monomial by polynomial)",
+   "question_patterns": [
+    "multiply 2x by (3x + 5)",
+    "find the product of the monomial and the binomial",
+    "expand the given expression using distribution",
+    "multiply the monomial by the trinomial",
+    "simplify a times (a + b)",
+    "find the area of a rectangular garden with sides the given monomial and binomial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the first inside term",
+     "explain": "The monomial multiplies the first term of the bracket."},
+    {"step": 2, "action": "multiply the remaining terms",
+     "explain": "Each term inside receives the monomial."},
+    {"step": 3, "action": "write the sum",
+     "explain": "The products add to give the expanded expression."}
+   ]
+  },
+  {
+   "id": "hemh.108.8.4",
+   "title": "Multiplying Two Binomials",
+   "section": "8.5",
+   "definition": "Two binomials multiply by pairing every term of the first with every term of the second - four products in all - and like terms among the four merge, as (a + b)(c + d) expands to ac + ad + bc + bd.",
+   "formula": "-",
+   "key_idea": "Two times two products, then tidy the middle: every term meets every term.",
+   "textbook_ref": "hemh108.txt section 8.5.1 (multiplying a binomial by a binomial)",
+   "question_patterns": [
+    "multiply (x + 3) by (x + 5)",
+    "expand the product of the two binomials",
+    "find the product (2a + 3)(3a - 1)",
+    "simplify (x + 7)(x - 2)",
+    "multiply binomials and combine like terms",
+    "what four products arise in multiplying two binomials"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "distribute the first binomial",
+     "explain": "Multiply each of its terms by the whole second binomial."},
+    {"step": 2, "action": "expand fully",
+     "explain": "Four products appear from the two-plus-two terms."},
+    {"step": 3, "action": "combine like terms",
+     "explain": "Merge the middle terms to finish the product."}
+   ]
+  },
+  {
+   "id": "hemh.108.8.5",
+   "title": "Standard Identities",
+   "section": "8.6",
+   "definition": "Special products become identities worth memorising: (a + b) squared equals a squared + 2ab + b squared, (a - b) squared equals a squared - 2ab + b squared, and (a + b)(a - b) equals a squared - b squared; they evaluate products and factorise expressions instantly.",
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "key_idea": "Three identities do the work of dozens of expansions.",
+   "textbook_ref": "hemh108.txt section 8.6 (standard identities and their use)",
+   "question_patterns": [
+    "use the identity to find 102 squared",
+    "expand (x + 7) squared using the standard identity",
+    "evaluate (a - b) squared for the given values",
+    "find the product 103 x 97 using identities",
+    "state the three standard identities",
+    "expand (3p + 4q) squared"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the two parts",
+     "explain": "Compute a squared plus b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The identity completes the square of the sum.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh108.txt section 8.3 monomial product examples",
+   "concept": "hemh.108.8.2",
+   "question_type": "compute",
+   "question_pattern": "Multiply the monomials {coef1}x and {coef2}x. What is the numerical coefficient of the product?",
+   "extracted_variables": {
+    "coef1": "coefficient of the first monomial",
+    "coef2": "coefficient of the second monomial"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the coefficients",
+     "explain": "Numerical parts multiply; powers of x add.",
+     "compute": "product = coef1 * coef2"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh108.txt section 8.3 practice",
+   "concept": "hemh.108.8.2",
+   "question_type": "compute",
+   "question_pattern": "Complete the product of the monomials with coefficients {coef1} and {coef2}.",
+   "extracted_variables": {
+    "coef1": "first coefficient",
+    "coef2": "second coefficient"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the coefficients",
+     "explain": "The product's coefficient is the product of the coefficients.",
+     "compute": "product = coef1 * coef2"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh108.txt section 8.6 identity examples",
+   "concept": "hemh.108.8.5",
+   "question_type": "compute",
+   "question_pattern": "Use the identity with a = {a} and b = {b} to find (a + b) squared.",
+   "extracted_variables": {
+    "a": "larger part of the number",
+    "b": "smaller part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "a squared plus b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "2ab finishes the identity.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh108.txt section 8.6 practice",
+   "concept": "hemh.108.8.5",
+   "question_type": "compute",
+   "question_pattern": "Evaluate (a + b) squared for a = {a} and b = {b} using the standard identity.",
+   "extracted_variables": {
+    "a": "value of a",
+    "b": "value of b"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "Compute both squares.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The cross term completes it.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "hemh108.txt EXERCISE 8.1-8.2",
+   "questions": [
+     "Add the given pairs of algebraic expressions.",
+     "Subtract the second expression from the first.",
+     "Identify the like terms in the given expressions."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "hemh108.txt EXERCISE 8.3-8.4",
+   "questions": [
+     "Find the product of the given monomials.",
+     "Multiply the monomial by the given binomial.",
+     "Simplify the products and find the values at the given points."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "hemh108.txt EXERCISE 8.5",
+   "questions": [
+     "Multiply the given binomials and verify with a numerical example.",
+     "Use the identities to find the squares and products asked.",
+     "Simplify (a + b)(a - b) for the given values."
+   ]
+  }
+ ]
+}

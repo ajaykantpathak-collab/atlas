@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_002",
+   "title": "c11_psy_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define \"concept\" as used in cognitive psychology and give one example of a natural concept and one artificial concept with their defining features.",
+     "a": "A concept is a mental representation of a category of objects, events, or ideas that share common properties. Natural concept example: \"dog\" (defining features: four-legged, mammal, barks, domesticated). Artificial concept example: \"square\" (defining features: four equal sides, four right angles, closed figure). A wrong answer (e.g., \"concept is just a word\") reveals confusion between linguistic labels and mental representations; the student fails to grasp that concepts exist pre-linguistically and can be non-verbal.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mental rotation experiments (e.g., Shepard & Metzler) provide evidence that mental images are analog representations rather than propositional descriptions.",
+     "a": "Mental rotation shows reaction time increases linearly with angular disparity, mirroring physical rotation—impossible if images were abstract propositions (which would show constant or step-function timing). A wrong answer (e.g., \"images are just memories\") reveals the student confuses storage format with representational format; they miss that analog representations preserve metric spatial relationships (second-order isomorphism) while propositions do not.",
+     "self_check": true
+    },
+    {
+     "q": "A child sees a penguin for the first time and calls it \"bird.\" Using prototype theory and exemplar theory, explain how the child's \"bird\" concept accommodates this atypical instance.",
+     "a": "Prototype theory: child compares penguin to central tendency (robin-like prototype); low similarity but shares critical features (feathers, wings, beak, lays eggs) → categorized as bird. Exemplar theory: child retrieves stored bird exemplars (sparrow, crow, parrot); penguin matches enough exemplars on key dimensions → categorized as bird. A wrong answer (e.g., \"child uses definition\") reveals the student applies classical view (necessary/sufficient features) ignoring that natural concepts are graded/fuzzy—penguins violate \"flies\" but retain category membership.",
+     "self_check": true
+    },
+    {
+     "q": "Compare linguistic relativity (Whorf) and cognitive primacy (Piaget) on the thought-language relationship. Which position better explains why bilinguals show cognitive flexibility in executive function tasks?",
+     "a": "Whorf: language structure constrains thought categories (strong determinism) or influences habitual thought (weak relativity). Piaget: sensorimotor schemas precede language; language expresses but does not create thought. Bilingual advantage in executive control (inhibiting one language, switching) supports Piaget/Vygotsky: thought operates independently, managing linguistic systems as tools. A wrong answer (e.g., \"Whorf explains it because two languages = two worldviews\") reveals confusion between linguistic content and cognitive control mechanisms; the student misattributes domain-general executive benefits to linguistic relativity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The telegraphic speech stage (two-word utterances) proves children have innate syntactic knowledge because they omit function words but preserve correct word order.\"",
+     "a": "The claim overinterprets. Telegraphic speech (e.g., \"mommy go\") shows sensitivity to word order but could emerge from statistical learning of frequent frames (usage-based), not necessarily innate Universal Grammar. Evidence: children's early combinations are lexically specific (item-based), not abstract rules. A better evaluation: telegraphic speech demonstrates emerging grammatical awareness, but its origin (innate vs. learned) requires cross-linguistic and computational modeling evidence. A wrong answer (uncritical acceptance) reveals the student conflates behavioral pattern with theoretical mechanism, ignoring the poverty-of-stimulus vs. statistical learning debate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether forming a mental image interferes with concurrent visual perception (perceptual interference hypothesis). Specify IV, DV, control condition, and predicted outcome if images share visual-spatial resources.",
+     "a": "IV: Task type (mental imagery vs. verbal rehearsal) during visual detection. DV: Detection accuracy/speed for faint visual stimuli. Control: Verbal rehearsal condition (e.g., repeating \"the cat sat\"). Imagery condition: Visualize a bright letter 'X'. Predicted outcome: Imagery group shows worse detection (especially in same visual field) due to shared visual buffer (Kosslyn's model). Good answer includes counterbalancing, stimulus parameters, and alternative explanation (attention). Poor answer (e.g., \"ask people if they see it\") reveals inability to operationalize cognitive constructs into measurable variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

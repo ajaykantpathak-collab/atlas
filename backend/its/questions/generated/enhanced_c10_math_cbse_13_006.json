@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_006",
+   "title": "c10_math_cbse_13_006",
+   "questions": [
+    {
+     "q": "What are the coordinates of the points plotted for a 'less than' ogive if the class intervals are 0–10, 10–20, 20–30 and the less than cumulative frequencies are 5, 13, 20 respectively?",
+     "a": "The coordinates are (10, 5), (20, 13), (30, 20). A wrong answer like (5, 10) or using mid-points (5, 5), (15, 13) reveals the student confuses the roles of x and y axes or mistakenly uses class marks instead of upper class boundaries — a very common board exam error where students lose 1 mark per point plotted incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we use upper class boundaries for the 'less than' ogive and lower class boundaries for the 'more than' ogive, instead of class marks or class limits directly.",
+     "a": "The 'less than' cumulative frequency at a class interval represents the total frequency of all values strictly less than the upper boundary of that class; plotting against the upper boundary correctly shows the cumulative count up to that value. Using class marks would misrepresent the data because the cumulative frequency does not correspond to the mid-value. A wrong answer indicates the student memorises the procedure without understanding what cumulative frequency actually measures — they will fail case-based questions asking to interpret a given ogive.",
+     "self_check": true
+    },
+    {
+     "q": "Construct the 'less than' cumulative frequency table and state the points to plot for the following data: Marks: 0–20 (4 students), 20–40 (10 students), 40–60 (16 students), 60–80 (8 students), 80–100 (2 students). Use a scale of 1 cm = 10 marks on x-axis and 1 cm = 2 students on y-axis.",
+     "a": "Less than CF: 4, 14, 30, 38, 40. Points: (20, 4), (40, 14), (60, 30), (80, 38), (100, 40). A wrong answer where the student writes CF as 4, 10, 16, 8, 2 (copying frequencies instead of cumulating) or plots (10, 4), (30, 14) using class marks shows they cannot compute cumulative frequency correctly — this is the single biggest source of errors in board exam ogive questions.",
+     "self_check": true
+    },
+    {
+     "q": "Two students draw ogives for the same data. Student A plots points and joins them with straight line segments. Student B plots the same points and draws a smooth freehand curve through them. Whose method is correct according to CBSE guidelines, and why might the other method give a different median estimate?",
+     "a": "Student B is correct; CBSE requires a smooth freehand curve for an ogive. Joining with straight lines (frequency polygon style) assumes uniform distribution within each class, which may not be true, and shifts the intersection point, leading to a different median. A student who says \"both are fine\" does not understand that the curve represents the actual cumulative distribution shape and will lose marks in \"justify your method\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a 'less than' ogive and finds the median by locating N/2 = 25 on the y-axis, drawing a horizontal line to the curve, then a vertical line to the x-axis, reading 48.5. The same data gives median = 49.2 using the median formula. The student concludes the graphical method is wrong. Evaluate this conclusion.",
+     "a": "The conclusion is incorrect. Graphical reading involves estimation errors due to scale, pencil thickness, and curve smoothness; a difference of 0.7 is acceptable. The formula gives the exact median assuming uniform distribution within the median class, while the ogive gives a visual estimate. A student who declares the graph \"wrong\" lacks understanding of approximation in graphical methods — board exams accept a range (usually ±1 to ±2) for graph-read answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 classes where the 'less than' and 'more than' ogives intersect exactly at x = 50, and the total frequency N = 40. Provide the class intervals, frequencies, and verify the intersection point.",
+     "a": "Example: Classes 0–20 (5), 20–40 (8), 40–60 (12), 60–80 (10), 80–100 (5). N=40, median class 40–60. Less than CF: 5, 13, 25, 35, 40. More than CF: 40, 35, 27, 15, 5. The ogives intersect where less than CF = more than CF = 20, which lies in class 40–60. By proportion, intersection x ≈ 50. A poor answer uses equal frequencies or symmetric classes without verifying the intersection algebraically — shows inability to reverse-engineer the concept, needed for competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

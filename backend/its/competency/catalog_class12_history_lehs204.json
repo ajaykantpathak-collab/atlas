@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 20,
+ "chapter_title": "Peasants, Zamindars and the State",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.204.1",
+   "title": "Ain-i-Akbari as an Administrative Record",
+   "section": "Ain-i Akbari and Abu'l Fazl",
+   "definition": "The Ain-i-Akbari, compiled by Abu'l Fazl in 1595 within the Akbar Nama, recorded the empire's provinces, revenue schedules, castes, officials and regulations; historians value its data while cautioning that it recorded ideals and court perspectives more than village realities.",
+   "formula": "",
+   "key_idea": "The Ain is a window with a frame: its statistics are precious, but they report the state's eye view of the sixteenth century.",
+   "textbook_ref": "lehs204.txt Ain-i-Akbari content and its limitations sections",
+   "question_patterns": [
+    "what does the Ain-i-Akbari record and who compiled it",
+    "in which year was the Ain completed",
+    "state the limitations of the Ain as a source",
+    "describe the structure of the Ain's books",
+    "how do historians verify the Ain's data",
+    "what does the Ain reveal about the state's ambitions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the record",
+     "explain": "the Ain was completed in 1595 under Abu'l Fazl"
+    },
+    {
+     "step": 2,
+     "action": "list its content",
+     "explain": "revenue schedules, provincial statistics and court regulations fill its books"
+    },
+    {
+     "step": 3,
+     "action": "close with caution",
+     "explain": "its numbers reflect administrative ideals, not always village practice"
+    }
+   ]
+  },
+  {
+   "id": "lehs.204.2",
+   "title": "Land Revenue: Measurement and Zabt",
+   "section": "Land Revenue System",
+   "definition": "Mughal land revenue rested on measurement of fields, assessment of crops by cash prices, and the zabt system in provinces like the subas of the core; officials used the dahsala schedule, recognised jins-i-kamil (perfect crops) as assessment standards, and revenue officials recorded every pargana.",
+   "formula": "",
+   "key_idea": "Zabt fixed cash demands on measured fields, shifting risk onto peasants while standardising the state's largest income source.",
+   "textbook_ref": "lehs204.txt measurement, zabt and jins-i-kamil sections",
+   "question_patterns": [
+    "describe the measurement-based assessment of land revenue",
+    "what was zabt and where was it applied",
+    "define jins-i-kamil with examples",
+    "how did the dahsala schedule work",
+    "state the responsibilities of the amil and qanungo",
+    "evaluate the effects of cash assessment on peasants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure first",
+     "explain": "_state figures in bigha fed the assessment schedules"
+    },
+    {
+     "step": 2,
+     "action": "price the crop",
+     "explain": "jins-i-kamil crops set cash rates averaged over years"
+    },
+    {
+     "step": 3,
+     "action": "close with zabt",
+     "explain": "the zabt subas paid revenue in cash on measured fields"
+    }
+   ]
+  },
+  {
+   "id": "lehs.204.3",
+   "title": "Village Society: Panchayats and Women",
+   "section": "Village Society",
+   "definition": "Village panchayats of elders levied taxes, settled disputes and regulated conduct, with the muqaddam and patwari as office-holders; women worked in fields, spinning and artisanal trades, and petitions to panchayats show both their agency and the limits set by household hierarchy.",
+   "formula": "",
+   "key_idea": "The panchayat was part court, part welfare body: it taxed marriages and disputes, and sometimes pleaded with the state for peasants.",
+   "textbook_ref": "lehs204.txt panchayat functions, muqaddam-patwari and women's work sections",
+   "question_patterns": [
+    "describe the functions of the village panchayat",
+    "what roles did the muqaddam and patwari play",
+    "how did women contribute to the rural economy",
+    "give examples of women petitioning panchayats",
+    "define muzarian tenants and their rights",
+    "relate caste to village offices and occupations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convene the panchayat",
+     "explain": "elders enforced norms, levied seigneurial dues and arbitrated"
+    },
+    {
+     "step": 2,
+     "action": "note the officers",
+     "explain": "muqaddams headed villages while patwaris kept records"
+    },
+    {
+     "step": 3,
+     "action": "close with women",
+     "explain": "petitions show women claiming wages and dignity within limits"
+    }
+   ]
+  },
+  {
+   "id": "lehs.204.4",
+   "title": "Zamindars, Jagirs and Peasant Resistance",
+   "section": "Zamindars and the State",
+   "definition": "Zamindars held hereditary rights over land and castles, commanded armed followers, and mediated between state and peasantry; the state assigned revenue rights as jagirs to mansabdars, and tensions among raiyats, zamindars and jagirdars produced frequent rural conflicts and rebellions.",
+   "formula": "",
+   "key_idea": "Three-tiered pressure - state demand, zamindar power, peasant survival - made the Mughal countryside a negotiated, often contested, order.",
+   "textbook_ref": "lehs204.txt zamindar rights, jagirdari system and rural conflicts sections",
+   "question_patterns": [
+    "state the rights and powers of Mughal zamindars",
+    "what was a jagir and who held jagirs",
+    "how did revenue assignment create tensions",
+    "describe forms of peasant resistance recorded in the period",
+    "explain the mansabdar-jagirdar link to rural extraction",
+    "relate panchayat petitions to state officials"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "power the zamindar",
+     "explain": "hereditary claim, armed retainers and fortress made zamindars local powers"
+    },
+    {
+     "step": 2,
+     "action": "rotate the jagir",
+     "explain": "mansabdars collected revenue from transferred jagirs, pressuring peasants"
+    },
+    {
+     "step": 3,
+     "action": "close with resistance",
+     "explain": "flight, refusal and revolt answered excessive demands"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs204_1",
+   "source_ref": "lehs204.txt Ain compilation date",
+   "concept": "lehs.204.1",
+   "question_type": "compute",
+   "question_pattern": "The Ain-i-Akbari was completed in 1595, thirty-nine years into Akbar's reign. Verify this offset from the reign dates 1556-1605.",
+   "extracted_variables": {
+    "accession_year": 1556,
+    "ain_year": 1595
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "Akbar's accession 1556; Ain completed 1595",
+     "compute": "accession_year = 1556"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1595 - 1556 = 39 years into the reign",
+     "compute": "reign_offset = ain_year - accession_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs204_2",
+   "source_ref": "lehs204.txt panchayat sections",
+   "concept": "lehs.204.3",
+   "question_type": "short_answer",
+   "question_pattern": "List three functions of the Mughal-era village panchayat.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "justice",
+     "explain": "panchayats settled disputes within the village"
+    },
+    {
+     "step": 2,
+     "action": "levies",
+     "explain": "they collected taxes for community needs like weddings"
+    },
+    {
+     "step": 3,
+     "action": "representation",
+     "explain": "they petitioned officials on behalf of peasants"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs204_3",
+   "source_ref": "lehs204.txt zamindar sections",
+   "concept": "lehs.204.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain why zamindars were powerful intermediaries in the Mughal countryside.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "hereditary claims",
+     "explain": "zamindari passed through families and commanded local legitimacy"
+    },
+    {
+     "step": 2,
+     "action": "armed strength",
+     "explain": "forts and followers made coercion of zamindars costly"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the state had to negotiate revenue through them, sharing power"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs204_1",
+   "source_ref": "lehs204.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the value and limits of the Ain-i-Akbari",
+    "explain the zabt system of revenue assessment",
+    "discuss the role of panchayats and women in villages",
+    "compute the Ain's offset from Akbar's accession",
+    "analyse zamindari power and peasant resistance"
+   ]
+  },
+  {
+   "id": "ex_lehs204_2",
+   "source_ref": "lehs204.txt project questions, reworded",
+   "questions": [
+    "use the Ain with village records to compare ideals and practice",
+    "relate jins-i-kamil to crop assessment",
+    "trace a peasant's revenue year through the officials",
+    "assess women's economic roles in the sixteenth century",
+    "compare jagirdari crises with rural rebellions"
+   ]
+  }
+ ]
+}

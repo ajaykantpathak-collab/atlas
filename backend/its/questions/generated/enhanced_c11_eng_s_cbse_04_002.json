@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_04_002",
+   "title": "c11_eng_s_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define the five standard stages of a narrative arc (Freytag's Pyramid) and identify which stage in \"Birth\" contains Joe Morgan's arrival at Andrew's surgery.",
+     "a": "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications; (3) Climax—turning point of maximum tension; (4) Falling Action—consequences of climax unfold; (5) Resolution/Dénouement—new equilibrium established. Joe Morgan's arrival at the surgery is the **inciting incident** that ends the exposition and launches the rising action. A wrong answer (e.g., calling it \"climax\" or \"exposition\") reveals the student cannot distinguish between the inciting incident that disrupts equilibrium and the climax that resolves the central conflict.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain how the \"downstairs kitchen scenes\" (Andrew waiting, thinking about Christine, talking to the grandmother) function structurally in relation to the \"upstairs bedroom scenes\" (the labor and delivery). Why does Cronin cut away from the medical action?",
+     "a": "The downstairs scenes serve as a **structural counterpoint** that externalizes Andrew's internal conflict (his doubts about marriage, Christine, his career) while the upstairs scenes show the external medical crisis. Cronin cuts away to: (a) control pacing—stretching the temporal duration of labor without boring the reader; (b) build dramatic irony—the reader knows Andrew's distracted state while the medical emergency escalates; (c) create thematic parallel—Andrew's \"stillborn\" emotional life mirrors the child's apparent stillbirth. A wrong answer (e.g., \"to give background info\" or \"to show the setting\") reveals the student sees these as filler rather than structural architecture that makes the climax resonate on two levels simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Map the following events from \"Birth\" onto the narrative arc stages: (A) Andrew injects Susan Morgan to save her life; (B) The child gasps and cries; (C) Andrew walks home with miners at dawn thinking \"I've done something real at last\"; (D) Andrew remembers the Samaritan case and demands hot/cold water; (E) Joe Morgan waits outside the surgery at midnight.",
+     "a": "Correct mapping: (E) Exposition/Inciting Incident; (A) Rising Action (medical crisis peaks for mother); (D) Rising Action→Climax transition (Andrew recalls knowledge, initiates resuscitation); (B) **Climax** (turning point—life returns, both medical and psychological arcs pivot); (C) Resolution (new equilibrium—Andrew's professional identity validated). A wrong answer placing (A) or (D) as climax reveals the student confuses \"most dramatic action\" with \"structural turning point.\" The climax is the child's first breath because it resolves BOTH the external conflict (child's survival) AND internal conflict (Andrew's self-doubt) in one irreversible moment.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Cronin manipulates narrative time in the resuscitation sequence (from \"Fifteen minutes passed\" to \"the child's cry\"). Compare the textual pacing (sentence length, verb choice, sensory detail) to the actual clock time. What structural effect does this achieve?",
+     "a": "Cronin uses **narrative dilation**: fifteen clock minutes expand into two dense pages of moment-by-moment action (\"splashed,\" \"plunging,\" \"hurried,\" \"redoubled,\" \"gasping,\" \"turning pink\"). Short, paratactic sentences (\"Quick! Quick!\" / \"Fifteen minutes passed. Sweat was now running...\") mimic Andrew's frantic heartbeat and compress perceived time for the reader. Then, at the breakthrough (\"And then, as by a miracle...\"), sentences lengthen, verbs shift to passive/receptive (\"was enclosed,\" \"gave a short, convulsive heave\"), and sensory details turn lyrical (\"joyful iridescent bubble,\" \"exquisitely, came the child's cry\"). This creates **temporal elasticity**—the reader lives the desperation in real-time, then experiences the release in slow motion. A wrong answer focusing only on \"fast verbs = tension\" misses the structural purpose: the dilation makes the climax feel earned, not sudden.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The story's resolution (Andrew walking home at dawn) is structurally weak because it doesn't show Joe Morgan's reaction or the mother waking up.\" Defend or refute using narrative structure principles.",
+     "a": "**Refute.** The resolution is structurally precise because the narrative arc belongs to **Andrew**, not the Morgans. The story's central conflict is Andrew's professional identity crisis (\"textbook medicine vs. practicing physician\"), introduced in the exposition (his \"dull and listless\" state, \"queer lethargy of spirit\"). The climax (child's cry) resolves this: Andrew moves from theoretical knowledge to lived competence. The final walk with miners—\"spent and slow,\" \"footfalls echoing\"—mirrors the opening walk with Joe (\"walked in silence\"), creating **circular structure** that closes Andrew's arc. Showing Joe's reaction or Susan waking would shift focus from the protagonist's transformation to secondary characters' outcomes, diluting the structural unity. A wrong answer agreeing with the claim reveals the student conflates \"plot completeness\" (tying all loose ends) with \"narrative resolution\" (protagonist's arc closure).",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word alternate ending for \"Birth\" that changes the child's outcome (the child dies) but maintains the same narrative structure (five stages, parallel tension, circular return). Show how Andrew's internal arc would resolve differently.",
+     "a": "A strong answer will: (1) Keep the five-stage arc intact; (2) Preserve the parallel tension (Andrew's internal state mirroring the medical crisis); (3) End with a circular return to the opening walk but with transformed internal meaning; (4) Show Andrew's professional identity forged through **failure accepted** rather than success achieved. Example opening: \"The child did not cry. Fifteen minutes, thirty, an hour—Andrew's arms ached, the basins grew cold, and the midwife's whimper became a silence heavier than any sound.\" Example closing: \"Outside, the miners' footsteps echoed as before. But this time Andrew did not think 'I've done something real.' He thought: 'I have learned the weight of a life that cannot be saved. That, too, is medicine.'\" A poor answer (e.g., Andrew quits medicine, or Joe attacks him) breaks the structural parallel and circular return, revealing the student doesn't understand that narrative structure constrains plausible endings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_003",
+   "title": "c6_math_ch01_003",
+   "questions": [
+    {
+     "q": "What is the difference between the face value and the place value of the digit 7 in the number 4,782?",
+     "a": "The face value is 7, and the place value is 700. A wrong answer—such as saying the place value is 70—shows the student forgot that the 7 sits in the hundreds column, not the tens.",
+     "self_check": true
+    },
+    {
+     "q": "In the number 5,555, why does the digit 5 represent different amounts even though it is the same digit?",
+     "a": "Because each 5 occupies a different position (ones, tens, hundreds, thousands), which multiplies its face value by a different power of ten. A wrong answer claiming the 5s are all equal suggests the student doesn't understand that position determines value in our number system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the number 8,403 as a sum of the place values of its digits.",
+     "a": "8,000 + 400 + 0 + 3. A wrong answer like 800 + 40 + 3 indicates the student failed to account for the place values (thousands/hundreds) and treated the digits as if they were all in the lowest positions.",
+     "self_check": true
+    },
+    {
+     "q": "If you swap the thousands digit and the tens digit in 6,241, how does the place value of the digit '6' change?",
+     "a": "The '6' moves from the thousands place (value 6,000) to the tens place (value 60). An incorrect answer shows the student is confusing the movement of the digit with the actual mathematical change in its place value.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the place value of a digit to be equal to its face value? Give an example.",
+     "a": "Yes, when a digit is in the ones place, its place value equals its face value (e.g., in 4,325, the 5 is in the ones place, so 5 × 1 = 5). An incorrect answer suggests the student thinks place value must always be larger than face value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-digit number where the place value of the digit '9' is exactly 9,000. How did you decide where to place it?",
+     "a": "Any number like 9,123 works. A poor answer (like 1,923) shows the student does not understand that 'thousands' corresponds to the first position from the left in a 4-digit number.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

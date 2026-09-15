@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_004",
+   "title": "c7_math_ch11_004",
+   "questions": [
+    {
+     "q": "What is the prime factorisation of the number 72 expressed in exponential form?",
+     "a": "The correct answer is $2^3 \\times 3^2$. A student who answers $2^2 \\times 3^3$ has confused the exponents of the prime bases 2 and 3, likely by miscounting how many times 2 and 3 divide into 72 during repeated division. Another common wrong answer is $8 \\times 9$, which shows a failure to recognize that prime factorisation requires *prime* numbers only, whereas 8 and 9 are composite numbers.",
+     "self_check": true
+    },
+    {
+     "q": "When finding the HCF of two numbers using prime factorisation, why do we select the lowest power of the common prime factors rather than the highest power?",
+     "a": "The correct answer is that the HCF must be a factor of *both* numbers, meaning it can only contain prime factors that appear in both numbers, and it can only use each prime factor up to the maximum number of times it is guaranteed to divide evenly into *both* numbers. A student who chooses the highest power is confusing the rule for HCF with the rule for LCM (Lowest Common Multiple). Choosing the highest power would yield a multiple or a number too large to divide the original numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Find the HCF of 54 and 72 using the prime factorisation method. Show your prime factorisation steps clearly.",
+     "a": "The correct answer is 18. Working steps: First, find the prime factorisation of 54: $54 = 2 \\times 27 = 2 \\times 3 \\times 3 \\times 3 = 2^1 \\times 3^3$. Next, find the prime factorisation of 72: $72 = 2 \\times 36 = 2 \\times 2 \\times 18 = 2^3 \\times 3^2$. The common prime factors are 2 and 3. The lowest power of 2 is $2^1$ and the lowest power of 3 is $3^2$. Multiplying these gives $2^1 \\times 3^2 = 2 \\times 9 = 18$. A student who answers 6 or 3 has failed to take the *lowest power* of all common factors or stopped factorisation too early.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Prime Factorisation Method and the Listing Factors Method for finding the HCF of 360 and 420. Which method is more efficient and why?",
+     "a": "The Prime Factorisation Method is significantly more efficient. Listing all factors of large numbers like 360 and 420 is tedious, prone to human error, and easy to miss pairs of factors. Prime factorisation breaks each number down systematically using divisibility rules, allowing us to find the common factors cleanly through index notation. A student who claims listing is better likely struggles with division rules or lacks confidence in handling exponents.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated the HCF of 48 and 60 as follows: $48 = 2^4 \\times 3^1$ and $60 = 2^2 \\times 3^1 \\times 5^1$. The student then stated that the HCF is $2^4 \\times 3^1 \\times 5^1 = 240$. Evaluate this solution and identify the exact error made.",
+     "a": "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF. The student made two major errors: first, they picked the *highest* powers ($2^4$) instead of the lowest powers ($2^2$) for the common prime factors; second, they included the non-common factor 5, which belongs to the calculation of LCM, not HCF. The correct HCF is $2^2 \\times 3^1 = 12$. A student who agrees with the student's work does not understand the fundamental difference between the purpose of HCF (divisors) and LCM (multiples).",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers between 50 and 100 whose HCF calculated by prime factorisation is exactly 14. Show the prime factorisation of your chosen numbers to prove your work.",
+     "a": "An example of valid numbers is 70 and 84. Proof: $70 = 2^1 \\times 5^1 \\times 7^1$ and $84 = 2^2 \\times 3^1 \\times 7^1$. The common prime factors are 2 and 7, with lowest powers $2^1$ and $7^1$. Their product is $2 \\times 7 = 14$. Both numbers (70 and 84) lie between 50 and 100. A poor answer would choose numbers outside the range or numbers whose prime factorisation does not yield an HCF of 14 (e.g., sharing other common factors that inflate the HCF).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

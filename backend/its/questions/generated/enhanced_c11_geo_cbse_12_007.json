@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_007",
+   "title": "c11_geo_cbse_12_007",
+   "questions": [
+    {
+     "q": "Define laterisation and state the specific climatic conditions (temperature and rainfall range) required for laterite soil formation in India.",
+     "a": "Laterisation is the pedogenic process of intense chemical weathering under high temperature (mean annual >22°C) and heavy rainfall (2000-3000 mm) with distinct wet-dry seasons, causing leaching of silica and bases (Ca, Mg, K, Na) and residual accumulation of iron/aluminium oxides. A wrong answer (e.g., \"forms in low rainfall\" or \"accumulates humus\") reveals confusion with black soils or forest soils, indicating the student hasn't grasped the leaching-accumulation mechanism unique to laterites.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why laterite soils are acidic and nutrient-poor despite forming in regions with dense vegetation and high organic matter input.",
+     "a": "High rainfall causes rapid decomposition and leaching of organic acids and bases; the intense leaching removes exchangeable cations (Ca²⁺, Mg²⁺, K⁺) leaving H⁺ and Al³⁺ on exchange sites, lowering pH to 4.5-5.5. A wrong answer (e.g., \"vegetation makes soil fertile\") reveals the misconception that high biomass automatically means high soil fertility, ignoring the open nutrient cycling and leaching losses in tropical environments.",
+     "self_check": true
+    },
+    {
+     "q": "A soil sample from the Western Ghats shows: pH 5.0, 65% Fe₂O₃+Al₂O₃, 12% SiO₂, CEC 8 cmol(+)/kg, base saturation 15%. Using the silica-sesquioxide ratio (SiO₂/Fe₂O₃+Al₂O₃), determine if this is a laterite soil and justify.",
+     "a": "Step 1: Calculate silica-sesquioxide ratio = 12 / 65 = 0.185. Step 2: Laterite soils have ratio < 1.33 (often < 0.5 for true laterites). Step 3: Low CEC (<15) and low base saturation (<35%) confirm advanced weathering. Step 4: pH 5.0 matches laterite acidity. Conclusion: Yes, this is a laterite soil. A wrong calculation or ignoring ratio threshold reveals inability to apply quantitative pedological criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare laterite soils of the Western Ghats and Meghalaya plateau — both receive >2500 mm rainfall, yet Meghalaya laterites are deeper and more dissected. Analyze the role of topography and parent rock in this difference.",
+     "a": "Western Ghats: steep slopes → rapid runoff → truncated profiles, younger laterites on basalt. Meghalaya: undulating plateau on ancient gneiss/schist → slower erosion → deep, mature profiles with pronounced ironstone crust. A wrong answer attributing difference only to rainfall reveals failure to integrate relief, parent material, and time as soil-forming factors (Jenny's state factor equation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Laterite soils are agriculturally useless without heavy chemical inputs.\" Consider crop suitability, indigenous management, and long-term sustainability.",
+     "a": "The statement is partially true but incomplete. Laterites support plantation crops (tea, coffee, rubber, cashew, coconut) with acid-tolerant root systems. Indigenous practices: terracing, mulching, green manuring, agroforestry maintain productivity. Heavy chemical inputs cause further acidification and Al toxicity. Sustainable management uses lime, rock phosphate, organic matter, and crop selection — not just NPK. A wrong evaluation ignoring traditional systems reveals a purely industrial agriculture bias.",
+     "self_check": true
+    },
+    {
+     "q": "Design a soil conservation plan for a laterite hill slope in Kodagu district (Karnataka) converting degraded land to sustainable coffee agroforestry. Include slope management, nutrient strategy, and biodiversity elements.",
+     "a": "Good answer includes: (1) Contour trenches + vetiver grass hedges for erosion control on 15-25% slopes. (2) Shade trees (Grevillea, Erythrina) for litter recycling, N-fixation, microclimate moderation. (3) Lime application (2 t/ha) to raise pH, rock phosphate for P, composted coffee pulp for organic matter. (4) Intercrop with pepper, banana, arecanut for diversity. (5) Monitor soil pH, organic C, exchangeable Al annually. Poor answer focuses only on fertilizers or ignores slope processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

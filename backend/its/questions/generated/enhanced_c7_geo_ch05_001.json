@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch05_001",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch05_001",
+   "title": "c7_geo_ch05_001",
+   "questions": [
+    {
+     "q": "What is the primary physical feature that separates India from its northern land neighbours like China?",
+     "a": "The correct answer is the Himalayan mountain range. A wrong answer—such as naming a river or an ocean—reveals a confusion between northern mountain boundaries and southern maritime boundaries or major river systems.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a country separated by an ocean, like Sri Lanka, still considered a geographical neighbour to India?",
+     "a": "Sri Lanka is considered a neighbour because of close regional proximity across a narrow stretch of water (the Palk Strait) and shared maritime and climatic zones in the Indian Ocean. A wrong answer—stating that only countries sharing land walls are neighbours—shows a misunderstanding that geographic proximity includes maritime spaces, not just land borders.",
+     "self_check": true
+    },
+    {
+     "q": "If Country X shares a land boundary of 3,323 km with western India and features desert terrain on one end and mountainous terrain on the other, which neighbouring country is being described?",
+     "a": "The correct answer is Pakistan. Working steps: 1) Identify the western location and the specific land boundary length (3323 km); 2) Note the terrain description combining the Thar Desert region and northern mountainous stretches; 3) Match these geographic clues with India's western neighbours. A wrong answer—such as Bangladesh—indicates confusion between India's western desert-bordering neighbour and its eastern river-delta-bordering neighbour.",
+     "self_check": true
+    },
+    {
+     "q": "How do shared physical features like river basins influence the relationship between India and its land neighbours?",
+     "a": "Shared river basins mean that water flow, floods, and silt deposition affect both countries across the border, requiring mutual understanding of physical systems. A wrong answer—claiming physical features have no impact on neighbours—ignores the reality that rivers, monsoons, and mountains do not stop at political boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Only countries that share a continuous land border can be considered true geographical neighbours.\" Is this accurate for understanding South Asia?",
+     "a": "This statement is inaccurate because maritime neighbours like Sri Lanka and the Maldives share close economic, cultural, and oceanographic ties with India despite being separated by water. A wrong answer accepting the statement blindly fails to account for maritime geography and the role of the Indian Ocean in regional connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification rule to categorize India's neighbours into two distinct groups based on physical geography. What criteria would you use?",
+     "a": "A good answer proposes two categories: 'Land-Bordered Neighbours' (sharing continuous terrestrial boundaries across mountains, plains, or deserts) and 'Maritime Neighbours' (separated by seas or ocean channels but sharing regional proximity). A poor answer lists countries randomly without any physical or geographical criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

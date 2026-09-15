@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_010",
+   "title": "c10_math_cbse_14_010",
+   "questions": [
+    {
+     "q": "What is the sample space when two fair coins are tossed simultaneously? List all outcomes.",
+     "a": "The sample space is {HH, HT, TH, TT} with 4 equally likely outcomes. A wrong answer like {HH, HT, TT} (only 3 outcomes) reveals the student treats HT and TH as the same outcome, not understanding that the two coins are distinct — even if identical in appearance, the first coin showing H and second T is different from first T and second H. This is the most common Class 10 board exam error in coin problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the probability of getting \"at least one head\" when two coins are tossed is 3/4, not 2/3.",
+     "a": "\"At least one head\" means {HH, HT, TH} — 3 favourable outcomes out of 4 total equally likely outcomes, giving 3/4. A student answering 2/3 incorrectly uses a sample space of {HH, HT, TT} (3 outcomes) where HT and TH are merged, then counts {HH, HT} as 2 favourable. This reveals the fundamental misconception: not recognising that the two coins produce ordered pairs. The denominator must be 4, not 3.",
+     "self_check": true
+    },
+    {
+     "q": "Two fair coins are tossed. Find the probability of getting: (i) exactly one head, (ii) at most one tail, (iii) no head.",
+     "a": "Sample space S = {HH, HT, TH, TT}, n(S) = 4.\n(i) Exactly one head: {HT, TH} → 2 outcomes → P = 2/4 = 1/2.\n(ii) At most one tail: means 0 or 1 tail → {HH, HT, TH} → 3 outcomes → P = 3/4.\n(iii) No head: means both tails → {TT} → 1 outcome → P = 1/4.\nA wrong answer for (ii) as 1/2 reveals confusion between \"at most one tail\" and \"exactly one tail\". \"At most one tail\" includes HH (0 tails), while \"exactly one tail\" is only {HT, TH}.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When two coins are tossed, there are only 3 possible results: 2 heads, 2 tails, or 1 head and 1 tail. So the probability of 1 head and 1 tail is 1/3.\" Analyse this reasoning and identify the flaw.",
+     "a": "The student's sample space {2H, 2T, 1H1T} treats outcomes as unordered, but these three outcomes are NOT equally likely. The outcome \"1 head and 1 tail\" actually consists of two distinct ordered outcomes (HT and TH), making it twice as likely as 2H or 2T. The correct probability is 2/4 = 1/2, not 1/3. This reveals the student doesn't understand that equally likely outcomes require distinguishing the coins (or tosses). Board exams often test this exact reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "In a game, you toss two coins. You win ₹10 if you get exactly one head, lose ₹5 if you get two heads, and nothing happens for two tails. Is this game fair? Justify your answer mathematically.",
+     "a": "Sample space: {HH, HT, TH, TT}, each with probability 1/4.\nWin ₹10 for exactly one head (HT, TH): probability = 2/4 = 1/2.\nLose ₹5 for two heads (HH): probability = 1/4.\nNo change for two tails (TT): probability = 1/4.\nExpected value = (10 × 1/2) + (−5 × 1/4) + (0 × 1/4) = 5 − 1.25 + 0 = ₹3.75.\nSince expected value ≠ 0, the game is NOT fair — it favours the player. A student saying \"fair because win and lose amounts are different\" reveals inability to compute expected value using probabilities. Board exams test expected value in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving two coin tosses where the probability of the event is 1/2. The problem must use the phrase \"at least\" or \"at most\" and be set in a real Indian context (e.g., a mela, cricket toss, family decision).",
+     "a": "Example: \"At a Diwali mela in Jaipur, a game stall lets you toss two coins. You win a ₹20 coupon if you get at most one head. What is the probability of winning the coupon?\"\nSample space: {HH, HT, TH, TT}. \"At most one head\" = {HT, TH, TT} → 3 outcomes → P = 3/4 (not 1/2).\nA correct problem for 1/2: \"You win if you get exactly one head\" or \"at least one tail\" (both give 2/4 = 1/2). A student creating a problem with probability 3/4 or 1/4 reveals they cannot map phrases to outcome counts. This tests deep understanding of \"at least/at most\" language.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

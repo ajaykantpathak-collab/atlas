@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_002",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_002",
+   "title": "c7_geo_ch03_002",
+   "questions": [
+    {
+     "q": "Which Indian season is generally associated with the months of March to May, characterized by very high temperatures and low pressure over the northern plains?",
+     "a": "The correct answer is Summer (or Pre-Monsoon / Hot Weather Season). A student who answers \"Winter\" or \"Monsoon\" likely confuses the calendar months or associates high temperatures with the rainy season due to high humidity. Reviewing the annual calendar of Indian seasons and monthly temperature graphs will help clarify this distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the southern part of India (such as Tamil Nadu or Kerala) experience milder winter temperatures compared to northern India (such as Punjab or Jammu & Kashmir)?",
+     "a": "Southern India is closer to the Equator and surrounded by the warm waters of the Indian Ocean, which moderates temperatures throughout the year, whereas northern India is farther north and closer to continental landmasses that cool down rapidly. A student who answers that northern India is colder simply because it has higher rainfall misses the crucial role of latitude and maritime influence in temperature distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in central India is planning to harvest rabi crops and prepare fields while experiencing pleasant, moderately warm days and cooling nights in February/March. Which transition season does this describe?",
+     "a": "Steps:\n1. Identify the months (February to March).\n2. Note the weather conditions (pleasant, moderately warm days, cooling nights, blooming flowers).\n3. Connect these traits to the transition period between winter and summer.\n4. Conclude that this is Spring (Vasant).\nA student who selects \"Autumn\" confuses the two transition seasons (spring versus post-monsoon/autumn), ignoring the preceding winter cold and the approaching summer heat.",
+     "self_check": true
+    },
+    {
+     "q": "How do the shifting wind directions between January and July alter the moisture levels and rainfall patterns across the Indian peninsula?",
+     "a": "In January (winter), offshore northeast winds blow from land to sea, carrying very little moisture, resulting in dry conditions across most of India. In July (monsoon), onshore southwest winds blow from the warm ocean to the land, picking up massive amounts of moisture and dropping heavy rainfall as they encounter mountain barriers. A student who thinks winds blow in the same direction year-round fails to understand how seasonal pressure differences reverse wind paths.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether it is correct to say that all parts of India experience the exact same weather conditions during the winter season. Justify your answer using geographical reasoning.",
+     "a": "This statement is incorrect. While northern India experiences cold winters with frost and snowfall in the mountains (like Himachal Pradesh), southern India experiences mild, frost-free winters with warm daytime temperatures. This regional variation occurs because of differences in latitude, altitude, and distance from the sea. A student who agrees that all of India has the same winter overlooks India's immense latitudinal spread and physical diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple 12-month calendar for a school weather station in central India, dividing the year into India's five major seasons with their corresponding months and main atmospheric characteristic for each.",
+     "a": "A complete answer must list: Winter (Dec-Feb, cold/dry), Spring (Mar-Apr, pleasant/blooming), Summer (May-Jun, hot/low pressure), Monsoon (Jul-Sep, wet/southwest winds), and Autumn/Post-Monsoon (Oct-Nov, retreating monsoon/clear skies). A poor answer misses one or more seasons, mixes up the months, or describes weather features that contradict the known climatic cycle of India.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

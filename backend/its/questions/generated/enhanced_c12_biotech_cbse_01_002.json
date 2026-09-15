@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_002",
+   "title": "c12_biotech_cbse_01_002",
+   "questions": [
+    {
+     "q": "Name two E. coli strains commonly used for routine cloning and state one key genotype feature each that makes them suitable.",
+     "a": "DH5α (genotype: recA1, endA1, hsdR17, lacZΔM15) — recA1 prevents plasmid rearrangement; HB101 (recA13, hsdR20, lacY1) — hsdR20 disables restriction for better transformation. A wrong answer (e.g., naming BL21 for routine cloning) reveals the student confuses expression strains (DE3 lysogen) with cloning strains, or cannot link genotype markers to their phenotypic benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the hsdR mutation is critical when transforming E. coli with plasmid DNA isolated from a different bacterial species.",
+     "a": "hsdR encodes the restriction subunit of the type I restriction-modification system; an hsdR mutation (e.g., hsdR17) makes the strain restriction-deficient (r⁻) but modification-proficient (m⁺), so incoming unmethylated foreign plasmid DNA is not recognized as \"non-self\" and degraded. A wrong answer (e.g., \"hsdR increases transformation efficiency by making cells competent\") shows the student conflates restriction deficiency with chemical competence, missing the molecular mechanism of host restriction.",
+     "self_check": true
+    },
+    {
+     "q": "You have a high-copy plasmid (pUC19 derivative) that gives poor yield in HB101 but excellent yield in DH5α. Both strains are recA⁻ and hsdR⁻. Propose the most likely genotypic difference responsible and justify.",
+     "a": "DH5α carries endA1 (endonuclease I deficiency) while HB101 is endA⁺. Endonuclease I degrades plasmid DNA during alkaline lysis prep, reducing yield. The student must identify endA as the differentiating marker and explain its role in plasmid purification. A wrong answer (e.g., blaming lacZ or recA) indicates failure to connect endA to plasmid quality during miniprep.",
+     "self_check": true
+    },
+    {
+     "q": "Compare DH5α and BL21(DE3) for two distinct cloning scenarios: (a) propagating a recombinant plasmid for sequencing, (b) expressing a toxic protein under T7 promoter. Which strain for which scenario, and why?",
+     "a": "(a) DH5α — recA1 ensures plasmid stability, endA1 gives clean DNA, lacZΔM15 allows blue-white screening. (b) BL21(DE3) — carries λ DE3 lysogen (T7 RNA polymerase under lacUV5), lacks lon and ompT proteases for protein stability, but is recA⁺ and endA⁺ so plasmid may rearrange/degrade. A wrong assignment (e.g., using BL21 for plasmid prep) shows inability to distinguish cloning vs. expression strain design.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since JM109 and DH5α both have recA1 and lacZΔM15, they are interchangeable for all cloning purposes.\" Evaluate this claim with two specific counterexamples.",
+     "a": "Claim is false. (1) JM109 is endA⁺ (has endonuclease I) while DH5α is endA1 — plasmid preps from JM109 may be sheared. (2) JM109 is hsdR⁺ (restriction-proficient) while DH5α is hsdR17 — transformation of unmethylated DNA (e.g., from PCR or eukaryotic source) will be inefficient in JM109. A weak evaluation that only mentions \"they are similar\" misses these critical functional differences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a genotype for a custom E. coli strain optimized for cloning AT-rich, unstable inserts from a eukaryotic genome. List five mutations you would include and the specific problem each solves.",
+     "a": "Example answer: recA1 (prevents recombination of repetitive AT-rich sequences), endA1 (clean plasmid yield), hsdR17 (accepts unmethylated eukaryotic DNA), gyrA96 (nalidixic acid resistance for counter-selection), and lacZΔM15 (blue-white screening). Additional valid mutations: mcrA/mcrBC/mrr (for methylated DNA), tonA (phage T1 resistance). A poor answer lists random markers without linking each to AT-rich/eukaryotic DNA challenges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

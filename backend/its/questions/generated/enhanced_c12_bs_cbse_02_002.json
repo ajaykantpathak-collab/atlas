@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_002",
+   "title": "c12_bs_cbse_02_002",
+   "questions": [
+    {
+     "q": "State Taylor's definition of Scientific Management as \"knowing exactly what you want men to do and seeing that they do it in the best and cheapest way.\" What are the two key elements embedded in this definition?",
+     "a": "The two key elements are: (1) **Standardization of work** — \"knowing exactly what you want men to do\" implies scientifically determining the one best method, and (2) **Efficiency optimization** — \"best and cheapest way\" implies maximizing output while minimizing cost and waste. A wrong answer that only mentions \"telling workers what to do\" misses the scientific determination of the *best* method and the dual focus on quality and cost. This reveals the student views scientific management as mere authoritarian instruction rather than a systematic efficiency science.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager says: \"I've implemented Taylor's principle of 'Science not Rule of Thumb' because I've written detailed standard operating procedures (SOPs) for every task.\" Explain why this statement reveals a misunderstanding of the principle.",
+     "a": "Writing SOPs alone is **not** \"Science not Rule of Thumb\" if those SOPs are based on the manager's own experience or traditional methods rather than on systematic work study (time, motion, fatigue, method studies). Taylor's principle requires that the \"one best way\" be **discovered through scientific investigation** — breaking down tasks, measuring elements, eliminating unnecessary motions, and validating the standard through experimentation. The manager has merely codified existing rule-of-thumb practices. This misconception confuses *documentation* with *scientific derivation*.",
+     "self_check": true
+    },
+    {
+     "q": "In a textile mill, workers resist a new scientifically determined weaving method because they fear it will lead to job losses. Management responds by imposing the method without consultation. Which **two** of Taylor's principles are being violated, and what specific outcome does Taylor predict will result from this violation?",
+     "a": "The violated principles are: (1) **Harmony, Not Discord** — management and workers are in conflict rather than recognizing their shared interest in prosperity, and (2) **Cooperation, Not Individualism** — management acts unilaterally instead of involving workers in the change process. Taylor predicts that without mental revolution on both sides, the result will be **restricted output, strikes, and failure to achieve the potential productivity gains** — because workers will not willingly adopt methods they perceive as threatening, and management will not share gains fairly. A wrong answer citing only \"Science not Rule of Thumb\" misses the behavioral core of Taylor's philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Taylor's principle of \"Development of Each Person to Greatest Efficiency and Prosperity\" with the traditional practice of hiring workers for specific tasks without considering their aptitude. Use the concept of **scientific selection** and **training** to explain how Taylor's approach changes the employer-employee relationship.",
+     "a": "Traditional practice: Workers are hired based on availability or connections; training is minimal or on-the-job imitation; efficiency is left to chance. Taylor's principle: Workers are **scientifically selected** for physical, mental, and intellectual fit with the task; then **systematically trained** in the scientifically determined best method. This transforms the relationship from **adversarial** (employer extracts effort, worker resists) to **investment-based** (employer invests in worker's capability, worker delivers higher output, both share prosperity). A weak answer describes training but omits scientific selection, missing Taylor's insistence that the *right person* must be matched to the *right job* before training begins.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Taylor's Mental Revolution is just a fancy term for making workers accept management's decisions without question.\" Evaluate this using Taylor's own words on \"sharing gains\" and \"prosperity for employer cannot exist without prosperity for employees.\"",
+     "a": "The statement is **false** and reflects a common misreading. Taylor's Mental Revolution requires **both** sides to change: management must **share productivity gains** (higher wages, better conditions) and workers must **embrace change and cooperate**. Taylor explicitly states: \"prosperity for the employer cannot exist for a long time unless it is accompanied by prosperity for the employees and vice versa.\" The revolution is **mutual**, not unilateral submission. A student who agrees with the statement confuses scientific management with exploitative Taylorism (a later distortion) and misses the reciprocal obligation at the heart of Taylor's philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step \"Mental Revolution\" intervention for a family-owned packaging business where the owner makes all decisions, workers follow instructions mechanically, and both sides distrust each other. Your intervention must explicitly reference Taylor's four principles.",
+     "a": "**Step 1 (Science not Rule of Thumb):** Conduct joint time-motion study with owner and senior workers to establish the \"one best way\" for the top 3 packaging tasks — replacing owner's intuition with data.  \n**Step 2 (Harmony & Cooperation):** Create a gain-sharing agreement: 50% of measured productivity increase goes to worker bonuses, 50% to business reinvestment — signed by owner and worker representatives.  \n**Step 3 (Development of Each Person):** Scientifically assess each worker's aptitude for specific tasks (dexterity, speed, attention), reassign accordingly, and provide certified training in the new standard methods.  \nA poor answer lists generic \"training\" or \"meetings\" without linking each step to a specific Taylor principle and without the **mutual gain-sharing** mechanism that makes the revolution credible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_010",
+   "title": "c12_biotech_cbse_08_010",
+   "questions": [
+    {
+     "q": "A student is asked: \"What is the primary purpose of using roller bottles in animal cell culture scale-up?\" The student answers: \"To increase the volume of culture medium for suspension cells.\" Is this answer correct? Explain why or why not in 2-3 sentences.",
+     "a": "No, the answer is incorrect. Roller bottles are designed for **anchorage-dependent (adherent) cells**, not suspension cells. They increase the *surface area* for cell attachment by rotating cylindrical bottles so that a thin film of medium periodically covers the cell monolayer, providing both nutrients and gas exchange. Suspension cells do not require a surface and are scaled up directly in stirred-tank or airlift bioreactors. A wrong answer reveals confusion between surface-area-limited adherent culture and volume-limited suspension culture.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why microcarriers allow adherent cells to be cultured in a stirred-tank bioreactor, and identify the critical physical property of microcarriers that must be matched to the cell type.",
+     "a": "Microcarriers are small (100–300 µm), solid or porous beads that provide a **high surface-area-to-volume ratio** for adherent cells to attach, converting a surface-limited process into a suspension-like process compatible with bioreactors. The critical physical property is **surface chemistry/charge** (e.g., dextran-based Cytodex 1 is positively charged for electrostatic attachment; collagen-coated for integrin-mediated binding), which must match the cell's adhesion mechanism. A poor answer would mention only \"size\" or \"porosity\" without linking surface chemistry to specific integrin/ECM interactions — a common error because students memorise \"microcarriers = beads\" without understanding the biointerface.",
+     "self_check": true
+    },
+    {
+     "q": "A process engineer is scaling up a Vero cell vaccine process from a 10 L stirred-tank bioreactor (impeller diameter 5 cm, speed 60 rpm) to a 2,000 L production bioreactor (impeller diameter 50 cm). To maintain similar shear environment for these shear-sensitive adherent cells on microcarriers, which scale-up criterion should be kept constant: (a) Impeller tip speed, (b) Power per unit volume, (c) Reynolds number, or (d) Mixing time? Calculate the required impeller speed (rpm) for the 2,000 L vessel using the correct criterion.",
+     "a": "Correct criterion: **(a) Impeller tip speed (v_tip = π × D × N)**. For shear-sensitive animal cells on microcarriers, tip speed is the primary correlate of hydrodynamic shear stress at the microcarrier surface. Keeping it constant ensures comparable cell damage risk.  \nCalculation:  \nv_tip,10L = π × 0.05 m × (60/60) s⁻¹ = 0.157 m/s  \nRequired N_2000L = v_tip / (π × D) = 0.157 / (π × 0.50) = 0.10 s⁻¹ = **6 rpm**.  \nA wrong choice of (b) power/volume would give ~23 rpm (excessive shear); (c) Reynolds number is irrelevant in turbulent regime; (d) mixing time increases with scale and cannot be held constant. This tests whether the student distinguishes *shear-sensitive* scale-up (tip speed) from *microbial* scale-up (P/V).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast roller bottles and microcarrier-based bioreactors for producing a monoclonal antibody from an anchorage-dependent CHO cell line. Analyse across these dimensions: (i) Surface-area-to-volume ratio, (ii) Process monitoring and control capability, (iii) Scalability to 10,000 L, (iv) Risk of cross-contamination between batches. Present as a structured comparison table in your mind, then state which system you would choose for a **GMP-compliant commercial facility** and justify in 3 sentences.",
+     "a": "**Comparison**:  \n| Dimension | Roller Bottles | Microcarrier Bioreactor |  \n|---|---|---|  \n| SA:V ratio | Low (~1–2 cm²/mL) | High (~30–50 cm²/mL for 3 g/L Cytodex) |  \n| Monitoring/control | Minimal (pH, temp only via incubator) | Full (pH, DO, pCO₂, feed, perfusion) |  \n| Scalability to 10k L | Impractical (thousands of bottles) | Direct (single vessel, proven to 20k L) |  \n| Cross-contamination risk | High (manual handling, many vessels) | Low (closed, automated system) |  \n\n**Choice for GMP facility**: **Microcarrier bioreactor**. It offers superior process control (critical for product quality consistency), linear scalability via established engineering correlations, and closed-system operation meeting GMP aseptic requirements. Roller bottles are relegated to early-phase or low-volume products due to labour intensity and variability. A weak answer would choose roller bottles citing \"simplicity\" without addressing GMP or scalability — a classic exam trap where students confuse *lab convenience* with *commercial viability*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement from a biotech startup's process development report: *\"We will scale our adherent HEK293 viral vector process from 50 L to 2,000 L using a packed-bed bioreactor because it provides the highest cell density and eliminates shear stress entirely, so no process optimisation is needed.\"* Identify three specific technical flaws in this reasoning.",
+     "a": "**Three flaws**:  \n1. **\"Eliminates shear stress entirely\"** — False. Packed-bed bioreactors (e.g., Fibra-Cel, iCELLis) reduce *impeller* shear but introduce **fluid shear in interstitial channels** and **pressure-driven flow heterogeneity**; cells at the bed inlet experience higher shear and nutrient gradients.  \n2. **\"Highest cell density\"** — Misleading. While packed beds achieve high *local* density (10⁸–10⁹ cells/mL bed), **volumetric productivity** is often lower than microcarrier perfusion due to diffusion limitations (oxygen, nutrients) in the core of the bed, leading to necrotic zones.  \n3. **\"No process optimisation needed\"** — Dangerous assumption. Scale-up of packed beds requires optimising **bed height, flow rate, perfusion rate, and harvest strategy**; oxygen limitation and pH gradients worsen with bed height. No bioreactor is \"plug-and-play\" at 2,000 L.  \nA poor critique would only mention \"cost\" or \"validation\" without addressing the *biophysical* misconceptions — the statement reflects a fundamental misunderstanding of transport phenomena in porous matrices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scale-up strategy for a *new* anchorage-dependent human cell line (doubling time 24 h, strict serum-free requirement, shear-sensitive) from a 2 L shake flask (working volume 0.5 L, 100 cm² surface area) to a 500 L clinical manufacturing run. Specify: (i) The intermediate scale-up steps with vessel types, (ii) The key process parameter you will hold constant at each step, (iii) One critical quality attribute (CQA) you will monitor to confirm comparability, and (iv) Why you would *not* choose roller bottles as the primary platform.",
+     "a": "**Strategy**:  \n(i) **Steps**: 2 L shake flask (adherent on coated surface) → 50 L single-use stirred-tank with microcarriers (Cytodex 1, 3 g/L) → 500 L stainless-steel stirred-tank with same microcarriers (perfusion mode).  \n(ii) **Constant parameter**: **Impeller tip speed** (0.03–0.05 m/s for shear-sensitive lines) at each step; microcarrier concentration (3 g/L) and cell-to-bead ratio maintained.  \n(iii) **CQA**: **Glycosylation profile of the product** (e.g., galactosylation, sialylation) — sensitive to pH, DO, and nutrient gradients that change with scale; more discriminating than viability or titer.  \n(iv) **Why not roller bottles**: Serum-free media often reduce cell adhesion robustness; roller bottles lack **real-time DO/pH control** and **perfusion capability** needed for high-density serum-free culture. Manual handling of 5,000+ bottles for 500 L introduces unacceptable contamination risk and batch variability for clinical material.  \nA poor design would skip the 50 L step (insufficient engineering data), hold P/V constant (wrong for shear-sensitive cells), or monitor only viability (insensitive to product quality shifts).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

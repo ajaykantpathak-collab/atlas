@@ -1,0 +1,424 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 105,
+ "chapter_title": "Minerals and Energy Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess105.txt",
+ "concepts": [
+  {
+   "id": "jess.105.1.1",
+   "title": "Definition and Physical Characteristics of Minerals",
+   "section": "What is a mineral?",
+   "definition": "A mineral is an inorganic, naturally occurring compound possessing a distinct chemical composition and an ordered internal atomic structure.",
+   "formula": "none",
+   "key_idea": "Minerals are natural elements or compounds whose physical properties depend on their chemical and structural setup.",
+   "textbook_ref": "jess105.txt lines 40-75",
+   "question_patterns": [
+    "What is the geological definition of a mineral?",
+    "Explain how physical and chemical environments determine mineral properties.",
+    "Differentiate between rocks and minerals with suitable examples.",
+    "How do geologists and geographers differ in their study of minerals?",
+    "Identify the primary properties utilized by geologists to classify mineral species."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define mineral",
+     "explain": "State that a mineral is a naturally occurring homogeneous substance with a definable atomic structure."
+    },
+    {
+     "step": 2,
+     "action": "describe property variation",
+     "explain": "Explain that physical conditions of formation dictate crystal shape, color, lustre, and hardness."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.1.2",
+   "title": "Modes of Occurrence of Mineral Ores",
+   "section": "MODE OF OCCURRENCE OF MINERALS",
+   "definition": "Mineral accumulations occur in varied geological formations such as igneous veins, sedimentary beds, residual weathered crusts, placer deposits, and oceanic waters.",
+   "formula": "none",
+   "key_idea": "The structural environment of mineral ores determines the ease and economic feasibility of extraction.",
+   "textbook_ref": "jess105.txt lines 80-145",
+   "question_patterns": [
+    "Describe the major forms in which minerals occur in the earth's crust.",
+    "What is the difference between veins and lodes in igneous and metamorphic rocks?",
+    "How are sedimentary minerals formed in horizontal strata?",
+    "Explain what placer deposits are and name minerals found in them.",
+    "Explain the process of residual rock decomposition leading to bauxite formation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify rock formation mode",
+     "explain": "Classify occurrences into veins or lodes, sedimentary layers, residual weathering, placers, or ocean beds."
+    },
+    {
+     "step": 2,
+     "action": "verify mechanism",
+     "explain": "Relate igneous cooling to veins, evaporation or deposition to strata, and alluvial transport to placers."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.2.1",
+   "title": "Ferrous Minerals: Iron Ore Reserves and Belts",
+   "section": "Ferrous Minerals",
+   "definition": "Ferrous minerals contain iron and form the basis of metallurgical industries, with iron ore existing primarily as high-grade magnetite and industrial hematite.",
+   "formula": "none",
+   "key_idea": "Magnetite offers superior magnetic quality with up to 70 percent iron content while hematite serves as the principal industrial ore.",
+   "textbook_ref": "jess105.txt lines 150-220",
+   "question_patterns": [
+    "Differentiate between magnetite and hematite iron ores.",
+    "Describe the major iron ore belts located across India.",
+    "Which port exports iron ore mined from the Bailadila range?",
+    "How is iron ore transported from the Kudremukh mines to the port?",
+    "State the key geographical features of the Odisha-Jharkhand iron ore belt."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify ore type",
+     "explain": "Distinguish between magnetite (up to 70 percent iron) and hematite (50 to 60 percent iron)."
+    },
+    {
+     "step": 2,
+     "action": "locate geographic belts",
+     "explain": "Map occurrences across Odisha-Jharkhand, Durg-Bastar-Chandrapur, Ballari-Chikkamagaluru, and Maharashtra-Goa."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.2.2",
+   "title": "Manganese Requirement in Steel Production",
+   "section": "Manganese",
+   "definition": "Manganese is a vital alloying element used to manufacture steel and ferro-manganese alloys, requiring approximately 10 kilograms of manganese per metric tonne of steel produced.",
+   "formula": "manganese_kg = steel_tonnes * 10",
+   "key_idea": "Every metric tonne of steel requires ten kilograms of manganese as an essential additive.",
+   "textbook_ref": "jess105.txt lines 210-235",
+   "question_patterns": [
+    "calculate the amount of manganese required to produce steel",
+    "find the quantity of manganese needed for manufacturing given tonnes of steel",
+    "how much manganese is required to manufacture a specific amount of steel",
+    "compute the total manganese in kilograms needed for steel smelting",
+    "what is the manganese requirement for producing steel"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply steel tonnage by rate constant",
+     "explain": "Each tonne of steel demands 10 kg of manganese.",
+     "compute": "manganese_kg = steel_tonnes * 10"
+    }
+   ]
+  },
+  {
+   "id": "jess.105.3.1",
+   "title": "Non-Ferrous Minerals: Copper and Bauxite",
+   "section": "Non-Ferrous Minerals",
+   "definition": "Non-ferrous minerals lack iron content and encompass critical industrial metals like copper for electrical transmission and bauxite for lightweight aluminium extraction.",
+   "formula": "none",
+   "key_idea": "Copper provides electrical ductility while bauxite yields light and strong aluminium via alumina refinement.",
+   "textbook_ref": "jess105.txt lines 240-300",
+   "question_patterns": [
+    "Why is copper indispensable in the electrical and electronics sector?",
+    "Name the leading copper-producing belts and mines in India.",
+    "How is aluminium extracted from bauxite ore?",
+    "Which state is the largest producer of bauxite in India?",
+    "Highlight the primary characteristics that make aluminium economically vital."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify metal properties",
+     "explain": "Note copper's high conductivity and ductility, and aluminium's strength combined with extreme lightness."
+    },
+    {
+     "step": 2,
+     "action": "identify spatial distribution",
+     "explain": "List Balaghat, Khetri, and Singhbhum for copper, and Odisha's Panchpatmali deposits for bauxite."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.4.1",
+   "title": "Non-Metallic and Rock Minerals: Mica and Limestone",
+   "section": "Rock Minerals / Non-Metallic Minerals",
+   "definition": "Non-metallic minerals like sheet-forming mica provide electrical insulation, while rock minerals like carbonate-rich limestone serve as raw materials for cement and metallurgical smelting.",
+   "formula": "none",
+   "key_idea": "Mica exhibits high dielectric insulation, and limestone is essential for cement manufacturing and iron smelting.",
+   "textbook_ref": "jess105.txt lines 305-360",
+   "question_patterns": [
+    "Why is mica considered an indispensable mineral in electrical industries?",
+    "List the prominent mica producing regions across India.",
+    "What are the essential commercial uses of limestone?",
+    "Describe the geological occurrence of limestone in sedimentary rocks.",
+    "Which mineral splits into ultra-thin sheets and withstands high electrical voltage?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze mica properties",
+     "explain": "Highlight mica's low power loss factor, high dielectric strength, and sheet structure."
+    },
+    {
+     "step": 2,
+     "action": "analyze limestone role",
+     "explain": "Verify that limestone acts as a fluxing agent in blast furnaces and a basic cement constituent."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.5.1",
+   "title": "Hazards of Mining and Sustainable Mineral Conservation",
+   "section": "Hazards of Mining / CONSERVATION OF MINERALS",
+   "definition": "Mining poses occupational health risks and severe environmental degradation, making strict safety laws and sustainable conservation practices essential.",
+   "formula": "none",
+   "key_idea": "Mineral resources are finite and non-renewable, requiring conservation through recycling, scrap utilization, and improved extraction technology.",
+   "textbook_ref": "jess105.txt lines 365-430",
+   "question_patterns": [
+    "What are the primary occupational health hazards faced by miners?",
+    "Explain the environmental impacts of open and underground mining activities.",
+    "Why is the conservation of mineral resources urgently needed?",
+    "What measures can be adopted to conserve mineral resources sustainably?",
+    "Why is mining often referred to as a killer industry?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify hazards",
+     "explain": "List dust inhalation, pulmonary diseases, roof collapses, mine inundation, and water contamination."
+    },
+    {
+     "step": 2,
+     "action": "identify conservation strategies",
+     "explain": "Propose recycling of metals, utilizing scrap, using substitutes, and adopting efficient low-grade processing."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.1",
+   "title": "Conventional Energy: Geological Coal Formations",
+   "section": "Conventional Sources of Energy",
+   "definition": "Coal is a fossil fuel formed by compressed plant material over millions of years, classified into peat, lignite, bituminous, and anthracite based on carbon concentration and depth of burial.",
+   "formula": "none",
+   "key_idea": "Gondwana coal comprises metallurgical deposits older than 200 million years, while tertiary coal is roughly 55 million years old.",
+   "textbook_ref": "jess105.txt lines 440-520",
+   "question_patterns": [
+    "Differentiate between the four major varieties of coal found in nature.",
+    "Where are the principal lignite coal reserves situated in India?",
+    "Distinguish between Gondwana coal and Tertiary coal in terms of age and location.",
+    "Why are heavy industries typically situated close to coalfields?",
+    "Name the prime coalfields located within the Damodar river valley."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify coal grades",
+     "explain": "Order coals by carbon content: peat, lignite (Neyveli), bituminous (commercial/metallurgical), and anthracite."
+    },
+    {
+     "step": 2,
+     "action": "identify geological ages",
+     "explain": "Contrast Gondwana deposits in Damodar/Godavari valleys with Tertiary deposits in northeastern states."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.2",
+   "title": "Petroleum and Natural Gas Reservoirs",
+   "section": "Petroleum / Natural Gas",
+   "definition": "Hydrocarbon energy resources trapped in anticlines, domes, and fault traps of sedimentary rocks serve as transportation fuels, power inputs, and industrial petrochemical feedstocks.",
+   "formula": "none",
+   "key_idea": "Petroleum acts as a nodal industry for fertilizers and synthetics, while natural gas provides cleaner domestic and transport energy.",
+   "textbook_ref": "jess105.txt lines 525-590",
+   "question_patterns": [
+    "Explain the geological structural traps where petroleum occurs in India.",
+    "Why are petroleum refineries described as nodal industries?",
+    "Name the oldest and largest oil-producing fields in India.",
+    "What is the significance of the Hazira-Vijaipur-Jagdishpur (HVJ) gas pipeline?",
+    "State the advantages of natural gas as an environmentally friendly fuel."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify geological structures",
+     "explain": "Trace oil to anticlines, dome crests, and porous sandstone strata capped by impervious layers."
+    },
+    {
+     "step": 2,
+     "action": "trace distribution and transport",
+     "explain": "Locate Mumbai High, Ankeleshwar, and Digboi, connected to consuming centres through national pipeline networks."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.3",
+   "title": "Electricity Generation: Hydroelectric and Thermal Power",
+   "section": "Electricity",
+   "definition": "Electric power is produced either renewably through flowing water driving hydro turbines or through the combustion of fossil fuels in thermal power stations.",
+   "formula": "none",
+   "key_idea": "Hydro electricity relies on renewable fast-flowing water, whereas thermal power consumes non-renewable coal, oil, or gas.",
+   "textbook_ref": "jess105.txt lines 595-635",
+   "question_patterns": [
+    "Differentiate between hydro electricity and thermal electricity generation.",
+    "Name key multi-purpose river valley projects producing hydroelectricity in India.",
+    "Why is per capita consumption of electricity considered an index of development?",
+    "What fuels are consumed by thermal power plants to drive turbines?",
+    "Explain why hydroelectricity is categorized as a renewable energy source."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare energy generation mechanisms",
+     "explain": "Contrast the use of kinetic energy of running water versus fossil fuel combustion for turbine rotation."
+    },
+    {
+     "step": 2,
+     "action": "assess renewability",
+     "explain": "Recognize hydro power as replenishable and pollution-free compared to fossil-fuel thermal plants."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.7.1",
+   "title": "Non-Conventional Energy: Nuclear, Solar, and Wind Energy",
+   "section": "Non-Conventional Sources of Energy / Nuclear / Solar / Wind",
+   "definition": "Renewable and clean energy harnessed from atomic fission of uranium and thorium, solar photovoltaic conversion, and wind turbine clusters provides sustainable alternatives to fossil fuels.",
+   "formula": "none",
+   "key_idea": "Non-conventional sources curb greenhouse gas emissions and enhance national energy security.",
+   "textbook_ref": "jess105.txt lines 640-720",
+   "question_patterns": [
+    "How is nuclear energy generated and which minerals are utilized for it in India?",
+    "Where are thorium and monazite sands located in India?",
+    "Explain how photovoltaic technology converts sunlight into electrical power.",
+    "Describe the location of the largest wind farm cluster in India.",
+    "Why does solar energy hold immense potential in rural India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify energy conversion principle",
+     "explain": "Relate nuclear energy to atomic structural changes, solar to photovoltaic cells, and wind to aerodynamic turbines."
+    },
+    {
+     "step": 2,
+     "action": "locate major installations",
+     "explain": "Identify Monazite sands in Kerala, Uranium in Jharkhand/Rajasthan, and wind clusters from Nagarcoil to Madurai."
+    }
+   ]
+  },
+  {
+   "id": "jess.105.7.2",
+   "title": "Biogas, Tidal, and Geothermal Energy",
+   "section": "Biogas / Tidal Energy / Geo Thermal Energy",
+   "definition": "Alternative energy is derived from decomposing organic biomass, oceanic tidal water heads via floodgates, and subterranean steam from high geothermal gradient zones.",
+   "formula": "none",
+   "key_idea": "Biogas provides energy and manure to rural areas, tidal energy traps marine tides, and geothermal uses earth's internal heat.",
+   "textbook_ref": "jess105.txt lines 725-785",
+   "question_patterns": [
+    "What are the twin benefits offered by rural gobar gas plants to farmers?",
+    "How do floodgate dams generate electricity from oceanic tides?",
+    "Name potential regions in India suitable for harnessing tidal energy.",
+    "Explain the mechanism of geothermal energy extraction with reference to Manikaran and Puga Valley.",
+    "Why is biogas thermally superior to cattle dung cakes and firewood?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe conversion mechanisms",
+     "explain": "Detail anaerobic fermentation for biogas, tide-trapping floodgates for tidal, and groundwater steam for geothermal."
+    },
+    {
+     "step": 2,
+     "action": "state geographic projects",
+     "explain": "List Gulf of Khambhat and Sunderbans for tidal energy, and Parvati Valley and Puga Valley for geothermal energy."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess105.txt lines 210-220",
+   "concept": "jess.105.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the amount of manganese in kg required to manufacture {steel_tonnes} tonnes of steel.",
+   "extracted_variables": {
+    "steel_tonnes": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply steel tonnage by rate constant",
+     "explain": "Each tonne of steel requires 10 kg of manganese.",
+     "compute": "manganese_kg = steel_tonnes * 10"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess105.txt lines 210-220",
+   "concept": "jess.105.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find how much manganese is needed in kilograms if a plant produces {steel_tonnes} tonnes of steel.",
+   "extracted_variables": {
+    "steel_tonnes": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply steel tonnage by rate constant",
+     "explain": "Each tonne of steel requires 10 kg of manganese.",
+     "compute": "manganese_kg = steel_tonnes * 10"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "jess105.txt lines 790-805",
+   "questions": [
+    "Which one of the following minerals is formed by decomposition of rocks, leaving a residual mass of weathered material: coal, bauxite, gold, or zinc?",
+    "Koderma, in Jharkhand is the leading producer of which one of the following minerals: bauxite, mica, iron ore, or copper?",
+    "Minerals are deposited and accumulated in the stratas of which of the following rocks: sedimentary rocks, metamorphic rocks, igneous rocks, or none of the above?",
+    "Which one of the following minerals is contained in the Monazite sand: oil, uranium, thorium, or coal?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "jess105.txt lines 806-815",
+   "questions": [
+    "Distinguish between ferrous and non-ferrous minerals in not more than 30 words.",
+    "Distinguish between conventional and non-conventional sources of energy in not more than 30 words.",
+    "What is a mineral?",
+    "How are minerals formed in igneous and metamorphic rocks?",
+    "Why do we need to conserve mineral resources?"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "jess105.txt lines 816-822",
+   "questions": [
+    "Describe the distribution of coal in India.",
+    "Why do you think that solar energy has a bright future in India?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

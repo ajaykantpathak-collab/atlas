@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 201,
+  "chapter_title": "Constitution: Why and How?",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps201.1.1",
+      "title": "Why Do We Need a Constitution?",
+      "section": "1.1",
+      "definition": "A constitution performs three jobs at once: it supplies the basic rules for how government is constituted and run, it lays down limits on what rulers may do to citizens, and it expresses the aspirations and identity of the people. Every association from a club to a country needs agreed rules; a nation's rules must also bind the powerful.",
+      "formula": "",
+      "key_idea": "A constitution is the rulebook for government, the fence around power, and the self-portrait of a people.",
+      "textbook_ref": "keps201.txt lines 15-120 (introduction and section on why we need a constitution, coordination, limitation of government power, aspirations of society)",
+      "question_patterns": [
+        "why does every country need a constitution",
+        "in class 11 constitution chapter: how does a constitution limit the power of government",
+        "what does a constitution enable besides restricting",
+        "how does a constitution express the identity and aspirations of a people",
+        "explain the three functions of a constitution",
+        "why must even democratic rulers be bound by a constitution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the enabling role", "explain": "The constitution sets the decision rules -- who legislates, who executes, who adjudicates -- so collective life can function smoothly."},
+        {"step": 2, "action": "identify the limiting role", "explain": "Fundamental rights and structural checks stop any government, however popular, from trampling citizens."},
+        {"step": 3, "action": "identify the expressive role", "explain": "Its preamble and provisions record what the people aspire to be -- a statement of national identity and goals."}
+      ]
+    },
+    {
+      "id": "keps201.1.2",
+      "title": "The Authority of a Constitution: Constituent Assembly and Legitimacy",
+      "section": "1.2",
+      "definition": "A constitution commands obedience only if people accept its authority. That acceptance comes from two sources: the manner of its making -- drafted by an authorised constituent body and ratified by the people -- and its substantive wisdom. India's Constitution drew both from the Constituent Assembly, elected indirectly under the 1946 Cabinet Mission plan, which worked for nearly three years through open debate.",
+      "formula": "",
+      "key_idea": "Made by the people's representatives, argued openly, accepted by habit and performance -- that is constitutional legitimacy.",
+      "textbook_ref": "keps201.txt lines 120-240 (the authority of a constitution, constituent assembly of india, cabinet mission plan, drafting committee and debates)",
+      "question_patterns": [
+        "how did the indian constitution acquire its authority",
+        "in class 11 constitution chapter: what was the constituent assembly and how was it formed",
+        "why is the mode of making a constitution important for its legitimacy",
+        "what role did the drafting committee play in the making of the constitution",
+        "how long did the constituent assembly take and why does it matter",
+        "distinguish the moral and institutional sources of constitutional authority"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the representative chain", "explain": "Provincial assemblies elected indirectly under the Cabinet Mission plan chose the Assembly's members, giving it a representative claim."},
+        {"step": 2, "action": "note the open deliberation", "explain": "Committees and recorded debates covered every clause over almost three years, showing reasoned rather than arbitrary authorship."},
+        {"step": 3, "action": "explain continued acceptance", "explain": "Legitimacy deepened as the Constitution delivered stable government and protected rights, winning obedience by performance."}
+      ]
+    },
+    {
+      "id": "keps201.1.3",
+      "title": "Preamble: The Identity Card of the Constitution",
+      "section": "1.3",
+      "definition": "The Preamble announces the Constitution's aims: India as a sovereign, socialist, secular, democratic republic securing justice, liberty, equality and fraternity. It is the Constitution's identity card -- summarising the values against which every provision can be read and judged.",
+      "formula": "",
+      "key_idea": "Read the whole book through its first page -- the Preamble fixes the values the machinery must serve.",
+      "textbook_ref": "keps201.txt lines 240-330 (the preamble, sovereign socialist secular democratic republic, justice liberty equality fraternity, objectives resolution)",
+      "question_patterns": [
+        "what values does the preamble of the indian constitution proclaim",
+        "in class 11 constitution chapter: explain the terms sovereign socialist secular and democratic in the preamble",
+        "how is the preamble related to the objectives resolution",
+        "why is the preamble called the identity card of the constitution",
+        "what does securing justice liberty equality and fraternity commit india to",
+        "is the preamble a part of the constitution and is it amendable"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read the descriptors", "explain": "Sovereign (no external master), socialist and secular (added by amendment), democratic republic (power from the people through elected rulers)."},
+        {"step": 2, "action": "read the guarantees", "explain": "Justice social economic political, liberty of thought expression belief faith worship, equality of status and opportunity, fraternity with dignity and unity."},
+        {"step": 3, "action": "link to history", "explain": "The Preamble echoes Nehru's Objectives Resolution of 1946, carrying the freedom movement's promises into constitutional text."}
+      ]
+    },
+    {
+      "id": "keps201.1.4",
+      "title": "Procedural and Substantive Achievements of a Constitution",
+      "section": "1.4",
+      "definition": "A constitution succeeds in two ways. Procedurally, it must create effective, accountable government -- clear rules of representation, division of power and amendment. Substantively, it must actually restrain power and advance the people's welfare; a constitution that fails one part fails overall, as India's must be judged on both counts.",
+      "formula": "",
+      "key_idea": "Good machinery plus real restraint plus delivered justice -- constitutions must work, not merely read well.",
+      "textbook_ref": "keps201.txt lines 330-430 (procedural effectiveness, substantive achievement, how the constitution has worked, limits on government and rights record)",
+      "question_patterns": [
+        "distinguish the procedural and substantive achievements of a constitution",
+        "in class 11 constitution chapter: how should we judge the working of the indian constitution",
+        "what makes a constitution effective in practice",
+        "how does the indian constitution balance effectiveness with accountability",
+        "has the indian constitution limited government power in practice",
+        "explain why a well written constitution may still fail"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "audit the procedures", "explain": "Check whether elections, legislatures, courts and amendment rules enable decisions without deadlock or capture."},
+        {"step": 2, "action": "audit the substance", "explain": "Ask whether rights are protected in practice and whether the state moves toward the Preamble's justice and equality."},
+        {"step": 3, "action": "judge both together", "explain": "India's record -- a working democracy amid diversity, with uneven social delivery -- must be read across both dimensions."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps201.txt lines 15-120 (why a constitution)",
+      "concept": "keps201.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A popular government elected with a huge majority says the constitution does not bind it. Explain, using the functions of a constitution, why this claim fails.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the limiting function", "explain": "The constitution binds even popular majorities precisely so that rights of all citizens survive elections."},
+        {"step": 2, "action": "recall the enabling function", "explain": "The government's own authority flows from constitutional rules; ignoring them dissolves the source of its power."},
+        {"step": 3, "action": "conclude", "explain": "A majority rules under the constitution, not over it -- the rulebook created and still disciplines its power."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps201.txt lines 240-330 (preamble)",
+      "concept": "keps201.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A law discriminates between citizens of different religions in access to public employment. Which Preamble values does such a law violate?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "name the violated value", "explain": "Religion-based exclusion breaches equality of status and opportunity promised in the Preamble."},
+        {"step": 2, "action": "note the identity clash", "explain": "The secular, democratic character proclaimed in the Preamble requires the state to treat citizens without religious tests."},
+        {"step": 3, "action": "conclude", "explain": "Measured against the Preamble's yardstick, the law fails constitutionally and should not stand."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps201.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Explain the need for a constitution with reference to limiting government power.",
+        "How was the Constituent Assembly of India formed and what gives its work legitimacy?",
+        "Summarise the values proclaimed in the Preamble and explain any two of them.",
+        "Distinguish between procedural effectiveness and substantive achievement of a constitution.",
+        "Why did the makers of the Constitution borrow from other countries, and what did they adapt?",
+        "Is a constitution merely a set of legal rules, or does it also express the dreams of a people? Discuss."
+      ]
+    }
+  ]
+}

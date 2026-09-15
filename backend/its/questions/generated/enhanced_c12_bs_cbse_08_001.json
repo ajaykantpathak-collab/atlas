@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_001",
+   "title": "c12_bs_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the meaning of controlling as per NCERT Class 12 Business Studies in one sentence.",
+     "a": "Controlling means ensuring that activities in an organisation are performed as per the plans. A wrong answer (e.g., “controlling means dominating subordinates” or “controlling is only about checking finished work”) reveals the student confuses controlling with authoritarian supervision or a one‑time inspection, missing the continuous, plan‑aligned, goal‑oriented nature of the function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why controlling is called a “pervasive function” and a “goal‑oriented function”. Give a one‑sentence illustration for each.",
+     "a": "Pervasive: every manager at every level (top, middle, lower) in every type of organisation (business, hospital, school) performs controlling. Goal‑oriented: controlling exists only to ensure predetermined goals are met. Illustration: a school principal controls teacher attendance to achieve the goal of student learning (pervasive + goal‑oriented). A wrong answer that says “only top managers control” or “controlling is for profit only” shows misunderstanding of pervasiveness across levels and sectors, and of the goal‑orientation beyond just financial targets.",
+     "self_check": true
+    },
+    {
+     "q": "A factory sets a standard of “maximum 2% defective units”. In a week, actual defective units are 3.5%. The production manager investigates and finds a worn‑out machine part. He replaces the part and defects drop to 1.8%. Identify which *three* steps of the controlling process are demonstrated here, and name the step that is *missing* from this description.",
+     "a": "Steps shown: (1) Setting performance standards (2% defect), (2) Measurement of actual performance (3.5%), (3) Comparison (3.5% > 2%), (4) Analysing deviations (worn‑out part), (5) Taking corrective action (replace part). The missing step is *continuous monitoring / measurement during the process* (Step 2 ideally happens during performance, not only after). A wrong answer that lists “planning” as a controlling step or omits “analysing deviations” indicates the student cannot distinguish the five‑step controlling sequence from the planning function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the statements: “Planning is looking ahead, controlling is looking back” and “Planning and controlling are both backward‑looking and forward‑looking”. Which is more accurate? Justify using the NCERT view.",
+     "a": "The second statement is more accurate. NCERT explains: plans are based on forecasts (forward‑looking), but planning uses past experience (backward‑looking). Controlling compares actual past performance with standards (backward‑looking), but corrective action aims to improve future performance (forward‑looking). A student who picks only the first statement treats them as mutually exclusive and misses the reciprocal reinforcement NCERT emphasises.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: “A small enterprise cannot afford an expensive control system, so it should skip controlling altogether.” Use two limitations of controlling from the textbook to support your evaluation.",
+     "a": "The statement is flawed. Limitation (iv) says controlling is costly, but it also says “Managers must ensure that the costs of installing and operating a control system should not exceed the benefits derived from it.” Limitation (i) says quantitative standards are hard to set, but qualitative standards (e.g., customer satisfaction) can be used. Skipping controlling would mean losing all six importance benefits. A wrong answer that agrees with the statement ignores the cost‑benefit principle and the adaptability of standards to qualitative measures.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original scenario (different from the textbook’s FedEx or import‑export examples) where *all six* importance points of controlling are visibly at work. Describe the scenario in 4‑5 sentences and explicitly tag each importance point in brackets.",
+     "a": "Scenario: A hospital emergency ward sets a standard: “Patient triage to doctor consultation ≤ 15 minutes.” [Accomplishing goals] The head nurse reviews daily logs and finds the average is 22 minutes. [Judging accuracy of standards] She discovers the triage form is too lengthy and redesigns it, cutting admin time. [Efficient resource use] Nurses now know exactly what data to collect, reducing confusion. [Employee motivation] A CCTV at the triage desk ensures no one skips the form. [Order and discipline] The lab, pharmacy, and ward coordinators use the same timestamp system, so patient flow is smooth. [Coordination] A good answer must have a single cohesive scenario with all six tags; a poor answer lists six disconnected examples or misses the linkage between standards and outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

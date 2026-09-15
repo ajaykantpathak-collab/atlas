@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_005",
+   "title": "c12_cs_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the frequency range of microwaves used in terrestrial communication and name the propagation mode they primarily use.",
+     "a": "Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links). Propagation: Line-of-sight (space wave). A wrong answer like \"microwaves use sky wave propagation\" reveals confusion between HF radio (3–30 MHz) which reflects off ionosphere, and microwaves which penetrate ionosphere and require direct visibility between antennas.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Satellite communication uses radio waves, so it's just another type of radio transmission — no need to study it separately.\" Explain why this is incorrect by comparing propagation, latency, and infrastructure.",
+     "a": "While both use EM waves, satellite links differ critically: (1) Propagation: radio (ground/sky wave) follows Earth/ionosphere; satellite uses space wave (direct LOS to orbit). (2) Latency: GEO satellite ≈ 240 ms one-way (72,000 km round-trip); terrestrial radio ≈ negligible. (3) Infrastructure: radio uses ground towers; satellite needs launch, transponders, earth stations. Treating them as same ignores these design-impacting differences. A wrong answer that only mentions \"both wireless\" misses the engineering distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A company needs to connect two offices 40 km apart in hilly terrain where laying fiber is impossible. They consider: (a) UHF radio (500 MHz), (b) Microwave link (6 GHz), (c) LEO satellite. Which option is most suitable and why? Justify with propagation characteristics.",
+     "a": "Microwave (6 GHz) is best. UHF (500 MHz) at 40 km in hills suffers diffraction loss and multipath fading; requires tall towers. LEO satellite adds 20–40 ms latency, expensive terminals, handover complexity. Microwave at 6 GHz: LOS achievable with 30–40 m towers on hilltops, 30–50 km repeater spacing matches 40 km, high bandwidth (100s Mbps–Gbps), low latency (~0.13 ms). A wrong choice of UHF ignores terrain blockage; LEO ignores cost/latency for short distance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the bandwidth-distance trade-off for terrestrial microwave vs GEO satellite. Why can microwave achieve higher data rates over 50 km than GEO satellite over 36,000 km, despite both using similar frequency bands (e.g., 6/4 GHz C-band)?",
+     "a": "Microwave: short distance (50 km) → low free-space path loss (~140 dB), high SNR, allows high-order modulation (256-QAM) → 1–10 Gbps. GEO satellite: 36,000 km → path loss ~200 dB, low SNR, limited by transponder power/bandwidth (36 MHz typical) → 10–100 Mbps per transponder. Also satellite shares bandwidth among many users. Same frequency, but distance^2 path loss and power constraints make satellite bandwidth-distance product far worse. Wrong answer citing only \"satellite is far\" misses the quantitative link budget impact.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a board exam answer: \"Infrared waves are used for satellite communication because they have very high frequency and hence high bandwidth.\" Is it correct? Defend your evaluation.",
+     "a": "Incorrect. Satellite communication uses radio/microwave bands (L/S/C/Ku/Ka band: 1–40 GHz), NOT infrared (300 GHz–400 THz). Infrared cannot penetrate atmosphere (absorbed by water vapor, CO2) and is used only for short-range LOS (TV remotes, IrDA). High frequency ≠ usable for satellite; atmospheric windows matter. A student writing this confuses \"high frequency = high bandwidth\" (true in principle) with \"any high frequency works\" (false — propagation physics dominates). Board answer must name actual satellite bands (e.g., Ku: 14/12 GHz uplink/downlink).",
+     "self_check": true
+    },
+    {
+     "q": "Design a wireless connectivity plan for a disaster relief camp in a remote valley (no cellular, no fiber). You have: HF radio (10 MHz), VHF radio (150 MHz), microwave (5 GHz), and a portable VSAT (Ku-band). Specify which technology for: (a) camp-to-HQ 500 km, (b) intra-camp 200 m, (c) camp-to-nearby-village 15 km (LOS blocked by ridge). Justify each choice.",
+     "a": "(a) HF radio (10 MHz) — sky wave via ionosphere reaches 500 km beyond horizon; low bandwidth but works without infrastructure. (b) VHF (150 MHz) or Wi-Fi (2.4/5 GHz) — short range, LOS not needed at 200 m, easy deployment. (c) VSAT (Ku-band) — satellite bypasses ridge; microwave blocked by ridge (no LOS), VHF/HF unreliable for data at 15 km in valley. A poor answer uses microwave for (c) ignoring ridge blockage, or VSAT for (b) wasting cost/latency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

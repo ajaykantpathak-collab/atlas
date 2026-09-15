@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_005",
+   "title": "c12_eco_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define price discrimination and state the three necessary conditions for it to be feasible.",
+     "a": "Price discrimination is the practice of charging different prices to different consumers for the same product where price differences do not reflect cost differences. The three necessary conditions are: (1) the firm must have market power (downward-sloping demand curve), (2) the firm must be able to segment the market into groups with different price elasticities of demand, and (3) the firm must prevent arbitrage (resale between segments). A wrong answer that omits any condition — e.g., saying only “market power” — reveals the student does not understand that segmentation and no-arbitrage are equally essential; without them, the price differences would collapse.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a monopolist engaging in third-degree price discrimination sets marginal revenue equal across all markets (MR₁ = MR₂ = … = MC) rather than setting price equal across markets.",
+     "a": "The monopolist maximizes total profit by allocating output across markets so that the last unit sold in each market adds the same marginal revenue; if MR₁ > MR₂, shifting one unit from market 2 to market 1 increases total revenue. Since marginal cost is common, the optimum requires MR₁ = MR₂ = MC. Prices will differ across markets because demand elasticities differ (P = MR/(1+1/ε)). A student who says “the monopolist charges the same price in all markets” confuses price discrimination with uniform pricing and misses the core insight that different elasticities justify different prices.",
+     "self_check": true
+    },
+    {
+     "q": "A monopolist sells in two separate markets. Market 1 demand: P₁ = 100 – Q₁. Market 2 demand: P₂ = 80 – 0.5Q₂. Total cost: TC = 20Q, where Q = Q₁ + Q₂. Calculate the profit-maximizing prices, quantities, and total profit under third-degree price discrimination.",
+     "a": "Step 1: Find MR in each market. Market 1: TR₁ = P₁Q₁ = 100Q₁ – Q₁² → MR₁ = 100 – 2Q₁. Market 2: TR₂ = P₂Q₂ = 80Q₂ – 0.5Q₂² → MR₂ = 80 – Q₂. Step 2: MC = dTC/dQ = 20. Step 3: Set MR₁ = MR₂ = MC. 100 – 2Q₁ = 20 → Q₁ = 40. 80 – Q₂ = 20 → Q₂ = 60. Step 4: Find prices: P₁ = 100 – 40 = ₹60. P₂ = 80 – 0.5(60) = ₹50. Step 5: Total profit = TR₁ + TR₂ – TC = (60×40) + (50×60) – 20(100) = 2400 + 3000 – 2000 = ₹3,400. A wrong answer that sets P₁ = P₂ or uses AR=MC instead of MR=MC shows the student cannot apply the multi-market equilibrium condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the welfare outcomes (consumer surplus, producer surplus, deadweight loss) of first-degree price discrimination, third-degree price discrimination, and single-price monopoly. Which comes closest to the competitive outcome?",
+     "a": "First-degree (perfect) price discrimination captures the entire consumer surplus, making producer surplus equal to total surplus; deadweight loss is zero — it achieves allocative efficiency (P=MC for the last unit) but with zero consumer surplus. Third-degree price discrimination may increase or decrease total output relative to single-price monopoly; it typically raises producer surplus but the effect on deadweight loss is ambiguous (can increase or decrease). Single-price monopoly has the highest deadweight loss among the three. First-degree discrimination comes closest to the competitive outcome in terms of allocative efficiency (output level), but the distribution is entirely to the producer. A student who claims third-degree discrimination always reduces deadweight loss misunderstands that output can fall in some markets, potentially raising total DWL.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Price discrimination is always socially undesirable because it transfers surplus from consumers to producers.” Provide a nuanced judgment with economic reasoning.",
+     "a": "The statement is partially correct but incomplete. Price discrimination does transfer consumer surplus to producer surplus, which is a distributional concern. However, from an efficiency perspective, first-degree price discrimination eliminates deadweight loss entirely (achieving allocative efficiency), while third-degree discrimination can either increase or decrease total surplus depending on whether it expands output to new consumers. If discrimination allows a monopolist to serve a market that would otherwise be unprofitable (e.g., rural electricity at lower rates), total surplus may rise. Therefore, a blanket condemnation ignores potential efficiency gains. A student who simply agrees without distinguishing between efficiency and equity misses the core trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world example of second-degree price discrimination in the Indian context. Explain how it works and why it does not require the firm to identify individual consumer types.",
+     "a": "Example: Indian Railways’ tatkal and dynamic pricing, or electricity block tariffs (first 100 units at ₹3/kWh, next 100 at ₹5/kWh). In block tariffs, consumers self-select into quantity brackets; the firm does not need to know each consumer’s demand curve, only that high-usage consumers have lower elasticity for marginal units. The pricing menu induces separation. A poor answer that describes student discounts (third-degree) or personalized pricing (first-degree) shows confusion between the degrees.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

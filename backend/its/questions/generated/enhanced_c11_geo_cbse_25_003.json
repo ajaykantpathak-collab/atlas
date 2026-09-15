@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_003",
+   "title": "c11_geo_cbse_25_003",
+   "questions": [
+    {
+     "q": "Define focal length in the context of an aerial camera and state its standard unit of measurement. How does it differ from the flying height?",
+     "a": "Focal length (f) is the distance from the camera lens's optical centre to the image plane (film/sensor) when focused at infinity, measured in millimetres (mm). Flying height (H) is the altitude of the aircraft above a datum (usually mean sea level), measured in metres. A wrong answer (e.g., confusing f with H, or giving focal length in metres) reveals the student does not distinguish between the camera's internal optical geometry (fixed for a given lens) and the external flight parameter (variable per mission).",
+     "self_check": true
+    },
+    {
+     "q": "On a vertical aerial photograph, the principal point is the intersection of lines joining opposite fiducial marks. Explain why the principal point is the geometric centre of the photograph and why it is used as the origin for photo coordinates.",
+     "a": "The principal point is the foot of the perpendicular from the lens's optical centre to the image plane; fiducial marks are rigidly fixed on the camera frame symmetrically about the optical axis, so their connecting lines intersect at the optical axis's footprint — the principal point. It is the origin because radial distances and directions from this point correspond directly to ground angles and distances under the central projection geometry. A wrong answer (e.g., \"it's the centre of the photo because the photo is rectangular\") reveals confusion between the geometric centre of the print and the optical centre of the projection.",
+     "self_check": true
+    },
+    {
+     "q": "A vertical aerial photograph is taken with a camera of focal length 152 mm from a flying height of 3000 m above mean sea level. The average ground elevation in the area is 500 m. Calculate the representative fraction (RF) scale of the photograph. Show all steps.",
+     "a": "Step 1: Identify given values: f = 152 mm = 0.152 m; H = 3000 m; h = 500 m.\nStep 2: Compute height above ground: H - h = 3000 - 500 = 2500 m.\nStep 3: Apply scale formula for vertical photo: Scale = f / (H - h).\nStep 4: Scale = 0.152 / 2500 = 1 / 16447.37 ≈ 1:16,447.\nStep 5: Express as RF: 1:16,447 (or 1/16447). A wrong answer (e.g., using H instead of H-h, or forgetting unit conversion) reveals misunderstanding of the vertical photo scale formula or confusion between flying height above datum and height above terrain.",
+     "self_check": true
+    },
+    {
+     "q": "Two vertical aerial photographs of the same area are taken from the same flying height, one with a 88 mm focal length lens and the other with a 152 mm focal length lens. Compare the ground coverage, scale, and detail resolution of the two photographs. Which would you choose for mapping a small urban area at large scale?",
+     "a": "The 152 mm lens gives larger scale (152/88 ≈ 1.73× larger), smaller ground coverage (inverse of scale ratio), and higher detail resolution (larger image of same ground feature). The 88 mm lens gives wider coverage, smaller scale, less detail. For mapping a small urban area at large scale, choose the 152 mm lens. A wrong answer (e.g., \"88 mm gives larger scale because smaller number\") reveals confusion between focal length and field of view: shorter focal length = wider angle = smaller scale = larger coverage.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the distance between two road intersections on an aerial photograph as 4.5 cm. The photo scale is 1:10,000. The student calculates the ground distance as 4.5 km. Evaluate this calculation and identify the error.",
+     "a": "Correct ground distance = photo distance × denominator of RF = 4.5 cm × 10,000 = 45,000 cm = 450 m = 0.45 km. The student's answer (4.5 km) is 10× too large. The error is treating the RF denominator as a direct kilometre conversion (1:10,000 → 1 cm = 10,000 cm = 100 m, not 1 km). A wrong evaluation (e.g., \"the student is correct\") reveals inability to convert centimetres to kilometres and misunderstanding of representative fraction meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure for a surveyor to determine the focal length of an aerial camera using only a vertical aerial photograph of a flat terrain with known ground control points (coordinates and elevations). Assume flying height above datum is known from GPS.",
+     "a": "Procedure: (1) Identify principal point via fiducial marks. (2) Measure photo coordinates (x, y) of at least 3 well-distributed ground control points. (3) Compute photo distances from principal point: r = √(x² + y²). (4) Compute ground distances from principal point's ground nadir to each control point using their coordinates. (5) Compute height above ground for each: H - h. (6) For each point, calculate f = r × (H - h) / ground distance. (7) Average the f values. A poor answer (e.g., \"measure the lens\") reveals ignorance of the central projection geometry and the calibration principle using ground control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_11_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_11_014",
+   "title": "c11_hin_ar_cbse_11_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Language\") reveals the student has memorised a mnemonic without understanding its functional components — they cannot map each letter to a specific writing action, so their answers will lack structural discipline.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The poet misses his home a lot. He repeats 'four walls, four doors' to show this.\" Why is this answer insufficient for a Class 11 board exam?",
+     "a": "The answer states a valid observation but lacks Evidence (no line reference), Explanation (no analysis of *why* repetition conveys pain), and Link (no connection to broader themes like generational disconnect). A wrong diagnosis (e.g., \"it's too short\") shows the student confuses length with analytical depth — they need to learn that a three-sentence PEEL paragraph scores higher than a page of narration.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"What does the father's silence represent in the poem?\" Use the father's description in the later stanzas.",
+     "a": "Point: The father's silence embodies stoic endurance of displacement. Evidence: The lines describing him as having \"not a single flaw\" yet carrying \"burdens that still walk today\" (stanza referencing father's unspoken struggles). Explanation: The poet contrasts the father's outward calm with the weight of unvoiced history — his silence is not absence but a language of survival. Link: This mirrors the speaker's own inability to articulate grief, showing how displacement silences generations. A wrong answer that only quotes \"father had no flaw\" without explaining the irony reveals the student treats evidence as decoration, not argument.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two student responses to \"Analyse the use of irony in the poem.\" Response A: \"It is ironic that the poet calls the house 'not a home'.\" Response B: \"The irony lies in the house being physically intact ('four walls, four doors') while the emotional anchor is broken — the speaker carries the house inside but cannot return.\" Which response demonstrates higher-order analysis and why?",
+     "a": "Response B demonstrates analysis because it identifies a structural contradiction (physical permanence vs emotional rupture) and links it to the central paradox of memory. Response A merely labels a surface-level contradiction without exploring how the poet *constructs* irony through juxtaposition. A student who chooses A confuses identification with analysis — they need practice breaking down *how* a device operates across stanzas.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The poem's free verse form weakens its emotional impact because it lacks rhythmic discipline.\" Defend or refute using evidence from the poem's structure.",
+     "a": "Refute. The free verse mirrors the fragmentation of memory — irregular line lengths (e.g., the abrupt short line \"vkneh ls Hkkxrk gw¡\" amidst longer lines) enact the sudden stab of grief. The repetition of \"gk; js] ,slk u dguk\" creates its own incantatory rhythm without metre. A student who agrees with the claim imposes a rigid definition of \"poetic form\" and fails to see how form *serves* content in modern Hindi poetry — a senior-secondary misconception rooted in Class 10's focus on rhyme schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new exam-style question on \"?kj dh ;kn\" that requires the examinee to connect the mother's portrayal to the theme of unacknowledged labour. Provide a model PEEL outline for the answer.",
+     "a": "Question: \"How does the poet use the mother's domestic actions to highlight the invisibility of women's emotional labour in displacement?\" Model Outline: Point: The mother's routine chores become rituals of holding the family together. Evidence: References to \"ewB mudh feyk ysdj\" (serving food) and \"nq%[k MV dj Bsyrk\" (churning butter) in the middle stanzas. Explanation: These acts are framed as eternal (\"gk; js] ikuh fxj jgk gS\") — her labour sustains the *idea* of home even when the physical home is lost. Link: This elevates the mother from a background figure to the architect of emotional survival, paralleling the father's silent endurance but through active nurture. A weak question would ask \"Describe the mother\" — testing recall, not synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

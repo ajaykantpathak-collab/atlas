@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_003",
+   "title": "c11_bio_cbse_17_003",
+   "questions": [
+    {
+     "q": "Define a sarcomere and state which bands change width during muscle contraction.",
+     "a": "A sarcomere is the functional unit of contraction, defined as the segment of a myofibril between two successive Z-lines. During contraction, the I-bands and H-zone shorten, while the A-band length remains constant. A wrong answer (e.g., \"A-band shortens\") reveals the student memorizes band names but does not understand the sliding mechanism where thick filaments do not change length.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the H-zone disappears when a sarcomere is fully contracted, but the A-band does not.",
+     "a": "The H-zone represents the region where only thick (myosin) filaments are present — the central part where thin (actin) filaments do not overlap. When actin slides inward, it covers this region, eliminating the H-zone. The A-band spans the entire length of the thick filament, which does not change length during sliding. A wrong answer indicates confusion between \"band\" (defined by filament presence) and \"zone\" (defined by overlap).",
+     "self_check": true
+    },
+    {
+     "q": "A muscle fibre is stimulated but contains no ATP. Predict the state of cross-bridges and sarcomere length, and justify your answer.",
+     "a": "Without ATP, myosin heads cannot detach from actin after the power stroke. Cross-bridges remain locked in the rigor state (rigor mortis), preventing further cycling. The sarcomere stays shortened because attached cross-bridges act as rigid links. A wrong answer (e.g., \"muscle relaxes\") shows the student thinks ATP is only needed for contraction, not for detachment — a critical misconception about the cross-bridge cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of troponin and tropomyosin in regulating actin-myosin interaction. Why are both needed?",
+     "a": "Tropomyosin is a fibrous protein that physically blocks myosin-binding sites on actin in the resting state. Troponin is a complex with three subunits: one binds Ca²⁺, one binds tropomyosin, one binds actin. Ca²⁺ binding to troponin causes a conformational change that moves tropomyosin away from the binding sites. Both are needed: tropomyosin provides the physical block; troponin provides the Ca²⁺-sensitive switch. A wrong answer (e.g., \"troponin blocks sites\") confuses the regulatory protein with the blocking protein.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Increasing extracellular Ca²⁺ concentration directly strengthens skeletal muscle contraction.\" Is it correct? Explain.",
+     "a": "The statement is incorrect for skeletal muscle. Contraction depends on Ca²⁺ released from the sarcoplasmic reticulum (SR), not extracellular Ca²⁺. The sarcolemma and T-tubules are not permeable to Ca²⁺ under normal conditions; voltage-gated channels in the SR (ryanodine receptors) release stored Ca²⁺. Extracellular Ca²⁺ matters for cardiac muscle (via voltage-gated Ca²⁺ channels) but not skeletal. A wrong evaluation reveals confusion between skeletal and cardiac excitation-contraction coupling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using isolated muscle fibres to demonstrate that ATP is required for both contraction and relaxation.",
+     "a": "Use three sets of isolated frog skeletal muscle fibres in physiological saline: (1) normal ATP (control), (2) ATP depleted by metabolic inhibitors (e.g., iodoacetate + N₂), (3) ATP depleted but supplied with non-hydrolyzable ATP analog (e.g., AMP-PNP). Stimulate electrically. Set 1 contracts and relaxes. Set 2 fails to contract (no ATP for cross-bridge cycling). Set 3 forms rigid cross-bridges (rigor) because analog binds but cannot be hydrolyzed for detachment. A poor design (e.g., only testing contraction) misses the dual role of ATP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

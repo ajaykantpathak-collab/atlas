@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_004",
+   "title": "c10_phy_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the two standard rays used to draw a ray diagram for a convex mirror and describe the path of each ray after reflection.",
+     "a": "The two standard rays are: (1) A ray parallel to the principal axis — after reflection, it appears to diverge from the principal focus (F) behind the mirror. (2) A ray directed towards the centre of curvature (C) — after reflection, it retraces its path back along the same line. A wrong answer (e.g., saying the parallel ray passes through F in front of the mirror) reveals confusion with concave mirror behaviour and indicates the student has not internalised that the focus of a convex mirror is virtual and behind the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex mirror always form a virtual, erect, and diminished image regardless of the object's position in front of it?",
+     "a": "Because the reflecting surface curves outward, the reflected rays always diverge. When extended backwards behind the mirror, they appear to meet at a point between the pole (P) and focus (F), forming a virtual image. The geometry of the mirror ensures the image is always behind the mirror (virtual), upright (erect), and smaller than the object (diminished). A wrong answer that claims the image can be real or inverted for some positions shows the student is incorrectly applying concave mirror rules or has not understood the divergence of rays from a convex surface.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4.0 cm is placed 30 cm in front of a convex mirror of focal length 15 cm. Using a scale of 1 cm = 5 cm, draw the ray diagram to locate the image. Measure and state the image distance (v) and image height (h').",
+     "a": "Steps: (1) Draw principal axis, mark P. Using scale 1 cm = 5 cm, F is at 3 cm behind mirror (15 cm / 5), C at 6 cm behind mirror (30 cm / 5). Object at 6 cm in front of mirror (30 cm / 5). (2) Draw object arrow 0.8 cm tall (4 cm / 5) upright at object position. (3) Ray 1: From object top, draw line parallel to principal axis to mirror, reflect as dotted line appearing to come from F. (4) Ray 2: From object top, draw line towards C (behind mirror), reflect back along same path as solid line. (5) Extend reflected rays backwards (dotted) — they meet at image point between P and F. (6) Measure image distance from P: ~2 cm on diagram → 10 cm actual (2 cm × 5). Image height: ~0.27 cm on diagram → 1.35 cm actual. Image is virtual, erect, diminished. Wrong measurements (e.g., image in front of mirror) reveal incorrect ray direction or failure to extend rays behind the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for a convex mirror when the object is (a) at infinity and (b) between infinity and the pole. How does the image position change, and why does the image size remain diminished in both cases?",
+     "a": "(a) Object at infinity: Incident rays are parallel to principal axis. After reflection, they appear to diverge from F. Image forms exactly at F (between P and F), highly diminished, point-sized. (b) Object between infinity and pole: Rays from object top — one parallel to axis (reflects as if from F), one towards C (reflects back). Extended reflected rays meet between P and F, closer to P than in case (a). Image is larger than in (a) but still diminished. In both cases, the reflected rays diverge, so their backward extensions always meet behind the mirror between P and F, producing a diminished image. A wrong answer stating image forms at C or beyond F shows misunderstanding of ray divergence geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for a convex mirror with the object between infinity and pole. They draw the reflected ray for the parallel incident ray as a solid line passing through F in front of the mirror. Evaluate this diagram and explain the error.",
+     "a": "The diagram is incorrect. For a convex mirror, the focus (F) is behind the mirror (virtual). A ray parallel to the principal axis reflects such that its extension behind the mirror passes through F. The reflected ray itself is a solid line diverging away from the principal axis in front of the mirror; the dotted line behind the mirror shows the virtual path to F. The student has treated the convex mirror like a concave mirror (where the parallel ray actually passes through real F in front). This error will lose full marks in the board exam because ray direction and virtual/real distinction are explicitly assessed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a stainless steel spoon (convex side) and a candle flame to demonstrate that the image formed by a convex mirror is always virtual, erect, and diminished. List the steps and what you would observe at each step.",
+     "a": "Steps: (1) Hold the convex side of a clean stainless steel spoon facing a lit candle at arm's length. (2) Observe the flame's image in the spoon — it appears small, upright, and behind the spoon surface. (3) Slowly move the spoon closer to the flame — the image grows slightly but remains upright and smaller than the flame. (4) Try to project the image on a paper screen held at various positions — no sharp image forms on the screen at any position. Observations: Image is always erect (same orientation as flame), diminished (smaller), and cannot be caught on a screen (virtual). A poor answer that claims the image becomes real or inverted at close distances shows the student has not grasped the fundamental divergence property of convex mirrors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

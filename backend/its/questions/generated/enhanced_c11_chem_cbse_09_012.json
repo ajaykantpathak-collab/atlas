@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_012",
+   "title": "c11_chem_cbse_09_012",
+   "questions": [
+    {
+     "q": "Write the balanced thermochemical equation for the combustion of dihydrogen gas to form liquid water at standard conditions, including the standard enthalpy change.",
+     "a": "2H₂(g) + O₂(g) → 2H₂O(l); ΔH° = –572 kJ mol⁻¹ (for 2 moles of H₂) or –286 kJ mol⁻¹ (per mole of H₂). A wrong answer (e.g., H₂O(g) instead of H₂O(l), or ΔH = –242 kJ mol⁻¹) reveals confusion between higher heating value (HHV, water liquid) and lower heating value (LHV, water vapour), a critical distinction in fuel technology.",
+     "self_check": true
+    },
+    {
+     "q": "Why does dihydrogen have the highest calorific value per unit mass (143 kJ/g) but the lowest per unit volume among common fuels? Explain using density and molar mass concepts.",
+     "a": "Calorific value per gram = ΔH_combustion / molar mass = 286 kJ mol⁻¹ / 2 g mol⁻¹ = 143 kJ/g (highest because molar mass is only 2 g/mol). Per litre at STP: 143 kJ/g × 0.0899 g/L ≈ 12.8 kJ/L (lowest because density is 0.0899 g/L). A student who only quotes \"highest calorific value\" without specifying \"per mass\" reveals the misconception that hydrogen is energetically superior in all contexts, ignoring the volumetric storage challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the volume of dihydrogen gas at STP required to produce the same amount of energy as 1 kg of LPG (calorific value 50 kJ/g). Given: ΔH_comb(H₂) = 286 kJ mol⁻¹, molar volume at STP = 22.4 L mol⁻¹.",
+     "a": "Step 1: Energy from 1 kg LPG = 1000 g × 50 kJ/g = 50,000 kJ.\nStep 2: Moles of H₂ needed = 50,000 kJ / 286 kJ mol⁻¹ = 174.8 mol.\nStep 3: Volume at STP = 174.8 mol × 22.4 L mol⁻¹ = 3915 L ≈ 3.9 m³.\nStep 4: Mass of this H₂ = 174.8 mol × 2 g mol⁻¹ = 349.6 g ≈ 0.35 kg.\nA wrong answer (e.g., using 242 kJ/mol or 24 L/mol) shows confusion between STP and RTP, or HHV vs LHV.",
+     "self_check": true
+    },
+    {
+     "q": "Compare compressed gas storage (350 bar), liquid hydrogen (20 K), and metal hydride storage (LaNi₅H₆) for a fuel cell vehicle needing 5 kg H₂. Analyze the trade-offs in terms of volumetric density, energy penalty, and safety.",
+     "a": "Compressed (350 bar): ~24 g/L, tank mass ~100 kg for 5 kg H₂, compression energy ~10-15% of H₂ energy. Liquid: 71 g/L, tank mass ~50 kg, liquefaction energy ~30-40%. Metal hydride (LaNi₅H₆): ~110 g/L (system), tank mass ~300 kg, desorption needs heat. Trade-off: liquid has best volumetric density but highest energy penalty; compressed is mature tech but bulky; hydrides are heavy but safe. A student who picks one as \"best\" without context misses the system-level engineering compromise.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The hydrogen economy is carbon-neutral because hydrogen combustion produces only water.\" Identify the hidden assumption and give a counterexample from current industrial practice.",
+     "a": "The statement assumes H₂ is produced from renewable sources (electrolysis using green electricity). Counterexample: Currently ~95% of H₂ is \"grey hydrogen\" from steam methane reforming: CH₄ + H₂O → CO + 3H₂ (followed by water-gas shift), emitting 9-12 kg CO₂ per kg H₂. A student who agrees uncritically reveals the misconception that hydrogen is inherently clean regardless of production pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate the principle of a hydrogen-oxygen fuel cell using materials available in a school laboratory. List the key components, the reactions at each electrode, and how you would measure the electrical output.",
+     "a": "Components: Two Pt-coated electrodes (anode/cathode), KOH electrolyte, H₂ and O₂ gas supply (from electrolysis of water), multimeter, LED. Anode: H₂ + 2OH⁻ → 2H₂O + 2e⁻; Cathode: ½O₂ + H₂O + 2e⁻ → 2OH⁻; Overall: H₂ + ½O₂ → H₂O. Measure open-circuit voltage (~1.23 V) and current under load. A poor design (e.g., using acid electrolyte without Pt, or no gas diffusion electrodes) reveals misunderstanding of electrode kinetics and the need for triple-phase boundaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

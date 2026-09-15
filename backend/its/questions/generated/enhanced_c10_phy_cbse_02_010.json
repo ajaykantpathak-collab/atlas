@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_010",
+   "title": "c10_phy_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the fundamental principle on which an electric generator works and name the rule used to determine the direction of induced current in the rotating coil.",
+     "a": "An electric generator works on the principle of electromagnetic induction (Faraday's law). The direction of induced current is determined by Fleming's right-hand rule. A wrong answer (e.g., citing Fleming's left-hand rule or motor principle) reveals confusion between motor and generator — the left-hand rule is for force on a current-carrying conductor (motor), while the right-hand rule is for induced current due to motion (generator).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an AC generator uses slip rings while a DC generator uses a split-ring commutator. What would happen if you used slip rings in a DC generator?",
+     "a": "Slip rings provide continuous contact without reversing connections, so the output follows the alternating induced emf (AC). The split-ring commutator reverses the coil's connection to the external circuit every half-rotation, ensuring the current in the external circuit always flows in one direction (DC). If slip rings were used in a DC generator, the output would be alternating, not direct. A wrong answer indicates the student does not understand how the commutator rectifies the alternating emf internally.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular coil of 100 turns, area 0.1 m², rotates at 60 rpm in a uniform magnetic field of 0.5 T. Calculate the maximum induced emf. (Use ε_max = NBAω, where ω = 2πf, f = frequency in Hz)",
+     "a": "Given: N = 100, B = 0.5 T, A = 0.1 m², f = 60 rpm = 1 Hz.\nω = 2πf = 2π rad/s.\nε_max = NBAω = 100 × 0.5 × 0.1 × 2π = 10π ≈ 31.4 V.\nUnit check: T·m²·s⁻¹ = (N/(A·m))·m²·s⁻¹ = N·m/(A·s) = J/C = V. Correct.\nA wrong answer (e.g., forgetting to convert rpm to Hz, or using ω = 60) reveals unit conversion error or confusion between angular speed and frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output waveforms of a single-coil AC generator and a single-coil DC generator. Sketch both waveforms for two full rotations and label the axes. Why is the DC output not a steady straight line?",
+     "a": "AC output: sinusoidal wave alternating between +ε_max and -ε_max, period T = 1/f. DC output: pulsating unidirectional wave — always positive (or negative), but magnitude varies as |sin(ωt)|, dropping to zero twice per rotation. The DC output is not steady because the induced emf in the coil is inherently alternating; the commutator only flips the negative half-cycles to positive, but cannot smooth the magnitude variation. A wrong answer (e.g., drawing a flat line for DC) shows the misconception that a commutator produces perfect constant voltage.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a DC generator, the split-ring commutator converts AC to DC by changing the magnetic field direction.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. The commutator does not change the magnetic field direction (which is fixed by the permanent magnet or electromagnet). It reverses the connection of the coil to the external circuit every half-rotation, so that the current in the external circuit flows in one direction despite the alternating emf in the coil. The magnetic field remains constant. A wrong evaluation reveals confusion between the roles of field, coil rotation, and commutator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a coil, a strong magnet, and a galvanometer to demonstrate that the induced emf is maximum when the coil's plane is parallel to the magnetic field and zero when perpendicular. Describe the procedure and expected observations.",
+     "a": "Procedure: Connect a multi-turn coil to a sensitive galvanometer. Place a strong bar magnet near the coil. Rotate the coil manually about its vertical axis and observe the galvanometer deflection. When the coil's plane is parallel to the magnetic field (flux = 0, rate of change of flux maximum), the galvanometer shows maximum deflection. When the coil's plane is perpendicular to the field (flux maximum, rate of change zero), the deflection is zero. A poor answer (e.g., saying maximum deflection occurs at perpendicular orientation) indicates misunderstanding of the relationship between flux and rate of change of flux (ε ∝ -dΦ/dt, not Φ).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

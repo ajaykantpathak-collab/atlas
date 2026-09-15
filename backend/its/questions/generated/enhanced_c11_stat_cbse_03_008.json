@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_008",
+   "title": "c11_stat_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a discrete variable that makes a frequency array the appropriate classification method instead of a grouped frequency distribution?",
+     "a": "A discrete variable takes only specific, isolated values (usually integers) with no possible intermediate values between them. A wrong answer (e.g., \"discrete variables have fewer values\") reveals confusion between \"number of values\" and \"nature of values\" — continuous variables can also have few observed values but still require class intervals because they *could* take intermediate values.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a frequency array for \"number of cars owned per household\" from a survey of 50 households. They create class intervals 0–1, 2–3, 4–5 instead of listing 0, 1, 2, 3, 4, 5 separately. Explain why this is incorrect for a discrete variable.",
+     "a": "Grouping discrete values into intervals (e.g., 0–1) loses the exact distribution — we can no longer tell how many households have exactly 0 cars vs. exactly 1 car. A wrong answer (e.g., \"it's easier to read\") shows the student prioritizes convenience over the defining property of discrete data: each distinct value carries unique information and must be preserved.",
+     "self_check": true
+    },
+    {
+     "q": "Given the raw data on \"number of defective items in 20 batches\": 2, 0, 1, 3, 2, 0, 1, 2, 4, 1, 0, 2, 3, 1, 2, 0, 1, 2, 3, 1. Construct the frequency array and state the mode.",
+     "a": "Frequency array: 0→4, 1→6, 2→5, 3→3, 4→1. Mode = 1 (highest frequency 6). A wrong answer (e.g., mode = 2) reveals the student either miscounted tallies or confused the value with the frequency. Steps: list values 0–4, tally each occurrence, count tallies, identify max frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information retained in a frequency array for discrete data versus a grouped frequency distribution for continuous data. Why is \"loss of information\" zero in a frequency array but inherent in grouped distributions?",
+     "a": "In a frequency array, every distinct value of the discrete variable is explicitly listed with its exact frequency — no grouping occurs, so original values are fully recoverable. In grouped distributions, individual observations are replaced by class marks, losing exact values. A wrong answer (e.g., \"both lose information\") shows misunderstanding that discrete variables have no intermediate values to lose.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher argues: \"Since frequency arrays preserve all data, we should always use them instead of grouped distributions, even for continuous variables like height.\" Evaluate this claim.",
+     "a": "The claim is invalid. Continuous variables (height) take infinite possible values in any range — listing each observed value (e.g., 162.3, 162.4, 162.35...) would create an unwieldy table with mostly frequency 1, defeating the purpose of summarization. Grouping is necessary for continuous data. A wrong answer (e.g., \"yes, it's more accurate\") shows failure to distinguish between discrete (finite/countable values) and continuous (infinite values) variables.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving a discrete variable where a frequency array would be misleading if the variable's values are not naturally ordered (e.g., nominal categories coded as numbers). Explain why.",
+     "a": "Example: \"Disease type coded as 1=Malaria, 2=Dengue, 3=Typhoid\". A frequency array listing 1, 2, 3 with frequencies implies numerical order, but the codes are nominal — 2 is not \"greater than\" 1. The array misleads by suggesting ordinality. A poor answer (e.g., \"any categorical data\") fails to specify the coding trap: numbers used as labels, not measurements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

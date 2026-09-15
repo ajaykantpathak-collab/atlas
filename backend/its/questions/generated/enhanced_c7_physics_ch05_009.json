@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_009",
+   "title": "c7_physics_ch05_009",
+   "questions": [
+    {
+     "q": "What type of reflecting surfaces are used inside a standard school periscope?",
+     "a": "Plane mirrors are used inside a standard school periscope. A student who answers \"convex mirrors\" or \"concave mirrors\" likely confuses the periscope with security mirrors or headlights, not realizing that a periscope needs to pass an unmagnified, upright image without distortion through multiple reflections.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the two plane mirrors inside a periscope be placed at an angle of 45 degrees to the frame of the tube?",
+     "a": "The mirrors must be at 45 degrees so that incoming horizontal light rays from an object strike the top mirror and are turned vertically downward by 90 degrees, and then strike the bottom mirror to be turned horizontally outward by another 90 degrees into the eye. A student who answers \"so that the light can speed up\" or \"to make the image bigger\" confuses reflection with refraction or lenses, failing to understand how 90-degree directional turns require 45-degree mirror alignment.",
+     "self_check": true
+    },
+    {
+     "q": "If light strikes the top mirror of a periscope at an angle of incidence of 30 degrees measured from the normal, what is the angle of reflection at that mirror?",
+     "a": "The angle of reflection is 30 degrees. \nSteps:\n1. Identify the given value: angle of incidence ($i$) = 30°.\n2. Recall the law of reflection: The angle of incidence equals the angle of reflection ($\\angle i = \\angle r$).\n3. Set up the relation: $\\angle r = 30°$.\n4. State the final answer with units: 30 degrees.\nA student who answers \"60 degrees\" likely subtracted the angle of incidence from 90 degrees and incorrectly put that as the angle of reflection, forgetting that the law states incidence equals reflection directly.",
+     "self_check": true
+    },
+    {
+     "q": "How does the final image seen through a simple two-mirror periscope compare to the actual object in terms of orientation (upright or inverted)?",
+     "a": "The final image is upright (erect). \nSteps:\n1. Analyze the first reflection: The top mirror inverts the object vertically and laterally (upside down and reversed left-to-right).\n2. Analyze the second reflection: The bottom mirror reflects the image a second time.\n3. Combine the effects: Two successive reflections cancel out each other's inversion, making the final image appear right-side up to the observer.\nA student who answers \"inverted\" only thought about the first mirror and forgot that the second mirror performs a second inversion that restores the upright orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A student builds a periscope where the top and bottom mirrors are accidentally glued parallel to each other, but at an angle of 30 degrees to the tube instead of 45 degrees. Will the periscope successfully show an object located straight ahead over a barrier? Explain why or why not.",
+     "a": "No, it will not successfully show the object. \nJustification: For a periscope to successfully transmit light from a horizontal source over a vertical obstacle into a horizontal eye, the total directional change must be 180 degrees (two 90-degree turns). This requires the mirrors to be at 45 degrees to the main axis. If they are at 30 degrees, the light rays will bounce off at incorrect angles and miss the second mirror entirely or exit downward/upward away from the observer's eye. A student who thinks \"any angle works as long as they are parallel\" does not understand how the geometry of 45-degree angles is strictly required for 90-degree directional changes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple modification to a standard cardboard periscope that would allow an observer inside a room to see around a 90-degree hallway corner without changing the overall length of the vertical tube.",
+     "a": "To see around a horizontal 90-degree hallway corner, the student must rotate the bottom mirror 90 degrees horizontally relative to the top mirror, or build a horizontal periscope bend instead of a vertical one, aligning the mirrors so the light path twists around the corner. A poor answer would suggest adding a convex lens or a battery, which shows a complete misunderstanding that this is purely a geometry and reflection problem requiring mirror orientation adjustment rather than electrical or magnifying components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

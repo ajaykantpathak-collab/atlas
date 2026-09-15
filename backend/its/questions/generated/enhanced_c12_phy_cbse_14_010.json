@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_010",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_010",
+   "title": "c12_phy_cbse_14_010",
+   "questions": [
+    {
+     "q": "Draw the standard circuit symbol for a 2-input NAND gate and write its truth table. What is its Boolean expression?",
+     "a": "**Symbol:** AND gate symbol (D-shaped) with a small circle (inversion bubble) at the output tip. **Truth Table:** A=0,B=0→Y=1; A=0,B=1→Y=1; A=1,B=0→Y=1; A=1,B=1→Y=0. **Boolean Expression:** Y = (A·B)' or Y = Ā + B̄ (by De Morgan). A wrong answer (e.g., writing Y = A·B) reveals the student has confused NAND with AND and missed the inversion bubble — the most common symbol-reading error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a NAND gate is called a \"universal gate\". Can a single NOR gate also be used to implement any Boolean function? Justify your answer.",
+     "a": "A NAND gate is universal because **any** Boolean function (AND, OR, NOT) can be constructed using only NAND gates: NOT = NAND with inputs shorted (Y = (A·A)' = Ā); AND = NAND followed by NOT (two NANDs); OR = three NANDs using De Morgan (Y = (Ā·B̄)' = A+B). Yes, a single NOR gate is also universal for the same reason (NOT = NOR with inputs shorted; OR = NOR+NOT; AND = three NORs). A wrong answer claiming only NAND is universal reveals ignorance of the dual nature of De Morgan's theorems — a frequent JEE trap where students memorize \"NAND is universal\" without understanding why NOR shares the property.",
+     "self_check": true
+    },
+    {
+     "q": "A circuit consists of a 2-input AND gate whose output is fed into a NOT gate. The inputs to the AND gate are A and B. Determine the output Y for all four input combinations and identify which single gate this combination is equivalent to.",
+     "a": "**Step 1:** AND gate output X = A·B. Truth table: (0,0)→0; (0,1)→0; (1,0)→0; (1,1)→1. **Step 2:** NOT gate inverts X: Y = X'. **Step 3:** Final Y: (0,0)→1; (0,1)→1; (1,0)→1; (1,1)→0. **Step 4:** This matches the NAND gate truth table exactly. **Equivalent gate: NAND.** A wrong answer (e.g., saying it's a NOR) reveals the student incorrectly applied the inversion to the inputs instead of the output, or confused the order of operations — a common error when analyzing cascaded gates without writing intermediate steps.",
+     "self_check": true
+    },
+    {
+     "q": "Two circuits are given: Circuit P = A NOR B. Circuit Q = (NOT A) AND (NOT B). Are Circuit P and Circuit Q logically equivalent? Prove your answer using a truth table or Boolean algebra.",
+     "a": "**Yes, they are equivalent.** **Proof by Truth Table:** A=0,B=0: P=(0+0)'=1; Q=1·1=1. A=0,B=1: P=(0+1)'=0; Q=1·0=0. A=1,B=0: P=(1+0)'=0; Q=0·1=0. A=1,B=1: P=(1+1)'=0; Q=0·0=0. All four rows match. **Proof by Boolean Algebra:** P = (A+B)'. By De Morgan's First Theorem: (A+B)' = Ā·B̄ = Q. A wrong answer claiming they are different reveals the student either doesn't know De Morgan's theorem or misapplies it (e.g., writing (A+B)' = Ā+B̄) — a critical error that costs marks in both board and JEE questions on gate equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "A student designs a \"majority voter\" circuit for three inputs (A, B, C) that outputs 1 if at least two inputs are 1. They propose: Y = (A·B) + (B·C) + (C·A). Evaluate if this expression is correct. If incorrect, provide the correct expression.",
+     "a": "**The expression is CORRECT.** **Evaluation:** List all 8 combinations: (0,0,0)→0; (0,0,1)→0; (0,1,0)→0; (0,1,1)→1 (B·C=1); (1,0,0)→0; (1,0,1)→1 (C·A=1); (1,1,0)→1 (A·B=1); (1,1,1)→1 (all three terms 1). Output is 1 exactly when two or three inputs are 1 — matches majority voter definition. A wrong evaluation (e.g., saying it's wrong because \"it doesn't handle three 1s\") reveals the student doesn't realize that Boolean OR (+) gives 1 if **any** term is 1, and all three terms become 1 when A=B=C=1 — a misunderstanding of how sum-of-products covers the all-1s case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple digital circuit using only 2-input NAND gates to implement the Boolean function Y = A + B (OR gate). Draw the circuit diagram and write the Boolean expression at each stage.",
+     "a": "**Circuit:** Stage 1: NAND gate with both inputs = A → output X = (A·A)' = Ā. Stage 2: NAND gate with both inputs = B → output Y = (B·B)' = B̄. Stage 3: NAND gate with inputs X and Y → output Z = (X·Y)' = (Ā·B̄)' = A + B (by De Morgan). **Total: 3 NAND gates.** A poor answer (e.g., using 4 gates or mixing NOR gates) reveals the student hasn't internalized the systematic NAND-only synthesis: **NOT from NAND (short inputs), then OR from NANDs via De Morgan**. This is a standard JEE/NEET problem; inability to do it indicates insufficient practice with universal gate conversions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

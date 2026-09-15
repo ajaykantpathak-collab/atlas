@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_012",
+   "title": "c11_ps_cbse_12_012",
+   "questions": [
+    {
+     "q": "What is the minimum vote share a political party must secure in a general election to be eligible for recognition as a State party by the Election Commission of India?",
+     "a": "A party must secure at least 6% of valid votes polled in the State in a general election to the Lok Sabha or State Legislative Assembly, AND win at least 2 seats in the Assembly or 1 seat in the Lok Sabha from that State. A wrong answer (e.g., \"10% vote share\" or \"winning 5 seats\") reveals confusion with national party criteria or misunderstanding of the dual threshold (votes + seats) required for State recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the First Past the Post (FPTP) system create a structural disadvantage for independent candidates compared to party candidates, even though both need only a plurality to win?",
+     "a": "FPTP rewards concentrated support; parties bring organizational machinery, brand recognition, and committed voter bases that help consolidate votes efficiently. Independents lack these resources and often split the vote in their own favor only in pockets, making it harder to achieve a plurality across the whole constituency. A wrong answer focusing only on \"symbol recognition\" or \"money power\" misses the systemic linkage between FPTP's plurality rule and the organizational advantage of parties.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical constituency, Candidate A (Party X) gets 38% votes, Candidate B (Party Y) gets 35%, Candidate C (Independent) gets 27%. Candidate C alleges that Party X and Y colluded to keep her out. Apply the FPTP rule and the concept of vote splitting to evaluate this claim.",
+     "a": "Under FPTP, Candidate A wins with 38% (plurality). Vote splitting occurs when multiple candidates appeal to similar voter segments, reducing each other's share. If Candidate C's voters would otherwise have voted for Candidate B, then C's presence split the anti-Party X vote, helping A win. The claim of collusion is a political allegation; the structural outcome is that FPTP does not require a majority, so a candidate can win with less than 50% even if a majority preferred others. A wrong answer declaring \"Candidate C should win because 62% voted against A\" misunderstands FPTP's plurality principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recognition criteria for a National Party versus a State Party in India. How do these criteria reflect the federal structure of the party system?",
+     "a": "National Party: 6% vote share in four or more States AND 4 Lok Sabha seats from any State(s) OR 2% Lok Sabha seats from at least three States. State Party: 6% vote share in the State AND 2 Assembly seats/1 Lok Sabha seat from that State. The criteria mirror federalism: national recognition requires cross-state presence, while state recognition requires dominance in a single State. A wrong answer that lists only vote percentages or seat numbers without the \"across States\" condition fails to grasp the federal logic of party recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The anti-defection law (Tenth Schedule) has strengthened party discipline but weakened the role of independent legislators in Parliament.\" Provide two constitutional or political reasons.",
+     "a": "The anti-defection law binds party legislators to the party whip, reducing intra-party dissent and making party leadership the effective decision-maker. Independents, not being subject to a party whip, retain voting freedom but lack the collective bargaining power of a party bloc, making them marginal in government formation and legislative agenda-setting. A wrong answer claiming \"independents are also bound by the whip\" or \"the law applies equally to all\" shows ignorance of the Tenth Schedule's applicability only to members of legislative parties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a reform proposal to enhance the viability of independent candidates in Indian elections without abandoning the FPTP system. Your proposal must address at least two structural barriers.",
+     "a": "A strong proposal might include: (1) State funding of elections for candidates securing a minimum vote threshold (e.g., 10%) to reduce resource disparity; (2) Providing free airtime on public broadcaster for all candidates, not just recognized parties; (3) Simplifying nomination procedures (e.g., reducing proposer requirements for independents). A poor proposal that suggests \"switching to proportional representation\" or \"banning parties\" fails to work within the FPTP constraint and ignores the constitutional framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

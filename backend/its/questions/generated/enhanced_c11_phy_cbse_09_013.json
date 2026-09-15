@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_013",
+   "title": "c11_phy_cbse_09_013",
+   "questions": [
+    {
+     "q": "State the capillary ascent formula and define each variable with its SI unit. Why does the formula contain \\( \\cos\\theta \\) instead of \\( \\sin\\theta \\) or \\( \\theta \\) directly?",
+     "a": "The formula is \\( h = \\frac{2S \\cos\\theta}{\\rho g r} \\). Variables: \\( h \\) (capillary rise, m), \\( S \\) (surface tension, N/m), \\( \\theta \\) (contact angle, rad/°), \\( \\rho \\) (density, kg/m³), \\( g \\) (gravity, m/s²), \\( r \\) (tube radius, m). \\( \\cos\\theta \\) appears because the radius of curvature of the meniscus is \\( R = r / \\cos\\theta \\); the vertical component of the surface tension force supporting the column is \\( 2\\pi r S \\cos\\theta \\). A wrong answer (e.g., using \\( \\sin\\theta \\) or omitting \\( \\cos\\theta \\)) reveals the student memorized the formula without understanding the geometric projection of the meniscus curvature onto the tube axis.",
+     "self_check": true
+    },
+    {
+     "q": "Water rises in a clean glass capillary tube, but mercury falls in the same tube. Using the concept of contact angle and pressure balance, explain why the *sign* of \\( h \\) is opposite for these two liquids.",
+     "a": "For water-glass, \\( \\theta \\approx 0^\\circ \\) (acute), so \\( \\cos\\theta > 0 \\). The meniscus is concave (curved upward), making the pressure on the liquid side *lower* than atmospheric by \\( \\frac{2S}{R} \\). To balance, the liquid must rise to increase hydrostatic pressure at the base. For mercury-glass, \\( \\theta \\approx 140^\\circ \\) (obtuse), so \\( \\cos\\theta < 0 \\). The meniscus is convex (curved downward), making the pressure on the liquid side *higher* than atmospheric. The liquid descends until the reduced hydrostatic pressure balances the excess. A student who says \"mercury is heavier so it falls\" confuses density (which affects magnitude) with the *direction* determined solely by the sign of \\( \\cos\\theta \\).",
+     "self_check": true
+    },
+    {
+     "q": "A glass capillary tube of internal diameter 0.40 mm is dipped vertically in water at 20°C. Given \\( S = 0.072 \\, \\text{N/m} \\), \\( \\theta = 0^\\circ \\), \\( \\rho = 1000 \\, \\text{kg/m}^3 \\), and \\( g = 9.8 \\, \\text{m/s}^2 \\), calculate the capillary rise. Express your answer in cm.",
+     "a": "**Given:** \\( d = 0.40 \\, \\text{mm} = 0.40 \\times 10^{-3} \\, \\text{m} \\), so \\( r = 0.20 \\times 10^{-3} \\, \\text{m} \\). \\( S = 0.072 \\, \\text{N/m} \\), \\( \\cos 0^\\circ = 1 \\), \\( \\rho = 1000 \\, \\text{kg/m}^3 \\), \\( g = 9.8 \\, \\text{m/s}^2 \\).\n**Formula:** \\( h = \\frac{2S \\cos\\theta}{\\rho g r} \\)\n**Substitute:** \\( h = \\frac{2 \\times 0.072 \\times 1}{1000 \\times 9.8 \\times 0.20 \\times 10^{-3}} \\)\n**Compute:** Numerator = 0.144 N/m. Denominator = \\( 1000 \\times 9.8 \\times 2 \\times 10^{-4} = 1.96 \\, \\text{N/m}^2 \\).\n\\( h = \\frac{0.144}{1.96} = 0.07347 \\, \\text{m} = 7.35 \\, \\text{cm} \\).\n**Unit check:** \\( \\frac{\\text{N/m}}{(\\text{kg/m}^3)(\\text{m/s}^2)(\\text{m})} = \\frac{\\text{kg·m/s}^2/\\text{m}}{\\text{kg/(m·s}^2)} = \\text{m} \\). Correct.\nA wrong answer (e.g., 14.7 cm) indicates the student used diameter instead of radius. An answer of 0.735 cm suggests a unit conversion error (mm to m).",
+     "self_check": true
+    },
+    {
+     "q": "Two capillary tubes of radii \\( r_1 = 0.1 \\, \\text{mm} \\) and \\( r_2 = 0.2 \\, \\text{mm} \\) are dipped in the same liquid. The rise in the first tube is \\( h_1 \\). Without calculating \\( h_1 \\), determine the ratio \\( h_2/h_1 \\). If the liquid is replaced by another with twice the surface tension and half the density (contact angle unchanged), what is the new ratio \\( h_2'/h_1' \\)?",
+     "a": "From \\( h \\propto 1/r \\), \\( h_2/h_1 = r_1/r_2 = 0.1/0.2 = 0.5 \\). The ratio is independent of \\( S \\), \\( \\rho \\), and \\( \\theta \\) because they cancel out. For the new liquid, \\( S' = 2S \\), \\( \\rho' = \\rho/2 \\), so \\( h' \\propto S'/\\rho' = (2S)/(\\rho/2) = 4(S/\\rho) \\). Both \\( h_1' \\) and \\( h_2' \\) increase by a factor of 4, so the ratio \\( h_2'/h_1' = h_2/h_1 = 0.5 \\) remains unchanged. A student who claims the ratio changes has not recognized that the liquid properties scale both heights equally.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the capillary rise of water in a tube of radius 0.5 mm and gets \\( h = 2.94 \\, \\text{cm} \\). They used \\( S = 0.072 \\, \\text{N/m} \\), \\( \\rho = 1000 \\, \\text{kg/m}^3 \\), \\( g = 9.8 \\, \\text{m/s}^2 \\), \\( \\theta = 0^\\circ \\). Is their answer correct? If not, identify the error.",
+     "a": "**Correct calculation:** \\( r = 0.5 \\times 10^{-3} \\, \\text{m} \\). \\( h = \\frac{2 \\times 0.072 \\times 1}{1000 \\times 9.8 \\times 0.5 \\times 10^{-3}} = \\frac{0.144}{4.9} = 0.02939 \\, \\text{m} = 2.94 \\, \\text{cm} \\). The student's answer **is correct**. A student who flags this as wrong might have mistakenly used diameter (1 mm) giving 1.47 cm, or mis-calculated the denominator. This question tests careful evaluation of a given solution rather than assuming an error exists.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to determine the surface tension of an unknown liquid using the capillary rise method. List the measurements needed, the equipment required, and the formula you would use. How would you ensure the contact angle is known or negligible?",
+     "a": "**Equipment:** Capillary tubes of known radii (measured with a travelling microscope), a beaker, the unknown liquid, a ruler or cathetometer for height measurement, thermometer. **Measurements:** Capillary rise \\( h \\), tube radius \\( r \\), liquid density \\( \\rho \\) (via specific gravity bottle), temperature, and contact angle \\( \\theta \\) (using a goniometer or assuming \\( \\theta \\approx 0^\\circ \\) for pure water in clean glass). **Formula:** \\( S = \\frac{h \\rho g r}{2 \\cos\\theta} \\). **Ensuring \\( \\theta \\)):** Clean the tube thoroughly with chromic acid and rinse with distilled water to ensure \\( \\theta \\approx 0^\\circ \\) for water. For other liquids, measure \\( \\theta \\) independently using a sessile drop method. A poor answer omits radius measurement, ignores temperature control, or assumes \\( \\cos\\theta = 1 \\) without justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

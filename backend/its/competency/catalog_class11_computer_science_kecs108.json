@@ -1,0 +1,366 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 8,
+ "chapter_title": "Strings",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs108.1",
+   "title": "Indexing Characters in a String",
+   "section": "8.2.1",
+   "definition": "Square-bracket indexing reaches any single character of a string: positions count from 0 on the left up to length minus 1, and negative positions count backwards from -1 on the right down to minus the length; an out-of-range position raises IndexError.",
+   "formula": "last_index = size - 1",
+   "key_idea": "The mirror rule is simple: position i from the left equals position i minus size from the right.",
+   "textbook_ref": "kecs108.txt, section 8.2.1 and Table 8.1",
+   "question_patterns": [
+    "For str1 = 'Hello World!', which character does str1[6] return and which does str1[-6] return?",
+    "What error appears when str1[15] is used on a 12-character string, and why?",
+    "Why does str1[1.5] fail while str1[2+4] works?",
+    "Given the length of a string, write the expression that fetches its last character without hard-coding the index.",
+    "For the string 'Hello World!', what is the negative index of the letter W?",
+    "What single value does str1[-12] return for 'Hello World!'?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the last forward index",
+     "explain": "Positions run 0 to size minus 1.",
+     "compute": "last_index = size - 1"
+    },
+    {
+     "step": 2,
+     "action": "locate the first backward index",
+     "explain": "Backward counting starts at minus the size.",
+     "compute": "neg_start = 0 - size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the index of the first character of a Python string?",
+     "a": "0"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.2",
+   "title": "Slice Length Arithmetic",
+   "section": "8.3.4",
+   "definition": "The slice str1[n:m] copies characters from position n up to but excluding m, so the copy always holds m minus n characters; a third value k keeps only every k-th one, and the kept count rounds the span up over k.",
+   "formula": "kept = (last - first + k - 1) // k",
+   "key_idea": "A first index larger than the second yields an empty string, and a too-large second index quietly shrinks to the end.",
+   "textbook_ref": "kecs108.txt, section 8.3.4",
+   "question_patterns": [
+    "How many characters does str1[1:5] of 'Hello World!' return, and what are they?",
+    "Predict the output of mySubject[::2] for mySubject = 'Computer Science'.",
+    "Why does str1[7:2] give an empty string?",
+    "How many characters are selected by str1[0:10:3]?",
+    "A slice str1[3:20] on a 12-character string returns 9 characters. Explain the truncation.",
+    "What does str1[::-1] produce and which parameter makes it run backwards?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the slice span",
+     "explain": "The span is the stop minus the start.",
+     "compute": "span = last - first"
+    },
+    {
+     "step": 2,
+     "action": "round the span up over the step",
+     "explain": "Adding step minus 1 before floor division counts every k-th character kept.",
+     "compute": "kept = (span + k - 1) // k"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many characters does the slice str1[2:7] copy?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.3",
+   "title": "Concatenation and Repetition Lengths",
+   "section": "8.3.1 and 8.3.2",
+   "definition": "Joining two strings with + forms a new string whose length is the sum of both lengths, and repeating with * multiplies the length by the copy count; neither operation changes the original strings.",
+   "formula": "after_rep = (first_len + second_len) * copies",
+   "key_idea": "Both operators build fresh strings, which is why the originals still print unchanged afterwards.",
+   "textbook_ref": "kecs108.txt, sections 8.3.1 and 8.3.2",
+   "question_patterns": [
+    "What is the length of 'Hello' + 'World!', and of that result repeated twice?",
+    "Predict the output of 2 * mySubject for mySubject = 'Computer Science'.",
+    "Why do str1 and str2 still hold their old values after str1 + str2 is evaluated?",
+    "A string of length 7 is repeated 4 times. How many characters result?",
+    "Join 'India' and 'Gate' with a space in between and give the resulting length."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "length of the joined string",
+     "explain": "Concatenation adds the two lengths.",
+     "compute": "total_len = first_len + second_len"
+    },
+    {
+     "step": 2,
+     "action": "length after repetition",
+     "explain": "Each copy repeats the whole joined length.",
+     "compute": "after_rep = total_len * copies"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 4-letter word is repeated 3 times with the * operator. How many letters long is the result?",
+     "a": "12"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.4",
+   "title": "Sum of Digits Hidden in a String",
+   "section": "Programming Problem 4",
+   "definition": "A string may carry digit characters among letters; each digit character has an ASCII code 48 more than its face value, so subtracting 48 from the code turns the character into its number before the values are totalled.",
+   "formula": "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)",
+   "key_idea": "Character zero has code 48, so every digit character converts by dropping 48 from its code.",
+   "textbook_ref": "kecs108.txt, Programming Problem 4",
+   "question_patterns": [
+    "The string 'a25b7' hides which digits, and what is their sum?",
+    "Write a function that returns the total of the digits present in a given string.",
+    "A digit character has ASCII code 53. Which digit is it, and what value does the conversion give?",
+    "Find the digit total hidden in the string 'x9y1z4'.",
+    "Why does subtracting 48 from a character code recover the digit's numeric value?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the first digit character",
+     "explain": "Subtract 48 from its ASCII code.",
+     "compute": "d1 = code1 - 48"
+    },
+    {
+     "step": 2,
+     "action": "convert the second digit character",
+     "explain": "Same code offset of 48.",
+     "compute": "d2 = code2 - 48"
+    },
+    {
+     "step": 3,
+     "action": "convert the third digit character",
+     "explain": "Again drop 48.",
+     "compute": "d3 = code3 - 48"
+    },
+    {
+     "step": 4,
+     "action": "total the digits",
+     "explain": "Add the recovered values.",
+     "compute": "digit_sum = d1 + d2 + d3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Digit characters convert by subtracting 48 from their ASCII code. Which digit has code 50?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.5",
+   "title": "Counting Alphabets, Digits and Symbols in a Line",
+   "section": "Programming Problem 1 and Program 8-1",
+   "definition": "Traversing a line character by character sorts each one into a bucket: alphabets, digits, special symbols or whitespace; adding the four bucket counts must reproduce the total character count returned by len().",
+   "formula": "total_check = alphabets + digits + specials + spaces",
+   "key_idea": "A counter that increments inside an if branch per category is the standard pattern for this classification.",
+   "textbook_ref": "kecs108.txt, Programming Problem 1 and Program 8-1 (charCount)",
+   "question_patterns": [
+    "In the line 'Today is a Holiday', how many times does the character a occur, per the charCount function?",
+    "A line has 12 alphabets, 3 digits, 4 special symbols and 5 spaces. What total does len() report?",
+    "Write a program that counts characters, alphabets, digits, special symbols and words in an input line.",
+    "Why must every character land in exactly one category for the bucket totals to add up?",
+    "The traversal finds 10 letters and 2 digits in a 16-character line. How many spaces and symbols does it hold together?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "merge the letter and digit buckets",
+     "explain": "Alphabets and digits are counted first.",
+     "compute": "letters_and_digits = alphabets + digits"
+    },
+    {
+     "step": 2,
+     "action": "add the symbol bucket",
+     "explain": "Special symbols join next.",
+     "compute": "with_specials = letters_and_digits + specials"
+    },
+    {
+     "step": 3,
+     "action": "close with whitespace",
+     "explain": "Spaces complete the total, which should equal len() of the line.",
+     "compute": "total_check = with_specials + spaces"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many digit characters does the string 'a1!b2' hold?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.6",
+   "title": "Built-in Methods for String Manipulation",
+   "section": "8.5 and Table 8.2",
+   "definition": "Python ships string methods such as upper(), lower(), title(), count(), find(), index(), replace(), split(), join(), partition(), strip() and endswith(); find() answers -1 for a missing substring while index() raises ValueError instead.",
+   "formula": "str1.count(word) -> occurrences; str1.find(word) -> first index or -1",
+   "key_idea": "Methods never edit the original string; each one hands back a new value because strings cannot change.",
+   "textbook_ref": "kecs108.txt, section 8.5 and Table 8.2",
+   "question_patterns": [
+    "What do mySubject.count('e') and mySubject.find('Science') return for 'Computer Science'?",
+    "How does find() differ from index() when the substring is absent?",
+    "Give the output of myAddress.split(',') for 'WZ-1,New Ganga Nagar,New Delhi'.",
+    "What string results from str1.replace('o','*') on 'Hello World!'?",
+    "Which method trims whitespace from both ends, and which trims only the left?",
+    "Evaluate mySubject.title() after mySubject.lower() and give the result."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the method to a copy",
+     "explain": "Each method inspects or rebuilds the string and returns a new value; the original binding stays intact."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which string method answers -1 when the substring is missing?",
+     "a": "find()"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.7",
+   "title": "Palindrome Check by Two Indices",
+   "section": "Program 8-5",
+   "definition": "A palindrome reads the same in both directions; the check walks one index from the start and one from the end towards the middle, and any mismatched pair proves the string is not a palindrome.",
+   "formula": "front = 0, back = size - 1, move inward until front >= back",
+   "key_idea": "Comparing only half the string suffices, because the two indices meet in the middle.",
+   "textbook_ref": "kecs108.txt, Program 8-5 (checkPalin)",
+   "question_patterns": [
+    "Why is the string 'kanak' a palindrome while 'computer' is not, per checkPalin?",
+    "How many character comparisons does the two-index palindrome check make on a 7-letter string?",
+    "Write a function that returns True when its string argument is a palindrome.",
+    "What roles do the two indices play while traversing from both ends?",
+    "Is 'Kanak' with a capital K still a palindrome for this function? Justify."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare mirrored pairs",
+     "explain": "Match position front with position back, stepping both inward; returning False at the first mismatch and True when the indices cross."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Checking 'madam' with two indices: how many character pairs must match before the middle is reached?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "kecs108.8",
+   "title": "Immutability and Membership of Strings",
+   "section": "8.2.2 and 8.3.3",
+   "definition": "A string cannot be edited in place: assigning to one of its positions raises TypeError, so every apparent change builds a new string; the in and not in operators test whether one string occurs inside another, answering True or False.",
+   "formula": "str1[1] = 'a' -> TypeError; 'Wor' in str1 -> True",
+   "key_idea": "Immutability is the reason methods such as replace() must hand back a fresh string rather than patch the old one.",
+   "textbook_ref": "kecs108.txt, sections 8.2.2 and 8.3.3",
+   "question_patterns": [
+    "What error appears on executing str1[1] = 'a' for str1 = 'Hello World!'?",
+    "What do 'W' in str1 and 'My' in str1 return for 'Hello World!'?",
+    "How do you obtain the string 'Hallo' from 'Hello' if direct assignment is forbidden?",
+    "Why is a string called an immutable data type?",
+    "What does 'Hello' not in str1 evaluate to for str1 = 'Hello World!'?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test edit and membership",
+     "explain": "Item assignment on a string raises TypeError; membership operators only read, returning True when the left string occurs inside the right one."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Assigning to one position of a string raises which error: IndexError, TypeError or ValueError?",
+     "a": "TypeError"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs108.we1",
+   "title": "Index arithmetic on 'Computer Science'",
+   "concept_id": "kecs108.1",
+   "problem": "For mySubject = 'Computer Science' (16 characters), find the index of the last character and the span of the slice mySubject[-7:-1].",
+   "steps": [
+    {
+     "step": 1,
+     "action": "last forward index",
+     "explain": "Length 16 means positions run to 15.",
+     "compute": "last_index = 16 - 1"
+    },
+    {
+     "step": 2,
+     "action": "span of the negative slice",
+     "explain": "From -7 up to but excluding -1 covers six positions.",
+     "compute": "span = -1 - (-7)"
+    }
+   ],
+   "answer_note": "The last character sits at index 15, and mySubject[-7:-1] yields the six characters 'Scienc'."
+  },
+  {
+   "id": "kecs108.we2",
+   "title": "Counting a stepped slice",
+   "concept_id": "kecs108.2",
+   "problem": "How many characters does mySubject[::2] select from the 16-character string 'Computer Science'?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "span of the full string",
+     "explain": "Start defaults to 0 and stop to the length.",
+     "compute": "span = 16 - 0"
+    },
+    {
+     "step": 2,
+     "action": "apply the step of 2",
+     "explain": "Rounding the span up over the step counts the kept characters.",
+     "compute": "kept = (span + 2 - 1) // 2"
+    }
+   ],
+   "answer_note": "Eight characters are kept: C,m,p,t,S,i,n,e."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs108.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 8 Exercise (items reworded)",
+   "questions": [
+    "For mySubject = 'Computer Science', give the output of: mySubject[0:len(mySubject)], mySubject[-7:-1], mySubject[::2], mySubject[len(mySubject)-1], 2*mySubject, mySubject[::-2].",
+    "For mySubject = 'Computer Science', evaluate mySubject[:3] + mySubject[3:] and mySubject.startswith('Comp').",
+    "For myAddress = 'WZ-1,New Ganga Nagar,New Delhi', give the output of myAddress.count('New'), myAddress.find('New') and myAddress.replace('New','Old').",
+    "For myAddress above, what do myAddress.split(',') and myAddress.partition(',') return?",
+    "Write a function deleteChar() that removes every occurrence of a given character from a string and returns the new string.",
+    "Write a function that replaces every blank in a sentence with a hyphen and returns the modified sentence.",
+    "Write a program that reads a line and reports its total characters, alphabets, digits, special symbols and words.",
+    "Write a user defined function that converts a multi-word string into title case."
+   ]
+  }
+ ]
+}

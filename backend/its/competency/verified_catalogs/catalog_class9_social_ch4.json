@@ -1,0 +1,576 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "Early Humans and Beginning of Civilisation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest104.txt",
+ "concepts": [
+  {
+   "id": "c9ss.4.1",
+   "title": "Cultural Development from 2 Million Years Ago",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "Human cultural development began around 2 million years ago with the making of stone tools, gradually progressing through stages of tool technology, social organisation, and symbolic expression.",
+   "formula": "",
+   "key_idea": "The long span of human cultural evolution is divided into archaeological ages -- Palaeolithic, Mesolithic, Neolithic, Chalcolithic, and Iron Age -- based on the materials used for tools.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When did human cultural development begin?",
+    "Name the archaeological ages in chronological order.",
+    "What is meant by cultural development in human history?",
+    "How did the making of tools mark the beginning of culture?",
+    "Why is the study of stone tools important for understanding early humans?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the timeline",
+     "explain": "Human cultural development began around 2 million years ago with early stone tool making."
+    },
+    {
+     "step": 2,
+     "action": "List the archaeological ages",
+     "explain": "Palaeolithic, Mesolithic, Neolithic, Chalcolithic, and Iron Age follow in order."
+    },
+    {
+     "step": 3,
+     "action": "Explain significance",
+     "explain": "Each age reflects advances in tool technology, subsistence, and social organisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Approximately how long ago did human cultural development begin?",
+     "solution": "Archaeological evidence suggests that human cultural development, marked by tool making, began around 2 million years ago.",
+     "answer": "About 2 million years ago."
+    },
+    {
+     "question": "Name the archaeological ages in chronological order.",
+     "solution": "The ages are Palaeolithic, Mesolithic, Neolithic, Chalcolithic, and Iron Age, in that order.",
+     "answer": "Palaeolithic -> Mesolithic -> Neolithic -> Chalcolithic -> Iron Age."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by cultural development in the context of early humans?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the five archaeological ages in order.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.2",
+   "title": "Early Human History and Periodisation",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "Periodisation is the division of early human history into distinct periods based on the dominant material used for tools -- Stone Age, Copper Age, Bronze Age, and Iron Age.",
+   "formula": "",
+   "key_idea": "The three-age system -- Stone, Bronze, and Iron -- helps historians organise early human history, though the transition between ages was gradual and varied across regions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is periodisation in early human history?",
+    "Name the ages in the three-age system.",
+    "Why is the transition between ages not sharp?",
+    "How does periodisation help historians study early humans?",
+    "Which material defines the Bronze Age?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define periodisation",
+     "explain": "Periodisation is the division of history into periods based on tool materials."
+    },
+    {
+     "step": 2,
+     "action": "List the ages",
+     "explain": "Stone Age, Bronze Age, and Iron Age form the three-age system."
+    },
+    {
+     "step": 3,
+     "action": "Explain gradual transition",
+     "explain": "Different regions adopted new materials at different times, so transitions overlap."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the three-age system of periodisation?",
+     "solution": "The three-age system divides early history into the Stone Age, Bronze Age, and Iron Age based on the dominant tool material.",
+     "answer": "Stone Age, Bronze Age, and Iron Age."
+    },
+    {
+     "question": "Why is the transition between archaeological ages not sharp?",
+     "solution": "Because different regions adopted new technologies at different times, the ages overlap rather than change abruptly.",
+     "answer": "Transitions overlap because regions adopted technologies at different times."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define periodisation and state its purpose.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the three-age system is not strictly chronological across all regions.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.3",
+   "title": "Human Ancestors",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "Human ancestors were early hominid species that evolved over millions of years in Africa, developing bipedalism, larger brains, and the ability to make tools, culminating in Homo sapiens.",
+   "formula": "",
+   "key_idea": "Key ancestors include Australopithecus, Homo habilis, Homo erectus, and Homo sapiens; each stage shows advances in brain size, tool use, and social behaviour.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the important ancestors of modern humans.",
+    "Where did human ancestors first evolve?",
+    "What is bipedalism and why is it significant?",
+    "How did Homo erectus differ from earlier ancestors?",
+    "Which human ancestor is known as the handy man and why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ancestors",
+     "explain": "Australopithecus, Homo habilis, Homo erectus, and Homo sapiens are key ancestors in evolutionary order."
+    },
+    {
+     "step": 2,
+     "action": "State the origin",
+     "explain": "Human ancestors first evolved in Africa millions of years ago."
+    },
+    {
+     "step": 3,
+     "action": "Describe key developments",
+     "explain": "Bipedalism, increasing brain size, and tool-making ability developed progressively."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which human ancestor is known as 'handy man' and why?",
+     "solution": "Homo habilis is called 'handy man' because it is believed to be the first to make and use stone tools.",
+     "answer": "Homo habilis -- the first tool maker."
+    },
+    {
+     "question": "Where did human ancestors first evolve?",
+     "solution": "Fossil evidence indicates that early human ancestors first evolved in Africa.",
+     "answer": "Africa."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three important ancestors of modern humans.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the significance of bipedalism in human evolution.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.4",
+   "title": "Palaeolithic Hunter-Gatherers and Stone Tools",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "The Palaeolithic Age or Old Stone Age was the longest phase of human history, during which humans lived as hunter-gatherers and made crude stone tools like hand axes, flakes, and cleavers.",
+   "formula": "",
+   "key_idea": "Palaeolithic people were nomadic, hunted wild animals, gathered fruits and roots, used fire, and lived in caves or rock shelters; their tools were made by chipping stone.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Palaeolithic Age and what does the term mean?",
+    "How did Palaeolithic humans obtain their food?",
+    "Name three types of stone tools used by Palaeolithic humans.",
+    "Why were Palaeolithic humans nomadic?",
+    "What was the significance of the discovery of fire?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Palaeolithic Age",
+     "explain": "The Palaeolithic or Old Stone Age was the period when humans lived as nomadic hunter-gatherers."
+    },
+    {
+     "step": 2,
+     "action": "Describe stone tools",
+     "explain": "Tools such as hand axes, flakes, and cleavers were made by chipping stone."
+    },
+    {
+     "step": 3,
+     "action": "Explain way of life",
+     "explain": "People hunted animals, gathered food, used fire, and lived in caves, moving in search of resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Palaeolithic humans obtain their food?",
+     "solution": "Palaeolithic humans were hunter-gatherers who hunted wild animals and gathered fruits, nuts, and roots for food.",
+     "answer": "By hunting animals and gathering wild plants."
+    },
+    {
+     "question": "Name two types of stone tools made by Palaeolithic humans.",
+     "solution": "Hand axes and flakes were common stone tools made by chipping stones during the Palaeolithic Age.",
+     "answer": "Hand axes and flakes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why were Palaeolithic humans nomadic?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the life of a Palaeolithic hunter-gatherer.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.5",
+   "title": "Mesolithic Transition to Food Production",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "The Mesolithic Age or Middle Stone Age was a transitional phase between the Palaeolithic and Neolithic, marked by smaller stone tools called microliths and the gradual beginning of food production.",
+   "formula": "",
+   "key_idea": "During the Mesolithic period, climate warmed, large animals declined, and humans began to domesticate animals and experiment with cultivation, setting the stage for settled life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Mesolithic Age and what are its key features?",
+    "What are microliths and how were they used?",
+    "How did the Mesolithic period prepare humans for agriculture?",
+    "Why did large animals decline during the Mesolithic period?",
+    "What changes in climate marked the Mesolithic Age?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Mesolithic Age",
+     "explain": "The Mesolithic or Middle Stone Age was a transitional phase with smaller tools."
+    },
+    {
+     "step": 2,
+     "action": "Describe microliths",
+     "explain": "Microliths are tiny stone tools often attached to handles for use as arrows or sickles."
+    },
+    {
+     "step": 3,
+     "action": "Explain the transition",
+     "explain": "Warming climate and animal decline led humans to begin domestication and early cultivation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are microliths?",
+     "solution": "Microliths are very small stone tools made during the Mesolithic Age, often fitted onto wooden or bone handles to form arrows and sickles.",
+     "answer": "Small stone tools used in the Mesolithic Age."
+    },
+    {
+     "question": "Why did humans begin to domesticate animals during the Mesolithic period?",
+     "solution": "As the climate warmed and large game animals declined, humans began domesticating animals and experimenting with cultivation for a stable food supply.",
+     "answer": "Decline of large animals and climate change led to domestication."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What were microliths and how were they used?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the Mesolithic period was a transition toward food production.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.6",
+   "title": "Neolithic and Beginning of Agriculture",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "The Neolithic Age or New Stone Age marked the beginning of agriculture and settled life, with humans cultivating crops, domesticating animals, making pottery, and building permanent houses.",
+   "formula": "",
+   "key_idea": "The Neolithic Revolution was the transition from hunting-gathering to farming, enabling surplus food, population growth, and the rise of villages and specialised crafts.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Neolithic Revolution?",
+    "How did the beginning of agriculture change human life?",
+    "Name two crops first cultivated during the Neolithic Age.",
+    "What new technologies emerged in the Neolithic Age?",
+    "Why is the Neolithic Age called the New Stone Age?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Neolithic Age",
+     "explain": "The Neolithic or New Stone Age was the period when agriculture and settled life began."
+    },
+    {
+     "step": 2,
+     "action": "Describe agricultural beginnings",
+     "explain": "Humans began cultivating crops like wheat and barley and domesticating animals like goats and sheep."
+    },
+    {
+     "step": 3,
+     "action": "Explain consequences",
+     "explain": "Surplus food led to population growth, permanent settlements, pottery, and specialised crafts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Neolithic Revolution?",
+     "solution": "The Neolithic Revolution was the transition from a hunting-gathering way of life to one based on agriculture and settled living.",
+     "answer": "Transition from hunting-gathering to farming and settled life."
+    },
+    {
+     "question": "Name two crops cultivated during the Neolithic Age.",
+     "solution": "Wheat and barley were among the first crops cultivated by Neolithic farmers.",
+     "answer": "Wheat and barley."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did the beginning of agriculture change human life?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two animals domesticated during the Neolithic Age.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.7",
+   "title": "Rise of Early Civilisations",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "Early civilisations arose in river valleys -- Mesopotamia (Tigris-Euphrates), Egypt (Nile), and the Indus Valley (Indus) -- characterised by cities, writing systems, organised government, and specialised occupations.",
+   "formula": "",
+   "key_idea": "The surplus food from agriculture supported large populations, leading to urban centres, social stratification, trade, writing, and monumental architecture in these civilisations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the river valleys where early civilisations developed.",
+    "Which rivers supported the Mesopotamian civilisation?",
+    "What are the common features of early civilisations?",
+    "Why did early civilisations develop near rivers?",
+    "Which writing system developed in Mesopotamia?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the civilisations",
+     "explain": "Mesopotamia (Tigris-Euphrates), Egypt (Nile), and Indus Valley (Indus) were the early civilisations."
+    },
+    {
+     "step": 2,
+     "action": "State common features",
+     "explain": "Cities, writing, organised government, specialisation, and monumental architecture were common."
+    },
+    {
+     "step": 3,
+     "action": "Explain river-valley location",
+     "explain": "Rivers provided water, fertile soil, and transport, supporting agriculture and trade."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which rivers supported the Mesopotamian civilisation?",
+     "solution": "The Mesopotamian civilisation developed between the Tigris and Euphrates rivers in present-day Iraq.",
+     "answer": "Tigris and Euphrates rivers."
+    },
+    {
+     "question": "Why did early civilisations develop near river valleys?",
+     "solution": "Rivers provided fertile soil, water for irrigation, and transport routes, enabling surplus food production and trade.",
+     "answer": "Fertile soil, water, and transport supported agriculture and trade."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three common features of early civilisations.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why early civilisations developed near river valleys.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the river around which the Egyptian civilisation developed.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.8",
+   "title": "Development of Trade and Urban Life",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "With surplus production and specialised crafts, early civilisations developed trade networks and urban centres where goods, ideas, and culture were exchanged, supported by writing and standardised weights.",
+   "formula": "",
+   "key_idea": "Trade grew from the exchange of surplus agricultural goods and crafts; urban centres emerged as administrative, religious, and commercial hubs with planned streets and public buildings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did trade develop in early civilisations?",
+    "What role did surplus production play in the growth of trade?",
+    "Name two goods commonly traded in early civilisations.",
+    "What features characterised urban life in early civilisations?",
+    "How did writing support trade and urban administration?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the origin of trade",
+     "explain": "Surplus food and craft specialisation created goods to exchange, leading to trade networks."
+    },
+    {
+     "step": 2,
+     "action": "Describe urban features",
+     "explain": "Cities had planned streets, markets, public buildings, and administrative centres."
+    },
+    {
+     "step": 3,
+     "action": "Link writing to trade",
+     "explain": "Writing was used to record transactions, maintain accounts, and administer trade."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did surplus production lead to the development of trade?",
+     "solution": "When farmers produced more than they needed, the surplus could be exchanged for crafts and other goods, creating trade networks.",
+     "answer": "Surplus goods were exchanged, creating trade networks."
+    },
+    {
+     "question": "Mention two features of urban life in the Indus Valley civilisation.",
+     "solution": "The Indus cities had planned grid streets and standardised weights and measures for trade.",
+     "answer": "Planned streets and standardised weights."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how trade developed in early civilisations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List two features of urban life in early civilisations.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.9",
+   "title": "Social Stratification and Specialisation",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "As civilisations developed, society became stratified with distinct classes -- rulers, priests, artisans, farmers, and labourers -- and occupational specialisation emerged due to surplus production.",
+   "formula": "",
+   "key_idea": "Surplus food freed some people from farming, allowing them to specialise as artisans, traders, priests, or administrators, leading to social hierarchy and organised governance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is social stratification in early civilisations?",
+    "How did occupational specialisation arise?",
+    "Name three occupational groups in early civilisations.",
+    "How did surplus food lead to social hierarchy?",
+    "What role did priests play in early civilisations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define social stratification",
+     "explain": "Society was divided into classes such as rulers, priests, artisans, and farmers."
+    },
+    {
+     "step": 2,
+     "action": "Explain specialisation",
+     "explain": "Surplus production allowed people to specialise in crafts, trade, or administration."
+    },
+    {
+     "step": 3,
+     "action": "Describe consequences",
+     "explain": "Specialisation led to social hierarchy, organised governance, and cultural development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did surplus food lead to occupational specialisation?",
+     "solution": "When surplus food was produced, not everyone needed to farm; some could become artisans, traders, or administrators, leading to specialisation.",
+     "answer": "Surplus freed people to specialise in non-farming occupations."
+    },
+    {
+     "question": "Name three occupational groups that emerged in early civilisations.",
+     "solution": "Rulers, priests, artisans, farmers, and traders were key occupational groups in early civilisations.",
+     "answer": "Rulers, priests, and artisans."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is social stratification and how did it arise?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name three occupational groups in early civilisations.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.4.10",
+   "title": "Legacy of Early Civilisations",
+   "section": "Early Humans and Beginning of Civilisation",
+   "definition": "Early civilisations left lasting legacies in writing, mathematics, architecture, law, and governance that influenced later cultures and modern society.",
+   "formula": "",
+   "key_idea": "Inventions such as the wheel, writing systems, calendars, and monumental architecture from early civilisations formed the foundation for later cultural and technological progress.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List two legacies of early civilisations.",
+    "How did the invention of writing influence later societies?",
+    "What was the significance of the wheel in early civilisations?",
+    "How did early calendars contribute to agriculture?",
+    "Mention one architectural contribution of early civilisations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key legacies",
+     "explain": "Writing, the wheel, calendars, mathematics, and monumental architecture are major legacies."
+    },
+    {
+     "step": 2,
+     "action": "Explain the impact of writing",
+     "explain": "Writing enabled record-keeping, literature, and administration, shaping later cultures."
+    },
+    {
+     "step": 3,
+     "action": "Describe other contributions",
+     "explain": "The wheel improved transport and pottery; calendars aided agriculture and timekeeping."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention two important legacies of early civilisations.",
+     "solution": "The invention of writing and the wheel are two important legacies that influenced later societies.",
+     "answer": "Writing and the wheel."
+    },
+    {
+     "question": "How did early calendars help agricultural societies?",
+     "solution": "Calendars helped farmers predict seasons and plan sowing and harvesting, improving agricultural efficiency.",
+     "answer": "Calendars helped predict seasons for farming."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three legacies of early civilisations.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the invention of writing influenced later societies.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched to new cache"
+}

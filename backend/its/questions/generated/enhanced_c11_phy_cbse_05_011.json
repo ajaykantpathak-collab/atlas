@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_011",
+   "title": "c11_phy_cbse_05_011",
+   "questions": [
+    {
+     "q": "State the SI unit of power and write its dimensional formula. How is it related to the units of work and time?",
+     "a": "The SI unit of power is the watt (W). Dimensional formula: [M L² T⁻³]. 1 W = 1 J/s = 1 (kg·m²/s²)/s = 1 kg·m²/s³. A wrong answer (e.g., saying unit is joule) reveals confusion between work/energy and power — the student has not grasped that power is a rate, not an amount.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If a force does no work, the power delivered by that force must be zero.\" Is this statement always true? Explain with an example involving uniform circular motion.",
+     "a": "Yes, the statement is always true. Power is the rate of doing work: P = dW/dt. If work done by a force is zero (e.g., centripetal force in uniform circular motion, where force is perpendicular to velocity), then dW/dt = 0, so power is zero. A wrong answer (saying power is non-zero) reveals the misconception that force alone implies power, ignoring the dot product with velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A water pump lifts 500 kg of water to a height of 20 m in 40 seconds. Calculate the average power output of the pump in watts and in horsepower (1 hp = 746 W). Take g = 10 m/s².",
+     "a": "Work done = mgh = 500 × 10 × 20 = 100,000 J. Average power = W/t = 100,000 / 40 = 2,500 W. In hp: 2,500 / 746 ≈ 3.35 hp. A wrong answer (e.g., forgetting g, or using mass instead of weight) reveals inability to compute work against gravity or unit conversion errors.",
+     "self_check": true
+    },
+    {
+     "q": "A car of mass 1000 kg moves on a horizontal road with a constant velocity of 30 m/s. The engine exerts a force of 2000 N to overcome friction and air resistance. What is the instantaneous power delivered by the engine? If the car now accelerates at 2 m/s² while the resistive force remains 2000 N, what is the new instantaneous power at the same velocity?",
+     "a": "Case 1: Constant velocity → net force zero, engine force = resistive force = 2000 N. P = F·v = 2000 × 30 = 60,000 W = 60 kW. Case 2: Accelerating at 2 m/s² → net force = ma = 2000 N. Engine force = resistive + net = 2000 + 2000 = 4000 N. P = 4000 × 30 = 120,000 W = 120 kW. A wrong answer (using only resistive force in case 2) shows failure to apply Newton's second law to find the required engine force.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"A 100 W bulb uses 100 J of energy every second, so in 1 hour it uses 100 × 60 = 6000 J.\" Identify the error and give the correct energy consumption in joules and in kWh.",
+     "a": "The error is in time conversion: 1 hour = 3600 seconds, not 60. Correct energy = 100 W × 3600 s = 360,000 J = 3.6 × 10⁵ J. In kWh: 100 W = 0.1 kW, time = 1 h → 0.1 kWh. A wrong answer reveals confusion between minutes and seconds, and between power and energy units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a meter scale, and a stopwatch to measure the average power you develop while pulling a wooden block horizontally at constant speed on a rough table. List the measurements, the formula you will use, and how you will ensure the speed is constant.",
+     "a": "Measure: force F (spring balance reading) while pulling at constant speed, displacement s (meter scale), time t (stopwatch). Average power P = F·s / t. To ensure constant speed, practice pulling so the spring balance reading stays steady, and verify by measuring time for equal distances. A poor answer omits the constant speed condition or uses accelerating motion, which would require instantaneous power and net force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

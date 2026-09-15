@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_007",
+   "title": "c12_acc_cbse_07_007",
+   "questions": [
+    {
+     "q": "Under Schedule III of the Companies Act, 2013, under which main head and sub-head is \"Live Stock\" presented in the Balance Sheet?",
+     "a": "Live Stock is presented under \"Non-current Assets\" → \"Property, Plant and Equipment\" (Tangible Assets). A wrong answer (e.g., placing it under Current Assets or Intangible Assets) reveals confusion between biological assets and inventory, or misunderstanding that live stock used for breeding/draught is a fixed asset, not held for sale.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Loose Tools are classified as Current Assets (Inventories) rather than Property, Plant and Equipment, even though they are physical tools.",
+     "a": "Loose Tools are consumable, low-value implements with short useful lives, frequently replaced and not used for long-term production capacity. Classifying them as PPE would overstate fixed assets and distort depreciation. A wrong answer (e.g., \"they are tools so they are fixed assets\") shows inability to distinguish between capital equipment and consumable stores based on materiality and usage pattern.",
+     "self_check": true
+    },
+    {
+     "q": "GreenFields Ltd. has Patent Rights acquired for ₹12,00,000 with a legal life of 10 years and estimated commercial life of 8 years. The company follows straight-line amortization. Show the Balance Sheet extract for Patent Rights at the end of Year 2, including the note reference.",
+     "a": "Amortization per year = ₹12,00,000 / 8 = ₹1,50,000. Accumulated amortization after 2 years = ₹3,00,000. Carrying amount = ₹9,00,000. Balance Sheet extract: Non-current Assets → Intangible Assets → Patent Rights ₹9,00,000 (Note: Amortized over 8 years on SLM). A wrong carrying amount (e.g., using 10 years) reveals failure to apply \"useful life\" over \"legal life\" as per AS 26.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the valuation bases for Live Stock and Loose Tools. Why does Schedule III require different valuation approaches for these two asset categories?",
+     "a": "Live Stock (PPE) is valued at cost less accumulated depreciation (historical cost model). Loose Tools (Inventory) are valued at lower of cost and net realizable value (NRV). The difference arises because Live Stock provides future economic benefits over many years (capitalized), while Loose Tools are consumed quickly and must reflect realizable value to avoid overstatement. A wrong answer conflating the two bases indicates lack of conceptual clarity on asset vs inventory valuation frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "A company incorrectly classifies Loose Tools worth ₹5,00,000 as \"Plant and Equipment\" instead of \"Inventories\". Evaluate the impact of this error on (a) Current Ratio, (b) Fixed Asset Turnover, and (c) Depreciation expense. Justify whether this error is material for a company with Total Assets ₹50 Cr.",
+     "a": "(a) Current Ratio decreases (Current Assets understated by ₹5L). (b) Fixed Asset Turnover decreases (Fixed Assets overstated). (c) Depreciation expense increases (tools depreciated over longer life). Materiality: ₹5L on ₹50Cr = 0.1% – likely immaterial quantitatively but qualitatively material if it misleads users about liquidity. A wrong evaluation missing the ratio direction or materiality nuance shows inability to link classification errors to financial statement analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical Balance Sheet note for \"Live Stock\" for a dairy company that also has \"Loose Tools\" and \"Patent Rights\". The note must include gross block, depreciation, and net block for Live Stock, and cross-reference the accounting policy for each asset class.",
+     "a": "A good answer presents a structured note:\n**Note 4: Property, Plant and Equipment**\n| Particulars | Gross Block (₹) | Depreciation (₹) | Net Block (₹) |\n| Live Stock | 50,00,000 | 10,00,000 | 40,00,000 |\n**Accounting Policy:** Live Stock depreciated on WDV @15%; Loose Tools valued at lower of cost/NRV under Inventories (Note 7); Patent Rights amortized on SLM over 8 years (Note 5). A poor answer omits gross/depreciation/net breakdown or fails to cross-reference policies, revealing incomplete understanding of disclosure requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

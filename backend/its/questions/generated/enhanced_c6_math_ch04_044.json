@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_044",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_044",
+   "title": "c6_math_ch04_044",
+   "questions": [
+    {
+     "q": "Which is greater: 2.7 or 2.15?",
+     "a": "2.7 is greater. A student who says 2.15 is greater is mistakenly treating the decimals as whole numbers (thinking 15 > 7) and ignoring the place value of the tenths digit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 0.8 is larger than 0.08 in your own words.",
+     "a": "0.8 has an 8 in the tenths place, while 0.08 has a 0 in the tenths place and an 8 in the hundredths place. A student who thinks they are equal or that 0.08 is larger fails to realize that the tenths place is 10 times larger than the hundredths place.",
+     "self_check": true
+    },
+    {
+     "q": "Order these numbers from least to greatest: 1.2, 1.09, 1.15.",
+     "a": "The order is 1.09, 1.15, 1.2. To solve, compare the tenths: 0 is smallest, then 1, then 2. A wrong answer suggests the student is looking at the last digits only or ignoring the placeholders.",
+     "self_check": true
+    },
+    {
+     "q": "They are all equal in value. A student who thinks 5.400 is the largest shows they are counting digits instead of comparing the actual value represented by each place.",
+     "a": "**Correct Answer:** These numbers are equal in value because adding trailing zeros to the right of a decimal point does not change the magnitude of the number. Each value represents five wholes and four tenths, regardless of how many placeholder zeros are added.\n\n**A wrong answer reveals** a misunderstanding of place value, specifically the belief that a number with more digits is inherently \"larger\" or more precise than one with fewer digits. The student likely confuses the quantity of digits (the length of the number) with the actual mathematical value of the digits based on their position.",
+     "self_check": true
+    },
+    {
+     "q": "No, it is not true. For example, 0.6 has fewer digits than 0.59, but 0.6 is larger because 6 tenths is greater than 5 tenths. A student who says \"yes\" lacks the understanding of place value hierarchy.",
+     "a": "[Correct answer] No, it is not always true; for example, 0.4 is larger than 0.25, even though 0.25 has more digits. This is because the value of a decimal is determined by the place value of its digits, not by how many digits it contains.\n\nA wrong answer reveals the student’s misconception that decimals behave like whole numbers, where a greater number of digits (like 100 vs. 10) automatically signifies a larger value, ignoring the fact that digits to the right of the decimal point represent increasingly smaller fractions (tenths, hundredths, etc.).",
+     "self_check": true
+    },
+    {
+     "q": "Possible answers include 0.31, 0.35, or 0.39. A poor answer (like 0.25 or 0.45) shows the student does not understand where these numbers fall on the number line relative to the tenths boundary.",
+     "a": "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than ten in the hundredths place.\n\nA wrong answer like 0.5 or 0.345 (if the student thinks 0.4 is 0.400) reveals that the student is struggling with place value magnitude, likely viewing decimals as whole numbers (thinking 34 is bigger than 3) or failing to recognize that 0.3 is equivalent to 0.30 and 0.4 is equivalent to 0.40.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

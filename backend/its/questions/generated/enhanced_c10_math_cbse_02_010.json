@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_010",
+   "title": "c10_math_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the division algorithm for polynomials and explain what it means for a polynomial \\( g(x) \\) to be a factor of \\( p(x) \\) in terms of the quotient and remainder.",
+     "a": "The division algorithm states: For polynomials \\( p(x) \\) and \\( g(x) \\) with \\( g(x) \\neq 0 \\), there exist unique polynomials \\( q(x) \\) and \\( r(x) \\) such that \\( p(x) = g(x)q(x) + r(x) \\), where \\( r(x) = 0 \\) or degree of \\( r(x) < \\) degree of \\( g(x) \\). If \\( g(x) \\) is a factor of \\( p(x) \\), then the remainder \\( r(x) = 0 \\) and \\( p(x) = g(x)q(x) \\). A wrong answer (e.g., confusing the condition for factor with remainder being non-zero) reveals the student does not understand the link between the Factor Theorem and the division algorithm.",
+     "self_check": true
+    },
+    {
+     "q": "If \\( p(x) = x^3 - 6x^2 + 11x - 6 \\) and we know \\( x = 1 \\) is a zero, why can we divide \\( p(x) \\) by \\( (x - 1) \\) to find the other factors? What property guarantees the remainder will be zero?",
+     "a": "The Factor Theorem guarantees that if \\( x = 1 \\) is a zero, then \\( (x - 1) \\) is a factor of \\( p(x) \\). By the division algorithm, when a polynomial is divided by one of its factors, the remainder must be zero. Thus, division by \\( (x - 1) \\) will yield a quadratic quotient with zero remainder, which can be further factorised. A wrong answer (e.g., saying we divide to \"check\" if it's a factor, or not mentioning the Factor Theorem) shows the student does not connect the zero to the factor and the division algorithm's remainder condition.",
+     "self_check": true
+    },
+    {
+     "q": "Divide \\( 2x^3 - 5x^2 - 4x + 3 \\) by \\( (x - 3) \\) using the division algorithm. Write the quotient and remainder. Hence, state whether \\( (x - 3) \\) is a factor.",
+     "a": "**Steps:**\n1. Divide leading term: \\( 2x^3 \\div x = 2x^2 \\). Multiply: \\( 2x^2(x - 3) = 2x^3 - 6x^2 \\). Subtract: \\( (2x^3 - 5x^2) - (2x^3 - 6x^2) = x^2 \\). Bring down \\( -4x \\).\n2. Divide: \\( x^2 \\div x = x \\). Multiply: \\( x(x - 3) = x^2 - 3x \\). Subtract: \\( (x^2 - 4x) - (x^2 - 3x) = -x \\). Bring down \\( +3 \\).\n3. Divide: \\( -x \\div x = -1 \\). Multiply: \\( -1(x - 3) = -x + 3 \\). Subtract: \\( (-x + 3) - (-x + 3) = 0 \\).\nQuotient: \\( 2x^2 + x - 1 \\), Remainder: 0. Since remainder is 0, \\( (x - 3) \\) is a factor.\nA wrong quotient (e.g., \\( 2x^2 - x - 1 \\)) reveals sign errors during subtraction or incorrect multiplication of the divisor by the quotient term.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factorisation of \\( x^3 - 3x^2 - 4x + 12 \\) by grouping versus using the division algorithm after finding one zero. Which method is more systematic when a zero is known? Explain.",
+     "a": "Grouping: \\( x^2(x - 3) - 4(x - 3) = (x - 3)(x^2 - 4) = (x - 3)(x - 2)(x + 2) \\). Division algorithm: Find zero \\( x = 3 \\), divide by \\( (x - 3) \\) to get quotient \\( x^2 - 4 \\), then factorise. The division algorithm is more systematic when a zero is known because it directly reduces the degree and avoids the need to spot grouping patterns. A wrong answer that claims grouping is always better or does not acknowledge the algorithmic nature of division reveals a lack of understanding of when to apply each method.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorised \\( x^3 - 2x^2 - 5x + 6 \\) as \\( (x - 1)(x^2 - x - 6) \\) and then wrote \\( (x - 1)(x - 3)(x + 2) \\). Verify if this factorisation is correct by expanding the final product. If there is an error, identify the step where it occurred.",
+     "a": "Expand \\( (x - 1)(x - 3)(x + 2) \\):\nFirst, \\( (x - 3)(x + 2) = x^2 - x - 6 \\).\nThen, \\( (x - 1)(x^2 - x - 6) = x^3 - x^2 - 6x - x^2 + x + 6 = x^3 - 2x^2 - 5x + 6 \\).\nThe factorisation is correct. If a student claims it is incorrect, they likely made an error in expanding (e.g., sign error in \\( -1 \\times -6 = +6 \\)). This tests the verification step which is crucial in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cubic polynomial with integer coefficients that has \\( x = -2 \\) as a zero and can be factorised completely into three linear factors with integer coefficients. Show the factorisation process using the division algorithm.",
+     "a": "Example: \\( p(x) = x^3 + 3x^2 - 4x - 12 \\). Zero: \\( x = -2 \\Rightarrow (x + 2) \\) is a factor.\nDivide \\( x^3 + 3x^2 - 4x - 12 \\) by \\( (x + 2) \\):\nQuotient: \\( x^2 + x - 6 \\), Remainder: 0.\nFactorise quotient: \\( x^2 + x - 6 = (x + 3)(x - 2) \\).\nComplete factorisation: \\( (x + 2)(x + 3)(x - 2) \\).\nA poor answer might give a polynomial where the quotient does not factorise into linear factors with integer coefficients (e.g., irreducible quadratic), showing the student does not understand how to construct such polynomials or the requirement of \"complete factorisation into linear factors\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

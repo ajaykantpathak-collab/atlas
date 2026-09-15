@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_001",
+   "title": "c11_eco_cbse_02_001",
+   "questions": [
+    {
+     "q": "What are the four long-term goals of India's Five Year Plans as stated in the planning documents, and which institution was responsible for formulating these plans until 2014?",
+     "a": "The four goals are growth, modernisation, self-reliance, and equity. The Planning Commission, chaired by the Prime Minister, formulated the plans until it was replaced by NITI Aayog in 2015. A wrong answer (e.g., listing 'poverty removal' or 'employment' as a separate long-term goal instead of understanding them as sub-components of equity/growth) reveals the student is confusing plan-specific objectives with the overarching four goals that persist across all plans.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Jawaharlal Nehru reject both the Soviet model of complete state ownership and the capitalist model of pure market allocation for India? Explain using the three fundamental economic questions (what, how, for whom).",
+     "a": "Nehru rejected the Soviet model because a democracy cannot forcibly abolish private property (answering 'what' and 'for whom' by state decree violates democratic rights). He rejected pure capitalism because market-based distribution based on purchasing power would leave the poor without basic needs (answering 'for whom' by ability to pay). The mixed economy answers 'what' by planning priority sectors, 'how' by combining public and private investment, and 'for whom' by using public provision for essential goods while allowing market forces for others. A wrong answer focusing only on 'socialism vs capitalism' without linking to the three questions shows the student hasn't internalised the Box 2.1 framework.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose India's GDP in 1950-51 was ₹2,24,786 crore (at 2011-12 prices) and grew at an average annual rate of 3.6% during the First Plan (1951-56). Calculate the approximate GDP at the end of the First Plan. Show the compound growth formula and steps.",
+     "a": "Step 1: Identify formula for compound growth: GDP_final = GDP_initial × (1 + g)^n, where g = 0.036, n = 5.\nStep 2: Substitute: GDP_final = 2,24,786 × (1.036)^5.\nStep 3: Calculate (1.036)^5 ≈ 1.1934.\nStep 4: Multiply: 2,24,786 × 1.1934 ≈ 2,68,270 crore.\nStep 5: Interpret: The economy grew by ~₹43,484 crore in real terms over 5 years. A wrong answer using simple interest (2,24,786 × 1.18 = 2,65,247) reveals the student doesn't understand that economic growth compounds annually, a critical distinction for long-term planning projections.",
+     "self_check": true
+    },
+    {
+     "q": "The First Five Year Plan prioritised agriculture and irrigation, while the Second Plan (Mahalanobis Model) prioritised heavy industry. Analyse how this shift reflects a change in the binding constraint on growth, using the concept of 'capital goods sector' and 'savings rate'.",
+     "a": "The First Plan addressed the immediate constraint: food shortage and low agricultural surplus (low savings from agriculture). By boosting farm output, it aimed to raise the savings rate. The Second Plan assumed the savings constraint was partially relaxed and shifted to the structural constraint: absence of a domestic capital goods (machine-making) industry. Without it, any future growth would require perpetual machinery imports, violating self-reliance. The Mahalanobis model mathematically proved that allocating a higher share of investment to capital goods raises the long-run growth rate by expanding the economy's capacity to produce more capital goods. A wrong answer saying 'Second Plan ignored agriculture' misses that the model explicitly required agricultural surplus to finance industrial investment — the shift was sequential, not contradictory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'The goal of self-reliance in the first seven plans meant India should produce everything domestically and never import.' Use the textbook's definition and the example of food imports under PL-480.",
+     "a": "The statement is false. Self-reliance meant avoiding imports of goods *that could be produced domestically*, not a blanket ban. The textbook explicitly states: 'avoiding imports of those goods which could be produced in India itself.' India imported food under PL-480 (US Public Law 480) in the 1950s-60s because domestic production was insufficient — this was a necessity, not a policy choice. Self-reliance was a strategic goal to reduce *vulnerability* to foreign pressure (e.g., US threatening to stop food shipments during the 1965 war), not autarky. A wrong answer equating self-reliance with zero imports shows the student hasn't distinguished between 'import substitution for producible goods' and 'absolute import elimination'.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2x2 matrix showing the four goals of planning (rows) and two policy instruments (columns: Public Investment, Licensing/Regulation). Fill each cell with one specific example of how that instrument was used to pursue that goal during 1950-1990.",
+     "a": "| Goal | Public Investment Example | Licensing/Regulation Example |\n|------|---------------------------|------------------------------|\n| Growth | Bhakra-Nangal Dam (irrigation + power) | Industrial licenses for new capacity in priority sectors |\n| Modernisation | Indian Statistical Institute, IITs | Import licenses for advanced machinery only |\n| Self-reliance | Steel plants (Bhilai, Rourkela, Durgapur) | Tariffs/quotas on consumer goods imports |\n| Equity | Land reform legislation funding | MRTP Act (1969) to restrict concentration; SSI reservation |\nA poor answer puts 'subsidies' in every cell or confuses licensing (entry control) with price controls, revealing the student sees instruments as undifferentiated 'government intervention' rather than targeted tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

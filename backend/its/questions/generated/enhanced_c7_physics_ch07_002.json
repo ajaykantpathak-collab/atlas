@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_002",
+   "title": "c7_physics_ch07_002",
+   "questions": [
+    {
+     "q": "What color does blue litmus paper turn when dipped into a strong acid like hydrochloric acid?",
+     "a": "Blue litmus paper turns red in an acidic solution. A student who answers \"blue\" or \"green\" has forgotten the fundamental rule of litmus indicators and is confusing neutral or basic behavior with acidic behavior. Acidic substances donate hydrogen ions that alter the dye molecules inside the blue paper, shifting its absorption spectrum to red.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we test an unknown colorless liquid with both blue and red litmus paper rather than just one type?",
+     "a": "Using both blue and red litmus paper is necessary because a neutral substance (like pure water) causes no color change on either paper. If you used only blue litmus and saw no change, you could not tell if the liquid was neutral or basic. Testing both ensures you catch all three possibilities: acid, base, or neutral.",
+     "self_check": true
+    },
+    {
+     "q": "A student dips red litmus paper into a solution of baking soda dissolved in water, and the paper turns blue. What is the chemical nature of the baking soda solution, and what color would blue litmus paper turn in the same solution?",
+     "a": "The baking soda solution is basic because it turned red litmus paper blue. If blue litmus paper is dipped into the same basic baking soda solution, it will remain blue. A student who says blue litmus turns red is confusing the behavior of acids and bases.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three unmarked beakers containing dilute hydrochloric acid, sodium hydroxide, and distilled water. You only have a single strip of red litmus paper available. Describe how you can identify all three beakers.",
+     "a": "First, dip the red litmus paper into beaker A; if it turns blue, beaker A is sodium hydroxide (base). Next, take that now-blue litmus paper and dip it into beakers B and C. If it turns red in beaker B, beaker B is hydrochloric acid (acid), and beaker C, which causes no further color change on the blue paper, must be distilled water (neutral). A student who gets stuck usually forgets that indicators can be reused if washed or that intermediate color states help differentiate neutral from acidic solutions.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims that because a lemon is yellow, its juice will turn red litmus paper yellow instead of red. Is your classmate correct, and how would you evaluate their claim using experimental evidence?",
+     "a": "Your classmate is incorrect. Indicator color change depends on the chemical reaction of the litmus dye with acid molecules, not the natural color of the source fruit. Experimental evidence shows that when lemon juice contacts red litmus, it remains red, and when it contacts blue litmus, it turns red, proving the juice is acidic despite being yellow.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple protocol using red and blue litmus paper to test whether rain collected during the first monsoon shower in an industrial city is acidic (acid rain) or neutral.",
+     "a": "To test rainwater, pour a small sample into a clean glass container. Dip a clean strip of blue litmus paper into the sample. If the blue litmus paper turns red, the rainwater contains dissolved acidic pollutants, indicating acid rain. If the blue litmus remains blue and red litmus remains red, the rainwater is neutral. A poor answer would fail to specify using both papers or would confuse the color change directions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

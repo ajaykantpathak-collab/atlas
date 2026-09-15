@@ -1,0 +1,78 @@
+{
+ "catalog": "catalog_class11_unknown_kest106",
+ "concepts": [
+  {
+   "id": "kest106.1.1",
+   "title": "Correlation: Studying Relationships Between Variables",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Correlation: Studying Relationships Between Variables' refers to.",
+     "a": "Summer heat brings crowds to hill stations and brisk ice-cream sales -- temperature, visitors and sales move together. Correlation is the statistical tool that studies such relationship: whether two variables move together, in which direction, and how closely.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Correlation: Studying Relationships Between Variables'.",
+     "a": "Do they move together, opposite, or not at all -- correlation answers the relationship question.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Correlation: Studying Relationships Between Variables' taught, and from which source text?",
+     "a": "1.1 (source: kest106.txt opening and types sections (temperature and ice cream example, meaning of correlation, positive negative and zero correlation))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest106.1.2",
+   "title": "Scatter Diagram and Karl Pearson's Coefficient",
+   "questions": [
+    {
+     "q": "Using the method 'Scatter Diagram and Karl Pearson's Coefficient', work with: cov_xy = 24, sd_x = 4, sd_y = 20. Carry the chain through step by step and give the final value of r_value.",
+     "a": "0.3 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Scatter Diagram and Karl Pearson's Coefficient' and work with: cov_xy = 100, sd_x = 25, sd_y = 5. Carry the chain through step by step and give the final value of r_value.",
+     "a": "0.8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Scatter Diagram and Karl Pearson's Coefficient' refers to.",
+     "a": "A scatter diagram dots the pairs of values on a graph, giving a first visual verdict on relationship. Karl Pearson's coefficient of correlation refines it to a precise number between -1 and +1, measuring both direction and degree of the linear relationship.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scatter Diagram and Karl Pearson's Coefficient'.",
+     "a": "First the dots, then the number -- Pearson's r puts the scatter's message between -1 and +1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Scatter Diagram and Karl Pearson's Coefficient', in plain ASCII form.",
+     "a": "r_value = cov_xy / (sd_x * sd_y)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest106.1.3",
+   "title": "Spearman's Rank Correlation and the Warning of Causation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Spearman's Rank Correlation and the Warning of Causation' refers to.",
+     "a": "When data are ranked rather than measured, Spearman's rank correlation compares the differences in ranks to obtain a coefficient. And a caution closes the chapter: high correlation does not prove causation -- a third factor or pure coincidence may drive both variables together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Spearman's Rank Correlation and the Warning of Causation'.",
+     "a": "Ranks correlate too -- and even a perfect r is evidence of association, never proof of cause.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Spearman's Rank Correlation and the Warning of Causation' taught, and from which source text?",
+     "a": "1.3 (source: kest106.txt rank sections (spearman rank correlation, rank differences, correlation and causation, spurious correlation))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

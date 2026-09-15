@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch2_12",
+   "title": "c8_civ_ch2_12",
+   "questions": [
+    {
+     "q": "Which branch of government is constitutionally responsible for drafting, debating, and passing new laws?",
+     "a": "The Legislature (Parliament at the national level and State Legislature at the state level) is responsible for drafting, debating, and passing laws. A wrong answer—such as naming the executive or judiciary—reveals a confusion between lawmaking and law enforcement or law interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution of India separate the powers of the legislature, executive, and judiciary into distinct branches?",
+     "a": "The Constitution separates these powers to prevent the concentration of absolute authority in a single set of hands, which protects citizens against tyranny and abuse of power. A wrong answer—such as claiming it is just to make government work faster—reveals a misunderstanding of the core democratic goal of preventing authoritarian control.",
+     "self_check": true
+    },
+    {
+     "q": "If a citizen feels that a newly passed tax law violates their fundamental right to equality, which organ of government should they approach for remedy, and why?",
+     "a": "The citizen should approach the Judiciary (specifically the Supreme Court or High Courts), because the judiciary's role is to interpret the Constitution and strike down laws that violate fundamental rights. A wrong answer—such as going to the executive prime minister—shows confusion regarding who checks the constitutionality of laws.",
+     "self_check": true
+    },
+    {
+     "q": "How do the functions of the Executive differ fundamentally from the functions of the Legislature in the Indian parliamentary system?",
+     "a": "The Legislature discusses, debates, and passes bills to create laws representing the public will, whereas the Executive (the Prime Minister, Council of Ministers, and civil service) takes those passed laws and administers, implements, and enforces them daily. A wrong answer reveals a failure to separate the lawmaking function from the law-execution function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In India's parliamentary system, there is an absolute, strict separation of powers where the legislature and executive have nothing to do with each other.\" Is this accurate?",
+     "a": "This statement is inaccurate because, unlike the US presidential system, the Indian parliamentary system has an overlap between the legislature and executive. The executive (Ministers) is drawn from and is collectively responsible to the legislature (Parliament), maintaining accountability while powers of implementation and lawmaking remain distinct. A wrong answer shows a lack of depth regarding how parliamentary systems integrate the executive within the legislature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a conflict arises between the Legislature passing a law and the Judiciary reviewing it. Describe how the principle of separation of powers resolves this conflict.",
+     "a": "A good answer will propose a law passed by Parliament that restricts free speech, and describe how the Supreme Court reviews it under judicial review, striking it down if it violates constitutional rights, which demonstrates the system of checks and balances within separated powers. A poor answer fails to show how one branch checks another, treating them as completely isolated entities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 306,
+ "chapter_title": "Rural Administration",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees112.txt",
+ "concepts": [
+  {
+   "id": "fess.306.1",
+   "title": "Area of Jurisdiction of a Police Station",
+   "section": "Area of the Police Station",
+   "definition": "The defined geographic territory assigned to a specific police post, within which officers are authorised to register and investigate complaints.",
+   "formula": "",
+   "key_idea": "Every police station has a designated geographic boundary for reporting and investigating local cases.",
+   "textbook_ref": "fess306.txt lines 50-70",
+   "question_patterns": [
+    "what is the jurisdiction area of a local police station",
+    "explain why a crime must be reported to the designated police station",
+    "identify which police station holds authority over a specific village",
+    "describe the administrative boundaries of police jurisdiction",
+    "determine where a citizen should file a complaint regarding local theft"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the locality where the incident took place",
+     "explain": "Each village or town area falls strictly under the territorial jurisdiction of one specific police station."
+    },
+    {
+     "step": 2,
+     "action": "locate the designated police station for that area",
+     "explain": "Complaints can only be officially registered and investigated by the police station responsible for that specified zone."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.2",
+   "title": "Role and Work at the Police Station",
+   "section": "The work at the Police Station",
+   "definition": "The official duties of police personnel and the Station House Officer, including logging written complaints, investigating offenses, and preserving peace.",
+   "formula": "",
+   "key_idea": "The Station House Officer records written complaints and dispatches officers to investigate reported incidents.",
+   "textbook_ref": "fess306.txt lines 70-100",
+   "question_patterns": [
+    "what is the primary responsibility of the Station House Officer",
+    "describe the procedure for registering a written complaint at a police station",
+    "explain how police investigate local disputes and maintain law and order",
+    "list the main duties performed by police station staff",
+    "outline the steps an S.H.O. takes upon receiving an injury report"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "file a formal written complaint with the Station House Officer",
+     "explain": "The S.H.O. receives the statement of the victim or witness and records the First Information Report or written complaint."
+    },
+    {
+     "step": 2,
+     "action": "depute police personnel for investigation",
+     "explain": "A constable or officer is dispatched to the location of the dispute to gather evidence and record statements."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.3",
+   "title": "Role and Duties of the Patwari",
+   "section": "Maintenance of Land Records",
+   "definition": "A local administrative official tasked with measuring land plots, maintaining ownership registers, and updating village maps.",
+   "formula": "",
+   "key_idea": "The Patwari measures land plots, keeps records updated, and assists in land revenue collection for a cluster of villages.",
+   "textbook_ref": "fess306.txt lines 100-130",
+   "question_patterns": [
+    "what are the main responsibilities of a Patwari in a village",
+    "explain how a Patwari measures agricultural land and updates records",
+    "list alternative local names used for the Patwari in different states",
+    "describe how the Patwari assists in land revenue collection",
+    "identify who maintains field boundaries and ownership maps in rural areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure agricultural fields using measuring chains or instruments",
+     "explain": "The Patwari verifies boundary markers against existing official maps to detect land encroachments."
+    },
+    {
+     "step": 2,
+     "action": "update land revenue and ownership documents",
+     "explain": "Changes in ownership, crop patterns, or construction of wells are recorded in government registers."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.4",
+   "title": "Khasra Records and Land Maps",
+   "section": "Maintenance of Land Records",
+   "definition": "A official village register kept by land officials detailing individual plot numbers, owners, area sizes, crop types, and irrigation sources.",
+   "formula": "",
+   "key_idea": "Khasra records provide accurate tabular details that correspond directly to village land maps.",
+   "textbook_ref": "fess306.txt lines 130-160",
+   "question_patterns": [
+    "what information is recorded in a Khasra register",
+    "explain how a Khasra record helps settle field boundary disputes",
+    "identify details stored regarding crop cultivation and irrigation facilities",
+    "describe why farmers require official copies of Khasra maps",
+    "analyze how land ownership details are mapped and documented"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the plot number on the map with the entry in the Khasra table",
+     "explain": "The Khasra number links spatial map boundaries with legal ownership records."
+    },
+    {
+     "step": 2,
+     "action": "verify ownership, cultivated area, and crop entries",
+     "explain": "This official entry establishes legal title, crop types, and boundary specifications."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.5",
+   "title": "Structure and Role of the Revenue Department",
+   "section": "Maintenance of Land Records",
+   "definition": "The government administrative hierarchy headed by the District Collector and Tehsildars that oversees land record management and resolves property disputes.",
+   "formula": "",
+   "key_idea": "Tehsildars supervise Patwaris, resolve land disputes, collect revenue, and issue essential government certificates.",
+   "textbook_ref": "fess306.txt lines 160-190",
+   "question_patterns": [
+    "what is the role of a Tehsildar in rural administration",
+    "explain the relationship between the District Collector and revenue officers",
+    "describe how Tehsildars supervise the work of village Patwaris",
+    "identify where land ownership disputes are formally heard and resolved",
+    "list the certificates and documents issued by the revenue department office"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "supervise Patwari records at the Tehsil level",
+     "explain": "Tehsildars ensure accurate land entry maintenance and collection of government land revenue."
+    },
+    {
+     "step": 2,
+     "action": "hear legal land disputes and issue certificates",
+     "explain": "The Tehsildar court resolves property conflicts and issues official caste and land certificates."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.6",
+   "title": "Equal Land Share Calculation under Hindu Succession Amendment Act, 2005",
+   "section": "A New Law",
+   "definition": "The mathematical division of inherited ancestral land equally among all eligible legal heirs, including sons, daughters, and mother, under legal reform guidelines.",
+   "formula": "share = total_land / total_heirs",
+   "key_idea": "The total agricultural land is divided equally among all eligible heirs.",
+   "textbook_ref": "fess306.txt lines 190-220",
+   "question_patterns": [
+    "calculate the equal land share allocated to each family member",
+    "find the area of inherited land received per heir",
+    "determine how much agricultural land each child and mother gets",
+    "what is the individual share when dividing family property equally",
+    "compute the land portion for an heir from the total ancestral field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total land area by the total number of heirs",
+     "explain": "Under the amended law, all heirs receive an equal fraction of the ancestral land.",
+     "compute": "share = total_land / total_heirs"
+    }
+   ]
+  },
+  {
+   "id": "fess.306.7",
+   "title": "Equal Rights under Hindu Succession Amendment Act, 2005",
+   "section": "A New Law",
+   "definition": "A legal reform that ensures sons, daughters, and mothers possess identical ownership rights in ancestral family agricultural land.",
+   "formula": "",
+   "key_idea": "The 2005 amendment removed gender discrimination in the inheritance of family agricultural land.",
+   "textbook_ref": "fess306.txt lines 190-220",
+   "question_patterns": [
+    "what changes were introduced by the Hindu Succession Amendment Act of 2005",
+    "explain how the 2005 law empowers rural women regarding land ownership",
+    "describe the legal rights of daughters and mothers in family property",
+    "compare agricultural land inheritance rules before and after 2005",
+    "evaluate the impact of equal land rights on female financial security"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify legal beneficiaries under the 2005 Act",
+     "explain": "The law includes sons, daughters, and mothers as equal legal heirs to family property."
+    },
+    {
+     "step": 2,
+     "action": "apply equal rights to land records",
+     "explain": "The Patwari enters names of female family members along with male heirs in official land records."
+    }
+   ]
+  },
+  {
+   "id": "fess.306.8",
+   "title": "Public Services and Local Amenities in Rural Areas",
+   "section": "Other Public Services - A survey",
+   "definition": "Government facilities and local civic administration networks, such as fair price shops, healthcare centers, and milk cooperatives, serving rural citizens.",
+   "formula": "",
+   "key_idea": "Government departments manage essential public facilities that require civic monitoring and continuous improvement.",
+   "textbook_ref": "fess306.txt lines 220-260",
+   "question_patterns": [
+    "list essential public services available in rural villages",
+    "explain the function of a fair price shop or ration store",
+    "describe problems faced by villagers when accessing public amenities",
+    "identify government institutions that provide health and credit services in villages",
+    "suggest improvements for effective delivery of public services in rural areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify public infrastructure operating in rural areas",
+     "explain": "Facilities include fair price ration shops, primary health centres, banks, and post offices."
+    },
+    {
+     "step": 2,
+     "action": "assess operational efficiency and citizen access",
+     "explain": "Citizens access services using official cards or documents, while authorities address supply and quality issues."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess306.txt Section: A New Law",
+   "concept": "fess.306.6",
+   "question_type": "compute_share",
+   "question_pattern": "A farmer leaves {total_land} hectares of land to be divided equally among {total_heirs} heirs. Calculate the share of land each heir receives.",
+   "extracted_variables": {
+    "total_land": 12,
+    "total_heirs": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total land by total number of heirs",
+     "explain": "Divide the total land area equally among all legal heirs.",
+     "compute": "share = total_land / total_heirs"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess306.txt Section: A New Law",
+   "concept": "fess.306.6",
+   "question_type": "compute_share",
+   "question_pattern": "Determine the land area received by each family member if {total_land} acres of field are distributed equally among {total_heirs} legal beneficiaries.",
+   "extracted_variables": {
+    "total_land": 15,
+    "total_heirs": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total land area by count of beneficiaries",
+     "explain": "Divide the total plot area equally among all legal beneficiaries.",
+     "compute": "share = total_land / total_heirs"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex306.1",
+   "source_ref": "fess306.txt Page 56",
+   "questions": [
+    "What is the work of the police?",
+    "List two things that the work of a Patwari includes.",
+    "What is the work of a tehsildar?",
+    "What issue is the poem trying to raise? Do you think this is an important issue? Why?",
+    "In what ways are the work of the Panchayat, that you read about in the previous chapter, and the work of the Patwari related to each other?",
+    "Visit a police station and find out the work that the police have to do to prevent crime and maintain law and order in their area especially during festivals, public meetings etc.",
+    "Who is in charge of all the police stations in a district? Find out.",
+    "How do women benefit under the new law?",
+    "In your neighbourhood are there women who own property? How did they acquire it?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

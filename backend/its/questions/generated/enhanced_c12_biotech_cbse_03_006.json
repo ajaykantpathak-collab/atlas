@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_006",
+   "title": "c12_biotech_cbse_03_006",
+   "questions": [
+    {
+     "q": "A student writes: \"Transformation is the process where a virus transfers DNA from one bacterium to another.\" Is this statement correct? If not, what is the correct term for virus-mediated DNA transfer?",
+     "a": "The statement is **incorrect**. Transformation is the direct uptake of naked DNA from the environment by a competent cell. Virus-mediated DNA transfer is called **transduction** (carried out by bacteriophages). A wrong answer reveals confusion between the three natural horizontal gene transfer mechanisms: transformation (naked DNA), transduction (phage vector), and conjugation (cell-to-cell contact via pilus).",
+     "self_check": true
+    },
+    {
+     "q": "Why is calcium chloride (CaCl₂) used at 0°C followed by a brief heat shock at 42°C in bacterial transformation? Explain the role of Ca²⁺ ions and the temperature shift in your own words.",
+     "a": "Ca²⁺ ions neutralize the negative charges on both the phosphate backbone of DNA and the phospholipid head groups of the cell membrane, allowing the DNA to adhere to the cell surface. The 0°C incubation stabilizes this DNA-membrane complex. The sudden shift to 42°C creates a thermal imbalance that increases membrane fluidity and generates a transient pressure gradient, forcing the adsorbed DNA into the cell. A wrong answer (e.g., \"CaCl₂ makes holes in the membrane\" or \"heat shock kills non-transformed cells\") shows a lack of mechanistic understanding — students often memorize the protocol without grasping the physicochemical basis.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to introduce a recombinant plasmid into *Agrobacterium tumefaciens* (a Gram-negative bacterium with a complex cell envelope) and separately into mammalian CHO cells (no cell wall, large, adherent). Which method would be **most suitable** for each? Justify your choices.",
+     "a": "For *Agrobacterium*: **Electroporation** is preferred because its thick peptidoglycan layer and outer membrane make chemical competence (CaCl₂) inefficient; high-voltage pulses create pores in both membranes. For CHO cells: **Lipofection** (or calcium phosphate transfection) is standard because mammalian cells lack a cell wall, are large, and readily fuse with cationic liposomes; electroporation is also used but requires optimization to avoid death. A wrong answer (e.g., using CaCl₂ heat-shock for CHO cells or gene gun for *Agrobacterium*) reveals failure to match method to cell biology — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the **biolistic (gene gun)** method with **microinjection** in terms of: (a) target cell types, (b) throughput, (c) technical skill required, and (d) risk of cellular damage. Present your answer as a table.",
+     "a": "| Feature | Biolistic (Gene Gun) | Microinjection |\n|---------|----------------------|----------------|\n| Target cells | Plant tissues, fungal spores, animal tissues (in vivo), chloroplasts/mitochondria | Large single cells (oocytes, embryos, protoplasts), adherent mammalian cells |\n| Throughput | High (hundreds of cells per shot) | Very low (one cell at a time) |\n| Skill required | Moderate (optimize pressure, distance, particle size) | Very high (micromanipulator, fine needle control) |\n| Cellular damage | Moderate to high (physical trauma from particles) | Low to moderate (needle puncture, but precise) |\nA poor answer lists only one difference or confuses the two (e.g., \"gene gun is for animal cells only\"). This tests analytical comparison — a frequent board competency question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Electroporation is universally the best method for introducing DNA into any host cell because it gives the highest transformation efficiency.\" Provide two arguments for and two against this claim.",
+     "a": "**For:** (1) Works for a wide range of cells (bacteria, yeast, plant protoplasts, mammalian cells) without chemical modification; (2) Can achieve very high efficiencies (10⁸–10¹⁰ transformants/µg DNA) for E. coli. **Against:** (1) Requires expensive specialized equipment (electroporator, cuvettes) and sterile conditions; (2) High voltage can cause irreversible membrane damage, heat generation, and cell death if parameters (field strength, pulse length, buffer conductivity) are not optimized for each cell type; (3) Not suitable for intact plant tissues with cell walls (requires protoplasting first) or in vivo applications. A one-sided answer shows lack of critical evaluation — students often overgeneralize from a single protocol.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **step-by-step protocol** to introduce a recombinant plasmid into **plant leaf tissue** using the biolistic method. Include: (a) preparation of DNA-coated particles, (b) target tissue preparation, (c) bombardment parameters, (d) post-bombardment recovery. Assume you have a helium-driven gene gun, 1 µm gold particles, and sterile conditions.",
+     "a": "**Expected answer outline:**\n1. **DNA-gold complex:** Precipitate plasmid DNA (1–5 µg) onto 1 µm gold particles using CaCl₂ and spermidine; vortex, centrifuge, wash with ethanol, resuspend in glycerol.\n2. **Tissue prep:** Excise young leaf discs (5–10 mm), place on osmotic medium (0.4 M mannitol/sorbitol) for 30–60 min to plasmolyze cells (reduces damage).\n3. **Bombardment:** Load macrocarrier with DNA-gold suspension; vacuum chamber to 25–28 in Hg; set helium pressure (e.g., 1100–1300 psi); target distance 6–9 cm; fire.\n4. **Recovery:** Transfer discs to regeneration medium (with selection antibiotic) in dark for 24–48 h, then move to light for shoot regeneration.\n**Criteria for good answer:** Mentions plasmolysis (critical for plant cells), particle size, vacuum/pressure parameters, and selection/recovery. A poor answer omits plasmolysis or uses bacterial transformation steps — showing inability to adapt protocol to eukaryotic tissue.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

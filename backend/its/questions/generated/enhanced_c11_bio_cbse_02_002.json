@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_002",
+   "title": "c11_bio_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the three criteria R.H. Whittaker used to place all prokaryotes into a single Kingdom Monera.",
+     "a": "Whittaker used (1) prokaryotic cell structure (no true nucleus or membrane-bound organelles), (2) non-cellulosic cell wall (peptidoglycan), and (3) both autotrophic and heterotrophic modes of nutrition. A wrong answer listing \"unicellular body\" or \"absence of chlorophyll\" reveals the student is confusing Monera with Protista or Fungi criteria from Table 2.1.",
+     "self_check": true
+    },
+    {
+     "q": "Why are archaebacteria considered 'living fossils' and placed in a separate sub-kingdom despite being prokaryotes like eubacteria?",
+     "a": "Archaebacteria have a fundamentally different cell wall composition (lack peptidoglycan, contain pseudopeptidoglycan or S-layer proteins) and unique lipid membrane linkages (ether-linked isoprenoids vs ester-linked fatty acids) that confer stability in extreme habitats (high salt, high temperature, anaerobic marshes). Their RNA polymerase and ribosomal proteins also resemble eukaryotes more than eubacteria. A wrong answer focusing only on habitat (e.g., \"they live in hot springs\") misses the molecular evidence that justifies their separate domain status in modern three-domain systems.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices yellowish-green scum on his flooded paddy field after applying nitrogen fertilizer. Microscopic examination reveals filamentous chains of cells with some enlarged, thick-walled cells at intervals. Identify the organism, its nutritional group, and the function of the enlarged cells.",
+     "a": "Organism: *Nostoc* (cyanobacterium/blue-green alga). Nutritional group: photosynthetic autotrophic eubacteria. Enlarged cells are heterocysts — specialized for nitrogen fixation because nitrogenase is O₂-sensitive; heterocysts lack photosystem II, creating an anaerobic micro-environment. A wrong answer calling it \"algae\" or \"fungi\" shows failure to recognize prokaryotic filamentous morphology and the diagnostic heterocyst. Missing the link between heterocyst structure and nitrogenase O₂-sensitivity indicates incomplete understanding of metabolic adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ecological roles of chemosynthetic autotrophic bacteria and heterotrophic bacteria in the biogeochemical cycling of nitrogen and sulfur. Which group is more directly responsible for recycling nutrients from dead organic matter?",
+     "a": "Chemosynthetic autotrophs (e.g., *Nitrosomonas*, *Nitrobacter*, *Thiobacillus*) oxidize inorganic compounds (NH₄⁺ → NO₂⁻ → NO₃⁻; H₂S → S → SO₄²⁻) to obtain energy for CO₂ fixation, driving nitrification and sulfur oxidation. Heterotrophic bacteria (saprophytes) decompose dead organic matter, releasing NH₄⁺ (ammonification) and H₂S, thus replenishing the inorganic pool for chemosynthetic bacteria. Heterotrophic bacteria are more directly responsible for recycling nutrients from dead organic matter because they perform extracellular digestion and absorption of complex organic polymers. A wrong answer swapping the roles indicates confusion between energy source (chemical vs organic) and carbon source (CO₂ vs organic).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Mycoplasma are not true bacteria because they lack a cell wall; they should be placed in a separate kingdom.\" Use evidence from cell structure, size, and phylogenetic markers.",
+     "a": "The statement is incorrect. Mycoplasma are bacteria (class Mollicutes) that have secondarily lost the cell wall as an adaptation to parasitic life; they retain prokaryotic ribosomes (70S), circular DNA, binary fission, and sterol-containing plasma membrane — all bacterial features. Their small genome (0.58–1.38 Mb) and 16S rRNA phylogeny firmly place them within Firmicutes (low G+C Gram-positive bacteria). Creating a separate kingdom for every wall-less derivative would violate monophyly. A wrong answer agreeing with the statement shows over-reliance on a single morphological trait (cell wall) and ignorance of molecular phylogeny.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory investigation to demonstrate that curd formation is caused by living bacteria and not by a chemical enzyme secreted into the milk. List materials, procedure, controls, and expected observations.",
+     "a": "Materials: fresh milk, curd starter, test tubes, water bath, thermometer. Procedure: (1) Label tubes A (raw milk + starter), B (boiled milk + starter), C (raw milk + boiled starter), D (raw milk only). (2) Incubate all at 37°C for 6–8 h. Controls: B tests if milk components alone curdle; C tests if heat-killed bacteria can curdle; D tests spontaneous curdling. Expected: Only A sets into curd. B and C remain liquid — proving live bacteria are required. D remains liquid — ruling out abiotic curdling. A poor answer omits the boiled-starter control, failing to distinguish between live cells and heat-stable enzymes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

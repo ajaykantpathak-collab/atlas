@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_10",
+   "title": "c9_math_ch5_10",
+   "questions": [
+    {
+     "q": "State the theorem: \"The perpendicular from the centre of a circle to a chord bisects the chord.\" Draw a labelled diagram showing the centre, chord, perpendicular, and the two equal segments.",
+     "a": "Correct answer: A diagram with centre O, chord AB, foot of perpendicular M on AB, and markings AM = MB. The theorem statement is exactly as given. A wrong answer (e.g., drawing the perpendicular from a point on the circumference, or not showing equal segments) reveals the student confuses this theorem with the converse or does not understand \"bisects\" means dividing into two equal parts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the two triangles formed by joining the centre to the endpoints of the chord are congruent. Which congruence criterion is used and why?",
+     "a": "Correct answer: Triangles OMA and OMB are right-angled at M (OM ⟂ AB). OA = OB (radii), OM is common. By RHS (Right angle-Hypotenuse-Side) congruence, ΔOMA ≅ ΔOMB. Hence AM = MB. A wrong answer (e.g., using SAS or SSS without the right angle, or saying OA = OB and AM = MB already) shows the student does not recognize the right angle or the need for the hypotenuse-leg condition in right triangles.",
+     "self_check": true
+    },
+    {
+     "q": "In a circle of radius 10 cm, a chord is 12 cm long. Find the distance of the chord from the centre.",
+     "a": "Given: radius OA = 10 cm, chord AB = 12 cm. Perpendicular OM bisects AB, so AM = 6 cm. In right triangle OMA, OA² = OM² + AM² → 10² = OM² + 6² → 100 = OM² + 36 → OM² = 64 → OM = 8 cm. Distance = 8 cm. A wrong answer (e.g., OM = 10 - 6 = 4 cm, or using diameter instead of radius) reveals the student forgets the perpendicular bisects the chord, or misapplies Pythagoras theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Two chords AB and CD of a circle are equidistant from the centre. Does it follow that AB = CD? Justify using the theorem and its converse.",
+     "a": "Yes. Let perpendiculars from centre O to AB and CD be OM and ON with OM = ON. By the theorem, OM ⟂ AB ⇒ AM = MB; ON ⟂ CD ⇒ CN = ND. In right triangles OMA and ONC, OA = OC (radii), OM = ON (given). By RHS, ΔOMA ≅ ΔONC ⇒ AM = CN ⇒ AB = 2AM = 2CN = CD. A wrong answer (e.g., saying \"yes because equidistant chords are equal\" without proof) shows the student cannot link the theorem to its converse and the concept of equal chords.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a circle, a chord AB, and a line from centre O to the midpoint M of AB. He claims OM is perpendicular to AB because \"the perpendicular from the centre bisects the chord\". Evaluate his reasoning.",
+     "a": "The reasoning is flawed. The theorem states: if OM ⟂ AB then AM = MB. The student uses the converse: if AM = MB then OM ⟂ AB. The converse is true but is a separate theorem (node c9_math_ch5_4) and must be proved or cited. A wrong evaluation (e.g., saying the student is correct because it's the same theorem) reveals confusion between a statement and its converse.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where this theorem is used to find an unknown length. Provide the problem statement, a diagram description, and the solution steps.",
+     "a": "Example: A circular garden of radius 15 m has a straight path (chord) across it. The gardener wants to place a sprinkler at the centre that waters exactly up to the path. If the path is 18 m long, how far from the centre should the sprinkler's water reach? Solution: Half path = 9 m. Distance from centre = √(15² - 9²) = √(225 - 81) = √144 = 12 m. A poor answer (e.g., problem not using the theorem, or missing the bisecting step) shows inability to translate the geometric property into a practical scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

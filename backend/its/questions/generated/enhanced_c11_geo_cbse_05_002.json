@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_002",
+   "title": "c11_geo_cbse_05_002",
+   "questions": [
+    {
+     "q": "Name the three modes of mineral formation and give one Indian example of a mineral formed by each mode.",
+     "a": "The three modes are: (1) Igneous – e.g., magnetite in the Kudremukh iron ore deposits (Karnataka) crystallized from magma; (2) Sedimentary – e.g., gypsum in the Rajasthan evaporite beds precipitated from saline water; (3) Metamorphic – e.g., garnet in the khondalite rocks of the Eastern Ghats (Odisha) formed by recrystallization during metamorphism. A wrong answer that lists only igneous examples or confuses sedimentary with metamorphic reveals the student thinks all minerals originate from cooling magma.",
+     "self_check": true
+    },
+    {
+     "q": "Why does quartz occur in all three formation modes, but its crystal size and purity differ? Explain using the geological processes involved.",
+     "a": "Quartz (SiO₂) is chemically stable and forms in diverse environments: in igneous rocks (e.g., granite) it crystallizes slowly from silica-rich magma giving large crystals; in sedimentary settings (e.g., sandstone) it survives as durable grains transported by rivers; in metamorphic rocks (e.g., quartzite) it recrystallizes under pressure forming interlocking grains. A wrong answer that says quartz only forms in granite shows the student has not grasped that the same chemical compound can precipitate or recrystallize under different P-T-X conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A mineral sample from the Singhbhum district (Jharkhand) shows well-formed cubic crystals of pyrite embedded in a fine-grained matrix of chlorite and quartz. The surrounding rock is schistose. Identify the most likely formation mode and justify your answer in three steps.",
+     "a": "Step 1: Observe the geological context – Singhbhum is a Precambrian metamorphic terrain with schists. Step 2: Note the texture – well-formed cubic pyrite crystals (porphyroblasts) growing in a foliated matrix indicate growth during metamorphism. Step 3: Conclude metamorphic mode – pyrite recrystallized from iron-bearing sediments during regional metamorphism. A wrong answer choosing igneous because of \"well-formed crystals\" misses that metamorphic porphyroblasts also develop euhedral shapes in a solid state.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conditions of mineral formation in the Deccan Traps (basalt) versus the Vindhyan sedimentary basin. How do these contrasting environments produce different mineral assemblages?",
+     "a": "Deccan Traps: rapid cooling of mafic lava at surface (extrusive igneous) yields fine-grained basalt with minerals like plagioclase, pyroxene, olivine – high temperature, low pressure, anhydrous. Vindhyan basin: shallow marine/sedimentary environment with evaporation and burial yields limestone (calcite), sandstone (quartz), shale (clay minerals) – low temperature, near-surface pressure, hydrous. A wrong answer that lists similar minerals for both ignores the role of magma composition vs. sedimentary source and diagenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All economically important metallic minerals in India are of igneous origin.\" Provide evidence from at least two mineral belts to support your judgment.",
+     "a": "The statement is false. While many metallic minerals are igneous (e.g., Cu-Mo in Malanjkhand porphyry, Fe-Ti in Kudremukh magmatic), major deposits are sedimentary (e.g., manganese in Gondite rocks of Madhya Pradesh – sedimentary exhalative) or metamorphic (e.g., kyanite-sillimanite in Kharsawan, Jharkhand – metamorphosed aluminous sediments). A wrong answer agreeing with the statement shows the student overlooks the vast sedimentary iron/manganese deposits of the Iron Ore Group and metamorphic gemstone belts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 11 project to distinguish between igneous, sedimentary, and metamorphic mineral formation in your local area. List three observable criteria you would record at each site.",
+     "a": "Good plan: Select three sites (e.g., a granite quarry, a limestone outcrop, a schist roadcut). At each site record: (1) Rock texture and structure (crystal size, foliation, bedding). (2) Mineral associations (which minerals occur together). (3) Contact relationships (veins cutting host, layers conformable, gradational contacts). A poor answer that only lists mineral names without linking to field criteria shows inability to connect process to observable evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

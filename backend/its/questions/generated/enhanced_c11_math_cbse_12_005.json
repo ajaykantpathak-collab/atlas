@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_12_005",
+   "title": "c11_math_cbse_12_005",
+   "questions": [
+    {
+     "q": "State the formula for the coordinates of a point dividing the line segment joining P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) externally in the ratio m:n (m ≠ n).",
+     "a": "The coordinates are \\(\\left( \\frac{m x_2 - n x_1}{m - n}, \\frac{m y_2 - n y_1}{m - n}, \\frac{m z_2 - n z_1}{m - n} \\right)\\). A wrong answer using addition in the numerator (like \\(\\frac{m x_2 + n x_1}{m + n}\\)) reveals confusion with the internal division formula and indicates the student has not grasped the sign change required for external division.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the denominator in the external division formula is (m - n) instead of (m + n) as in internal division.",
+     "a": "In external division, the point lies outside the segment, so the directed segments PR and RQ have opposite signs. If we use signed distances, the ratio m:n is taken as negative, leading to subtraction in the denominator when converting to positive m,n. A wrong answer like \"it's just a different formula\" shows the student lacks conceptual understanding of directed ratios and the geometric meaning of external division.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the line segment joining A(1, 2, 3) and B(4, 5, 6) externally in the ratio 2:3.",
+     "a": "Using the formula with m=2, n=3: x = (2×4 - 3×1)/(2-3) = (8-3)/(-1) = -5; y = (2×5 - 3×2)/(2-3) = (10-6)/(-1) = -4; z = (2×6 - 3×3)/(2-3) = (12-9)/(-1) = -3. The point is R(-5, -4, -3). A wrong answer like (11/5, 16/5, 21/5) results from mistakenly using the internal division formula (m+n in denominator).",
+     "self_check": true
+    },
+    {
+     "q": "Given P(2, -1, 3) and Q(5, 2, 6), a point R divides PQ externally in the ratio 3:2. Another point S divides PQ internally in the ratio 3:2. Compare the coordinates of R and S and explain their geometric relationship.",
+     "a": "R = \\(\\left( \\frac{3×5 - 2×2}{3-2}, \\frac{3×2 - 2×(-1)}{3-2}, \\frac{3×6 - 2×3}{3-2} \\right)\\) = (11, 8, 12). S = \\(\\left( \\frac{3×5 + 2×2}{3+2}, \\frac{3×2 + 2×(-1)}{3+2}, \\frac{3×6 + 2×3}{3+2} \\right)\\) = (19/5, 4/5, 24/5). R lies beyond Q (since m>n), while S lies between P and Q. The x-coordinate of R (11) is greater than Q's x (5), whereas S's x (3.8) is between P's x (2) and Q's x (5). A wrong answer that does not recognize R is outside the segment indicates a gap in geometric interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for external division in ratio m:n, the formula is \\(\\left( \\frac{m x_2 + n x_1}{m+n}, \\frac{m y_2 + n y_1}{m+n}, \\frac{m z_2 + n z_1}{m+n} \\right)\\) because \"external just means outside\". Identify the error and correct it.",
+     "a": "The error is using the internal division formula. External division requires subtraction in the numerator and (m-n) in the denominator because the ratio of directed segments is negative. The correct formula uses minus signs. A student who does not identify the sign error misunderstands the concept of directed ratios and the algebraic derivation from the section formula.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (using Indian context like distances between cities or coordinates of a building) where you need to find a point that divides a line segment externally in a given ratio. Provide the problem statement and solve it.",
+     "a": "Example: \"Two mobile towers are located at coordinates (10, 20, 30) and (40, 50, 60) in a 3D grid (units in km). A relay station is to be placed on the line extending beyond the second tower such that its distance from the first tower is twice its distance from the second tower. Find its coordinates.\" Solution: Ratio 2:1 externally. Coordinates = \\(\\left( \\frac{2×40 - 1×10}{2-1}, \\frac{2×50 - 1×20}{2-1}, \\frac{2×60 - 1×30}{2-1} \\right)\\) = (70, 80, 90). A poor answer would use internal division or incorrectly assign the ratio, showing inability to translate the word problem into the correct mathematical ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

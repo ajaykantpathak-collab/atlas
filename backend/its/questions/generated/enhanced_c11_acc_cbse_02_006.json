@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_006",
+   "title": "c11_acc_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the Cost Concept and the Dual Aspect Concept in one sentence each.",
+     "a": "Cost Concept: Assets are recorded at the amount paid to acquire them plus all costs to make them ready for use. Dual Aspect Concept: Every transaction affects at least two accounts such that the accounting equation (Assets = Liabilities + Capital) remains balanced. A wrong answer (e.g., \"Cost Concept means market value\" or \"Dual Aspect means two entries in the same account\") reveals confusion between historical cost and fair value, or between double-entry and dual effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If I buy machinery for ₹5,00,000 and its market value rises to ₹6,00,000 after a year, I should record it at ₹6,00,000 because that's what it's worth.\" Explain why this violates the Cost Concept and which quality of accounting information the Cost Concept primarily ensures.",
+     "a": "The Cost Concept requires recording at historical cost (₹5,00,000) because it is objective and verifiable from purchase documents; market value is subjective and fluctuates. The concept primarily ensures objectivity. A wrong answer (e.g., \"It violates Conservatism\" or \"It ensures comparability\") shows the student confuses Cost Concept with Conservatism or doesn't understand that objectivity comes from verifiable documentary evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A firm purchases a computer for ₹60,000, pays ₹2,000 freight, ₹3,000 installation, and ₹1,000 for software pre-installed (essential for operation). It also spends ₹5,000 on a launch party for the new computer. Calculate the amount at which the computer will be recorded. Identify which item is excluded and why.",
+     "a": "Recorded cost = ₹60,000 + ₹2,000 + ₹3,000 + ₹1,000 = ₹66,000. The ₹5,000 launch party is excluded because it is not necessary to make the asset ready for use — it's a revenue expenditure (advertising). A wrong inclusion of the launch party reveals the student cannot distinguish between capital expenditures (part of asset cost) and revenue expenditures (period expense).",
+     "self_check": true
+    },
+    {
+     "q": "Transaction: \"Started business with cash ₹10,00,000 and building ₹20,00,000.\" Show the dual effect on the accounting equation. Then, if the owner withdraws ₹50,000 cash for personal use, show the new equation. Explain why the equation remains balanced after each step.",
+     "a": "Step 1: Assets (Cash ₹10L + Building ₹20L) = ₹30L; Capital = ₹30L. Step 2: Withdrawal reduces Cash by ₹50,000 and reduces Capital by ₹50,000 (drawings). New equation: Assets (Cash ₹9.5L + Building ₹20L) = ₹29.5L; Capital = ₹29.5L. The equation balances because every transaction has equal debit and credit effects. A wrong answer (e.g., reducing only cash) shows the student treats drawings as an expense rather than a reduction of capital.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Dual Aspect Concept and the Double Entry System are the same thing.\" Provide a precise distinction.",
+     "a": "They are not the same. Dual Aspect Concept is the theoretical principle that every transaction has two effects (giving and receiving benefit). Double Entry System is the practical bookkeeping method that implements this principle by recording each effect in a separate account with debits and credits. A wrong answer (e.g., \"They are identical\") reveals the student confuses the underlying concept with the mechanical system built upon it.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business transaction (different from examples in the textbook) that simultaneously affects: (a) two assets, (b) an asset and a liability, (c) an asset and capital. Write the accounting equation impact for each.",
+     "a": "(a) Paid ₹30,000 cash to purchase furniture: Furniture ↑ ₹30,000, Cash ↓ ₹30,000. (b) Purchased goods on credit ₹40,000: Inventory ↑ ₹40,000, Creditors ↑ ₹40,000. (c) Owner invested additional ₹1,00,000 cash: Cash ↑ ₹1,00,000, Capital ↑ ₹1,00,000. In each, Assets = Liabilities + Capital holds. A poor answer (e.g., missing one effect or unbalanced equation) shows the student cannot independently apply dual aspect to new scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

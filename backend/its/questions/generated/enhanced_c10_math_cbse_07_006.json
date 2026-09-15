@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_006",
+   "title": "c10_math_cbse_07_006",
+   "questions": [
+    {
+     "q": "State the section formula for internal division. If point P divides AB in the ratio m:n, what are the coordinates of P in terms of A(x₁, y₁) and B(x₂, y₂)?",
+     "a": "The coordinates are P((m x₂ + n x₁)/(m+n), (m y₂ + n y₁)/(m+n)). A wrong answer like swapping m and n (i.e., (n x₂ + m x₁)/(m+n)) reveals the student does not understand that the ratio m:n corresponds to AP:PB, so the weight of B's coordinate is m and A's is n. This confusion leads to the point being placed on the wrong side of the midpoint.",
+     "self_check": true
+    },
+    {
+     "q": "A student is asked: \"Find the coordinates of the point that divides the segment joining (2, 3) and (8, 7) in the ratio 1:2.\" The student writes: x = (1×2 + 2×8)/3 = 18/3 = 6, y = (1×3 + 2×7)/3 = 17/3. Is this correct? Explain why or why not.",
+     "a": "The student's answer is incorrect. The correct substitution is x = (1×8 + 2×2)/3 = 12/3 = 4, y = (1×7 + 2×3)/3 = 13/3. The student swapped the weights: the ratio 1:2 means AP:PB = 1:2, so the weight of B (the second point) is 1 and weight of A is 2. The wrong answer reveals the misconception that the first number in the ratio always multiplies the first point's coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the line segment joining A(−4, 5) and B(6, −3) internally in the ratio 2:3.",
+     "a": "Given A(−4,5), B(6,−3), ratio m:n = 2:3.\nx = (2×6 + 3×(−4))/(2+3) = (12 − 12)/5 = 0/5 = 0.\ny = (2×(−3) + 3×5)/5 = (−6 + 15)/5 = 9/5 = 1.8.\nCoordinates: (0, 1.8) or (0, 9/5).\nA wrong answer like (12/5, −9/5) indicates the student used the ratio in reverse order (3:2) or swapped the coordinates of A and B. This is a common error when the ratio is not 1:1.",
+     "self_check": true
+    },
+    {
+     "q": "The midpoint of the segment joining P(2, k) and Q(6, 4) is M(4, 5). Find the value of k. Then, using the same points, find the ratio in which the point R(3, 4.5) divides PQ.",
+     "a": "Midpoint formula: ((2+6)/2, (k+4)/2) = (4, 5) → 4 = 4 (ok), (k+4)/2 = 5 → k+4 = 10 → k = 6.\nSo P(2,6), Q(6,4). For R(3, 4.5): let ratio be m:n.\nx: (m×6 + n×2)/(m+n) = 3 → 6m + 2n = 3m + 3n → 3m = n → m:n = 1:3.\nCheck y: (m×4 + n×6)/(m+n) = (4m + 6n)/(m+n) = (4m + 18m)/4m = 22m/4m = 5.5? Wait, R's y is 4.5. Let's recalc: m:n = 1:3 → m=1, n=3. y = (1×4 + 3×6)/4 = (4+18)/4 = 22/4 = 5.5. But R's y is 4.5. So R does NOT lie on PQ? Actually, check collinearity: slope PQ = (4-6)/(6-2) = -2/4 = -1/2. Slope PR = (4.5-6)/(3-2) = -1.5/1 = -1.5 = -3/2. Not equal, so R is not on PQ. The question assumes it does. If the student forces the ratio from x-coordinate only, they get 1:3 but y doesn't match. This reveals the student must check both coordinates for consistency — a point dividing a segment must satisfy both coordinates with the same ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the ratio in which the point (−1, 6) divides the segment joining (−3, 10) and (6, −8).\" The student sets up: (-1) = (m×6 + n×(-3))/(m+n) and solves to get m:n = 2:7. Then they check y: (m×(-8) + n×10)/(m+n) = (2×(-8) + 7×10)/9 = (-16+70)/9 = 54/9 = 6. The student concludes the ratio is 2:7. Is the student's method and answer correct? Justify.",
+     "a": "The student's method is correct and the answer is correct. They used the section formula for x-coordinate to find the ratio, then verified with the y-coordinate. Both give the same ratio 2:7, confirming the point lies on the segment and divides it internally in that ratio. A wrong answer would be if the student only used one coordinate and didn't verify, or if they got different ratios from x and y (which would mean the point is not on the line segment). The verification step is crucial for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires using the section formula to find an unknown coordinate. The problem must involve a ratio that is not 1:1 and must have a solution that is not an integer. Write the problem and solve it.",
+     "a": "Example problem: \"A straight road connects two villages A and B. Village A is at coordinates (2, 3) km and village B is at (14, 11) km on a district map. A water tank is to be built on the road such that its distance from A is 2/5 of the total road length. Find the coordinates of the water tank.\" Solution: Ratio AP:PB = 2:3 (since 2/5 from A means remaining 3/5 to B). Using section formula: x = (2×14 + 3×2)/5 = (28+6)/5 = 34/5 = 6.8 km; y = (2×11 + 3×3)/5 = (22+9)/5 = 31/5 = 6.2 km. Coordinates: (6.8, 6.2). A good answer includes a clear problem statement, correct ratio interpretation (2:3 not 2:5), non-integer answer, and full working. A poor answer uses ratio 2:5 or gets integer coordinates, showing misunderstanding of \"fraction of total length\" vs \"ratio of parts\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_005",
+   "title": "c12_ps_cbse_10_005",
+   "questions": [
+    {
+     "q": "What were the three core components of the Green Revolution technology package introduced in India in the mid-1960s, and which two crops were primarily targeted?",
+     "a": "The three core components were: (1) High-Yielding Variety (HYV) seeds (dwarf wheat varieties like Lerma Rojo and Sonora 64 from Mexico, and IR8 rice from Philippines), (2) assured irrigation (tube wells, canals), and (3) chemical inputs (nitrogenous fertilizers, pesticides). The primary crops were wheat and rice. A wrong answer (e.g., mentioning \"mechanisation\" as a core component or \"cotton\" as a primary crop) reveals confusion between the technology package and its later extensions, or between Green Revolution and later agricultural changes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Indian state deliberately concentrate Green Revolution investments in Punjab, Haryana, and Western Uttar Pradesh rather than spreading them evenly across the country?",
+     "a": "The state targeted regions with assured irrigation (canal networks from Bhakra-Nangal, tube-well potential) because HYV seeds are water-intensive and fail under rainfed conditions. Spreading investments thinly across rainfed areas would have yielded low returns and risked political failure when the country faced acute food shortages (1965-66 droughts, PL-480 dependence). A wrong answer (e.g., \"because Punjab farmers were more progressive\") reflects a cultural-stereotype misconception rather than understanding the agro-ecological and political-economy logic of state-led technological targeting.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab in 1975 adopts HYV wheat, uses subsidised fertiliser, sells to FCI at MSP, and gets a tubewell loan from a nationalised bank. A farmer in Bihar in 1975 grows traditional paddy with rainwater, uses no fertiliser, sells to a local trader at below-MSP prices, and has no institutional credit. Identify the specific state policies that created this divergence and explain how each policy worked.",
+     "a": "The divergence was created by: (1) **Procurement policy** — FCI purchased wheat/rice at MSP only in surplus regions with mandi infrastructure (Punjab/Haryana), leaving Bihar farmers to distress sales; (2) **Input subsidies** — fertiliser, power, and credit subsidies were channelled through cooperatives and banks concentrated in Green Revolution zones; (3) **Irrigation investment** — public tube-well programmes and canal commands prioritised northwestern alluvial plains; (4) **Extension services** — ICAR/KVKs focused demonstrations on HYV wheat in target districts. A wrong answer that blames \"farmer backwardness\" misses the structural policy design that created regional inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Green Revolution's impact on (a) large landowners vs. landless labourers in Punjab, and (b) the ecological footprint in Punjab vs. Eastern India. What does this comparison reveal about the \"growth with justice\" objective of planning?",
+     "a": "(a) In Punjab, large landowners gained from rising land values, mechanisation (displacing labour), and access to credit/subsidies; landless labourers faced wage stagnation, casualisation, and loss of common property resources (grazing, water). (b) Punjab experienced groundwater depletion (tube-well overuse), soil salinity, pesticide residue, and loss of biodiversity; Eastern India (rainfed, low-input) avoided these but remained low-productivity. This reveals that the planning objective of \"growth with justice\" (Directive Principles, Art. 39) was compromised — the strategy prioritised national food output growth over distributive justice and ecological sustainability, creating a \"growth without justice\" outcome in the countryside.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument: \"The Green Revolution was a success because it made India food self-sufficient; its negative consequences were unavoidable trade-offs.\" Use evidence from production data, regional disparity, and ecological costs.",
+     "a": "The argument is partially valid but analytically incomplete. **Success**: Wheat production rose from 12 MT (1964-65) to 55 MT (1990-91); India ended PL-480 imports by 1976. **But trade-offs were not unavoidable — they were policy choices**: (1) Procurement could have been extended to Eastern India (now done partially via DCP); (2) Subsidies could have been decoupled from water-intensive crops (e.g., direct income support); (3) Ecological monitoring could have regulated groundwater (now critical in Punjab). The \"unavoidable\" framing depoliticises decisions that benefited a specific class-region coalition (rich peasants in NW India) who became a powerful electoral bloc. A weak evaluation treats trade-offs as natural laws rather than political choices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 1970s state policy package that would have achieved food self-sufficiency while reducing the Green Revolution's three worst negative outcomes: regional disparity, groundwater depletion, and landless labourer impoverishment. Specify at least one instrument for each outcome.",
+     "a": "A good answer proposes: (1) **For regional disparity**: Decentralised procurement — mandate FCI to open purchase centres in Eastern UP, Bihar, West Bengal with same MSP; invest in Eastern irrigation (e.g., completing Sone canal commands). (2) **For groundwater depletion**: Replace free electricity for tube-wells with metered supply + per-hectare water quota; promote conjunctive use (canal + well); incentivise less water-intensive crops (pulses, oilseeds) via MSP. (3) **For labourer impoverishment**: Enforce minimum agricultural wages via Minimum Wages Act; distribute ceiling-surplus land (link to Land Reforms node c12_ps_cbse_10_007); create public works (pre-MGNREGA) in slack seasons. A poor answer suggests \"organic farming\" (anachronistic) or \"stop Green Revolution\" (ignores food crisis context).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

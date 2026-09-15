@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_006",
+   "title": "c12_eng_k_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the difference between a **topic** and a **theme** in poetry? Give the topic and a correct thematic statement for \"A Lecture Upon the Shadow.\"",
+     "a": "A topic is a one-word subject (e.g., \"love,\" \"shadows,\" \"time\"). A theme is a complete sentence expressing the poet's insight about that topic. For this poem: Topic = \"Love and time.\" Thematic statement = \"Love reaches its highest perfection only when it is transparent and constant; any decline into secrecy or disguise destroys it.\" A wrong answer that gives only a topic (\"Love\") reveals the student confuses subject with insight and cannot articulate the poem's argument.",
+     "self_check": true
+    },
+    {
+     "q": "The poem describes three shadow-stages: morning, noon, afternoon. A student writes: \"Morning shadows represent young love, noon shadows represent mature love, and evening shadows represent old age.\" Why is this interpretation **incomplete and partially incorrect**?",
+     "a": "The student correctly identifies the chronological mapping but misses the **metaphysical argument**: morning shadows are long because lovers *choose* disguises (\"Disguises did, and shadowes, flow / From us, and our cares\"); noon shadows vanish because \"to brave clearnesse all things are reduc'd\" — honesty is a *choice* of mature love; afternoon shadows are not inevitable old age but a *moral failure* (\"If our loves faint... new shadowes make the other way\"). The error reveals the student reads literally, not metaphorically, and misses Donne's emphasis on **volition** in love's clarity or decay.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"shadow = disguise/deception\" metaphor to this new situation: A couple in their first month of dating carefully curates their social media posts to show only happy moments. Six months later, they share unfiltered arguments and vulnerabilities. Two years later, one partner starts hiding messages again. Map each phase to the poem's three stages and state what the poem predicts for the third phase.",
+     "a": "Phase 1 (curated posts) = morning shadows: \"Disguises did, and shadowes, flow / From us\" — deliberate concealment. Phase 2 (unfiltered sharing) = noon: \"We doe those shadowes tread... to brave clearnesse all things are reduc'd\" — chosen transparency. Phase 3 (hiding messages) = afternoon decline: \"If our loves faint... We shall new shadowes make the other way... these which come behinde / Will worke upon our selves, and blind our eyes.\" The poem predicts **mutual self-deception** (\"blind our eyes\") and eventual darkness (\"loves day is short, if love decay\"). A wrong mapping (e.g., calling Phase 3 \"natural aging\") shows failure to apply the metaphor's moral dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the **structure** of the poem (two stanzas of 10 and 14 lines, with a turning point at \"Except our loves at this noone stay\") reinforces the primary theme. Why does Donne not use a regular sonnet form?",
+     "a": "The first stanza (10 lines) establishes the metaphor and the ideal (noon clarity). The second stanza (14 lines) introduces the **conditional warning** (\"Except our loves at this noone stay\") and explores the consequences of failure. The irregular stanza lengths mirror the poem's argument: love's clarity is brief and hard-won (short stanza), while its decline is extended and elaborate (longer stanza). A sonnet's fixed 14 lines would impose a false symmetry on an asymmetrical truth — love's perfection is fragile, its decay sprawling. A student who says \"it's just free verse\" misses how form *enacts* theme.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Donne's message is pessimistic — he says love inevitably decays into deception.\" Defend or refute using the final three lines.",
+     "a": "**Refute.** The poem is a **conditional warning**, not a prophecy. \"Except our loves at this noone stay\" (line 11) makes clarity a *choice*. The final lines — \"Love is a growing, or full constant light; / And his first minute, after noone, is night\" — define true love as *either* growing *or* constant; decay is a *failure to choose* constancy. The message is **ethical**: maintain the \"noone\" of transparency. A student agreeing with the claim confuses the *warning* with the *message* and ignores the imperative mood (\"Stand still,\" \"Stay\").",
+     "self_check": true
+    },
+    {
+     "q": "Create a **four-line stanza** (any rhyme scheme) that conveys the same primary message — \"love requires constant transparency or it turns into self-deception\" — using a **different central metaphor** (not shadows/sun). Title it \"A Lecture Upon the ______.\"",
+     "a": "Example: **\"A Lecture Upon the Mirror\"**  \n*When first we gaze, we fog the glass with breath,*  \n*Then wipe it clear to see each flaw and grace.*  \n*But if we tire of truth's sharp depth,*  \n*We fog it once more — and lose the face.*  \nA poor answer uses the same shadow metaphor or states the message directly (\"Love needs honesty\") without metaphorical enactment. This tests whether the student understands **metaphor as argument**, not decoration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

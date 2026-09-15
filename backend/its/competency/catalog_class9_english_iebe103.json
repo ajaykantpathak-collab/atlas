@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 3,
+ "chapter_title": "Winds of Change",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.103.3.1",
+   "title": "The Hand Fan Across Regions and Materials",
+   "section": "3",
+   "definition": "The text surveys the hand fan or pankha across India - made of bamboo, cane, palm leaf, silk, brass or leather, decorated in every regional style - showing how one humble object carries the craft identity of many communities.",
+   "formula": "-",
+   "key_idea": "One fan, many hands: materials and decoration make each pankha a regional signature.",
+   "textbook_ref": "iebe103.txt sections on pankhas of different regions and materials",
+   "question_patterns": [
+    "what materials were used to make traditional hand fans",
+    "how could each kind of pankha be distinguished from another",
+    "describe the hand fan of the region you know best",
+    "why is the pankha called a craft object - explain",
+    "compare hand fans of two different regions",
+    "what do decorations on fans tell about their users"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the materials",
+     "explain": "Bamboo, cane, palm leaf, silk, brass and leather each shaped a fan style."},
+    {"step": 2, "action": "map the regions",
+     "explain": "Different states developed their own designs and decoration."},
+    {"step": 3, "action": "read the culture",
+     "explain": "Fans carried art, status and daily comfort together."}
+   ]
+  },
+  {
+   "id": "iebe.103.3.2",
+   "title": "The Theme - Winds of Change",
+   "section": "3",
+   "definition": "The title plays on wind: the hand fan that once stirred breeze has given way to electric fans and coolers, and with that change old crafts fade - the text invites reflection on what progress takes even as it gives.",
+   "formula": "-",
+   "key_idea": "Change has two winds: comfort arrives and heritage retires - both must be counted.",
+   "textbook_ref": "iebe103.txt concluding reflections on change",
+   "question_patterns": [
+    "why is the text titled Winds of Change - explain the play on words",
+    "what replaced the hand fan in modern homes",
+    "should we preserve crafts like fan making - discuss",
+    "how does the text contrast the past and the present",
+    "what is gained and what is lost when old crafts disappear",
+    "suggest ways to keep traditional fan making alive"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the title literally",
+     "explain": "Fans move wind; the essay is about breeze makers."},
+    {"step": 2, "action": "read it figuratively",
+     "explain": "Winds of change also mean the modern shift away from hand fans."},
+    {"step": 3, "action": "weigh the balance",
+     "explain": "Progress and heritage both deserve thoughtful handling."}
+   ]
+  },
+  {
+   "id": "iebe.103.3.3",
+   "title": "Descriptive Writing Features",
+   "section": "3",
+   "definition": "The text is a piece of descriptive-expository writing: it classifies fans by material and region, uses precise vocabulary for craft details, and organises description from form to function - a model for students' own descriptive essays.",
+   "formula": "-",
+   "key_idea": "Classify, describe, explain: the essay's structure is itself a lesson.",
+   "textbook_ref": "iebe103.txt structure and language features",
+   "question_patterns": [
+    "what type of text is Winds of Change - justify",
+    "how does the writer organise the description of fans",
+    "list the craft words used in the text and their meanings",
+    "which words create pictures of the fans in your mind",
+    "write a descriptive paragraph on an object from your home",
+    "how does classification make description clearer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the type",
+     "explain": "Descriptive-expository writing with classified detail."},
+    {"step": 2, "action": "study the structure",
+     "explain": "Material-wise and region-wise grouping keeps it clear."},
+    {"step": 3, "action": "borrow the method",
+     "explain": "Use classification and precise words in your own writing."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "iebe103.txt exercises",
+   "questions": [
+     "Describe the different kinds of pankhas mentioned in the text.",
+     "Why are traditional fans disappearing - give reasons.",
+     "Write a descriptive paragraph about any traditional object."
+   ]
+  }
+ ]
+}

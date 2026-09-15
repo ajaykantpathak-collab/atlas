@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_004",
+   "title": "c10_math_cbse_12_004",
+   "questions": [
+    {
+     "q": "Write the formula for the total volume of a solid formed by placing a right circular cone of radius r and height h₁ on top of a right circular cylinder of the same radius r and height h₂. State the condition under which this formula is valid.",
+     "a": "V = πr²h₂ + (1/3)πr²h₁. The formula is valid only when the cone and cylinder have exactly the same base radius and are joined base-to-base with no gap or overlap. A wrong answer like V = πr²(h₁ + h₂) reveals the student incorrectly treats the cone as a cylinder (forgets the 1/3 factor). Writing V = (1/3)πr²(h₁ + h₂) shows they treat the cylinder as a cone.",
+     "self_check": true
+    },
+    {
+     "q": "A solid is made by placing a hemisphere of radius r on top of a cone of the same radius r and height h. A student writes the total volume as V = (1/3)πr²h + (4/3)πr³. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The volume of a hemisphere is (2/3)πr³, not (4/3)πr³ (which is the volume of a full sphere). The correct formula is V = (1/3)πr²h + (2/3)πr³. A student writing (4/3)πr³ reveals they confuse hemisphere with sphere — a very common board exam error. They must remember: hemisphere = half of sphere, so volume is half of (4/3)πr³ = (2/3)πr³.",
+     "self_check": true
+    },
+    {
+     "q": "A toy is in the shape of a cone of radius 5 cm and height 12 cm mounted on a cylinder of the same radius and height 8 cm. Find the total volume of the toy. Use π = 22/7.",
+     "a": "Given: r = 5 cm, h_cone = 12 cm, h_cylinder = 8 cm.\nV_cylinder = πr²h = (22/7) × 5² × 8 = (22/7) × 25 × 8 = 4400/7 cm³.\nV_cone = (1/3)πr²h = (1/3) × (22/7) × 25 × 12 = (1/3) × (22/7) × 300 = 6600/21 = 2200/7 cm³.\nV_total = 4400/7 + 2200/7 = 6600/7 = 942.857... ≈ 942.86 cm³.\nA wrong answer of 13200/7 cm³ (adding 4400/7 + 8800/7) reveals the student used h_cone = 12 but forgot the 1/3 factor for the cone, computing V_cone as if it were a cylinder.",
+     "self_check": true
+    },
+    {
+     "q": "Two solids have the same total volume: Solid A is a cone on a cylinder (r = 6 cm, h_cylinder = 10 cm, h_cone = 9 cm). Solid B is a hemisphere on a cone (r = 6 cm, h_cone = h). Find the height h of the cone in Solid B. Use π = 22/7.",
+     "a": "V_A = π(6)²(10) + (1/3)π(6)²(9) = 360π + (1/3)×36π×9 = 360π + 108π = 468π cm³.\nV_B = (1/3)π(6)²h + (2/3)π(6)³ = 12πh + (2/3)π(216) = 12πh + 144π.\nSet equal: 12πh + 144π = 468π → 12h + 144 = 468 → 12h = 324 → h = 27 cm.\nA wrong answer like h = 9 cm reveals the student equated only the cone parts (ignoring the cylinder/hemisphere) or forgot the (2/3) factor for hemisphere. This tests whether the student understands that total volume equality requires summing ALL parts.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"A solid is a hemisphere on a cone, both of radius 7 cm. The total volume is 1078π/3 cm³. Find the height of the cone.\" Their working:\nV_hemisphere = (2/3)π(7)³ = 686π/3\nV_cone = (1/3)π(7)²h = 49πh/3\nTotal = 686π/3 + 49πh/3 = 1078π/3\n→ 686 + 49h = 1078 → 49h = 392 → h = 8 cm.\nIs the student's answer correct? If not, identify the error.",
+     "a": "The student's working is mathematically correct and the answer h = 8 cm is correct. However, a common error students make is writing V_hemisphere = (4/3)πr³ instead of (2/3)πr³, which would give 1372π/3 and lead to a negative h — an impossible result they might not catch. Another error: forgetting to divide the cone volume by 3, giving 147πh/3 and h = 8/3 cm. The given solution correctly uses (2/3)πr³ for hemisphere and (1/3)πr²h for cone.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) involving a cone-on-cylinder or hemisphere-on-cone solid where the total volume is given and the student must find a missing dimension. The problem must require at least 4 steps to solve and use π = 22/7. Write the problem statement and outline the solution steps.",
+     "a": "Problem: \"A temple kalash (finial) is made of a hemispherical dome of radius 14 cm mounted on a conical base of the same radius. The total volume of brass used is 14373.33 cm³. Find the height of the conical base. (Use π = 22/7)\"\nSolution steps:\n1. Write V_hemisphere = (2/3)πr³ = (2/3)×(22/7)×14³ = (2/3)×(22/7)×2744 = 120896/21 = 5756.95 cm³.\n2. Let h be cone height. V_cone = (1/3)πr²h = (1/3)×(22/7)×196×h = (4312/21)h.\n3. Total V = 5756.95 + (4312/21)h = 14373.33.\n4. Solve: (4312/21)h = 8616.38 → h = (8616.38 × 21)/4312 = 42 cm.\nA poor problem would give the answer directly or miss the unit conversion step. A good problem tests the reverse calculation and checks if the student can isolate h algebraically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

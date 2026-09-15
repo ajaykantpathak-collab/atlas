@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_2",
+   "title": "c9_physics_ch6_2",
+   "questions": [
+    {
+     "q": "Define latitude and state its unit of measurement. How is the angle of incidence of solar rays related to latitude at solar noon on an equinox?",
+     "a": "Latitude is the angular distance north or south of the equator measured in degrees (°). At solar noon on an equinox, the solar altitude angle = 90° – latitude, so the angle of incidence (measured from the normal) equals the latitude. A wrong answer (e.g., \"latitude is measured in km\" or \"incidence angle is always 90°\") reveals confusion between linear distance and angular measure, or failure to visualise the geometry of parallel rays striking a curved surface.",
+     "self_check": true
+    },
+    {
+     "q": "Two cities A (10°N) and B (40°N) receive sunlight at solar noon on the equinox. Explain why city A receives more intense solar radiation per unit area than city B, using the concept of beam spreading.",
+     "a": "At 10°N the solar altitude is 80°, so rays strike nearly perpendicularly concentrating energy on a small area. At 40°N the altitude is 50°, so the same cross-sectional beam spreads over an area larger by factor 1/cos(50°) ≈ 1.56. A wrong answer citing \"distance from Sun\" or \"thicker atmosphere\" as the *primary* reason shows the student hasn't grasped the geometric beam-spreading effect which dominates over atmospheric path length for this comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the ratio of solar irradiance (W/m²) at solar noon on the equinox at 30°N latitude compared to the equator, assuming no atmospheric attenuation. The solar constant is 1361 W/m². Show all steps.",
+     "a": "Step 1: At equator, incidence angle = 0°, irradiance = 1361 × cos(0°) = 1361 W/m².\nStep 2: At 30°N, solar altitude = 60°, incidence angle = 30°, irradiance = 1361 × cos(30°) = 1361 × 0.866 = 1179 W/m².\nStep 3: Ratio = 1179 / 1361 = 0.866 (or cos 30°).\nStep 4: Units cancel leaving dimensionless ratio.\nStep 5: Answer: 0.866 (or 86.6%). A wrong answer using sin(30°) = 0.5 reveals confusion between altitude angle and incidence angle; using 1361/1361 = 1 reveals failure to apply the cosine law.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the temperature data: City X (5°N) average annual temperature 27°C, City Y (35°N) average 18°C, City Z (60°N) average 5°C. The drop from X to Y is 9°C over 30°, but Y to Z is 13°C over 25°. Explain why the temperature gradient steepens at higher latitudes using two physical mechanisms.",
+     "a": "First, the cosine law is non-linear: equal latitude intervals represent larger changes in cos(θ) near the poles (derivative -sin θ increases with θ). Second, high latitudes have extreme day-length variation — winter darkness eliminates solar input entirely, lowering the annual mean disproportionately. A wrong answer attributing the steepening only to \"thicker atmosphere\" misses the dominant geometric and diurnal-cycle effects.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If Earth's axis were not tilted, latitude would not affect temperature because every place would get 12 hours of sunlight year-round.\" Evaluate this statement and correct the error.",
+     "a": "The claim is false. Even with zero axial tilt, solar altitude at noon = 90° – latitude, so beam spreading (cosine law) still makes equatorial regions receive more energy per unit area than poles. Day length would be uniform (12 h), but *intensity* varies with latitude. A student agreeing with the claim has conflated \"seasonal variation\" with \"latitudinal gradient\" and overlooked the geometric incidence-angle effect that exists independently of tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a flashlight, a graph paper screen, and a protractor to demonstrate how latitude affects solar heating. List the independent variable, dependent variable, and two controlled variables. Sketch the expected graph of temperature rise vs. latitude.",
+     "a": "Independent variable: angle of incidence (simulated latitude) from 0° to 70° in 10° steps. Dependent variable: temperature rise of a thermometer placed on the graph paper after 5 minutes exposure. Controlled: flashlight distance, power, ambient temperature, paper colour. Expected graph: temperature rise ∝ cos(latitude), a curve starting at maximum at 0° and falling to near zero at 90°. A poor answer that varies distance instead of angle, or expects a straight-line graph, shows misunderstanding of the cosine relationship and experimental control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

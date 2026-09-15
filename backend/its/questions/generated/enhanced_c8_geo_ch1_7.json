@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_7",
+   "title": "c8_geo_ch1_7",
+   "questions": [
+    {
+     "q": "What is the core condition required for the extraction of a renewable resource (such as groundwater or timber) to be considered sustainable?",
+     "a": "The rate of resource extraction must not exceed the natural rate of replenishment or regeneration. If a student answers \"never cutting trees\" or \"stopping the use of water altogether,\" they confuse sustainable use (conservation through balanced use) with strict preservation (complete non-use).",
+     "self_check": true
+    },
+    {
+     "q": "Why does drilling borewells deeper and deeper in the hard-rock plateau region of Central India fail to qualify as a sustainable water management solution?",
+     "a": "Drilling deeper extracts fossil groundwater that accumulated over centuries and recharges extremely slowly through non-porous crystalline rock, exceeding the annual recharge rate and permanently lowering the regional water table. A wrong answer stating \"because deep water is too salty for crops\" reveals that the student is focusing on water quality rather than the geographic imbalance between recharge rates and withdrawal volumes.",
+     "self_check": true
+    },
+    {
+     "q": "A forested catchment area in the Western Ghats naturally generates 1,200 cubic meters of usable timber per square kilometer each year through natural tree growth. A timber cooperative harvests 1,500 cubic meters per square kilometer annually from this zone. Using these values, explain whether this practice is sustainable over a 10-year period and calculate the net deficit.",
+     "a": "1. Natural replenishment rate = 1,200 m³/km²/year.\n2. Harvest (extraction) rate = 1,500 m³/km²/year.\n3. Annual deficit = 1,500 - 1,200 = 300 m³/km²/year.\n4. 10-year net deficit = 300 × 10 = 3,000 m³/km².\nConclusion: This practice is unsustainable because extraction exceeds natural regeneration, resulting in a loss of 3,000 m³ of forest biomass per km² over a decade. If a student simply subtracts the two numbers without interpreting what the negative balance does to the ecosystem's regeneration capacity, they lack conceptual application of resource budgeting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how canal-based flood irrigation and drip irrigation affect soil and groundwater resources in an arid tract like western Rajasthan. Which practice aligns with sustainable use, and why?",
+     "a": "Drip irrigation aligns with sustainable use because it applies water directly to the plant root zone, minimizing evaporation losses and preventing over-extraction of limited water reserves. In contrast, canal-based flood irrigation in arid zones leads to waterlogging and severe soil salinization (capillary action pulls dissolved salts to the surface), which permanently damages soil fertility and wastes precious surface water. A student who chooses flood irrigation because \"it supplies more water to help plants grow faster\" fails to analyze the relationship between arid soil characteristics, evaporation dynamics, and resource degradation.",
+     "self_check": true
+    },
+    {
+     "q": "An industrial district plans to meet its rising energy and water demands by clearing 200 hectares of mangrove forests along the Odisha coast to build coal yards and desalination intake pipes, arguing this brings economic growth. Evaluate this proposal from the perspective of long-term sustainable resource management.",
+     "a": "The proposal is unsustainable because mangroves provide vital non-substitutable geographical services: they act as natural coastal buffers against cyclone surges, prevent shoreline erosion, and serve as breeding grounds for marine fisheries. Destroying them compromises coastal stability and future livelihoods for short-term industrial gain, exposing the entire coastal zone to severe disaster risk. A student who approves the project simply because \"economic growth and energy are necessary for modern life\" fails to evaluate trade-offs between immediate consumption and irreversible ecological degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point sustainable watershed management plan for a semi-arid village in the Deccan Plateau experiencing acute post-monsoon water shortages.",
+     "a": "A complete plan should include: (1) Physical conservation structures: building check dams and contour trenches across hillside slopes to slow runoff and enhance groundwater recharge; (2) Demand-side crop planning: replacing water-intensive crops like sugarcane with drought-resilient millets (jowar, bajra) that match seasonal rainfall availability; (3) Community governance: establishing local water budgeting rules prohibiting new private borewells and regulating collective extraction. A weak answer listing generic actions like \"plant trees and tell people not to waste water\" lacks specific geographical interventions adapted to Deccan slope topography, rainfall constraints, and hydrogeology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_005",
+   "title": "c11_bio_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the precise definition of an \"open vascular bundle\" and name the tissue responsible for this characteristic in dicot stems.",
+     "a": "An open vascular bundle is one in which cambium is present between xylem and phloem, allowing the formation of secondary xylem and secondary phloem. The tissue responsible is the fascicular cambium (a lateral meristem). A wrong answer (e.g., \"open means xylem and phloem are not together\" or \"cambium is absent\") reveals confusion between \"open/closed\" terminology and the physical arrangement of xylem/phloem, or confusion with root radial bundles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the endodermis in a young dicot stem is often called the \"starch sheath\" and why this layer is not distinctly visible in a monocot stem transverse section.",
+     "a": "In dicot stems, the innermost cortical layer (endodermis) accumulates abundant starch grains, making it prominent as a \"starch sheath.\" In monocot stems, the ground tissue is undifferentiated (no distinct cortex/endodermis/pith), so a separate starch-storing endodermal layer does not form. A wrong answer (e.g., \"monocots lack endodermis entirely\" or \"starch sheath is only in roots\") shows failure to understand that monocots have an endodermis in roots but not as a distinct layer in stems, and confusion between root and stem anatomy.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a transverse section of a young stem under a microscope and notes: (i) vascular bundles are conjoint and collateral, (ii) each bundle is surrounded by a sclerenchymatous bundle sheath, (iii) phloem parenchyma is absent, (iv) ground tissue is undifferentiated parenchyma with water cavities. Identify the stem type and justify each observation.",
+     "a": "This is a monocot stem (e.g., maize). Justification: (i) Conjoint collateral bundles occur in both, but (ii) sclerenchymatous bundle sheath is characteristic of monocots, (iii) absence of phloem parenchyma is a monocot feature, (iv) undifferentiated ground tissue with water cavities (lysigenous cavities) is typical of monocots. A wrong identification (e.g., \"dicot because bundles are conjoint\") reveals inability to use the combination of bundle sheath, phloem parenchyma absence, and ground tissue differentiation as diagnostic criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanical support strategies in dicot vs. monocot stems by analyzing the roles of hypodermis, pericycle, and bundle sheath in each.",
+     "a": "Dicot stem: Mechanical support is provided by collenchymatous hypodermis (flexible support for young growing stem) and sclerenchymatous pericycle patches (hard support above phloem). Monocot stem: Mechanical support relies on sclerenchymatous hypodermis (rigid outer layer) and sclerenchymatous bundle sheath around each vascular bundle (creating a \"cylinder of cables\" effect). The dicot's ring arrangement allows a solid cylinder of secondary xylem later; the monocot's scattered bundles with sheaths provide immediate distributed strength without secondary growth. A poor comparison (e.g., \"both have sclerenchyma\") misses the strategic difference: dicots use cortical/pericycle sclerenchyma for primary support and later add wood; monocots bundle sheaths compensate for lack of secondary growth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The presence of medullary rays in dicot stems is essential for radial transport, but monocot stems lack any structure for radial transport because they have no medullary rays.\"",
+     "a": "The statement is partially correct but misleading. Medullary rays (parenchymatous cells between vascular bundles) do facilitate radial transport in dicots. However, monocot stems do not lack radial transport; it occurs through the parenchymatous ground tissue between scattered bundles and via the bundle sheath extensions. The undifferentiated ground tissue in monocots serves the same radial conduction function. A wrong evaluation (e.g., \"monocots have no radial transport\") shows ignorance of the functional equivalence of ground tissue parenchyma in monocots.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a hand lens, razor blade, and common plants (e.g., grass, bean, marigold) to distinguish monocot from dicot stems without a microscope. List the steps and the observable features you would use.",
+     "a": "Steps: 1) Collect young stems of grass (monocot) and bean/marigold (dicot). 2) Make clean transverse cuts with razor blade. 3) Observe cut surface with hand lens. 4) In dicot stems, vascular bundles appear as a distinct ring of dots separating a central pith from outer cortex. 5) In grass stem, vascular bundles appear as scattered dots throughout the ground tissue, often more dense near periphery. 6) Feel texture: grass stem is harder due to sclerenchymatous hypodermis; bean stem is softer with collenchymatous ridges. A poor design (e.g., \"look at leaves instead\" or \"use only one plant\") fails to use comparative stem anatomy and accessible macroscopic features.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

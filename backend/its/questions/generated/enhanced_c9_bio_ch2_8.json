@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_8",
+   "title": "c9_bio_ch2_8",
+   "questions": [
+    {
+     "q": "Name the three main structural parts of a typical neuron and state the function of each part.",
+     "a": "The three main parts are: (1) Cyton (cell body) - contains nucleus and organelles, maintains cell metabolism; (2) Dendrites - short, branched processes that receive incoming impulses from other neurons; (3) Axon - single long process that carries impulses away from the cyton to other neurons or effectors. A wrong answer (e.g., confusing dendrite/axon direction, omitting cyton) reveals the student memorizes labels without understanding directional flow of information - a critical board exam error since questions often ask \"impulse travels from ___ to ___\".",
+     "self_check": true
+    },
+    {
+     "q": "Why does a neuron have only one axon but many dendrites? Explain how this structural asymmetry relates to its function.",
+     "a": "A neuron receives input from many sources (hence many dendrites to increase surface area for synaptic connections) but sends output along a single path to maintain signal fidelity and directionality. If it had multiple axons, the same signal would split and cause confusion in target tissues. A wrong answer (e.g., \"axons are longer so only one fits\") shows the student doesn't grasp the information-processing logic: integration of multiple inputs → single decision → one output channel. This is a classic board-level misconception where students describe structure but miss the computational reason.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a neuron under microscope and sees a long fiber with periodic constrictions (gaps) along its length. Identify the structure, name the gaps, and explain what would happen to impulse speed if these gaps were absent.",
+     "a": "The fiber is a myelinated axon; the gaps are nodes of Ranvier. Without nodes, the impulse would travel as a continuous wave along the entire axon membrane (continuous conduction), which is ~50x slower than saltatory conduction where the impulse \"jumps\" from node to node. A wrong answer (e.g., \"gaps insulate the axon\" or \"speed would increase\") reveals confusion between myelin (insulation) and nodes (exposed membrane for ion exchange). Board exams frequently test this structure-function link in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure and function of a sensory neuron, a motor neuron, and an interneuron. Why are interneurons found only in the central nervous system?",
+     "a": "Sensory neuron: long dendrite, short axon, carries impulse from receptor → CNS. Motor neuron: short dendrites, long axon, carries impulse from CNS → effector. Interneuron: short dendrites, short/medium axon, connects sensory to motor neurons within CNS. Interneurons are CNS-only because they process and integrate information - they don't need to reach peripheral receptors or effectors. A wrong answer (e.g., placing interneurons in peripheral nerves) shows failure to map structure to location and information-flow role. This tests the board-level skill of classifying neurons by both morphology and circuit position.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student argues: \"Since neurons don't divide, nervous tissue cannot repair itself after injury.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify with biological reasoning.",
+     "a": "Partially correct. Mature neurons are amitotic (don't undergo mitosis), so CNS neurons cannot be replaced if cell body dies. However, peripheral axons can regenerate if the cyton is intact and the neurilemma (Schwann cell tube) guides regrowth. Also, neuroplasticity allows functional rewiring. A wrong answer (fully correct/incorrect) reveals black-and-white thinking. Board exams test nuanced understanding: \"neurons don't divide\" ≠ \"no repair possible\". Students must distinguish CNS vs PNS regenerative capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using students as \"neurons\") to show how a reflex arc works without brain involvement. Specify roles, signal direction, and why the brain learns about the reflex only after the response.",
+     "a": "Five students: Receptor (taps knee), Sensory neuron (passes \"signal\" to interneuron), Interneuron (in spinal cord - immediately passes to motor neuron), Motor neuron (signals effector), Effector (kicks leg). Brain student watches and records after. Key: signal goes receptor → sensory → interneuron → motor → effector (spinal loop). Brain is informed via ascending tracts AFTER. A poor demo (signal goes to brain first) shows misunderstanding of reflex arc's survival value: speed via bypassing brain. This tests ability to model biological processes - a board competency skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

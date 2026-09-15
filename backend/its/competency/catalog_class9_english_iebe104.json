@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 4,
+ "chapter_title": "Vitamin-M",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.104.4.1",
+   "title": "Summary of the Story",
+   "section": "4",
+   "definition": "Ravi's mother wishes someone would invent Vitamin-M, a pill to improve the failing memory of old Grandpa; when holidays begin, Ravi is asked to look after him, but the frail old man slips away to the park, the shop and a bus - and finally reveals he outwitted his young shadow all along.",
+   "formula": "-",
+   "key_idea": "The boy spies on Grandpa, but Grandpa - alert and playful - turns the spy game on its head.",
+   "textbook_ref": "iebe104.txt story sections (Ravi, mother, Grandpa's outing)",
+   "question_patterns": [
+    "summarise the story in your own words",
+    "what did Ravi's mother mean by Vitamin-M",
+    "why was Ravi asked to look after Grandpa",
+    "where did Grandpa go during his outing - describe",
+    "how did Grandpa outwit Ravi - give examples",
+    "what gift did Grandpa give Ravi and what did it show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the wish",
+     "explain": "The mother jokes about a memory pill for the forgetful old man."},
+    {"step": 2, "action": "follow the chase",
+     "explain": "Ravi trails Grandpa through park, market and bus, feeling foolish throughout."},
+    {"step": 3, "action": "enjoy the reversal",
+     "explain": "Grandpa's sharp gift and reply prove who really needed Vitamin-M."}
+   ]
+  },
+  {
+   "id": "iebe.104.4.2",
+   "title": "Characters - Grandpa, Ravi and the Mother",
+   "section": "4",
+   "definition": "Grandpa appears frail but is brisk, mischievous and alert enough to plan a solo outing and foil a young detective; Ravi is curious and dutiful but overconfident; the mother is anxious, loving and quick to underestimate the old man.",
+   "formula": "-",
+   "key_idea": "Appearances deceive: the fragile-looking elder is the story's sharpest mind.",
+   "textbook_ref": "iebe104.txt passages on the three characters",
+   "question_patterns": [
+    "draw a character sketch of Grandpa",
+    "was Ravi right in following Grandpa - give reasons",
+    "why did Ravi's mother underestimate Grandpa",
+    "describe the tone of Grandpa's final response",
+    "compare Ravi and Grandpa as detective and suspect",
+    "how does the writer make Grandpa's character lovable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the appearances",
+     "explain": "Frail, rocking-chair Grandpa hides his alertness."},
+    {"step": 2, "action": "read the actions",
+     "explain": "His brisk outing and mocking gift reveal the real Grandpa."},
+    {"step": 3, "action": "judge the family",
+     "explain": "Ravi learns respect; the mother learns not to judge by age."}
+   ]
+  },
+  {
+   "id": "iebe.104.4.3",
+   "title": "Theme - Respect and Care for the Elderly",
+   "section": "4",
+   "definition": "Beneath the humour lies a serious question: society often dismisses the elderly as weak and forgetful; the story argues that the old deserve respect, attention and companionship - and that age-based bias can blind us to their abilities.",
+   "formula": "-",
+   "key_idea": "Who needs Vitamin-M? Often the biased young, not the capable old.",
+   "textbook_ref": "iebe104.txt discussion sections on caring for the elderly",
+   "question_patterns": [
+    "what is the theme of the story - explain",
+    "who in the story really needs Vitamin-M and why",
+    "does society show bias based on age - discuss with examples",
+    "how should families care for their elderly members",
+    "what can we learn from the elderly around us",
+    "does the story make you rethink attitudes to old people - how"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the theme",
+     "explain": "Ageing need not mean helplessness; respect must replace dismissal."},
+    {"step": 2, "action": "cite the story",
+     "explain": "Grandpa's confident outing contradicts every assumption about him."},
+    {"step": 3, "action": "apply to life",
+     "explain": "Listen to, involve and cherish the elders at home."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iebe104.txt exercises",
+   "questions": [
+     "Was Grandpa lost as feared by Ravi's mother? Give reasons.",
+     "How would Ravi feel after seeing Grandpa at the end?",
+     "In your opinion who needs Vitamin-M and why?"
+   ]
+  }
+ ]
+}

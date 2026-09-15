@@ -1,0 +1,234 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Linear Equations in One Variable",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.102.2.1",
+   "title": "Solving Equations with Variables on Both Sides",
+   "section": "2.3",
+   "definition": "When a linear equation carries the variable on both sides, first bring all variable terms to one side and all constants to the other by transposing, then divide by the coefficient to free the variable.",
+   "formula": "x = (right_const - left_const) / (left_coef - right_coef)",
+   "key_idea": "Collect x terms on one side, numbers on the other, then divide.",
+   "textbook_ref": "hemh102.txt section 2.3 (equations with variables on both sides)",
+   "question_patterns": [
+    "solve 7x - 5 = 2x + 15",
+    "find x when 8x + 4 = 3x - 6",
+    "solve the linear equation with variables on both sides",
+    "determine the value of x in the given equation",
+    "solve 2x - 3 = x + 2 and check the answer",
+    "what value of x satisfies the given equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "collect the variable terms",
+     "explain": "Move every x term to the left and constants to the right.",
+     "compute": "collected = left_coef - right_coef"},
+    {"step": 2, "action": "collect the constants",
+     "explain": "The constant difference sits on the right side.",
+     "compute": "const_diff = right_const - left_const"},
+    {"step": 3, "action": "divide to isolate x",
+     "explain": "Dividing the constant difference by the collected coefficient gives x.",
+     "compute": "x = const_diff / collected"}
+   ]
+  },
+  {
+   "id": "hemh.102.2.2",
+   "title": "Solving Equations with Brackets",
+   "section": "2.4",
+   "definition": "Equations carrying brackets are simplified by first distributing the multiplier over every term inside the bracket, turning the equation into a plain linear form that is then solved by transposition.",
+   "formula": "expanded = coef * (inner)",
+   "key_idea": "Open the bracket first: multiply each inside term, then solve as usual.",
+   "textbook_ref": "hemh102.txt section 2.4 (equations reducible with brackets)",
+   "question_patterns": [
+    "solve 5(x - 4) = 2(x + 3)",
+    "solve the equation containing brackets",
+    "find x when 3(2x + 1) = 4x + 11",
+    "simplify and solve the bracketed equation",
+    "solve 2(3x - 1) - 4 = 10",
+    "determine x from the given bracketed equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "expand every bracket",
+     "explain": "Multiply the outside factor into each term inside."},
+    {"step": 2, "action": "gather like terms",
+     "explain": "Combine x terms and constants on opposite sides."},
+    {"step": 3, "action": "solve the simple equation",
+     "explain": "Transpose and divide to reach the value of x."}
+   ]
+  },
+  {
+   "id": "hemh.102.2.3",
+   "title": "Equations Reducible to Linear Form",
+   "section": "2.4",
+   "definition": "Equations that carry the variable in denominators or on both sides of a cross-multiplication can be flattened into linear form: multiply both sides by the common denominator, clear the fractions, and solve the resulting linear equation.",
+   "formula": "-",
+   "key_idea": "Multiply away the denominators, then solve the plain linear equation.",
+   "textbook_ref": "hemh102.txt section 2.4 (equations reducible to the linear form)",
+   "question_patterns": [
+    "solve (x + 1)/3 - 1 = x/4",
+    "solve the equation with fractions by clearing denominators",
+    "find x when the variable appears in the denominator",
+    "reduce the given equation to linear form and solve",
+    "solve (3x - 2)/5 = (x + 4)/3 by cross-multiplication",
+    "solve a fractional equation and check the solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "multiply by the common denominator",
+     "explain": "Clear every denominator so only whole terms remain."},
+    {"step": 2, "action": "expand and collect",
+     "explain": "Group x terms on one side, constants on the other."},
+    {"step": 3, "action": "solve and verify",
+     "explain": "Divide for x and substitute back to confirm both sides match."}
+   ]
+  },
+  {
+   "id": "hemh.102.2.4",
+   "title": "Word Problems with Linear Equations",
+   "section": "2.5",
+   "definition": "Real-life puzzles - consecutive numbers, ages, money shares, perimeter questions - become solvable by declaring the unknown as x, translating every sentence into one linear equation, solving it, and reading off all asked quantities.",
+   "formula": "-",
+   "key_idea": "Name the unknown x, write one equation from the story, solve, and answer all questions.",
+   "textbook_ref": "hemh102.txt section 2.5 (applications, worked word problems)",
+   "question_patterns": [
+    "the sum of two consecutive multiples of 5 is 55 - find the numbers",
+    "a father is three times as old as his son - find their ages from the given condition",
+    "divide a sum of money in the given ratio described by the problem",
+    "the perimeter of a rectangle relations give an equation - find the sides",
+    "Lakshmi is a cashier problem - find the number of notes of each kind",
+    "form a linear equation from the story and solve for the unknown"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "declare the unknown",
+     "explain": "Let x stand for the smallest asked quantity."},
+    {"step": 2, "action": "translate each sentence",
+     "explain": "Convert the verbal conditions into one linear equation in x."},
+    {"step": 3, "action": "solve and report",
+     "explain": "Solve for x and compute every quantity the question asks."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh102.txt section 2.3 example 7x - 5 = 2x + 15 style",
+   "concept": "hemh.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Solve {left_coef}x - {left_const} = {right_coef}x + {right_const}.",
+   "extracted_variables": {
+    "left_coef": "coefficient of x on the left side",
+    "left_const": "constant subtracted on the left side",
+    "right_coef": "coefficient of x on the right side",
+    "right_const": "constant added on the right side"
+   },
+   "solution_template": [
+    {"step": 1, "action": "collect the x terms",
+     "explain": "Move all variable terms to the left.",
+     "compute": "collected = left_coef - right_coef"},
+    {"step": 2, "action": "collect the constants",
+     "explain": "Shift the constants to the right side.",
+     "compute": "const_diff = right_const + left_const"},
+    {"step": 3, "action": "divide for x",
+     "explain": "The quotient is the solution.",
+     "compute": "x = const_diff / collected"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh102.txt section 2.3 practice",
+   "concept": "hemh.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find x if {left_coef}x + {left_const} = {right_coef}x - {right_const}.",
+   "extracted_variables": {
+    "left_coef": "coefficient of x on the left",
+    "left_const": "constant on the left",
+    "right_coef": "coefficient of x on the right",
+    "right_const": "constant on the right"
+   },
+   "solution_template": [
+    {"step": 1, "action": "collect the x terms",
+     "explain": "Bring the variable terms together.",
+     "compute": "collected = left_coef - right_coef"},
+    {"step": 2, "action": "collect the constants",
+     "explain": "Bring the constants to one side.",
+     "compute": "const_diff = -right_const - left_const"},
+    {"step": 3, "action": "divide for x",
+     "explain": "The quotient frees the variable.",
+     "compute": "x = const_diff / collected"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh102.txt section 2.3 check your answer practice",
+   "concept": "hemh.102.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Solve {left_coef}x = {right_coef}x + {right_const} and check the answer by substitution.",
+   "extracted_variables": {
+    "left_coef": "left coefficient",
+    "right_coef": "right coefficient",
+    "right_const": "constant on the right"
+   },
+   "solution_template": [
+    {"step": 1, "action": "collect and divide",
+     "explain": "Gather x terms, subtract the constant, divide.",
+     "compute": "collected = left_coef - right_coef"},
+    {"step": 2, "action": "solve for x",
+     "explain": "The constant over the collected coefficient.",
+     "compute": "x = right_const / collected"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh102.txt section 2.3 verification practice",
+   "concept": "hemh.102.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Determine x from {left_coef}x + {left_const} = {right_coef}x and verify by substituting back.",
+   "extracted_variables": {
+    "left_coef": "left coefficient of x",
+    "left_const": "left constant",
+    "right_coef": "right coefficient of x"
+   },
+   "solution_template": [
+    {"step": 1, "action": "collect the x terms",
+     "explain": "Variable terms on one side only.",
+     "compute": "collected = left_coef - right_coef"},
+    {"step": 2, "action": "isolate the constant",
+     "explain": "Move the constant across the equals sign.",
+     "compute": "const_diff = -left_const"},
+    {"step": 3, "action": "solve for x",
+     "explain": "Divide the constant by the coefficient.",
+     "compute": "x = const_diff / collected"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hemh102.txt EXERCISE 2.3-2.4",
+   "questions": [
+     "Solve and check: 3x = 2x + 18.",
+     "Solve 5t - 3 = 3t - 5 and check the result.",
+     "Solve 5x + 9 = 5 + 3x.",
+     "Solve 8x + 4 = 3(x - 1) + 7.",
+     "Solve (2x - 3)/5 = (x + 4)/3 by reducing to linear form.",
+     "Simplify and solve 15(y - 4) - 2(y - 9) + 5(y + 6) = 0."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hemh102.txt EXERCISE 2.5 word problems",
+   "questions": [
+     "The sum of two consecutive multiples of 5 is 55 - find the multiples.",
+     "Two numbers are in the ratio 3:5 and differ by 18 - find them.",
+     "The ages of Rahul and Haroon are in the ratio 5:7; four years later the sum is 56 - find their present ages.",
+     "Lakshmi the cashier has notes of 100 and 50 in ratio 2:5 totalling 32500 - count the notes of each kind."
+   ]
+  }
+ ]
+}

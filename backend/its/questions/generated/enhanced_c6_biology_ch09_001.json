@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_001",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_001",
+   "title": "c6_biology_ch09_001",
+   "questions": [
+    {
+     "q": "What is the primary function of the digestive system?",
+     "a": "The primary function is to break down large, complex food into simpler substances that the body can absorb. A wrong answer here suggests the student confuses digestion with simply \"chewing\" or \"eating,\" missing the chemical breakdown aspect.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the body need accessory organs like the liver and pancreas if we already have a long muscular tube?",
+     "a": "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down. A wrong answer suggests the student thinks the tube alone handles digestion, ignoring the chemical help needed for absorption.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to trace a piece of food, what is the sequence of the main \"tube\" it travels through?",
+     "a": "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body. A wrong answer shows a lack of understanding of the sequential nature of the digestive tract.",
+     "self_check": true
+    },
+    {
+     "q": "How is the digestive system different from just a simple pipe?",
+     "a": "A pipe just moves things, but the digestive system is a biological assembly line that modifies the food chemically and physically to extract nutrients. A wrong answer implies the student sees digestion as a passive transport rather than an active, transformative process.",
+     "self_check": true
+    },
+    {
+     "q": "Is it more efficient for the body to have one long tube or many separate, disconnected parts for digestion?",
+     "a": "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next. A wrong answer suggests a failure to understand the interconnected nature of biological systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model or analogy to explain why we need \"accessory\" organs.",
+     "a": "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs. A poor answer fails to distinguish between the path of the food and the agents that assist in its breakdown.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

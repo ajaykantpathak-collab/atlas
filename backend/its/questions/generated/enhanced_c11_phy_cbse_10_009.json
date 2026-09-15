@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_009",
+   "title": "c11_phy_cbse_10_009",
+   "questions": [
+    {
+     "q": "Define melting point and boiling point. State their SI units and how they differ from normal melting/boiling points.",
+     "a": "Melting point is the temperature at which solid and liquid phases coexist in thermal equilibrium at a given pressure; boiling point is the temperature at which liquid and vapour phases coexist. SI unit: Kelvin (K) or degree Celsius (°C). Normal melting/boiling points are defined specifically at standard atmospheric pressure (1 atm = 1.013 × 10⁵ Pa). A wrong answer (e.g., \"melting point is when ice turns to water at 0°C only\") reveals the student thinks these are fixed values independent of pressure, missing the pressure-dependence central to senior secondary physics.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the temperature of a substance remain constant during melting or boiling even though heat is continuously supplied? Explain at the molecular level.",
+     "a": "During phase change, supplied heat energy (latent heat) is used to overcome intermolecular potential energy forces to change the phase (increase separation between molecules), not to increase the average kinetic energy of molecules. Since temperature is a measure of average translational kinetic energy, it remains constant. A wrong answer (e.g., \"heat is lost to surroundings\" or \"thermometer is faulty\") shows the student confuses heat transfer with temperature change and lacks the molecular model of internal energy.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the heat required to melt 250 g of ice at 0°C completely into water at 0°C. Given latent heat of fusion of ice Lf = 3.34 × 10⁵ J/kg.",
+     "a": "Given: m = 250 g = 0.250 kg, Lf = 3.34 × 10⁵ J/kg.\nFormula: Q = m Lf\nQ = (0.250 kg) × (3.34 × 10⁵ J/kg) = 8.35 × 10⁴ J = 83,500 J.\nUnit analysis: kg × J/kg = J ✓.\nA wrong answer (e.g., using specific heat capacity formula Q = mcΔT) reveals the student cannot distinguish between temperature-change heat and phase-change heat, a critical Class 11 differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A wire with heavy weights passes through a slab of ice without splitting it (regelation). Explain why the ice refreezes above the wire after the wire passes. How does this relate to the pressure-melting point relationship for water?",
+     "a": "Pressure from the wire lowers the melting point of ice directly below it (water contracts on melting, so increased pressure favours liquid phase). Ice melts, wire sinks. Above the wire, pressure is removed, melting point returns to 0°C, and the water refreezes (releases latent heat to surroundings). This works because water's melting point decreases with pressure (negative slope of fusion curve on P-T diagram). A wrong answer (e.g., \"wire is hot\" or \"ice evaporates\") shows ignorance of the Clausius-Clapeyron relation and water's anomalous expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Steam at 100°C and water at 100°C have the same internal energy per kg because they are at the same temperature.\" Evaluate this statement.",
+     "a": "The statement is false. Steam at 100°C has higher internal energy per kg than water at 100°C by exactly the latent heat of vaporisation (Lv ≈ 22.6 × 10⁵ J/kg). This energy was supplied to overcome intermolecular forces during phase change at constant temperature. Temperature reflects only kinetic energy; potential energy differs between phases. A wrong evaluation (agreeing) reveals the student equates temperature with total internal energy, ignoring latent potential energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that boiling point of water decreases with reduced pressure. List materials, procedure, and expected observation.",
+     "a": "Materials: Syringe (50 mL), water at room temperature, hot water bath (optional).\nProcedure: Fill syringe with ~10 mL water, seal tip. Pull plunger back to create low pressure. Observe boiling at room temperature. Alternatively, boil water in a flask, seal, invert, pour cold water on flask — water boils again at lower temperature due to condensed vapour reducing pressure.\nExpected: Vigorous bubbling (boiling) occurs well below 100°C when pressure is reduced.\nA poor answer (e.g., \"heat water on stove\") shows inability to manipulate pressure variable and confusion between heating and pressure effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

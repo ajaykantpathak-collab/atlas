@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_006",
+   "title": "c7_eco_ch02_006",
+   "questions": [
+    {
+     "q": "What is the primary purpose of government regulations in a market economy?",
+     "a": "The primary purpose is to protect consumers and producers, ensure fair trade practices, and maintain safety and trust in market transactions. A student who answers that the government wants to stop all buying and selling misunderstands regulation as a total ban on markets rather than a set of rules to make markets function fairly.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the government introduce standard quality marks like Agmark or ISI on commercial goods?",
+     "a": "Standard quality marks assure buyers that a product meets specific safety, purity, and quality standards set by the government. A student who believes these marks are only used to increase the price of goods fails to understand that certification protects consumers from buying substandard or harmful items.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells 1 kilogram of sugar using a faulty metal weight that actually weighs only 850 grams. If sugar costs ₹40 per kilogram, how much extra money does the buyer lose on a 1 kg purchase, and why is this an issue for government regulation?",
+     "a": "Steps: 1. Identify the stated weight (1000 grams) and the actual weight (850 grams). 2. Calculate the missing weight: 1000g - 850g = 150 grams of sugar not received. 3. Calculate the cost per gram: ₹40 / 1000g = ₹0.04 per gram. 4. Multiply the missing weight by cost per gram: 150g × ₹0.04 = ₹6.00 lost by the buyer. The buyer loses ₹6.00 and does not receive what they paid for. This justifies government regulation using certified weights and measures to prevent cheating. A student who thinks this is just smart business practice confuses criminal cheating with free market competition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to consumer trust and market activity if a government completely stops inspecting food markets for expired or adulterated goods.",
+     "a": "Without government inspections, dishonest sellers might mix harmful substances into food or sell expired items to increase profits. Consumers would lose trust, stop buying certain goods, and overall market activity would decline as fear of illness or fraud spreads. A student who thinks unregulated markets always police themselves perfectly ignores the incentive for unscrupulous sellers to cut corners at consumers' expense.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Government price controls on essential food items like wheat and rice destroy the free market and should never be used.\" Do you agree or disagree using economic reasoning?",
+     "a": "I disagree. While free markets determine prices through supply and demand, essential goods must remain affordable for poor households to prevent starvation and extreme inequality. Government price controls act as a safety net ensuring basic survival, balancing economic efficiency with social justice. A student who agrees blindly focuses only on market efficiency while ignoring human welfare and equity.",
+     "self_check": true
+    },
+    {
+     "q": "Propose three rules a local vegetable market committee should enforce to ensure fair trade between farmers and retail buyers.",
+     "a": "A good proposal should include: 1. Mandatory use of verified digital weighing scales. 2. Clear, public display of daily minimum and maximum market prices. 3. A grievance box or authority to resolve disputes over payments immediately. A poor answer would suggest letting sellers do whatever they want without any oversight or rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

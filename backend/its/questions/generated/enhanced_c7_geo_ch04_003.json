@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_003",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_003",
+   "title": "c7_geo_ch04_003",
+   "questions": [
+    {
+     "q": "During which months are Kharif crops typically sown in India?",
+     "a": "Kharif crops are typically sown at the beginning of the monsoon season, around June and July. If a student answers with October or November, it reveals a confusion between the monsoon-dependent Kharif season and the winter-sown Rabi season.",
+     "self_check": true
+    },
+    {
+     "q": "Why do Rabi crops, such as wheat and mustard, not require heavy monsoon rains during their growing period?",
+     "a": "Rabi crops grow during the winter season (October to March) when the southwest monsoon has retreated, relying instead on winter cyclonic rains (western disturbances), dew, or artificial irrigation. A wrong answer stating that Rabi crops need heavy rainfall shows a misunderstanding of India's seasonal climate shifts and how temperature and precipitation change between winter and summer.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab wants to plant a crop that requires high temperatures and abundant water supply during its early growth. Should the farmer choose a Kharif or Rabi crop, and why?",
+     "a": "Steps: 1. Identify the crop requirements as high temperature and abundant water. 2. Recall that June-September brings the southwest monsoon, providing high humidity, rainfall, and warm temperatures. 3. Match these environmental conditions to the Kharif season. 4. Conclude that the farmer must choose a Kharif crop (such as rice or maize). A wrong answer selecting a Rabi crop indicates that the student does not associate monsoon rainfall and summer heat with the Kharif growing cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the environmental challenges a farmer might face if unseasonal heavy rain occurs in Northern India during March and April. How would this affect Rabi crops?",
+     "a": "March and April are the harvesting months for Rabi crops like wheat. Unseasonal heavy rain and hailstorms during this period can flatten mature crops, cause grain to rot in the fields, and delay harvesting, leading to heavy economic losses. A wrong answer suggesting this rain is beneficial reveals a failure to recognize that harvesting requires dry weather.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"With modern tube-well irrigation available everywhere, farmers no longer need to worry about whether a crop is Kharif or Rabi.\" Is this statement geographically accurate?",
+     "a": "The statement is inaccurate. While irrigation supplies water, it does not change temperature requirements or daylight hours. Crops like wheat have biological adaptations suited to cool winter temperatures, while rice thrives in hot, humid monsoon conditions; planting them in the wrong thermal season drastically reduces yields regardless of water availability. A wrong answer assuming irrigation makes season timing irrelevant ignores temperature constraints in agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple annual cropping calendar for a farmer in central India, indicating the months for Kharif, Rabi, and the short summer Zaid season, including one major crop for each.",
+     "a": "A complete answer should show: Kharif (June-October, Rice or Cotton), Rabi (November-March, Wheat or Gram), and Zaid (April-June, Watermelon or Cucumber). A poor answer misses the Zaid season or mixes up sowing and harvesting months, showing a weak grasp of India's three-season agricultural year.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

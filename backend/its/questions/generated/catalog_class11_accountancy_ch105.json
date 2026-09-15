@@ -1,0 +1,212 @@
+{
+ "catalog": "catalog_class11_accountancy_ch105",
+ "concepts": [
+  {
+   "id": "keac.105.1",
+   "title": "Bank Reconciliation Statement Overview",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bank Reconciliation Statement Overview' refers to.",
+     "a": "A schedule compiled periodically to reconcile discrepancies between the cash book bank column balance and the bank passbook balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bank Reconciliation Statement Overview'.",
+     "a": "Identifies and explains variations between firm records and bank records as of a given date.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bank Reconciliation Statement Overview', in plain ASCII form.",
+     "a": "Cash Book Balance + Adjustments = Passbook Balance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.2",
+   "title": "Reconciliation from Favourable Cash Book Balance",
+   "questions": [
+    {
+     "q": "Calculate passbook balance given favourable cash book balance. Use the method 'Reconciliation from Favourable Cash Book Balance'. Work with: cash_book_balance = 50000, cheques_deposited_uncleared = 18, cheques_issued_unpresented = 500, direct_credits = 10, direct_debits = 300. Carry the chain through step by step and give the final value of passbook_balance.",
+     "a": "50192 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find balance as per passbook starting from cash book debit balance. Use the method 'Reconciliation from Favourable Cash Book Balance'. Work with: cash_book_balance = 12000, cheques_deposited_uncleared = 100, cheques_issued_unpresented = 150, direct_credits = 50, direct_debits = 500. Carry the chain through step by step and give the final value of passbook_balance.",
+     "a": "11600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reconciliation from Favourable Cash Book Balance' refers to.",
+     "a": "Ascertaining the bank passbook balance starting from a positive debit balance shown in the cash book.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reconciliation from Favourable Cash Book Balance'.",
+     "a": "Add items that increase passbook balance relative to cash book and deduct items that decrease it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reconciliation from Favourable Cash Book Balance', in plain ASCII form.",
+     "a": "passbook_balance = cash_book_balance + cheques_issued_unpresented + direct_credits - cheques_deposited_uncleared - direct_debits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.3",
+   "title": "Reconciliation from Favourable Pass Book Balance",
+   "questions": [
+    {
+     "q": "Calculate cash book balance given passbook credit balance. Use the method 'Reconciliation from Favourable Pass Book Balance'. Work with: cheques_deposited_uncleared = 20, cheques_issued_unpresented = 4, direct_credits = 120, direct_debits = 5, passbook_balance = 5000. Carry the chain through step by step and give the final value of cash_book_balance.",
+     "a": "4901 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find balance as per cash book starting from passbook balance. Use the method 'Reconciliation from Favourable Pass Book Balance'. Work with: cheques_deposited_uncleared = 300, cheques_issued_unpresented = 150, direct_credits = 300, direct_debits = 24, passbook_balance = 2500. Carry the chain through step by step and give the final value of cash_book_balance.",
+     "a": "2374 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reconciliation from Favourable Pass Book Balance' refers to.",
+     "a": "Determining the cash book balance starting from a positive credit balance in the bank passbook.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reconciliation from Favourable Pass Book Balance'.",
+     "a": "Reverse the treatment used when starting from cash book balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reconciliation from Favourable Pass Book Balance', in plain ASCII form.",
+     "a": "cash_book_balance = passbook_balance + cheques_deposited_uncleared + direct_debits - cheques_issued_unpresented - direct_credits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.4",
+   "title": "Reconciliation from Cash Book Overdraft Balance",
+   "questions": [
+    {
+     "q": "Calculate passbook balance given overdraft as per cash book. Use the method 'Reconciliation from Cash Book Overdraft Balance'. Work with: cash_book_overdraft = 500, cheques_deposited_uncleared = 240, cheques_issued_unpresented = 80, direct_credits = 360, direct_debits = 12. Carry the chain through step by step and give the final value of passbook_overdraft.",
+     "a": "312 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find overdraft as per passbook starting from cash book credit balance. Use the method 'Reconciliation from Cash Book Overdraft Balance'. Work with: cash_book_overdraft = 12, cheques_deposited_uncleared = 24, cheques_issued_unpresented = 100, direct_credits = 150, direct_debits = 500. Carry the chain through step by step and give the final value of passbook_overdraft.",
+     "a": "286 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reconciliation from Cash Book Overdraft Balance' refers to.",
+     "a": "Calculating passbook overdraft balance starting from a credit (unfavourable) balance in the cash book.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reconciliation from Cash Book Overdraft Balance'.",
+     "a": "Items increasing bank draft/liability are added while items reducing overdraft are deducted.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reconciliation from Cash Book Overdraft Balance', in plain ASCII form.",
+     "a": "passbook_overdraft = cash_book_overdraft + cheques_deposited_uncleared + direct_debits - cheques_issued_unpresented - direct_credits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.5",
+   "title": "Reconciliation from Pass Book Overdraft Balance",
+   "questions": [
+    {
+     "q": "Calculate cash book balance given overdraft as per passbook. Use the method 'Reconciliation from Pass Book Overdraft Balance'. Work with: cheques_deposited_uncleared = 100, cheques_issued_unpresented = 60, direct_credits = 75, direct_debits = 5, passbook_overdraft = 75. Carry the chain through step by step and give the final value of cash_book_overdraft.",
+     "a": "105 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find overdraft as per cash book starting from passbook debit balance. Use the method 'Reconciliation from Pass Book Overdraft Balance'. Work with: cheques_deposited_uncleared = 20, cheques_issued_unpresented = 75, direct_credits = 120, direct_debits = 18, passbook_overdraft = 12. Carry the chain through step by step and give the final value of cash_book_overdraft.",
+     "a": "169 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reconciliation from Pass Book Overdraft Balance' refers to.",
+     "a": "Calculating cash book balance or overdraft starting from a debit (unfavourable) balance in the passbook.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reconciliation from Pass Book Overdraft Balance'.",
+     "a": "Reverse the operations applied for cash book overdraft balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reconciliation from Pass Book Overdraft Balance', in plain ASCII form.",
+     "a": "cash_book_overdraft = passbook_overdraft + cheques_issued_unpresented + direct_credits - cheques_deposited_uncleared - direct_debits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.6",
+   "title": "Timing Differences in Bank Transactions",
+   "questions": [
+    {
+     "q": "Using the method 'Timing Differences in Bank Transactions', work with: transaction_date_cashbook = 150, transaction_date_passbook = 150. Carry the chain through step by step and give the final value of time_lag.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Timing Differences in Bank Transactions' and work with: transaction_date_cashbook = 30, transaction_date_passbook = 240. Carry the chain through step by step and give the final value of time_lag.",
+     "a": "210 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Timing Differences in Bank Transactions' refers to.",
+     "a": "Variances caused by the difference in time of entering a transaction in the firm's cash book versus bank's ledger.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Timing Differences in Bank Transactions'.",
+     "a": "Discrepancies arise naturally due to processing delay for cheques clearing, direct deposits, or standing instructions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Timing Differences in Bank Transactions', in plain ASCII form.",
+     "a": "time_lag = transaction_date_passbook - transaction_date_cashbook",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.7",
+   "title": "Errors in Cash Book and Bank Pass Book",
+   "questions": [
+    {
+     "q": "Using the method 'Errors in Cash Book and Bank Pass Book', work with: actual_amount = 20000, recorded_amount = 20000. Carry the chain through step by step and give the final value of error_amount.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Errors in Cash Book and Bank Pass Book' and work with: actual_amount = 2500, recorded_amount = 20000. Carry the chain through step by step and give the final value of error_amount.",
+     "a": "17500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Errors in Cash Book and Bank Pass Book' refers to.",
+     "a": "Inconsistencies resulting from incorrect recording, omission, or casting errors made by the firm or the bank.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Errors in Cash Book and Bank Pass Book'.",
+     "a": "Clerical mistakes in recording numbers or sides in cash book/passbook lead to balance differences.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Errors in Cash Book and Bank Pass Book', in plain ASCII form.",
+     "a": "error_amount = recorded_amount - actual_amount",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

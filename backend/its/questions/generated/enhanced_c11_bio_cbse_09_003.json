@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_003",
+   "title": "c11_bio_cbse_09_003",
+   "questions": [
+    {
+     "q": "Name the two molecular components that combine to form a triglyceride and specify the type of covalent bond linking them.",
+     "a": "A triglyceride is formed from **one glycerol molecule and three fatty acid molecules** linked by **ester bonds** (–COO–). Each fatty acid's carboxyl group reacts with one hydroxyl group of glycerol in a condensation (esterification) reaction, releasing three water molecules.  \n**Wrong answer reveals:** If a student says \"peptide bond\" or \"glycosidic bond,\" they are confusing lipid synthesis with protein or carbohydrate polymerization. If they say \"two fatty acids,\" they are describing a diglyceride, not a triglyceride.",
+     "self_check": true
+    },
+    {
+     "q": "Palmitic acid (C16:0) and oleic acid (C18:1) are both 18-carbon fatty acids? Explain why this statement is incorrect and write the correct carbon count and saturation status for each.",
+     "a": "The statement is incorrect. **Palmitic acid has 16 carbons (C16:0) and is saturated (no double bonds). Oleic acid has 18 carbons (C18:1) and is monounsaturated (one cis double bond at Δ9).** The notation \"C16:0\" means 16 carbons, 0 double bonds; \"C18:1\" means 18 carbons, 1 double bond.  \n**Wrong answer reveals:** If a student thinks both are 18 carbons, they are confusing palmitic with stearic acid (C18:0). If they miss the colon notation, they lack the standard shorthand for fatty acid nomenclature used in biochemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A triglyceride contains three identical fatty acid residues, each with the formula C₁₈H₃₄O₂ (as free acid). Calculate the molecular formula of the resulting triglyceride after esterification. Show your reasoning.",
+     "a": "**Step 1:** Free fatty acid formula = C₁₈H₃₄O₂. Glycerol = C₃H₈O₃.  \n**Step 2:** Three fatty acids + glycerol → triglyceride + 3 H₂O (condensation).  \n**Step 3:** Sum of reactants: 3×(C₁₈H₃₄O₂) + C₃H₈O₃ = C₅₄H₁₀₂O₆ + C₃H₈O₃ = C₅₇H₁₁₀O₉.  \n**Step 4:** Subtract 3 H₂O (3×H₂O = H₆O₃): C₅₇H₁₁₀O₉ – H₆O₃ = **C₅₇H₁₀₄O₆**.  \n**Wrong answer reveals:** If a student forgets to subtract water, they give C₅₇H₁₁₀O₉ (the sum without condensation). If they subtract only 2 H₂O, they are thinking of a diglyceride.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular structure of a triglyceride (e.g., tripalmitin) and a phospholipid (e.g., phosphatidylcholine/lecithin). Identify the single structural difference that makes phospholipids amphipathic while triglycerides are completely hydrophobic.",
+     "a": "Both have a glycerol backbone esterified to fatty acids at **sn-1 and sn-2 positions**. The critical difference is at **sn-3**: in triglycerides, the third hydroxyl is esterified to a **third fatty acid**; in phospholipids, it is esterified to a **phosphate group** which is further linked to a polar head group (e.g., choline). This phosphate-head group moiety is hydrophilic, giving the molecule a polar head and two nonpolar tails — amphipathic character. Triglycerides lack any polar head, making them entirely hydrophobic.  \n**Wrong answer reveals:** If a student says \"phospholipids have two fatty acids and triglycerides have three,\" they miss the key point: it's the *nature* of the third substituent (phosphate vs. acyl), not just the count. Some phospholipids (e.g., cardiolipin) have four acyl chains but remain amphipathic due to phosphate groups.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Lipids are macromolecules because they are found in the acid-insoluble fraction along with proteins, nucleic acids, and polysaccharides.\" Evaluate this statement using biochemical reasoning.",
+     "a": "The statement is **incorrect**. Lipids are **not macromolecules** — their molecular weights are typically < 800 Da (well below the 10,000 Da threshold for macromolecules). They sediment in the acid-insoluble fraction **not due to size** but because grinding tissue disrupts membranes, forming **lipid vesicles/micelles** that are water-insoluble and pellet with the macromolecular fraction. Proteins, nucleic acids, and polysaccharides are true macromolecules (polymers).  \n**Wrong answer reveals:** If the student agrees, they confuse *fractionation behavior* with *molecular size classification*. This is a classic NCERT misconception directly addressed in Section 9.3: \"Lipids are not strictly macromolecules.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to demonstrate the difference in packing between saturated and unsaturated fats using only coconut oil (highly saturated) and groundnut oil (unsaturated), a refrigerator, and two transparent containers. State the observation and the molecular explanation.",
+     "a": "**Procedure:** Pour equal volumes of coconut oil and groundnut oil into separate transparent containers. Place both in a refrigerator (4°C) for 2 hours.  \n**Observation:** Coconut oil solidifies into a white semi-solid; groundnut oil remains liquid (or partially cloudy).  \n**Explanation:** Coconut oil is rich in **saturated fatty acids** (lauric C12:0, myristic C14:0) — straight chains pack tightly via van der Waals forces, high melting point. Groundnut oil has high **unsaturated fatty acids** (oleic C18:1, linoleic C18:2) — *cis* double bonds introduce kinks, preventing tight packing, lower melting point.  \n**Poor answer reveals:** If the student only says \"coconut oil solidifies because it's saturated\" without mentioning chain packing/kinks, they lack the structure-property link. If they confuse which oil solidifies, they have the saturation profile reversed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

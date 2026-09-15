@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_03_010",
+   "title": "c12_eng_f_cbse_03_010",
+   "questions": [
+    {
+     "q": "List the five main types of context clues used to infer word meaning, giving a one-phrase example of each from everyday reading.",
+     "a": "The five main types: 1) Definition/Restatement (e.g., \"treacherous, meaning dangerous\"), 2) Synonym (e.g., \"treacherous, perilous, and unsafe\"), 3) Antonym/Contrast (e.g., \"not treacherous but safe\"), 4) Example/Illustration (e.g., \"treacherous — the drownings proved it\"), 5) Inference/General Context (e.g., \"Mother warned against the treacherous river\"). A wrong answer (e.g., listing \"prefix/suffix\" as a clue type) reveals the student confuses morphological analysis with context-clue analysis — a critical distinction because board exams require textual evidence citation, not just word-part knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Deep Water,\" the phrase \"subdued my pride\" appears: \"I hated to walk naked into it and show my skinny legs. But I subdued my pride and did it.\" Explain the meaning in your own words and identify the specific context clue type that reveals it.",
+     "a": "\"Subdued my pride\" means overcame or controlled his embarrassment about his skinny legs. The clue type is INFERENCE from contrast: \"I hated to walk naked... But I subdued my pride and did it.\" The \"But\" signals opposition between the reluctance (hated) and the action (did it), implying he mastered the feeling that held him back. A wrong answer (e.g., \"subdued means quieted\" or \"hid his legs\") reveals the student defaults to the common \"quiet/submissive\" meaning of \"subdue\" without analyzing the contrast structure — a classic error where prior word knowledge overrides contextual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"The Yakima River was treacherous. Mother continually warned against it, and kept fresh in my mind the details of each drowning in the river.\" Using ONLY this context, determine the meaning of \"treacherous\" and identify the clue type(s) with specific evidence phrases.",
+     "a": "Meaning: deceptively dangerous, hazardous, unsafe despite appearances. Clue types: EXAMPLE/ILLUSTRATION (\"details of each drowning\") + AUTHORITY/INFERENCE (\"Mother continually warned against it\"). Steps: 1) Locate \"treacherous\" in first sentence. 2) Read next sentence: \"warned against it\" implies danger; \"details of each drowning\" provides concrete evidence of that danger. 3) Note \"continually\" and \"each\" emphasize frequency/severity. 4) Infer: the river's danger is proven by repeated drownings. 5) Classify: specific examples (drownings) illustrate the quality. A wrong answer selecting only \"deceptive\" (from etymology \"treacher\" = trickster) ignores the textual evidence of actual drownings — an etymological trap that costs marks in CBSE \"support with evidence\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"misadventure\" (para 5: \"when the misadventure happened\") and \"curtain of life fell\" (para 13: \"I crossed to oblivion, and the curtain of life fell\") function differently in the narrative. One labels an event; the other constructs a metaphor. Explain how context reveals this distinction.",
+     "a": "\"Misadventure\" = literal narrative label for the near-drowning incident. Context: \"I was just beginning to feel at ease in the water when the misadventure happened\" — the temporal clause \"when... happened\" positions it as a plot transition marker. \"Curtain of life fell\" = metaphor for near-death/unconsciousness. Context: preceding paragraph builds sensory crescendo (\"blackness swept over my brain... wiped out fear... quiet and peaceful... drowsy... tender arms... Mother's... crossed to oblivion\"), then the metaphor arrives as a theatrical summary. A wrong answer treating both as literal or both as metaphorical misses the structural vs. figurative distinction — essential for CBSE \"analyze the writer's use of language\" questions where function matters as much as meaning.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"'Flailed at the surface' means he swam frantically.\" Evaluate this interpretation using textual evidence from the drowning scene (paragraphs 9-10).",
+     "a": "INCORRECT interpretation. Text evidence: \"I flailed at the surface of the water, swallowed and choked. I tried to bring my legs up, but they hung as dead weights, paralysed and rigid. A great force was pulling me under.\" \"Flailed\" means striking wildly and ineffectually, NOT swimming (which implies coordinated propulsion). Clues: \"swallowed and choked\" (lack of breath control), \"paralysed and rigid\" (no limb coordination), \"pulling me under\" (movement is downward despite surface striking). The contrast between \"flailed at the surface\" and \"went down, down, endlessly\" confirms the futility. A wrong answer reveals the student substitutes a familiar collocation (\"flailed desperately\" ≈ \"swam desperately\") for precise textual analysis — a substitution error that flattens the terror theme by implying agency where the text emphasizes total helplessness.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph using \"bob to the surface like a cork\" metaphorically in a NON-water context (e.g., career, emotions, stock market), demonstrating you grasp the connotations of buoyancy, suddenness, and involuntary rise after suppression.",
+     "a": "Example: \"After eighteen months of rejected manuscripts, her confidence bobbed to the surface like a cork when the acceptance email arrived — sudden, buoyant, and impossible to suppress after being held under by doubt.\" Criteria for a good answer: 1) Non-water context, 2) Conveys involuntary rise after prolonged suppression (\"held under by doubt\"), 3) Retains buoyancy/suddenness imagery (\"sudden, buoyant\"), 4) Grammatically integrates the phrase. A poor answer (e.g., \"The boat bobbed to the surface like a cork\") uses it literally, revealing the student memorized the phrase without internalizing the metaphorical mechanics — a gap that appears in board \"use in a sentence\" questions requiring figurative application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

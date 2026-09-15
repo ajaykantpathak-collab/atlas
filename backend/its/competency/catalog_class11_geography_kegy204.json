@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 204,
+ "chapter_title": "Distribution of Oceans and Continents",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy204.txt",
+ "concepts": [
+  {
+   "id": "kegy.204.1.1",
+   "title": "Continental Drift Theory of Wegener",
+   "section": "Continental drift",
+   "definition": "Alfred Wegener's continental drift theory proposed that all continents formed a single landmass Pangaea surrounded by the ocean Panthalassa, which broke into Laurasia and Gondwanaland and drifted apart, supported by jigsaw fit of continents, rocks of same age, tillite deposits, placer deposits and fossil evidence.",
+   "formula": "",
+   "key_idea": "Wegener suggested pole-fleeing tidal and gravitational differential forces for drift, but the theory failed to explain the driving force until sea floor spreading revived it.",
+   "textbook_ref": "kegy204.txt continental drift section",
+   "question_patterns": [
+    "state the postulates of the continental drift theory",
+    "what evidence supports the drift of continents",
+    "define pangaea laurasia and gondwanaland",
+    "which forces did wegener propose for the drift",
+    "why was the drift theory initially rejected",
+    "describe the jigsaw fit of continents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.204.2.1",
+   "title": "Sea Floor Spreading and Plate Tectonics",
+   "section": "Plate tectonics",
+   "definition": "Harry Hess's sea floor spreading showed new crust forming at mid-ocean ridges and sinking at trenches, and plate tectonics divides the lithosphere into seven major plates moving over the asthenosphere, with divergent, convergent and transform boundaries building mountains, trenches and volcanoes.",
+   "formula": "",
+   "key_idea": "Convergent boundaries of ocean-continent, continent-continent and ocean-ocean type produce Andes, Himalayas and island arcs respectively, explaining the distribution of earthquakes and volcanoes.",
+   "textbook_ref": "kegy204.txt plate tectonics section",
+   "question_patterns": [
+    "explain sea floor spreading with its evidence",
+    "name the major and minor plates of the world",
+    "compare divergent convergent and transform plate boundaries",
+    "how did the himalayas form by plate collision",
+    "define subduction zone and trench",
+    "relate plate boundaries to earthquakes and volcanoes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.204.3.1",
+   "title": "Distribution of Oceans, Continents and Indian Plate Movements",
+   "section": "Distribution of oceans and continents",
+   "definition": "Oceans cover about 71 per cent and continents about 29 per cent of the earth's surface, and the Indian plate's northward drift after breaking from Gondwanaland continues to push the Himalayas upward while making the Indian subcontinent seismically active.",
+   "formula": "",
+   "key_idea": "The distribution of land and water follows plate boundaries, with mid ocean ridges marking construction and trenches marking consumption of crust.",
+   "textbook_ref": "kegy204.txt distribution and indian plate sections",
+   "question_patterns": [
+    "what percentage of the earth is covered by oceans",
+    "how does the indian plate movement affect the himalayas",
+    "name the types of plate margins of the indian plate",
+    "why is the indian subcontinent prone to earthquakes",
+    "describe the deccan trap volcanism and its origin",
+    "what was gondwanaland and which present lands formed it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy204.txt exercises",
+   "questions": [
+    "Multiple choice on continental drift.",
+    "Who proposed the continental drift theory and what was Pangaea?",
+    "Explain sea floor spreading with evidence.",
+    "What are the major plates of the world?",
+    "Describe the types of plate boundaries with examples."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_8",
+   "title": "c8_math_ch6_8",
+   "questions": [
+    {
+     "q": "State the algebraic identity for the product of \\((a + b)\\) and \\((a - b)\\).",
+     "a": "The identity is \\((a + b)(a - b) = a^2 - b^2\\). A wrong answer like \\((a+b)(a-b)=a^2+b^2\\) reveals the student confuses this with the square of a sum and does not understand the cancellation of the middle terms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the middle terms cancel out when expanding \\((a + b)(a - b)\\) using the distributive property.",
+     "a": "Expanding gives \\(a(a-b) + b(a-b) = a^2 - ab + ab - b^2\\). The terms \\(-ab\\) and \\(+ab\\) are additive inverses, so they sum to zero. If a student says \"they cancel because one is plus and one is minus\" without showing the distributive steps, they lack a structural understanding of why the cancellation occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Use the identity to find the product \\((2x + 3)(2x - 3)\\) and then evaluate it for \\(x = 4\\).",
+     "a": "Here \\(a = 2x\\) and \\(b = 3\\). Using the identity: \\((2x)^2 - 3^2 = 4x^2 - 9\\). For \\(x=4\\): \\(4(4)^2 - 9 = 4 \\times 16 - 9 = 64 - 9 = 55\\). A wrong answer like \\(2x^2 - 9\\) shows the student forgot to square the coefficient of \\(x\\) (treating \\(a\\) as \\(x\\) instead of \\(2x\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expansions of \\((a + b)^2\\) and \\((a + b)(a - b)\\). What is the same and what is different? How does the sign between the terms affect the result?",
+     "a": "Both give \\(a^2\\) and \\(b^2\\) terms. \\((a+b)^2 = a^2 + 2ab + b^2\\) has a middle term \\(2ab\\) and a plus sign before \\(b^2\\). \\((a+b)(a-b) = a^2 - b^2\\) has no middle term and a minus sign before \\(b^2\\). The sign in the second binomial changes the cross terms from additive to subtractive, causing cancellation. A student who says \"both are the same except the sign\" without mentioning the missing middle term misses the structural difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student wrote: \\((3y + 4)(3y - 4) = 9y - 16\\). Identify the error and correct it.",
+     "a": "The error is that the student wrote \\(9y\\) instead of \\(9y^2\\). They squared the coefficient 3 to get 9 but forgot to square the variable \\(y\\). The correct expansion is \\((3y)^2 - 4^2 = 9y^2 - 16\\). This reveals a common mistake: squaring only the numerical coefficient and not the entire term \\(a = 3y\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using metres, rupees, or kilograms) that can be solved using the identity \\((a+b)(a-b)=a^2-b^2\\). Write the problem and show the solution.",
+     "a": "Example: A square cloth of side \\((x+2)\\) metres has a smaller square of side \\((x-2)\\) metres cut from its centre. Find the area of the remaining frame. Solution: Area = \\((x+2)^2 - (x-2)^2\\). This is not directly the identity. A better problem: A rectangular plot has length \\((50+3)\\) m and breadth \\((50-3)\\) m. Find its area using the identity. Area = \\(50^2 - 3^2 = 2500 - 9 = 2491\\) m². A poor answer would give a problem that does not fit the sum-difference pattern, showing the student cannot recognise the structure in context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

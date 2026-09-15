@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_003",
+   "title": "c11_acc_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the formula for Cost of Goods Sold when both opening and closing stock exist. Identify each component and explain why closing stock is subtracted.",
+     "a": "Cost of Goods Sold = Opening Stock + Net Purchases + Direct Expenses – Closing Stock. Opening Stock represents goods available at start; Net Purchases (Purchases – Purchase Returns) adds goods bought for resale; Direct Expenses are costs to make goods saleable; Closing Stock is subtracted because those goods remain unsold and their cost should not be charged to current period. A wrong answer (e.g., adding closing stock) reveals the student thinks unsold goods increase cost of goods sold, confusing asset valuation with expense recognition.",
+     "self_check": true
+    },
+    {
+     "q": "A student records \"Carriage Outwards ₹5,000\" on the debit side of the Trading Account. Is this correct? Explain why or why not, and state where it should actually appear.",
+     "a": "Incorrect. Carriage Outwards is the cost of delivering sold goods to customers — a selling/distribution expense, not a cost of making goods saleable. It belongs on the debit side of the Profit & Loss Account (indirect expense). A student who puts it in Trading Account confuses \"bringing goods in\" (carriage inwards, direct) with \"sending goods out\" (carriage outwards, indirect), revealing a misunderstanding of the direct vs. indirect expense boundary.",
+     "self_check": true
+    },
+    {
+     "q": "From the following data, compute Gross Profit: Opening Stock ₹1,20,000; Purchases ₹6,00,000; Purchase Returns ₹40,000; Sales ₹10,00,000; Sales Returns ₹60,000; Wages ₹80,000; Carriage Inwards ₹20,000; Factory Rent ₹50,000; Closing Stock ₹1,50,000. Show the Trading Account format with all figures.",
+     "a": "Net Purchases = ₹6,00,000 – ₹40,000 = ₹5,60,000. Net Sales = ₹10,00,000 – ₹60,000 = ₹9,40,000. Direct Expenses = Wages ₹80,000 + Carriage Inwards ₹20,000 + Factory Rent ₹50,000 = ₹1,50,000. Cost of Goods Sold = ₹1,20,000 + ₹5,60,000 + ₹1,50,000 – ₹1,50,000 = ₹6,80,000. Gross Profit = ₹9,40,000 – ₹6,80,000 = ₹2,60,000. Trading Account: Dr. side — Opening Stock ₹1,20,000, Purchases ₹5,60,000, Wages ₹80,000, Carriage Inwards ₹20,000, Factory Rent ₹50,000, Gross Profit c/d ₹2,60,000 (Total ₹10,90,000). Cr. side — Sales ₹9,40,000, Closing Stock ₹1,50,000 (Total ₹10,90,000). An error in netting returns or misclassifying factory rent indicates weak grasp of direct expense scope.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) Closing Stock appears in the Trial Balance; (B) Closing Stock does not appear in the Trial Balance. How does the accounting treatment and Trading Account presentation differ in each case? Why is Scenario B the norm?",
+     "a": "Scenario A: Closing Stock already adjusted (e.g., from prior entry); it appears only on Credit side of Trading Account. Scenario B (norm): Closing Stock not in Trial Balance; requires adjustment entry — Closing Stock A/c Dr. to Trading A/c; then shown on Credit side of Trading Account AND as Current Asset in Balance Sheet. Scenario B is norm because stock is physically counted at year-end after Trial Balance extraction. A student who treats both identically misses the double-entry implication and balance sheet linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Gross Profit represents the true profit of the business for the period.\" Defend or critique with reference to the structure of financial statements.",
+     "a": "Critique. Gross Profit only reflects core trading operations (Sales – Cost of Goods Sold). It ignores all indirect expenses (salaries, rent, interest, depreciation) and other incomes (commission received, interest earned). True profit (Net Profit) = Gross Profit + Other Incomes – Indirect Expenses. A student agreeing with the statement confuses the first-stage result with the final bottom line, not understanding the two-stage profit ascertainment (Trading → Profit & Loss).",
+     "self_check": true
+    },
+    {
+     "q": "Create a Trading Account problem where Gross Loss occurs despite Net Sales exceeding Net Purchases. Provide full data and solution. Explain the condition that makes this possible.",
+     "a": "Example: Opening Stock ₹2,00,000; Net Purchases ₹3,00,000; Net Sales ₹5,50,000; Direct Expenses ₹1,00,000; Closing Stock ₹50,000. Cost of Goods Sold = ₹2,00,000 + ₹3,00,000 + ₹1,00,000 – ₹50,000 = ₹5,50,000. Gross Profit = ₹5,50,000 – ₹5,50,000 = ₹0 (break-even). Increase Direct Expenses to ₹1,20,000 → Cost of Goods Sold = ₹5,70,000 → Gross Loss ₹20,000. Condition: High direct expenses and/or low closing stock relative to opening stock can erode the gross margin even when sales exceed purchases. A good answer shows the arithmetic and identifies the driver (direct expenses > gross margin before direct expenses).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

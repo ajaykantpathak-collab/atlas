@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_5",
+   "title": "c8_physics_ch6_5",
+   "questions": [
+    {
+     "q": "State the two principal rays used to draw ray diagrams for a concave mirror and describe the path of each ray after reflection.",
+     "a": "The two principal rays are: (1) A ray incident parallel to the principal axis, which after reflection passes through the principal focus (F). (2) A ray incident passing through the centre of curvature (C), which reflects back along the same path through C. A wrong answer—such as saying a ray through F reflects parallel to the axis (that's for convex mirrors or lenses) or confusing the behaviour with a plane mirror—reveals the student has memorised ray rules without linking them to the geometry of the spherical surface and the law of reflection at the point of incidence.",
+     "self_check": true
+    },
+    {
+     "q": "An object is placed exactly at the centre of curvature (C) of a concave mirror. Explain why the image forms at C, is real, inverted, and of the same size as the object, using the two principal rays.",
+     "a": "Ray 1 from the object top goes parallel to the axis, reflects through F. Ray 2 goes through C and reflects back on itself. These two reflected rays intersect at a point on the principal axis at the same distance from the pole as the object (at C), forming a real image. Because the object and image distances are equal, similar triangles give equal heights but inverted orientation. If a student says the image forms at F or is virtual, they are likely confusing the object-at-C case with the object-at-F case or misapplying the \"parallel ray reflects through F\" rule without completing the geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a ray diagram (using a scale of 1 cm = 2 cm) for a concave mirror of focal length 6 cm when an object of height 4 cm is placed 16 cm from the pole. Measure and state the image distance, image height, and nature of the image.",
+     "a": "**Steps:**\n1. Given: f = 6 cm → C = 12 cm (since R = 2f). Object distance u = 16 cm (beyond C). Object height h₀ = 4 cm. Scale: 1 cm = 2 cm.\n2. On paper: Draw principal axis. Mark P, F at 3 cm (6 cm real), C at 6 cm (12 cm real). Place object arrow at 8 cm (16 cm real) from P, height 2 cm (4 cm real).\n3. Ray 1: From object top, draw line parallel to axis to mirror, reflect through F (3 cm mark).\n4. Ray 2: From object top, draw line through C (6 cm mark) to mirror, reflect back on same line.\n5. Reflected rays intersect between C and F at ≈ 4.8 cm from P (9.6 cm real). Image height ≈ 1.2 cm (2.4 cm real), inverted.\n6. Image distance v = 9.6 cm (real, inverted, diminished).\nA wrong measurement (e.g., image beyond C) usually comes from drawing the mirror too flat or not extending reflected rays accurately—reminding us that neat geometry with a sharp pencil and ruler is essential.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for an object placed (a) between C and F, and (b) between F and P of a concave mirror. Identify two similarities and two differences in the construction steps and the resulting image characteristics.",
+     "a": "**Similarities:** Both use the same two principal rays (parallel→F, through C→back). Both produce images larger than the object (magnified).\n**Differences:** (a) Object between C and F: Reflected rays actually converge beyond C → real, inverted, magnified image formed on same side as object. (b) Object between F and P: Reflected rays diverge; their extensions meet behind the mirror → virtual, erect, magnified image formed behind the mirror. A student who says both are real or both are virtual has not grasped that the divergence/convergence of reflected rays depends on whether the object is outside or inside the focal point.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for an object at the focus (F) of a concave mirror. They draw Ray 1 parallel to the axis reflecting through F, and Ray 2 through C reflecting back. They claim the image forms at infinity, real and highly magnified. Evaluate this claim and identify any error in the ray diagram construction.",
+     "a": "The claim about the image (at infinity, real, highly magnified) is correct, but the construction has an error: Ray 2 \"through C\" cannot be drawn when the object is at F because the object top, F, and C are collinear only if the object is on the axis. For an extended object at F, a ray from the object top going towards C would miss the mirror entirely or require a different construction. The correct second ray is one directed towards the pole (P) reflecting symmetrically (angle of incidence = angle of reflection). The two reflected rays (one through F, one from P) emerge parallel, meeting at infinity. A student who insists on using the \"through C\" ray for the object-at-F case is mechanically applying a memorised rule without checking geometric feasibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a concave mirror (like a shaving mirror or a spoon), a candle, and a white screen (paper/cardboard) to demonstrate the transition of the image from real to virtual as the object moves from beyond C to between F and P. Describe the procedure and what you would observe at each stage.",
+     "a": "**Procedure:** Fix the concave mirror on a stand. Place a lit candle (object) at a distance > 2f (beyond C). Hold a white screen on the same side and move it until a sharp inverted image forms. Record object and image distances. Gradually move the candle towards the mirror: at 2f (C), at between 2f and f (C and F), at f (F), and finally between f and P. At each position, try to catch the image on the screen.\n**Observations:** Beyond C → sharp, inverted, diminished real image on screen. At C → same size, inverted real image. Between C and F → magnified, inverted real image (screen must move farther). At F → no image on screen (rays parallel, image at infinity). Between F and P → no real image on screen; looking *into* the mirror shows a magnified, erect virtual image behind the mirror. A poor answer that says \"the image disappears at F\" without explaining it goes to infinity, or claims a virtual image can be caught on a screen, shows confusion between real and virtual image formation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

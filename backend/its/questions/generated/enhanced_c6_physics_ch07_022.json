@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_022",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_022",
+   "title": "c6_physics_ch07_022",
+   "questions": [
+    {
+     "q": "What makes radiation different from conduction and convection?",
+     "a": "Radiation does not require a medium (like solid, liquid, or gas) to travel, while conduction and convection do. A student who misses this likely confuses the three methods of heat transfer.",
+     "self_check": true
+    },
+    {
+     "q": "If you stand near a heater, how does the heat reach you even if the air in the room is still?",
+     "a": "The heater emits thermal radiation in the form of electromagnetic waves that travel through the air to your skin. A wrong answer suggests the student thinks heat *only* moves through air currents.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the insides of some modern solar water heaters painted black?",
+     "a": "Dark and rough surfaces are excellent absorbers of radiation. Painting them black allows the device to capture more solar radiation to heat the water efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "The spoon gets hot via conduction (direct contact), while you feel the lightbulb's heat via radiation (waves). If a student thinks both are the same, they lack the ability to distinguish between contact-based and wave-based heat transfer.",
+     "a": "**Correct Answer:**\nThe heat transfer to the spoon happens through **conduction**, where energy moves via direct physical contact between the tea and the metal. In contrast, the heat from a lightbulb is felt primarily through **radiation**, as infrared waves travel through the air to reach your skin without needing direct contact.\n\n**Analysis of a Wrong Answer:**\nA wrong answer—such as stating that both involve touching the heat source or that both rely on air to move the heat—reveals that the student has not yet differentiated between the three distinct mechanisms of heat transfer (conduction, convection, and radiation). It suggests they are conflating \"feeling hot\" with a single process, rather than understanding that heat travels differently depending on whether the energy is moving through solids (conduction) or through electromagnetic waves (radiation).",
+     "self_check": true
+    },
+    {
+     "q": "Could we receive heat from the Sun if the Earth were surrounded by a giant glass shell that removed all air from the atmosphere?",
+     "a": "Yes, because radiation travels through a vacuum. If a student says \"no,\" they fail to grasp that radiation is independent of a medium.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to prove that dark surfaces absorb more heat than light ones using two identical metal tins.",
+     "a": "The student should suggest painting one tin black and one white, filling them with the same amount of water, and placing them in direct sunlight to measure the temperature rise. A poor answer would lack a control or specific variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

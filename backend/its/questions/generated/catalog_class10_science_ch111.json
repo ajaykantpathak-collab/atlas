@@ -1,0 +1,795 @@
+{
+ "catalog": "catalog_class10_science_ch111.json",
+ "concepts": [
+  {
+   "id": "jesc.11.1",
+   "title": "Electric Current and Charge",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "time_in_minutes",
+     "expr": "time / 60",
+     "explain": "the same time in minutes"
+    },
+    {
+     "step": 2,
+     "name": "charge_per_minute",
+     "expr": "charge / time_in_minutes",
+     "explain": "charge shifted per minute"
+    },
+    {
+     "step": 3,
+     "name": "current",
+     "expr": "charge / time",
+     "explain": "current is charge flowing per second"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A charge of 90 C flows through a wire in 120 s. What is the current?",
+     "vals": {
+      "charge": 90,
+      "time": 120
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "0.75 A",
+     "self_check": false
+    },
+    {
+     "q": "60 C of charge passes a point in a circuit in 30 s. Find the current.",
+     "vals": {
+      "charge": 60,
+      "time": 30
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "2 A",
+     "self_check": false
+    },
+    {
+     "q": "If 150 C crosses a section of wire in 60 s, what current flows?",
+     "vals": {
+      "charge": 150,
+      "time": 60
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "2.5 A",
+     "self_check": false
+    },
+    {
+     "q": "24 C of charge is moved by a cell in 8 s. Calculate the current.",
+     "vals": {
+      "charge": 24,
+      "time": 8
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "3 A",
+     "self_check": false
+    },
+    {
+     "q": "A torch passes 45 C through its bulb in 90 s. Find the current in the circuit.",
+     "vals": {
+      "charge": 45,
+      "time": 90
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "0.5 A",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.2",
+   "title": "Electric Potential Difference",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "work_kj",
+     "expr": "work_done / 1000",
+     "explain": "the same work in kilojoules"
+    },
+    {
+     "step": 2,
+     "name": "half_charge_work",
+     "expr": "work_kj / 2",
+     "explain": "work on half the charge, in kJ"
+    },
+    {
+     "step": 3,
+     "name": "potential_difference",
+     "expr": "work_done / charge",
+     "explain": "1 volt equals 1 joule per coulomb"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A battery does 100 J of work to move 20 C of charge around a circuit. Find the potential difference.",
+     "vals": {
+      "work_done": 100,
+      "charge": 20
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "5 V",
+     "self_check": false
+    },
+    {
+     "q": "60 J of energy is given to 12 C of charge. What is the potential difference across the lamp?",
+     "vals": {
+      "work_done": 60,
+      "charge": 12
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "5 V",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the p.d. when 12 J moves 3 C of charge between two points.",
+     "vals": {
+      "work_done": 12,
+      "charge": 3
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "4 V",
+     "self_check": false
+    },
+    {
+     "q": "A dynamo spends 9 J on 2 C of charge. Find the potential difference produced.",
+     "vals": {
+      "work_done": 9,
+      "charge": 2
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "4.5 V",
+     "self_check": false
+    },
+    {
+     "q": "A pump-like cell transfers 300 J to 75 C of charge. What p.d. does it maintain?",
+     "vals": {
+      "work_done": 300,
+      "charge": 75
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "4 V",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.3",
+   "title": "Circuit Symbols and Schematic Diagrams",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we use circuit symbols instead of pictures?",
+     "a": "Standard symbols make circuit diagrams simple, uniform and easy for anyone to read.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the symbols of a cell, a battery, a resistor and a switch.",
+     "a": "Cell: one long and one short parallel line; battery: two such pairs; resistor: zig-zag/rectangle; switch: a break in the line with a lever.",
+     "self_check": true
+    },
+    {
+     "q": "What does an ammeter and a voltmeter measure and how are they connected?",
+     "a": "Ammeter measures current, connected in series; voltmeter measures potential difference, connected in parallel.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.4",
+   "title": "Ohm's Law",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "half_resistance",
+     "expr": "resistance / 2",
+     "explain": "resistance of a half-length wire"
+    },
+    {
+     "step": 2,
+     "name": "voltage_half_r",
+     "expr": "current * half_resistance",
+     "explain": "voltage across the half-length wire"
+    },
+    {
+     "step": 3,
+     "name": "voltage",
+     "expr": "current * resistance",
+     "explain": "ohm's law: V = IR at constant temperature"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A current of 0.5 A flows through a 12 ohm resistor. What is the potential difference across it?",
+     "vals": {
+      "current": 0.5,
+      "resistance": 12
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "6 V",
+     "self_check": false
+    },
+    {
+     "q": "Find the voltage needed to drive 2 A through a 4 ohm heating coil.",
+     "vals": {
+      "current": 2,
+      "resistance": 4
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "8 V",
+     "self_check": false
+    },
+    {
+     "q": "Through a 50 ohm resistor a current of 0.2 A flows. Compute the p.d.",
+     "vals": {
+      "current": 0.2,
+      "resistance": 50
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "10 V",
+     "self_check": false
+    },
+    {
+     "q": "An ammeter reads 1.5 A through an 8 ohm lamp. What is the voltage across the lamp?",
+     "vals": {
+      "current": 1.5,
+      "resistance": 8
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "12 V",
+     "self_check": false
+    },
+    {
+     "q": "A 220 ohm resistor carries 0.3 A. What p.d. is applied across it?",
+     "vals": {
+      "current": 0.3,
+      "resistance": 220
+     },
+     "unit": "V",
+     "steps": null,
+     "a": "66 V",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.5",
+   "title": "Factors Affecting Resistance and Electrical Resistivity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "area_mm2",
+     "expr": "area * 1000000",
+     "explain": "cross-section in square millimetres"
+    },
+    {
+     "step": 2,
+     "name": "half_length_r",
+     "expr": "(resistivity * (length / 2)) / area",
+     "explain": "resistance of half the length"
+    },
+    {
+     "step": 3,
+     "name": "resistance",
+     "expr": "(resistivity * length) / area",
+     "explain": "R = rho*L/A; keep units consistent (ohm m, m, sq m)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Copper has resistivity 1.6e-08 ohm m. Find the resistance of a 10 m wire of cross-section 1e-06 sq m.",
+     "vals": {
+      "resistivity": 1.6e-08,
+      "length": 10,
+      "area": 1e-06
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "0.16 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A copper wire of the same material is 20 m long with area 1e-06 sq m. Find its resistance (rho = 1.6e-08).",
+     "vals": {
+      "resistivity": 1.6e-08,
+      "length": 20,
+      "area": 1e-06
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "0.32 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A 5 m copper wire of area 1e-06 sq m: what is its resistance with rho = 1.6e-08 ohm m?",
+     "vals": {
+      "resistivity": 1.6e-08,
+      "length": 5,
+      "area": 1e-06
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "0.08 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A copper strip 10 m long has a larger cross-section of 1e-05 sq m. Using rho = 1.6e-08, find R.",
+     "vals": {
+      "resistivity": 1.6e-08,
+      "length": 10,
+      "area": 1e-05
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "0.016 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A long jumper cable is 100 m of copper with area 1e-06 sq m (rho 1.6e-08). Compute its resistance.",
+     "vals": {
+      "resistivity": 1.6e-08,
+      "length": 100,
+      "area": 1e-06
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "1.6 ohm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.6.1",
+   "title": "Resistors in Series",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "r1_r2_total",
+     "expr": "r1 + r2",
+     "explain": "resistance of the first two in series"
+    },
+    {
+     "step": 2,
+     "name": "mean_resistance",
+     "expr": "(r1 + r2 + r3) / 3",
+     "explain": "average of the three resistors"
+    },
+    {
+     "step": 3,
+     "name": "r_series",
+     "expr": "r1 + r2 + r3",
+     "explain": "in series, resistances simply add"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Resistors of 2 ohm, 3 ohm and 5 ohm are joined in series. Find the total resistance.",
+     "vals": {
+      "r1": 2,
+      "r2": 3,
+      "r3": 5
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "10 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Three coils of 1 ohm, 2 ohm and 3 ohm are in series. What is the combined resistance?",
+     "vals": {
+      "r1": 1,
+      "r2": 2,
+      "r3": 3
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "6 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A circuit has 4 ohm, 6 ohm and 10 ohm resistors in series. Calculate the equivalent resistance.",
+     "vals": {
+      "r1": 4,
+      "r2": 6,
+      "r3": 10
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "20 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Three equal resistors of 5 ohm each are connected in series. Find the total.",
+     "vals": {
+      "r1": 5,
+      "r2": 5,
+      "r3": 5
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "15 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Series resistors measure 0.5 ohm, 1.5 ohm and 2 ohm. What is their total resistance?",
+     "vals": {
+      "r1": 0.5,
+      "r2": 1.5,
+      "r3": 2
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "4 ohm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.6.2",
+   "title": "Resistors in Parallel",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "inv_r",
+     "expr": "1 / r1 + 1 / r2 + 1 / r3",
+     "explain": "reciprocal of the equivalent parallel resistance"
+    },
+    {
+     "step": 2,
+     "name": "pair_inv",
+     "expr": "1 / r1 + 1 / r2",
+     "explain": "reciprocal for just the first two resistors"
+    },
+    {
+     "step": 3,
+     "name": "r_parallel",
+     "expr": "1 / inv_r",
+     "explain": "invert the sum to get the parallel resistance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Resistors of 2 ohm, 3 ohm and 6 ohm are in parallel. Find the equivalent resistance.",
+     "vals": {
+      "r1": 2,
+      "r2": 3,
+      "r3": 6
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "1 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Three 4 ohm bulbs are connected in parallel. Compute the combined resistance.",
+     "vals": {
+      "r1": 4,
+      "r2": 4,
+      "r3": 4
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "1.33333 ohm",
+     "self_check": false
+    },
+    {
+     "q": "A 6 ohm, a 12 ohm and a 24 ohm resistor sit in parallel. What is the equivalent resistance?",
+     "vals": {
+      "r1": 6,
+      "r2": 12,
+      "r3": 24
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "3.42857 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Parallel resistors of 5 ohm, 10 ohm and 10 ohm: find the total resistance.",
+     "vals": {
+      "r1": 5,
+      "r2": 10,
+      "r3": 10
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "2.5 ohm",
+     "self_check": false
+    },
+    {
+     "q": "Resistors of 3 ohm, 6 ohm and 9 ohm are joined in parallel. Calculate the equivalent resistance.",
+     "vals": {
+      "r1": 3,
+      "r2": 6,
+      "r3": 9
+     },
+     "unit": "ohm",
+     "steps": null,
+     "a": "1.63636 ohm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.7",
+   "title": "Heating Effect of Electric Current and Joule's Law",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "current_squared",
+     "expr": "current ** 2",
+     "explain": "Joule heating grows with the square of the current"
+    },
+    {
+     "step": 2,
+     "name": "heat_per_second",
+     "expr": "current_squared * resistance",
+     "explain": "heat produced every second"
+    },
+    {
+     "step": 3,
+     "name": "heat",
+     "expr": "current_squared * resistance * time",
+     "explain": "H = I squared * R * t"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 2 A current flows through a 5 ohm resistor for 30 s. How much heat is produced?",
+     "vals": {
+      "current": 2,
+      "resistance": 5,
+      "time": 30
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "600 J",
+     "self_check": false
+    },
+    {
+     "q": "Find the heat developed when 3 A passes through a 10 ohm coil for 5 s.",
+     "vals": {
+      "current": 3,
+      "resistance": 10,
+      "time": 5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "450 J",
+     "self_check": false
+    },
+    {
+     "q": "An electric iron draws 2 A through 50 ohm for 1 minute. Compute the heat generated.",
+     "vals": {
+      "current": 2,
+      "resistance": 50,
+      "time": 60
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "12000 J",
+     "self_check": false
+    },
+    {
+     "q": "A fuse wire of resistance 8 ohm carries 1 A for 15 s. How much heat is liberated?",
+     "vals": {
+      "current": 1,
+      "resistance": 8,
+      "time": 15
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "120 J",
+     "self_check": false
+    },
+    {
+     "q": "A weak cell drives 0.5 A through 4 ohm for 10 s. Calculate the heat produced.",
+     "vals": {
+      "current": 0.5,
+      "resistance": 4,
+      "time": 10
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "10 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.8",
+   "title": "Electric Power",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "current_ma",
+     "expr": "current * 1000",
+     "explain": "current in milliamperes"
+    },
+    {
+     "step": 2,
+     "name": "voltage_kv",
+     "expr": "voltage / 1000",
+     "explain": "voltage in kilovolts"
+    },
+    {
+     "step": 3,
+     "name": "power",
+     "expr": "voltage * current",
+     "explain": "P = V x I"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An appliance on 220 V draws 5 A. What power does it consume?",
+     "vals": {
+      "voltage": 220,
+      "current": 5
+     },
+     "unit": "W",
+     "steps": null,
+     "a": "1100 W",
+     "self_check": false
+    },
+    {
+     "q": "A torch bulb works at 12 V and draws 0.5 A: find the power.",
+     "vals": {
+      "voltage": 12,
+      "current": 0.5
+     },
+     "unit": "W",
+     "steps": null,
+     "a": "6 W",
+     "self_check": false
+    },
+    {
+     "q": "A fan on 220 V takes 0.45 A. Compute its power rating.",
+     "vals": {
+      "voltage": 220,
+      "current": 0.45
+     },
+     "unit": "W",
+     "steps": null,
+     "a": "99 W",
+     "self_check": false
+    },
+    {
+     "q": "A radio runs on 9 V drawing 2 A. What is its power?",
+     "vals": {
+      "voltage": 9,
+      "current": 2
+     },
+     "unit": "W",
+     "steps": null,
+     "a": "18 W",
+     "self_check": false
+    },
+    {
+     "q": "A geyser draws 2 A at 220 V. Find the power consumed.",
+     "vals": {
+      "voltage": 220,
+      "current": 2
+     },
+     "unit": "W",
+     "steps": null,
+     "a": "440 W",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.8.1",
+   "title": "Commercial Unit of Electrical Energy and Electricity Bill Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "energy_kwh",
+     "expr": "(power_watts * hours * days) / 1000",
+     "explain": "units (kWh) = watts x hours / 1000"
+    },
+    {
+     "step": 2,
+     "name": "daily_units",
+     "expr": "(power_watts * hours) / 1000",
+     "explain": "units used in one day"
+    },
+    {
+     "step": 3,
+     "name": "bill_amount",
+     "expr": "energy_kwh * rate_per_unit",
+     "explain": "multiply the units consumed by the tariff"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 1000 W heater runs 2 h daily for 30 days. If each unit costs 6 rupees, what is the bill for it?",
+     "vals": {
+      "power_watts": 1000,
+      "hours": 2,
+      "days": 30,
+      "rate_per_unit": 6
+     },
+     "unit": "rupees",
+     "steps": null,
+     "a": "360 rupees",
+     "self_check": false
+    },
+    {
+     "q": "A 500 W refrigerator runs 4 h a day through September (30 days) at 5 rupees per unit. Find its cost.",
+     "vals": {
+      "power_watts": 500,
+      "hours": 4,
+      "days": 30,
+      "rate_per_unit": 5
+     },
+     "unit": "rupees",
+     "steps": null,
+     "a": "300 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Ten 100 W bulbs burn 10 h daily for 30 days; rate 4 rupees per unit. Calculate the expense.",
+     "vals": {
+      "power_watts": 100,
+      "hours": 10,
+      "days": 30,
+      "rate_per_unit": 4
+     },
+     "unit": "rupees",
+     "steps": null,
+     "a": "120 rupees",
+     "self_check": false
+    },
+    {
+     "q": "A 2000 W geyser is used 1 h daily for 15 days at 8 rupees per unit. What does it cost?",
+     "vals": {
+      "power_watts": 2000,
+      "hours": 1,
+      "days": 15,
+      "rate_per_unit": 8
+     },
+     "unit": "rupees",
+     "steps": null,
+     "a": "240 rupees",
+     "self_check": false
+    },
+    {
+     "q": "A 60 W lamp glows 5 h nightly for 30 days at 6 rupees a unit. Compute its share of the bill.",
+     "vals": {
+      "power_watts": 60,
+      "hours": 5,
+      "days": 30,
+      "rate_per_unit": 6
+     },
+     "unit": "rupees",
+     "steps": null,
+     "a": "54 rupees",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Geographical Perspective on Selected Issues and Problems",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy209.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.209.1",
+   "title": "Urbanisation and Environmental Pollution",
+   "section": "Environmental Pollution",
+   "definition": "About 55 per cent of the world's population now lives in cities and the share is projected to reach 68 per cent by 2050; this urban surge concentrates air, water and waste pollution, putting pressure on governments and environments alike.",
+   "formula": "urban_increase = urban_2050 - urban_now",
+   "key_idea": "The projected rise in the urban share equals the 2050 estimate minus the present share.",
+   "textbook_ref": "legy209.txt urbanisation and pollution pressure passage (55 per cent now, 68 per cent by 2050)",
+   "question_patterns": [
+    "state the present and projected urban shares of world population",
+    "compute the projected increase in urban share by 2050",
+    "how does urbanisation worsen air and water pollution",
+    "name the major sources of urban air pollution",
+    "what is the pressure on governments from urban growth",
+    "relate vehicle growth to urban air quality"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two shares",
+     "explain": "55 per cent now, 68 per cent projected by 2050",
+     "compute": "urban_now = 55"
+    },
+    {
+     "step": 2,
+     "action": "take the difference",
+     "explain": "68 minus 55 gives the 13-point rise",
+     "compute": "urban_increase = urban_2050 - urban_now"
+    }
+   ]
+  },
+  {
+   "id": "legy.209.2",
+   "title": "Water Pollution and Diseases",
+   "section": "Water Pollution and Diseases",
+   "definition": "Untreated sewage and industrial effluents pollute rivers and groundwater, spreading water-borne diseases like cholera, typhoid, jaundice and diarrhoea; the poor bear the burden as they depend on polluted surface water.",
+   "formula": "",
+   "key_idea": "Safe drinking water is preventive medicine: every clean source removes a hospital queue.",
+   "textbook_ref": "legy209.txt water pollution and water-borne disease sections",
+   "question_patterns": [
+    "name the water-borne diseases linked to polluted water",
+    "how do sewage and effluents pollute rivers",
+    "why do the poor suffer most from water pollution",
+    "what treatments remove pollutants from drinking water",
+    "relate groundwater contamination to health",
+    "suggest measures to secure safe village water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the pathway",
+     "explain": "sewage and effluents enter rivers and wells, then households"
+    },
+    {
+     "step": 2,
+     "action": "name the diseases",
+     "explain": "cholera, typhoid, jaundice and diarrhoea ride polluted water"
+    },
+    {
+     "step": 3,
+     "action": "close with equity",
+     "explain": "poor households without treated supply suffer the heaviest toll"
+    }
+   ]
+  },
+  {
+   "id": "legy.209.3",
+   "title": "Land Degradation, Drought and Desertification",
+   "section": "Land Degradation",
+   "definition": "Land degradation from deforestation, overgrazing, mining and faulty irrigation combines with drought to advance desertification, especially in arid and semi-arid tracts; watershed treatment, shelter belts and grazing discipline are the checked remedies.",
+   "formula": "",
+   "key_idea": "Desertification is degradation's end state - restoring cover and moisture early is far cheaper than reversing dunes.",
+   "textbook_ref": "legy209.txt land degradation, drought and desertification sections",
+   "question_patterns": [
+    "list the causes of land degradation discussed",
+    "how does drought trigger desertification",
+    "describe watershed treatment as a remedy",
+    "what role do shelter belts play",
+    "relate overgrazing to pasture decline",
+    "suggest a village-level anti-desertification plan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the chain",
+     "explain": "tree loss and overgrazing expose soil; drought completes the conversion to desert"
+    },
+    {
+     "step": 2,
+     "action": "apply the remedies",
+     "explain": "watershed works and shelter belts hold soil and moisture"
+    },
+    {
+     "step": 3,
+     "action": "close with timing",
+     "explain": "early treatment prevents costly dune reclamation"
+    }
+   ]
+  },
+  {
+   "id": "legy.209.4",
+   "title": "Measures Against Environmental Issues",
+   "section": "Environmental Issues and Remedies",
+   "definition": "Measures against environmental issues combine government action - pollution control boards, emission norms, afforestation programmes - with citizen measures like rainwater harvesting, waste segregation and public transport; awareness is the multiplier of all such measures.",
+   "formula": "",
+   "key_idea": "Laws set the limits, but daily choices of energy, water and waste decide the actual pollution load.",
+   "textbook_ref": "legy209.txt government and citizen measures for environmental issues",
+   "question_patterns": [
+    "list government remedies for pollution in India",
+    "what citizen actions reduce pollution loads",
+    "how do pollution control boards function",
+    "evaluate public transport as a remedy",
+    "relate awareness campaigns to behaviour change",
+    "suggest a school-level environmental action plan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the actors",
+     "explain": "state agencies regulate; citizens change daily practice"
+    },
+    {
+     "step": 2,
+     "action": "cite the instruments",
+     "explain": "norms, boards and afforestation programmes are state tools"
+    },
+    {
+     "step": 3,
+     "action": "close with awareness",
+     "explain": "informed choices multiply every formal remedy"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy209_1",
+   "source_ref": "legy209.txt urbanisation passage",
+   "concept": "legy.209.1",
+   "question_type": "compute",
+   "question_pattern": "The world's urban share is 55 per cent now and is projected at 68 per cent by 2050. Compute the projected increase.",
+   "extracted_variables": {
+    "urban_now": 55,
+    "urban_2050": 68
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the shares",
+     "explain": "55 now, 68 by 2050",
+     "compute": "urban_now = 55"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "68 - 55 = 13 percentage points of growth ahead",
+     "compute": "urban_increase = urban_2050 - urban_now"
+    }
+   ]
+  },
+  {
+   "id": "we_legy209_2",
+   "source_ref": "legy209.txt water disease section",
+   "concept": "legy.209.2",
+   "question_type": "short_answer",
+   "question_pattern": "Link polluted water to two diseases and one preventive measure.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "disease pathway",
+     "explain": "cholera and typhoid germs travel in sewage-polluted water"
+    },
+    {
+     "step": 2,
+     "action": "prevention",
+     "explain": "boiling, filtration or protected wells cut the pathway"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "safe water is the cheapest health programme"
+    }
+   ]
+  },
+  {
+   "id": "we_legy209_3",
+   "source_ref": "legy209.txt desertification section",
+   "concept": "legy.209.3",
+   "question_type": "short_answer",
+   "question_pattern": "Prepare a three-step village plan against desertification.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "hold the soil",
+     "explain": "plant shelter belts and grass strips against wind"
+    },
+    {
+     "step": 2,
+     "action": "store the rain",
+     "explain": "build check dams and farm ponds for moisture"
+    },
+    {
+     "step": 3,
+     "action": "cut the pressure",
+     "explain": "regulate grazing and promote drought-hardy crops"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy209_1",
+   "source_ref": "legy209.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "compute the projected rise in urban population share by 2050",
+    "describe the causes and effects of water pollution",
+    "explain land degradation and its conservation",
+    "discuss drought and desertification with examples",
+    "evaluate responses to environmental issues"
+   ]
+  },
+  {
+   "id": "ex_legy209_2",
+   "source_ref": "legy209.txt applied questions, reworded",
+   "questions": [
+    "argue for urban waste segregation programmes",
+    "relate air pollution to vehicle policy",
+    "plan safe drinking water for a flood-prone village",
+    "assess afforestation programmes you know",
+    "connect sustainable lifestyles to pollution reduction"
+   ]
+  }
+ ]
+}

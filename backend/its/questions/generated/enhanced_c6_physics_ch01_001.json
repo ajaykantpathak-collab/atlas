@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch01_001",
+   "title": "c6_physics_ch01_001",
+   "questions": [
+    {
+     "q": "What is the best way to describe \"Science\"?\nA) A giant book containing all the facts about the world.\nB) A process of observing, questioning, and testing ideas to understand the natural world.",
+     "a": "The correct answer is B. Choosing A shows a misunderstanding that science is static and finished, whereas B correctly identifies it as a dynamic, ongoing method of inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "If you see a plant wilting and decide to water it to see if it recovers, have you used the scientific method? Why or why not?",
+     "a": "Yes, because you observed a problem (wilting), formed a hypothesis/guess (it needs water), and performed a test (watering it). A wrong answer suggests the student thinks only people in labs with equipment are \"scientists,\" failing to see the method in daily life.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend says, \"Science is just memorizing facts from the textbook.\" How would you use the concept of the scientific method to explain why they are wrong?",
+     "a": "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things. By following the steps—observing, questioning, and testing—we generate new knowledge that often proves old facts wrong or incomplete.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two: A student who reads that \"water boils at 100°C\" and a student who heats water and measures the temperature as it bubbles. Which one is \"doing\" science and why?",
+     "a": "The second student is doing science because they are moving from observation to evidence-based testing. The first student is merely receiving information; the second is validating it through the scientific method.",
+     "self_check": true
+    },
+    {
+     "q": "\"If a scientific experiment gives a result that contradicts what is written in our book, the experiment must be wrong.\" Do you agree? Why?",
+     "a": "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge. Science is an evolving puzzle, and new pieces (discoveries) often require us to rearrange what we thought we knew.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short plan to investigate why a specific type of ball bounces higher than another. What are your four steps?",
+     "a": "1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it bounces?\" 3. Guess/Hypothesis: \"The rubber ball will bounce higher than the plastic one.\" 4. Test: Drop both from the same height and measure the bounce. Poor answers skip the \"test\" or \"guess\" phase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

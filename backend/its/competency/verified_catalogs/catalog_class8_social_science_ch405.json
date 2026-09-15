@@ -1,0 +1,649 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 405,
+ "chapter_title": "Human Resources",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees101.txt",
+ "concepts": [
+  {
+   "id": "hess.405.1",
+   "title": "Human Resources as the Ultimate Resource",
+   "section": "Human Resources",
+   "definition": "The collective skills, knowledge, and physical capacity of a nation's populace that allow natural materials to be transformed into valuable assets.",
+   "formula": "human_resource_value = population * skill_level",
+   "key_idea": "People turn natural elements into usable assets through their skills and needs.",
+   "textbook_ref": "hess405.txt lines 1-35",
+   "question_patterns": [
+    "why are human beings considered the ultimate resource",
+    "explain how human skills transform natural bounty into resources",
+    "what makes people a nation's greatest resource",
+    "describe the primary objective of Pradhan Mantri Kaushal Vikas Yojna",
+    "how do educational levels and abilities impact human resource development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify human capabilities",
+     "explain": "People use intelligence and skills to convert raw nature into useful commodities."
+    },
+    {
+     "step": 2,
+     "action": "assess developmental role",
+     "explain": "Demands and abilities of educated populace drive resource creation."
+    }
+   ]
+  },
+  {
+   "id": "hess.405.2",
+   "title": "World Population Distribution Pattern",
+   "section": "Distribution of Population",
+   "definition": "The spatial arrangement and dispersion of human inhabitants across the land surface of the Earth.",
+   "formula": "spatial_distribution = population_in_region / total_world_population",
+   "key_idea": "Global human settlement is highly uneven, with high concentrations in specific regions.",
+   "textbook_ref": "hess405.txt lines 36-70",
+   "question_patterns": [
+    "what is meant by pattern of population distribution",
+    "describe the spatial spread of population across continents",
+    "which regions of the world are most densely populated",
+    "why do few people live in high altitude or desert regions",
+    "what percentage of world population lives in Asia and Africa"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine population concentration",
+     "explain": "Over 90 percent of global population resides in about 30 percent of total land surface."
+    },
+    {
+     "step": 2,
+     "action": "identify regional contrasts",
+     "explain": "South Asia and Europe are densely populated, while polar regions and deserts are sparsely populated."
+    }
+   ]
+  },
+  {
+   "id": "hess.405.3",
+   "title": "Calculation of Population Density",
+   "section": "Density of Population",
+   "definition": "The ratio measuring the number of individuals residing within a specific unit area of land, typically expressed per square kilometer.",
+   "formula": "density = population / area",
+   "key_idea": "Density measures crowd intensity by dividing total residents by land expanse.",
+   "textbook_ref": "hess405.txt lines 71-95",
+   "question_patterns": [
+    "calculate the population density of a region",
+    "find the population density given total people and land area",
+    "what is the population density of an area with total population and size",
+    "compute how many persons reside per square kilometer",
+    "determine the density of population for a city"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total population by total land area",
+     "explain": "Population density is computed as total inhabitants divided by land expanse in square kilometers.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "hess.405.4",
+   "title": "Geographical Factors of Population Settlement",
+   "section": "Factors Affecting Distribution of Population",
+   "definition": "Physical features of the land including topography, climate, soil quality, water availability, and mineral resources that determine human inhabitability.",
+   "formula": "settlement_suitability = topography + climate + soil + water + minerals",
+   "key_idea": "Favorable natural conditions like fertile plains and fresh water attract dense settlements.",
+   "textbook_ref": "hess405.txt lines 96-135",
+   "question_patterns": [
+    "how does topography affect population distribution",
+    "why are river valleys and fertile plains densely populated",
+    "explain the impact of extreme climate on human settlement",
+    "what geographical factors attract human settlements",
+    "how do mineral deposits influence population density in an area"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify physical terrain and landform",
+     "explain": "Plains are preferred for agriculture and industry over rugged mountains."
+    },
+    {
+     "step": 2,
+     "action": "evaluate natural resource availability",
+     "explain": "Fresh water, fertile soil, and minerals attract denser human habitation."
+    }
+   ]
+  },
+  {
+   "id": "hess.405.5",
+   "title": "Socio-Economic Factors of Population Distribution",
+   "section": "Factors Affecting Distribution of Population",
+   "definition": "Human-created influences such as housing, healthcare, educational infrastructure, religious significance, and industrial employment opportunities that attract human living.",
+   "formula": "socio_economic_attractiveness = social_facilities + cultural_value + employment_opportunities",
+   "key_idea": "Urbanization, religious heritage, and employment opportunities drive demographic clustering.",
+   "textbook_ref": "hess405.txt lines 136-160",
+   "question_patterns": [
+    "explain social factors affecting population density",
+    "how do cultural factors influence human settlement patterns",
+    "why do industrial regions attract large populations",
+    "what role do education and healthcare play in population distribution",
+    "give examples of culturally significant places attracting population"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze social infrastructure",
+     "explain": "Better housing, health, and schools attract urban settlements like Pune."
+    },
+    {
+     "step": 2,
+     "action": "examine economic opportunities",
+     "explain": "Industrial hubs like Osaka and Mumbai provide jobs, drawing large numbers of people."
+    }
+   ]
+  },
+  {
+   "id": "hess.405.6",
+   "title": "Natural Growth Rate Calculation",
+   "section": "Population Change",
+   "definition": "The numerical difference between the birth rate and the death rate of a given country or region.",
+   "formula": "natural_growth_rate = birth_rate - death_rate",
+   "key_idea": "Demographic expansion occurs when birth rates outpace death rates.",
+   "textbook_ref": "hess405.txt lines 161-205",
+   "question_patterns": [
+    "calculate the natural growth rate of a nation",
+    "find the natural growth rate given birth rate and death rate",
+    "what is the natural population increase when birth rate and death rate are known",
+    "compute the difference between birth rate and death rate",
+    "determine whether population increases or decreases based on vital rates"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "Natural growth rate per thousand is calculated by deducting death rate from birth rate.",
+     "compute": "natural_growth_rate = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "hess.405.7",
+   "title": "Net Migration and Population Movement",
+   "section": "Population Change",
+   "definition": "The spatial relocations of people across territorial borders, categorized as incoming migrants versus outgoing migrants.",
+   "formula": "net_migration = immigrants - emigrants",
+   "key_idea": "Population size alters when incoming residents exceed outgoing residents or vice versa.",
+   "textbook_ref": "hess405.txt lines 206-235",
+   "question_patterns": [
+    "calculate net migration for a country",
+    "find the change in population due to immigration and emigration",
+    "what is the net migrant count given incoming and outgoing people",
+    "compute population gained or lost through international migration",
+    "determine net movement of people across national borders"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract emigrants from immigrants",
+     "explain": "Net migration is found by subtracting the number of people leaving from those entering.",
+     "compute": "net_migration = immigrants - emigrants"
+    }
+   ]
+  },
+  {
+   "id": "hess.405.8",
+   "title": "Population Pyramids and Demographic Structure",
+   "section": "Population Composition",
+   "definition": "The structural breakdown of a population by age groups and sex, visually analyzed through an age-sex pyramid.",
+   "formula": "gender_ratio = male_population / female_population",
+   "key_idea": "Population pyramids illustrate birth rates, death rates, and demographic proportions of dependents and workers.",
+   "textbook_ref": "hess405.txt lines 236-285",
+   "question_patterns": [
+    "what is a population pyramid and what does it show",
+    "explain how population composition reflects a nation's social structure",
+    "compare broad base pyramids with narrow base pyramids",
+    "what causes a population pyramid to be broad at the bottom",
+    "how does Japan's population pyramid differ from Kenya's"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze pyramid base",
+     "explain": "The base width indicates birth rate levels in the population."
+    },
+    {
+     "step": 2,
+     "action": "analyze pyramid slope and top",
+     "explain": "The slope and top show survival rates and proportion of elderly citizens."
+    }
+   ]
+  },
+  {
+   "id": "hess.405.9",
+   "title": "Total Dependent Population Calculation",
+   "section": "Population Composition",
+   "definition": "The combination of young individuals below fifteen years and elderly individuals above sixty-five years who rely on the working-age workforce.",
+   "formula": "total_dependents = young_dependents + elderly_dependents",
+   "key_idea": "Dependents consist of both non-working age youth and senior citizens reliant on the active labor group.",
+   "textbook_ref": "hess405.txt lines 286-320",
+   "question_patterns": [
+    "calculate total dependents in a population",
+    "find the sum of young dependents and elderly dependents",
+    "what is the total non-working dependent population",
+    "compute the total dependent count from age group figures",
+    "determine the number of dependent individuals relying on the workforce"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add young dependents and elderly dependents",
+     "explain": "Total dependents is the sum of youth under 15 and senior citizens over 65.",
+     "compute": "total_dependents = young_dependents + elderly_dependents"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess405.txt lines 71-85",
+   "concept": "hess.405.3",
+   "question_type": "compute",
+   "question_pattern": "A region has a population of {population} people living in an area of {area} square km. Calculate its population density.",
+   "extracted_variables": {
+    "population": 382000,
+    "area": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total population by total land area",
+     "explain": "Population density is calculated by dividing total inhabitants by land area in sq km.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess405.txt lines 71-85",
+   "concept": "hess.405.3",
+   "question_type": "compute",
+   "question_pattern": "Find the population density of a country with a population of {population} spread over {area} square kilometers.",
+   "extracted_variables": {
+    "population": 5100,
+    "area": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total population by total land area",
+     "explain": "Population density is calculated by dividing total inhabitants by land area in sq km.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess405.txt lines 161-180",
+   "concept": "hess.405.6",
+   "question_type": "compute",
+   "question_pattern": "If a country has a birth rate of {birth_rate} per 1000 and a death rate of {death_rate} per 1000, calculate its natural growth rate.",
+   "extracted_variables": {
+    "birth_rate": 25,
+    "death_rate": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "Deduct death rate from birth rate to find the natural growth rate.",
+     "compute": "natural_growth_rate = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hess405.txt lines 161-180",
+   "concept": "hess.405.6",
+   "question_type": "compute",
+   "question_pattern": "Find the natural growth rate for a region where the birth rate is {birth_rate} and the death rate is {death_rate}.",
+   "extracted_variables": {
+    "birth_rate": 12,
+    "death_rate": 14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "Deduct death rate from birth rate to find the natural growth rate.",
+     "compute": "natural_growth_rate = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hess405.txt lines 206-225",
+   "concept": "hess.405.7",
+   "question_type": "compute",
+   "question_pattern": "A nation recorded {immigrants} immigrants and {emigrants} emigrants in a year. Calculate the net migration.",
+   "extracted_variables": {
+    "immigrants": 50000,
+    "emigrants": 20000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract emigrants from immigrants",
+     "explain": "Net migration is calculated by subtracting emigrants from immigrants.",
+     "compute": "net_migration = immigrants - emigrants"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hess405.txt lines 206-225",
+   "concept": "hess.405.7",
+   "question_type": "compute",
+   "question_pattern": "Determine net migration for a country with {immigrants} incoming people and {emigrants} outgoing people.",
+   "extracted_variables": {
+    "immigrants": 15000,
+    "emigrants": 25000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract emigrants from immigrants",
+     "explain": "Net migration is calculated by subtracting emigrants from immigrants.",
+     "compute": "net_migration = immigrants - emigrants"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hess405.txt lines 286-305",
+   "concept": "hess.405.9",
+   "question_type": "compute",
+   "question_pattern": "In a district, there are {young_dependents} young dependents below 15 years and {elderly_dependents} elderly dependents over 65 years. Calculate total dependents.",
+   "extracted_variables": {
+    "young_dependents": 3500,
+    "elderly_dependents": 1500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add young dependents and elderly dependents",
+     "explain": "Total dependents is obtained by adding young dependents and elderly dependents.",
+     "compute": "total_dependents = young_dependents + elderly_dependents"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hess405.txt lines 286-305",
+   "concept": "hess.405.9",
+   "question_type": "compute",
+   "question_pattern": "Find the total dependent population when young dependents equal {young_dependents} and elderly dependents equal {elderly_dependents}.",
+   "extracted_variables": {
+    "young_dependents": 1200,
+    "elderly_dependents": 800
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add young dependents and elderly dependents",
+     "explain": "Total dependents is obtained by adding young dependents and elderly dependents.",
+     "compute": "total_dependents = young_dependents + elderly_dependents"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.1",
+   "question_type": "verify_property",
+   "question_pattern": "why are human beings considered the ultimate resource",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify human capabilities",
+     "explain": "People use intelligence and skills to convert raw nature into useful commodities."
+    },
+    {
+     "step": 2,
+     "action": "assess developmental role",
+     "explain": "Demands and abilities of educated populace drive resource creation."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain how human skills transform natural bounty into resources",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify human capabilities",
+     "explain": "People use intelligence and skills to convert raw nature into useful commodities."
+    },
+    {
+     "step": 2,
+     "action": "assess developmental role",
+     "explain": "Demands and abilities of educated populace drive resource creation."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.2",
+   "question_type": "verify_property",
+   "question_pattern": "what is meant by pattern of population distribution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine population concentration",
+     "explain": "Over 90 percent of global population resides in about 30 percent of total land surface."
+    },
+    {
+     "step": 2,
+     "action": "identify regional contrasts",
+     "explain": "South Asia and Europe are densely populated, while polar regions and deserts are sparsely populated."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.2",
+   "question_type": "verify_property",
+   "question_pattern": "describe the spatial spread of population across continents",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine population concentration",
+     "explain": "Over 90 percent of global population resides in about 30 percent of total land surface."
+    },
+    {
+     "step": 2,
+     "action": "identify regional contrasts",
+     "explain": "South Asia and Europe are densely populated, while polar regions and deserts are sparsely populated."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.4",
+   "question_type": "verify_property",
+   "question_pattern": "how does topography affect population distribution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify physical terrain and landform",
+     "explain": "Plains are preferred for agriculture and industry over rugged mountains."
+    },
+    {
+     "step": 2,
+     "action": "evaluate natural resource availability",
+     "explain": "Fresh water, fertile soil, and minerals attract denser human habitation."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.4",
+   "question_type": "verify_property",
+   "question_pattern": "why are river valleys and fertile plains densely populated",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify physical terrain and landform",
+     "explain": "Plains are preferred for agriculture and industry over rugged mountains."
+    },
+    {
+     "step": 2,
+     "action": "evaluate natural resource availability",
+     "explain": "Fresh water, fertile soil, and minerals attract denser human habitation."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.5",
+   "question_type": "verify_property",
+   "question_pattern": "explain social factors affecting population density",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze social infrastructure",
+     "explain": "Better housing, health, and schools attract urban settlements like Pune."
+    },
+    {
+     "step": 2,
+     "action": "examine economic opportunities",
+     "explain": "Industrial hubs like Osaka and Mumbai provide jobs, drawing large numbers of people."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.5",
+   "question_type": "verify_property",
+   "question_pattern": "how do cultural factors influence human settlement patterns",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze social infrastructure",
+     "explain": "Better housing, health, and schools attract urban settlements like Pune."
+    },
+    {
+     "step": 2,
+     "action": "examine economic opportunities",
+     "explain": "Industrial hubs like Osaka and Mumbai provide jobs, drawing large numbers of people."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.8",
+   "question_type": "verify_property",
+   "question_pattern": "what is a population pyramid and what does it show",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze pyramid base",
+     "explain": "The base width indicates birth rate levels in the population."
+    },
+    {
+     "step": 2,
+     "action": "analyze pyramid slope and top",
+     "explain": "The slope and top show survival rates and proportion of elderly citizens."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.405.8",
+   "question_type": "verify_property",
+   "question_pattern": "explain how population composition reflects a nation's social structure",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze pyramid base",
+     "explain": "The base width indicates birth rate levels in the population."
+    },
+    {
+     "step": 2,
+     "action": "analyze pyramid slope and top",
+     "explain": "The slope and top show survival rates and proportion of elderly citizens."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hess405.txt lines 321-335",
+   "questions": [
+    "Why are people considered a resource?",
+    "What are the causes for the uneven distribution of population in the world?",
+    "The world population has grown very rapidly. Why?",
+    "Discuss the role of any two factors influencing population change.",
+    "What is meant by population composition?",
+    "What are population pyramids? How do they help in understanding about the population of a country?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess405.txt lines 336-350",
+   "questions": [
+    "Which does the term population distribution refer to? (a) How population in a specified area changes over time (b) The number of people who die in relation to the number of people born in a specified area (c) The way in which people are spread across a given area.",
+    "Which are three main factors that cause population change? (a) Births, deaths and marriage (b) Births, deaths and migration (c) Births, deaths and life expectancy",
+    "In 1999, the world population reached (a) 1 billion (b) 3 billion (c) 6 billion",
+    "What is a population pyramid? (a) A graphical presentation of the age, sex composition of a population (b) When the population density of an area is so high that people live in tall buildings (c) Pattern of population distribution in large urban areas."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess405.txt lines 351-360",
+   "questions": [
+    "Complete the sentences below using some of the following words: sparsely, favourable, fallow, artificial, fertile, natural, extreme, densely. When people are attracted to an area it becomes ________ populated. Factors that influence this include ________ climate; good supplies of ________ resources and ________ land."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hess405.txt lines 361-365",
+   "questions": [
+    "Discuss the characteristics of a society with 'too many under 15s' and one with 'too few under 15s'."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

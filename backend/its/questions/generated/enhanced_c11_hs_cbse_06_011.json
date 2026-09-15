@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_011",
+   "title": "c11_hs_cbse_06_011",
+   "questions": [
+    {
+     "q": "Name two cable-based and two wireless communication technologies mentioned in the NCERT textbook for Class 11 Home Science Chapter 6.",
+     "a": "Cable-based: landline telephone, personal computer without internet (implied wired LAN/Ethernet). Wireless: radio, microwave, satellite wireless telephony, Bluetooth. A wrong answer (e.g., listing \"mobile phone\" as cable-based or \"optical fibre\" as wireless) reveals the student is confusing the *device* with the *transmission medium* — they must learn to ask: \"Does the signal travel through a physical wire/fibre or through air/space?\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Bluetooth is classified as a wireless technology even though it operates only over very short distances (typically 10 metres).",
+     "a": "Bluetooth uses low-power radio frequency (RF) waves in the 2.4 GHz ISM band to transmit voice and data between devices without any physical connector; the short range is a design choice (low transmit power ~1 mW) to save battery and avoid interference, not a wired connection. A wrong answer citing \"it connects devices so it must be wired\" or \"short range means cable\" shows the student equates *physical proximity* with *guided media* — they need to distinguish \"no cable between endpoints\" (wireless) from \"short cable\" (still cable-based).",
+     "self_check": true
+    },
+    {
+     "q": "A rural extension officer wants to send weekly agricultural advisories to 500 farmers across three villages separated by hilly terrain. Compare cable-based (optical fibre) and wireless (community radio + SMS) options on four parameters: initial infrastructure cost, time to deploy, reach to illiterate users, and reliability during monsoon. Which would you recommend and why?",
+     "a": "Optical fibre: high initial cost (₹50–80 lakh for trenching/ducting in hills), 6–12 months deployment, requires smartphones/literacy for SMS/app, vulnerable to landslides cutting cables. Community radio (FM transmitter ~₹5 lakh) + SMS gateway: low cost, 2–3 weeks deployment, radio reaches illiterate farmers via voice, SMS works on basic phones; monsoon degrades FM slightly but rarely cuts it entirely. Recommendation: wireless combo — it matches the terrain, literacy profile, and urgency. A wrong recommendation of fibre ignores the *contextual fit* principle: technology choice is not about \"which is faster\" but \"which works *here*.\"",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the statement: \"Cable-based technologies are always more secure than wireless technologies because signals are confined to the physical medium.\" Identify two scenarios where this generalisation fails at the senior secondary level.",
+     "a": "The statement fails when: (1) Physical tapping — an attacker with access to a junction box or splice point can split an optical fibre and intercept light with a bend-coupler without cutting the link; (2) Compromised endpoints — if the router/server at either end is hacked (malware, weak password), the medium's confinement is irrelevant. A student who only cites \"wireless signals spread in air so easier to sniff\" misses that *security is end-to-end*, not medium-dependent; they need to think beyond the propagation medium to the full threat model.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For a school in a dense urban neighbourhood, a wired Ethernet LAN is always superior to Wi-Fi for student learning activities.\" Consider pedagogical, health, and equity dimensions, not just bandwidth.",
+     "a": "The claim is *partially valid but incomplete*. Wired LAN gives consistent high bandwidth, low latency, no RF interference — good for video editing, coding exams. But: (1) Pedagogical — Wi-Fi enables mobility (group work in corridors, science labs, library), BYOD inclusivity for students without Ethernet ports; (2) Health — no credible evidence of harm from 2.4/5 GHz Wi-Fi at regulatory power levels (ICNIRP/WHO), so \"health risk\" is a misconception; (3) Equity — wiring every desk costs ₹2–3 lakh/classroom vs ₹30k for enterprise APs; funds saved can buy devices for low-income students. A one-sided \"wired is better\" answer ignores the *total learning ecosystem*; a balanced evaluation weighs trade-offs against the school's actual constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication technology plan for a mobile health van serving 20 tribal hamlets in a forested district (no grid power, no cellular coverage, 50 km from nearest town). Specify: (a) primary backbone technology, (b) last-mile access technology, (c) power strategy, (d) one fallback method. Justify each choice in one sentence.",
+     "a": "(a) Primary backbone: VSAT (satellite) terminal on van roof — works anywhere with sky view, no ground infrastructure. (b) Last-mile: Wi-Fi hotspot (2.4 GHz) from van to hamlet community centre — connects villagers' basic phones/tablets without SIM cards. (c) Power: 500 W solar panels + 2 kWh lithium battery on van — silent, renewable, survives cloudy days. (d) Fallback: Store-and-forward — van downloads/uploads batches when it reaches town with 4G coverage. A poor answer picks \"optical fibre\" or \"4G dongle\" ignoring the *no coverage/no power* constraints; the task tests whether the student can *synthesise* a fit-for-context stack from the building blocks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

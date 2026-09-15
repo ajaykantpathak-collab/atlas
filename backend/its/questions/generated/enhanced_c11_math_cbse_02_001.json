@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_001",
+   "title": "c11_math_cbse_02_001",
+   "questions": [
+    {
+     "q": "Let A = {1, 2} and B = {x, y}. Write down A × B and B × A. Are they equal? Justify your answer in one sentence.",
+     "a": "A × B = {(1, x), (1, y), (2, x), (2, y)} and B × A = {(x, 1), (x, 2), (y, 1), (y, 2)}. They are not equal because (1, x) ∈ A × B but (1, x) ∉ B × A — the first element must come from the first set. A wrong answer where the student claims they are equal reveals a fundamental misunderstanding that ordered pairs are unordered, confusing sets with ordered pairs.",
+     "self_check": true
+    },
+    {
+     "q": "If A = {a, b} and A × B = {(a, 1), (a, 2), (b, 1), (b, 2)}, find the set B. Explain how you determined B from the given Cartesian product.",
+     "a": "B = {1, 2}. The set B is exactly the collection of all second elements appearing in the ordered pairs of A × B. A wrong answer where the student includes 'a' or 'b' in B reveals they confuse the first and second positions in ordered pairs, or they think the Cartesian product contains elements of A and B mixed together rather than ordered pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Let P = {2, 4, 6} and Q = {1, 3}. Find n(P × Q) and list all elements of P × Q. Then, if R = {2, 4, 6, 8}, find n(P × R) without listing all elements.",
+     "a": "P × Q = {(2, 1), (2, 3), (4, 1), (4, 3), (6, 1), (6, 3)}. n(P × Q) = 3 × 2 = 6. n(P × R) = 3 × 4 = 12. A wrong answer for n(P × R) where the student lists elements and miscounts, or uses addition (3 + 4 = 7) instead of multiplication, reveals they have not internalized the cardinality rule n(A × B) = n(A) × n(B) and are relying on brute force listing which fails for larger sets.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"For any two sets A and B, A × B = B × A.\" Is this statement true or false? If false, provide a minimal counterexample (smallest possible sets) and explain why the equality fails in general.",
+     "a": "The statement is false. Minimal counterexample: A = {1}, B = {2}. Then A × B = {(1, 2)} but B × A = {(2, 1)}. Since (1, 2) ≠ (2, 1), the products are not equal. Equality holds only if A = B or one set is empty. A student who says \"true\" or gives a non-minimal counterexample like A = {1,2}, B = {3,4} hasn't grasped that the order in ordered pairs is structural — the first coordinate always comes from the first set in the product notation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"If A × B = {(1, 2), (1, 3), (2, 2), (2, 3)}, then A = {1, 2, 3} and B = {1, 2, 3}.\" Evaluate this claim. Identify the error and give the correct sets A and B.",
+     "a": "The claim is incorrect. The correct sets are A = {1, 2} (all first elements) and B = {2, 3} (all second elements). The student's error is taking the union of all elements appearing in any coordinate rather than separating by position. This reveals a misconception that the Cartesian product is just a set of elements from A and B combined, rather than a set of ordered pairs with fixed positional meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving two finite sets (e.g., menu items and sizes, shirt colors and sizes) where the Cartesian product naturally models the situation. Define your sets, write the Cartesian product, and explain what each ordered pair represents in your context. Then, explain why swapping the order of the sets would change the meaning of the ordered pairs.",
+     "a": "Example: A = {Small, Medium, Large} (sizes), B = {Red, Blue} (colors). A × B = {(Small, Red), (Small, Blue), (Medium, Red), (Medium, Blue), (Large, Red), (Large, Blue)}. Each pair represents a specific T-shirt variant: first coordinate = size, second = color. B × A = {(Red, Small), (Red, Medium), ...} would represent color-first variants, which is a different cataloguing system. A poor answer uses sets where order doesn't matter (e.g., {boys, girls} × {boys, girls}) or fails to explain the semantic difference, revealing they don't understand that ordered pairs encode directional relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

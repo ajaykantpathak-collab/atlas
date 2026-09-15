@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_003",
+   "title": "c12_cs_cbse_08_003",
+   "questions": [
+    {
+     "q": "Define the push operation on a stack and state the condition that must be checked before pushing when the stack has a fixed maximum size.",
+     "a": "Push adds an element to the top of the stack. Before pushing, we must check for **overflow**: `if top == MAX_SIZE - 1` (or `len(stack) == MAX_SIZE`), and if true, raise an error or print \"Stack Overflow\". A wrong answer (e.g., \"check if stack is empty\") reveals confusion between push and pop preconditions — a common error where students mix up underflow (pop) and overflow (push) conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `list.pop()` without an index correctly implements the stack pop operation, and what happens if you call it on an empty list in Python.",
+     "a": "`list.pop()` removes and returns the last element (index -1), which is the top of the stack when the list's end represents the top — this matches LIFO. On an empty list, Python raises `IndexError: pop from empty list`. A wrong answer (e.g., \"it removes the first element\" or \"it returns None\") reveals the student doesn't know Python's default `pop()` behavior or the LIFO mapping, leading to bugs in implementation and trace questions.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the stack state after each operation for a fixed-size stack (MAX=3) initially empty: push(10), push(20), pop(), push(30), push(40), push(50). Show the stack contents (bottom to top) and top index after each step.",
+     "a": "1. push(10): stack=[10], top=0\n2. push(20): stack=[10,20], top=1\n3. pop(): returns 20, stack=[10], top=0\n4. push(30): stack=[10,30], top=1\n5. push(40): stack=[10,30,40], top=2\n6. push(50): **Stack Overflow** (top == MAX-1), stack unchanged=[10,30,40], top=2\nA wrong trace (e.g., allowing the 6th push) reveals the student ignores the fixed-size constraint — a frequent board exam error where overflow check is omitted.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of push and pop when a stack is implemented using (a) Python list with `append`/`pop`, and (b) a fixed-size array with a top index. Justify any differences.",
+     "a": "Both are O(1) for push and pop. Python list `append`/`pop` at end are amortized O(1) (occasional resizing), while fixed-size array with top index is strictly O(1) with no resizing. A wrong answer claiming O(n) for list operations reveals confusion with `insert(0, x)`/`pop(0)` (which are O(n)) — a classic trap where students mistake queue-style front operations for stack top operations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this Python stack implementation and identify two critical flaws:\n```python\nclass Stack:\n    def __init__(self, size):\n        self.stack = []\n        self.size = size\n    def push(self, item):\n        self.stack.append(item)\n    def pop(self):\n        return self.stack.pop()\n```",
+     "a": "Flaw 1: **No overflow check** in `push` — `append` will grow the list beyond `self.size`, violating fixed-size constraint. Flaw 2: **No underflow check** in `pop` — calling `pop()` on empty list raises unhandled `IndexError` instead of a meaningful \"Stack Underflow\" message. A student who misses these flaws cannot write robust, exam-ready code; board marking schemes deduct marks for missing boundary checks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a stack class that supports a `get_min()` operation returning the minimum element in O(1) time, using only push/pop and one auxiliary stack. Describe the push/pop logic modifications.",
+     "a": "Maintain a second stack `min_stack`. On `push(x)`: push to main stack; if `min_stack` is empty or `x <= min_stack[-1]`, also push `x` to `min_stack`. On `pop()`: pop from main stack; if popped value equals `min_stack[-1]`, pop from `min_stack` too. `get_min()` returns `min_stack[-1]`. A poor answer (e.g., scanning the stack) shows inability to augment data structures — a JEE-style problem requiring multi-concept synthesis (stack + auxiliary storage + invariant maintenance).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

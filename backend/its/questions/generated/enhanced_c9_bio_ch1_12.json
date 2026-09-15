@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_12",
+   "title": "c9_bio_ch1_12",
+   "questions": [
+    {
+     "q": "Name the phase of the cell cycle where DNA replication occurs and state the chromosome composition (chromatids per chromosome) at the end of this phase in a human somatic cell.",
+     "a": "DNA replication occurs in the **S phase (Synthesis phase) of Interphase**. At the end of S phase, each of the 46 human chromosomes consists of **two sister chromatids** joined at the centromere (total 92 chromatids, but still 46 chromosomes). A wrong answer like \"Prophase\" or \"Mitosis\" reveals the student confuses DNA synthesis with the visible division stages; saying \"46 chromosomes with one chromatid each\" shows they don't understand replication doubles the DNA content before division.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why homologous chromosomes pair up (synapsis) in Prophase I of meiosis but do not pair in prophase of mitosis.",
+     "a": "Homologous chromosomes pair in Prophase I to enable **crossing over (genetic recombination)** and ensure their **segregation into different daughter cells** during Anaphase I, reducing chromosome number. In mitosis, homologues do not pair because the goal is to separate **sister chromatids** (identical copies) to maintain the same chromosome number in daughter cells. A wrong answer like \"pairing happens in both\" or \"pairing is for separation of sister chromatids\" reveals confusion between homologous chromosomes (maternal + paternal) and sister chromatids (replicated copies), and misunderstanding the purpose of meiosis I vs mitosis.",
+     "self_check": true
+    },
+    {
+     "q": "A human skin cell (2n=46) undergoes mitosis. A primary spermatocyte (2n=46) undergoes meiosis. Compare the number of cells produced and the chromosome number in each final cell for both processes.",
+     "a": "**Mitosis:** 1 division → **2 daughter cells**, each **2n=46** (46 chromosomes, each with 1 chromatid after cytokinesis).  \n**Meiosis:** 2 divisions → **4 daughter cells (spermatids)**, each **n=23** (23 chromosomes, each with 1 chromatid).  \nReasoning: Mitosis has one equational division separating sister chromatids. Meiosis I is reductional (homologues separate, 2n→n), Meiosis II is equational (sisters separate, n→n). A wrong answer giving 4 cells for mitosis or 2n=46 for meiosis products shows failure to distinguish the number of divisions and which chromosomes separate in each.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the stage in meiosis where **independent assortment** occurs and explain how it generates genetic variation. Contrast this with mitosis.",
+     "a": "Independent assortment occurs at **Metaphase I** when homologous chromosome pairs (bivalents) align randomly at the metaphase plate. Each pair orientates independently, so maternal and paternal chromosomes assort into daughter cells in 2²³ possible combinations (for humans). In mitosis, individual chromosomes (not pairs) align at the metaphase plate in **metaphase**, and sister chromatids are identical, so no new combinations arise. A wrong answer citing \"Anaphase I\" or \"Prophase I\" confuses the timing of assortment (alignment) with separation; saying mitosis also has independent assortment ignores that homologues don't pair and sisters are identical.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Crossing over in meiosis creates new allele combinations on chromosomes, but it also happens in mitosis during Prophase.\" Evaluate this statement.",
+     "a": "The statement is **incorrect**. Crossing over (exchange of segments between non-sister chromatids of homologous chromosomes) occurs specifically in **Prophase I of meiosis** (pachytene stage) because homologous chromosomes are paired (synapsed) forming a tetrad. In mitosis, homologous chromosomes **do not pair**, so non-sister chromatids of homologues are not adjacent; recombination between sister chromatids can rarely occur but does not create new allele combinations since sisters are identical. A wrong evaluation accepting the claim reveals the student doesn't understand that synapsis is a prerequisite for crossing over and that mitosis lacks homologous pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation activity using onion root tip slides to distinguish a cell in **metaphase of mitosis** from a cell in **metaphase I of meiosis**. List the visible features you would look for.",
+     "a": "**Activity:** Prepare acetocarmine-stained squashes of onion root tip (mitosis) and onion flower bud anther (meiosis). Observe under 400x.  \n**Metaphase (mitosis):** Single chromosomes (each with 2 chromatids) aligned at equatorial plate; centromeres on plate, arms radiating; **no pairing**.  \n**Metaphase I (meiosis):** **Bivalents (paired homologous chromosomes, each with 2 chromatids = 4 chromatids total)** aligned at equatorial plate; **chiasmata visible** as X-shaped connections; homologous centromeres face opposite poles.  \nKey distinction: **Paired vs unpaired chromosomes at the plate**. A poor answer describing only \"chromosomes in the middle\" for both misses the diagnostic feature of synapsis and chiasmata unique to meiosis I.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

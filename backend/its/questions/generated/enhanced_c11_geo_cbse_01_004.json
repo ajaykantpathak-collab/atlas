@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_004",
+   "title": "c11_geo_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the six major sub-branches of Physical Geography as classified in the NCERT Class 11 textbook and state the primary focus of each in one phrase.",
+     "a": "The six major sub-branches are: (1) Geomorphology — study of landforms and their evolution; (2) Climatology — study of atmospheric conditions, weather, and climate; (3) Hydrology/Oceanography — study of water bodies, oceans, and water cycle; (4) Biogeography — study of spatial distribution of plants and animals; (5) Pedology — study of soil formation, classification, and distribution; (6) Environmental Geography — study of human-environment interactions and environmental problems. A wrong answer (e.g., listing \"Meteorology\" instead of \"Climatology\" or missing \"Pedology\") reveals confusion between synonymous terms or incomplete coverage of the lithosphere-atmosphere-hydrosphere-biosphere framework.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Physical Geography only studies static features like mountains and rivers; it does not deal with processes.\" Using the definition of any two sub-branches, explain why this claim is incorrect.",
+     "a": "The claim is incorrect because every sub-branch of Physical Geography studies both form AND process. Geomorphology examines not just mountains (form) but the tectonic uplift, weathering, and erosion (processes) that create and modify them. Climatology studies not just temperature patterns (form) but the energy transfer, pressure gradients, and circulation dynamics (processes) that generate weather and climate. A student who agrees with the claim likely memorizes definitions as static lists without grasping the process-form paradigm central to modern Physical Geography (since the quantitative revolution of the 1950s).",
+     "self_check": true
+    },
+    {
+     "q": "The Brahmaputra River forms a large delta in Bangladesh. Identify which THREE sub-branches of Physical Geography are directly involved in explaining this delta's formation and characteristics, and specify the exact process each sub-branch contributes.",
+     "a": "The three sub-branches are: (1) Geomorphology — fluvial erosion, transportation, and deposition processes that build the deltaic landform; (2) Hydrology/Oceanography — river discharge regime, sediment load, tidal influence, and sea-level changes controlling delta progradation; (3) Pedology — alluvial sediment deposition, soil horizon development, and fertility characteristics of deltaic soils. A wrong answer (e.g., listing Climatology or Biogeography as primary) indicates inability to distinguish primary formative processes from secondary influences (climate affects discharge but is not the direct delta-building process).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus of Geomorphology and Pedology. Both study the Earth's surface, but their spatial and temporal scales differ. Explain this difference using the concept of \"regolith\" as the linking element.",
+     "a": "Geomorphology operates at macro-spatial scales (landscapes, mountain ranges, river basins) and geological time scales (millennia to millions of years), studying the origin and evolution of landforms from bedrock. Pedology operates at micro-to-meso spatial scales (soil profiles, catena, landscapes) and shorter time scales (centuries to millennia), studying the transformation of regolith (weathered rock material) into soil through pedogenic processes (humification, illuviation, horizonation). Regolith is the output of geomorphic weathering and the parent material for pedology. A student who says \"both study soil\" confuses the weathered mantle (geomorphology's domain) with the biologically active, organized soil body (pedology's domain).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Oceanography should be considered a separate discipline, not a sub-branch of Physical Geography, because it has its own theories, instruments, and research vessels.\" Argue for or against using the integrating nature of geography.",
+     "a": "Against the statement. Geography's core epistemology is spatial integration — Oceanography as a sub-branch retains its specialized methods (e.g., CTD profilers, ARGO floats) but contributes to geography by analyzing the SPATIAL patterns of ocean properties (temperature, salinity, currents) and their INTERACTIONS with the atmosphere (monsoon onset), lithosphere (marine geomorphology), and biosphere (marine ecosystems). Removing it fragments the Earth system view. A student supporting the statement confuses methodological specialization with disciplinary autonomy; geography integrates specialized knowledge spatially, it does not replace it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page concept map showing the six sub-branches of Physical Geography, their primary focus, and at least two inter-linkages between each pair (e.g., Climatology → Geomorphology: freeze-thaw weathering; Geomorphology → Climatology: orographic rainfall). Use arrows labeled with the process name.",
+     "a": "A good concept map has six nodes (Geomorphology, Climatology, Hydrology/Oceanography, Biogeography, Pedology, Environmental Geography) with bidirectional labeled arrows between all pairs (15 pairs × 2 directions = 30+ linkages). Example linkages: Climatology→Hydrology: precipitation drives runoff; Hydrology→Climatology: latent heat flux; Geomorphology→Biogeography: topography creates habitats; Biogeography→Geomorphology: root binding reduces erosion; Pedology→Hydrology: soil texture controls infiltration; Hydrology→Pedology: waterlogging causes gleying. A poor map shows only linear chains or misses the Environmental Geography node (human impact), revealing a fragmented, non-systems understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

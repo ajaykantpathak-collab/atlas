@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_031",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_031",
+   "title": "c6_math_ch03_031",
+   "questions": [
+    {
+     "q": "What is the rule for creating an equivalent fraction from a given fraction?",
+     "a": "You must multiply or divide both the numerator and the denominator by the same non-zero whole number. A wrong answer like \"adding the same number to the top and bottom\" reveals the student confuses multiplication with addition, which changes the value of the fraction entirely.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 1/3 of a pizza and your friend has 2/6 of a pizza, who has more? Explain why.",
+     "a": "They have the same amount. 2/6 is equivalent to 1/3 because multiplying both parts of 1/3 by 2 gives 2/6. A wrong answer suggesting \"2/6 is more because the numbers are bigger\" shows the student is ignoring the relationship between the numerator and denominator and focusing only on the size of the digits.",
+     "self_check": true
+    },
+    {
+     "q": "Find an equivalent fraction for 3/4 that has a denominator of 12.",
+     "a": "Step 1: Identify that 4 times 3 equals 12. Step 2: Multiply the numerator (3) by the same number (3). Step 3: Result is 9/12. A wrong answer like 6/12 indicates the student identified the denominator change but failed to apply the same operation to the numerator.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to find an equivalent fraction for 7/11 by multiplying the numerator by 2 and the denominator by 3? Why or why not?",
+     "a": "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction.",
+     "self_check": true
+    },
+    {
+     "q": "You are given 10/20. Can you simplify this to a fraction with a smaller denominator?",
+     "a": "Yes, divide both by 10 to get 1/2. A student who says \"no\" likely does not realize that division is a valid tool for finding equivalent fractions, or they do not see 10 as a common factor.",
+     "self_check": true
+    },
+    {
+     "q": "Create two different equivalent fractions for 2/5 and explain how you made them.",
+     "a": "Acceptable answers include 4/10 (multiplied by 2) and 6/15 (multiplied by 3). A poor answer would be random numbers that don't maintain the ratio, showing they haven't grasped the \"same operation\" rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

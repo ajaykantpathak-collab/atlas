@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_008",
+   "title": "c12_hs_cbse_14_008",
+   "questions": [
+    {
+     "q": "Name the three broad categories of washing methods taught in Class 12 Home Science and give one example of a fabric suitable for each category.",
+     "a": "The three categories are: (1) Friction washing — e.g., cotton kurta; (2) Machine washing — e.g., polyester blend shirt; (3) Special techniques — e.g., woolen sweater. A wrong answer that lists \"dry cleaning\" as a category reveals confusion between washing (aqueous) and dry cleaning (solvent-based) processes, which are covered in a separate node (c12_hs_cbse_14_010).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why beating with a wooden stick is suitable for heavy cotton bedsheets but would damage a silk saree. Use the terms \"fibre strength\", \"yarn structure\", and \"mechanical action\" in your explanation.",
+     "a": "Beating applies high-impact mechanical action that cotton’s high fibre strength and tight plain weave can withstand, dislodging dirt from the yarn structure. Silk has lower wet strength, a smooth filament yarn structure, and is prone to yarn slippage and fibre rupture under impact. A wrong answer that says \"silk is delicate\" without linking to fibre properties shows surface-level memorisation rather than understanding the structure-property relationship taught in Class 11 (c11_hs_cbse_05_005, c11_hs_cbse_05_006).",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to wash a moderately soiled polyester-cotton blend shirt in a fully automatic front-load washing machine. Select the appropriate wash cycle (cotton, synthetic, delicate, wool) and justify your choice based on the machine’s tumble action and the fabric’s properties.",
+     "a": "Choose the \"synthetic\" cycle. Front-load tumble action lifts and drops garments, creating moderate mechanical action. Polyester-cotton blend has good wet strength and dimensional stability but can crease excessively under high agitation and high spin speeds; the synthetic cycle uses lower agitation and spin than cotton cycle. A wrong answer choosing \"cotton\" cycle indicates the student does not understand that cycle names correspond to agitation intensity, not just fibre content, and overlooks creasing tendency of blends.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanical action of a top-load agitator machine and a front-load tumble machine. Which is generally gentler on fabrics and why? Relate your answer to the direction of force applied on the fabric.",
+     "a": "Top-load agitator: central vertical post creates strong directional water currents and fabric-to-fabric rubbing, applying shear forces tangentially. Front-load tumble: horizontal drum rotates, lifting fabric and dropping it under gravity, applying primarily compressive and mild shear forces. Front-load is gentler because gravity-driven drop creates lower peak forces than the continuous aggressive rubbing of an agitator. A wrong answer claiming agitator is gentler because \"it uses water\" confuses water volume with mechanical action intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a heavily embroidered georgette saree, suction washing is the best method because it removes dirt without any mechanical friction.\" Identify the correct and incorrect parts of this statement.",
+     "a": "Correct: Suction washing (using a suction washer or manual suction device) minimizes mechanical friction and is suitable for delicate, embroidered fabrics. Incorrect: \"without any mechanical friction\" — suction creates a pressure differential that pulls detergent solution through the fabric, which still exerts a mild hydrodynamic shear force; also, heavily soiled areas may need gentle hand kneading. A wrong answer accepting the statement fully shows inability to critically evaluate \"frictionless\" claims and overlooks that some mechanical action is always present in aqueous cleaning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step washing procedure for a mixed load containing: (a) white cotton socks, (b) coloured polyester T-shirts, (c) a woolen cardigan. Specify the method for each item, the sequence if done manually, and how you would adapt if only a semi-automatic top-load machine is available.",
+     "a": "Manual sequence: 1) Woolen cardigan first — knead-and-squeeze in lukewarm water with mild detergent, rinse, roll in towel. 2) Coloured polyester T-shirts — hand friction wash in warm water, rinse. 3) White cotton socks — heavy hand friction/brush with hot water and bleach, rinse. Semi-automatic adaptation: Run woolen cardigan separately on \"delicate\" (if available) or hand-wash only; wash polyester T-shirts on \"normal\" cycle; wash cotton socks on \"heavy\" cycle with hot water. A poor answer that puts all in one machine load reveals failure to apply sorting principles (node c12_hs_cbse_14_004) and fibre-specific needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

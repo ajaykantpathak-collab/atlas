@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "International Organisations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.104.1",
+   "title": "Why International Organisations",
+   "section": "Why International Organisations?",
+   "definition": "International organisations exist because states need forums to cooperate on problems no single state can solve - war prevention, development, health and humanitarian relief - with the UN founded in 1945 after two world wars to save succeeding generations from the scourge of war.",
+   "formula": "",
+   "key_idea": "An organisation helps with matters of war and peace and helps countries cooperate to make better living conditions for us all.",
+   "textbook_ref": "leps104.txt rationale for organisations and UN founding 1945 sections",
+   "question_patterns": [
+    "why do states create international organisations",
+    "when and why was the UN founded",
+    "name the problems requiring global cooperation",
+    "how do organisations help in war and peace matters",
+    "distinguish international from global organisations",
+    "give examples of UN specialised agencies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rationale",
+     "explain": "collective problems like war need standing institutions"
+    },
+    {
+     "step": 2,
+     "action": "date the UN",
+     "explain": "the UN charter took effect in 1945 after the world wars"
+    },
+    {
+     "step": 3,
+     "action": "close with agencies",
+     "explain": "WHO, UNESCO and UNICEF carry specialised cooperation"
+    }
+   ]
+  },
+  {
+   "id": "leps.104.2",
+   "title": "Evolution of the UN and Membership",
+   "section": "Evolution of the UN",
+   "definition": "The UN began in 1945 with 51 founding members and expanded to 193 members as decolonisation admitted new states, changing the General Assembly's majorities and pushing demands to reform the Security Council whose five permanent members hold vetoes.",
+   "formula": "membership_growth = current_members - founding_members",
+   "key_idea": "The growth of UN membership is the current member count minus the founding count of 51.",
+   "textbook_ref": "leps104.txt membership growth (51 to 193) and Security Council sections",
+   "question_patterns": [
+    "how many members did the UN have at founding and now",
+    "compute the growth in UN membership",
+    "name the five permanent members of the Security Council",
+    "what is the veto and why is it contested",
+    "how did decolonisation change the UN",
+    "state the main UN organs and their functions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the counts",
+     "explain": "51 founding members, 193 today",
+     "compute": "founding_members = 51"
+    },
+    {
+     "step": 2,
+     "action": "subtract founding from current",
+     "explain": "the difference is 142 new members",
+     "compute": "membership_growth = current_members - founding_members"
+    }
+   ]
+  },
+  {
+   "id": "leps.104.3",
+   "title": "Reform of the UN",
+   "section": "Reform of the UN",
+   "definition": "Reform debates cover two tracks: procedures and relevance - making the Security Council more representative and reworking mandates - with India arguing for permanent membership on grounds of population, democracy, economy and peacekeeping record, while rivals propose alternatives like longer-term seats.",
+   "formula": "",
+   "key_idea": "Everyone wants a reformed Council; no one agrees whose seat it should be.",
+   "textbook_ref": "leps104.txt reform criteria and India's case sections",
+   "question_patterns": [
+    "state the two tracks of UN reform debates",
+    "list the criteria argued for permanent membership",
+    "present India's case for a permanent seat",
+    "name rival candidates and groupings for Council reform",
+    "why does the veto obstruct reform",
+    "evaluate UN peacekeeping as a reform argument"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the tracks",
+     "explain": "one track reworks procedures and priorities, the other the Council's composition"
+    },
+    {
+     "step": 2,
+     "action": "argue India's case",
+     "explain": "population, democracy, economic size and peacekeeping record are India's planks"
+    },
+    {
+     "step": 3,
+     "action": "close with deadlock",
+     "explain": "regional rivalries and the veto freeze any expansion"
+    }
+   ]
+  },
+  {
+   "id": "leps.104.4",
+   "title": "India and the UN",
+   "section": "India and the UN",
+   "definition": "India's UN engagement spans peacekeeping contributions among the largest, leadership of the Non-Aligned and G77, nuclear debate years, and campaigns for Council reform; India uses the UN to project multilateralism while seeking its democratisation.",
+   "formula": "",
+   "key_idea": "For India the UN is both stage and stake: it defends multilateral rules while asking for a seat at the top table.",
+   "textbook_ref": "leps104.txt India's UN contributions and diplomacy sections",
+   "question_patterns": [
+    "summarise India's peacekeeping record at the UN",
+    "how did India lead NAM and G77 positions",
+    "describe India's role in UN debates on disarmament",
+    "state India's proposal for Council expansion",
+    "evaluate India's multilateral strategy",
+    "relate UN reforms to India's great-power ambitions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the peacekeepers",
+     "explain": "India ranks among the largest troop contributors to UN missions"
+    },
+    {
+     "step": 2,
+     "action": "lead the South",
+     "explain": "NAM and G77 leadership framed India as the developing world's voice"
+    },
+    {
+     "step": 3,
+     "action": "close with the seat",
+     "explain": "Council reform is India's central UN campaign"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps104_1",
+   "source_ref": "leps104.txt membership growth",
+   "concept": "leps.104.2",
+   "question_type": "compute",
+   "question_pattern": "The UN was founded with 51 members and now has 193. Compute the growth in membership.",
+   "extracted_variables": {
+    "founding_members": 51,
+    "current_members": 193
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the counts",
+     "explain": "51 at founding, 193 today",
+     "compute": "founding_members = 51"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "193 - 51 = 142 new members",
+     "compute": "membership_growth = current_members - founding_members"
+    }
+   ]
+  },
+  {
+   "id": "we_leps104_2",
+   "source_ref": "leps104.txt India's case section",
+   "concept": "leps.104.3",
+   "question_type": "short_answer",
+   "question_pattern": "Present India's case for permanent Security Council membership in three points.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale",
+     "explain": "one-sixth of humanity and the world's largest democracy"
+    },
+    {
+     "step": 2,
+     "action": "contributions",
+     "explain": "among the largest peacekeeping troop contributors since the 1950s"
+    },
+    {
+     "step": 3,
+     "action": "economy",
+     "explain": "a leading economy with growing global responsibilities"
+    }
+   ]
+  },
+  {
+   "id": "we_leps104_3",
+   "source_ref": "leps104.txt veto section",
+   "concept": "leps.104.2",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the veto and one criticism of it.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "the power",
+     "explain": "each permanent member can block any substantive Council resolution"
+    },
+    {
+     "step": 2,
+     "action": "criticism",
+     "explain": "the veto lets great powers stall action backed by world majorities"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "it froze the Council's composition in 1945's power map"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps104_1",
+   "source_ref": "leps104.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain why international organisations are needed",
+    "compute the UN's membership growth since 1945",
+    "state the permanent members and the veto power",
+    "present the case for UN Security Council reform",
+    "describe India's contributions to the United Nations"
+   ]
+  },
+  {
+   "id": "ex_leps104_2",
+   "source_ref": "leps104.txt applied questions, reworded",
+   "questions": [
+    "argue for and against expanding the Security Council",
+    "compare UN peacekeeping's successes and failures",
+    "relate decolonisation to the UN's composition",
+    "evaluate specialised agencies' roles in development",
+    "design criteria for a reformed Council membership"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_16_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_16_011",
+   "title": "c12_hin_a_cbse_16_011",
+   "questions": [
+    {
+     "q": "In the sentence \"vkse t; txnh'k gjs ls gj dh ikSM+h xqatk;eku gks tkrh gSA\" (page 118), identify the grammatical subject and explain why the verb \"gks tkrh gSA\" agrees with \"ikSM+h\" (feminine singular) and not with \"txnh'k\" (masculine singular).",
+     "a": "Correct answer: The grammatical subject is \"gj dh ikSM+h\" (feminine singular). The verb \"gks tkrh gSA\" shows feminine singular agreement because in Hindi, the verb agrees with the *subject* in gender and number when the sentence is in the active voice and the subject is not marked with the ergative postposition \"ne\". Here, \"txnh'k\" is the object of the postposition \"ls\" (instrumental), not the subject. A wrong answer (e.g., saying the verb agrees with \"txnh'k\") reveals confusion between syntactic subject and semantic agent, and ignorance of Hindi's agreement rules in non-ergative constructions.",
+     "self_check": true
+    },
+    {
+     "q": "The story uses both \"xaxk iq=k\" (with honorific plural verb forms like \"cSB tkrk gSA\", \"js”kxkjh cspdj uksV dekrh gaSA\") and \"laHko\" (with non-honorific \"cSBk\", \"dgk\"). Explain how the honorific system in Hindi operates here to signal social hierarchy, and why the narrator uses honorific verbs for xaxk iq=k even when describing his actions in third-person narration.",
+     "a": "Correct answer: Hindi honorifics operate at two levels: (1) address honorifics (second person: \"आप\" vs \"तुम\") and (2) referent honorifics (third person: plural verb for respected referent). The narrator uses plural verbs (\"cSB tkrk gSA\", \"js”kxkjh cspdj uksV dekrh gaSA\") for xaxk iq=k because he is an elder, a figure of authority in the village — this is *referent honorificity* extending into third-person narration. For laHko, a young outsider, the narrator uses singular (\"cSBk\", \"dgk\"). A wrong answer that claims honorifics only apply to second person (\"आप/तुम\") misses the pervasive third-person honorific system in Hindi narrative discourse, which is crucial for decoding social relations in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the imperative \"bèkj vkvks] ge nsa jstxkjhA\" (page 120) into the polite honorific imperative form. Then explain what pragmatic shift occurs in the speaker-hearer relationship.",
+     "a": "Correct rewrite: \"bèkj vkvksa] ge nsa jstxkjhA\" or more naturally \"bèkj pध्रें] ge nsa jstxkjhA\" (using \"पधारें\" for \"come\" + honorific plural). The original \"vkvks\" is the familiar/imperative singular (तुम-level). Changing to \"vkvksa\" (or \"पधारें\") marks the hearer as socially superior or distant. The pragmatic shift: the speaker (laHko) positions himself as subordinate/respectful rather than familiar. A student who only changes \"vkvks\" to \"vkvksa\" without noting the shift from solidarity to deference misses the sociolinguistic function of imperative morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the compound verb \"?kcjkuk\" (page 121: \"yM+dh ?kcjkgV esa Bhd ls pIiy igu ugha ikbZA\") and \"vpZuk djuk\" (page 121: \"yM+dh dk vk¡[k ew¡ndj vpZuk djuk\"). For each, identify the vector verb, the main verb, and the aspectual nuance added by the compounding. Why does the author prefer compound verbs here over simple verbs?",
+     "a": "Correct analysis:\n1. \"?kcjkuk\" = main verb \"?kcjk\" (to look/search) + vector verb \"uk\" (from \"ukuk\" = to put/place). Nuance: *completive* + *resultative* — she looked *and the looking resulted in a state* (she couldn't find). The simple \"?kcjk\" would lack the sense of finality/outcome.\n2. \"vpZuk djuk\" = main verb \"vpZu\" (noun: completion/end) + light verb \"djuk\" (to do). Nuance: *agentive accomplishment* — she *made an end of it* (deliberate closure). Simple \"vpZuk\" (as verb) would be intransitive/inchoative (\"got over\").\nAuthor's preference: Compound verbs allow fine-grained aspectual distinctions (completion, inception, continuity, benefaction) that simple verbs cannot encode. They also reflect spoken Hindi's density. A student who only identifies \"compound verb\" without separating main/vector verbs and naming the nuance (completive, agentive) treats grammar as labeling, not meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The dialectal forms in the story (e.g., 'xaxk th dk izkphu eafnj', 'vkse t; txnh'k gjs', 'ck¡V djuk') are merely decorative local color; the story would mean the same in standard Khari Boli.\" Defend or refute with three grammatical examples.",
+     "a": "Refute. Three counter-examples:\n1. \"xaxk th dk izkphu eafnj\" — \"th\" (honorific marker) + \"eafnj\" (Braj for \"letter/document\") signals the *cultural authority* of the village scribe. Standard \"xaxk ji ka pehla patra\" loses the ritualistic weight of \"th\" and the manuscript-culture connotation of \"eafnj\".\n2. \"vkse t; txnh'k gjs\" — \"gjs\" (Braj/colloquial instrumental of \"gjs\" = \"force/impact\") instead of standard \"jore se\" or \"zor se\". \"gjs\" carries physical, bodily force; the standard form is abstract. The metaphor of wind as bodily blow is lost.\n3. \"ck¡V djuk\" (page 119: \"ck¡V dj ysrs gSa\") — compound verb with vector \"djuk\" (agentive) vs standard \"chhupana\" (transitive simple). \"ck¡V djuk\" implies *deliberate, effortful concealment*; \"chhupana\" is neutral. The children's fear-driven labor is erased.\nDialect forms encode *epistemic stance* (how the speaker knows/feels), not just geography. A student who calls them \"decorative\" confuses register with ornamentation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue between yM+dh and iqtkjh (page 122) where yM+dh uses *only* non-honorific singular verbs (\"तुम\"-level) and iqtkjh responds with *only* honorific plural verbs (\"आप\"-level). Then write one sentence explaining what this grammatical mismatch reveals about their power dynamic.",
+     "a": "Sample dialogue:\nyM+dh: \"तू चुप कर, मेरी बात सुन।\" (non-honorific singular: \"कर\", \"सुन\")\niqtkjh: \"आप चुप कीजिए, मेरी बात सुनिए।\" (honorific plural: \"कीजिए\", \"सुनिए\")\nyM+dh: \"तू मुझे मत सिखा।\"\niqtkjh: \"आप मुझे क्षमा करें।\"\nExplanation: yM+dh’s non-honorifics assert intimacy/authority (she is the abandoned wife, morally superior); iqtkjh’s honorifics signal guilt, submission, and social deference (he is the husband who wronged her). The grammar *performs* the power reversal. A poor answer creates parallel honorifics (both polite) or misses that the mismatch *is* the meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

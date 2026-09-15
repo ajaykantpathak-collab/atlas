@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_psychology_lepy105",
+ "concepts": [
+  {
+   "id": "lepy105.1",
+   "title": "Nature and Goals of Psychotherapy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nature and Goals of Psychotherapy' refers to.",
+     "a": "Psychotherapy is a voluntary relationship in which a trained therapist helps a client solve psychological problems by changing maladaptive behaviour, lowering personal distress and improving adjustment; it applies therapeutic principles systematically, demands professional training, centres on the client, and grows out of a confidential, dynamic interpersonal bond that acts as the vehicle for change.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nature and Goals of Psychotherapy'.",
+     "a": "Its goals run from reinforcing the resolve for betterment and easing emotional pressure to changing thinking patterns, raising self-awareness and improving communication - about four hundred therapy types pursue these ends.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nature and Goals of Psychotherapy', in plain ASCII form.",
+     "a": "psychotherapy = trained_therapist + voluntary_client + systematic_principles -> reduced_distress",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.2",
+   "title": "Therapeutic Alliance: Empathy and Unconditional Positive Regard",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Therapeutic Alliance: Empathy and Unconditional Positive Regard' refers to.",
+     "a": "The therapeutic alliance is the special client-therapist bond that is contractual yet limited in duration; it runs on trust, strict confidentiality, and the therapist's unconditional positive regard - warmth that does not depend on what the client reveals - plus empathy, which means feeling the client's plight from inside her perspective, unlike sympathy's pity or cold intellectual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Therapeutic Alliance: Empathy and Unconditional Positive Regard'.",
+     "a": "Empathy puts the therapist in the client's shoes and turns the alliance into a healing relationship; the bond ends once the client can handle life again.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Therapeutic Alliance: Empathy and Unconditional Positive Regard', in plain ASCII form.",
+     "a": "alliance = contractual_partnership + limited_duration ; empathy beats sympathy and intellectual_understanding",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.3",
+   "title": "Classifying Psychotherapies: Three Groups, Six Parameters",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classifying Psychotherapies: Three Groups, Six Parameters' refers to.",
+     "a": "Psychotherapies fall into three broad groups - psychodynamic, behaviour, and existential (the third force) - and they are compared on six parameters: the cause of the problem (intrapsychic conflict vs faulty learning vs questions of meaning), how the cause arose (childhood conflicts vs faulty conditioning vs present loneliness), the chief method (free association and interpretation vs new contingencies vs a facilitating environment), the relationship (therapist-as-expert vs therapist-as-discerner vs therapist-as-facilitator), the chief benefit (emotional insight vs adaptive change vs personal growth), and duration (psychoanalysis for years, short psychodynamic 10-15 sessions, behaviour and existential therapies a few months).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classifying Psychotherapies: Three Groups, Six Parameters'.",
+     "a": "Psychodynamic therapy appeared first, behaviour therapy next, and the existential therapies last; all still treat distress through psychological means.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classifying Psychotherapies: Three Groups, Six Parameters', in plain ASCII form.",
+     "a": "groups = psychodynamic + behaviour + existential ; parameters = cause + origin + method + relationship + benefit + duration",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.4",
+   "title": "Behaviour Therapy: Behavioural Analysis and Techniques",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Behaviour Therapy: Behavioural Analysis and Techniques' refers to.",
+     "a": "Behaviour therapy applies learning principles to correct faulty patterns in the present: behavioural analysis separates malfunctioning behaviours from the antecedent factors that set them up (examination anxiety behind smoking) and the maintaining factors that keep them going (relief from anxiety), after which a treatment package uses negative reinforcement, aversive conditioning that pairs an unwanted response with pain, positive reinforcement for rare adaptive acts, differential reinforcement that rewards wanted behaviour while ignoring unwanted behaviour, modelling through vicarious learning, and Wolpe's systematic desensitisation, which walks the relaxed client up a hierarchy of feared scenes so that relaxation inhibits anxiety - the principle of reciprocal inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Behaviour Therapy: Behavioural Analysis and Techniques'.",
+     "a": "Antecedent operations change what precedes a behaviour and consequent operations change what follows it, as when less food at tea time plus praise at dinner builds proper eating.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Behaviour Therapy: Behavioural Analysis and Techniques', in plain ASCII form.",
+     "a": "behavioural_analysis = malfunctioning_behaviour + antecedent_factors + maintaining_factors ; desensitisation = relaxation + anxiety_hierarchy -> reciprocal_inhibition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.5",
+   "title": "Token Economy: Computing Rewards",
+   "questions": [
+    {
+     "q": "Compute the rewards a child can claim after completing a given number of wanted behaviours. Use the method 'Token Economy: Computing Rewards'. Work with: behaviours_done = 60, tokens_per_behaviour = 60, tokens_per_reward = 10. Carry the chain through step by step and give the final value of rewards_earned.",
+     "a": "360 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the token balance after 20 wanted behaviours at 1 token each, then the outings claimable at 5 tokens per outing. Use the method 'Token Economy: Computing Rewards'. Work with: behaviours_done = 18, tokens_per_behaviour = 12, tokens_per_reward = 80. Carry the chain through step by step and give the final value of rewards_earned.",
+     "a": "2.7 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Token Economy: Computing Rewards' refers to.",
+     "a": "In a token economy, every occurrence of a wanted behaviour earns a token, and the collected tokens are later exchanged for a reward such as an outing or a treat; the number of rewards a client can claim follows directly from tokens earned per behaviour, behaviours performed, and the token price of the reward.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Token Economy: Computing Rewards'.",
+     "a": "Tokens act as secondary reinforcers that bridge the gap between the wanted behaviour and the eventual reward.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Token Economy: Computing Rewards', in plain ASCII form.",
+     "a": "rewards_earned = behaviours_done * tokens_per_behaviour / tokens_per_reward",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.6",
+   "title": "Cognitive Therapies: Ellis's RET and Beck's Restructuring",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cognitive Therapies: Ellis's RET and Beck's Restructuring' refers to.",
+     "a": "Cognitive therapies trace distress to irrational thoughts and beliefs. Albert Ellis's Rational Emotive Therapy runs an antecedent-belief-consequence (ABC) analysis: irrational beliefs marked by musts and shoulds distort reality between event and emotion, and the therapist gently refutes them by non-directive questioning until a rational belief system takes over. Aaron Beck holds that childhood experiences build core schemas which a critical incident triggers into negative automatic thoughts - nobody loves me, I am stupid - characterised by cognitive distortions; gentle disputation brings cognitive restructuring. Cognitive Behaviour Therapy combines these cognitive moves with behavioural techniques and relaxation, addressing biological, psychological and social realms at once.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cognitive Therapies: Ellis's RET and Beck's Restructuring'.",
+     "a": "CBT is the present favourite because it is short and efficacious across anxiety, depression, panic attacks and borderline personality; cognitive therapy typically spans 10-20 sessions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cognitive Therapies: Ellis's RET and Beck's Restructuring', in plain ASCII form.",
+     "a": "ret_chain = antecedent -> irrational_belief -> consequence ; beck_chain = core_schema + critical_incident -> negative_automatic_thoughts -> cognitive_restructuring",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.7",
+   "title": "Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt' refers to.",
+     "a": "Humanistic-existential therapies hold that distress springs from loneliness, alienation and blocked self-actualisation, and they cast the therapist as facilitator while the client owns the growth. Frankl's logotherapy - treatment for the soul - helps patients find meaning and responsibility even in life-threatening circumstances through meaning making from the spiritual unconscious; Rogers's client-centred therapy offers empathy, warmth and unconditional positive regard while reflecting the client's feelings back in non-judgmental rephrasing; and Perls's gestalt therapy, named from the German word for whole, heightens self-awareness and self-acceptance by acting out blocked fantasies and emotions, even in groups.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt'.",
+     "a": "Healing arrives when obstacles to self-actualisation are perceived and removed in a permissive, non-judgmental atmosphere where emotions flow freely.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt', in plain ASCII form.",
+     "a": "logotherapy = meaning_making + spiritual_unconscious ; client_centred = empathy + unconditional_positive_regard + reflection ; gestalt = self_awareness + self_acceptance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.8",
+   "title": "Factors of Healing and Ethics in Psychotherapy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors of Healing and Ethics in Psychotherapy' refers to.",
+     "a": "Healing in psychotherapy flows from several channels: the chosen techniques and their correct implementation, the therapeutic alliance with its regular availability, warmth and empathy, catharsis - the emotional unburdening of the first interviews - and non-specific factors split into patient variables such as motivation and expectation of improvement and therapist variables such as positive nature and absence of unresolved conflicts. Ethical practice demands informed consent, confidentiality, relief of suffering as the goal, integrity of the relationship, respect for human rights and dignity, and professional competence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors of Healing and Ethics in Psychotherapy'.",
+     "a": "Non-specific factors earn their name by operating across every therapy system, every client and every therapist.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Factors of Healing and Ethics in Psychotherapy', in plain ASCII form.",
+     "a": "healing_factors = techniques + alliance + catharsis + non_specific_factors ; ethics = informed_consent + confidentiality + competence + dignity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.9",
+   "title": "Alternative Therapies: Yoga, Meditation and Daily Practice",
+   "questions": [
+    {
+     "q": "Using the method 'Alternative Therapies: Yoga, Meditation and Daily Practice', work with: daily_practice_minutes = 8, days_per_week = 15, minutes_per_hour = 24. Carry the chain through step by step and give the final value of week_practice_hours.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Alternative Therapies: Yoga, Meditation and Daily Practice' and work with: daily_practice_minutes = 8, days_per_week = 24, minutes_per_hour = 400. Carry the chain through step by step and give the final value of week_practice_hours.",
+     "a": "0.48 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Alternative Therapies: Yoga, Meditation and Daily Practice' refers to.",
+     "a": "Alternative therapies stand beside conventional drugs and psychotherapy: yoga from Patanjali's Ashtanga Yoga works through asanas and pranayama; focused-attention meditation holds the mind on breath, an object or a mantra, while Vipasana or mindfulness-based meditation passively observes passing sensations and thoughts; Sudarshana Kriya Yoga's rapid breathing has proven a low-risk, low-cost adjunct for stress, anxiety, PTSD and depression, with proper training and a thirty-minute daily practice maximising the gains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Alternative Therapies: Yoga, Meditation and Daily Practice'.",
+     "a": "NIMHANS research finds SKY reduces depression, Kundalini Yoga helps obsessive-compulsive disorder, and Vipasana helps prevent repeated depressive episodes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Alternative Therapies: Yoga, Meditation and Daily Practice', in plain ASCII form.",
+     "a": "week_practice_hours = daily_practice_minutes * days_per_week / minutes_per_hour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy105.10",
+   "title": "Rehabilitation of the Mentally Ill",
+   "questions": [
+    {
+     "q": "Using the method 'Rehabilitation of the Mentally Ill', work with: cognitive_retraining = 24, occupational_therapy = 120, social_skills_training = 8, vocational_therapy = 6. Carry the chain through step by step and give the final value of rehabilitation.",
+     "a": "158 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rehabilitation of the Mentally Ill' and work with: cognitive_retraining = 24, occupational_therapy = 8, social_skills_training = 75, vocational_therapy = 30. Carry the chain through step by step and give the final value of rehabilitation.",
+     "a": "137 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rehabilitation of the Mentally Ill' refers to.",
+     "a": "Treatment has two arms - reducing symptoms and raising the quality of life - and in severe disorders such as schizophrenia the first does not guarantee the second, so rehabilitation steps in to make the patient self-sufficient and productive: occupational therapy teaches candle making, paper bag making and weaving to build work discipline, social skills training develops interpersonal skills through role play, imitation and instruction, cognitive retraining sharpens attention, memory and executive functions, and vocational therapy prepares the recovered patient for productive employment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rehabilitation of the Mentally Ill'.",
+     "a": "Negative symptoms like disinterest and lack of motivation can persist after symptom reduction, which is why empowerment and not just relief is the aim.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rehabilitation of the Mentally Ill', in plain ASCII form.",
+     "a": "rehabilitation = occupational_therapy + social_skills_training + cognitive_retraining + vocational_therapy",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

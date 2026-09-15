@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_006",
+   "title": "c12_bs_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define leadership according to the NCERT Class 12 Business Studies textbook. Use the exact terminology from the chapter.",
+     "a": "Leadership is the process of influencing the behaviour of people by making them strive voluntarily towards the achievement of organisational goals. It indicates the ability of an individual to maintain good interpersonal relations with followers and motivate them to contribute for achieving organisational objectives. A wrong answer that merely says \"leading a group\" or \"giving orders\" misses the voluntary willingness and interpersonal influence aspects that are central to the NCERT definition.",
+     "self_check": true
+    },
+    {
+     "q": "A manager in a manufacturing plant gives strict instructions to workers on the assembly line, monitors compliance closely, and penalises deviations. Workers are not consulted on methods. Which leadership style is this? Explain why it fits that style using two specific features from the textbook.",
+     "a": "This is autocratic (authoritarian) leadership. Features: (1) The leader gives orders and expects subordinates to obey; communication is one-way. (2) The leader is dogmatic and does not wish to be contradicted; rewards or punishments are based on results. A wrong answer might label it \"democratic\" because the manager \"manages\" or \"supervises,\" confusing supervision with participative decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "In a software development team, the project manager holds weekly meetings where all members suggest features, debate timelines, and collectively agree on sprint goals. The manager facilitates but the final decision reflects group consensus. Identify the leadership style and describe how it differs from autocratic style in terms of communication flow and employee initiative.",
+     "a": "This is democratic (participative) leadership. Communication is two-way: the leader consults subordinates, encourages participation in decision-making, and respects their opinions. Employees take initiative because they set their own objectives. In contrast, autocratic leadership has one-way communication (top-down) and employees simply follow orders with no initiative. A wrong answer might call it \"laissez-faire\" because the manager \"allows\" discussion, missing that the leader still facilitates and the decision is collective, not fully delegated.",
+     "self_check": true
+    },
+    {
+     "q": "Compare laissez-faire leadership with democratic leadership on three dimensions: (a) degree of freedom given to followers, (b) leader's involvement in day-to-day decisions, (c) suitability for highly skilled, self-motivated professionals. Provide a concrete workplace example for each.",
+     "a": "(a) Laissez-faire gives maximum freedom; followers formulate their own objectives and methods. Democratic gives substantial freedom but within a collaborative framework where the leader still guides the process. (b) Laissez-faire leader is minimally involved, only supplying information and support when asked. Democratic leader is actively involved in facilitating discussions and building consensus. (c) Laissez-faire suits highly skilled, self-motivated professionals (e.g., senior researchers in an R&D lab). Democratic suits teams where collaboration adds value (e.g., product design team). A wrong answer might claim laissez-faire means \"no leader,\" but the leader still exists as a resource provider and boundary setter.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Autocratic leadership is always ineffective in modern organisations because it demotivates employees and stifles creativity.\" Use concepts from the chapter to support your judgment.",
+     "a": "The statement is false. Autocratic leadership can be effective in situations requiring quick decisions, strict compliance (e.g., safety-critical factory operations, crisis management), or when subordinates are unskilled and need clear direction. The textbook notes it facilitates quick decision-making and productivity in many situations. However, it may demotivate creative, knowledge workers. A balanced evaluation recognises context-dependency. A wrong answer might simply agree/disagree without citing situational factors from the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case scenario (4-5 sentences) where a leader must switch from democratic to autocratic style due to an emergency. Explain why the switch is necessary and what would happen if they persisted with democratic style.",
+     "a": "Example: A hospital's nursing head usually decides shift schedules democratically with staff input. During a sudden mass-casualty event, she immediately assigns roles, redirects staff, and issues direct orders without consultation. The switch is necessary because emergencies demand instant, unambiguous action; democratic deliberation would delay life-saving care. If she persisted democratically, confusion and delayed response could cost lives. A poor answer might describe a non-emergency or fail to link the style change to the urgency and need for clear command.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

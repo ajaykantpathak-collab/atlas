@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_003",
+   "title": "c11_ps_cbse_09_003",
+   "questions": [
+    {
+     "q": "Define structural violence and give one example from contemporary India that does NOT involve direct physical force.",
+     "a": "Structural violence is harm caused by social structures (laws, policies, economic systems, institutional practices) that systematically disadvantage groups by denying them access to resources, opportunities, or rights—without a specific actor directly inflicting bodily harm. Example: The digital divide in rural India where government welfare schemes require online applications but villages lack internet infrastructure, effectively excluding the poor from their entitlements. A wrong answer (e.g., \"police beating protesters\") reveals confusion between direct violence (identifiable perpetrator, immediate physical harm) and structural violence (systemic, impersonal, built into institutions).",
+     "self_check": true
+    },
+    {
+     "q": "Explain how cultural violence differs from structural violence, and why Galtung argues cultural violence makes structural violence \"invisible\" or \"acceptable.\"",
+     "a": "Structural violence is the *mechanism* of harm (unequal laws, resource distribution); cultural violence is the *justificatory framework* (beliefs, symbols, ideologies) that makes that harm seem normal, natural, or morally right. For instance, the caste system (structural violence) is legitimized by concepts of purity/pollution and karma (cultural violence). A wrong answer that treats them as synonyms or says \"cultural violence is just violence in culture\" misses the crucial distinction: cultural violence operates at the level of *meaning and legitimacy*, explaining why victims and perpetrators both may accept structural violence as inevitable.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law requiring all citizens to possess a biometric ID to access food rations. Millions of homeless and migrant workers cannot obtain the ID due to lack of permanent address proof. Analyze this using Galtung's concepts: identify the direct, structural, and cultural violence involved.",
+     "a": "Direct violence: None immediately visible (no beating or arrest). Structural violence: The ID requirement creates an institutional barrier that systematically excludes the homeless/migrants—an administrative structure denying food security to the most vulnerable. Cultural violence: The narrative that \"biometric IDs prevent corruption\" or \"only genuine citizens deserve welfare\" frames exclusion as administrative efficiency rather than rights violation, legitimizing the structural harm. A wrong answer focusing only on \"corruption reduction\" misses how neutral-seeming policies become structurally violent when they ignore ground realities of marginalized groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how negative peace and positive peace would address the problem of farmer suicides in India. Which form of violence (direct, structural, cultural) does each approach primarily target?",
+     "a": "Negative peace (absence of direct violence) would target immediate triggers: prevent suicide attempts through helplines, compensate families after death—addressing *direct violence* (self-harm). Positive peace would target root causes: ensure fair Minimum Support Price, crop insurance, debt relief, irrigation access—addressing *structural violence* (exploitative agricultural economy, unequal market access). It would also challenge *cultural violence* like the stigma around farmer distress or media narratives blaming \"individual failure\" rather than policy failure. A wrong answer equating both approaches reveals failure to grasp that positive peace requires dismantling structural and cultural violence, not just preventing direct harm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Reservations in education and employment are a form of structural violence against upper-caste students.\" Use Galtung's framework to justify your position.",
+     "a": "This claim misapplies Galtung. Reservations are a *corrective measure* against pre-existing structural violence (caste-based denial of education/employment for centuries). Structural violence is the *original* exclusionary system; reservations attempt to dismantle it. Calling affirmative action \"structural violence\" confuses *remedy* with *harm*—it ignores that the structure itself was violently unequal. Cultural violence operates here: meritocracy narratives (\"reservations kill merit\") legitimize opposition to corrective justice by framing historical privilege as \"merit.\" A wrong answer accepting the claim shows inability to distinguish between violence that *creates* inequality and policies that *redress* it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public awareness campaign poster (describe visual + text) that exposes cultural violence legitimizing gender-based structural violence in India. Your design must make the invisible cultural narrative visible.",
+     "a": "Visual: A traditional \"Lakshmi\" goddess image split down the middle—left side shows her worshipped with flowers; right side shows a daughter-in-law doing unpaid domestic labor with the same posture. Text: \"We worship Lakshmi in temples. We exploit Lakshmi in kitchens. Same goddess. Different treatment. Cultural violence makes this normal. Structural violence makes this unpaid. #NameTheViolence\". A poor answer would show only direct violence (bruised woman) missing the point: the task is to expose *cultural* violence—the gap between reverence for the feminine divine and exploitation of real women—that legitimizes structural violence (unpaid care work, property denial).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

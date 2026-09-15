@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_011",
+   "title": "c11_hs_cbse_03_011",
+   "questions": [
+    {
+     "q": "Define Anorexia Nervosa and Bulimia Nervosa in one sentence each, highlighting the core behavioral distinction between them.",
+     "a": "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight, and disturbance in self-perceived weight/shape; Bulimia Nervosa is characterized by recurrent episodes of binge eating followed by inappropriate compensatory behaviors to prevent weight gain. A wrong answer that describes both as \"not eating\" or \"eating too little\" reveals the student conflates restriction with the binge-purge cycle and misses the fundamental behavioral difference: anorexia maintains energy deficit through sustained restriction, while bulimia oscillates between excess intake and compensatory elimination.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student says: \"Anorexia and bulimia are basically the same thing—both are about wanting to be thin, so the treatment should be the same.\" Explain why this statement reflects a misunderstanding of the disorders' pathophysiology and nutritional rehabilitation needs.",
+     "a": "While both disorders involve overvaluation of shape/weight, their pathophysiology differs: anorexia involves sustained energy deficit with metabolic adaptation (lowered BMR, hormonal suppression), requiring careful refeeding to avoid refeeding syndrome; bulimia involves chaotic intake with purging causing electrolyte disturbances (hypokalemia, metabolic alkalosis), requiring normalization of eating patterns and electrolyte correction first. A student who agrees with the statement fails to recognize that \"same treatment\" could be dangerous—aggressive refeeding suits neither, and cognitive-behavioral targets differ (weight restoration vs. breaking binge-purge cycles).",
+     "self_check": true
+    },
+    {
+     "q": "Riya, 17, has been binge-eating large amounts of food 3-4 times weekly for six months, then induces vomiting. Her BMI is 21.5 (normal). Her friend Neha, 16, eats <800 kcal/day, exercises 2 hours daily, has BMI 16.2, and has not menstruated in 5 months. Using the textbook's clinical descriptions, identify which disorder each girl likely has and justify with three distinguishing features per case.",
+     "a": "Riya: Bulimia Nervosa—(1) recurrent binge episodes with loss of control, (2) compensatory vomiting, (3) weight within normal range. Neha: Anorexia Nervosa—(1) severe restriction (<800 kcal/day), (2) significantly low BMI (16.2), (3) amenorrhea (5 months) indicating hormonal suppression. A wrong answer assigning both to anorexia because \"they want to be thin\" misses that bulimia patients often maintain normal weight, and that amenorrhea is a specific marker of energy deficit severity in anorexia, not a universal feature of all eating disorders.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term physical consequences of Anorexia Nervosa and Bulimia Nervosa listed in the textbook. Which consequences are shared, and which are disorder-specific? Explain the physiological mechanism linking each specific consequence to the disorder's characteristic behavior.",
+     "a": "Shared: convulsions (electrolyte imbalance), renal failure (dehydration/electrolyte stress), irregular heartbeats (electrolyte/cardiac muscle changes). Anorexia-specific: delayed menarche/amenorrhea (hypothalamic suppression from low leptin/energy availability), osteoporosis (estrogen deficiency + low weight-bearing + cortisol elevation), stunted stature (growth plate closure during puberty). Bulimia-specific: dental erosion (repeated gastric acid exposure from vomiting), parotid gland enlargement (chronic stimulation from vomiting), esophageal tears (Mallory-Weiss syndrome from forceful vomiting). A student listing only shared consequences fails to analyze how distinct behaviors (restriction vs. purge) produce distinct tissue-level damage.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Perhaps a person's best defense against these disorders is to learn to appreciate one's uniqueness. Respecting and valuing oneself will certainly be life saving.\" Critique this statement as a standalone prevention strategy for a school health program. What essential components are missing from a public health perspective?",
+     "a": "The statement reflects an individualistic, psychological framing that ignores sociocultural determinants: media-driven thin ideal, weight stigma, diet culture, food insecurity, and lack of access to mental health care. Effective prevention requires multi-level intervention: policy (regulating harmful advertising), school environment (weight-neutral health education, anti-bullying), family support (positive feeding practices), early screening (SCOFF questionnaire), and accessible treatment pathways. A student endorsing the statement as sufficient reveals a \"lifestyle choice\" misconception that blames the individual and overlooks systemic risk factors the textbook itself hints at (media messages, peer pressure, socioeconomic differences in 3.6-3.8).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day \"Recovery-Oriented Meal Plan\" for a 15-year-old female recovering from Anorexia Nervosa (current BMI 16.5, refeeding syndrome risk: moderate) that incorporates the textbook's three intervention principles: balanced diet, enhanced dietary fiber, and nutrient/food supplements. Specify kcal target, macronutrient distribution, and two micronutrient supplements with justification.",
+     "a": "A strong answer: ~1800 kcal/day (starting conservatively per refeeding guidelines), 55% carb / 20% protein / 25% fat, 25g fiber from whole grains/vegetables/fruits, supplemented with thiamine 100mg/day (prevents Wernicke's in refeeding) and phosphate supplement (prevents hypophosphatemia); meals include all 5 food groups per ICMR, spaced 3 meals + 3 snacks. A poor answer giving 2500 kcal immediately, omitting thiamine, or using only \"healthy foods\" without structured energy progression reveals ignorance of refeeding physiology and the textbook's emphasis on \"balanced diet\" as a planned, gradual process—not intuitive eating during early recovery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

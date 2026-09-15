@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy107",
+  "concepts": [
+    {
+      "id": "legy.107.1",
+      "questions": [
+        {"q": "A transport network is built of lines and what kind of junction points? (one word)", "a": "nodes"},
+        {"q": "How many major modes of transport are listed (land, water, air, pipeline)? (number)", "a": "4"},
+        {"q": "Which mode of land transport suits door-to-door delivery of small loads? (one word)", "a": "roads"},
+        {"q": "Which land mode is preferred for heavy long-distance overland traffic? (one word)", "a": "railways"},
+        {"q": "Which mode carries crude oil across continents without vehicles? (one word)", "a": "pipelines"},
+        {"q": "Which mode best serves urgent, light and high-value consignments over long distances? (one word)", "a": "air"},
+        {"q": "Transport links production with what end of the economy? (one word)", "a": "consumption"}
+      ]
+    },
+    {
+      "id": "legy.107.2",
+      "questions": [
+        {"q": "The world's motorable road network totals about how many million km? (number, in millions)", "a": "15"},
+        {"q": "North America accounts for about what per cent of the world's motorable road length? (give the per cent)", "a": "33"},
+        {"q": "Highway density in North America reaches about 0.65 km per sq km. What is that in km per sq km? (number)", "a": "0.65"},
+        {"q": "If the world has 15 million km of roads and North America holds 33 per cent, how many million km does North America have, to the nearest million? (number)", "a": "5"},
+        {"q": "About what per cent of world roads lie outside North America? (give the per cent)", "a": "67"},
+        {"q": "Which continent's road network is the densest by share? (two words)", "a": "North America"},
+        {"q": "A highway density of 0.65 km per sq km means roads occupy what per cent of the land? (give the per cent)", "a": "0.65"}
+      ]
+    },
+    {
+      "id": "legy.107.3",
+      "questions": [
+        {"q": "Which trans-continental railway links European Russia with the Pacific? (two words)", "a": "Trans-Siberian"},
+        {"q": "Which two canals together link the Mediterranean-Indian Ocean route with the Atlantic-Pacific route? (two words)", "a": "Suez, Panama"},
+        {"q": "Which canal connects the Mediterranean with the Red Sea? (one word)", "a": "Suez"},
+        {"q": "Which canal cuts across Central America to join two oceans? (one word)", "a": "Panama"},
+        {"q": "Which mode offers the cheapest carriage of bulk goods over water? (two words)", "a": "waterways"},
+        {"q": "Railway networks are densest in which three regions (Europe, Russia and one more)? (two words)", "a": "North America"},
+        {"q": "Which mode of transport carries the highest value per kilogram of freight? (one word)", "a": "airways"}
+      ]
+    },
+    {
+      "id": "legy.107.4",
+      "questions": [
+        {"q": "Which communication service forms the land-based grid of message delivery? (one word)", "a": "postal"},
+        {"q": "Which modern networks carry voice and data instantly across the globe? (one word)", "a": "telecom"},
+        {"q": "Which global data network integrates the world economy in real time? (one word)", "a": "internet"},
+        {"q": "Which man-made devices relay communication signals high above the earth? (one word)", "a": "satellites"},
+        {"q": "Undersea cables carry internet traffic between what? (one word)", "a": "continents"},
+        {"q": "Communication carries messages rather than what? (one word)", "a": "matter"},
+        {"q": "Mass-address broadcasting complements which two-way communication networks? (one word)", "a": "telecom"}
+      ]
+    }
+  ]
+}

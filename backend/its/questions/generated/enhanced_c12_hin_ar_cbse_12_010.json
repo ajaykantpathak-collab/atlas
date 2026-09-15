@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_12_010",
+   "title": "c12_hin_ar_cbse_12_010",
+   "questions": [
+    {
+     "q": "What is the primary context clue that distinguishes the meaning of \"xqM+èkkuh\" in the phrase \"xqM+èkkuh ns\" from its literal composition \"xqM+ + èkkuh\"?",
+     "a": "The primary clue is the collocational pattern \"xqM+èkkuh ns\" functioning as a compound verb phrase where \"ns\" (give) governs the noun \"xqM+èkkuh\" as an object, revealing it denotes a substantive substance (a mixture of jaggery and water) offered ritually, not merely \"sweet water.\" A wrong answer focusing only on morpheme-level translation (\"sweet water\") reveals the student misses syntactic governance and cultural ritual context — the phrase appears in a scene of humanitarian offering, not casual beverage service.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"ikuh isaQdus ls iSnk gq, dhpM+ esa yFkiFk gks tkrs Fks\", how does the grammatical structure \"isaQdus ls\" (from exhaustion) modify the semantic field of \"yFkiFk\" (revived/energized)?",
+     "a": "The postposition \"ls\" marks instrumental cause: the revival (yFkiFk) results directly from the act of drinking (isaQdus), creating a cause-effect semantic frame where \"yFkiFk\" means \"physically resuscitated\" not just \"cheered up.\" A student who translates \"yFkiFk\" as merely \"happy\" ignores the physiological desperation established by \"dhpM+\" (exhaustion/fainting) and the instrumental grammar, missing the life-or-death stakes the author encodes.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the context-clue strategy to determine the contextual meaning of \"vjok pkoy\" in the sentence \"fdlh esa Hkquk xsgw¡A thth ;g lc esjs gkFkksa ls djkrha] rkfd mudk iq.; eq>s feysA\" given the gloss \"vjok pkoy = ,slk pkoy ftls èkku dks fcuk mckys fudkyk x;k gks\".",
+     "a": "Step 1: Locate \"vjok pkoy\" in the list of items carried by the protagonist's mother (gj&NB, Hkwtk, fdyk iLr, vjok pkoy). Step 2: Note the syntactic parallelism — all are noun phrases denoting food items packed for journey. Step 3: The gloss defines it as a dish where something is fried without oil. Step 4: Cultural knowledge: \"pkoy\" = pakora/fritter; \"vjok\" = dry/without oil. Step 5: Contextual meaning = \"oil-free fritters\" — a specific poverty cuisine reflecting scarcity. A wrong answer like \"fried snack\" misses the critical \"without oil\" modifier that signals extreme deprivation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the tonal shift in the narrator's voice when using \"fdyk iLr\" (heart broke/went away) versus \"Hkwtk\" (carried on head) reveals class positionality.",
+     "a": "\"fdyk iLr\" appears in the narrator's internal monologue (\"exj eSa Hkh ftí ij vM+k Fkk\") expressing helpless empathy — the verb \"iLr\" (went away) suggests involuntary emotional collapse. \"Hkwtk\" appears in the description of the mother's labor (\"gj&NB gS rks NksVh jaxhu oqQfYg;ksa esa Hkwtk Hkj jgk gw¡\") — the causative construction \"Hkwtk Hkj jgk\" (making carry) frames it as imposed burden. The tonal contrast: first-person vulnerability vs third-party observation of structural oppression. A student who treats both as neutral physical descriptions misses the author's deliberate perspective-switching to indict social hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the gloss \"nlrik = rirs nl fnu\" (the fourth day) adequately captures the word's function in \"v\"kk<+ dk igyk i[kokjk chr tkus osQ ckn HKh [ksrh vkSj cgqdkt iz;ksx osQ fy, ikuh u gks\".",
+     "a": "No. The gloss gives denotative equivalence but misses the cultural-religious weight: \"i[kokjk\" (third-day ceremony after death) and \"nlrik\" (fourth day) mark sequential mourning rituals where water denial becomes ritual cruelty. The phrase \"chr tkus osQ ckn HKh\" (even after the ceremony passes) uses \"nlrik\" as a temporal boundary marker for when compassion should resume but doesn't. A student accepting the gloss alone fails to see how the author weaponizes ritual terminology to expose hypocrisy — the very rituals meant to honor the dead become timestamps for denying the living.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original sentence using \"gj&NB\" that preserves its contextual connotation of \"auspicious beginning turned ironic burden\" as established in the mother's wedding-day memory.",
+     "a": "Example: \"us ij gj&NB dh njoktk esa bUgha nks ukedjksa us fdlh u dgk Fkk fd mudh lh[kks dk vkdkj dksbZ Hkh rjg dk R;kx ugha gksxk.\" (In the auspicious moment of their wedding, no one told those two girls that their bond would never be acknowledged as legitimate.) A weak answer like \"gj&NB gS rks eu gksrk gS\" (gj&NB makes one happy) reduces the word to a generic \"auspicious occasion\" label, stripping the dramatic irony that the text builds — the wedding jewelry (gj&NB) becomes the very chains of lifelong servitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

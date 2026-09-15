@@ -1,0 +1,621 @@
+"""Build concept catalog for Class 8 Maths Chapter 12 (Factorisation).
+Extracted from hemh112.txt -- NCERT Class 8 Maths textbook (Reprint 2024-25).
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 8,
+    "subject": "maths",
+    "chapter": 12,
+    "chapter_title": "Factorisation",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh112.txt",
+    "concepts": [
+        {
+            "id": "c8m12.2.1",
+            "title": "What is Factorisation",
+            "section": "12.2",
+            "definition": "When we factorise an algebraic expression, we write it as a product of factors. These factors may be numbers, algebraic variables or algebraic expressions. An irreducible factor is a factor which cannot be expressed further as a product of factors; in algebraic expressions we use the word irreducible in place of prime. Expressions like 3xy, 5x^2y, 2x(y + 2) are already in factor form.",
+            "formula": "factorisation: expression = product of irreducible factors",
+            "key_idea": "Factorising means writing an expression as a product of irreducible factors.",
+            "textbook_ref": "hemh112.txt lines 6-55, 464-466",
+            "question_patterns": [
+                "what is factorisation",
+                "write the expression as a product of factors",
+                "find the irreducible factors of the expression",
+                "which expressions are already in factor form",
+                "what is an irreducible factor",
+                "find the factors of the algebraic expression",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "check if in factor form",
+                    "explain": "Expressions like 3xy or 2x(y + 2) are products of factors already",
+                },
+                {
+                    "step": 2,
+                    "action": "factor each part fully",
+                    "explain": "Continue until no factor can be further expressed as a product",
+                },
+                {
+                    "step": 3,
+                    "action": "state the irreducible form",
+                    "explain": "The final answer is a product of irreducible factors",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.2.2",
+            "title": "Method of Common Factors",
+            "section": "12.2.1",
+            "definition": "A systematic way of factorising an expression is the common factor method. It consists of three steps: (i) write each term of the expression as a product of irreducible factors; (ii) look for and separate the common factors; (iii) combine the remaining factors in each term in accordance with the distributive law. For example 2x + 4 = (2 x x) + (2 x 2) = 2(x + 2).",
+            "formula": "common factor: a x m + a x n = a x (m + n)",
+            "key_idea": "Pull out the factor common to every term using the distributive law.",
+            "textbook_ref": "hemh112.txt lines 56-99, 467-470",
+            "question_patterns": [
+                "factorise 12a squared b + 15ab squared",
+                "factorise using common factors",
+                "factorise 7x - 42",
+                "factorise the expression by taking out the common factor",
+                "find the common factors of the given terms",
+                "factorise 5xy + 10x",
+                "take out the common factor",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "write each term in irreducible factor form",
+                    "explain": "Split numbers into primes and keep variables separate",
+                },
+                {
+                    "step": 2,
+                    "action": "separate the common factors",
+                    "explain": "Identify the factors common to all terms",
+                },
+                {
+                    "step": 3,
+                    "action": "apply the distributive law",
+                    "explain": "common factor x (remaining factors of each term added)",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.2.3",
+            "title": "Factorisation by Regrouping",
+            "section": "12.2.2",
+            "definition": "Sometimes all the terms in a given expression do not have a common factor, but the terms can be grouped in such a way that all the terms in each group have a common factor. When we do this, there emerges a common factor across all the groups leading to the required factorisation. For example 2xy + 2y + 3x + 3 = 2y(x + 1) + 3(x + 1) = (x + 1)(2y + 3). Rearranging the terms to allow grouping is called regrouping.",
+            "formula": "group terms -> common factor of each group -> common bracket factor",
+            "key_idea": "Group pairs of terms so each group shares a factor, then pull out the shared bracket.",
+            "textbook_ref": "hemh112.txt lines 105-150, 471-477",
+            "question_patterns": [
+                "factorise 6xy - 4y + 6 - 9x",
+                "factorise by regrouping terms",
+                "factorise x squared + xy + 8x + 8y",
+                "factorise 15xy - 6x + 5y - 2",
+                "factorise ax + bx - ay - by",
+                "factorise by grouping the terms",
+                "factorise 10ab + 4a + 5b + 2",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "check for a common factor of all terms",
+                    "explain": "If none, think of grouping",
+                },
+                {
+                    "step": 2,
+                    "action": "regroup into pairs",
+                    "explain": "Rearrange terms so each pair has a common factor",
+                },
+                {
+                    "step": 3,
+                    "action": "factor each group",
+                    "explain": "Write each group as common factor x bracket",
+                },
+                {
+                    "step": 4,
+                    "action": "take out the common bracket",
+                    "explain": "The common bracket expression times the sum of the leftovers",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.2.4",
+            "title": "Factorisation Using Identities",
+            "section": "12.2.3",
+            "definition": "If an expression has a form that fits the right hand side of one of the identities, the left hand side gives the factorisation. Identity I: a^2 + 2ab + b^2 = (a + b)^2. Identity II: a^2 - 2ab + b^2 = (a - b)^2. Identity III: a^2 - b^2 = (a + b)(a - b). For example x^2 + 8x + 16 = (x + 4)^2, 4y^2 - 12y + 9 = (2y - 3)^2, 49p^2 - 36 = (7p - 6)(7p + 6).",
+            "formula": "a^2 + 2ab + b^2 = (a + b)^2; a^2 - 2ab + b^2 = (a - b)^2; a^2 - b^2 = (a + b)(a - b)",
+            "key_idea": "Recognise perfect squares and difference of squares to factor instantly.",
+            "textbook_ref": "hemh112.txt lines 171-220, 482-488",
+            "question_patterns": [
+                "factorise using identities",
+                "factorise x squared + 8x + 16",
+                "factorise 4y squared - 12y + 9",
+                "factorise 49p squared - 36",
+                "factorise the difference of two squares",
+                "factorise a squared - 2ab + b squared - c squared",
+                "factorise m to the power 4 - 256",
+                "factorise the perfect square trinomial",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "check the first and last terms are perfect squares",
+                    "explain": "Write them as a^2 and b^2",
+                },
+                {
+                    "step": 2,
+                    "action": "check the middle term",
+                    "explain": "If middle = 2ab with plus sign use (a + b)^2; with minus sign use (a - b)^2",
+                },
+                {
+                    "step": 3,
+                    "action": "for two square terms with a minus",
+                    "explain": "a^2 - b^2 = (a + b)(a - b)",
+                },
+                {
+                    "step": 4,
+                    "action": "repeat if factors factorise again",
+                    "explain": "e.g. m^4 - 256 = (m - 4)(m + 4)(m^2 + 16)",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.2.5",
+            "title": "Factors of the Form (x + a)(x + b)",
+            "section": "12.2.4",
+            "definition": "Expressions like x^2 + 5x + 6 are of the form x^2 + (a + b)x + ab. Identity IV: (x + a)(x + b) = x^2 + (a + b)x + ab. For factorising x^2 + px + q, we find two factors a and b of the constant term q such that ab = q and a + b = p; then the factors are (x + a) and (x + b).",
+            "formula": "(x + a)(x + b) = x^2 + (a + b)x + ab; find ab = q and a + b = p",
+            "key_idea": "Split the middle term using two numbers whose product and sum match.",
+            "textbook_ref": "hemh112.txt lines 221-273, 489-490",
+            "question_patterns": [
+                "factorise x squared + 5x + 6",
+                "find the factors of y squared - 7y + 12",
+                "obtain the factors of z squared - 4z - 12",
+                "factorise p squared + 6p + 8",
+                "factorise q squared - 10q + 21",
+                "factorise by splitting the middle term",
+                "factorise of the form x plus a times x plus b",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "find two numbers with product q",
+                    "explain": "ab = constant term (mind the signs)",
+                },
+                {
+                    "step": 2,
+                    "action": "check their sum",
+                    "explain": "a + b must equal the coefficient p of x",
+                },
+                {
+                    "step": 3,
+                    "action": "split the middle term",
+                    "explain": "x^2 + ax + bx + ab",
+                },
+                {
+                    "step": 4,
+                    "action": "group and factor",
+                    "explain": "x(x + a) + b(x + a) = (x + a)(x + b)",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.3.1",
+            "title": "Division of a Monomial by a Monomial",
+            "section": "12.3.1",
+            "definition": "Division is the inverse operation of multiplication. To divide a monomial by a monomial, write both in irreducible factor form and cancel the common factors: 6x^3 divided by 2x = (2 x 3 x x x x x)/(2 x x) = 3x^2. Since 2x x 3x^2 = 6x^3, therefore 6x^3 divided by 2x = 3x^2.",
+            "formula": "divide coefficients, subtract powers: (a/b) x^(m-n)",
+            "key_idea": "Cancel common factors; coefficients divide, powers subtract.",
+            "textbook_ref": "hemh112.txt lines 300-350",
+            "question_patterns": [
+                "carry out the division 28x to the power 4 divided by 56x",
+                "divide the monomial by the monomial",
+                "do the following divisions",
+                "simplify 6x cubed divided by 2x",
+                "divide -20x to the power 4 by 10x squared",
+                "divide 24xy squared z cubed by 6yz squared",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "write both monomials in irreducible factor form",
+                    "explain": "Split coefficients into prime factors",
+                },
+                {
+                    "step": 2,
+                    "action": "cancel the common factors",
+                    "explain": "Cancel matching factors from numerator and denominator",
+                },
+                {
+                    "step": 3,
+                    "action": "multiply what remains",
+                    "explain": "Divide the coefficients and subtract the powers of each variable",
+                    "compute": "coeff1 / coeff2",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.3.2",
+            "title": "Division of a Polynomial by a Monomial",
+            "section": "12.3.2",
+            "definition": "In the case of division of a polynomial by a monomial, we may carry out the division either by dividing each term of the polynomial by the monomial or by the common factor method. For example (4y^3 + 5y^2 + 6y) divided by 2y = 4y^3/2y + 5y^2/2y + 6y/2y = 2y^2 + (5/2)y + 3.",
+            "formula": "divide each term of the polynomial by the monomial",
+            "key_idea": "Divide every term separately (or factor out the common monomial).",
+            "textbook_ref": "hemh112.txt lines 354-399, 493-494",
+            "question_patterns": [
+                "divide the given polynomial by the given monomial",
+                "divide 5x squared - 6x by 3x",
+                "divide 3y to the power 8 - 4y to the power 6 + 5y to the power 4 by y to the power 4",
+                "divide the trinomial by the monomial",
+                "work out the division 10x - 25 by 5",
+                "divide each term of the polynomial",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "write each term over the monomial",
+                    "explain": "term1/divisor + term2/divisor + ...",
+                },
+                {
+                    "step": 2,
+                    "action": "divide each term",
+                    "explain": "Cancel common factors term by term",
+                },
+                {
+                    "step": 3,
+                    "action": "add the quotients",
+                    "explain": "The sum of the quotients is the answer",
+                },
+            ],
+        },
+        {
+            "id": "c8m12.4.1",
+            "title": "Division of a Polynomial by a Polynomial",
+            "section": "12.4",
+            "definition": "In the case of division of a polynomial by a polynomial, we cannot proceed by dividing each term of the dividend by the divisor. Instead, we factorise both the polynomials and cancel their common factors. For example (7x^2 + 14x) divided by (x + 2): factorise 7x^2 + 14x = 7x(x + 2), then cancel to get 7x. We consider only divisions in which the remainder is zero, where Dividend = Divisor x Quotient.",
+            "formula": "factorise both polynomials and cancel common factors; dividend = divisor x quotient",
+            "key_idea": "Factor numerator and denominator, then cancel the shared factors.",
+            "textbook_ref": "hemh112.txt lines 400-437, 495-503",
+            "question_patterns": [
+                "divide as directed 5(2x + 1)(3x + 5) by (2x + 1)",
+                "divide the polynomial by the polynomial",
+                "work out the division 10x - 25 by 2x - 5",
+                "divide 10y(6y + 21) by 5(2y + 7)",
+                "factorise the expressions and divide as directed",
+                "divide z of 5z squared - 80 by 5z(z + 4)",
+                "cancel the common factors to divide",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "factorise the dividend completely",
+                    "explain": "Use common factors, regrouping or identities",
+                },
+                {
+                    "step": 2,
+                    "action": "write the divisor in factor form",
+                    "explain": "Match factors with the denominator",
+                },
+                {
+                    "step": 3,
+                    "action": "cancel the common factors",
+                    "explain": "Remove the factors common to both",
+                },
+                {
+                    "step": 4,
+                    "action": "multiply the remainder factors",
+                    "explain": "The product of the leftover factors is the quotient",
+                },
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "hemh112.txt lines 83-90 (Example 1)",
+            "concept": "c8m12.2.2",
+            "question_type": "common_factor",
+            "question_pattern": "factorise {a}x^2y + {b}xy^2",
+            "extracted_variables": {
+                "a": "coefficient of first term",
+                "b": "coefficient of second term",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "irreducible factor form of each term",
+                    "explain": "e.g. 12a^2b = 2 x 2 x 3 x a x a x b",
+                },
+                {
+                    "step": 2,
+                    "action": "find the common factors",
+                    "explain": "The common factors go outside the bracket",
+                },
+                {
+                    "step": 3,
+                    "action": "write the factor form",
+                    "explain": "common factor x (leftovers added)",
+                },
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "hemh112.txt lines 137-150 (Example 3)",
+            "concept": "c8m12.2.3",
+            "question_type": "regrouping",
+            "question_pattern": "factorise {expr} by regrouping",
+            "extracted_variables": {
+                "expr": "the four-term expression",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "check for a common factor of all terms",
+                    "explain": "If none, think of grouping",
+                },
+                {
+                    "step": 2,
+                    "action": "group and factor each pair",
+                    "explain": "First two terms and last two terms each get a factor",
+                },
+                {
+                    "step": 3,
+                    "action": "combine with the common bracket",
+                    "explain": "(common bracket) x (sum of leftovers)",
+                },
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "hemh112.txt lines 179-189 (Example 4)",
+            "concept": "c8m12.2.4",
+            "question_type": "identity_perfect_square",
+            "question_pattern": "factorise x^2 + {p}x + {q}",
+            "extracted_variables": {
+                "p": "coefficient of the middle term",
+                "q": "constant term",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "check it fits a^2 + 2ab + b^2",
+                    "explain": "First and last terms are perfect squares with a positive middle term",
+                },
+                {
+                    "step": 2,
+                    "action": "find a and b",
+                    "explain": "a from the first square, b from the last square; check 2ab equals the middle term",
+                },
+                {
+                    "step": 3,
+                    "action": "write the square",
+                    "explain": "x^2 + 8x + 16 = (x + 4)^2",
+                },
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "hemh112.txt lines 195-199 (Example 6)",
+            "concept": "c8m12.2.4",
+            "question_type": "difference_of_squares",
+            "question_pattern": "factorise {a}p^2 - {b}",
+            "extracted_variables": {
+                "a": "coefficient making a perfect square",
+                "b": "perfect square constant",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "write both terms as squares",
+                    "explain": "49p^2 = (7p)^2 and 36 = (6)^2",
+                },
+                {
+                    "step": 2,
+                    "action": "apply identity III",
+                    "explain": "a^2 - b^2 = (a + b)(a - b)",
+                },
+            ],
+        },
+        {
+            "id": "ex5",
+            "source_ref": "hemh112.txt lines 232-239 (Example 9)",
+            "concept": "c8m12.2.5",
+            "question_type": "split_middle_term",
+            "question_pattern": "factorise x^2 + {p}x + {q}",
+            "extracted_variables": {
+                "p": "coefficient of x",
+                "q": "constant term",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "find ab = q and a + b = p",
+                    "explain": "Try factor pairs of the constant",
+                },
+                {
+                    "step": 2,
+                    "action": "write (x + a)(x + b)",
+                    "explain": "e.g. x^2 + 5x + 6 = (x + 2)(x + 3)",
+                },
+            ],
+        },
+        {
+            "id": "ex6",
+            "source_ref": "hemh112.txt lines 247-250 (Example 10)",
+            "concept": "c8m12.2.5",
+            "question_type": "split_middle_negative",
+            "question_pattern": "find the factors of y^2 - {p}y + {q}",
+            "extracted_variables": {
+                "p": "positive coefficient subtracted",
+                "q": "constant term",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "find two numbers with product q and sum p",
+                    "explain": "e.g. 12 = 3 x 4 and 3 + 4 = 7",
+                },
+                {
+                    "step": 2,
+                    "action": "split the middle term with minus signs",
+                    "explain": "y^2 - 3y - 4y + 12",
+                },
+                {
+                    "step": 3,
+                    "action": "group and factor",
+                    "explain": "y(y - 3) - 4(y - 3) = (y - 3)(y - 4)",
+                },
+            ],
+        },
+        {
+            "id": "ex7",
+            "source_ref": "hemh112.txt lines 267-273 (Example 12)",
+            "concept": "c8m12.2.5",
+            "question_type": "common_factor_then_split",
+            "question_pattern": "find the factors of {k}m^2 + {p}m + {q}",
+            "extracted_variables": {
+                "k": "common numeric factor",
+                "p": "middle coefficient before taking out the factor",
+                "q": "constant before taking out the factor",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "take out the common factor",
+                    "explain": "e.g. 3m^2 + 9m + 6 = 3(m^2 + 3m + 2)",
+                },
+                {
+                    "step": 2,
+                    "action": "factor the quadratic inside",
+                    "explain": "Split the middle term of the smaller quadratic",
+                },
+                {
+                    "step": 3,
+                    "action": "keep the common factor",
+                    "explain": "3(m + 1)(m + 2)",
+                },
+            ],
+        },
+        {
+            "id": "ex8",
+            "source_ref": "hemh112.txt lines 333-350 (Example 13)",
+            "concept": "c8m12.3.1",
+            "question_type": "divide_monomials",
+            "question_pattern": "do the division (-{a}x^{m}) / ({b}x^{n})",
+            "extracted_variables": {
+                "a": "numerator coefficient",
+                "b": "denominator coefficient",
+                "m": "numerator power of x",
+                "n": "denominator power of x",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "irreducible factor form of both",
+                    "explain": "Split the coefficients into primes",
+                },
+                {
+                    "step": 2,
+                    "action": "cancel common factors",
+                    "explain": "Cancel the x's pairwise",
+                },
+                {
+                    "step": 3,
+                    "action": "write the quotient",
+                    "explain": "coefficient divided, powers subtracted",
+                    "compute": "a / b",
+                },
+            ],
+        },
+        {
+            "id": "ex9",
+            "source_ref": "hemh112.txt lines 414-427 (Example 15)",
+            "concept": "c8m12.4.1",
+            "question_type": "divide_polynomial_by_polynomial",
+            "question_pattern": "divide {k}(x^4 - {p}x^3 - {q}x^2) by {c}x(x - {r})",
+            "extracted_variables": {
+                "k": "numeric factor of the dividend",
+                "p": "coefficient of x cubed",
+                "q": "coefficient of x squared",
+                "c": "numeric factor of the divisor",
+                "r": "factor constant of the divisor",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "factorise the dividend",
+                    "explain": "Take x^2 common, split the middle term, get factors (x - r)(x + s)",
+                },
+                {
+                    "step": 2,
+                    "action": "cancel common factors",
+                    "explain": "Cancel the number, x and (x - r)",
+                },
+                {
+                    "step": 3,
+                    "action": "write the quotient",
+                    "explain": "The remaining product is the answer",
+                },
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex12.1",
+            "source_ref": "hemh112.txt lines 151-170 (Exercise 12.1)",
+            "questions": [
+                "Find the common factors of the given terms: (i) 12x, 36 (ii) 2y, 22xy (iii) 14pq, 28p^2q^2 (iv) 2x, 3x^2, 4 (v) 6abc, 24ab^2, 12a^2b (vi) 16x^3, -4x^2, 32x (vii) 10pq, 20qr, 30rp (viii) 3x^2y^3, 10x^3y^2, 6x^2y^2z",
+                "Factorise the following expressions: (i) 7x - 42 (ii) 6p - 12q (iii) 7a^2 + 14a (iv) -16z + 20z^3 (v) 20l^2m + 30alm (vi) 5x^2y - 15xy^2 (vii) 10a^2 - 15b^2 + 20c^2 (viii) -4a^2 + 4ab - 4ca (ix) x^2yz + xy^2z + xyz^2 (x) ax^2y + bxy^2 + cxyz",
+                "Factorise: (i) x^2 + xy + 8x + 8y (ii) 15xy - 6x + 5y - 2 (iii) ax + bx - ay - by (iv) 15pq + 15 + 9q + 25p (v) z - 7 + 7xy - xyz",
+            ],
+        },
+        {
+            "id": "ex12.2",
+            "source_ref": "hemh112.txt lines 274-297 (Exercise 12.2)",
+            "questions": [
+                "Factorise the following expressions: (i) a^2 + 8a + 16 (ii) p^2 - 10p + 25 (iii) 25m^2 + 30m + 9 (iv) 49y^2 + 84yz + 36z^2 (v) 4x^2 - 8x + 4 (vi) 121b^2 - 88bc + 16c^2 (vii) (l + m)^2 - 4lm (viii) a^4 + 2a^2b^2 + b^4",
+                "Factorise: (i) 4p^2 - 9q^2 (ii) 63a^2 - 112b^2 (iii) 49x^2 - 36 (iv) 16x^5 - 144x^3 (v) (l + m)^2 - (l - m)^2 (vi) 9x^2y^2 - 16 (vii) (x^2 - 2xy + y^2) - z^2 (viii) 25a^2 - 4b^2 + 28bc - 49c^2",
+                "Factorise the expressions: (i) ax^2 + bx (ii) 7p^2 + 21q^2 (iii) 2x^3 + 2xy^2 + 2xz^2 (iv) am^2 + bm^2 + bn^2 + an^2 (v) (lm + l) + m + 1 (vi) y(y + z) + 9(y + z) (vii) 5y^2 - 20y - 8z + 2yz (viii) 10ab + 4a + 5b + 2 (ix) 6xy - 4y + 6 - 9x",
+                "Factorise: (i) a^4 - b^4 (ii) p^4 - 81 (iii) x^4 - (y + z)^4 (iv) x^4 - (x - z)^4 (v) a^4 - 2a^2b^2 + b^4",
+                "Factorise the following expressions: (i) p^2 + 6p + 8 (ii) q^2 - 10q + 21 (iii) p^2 + 6p - 16",
+            ],
+        },
+        {
+            "id": "ex12.3",
+            "source_ref": "hemh112.txt lines 442-462 (Exercise 12.3)",
+            "questions": [
+                "Carry out the following divisions: (i) 28x^4 / 56x (ii) -36y^3 / 9y^2 (iii) 66pq^2r^3 / 11qr^2 (iv) 34x^3y^3z^3 / 51xy^2z^3 (v) 12a^8b^8 / (-6a^6b^4)",
+                "Divide the given polynomial by the given monomial: (i) (5x^2 - 6x) / 3x (ii) (3y^8 - 4y^6 + 5y^4) / y^4 (iii) 8(x^3y^2z^2 + x^2y^3z^2 + x^2y^2z^3) / 4x^2y^2z^2 (iv) (x^3 + 2x^2 + 3x) / 2x (v) (p^3q^6 - p^6q^3) / p^3q^3",
+                "Work out the following divisions: (i) (10x - 25) / 5 (ii) (10x - 25) / (2x - 5) (iii) 10y(6y + 21) / 5(2y + 7) (iv) 9x^2y^2(3z - 24) / 27xy(z - 8) (v) 96abc(3a - 12)(5b - 30) / 144(a - 4)(b - 6)",
+                "Divide as directed: (i) 5(2x + 1)(3x + 5) / (2x + 1) (ii) 26xy(x + 5)(y - 4) / 13x(y - 4) (iii) 52pqr(p + q)(q + r)(r + p) / 104pq(q + r)(r + p) (iv) 20(y + 4)(y^2 + 5y + 3) / 5(y + 4) (v) x(x + 1)(x + 2)(x + 3) / x(x + 1)",
+                "Factorise the expressions and divide as directed: (i) (y^2 + 7y + 10) / (y + 5) (ii) (m^2 - 14m - 32) / (m + 2) (iii) (5p^2 - 25p + 20) / (p - 1) (iv) 4yz(z^2 + 6z - 16) / 2y(z + 8) (v) 5pq(p^2 - q^2) / 2p(p + q) (vi) 12xy(9x^2 - 16y^2) / 4xy(3x + 4y) (vii) 39y^3(50y^2 - 98) / 26y^2(5y + 7)",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class8_maths_ch12_factorisation.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

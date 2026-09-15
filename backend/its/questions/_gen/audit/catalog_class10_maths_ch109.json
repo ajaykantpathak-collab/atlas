@@ -1,0 +1,365 @@
+{
+ "catalog": "catalog_class10_maths_ch109.json",
+ "concepts": [
+  {
+   "id": "jemh.9.1",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 20 / 29"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 21 / 29"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 20 / 21"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 29 / 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 29 / 21"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (20 / 29) / (21 / 29)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 20 / 29"
+   ]
+  },
+  {
+   "id": "jemh.9.2",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 10 / 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 24 / 26"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 10 / 24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 26 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 26 / 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (10 / 26) / (24 / 26)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 10 / 26"
+   ]
+  },
+  {
+   "id": "jemh.9.3",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 8 / 17"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 15 / 17"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 8 / 15"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 17 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 17 / 15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (8 / 17) / (15 / 17)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 8 / 17"
+   ]
+  },
+  {
+   "id": "jemh.9.4",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 10 / 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 24 / 26"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 10 / 24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 26 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 26 / 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (10 / 26) / (24 / 26)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 10 / 26"
+   ]
+  },
+  {
+   "id": "jemh.9.5",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 68"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 110"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 38"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 138 - 157"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 60"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 126"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 68"
+   ]
+  },
+  {
+   "id": "jemh.9.6",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 12 / 20"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 16 / 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 12 / 16"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 20 / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 20 / 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (12 / 20) / (16 / 20)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 12 / 20"
+   ]
+  },
+  {
+   "id": "jemh.9.7",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 5 / 13"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 12 / 13"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 5 / 12"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 13 / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 13 / 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (5 / 13) / (12 / 13)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = 5 / 13"
+   ]
+  },
+  {
+   "id": "jemh.9.8",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 78"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 103"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 21"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 38 - 214"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 50"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 78"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 78"
+   ]
+  }
+ ]
+}

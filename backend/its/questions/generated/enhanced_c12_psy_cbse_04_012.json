@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_012",
+   "title": "c12_psy_cbse_04_012",
+   "questions": [
+    {
+     "q": "A 25-year-old male reports drinking 60g of pure alcohol daily for 3 years. He needs increasing amounts to feel intoxicated. When he attempted abstinence last week, he developed coarse tremors, anxiety, and insomnia within 6 hours, which resolved after one drink. Which TWO DSM-5 criteria for Alcohol Use Disorder are explicitly demonstrated here?",
+     "a": "Tolerance (criterion 10) and Withdrawal (criterion 11). A wrong answer like \"craving\" or \"failure to fulfill role obligations\" reveals the student is confusing associated features with the defining pharmacological criteria. Tolerance and withdrawal are the only two criteria that are *physiological* markers of neuroadaptation; the other nine are behavioral/psychosocial. Students often misidentify \"drinking more than intended\" as tolerance — but tolerance specifically means *diminished effect with same dose* OR *need for increased dose for same effect*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with severe Alcohol Use Disorder is at risk of death during untreated withdrawal, while a person with severe Opioid Use Disorder rarely dies from withdrawal alone. Use neurobiological terminology (GABA, glutamate, NMDA, locus coeruleus, noradrenaline).",
+     "a": "Chronic alcohol enhances GABAergic inhibition and suppresses NMDA glutamate receptors. Abrupt cessation → unopposed glutamatergic excitation + loss of GABAergic tone → neuronal hyperexcitability → seizures, delirium tremens, autonomic instability → potential death. Opioid withdrawal involves noradrenergic hyperactivity in the locus coeruleus due to loss of mu-receptor inhibition → severe autonomic arousal (tachycardia, hypertension, diarrhea) but *not* seizure-generating cortical hyperexcitability. A wrong answer focusing only on \"severity of discomfort\" misses the distinct *mechanisms of lethality*: alcohol withdrawal kills via excitotoxicity/seizures; opioid withdrawal kills via complications (dehydration, cardiac events in vulnerable patients), not the withdrawal syndrome itself.",
+     "self_check": true
+    },
+    {
+     "q": "A 22-year-old uses cocaine by nasal insufflation 3-4 times weekly for 6 months. She reports intense euphoria lasting 20 minutes, followed by a \"crash\" with fatigue, hypersomnia, and depressive thoughts. She denies tolerance. Using the DSM-5 criterion \"substance taken in larger amounts/longer period than intended,\" design a single behavioral question that would test this criterion specifically for *this* patient's pattern.",
+     "a": "\"Have there been times when you planned to use only one line but ended up repeating it multiple times in the same session because you couldn't stop once you started?\" This targets *loss of control within a single episode* (binge pattern typical of stimulants) rather than daily volume escalation. A wrong question like \"Do you use more cocaine now than 6 months ago?\" tests *tolerance* (criterion 10), not impaired control (criterion 1). Students confuse the *criteria* because both involve \"more,\" but the *clinical manifestation* differs: cocaine users often maintain stable per-session amounts but lose control *within* the session; alcohol/opioid users escalate *daily dose* over months.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *learning theory* explanations for why (a) alcohol-associated cues (clinking glasses, bar smell) trigger craving, and (b) opioid-associated cues (syringe, spoon) trigger withdrawal-like symptoms *before* the drug is taken. Use the terms: classical conditioning, conditioned stimulus (CS), unconditioned stimulus (US), conditioned response (CR), unconditioned response (UR), opponent-process theory.",
+     "a": "(a) Alcohol cues: CS (bar cues) paired with US (alcohol's GABA/glutamate effects → euphoria/sedation = UR). After repetition, CS alone elicits CR = *anticipatory craving* (dopamine surge in NAcc). (b) Opioid cues: CS (paraphernalia) paired with US (heroin → mu-agonism → analgesia/euphoria = UR). Opponent-process theory: the body mounts a *compensatory* UR (noradrenergic surge, hyperalgesia) to counteract the drug. This compensatory response becomes a CR to the CS. So the addict feels *withdrawal symptoms* (CR) upon seeing the spoon — the body \"prepares\" for the drug. A wrong answer stating both produce \"craving\" misses that opioid cues often elicit *conditioned withdrawal* (physiological opposite of the drug), which drives *negative reinforcement* (use to avoid withdrawal), while alcohol cues primarily elicit *conditioned appetitive* responses (positive reinforcement).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since Alcohol Use Disorder and Opioid Use Disorder both involve tolerance and withdrawal, the same medication-assisted treatment (MAT) approach — agonist substitution — should work for both.\" Evaluate using pharmacodynamics (receptor efficacy, ceiling effect) and clinical evidence.",
+     "a": "The statement is flawed. Opioid agonist substitution (methadone/buprenorphine) works because: (1) mu-opioid receptors have high receptor reserve; partial agonist buprenorphine has a *ceiling effect* on respiratory depression, allowing safe maintenance; (2) long half-life prevents withdrawal fluctuations. Alcohol acts on *multiple* targets (GABA-A, NMDA, glycine, voltage-gated channels) — no single \"alcohol receptor\" exists for agonist substitution. Benzodiazepines (GABA-A agonists) are used only for *acute detox* (short-term taper), not maintenance, because they share alcohol's addiction liability and overdose risk (no ceiling effect). Naltrexone (opioid antagonist) and acamprosate (glutamate modulator) are *anti-craving/relapse prevention* agents, not agonist substitutes. A wrong answer equating the two disorders ignores *pharmacological specificity*: agonist substitution requires a clean receptor target with a safe partial agonist — available for opioids, absent for alcohol.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic-strip script (dialogue + visual description) for a psychoeducation session explaining *why* a 17-year-old who binge-drinks weekends only is at risk for Alcohol Use Disorder, incorporating: (1) adolescent neurodevelopment (prefrontal cortex vs. nucleus accumbens), (2) kindling effect of repeated withdrawal, (3) DSM-5 criterion \"hazardous use.\"",
+     "a": "Panel 1 (Neurodevelopment): Teen brain drawing. PFC (brakes) labeled \"Under construction till 25.\" NAcc (gas pedal) labeled \"Hyper-responsive to rewards.\" Dialogue: \"Your brain's 'go' system is a Ferrari; 'stop' system is a bicycle. Alcohol cuts the brake lines.\" Panel 2 (Kindling): Series of 3 brain scans labeled \"1st binge,\" \"5th binge,\" \"20th binge.\" Increasing lightning bolts (excitotoxicity). Dialogue: \"Each Monday hangover isn't just feeling bad — it's your neurons learning to *seize*. Kindling = each withdrawal lowers the seizure threshold. You're wiring your brain for epilepsy.\" Panel 3 (Hazardous use): Scene: teen driving, unprotected sex, fight. Checklist: \"Driven after 3+ drinks? ✓ Unprotected sex? ✓ Fought? ✓ That's 3/11 criteria in *one night*. Mild AUD = 2 criteria. You're already there.\" A poor answer shows only \"drinking is bad\" without linking *specific neurodevelopmental vulnerability* + *neuroplasticity mechanism* + *diagnostic threshold*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_3",
+   "title": "c9_physics_ch3_3",
+   "questions": [
+    {
+     "q": "State Newton's First Law of Motion and define inertia. What is the SI unit of the physical quantity that measures inertia?",
+     "a": "Newton's First Law: An object remains at rest or in uniform straight-line motion unless acted upon by a net external force. Inertia is the tendency of an object to resist changes in its state of motion; it is measured by mass, with SI unit kilogram (kg). A wrong answer (e.g., \"inertia is measured in newtons\" or \"a force is needed to keep an object moving\") reveals the student still holds the Aristotelian misconception that motion requires a continuous force, confusing inertia with momentum or force.",
+     "self_check": true
+    },
+    {
+     "q": "A hockey puck slides on frictionless ice at constant velocity. A student says, \"A force must be acting on the puck to keep it moving.\" Explain why this statement is incorrect using Newton's First Law.",
+     "a": "On frictionless ice, the net horizontal force on the puck is zero (gravity and normal force cancel vertically). Newton's First Law states that zero net force means constant velocity — no force is needed to sustain motion, only to change it. If the student claims a force is needed, they confuse the *cause of motion* (initial push) with the *cause of continuation* (inertia), a classic pre-Newtonian error.",
+     "self_check": true
+    },
+    {
+     "q": "A 1200 kg car travels at a constant 60 km/h on a straight highway. The engine exerts a forward force of 3000 N. Calculate the magnitude and direction of the total resistive force (air drag + friction) acting on the car. (Use g = 10 m/s² if needed, but note: constant velocity.)",
+     "a": "**Step 1:** Identify given: m = 1200 kg, v = 60 km/h = 16.67 m/s (constant), F_engine = 3000 N forward.  \n**Step 2:** Constant velocity ⇒ acceleration a = 0 ⇒ net force F_net = m·a = 0 (First Law).  \n**Step 3:** Forces horizontally: F_engine (forward) + F_resistive (backward) = F_net = 0.  \n**Step 4:** F_resistive = -F_engine = -3000 N ⇒ magnitude 3000 N, direction opposite to motion (backward).  \n**Step 5:** Check: Units are newtons (N); resistive force equals engine force for constant speed — physically reasonable.  \nA wrong answer (e.g., F_resistive = 0 or F_resistive = m·v) shows the student doesn't link constant velocity to zero net force, or confuses velocity with acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical trucks, one loaded (mass 20,000 kg) and one empty (mass 8,000 kg), are moving at the same constant velocity on a straight road. Both drivers apply brakes with the same force. Which truck stops in a shorter distance? Explain using inertia and Newton's First Law.",
+     "a": "The empty truck stops in a shorter distance. Both experience the same braking force, but the loaded truck has greater mass ⇒ greater inertia ⇒ greater resistance to change in motion. By Newton's First Law, a larger net force (or same force over longer time/distance) is needed to bring the more massive object to rest. If the student picks the loaded truck, they incorrectly think \"heavier means harder to move, so it stops faster,\" confusing inertia's resistance to *starting* with resistance to *stopping*.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Newton's First Law is just a special case of the Second Law (F=ma) when F=0, so it's redundant.\" Evaluate this claim. Is the First Law logically independent? Justify.",
+     "a": "The claim is incorrect. The First Law defines *inertial reference frames* — frames where an object with zero net force moves uniformly. The Second Law (F=ma) only holds *in* such frames. Without the First Law, we cannot identify valid frames for applying F=ma. Thus, the First Law is a foundational postulate, not a mathematical consequence. A student who agrees misses the epistemological role of the First Law in establishing the framework for the Second.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using only a toy car, a ramp, a spring balance, and a data logger (or stopwatch and meter scale) to demonstrate that an object in uniform motion experiences zero net force. Describe the procedure, measurements, and how you would conclude zero net force.",
+     "a": "**Procedure:** 1) Set up a low-friction ramp (adjust angle until car moves at constant speed after a gentle push). 2) Attach spring balance to car parallel to ramp; pull gently to maintain constant velocity (verified by data logger: equal distances in equal time intervals). 3) Record spring balance reading (applied force F_app). 4) Repeat with different constant speeds.  \n**Conclusion:** At constant velocity, F_app balances friction/drag; net force = 0. If F_app is non-zero but velocity constant, net force is still zero because friction adjusts. A poor answer uses a horizontal surface with no friction compensation, or measures acceleration instead of constant velocity, failing to isolate the zero-net-force condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

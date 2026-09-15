@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_006",
+   "title": "c11_ip_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\na = 5\nb = a\na = 7\nprint(a, b)\n```",
+     "a": "Output: `7 5`. The assignment `b = a` makes `b` refer to the same integer object `5` that `a` refers to. Integers are immutable, so `a = 7` rebinds `a` to a new object `7`; `b` still refers to `5`. A wrong answer of `7 7` reveals the misconception that variables are containers that copy values, or that `b` is an alias that follows `a`'s reassignment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when the statement `x = x + 1` is executed, assuming `x` was previously bound to the integer `3`.",
+     "a": "The expression `x + 1` is evaluated first, creating a new integer object `4`. Then the variable `x` is rebound to this new object `4`. The old object `3` remains unchanged (integers are immutable) and becomes eligible for garbage collection if no other references exist. A wrong explanation like \"the value inside x increases by 1\" reveals the container misconception — thinking the variable is a box whose content mutates, rather than a label moved to a new object.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output and explain the type of each variable after these statements:\n```python\np = 10\nq = 3.14\nr = \"Python\"\np, q, r = q, r, p\n```",
+     "a": "After the multiple assignment: `p` refers to `3.14` (float), `q` refers to `\"Python\"` (str), `r` refers to `10` (int). The right-hand side tuple `(q, r, p)` is evaluated first using the old values, then unpacked to the left-hand side variables simultaneously. A wrong answer that shows sequential reassignment (e.g., `p` becomes `3.14`, then `q` becomes `3.14` because `p` changed) reveals misunderstanding of simultaneous evaluation in multiple assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of the following two code fragments. Are they equivalent? Why or why not?\nFragment A:\n```python\nx = [1, 2]\ny = x\ny.append(3)\n```\nFragment B:\n```python\nx = [1, 2]\ny = x[:]\ny.append(3)\n```",
+     "a": "Not equivalent. In Fragment A, `y = x` makes `y` an alias for the same list object; `y.append(3)` mutates that shared object, so `x` becomes `[1, 2, 3]`. In Fragment B, `y = x[:]` creates a new list (shallow copy); `y.append(3)` mutates only the copy, leaving `x` as `[1, 2]`. A student who says they are equivalent confuses assignment (binding a new name to the same object) with copying (creating a new object). This reveals a critical gap in understanding reference semantics vs value semantics.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Python variables are dynamically typed, so I can change the type of a variable anytime.\" Critique this statement. Is it accurate? If not, rephrase it correctly.",
+     "a": "The statement is imprecise. Variables in Python have no type; *objects* have types. Dynamic typing means a variable can be rebound to objects of different types at different times. The variable itself never \"has a type\" that changes. Correct phrasing: \"In Python, a variable can refer to objects of any type, and the type of the object it refers to can change during execution.\" A student who defends the original statement conflates the variable with the object, a classic senior-secondary misconception that leads to confusion about type checking and `isinstance()`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short Python snippet (3-4 lines) that demonstrates dynamic typing in a way that would be impossible in a statically typed language like C or Java. Explain why your snippet works in Python but not in those languages.",
+     "a": "Example snippet:\n```python\ndata = 42\ndata = \"Answer\"\ndata = [1, 2, 3]\nprint(type(data))\n```\nIn Python, `data` is sequentially bound to an int, a str, and a list. In C/Java, a variable declared as `int` can only hold integers; assigning a string or array would be a compile-time error. A poor answer that only shows reassignment of same type (e.g., `x=5; x=10`) fails to demonstrate dynamic typing. A good answer must show binding to *different* types and explain that static typing fixes the variable's type at declaration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

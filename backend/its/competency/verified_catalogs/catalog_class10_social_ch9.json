@@ -1,0 +1,612 @@
+{
+ "class": "10",
+ "subject": "social_science",
+ "chapter": "9",
+ "chapter_title": "Agriculture",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess104.txt",
+ "concepts": [
+  {
+   "id": "c10ss.9.1",
+   "title": "Types of Farming",
+   "section": "Introduction",
+   "definition": "Farming in India is broadly classified into primitive subsistence farming, intensive subsistence farming, and commercial farming based on the purpose, scale, and level of technology used.",
+   "formula": "",
+   "key_idea": "Subsistence farming is practised to meet the needs of the farmer's family; commercial farming uses modern inputs and grows crops for the market.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between subsistence and commercial farming.",
+    "What is primitive subsistence farming and where is it practised?",
+    "Explain intensive subsistence farming with examples.",
+    "How does commercial farming differ from subsistence farming in inputs?",
+    "Why is shifting agriculture called primitive subsistence farming?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the farming type",
+     "explain": "Classify the described practice as primitive subsistence, intensive subsistence, or commercial farming."
+    },
+    {
+     "step": 2,
+     "action": "Compare purpose and inputs",
+     "explain": "Check whether the produce is for self-consumption or market and note the level of modern inputs used."
+    },
+    {
+     "step": 3,
+     "action": "State the conclusion",
+     "explain": "Conclude the farming type based on purpose, scale, and technology."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer in Assam grows rice on a small plot using family labour and consumes most of the produce. What type of farming is this?",
+     "solution": "The produce is mainly for self-consumption on a small holding with high labour input, which is intensive subsistence farming.",
+     "answer": "Intensive subsistence farming"
+    },
+    {
+     "question": "A large farm in Punjab uses tractors, HYV seeds, and chemical fertilisers to grow wheat for sale. Identify the farming type.",
+     "solution": "Modern inputs are used and the output is sold in the market, which is commercial farming.",
+     "answer": "Commercial farming"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between primitive and intensive subsistence farming.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example each of subsistence and commercial farming practised in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the purpose of production distinguishes subsistence from commercial farming.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.2",
+   "title": "Cropping Patterns",
+   "section": "Cropping Pattern",
+   "definition": "Cropping pattern refers to the proportion of area under different crops at a point of time. Major patterns include rabi, kharif, and zaid crops grown across different seasons.",
+   "formula": "",
+   "key_idea": "Rabi crops are sown in winter and harvested in spring; kharif crops are sown with the monsoon and harvested in autumn; zaid crops are grown in the short summer season.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three major cropping seasons in India?",
+    "Name two rabi and two kharif crops.",
+    "When are zaid crops grown and give examples.",
+    "How does the monsoon influence the kharif cropping pattern?",
+    "Differentiate between rabi and kharif cropping seasons."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cropping season",
+     "explain": "Determine whether the crop is rabi, kharif, or zaid from the sowing and harvest months."
+    },
+    {
+     "step": 2,
+     "action": "Match crops to the season",
+     "explain": "List typical crops associated with the identified season such as wheat for rabi and rice for kharif."
+    },
+    {
+     "step": 3,
+     "action": "Explain the climatic basis",
+     "explain": "Relate the season to rainfall and temperature requirements."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Wheat is sown in October-November and harvested in March-April. Which cropping season does it belong to?",
+     "solution": "Crops sown in winter and harvested in spring belong to the rabi season.",
+     "answer": "Rabi season"
+    },
+    {
+     "question": "Paddy is sown in June-July with the onset of the monsoon and harvested in September-October. Identify the cropping season.",
+     "solution": "Crops sown with the monsoon and harvested in autumn are kharif crops.",
+     "answer": "Kharif season"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two rabi and two kharif crops with their sowing seasons.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What are zaid crops? Give two examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how rainfall distribution determines the kharif cropping pattern in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.3",
+   "title": "Major Crop: Rice",
+   "section": "Major Crops",
+   "definition": "Rice is the staple food crop of a majority of the people of India. It requires high temperature (above 25 degrees C), high humidity, and annual rainfall above 100 cm.",
+   "formula": "",
+   "key_idea": "Rice is a kharif crop grown in the plains of north and north-eastern India, coastal areas, and deltaic regions; it is also grown in areas of less rainfall with irrigation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What climatic conditions are required for rice cultivation?",
+    "Name the major rice-producing states of India.",
+    "Why is rice grown in deltaic regions?",
+    "How is rice cultivation possible in regions of low rainfall?",
+    "Explain the geographical distribution of rice in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the climatic requirements",
+     "explain": "Note the temperature, rainfall, and humidity needed for rice."
+    },
+    {
+     "step": 2,
+     "action": "Identify producing regions",
+     "explain": "List the major states and deltaic/plains regions where rice is grown."
+    },
+    {
+     "step": 3,
+     "action": "Explain irrigation role",
+     "explain": "Describe how irrigation supports rice in low-rainfall areas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which temperature and rainfall are ideal for rice?",
+     "solution": "Rice needs above 25 degrees C temperature, high humidity, and above 100 cm annual rainfall.",
+     "answer": "Above 25 degrees C and above 100 cm rainfall"
+    },
+    {
+     "question": "Name two leading rice-producing states in India.",
+     "solution": "West Bengal and Uttar Pradesh are among the leading rice producers.",
+     "answer": "West Bengal and Uttar Pradesh"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the climatic conditions required for rice cultivation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is rice cultivation possible in Punjab despite low rainfall?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the distribution of rice production in India with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.4",
+   "title": "Major Crop: Wheat",
+   "section": "Major Crops",
+   "definition": "Wheat is the second most important cereal crop and the main food crop in north and north-western India. It requires a cool growing season and bright sunshine at the time of ripening.",
+   "formula": "",
+   "key_idea": "Wheat is a rabi crop needing 10-15 degrees C at sowing, 21-26 degrees C at harvest, and about 75 cm annual rainfall; major producers are Uttar Pradesh, Punjab, and Haryana.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the climatic requirements of wheat?",
+    "Name the major wheat-producing states of India.",
+    "Why is wheat grown as a rabi crop?",
+    "Compare the rainfall requirements of rice and wheat.",
+    "Explain the distribution of wheat in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the climatic requirements",
+     "explain": "Note the cool growing season and bright sunshine at ripening."
+    },
+    {
+     "step": 2,
+     "action": "Identify producing regions",
+     "explain": "List the major wheat-producing states in the north and north-west."
+    },
+    {
+     "step": 3,
+     "action": "Compare with rice",
+     "explain": "Contrast wheat's lower rainfall need with rice's higher requirement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What temperature range suits wheat cultivation?",
+     "solution": "Wheat needs 10-15 degrees C at sowing and 21-26 degrees C at harvest.",
+     "answer": "10-15 degrees C (sowing) to 21-26 degrees C (harvest)"
+    },
+    {
+     "question": "Name two leading wheat-producing states.",
+     "solution": "Uttar Pradesh and Punjab are leading wheat producers.",
+     "answer": "Uttar Pradesh and Punjab"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the climatic conditions required for wheat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is wheat mainly grown in northern India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare the geographical and climatic requirements of rice and wheat.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.5",
+   "title": "Millets and Pulses",
+   "section": "Major Crops",
+   "definition": "Millets (jowar, bajra, ragi) are coarse grains grown in dry regions with low rainfall. Pulses (tur, arhar, gram, urad) are leguminous crops that enrich soil fertility by fixing nitrogen.",
+   "formula": "",
+   "key_idea": "Millets are hardy crops suited to arid conditions; pulses are the major source of protein in the Indian diet and restore soil nitrogen.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are millets called coarse grains and where are they grown?",
+    "How do pulses help in maintaining soil fertility?",
+    "Name three important millets grown in India.",
+    "Which is the leading pulse-producing state in India?",
+    "Explain the nutritional importance of pulses."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the crop group",
+     "explain": "Classify the crop as a millet or a pulse from its description."
+    },
+    {
+     "step": 2,
+     "action": "State growing conditions",
+     "explain": "Note the rainfall and soil needs -- millets in dry regions, pulses in light soils."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe the nutritional or soil-fertility benefit of the crop group."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Ragi is grown in Karnataka. Which crop group does it belong to and why?",
+     "solution": "Ragi is a millet, a coarse grain suited to dry regions.",
+     "answer": "Millets"
+    },
+    {
+     "question": "How do pulses improve soil fertility?",
+     "solution": "Pulses are leguminous and fix atmospheric nitrogen in the soil, restoring fertility.",
+     "answer": "By fixing nitrogen in the soil"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three millets and one leading producing state for each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why pulses are called leguminous crops.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the importance of millets and pulses in Indian agriculture.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.6",
+   "title": "Food Crops vs Cash Crops",
+   "section": "Major Crops",
+   "definition": "Food crops (rice, wheat, millets, pulses) are grown to provide food grains; cash crops (cotton, jute, sugarcane, oilseeds, tea, coffee) are grown primarily for sale and industrial use.",
+   "formula": "",
+   "key_idea": "Food crops meet dietary needs while cash crops generate income and supply raw material to industries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between food crops and cash crops with examples.",
+    "Why are sugarcane and cotton called cash crops?",
+    "Name two cash crops and the industry linked to each.",
+    "How do cash crops contribute to the economy?",
+    "Give one example each of a food crop and a cash crop grown in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the crop",
+     "explain": "Decide whether the crop is a food crop or a cash crop based on its use."
+    },
+    {
+     "step": 2,
+     "action": "State the purpose",
+     "explain": "Explain whether the crop feeds people or is sold for industrial use."
+    },
+    {
+     "step": 3,
+     "action": "Link to industry where relevant",
+     "explain": "Connect cash crops to the industries they supply, such as cotton to textiles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is sugarcane a food crop or a cash crop? Justify.",
+     "solution": "Sugarcane is grown mainly for sale and supplies sugar mills, so it is a cash crop.",
+     "answer": "Cash crop"
+    },
+    {
+     "question": "Classify rice and cotton as food or cash crops.",
+     "solution": "Rice is a food crop grown for consumption; cotton is a cash crop grown for the textile industry.",
+     "answer": "Rice = food crop; cotton = cash crop"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between food crops and cash crops with two examples each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name a cash crop and the industry it supports.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the economic importance of cash crops in Indian agriculture.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.7",
+   "title": "Agricultural Development and Green Revolution",
+   "section": "Agricultural Development",
+   "definition": "Agricultural development means increasing farm output through modern inputs and technology. The Green Revolution introduced High Yielding Variety (HYV) seeds, chemical fertilisers, and irrigation to boost food grain production.",
+   "formula": "",
+   "key_idea": "The Green Revolution of the 1960s sharply increased wheat and rice production in India through HYV seeds and modern inputs, mainly in Punjab, Haryana, and western Uttar Pradesh.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by agricultural development?",
+    "Explain the main features of the Green Revolution.",
+    "Which crops benefited most from the Green Revolution and why?",
+    "Name the states where the Green Revolution had the greatest impact.",
+    "What inputs made the Green Revolution possible?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define agricultural development",
+     "explain": "Explain increasing production through modern inputs and technology."
+    },
+    {
+     "step": 2,
+     "action": "List Green Revolution inputs",
+     "explain": "Identify HYV seeds, chemical fertilisers, pesticides, and irrigation."
+    },
+    {
+     "step": 3,
+     "action": "State the impact",
+     "explain": "Describe the rise in wheat and rice output and the leading states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which two crops were most affected by the Green Revolution?",
+     "solution": "The Green Revolution mainly boosted wheat and rice production using HYV seeds.",
+     "answer": "Wheat and rice"
+    },
+    {
+     "question": "Name two states where the Green Revolution was most successful.",
+     "solution": "Punjab and Haryana adopted HYV seeds and irrigation most widely.",
+     "answer": "Punjab and Haryana"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the Green Revolution? List its main features.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did the Green Revolution succeed mainly in northern India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the positive and negative impacts of the Green Revolution.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.8",
+   "title": "Impact of Globalisation on Agriculture",
+   "section": "Impact of Globalisation on Agriculture",
+   "definition": "Globalisation has opened Indian agriculture to world markets, bringing new technology and export opportunities but also exposing farmers to competition from subsidised imports.",
+   "formula": "",
+   "key_idea": "Globalisation offers better prices and modern inputs for some crops, but small farmers face challenges due to reduced subsidies and competition with cheap imports.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How has globalisation affected Indian agriculture?",
+    "What are the benefits of globalisation for farmers?",
+    "What challenges do small farmers face due to globalisation?",
+    "Name two crops that benefit from export opportunities.",
+    "Explain the role of MSP in the context of globalisation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the effect",
+     "explain": "Determine whether the impact is positive (exports, technology) or negative (competition, lower subsidies)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism",
+     "explain": "Describe how world prices, imports, or technology reach Indian farmers."
+    },
+    {
+     "step": 3,
+     "action": "State the outcome",
+     "explain": "Summarise the benefit or challenge for the farmer."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has globalisation helped farmers growing cotton?",
+     "solution": "Cotton farmers can access export markets and modern technology, getting better prices.",
+     "answer": "Access to export markets and better prices"
+    },
+    {
+     "question": "What is a major challenge of globalisation for small farmers?",
+     "solution": "Small farmers face competition from cheap, subsidised imports and reduced domestic support.",
+     "answer": "Competition from subsidised imports"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain two positive effects of globalisation on Indian agriculture.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do small farmers find it difficult to compete in a globalised market?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the impact of globalisation on Indian agriculture with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.9",
+   "title": "Contribution of Agriculture to the Economy",
+   "section": "Contribution to National Economy",
+   "definition": "Agriculture is the backbone of the Indian economy, providing livelihood to about two-thirds of the population, supplying raw materials to industries, and contributing to exports.",
+   "formula": "",
+   "key_idea": "Agriculture supports food security, employment, industrial raw material, and export earnings; its share in GDP has declined but it remains the largest employer.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does agriculture contribute to the Indian economy?",
+    "What share of the population depends on agriculture for livelihood?",
+    "Name two industries that depend on agricultural raw materials.",
+    "Why is agriculture called the backbone of the economy?",
+    "Explain the role of agriculture in providing employment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the contributions",
+     "explain": "Note employment, food supply, raw materials, and exports."
+    },
+    {
+     "step": 2,
+     "action": "Link to industries",
+     "explain": "Connect farm output to agro-based industries such as textiles and sugar."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the role",
+     "explain": "State agriculture's overall importance to the economy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two industries that depend on agricultural raw materials.",
+     "solution": "The cotton textile industry and the sugar industry depend on agricultural raw materials.",
+     "answer": "Cotton textile and sugar industries"
+    },
+    {
+     "question": "Approximately what fraction of India's population depends on agriculture for a livelihood?",
+     "solution": "About two-thirds of the working population depends on agriculture.",
+     "answer": "About two-thirds"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how agriculture supports industries in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is agriculture still the largest employer despite its declining GDP share?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the contribution of agriculture to the Indian economy.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.9.10",
+   "title": "Sustainable Agriculture",
+   "section": "Sustainable Agriculture",
+   "definition": "Sustainable agriculture is farming that meets current food needs without compromising the ability of future generations to meet theirs, using practices that conserve soil, water, and biodiversity.",
+   "formula": "",
+   "key_idea": "Organic farming, crop rotation, mixed farming, and reduced chemical use protect natural resources and ensure long-term productivity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is sustainable agriculture?",
+    "Name two practices that promote sustainable agriculture.",
+    "How does organic farming help sustainability?",
+    "Why is crop rotation considered a sustainable practice?",
+    "Explain the need for sustainable agriculture in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sustainability",
+     "explain": "Explain meeting present needs without harming future productivity."
+    },
+    {
+     "step": 2,
+     "action": "List sustainable practices",
+     "explain": "Identify practices such as organic farming, crop rotation, and mixed farming."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe how the practice conserves soil, water, and biodiversity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give one example of a sustainable farming practice.",
+     "solution": "Crop rotation alternates crops to maintain soil fertility and reduce pests.",
+     "answer": "Crop rotation"
+    },
+    {
+     "question": "Why is reducing chemical fertiliser use part of sustainable agriculture?",
+     "solution": "Fewer chemicals preserve soil health and prevent water pollution.",
+     "answer": "It preserves soil health and prevents water pollution"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define sustainable agriculture and give two examples of related practices.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does organic farming contribute to sustainable agriculture?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the importance of sustainable agriculture for future food security.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

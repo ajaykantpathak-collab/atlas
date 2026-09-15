@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_005",
+   "title": "c10_chem_cbse_05_005",
+   "questions": [
+    {
+     "q": "State the Modern Periodic Law and explain why atomic number is a more fundamental property than atomic mass for classifying elements.",
+     "a": "The Modern Periodic Law: \"Properties of elements are a periodic function of their atomic numbers.\" Atomic number (Z) determines the number of protons and, in a neutral atom, the number of electrons, which directly governs chemical behavior. Atomic mass can vary due to isotopes and does not always increase uniformly with Z (e.g., Ar=39.9, K=39.1), causing anomalies in Mendeleev's table. A wrong answer that cites atomic mass as the basis reveals the student has not internalized the shift from Mendeleev's to the Modern Periodic Table.",
+     "self_check": true
+    },
+    {
+     "q": "An element X has atomic number 17. Write its electronic configuration and deduce its period and group in the Modern Periodic Table. Explain the reasoning.",
+     "a": "Electronic configuration of X (Z=17): 2, 8, 7. Highest shell number n=3 → Period 3. Valence electrons = 7 → Group 17 (halogens). Reasoning: Period = number of occupied shells; Group (for main-group) = valence electrons. A wrong answer giving Group 7 or Period 2 indicates confusion between old group numbering (I–VIII) and modern 1–18 numbering, or miscounting shells.",
+     "self_check": true
+    },
+    {
+     "q": "Given the atomic numbers of three elements: A=12, B=19, C=20. Identify which two belong to the same period and which two belong to the same group. Show the electronic configurations to justify.",
+     "a": "A (Z=12): 2,8,2 → Period 3, Group 2. B (Z=19): 2,8,8,1 → Period 4, Group 1. C (Z=20): 2,8,8,2 → Period 4, Group 2. Same period: B and C (Period 4). Same group: A and C (Group 2). A wrong pairing (e.g., A and B same period) shows the student cannot map electron shells to periods correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the positions of cobalt (Z=27) and nickel (Z=28) in Mendeleev's table versus the Modern Periodic Table. Why did Mendeleev place them in the order Ni, Co (based on atomic mass) while the Modern Table places Co before Ni?",
+     "a": "Mendeleev ordered by atomic mass: Co (58.93) > Ni (58.69), so he placed Ni before Co to maintain property similarities. Modern Table orders by atomic number: Co (Z=27) before Ni (Z=28). The anomaly arose because atomic mass does not always increase with Z. A student who says \"Mendeleev was wrong\" misses the point: Mendeleev prioritized chemical properties over strict mass order; the Modern Table resolves it by using Z, which uniquely defines the element.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since isotopes of an element have different atomic masses, they should occupy different positions in the Modern Periodic Table.\" Evaluate this statement.",
+     "a": "The claim is false. Isotopes have the same atomic number (same number of protons/electrons) but different mass numbers. The Modern Periodic Table is based on atomic number, so all isotopes of an element occupy the same position. A student who agrees reveals the misconception that atomic mass still governs position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-sorting activity for Class 9 students to discover that arranging elements by atomic number (not atomic mass) groups elements with similar properties together. List the minimum data each card must carry and the rule for sorting.",
+     "a": "Each card: Element symbol, Atomic Number (Z), Atomic Mass, and one key property (e.g., valence, metal/non-metal). Rule: Sort cards in increasing order of Z. Observe that elements with similar properties fall in vertical columns. A poor answer that sorts by atomic mass or omits Z shows the student hasn't grasped that Z is the sorting key.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

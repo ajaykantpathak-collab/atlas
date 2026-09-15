@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_13_008",
+   "title": "c10_engl_cbse_13_008",
+   "questions": [
+    {
+     "q": "What is the definition of situational irony as it applies to literature?",
+     "a": "Situational irony is a literary device where the actual outcome of a situation is the opposite of what is expected or considered appropriate, creating a contrast between appearance and reality. A wrong answer (e.g., \"irony is when something funny happens\" or \"irony is sarcasm\") reveals the student confuses situational irony with verbal irony or mere coincidence, missing the structural role of expectation-subversion in storytelling.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why Horace Danby's situation at the end of the story is an example of situational irony, not just bad luck.",
+     "a": "Horace expects to successfully steal the jewels and maintain his self-image as an honourable thief; instead, he is tricked by another thief into opening the safe for her, leaving his fingerprints and gaining nothing. This is irony because the reversal stems directly from his own traits (meticulousness, belief in honour) — not random chance. A wrong answer that calls it \"bad luck\" or \"coincidence\" shows the student misses the causal link between Horace's character and the ironic outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of situational irony to a new scenario: A cybersecurity expert who hacks systems to expose vulnerabilities is tricked by a \"client\" into revealing their own passwords. Identify the expectation, the reality, and the character trait that enables the irony.",
+     "a": "Expectation: The expert protects systems and outsmarts attackers. Reality: The expert's own security is breached by a social-engineering trap. Enabling trait: Overconfidence in technical skill while neglecting human vulnerability. A wrong answer that only describes the plot without naming the trait (e.g., \"he got hacked\") shows inability to transfer the structural pattern of irony to a new context.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the woman in red's deception creates a double layer of irony: she robs Horace, and she also robs the actual owners of Shotover Grange. Explain the relationship between these two ironies.",
+     "a": "First layer: Horace (thief) is robbed by another thief — irony of role reversal. Second layer: The woman poses as the lady of the house, so the real owners are robbed by an impostor claiming to be them — irony of identity theft. The layers compound: Horace's \"honour\" makes him vulnerable to the first irony, which enables the second. A wrong answer that treats them as separate events misses how the first irony structurally facilitates the second.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The irony in 'A Question of Trust' is merely a plot twist; it does not deepen the theme of honour among thieves.\" Defend your position with evidence.",
+     "a": "The irony is thematic, not just plot: Horace's belief in \"honour among thieves\" is exactly what the woman exploits — she knows a \"respectable\" thief won't betray a lady's trust. The irony proves the theme: there is no honour among thieves, only manipulation. A wrong answer agreeing with the statement reveals the student sees irony as decorative rather than thematic, a common board-exam error where students separate plot devices from theme.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence micro-story that uses situational irony to show a character's defining trait becoming their downfall, mimicking the Horace/woman-in-red dynamic.",
+     "a": "A meticulous food critic who prides himself on detecting fake ingredients is served a dish he praises as \"authentic\" — not knowing the chef substituted every ingredient with cheaper alternatives, having read the critic's own published guide on how to spot fakes. The critic's expertise (defining trait) becomes the blueprint for his deception. A poor answer that lacks a clear trait-exploitation structure (e.g., \"a critic gets food poisoning\") shows inability to construct irony intentionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_11",
+   "title": "c8_math_ch8_11",
+   "questions": [
+    {
+     "q": "What is the formula to calculate the discount amount when the marked price and discount percentage are given?",
+     "a": "Discount Amount = (Discount Percentage × Marked Price) ÷ 100. A wrong answer like \"Discount Amount = (Discount Percentage × Selling Price) ÷ 100\" reveals the student thinks discount is calculated on the selling price, confusing it with profit/loss percentage which is on cost price.",
+     "self_check": true
+    },
+    {
+     "q": "A shirt has a marked price of ₹800 and is sold at a discount of 15%. The shopkeeper says the discount amount is ₹120. Without calculating the exact discount, explain how you can quickly check if ₹120 is a reasonable answer using estimation.",
+     "a": "10% of ₹800 is ₹80, so 15% is ₹80 + ₹40 = ₹120. The answer is exactly correct. A student who cannot estimate 10% and 5% mentally shows they don't understand the fractional nature of percentages (10% = 1/10, 5% = 1/20) and rely only on the formula without number sense.",
+     "self_check": true
+    },
+    {
+     "q": "A pair of shoes is marked at ₹1,200. During a sale, a discount of 25% is offered. Calculate the selling price of the shoes.",
+     "a": "Step 1: Marked Price = ₹1,200, Discount % = 25%.\nStep 2: Discount Amount = (25 × 1200) ÷ 100 = 300.\nStep 3: Selling Price = Marked Price - Discount Amount = 1200 - 300 = ₹900.\nA wrong answer of ₹960 reveals the student calculated 20% discount (₹240) instead of 25%, or subtracted 20% from the marked price. A wrong answer of ₹300 reveals the student gave the discount amount instead of the selling price.",
+     "self_check": true
+    },
+    {
+     "q": "Two shops sell the same bicycle. Shop A marks it at ₹5,000 and offers a 20% discount. Shop B marks it at ₹4,800 and offers a 10% discount. Which shop gives a better deal? Explain your reasoning by comparing the final selling prices.",
+     "a": "Shop A: Discount = 20% of 5000 = ₹1000, Selling Price = ₹4000. Shop B: Discount = 10% of 4800 = ₹480, Selling Price = ₹4320. Shop A is better (₹4000 < ₹4320). A student who says Shop B because \"10% discount on a lower marked price\" or compares only discount percentages (20% vs 10%) without calculating final prices shows they don't understand that discount amount depends on both percentage AND marked price.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved this problem: \"A toy marked at ₹600 is sold for ₹540. Find the discount percentage.\" Their working: Discount = 600 - 540 = 60. Discount % = (60 ÷ 540) × 100 = 11.11%. Is this correct? If not, identify the error and give the correct answer.",
+     "a": "Incorrect. The error: discount percentage is always calculated on the marked price, not the selling price. Correct: Discount % = (60 ÷ 600) × 100 = 10%. A student who divides by selling price confuses discount percentage with profit/loss percentage (which uses cost price as base) and doesn't grasp that \"percentage of what\" changes the meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where a customer buys two different items with different marked prices and different discount percentages, but the discount amount (in rupees) is the same for both items. Provide the marked prices, discount percentages, and show the discount amount is equal.",
+     "a": "Example: Item 1: Marked Price = ₹1,000, Discount = 20% → Discount Amount = ₹200. Item 2: Marked Price = ₹500, Discount = 40% → Discount Amount = ₹200. A poor answer would use the same marked price or same discount percentage, showing the student doesn't understand the inverse relationship between marked price and discount percentage for a fixed discount amount.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

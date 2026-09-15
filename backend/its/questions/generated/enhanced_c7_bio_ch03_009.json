@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_009",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_009",
+   "title": "c7_bio_ch03_009",
+   "questions": [
+    {
+     "q": "What is the primary substance transported by the phloem tissue in plants?",
+     "a": "The primary substance transported by phloem is dissolved sugar (glucose/food) produced during photosynthesis. If a student answers \"water and minerals\", they are confusing phloem with xylem, missing the distinct functions of the two vascular tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Why is food transport in the phloem described as moving from a \"source\" to a \"sink\"?",
+     "a": "The \"source\" is where food is made or stored (like mature leaves or storage roots), and the \"sink\" is where food is consumed or stored for growth (like developing fruits, root tips, and young buds). A wrong answer stating that food only flows upwards from roots reveals a misunderstanding of photosynthesis and plant anatomy.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener peels a ring of bark off a mango tree branch, removing the phloem while leaving the inner wood intact. After a few weeks, the part of the branch just above the ring swells up and appears thick. Why does this swelling happen?",
+     "a": "Steps: 1. Identify that removing the bark removes the phloem tissue while xylem remains untouched. 2. Recall that phloem transports food downwards from the leaves. 3. Apply this to the scenario: food manufactured in the leaves travels down until it hits the blocked ring. 4. Conclude that sugars accumulate above the cut because they cannot pass through to the lower part of the branch, causing swelling. If a student thinks the branch swelled because of trapped water, they are ignoring the function of phloem in food transport.",
+     "self_check": true
+    },
+    {
+     "q": "How does the direction of transport in phloem differ fundamentally from transport in xylem?",
+     "a": "Xylem transports water and minerals almost exclusively in one direction (upwards from roots to leaves), driven by transpiration pull. In contrast, phloem can transport food in multiple directions—upwards to growing buds and downwards to roots or tubers—depending on where food is made and where it is needed. A wrong answer claiming both tissues transport substances in the same direction ignores the distinct physiological needs of different plant organs.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that during winter, when deciduous trees in northern India lose all their leaves, phloem transport completely stops throughout the entire plant. Evaluate this statement.",
+     "a": "The statement is false. While leaves (the primary source) are absent, plants store food in roots or stems (acting as temporary sources) during warmer months. In winter, this stored food can be mobilized and transported via phloem to support underground structures and prepare buds for spring, meaning phloem transport does not entirely cease. A wrong answer agreeing with the student shows a failure to recognize storage organs as alternative sources of food.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, non-destructive observation method to prove that sugary sap flows through the outer layers of a plant stem rather than the center.",
+     "a": "A good response suggests observing sap-sucking insects like aphids, which insert their mouthparts specifically into the outer bark (phloem) to feed on sugary sap, or examining a ringing experiment where the bark is carefully notched without cutting deep wood. A poor answer involves cutting down the entire plant or destroying the roots, which fails to isolate the vascular layers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

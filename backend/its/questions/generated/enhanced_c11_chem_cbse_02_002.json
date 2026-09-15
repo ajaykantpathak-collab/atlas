@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_002",
+   "title": "c11_chem_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the accepted value of the charge-to-mass ratio of an electron with its SI units.",
+     "a": "1.758820 × 10¹¹ C kg⁻¹. A wrong answer such as \"9.11 × 10⁻³¹ kg\" reveals confusion between the e/m ratio and the electron's mass alone; \"1.6 × 10⁻¹⁹ C\" reveals confusion with the elementary charge. Both indicate the student has not distinguished the ratio from its individual components.",
+     "self_check": true
+    },
+    {
+     "q": "In Thomson's experiment, the electric field is directed vertically upward and the magnetic field is directed horizontally into the page. The cathode ray beam travels horizontally from left to right. Using Fleming's left-hand rule, determine the direction of the magnetic force on the electrons and explain why the electric force must be in the opposite direction for the beam to pass undeflected.",
+     "a": "Electrons move left-to-right (conventional current right-to-left). Magnetic field into page. Fleming's left-hand rule: forefinger = field (into page), middle finger = conventional current (right-to-left), thumb = force (downward). So magnetic force pushes electrons downward. For no net deflection, the electric force must be upward. Since electrons are negative, Fₑ = eE is opposite to E; therefore E must be directed downward. A student who says the electric field should be upward has forgotten the negative sign of the electron charge — a very common sign error.",
+     "self_check": true
+    },
+    {
+     "q": "In a Thomson-type apparatus, the electric field strength is 2.00 × 10⁴ V m⁻¹ and the magnetic field strength is 0.0500 T. The beam passes undeflected. When the electric field is switched off, the beam follows a circular path of radius 0.0200 m. Calculate the charge-to-mass ratio of the electron from these data.",
+     "a": "Step 1: At null deflection, v = E/B = (2.00 × 10⁴)/(0.0500) = 4.00 × 10⁵ m s⁻¹.  \nStep 2: With only magnetic field, centripetal force: m v²/r = e v B → e/m = v/(B r).  \nStep 3: Substitute v = E/B → e/m = E/(B² r).  \nStep 4: e/m = (2.00 × 10⁴) / [(0.0500)² × 0.0200] = 2.00 × 10⁴ / (2.50 × 10⁻³ × 0.0200) = 2.00 × 10⁴ / (5.00 × 10⁻⁵) = 4.00 × 10⁸ C kg⁻¹.  \nWait — this is far from the accepted value! The discrepancy indicates either the given numbers are illustrative or the student must check units: E in V m⁻¹ = N C⁻¹, B in T = N s C⁻¹ m⁻¹, r in m → E/(B²r) has units C kg⁻¹. The calculation is correct for the given numbers; the example simply uses non-realistic data. A student who obtains 1.76 × 10¹¹ C kg⁻¹ has likely used the accepted value instead of the given data — an error of substituting known constants for experimental measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deflection of cathode rays in an electric field versus a magnetic field. Explain why the electric deflection is independent of the electron's velocity while the magnetic deflection depends on velocity.",
+     "a": "Electric force Fₑ = eE is constant for a given field, so acceleration a = eE/m is constant → deflection depends only on field strength and time in field (which is inversely proportional to velocity, but the total deflection angle ends up independent of velocity for a parallel-plate geometry). Magnetic force Fₘ = evB is proportional to velocity, so radius r = mv/(eB) is directly proportional to velocity. A student who claims both deflections depend on velocity has not analysed the force equations separately; this misconception often arises from thinking \"faster particles are harder to deflect\" without distinguishing the force laws.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the e/m ratio is constant for all electrons, Thomson's experiment proves that every electron has exactly the same charge and the same mass.\" Evaluate this statement.",
+     "a": "The statement is false. The experiment only measures the ratio e/m, not e or m individually. It is theoretically possible that different electrons have different charges and masses but the same ratio (though other experiments like Millikan's oil drop show charge is quantised and identical). A student who agrees has committed the logical fallacy of inferring individual constancy from ratio constancy — a subtle but important distinction in scientific reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using only a cathode ray tube, a variable DC power supply for the deflection plates, and a uniform magnetic field from a permanent magnet, to verify that the e/m ratio does not depend on the gas inside the tube.",
+     "a": "Evacuate the tube, fill it with hydrogen at low pressure, measure the null-deflection condition (E, B) and the magnetic-only radius r. Compute e/m = E/(B²r). Repeat with helium, neon, and argon at the same pressure. If the calculated e/m is identical within experimental error for all gases, the ratio is independent of the residual gas. A poor answer would only say \"change the gas and see if the spot moves\" without specifying the quantitative measurement of E, B, and r and the calculation of the ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

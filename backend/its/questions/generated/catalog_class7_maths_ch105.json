@@ -1,0 +1,296 @@
+{
+ "catalog": "catalog_class7_maths_ch105.json",
+ "concepts": [
+  {
+   "id": "gegp.5.1.1",
+   "title": "Linear Pairs of Angles",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 96 degrees, find the other.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 27 degrees; find the other.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 53 degrees and 178 degrees, find the remaining angle.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 70 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 91 degrees. Find its co-interior partner.",
+     "a": "89",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.1.2",
+   "title": "Vertically Opposite Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 41 gives 49",
+     "compute": "other = 90 - 41"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 41 degrees, find the other.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 57 degrees, find the other.",
+     "a": "123",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 35 degrees; find the other.",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 97 degrees and 175 degrees, find the remaining angle.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 79 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 131 degrees. Find its co-interior partner.",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.1",
+   "title": "Perpendicular Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 30 degrees, find the other.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 29 degrees, find the other.",
+     "a": "151",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 10 degrees; find the other.",
+     "a": "170",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 128 degrees and 116 degrees, find the remaining angle.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 30 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 93 degrees. Find its co-interior partner.",
+     "a": "87",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.1",
+   "title": "Parallel Lines",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
+     "compute": "other = 90 - 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 20 degrees, find the other.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 55 degrees, find the other.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 14 degrees; find the other.",
+     "a": "166",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 127 degrees and 56 degrees, find the remaining angle.",
+     "a": "177",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 68 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 137 degrees. Find its co-interior partner.",
+     "a": "43",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.6.1",
+   "title": "Corresponding Angles of Parallel Lines",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 39 gives 51",
+     "compute": "other = 90 - 39"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 39 degrees, find the other.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 71 degrees, find the other.",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 35 degrees; find the other.",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 38 degrees and 47 degrees, find the remaining angle.",
+     "a": "275",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 64 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 77 degrees. Find its co-interior partner.",
+     "a": "103",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.8.1",
+   "title": "Alternate Interior Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 49 gives 41",
+     "compute": "other = 90 - 49"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 49 degrees, find the other.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 48 degrees, find the other.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 48 degrees; find the other.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 134 degrees and 182 degrees, find the remaining angle.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 20 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 65 degrees. Find its co-interior partner.",
+     "a": "115",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.8.2",
+   "title": "Consecutive Interior Angles",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 16 degrees, find the other.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 37 degrees, find the other.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 44 degrees; find the other.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 73 degrees and 39 degrees, find the remaining angle.",
+     "a": "248",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 65 degrees. Find its co-interior partner.",
+     "a": "115",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

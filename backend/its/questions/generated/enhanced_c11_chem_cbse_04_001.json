@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_001",
+   "title": "c11_chem_cbse_04_001",
+   "questions": [
+    {
+     "q": "Write the Lewis symbol for phosphorus (atomic number 15) and state its group valence according to the Kossel-Lewis approach.",
+     "a": "Phosphorus (Z=15) has electron configuration 2,8,5 → 5 valence electrons. Lewis symbol: P with 5 dots (one on each of four sides, one paired). Group valence = 5 (or 8-5 = 3). A wrong answer (e.g., 3 dots or valence 5 only) reveals confusion between valence electron count and group valence calculation, or misunderstanding that group valence can be either dots or 8-dots.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Lewis structure of CO₂ shows double bonds (O=C=O) rather than single bonds (O–C–O) with lone pairs on carbon, even though both satisfy the octet rule for oxygen.",
+     "a": "In O–C–O with single bonds, carbon would have only 4 electrons (incomplete octet) unless it carries two lone pairs, but then carbon would have 10 electrons (expanded octet, not allowed for period 2). Double bonds give each atom an octet: C has 4 bonding pairs (8 e⁻), each O has 2 bonding + 2 lone pairs (8 e⁻). A wrong answer suggests the student thinks any octet-satisfying structure is acceptable without checking all atoms simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the Lewis structure of the nitrite ion (NO₂⁻) and calculate the formal charge on each atom. Show all steps including total valence electron count.",
+     "a": "Step 1: Valence e⁻ = N(5) + 2×O(6) + 1 (charge) = 18 e⁻. Step 2: Skeleton O–N–O. Step 3: Single bonds use 4 e⁻, remaining 14 e⁻ as lone pairs (6 on each terminal O, 2 on N). Step 4: N has only 6 e⁻ → form double bond with one O. Structure: O=N–O⁻ with resonance. Formal charge: double-bonded O = 6 - 4 - ½(4) = 0; single-bonded O = 6 - 6 - ½(2) = -1; N = 5 - 2 - ½(6) = 0. Wrong formal charges indicate miscounting bonding/non-bonding electrons or using wrong formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Lewis structures of BF₃ and PF₃. Why does BF₃ have an incomplete octet on boron while PF₃ obeys the octet rule, even though both central atoms are in group 13/15 respectively?",
+     "a": "Boron (Group 13) has only 3 valence electrons → forms 3 single bonds (6 e⁻ around B), incomplete octet. Phosphorus (Group 15) has 5 valence electrons → forms 3 single bonds + 1 lone pair (8 e⁻), complete octet. The difference arises from available valence electrons, not just group position. A student who says \"both are period 2/3 so both expand octet\" confuses period with valence electron count; B cannot expand octet (no d orbitals), P can but doesn't need to here.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the Lewis structure of SO₂ as O=S=O with two double bonds and no lone pairs on sulfur. Evaluate this structure using formal charge and octet rule. Is it the best representation?",
+     "a": "Proposed structure: S has 4 bonding pairs (8 e⁻), each O has 2 bonding + 2 lone pairs (8 e⁻). Formal charges: S = 6 - 0 - ½(8) = +2; each O = 6 - 4 - ½(4) = 0. Net charge 0 but S has +2. Better structure: one double bond, one single bond with lone pair on S, resonance hybrid. Formal charges: S = 6 - 2 - ½(6) = +1; double-bonded O = 0; single-bonded O = -1. Lower formal charges → more stable. Student's structure violates \"lowest formal charge\" principle despite satisfying octet.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Lewis structure for a hypothetical molecule XCl₄ where X is a period 3 element that forms four single bonds and has zero formal charge. Identify X and draw the structure showing all lone pairs.",
+     "a": "X must have 4 valence electrons to form 4 single bonds with zero lone pairs → Group 14 element in period 3 = Silicon (Si). Total valence e⁻ = Si(4) + 4×Cl(7) = 32 e⁻. Structure: Si central, four Cl terminals, four Si–Cl single bonds (8 e⁻), remaining 24 e⁻ as 3 lone pairs on each Cl (6 e⁻ each). Si has 4 bonding pairs (8 e⁻), formal charge = 4 - 0 - ½(8) = 0. Each Cl = 7 - 6 - ½(2) = 0. Correct answer shows understanding of valence, octet, and formal charge simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

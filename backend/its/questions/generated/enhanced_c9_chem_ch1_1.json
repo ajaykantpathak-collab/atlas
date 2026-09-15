@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_1",
+   "title": "c9_chem_ch1_1",
+   "questions": [
+    {
+     "q": "Define a mixture and state the two main types. Give one example of each type from daily life.",
+     "a": "A mixture is a physical combination of two or more substances retaining their individual properties. The two main types are homogeneous (e.g., salt water) and heterogeneous (e.g., oil and water). A wrong answer (e.g., \"mixture is a chemical combination\" or \"types are solid and liquid\") reveals confusion between physical vs chemical combination and between states of matter vs mixture classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a solution of copper sulphate in water is homogeneous while a mixture of chalk powder in water is heterogeneous. Use the concept of particle size in your answer.",
+     "a": "Copper sulphate dissolves as Cu²⁺ and SO₄²⁻ ions (<1 nm), forming a single-phase uniform mixture. Chalk powder (CaCO₃) particles are >1000 nm, remain as separate solid phase, settle down, and make the mixture non-uniform. A wrong answer (e.g., \"copper sulphate is blue so it's homogeneous\") reveals reliance on color instead of particle size and phase uniformity as the defining criteria.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three beakers: A (milk), B (air), C (blood). Classify each as homogeneous or heterogeneous mixture. Justify each classification using particle size and phase behavior.",
+     "a": "A (milk): Heterogeneous (colloid) — fat globules ~100-1000 nm, shows Tyndall effect, separable by centrifugation. B (air): Homogeneous — gas molecules <1 nm, uniform composition, single phase. C (blood): Heterogeneous (colloid/suspension) — cells ~µm size, settles on standing, shows Tyndall effect. A wrong classification (e.g., \"milk is homogeneous because it looks uniform\") reveals the misconception that visual uniformity alone defines homogeneity, ignoring particle size and Tyndall effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stability, filtration behavior, and Tyndall effect of a true solution (homogeneous) and a suspension (heterogeneous). Present your answer in a table.",
+     "a": "| Property | True Solution (Homogeneous) | Suspension (Heterogeneous) |\n|---|---|---|\n| Stability | Stable, no settling | Unstable, particles settle |\n| Filtration | Passes through filter paper | Residue left on filter paper |\n| Tyndall Effect | Not shown | May show (if particles large enough to scatter) |\nA wrong table (e.g., claiming solution shows Tyndall effect) reveals confusion between colloids and true solutions, and misunderstanding that Tyndall effect requires particles >40 nm.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All transparent mixtures are homogeneous, and all opaque mixtures are heterogeneous.\" Evaluate this statement with two counterexamples.",
+     "a": "The statement is false. Counterexample 1: Milk is opaque but is a colloid (heterogeneous at microscopic level) — however, some colloids like gelatin can be transparent yet heterogeneous (particle size 1-1000 nm). Counterexample 2: Air is transparent and homogeneous; but a very dilute suspension of fine clay in water may appear slightly translucent yet is heterogeneous. A wrong evaluation (agreeing with the statement) reveals the misconception that optical transparency equals homogeneity, ignoring particle size criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a flashlight, filter paper, and a stand to distinguish between three unknown mixtures: sugar solution, starch solution, and sand-water mixture. Write the procedure and expected observations.",
+     "a": "Procedure: 1) Shine flashlight through each mixture in a dark room — observe Tyndall effect. 2) Filter each mixture — observe residue. Expected: Sugar solution — no Tyndall effect, no residue (homogeneous). Starch solution — shows Tyndall effect (colloid), no residue (passes filter). Sand-water — may show Tyndall effect, sand residue on filter (heterogeneous suspension). A poor design (e.g., only testing filtration) reveals inability to use multiple properties (Tyndall + filtration) for complete classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

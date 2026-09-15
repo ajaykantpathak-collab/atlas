@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_003",
+   "title": "c12_bs_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define supervision in the context of directing. How does it differ from the general meaning of \"watching over someone\"?",
+     "a": "Supervision as an element of directing is the process of guiding efforts of employees and other resources to accomplish desired objectives by overseeing work and giving instructions for optimum resource utilisation and target achievement. It differs from general \"watching\" because it includes active guidance, instruction, feedback, and resource optimisation — not passive observation. A wrong answer that equates supervision with mere monitoring reveals the student misses the instructional and developmental dimension central to the NCERT definition.",
+     "self_check": true
+    },
+    {
+     "q": "A factory foreman spends his entire day sitting in a cabin reviewing production reports on a computer. He rarely visits the shop floor. Workers say they \"never see him.\" According to NCERT, which specific importance of supervision is being violated, and why does this weaken the directing function?",
+     "a": "The foreman violates importance point (i): \"Supervisor maintains day-to-day contact and maintains friendly relations with workers\" and point (iv): \"Supervisor ensures performance of work according to targets set.\" Without physical presence, he cannot guide, give on-the-job training, resolve conflicts, or motivate — making directing ineffective. A wrong answer citing only \"lack of communication\" misses that supervision requires physical, operational proximity to workers, not just information flow.",
+     "self_check": true
+    },
+    {
+     "q": "In a textile mill, the supervisor notices that workers in the dyeing section frequently argue over shift-change procedures, causing 30-minute delays daily. She redesigns the handover checklist, holds a 15-minute joint briefing, and assigns a \"shift buddy\" for new workers. After two weeks, delays drop to 5 minutes. Identify which TWO of the seven importance points this action primarily demonstrates, and justify with evidence from the scenario.",
+     "a": "Points (iii) \"Supervisor plays a key role in maintaining group unity among workers... sorts out internal differences and maintains harmony\" and (vii) \"A good supervisor analyses the work performed and gives feedback... suggests ways and means of developing work skills.\" The checklist and briefing resolve conflicts (unity) and the buddy system develops skills (feedback/training). A wrong answer picking only \"ensures performance\" misses the interpersonal and developmental dimensions explicitly highlighted in the scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the supervisor's role as a \"link between workers and management\" (importance point ii) with the communication function (node c12_bs_cbse_07_004). Are they the same? If not, how does the supervisor's linking role differ from formal communication channels?",
+     "a": "They are distinct. The supervisor's linking role is personal, informal, and bidirectional — conveying management ideas to workers AND worker problems to management through direct human interaction. Formal communication (c12_bs_cbse_07_004) follows official channels, is recorded, and flows through hierarchy. The supervisor translates, filters, and adds context that formal channels cannot. A wrong answer equating them ignores that the supervisor's link is relational and interpretive, not just transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a supervisor ensures all seven importance points are met, leadership (c12_bs_cbse_07_006) and motivation (c12_bs_cbse_07_007) become unnecessary for that work group.\" Defend or refute with reasoning grounded in the NCERT text.",
+     "a": "Refute. Point (vi) states \"Supervisory leadership plays a key role in influencing workers... builds high morale\" — leadership is embedded IN supervision, not separate from it. Point (iv) says the supervisor \"motivates his workers effectively\" — motivation is a supervisory action, not a substitute. The seven points describe HOW a supervisor leads and motivates; they do not replace the need for leadership qualities or motivational techniques. A wrong answer agreeing reveals confusion between the supervisory role and the broader functions of directing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic 3-sentence workplace scenario where a supervisor FAILS at exactly ONE of the seven importance points while succeeding at the other six. Identify the failed point and explain the likely consequence.",
+     "a": "Scenario: \"Ramesh, a warehouse supervisor, expertly trains new loaders (v), resolves shift disputes (iii), hits daily dispatch targets (iv), gives precise feedback on stacking techniques (vii), maintains friendly rapport (i), and relays management's safety updates clearly (ii). However, he never advocates for the workers' request for anti-fatigue mats despite repeated complaints of back pain.\" Failed point: (ii) link between workers and management — specifically the upward communication of worker problems. Consequence: Workers lose trust, morale drops, absenteeism rises, and the \"friendly rapport\" (i) erodes because the link is one-way. A poor answer that picks a vague failure like \"doesn't motivate\" shows inability to map specific behaviours to specific NCERT points.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

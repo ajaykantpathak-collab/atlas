@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_001",
+   "title": "c12_hist_cbse_12_001",
+   "questions": [
+    {
+     "q": "In which month and year did the Constituent Assembly hold its first session, and under what plan was it constituted?",
+     "a": "The Constituent Assembly held its first session on 9 December 1946, constituted under the Cabinet Mission Plan (May 1946) which provided for indirect election by provincial legislatures. A wrong answer (e.g., \"August 1947\" or \"direct election\") reveals confusion between the Assembly's formation and Independence, or misunderstanding of the limited franchise — students often assume universal adult suffrage existed in 1946, but the 1935 Act electorate covered only 10–15% of adults.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Muslim League boycott the Constituent Assembly, and how did this affect the Assembly's composition and perceived legitimacy?",
+     "a": "The Muslim League boycotted the Assembly (June 1946 onwards) demanding a separate Constituent Assembly for Pakistan, leaving the Congress with 82% of seats. This created a legitimacy deficit: the Assembly lacked the League's participation, making claims to represent \"all Indians\" contested. A wrong answer focusing only on \"Congress dominance\" misses the structural cause — the Cabinet Mission's grouping scheme failed, and the League's withdrawal turned the Assembly into a de facto Congress body, forcing it to negotiate minority rights without the main minority party present.",
+     "self_check": true
+    },
+    {
+     "q": "Nehru's Objectives Resolution (13 Dec 1946) proclaimed India an \"Independent Sovereign Republic\" but omitted the word \"democratic.\" Using Nehru's own explanation (Source 1), explain why he considered this omission deliberate and not a dilution of democratic commitment.",
+     "a": "Nehru argued \"republic\" inherently contains \"democratic\" — a republic cannot be undemocratic — and the Resolution gave democracy's *content* (justice, equality, freedom, economic democracy) rather than just the label. He explicitly stated: \"We have given the content of democracy in this Resolution and not only the content of democracy but the content, if I may say so, of economic democracy.\" A wrong answer claiming Nehru avoided \"democratic\" to appease socialists or British misses his own words: he wanted to avoid \"redundant words\" while embedding substantive democratic and socialist principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare B. Pocker Bahadur's argument for separate electorates (Source 3) with Sardar Patel's and Govind Ballabh Pant's counter-arguments (Sources 3, 4). Identify the core philosophical disagreement about *how* minorities should be represented in a democracy.",
+     "a": "Bahadur argued minorities need *institutional separation* (separate electorates) to ensure their distinct voices are heard, as non-minorities cannot understand minority needs. Patel and Pant countered that separate electorates *politically isolate* minorities, making them perpetual minorities unable to integrate into the national mainstream; Pant called it \"suicidal\" because isolated minorities \"can never convert themselves into a majority.\" The core disagreement: representation via *communal separateness* vs. representation via *citizen integration*. A wrong answer reducing this to \"Hindu vs Muslim\" misses the constitutional theory — Patel invoked \"no free country with separate electorates,\" Pant invoked \"citizen as base and summit of social pyramid.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate N.G. Ranga's critique (Source 6) that the Objectives Resolution's \"minority\" safeguards ignored the \"real minorities — the masses.\" How does this critique expose a tension between *political* and *economic* conceptions of minority rights in the Assembly?",
+     "a": "Ranga redefined \"minority\" economically: the poor, tribals, villagers exploited by moneylenders, landlords, merchants — groups *numerically* majority but *structurally* powerless. He argued legal rights (civil liberties) are meaningless without material \"props\" and \"ladders\" (protection from exploitation). This exposes the tension: the Resolution focused on *communal/religious* minorities (Muslims, Sikhs) while Ranga demanded *class/caste* minorities (poor, tribals, Dalits) be centred. A weak evaluation treats this as mere \"socialist rhetoric\"; a strong one notes Ranga's point foreshadowed Directive Principles (node 007) and the Reservation debates (nodes 009, 010) — the Assembly *did* eventually address economic justice, but through different mechanisms than separate electorates.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (9 Dec 1946 – 26 Jan 1950) marking: (a) Constituent Assembly's first session, (b) Objectives Resolution, (c) Independence/Partition, (d) Drafting Committee formation, (e) Constitution adoption, (f) Constitution commencement. Annotate each with *one* way the external political situation (Partition violence, British withdrawal, princely states integration) shaped the Assembly's internal debates.",
+     "a": "Timeline: (a) 9 Dec 1946 — First session; League boycott already announced, Assembly meets amid Cabinet Mission collapse. (b) 13 Dec 1946 — Objectives Resolution; Nehru references \"tryst with destiny\" while Partition looms. (c) 14–15 Aug 1947 — Independence/Partition; Assembly becomes sovereign body, but violence and refugee crisis push debates toward strong Centre (node 005). (d) 29 Aug 1947 — Drafting Committee formed under Ambedkar; Partition violence accelerates centralisation consensus. (e) 26 Nov 1949 — Constitution adopted; princely states integration (Patel's work) influences federalism provisions. (f) 26 Jan 1950 — Commencement; chosen to mark 1930 Purna Swaraj pledge. A poor timeline lists dates without causal links; a good one shows how *each external crisis* (Partition, violence, princely states) narrowed debate options and strengthened centralising tendencies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

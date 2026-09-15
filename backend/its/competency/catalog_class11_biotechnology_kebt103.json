@@ -1,0 +1,406 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 3,
+ "chapter_title": "Biomolecules",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt103.1",
+   "title": "Classification of Carbohydrates",
+   "section": "3.1",
+   "definition": "Sugars are ranked by how many single-sugar units they carry: monosaccharides are the indivisible simple sugars fitting Cn(H2O)n, oligosaccharides join two to ten units through glycosidic bonds, and polysaccharides chain together more than ten; sugars conjugated to proteins or lipids form glycoproteins, proteoglycans and glycolipids.",
+   "formula": "-",
+   "key_idea": "Count the building blocks to name the class, and note which partner the sugar carries when it decorates another macromolecule.",
+   "textbook_ref": "kebt103.txt section 3.1, Table 3.1",
+   "question_patterns": [
+    "describe the classification of carbohydrates into monosaccharides oligosaccharides and polysaccharides",
+    "give the general formula of a monosaccharide and name one aldose and one ketose hexose",
+    "which class of carbohydrate do maltose lactose and sucrose belong to - justify",
+    "differentiate a glycoprotein from a proteoglycan and from a glycolipid",
+    "name the two monosaccharides obtained when sucrose is hydrolysed by boiling with dilute acid",
+    "list the triose tetrose pentose and hexose members of the monosaccharide table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the sugar units",
+     "explain": "One unit is a monosaccharide, two to ten make an oligosaccharide, more than ten a polysaccharide."
+    },
+    {
+     "step": 2,
+     "action": "note the functional group",
+     "explain": "Aldoses carry a free aldehyde group, ketoses a ketone group; both also bear hydroxyl groups."
+    },
+    {
+     "step": 3,
+     "action": "check for conjugation",
+     "explain": "Protein-dominant conjugates are glycoproteins, carbohydrate-dominant ones proteoglycans, lipid conjugates glycolipids."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sugar chains of more than ten units joined by glycosidic bonds are called what?",
+     "a": "polysaccharides"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.2",
+   "title": "Stereoisomers, Anomers and Epimers of Sugars",
+   "section": "3.1",
+   "definition": "Every asymmetric carbon doubles the possible spatial forms of a sugar, so n chiral centres allow 2 raised to n stereoisomers; glucose alone thus has sixteen, ring closure creates alpha and beta anomers that interconvert by mutarotation, and sugars differing at a single carbon such as mannose at C-2 or galactose at C-4 are epimers.",
+   "formula": "stereoisomers = 2 ** chiral_centres",
+   "key_idea": "Two to the power of chiral centres counts all stereoisomers; one differing carbon makes epimers, one differing anomeric carbon makes anomers.",
+   "textbook_ref": "kebt103.txt section 3.1(b), Figs. 3.3-3.5",
+   "question_patterns": [
+    "glucose contains four chiral centres - how many stereoisomers does that allow",
+    "why does glyceraldehyde give only two stereoisomers while glucose gives sixteen",
+    "define anomers and explain what happens during mutarotation of glucose in water",
+    "name the two most important epimers of glucose and the carbon atom at which each differs",
+    "what decides whether a sugar belongs to the D or the L series",
+    "why are almost all sugars of biological systems the D form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the chiral centres",
+     "explain": "Locate carbons bonded to four different groups; glyceraldehyde has one, glucose four."
+    },
+    {
+     "step": 2,
+     "action": "raise two to that power",
+     "explain": "Each chiral centre doubles the number of spatial arrangements.",
+     "compute": "stereoisomers = 2 ** chiral_centres"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many stereoisomers do glucose's four chiral centres allow?",
+     "a": "16"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.3",
+   "title": "Storage and Structural Polysaccharides",
+   "section": "3.1",
+   "definition": "Long sugar chains either bank energy or build bodies: starch in plants blends about 15-20 percent unbranched amylose with the rest being branched amylopectin, glycogen serves the same fuel role in animals, while cellulose and chitin supply load-bearing walls and exoskeletons; humans cannot digest cellulose for lack of cellulase, though cattle gut microbes can.",
+   "formula": "amylopectin_pct = 100 - amylose_pct",
+   "key_idea": "Subtract the amylose fraction from 100 to price the branched amylopectin fraction of starch.",
+   "textbook_ref": "kebt103.txt section 3.1(c), Table 3.2, Box 1",
+   "question_patterns": [
+    "starch contains 15 to 20 percent amylose - what percent range does amylopectin occupy",
+    "differentiate amylose from amylopectin with reference to branching and linkage type",
+    "why can cattle digest cellulose while humans cannot",
+    "which polysaccharide turns blue with iodine and which gives a dull reddish brown shade",
+    "name the homopolysaccharide that stiffens the insect exoskeleton and its repeating unit",
+    "how does lysozyme in tears kill bacteria - answer with the bond it hydrolyses in peptidoglycan",
+    "where do branch points occur in amylopectin and which linkage joins them"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the amylose share",
+     "explain": "Amylose makes up 15-20 percent of natural starch.",
+     "compute": "amylose_mid = 17.5"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "The remaining starch fraction is branched amylopectin.",
+     "compute": "amylopectin_pct = 100 - amylose_mid"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Starch's unbranched component is called what: amylose or amylopectin?",
+     "a": "amylose"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.4",
+   "title": "Fatty Acid Notation and Unsaturation",
+   "section": "3.2",
+   "definition": "Fatty chains are written carbon-count colon double-bond-count, with delta superscripts fixing where the unsaturation falls, so 18:2 (delta 9,12) is linoleic acid; being assembled from two-carbon pieces, natural chains carry even carbon totals, and each double bond removes two hydrogens from the saturated formula.",
+   "formula": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds",
+   "key_idea": "Decode the notation to read chain length and unsaturation; every double bond costs two hydrogens.",
+   "textbook_ref": "kebt103.txt section 3.2, Table 3.3, Figs. 3.11-3.12",
+   "question_patterns": [
+    "expand the notation 18:2 (delta 9,12) - name the acid and locate its double bonds",
+    "a fatty acid has 18 carbons and two double bonds - how many hydrogen atoms does its acyclic formula hold",
+    "why do naturally occurring fatty acids always contain an even number of carbon atoms",
+    "differentiate monounsaturated from polyunsaturated fatty acids with one named example of each",
+    "write the shorthand symbols of palmitic oleic and arachidonic acids",
+    "numbering from the carboxyl carbon which carbons carry the double bonds in linolenic acid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the saturated hydrogen count",
+     "explain": "An acyclic saturated chain of n carbons carries 2n hydrogens.",
+     "compute": "saturated_h = 2 * carbon_count"
+    },
+    {
+     "step": 2,
+     "action": "remove two per double bond",
+     "explain": "Each unsaturation replaces two C-H pairs with a C=C link.",
+     "compute": "hydrogen_atoms = saturated_h - 2 * double_bonds"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In fatty acid notation 18:2, what does the 2 count: double bonds or carbons?",
+     "a": "double bonds"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.5",
+   "title": "Lipid Classes from Triacylglycerol to Steroids",
+   "section": "3.2",
+   "definition": "Simple lipids are plain fatty-acid esters - triacylglycerols bank energy in adipose tissue and waxes coat surfaces - while compound lipids add extra groups, as in amphipathic phospholipids whose two tails and phosphate head build membranes, and steroids whose four fused rings include cholesterol, the precursor of steroid hormones.",
+   "formula": "-",
+   "key_idea": "Ester linkages join fatty chains to glycerol; amphipathic heads-and-tails make membranes, fused rings make steroids.",
+   "textbook_ref": "kebt103.txt section 3.2, Figs. 3.13-3.15",
+   "question_patterns": [
+    "why are membrane lipids called amphipathic - explain using the phospholipid structure",
+    "differentiate simple lipids from compound lipids with two examples of each",
+    "what distinguishes a sphingolipid backbone from a glycerophospholipid backbone",
+    "which bond joins fatty acids to glycerol in a triacylglycerol",
+    "why is cholesterol called the precursor of steroid hormones and where is it synthesised",
+    "what is a micelle and when do phospholipids form one",
+    "which lipid stores energy in adipose tissue and which forms the protective coating on tropical leaves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort by simplicity",
+     "explain": "Esters of fatty acids with alcohols and nothing else are simple lipids; added groups make them compound lipids."
+    },
+    {
+     "step": 2,
+     "action": "inspect the backbone",
+     "explain": "Glycerol backs glycerophospholipids; a sphingoid base backs sphingolipids joined by amide linkage."
+    },
+    {
+     "step": 3,
+     "action": "check the ring count",
+     "explain": "Four fused rings identify steroids such as cholesterol, phytosterols and ergosterol."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which lipid class banks energy in adipose tissue: triacylglycerol or cholesterol?",
+     "a": "triacylglycerol"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.6",
+   "title": "Amino Acids and the Zwitterion",
+   "section": "3.3",
+   "definition": "Each of the twenty standard amino acids is a central alpha carbon holding a carboxyl group, an amino group, a hydrogen and a variable side chain; at physiological pH proton transfer leaves the molecule dipolar - a zwitterion - and only L forms enter proteins.",
+   "formula": "-",
+   "key_idea": "Only the R group changes across the twenty standards; ionised plus and minus poles make the zwitterion.",
+   "textbook_ref": "kebt103.txt section 3.3, Table 3.4, Figs. 3.16-3.23",
+   "question_patterns": [
+    "what is a zwitterion - draw its structure for glycine",
+    "name the four groups attached to the alpha carbon of an amino acid",
+    "classify the twenty standard amino acids on the basis of their R groups",
+    "which amino acid has the simplest side chain and which has a methyl side chain",
+    "differentiate non-standard amino acids from non-protein amino acids with examples",
+    "why do only L isomers of amino acids occur in proteins",
+    "how are the carbons of lysine numbered using Greek letters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the backbone",
+     "explain": "Central carbon with COOH, NH2, H and R group; the alpha carbon of most amino acids is asymmetric."
+    },
+    {
+     "step": 2,
+     "action": "ionise at pH 7",
+     "explain": "The proton shifts from carboxyl to amino group giving COO- and NH3+ - the zwitterion."
+    },
+    {
+     "step": 3,
+     "action": "sort by side chain",
+     "explain": "Groups run from non-polar aliphatic and aromatic through polar uncharged to positively and negatively charged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many standard amino acids enter proteins?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.7",
+   "title": "Peptide Bonds and Protein Structure Levels",
+   "section": "3.4",
+   "definition": "Coupling the carboxyl of one amino acid to the amino of the next forges a peptide bond with a water molecule lost at every link, so a chain of n residues holds n-1 such bonds; folding then stacks four levels - primary sequence, secondary alpha helix or beta sheet, tertiary packing with disulfide and hydrophobic ties, and quaternary assembly of subunits.",
+   "formula": "peptide_bonds = residues - 1",
+   "key_idea": "One water leaves per bond, so subtract one from the residue count for bonds; multiply residues by 110 Da to size the protein.",
+   "textbook_ref": "kebt103.txt section 3.4, Box 2, Figs. 3.24-3.28",
+   "question_patterns": [
+    "how many peptide bonds form and how many water molecules are lost when eight amino acids join into an octapeptide",
+    "estimate the molecular weight of a polypeptide of 150 residues taking 110 Da per residue",
+    "name the four levels of protein structure and one stabilising force at each level",
+    "compare the hydrogen bonding pattern of an alpha helix with that of a beta pleated sheet",
+    "why cannot the peptide bond rotate freely - answer with its double bond character",
+    "what do the phi and psi angles specify and who proposed the plot that maps their allowed values",
+    "when do two identical subunits form a homodimer and what else can stabilise a quaternary structure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the links",
+     "explain": "A linear chain of n residues needs n-1 condensations.",
+     "compute": "peptide_bonds = residues - 1"
+    },
+    {
+     "step": 2,
+     "action": "weigh the water lost",
+     "explain": "Each condensation releases one water of 18 Da.",
+     "compute": "water_lost = peptide_bonds * 18"
+    },
+    {
+     "step": 3,
+     "action": "size the protein",
+     "explain": "The mean residue mass is about 110 Da.",
+     "compute": "protein_mass = residues * 110"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many peptide bonds does a chain of 50 residues hold?",
+     "a": "49"
+    }
+   ]
+  },
+  {
+   "id": "kebt103.8",
+   "title": "Nucleic Acids and the Double Helix",
+   "section": "3.5",
+   "definition": "Nucleotides - a nitrogenous base plus pentose sugar plus phosphate - string together through phosphodiester links into DNA or RNA; Watson and Crick wound two antiparallel strands into a right-handed double helix where adenine pairs thymine over two hydrogen bonds and guanine pairs cytosine over three, and heating melts the strands apart below-or-above a characteristic temperature until annealing re-pairs them.",
+   "formula": "hbonds_total = at_pairs * 2 + gc_pairs * 3",
+   "key_idea": "Two bonds per A-T pair and three per G-C pair let you total the hydrogen bonding holding any DNA segment together.",
+   "textbook_ref": "kebt103.txt section 3.5, Figs. 3.29-3.35",
+   "question_patterns": [
+    "a 50 base pair segment holds 18 A-T pairs - how many hydrogen bonds knit the whole segment",
+    "why do G-C rich DNA stretches melt at a higher temperature than A-T rich ones",
+    "differentiate a nucleoside from a nucleotide with one example of each from DNA",
+    "list the differences between the sugar of DNA and that of RNA",
+    "compare A-DNA and Z-DNA with the standard B form on handedness and base pairs per helix",
+    "which bases absorb light near 260 nm and what does melting temperature mean",
+    "name the rRNA components of the 70S and the 80S ribosome and the arm of tRNA that carries the amino acid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the G-C pairs",
+     "explain": "Subtract the A-T count from the total base pairs.",
+     "compute": "gc_pairs = bp_total - at_pairs"
+    },
+    {
+     "step": 2,
+     "action": "weigh each pairing",
+     "explain": "A-T pairs contribute two hydrogen bonds each and G-C pairs three.",
+     "compute": "hbonds_total = at_pairs * 2 + gc_pairs * 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many hydrogen bonds join adenine to thymine?",
+     "a": "2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt103.txt section 3.4.1 (peptide bond water loss, 110 Da residue mass)",
+   "concept": "kebt103.7",
+   "question_type": "compute",
+   "question_pattern": "A polypeptide is assembled from {residues} amino acid residues. Find the number of peptide bonds formed, the total water lost, and the approximate molecular weight of the polypeptide.",
+   "extracted_variables": {
+    "residues": "number of amino acid residues joined"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract one for the links",
+     "explain": "Each new residue adds exactly one peptide bond.",
+     "compute": "peptide_bonds = residues - 1"
+    },
+    {
+     "step": 2,
+     "action": "weigh the water",
+     "explain": "One water of 18 Da leaves per condensation.",
+     "compute": "water_lost = peptide_bonds * 18"
+    },
+    {
+     "step": 3,
+     "action": "estimate the mass",
+     "explain": "Average residue mass is about 110 Da.",
+     "compute": "protein_mass = residues * 110"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt103.txt section 3.5 (A=T two bonds, G=C three bonds)",
+   "concept": "kebt103.8",
+   "question_type": "compute",
+   "question_pattern": "A double-stranded DNA segment of {bp_total} base pairs contains {at_pairs} A-T pairs. Find the number of G-C pairs and the total hydrogen bonds holding the segment together.",
+   "extracted_variables": {
+    "bp_total": "total base pairs in the segment",
+    "at_pairs": "number of A-T base pairs"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract to get G-C pairs",
+     "explain": "The rest of the segment must be G-C pairs.",
+     "compute": "gc_pairs = bp_total - at_pairs"
+    },
+    {
+     "step": 2,
+     "action": "total the hydrogen bonds",
+     "explain": "Two per A-T pair, three per G-C pair.",
+     "compute": "hbonds_total = at_pairs * 2 + gc_pairs * 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt103-ex1",
+   "source_ref": "kebt103.txt Exercises (questions 1-30)",
+   "questions": [
+    "Describe the classification of carbohydrates and the functional groups that identify aldehydic and ketonic sugars.",
+    "Which of maltose, lactose, sucrose and cellobiose is a non-reducing disaccharide - justify.",
+    "Differentiate between saturated and unsaturated fatty acids and expand the notation 20:4 (delta 5,8,11,14).",
+    "Why are membrane lipids called amphipathic - explain with the structure of a glycerophospholipid.",
+    "What is a zwitterion - draw its structure and state how it arises at physiological pH.",
+    "Describe the alpha helix and beta pleated sheet as secondary structures of protein.",
+    "Differentiate between tertiary and quaternary structure, naming the forces that stabilise each.",
+    "Explain the Watson-Crick double helix: which pairs join by two hydrogen bonds and which by three."
+   ]
+  }
+ ]
+}

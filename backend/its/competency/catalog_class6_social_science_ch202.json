@@ -1,0 +1,364 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 202,
+ "chapter_title": "Globe: Latitudes and Longitudes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kegy303.txt",
+ "concepts": [
+  {
+   "id": "fess.202.1.1",
+   "title": "The Globe and Earth's Axis",
+   "section": "GLOBE : LATITUDES AND LONGITUDES",
+   "definition": "A globe is a scaled-down physical representation of the Earth, featuring an imaginary line called an axis around which it rotates.",
+   "formula": "rotation_direction = west to east",
+   "key_idea": "The globe serves as a miniature, accurate model of our planet's shape and rotation.",
+   "textbook_ref": "fess202.txt lines 15-45",
+   "question_patterns": [
+    "What is a globe?",
+    "Define the axis of the earth.",
+    "In which direction does the globe rotate?",
+    "Describe the true model of the earth.",
+    "How is the earth's axis represented on a globe?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the object",
+     "explain": "A globe is a miniature form or true model of the earth."
+    },
+    {
+     "step": 2,
+     "action": "Identify the rotation point",
+     "explain": "The needle or imaginary line passing through the poles is the axis."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.1.2",
+   "title": "Equator and Hemispheres",
+   "section": "GLOBE : LATITUDES AND LONGITUDES",
+   "definition": "The equator is an imaginary circular line that splits the Earth into two equal parts: the Northern and Southern Hemispheres.",
+   "formula": "equator = 0 degrees latitude",
+   "key_idea": "The equator is the primary reference line for dividing the Earth horizontally.",
+   "textbook_ref": "fess202.txt lines 46-55",
+   "question_patterns": [
+    "What is the equator?",
+    "Name the two hemispheres created by the equator.",
+    "What is the latitudinal value of the equator?",
+    "Which line divides the earth into northern and southern halves?",
+    "Define the Northern Hemisphere."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the dividing line",
+     "explain": "The equator is the 0 degree latitude line."
+    },
+    {
+     "step": 2,
+     "action": "Identify the divisions",
+     "explain": "The part above is the Northern Hemisphere and the part below is the Southern Hemisphere."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.1.3",
+   "title": "Parallels of Latitude",
+   "section": "GLOBE : LATITUDES AND LONGITUDES",
+   "definition": "Horizontal circles drawn parallel to the equator extending toward the poles, used to measure distance in degrees north or south.",
+   "formula": "max_latitude = 90 degrees",
+   "key_idea": "Latitudes are parallel circles that decrease in size as they move from the equator to the poles.",
+   "textbook_ref": "fess202.txt lines 56-75",
+   "question_patterns": [
+    "What are parallels of latitude?",
+    "How are latitudes measured?",
+    "What does 90 degrees North latitude represent?",
+    "Why do we use N or S with latitude values?",
+    "How does the size of parallels change towards the poles?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the lines",
+     "explain": "All parallel circles from the equator to the poles are latitudes."
+    },
+    {
+     "step": 2,
+     "action": "Note the measurement",
+     "explain": "They are measured in degrees, with N for North and S for South."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.2.1",
+   "title": "Important Parallels of Latitude",
+   "section": "IMPORTANT PARALLELS OF LATITUDES",
+   "definition": "Specific latitudinal lines including the Tropics of Cancer and Capricorn, and the Arctic and Antarctic Circles, which mark climate boundaries.",
+   "formula": "tropic_of_cancer = 23.5 n",
+   "key_idea": "Four key latitudes besides the equator and poles define the Earth's major zones.",
+   "textbook_ref": "fess202.txt lines 85-95",
+   "question_patterns": [
+    "List the four important parallels of latitude.",
+    "What is the value of the Tropic of Cancer?",
+    "Where is the Arctic Circle located?",
+    "What is the latitude of the Tropic of Capricorn?",
+    "Identify the parallel at 66.5 degrees South."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Northern parallels",
+     "explain": "Tropic of Cancer (23.5 N) and Arctic Circle (66.5 N)."
+    },
+    {
+     "step": 2,
+     "action": "Identify Southern parallels",
+     "explain": "Tropic of Capricorn (23.5 S) and Antarctic Circle (66.5 S)."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.3.1",
+   "title": "Heat Zones of the Earth",
+   "section": "HEAT ZONES OF THE EARTH",
+   "definition": "Regions categorized by the amount of solar heat received, classified into Torrid, Temperate, and Frigid zones.",
+   "formula": "torrid_zone = between 23.5 n and 23.5 s",
+   "key_idea": "The angle of sun rays determines the temperature and classification of heat zones.",
+   "textbook_ref": "fess202.txt lines 100-125",
+   "question_patterns": [
+    "What are the three heat zones of the Earth?",
+    "Why is the Torrid Zone the hottest?",
+    "Describe the Frigid Zone.",
+    "Which zone lies between the Tropic of Cancer and the Arctic Circle?",
+    "What characterizes the Temperate Zone?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Torrid Zone",
+     "explain": "Area between the two tropics receiving vertical sun rays."
+    },
+    {
+     "step": 2,
+     "action": "Identify Temperate Zone",
+     "explain": "Area between tropics and circles with moderate sun angles."
+    },
+    {
+     "step": 3,
+     "action": "Identify Frigid Zone",
+     "explain": "Area between circles and poles with very slanting rays."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.4.1",
+   "title": "Meridians of Longitude",
+   "section": "WHAT ARE LONGITUDES?",
+   "definition": "Vertical reference lines running from the North Pole to the South Pole used to measure East-West positions.",
+   "formula": "total_longitudes = 360",
+   "key_idea": "Longitudes are semi-circles of equal length that meet at the poles.",
+   "textbook_ref": "fess202.txt lines 130-150",
+   "question_patterns": [
+    "What are meridians of longitude?",
+    "How is the distance between longitudes measured?",
+    "Where do all meridians meet?",
+    "Contrast latitudes and longitudes.",
+    "What happens to the distance between longitudes at the poles?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the lines",
+     "explain": "Lines of reference running from North to South Pole."
+    },
+    {
+     "step": 2,
+     "action": "Describe geometry",
+     "explain": "They are semi-circles and distance between them becomes zero at poles."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.4.2",
+   "title": "Prime Meridian and Hemispheres",
+   "section": "WHAT ARE LONGITUDES?",
+   "definition": "The 0 degree longitude line passing through Greenwich, dividing the Earth into Eastern and Western Hemispheres.",
+   "formula": "prime_meridian = 0 degrees longitude",
+   "key_idea": "The Prime Meridian and the 180 degree meridian together divide the Earth vertically.",
+   "textbook_ref": "fess202.txt lines 151-165",
+   "question_patterns": [
+    "What is the Prime Meridian?",
+    "Where is the British Royal Observatory located?",
+    "What is the value of the Prime Meridian?",
+    "Which hemispheres are created by the Prime Meridian?",
+    "What is unique about the 180 degree East and West meridians?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the 0 degree line",
+     "explain": "The Prime Meridian passes through Greenwich."
+    },
+    {
+     "step": 2,
+     "action": "Identify the vertical halves",
+     "explain": "It divides Earth into Eastern (E) and Western (W) Hemispheres."
+    }
+   ]
+  },
+  {
+   "id": "fess.202.5.1",
+   "title": "Time Difference Calculation",
+   "section": "LONGITUDE AND TIME",
+   "definition": "Calculating the time gap between two locations based on the Earth's rotation rate of 4 minutes per degree of longitude.",
+   "formula": "time_diff_minutes = longitude_diff * 4",
+   "key_idea": "Earth rotates 1 degree every 4 minutes, making time dependent on longitudinal position.",
+   "textbook_ref": "fess202.txt lines 185-200",
+   "question_patterns": [
+    "Calculate the time difference for 15 degrees of longitude.",
+    "How many minutes does the earth take to rotate 1 degree?",
+    "If it is 12 noon at Greenwich, what is the time at 15 degrees East?",
+    "Find the time at 30 degrees West if Greenwich is at noon.",
+    "How much time difference is there for 1 degree of longitude?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the longitude difference",
+     "explain": "Identify the number of degrees between the two locations."
+    },
+    {
+     "step": 2,
+     "action": "Multiply by rotation rate",
+     "explain": "The earth rotates 1 degree in 4 minutes.",
+     "compute": "time_diff_minutes = diff * 4"
+    }
+   ]
+  },
+  {
+   "id": "fess.202.6.1",
+   "title": "Indian Standard Time (IST)",
+   "section": "WHY DO WE HAVE STANDARD TIME?",
+   "definition": "The uniform time adopted for the whole of India based on the central meridian of 82.5 degrees East.",
+   "formula": "ist_meridian = 82.5 e",
+   "key_idea": "Standard time prevents confusion caused by local time differences across a large country.",
+   "textbook_ref": "fess202.txt lines 215-230",
+   "question_patterns": [
+    "What is the Standard Meridian of India?",
+    "What is the time difference between IST and GMT?",
+    "Why does India have a standard time?",
+    "Calculate the time in India if it is 12 noon in London.",
+    "What is the full form of IST?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify India's longitude",
+     "explain": "India's standard meridian is 82.5 degrees East.",
+     "compute": "lon = 82.5"
+    },
+    {
+     "step": 2,
+     "action": "Calculate minutes ahead of GMT",
+     "explain": "Multiply longitude by 4 minutes per degree.",
+     "compute": "total_mins = lon * 4"
+    },
+    {
+     "step": 3,
+     "action": "Convert to hours",
+     "explain": "Divide total minutes by 60 to get the hour difference.",
+     "compute": "offset_hours = total_mins / 60"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess202.txt lines 195-200",
+   "concept": "fess.202.5.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the time difference in minutes for a place located {longitude_diff} degrees away from Greenwich.",
+   "extracted_variables": {
+    "longitude_diff": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine the longitude difference",
+     "compute": "diff = 15"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by rotation rate",
+     "compute": "time_diff_minutes = diff * 4"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess202.txt lines 235-240",
+   "concept": "fess.202.6.1",
+   "question_type": "compute",
+   "question_pattern": "What is the time offset in hours for India's standard meridian of {lon} degrees East?",
+   "extracted_variables": {
+    "lon": 82.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify India's longitude",
+     "compute": "lon = 82.5"
+    },
+    {
+     "step": 2,
+     "action": "Calculate minutes ahead of GMT",
+     "compute": "total_mins = lon * 4"
+    },
+    {
+     "step": 3,
+     "action": "Convert to hours",
+     "compute": "offset_hours = total_mins / 60"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "fess202.txt lines 245-260",
+   "questions": [
+    "What is the true shape of the earth?",
+    "What is a globe?",
+    "What is the latitudinal value of the Tropic of Cancer?",
+    "What are the three heat zones of the Earth?",
+    "What are parallels of latitude and meridians of longitude?",
+    "Why does the torrid zone receive maximum amount of heat?",
+    "Why is it 5.30 p.m. in India and 12.00 noon in London?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "fess202.txt lines 261-280",
+   "questions": [
+    "The value of the prime meridian is (i) 90 (ii) 0 (iii) 60",
+    "The frigid zone lies near (i) the Poles (ii) the Equator (iii) the Tropic of Cancer",
+    "The total number of longitudes are (i) 360 (ii) 180 (iii) 90",
+    "The Antarctic circle is located in (i) the Northern hemisphere (ii) the Southern hemisphere (iii) the Eastern hemisphere",
+    "Grid is a network of (i) parallels of latitudes and meridians of longitudes (ii) the Tropic of Cancer and the Tropic of Capricorn (iii) the North Pole and the South Pole"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

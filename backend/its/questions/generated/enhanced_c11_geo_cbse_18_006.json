@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_006",
+   "title": "c11_geo_cbse_18_006",
+   "questions": [
+    {
+     "q": "Name the four major geographical factors that determine the cultivation of sugarcane, cotton, jute, and oilseeds in India, and state the ideal temperature range for cotton.",
+     "a": "The four factors are temperature, rainfall, soil type, and season (Kharif/Rabi). Cotton requires 21-30°C. A wrong answer (e.g., listing \"market demand\" or \"government policy\" as primary geographical factors) reveals the student confuses human/economic factors with physical determinants. If the temperature range is given as 15-20°C or 30-40°C, the student has not memorized the specific thermal requirement for cotton boll formation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is jute cultivation concentrated in the Ganga-Brahmaputra delta (West Bengal, Assam, Bihar) while cotton dominates the Deccan Plateau (Maharashtra, Gujarat, Telangana)? Explain using rainfall and soil differences.",
+     "a": "Jute needs 150-250 cm rainfall and high humidity with alluvial soil renewed by floods — conditions met only in the delta. Cotton needs 50-100 cm rainfall, dry weather at harvest, and moisture-retentive black regur soil of the Deccan trap. A wrong answer that attributes jute's location to \"cheap labour\" or cotton's to \"market access\" shows the student cannot link crop physiology to physical geography. If they say both grow in alluvial soil, they have not distinguished soil types.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western Uttar Pradesh (29°N, 77°E) wants to switch from sugarcane to oilseeds. Using the agro-climatic data below, determine which oilseed (groundnut, mustard, or soybean) is most suitable and justify in 3 steps.\nData: Annual rainfall 70 cm, winter temp 10-15°C, summer temp 35-40°C, soil: alluvial loam, irrigation available.",
+     "a": "Step 1: Identify season — winter (Rabi) suits mustard (requires 10-25°C, 30-50 cm rain). Step 2: Check rainfall — 70 cm annual, but winter rain low; mustard is drought-tolerant with irrigation. Step 3: Soil — alluvial loam is suitable for mustard. Groundnut needs 50-75 cm rain in Kharif (summer too hot 35-40°C). Soybean needs 60-100 cm Kharif rain. Answer: Mustard (Rabi). Wrong choice of groundnut/soybean shows inability to match crop thermal/rainfall needs to seasonal data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of irrigation on the geographical spread of sugarcane versus cotton in India. Why has irrigation extended sugarcane into southern India (Karnataka, Tamil Nadu) but not cotton into the Indo-Gangetic plain to the same extent?",
+     "a": "Sugarcane is water-intensive (150-200 cm water need); irrigation in peninsular rivers (Cauvery, Krishna) allows its growth in tropical south where rainfall is insufficient. Cotton is drought-tolerant; its expansion is limited in the Indo-Gangetic plain because high humidity and winter rain cause pest/disease (bollworm, fungal) and alluvial soil lacks the moisture-retention of regur. A wrong answer focusing only on \"water availability\" misses the soil-climate-pest interaction. If they say cotton cannot grow in alluvial soil at all, they ignore that some cotton is grown in Punjab/Haryana with irrigation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's oilseed production has stagnated because farmers prefer food grains due to MSP procurement.\" Consider geographical, economic, and policy dimensions.",
+     "a": "Partially true but incomplete. Geographically, oilseeds are grown on marginal, rainfed lands (low input, high risk) — 70% area unirrigated. Economically, MSP for wheat/rice is effectively guaranteed via FCI procurement; oilseed MSP exists but procurement is weak. Policy: Technology Mission on Oilseeds (1986) raised yields but gains reversed post-1990s due to import liberalization. A wrong evaluation that blames only \"farmer preference\" ignores structural rainfed geography and policy asymmetry. If they say \"oilseeds need more water,\" they confuse with sugarcane.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping calendar for a 5-hectare farm in Nanded district, Maharashtra (Deccan Plateau, black soil, 80 cm annual rain, bimodal: June-Sept and Oct-Dec) that maximizes income from cotton, soybean, and a Rabi oilseed. Specify months for sowing/harvesting each crop and justify the sequence.",
+     "a": "Kharif (June-Oct): Soybean (sow June, harvest Oct) — uses early monsoon, fits 80 cm rain, improves soil N. Cotton (sow June, harvest Dec-Jan) — long duration, uses full monsoon + post-monsoon moisture in black soil. Rabi (Nov-Mar): Safflower or mustard (sow Nov, harvest Mar) — uses residual moisture + one irrigation. Sequence: Soybean → Cotton (relay not possible, so separate fields) or Cotton + Safflower rotation. Good answer shows understanding of bimodal rainfall, soil moisture retention, and crop duration. Poor answer puts two Kharif crops on same field or ignores harvest overlap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

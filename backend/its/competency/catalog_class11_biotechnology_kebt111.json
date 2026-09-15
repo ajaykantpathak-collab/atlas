@@ -1,0 +1,295 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 11,
+ "chapter_title": "Programming and Systems Biology",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt111.1",
+   "title": "Programming Languages for Biologists",
+   "section": "11.1",
+   "definition": "Biology now runs on code: PERL has handled bulk sequence data since bioinformatics began, Python - Guido van Rossum's 1991 object-oriented generalist - dominates sequence, structure and phylogenetic work on unix, mac and windows, R built by Robert Gentleman and Robert Ihaka supplies free statistical muscle, MATLAB rounds out analysis platforms, and newer designs like Microsoft's rule-based GEC and the Kera language with its Samhita biological library target living-cell engineering.",
+   "formula": "-",
+   "key_idea": "Pick the language by the task - sequence crunching, statistics, visualisation or cell-system design - and most production work still sits on Linux.",
+   "textbook_ref": "kebt111.txt section 11.1",
+   "question_patterns": [
+    "which language sits at the core of sequence based large data handling since the beginning of bioinformatics",
+    "who created Python and in which year - list two reasons for its popularity among bioinformaticians",
+    "from which inventors does the R language take its name and what is it ideal for",
+    "what are the GEC and Kera languages designed for and what does the Samhita library hold",
+    "why should young biotechnology students learn basic programming and statistics",
+    "on which operating system platform have most successful bioinformatics applications been developed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match language to purpose",
+     "explain": "PERL for bulk sequences, Python for general analysis, R for statistics, MATLAB for platform analysis."
+    },
+    {
+     "step": 2,
+     "action": "note the lineage",
+     "explain": "Python 1991 by van Rossum; R from Robert Gentleman and Robert Ihaka; GEC from Microsoft; Kera from Umesh P."
+    },
+    {
+     "step": 3,
+     "action": "place the platform",
+     "explain": "Linux hosts most successful applications; cloud and web servers extend reach."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which language has handled bulk sequence data since bioinformatics began: PERL or COBOL?",
+     "a": "PERL"
+    }
+   ]
+  },
+  {
+   "id": "kebt111.2",
+   "title": "Milestones in the Rise of Systems Biology",
+   "section": "11.2.2",
+   "definition": "The field grew in dated steps - Hodgkin and Huxley modelled the neuronal action potential in 1952, Denis Noble built the first computer model of the heart pacemaker in 1960, Mesarovic launched systems theory and biology in 1966, von Bertalanffy published the first theory in 1968, and the 2012 whole-cell model of Mycoplasma genitalium capped six decades of quantitative modelling.",
+   "formula": "model_span = cell_model_year - axon_model_year",
+   "key_idea": "Subtract one milestone year from another to measure the field's growth spans.",
+   "textbook_ref": "kebt111.txt section 11.2.2",
+   "question_patterns": [
+    "how many years separate the Hodgkin-Huxley axon model from the Mycoplasma genitalium whole-cell model",
+    "who developed the first computer model of the heart pacemaker and when",
+    "at which 1966 venue was systems biology formally launched and by whom",
+    "why is von Bertalanffy's 1968 work called the precursor of the discipline",
+    "which institution built the 2012 whole-cell model and what can it predict",
+    "what challenge did the National Science Foundation pose and who joined MIT to answer it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the milestone years",
+     "explain": "Span equals the later model year minus the earlier one.",
+     "compute": "model_span = cell_model_year - axon_model_year"
+    },
+    {
+     "step": 2,
+     "action": "convert to decades",
+     "explain": "Divide the span by ten.",
+     "compute": "span_decades = model_span / 10"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who modelled the neuronal action potential in 1952: Hodgkin and Huxley, or Noble?",
+     "a": "Hodgkin and Huxley"
+    }
+   ]
+  },
+  {
+   "id": "kebt111.3",
+   "title": "Integration Theme versus Reductionism",
+   "section": "11.2.3",
+   "definition": "Reductionism catalogued the parts of living systems but stumbled at their pluralism; systems biology answers by integrating every component at once through network mapping joined to kinetics described with partial differential equations, letting quantitative models reveal emergent properties of cells, tissues and organisms.",
+   "formula": "-",
+   "key_idea": "Parts alone explain little - map the network and bind its dynamics with mathematics to see the whole system behave.",
+   "textbook_ref": "kebt111.txt sections 11.2.1 and 11.2.3, Fig. 11.1",
+   "question_patterns": [
+    "why could reductionism not describe the pluralism of a biological system",
+    "what sits at the core of the theme of systems biology - state the mapping and equations involved",
+    "define systems biology as an interdisciplinary field with reference to life information and system science",
+    "give two examples of efficient system models used in systems biology",
+    "how did the human genome project seed the systems biology approach",
+    "which emergent properties can system models describe that single experiments miss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the approaches",
+     "explain": "Reductionism isolates components; systems biology integrates them simultaneously."
+    },
+    {
+     "step": 2,
+     "action": "name the machinery",
+     "explain": "Object network mapping plus interdependent kinetics handled through partial differential equations."
+    },
+    {
+     "step": 3,
+     "action": "state the payoff",
+     "explain": "Emergent functional properties become predictable in health and disease contexts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Systems biology binds network dynamics with which mathematics: differential equations or arithmetic tables?",
+     "a": "differential equations"
+    }
+   ]
+  },
+  {
+   "id": "kebt111.4",
+   "title": "Protocol of a Systems Biology Experiment",
+   "section": "11.2.4",
+   "definition": "A systems biology study loops through a fixed protocol: define the problem, design and run the experiment, collect and format the data, build the network interface, transfer it into a mechanism-based model, compare simulation against experiment, fold every discrepancy back as a new hypothesis, and repeat until model and reality agree.",
+   "formula": "-",
+   "key_idea": "Model, simulate, compare, revise - the cycle only converges when discrepancies become new hypotheses.",
+   "textbook_ref": "kebt111.txt section 11.2.4, Fig. 11.2",
+   "question_patterns": [
+    "list the discrete steps of the workflow shown for implementing a systems biology experiment",
+    "why must the transferred network interface be precise and mechanism based",
+    "what happens to the discrepancies observed between simulation results and experimental data",
+    "which tasks does the computation workflow require besides data management",
+    "from where does deep curation draw literature pathways and database evidence",
+    "how does novel interaction network inference feed the proposed molecular map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define and measure",
+     "explain": "Problem definition precedes experiment design, execution and data collection."
+    },
+    {
+     "step": 2,
+     "action": "model the mechanism",
+     "explain": "Curated networks become a systems biology model whose dynamics are defined."
+    },
+    {
+     "step": 3,
+     "action": "iterate",
+     "explain": "Simulation versus data discrepancies drive model updates and repeated testing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the systems biology protocol, what follows building the model: simulation or publication?",
+     "a": "simulation"
+    }
+   ]
+  },
+  {
+   "id": "kebt111.5",
+   "title": "Data Management in Systems Biology",
+   "section": "11.2.4",
+   "definition": "Three pillars organise systems biology data: minimum information sets with their metadata for microarray, proteomic and biomedical studies; XML-style file formats that machines can process automatically; and ontologies such as Gene Ontology and Systems Biology Ontology that fix hierarchical meanings - all wired together by spreadsheets, electronic lab notebooks, LIMS and workflow engines like KNIME, Taverna and Galaxy.",
+   "formula": "-",
+   "key_idea": "Report the minimum, encode in machine-readable formats, and let ontologies standardise what every term means.",
+   "textbook_ref": "kebt111.txt section 11.2.4, Table 11.1",
+   "question_patterns": [
+    "name the three aspects considered for data management in systems biology",
+    "why are file formats in systems biology generally XML based",
+    "what do ontologies annotate and name two important examples",
+    "which workflow systems allow construction execution and sharing of specialised pipelines",
+    "match the facilities data management network inference simulation and docking with two tools each",
+    "what is the role of electronic lab notebooks and LIMS in modern laboratories"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "capture the minimum",
+     "explain": "Essential supporting information plus metadata accompanies every dataset."
+    },
+    {
+     "step": 2,
+     "action": "format for machines",
+     "explain": "XML-based formats allow automatic computer processing."
+    },
+    {
+     "step": 3,
+     "action": "standardise meaning",
+     "explain": "Ontologies supply hierarchical semantic annotation; workflow engines integrate the tools."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which ontology fixes hierarchical meanings for gene terms: Gene Ontology or a dictionary?",
+     "a": "Gene Ontology"
+    }
+   ]
+  },
+  {
+   "id": "kebt111.6",
+   "title": "Model Analysis Methods for Network Behaviour",
+   "section": "11.2.5",
+   "definition": "Built models are interrogated three ways: sensitivity analysis with tools like SBML-SAT probes stability and controllability against disturbances, bifurcation and phase-space analysis with AUTO or XPPAut uncovers steady and dynamical tendencies, and metabolic control analysis via MetNetMaker ties steady-state network properties back to individual reactions; the underlying partial differential equations are approximated numerically by the finite element method in ANSYS, FreeFEM++ or MATLAB.",
+   "formula": "-",
+   "key_idea": "Stress the model, watch its states shift, and connect the network's steady state to its component reactions.",
+   "textbook_ref": "kebt111.txt sections 11.2.4-11.2.5",
+   "question_patterns": [
+    "which three model analysis methods probe the behaviour of complex biological models",
+    "what do sensitivity analysis tools reveal about a system against distractions",
+    "what is the purpose of bifurcation and phase-space analysis",
+    "define metabolic control analysis and name its tool",
+    "what are PDEs and which numerical technique approximates their solutions",
+    "name two solvers used to solve the partial differential equations of spatiotemporal models"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "perturb and observe",
+     "explain": "Sensitivity analysis scores stability and controllability."
+    },
+    {
+     "step": 2,
+     "action": "chart the dynamics",
+     "explain": "Bifurcation and phase-space work exposes steady and oscillatory tendencies."
+    },
+    {
+     "step": 3,
+     "action": "link to reactions",
+     "explain": "Metabolic control analysis connects network-level properties to component reactions; FEM numerically solves the PDEs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which analysis probes a model's stability against disturbances: sensitivity analysis or titration?",
+     "a": "sensitivity analysis"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt111.txt section 11.2.2 (1952 axon model to 2012 whole-cell model)",
+   "concept": "kebt111.2",
+   "question_type": "compute",
+   "question_pattern": "Mathematical modelling in biology ran from the {axon_model_year} Hodgkin-Huxley axon model to the {cell_model_year} whole-cell model of Mycoplasma genitalium. Find the span in years and in decades.",
+   "extracted_variables": {
+    "axon_model_year": "year of the neuronal axon model",
+    "cell_model_year": "year of the whole-cell model"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the years",
+     "explain": "The span is the later milestone minus the earlier one.",
+     "compute": "model_span = cell_model_year - axon_model_year"
+    },
+    {
+     "step": 2,
+     "action": "convert to decades",
+     "explain": "Ten years make one decade.",
+     "compute": "span_decades = model_span / 10"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt111-ex1",
+   "source_ref": "kebt111.txt Exercises (questions 1-9)",
+   "questions": [
+    "Why are programming languages a boon for biologists?",
+    "Name the various aspects of data management for systems biology.",
+    "Pick the incorrect statement among claims about Python, statistics, Linux and third-party toolkits.",
+    "Choose the best definition of systems biology from the given options.",
+    "Which item is not part of data management systems - metabolic control analysis, spreadsheets, ELN or LIMS?",
+    "What is the need of systems biology and is it cell-centric?",
+    "Explain the fundamental difference between systems biology and physiology, and describe systems biology as a collection of approaches and tools."
+   ]
+  }
+ ]
+}

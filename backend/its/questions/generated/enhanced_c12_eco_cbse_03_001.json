@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_001",
+   "title": "c12_eco_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define the production function and state the fundamental difference between short run and long run in production theory.",
+     "a": "The production function is a technological relationship showing the maximum output obtainable from given input combinations. The fundamental difference: in the short run at least one factor is fixed (usually capital), while in the long run all factors are variable. A wrong answer that says \"short run is less than one year\" reveals confusion between calendar time and economic time — the distinction is about factor fixity, not a specific duration.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab uses a tractor (fixed) and hires seasonal labour (variable) to cultivate wheat. In December, he decides to buy a second tractor for the next Rabi season. Explain whether each decision (hiring labour, buying tractor) is a short-run or long-run decision and why.",
+     "a": "Hiring seasonal labour is a short-run decision because labour is a variable input and the tractor (capital) remains fixed. Buying a second tractor is a long-run decision because it changes the fixed capital stock, making all inputs variable. If a student says both are short run because they happen within a year, they misunderstand that the long run is defined by the ability to vary all inputs, not by a time period.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's production function is Q = 10L^0.5 K^0.5. In the short run, capital is fixed at K = 16. Calculate the maximum output when the firm employs 25 units of labour. Show the steps.",
+     "a": "Step 1: Substitute fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0.5 = 4, so Q = 10 × 4 × L^0.5 = 40 L^0.5. Step 3: Substitute L = 25: Q = 40 × (25)^0.5 = 40 × 5 = 200 units. Step 4: Interpret: with 16 machines and 25 workers, max output is 200. A wrong answer that uses L=25, K=25 (ignoring fixity) shows the student does not grasp the short-run constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which correctly describes the long-run production function. (A) Q = f(L) with K constant. (B) Q = f(L, K) with both L and K variable. Justify your choice using the concept of factor fixity.",
+     "a": "Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour and capital: Q = f(L, K). Statement (A) describes the short run where capital is fixed. A student choosing (A) may think \"long run just means more labour\" and miss that capital itself becomes a choice variable.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A startup operating from a co-working space with monthly rental has no fixed factors, so it operates in the long run from day one.\" Is this economically sound? Explain.",
+     "a": "The claim is flawed. Even with flexible space rental, the startup likely has fixed factors in the short run: specialized equipment, software licenses, or key personnel contracts that cannot be adjusted instantly. The long run requires **all** factors to be variable. A co-working lease may be short-term, but other inputs (e.g., a patented technology, a core team) may still be fixed. A student who agrees overlooks that factor fixity is about **all** inputs, not just physical space.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world example of a firm in the Indian context that illustrates the transition from short run to long run. Specify the fixed factor(s) in the short run and how they become variable in the long run.",
+     "a": "Example: A cloud kitchen in Bengaluru starts with 2 ovens (fixed capital) and 5 chefs (variable labour). Short run: it can only hire more chefs or extend shifts. Long run: after 6 months, it leases a larger kitchen, buys 5 more ovens, and hires a manager — now ovens, space, and management are all variable. A good answer identifies specific fixed factors and a clear timeline for their variation. A poor example would say \"they just work harder\" without changing capital.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

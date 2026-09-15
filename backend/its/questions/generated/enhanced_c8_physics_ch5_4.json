@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_4",
+   "title": "c8_physics_ch5_4",
+   "questions": [
+    {
+     "q": "Define solubility and state its standard SI-compatible unit of expression.",
+     "a": "Solubility is the maximum mass of solute (in grams) that dissolves in 100 grams of solvent at a specific temperature to form a saturated solution. Its standard unit is g/100g solvent. A wrong answer (e.g., \"amount of solute that dissolves\" without \"maximum\" or \"100g solvent\", or giving units as g/L) reveals the student lacks precision in the definition – they confuse solubility with the general act of dissolving or with concentration units.",
+     "self_check": true
+    },
+    {
+     "q": "Why is temperature always specified when reporting a solubility value (e.g., \"solubility of NaCl in water is 36 g/100g water at 20°C\")?",
+     "a": "Temperature is specified because solubility of most solids in liquids increases with temperature; the same solute-solvent pair has different solubility values at different temperatures. A wrong answer (e.g., \"temperature doesn't matter\" or \"it's just a standard condition\") reveals the misconception that solubility is a fixed constant like density, ignoring the thermodynamic dependence on temperature.",
+     "self_check": true
+    },
+    {
+     "q": "The solubility of potassium nitrate (KNO₃) in water at 40°C is 64 g/100g water. How many grams of KNO₃ will dissolve in 250 g of water at 40°C to form a saturated solution? Show your work with units.",
+     "a": "Given: Solubility = 64 g KNO₃ / 100 g water. Mass of water = 250 g.\nStep 1: Set up proportion: (64 g KNO₃ / 100 g water) = (x g KNO₃ / 250 g water).\nStep 2: Solve for x: x = (64 × 250) / 100 = 160 g KNO₃.\nStep 3: Unit check: (g KNO₃ / g water) × g water = g KNO₃. Correct.\nAnswer: 160 g KNO₃. A wrong answer (e.g., 64 g, or 64 × 2.5 = 160 but forgetting units) reveals difficulty with proportional reasoning or unit tracking.",
+     "self_check": true
+    },
+    {
+     "q": "Student A says: \"The solubility of salt in water is 36 g/100g water. If I have 50 g water, only 18 g salt can dissolve.\" Student B says: \"If I heat the water, I can dissolve more than 36 g salt in 100 g water.\" Analyze both statements and state which is correct and why.",
+     "a": "Both statements are correct. Student A correctly applies proportional reasoning: half the solvent (50g) dissolves half the solute (18g) at the same temperature. Student B correctly applies the temperature dependence: for most solids like salt, solubility increases with temperature, so heating allows more than 36g per 100g water. A wrong analysis (e.g., saying Student B is wrong because solubility is fixed) reveals the misconception that solubility is temperature-independent.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs an experiment to find the solubility of copper sulfate at 30°C. They add 25 g CuSO₄ to 50 g water, stir, and observe 5 g undissolved solid at the bottom. They conclude: \"Solubility of CuSO₄ at 30°C is 25 g/50g water = 50 g/100g water.\" Evaluate this conclusion and identify the error.",
+     "a": "The conclusion is incorrect. The student used the *total added mass* (25g) instead of the *mass that actually dissolved* (25g - 5g = 20g). Correct solubility = 20g / 50g water = 40 g/100g water. A wrong evaluation (accepting 50 g/100g) reveals the student confuses \"amount added\" with \"amount dissolved\" and doesn't understand that undissolved solid indicates saturation has been exceeded.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to compare the solubility of sugar and salt in water at room temperature using only kitchen materials (no balance). Describe the procedure and how you would express the result comparatively.",
+     "a": "Procedure: Take two identical glasses with equal volumes of room-temperature water (e.g., 100 mL each). Add sugar to one glass, one teaspoon at a time, stirring until no more dissolves (solid remains). Count teaspoons. Repeat for salt in the other glass. Express result as \"teaspoons per 100 mL water\" – the substance requiring more teaspoons has higher solubility. A poor answer (e.g., \"add both to same glass\" or \"measure time to dissolve\") reveals confusion between solubility (equilibrium amount) and rate of dissolving (kinetics), or inability to design a fair test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

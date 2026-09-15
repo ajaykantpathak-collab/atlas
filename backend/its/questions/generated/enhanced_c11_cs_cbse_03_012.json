@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_012",
+   "title": "c11_cs_cbse_03_012",
+   "questions": [
+    {
+     "q": "State the formal definition of Big-O notation: f(n) = O(g(n)) if and only if there exist positive constants c and n₀ such that... (complete the definition).",
+     "a": "f(n) = O(g(n)) iff ∃ c > 0, n₀ > 0 such that 0 ≤ f(n) ≤ c·g(n) for all n ≥ n₀. A wrong answer (e.g., \"f(n) ≤ g(n) for all n\" or missing constants) reveals the student treats Big-O as exact equality or ignores the \"eventually\" nature of asymptotic bounds — they confuse tight bounds with loose upper bounds and cannot prove membership formally.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Algorithm A with time complexity 100n + 5 is faster than Algorithm B with time complexity 0.01n² for all input sizes\" is false, and determine the crossover point where B becomes slower than A.",
+     "a": "For small n (n < 10,000), 100n + 5 < 0.01n², so A is actually faster initially. The crossover occurs at n ≈ 10,000 where 100n = 0.01n² → n = 10,000. A wrong answer (claiming A is always faster or always slower) reveals the student ignores constant factors and lower-order terms entirely, misunderstanding that asymptotic dominance only applies for sufficiently large n — a critical error when choosing algorithms for real-world constrained inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the time complexity of the following pseudocode fragment in terms of n. Show your counting of basic operations.\n```\nfor i = 1 to n do\n    for j = 1 to i do\n        x = x + 1\n    end for\nend for\n```",
+     "a": "The inner loop runs i times for each i from 1 to n. Total executions = Σ(i=1 to n) i = n(n+1)/2 = ½n² + ½n. Basic operation (assignment) executes Θ(n²) times. A wrong answer of O(n) or O(n³) reveals the student either treats the inner loop as constant-time or misapplies multiplication rule for nested loops — they fail to recognise the variable upper bound j ≤ i creates a triangular summation, not a rectangular n×n grid.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the space complexity of these two recursive algorithms for factorial(n):\nAlgorithm R1: if n=0 return 1 else return n * R1(n-1)\nAlgorithm R2: iterative version using a single accumulator variable.\nWhich uses more space asymptotically and why?",
+     "a": "R1 uses Θ(n) space due to n recursive calls on the call stack (each storing return address, parameters, local variables). R2 uses Θ(1) auxiliary space (only accumulator and loop counter). R1 uses more space asymptotically. A wrong answer claiming both are O(1) reveals the student ignores call stack overhead in recursion — a classic senior-secondary error where space complexity is conflated with variable count only, missing the implicit memory cost of function call frames.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since merge sort has Θ(n log n) worst-case time and bubble sort has Θ(n²), merge sort is always the better choice for sorting.\" Provide two concrete scenarios where bubble sort could be preferred despite worse asymptotic complexity.",
+     "a": "The claim is false. Bubble sort may be preferred when: (1) n is very small (e.g., n ≤ 50) where constant factors dominate and bubble sort's simplicity avoids recursion overhead; (2) the array is already nearly sorted — bubble sort with early termination runs in O(n) best case while merge sort still does Θ(n log n). A wrong answer (agreeing with the claim or giving irrelevant scenarios) reveals the student treats asymptotic complexity as the sole decision criterion, ignoring constant factors, best-case behaviour, stability, in-place requirement, and implementation simplicity — all practical considerations in board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pseudocode algorithm that finds the maximum element in an unsorted array of size n with Θ(n) time and Θ(1) auxiliary space. Then modify it to also return the index of the maximum element without increasing asymptotic complexity. Explain why your modification preserves Θ(1) space.",
+     "a": "```\nmax = A[0]; idx = 0\nfor i = 1 to n-1 do\n    if A[i] > max then\n        max = A[i]; idx = i\n    end if\nend for\nreturn (max, idx)\n```\nTime: n-1 comparisons → Θ(n). Auxiliary space: only max, idx, i → Θ(1). Modification adds one integer variable (idx), which is O(1) — constants don't affect asymptotic space. A poor answer (using extra array, recursion, or claiming space becomes O(n)) reveals the student confuses output size with auxiliary space, or thinks any additional variable changes asymptotic class — misunderstanding that Θ(1) means \"bounded by a constant independent of n\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

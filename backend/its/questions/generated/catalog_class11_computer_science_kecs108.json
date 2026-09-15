@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs108",
+ "concepts": [
+  {
+   "id": "kecs108.1",
+   "title": "Indexing Characters in a String",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Indexing Characters in a String' refers to.",
+     "a": "Square-bracket indexing reaches any single character of a string: positions count from 0 on the left up to length minus 1, and negative positions count backwards from -1 on the right down to minus the length; an out-of-range position raises IndexError.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indexing Characters in a String'.",
+     "a": "The mirror rule is simple: position i from the left equals position i minus size from the right.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indexing Characters in a String', in plain ASCII form.",
+     "a": "last_index = size - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.2",
+   "title": "Slice Length Arithmetic",
+   "questions": [
+    {
+     "q": "How many characters does str1[1:5] of 'Hello World!' return, and what are they? Use the method 'Slice Length Arithmetic'. Work with: first = 60, k = 40, last = 30. Carry the chain through step by step and give the final value of kept.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "How many characters are selected by str1[0:10:3]? Use the method 'Slice Length Arithmetic'. Work with: first = 5, k = 50, last = 80. Carry the chain through step by step and give the final value of kept.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Slice Length Arithmetic' refers to.",
+     "a": "The slice str1[n:m] copies characters from position n up to but excluding m, so the copy always holds m minus n characters; a third value k keeps only every k-th one, and the kept count rounds the span up over k.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Slice Length Arithmetic'.",
+     "a": "A first index larger than the second yields an empty string, and a too-large second index quietly shrinks to the end.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Slice Length Arithmetic', in plain ASCII form.",
+     "a": "kept = (last - first + k - 1) // k",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.3",
+   "title": "Concatenation and Repetition Lengths",
+   "questions": [
+    {
+     "q": "Using the method 'Concatenation and Repetition Lengths', work with: copies = 360, first_len = 10, second_len = 100. Carry the chain through step by step and give the final value of after_rep.",
+     "a": "39600 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Concatenation and Repetition Lengths' and work with: copies = 500, first_len = 12, second_len = 200. Carry the chain through step by step and give the final value of after_rep.",
+     "a": "106000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Concatenation and Repetition Lengths' refers to.",
+     "a": "Joining two strings with + forms a new string whose length is the sum of both lengths, and repeating with * multiplies the length by the copy count; neither operation changes the original strings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concatenation and Repetition Lengths'.",
+     "a": "Both operators build fresh strings, which is why the originals still print unchanged afterwards.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Concatenation and Repetition Lengths', in plain ASCII form.",
+     "a": "after_rep = (first_len + second_len) * copies",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.4",
+   "title": "Sum of Digits Hidden in a String",
+   "questions": [
+    {
+     "q": "Using the method 'Sum of Digits Hidden in a String', work with: code1 = 18, code2 = 75, code3 = 120. Carry the chain through step by step and give the final value of digit_sum.",
+     "a": "69 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sum of Digits Hidden in a String' and work with: code1 = 100, code2 = 150, code3 = 10. Carry the chain through step by step and give the final value of digit_sum.",
+     "a": "116 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sum of Digits Hidden in a String' refers to.",
+     "a": "A string may carry digit characters among letters; each digit character has an ASCII code 48 more than its face value, so subtracting 48 from the code turns the character into its number before the values are totalled.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sum of Digits Hidden in a String'.",
+     "a": "Character zero has code 48, so every digit character converts by dropping 48 from its code.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sum of Digits Hidden in a String', in plain ASCII form.",
+     "a": "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.5",
+   "title": "Counting Alphabets, Digits and Symbols in a Line",
+   "questions": [
+    {
+     "q": "Using the method 'Counting Alphabets, Digits and Symbols in a Line', work with: alphabets = 360, digits = 8, spaces = 360, specials = 50. Carry the chain through step by step and give the final value of total_check.",
+     "a": "778 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Counting Alphabets, Digits and Symbols in a Line' and work with: alphabets = 8, digits = 100, spaces = 500, specials = 100. Carry the chain through step by step and give the final value of total_check.",
+     "a": "708 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Counting Alphabets, Digits and Symbols in a Line' refers to.",
+     "a": "Traversing a line character by character sorts each one into a bucket: alphabets, digits, special symbols or whitespace; adding the four bucket counts must reproduce the total character count returned by len().",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Counting Alphabets, Digits and Symbols in a Line'.",
+     "a": "A counter that increments inside an if branch per category is the standard pattern for this classification.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Counting Alphabets, Digits and Symbols in a Line', in plain ASCII form.",
+     "a": "total_check = alphabets + digits + specials + spaces",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.6",
+   "title": "Built-in Methods for String Manipulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Built-in Methods for String Manipulation' refers to.",
+     "a": "Python ships string methods such as upper(), lower(), title(), count(), find(), index(), replace(), split(), join(), partition(), strip() and endswith(); find() answers -1 for a missing substring while index() raises ValueError instead.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Built-in Methods for String Manipulation'.",
+     "a": "Methods never edit the original string; each one hands back a new value because strings cannot change.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Built-in Methods for String Manipulation', in plain ASCII form.",
+     "a": "str1.count(word) -> occurrences; str1.find(word) -> first index or -1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.7",
+   "title": "Palindrome Check by Two Indices",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Palindrome Check by Two Indices' refers to.",
+     "a": "A palindrome reads the same in both directions; the check walks one index from the start and one from the end towards the middle, and any mismatched pair proves the string is not a palindrome.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Palindrome Check by Two Indices'.",
+     "a": "Comparing only half the string suffices, because the two indices meet in the middle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Palindrome Check by Two Indices', in plain ASCII form.",
+     "a": "front = 0, back = size - 1, move inward until front >= back",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs108.8",
+   "title": "Immutability and Membership of Strings",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Immutability and Membership of Strings' refers to.",
+     "a": "A string cannot be edited in place: assigning to one of its positions raises TypeError, so every apparent change builds a new string; the in and not in operators test whether one string occurs inside another, answering True or False.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Immutability and Membership of Strings'.",
+     "a": "Immutability is the reason methods such as replace() must hand back a fresh string rather than patch the old one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Immutability and Membership of Strings', in plain ASCII form.",
+     "a": "str1[1] = 'a' -> TypeError; 'Wor' in str1 -> True",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_012",
+   "title": "c10_chem_cbse_02_012",
+   "questions": [
+    {
+     "q": "Write the chemical formula of bleaching powder and state the two raw materials used in its industrial preparation.",
+     "a": "Correct answer: Bleaching powder is CaOCl₂ (calcium oxychloride). It is prepared by passing chlorine gas over dry slaked lime [Ca(OH)₂]. A wrong answer like \"CaCl₂\" or \"Ca(OCl)₂\" reveals confusion between bleaching powder and calcium chloride/calcium hypochlorite. Writing \"wet slaked lime\" instead of \"dry slaked lime\" shows ignorance of the critical condition that moisture hydrolyses the product.",
+     "self_check": true
+    },
+    {
+     "q": "Why does baking soda (NaHCO₃) release CO₂ when heated, while washing soda (Na₂CO₃·10H₂O) does not? Explain using the concept of thermal decomposition.",
+     "a": "Correct answer: Baking soda is a hydrogen carbonate (HCO₃⁻) which decomposes on heating to give carbonate (CO₃²⁻), water, and CO₂: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂↑. Washing soda is already a carbonate (CO₃²⁻) and only loses water of crystallisation on heating, not CO₂. A student who says \"both give CO₂\" or \"washing soda gives CO₂ because it has carbonate\" confuses the thermal stability of carbonate vs hydrogen carbonate ions.",
+     "self_check": true
+    },
+    {
+     "q": "A student heats 16.8 g of baking soda (NaHCO₃) strongly until constant mass. Calculate the mass of solid residue left and the volume of CO₂ gas evolved at STP. (Molar masses: NaHCO₃ = 84 g/mol, Na₂CO₃ = 106 g/mol, CO₂ = 44 g/mol; molar volume at STP = 22.4 L/mol)",
+     "a": "Step 1: Write balanced equation: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).\nStep 2: Moles of NaHCO₃ = 16.8 g / 84 g/mol = 0.2 mol.\nStep 3: From stoichiometry, 2 mol NaHCO₃ give 1 mol Na₂CO₃ and 1 mol CO₂. So 0.2 mol NaHCO₃ gives 0.1 mol Na₂CO₃ and 0.1 mol CO₂.\nStep 4: Mass of Na₂CO₃ residue = 0.1 mol × 106 g/mol = 10.6 g.\nStep 5: Volume of CO₂ at STP = 0.1 mol × 22.4 L/mol = 2.24 L.\nAnswer: Residue = 10.6 g; CO₂ volume = 2.24 L.\nA wrong mass (e.g., 16.8 g or 5.3 g) reveals inability to use stoichiometric coefficients; wrong volume (e.g., 4.48 L) shows forgetting the 2:1 mole ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chemical changes when plaster of Paris is mixed with water versus when washing soda is dissolved in water. Identify the type of change (chemical/physical) in each case and justify.",
+     "a": "Correct answer: Plaster of Paris (CaSO₄·½H₂O) + water → Gypsum (CaSO₄·2H₂O) — a **chemical change** (exothermic, new substance with different crystal structure and hydration state). Washing soda (Na₂CO₃·10H₂O) dissolving in water → aqueous Na₂CO₃ + water — a **physical change** (no new substance, only dissociation into ions, reversible by evaporation). A student calling both \"physical\" misses the irreversible setting reaction of plaster; calling both \"chemical\" fails to recognise that hydration of ions is physical.",
+     "self_check": true
+    },
+    {
+     "q": "A label on a bottle reads \"Bleaching Powder — 35% available chlorine\". A student claims this means the sample contains 35% Cl₂ gas by mass. Evaluate this claim and explain what \"available chlorine\" actually means.",
+     "a": "The claim is **incorrect**. \"Available chlorine\" refers to the chlorine liberated as Cl₂ gas when bleaching powder is treated with excess acid (e.g., dilute H₂SO₄), measured as a percentage by mass. It does not mean free Cl₂ gas is present in the solid. The reaction: CaOCl₂ + H₂SO₄ → CaSO₄ + H₂O + Cl₂↑. A 35% label means 100 g sample releases 35 g Cl₂ gas on acidification. A student who agrees with the claim confuses \"available chlorine\" (a measure of oxidising power) with actual Cl₂ content.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between samples of baking soda and washing soda using only dilute hydrochloric acid and lime water (calcium hydroxide solution). Write the observations and chemical equations.",
+     "a": "Procedure: Take two test tubes, add a spatula of each powder, add dilute HCl, and pass the gas evolved through lime water.\nObservation for baking soda: Brisk effervescence, gas turns lime water milky (CO₂).\nObservation for washing soda: Effervescence, gas turns lime water milky (CO₂) — **but slower because washing soda is a stronger base and reacts less vigorously? Actually both give CO₂ with acid. Wait, washing soda (Na₂CO₃) + 2HCl → 2NaCl + H₂O + CO₂. Baking soda: NaHCO₃ + HCl → NaCl + H₂O + CO₂. Both give CO₂. So this test does NOT distinguish them.**\nBetter test: Heat a small amount of each in a dry test tube. Baking soda decomposes giving CO₂ (turns lime water milky) and leaves Na₂CO₃ residue. Washing soda only loses water of crystallisation (condensation on cooler part of tube), no CO₂.\nA good answer uses thermal decomposition, not acid test. A poor answer uses acid test and claims difference in rate, showing lack of understanding that both carbonates/hydrogen carbonates give CO₂ with acid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

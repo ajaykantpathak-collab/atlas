@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_007",
+   "title": "c12_psy_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the three functional units of the brain in the PASS model and state the primary role of each.",
+     "a": "The three functional units are: (1) Arousal/Attention — maintains optimal alertness and focuses on relevant stimuli; (2) Simultaneous and Successive Processing — codes information either as integrated patterns (simultaneous) or serial sequences (successive); (3) Planning — sets goals, selects strategies, monitors and evaluates performance. A wrong answer that merges Simultaneous and Successive into one \"processing\" unit reveals the misconception that they are a single process rather than two distinct coding modes.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads a paragraph and understands the main idea by connecting key sentences, but cannot recall the exact order of events. Which PASS component is strong and which is weak? Explain in your own words.",
+     "a": "Strong: Simultaneous Processing (integrating relations among concepts to grasp the gist). Weak: Successive Processing (serial recall of temporal order). If the student reverses the labels, they confuse pattern integration with sequential chaining — a common error because both involve \"putting information together\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute classroom activity that specifically engages the Planning component of PASS. Describe the task, the planning demand, and how you would observe planning in action.",
+     "a": "Task: \"Build the tallest free-standing tower using 20 paper cups and 1 sheet of A4 paper in 5 minutes.\" Planning demand: Students must set a goal, devise a strategy (e.g., wide base vs. narrow), monitor stability, and modify approach if it topples. Observation: Listen for verbalised plans (\"Let's try a pyramid\"), watch for strategy shifts after failure, and note evaluation (\"This base is too narrow\"). A response that only describes the tower-building without explicit goal-setting/monitoring misses the Planning component's metacognitive nature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the PASS model's view of attention with the \"Selective, Sustained, Divided\" attention types from Class 11 (c11_psy_cbse_04_006). What does PASS add that the earlier classification does not?",
+     "a": "Class 11 attention types describe *what* attention does (select, sustain, divide). PASS redefines attention as *Arousal/Attention* — a neurological prerequisite that regulates the *level* of alertness for any cognitive act, not just a type of focus. PASS adds the concept of optimal arousal (Yerkes-Dodson link) and its direct coupling with processing and planning. A student who merely lists selective/sustained/divided again has not grasped the shift from behavioural categories to a functional brain system.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The PASS model replaces the need for IQ tests because it measures brain functions directly.\" Use evidence from the NCERT text and the nature of CAS.",
+     "a": "The statement is flawed. CAS (Cognitive Assessment System) is *itself* a standardised test battery that yields scores comparable to IQ; it does not measure brain functions directly (no neuroimaging). PASS provides a *theoretical framework* for interpreting test performance in terms of cognitive processes, not a replacement for assessment. NCERT states CAS \"measures basic cognitive functions presumed to be independent of schooling\" — still a psychometric tool. A student agreeing with the statement confuses theoretical explanation with measurement method.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-life scenario (not from the textbook) where Simultaneous and Successive processing interact sequentially, and identify the exact moment the shift occurs.",
+     "a": "Scenario: A chef inventing a new recipe. Simultaneous: visualising the final dish, balancing flavors, textures, colors as an integrated whole. Shift moment: When writing the step-by-step recipe card for the kitchen staff — now the chef must linearly sequence actions (chop, sauté, simmer, plate) — Successive processing takes over. A good answer shows clear interaction and a defined transition point; a poor answer lists simultaneous and successive tasks separately without showing how one feeds into the other.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

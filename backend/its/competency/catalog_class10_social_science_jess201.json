@@ -1,0 +1,648 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "Development: Income, Public Facilities and Sustainability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess201.txt",
+ "concepts": [
+  {
+   "id": "jess.201.1.1",
+   "title": "Different People, Different Developmental Goals",
+   "section": "What Development Promises",
+   "definition": "Each person pictures progress through the lens of their own life situation, so a landless labourer may want regular work and better wages while a prosperous farmer may want higher support prices, and goals of different groups can even conflict.",
+   "formula": "",
+   "key_idea": "What is development for one person may be destructive for another, as when a large dam brings electricity to industry but submerges the land of displaced tribals.",
+   "textbook_ref": "jess201.txt lines 185-258, 204-255",
+   "question_patterns": [
+    "why do different persons have different notions of development",
+    "give examples of conflicting developmental goals",
+    "what may be development for one may be destructive for another explain",
+    "list the developmental goals of a landless rural labourer",
+    "how do the aspirations of an urban unemployed youth differ from those of a farmer",
+    "why can development goals of two groups clash"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the person's situation",
+     "explain": "Place the person in their life situation, such as landless labourer, rain-dependent farmer, urban unemployed youth, or adivasi from the Narmada valley."
+    },
+    {
+     "step": 2,
+     "action": "match goal to situation",
+     "explain": "Check the aspiration fits the situation: more days of work and better wages for labourers, higher support prices for prosperous farmers, freedom and education for a girl seeking equality with her brother."
+    },
+    {
+     "step": 3,
+     "action": "test for conflict",
+     "explain": "Confirm whether one group's gain harms another, such as industrialists wanting more dams while displaced people prefer small check dams or tanks."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.1.2",
+   "title": "Income and Other Goals in Life",
+   "section": "Income and Other Goals",
+   "definition": "Besides more income, people seek equal treatment, freedom, security and respect, and these non-material goods matter because money cannot buy everything needed for a good life.",
+   "formula": "",
+   "key_idea": "A job with lower pay but regular employment may give a stronger sense of security than a highly paid post with no security, showing that people weigh a mix of goals.",
+   "textbook_ref": "jess201.txt lines 262-377",
+   "question_patterns": [
+    "why is more income not the only goal of development",
+    "give examples where factors other than income are important",
+    "how do freedom and security shape job choices",
+    "what non material things do people seek besides income",
+    "how does paid work affect the dignity of women",
+    "explain why material goods are not all that we need"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate material from non-material goals",
+     "explain": "Income and goods bought with money are material; equal treatment, freedom, security and respect are non-material goals."
+    },
+    {
+     "step": 2,
+     "action": "test the job comparison",
+     "explain": "Compare jobs on pay, regularity, working atmosphere, family time and opportunity to learn to see why income alone cannot rank them."
+    },
+    {
+     "step": 3,
+     "action": "verify the mixed-goal reasoning",
+     "explain": "Confirm the answer treats development as a mix of goals, for example safe environments letting more women take up jobs or run businesses."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.1",
+   "title": "Comparing Countries by Per Capita Income",
+   "section": "How to Compare Different Countries or States",
+   "definition": "Countries are compared using average income, computed by dividing the total income of a country by its total population, and this average is called per capita income.",
+   "formula": "per_capita_income = total_income / total_population",
+   "key_idea": "World Development Reports classify countries by per capita income, placing rich countries far above low-income countries, with India in the low middle income group.",
+   "textbook_ref": "jess201.txt lines 576-618",
+   "question_patterns": [
+    "how is per capita income of a country calculated",
+    "why is total income not useful for comparing countries",
+    "what criterion does the world bank use to classify countries",
+    "calculate the per capita income from total income and population",
+    "into which income category does india fall",
+    "define average income and per capita income"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total income by population",
+     "explain": "Divide the total income of the country by its total population to get the average income per person",
+     "compute": "per_capita_income = total_income / total_population"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.2",
+   "title": "Average Income of a Group of Persons",
+   "section": "Average Income",
+   "definition": "The average income of a small group, such as the citizens of a model country, is the sum of all their incomes divided by the number of persons, and averages hide disparities in distribution.",
+   "formula": "average_income = total_income / number_of_persons",
+   "key_idea": "Two countries with identical averages can differ sharply in equity: one with similar incomes for all is preferred to one where most people are poor and one person is extremely rich.",
+   "textbook_ref": "jess201.txt lines 629-703",
+   "question_patterns": [
+    "calculate the average income of the citizens from the given table",
+    "find the mean monthly income of a group of persons",
+    "why do averages hide disparities in income distribution",
+    "which of two countries with the same average income is preferred and why",
+    "compute the average income for country a and country b",
+    "what limitation of averages does the rich and poor country example show"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add all incomes",
+     "explain": "Sum the monthly incomes of every person in the group",
+     "compute": "total_income = income_1 + income_2 + income_3 + income_4 + income_5"
+    },
+    {
+     "step": 2,
+     "action": "divide by the group size",
+     "explain": "Divide the combined income by the number of persons to get the average",
+     "compute": "average_income = total_income / 5"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.3",
+   "title": "Missing Family Income from the Group Average",
+   "section": "Average Income",
+   "definition": "When the average income of a group is known along with all but one member's income, the unknown income equals the group average multiplied by the number of members, minus the sum of the known incomes.",
+   "formula": "unknown_income = average_income * number_of_persons - known_income_total",
+   "key_idea": "This reversal of the average formula shows how averages constrain every member, as in the textbook case of four families with average income Rs 5000.",
+   "textbook_ref": "jess201.txt lines 1354-1374, 629-703",
+   "question_patterns": [
+    "find the income of the fourth family given the average income of four families",
+    "calculate the missing income when the group average is known",
+    "the average per capita income of four families is given find the unknown income",
+    "how do you work backwards from an average to a missing value",
+    "what is the income of the remaining family if three incomes and the average are known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rebuild the group total",
+     "explain": "Multiply the group average by the number of families to get the combined income",
+     "compute": "total_income = average_income * number_of_families"
+    },
+    {
+     "step": 2,
+     "action": "subtract the known incomes",
+     "explain": "Subtract the sum of the known family incomes from the combined income to isolate the missing income",
+     "compute": "unknown_income = total_income - known_income_total"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.1",
+   "title": "Income and Other Criteria: Kerala versus Haryana",
+   "section": "Income and Other Criteria",
+   "definition": "States with higher per capita income can still lag on health and education, because money cannot buy a pollution-free environment, unadulterated medicines or protection from infectious disease unless the whole community is served.",
+   "formula": "",
+   "key_idea": "Haryana has the higher per capita income but Kerala has far lower Infant Mortality and higher literacy and net attendance, so public facilities matter as much as income.",
+   "textbook_ref": "jess201.txt lines 775-937",
+   "question_patterns": [
+    "why does kerala have a better human development ranking than haryana",
+    "is per capita income alone a useful criterion to compare states",
+    "what does infant mortality rate indicate",
+    "why is money in your pocket not enough to buy all you need to live well",
+    "compare haryana and bihar on literacy and attendance",
+    "what are public facilities and why are they needed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the indicator table",
+     "explain": "Compare per capita income with Infant Mortality Rate, literacy rate and net attendance ratio for Haryana, Kerala and Bihar."
+    },
+    {
+     "step": 2,
+     "action": "spot the paradox",
+     "explain": "Note that Haryana's higher income coexists with an infant mortality nearly three times Kerala's, showing income is not an adequate indicator."
+    },
+    {
+     "step": 3,
+     "action": "verify the public facilities argument",
+     "explain": "Confirm the reasoning that collective provision of health, education and clean environment is the cheapest and best way to supply goods markets cannot sell to individuals."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.2",
+   "title": "Infant Mortality Rate from Birth and Death Data",
+   "section": "Public Facilities",
+   "definition": "Infant Mortality Rate counts the children who die before completing one year of age for every 1000 live children born in that year, so it is computed from the number of infant deaths and live births.",
+   "formula": "imr = infant_deaths / live_births * 1000",
+   "key_idea": "Kerala's IMR of 6 against Haryana's 28 per 1000 shows how health outcomes diverge even within one country.",
+   "textbook_ref": "jess201.txt lines 837-846, 859-868",
+   "question_patterns": [
+    "calculate the infant mortality rate from births and infant deaths",
+    "find the imr per 1000 live births for a state",
+    "what is the definition of infant mortality rate",
+    "how many children per thousand died before one year of age",
+    "compare the imr of kerala and haryana",
+    "compute the death proportion of infants for a given year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale deaths to a thousand births",
+     "explain": "Divide the number of infant deaths by the number of live births and multiply by 1000",
+     "compute": "imr = infant_deaths / live_births * 1000"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.3",
+   "title": "Net Attendance Ratio of School Children",
+   "section": "Public Facilities",
+   "definition": "The Net Attendance Ratio is the total number of children of the 15-17 year age group attending school expressed as a percentage of all children in that age group.",
+   "formula": "attendance_ratio = children_attending / children_total * 100",
+   "key_idea": "With about one-third of Bihar's 15-17 year olds out of secondary school, attendance data expose gaps that income averages miss.",
+   "textbook_ref": "jess201.txt lines 816-846, 901-913",
+   "question_patterns": [
+    "calculate the net attendance ratio from enrolment data",
+    "find the percentage of children attending secondary school",
+    "what does net attendance ratio measure",
+    "how many children per hundred in the age group attend school",
+    "compute the attendance ratio of a state given school data",
+    "why does the attendance ratio matter for development"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express attendance as a percentage",
+     "explain": "Divide the number of children attending school by the total children in the age group and multiply by 100",
+     "compute": "attendance_ratio = children_attending / children_total * 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.4.1",
+   "title": "Human Development Index of UNDP",
+   "section": "Human Development Index",
+   "definition": "The Human Development Index published in the Human Development Report ranks countries by health, education and income together, placing people and their well being at the centre of development.",
+   "formula": "",
+   "key_idea": "Sri Lanka, a small neighbour, ranks ahead of India, and Nepal and Bangladesh beat India in life expectancy despite lower per capita income, which shows why UNDP uses broader criteria than the World Bank.",
+   "textbook_ref": "jess201.txt lines 1061-1130, 1401-1410",
+   "question_patterns": [
+    "how is the undp criterion different from the world bank criterion",
+    "what does hdi stand for and what does it measure",
+    "which neighbouring countries perform better than india in human development",
+    "why is sri lanka ahead of india in human development",
+    "what new components have been added to the human development report",
+    "why do nepal and bangladesh beat india in life expectancy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the index components",
+     "explain": "HDI combines health (life expectancy), education (literacy, enrolment) and income rather than income alone."
+    },
+    {
+     "step": 2,
+     "action": "compare the two institutions",
+     "explain": "The World Bank classifies by per capita income while UNDP ranks by the broader human development record."
+    },
+    {
+     "step": 3,
+     "action": "verify with neighbour data",
+     "explain": "Check the table: Sri Lanka's rank ahead of India, and Nepal and Bangladesh leading on life expectancy despite lower income."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.5.1",
+   "title": "Body Mass Index of Students",
+   "section": "Body Mass Index",
+   "definition": "Body Mass Index is a nutrition measure found by dividing a person's weight in kilograms by the square of height in metres, with low values signalling undernourishment and high values overweight.",
+   "formula": "bmi = weight_kg / (height_m * height_m)",
+   "key_idea": "Recording each student's weight and height, converting centimetres to metres, and computing BMI lets a class screen for undernourished or overweight members without body shaming.",
+   "textbook_ref": "jess201.txt lines 1132-1156",
+   "question_patterns": [
+    "calculate the body mass index from weight and height",
+    "find the bmi of a student weighing kilograms and metres tall",
+    "how is body mass index computed",
+    "what bmi value marks a boy of fifteen as overweight",
+    "compute the bmi after converting height from centimeters to meters",
+    "why do nutrition scientists use body mass index"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the height",
+     "explain": "Multiply the height in metres by itself",
+     "compute": "height_sq = height_m * height_m"
+    },
+    {
+     "step": 2,
+     "action": "divide weight by squared height",
+     "explain": "Divide the weight in kilograms by the squared height to get the body mass index",
+     "compute": "bmi = weight_kg / height_sq"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.6.1",
+   "title": "Sustainability of Development and Groundwater Overuse",
+   "section": "Sustainability of Development",
+   "definition": "Development is sustainable only when future generations can also maintain it, yet about 300 districts have seen groundwater levels fall over four metres in two decades and nearly one-third of the country is overusing its groundwater reserves.",
+   "formula": "",
+   "key_idea": "Groundwater overuse concentrates in agriculturally prosperous Punjab and Western U.P., the hard rock plateau areas of central and south India, some coastal areas and fast-growing urban settlements.",
+   "textbook_ref": "jess201.txt lines 1205-1280",
+   "question_patterns": [
+    "why is the issue of sustainability important for development",
+    "why is groundwater overused in india",
+    "can there be development without overuse of groundwater",
+    "which regions show the most groundwater overuse",
+    "what does the evidence say about declining water levels",
+    "explain the idea that we have borrowed the world from our children"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the sustainability test",
+     "explain": "Ask whether the present level and type of development can be maintained for future generations."
+    },
+    {
+     "step": 2,
+     "action": "cite the groundwater evidence",
+     "explain": "Recall 300 districts with water level declines of over 4 metres in 20 years and one-third of the country overusing reserves, rising to 60 per cent in 25 years if current use continues."
+    },
+    {
+     "step": 3,
+     "action": "identify the pressure points",
+     "explain": "Locate overuse in Punjab and Western U.P., central and south Indian hard rock plateaus, coastal belts and growing urban settlements, then judge remedies that restrain extraction."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess201.txt lines 576-600",
+   "concept": "jess.201.2.1",
+   "question_type": "compute_per_capita",
+   "question_pattern": "A country has a total income of {total_income} million dollars and a total population of {total_population} million. Calculate its per capita income.",
+   "extracted_variables": {
+    "total_income": 2200000,
+    "total_population": 1400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total income by population",
+     "explain": "Divide the total income of the country by its total population to get the average income per person",
+     "compute": "per_capita_income = total_income / total_population"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess201.txt lines 576-600",
+   "concept": "jess.201.2.1",
+   "question_type": "compute_per_capita",
+   "question_pattern": "The national income of a state is {total_income} crore rupees and its population is {total_population} lakh. Find the per capita income in rupees.",
+   "extracted_variables": {
+    "total_income": 60000,
+    "total_population": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total income by population",
+     "explain": "Divide the total income of the country by its total population to get the average income per person",
+     "compute": "per_capita_income = total_income / total_population"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess201.txt lines 629-703",
+   "concept": "jess.201.2.2",
+   "question_type": "compute_average",
+   "question_pattern": "Five citizens of a country earn monthly incomes of {income_1}, {income_2}, {income_3}, {income_4} and {income_5} rupees. Calculate the average monthly income of the country.",
+   "extracted_variables": {
+    "income_1": 9500,
+    "income_2": 10500,
+    "income_3": 9800,
+    "income_4": 10000,
+    "income_5": 10200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add all incomes",
+     "explain": "Sum the monthly incomes of every person in the group",
+     "compute": "total_income = income_1 + income_2 + income_3 + income_4 + income_5"
+    },
+    {
+     "step": 2,
+     "action": "divide by the group size",
+     "explain": "Divide the combined income by the number of persons to get the average",
+     "compute": "average_income = total_income / 5"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess201.txt lines 629-703",
+   "concept": "jess.201.2.2",
+   "question_type": "compute_average",
+   "question_pattern": "In a model economy of five people the monthly incomes are {income_1}, {income_2}, {income_3}, {income_4} and {income_5} rupees. Work out the average income and say whether it hides disparity.",
+   "extracted_variables": {
+    "income_1": 500,
+    "income_2": 500,
+    "income_3": 500,
+    "income_4": 500,
+    "income_5": 48000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add all incomes",
+     "explain": "Sum the monthly incomes of every person in the group",
+     "compute": "total_income = income_1 + income_2 + income_3 + income_4 + income_5"
+    },
+    {
+     "step": 2,
+     "action": "divide by the group size",
+     "explain": "Divide the combined income by the number of persons to get the average",
+     "compute": "average_income = total_income / 5"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jess201.txt lines 1354-1374",
+   "concept": "jess.201.2.3",
+   "question_type": "compute_missing_income",
+   "question_pattern": "The average per capita income of four families is {average_income} rupees. Three families earn {known_income_total} rupees together. What is the income of the fourth family?",
+   "extracted_variables": {
+    "average_income": 5000,
+    "known_income_total": 14000,
+    "number_of_families": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rebuild the group total",
+     "explain": "Multiply the group average by the number of families to get the combined income",
+     "compute": "total_income = average_income * number_of_families"
+    },
+    {
+     "step": 2,
+     "action": "subtract the known incomes",
+     "explain": "Subtract the sum of the known family incomes from the combined income to isolate the missing income",
+     "compute": "unknown_income = total_income - known_income_total"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jess201.txt lines 1354-1374",
+   "concept": "jess.201.2.3",
+   "question_type": "compute_missing_income",
+   "question_pattern": "A survey of five households records an average income of {average_income} rupees. The first four households together earn {known_income_total} rupees. Find the income of the fifth household.",
+   "extracted_variables": {
+    "average_income": 8000,
+    "known_income_total": 31000,
+    "number_of_families": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rebuild the group total",
+     "explain": "Multiply the group average by the number of families to get the combined income",
+     "compute": "total_income = average_income * number_of_families"
+    },
+    {
+     "step": 2,
+     "action": "subtract the known incomes",
+     "explain": "Subtract the sum of the known family incomes from the combined income to isolate the missing income",
+     "compute": "unknown_income = total_income - known_income_total"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jess201.txt lines 837-846",
+   "concept": "jess.201.3.2",
+   "question_type": "compute_rate",
+   "question_pattern": "In a state, {infant_deaths} children out of {live_births} live births died before completing one year. Calculate the infant mortality rate per 1000 live births.",
+   "extracted_variables": {
+    "infant_deaths": 420,
+    "live_births": 100000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale deaths to a thousand births",
+     "explain": "Divide the number of infant deaths by the number of live births and multiply by 1000",
+     "compute": "imr = infant_deaths / live_births * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jess201.txt lines 837-846",
+   "concept": "jess.201.3.2",
+   "question_type": "compute_rate",
+   "question_pattern": "A district recorded {infant_deaths} deaths of children below one year against {live_births} live births in a year. Find its infant mortality rate per thousand live births.",
+   "extracted_variables": {
+    "infant_deaths": 28,
+    "live_births": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale deaths to a thousand births",
+     "explain": "Divide the number of infant deaths by the number of live births and multiply by 1000",
+     "compute": "imr = infant_deaths / live_births * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "jess201.txt lines 816-846",
+   "concept": "jess.201.3.3",
+   "question_type": "compute_ratio",
+   "question_pattern": "In a locality, {children_attending} children out of {children_total} children aged 15 to 17 years attend school. Calculate the net attendance ratio per 100 persons.",
+   "extracted_variables": {
+    "children_attending": 73,
+    "children_total": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express attendance as a percentage",
+     "explain": "Divide the number of children attending school by the total children in the age group and multiply by 100",
+     "compute": "attendance_ratio = children_attending / children_total * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "jess201.txt lines 816-846",
+   "concept": "jess.201.3.3",
+   "question_type": "compute_ratio",
+   "question_pattern": "A survey finds {children_attending} of {children_total} teenagers in the 15-17 age group going to secondary school. Find the net attendance ratio.",
+   "extracted_variables": {
+    "children_attending": 47,
+    "children_total": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express attendance as a percentage",
+     "explain": "Divide the number of children attending school by the total children in the age group and multiply by 100",
+     "compute": "attendance_ratio = children_attending / children_total * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "jess201.txt lines 1132-1156",
+   "concept": "jess.201.5.1",
+   "question_type": "compute_index",
+   "question_pattern": "A student weighs {weight_kg} kg and stands {height_m} metres tall. Calculate the body mass index and say whether it points to undernourishment or overweight.",
+   "extracted_variables": {
+    "weight_kg": 48,
+    "height_m": 1.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the height",
+     "explain": "Multiply the height in metres by itself",
+     "compute": "height_sq = height_m * height_m"
+    },
+    {
+     "step": 2,
+     "action": "divide weight by squared height",
+     "explain": "Divide the weight in kilograms by the squared height to get the body mass index",
+     "compute": "bmi = weight_kg / height_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "jess201.txt lines 1132-1156",
+   "concept": "jess.201.5.1",
+   "question_type": "compute_index",
+   "question_pattern": "Find the body mass index of a boy of fifteen years and six months who weighs {weight_kg} kg and is {height_m} metres tall.",
+   "extracted_variables": {
+    "weight_kg": 62,
+    "height_m": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the height",
+     "explain": "Multiply the height in metres by itself",
+     "compute": "height_sq = height_m * height_m"
+    },
+    {
+     "step": 2,
+     "action": "divide weight by squared height",
+     "explain": "Divide the weight in kilograms by the squared height to get the body mass index",
+     "compute": "bmi = weight_kg / height_sq"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess201.txt lines 1344-1420",
+   "questions": [
+    "Development of a country can generally be determined by (i) its per capita income (ii) its average literacy level (iii) health status of its people (iv) all the above",
+    "Which of the following neighbouring countries has better performance in terms of human development than India? (i) Bangladesh (ii) Sri Lanka (iii) Nepal (iv) Pakistan",
+    "Assume there are four families in a country. The average per capita income of these families is Rs 5000. If the income of three families is Rs 4000, Rs 7000 and Rs 3000 respectively, what is the income of the fourth family?",
+    "What is the main criterion used by the World Bank in classifying different countries? What are the limitations of this criterion, if any?",
+    "In what respects is the criterion used by the UNDP for measuring development different from the one used by the World Bank?",
+    "Why do we use averages? Are there any limitations to their use? Illustrate with your own examples related to development.",
+    "Kerala, with lower per capita income has a better human development ranking than Haryana. Hence, per capita income is not a useful criterion at all and should not be used to compare states. Do you agree? Discuss.",
+    "Find out the present sources of energy that are used by the people in India. What could be the other possibilities fifty years from now?",
+    "Why is the issue of sustainability important for development?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_4",
+   "title": "c8_math_ch14_4",
+   "questions": [
+    {
+     "q": "State the formula for the area of a triangle derived from a parallelogram, and explain what *b* and *h* represent.",
+     "a": "Area = ½ × b × h, where *b* is the length of any side chosen as base, and *h* is the perpendicular distance from the opposite vertex to that base (or its extension). A wrong answer like \"Area = b × h\" reveals the student thinks the triangle equals the whole parallelogram, missing the halving step. An answer swapping *b* and *h* with slant height shows confusion between side length and perpendicular height.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we use *any* side of a triangle as the base when calculating area, but the height must be perpendicular to that chosen base?",
+     "a": "Because the parallelogram is formed by duplicating the triangle along that specific side; the height of the parallelogram is the perpendicular distance between the two parallel sides (the chosen base and its copy). The height must be perpendicular to the base to correctly measure the parallelogram's altitude. If a student says \"height is just another side\", they confuse side length with perpendicular height, a common error especially in obtuse triangles where the height falls outside.",
+     "self_check": true
+    },
+    {
+     "q": "A triangular garden plot has a base of 12 metres and a corresponding height of 7 metres. Find the cost of levelling the garden at ₹50 per square metre.",
+     "a": "Step 1: Area of triangle = ½ × 12 m × 7 m = 42 m². Step 2: Cost = 42 × ₹50 = ₹2100. A wrong answer of 84 m² (forgetting ½) leads to ₹4200. A wrong answer using 12 and 7 as sides of a rectangle (84 m²) shows the student applied rectangle area instead of triangle area.",
+     "self_check": true
+    },
+    {
+     "q": "Two students compute the area of the same triangle. Student A uses base 10 cm and height 6 cm. Student B uses base 8 cm and height 7.5 cm. Both get the same area. Explain why this must be true for any triangle.",
+     "a": "The area of a triangle is unique regardless of which base-height pair is used because each pair corresponds to a different parallelogram formed by duplicating the triangle along that side. All such parallelograms have the same area (twice the triangle's area), so ½ × b₁ × h₁ = ½ × b₂ × h₂. If a student says \"it's a coincidence\", they don't understand the invariance of area under different base choices.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Triangle base = 9 cm, height = 4 cm. Area = 9 × 4 = 36 cm².\" Identify the error and write the correct solution.",
+     "a": "Error: The student used the parallelogram area formula (base × height) without halving. Correct: Area = ½ × 9 cm × 4 cm = 18 cm². If the student says \"I multiplied correctly\", they missed the conceptual link that a triangle is half a parallelogram. This is the most frequent computational error for this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a triangular area must be found using the parallelogram method, and the answer is used to decide between two options (e.g., buying paint, planting crops). Include all necessary measurements.",
+     "a": "Example: \"A farmer has a triangular field with base 50 m and height 30 m. He wants to grow wheat (₹2000 per 100 m²) or rice (₹2500 per 100 m²). Which crop gives higher revenue?\" Good answer: Area = ½ × 50 × 30 = 750 m². Wheat revenue = (750/100)×2000 = ₹15000; Rice = (750/100)×2500 = ₹18750 → Rice is better. A poor answer omits the half, uses wrong units, or doesn't compare revenues, showing inability to apply the concept in a decision context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

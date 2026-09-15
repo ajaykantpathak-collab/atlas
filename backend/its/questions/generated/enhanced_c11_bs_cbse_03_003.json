@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_003",
+   "title": "c11_bs_cbse_03_003",
+   "questions": [
+    {
+     "q": "Name the specific legislation that brings a statutory corporation into existence and state the two key attributes that the legislation defines for the corporation.",
+     "a": "A statutory corporation is created by a **Special Act of Parliament (or State Legislature)**. The Act defines its **objects, powers, and privileges** and the **rules/regulations governing its employees and relationship with government departments**. A wrong answer (e.g., \"Companies Act\" or \"Government notification\") reveals confusion with government companies or departmental undertakings — the student has not grasped that statutory corporations owe their existence *exclusively* to a dedicated legislative statute, not general company law or executive order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the employees of a statutory corporation are NOT considered government servants, and how their service conditions are actually determined.",
+     "a": "Employees are not government servants because the corporation is a **separate legal entity (body corporate)** distinct from the government. Their recruitment, pay, and service conditions are **governed by the provisions of the Special Act itself** (and regulations framed thereunder), not by central/state civil service rules. A wrong answer (e.g., \"They are appointed by the ministry\" or \"They follow IAS rules\") shows the student conflates statutory corporations with departmental undertakings where IAS officers head the unit and staff are civil servants. This is the most common classification error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "The Food Corporation of India (FCI) needs to borrow ₹50,000 crore for buffer stock operations. Can it approach the capital market directly? Justify your answer using the relevant feature of statutory corporations.",
+     "a": "**Yes, FCI can borrow directly from the capital market.** Feature (iv) states: *\"This type of enterprise is usually independently financed. It obtains funds by borrowings from the government or from the public through revenues... It has the authority to use its revenues.\"* Unlike departmental undertakings (which rely solely on budgetary appropriation), statutory corporations have **financial autonomy** to raise loans, issue bonds, and deploy revenues without routing through the Consolidated Fund of India. A wrong answer (\"No, only government can borrow for it\") indicates the student hasn't internalised the \"independently financed\" feature and its operational consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism of a statutory corporation with that of a departmental undertaking. Why does the textbook say statutory corporations are \"not concerned with the central budget\"?",
+     "a": "**Departmental undertaking**: Accountable to the **ministry** → ministry answers to Parliament. Revenue goes to Consolidated Fund; expenditure from budgetary appropriation. **Statutory corporation**: Accountable to **Parliament directly** via its Annual Report (laid on the table) and CAG audit, but **not through the ministry's budget**. \"Not concerned with the central budget\" means its **receipts and payments do not pass through the Consolidated Fund** — it maintains its own fund, borrows independently, and its surplus/deficit doesn't affect the government's fiscal deficit directly. A wrong comparison (e.g., \"Both are audited by CAG so same\") misses the **budgetary separation** which is the core of financial autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Statutory corporations enjoy complete operational flexibility because they are free from government regulation.\" Evaluate this statement using two specific limitations from the textbook.",
+     "a": "The statement is **false**. Two limitations contradict it: (1) **\"All actions are subject to many rules and regulations\"** — the Special Act itself imposes procedural rigidities (e.g., prior approval for certain contracts, borrowing limits). (2) **\"Government and political interference has always been there in major decisions or where huge funds are involved\"** — the government appoints advisors to the Board, and disagreements are referred to the government for final decision, causing delays. Thus, flexibility is **theoretical**, not practical. A student who agrees with the statement has memorised the merit (\"independence in functioning\") without critically reading the limitations that qualify it — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical statutory corporation for managing urban metro rail in a new capital city. Specify: (a) the key clause its establishing Act must contain to ensure financial autonomy, (b) one governance safeguard to limit political interference in daily operations, and (c) why a government company would NOT be preferred for this role.",
+     "a": "(a) **Financial autonomy clause**: \"The Corporation shall maintain its own Metro Fund; all revenues, borrowings, and grants shall be credited thereto; it may raise loans from domestic/international markets without government guarantee; surplus shall not lapse to the Consolidated Fund.\"  \n(b) **Governance safeguard**: \"The Board shall comprise a majority of independent directors with fixed 5-year tenure; the Managing Director shall be appointed by the Board (not the ministry); government nominees ≤ 2; prior government approval required only for decisions exceeding ₹500 crore or strategic alignment.\"  \n(c) **Why not government company**: A government company under Companies Act requires ≥51% government shareholding but is still subject to **Companies Act provisions, SEBI regulations (if listed), and ministry control via shareholder resolutions** — less insulated from bureaucratic micromanagement than a statutory corporation whose *entire constitution* is the Special Act. A weak answer copies features without tailoring clauses to the metro context or fails to contrast with government company structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

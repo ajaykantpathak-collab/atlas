@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class6_social_science_fees114",
+ "concepts": [
+  {
+   "id": "fees.14.1",
+   "title": "The Three Economic Sectors",
+   "questions": [
+    {
+     "q": "Using the method 'The Three Economic Sectors', work with: primary = 3, secondary = 4, tertiary = 100. Carry the chain through step by step and give the final value of sectors.",
+     "a": "107 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Three Economic Sectors' and work with: primary = 45, secondary = 4, tertiary = 80. Carry the chain through step by step and give the final value of sectors.",
+     "a": "129 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Three Economic Sectors' refers to.",
+     "a": "Economic activities are grouped into three sectors by what they do: the primary sector draws goods from nature, the secondary sector makes products, and the tertiary sector provides services that support both.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Three Economic Sectors'.",
+     "a": "Classification brings order: grouping thousands of activities into three sectors shows how the economy fits together.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Three Economic Sectors', in plain ASCII form.",
+     "a": "sectors = primary + secondary + tertiary",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.14.2",
+   "title": "The Primary Sector: Gifts of Nature",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Primary Sector: Gifts of Nature' refers to.",
+     "a": "The primary sector takes what nature offers: farming, livestock rearing, fishing, forestry and mining, the first step of every product we later buy in a shop.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Primary Sector: Gifts of Nature'.",
+     "a": "Every economy begins in the field, the forest, the sea and the mine: nature gives the first goods.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Primary Sector: Gifts of Nature' taught, and from which source text?",
+     "a": "Primary sector (source: fees114.txt, Primary sector)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.14.3",
+   "title": "Secondary and Tertiary Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secondary and Tertiary Sectors' refers to.",
+     "a": "The secondary sector turns raw materials into products in factories, from pharmaceutical plants to furniture units; the tertiary sector provides services such as banking, teaching, transport, software and restaurants that support the other two.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secondary and Tertiary Sectors'.",
+     "a": "Making and serving: the secondary sector builds goods, the tertiary sector moves, sells and supports them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Secondary and Tertiary Sectors' taught, and from which source text?",
+     "a": "Secondary and tertiary sectors (source: fees114.txt, Secondary and tertiary sectors)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.14.4",
+   "title": "How the Sectors Depend on Each Other",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'How the Sectors Depend on Each Other' refers to.",
+     "a": "The sectors form a chain: farms grow cotton, mills weave cloth, shops and transport sell and move it; each sector buys from and sells to the others, so growth in one lifts all.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'How the Sectors Depend on Each Other'.",
+     "a": "No sector stands alone: the shirt on your back is a relay race from field to factory to shop.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'How the Sectors Depend on Each Other' taught, and from which source text?",
+     "a": "Interconnection (source: fees114.txt, Interconnection)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

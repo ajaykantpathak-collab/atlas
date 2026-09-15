@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_071",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_071",
+   "title": "c6_math_ch07_071",
+   "questions": [
+    {
+     "q": "What do we call two lines that cross each other at a single point?",
+     "a": "These are called intersecting lines. A student who says \"parallel\" reveals a fundamental confusion between lines that never meet and lines that cross.",
+     "self_check": true
+    },
+    {
+     "q": "If two lines are perpendicular, what must be true about the angle they make?",
+     "a": "They must meet at a right angle (90 degrees). Answering \"they just touch\" ignores the specific requirement of the 90-degree turn, showing the student hasn't distinguished perpendicular lines from general intersecting ones.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are drawn on a paper. One is horizontal and one is vertical. They meet at a corner. Are they parallel, intersecting, or perpendicular?",
+     "a": "They are perpendicular. A student who says \"intersecting\" is technically correct but incomplete; missing the \"perpendicular\" classification shows they aren't identifying the 90-degree property.",
+     "self_check": true
+    },
+    {
+     "q": "If I extend two parallel lines for 1 kilometre, will they eventually meet? Why?",
+     "a": "No, they will never meet because they maintain a constant distance from each other. Answering \"yes\" suggests the student thinks parallel lines are just \"lines that haven't met yet\" rather than lines that are physically incapable of meeting.",
+     "self_check": true
+    },
+    {
+     "q": "Look at the letter 'H'. Identify the relationship between the two vertical bars and the horizontal bar.",
+     "a": "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars. A student who misses the parallel relationship is not observing the relative positions of all parts of the shape.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a shape using only parallel and perpendicular lines. Explain your choice.",
+     "a": "A rectangle or a square is the best example. A poor answer (like a triangle) reveals the student doesn't understand that parallel/perpendicular lines require specific orientations that triangles don't consistently provide.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

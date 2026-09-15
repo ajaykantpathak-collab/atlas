@@ -1,0 +1,460 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 4,
+ "chapter_title": "Business Services",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees111.txt",
+ "concepts": [
+  {
+   "id": "c11bs.4.1",
+   "title": "Meaning and Types of Business Services",
+   "section": "Introduction to Business Services",
+   "definition": "Business services are intangible activities that support the functioning of business but do not result in ownership of a physical product, and include services such as banking, insurance, transportation, warehousing and communication that facilitate business operations.",
+   "formula": "",
+   "key_idea": "Services are intangible, inseparable, variable and perishable, and they differ from goods because they cannot be stored or owned as physical objects.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are business services and how do they differ from goods?",
+    "Explain the characteristics of services.",
+    "Discuss the different types of business services.",
+    "Why are services called intangible products?",
+    "How do business services support the functioning of a business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define business services as intangible supporting activities",
+     "explain": "Business services are activities that help a business operate smoothly without resulting in ownership of a tangible product, such as banking, insurance and communication."
+    },
+    {
+     "step": 2,
+     "action": "Explain the characteristics that distinguish services from goods",
+     "explain": "Services are intangible, inseparable from the provider, variable in quality and perishable since they cannot be stored, unlike physical goods."
+    },
+    {
+     "step": 3,
+     "action": "List the major types of business services",
+     "explain": "The main types include banking, insurance, transportation, warehousing and communication services, each supporting different aspects of business operations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do services differ from goods in terms of tangibility and storage?",
+     "solution": "Step 1: Goods are tangible physical products that can be stored for future use. Step 2: Services are intangible activities that cannot be seen or touched and are perishable, meaning they cannot be stored. Step 3: Therefore services must be consumed at the time they are provided.",
+     "answer": "Services are intangible and cannot be stored, while goods are tangible physical products that can be stored"
+    },
+    {
+     "question": "List any four types of business services.",
+     "solution": "Step 1: Business services support the operations of a business. Step 2: The major types are banking, insurance, transportation and communication. Step 3: Each of these services plays a distinct supporting role in business.",
+     "answer": "Banking, insurance, transportation and communication services"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define business services. Explain the characteristics that distinguish services from goods and discuss the major types of business services.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any four characteristics of services.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.2",
+   "title": "Banking Services",
+   "section": "Banking",
+   "definition": "Banking services refer to the functions performed by banks which accept deposits from the public, lend money for productive purposes, and facilitate payments and other financial services, acting as financial intermediaries in the economy.",
+   "formula": "",
+   "key_idea": "Banks are the backbone of the financial system, mobilising savings from depositors and channeling them as credit to borrowers, thereby supporting production, trade and economic growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are banking services and what is their role in the economy?",
+    "Explain the primary functions of a bank.",
+    "How do banks act as financial intermediaries?",
+    "Discuss the secondary functions of commercial banks.",
+    "Why are banks called the backbone of the financial system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define banking services and the role of banks",
+     "explain": "Banks accept deposits, grant loans and facilitate payments, acting as intermediaries between savers and borrowers to support the economy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the primary functions of banks",
+     "explain": "Primary functions include accepting deposits in various accounts and lending through overdrafts, cash credit, discounting bills and term loans."
+    },
+    {
+     "step": 3,
+     "action": "Describe the secondary functions and services",
+     "explain": "Secondary functions include agency services like collection of cheques and payment of bills, and general utility services like lockers, foreign exchange and issuing travellers' cheques."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do banks act as financial intermediaries in the economy?",
+     "solution": "Step 1: Banks accept deposits from people who have surplus money. Step 2: They lend this money to those who need it for productive purposes. Step 3: By channeling savings into credit, banks act as intermediaries between savers and borrowers.",
+     "answer": "Banks accept deposits from savers and lend them to borrowers, channeling savings into productive credit"
+    },
+    {
+     "question": "State two primary and two secondary functions of commercial banks.",
+     "solution": "Step 1: Primary functions are accepting deposits and granting loans. Step 2: Secondary functions include agency services and general utility services. Step 3: Examples of secondary functions are collection of cheques and providing locker facilities.",
+     "answer": "Primary: accepting deposits and granting loans; secondary: collection of cheques and locker facilities"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of banking services and discuss the primary and secondary functions of commercial banks.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are banks called the backbone of the financial system?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.3",
+   "title": "Types of Bank Accounts",
+   "section": "Banking",
+   "definition": "Types of bank accounts include savings account, current account, recurring deposit account and fixed deposit account, each designed to meet different needs of depositors regarding liquidity, interest and savings goals.",
+   "formula": "",
+   "key_idea": "Each account type offers a different balance between liquidity, interest earnings and deposit discipline, suited to different categories of customers such as individuals, businesses and savers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the different types of bank accounts available to customers.",
+    "Distinguish between a savings account and a current account.",
+    "What is a recurring deposit account and who should use it?",
+    "Explain the features of a fixed deposit account.",
+    "How does a current account differ from a savings account in terms of interest and transactions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the main types of bank accounts",
+     "explain": "The four main types are savings account, current account, recurring deposit account and fixed deposit account, each serving different depositor needs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of savings and current accounts",
+     "explain": "Savings accounts earn interest and encourage savings habit with limited transactions; current accounts allow unlimited transactions without interest and are meant for businesses."
+    },
+    {
+     "step": 3,
+     "action": "Explain recurring and fixed deposit accounts",
+     "explain": "Recurring deposit accounts require regular fixed deposits over a period earning interest for small savers; fixed deposit accounts involve a lump sum deposited for a fixed period earning higher interest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a current account differ from a savings account?",
+     "solution": "Step 1: A current account allows unlimited transactions and is meant for businesses, while a savings account has restrictions on transactions. Step 2: Current accounts usually do not earn interest, whereas savings accounts earn interest. Step 3: Thus current accounts prioritise liquidity for business while savings accounts encourage saving with interest.",
+     "answer": "Current accounts allow unlimited transactions with no interest; savings accounts have limited transactions and earn interest"
+    },
+    {
+     "question": "Who should prefer a recurring deposit account and why?",
+     "solution": "Step 1: A recurring deposit account requires depositing a fixed amount regularly over a period. Step 2: It suits small savers who can save a small amount each month and earn interest. Step 3: Hence it is ideal for people with regular but modest income who want to build savings.",
+     "answer": "Small savers with regular modest income, because it builds savings through regular fixed deposits with interest"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the different types of bank accounts and the features of each type.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between a fixed deposit account and a recurring deposit account.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.4",
+   "title": "Insurance: Life and General",
+   "section": "Insurance",
+   "definition": "Insurance is a contract between two parties whereby one party, the insurer, agrees to compensate the other party, the insured, for a financial loss caused by an uncertain event in exchange for a premium; it is broadly classified into life insurance and general insurance.",
+   "formula": "",
+   "key_idea": "Life insurance provides protection against the risk of premature death and encourages savings, while general insurance covers risks to property, health, vehicles and other assets against fire, theft, marine and other perils.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is insurance and what are its main types?",
+    "Explain the concept of life insurance and its purpose.",
+    "What is general insurance and what risks does it cover?",
+    "Distinguish between life insurance and general insurance.",
+    "How does insurance help in risk management?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define insurance as a risk-transfer contract based on premium",
+     "explain": "Insurance is an agreement where the insurer compensates the insured for an uncertain loss in exchange for a premium, transferring risk from the insured to the insurer."
+    },
+    {
+     "step": 2,
+     "action": "Explain life insurance and its purpose",
+     "explain": "Life insurance provides financial protection to dependants on the premature death of the insured and also serves as a savings and investment tool through various plans."
+    },
+    {
+     "step": 3,
+     "action": "Explain general insurance and its types",
+     "explain": "General insurance covers risks other than life, including fire insurance, marine insurance, motor insurance, health insurance and theft insurance, protecting property and assets."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does insurance help in risk management?",
+     "solution": "Step 1: Risk of loss from uncertain events cannot be eliminated but can be managed. Step 2: Insurance transfers the financial risk from the insured to the insurer in exchange for a premium. Step 3: Thus insurance helps individuals and businesses manage the financial impact of uncertain losses.",
+     "answer": "By transferring the financial risk of uncertain events from the insured to the insurer for a premium"
+    },
+    {
+     "question": "Distinguish between life insurance and general insurance.",
+     "solution": "Step 1: Life insurance covers the risk of death and also acts as a savings tool. Step 2: General insurance covers risks to property and assets like fire, marine and theft. Step 3: Thus life insurance is about human life while general insurance is about property and other assets.",
+     "answer": "Life insurance covers the risk of death and offers savings; general insurance covers property and asset risks like fire and marine"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define insurance. Explain the meaning of life insurance and general insurance and distinguish between them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any four types of general insurance.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.5",
+   "title": "Principles of Insurance",
+   "section": "Insurance",
+   "definition": "The principles of insurance are the fundamental rules governing insurance contracts, including utmost good faith, insurable interest, indemnity, subrogation, contribution, proximate cause and mitigation of loss, which ensure fairness and prevent misuse of insurance.",
+   "formula": "",
+   "key_idea": "These principles ensure that insurance is used only to compensate for actual losses and not as a source of profit, maintaining the integrity and fairness of the insurance contract.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the principle of utmost good faith in insurance.",
+    "What is insurable interest and why is it necessary?",
+    "Explain the principle of indemnity with an example.",
+    "What is the principle of subrogation in insurance?",
+    "Discuss the principle of proximate cause and its importance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain utmost good faith and insurable interest",
+     "explain": "Utmost good faith requires both parties to disclose all material facts honestly; insurable interest means the insured must have a financial interest in the subject matter of insurance."
+    },
+    {
+     "step": 2,
+     "action": "Explain indemnity, subrogation and contribution",
+     "explain": "Indemnity means compensation only up to the actual loss, not profit; subrogation transfers the insured's rights of recovery to the insurer after payment; contribution allows insurers to share the loss if multiple policies cover the same risk."
+    },
+    {
+     "step": 3,
+     "action": "Explain proximate cause and mitigation of loss",
+     "explain": "Proximate cause identifies the closest dominant cause of loss to decide liability; mitigation of loss requires the insured to take reasonable steps to minimise the loss, as a reasonable person would."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the principle of indemnity with an example.",
+     "solution": "Step 1: The principle of indemnity states that insurance compensates only for the actual loss suffered, not more. Step 2: For example, if a property worth Rs 5 lakh is insured for Rs 10 lakh and is destroyed, the insured gets only Rs 5 lakh. Step 3: Thus insurance restores the insured to the pre-loss position without allowing profit.",
+     "answer": "Insurance compensates only the actual loss, e.g. a Rs 5 lakh property destroyed pays only Rs 5 lakh even if insured for Rs 10 lakh"
+    },
+    {
+     "question": "What is the principle of utmost good faith?",
+     "solution": "Step 1: Utmost good faith requires both insurer and insured to disclose all material facts honestly. Step 2: Concealing important information can make the contract void. Step 3: Hence the insured must reveal all relevant details about the risk being insured.",
+     "answer": "Both parties must honestly disclose all material facts; concealment can void the contract"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five principles of insurance with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the meaning of insurable interest and explain why it is essential in an insurance contract.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.6",
+   "title": "Postal Services",
+   "section": "Communication Services",
+   "definition": "Postal services are the communication services provided by the postal department that facilitate the movement and delivery of letters, parcels and money across the country, including mail services like inland letters, postcards, registered post and speed post, and financial services like money orders.",
+   "formula": "",
+   "key_idea": "The postal network is one of the largest and oldest communication systems in India, providing affordable and reliable mail and financial services even to remote rural areas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are postal services and what is their importance?",
+    "Explain the different types of mail services offered by the post office.",
+    "Discuss the financial services provided by the postal department.",
+    "How do postal services support business communication?",
+    "Why is the postal network important for rural areas?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define postal services and their importance",
+     "explain": "Postal services facilitate the movement of letters, parcels and money across the country, providing an affordable and reliable communication channel for individuals and businesses."
+    },
+    {
+     "step": 2,
+     "action": "Explain the types of mail services",
+     "explain": "Mail services include postcards, inland letters, envelopes, registered post for secure delivery and speed post for fast delivery of articles."
+    },
+    {
+     "step": 3,
+     "action": "Describe the financial and other services",
+     "explain": "Financial services include money orders, postal savings accounts and insurance; these services are especially valuable in rural areas where banking access is limited."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the postal network important for rural areas?",
+     "solution": "Step 1: The postal network has the widest reach across India including remote villages. Step 2: It provides mail and financial services like money orders and savings where banks may be absent. Step 3: Hence it is a vital communication and financial link for rural populations.",
+     "answer": "Because it provides affordable mail and financial services even where banks are absent, reaching remote villages"
+    },
+    {
+     "question": "State two mail services and two financial services offered by the post office.",
+     "solution": "Step 1: Mail services include registered post and speed post. Step 2: Financial services include money orders and postal savings accounts. Step 3: Together these services cover both communication and financial needs.",
+     "answer": "Mail: registered post and speed post; financial: money orders and postal savings accounts"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of postal services and discuss the mail and financial services provided by the postal department.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any four types of mail services offered by the post office.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.7",
+   "title": "Telecommunication Services",
+   "section": "Communication Services",
+   "definition": "Telecommunication services are communication facilities that transmit information over distances through electronic means, including telephone services, mobile services, internet, fax and email, enabling rapid exchange of voice, data and written information.",
+   "formula": "",
+   "key_idea": "Telecommunication services provide fast, reliable and long-distance communication essential for business coordination, information exchange and modern commercial operations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are telecommunication services and why are they important?",
+    "Explain the different types of telecommunication services.",
+    "How do telecommunication services support business operations?",
+    "Discuss the role of the internet in business communication.",
+    "How has mobile telephony changed business communication?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define telecommunication services and their importance",
+     "explain": "Telecommunication services transmit information electronically over distances, enabling fast and reliable communication essential for business and personal use."
+    },
+    {
+     "step": 2,
+     "action": "Explain the types of telecommunication services",
+     "explain": "Types include fixed-line telephone, mobile telephony, internet, fax and email, each providing different modes of voice and data communication."
+    },
+    {
+     "step": 3,
+     "action": "Describe the role of telecom in business",
+     "explain": "Telecom services enable instant coordination, online transactions, data transfer and customer communication, making them indispensable for modern business operations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do telecommunication services support business operations?",
+     "solution": "Step 1: Telecom services allow instant voice and data communication over long distances. Step 2: They enable coordination between offices, online transactions and customer interaction. Step 3: Thus they are essential for efficient and fast business operations.",
+     "answer": "By enabling instant voice and data communication, coordination, online transactions and customer interaction"
+    },
+    {
+     "question": "State any four types of telecommunication services.",
+     "solution": "Step 1: Telecommunication services transmit information electronically. Step 2: The main types are fixed-line telephone, mobile telephony, internet and fax. Step 3: Email is another widely used telecom-based service.",
+     "answer": "Fixed-line telephone, mobile telephony, internet and fax"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of telecommunication services and discuss the different types and their role in business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How has the internet changed the way businesses communicate?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.4.8",
+   "title": "E-Banking",
+   "section": "Banking",
+   "definition": "E-banking or electronic banking is the delivery of banking services through electronic channels such as the internet, mobile phones and ATMs, allowing customers to access accounts, transfer funds, pay bills and conduct transactions without visiting a bank branch.",
+   "formula": "",
+   "key_idea": "E-banking provides anytime, anywhere banking convenience through digital channels, reducing the need for physical branch visits and making transactions faster and more efficient.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is e-banking and what are its advantages?",
+    "Explain the different services available through e-banking.",
+    "How does e-banking benefit customers and banks?",
+    "Discuss the risks and precautions associated with e-banking.",
+    "What is an ATM and how does it facilitate banking?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define e-banking as the electronic delivery of banking services",
+     "explain": "E-banking allows customers to perform banking transactions electronically through internet banking, mobile banking and ATMs without visiting a branch."
+    },
+    {
+     "step": 2,
+     "action": "Explain the services and benefits of e-banking",
+     "explain": "Services include online fund transfer, bill payment, account enquiry and statement viewing; benefits are convenience, speed, 24x7 access and reduced paperwork for customers and banks."
+    },
+    {
+     "step": 3,
+     "action": "Discuss the risks and precautions",
+     "explain": "Risks include online fraud, hacking and unauthorised access; precautions include using secure passwords, not sharing PINs, using trusted networks and regularly checking account statements."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the advantages of e-banking for customers?",
+     "solution": "Step 1: E-banking allows customers to access banking services anytime and anywhere. Step 2: It enables quick fund transfers, bill payments and account enquiries without visiting a branch. Step 3: Thus it offers convenience, speed and 24x7 access to banking services.",
+     "answer": "Convenience, speed, 24x7 access and the ability to transact without visiting a branch"
+    },
+    {
+     "question": "State two risks of e-banking and one precaution to avoid them.",
+     "solution": "Step 1: Risks of e-banking include online fraud and hacking of accounts. Step 2: A precaution is to use strong passwords and never share PINs with anyone. Step 3: Following such precautions helps protect customers from e-banking fraud.",
+     "answer": "Risks: online fraud and hacking; precaution: use strong passwords and never share PINs"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define e-banking. Explain the services available through e-banking and discuss its advantages and risks.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any three precautions a customer should take while using e-banking.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

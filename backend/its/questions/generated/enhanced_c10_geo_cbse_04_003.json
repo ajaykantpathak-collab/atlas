@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_003",
+   "title": "c10_geo_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the three cropping seasons of India and state the typical sowing and harvesting months for each.",
+     "a": "The three seasons are: Kharif (sown June-July, harvested Sept-Oct), Rabi (sown Oct-Nov, harvested Mar-Apr), Zaid (sown Mar-Jun, harvested Jun-Jul). A wrong answer (e.g., swapping Kharif/Rabi months or omitting Zaid) reveals the student has memorised crop names but not the seasonal calendar driven by monsoon onset and withdrawal.",
+     "self_check": true
+    },
+    {
+     "q": "Why is wheat grown as a Rabi crop in the northern plains but can be grown as a Kharif crop in the Himalayan region?",
+     "a": "Wheat requires cool temperatures (10-15°C) during growth and warm, dry weather at harvest. In northern plains, winter provides cool temperatures (Rabi). In Himalayan region, high altitude keeps temperatures cool even in summer monsoon months, allowing Kharif wheat. A wrong answer (e.g., \"wheat needs rain\") shows confusion between water requirement and thermal requirement; wheat is primarily a temperate crop needing cool weather, not monsoon rain.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in central Maharashtra has irrigation facilities. He wants to grow a crop during March to June. Suggest a suitable Zaid crop and justify your choice based on temperature and water requirement.",
+     "a": "Suitable Zaid crop: Watermelon / Muskmelon / Cucumber / Fodder maize.\nJustification: Zaid season (March-June) has high temperature (30-40°C) and long photoperiod. These crops have short duration (60-90 days), thrive in heat, and with irrigation can be grown on residual soil moisture. A wrong suggestion like paddy or wheat shows inability to match crop thermal needs to season; paddy needs flooding and high humidity (Kharif), wheat needs cool weather (Rabi).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climatic requirements of Kharif and Rabi crops using a table with parameters: Temperature range, Rainfall requirement, Photoperiod sensitivity, and Example crops.",
+     "a": "| Parameter | Kharif Crops | Rabi Crops |\n|-----------|--------------|------------|\n| Temperature | High (25-35°C) | Cool (10-20°C) |\n| Rainfall | High (100-200 cm) | Low to moderate (50-100 cm) / irrigation |\n| Photoperiod | Short-day plants (need shortening days) | Long-day plants (need lengthening days) |\n| Examples | Rice, Maize, Cotton, Soybean | Wheat, Barley, Mustard, Gram |\nA wrong comparison (e.g., saying Rabi needs high rain) indicates the student hasn't linked seasons to the monsoon cycle: Kharif coincides with SW monsoon, Rabi with retreating monsoon/winter rains.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Introduction of Zaid cropping has reduced the fallow period in Indian agriculture but increased groundwater extraction.\" Provide two arguments for and two against.",
+     "a": "For: (1) Zaid utilises otherwise fallow summer months, increasing cropping intensity. (2) Provides additional income and fodder. Against: (1) Most Zaid crops (watermelon, sugarcane ratoon, summer rice) are water-intensive, accelerating groundwater depletion in Punjab, Haryana, Rajasthan. (2) High temperature increases evapotranspiration, reducing water use efficiency. A one-sided answer shows lack of critical evaluation of sustainability trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping calendar for a farm in the Krishna-Godavari delta (Andhra Pradesh) showing three crops per year. Specify crops, sowing/harvesting months, and the irrigation source for each.",
+     "a": "Example calendar:\n1. Kharif: Rice (Jun-Oct) - Canal irrigation from Godavari + monsoon rain.\n2. Rabi: Rice (Nov-Mar) - Canal irrigation (delta has perennial canals).\n3. Zaid: Pulses (Green gram) / Vegetables (Mar-Jun) - Residual moisture + light irrigation.\nKey: The delta's alluvial soil and perennial canal network allow triple cropping. A poor answer lists crops unsuited to the region (e.g., wheat in delta) or ignores irrigation source, showing inability to integrate physical geography (soil, water) with cropping pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

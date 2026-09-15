@@ -1,0 +1,337 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 4,
+ "chapter_title": "Queue",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs104.1",
+   "title": "Queue Size after Enqueues and Dequeues",
+   "section": "4.2 and Figure 4.3",
+   "definition": "A queue grows only at its rear and shrinks only at its front, so after any mix of operations the count of elements equals the starting count plus enqueues minus dequeues.",
+   "formula": "final_size = start_size + (enqueues - dequeues)",
+   "key_idea": "In Figure 4.3 three enqueues followed by three dequeues leave the queue holding just V.",
+   "textbook_ref": "lecs104.txt, section 4.2 and Figure 4.3",
+   "question_patterns": [
+    "After enqueue(34), enqueue(54), dequeue, enqueue(12), dequeue, enqueue(61), dequeue, dequeue and enqueue(1), how many elements remain in the queue?",
+    "A queue starts with 2 people, 5 join and 4 are served. How many wait now?",
+    "In the alphabet queue of Figure 4.3, which element is still present after the final dequeue?",
+    "Why can insertion happen only at the rear and deletion only at the front?",
+    "A bank queue of 7 customers sees 3 leave and 2 join. Compute the queue length."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "net effect of the operations",
+     "explain": "Each enqueue adds one person and each successful dequeue removes one.",
+     "compute": "net_change = enqueues - dequeues"
+    },
+    {
+     "step": 2,
+     "action": "update the length",
+     "explain": "Add the net change to the starting length.",
+     "compute": "final_size = start_size + net_change"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A queue starts with 2 elements. After three enqueues and three dequeues, how many elements remain?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.2",
+   "title": "First In First Out Principle",
+   "section": "4.1.1",
+   "definition": "A queue serves elements in arrival order: the earliest entrant leaves first, which is also called First Come First Served; insertion happens at the REAR (tail) and removal at the FRONT (head).",
+   "formula": "longest waiting element -> removed first",
+   "key_idea": "Deleting the letters A, S, D, F one at a time returns them in exactly that order.",
+   "textbook_ref": "lecs104.txt, section 4.1.1",
+   "question_patterns": [
+    "Elements A, S, D and F sit in a queue and are deleted one at a time. Which sequence comes out?",
+    "How does FIFO describe a queue, and which other name does the approach carry?",
+    "Which ends of a queue are called rear and front, and what happens at each?",
+    "Compare a queue with a stack on the order in which elements leave.",
+    "In what order are operations on a queue performed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the service order",
+     "explain": "Read the arrivals, then confirm the departures repeat that same order; any reversal would make the structure a stack instead."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which principle makes the earliest entrant leave a queue first?",
+     "a": "FIFO"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.3",
+   "title": "Applications of Queue in Daily Life",
+   "section": "4.1.2",
+   "definition": "Queues model fair waiting: railway waiting lists confirm W/L1 from the front, customer-care calls wait in an IVRS queue, vehicles exit a single-lane road in entry order, and web servers, OS job schedulers and shared printers serve requests FIFO.",
+   "formula": "requests served in arrival order",
+   "key_idea": "A web server capped at 50 concurrent requests queues the remaining visitors and serves them in turn.",
+   "textbook_ref": "lecs104.txt, section 4.1.2",
+   "question_patterns": [
+    "Why is a queue the best structure for a result server receiving thousands of requests?",
+    "How does a railway waiting list behave like a queue when a confirmed ticket is cancelled?",
+    "Give two daily-life and two computing situations that follow FIFO.",
+    "How does an operating system use a queue to share one processor among many jobs?",
+    "Why are shared printer requests queued on a FIFO basis?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the fairness rule",
+     "explain": "If the rule is first come first served, a queue fits; priority-based or last-first service would need a different structure."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which waiting-list position of a railway booking confirms first?",
+     "a": "W/L1"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.4",
+   "title": "Enqueue, Dequeue and Peek Operations",
+   "section": "4.2",
+   "definition": "ENQUEUE inserts at the rear until capacity ends in overflow, DEQUEUE removes one element from the front until an empty queue causes underflow, PEEK reads the front without deleting it, and IS EMPTY guards the dequeue.",
+   "formula": "overflow -> enqueue on full; underflow -> dequeue on empty",
+   "key_idea": "Peek answers 'who is next' without disturbing the line.",
+   "textbook_ref": "lecs104.txt, section 4.2",
+   "question_patterns": [
+    "Which exceptions arise when enqueue exceeds capacity or dequeue runs on an empty queue?",
+    "What does peek return for the queue holding X, C, V after two dequeues?",
+    "Why is the is empty check needed before every dequeue?",
+    "Insertion and deletion in a queue are known by which two names?",
+    "From which end is deletion performed in a queue, and from which end is insertion performed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the operation outcome",
+     "explain": "A legal operation moves one element at the proper end; an illegal one raises overflow on insertion to a full queue or underflow on deletion from an empty one."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the insert-at-rear operation of a queue called?",
+     "a": "enqueue"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.5",
+   "title": "Queue Implementation Using a Python List",
+   "section": "4.3 and Program 4-1",
+   "definition": "One list serves as the queue: append() enqueues at the rear, pop(0) dequeues from the front, len() gives the size and myQueue[0] peeks, with Python's dynamic lists removing any fear of a full queue.",
+   "formula": "enqueue -> append; dequeue -> pop(0)",
+   "key_idea": "Program 4-1 serves P1 first and then empties the queue in the order P2, P3, P4, P5.",
+   "textbook_ref": "lecs104.txt, section 4.3 and Program 4-1",
+   "question_patterns": [
+    "Which list methods act as enqueue and dequeue, and at which end does each work?",
+    "Why does a Python list-based queue never overflow?",
+    "Write the dequeue function that guards against an empty queue.",
+    "In Program 4-1, in which order do P1 to P5 leave the queue?",
+    "Write a peek function that returns None instead of raising an error on an empty queue.",
+    "How can the printing of None for an empty queue be avoided?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the ends of the list",
+     "explain": "Index 0 acts as front and the last index as rear; append grows the rear while pop(0) shrinks the front."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which list call enqueues at the rear of a Python-list queue?",
+     "a": "append()"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.6",
+   "title": "Deque Size after End Operations",
+   "section": "4.4.2 and Exercise 7",
+   "definition": "A deque, or double-ended queue, allows insertion and deletion at both front and rear; its length after any operation sequence equals the total insertions at both ends minus the total deletions at both ends.",
+   "formula": "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)",
+   "key_idea": "Exercise 7's sequence of three insertions and three deletions leaves the deque empty.",
+   "textbook_ref": "lecs104.txt, sections 4.4.2 and Exercise 7",
+   "question_patterns": [
+    "Starting empty, apply insertFront(12), insertRear(67), deletionFront, insertRear(43), deletionRear, deletionFront and deletionRear. How many elements remain?",
+    "Name the four operations that a deque supports at its two ends.",
+    "In a deque, what does it behave like when insertion and deletion happen at the same end, and what when at opposite ends?",
+    "Which deletion leaves z, x, c, v, b turned into the received order z, b, v, x, c?",
+    "Why can a deque implement both a stack and a queue?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the insertions",
+     "explain": "Front and rear insertions both grow the deque.",
+     "compute": "adds = front_inserts + rear_inserts"
+    },
+    {
+     "step": 2,
+     "action": "total the deletions",
+     "explain": "Deletions from either end both shrink it.",
+     "compute": "removes = front_deletes + rear_deletes"
+    },
+    {
+     "step": 3,
+     "action": "net the length",
+     "explain": "Subtract removals from insertions.",
+     "compute": "final_size = adds - removes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A deque takes 3 insertions and 3 deletions. How many elements remain?",
+     "a": "0"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.7",
+   "title": "Deque Applications and Palindrome Checking",
+   "section": "4.4.1 and Algorithm 4.1",
+   "definition": "A deque fits where both ends matter: a ticket holder re-joins a counter queue from the front, browsers trim least-visited URLs from one end, editors keep do and undo moves, and Algorithm 4.1 checks palindromes by comparing characters removed from both ends.",
+   "formula": "madam -> remove m/m, a/a, then single d -> palindrome",
+   "key_idea": "Removing one character from each end and matching pairs proves madam reads the same both ways.",
+   "textbook_ref": "lecs104.txt, sections 4.4.1 and Algorithm 4.1, Figures 4.5-4.6",
+   "question_patterns": [
+    "How does Algorithm 4.1 use a deque to decide that madam is a palindrome?",
+    "Why may a person who already bought a ticket rejoin the counter queue from the front?",
+    "How does a browser use a deque to keep its history of URLs bounded?",
+    "When can the palindrome scan stop and declare success?",
+    "Give one computing situation each where a deque behaves like a queue and like a stack."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match mirrored ends",
+     "explain": "Load the string through the rear, then repeatedly delete one character from each end; equal pairs continue the scan and any mismatch, or an empty or single-character finish, settles the verdict."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which structure checks palindromes by comparing characters removed from both ends?",
+     "a": "deque"
+    }
+   ]
+  },
+  {
+   "id": "lecs104.8",
+   "title": "Queue versus Stack versus Deque",
+   "section": "4.1 and 4.4",
+   "definition": "The three linear structures differ only in where elements may enter and leave: a stack uses one end (LIFO), a queue uses two fixed ends (FIFO), and a deque permits both operations at both ends, so it can mimic either of the others.",
+   "formula": "stack: 1 end; queue: 2 fixed ends; deque: both ends free",
+   "key_idea": "Same-end operation makes a deque act as a stack; opposite-end operation makes it act as a queue.",
+   "textbook_ref": "lecs104.txt, sections 4.1, 4.4 and Activities 4.3-4.4",
+   "question_patterns": [
+    "Compare and contrast a queue with a stack.",
+    "How is the queue data type different from the deque data type?",
+    "In a deque, insertion and deletion at the same end make it behave like which structure?",
+    "Which structure should hold print jobs and which should hold undo moves, and why?",
+    "Why is a deque called a double-ended queue?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the usable ends",
+     "explain": "One shared end gives a stack, two dedicated ends give a queue, and two free ends give a deque."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which linear structure uses exactly one end for both its operations?",
+     "a": "stack"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs104.we1",
+   "title": "Final length of the exercise 6 queue",
+   "concept_id": "lecs104.1",
+   "problem": "Starting from an empty queue, the operations enqueue(34), enqueue(54), dequeue, enqueue(12), dequeue, enqueue(61), dequeue, dequeue, enqueue(1) run in order (the extra dequeue finds the queue empty and fails). How many elements remain?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count successful operations",
+     "explain": "Five enqueues succeed and four dequeues succeed.",
+     "compute": "net_change = 5 - 4"
+    },
+    {
+     "step": 2,
+     "action": "apply to the empty start",
+     "explain": "The queue began with nothing.",
+     "compute": "final_size = 0 + net_change"
+    }
+   ],
+   "answer_note": "One element, the value 1, is left at the front of the queue."
+  },
+  {
+   "id": "lecs104.we2",
+   "title": "Deque drain in exercise 7",
+   "concept_id": "lecs104.6",
+   "problem": "Starting empty, a deque receives insertFront(12), insertRear(67), then deletionFront, insertRear(43), deletionRear and deletionFront. How many elements does it hold before the final deletionRear attempt?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count insertions",
+     "explain": "Two rear insertions and one front insertion.",
+     "compute": "adds = 1 + 2"
+    },
+    {
+     "step": 2,
+     "action": "count deletions",
+     "explain": "One front and one rear deletion succeed before the last attempt.",
+     "compute": "removes = 1 + 1"
+    },
+    {
+     "step": 3,
+     "action": "net the length",
+     "explain": "Three in, two out leaves one; the next deletionRear then empties it and reports underflow.",
+     "compute": "final_size = adds - removes"
+    }
+   ],
+   "answer_note": "After six operations one element remains; the seventh attempt finds the deque empty and reports underflow."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs104.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 4 Exercise (items reworded)",
+   "questions": [
+    "Fill in: the linear list with insertion and deletion at different ends is a ______; queue operations happen in ______ order; insertion is called ______ and deletion ______; deletion happens from the ______ end.",
+    "Elements A, S, D and F are deleted one by one from a queue. Which sequence is received?",
+    "A deque holds z, x, c, v and b, and the deletions return z, b, v, x, c. Which sequence of deletion operations produces this?",
+    "Compare and contrast a queue with a stack.",
+    "How is the queue data type different from the deque data type?",
+    "Show the status of the queue after each operation: enqueue(34), enqueue(54), dequeue, enqueue(12), dequeue, enqueue(61), peek, dequeue, dequeue, dequeue, dequeue, enqueue(1).",
+    "Show the status of the deque after each operation: peek, insertFront(12), insertRear(67), deletionFront, insertRear(43), deletionRear, deletionFront, deletionRear.",
+    "Write a Python program that checks whether a given string is a palindrome using a deque."
+   ]
+  }
+ ]
+}

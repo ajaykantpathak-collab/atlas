@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_9",
+   "title": "c9_math_ch7_9",
+   "questions": [
+    {
+     "q": "Define an impossible event and give one example.",
+     "a": "An impossible event is an event with probability 0 — it has no favorable outcomes in the sample space and can never occur. Example: Rolling a 7 on a standard six-sided die (faces 1-6) — there is no 7, so P(7) = 0/6 = 0. A wrong answer (e.g., \"an event that is unlikely\") confuses \"unlikely\" (low probability, but not 0) with \"impossible\" (probability exactly 0).",
+     "self_check": true
+    },
+    {
+     "q": "Define a certain event and give one example.",
+     "a": "A certain event is an event with probability 1 — all outcomes in the sample space are favorable, so it must always occur. Example: Rolling a number between 1 and 6 on a standard die — all six faces show numbers in this range, so P(1 to 6) = 6/6 = 1. A wrong answer (e.g., \"an event that is very likely\") confuses \"very likely\" (high probability, but not 1) with \"certain\" (probability exactly 1).",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as impossible, certain, or neither: (a) Drawing a red ball from a bag containing only blue balls. (b) Drawing a blue ball from a bag containing only blue balls. (c) Drawing a blue ball from a bag containing red and blue balls.",
+     "a": "(a) Impossible (P=0) — there are no red balls, so 0 favorable outcomes. (b) Certain (P=1) — all balls are blue, so all outcomes are favorable. (c) Neither (0 < P < 1) — some balls are blue and some are red, so the probability is between 0 and 1. A wrong answer that classifies (c) as \"certain\" or \"impossible\" misunderstands that a mixed bag produces a probability strictly between 0 and 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the probability of any event must lie between 0 and 1 inclusive.",
+     "a": "Probability = (favorable outcomes) / (total outcomes). Since favorable outcomes cannot be negative and cannot exceed total outcomes: 0 <= favorable <= total. Dividing by total: 0 <= favorable/total <= 1. Therefore, 0 <= P <= 1. P = 0 when favorable = 0 (impossible), P = 1 when favorable = total (certain). A wrong answer (e.g., \"because probability is a percentage\") confuses the scale (0 to 1 vs 0% to 100%) with the mathematical reason (ratio of non-negative numbers where numerator <= denominator).",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 3 blue marbles. What is the probability of drawing: (a) a green marble, (b) a red or blue marble, (c) a red marble?",
+     "a": "Total marbles = 5 + 3 = 8. (a) P(green) = 0/8 = 0 (impossible — no green marbles). (b) P(red or blue) = 8/8 = 1 (certain — all marbles are red or blue). (c) P(red) = 5/8 (neither — 5 red out of 8 total). A wrong answer for (c) (e.g., 5/3) inverts the fraction — probability is favorable/total, not total/favorable.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The probability of the sun rising tomorrow is 1, so it is a certain event.\" Evaluate this statement mathematically and explain the difference between mathematical certainty and empirical certainty.",
+     "a": "Mathematically, a certain event has P = 1 because all outcomes in the sample space are favorable. The sun rising is not a mathematical event — it is an empirical event based on physical laws. We assign it P = 1 based on overwhelming empirical evidence (it has happened every day), but this is empirical certainty, not mathematical certainty. In a mathematical model (e.g., a die roll), P = 1 means \"all outcomes are favorable by definition.\" In the real world, P = 1 means \"we are confident based on evidence.\" The distinction matters because mathematical certainty is absolute (by definition), while empirical certainty is based on induction and could theoretically fail. A wrong answer that treats them as identical misses the philosophical distinction between mathematical and empirical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

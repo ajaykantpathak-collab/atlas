@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_002",
+   "title": "c11_eng_h_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define \"frame narrative\" and identify the outer and inner frames in \"The Adventure.\"",
+     "a": "A frame narrative is a story within a story where an outer narrative \"frames\" an inner narrative. In \"The Adventure,\" the outer frame is Professor Gaitonde recovering in a Pune hospital after a truck accident, narrating his experience to his colleague Rajendra Deshpande. The inner frame is Gaitonde's two-day experience in the alternate-history Bombay where the Marathas won the Third Battle of Panipat. A wrong answer (e.g., calling the alternate history the \"main story\" and the hospital scene a \"flashback\") reveals the student cannot distinguish narrative levels and will struggle to analyze how the frame comments on the inner story.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the narrative structure of \"The Adventure\" differs from a conventional linear plot. What specific structural device creates this difference?",
+     "a": "A conventional linear plot follows chronological order: exposition → rising action → climax → falling action → resolution. \"The Adventure\" disrupts this by embedding a complete alternate-history narrative (with its own internal chronology) inside a frame narrative that begins *after* the alternate experience has ended. The structural device is the **frame narrative combined with a catalyst event** (the truck accident) that triggers the transition between narrative levels. A wrong answer that merely lists plot events in order reveals the student sees structure as \"what happens\" rather than \"how the telling is organized,\" a critical distinction for board-level analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the five-stage Freytag's Pyramid (exposition, rising action, climax, falling action, resolution) to the *inner narrative* (the alternate-history Bombay experience) only. Identify the specific textual moment for each stage.",
+     "a": "**Exposition**: Gaitonde arrives at Victoria Terminus, notices the East India Company headquarters, and realizes he is in an alternate Bombay (first 2-3 pages). **Rising Action**: Gaitonde visits the Town Hall library, reads the alternate history books, discovers the Marathas won Panipat, and understands the divergent timeline (library scene). **Climax**: Gaitonde attempts to preside over the lecture at Azad Maidan, is ejected by the crowd, and experiences the physical transition back to reality (Azad Maidan confrontation). **Falling Action**: Gaitonde wakes in the Pune hospital, recounts the experience to Rajendra (hospital scene). **Resolution**: Rajendra explains the experience through catastrophe theory and quantum indeterminacy, validating Gaitonde's journey as a \"transition\" (final dialogue). A wrong answer that mixes outer-frame events (e.g., the truck accident) into the inner narrative's pyramid shows the student cannot isolate narrative levels.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the narrative structure enacts the scientific concepts (catastrophe theory, quantum indeterminacy) that Rajendra explains at the end. Give two specific structural parallels.",
+     "a": "**Parallel 1**: Just as catastrophe theory describes a system suddenly shifting to a radically different state at a critical point, the narrative structure enacts a sudden, discontinuous jump from the outer frame (hospital) to the inner frame (alternate Bombay) at the truck accident—no gradual transition, just a structural \"catastrophe.\" **Parallel 2**: Quantum indeterminacy allows multiple realities to coexist until observed; the frame narrative structure keeps both the \"real\" timeline (Gaitonde in hospital) and the \"alternate\" timeline (Maratha victory) simultaneously present in the text, neither negating the other, until Rajendra's explanation \"collapses\" the narrative wave function. A wrong answer that treats the science as mere \"background info\" rather than structurally embodied misses the meta-fictional sophistication the board rewards.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the frame narrative in \"The Adventure.\" Does it enhance or undermine the reader's engagement with the alternate history? Justify with two textual reasons.",
+     "a": "The frame narrative **enhances** engagement for two reasons: (1) It provides a rational, scientific \"anchor\" (Rajendra's explanation) that prevents the alternate history from feeling like fantasy—grounding the speculative in catastrophe theory makes the imaginative leap intellectually respectable, which is crucial for a science-fiction premise. (2) The frame creates dramatic irony: we know Gaitonde is narrating *after* the event, so the tension shifts from \"what happens?\" to \"how does he return?\"—a more sophisticated suspense. A wrong answer claiming the frame \"distracts\" or \"confuses\" reveals a preference for simple linear storytelling and an inability to see structure as thematic argument.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph alternate opening for \"The Adventure\" that uses a *linear* structure (no frame narrative) but preserves the same core events. Then explain in two sentences how this change alters the story's meaning.",
+     "a": "**Alternate opening**: \"Professor Gaitonde was crossing the road in Pune when a truck struck him. He lost consciousness and dreamed he was in a Bombay where the Marathas had won the Third Battle of Panipat. In this dream, he visited the Town Hall library, read altered history books, and tried to speak at Azad Maidan before the crowd threw him out. He woke up in a hospital bed, where his colleague Rajendra Deshpande explained the dream using catastrophe theory.\" **Effect of change**: Removing the frame narrative reduces the alternate history to a mere \"dream\" or hallucination, stripping it of ontological weight—the frame structure is what forces the reader to take the alternate timeline as a *realized possibility* rather than a fantasy. The linear version also eliminates the meta-fictional parallel between narrative structure and quantum theory. A poor answer that sees no meaningful difference reveals a fundamental misunderstanding of how structure *is* meaning in literary fiction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

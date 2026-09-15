@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_008",
+   "title": "c11_ip_cbse_02_008",
+   "questions": [
+    {
+     "q": "What is the output of `type(10)` and `type(10.0)` in Python? Explain the difference.",
+     "a": "`type(10)` returns `<class 'int'>` and `type(10.0)` returns `<class 'float'>`. The first is an integer literal (no decimal point), the second is a floating-point literal (decimal point present). A wrong answer (e.g., both are `int` or both are `float`) reveals the student does not recognize that the presence of a decimal point changes the data type, even if the mathematical value is the same.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `x = \"True\"` and `y = True`. They claim both are boolean values because they represent \"truth\". Is the student correct? Justify your answer.",
+     "a": "The student is incorrect. `x = \"True\"` is a string (type `str`) because it is enclosed in quotes, while `y = True` is a boolean (type `bool`). The string `\"True\"` is just text; it cannot be used directly in logical operations like `and`, `or`, `not` without conversion. A wrong answer reveals confusion between the *representation* of a boolean value as text and the actual boolean data type.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output of the following code snippet without running it:\n```python\na = 10\nb = 3\nprint(a / b)\nprint(a // b)\nprint(type(a / b))\nprint(type(a // b))\n```",
+     "a": "Output:\n```\n3.3333333333333335\n3\n<class 'float'>\n<class 'int'>\n```\nDivision `/` always returns a `float` (even if divisible), while floor division `//` returns an `int` when both operands are `int`. A wrong answer (e.g., expecting `int` for `/` or `float` for `//`) reveals misunderstanding of Python 3's division behavior versus Python 2 or mathematical expectation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and precision implications of storing the value `10**100` as an `int` versus as a `float` (i.e., `float(10**100)`). Which representation is exact and why?",
+     "a": "`int` in Python has arbitrary precision, so `10**100` is stored exactly as an integer with 101 digits. `float` uses IEEE 754 double precision (53 bits of significand), so `float(10**100)` is an approximation (it will be represented as `1e+100` with possible rounding). The `int` representation is exact; the `float` is not. A wrong answer reveals the student thinks `float` can represent arbitrarily large integers exactly, confusing range with precision.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"In Python, `None` is the same as `0`, `False`, or an empty string `''` because they all represent 'nothing'.\" Defend your position with code examples.",
+     "a": "The statement is false. `None` is a distinct singleton object of type `NoneType`, while `0` (int), `False` (bool), and `''` (str) are specific values of their respective types. They are all \"falsy\" in a boolean context (e.g., `if not x:`), but they are not equal: `None == 0` is `False`, `None == False` is `False`, `None == ''` is `False`. A wrong answer reveals conflation of *truthiness* with *identity/equality*, a common source of bugs in conditionals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would need to use all five data types (`int`, `float`, `str`, `bool`, `None`) in a single program. Write variable assignments for each with appropriate literal values.",
+     "a": "Scenario: A railway ticket booking system.\n```python\npnr_number = 1234567890          # int (unique identifier)\nticket_price = 550.75            # float (price in rupees)\npassenger_name = \"Priya Sharma\"  # str (name)\nis_confirmed = True              # bool (booking status)\nseat_number = None               # None (not assigned until chart preparation)\n```\nA poor answer uses the same type for multiple fields (e.g., storing price as string) or omits `None`, showing inability to map real-world attributes to appropriate data types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

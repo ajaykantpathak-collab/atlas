@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_007",
+   "title": "c11_ps_cbse_17_007",
+   "questions": [
+    {
+     "q": "**REMEMBER**: Name the constitutional article that mandates the three types of Urban Local Bodies and list the three types with their common Hindi/regional nomenclature.",
+     "a": "Article 243Q mandates: (1) Municipal Corporation (Mahanagar Palika), (2) Municipal Council (Nagar Palika), (3) Nagar Panchayat (Notified Area Council). A wrong answer (e.g., citing Article 243B or listing \"Municipal Committee\" as a constitutional category) reveals confusion between the 73rd Amendment (rural) and 74th Amendment (urban) articles, or reliance on pre-1992 state-specific names instead of the constitutional nomenclature.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: The 73rd Amendment created a *three-tier hierarchy* (village–block–district) for rural areas, but the 74th Amendment created *three parallel categories* (Corporation–Council–Nagar Panchayat) for urban areas without a hierarchy. Explain why the Constitution makers chose a non-hierarchical, category-based model for cities.",
+     "a": "Urban areas are single, contiguous settlements—not nested jurisdictions like villages within blocks within districts. A city does not contain a smaller city that contains a town; instead, each urban settlement stands alone. Therefore, each needs a standalone government matched to its scale, not a tier that reports to a higher urban tier. A wrong answer (e.g., \"Corporations supervise Councils\") reveals a fundamental misconception that urban local bodies form a hierarchy like the Panchayati Raj system.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: The Governor of State X issues a notification classifying urban areas as: (a) Population ≥ 10 lakh + density ≥ 4,000/km² → Corporation; (b) Population 1–10 lakh + density 1,000–4,000/km² → Council; (c) Population 20,000–1 lakh + >50% non-agricultural workers → Nagar Panchayat. Settlement A has 8 lakh people, density 3,500/km², 45% non-agricultural workers. Settlement B has 12 lakh people, density 5,000/km², 60% non-agricultural workers. Settlement C has 60,000 people, density 800/km², 55% non-agricultural workers. Classify each and justify.",
+     "a": "Settlement A → Municipal Council (meets population & density for Council; non-agri % below 50% doesn't matter for Council criteria). Settlement B → Municipal Corporation (meets all Corporation thresholds). Settlement C → Nagar Panchayat (population in range, non-agri >50%, density below Council minimum). A wrong classification (e.g., making A a Corporation because population is close to 10 lakh) shows inability to apply *all* notified criteria conjunctively—students often pick one criterion and ignore the rest.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare the three ULB types on: (i) Typical administrative head (designation), (ii) Executive head (appointed vs. elected), (iii) Number of wards/councillors (scale), (iv) Financial autonomy (own revenue sources). Present as a table.",
+     "a": "| Feature | Municipal Corporation | Municipal Council | Nagar Panchayat |\n|---|---|---|---|\n| Political Head | Mayor (indirectly elected) | President/Chairperson (indirectly elected) | Chairperson (indirectly elected) |\n| Executive Head | Municipal Commissioner (IAS/State Civil Service officer appointed by State Govt) | Executive Officer (appointed by State Govt) | Executive Officer (appointed by State Govt) |\n| Wards/Councillors | 50–200+ (large) | 15–50 (medium) | 10–20 (small) |\n| Financial Autonomy | High (property tax, water charges, trade licences, octroi/entry tax pre-GST, market fees) | Moderate (property tax, water charges, trade licences) | Low (limited tax base, heavy reliance on state grants) |\n\nA wrong answer (e.g., saying Corporations have directly elected Mayors in all states, or that Nagar Panchayats have no executive officer) reveals confusion between state-level variations and the general constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"The population thresholds for classifying ULBs are outdated and should be uniformly revised upward across all states to reflect India's rapid urbanization.\" Critically evaluate this statement with two arguments for and two against.",
+     "a": "**For**: (1) Many Corporations now govern populations far exceeding original thresholds (e.g., >50 lakh), straining administrative capacity; upward revision could trigger creation of new Corporations with better resources. (2) Uniform thresholds would reduce inter-state disparity where a 5-lakh town is a Corporation in one state but a Council in another. **Against**: (1) Urbanization is uneven; a uniform national threshold would impose Corporations on small towns in less urbanized states (e.g., Northeastern states) that lack the revenue base to sustain Corporation-level expenditure. (2) The Constitution deliberately left criteria to states (Article 243Q) to respect federalism; a central mandate would violate the 74th Amendment's spirit. A one-sided answer reveals inability to balance administrative efficiency with federal flexibility and fiscal realism.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Draft a one-paragraph recommendation to your State Finance Commission proposing a *fourth* category of ULB—\"Metropolitan Municipal Corporation\"—for agglomerations >50 lakh population. Specify: (a) additional powers it should have over a regular Corporation, (b) how its revenue base would differ, (c) one constitutional amendment needed to enable this.",
+     "a": "A strong answer proposes: (a) Powers over metropolitan planning, transport, and land-use currently with parastatals (e.g., MMRDA, DDA); (b) Revenue base includes share of state GST, development charges, and borrowing via municipal bonds with state guarantee; (c) Amendment to Article 243Q to insert \"Metropolitan Municipal Corporation\" as a fourth category, and Article 243ZE to create a Metropolitan Planning Committee directly under it. A weak answer merely copies Corporation features without addressing the *metropolitan* scale or constitutional amendment requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

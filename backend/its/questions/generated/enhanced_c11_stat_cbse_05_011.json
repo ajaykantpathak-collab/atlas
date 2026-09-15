@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_011",
+   "title": "c11_stat_cbse_05_011",
+   "questions": [
+    {
+     "q": "List the six criteria used in NCERT Class 11 Statistics for comparing the merits and limitations of different averages.",
+     "a": "The six criteria are: (1) Rigidly defined, (2) Based on all observations, (3) Capable of algebraic treatment, (4) Least affected by sampling fluctuations, (5) Not unduly affected by extreme values, (6) Applicable to open-ended distributions. A wrong answer (e.g., listing only \"easy to calculate\" or \"uses all data\") reveals the student is recalling vague middle-school descriptors instead of the specific NCERT evaluation framework required for board-exam justification questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Median is always better than Arithmetic Mean for skewed data\" is an oversimplification. Provide a specific scenario where Arithmetic Mean would be preferred even for skewed data.",
+     "a": "While Median is robust to outliers, Arithmetic Mean is preferred when: (a) further algebraic treatment is needed (e.g., combining group means, computing standard deviation), (b) sampling stability is crucial (Mean has lower sampling fluctuation than Median for normal distributions), or (c) the variable is additive (e.g., total national income = mean income × population). A wrong answer indicates the student memorized \"Median for skewed data\" as a rigid rule without understanding the trade-offs between robustness and mathematical utility.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces 1000 items daily. The production manager wants a single average to represent \"typical daily output\" for annual planning. The data has two extreme breakdown days (output = 0) and one record day (output = 2000). Normal days range 900-1100. Which average should be used? Compute all three (Mean, Median, Mode) for a sample: 0, 950, 980, 1000, 1020, 1050, 2000 and justify your choice.",
+     "a": "Mean = (0+950+980+1000+1020+1050+2000)/7 = 7000/7 = 1000. Median = 1000 (4th value). Mode = No mode (all unique). For planning total annual output, Arithmetic Mean (1000) is correct because total = mean × days. Median would underestimate total capacity. A student choosing Median because \"extremes exist\" fails to recognize that planning requires additive property — a classic confusion between descriptive representation and algebraic utility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of Arithmetic Mean, Geometric Mean, and Harmonic Mean for the dataset: 2, 4, 8, 16, 32. Derive the relationship between them and explain why this inequality (HM ≤ GM ≤ AM) holds for all positive non-identical numbers.",
+     "a": "AM = 62/5 = 12.4. GM = (2×4×8×16×32)^(1/5) = 32768^(0.2) = 8. HM = 5/(1/2+1/4+1/8+1/16+1/32) = 5/(0.5+0.25+0.125+0.0625+0.03125) = 5/0.96875 ≈ 5.16. Inequality: 5.16 < 8 < 12.4. The inequality holds because AM weights larger values linearly, GM weights logarithmically, HM weights reciprocally (giving more influence to smaller values). A student who only computes without explaining the weighting mechanism misses the conceptual bridge to index numbers and growth rates.",
+     "self_check": true
+    },
+    {
+     "q": "Critique: A newspaper reports \"Average salary in Company X is ₹50,000/month\" using Arithmetic Mean. The salary distribution: 100 workers earn ₹20,000, 50 earn ₹40,000, 10 earn ₹1,00,000, 1 CEO earns ₹1,00,00,000. Is this report statistically ethical? Which average would you mandate for such reporting and why?",
+     "a": "The report is misleading. AM = (100×20000 + 50×40000 + 10×100000 + 1×10000000)/161 = (20L+20L+10L+100L)/161 = 150L/161 ≈ ₹93,167. But 150/161 (93%) employees earn ≤ ₹40,000. Median = ₹20,000 (81st value). Mode = ₹20,000. For income distributions (right-skewed), Median or Mode must be reported as \"typical\". Mandating Median prevents the \"average\" from being pulled by top 1%. A student defending AM as \"mathematically correct\" fails the ethical/interpretive competency required in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world dataset (minimum 10 observations) where: (a) Arithmetic Mean is undefined, (b) Median and Mode exist and differ, (c) Geometric Mean is the only meaningful average for the analytical purpose. State the analytical purpose.",
+     "a": "Dataset: Annual growth rates (%) of a startup: -50%, 20%, 30%, 40%, 60%, 80%, 100%, 120%, 150%, 200%. (a) AM is defined but misleading for growth rates. (b) Median = 70%, Mode = none. (c) Purpose: Compute average annual growth rate over 10 years. Only GM = (0.5×1.2×1.3×1.4×1.6×1.8×2.0×2.2×2.5×3.0)^(0.1) - 1 gives correct compound growth. AM overstates, HM understates. A poor answer uses income data (where AM is defined) showing the student cannot distinguish \"undefined\" from \"inappropriate\" and doesn't know GM's domain (ratios/growth rates).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

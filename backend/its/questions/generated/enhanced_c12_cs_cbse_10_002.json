@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_002",
+   "title": "c12_cs_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the default file mode when you call `open('notes.txt')` without a second argument?",
+     "a": "The default mode is `'r'` (read text). A wrong answer (e.g., `'w'` or `'a'`) reveals that the student assumes Python defaults to writing or appending, which would cause unexpected truncation or creation of files. This misconception often leads to data loss in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between `'w'` and `'a'` modes when the target file already contains data.",
+     "a": "`'w'` truncates the file to zero length before writing (erases existing content), while `'a'` preserves existing content and positions the pointer at the end for appending. A wrong answer that says both erase or both preserve shows the student has not internalised the destructive nature of `'w'`. This is a classic board exam trap: questions often ask \"which mode retains previous data?\".",
+     "self_check": true
+    },
+    {
+     "q": "You want to open `data.txt` for both reading and writing, but you do NOT want to lose its current content. Which mode should you use? Write the exact `open()` call.",
+     "a": "`open('data.txt', 'r+')` — `'r+'` opens for reading and writing without truncation. A student who writes `'w+'` would truncate the file, losing data. This error appears frequently in competitive exams (JEE/NEET style) where a code snippet uses `'w+'` and asks for the output.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of `'r+'` and `'w+'` when the file does NOT exist. What happens in each case?",
+     "a": "`'r+'` raises `FileNotFoundError` because it requires the file to exist. `'w+'` creates a new file (or truncates if it exists). A wrong answer that says both create the file indicates confusion between read-update and write-update modes. This distinction is critical for writing robust file-handling code.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `f = open('image.png', 'r')` to read a PNG file. Evaluate this choice. Is it correct? If not, what is the correct mode and why?",
+     "a": "It is incorrect. PNG is a binary file; `'r'` opens in text mode, which may corrupt binary data due to newline translation and encoding issues. The correct mode is `'rb'` (read binary). A student who thinks text mode works for images lacks understanding of the text vs binary distinction — a common error in board practicals where they try to read/write images or pickled objects in text mode.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario (real-world, 2-3 sentences) where you must use `'a+'` mode. Explain why no other single mode fits.",
+     "a": "Example: \"A server log script runs every minute; it must append new log lines to `server.log` and occasionally read the last 10 lines to check for errors.\" `'a+'` allows both appending (without truncation) and reading (pointer starts at end, but `seek(0)` enables reading). `'r+'` would fail if the file doesn't exist initially; `'w+'` would erase logs; `'a'` alone doesn't allow reading. A poor answer uses `'w+'` or `'r+'`, showing inability to match mode to requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

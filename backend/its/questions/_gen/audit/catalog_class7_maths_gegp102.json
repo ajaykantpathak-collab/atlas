@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class7_maths_gegp102.json",
+ "concepts": [
+  {
+   "id": "gegp.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 6 + 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 3 * 3 + 4 * 3 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 8 + 9 - 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 * 5 + 4 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 8 + 4 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (6 + 9) * 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 6 + 4"
+   ]
+  },
+  {
+   "id": "gegp.2.2",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 4 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 4 * 4 + 4 * 4 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 4 + 3 - 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 2 * 5 + 2 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 7 + 8 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (9 + 8) * 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.2.3",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 3 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 4 * 5 * 5 + 5 * 5 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 3 + 8 - 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 7 + 7 * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 + 8 * 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (7 + 4) * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 3 + 3"
+   ]
+  },
+  {
+   "id": "gegp.2.4",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 6 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 * 5 * 5 + 4 * 5 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 4 + 3 - 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 5 + 7 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 3 + 6 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (3 + 2) * 5"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 6 + 8"
+   ]
+  }
+ ]
+}

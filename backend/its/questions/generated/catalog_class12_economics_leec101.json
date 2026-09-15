@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_economics_leec101",
+ "concepts": [
+  {
+   "id": "leec.101.1",
+   "title": "Emergence of Macroeconomics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Emergence of Macroeconomics' refers to.",
+     "a": "Macroeconomics as a separate branch emerged out of the Great Depression that began in 1929; microeconomic reasoning could not explain the collapse of output and employment, and John Maynard Keynes' General Theory (1936) built the analysis of economy-wide aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Emergence of Macroeconomics'.",
+     "a": "The Depression was the empirical puzzle that forced economists to study inflation, unemployment and national output as aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Emergence of Macroeconomics' taught, and from which source text?",
+     "a": "Emergence of Macroeconomics (source: leec101.txt Great Depression narrative and Keynes references)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.101.2",
+   "title": "Unemployment During the Great Depression",
+   "questions": [
+    {
+     "q": "Using the method 'Unemployment During the Great Depression', work with: peak_rate = 8, trough_rate = 3. Carry the chain through step by step and give the final value of unemployment_rise.",
+     "a": "5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Unemployment During the Great Depression' and work with: peak_rate = 18, trough_rate = 3. Carry the chain through step by step and give the final value of unemployment_rise.",
+     "a": "15 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Unemployment During the Great Depression' refers to.",
+     "a": "In the USA, from 1929 to 1933, the unemployment rate rose from 3 per cent to 25 per cent as workers were thrown out of jobs, illustrating how an economy-wide collapse differs from a market-level disequilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Unemployment During the Great Depression'.",
+     "a": "The rise in the unemployment rate is the difference between the peak rate in 1933 and the trough rate in 1929.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Unemployment During the Great Depression', in plain ASCII form.",
+     "a": "unemployment_rise = peak_rate - trough_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.101.3",
+   "title": "Stocks, Flows and Capital",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stocks, Flows and Capital' refers to.",
+     "a": "Macroeconomics distinguishes stocks (quantities measured at a point of time, like the capital stock or wealth) from flows (quantities measured over a period, like income or investment); capital is a produced means of production that adds to the stock.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stocks, Flows and Capital'.",
+     "a": "Classifying a variable as stock or flow decides which accounting identity it can enter, and mixing them produces measurement errors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stocks, Flows and Capital' taught, and from which source text?",
+     "a": "Concepts of Macroeconomics (source: leec101.txt stock-flow discussion and capital definition)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.101.4",
+   "title": "Circular Flow of Income",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Circular Flow of Income' refers to.",
+     "a": "In the simplest two-sector economy, households supply factors of production to firms and receive factor incomes; firms sell goods and services back to households, so the income of one sector is the expenditure of the other and the circular flow closes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Circular Flow of Income'.",
+     "a": "The circular flow identity - what is spent by firms is the income of households and what households spend is the revenue of firms - underlies all national income accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Circular Flow of Income' taught, and from which source text?",
+     "a": "A Simple Economy (source: leec101.txt two-sector circular flow description and economic units)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

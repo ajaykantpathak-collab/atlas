@@ -1,0 +1,260 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 10,
+ "chapter_title": "Exponents and Powers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.110.10.1",
+   "title": "Powers with Negative Exponents",
+   "section": "10.2",
+   "definition": "A negative exponent means reciprocal: 10 to the minus 2 equals 1 over 100, and a to the minus m equals 1 over a to the m for any nonzero base, extending powers naturally below one.",
+   "formula": "neg_power = 1 / base ** exp",
+   "key_idea": "Negative power, positive sense: flip the base into the denominator.",
+   "textbook_ref": "hemh110.txt section 10.2 (powers with negative exponents)",
+   "question_patterns": [
+    "find the value of 2 to the power minus 4",
+    "write 10 to the minus 3 as a fraction",
+    "evaluate the given negative power",
+    "what is the reciprocal of 5 to the power 3 as a power",
+    "express 1/64 as a power of 2 with a negative exponent",
+    "find the multiplicative inverse of 7 to the minus 2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the positive power",
+     "explain": "Compute the base raised to the exponent size.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "flip to the reciprocal",
+     "explain": "The negative exponent is 1 over that power.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "hemh.110.10.2",
+   "title": "Laws of Exponents",
+   "section": "10.3",
+   "definition": "Powers obey compact laws for any nonzero base: multiplying powers adds exponents, dividing subtracts them, a power of a power multiplies exponents, and equal exponents multiply or divide the bases - rules that hold for negative exponents too.",
+   "formula": "product = base ** (exp_a + exp_b)",
+   "key_idea": "Same base adds exponents; same exponent operates on the bases.",
+   "textbook_ref": "hemh110.txt section 10.3 (laws of exponents)",
+   "question_patterns": [
+    "simplify 2 to the 3rd times 2 to the 4th",
+    "simplify and write in exponential form the given product",
+    "evaluate (3 to the 2nd) to the 3rd using laws of exponents",
+    "simplify the quotient of the two powers",
+    "use the laws of exponents to simplify the given expression",
+    "state the laws governing powers with the same base"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the exponents",
+     "explain": "Same-base multiplication adds the exponents.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "raise the base once",
+     "explain": "The product is the base to the summed exponent.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "hemh.110.10.3",
+   "title": "Standard Form for Very Large and Small Numbers",
+   "section": "10.4",
+   "definition": "Very large and very small numbers read best in standard form: a coefficient from 1 up to 10 times a power of 10, so the earth's mass of 5,976,000,000,000,000,000,000,000 kg becomes 5.976 times 10 to the 24 kg, and tiny sizes use negative powers.",
+   "formula": "value = coeff * 10 ** exp",
+   "key_idea": "Count the decimal shifts: the exponent of ten records them exactly.",
+   "textbook_ref": "hemh110.txt section 10.4 (use of exponents to express small numbers in standard form)",
+   "question_patterns": [
+    "express the mass of the earth in standard form",
+    "write the given large number in standard form",
+    "express 0.000007 in standard form",
+    "write the thickness of the given object in standard form",
+    "convert 5.976 times 10 to the 24 into an ordinary number",
+    "which is larger: the two given numbers in standard form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "10 to the exponent gives the scale.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "Coefficient times scale rebuilds the number.",
+     "compute": "value = coeff * scale"}
+   ]
+  },
+  {
+   "id": "hemh.110.10.4",
+   "title": "Comparing Very Large and Very Small Numbers",
+   "section": "10.4",
+   "definition": "Standard form makes comparison easy: numbers with bigger exponents of ten are bigger regardless of the coefficient, and equal exponents are compared by their coefficients - which is why the exponent matters more than the digits.",
+   "formula": "-",
+   "key_idea": "Compare exponents of ten first; only a tie sends you to the coefficients.",
+   "textbook_ref": "hemh110.txt section 10.4.1 (comparing very large and very small numbers)",
+   "question_patterns": [
+    "compare the two given numbers written in standard form",
+    "which is greater: the given pair of very large numbers",
+    "arrange the given standard form numbers in increasing order",
+    "how many times bigger is the first number than the second",
+    "why does the exponent decide the size of a standard form number",
+    "compare the size of a cell with the given dimensions in standard form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the exponents",
+     "explain": "The larger power of ten wins outright."},
+    {"step": 2, "action": "break the tie if needed",
+     "explain": "Equal exponents fall to comparing coefficients."},
+    {"step": 3, "action": "state the ratio",
+     "explain": "Dividing the values shows how many times one exceeds the other."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh110.txt section 10.2 negative power examples",
+   "concept": "hemh.110.10.1",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {base} to the power minus {exp}.",
+   "extracted_variables": {
+    "base": "base of the power",
+    "exp": "size of the negative exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the positive power",
+     "explain": "Compute base to the exp.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "The negative exponent is the reciprocal.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh110.txt section 10.2 practice",
+   "concept": "hemh.110.10.1",
+   "question_type": "compute",
+   "question_pattern": "Evaluate 10 to the minus {exp} as a fraction.",
+   "extracted_variables": {
+    "base": "base ten",
+    "exp": "size of the negative exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the positive power",
+     "explain": "10 to the exp.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "The answer is 1 over that power.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh110.txt section 10.3 laws examples",
+   "concept": "hemh.110.10.2",
+   "question_type": "compute",
+   "question_pattern": "Simplify {base} to the {exp_a} times {base} to the {exp_b}.",
+   "extracted_variables": {
+    "base": "common base",
+    "exp_a": "first exponent",
+    "exp_b": "second exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the exponents",
+     "explain": "Same-base multiplication adds exponents.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "raise the base",
+     "explain": "The product is the combined power.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh110.txt section 10.3 practice",
+   "concept": "hemh.110.10.2",
+   "question_type": "compute",
+   "question_pattern": "Use the laws of exponents on {base} to the {exp_a} times {base} to the {exp_b} and give the value.",
+   "extracted_variables": {
+    "base": "base of both powers",
+    "exp_a": "first exponent",
+    "exp_b": "second exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the exponents",
+     "explain": "Exponents combine by addition.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "raise the base",
+     "explain": "Evaluate the single power.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh110.txt section 10.4 standard form examples",
+   "concept": "hemh.110.10.3",
+   "question_type": "compute",
+   "question_pattern": "Write {coeff} times 10 to the {exp} as an ordinary number.",
+   "extracted_variables": {
+    "coeff": "coefficient between 1 and 10",
+    "exp": "power of ten"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "10 to the exp is the scale.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "The product is the ordinary number.",
+     "compute": "value = coeff * scale"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh110.txt section 10.4 practice",
+   "concept": "hemh.110.10.3",
+   "question_type": "compute",
+   "question_pattern": "Verify the value of {coeff} times 10 to the {exp} by expanding the standard form.",
+   "extracted_variables": {
+    "coeff": "standard form coefficient",
+    "exp": "exponent of ten"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "Compute 10 to the exp.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "Coefficient times scale gives the number.",
+     "compute": "value = coeff * scale"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "hemh110.txt EXERCISE 10.1-10.2",
+   "questions": [
+     "Evaluate the given powers including negative exponents.",
+     "Find the multiplicative inverse of the given powers.",
+     "Express the given fractions as powers with negative exponents."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "hemh110.txt EXERCISE 10.3",
+   "questions": [
+     "Simplify and write in exponential form the given expressions.",
+     "Simplify (3 to the minus 2 times 3 to the 5) and similar expressions."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "hemh110.txt EXERCISE 10.4",
+   "questions": [
+     "Express the given large and small numbers in standard form.",
+     "Write the given standard form numbers as ordinary numbers.",
+     "In a stack of papers each sheet is 0.016 cm thick - find the height of the stack in standard form."
+   ]
+  }
+ ]
+}

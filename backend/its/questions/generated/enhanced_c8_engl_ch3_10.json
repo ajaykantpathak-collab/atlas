@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_10",
+   "title": "c8_engl_ch3_10",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between evidence and an assumption in reading comprehension?",
+     "a": "Evidence is a factual statement or clue explicitly present in the text that can be proven directly, whereas an assumption is an unproven idea or inference accepted without direct textual support. \n*If a student answers that both are opinions or that assumptions are just 'stronger' evidence, it reveals a fundamental misunderstanding of fact versus inference.*",
+     "self_check": true
+    },
+    {
+     "q": "Read this short statement: \"Anil did not answer the phone at 8:00 PM, so he must have been fast asleep.\" Is the phrase \"he must have been fast asleep\" evidence or an assumption? Explain why.",
+     "a": "\"He must have been fast asleep\" is an assumption because the text only proves that Anil did not answer his phone at 8:00 PM. It does not provide direct proof of why he missed the call—he could have been out, in the shower, or ignoring the phone.\n*If a student calls it evidence, it shows they mistake a plausible explanation for a proven fact.*",
+     "self_check": true
+    },
+    {
+     "q": "Read the passage: \"Sita walked into the classroom with water dripping from her coat and hair. She placed her wet umbrella in the stand near the door.\" \nClassify the following statements as EVIDENCE or ASSUMPTION based ONLY on the passage:\n1. Sita's coat and hair were dripping with water.\n2. It was raining outside when Sita walked to school.",
+     "a": "1. Evidence (directly stated in the text: \"water dripping from her coat and hair\").\n2. Assumption (plausible because of the wet umbrella and dripping coat, but the text does not explicitly describe the weather outside; someone could have sprayed water on her or she might have dropped her umbrella in a puddle).\n*If a student classifies statement 2 as evidence, it reveals that they confuse logical inferences with directly stated facts.*",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the scene: \"Inspector Sharma noticed that the suspect's shoes had wet red mud on them. The garden path behind the robbed house had identical red mud. Inspector Sharma concluded that the suspect definitely entered the house through the garden path at night.\" Identify one piece of concrete evidence and one underlying assumption made by Inspector Sharma.",
+     "a": "Concrete Evidence: The suspect's shoes have wet red mud, and identical red mud exists on the garden path behind the house.\nUnderlying Assumption: Inspector Sharma assumes the suspect walked on that specific garden path during the robbery at night, ignoring the possibility that the suspect walked through red mud elsewhere or visited the garden during the day.\n*If a student fails to spot the assumption, they struggle to separate physical clues from the investigator's narrative leap.*",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate these two statements about a mystery character:\nStatement A: \"Dev is guilty because he was nervous and fidgeting when questioned by the teacher.\"\nStatement B: \"Dev was nervous when questioned, which proves he was uncomfortable, but it does not prove he stole the notebook.\"\nWhich statement demonstrates sound critical thinking, and why?",
+     "a": "Statement B demonstrates sound critical thinking because it acknowledges the observed evidence (Dev's nervousness) without making an unjustified assumption about his guilt. Statement A treats a physical reaction (nervousness) as definitive evidence of guilt, relying on the assumption that only guilty people fidget.\n*If a student chooses Statement A, they reveal a bias toward accepting circumstantial behavior as conclusive proof.*",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief 3-sentence mystery scenario containing exactly TWO pieces of direct textual evidence and ONE false assumption made by a character. Label each element.",
+     "a": "Example Scenario:\nSentence 1: \"Maya found a half-eaten apple on the desk and observed that the classroom door lock was untouched.\" (Evidence 1: half-eaten apple on desk; Evidence 2: door lock untouched).\nSentence 2: \"She immediately accused Kabir of sneaking in through the window to eat her lunch.\" (False Assumption: assuming Kabir was the one who entered and ate it, and assuming he came through the window without direct proof).\nSentence 3: \"However, she had forgotten that the window was fitted with an unbroken wire mesh.\"\n*A weak response will fail to clearly separate the observed clues from the character's unverified leap in logic.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

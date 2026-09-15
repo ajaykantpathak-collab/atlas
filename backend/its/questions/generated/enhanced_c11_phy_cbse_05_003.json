@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_003",
+   "title": "c11_phy_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the formula for work done by a spring force when a block attached to a spring moves from displacement \\(x_i\\) to \\(x_f\\). Define each symbol and its SI unit.",
+     "a": "The work done by the spring force is \\(W_s = \\frac{1}{2}k(x_i^2 - x_f^2)\\) joules (J), where \\(k\\) is the spring constant (N/m), \\(x_i\\) and \\(x_f\\) are initial and final displacements from equilibrium (m). A wrong answer like \\(W_s = \\frac{1}{2}k(x_f^2 - x_i^2)\\) reveals the student has confused the work done BY the spring with the work done ON the spring (or the potential energy change), missing the crucial negative sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "A spring with \\(k = 200 \\text{ N/m}\\) is compressed from \\(x = 0\\) to \\(x = -0.1 \\text{ m}\\). Is the work done by the spring force positive, negative, or zero? Explain using the direction of force and displacement.",
+     "a": "The work done by the spring force is NEGATIVE. During compression, the displacement is in the negative x-direction, while the spring force \\(F_s = -kx\\) points in the positive x-direction (restoring toward equilibrium). Force and displacement are in opposite directions, so \\(W = \\int F \\cdot dx < 0\\). A student answering \"positive\" is likely confusing the work done BY the spring with the work done BY the external agent (which is positive), or incorrectly thinking \"compression stores energy so work must be positive.\"",
+     "self_check": true
+    },
+    {
+     "q": "A 0.5 kg block is attached to a spring (\\(k = 400 \\text{ N/m}\\)) on a frictionless horizontal surface. The block is pulled to \\(x = +0.15 \\text{ m}\\) and released from rest. Calculate the work done by the spring force as the block moves from \\(x = +0.15 \\text{ m}\\) to \\(x = 0\\). Show all steps with units.",
+     "a": "Given: \\(k = 400 \\text{ N/m}\\), \\(x_i = +0.15 \\text{ m}\\), \\(x_f = 0 \\text{ m}\\).\nStep 1: Formula \\(W_s = \\frac{1}{2}k(x_i^2 - x_f^2)\\).\nStep 2: Substitute: \\(W_s = \\frac{1}{2}(400)[(0.15)^2 - 0^2] = 200 \\times 0.0225\\).\nStep 3: Compute: \\(W_s = +4.5 \\text{ J}\\).\nUnit check: \\(\\text{N/m} \\times \\text{m}^2 = \\text{N·m} = \\text{J}\\). ✓\nThe work is positive because the spring force (toward negative x) and displacement (toward negative x) are in the same direction as the block returns to equilibrium. A wrong sign indicates the student used \\(x_f^2 - x_i^2\\) or misunderstood the direction of force during return motion.",
+     "self_check": true
+    },
+    {
+     "q": "The force-displacement graph for a spring is a straight line passing through (0,0) and (0.2 m, -10 N). A block moves from \\(x = 0.1 \\text{ m}\\) to \\(x = 0.2 \\text{ m}\\). Determine the work done by the spring force using the graphical method. Compare with the formula method.",
+     "a": "Graph: Slope = \\(-10 / 0.2 = -50 \\text{ N/m} = -k\\), so \\(k = 50 \\text{ N/m}\\).\nArea under graph from 0.1 to 0.2 m is a trapezoid below x-axis (negative work).\n\\(F(0.1) = -5 \\text{ N}\\), \\(F(0.2) = -10 \\text{ N}\\).\nArea = \\(\\frac{1}{2}(5 + 10) \\times 0.1 = -0.75 \\text{ J}\\) (negative because below axis).\nFormula: \\(W_s = \\frac{1}{2}(50)[(0.1)^2 - (0.2)^2] = 25[0.01 - 0.04] = 25 \\times (-0.03) = -0.75 \\text{ J}\\). Matches.\nA student getting +0.75 J has taken the magnitude of area but ignored the sign convention (force and displacement both positive x-direction, but force is negative). This reveals confusion about signed area interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The work done by a spring force over a complete cycle (from \\(x = +A\\) to \\(x = -A\\) and back to \\(x = +A\\)) is zero, so the spring force is conservative. But if I calculate work from \\(x = +A\\) to \\(x = -A\\) directly using the formula, I get zero too. Does this mean the spring force does no work during half a cycle?\" Evaluate this claim.",
+     "a": "The claim is FALSE. Work from \\(x = +A\\) to \\(x = -A\\): \\(W = \\frac{1}{2}k[A^2 - (-A)^2] = 0\\). This is correct mathematically but physically misleading. The spring force DOES work during this motion: negative work from \\(+A\\) to 0 (force opposite to displacement) and positive work from 0 to \\(-A\\) (force same direction as displacement). These two contributions cancel exactly. The student's error is equating \"net work zero\" with \"no work done at each stage.\" This reveals a misunderstanding of the difference between total work over a path and work done during segments of that path. The spring force is conservative because the net work over ANY closed loop is zero, not because it does zero work during half-cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a block, and a rough horizontal surface to verify that the work done by the spring force depends only on the initial and final positions, not the path taken. Describe the procedure, measurements needed, and how you would analyze the data.",
+     "a": "Procedure: (1) Attach a spring (\\(k\\) known) to a block on a rough surface. (2) Pull block to \\(x_i = +0.2 \\text{ m}\\) and release; measure stopping position \\(x_f\\) using a scale. (3) Repeat but this time push the block past equilibrium to \\(x = -0.1 \\text{ m}\\) before letting it go (same initial \\(x_i\\), different path). (4) Measure final \\(x_f\\) again. (5) Calculate \\(W_s = \\frac{1}{2}k(x_i^2 - x_f^2)\\) for both trials. (6) Also calculate work done by friction \\(W_f = -\\mu mg \\times \\text{total path length}\\) (different for each path). (7) Use work-energy theorem: \\(W_s + W_f = \\Delta K = 0\\) (starts and ends at rest). If \\(W_s\\) is same for both trials despite different path lengths (and different \\(W_f\\)), it confirms spring work is path-independent. A poor answer would ignore friction or fail to measure total path length, showing the student doesn't understand how to isolate the spring force work in a non-conservative system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

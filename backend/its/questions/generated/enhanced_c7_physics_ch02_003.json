@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_003",
+   "title": "c7_physics_ch02_003",
+   "questions": [
+    {
+     "q": "What are the two distinct terminals found on a standard cylindrical electric cell?",
+     "a": "A standard cylindrical electric cell has a positive terminal (indicated by a metal cap with a raised positive sign) and a negative terminal (indicated by a flat metal base). A wrong answer often confuses the terminals with switch positions or wiring junctions, revealing a lack of familiarity with the physical structure of a cell.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an electric cell eventually stop working or \"run out\" after being used in a toy for a long time?",
+     "a": "An electric cell stops working because the chemicals stored inside it undergo complete chemical reactions and get used up, meaning no more chemical energy is left to convert into electrical energy. A wrong answer might state that the cell runs out of \"electrons\" or \"electricity,\" which shows a misconception that charges are consumed rather than energy being depleted.",
+     "self_check": true
+    },
+    {
+     "q": "A science student connects a small bulb across a single 1.5 V electric cell using copper wires. If the total resistance of the circuit results in a current of 0.3 A flowing for 10 seconds, what is the total charge that passes through the circuit?",
+     "a": "Steps:\n1. Identify given quantities: Current ($I$) = 0.3 A, Time ($t$) = 10 s.\n2. Recall the relationship between charge ($Q$), current ($I$), and time ($t$): $Q = I \\times t$.\n3. Substitute the values with units into the formula: $Q = 0.3 \\text{ A} \\times 10 \\text{ s}$.\n4. Compute the product and track unit cancellation (A $\\times$ s = C): $Q = 3.0 \\text{ C}$.\n5. Verify the answer: A charge of 3.0 Coulombs is physically reasonable for a small circuit operating over 10 seconds.\nAnswer: 3.0 Coulombs (C). A wrong answer usually stems from multiplying time by voltage or dividing current by time, showing confusion among fundamental electrical quantities.",
+     "self_check": true
+    },
+    {
+     "q": "If you connect two identical electric cells in series such that the negative terminal of the first touches the positive terminal of the second, how does the total potential difference provided to the circuit compare to that of a single cell?",
+     "a": "The total potential difference doubles because connecting cells in series combines their voltages additively. A wrong answer might suggest the voltage remains the same or decreases, which shows a misunderstanding of how series combinations pool their energy-delivering capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that an electric cell creates electricity from nothing inside the metal casing. Evaluate this statement using the law of conservation of energy.",
+     "a": "The student's claim is incorrect because energy cannot be created from nothing. An electric cell does not create energy; it converts the chemical energy stored within its internal chemical pastes and metals into electrical energy. A wrong answer indicates a failure to connect energy conservation principles with everyday electrical devices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model or physical analogy to explain how an electric cell pushes electric current through a closed circuit wire.",
+     "a": "A good response should use an analogy like a water pump in a closed loop of pipes, where the pump (cell) lifts or pushes water (charge) around the track. A poor answer merely repeats textbook definitions without illustrating the pumping mechanism or energy transfer, showing a lack of deep conceptual grasp.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

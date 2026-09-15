@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_6",
+   "title": "c9_geo_ch2_6",
+   "questions": [
+    {
+     "q": "What is the angle of Earth's axial tilt relative to its orbital plane, and how does this tilt remain oriented as Earth revolves around the Sun?",
+     "a": "Earth's axial tilt is 23.5° relative to the perpendicular of its orbital plane (ecliptic). As Earth revolves, the axis maintains a fixed orientation in space — pointing toward Polaris (North Star) — so the Northern Hemisphere tilts toward the Sun in June and away in December. A wrong answer (e.g., \"tilt changes during orbit\" or \"tilt is 90°\") reveals the student confuses axial tilt with orbital motion or thinks the axis wobbles significantly within one year.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Northern Hemisphere experience summer in June while the Southern Hemisphere experiences winter at the same time, even though Earth is at the same distance from the Sun?",
+     "a": "In June, the Northern Hemisphere tilts toward the Sun, receiving direct rays at the Tropic of Cancer (23.5°N) and longer daylight hours, while the Southern Hemisphere tilts away, receiving oblique rays and shorter days. Distance from the Sun is nearly constant (Earth's orbit is nearly circular) and does not cause seasons. A wrong answer citing \"Earth is closer to the Sun in June\" reveals the common misconception that seasons are caused by orbital distance rather than axial tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate day length at 30°N latitude on the June Solstice (June 21), given that the Sun's declination is 23.5°N. Use the formula: cos(hour angle) = -tan(latitude) × tan(declination). Show your working.",
+     "a": "Step 1: Latitude = 30°N, Declination = 23.5°N. Step 2: cos(H) = -tan(30°) × tan(23.5°) = -0.577 × 0.435 = -0.251. Step 3: Hour angle H = cos⁻¹(-0.251) ≈ 104.5°. Step 4: Day length = 2 × H / 15° per hour = 2 × 104.5° / 15 = 13.9 hours ≈ 13 hours 54 minutes. A wrong answer (e.g., 12 hours) reveals the student assumes equal day/night everywhere or cannot apply the spherical geometry formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the seasonal temperature range at 60°N (e.g., Oslo) versus 10°N (e.g., Chennai). Explain the difference using the concepts of solar angle and day length variation.",
+     "a": "At 60°N, solar altitude varies from 53.5° (summer) to 6.5° (winter) — a 47° range — and day length varies from ~18.5 hours to ~5.5 hours. At 10°N, solar altitude varies from 76.5° to 83.5° — only 7° range — and day length varies from ~12.7 to ~11.3 hours. Thus 60°N has extreme seasonal temperature range; 10°N has minimal variation. A wrong answer focusing only on \"distance from equator\" without quantifying angle/day length changes shows incomplete understanding of the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If Earth's axial tilt were 0°, there would be no seasons anywhere on Earth.\" Is this fully correct? Justify your answer considering both temperature and day length.",
+     "a": "The statement is largely correct for temperature seasons: with 0° tilt, the Sun's declination would always be 0°, so solar angle at each latitude would be constant year-round, eliminating temperature seasons. However, day length would still vary slightly at high latitudes due to atmospheric refraction and the Sun's finite size, but this effect is negligible. A wrong answer saying \"seasons would still exist due to elliptical orbit\" overestimates the effect of orbital eccentricity (which causes only ~3% variation in solar constant) and ignores that axial tilt is the dominant driver.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation experiment a Class 9 student can do at home over 6 months to prove Earth's axial tilt causes seasons. Specify what to measure, when, and how to interpret the data.",
+     "a": "Measure the length of a vertical stick's shadow at local solar noon on the 21st of each month for 6 months. Record shadow length and direction. In the Northern Hemisphere, shadow will be shortest on June 21 (Sun highest) and longest on December 21 (Sun lowest), with equal lengths on March 21 and September 21. Plotting shadow length vs. date shows a sinusoidal pattern proving the Sun's changing altitude. A poor answer measures at random times (not solar noon) or only measures once, failing to capture the systematic change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

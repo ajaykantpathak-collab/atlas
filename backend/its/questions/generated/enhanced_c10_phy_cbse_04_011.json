@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_011",
+   "title": "c10_phy_cbse_04_011",
+   "questions": [
+    {
+     "q": "State the SI unit of power of a lens and write the formula relating power (P) and focal length (f). What is the power of a convex lens of focal length 25 cm?",
+     "a": "The SI unit is dioptre (D). Formula: P = 1/f (f in meters). For f = 25 cm = 0.25 m, P = 1/0.25 = +4 D. A wrong answer (e.g., P = 0.25 D or missing the + sign) reveals the student either forgot to convert cm to m or does not apply the sign convention for converging lenses.",
+     "self_check": true
+    },
+    {
+     "q": "An optician prescribes a lens of power -2.0 D. Explain why the power is negative and calculate the focal length of this lens. What type of lens is it?",
+     "a": "Negative power indicates a diverging (concave) lens. f = 1/P = 1/(-2.0) = -0.5 m = -50 cm. If a student writes focal length as +50 cm or says it is a convex lens, they have confused the sign convention: negative power ↔ diverging lens ↔ negative focal length.",
+     "self_check": true
+    },
+    {
+     "q": "Two thin lenses of powers +3.5 D and -1.5 D are placed in contact. Find the net power and focal length of the combination. Is the combination converging or diverging?",
+     "a": "Net power P = P₁ + P₂ = +3.5 + (-1.5) = +2.0 D. Focal length f = 1/P = 1/2.0 = +0.5 m = +50 cm. The combination is converging (positive net power). A common error is subtracting magnitudes (3.5 - 1.5 = 2.0 D is correct by coincidence, but if signs were both negative, subtracting would be wrong). The correct method is algebraic addition with signs.",
+     "self_check": true
+    },
+    {
+     "q": "A student has two convex lenses of focal lengths 20 cm and 30 cm. She wants to make a combination of power +8 D. Can she achieve this by placing them in contact? If not, what additional lens (type and power) would she need to add in contact to get exactly +8 D?",
+     "a": "P₁ = 1/0.20 = +5 D, P₂ = 1/0.30 ≈ +3.33 D. Combined power = 5 + 3.33 = +8.33 D, which is not exactly +8 D. To get +8 D, she needs an additional lens of power P₃ such that 8.33 + P₃ = 8 → P₃ = -0.33 D (a concave lens of focal length ≈ -3 m). If the student says \"yes\" or miscalculates P₂ as +3 D (using 30 cm = 0.3 m but 1/0.3 = 3.33), they lose precision. The question tests analysis of whether a target power is achievable and how to adjust.",
+     "self_check": true
+    },
+    {
+     "q": "A prescription reads: \"Right eye: -1.25 D, Left eye: -0.75 D\". A student claims the person needs convex lenses because the numbers are small. Evaluate this claim and explain what the negative sign and the magnitude tell you about the person's vision defect.",
+     "a": "The claim is incorrect. Negative power means concave (diverging) lenses, used to correct myopia (nearsightedness). The magnitude (1.25 D, 0.75 D) indicates the degree of myopia: the right eye is more myopic. If the student thinks negative power means convex or that small magnitude implies convex, they have not linked sign to lens type and vision defect. The negative sign is the critical indicator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two convex lenses of known focal lengths (e.g., 10 cm and 15 cm) to verify that the power of the combination equals the sum of individual powers. List the apparatus, procedure, and how you would calculate the experimental power of the combination.",
+     "a": "Apparatus: Two convex lenses (f₁=10 cm, f₂=15 cm), lens holders, white screen, metre scale, distant object (e.g., tree). Procedure: (1) Find focal length of each lens separately by focusing a distant object on the screen. (2) Place lenses in contact (touching) and repeat to find combined focal length F. (3) Calculate P₁=1/f₁, P₂=1/f₂, P_comb=1/F. Verify P_comb ≈ P₁+P₂. A poor answer would omit measuring the combined focal length or forget to convert cm to m before taking reciprocal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,535 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 104,
+ "chapter_title": "Recording of Transactions - II",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac104.txt",
+ "concepts": [
+  {
+   "id": "keac.4.1.1",
+   "title": "Single Column Cash Book",
+   "section": "4.1.1",
+   "definition": "A primary financial record containing a single amount column on each side that documents all incoming and outgoing cash chronologically.",
+   "formula": "closing_cash = opening_cash + total_cash_receipts - total_cash_payments",
+   "key_idea": "Cash receipts are recorded on the debit side and cash payments on the credit side.",
+   "textbook_ref": "keac104.txt lines 25-60",
+   "question_patterns": [
+    "calculate the closing balance of single column cash book",
+    "find the cash in hand at the end of the month",
+    "what is the closing cash balance",
+    "determine the balance c/d in single column cash book",
+    "calculate single column cash book for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum total debit receipts including opening cash",
+     "explain": "total debit equals opening cash plus all cash received",
+     "compute": "total_receipts_side = opening_cash + total_cash_receipts"
+    },
+    {
+     "step": 2,
+     "action": "deduct total cash payments to get closing cash balance",
+     "explain": "closing balance c/d is the excess of total receipts over total payments",
+     "compute": "closing_cash = total_receipts_side - total_cash_payments"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.4.1.1_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.4.1.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "opening_cash": "10",
+      "total_cash_payments": "10",
+      "total_cash_receipts": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "sum total debit receipts including opening cash",
+       "explain": "total debit equals opening cash plus all cash received",
+       "compute": "total_receipts_side = opening_cash + total_cash_receipts"
+      },
+      {
+       "step": 2,
+       "action": "deduct total cash payments to get closing cash balance",
+       "explain": "closing balance c/d is the excess of total receipts over total payments",
+       "compute": "closing_cash = total_receipts_side - total_cash_payments"
+      }
+     ],
+     "question_pattern": "calculate the closing balance of single column cash book (given {opening_cash}, {total_cash_payments}, {total_cash_receipts})"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.1.2",
+   "title": "Double Column Cash Book and Bank Balance",
+   "section": "4.1.2",
+   "definition": "A subsidiary book equipped with distinct cash and bank columns on both debit and credit sides to register physical cash and banking activities simultaneously.",
+   "formula": "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals",
+   "key_idea": "Contra entries record mutual fund movements between cash and bank on both sides of the book.",
+   "textbook_ref": "keac104.txt lines 90-185",
+   "question_patterns": [
+    "calculate closing bank balance in double column cash book",
+    "find the bank balance c/d after recording deposits and payments",
+    "what is the net bank balance at the end of the period",
+    "determine the closing cash and bank balances",
+    "calculate double column cash book and bank balance for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum total bank deposits with opening bank balance",
+     "explain": "total debit in bank column includes opening balance and all deposits",
+     "compute": "total_bank_receipts = opening_bank + total_bank_deposits"
+    },
+    {
+     "step": 2,
+     "action": "subtract total withdrawals from total bank receipts",
+     "explain": "difference gives the closing bank balance c/d or overdraft if negative",
+     "compute": "closing_bank = total_bank_receipts - total_bank_withdrawals"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate closing bank balance in double column cash book (take opening_bank = 10, total_bank_deposits = 10, total_bank_withdrawals = 10)",
+     "solution": "Applying the concept's compute chain with opening_bank = 10, total_bank_deposits = 10, total_bank_withdrawals = 10 gives 10.0.",
+     "answer": "10.0"
+    },
+    {
+     "question": "calculate closing bank balance in double column cash book (take opening_bank = 10, total_bank_deposits = 10, total_bank_withdrawals = 2)",
+     "solution": "Applying the concept's compute chain with opening_bank = 10, total_bank_deposits = 10, total_bank_withdrawals = 2 gives 18.0.",
+     "answer": "18.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.1.3",
+   "title": "Petty Cash Book and Imprest System",
+   "section": "4.1.3",
+   "definition": "A secondary ledger maintained by a petty cashier to account for frequent low-value disbursements funded by a predetermined float called the imprest.",
+   "formula": "reimbursement_amount = total_petty_expenses; closing_petty_balance = imprest_amount - total_petty_expenses",
+   "key_idea": "The head cashier reimburses the exact sum of verified small expenditures to restore the original imprest float.",
+   "textbook_ref": "keac104.txt lines 215-285",
+   "question_patterns": [
+    "calculate petty cash balance in hand at the end of the period",
+    "find the reimbursement amount needed under imprest system",
+    "what is the remaining cash balance with the petty cashier",
+    "determine the closing petty cash balance",
+    "calculate petty cash book and imprest system for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum all petty expense payments",
+     "explain": "add postage, conveyance, stationery, cartage and miscellaneous disbursements",
+     "compute": "total_petty_expenses = postage + conveyance + stationery + miscellaneous"
+    },
+    {
+     "step": 2,
+     "action": "calculate the remaining petty cash balance",
+     "explain": "closing petty balance is imprest advance minus total disbursements",
+     "compute": "closing_petty_balance = imprest_amount - total_petty_expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate petty cash balance in hand at the end of the period (take conveyance = 10, imprest_amount = 10, miscellaneous = 10, postage = 10, stationery = 10)",
+     "solution": "Applying the concept's compute chain with conveyance = 10, imprest_amount = 10, miscellaneous = 10, postage = 10, stationery = 10 gives -30.0.",
+     "answer": "-30.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.2",
+   "title": "Purchases Journal and Trade Discount",
+   "section": "4.2",
+   "definition": "A dedicated subsidiary journal used exclusively to chronicle credit purchases of trading merchandise at net invoice price.",
+   "formula": "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)",
+   "key_idea": "Only credit purchases of goods meant for resale are entered, excluding cash purchases and asset purchases.",
+   "textbook_ref": "keac104.txt lines 340-395",
+   "question_patterns": [
+    "calculate net amount to be entered in purchases book",
+    "find the total of purchases journal after trade discount",
+    "what is the invoice value entered in purchases book",
+    "determine the purchases book total for credit purchases",
+    "calculate purchases journal and trade discount for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate trade discount on gross credit purchase",
+     "explain": "trade discount equals gross purchase value multiplied by the percentage discount",
+     "compute": "trade_discount = gross_amount * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "deduct trade discount to arrive at net purchase value",
+     "explain": "purchases journal records the net invoice amount after deducting trade discount",
+     "compute": "net_purchases = gross_amount - trade_discount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate net amount to be entered in purchases book (take gross_amount = 10, trade_discount_rate = 10)",
+     "solution": "Applying the concept's compute chain with gross_amount = 10, trade_discount_rate = 10 gives 9.0.",
+     "answer": "9.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.3",
+   "title": "Purchases Return Journal",
+   "section": "4.3",
+   "definition": "A special daybook that records items of trading goods returned to suppliers along with debit note references.",
+   "formula": "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)",
+   "key_idea": "Supported by debit notes issued to creditors for defective or non-compliant merchandise returned.",
+   "textbook_ref": "keac104.txt lines 410-475",
+   "question_patterns": [
+    "calculate the net value of goods returned to supplier",
+    "find the amount to be recorded in purchases return book",
+    "what is the value of purchases return after trade discount",
+    "determine the debit note amount for returned goods",
+    "calculate purchases return journal for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute trade discount allowance on returned items",
+     "explain": "deduct the original trade discount percentage applied at the time of purchase",
+     "compute": "discount_on_return = gross_return_amount * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate net return value",
+     "explain": "net return value recorded in the purchases return journal",
+     "compute": "net_return_amount = gross_return_amount - discount_on_return"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the net value of goods returned to supplier (take gross_return_amount = 10, trade_discount_rate = 10)",
+     "solution": "Applying the concept's compute chain with gross_return_amount = 10, trade_discount_rate = 10 gives 9.0.",
+     "answer": "9.0"
+    },
+    {
+     "question": "calculate the net value of goods returned to supplier (take gross_return_amount = 10, trade_discount_rate = 2)",
+     "solution": "Applying the concept's compute chain with gross_return_amount = 10, trade_discount_rate = 2 gives 9.8.",
+     "answer": "9.8"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.4",
+   "title": "Sales Journal",
+   "section": "4.4",
+   "definition": "A subsidiary record maintained to log all credit sales of merchandise to customers based on outgoing sales invoices.",
+   "formula": "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)",
+   "key_idea": "Cash sales and sales of non-inventory assets are omitted from the sales journal.",
+   "textbook_ref": "keac104.txt lines 490-545",
+   "question_patterns": [
+    "calculate net sales to be entered in the sales book",
+    "find the total credit sales value after trade discount",
+    "what is the entry amount in sales journal",
+    "determine the total of sales book for the period",
+    "calculate sales journal for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate trade discount on goods sold",
+     "explain": "discount amount is computed as trade discount rate percentage on gross sale price",
+     "compute": "sales_trade_discount = gross_sales_amount * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "determine net sales invoice value",
+     "explain": "net sales amount is obtained by subtracting the trade discount from gross sales",
+     "compute": "net_sales = gross_sales_amount - sales_trade_discount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate net sales to be entered in the sales book (take gross_sales_amount = 10, trade_discount_rate = 10)",
+     "solution": "Applying the concept's compute chain with gross_sales_amount = 10, trade_discount_rate = 10 gives 9.0.",
+     "answer": "9.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.5",
+   "title": "Sales Return Journal",
+   "section": "4.5",
+   "definition": "A designated daybook used to record returns of goods previously sold on credit, supported by credit notes issued to customers.",
+   "formula": "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)",
+   "key_idea": "A credit note is issued to the customer acknowledging the reduction in their payable balance.",
+   "textbook_ref": "keac104.txt lines 550-610",
+   "question_patterns": [
+    "calculate the net value of sales return",
+    "find the amount to be recorded in sales return book",
+    "what is the credit note amount for returned goods",
+    "determine the total of sales return journal",
+    "calculate sales return journal for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate trade discount on returned goods",
+     "explain": "apply the trade discount rate agreed upon at the time of credit sale",
+     "compute": "return_trade_discount = gross_sales_return * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate net sales return value",
+     "explain": "net sales return is gross return value less trade discount",
+     "compute": "net_sales_return = gross_sales_return - return_trade_discount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the net value of sales return (take gross_sales_return = 10, trade_discount_rate = 10)",
+     "solution": "Applying the concept's compute chain with gross_sales_return = 10, trade_discount_rate = 10 gives 9.0.",
+     "answer": "9.0"
+    },
+    {
+     "question": "calculate the net value of sales return (take gross_sales_return = 10, trade_discount_rate = 2)",
+     "solution": "Applying the concept's compute chain with gross_sales_return = 10, trade_discount_rate = 2 gives 9.8.",
+     "answer": "9.8"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.6",
+   "title": "Journal Proper Entries Classification",
+   "section": "4.6",
+   "definition": "A residual book of original entry utilized for transactions that cannot be accommodated within any of the specialized subsidiary journals.",
+   "formula": "total_journal_debit = total_journal_credit",
+   "key_idea": "Records opening, adjustment, rectification, transfer, and miscellaneous non-cash or non-trading entries.",
+   "textbook_ref": "keac104.txt lines 710-755",
+   "question_patterns": [
+    "identify transactions to be recorded in journal proper",
+    "classify entries under opening, adjustment, rectification or transfer",
+    "verify whether credit asset purchase is recorded in journal proper",
+    "determine the purpose of journal proper",
+    "explain journal proper entries classification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine transaction type and verify if covered by special daybooks",
+     "explain": "check if transaction is cash, bank, credit purchase of goods, credit sale of goods, or goods return"
+    },
+    {
+     "step": 2,
+     "action": "route residual transaction to journal proper",
+     "explain": "opening balances, depreciation, credit asset transactions, rectifications, and year-end transfers belong in journal proper"
+    }
+   ]
+  },
+  {
+   "id": "keac.4.7",
+   "title": "Balancing of Ledger Accounts",
+   "section": "4.7",
+   "definition": "The periodic accounting routine of computing the total difference between debit and credit sides of an account to determine its net closing balance.",
+   "formula": "account_balance = abs(total_debit - total_credit)",
+   "key_idea": "A debit balance arises when debit total exceeds credit total; a credit balance occurs when credit exceeds debit.",
+   "textbook_ref": "keac104.txt lines 770-820",
+   "question_patterns": [
+    "calculate the balance of ledger account",
+    "find the balance c/d in ledger account",
+    "what is the closing balance of the account",
+    "determine whether the account has a debit or credit balance",
+    "calculate balancing of ledger accounts for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the difference between debit and credit totals",
+     "explain": "balance is the net difference placed on the shorter side to make both totals equal",
+     "compute": "account_balance = total_debit - total_credit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the balance of ledger account (take total_credit = 10, total_debit = 10)",
+     "solution": "Applying the concept's compute chain with total_credit = 10, total_debit = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate the balance of ledger account (take total_credit = 10, total_debit = 2)",
+     "solution": "Applying the concept's compute chain with total_credit = 10, total_debit = 2 gives -8.0.",
+     "answer": "-8.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac104.txt lines 61-90",
+   "concept": "keac.4.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate closing cash balance given opening cash {opening_cash}, cash receipts {total_cash_receipts}, and cash payments {total_cash_payments}.",
+   "extracted_variables": {
+    "opening_cash": "opening cash balance in hand",
+    "total_cash_receipts": "sum of cash received from sales and debtors",
+    "total_cash_payments": "sum of cash paid for expenses, assets, and creditors"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum total debit receipts including opening cash",
+     "explain": "total debit equals opening cash plus all cash received",
+     "compute": "total_receipts_side = opening_cash + total_cash_receipts"
+    },
+    {
+     "step": 2,
+     "action": "deduct total cash payments to get closing cash balance",
+     "explain": "closing balance c/d is the excess of total receipts over total payments",
+     "compute": "closing_cash = total_receipts_side - total_cash_payments"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac104.txt lines 215-285",
+   "concept": "keac.4.1.3",
+   "question_type": "compute",
+   "question_pattern": "Find the remaining petty cash balance with imprest amount {imprest_amount}, postage expenses {postage}, conveyance expenses {conveyance}, stationery expenses {stationery}, and miscellaneous expenses {miscellaneous}.",
+   "extracted_variables": {
+    "imprest_amount": "initial cash float handed to petty cashier",
+    "postage": "expenses incurred on postage and courier",
+    "conveyance": "expenses incurred on taxi and bus fare",
+    "stationery": "expenses incurred on office stationery",
+    "miscellaneous": "other miscellaneous expenses"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum all petty expense payments",
+     "explain": "add postage, conveyance, stationery, and miscellaneous disbursements",
+     "compute": "total_petty_expenses = postage + conveyance + stationery + miscellaneous"
+    },
+    {
+     "step": 2,
+     "action": "calculate the remaining petty cash balance",
+     "explain": "closing petty balance is imprest advance minus total disbursements",
+     "compute": "closing_petty_balance = imprest_amount - total_petty_expenses"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac104.txt lines 340-395",
+   "concept": "keac.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the net purchase value to record in purchases book for goods of gross value {gross_amount} subject to trade discount of {trade_discount_rate}%.",
+   "extracted_variables": {
+    "gross_amount": "gross catalogue price of goods purchased on credit",
+    "trade_discount_rate": "percentage rate of trade discount"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate trade discount on gross credit purchase",
+     "explain": "trade discount equals gross purchase value multiplied by the percentage discount",
+     "compute": "trade_discount = gross_amount * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "deduct trade discount to arrive at net purchase value",
+     "explain": "purchases journal records the net invoice amount after deducting trade discount",
+     "compute": "net_purchases = gross_amount - trade_discount"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac104.txt lines 490-545",
+   "concept": "keac.4.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the net invoice value in sales journal for credit sales with gross amount {gross_sales_amount} and trade discount {trade_discount_rate}%.",
+   "extracted_variables": {
+    "gross_sales_amount": "catalogue price of credit sales",
+    "trade_discount_rate": "trade discount percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate trade discount on goods sold",
+     "explain": "discount amount is computed as trade discount rate percentage on gross sale price",
+     "compute": "sales_trade_discount = gross_sales_amount * trade_discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "determine net sales invoice value",
+     "explain": "net sales amount is obtained by subtracting the trade discount from gross sales",
+     "compute": "net_sales = gross_sales_amount - sales_trade_discount"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex104.1",
+   "source_ref": "keac104.txt Numerical Questions 1-3",
+   "questions": [
+    "Enter transactions in a simple cash book for December 2016 and find the closing cash in hand.",
+    "Record transactions in simple cash book for November 2016 and calculate the cash balance.",
+    "Enter transactions in simple cash book for December 2017 and determine the closing balance."
+   ]
+  },
+  {
+   "id": "ex104.2",
+   "source_ref": "keac104.txt Numerical Questions 4-10",
+   "questions": [
+    "Record transactions in a bank column cash book for December 2016 and determine cash in hand and cash at bank.",
+    "Prepare a double column cash book for December 2016 and find ending balances.",
+    "Enter transactions in double column cash book of M/s Ambica Traders for July 2017.",
+    "Prepare double column cash book with opening cash and bank overdraft for July 2017.",
+    "Enter transactions in double column cash book of M/s Mohit Traders for January 2017.",
+    "Prepare double column cash book from transactions for August 2017.",
+    "Prepare bank column cash book of M/s Ruchi Traders for July 2017."
+   ]
+  },
+  {
+   "id": "ex104.3",
+   "source_ref": "keac104.txt Numerical Questions 11-12",
+   "questions": [
+    "Prepare petty cash book from given transactions with an imprest amount of Rs 2,000 and calculate the cash balance.",
+    "Record transactions during the week ending Dec 30, 2014 with a weekly imprest of Rs 500 and find the cash balance."
+   ]
+  },
+  {
+   "id": "ex104.4",
+   "source_ref": "keac104.txt Numerical Questions 13-16",
+   "questions": [
+    "Enter transactions in the Purchase Journal of M/s Gupta Traders for July 2017 and find the total.",
+    "Enter transactions in sales journal book of M/s Bansal Electronics for September 2014.",
+    "Prepare a purchases return journal book from transactions for April 2017.",
+    "Prepare Return Inward Journal from transactions of M/s Bansal Electronics for July 2017."
+   ]
+  },
+  {
+   "id": "ex104.5",
+   "source_ref": "keac104.txt Numerical Questions 17-18",
+   "questions": [
+    "Prepare proper subsidiary books and post them to the ledger for February 2017.",
+    "Journalise transactions from opening ledger balances of M/s Marble Traders for April 2017 and post them to ledger accounts."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

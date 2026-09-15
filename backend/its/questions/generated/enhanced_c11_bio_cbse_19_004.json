@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_004",
+   "title": "c11_bio_cbse_19_004",
+   "questions": [
+    {
+     "q": "Name the three histological zones of the adrenal cortex from outermost to innermost and state the principal hormone class each zone secretes.",
+     "a": "Outermost to innermost: zona glomerulosa (mineralocorticoids, mainly aldosterone), zona fasciculata (glucocorticoids, mainly cortisol), zona reticularis (androgenic steroids, mainly DHEA). A wrong answer (e.g., reversing the order or misassigning hormone classes) reveals the student has not internalized the functional zonation that underlies distinct regulatory mechanisms—glomerulosa responds to angiotensin II/K⁺, fasciculata to ACTH, reticularis to ACTH but with different enzymatic equipment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a patient with a pheochromocytoma (adrenal medulla tumour) experiences paroxysmal hypertension, headache, and sweating, whereas a patient with an ACTH-secreting pituitary adenoma develops moon face, buffalo hump, and striae.",
+     "a": "Pheochromocytoma causes episodic catecholamine surges → α-adrenergic vasoconstriction + β₁ cardiac stimulation → paroxysmal BP spikes, headache, sweating. ACTH adenoma causes chronic cortisol excess → glucocorticoid-induced lipolysis/redistribution (centripetal obesity, moon face, buffalo hump), protein catabolism (skin thinning, striae), and gluconeogenesis (hyperglycemia). Confusing the two indicates failure to distinguish acute neural-mediated catecholamine effects from chronic genomic glucocorticoid actions.",
+     "self_check": true
+    },
+    {
+     "q": "A 30-year-old woman presents with fatigue, hyperpigmentation of palmar creases, hypotension (90/60 mmHg), hyponatraemia (128 mmol/L), and hyperkalaemia (5.8 mmol/L). Her plasma cortisol is low and ACTH is markedly elevated. Identify the most likely diagnosis and explain the electrolyte abnormalities mechanistically.",
+     "a": "Primary adrenal insufficiency (Addison's disease). Low cortisol → loss of negative feedback → high ACTH (which shares POMC precursor with MSH → hyperpigmentation). Aldosterone deficiency → impaired Na⁺ reabsorption and K⁺/H⁺ excretion in cortical collecting duct → hyponatraemia, hyperkalaemia, volume depletion → hypotension. A wrong diagnosis (e.g., secondary adrenal insufficiency) would miss the mineralocorticoid deficiency and electrolyte signature, showing the student does not grasp that ACTH primarily drives glucocorticoids, not mineralocorticoids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the regulation of aldosterone versus cortisol secretion, specifying the primary stimuli, the cortical zone involved, and the physiological consequence of each hormone's action on its principal target tissue.",
+     "a": "Aldosterone: zona glomerulosa; primary stimuli = angiotensin II (via RAAS) and hyperkalaemia; target = renal collecting duct principal cells → Na⁺ reabsorption/K⁺ excretion → blood volume/pressure maintenance. Cortisol: zona fasciculata; primary stimulus = ACTH (circadian/stress); target = hepatocytes, adipocytes, lymphocytes → gluconeogenesis, lipolysis, anti-inflammatory/immunosuppression. Failure to separate RAAS from HPA axis control shows the student treats \"adrenal cortex\" as a monolith rather than three independently regulated zones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"During prolonged fasting, the adrenal medulla and cortex cooperate to maintain blood glucose.\" Support your evaluation with specific hormonal actions and metabolic pathways.",
+     "a": "True. Medulla: epinephrine → β-adrenergic → glycogenolysis (liver) + lipolysis (adipose) → rapid glucose/FFA supply. Cortex: cortisol → permissive for gluconeogenic enzymes (PEPCK, G6Pase) + proteolysis (muscle) → sustained gluconeogenic substrate. Together they cover acute (minutes) and chronic (hours-days) glucose homeostasis. A \"false\" answer ignores the permissive role of cortisol on catecholamine sensitivity and gluconeogenic capacity, revealing a fragmented view of stress metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple clinical protocol to differentiate primary hyperaldosteronism (Conn's syndrome) from secondary hyperaldosteronism due to renal artery stenosis, using only plasma renin activity (PRA) and plasma aldosterone concentration (PAC) measurements.",
+     "a": "Measure PAC and PRA simultaneously. Primary hyperaldosteronism: autonomous aldosterone secretion → high PAC, suppressed PRA (PAC:PRA ratio >30). Secondary hyperaldosteronism (renal artery stenosis): reduced renal perfusion → high renin → high angiotensin II → high aldosterone → high PAC, high PRA (ratio normal). A protocol that omits simultaneous measurement or ignores the ratio shows the student cannot apply feedback physiology to diagnostic reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

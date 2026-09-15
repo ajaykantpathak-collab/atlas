@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_2",
+   "title": "c8_math_ch13_2",
+   "questions": [
+    {
+     "q": "What is the algebraic expression for the trick: \"Think of a number. Multiply it by 4. Add 12. Divide by 4. Subtract your original number.\"?",
+     "a": "The expression is ((4x + 12) / 4) - x. A wrong answer like 4x + 12/4 - x reveals the student does not understand order of operations or the need for brackets to show the division applies to the entire previous result. This indicates a gap in translating verbal steps to grouped algebraic notation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the trick \"Think of a number. Add 5. Multiply by 2. Subtract 4. Divide by 2. Subtract your original number\" always gives the same answer, using algebra.",
+     "a": "Let the number be x. Steps: x + 5 → 2(x+5) = 2x+10 → 2x+10-4 = 2x+6 → (2x+6)/2 = x+3 → x+3 - x = 3. The variable x cancels out completely, leaving the constant 3. A wrong answer that only shows arithmetic with a specific number (e.g., \"if I pick 2, I get 3\") reveals the student does not grasp that algebraic proof requires showing the variable vanishes for ALL numbers, not just verifying one example.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step trick that always results in 10. Write the verbal steps and the algebraic proof.",
+     "a": "Example: Think of a number (x). Multiply by 3 (3x). Add 30 (3x+30). Divide by 3 (x+10). Subtract original number (10). Proof: ((3x+30)/3) - x = x+10 - x = 10. A wrong answer where the final expression simplifies to something like x+10 (forgetting the last subtraction) or 5 (miscalculating constants) reveals the student cannot reverse-engineer operations to achieve a target constant or makes simplification errors with distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two tricks. Do they always give the same result? Trick A: \"Think of a number. Double it. Add 6. Halve it. Subtract your original number.\" Trick B: \"Think of a number. Add 3. Double it. Subtract 6. Halve it. Subtract your original number.\"",
+     "a": "Trick A: ((2x+6)/2) - x = x+3 - x = 3. Trick B: ((2(x+3)-6)/2) - x = ((2x+6-6)/2) - x = (2x/2) - x = x - x = 0. They give different constants (3 vs 0). A student who says they are the same because both \"cancel the number\" misses that the constant terms are manipulated differently. This reveals an inability to track constant terms separately from the variable during simplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student designed this trick: \"Think of a number. Multiply by 5. Add 10. Divide by 5. Subtract 2. Subtract your original number.\" They claim the answer is always 0. Is the student correct? Justify your answer.",
+     "a": "Expression: ((5x+10)/5) - 2 - x = (x+2) - 2 - x = x - x = 0. Yes, the student is correct. A wrong evaluation might incorrectly simplify (5x+10)/5 as 5x+2 (forgetting to divide both terms by 5), leading to 5x+2-2-x = 4x, and concluding the trick fails. This exposes the common error of not distributing division over addition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a number trick that uses exactly 5 steps (including \"think of a number\" as step 1) and results in the number 15. The trick must use multiplication, division, addition, and subtraction at least once each. Write the steps and prove it works.",
+     "a": "Example: 1) Think of a number (x). 2) Multiply by 4 (4x). 3) Add 60 (4x+60). 4) Divide by 4 (x+15). 5) Subtract original number (15). Proof: ((4x+60)/4) - x = x+15 - x = 15. A poor answer might omit one required operation, use more than 5 steps, or have an algebraic proof that doesn't simplify to 15. This reveals difficulty in constrained creative design and verifying the constant term after distribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

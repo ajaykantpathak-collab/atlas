@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_1",
+   "title": "c8_math_ch12_1",
+   "questions": [
+    {
+     "q": "What is the sum of the deviations of all data points from their mean? (Answer in one sentence.)",
+     "a": "The sum of deviations from the mean is always zero. A wrong answer (e.g., \"it depends on the data\" or a non-zero number) reveals that the student has not internalised the defining property of the mean as a balancing point and still sees it only as a computational average.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of distances of data points below the mean equals the sum of distances of data points above the mean. Use the idea of signed deviations.",
+     "a": "Because the sum of signed deviations is zero, the total negative deviation (below the mean) must exactly cancel the total positive deviation (above the mean). Therefore, the absolute sums are equal. A wrong answer that only states \"the mean is in the middle\" without referencing signed deviations shows the student confuses the mean with the median or has a purely verbal understanding without mathematical justification.",
+     "self_check": true
+    },
+    {
+     "q": "The weights (in kg) of five boxes are 12, 15, 18, 21, and 24. Verify the balancing property by calculating the sum of distances below the mean and the sum of distances above the mean.",
+     "a": "Mean = (12+15+18+21+24)/5 = 90/5 = 18 kg.\nBelow mean: 12 (distance 6), 15 (distance 3) → sum = 9.\nAbove mean: 21 (distance 3), 24 (distance 6) → sum = 9.\nSums are equal (9 = 9). A wrong answer often comes from miscalculating the mean (e.g., getting 17 or 19) or forgetting to include the value equal to the mean (18) which has distance 0 and does not affect the sums.",
+     "self_check": true
+    },
+    {
+     "q": "A data set has four values: 5, 9, 13, and one unknown \\(x\\). The mean of the set is 10. Without finding \\(x\\) first, use the balancing property to determine whether \\(x\\) is greater than or less than 10. Explain your reasoning.",
+     "a": "The known values: 5 (dev -5), 9 (dev -1), 13 (dev +3). Sum of known deviations = -5 -1 +3 = -3. For the total sum of deviations to be zero, the unknown must have a deviation of +3, so \\(x = 10 + 3 = 13\\). Thus \\(x\\) is greater than 10. A wrong answer (e.g., \"x is less than 10 because 5 and 9 are small\") shows the student cannot work backwards from the balancing property and still relies on intuitive guessing.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the data set 4, 7, 10, 13, the mean is 8.5. The distances below the mean are 4.5 and 1.5; above are 1.5 and 4.5. The sums are equal, so the balancing property holds.\" Is the student's verification correct? Identify any error.",
+     "a": "The student is correct. The mean is (4+7+10+13)/4 = 34/4 = 8.5. Deviations: 4→-4.5, 7→-1.5, 10→+1.5, 13→+4.5. Sum of negative distances = 6, sum of positive distances = 6. The verification is accurate. If a student says it's incorrect, they might mistakenly think the mean must be a whole number or that the distances must be paired symmetrically in value (not just sum).",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of five whole numbers between 1 and 20 (inclusive) such that the mean is 12 and the balancing property is satisfied. Show the distances on both sides.",
+     "a": "Example: 8, 10, 12, 14, 16. Mean = 12. Below: 8 (4), 10 (2) → sum 6. Above: 14 (2), 16 (4) → sum 6. Any valid set with mean 12 and equal sum of distances works. A poor answer might give a set with mean 12 but unequal distance sums (e.g., 10, 11, 12, 13, 16 gives below sum 3, above sum 5), revealing the student does not truly grasp that the balancing property is a necessary condition for the mean.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,794 @@
+{
+ "catalog": "catalog_class9_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "iemh.3.1.1",
+   "title": "Natural Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.2.2",
+   "title": "Multiplying by Zero: Brahmagupta's Rule",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers 3 and -12.",
+     "a": "-9",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -19 on a number line and moves 30 steps (negative means left). Where does it finish?",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 5 and 6.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Divide -88 by -2.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 9 and return it.",
+     "a": "-9",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 7 x 2 + 7 x 7 as 7 x (2 + 7).",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.3.1",
+   "title": "Arithmetic of Integers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers -9 and -24.",
+     "a": "-33",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 0 on a number line and moves -8 steps (negative means left). Where does it finish?",
+     "a": "-8",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 0 and -4.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divide 7 by 4.",
+     "a": "1.75",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 11 and return it.",
+     "a": "-11",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 3 x 3 + 3 x 9 as 3 x (3 + 9).",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.1",
+   "title": "Definition of Rational Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 7 * 8 + 2 * 5 gives 66",
+     "compute": "num = 7 * 8 + 2 * 5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 5 * 8 gives 40",
+     "compute": "den = 5 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.65",
+     "compute": "val = num / den"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the rational numbers 7/5 and 2/8.",
+     "a": "33/20",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 8/3.",
+     "a": "-8/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 5/6.",
+     "a": "6/5",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 6/2 and 10/2 (use the mean).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 17/3 and 15/3 on the number line.",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 12/14 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "6/7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.2",
+   "title": "Multiplying Rational Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the rational numbers 2/4 and 1/9.",
+     "a": "11/18",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 6/5.",
+     "a": "-6/5",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 2/6.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 4/2 and 8/2 (use the mean).",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 15/3 and 13/3 on the number line.",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 18/16 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "9/8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.5",
+   "title": "Adding Rational Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the rational numbers 4/6 and 1/7.",
+     "a": "17/21",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 5/4.",
+     "a": "-5/4",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 5/8.",
+     "a": "8/5",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 4/2 and 8/2 (use the mean).",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 11/3 and 1/3 on the number line.",
+     "a": "10/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 4/6 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "2/3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.3",
+   "title": "Density of Rational Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the rational numbers 1/4 and 4/7.",
+     "a": "23/28",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 6/2.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 3/2.",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 2/2 and 6/2 (use the mean).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 15/3 and 10/3 on the number line.",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 6/14 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "3/7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.6",
+   "title": "Representing Rationals on the Number Line",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 2 * 8 + 5 * 4 gives 36",
+     "compute": "num = 2 * 8 + 5 * 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 4 * 8 gives 32",
+     "compute": "den = 4 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.125",
+     "compute": "val = num / den"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the rational numbers 2/4 and 5/8.",
+     "a": "9/8",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 5/3.",
+     "a": "-5/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 8/7.",
+     "a": "7/8",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 8/2 and 12/2 (use the mean).",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 19/3 and 11/3 on the number line.",
+     "a": "8/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 21/12 in standard form by dividing both terms by 3; give the numerator of the standard form over its denominator as a single value.",
+     "a": "7/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.7",
+   "title": "Distance Between Two Rationals",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the rational numbers 7/6 and 3/7.",
+     "a": "67/42",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 4/3.",
+     "a": "-4/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 6/9.",
+     "a": "3/2",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 8/2 and 12/2 (use the mean).",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 19/3 and 18/3 on the number line.",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 12/14 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "6/7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.1",
+   "title": "Irrational Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.2",
+   "title": "Constructing Square-Root Lengths",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 36 ** 2 gives 1296",
+     "compute": "sq = 36 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 36.",
+     "a": "1296",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 34 m. What is the number of square metres in its area?",
+     "a": "1156",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 8^2 and 9^2? (Rule: 2 x n)",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 13 x 11.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 42?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 30. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "226",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.3",
+   "title": "The Story of Pi",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.1",
+   "title": "Predicting Decimal Expansion Type",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.2",
+   "title": "Terminating Decimals to Fractions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.3",
+   "title": "Pure Repeating Decimals to Fractions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.4",
+   "title": "General Repeating Decimals to Fractions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.5",
+   "title": "Cyclic Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

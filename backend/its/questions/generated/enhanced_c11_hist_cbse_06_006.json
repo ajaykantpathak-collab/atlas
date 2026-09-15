@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_006",
+   "title": "c11_hist_cbse_06_006",
+   "questions": [
+    {
+     "q": "What were the two core ceremonies that formalised the lord-vassal bond in medieval Europe, and what did each ceremony signify?",
+     "a": "The two ceremonies were **homage** (vassal kneels, places hands between lord's hands, pledges loyalty) and **fealty** (vassal swears oath on relics/Bible to be faithful). Homage symbolised personal submission and the \"man-to-man\" bond; fealty added religious sanctity to the contract. A wrong answer (e.g., \"signing a charter\" or \"paying money\") reveals confusion with modern legal contracts or manorial payments, missing the personal, ritualised nature of feudal bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the practice of subinfeudation (a vassal granting part of his fief to a rear-vassal) create a problem for the king's authority, and how did the \"Statute of Quia Emptores\" (1290) attempt to fix it?",
+     "a": "Subinfeudation created long chains of loyalty where the king had no direct link to rear-vassals, weakening royal control and military recruitment. Quia Emptores banned further subinfeudation, requiring new tenants to hold directly from the original lord (ultimately the king), preserving the feudal pyramid's clarity. A wrong answer focusing only on \"land fragmentation\" misses the political-military dimension: the king lost direct command over knights, undermining the feudal contract's purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A vassal holds a fief worth £20 annual income. His lord demands 40 days of knight service per year. The vassal calculates that hiring a mercenary knight costs 2 shillings per day. Should the vassal perform service personally or pay scutage? Show your reasoning.",
+     "a": "40 days × 2 shillings = 80 shillings = £4. Since £4 < £20 (fief income), paying scutage (£4) is economically rational *if* the lord accepts it. However, personal service maintained honour, court access, and influence. A wrong answer ignoring the non-monetary value of service (patronage, status) reveals a purely economic mindset, missing the feudal ethos where military service was a *status marker*, not just a transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the European knight's fee (fief for cavalry service) with the Indian *jagir* system under the Mughals. Identify two structural similarities and two fundamental differences in the lord-vassal relationship.",
+     "a": "Similarities: (1) Land grant in lieu of salary/service, (2) Hierarchical chain (king → noble → holder). Differences: (1) European fief was *hereditary* (after relief payment) creating property rights; Mughal jagir was *non-hereditary*, resumeable at will. (2) European vassal owed *personal military service*; jagirdar owed *revenue quota* (mansab) and provided troops but didn't necessarily fight personally. Wrong answers conflating \"land grant\" systems miss the contractual vs. bureaucratic nature of the bond.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian Marc Bloch's claim: \"Feudal society was a society without a state.\" Use the lord-vassal relationship to support or challenge this view.",
+     "a": "Support: The lord-vassal bond *was* the state - justice, defence, and administration were privatised into personal contracts. No standing army, bureaucracy, or police existed beyond the feudal hierarchy. Challenge: Kings retained \"feudal incidents\" (relief, wardship, marriage) and summoned *commune concilium* (great councils), showing embryonic state institutions. A one-sided answer missing either the *privatisation of public power* or the *royal residues* fails to grasp feudalism's dual nature as both \"stateless\" and \"state-forming.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \"feudal contract\" for a 12th-century Norman knight receiving a 5-hide fief from his baron. Include: homage/fealty wording, military obligation (knight service + castle guard), three feudal aids, two feudal incidents, and the vassal's right of \"aid and counsel.\"",
+     "a": "A strong answer produces a document with: (1) Homage formula: \"I become your man...\" (2) Fealty oath: \"I will bear faith...\" (3) Service: 40 days knight service + 30 days castle guard at baron's chief castle. (4) Aids: ransom, knighting eldest son, marrying eldest daughter. (5) Incidents: relief (inheritance tax), wardship (minor heir's land/profits). (6) Counsel: attendance at baron's court. Missing any category shows incomplete grasp of the contract's *comprehensive* nature - it covered military, financial, judicial, and political dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

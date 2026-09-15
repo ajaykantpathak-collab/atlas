@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_014",
+   "title": "c11_chem_cbse_07_014",
+   "questions": [
+    {
+     "q": "Write the solubility product (Ksp) expression for silver chromate (Ag₂CrO₄) dissolving in water. Identify the stoichiometric coefficients that become exponents.",
+     "a": "Ag₂CrO₄(s) ⇌ 2Ag⁺(aq) + CrO₄²⁻(aq); Ksp = [Ag⁺]²[CrO₄²⁻]. The coefficient 2 for Ag⁺ becomes the exponent 2. A wrong answer (e.g., Ksp = [Ag⁺][CrO₄²⁻] or forgetting the square) reveals the student does not understand that the exponent in Ksp comes from the balanced equation's stoichiometric coefficients, a direct application of the law of mass action to heterogeneous equilibria.",
+     "self_check": true
+    },
+    {
+     "q": "The molar solubility of BaSO₄ in pure water at 298 K is 1.05 × 10⁻⁵ mol L⁻¹. Calculate its Ksp. If a student instead calculates Ksp = (1.05 × 10⁻⁵)² = 1.10 × 10⁻¹⁰, what conceptual error have they made?",
+     "a": "For BaSO₄(s) ⇌ Ba²⁺(aq) + SO₄²⁻(aq), [Ba²⁺] = [SO₄²⁻] = s = 1.05 × 10⁻⁵ M, so Ksp = s² = 1.10 × 10⁻¹⁰. The student's calculation is actually numerically correct for a 1:1 salt. However, if they wrote Ksp = s instead of s², that would reveal they think Ksp equals molar solubility directly, confusing the equilibrium constant with the solubility value. The error would be not squaring the concentration because the stoichiometry gives two ions.",
+     "self_check": true
+    },
+    {
+     "q": "A solution contains 0.010 M Ca²⁺ and 0.020 M F⁻. Will CaF₂ precipitate? (Ksp of CaF₂ = 3.9 × 10⁻¹¹ at 298 K). Show the calculation of the ionic product Q and compare with Ksp.",
+     "a": "Dissolution: CaF₂(s) ⇌ Ca²⁺(aq) + 2F⁻(aq); Q = [Ca²⁺][F⁻]² = (0.010)(0.020)² = 4.0 × 10⁻⁶. Since Q (4.0 × 10⁻⁶) > Ksp (3.9 × 10⁻¹¹), precipitation occurs. A wrong answer (e.g., Q = [Ca²⁺][F⁻] = 2.0 × 10⁻⁴) reveals the student forgot to square the fluoride concentration, missing the stoichiometric coefficient 2 in the Ksp expression.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solubility of AgCl in pure water versus in 0.10 M NaCl solution. Ksp(AgCl) = 1.8 × 10⁻¹⁰. Calculate the molar solubility in each case and explain the difference using Le Chatelier's principle.",
+     "a": "In pure water: s = √Ksp = √(1.8×10⁻¹⁰) = 1.34×10⁻⁵ M. In 0.10 M NaCl: [Cl⁻] ≈ 0.10 M (common ion), so s' = Ksp/[Cl⁻] = 1.8×10⁻¹⁰/0.10 = 1.8×10⁻⁹ M. Solubility decreases by a factor of ~7500. A wrong answer that gives the same solubility in both cases reveals the student does not grasp that the common ion shifts equilibrium left (Le Chatelier), reducing the concentration of the other ion to maintain Ksp constant.",
+     "self_check": true
+    },
+    {
+     "q": "A student mixes equal volumes of 0.001 M AgNO₃ and 0.001 M NaCl. They claim no precipitate forms because the concentrations are \"too low.\" Evaluate this claim using Q vs Ksp (Ksp AgCl = 1.8×10⁻¹⁰). After mixing, [Ag⁺] = [Cl⁻] = 0.0005 M. Is the claim correct?",
+     "a": "After mixing, [Ag⁺] = [Cl⁻] = 0.0005 M. Q = (5×10⁻⁴)² = 2.5×10⁻⁷. Q > Ksp (1.8×10⁻¹⁰), so precipitate WILL form. The student's claim is incorrect. A wrong evaluation (saying no precipitate) reveals the student either forgot the dilution factor upon mixing equal volumes, or incorrectly thinks Ksp is compared to initial concentrations before mixing, or misunderstands that Q uses instantaneous concentrations after mixing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate the common ion effect on the solubility of a sparingly soluble salt. Describe the materials, procedure, and expected observation.",
+     "a": "Materials: Eno fruit salt (contains NaHCO₃ and citric acid, producing CO₂), but better: use calcium hydroxide (slaked lime, chuna) and vinegar (acetic acid) — not ideal. Instead: Use commercially available \"alum\" (KAl(SO₄)₂·12H₂O) which is moderately soluble. Or better: Use Ca(OH)₂ (sparingly soluble) and add CaCl₂ (common Ca²⁺) — but CaCl₂ may not be household. Alternative: Use Mg(OH)₂ (milk of magnesia) and add MgSO₄ (Epsom salt). Procedure: Prepare saturated Mg(OH)₂ suspension, filter to get clear saturated solution. Divide into two test tubes. To one, add solid MgSO₄ and shake. Observation: White precipitate of Mg(OH)₂ forms in the tube with added MgSO₄ due to common ion effect. A poor answer would use a highly soluble salt like NaCl and claim precipitation, revealing confusion between common ion effect and salting out of proteins.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

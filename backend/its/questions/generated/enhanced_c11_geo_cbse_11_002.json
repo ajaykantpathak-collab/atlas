@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_002",
+   "title": "c11_geo_cbse_11_002",
+   "questions": [
+    {
+     "q": "Define the term 'seismic zone' as used in the Indian context (IS 1893) and state the number of seismic zones into which India is divided.",
+     "a": "A seismic zone in India (per IS 1893) is a geographical region classified based on the maximum expected earthquake intensity on the Modified Mercalli Scale, incorporating historical seismicity, geological structure, and tectonic setting. India is divided into four seismic zones: Zone II (Low Damage Risk), Zone III (Moderate), Zone IV (High), and Zone V (Very High). A wrong answer (e.g., \"five zones\" or \"zones based only on past earthquakes\") reveals confusion with older classifications or misunderstanding that zonation integrates geological structure, not just historical records.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Kutch region (Gujarat) is classified as Zone V despite being far from the Himalayan plate boundary.",
+     "a": "Kutch lies in Zone V due to intraplate seismicity along the Kutch Rift Basin, a failed Mesozoic rift reactivated by northward compressional stress from the India-Eurasia collision. The 1819 Allah Bund (Mw 7.8) and 2001 Bhuj (Mw 7.7) earthquakes occurred on the South Wagad Fault and Kutch Mainland Fault respectively — east-west trending faults within the rift. A wrong answer attributing it to \"proximity to Himalayas\" or \"volcanic activity\" reveals failure to distinguish interplate vs. intraplate seismicity and ignorance of India's Precambrian rift systems as seismic sources.",
+     "self_check": true
+    },
+    {
+     "q": "Given: The 1905 Kangra earthquake (Mw 7.8) occurred in the Himalayan Seismic Zone. The 2001 Bhuj earthquake (Mw 7.7) occurred in the Kutch Rift. Compare the focal mechanisms (thrust vs. strike-slip) and explain how the regional stress field differs in these two Zone V regions.",
+     "a": "Kangra: Himalayan convergence (India plate underthrusting Eurasia) generates N-S compression → thrust faulting on Main Boundary Thrust/Main Central Thrust (dip ~10-15° north). Bhuj: E-W compression from far-field Himalayan stress reactivates N-S to NE-SW trending rift faults → strike-slip with reverse component (transpression) on east-west faults. Both Zone V but different mechanisms: Kangra = interplate thrust; Bhuj = intraplate transpression. Wrong answer (e.g., \"both thrust faults\") shows inability to link plate boundary forces to intraplate stress transmission and fault reactivation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the seismic zone map of India and explain why the Indo-Gangetic Plain (Punjab to Assam) falls in Zone IV despite being on thick alluvium far from the Himalayan thrust front.",
+     "a": "The Indo-Gangetic Plain is Zone IV due to: (1) Proximity to Himalayan thrusts (Main Frontal Thrust) — seismic energy radiates into the foreland basin; (2) Thick alluvium amplifies ground motion (site effect) — soft sediments increase shaking duration and amplitude; (3) Blind thrusts beneath alluvium (e.g., 1999 Chamoli, 2011 Sikkim) can rupture without surface expression; (4) Liquefaction potential in saturated sands. A wrong answer citing \"soil type only\" or \"distance from mountains\" misses the combined tectonic proximity, basin amplification, and hidden fault hazards.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Andaman & Nicobar Islands are in Zone V solely because of the subduction zone.\" Consider the 2004 Sumatra-Andaman earthquake (Mw 9.1) and ongoing seismicity.",
+     "a": "The statement is partially correct but incomplete. The Andaman-Sumatra subduction zone (India plate subducting under Burma microplate) is the primary driver — great earthquakes (Mw >8) on the megathrust (2004) and frequent interplate events. However, Zone V also reflects: (a) Back-arc spreading in the Andaman Sea creating transform faults and volcanic seismicity (Barren Island); (b) Outer rise earthquakes seaward of the trench; (c) Shallow crustal earthquakes in the accretionary prism. A wrong answer ignoring back-arc processes or treating it as a simple subduction zone reveals oversimplification of a complex plate boundary system with multiple seismic sources.",
+     "self_check": true
+    },
+    {
+     "q": "Design a seismic risk awareness poster for a school in Delhi (Zone IV) that explains: (a) Why Delhi is in Zone IV despite no major historical earthquake, (b) Two geological features increasing its vulnerability, and (c) One preparedness action specific to its alluvial setting.",
+     "a": "Good answer includes: (a) Delhi lies on the Delhi-Haridwar Ridge (Aravalli-Delhi fold belt) with active faults (Mahendragarh-Dehradun Fault, Sohna Fault) and is <300 km from Himalayan thrusts — strain accumulates on hidden faults; (b) Thick alluvium (>200 m) amplifies shaking; Yamuna floodplain liquefaction risk; (c) \"Drop, Cover, Hold On\" + identify safe spots away from windows/heavy furniture + family emergency plan with meeting point. Poor answer focuses only on \"buildings collapse\" or \"stay calm\" without geological justification — shows lack of site-specific hazard understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

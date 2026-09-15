@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_3",
+   "title": "c9_math_ch2_3",
+   "questions": [
+    {
+     "q": "A water tank fills at 5 liters per minute. It already has 20 liters. Write the linear equation for the total volume V after t minutes.",
+     "a": "V = 5t + 20. Here, m = 5 (rate of filling, liters per minute) and c = 20 (initial volume). After 10 minutes: V = 5(10) + 20 = 70 liters. A wrong answer (e.g., V = 5t, omitting the initial 20 liters) misses the initial value c — the tank already has 20 liters before filling begins.",
+     "self_check": true
+    },
+    {
+     "q": "A mobile plan charges Rs 200 monthly rental plus Rs 1.50 per minute of calls. Write the equation for the monthly bill B in terms of call minutes n. Calculate the bill for 100 minutes.",
+     "a": "B = 1.50n + 200. For 100 minutes: B = 1.50(100) + 200 = 150 + 200 = Rs 350. Here m = 1.50 (rate per minute) and c = 200 (fixed rental). A wrong answer (e.g., B = 200n + 1.50) swaps the rate and the fixed charge — the fixed rental is c (constant), and the per-minute charge is m (rate of change).",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the following pattern is linear or non-linear: 3, 7, 11, 15, 19, 23. Justify your answer.",
+     "a": "Linear. The difference between consecutive terms is constant: 7-3=4, 11-7=4, 15-11=4, 19-15=4, 23-19=4. Since the rate of change is constant (4), the pattern is linear. The equation is y = 4n + 3 (where n starts from 0) or a_n = 4n - 1 (where n starts from 1). A wrong answer (e.g., \"linear because the numbers increase\") confuses increasing with linear — a non-linear pattern can also increase, but not at a constant rate.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a quantity increases, it must follow a linear pattern.\" Give a counterexample and explain why it is non-linear.",
+     "a": "Counterexample: Compound interest. Rs 1000 at 10% compound interest: Year 1: 1100, Year 2: 1210, Year 3: 1331. The increase is 100, 110, 121 — not constant. The pattern is exponential (A = 1000 × 1.1^n), not linear. The quantity increases, but the rate of increase also increases, so it is non-linear. A wrong answer (agreeing with the student) fails to distinguish between increasing and linearly increasing.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the temperature conversion formula C = (5/9)(F - 32) to the form y = mx + c. Identify m and c.",
+     "a": "C = (5/9)F - (5/9)(32) = (5/9)F - 160/9. So m = 5/9 (rate of change: 5/9 degrees Celsius per degree Fahrenheit) and c = -160/9 (the Celsius equivalent when F = 0, which is -17.78°C). A wrong answer (e.g., m = 5/9, c = 32) misidentifies c — 32 is subtracted from F before multiplying, so c is -160/9, not 32.",
+     "self_check": true
+    },
+    {
+     "q": "A car rental charges Rs 1500 per day plus Rs 8 per km. A customer is charged Rs 3860 for one day. How many km did they drive? Show the linear equation and solve.",
+     "a": "Equation: Total = 8d + 1500, where d = km driven. Given Total = 3860: 3860 = 8d + 1500. Subtract 1500: 2360 = 8d. Divide by 8: d = 295 km. The customer drove 295 km. A wrong answer (e.g., d = 3860/8 = 482.5) ignores the fixed daily charge of Rs 1500.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

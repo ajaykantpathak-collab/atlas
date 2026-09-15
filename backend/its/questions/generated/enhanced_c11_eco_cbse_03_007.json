@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_007",
+   "title": "c11_eco_cbse_03_007",
+   "questions": [
+    {
+     "q": "Define disinvestment and state its two primary objectives as per the 1991 reform framework.",
+     "a": "Disinvestment is the sale of government equity in public sector enterprises to private investors or the public. Its two primary objectives (1991 framework) are: (1) improve financial discipline of PSEs by subjecting them to market scrutiny, and (2) facilitate modernisation by inducting private capital and managerial expertise. A wrong answer (e.g., \"to reduce fiscal deficit only\") reveals the student confuses the *stated reform objective* with the *fiscal outcome* — the government initially framed it as efficiency-enhancing, not merely revenue-raising.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the government introduced the Navratna policy instead of directly privatising all profitable PSEs.",
+     "a": "The Navratna policy (1997) was a middle path: retain public ownership while granting autonomy (capital expenditure up to ₹1000 cr without approval, joint ventures, organisational restructuring) to make PSEs globally competitive. Direct privatisation of profit-making PSEs faced political resistance and fears of \"selling family silver.\" A wrong answer (e.g., \"Navratnas were loss-making\") reveals confusion with *sick PSEs* referred to BIFR — Navratnas were *profitable* enterprises (e.g., ONGC, BHEL) chosen for their potential to become global giants.",
+     "self_check": true
+    },
+    {
+     "q": "In 2022-23, the disinvestment target was ₹65,000 crore and actual receipts were ₹46,000 crore. Calculate the shortfall percentage. If the government had met the target, by what percentage would receipts have increased over actual?",
+     "a": "Shortfall = ₹65,000 - ₹46,000 = ₹19,000 crore. Shortfall % = (19,000/65,000) × 100 = 29.23%. If target met, increase over actual = (19,000/46,000) × 100 = 41.3%. A wrong answer (e.g., using actual as base for shortfall %) reveals inability to distinguish *target-based* vs *actual-based* percentage calculations — a common error in fiscal data interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare strategic sale and minority disinvestment on three dimensions: (a) ownership transfer, (b) management control, (c) typical buyer. Use examples from Indian privatisation (post-2000).",
+     "a": "Strategic sale: (a) majority stake (>51%) transferred, (b) management control shifts to private buyer, (c) buyer is usually a strategic investor (e.g., Air India to Tata Sons, 2021). Minority disinvestment: (a) minority stake (<50%) sold via OFS/IPO/ETF, (b) government retains control, (c) buyers are retail/institutional investors (e.g., LIC IPO 2022, 3.5% stake). A wrong answer (e.g., \"both transfer control\") reveals confusion between *disinvestment* (broad term) and *strategic disinvestment* (specific mode) — critical for exam questions on \"forms of privatisation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Disinvestment proceeds should be used exclusively for social infrastructure (health, education) rather than meeting revenue deficit.\" Use the concept of fiscal sustainability and the 1991 reform rationale.",
+     "a": "Valid concern: using one-time asset sale revenue for recurring revenue expenditure is fiscally unsustainable (like selling family gold to pay monthly bills). However, the 1991 crisis *required* immediate fiscal consolidation — the IMF stabilisation programme mandated deficit reduction. The trade-off: short-term deficit financing vs long-term asset loss. A balanced critique acknowledges both: proceeds *ideally* should fund capital formation, but crisis conditions forced revenue use. A wrong answer (e.g., \"always bad\") ignores the *emergency context* of 1991 — reforms were crisis-driven, not design-perfect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision framework for a Maharatna PSE (e.g., SAIL) considering a ₹5,000 crore greenfield steel plant. List the approvals needed *before* and *after* Maharatna status, and explain how autonomy changes the investment timeline.",
+     "a": "Before Maharatna: (1) Ministry approval, (2) Department of Public Enterprises (DPE) clearance, (3) Cabinet Committee on Economic Affairs (CCEA) — timeline 12-18 months. After Maharatna: Board approval only (delegated power up to ₹5,000 cr or 15% net worth) — timeline 3-6 months. Autonomy enables faster response to market cycles (e.g., steel price upswing). A poor answer (e.g., \"no approvals needed\") overstates autonomy — Maharatnas still need CCEA for projects >₹5,000 cr or involving strategic sectors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_01_007",
+   "title": "c11_hin_ar_cbse_01_007",
+   "questions": [
+    {
+     "q": "What is the precise literary definition of a \"secondary theme\" as distinct from a \"primary theme\" in prose fiction?",
+     "a": "A secondary theme is a subordinate thematic thread that supports, complicates, or runs parallel to the primary theme, explored through specific character arcs, sub-plots, or recurring motifs rather than governing the entire narrative structure. A wrong answer (e.g., \"it's just a less important theme\") reveals the student conflates thematic hierarchy with thematic significance — secondary themes are not \"less important\" but structurally distinct; they operate at the level of character psychology or social microcosm rather than the novel's central argument.",
+     "self_check": true
+    },
+    {
+     "q": "In \"उेद का नक्शा,\" Vyaksihnhu initially refuses bribes but eventually accepts the clerk's job offer. Explain how this character arc illustrates the secondary theme of \"idealism versus survival\" without merely summarizing the plot.",
+     "a": "Vyaksihnhu's arc traces the erosion of moral absolutism: his initial refusal (\"यह रिश्वत नहीं, हक है\") stems from Gandhian idealism, but his acceptance of the clerkship (\"नौकरी कर लूंगा\") after his father's death and sister's marriage expenses shows how material vulnerability forces ethical compromise. The story uses his internal monologue (\"क्या करूं, पेट का सवाल है\") to externalize this conflict. A wrong answer that only lists plot points (he refused, then accepted) misses the thematic function: the arc demonstrates that in colonial bureaucracy, integrity is a luxury of the economically secure — a direct indictment of the system the primary theme critiques.",
+     "self_check": true
+    },
+    {
+     "q": "Identify a specific passage where the peasants' attitude toward literacy (\"पढ़ना-लिखना\") functions as a secondary theme, and explain how Premchand uses their dialogue to critique the colonial education system's false promises.",
+     "a": "In the scene where peasants say \"पढ़-लिख लेगा तो नक्शा बन जाएगा, बड़ा आदमी बन जाएगा,\" Premchand uses their repetitive, almost liturgical faith in literacy to expose how colonial education was sold as a magical escape from poverty — \"नक्शा\" (map/clerkship) becomes a metonym for bureaucratic power. The irony: literacy here doesn't liberate; it merely trains clerks for the same oppressive system. A wrong answer quoting the line without analyzing the irony or the metonymy shows the student cannot distinguish thematic evidence from mere quotation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the secondary theme of \"paternal sacrifice\" operates through Oakha (Vyaksihnhu's father) versus the unnamed peasant father who loses his son to the \"उेद\" office. What does this comparison reveal about class and agency?",
+     "a": "Oakha's sacrifice is conscious and articulate — he sells his land (\"जमीन बेच दी\") to fund Vyaksihnhu's education, framing it as investment in dignity. The peasant father's sacrifice is invisible: his son dies building the office (\"उेद का नक्शा\"), and the father accepts compensation (\"मुआवजा\") without protest. The contrast reveals that for the landed poor, sacrifice buys agency (Vyaksihnhu can *choose* to resist); for the landless, sacrifice is extracted by the state with no return. A wrong answer treating both fathers as \"sacrificing parents\" flattens the class critique central to Premchand's realism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The secondary theme of 'bureaucratic dehumanization' is more powerfully conveyed through the *absence* of the British officer than through any Indian character's dialogue.\" Defend or refute using textual evidence.",
+     "a": "The claim is defensible: the British officer never appears, yet every Indian character — Vyaksihnhu, Oakha, the clerk, the peasants — shapes their speech and action around his invisible authority (\"साहब नाराज होंगे,\" \"हुक्म है\"). This structural absence makes colonial power omnipresent and internalized, more terrifying than any visible tyrant. However, the Indian clerk's complicity (\"हम भी तो नौकर हैं\") shows dehumanization is not just top-down but horizontal. A strong evaluation acknowledges both: the absent Briton represents structural violence; the present Indian clerk represents its psychological internalization. A wrong answer picking one side ignores Premchand's dialectical method.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word alternate ending to \"उेद का नक्शा\" where Vyaksihnhu *does not* take the clerkship, and a new secondary theme emerges from his choice. Identify that theme explicitly.",
+     "a": "**Alternate ending:** Vyaksihnhu tears the appointment letter, returns to his village, and opens a night school for peasant children under a neem tree. He teaches them to read the very \"नक्शा\" that killed the peasant's son — land records, tax notices, court summons. The new secondary theme: **literacy as collective resistance, not individual escape**. The ending works because it resolves the idealism/survival conflict not by compromise but by redefining \"survival\" as communal empowerment. A poor answer would have Vyaksihnhu become a revolutionary leader — that imposes an anachronistic political consciousness on a 1914 character. Premchand's realism demands small, grounded acts: a night school, not a uprising.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

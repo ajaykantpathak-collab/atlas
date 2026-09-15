@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_02_014",
+   "title": "c12_eng_f_cbse_02_014",
+   "questions": [
+    {
+     "q": "What is the correct sequence of components in a formal Letter to the Editor as per CBSE Class 12 marking scheme?",
+     "a": "Correct sequence: Sender's Address → Date → Receiver's Address (The Editor, Newspaper Name, City) → Subject Line → Salutation (Sir/Madam) → Body (3-4 paragraphs) → Complimentary Close (Yours truly) → Sender's Name/Designation. A wrong answer (e.g., putting Subject before Date, or omitting Receiver's Address) reveals the student has memorised components but not the fixed top-to-bottom layout that examiners check for format marks (1 mark).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes an article titled \"Child Labour in India\" and fills it with general statistics from news (ILO data, Census 2011) but never mentions Saheb, Mukesh, Seemapuri, or Firozabad. Why would this lose marks in a \"based on the chapter\" question?",
+     "a": "The prompt \"based on the chapter\" mandates textual anchoring. CBSE marking scheme awards content marks only for evidence drawn from the prescribed text. Using outside statistics, however accurate, scores zero for content because it tests reading-to-writing transfer, not general knowledge. A student who does this misunderstands \"based on\" as \"inspired by\" rather than \"evidence from\".",
+     "self_check": true
+    },
+    {
+     "q": "Convert this weak paragraph into a PEEL-structured analytical paragraph (100 words): \"Mukesh wants to be a motor mechanic. His family makes bangles. It is dangerous. They are poor. The police and middlemen exploit them. Mukesh walks to a garage far away. He doesn't dream of flying. This shows child labour kills dreams.\"",
+     "a": "**Point:** Mukesh's dream of becoming a motor mechanic stands in stark contrast to his family's generational bangle-making trap. **Evidence:** The text describes 20,000 children slogging in \"dingy cells without air and light\", losing eyesight, while \"years of mind-numbing toil have killed all initiative and the ability to dream\". **Explanation:** The \"vicious circle of middlemen, policemen, bureaucrats\" imposes a \"baggage on the child\" so heavy that even Mukesh's dare — walking miles to a garage — shrinks to cars, not planes, because \"daring is not part of his growing up\". **Link:** His constrained aspiration proves systemic exploitation doesn't just steal labour; it colonises imagination. (98 words)  \nA weak answer merely lists events without the Explanation/Link layers that show analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the format requirements of a Speech vs. an Article for a board exam question on \"Lost Spring\". List three structural differences.",
+     "a": "1. **Opening:** Speech requires formal address (\"Respected Principal, teachers, and dear friends\") + topic introduction; Article starts with catchy title + byline + engaging hook (quote/question).  \n2. **Perspective:** Speech uses first-person (\"I stand before you\", \"We must\") and direct audience engagement (\"You know\", \"Imagine\"); Article uses third-person objective tone (\"It is observed\", \"The text reveals\").  \n3. **Closing:** Speech ends with call-to-action + \"Thank you\"; Article ends with concluding thought/suggestion without direct address.  \nA student who writes a speech without the opening address or an article with \"I urge you\" loses format marks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this Report Writing opening: \"Yesterday I visited Seemapuri and saw terrible condition. Ragpickers live in mud houses. Children don't go to school. Government should help.\" Identify two fatal flaws for a CBSE report.",
+     "a": "Flaw 1: **First-person narrative** (\"I visited\", \"I saw\"). Reports are written in third-person passive (\"A visit was organised\", \"Conditions were observed\") as per CBSE convention.  \nFlaw 2: **Missing header components** — no Heading (capitalised), no By-line (Reporter name), no Place/Date line. The example reads like a diary entry. A report must begin:  \n**CHILD LABOUR IN SEEMAPURI: A GRIM REALITY**  \n*By [Name], [Designation]*  \n*New Delhi, [Date]:* ...  \nThese flaws cost 2/4 format marks immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 120-word Speech opening (first 2 paragraphs) on \"Eliminating Child Labour: Lessons from Lost Spring\" that uses the \"garbage is gold\" metaphor and addresses the audience directly.",
+     "a": "**Respected Principal, teachers, and dear friends,**  \n**\"Garbage to them is gold,\"** writes Anees Jung in *Lost Spring* — a line that should haunt every conscience. For Saheb and his barefoot army in Seemapuri, a rupee found in a trash heap is not litter; it is hope, it is survival, it is the only spring they know. But friends, when a child's treasure hunt happens in a garbage dump, our civilisation has failed.  \nToday, as we speak, 20,000 children in Firozabad weld bangles in \"dark hutments\" beside flickering lamps, their eyes \"more adjusted to the dark than to the light outside\". They lose their eyesight before adulthood. Is this the India we dream of?  \n**Criteria met:** Direct address, metaphor integration, textual evidence, rhetorical question, formal tone. A poor answer would lack the metaphor or use \"I think\" instead of collective \"we\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

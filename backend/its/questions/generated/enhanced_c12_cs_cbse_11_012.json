@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_012",
+   "title": "c12_cs_cbse_11_012",
+   "questions": [
+    {
+     "q": "What is the worst-case time complexity of linear search on a list of size n, and what does it mean in practical terms for a list of 10,000 elements?",
+     "a": "Worst-case time complexity is O(n) — the algorithm may examine all n elements. For 10,000 elements, up to 10,000 comparisons are needed. A wrong answer like O(log n) or O(1) reveals the student confuses linear search with binary search or hash-based lookup, not understanding that linear search has no precondition on ordering and must check each element sequentially in the worst case.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `binary_search(arr, target)` on an unsorted list `[45, 12, 78, 3, 99]` and gets incorrect results. Explain why binary search fails here and what the student must do before applying it.",
+     "a": "Binary search relies on the **sorted order** to eliminate half the search space at each step by comparing the target with the middle element. On an unsorted list, the middle element gives no information about which half contains the target, so the algorithm discards the wrong half. The student must first sort the list (e.g., `arr.sort()`) — but this changes the original indices, so if the original position matters, they must store (value, original_index) pairs before sorting. A wrong answer that says \"binary search works on any list\" shows a fundamental misunderstanding of the algorithm's divide-and-conquer logic.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the first two passes of bubble sort on the list `[64, 34, 25, 12, 22, 11, 90]`. Show the list after each complete pass and state how many comparisons occur in pass 1 and pass 2.",
+     "a": "Pass 1 compares adjacent pairs (64,34), (64,25), (64,12), (64,22), (64,11), (64,90) — 6 comparisons. After swaps: `[34, 25, 12, 22, 11, 64, 90]` (90 bubbled to end). Pass 2 compares first 5 pairs (34,25), (34,12), (34,22), (34,11), (34,64) — 5 comparisons. Result: `[25, 12, 22, 11, 34, 64, 90]`. A wrong trace that shows 90 moving left or that doesn't reduce the inner loop range reveals the student doesn't grasp that each pass places the next largest element at its final position, so the unsorted portion shrinks by one.",
+     "self_check": true
+    },
+    {
+     "q": "Compare selection sort and insertion sort on a nearly sorted list of 1000 elements (only 5 elements out of place). Which is more efficient and why? Consider both comparisons and swaps.",
+     "a": "Insertion sort is far more efficient on nearly sorted data. It runs in O(n) best case (only ~1000 comparisons, ~5 swaps) because the inner loop exits immediately when the element is already in place. Selection sort **always** performs O(n²) comparisons (~500,000) regardless of initial order, though it does only O(n) swaps (~1000). A student who says \"both are O(n²)\" misses the adaptive nature of insertion sort — this is a classic board exam trap where \"time complexity\" without qualifying \"best/average/worst\" leads to lost marks.",
+     "self_check": true
+    },
+    {
+     "q": "A CBSE board question asks: \"Write a Python function `binary_search_recursive(arr, target, low, high)` that returns the index of target or -1. Identify TWO common errors students make in the base case and recursive call that cause infinite recursion or index errors.\"",
+     "a": "Error 1: Base case `if low > high: return -1` is written as `if low == high: return -1` — this misses the case where the search space is exhausted (low > high) and causes infinite recursion when the target is not found. Error 2: Recursive call `binary_search_recursive(arr, target, mid, high)` or `binary_search_recursive(arr, target, low, mid)` instead of `mid+1` or `mid-1` — this fails to shrink the search space, causing infinite recursion. A student who only mentions \"off-by-one\" without specifying the exact incorrect bounds shows incomplete understanding of how the search interval halves.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would choose insertion sort over Python's built-in `sort()` for a list of 50 elements, and justify your choice in 3 sentences.",
+     "a": "Scenario: A small kirana shop maintains a daily sales list of 50 items that arrives **already sorted by item code** except for 2-3 new items appended at the end each morning. Insertion sort is ideal because it runs in O(n) on nearly sorted data (only the new items need shifting), has zero overhead for small n, and sorts in-place without allocating a new list like `sorted()`. Choosing `sort()` here is not wrong but wastes the existing order; a poor answer would cite \"insertion sort is simpler\" without linking to the **nearly sorted** property — the key competency is matching algorithm to data characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_002",
+   "title": "c12_eco_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define Marginal Revenue (MR) and state its relationship with price under perfect competition.",
+     "a": "Marginal Revenue is the addition to Total Revenue from selling one more unit of output. Under perfect competition, MR equals the market price (P) because the firm can sell any quantity at the given price, so each additional unit adds exactly P to TR. A wrong answer (e.g., \"MR < P\" or \"MR is the slope of the demand curve\") reveals confusion with monopoly where the firm must lower price to sell more, making MR less than price.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Average Revenue (AR) curve of a perfectly competitive firm a horizontal straight line? Explain using the price-taker assumption.",
+     "a": "The AR curve is horizontal because AR = TR/Q = (P×Q)/Q = P. Since the firm is a price taker, P is constant regardless of the quantity the firm sells. Therefore, AR remains constant at the market price for all output levels, giving a horizontal line. A wrong answer (e.g., \"AR slopes downward because demand curves slope downward\") confuses the firm's demand curve with the market demand curve; the market demand slopes down, but the individual firm faces a perfectly elastic demand at the market price.",
+     "self_check": true
+    },
+    {
+     "q": "A perfectly competitive firm faces a market price of ₹50 per unit. Complete the table and plot the TR curve for Q = 0 to 5.\n\n| Q | TR (₹) | AR (₹) | MR (₹) |\n|---|--------|--------|--------|\n| 0 |   ?    |   -    |   -    |\n| 1 |   ?    |   ?    |   ?    |\n| 2 |   ?    |   ?    |   ?    |\n| 3 |   ?    |   ?    |   ?    |\n| 4 |   ?    |   ?    |   ?    |\n| 5 |   ?    |   ?    |   ?    |",
+     "a": "TR = P×Q = 50Q. So TR: 0, 50, 100, 150, 200, 250. AR = TR/Q = 50 for all Q>0. MR = ΔTR/ΔQ = 50 for each step. The TR curve is a straight line through origin with slope 50. A wrong answer (e.g., TR values not proportional to Q, or AR/MR changing with Q) indicates the student hasn't internalised that price is constant for a price taker, so revenue per unit and revenue per extra unit never change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the TR curve of a perfectly competitive firm with that of a monopoly firm. How does the shape differ and why?",
+     "a": "Under perfect competition, TR is a straight line through the origin (TR = P×Q, constant P). Under monopoly, TR is an inverted U-shape: initially rising, reaching a maximum, then falling. This is because a monopolist faces a downward-sloping demand curve; to sell more, it must lower price, so MR < P and eventually becomes negative, causing TR to decline. A wrong answer (e.g., \"both are straight lines\" or \"monopoly TR is always steeper\") misses the fundamental difference: price-taking vs. price-making behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In perfect competition, a firm maximises revenue by producing the maximum possible output.\" Is this correct? Justify.",
+     "a": "The statement is incorrect. Under perfect competition, TR increases linearly with output (TR = P×Q). Since there is no upper bound on Q in the model (and MR = P > 0 always), TR keeps rising as output rises — there is no finite revenue-maximising output. Firms maximise *profit*, not revenue, by equating MR=MC. A student who agrees confuses revenue maximisation (which would imply infinite output) with profit maximisation, and ignores that costs also rise with output.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a firm sells 100 units at ₹200 per unit. Then suppose the market price falls to ₹180. Show how the TR, AR, and MR curves shift. Draw a rough sketch description.",
+     "a": "Initially: P=200. TR=200Q (line through origin, slope 200). AR=MR=200 (horizontal line at 200). After price falls to 180: TR=180Q (line through origin, slope 180 — flatter). AR=MR=180 (horizontal line shifts down to 180). The TR curve rotates clockwise (becomes less steep); AR/MR lines shift downward parallel. A poor answer would show TR shifting up/down without rotation, or AR/MR not horizontal, indicating misunderstanding that price change alters the slope of TR and the level of AR/MR simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

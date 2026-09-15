@@ -1,0 +1,187 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 112,
+ "chapter_title": "Electricity and Circuits",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fesc112.txt",
+ "concepts": [
+  {
+   "id": "fesc.12.1.1",
+   "title": "Electric Cell Terminals",
+   "section": "12.1",
+   "definition": "In brief, an electric cell is a portable source of electricity that converts stored chemical energy into electrical energy, featuring two distinct ends called terminals.",
+   "formula": "terminals = positive_metal_cap + negative_metal_disc",
+   "key_idea": "Cells have two poles, positive and negative, which drive current flow.",
+   "textbook_ref": "fesc112.txt lines 30-45",
+   "question_patterns": [
+    "what are the terminals of an electric cell",
+    "identify the positive terminal of a cell",
+    "how many terminals does a cell have",
+    "where is the negative terminal located on a cell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify metal cap",
+     "explain": "The top metal cap is the positive terminal."
+    },
+    {
+     "step": 2,
+     "action": "Identify metal disc",
+     "explain": "The bottom metal disc is the negative terminal."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.2.1",
+   "title": "Bulb Structure and Filament",
+   "section": "12.1",
+   "definition": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, an electric bulb produces light when current goes through a thin wire called a filament, which is supported by two terminals at the base.",
+   "formula": "bulb_terminals = metal_case_base + metal_tip_center",
+   "key_idea": "In brief, In brief, In brief, In brief, a bulb shines only when current completes a path through its filament.",
+   "textbook_ref": "fesc112.txt lines 55-75",
+   "question_patterns": [
+    "what is the filament of a bulb",
+    "how are the terminals of a bulb arranged",
+    "why does a bulb have two terminals",
+    "what happens if the filament breaks"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate filament",
+     "explain": "The filament is the thin wire inside the glass bulb."
+    },
+    {
+     "step": 2,
+     "action": "Check continuity",
+     "explain": "If the filament is broken, the circuit is open and the bulb is fused."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.3.1",
+   "title": "Electric Circuit Path",
+   "section": "12.3",
+   "definition": "In brief, In brief, In brief, In brief, an electric circuit is a continuous closed loop that allows electric current to flow from one terminal of a source to the other through a device.",
+   "formula": "circuit_status = (path_is_closed) ? glowing : not_glowing",
+   "key_idea": "Current flows only in a complete, unbroken loop.",
+   "textbook_ref": "fesc112.txt lines 120-140",
+   "question_patterns": [
+    "what is an electric circuit",
+    "why does the bulb glow in a closed circuit",
+    "what is the direction of current flow",
+    "define a complete path for electricity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check path continuity",
+     "explain": "Verify if the path connects positive to negative terminal."
+    },
+    {
+     "step": 2,
+     "action": "Determine bulb state",
+     "explain": "If path is complete, current flows."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.4.1",
+   "title": "Electric Switch Function",
+   "section": "12.4",
+   "definition": "A switch is a mechanical device used to intentionally break or complete an electric circuit, thereby controlling the movement of current.",
+   "formula": "circuit_state = (switch_position == 'on') ? 1 : 0",
+   "key_idea": "A switch acts as a bridge that can be opened or closed.",
+   "textbook_ref": "fesc112.txt lines 160-185",
+   "question_patterns": [
+    "what is the function of a switch",
+    "how does a switch control a bulb",
+    "what happens when a switch is in the off position",
+    "explain the working of a simple switch"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate switch state",
+     "explain": "Determine if the switch connects the two points."
+    },
+    {
+     "step": 2,
+     "action": "Output circuit status",
+     "explain": "1 means circuit is closed, 0 means open."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.5.1",
+   "title": "Conductors and Insulators",
+   "section": "12.5",
+   "definition": "Materials are classified using their ability to allow electric current to pass through them; those that allow it are conductors, while those that block it are insulators.",
+   "formula": "material_type = (allows_current) ? conductor : insulator",
+   "key_idea": "Conductors permit current flow; insulators prevent it.",
+   "textbook_ref": "fesc112.txt lines 200-240",
+   "question_patterns": [
+    "distinguish between conductors and insulators",
+    "why are wires made of metal",
+    "is air a conductor or insulator",
+    "give examples of insulators used in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test material conductivity",
+     "explain": "Check if current flows through the material."
+    },
+    {
+     "step": 2,
+     "action": "Classify material",
+     "explain": "If conducts is 1, it is a conductor."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc112.txt",
+   "concept": "fesc.12.5.1",
+   "question_type": "classification",
+   "question_pattern": "If the bulb glows when {material} is placed in the circuit, is it a conductor?",
+   "extracted_variables": {
+    "material": "the substance being tested"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Observe bulb",
+     "explain": "Glowing bulb indicates a closed circuit."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "If glow is 1, the material is a conductor."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "fesc112.txt",
+   "questions": [
+    "A device that is used to break an electric circuit is called?",
+    "An electric cell has how many terminals?",
+    "Can electric current flow through metals?",
+    "Why should an electrician use rubber gloves?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

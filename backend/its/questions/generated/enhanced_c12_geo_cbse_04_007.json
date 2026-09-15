@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_007",
+   "title": "c12_geo_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define urbanisation rate and distinguish it from urban growth rate. Provide the formula for each.",
+     "a": "Urbanisation rate = (Urban population in year t / Total population in year t) × 100; it measures the percentage of population living in urban areas. Urban growth rate = [(Urban population in year t – Urban population in year t-1) / Urban population in year t-1] × 100; it measures the annual percentage increase in the urban population itself. A wrong answer (e.g., confusing the two formulas or using total population in the denominator for growth rate) reveals the student does not understand the difference between a structural shift (urbanisation) and a demographic expansion (urban growth).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"urbanisation curve\" (percentage urban vs. time) follows an S-shape. What do the three phases represent in terms of economic transformation?",
+     "a": "The S-curve has three phases: (1) Initial slow urbanisation (pre-industrial, agrarian economy, <20% urban), (2) Rapid acceleration (industrialisation, manufacturing and services pull labour, 20–70% urban), (3) Saturation (post-industrial, service-dominated, >70% urban, growth slows). A wrong answer that attributes the curve only to migration or only to natural increase misses the structural economic shift from primary to secondary/tertiary sectors that drives the transition.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the urbanisation rate and urban growth rate for Country X in 2020.  \nTotal population 2010: 50 million; Urban population 2010: 15 million  \nTotal population 2020: 60 million; Urban population 2020: 24 million  \nInterpret the results.",
+     "a": "Step 1: Urbanisation rate 2020 = (24/60)×100 = 40%.  \nStep 2: Urban growth rate (2010–2020) = [(24–15)/15]×100 = 60% over the decade ≈ 4.8% per annum (compound).  \nStep 3: Total population growth = [(60–50)/50]×100 = 20% over decade ≈ 1.8% p.a.  \nStep 4: Urban growth (4.8%) > total growth (1.8%), so urbanisation rate rose from 30% to 40%.  \nInterpretation: Country X is in the acceleration phase. A wrong calculation (e.g., using total population for urban growth denominator) would hide the fact that urbanisation is driven by both migration and natural increase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drivers of urbanisation in 19th-century Europe with those in 21st-century Sub-Saharan Africa. Identify two similarities and two differences.",
+     "a": "Similarities: (1) Industrial/manufacturing job creation (pull factor), (2) Rural push from agricultural mechanisation/land scarcity.  \nDifferences: (1) Europe's urbanisation was accompanied by strong formal sector job growth; Africa's urbanisation often outpaces formal job creation, leading to large informal sectors. (2) Europe had significant international out-migration (to Americas) relieving urban pressure; Africa has limited international migration outlets. A wrong answer that claims \"both are identical\" ignores the structural difference in labour absorption capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rapid urbanisation in developing countries is primarily a result of rural poverty, not urban prosperity.\" Use evidence from at least two regions.",
+     "a": "The statement is partially correct but oversimplified. Evidence: In South Asia (e.g., India, Bangladesh), rural push factors (agrarian distress, fragmentation of landholdings, lack of non-farm jobs) are dominant. In East Asia (e.g., China, Vietnam), urban pull (export-oriented manufacturing, SEZs, infrastructure investment) played a larger role. In Sub-Saharan Africa, both push (conflict, climate stress) and pull (resource booms, primate city dominance) operate. A wrong evaluation that ignores regional variation or treats \"developing countries\" as monolithic fails the competency of spatial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple indicator dashboard (3–4 indicators) to monitor whether a country's urbanisation is \"sustainable\" or \"unbalanced\". Justify each indicator.",
+     "a": "Good dashboard: (1) Urbanisation rate vs. per capita GDP (should correlate positively if balanced), (2) Share of urban population in slums/informal settlements (UN-Habitat definition), (3) Urban primacy index (population of largest city / second largest), (4) Urban employment-to-population ratio (formal sector). A poor answer lists only demographic indicators (e.g., growth rate, density) without linking to economic, social, or environmental sustainability, showing lack of multidimensional thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

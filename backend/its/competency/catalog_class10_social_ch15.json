@@ -1,0 +1,538 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 15,
+ "chapter_title": "Gender, Religion and Caste",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess403.txt",
+ "concepts": [
+  {
+   "id": "c10ss.15.1",
+   "title": "Gender and Politics",
+   "section": "Gender and Politics",
+   "definition": "Gender division refers to a form of hierarchical social division based on the expected roles of women and men in society. In politics, it highlights how public/private roles are assigned and how women's issues become political issues.",
+   "formula": "",
+   "key_idea": "Gender is not merely a biological category but a social construct that shapes political participation, access to resources, and power relations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by gender division in the context of politics?",
+    "How does gender shape political participation and representation?",
+    "Explain the difference between sex and gender as social categories.",
+    "Why are women's issues considered political issues?",
+    "How does the gender division of labour affect political life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define gender as a social construct distinct from biological sex.",
+     "explain": "Gender refers to socially expected roles and behaviours assigned to men and women, not to biological differences."
+    },
+    {
+     "step": 2,
+     "action": "Explain how gender roles translate into political inequality.",
+     "explain": "Unequal access to education, paid work, and decision-making positions reduces women's political participation."
+    },
+    {
+     "step": 3,
+     "action": "Conclude that gender issues are political because they involve power and justice.",
+     "explain": "When the state addresses unequal pay, representation, or rights, gender becomes a matter of political debate and policy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the gender division of labour considered a political issue?",
+     "solution": "The gender division of labour assigns unpaid domestic work mostly to women and paid public work to men. This unequal distribution limits women's economic independence and political participation, making it a matter of justice that the state and political system must address.",
+     "answer": "Gender division of labour is political because it creates unequal access to power, resources, and representation."
+    },
+    {
+     "question": "Differentiate between sex and gender with examples.",
+     "solution": "Sex refers to biological differences such as chromosomes and reproductive organs, while gender refers to socially constructed roles such as women doing household work and men earning wages.",
+     "answer": "Sex is biological; gender is social and therefore changeable."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how gender roles influence political participation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are issues like unequal wages considered political?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State whether true or false: Gender is determined entirely by biology.",
+     "type": "assertion"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.2",
+   "title": "Women's Representation in Politics",
+   "section": "Gender and Politics",
+   "definition": "Women's representation in politics refers to the proportion of women elected to legislatures and holding decision-making positions. It is commonly measured as the percentage of seats held by women in parliament or state assemblies.",
+   "formula": "women_representation_pct = (women_seats / total_seats) * 100",
+   "key_idea": "Despite forming half the population, women remain underrepresented in legislatures worldwide; legal quotas and reservations are used to improve their representation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the current level of women's representation in the Lok Sabha?",
+    "How is women's representation in legislatures calculated?",
+    "Why is women's representation low in Indian politics?",
+    "What measures have been taken to improve women's representation?",
+    "Compare women's representation in India with that of other countries."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of women members and total seats.",
+     "explain": "Gather data on women elected and total seats in the legislature to compute the representation ratio.",
+     "compute": "women_seats = given_count"
+    },
+    {
+     "step": 2,
+     "action": "Identify the number of women members and total seats.",
+     "explain": "Gather data on women elected and total seats in the legislature to compute the representation ratio.",
+     "compute": "total_seats = given_total"
+    },
+    {
+     "step": 3,
+     "action": "Apply the percentage formula.",
+     "explain": "Divide women seats by total seats and multiply by 100 to express representation as a percentage.",
+     "compute": "women_representation_pct = (women_seats / total_seats) * 100"
+    },
+    {
+     "step": 4,
+     "action": "Interpret the result against global averages.",
+     "explain": "Compare the computed percentage with the world average (around 25 percent) to assess the level of underrepresentation.",
+     "compute": "gap = world_avg - women_representation_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a certain year the Lok Sabha had 78 women members out of 543 total seats. Calculate the percentage of women's representation.",
+     "solution": "Using the formula: (78 / 543) * 100 = 14.36 percent.",
+     "answer": "Approximately 14.36 percent women's representation."
+    },
+    {
+     "question": "If a state legislative assembly has 40 women out of 200 seats, what is the women's representation percentage?",
+     "solution": "(40 / 200) * 100 = 20 percent.",
+     "answer": "20 percent women's representation."
+    },
+    {
+     "question": "The world average for women in national parliaments is about 25 percent. If India's Lok Sabha has 14.36 percent, what is the gap?",
+     "solution": "Gap = 25 - 14.36 = 10.64 percentage points.",
+     "answer": "A gap of about 10.64 percentage points below the world average."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate women's representation if 60 women are elected to a 300-seat assembly.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why does low women's representation matter for democracy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of reservations in improving women's representation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.3",
+   "title": "Feminist Movements",
+   "section": "Gender and Politics",
+   "definition": "Feminist movements are organised efforts by women and men to achieve equal rights and opportunities for women in legal, social, economic, and political spheres. They challenge patriarchal structures and demand gender justice.",
+   "formula": "",
+   "key_idea": "Feminist movements have been central to expanding women's legal rights, political representation, and social status through agitation, legislation, and awareness.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a feminist movement?",
+    "What were the main demands of feminist movements in India?",
+    "How did feminist movements influence law-making?",
+    "Explain the contribution of feminist movements to women's political rights.",
+    "Differentiate between radical and liberal feminist approaches."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define feminism as a movement for gender equality.",
+     "explain": "Feminism advocates equal political, economic, and social rights for women, challenging discrimination based on gender."
+    },
+    {
+     "step": 2,
+     "action": "List the key demands and achievements of feminist movements.",
+     "explain": "Demands include equal wages, legal rights, representation, and protection from violence; achievements include laws on dowry, domestic violence, and inheritance."
+    },
+    {
+     "step": 3,
+     "action": "Explain the political impact of these movements.",
+     "explain": "Feminist pressure led to constitutional amendments, reservations in local bodies, and greater public discussion of women's issues."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention any two achievements of the feminist movement in India.",
+     "solution": "Two achievements are: (1) the passing of laws against dowry and domestic violence, and (2) the provision of one-third reservation for women in panchayats and municipalities.",
+     "answer": "Anti-dowry laws and local body reservations for women."
+    },
+    {
+     "question": "How did feminist movements contribute to political representation?",
+     "solution": "Feminist movements campaigned for women's reservation in legislatures, leading to the 73rd and 74th Constitutional Amendments that reserved one-third of seats in local governments for women.",
+     "answer": "They secured one-third reservation for women in panchayats and municipalities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is feminism? Explain its political significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List two legal changes brought about by feminist movements.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.4",
+   "title": "Religion and Politics",
+   "section": "Religion, Communalism and Politics",
+   "definition": "Religion and politics intersect when religious identities, beliefs, and values influence political preferences, party support, and policy. The relationship can be constructive when it promotes values like justice, or destructive when it leads to communal division.",
+   "formula": "",
+   "key_idea": "Religion can inspire moral politics, but the use of religion for electoral gain or to divide communities undermines democracy and secularism.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does religion influence politics in India?",
+    "Is the relationship between religion and politics always harmful? Explain.",
+    "What is the difference between religious values in politics and communal politics?",
+    "Why did Gandhiji believe religion can be a positive force in politics?",
+    "Give an example of religion being used constructively in politics."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between religious values and communal politics.",
+     "explain": "Religious values like truth and compassion can guide ethical politics, while communal politics uses religion to divide people for power."
+    },
+    {
+     "step": 2,
+     "action": "Explain Gandhiji's view on religion in politics.",
+     "explain": "Gandhiji believed that religion, understood as moral values, could purify politics, but he opposed using religion for sectarian ends."
+    },
+    {
+     "step": 3,
+     "action": "Assess the dangers of mixing religion with electoral politics.",
+     "explain": "When parties appeal to religious identities for votes, it can lead to polarisation, discrimination, and communal violence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Gandhiji view the relationship between religion and politics?",
+     "solution": "Gandhiji believed that politics cannot be separated from religion, by which he meant moral values such as truth, non-violence, and compassion. He did not mean using religion for communal division.",
+     "answer": "Religion as moral values can purify politics; religion as communal identity is harmful."
+    },
+    {
+     "question": "Give one example of religion being used constructively in politics.",
+     "solution": "Religious groups have led movements for social reform such as the abolition of untouchability and the promotion of education among marginalised communities.",
+     "answer": "Social reform movements against untouchability inspired by religious values."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between religious values in politics and communalism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the use of religion for electoral gain considered harmful?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.5",
+   "title": "Communalism",
+   "section": "Religion, Communalism and Politics",
+   "definition": "Communalism is a situation when religion is used to divide people, assert the superiority of one religion over others, or mobilise people along religious lines for political gain. It ranges from everyday beliefs to organised violence.",
+   "formula": "",
+   "key_idea": "Communalism treats the religious community as the primary political identity, undermining individual rights and national unity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is communalism?",
+    "What are the different forms of communalism?",
+    "How does communalism threaten democracy?",
+    "Explain the role of communal politics in elections.",
+    "How can communalism be countered in a democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define communalism as the misuse of religion for politics.",
+     "explain": "Communalism involves belief in the superiority of one's religion, and the attempt to dominate or exclude other religious communities."
+    },
+    {
+     "step": 2,
+     "action": "Identify the forms of communalism.",
+     "explain": "Forms include communal beliefs (stereotypes), communal leadership (religious leaders in politics), and communal violence (riots)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the threat communalism poses to democracy.",
+     "explain": "Communalism divides citizens along religious lines, promotes majoritarianism, and can lead to violence, threatening constitutional values of equality and fraternity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three forms of communalism? Explain briefly.",
+     "solution": "The three forms are: (1) communal beliefs or stereotypes about one's own and other religions, (2) communal leadership where religious leaders seek political following, and (3) communal violence or riots between communities.",
+     "answer": "Communal beliefs, communal leadership, and communal violence."
+    },
+    {
+     "question": "Why is communalism considered a threat to democracy?",
+     "solution": "Communalism reduces citizens to religious identities, undermines equal rights, and can provoke violence, all of which weaken democratic institutions and national integration.",
+     "answer": "It divides citizens and can lead to violence, threatening constitutional values."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define communalism and explain its forms.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does communal politics affect elections?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.6",
+   "title": "Secularism in India",
+   "section": "Religion, Communalism and Politics",
+   "definition": "Secularism is the principle that the state does not have an official religion and treats all religions equally. Indian secularism maintains a principled distance from all religions while protecting religious freedom and minority rights.",
+   "formula": "",
+   "key_idea": "Indian secularism is distinct from strict separation models; it allows the state to intervene in religious matters to reform and protect citizens' rights while remaining neutral among religions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is secularism?",
+    "How is Indian secularism different from secularism in the USA?",
+    "Why is secularism essential for democracy?",
+    "Explain the constitutional provisions that make India a secular state.",
+    "How does secularism protect minority rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define secularism as state neutrality toward religion.",
+     "explain": "A secular state has no official religion and does not discriminate on the basis of religion."
+    },
+    {
+     "step": 2,
+     "action": "Explain the Indian model of secularism.",
+     "explain": "India does not strictly separate state and religion; instead it maintains principled distance, allowing intervention to reform religious practices and protect fundamental rights."
+    },
+    {
+     "step": 3,
+     "action": "Justify why secularism is essential for democracy.",
+     "explain": "Secularism ensures that all citizens, regardless of religion, have equal rights and protection, which is necessary for a plural democracy to function."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does Indian secularism differ from the American model?",
+     "solution": "The American model requires strict separation between state and religion. The Indian model allows the state to intervene in religious affairs to ensure equality and reform, while remaining neutral among all religions.",
+     "answer": "India uses principled distance, not strict separation."
+    },
+    {
+     "question": "Mention two constitutional provisions that establish India as secular.",
+     "solution": "Article 15 prohibits discrimination on grounds of religion, and Article 25 guarantees freedom of conscience and religion to all citizens.",
+     "answer": "Articles 15 and 25 ensure non-discrimination and religious freedom."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and significance of secularism in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is secularism considered essential for democracy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.7",
+   "title": "Caste and Politics",
+   "section": "Caste and Politics",
+   "definition": "Caste and politics are interlinked when caste identities influence voting behaviour, candidate selection, and party support, and when political decisions in turn affect caste hierarchies and inequalities.",
+   "formula": "",
+   "key_idea": "Caste politics is a two-way process: caste shapes politics through vote banks and representation, while politics shapes caste through policies of reservation and social mobility.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does caste influence politics in India?",
+    "Explain the two-way relationship between caste and politics.",
+    "What is a vote bank? How does it function?",
+    "How do political parties use caste identities during elections?",
+    "Why is caste considered both a unifying and dividing force in politics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain how caste influences political behaviour.",
+     "explain": "Voters often prefer candidates from their own caste, and parties nominate candidates based on caste composition of constituencies."
+    },
+    {
+     "step": 2,
+     "action": "Explain how politics influences caste.",
+     "explain": "Political mobilisation and reservation policies have empowered lower castes, altered social hierarchies, and created new caste coalitions."
+    },
+    {
+     "step": 3,
+     "action": "Assess the positive and negative effects of caste in politics.",
+     "explain": "Caste politics can provide representation to marginalised groups but can also fragment society, divert attention from issues, and reinforce caste identities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the two-way relationship between caste and politics.",
+     "solution": "Caste influences politics when people vote and organise along caste lines. Politics influences caste when parties and policies create new caste identities, alliances, and reservations that change social status.",
+     "answer": "Caste shapes politics and politics reshapes caste."
+    },
+    {
+     "question": "What is a vote bank? Give one example.",
+     "solution": "A vote bank is a loyal bloc of voters from a particular caste or community that consistently supports a party. For example, a party may rely on the support of a dominant caste in a region.",
+     "answer": "A vote bank is a caste-based loyal voter bloc supporting a party."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does caste influence voting behaviour in India?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the concept of a vote bank with an example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.8",
+   "title": "Caste Inequalities and Politics",
+   "section": "Caste and Politics",
+   "definition": "Caste inequalities refer to the unequal access to resources, status, and power associated with birth in a particular caste. Politics addresses these inequalities through reservations, affirmative action, and social justice policies.",
+   "formula": "",
+   "key_idea": "Economic development, urbanisation, and political mobilisation have weakened but not eliminated caste inequalities; constitutional provisions continue to address them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How has caste inequality changed in modern India?",
+    "What constitutional provisions address caste inequality?",
+    "Explain the role of reservation in reducing caste inequalities.",
+    "How has economic development affected caste inequalities?",
+    "Why have caste inequalities not disappeared despite policies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sources of caste inequality.",
+     "explain": "Caste inequality arises from hereditary occupation, untouchability, and unequal access to education, land, and social status."
+    },
+    {
+     "step": 2,
+     "action": "Explain the constitutional and policy measures.",
+     "explain": "The Constitution abolished untouchability (Article 17), and reservations in education and employment for SCs, STs, and OBCs aim to reduce caste-based disadvantages."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact and limitations of these measures.",
+     "explain": "Reservations and social reforms have improved representation, but caste discrimination persists in social and economic life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention two constitutional provisions that address caste inequality.",
+     "solution": "Article 17 abolishes untouchability, and Article 15(4) allows the state to make special provisions for the advancement of socially and educationally backward classes.",
+     "answer": "Article 17 and Article 15(4) address caste inequality."
+    },
+    {
+     "question": "How has economic development affected caste inequalities?",
+     "solution": "Urbanisation, education, and occupational mobility have weakened the link between caste and occupation, but caste identities remain significant in marriage and social life.",
+     "answer": "Economic development has weakened but not eliminated caste inequalities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of reservation policies in addressing caste inequalities.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why have caste inequalities not disappeared completely?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.9",
+   "title": "Politics in Caste and Caste in Politics",
+   "section": "Caste and Politics",
+   "definition": "Politics in caste refers to the way political processes reshape caste identities -- creating new caste groups, alliances, and consciousness -- while caste in politics refers to the way caste influences political outcomes such as voting and representation.",
+   "formula": "",
+   "key_idea": "Politics does not merely reflect caste divisions; it actively constructs and reconstructs caste identities through mobilisation, alliances, and policy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between caste in politics and politics in caste.",
+    "How do political parties create new caste groupings?",
+    "Explain how caste groups enter into coalitions during elections.",
+    "How has politics changed the nature of caste identities?",
+    "Give an example of politics creating a new caste coalition."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between the two directions of influence.",
+     "explain": "Caste in politics means caste influences voting and representation; politics in caste means political processes reshape caste identities and alliances."
+    },
+    {
+     "step": 2,
+     "action": "Explain how politics creates new caste groupings.",
+     "explain": "Parties aggregate sub-castes into larger blocs (e.g., backward classes) and form caste-based coalitions to win elections."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the consequences of this dynamic.",
+     "explain": "This dynamic can empower marginalised castes and create representation, but it can also deepen caste consciousness and polarisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do political parties create new caste groupings? Give an example.",
+     "solution": "Parties combine several backward castes into a single 'backward class' category to mobilise a larger vote share. For example, the formation of the OBC category as a political coalition of multiple castes.",
+     "answer": "Parties aggregate sub-castes into larger blocs like OBCs for electoral advantage."
+    },
+    {
+     "question": "Differentiate between caste in politics and politics in caste.",
+     "solution": "Caste in politics refers to caste influencing political behaviour such as voting. Politics in caste refers to political processes altering caste identities, creating new groups and alliances.",
+     "answer": "Caste in politics: caste shapes politics. Politics in caste: politics reshapes caste."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how politics has changed the nature of caste in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by caste-based coalitions in elections?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

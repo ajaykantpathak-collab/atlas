@@ -1,0 +1,574 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 201,
+ "chapter_title": "Financial Statements - I",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac201.txt",
+ "concepts": [
+  {
+   "id": "keac.8.2.1",
+   "title": "Classification of Capital and Revenue Expenditures",
+   "section": "8.2.1",
+   "definition": "Expenditures that yield enduring advantages across multiple accounting cycles and enhance asset capacity are capital, whereas outlays consumed entirely within the current accounting period to support routine operations are revenue.",
+   "formula": "total_expenditure = capital_expenditure + revenue_expenditure",
+   "key_idea": "Capital outlays provide multi-period benefits and go to the balance sheet, while revenue outlays maintain ongoing business activities and appear in the income statement.",
+   "textbook_ref": "keac201.txt lines 38-84",
+   "question_patterns": [
+    "classify the given expenditure as capital or revenue",
+    "distinguish whether the expense on ... is capital or revenue",
+    "state giving reasons whether the outlay is capital expenditure or revenue expenditure",
+    "identify the nature of expenditure for ...",
+    "explain classification of capital and revenue expenditures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the enduring nature and future benefit duration",
+     "explain": "If the benefit extends beyond one year or increases capacity, it is capital; if it maintains regular operations for the current year, it is revenue."
+    },
+    {
+     "step": 2,
+     "action": "assign appropriate financial statement classification",
+     "explain": "Capital expenditures are capitalized on the balance sheet subject to depreciation, whereas revenue items are charged to the trading and profit and loss account."
+    }
+   ]
+  },
+  {
+   "id": "keac.8.2.2",
+   "title": "Capital Receipts and Revenue Receipts",
+   "section": "8.2.2",
+   "definition": "Monetary inflows that establish a future settlement obligation or arise from disposing of long-term assets are capital receipts, whereas inflows generated from ordinary sales and recurring investments are revenue receipts.",
+   "formula": "total_receipts = capital_receipts + revenue_receipts",
+   "key_idea": "Capital receipts create claims or decrease fixed assets, whereas revenue receipts augment routine trading income.",
+   "textbook_ref": "keac201.txt lines 85-98",
+   "question_patterns": [
+    "identify whether the given receipt is of capital or revenue nature",
+    "classify the cash receipt into capital receipt or revenue receipt",
+    "distinguish between capital and revenue receipts for the following items",
+    "determine the nature of inflow from ...",
+    "explain capital receipts and revenue receipts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for obligation to return or fixed asset disposal",
+     "explain": "A receipt involving equity, loan liability, or asset sale is a capital receipt; otherwise, it constitutes revenue receipt."
+    },
+    {
+     "step": 2,
+     "action": "place item in position statement or trading and profit and loss account",
+     "explain": "Capital receipts affect balance sheet equity/liabilities, while revenue receipts appear on the credit side of the income statement."
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.1",
+   "title": "Computation of Cost of Goods Sold",
+   "section": "8.4.4",
+   "definition": "Cost of goods sold measures the direct cost of inventory and manufacturing effort incurred to produce the volume of goods actually sold during the accounting period.",
+   "formula": "cost_of_goods_sold = opening_stock + net_purchases + direct_expenses - closing_stock",
+   "key_idea": "Sum opening inventory, purchases net of returns, and direct manufacturing costs, then deduct unsold closing inventory.",
+   "textbook_ref": "keac201.txt lines 259-290",
+   "question_patterns": [
+    "calculate the cost of goods sold from the given balances",
+    "find the cost of goods sold during the year",
+    "compute COGS given opening stock, purchases, direct expenses, and closing stock",
+    "what is the cost of goods sold when purchases are ... and closing inventory is ...",
+    "calculate computation of cost of goods sold for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net purchases",
+     "explain": "Deduct purchase returns from gross purchases.",
+     "compute": "net_purchases = purchases - purchases_return"
+    },
+    {
+     "step": 2,
+     "action": "compute total direct costs available for sale",
+     "explain": "Add opening stock, net purchases, and all direct expenses together.",
+     "compute": "goods_available = opening_stock + net_purchases + direct_expenses"
+    },
+    {
+     "step": 3,
+     "action": "deduct closing stock to arrive at cost of goods sold",
+     "explain": "Subtract unsold inventory remaining at the end of the year.",
+     "compute": "cogs = goods_available - closing_stock"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.8.4.1_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.8.4.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "closing_stock": "10",
+      "direct_expenses": "10",
+      "opening_stock": "10",
+      "purchases": "10",
+      "purchases_return": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "compute net purchases",
+       "explain": "Deduct purchase returns from gross purchases.",
+       "compute": "net_purchases = purchases - purchases_return"
+      },
+      {
+       "step": 2,
+       "action": "compute total direct costs available for sale",
+       "explain": "Add opening stock, net purchases, and all direct expenses together.",
+       "compute": "goods_available = opening_stock + net_purchases + direct_expenses"
+      },
+      {
+       "step": 3,
+       "action": "deduct closing stock to arrive at cost of goods sold",
+       "explain": "Subtract unsold inventory remaining at the end of the year.",
+       "compute": "cogs = goods_available - closing_stock"
+      }
+     ],
+     "question_pattern": "calculate the cost of goods sold from the given balances (given {closing_stock}, {direct_expenses}, {opening_stock}, {purchases}, {purchases_return})"
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.2",
+   "title": "Computation of Gross Profit or Gross Loss",
+   "section": "8.4.3",
+   "definition": "Gross profit represents the surplus of net operational sales over the cost of goods sold, reflecting the direct trading profitability of the enterprise.",
+   "formula": "gross_profit = net_sales - cost_of_goods_sold",
+   "key_idea": "Net sales minus the sum of opening inventory, purchases, and direct costs adjusted for closing stock gives gross profit.",
+   "textbook_ref": "keac201.txt lines 212-245",
+   "question_patterns": [
+    "calculate gross profit from the following details",
+    "prepare trading account and find gross profit or gross loss",
+    "find the gross margin when net sales are ... and cost of goods sold is ...",
+    "determine the amount of gross profit to be carried down to profit and loss account",
+    "calculate computation of gross profit or gross loss for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net sales",
+     "explain": "Deduct returns inwards from total sales revenue.",
+     "compute": "net_sales = sales - sales_return"
+    },
+    {
+     "step": 2,
+     "action": "determine cost of goods sold",
+     "explain": "Calculate COGS using opening stock, purchases, returns, direct expenses, and closing stock.",
+     "compute": "cogs = opening_stock + purchases - purchases_return + direct_expenses - closing_stock"
+    },
+    {
+     "step": 3,
+     "action": "compute gross profit",
+     "explain": "Subtract COGS from net sales.",
+     "compute": "gross_profit = net_sales - cogs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate gross profit from the following details (take closing_stock = 10, direct_expenses = 10, opening_stock = 10, purchases = 10, purchases_return = 10, sales = 10, sales_return = 10)",
+     "solution": "Applying the concept's compute chain with closing_stock = 10, direct_expenses = 10, opening_stock = 10, purchases = 10, purchases_return = 10, sales = 10, sales_return = 10 gives -10.0.",
+     "answer": "-10.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.3",
+   "title": "Preparation of Trading Account and Closing Entries",
+   "section": "8.4.2",
+   "definition": "The trading account is the initial segment of the income statement designed to establish direct operational results through ledger closing entries transferring trading items.",
+   "formula": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
+   "key_idea": "Direct manufacturing and acquisition balances are closed to debit of trading account, and sales revenue to credit.",
+   "textbook_ref": "keac201.txt lines 135-180",
+   "question_patterns": [
+    "prepare a trading account for the year ended ...",
+    "pass the closing journal entries for opening stock, purchases, and direct expenses",
+    "record closing entries to transfer sales and returns to trading account",
+    "draft trading account from the provided trial balance balances",
+    "explain preparation of trading account and closing entries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "debit trading account for direct cost elements",
+     "explain": "Transfer opening stock, net purchases, freight inwards, wages, and power to the debit of trading account."
+    },
+    {
+     "step": 2,
+     "action": "credit trading account for net revenues and closing stock",
+     "explain": "Transfer net sales and credit closing inventory to the credit side of trading account."
+    },
+    {
+     "step": 3,
+     "action": "balance the account to find gross profit or gross loss",
+     "explain": "Transfer resulting gross profit (or gross loss) to profit and loss account."
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.4",
+   "title": "Computation of Net Profit or Net Loss",
+   "section": "8.4.3",
+   "definition": "Net profit is the definitive earnings figure of a firm for an accounting year after incorporating all secondary incomes and deducting administrative, selling, financial, and other indirect operating and non-operating expenses from gross profit.",
+   "formula": "net_profit = gross_profit + other_incomes - indirect_expenses",
+   "key_idea": "Net profit equals gross profit plus non-trading revenues less all indirect administrative, selling, and general expenses.",
+   "textbook_ref": "keac201.txt lines 220-258",
+   "question_patterns": [
+    "calculate net profit from the given profit and loss account balances",
+    "compute net profit or net loss for the year ended ...",
+    "find the net profit transferred to capital account",
+    "prepare profit and loss account and determine net profit",
+    "calculate computation of net profit or net loss for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum total indirect revenues and gains",
+     "explain": "Add discount received, commission earned, interest received, and other incomes to gross profit.",
+     "compute": "total_revenue_side = gross_profit + other_incomes"
+    },
+    {
+     "step": 2,
+     "action": "sum all indirect expenses and losses",
+     "explain": "Aggregate rent, salaries, advertisement, interest paid, bad debts, depreciation, and repair costs.",
+     "compute": "total_indirect_expenses = indirect_expenses"
+    },
+    {
+     "step": 3,
+     "action": "compute net profit",
+     "explain": "Subtract total indirect expenses from total income side.",
+     "compute": "net_profit = total_revenue_side - total_indirect_expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate net profit from the given profit and loss account balances (take gross_profit = 10, indirect_expenses = 10, other_incomes = 10)",
+     "solution": "Applying the concept's compute chain with gross_profit = 10, indirect_expenses = 10, other_incomes = 10 gives 10.0.",
+     "answer": "10.0"
+    },
+    {
+     "question": "calculate net profit from the given profit and loss account balances (take gross_profit = 10, indirect_expenses = 10, other_incomes = 2)",
+     "solution": "Applying the concept's compute chain with gross_profit = 10, indirect_expenses = 10, other_incomes = 2 gives 2.0.",
+     "answer": "2.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.8.5.1",
+   "title": "Computation of Operating Profit (EBIT)",
+   "section": "8.5",
+   "definition": "Operating profit measures earnings derived exclusively from the core commercial activities of an enterprise prior to deducting non-operating finance charges and abnormal losses, and before adding extraneous investment gains.",
+   "formula": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
+   "key_idea": "Earnings before interest, taxes, and abnormal events isolate regular operational earnings from financial financing decisions.",
+   "textbook_ref": "keac201.txt lines 291-315",
+   "question_patterns": [
+    "calculate operating profit from the given particulars",
+    "find the operating profit (EBIT) of the firm",
+    "compute operating profit when net profit is ... non-operating expenses are ... and non-operating incomes are ...",
+    "determine operating profit from gross profit and operating expenses",
+    "calculate computation of operating profit (ebit) for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add non-operating expenses to net profit",
+     "explain": "Add back interest on loan, loss by fire, and loss on sale of fixed assets to net profit.",
+     "compute": "adjusted_profit = net_profit + non_operating_expenses"
+    },
+    {
+     "step": 2,
+     "action": "subtract non-operating incomes",
+     "explain": "Deduct dividend on investment, profit on sale of assets, and non-trading gains.",
+     "compute": "operating_profit = adjusted_profit - non_operating_incomes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate operating profit from the given particulars (take net_profit = 10, non_operating_expenses = 10, non_operating_incomes = 10)",
+     "solution": "Applying the concept's compute chain with net_profit = 10, non_operating_expenses = 10, non_operating_incomes = 10 gives 10.0.",
+     "answer": "10.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.1",
+   "title": "Computation of Closing Capital in Balance Sheet",
+   "section": "8.6.2",
+   "definition": "Closing capital represents the proprietor's net residual equity at the end of the period, obtained by augmenting beginning capital with net profit and reducing it by drawings, income tax, and personal withdrawals.",
+   "formula": "closing_capital = opening_capital + net_profit - drawings - income_tax",
+   "key_idea": "The owner's opening equity increases with annual profits and decreases with personal cash or goods drawings and income tax outlays.",
+   "textbook_ref": "keac201.txt lines 330-365",
+   "question_patterns": [
+    "calculate closing capital to be shown in the balance sheet",
+    "compute the owner's net equity at the end of the year",
+    "find closing capital given initial capital, drawings, net profit, and tax",
+    "how much is the final capital balance of the proprietor",
+    "calculate computation of closing capital in balance sheet for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add net profit to opening capital",
+     "explain": "The annual net earnings are credited to the owner's capital account.",
+     "compute": "capital_with_profit = opening_capital + net_profit"
+    },
+    {
+     "step": 2,
+     "action": "deduct drawings and personal tax payments",
+     "explain": "Drawings and personal income tax payments reduce the proprietor's capital.",
+     "compute": "closing_capital = capital_with_profit - drawings - income_tax"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate closing capital to be shown in the balance sheet (take drawings = 10, income_tax = 10, net_profit = 10, opening_capital = 10)",
+     "solution": "Applying the concept's compute chain with drawings = 10, income_tax = 10, net_profit = 10, opening_capital = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.2",
+   "title": "Marshalling and Grouping of Balance Sheet Items",
+   "section": "8.6.3",
+   "definition": "Marshalling is the systematic sequence of presenting assets and liabilities in the position statement under either the order of permanence or the order of liquidity, grouped under appropriate category headings.",
+   "formula": "total_assets = current_assets + non_current_assets",
+   "key_idea": "Order of permanence lists least convertible assets and owner's equity first, whereas order of liquidity starts with cash and short-term debt.",
+   "textbook_ref": "keac201.txt lines 366-410",
+   "question_patterns": [
+    "explain grouping and marshalling of assets and liabilities",
+    "arrange the given assets and liabilities in order of permanence",
+    "arrange the given balance sheet items in order of liquidity",
+    "group the following items under current and non-current headings",
+    "explain marshalling and grouping of balance sheet items"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify items into current and non-current groups",
+     "explain": "Categorize accounts into current assets, fixed assets, current liabilities, long-term debts, and capital."
+    },
+    {
+     "step": 2,
+     "action": "order accounts by selected marshalling method",
+     "explain": "For permanence, arrange from fixed/permanent to liquid; for liquidity, list cash and immediate obligations first."
+    }
+   ]
+  },
+  {
+   "id": "keac.8.7.1",
+   "title": "Recording the Opening Journal Entry",
+   "section": "8.7",
+   "definition": "An opening journal entry is passed on the first day of an accounting period to record the carried-forward balances of assets, liabilities, and proprietor's capital from the prior year's balance sheet.",
+   "formula": "total_debit_assets = total_credit_liabilities + closing_capital",
+   "key_idea": "All individual asset accounts are debited, while liability accounts and owner's capital account are credited.",
+   "textbook_ref": "keac201.txt lines 448-470",
+   "question_patterns": [
+    "record the opening journal entry for the next accounting year",
+    "pass an opening entry from the given balance sheet items",
+    "make the opening entry on April 1 from the closing balances",
+    "how is an opening journal entry drafted from ledger balances",
+    "explain recording the opening journal entry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "debit individual asset accounts",
+     "explain": "Debit all real and personal accounts possessing debit balances carried forward from the balance sheet."
+    },
+    {
+     "step": 2,
+     "action": "credit individual liability and capital accounts",
+     "explain": "Credit all external obligations and owner's net equity to maintain double-entry equality."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac201.txt lines 230-244 (Illustration 1)",
+   "concept": "keac.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "Prepare a trading account from opening stock {opening_stock}, purchases {purchases}, sales {sales}, and wages {wages} to compute gross profit.",
+   "extracted_variables": {
+    "opening_stock": "value of beginning inventory",
+    "purchases": "value of purchases during the period",
+    "sales": "total revenue from sales",
+    "wages": "direct manufacturing labor expense"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net sales",
+     "explain": "Gross sales equals net sales as there are no returns.",
+     "compute": "net_sales = sales - 0"
+    },
+    {
+     "step": 2,
+     "action": "determine cost of goods sold",
+     "explain": "Add opening stock, purchases, and direct wages.",
+     "compute": "cogs = opening_stock + purchases + wages - 0"
+    },
+    {
+     "step": 3,
+     "action": "compute gross profit",
+     "explain": "Subtract COGS from net sales.",
+     "compute": "gross_profit = net_sales - cogs"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac201.txt lines 265-285 (Illustration 5)",
+   "concept": "keac.8.4.1",
+   "question_type": "compute",
+   "question_pattern": "Compute cost of goods sold with opening stock {opening_stock}, purchases {purchases}, freight inwards {freight_inwards}, wages {wages}, and closing stock {closing_stock}.",
+   "extracted_variables": {
+    "opening_stock": "inventory on April 01",
+    "purchases": "goods acquired during year",
+    "freight_inwards": "transport on purchases",
+    "wages": "direct wages paid",
+    "closing_stock": "inventory on March 31"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute net purchases",
+     "explain": "Purchases without returns.",
+     "compute": "net_purchases = purchases - 0"
+    },
+    {
+     "step": 2,
+     "action": "compute total direct costs available for sale",
+     "explain": "Sum opening stock, purchases, freight, and wages.",
+     "compute": "goods_available = opening_stock + net_purchases + freight_inwards + wages"
+    },
+    {
+     "step": 3,
+     "action": "deduct closing stock to arrive at cost of goods sold",
+     "explain": "Subtract closing stock from goods available for sale.",
+     "compute": "cogs = goods_available - closing_stock"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac201.txt lines 305-318 (Fig. 8.6 context)",
+   "concept": "keac.8.5.1",
+   "question_type": "compute",
+   "question_pattern": "Operating profit calculation where net profit is {net_profit}, non-operating interest expense is {non_operating_expenses}, and non-operating income is {non_operating_incomes}.",
+   "extracted_variables": {
+    "net_profit": "reported annual net income",
+    "non_operating_expenses": "interest and non-operating costs",
+    "non_operating_incomes": "extraneous investment revenues"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add non-operating expenses to net profit",
+     "explain": "Add non-operating costs to net earnings.",
+     "compute": "adjusted_profit = net_profit + non_operating_expenses"
+    },
+    {
+     "step": 2,
+     "action": "subtract non-operating incomes",
+     "explain": "Deduct non-operating revenue gains.",
+     "compute": "operating_profit = adjusted_profit - non_operating_incomes"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac201.txt lines 385-408 (Illustration 8 balance sheet)",
+   "concept": "keac.8.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate closing capital given opening capital {opening_capital}, net profit {net_profit}, drawings {drawings}, and income tax {income_tax}.",
+   "extracted_variables": {
+    "opening_capital": "initial capital of proprietor",
+    "net_profit": "net profit transferred from P&L",
+    "drawings": "drawings during the year",
+    "income_tax": "proprietor's income tax paid"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add net profit to opening capital",
+     "explain": "Net profit is credited to capital.",
+     "compute": "capital_with_profit = opening_capital + net_profit"
+    },
+    {
+     "step": 2,
+     "action": "deduct drawings and personal tax payments",
+     "explain": "Subtract personal drawings and income tax paid from owner equity.",
+     "compute": "closing_capital = capital_with_profit - drawings - income_tax"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.short",
+   "source_ref": "keac201.txt lines 480-505",
+   "questions": [
+    "What are the objectives of preparing financial statements?",
+    "What is the purpose of preparing trading and profit and loss account?",
+    "Explain the concept of cost of goods sold?",
+    "What is a balance sheet. What are its characteristics?",
+    "Distinguish between capital and revenue expenditure and state whether specific given expenditures are capital or revenue.",
+    "What is an operating profit?"
+   ]
+  },
+  {
+   "id": "ex8.numerical.1",
+   "source_ref": "keac201.txt lines 510-518",
+   "questions": [
+    "From the following balances taken from the books of Simmi and Vimmi Ltd. for the year ending March 31, 2026, calculate the gross profit: Closing stock Rs. 2,50,000, Net sales during the year Rs. 40,00,000, Net purchases during the year Rs. 15,00,000, Opening stock Rs. 15,00,000, Direct expenses Rs. 80,000."
+   ]
+  },
+  {
+   "id": "ex8.numerical.2",
+   "source_ref": "keac201.txt lines 519-535",
+   "questions": [
+    "From the balances of M/s Ahuja and Nanda, calculate: (a) Cost of goods available for sale, (b) Cost of goods sold during the year, (c) Gross Profit. Given: Opening stock Rs. 25,000, Credit purchases Rs. 7,50,000, Cash purchases Rs. 3,00,000, Credit sales Rs. 12,00,000, Cash sales Rs. 4,00,000, Wages Rs. 1,00,000, Salaries Rs. 1,40,000, Closing stock Rs. 30,00, Sales return Rs. 50,000, Purchases return Rs. 10,000."
+   ]
+  },
+  {
+   "id": "ex8.numerical.3",
+   "source_ref": "keac201.txt lines 536-547",
+   "questions": [
+    "Calculate the amount of gross profit and operating profit on the basis of balances of M/s Rajiv & Sons: Opening stock Rs. 50,000, Net sales Rs. 11,00,000, Net purchases Rs. 6,00,000, Direct expenses Rs. 60,000, Administration expenses Rs. 45,000, Selling and distribution expenses Rs. 65,000, Loss due to fire Rs. 20,000, Closing stock Rs. 70,000."
+   ]
+  },
+  {
+   "id": "ex8.numerical.4",
+   "source_ref": "keac201.txt lines 548-553",
+   "questions": [
+    "Operating profit earned by M/s Arora & Sachdeva was Rs. 17,00,000. Its non-operating incomes were Rs. 1,50,000 and non-operating expenses were Rs. 3,75,000. Calculate the amount of net profit earned by the firm."
+   ]
+  },
+  {
+   "id": "ex8.comprehensive",
+   "source_ref": "keac201.txt lines 554-650",
+   "questions": [
+    "Prepare trading and profit and loss account and balance sheet from given trial balance for M/s Bhola & Sons, M/s Ram, Manju Chawla, Mr. Deepak, Mr. A. Lal, M/s Royal Traders, M/s Neema Traders, M/s Nilu Sarees, and M/s Sports Equipments."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

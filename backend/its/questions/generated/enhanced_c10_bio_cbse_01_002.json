@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_002",
+   "title": "c10_bio_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define autotrophic nutrition and name the two main categories of autotrophs based on their energy source.",
+     "a": "Autotrophic nutrition is a mode where organisms synthesize their own food from inorganic substances using an external energy source. The two categories are photoautotrophs (use light energy, e.g., green plants, cyanobacteria) and chemoautotrophs (use chemical energy from inorganic reactions, e.g., nitrifying bacteria). A wrong answer like \"plants eat soil\" reveals confusion between absorption of minerals and synthesis of food — a common Class 6 carryover (c6_biology_ch10_002).",
+     "self_check": true
+    },
+    {
+     "q": "Why is chlorophyll essential for photosynthesis in plants, but not for chemoautotrophs? Explain using the energy source for each group.",
+     "a": "Chlorophyll is essential for photoautotrophs because it captures light energy (photons) to drive the endergonic reaction of glucose synthesis. Chemoautotrophs obtain energy from oxidizing inorganic compounds (e.g., NH₃ → NO₂⁻) and do not require light, so they lack chlorophyll. A wrong answer stating \"chlorophyll makes food\" confuses the pigment (energy trapper) with the process (photosynthesis) — a misconception from oversimplified Class 7 diagrams (c7_bio_ch03_005).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the photosynthesis equation as: CO₂ + H₂O → C₆H₁₂O₆ + O₂. Identify three errors in this equation and write the corrected, balanced version with physical states.",
+     "a": "Errors: (1) Not balanced — 6 CO₂ and 6 H₂O needed for one C₆H₁₂O₆; (2) Missing light energy and chlorophyll as conditions; (3) Missing physical states (g for gas, l for liquid, aq for aqueous). Corrected: 6CO₂(g) + 6H₂O(l) →[light/chlorophyll] C₆H₁₂O₆(aq) + 6O₂(g). A wrong answer ignoring balancing reveals poor chemical equation skills from Class 9 chemistry; missing conditions shows confusion between reactants and catalysts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the carbon source and energy source in autotrophic vs heterotrophic nutrition. Why can't a mushroom (fungus) be an autotroph even though it grows on decaying matter?",
+     "a": "Autotrophs: carbon source = CO₂ (inorganic), energy source = light (photo) or inorganic chemicals (chemo). Heterotrophs: carbon source = organic compounds, energy source = organic compounds. Mushrooms are saprotrophs — they absorb organic carbon from dead matter, so they are heterotrophs. A wrong answer saying \"mushrooms make food from soil\" confuses absorption of nutrients with synthesis — a persistent error from Class 6 food chain lessons (c6_biology_ch09_006).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"During the day, plants only photosynthesize; at night, they only respire.\" Is it correct? Justify using the concept of simultaneous processes.",
+     "a": "The claim is incorrect. Photosynthesis occurs only in light (day), but respiration occurs 24/7 in all living cells. During the day, both processes happen simultaneously — photosynthesis dominates (net O₂ release), but respiration continues in roots, stems, and non-green tissues. At night, only respiration occurs (net O₂ uptake). A wrong answer agreeing with the claim shows confusion between \"dominant process\" and \"exclusive process\" — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation to prove that chlorophyll is necessary for photosynthesis, using a variegated leaf (e.g., croton or money plant). List materials, steps, and the expected observation with iodine test.",
+     "a": "Materials: Variegated plant (croton), iodine solution, boiling water, ethanol, beaker, test tube, Bunsen burner. Steps: (1) Destarch plant in dark 48 hrs. (2) Expose to sunlight 4–6 hrs. (3) Boil leaf in water (kill cells). (4) Decolorize in hot ethanol (remove chlorophyll). (5) Rinse, add iodine. Observation: Green patches turn blue-black (starch present); white/yellow patches stay brown (no starch). A poor answer skips destarching or uses a non-variegated leaf — shows lack of experimental design practice from Class 7 (c7_bio_ch03_011).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

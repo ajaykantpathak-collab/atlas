@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_002",
+   "title": "c12_chem_cbse_10_002",
+   "questions": [
+    {
+     "q": "Write the molecular formula of glucose and state its classification as a monosaccharide (aldo/ketose, triose/hexose, etc.).",
+     "a": "Glucose: C₆H₁₂O₆; it is an aldohexose (aldehyde at C‑1, six carbons). A wrong answer (e.g., “ketohexose” or “C₆H₁₀O₅”) reveals confusion between aldose/ketose or misremembering the formula — often due to not linking the general formula Cₓ(H₂O)ᵧ to the specific structure.",
+     "self_check": true
+    },
+    {
+     "q": "Glucose has a free aldehyde group in its open-chain form, yet it does not give a positive Schiff’s test. Explain why, using the concept of cyclic hemiacetal equilibrium.",
+     "a": "In aqueous solution, >99% of glucose exists as cyclic α/β‑pyranose hemiacetals where the aldehyde carbon (C‑1) is tied up as a hemiacetal –OH. The open-chain aldehyde concentration is too low to give Schiff’s test. A wrong answer (“glucose has no aldehyde” or “Schiff’s reagent is not strong enough”) shows the student hasn’t grasped that the cyclic forms dominate and the aldehyde is masked but regenerates via mutarotation.",
+     "self_check": true
+    },
+    {
+     "q": "When glucose is treated with excess HI at high temperature, n‑hexane is formed. Write the balanced overall equation and explain what this tells about the carbon skeleton.",
+     "a": "C₆H₁₂O₆ + 12 HI → C₆H₁₄ + 6 H₂O + 6 I₂. The formation of straight‑chain n‑hexane proves all six carbons are linked in an unbranched chain. A wrong equation (e.g., missing I₂ or H₂O, or giving a branched alkane) indicates the student cannot balance redox reactions or doesn’t understand that HI reduces all oxygen‑bearing groups to hydrocarbons while preserving the carbon skeleton.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products of glucose oxidation with (a) bromine water and (b) concentrated HNO₃. What does the difference reveal about the functional groups at C‑1 and C‑6?",
+     "a": "(a) Br₂/H₂O oxidises only the aldehyde at C‑1 to –COOH, giving gluconic acid (C₆H₁₂O₇). (b) Hot HNO₃ oxidises both the aldehyde (C‑1) and the primary alcohol (C‑6) to –COOH, yielding saccharic acid (C₆H₁₀O₈). A wrong answer (e.g., both give the same product, or HNO₃ gives only gluconic acid) shows the student doesn’t distinguish mild vs. strong oxidising agents or forgets the –CH₂OH at C‑6.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “α‑D‑glucose and β‑D‑glucose are enantiomers because they differ at C‑1.” Evaluate this statement.",
+     "a": "False. They are diastereomers (anomers), not enantiomers. Enantiomers require non‑superimposable mirror images at all chiral centres; here only C‑1 differs, while C‑2, C‑3, C‑4, C‑5 have identical configurations. A student who calls them enantiomers confuses anomerism with enantiomerism and likely doesn’t recall that D‑glucose has fixed configurations at C‑2 to C‑5.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate mutarotation of glucose using a polarimeter. Outline the steps and the expected observation.",
+     "a": "Dissolve pure α‑D‑glucose (m.p. 419 K) in water and measure optical rotation immediately; then measure at intervals until constant. Rotation changes from +112° to +52.7° (equilibrium). Repeat with β‑D‑glucose (m.p. 423 K, initial +18.7°) — rotation rises to +52.7°. A poor design (e.g., using solid glucose, not measuring over time, or expecting no change) reveals the student doesn’t understand that mutarotation is the interconversion of anomers via the open chain in solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

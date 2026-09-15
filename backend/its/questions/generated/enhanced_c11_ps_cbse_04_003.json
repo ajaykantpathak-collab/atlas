@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_003",
+   "title": "c11_ps_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the two principles of justice Rawls derives from the original position, in their correct lexical order.",
+     "a": "**Correct answer:** (1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others. (2) Social and economic inequalities must satisfy two conditions: (a) attached to offices open to all under fair equality of opportunity, and (b) to the greatest benefit of the least advantaged (difference principle). The first principle has lexical priority over the second.  \n**What a wrong answer reveals:** If a student reverses the order or omits fair equality of opportunity, they confuse Rawls with utilitarianism (which permits liberty restrictions for greater aggregate welfare) or miss the structural priority that prevents trading basic rights for economic gain — a classic board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Rawls argue that parties in the original position would choose the difference principle rather than a principle of average utility maximisation?",
+     "a": "**Correct answer:** Under the veil of ignorance, parties lack probability estimates for their future social position. Maximising average utility risks catastrophic outcomes for the worst-off (e.g., slavery of a minority if it raises the average). The difference principle follows the **maximin rule** — rational agents maximise the minimum position — because the stakes are existential (basic liberties, subsistence) and no probabilistic reasoning is available.  \n**What a wrong answer reveals:** If a student says \"because it's fair\" or \"because people are altruistic,\" they miss Rawls' core claim: the choice is **rational, not moral**. The veil of ignorance transforms self-interest into impartiality without requiring benevolence — a distinction examiners test explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes a policy: private hospitals must reserve 25% of beds for free treatment of Below Poverty Line (BPL) patients, funded by cross-subsidisation from paying patients. Using Rawls' difference principle, identify the least advantaged group and explain whether this policy satisfies the principle.",
+     "a": "**Correct answer:** The least advantaged are BPL patients lacking access to quality healthcare. The policy creates an inequality (paying patients subsidise others) but **only satisfies the difference principle if** (i) the cross-subsidy does not reduce the quality/access for BPL patients below what a purely public system would provide, and (ii) the overall healthcare system improves the absolute position of the worst-off compared to the status quo. If paying patients exit the system causing collapse, the worst-off are harmed — violating the principle.  \n**What a wrong answer reveals:** A student who simply says \"yes, it helps the poor\" ignores the **comparative** and **institutional** test: the difference principle asks whether the *specific inequality* (cross-subsidy) makes the worst-off *better off than they would be under any alternative arrangement*, not just better off than before.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Rawls' veil of ignorance with Harsanyi's utilitarian original position. What single feature of Rawls' veil explains why his parties choose maximin while Harsanyi's choose average utility?",
+     "a": "**Correct answer:** Rawls **strips parties of all probability distributions** over social positions (thick veil), whereas Harsanyi assumes equiprobability (thin veil). Without probabilities, expected-utility reasoning collapses; maximin becomes the only non-arbitrary decision rule for high-stakes, irreversible choices.  \n**What a wrong answer reveals:** If a student says \"Rawls cares about the poor, Harsanyi doesn't,\" they attribute moral motives to a procedural difference. The distinction is **epistemic**: what the parties *know*. This is a high-order analytical error that appears in 2-marker \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Rawls' difference principle justifies India's 10% EWS (Economically Weaker Sections) quota in education and public employment because it benefits the poor.\"",
+     "a": "**Correct answer:** The claim **misapplies** the difference principle. Rawls requires that *any* inequality (including quotas) must **maximise the long-term prospects of the least advantaged class as a whole**, not merely benefit some poor individuals. If the EWS quota diverts resources from universal primary education or SC/ST/OBC quotas that target historically oppressed groups (who are likely worse-off than EWS), it may *lower* the floor for the absolute worst-off. Moreover, Rawls' fair equality of opportunity (FEO) precedes the difference principle lexically; FEO demands eliminating caste/class barriers *before* distributing offices. A quota without FEO reforms (e.g., school quality) violates lexical priority.  \n**What a wrong answer reveals:** Equating \"helps some poor people\" with \"satisfies the difference principle\" confuses **targeted relief** with **structural maximin**. Board answers must reference the *least advantaged representative group*, not individuals, and the *lexical order* of principles.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal (Article 15/16 style) that operationalises Rawls' difference principle for public higher education admissions. Your text must explicitly reference the least advantaged group, the maximin test, and lexical priority of fair equality of opportunity.",
+     "a": "**Expected answer criteria:** (1) Defines \"least advantaged\" using multi-dimensional deprivation (income, caste, geography, first-generation status). (2) States that any admission inequality (e.g., merit-weighting, management quota) is permitted **only if** it demonstrably raises the admission share and graduation outcomes of the least advantaged cohort above the baseline of a pure lottery among qualified applicants. (3) Asserts that fair equality of opportunity (free quality schooling, no capitation fees) must be achieved *before* the difference principle applies. (4) Includes a sunset/review clause tied to empirical data on the worst-off cohort's outcomes.  \n**What a poor answer reveals:** A proposal that merely adds a new quota percentage without defining the worst-off group, without a maximin benchmark, or that places the difference principle *before* FEO shows the student cannot translate abstract theory into institutional design — a key competency for 6-mark \"application\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

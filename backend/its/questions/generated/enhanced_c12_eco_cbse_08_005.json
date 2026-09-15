@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_005",
+   "title": "c12_eco_cbse_08_005",
+   "questions": [
+    {
+     "q": "Define Gross Value Added at Market Price (GVAMP) and state its formula.",
+     "a": "GVAMP = Value of Output – Intermediate Consumption. Value of Output = Sales + Change in Stock (Closing Stock – Opening Stock). A wrong answer (e.g., GVAMP = Sales – Purchases) reveals the student confuses change in stock with total stock or ignores inventory accumulation, a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we subtract intermediate consumption from value of output to get value added? Explain using the wheat-miller-baker chain.",
+     "a": "Intermediate consumption (wheat for miller, flour for baker) represents value already created in a previous stage. If not subtracted, that value gets counted again in the current stage's output, leading to double counting. A student who says \"to get profit\" confuses value added (a production concept) with operating surplus (an income concept) — a classic Class 12 error.",
+     "self_check": true
+    },
+    {
+     "q": "A textile firm reports: Sales ₹80 lakh, Opening Stock ₹10 lakh, Closing Stock ₹15 lakh, Purchase of raw cotton ₹30 lakh, Electricity ₹5 lakh, Rent paid ₹3 lakh. Calculate GVAMP.",
+     "a": "Step 1: Value of Output = Sales + ΔStock = 80 + (15–10) = ₹85 lakh. Step 2: Intermediate Consumption = Raw cotton + Electricity = 30 + 5 = ₹35 lakh (rent is factor payment, not intermediate). Step 3: GVAMP = 85 – 35 = ₹50 lakh. A wrong answer of ₹42 lakh (subtracting rent) shows confusion between intermediate goods and factor services.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Final Output Approach\" and \"Value Added Approach\" for measuring GDP. Which is more practical for a large economy like India and why?",
+     "a": "Final Output Approach sums only final goods (bread ₹2,000); Value Added Approach sums value added at each stage (₹1,000+₹500+₹500=₹2,000). Both give same GDP. Value Added is more practical because it uses data firms already report (sales, purchases, stock changes) and avoids the difficult task of classifying every good as final/intermediate — crucial for India's unorganized sector where final use is hard to trace.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Imputed rent of owner-occupied houses should be excluded from GDP because no actual transaction occurs.\" Is this correct? Justify.",
+     "a": "Incorrect. Imputed rent *must* be included (Precaution 2). Owner-occupied housing produces housing services just like rented housing. Excluding it would understate GDP and create inconsistency: if the owner rented it out, rent would be in GDP; living in it oneself shouldn't change national income. This is a standard CBSE board trap — students often exclude non-monetary output.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3-stage production chain (farmer → processor → retailer) with your own numbers. Show that sum of value added equals final sale value. Then introduce a ₹200 subsidy on the processor's output and show how NDPfc changes.",
+     "a": "Example: Farmer output ₹500 (IC=0) → VA=500. Processor output ₹900 (IC=500) → VA=400. Retailer output ₹1,200 (IC=900) → VA=300. ΣVA = 1,200 = Final output. With ₹200 subsidy to processor: GVAMP unchanged (subsidy not in market price). GDPmp = 1,200. Net Indirect Taxes = Indirect Taxes – Subsidies. If only this subsidy, NIT = –200. NDPfc = GDPmp – Depreciation – NIT. Assuming zero depreciation, NDPfc = 1,200 – (–200) = ₹1,400. Shows subsidy increases factor income (NDPfc) but not market-price GDP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

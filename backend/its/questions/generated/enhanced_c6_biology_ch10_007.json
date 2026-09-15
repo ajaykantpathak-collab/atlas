@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch10_007",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch10_007",
+   "title": "c6_biology_ch10_007",
+   "questions": [
+    {
+     "q": "What is the general direction in which a plant shoot grows compared to the direction of a light source?",
+     "a": "The shoot grows toward the light source. A wrong answer here suggests the student confuses the root's behavior (growing away from light or into the soil) with the shoot's behavior.",
+     "self_check": true
+    },
+    {
+     "q": "If you place a potted plant on its side, the roots will eventually turn to grow downward. What does this tell you about the plant's sensitivity to its environment?",
+     "a": "It shows that plants are sensitive to gravity and can adjust their growth direction to ensure the roots move into the soil. A wrong answer suggests the student thinks the plant's movement is random rather than a directed survival response.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener wants to ensure their sunflower grows straight up. If a tree blocks light from the side, why might the sunflower bend?",
+     "a": "Steps: 1. Identify the light source as the stimulus. 2. Recognize that the plant needs light for photosynthesis. 3. Apply the concept that shoots grow toward light. 4. Conclude the plant bends to capture more sunlight. A wrong answer shows the student does not understand that light acts as a directional cue for plant growth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth response of a root to gravity with the growth response of a shoot to light. How are they similar in terms of \"survival\"?",
+     "a": "Both are directed growth responses (tropisms) that place the plant parts in the best position for survival—shoots get light for energy, and roots get water/anchorage from the soil. A wrong answer indicates the student views these as separate, unrelated facts rather than coordinated survival strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Does a plant's response to light mean it \"sees\" the light like an animal? Why or why not?",
+     "a": "No, it does not \"see\" or \"think\" because it lacks a nervous system; it is a chemical and growth-based response to environmental cues. A wrong answer reveals the student is anthropomorphizing the plant (giving it human traits).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that a plant responds to gravity. What would you do?",
+     "a": "Criteria: Place a germinating seed horizontally in a container with moist cotton. Observe it for 3-4 days. If the root bends downward and the shoot bends upward, the hypothesis is confirmed. A poor answer fails to include a control or a clear method to isolate gravity as the variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

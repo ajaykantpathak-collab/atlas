@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_009",
+   "title": "c12_chem_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define pKa and state its relationship with acid strength. If acid X has pKa = 2.0 and acid Y has pKa = 5.0, which is stronger and by approximately what factor in terms of Ka?",
+     "a": "pKa = -log₁₀Ka; smaller pKa means larger Ka, hence stronger acid. Acid X (pKa 2.0) has Ka = 10⁻², acid Y (pKa 5.0) has Ka = 10⁻⁵; X is 10³ = 1000 times stronger. A wrong answer (e.g., \"Y is stronger because 5 > 2\") reveals the student confuses the inverse logarithmic relationship — they treat pKa as a direct strength measure rather than -log Ka.",
+     "self_check": true
+    },
+    {
+     "q": "Phenoxide ion has five resonance structures while carboxylate has only two. Yet carboxylic acids (pKa ~4-5) are stronger acids than phenols (pKa ~10). Explain this apparent contradiction using electronegativity and charge delocalization arguments.",
+     "a": "In carboxylate, the negative charge is delocalized over two equivalent oxygen atoms (both highly electronegative), giving two equivalent, low-energy resonance structures. In phenoxide, the charge delocalizes onto ortho/para carbons (less electronegative than oxygen) in non-equivalent structures, making resonance less effective. A wrong answer focusing only on \"number of resonance structures\" reveals the student memorizes resonance count without evaluating the quality of charge delocalization — a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in increasing order of acidity: CH₃COOH, ClCH₂COOH, FCH₂COOH, BrCH₂COOH, ClCH₂CH₂COOH. Justify each step using inductive effect principles.",
+     "a": "CH₃CH₂COOH (pKa 4.87) < CH₃COOH (4.76) < ClCH₂CH₂COOH (4.52) < BrCH₂COOH (2.90) < ClCH₂COOH (2.86) < FCH₂COOH (2.66). Reasoning: α-halogen exerts strong -I effect; F > Cl > Br in electronegativity, so -I strength follows F > Cl > Br. β-halogen (ClCH₂CH₂COOH) has weaker -I due to distance. Ethanoic acid has weakly electron-donating CH₃ (+I), making it weaker than formic acid (HCOOH, pKa 3.75). A wrong order (e.g., placing BrCH₂COOH above ClCH₂COOH) shows the student ignores electronegativity trend or misapplies distance dependence of inductive effect.",
+     "self_check": true
+    },
+    {
+     "q": "Benzoic acid (pKa 4.19) is stronger than acetic acid (pKa 4.76). 4-Nitrobenzoic acid (pKa 3.41) is stronger than benzoic acid, but 4-methoxybenzoic acid (pKa 4.46) is weaker. Analyze these trends using combined inductive and resonance effects of the substituents on the aromatic ring.",
+     "a": "Benzoic acid > acetic acid: carboxyl attached to sp² carbon (more electronegative) vs sp³ in acetic acid. 4-NO₂: -I and -R both withdraw electron density from carboxylate, stabilizing anion → stronger acid. 4-OCH₃: +R dominates (lone pair donation into ring) which increases electron density at carboxyl, destabilizing anion → weaker acid. A student who says \"NO₂ withdraws by -I only\" misses the crucial -R contribution; one who says \"OCH₃ withdraws by -I\" ignores its powerful +R effect — both are common board exam errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Trifluoroacetic acid (CF₃COOH, pKa 0.23) is a stronger acid than trichloroacetic acid (CCl₃COOH, pKa 0.7) because fluorine is more electronegative than chlorine.\" Evaluate this statement. Is the reasoning complete? What additional factor operates?",
+     "a": "The statement is correct in conclusion but incomplete in reasoning. While F (EN 4.0) > Cl (EN 3.0) gives stronger -I effect per atom, the key additional factor is the smaller size of F allowing better orbital overlap and more effective through-bond inductive transmission. Also, three F atoms create a cumulative -I effect that is exceptionally strong. A student who only cites electronegativity misses the size/overlap factor — a nuance tested in JEE Advanced.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to determine the relative acidity of acetic acid, chloroacetic acid, and dichloroacetic acid using only pH paper, 0.1 M solutions of each acid, and a conductivity tester. Describe the procedure, expected observations, and how you would rank them.",
+     "a": "Procedure: Prepare 0.1 M solutions of each acid. Dip pH paper into each — lower pH = stronger acid. Use conductivity tester (bulb brightness) — higher conductivity = more H⁺ = stronger acid. Expected: dichloroacetic acid (pKa ~1.3) shows lowest pH (~1.5) and brightest bulb; chloroacetic acid (pKa 2.86) shows pH ~2.0; acetic acid (pKa 4.76) shows pH ~2.9 and dimmest bulb. Rank: Cl₂CHCOOH > ClCH₂COOH > CH₃COOH. A poor answer that suggests \"titrate with NaOH\" ignores the constraint \"using only pH paper and conductivity tester\" — revealing inability to design experiments within given resources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

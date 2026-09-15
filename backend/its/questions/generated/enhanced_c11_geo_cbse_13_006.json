@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_006",
+   "title": "c11_geo_cbse_13_006",
+   "questions": [
+    {
+     "q": "Define watershed management and state its primary objective in the context of water conservation.",
+     "a": "Watershed management is the integrated planning and implementation of soil and water conservation measures within a drainage basin to optimize land use, enhance groundwater recharge, control erosion, and ensure equitable water distribution. Its primary objective is to conserve rainwater where it falls, manage runoff, and sustainably meet water demands for humans and ecosystems. A wrong answer (e.g., \"building big dams\") reveals confusion between large-scale river valley projects and micro-watershed based local management.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why water conservation is critically needed in India despite the country receiving an average annual rainfall of about 1170 mm.",
+     "a": "India's rainfall is highly uneven spatially (e.g., >2000 mm in Western Ghats vs <100 mm in Thar) and temporally (75% in 3-4 monsoon months). Coupled with high population density, water-intensive agriculture, industrial growth, and groundwater over-extraction, the per capita water availability has fallen below 1500 m³/year (water stress). A wrong answer focusing only on low total rainfall reveals a misconception that absolute scarcity, not variability and mismanagement, is the core issue.",
+     "self_check": true
+    },
+    {
+     "q": "A village in semi-arid Maharashtra receives 600 mm annual rainfall. The watershed area is 500 hectares. If 40% of rainfall becomes runoff and 50% of that runoff can be harvested through watershed structures, calculate the potential annual water harvest in cubic meters. (1 hectare = 10,000 m²)",
+     "a": "Step 1: Total rainfall volume = 600 mm × 500 ha = 0.6 m × 5,000,000 m² = 3,000,000 m³.\nStep 2: Runoff = 40% of 3,000,000 = 1,200,000 m³.\nStep 3: Harvestable runoff = 50% of 1,200,000 = 600,000 m³.\nAnswer: 600,000 m³ per year. A wrong answer often misses unit conversion (mm to m) or misapplies percentages, indicating weak quantitative geography skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ridge-to-valley approach of watershed management with the conventional approach of building large dams. Identify two hydrological and two socio-economic differences.",
+     "a": "Hydrological: (1) Ridge-to-valley treats the entire catchment, reducing erosion and enhancing infiltration at source; large dams only store water downstream. (2) Watershed management recharges groundwater locally; large dams often cause waterlogging and salinity in command areas. Socio-economic: (1) Watershed management is participatory, empowering local communities; large dams are top-down, often displacing people. (2) Watershed structures are low-cost, locally maintainable; large dams require massive capital and centralized maintenance. A wrong answer that lists only size differences misses the integrated, decentralized philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Watershed management alone can solve India's water crisis.\" Provide a reasoned evaluation considering scale, climate variability, and governance.",
+     "a": "Watershed management is necessary but not sufficient. At micro-watershed scale (500-1000 ha), it effectively recharges groundwater and improves soil moisture, but cannot address inter-basin transfers, flood control in large rivers, or urban-industrial demand. Climate change alters rainfall patterns, requiring adaptive management beyond static plans. Governance challenges include fragmented land ownership, lack of maintenance funds, and weak institutional convergence (e.g., between MGNREGA, Jal Shakti Abhiyan). A good evaluation acknowledges its success in revitalizing villages like Ralegan Siddhi but notes the need for integrated water resources management (IWRM) at basin scale. A poor answer either overstates its scope or dismisses it entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple watershed management plan for a 200-hectare micro-watershed in a semi-arid region with moderate slopes (3-8%). List four structures in sequence from ridge to valley and justify each placement.",
+     "a": "1. Ridge area: Continuous contour trenches (CCT) on degraded forest/grassland to break slope velocity and enhance infiltration.\n2. Middle slope: Staggered contour trenches (SCT) on agricultural land to conserve soil moisture for crops.\n3. Drainage lines (nallahs): Loose boulder check dams (LBCD) to reduce flow velocity and trap silt.\n4. Valley bottom: Percolation tank / farm pond to store harvested runoff for irrigation and groundwater recharge.\nJustification follows the hydrological principle: treat the catchment from top to bottom so each structure receives reduced, silt-free runoff. A poor answer places structures randomly (e.g., pond at ridge) or omits the sequence logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

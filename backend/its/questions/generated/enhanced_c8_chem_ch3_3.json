@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_3",
+   "title": "c8_chem_ch3_3",
+   "questions": [
+    {
+     "q": "What is the approximate percentage by volume of nitrogen gas in clean, dry air?",
+     "a": "Nitrogen makes up approximately 78% of clean, dry air by volume. A wrong answer—such as stating 21%—confuses nitrogen with oxygen, which is the second most abundant gas in the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "Why is air classified as a mixture rather than a chemical compound?",
+     "a": "Air is classified as a mixture because its components (like oxygen, nitrogen, and carbon dioxide) retain their individual properties, can be separated by physical means (like boiling liquid air), and do not combine in a fixed chemical ratio. A wrong answer often claims that components chemically react to form air, ignoring that they can be mechanically separated without forming new substances.",
+     "self_check": true
+    },
+    {
+     "q": "If a closed steel cylinder contains 100 liters of dry air, approximately how many liters of oxygen are present inside the cylinder?",
+     "a": "Steps:\n1. Identify the total volume of air given: 100 liters.\n2. Recall the percentage of oxygen in dry air: approximately 21% by volume.\n3. Calculate the volume of oxygen: (21 / 100) * 100 L = 21 liters.\n4. Verify the units and physical meaning: 21 liters of oxygen gas are physically mixed with 78 liters of nitrogen and 1 liter of other gases.\nAnswer: 21 liters. A wrong answer usually confuses percentage composition with total mass or uses nitrogen's percentage (78%).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the individual boiling points of nitrogen and oxygen when they are mixed together in the atmosphere. Do their boiling points change because they form a mixture?",
+     "a": "The boiling points of nitrogen (-196 °C) and oxygen (-183 °C) do not change when they form a mixture. In a mixture, individual components retain their unique physical properties, which is why fractional distillation of liquid air can separate them successfully based on their distinct boiling points. A wrong answer suggests that mixing gases alters their fundamental physical constants.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Carbon dioxide is a harmful pollutant in the atmosphere and should be completely removed for air to be a proper mixture.\" Is this scientifically correct?",
+     "a": "The statement is scientifically incorrect. Carbon dioxide is a natural, essential component of air (approx. 0.04%) required for photosynthesis by plants, even though excessive human-generated amounts cause global warming. Air is defined by its natural variety of components as a mixture; removing a vital component would alter the ecological balance and the definition of natural atmospheric air. A wrong answer agrees that CO2 is purely a pollutant and not part of normal air composition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home or school demonstration to prove that air contains water vapor and carbon dioxide. Describe the observations.",
+     "a": "To prove water vapor is present, take a cold glass from the refrigerator; water droplets condense on the outer surface from the surrounding air. To prove carbon dioxide is present, bubble exhaled air or air through limewater (calcium hydroxide solution); the limewater turns milky due to the formation of insoluble calcium carbonate. A poor answer fails to name specific reagents or relies on untestable assertions without visible changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

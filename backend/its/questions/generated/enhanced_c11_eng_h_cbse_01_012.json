@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_01_012",
+   "title": "c11_eng_h_cbse_01_012",
+   "questions": [
+    {
+     "q": "What is the definition of a literal comprehension question?",
+     "a": "A literal comprehension question asks for information that is directly stated in the text, requiring no interpretation. A wrong answer (e.g., \"a question that asks for your opinion\") reveals the student confuses literal with evaluative or inferential types.",
+     "self_check": true
+    },
+    {
+     "q": "In the text, the author says, \"She could never have been pretty; but she was always beautiful.\" Is this a literal or inferential statement? Explain.",
+     "a": "This is an inferential statement because the author draws a conclusion about the grandmother's beauty based on his perception, not on a directly stated fact. A wrong answer (e.g., \"literal because it's in the text\") shows the student cannot distinguish between explicit statements and authorial inference.",
+     "self_check": true
+    },
+    {
+     "q": "Given the question: \"Why did the grandmother feed sparrows in the city courtyard?\" Identify whether it is literal or inferential, and answer using the text.",
+     "a": "This is a literal question because the text explicitly states: \"There were no dogs in the streets and she took to feeding sparrows in the courtyard of our city house.\" A wrong answer (e.g., inferring she felt lonely) indicates the student misclassifies the question type and over-interprets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the grandmother's reaction to the author's music lessons with her reaction to his going abroad. What does this contrast infer about her values?",
+     "a": "The contrast infers that she valued tradition and religion over modern education, and accepted separation with religious resignation rather than emotional display. A wrong answer (e.g., \"she didn't care\") shows failure to synthesize textual clues into a coherent inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student answer to an inferential question: \"The grandmother was unhappy with the English school because she hated science.\" Is this a valid inference? Justify.",
+     "a": "No, it is not fully valid. The text says she \"did not believe in the things they taught at the English school and was distressed that there was no teaching about God and the scriptures.\" The inference oversimplifies by attributing her unhappiness to hatred of science rather than absence of religious teaching. A wrong evaluation (e.g., \"yes, because science is mentioned\") reveals inability to weigh textual evidence against the inference.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the grandmother's final days and provide a model answer with two textual evidences.",
+     "a": "Question: \"How does the author show that the grandmother had a premonition of her death?\" Model answer: The grandmother's decision to stop praying and sing instead (evidence 1: \"She did not pray. She collected the women... started to sing\") and her declaration that her end was near (evidence 2: \"She told us that her end was near\") together infer her awareness. A poor answer would lack textual evidence or confuse literal events with inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

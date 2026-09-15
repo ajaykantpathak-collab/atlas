@@ -1,0 +1,126 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 1,
+ "chapter_title": "Chemical Reactions and Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.101.1.1",
+   "title": "Chemical Reactions and Their Signs",
+   "section": "1.1",
+   "definition": "A chemical reaction forms new substances: its signs include change of state, change of colour, evolution of gas and change of temperature - like magnesium burning to white magnesium oxide or quicklime slaking with heat in water.",
+   "formula": "-",
+   "key_idea": "New substance formed is the surest sign - the others are its visible clues.",
+   "textbook_ref": "jesc101.txt sections 1.1-1.2 (chemical reactions and equations)",
+   "question_patterns": [
+    "why is the burning of magnesium considered a chemical change",
+    "list the observations that show a chemical reaction has occurred",
+    "what happens when quicklime is added to water - explain the change",
+    "differentiate a physical and a chemical change with examples",
+    "identify the signs of reaction in the given experiment",
+    "is respiration a chemical reaction - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "observe the reactants",
+     "explain": "Note the starting substances and their properties."},
+    {"step": 2, "action": "watch for the signs",
+     "explain": "Colour, state, gas and temperature changes reveal reaction."},
+    {"step": 3, "action": "confirm the new product",
+     "explain": "Identify the new substance formed to complete the claim."}
+   ]
+  },
+  {
+   "id": "jesc.101.1.2",
+   "title": "Writing and Balancing Chemical Equations",
+   "section": "1.2",
+   "definition": "A chemical equation writes a reaction with formulae and symbols of states; it is balanced by making atoms of each element equal on both sides, since mass can neither appear nor vanish - trial and adjustment of coefficients, never of formulae, achieves this.",
+   "formula": "-",
+   "key_idea": "Change the coefficients, never the formulae: equal atoms on both sides is the law.",
+   "textbook_ref": "jesc101.txt sections on balancing equations and state symbols",
+   "question_patterns": [
+    "balance the given chemical equation step by step",
+    "write a balanced equation for the reaction of magnesium with oxygen",
+    "why must a chemical equation be balanced - state the law",
+    "add state symbols to the given balanced equation",
+    "what is wrong with the given unbalanced equation - correct it",
+    "write the balanced equation for zinc with hydrochloric acid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the atoms",
+     "explain": "List atoms of each element on both sides."},
+    {"step": 2, "action": "adjust the coefficients",
+     "explain": "Change coefficients so both sides hold equal atoms."},
+    {"step": 3, "action": "add the states",
+     "explain": "Mark solid, liquid, gas or aqueous states in brackets."}
+   ]
+  },
+  {
+   "id": "jesc.101.1.3",
+   "title": "Types of Chemical Reactions",
+   "section": "1.2",
+   "definition": "Reactions fall into families: combination joins reactants into one product, decomposition breaks one reactant into many, displacement swaps a more reactive element in, double displacement exchanges partners, and oxidation-reduction moves oxygen and hydrogen between substances.",
+   "formula": "-",
+   "key_idea": "Five reaction families: combine, decompose, displace, double-displace and redox.",
+   "textbook_ref": "jesc101.txt sections on types of reactions",
+   "question_patterns": [
+    "classify the given reactions into combination, decomposition and displacement",
+    "give two examples each of decomposition reactions with heat, light and electricity",
+    "what happens when iron nails are dipped in copper sulphate solution - explain the reaction type",
+    "define double displacement reaction with an example of precipitate",
+    "identify the substance oxidised and reduced in the given reaction",
+    "why is respiration an exothermic reaction - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the reactants and products",
+     "explain": "Joining indicates combination; splitting indicates decomposition."},
+    {"step": 2, "action": "watch the partners",
+     "explain": "A swap of partners shows displacement or double displacement."},
+    {"step": 3, "action": "track oxygen and hydrogen",
+     "explain": "Their gain or loss marks oxidation and reduction."}
+   ]
+  },
+  {
+   "id": "jesc.101.1.4",
+   "title": "Effects of Oxidation in Daily Life",
+   "section": "1.3",
+   "definition": "Oxidation shows up in daily life as corrosion, like rusting of iron, and rancidity, when fats and oils in food oxidise; antioxidants, nitrogen flushing and refrigeration slow these unwanted oxidation reactions.",
+   "formula": "-",
+   "key_idea": "Rust and rancidity are oxidation at work - prevention means blocking air and speed.",
+   "textbook_ref": "jesc101.txt sections on corrosion and rancidity",
+   "question_patterns": [
+    "what is corrosion - give two examples from daily life",
+    "why does rusting need both air and moisture - explain",
+    "what is rancidity and how is it prevented",
+    "why are chips packets flushed with nitrogen gas",
+    "name the methods to prevent corrosion of iron",
+    "explain how antioxidants protect food"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the oxidation",
+     "explain": "Metal surfaces and food fats react with oxygen."},
+    {"step": 2, "action": "note the damage",
+     "explain": "Corrosion weakens metals; rancidity spoils taste and smell."},
+    {"step": 3, "action": "apply the prevention",
+     "explain": "Painting, galvanising, nitrogen flushing and cooling slow oxidation."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jesc101.txt exercises",
+   "questions": [
+     "Why should a magnesium ribbon be cleaned before burning in air?",
+     "Write the balanced equation for the given reactions with state symbols.",
+     "Identify the substances oxidised and reduced in the given reactions."
+   ]
+  }
+ ]
+}

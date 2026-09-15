@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_007",
+   "title": "c12_geo_cbse_13_007",
+   "questions": [
+    {
+     "q": "Name the first oil-producing region in India before the establishment of the Oil and Natural Gas Commission in 1956.",
+     "a": "Digboi in Assam was the only oil-producing region before 1956. A wrong answer (e.g., Mumbai High or Ankaleshwar) reveals the student does not know the historical sequence of oil exploration in India and confuses pre- and post-ONGC discoveries.",
+     "self_check": true
+    },
+    {
+     "q": "Why are petroleum reserves in India confined to sedimentary basins of the tertiary period?",
+     "a": "Petroleum forms from organic matter buried in sedimentary basins; tertiary period basins (like Assam, Gujarat, Mumbai offshore) provided the right conditions of source rock, reservoir rock, and structural traps. A wrong answer (e.g., \"because of volcanic activity\" or \"found in igneous rocks\") shows the student misunderstands the geological origin of petroleum and confuses it with mineral deposits associated with igneous/metamorphic rocks.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label the following: (a) Mumbai High, (b) Ankaleshwar, (c) Digboi, (d) Krishna-Godavari basin. Then state which of these is an offshore field.",
+     "a": "(a) Mumbai High — 160 km west of Mumbai in Arabian Sea (offshore); (b) Ankaleshwar — Gujarat (onshore); (c) Digboi — Assam (onshore); (d) Krishna-Godavari basin — east coast (offshore/onshore). Mumbai High and Krishna-Godavari basin are offshore. A wrong location (e.g., placing Mumbai High on land) reveals poor map skills and confusion between onshore and offshore fields.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distribution of petroleum and natural gas reserves in India. What pattern do you observe, and what geological reason explains it?",
+     "a": "Both petroleum and natural gas occur in the same sedimentary basins (Assam, Gujarat, Mumbai High, Krishna-Godavari, Kaveri) because natural gas is often associated with petroleum deposits, released when crude oil is brought to the surface. A wrong answer that separates their distributions (e.g., \"natural gas only in Rajasthan\") indicates the student missed the genetic link between the two resources.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Field-based refineries are more economical than market-based refineries for India's petroleum industry.\" Use examples from the text.",
+     "a": "Field-based refineries (e.g., Digboi) process crude oil near the source, reducing transport cost of crude, but market-based refineries (e.g., Barauni) are located near consumption centres, reducing product transport cost. The optimum depends on pipeline infrastructure and demand patterns. A one-sided answer ignoring the trade-off shows lack of evaluative geographical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map for a Class 12 geography project showing India's petroleum and natural gas pipeline network (GAIL's 'One Nation One Grid'), major refineries, and consumption centres. List the key elements you would include.",
+     "a": "A good answer includes: (1) outline map of India with sedimentary basins shaded, (2) symbols for oil fields (onshore/offshore), gas fields, (3) pipeline routes (existing and proposed) with GAIL network, (4) refinery locations labelled as field-based or market-based, (5) major consumption centres (metros, industrial clusters), (6) legend, scale, and north arrow. A poor answer misses the pipeline network or fails to distinguish refinery types, showing incomplete synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

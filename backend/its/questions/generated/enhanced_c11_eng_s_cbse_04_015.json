@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_04_015",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_04_015",
+   "title": "c11_eng_s_cbse_04_015",
+   "questions": [
+    {
+     "q": "What are the three discussion questions explicitly given at the end of the chapter \"Birth\" in the NCERT textbook?",
+     "a": "The three questions are: (1) \"I have done something; oh, God! I've done something real at last.\" Why does Andrew say this? What does it mean? (2) There lies a great difference between textbook medicine and the world of a practising physician. Discuss. (3) Do you know of any incident when someone has been brought back to life from the brink of death through medical help? Discuss medical procedures such as organ transplant and organ regeneration that are used to save human life. A wrong answer (e.g., listing themes instead of questions) reveals the student has not distinguished between the textbook's explicit discussion prompts and general thematic topics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the central conflict in Discussion Question 2: \"There lies a great difference between textbook medicine and the world of a practising physician.\"",
+     "a": "The conflict is between the controlled, predictable knowledge learned in medical school (textbook medicine) and the chaotic, high-stakes, emotionally charged reality of treating actual patients where decisions must be made instantly with incomplete information and lives hang in the balance. A wrong answer that only defines \"textbook medicine\" as \"theory\" and \"practice\" as \"real life\" without linking to Andrew's specific dilemma (choosing between mother and child, using an untested resuscitation method) shows superficial comprehension without textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Discussion Question 1 to a specific moment in the story: Choose the exact paragraph where Andrew says \"I've done something real at last\" and explain what \"real\" contrasts with in his earlier experience that same night.",
+     "a": "The statement occurs in the final paragraph as Andrew walks with miners. \"Real\" contrasts with his earlier \"dismal failures\" of marriage he witnessed (Bramwell, Page, Denny) and his own \"confused\" state where his \"level, doubting mind\" clashed with his \"overflowing heart\" for Christine. The successful delivery—saving both mother and child against odds—gave him tangible proof that his medical skill creates life, unlike the emotional failures he brooded over. A wrong answer that only says \"he saved a baby\" misses the contrast with his internal crisis about marriage and purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the story's setting (Welsh mining town, midnight call, oil-lit bedroom, kitchen fire) shapes the discussion in Question 2 about textbook vs. practice. Give two specific ways the setting forces deviations from textbook procedure.",
+     "a": "1) The isolated, poorly furnished bedroom with only an oil lamp and no modern equipment forces Andrew to improvise resuscitation (hot/cold water basins, blankets) instead of using hospital protocols. 2) The presence of the anxious father pacing outside, the watchful grandmother, and the skeptical midwife creates social pressure absent in textbook cases, compelling Andrew to persist beyond the point a textbook would declare the child stillborn. A weak answer describes the setting atmospherically without linking physical/social constraints to medical decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the ethical implication of Andrew's choice to prioritize the mother (Susan Morgan) over the apparently lifeless child. Was this the \"correct\" medical decision? Justify using the text and medical ethics principles.",
+     "a": "Andrew's choice aligns with the principle of saving the viable life first: the mother was \"collapsed, almost pulseless\" and \"not yet out of the ether,\" making her the patient with a chance of survival, while the child showed \"asphyxia, pallida\" with no breath after delivery. The text shows he \"did not solve it consciously... blindly, instinctively\" gave the child to the nurse and turned to the mother. Ethically, this follows triage: maximize lives saved. A wrong answer that calls it \"wrong because the baby died\" ignores that the baby was clinically dead and the mother would likely have died without immediate intervention, resulting in two deaths.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fourth discussion question for this chapter that connects Andrew's experience to a contemporary issue in medical ethics (e.g., AI diagnostics, telemedicine, resource allocation). Write the question and a 2-sentence rationale for why it deepens the chapter's relevance.",
+     "a": "Question: \"Andrew relies on a remembered case from the Samaritan and his own instinct when technology fails. In an era of AI-assisted diagnosis and protocol-driven medicine, what is the role of a physician's intuitive judgment when algorithms recommend a different course?\" Rationale: This extends Question 2's textbook-vs-practice tension to modern human-vs-machine decision-making, asking whether the \"real\" medicine Andrew values—adaptive, experiential, human—can coexist with standardized digital protocols. A poor question would be generic (\"Is technology good?\") without tying to Andrew's specific use of memory and improvisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

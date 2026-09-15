@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_006",
+   "title": "c11_eco_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define 'informal sector establishment' as per the NCERT classification used in Indian official statistics.",
+     "a": "An informal sector establishment is any private enterprise employing less than 10 hired workers (or any enterprise not in the public sector). All workers in such enterprises, plus all self-employed without hired workers, and all casual wage labourers working for multiple employers, constitute the informal sector workforce. A wrong answer (e.g., \"unregistered businesses\" or \"enterprises without GST\") reveals confusion between legal registration and the statistical definition based on employment size.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the textbook state that casualisation of workforce makes workers 'highly vulnerable'? Explain the mechanism linking casual employment to loss of social security.",
+     "a": "Casual workers are hired day-to-day without continuous employment contracts. Labour laws (EPF Act, ESI Act, Gratuity Act) apply only when an employment relationship of specified duration (e.g., 240 days for gratuity) or regularity exists. Casualisation breaks this continuity, excluding workers from mandatory social security. A wrong answer focusing only on \"low wages\" misses the structural legal exclusion: even a well-paid casual worker lacks PF/pension because the employer has no statutory obligation.",
+     "self_check": true
+    },
+    {
+     "q": "In 2019-20, India's total workforce was 535 million with 59 million formal sector workers. Calculate the informal sector workforce share. If the workforce grows to 560 million by 2023-24 with formal sector growing at 2% annually, estimate the new informal share.",
+     "a": "Step 1: 2019-20 informal = 535 - 59 = 476 million. Share = 476/535 × 100 = 88.97% ≈ 89%. Step 2: Formal sector 2023-24 = 59 × (1.02)^4 ≈ 59 × 1.0824 ≈ 63.86 million. Step 3: Informal 2023-24 = 560 - 63.86 = 496.14 million. Share = 496.14/560 × 100 = 88.59%. A wrong answer using linear growth or ignoring compounding reveals inability to handle demographic projections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the vulnerability of three workers: (A) a self-employed handloom weaver, (B) a casual construction worker, (C) a regular salaried employee in a 15-worker private firm. Rank them by access to (i) maternity benefit, (ii) old-age pension, (iii) protection against arbitrary dismissal. Justify using legal thresholds.",
+     "a": "Most vulnerable to least: B > A > C. (i) Maternity Benefit Act applies to establishments with ≥10 workers: C covered, A and B not. (ii) EPF/Pension: C covered (firm ≥10), A and B excluded (no employer). (iii) Industrial Disputes Act protection: C covered (workman definition), B excluded (casual), A excluded (self-employed). A wrong ranking (e.g., A > B) ignores that casual workers have zero employer linkage while self-employed at least control their enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The decline in formal sector employment share from 11% to 8% would indicate worsening worker welfare, even if average informal wages rise.\" Consider social security, income volatility, and bargaining power.",
+     "a": "The statement is largely correct. Formal sector provides legally mandated social security (PF, ESI, gratuity) which acts as insurance against health/old-age shocks — a rise in informal wages doesn't replace this institutional protection. Income volatility: casual informal workers face daily wage uncertainty; formal workers have monthly contracts. Bargaining power: formal workers can unionise; informal workers are fragmented. However, if informal wages rise substantially above formal wages (compensating differential), welfare could improve for some. A one-sided answer ignoring compensating differentials shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical case study of a 35-year-old worker transitioning from a formal textile mill (permanent, 200 workers) to informal sector after mill closure. Describe his new work arrangement, list 4 specific vulnerabilities he newly faces, and suggest 2 government schemes that could partially mitigate each vulnerability.",
+     "a": "Case: Ahmedabad mill worker (from Box 6.2) becomes casual construction worker. Vulnerabilities: (1) No PF → no retirement corpus; mitigation: PM-SYM (Pradhan Mantri Shram Yogi Maandhan) for pension. (2) No ESI → health shock risk; mitigation: Ayushman Bharat PM-JAY. (3) No maternity benefit → wife's delivery costs; mitigation: PMMVY (Pradhan Mantri Matru Vandana Yojana). (4) Arbitrary dismissal → income loss; mitigation: MGNREGA (100 days guaranteed work). A poor answer lists generic schemes without mapping to specific vulnerabilities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

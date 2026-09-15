@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_006",
+   "title": "c12_geo_cbse_01_006",
+   "questions": [
+    {
+     "q": "State the three colours in Griffith Taylor's traffic-light analogy and what each colour represents in human-environment interaction.",
+     "a": "Correct answer: Red = stop (environmental limits that must not be crossed, e.g., carrying capacity, fragile ecosystems); Amber = get set (caution, preparation, assessment of environmental thresholds); Green = go (possibilities for development within sustainable limits, e.g., renewable resource use, appropriate technology). A wrong answer (e.g., \"red means danger, green means safe\") reveals the student memorised colours but missed the geographical meaning: red is not just \"danger\" but **absolute environmental constraints** (like permafrost melting point), and green is not \"unlimited freedom\" but **conditional permission** bounded by those constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Griffith Taylor propose neo-determinism as a \"middle path\" (Madhyam Marg) between environmental determinism and possibilism? Explain using the role of technology in each school.",
+     "a": "Correct answer: Determinism (Ratzel, Semple) saw technology as negligible — humans were passive agents of nature. Possibilism (Vidal de la Blache) saw technology as liberating — humans could overcome any environmental constraint. Taylor argued both are empirically false: technology expands possibilities but cannot override fundamental planetary boundaries (thermodynamics, biogeochemical cycles). Neo-determinism positions technology as a **tool to identify and operate within green-light zones**, not to ignore red lights. A wrong answer claiming \"Taylor just compromised\" misses the **epistemological shift**: Taylor introduced the concept of **environmental thresholds** (later formalised as planetary boundaries by Rockström et al., 2009), making it a scientific middle path, not a philosophical compromise.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: The Narmada Valley Development Project involves large dams, canal networks, and resettlement. Using neo-determinism, identify ONE \"red light\" (environmental limit), ONE \"amber light\" (cautionary assessment), and ONE \"green light\" (sustainable possibility) for this project.",
+     "a": "Correct answer with reasoning:\n- **Red light**: Submergence of prime forests in the Narmada basin violating the ecological carrying capacity of the Western Satpura corridor — this is a hard biophysical limit (biodiversity loss, fragmentation of tiger habitat).\n- **Amber light**: Comprehensive cumulative impact assessment of all 30+ dams on sediment flux to the Gulf of Khambhat, salinity ingress, and downstream fisheries — a mandatory pause for scientific evaluation before further construction.\n- **Green light**: Decentralised small check-dams, watershed management, and drip irrigation in the command area using Narmada water within the basin's regenerative capacity — development that obeys the \"green\" signal.\nA wrong answer listing \"displacement of people\" as a red light confuses **social** limits with **environmental** limits; neo-determinism's traffic lights refer specifically to **physical/ecological boundaries**, though Taylor acknowledged social consequences follow ecological overshoot.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the 2013 Kedarnath disaster and the success of Indira Gandhi Canal in Rajasthan through the neo-determinist framework. What does each case reveal about \"obeying\" vs. \"ignoring\" red lights?",
+     "a": "Correct analysis:\n- **Kedarnath 2013**: Unregulated tourism infrastructure, hydro-projects, and road-building in a **glacial lake outburst flood (GLOF) zone** and **seismic zone V** ignored multiple red lights (fragile Himalayan geology, extreme precipitation thresholds). The disaster was nature enforcing its \"stop\" signal.\n- **Indira Gandhi Canal (Phase I)**: Brought Sutlej-Beas water to Thar Desert **within the aquifer's recharge capacity**, using lined canals to prevent waterlogging, enabling sustainable agriculture (wheat, cotton, citrus) — a green-light development respecting the **arid zone's carrying capacity**.\n- **Contrast**: Kedarnath treated the Himalaya as a possibilist \"blank slate\" for exploitation; the Canal treated the Thar as a neo-determinist \"constrained opportunity.\" The key insight: **red lights are non-negotiable biophysical thresholds; green lights are context-specific, technology-mediated possibilities.** A weak answer merely describes the events without mapping them to the traffic-light logic.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: \"Neo-determinism is just environmental determinism repackaged for the climate-change era.\" Critique this statement using Griffith Taylor's original 1920s context and the NCERT text's reference to greenhouse effect and ozone depletion.",
+     "a": "Correct evaluation: The statement is **false**. Taylor (1920s) formulated neo-determinism **before** anthropogenic climate change was recognised — his concern was **agricultural limits in Australia's arid interior** and **population-resource balance**. He explicitly rejected determinism's \"nature controls everything\" by granting humans **agency within limits** (the green light). The NCERT text cites greenhouse effect, ozone depletion, and receding glaciers as **consequences of ignoring red lights during the \"free run\" of developed economies** — i.e., possibilist overreach. Neo-determinism **anticipated** these crises by insisting on limits; it did not emerge from them. A student calling it \"repackaged determinism\" fails to see that **human agency is central to Taylor's green light** — we *choose* which possibilities to pursue within boundaries, unlike determinism where nature chooses for us.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Design a neo-determinist land-use plan for a 500-ha coastal zone in Odisha prone to cyclones, storm surges, and saline intrusion. Specify: (a) Red-light zones (no development), (b) Amber-light zones (conditional use with safeguards), (c) Green-light zones (sustainable activities), and (d) The monitoring indicator for each.",
+     "a": "Expected criteria for a good answer:\n- **Red-light**: Mangrove belts (min 500m width), turtle nesting beaches, intertidal mudflats — **no construction, no aquaculture ponds**. Indicator: Mangrove canopy cover ≥ 70% (satellite monitoring).\n- **Amber-light**: Elevated land 2-5m above mean sea level — **cyclone shelters, salt-tolerant horticulture (coconut, cashew), controlled eco-tourism** with mandatory evacuation routes. Indicator: Storm-surge inundation model updated annually; land-use compliance audit.\n- **Green-light**: Inland areas >5km from coast with freshwater aquifers — **integrated farming (rice-fish-poultry), solar farms, skill-training centres**. Indicator: Groundwater salinity < 2 dS/m; household income diversity index.\n- **Poor answer reveals**: Treating the entire zone as green light (possibilism), or banning all use (determinism), or missing **quantitative, monitorable indicators** — neo-determinism requires **measurable thresholds**, not vague \"protection.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

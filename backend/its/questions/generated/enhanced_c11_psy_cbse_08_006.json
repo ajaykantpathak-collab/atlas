@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_006",
+   "title": "c11_psy_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the core sequence of events proposed by the James-Lange theory of emotion in response to an emotion-arousing stimulus.",
+     "a": "Correct answer: Stimulus → Physiological arousal (bodily changes) → Perception/interpretation of that arousal → Subjective emotional experience. A wrong answer that reverses the order (e.g., \"emotion causes physiology\") reveals the student has not grasped the theory's counter-intuitive claim that we feel afraid *because* we run, not the other way around. Another error is omitting the perception step, which shows confusion with simple reflex arcs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Cannon and Bard argued that the thalamus plays a critical role in emotional experience, and how this differs from James-Lange's view of the brain's role.",
+     "a": "Correct answer: Cannon-Bard proposed the thalamus receives the stimulus and simultaneously sends signals to the cortex (producing subjective emotion) and to the autonomic nervous system (producing physiological arousal). James-Lange did not specify a central relay; they assumed the cortex simply perceives feedback from the body. A wrong answer that says \"thalamus creates emotion\" without mentioning simultaneous signaling shows incomplete understanding. Saying \"thalamus is where James-Lange said perception happens\" confuses the two theories.",
+     "self_check": true
+    },
+    {
+     "q": "A student sees a growling dog and immediately feels fear while their heart rate increases. Using the Cannon-Bard theory, describe the exact pathway from stimulus to both the feeling and the physiological response. Then state one specific physiological evidence Cannon used to refute James-Lange.",
+     "a": "Correct answer: Stimulus (growling dog) → Thalamus → simultaneously (a) Cortex → subjective fear, and (b) Autonomic nervous system → increased heart rate. Cannon's evidence: (1) Total separation of viscera from CNS in animals did not eliminate emotional behavior; (2) Same physiological changes occur in different emotions (e.g., fear and anger both increase heart rate); (3) Visceral changes are too slow to be the source of emotion. A wrong answer that sequences the events (thalamus → cortex → body) or cites \"thalamus stores emotional memories\" reveals misunderstanding of simultaneity and Cannon's actual experimental critiques.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the predictions of James-Lange and Cannon-Bard for a person who has a spinal cord injury that blocks visceral feedback from reaching the brain. Which theory predicts a reduction in emotional intensity, and why?",
+     "a": "Correct answer: James-Lange predicts reduced emotional intensity because the brain cannot perceive the physiological arousal that constitutes the emotion. Cannon-Bard predicts no reduction because emotion is generated independently in the cortex/thalamus, not dependent on bodily feedback. A wrong answer that says both predict reduction shows failure to distinguish the causal role of physiology. Saying Cannon-Bard predicts *increased* emotion reveals confusion about the theory's independence claim.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The James-Lange theory is completely wrong because modern research shows emotions can occur without physiological arousal.\" Evaluate this claim using evidence from both theories and modern findings (e.g., spinal cord injury studies, facial feedback).",
+     "a": "Correct answer: The statement is an overgeneralization. While Cannon-Bard's critiques (e.g., similar arousal for different emotions) and spinal cord injury studies (showing some emotions persist) challenge James-Lange's strong claim that physiology is *necessary and sufficient*, later research (e.g., facial feedback hypothesis, Schachter-Singer) supports a *modulatory* role of physiology. James-Lange is not \"completely wrong\" but incomplete; it correctly identified that bodily feedback influences emotional intensity. A wrong answer that simply agrees (\"yes, it's wrong\") or disagrees (\"no, it's right\") without nuance fails to evaluate the historical and empirical context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment (with independent variable, dependent variable, and control condition) that could differentiate between James-Lange and Cannon-Bard predictions for the emotion of disgust. Briefly describe the expected results under each theory.",
+     "a": "Correct answer: IV: Induce physiological arousal pattern specific to disgust (e.g., via gastric stimulation or nausea-inducing drug) vs. neutral condition. DV: Self-reported disgust intensity. Control: Placebo injection. James-Lange predicts: Arousal group reports stronger disgust than control. Cannon-Bard predicts: No difference in disgust reports because arousal alone cannot produce the specific emotion without the stimulus/threat appraisal. A poor answer that uses \"fear\" instead of disgust, omits a control group, or predicts both theories expect the same result shows inability to operationalize the theoretical distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

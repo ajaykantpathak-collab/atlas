@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_011",
+   "title": "c12_geo_cbse_07_011",
+   "questions": [
+    {
+     "q": "Name the three categories of service-sector activities in ascending order of knowledge intensity and decision-making authority, and give one typical occupation for each.",
+     "a": "Correct answer: Tertiary (e.g., retail salesperson), Quaternary (e.g., software architect), Quinary (e.g., CEO of a multinational corporation). A wrong answer that reverses the order or assigns a tertiary job like \"truck driver\" to quaternary reveals the student conflates all services as homogeneous and misses the knowledge-intensity hierarchy central to the NCERT classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a data scientist working on predictive analytics for an e-commerce firm is classified under quaternary activities, while the firm's chief strategy officer setting long-term market-entry decisions falls under quinary activities.",
+     "a": "Correct answer: The data scientist applies specialised analytical knowledge to solve defined problems (knowledge-intensive execution) — quaternary; the CSO makes irreversible, organisation-wide strategic choices under uncertainty (highest decision authority) — quinary. A wrong answer that places both in quaternary because \"both use data\" shows the student misses the distinction between expert analysis (quaternary) and ultimate judgement/leadership (quinary).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following workforce distribution for a hypothetical developed economy: Primary 3%, Secondary 22%, Tertiary 55%, Quaternary 17%, Quinary 3%. Calculate the combined service-sector share and determine whether the quaternary+quinary share exceeds 15% of total employment.",
+     "a": "Step 1: Combined service share = 55% + 17% + 3% = 75%. Step 2: Quaternary + Quinary = 17% + 3% = 20%. Step 3: 20% > 15%, so yes, it exceeds 15%. A wrong answer adding only tertiary (55%) or miscalculating 17+3=18% reveals the student cannot disaggregate the service sector into its three sub-categories — a critical skill for interpreting structural transformation data in board and CUET questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational patterns of tertiary, quaternary, and quinary activities in India. Why do quaternary activities cluster in Bengaluru, Hyderabad, and Pune, while quinary activities concentrate in Delhi-NCR and Mumbai?",
+     "a": "Correct answer: Tertiary activities (retail, healthcare, transport) follow population density — ubiquitous across towns. Quaternary activities (IT, R&D, finance) cluster where specialised talent pools, universities, and digital infrastructure exist — Bengaluru/Hyderabad/Pune. Quinary activities (corporate HQs, ministries, apex regulatory bodies) concentrate in political-administrative capital (Delhi) and financial capital (Mumbai) where decision-making power resides. A wrong answer attributing all clustering to \"infrastructure\" misses the distinct agglomeration logics: talent access vs. power access.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's demographic dividend will be realised only if the workforce transitions from tertiary to quaternary and quinary activities.\" Provide two arguments for and one limitation.",
+     "a": "For: (1) Higher value-added per worker in quaternary/quinary raises incomes and tax base. (2) Knowledge-intensive jobs are less vulnerable to automation than routine tertiary services. Limitation: Quaternary/quinary roles require advanced education — only ~12% of India's workforce has tertiary education (NSSO 2022-23), so a rapid shift excludes the majority. A wrong answer that only lists benefits without the education-constraint limitation shows inability to evaluate structural feasibility — a key competency in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-tier urban policy framework for a state government aiming to promote quaternary and quinary activity growth in its tier-2 cities (e.g., Indore, Coimbatore, Kochi). Specify one intervention per tier.",
+     "a": "Expected answer: Tier 1 (Tertiary foundation) — Upgrade last-mile logistics, healthcare, and retail to support quality of life. Tier 2 (Quaternary engine) — Establish a sector-specific Centre of Excellence (e.g., Agri-tech in Indore, Med-tech in Coimbatore) linked to local universities. Tier 3 (Quinary anchor) — Attract a corporate regional HQ or regulatory regional office via tax incentives and governance reforms. A poor answer proposing only \"build IT parks\" for all tiers reveals failure to differentiate the distinct infrastructure, talent, and governance needs of each activity tier.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

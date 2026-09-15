@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_004",
+   "title": "c12_hs_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define Biological Value (BV) and Net Protein Utilization (NPU) and state the relationship between them.",
+     "a": "BV = (Nitrogen retained / Nitrogen absorbed) × 100; NPU = (Nitrogen retained / Nitrogen intake) × 100. Since absorbed nitrogen ≤ intake nitrogen, BV ≥ NPU always. A wrong answer that swaps the denominators or claims NPU > BV reveals confusion between absorption and intake steps in nitrogen metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Plant proteins are always incomplete and animal proteins are always complete.\" Explain why this statement is incorrect using two specific counterexamples.",
+     "a": "Soy protein (plant) is complete (contains all essential amino acids in adequate proportions), while gelatin (animal) is incomplete (lacks tryptophan). The error arises from overgeneralising source-based classification; completeness depends on amino acid profile, not source alone. A wrong answer that repeats the statement shows lack of nuance in nutritional quality assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate BV and NPU for a subject who consumed 20g protein (16% nitrogen), absorbed 15g protein equivalent, and retained 12g protein equivalent. Show all steps.",
+     "a": "Step 1: Convert protein to nitrogen: Intake N = 20g × 0.16 = 3.2g N. Absorbed N = 15g × 0.16 = 2.4g N. Retained N = 12g × 0.16 = 1.92g N.\nStep 2: BV = (1.92 / 2.4) × 100 = 80%. NPU = (1.92 / 3.2) × 100 = 60%.\nStep 3: Verify BV > NPU (80% > 60%). A wrong answer that forgets the 16% conversion factor or uses protein grams directly in the formula reveals misunderstanding of nitrogen as the measured unit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protein quality of a diet providing 60% protein from cereals and 40% from pulses versus a diet providing 100% protein from milk, using the concept of mutual supplementation and BV.",
+     "a": "Cereals are lysine-deficient but methionine-rich; pulses are methionine-deficient but lysine-rich. Together they complement each other, raising the combined BV closer to milk (BV ~90%). Milk alone has high BV (~90%) due to complete amino acid profile. The cereal-pulse blend (typical Indian diet) can achieve BV ~70-75% after supplementation. A wrong answer that claims cereal-pulse blend equals milk BV ignores limiting amino acid kinetics and digestibility differences.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the use of BV alone for evaluating protein quality in a weight-loss diet where energy intake is restricted.",
+     "a": "BV measures nitrogen retention when protein is the sole nitrogen source and energy is adequate. Under energy restriction, protein is diverted for gluconeogenesis, lowering nitrogen retention artificially; thus BV underestimates true protein quality. NPU or PER under controlled energy conditions is more appropriate. A wrong answer that says BV is always reliable ignores the energy-protein interaction, a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 60 kg adolescent (protein requirement 1g/kg) that achieves at least 70% BV through mutual supplementation. List foods, protein grams, and explain the supplementation logic.",
+     "a": "Menu: Breakfast – 2 idli (4g) + sambar (3g) = 7g (rice + urad dal); Lunch – 2 chapati (6g) + 1 katori rajma (7g) = 13g (wheat + kidney bean); Snack – 1 glass soy milk (7g); Dinner – 1 katori khichdi (rice+moong dal, 8g) + curd (4g) = 12g. Total = 39g protein (target 60g, but demonstrates principle). Supplementation: cereal (lysine-low) + pulse (methionine-low) at each meal; soy milk and curd add complete proteins. A poor answer that lists only cereals or only pulses shows failure to apply mutual supplementation concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

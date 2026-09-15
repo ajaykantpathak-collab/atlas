@@ -1,0 +1,142 @@
+# node_mapping_maths_c12.yaml
+# Maps each of the 109 CISCE ISC Class 12 Mathematics node IDs to problem types.
+# Node IDs: c12_math_001 through c12_math_109
+
+c12_math_001: relation_reflexive_symmetric_transitive
+c12_math_002: relation_reflexive_symmetric_transitive
+c12_math_003: relation_reflexive_symmetric_transitive
+c12_math_004: equivalence_relation_real_world
+c12_math_005: relation_inverse
+c12_math_006: relation_inverse
+c12_math_007: relation_inverse
+c12_math_008: composite_function
+c12_math_009: composite_function
+c12_math_010: function_type_check
+c12_math_011: function_type_check
+c12_math_012: function_type_check
+
+# Algebra — Matrices
+c12_math_013: matrix_transpose
+c12_math_014: matrix_transpose
+c12_math_015: matrix_transpose
+c12_math_016: matrix_symmetric_skew
+c12_math_017: matrix_symmetric_skew
+c12_math_018: matrix_symmetric_skew
+c12_math_019: matrix_operation
+c12_math_020: matrix_operation
+c12_math_021: matrix_operation
+c12_math_022: matrix_determinant
+c12_math_023: matrix_determinant
+c12_math_024: matrix_determinant
+c12_math_025: matrix_inverse
+c12_math_026: matrix_inverse
+c12_math_027: matrix_rank
+c12_math_028: matrix_rank
+c12_math_029: matrix_profit_calculation
+c12_math_030: matrix_profit_calculation
+
+# Algebra — Determinants
+c12_math_031: determinant_properties
+c12_math_032: determinant_properties
+c12_math_033: determinant_properties
+c12_math_034: cramers_rule
+c12_math_035: cramers_rule
+c12_math_036: cramers_rule
+
+# Calculus — Continuity & Differentiability
+c12_math_037: continuity_check
+c12_math_038: continuity_check
+c12_math_039: continuity_check
+c12_math_040: continuity_piecewise
+c12_math_041: continuity_piecewise
+c12_math_042: continuity_piecewise
+c12_math_043: differentiation
+c12_math_044: differentiation
+c12_math_045: differentiation
+c12_math_046: second_derivative
+c12_math_047: second_derivative
+c12_math_048: logarithmic_diff
+c12_math_049: parametric_diff
+c12_math_050: implicit_diff
+c12_math_051: implicit_diff
+c12_math_052: logarithmic_diff
+
+# Calculus — Rolle's & LMVT
+c12_math_053: rolles_theorem
+c12_math_054: rolles_theorem
+c12_math_055: rolles_theorem
+c12_math_056: lagrange_mvt
+c12_math_057: lagrange_mvt
+c12_math_058: lagrange_mvt
+c12_math_059: competency_mvt_physics
+c12_math_060: competency_mvt_physics
+
+# Calculus — Maxima & Minima
+c12_math_061: maxima_minima
+c12_math_062: maxima_minima
+c12_math_063: maxima_minima
+c12_math_064: competency_business_profit
+c12_math_065: competency_business_profit
+c12_math_066: competency_business_profit
+
+# Calculus — Integration
+c12_math_067: indefinite_integral
+c12_math_068: indefinite_integral
+c12_math_069: indefinite_integral
+c12_math_070: definite_integral
+c12_math_071: definite_integral
+c12_math_072: definite_integral
+c12_math_073: definite_integral
+c12_math_074: area_under_curve
+c12_math_075: area_under_curve
+c12_math_076: area_under_curve
+c12_math_077: competency_railway_distance
+c12_math_078: competency_railway_distance
+c12_math_079: competency_geometry_pollution
+c12_math_080: case_study_integration
+
+# Calculus — Differential Equations
+c12_math_081: de_separable
+c12_math_082: de_separable
+c12_math_083: de_separable
+c12_math_084: de_homogeneous
+c12_math_085: de_homogeneous
+c12_math_086: de_linear
+c12_math_087: de_linear
+c12_math_088: competency_population_growth
+c12_math_089: case_study_differential_eq
+c12_math_090: competency_population_growth
+
+# Vectors
+c12_math_091: vector_dot_product
+c12_math_092: vector_dot_product
+c12_math_093: vector_cross_product
+c12_math_094: vector_cross_product
+c12_math_095: scalar_triple_product
+c12_math_096: scalar_triple_product
+c12_math_097: direction_cosines
+c12_math_098: direction_cosines
+c12_math_099: competency_vectors_displacement
+c12_math_100: multi_step_vectors_probability
+
+# 3D Geometry
+c12_math_101: line_in_space
+c12_math_102: line_in_space
+c12_math_103: plane_equation
+c12_math_104: plane_equation
+c12_math_105: distance_point_plane
+c12_math_106: distance_point_plane
+c12_math_107: angle_between_lines
+c12_math_108: angle_line_plane
+c12_math_109: multi_step_3d_geometry
+
+# Note: c12_math_109 covers shortest_distance_lines, coplanar_lines, angle_between_lines,
+# angle_line_plane, and multi-step 3D geometry through problem variants in the question generator.
+# All 109 nodes are mapped above. The question generator creates sub-variants for nodes
+# that reference the same problem_type but need different formulations.
+
+# Additional 3D geometry nodes (not separately numbered but generated as variants):
+# - coplanar_lines → routed through multi_step_3d_geometry
+# - shortest_distance_lines → routed through multi_step_3d_geometry
+# - angle_between_lines → routed through angle_between_lines
+# - angle_line_plane → routed through angle_line_plane

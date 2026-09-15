@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_08_009",
+   "title": "c11_hin_ar_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define verbal irony and situational irony in your own words, giving one original example for each (not from the textbook).",
+     "a": "Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying \"Great job!\" when someone drops a tray). Situational irony occurs when the outcome of a situation is the opposite of what was expected (e.g., a fire station burning down). A wrong answer that confuses the two or gives only definitions without examples reveals the student cannot distinguish the mechanism (speaker's intent vs. circumstance) — a critical gap for board answers requiring precise terminology.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, Nehru asks villagers \"Who is Bharat Mata?\" and a farmer replies \"dharti se.\" Explain why this exchange is an example of situational irony, not verbal irony.",
+     "a": "The irony is situational because the *outcome* of Nehru's question — a simple farmer giving the profound answer that the intellectual elite missed — contradicts the *expectation* that educated audiences would understand the nation better. It is not verbal irony because neither speaker is saying the opposite of what they mean; both are sincere. A student who labels it verbal irony misunderstands that situational irony arises from circumstance, not tone.",
+     "self_check": true
+    },
+    {
+     "q": "Identify one symbol in the passage \"Hkkjr ekrk njvly ;gh djksM+ksa yksx gSa\" and explain what abstract idea it represents, using the phrase \"concrete object stands for abstract concept\" in your answer.",
+     "a": "\"Bharat Mata\" (Mother India) is a concrete personification that stands for the abstract concept of the collective Indian citizenry — specifically the millions of ordinary people (\"djksM+ksa yksx\") whose lives constitute the nation. A wrong answer that says \"Bharat Mata symbolizes the country\" is too vague; board examiners require naming the *specific* abstract idea (the people, not the territory) and the *specific* concrete vehicle (the mother figure).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbolic function of \"mitti\" (soil/earth) in the farmer's answer with the symbolic function of \"Bharat Mata\" in Nehru's explanation. How do both symbols converge on the same theme?",
+     "a": "\"Mitti\" symbolizes the grounded, laboring reality of the peasantry — the physical foundation of the nation — while \"Bharat Mata\" symbolizes the living, breathing collective of all citizens. Both converge on the theme that the nation is not an abstract territory or a goddess but the *people themselves*, especially the humble majority. A student who treats them as separate symbols misses the textual strategy: Nehru uses the farmer's concrete symbol to validate his own abstract one.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the dramatic irony in the chapter — where the British rulers claim to govern for Indians while exploiting them — strengthens or weakens Nehru's argument for national unity. Justify with two textual references.",
+     "a": "It strengthens the argument because the shared experience of exploitation (text: \"fons'kh ljdkj us ge ij ykn j[kk Fkk\") creates a common identity across religious, regional, and class lines (text: \"lHkh txg fdlku eq>ls ,d&ls loky djrs\"). The dramatic irony — the audience (readers) knows the British claim is false while the colonizers pretend otherwise — exposes the artificiality of colonial rule and makes organic unity more compelling. A student who says \"it weakens unity because it shows division\" confuses colonial division with the *response* to it.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza for a poem titled \"Bharat Mata\" that uses *one* symbol from the chapter and *one* type of irony to convey the idea that the nation lives in its people, not its monuments.",
+     "a": "*Stone lions guard the gate in vain, (symbol: stone lions = hollow monuments)\nThe mother walks the dusty lane, (symbol: dusty lane = common life)\nShe wears no crown, she bears no sword, (irony: expected regal imagery absent)\nHer strength is in the sweat outpoured.* (symbol: sweat = labor of the people)\nA poor answer uses only symbols without irony, or uses clichés (\"flag,\" \"anthem\") not grounded in the chapter's specific imagery (mitti, khet, mazdoor).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_009",
+   "title": "c11_psy_cbse_02_009",
+   "questions": [
+    {
+     "q": "A psychology researcher collects data on \"number of hours spent on social media per day\" from 50 adolescents. The raw scores range from 0 to 8 hours. What is the FIRST step the researcher should take before calculating any descriptive statistics?",
+     "a": "The first step is organizing raw data into a frequency distribution (grouped or ungrouped frequency table). A wrong answer like \"calculate the mean immediately\" reveals the student doesn't understand that descriptive statistics requires organized data; you cannot meaningfully compute central tendency or variability from unorganized raw scores without first checking for errors, outliers, and distribution shape.",
+     "self_check": true
+    },
+    {
+     "q": "In a study on \"exam anxiety scores\" (measured on a 0-100 scale), the distribution is positively skewed (long tail towards higher anxiety). The mean anxiety score is 68, median is 62, and mode is 55. Which measure of central tendency best represents the \"typical\" anxiety level, and WHY?",
+     "a": "The median (62) best represents the typical score because in a positively skewed distribution, the mean is pulled toward the tail (higher scores) by extreme values, making it artificially high. The mode represents only the most frequent score, not the center. A wrong answer choosing \"mean\" reveals the misconception that mean is always the best average, ignoring how skewness distorts it — a critical error in psychological data where skewed distributions are common (e.g., reaction times, anxiety scores).",
+     "self_check": true
+    },
+    {
+     "q": "Two groups of students (Group A: n=15, Group B: n=15) take a creativity test. Group A: Mean=72, SD=8. Group B: Mean=72, SD=18. A student concludes \"both groups have equal creativity because means are identical.\" Evaluate this conclusion.",
+     "a": "The conclusion is incorrect. While central tendency is identical, Group B's higher SD (18 vs 8) indicates much greater variability — some students score very high, others very low. Group A is homogeneous; Group B is heterogeneous. A wrong answer accepting the conclusion reveals the misconception that mean alone describes a distribution, ignoring that variability is equally critical in psychology (e.g., clinical populations often show high variability).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher computes standard deviation for \"reaction time in milliseconds\" data and gets SD = -4.2 ms. Without recalculating, explain why this is impossible and what error the researcher likely made.",
+     "a": "Standard deviation cannot be negative because it is the square root of variance (average of squared deviations), and squared values are always non-negative. The researcher likely forgot to take the square root after computing variance, or made a sign error in deviation calculations. A wrong answer like \"SD can be negative if data is below mean\" reveals fundamental misunderstanding that SD measures spread (distance), not direction.",
+     "self_check": true
+    },
+    {
+     "q": "You have \"type of therapy received\" data (CBT, Psychoanalysis, Humanistic, None) for 100 patients. Which measure of central tendency is appropriate? Which measure of variability? Justify both choices.",
+     "a": "Appropriate central tendency: Mode (only measure for nominal data). Appropriate variability: None / Index of Qualitative Variation (IQV) — range, quartile deviation, SD require at least ordinal data. A wrong answer suggesting \"mean\" or \"median\" reveals the misconception that all data types can use the same statistics, ignoring measurement scale hierarchy (nominal < ordinal < interval < ratio) which determines permissible operations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small psychological dataset (n=10) for \"stress level (1-10 scale)\" where: (a) Mean > Median > Mode, (b) Range = 7, (c) The data shows positive skew. List the 10 scores and verify all three conditions.",
+     "a": "Example dataset: 2, 3, 3, 4, 4, 5, 5, 6, 8, 9. Verification: Mode=3 & 4 (bimodal, take lower=3), Median=(4+5)/2=4.5, Mean=49/10=4.9 → Mean(4.9) > Median(4.5) > Mode(3). Range=9-2=7. Positive skew confirmed (tail toward higher values). A poor answer with symmetric data or mean<median reveals inability to construct data matching distributional properties — a key skill for understanding how statistics reflect psychological phenomena.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

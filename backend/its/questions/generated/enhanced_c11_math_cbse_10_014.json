@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_014",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_014",
+   "title": "c11_math_cbse_10_014",
+   "questions": [
+    {
+     "q": "State the formula for the perpendicular distance from a point \\((x_1, y_1)\\) to the line \\(Ax + By + C = 0\\). What condition must \\(A\\) and \\(B\\) satisfy?",
+     "a": "The formula is \\(d = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}\\). \\(A\\) and \\(B\\) cannot both be zero because then the equation would not represent a line. If a student writes the formula without absolute value or forgets the square root in the denominator, they have a fundamental recall error and will get negative distances or dimensionally incorrect answers.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the distance from \\(P(2, -1)\\) to the line \\(3x - 4y = 12\\) as follows: \\(d = \\frac{|3(2) - 4(-1) - 12|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|6 + 4 - 12|}{5} = \\frac{2}{5}\\). Is this correct? Explain why or why not.",
+     "a": "The student's working is correct. The line \\(3x - 4y = 12\\) is rewritten as \\(3x - 4y - 12 = 0\\), so \\(C = -12\\). Substitution yields numerator \\(|6 + 4 - 12| = 2\\), denominator \\(5\\), giving \\(d = 0.4\\). If a student instead uses \\(C = 12\\) (forgetting to move constant to LHS), they would get \\(|6+4+12|/5 = 22/5 = 4.4\\), which is wrong. This tests understanding that the formula requires the line in the form \\(Ax+By+C=0\\) with \\(C\\) on the left side.",
+     "self_check": true
+    },
+    {
+     "q": "Find the perpendicular distance from the point \\((-3, 2)\\) to the line \\(4x + 3y - 10 = 0\\). Show all steps.",
+     "a": "Step 1: Identify \\(A=4, B=3, C=-10\\), \\(x_1=-3, y_1=2\\). Step 2: Substitute: \\(d = \\frac{|4(-3) + 3(2) - 10|}{\\sqrt{4^2+3^2}}\\). Step 3: Numerator: \\(|-12 + 6 - 10| = |-16| = 16\\). Step 4: Denominator: \\(\\sqrt{16+9}=5\\). Step 5: \\(d = 16/5 = 3.2\\) units. A common error is sign mistakes in the numerator: e.g., computing \\(4(-3) + 3(2) + 10 = -12+6+10=4\\) (using \\(C=+10\\) instead of \\(-10\\)), giving \\(d=0.8\\). This reveals the student does not correctly identify \\(C\\) from the general form.",
+     "self_check": true
+    },
+    {
+     "q": "The line \\(L\\) is given in slope-intercept form as \\(y = 2x + 3\\). A student directly substitutes \\(A=2, B=1, C=3\\) into the distance formula for point \\((1,1)\\). Why is this incorrect? What should the correct \\(A, B, C\\) be?",
+     "a": "The formula requires the line in the form \\(Ax+By+C=0\\). The given line \\(y=2x+3\\) must be rearranged to \\(2x - y + 3 = 0\\) (or \\(-2x + y - 3 = 0\\)). Thus \\(A=2, B=-1, C=3\\) (or \\(A=-2, B=1, C=-3\\)). The student incorrectly took coefficients from the slope-intercept form without converting. This tests analytical understanding that the formula is derived for the general form, and the normal vector is \\((A,B)\\) from that form.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the distance from point \\(P(0,0)\\) to the line \\(x + y + 1 = 0\\) is \\(\\frac{1}{\\sqrt{2}}\\), but to the line \\(2x + 2y + 2 = 0\\) is \\(\\frac{2}{\\sqrt{8}} = \\frac{1}{\\sqrt{2}}\\). They argue that since the second line is just the first multiplied by 2, the distance should be the same. Evaluate this reasoning.",
+     "a": "The reasoning is correct. The distance formula uses \\(A,B,C\\) from the given equation, but if the entire equation is multiplied by a non-zero constant \\(k\\), the numerator becomes \\(|k(Ax_1+By_1+C)| = |k| \\cdot |Ax_1+By_1+C|\\) and the denominator becomes \\(\\sqrt{(kA)^2+(kB)^2} = |k|\\sqrt{A^2+B^2}\\). The factor \\(|k|\\) cancels, yielding the same distance. This shows the distance is a geometric property independent of the scaling of the equation. If a student says the distances are different because the coefficients changed, they fail to see the homogeneity of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where finding the distance from a point to a line is necessary. Define the coordinates, line equation, and ask for the distance. Then solve it.",
+     "a": "Example: A water pipeline runs along the line \\(2x - y + 4 = 0\\). A village centre is at \\(P(1, 5)\\). Find the shortest length of pipe needed to connect the village to the pipeline. Solution: \\(A=2, B=-1, C=4\\), \\(x_1=1, y_1=5\\). \\(d = \\frac{|2(1) -1(5) + 4|}{\\sqrt{4+1}} = \\frac{|2-5+4|}{\\sqrt{5}} = \\frac{1}{\\sqrt{5}} \\approx 0.447\\) km (if units are km). A good answer includes correct setup, unit interpretation, and the realization that the perpendicular gives the minimal pipe length. A poor answer might use horizontal/vertical distance instead of perpendicular, showing misunderstanding of \"shortest distance\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

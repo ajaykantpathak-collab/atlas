@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_015",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_015",
+   "title": "c11_phy_cbse_05_015",
+   "questions": [
+    {
+     "q": "State the two component equations for conservation of linear momentum in a two-dimensional collision where mass \\( m_1 \\) moves initially along the x-axis with speed \\( v_{1i} \\) and mass \\( m_2 \\) is at rest. Define all symbols and state the condition under which these equations are valid.",
+     "a": "The x-component: \\( m_1 v_{1i} = m_1 v_{1f} \\cos\\theta_1 + m_2 v_{2f} \\cos\\theta_2 \\). The y-component: \\( 0 = m_1 v_{1f} \\sin\\theta_1 - m_2 v_{2f} \\sin\\theta_2 \\). Here \\( v_{1f}, v_{2f} \\) are final speeds, \\( \\theta_1, \\theta_2 \\) are angles measured from the x-axis. Valid for an isolated system with no external impulsive forces during collision. A wrong answer (e.g., writing only one equation or omitting the minus sign in y-equation) reveals the student treats momentum as a scalar or ignores the vector nature of the y-component.",
+     "self_check": true
+    },
+    {
+     "q": "In a two-dimensional elastic collision with \\( m_2 \\) initially at rest, we have three equations (two momentum components + energy) but four unknowns (\\( v_{1f}, v_{2f}, \\theta_1, \\theta_2 \\)). Explain physically why the system is not fully determined by conservation laws alone, and state what additional information is typically needed to solve the problem completely.",
+     "a": "Conservation laws constrain the final state but do not fix the exact trajectory because the outcome depends on the impact parameter (how off-center the collision is), which determines the direction of the impulsive force during contact. The additional information needed is usually one scattering angle (e.g., \\( \\theta_1 \\) or \\( \\theta_2 \\)) measured experimentally or given in the problem. A wrong answer (e.g., \"we need the collision time\" or \"energy is not conserved\") reveals confusion between dynamical details (forces during collision) and the kinematic constraints from conservation laws.",
+     "self_check": true
+    },
+    {
+     "q": "A billiard ball of mass 0.2 kg moving at 4 m/s along the x-axis strikes an identical stationary ball. After the elastic collision, the first ball moves at 30° to the x-axis. Calculate the speed of each ball after collision and the angle of the second ball relative to the x-axis. (Use \\( g = 10 \\) m/s² where needed.)",
+     "a": "**Given:** \\( m_1 = m_2 = 0.2 \\) kg, \\( v_{1i} = 4 \\) m/s, \\( \\theta_1 = 30^\\circ \\), elastic.\n**Step 1:** For equal masses in elastic 2D collision with one at rest, the balls move at right angles: \\( \\theta_1 + \\theta_2 = 90^\\circ \\) → \\( \\theta_2 = 60^\\circ \\).\n**Step 2:** x-momentum: \\( m v_{1i} = m v_{1f} \\cos30^\\circ + m v_{2f} \\cos60^\\circ \\) → \\( 4 = v_{1f}(\\sqrt{3}/2) + v_{2f}(1/2) \\).\n**Step 3:** y-momentum: \\( 0 = m v_{1f} \\sin30^\\circ - m v_{2f} \\sin60^\\circ \\) → \\( v_{1f}(1/2) = v_{2f}(\\sqrt{3}/2) \\) → \\( v_{1f} = \\sqrt{3} v_{2f} \\).\n**Step 4:** Substitute into x-equation: \\( 4 = (\\sqrt{3} v_{2f})(\\sqrt{3}/2) + v_{2f}(1/2) = (3/2)v_{2f} + (1/2)v_{2f} = 2 v_{2f} \\) → \\( v_{2f} = 2 \\) m/s.\n**Step 5:** \\( v_{1f} = \\sqrt{3} \\times 2 = 3.46 \\) m/s.\n**Step 6:** Verify energy: initial KE = \\( \\frac{1}{2}(0.2)(16) = 1.6 \\) J; final KE = \\( \\frac{1}{2}(0.2)(12 + 4) = 1.6 \\) J ✓.\n**Answer:** \\( v_{1f} = 3.46 \\) m/s at 30°, \\( v_{2f} = 2 \\) m/s at 60°.\nA wrong answer (e.g., \\( v_{1f} = v_{2f} = 2 \\) m/s) reveals the student incorrectly assumed 1D formulas apply or forgot the right-angle property for equal masses.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balls undergo a 2D elastic collision with one initially at rest. The moving ball has initial speed \\( v \\). After collision, ball 1 moves at angle \\( \\theta_1 \\) with speed \\( v_1 \\), ball 2 moves at angle \\( \\theta_2 \\) with speed \\( v_2 \\). Which of the following relations MUST hold? (a) \\( v_1 = v_2 \\), (b) \\( \\theta_1 + \\theta_2 = 90^\\circ \\), (c) \\( v_1^2 + v_2^2 = v^2 \\), (d) \\( v_1 \\cos\\theta_1 = v_2 \\cos\\theta_2 \\). Justify your choice(s).",
+     "a": "For equal masses in 2D elastic collision with one initially at rest: (b) \\( \\theta_1 + \\theta_2 = 90^\\circ \\) and (c) \\( v_1^2 + v_2^2 = v^2 \\) must hold. (b) follows from momentum vector triangle: \\( \\vec{v} = \\vec{v}_1 + \\vec{v}_2 \\) with \\( |\\vec{v}_1|^2 + |\\vec{v}_2|^2 = |\\vec{v}|^2 \\) → right triangle. (c) is energy conservation. (a) is false (speeds equal only for \\( \\theta_1 = \\theta_2 = 45^\\circ \\)). (d) is false (x-momentum gives \\( v = v_1\\cos\\theta_1 + v_2\\cos\\theta_2 \\), not equality). A wrong selection reveals the student memorizes formulas without understanding the vector geometry linking momentum and energy conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a 2D elastic collision problem ( \\( m_1 = 2 \\) kg, \\( m_2 = 1 \\) kg at rest, \\( v_{1i} = 6 \\) m/s, \\( \\theta_1 = 30^\\circ \\) given) and obtains \\( v_{1f} = 2 \\) m/s, \\( v_{2f} = 4 \\) m/s, \\( \\theta_2 = 45^\\circ \\). Without re-solving, evaluate whether this answer is physically plausible by checking momentum and energy conservation. Show your checks.",
+     "a": "**x-momentum check:** Initial \\( p_x = 2 \\times 6 = 12 \\) kg·m/s. Final \\( p_x = 2(2)\\cos30^\\circ + 1(4)\\cos45^\\circ = 4(0.866) + 4(0.707) = 3.464 + 2.828 = 6.292 \\) kg·m/s ≠ 12 → **FAILS**.\n**y-momentum check:** Initial \\( p_y = 0 \\). Final \\( p_y = 2(2)\\sin30^\\circ - 1(4)\\sin45^\\circ = 4(0.5) - 4(0.707) = 2 - 2.828 = -0.828 \\) kg·m/s ≠ 0 → **FAILS**.\n**Energy check:** Initial KE = \\( \\frac{1}{2}(2)(36) = 36 \\) J. Final KE = \\( \\frac{1}{2}(2)(4) + \\frac{1}{2}(1)(16) = 4 + 8 = 12 \\) J ≠ 36 → **FAILS**.\nAll three conservation laws violated → answer is impossible. A student who cannot perform these quick checks reveals inability to use conservation laws as verification tools, a critical exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a carrom board, striker, and coins to verify that two equal masses in a 2D elastic collision move at right angles after impact. List the measurements you would take, the procedure to minimize friction effects, and how you would analyze the data to confirm the 90° prediction.",
+     "a": "**Procedure:** (1) Level the carrom board and sprinkle fine boric powder to reduce friction. (2) Place a target coin at the centre. (3) Shoot the striker from a fixed position with consistent force (use a spring launcher for repeatability). (4) Record the trajectories using a smartphone camera at 60 fps from directly above. (5) Repeat for 10+ trials with varying impact parameters (off-center hits). **Measurements:** Track centroid positions frame-by-frame to get velocity vectors before and after collision for both striker and coin. **Analysis:** For each trial, compute angle between final velocity vectors \\( \\theta_1 \\) and \\( \\theta_2 \\); plot histogram of \\( \\theta_1 + \\theta_2 \\). Expect peak at 90° with spread due to friction, rotation, and measurement error. **Confirmation:** If mean \\( \\theta_1 + \\theta_2 \\approx 90^\\circ \\) and energy loss < 10%, prediction verified. A poor answer (e.g., \"just look at it\") reveals lack of quantitative experimental design skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

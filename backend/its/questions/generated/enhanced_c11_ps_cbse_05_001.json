@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_001",
+   "title": "c11_ps_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define a right in one sentence using the two key criteria from the NCERT textbook: social recognition and state enforcement.",
+     "a": "A right is a claim recognised by society as necessary for a dignified life and enforced by the state through legal obligation. A wrong answer that only mentions \"what the law gives\" reveals the misconception that rights originate solely from the state rather than from prior social and moral recognition; a wrong answer that lists examples (vote, speech) without the defining criteria shows inability to abstract the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the textbook say that a student's desire to wear clothes of their choice to school instead of the uniform is NOT a right, even though the student feels entitled to it?",
+     "a": "Because the claim lacks broad social recognition as a condition necessary for dignity and self-respect; society (through school rules) does not accept dress choice as essential for a respectful life. A wrong answer focusing on \"school rules are strict\" misses the theoretical point: rights are not defined by existing rules but by what society collectively deems necessary for human dignity; a wrong answer saying \"uniform is discipline\" confuses the reason for the rule with the definition of a right.",
+     "self_check": true
+    },
+    {
+     "q": "A group of citizens demands the \"right to high-speed internet\" in their village. Using the two criteria from this node, analyse whether this claim currently qualifies as a right in India.",
+     "a": "Step 1: Check social recognition — is high-speed internet widely accepted as essential for dignity? Currently, it is seen as important for development but not yet universally recognised as a dignity-necessity like food or education. Step 2: Check state enforcement — is there a legal obligation on the state to provide it? No specific law guarantees high-speed internet as a justiciable right. Conclusion: It is an emerging claim, not yet a full right. A wrong answer saying \"yes because Digital India exists\" confuses policy schemes with enforceable rights; a wrong answer saying \"no because it's a luxury\" ignores that rights evolve with societal understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the claim \"right to life\" and \"right to drive a car at any speed\". Identify which is a right and explain the structural difference in terms of state obligation and social recognition.",
+     "a": "Right to life: universally recognised as essential for dignity; imposes positive obligation on state to protect (laws, police, healthcare) and negative obligation not to kill arbitrarily. Right to drive at any speed: not socially recognised as dignity-necessary; state imposes restrictions (speed limits) for public safety. The structural difference: rights generate state duties; mere liberties are permissions that can be regulated. A wrong answer equating both as \"freedoms\" fails to see that rights create enforceable obligations on the state, while regulated activities do not.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rights are gifts given by the government to citizens.\" Use the concept of rights as claims recognised by society to justify your answer.",
+     "a": "The statement is incorrect. Rights originate from social and moral recognition of what is necessary for human dignity (e.g., freedom from torture existed as a moral claim before any law). The state's role is to recognise and enforce these pre-existing claims, not to create them as gifts. If rights were gifts, the state could withdraw them arbitrarily, contradicting the idea of inalienability. A wrong answer agreeing with the statement reveals a positivist misconception that law is the sole source of rights, ignoring the moral foundation discussed in the textbook (natural rights/human rights tradition).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example of a claim that is currently a \"want\" but could become a \"right\" in the future. Explain the two-step process (social recognition → state enforcement) it would need to go through.",
+     "a": "Example: \"Right to algorithmic transparency\" (knowing how AI makes decisions about you). Step 1: Social recognition — as AI affects jobs, loans, privacy, civil society campaigns frame transparency as essential for autonomy and dignity; public debate, court cases, and media build consensus. Step 2: State enforcement — legislature passes a law (like EU's AI Act) mandating explainability, creating a legal duty for companies/state and a remedy for citizens. A poor example like \"right to free pizza\" fails because it cannot meet the dignity/necessity threshold for social recognition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

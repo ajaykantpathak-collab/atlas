@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_7",
+   "title": "c9_math_ch6_7",
+   "questions": [
+    {
+     "q": "State Heron's formula for the area of a triangle with sides a, b, c and define the semi-perimeter s.",
+     "a": "Heron's formula: Area = √[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2 is the semi-perimeter. A wrong answer (e.g., writing s = a+b+c or forgetting the square root) reveals the student has memorised the formula incorrectly or confuses semi-perimeter with perimeter, leading to an area four times too large.",
+     "self_check": true
+    },
+    {
+     "q": "A triangular garden has sides 13 m, 14 m, and 15 m. Without calculating the exact area, explain why the area must be a whole number of square metres.",
+     "a": "s = (13+14+15)/2 = 21. The product s(s-a)(s-b)(s-c) = 21×8×7×6 = 7056, which is a perfect square (84²). Hence the area is 84 m², an integer. If a student says \"because sides are integers\" or \"Heron's formula always gives integers\", they misunderstand that the radicand must be a perfect square; this misconception leads to surprise when decimals appear in other problems.",
+     "self_check": true
+    },
+    {
+     "q": "A rhombus-shaped field has diagonals measuring 48 m and 20 m. The field is divided into two triangles by one diagonal. Find the area of the field using Heron's formula on one triangle and then doubling it.",
+     "a": "The diagonal of 48 m splits the rhombus into two congruent triangles with sides 20 m, 20 m, 48 m? Wait, a rhombus has all sides equal. The diagonals are perpendicular bisectors. So each triangle has sides: half-diagonals 24 m and 10 m, and the side of rhombus = √(24²+10²) = 26 m. So triangle sides: 26, 26, 48. s = (26+26+48)/2 = 50. Area = √[50×24×24×2] = √(50×576×2) = √57600 = 240 m². Total area = 2×240 = 480 m². If a student uses sides 48, 20, 20 (wrong triangle), they get a different area, revealing they don't understand how diagonals divide a rhombus.",
+     "self_check": true
+    },
+    {
+     "q": "A triangular park has sides 40 m, 50 m, and 60 m. A gardener wants to plant grass at ₹5 per m² and put a fence around it at ₹10 per metre. Compare the total cost of grass and fencing. Which is higher and by how much?",
+     "a": "s = (40+50+60)/2 = 75. Area = √[75×35×25×15] = √(75×35×375) = √984375 = 375√7 ≈ 992.16 m². Grass cost = 992.16 × 5 = ₹4960.80. Perimeter = 150 m. Fence cost = 150 × 10 = ₹1500. Grass cost is higher by ₹3460.80. A student who only computes area or only perimeter, or uses wrong units, fails to compare the two distinct real-life costs, showing inability to synthesize multiple quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Find the area of a triangle with sides 5 cm, 6 cm, 7 cm.\" Their working: s = 18/2 = 9. Area = √[9×4×3×2] = √216 = 6√6 cm². Is this correct? If not, identify the exact error.",
+     "a": "The working is correct. s = (5+6+7)/2 = 9. s-a=4, s-b=3, s-c=2. Product = 9×4×3×2 = 216. √216 = √(36×6) = 6√6 cm². If a student claims it's wrong, they might have miscalculated s or the product. If they say \"area should be integer\", they hold the misconception that Heron's formula always yields integers. This question evaluates their ability to verify a complete solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (with numbers) where Heron's formula must be used on a triangle that is part of a quadrilateral, and the final answer requires a cost calculation. Provide the problem statement only.",
+     "a": "A good problem: \"A kite-shaped playground has diagonals 30 m and 40 m intersecting at right angles. The longer diagonal divides the kite into two triangles. Find the cost of covering the playground with sand at ₹20 per m².\" This requires recognizing the kite as two triangles, finding side lengths via Pythagoras, using Heron's formula (or simpler area methods), and computing cost. A poor problem would be a direct triangle area without decomposition or cost, showing the student cannot design multi-step applications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

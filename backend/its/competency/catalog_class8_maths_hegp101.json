@@ -1,0 +1,378 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "A Square and A Cube",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.101.1.1",
+   "title": "Locker Puzzle and Factor Parity",
+   "section": "1",
+   "definition": "In the queen's puzzle each person toggles the lockers numbered as multiples of their assigned number, so a locker is toggled once for every factor of its number; it ends open exactly when its number has an odd count of factors, which happens only for square numbers where one factor pairs with itself.",
+   "formula": "open_locker = (number of factors is odd) i.e. locker number is a square",
+   "key_idea": "Factors come in partner pairs; only a self-paired factor (as in 4 = 2 x 2) leaves an odd count.",
+   "textbook_ref": "hegp101.txt lines 11-89 (locker story and factor discussion)",
+   "question_patterns": [
+    "find which locker numbers remain open after all 100 people take their turn",
+    "explain why locker 6 is closed at the end of the toggling process",
+    "how many times is locker 12 toggled in the puzzle",
+    "which five lockers are touched exactly twice and give the passcode",
+    "why do only square numbered lockers stay open in the locker puzzle",
+    "determine whether locker 36 ends open or closed and justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the factors of the locker number",
+     "explain": "Each person numbered by a factor toggles the locker once, so the toggle count equals the factor count."
+    },
+    {
+     "step": 2,
+     "action": "pair up partner factors",
+     "explain": "Each factor pairs with the co-factor whose product gives the locker number, e.g. for 6: (1,6) and (2,3)."
+    },
+    {
+     "step": 3,
+     "action": "count the unpaired self-factor",
+     "explain": "Only when the number is a square does one factor pair with itself, making the factor count odd, so the locker stays open."
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.2",
+   "title": "Square Numbers",
+   "section": "1.1",
+   "definition": "A number expressible as a product of a number with itself is a square number; the squares of natural numbers are perfect squares, and their unit digits can only be 0, 1, 4, 5, 6 or 9, so a number ending in 2, 3, 7 or 8 can never be a square.",
+   "formula": "square = side * side",
+   "key_idea": "Multiply a number by itself to get its square; the units digit test can reject but not confirm squares.",
+   "textbook_ref": "hegp101.txt lines 59-135 (square numbers), 142-206 (patterns and properties)",
+   "question_patterns": [
+    "find the square of 24",
+    "calculate the area of a square with side 13 units",
+    "what is 15 squared",
+    "can a perfect square end with digit 8 - justify",
+    "which of the given numbers are perfect squares by checking units digits",
+    "how many zeros will the square of a number ending in two zeros have"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number by itself",
+     "explain": "The square of n is n multiplied by n, written n2.",
+     "compute": "square = num * num"
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.3",
+   "title": "Squares as Sums of Consecutive Odd Numbers",
+   "section": "1.1",
+   "definition": "Adding consecutive odd numbers beginning at 1 produces the square numbers in order, because the sum of the first n odd numbers is n squared; the nth odd number equals 2n - 1, and a natural number is a perfect square only if repeated subtraction of 1, 3, 5, ... reaches exactly 0.",
+   "formula": "nth_odd = 2 * n - 1; next_square = prev_square + nth_odd",
+   "key_idea": "Each square grows by the next odd number: 1, 1+3, 1+3+5, ... give 1, 4, 9, ...",
+   "textbook_ref": "hegp101.txt lines 207-258 (odd number pattern), 244-271 (subtraction test)",
+   "question_patterns": [
+    "find 36 squared given that 35 squared is 1225 using odd numbers",
+    "what is the 36th odd number",
+    "check whether 38 is a perfect square by subtracting consecutive odd numbers",
+    "express 25 as a sum of successive odd numbers",
+    "calculate the sum of the first 6 odd numbers and identify the square",
+    "how many odd numbers starting from 1 must be added to reach 64"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the nth odd number",
+     "explain": "The odd numbers are 1, 3, 5, ...; the nth term is 2n minus 1.",
+     "compute": "nth_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add it to the previous square",
+     "explain": "Since the first n odd numbers sum to n squared, the new square equals the previous one plus the nth odd number.",
+     "compute": "next_square = prev_square + nth_odd"
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.4",
+   "title": "Square Roots",
+   "section": "1.1",
+   "definition": "If y = x squared then x is the square root of y; every perfect square carries two integer roots, one positive and one negative, and this chapter works with the positive root. Roots can be found by pairing prime factors, by subtracting successive odd numbers, or by estimating between known squares.",
+   "formula": "side = sqrt(area)",
+   "key_idea": "Square root undoes squaring: area of a square gives its side through the root.",
+   "textbook_ref": "hegp101.txt lines 299-338 (square root), 390-450 (prime factor pairing, estimation), 451-479 (estimating 250 and 125)",
+   "question_patterns": [
+    "find the side of a square whose area is 49 sq cm",
+    "calculate the square root of 576 using prime factorisation",
+    "estimate the square root of 250 to the nearest integer",
+    "is 156 a perfect square - justify using prime factors",
+    "what is the largest integer-sided square handkerchief that fits in cloth of area 125 sq cm",
+    "find the length of the side of a square whose area is 441 sq m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the positive square root of the area",
+     "explain": "The side of the square is the positive root of its area.",
+     "compute": "side = sqrt(area)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.5",
+   "title": "Cubic Numbers",
+   "section": "1.2",
+   "definition": "Numbers obtained by multiplying a number by itself three times are cubic numbers, called perfect cubes when n is a natural number; a cube of edge n holds n x n x n unit cubes, and cubes of fractions and decimals follow the same triple product.",
+   "formula": "cube = edge * edge * edge",
+   "key_idea": "Cube means three self-multiplications: 2 x 2 x 2 = 8, 3 x 3 x 3 = 27.",
+   "textbook_ref": "hegp101.txt lines 523-598 (cubic numbers)",
+   "question_patterns": [
+    "find the cube of 12",
+    "how many unit cubes make a cube of side 4 units",
+    "calculate 15 cubed",
+    "is 9 a perfect cube - justify",
+    "what is the volume of a cube with edge 6 cm",
+    "compute the cube of 13.08"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number by itself twice",
+     "explain": "The cube of n is n times n times n, written n3.",
+     "compute": "cube = edge * edge * edge"
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.6",
+   "title": "Taxicab Numbers (Hardy-Ramanujan Number)",
+   "section": "1.2",
+   "definition": "Numbers expressible as a sum of two positive cubes in two different ways are taxicab numbers; 1729 is the smallest, made famous by Ramanujan's reply to Hardy, followed by 4104 and 13832.",
+   "formula": "1729 = 1**3 + 12**3 = 9**3 + 10**3",
+   "key_idea": "One number, two cube sums: 1729 = 1 + 1728 = 729 + 1000.",
+   "textbook_ref": "hegp101.txt lines 599-622 (taxicab numbers)",
+   "question_patterns": [
+    "why is 1729 called the Hardy-Ramanujan number",
+    "express 1729 as a sum of two cubes in two different ways",
+    "what is a taxicab number - define it",
+    "find the two ways of writing 4104 as a sum of two positive cubes",
+    "which number did Ramanujan call very interesting and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write both cube decompositions",
+     "explain": "Check 1 and 12 give 1 + 1728, while 9 and 10 give 729 + 1000; both totals are 1729."
+    },
+    {
+     "step": 2,
+     "action": "confirm the two ways differ",
+     "explain": "The two pairs of cubes are distinct, which is exactly the taxicab property."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp101.txt Figure it Out Q4, lines 496",
+   "concept": "hegp.101.1.4",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the side of a square whose area is {area} sq m.",
+   "extracted_variables": {
+    "area": "area of the square in sq units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the square root of the area",
+     "explain": "Side equals the positive root of the area.",
+     "compute": "side = sqrt(area)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp101.txt lines 300-303, area 49 example",
+   "concept": "hegp.101.1.4",
+   "question_type": "compute",
+   "question_pattern": "The area of a square is {area} sq cm. What is the length of its side?",
+   "extracted_variables": {
+    "area": "area of the square in sq units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the square root of the area",
+     "explain": "Since area = side squared, the side is the root of the area.",
+     "compute": "side = sqrt(area)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp101.txt lines 249-258, 362 from 352 example",
+   "concept": "hegp.101.1.3",
+   "question_type": "compute",
+   "question_pattern": "Find {target} squared given that {prev_root} squared = {prev_square}, using consecutive odd numbers.",
+   "extracted_variables": {
+    "n": "position whose square is wanted",
+    "prev_square": "square of the number one less than n",
+    "prev_root": "the number whose square is prev_square"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the nth odd number",
+     "explain": "The nth odd number is 2n - 1.",
+     "compute": "nth_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add it to the previous square",
+     "explain": "Squares grow by successive odd numbers starting from 1.",
+     "compute": "next_square = prev_square + nth_odd"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp101.txt lines 214-234, sum of odd numbers pattern",
+   "concept": "hegp.101.1.3",
+   "question_type": "compute",
+   "question_pattern": "Add the first {n} odd numbers starting from 1 and name the square obtained.",
+   "extracted_variables": {
+    "n": "how many consecutive odd numbers are added"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the nth odd number",
+     "explain": "Last added odd number is the nth one.",
+     "compute": "nth_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "pair the first and last terms",
+     "explain": "The sum of the first n odd numbers equals n squared.",
+     "compute": "square_sum = n * n"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp101.txt lines 544-550, unit cube count",
+   "concept": "hegp.101.1.5",
+   "question_type": "compute",
+   "question_pattern": "How many unit cubes make a cube of side {edge} units?",
+   "extracted_variables": {
+    "edge": "edge length of the big cube in units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count one layer of unit cubes",
+     "explain": "Each square layer holds edge times edge cubes.",
+     "compute": "layer = edge * edge"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the number of layers",
+     "explain": "There are edge layers, so total cubes = edge cubed.",
+     "compute": "cube = layer * edge"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp101.txt lines 550-553, table of cubes",
+   "concept": "hegp.101.1.5",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {edge} cubed.",
+   "extracted_variables": {
+    "edge": "the number to be cubed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the square first",
+     "explain": "Multiply edge by edge.",
+     "compute": "sq = edge * edge"
+    },
+    {
+     "step": 2,
+     "action": "multiply once more by the number",
+     "explain": "Multiplying the square by edge gives the cube.",
+     "compute": "cube = sq * edge"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp101.txt lines 143-165, squares table",
+   "concept": "hegp.101.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find {num} squared.",
+   "extracted_variables": {
+    "num": "the number whose square is wanted"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the number by itself",
+     "explain": "Squaring means one self-multiplication.",
+     "compute": "square = num * num"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp101.txt lines 120-135, sidelength-area table",
+   "concept": "hegp.101.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the area in square units of a square with sidelength {side} units.",
+   "extracted_variables": {
+    "side": "sidelength of the square in units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the side by itself",
+     "explain": "The area of a square is the product of its sides.",
+     "compute": "area = side * side"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hegp101.txt Figure it Out, lines 480-522",
+   "questions": [
+    "Which of the following numbers are not perfect squares: 2032, 2048, 1027, 1089?",
+    "Which one among 642, 1082, 2922, 362 has last digit 4?",
+    "Given 1252 = 15625, what is the value of 1262?",
+    "Find the length of the side of a square whose area is 441 sq m.",
+    "Find the smallest square number divisible by each of 4, 9 and 10.",
+    "How many numbers lie between the squares of 16 and 17?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hegp101.txt lines 113-119 (passcode clue)",
+   "questions": [
+    "The passcode consists of the first five locker numbers touched exactly twice - find them.",
+    "Explain why numbers touched exactly twice are the primes."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_16_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_16_014",
+   "title": "c12_eng_k_cbse_16_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for a CBSE English long answer and state the function of each component in one sentence.",
+     "a": "PEEL stands for Point (topic sentence stating the argument), Evidence (direct quote or precise textual reference), Explanation (analysis of how the evidence proves the point, including literary device identification), and Link (connecting back to the question/theme). A wrong answer that lists 'Quote, Explain, Conclude' reveals the student misses the critical 'Point' (argument-first) and 'Link' (thematic closure) steps, leading to narrative summaries instead of analytical arguments — a major mark-loser in CBSE marking schemes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Bergman thinks films from books fail because books are intellectual and films are emotional.\" Identify the missing analytical layer in this statement and rewrite it as a PEEL Point sentence with an embedded textual reference.",
+     "a": "The statement paraphrases but lacks the *specific terminology* Bergman uses ('receptive process of the mind', 'conscious act of will', 'irrational dimension') and the *causal mechanism* (intellect vs imagination pathway). Correct PEEL Point: \"Bergman argues that film and literature are 'usually in conflict' because literature is assimilated by a 'conscious act of the will in alliance with the intellect' whereas film bypasses intellect to 'play directly on our feelings' through rhythm.\" A student who only paraphrases shows UNDERSTAND-level comprehension but fails APPLY-level precision required for 5-6 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 'club sandwich' metaphor from the Eco interview, write a 3-sentence PEEL Explanation analysing how this metaphor critiques film adaptation. Include the terms 'layers of meaning' and 'reduction'.",
+     "a": "Eco's 'club sandwich' metaphor — 'lettuce, tomato, cheese... different layers of meaning' — illustrates that a novel operates through semantic density where metaphysics, theology, and history coexist simultaneously. A film, constrained by visual linearity and duration, must 'make do with jambon or cheese', performing an inevitable reduction that flattens the novel's vertical complexity into horizontal narrative. This reduction is not a failure of fidelity but a structural necessity of the medium, explaining why Eco finds the film 'embarrassing' when it becomes the reader's primary lens. A weak answer describes the sandwich without naming 'semantic density' or 'structural necessity', staying at narrative level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Bergman's 'conjurer' analogy (para 4) and Eco's 'Chinese wise man' storytelling (interview opening). Analyse how each metaphor reveals the author's self-conception as an artist. Write 4 sentences using comparative connectors (whereas, while, in contrast).",
+     "a": "Bergman's 'conjurer' metaphor — 'I am guilty of deceit... sway my audience in a highly emotional manner' — positions the film-maker as a manipulative illusionist exploiting 'a certain human weakness' (persistence of vision), embracing deception as artistic essence. In contrast, Eco's 'Chinese wise man' persona — 'I often tell stories like a Chinese wise man' — frames the novelist as a playful philosopher using narrative indirection to convey intellectual mystery, not emotional manipulation. Whereas Bergman emphasises the *apparatus* ('so expensive and so wonderful') and the audience's willing suspension of disbelief, Eco emphasises the *unpredictability of reception* ('Why it worked at that time is a mystery'). Both metaphors reject the 'author as authority' model, but Bergman locates power in the medium's technical deception, while Eco locates it in the reader's interpretive freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Bergman's 'cathedral of Chartres' metaphor is just a fancy way of saying film-making is teamwork.\" Provide a 3-sentence critique using textual evidence to support your evaluation.",
+     "a": "The claim reduces a profound metaphysical argument to a platitude. Bergman explicitly states the cathedral builders 'remained anonymous' and worked 'to the glory of God', severing the 'umbilical cord' between art and worship — a critique of modern 'individualism' where 'the smallest wound of the ego is examined under a microscope'. Teamwork implies collaboration with credit; Bergman's ideal is *anonymous craftsmanship* where 'eternal values', 'immortality' and 'masterpiece' were inapplicable. The student misses the religious-philosophical dimension (art as worship vs art as ego-expression) central to Bergman's critique of the contemporary film industry.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word short answer (CBSE 3-marker format) answering: \"How does Bergman's childhood 'magic lantern' experience foreshadow his later concept of film as 'conjuring'?\" Use the words 'personify', 'deception', and 'apparatus'.",
+     "a": "The magic lantern allowed young Bergman to *personify* the Devil as 'the wolf... strangely real yet incomprehensible', projecting internal fear onto the nursery wall — an early 'apparatus' of visual deception. This prefigures his adult realisation that cinematography 'is based on deception of the human eye' where the film-maker, like a conjurer, uses technical 'apparatus' to 'sway my audience in a highly emotional manner'. The childhood slide-show and the adult projector both transform psychological reality into manipulated visual illusion. A poor answer narrates the lantern story without connecting 'personify'→'deception'→'apparatus' as a developmental continuum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

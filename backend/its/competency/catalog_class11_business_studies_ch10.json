@@ -1,0 +1,662 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 11,
+ "chapter_title": "International Business",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs111.txt",
+ "concepts": [
+  {
+   "id": "c11bs.10.1",
+   "title": "Meaning of International Business",
+   "section": "10.1",
+   "definition": "International business refers to business transactions that take place across national boundaries and include trade in goods and services, movement of capital, technology, and personnel between countries.",
+   "formula": "",
+   "key_idea": "International business extends business activity beyond national borders and involves cross-border exchange of goods, services, capital, and knowledge.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is international business?",
+    "Explain the features of international business.",
+    "How does international business differ from domestic business?",
+    "What transactions are included in international business?",
+    "Why is international business broader than international trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define international business",
+     "explain": "International business refers to all commercial transactions -- trade in goods and services, investment, and technology transfer -- that cross the national boundaries of two or more countries."
+    },
+    {
+     "step": 2,
+     "action": "State the features",
+     "explain": "International business involves cross-border movement of goods, capital, and people, uses different currencies, faces customs duties and trade restrictions, and carries higher risk due to distance and regulation."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish from domestic business",
+     "explain": "Unlike domestic business, international business involves multiple currencies, different legal systems, longer distances, customs procedures, and greater cultural and political risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is international business?",
+     "solution": "International business refers to business transactions that cross national boundaries, including trade in goods and services, foreign investment, and transfer of technology and personnel between countries.",
+     "answer": "Cross-border commercial transactions in goods, services, capital, and technology."
+    },
+    {
+     "question": "How does international business differ from domestic business?",
+     "solution": "International business involves different currencies, national boundaries, customs duties, diverse legal systems, and higher risk, while domestic business operates within one country using a single currency and legal framework.",
+     "answer": "International = multiple currencies, borders, customs, and higher risk; domestic = single country and currency."
+    },
+    {
+     "question": "Why is international business broader than international trade?",
+     "solution": "International trade covers only the exchange of goods and services across borders, while international business also includes foreign investment, licensing, joint ventures, and movement of capital, technology, and personnel.",
+     "answer": "International business includes trade plus investment, technology, and personnel movement."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define international business and explain its features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between domestic business and international business.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is international business considered broader than international trade?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.2",
+   "title": "Reasons for International Business",
+   "section": "10.2",
+   "definition": "International business arises because countries differ in their resources, technology, labour, and demand, and because no single country can produce all goods efficiently or meet all its needs alone.",
+   "formula": "",
+   "key_idea": "Nations engage in international business to obtain goods they cannot produce, benefit from cost advantages, achieve economies of scale, and reduce dependence on a single market.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do countries engage in international business?",
+    "Explain the reasons for international business.",
+    "How do differences in resources lead to international trade?",
+    "Why is international business important for small countries?",
+    "How does international business help firms achieve growth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State resource-based reasons",
+     "explain": "Countries differ in natural resources, climate, labour, and technology, so each specialises in producing goods it can make efficiently and trades for the rest."
+    },
+    {
+     "step": 2,
+     "action": "State cost and scale reasons",
+     "explain": "International business allows firms to achieve economies of scale, reduce per-unit cost, and benefit from comparative cost advantages of different countries."
+    },
+    {
+     "step": 3,
+     "action": "State market and growth reasons",
+     "explain": "Firms enter international business to expand markets, reduce dependence on one country, earn foreign exchange, and achieve faster growth through global demand."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any four reasons for international business.",
+     "solution": "Countries engage in international business because (1) no country is self-sufficient in all resources, (2) countries have different cost structures, (3) firms want to expand markets, and (4) international trade allows economies of scale and risk diversification.",
+     "answer": "Resource gaps, cost differences, market expansion, and economies of scale."
+    },
+    {
+     "question": "How do differences in resources lead to international trade?",
+     "solution": "Countries rich in certain resources such as oil or minerals export them, while countries lacking those resources import them, so resource differences create a basis for mutual trade.",
+     "answer": "Resource-rich countries export; resource-poor countries import, creating trade."
+    },
+    {
+     "question": "How does international business help firms achieve growth?",
+     "solution": "By selling to global markets, firms increase sales beyond the limits of the domestic market, earn foreign exchange, spread risk across countries, and achieve economies of scale that support faster growth.",
+     "answer": "Global markets, foreign exchange, risk spread, and scale economies drive growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the reasons for international business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is international business important for small countries?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does international business help reduce business risk?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.3",
+   "title": "Modes of Entry into International Business",
+   "section": "10.3",
+   "definition": "Modes of entry into international business are the different ways a firm can enter foreign markets, including export and import, licensing and franchising, joint ventures, and wholly owned subsidiaries.",
+   "formula": "",
+   "key_idea": "A firm chooses its entry mode based on the level of control, investment, risk, and involvement it wants in a foreign market, ranging from simple export to full ownership.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the modes of entry into international business?",
+    "Explain the factors affecting the choice of entry mode.",
+    "How does a joint venture differ from a wholly owned subsidiary?",
+    "What is the simplest mode of entering international business?",
+    "Why do firms prefer export as an entry mode?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the main modes",
+     "explain": "The main entry modes are export and import, licensing and franchising, contract manufacturing, joint ventures, and wholly owned subsidiaries, each offering different levels of control and risk."
+    },
+    {
+     "step": 2,
+     "action": "Compare control and investment",
+     "explain": "Export requires low investment and low control, joint ventures share control and investment with a local partner, while wholly owned subsidiaries give full control but need the highest investment and risk."
+    },
+    {
+     "step": 3,
+     "action": "Explain the choice factors",
+     "explain": "The choice of mode depends on the firm's resources, the level of control desired, the risk it can bear, government regulations in the host country, and the nature of the product and market."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main modes of entry into international business?",
+     "solution": "The main modes are export and import, licensing and franchising, contract manufacturing, joint ventures, and wholly owned subsidiaries, each differing in control, investment, and risk.",
+     "answer": "Export, licensing, joint venture, and wholly owned subsidiary are the main entry modes."
+    },
+    {
+     "question": "How does a joint venture differ from a wholly owned subsidiary?",
+     "solution": "A joint venture is a partnership with a local firm sharing ownership, control, and risk, while a wholly owned subsidiary is fully owned by the foreign firm, giving complete control but requiring full investment and risk.",
+     "answer": "Joint venture = shared ownership; wholly owned subsidiary = full ownership and control."
+    },
+    {
+     "question": "Why do firms prefer export as an entry mode?",
+     "solution": "Export requires the least investment and risk, needs no physical presence abroad, and allows a firm to test foreign markets before committing to larger investments like joint ventures or subsidiaries.",
+     "answer": "Export has low investment, low risk, and helps test foreign markets."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the various modes of entry into international business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What factors affect the choice of entry mode?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between licensing and a joint venture.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.4",
+   "title": "Export and Import Trade",
+   "section": "10.4",
+   "definition": "Export trade is the sale of goods and services from one country to another, while import trade is the purchase of goods and services from a foreign country for use in the domestic market.",
+   "formula": "",
+   "key_idea": "Export earns foreign exchange for the exporting country, while import supplies goods that are not produced domestically or are cheaper from abroad.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is export trade?",
+    "What is import trade?",
+    "Distinguish between export and import trade.",
+    "Why is export trade important for a country?",
+    "What are the steps involved in export trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define export and import trade",
+     "explain": "Export trade is selling goods produced in one country to buyers in another country, and import trade is buying goods from a foreign country for domestic use or resale."
+    },
+    {
+     "step": 2,
+     "action": "State the importance of export",
+     "explain": "Exports earn foreign exchange, increase sales and profits, create employment, utilise surplus production, and improve the balance of payments of the exporting country."
+    },
+    {
+     "step": 3,
+     "action": "Outline the export procedure",
+     "explain": "Export involves enquiry and quotation, receiving the order, arranging finance, obtaining licences, production, pre-shipment inspection, customs clearance, and shipment with documentation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between export and import trade.",
+     "solution": "Export trade is the sale of domestic goods to foreign buyers, earning foreign exchange, while import trade is the purchase of foreign goods for domestic use, involving payment in foreign currency.",
+     "answer": "Export = selling abroad and earning forex; import = buying from abroad and paying forex."
+    },
+    {
+     "question": "Why is export trade important for a country?",
+     "solution": "Exports earn foreign exchange, increase production and employment, utilise surplus capacity, and improve the country's balance of payments and global economic position.",
+     "answer": "Exports earn forex, create jobs, use surplus capacity, and improve balance of payments."
+    },
+    {
+     "question": "List the main steps involved in export trade.",
+     "solution": "The main steps are receiving an order, arranging finance and licences, producing goods, pre-shipment inspection, preparing documents, customs clearance, and shipping the goods to the foreign buyer.",
+     "answer": "Order, finance, licence, production, inspection, documentation, customs, and shipment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain export and import trade and their importance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Outline the procedure for export trade.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do countries import goods from abroad?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.5",
+   "title": "Joint Venture and Wholly Owned Subsidiary",
+   "section": "10.5",
+   "definition": "A joint venture is a business arrangement where two or more firms share ownership, control, and risk in a foreign market, while a wholly owned subsidiary is a company fully owned and controlled by a foreign parent firm.",
+   "formula": "",
+   "key_idea": "Joint ventures share risk and resources with a local partner, while wholly owned subsidiaries give full control but require the highest investment and risk in a foreign market.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a joint venture in international business?",
+    "What is a wholly owned subsidiary?",
+    "Distinguish between a joint venture and a wholly owned subsidiary.",
+    "What are the advantages of a joint venture?",
+    "Why may a firm prefer a wholly owned subsidiary?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a joint venture",
+     "explain": "A joint venture is a partnership between a foreign firm and a local firm in which both share ownership, management, profits, and risk, combining their resources and knowledge."
+    },
+    {
+     "step": 2,
+     "action": "Define a wholly owned subsidiary",
+     "explain": "A wholly owned subsidiary is a company in a foreign country fully owned by the parent firm, giving complete control over operations but requiring full investment and bearing all risk."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two modes",
+     "explain": "A joint venture shares control, investment, and risk with a local partner and is easier to set up, while a wholly owned subsidiary gives full control and profit but needs more capital and carries higher risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a joint venture and what are its advantages?",
+     "solution": "A joint venture is a partnership between a foreign and a local firm sharing ownership and risk. Its advantages are shared investment, access to the local partner's knowledge and contacts, and reduced political and market risk.",
+     "answer": "Shared ownership and risk with local knowledge and reduced risk."
+    },
+    {
+     "question": "What is a wholly owned subsidiary?",
+     "solution": "A wholly owned subsidiary is a company in a foreign country fully owned by the parent firm, which has complete control over management, operations, and profits, but bears all investment and risk alone.",
+     "answer": "A foreign company fully owned and controlled by the parent firm."
+    },
+    {
+     "question": "Distinguish between a joint venture and a wholly owned subsidiary.",
+     "solution": "A joint venture shares ownership, control, and risk with a local partner, while a wholly owned subsidiary is fully owned by the parent firm, giving full control but requiring full investment and bearing all risk.",
+     "answer": "Joint venture = shared ownership and risk; wholly owned = full ownership, full risk."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain joint venture and wholly owned subsidiary as modes of international entry.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the advantages of a joint venture?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why may a firm prefer a wholly owned subsidiary over a joint venture?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.6",
+   "title": "EXIM Policy",
+   "section": "10.6",
+   "definition": "EXIM policy, or export-import policy, is the set of rules and guidelines framed by a government to regulate and promote the country's foreign trade, covering exports, imports, tariffs, and incentives.",
+   "formula": "",
+   "key_idea": "EXIM policy aims to promote exports, regulate imports, earn foreign exchange, and achieve a favourable balance of trade through incentives, duties, and trade agreements.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is EXIM policy?",
+    "Explain the objectives of EXIM policy.",
+    "How does EXIM policy promote exports?",
+    "What is the role of tariffs in EXIM policy?",
+    "How does EXIM policy affect a country's foreign trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define EXIM policy",
+     "explain": "EXIM policy is the government's export-import policy that lays down rules for promoting exports, regulating imports, setting duties, and providing incentives to improve the balance of trade."
+    },
+    {
+     "step": 2,
+     "action": "State the objectives",
+     "explain": "The objectives are to increase exports, reduce unnecessary imports, earn foreign exchange, encourage domestic industry, and achieve a favourable balance of trade and payments."
+    },
+    {
+     "step": 3,
+     "action": "Explain the tools used",
+     "explain": "EXIM policy uses tools such as import duties, export subsidies, duty drawback, licences, special economic zones, and trade agreements to regulate and promote foreign trade."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is EXIM policy and what are its objectives?",
+     "solution": "EXIM policy is the government's policy governing export and import trade. Its objectives are to promote exports, control imports, earn foreign exchange, protect domestic industry, and improve the balance of trade.",
+     "answer": "A government policy to promote exports, regulate imports, and improve the balance of trade."
+    },
+    {
+     "question": "How does EXIM policy promote exports?",
+     "solution": "EXIM policy promotes exports through duty drawbacks, export subsidies, cash assistance, special economic zones, and simplified procedures that reduce the cost and difficulty of selling goods abroad.",
+     "answer": "Through duty drawbacks, subsidies, SEZs, and simplified export procedures."
+    },
+    {
+     "question": "What is the role of tariffs in EXIM policy?",
+     "solution": "Tariffs or import duties make foreign goods more expensive, which protects domestic industry from competition and discourages non-essential imports, helping regulate the volume and value of imports.",
+     "answer": "Tariffs protect domestic industry and discourage non-essential imports."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain EXIM policy and its objectives.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does EXIM policy affect a country's foreign trade?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the tools used under EXIM policy to promote exports.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.7",
+   "title": "World Trade Organisation (WTO)",
+   "section": "10.7",
+   "definition": "The World Trade Organisation (WTO) is an international organisation established in 1995 that sets and enforces rules for international trade and aims to promote free and fair trade among member countries.",
+   "formula": "",
+   "key_idea": "The WTO promotes free trade by reducing tariffs and barriers, settles trade disputes between members, and ensures that trade flows as freely, predictably, and fairly as possible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the WTO?",
+    "Explain the objectives of the WTO.",
+    "What are the functions of the WTO?",
+    "How does the WTO promote free trade?",
+    "How does the WTO settle trade disputes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the WTO",
+     "explain": "The WTO is a global organisation set up in 1995 that administers rules for international trade among member countries and replaced the General Agreement on Tariffs and Trade (GATT)."
+    },
+    {
+     "step": 2,
+     "action": "State the objectives",
+     "explain": "The WTO aims to raise standards of living, ensure full employment, expand trade in goods and services, and promote sustainable development through free and fair trade."
+    },
+    {
+     "step": 3,
+     "action": "Explain the functions",
+     "explain": "The WTO implements trade agreements, provides a forum for trade negotiations, settles trade disputes, reviews national trade policies, and assists developing countries in trade matters."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the WTO and when was it established?",
+     "solution": "The World Trade Organisation is an international body that sets and enforces rules for global trade. It was established in 1995 and replaced the General Agreement on Tariffs and Trade (GATT).",
+     "answer": "A global trade rules body established in 1995, replacing GATT."
+    },
+    {
+     "question": "Explain the objectives of the WTO.",
+     "solution": "The WTO aims to promote free and fair trade, raise living standards, ensure full employment, expand production and trade in goods and services, and support sustainable development worldwide.",
+     "answer": "Free and fair trade, higher living standards, and sustainable development."
+    },
+    {
+     "question": "How does the WTO settle trade disputes?",
+     "solution": "The WTO provides a dispute settlement body where member countries can file complaints. It follows a structured process of consultation, panel examination, and appeal to resolve disputes fairly and enforce rulings.",
+     "answer": "Through a dispute settlement body using consultation, panels, and enforceable rulings."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the WTO, its objectives, and functions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the WTO promote free trade?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between GATT and the WTO.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.8",
+   "title": "Trade Blocks",
+   "section": "10.8",
+   "definition": "Trade blocks are groups of countries that form an economic alliance to reduce or remove trade barriers such as tariffs and quotas among member countries while maintaining barriers against non-members.",
+   "formula": "",
+   "key_idea": "Trade blocks promote free trade among members through reduced tariffs and common policies, and examples include the European Union, NAFTA, ASEAN, and SAARC.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are trade blocks?",
+    "Explain the features of trade blocks.",
+    "Give two examples of trade blocks.",
+    "How do trade blocks promote trade among members?",
+    "What are the advantages and disadvantages of trade blocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define trade blocks",
+     "explain": "Trade blocks are regional economic groupings of countries that agree to reduce or eliminate trade barriers among themselves while keeping barriers against non-member countries."
+    },
+    {
+     "step": 2,
+     "action": "State the features",
+     "explain": "Trade blocks have reduced or zero tariffs among members, common trade policies, and sometimes free movement of capital and labour, and may aim at a common market or economic union."
+    },
+    {
+     "step": 3,
+     "action": "Explain advantages and disadvantages",
+     "explain": "Advantages are increased trade, larger markets, and economic growth for members; disadvantages are trade diversion away from efficient non-members and loss of independent trade policy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are trade blocks? Give two examples.",
+     "solution": "Trade blocks are groups of countries that reduce trade barriers among themselves while keeping barriers against outsiders. Examples include the European Union (EU) and the Association of South-East Asian Nations (ASEAN).",
+     "answer": "Regional groups with free internal trade; examples are EU and ASEAN."
+    },
+    {
+     "question": "How do trade blocks promote trade among members?",
+     "solution": "Trade blocks remove or lower tariffs and quotas among member countries, creating a larger free market that increases trade, investment, and specialisation within the block.",
+     "answer": "By removing internal tariffs and quotas, they create a larger free market."
+    },
+    {
+     "question": "State one advantage and one disadvantage of trade blocks.",
+     "solution": "An advantage is that members gain access to a larger market and increased trade. A disadvantage is trade diversion, where trade shifts from efficient non-members to less efficient members due to tariff differences.",
+     "answer": "Advantage: larger market; disadvantage: trade diversion from efficient outsiders."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain trade blocks, their features, and examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the advantages of trade blocks?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is meant by trade diversion in trade blocks?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.9",
+   "title": "India's Foreign Trade",
+   "section": "10.9",
+   "definition": "India's foreign trade refers to the export and import of goods and services between India and other countries, which has grown and diversified in composition since independence and economic liberalisation.",
+   "formula": "",
+   "key_idea": "India's foreign trade has shifted from exporting primary products to exporting manufactured goods, software, and services, and plays a major role in the country's economic growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the features of India's foreign trade.",
+    "How has the composition of India's exports changed over time?",
+    "What are the main items of India's imports?",
+    "How did liberalisation affect India's foreign trade?",
+    "Why is foreign trade important for India's economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the features",
+     "explain": "India's foreign trade has grown in volume, diversified in composition, shifted from primary to manufactured and service exports, and increased its share of global trade since liberalisation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the change in composition",
+     "explain": "Earlier India exported primary goods like tea and cotton; now it exports engineering goods, chemicals, gems, textiles, software, and services, while importing petroleum, machinery, and chemicals."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of liberalisation",
+     "explain": "The 1991 economic reforms reduced tariffs, removed licensing, and opened the economy, which increased both exports and imports and integrated India more closely with global markets."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the features of India's foreign trade.",
+     "solution": "India's foreign trade has grown in volume, diversified from primary to manufactured and service exports, increased its global share, and become more open after the 1991 liberalisation reforms.",
+     "answer": "Growth, diversification, shift to manufactured and service exports, and greater openness."
+    },
+    {
+     "question": "How has the composition of India's exports changed over time?",
+     "solution": "India's exports have shifted from primary products like tea, jute, and cotton to manufactured goods such as engineering products, chemicals, gems, textiles, and software and IT services.",
+     "answer": "From primary products to manufactured goods and IT services."
+    },
+    {
+     "question": "How did liberalisation affect India's foreign trade?",
+     "solution": "Liberalisation reduced import duties, removed licensing, and encouraged foreign investment, which increased both exports and imports and integrated India more deeply into the global economy.",
+     "answer": "Lower duties and open policies increased trade and global integration."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features and composition of India's foreign trade.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the main items of India's imports?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is foreign trade important for India's economy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.10.10",
+   "title": "Documents for Export-Import",
+   "section": "10.10",
+   "definition": "Export-import documents are the official papers required to move goods across national borders, including commercial documents like invoices and bills of lading and regulatory documents like licences and customs declarations.",
+   "formula": "",
+   "key_idea": "Export-import documents provide evidence of the transaction, transfer ownership, enable customs clearance, and secure payment, and errors can cause delays, penalties, or loss of payment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are export-import documents?",
+    "List the important documents used in export trade.",
+    "What is a bill of lading and why is it important?",
+    "Explain the purpose of a letter of credit in international trade.",
+    "What is the role of a commercial invoice in export-import?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List commercial documents",
+     "explain": "Commercial documents include the commercial invoice, bill of lading, packing list, bill of exchange, and insurance certificate, which record the terms and details of the trade transaction."
+    },
+    {
+     "step": 2,
+     "action": "List regulatory documents",
+     "explain": "Regulatory documents include the export or import licence, customs declaration, shipping bill, bill of entry, certificate of origin, and inspection certificate required by government and customs authorities."
+    },
+    {
+     "step": 3,
+     "action": "Explain the importance of documents",
+     "explain": "These documents prove ownership, enable customs clearance, secure payment through letters of credit, claim insurance, and provide legal evidence in case of disputes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List any four important documents used in export trade.",
+     "solution": "The four important export documents are the commercial invoice, bill of lading, export licence, and certificate of origin, each serving a different purpose in the export process.",
+     "answer": "Commercial invoice, bill of lading, export licence, and certificate of origin."
+    },
+    {
+     "question": "What is a bill of lading and why is it important?",
+     "solution": "A bill of lading is a document issued by the carrier that serves as a receipt for the goods, evidence of the contract of carriage, and a document of title that can transfer ownership of the goods.",
+     "answer": "A receipt, carriage contract, and document of title for shipped goods."
+    },
+    {
+     "question": "Explain the purpose of a letter of credit in international trade.",
+     "solution": "A letter of credit is a bank's guarantee that the exporter will be paid on presenting the required documents, reducing the risk of non-payment and building trust between unknown foreign buyers and sellers.",
+     "answer": "A bank guarantee ensuring payment to the exporter on presenting documents."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the important documents used in export-import trade.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of a commercial invoice in export-import?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are documents important in international trade?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

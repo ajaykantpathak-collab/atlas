@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_012",
+   "title": "c11_ip_cbse_01_012",
+   "questions": [
+    {
+     "q": "What are the two possible truth values in Boolean logic and their standard numeric representations?",
+     "a": "The two truth values are TRUE (represented as 1) and FALSE (represented as 0). A wrong answer (e.g., \"YES/NO\" without numeric mapping, or \"ON/OFF\" without 1/0) reveals the student hasn't internalised the binary foundation that connects Boolean logic to the binary number system studied in the previous node (c11_ip_cbse_01_010).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the truth table for the OR operation has three rows with output 1 and only one row with output 0.",
+     "a": "OR outputs 1 whenever at least one input is 1. With two inputs, there are four combinations: (0,0), (0,1), (1,0), (1,1). Only (0,0) has no 1s, so output is 0; the other three have at least one 1, so output is 1. A wrong answer (e.g., \"OR means addition so 1+1=2\") reveals the misconception that Boolean OR is arithmetic addition, confusing logical disjunction with integer addition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the Boolean expression (A + B') · C for A=1, B=0, C=1. Show each step.",
+     "a": "Step 1: Substitute values: (1 + 0') · 1. Step 2: Compute NOT: 0' = 1. Expression becomes (1 + 1) · 1. Step 3: Compute OR: 1 + 1 = 1. Expression becomes 1 · 1. Step 4: Compute AND: 1 · 1 = 1. Final answer: 1. A wrong answer (e.g., 0) reveals the student either misapplies precedence (doing AND before NOT/OR) or treats '+' as arithmetic addition (1+1=2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of (A · B)' and A' + B'. Are they identical? What does this imply?",
+     "a": "Yes, they are identical. For all four input combinations (A,B): (0,0)->(0·0)'=0'=1 and 0'+0'=1+1=1; (0,1)->(0·1)'=0'=1 and 0'+1'=1+0=1; (1,0)->(1·0)'=0'=1 and 1'+0'=0+1=1; (1,1)->(1·1)'=1'=0 and 1'+1'=0+0=0. This implies De Morgan's First Theorem: (A·B)' = A' + B'. A wrong answer (e.g., \"they are different\") reveals the student cannot systematically compare truth tables row-by-row and misses the fundamental equivalence that enables circuit simplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In Boolean logic, 1 + 1 = 2 because OR is just addition.\" Evaluate this claim and explain why it is correct or incorrect.",
+     "a": "The claim is incorrect. Boolean OR is logical disjunction, not arithmetic addition. In Boolean algebra, 1 + 1 = 1 because TRUE OR TRUE is TRUE. The '+' symbol is overloaded but follows different axioms: Boolean algebra has no concept of '2'; the set is {0,1} closed under OR. A wrong evaluation (e.g., \"it's correct because 1+1=2 in math\") reveals the student conflates arithmetic and logical operations, a critical error when moving to logic gate design where voltage levels represent only two states.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Boolean expression for a security system that triggers an alarm (output=1) ONLY when: (the door sensor is triggered AND the system is armed) OR (the window sensor is triggered AND the system is armed). Use variables D, W, A for door, window, armed respectively.",
+     "a": "Expected expression: Alarm = (D · A) + (W · A). A good answer correctly uses AND for \"sensor triggered AND armed\" for each sensor, then OR to combine the two conditions. A poor answer (e.g., D + W · A) reveals the student doesn't grasp that \"armed\" must apply to both sensors simultaneously (missing parentheses/precedence) or confuses the logical structure of the requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

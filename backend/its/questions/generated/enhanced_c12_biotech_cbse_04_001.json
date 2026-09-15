@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_001",
+   "title": "c12_biotech_cbse_04_001",
+   "questions": [
+    {
+     "q": "What is the primary reason human insulin cannot be expressed in *E. coli* as a single continuous polypeptide identical to preproinsulin?",
+     "a": "*E. coli* lacks the endoplasmic reticulum and Golgi apparatus required for signal peptide cleavage, C-peptide excision, and disulfide bond formation in the oxidative environment of the secretory pathway. A wrong answer (e.g., “*E. coli* cannot transcribe human genes”) reveals confusion between transcription/translation (which *E. coli* does well) and post-translational processing (which it cannot perform for eukaryotic secretory proteins).",
+     "self_check": true
+    },
+    {
+     "q": "In the Humulin® production process, why were the A and B chains of insulin expressed as separate fusion proteins with β-galactosidase rather than as a single proinsulin-like molecule?",
+     "a": "Expressing separate A and B chains avoids the need for *E. coli* to perform the precise proteolytic cleavage of the C-peptide, which requires eukaryotic convertases absent in bacteria. A wrong answer (e.g., “to increase yield”) misses the core issue: *E. coli* cannot process the C-peptide, so the proinsulin route would yield an inactive single-chain molecule with an extra 31-amino-acid insert.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher clones the human growth hormone (hGH) cDNA into an *E. coli* expression vector under the lac promoter but forgets to remove the signal peptide coding sequence. The expressed protein is 26 amino acids longer than mature hGH and accumulates in inclusion bodies. Explain why the signal peptide causes this outcome.",
+     "a": "The signal peptide directs the nascent polypeptide to the Sec translocon for periplasmic secretion, but *E. coli* signal peptidase cannot cleave the human signal peptide efficiently. The unprocessed precursor misfolds and aggregates into inclusion bodies. A wrong answer (e.g., “the signal peptide makes the protein toxic”) confuses misfolding due to failed translocation with toxicity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the advantages and disadvantages of using a T7 promoter-based vector (e.g., pET) versus a lac promoter-based vector (e.g., pUC) for expressing a toxic recombinant protein in *E. coli*.",
+     "a": "T7 promoter gives extremely high expression but requires a host expressing T7 RNA polymerase (e.g., BL21(DE3)) and tight repression (e.g., lacIq) to avoid leaky expression killing the host. Lac promoter offers lower, tunable expression with simpler hosts but may not yield enough protein. A wrong answer (e.g., “T7 is always better”) ignores the toxicity/leakiness trade-off critical for difficult proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Inclusion bodies are always undesirable in *E. coli* recombinant protein production.” Provide two scenarios where inclusion bodies are actually beneficial.",
+     "a": "Inclusion bodies can be beneficial when: (1) the protein is toxic to *E. coli* in its soluble form — sequestration in inclusion bodies allows high-cell-density fermentation without killing the host; (2) the protein is a protease or has enzymatic activity that would degrade host proteins — inclusion bodies act as a natural immobilization. A wrong answer (e.g., “inclusion bodies are always bad”) shows lack of awareness of process-level strategies used industrially.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete *E. coli* expression construct for a novel human cytokine that requires two disulfide bonds for activity. Specify: (a) vector backbone, (b) promoter, (c) fusion tag and cleavage site, (d) host strain, (e) induction conditions, and (f) refolding strategy. Justify each choice.",
+     "a": "A good answer: (a) pET-28a(+) (Kan^R, T7 promoter, N-terminal His-tag, thrombin site); (b) T7 promoter for high yield; (c) His-tag for IMAC purification, thrombin cleavage to remove tag; (d) BL21(DE3) pLysS (reduces basal T7 RNAP); (e) 0.5 mM IPTG at 18°C overnight to slow translation and favor folding; (f) solubilize inclusion bodies in 8 M urea, refold by rapid dilution into redox buffer (2 mM reduced/0.2 mM oxidized glutathione) at 4°C. A poor answer omits justification (e.g., “use pUC and lac promoter”) or ignores disulfide bond formation requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_10",
+   "title": "c8_math_ch14_10",
+   "questions": [
+    {
+     "q": "What is the very first action you must take when asked to find the area of an irregular polygon using decomposition?",
+     "a": "The first step is to draw diagonals or drop perpendiculars to divide the polygon into non-overlapping triangles and rectangles. A wrong answer like \"measure all the sides\" or \"find the perimeter\" reveals the student does not understand that decomposition is a partitioning strategy, not a measurement exercise, and that the goal is to create shapes with known area formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it essential that the triangles and rectangles in a decomposition do not overlap and leave no gaps?",
+     "a": "Overlapping regions would be counted twice, inflating the total area, while gaps would leave portions of the polygon unaccounted for, reducing the total. The sum of the parts must exactly equal the whole because area is an additive measure of the region. A student who answers \"it makes the calculation easier\" shows they view decomposition as a computational trick rather than a geometric partitioning based on the additive property of area.",
+     "self_check": true
+    },
+    {
+     "q": "A pentagon ABCDE is split into rectangle ABDE (length 14 cm, breadth 9 cm) and triangle BCD (base BD = 14 cm, height from C to BD = 6 cm). Calculate the area of the pentagon.",
+     "a": "Area of rectangle = 14 × 9 = 126 cm². Area of triangle = ½ × 14 × 6 = 42 cm². Total area = 126 + 42 = 168 cm². A wrong answer of 126 + 84 = 210 cm² reveals the student forgot the factor of ½ in the triangle formula. An answer of 126 + 27 = 153 cm² suggests they used the rectangle's breadth (9 cm) as the triangle's height instead of the given perpendicular height (6 cm).",
+     "self_check": true
+    },
+    {
+     "q": "A hexagon is decomposed into 4 triangles by drawing diagonals from one vertex. Another student decomposes the same hexagon into 2 rectangles and 2 triangles. Will both methods yield the same total area? Justify your answer.",
+     "a": "Yes, both methods will yield the identical total area. Area is an invariant property of the region; any valid partition of the polygon into non-overlapping sub-regions that completely cover it will sum to the same total. A student who says \"no, because the shapes are different\" fails to grasp that decomposition is just a calculation strategy and does not change the physical area of the figure.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds the area of quadrilateral PQRS by dividing it along diagonal PR (length 15 cm). The perpendicular distances from Q and S to PR are 4 cm and 7 cm respectively. The student calculates: Area = ½ × 15 × (4 + 7) = 82.5 cm². Is this method correct? Explain why or why not.",
+     "a": "Yes, the method is correct. The quadrilateral is split into triangles PQR and PRS. Area = ½ × PR × h₁ + ½ × PR × h₂ = ½ × PR × (h₁ + h₂) = ½ × 15 × 11 = 82.5 cm². A student who claims this is incorrect because \"the triangles are not right-angled\" misunderstands that the triangle area formula requires only the perpendicular height to the chosen base, not a right angle at the base.",
+     "self_check": true
+    },
+    {
+     "q": "Design an irregular pentagon-shaped garden plot with integer side lengths (in metres) that can be decomposed into exactly one rectangle and one triangle. Provide a labelled sketch with all dimensions, show the decomposition, and calculate the total area.",
+     "a": "A valid response might show a rectangle 10 m × 6 m attached to a triangle with base 10 m (shared side) and height 4 m. Total area = (10×6) + (½×10×4) = 60 + 20 = 80 m². A poor answer would have mismatched shared sides (e.g., rectangle width 6 m but triangle base 8 m), non-integer dimensions, or a decomposition that creates a trapezoid instead of a triangle, indicating the student cannot visualize how geometric pieces fit together.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 107,
+ "chapter_title": "Environment and Sustainable Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec107.txt",
+ "concepts": [
+  {
+   "id": "keec.107.1.1",
+   "title": "Environment: Functions and Resource Depletion",
+   "section": "Environment and sustainable development",
+   "definition": "Environment supplies resources, absorbs waste, sustains life and provides aesthetic services; resource depletion arises when extraction exceeds regeneration and waste generation exceeds absorption capacity, threatening the carrying capacity of the environment.",
+   "formula": "",
+   "key_idea": "Sustainable development meets the needs of the present generation without compromising the ability of future generations to meet their own needs.",
+   "textbook_ref": "keec107.txt environment functions sections",
+   "question_patterns": [
+    "define environment and state its four functions",
+    "what is carrying capacity of the environment",
+    "explain resource depletion and its causes",
+    "how does waste absorption capacity get exceeded",
+    "define sustainable development",
+    "distinguish renewable and non renewable resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the function",
+     "explain": "Note which environmental service is in use."
+    },
+    {
+     "step": 2,
+     "action": "compare use with limits",
+     "explain": "Check extraction against regeneration and waste against absorption."
+    },
+    {
+     "step": 3,
+     "action": "state the sustainability verdict",
+     "explain": "Judge whether present use shortchanges future generations."
+    }
+   ]
+  },
+  {
+   "id": "keec.107.2.1",
+   "title": "Global Warming, Ozone Depletion and Pollution",
+   "section": "Environmental degradation",
+   "definition": "Environmental degradation includes global warming from greenhouse gases like carbon dioxide and methane, ozone depletion from chlorofluorocarbons thinning the protective ozone layer, and air, water, land and noise pollution from industrial and household wastes.",
+   "formula": "",
+   "key_idea": "The Kyoto Protocol sets emission reduction targets for greenhouse gases, and control measures cover cleaner fuels, catalytic converters and treatment of effluents.",
+   "textbook_ref": "keec107.txt degradation sections",
+   "question_patterns": [
+    "explain global warming and the greenhouse effect",
+    "how does ozone depletion occur and why is it harmful",
+    "define pollution and its types",
+    "what are the measures to control environmental degradation",
+    "state the role of the kyoto protocol",
+    "which gases are responsible for the greenhouse effect"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the problem",
+     "explain": "Separate warming, ozone loss and pollution types."
+    },
+    {
+     "step": 2,
+     "action": "identify the cause",
+     "explain": "Note greenhouse gases, CFCs or waste streams."
+    },
+    {
+     "step": 3,
+     "action": "state the remedy",
+     "explain": "Recall protocols and control measures."
+    }
+   ]
+  },
+  {
+   "id": "keec.107.3.1",
+   "title": "Strategies for Sustainable Development in India",
+   "section": "Strategies for sustainable development",
+   "definition": "Sustainable development strategies include use of non-conventional energy like solar, wind and hydel power, cleaner LPG and gobar gas, compressed natural gas in transport, bio composting, biopesticides, traditional knowledge and prudent water and forest use.",
+   "formula": "",
+   "key_idea": "Shifting from fossil fuels to renewable energy and recycling resources keeps development within environmental limits.",
+   "textbook_ref": "keec107.txt strategies sections",
+   "question_patterns": [
+    "list the strategies for sustainable development",
+    "how do non conventional energy sources help sustainability",
+    "why is organic or bio composting sustainable",
+    "explain the use of cng in transport for cleaner air",
+    "how does traditional knowledge support sustainability",
+    "state the role of solar and wind energy in india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the strategy",
+     "explain": "Note the energy, input or practice change."
+    },
+    {
+     "step": 2,
+     "action": "check the resource use",
+     "explain": "Confirm reduced fossil use or recycling."
+    },
+    {
+     "step": 3,
+     "action": "link to sustainability",
+     "explain": "State the intergenerational benefit."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec107.txt exercises",
+   "questions": [
+    "Explain the functions of the environment.",
+    "What is meant by carrying capacity of the environment?",
+    "Define sustainable development with its features.",
+    "Explain how global warming and ozone depletion arise.",
+    "Suggest strategies for sustainable development in India."
+   ]
+  }
+ ]
+}

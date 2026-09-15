@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_010",
+   "title": "c10_bio_cbse_03_010",
+   "questions": [
+    {
+     "q": "Where exactly does fertilisation occur in the human female reproductive tract, and why is this site biologically suitable?",
+     "a": "Correct answer: Fertilisation occurs in the ampulla of the fallopian tube (uterine tube). This site is suitable because: (1) it is close to the ovary to receive the ovulated secondary oocyte, (2) ciliary beating and peristalsis move the ovum toward the uterus while sperm swim upward, (3) tubal secretions provide nutrients and the optimal pH for sperm capacitation and oocyte viability, and (4) the narrow lumen increases probability of sperm-ovum encounter.  \nA wrong answer (e.g., \"uterus\" or \"vagina\") reveals the student has not internalised the anatomical journey of gametes and confuses the site of implantation with the site of fertilisation — a classic board exam error that costs 1 mark in short-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The placenta allows the mother's blood and the foetus's blood to mix so that nutrients can pass directly.\" Is this statement correct? Explain why or why not using the structure of the placenta.",
+     "a": "Correct answer: The statement is incorrect. Maternal and foetal blood do NOT mix in a healthy placenta. The placenta is a haemochorial barrier: foetal capillaries in the chorionic villi are bathed in maternal blood that fills the intervillous spaces (lacunae), but the two bloodstreams are separated by the placental barrier (syncytiotrophoblast, cytotrophoblast, basement membrane, foetal capillary endothelium). Exchange occurs by diffusion, active transport, and pinocytosis across this barrier. Mixing would trigger immune rejection and clotting due to blood group incompatibility.  \nA wrong answer (\"yes, they mix\") reveals the fundamental misconception that the placenta is a direct blood connection like a pipe, rather than a selective exchange surface — this error appears in 2–3 mark \"explain the structure-function relationship\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "If a woman has bilateral blockage of both fallopian tubes, explain step by step why natural fertilisation cannot occur, and name one assisted reproductive technique that bypasses this blockage.",
+     "a": "Correct answer with reasoning:  \nStep 1: During copulation, semen is deposited in the vagina.  \nStep 2: Sperm must swim through the cervix (cervical mucus), uterus, and into the fallopian tubes to reach the ampulla.  \nStep 3: Bilateral tubal blockage physically prevents sperm from reaching the ovum in the ampulla.  \nStep 4: Even if ovulation occurs, the ovum cannot enter the tube; sperm and ovum never meet.  \nStep 5: Fertilisation fails → no zygote → no pregnancy.  \nAssisted technique: In Vitro Fertilisation (IVF) — oocytes are retrieved from ovaries, fertilised with sperm in a culture dish, and the resulting embryo is transferred directly into the uterus, bypassing the tubes.  \nA wrong answer (e.g., \"fertilisation happens in uterus\") shows the student cannot trace the gamete pathway and does not understand IVF as a tube-bypass method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutritional role of the yolk sac in early embryonic development (weeks 2–4) with the nutritional role of the placenta after week 12. What structural change enables this transition?",
+     "a": "Correct answer: The yolk sac (vitelline sac) provides early nutrition via vitelline circulation — it is a temporary extra-embryonic membrane with blood islands that absorb nutritive fluid from the uterine cavity (histiotrophic nutrition). By week 12, the placenta takes over: chorionic villi increase surface area, maternal spiral arteries remodel to form lacunae filled with arterial blood, and the definitive placenta provides haemotrophic nutrition (direct blood-borne nutrient exchange). The structural transition is the formation of chorionic villi from the trophoblast and their vascularisation by allantoic (umbilical) vessels, replacing the yolk sac's vitelline circulation with the umbilical circulation.  \nA wrong answer (e.g., \"placenta forms from yolk sac\") reveals confusion between extra-embryonic membranes and their developmental timelines — a common error in \"sequence the events\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 10 student argues: \"Since the placenta produces progesterone and estrogen, the corpus luteum is not needed after implantation.\" Evaluate this claim. Is the corpus luteum completely dispensable after week 8? Justify with hormonal feedback.",
+     "a": "Correct evaluation: The claim is partially correct but incomplete. The corpus luteum IS essential until the placenta takes over steroidogenesis — this \"luteoplacental shift\" occurs around weeks 8–10. Before week 8, the corpus luteum is the sole source of progesterone maintaining the endometrium; hCG from the syncytiotrophoblast rescues the corpus luteum from luteolysis. After week 10, the placenta produces sufficient progesterone and estrogen independently, and the corpus luteum regresses. However, if the corpus luteum fails before week 8 (e.g., due to low hCG), progesterone drops → endometrial breakdown → miscarriage. So the corpus luteum is NOT dispensable immediately after implantation; there is a critical overlap period.  \nA wrong answer (\"corpus luteum stops working at implantation\") shows the student misses the temporal coordination between embryonic hCG and maternal ovarian function — a concept tested in \"hormonal regulation of pregnancy\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using household materials) to show how the placental barrier allows selective exchange while preventing blood mixing. List materials, procedure, and what each component represents.",
+     "a": "Expected answer criteria:  \nMaterials: Two beakers, a semi-permeable membrane (dialysis tubing or egg membrane), water, food colour (red for maternal blood, blue for foetal blood), glucose solution, starch solution, iodine test.  \nProcedure: Fill one beaker with red water + glucose (maternal blood with nutrients). Fill dialysis tubing with blue water (foetal blood), tie ends, submerge in beaker. After 30 min, test tubing fluid for glucose (Benedict's test) and beaker fluid for blue colour.  \nRepresentation: Beaker = maternal lacunae; tubing = chorionic villi capillary wall; glucose diffusion = nutrient transfer; no blue dye in beaker = no foetal blood mixing; iodine-starch test can show size-selective barrier.  \nA poor answer (e.g., \"mix red and blue water\") reveals the student cannot model a barrier system and still thinks mixing occurs — this indicates a need for concrete visualisation before abstract diagrams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

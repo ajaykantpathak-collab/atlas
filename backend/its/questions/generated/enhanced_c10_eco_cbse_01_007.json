@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_007",
+   "title": "c10_eco_cbse_01_007",
+   "questions": [
+    {
+     "q": "Define \"sustainable development\" in the context of Class 10 Economics, mentioning the core principle of intergenerational equity.",
+     "a": "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. A wrong answer that only mentions \"protecting the environment\" or \"planting trees\" reveals the student misses the economic core: the trade-off between current consumption and future productive capacity, and the focus on *needs* (not wants) across generations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a high per capita income of a state like Punjab (from intensive agriculture) NOT necessarily indicate sustainable development? Use the concepts of renewable vs. non-renewable resources in your explanation.",
+     "a": "Punjab's high per capita income comes largely from rice-wheat cultivation that mines groundwater (a renewable resource being used faster than it recharges, effectively making it non-renewable in practice). Per capita income measures current flow of output, not the stock of natural capital. A wrong answer that says \"income is high so development is sustainable\" shows the student confuses a flow variable (income) with a stock variable (aquifer health) and ignores the depreciation of natural capital.",
+     "self_check": true
+    },
+    {
+     "q": "The groundwater table in a block of Punjab is falling at 0.8 meters per year. The current depth is 30 meters, and the aquifer becomes economically unviable for farming at 60 meters. If the recharge rate is 0.2 meters per year and extraction continues at the current rate, calculate how many years until farming becomes unviable. Show steps.",
+     "a": "Step 1: Net depletion per year = Extraction rate - Recharge rate. We are given net fall = 0.8 m/yr (this already accounts for recharge). Step 2: Remaining viable depth = 60 m - 30 m = 30 m. Step 3: Years until unviable = Remaining depth / Net depletion per year = 30 m / 0.8 m/yr = 37.5 years. Step 4: Interpretation: In ~38 years, this region loses its agricultural base unless extraction changes. A wrong answer using only 0.8 m as extraction (ignoring recharge is already netted) or dividing 30 by 0.2 reveals confusion between gross extraction, recharge, and net depletion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two development scenarios for a tribal district in Odisha:\nScenario A: Allow bauxite mining, generating ₹500 crore/year revenue for 20 years, but destroying forest cover that provides ecosystem services (water regulation, soil retention, non-timber forest products) valued at ₹120 crore/year indefinitely.\nScenario B: Ban mining, protect forests, and develop eco-tourism and minor forest produce processing generating ₹80 crore/year indefinitely.\nAnalyze which scenario aligns with sustainable development using the concept of intergenerational equity.",
+     "a": "Scenario B aligns with sustainable development. Scenario A depletes a non-renewable resource (bauxite) and destroys renewable forest capital that provides perpetual benefits (₹120 cr/yr forever). The present value of forest services at a 5% discount rate is ₹120/0.05 = ₹2400 crore, far exceeding mining's ₹500 cr/yr for 20 years (PV ≈ ₹6230 cr at 5%, but note mining revenue stops after 20 years while forest services continue). Intergenerational equity requires preserving the forest's productive capacity for future generations. A wrong answer choosing Scenario A because \"₹500 crore > ₹80 crore\" ignores the infinite horizon of forest services and treats natural capital as infinite.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's HDI rank has improved, so we can say development has become more sustainable.\" Use the components of HDI and the concept of environmental sustainability to justify your answer.",
+     "a": "The statement is flawed. HDI measures three dimensions: health (life expectancy), education (mean/expected years of schooling), and standard of living (GNI per capita). It does NOT include any environmental indicator (e.g., CO2 emissions, forest cover, groundwater levels). A country can raise HDI by burning more coal for electricity (improving living standards) while degrading air quality and depleting resources — exactly what happened in many industrializing regions. Sustainable development requires maintaining the natural capital base, which HDI ignores. A wrong answer agreeing with the statement reveals the student thinks HDI is a comprehensive measure of development, missing the specific limitation taught in c10_eco_cbse_01_006.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple \"Sustainability Checklist\" for a village panchayat planning a new development project (e.g., a small dam, a factory, or a tourism complex). The checklist must have 5 questions that test whether the project meets the criteria of sustainable development. Each question should target a different environmental concern (water, soil, air, biodiversity, intergenerational equity).",
+     "a": "A good checklist:\n1. Water: Will the project reduce the availability or quality of groundwater/surface water for future agricultural/domestic use?\n2. Soil: Will the project cause soil erosion, salinity, or loss of fertility that cannot be reversed within a generation?\n3. Air: Will the project increase air pollutants (PM2.5, SO2) beyond safe limits for human health and crop productivity?\n4. Biodiversity: Will the project destroy habitat for native species or fragment ecosystems, reducing ecological resilience?\n5. Intergenerational Equity: Will the benefits of the project accrue mainly to the current generation while the costs (resource depletion, pollution) are borne by future generations?\nA poor checklist that only asks \"Will it create jobs?\" or \"Will it increase income?\" shows the student equates development with short-term economic gain, missing the multi-dimensional environmental and temporal aspects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

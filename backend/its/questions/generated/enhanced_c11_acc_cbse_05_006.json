@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_006",
+   "title": "c11_acc_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the immediate effect on the bank passbook when a cheque deposited by the firm is dishonoured?",
+     "a": "The bank debits the firm's account, reducing the passbook balance. A wrong answer (e.g., \"passbook balance increases\" or \"no effect\") reveals the student confuses dishonour with honouring of a cheque or does not understand that the bank reverses the earlier credit given when the cheque was deposited.",
+     "self_check": true
+    },
+    {
+     "q": "A firm deposited a cheque of ₹25,000 on 28th March. The bank credited the firm's account on 30th March but the cheque was dishonoured on 2nd April. The firm prepares a Bank Reconciliation Statement on 31st March. How should the dishonoured cheque be treated in the BRS if the starting point is the cash book balance?",
+     "a": "On 31st March, the cheque has been credited by the bank but not yet dishonoured (dishonour happens on 2nd April). Therefore, there is no difference due to dishonour as on 31st March. The cash book and passbook both show the credit. A wrong answer (e.g., \"subtract ₹25,000 from cash book balance\") reveals the student fails to consider the date of dishonour relative to the reconciliation date and mechanically applies the rule without analysing the timeline.",
+     "self_check": true
+    },
+    {
+     "q": "The cash book shows a debit balance of ₹1,00,000. A cheque of ₹15,000 deposited earlier was dishonoured, and the bank debited ₹150 as dishonour charges. The firm has not recorded either in the cash book. Prepare the Bank Reconciliation Statement starting from cash book balance and find the passbook balance.",
+     "a": "Step 1: Start with cash book balance ₹1,00,000 (Dr). Step 2: Dishonoured cheque ₹15,000 reduces passbook balance → subtract from cash book balance. Step 3: Dishonour charges ₹150 also reduce passbook balance → subtract. Step 4: Passbook balance = ₹1,00,000 - ₹15,000 - ₹150 = ₹84,850 (Dr). A wrong answer (e.g., adding the amounts) reveals the student does not grasp that both items make the passbook balance smaller than the cash book balance, so they must be deducted when moving from cash book to passbook.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of a dishonoured cheque in the Bank Reconciliation Statement when (a) starting from cash book balance and (b) starting from passbook balance. Explain why the treatments are opposite.",
+     "a": "(a) Starting from cash book: dishonoured cheque is subtracted because the passbook balance is lower. (b) Starting from passbook: dishonoured cheque is added because the cash book balance is higher. They are opposite because the reconciliation process always moves from the starting balance to the other balance by adjusting for the difference. A wrong answer (e.g., same treatment in both cases) reveals the student memorises rules without understanding the directional logic of reconciliation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When a discounted bill is dishonoured, the bank debits the firm's account with the bill amount plus noting charges. Since the firm had already recorded the bill as a receipt, the cash book balance is higher. Therefore, in the BRS starting from cash book, we should add the bill amount and noting charges.\" Evaluate this argument.",
+     "a": "The argument is incorrect. The bill amount and noting charges both reduce the passbook balance, so they must be subtracted from the cash book balance (not added) to arrive at the passbook balance. The student correctly identifies that the cash book balance is higher but then applies the wrong adjustment direction. This reveals a fundamental confusion: the student thinks \"higher cash book balance means we add to reach passbook\" instead of \"higher cash book balance means we subtract the difference to come down to passbook.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a dishonoured cheque and a dishonoured discounted bill occurring in the same month, with specific amounts and dates. Write the rectification entries the firm must pass in its cash book after receiving the bank statement, and show how both items appear in a Bank Reconciliation Statement prepared from the passbook balance.",
+     "a": "A good answer will include: (1) Scenario: e.g., On 10th April, cheque ₹30,000 from Rahul deposited; on 15th April, bill of ₹50,000 discounted with bank; both dishonoured on 25th April with noting charges ₹200 on bill. Bank statement received 30th April. (2) Rectification entries: Debit Rahul ₹30,000; Debit Bill Receivable ₹50,000 + Noting Charges ₹200; Credit Bank ₹80,200. (3) BRS from passbook: Add ₹30,000 (cheque dishonour) + ₹50,200 (bill dishonour + charges) to passbook balance to reach cash book balance. A poor answer reveals inability to integrate multiple dishonours, confusion about noting charges, or incorrect direction of adjustment when starting from passbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

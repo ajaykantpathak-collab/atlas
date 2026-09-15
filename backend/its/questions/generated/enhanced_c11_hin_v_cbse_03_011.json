@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_03_011",
+   "title": "c11_hin_v_cbse_03_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for verb formations like \"खाती-पीती\", \"आती-जाती\", \"कहती-सुनती\" that appear repeatedly in the text, and explain their aspectual function in two sentences.",
+     "a": "These are **compound verbs (संयुक्त क्रिया)** formed by combining two verbal stems (V1+V2) where the first verb (V1) carries the main lexical meaning and the second (V2) adds aspectual nuance — here, the V2 forms (खाती, पीती, आती, जाती, कहती, सुनती) are actually conjunctive participles (अन्य क्रिया रूप) indicating **simultaneous/habitual continuity** (समकालिक/नित्य निरंतरता). A wrong answer calling them \"simple verbs\" or \"conjunctions\" reveals the student cannot distinguish morphological composition from syntactic coordination, missing how Sobti uses this structure to convey the relentless, cyclical nature of domestic labor.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator shifts between \"मैं\" (main), \"हम\" (ham), and \"अपना\" (apna) as first-person references. Explain the pragmatic difference between these forms in the context of her interactions with रक्रक, लखन नक, and her children, giving one textual instance for each.",
+     "a": "\"मैं\" asserts individual agency and subjective experience (e.g., \"मैं लो;ा घ डकेरा फि;क चली\" — claiming ownership of her labor). \"हम\" signals collective identity with her children or solidarity with marginalized women (e.g., \"हमारे बच्चे\" — positioning herself as representative mother). \"अपना\" marks reflexive possession and emotional intimacy (e.g., \"अपने बच्चों के लिए\" — emphasizing personal stake). A student who treats these as interchangeable synonyms misses how Sobti encodes the narrator's shifting subjectivity — from isolated worker to collective representative to protective mother — through pronominal choice alone.",
+     "self_check": true
+    },
+    {
+     "q": "In the passage where रक्रक says \"देखो, तुमसे कहा था न कि यहाँ पहले से ही कोई काम कर रहा है\", analyze the sentence structure: identify the clause types, the function of \"न\", and explain how this single utterance establishes power dynamics through syntax.",
+     "a": "The utterance contains: (1) Main clause \"देखो\" (imperative, verb-initial, no subject — direct command), (2) Complement clause \"तुमसे कहा था\" (past perfect, dative subject \"तुमसे\" marking indirect object as logical subject), (3) Embedded clause \"कि यहाँ पहले से ही कोई काम कर रहा है\" (finite clause with existential \"कोई\", habitual aspect \"कर रहा है\"). The particle \"न\" after \"था\" functions as a **confirmation-seeking tag** (पुष्टिकारक कण), presupposing shared knowledge and placing burden of agreement on listener. Syntactically, रक्रक controls all clause types — imperative, reported speech, and embedded assertion — while the narrator receives only the dative role (\"तुमसे\"), grammatically encoding his epistemic authority and her subordination. A student identifying only \"imperative sentence\" misses the layered clause embedding that performs power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrator's internal monologue (e.g., \"मैं सोचती कि ये लोग मुझे क्यों नहीं समझते\") with her spoken dialogue (e.g., \"नहीं, अभी तक कोई काम नहीं आया\"). Identify three systematic grammatical differences and explain how they reflect the gap between her inner consciousness and social performance.",
+     "a": "Three differences: (1) **Tense-aspect**: Internal monologue uses imperfective/habitual (\"सोचती\", \"रहती\") reflecting ongoing mental state; spoken dialogue uses perfective/present (\"नहीं आया\", \"है\") for factual assertion. (2) **Clause complexity**: Internal monologue embeds multiple subordinate clauses (\"कि ये लोग... क्यों नहीं समझते\"); spoken dialogue uses paratactic, fragmented structures (\"नहीं, अभी तक कोई काम नहीं आया\"). (3) **Honorific avoidance**: Internal monologue uses zero honorifics for others (\"ये लोग\"); spoken dialogue would require honorifics if addressing superiors. This gap shows her rich interiority (complex syntax, subjective time) versus constrained exteriority (simple syntax, objective time, power-conscious register). A student listing only \"different words\" fails to see grammar as the site where oppression and resistance are negotiated.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Sobti's use of Braj/Western Hindi dialect forms (e.g., 'करियो', 'दियो', 'हौ', 'भयो') is merely decorative local color.\" Defend or refute using three specific grammatical arguments from the text.",
+     "a": "**Refute.** Three arguments: (1) **Morphological systemicity**: Forms like \"करियो\" (optative/precative), \"दियो\" (perfective participle), \"हौ\" (1st person plural present), \"भयो\" (3rd person masculine perfective) follow consistent Braj paradigms — not random insertions but a coherent alternative grammar. (2) **Sociolinguistic indexing**: These forms cluster in scenes of domestic intimacy, childhood memory, and female solidarity (e.g., with लखन नक, children), marking a **vernacular feminine register** distinct from the Khari Boli of patriarchal authority (रक्रक, लखन नक के पिता). (3) **Narrative agency**: The narrator's written Hindi (the text we read) is Khari Boli, but her *remembered* speech is dialect — the dialect forms appear precisely when she reclaims her past on her own terms. Calling this \"decorative\" ignores how Sobti uses diglossia to stage the narrator's bilingual consciousness. A student accepting the claim reveals inability to see dialect as grammatical system with political valence.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word diary entry from the narrator's perspective *after* she begins writing her autobiography, using at least four grammatical features analyzed above (compound verbs, honorific shifts, dialect forms, clause embedding) to show her evolving linguistic consciousness. Annotate each feature in brackets.",
+     "a": "**Sample response:** \"आज फिर [dialect: 'फिर' as discourse marker] रक्रक बाबू ने [honorific: 'बाबू' + ergative 'ने'] कहा — 'लिखती रहो' [compound verb: V1+V2 habitual]. मैं [1st person assertion] सोचती हूँ [embedded clause: 'कि' complementizer] कि मेरी भाषा अब मेरी है [possessive 'मेरी' + equative 'है']. पहले [temporal adverb] जब मैं [subject] बोलती थी [habitual aspect], तब [subordinate clause] शब्द [object] दूसरों के [genitive] होते थे। अब [contrastive discourse marker] कलम [instrumental subject] मेरे हाथ में [locative] है और [coordination] वाक्य [subject] मेरे [genitive] बनते हैं [passive/resultative]। लखन नक [vocative] सुनो [imperative] — तुम्हारी [2nd person possessive] माँ [noun] अब [temporal] 'मैं' [quoted pronoun] से 'लेखिका' [noun] बनी [perfective]।\"\n\n**Features annotated:** [dialect], [honorific+ergative], [compound verb], [1st person], [embedding], [possessive+equative], [habitual], [subordination], [contrastive marker], [instrumental/locative], [coordination], [passive/resultative], [vocative], [2nd person possessive], [perfective]. A poor answer using only standard Khari Boli with no annotations shows the student cannot *produce* the grammatical repertoire they were asked to *analyze* — the ultimate test of analytical internalization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

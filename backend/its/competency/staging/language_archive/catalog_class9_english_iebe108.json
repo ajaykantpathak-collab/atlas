@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 8,
+ "chapter_title": "Follow That Dream",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.108.8.1",
+   "title": "The Letter and Its Context",
+   "section": "8",
+   "definition": "The text is an excerpt from My Daughter, My Friend by Irene Chua - a letter dated 19 June 1995 written by a mother to her teenage daughter Ming, sharing her deepest thoughts and celebrating the special bond between mother and daughter.",
+   "formula": "-",
+   "key_idea": "A letter across generations: a mother writes not to instruct but to befriend.",
+   "textbook_ref": "iebe108.txt letter excerpt and its introduction",
+   "question_patterns": [
+    "who wrote the letter and to whom - describe the context",
+    "what is the source of the letter Follow That Dream",
+    "how does the mother address her daughter in the letter",
+    "what makes the bond between the writer and Ming special",
+    "why did the mother choose to write a letter instead of talking",
+    "state the occasion and purpose of the letter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the writer and reader",
+     "explain": "Irene Chua writes to her teenage daughter Ming."},
+    {"step": 2, "action": "note the form",
+     "explain": "The epistolary form makes the thoughts personal and permanent."},
+    {"step": 3, "action": "grasp the purpose",
+     "explain": "The letter shares life insights and affirms the bond."}
+   ]
+  },
+  {
+   "id": "iebe.108.8.2",
+   "title": "Theme - Following Your Dream",
+   "section": "8",
+   "definition": "The central message urges the daughter - and every reader - to follow that dream: to identify what one truly loves, work towards it bravely, and not let fear or others' expectations dim one's own path in life.",
+   "formula": "-",
+   "key_idea": "A dream followed with courage is the surest route to a self-owned life.",
+   "textbook_ref": "iebe108.txt passages on dreams and life advice",
+   "question_patterns": [
+    "what advice does the mother give about following dreams",
+    "why is it important to follow a dream - explain",
+    "what obstacles does the letter warn the daughter about",
+    "how does the mother balance freedom and guidance",
+    "what is your dream and how will you follow it - write",
+    "explain the title Follow That Dream with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the advice",
+     "explain": "Identify your dream and pursue it with courage."},
+    {"step": 2, "action": "note the warnings",
+     "explain": "Fear, comparison and others' expectations can dim dreams."},
+    {"step": 3, "action": "own the message",
+     "explain": "The reader is invited to apply it personally."}
+   ]
+  },
+  {
+   "id": "iebe.108.8.3",
+   "title": "Epistolary Style and the Mother-Daughter Bond",
+   "section": "8",
+   "definition": "Being a letter, the text shows epistolary features - salutation, intimate first-person voice, reflections dated in time and a personal sign-off; its tone is warm, honest and reflective, modelling how trust can turn a parent into a friend.",
+   "formula": "-",
+   "key_idea": "Letter form plus warm voice equals a heart-to-heart on paper.",
+   "textbook_ref": "iebe108.txt style and tone features of the letter",
+   "question_patterns": [
+    "what are the features of a personal letter found in the text",
+    "how does the tone of the letter show the mother-daughter bond",
+    "why is the letter more touching than a conversation might be - discuss",
+    "find phrases that show the mother's trust in her daughter",
+    "how does the first-person voice affect the reader",
+    "write a letter of advice to a younger friend following this model"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the epistolary features",
+     "explain": "Date, salutation, intimate voice and closing signature."},
+    {"step": 2, "action": "read the tone",
+     "explain": "Warmth, honesty and reflection colour every paragraph."},
+    {"step": 3, "action": "value the bond",
+     "explain": "The letter turns a mother's advice into a friend's companionship."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "iebe108.txt exercises",
+   "questions": [
+     "What insights does the mother share with Ming in her letter?",
+     "Why is it important to follow a dream - answer from the letter.",
+     "Write a letter of advice to a friend about following a dream."
+   ]
+  }
+ ]
+}

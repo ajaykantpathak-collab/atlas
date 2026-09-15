@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_006",
+   "title": "c12_biotech_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define \"callus\" in the context of plant tissue culture and state the primary hormonal requirement for its induction from a mature differentiated explant.",
+     "a": "Callus is an unorganized, proliferating mass of undifferentiated parenchyma cells formed in vitro from a plant explant. The primary hormonal requirement for induction is a high auxin-to-cytokinin ratio, typically achieved by supplementing the medium with a synthetic auxin like 2,4-D (2,4-dichlorophenoxyacetic acid) at 0.5–5.0 mg/L, often with a low concentration of cytokinin (e.g., kinetin 0.1–0.5 mg/L). A wrong answer (e.g., \"callus is organized tissue\" or \"cytokinin alone induces callus\") reveals confusion between callus and organogenic structures, or misunderstanding of the Skoog-Miller hypothesis that auxin dominance promotes undifferentiated growth.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses MS medium with 2 mg/L 2,4-D and 0.5 mg/L kinetin to induce callus from tobacco leaf explants. After 4 weeks, the explants have turned brown and necrotic with no callus formation. Explain the most likely biochemical cause of this browning and propose two specific protocol modifications to prevent it.",
+     "a": "Browning is caused by oxidation of phenolic compounds leached from wounded explant tissues into the medium, forming quinones that are toxic to cells. Modifications: (1) Add antioxidants to the medium (e.g., 100–150 mg/L ascorbic acid, 100 mg/L citric acid, or 50–100 mg/L polyvinylpyrrolidone/PVP) to scavenge phenolics; (2) Pre-treat explants in an antioxidant solution (e.g., 100 mg/L ascorbic acid + 100 mg/L citric acid) for 30–60 min before inoculation. A wrong answer focusing only on contamination or PGR concentration misses the specific phenolic oxidation mechanism that is the #1 cause of recalcitrance in many woody and medicinal plants.",
+     "self_check": true
+    },
+    {
+     "q": "You are tasked with establishing a callus culture from mature nodal segments of *Azadirachta indica* (neem), a woody tree known for high phenolic content. Design a complete induction protocol including: basal medium, PGR combination with concentrations, antioxidant strategy, incubation conditions, and subculture timeline. Justify each choice.",
+     "a": "**Protocol:**  \n1. **Basal medium:** MS (Murashige & Skoog) — standard for woody dicots, high nitrate and ammonium.  \n2. **PGRs:** 2,4-D 2.0 mg/L + Kinetin 0.5 mg/L (high auxin:cytokinin = 4:1) to dedifferentiate mature tissue.  \n3. **Antioxidants:** 150 mg/L ascorbic acid + 100 mg/L PVP-40 in medium; explant pre-soak in 100 mg/L ascorbic acid + 100 mg/L citric acid for 1 h.  \n4. **Incubation:** 25±2°C, 16 h photoperiod (low light 10–15 μmol·m⁻²·s⁻¹) or dark; callus often initiates better in dark for woody species.  \n5. **Subculture:** Transfer friable callus to fresh same medium every 21 days; discard brown/necrotic parts.  \n**Justification:** Mature woody explants have high phenolics → antioxidants essential. 2,4-D is more stable and potent than NAA/IAA for recalcitrant species. Dark reduces photo-oxidation. A wrong answer omitting antioxidants or using low auxin (e.g., 0.5 mg/L 2,4-D) would fail for neem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"friable callus\" and \"compact callus\" in terms of: (a) cellular structure, (b) suitability for cell suspension culture initiation, (c) risk of somaclonal variation, and (d) typical PGR regime that produces each type.",
+     "a": "| Feature | Friable Callus | Compact Callus |\n|---------|----------------|----------------|\n| (a) Cellular structure | Loosely arranged, isodiametric cells with large intercellular spaces, low cell-to-cell adhesion | Tightly packed, elongated/meristematic cells, dense cytoplasm, strong adhesion |\n| (b) Suspension culture | **Ideal** — easily disperses into single cells/small aggregates in liquid medium with gentle shaking | Poor — requires enzymatic (pectinase/cellulase) or mechanical dissociation; often forms large clumps |\n| (c) Somaclonal variation risk | **Higher** — rapid division, less organized, more prone to chromosomal rearrangements | Lower — slower growth, more organized, but not zero |\n| (d) Typical PGR regime | High auxin (2,4-D 2–5 mg/L) ± low cytokinin; often with reduced nitrogen (e.g., half-strength NH₄NO₃) | Lower auxin (0.5–1 mg/L 2,4-D or NAA) + higher cytokinin (1–2 mg/L kinetin/BAP); favors meristematic centers |\n\nA wrong answer claiming compact callus is better for suspension culture confuses the physical requirement of easy dispersion with growth habit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Once a callus line is established, it can be maintained indefinitely on the same induction medium without any risk of genetic instability.\" Provide a reasoned judgment with three specific pieces of evidence from plant tissue culture biology.",
+     "a": "**Judgment: False.** Three evidences:  \n1. **Somaclonal variation accumulates with each subculture** — prolonged culture leads to chromosomal abnormalities (aneuploidy, translocations), point mutations, and epigenetic changes (DNA methylation shifts) that alter phenotype.  \n2. **Medium exhaustion and metabolite buildup** — after 3–4 weeks, nutrients deplete, pH drifts, and toxic waste products (phenolics, ammonia) accumulate, selecting for adapted but genetically altered sublines.  \n3. **Habituation** — callus may become \"habituated\" to exogenous PGRs, losing the ability to regenerate organs or embryos; it may also autoselect for faster-growing but non-regenerative variants.  \n**Best practice:** Limit subcultures to 6–8 cycles, periodically test regenerative capacity, and cryopreserve early-passage lines. A wrong answer citing only \"contamination risk\" misses the core genetic instability issue.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 4-week experimental plan to optimize the auxin:cytokinin ratio for callus induction from *Catharanthus roseus* (periwinkle) leaf explants, using a response surface methodology (RSM) approach with two factors (2,4-D and kinetin). Specify: factor ranges, number of treatments, replication, response variables, and how you would analyze the data to find the optimum.",
+     "a": "**Experimental Plan (Central Composite Design - CCD):**  \n- **Factors & ranges:** 2,4-D (0.5–5.0 mg/L), Kinetin (0.1–2.0 mg/L).  \n- **Design:** 5 levels per factor (-α, -1, 0, +1, +α) → 13 treatments (4 factorial points, 4 axial points, 5 center points for pure error).  \n- **Replication:** 10 explants per treatment, randomized complete block design (blocks = Petri dishes).  \n- **Response variables (measured at 4 weeks):** (1) Callus induction frequency (% explants forming callus), (2) Fresh weight of callus (g), (3) Friability index (1–5 visual scale).  \n- **Analysis:** Fit second-order polynomial model: Y = β₀ + ΣβᵢXᵢ + ΣβᵢᵢXᵢ² + ΣβᵢⱼXᵢXⱼ + ε. Use ANOVA to test significance (p<0.05). Generate 3D response surfaces and contour plots. Locate optimum via ridge analysis or desirability function (maximize frequency & weight, target friability=4). Validate with 3 confirmatory runs at predicted optimum.  \nA poor answer would use one-factor-at-a-time (OFAT) design, ignore interaction effects, or measure only binary \"callus yes/no\" without quantitative growth metrics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

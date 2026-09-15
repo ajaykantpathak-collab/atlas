@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_003",
+   "title": "c11_soc_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define 'self-reflexivity' in sociological research and state one practical technique a researcher uses to practice it.",
+     "a": "Self-reflexivity is the researcher's continuous critical examination of their own attitudes, social background, and potential biases that may shape the research process. A practical technique is maintaining a daily reflexive journal during fieldwork where the researcher records their emotional reactions, assumptions challenged, and power dynamics observed in interactions with respondents. A wrong answer that defines reflexivity merely as \"being honest\" or \"admitting bias at the start\" reveals a misconception that it is a one-time declaration rather than an ongoing, documented practice throughout the research cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the insider perspective is indispensable in sociology, and why relying exclusively on it risks producing unscientific knowledge.",
+     "a": "The insider perspective is indispensable because sociology's subject matter is the *meaning* actors attach to their actions — e.g., what a ritual *means* to a believer, not just its observable motions. This meaning is accessible only by adopting the actor's viewpoint. However, relying exclusively on it risks \"going native\" — losing analytical distance, reproducing the group's own biases (e.g., accepting a caste hierarchy as \"natural\" because insiders say so), and failing to connect micro-experiences to macro-structures. A wrong answer that claims the insider view is \"more true\" or \"unbiased\" reveals a confusion between *authenticity* (faithfulness to actors' views) and *objectivity* (critical analysis of those views).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher from an urban, upper-caste, middle-class background is studying a rural Dalit community's experience of accessing government welfare schemes. Describe two specific self-reflexive steps the researcher must take *before* fieldwork and two *during* fieldwork to address the insider-outsider tension.",
+     "a": "**Before fieldwork:** (1) Write a detailed positionality statement explicitly naming their caste, class, urban upbringing, and educational privilege, and hypothesizing how each might shape their questions, interpretations, and rapport. (2) Design the research instruments (interview guide, observation checklist) with co-researchers from the community to ensure questions reflect insider priorities, not just outsider theories.  \n**During fieldwork:** (1) Keep a daily reflexive journal noting moments of discomfort, surprise, or power imbalance (e.g., being treated as a \"government officer\" by respondents) and how these affect data collection. (2) Conduct \"member checking\" — periodically sharing preliminary interpretations with key informants in the community and revising based on their feedback. A wrong answer listing generic steps like \"be respectful\" or \"avoid bias\" without linking them to the researcher's *specific* social location reveals a failure to grasp that reflexivity is situated, not abstract.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the insider-outsider dilemma in participant observation (e.g., Malinowski in the Trobriand Islands) with that in a large-scale survey. How does the *nature* of the dilemma differ between these two methods?",
+     "a": "In participant observation, the researcher *physically immerses* in the community for months, deliberately seeking to become an \"insider\" (learning language, participating in daily life) while simultaneously maintaining an \"outsider\" analytical gaze. The dilemma is **intimate and continuous**: the researcher's body, emotions, and relationships become research instruments, making the boundary between empathy and over-identification porous. In a survey, the researcher remains a **structural outsider** throughout; standardized questionnaires are designed to *minimize* personal influence. The dilemma here is **procedural**: the outsider's categories (e.g., pre-coded caste categories) may violently distort insider realities, but the researcher cannot easily \"go native\" to correct them because the method demands detachment. A wrong answer that claims \"both face the same bias problem\" misses the methodological distinction: participant observation *leverages* the insider-outsider tension as a source of insight, while surveys *suppress* it through standardization.",
+     "self_check": true
+    },
+    {
+     "q": "\"Self-reflexivity solves the problem of bias in sociological research.\" Critically evaluate this statement using the NCERT text's discussion of unconscious bias and multiple truths.",
+     "a": "The statement is **overstated**. Self-reflexivity *mitigates* but does not *solve* bias. The NCERT text identifies two limits: (1) **Unconscious bias**: \"However self-reflexive the sociologist tries to be, there is always the possibility of unconscious bias.\" Reflexivity makes *conscious* biases visible; it cannot eliminate those the researcher is unaware of. (2) **Multiple truths**: \"Generally, there are many versions of the 'truth' in the social world.\" Even a perfectly reflexive researcher cannot adjudicate between a shopkeeper's and a customer's conflicting definitions of a \"fair price\" — both are valid insider perspectives. Reflexivity transforms bias from a hidden flaw into a documented, debatable element of the research design, enabling readers to \"mentally compensate.\" It is a *process* of accountability, not a *guarantee* of neutrality. A wrong answer agreeing with the statement reveals a positivist misunderstanding that sociology aims for the same \"bias-free\" ideal as natural science.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-question reflexivity protocol for a Class 11 student researching \"gender dynamics in classroom participation\" in their *own* school. Each question must target a different stage of research (pre-field, during-field, post-field) and explicitly reference the researcher's specific social location.",
+     "a": "**Pre-field:** \"As a [boy/girl] from [stream: Science/Commerce/Arts] who usually [speaks often/rarely speaks] in class, what assumptions do I hold about *why* certain genders participate more, and how might these blind me to alternative explanations?\"  \n**During-field:** \"When I observe a teacher calling on boys more often, do I feel [anger/validation/indifference] because of my own gendered school experience? How does this emotion shape what I record in my field notes *right now*?\"  \n**Post-field:** \"In my final analysis, whose voices did I quote most — the confident speakers or the silent ones? Does my own comfort with public speaking make me overvalue 'participation' as the only form of engagement?\"  \nA poor answer would list generic questions like \"Am I biased?\" without tying them to the researcher's *concrete* identity (gender, stream, personality) or the *specific* research context. This reveals a failure to understand that reflexivity is not a universal checklist but a situated practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

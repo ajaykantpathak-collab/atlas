@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_01_012",
+   "title": "c12_hs_cbse_01_012",
+   "questions": [
+    {
+     "q": "List any three emerging career domains for Home Science graduates that did not exist in their current form 15 years ago, and name the specific HEFS sub-discipline each primarily draws from.",
+     "a": "Correct answer: (1) Nutraceutical product developer — Food Science & Nutrition; (2) Sustainable textile innovator / circular fashion designer — Textile Science & Apparel Design; (3) UX researcher for digital wellness apps — Human Development & Communication. A wrong answer listing only 'dietitian', 'teacher', or 'fashion designer' reveals the student conflates traditional roles with emerging ones and cannot distinguish new market-driven specialisations from established pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the role of 'Geriatric Nutrition Consultant' is considered an emerging career for Home Science graduates in India today, linking it to at least two demographic or policy trends.",
+     "a": "Correct answer: India's 60+ population is projected to reach 300 million by 2050 (LASI 2021), and the National Policy for Senior Citizens (2011) emphasises nutrition security. Home Science graduates uniquely combine lifecycle nutrition knowledge (from Human Development) with therapeutic diet planning (from Food Science) to design age-specific meal programs for assisted living facilities — a role hospitals and senior-care startups are now actively hiring for. A wrong answer citing only 'old people need food' shows inability to connect demographic data to professional opportunity and misses the multidisciplinary competency required.",
+     "self_check": true
+    },
+    {
+     "q": "A Home Science graduate wants to launch a startup producing millet-based snack bars for urban office-goers. Map each step of the product development process to the specific HEFS competency used (e.g., recipe formulation → Food Science; shelf-life testing → Food Microbiology; packaging design → Resource Management/Ergonomics; consumer testing → Communication/Extension).",
+     "a": "Correct mapping: (1) Ingredient selection & nutritional profiling → Food Science & Nutrition; (2) Process standardisation & HACCP compliance → Food Safety & Quality Control; (3) Sensory evaluation trials → Communication & Extension methodology; (4) Sustainable packaging (biodegradable, portion-controlled) → Resource Management & Ergonomics; (5) Brand storytelling & digital marketing → Communication & Media Studies; (6) Supply chain & costing → Family Resource Management. A wrong answer that lists only 'cooking' and 'selling' reveals failure to deconstruct entrepreneurship into discipline-specific competencies taught across the HEFS curriculum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the career trajectory of a 'Clinical Dietitian' (traditional) versus a 'Personalised Nutrition Data Analyst' (emerging) in terms of: (a) core knowledge base, (b) tools/technology used, (c) employment setting, and (d) revenue model. Which HEFS sub-disciplines does the emerging role additionally require?",
+     "a": "Correct comparison: (a) Both need Medical Nutrition Therapy, but the analyst adds nutrigenomics, microbiome science, and data analytics; (b) Dietitian uses anthropometry/diet recall; analyst uses AI-driven apps, wearable biomarkers, genetic reports; (c) Dietitian works in hospitals/clinics; analyst works in health-tech startups, corporate wellness, or freelance platforms; (d) Dietitian earns consultation fees; analyst earns via SaaS subscriptions, B2B licensing, or outcome-based contracts. Additional HEFS sub-disciplines: Communication (for digital behaviour change), Resource Management (for tech-product costing), and Human Development (for lifecycle-specific algorithms). A wrong answer treating them as identical shows inability to analyse how technology reshapes professional scope.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Home Science graduates cannot compete in the tech sector because they lack coding skills.\" Use evidence from at least two emerging roles where HEFS domain expertise is the primary differentiator, not programming ability.",
+     "a": "Strong critique: The statement confuses technical implementation with domain authority. In 'Digital Therapeutics Content Designer' (e.g., diabetes management apps like BeatO or Phable), the Home Science graduate designs behaviour-change modules, meal-logic algorithms, and tone-sensitive nudges — the clinical logic that coders cannot supply. In 'Ergonomic UX Consultant' for furniture/device companies (e.g., Godrej Interio's workspace research), the graduate applies anthropometry, work physiology, and cognitive load principles to define design specs — engineers then code the CAD. The competitive edge is translational expertise: converting life-science evidence into product requirements. A weak answer agreeing with the statement reveals a fixed mindset and ignorance of interdisciplinary product teams where domain specialists lead requirement definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-month 'Emerging Career Readiness Plan' for a final-year Home Science student targeting the 'Sustainable Textile Innovation' domain. Include: (a) two certified micro-credentials to pursue, (b) one live project with measurable output, (c) three industry professionals to network with (roles, not names), and (d) a portfolio artefact that proves multidisciplinary competency.",
+     "a": "Strong plan: (a) Micro-credentials: 'Circular Fashion Design' (via NIFT-SDC or Coursera-Fashion Revolution) + 'Life Cycle Assessment for Textiles' (via Swayam/IIT Delhi); (b) Live project: Develop a zero-waste pattern for a local weaver cluster (e.g., Chanderi), document material savings (% fabric waste reduced), and co-create a product line sold via a pop-up — output: 5 prototypes + impact report; (c) Network targets: (i) R&D head at a sustainable brand (e.g., No Nasties, Doodlage), (ii) Textile scientist at a testing lab (e.g., SGS, Intertek), (iii) Policy officer at Ministry of Textiles (Handloom/Handicrafts division); (d) Portfolio artefact: Interactive digital case study (Notion/Webflow) showing problem → material research → LCA calculation → prototype → user feedback → cost sheet → pitch deck. A weak plan listing generic 'internship' and 'resume' shows inability to translate domain interest into concrete, evidence-based career capital.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

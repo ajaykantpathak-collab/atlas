@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_006",
+   "title": "c10_math_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the two fundamental operations allowed in the elimination method that do not change the solution set of a linear equation.",
+     "a": "Multiplying both sides of an equation by the same non-zero constant, and adding or subtracting the same quantity (or equation) to both sides of another equation. A wrong answer (e.g., \"dividing by a variable\" or \"adding different numbers to each side\") reveals the student does not understand which algebraic manipulations preserve equivalence, leading to invalid steps later.",
+     "self_check": true
+    },
+    {
+     "q": "Given the equations 2x + 3y = 12 and 4x + 6y = 24, a student multiplies the first equation by 2 and subtracts the second equation, obtaining 0 = 0. The student concludes \"no solution\". Explain why this conclusion is incorrect and what the result 0 = 0 actually indicates.",
+     "a": "The result 0 = 0 is an identity, meaning the two equations are dependent (one is a multiple of the other). They represent the same line, so there are infinitely many solutions, not \"no solution\". A student who says \"no solution\" confuses dependent systems (coincident lines) with inconsistent systems (parallel lines where elimination yields a false statement like 0 = 5).",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following pair of equations using the elimination method. Show all steps:\n3x - 2y = 7\n5x + 4y = 13",
+     "a": "Step 1: Multiply the first equation by 2 to make y-coefficients equal in magnitude: 6x - 4y = 14.\nStep 2: Add this to the second equation: (6x - 4y) + (5x + 4y) = 14 + 13 → 11x = 27.\nStep 3: x = 27/11.\nStep 4: Substitute x into first equation: 3(27/11) - 2y = 7 → 81/11 - 2y = 77/11 → -2y = -4/11 → y = 2/11.\nStep 5: Verify in second equation: 5(27/11) + 4(2/11) = 135/11 + 8/11 = 143/11 = 13. ✓\nAnswer: x = 27/11, y = 2/11.\nA wrong answer often comes from sign errors when adding/subtracting (e.g., subtracting instead of adding, or mishandling negative coefficients).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the elimination method and the substitution method for the system:\n2x + 5y = 19\n3x - 2y = 4\nWhich method would be more efficient and why? Justify your choice without fully solving.",
+     "a": "Elimination is more efficient because neither equation has a variable with coefficient 1 or -1, so substitution would create fractions early. In elimination, we can multiply the first equation by 3 and the second by 2 to get 6x in both, then subtract to eliminate x cleanly. A student who prefers substitution here likely does not recognize that elimination avoids fractions when coefficients are not ±1, a key strategic decision in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the system:\n4x + 3y = 24\n2x - 5y = -14\nby multiplying the second equation by 2 and adding to the first, obtaining 8x - 10y = -28, then adding to first: 12x - 7y = -4. They then say \"I cannot solve further because there are two variables.\" Identify the error and explain the correct step.",
+     "a": "The error is adding the equations instead of subtracting. To eliminate x, the coefficients of x must be equal (both 4x after multiplying second by 2: 4x - 10y = -28). Then SUBTRACT the modified second from the first: (4x + 3y) - (4x - 10y) = 24 - (-28) → 13y = 52 → y = 4. The student added, which combined x-terms instead of eliminating them. This reveals confusion between \"add to eliminate opposite signs\" and \"subtract to eliminate same signs\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem (Indian context: rupees, items) that leads to a pair of linear equations where the elimination method requires multiplying both equations by different non-zero constants before adding/subtracting. Write the equations and state the multipliers you would use.",
+     "a": "Example: \"A fruit seller sells 3 kg of apples and 4 kg of oranges for ₹315. Another customer buys 5 kg of apples and 2 kg of oranges for ₹285. Find the rate per kg of apples and oranges.\"\nEquations: 3x + 4y = 315; 5x + 2y = 285.\nMultipliers: Multiply second equation by 2 to make y-coefficients 4 and 4, then subtract. Or multiply first by 5 and second by 3 to make x-coefficients 15 and 15, then subtract.\nA poor answer gives equations where one variable already has matching coefficients (e.g., 2x+3y=..., 2x-5y=...), showing the student doesn't understand the need for \"different multipliers for both equations\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

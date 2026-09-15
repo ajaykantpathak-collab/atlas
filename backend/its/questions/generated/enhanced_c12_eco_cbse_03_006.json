@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_006",
+   "title": "c12_eco_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define Marginal Cost (MC) and Average Cost (AC) in the short run, and state the exact mathematical condition when MC intersects AC.",
+     "a": "MC = ΔTC/ΔQ (change in total cost from one extra unit); AC = TC/Q (total cost per unit). MC intersects AC when MC = AC, which occurs exactly at the minimum point of the AC curve. A wrong answer (e.g., \"MC intersects AC at maximum AC\" or \"MC = AC at zero output\") reveals confusion between the average-marginal rule and the shapes of cost curves.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the MC curve must cut the AC curve at its minimum point, using the analogy of a student's average marks and the marginal (latest) test score.",
+     "a": "If your current average is 70% and you score 80% on the next test (MC > AC), your average rises. If you score 60% (MC < AC), your average falls. Only when you score exactly 70% (MC = AC) does your average remain unchanged — this is the turning point (minimum if average was falling, maximum if rising). Since AC falls initially due to spreading fixed costs, the first intersection is the minimum. A wrong explanation (e.g., \"MC cuts AC because both are U-shaped\") shows lack of understanding of the causal average-marginal relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's Total Cost function is TC = 100 + 10Q + Q². Calculate AC and MC at Q = 5 and Q = 10. Determine whether AC is rising or falling at each output.",
+     "a": "At Q=5: TC=100+50+25=175; AC=175/5=35; MC=dTC/dQ=10+2Q=20. Since MC(20) < AC(35), AC is falling. At Q=10: TC=100+100+100=300; AC=300/10=30; MC=10+20=30. MC=AC=30 → AC at minimum. A wrong calculation (e.g., MC=10+Q) or wrong conclusion (e.g., \"AC rising at Q=5\") reveals algebraic errors or misunderstanding of the MC<AC ⇒ AC falling rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) MC curve cuts AC from below at minimum AC. (B) MC curve cuts AC from above at maximum AC. Which scenario describes a typical short-run cost structure and why? What economic assumption would have to change for scenario B to occur?",
+     "a": "Scenario A is typical: AC falls initially (spreading fixed costs), reaches minimum, then rises (diminishing returns). MC cuts from below because MC < AC when AC falls, MC > AC when AC rises. Scenario B (maximum AC) would require AC to rise first then fall — implying increasing returns initially, which contradicts the Law of Variable Proportions (node c12_eco_cbse_03_003). A wrong choice reveals confusion about the sequence of returns to the variable factor.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If a firm wants to minimize its average cost, it should produce where MC = 0.\" Provide a counter-example using a simple cost function.",
+     "a": "False. Minimizing AC requires MC = AC, not MC = 0. MC = 0 would mean the additional unit costs nothing (e.g., TC = 100 + 10Q, MC = 10 constant, never zero). Counter-example: TC = 50 + 5Q². MC = 10Q, AC = 50/Q + 5Q. Set MC=AC → 10Q = 50/Q + 5Q → 5Q = 50/Q → Q²=10 → Q=√10 ≈3.16. At this Q, MC=AC≈31.6, not zero. A student agreeing with the statement confuses cost minimization with revenue maximization (where MR=0).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (table with Q=1 to 6) where AC falls for first 3 units, is minimum at Q=4, and rises thereafter. Show corresponding TC and MC values that satisfy the AC-MC relationship at every step.",
+     "a": "Example: Q=1: TC=50, AC=50, MC=50; Q=2: TC=90, AC=45, MC=40 (MC<AC, AC falls); Q=3: TC=120, AC=40, MC=30 (MC<AC, AC falls); Q=4: TC=160, AC=40, MC=40 (MC=AC, minimum AC); Q=5: TC=210, AC=42, MC=50 (MC>AC, AC rises); Q=6: TC=270, AC=45, MC=60 (MC>AC, AC rises). A poor answer (e.g., MC not matching ΔTC/ΔQ, or MC>AC while AC falls) shows inability to maintain consistency between total, average, and marginal concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

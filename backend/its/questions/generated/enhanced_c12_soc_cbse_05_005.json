@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_005",
+   "title": "c12_soc_cbse_05_005",
+   "questions": [
+    {
+     "q": "What are the three constitutional articles that directly abolish untouchability, enable protective discrimination in education, and enable protective discrimination in public employment for SC/ST communities?",
+     "a": "Article 17 abolishes untouchability; Article 15(4) enables special provisions for socially/educationally backward classes in educational institutions; Article 16(4) enables reservation in public employment for backward classes inadequately represented. A wrong answer (e.g., citing Article 14 or 19) reveals confusion between general equality rights and specific protective discrimination provisions for SC/STs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the SC/ST (Prevention of Atrocities) Act, 1989 was necessary even though Article 17 of the Constitution already abolished untouchability in 1950.",
+     "a": "Article 17 is a declaratory constitutional provision without penal sanctions or enforcement machinery; the 1989 Act operationalizes it by defining specific atrocities (22+ offences), prescribing stringent punishments (minimum 6 months to life/death), establishing Special Courts, shifting burden of proof to accused for certain offences, and mandating victim relief/rehabilitation. A wrong answer that says \"Article 17 wasn't strong enough\" without specifying the lack of defined offences, special courts, or burden-of-proof reversal shows superficial understanding of the gap between constitutional declaration and statutory enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "A Dalit agricultural labourer in Tamil Nadu is forced by the dominant caste landlord to dispose of dead cattle without wages. The labourer files a complaint. Under which specific offence in the 1989 Act (as amended in 2015) would this fall, and what is the minimum punishment?",
+     "a": "Section 3(1)(g) — forcing a member of SC/ST to do 'begar' or forced labour — minimum punishment: 6 months, extendable to 5 years + fine. Steps: (1) Identify the act: disposal of dead cattle without wages = forced labour/begar; (2) Locate in Act: Section 3(1)(g) covers \"compels or entices a member of SC/ST to do 'begar' or other forms of forced labour\"; (3) Check 2015 Amendment: offence retained with enhanced punishment; (4) Apply minimum sentence: 6 months rigorous imprisonment. Wrong answer citing IPC Section 374 (unlawful compulsory labour) misses the Act's specific SC/ST protection, special court jurisdiction, and mandatory minimum — revealing failure to distinguish general vs. targeted legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional mechanisms for monitoring SC/ST safeguards: National Commission for Scheduled Castes (Article 338) vs. National Commission for Scheduled Tribes (Article 338A) vs. the monitoring role under the 1989 Atrocities Act. How do their mandates differ?",
+     "a": "NCSC (Art. 338) and NCST (Art. 338A) are constitutional bodies with powers of civil court (summon witnesses, receive evidence) to investigate/monitor ALL constitutional safeguards for SCs/STs respectively, report to President annually. The 1989 Act creates a separate monitoring mechanism: State/District Level Vigilance and Monitoring Committees (official + non-official members) to review implementation, identify atrocity-prone areas, ensure relief payment. Key difference: Commissions are broad constitutional watchdogs; Act committees are specific to atrocity prevention/relief. Wrong answer conflating them shows inability to distinguish constitutional vs. statutory oversight layers.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The 2015 Amendment to the Atrocities Act, which added new offences and established Exclusive Special Courts, has significantly reduced atrocities against Dalits.\" Use NCRB data trends and sociological reasoning.",
+     "a": "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e.g., 40,801 cases in 2015 → 50,900+ in 2022), but this reflects better reporting due to expanded offence definitions (tonsuring, garlanding chappals, boycott, preventing voting) and mandatory FIR registration (Section 18A), not necessarily increased violence. Exclusive Special Courts (Section 14) reduced pendency but face judge vacancies, infrastructure gaps. Sociologically, law deters *overt* violence but cannot easily address structural violence (economic boycott, social exclusion) or police reluctance to register FIRs under the Act. A wrong answer citing only raw case increase without distinguishing reporting effect from incidence, or ignoring structural factors, shows lack of critical data literacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level intervention for a village with recurring caste atrocities that integrates: (a) legal awareness of the 1989 Act, (b) the role of the District Vigilance Committee, and (c) a mechanism to counter social boycott (Section 3(1)(zc) added 2015). Outline 4 concrete steps.",
+     "a": "Good answer criteria: (1) Legal literacy camps with simplified Act booklets in local language, focusing on new 2015 offences (boycott, tonsuring, voting prevention); (2) Mandate District Vigilance Committee (Collector + SP + SC/ST reps) to meet quarterly, map atrocity-prone hamlets, ensure FIR registration within 24 hrs; (3) Establish village-level \"Atrocity Watch Group\" (women SHG members, youth, panchayat reps) to document boycott incidents (denial of work, water, temple entry) and feed to Committee; (4) Link victims to immediate relief (Section 15A — 25% within 7 days, 75% on chargesheet) and legal aid via District Legal Services Authority. Poor answer lists only awareness camps without institutional linkage or relief mechanism — shows inability to translate law into multi-layered action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

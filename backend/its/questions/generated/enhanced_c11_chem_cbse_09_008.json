@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_008",
+   "title": "c11_chem_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define temporary hardness of water and write the chemical equation for its removal by boiling.",
+     "a": "Temporary hardness is due to dissolved calcium and magnesium bicarbonates. On boiling, they decompose: Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O; Mg(HCO₃)₂ → MgCO₃↓ + CO₂↑ + H₂O (MgCO₃ further hydrolyses to Mg(OH)₂). A wrong answer (e.g., writing CaSO₄ decomposition) reveals confusion between temporary and permanent hardness salts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why soap does not lather in hard water but forms a white precipitate (scum). Write the ionic equation.",
+     "a": "Soap (sodium stearate, C₁₇H₃₅COONa) reacts with Ca²⁺/Mg²⁺ to form insoluble calcium/magnesium stearate (scum): 2C₁₇H₃₅COO⁻ + Ca²⁺ → (C₁₇H₃₅COO)₂Ca↓. Until all Ca²⁺/Mg²⁺ is precipitated, no lather forms. A wrong answer (e.g., \"soap reacts with Cl⁻\") shows misunderstanding of the cation responsible for hardness.",
+     "self_check": true
+    },
+    {
+     "q": "A water sample contains 162 mg of Ca(HCO₃)₂ per litre. Calculate its temporary hardness in ppm (parts per million) of CaCO₃ equivalent. (Molar masses: Ca(HCO₃)₂ = 162 g/mol, CaCO₃ = 100 g/mol)",
+     "a": "Step 1: Moles of Ca(HCO₃)₂ = 162 mg / 162 g/mol = 1 mmol per litre. Step 2: Each mole Ca(HCO₃)₂ gives 1 mole CaCO₃ equivalent. Step 3: Mass of CaCO₃ equivalent = 1 mmol × 100 g/mol = 100 mg. Step 4: Hardness = 100 mg/L = 100 ppm. A wrong answer (e.g., 162 ppm) reveals failure to convert to CaCO₃ equivalent using molar mass ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of boiling on temporary vs. permanent hardness. Why does boiling not remove permanent hardness?",
+     "a": "Boiling decomposes bicarbonates (temporary) to insoluble carbonates that precipitate. Permanent hardness salts (chlorides/sulphates) are stable to heat; their solubility does not decrease on boiling, so Ca²⁺/Mg²⁺ remain in solution. A wrong answer (e.g., \"boiling evaporates water and leaves salts behind\") confuses concentration increase with removal.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests three water samples: (A) rainwater, (B) river water, (C) groundwater. Sample C requires the most soap for lather. Evaluate which sample has the highest permanent hardness if boiling reduces soap consumption only for sample C.",
+     "a": "Sample C has both temporary and permanent hardness (since boiling reduces but does not eliminate hardness). Sample B likely has only temporary hardness (boiling removes it completely). Sample A has negligible hardness. Highest permanent hardness is in sample C because residual hardness after boiling is permanent. A wrong answer (e.g., \"sample B has highest permanent hardness\") misinterprets the boiling test.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to distinguish between temporary and permanent hardness in two unknown water samples using only soap solution, a burner, and test tubes.",
+     "a": "Take equal volumes of each sample in separate test tubes. Add soap solution dropwise, counting drops until permanent lather forms. Record drops. Boil both samples for 10 minutes, cool, and repeat soap test. The sample showing a significant drop in soap requirement after boiling contains temporary hardness; the one with little change contains permanent hardness. A poor answer (e.g., \"just taste the water\") lacks chemical reasoning and quantitative observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

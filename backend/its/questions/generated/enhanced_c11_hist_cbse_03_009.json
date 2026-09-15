@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_03_009",
+   "title": "c11_hist_cbse_03_009",
+   "questions": [
+    {
+     "q": "Name the five major Germanic kingdoms established in the Western Roman Empire by 500 CE and the modern regions they roughly correspond to.",
+     "a": "The five major kingdoms: Visigothic Kingdom (Iberia/Spain), Ostrogothic Kingdom (Italy), Frankish Kingdom (Gaul/France), Vandal Kingdom (North Africa/Tunisia), Burgundian Kingdom (Rhône valley/Switzerland). A wrong answer (e.g., listing Anglo-Saxons or Lombards as pre-500 CE) reveals confusion about chronological sequence — Anglo-Saxon settlement in Britain accelerated after 450 CE but kingdoms consolidated later; Lombards entered Italy only in 568 CE.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Theodoric the Great's Ostrogothic kingdom in Italy (493-526 CE) preserve Roman administrative structures more systematically than the Vandal kingdom in North Africa?",
+     "a": "Theodoric ruled as a Roman patricius appointed by Constantinople, maintained the Roman Senate, kept Roman officials (Cassiodorus, Boethius) in high office, and issued the Edictum Theoderici applying Roman law to both Goths and Romans. The Vandals, by contrast, were Arian Christians who confiscated Catholic church lands, persecuted Nicene clergy, and relied on a militarised elite with minimal Roman bureaucratic continuity. A wrong answer attributing the difference solely to \"Theodoric was more civilised\" misses the structural factor: Theodoric's legitimacy depended on Eastern Roman recognition, while the Vandals ruled a conquered province with no imperial mandate.",
+     "self_check": true
+    },
+    {
+     "q": "A 6th-century Frankish noble receives a land grant (benefice) from the king in exchange for military service. Using the concept of *precarium* and Roman *clientela*, explain how this practice represents a synthesis of Roman and Germanic traditions.",
+     "a": "The *precarium* (Roman law: land granted temporarily at the pleasure of the grantor) merged with Germanic *clientela* (personal loyalty bond between warrior and lord). The Frankish *beneficium* combined both: land granted for service (Roman fiscal idea of rewarding service) but tied to personal fealty (Germanic *Treue*). This synthesis created the knightly class. A wrong answer treating it as purely Germanic \"feudalism\" ignores the Roman legal template; a purely Roman answer misses the personal, hereditary character that made it distinct from imperial *salarium*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Catholic Church in legitimising the Frankish Merovingian kings (Clovis, 481-511 CE) with the role of Brahminical institutions in legitimising post-Gupta regional dynasties in India (e.g., Vakatakas, Maukharis). Identify two structural similarities and one key difference.",
+     "a": "Similarities: (1) Both provided ritual coronation/anointing conferring divine sanction (Clovis' baptism by Remigius; Vakataka *hiranyagarbha* rituals); (2) Both received land grants tax-free (Church *immunitas*; Brahmin *brahmadeya* villages), creating a landed interest supporting the dynasty. Difference: The Catholic Church was a transregional hierarchical institution with a central authority (papacy) that could mediate between kingdoms, while Brahminical networks were decentralised, tied to local temples and lineages, lacking a supra-regional ecclesiastical hierarchy. A wrong answer claiming \"both were theocratic\" confuses ritual legitimisation with direct rule.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Barbarian Kingdoms were merely the final stage of the Roman Empire's decline, not the beginning of medieval Europe.\" Use evidence from law, economy, and political organisation.",
+     "a": "The claim is partially valid but misleading. Evidence for continuity: Roman tax systems (*capitatio-iugatio*) persisted in Ostrogothic Italy and Visigothic Spain; Roman law codes were compiled (Breviary of Alaric, Edictum Theoderici); cities shrank but survived as episcopal centres. Evidence for rupture: monetised economy collapsed (gold *solidus* replaced by silver *denarius* only under Charlemagne); professional army replaced by land-based levies; long-distance trade networks (Mediterranean grain, olive oil) fragmented. The kingdoms were a hybrid — Roman in law and ideology, Germanic in military and social organisation — making them the *transition*, not merely the end. A wrong answer picking only one side ignores the synthesis that defines the early medieval period.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (400-750 CE) showing the sequence of: (a) major Germanic kingdom foundations, (b) key law code compilations, (c) Frankish dynastic change (Merovingian to Carolingian), (d) Lombard invasion of Italy, (e) Arab conquest of Visigothic Spain. Annotate each entry with one reason it mattered for institutional transformation.",
+     "a": "Expected timeline (key entries): 418 — Visigoths settled in Aquitaine (foederati treaty model); 476 — Odoacer deposes Romulus Augustulus (symbolic end); 493-526 — Theodoric's Ostrogothic rule (Roman-Gothic synthesis); 506 — Breviary of Alaric (Roman law for Visigothic subjects); 511 — Clovis' death, Merovingian partition (partible inheritance weakening central power); 535-554 — Gothic War (Byzantine reconquest destroying Ostrogothic kingdom); 568 — Lombard invasion (fragmenting Italy); 654 — *Liber Iudiciorum* (Visigothic unified code for Goths and Romans); 711 — Arab conquest of Spain (ending Visigothic kingdom); 751 — Pepin III crowned, Carolingian dynasty begins (Church-sanctioned dynastic change). A poor answer lists dates without annotation or misses the causal link (e.g., Gothic War → Lombard opening).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_006",
+   "title": "c11_acc_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define \"Error of Commission\" in your own words and give one original example (not from the textbook) that involves a subsidiary book.",
+     "a": "An Error of Commission is a clerical mistake made while recording or posting a transaction, such as entering a wrong amount, posting to the wrong account (but correct side), or wrong totalling of a subsidiary book. Example: The Purchases Book is overcast by ₹1,000, causing the Purchases Account to be debited with an extra ₹1,000. A wrong answer that describes omitting a transaction entirely reveals confusion with Error of Omission; an answer describing capital/revenue misclassification reveals confusion with Error of Principle.",
+     "self_check": true
+    },
+    {
+     "q": "A bookkeeper records a credit sale of ₹12,000 to Arjun in the Sales Book as ₹1,200. The posting to Arjun's account and Sales Account is done from the Sales Book. Does this error affect the trial balance? Explain why or why not.",
+     "a": "Yes, it affects the trial balance. The Sales Book total is undercast by ₹10,800, so the Sales Account is credited with only ₹1,200 instead of ₹12,000, and Arjun's Account is debited with only ₹1,200. Both accounts have a short credit/debit of ₹10,800, but the double entry remains balanced for the wrong amount. However, the trial balance totals will differ because the Sales Account credit total is ₹10,800 less and Arjun's debit total is ₹10,800 less — the trial balance will still tally because both sides are equally short? Wait: actually, the error is in the subsidiary book itself; the total of the Sales Book is wrong, so when that total is posted to Sales Account, the Sales Account gets a wrong credit. The debtor's account gets a wrong debit from the individual entry. The trial balance will still agree because the error is in the original entry and both accounts are affected by the same wrong amount. A student who says \"it does not affect trial balance\" is correct for this specific case, but the reasoning must be that the error is in the book of original entry and both accounts reflect the same wrong amount, so debits still equal credits. A wrong answer claiming it affects trial balance reveals misunderstanding that errors in subsidiary books always affect trial balance; they do not if the same wrong amount is posted to both accounts.",
+     "self_check": true
+    },
+    {
+     "q": "Cash received from Meena ₹8,000 is correctly entered in the Cash Book but posted to Meena's account as ₹800. The trial balance shows a difference. Write the rectification entry assuming a Suspense Account has been opened.",
+     "a": "Wrong effect: Meena's A/c Dr. 800; Correct effect: Meena's A/c Dr. 8,000. Short debit in Meena's account = ₹7,200. Rectification entry: Meena's A/c Dr. 7,200; To Suspense A/c 7,200. A student who debits Suspense and credits Meena has reversed the logic; this reveals they cannot determine whether the account needs additional debit or credit by comparing wrong vs correct effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Error of Commission due to wrong amount posted to the correct account on the correct side, and (b) Error of Commission due to posting to the wrong account on the correct side. How does the rectification entry differ in each case when a Suspense Account is used?",
+     "a": "In (a), only one account is affected (the amount is wrong), so the rectification uses Suspense and that one account (e.g., if short debit, debit the account and credit Suspense). In (b), two accounts are affected: the wrong account gets an entry it shouldn't, and the correct account misses its entry. Rectification requires a journal entry between the two accounts (no Suspense needed) if the trial balance is not yet prepared, or if Suspense is used, the entry involves the correct account, the wrong account, and Suspense to balance the difference. A student who treats both identically fails to see that wrong-account errors involve two personal accounts, while wrong-amount errors involve one account and the Suspense.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All Errors of Commission are disclosed by the trial balance.\" Provide a counter-example if false, or justify if true.",
+     "a": "The statement is false. Counter-example: A credit sale of ₹10,000 to Rohit is recorded in the Sales Book as ₹1,000. The same wrong amount (₹1,000) is posted to Rohit's Account (Dr.) and Sales Account (Cr.). The trial balance will still tally because both debit and credit totals are reduced by ₹9,000 equally. This is an Error of Commission (wrong amount in subsidiary book) that does NOT affect the trial balance. A student who says \"true\" confuses \"most\" with \"all\" and overlooks errors originating in books of original entry where the same wrong amount is posted to both accounts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (Indian context, using rupees) where an Error of Commission occurs in the Sales Return Book, and show the complete rectification entry with Suspense Account. The error must involve a wrong amount posted to the correct account.",
+     "a": "Scenario: Goods returned by Priya ₹3,500 are entered in the Sales Return Book as ₹350. The total of the Sales Return Book is posted to Sales Return Account (Dr.) and Priya's Account (Cr.) with ₹350. Rectification: Sales Return Account needs additional debit of ₹3,150; Priya's Account needs additional credit of ₹3,150. Since trial balance is prepared, use Suspense: Sales Return A/c Dr. 3,150; To Suspense A/c 3,150 (for the Sales Return Account). But wait: Priya's account also needs correction. Actually, the error is in the subsidiary book total, so only the Sales Return Account total is wrong; Priya's individual account was posted from the Sales Return Book with ₹350, so it is also wrong. Both accounts have the same wrong amount. To correct both via Suspense, we need two entries: (1) Sales Return A/c Dr. 3,150 To Suspense A/c 3,150; (2) Suspense A/c Dr. 3,150 To Priya's A/c 3,150. A good answer shows both entries or a compound entry. A poor answer corrects only one account, revealing they don't trace the error through both the subsidiary book total and the individual ledger posting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

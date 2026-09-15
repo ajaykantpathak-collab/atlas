@@ -1,0 +1,245 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 10,
+ "chapter_title": "Introduction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leec.101.1",
+   "title": "Emergence of Macroeconomics",
+   "section": "Emergence of Macroeconomics",
+   "definition": "Macroeconomics as a separate branch emerged out of the Great Depression that began in 1929; microeconomic reasoning could not explain the collapse of output and employment, and John Maynard Keynes' General Theory (1936) built the analysis of economy-wide aggregates.",
+   "formula": "",
+   "key_idea": "The Depression was the empirical puzzle that forced economists to study inflation, unemployment and national output as aggregates.",
+   "textbook_ref": "leec101.txt Great Depression narrative and Keynes references",
+   "question_patterns": [
+    "why did macroeconomics emerge as a separate branch",
+    "what years mark the Great Depression in the chapter",
+    "how did Keynes' General Theory change economic analysis",
+    "name the aggregate phenomena microeconomics took as given",
+    "what event triggered the collapse of output in the USA",
+    "define macroeconomics in one line"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the crisis",
+     "explain": "the chapter dates the Depression from 1929 and highlights 1933 as its trough"
+    },
+    {
+     "step": 2,
+     "action": "name the response",
+     "explain": "Keynes reoriented economics from individual markets to aggregate demand"
+    },
+    {
+     "step": 3,
+     "action": "close the definition",
+     "explain": "macroeconomics studies economy-wide aggregates like output, employment and the price level"
+    }
+   ]
+  },
+  {
+   "id": "leec.101.2",
+   "title": "Unemployment During the Great Depression",
+   "section": "Emergence of Macroeconomics",
+   "definition": "In the USA, from 1929 to 1933, the unemployment rate rose from 3 per cent to 25 per cent as workers were thrown out of jobs, illustrating how an economy-wide collapse differs from a market-level disequilibrium.",
+   "formula": "unemployment_rise = peak_rate - trough_rate",
+   "key_idea": "The rise in the unemployment rate is the difference between the peak rate in 1933 and the trough rate in 1929.",
+   "textbook_ref": "leec101.txt passage on USA unemployment rising from 3 to 25 per cent",
+   "question_patterns": [
+    "by how many percentage points did US unemployment rise between 1929 and 1933",
+    "what formula measures the rise in the unemployment rate",
+    "define the unemployment rate as given in the chapter",
+    "why is unemployment an aggregate phenomenon",
+    "how did the Depression displace workers",
+    "why did classical microeconomics fail to explain this collapse"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two rates",
+     "explain": "trough rate 3 per cent in 1929, peak rate 25 per cent in 1933",
+     "compute": "trough_rate = 3"
+    },
+    {
+     "step": 2,
+     "action": "subtract trough from peak",
+     "explain": "the difference gives the percentage-point rise",
+     "compute": "unemployment_rise = peak_rate - trough_rate"
+    }
+   ]
+  },
+  {
+   "id": "leec.101.3",
+   "title": "Stocks, Flows and Capital",
+   "section": "Concepts of Macroeconomics",
+   "definition": "Macroeconomics distinguishes stocks (quantities measured at a point of time, like the capital stock or wealth) from flows (quantities measured over a period, like income or investment); capital is a produced means of production that adds to the stock.",
+   "formula": "",
+   "key_idea": "Classifying a variable as stock or flow decides which accounting identity it can enter, and mixing them produces measurement errors.",
+   "textbook_ref": "leec101.txt stock-flow discussion and capital definition",
+   "question_patterns": [
+    "differentiate a stock variable from a flow variable with examples",
+    "why is capital a stock while investment is a flow",
+    "define capital as used in macroeconomics",
+    "classify wealth, income, water in a tank analogy terms",
+    "what period of measurement distinguishes flows",
+    "give two examples each of stock and flow from the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the variables",
+     "explain": "capital stock and wealth are point-of-time magnitudes; income and investment accrue over periods"
+    },
+    {
+     "step": 2,
+     "action": "apply the tank analogy",
+     "explain": "water standing in a tank is stock; water flowing per minute is flow"
+    },
+    {
+     "step": 3,
+     "action": "close with capital",
+     "explain": "capital adds to the stock only through the flow of investment net of depreciation"
+    }
+   ]
+  },
+  {
+   "id": "leec.101.4",
+   "title": "Circular Flow of Income",
+   "section": "A Simple Economy",
+   "definition": "In the simplest two-sector economy, households supply factors of production to firms and receive factor incomes; firms sell goods and services back to households, so the income of one sector is the expenditure of the other and the circular flow closes.",
+   "formula": "",
+   "key_idea": "The circular flow identity - what is spent by firms is the income of households and what households spend is the revenue of firms - underlies all national income accounting.",
+   "textbook_ref": "leec101.txt two-sector circular flow description and economic units",
+   "question_patterns": [
+    "describe the circular flow in a two-sector economy",
+    "who are the economic units in the simplest economy",
+    "why does one agent's expenditure equal another's income",
+    "what role do firms play in the flow of factors and goods",
+    "how does the circular flow support national income accounting",
+    "state the closed-economy assumption behind the basic flow"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the flows",
+     "explain": "factors flow from households to firms and goods flow back as money returns to households"
+    },
+    {
+     "step": 2,
+     "action": "state the identity",
+     "explain": "factor payments equal household income which equals spending on output"
+    },
+    {
+     "step": 3,
+     "action": "close with accounting",
+     "explain": "this identity lets economists measure national income from any one side of the flow"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leec101_1",
+   "source_ref": "leec101.txt unemployment passage",
+   "concept": "leec.101.2",
+   "question_type": "compute",
+   "question_pattern": "In the USA the unemployment rate rose from 3 per cent in 1929 to 25 per cent in 1933. By how many percentage points did unemployment rise?",
+   "extracted_variables": {
+    "trough_rate": 3,
+    "peak_rate": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the rates",
+     "explain": "3 per cent in 1929 and 25 per cent in 1933",
+     "compute": "trough_rate = 3"
+    },
+    {
+     "step": 2,
+     "action": "compute the rise",
+     "explain": "25 - 3 = 22 percentage points",
+     "compute": "unemployment_rise = peak_rate - trough_rate"
+    }
+   ]
+  },
+  {
+   "id": "we_leec101_2",
+   "source_ref": "leec101.txt stock-flow passage",
+   "concept": "leec.101.3",
+   "question_type": "compute",
+   "question_pattern": "Classify capital, investment, wealth and income as stock or flow, with a one-line justification each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sort stocks",
+     "explain": "capital and wealth are measured at a point of time",
+     "compute": "capital_stock = 1"
+    },
+    {
+     "step": 2,
+     "action": "sort flows",
+     "explain": "investment and income accrue over a period",
+     "compute": "income_flow = 1"
+    }
+   ]
+  },
+  {
+   "id": "we_leec101_3",
+   "source_ref": "leec101.txt circular flow passage",
+   "concept": "leec.101.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the circular flow between households and firms in three steps.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor flow",
+     "explain": "households supply land, labour, capital and enterprise to firms"
+    },
+    {
+     "step": 2,
+     "action": "income flow",
+     "explain": "firms pay wages, rent, interest and profit back to households"
+    },
+    {
+     "step": 3,
+     "action": "expenditure flow",
+     "explain": "households spend their income on the goods firms produce, closing the circle"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leec101_1",
+   "source_ref": "leec101.txt end-of-chapter questions, reworded",
+   "questions": [
+    "explain why the Great Depression gave birth to macroeconomics",
+    "compute the percentage-point rise in US unemployment from 1929 to 1933",
+    "distinguish stock and flow variables with two examples each",
+    "describe the circular flow of income in a two-sector economy",
+    "define capital and explain how investment changes it"
+   ]
+  },
+  {
+   "id": "ex_leec101_2",
+   "source_ref": "leec101.txt applied questions, reworded",
+   "questions": [
+    "why were inflation and unemployment invisible in microeconomic models",
+    "relate Keynes' General Theory to policy after the Depression",
+    "identify stocks and flows in a farmer's yearly accounts",
+    "state the accounting identity behind the circular flow",
+    "argue whether a firm's profit is a stock or a flow"
+   ]
+  }
+ ]
+}

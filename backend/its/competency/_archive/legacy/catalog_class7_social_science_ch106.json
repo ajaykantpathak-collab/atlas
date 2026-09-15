@@ -1,0 +1,401 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 106,
+ "chapter_title": "Devotional Paths to the Divine",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gess106.txt",
+ "concepts": [
+  {
+   "id": "gess.106.1",
+   "title": "The Idea of a Supreme God",
+   "section": "The Idea of a Supreme God",
+   "definition": "The conceptual framework stating that devotion to a single divine entity enables individuals to overcome cosmic cycles of rebirth and social inequality.",
+   "formula": "",
+   "key_idea": "Devotional approach offered personal liberation from societal hierarchies and birth cycles.",
+   "textbook_ref": "gess106.txt lines 10-60",
+   "question_patterns": [
+    "what is the concept of a supreme god in early devotional traditions",
+    "explain how the idea of devotion offered an alternative to caste inequality",
+    "describe the belief regarding rebirth and salvation in early bhakti",
+    "why did people turn toward the idea of a single supreme deity",
+    "how did puranic texts promote the concept of divine grace for all"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core social context",
+     "explain": "Growth of towns and empires brought diverse groups together, while learned texts promoted birth-based social privileges and rebirth cycles."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the devotional alternative",
+     "explain": "Bhakti proposed that approaching a Supreme God with love allows any person to transcend social barriers and achieve spiritual deliverance."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.2",
+   "title": "Nayanars and Alvars of South India",
+   "section": "Bhakti in South India - Nayanars and Alvars",
+   "definition": "Tamil saint-poets dedicated to Shiva or Vishnu who travelled singing compositions, drawing inspiration from Sangam poetry and inclusion across all castes.",
+   "formula": "",
+   "key_idea": "South Indian saint-poets democratized devotion through vernacular music and poetry.",
+   "textbook_ref": "gess106.txt lines 61-120",
+   "question_patterns": [
+    "who were the nayanars and alvars in southern india",
+    "compare the devotion of nayanars with that of alvars",
+    "describe the role of tevaram and divya prabandham in Tamil bhakti",
+    "how did temple construction by kings strengthen the bhakti movement",
+    "explain the inclusion of lower castes among south indian saint poets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between Nayanars and Alvars",
+     "explain": "Nayanars were 63 saints devoted to Shiva; Alvars were 12 saints devoted to Vishnu, both arising from varied caste backgrounds."
+    },
+    {
+     "step": 2,
+     "action": "Examine their literary and cultural legacy",
+     "explain": "Their musical poetry was compiled in sacred collections like Tevaram, Tiruvacakam, and Divya Prabandham, supported later by Chola and Pandya royal temples."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.3",
+   "title": "Philosophical Foundations: Advaita and Vishishtadvaita",
+   "section": "Philosophy and Bhakti",
+   "definition": "Philosophical doctrines formulated by Shankara and Ramanuja explaining the relationship between the individual soul and the supreme reality.",
+   "formula": "",
+   "key_idea": "Shankara taught non-dualism while Ramanuja emphasized devotion to attain union with God.",
+   "textbook_ref": "gess106.txt lines 121-160",
+   "question_patterns": [
+    "what is the philosophical doctrine of advaita propounded by shankara",
+    "explain ramanuja idea of vishishtadvaita and qualified oneness",
+    "differentiate between the teachings of shankara and ramanuja",
+    "describe how ramanuja philosophy influenced northern bhakti movement",
+    "identify the main tenets regarding brahman and illusion in advaita"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail Shankara's Advaita",
+     "explain": "Advaita advocates the non-duality of the individual soul and Brahman, viewing the material world as an illusion (maya)."
+    },
+    {
+     "step": 2,
+     "action": "Detail Ramanuja's Vishishtadvaita",
+     "explain": "Vishishtadvaita posits that the soul remains distinct even when united with Vishnu, emphasizing intense devotion for salvation."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.4",
+   "title": "Virashaivism and Basavanna",
+   "section": "Basavanna's Virashaivism",
+   "definition": "A twelfth-century socio-religious movement in Karnataka led by Basavanna advocating equality, rejecting caste and ritualism through vachanas.",
+   "formula": "",
+   "key_idea": "Virashaivism challenged ritualistic orthodoxy and Brahmanical social privileges.",
+   "textbook_ref": "gess106.txt lines 161-200",
+   "question_patterns": [
+    "what were the primary teachings of basavanna virashaiva movement",
+    "explain how virashaivas viewed caste distinctions and rituals",
+    "describe the main themes expressed in basavanna vachanas",
+    "why did virashaivism oppose temple worship and idol worship",
+    "identify the key leaders associated with the virashaiva movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify leaders and origin",
+     "explain": "Initiated in mid-12th century Karnataka by Basavanna alongside Allama Prabhu and Akkamahadevi."
+    },
+    {
+     "step": 2,
+     "action": "Summarize core reforms",
+     "explain": "Argued for human equality, opposed caste and gender discrimination, and rejected temple rituals and idol worship through poetry (vachanas)."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.5",
+   "title": "Bhakti Tradition in Maharashtra",
+   "section": "Bhakti Movement in the Deccan",
+   "definition": "A regional devotional tradition centered around Vitthala in Pandharpur, emphasizing worldly living, family life, and empathy for others.",
+   "formula": "",
+   "key_idea": "Marathi saint-poets rejected worldly renunciation in favor of family life and social compassion.",
+   "textbook_ref": "gess106.txt lines 201-250",
+   "question_patterns": [
+    "who were the prominent saint poets of the maharashtra bhakti movement",
+    "explain the significance of the vitthala temple at pandharpur",
+    "describe the humanist outlook of Marathi saints like tukaram",
+    "how did maharashtra saints re-define true devotion and saintliness",
+    "identify the social background of chokhamela family in maharashtra bhakti"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key Marathi saint-poets",
+     "explain": "Dnyaneshwar, Namdev, Eknath, Tukaram, Sakhubai, and Chokhamela's family composed Marathi songs (abhangs)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze core principles",
+     "explain": "Centered on Vitthala at Pandharpur, rejected ascetism, lived with families while serving others, defining devotion as sharing pain."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.6",
+   "title": "Nathpanthis, Siddhas, and Yogis",
+   "section": "Nathpanthis, Siddhas and Yogis",
+   "definition": "Ascetic groups advocating world renunciation, body-mind mastery through yogic practices, and logical critique of orthodox religion.",
+   "formula": "",
+   "key_idea": "Yogic meditation and physical discipline were used to realize formless ultimate reality.",
+   "textbook_ref": "gess106.txt lines 251-285",
+   "question_patterns": [
+    "what were the methods adopted by nathpanthis siddhas and yogis for salvation",
+    "describe the criticism of conventional religion by yogic groups",
+    "explain the practices used by nathpanthis to discipline body and mind",
+    "why did renunciatory groups gain popularity among lower caste groups",
+    "identify the path to ultimate reality according to siddhacharas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine their philosophy",
+     "explain": "Advocated renunciation of the world and meditation on formless ultimate reality using logical arguments against formal rituals."
+    },
+    {
+     "step": 2,
+     "action": "Identify practical techniques",
+     "explain": "Employed yogasanas, breathing exercises, and intense mental training, becoming especially popular among lower castes."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.7",
+   "title": "Sufism and Islamic Mysticism",
+   "section": "Islam and Sufism",
+   "definition": "Mystical branch of Islam focusing on intense personal devotion to God, compassion, spiritual discipline under a pir, and hospice culture.",
+   "formula": "",
+   "key_idea": "Sufis emphasized divine love, devotional music, and universal humanitarian compassion.",
+   "textbook_ref": "gess106.txt lines 286-350",
+   "question_patterns": [
+    "what are the central beliefs and practices of sufi mystics",
+    "explain the role of khanqahs and dargahs in sufi culture",
+    "describe the contribution of the chishti silsila in India",
+    "how did Sufi orders integrate practices like zikr and sama",
+    "identify major sufi masters associated with the Delhi Sultanate period"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Understand Sufi devotional principles",
+     "explain": "Rejected orthodox ritualism, seeking direct union with God through love, compassion, zikr (chanting), and sama (music)."
+    },
+    {
+     "step": 2,
+     "action": "Trace organizational growth",
+     "explain": "Operated through spiritual lineages (silsilas) centered around hospices (khanqahs) and tombs (dargahs), notably the Chishti order."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.8",
+   "title": "Late Medieval North Indian Bhakti Surge",
+   "section": "New Religious Developments in North India",
+   "definition": "Fourteenth-to-sixteenth century devotional resurgence featuring both saguna and nirguna poets composing in regional vernaculars.",
+   "formula": "",
+   "key_idea": "Bhakti saints used accessible regional languages to express diverse forms of personal devotion.",
+   "textbook_ref": "gess106.txt lines 351-420",
+   "question_patterns": [
+    "how did north indian bhakti movement evolve after the thirteenth century",
+    "describe the literary contributions of tulsidas and surdas",
+    "explain mirabai devotion to krishna and her defiance of royal norms",
+    "what was shankardeva contribution to assamese bhakti culture",
+    "why did vernacular compositions become popular among common masses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize major figures and traditions",
+     "explain": "Included Nirguna proponents (Kabir, Nanak) and Saguna devotees like Tulsidas (Ramcharitmanas), Surdas (Sursagara), Mirabai, and Shankardeva."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate societal impact",
+     "explain": "Songs were composed in regional languages (Awadhi, Braj, Assamese) and transmitted orally by marginalized groups and women."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.9",
+   "title": "Kabir's Devotional Philosophy",
+   "section": "A Closer Look: Kabir",
+   "definition": "A radical fifteenth-century saint from Varanasi who rejected formal rituals, priestcraft, and social divisions through sharp vernacular verses.",
+   "formula": "",
+   "key_idea": "Kabir advocated formless supreme devotion while rejecting external rituals of Hinduism and Islam.",
+   "textbook_ref": "gess106.txt lines 421-470",
+   "question_patterns": [
+    "what were the major teachings of Kabir against ritualism",
+    "describe the literary sources used to reconstruct Kabir ideas",
+    "explain Kabir concept of formless supreme god",
+    "how did Kabir express his criticism of priestly authority",
+    "identify where Kabir compositions are compiled and preserved"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Kabir's core teachings",
+     "explain": "Ridiculed external rituals, priestly dominance, and caste system of both Brahmanical Hinduism and Islam, advocating devotion to a formless God."
+    },
+    {
+     "step": 2,
+     "action": "Identify textual sources",
+     "explain": "Compositions expressed in spoken Hindi (sakhis and pads), preserved in Guru Granth Sahib, Panch Vani, and Bijak."
+    }
+   ]
+  },
+  {
+   "id": "gess.106.10",
+   "title": "Teachings and Legacy of Baba Guru Nanak",
+   "section": "A Closer Look: Baba Guru Nanak",
+   "definition": "Fifteenth-century spiritual leader who established monotheistic worship, communal dining, and active social responsibility leading to the Khalsa identity.",
+   "formula": "",
+   "key_idea": "Guru Nanak emphasized one God, active householder life, equality, and social welfare.",
+   "textbook_ref": "gess106.txt lines 471-540",
+   "question_patterns": [
+    "what were the main teachings of Baba Guru Nanak regarding God and social life",
+    "explain the significance of dharamsal langar and gurmukhi",
+    "describe the compilation process of the Guru Granth Sahib",
+    "how did the Sikh community develop into a political entity by seventeenth century",
+    "what did Guru Nanak mean by nam dan and ishnan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline core teachings and practices",
+     "explain": "Emphasized worship of one God, rejected caste/gender inequalities, established common kitchen (langar) and worship hall (dharamsal/gurdwara)."
+    },
+    {
+     "step": 2,
+     "action": "Trace historical institutionalization",
+     "explain": "Guru Angad introduced Gurmukhi; Guru Arjan compiled Guru Granth Sahib (1604); Guru Gobind Singh established the Khalsa Panth (1699)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook discussion on Virashaivism",
+   "concept": "gess.106.4",
+   "question_type": "analytical_explanation",
+   "question_pattern": "Explain how the Virashaiva movement challenged traditional social and religious practices.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify movement leadership and location",
+     "explain": "Initiated in 12th century Karnataka by Basavanna, Allama Prabhu, and Akkamahadevi."
+    },
+    {
+     "step": 2,
+     "action": "Detail social and religious critiques",
+     "explain": "They rejected Brahmanical ideas on caste, advocated equal treatment of women, and opposed all forms of temple ritual and idol worship."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook comparison of Sufi and Bhakti traditions",
+   "concept": "gess.106.7",
+   "question_type": "comparative_analysis",
+   "question_pattern": "Describe the key similarities between Sufi mystics and Bhakti saint-poets.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze spiritual goals",
+     "explain": "Both groups prioritized personal love and devotion to God over ritualistic codes of conduct."
+    },
+    {
+     "step": 2,
+     "action": "Analyze social attitudes",
+     "explain": "Both rejected religious bigotry, expressed ideas in vernacular poetry, and emphasized universal brotherhood and compassion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex106.1",
+   "source_ref": "Let's recall - Question 1",
+   "questions": [
+    "Match the following: The Buddha (questioned social differences), Shankaradeva (Kirtana-ghosha), Nizamuddin Auliya (Sufi saint), Alvars (worship of Vishnu), Nayanars (worship of Shiva)."
+   ]
+  },
+  {
+   "id": "ex106.2",
+   "source_ref": "Let's recall - Question 2",
+   "questions": [
+    "Fill in the blanks: (a) Shankara was an advocate of Advaita. (b) Ramanuja was deeply influenced by the Alvars. (c) Basavanna, Allama Prabhu and Akkamahadevi were advocates of Virashaivism. (d) Pandharpur was an important centre of the Bhakti tradition in Maharashtra."
+   ]
+  },
+  {
+   "id": "ex106.3",
+   "source_ref": "Let's recall - Question 3",
+   "questions": [
+    "Describe the beliefs and practices of the Nathpanthis, Siddhas and Yogis."
+   ]
+  },
+  {
+   "id": "ex106.4",
+   "source_ref": "Let's recall - Question 4",
+   "questions": [
+    "State clearly what expressed means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex106.5",
+   "source_ref": "Let's understand - Question 6",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of practices described here."
+   ]
+  },
+  {
+   "id": "ex106.6",
+   "source_ref": "Let's understand - Question 7",
+   "questions": [
+    "State clearly what teachings means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex106.7",
+   "source_ref": "Let's discuss - Question 8",
+   "questions": [
+    "For either the Virashaivas or the saints of Maharashtra, discuss their attitude towards caste."
+   ]
+  },
+  {
+   "id": "ex106.8",
+   "source_ref": "Let's discuss - Question 9",
+   "questions": [
+    "Why do you think ordinary people preserved the memory of Mirabai?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

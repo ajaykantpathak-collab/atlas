@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_06_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_06_014",
+   "title": "c12_eng_v_cbse_06_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing analytical paragraphs, and what does each letter stand for?",
+     "a": "PEEL stands for Point (topic sentence stating the main idea), Evidence (specific textual reference or quote), Explanation (analysis of how the evidence supports the point), and Link (sentence connecting back to the thesis or next paragraph). A wrong answer (e.g., \"Point, Example, Explain, Leave\") reveals the student lacks a reliable paragraph framework, leading to disorganized, evidence-poor answers that lose marks for structure and coherence in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Both Zitkala-Sa and Bama faced discrimination. Zitkala-Sa's hair was cut. Bama saw an elder carry a packet by a string. This shows discrimination is bad.\" Identify two specific weaknesses in this response with respect to CBSE board marking expectations.",
+     "a": "Weakness 1: No PEEL structure — the response lumps evidence without topic sentences or analysis. Weakness 2: Evidence is stated but not *explained* — the hair-cutting's cultural meaning (coward/mourner symbolism) and the packet incident's caste significance (pollution belief) are missing, so the examiner cannot award full marks for \"interpretation\" and \"critical appreciation.\" A wrong answer that only says \"it's too short\" misses the structural and analytical gaps that cost marks in 6-8 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the prompt: \"Write a speech on 'Resisting Injustice Begins in Childhood' based on the chapter,\" draft the opening paragraph (50-60 words) using a hook, thesis, and roadmap. Use PEEL implicitly.",
+     "a": "\"Respected Principal, teachers, and friends. When eight-year-old Zitkala-Sa hid under a bed to save her braids from the scissors, and third-class Bama realised her elder's 'funny walk' was actually caste humiliation, both children recognised injustice before they could name it. Today I argue that childhood is not too early for resistance — it is where resistance *begins*, as these two narratives powerfully show.\" This works because: Hook (vivid textual moments) → Thesis (childhood as resistance's starting point) → Roadmap (two narratives as proof). A wrong answer starting \"Childhood is important...\" is generic, earns no \"engagement\" marks, and fails to anchor in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *nature* of oppression in Zitkala-Sa's and Bama's accounts. How would you structure a comparative analytical paragraph (100 words) showing both similarity and difference? Outline the paragraph plan only — do not write the full paragraph.",
+     "a": "Plan: Point — Both face institutionalised dehumanisation but through different systems (colonial assimilation vs. caste hierarchy). Evidence 1 — Zitkala-Sa: Carlisle school's forced hair-cutting, \"shingled like a coward's,\" erasing Native identity. Evidence 2 — Bama: Elder carrying vadai by string to avoid \"pollution,\" landlord eating while elder bows. Explanation — Zitkala-Sa's oppression is cultural erasure by a *foreign* system; Bama's is ritualised subordination by *own* society's caste order. Link — Yet both spark resistance: Zitkala-Sa's rebellion (\"I will struggle first!\"), Bama's resolve (\"I studied hard... stood first\"). A wrong plan that only lists similarities misses the comparative nuance examiners reward in \"analytical\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's diary entry (written as Bama): \"Today I saw an elder carry vadais by a string. Annan explained it's because of caste. I felt angry. I will study hard and become first in class. Goodnight.\" Rate it 1-5 for board exam quality and justify.",
+     "a": "Rating: 2/5. Justification: (1) Voice is flat — no sensory details of the bazaar, threshing floor, or Annan's tone; (2) No emotional progression — anger to resolve happens in one sentence without internal conflict; (3) Missing textual anchors — no mention of \"pollution,\" \"banana leaf,\" \"landlord stuffing vadais,\" or Annan's exact advice (\"throw away these indignities\"); (4) Format error — diary entries need date, reflective tone, first-person intimacy. A wrong evaluation giving 4/5 because \"it covers the plot\" reveals confusion between *summary* and *creative response* — a critical distinction in CBSE writing tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a CUET-style essay prompt (one sentence) on a theme from \"Memories of Childhood\" that requires synthesising *both* narratives and a real-world connection. Then write a 3-sentence thesis statement for it.",
+     "a": "Prompt: \"Marginalised communities across history have used education not just for livelihood but as a weapon against dehumanisation — discuss with reference to Zitkala-Sa and Bama, and one contemporary example.\" Thesis: \"Both Zitkala-Sa and Bama illustrate that formal education enables marginalised individuals to decode, articulate, and systematically dismantle the ideologies that justify their oppression — a pattern visible today in Dalit student movements accessing higher education to challenge caste discourse.\" A weak thesis like \"Education is important for everyone\" fails because it is generic, lacks textual grounding, and shows no synthesis — exactly what CUET/IPMAT evaluators penalise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

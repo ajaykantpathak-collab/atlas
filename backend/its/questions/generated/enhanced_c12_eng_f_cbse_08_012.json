@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_08_012",
+   "title": "c12_eng_f_cbse_08_012",
+   "questions": [
+    {
+     "q": "What is the key difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "Literal questions have answers directly stated in the text (e.g., \"What does Sophie dream of?\" → \"a boutique\"). Inferential answers require combining textual clues to reach a conclusion not explicitly written (e.g., \"Why does Sophie feel a tightening in her throat?\" → inference about class shame/helplessness from mother's stooped back, steamy room, father's grime). A wrong answer that treats an inferential question as literal (e.g., quoting a single line for \"Why?\") reveals the student cannot distinguish explicit vs implicit meaning — a critical error in CBSE 3-6 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Classify this question from \"Going Places\" as literal or inferential: \"Which country did Danny Casey play for?\" Explain your reasoning using the text.",
+     "a": "Literal. The text explicitly states: \"Which country did Danny Casey play for?\" → \"Ireland\" (mentioned in \"Ireland'll win the World Cup\" and \"long way from the west of Ireland\"). A student who labels this inferential confuses factual recall with interpretation. This misclassification leads to over-written answers in 1-mark questions, wasting exam time.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this inferential question using the PEEL structure (Point, Evidence, Explanation, Link): \"Why didn't Sophie want Jansie to know about her story with Danny?\" Provide two distinct textual evidences.",
+     "a": "Point: Sophie feared Jansie would spread her secret. Evidence 1: \"Tell gawky Jansie something like that and the whole neighbourhood would get to know it.\" Evidence 2: Jansie's nosey nature — \"This wasn't an inquisition, just Jansie being nosey.\" Explanation: Sophie values privacy for her fantasy; Jansie's bluntness and community connectedness threaten the fragile secret world Sophie builds with Geoff. Link: This shows Sophie's isolation — she trusts only Geoff with her inner world. A wrong answer giving only one evidence or missing \"Explanation\" loses 1-2 marks in CBSE 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze: The NCERT asks: \"Did Sophie really meet Danny Casey?\" Compare a literal-only answer vs an inferential answer. Which earns full marks and why?",
+     "a": "Literal-only: \"No, she only imagined it.\" → 1/2 marks (incomplete). Inferential: \"No, the text reveals it was a fantasy: she waited by the canal and he never came; she 'pictured him again' in the arcade; the ending describes her imagined encounter in second-person ('You realise you haven't either'). Her 'pangs of doubt' and resignation confirm it was internal.\" → Full marks. The inferential answer uses textual patterns (waiting, imagining, second-person narration, doubt) to prove the meeting was mental. Students who answer literally miss the narrative technique (blurring fantasy/reality) — a favorite CBSE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: A student writes for \"How does Sophie include Geoff in her fantasy future?\" → \"She wants to ride behind him on his motorcycle.\" Is this sufficient for a 3-mark CBSE question? Justify.",
+     "a": "Insufficient. The answer captures only the literal image (motorcycle ride) but misses the deeper inferential layers: (1) Geoff symbolizes escape from her grim reality (\"world out there waiting for her\"), (2) she craves his silent world (\"areas of his life about which she knew nothing\"), (3) the fantasy includes public recognition (\"sound of applause as the world rose to greet them\"). A 3-mark answer needs 3 distinct points with evidence. This student would lose 2 marks for superficial reading — a common error when students confuse plot summary with character analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question about Sophie's father's character using the \"Understanding the text\" style. Provide the ideal answer with two textual evidences.",
+     "a": "Question: \"What does Sophie's father's reaction to her Danny Casey story reveal about his attitude toward her dreams?\" Ideal answer: He dismisses her fantasies as irresponsible nonsense. Evidence 1: \"This another of your wild stories?\" — shows he views her imagination as habitual lying. Evidence 2: \"One of these days you're going to talk yourself into a load of trouble\" — reveals he sees her dreaming as dangerous, not hopeful. His pragmatic, harsh worldview (shaped by biscuit-factory reality) crushes her escapism. A good created question tests character inference, not plot recall.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

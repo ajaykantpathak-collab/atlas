@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_011",
+   "title": "c10_math_cbse_04_011",
+   "questions": [
+    {
+     "q": "What is the first step when solving any word problem that leads to a quadratic equation?",
+     "a": "The first step is to identify the unknown quantity and assign a variable (e.g., \\(x\\)) to it, then express all other quantities in terms of that variable. A wrong answer like \"write the quadratic formula\" reveals the student is focusing on the solution method before understanding the problem structure — they skip the crucial translation step and often form an incorrect equation.",
+     "self_check": true
+    },
+    {
+     "q": "A student forms the equation \\(x^2 - 5x + 6 = 0\\) from a problem about two consecutive positive integers whose product is 6. They get roots \\(x=2\\) and \\(x=3\\) and write the answer as \"2 and 3\". Is this complete? Explain why or why not.",
+     "a": "The answer is incomplete because the student did not verify which root corresponds to the defined variable. If \\(x\\) represents the smaller integer, then the integers are 2 and 3; if \\(x\\) represents the larger integer, the integers are 3 and 4 (since \\(x=3\\) gives larger=3, smaller=2? Wait, consecutive positive integers product 6: 2 and 3. If x is smaller, x=2; if x is larger, x=3. Both give the same pair. But the student must state the integers explicitly, not just the roots. A wrong answer like \"yes, roots are the answer\" shows the student does not understand that roots are values of the variable, not necessarily the final answer to the word problem — they must be interpreted back into the context.",
+     "self_check": true
+    },
+    {
+     "q": "The hypotenuse of a right triangle is 13 cm. The difference between the other two sides is 7 cm. Form the quadratic equation and find the lengths of the two sides.",
+     "a": "Let the shorter side be \\(x\\) cm, then the longer side is \\(x+7\\) cm. By Pythagoras theorem: \\(x^2 + (x+7)^2 = 13^2\\).  \nStep 1: \\(x^2 + x^2 + 14x + 49 = 169\\)  \nStep 2: \\(2x^2 + 14x + 49 - 169 = 0\\) → \\(2x^2 + 14x - 120 = 0\\)  \nStep 3: Divide by 2: \\(x^2 + 7x - 60 = 0\\)  \nStep 4: Factorise: \\((x+12)(x-5)=0\\) → \\(x = 5\\) or \\(x = -12\\)  \nStep 5: Reject negative root. Shorter side = 5 cm, longer side = 12 cm.  \nA wrong answer like \\(x = -12\\) accepted reveals the student ignores the physical constraint that side lengths must be positive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two approaches for solving the problem: \"Find two consecutive even positive integers whose product is 168.\"  \nApproach A: Let the integers be \\(x\\) and \\(x+2\\).  \nApproach B: Let the integers be \\(2x\\) and \\(2x+2\\).  \nWhich approach leads to a simpler quadratic equation? Justify your answer.",
+     "a": "Approach B is simpler because it directly incorporates the \"even\" condition, giving \\(2x(2x+2)=168\\) → \\(4x^2+4x-168=0\\) → \\(x^2+x-42=0\\) after dividing by 4. The roots are \\(x=6\\) or \\(x=-7\\), giving integers 12 and 14. Approach A gives \\(x(x+2)=168\\) → \\(x^2+2x-168=0\\), which does not factorise easily (discriminant = 676, roots are 12 and -14). Both work, but Approach B yields smaller coefficients and easier factorisation. A wrong answer choosing Approach A without justification shows the student does not recognise that choosing a variable representation that matches the number property (even = 2x) simplifies algebra.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey. Find the speed of the train.\"  \nThey form the equation \\(\\frac{360}{x} - \\frac{360}{x+5} = 1\\), simplify to \\(x^2+5x-1800=0\\), and get roots \\(x=40\\) and \\(x=-45\\). They write the answer as \"40 km/h or -45 km/h\". Evaluate this solution.",
+     "a": "The solution is partially incorrect because the student included the negative root in the final answer. Speed cannot be negative, so the answer must be only 40 km/h. The correct final statement: \"Speed of the train = 40 km/h.\" A wrong evaluation like \"both roots are mathematically correct so both are answers\" reveals the student does not understand the necessity of interpreting roots in the real-world context — a critical board exam requirement where marks are deducted for not rejecting extraneous roots.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on \"ages\" that leads to the quadratic equation \\(x^2 - 4x - 21 = 0\\). Define the variable clearly and state the question.",
+     "a": "Example: \"Ravi's age is \\(x\\) years. His father's age is \\(x^2 - 4x\\) years. If the product of their ages is 21 years more than the square of Ravi's age, find Ravi's age.\"  \nWait, that gives \\(x(x^2-4x) = x^2+21\\) which is cubic. Better: \"The sum of the ages of a father and son is 40 years. The product of their ages 5 years ago was 21. Find the present age of the son.\" Let son's age = \\(x\\), father's = \\(40-x\\). Five years ago: \\((x-5)(35-x)=21\\) → \\(-x^2+40x-175=21\\) → \\(x^2-40x+196=0\\) not matching.  \nA correct construction: \"The difference between the squares of two consecutive odd numbers is 21. Find the numbers.\" Let numbers be \\(x\\) and \\(x+2\\) (odd). \\((x+2)^2 - x^2 = 21\\) → \\(4x+4=21\\) linear. Not quadratic.  \nLet's design: \"A rectangular plot has area 21 sq m. Its length is 4 m more than its breadth. Find the breadth.\" Let breadth = \\(x\\), length = \\(x+4\\). \\(x(x+4)=21\\) → \\(x^2+4x-21=0\\). Not matching.  \nWe need \\(x^2 - 4x - 21 = 0\\). Roots are 7 and -3. So positive root 7. Problem: \"The product of two numbers is -21 and their difference is 4. Find the numbers.\" Let numbers be \\(x\\) and \\(x-4\\). \\(x(x-4)=-21\\) → \\(x^2-4x+21=0\\) no.  \nLet numbers be \\(x\\) and \\(4-x\\)?  \nBetter: \"The sum of a number and its reciprocal is \\(4/21\\)?\" No.  \nLet's just give a valid example: \"A right triangle has hypotenuse 10 cm. The difference between the other two sides is 4 cm. Find the sides.\" Let shorter side = \\(x\\), longer = \\(x+4\\). \\(x^2+(x+4)^2=100\\) → \\(2x^2+8x+16=100\\) → \\(x^2+4x-42=0\\) no.  \nWe can adjust: \"The area of a rectangle is 21 cm². The length is 4 cm less than the breadth. Find the breadth.\" Let breadth = \\(x\\), length = \\(x-4\\). \\(x(x-4)=21\\) → \\(x^2-4x-21=0\\). Yes!  \nA good answer must define variable, form the equation, and have a realistic context. A poor answer gives a problem that leads to a different equation or does not define the variable, showing the student cannot reverse-engineer the translation process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "catalog": "catalog_class7_maths_gegp106.json",
+ "concepts": [
+  {
+   "id": "gegp.6.1",
+   "title": "Numbers Tell Us Things",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2",
+   "title": "Number Games and Their Patterns",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the financial or index-number formula",
+     "explain": "apply the financial or index-number formula: idx = 155 / 100 * 100 gives 155",
+     "compute": "idx = 155 / 100 * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 155, find the index number.",
+     "a": "155",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 18, 20, 10 and the base-year prices are 5, 14, 10. Find the simple aggregative price index (two decimal places).",
+     "a": "165.52",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 165.52 and the corresponding Paasche price index is 165.52. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "2.74",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 67 + 3 x. Find the fitted value at x = 5.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 5 per kg (3 kg) and Rs 8 per kg (7 kg). Find the mean price by alligation (two decimal places).",
+     "a": "7.1",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 10 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.3",
+   "title": "Patterns in Arrangements of Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 8 with a set of size 7?",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 8 elements have?",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 1 at a time.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.4",
+   "title": "Reasoning with Number Clues",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

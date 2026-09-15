@@ -1,0 +1,297 @@
+{
+ "catalog": "catalog_class11_biology_ch116",
+ "concepts": [
+  {
+   "id": "kebo.16.1",
+   "title": "Modes of Nitrogenous Excretion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modes of Nitrogenous Excretion' refers to.",
+     "a": "The categorization of animals into ammonotelic, ureotelic, or uricotelic using their primary metabolic nitrogenous waste.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modes of Nitrogenous Excretion'.",
+     "a": "Excretion type is an evolutionary adaptation directly linked to habitat water availability.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Modes of Nitrogenous Excretion', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.2",
+   "title": "Excretory Organs across Animal Taxa",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Excretory Organs across Animal Taxa' refers to.",
+     "a": "The evolutionary spectrum of waste-filtering structures across invertebrates and vertebrates, from flame cells to kidneys.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Excretory Organs across Animal Taxa'.",
+     "a": "Diverse animal groups utilize specialized tubular or glandular organs to maintain both osmotic and ionic balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Excretory Organs across Animal Taxa', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.3",
+   "title": "Anatomy of the Human Kidney",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Anatomy of the Human Kidney' refers to.",
+     "a": "The macro-structural organization of the human kidney, highlighting its zones, dimensions, and internal pathways.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anatomy of the Human Kidney'.",
+     "a": "Bean-shaped organs situated retroperitoneally, featuring an outer cortex, inner medullary pyramids, and a central pelvis.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Anatomy of the Human Kidney', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.4",
+   "title": "Structure of the Nephron",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structure of the Nephron' refers to.",
+     "a": "The microscopic structural and functional unit of the kidney, consisting of a filtration corpuscle and a specialized tubular system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structure of the Nephron'.",
+     "a": "Nephrons are classified into cortical and juxtamedullary types using their medullary depth and loop length.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structure of the Nephron', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.5",
+   "title": "Glomerular Filtration Rate and Daily Filtrate",
+   "questions": [
+    {
+     "q": "Calculate the total daily glomerular filtrate volume given the GFR. Use the method 'Glomerular Filtration Rate and Daily Filtrate'. Work with: gfr_per_minute = 45. Carry the chain through step by step and give the final value of daily_filtrate.",
+     "a": "64.8 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How much blood is filtered by the kidneys per minute relative to cardiac output? Use the method 'Glomerular Filtration Rate and Daily Filtrate'. Work with: gfr_per_minute = 25. Carry the chain through step by step and give the final value of daily_filtrate.",
+     "a": "36 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Glomerular Filtration Rate and Daily Filtrate' refers to.",
+     "a": "The rate of fluid filtration across the glomerular membrane into Bowman's capsule, determining daily filtrate volume.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glomerular Filtration Rate and Daily Filtrate'.",
+     "a": "High-pressure ultrafiltration produces a massive daily volume of filtrate compared to final urine output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Glomerular Filtration Rate and Daily Filtrate', in plain ASCII form.",
+     "a": "daily_filtrate = gfr_per_minute * 1.44",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.6",
+   "title": "Renal Reabsorption Rate",
+   "questions": [
+    {
+     "q": "Calculate the percentage of filtrate reabsorbed given the daily filtrate and urine volumes. Use the method 'Renal Reabsorption Rate'. Work with: filtrate_volume = 25, urine_volume = 25. Carry the chain through step by step and give the final value of reabsorption_percent.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How much of the 180 liters of daily filtrate is reabsorbed if 1.5 liters of urine is produced? Use the method 'Renal Reabsorption Rate'. Work with: filtrate_volume = 15, urine_volume = 8. Carry the chain through step by step and give the final value of reabsorption_percent.",
+     "a": "46.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Renal Reabsorption Rate' refers to.",
+     "a": "The process and efficiency of reclaiming water and essential solutes from the glomerular filtrate back into systemic circulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Renal Reabsorption Rate'.",
+     "a": "Nearly ninety-nine percent of the initial filtrate is actively or passively reabsorbed by the renal tubules.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Renal Reabsorption Rate', in plain ASCII form.",
+     "a": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.7",
+   "title": "Function of Renal Tubules",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Function of Renal Tubules' refers to.",
+     "a": "The segment-specific transport activities of the nephron tubules that regulate pH, osmolarity, and electrolyte balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Function of Renal Tubules'.",
+     "a": "PCT handles bulk reabsorption, Henle's loop establishes medullary gradients, and DCT/collecting duct perform fine-tuning.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Function of Renal Tubules', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.8",
+   "title": "Counter-Current Mechanism and Urine Concentration",
+   "questions": [
+    {
+     "q": "Calculate the concentration factor of human urine relative to the initial filtrate. Use the method 'Counter-Current Mechanism and Urine Concentration'. Work with: cortical_osmolarity = 80, medullary_osmolarity = 50. Carry the chain through step by step and give the final value of concentration_factor.",
+     "a": "0.625 times",
+     "self_check": false
+    },
+    {
+     "q": "How many times can human kidneys concentrate the initial filtrate? Use the method 'Counter-Current Mechanism and Urine Concentration'. Work with: cortical_osmolarity = 3, medullary_osmolarity = 500. Carry the chain through step by step and give the final value of concentration_factor.",
+     "a": "166.6667 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Counter-Current Mechanism and Urine Concentration' refers to.",
+     "a": "The physiological process utilizing parallel, opposite-flowing loops of Henle and vasa recta to establish a hypertonic medullary gradient.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Counter-Current Mechanism and Urine Concentration'.",
+     "a": "A steep osmotic gradient from cortex to medulla enables passive water reclamation, concentrating urine up to four-fold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Counter-Current Mechanism and Urine Concentration', in plain ASCII form.",
+     "a": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.9",
+   "title": "Hormonal Regulation of Kidney Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hormonal Regulation of Kidney Function' refers to.",
+     "a": "The endocrine feedback loops involving ADH, the renin-angiotensin-aldosterone system, and ANF that monitor and adjust renal performance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hormonal Regulation of Kidney Function'.",
+     "a": "Antagonistic and synergistic hormonal pathways regulate blood volume, pressure, and GFR.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hormonal Regulation of Kidney Function', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.10",
+   "title": "Micturition and Urine Characteristics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Micturition and Urine Characteristics' refers to.",
+     "a": "The neural reflex controlling bladder emptying, alongside the diagnostic physical and chemical properties of excreted urine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Micturition and Urine Characteristics'.",
+     "a": "Bladder wall stretching triggers a coordinated autonomic reflex to release slightly acidic, urea-rich urine.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Micturition and Urine Characteristics', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.11",
+   "title": "Lungs, Liver, and Skin in Excretion",
+   "questions": [
+    {
+     "q": "Calculate the total volume of carbon dioxide removed by the lungs in a day. Use the method 'Lungs, Liver, and Skin in Excretion'. Work with: co2_rate_per_minute = 10. Carry the chain through step by step and give the final value of daily_co2_elimination.",
+     "a": "14.4 units",
+     "self_check": false
+    },
+    {
+     "q": "How much CO2 do human lungs eliminate per minute? Use the method 'Lungs, Liver, and Skin in Excretion'. Work with: co2_rate_per_minute = 18. Carry the chain through step by step and give the final value of daily_co2_elimination.",
+     "a": "25.92 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lungs, Liver, and Skin in Excretion' refers to.",
+     "a": "The contribution of accessory organs to the elimination of metabolic wastes like carbon dioxide, bile pigments, and sweat.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lungs, Liver, and Skin in Excretion'.",
+     "a": "Non-renal organs assist in homeostatic waste removal, including significant daily carbon dioxide and water loss.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lungs, Liver, and Skin in Excretion', in plain ASCII form.",
+     "a": "daily_co2_elimination = co2_rate_per_minute * 1.44",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.12",
+   "title": "Disorders of the Urinary System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Disorders of the Urinary System' refers to.",
+     "a": "Pathological conditions resulting from renal dysfunction, including uremia, calculi, and glomerulonephritis, and their clinical management.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disorders of the Urinary System'.",
+     "a": "Kidney failure requires artificial blood filtration via hemodialysis or surgical transplantation to sustain life.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Disorders of the Urinary System', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

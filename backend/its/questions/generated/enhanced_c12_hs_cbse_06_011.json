@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_011",
+   "title": "c12_hs_cbse_06_011",
+   "questions": [
+    {
+     "q": "What are the three broad categories of qualities an extension worker must possess, as per the NCERT framework?",
+     "a": "The three broad categories are: (1) Personal qualities (e.g., empathy, honesty, patience), (2) Professional qualities (e.g., subject-matter expertise, communication skill, problem-solving ability), and (3) Social qualities (e.g., leadership, teamwork, cultural adaptability). A wrong answer that lists only technical skills (e.g., \"knowledge of agriculture\") reveals the misconception that extension work is purely technical, ignoring the human-relations core of the job.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"empathy\" is considered a more critical quality for an extension worker than \"subject-matter expertise\" in the initial stages of community entry.",
+     "a": "Empathy allows the worker to understand the community's felt needs, fears, and cultural context, building the trust necessary for any technical advice to be accepted. Without empathy, even perfect technical knowledge is rejected because the community perceives the worker as an outsider imposing solutions. A wrong answer that prioritises expertise reflects the \"transfer of technology\" mindset (top-down) instead of the participatory \"extension education\" philosophy (bottom-up) taught in node c12_hs_cbse_06_001.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker is assigned to promote fuel-efficient stoves in a village where women spend 4 hours daily collecting firewood. The worker holds a demonstration but adoption is near zero after six months. Apply the concept of \"roles of an extension worker\" to diagnose which role was likely neglected and why.",
+     "a": "The neglected role is \"Facilitator of Participatory Decision-Making.\" The worker likely acted only as a \"Technical Expert/Demonstrator\" (showing the stove) but failed as a \"Facilitator\" to involve women in analysing their own problems, testing the stove in their kitchens, and modifying it to their cooking habits. The diagnostic step: check if the worker used PRA tools (node c12_hs_cbse_06_008) like \"daily activity clock\" to understand women's time-use before designing the intervention. A wrong answer blaming \"villager ignorance\" reveals the misconception that extension is a one-way delivery process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the training needs of a Block Level Extension Officer (BLEO) and a Village Level Worker (VLW) in terms of depth of subject matter, communication skills, and administrative training. Which level requires more emphasis on \"programme planning and monitoring\" and why?",
+     "a": "The BLEO requires deeper programme planning and monitoring training because they supervise multiple VLWs, consolidate reports, allocate resources, and liaise with district authorities (administrative role). The VLW needs deeper communication skills and local subject-matter application because they work directly with families daily. A wrong answer giving identical training content for both ignores the hierarchical differentiation in the extension system (node c12_hs_cbse_06_009 on programme planning).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A one-month pre-service training is sufficient to produce a competent extension worker; in-service training is only for updating technical knowledge.\" Use the concepts of \"adult learning principles\" and \"changing community needs\" in your evaluation.",
+     "a": "The statement is flawed. Pre-service training provides foundational knowledge, but competence develops through repeated field practice, reflection, and mentorship — adult learning is experiential and iterative. In-service training must also address evolving community needs (e.g., climate change, digital literacy), soft-skill reinforcement, and programme evaluation skills, not just technical updates. A wrong answer agreeing with the statement shows ignorance of the \"continuous professional development\" model mandated in modern extension systems (e.g., MANAGE, Hyderabad modules).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day in-service training module for extension workers on \"Integrating Gender Analysis into Extension Programmes.\" Specify the session topics, methods (lecture, role-play, case study, field visit), and one measurable learning outcome for each day.",
+     "a": "Day 1: Concepts — Gender vs Sex, Gender Roles in Agriculture/Home (Lecture + Case Study). Outcome: Participants list 5 gender-specific constraints in their villages. Day 2: Tools — Gender Analysis Frameworks (Harvard, Moser), PRA for Gender (Role-play + Group Work). Outcome: Participants complete a gender analysis matrix for a local crop activity. Day 3: Application — Designing Gender-Sensitive Extension Messages (Field Visit + Presentation). Outcome: Each participant drafts one revised extension leaflet addressing women's constraints. A poor answer that omits field practice or measurable outcomes reveals a \"training as information transfer\" misconception rather than \"training for behavioural change.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

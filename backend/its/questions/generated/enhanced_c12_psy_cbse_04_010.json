@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_010",
+   "title": "c12_psy_cbse_04_010",
+   "questions": [
+    {
+     "q": "A 6-year-old child shows persistent difficulty sustaining attention in tasks, often loses school materials, is easily distracted by extraneous stimuli, and forgets daily activities. However, the child does NOT show excessive fidgeting, leaving seat inappropriately, or running/climbing excessively. Which ADHD presentation does this best match, and what is the minimum symptom duration required for diagnosis?",
+     "a": "This matches the **Predominantly Inattentive Presentation** of ADHD (DSM-5). The minimum symptom duration is **6 months**, with several inattentive symptoms present before age 12. A wrong answer (e.g., \"Combined Presentation\" or \"duration of 3 months\") reveals the student cannot distinguish ADHD presentations based on symptom clusters or recall the developmental onset/duration criteria — a common board exam error where students conflate hyperactivity with ADHD diagnosis.",
+     "self_check": true
+    },
+    {
+     "q": "\"Autism Spectrum Disorder and Intellectual Disability both involve social difficulties. So if a child has poor social skills, they must have ASD.\" Explain why this reasoning is flawed using the DSM-5 diagnostic criteria for both disorders.",
+     "a": "The reasoning is flawed because **social difficulties in ID stem from global cognitive limitations** (IQ ≤70, deficits in conceptual/social/practical adaptive domains), whereas in **ASD, social deficits are disproportionate to overall cognitive level** and are accompanied by **restricted, repetitive patterns of behaviour/interests (RRBs)**. A child with ID but no RRBs does not meet ASD criteria. A wrong answer reveals the student treats \"social difficulty\" as a unitary symptom rather than analysing its qualitative nature and accompanying criteria — a critical error in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "A 9-year-old student reads accurately but extremely slowly, guesses words based on first letter, and shows poor comprehension despite average IQ and adequate instruction. Spelling is phonetically inaccurate. Writing shows letter reversals and poor spacing. Mathematics calculation is age-appropriate. Identify the specific learning disorder subtype(s) and explain why this is NOT Intellectual Disability.",
+     "a": "**Specific Learning Disorder with impairment in reading (dyslexia) and writing (dysgraphia)**. Not ID because: (1) IQ is average (not ≤70); (2) deficits are **domain-specific** (reading/writing) not global; (3) mathematics is intact. A wrong answer (e.g., \"mild ID\" or \"slow learner\") reveals confusion between global intellectual impairment vs. specific academic skill deficits — a frequent competitive exam trap where \"below average performance\" is mislabelled as ID without checking IQ/adaptive functioning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the developmental trajectories of ADHD and ASD regarding: (a) age of onset visibility, (b) symptom stability vs. change over time, (c) impact of environmental demands. Use this to explain why a child might be diagnosed with ADHD at age 8 but ASD only at age 12.",
+     "a": "(a) **ADHD**: Hyperactivity often visible by age 3-4; inattention becomes apparent with school demands (age 6-7). **ASD**: Social communication deficits may be subtle in infancy (reduced eye contact, joint attention) but become conspicuous when social demands exceed capacity (peer play, school). (b) **ADHD**: Hyperactivity declines in adolescence; inattention/impulsivity often persist. **ASD**: Core deficits persist lifelong; RRBs may change form. (c) **ADHD**: Impairment escalates with structured tasks requiring sustained effort. **ASD**: Impairment escalates with complex social navigation. A child diagnosed ADHD at 8 may have compensated for social deficits until middle school's increased social complexity unmasks ASD. Wrong answer = treating onset as fixed \"age of diagnosis\" rather than \"age of symptom manifestation relative to demand.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since 70% of children with ASD have Intellectual Disability, ASD and ID are essentially the same disorder with different labels.\" Support your critique with diagnostic criteria and comorbidity data.",
+     "a": "The statement is **incorrect**. DSM-5 allows **dual diagnosis** of ASD + ID when criteria for both are met. They are distinct constructs: ASD is defined by **qualitative social-communication deficits + RRBs**; ID is defined by **quantitative global intellectual (IQ ≤70) + adaptive functioning deficits**. The 70% comorbidity reflects shared etiological pathways (genetic, neurodevelopmental), not diagnostic equivalence. A child with ASD + average IQ has no ID; a child with ID but no RRBs/social reciprocity deficits has no ASD. Wrong answer reveals inability to distinguish **diagnostic criteria** from **epidemiological comorbidity** — a conceptual error penalised in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step screening protocol for a school teacher to flag potential neurodevelopmental disorders in a classroom of 8-year-olds. Each step must use observable behaviours (not clinical judgment) and specify which disorder(s) it targets. Justify why teacher screening ≠ diagnosis.",
+     "a": "**Step 1 (ADHD)**: Observe ≥6 months: frequent fidgeting, leaving seat, blurting answers, difficulty waiting turn → flag for ADHD evaluation. **Step 2 (ASD)**: Observe: limited eye contact, no reciprocal conversation, rigid play routines, distress at minor changes → flag for ASD evaluation. **Step 3 (ID/SLD)**: Observe: cannot follow multi-step instructions, reads/writes/calculates ≥2 years below grade despite effort → flag for psychoeducational assessment. **Justification**: Teachers observe functional impairment in natural settings; diagnosis requires standardised testing, clinical interview, ruling out medical causes, multi-informant data — beyond teacher competence. Poor answer = suggesting teacher diagnoses or uses checklists as diagnostic tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

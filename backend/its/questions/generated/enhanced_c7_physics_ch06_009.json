@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_009",
+   "title": "c7_physics_ch06_009",
+   "questions": [
+    {
+     "q": "What is the source of light that allows us to see the Moon from Earth during a moonlit night?",
+     "a": "The Sun. The Moon does not produce its own light; it acts as a reflector of sunlight. A student who answers \"the Moon itself\" confuses luminous objects (like the Sun or a torch) with non-luminous illuminated objects (like the Moon or a mirror reflecting light).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the shape of the Moon appear to change every night over a period of about 29.5 days?",
+     "a": "The apparent shape changes because as the Moon revolves around the Earth, the changing relative positions of the Earth, Moon, and Sun alter our viewing angle of the Moon's illuminated half. A student who thinks the Earth's shadow causes the monthly phases is confusing the monthly phases with a lunar eclipse.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon is positioned directly between the Earth and the Sun, what phase of the moon do we observe from Earth, and approximately what percentage of the Moon's illuminated side faces us?",
+     "a": "Steps: 1. Identify positions: Earth-Moon-Sun alignment means the Sun's rays strike the side of the Moon facing away from Earth. 2. Determine visible lit area: The side facing Earth receives zero direct sunlight. 3. Name the phase: This position creates the New Moon phase. 4. Calculate percentage: 0% of the illuminated half is visible from Earth. Correct Answer: New Moon phase, with 0% of the illuminated side visible. A student who says 100% or Full Moon has inverted the positions or forgotten that sunlight comes from behind the Moon in this alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the scenario: Suppose you observe a First Quarter moon high in the sky during evening hours. Exactly one week later, what specific phase of the moon will you observe, and how has the Earth-Moon-Sun angle changed?",
+     "a": "Correct Answer: Full Moon. One week after the First Quarter, the Moon has moved one-quarter further along its orbit (90 degrees more, totaling 180 degrees from the New Moon), placing the Earth directly between the Sun and the Moon. A student who answers \"New Moon\" has failed to track the quarter-monthly progression of the Moon's orbital revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"During a crescent moon phase, the Earth's shadow is blocking a large portion of the Moon from the Sun.\" Is this statement scientifically accurate, and why?",
+     "a": "Correct Answer: The statement is false. The dark portion of the crescent moon is simply the unlit half of the Moon experiencing its own nighttime, not the Earth's shadow. Earth's shadow only causes eclipses, whereas phases are caused by our changing perspective of the Moon's sunlit hemisphere. A student who agrees with the statement is mixing up lunar eclipses with the regular monthly cycle of moon phases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a desk lamp and a small ball to demonstrate why we see a \"Full Moon\" versus a \"New Moon.\" Describe the positions of your eyes, the ball, and the lamp for each of these two phases.",
+     "a": "Criteria for a good answer: The student must place the lamp (Sun) fixed in one spot, hold the ball (Moon) at arm's length, and position themselves (Earth) in the middle or offset. For a Full Moon, the ball is held opposite the lamp with the student's head between them so the lit face is fully visible. For a New Moon, the ball is held between the student and the lamp so the dark side faces the student. A poor answer fails to correctly place the observer relative to the light source and the reflecting object.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

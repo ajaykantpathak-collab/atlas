@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_005",
+   "title": "c10_phy_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the formula for the force on a current-carrying conductor in a magnetic field. Define each symbol and its SI unit.",
+     "a": "The formula is \\( F = B I L \\sin\\theta \\). \\( F \\) = force (newton, N), \\( B \\) = magnetic field strength (tesla, T), \\( I \\) = current (ampere, A), \\( L \\) = length of conductor in the field (metre, m), \\( \\theta \\) = angle between current direction and magnetic field (degree or radian). A wrong answer (e.g., missing \\( \\sin\\theta \\), confusing units, or writing \\( F = BIL \\) without the angle) reveals the student does not understand the vector nature of the force or the condition for maximum/minimum force.",
+     "self_check": true
+    },
+    {
+     "q": "A copper wire of length 10 cm carries a current of 2 A and is placed perpendicular to a uniform magnetic field of 0.5 T. If the wire is now tilted so that it makes an angle of 30° with the field, how does the force change? Explain why the force depends on \\( \\sin\\theta \\).",
+     "a": "Initially \\( \\theta = 90^\\circ \\), so \\( \\sin 90^\\circ = 1 \\), force \\( F_1 = BIL \\). After tilting, \\( \\theta = 30^\\circ \\), \\( \\sin 30^\\circ = 0.5 \\), so force becomes half: \\( F_2 = 0.5 BIL \\). The force depends on \\( \\sin\\theta \\) because only the component of the conductor's length perpendicular to the field (or the component of current perpendicular to the field) contributes to the force. A wrong answer (e.g., saying force remains same, or using \\( \\cos\\theta \\)) shows the student treats the formula as a memorized recipe without understanding the geometric projection.",
+     "self_check": true
+    },
+    {
+     "q": "A straight wire of length 15 cm carries a current of 4 A. It is placed at an angle of 60° to a uniform magnetic field of 0.2 T. Calculate the magnitude of the force on the wire. Show all steps with units.",
+     "a": "Given: \\( L = 15 \\, \\text{cm} = 0.15 \\, \\text{m} \\), \\( I = 4 \\, \\text{A} \\), \\( B = 0.2 \\, \\text{T} \\), \\( \\theta = 60^\\circ \\).  \nStep 1: Formula \\( F = B I L \\sin\\theta \\).  \nStep 2: Substitute values: \\( F = (0.2 \\, \\text{T}) \\times (4 \\, \\text{A}) \\times (0.15 \\, \\text{m}) \\times \\sin 60^\\circ \\).  \nStep 3: \\( \\sin 60^\\circ = \\sqrt{3}/2 \\approx 0.866 \\).  \nStep 4: \\( F = 0.2 \\times 4 \\times 0.15 \\times 0.866 = 0.10392 \\, \\text{N} \\).  \nStep 5: Round to two significant figures: \\( F \\approx 0.10 \\, \\text{N} \\).  \nUnit check: \\( \\text{T} \\cdot \\text{A} \\cdot \\text{m} = (\\text{N}/(\\text{A}\\cdot\\text{m})) \\cdot \\text{A} \\cdot \\text{m} = \\text{N} \\). Correct.  \nA wrong answer (e.g., forgetting to convert cm to m, using \\( \\sin 60^\\circ = 0.5 \\), or omitting units) indicates carelessness with units or trigonometric values.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical wires of length \\( L \\) carry the same current \\( I \\) and are placed in the same uniform magnetic field \\( B \\). Wire A is perpendicular to the field; Wire B is at 45° to the field. Compare the forces on the two wires. If Wire B is rotated until the force on it equals the force on Wire A, what must be the new angle? Is this possible? Explain.",
+     "a": "Force on Wire A: \\( F_A = BIL\\sin 90^\\circ = BIL \\). Force on Wire B: \\( F_B = BIL\\sin 45^\\circ = BIL/\\sqrt{2} \\). So \\( F_A > F_B \\). To make \\( F_B = F_A \\), we need \\( \\sin\\theta = 1 \\), so \\( \\theta = 90^\\circ \\). That means Wire B must also be perpendicular to the field. It is not possible to get a force larger than \\( BIL \\) by changing the angle because \\( \\sin\\theta \\leq 1 \\). A wrong answer (e.g., saying \\( \\theta = 45^\\circ \\) gives same force, or that force can exceed \\( BIL \\)) reveals the student does not grasp the maximum value of sine or the physical meaning of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up an experiment to verify \\( F = BIL\\sin\\theta \\). They measure force for different angles and plot \\( F \\) vs \\( \\theta \\). The graph shows a curve that peaks at \\( 90^\\circ \\) and is symmetric about \\( 90^\\circ \\). The student claims this proves the formula. Evaluate this claim. What additional check is needed to confirm the linear dependence on \\( I \\) and \\( L \\)?",
+     "a": "The graph of \\( F \\) vs \\( \\theta \\) matching a sine curve supports the angular dependence, but it does not prove the formula because the same curve could arise from other functions that peak at \\( 90^\\circ \\). To confirm the linear dependence on \\( I \\) and \\( L \\), the student must vary \\( I \\) (keeping \\( B, L, \\theta \\) constant) and plot \\( F \\) vs \\( I \\) to see if it is a straight line through origin, and similarly vary \\( L \\). A wrong answer (e.g., accepting the single graph as full proof) shows the student confuses verification of one variable with verification of the entire formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a switch, a copper wire, a horseshoe magnet, and a lightweight aluminium foil strip to demonstrate that a current-carrying conductor experiences a force in a magnetic field. Describe how you would show the direction of the force reverses when either the current direction or the magnetic field direction is reversed.",
+     "a": "Suspend the aluminium foil strip vertically between the poles of the horseshoe magnet. Connect the strip in series with the battery and switch. Close the switch: the strip deflects sideways, showing a force. Use Fleming's left-hand rule to predict the direction. Then reverse the battery terminals (current reverses) and observe the strip deflects in the opposite direction. Next, reverse the magnet poles (field reverses) and again observe opposite deflection. A poor answer (e.g., not mentioning reversal tests, or using a heavy wire that doesn't move) indicates the student cannot translate the principle into a testable setup or understand the vector nature of the force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

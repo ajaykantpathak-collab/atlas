@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_010",
+   "title": "c7_physics_ch06_010",
+   "questions": [
+    {
+     "q": "What is the exact angle at which Earth's rotational axis is tilted relative to the line perpendicular to its orbital plane?",
+     "a": "Earth's axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane). A wrong answer such as 90° or 0° reveals a failure to recall the specific geometric measurement of Earth's tilt, confusing it with a completely upright or completely flat orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the orientation of Earth's axis remain important even as Earth travels completely around the Sun during its yearly revolution?",
+     "a": "Because the axis maintains a constant parallel orientation pointing toward the same region of space (near Polaris, the North Star) throughout the entire year. A wrong answer claiming that the axis tilts back and forth toward the Sun shows a common misconception that Earth \"wobbles\" toward the Sun, rather than keeping a fixed tilt while the planet moves around it.",
+     "self_check": true
+    },
+    {
+     "q": "If a hypothetical planet has an orbital revolution period of 365 days but its axis has a tilt of 0° (perpendicular to its orbital plane), calculate the expected variation in seasonal temperature experienced at a location at 30° latitude over the year.",
+     "a": "Steps: \n1. Identify the axial tilt: 0° (no tilt). \n2. Determine the consequence of 0° tilt on sunlight: Sun rays hit any given latitude at the exact same angle every single day of the year. \n3. Analyze seasonal variation: Since the angle of incidence of sunlight does not change, day length and daily solar heating remain constant. \n4. Conclude seasonal change: There will be 0° or negligible variation in seasonal temperatures (no distinct seasons). \nAnswer: No seasonal temperature variation; temperatures remain constant year-round because the lack of axial tilt prevents changes in the angle of incoming solar radiation. A wrong answer indicating extreme seasons reveals a misunderstanding that Earth's distance from the Sun, rather than its axial tilt, causes seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the angle of the Sun's rays striking New Delhi (approx. 28.6° N) changes between June and December due to Earth's 23.5° axial tilt.",
+     "a": "In June, the Northern Hemisphere is tilted toward the Sun, making the Sun's rays strike New Delhi at a much steeper, more direct angle, resulting in intense heating and summer. In December, the Northern Hemisphere is tilted away from the Sun, causing the rays to strike at a much shallower, slanted angle, spreading the solar energy over a larger area and resulting in winter. A wrong answer stating that New Delhi gets closer to the Sun in summer confuses Earth's axial tilt with distance variations in an eccentric orbit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"If Earth's axial tilt changed from 23.5° to 45°, winters in India would become much milder and summers would become much cooler.\" Is this correct?",
+     "a": "The claim is incorrect. An increase in the axial tilt to 45° would mean the Northern Hemisphere would tilt much further toward the Sun in summer (making summers much hotter) and much further away in winter (making winters much colder). A wrong answer agreeing with the claim reveals a failure to connect a larger tilt angle with more extreme variations in the directness of sunlight received across seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a globe and a torchlight to demonstrate how Earth's 23.5° tilt causes different hemispheres to receive unequal sunlight during revolution.",
+     "a": "A good design involves fixing a tilted globe (at 23.5°) on a track around a stationary torch, ensuring the axis always points in the same direction (parallel to its starting position). The student must observe that at one position, the Northern Hemisphere is bathed in light for a larger portion of the daily spin (longer days, direct rays), while at the opposite position, it receives slanted light and shorter days. A poor answer involves spinning an upright globe or moving the torch instead of the globe, showing a lack of understanding of spatial relationships in orbital mechanics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_002",
+   "title": "c11_psy_cbse_05_002",
+   "questions": [
+    {
+     "q": "In Pavlov's experiment, before any conditioning trials, the sound of the bell elicits alertness but no salivation. After repeated pairings of bell followed by meat powder, the bell alone elicits salivation. What is the correct label for the bell **after** conditioning?",
+     "a": "The bell becomes a Conditioned Stimulus (CS). A wrong answer (e.g., calling it an Unconditioned Stimulus or Neutral Stimulus) reveals the student confuses the stimulus's status before vs. after conditioning, or thinks the bell's physical properties changed rather than its functional role through association.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In delayed conditioning, the CS and US start at the same time, but the CS lasts longer.\" Is this statement correct? Explain why or why not using the precise definition of delayed conditioning.",
+     "a": "The statement is incorrect. In delayed conditioning, the CS **onset precedes** the US onset, and the CS **ends before the US ends** (i.e., they overlap but CS starts first). A wrong answer reveals the student confuses delayed conditioning with simultaneous conditioning (where both start together) or trace conditioning (where CS ends before US begins with a gap).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher conditions a rat to fear a tone (CS) by pairing it with a mild electric shock (US). After 10 trials, the tone alone elicits freezing (CR). The researcher then switches to a brighter light as the new CS, keeping the same shock US. Predict how the number of trials to acquire the CR will change, and justify using the determinant of CS intensity.",
+     "a": "Acquisition will be faster (fewer trials) because a brighter light is a more intense CS, and more intense conditioned stimuli accelerate conditioning for both appetitive and aversive US. A wrong answer (e.g., \"no change\" or \"slower\") shows the student does not grasp that CS intensity is an independent determinant affecting acquisition speed regardless of US type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast appetitive vs. aversive classical conditioning on: (a) number of trials needed for acquisition, and (b) adaptive significance for survival. Use the terms \"approach responses\" and \"avoidance/escape responses\" in your answer.",
+     "a": "Appetitive conditioning (e.g., food US) requires many trials and elicits approach responses (eating, drinking); aversive conditioning (e.g., shock US) often establishes in 1–3 trials and elicits avoidance/escape responses. This difference exists because missing a meal is less immediately threatening than encountering a predator—survival prioritises rapid learning of danger signals. A wrong answer that reverses the trial counts or mislabels response types reveals confusion about the biological preparedness asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"Backward conditioning (US then CS) is just as effective as delayed conditioning because the two stimuli are still paired contiguously.\" Evaluate this claim using evidence from conditioning research.",
+     "a": "The claim is false. Backward conditioning rarely produces a CR because the CS follows the US, so the CS cannot function as a **predictive signal** for the US—the organism experiences the US first, then the CS, which provides no anticipatory information. Delayed conditioning works because the CS precedes and overlaps the US, allowing the organism to prepare. A student who agrees reveals a fundamental misunderstanding that conditioning is about mere contiguity rather than contingency/predictiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life classical conditioning scenario (not from the textbook) involving an **aversive US** that would establish a CR in **one trial**. Specify: the US, UR, CS, CR, and explain why one-trial learning is plausible here but not for an appetitive US like chocolate.",
+     "a": "Example: A child touches a hot stove (US → pain/withdrawal UR); the sight of the glowing red burner (CS) later elicits fear/avoidance (CR). One-trial learning occurs because the aversive US (pain) threatens bodily integrity, triggering biological preparedness for rapid danger learning. Chocolate (appetitive) requires many trials because missing a reward is not life-threatening. A poor answer uses an appetitive US or fails to link one-trial learning to survival relevance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

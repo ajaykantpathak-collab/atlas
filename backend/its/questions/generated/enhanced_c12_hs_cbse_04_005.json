@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_005",
+   "title": "c12_hs_cbse_04_005",
+   "questions": [
+    {
+     "q": "Name the two main categories of manufactured fibres and give one example of each.",
+     "a": "The two main categories are regenerated fibres (e.g., viscose rayon) and synthetic fibres (e.g., polyester). A wrong answer that lists \"cotton\" or \"wool\" as manufactured fibres reveals confusion between natural and manufactured fibres. Listing \"nylon\" and \"polyester\" both as regenerated fibres shows the student does not grasp the raw-material distinction (natural polymer vs petrochemical).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why viscose rayon has higher moisture regain than polyester, linking your answer to their polymer structures.",
+     "a": "Viscose rayon is regenerated cellulose, whose polymer chains contain many hydroxyl (-OH) groups that hydrogen-bond with water molecules, giving ~11% moisture regain. Polyester (PET) has ester linkages and aromatic rings but no -OH groups, making it hydrophobic with only ~0.4% regain. A student who says \"rayon is natural so it absorbs more\" misses the structural reason; the correct explanation must reference specific functional groups and their interaction with water.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric label reads \"65% polyester / 35% cotton\". The fabric is subjected to a burning test. Describe the expected observations (flame, odour, residue) and explain how they differ from a 100% cotton fabric.",
+     "a": "100% cotton: burns quickly with yellow flame, smells like burning paper, leaves grey feathery ash. 65/35 polyester/cotton: cotton component burns similarly, but polyester melts and shrinks away from flame, gives sweet chemical odour, leaves hard black bead. A student who says \"both burn the same\" ignores the melt-bead formation of polyester. A student who says \"polyester burns like paper\" confuses synthetic with cellulosic behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heat-setting behaviour of nylon 6,6 and acrylic fibres. Why is heat-setting critical for synthetic fibres but not for regenerated fibres like rayon?",
+     "a": "Nylon 6,6 and acrylic are thermoplastic; they soften on heating (nylon ~215°C, acrylic ~200°C) allowing permanent shape fixation (heat-setting). Rayon is not thermoplastic — it chars/decomposes before melting because its cellulose chains are held by strong hydrogen bonds and do not flow. Heat-setting exploits the glass transition (Tg) of synthetic polymers to lock in crimp, pleats, or dimensional stability. A student who claims \"rayon can be heat-set like polyester\" misunderstands the fundamental difference between thermoplastic and non-thermoplastic polymers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of acetate fibre for a lining fabric in a winter coat that will be dry-cleaned regularly. Consider its properties: moisture regain, heat sensitivity, solvent resistance, and static tendency.",
+     "a": "Acetate has low moisture regain (~6%), good drape, and resists shrinkage, making it comfortable as lining. It dissolves in acetone but is stable in perchloroethylene (common dry-cleaning solvent), so dry-cleaning is safe. However, it generates static electricity and melts at low temperature (~180°C), so ironing requires caution. Overall, acetate is suitable for dry-cleaned linings but poor for high-heat or high-static environments. A student who rejects acetate solely because \"it melts\" fails to weigh the actual use conditions (dry-cleaning, low ironing).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple identification flowchart (using only burning test and microscopic longitudinal view) that distinguishes between viscose rayon, nylon 6,6, polyester, and acrylic. Provide the key decision points.",
+     "a": "Flowchart: \n1. Burning test: \n   - Burns with paper smell, grey ash → cellulosic → go to step 2a. \n   - Melts, sweet odour, hard bead → synthetic → go to step 2b. \n   - Melts, acrid fishy odour, black bead → likely nylon → confirm with step 3. \n   - Melts, sweet/chemical odour, hard black bead → likely polyester → confirm with step 3. \n   - Melts, acrid pungent odour, irregular hard bead → likely acrylic → confirm with step 3. \n2a. Microscopic longitudinal: striated lines → viscose rayon. \n2b. Microscopic longitudinal: smooth, rod-like → nylon/polyester/acrylic (all similar). \n3. Solubility test (optional): nylon dissolves in formic acid; polyester in meta-cresol; acrylic in DMF. \nA poor answer omits the melting vs burning distinction or relies only on odour without bead observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

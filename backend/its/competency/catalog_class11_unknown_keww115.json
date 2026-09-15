@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 115,
+  "chapter_title": "The World is too Much With Us",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww115.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww115.1.1",
+      "title": "Getting and Spending: Humanity Out of Tune with Nature",
+      "section": "1",
+      "definition": "Wordsworth's sonnet indicts his age: the world is too much with us -- late and soon, getting and spending, we lay waste our powers. Humanity has given its heart away in exchange, and no longer sees the sea that bares its bosom to the moon or the winds that howl at all hours.",
+      "formula": "",
+      "key_idea": "Material appetite deafens -- humanity trades its heart for commerce and goes out of tune with sea and wind.",
+      "textbook_ref": "keww115.txt octave (world too much with us, getting and spending, laying waste our powers, sea that bares her bosom, winds howling, out of tune)",
+      "question_patterns": [
+        "what does wordsworth mean by the world is too much with us",
+        "in class 11 the world is too much with us: explain getting and spending we lay waste our powers",
+        "what has humanity given its heart away for",
+        "how are the sea and winds described in the poem",
+        "what does out of tune mean in the sonnet's context",
+        "why does the poet say little we see in nature that is ours"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the accusation",
+          "explain": "The material world -- getting and spending -- consumes human powers that should belong to nature and spirit."
+        },
+        {
+          "step": 2,
+          "action": "show the insensitivity",
+          "explain": "The roaring sea and howling winds, nature's drama, no longer move people who are out of tune with them."
+        },
+        {
+          "step": 3,
+          "action": "name the exchange",
+          "explain": "The heart has been sold for commerce -- a bargain the sonnet calls ruinous."
+        }
+      ]
+    },
+    {
+      "id": "keww115.1.2",
+      "title": "Proteus and Triton: The Pagan Remedy",
+      "section": "1",
+      "definition": "The sestet turns to mythology: the pagan Greeks, suckled in a creed outworn, glimpsed gods in nature -- Proteus rising from the sea, Triton blowing his wreathed horn. The poet would rather be a pagan so attired than stand now, out of tune, beholding a nature stripped of divinity and so sordidly forsworn.",
+      "formula": "",
+      "key_idea": "Better an old creed that sees gods in waves than a new one that sees only goods -- myth as the lost vision of nature.",
+      "textbook_ref": "keww115.txt sestet (pagan suckled in a creed outworn, proteus rising from the sea, triton's wreathed horn, glimpses that would cheer)",
+      "question_patterns": [
+        "why does the poet wish to be a pagan",
+        "in class 11 the world is too much with us: who are proteus and triton",
+        "what does the poet mean by a creed outworn",
+        "how would glimpses of proteus and triton cheer the poet",
+        "explain the imagery of the last lines of the sonnet",
+        "what is the significance of the mythological allusions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "recall the pagan creed",
+          "explain": "The old religion imagined divinity inside nature -- seas and winds alive with gods."
+        },
+        {
+          "step": 2,
+          "action": "picture the gods",
+          "explain": "Proteus rising from the sea and Triton sounding his wreathed horn would be 'glimpses' to cheer a forlorn soul."
+        },
+        {
+          "step": 3,
+          "action": "read the preference",
+          "explain": "The poet prefers even an outworn creed that animates nature to a modern sightlessness that forswears all wonder."
+        }
+      ]
+    },
+    {
+      "id": "keww115.1.3",
+      "title": "Sonnet Form as Argument: Octave Accusation, Sestet Longing",
+      "section": "1",
+      "definition": "The poem's Petrarchan shape carries its logic: the octave states the accusation -- a humanity wasting its powers in commerce, deaf to nature -- while the sestet answers with longing, the pagan wish and the mythological vision. The turn (volta) between them is the poem's hinge.",
+      "formula": "",
+      "key_idea": "Form as argument -- accusation in the octave, yearning in the sestet, and a volta between them.",
+      "textbook_ref": "keww115.txt structure (petrarchan sonnet form, octave and sestet, volta, rhyme scheme, argument of the poem)",
+      "question_patterns": [
+        "describe the structure of the sonnet the world is too much with us",
+        "in class 11 the world is too much with us: what change occurs at the volta",
+        "how does the octave differ in tone from the sestet",
+        "trace the rhyme scheme of the poem",
+        "why is the poem called a sonnet of argument",
+        "how does the form reinforce the poem's message"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "map the octave",
+          "explain": "Eight lines lay out the charge: materialism has deadened humanity to nature's life."
+        },
+        {
+          "step": 2,
+          "action": "map the sestet",
+          "explain": "Six lines answer with the pagan remedy -- Proteus, Triton and the wish to feel again."
+        },
+        {
+          "step": 3,
+          "action": "find the hinge",
+          "explain": "The volta turns accusation into longing, making the form itself the poem's argument."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww115.txt octave",
+      "concept": "keww115.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Explain 'getting and spending, we lay waste our powers' as the key accusation of the poem.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "define the phrase",
+          "explain": "Getting and spending names an economy of endless acquisition and consumption."
+        },
+        {
+          "step": 2,
+          "action": "state the waste",
+          "explain": "Human powers -- feeling, imagination, sympathy -- are squandered in that cycle."
+        },
+        {
+          "step": 3,
+          "action": "connect to nature",
+          "explain": "Deafened by commerce, humanity no longer hears the sea and winds that still sing -- the heart gone for exchange."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww115.txt sestet",
+      "concept": "keww115.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the poet call the pagan creed 'outworn' yet prefer it to his own age?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "admit the outwornness",
+          "explain": "Scientifically the creed is outdated -- no one now believes Proteus rises from the sea."
+        },
+        {
+          "step": 2,
+          "action": "praise its vision",
+          "explain": "Yet it saw nature as alive and divine, where the modern age sees only resource and commodity."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Wordsworth's paradox: a false belief that keeps wonder alive is better than a true sightlessness."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww115.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is the central theme of the sonnet?",
+        "Explain the phrase 'getting and spending, we lay waste our powers'.",
+        "Why does the poet wish to be a pagan suckled in a creed outworn?",
+        "Describe the allusions to Proteus and Triton.",
+        "Comment on the structure of the sonnet.",
+        "Is the poem relevant to our own times? Discuss."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_004",
+   "title": "c12_bio_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define incomplete dominance and give one classic plant example. How does the phenotypic ratio in the F₂ generation differ from a standard Mendelian monohybrid cross?",
+     "a": "Incomplete dominance occurs when the heterozygous phenotype is an intermediate blend of the two homozygous phenotypes (e.g., red × white snapdragon → pink F₁). In F₂, the phenotypic ratio is 1 red : 2 pink : 1 white (1:2:1), unlike the 3:1 dominant:recessive ratio in Mendelian dominance. A wrong answer (e.g., stating 3:1 ratio or claiming the heterozygote shows the dominant trait) reveals the student still applies Mendel's law of dominance universally and has not grasped that the dominance relationship itself can vary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the molecular reason why a heterozygote for incomplete dominance shows an intermediate phenotype, while a heterozygote for codominance shows both parental phenotypes distinctly. Use the concept of gene product (protein) function.",
+     "a": "In incomplete dominance, the dominant allele typically produces a functional protein but in half the quantity (haploinsufficiency), so the heterozygote has an intermediate amount of product → intermediate phenotype (e.g., half the pigment = pink). In codominance, both alleles produce distinct, fully functional proteins that are both expressed and detectable (e.g., both A and B antigens on RBCs). A wrong answer that confuses the two mechanisms (e.g., saying codominance is also blending) shows the student memorizes ratios but lacks the biochemical understanding needed for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A cross between two pink-flowered snapdragons produces 240 offspring. How many red, pink, and white flowers are expected? Show the Punnett square and calculate the numbers.",
+     "a": "Parental genotypes: R¹R² × R¹R² (where R¹ = red allele, R² = white allele). Punnett square yields genotypes: 1 R¹R¹ (red) : 2 R¹R² (pink) : 1 R²R² (white). Expected numbers: red = 60, pink = 120, white = 60. A wrong answer (e.g., 180 pink : 60 white) indicates the student incorrectly assumes pink is dominant or misapplies the 3:1 ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the F₂ phenotypic ratios of a monohybrid cross showing incomplete dominance versus one showing codominance. Are they the same or different? Justify your answer with an example for each.",
+     "a": "Both give a 1:2:1 phenotypic ratio in F₂. In incomplete dominance (snapdragon), the three phenotypes are distinct: red, pink, white. In codominance (e.g., roan cattle: RR = red, Rr = roan (both red and white hairs), rr = white), the three phenotypes are also distinct: red, roan, white. The ratios are identical, but the nature of the heterozygote differs (blended vs. both traits visible). A student who says the ratios differ (e.g., 3:1 for codominance) confuses codominance with complete dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In codominance, the heterozygote phenotype is exactly halfway between the two homozygotes, just like incomplete dominance.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. In codominance, the heterozygote expresses both alleles fully and simultaneously (e.g., AB blood group has both A and B antigens), not an intermediate blend. In incomplete dominance, the heterozygote shows a true intermediate phenotype (e.g., pink flowers). The student's error arises from confusing \"both alleles expressed\" with \"blended expression.\" This misconception leads to incorrect predictions in problems involving human blood groups or coat color in cattle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple cross experiment using snapdragons to prove that the pink flower color is due to incomplete dominance and not a separate genetic factor. Describe the crosses, expected outcomes, and how you would interpret the results.",
+     "a": "Cross 1: True-breeding red (RR) × true-breeding white (rr) → all pink F₁. Cross 2: Self-pollinate F₁ pink (Rr) × pink (Rr) → F₂ ratio 1 red : 2 pink : 1 white. If pink were a separate factor, F₁ would not be uniform pink, and F₂ would not show the 1:2:1 ratio with reappearance of parental phenotypes. The reappearance of pure red and pure white in F₂ confirms the alleles segregate and the heterozygote is intermediate. A poor answer that only does one cross or ignores the reappearance of parental types shows lack of experimental design thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

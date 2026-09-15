@@ -1,0 +1,533 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Matrices",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lemh.103.2.1",
+   "title": "Matrix Order and Element Count",
+   "section": "3.2",
+   "definition": "A matrix is a rectangular arrangement of numbers or functions into rows and columns; its order is written as rows by columns, and an array of order m by n holds m times n entries.",
+   "formula": "elements = rows * cols",
+   "key_idea": "Order m x n means m horizontal rows and n vertical columns, so the entry count is their product.",
+   "textbook_ref": "lemh103.txt, sections 3.2-3.2.1 (lines 90-179)",
+   "question_patterns": [
+    "find the entry count of a matrix of order 3 by 4 by multiplying its rows and columns",
+    "calculate the entry count of the rectangular array with the given rows and columns",
+    "state the order of a matrix having 2 rows and 3 columns",
+    "if a matrix has 4 rows and 7 columns how many elements does it contain",
+    "what is the order of the matrix storing the notebook and pen counts of three friends",
+    "determine both the order and the element total of the given array"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the row count by the column count",
+     "explain": "Each row meets each column once, so an m by n array packs the product many entries.",
+     "compute": "elements = rows * cols"}
+   ]
+  },
+  {
+   "id": "lemh.103.2.2",
+   "title": "Matrices as Data Arrangements",
+   "section": "3.2",
+   "definition": "Tabular information, such as items possessed by different people or the coordinates of a figure's corners, packs into a matrix whose rows and columns carry the categories.",
+   "formula": "entry aij sits in row i and column j",
+   "key_idea": "The row label picks the person or point and the column label picks the item or coordinate.",
+   "textbook_ref": "lemh103.txt, section 3.2 (notebook and pen table, vertices of a quadrilateral, lines 22-90, 190-241)",
+   "question_patterns": [
+    "represent the notebooks and pens owned by three friends as a matrix",
+    "write the vertices of a quadrilateral as a 2 by 4 data matrix",
+    "which entry of the data matrix stores the pen count of the second friend",
+    "express the given table as a rectangular array of numbers",
+    "read off the element in the second row and first column of the data matrix",
+    "how does a matrix encode tabular information about people and items"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "decide the rows and the columns",
+     "explain": "Assign one category to rows and the other to columns."},
+    {"step": 2, "action": "place each value at its position",
+     "explain": "Every data point gets the position fixed by its row and column labels."},
+    {"step": 3, "action": "read the arrangement",
+     "explain": "Any entry can be recovered from its position, which is why matrices store data compactly."}
+   ]
+  },
+  {
+   "id": "lemh.103.3.1",
+   "title": "Row, Column and Square Matrices",
+   "section": "3.3",
+   "definition": "Shape names come from the counts: a matrix with a single column is a column matrix, one with a single row is a row matrix, and when the row count equals the column count the matrix is square of that order.",
+   "formula": "square if rows = cols",
+   "key_idea": "A 4 x 1 array is column type, a 1 x n array is row type, and an n x n array is square of order n.",
+   "textbook_ref": "lemh103.txt, section 3.3 (i)-(iii) (lines 439-546)",
+   "question_patterns": [
+    "is the given matrix a row matrix or a column matrix",
+    "identify the type of the matrix that has only one column",
+    "when is a matrix called a square matrix and what is its order",
+    "classify the given matrices as row, column or square",
+    "what do you call a matrix with exactly one row",
+    "explain the difference between a row matrix and a column matrix"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the rows and columns",
+     "explain": "Read the order of the given matrix."},
+    {"step": 2, "action": "compare the counts",
+     "explain": "A single column means column type, a single row means row type, equal counts mean square."},
+    {"step": 3, "action": "name the type",
+     "explain": "Report the shape class together with the order."}
+   ]
+  },
+  {
+   "id": "lemh.103.3.2",
+   "title": "Diagonal, Scalar and Identity Matrices",
+   "section": "3.3",
+   "definition": "In a square matrix the entries a11, a22 up to ann form its diagonal; zeros in every off-diagonal position make the matrix diagonal, equal diagonal values make it scalar, and ones in every diagonal position make it the identity.",
+   "formula": "diagonal matrix means bij = 0 whenever i is not j",
+   "key_idea": "Zeros off the diagonal give a diagonal matrix; equal diagonal values give a scalar matrix; all ones on the diagonal give the identity matrix.",
+   "textbook_ref": "lemh103.txt, section 3.3 (iv)-(vi) (lines 520-690)",
+   "question_patterns": [
+    "which entries form the diagonal of the given square matrix",
+    "is the given matrix diagonal, scalar or identity",
+    "state the condition on the entries for a matrix to be a diagonal matrix",
+    "what makes a scalar matrix different from a diagonal matrix",
+    "explain why the identity matrix carries ones on its diagonal",
+    "classify the square matrix whose nonzero entries sit on the diagonal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "inspect the off-diagonal entries",
+     "explain": "Check whether every position outside the diagonal holds zero."},
+    {"step": 2, "action": "inspect the diagonal entries",
+     "explain": "See whether the diagonal values are equal, or all equal to one."},
+    {"step": 3, "action": "classify",
+     "explain": "Zeros off the diagonal is diagonal; equal diagonal values is scalar; diagonal all ones with zeros elsewhere is identity."}
+   ]
+  },
+  {
+   "id": "lemh.103.3.3",
+   "title": "Equality of Matrices",
+   "section": "3.3.1",
+   "definition": "Two matrices are equal only when their orders match and every corresponding pair of entries is equal, which turns a matrix equation into a set of ordinary equations for the unknowns.",
+   "formula": "A = B means aij = bij for every i and j",
+   "key_idea": "Match the order first, then equate each entry position to build equations and solve for the unknowns.",
+   "textbook_ref": "lemh103.txt, section 3.3.1 (lines 723-930)",
+   "question_patterns": [
+    "find the values of x and y hidden in two equal matrices by equating each entry position",
+    "solve for the unknowns by equating the corresponding entries of equal matrices",
+    "when are two matrices equal",
+    "determine a, b and c from the given matrix equality",
+    "can matrices of different orders ever be equal justify",
+    "form the entry equations from the matrix equality statement and solve them"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the orders",
+     "explain": "Different orders immediately rule out equality."},
+    {"step": 2, "action": "equate matching positions",
+     "explain": "Each pair of same-position entries gives one equation."},
+    {"step": 3, "action": "solve the equations",
+     "explain": "Solve the resulting system to find the unknown entries."}
+   ]
+  },
+  {
+   "id": "lemh.103.4.1",
+   "title": "Addition of Matrices",
+   "section": "3.4.1",
+   "definition": "Two matrices of the same order add by combining entries placed alike: the entry in row i and column j of the sum is the sum of the entries occupying those same positions in the two addends.",
+   "formula": "c11 = a11 + b11",
+   "key_idea": "Add only matrices of the same order, position by position; mismatched orders cannot be added.",
+   "textbook_ref": "lemh103.txt, section 3.4.1 (lines 1218-1468)",
+   "question_patterns": [
+    "find the entry in the first row and first column of the sum of two matrices",
+    "add the two given matrices of the same order",
+    "compute A plus B entry by entry",
+    "can the two matrices of different orders be added justify",
+    "what is the entrywise sum of the given arrays",
+    "find the matrix obtained by adding corresponding entries"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "combine the entries at the same position",
+     "explain": "The sum entry at any position is the total of the two entries standing there.",
+     "compute": "c11 = a11 + b11"}
+   ]
+  },
+  {
+   "id": "lemh.103.4.2",
+   "title": "Multiplication by a Scalar",
+   "section": "3.4.2",
+   "definition": "Multiplying a matrix by a number scales every entry by that number, so each position of the product holds the original entry times the scalar.",
+   "formula": "entry = k * a11",
+   "key_idea": "The scalar touches every entry, whether it is negative or fractional.",
+   "textbook_ref": "lemh103.txt, section 3.4.2 and 3.4.4 (lines 1469-1530, 1798-1860)",
+   "question_patterns": [
+    "find the entry of kA in the first row and first column for the given scalar",
+    "multiply the matrix by the scalar 3",
+    "compute 2A for the given matrix A",
+    "what does the scalar times matrix rule do to each entry",
+    "determine the matrix 4A from the given array",
+    "scale every element of the matrix by the given number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the entry by the scalar",
+     "explain": "Every position of the scaled matrix carries the original value times the scalar.",
+     "compute": "entry = k * a11"}
+   ]
+  },
+  {
+   "id": "lemh.103.4.3",
+   "title": "Properties of Matrix Addition",
+   "section": "3.4.3",
+   "definition": "Matrix addition is commutative and associative, the zero matrix of matching order acts as the additive identity, and the matrix of negated entries is the additive inverse.",
+   "formula": "A + B = B + A",
+   "key_idea": "Entrywise addition of same-order matrices behaves like ordinary addition, with the zero matrix in the role of zero.",
+   "textbook_ref": "lemh103.txt, sections 3.4.3-3.4.4 (lines 1769-1860)",
+   "question_patterns": [
+    "show that addition of matrices is commutative for the given matrices",
+    "verify the associative law for the addition of three matrices",
+    "what is the additive identity of a matrix of order 2 by 2",
+    "find the additive inverse of the given matrix",
+    "prove that A plus B equals B plus A entrywise",
+    "state the laws that matrix addition shares with number addition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "add in one order",
+     "explain": "Form the entrywise sum A + B."},
+    {"step": 2, "action": "add in the reverse order",
+     "explain": "Form B + A and compare positions."},
+    {"step": 3, "action": "conclude the law",
+     "explain": "Matching entries prove commutativity; the same entrywise reasoning gives associativity, identity and inverses."}
+   ]
+  },
+  {
+   "id": "lemh.103.4.4",
+   "title": "Product Entry Rule (Row by Column)",
+   "section": "3.4.5",
+   "definition": "An entry of a matrix product pairs a row of the left matrix with a column of the right matrix: multiply the matched entries and add the resulting products.",
+   "formula": "c11 = a11 * b11 + a12 * b21",
+   "key_idea": "Row of A times column of B produces the matching entry; the money needed when requirements meet prices works exactly this way.",
+   "textbook_ref": "lemh103.txt, section 3.4.5 (pen and story book purchases, lines 2475-2610)",
+   "question_patterns": [
+    "find the entry in the first row and first column of the product AB",
+    "compute the top left entry of the product of two 2 by 2 matrices",
+    "calculate the money each buyer spends when the requirement row meets the price column",
+    "multiply the row of A into the column of B and add the products",
+    "which row and column produce the entry at row one column one of AB",
+    "evaluate the product entry with the row by column rule"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "pair the leading entries",
+     "explain": "Multiply the first entry of the row by the first entry of the column.",
+     "compute": "pair1 = a11 * b11"},
+    {"step": 2, "action": "pair the next entries",
+     "explain": "Multiply the second entry of the row by the second entry of the column.",
+     "compute": "pair2 = a12 * b21"},
+    {"step": 3, "action": "add the paired products",
+     "explain": "The total is the product entry at that row and column.",
+     "compute": "c11 = pair1 + pair2"}
+   ]
+  },
+  {
+   "id": "lemh.103.4.5",
+   "title": "Multiplication Conditions and Non-Commutativity",
+   "section": "3.4.5",
+   "definition": "A product AB exists only when the column count of A equals the row count of B; even when both AB and BA exist they usually differ, so matrix multiplication is not commutative, though it remains associative and distributive over addition.",
+   "formula": "AB defined when cols of A = rows of B",
+   "key_idea": "The inner sizes must chain; AB and BA can disagree in value or even in order.",
+   "textbook_ref": "lemh103.txt, sections 3.4.5-3.4.6 (lines 2475-3311)",
+   "question_patterns": [
+    "is the product AB defined when the inner sizes chain for A of order 2 by 3 and B of order 3 by 4",
+    "check whether the given orders allow both AB and BA and whether the two products can differ",
+    "show that AB and BA are not equal for the given matrices",
+    "why is multiplication of matrices not commutative justify",
+    "state the order of AB when A is m by n and B is n by p",
+    "decide whether AB, BA or both products exist for the given matrices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the inner sizes",
+     "explain": "Match the column count of the left factor with the row count of the right factor."},
+    {"step": 2, "action": "check both products",
+     "explain": "Repeat the test with the factors swapped, and note the resulting orders."},
+    {"step": 3, "action": "conclude existence and commutativity",
+     "explain": "Report which products are defined and, when both are, compare the entries to test equality."}
+   ]
+  },
+  {
+   "id": "lemh.103.5.1",
+   "title": "Transpose and its Properties",
+   "section": "3.5",
+   "definition": "The transpose of a matrix exchanges rows with columns; transposing twice returns the original array, scalars come out of a transpose unchanged, and the transpose of a product reverses the factor order.",
+   "formula": "(AB)' = B' A'",
+   "key_idea": "The prime symbol turns rows into columns; products reverse under transpose while scalar factors stay put.",
+   "textbook_ref": "lemh103.txt, sections 3.5-3.5.1 (lines 5567-5928)",
+   "question_patterns": [
+    "write the transpose of the given array by exchanging its rows with columns",
+    "show that the transpose of the product equals the product of the transposes in reverse order",
+    "verify that transposing twice gives back the original matrix",
+    "state the property relating the transpose of AB to the transposes of A and B",
+    "compute the transpose of k times A for the given scalar",
+    "what happens to the rows and columns when a matrix is transposed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "swap rows and columns",
+     "explain": "Write each row of the original as a column of the transpose."},
+    {"step": 2, "action": "apply the needed property",
+     "explain": "Use the reversal rule for products or the scalar rule as the question requires."},
+    {"step": 3, "action": "compare entries",
+     "explain": "Entrywise comparison confirms the identity being verified."}
+   ]
+  },
+  {
+   "id": "lemh.103.6.1",
+   "title": "Symmetric and Skew Symmetric Matrices",
+   "section": "3.6",
+   "definition": "A square matrix equal to its own transpose is symmetric, and one equal to the negative of its transpose is skew symmetric, which forces zero diagonal entries; every square matrix splits uniquely into a symmetric part plus a skew symmetric part.",
+   "formula": "A = A' for symmetric, A = -A' for skew symmetric",
+   "key_idea": "Half the sum and half the difference with the transpose give the symmetric and skew symmetric pieces; a skew symmetric diagonal vanishes.",
+   "textbook_ref": "lemh103.txt, section 3.6 (lines 6090-6583)",
+   "question_patterns": [
+    "show that the given square matrix is symmetric by comparing every entry with its transpose",
+    "verify whether the matrix equals the negative of its transpose",
+    "express the matrix as the sum of a symmetric and a skew symmetric matrix",
+    "why does a skew symmetric matrix have zero diagonal entries",
+    "is every diagonal element of a skew symmetric matrix zero justify",
+    "write the symmetric part of the given matrix"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "form the transpose",
+     "explain": "Write A' for the given square matrix."},
+    {"step": 2, "action": "compare A with A' or with -A'",
+     "explain": "Entrywise comparison decides symmetric versus skew symmetric."},
+    {"step": 3, "action": "decompose if asked",
+     "explain": "Average A with A' for the symmetric part and average A with -A' for the skew symmetric part."}
+   ]
+  },
+  {
+   "id": "lemh.103.7.1",
+   "title": "Invertible Matrices",
+   "section": "3.7",
+   "definition": "A square matrix A is invertible when another square matrix B of the same order satisfies AB = BA = I; that B is the inverse of A, the inverse is unique, inverses of a product reverse order, and only square matrices can carry an inverse.",
+   "formula": "AB = BA = I",
+   "key_idea": "Two-way product equal to the identity certifies the inverse; uniqueness follows by sandwiching between the identity.",
+   "textbook_ref": "lemh103.txt, section 3.7 (Definition 6, Theorems 3-4, lines 7056-7194)",
+   "question_patterns": [
+    "show that the given matrices A and B are inverses of each other",
+    "verify that AB equals BA equals the identity for the two matrices",
+    "when does a square matrix have an inverse",
+    "prove that the inverse of a square matrix is unique",
+    "state the relation between the inverse of AB and the inverses of A and B",
+    "why can a rectangular matrix not possess an inverse"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "multiply A by B",
+     "explain": "Compute the product AB entry by entry."},
+    {"step": 2, "action": "multiply B by A",
+     "explain": "Compute BA and check it agrees with AB."},
+    {"step": 3, "action": "compare with the identity",
+     "explain": "Both products equal to the identity matrix proves B is the inverse of A."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh103.txt section 3.2.1 (order and element count, lines 167-179)",
+   "concept": "lemh.103.2.1",
+   "question_type": "compute",
+   "question_pattern": "How many elements does a matrix of order {rows} by {cols} contain?",
+   "extracted_variables": {
+    "rows": "number of rows in the matrix",
+    "cols": "number of columns in the matrix"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the row count by the column count",
+     "explain": "Each of the rows meets each of the columns once.",
+     "compute": "elements = rows * cols"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh103.txt section 3.2.1 (order and element count, lines 167-179)",
+   "concept": "lemh.103.2.1",
+   "question_type": "compute",
+   "question_pattern": "A matrix has {rows} rows and {cols} columns. State its order and its element count.",
+   "extracted_variables": {
+    "rows": "number of rows in the matrix",
+    "cols": "number of columns in the matrix"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the row count by the column count",
+     "explain": "The product gives the total number of entries.",
+     "compute": "elements = rows * cols"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh103.txt section 3.4.1 (addition of matrices, lines 1218-1260)",
+   "concept": "lemh.103.4.1",
+   "question_type": "compute",
+   "question_pattern": "Two matrices of the same order have first entries {a11} and {b11} in the top left. Find that entry of the sum.",
+   "extracted_variables": {
+    "a11": "top left entry of the first matrix",
+    "b11": "top left entry of the second matrix"
+   },
+   "solution_template": [
+    {"step": 1, "action": "combine the entries at the same position",
+     "explain": "Corresponding entries add directly.",
+     "compute": "c11 = a11 + b11"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh103.txt section 3.4.2 (scalar multiplication, lines 1469-1530)",
+   "concept": "lemh.103.4.2",
+   "question_type": "compute",
+   "question_pattern": "If the top left entry of A is {a11}, find the top left entry of {k}A.",
+   "extracted_variables": {
+    "k": "scalar multiplier",
+    "a11": "top left entry of A"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the entry by the scalar",
+     "explain": "Scaling touches every entry with the same factor.",
+     "compute": "entry = k * a11"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lemh103.txt section 3.4.5 (pen and story book purchase example, lines 2475-2534)",
+   "concept": "lemh.103.4.4",
+   "question_type": "compute",
+   "question_pattern": "A buyer needs {a11} pens and {a12} story books while pens cost {b11} each and story books cost {b21} each. Find the money needed.",
+   "extracted_variables": {
+    "a11": "number of pens required",
+    "a12": "number of story books required",
+    "b11": "price of one pen",
+    "b21": "price of one story book"
+   },
+   "solution_template": [
+    {"step": 1, "action": "pair the leading entries",
+     "explain": "Multiply the pen count by the pen price.",
+     "compute": "pair1 = a11 * b11"},
+    {"step": 2, "action": "pair the next entries",
+     "explain": "Multiply the story book count by the story book price.",
+     "compute": "pair2 = a12 * b21"},
+    {"step": 3, "action": "add the paired products",
+     "explain": "The total is the product entry, the money needed.",
+     "compute": "c11 = pair1 + pair2"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh103.txt section 3.4.5 (product entry rule, lines 2475-2610)",
+   "concept": "lemh.103.4.4",
+   "question_type": "compute",
+   "question_pattern": "For matrices A and B with a11 = {a11}, a12 = {a12}, b11 = {b11} and b21 = {b21}, find the entry at row one column one of AB.",
+   "extracted_variables": {
+    "a11": "first entry of row one of A",
+    "a12": "second entry of row one of A",
+    "b11": "first entry of column one of B",
+    "b21": "second entry of column one of B"
+   },
+   "solution_template": [
+    {"step": 1, "action": "pair the leading entries",
+     "explain": "First row entry times first column entry.",
+     "compute": "pair1 = a11 * b11"},
+    {"step": 2, "action": "pair the next entries",
+     "explain": "Second row entry times second column entry.",
+     "compute": "pair2 = a12 * b21"},
+    {"step": 3, "action": "add the paired products",
+     "explain": "The sum is the product entry.",
+     "compute": "c11 = pair1 + pair2"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lemh103.txt section 3.7 (inverse of a 2 by 2 example, lines 7060-7153)",
+   "concept": "lemh.103.7.1",
+   "question_type": "verify_property",
+   "question_pattern": "Show that the matrices A with entries 2 and 3 in the first row and 1 and 2 in the second row, and B with 2 and -3 and -1 and 2, are inverses of each other.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "multiply A by B",
+     "explain": "Compute AB by the row by column rule."},
+    {"step": 2, "action": "multiply B by A",
+     "explain": "Compute BA the same way."},
+    {"step": 3, "action": "compare with the identity",
+     "explain": "Both products equal the identity matrix, so B is the inverse of A."}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lemh103.txt section 3.6 (symmetric decomposition, lines 6090-6250)",
+   "concept": "lemh.103.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Express the given square matrix as the sum of a symmetric matrix and a skew symmetric matrix.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "form the transpose",
+     "explain": "Write A' by swapping rows and columns."},
+    {"step": 2, "action": "average and difference",
+     "explain": "P = half of (A + A') is symmetric and Q = half of (A - A') is skew symmetric."},
+    {"step": 3, "action": "check the split",
+     "explain": "P + Q returns A, completing the decomposition."}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "lemh103.txt EXERCISE 3.1 (lines 931-1142)",
+   "questions": [
+    "State the order of the matrix that stores the notebook and pen counts of three friends, and identify the entry that records the pen count of the second friend.",
+    "If a matrix has a given number of elements, list every order it could possibly have.",
+    "Build a matrix whose general entry follows a stated rule in the row index and column index.",
+    "Find the values of the unknowns that make two given matrices equal.",
+    "From the sales table of two shops, form the data matrix and read a chosen entry."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "lemh103.txt EXERCISE 3.2 (lines 4532-4872)",
+   "questions": [
+    "Compute the stated sum, difference and scalar multiples of the given matrices.",
+    "Find the products AB and BA for the given pairs and state whether they are equal.",
+    "Decide which of the given matrix products are defined and give the order of each.",
+    "Use the row by column rule to compute a chosen entry of the product of two matrices.",
+    "Solve for the unknown matrix X in a linear matrix equation such as A plus X equals B."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "lemh103.txt EXERCISE 3.3 (lines 6584-6724)",
+   "questions": [
+    "Write the transpose of each given matrix.",
+    "If A is a square matrix, verify statements that combine A, its transpose and scalar multiples.",
+    "Show that the given matrix is symmetric.",
+    "Show that the given matrix is skew symmetric.",
+    "Express the given matrix as the sum of a symmetric and a skew symmetric matrix."
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "lemh103.txt EXERCISE 3.4 and Miscellaneous Exercise (lines 7192-7754)",
+   "questions": [
+    "Matrices A and B will be inverses of each other only when which condition on the products AB and BA holds? Choose from the four given options.",
+    "For the given matrix A, hunt for a matrix B such that AB equals BA equals the identity.",
+    "Prove statements about the inverse of a product of invertible matrices of the same order.",
+    "Solve the matrix equation in x of the form A squared minus five A plus the identity equals the zero matrix, and discuss the invertibility of the result."
+   ]
+  }
+ ]
+}

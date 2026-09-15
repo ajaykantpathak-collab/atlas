@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_008",
+   "title": "c12_eco_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define market supply and state the mathematical relationship between individual supply and market supply for a perfectly competitive market with 'n' identical firms.",
+     "a": "Market supply is the total quantity supplied by all firms at each price. For n identical firms, market supply Q_s^M = n × q_s^i, where q_s^i is individual firm supply. A wrong answer (e.g., \"market supply is the average of individual supplies\") reveals confusion between horizontal summation (adding quantities) and vertical summation (adding prices), a common error when students misinterpret the axes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rise in the price of the good itself does NOT shift the market supply curve, but a rise in the wage rate of workers does shift it. Use the ceteris paribus assumption in your explanation.",
+     "a": "Own price change causes a movement along the given supply curve (change in quantity supplied) because the supply curve is drawn with own price on the vertical axis and all other determinants held constant (ceteris paribus). A wage rise increases marginal cost at every output level, so firms supply less at each price — the entire curve shifts left. A wrong answer (e.g., \"both shift the curve\") shows the student does not grasp the axis convention and the role of ceteris paribus.",
+     "self_check": true
+    },
+    {
+     "q": "The market supply of wheat in Punjab is given by Q_s = 1000 + 200P (Q in quintals, P in ₹/quintal). If the government announces a ₹50/quintal subsidy per unit produced, derive the new market supply equation and calculate the quantity supplied at P = ₹2000 before and after the subsidy.",
+     "a": "Subsidy reduces effective marginal cost by ₹50, equivalent to a downward shift of the supply curve by ₹50. New supply: Q_s' = 1000 + 200(P + 50) = 1000 + 200P + 10000 = 11000 + 200P. At P=2000: before Q_s = 1000 + 200×2000 = 401,000 quintals; after Q_s' = 11000 + 200×2000 = 411,000 quintals. A wrong answer (e.g., subtracting 50 from P) reveals misunderstanding of subsidy as a downward shift in the cost curve, not a price change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the market supply curve of (a) a technological improvement that reduces marginal cost by 10% at every output level, and (b) an increase in the number of firms by 10%. Assume all firms are identical. Which shift is larger in terms of horizontal distance at a given price? Justify.",
+     "a": "Both shift the curve rightward. For (a), each firm's supply curve shifts right because MC falls; horizontal distance increase = 10% of individual quantity. For (b), with 10% more firms, market quantity at each price rises by exactly 10% (horizontal summation). Since firms are identical, the horizontal shifts are equal in percentage terms. A wrong answer (e.g., \"technology shift is larger because it lowers cost\") ignores that the percentage increase in quantity supplied at a given price is the same for identical proportional changes in MC and firm count.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An increase in the expected future price of a good always shifts the current market supply curve to the left.\" Consider perishable vs. storable goods and the role of inventory.",
+     "a": "The statement is false for perishable goods (e.g., milk, vegetables) where current supply cannot be withheld; expected future price does not affect current supply. For storable goods (e.g., wheat, oil), firms may reduce current supply to sell more later, shifting current supply left. A wrong answer (e.g., \"always left\") shows the student has not considered the storability condition, a key nuance in competitive exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario involving the Indian sugar industry where three determinants of market supply change simultaneously: (i) sugarcane price (input) rises, (ii) a new high-yield cane variety is adopted (technology), (iii) the government imposes a stock limit on mills (policy). Predict the net shift direction of the market supply curve and explain your reasoning.",
+     "a": "(i) Sugarcane price rise → MC increases → leftward shift. (ii) High-yield variety → MC decreases → rightward shift. (iii) Stock limit → reduces ability to supply from inventory → leftward shift (especially in short run). Net effect depends on magnitudes; typically (i) and (iii) dominate in short run, so net leftward shift. A poor answer (e.g., \"shifts right because technology improves\") ignores that multiple determinants can work in opposite directions and that stock limits are a binding constraint on current supply.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

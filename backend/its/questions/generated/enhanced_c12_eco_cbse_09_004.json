@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_004",
+   "title": "c12_eco_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the two core functions of the Central Bank as \"Banker's Bank\" and \"Lender of Last Resort\" in one sentence each, using precise terminology (reserves, collateral, penalty rate).",
+     "a": "**Banker's Bank:** The Central Bank holds the mandatory cash reserves (CRR) of commercial banks, operates the payment and settlement system, and provides refinance facilities.  \n**Lender of Last Resort:** The Central Bank lends to solvent but illiquid commercial banks against eligible collateral at a penalty rate to prevent systemic liquidity crises.  \nA wrong answer (e.g., \"RBI lends to banks at low rates whenever they want\") reveals confusion between routine monetary policy (repo) and emergency LOLR lending — the latter is at a *penalty* rate, not a policy rate, and only against *good collateral* for *solvent* banks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Lender of Last Resort function requires the Central Bank to lend at a **penalty rate** (higher than the prevailing market rate) and only against **good collateral**. What would happen if it lent at below-market rates or accepted poor collateral?",
+     "a": "Penalty rate and good collateral enforce **market discipline** (Bagehot principle). If RBI lent below market rates, banks would have no incentive to manage liquidity prudently — they would rely on RBI routinely (moral hazard). If RBI accepted poor collateral, it would effectively bail out insolvent banks, misallocating capital and risking taxpayer losses. A wrong answer (e.g., \"penalty rate is to earn profit\") misses the *incentive* purpose: the high rate ensures banks use LOLR only as a last resort, not as a cheap funding source.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial bank has ₹500 crore in deposits and maintains CRR of 4% with RBI. It faces an unexpected withdrawal of ₹30 crore. Its current reserves with RBI are exactly the CRR requirement. It has ₹100 crore in government securities. Show step-by-step how the bank can use the LOLR window (assume RBI lends at Bank Rate = 8% against govt securities up to 90% of market value) to meet the withdrawal. Calculate the maximum LOLR borrowing possible and the interest cost for 1 day.",
+     "a": "**Step 1:** Required CRR = 4% of ₹500 cr = ₹20 cr. Current reserves = ₹20 cr (exactly CRR).  \n**Step 2:** Withdrawal of ₹30 cr reduces reserves to -₹10 cr (deficit). Bank needs ₹10 cr immediately.  \n**Step 3:** Eligible collateral = ₹100 cr govt securities. RBI lends up to 90% = ₹90 cr.  \n**Step 4:** Bank borrows ₹10 cr (only what it needs) from LOLR window at Bank Rate 8% p.a.  \n**Step 5:** Daily interest = ₹10 cr × 8% / 365 = ₹2.19 lakh (approx).  \nMaximum LOLR borrowing possible = ₹90 cr.  \nA wrong answer (e.g., using Repo Rate instead of Bank Rate, or ignoring the 90% haircut) shows confusion between routine liquidity adjustment facility (LAF) and emergency LOLR, or ignorance of collateral valuation rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the **routine Repo operation** (under LAF) and the **LOLR window** on: (a) purpose, (b) interest rate, (c) collateral eligibility, (d) access conditions, (e) signalling effect. Present as a 5-row table.",
+     "a": "| Dimension | Routine Repo (LAF) | Lender of Last Resort |\n|---|---|---|\n| **Purpose** | Daily liquidity management, monetary policy signalling | Emergency liquidity to prevent bank failure/systemic panic |\n| **Interest Rate** | Policy Repo Rate (e.g., 6.5%) | Bank Rate / Penalty Rate (Repo Rate + spread, e.g., 7.5-8%) |\n| **Collateral** | Govt securities (SLR-eligible), haircut per RBI norms | Govt securities, possibly wider range, but must be *good* (marketable) |\n| **Access** | All scheduled banks, bid-based, daily | Only solvent but illiquid banks, case-by-case, discretionary |\n| **Signalling** | Stance of monetary policy (accommodative/tight) | Signal of distress; used sparingly to avoid stigma |\n\nA wrong answer conflating the two (e.g., \"Repo is LOLR\") shows failure to distinguish *standing facilities* from *emergency facilities* — a key board and competitive exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Lender of Last Resort function creates moral hazard because banks take excessive risks knowing RBI will rescue them. Therefore, RBI should never act as LOLR.\" Use the concepts of **solvency vs. liquidity**, **Bagehot's rules**, and **systemic risk** in your evaluation.",
+     "a": "The statement is **partially correct but dangerously incomplete**.  \n- **Moral hazard is real**: If RBI rescues *insolvent* banks (liabilities > assets) or lends at subsidized rates, banks indeed take excessive risks.  \n- **Bagehot's rules mitigate this**: Lend *only* to **solvent** (assets > liabilities) but **illiquid** banks, at a **penalty rate**, on **good collateral**. This preserves discipline.  \n- **Systemic risk justifies LOLR**: A single bank's failure can trigger contagion (interbank exposures, payment gridlock, depositor panic). The social cost of systemic collapse >> moral hazard cost of a well-designed LOLR.  \n- **Conclusion**: RBI *must* act as LOLR but with strict adherence to Bagehot principles. \"Never act\" would risk Great Depression-style banking panics.  \nA wrong answer (e.g., \"moral hazard is not a problem\" or \"LOLR should be abolished\") shows inability to weigh trade-offs — a key evaluative skill for board case-studies and UPSC/CUET essays.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical timeline (5-6 events) of a banking panic in India where the RBI's Lender of Last Resort intervention stops contagion. Include: initial trigger, interbank market freeze, RBI's action (specific window), collateral used, rate charged, and outcome. Use realistic Indian institutional names (e.g., \"Scheduled Commercial Bank X\", \"CCIL\", \"Bank Rate\").",
+     "a": "**Timeline:**  \n1. **Day 1:** Rumors of large NPLs at \"Bank X\" (a mid-sized scheduled commercial bank). Depositors withdraw ₹2,000 cr in 2 days.  \n2. **Day 2:** Bank X's reserves with RBI fall below CRR. Interbank call money rate spikes to 12% (vs. Repo 6.5%). Other banks refuse to lend to Bank X. CCIL (Clearing Corporation of India Ltd.) settlement fails for Bank X's leg.  \n3. **Day 3 (Morning):** Bank X approaches RBI under **LOLR window** (Section 17(3B) of RBI Act). Pledges ₹5,000 cr of Central Government Securities (held in SLR).  \n4. **Day 3 (Noon):** RBI values collateral at 95% haircut = ₹4,750 cr. Sanctions ₹3,000 cr overnight loan at **Bank Rate = 7.5%** (penalty 100 bps over Repo).  \n5. **Day 3 (Evening):** Bank X meets depositor withdrawals, clears CCIL settlement. Interbank rate falls back to 6.7%.  \n6. **Day 5:** Bank X repays LOLR loan using fresh retail deposits and asset sales. Panic contained; no other bank affected.  \nA poor answer (vague triggers, missing collateral haircut, using Repo Rate) reveals lack of concrete institutional knowledge — fatal for 6-mark board questions and CUET case-studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

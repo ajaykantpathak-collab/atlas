@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_002",
+   "title": "c12_chem_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define standard electrode potential. What are the standard conditions (concentration, pressure, temperature) required for a half-cell to have its standard electrode potential?",
+     "a": "Standard electrode potential (E°) is the potential of a half-cell relative to the Standard Hydrogen Electrode (SHE) when all species are at unit activity: 1 M concentration for ions, 1 bar pressure for gases, pure solids/liquids, at 298 K. A wrong answer (e.g., \"1 atm pressure\" or \"any temperature\") reveals confusion between IUPAC (1 bar) and older conventions, or ignorance of the standard state definition.",
+     "self_check": true
+    },
+    {
+     "q": "In the Daniell cell, Zn(s)|Zn²⁺(aq)||Cu²⁺(aq)|Cu(s), the anode is on the left and cathode on the right. Explain why the standard EMF is calculated as E°cell = E°right – E°left, and why this gives a positive value for a spontaneous cell.",
+     "a": "By IUPAC convention, cell notation places oxidation (anode) on the left and reduction (cathode) on the right. E°cell = E°cathode (reduction) – E°anode (reduction) = E°right – E°left. For Daniell cell, E°Cu²⁺/Cu = +0.34 V, E°Zn²⁺/Zn = –0.76 V, so E°cell = 0.34 – (–0.76) = +1.10 V. A negative E°cell would imply non-spontaneity. A student who writes E°cell = E°left – E°right or uses oxidation potentials incorrectly will get the wrong sign.",
+     "self_check": true
+    },
+    {
+     "q": "Given the standard reduction potentials: Fe³⁺/Fe²⁺ = +0.77 V, Cu²⁺/Cu = +0.34 V. Construct the galvanic cell using these two half-cells. Write the cell notation, identify anode and cathode, write the overall cell reaction, and calculate E°cell.",
+     "a": "The half-cell with higher reduction potential (Fe³⁺/Fe²⁺ = +0.77 V) acts as cathode (reduction); the other (Cu²⁺/Cu = +0.34 V) acts as anode (oxidation). Cell notation: Cu(s)|Cu²⁺(aq)||Fe³⁺(aq), Fe²⁺(aq)|Pt(s). Anode: Cu → Cu²⁺ + 2e⁻; Cathode: 2Fe³⁺ + 2e⁻ → 2Fe²⁺. Overall: Cu(s) + 2Fe³⁺(aq) → Cu²⁺(aq) + 2Fe²⁺(aq). E°cell = 0.77 – 0.34 = +0.43 V. A common error is reversing the cell notation or using oxidation potential for Cu (+0.34 V instead of –0.34 V).",
+     "self_check": true
+    },
+    {
+     "q": "The standard reduction potential for MnO₄⁻/Mn²⁺ is +1.51 V and for Cl₂/Cl⁻ is +1.36 V. Can acidified KMnO₄ oxidize Cl⁻ to Cl₂ under standard conditions? Justify using E°cell calculation.",
+     "a": "For the reaction: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O, cathode = MnO₄⁻/Mn²⁺ (+1.51 V), anode = Cl₂/Cl⁻ (+1.36 V). E°cell = 1.51 – 1.36 = +0.15 V > 0, so yes, spontaneous. A student who mistakenly uses the oxidation potential of Cl⁻ (–1.36 V) or swaps cathode/anode will get E°cell = –0.15 V and incorrectly conclude it is not feasible.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the cell notation for a galvanic cell as: Ag(s)|Ag⁺(aq)||Cu²⁺(aq)|Cu(s) and calculates E°cell = E°Cu²⁺/Cu – E°Ag⁺/Ag = 0.34 – 0.80 = –0.46 V. They claim the cell is spontaneous because the magnitude is positive. Evaluate this claim and correct the errors.",
+     "a": "Two errors: (1) Cell notation is wrong for a spontaneous cell – Ag⁺/Ag has higher reduction potential (+0.80 V) than Cu²⁺/Cu (+0.34 V), so Ag⁺/Ag should be cathode (right) and Cu/Cu²⁺ anode (left). Correct notation: Cu(s)|Cu²⁺(aq)||Ag⁺(aq)|Ag(s). (2) Spontaneity requires E°cell > 0, not just magnitude. Correct E°cell = 0.80 – 0.34 = +0.46 V. The student's negative E°cell indicates the reaction as written (2Ag + Cu²⁺ → 2Ag⁺ + Cu) is non-spontaneous.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to determine the standard electrode potential of the Zn²⁺/Zn half-cell using a Standard Hydrogen Electrode. List the apparatus, conditions, and how you would calculate E°Zn²⁺/Zn from the measured EMF.",
+     "a": "Apparatus: SHE (Pt electrode, 1 M H⁺, H₂ gas at 1 bar), Zn electrode in 1 M ZnSO₄, salt bridge, voltmeter. Connect SHE as anode (left) and Zn²⁺/Zn as cathode (right): Pt|H₂(g, 1 bar)|H⁺(aq, 1 M)||Zn²⁺(aq, 1 M)|Zn(s). Measure E°cell. Since E°SHE = 0, E°cell = E°cathode – E°anode = E°Zn²⁺/Zn – 0 = E°Zn²⁺/Zn. The measured EMF will be –0.76 V (negative because Zn²⁺/Zn is actually the anode in spontaneous direction; if connected as written, the voltmeter shows negative, meaning the spontaneous cell is the reverse). To get the standard reduction potential, we define E°Zn²⁺/Zn = –0.76 V. A student who ignores the sign or misidentifies anode/cathode will report +0.76 V.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

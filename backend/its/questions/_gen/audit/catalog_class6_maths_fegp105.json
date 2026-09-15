@@ -1,0 +1,189 @@
+{
+ "catalog": "catalog_class6_maths_fegp105.json",
+ "concepts": [
+  {
+   "id": "fegp.5.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 10 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 10 * 40 / 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 10 * 40 / 40"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 10 * 40 / 40"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 10 * 40 / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 90 // 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.5.2",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "fegp.5.3",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 7 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 14 * 28 / 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 14 * 28 / 56"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 14 * 28 / 56"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 14 * 28 / 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 90 // 30"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 7 * 1"
+   ]
+  },
+  {
+   "id": "fegp.5.4",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  }
+ ]
+}

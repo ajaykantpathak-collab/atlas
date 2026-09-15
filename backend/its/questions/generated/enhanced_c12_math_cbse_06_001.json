@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_001",
+   "title": "c12_math_cbse_06_001",
+   "questions": [
+    {
+     "q": "State the formula for the rate of change of y with respect to x when both x and y are functions of a parameter t. What condition must hold for this formula to be valid?",
+     "a": "The formula is dy/dx = (dy/dt) / (dx/dt), valid only when dx/dt ≠ 0. A wrong answer (e.g., dy/dx = dy/dt · dx/dt or omitting the condition) reveals the student has memorised the chain rule incorrectly or does not understand why division by zero is forbidden — they treat the derivative as a fraction to \"cancel dt\" without checking the denominator is non-zero.",
+     "self_check": true
+    },
+    {
+     "q": "A cube's volume V = x³ where x is the edge length. If the volume increases at 9 cm³/s, a student writes dx/dt = 9 / (3x²) and then substitutes x = 10 to get dx/dt = 9/300 = 0.03 cm/s. Is this correct? Explain why or why not.",
+     "a": "Yes, the method and answer are correct. The student correctly used dV/dt = 3x² dx/dt, rearranged to dx/dt = (dV/dt)/(3x²), and substituted x = 10. A wrong answer (e.g., dx/dt = 3x²/9 or forgetting to substitute x) reveals confusion between \"rate of change of volume\" and \"rate of change of edge\" — they cannot identify which derivative is given and which is asked.",
+     "self_check": true
+    },
+    {
+     "q": "The radius of a circular wave increases at 4 cm/s. Find the rate at which the area increases when the radius is 10 cm. Show all steps.",
+     "a": "Given: dr/dt = 4 cm/s, r = 10 cm. Area A = πr². dA/dt = dA/dr · dr/dt = 2πr · dr/dt = 2π(10)(4) = 80π cm²/s. A wrong answer (e.g., 40π or 160π) reveals the student either forgot the factor 2 from differentiating r², or used diameter instead of radius, or multiplied by r instead of 2r — a classic algebraic slip in the chain rule step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rate of change of the area of a circle with respect to its radius (dA/dr) and the rate of change of area with respect to time (dA/dt) when the radius grows at 3 cm/s. At r = 5 cm, which rate is larger in magnitude? Explain without computing exact numbers.",
+     "a": "dA/dr = 2πr = 10π cm²/cm. dA/dt = (dA/dr)(dr/dt) = 10π × 3 = 30π cm²/s. Since dr/dt = 3 > 1, dA/dt is 3 times larger than dA/dr numerically (but different units). A wrong comparison (e.g., saying they are equal or dA/dr > dA/dt) reveals the student does not grasp that dA/dt = (dA/dr) × (dr/dt) and that dr/dt acts as a scaling factor — they treat the two rates as independent rather than linked by the chain rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"The total cost C(x) = 0.005x³ – 0.02x² + 30x + 5000. Find marginal cost at x = 3.\" Their working: MC = dC/dx = 0.015x² – 0.04x + 30. At x = 3, MC = 0.015(9) – 0.12 + 30 = 0.135 – 0.12 + 30 = 30.015. They write \"Marginal cost = ₹30.015\". Is the final answer correct? If not, what is wrong?",
+     "a": "The computation is correct, but the final answer should be rounded to ₹30.02 (nearest paisa) because currency is expressed to two decimal places. Writing ₹30.015 is mathematically correct but practically wrong for a monetary answer. This reveals the student treats the problem as pure algebra without interpreting the context — a common board exam error where marks are lost for not rounding money to paise.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where two geometric quantities vary with time and you need to find one rate given the other. Write the problem statement and the first two steps of the solution (identify variables, write the relation).",
+     "a": "Example: \"Water is poured into a conical tank (vertex down) of height 12 m and base radius 6 m at 2 m³/min. How fast is the water level rising when depth is 4 m?\" Steps: (1) Let h = depth, r = surface radius, V = volume. By similar triangles, r/h = 6/12 = 1/2 ⇒ r = h/2. (2) V = (1/3)πr²h = (1/3)π(h/2)²h = πh³/12. A poor answer uses a cylinder instead of a cone, or forgets the similar triangles relation, showing they cannot translate geometry into algebra.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

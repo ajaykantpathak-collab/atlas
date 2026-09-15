@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_003",
+   "title": "c11_soc_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define socialisation in your own words, and state one way it differs from \"cultural programming.\"",
+     "a": "Socialisation is the lifelong process of internalising cultural norms, values, and behaviours to become a competent member of society. It differs from \"cultural programming\" because individuals actively interpret, negotiate, and sometimes resist norms — they have agency (e.g., a child crying to assert hunger, an employee questioning an unethical order). A wrong answer that describes socialisation as \"passive absorption\" or \"automatic internalisation\" reveals the misconception that individuals are blank slates, ignoring the NCERT's explicit statement that \"socialisation is not a kind of cultural programming\" and that \"even the most recent new-born can assert her/his will.\"",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old boy learns to play cricket by watching his father and uncle at home, then joins a school team where the coach teaches formal rules, techniques, and sportsmanship. Identify which learning represents primary socialisation and which represents secondary socialisation. Justify using two distinct criteria.",
+     "a": "Learning from father/uncle at home = primary socialisation (agent: family/kinship; context: intimate, affective, early childhood; norms: diffuse, emotionally charged). Learning from school coach = secondary socialisation (agent: formal institution; context: impersonal, instrumental, later childhood; norms: specific, codified, role-based). A wrong answer that labels both as primary because \"both involve learning from others\" misses the structural distinction: primary socialisation occurs in *primary groups* (small, intimate, enduring) during *formative years* and shapes core identity; secondary occurs in *secondary groups* (large, formal, goal-oriented) throughout life and shapes role-specific competence.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"socialisation as a lifelong process\" to explain why a 60-year-old retiree learning to use a smartphone for video-calling grandchildren involves secondary socialisation, not primary. Include the role of agency.",
+     "a": "Primary socialisation is confined to early childhood (roughly 0-12 years) within the family, establishing foundational self and basic cultural grammar. The retiree's learning occurs in late adulthood, via a formal/informal institutional context (technology, family role as grandparent), requiring deliberate effort to master new norms (digital etiquette, privacy settings) — this is secondary socialisation. Agency is evident: the retiree *chooses* to learn, *selects* which features to use, and *adapts* the technology to maintain emotional bonds. A wrong answer claiming \"any learning at any age is primary\" confuses the *timing* and *agent* criteria; primary socialisation is developmentally time-bound and family-centred.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the emotional intensity and scope of norms internalised during primary vs. secondary socialisation. How does this difference explain why primary socialisation is \"more critical\" yet secondary socialisation is \"more extensive\"?",
+     "a": "Primary socialisation involves high emotional intensity (affective bonds with caregivers) and diffuse norms (broad moral, linguistic, gendered schemas shaping core identity) — making it *critical* for basic human functioning. Secondary socialisation involves lower emotional intensity (instrumental relationships) and specific norms (role-bound rules like professional ethics, traffic laws) — making it *extensive* because it covers countless roles across lifespan. A wrong answer reversing this (e.g., \"secondary is more emotional because school friends matter\") conflates peer *attachment* with the *structural nature* of the socialising agent; peers are important but secondary agents because they lack the kinship-based, diffuse authority of family.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since secondary socialisation continues throughout life, it is more important than primary socialisation for shaping adult behaviour.\" Use the concepts of foundational self and role repertoire.",
+     "a": "The claim is flawed. Primary socialisation constructs the *foundational self* — language, basic trust, gender schema, moral intuition — without which secondary socialisation has no \"raw material\" to work on (e.g., a child deprived of primary socialisation, like the \"wolf-children of Midnapore,\" cannot later acquire language or social reciprocity fully). Secondary socialisation *expands the role repertoire* (worker, citizen, spouse) but *builds upon* the primary foundation. Importance is not zero-sum: primary is *necessary* for human development; secondary is *necessary* for complex society. A wrong answer agreeing with the claim ignores the developmental sequence and the NCERT's emphasis that \"the most critical process happens in the early years, the stage of primary socialisation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a original scenario involving a 10-year-old child who migrates from a rural village to an urban city. Describe two specific instances of primary socialisation and two of secondary socialisation the child experiences, labeling the agent and the norm learned in each.",
+     "a": "Good answer example:\n- Primary: Mother teaches child to touch elders' feet (agent: family/kinship; norm: respect for hierarchy/age).\n- Primary: Grandmother tells folk stories emphasizing collectivism (agent: extended family; norm: group over individual).\n- Secondary: School teacher enforces punctuality and uniform (agent: school; norm: discipline, equality, bureaucratic time).\n- Secondary: Peer group introduces slang and digital gaming norms (agent: peer group; norm: tech-savviness, peer conformity).\nA poor answer lists generic \"learning from parents\" and \"learning from teachers\" without specifying *which norm*, *which agent*, or *why* it fits the primary/secondary distinction — revealing inability to operationalise the criteria (intimacy, timing, diffuseness, institutional formality).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

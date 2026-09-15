@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_11",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_11",
+   "title": "c9_physics_ch6_11",
+   "questions": [
+    {
+     "q": "State the primary greenhouse gases released by human activities and their main anthropogenic sources.",
+     "a": "The primary greenhouse gases are carbon dioxide (CO₂) from fossil fuel combustion and cement production, methane (CH₄) from livestock, rice paddies, and landfills, and nitrous oxide (N₂O) from fertilizers. A wrong answer that lists only CO₂ or confuses natural sources (e.g., volcanoes) as the main driver reveals a misunderstanding of the relative magnitude of anthropogenic vs. natural fluxes in the modern carbon cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why deforestation contributes to global warming even though trees do not emit CO₂ when they are simply standing.",
+     "a": "Deforestation contributes to warming through two mechanisms: (1) removal of trees eliminates a carbon sink, so atmospheric CO₂ that would have been absorbed remains in the air, and (2) the carbon stored in the cut trees and exposed soil is released as CO₂ through decomposition or burning. A student who thinks deforestation only matters if trees are burned misses the ongoing sink loss and soil carbon oxidation, indicating a gap in understanding the carbon cycle's dynamic equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "A typical petrol car emits about 120 g of CO₂ per km. If a student travels 15 km to school and back each day for 200 school days, calculate the total CO₂ emitted in kg. (Assume no other passengers.)",
+     "a": "Given: emission factor = 120 g CO₂/km, distance per day = 15 km × 2 = 30 km (round trip), days = 200.\nStep 1: Total distance = 30 km/day × 200 days = 6000 km.\nStep 2: Total CO₂ = 6000 km × 120 g/km = 720,000 g.\nStep 3: Convert to kg: 720,000 g ÷ 1000 = 720 kg CO₂.\nAnswer: 720 kg CO₂ per year. A wrong answer that forgets the round trip (uses 15 km) yields 360 kg, showing a failure to interpret the real-world scenario correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climate impact of two scenarios: (A) converting a tropical forest to pasture for cattle, and (B) converting the same area to a solar farm. Consider albedo, carbon storage, and greenhouse gas emissions.",
+     "a": "Scenario A: Large carbon loss from biomass and soil, ongoing CH₄ emissions from cattle, lower albedo than forest (pasture is darker) → net strong warming. Scenario B: Initial carbon loss from clearing, but then zero operational emissions, higher albedo (panels reflect more than forest) → net cooling over time. A student who says both are equally bad because both involve clearing misses the long-term emission difference and albedo effect, revealing an inability to weigh multiple competing factors.",
+     "self_check": true
+    },
+    {
+     "q": "A news article claims: \"Planting trees anywhere will solve climate change because trees absorb CO₂.\" Evaluate this statement using the concepts of carbon saturation, albedo, and geographical limits.",
+     "a": "The statement is oversimplified. Trees reach carbon saturation (mature forests absorb less net CO₂). In boreal regions, trees lower albedo (dark canopy vs. snow) causing net warming. Tropical reforestation is most effective. A student who agrees entirely fails to recognize biophysical limits and regional climate feedbacks, showing a lack of critical evaluation of mitigation strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-based investigation to measure the temperature difference between a grassy area and a paved area over a week, and explain how this models the urban heat island effect linked to deforestation.",
+     "a": "A good design: Place identical thermometers at 1.5 m height in a shaded grassy spot and a shaded paved spot (to isolate surface effect), record max/min daily at same time for 7 days, calculate average difference. Relate: pavement mimics deforested land (low albedo, high heat capacity, no evapotranspiration), grass mimics forest. A poor design that measures in direct sun or uses different times confounds variables, indicating poor experimental control understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

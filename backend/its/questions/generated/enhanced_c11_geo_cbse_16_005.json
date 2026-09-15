@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_005",
+   "title": "c11_geo_cbse_16_005",
+   "questions": [
+    {
+     "q": "According to the Indian Census, a worker is defined as a person who participates in any economically productive activity with or without compensation. Which of the following would be classified as a MAIN WORKER in the primary sector? (a) A student who helps on family farm during holidays (b) A full-time agricultural labourer working 180 days a year (c) A retired teacher doing kitchen gardening (d) A software engineer who grows vegetables on weekends.",
+     "a": "Correct answer: (b) A full-time agricultural labourer working 180 days a year. The Census defines a main worker as someone who worked for 183 days (6 months) or more in the reference year. Agricultural labour qualifies as primary sector work. Option (a) is a marginal worker (<183 days), (c) is not economically productive (kitchen garden for self-consumption), (d) is a main worker but in tertiary sector (software engineering). A wrong answer reveals confusion between main vs marginal worker thresholds and sectoral classification criteria.",
+     "self_check": true
+    },
+    {
+     "q": "In 2011, India's workforce distribution was approximately: Primary 46%, Secondary 23%, Tertiary 31%. By 2021 (PLFS estimates), it shifted to Primary 42%, Secondary 25%, Tertiary 33%. A student claims: \"The primary sector share fell by 4 percentage points, so 4% of the workforce moved directly into factories.\" Explain why this reasoning is geographically flawed.",
+     "a": "The reasoning is flawed because: (1) The 4% decline in primary share is a net change — some workers left agriculture, but new entrants joined the workforce; (2) Workers leaving primary sector do not move directly to secondary — most transition to informal tertiary (construction, retail, transport) due to skill mismatch; (3) Secondary sector's share rose only 2%, not 4%, confirming limited manufacturing absorption; (4) Population growth means absolute numbers in primary may not have fallen. A wrong answer reveals misunderstanding of net vs gross flows, the \"missing middle\" in India's structural transformation, and the role of the informal service sector as a labour sponge.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below for two Indian states (Census 2011), calculate the \"Sectoral Diversification Index\" (SDI) for each state using the formula: SDI = 1 - Σ(sector_share²). Which state has a more diversified occupational structure?\nState A: Primary 62%, Secondary 18%, Tertiary 20%\nState B: Primary 28%, Secondary 32%, Tertiary 40%",
+     "a": "State A: SDI = 1 - (0.62² + 0.18² + 0.20²) = 1 - (0.3844 + 0.0324 + 0.04) = 1 - 0.4568 = 0.5432\nState B: SDI = 1 - (0.28² + 0.32² + 0.40²) = 1 - (0.0784 + 0.1024 + 0.16) = 1 - 0.3408 = 0.6592\nState B has higher SDI (0.659 > 0.543), indicating more diversified occupational structure. A wrong answer (e.g., choosing State A) reveals inability to apply the Herfindahl-Hirschman concentration logic to workforce distribution, or arithmetic errors in squaring percentages. It also shows failure to recognise that high primary concentration = low diversification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of Kerala (Primary 17%, Secondary 25%, Tertiary 58%) and Chhattisgarh (Primary 65%, Secondary 18%, Tertiary 17%) using Census 2011 data. Identify THREE geographical factors — one physical, one historical, and one policy-related — that explain this divergence.",
+     "a": "Physical: Kerala's high population density (860/km²) and limited arable land push labour out of agriculture; Chhattisgarh's vast forested plateau (Bastar) and mineral-rich plains support primary livelihoods. Historical: Kerala's early missionary education, land reforms (1970s), and Gulf migration (1970s onward) created human capital and remittance-funded service economy; Chhattisgarh's tribal hinterland had limited colonial infrastructure investment. Policy: Kerala's decentralised planning (People's Plan Campaign) and high public spending on health/education expanded tertiary employment; Chhattisgarh's post-2000 statehood focused on mineral-based industrialisation (secondary) but weak service-sector policy. A wrong answer lists generic factors (e.g., \"literacy\") without linking to specific mechanisms or confuses correlation with causation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's rising tertiary sector share (31% to 53% of GDP, 1990-2023) while workforce share grew only 20% to 33% proves the service sector is highly productive and creates high-value jobs.\" Use the concepts of \"jobless growth,\" \"informalisation,\" and \"bailey's law\" (services absorb low-skill labour) in your evaluation.",
+     "a": "The statement is misleading. Rising GDP share with stagnant employment share indicates HIGH productivity but LOW job creation — the hallmark of \"jobless growth\" driven by IT, finance, and professional services (high-skill, high-wage). Meanwhile, most new tertiary jobs are in LOW-productivity informal services (retail, transport, domestic work) — Bailey's Law: services act as a \"sink\" for surplus labour. The productivity gap within tertiary is extreme: IT services productivity is 10-15x that of informal retail. A wrong answer (agreeing with the statement) reveals confusion between sectoral averages and intra-sectoral distribution, ignorance of the informal-formal divide in services, and failure to distinguish labour productivity from total factor productivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard for a District Magistrate to monitor occupational structure transition in a predominantly agrarian district (current: Primary 72%, Secondary 12%, Tertiary 16%). Indicators must be measurable annually from existing data sources (Census, PLFS, ASI, UDISE, PM-KISAN), capture both quantity and quality of transition, and flag \"premature deindustrialisation\" risk.",
+     "a": "Good dashboard: (1) \"Manufacturing Employment Elasticity\" = %Δ secondary workers / %Δ district GDP (source: PLFS + District GDP estimates) — flags if <0.1 (premature deindustrialisation); (2) \"Formal Tertiary Share\" = (regular wage/salaried tertiary workers) / (total tertiary workers) × 100 (source: PLFS) — captures quality, target >30%; (3) \"Youth Non-Farm Entry Rate\" = % of 15-29 yr new workers in secondary+tertiary (source: PLFS + PM-KISAN beneficiary age data) — tracks structural shift at entry level. Poor answer lists generic indicators (e.g., \"literacy rate,\" \"number of factories\") without measurability, data source linkage, or diagnostic power for the specific risk.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

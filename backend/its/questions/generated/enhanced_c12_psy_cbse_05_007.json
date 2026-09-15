@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_007",
+   "title": "c12_psy_cbse_05_007",
+   "questions": [
+    {
+     "q": "What are the three domains addressed by CBT's bio-psychosocial approach, and name one technique used for each domain?",
+     "a": "The three domains are: (1) Biological — addressed via relaxation procedures (e.g., progressive muscular relaxation, diaphragmatic breathing) to reduce physiological arousal; (2) Psychological — addressed via cognitive therapy techniques (e.g., cognitive restructuring, ABC analysis, identifying negative automatic thoughts) and behavioural techniques (e.g., exposure, activity scheduling); (3) Social — addressed via environmental manipulations (e.g., social skills training, modifying reinforcement contingencies in family/school). A wrong answer that lists only \"thoughts and behaviours\" misses the biological (relaxation) and social (environmental) components, revealing a reductionist view of CBT as merely \"cognitive + behavioural\" without the bio-psychosocial integration central to NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "In Ellis's Rational Emotive Therapy (RET), the ABC model proposes that Activating events lead to Consequences (emotional/behavioural) through Beliefs. A student writes: \"The activating event (failing a test) directly causes my depression.\" Why is this statement inconsistent with RET, and what does it reveal about the student's understanding?",
+     "a": "The statement is inconsistent because RET posits that Activating events (A) do not directly cause Consequences (C); rather, Beliefs (B) — specifically irrational beliefs characterised by \"musts\" and \"shoulds\" — mediate the A→C link. The student's statement reflects the common-sense but incorrect \"A causes C\" model, revealing a fundamental misunderstanding of cognitive mediation. It shows the student has not grasped that the therapeutic target in RET is the irrational belief system (B), not the activating event (A), and that emotional distress stems from the interpretation, not the event itself.",
+     "self_check": true
+    },
+    {
+     "q": "A client with social anxiety avoids speaking in class. The CBT therapist constructs an anxiety hierarchy: (1) imagining speaking (20/100 anxiety), (2) speaking to a friend (40), (3) asking a question in small group (60), (4) giving a 2-min presentation (80), (5) giving a 10-min presentation (100). The client practices relaxation, then imagines item 1 until anxiety drops below 20, then moves to item 2. Identify the technique and explain the underlying principle.",
+     "a": "Technique: Systematic Desensitisation (Wolpe). Principle: Reciprocal Inhibition — a relaxation response (dominant, incompatible with anxiety) inhibits the weaker anxiety response when both are elicited simultaneously. The hierarchy ensures gradual exposure (graded exposure) while maintaining relaxation. A wrong answer naming \"flooding\" or \"exposure therapy\" without mentioning relaxation and reciprocal inhibition reveals confusion between systematic desensitisation (graded + relaxation) and other exposure variants (flooding = intense exposure without relaxation; exposure therapy = may not use hierarchy/relaxation). Also, missing \"reciprocal inhibition\" shows lack of theoretical grounding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Beck's cognitive therapy and Ellis's RET on: (a) origin of psychological distress, (b) role of the therapist, (c) therapeutic process. Which approach is more collaborative and why?",
+     "a": "(a) Origin: Beck — childhood experiences form core schemas (e.g., \"I am unlovable\") triggered by critical incidents → negative automatic thoughts → cognitive distortions → anxiety/depression. Ellis — irrational beliefs (rigid \"musts/shoulds\") mediate A→C; philosophy of life is central. (b) Therapist role: Beck — collaborative empiricist, gentle Socratic questioning to test beliefs as hypotheses. Ellis — more directive, actively disputes irrational beliefs through logical/empirical/pragmatic challenges. (c) Process: Beck — identify NATs → identify distortions → examine evidence → develop alternative thoughts → behavioural experiments. Ellis — ABC analysis → identify irrational beliefs → dispute (D) → effective new philosophy (E) → new feelings/behaviours (F). Beck is more collaborative because the therapist and client work as co-investigators (\"collaborative empiricism\"), whereas Ellis's therapist takes a more expert, disputing stance. A wrong answer claiming they are \"the same\" or \"both just challenge thoughts\" misses the structural differences in theory of aetiology and therapeutic stance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"CBT is superior to all other psychotherapies because research shows it has the highest effect sizes for anxiety and depression.\" Consider: (i) what \"superior\" means in psychotherapy research, (ii) the role of common factors (therapeutic alliance, expectancy), (iii) limitations of RCT methodology for complex therapies.",
+     "a": "The claim overstates evidence. (i) \"Superior\" in RCTs typically means statistically significant difference in symptom reduction on specific measures at post-treatment — not necessarily clinically meaningful, durable, or generalisable to real-world settings. (ii) Common factors (alliance, empathy, expectancy, client factors) account for 30-70% of variance in outcomes across therapies; CBT's specific techniques add incremental value but are not the sole active ingredient. (iii) RCTs use manualised protocols, highly selected samples, expert therapists — limiting ecological validity. Many trials lack active control groups (e.g., pill placebo, supportive therapy), inflating effect sizes. Also, publication bias favours positive CBT trials. NCERT notes CBT is \"short and efficacious\" but does not claim superiority over all therapies. A wrong answer accepting the claim uncritically reveals lack of research literacy and confusion between statistical significance and clinical superiority.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini CBT case formulation for a 17-year-old student, Priya, who experiences panic attacks before chemistry practical exams. Include: (a) bio-psychosocial predisposing/precipitating/perpetuating factors, (b) a vicious cycle diagram description (thoughts → feelings → behaviours → physical), (c) two specific CBT interventions with rationale.",
+     "a": "(a) Predisposing: Biological — family history of anxiety, high trait neuroticism; Psychological — perfectionistic core schema (\"I must be perfect or I'm inadequate\"); Social — high parental expectations, competitive school environment. Precipitating: Failed a chemistry practical in Class 11, public criticism by teacher. Perpetuating: Biological — hyperventilation during panic maintains physical symptoms; Psychological — catastrophic misinterpretation of bodily sensations (\"heart racing = heart attack\"); Behavioural — avoidance of chemistry lab, safety behaviours (carrying water, sitting near exit); Social — parental reassurance reinforces illness role. (b) Vicious cycle: Activating event (entering lab) → Thoughts (\"I'll faint, everyone will laugh\") → Feelings (terror, shame) → Physical (tachycardia, dyspnea, dizziness) → Behaviours (escape, avoidance) → reinforces Thoughts (\"See, I couldn't handle it\"). (c) Interventions: 1) Interoceptive exposure + cognitive restructuring: deliberately induce feared sensations (spinning, hyperventilation) in session while testing catastrophic beliefs (\"Does dizziness mean heart attack? No, it's hyperventilation\") — breaks misinterpretation cycle. 2) Behavioural experiment: graded exposure to lab (visit empty lab → watch peer → assist → perform simple task) with dropout of safety behaviours — tests belief \"I cannot cope\" and builds self-efficacy. A poor answer listing generic \"relaxation and positive thinking\" misses case-specific formulation, vicious cycle mechanics, and evidence-based intervention selection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

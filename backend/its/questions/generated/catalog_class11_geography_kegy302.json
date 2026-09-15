@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy302",
+  "concepts": [
+    {
+      "id": "kegy.302.1.1",
+      "questions": [
+        {"q": "On a map of scale 1:50,000, two points are 4 cm apart. What ground distance in km does that represent? (number, in km)", "a": "2"},
+        {"q": "On a 1:25,000 map, a road measures 8 cm. What is its real length in km? (number, in km)", "a": "2"},
+        {"q": "What is the ratio of map distance to ground distance called? (two words)", "a": "representative fraction"},
+        {"q": "Actual ground distance equals map distance multiplied by what? (one word)", "a": "scale"},
+        {"q": "On a 1:100,000 map, 3 cm represents how many km? (number, in km)", "a": "3"},
+        {"q": "How many forms can map scale take: statement, fraction and one more? (one word)", "a": "linear"},
+        {"q": "A map distance of 2 cm at 1:50,000 equals how many metres on the ground? (number)", "a": "1000"}
+      ]
+    },
+    {
+      "id": "kegy.302.2.1",
+      "questions": [
+        {"q": "One inch equals how many centimetres? (number)", "a": "2.54"},
+        {"q": "Converting scales changes a statement from metric into which other traditional system of units? (one word)", "a": "English"},
+        {"q": "Which graphical device lets distance be read directly even after a map is enlarged? (two words)", "a": "graphical scale"},
+        {"q": "A graphical scale carries primary and which secondary divisions? (one word)", "a": "secondary"},
+        {"q": "Which scale type survives enlargement or reduction of the map: verbal or graphical? (one word)", "a": "graphical"},
+        {"q": "Two inches on a map at a scale where 1 inch = 2.54 cm equal how many cm? (number)", "a": "5.08"},
+        {"q": "How many kinds of divisions does a constructed graphical scale show? (number)", "a": "2"}
+      ]
+    },
+    {
+      "id": "kegy.302.3.1",
+      "questions": [
+        {"q": "Which scale, 1:25,000 or 1:1 million, shows cadastral detail? (give the scale's denominator as a number)", "a": "25000"},
+        {"q": "Topographical sheets for field studies are drawn at 1:50,000 or at 1:1 million? (give the scale's denominator as a number)", "a": "50000"},
+        {"q": "Atlas and wall maps use large or small scales? (two words)", "a": "small scales"},
+        {"q": "Finer detail on a map needs a larger or a smaller scale? (one word)", "a": "larger"},
+        {"q": "The choice of scale depends on the purpose and the what of the area mapped? (one word)", "a": "extent"},
+        {"q": "How many named scales are cited for topo and atlas work (1:25,000, 1:50,000, 1:1 million)? (number)", "a": "3"},
+        {"q": "Which map purpose, cadastral or atlas, demands the largest scale? (one word)", "a": "cadastral"}
+      ]
+    }
+  ]
+}

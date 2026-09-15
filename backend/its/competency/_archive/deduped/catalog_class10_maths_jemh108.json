@@ -1,0 +1,173 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 8,
+ "chapter_title": "Introduction to Trigonometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.108.8.1",
+   "title": "Trigonometric Ratios",
+   "section": "8.1",
+   "definition": "In a right triangle the trigonometric ratios of an acute angle A compare its sides: sine A is opposite over hypotenuse, cosine A is adjacent over hypotenuse, and tangent A is opposite over adjacent - with cosecant, secant and cotangent as their reciprocals.",
+   "formula": "sin_a = opposite / hypotenuse",
+   "key_idea": "Name the sides opposite and adjacent to the angle, then form the ratios.",
+   "textbook_ref": "jemh108.txt sections 8.1-8.2 (trigonometric ratios)",
+   "question_patterns": [
+    "find all the trigonometric ratios of angle A in the given triangle",
+    "if tan A = 3/4 find the other ratios",
+    "write sin A, cos A and tan A for the given right triangle",
+    "given the sides find the value of cos A",
+    "which ratio is opposite over adjacent",
+    "if sin A = 12/13 find tan A"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the sine ratio",
+     "explain": "Divide the opposite side by the hypotenuse.",
+     "compute": "sin_a = opposite / hypotenuse"}
+   ]
+  },
+  {
+   "id": "jemh.108.8.2",
+   "title": "Ratios of 45, 30 and 60 Degrees",
+   "section": "8.2",
+   "definition": "Geometry fixes the ratios of the standard angles: for 45 degrees both legs are equal so tan 45 = 1; halving an equilateral triangle gives sin 30 = 1/2, cos 30 = root 3 over 2, sin 60 = root 3 over 2 and cos 60 = 1/2 - values worth memorising as a table.",
+   "formula": "-",
+   "key_idea": "Three special angles, one table: 45 gives 1, 30 and 60 swap the root three halves.",
+   "textbook_ref": "jemh108.txt sections on trigonometric ratios of specific angles",
+   "question_patterns": [
+    "find the value of tan 45 degrees",
+    "evaluate 2 sin 30 + cos 60 using the standard values",
+    "write the values of all ratios of 30 degrees",
+    "what is the value of sin 60 cos 30 + cos 60 sin 30",
+    "compare sin 30 and sin 60 - which is larger and why",
+    "verify that tan 60 = root 3 using the table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall the standard table",
+     "explain": "List the sine, cosine and tangent values for 0, 30, 45, 60 and 90 degrees."},
+    {"step": 2, "action": "substitute into the expression",
+     "explain": "Replace each ratio by its table value and simplify."},
+    {"step": 3, "action": "state the result",
+     "explain": "Give the exact value using root three where needed."}
+   ]
+  },
+  {
+   "id": "jemh.108.8.3",
+   "title": "Trigonometric Identities",
+   "section": "8.4",
+   "definition": "Trigonometric identities hold for every angle: sin squared A + cos squared A = 1, 1 + tan squared A = sec squared A, and 1 + cot squared A = cosecant squared A; they simplify expressions and prove other relations.",
+   "formula": "sum_sq = sin_a * sin_a + cos_a * cos_a",
+   "key_idea": "The Pythagorean identity in trigonometric dress: squares of sine and cosine always total one.",
+   "textbook_ref": "jemh108.txt section 8.4 (trigonometric identities)",
+   "question_patterns": [
+    "prove that sin squared A + cos squared A = 1",
+    "evaluate the given expression using identities",
+    "prove the given trigonometric identity",
+    "simplify (1 + tan squared A) cos squared A",
+    "express sec A in terms of sin A using identities",
+    "verify the identity for A = 30 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the sine value",
+     "explain": "Compute sin A squared.",
+     "compute": "sin_sq = sin_a * sin_a"},
+    {"step": 2, "action": "add the cosine square",
+     "explain": "The identity guarantees a total of 1.",
+     "compute": "sum_sq = sin_sq + cos_a * cos_a"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh108.txt ratio examples with sides",
+   "concept": "jemh.108.8.1",
+   "question_type": "compute",
+   "question_pattern": "In a right triangle the side opposite angle A is {opposite} and the hypotenuse is {hypotenuse}. Find sin A.",
+   "extracted_variables": {
+    "opposite": "side opposite to angle A",
+    "hypotenuse": "hypotenuse of the triangle"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide opposite by hypotenuse",
+     "explain": "Sine is the ratio of these two sides.",
+     "compute": "sin_a = opposite / hypotenuse"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh108.txt ratio practice",
+   "concept": "jemh.108.8.1",
+   "question_type": "compute",
+   "question_pattern": "For angle A, the opposite side measures {opposite} and the hypotenuse {hypotenuse}. Compute sin A.",
+   "extracted_variables": {
+    "opposite": "opposite side length",
+    "hypotenuse": "hypotenuse length"
+   },
+   "solution_template": [
+    {"step": 1, "action": "form the ratio",
+     "explain": "Sine equals opposite over hypotenuse.",
+     "compute": "sin_a = opposite / hypotenuse"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh108.txt identity verification",
+   "concept": "jemh.108.8.3",
+   "question_type": "compute",
+   "question_pattern": "For angle A with sin A = {sin_a} and cos A = {cos_a}, verify the Pythagorean identity.",
+   "extracted_variables": {
+    "sin_a": "value of sin A",
+    "cos_a": "value of cos A"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square both values",
+     "explain": "Compute sin A squared and cos A squared.",
+     "compute": "sum_sq = sin_a * sin_a + cos_a * cos_a"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh108.txt identity practice",
+   "concept": "jemh.108.8.3",
+   "question_type": "compute",
+   "question_pattern": "Given sin A = {sin_a}, use the identity to compute cos A squared.",
+   "extracted_variables": {
+    "sin_a": "value of sin A",
+    "cos_a": "cosine whose square is to be verified"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the sine",
+     "explain": "sin A squared.",
+     "compute": "sin_sq = sin_a * sin_a"},
+    {"step": 2, "action": "subtract from one",
+     "explain": "The identity gives cos A squared.",
+     "compute": "cos_sq = 1 - sin_sq"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "jemh108.txt EXERCISE 8.1-8.2",
+   "questions": [
+     "Find the trigonometric ratios of the given angles in the triangles.",
+     "If tan A = cot B prove that A + B = 90 degrees.",
+     "Evaluate the given expressions using the standard angle values."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "jemh108.txt EXERCISE 8.3",
+   "questions": [
+     "Prove the given trigonometric identities.",
+     "Simplify the given expressions using the identities."
+   ]
+  }
+ ]
+}

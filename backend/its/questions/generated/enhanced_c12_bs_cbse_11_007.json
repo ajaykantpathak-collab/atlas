@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_007",
+   "title": "c12_bs_cbse_11_007",
+   "questions": [
+    {
+     "q": "State the definition of a 'zero-level channel' and give one real-world example of a company in India that uses it for a major product line.",
+     "a": "A zero-level channel (direct channel) is where the producer sells directly to the final consumer without any intermediary. Example: Apple selling iPhones through its own online store (apple.com/in) or company-owned Apple Stores (though Apple Stores are not yet in India, the online store is). A wrong answer like \"manufacturer → retailer → consumer\" reveals the student confuses zero-level with one-level channel, not grasping that 'zero' means zero intermediaries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a manufacturer of perishable goods like milk or bread typically uses a shorter channel (fewer levels) than a manufacturer of durable goods like furniture or appliances.",
+     "a": "Perishable goods require speed and minimal handling to prevent spoilage, so fewer intermediaries reduce transit time and handling points. Durable goods can withstand longer channels with more storage and handling. A wrong answer focusing only on \"cost\" or \"profit margin\" without linking to perishability shows the student hasn't connected product nature (a key factor) to channel length.",
+     "self_check": true
+    },
+    {
+     "q": "A small artisanal pickle maker in Gujarat wants to sell across India. She has limited capital, no sales force, and her product is non-perishable but fragile (glass jars). Recommend a suitable channel structure (specify levels and intermediary types) and justify each choice with a factor.",
+     "a": "Recommended: Two-level channel (Manufacturer → Wholesaler/Distributor → Retailer → Consumer). Justification: (1) Limited capital → cannot own warehouses/transport → use wholesaler's infrastructure. (2) No sales force → wholesaler's sales network reaches retailers. (3) Fragile but non-perishable → wholesaler can break bulk and arrange careful transport; retailer provides final local access. A wrong answer suggesting direct online sales ignores the capital constraint for logistics and the need for wide retail presence for an impulse-buy product.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of a 'wholesaler' and a 'retailer' in a two-level channel. Identify one function they share and one function unique to each.",
+     "a": "Shared: Risk-bearing (both hold stock). Unique to wholesaler: Breaking bulk (buying large quantities, selling smaller lots to retailers). Unique to retailer: Assorting (offering a variety of brands/items to final consumers for convenient one-stop shopping). A wrong answer listing \"selling\" for both misses the distinct functional roles; selling is the outcome, not the specialized function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Eliminating all intermediaries (going direct) always increases the manufacturer's profit margin because the intermediary's markup is removed.\" Provide two arguments for and two against, then give your reasoned conclusion.",
+     "a": "For: (1) No markup paid to intermediaries → higher gross margin per unit. (2) Direct customer data and relationship → better marketing, loyalty. Against: (1) Manufacturer must now perform all intermediary functions (warehousing, transport, sales force, credit, risk) → new costs often exceed saved markup. (2) Loss of intermediaries' established market reach, expertise, and retailer push → sales volume may drop sharply. Conclusion: Not always; direct channel suits high-value, low-volume, technically complex products (e.g., industrial machinery) but fails for low-value, high-volume, widely dispersed FMCG. A wrong answer that simply agrees shows failure to analyze trade-offs between margin and volume/costs.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel distribution channel scenario for a new product: 'Smart Water Bottles' (electronic sensor tracks hydration, syncs with phone, priced at ₹2,500). Design a hybrid channel strategy (combining direct and indirect) for launch in urban India. Specify channel levels, intermediary roles, and the factor driving each choice.",
+     "a": "Good answer: Hybrid strategy — Direct (zero-level) via brand website/app for tech-savvy early adopters (factor: product complexity needs demonstration, high margin supports direct fulfilment). Indirect one-level (Manufacturer → Specialty Electronics Retailers like Croma, Vijay Sales → Consumer) for hands-on experience and instant purchase (factor: consumer desire to touch/try electronics, retailer's demo staff). Indirect two-level (Manufacturer → Distributor → Sports/Fitness Stores → Consumer) for fitness enthusiasts (factor: niche market reach through specialized retailers, distributor handles last-mile to many small outlets). Poor answer: Only one channel type or no justification linked to factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_011",
+   "title": "c10_math_cbse_08_011",
+   "questions": [
+    {
+     "q": "State the three fundamental Pythagorean trigonometric identities and the complementary angle relation for sin(90°−θ).",
+     "a": "The three identities are: sin²θ + cos²θ = 1; 1 + tan²θ = sec²θ; 1 + cot²θ = cosec²θ. The complementary relation is sin(90°−θ) = cosθ. A wrong answer (e.g., writing sin²θ + cos²θ = 0 or sin(90°−θ) = sinθ) reveals the student has not memorised the exact standard forms — a critical gap because board exams require quoting identities verbatim in proofs and simplifications.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we can replace (sin²45° + cos²45°) with 1 in any expression, but we cannot replace (sin45° + cos45°) with 1.",
+     "a": "sin²θ + cos²θ = 1 is an identity — true for every angle θ. sinθ + cosθ is not an identity; its value changes with θ (e.g., sin45°+cos45° = √2, sin30°+cos30° = (1+√3)/2). A student who says \"both are 1 for 45°\" confuses a specific numerical coincidence with a universal algebraic truth. This misconception leads to errors when the angle is not a standard one or when the expression is algebraic (e.g., sin²x + cos²x).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: (sin30° × cos60° + cos30° × sin60°) / (sin²45° + cos²45°) using identities and standard angle values. Show all steps.",
+     "a": "Step 1: Numerator = sin30°cos60° + cos30°sin60°. Using complementary angles: cos60° = sin30°, sin60° = cos30°. So numerator = sin30°·sin30° + cos30°·cos30° = sin²30° + cos²30°.\nStep 2: Apply identity sin²θ + cos²θ = 1 → numerator = 1.\nStep 3: Denominator = sin²45° + cos²45° = 1 (same identity).\nStep 4: Expression = 1/1 = 1.\nA wrong answer (e.g., ½ or √3/2) usually comes from plugging in decimals (0.5×0.5 + 0.866×0.866 ≈ 1) and then rounding, or from not recognising the complementary angle substitution. The board exam expects exact symbolic simplification first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two methods to evaluate (sec²30° − tan²30°) / (cosec²60° − cot²60°): (A) direct substitution of standard angle values, (B) using identities first. Which method is more efficient and why?",
+     "a": "Method B is more efficient. sec²θ − tan²θ = 1 and cosec²θ − cot²θ = 1 are direct rearrangements of the Pythagorean identities. The expression simplifies to 1/1 = 1 in one step. Method A requires computing sec30° = 2/√3, tan30° = 1/√3, squaring them, subtracting, then repeating for 60° — four times more work with radical arithmetic. A student who prefers Method A lacks fluency in recognising identity patterns and will lose time in the exam.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified (sin²θ + cos²θ) / (tanθ × cotθ) + sec²θ − tan²θ as follows:\nStep 1: sin²θ + cos²θ = 1\nStep 2: tanθ × cotθ = 1\nStep 3: sec²θ − tan²θ = 1\nStep 4: Expression = 1/1 + 1 = 2\nIs this correct for all acute angles θ? Justify.",
+     "a": "Yes, it is correct for all acute angles θ (0° < θ < 90°) because each identity holds universally in this domain. tanθ and cotθ are defined and non-zero, secθ is defined. A student who says \"No, because θ could be 90°\" misunderstands the scope — the chapter explicitly restricts to acute angles. A student who says \"No, because 1/1+1 = 1\" makes an order-of-operations error (addition before division). This diagnostic catches both domain confusion and arithmetic precedence errors.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a trigonometric expression involving at least three different trigonometric ratios that simplifies exactly to 3. Use only identities and standard angles (0°, 30°, 45°, 60°, 90°). Show the simplification steps.",
+     "a": "Example: (sin²30° + cos²30°) + (sec²45° − tan²45°) + (cosec²60° − cot²60°)\nSimplification: Each bracket is an identity equal to 1. 1 + 1 + 1 = 3.\nA good answer uses distinct identities and angles. A poor answer (e.g., 1+1+1 written as sin²θ+cos²θ three times with same angle) shows lack of flexibility. A student who cannot construct this lacks the reverse-thinking skill needed for competency-based \"create an expression\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

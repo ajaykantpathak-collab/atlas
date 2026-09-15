@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_011",
+   "title": "c11_chem_cbse_07_011",
+   "questions": [
+    {
+     "q": "Write the expression for the acid ionisation constant (Ka) for hydrocyanic acid (HCN) and the base ionisation constant (Kb) for methylamine (CH₃NH₂). State the units of Ka and Kb.",
+     "a": "Ka(HCN) = [H⁺][CN⁻]/[HCN]; Kb(CH₃NH₂) = [CH₃NH₃⁺][OH⁻]/[CH₃NH₂]. Units: mol L⁻¹ (or dimensionless if activities are used). A wrong answer reveals the student either includes water in the Kb expression (treating it as a reactant with variable concentration) or writes the reciprocal expression, confusing Ka with 1/Ka. This indicates they haven't internalised that equilibrium constants omit pure liquids and that the forward reaction defines the constant.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.10 M solution of a weak acid HA has pH = 3.00. A student calculates Ka = (10⁻³)²/0.10 = 1.0 × 10⁻⁵. Is this calculation correct? Explain why or why not, and provide the exact Ka value.",
+     "a": "The calculation is approximate, not exact. It assumes [H⁺]eq = [A⁻]eq = 10⁻³ M and [HA]eq ≈ 0.10 M (ignoring the decrease due to ionisation). Exact Ka = (10⁻³)²/(0.10 - 10⁻³) = 1.01 × 10⁻⁵. The 5% rule (α = 10⁻³/0.10 = 1% < 5%) justifies the approximation. A wrong answer (saying it's exactly correct) reveals the student doesn't understand the approximation's validity condition or that equilibrium concentration of HA is (C - Cα), not C. This is a classic board exam trap — they ask \"calculate Ka\" and expect the exact expression.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the degree of ionisation (α) and pH of a 0.05 M acetic acid solution given Ka = 1.8 × 10⁻⁵. Show all steps including the validity check for the approximation.",
+     "a": "Step 1: Write Ka = Cα²/(1-α). Step 2: Check if α < 5% using approximation α ≈ √(Ka/C) = √(1.8×10⁻⁵/0.05) = √(3.6×10⁻⁴) = 0.019 = 1.9% < 5% → approximation valid. Step 3: α = 0.019. Step 4: [H⁺] = Cα = 0.05 × 0.019 = 9.5 × 10⁻⁴ M. Step 5: pH = -log(9.5×10⁻⁴) = 3.02. A wrong answer (e.g., α = 0.19 or pH = 2.02) reveals the student either forgot to take square root, misplaced decimal in Ka/C, or used [H⁺] = √(Ka) instead of √(Ka×C). This shows confusion between Ostwald's law (α = √(Ka/C)) and [H⁺] = √(Ka×C).",
+     "self_check": true
+    },
+    {
+     "q": "The Ka of acetic acid is 1.8 × 10⁻⁵ at 298 K. The Kb of its conjugate base (acetate ion) is 5.6 × 10⁻¹⁰. Verify that Ka × Kb = Kw. Now, if the temperature is raised to 310 K where Kw = 1.47 × 10⁻¹⁴, what happens to Ka and Kb individually? Can you determine their new values from this information alone?",
+     "a": "At 298 K: Ka × Kb = (1.8×10⁻⁵)(5.6×10⁻¹⁰) = 1.008×10⁻¹⁴ ≈ Kw (1.0×10⁻¹⁴). At 310 K, Kw increases to 1.47×10⁻¹⁴. The product Ka×Kb must equal the new Kw, but we CANNOT determine individual new Ka and Kb values from this alone — they depend on the enthalpy of ionisation of each species (van't Hoff equation). A wrong answer claiming Ka and Kb both increase by the same factor reveals the student thinks Ka and Kb scale identically with temperature, ignoring that acid and base ionisation have different ΔH values. This tests deep understanding of the thermodynamic origin of equilibrium constants.",
+     "self_check": true
+    },
+    {
+     "q": "A student is given two 0.1 M solutions: one of weak acid HA (Ka = 1.0 × 10⁻⁵) and one of weak base B (Kb = 1.0 × 10⁻⁵). They claim both solutions have the same pH. Evaluate this claim.",
+     "a": "The claim is FALSE. For HA: [H⁺] = √(Ka×C) = √(10⁻⁵ × 0.1) = √10⁻⁶ = 10⁻³ M → pH = 3. For B: [OH⁻] = √(Kb×C) = 10⁻³ M → pOH = 3 → pH = 14 - 3 = 11. The acid solution is acidic (pH 3), the basic solution is basic (pH 11). A wrong answer (pH = 3 for both) reveals the student calculates [H⁺] for the base instead of [OH⁻], or forgets pH + pOH = 14. This is a fundamental confusion between acid and base ionisation equilibria — they treat Kb as if it directly gives [H⁺].",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household materials (vinegar, baking soda, pH paper, measuring cups) to demonstrate that acetic acid is a weak acid while HCl (toilet cleaner) is a strong acid. Explain how your observations would differ and what quantitative estimate you could make.",
+     "a": "Take equal volumes (e.g., 50 mL) of vinegar (~0.8 M CH₃COOH) and diluted toilet cleaner (~0.1 M HCl). Add 1 tsp baking soda (NaHCO₃) to each. HCl reacts vigorously with immediate CO₂ evolution (strong acid → complete H⁺). Vinegar reacts slowly with less vigorous fizzing (weak acid → partial H⁺, equilibrium shifts as CO₂ leaves). Use pH paper: HCl solution pH ≈ 1, vinegar pH ≈ 2.4. Estimate Ka: from vinegar pH, [H⁺] = 10⁻²·⁴ = 4×10⁻³ M, α = 4×10⁻³/0.8 = 0.5%, Ka ≈ Cα² = 0.8×(0.005)² = 2×10⁻⁵ (close to actual 1.8×10⁻⁵). A poor answer uses only qualitative \"more fizz\" without pH measurement or quantitative estimation, showing they can't connect observation to equilibrium constant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

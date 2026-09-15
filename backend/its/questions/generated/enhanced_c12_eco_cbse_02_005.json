@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_005",
+   "title": "c12_eco_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define Marginal Rate of Substitution (MRS<sub>XY</sub>) and state its two equivalent mathematical expressions used in Class 12 microeconomics.",
+     "a": "MRS<sub>XY</sub> is the amount of good Y a consumer is willing to sacrifice to gain one additional unit of good X while keeping total utility constant. Its two expressions are: (1) MRS<sub>XY</sub> = MU<sub>X</sub> / MU<sub>Y</sub> (ratio of marginal utilities), and (2) MRS<sub>XY</sub> = -ΔY/ΔX (absolute slope of the indifference curve). A wrong answer that omits the negative sign in the slope version or writes MRS = MU<sub>Y</sub>/MU<sub>X</sub> reveals confusion between the direction of substitution and the ratio of marginal utilities — a frequent error in board exams where sign conventions matter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Marginal Rate of Substitution diminishes as we move down along a standard convex indifference curve. Use the concepts of marginal utility in your reasoning.",
+     "a": "As we move down an indifference curve, the quantity of X increases and quantity of Y decreases. By the law of diminishing marginal utility, MU<sub>X</sub> falls (more X → less extra satisfaction per unit) while MU<sub>Y</sub> rises (less Y → each remaining unit becomes more valuable). Since MRS<sub>XY</sub> = MU<sub>X</sub>/MU<sub>Y</sub>, the numerator decreases and the denominator increases, causing MRS to fall. A student who says \"MRS diminishes because total utility falls\" confuses marginal with total concepts; one who says \"MRS is constant because preferences don't change\" ignores the convexity assumption and would draw straight-line indifference curves (perfect substitutes).",
+     "self_check": true
+    },
+    {
+     "q": "A consumer's marginal utilities are MU<sub>X</sub> = 20 utils and MU<sub>Y</sub> = 5 utils. Calculate MRS<sub>XY</sub>. If the consumer gives up 2 units of Y, approximately how many units of X must they gain to stay on the same indifference curve? Show steps.",
+     "a": "Step 1: MRS<sub>XY</sub> = MU<sub>X</sub>/MU<sub>Y</sub> = 20/5 = 4. This means the consumer is willing to give up 4 units of Y for 1 unit of X. Step 2: For a small change, MRS ≈ -ΔY/ΔX → 4 = 2/ΔX → ΔX = 0.5 units of X. Step 3: Interpretation: giving up 2 chais (Y) requires gaining 0.5 samosas (X) to maintain utility. A wrong answer of ΔX = 8 (inverting the ratio) shows the student used MRS = MU<sub>Y</sub>/MU<sub>X</sub> or misapplied the slope formula. This error costs 1-2 marks in board numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two bundles on the same indifference curve: Bundle A (X=2, Y=10) and Bundle B (X=5, Y=4). Calculate the average MRS between these bundles. Then explain why the MRS at Bundle A is greater than the MRS at Bundle B, referencing the shape of the indifference curve.",
+     "a": "Average MRS = -ΔY/ΔX = -(4-10)/(5-2) = -(-6)/3 = 2. So on average, 2 units of Y are given up per unit of X gained. At Bundle A (low X, high Y), MU<sub>X</sub> is relatively high (scarce X) and MU<sub>Y</sub> relatively low (abundant Y), so MRS = MU<sub>X</sub>/MU<sub>Y</sub> is large. At Bundle B (high X, low Y), MU<sub>X</sub> is lower and MU<sub>Y</sub> higher, so MRS is smaller. The indifference curve is steeper at A and flatter at B — this is the geometric meaning of diminishing MRS and convexity. A student who claims MRS is constant between A and B would draw a straight line, violating the convexity axiom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If two goods are perfect substitutes, the MRS is constant and the indifference curve is a straight line. Therefore, diminishing MRS does not hold for all goods.\" Is this statement correct? Justify your answer with reference to the assumptions of the standard indifference curve model.",
+     "a": "The statement is correct. The standard indifference curve model assumes convex preferences (diminishing MRS) for *typical* goods. Perfect substitutes are a special exception where MRS is constant (e.g., 1:1 for red and blue pens of same brand) and indifference curves are straight lines. The model does not claim diminishing MRS holds universally; it is a property of *well-behaved* (convex) preferences. A student who says \"the statement is false because MRS always diminishes\" has memorised a rule without understanding its domain of validity — a trap in JEE/NEET assertion-reason questions where \"always\" or \"never\" are red flags.",
+     "self_check": true
+    },
+    {
+     "q": "Draw an indifference curve for two goods that exhibit diminishing MRS. Mark three points A, B, C on it such that moving from A to C represents increasing consumption of X. At each point, draw a tangent line and label its slope (in absolute value) as MRS<sub>A</sub>, MRS<sub>B</sub>, MRS<sub>C</sub>. Write the inequality relating these three MRS values.",
+     "a": "The diagram should show a downward-sloping, convex-to-origin curve. Tangents at A (leftmost, highest Y), B (middle), C (rightmost, lowest Y) become progressively flatter. Absolute slopes: MRS<sub>A</sub> > MRS<sub>B</sub> > MRS<sub>C</sub>. A poor answer draws a concave curve (increasing MRS) or straight line (constant MRS), or labels slopes without absolute value (giving negative numbers). This reveals the student cannot visualise the geometric meaning of diminishing MRS — a skill tested in board diagram questions and CUET graph-interpretation items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

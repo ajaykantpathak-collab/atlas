@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_008",
+   "title": "c11_bio_cbse_19_008",
+   "questions": [
+    {
+     "q": "A patient presents with polyuria (excessive urine output), polydipsia (excessive thirst), and dehydration despite normal blood glucose levels. Which hormone deficiency causes this condition, and from which gland does it originate?",
+     "a": "Correct answer: ADH (vasopressin) deficiency from posterior pituitary (neurohypophysis) or hypothalamic neurons synthesizing it. This is Diabetes Insipidus. A wrong answer naming insulin or pancreas reveals confusion between Diabetes Insipidus (water balance) and Diabetes Mellitus (glucose balance) — students often conflate the two because both share \"diabetes\" (siphon) and polyuria, but the underlying hormones and mechanisms are entirely different.",
+     "self_check": true
+    },
+    {
+     "q": "Why does iodine deficiency cause goitre (thyroid enlargement) despite LOW thyroid hormone levels? Explain the feedback mechanism involved.",
+     "a": "Correct answer: Low iodine → low T3/T4 synthesis → reduced negative feedback on hypothalamus and anterior pituitary → increased TRH and TSH secretion → TSH stimulates thyroid follicular cell hyperplasia and hypertrophy → thyroid enlarges (goitre) attempting to trap more iodine. A wrong answer stating \"TSH decreases\" or \"thyroid atrophies\" reveals misunderstanding of negative feedback — students often think low hormone means low stimulation, but in primary gland failure, the pituitary hyper-secretes tropic hormones trying to compensate.",
+     "self_check": true
+    },
+    {
+     "q": "A 12-year-old boy shows accelerated growth, coarse facial features, and enlarged hands/feet. His GH levels are high, but IGF-1 (somatomedin) is normal. Where is the defect likely located — hypothalamus, pituitary, or liver? Justify.",
+     "a": "Correct answer: Liver (post-receptor defect / GH resistance / Laron syndrome). Reasoning: GH is high → pituitary is over-secreting (or hypothalamus over-stimulating), but IGF-1 is normal despite high GH → liver fails to produce IGF-1 in response to GH → GH receptor or JAK-STAT signaling defect in hepatocytes. A wrong answer saying \"pituitary tumor\" ignores the normal IGF-1 — students must distinguish between GH excess with high IGF-1 (acromegaly/gigantism) vs. GH resistance with normal/low IGF-1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the calcium homeostasis disruption in: (a) primary hyperparathyroidism (parathyroid adenoma) vs. (b) vitamin D deficiency. For each, state the expected blood levels of PTH, Ca²⁺, and phosphate.",
+     "a": "Correct answer: (a) Primary hyperparathyroidism: PTH ↑↑, Ca²⁺ ↑, phosphate ↓ (PTH causes phosphaturia). (b) Vitamin D deficiency: PTH ↑ (secondary hyperparathyroidism), Ca²⁺ ↓ or normal, phosphate ↓. A wrong answer giving identical patterns for both reveals failure to distinguish primary vs. secondary endocrine disorders — students must track whether the primary defect is in the gland itself (autonomous secretion) or in a downstream factor triggering compensatory gland hyperactivity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In Type 2 Diabetes Mellitus, insulin therapy is never required because the problem is insulin resistance, not insulin deficiency.\" Is this true or false? Provide physiological reasoning.",
+     "a": "Correct answer: FALSE. In early T2DM, insulin resistance dominates and hyperinsulinemia compensates; but chronic hyperglycemia causes glucotoxicity and lipotoxicity → β-cell exhaustion and apoptosis → progressive insulin deficiency develops. Many T2DM patients eventually require insulin therapy when oral agents fail. A wrong answer accepting the statement reveals the misconception that T2DM is purely resistance without β-cell failure — students must understand the natural history: resistance → compensation → decompensation → deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple clinical decision flowchart (text-based) that a primary care physician could use to differentiate between: Cushing's syndrome (cortisol excess), Addison's disease (cortisol deficiency), and pheochromocytoma (catecholamine excess) based on 5 key clinical signs each.",
+     "a": "Expected answer: A flowchart starting with \"Check BP\" → if hypertension + moon face + purple striae + hyperglycemia + central obesity → Cushing's; if hypotension + hyperpigmentation + hyponatremia + hyperkalemia + fatigue → Addison's; if paroxysmal hypertension + palpitations + sweating + headache + anxiety → pheochromocytoma. A poor answer listing vague symptoms without physiological basis (e.g., \"weight gain\" for all three) reveals inability to link hormone actions to specific clinical manifestations — students must connect cortisol's gluconeogenesis, mineralocorticoid effects, and catecholamine's adrenergic actions to distinct sign clusters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

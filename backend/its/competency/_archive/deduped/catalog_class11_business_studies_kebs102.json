@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 102,
+ "chapter_title": "Forms of Business Organisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs102.txt",
+ "concepts": [
+  {
+   "id": "kebs.102.1.1",
+   "title": "Sole Proprietorship: Features, Merits and Limitations",
+   "section": "Sole proprietorship",
+   "definition": "Sole proprietorship is a form of business owned, managed and controlled by a single individual who bears all risks, takes all profits, and has unlimited liability with no separate legal existence.",
+   "formula": "",
+   "key_idea": "Formation and closure are easy, secrecy is complete, and direct incentive plus quick decision making make it suitable for small scale ventures.",
+   "textbook_ref": "kebs102.txt sole proprietorship section",
+   "question_patterns": [
+    "state the features of sole proprietorship",
+    "what is meant by unlimited liability of a sole proprietor",
+    "list the merits and limitations of sole proprietorship",
+    "why is sole proprietorship suitable for small business",
+    "how does a sole proprietorship come to an end",
+    "compare secrecy and decision making in sole proprietorship"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check ownership and control",
+     "explain": "Confirm one person owns, manages and controls the business."
+    },
+    {
+     "step": 2,
+     "action": "note liability and legality",
+     "explain": "Verify unlimited liability and absence of separate legal existence."
+    },
+    {
+     "step": 3,
+     "action": "weigh merits and limits",
+     "explain": "List quick decisions and secrecy against limited capital and skills."
+    }
+   ]
+  },
+  {
+   "id": "kebs.102.2.1",
+   "title": "Partnership: Deed, Registration, Liability and Types of Partners",
+   "section": "Partnership",
+   "definition": "Partnership is the relation between persons who have agreed to share profits of a business carried on by all or any of them acting for all, governed by a partnership deed and the Partnership Act, with unlimited joint and several liability of partners.",
+   "formula": "",
+   "key_idea": "Registration is optional, and partners may be active, sleeping, secret, minor or nominal partners, with the partnership deed covering profit sharing ratio, capital, duties and dispute settlement.",
+   "textbook_ref": "kebs102.txt partnership section",
+   "question_patterns": [
+    "define partnership and state its essential features",
+    "what is a partnership deed and its contents",
+    "is registration of a partnership firm compulsory",
+    "explain joint and several liability of partners",
+    "name the types of partners with their roles",
+    "what are the merits and limitations of partnership form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the agreement",
+     "explain": "Confirm the profit sharing agreement among partners."
+    },
+    {
+     "step": 2,
+     "action": "check the deed and act",
+     "explain": "Verify the deed terms and provisions of the Partnership Act."
+    },
+    {
+     "step": 3,
+     "action": "classify the partners",
+     "explain": "Identify active, sleeping or minor partners and their liability."
+    }
+   ]
+  },
+  {
+   "id": "kebs.102.3.1",
+   "title": "Cooperative Society and Joint Stock Company",
+   "section": "Company",
+   "definition": "A cooperative society is a voluntary association for mutual welfare with one member one vote and service motive, while a joint stock company is an artificial person with separate legal entity, perpetual succession, common seal, limited liability and transferable shares.",
+   "formula": "",
+   "key_idea": "The company form suits large capital needs and professional management, while cooperatives protect members from middlemen through service rather than profit motive.",
+   "textbook_ref": "kebs102.txt cooperative and company sections",
+   "question_patterns": [
+    "state the features of a joint stock company",
+    "what is meant by perpetual succession and common seal",
+    "define cooperative society and its principles",
+    "compare private company and public company",
+    "explain the merits and limitations of the company form",
+    "how does a cooperative society differ from a company"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check separate legal entity",
+     "explain": "Verify incorporation, common seal and perpetual succession."
+    },
+    {
+     "step": 2,
+     "action": "note liability and shares",
+     "explain": "Confirm limited liability and transferability of shares."
+    },
+    {
+     "step": 3,
+     "action": "compare service and profit motive",
+     "explain": "Separate cooperative service motive from company profit motive."
+    }
+   ]
+  },
+  {
+   "id": "kebs.102.4.1",
+   "title": "Choice of Form of Business Organisation",
+   "section": "Choice of form",
+   "definition": "The choice among sole proprietorship, partnership, cooperative society and company depends on cost and ease of formation, liability, capital requirement, continuity, control, management ability and nature of business.",
+   "formula": "",
+   "key_idea": "Small ventures with limited capital suit proprietorship, growing firms take the partnership route, and large scale enterprises needing heavy investment adopt the company form.",
+   "textbook_ref": "kebs102.txt choice of form section",
+   "question_patterns": [
+    "what factors affect the choice of a form of business organisation",
+    "which form is suitable for large scale operations and why",
+    "how does liability affect the choice of business form",
+    "compare the continuity of different forms of organisation",
+    "why do startups begin as sole proprietorship",
+    "evaluate the forms of business on cost of formation and closure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the criteria",
+     "explain": "Note capital, liability, control, continuity and formation costs."
+    },
+    {
+     "step": 2,
+     "action": "match business needs",
+     "explain": "Compare the needs of the venture with each form's features."
+    },
+    {
+     "step": 3,
+     "action": "conclude the form",
+     "explain": "State the most suitable form with reasons."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs102.txt exercises",
+   "questions": [
+    "Define sole proprietorship and state its features.",
+    "Explain any four merits and limitations of partnership.",
+    "Distinguish between a private company and a public company.",
+    "What factors should be kept in mind while choosing a form of organisation?",
+    "Explain the concept of mutual agency in partnership."
+   ]
+  }
+ ]
+}

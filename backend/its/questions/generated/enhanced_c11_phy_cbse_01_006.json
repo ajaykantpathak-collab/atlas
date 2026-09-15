@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_006",
+   "title": "c11_phy_cbse_01_006",
+   "questions": [
+    {
+     "q": "List the seven base dimensions used in the SI system and write their symbolic representation in square brackets.",
+     "a": "The seven base dimensions are: Mass [M], Length [L], Time [T], Electric Current [A], Thermodynamic Temperature [K], Amount of Substance [mol], Luminous Intensity [cd]. A wrong answer (e.g., missing [A] or [K], or writing units like kg, m, s instead of dimensions) reveals the student confuses base quantities with their units or hasn't memorized the complete set of seven base dimensions required for senior secondary physics.",
+     "self_check": true
+    },
+    {
+     "q": "Velocity and speed have the same dimensional formula [M⁰ L T⁻¹]. Explain why this is physically correct even though velocity is a vector and speed is a scalar.",
+     "a": "Dimensions describe the *nature* of a physical quantity in terms of base quantities, not its mathematical classification (scalar/vector). Both velocity and speed are defined as distance per unit time, so they share the same combination of base quantities: length and time. A student who thinks they should differ because \"vectors have direction\" confuses dimensional analysis (which ignores magnitude and direction) with vector algebra. This misconception shows they haven't grasped that dimensions only track the *type* of base quantities, not the *mathematical form* of the quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Derive the dimensional formula of the universal gravitational constant G from Newton's law of gravitation: F = G m₁ m₂ / r². Given: Force F has dimensions [M L T⁻²], mass m has [M], distance r has [L].",
+     "a": "Step 1: Write the formula for G: G = F r² / (m₁ m₂)\nStep 2: Substitute dimensions: [G] = [M L T⁻²] [L]² / ([M][M])\nStep 3: Simplify numerator: [M L T⁻²] [L²] = [M L³ T⁻²]\nStep 4: Divide by denominator: [M L³ T⁻²] / [M²] = [M⁻¹ L³ T⁻²]\nFinal answer: [G] = [M⁻¹ L³ T⁻²]. A wrong answer like [M L³ T⁻²] (forgetting to subtract mass exponents) or [M L⁻¹ T⁻²] (misplacing r²) reveals the student cannot correctly apply exponent rules (add when multiplying, subtract when dividing) in dimensional algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Work and torque both have the dimensional formula [M L² T⁻²]. A student claims: \"Since they have the same dimensions, work and torque are the same physical quantity.\" Analyze this statement and explain why it is incorrect using the concept of dimensional analysis.",
+     "a": "The statement is incorrect. Dimensional analysis only checks the *combination of base quantities*, not the *physical nature* or *definition* of the quantity. Work is defined as force dot displacement (scalar product), while torque is force cross distance (vector product). They share dimensions because both involve force × length, but they differ in physical meaning, mathematical operation, and vector/scalar nature. A student who agrees with the claim misunderstands the *limitation* of dimensional analysis: it cannot distinguish between quantities with identical dimensional formulas. This is a classic senior-secondary error where students overgeneralize the power of dimensional homogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the dimensional formula of pressure as [M L⁻¹ T⁻¹]. Evaluate this answer. If wrong, identify the exact step where the error likely occurred and provide the correct dimensional formula.",
+     "a": "The answer [M L⁻¹ T⁻¹] is incorrect. The correct dimensional formula of pressure is [M L⁻¹ T⁻²].\nError analysis: Pressure = Force / Area. Force = [M L T⁻²], Area = [L²]. So Pressure = [M L T⁻²] / [L²] = [M L⁻¹ T⁻²]. The student likely wrote [M L⁻¹ T⁻¹] by either:\n(a) Using velocity [L T⁻¹] instead of acceleration [L T⁻²] in force (F = m v instead of F = m a), or\n(b) Forgetting to square the time dimension when dividing by area.\nThis reveals a gap in tracing the chain of definitions back to base quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new derived physical quantity \"Action\" defined as the product of energy and time (Action = Energy × Time). Write its dimensional formula and give one real-world example where this quantity appears in Class 11/12 physics (hint: quantum mechanics).",
+     "a": "Energy (work) has dimensions [M L² T⁻²]. Time has [T]. Action = [M L² T⁻²] × [T] = [M L² T⁻¹].\nReal-world example: Planck's constant (h) has dimensions of action. It appears in the photon energy equation E = hν and the de Broglie wavelength λ = h/p. A good answer must correctly multiply dimensions (adding exponents) and identify h or angular momentum as examples. A poor answer (e.g., [M L² T⁻²] or [M L T⁻¹]) shows the student cannot extend dimensional logic to new combinations or confuse action with energy or momentum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

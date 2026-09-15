@@ -1,0 +1,610 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 203,
+ "chapter_title": "Differential Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh203.txt",
+ "concepts": [
+  {
+   "id": "lemh.9.2.1",
+   "title": "Order of a Differential Equation",
+   "section": "9.2.1",
+   "definition": "The order of a differential equation is defined as the order of the highest derivative of the dependent variable present in the differential equation.",
+   "formula": "order = max_derivative_order",
+   "key_idea": "Identify the highest derivative term present in the differential equation.",
+   "textbook_ref": "lemh203.txt lines 35-55",
+   "question_patterns": [
+    "find the order of the differential equation",
+    "determine the order of the given differential equation",
+    "what is the order of the differential equation",
+    "calculate the order of the differential equation",
+    "Explain the method of Order of a Differential Equation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify derivatives",
+     "explain": "List all derivatives of the dependent variable occurring in the differential equation."
+    },
+    {
+     "step": 2,
+     "action": "determine highest order",
+     "explain": "Find the maximum derivative order present to get the order of the differential equation."
+    },
+    {
+     "step": 3,
+     "action": "State the order as the highest derivative order found",
+     "explain": "The order of the differential equation equals the order of the highest derivative identified in the previous step."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.2.2",
+   "title": "Degree of a Differential Equation",
+   "section": "9.2.2",
+   "definition": "The degree of a differential equation is the highest exponent of its highest order derivative when expressed as a polynomial in derivatives.",
+   "formula": "degree = exponent_of_highest_order_derivative",
+   "key_idea": "Check polynomial form in derivatives to extract the power of the highest derivative.",
+   "textbook_ref": "lemh203.txt lines 56-90",
+   "question_patterns": [
+    "find the degree of the differential equation",
+    "determine the degree if defined for the differential equation",
+    "check whether the degree of the differential equation is defined",
+    "calculate the degree of the differential equation",
+    "Explain the method of Degree of a Differential Equation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check polynomial condition",
+     "explain": "Verify whether the equation is a polynomial in derivative terms."
+    },
+    {
+     "step": 2,
+     "action": "find highest derivative exponent",
+     "explain": "Determine the power raised on the highest order derivative if defined."
+    },
+    {
+     "step": 3,
+     "action": "State the degree or report it as undefined",
+     "explain": "If the equation is a polynomial in derivatives, the degree is the exponent of the highest order derivative; otherwise the degree is not defined."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.3",
+   "title": "Verification of Solutions of Differential Equations",
+   "section": "9.3",
+   "definition": "A solution curve satisfies a differential equation when replacing the dependent variable and its derivatives yields an identity.",
+   "formula": "LHS = RHS after substitution",
+   "key_idea": "Compute required derivatives and substitute them into the differential equation to verify equality.",
+   "textbook_ref": "lemh203.txt lines 135-185",
+   "question_patterns": [
+    "verify that the given function is a solution of the differential equation",
+    "check if the function satisfies the differential equation",
+    "show that the function is a solution of the given differential equation",
+    "determine whether the given relation is a solution",
+    "Explain the method of Verification of Solutions of Differential Equations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "differentiate candidate function",
+     "explain": "Calculate first and higher derivatives of y with respect to x as required."
+    },
+    {
+     "step": 2,
+     "action": "substitute into LHS",
+     "explain": "Substitute y and its derivatives into the left side of the differential equation and simplify to check equality with RHS."
+    },
+    {
+     "step": 3,
+     "action": "Confirm LHS equals RHS",
+     "explain": "If the substituted expression reduces to an identity, the given function is a valid solution of the differential equation."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.1",
+   "title": "Differential Equations with Variables Separable",
+   "section": "9.4.1",
+   "definition": "A first-order differential equation dy/dx = g(x)h(y) can be solved by placing y terms with dy and x terms with dx followed by integration.",
+   "formula": "integral(1/h(y) dy) = integral(g(x) dx) + C",
+   "key_idea": "Group all terms involving y with dy on one side and x with dx on the other side.",
+   "textbook_ref": "lemh203.txt lines 220-270",
+   "question_patterns": [
+    "find the general solution of the differential equation by variable separation",
+    "solve the differential equation using separation of variables",
+    "calculate the solution of the separable differential equation",
+    "find the particular solution for the separable differential equation",
+    "Explain the method of Differential Equations with Variables Separable."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate variables",
+     "explain": "Rewrite the differential equation in the form (1/h(y)) dy = g(x) dx."
+    },
+    {
+     "step": 2,
+     "action": "integrate both sides",
+     "explain": "Integrate both sides independently and add a constant of integration C."
+    },
+    {
+     "step": 3,
+     "action": "Write the general solution",
+     "explain": "Express the integrated result as an implicit relation between y and x, applying initial conditions if a particular solution is required."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.2",
+   "title": "Continuous Growth and Compounding Models",
+   "section": "9.4.1",
+   "definition": "Models where rate of growth of a quantity is proportional to itself form a differential equation leading to exponential time behavior.",
+   "formula": "doubling_time = (100 * log2) / rate",
+   "key_idea": "Set up dP/dt = (r/100)*P to solve continuous compounding or population growth problems.",
+   "textbook_ref": "lemh203.txt lines 305-330",
+   "question_patterns": [
+    "in how many years will principal double at rate",
+    "find the time taken for an amount to double under continuous interest",
+    "calculate the rate of interest if principal doubles in given years",
+    "compute the time required for doubling at continuous rate",
+    "Explain the method of Continuous Growth and Compounding Models."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate log factor",
+     "explain": "Multiply 100 by log2",
+     "compute": "factor = 100 * log2"
+    },
+    {
+     "step": 2,
+     "action": "calculate doubling time",
+     "explain": "Divide the factor by annual interest rate",
+     "compute": "doubling_time = factor / rate"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result in context",
+     "explain": "The computed doubling time gives the number of years required for the principal to double at the given continuous rate of growth.",
+     "compute": "years = doubling_time"
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.3",
+   "title": "Homogeneous Differential Equations (y/x Substitution)",
+   "section": "9.4.2",
+   "definition": "A differential equation dy/dx = F(x,y) where F is homogeneous of degree zero is solved by making substitution y = vx.",
+   "formula": "y = v * x => dy/dx = v + x * dv/dx",
+   "key_idea": "Substitute y = vx to transform a homogeneous equation in dy/dx into a variable separable equation.",
+   "textbook_ref": "lemh203.txt lines 370-430",
+   "question_patterns": [
+    "show that the differential equation is homogeneous and solve it",
+    "find the general solution of the homogeneous differential equation",
+    "solve the homogeneous differential equation using y = vx",
+    "verify homogeneity and solve the differential equation",
+    "Explain the method of Homogeneous Differential Equations (y/x Substitution)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check homogeneity",
+     "explain": "Verify F(lambda*x, lambda*y) = lambda^0 * F(x,y)."
+    },
+    {
+     "step": 2,
+     "action": "substitute y = vx",
+     "explain": "Replace y with vx and dy/dx with v + x(dv/dx)."
+    },
+    {
+     "step": 3,
+     "action": "separate variables and integrate",
+     "explain": "Separate v and x variables, integrate, and substitute back v = y/x."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.4",
+   "title": "Homogeneous Differential Equations (x/y Substitution)",
+   "section": "9.4.2",
+   "definition": "A differential equation dx/dy = F(x,y) where F is homogeneous of degree zero is solved by substituting x = vy.",
+   "formula": "x = v * y => dx/dy = v + y * dv/dy",
+   "key_idea": "Use x = vy substitution when the differential equation is presented as dx/dy = h(x/y).",
+   "textbook_ref": "lemh203.txt lines 431-480",
+   "question_patterns": [
+    "solve the homogeneous equation of the form dx/dy = h(x/y)",
+    "find the particular solution using x = vy substitution",
+    "solve the differential equation in dx/dy using substitution",
+    "verify homogeneity for dx/dy equation and find general solution",
+    "Explain the method of Homogeneous Differential Equations (x/y Substitution)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express in x/y form",
+     "explain": "Write the differential equation as dx/dy = h(x/y)."
+    },
+    {
+     "step": 2,
+     "action": "substitute x = vy",
+     "explain": "Replace x with vy and dx/dy with v + y(dv/dy)."
+    },
+    {
+     "step": 3,
+     "action": "separate variables and integrate",
+     "explain": "Separate v and y variables, integrate, and substitute back v = x/y."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.5",
+   "title": "First Order Linear Differential Equations (dy/dx + Py = Q)",
+   "section": "9.4.3",
+   "definition": "A differential equation dy/dx + P(x)y = Q(x) is linear in y and solved by using an integrating factor IF = exp(integral(P dx)).",
+   "formula": "IF = e^(integral(P dx)), y * IF = integral(Q * IF dx) + C",
+   "key_idea": "Identify P(x) and Q(x), compute IF, and integrate Q * IF to derive the solution.",
+   "textbook_ref": "lemh203.txt lines 525-580",
+   "question_patterns": [
+    "find the general solution of the linear differential equation dy/dx + Py = Q",
+    "find the integrating factor and solve the differential equation",
+    "calculate the particular solution of first order linear differential equation",
+    "solve the linear differential equation dy/dx + Py = Q",
+    "Explain the method of First Order Linear Differential Equations (dy/dx + Py = Q)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify P and Q",
+     "explain": "Write equation in standard form dy/dx + P(x)y = Q(x) to identify P and Q."
+    },
+    {
+     "step": 2,
+     "action": "calculate integrating factor",
+     "explain": "Compute IF = exp(integral(P dx))."
+    },
+    {
+     "step": 3,
+     "action": "integrate and write solution",
+     "explain": "Use y * IF = integral(Q * IF dx) + C to find the solution."
+    }
+   ]
+  },
+  {
+   "id": "lemh.9.4.6",
+   "title": "First Order Linear Differential Equations (dx/dy + Px = Q)",
+   "section": "9.4.3",
+   "definition": "A differential equation dx/dy + P(y)x = Q(y) is linear in x and solved by using an integrating factor IF = exp(integral(P dy)).",
+   "formula": "IF = e^(integral(P dy)), x * IF = integral(Q * IF dy) + C",
+   "key_idea": "Identify P(y) and Q(y), compute IF with respect to y, and integrate Q * IF.",
+   "textbook_ref": "lemh203.txt lines 581-620",
+   "question_patterns": [
+    "find the general solution of linear differential equation dx/dy + Px = Q",
+    "find the integrating factor of dx/dy + P(y)x = Q(y)",
+    "solve first order linear differential equation in x",
+    "calculate general solution when equation is linear in x",
+    "Explain the method of First Order Linear Differential Equations (dx/dy + Px = Q)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify P(y) and Q(y)",
+     "explain": "Express the equation in standard form dx/dy + P(y)x = Q(y)."
+    },
+    {
+     "step": 2,
+     "action": "calculate integrating factor",
+     "explain": "Compute IF = exp(integral(P dy))."
+    },
+    {
+     "step": 3,
+     "action": "integrate and write solution",
+     "explain": "Use x * IF = integral(Q * IF dy) + C to obtain the solution."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, page 303",
+   "concept": "lemh.9.2.1",
+   "question_type": "identify_order_degree",
+   "question_pattern": "Find the order and degree, if defined, of each of the differential equations: (i) dy/dx - cos x = 0 (ii) x y (d2y/dx2) + x (dy/dx)2 - y (dy/dx) = 0 (iii) y''' + y2 + e^(y') = 0",
+   "extracted_variables": {
+    "eq1": "dy/dx - cos x = 0",
+    "eq2": "x y (d2y/dx2) + x (dy/dx)2 - y (dy/dx) = 0",
+    "eq3": "y''' + y2 + e^(y') = 0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine order and degree for eq1",
+     "explain": "Highest derivative is dy/dx, so order = 1; polynomial power raised is 1, so degree = 1."
+    },
+    {
+     "step": 2,
+     "action": "determine order and degree for eq2",
+     "explain": "Highest derivative is d2y/dx2, so order = 2; power raised on highest derivative is 1, so degree = 1."
+    },
+    {
+     "step": 3,
+     "action": "determine order and degree for eq3",
+     "explain": "Highest derivative is y''', so order = 3; equation is not polynomial in derivatives due to e^(y'), so degree is not defined."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 2, page 305",
+   "concept": "lemh.9.3",
+   "question_type": "verify_solution",
+   "question_pattern": "Verify that the function y = e^(-3x) is a solution of the differential equation d2y/dx2 + dy/dx - 6y = 0",
+   "extracted_variables": {
+    "y": "e^(-3x)",
+    "de": "d2y/dx2 + dy/dx - 6y = 0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "differentiate y",
+     "explain": "dy/dx = -3 e^(-3x), d2y/dx2 = 9 e^(-3x)."
+    },
+    {
+     "step": 2,
+     "action": "substitute into LHS",
+     "explain": "LHS = 9 e^(-3x) + (-3 e^(-3x)) - 6 (e^(-3x)) = 0 = RHS. Hence verified."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Example 6, page 308",
+   "concept": "lemh.9.4.1",
+   "question_type": "particular_solution_separable",
+   "question_pattern": "Find the particular solution of the differential equation dy/dx = -4xy^2 given that y = 1 when x = 0",
+   "extracted_variables": {
+    "de": "dy/dx = -4xy^2",
+    "x0": 0,
+    "y0": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "separate variables",
+     "explain": "Write dy / y^2 = -4x dx."
+    },
+    {
+     "step": 2,
+     "action": "integrate and apply initial conditions",
+     "explain": "Integral gives -1/y = -2x^2 + C. Using x = 0, y = 1 gives C = -1, so y = 1 / (2x^2 + 1)."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Example 9, page 310",
+   "concept": "lemh.9.4.2",
+   "question_type": "doubling_time_continuous",
+   "question_pattern": "In a bank, principal increases continuously at the rate of {rate}% per year. In how many years Rs 1000 double itself?",
+   "extracted_variables": {
+    "rate": 5,
+    "principal": 1000,
+    "log2": 0.6931
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate factor",
+     "explain": "Multiply 100 by log2",
+     "compute": "factor = 100 * log2"
+    },
+    {
+     "step": 2,
+     "action": "compute time required",
+     "explain": "Divide factor by rate",
+     "compute": "doubling_time = factor / rate"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Example 10, page 314",
+   "concept": "lemh.9.4.3",
+   "question_type": "solve_homogeneous",
+   "question_pattern": "Show that the differential equation (x - y) dy/dx = x + 2y is homogeneous and solve it",
+   "extracted_variables": {
+    "de": "(x - y) dy/dx = x + 2y"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "verify homogeneity",
+     "explain": "F(lambda*x, lambda*y) = (lambda*x + 2*lambda*y)/(lambda*x - lambda*y) = lambda^0 * F(x,y)."
+    },
+    {
+     "step": 2,
+     "action": "substitute y = vx and integrate",
+     "explain": "v + x(dv/dx) = (1 + 2v)/(1 - v), separate variables, integrate and substitute v = y/x to get log(x^2 + xy + y^2) = 2*sqrt(3)*arctan((x+2y)/(sqrt(3)*x)) + C."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Example 14, page 324",
+   "concept": "lemh.9.4.5",
+   "question_type": "linear_de_general_solution",
+   "question_pattern": "Find the general solution of the differential equation dy/dx - y = cos x",
+   "extracted_variables": {
+    "P": -1,
+    "Q": "cos x"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find integrating factor",
+     "explain": "IF = exp(integral(-1 dx)) = e^(-x)."
+    },
+    {
+     "step": 2,
+     "action": "solve linear DE",
+     "explain": "y * e^(-x) = integral(e^(-x) cos x dx) + C = (sinx - cosx) e^(-x) / 2 + C, so y = (sinx - cosx)/2 + C e^x."
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.9.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Continuous Growth and Compounding Models chain with log2 = 2, factor = 3, rate = 5. What value does it produce?",
+   "extracted_variables": {
+    "log2": "2",
+    "factor": "3",
+    "rate": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate log factor",
+     "explain": "Multiply 100 by log2",
+     "compute": "factor = 100 * log2"
+    },
+    {
+     "step": 2,
+     "action": "calculate doubling time",
+     "explain": "Divide the factor by annual interest rate",
+     "compute": "doubling_time = factor / rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "Exercise 9.1, page 303-304",
+   "questions": [
+    "Determine order and degree (if defined) of d4y/dx4 + sin(y''') = 0.",
+    "Determine order and degree (if defined) of y' + 5y = 0.",
+    "Determine order and degree (if defined) of (ds/dt)^4 + 3s (d2s/dt2) = 0.",
+    "Determine order and degree (if defined) of (d2y/dx2)^2 + cos(dy/dx) = 0.",
+    "Determine order and degree (if defined) of d2y/dx2 = cos 3x + sin 3x.",
+    "Determine order and degree (if defined) of (y''')^2 + (y'')^3 + (y')^4 + y^5 = 0.",
+    "Determine order and degree (if defined) of y''' + 2y'' + y' = 0.",
+    "Determine order and degree (if defined) of y' + y = e^x.",
+    "Determine order and degree (if defined) of y'' + (y')^2 + 2y = 0.",
+    "Determine order and degree (if defined) of y'' + 2y' + sin y = 0.",
+    "The degree of the differential equation (d2y/dx2)^3 + (dy/dx)^2 + sin(dy/dx) + 1 = 0 is (A) 3 (B) 2 (C) 1 (D) not defined.",
+    "The order of the differential equation 2x^2 d2y/dx2 - 3 dy/dx + y = 0 is (A) 2 (B) 1 (C) 0 (D) not defined."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "Exercise 9.2, page 306",
+   "questions": [
+    "Verify that y = e^x + 1 is a solution of y'' - y' = 0.",
+    "Verify that y = x^2 + 2x + C is a solution of y' - 2x - 2 = 0.",
+    "Verify that y = cos x + C is a solution of y' + sin x = 0.",
+    "Verify that y = sqrt(1 + x^2) is a solution of y' = xy / (1 + x^2).",
+    "Verify that y = A x is a solution of x y' = y.",
+    "Verify that y = x sin x is a solution of x y' = y + x sqrt(x^2 - y^2).",
+    "Verify that x y = log y + C is a solution of y' = y^2 / (1 - xy).",
+    "Verify that y - cos y = x is a solution of (y sin y + cos y + x) y' = y.",
+    "Verify that x + y = tan^-1 y is a solution of y^2 y' + y^2 + 1 = 0.",
+    "Verify that y = sqrt(a^2 - x^2) is a solution of x + y dy/dx = 0.",
+    "The number of arbitrary constants in the general solution of a differential equation of fourth order is (A) 0 (B) 2 (C) 3 (D) 4.",
+    "The number of arbitrary constants in the particular solution of a differential equation of third order is (A) 3 (B) 2 (C) 1 (D) 0."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "Exercise 9.3, page 310-312",
+   "questions": [
+    "Find the general solution of dy/dx = (1 - cos x) / (1 + cos x).",
+    "Find the general solution of dy/dx = sqrt(4 - y^2).",
+    "Find the general solution of dy/dx + y = 1.",
+    "Find the general solution of sec^2 x tan y dx + sec^2 y tan x dy = 0.",
+    "Find the general solution of (e^x + e^-x) dy - (e^x - e^-x) dx = 0.",
+    "Find the general solution of dy/dx = (1 + x^2)(1 + y^2).",
+    "Find the general solution of y log y dx - x dy = 0.",
+    "Find the general solution of x^5 dy/dx = - y^5.",
+    "Find the general solution of dy/dx = sin^-1 x.",
+    "Find the general solution of e^x tan y dx + (1 - e^x) sec^2 y dy = 0.",
+    "Find the particular solution of (x^3 + x^2 + x + 1) dy/dx = 2x^2 + x; y = 1 when x = 0.",
+    "Find the particular solution of x(x^2 - 1) dy/dx = 1; y = 0 when x = 2.",
+    "Find the particular solution of cos(dy/dx) = a; y = 1 when x = 0.",
+    "Find the particular solution of dy/dx = y tan x; y = 1 when x = 0.",
+    "Find the equation of a curve passing through (0,0) with dy/dx = e^x sin x.",
+    "Find the solution curve of xy dy/dx = (x+2)(y+2) passing through (1,-1).",
+    "Find curve equation passing through (0,-2) where product of tangent slope and y-coordinate equals x-coordinate.",
+    "At any point (x,y) of a curve, slope of tangent is twice slope of segment joining (x,y) to (-4,-3). Find curve passing through (-2,1).",
+    "The volume of spherical balloon inflated changes at constant rate. If initially radius is 3 units and after 3 seconds it is 6 units, find radius after t seconds.",
+    "In a bank, principal increases continuously at rate r% per year. Find r if Rs 100 doubles itself in 10 years.",
+    "In a bank, principal increases continuously at rate 5% per year. How much will Rs 1000 be worth after 10 years?",
+    "In a culture, bacteria count is 1,00,000, increasing by 10% in 2 hours. In how many hours will count reach 2,00,000?",
+    "The general solution of dy/dx = e^(x+y) is (A) e^x + e^-y = C (B) e^x + e^y = C (C) e^-x + e^y = C (D) e^-x + e^-y = C."
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "Exercise 9.4, page 321-322",
+   "questions": [
+    "Show that (x^2 + xy) dy = (x^2 + y^2) dx is homogeneous and solve it.",
+    "Show that y' = (x + y)/x is homogeneous and solve it.",
+    "Show that (x - y) dy - (x + y) dx = 0 is homogeneous and solve it.",
+    "Show that (x^2 - y^2) dx + 2xy dy = 0 is homogeneous and solve it.",
+    "Show that x^2 dy/dx = x^2 - 2y^2 + xy is homogeneous and solve it.",
+    "Show that x dy - y dx = sqrt(x^2 + y^2) dx is homogeneous and solve it.",
+    "Solve homogeneous equation {x cos(y/x) + y sin(y/x)} y dx = {y sin(y/x) - x cos(y/x)} x dy.",
+    "Show that x dy/dx - y + x sin(y/x) = 0 is homogeneous and solve it.",
+    "Show that y dx + x log(y/x) dy - 2x dy = 0 is homogeneous and solve it.",
+    "Solve (1 + e^(x/y)) dx + e^(x/y) (1 - x/y) dy = 0.",
+    "Find particular solution of (x + y) dy + (x - y) dx = 0; y = 1 when x = 1.",
+    "Find particular solution of x^2 dy + (xy + y^2) dx = 0; y = 1 when x = 1.",
+    "Find particular solution of [x sin^2(y/x) - y] dx + x dy = 0; y = pi/4 when x = 1.",
+    "Find particular solution of dy/dx - y/x + cosec(y/x) = 0; y = 0 when x = 1.",
+    "Find particular solution of 2xy + y^2 - 2x^2 dy/dx = 0; y = 2 when x = 1.",
+    "A homogeneous differential equation dx/dy = h(x/y) can be solved by making substitution (A) y = vx (B) v = yx (C) x = vy (D) x = v.",
+    "Which of the following is a homogeneous differential equation? (A) (4x+6y+5)dy - (3y+2x+4)dx = 0 (B) (xy)dx - (x^3+y^3)dy = 0 (C) (x^3+2y^2)dx + 2xy dy = 0 (D) y^2 dx + (x^2-xy-y^2)dy = 0."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "Exercise 9.5, page 328-329",
+   "questions": [
+    "Find general solution of dy/dx + 2y = sin x.",
+    "Find general solution of dy/dx + 3y = e^(-2x).",
+    "Find general solution of dy/dx + y/x = x^2.",
+    "Find general solution of dy/dx + (sec x) y = tan x.",
+    "Find general solution of cos^2 x dy/dx + y = tan x.",
+    "Find general solution of x dy/dx + 2y = x^2 log x.",
+    "Find general solution of x log x dy/dx + y = (2/x) log x.",
+    "Find general solution of (1 + x^2) dy + 2xy dx = cot x dx.",
+    "Find general solution of x dy/dx + y - x + xy cot x = 0.",
+    "Find general solution of (x + y) dy/dx = 1.",
+    "Find general solution of y dx + (x - y^2) dy = 0.",
+    "Find general solution of (x + 3y^2) dy/dx = y.",
+    "Find particular solution of dy/dx + 2y tan x = sin x; y = 0 when x = pi/3.",
+    "Find particular solution of (1 + x^2) dy/dx + 2xy = 1/(1 + x^2); y = 0 when x = 1.",
+    "Find particular solution of dy/dx - 3y cot x = sin 2x; y = 2 when x = pi/2.",
+    "Find curve equation passing through origin if slope of tangent at (x,y) equals sum of coordinates.",
+    "Find curve equation passing through (0,2) if sum of coordinates exceeds slope magnitude by 5.",
+    "Integrating factor of x dy/dx - y = 2x^2 is (A) e^-x (B) e^-y (C) 1/x (D) x.",
+    "Integrating factor of (1 - y^2) dx/dy + yx = ay is (A) 1/sqrt(y^2-1) (B) 1/sqrt(y^2+1) (C) 1/sqrt(1-y^2) (D) 1/(1-y^2)."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

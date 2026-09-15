@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_010",
+   "title": "c12_eco_cbse_03_010",
+   "questions": [
+    {
+     "q": "State the two necessary conditions for producer's equilibrium using the MR-MC approach.",
+     "a": "Correct answer: (1) MR = MC, and (2) MC is rising at the equilibrium output (MC cuts MR from below). A wrong answer that only states MR = MC reveals the student ignores the second-order condition — they would mistakenly accept a local minimum or a point where MC falls through MR as equilibrium, which actually minimizes profit or is unstable.",
+     "self_check": true
+    },
+    {
+     "q": "A firm under perfect competition faces a market price of ₹100. Its MC at 10 units is ₹90, at 11 units is ₹100, and at 12 units is ₹110. At which output is the firm in equilibrium? Explain why not the other outputs.",
+     "a": "Equilibrium at 11 units. At 10 units, MR (₹100) > MC (₹90) → producing one more adds ₹10 to profit, so not optimal. At 12 units, MR (₹100) < MC (₹110) → the 12th unit reduces profit by ₹10. At 11 units, MR = MC = ₹100 and MC is rising (from ₹90 to ₹100 to ₹110), satisfying both conditions. A student choosing 10 units confuses \"MC < MR\" with equilibrium; they miss that profit can still be increased by expanding output.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for a monopolist, find the profit-maximizing output and the maximum profit.\n\n| Output (Q) | Price (₹) | Total Cost (₹) |\n|------------|-----------|----------------|\n| 1          | 100       | 60             |\n| 2          | 90        | 110            |\n| 3          | 80        | 150            |\n| 4          | 70        | 200            |\n| 5          | 60        | 260            |",
+     "a": "Step 1: Calculate TR = P × Q: (100, 180, 240, 280, 300).\nStep 2: Calculate MR = ΔTR/ΔQ: (100, 80, 60, 40, 20).\nStep 3: Calculate MC = ΔTC/ΔQ: (60, 50, 40, 50, 60).\nStep 4: Compare MR and MC: at Q=3, MR=60, MC=40 (MR>MC); at Q=4, MR=40, MC=50 (MR<MC). Equilibrium at Q=3? Wait — check MR vs MC at each unit: Q=1: MR=100, MC=60; Q=2: MR=80, MC=50; Q=3: MR=60, MC=40; Q=4: MR=40, MC=50. MR > MC up to Q=3, then MR < MC at Q=4. So the last unit where MR ≥ MC is Q=3. But we need MC rising at equilibrium: MC at Q=3 is 40, at Q=4 is 50 → rising. So equilibrium at Q=3.\nStep 5: Profit at Q=3 = TR - TC = 240 - 150 = ₹90.\nAnswer: Equilibrium output = 3 units, Maximum profit = ₹90.\nA wrong answer of Q=4 shows the student equates MR and MC approximately without checking the discrete marginal values, or they mistakenly use average values.",
+     "self_check": true
+    },
+    {
+     "q": "\"Under perfect competition, a firm's MC curve is U-shaped. The firm will always produce at the minimum point of MC because that minimizes cost per unit.\" Evaluate this statement.",
+     "a": "The statement is false. A competitive firm maximizes profit where P = MC (since MR = P) and MC is rising. The minimum point of MC is where MC stops falling and starts rising — but the firm produces where MC equals the market price, which could be to the right of the minimum MC. Producing at minimum MC would only be optimal if price happened to equal that minimum MC. The student who agrees confuses cost minimization (which occurs at minimum AVC or ATC) with profit maximization. They also ignore that the firm takes price as given and adjusts output, not the other way around.",
+     "self_check": true
+    },
+    {
+     "q": "A firm is currently producing where MR = ₹50 and MC = ₹40, and MC is rising. The owner says, \"We are making profit on the last unit, so we should keep producing more.\" Is the owner correct? What should the firm do?",
+     "a": "The owner is partially correct that the last unit added profit (MR > MC), but wrong to conclude that equilibrium is reached. Since MR > MC, producing one more unit will add (MR - MC) to profit. The firm should increase output until MR = MC. The owner's reasoning stops at \"profit on last unit\" but misses that profit can be increased further. A student who agrees with the owner fails to apply marginal analysis iteratively — they treat the current unit as final instead of seeing that each additional unit's marginal contribution must be compared.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (with at least 5 output levels) for a firm under imperfect competition where MR = MC at two different outputs, but only one satisfies the second-order condition. Show the MR and MC values and identify the true equilibrium.",
+     "a": "Example:\n| Q | TR (₹) | TC (₹) | MR | MC |\n|---|--------|--------|----|----|\n| 1 | 80     | 50     | 80 | 50 |\n| 2 | 150    | 90     | 70 | 40 |\n| 3 | 210    | 140    | 60 | 50 |\n| 4 | 260    | 200    | 50 | 60 |\n| 5 | 300    | 270    | 40 | 70 |\n\nHere MR = MC at Q=3 (both 60) and also at Q=4? No, at Q=4 MR=50, MC=60. Let's adjust:\nMake MC at Q=3 = 60, MC at Q=4 = 50 (falling), then MC at Q=5 = 60 (rising). Then MR=MC at Q=3 (60=60) and Q=5 (40=60? no). Better:\nQ=1: MR=100, MC=20\nQ=2: MR=80, MC=40\nQ=3: MR=60, MC=60 (MC rising? from 40 to 60 → rising)\nQ=4: MR=40, MC=50 (MC falling from 60 to 50)\nQ=5: MR=20, MC=60 (MC rising from 50 to 60)\nNow MR=MC at Q=3 (60) and Q=5? No, at Q=5 MR=20, MC=60. Need another intersection. Let MC at Q=4 be 40 (falling), Q=5 be 20? No, MC must eventually rise. Let's do:\nQ=1: MR=100, MC=10\nQ=2: MR=80, MC=30\nQ=3: MR=60, MC=60 (MC rising)\nQ=4: MR=40, MC=50 (MC falling)\nQ=5: MR=20, MC=60 (MC rising)\nNow MR=MC only at Q=3. To have two intersections, MC must cross MR twice: once from above (falling MC) and once from below (rising MC). Example:\nQ=1: MR=100, MC=90\nQ=2: MR=80, MC=70\nQ=3: MR=60, MC=60 (MC falling: 90→70→60)\nQ=4: MR=40, MC=50 (MC falling: 60→50)\nQ=5: MR=20, MC=60 (MC rising: 50→60)\nHere MR=MC at Q=3 (60=60) and Q=5? 20≠60. Not working. Let's use a table where MC falls then rises, crossing MR twice.\nStandard example: MC U-shaped, MR downward sloping.\nQ=1: MR=50, MC=40\nQ=2: MR=45, MC=30\nQ=3: MR=40, MC=35\nQ=4: MR=35, MC=40\nQ=5: MR=30, MC=50\nHere MR=MC at Q=3? 40 vs 35 no. At Q=4: 35 vs 40 no. They don't equal. Need exact equality.\nLet's set:\nQ=1: MR=100, MC=20\nQ=2: MR=80, MC=40\nQ=3: MR=60, MC=60 (MC rising: 20→40→60)\nQ=4: MR=40, MC=50 (MC falling: 60→50)\nQ=5: MR=20, MC=60 (MC rising: 50→60)\nOnly one intersection. To get two, MC must cross MR from above then from below. So MC starts above MR, falls below, then rises above again.\nQ=1: MR=50, MC=60\nQ=2: MR=45, MC=40\nQ=3: MR=40, MC=35\nQ=4: MR=35, MC=40\nQ=5: MR=30, MC=50\nNow MR=MC? At Q=2: 45 vs 40 no. At Q=3: 40 vs 35 no. At Q=4: 35 vs 40 no. Not equal.\nLet's force equality at Q=2 and Q=4:\nQ=1: MR=50, MC=60\nQ=2: MR=40, MC=40 (MC falling: 60→40)\nQ=3: MR=35, MC=35 (MC falling: 40→35)\nQ=4: MR=30, MC=30 (MC rising: 35→30? no, rising means MC increases. So MC at Q=4 > MC at Q=3. Let MC at Q=3=30, Q=4=30? constant. Need MC rising at Q=4: MC at Q=3=25, Q=4=30. Then MR at Q=4=30. And at Q=2: MR=40, MC=40 with MC falling from Q=1 to Q=2.\nSo:\nQ=1: MR=50, MC=50 (MC falling? Let MC at Q=1=55, Q=2=40, Q=3=25, Q=4=30, Q=5=40)\nMR: 50, 40, 35, 30, 25\nMC: 55, 40, 25, 30, 40\nIntersections: Q=2 (MR=40, MC=40) — MC falling (55→40). Q=4 (MR=30, MC=30) — MC rising (25→30). Both satisfy MR=MC. But second-order condition: MC must be rising. So Q=2 is invalid (MC falling), Q=4 is valid.\nThis works. The student must present such a table and identify Q=4 as equilibrium.\nA poor answer would give a table without two intersections, or not check the slope of MC, or pick the wrong output.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

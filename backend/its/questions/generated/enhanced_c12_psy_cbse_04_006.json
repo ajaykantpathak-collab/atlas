@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_006",
+   "title": "c12_psy_cbse_04_006",
+   "questions": [
+    {
+     "q": "A student writes: \"OCD is when you like things clean and organised.\" Identify the two fundamental errors in this statement based on DSM-5 criteria.",
+     "a": "Correct answer: (1) OCD compulsions are not preferences — they are repetitive behaviours performed to reduce distress from obsessions, not for pleasure or satisfaction; the individual typically finds them excessive and ego-dystonic. (2) OCD requires obsessions and/or compulsions that are time-consuming (>1 hour/day) or cause clinically significant distress/impairment — mere preference for orderliness without distress or impairment is not a disorder. A wrong answer reveals the student confuses personality traits (OCPD features) with OCD, and misses the distress/impairment criterion central to the \"Four Ds\" (dysfunction).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with contamination obsessions who washes hands for 3 hours daily meets OCD criteria, while a surgeon who scrubs for 10 minutes before each surgery (total 40 minutes/day) does not — even though both wash hands repeatedly.",
+     "a": "Correct answer: The surgeon's handwashing is context-appropriate, goal-directed (infection control), not driven by intrusive thoughts, and does not cause distress or functional impairment — it is adaptive professional behaviour. The OCD patient's washing is driven by obsessions (intrusive contamination fears), is excessive relative to actual risk, causes marked distress if prevented, and consumes >1 hour/day impairing daily functioning. A wrong answer reveals the student focuses only on behavioural topography (repetitive washing) rather than the function (obsession-driven vs. goal-directed) and the dysfunction/distress criteria.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old witnesses a fatal road accident. For two weeks, she has nightmares about the crash, avoids the intersection, feels guilty she survived, and startles at horn sounds. At day 14, she meets criteria for which disorder? What changes at day 31?",
+     "a": "Correct answer: At day 14 (2 weeks), she meets criteria for Acute Stress Disorder (ASD) — symptoms present 3 days to 1 month post-trauma. At day 31 (1 month), if symptoms persist, the diagnosis changes to PTSD — PTSD requires symptom duration >1 month. Both require the same 4 symptom clusters (intrusion, avoidance, negative cognitions/mood, arousal), but ASD is time-limited to 1 month maximum. A wrong answer (e.g., \"PTSD from day 1\") reveals confusion between ASD and PTSD duration criteria, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of avoidance in OCD vs. PTSD. A student claims: \"In both disorders, avoidance reduces anxiety, so the mechanism is identical.\" Analyse this claim using the concepts of negative reinforcement and the specific stimuli avoided.",
+     "a": "Correct answer: The claim is partially correct but incomplete. In both, avoidance is negatively reinforced (removes/distress → increases avoidance). However, in OCD, avoidance targets triggers for obsessions (e.g., avoiding public doorknobs to prevent contamination thoughts), and compulsions are active neutralisation behaviours. In PTSD, avoidance targets trauma-related memories, thoughts, feelings, and external reminders (places, people, conversations), and is primarily passive (not thinking, not going). The stimuli avoided differ: OCD avoids obsession triggers; PTSD avoids trauma memories/reminders. A wrong answer reveals failure to distinguish the content of avoidance (obsession-trigger vs. trauma-reminder) and the presence of compulsions in OCD vs. their absence in PTSD.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a board exam answer: \"Hoarding Disorder is just a severe form of OCD because both involve difficulty discarding items.\" Defend or refute using DSM-5 classification and symptom differences.",
+     "a": "Correct answer: Refute. DSM-5 reclassified Hoarding Disorder as a separate disorder under \"Obsessive-Compulsive and Related Disorders\" (not a subtype of OCD). Key differences: (1) In Hoarding, difficulty discarding is due to perceived utility/sentimental value, not obsessions; (2) Hoarding involves active acquisition (buying, collecting), absent in OCD; (3) Hoarding distress arises from discarding, not intrusive thoughts; (4) Insight is often poorer in Hoarding; (5) Neurobiology and treatment response differ (Hoarding responds poorly to SSRIs/ERP). A wrong answer (agreeing) reveals outdated knowledge (DSM-IV grouped them) and failure to understand the DSM-5 nosological shift based on distinct validators.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief case vignette (4-5 sentences) of a 17-year-old student that clearly illustrates PTSD (not ASD, not Adjustment Disorder) following a natural disaster. Include at least one symptom from each of the four PTSD clusters.",
+     "a": "Good answer example: \"Three months after surviving a building collapse during an earthquake, Rohan experiences vivid flashbacks of the dust and screams (intrusion), refuses to enter multi-storey buildings and avoids earthquake news (avoidance), believes 'I am weak for surviving when others died' and feels detached from friends (negative cognitions/mood), and startles violently at loud bangs, has trouble sleeping, and scans exits in every room (arousal). Symptoms cause failing grades and social withdrawal.\" Criteria: duration >1 month (3 months), all 4 clusters present, functional impairment. A poor answer (missing cluster, duration <1 month, or no impairment) reveals inability to operationalise diagnostic criteria into clinical presentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

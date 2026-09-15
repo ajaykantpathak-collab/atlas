@@ -1,0 +1,787 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 302,
+ "chapter_title": "Socialism in Europe and the Russian Revolution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess301.txt",
+ "concepts": [
+  {
+   "id": "iess.302.1.1",
+   "title": "Political Ideologies: Liberals, Radicals, and Conservatives",
+   "section": "1.1",
+   "definition": "A classification of political groups in 19th-century Europe based on their differing views regarding the pace and nature of social and governmental reform.",
+   "formula": "none",
+   "key_idea": "The spectrum of political thought ranging from gradual reform to radical restructuring of society.",
+   "textbook_ref": "iess302.txt lines 25-60",
+   "question_patterns": [
+    "What were the main beliefs of the liberals in Europe?",
+    "How did radicals differ from liberals regarding voting rights?",
+    "Describe the conservative stance on social change after the French Revolution.",
+    "Identify the group that opposed the privileges of great landowners.",
+    "Which political group supported the suffragette movement?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the group's view on religious tolerance and individual rights.",
+     "explain": "Liberals wanted a nation that tolerated all religions and protected individual rights against the government."
+    },
+    {
+     "step": 2,
+     "action": "Examine the group's stance on democracy and voting.",
+     "explain": "Liberals were not democrats as they opposed universal adult franchise, whereas radicals supported government based on the majority."
+    },
+    {
+     "step": 3,
+     "action": "Determine the group's approach to the speed of change.",
+     "explain": "Conservatives accepted inevitable change but insisted it must be slow and respect the past."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.1.3",
+   "title": "Marxist Theory of Capitalism and Socialism",
+   "section": "1.3",
+   "definition": "The economic and social theory suggesting that industrial society is built on the exploitation of workers by owners of capital, requiring a revolution to establish social control of property.",
+   "formula": "none",
+   "key_idea": "Workers must overthrow private property to end capitalist exploitation.",
+   "textbook_ref": "iess302.txt lines 130-155",
+   "question_patterns": [
+    "What was Karl Marx's argument against industrial capitalism?",
+    "How did Marx define a communist society?",
+    "According to Marx, who produced the profits accumulated by capitalists?",
+    "What did Friedrich Engels contribute to socialist arguments?",
+    "Why did Marx believe workers had to overthrow the rule of private property?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the relationship between capital and labor.",
+     "explain": "Marx argued that capitalists own the means of production while workers produce the actual profit."
+    },
+    {
+     "step": 2,
+     "action": "Identify the barrier to worker improvement.",
+     "explain": "Conditions for workers cannot improve as long as profit is privately accumulated by capitalists."
+    },
+    {
+     "step": 3,
+     "action": "Define the revolutionary outcome.",
+     "explain": "A radically socialist society where all property is socially controlled is termed a communist society."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.2",
+   "title": "Russian Agricultural Population Calculation",
+   "section": "2.2",
+   "definition": "Calculating the number of people involved in farming based on the total population and the specific percentage of agriculturists in the Russian Empire.",
+   "formula": "agri_count = total_population * agri_percentage / 100",
+   "key_idea": "The Russian Empire had a significantly higher proportion of farmers (85 percent) compared to other European nations.",
+   "textbook_ref": "iess302.txt lines 195-210",
+   "question_patterns": [
+    "Calculate the number of agriculturists if the total population was {total_population}.",
+    "How many people earned a living from agriculture given a percentage of {agri_percentage}?",
+    "Find the agricultural population count from a total of {total_population} people.",
+    "Determine the size of the farming class in the Russian Empire.",
+    "What is the total number of cultivators if the population is {total_population}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total population and the percentage of agriculturists.",
+     "explain": "The percentage of agriculturists in Russia was approximately 85 percent.",
+     "compute": "agri_count = total_population * agri_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.2b",
+   "title": "The Mir (Commune) System",
+   "section": "2.2",
+   "definition": "A traditional Russian peasant arrangement where land was pooled and redistributed periodically among families based on their specific needs.",
+   "formula": "none",
+   "key_idea": "Collective land management distinguished Russian peasants from their Western European counterparts.",
+   "textbook_ref": "iess302.txt lines 255-265",
+   "question_patterns": [
+    "What was the role of the mir in the Russian countryside?",
+    "How did Russian peasants divide their land periodically?",
+    "Explain the unique characteristic of Russian peasants compared to other Europeans.",
+    "Define the term commune in the context of Russian agriculture.",
+    "How were land resources allocated in a Russian village?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the pooling of land.",
+     "explain": "Peasants brought their individual land holdings together into a collective pool."
+    },
+    {
+     "step": 2,
+     "action": "Explain the redistribution process.",
+     "explain": "The commune or mir divided the land among families according to their size and requirements."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.4",
+   "title": "The 1905 Revolution and Bloody Sunday",
+   "section": "2.4",
+   "definition": "The series of mass protests and strikes triggered by the killing of peaceful demonstrators at the Winter Palace, leading to the creation of the Duma.",
+   "formula": "none",
+   "key_idea": "A violent crackdown on workers' demands for better conditions sparked a nationwide revolutionary movement.",
+   "textbook_ref": "iess302.txt lines 310-345",
+   "question_patterns": [
+    "What incident is known as Bloody Sunday?",
+    "List the demands of the workers led by Father Gapon.",
+    "What was the significance of the 1905 Revolution?",
+    "How did the Tsar respond to the 1905 Revolution?",
+    "What is the Duma in Russian history?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the catalyst event.",
+     "explain": "Police attacked a peaceful worker procession led by Father Gapon at the Winter Palace."
+    },
+    {
+     "step": 2,
+     "action": "List the immediate consequences.",
+     "explain": "Strikes spread across the country, student walkouts occurred, and middle-class unions demanded a constituent assembly."
+    },
+    {
+     "step": 3,
+     "action": "Identify the political outcome.",
+     "explain": "The Tsar allowed the creation of an elected consultative parliament called the Duma."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.4b",
+   "title": "Julian to Gregorian Calendar Conversion",
+   "section": "Box 2",
+   "definition": "The mathematical adjustment required to convert dates from the old Russian Julian calendar to the modern Gregorian calendar.",
+   "formula": "gregorian_day = julian_day + 13",
+   "key_idea": "The Gregorian calendar is 13 days ahead of the Julian calendar used in Tsarist Russia.",
+   "textbook_ref": "iess302.txt lines 415-425",
+   "question_patterns": [
+    "Convert the Julian date {julian_day} to the Gregorian calendar.",
+    "If an event happened on Julian day {julian_day}, what is the modern date?",
+    "Calculate the Gregorian equivalent of a Russian date.",
+    "How many days must be added to a Julian date to get the Gregorian date?",
+    "Find the modern calendar date for the October Revolution starting from day {julian_day}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the 13-day offset to the Julian date.",
+     "explain": "The Gregorian calendar is exactly 13 days ahead of the Julian calendar.",
+     "compute": "gregorian_day = julian_day + 13"
+    }
+   ]
+  },
+  {
+   "id": "iess.302.3.1",
+   "title": "Lenin's April Theses",
+   "section": "3.1",
+   "definition": "The three specific radical demands made by Vladimir Lenin upon his return to Russia in April 1917 to guide the Bolshevik strategy.",
+   "formula": "none",
+   "key_idea": "Ending the war, redistributing land, and nationalizing banks were the core pillars of Bolshevik policy.",
+   "textbook_ref": "iess302.txt lines 485-500",
+   "question_patterns": [
+    "What were the three demands of Lenin's April Theses?",
+    "Why did Lenin want to rename the Bolshevik Party to the Communist Party?",
+    "Explain the Bolshevik stance on the First World War in 1917.",
+    "What did Lenin propose regarding the ownership of banks?",
+    "How did Lenin suggest land should be handled after the February Revolution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the demand regarding the war.",
+     "explain": "Lenin demanded that the First World War be brought to an immediate close."
+    },
+    {
+     "step": 2,
+     "action": "Identify the demand regarding land.",
+     "explain": "He proposed that land should be transferred to the peasants."
+    },
+    {
+     "step": 3,
+     "action": "Identify the demand regarding finance.",
+     "explain": "He insisted that banks be nationalised."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.4.2",
+   "title": "Industrial Production Growth Calculation",
+   "section": "4.2",
+   "definition": "Calculating the final output of industrial goods like oil, coal, or steel based on a specified growth ratio during the Five Year Plans.",
+   "formula": "final_output = base_output * growth_ratio",
+   "key_idea": "Centralised planning in the USSR led to massive increases in industrial production, often doubling output.",
+   "textbook_ref": "iess302.txt lines 615-630",
+   "question_patterns": [
+    "If production doubled, calculate the final output from a base of {base_output}.",
+    "Find the new production level given a growth ratio of {growth_ratio}.",
+    "What is the final output if the initial production was {base_output} and it increased by 100 percent?",
+    "Determine the industrial output after the first Five Year Plan.",
+    "Calculate the total production of steel if the starting amount was {base_output}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the base production by the growth ratio.",
+     "explain": "Industrial production increased significantly; for a 100% increase, the growth ratio is 2.",
+     "compute": "final_output = base_output * growth_ratio"
+    }
+   ]
+  },
+  {
+   "id": "iess.302.4.3",
+   "title": "Stalin's Collectivisation Programme",
+   "section": "4.3",
+   "definition": "The policy of merging individual peasant farms into large state-controlled collective farms (kolkhoz) to modernize agriculture and solve grain shortages.",
+   "formula": "none",
+   "key_idea": "Eliminating independent farming to establish industrial-scale agricultural production under state control.",
+   "textbook_ref": "iess302.txt lines 660-700",
+   "question_patterns": [
+    "What was the purpose of Stalin's collectivisation programme?",
+    "Define the term kulaks in the context of Soviet agriculture.",
+    "Explain the concept of a kolkhoz.",
+    "How did peasants resist the collectivisation of their farms?",
+    "What were the consequences of the 1930-1933 famine in the USSR?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the target group for elimination.",
+     "explain": "The government aimed to eliminate 'kulaks', who were well-to-do peasants accused of hoarding grain."
+    },
+    {
+     "step": 2,
+     "action": "Describe the organizational change.",
+     "explain": "Peasants were forced to work on collective farms (kolkhoz) where land and tools were shared."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the social impact.",
+     "explain": "Resistance led to the destruction of livestock and severe state repression, including deportation and exile."
+    }
+   ]
+  },
+  {
+   "id": "iess.302.5.0",
+   "title": "Global Influence of the Russian Revolution",
+   "section": "5",
+   "definition": "The worldwide impact of the Bolshevik experiment, leading to the formation of communist parties and inspiring colonial liberation movements.",
+   "formula": "none",
+   "key_idea": "The USSR gave socialism a global presence, though its internal repressive policies later damaged its reputation.",
+   "textbook_ref": "iess302.txt lines 730-770",
+   "question_patterns": [
+    "How did the Russian Revolution influence Indian nationalists?",
+    "What was the Comintern?",
+    "Explain the global stature of the USSR by the Second World War.",
+    "Which Indian leaders visited Russia to study the socialist experiment?",
+    "How did the international reputation of the USSR change by the end of the 20th century?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify international organizations formed.",
+     "explain": "The Comintern was established as an international union of pro-Bolshevik socialist parties."
+    },
+    {
+     "step": 2,
+     "action": "Examine the influence on colonies.",
+     "explain": "Bolsheviks encouraged people in colonies to follow their revolutionary model for independence."
+    },
+    {
+     "step": 3,
+     "action": "Note the perception of Indian intellectuals.",
+     "explain": "Figures like Jawaharlal Nehru and Rabindranath Tagore were inspired by and wrote about Soviet socialism."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess302.txt lines 195-200",
+   "concept": "iess.302.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of agriculturists if the total population was 1000000.",
+   "extracted_variables": {
+    "total_population": 1000000,
+    "agri_percentage": 85
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the total population and the percentage of agriculturists.",
+     "explain": "The percentage of agriculturists in Russia was approximately 85 percent.",
+     "compute": "agri_count = total_population * agri_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess302.txt lines 200-205",
+   "concept": "iess.302.2.2",
+   "question_type": "compute",
+   "question_pattern": "How many people earned a living from agriculture in France given a percentage of 40?",
+   "extracted_variables": {
+    "total_population": 1000000,
+    "agri_percentage": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the total population and the percentage of agriculturists.",
+     "explain": "In France, the proportion was about 40 percent.",
+     "compute": "agri_count = total_population * agri_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess302.txt lines 415-425",
+   "concept": "iess.302.2.4b",
+   "question_type": "compute",
+   "question_pattern": "Convert the Julian date 22 to the Gregorian calendar.",
+   "extracted_variables": {
+    "julian_day": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the 13-day offset to the Julian date.",
+     "explain": "The Gregorian calendar is exactly 13 days ahead of the Julian calendar.",
+     "compute": "gregorian_day = julian_day + 13"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess302.txt lines 415-425",
+   "concept": "iess.302.2.4b",
+   "question_type": "compute",
+   "question_pattern": "Find the modern calendar date for the October Revolution starting from day 25.",
+   "extracted_variables": {
+    "julian_day": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the 13-day offset to the Julian date.",
+     "explain": "The Gregorian calendar is exactly 13 days ahead of the Julian calendar.",
+     "compute": "gregorian_day = julian_day + 13"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iess302.txt lines 615-630",
+   "concept": "iess.302.4.2",
+   "question_type": "compute",
+   "question_pattern": "If production doubled, calculate the final output from a base of 500.",
+   "extracted_variables": {
+    "base_output": 500,
+    "growth_ratio": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the base production by the growth ratio.",
+     "explain": "Industrial production increased significantly; for a 100% increase, the growth ratio is 2.",
+     "compute": "final_output = base_output * growth_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iess302.txt lines 615-630",
+   "concept": "iess.302.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the new production level given a growth ratio of 1.5.",
+   "extracted_variables": {
+    "base_output": 1000,
+    "growth_ratio": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the base production by the growth ratio.",
+     "explain": "Industrial production increased significantly; for a 50% increase, the growth ratio is 1.5.",
+     "compute": "final_output = base_output * growth_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What were the main beliefs of the liberals in Europe?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the group's view on religious tolerance and individual rights.",
+     "explain": "Liberals wanted a nation that tolerated all religions and protected individual rights against the government."
+    },
+    {
+     "step": 2,
+     "action": "Examine the group's stance on democracy and voting.",
+     "explain": "Liberals were not democrats as they opposed universal adult franchise, whereas radicals supported government based on the majority."
+    },
+    {
+     "step": 3,
+     "action": "Determine the group's approach to the speed of change.",
+     "explain": "Conservatives accepted inevitable change but insisted it must be slow and respect the past."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did radicals differ from liberals regarding voting rights?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the group's view on religious tolerance and individual rights.",
+     "explain": "Liberals wanted a nation that tolerated all religions and protected individual rights against the government."
+    },
+    {
+     "step": 2,
+     "action": "Examine the group's stance on democracy and voting.",
+     "explain": "Liberals were not democrats as they opposed universal adult franchise, whereas radicals supported government based on the majority."
+    },
+    {
+     "step": 3,
+     "action": "Determine the group's approach to the speed of change.",
+     "explain": "Conservatives accepted inevitable change but insisted it must be slow and respect the past."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "What was Karl Marx's argument against industrial capitalism?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the relationship between capital and labor.",
+     "explain": "Marx argued that capitalists own the means of production while workers produce the actual profit."
+    },
+    {
+     "step": 2,
+     "action": "Identify the barrier to worker improvement.",
+     "explain": "Conditions for workers cannot improve as long as profit is privately accumulated by capitalists."
+    },
+    {
+     "step": 3,
+     "action": "Define the revolutionary outcome.",
+     "explain": "A radically socialist society where all property is socially controlled is termed a communist society."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "How did Marx define a communist society?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the relationship between capital and labor.",
+     "explain": "Marx argued that capitalists own the means of production while workers produce the actual profit."
+    },
+    {
+     "step": 2,
+     "action": "Identify the barrier to worker improvement.",
+     "explain": "Conditions for workers cannot improve as long as profit is privately accumulated by capitalists."
+    },
+    {
+     "step": 3,
+     "action": "Define the revolutionary outcome.",
+     "explain": "A radically socialist society where all property is socially controlled is termed a communist society."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.2.2b",
+   "question_type": "verify_property",
+   "question_pattern": "What was the role of the mir in the Russian countryside?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the pooling of land.",
+     "explain": "Peasants brought their individual land holdings together into a collective pool."
+    },
+    {
+     "step": 2,
+     "action": "Explain the redistribution process.",
+     "explain": "The commune or mir divided the land among families according to their size and requirements."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.2.2b",
+   "question_type": "verify_property",
+   "question_pattern": "How did Russian peasants divide their land periodically?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the pooling of land.",
+     "explain": "Peasants brought their individual land holdings together into a collective pool."
+    },
+    {
+     "step": 2,
+     "action": "Explain the redistribution process.",
+     "explain": "The commune or mir divided the land among families according to their size and requirements."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "What incident is known as Bloody Sunday?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the catalyst event.",
+     "explain": "Police attacked a peaceful worker procession led by Father Gapon at the Winter Palace."
+    },
+    {
+     "step": 2,
+     "action": "List the immediate consequences.",
+     "explain": "Strikes spread across the country, student walkouts occurred, and middle-class unions demanded a constituent assembly."
+    },
+    {
+     "step": 3,
+     "action": "Identify the political outcome.",
+     "explain": "The Tsar allowed the creation of an elected consultative parliament called the Duma."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "List the demands of the workers led by Father Gapon.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the catalyst event.",
+     "explain": "Police attacked a peaceful worker procession led by Father Gapon at the Winter Palace."
+    },
+    {
+     "step": 2,
+     "action": "List the immediate consequences.",
+     "explain": "Strikes spread across the country, student walkouts occurred, and middle-class unions demanded a constituent assembly."
+    },
+    {
+     "step": 3,
+     "action": "Identify the political outcome.",
+     "explain": "The Tsar allowed the creation of an elected consultative parliament called the Duma."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "What were the three demands of Lenin's April Theses?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the demand regarding the war.",
+     "explain": "Lenin demanded that the First World War be brought to an immediate close."
+    },
+    {
+     "step": 2,
+     "action": "Identify the demand regarding land.",
+     "explain": "He proposed that land should be transferred to the peasants."
+    },
+    {
+     "step": 3,
+     "action": "Identify the demand regarding finance.",
+     "explain": "He insisted that banks be nationalised."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Lenin want to rename the Bolshevik Party to the Communist Party?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the demand regarding the war.",
+     "explain": "Lenin demanded that the First World War be brought to an immediate close."
+    },
+    {
+     "step": 2,
+     "action": "Identify the demand regarding land.",
+     "explain": "He proposed that land should be transferred to the peasants."
+    },
+    {
+     "step": 3,
+     "action": "Identify the demand regarding finance.",
+     "explain": "He insisted that banks be nationalised."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "What was the purpose of Stalin's collectivisation programme?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the target group for elimination.",
+     "explain": "The government aimed to eliminate 'kulaks', who were well-to-do peasants accused of hoarding grain."
+    },
+    {
+     "step": 2,
+     "action": "Describe the organizational change.",
+     "explain": "Peasants were forced to work on collective farms (kolkhoz) where land and tools were shared."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the social impact.",
+     "explain": "Resistance led to the destruction of livestock and severe state repression, including deportation and exile."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "Define the term kulaks in the context of Soviet agriculture.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the target group for elimination.",
+     "explain": "The government aimed to eliminate 'kulaks', who were well-to-do peasants accused of hoarding grain."
+    },
+    {
+     "step": 2,
+     "action": "Describe the organizational change.",
+     "explain": "Peasants were forced to work on collective farms (kolkhoz) where land and tools were shared."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the social impact.",
+     "explain": "Resistance led to the destruction of livestock and severe state repression, including deportation and exile."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.5.0",
+   "question_type": "verify_property",
+   "question_pattern": "How did the Russian Revolution influence Indian nationalists?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify international organizations formed.",
+     "explain": "The Comintern was established as an international union of pro-Bolshevik socialist parties."
+    },
+    {
+     "step": 2,
+     "action": "Examine the influence on colonies.",
+     "explain": "Bolsheviks encouraged people in colonies to follow their revolutionary model for independence."
+    },
+    {
+     "step": 3,
+     "action": "Note the perception of Indian intellectuals.",
+     "explain": "Figures like Jawaharlal Nehru and Rabindranath Tagore were inspired by and wrote about Soviet socialism."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.302.5.0",
+   "question_type": "verify_property",
+   "question_pattern": "What was the Comintern?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify international organizations formed.",
+     "explain": "The Comintern was established as an international union of pro-Bolshevik socialist parties."
+    },
+    {
+     "step": 2,
+     "action": "Examine the influence on colonies.",
+     "explain": "Bolsheviks encouraged people in colonies to follow their revolutionary model for independence."
+    },
+    {
+     "step": 3,
+     "action": "Note the perception of Indian intellectuals.",
+     "explain": "Figures like Jawaharlal Nehru and Rabindranath Tagore were inspired by and wrote about Soviet socialism."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex302.1",
+   "source_ref": "iess302.txt lines 780-800",
+   "questions": [
+    "What were the social, economic and political conditions in Russia before 1905?",
+    "In what ways was the working population in Russia different from other countries in Europe, before 1917?",
+    "Why did the Tsarist autocracy collapse in 1917?",
+    "What were the main changes brought about by the Bolsheviks immediately after the October Revolution?",
+    "Write a few lines on kulaks and the Duma."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

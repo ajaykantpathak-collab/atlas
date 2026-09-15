@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_005",
+   "title": "c11_eco_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define 'social medicine' as a form of health expenditure and give one example of how it contributes to human capital formation without directly treating a sick person.",
+     "a": "Social medicine refers to expenditure on spreading health literacy and awareness (e.g., campaigns on handwashing, breastfeeding, ORS usage). It builds human capital by changing behaviors that prevent disease onset, thereby reducing future curative costs and keeping the workforce productive. A wrong answer (e.g., \"giving free medicines\") reveals the student confuses social medicine (information/behavior change) with curative medicine (direct medical intervention).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Health expenditure is consumption, not investment, because medicines get used up and don't create any lasting asset.\" Explain why this is incorrect using the concept of human capital depreciation and the inseparability of human capital from its owner.",
+     "a": "Health expenditure is investment because it reduces the *depreciation rate* of human capital (ageing, illness) and enhances the *productive capacity* embodied in the person. Unlike physical capital (a machine), human capital is inseparable from its owner — a healthier worker *is* the appreciated asset. The student's error treats health spending like buying a consumable good (food) rather than maintaining the income-generating asset (the worker's body and mind).",
+     "self_check": true
+    },
+    {
+     "q": "A factory employs 200 workers at ₹400/day. Due to a malaria outbreak, 15% of workers are absent for 10 days each. The firm spends ₹2 lakh on a mosquito-control program that eliminates the outbreak. Calculate the net gain/loss to the firm from this health investment, assuming no other changes.",
+     "a": "Step 1: Lost labor days without intervention = 200 workers × 15% × 10 days = 300 worker-days.  \nStep 2: Wage cost of lost days = 300 × ₹400 = ₹1,20,000.  \nStep 3: Cost of mosquito-control program = ₹2,00,000.  \nStep 4: Net loss = ₹2,00,000 - ₹1,20,000 = ₹80,000.  \nThe firm incurs a net loss of ₹80,000 in this specific calculation. However, a student who answers \"profit of ₹1,20,000\" forgot to subtract the program cost; one who says \"loss of ₹2,00,000\" ignored the productivity gain. The economic reasoning requires comparing *incremental cost* with *incremental benefit*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the productivity impact of two health interventions: (A) building a tertiary care hospital in a district, and (B) providing clean drinking water and sanitation to all villages in that district. Which generates a larger increase in *aggregate* human capital for a low-income agrarian economy? Justify using the concepts of externalities and preventive vs. curative care.",
+     "a": "Intervention (B) generates larger aggregate human capital gains. Clean water/sanitation is preventive, has massive positive externalities (reduces communicable diseases for the whole community), and benefits the largest number of low-income workers (agricultural laborers) who cannot afford hospital care. A tertiary hospital (A) is curative, serves fewer people, and its benefits are largely private (the treated patient). The student who picks (A) likely overvalues high-tech curative care and misses the textbook's emphasis on \"preventive medicine, social medicine, and provision of clean drinking water\" as the primary drivers of labor supply expansion in developing economies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since life expectancy in India has risen from 37 years (1951) to 69 years (2018), the health sector has successfully contributed to human capital formation.\" Use at least two qualitative limitations of life expectancy as a proxy for health-related human capital quality.",
+     "a": "The statement is partially true but incomplete. Life expectancy is a *mortality* indicator, not a *morbidity* or *functional capacity* indicator. Two limitations: (1) It does not capture years lived with disability (YLD) — a person may live longer but with chronic illness (e.g., untreated diabetes) that reduces work capacity. (2) It ignores the *age structure* of gains — if gains come from reduced child mortality, the working-age population expands with a lag; if gains come from elderly survival, the dependency ratio may rise. A student who agrees uncritically treats a demographic outcome as a direct measure of labor quality improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost health intervention for a rural household of five (two adults, three children) that maximizes human capital returns per rupee spent. List the intervention, its estimated annual cost, the specific human capital mechanism it activates, and one indicator you would track to verify its impact.",
+     "a": "Intervention: Household-level water filtration (ceramic candle filter) + ORS awareness + deworming tablets for children.  \nAnnual cost: ~₹1,500 (filter ₹800 + deworming ₹200 + ORS packets ₹500).  \nMechanism: Preventive — reduces diarrheal days (morbidity), improves nutrient absorption (cognitive/physical development in children), keeps adults at work.  \nTracking indicator: \"Number of work/school days lost per person per quarter due to water-borne illness.\"  \nA poor answer proposes a curative intervention (e.g., \"stock antibiotics\") or ignores the child development aspect, missing the intergenerational human capital dimension emphasized in the textbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_002",
+   "title": "c12_biotech_cbse_06_002",
+   "questions": [
+    {
+     "q": "Who first proposed the concept of cellular totipotency in plants, and in what year was this idea presented?",
+     "a": "Gottlieb Haberlandt proposed the concept of cellular totipotency in 1902. A wrong answer (e.g., naming Skoog, Murashige, or Steward) reveals the student confuses the theoretical foundation with later technical achievements — they cannot distinguish between the conceptual origin and the experimental validations that followed decades later.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Haberlandt's 1902 proposal of totipotency remained a theoretical concept for over 30 years before experimental validation.",
+     "a": "Haberlandt lacked defined nutrient media, sterile techniques, and knowledge of plant growth regulators — his attempts failed because he used inadequate media (e.g., Knop's salt solution with sucrose) and could not prevent contamination. A wrong answer (e.g., \"he didn't have microscopes\" or \"plants were too complex\") shows the student doesn't understand the specific technical prerequisites for in vitro culture: defined media composition, aseptic technique, and hormonal control.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher in 1940 wants to induce shoot formation from carrot callus. Using only the knowledge available in 1940 (before Skoog & Miller's 1957 work), what would be the outcome and why?",
+     "a": "The researcher would fail to induce organized shoot formation — they could obtain callus growth (Gautheret/Nobecourt 1939) but not directed organogenesis because the auxin/cytokinin balance principle was unknown. A wrong answer (e.g., \"shoots would form easily\" or \"only roots would form\") reveals the student doesn't grasp that organogenesis control via hormone ratios was a 1957 discovery; pre-1957 researchers could only get undifferentiated callus or roots.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scientific contributions of Murashige & Skoog (1962) versus Steward et al. (1958). Which milestone had broader impact on the field and why?",
+     "a": "Steward (1958) demonstrated somatic embryogenesis in carrot, proving totipotency experimentally. Murashige & Skoog (1962) formulated the MS medium — a standardized, reproducible nutrient formulation that became the universal foundation for virtually all subsequent plant tissue culture work. MS medium had broader impact because it solved the reproducibility crisis: before 1962, each lab used different media, making results non-comparable. A wrong answer (e.g., \"Steward was more important because he proved totipotency\") shows the student undervalues methodological standardization as a driver of scientific progress.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The development of protoplast isolation by Cocking (1960) was the single most important milestone for plant genetic engineering.\" Defend or refute with historical reasoning.",
+     "a": "Refute. While Cocking's protoplast isolation (1960) enabled somatic hybridization and later DNA uptake, genetic engineering required multiple prior milestones: MS medium (1962) for culture, hormone-regulated organogenesis (Skoog & Miller 1957) for regeneration, and Agrobacterium biology (known since 1907, exploited 1980s). Protoplasts alone couldn't yield transgenic plants without regeneration systems. A wrong answer (uncritical agreement) reveals the student views milestones in isolation rather than as an interdependent chain where each enables the next.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-milestone \"critical path\" timeline showing the minimum sequence of discoveries required to achieve the first Agrobacterium-mediated transgenic plant (1983). Justify each inclusion.",
+     "a": "1. Haberlandt 1902 (totipotency concept) → 2. Gautheret/Nobecourt 1939 (callus culture) → 3. Skoog & Miller 1957 (hormone-controlled organogenesis) → 4. Murashige & Skoog 1962 (standardized MS medium) → 5. Horsch et al. 1983 (Agrobacterium transformation + regeneration). Each step was necessary: without totipotency concept, no rationale; without callus, no mass propagation; without hormone control, no regeneration; without MS medium, no reproducibility; without all four, transgenic shoots couldn't be recovered. A poor answer lists milestones randomly or omits the regeneration bottleneck (Skoog & Miller/MS medium).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

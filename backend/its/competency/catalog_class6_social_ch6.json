@@ -1,0 +1,589 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Beginnings of Indian Civilisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees106.txt",
+ "concepts": [
+  {
+   "id": "c6ss.6.1",
+   "title": "Indus Valley or Harappan Civilisation Overview",
+   "section": "6.1",
+   "definition": "The Harappan Civilisation flourished in the Indus valley from about 2600 BCE to 1900 BCE, making it one of the earliest urban civilizations of the world.",
+   "formula": "duration = end_year - start_year",
+   "key_idea": "The Harappan Civilisation was a Bronze Age urban culture spread across north-western India and present-day Pakistan, known for its planned cities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the duration of the Harappan civilisation",
+    "describe the time period of the Indus Valley civilisation",
+    "name the major sites of the Harappan civilisation",
+    "why is it called the Harappan civilisation",
+    "explain the significance of the Indus Valley civilisation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the time boundaries",
+     "explain": "Note the mature phase from about 2600 BCE to 1900 BCE."
+    },
+    {
+     "step": 2,
+     "action": "Compute the duration",
+     "explain": "Subtract the end year from the start year to find how long the mature civilisation lasted.",
+     "compute": "duration = start_year - end_year"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "A duration of about 700 years shows the civilisation was long-lived and stable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the duration of the mature Harappan Civilisation from 2600 BCE to 1900 BCE.",
+     "solution": "duration = 2600 - 1900 = 700 years.",
+     "answer": "About 700 years"
+    },
+    {
+     "question": "Name two major sites of the Harappan Civilisation.",
+     "solution": "Harappa and Mohenjo-daro were two major cities of the civilisation.",
+     "answer": "Harappa and Mohenjo-daro"
+    },
+    {
+     "question": "Why is the civilisation called Harappan?",
+     "solution": "It is named after Harappa, the first site of this civilisation to be discovered.",
+     "answer": "After the site of Harappa"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the time period of the Harappan Civilisation and calculate its duration.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name three major sites of the Indus Valley Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the Harappan Civilisation is considered one of the earliest urban civilizations.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.2",
+   "title": "Town Planning and Drainage",
+   "section": "6.2",
+   "definition": "Harappan cities were carefully planned with a grid of streets, rectangular houses of baked bricks, and an advanced covered drainage system.",
+   "formula": "",
+   "key_idea": "The systematic town planning and drainage of Harappan cities show a high level of civic organisation and engineering skill.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the town planning of Harappan cities",
+    "explain the drainage system of the Indus Valley civilisation",
+    "what materials were used to build Harappan houses",
+    "how were the streets of Harappan cities arranged",
+    "why is Harappan town planning considered advanced"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the street layout",
+     "explain": "Streets were laid out in a grid pattern, crossing each other at right angles and dividing the city into blocks."
+    },
+    {
+     "step": 2,
+     "action": "Describe the houses",
+     "explain": "Houses were built of baked bricks, usually with a courtyard, wells, and bathrooms, showing concern for hygiene."
+    },
+    {
+     "step": 3,
+     "action": "Verify the drainage system",
+     "explain": "Confirm that covered drains ran along the streets, connected to house drains, with soak pits and manholes for maintenance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How were the streets of Harappan cities arranged?",
+     "solution": "Streets were laid in a grid pattern, intersecting at right angles.",
+     "answer": "In a grid pattern at right angles"
+    },
+    {
+     "question": "What material was mainly used for Harappan houses?",
+     "solution": "Baked bricks were the main building material for houses.",
+     "answer": "Baked bricks"
+    },
+    {
+     "question": "Describe one feature of the Harappan drainage system.",
+     "solution": "Drains were covered and connected to house drains, with manholes for cleaning.",
+     "answer": "Covered drains with manholes"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the town planning of Harappan cities.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the drainage system of the Indus Valley Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss how Harappan town planning reflects civic organisation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.3",
+   "title": "The Great Bath and Granaries",
+   "section": "6.3",
+   "definition": "The Great Bath of Mohenjo-daro was a large waterproof tank probably used for ritual bathing, while granaries were large storehouses for surplus grain.",
+   "formula": "",
+   "key_idea": "Public structures like the Great Bath and granaries reveal the importance of religion, hygiene, and food storage in Harappan society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the Great Bath of Mohenjo-daro",
+    "what was the purpose of the Great Bath",
+    "explain the function of Harappan granaries",
+    "where was the Great Bath located",
+    "what do public buildings tell us about Harappan society"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Great Bath",
+     "explain": "The Great Bath was a large rectangular tank lined with bricks and sealed with bitumen, with steps leading into it."
+    },
+    {
+     "step": 2,
+     "action": "Describe the granaries",
+     "explain": "Granaries were large brick structures used to store surplus grain, indicating organised agriculture and food management."
+    },
+    {
+     "step": 3,
+     "action": "Verify their social role",
+     "explain": "Confirm that these public structures point to communal activities, ritual bathing, and centralised storage of resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where is the Great Bath located?",
+     "solution": "The Great Bath is located in the citadel area of Mohenjo-daro.",
+     "answer": "Mohenjo-daro"
+    },
+    {
+     "question": "What was the likely purpose of the Great Bath?",
+     "solution": "It was probably used for ritual bathing and religious ceremonies.",
+     "answer": "Ritual bathing"
+    },
+    {
+     "question": "What did the granaries store?",
+     "solution": "Granaries stored surplus grain produced by Harappan agriculture.",
+     "answer": "Surplus grain"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the Great Bath and its likely purpose.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the function of granaries in Harappan cities.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss what public buildings reveal about Harappan society.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.4",
+   "title": "Agriculture and Trade",
+   "section": "6.4",
+   "definition": "The Harappans practised agriculture along the fertile Indus floodplains and carried out extensive trade with regions within and beyond the subcontinent.",
+   "formula": "",
+   "key_idea": "Surplus agricultural production supported urban life and enabled the Harappans to trade goods such as beads, cotton, and metals over long distances.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the agriculture of the Harappan civilisation",
+    "what goods did the Harappans trade",
+    "explain the trade links of the Harappans with other regions",
+    "how did agriculture support Harappan cities",
+    "what evidence shows that the Harappans engaged in trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe agriculture",
+     "explain": "Harappans grew wheat, barley, peas, sesame, and cotton on the fertile Indus plains, using floodwaters and simple irrigation."
+    },
+    {
+     "step": 2,
+     "action": "Describe trade",
+     "explain": "They traded beads, cotton, pottery, and metals with regions in India and with Mesopotamia, using land and sea routes."
+    },
+    {
+     "step": 3,
+     "action": "Verify the link between the two",
+     "explain": "Confirm that agricultural surplus made urban life and long-distance trade possible, supporting the prosperity of Harappan cities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two crops grown by the Harappans.",
+     "solution": "Wheat and barley were major crops grown by the Harappans.",
+     "answer": "Wheat and barley"
+    },
+    {
+     "question": "With which civilisation did the Harappans trade?",
+     "solution": "The Harappans traded with Mesopotamia, as shown by Harappan seals found there.",
+     "answer": "Mesopotamia"
+    },
+    {
+     "question": "What evidence shows Harappan trade?",
+     "solution": "Harappan seals, beads, and pottery found in Mesopotamia and other regions show trade links.",
+     "answer": "Seals and goods found abroad"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the agriculture of the Harappan Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the trade activities of the Harappans.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss how agriculture and trade supported Harappan urban life.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.5",
+   "title": "Arts and Crafts",
+   "section": "6.5",
+   "definition": "The Harappans were skilled artisans who produced beads, pottery, jewellery, metal tools, and figurines, showing advanced craft techniques.",
+   "formula": "",
+   "key_idea": "Specialised crafts such as bead-making, pottery, and metalworking reflect a prosperous and technologically skilled Harappan society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the arts and crafts of the Harappan civilisation",
+    "what types of pottery were made by the Harappans",
+    "explain the bead-making industry of the Harappans",
+    "what metals were used by Harappan craftsmen",
+    "how do crafts reflect Harappan prosperity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the crafts",
+     "explain": "List crafts such as bead-making, pottery, jewellery, metal casting, and terracotta figurines."
+    },
+    {
+     "step": 2,
+     "action": "Describe the techniques",
+     "explain": "Harappans used wheel-turned pottery, drilled carnelian beads, and worked with copper, bronze, gold, and silver."
+    },
+    {
+     "step": 3,
+     "action": "Verify their significance",
+     "explain": "Confirm that specialised crafts indicate a prosperous society with trade, surplus wealth, and skilled labour."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two crafts practised by the Harappans.",
+     "solution": "Bead-making and pottery were important Harappan crafts.",
+     "answer": "Bead-making and pottery"
+    },
+    {
+     "question": "Which metals did the Harappans use?",
+     "solution": "The Harappans used copper, bronze, gold, and silver.",
+     "answer": "Copper, bronze, gold, silver"
+    },
+    {
+     "question": "What was special about Harappan pottery?",
+     "solution": "Harappan pottery was wheel-turned, well-baked, and often painted with geometric and animal designs.",
+     "answer": "Wheel-turned painted pottery"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the arts and crafts of the Harappan Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the bead-making industry of the Harappans.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss how crafts reflect the prosperity of Harappan society.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.6",
+   "title": "Seals and Writing",
+   "section": "6.6",
+   "definition": "Harappan seals, usually made of steatite, carry engravings of animals and a script that has not yet been fully deciphered.",
+   "formula": "",
+   "key_idea": "The seals were likely used for trade and identification, and the undeciphered script points to a literate Harappan society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the seals of the Harappan civilisation",
+    "what material were Harappan seals usually made of",
+    "explain the significance of the Harappan script",
+    "why has the Harappan script not been deciphered",
+    "what animals are depicted on Harappan seals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the seals",
+     "explain": "Seals were small, square or rectangular pieces, usually of steatite, engraved with animals and pictographic signs."
+    },
+    {
+     "step": 2,
+     "action": "Describe the script",
+     "explain": "The Harappan script has about 400 signs and is pictographic, but it has not been deciphered because no bilingual text has been found."
+    },
+    {
+     "step": 3,
+     "action": "Verify their use",
+     "explain": "Confirm that seals were probably used to mark goods for trade and as amulets, showing organised commerce and literacy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What material were Harappan seals usually made of?",
+     "solution": "Harappan seals were usually made of steatite, a soft stone.",
+     "answer": "Steatite"
+    },
+    {
+     "question": "Why has the Harappan script not been deciphered?",
+     "solution": "The script has not been deciphered because no bilingual inscription, like the Rosetta Stone, has been found.",
+     "answer": "No bilingual text found"
+    },
+    {
+     "question": "Which animal is commonly shown on Harappan seals?",
+     "solution": "The unicorn or one-horned animal is commonly depicted on Harappan seals.",
+     "answer": "The one-horned animal"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the seals of the Harappan Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the Harappan script remains undeciphered.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the significance of seals and writing in Harappan trade.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.7",
+   "title": "Decline of the Harappan Civilisation",
+   "section": "6.7",
+   "definition": "The Harappan Civilisation declined around 1900 BCE, possibly due to a combination of climate change, drying of rivers, floods, and a decline in trade.",
+   "formula": "",
+   "key_idea": "The decline of the Harappan cities was gradual and may have resulted from environmental changes and economic factors rather than a single invasion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the possible causes of the decline of the Harappan civilisation",
+    "when did the Harappan civilisation decline",
+    "what role did rivers play in the decline of Harappan cities",
+    "how did climate change affect the Harappan civilisation",
+    "was invasion the main cause of the decline of Harappan cities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify environmental causes",
+     "explain": "Consider factors such as the drying of the Ghaggar-Hakra river, floods, deforestation, and changing rainfall patterns."
+    },
+    {
+     "step": 2,
+     "action": "Identify economic causes",
+     "explain": "A decline in trade with Mesopotamia and loss of agricultural surplus weakened the urban economy."
+    },
+    {
+     "step": 3,
+     "action": "Verify the gradual nature of decline",
+     "explain": "Confirm that the decline was gradual, with cities being abandoned over time, rather than caused by a single sudden invasion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Around when did the Harappan Civilisation decline?",
+     "solution": "The civilisation declined around 1900 BCE.",
+     "answer": "Around 1900 BCE"
+    },
+    {
+     "question": "Name one environmental cause of the decline.",
+     "solution": "The drying of rivers such as the Ghaggar-Hakra contributed to the decline.",
+     "answer": "Drying of rivers"
+    },
+    {
+     "question": "Was invasion the main cause of the decline?",
+     "solution": "Most scholars now believe environmental and economic factors, not invasion, caused the gradual decline.",
+     "answer": "No; environmental and economic factors"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the possible causes of the decline of the Harappan Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State when and how the Harappan cities declined.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss whether environmental or human factors caused the decline of the Harappan Civilisation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.8",
+   "title": "Legacy of the Harappan Civilisation",
+   "section": "6.8",
+   "definition": "The Harappan Civilisation left a lasting legacy in town planning, crafts, agricultural practices, and cultural traditions that influenced later Indian civilization.",
+   "formula": "",
+   "key_idea": "Many elements of Harappan culture, such as planned settlements, craft traditions, and symbols, continued in later periods of Indian history.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the legacy of the Harappan civilisation",
+    "how did Harappan town planning influence later settlements",
+    "which Harappan traditions continued in later Indian culture",
+    "what can modern society learn from the Harappan civilisation",
+    "explain the importance of remembering the Harappan legacy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify continuing traditions",
+     "explain": "Note elements like planned towns, drainage, bead-making, pottery styles, and agricultural practices that persisted in later periods."
+    },
+    {
+     "step": 2,
+     "action": "Link to later Indian culture",
+     "explain": "Some symbols and practices, such as the worship of trees and mother goddesses, may have continued into later Indian traditions."
+    },
+    {
+     "step": 3,
+     "action": "Verify the civilizational link",
+     "explain": "Confirm that the Harappan legacy forms an important foundation of the long continuity of Indian civilization."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name one Harappan tradition that continued in later India.",
+     "solution": "The worship of trees and plants appears to have continued in later Indian culture.",
+     "answer": "Tree worship"
+    },
+    {
+     "question": "How did Harappan town planning influence later settlements?",
+     "solution": "Ideas of planned streets and drainage can be seen in later Indian towns.",
+     "answer": "Planned streets and drainage"
+    },
+    {
+     "question": "What can we learn from the Harappan Civilisation?",
+     "solution": "We can learn the value of urban planning, hygiene, and sustainable use of resources.",
+     "answer": "Urban planning and sustainability"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the legacy of the Harappan Civilisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of Harappan traditions that continued in later India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the importance of the Harappan legacy for modern Indian civilization.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.6.1",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {start_year} = 6, {end_year} = 9, compute the indus valley or harappan civilisation overview step by step.",
+   "extracted_variables": {
+    "start_year": "6",
+    "end_year": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the time boundaries",
+     "explain": "Note the mature phase from about 2600 BCE to 1900 BCE."
+    },
+    {
+     "step": 2,
+     "action": "Compute the duration",
+     "explain": "Subtract the end year from the start year to find how long the mature civilisation lasted.",
+     "compute": "duration = start_year - end_year"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "A duration of about 700 years shows the civilisation was long-lived and stable."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.6.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain town planning and drainage with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the street layout",
+     "explain": "Streets were laid out in a grid pattern, crossing each other at right angles and dividing the city into blocks."
+    },
+    {
+     "step": 2,
+     "action": "Describe the houses",
+     "explain": "Houses were built of baked bricks, usually with a courtyard, wells, and bathrooms, showing concern for hygiene."
+    },
+    {
+     "step": 3,
+     "action": "Verify the drainage system",
+     "explain": "Confirm that covered drains ran along the streets, connected to house drains, with soak pits and manholes for maintenance."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

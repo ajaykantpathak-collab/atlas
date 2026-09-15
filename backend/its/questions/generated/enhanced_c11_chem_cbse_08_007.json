@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_007",
+   "title": "c11_chem_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define disproportionation reaction and give one example with oxidation state changes shown for the element undergoing disproportionation.",
+     "a": "Disproportionation: a redox reaction where the same element in one oxidation state is simultaneously oxidized and reduced. Example: 2H₂O₂ → 2H₂O + O₂. In H₂O₂, O is -1; in H₂O it becomes -2 (reduction), in O₂ it becomes 0 (oxidation). A wrong answer (e.g., giving a reaction like Cu + 2Ag⁺ → Cu²⁺ + 2Ag) reveals confusion between disproportionation and simple redox between different elements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chlorine disproportionates in cold dilute alkali but not in hot concentrated alkali. Use oxidation states to justify.",
+     "a": "In cold dilute alkali: Cl₂ + 2OH⁻ → Cl⁻ (+ ClO⁻) where Cl goes from 0 to -1 and +1. In hot concentrated alkali: 3Cl₂ + 6OH⁻ → 5Cl⁻ + ClO₃⁻ + 3H₂O where Cl goes from 0 to -1 and +5. The difference is kinetic/thermodynamic control: hypochlorite (ClO⁻) is stable in cold but disproportionates further to chlorate (ClO₃⁻) on heating. A wrong answer (e.g., \"both give same products\") shows lack of understanding of temperature-dependent product distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the disproportionation of MnO₄²⁻ (manganate) in acidic medium to MnO₄⁻ and MnO₂ using half-reaction method. Show all steps.",
+     "a": "Oxidation: MnO₄²⁻ → MnO₄⁻ + e⁻ (Mn +6 to +7). Reduction: MnO₄²⁻ + 4H⁺ + 2e⁻ → MnO₂ + 2H₂O (Mn +6 to +4). Multiply oxidation by 2: 2MnO₄²⁻ → 2MnO₄⁻ + 2e⁻. Add: 3MnO₄²⁻ + 4H⁺ → 2MnO₄⁻ + MnO₂ + 2H₂O. Check atoms/charge: balanced. Wrong balancing (e.g., missing H⁺ or H₂O) indicates poor half-reaction technique.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Latimer diagram for oxygen in acidic medium: O₂ (+1.23V) → H₂O₂ (+0.682V) → H₂O. Determine if H₂O₂ disproportionates spontaneously. Calculate E°cell.",
+     "a": "For disproportionation: reduction half: H₂O₂ + 2H⁺ + 2e⁻ → 2H₂O, E°red = +1.763V (calculated from diagram). Oxidation half: H₂O₂ → O₂ + 2H⁺ + 2e⁻, E°ox = -0.682V. E°cell = E°red + E°ox = 1.763 - 0.682 = +1.081V > 0, so spontaneous. A wrong sign or using wrong potentials shows misunderstanding of Latimer diagram interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the comproportionation reaction: 2Fe³⁺ + Fe → 3Fe²⁺ and claims it is spontaneous because Fe³⁺/Fe²⁺ has E° = +0.77V. Evaluate this claim with calculations.",
+     "a": "The reaction is comproportionation. Half-reactions: Fe³⁺ + e⁻ → Fe²⁺ (E° = +0.77V) and Fe → Fe²⁺ + 2e⁻ (E°ox = +0.44V, since Fe²⁺/Fe = -0.44V). For the given stoichiometry, we need 2Fe³⁺ + 2e⁻ → 2Fe²⁺ and Fe → Fe²⁺ + 2e⁻. E°cell = 0.77 + 0.44 = +1.21V > 0, so spontaneous. The student's claim is correct but reasoning incomplete: they must consider both half-cells, not just one potential. A wrong answer ignoring the Fe/Fe²⁺ couple reveals a common error of using only one electrode potential.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using potassium permanganate (KMnO₄) and manganese(II) sulfate (MnSO₄) to demonstrate comproportionation in acidic medium. Predict the product and color change.",
+     "a": "Mix acidified KMnO₄ (purple, Mn +7) with MnSO₄ (pale pink, Mn +2) in a test tube. They comproportionate to MnO₂ (brown precipitate, Mn +4) or Mn(III) species depending on conditions. Expected: 2MnO₄⁻ + 3Mn²⁺ + 2H₂O → 5MnO₂↓ + 4H⁺. Color changes from purple + pale pink → brown suspension. A poor answer (e.g., no reaction predicted) shows lack of knowledge of manganese redox chemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

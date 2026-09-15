@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_005",
+   "title": "c11_bio_cbse_19_005",
+   "questions": [
+    {
+     "q": "Name the specific cell type in the testis that synthesizes androgens and the primary androgen produced.",
+     "a": "Leydig cells (interstitial cells) produce testosterone. A wrong answer (e.g., \"Sertoli cells produce testosterone\") reveals confusion between the endocrine and supportive cell types in the testis, indicating the student has not distinguished the hormonal vs. nutritive roles of testicular cells.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why FSH is essential for spermatogenesis even though testosterone is the main androgen driving the process.",
+     "a": "FSH binds to receptors on Sertoli cells, stimulating them to produce androgen-binding protein (ABP) and inhibin. ABP concentrates testosterone in the seminiferous tubules, creating the high local concentration required for spermatogenesis. A wrong answer (e.g., \"FSH directly stimulates Leydig cells\") shows the student does not understand the cell-type specificity of gonadotropin action and the paracrine cooperation between Leydig and Sertoli cells.",
+     "self_check": true
+    },
+    {
+     "q": "A 25-year-old woman has a mature Graafian follicle. Predict which hormone(s) will rise sharply just before ovulation and describe the immediate effect on the follicle.",
+     "a": "LH surge triggers ovulation. Rising estrogen from the mature follicle exerts positive feedback on the anterior pituitary, causing a massive LH release. LH induces enzymatic breakdown of the follicular wall and resumption of meiosis in the oocyte. A wrong answer (e.g., \"FSH surge causes ovulation\") indicates the student cannot differentiate the distinct roles of the two gonadotropins in the ovarian cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hormonal origin and primary function of progesterone in the menstrual cycle versus early pregnancy.",
+     "a": "In the menstrual cycle, progesterone is secreted by the corpus luteum (formed from the ruptured follicle) and prepares the endometrium for implantation. In early pregnancy, the corpus luteum is rescued by hCG and continues progesterone secretion to maintain the endometrium and suppress uterine contractions until the placenta takes over. A wrong answer (e.g., \"Progesterone comes from the adrenal cortex in pregnancy\") shows the student has not linked corpus luteum function to pregnancy maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Estrogen is a female hormone and testosterone is a male hormone.\" Provide two pieces of evidence from human physiology that contradict this oversimplification.",
+     "a": "The statement is false. Evidence: (1) Leydig cells in males produce testosterone, but Sertoli cells aromatize some testosterone to estradiol, which is essential for spermatogenesis and bone health in men. (2) Theca cells in females produce androgens (androstenedione) that granulosa cells convert to estrogens; adrenal cortex also secretes androgens in both sexes. A wrong answer (e.g., agreeing with the statement) reveals a binary misconception that ignores the shared steroidogenic pathways and local conversion in both gonads.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple blood-test protocol to distinguish between primary ovarian failure and secondary (pituitary/hypothalamic) ovarian failure in a woman with amenorrhea.",
+     "a": "Measure serum FSH, LH, and estradiol. Primary ovarian failure: low estradiol with elevated FSH/LH (loss of negative feedback). Secondary failure: low estradiol with low/normal FSH/LH (deficient gonadotropin drive). A poor answer (e.g., \"measure only estrogen\") shows the student cannot apply feedback-loop logic to diagnose the level of endocrine disruption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_011",
+   "title": "c11_chem_cbse_09_011",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the laboratory preparation of hydrogen peroxide using barium peroxide and dilute sulfuric acid. Include state symbols.",
+     "a": "BaO₂(s) + H₂SO₄(aq) → BaSO₄(s)↓ + H₂O₂(aq). A wrong answer (e.g., using Na₂O₂ without noting the soluble Na₂SO₄ byproduct, or omitting the precipitate) reveals confusion about solubility rules and the purpose of using BaO₂ (to remove Ba²⁺ as insoluble BaSO₄, leaving pure H₂O₂ solution).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why hydrogen peroxide acts as an oxidizing agent in acidic medium but can act as a reducing agent in the presence of strong oxidizers like KMnO₄. Use oxidation states in your explanation.",
+     "a": "In H₂O₂, oxygen is –1. As an oxidizing agent, it gains electrons to become –2 in H₂O (reduction half: H₂O₂ + 2H⁺ + 2e⁻ → 2H₂O). As a reducing agent, it loses electrons to become 0 in O₂ (oxidation half: H₂O₂ → O₂ + 2H⁺ + 2e⁻). A wrong answer (e.g., saying it only oxidizes) shows failure to recognize the intermediate oxidation state (–1) that allows both processes.",
+     "self_check": true
+    },
+    {
+     "q": "A 10.0 mL sample of '10 volume' H₂O₂ solution is acidified and titrated with 0.1 M KMnO₄. If 20.0 mL of KMnO₄ is required, calculate the volume strength of the H₂O₂ sample. (Molar mass H₂O₂ = 34 g/mol; 1 volume H₂O₂ = 1 mL O₂ per mL solution at STP).",
+     "a": "Step 1: Reaction: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O. Step 2: Moles KMnO₄ = 0.1 × 0.020 = 0.002 mol. Step 3: Moles H₂O₂ = (5/2) × 0.002 = 0.005 mol in 10 mL. Step 4: Molarity H₂O₂ = 0.005/0.010 = 0.5 M. Step 5: Volume strength = 11.2 × Molarity = 11.2 × 0.5 = 5.6 volume. A wrong volume strength (e.g., 11.2) indicates using 1:1 mole ratio instead of 2:5.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structures of H₂O₂ (open book, dihedral angle ~111°) and H₂O (bent, 104.5°). Explain why H₂O₂ has a larger dihedral angle and how this relates to the repulsion between lone pairs on adjacent oxygen atoms.",
+     "a": "In H₂O₂, each O has two lone pairs; the O–O bond allows rotation. The skew (gauche) conformation minimizes lone pair–lone pair repulsion between the two oxygen atoms, giving a dihedral angle of 111° (gas phase). In H₂O, only one oxygen with two lone pairs repels bonding pairs, giving 104.5°. A wrong answer (e.g., planar structure) ignores lone pair repulsion across the O–O bond.",
+     "self_check": true
+    },
+    {
+     "q": "A student stores H₂O₂ in a clear glass bottle on a sunny windowsill. After a week, the solution no longer bleaches litmus. Evaluate the storage errors and explain the chemical change.",
+     "a": "Errors: (1) Clear bottle allows UV light to catalyze decomposition; (2) Heat accelerates decomposition. Chemical change: 2H₂O₂ → 2H₂O + O₂ (disproportionation). The H₂O₂ concentration drops, losing oxidizing/bleaching ability. A wrong answer (e.g., \"it evaporated\") misses the catalytic role of light/heat and the redox nature of decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that H₂O₂ acts as a reducing agent with acidified KMnO₄ but as an oxidizing agent with KI. List observations and write both ionic equations.",
+     "a": "Experiment: (1) Add few drops of H₂O₂ to acidified KMnO₄ (purple) → colorless (Mn²⁺). (2) Add H₂O₂ to acidified KI + starch → blue-black (I₂). Equations: (1) 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O (H₂O₂ reducing). (2) H₂O₂ + 2I⁻ + 2H⁺ → I₂ + 2H₂O (H₂O₂ oxidizing). A poor answer omits starch indicator or writes molecular equations instead of ionic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_005",
+   "title": "c11_ps_cbse_17_005",
+   "questions": [
+    {
+     "q": "What is the constitutional article that defines the Gram Sabha, and who constitutes its membership according to this article?",
+     "a": "Article 243(b) defines Gram Sabha as a body consisting of persons registered in the electoral rolls relating to a village comprised within the area of Panchayat at the village level. A wrong answer (e.g., citing Article 243A or stating only elected members belong) reveals confusion between the Gram Sabha (general body of voters) and Gram Panchayat (elected council), or between the defining article and the functional article.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers choose to make Gram Sabha a permanent, indissoluble body while the Gram Panchayat has a fixed five-year term and can be dissolved earlier?",
+     "a": "The Gram Sabha represents the sovereign will of the people at the grassroots — it is the constituency itself, not a representative body. Making it permanent ensures continuous democratic vigilance; if it could be dissolved, the accountability mechanism would disappear with it. A wrong answer focusing on administrative convenience or election cycles misses the constitutional theory: the people's assembly cannot be \"dissolved\" by the very representatives it is meant to oversee.",
+     "self_check": true
+    },
+    {
+     "q": "In a village with 1,200 registered voters, the Gram Sabha meeting for MGNREGA social audit is attended by 85 people. The Sarpanch claims the meeting is valid and passes the audit report. Is this procedurally correct? Explain using the quorum requirement.",
+     "a": "No, it is not correct. Most state Panchayat Acts (under Article 243A) mandate a quorum of at least 1/10th or 1/5th of total members (120–240 voters for 1,200). With only 85 attendees, the meeting lacks quorum and any resolution is invalid. A wrong answer accepting the Sarpanch's claim reveals ignorance of procedural safeguards designed to prevent capture by dominant groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional relationship between Gram Sabha and Gram Panchayat with that between Lok Sabha and Council of Ministers at the Union level. Identify two similarities and one critical difference.",
+     "a": "Similarities: (1) Both Gram Sabha/Lok Sabha are the popular sovereign bodies; (2) Both Gram Panchayat/Council of Ministers are executive bodies accountable to them. Critical difference: The Council of Ministers is collectively responsible to Lok Sabha and must resign if it loses confidence; the Gram Panchayat (elected for fixed term) cannot be \"voted out\" by Gram Sabha between elections — Gram Sabha's power is oversight (social audit, plan approval), not dismissal. A wrong answer equating the two relationships misses the fixed-term nature of Panchayats versus the confidence-based parliamentary executive.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Gram Sabha meetings are ritualistic formalities because dominant castes and the Sarpanch control the agenda, and poor attendance makes quorum easy to manipulate. The 73rd Amendment failed to empower ordinary villagers.\"",
+     "a": "The argument identifies real implementation gaps (elite capture, procedural manipulation) but incorrectly concludes constitutional failure. The 73rd Amendment created the *institutional possibility* of accountability; its non-realization reflects political society's shortcomings, not design flaw. Evidence: States with strong civil society (Kerala, Karnataka) show functional Gram Sabhas. Evaluation must distinguish constitutional mandate from socio-political implementation — a key senior secondary analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a constitutional amendment to strengthen Gram Sabha's enforceability, addressing the problem of non-implementation of its resolutions by the Gram Panchayat. Your proposal must respect federalism (Panchayats are state subjects).",
+     "a": "A strong proposal would: (1) Add a clause to Article 243A mandating that Gram Panchayat must place action-taken report on Gram Sabha resolutions within 30 days; (2) Empower State Election Commission to penalize non-compliance; (3) Require District Collector to intervene if Panchayat ignores two consecutive Gram Sabha directives. Poor answers suggest centralizing power (e.g., \"make Gram Sabha directives binding on state government\") violating federalism, or ignore the state-level legislative route (Article 243G empowers states to legislate Panchayat powers).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

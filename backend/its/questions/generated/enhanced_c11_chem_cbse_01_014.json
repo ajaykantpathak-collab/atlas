@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_014",
+   "title": "c11_chem_cbse_01_014",
+   "questions": [
+    {
+     "q": "Define molality and state its SI unit. How does it differ from molarity in terms of what is measured in the denominator?",
+     "a": "Molality (m) = moles of solute per kilogram of solvent; SI unit: mol kg⁻¹. Molarity uses volume of solution (L) in denominator; molality uses mass of solvent (kg). A wrong answer (e.g., \"molality uses volume of solvent\" or \"molality unit is mol/L\") reveals confusion between solution vs solvent and volume vs mass — a critical distinction because volume changes with temperature but mass does not.",
+     "self_check": true
+    },
+    {
+     "q": "A solution contains 2 mol of ethanol (C₂H₅OH) and 3 mol of water. Calculate the mole fraction of ethanol. If a student answers 0.6, what conceptual error have they made?",
+     "a": "χ_ethanol = 2 / (2+3) = 0.4. Answer 0.6 means the student computed moles of ethanol / moles of water (2/3) instead of moles of ethanol / total moles. This reveals the misconception that mole fraction is a ratio of solute to solvent rather than solute to total mixture — a fundamental error that propagates to all mole fraction calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molality of a solution prepared by dissolving 5.85 g of NaCl (molar mass 58.5 g/mol) in 250 g of water.",
+     "a": "Step 1: Moles of NaCl = 5.85 g / 58.5 g/mol = 0.1 mol. Step 2: Mass of solvent (water) = 250 g = 0.250 kg. Step 3: Molality = 0.1 mol / 0.250 kg = 0.4 mol kg⁻¹ (0.4 m). A wrong answer like 0.04 m or 4 m typically comes from forgetting to convert grams to kilograms (using 250 instead of 0.250) or misplacing the decimal — showing weak unit conversion skills.",
+     "self_check": true
+    },
+    {
+     "q": "An aqueous solution of glucose (C₆H₁₂O₆, molar mass 180 g/mol) has a molarity of 1.0 M and density 1.08 g/mL at 298 K. Calculate its molality. Compare the numerical values of molarity and molality — which is larger and why?",
+     "a": "For 1 L solution: mass of solution = 1080 g. Moles of glucose = 1.0 mol. Mass of glucose = 180 g. Mass of water = 1080 - 180 = 900 g = 0.900 kg. Molality = 1.0 / 0.900 = 1.11 m. Molality (1.11) > Molarity (1.00) because the solution density > 1 g/mL means 1 L solution has mass > 1 kg, but the solvent mass is less than 1 kg (since solute adds mass). A student who gets molality < molarity likely used solution mass instead of solvent mass in denominator.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a dilute aqueous solution, molarity and molality are numerically almost equal.\" Evaluate this statement. Under what condition would they be exactly equal?",
+     "a": "The statement is approximately true for dilute aqueous solutions because density ≈ 1 g/mL, so 1 L solution ≈ 1 kg, and solute mass is negligible → solvent mass ≈ 1 kg. They would be exactly equal only if density = 1.00 g/mL AND solute mass is negligible (infinite dilution). A student who says \"always equal for water\" ignores the density requirement; one who says \"never equal\" misses the practical approximation used in introductory problems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to determine the mole fraction of water in a commercial vinegar sample (approximately 5% acetic acid by mass) using only a balance, volumetric flask, and density measurement. What additional data would you need?",
+     "a": "Measure density of vinegar. Take 100 g sample (≈ 5 g CH₃COOH, 95 g H₂O). Moles CH₃COOH = 5/60 = 0.0833 mol. Moles H₂O = 95/18 = 5.278 mol. χ_H₂O = 5.278/(5.278+0.0833) = 0.984. Additional data needed: molar masses of acetic acid (60 g/mol) and water (18 g/mol). A poor answer omits the mass-to-mole conversion or tries to use volume directly without density, showing inability to connect measurable quantities to mole amounts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

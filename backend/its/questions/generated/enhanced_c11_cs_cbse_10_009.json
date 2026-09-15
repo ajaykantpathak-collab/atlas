@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_009",
+   "title": "c11_cs_cbse_10_009",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a queue that distinguishes it from a stack?",
+     "a": "A queue follows the First-In-First-Out (FIFO) principle: the first element inserted is the first to be removed. A stack follows Last-In-First-Out (LIFO). If a student says \"queue removes the last inserted element\", they are confusing queue with stack. This reveals a fundamental misunderstanding of the access policy.",
+     "self_check": true
+    },
+    {
+     "q": "In a queue, if elements A, B, C are inserted in that order, which element will be removed first? Explain why using the terms 'front' and 'rear'.",
+     "a": "Element A will be removed first because it was inserted first and resides at the front. Insertions happen at the rear, so C is at the rear. If a student says C is removed first, they are applying LIFO logic. This shows they have not internalized that front is the deletion end and rear is the insertion end.",
+     "self_check": true
+    },
+    {
+     "q": "A printer receives print jobs from three users in order: User1, User2, User3. The printer processes them using a queue. User2's job is urgent. Can the printer process User2's job before User1's? Why or why not?",
+     "a": "No, because a queue strictly follows FIFO; User1's job is at the front and must be processed first. The queue does not allow priority-based removal unless a priority queue (a different structure) is used. If a student says \"yes, if we move it to the front\", they misunderstand that queue operations only allow enqueue at rear and dequeue at front — no arbitrary access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the insertion and deletion ends of a stack and a queue. How does this difference affect the order of element retrieval?",
+     "a": "In a stack, both insertion (push) and deletion (pop) happen at the same end (top), causing LIFO. In a queue, insertion is at rear and deletion at front, causing FIFO. If a student says \"queue also inserts and deletes at the same end\", they are conflating the two structures. This indicates they haven't grasped the structural distinction of having two distinct ends.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer implements a queue using a Python list and uses `append()` for insertion and `pop(0)` for deletion. Evaluate whether this correctly models FIFO behavior. What is a potential performance concern?",
+     "a": "Yes, `append()` adds to the end (rear) and `pop(0)` removes from the beginning (front), correctly modeling FIFO. However, `pop(0)` is O(n) because all elements must shift left, making it inefficient for large queues. If a student says \"it's perfectly efficient\", they lack awareness of time complexity implications. This reveals a gap in connecting abstract data structure properties to implementation consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life scenario (not a ticket counter or printer) where a queue is the natural data structure. Describe the entities, the arrival process, and the service process. Justify why a stack would be inappropriate.",
+     "a": "Example: A car wash service. Cars arrive in order and are washed in the same order. Arrival = enqueue at rear; washing = dequeue from front. A stack would wash the last arrived car first, causing unfairness and complaints. A good answer identifies a sequential service scenario. If a student gives a scenario like \"undo button in editor\", they are describing a stack (LIFO), showing they cannot differentiate contexts requiring FIFO vs LIFO.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

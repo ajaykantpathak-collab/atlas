@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu111.json",
+ "concepts": [
+  {
+   "id": "fecu.11.1",
+   "title": "Nature's Treasures: Air and Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why are air and water called nature's treasures?",
+     "a": "No life can survive without them - they are free gifts of nature we must keep clean.",
+     "self_check": true
+    },
+    {
+     "q": "How does air help living things?",
+     "a": "It gives oxygen to breathe, CO2 to plants, and carries sounds and weather.",
+     "self_check": true
+    },
+    {
+     "q": "Name two ways water is used besides drinking.",
+     "a": "Cooking, washing, farming (irrigation) and generating electricity.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.2",
+   "title": "Forests: The Green Treasury",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why are forests called the green treasury?",
+     "a": "They give timber, fruits, medicines and hold soil and water for all.",
+     "self_check": true
+    },
+    {
+     "q": "Name three things humans take from forests.",
+     "a": "Wood, honey and medicinal plants (also gum, fodder).",
+     "self_check": true
+    },
+    {
+     "q": "How do forests help animals?",
+     "a": "They give food, shelter (homes) and safe breeding places.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.3",
+   "title": "Soil, Rocks and Fossil Fuels",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are rocks and soil?",
+     "a": "Rocks are hard natural masses of minerals; soil is the loose upper layer where plants grow.",
+     "self_check": true
+    },
+    {
+     "q": "Name two fossil fuels hidden inside the earth.",
+     "a": "Coal and petroleum (natural gas too).",
+     "self_check": true
+    },
+    {
+     "q": "Why should we use fossil fuels carefully?",
+     "a": "They formed over millions of years, cannot be replaced, and burning them pollutes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.4",
+   "title": "Conserving Nature's Treasures",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does 'conserve' mean for nature's treasures?",
+     "a": "Use them carefully - reduce waste, reuse things, recycle materials, and renew (plant trees).",
+     "self_check": true
+    },
+    {
+     "q": "Give one way each to reduce and reuse at home.",
+     "a": "Reduce: switch off lights not needed. Reuse: use jars as containers.",
+     "self_check": true
+    },
+    {
+     "q": "How does planting trees renew nature?",
+     "a": "New trees restore oxygen, shade, soil hold and homes for birds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

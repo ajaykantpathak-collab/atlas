@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_008",
+   "title": "c11_chem_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the effect of adding a catalyst on (i) the equilibrium constant Kc, (ii) the equilibrium concentrations of reactants and products, and (iii) the time taken to reach equilibrium.",
+     "a": "(i) Kc remains unchanged because a catalyst lowers the activation energy of both forward and reverse reactions by the same amount, leaving the ratio kf/kr (which equals Kc) constant. (ii) Equilibrium concentrations of all species remain exactly the same; the catalyst does not shift the position of equilibrium. (iii) The time taken to reach equilibrium decreases significantly because both forward and reverse rates increase. A wrong answer (e.g., \"Kc increases\" or \"equilibrium shifts to products\") reveals the misconception that a catalyst acts like a reactant or changes the thermodynamics of the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "In the Contact process for H₂SO₄ production, V₂O₅ catalyses 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). If the catalyst is removed from an equilibrium mixture at constant T and P, what happens to the amount of SO₃? Explain using the concept of dynamic equilibrium.",
+     "a": "The amount of SO₃ remains unchanged. Removing the catalyst slows down both the forward and reverse reactions equally, so the system remains at the same equilibrium composition; it just loses the ability to respond quickly to any subsequent disturbance. A wrong answer (e.g., \"SO₃ decreases because forward reaction slows more\") shows the student thinks the catalyst selectively accelerates the forward reaction, violating the principle that a catalyst provides an alternative pathway for both directions.",
+     "self_check": true
+    },
+    {
+     "q": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g) ΔH = -92 kJ/mol, an iron catalyst is added at 700 K and 200 atm. The system reaches equilibrium in 10 minutes instead of 10 hours. If the equilibrium mole fraction of NH₃ without catalyst is 0.15, what is the mole fraction with catalyst? Justify your answer quantitatively.",
+     "a": "The mole fraction of NH₃ remains 0.15. Since Kp = (P_NH₃)² / (P_N₂)(P_H₂)³ and Kp depends only on temperature, adding a catalyst at constant T does not change Kp. Therefore the equilibrium partial pressures and mole fractions are identical. A wrong numerical answer indicates the student incorrectly believes a catalyst changes the equilibrium yield, confusing kinetics with thermodynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of a catalyst and an increase in temperature on the equilibrium 2NO₂(g) ⇌ N₂O₄(g) (exothermic). Both increase the rate of reaction. How do their effects on the equilibrium position and equilibrium constant differ?",
+     "a": "A catalyst increases both forward and reverse rates equally, leaving Kc and the equilibrium position unchanged. Increasing temperature increases both rates but unequally: for an exothermic reaction, the reverse rate increases more, decreasing Kc and shifting equilibrium toward reactants (NO₂). A wrong answer that says \"both shift equilibrium\" or \"both change Kc\" reveals confusion between kinetic and thermodynamic control.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the Haber process, using a more active catalyst (e.g., ruthenium instead of iron) allows us to get a higher yield of ammonia at the same temperature and pressure.\" Evaluate this claim.",
+     "a": "The claim is false. A more active catalyst only reduces the time to reach equilibrium; it does not alter the equilibrium constant or the maximum possible yield at given T and P. The equilibrium yield is determined solely by thermodynamics (ΔG° = -RT ln K). A better catalyst may allow operation at lower temperatures (where equilibrium yield is higher) without sacrificing rate, but at the same T and P, the yield is identical. Accepting the claim shows a fundamental misunderstanding of the distinction between rate and equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to demonstrate that a catalyst does not change the equilibrium constant for the reaction: H₂O₂(aq) ⇌ H₂O(l) + ½O₂(g) (catalysed by MnO₂). Specify measurements, controls, and how you would prove Kc is unchanged.",
+     "a": "Set up two identical closed systems with known initial [H₂O₂] at constant temperature. Add MnO₂ to one (catalysed) and none to the other (uncatalysed). Monitor [H₂O₂] vs time (e.g., by titration with KMnO₄) until both reach constant concentration. The final [H₂O₂] in both systems will be identical, proving Kc = [H₂O]²[O₂]½/[H₂O₂] is unchanged. The catalysed system reaches this final value much faster. A poor design (e.g., open system allowing O₂ escape, or not waiting for true equilibrium in the uncatalysed system) would fail to isolate the thermodynamic endpoint from kinetic effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

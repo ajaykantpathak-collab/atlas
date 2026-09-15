@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_004",
+   "title": "c12_math_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the precise mathematical definition of an onto (surjective) function \\( f: X \\to Y \\). Use quantifiers.",
+     "a": "Correct answer: \\( \\forall y \\in Y, \\; \\exists x \\in X \\) such that \\( f(x) = y \\). A wrong answer like \"every \\( x \\) has a unique \\( y \\)\" confuses onto with the definition of a function; \"distinct \\( x \\) give distinct \\( y \\)\" describes one-one. This reveals the student does not distinguish between domain/codomain roles in surjectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Consider \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x) = x^2 \\). A student claims: \"Since every real number \\( y \\) has a square root, \\( f \\) is onto.\" Identify the flaw in this reasoning.",
+     "a": "The flaw: \\( y = -1 \\in \\mathbb{R} \\) has no real \\( x \\) with \\( x^2 = -1 \\). The student incorrectly assumed every real number has a real square root, ignoring that the square root of a negative number is not real. This reveals the misconception that \"solving \\( f(x)=y \\) algebraically\" is sufficient without checking if the solution lies in the specified domain.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether \\( f: \\mathbb{Z} \\to \\mathbb{Z} \\) defined by \\( f(x) = 3x + 2 \\) is onto. Show your work.",
+     "a": "Let \\( y \\in \\mathbb{Z} \\). Solve \\( 3x + 2 = y \\Rightarrow x = \\frac{y-2}{3} \\). For \\( y = 0 \\), \\( x = -\\frac{2}{3} \\notin \\mathbb{Z} \\). Hence no integer \\( x \\) maps to 0. Therefore \\( f \\) is NOT onto. A wrong answer claiming it is onto typically forgets to verify that \\( x \\) is an integer; they only solve algebraically in \\( \\mathbb{R} \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions \\( f: \\mathbb{N} \\to \\mathbb{N}, f(x)=2x \\) and \\( g: \\mathbb{R} \\to \\mathbb{R}, g(x)=2x \\). One is onto, the other is not. Which is which? Explain the role of the domain/codomain.",
+     "a": "\\( g: \\mathbb{R} \\to \\mathbb{R} \\) is onto because for any \\( y \\in \\mathbb{R} \\), \\( x = y/2 \\in \\mathbb{R} \\). \\( f: \\mathbb{N} \\to \\mathbb{N} \\) is NOT onto because \\( y=1 \\in \\mathbb{N} \\) gives \\( x=0.5 \\notin \\mathbb{N} \\). The error is thinking the formula alone determines surjectivity; the sets \\( X \\) and \\( Y \\) are equally critical.",
+     "self_check": true
+    },
+    {
+     "q": "A student proves \\( f: \\mathbb{R} \\to \\mathbb{R}, f(x)=x^3 \\) is onto by saying: \"For any \\( y \\), take \\( x = \\sqrt[3]{y} \\). Then \\( f(x) = (\\sqrt[3]{y})^3 = y \\).\" Is this proof complete? If not, what is missing?",
+     "a": "The proof is incomplete because it does not explicitly verify that \\( \\sqrt[3]{y} \\in \\mathbb{R} \\) for every \\( y \\in \\mathbb{R} \\). While true, a rigorous proof must state: \"Since the cube root of any real number is real, \\( x \\in \\mathbb{R} \\).\" Missing this step shows the student does not understand that the pre-image must belong to the specified domain.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f: \\{1,2,3\\} \\to \\{a,b\\} \\) that is onto but not one-one. Draw its arrow diagram and explain why it satisfies surjectivity but fails injectivity.",
+     "a": "Example: \\( f(1)=a, f(2)=b, f(3)=a \\). Arrow diagram: 1→a, 2→b, 3→a. Every element of \\( \\{a,b\\} \\) has a pre-image (a has 1 and 3; b has 2), so onto. But \\( f(1)=f(3)=a \\) with \\( 1 \\neq 3 \\), so not one-one. A poor answer might give a non-function or a function that misses an element of the codomain, showing confusion between the two properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

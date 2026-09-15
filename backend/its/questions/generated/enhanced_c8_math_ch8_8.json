@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_8",
+   "title": "c8_math_ch8_8",
+   "questions": [
+    {
+     "q": "Write the formula for profit percentage and loss percentage. State clearly what each variable represents.",
+     "a": "Profit% = (Profit / Cost Price) × 100, where Profit = Selling Price – Cost Price (when SP > CP). Loss% = (Loss / Cost Price) × 100, where Loss = Cost Price – Selling Price (when CP > SP). A wrong answer like using selling price as denominator reveals the student doesn't understand that percentage is always calculated on the investment (cost price).",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper buys a shirt for ₹400 and sells it for ₹360. He says his loss percentage is (40/360) × 100 = 11.11%. Is he correct? Explain why or why not.",
+     "a": "No, he is incorrect. Loss = ₹400 – ₹360 = ₹40. Loss% must be calculated on cost price (₹400), not selling price. Correct loss% = (40/400) × 100 = 10%. Using selling price as base is a common error; it happens because students see the final amount (₹360) and think that's the reference, but the reference is always the amount invested.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi bought a bicycle for ₹3,500 and spent ₹500 on repairs. He sold it for ₹4,400. Calculate his profit percentage.",
+     "a": "Step 1: Effective cost price = purchase price + overheads = 3500 + 500 = ₹4,000.\nStep 2: Selling price = ₹4,400.\nStep 3: Profit = SP – CP = 4400 – 4000 = ₹400.\nStep 4: Profit% = (400/4000) × 100 = 10%.\nA wrong answer of (400/3500)×100 = 11.43% shows the student forgot to include repair costs in cost price. A wrong answer of (400/4400)×100 = 9.09% shows using selling price as base.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Item A has CP = ₹200, SP = ₹250. Item B has CP = ₹500, SP = ₹600. Which gives a higher profit percentage? Justify without calculating the exact percentages.",
+     "a": "Both give the same profit percentage (25%). Profit for A = ₹50, profit% = 50/200 = 1/4. Profit for B = ₹100, profit% = 100/500 = 1/4. The ratio of profit to cost price is identical. A wrong answer choosing B because \"profit is ₹100 vs ₹50\" shows the student compares absolute profit, not relative profit. This tests understanding that percentage normalizes for scale.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"CP = ₹800, loss% = 15%. Find SP.\" Their working: Loss = 15% of 800 = ₹120. SP = CP + Loss = 800 + 120 = ₹920. Identify the error and correct it.",
+     "a": "The error is adding loss to cost price. Loss means selling price is LESS than cost price. Correct: SP = CP – Loss = 800 – 120 = ₹680. The student confused loss with profit. This reveals a fundamental misunderstanding of the direction of the relationship: profit increases SP above CP, loss decreases SP below CP.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where the cost price is unknown, but the selling price and profit percentage are given. The problem should involve an Indian context (e.g., a vegetable vendor, a bookshop). Write the problem and show how to solve it.",
+     "a": "Example: \"Meena sells mangoes at ₹120 per kg, making a profit of 20%. At what price did she buy them?\" Solution: Let CP = x. Profit% = 20% means SP = CP + 20% of CP = 1.2 × CP. So 120 = 1.2x → x = 100. CP = ₹100/kg. A poor problem would give both CP and SP and ask for percentage (that's direct, not reverse). A good reverse problem requires setting up the equation SP = CP × (1 + profit%/100) or SP = CP × (1 – loss%/100).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

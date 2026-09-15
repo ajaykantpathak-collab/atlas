@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_005",
+   "title": "c11_math_cbse_11_005",
+   "questions": [
+    {
+     "q": "For the parabola \\(y^2 = -12x\\), state the coordinates of the focus, the equation of the directrix, and the length of the latus rectum.",
+     "a": "Focus: \\((-3, 0)\\); Directrix: \\(x = 3\\); Latus rectum length: \\(12\\). A wrong answer (e.g., focus \\((3,0)\\)) reveals the student does not correctly interpret the negative sign: for \\(y^2 = -4ax\\), the parabola opens left, so focus is \\((-a,0)\\) and directrix is \\(x = a\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the latus rectum of the parabola \\(x^2 = 4ay\\) has length \\(4a\\) and its endpoints are \\((2a, a)\\) and \\((-2a, a)\\).",
+     "a": "The parabola \\(x^2 = 4ay\\) opens upward with focus \\(F(0,a)\\). The latus rectum is horizontal through \\(F\\), so its points satisfy \\(y = a\\). Substituting into \\(x^2 = 4a(a) = 4a^2\\) gives \\(x = \\pm 2a\\). Thus endpoints are \\((2a, a)\\) and \\((-2a, a)\\), and length is \\(4a\\). A wrong answer (e.g., endpoints \\((a, 2a)\\)) reveals confusion between the roles of \\(x\\) and \\(y\\) when the axis is the y-axis.",
+     "self_check": true
+    },
+    {
+     "q": "A parabola has focus \\(F(0, -5)\\) and directrix \\(y = 5\\). Find its equation and the length of its latus rectum.",
+     "a": "Vertex is midway between focus and directrix: \\((0,0)\\). Distance from vertex to focus is \\(a = 5\\) (but focus is below vertex, so parabola opens downward). Equation: \\(x^2 = -4ay = -20y\\). Latus rectum length = \\(4a = 20\\). A wrong answer (e.g., \\(x^2 = 20y\\)) shows the student missed the sign: focus below vertex means negative coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parabolas \\(y^2 = 8x\\) and \\(x^2 = 8y\\). How do their foci, directrices, and latus recta differ? What is the geometric relationship between them?",
+     "a": "For \\(y^2 = 8x\\): \\(4a=8 \\Rightarrow a=2\\). Focus \\((2,0)\\), directrix \\(x=-2\\), latus rectum horizontal endpoints \\((2, \\pm 4)\\), length 8. For \\(x^2 = 8y\\): \\(a=2\\). Focus \\((0,2)\\), directrix \\(y=-2\\), latus rectum vertical endpoints \\((\\pm 4, 2)\\), length 8. They are reflections of each other across the line \\(y=x\\). A wrong answer (e.g., same focus) reveals the student does not distinguish between axis along x-axis vs y-axis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for the parabola \\(y^2 = -16x\\), the focus is \\((-4,0)\\) and the directrix is \\(x = -4\\). Is the student correct? If not, identify the error and give the correct directrix.",
+     "a": "The student is incorrect. For \\(y^2 = -16x\\), \\(4a = 16 \\Rightarrow a = 4\\). The parabola opens left, so focus is \\((-4,0)\\) (correct), but the directrix is \\(x = a = 4\\), not \\(x = -4\\). The error is using the same sign for directrix as focus; the directrix is on the opposite side of the vertex. Correct directrix: \\(x = 4\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where you need to find the focus of a parabola to design a solar cooker. Specify the parabola's equation and ask for the focus coordinates. Explain why the focus is the ideal place to put the cooking pot.",
+     "a": "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm). Where should the cooking pot be placed for maximum heat? Answer: Focus at \\((5,0)\\) cm from vertex. The focus is where all incoming parallel rays (sunlight) reflect to a single point, concentrating heat. A poor answer would give an equation not in standard form or misplace the focus, showing lack of understanding of the reflective property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

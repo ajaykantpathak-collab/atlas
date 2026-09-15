@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_17_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_17_011",
+   "title": "c12_eng_k_cbse_17_011",
+   "questions": [
+    {
+     "q": "Define an intransitive verb and give one example from the essay \"Why the Novel Matters\" (do not use the examples already explained in the textbook's Language Work section).",
+     "a": "An intransitive verb is a verb that does not take a direct object; it expresses an action or state that does not transfer to a receiver. It may stand alone or be followed by an adverbial complement (prepositional phrase). Example from the text: \"The flower fades\" (paragraph on absolutes).  \n**Wrong answer reveals:** If the student gives \"The grass withers\" (already in textbook) or a transitive verb like \"cuts\", they cannot independently identify new instances. If they say \"a verb without an object\" but cannot distinguish from linking verbs, they lack the crucial action-vs-equivalence distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between the complement in \"The chameleon creeps from a brown rock\" and the complement in \"My hand is alive\". Why are they categorized differently?",
+     "a": "In \"creeps from a brown rock\", the prepositional phrase tells *where* the action occurs — it modifies the verb \"creeps\" (adverbial function). In \"is alive\", the adjective phrase \"alive\" describes the subject \"hand\" — it completes the subject via the linking verb \"is\" (subject complement function).  \n**Wrong answer reveals:** If the student calls both \"adverbial\" or both \"subject complement\", they confuse verb-class function. If they say \"both describe the subject\", they miss that intransitive verbs don't link to subject descriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the sentence \"The Word becomes more and more boring\" from the essay. Identify the verb class, the complement, and the complement's category. Show your reasoning step by step.",
+     "a": "**Step 1:** Identify the verb: \"becomes\".  \n**Step 2:** Test for transitivity: \"becomes\" cannot take a direct object (*\"becomes something\" is not an action on an object).  \n**Step 3:** Test for linking: \"becomes\" equates the subject \"The Word\" with the quality \"more and more boring\" — it indicates a change of state.  \n**Step 4:** Classify verb: **linking verb (copula)**.  \n**Step 5:** Identify complement: \"more and more boring\" (adjective phrase headed by \"boring\").  \n**Step 6:** Categorize complement: **subject complement (adjective phrase)** because it describes the subject.  \n**Wrong answer reveals:** If the student labels \"becomes\" as intransitive with adverbial complement, they treat change-of-state verbs as action verbs. If they call the complement a noun phrase, they misidentify the phrase category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two sentences: (a) \"I am a thief and a murderer\" and (b) \"The bud opens\". For each, state the verb class, the complement (if any), and the complement category. Then explain why the verb in (a) cannot be intransitive in the same way as (b).",
+     "a": "(a) \"am\" = linking verb (copula); complement = \"a thief and a murderer\" (noun phrase); category = **subject complement (noun phrase)** — it renames the subject \"I\".  \n(b) \"opens\" = intransitive verb; complement = none (or optional adverbial like \"in spring\" — not present); category = **N/A**.  \n**Why different:** \"am\" establishes an identity/equivalence (I = thief/murderer); \"opens\" describes an action the bud performs independently. \"Am\" requires a complement to complete the meaning; \"opens\" is complete alone.  \n**Wrong answer reveals:** If the student calls \"am\" intransitive with a noun phrase complement, they conflate the two classes. If they say \"opens\" has a subject complement, they misunderstand that intransitive action verbs don't take subject complements.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the sentence 'Nothing is important', 'important' is an adverb because it follows the verb 'is'.\" Evaluate this claim. Is it correct? Why or why not? What grammatical evidence from the text supports your judgment?",
+     "a": "The claim is **incorrect**. \"Important\" is an **adjective**, not an adverb. Evidence:  \n1. \"Is\" is a linking verb (copula), not an action verb — it links the subject \"Nothing\" to a description.  \n2. Adverbs modify verbs, adjectives, or other adverbs; here \"important\" describes the subject \"Nothing\" (what is important? Nothing).  \n3. The textbook explicitly lists \"My hand is alive\" (be + adjective) as a linking verb + adjective phrase complement. \"Nothing is important\" follows the identical pattern.  \n**Wrong answer reveals:** The student confuses position (after verb) with function. They apply the \"verb + adverb\" rule mechanically without checking verb class. This is the #1 error in board exams on this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Create two original sentences that imitate Lawrence's style in the essay:  \n(1) One with an intransitive verb + adverbial complement (prepositional phrase).  \n(2) One with a linking verb + noun phrase subject complement.  \nUse abstract nouns (like \"integrity\", \"inertia\", \"revelation\") as subjects, reflecting the essay's philosophical tone.",
+     "a": "**Expected answer criteria:**  \n(1) Example: \"Integrity slips through the fingers of the rigid.\" → Verb \"slips\" (intransitive), complement \"through the fingers of the rigid\" (prepositional phrase, adverbial).  \n(2) Example: \"Inertia becomes a prison without walls.\" → Verb \"becomes\" (linking), complement \"a prison without walls\" (noun phrase, subject complement).  \n**Poor answer reveals:** If the student uses transitive verbs (\"Integrity builds character\"), linking verbs with adjective complements only (\"Inertia feels heavy\"), or fails to use abstract nouns, they haven't internalized the verb-class distinction or the essay's register.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

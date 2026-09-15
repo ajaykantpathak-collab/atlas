@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_008",
+   "title": "c11_bio_cbse_05_008",
+   "questions": [
+    {
+     "q": "What are the two layers of the seed coat in a typical dicotyledonous seed, and from which integuments do they originate?",
+     "a": "The two layers are the outer testa (from outer integument) and inner tegmen (from inner integument). A wrong answer (e.g., \"testa and endosperm\" or \"pericarp and testa\") reveals confusion between maternal seed coat tissues and triploid nutritive tissue or fruit wall, indicating the student hasn't distinguished ovule integuments from post-fertilization structures.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the cotyledon in maize called a scutellum, and how does its function differ from the cotyledons of gram?",
+     "a": "The maize cotyledon is modified into a shield-shaped scutellum that absorbs nutrients from the endosperm during germination, whereas gram cotyledons are fleshy storage organs that directly supply food to the embryo. A wrong answer (e.g., \"scutellum stores food like gram cotyledons\") shows the student misses the fundamental distinction: monocot cotyledons are absorptive, dicot cotyledons are often storage organs (in non-endospermic seeds).",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a seed with a membranous seed coat fused to the fruit wall, a large starchy endosperm separated from the embryo by an aleurone layer, and a single shield-shaped cotyledon. Identify the seed type and justify your answer with three structural features.",
+     "a": "This is a monocotyledonous endospermic seed (e.g., maize). Three features: (1) seed coat fused with fruit wall (pericarp), (2) bulky endosperm as main food reserve with aleurone layer, (3) single scutellum (cotyledon) for absorption. If the student identifies it as dicot, they are ignoring the fused seed coat-fruit wall and the presence of aleurone layer – hallmark monocot features.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protective sheaths of the plumule and radicle in maize and gram seeds. What evolutionary advantage do the maize sheaths provide in their typical soil environment?",
+     "a": "Maize has coleoptile (protects plumule) and coleorhiza (protects radicle); gram lacks these sheaths – the plumule and radicle are bare. The sheaths allow the monocot seedling to push through compacted or crusty soil (common in grasslands) without damaging the meristematic tips. A wrong answer suggesting \"gram also has coleoptile\" or \"sheaths are for water absorption\" indicates confusion with root cap function or lack of comparative observation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All dicot seeds are non-endospermic and all monocot seeds are endospermic.\" Provide two counter-examples from NCERT and explain why the statement is an overgeneralization.",
+     "a": "The statement is false. Counter-examples: (1) Castor (dicot) is endospermic – endosperm persists as food storage. (2) Orchids (monocots) are non-endospermic – endosperm is consumed during seed development. The overgeneralization arises from focusing only on typical examples (gram, pea, maize) and ignoring the spectrum of post-fertilization endosperm utilization across angiosperms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dichotomous key using only seed morphology (external + internal) to distinguish between an unknown dicot seed (gram/castor) and an unknown monocot seed (maize/orchid). Your key must have exactly four couplets.",
+     "a": "A good key:\n1a. Seed coat fused with fruit wall → go to 2\n1b. Seed coat distinct from fruit wall → go to 3\n2a. Single shield-shaped cotyledon (scutellum), endosperm present with aleurone layer → Maize (monocot, endospermic)\n2b. No distinct cotyledon, minute undifferentiated embryo, no endosperm → Orchid (monocot, non-endospermic)\n3a. Two fleshy cotyledons, no endosperm → Gram (dicot, non-endospermic)\n3b. Two thin cotyledons, bulky oily endosperm present → Castor (dicot, endospermic)\nA poor key uses non-seed traits (e.g., leaf venation) or misses the aleurone layer distinction, showing inability to isolate seed-specific diagnostic characters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

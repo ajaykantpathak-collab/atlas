@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_003",
+   "title": "c7_physics_ch06_003",
+   "questions": [
+    {
+     "q": "What is the approximate time taken by the Earth to complete one full revolution around the Sun?",
+     "a": "The Earth takes approximately 365 days and 6 hours (or 365.25 days) to complete one revolution around the Sun. A student who answers 24 hours is confusing Earth's rotation (day and night) with its revolution (the year).",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say the Earth follows an orbit rather than moving in a straight line through space?",
+     "a": "The Earth is held by the gravitational pull of the Sun, which continuously bends its path into a closed, nearly circular loop (orbit) rather than letting it fly off in a straight line. A student who thinks the Earth moves in a straight line forgets that gravity acts as a central force keeping planets bound to their star.",
+     "self_check": true
+    },
+    {
+     "q": "If a space probe travels along the Earth's orbit at an average speed of about 30 km/s, what distance does it cover in 2 seconds?",
+     "a": "Steps: \n1. Identify given values: Speed ($v$) = 30 km/s, Time ($t$) = 2 s. \n2. Identify the formula: Distance ($d$) = $v \\times t$. \n3. Substitute values with units: $d = 30 \\text{ km/s} \\times 2 \\text{ s}$. \n4. Compute and track unit cancellation: $d = 60 \\text{ km}$ (seconds cancel out). \n5. Verify physical reasonableness: 60 km in 2 seconds at orbital speeds is correct. \nAnswer: 60 km. A student who divides speed by time confuses the fundamental relationship between distance, speed, and time.",
+     "self_check": true
+    },
+    {
+     "q": "How does the Earth's revolution around the Sun differ fundamentally from its rotation on its axis?",
+     "a": "Revolution is the Earth's movement travelling around the Sun in an external orbit taking 365.25 days, which causes the year, whereas rotation is the spinning of Earth on its own internal imaginary axis taking 24 hours, which causes day and night. A student who claims both take 24 hours confuses the daily rotation cycle with the yearly revolution cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If the Earth's distance from the Sun suddenly doubled while maintaining the same orbital speed, a year would still last exactly 365 days.\" Is this correct or incorrect, and why?",
+     "a": "This statement is incorrect. If the Earth were farther from the Sun, the circumference of its orbit would be larger, and weaker gravitational pull would result in a slower orbital speed, meaning a complete revolution would take much longer than 365 days. A student who says it remains the same ignores the geometric relationship between orbital radius, circumference, and speed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a globe and a lamp to demonstrate the difference between the Earth's daily rotation and its yearly revolution. Describe how you would move them.",
+     "a": "A good response involves placing a lamp (representing the Sun) in the center of a desk and moving a small globe (representing the Earth) in a circle around the lamp while simultaneously spinning the globe on its tilted axis. A poor response only spins the globe in one spot or only moves it without spinning, failing to show both motions simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_8",
+   "title": "c8_math_ch7_8",
+   "questions": [
+    {
+     "q": "State the mathematical condition for two quantities \\(x\\) and \\(y\\) to be in direct proportion. Write the equation that relates them using a constant \\(k\\).",
+     "a": "The condition is that the ratio \\(\\frac{y}{x}\\) is constant for all corresponding values of \\(x\\) and \\(y\\). The equation is \\(y = kx\\) (or \\(\\frac{y}{x} = k\\)). A wrong answer like \"\\(x + y = \\text{constant}\\)\" or \"\\(y = k + x\\)\" reveals the student confuses direct proportion with additive relationships or inverse proportion. They may not grasp that \"proportion\" implies a multiplicative constant ratio, not a constant sum or difference.",
+     "self_check": true
+    },
+    {
+     "q": "The table below shows values of \\(x\\) and \\(y\\). Explain why this relationship is NOT a direct proportion, even though both \\(x\\) and \\(y\\) increase.\n\n| \\(x\\) | 1 | 2 | 3 | 4 |\n| \\(y\\) | 3 | 5 | 7 | 9 |",
+     "a": "For direct proportion, \\(\\frac{y}{x}\\) must be constant. Here \\(\\frac{3}{1}=3\\), \\(\\frac{5}{2}=2.5\\), \\(\\frac{7}{3}\\approx 2.33\\), \\(\\frac{9}{4}=2.25\\) — the ratio changes. A student who says \"it is direct proportion because both increase\" holds the common misconception that any increasing relationship is proportional. They are not checking the constancy of the ratio, which is the defining property.",
+     "self_check": true
+    },
+    {
+     "q": "The cost of 5 metres of cloth is ₹375. If the cost is directly proportional to the length, find the cost of 12 metres of cloth. Show your steps using the constant of proportionality.",
+     "a": "Step 1: Find constant \\(k = \\frac{\\text{cost}}{\\text{length}} = \\frac{375}{5} = 75\\) ₹/metre.  \nStep 2: Write relation: \\(\\text{cost} = 75 \\times \\text{length}\\).  \nStep 3: For 12 metres, cost \\(= 75 \\times 12 = 900\\).  \nAnswer: ₹900.  \nA wrong answer like ₹9000 (multiplying 375 by 12/5 incorrectly) or ₹75 (just stating the unit rate) reveals computational errors or confusion between finding the constant and applying it. The student may not be systematically using \\(y = kx\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two relationships are given:  \nA) \\(y = 4x\\)  \nB) \\(y = 4x + 2\\)  \nWhich one represents a direct proportion? Justify your answer by analysing the ratio \\(\\frac{y}{x}\\) for \\(x = 1, 2, 3\\) in both cases.",
+     "a": "Relationship A is direct proportion because \\(\\frac{y}{x} = 4\\) for all \\(x\\). For B: when \\(x=1\\), \\(\\frac{y}{x}=6\\); when \\(x=2\\), \\(\\frac{y}{x}=5\\); when \\(x=3\\), \\(\\frac{y}{x}=4.67\\) — not constant. A student who chooses B or says both are proportional does not understand that direct proportion requires the line to pass through the origin (zero intercept). They may focus only on the multiplicative term \\(4x\\) and ignore the additive constant.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the relationship between the side of a square and its area is a direct proportion because \"as side increases, area increases\". Evaluate this claim and explain the error.",
+     "a": "The claim is false. Area \\(A = s^2\\), so \\(\\frac{A}{s} = s\\), which is not constant — it changes with \\(s\\). The student's error is assuming that any \"increase together\" relationship is direct proportion. They are not testing the constant ratio condition. This reveals a confusion between monotonic increase and proportional increase.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario involving two quantities that are in direct proportion. Then create a second scenario where the two quantities increase together but are NOT in direct proportion. Explain how you would verify each.",
+     "a": "Example of direct proportion: Distance travelled at constant speed vs time (ratio = speed, constant). Verification: check \\(\\frac{\\text{distance}}{\\text{time}}\\) for several pairs.  \nExample of non-proportional increase: Total money in a piggy bank where you add ₹10 every week but started with ₹50. After \\(w\\) weeks, money = \\(50 + 10w\\). Ratio \\(\\frac{\\text{money}}{w}\\) changes. Verification: compute ratio for \\(w=1,2,3\\) and see it's not constant.  \nA poor answer gives two proportional scenarios or cannot explain verification, showing the student cannot distinguish constant ratio from mere co-variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

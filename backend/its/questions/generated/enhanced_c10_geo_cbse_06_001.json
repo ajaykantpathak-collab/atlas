@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_001",
+   "title": "c10_geo_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define manufacturing and state its primary contribution to the national economy in one sentence.",
+     "a": "Manufacturing is the large-scale conversion of raw materials into finished goods using machinery and labour; its primary contribution is transforming primary sector output into higher-value secondary sector products, thereby increasing GDP, creating employment, and earning foreign exchange. A wrong answer that only says \"making things\" misses the *scale*, *value addition*, and *economic linkage* — board exams require the explicit connection to GDP/employment/trade.",
+     "self_check": true
+    },
+    {
+     "q": "Why do sugar mills in India concentrate in the sugarcane-growing belts of Uttar Pradesh, Maharashtra, and Karnataka, even though sugar can be transported easily?",
+     "a": "Sugarcane is a weight-losing, perishable raw material — its sucrose content drops rapidly after harvest, and transporting bulky cane over long distances raises costs disproportionately. Mills must be near fields to minimise transport cost and sucrose loss. A wrong answer citing only \"raw material availability\" without explaining *weight loss* and *perishability* shows incomplete understanding of the raw material factor — a classic board exam trap where students lose marks for not using the terms \"weight-losing\" and \"perishable\".",
+     "self_check": true
+    },
+    {
+     "q": "A new integrated steel plant is proposed in Jharkhand. Using the concept of 'weight-losing raw material', explain why proximity to iron ore and coal mines is more critical than proximity to the market for this industry.",
+     "a": "Step 1: Identify raw materials — iron ore (hematite) and coking coal. Step 2: Determine weight loss — 1 tonne of steel requires ~1.5 tonnes iron ore + ~0.8 tonnes coal; total input ~2.3 tonnes → output 1 tonne steel + slag/waste. Step 3: Apply Weber’s least-cost principle — transport cost is proportional to weight × distance; moving 2.3 tonnes of raw material costs more than moving 1 tonne of finished steel. Step 4: Conclude — location near raw material deposits (Jharkhand-Odisha belt) minimises total transport cost. A wrong answer that says \"market is important because steel is heavy\" confuses *finished product weight* with *total material index* — the material index (raw material weight / finished product weight) > 1 dictates raw-material orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the location factors for the cotton textile industry in the early 20th century (Mumbai-Ahmedabad) with its dispersal to Coimbatore, Madurai, and Indore post-1950s. Identify which factors remained constant and which changed.",
+     "a": "Constant factors: raw material (cotton), climate (humid for spinning), labour (skilled artisans). Changed factors: early concentration relied on port (export), hydroelectric power (Tata Power), and capital (Parsi/Gujarati merchants); post-1950s dispersal driven by railway penetration, local markets, power grid expansion, and government incentives (textile policy). A wrong answer listing only \"raw material and labour\" for both periods misses the *dynamic shift* from export-oriented port location to domestic-market-oriented dispersal — boards test this temporal analysis in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government policy is the most decisive factor for industrial location in modern India.\" Support your judgment with two contrasting examples.",
+     "a": "Judgment: Partially true — policy can override geographical advantages but cannot sustain industries without viable economics. Example 1 (policy-driven): Bhilai Steel Plant (Chhattisgarh) — located in a forested, tribal area far from major markets solely due to central government's regional development policy (Second Five Year Plan, Soviet collaboration). Example 2 (market-driven despite policy): Electronics/hardware clusters in Bengaluru — emerged due to skilled labour, climate, and university ecosystem; policy (IT parks) accelerated but did not *create* the location logic. A wrong answer claiming \"policy is always decisive\" ignores that many policy-induced plants (e.g., Sindri fertilizer) became sick units — boards expect nuanced evaluation, not absolutism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a location decision matrix for a hypothetical agro-based food processing unit (tomato ketchup) in Maharashtra. List five factors, assign weights (total 100), and justify the top-weighted factor.",
+     "a": "Matrix: (1) Raw material proximity (tomato farms) — 30% — perishable, weight-losing, daily supply needed. (2) Transport (NH/rail) — 20% — for distribution to urban markets. (3) Power/water — 15% — continuous processing requires stable supply. (4) Labour — 15% — semi-skilled, locally available. (5) Government incentives (food park scheme) — 10% — reduces capital cost. Top factor: raw material proximity — tomato loses 15-20% weight in processing and spoils in 48 hrs; any distance adds refrigeration cost. A poor answer assigning highest weight to \"market\" or \"policy\" without addressing perishability shows failure to apply the *material index* concept to agro-processing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

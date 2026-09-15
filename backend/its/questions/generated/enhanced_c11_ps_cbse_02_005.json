@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_005",
+   "title": "c11_ps_cbse_02_005",
+   "questions": [
+    {
+     "q": "List the three types of constraints on freedom discussed in this chapter and give a one‑sentence example of each from everyday Indian life.",
+     "a": "Correct answer: (1) Coercion – e.g., a state law banning a book; (2) Ignorance – e.g., a villager unaware of the Right to Information Act; (3) Social pressure – e.g., a family forcing a daughter to marry against her wish. A wrong answer that only mentions legal bans reveals the misconception that constraints must be formal laws; it shows the student has not internalized that informal norms and information gaps also restrict freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ignorance is considered a constraint on freedom even though no one is physically forcing the person to act or not act.",
+     "a": "Correct answer: Freedom requires the capacity to make informed choices; ignorance shrinks the menu of options a person can even conceive, effectively preventing autonomous action without any external force. A wrong answer that says “ignorance is not a constraint because you can always learn” reveals a confusion between negative liberty (absence of interference) and the positive condition of having meaningful alternatives — a confusion addressed in c11_ps_cbse_02_003.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat announces that women who work outside the home will be fined ₹5,000 and socially boycotted. Identify which constraint(s) are at play and justify your identification.",
+     "a": "Correct answer: Both coercion (the fine is a formal penalty backed by the panchayat’s authority) and social pressure (the boycott is an informal sanction by the community) are present. Ignorance may also operate if women are unaware of legal protections. A wrong answer that picks only “coercion” misses the dual mechanism; it shows the student cannot see how formal and informal constraints often reinforce each other.",
+     "self_check": true
+    },
+    {
+     "q": "Compare coercion and social pressure: which is more difficult to challenge in a democratic society, and why? Use the distinction between “state‑backed” and “society‑backed” authority in your answer.",
+     "a": "Correct answer: Social pressure is often harder to challenge because it lacks a single identifiable authority to petition or sue; it is diffuse, internalized, and enforced through relationships, whereas coercion by the state can be contested in courts using fundamental rights (Article 32/226). A wrong answer that says “coercion is worse because it uses force” overlooks the insidious, pervasive nature of social norms that shape preferences before choices are even made.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Compulsory schooling up to age 14 (RTE Act) removes ignorance as a constraint but simultaneously imposes coercion.” Is this a justified constraint on freedom? Reason using the concept of “reasonable restrictions.”",
+     "a": "Correct answer: Yes, it is a justified constraint. The coercion (mandatory attendance) is proportionate and aims to expand future autonomy by removing ignorance; it meets the test of “reasonable restriction” because it serves a compelling public interest (educated citizenry) and is not excessive. A wrong answer that calls it “unjustified coercion” fails to weigh the long‑term positive liberty gain against the short‑term negative liberty loss.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (3‑4 sentences) in which all three constraints — coercion, ignorance, and social pressure — operate together to limit a person’s freedom. Label each constraint in your scenario.",
+     "a": "A good answer will present a coherent situation (e.g., a Dalit student barred from a temple‑run school by tradition [social pressure], unaware of the constitutional prohibition on untouchability [ignorance], and threatened with expulsion if she complains [coercion]) and explicitly tag each element. A poor answer that lists three separate unrelated examples shows the student cannot synthesize how constraints intersect in real life.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

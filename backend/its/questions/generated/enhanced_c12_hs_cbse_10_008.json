@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_008",
+   "title": "c12_hs_cbse_10_008",
+   "questions": [
+    {
+     "q": "A Class 12 student writes: \"The RDA for iron for a 15-year-old boy and a 15-year-old girl is the same because they are the same age.\" Is this statement correct? Explain why or why not using ICMR 2020 guidelines.",
+     "a": "The statement is incorrect. According to ICMR 2020, the RDA for iron for a 15-year-old boy is 22 mg/day, while for a 15-year-old girl it is 28 mg/day. The higher requirement for girls accounts for menstrual blood losses (approximately 0.5-1 mg iron/day) on top of growth needs. A wrong answer reveals the student has not internalised sex-specific physiological determinants of nutrient requirements — a common error where age is treated as the sole determinant, ignoring puberty-driven divergence.",
+     "self_check": true
+    },
+    {
+     "q": "A school tiffin for a 10-year-old child contains: 2 aloo parathas (50g wheat flour + 30g potato each), 1 tablespoon pickle, and 1 small banana. The child's mother says this provides \"enough carbohydrates and energy.\" Analyse this tiffin using the food exchange list: identify which food groups are represented, which are missing, and calculate the approximate protein gap if the child's lunch RDA target is 12g protein.",
+     "a": "Represented: Cereals (wheat flour → ~2 exchanges), Roots & Tubers (potato → ~1 exchange), Fruits (banana → 1 exchange), Fats/Oils (invisible fat in paratha + pickle oil → ~2 exchanges). Missing: Pulses/Legumes, Milk/Curd, Green Leafy Vegetables, Other Vegetables. Protein calculation: Wheat flour 100g = 12g protein, potato 60g = 1.2g protein, banana = 1g protein → Total ≈ 14.2g protein. However, cereal protein is limiting in lysine; without a pulse or milk exchange, protein quality (PDCAAS) is low. The gap is not quantity but quality — the meal lacks complementary protein. A wrong answer reveals the student counts protein grams but ignores protein quality and food group diversity — a classic reductionist error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 400 kcal, 12g protein, 5mg iron evening snack for a 16-year-old male athlete (training 2 hrs/day) using only these ingredients: roasted chana (100g: 360 kcal, 20g protein, 4.8mg iron), jaggery (20g: 75 kcal, 0g protein, 1.2mg iron), peanuts (30g: 170 kcal, 7g protein, 1.5mg iron), and amaranth leaves (50g: 12 kcal, 2g protein, 2.3mg iron). Show the gram quantities and verify all three targets are met.",
+     "a": "Let x = g roasted chana, y = g jaggery, z = g peanuts, w = g amaranth leaves.\nEquations:\n1) 3.6x + 3.75y + 5.67z + 0.24w = 400 (kcal)\n2) 0.20x + 0z + 0.23z + 0.04w = 12 (protein)\n3) 0.048x + 0.06y + 0.05z + 0.046w = 5 (iron)\nTrial: x=50g chana (180 kcal, 10g protein, 2.4mg iron), z=30g peanuts (170 kcal, 7g protein, 1.5mg iron), w=50g amaranth (12 kcal, 2g protein, 2.3mg iron), y=10g jaggery (38 kcal, 0g protein, 0.6mg iron).\nTotals: 400 kcal, 19g protein, 6.8mg iron → exceeds protein & iron. Adjust: reduce chana to 40g (144 kcal, 8g protein, 1.92mg iron), keep others.\nNew totals: 364 kcal, 17g protein, 6.3mg iron. Still high protein. Final: 30g chana (108 kcal, 6g protein, 1.44mg iron) + 30g peanuts (170 kcal, 7g protein, 1.5mg iron) + 50g amaranth (12 kcal, 2g protein, 2.3mg iron) + 30g jaggery (113 kcal, 0g protein, 1.8mg iron) = 403 kcal, 15g protein, 7.04mg iron. Closest practical combo: 35g chana + 25g peanuts + 50g amaranth + 20g jaggery = 387 kcal, 13.5g protein, 5.8mg iron. A wrong answer reveals inability to solve multi-constraint optimisation — students typically meet one target (kcal) and ignore others.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the meal planning challenges for a 12-year-old girl in a government school (mid-day meal provided) versus a 12-year-old girl in a private school (carries tiffin). Analyse how the Mid-Day Meal Scheme (MDMS) guidelines (450 kcal, 12g protein per meal) interact with ICMR RDAs for this age group, and identify two nutritional risks unique to each context.",
+     "a": "Government school (MDMS): MDMS provides 450 kcal + 12g protein at lunch → covers ~30% energy and ~40% protein RDA (girl 10-12y: 1970 kcal, 35g protein). Risks: (1) Micronutrient dilution — MDMS often cereal-heavy (rice/wheat + dal), low in GLV, milk, fruits → iron, calcium, vitamin A gaps persist; (2) No breakfast/snack provision → long overnight fast + delayed lunch impairs cognition. Private school (tiffin): Risks: (1) Tiffin monotony — parent-packed meals often carbohydrate-dense (paratha, bread, biscuits), low protein quality, no GLV; (2) Peer-driven junk food substitution — child trades tiffin for canteen samosas/chips, creating hidden energy-protein-micronutrient gap. A wrong answer reveals the student treats both contexts identically, missing structural determinants (policy vs. parental agency) and micronutrient vs. macronutrient blind spots.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since adolescents have high energy needs, adding sugar-sweetened beverages and fried snacks to their diet is an acceptable way to meet calorie requirements.\" Use the concepts of nutrient density, empty calories, and displacement to justify your evaluation.",
+     "a": "The claim is nutritionally unsound. Nutrient density = nutrients per 100 kcal. Sugar-sweetened beverages (SSB) and fried snacks provide energy (empty calories) with near-zero protein, fibre, iron, calcium, or vitamins. Displacement effect: 300 kcal from SSB (300ml cola) displaces ~150ml milk (150 kcal, 5g protein, 180mg calcium) or 50g roasted chana (180 kcal, 10g protein, 2.4mg iron). Result: positive energy balance (obesity risk) + negative micronutrient balance (anaemia, poor bone mineralisation). ICMR 2020 explicitly limits free sugars to <5% total energy. A wrong answer reveals the student conflates \"energy adequacy\" with \"nutritional adequacy\" — a fundamental category error that underpins malnutrition-in-obesity paradox.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-week tiffin planner for a 13-year-old vegetarian boy (RDA: 2450 kcal, 54g protein, 35mg iron, 850mg calcium) that: (a) uses ≤3 food exchanges per day, (b) requires no reheating, (c) includes at least one GLV and one vitamin C source daily for iron absorption, (d) varies cereal base (wheat, rice, millet, Bengal gram flour) across days. Present as a table with Day | Menu | Exchanges Used | Key Nutrient Highlight.",
+     "a": "| Day | Menu | Exchanges Used | Key Nutrient Highlight |\n|-----|------|----------------|------------------------|\n| Mon | Bajra roti (40g) + chana dal stuffing (20g) + mint-coriander chutney + guava (50g) | Cereal 1, Pulse 1, GLV 0.5, Fruit 1 | Millet iron (2.8mg) + vit C (guava 200mg) |\n| Tue | Rice flour idli (60g) + sambar (30g dal + 20g drumstick leaves) + coconut chutney | Cereal 1.5, Pulse 1, GLV 0.5, Fat 0.5 | Drumstick leaf iron + vit C |\n| Wed | Besan chilla (30g besan + 20g spinach) + tomato chutney + orange (100g) | Pulse 1, GLV 1, Fruit 1 | Besan protein (6g) + spinach iron + orange vit C |\n| Thu | Whole wheat wrap (40g) + rajma salad (30g rajma + 30g carrot/pepper) + lemon squeeze | Cereal 1, Pulse 1, Other Veg 1, Fruit 0.5 (lemon) | Rajma iron (3mg) + lemon vit C |\n| Fri | Jowar roti (40g) + moong dal chutney (20g) + grated carrot-beetroot + amla candy (10g) | Cereal 1, Pulse 1, Other Veg 1, Fruit 0.5 | Amla vit C (600mg/100g) enhances non-heme iron |\n| Sat | Ragi dosa (30g ragi + 20g urad dal) + peanut chutney + banana (50g) | Cereal 1, Pulse 1, Nut 0.5, Fruit 1 | Ragi calcium (344mg/100g) + banana potassium |\n| Sun | Multigrain paratha (wheat 30g + soy flour 10g) + palak paneer (20g spinach + 30g paneer) + lime | Cereal 1, Pulse 0.5, Milk 1, GLV 1 | Soy flour protein quality + paneer calcium + spinach iron |\n\nA poor answer uses same cereal daily, omits GLV/vit C pairing, exceeds exchange limits, or ignores vegetarian protein complementarity — revealing template-thinking instead of constraint-based design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

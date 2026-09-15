@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_13_011",
+   "title": "c11_eng_w_cbse_13_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the word order in \"The World is too much with us; late and soon\" where the adverbial phrase \"late and soon\" appears after the main clause instead of in its standard position.",
+     "a": "The term is **syntactic inversion** (or anastrophe). Standard English word order would place the temporal adverbial \"late and soon\" at the beginning (\"Late and soon, the world is too much with us\") or at the end with a comma. A wrong answer like \"fronting\" or \"ellipsis\" reveals confusion between different syntactic phenomena - fronting moves elements to the front, while inversion reverses expected order; ellipsis omits words entirely. This distinction matters because inversion here creates rhythmic emphasis on \"late and soon,\" extending the temporal scope of the critique.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Wordsworth uses the archaic pronoun \"her\" in \"The Sea that bares her bosom to the moon\" instead of the neuter \"its,\" and what grammatical concept this illustrates.",
+     "a": "Wordsworth uses \"her\" to personify the Sea as female, a grammatical choice called **grammatical gender assignment** or **personification through pronoun selection**. In modern English, inanimate objects take \"it/its,\" but poetic tradition assigns gender to natural forces. A wrong answer like \"it's just old-fashioned language\" misses the analytical point: the grammatical gender choice is not decorative but thematic - it aligns the Sea with nurturing femininity (\"bosom,\" \"suckled\" later in the poem), contrasting with the sterile masculinity of industrial \"getting and spending.\" The grammatical choice encodes the poem's ecological philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the line \"It moves us not\" in modern standard English word order, then explain how the grammatical change alters the poetic effect.",
+     "a": "Modern word order: \"It does not move us\" or \"It doesn't move us.\"\nSteps:\n1. Identify the archaic structure: negative particle \"not\" postposed after the verb without \"do\"-support.\n2. Apply modern rule: English requires \"do\"-support for negation of main verbs (\"does not move\").\n3. Compare effects: The archaic \"moves us not\" creates metrical regularity (iambic pentameter: it MOVES us NOT) and places emphatic stress on \"not\" at line-end, creating a dead-stop finality. The modern version adds a syllable (\"does\"), disrupting the meter, and buries the negation mid-sentence. A wrong answer that only gives the modern version without analyzing the metrical and rhetorical consequence shows mechanical rule application without literary sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the conditional construction in \"Great God! I'd rather be / A Pagan suckled in a creed outworn; / So might I, standing on this pleasant lea, / Have glimpses that would make me less forlorn.\" Identify the mood, the hypothetical structure, and explain how the grammar enacts the speaker's longing.",
+     "a": "The construction uses **subjunctive/conditional mood** in a **counterfactual hypothetical** structure. \"I'd rather be\" (would rather + bare infinitive) expresses preference for an unreal present. \"So might I... have glimpses\" uses inversion (\"might I\" instead of \"I might\") marking the optative/subjunctive - a wish for a possible but unrealized outcome. The grammar enacts longing by: (1) using \"would rather\" to reject reality, (2) inverting \"might I\" to signal the hypothetical mode grammatically, (3) chaining \"would make\" in the relative clause to project a conditional result. A wrong answer identifying only \"conditional tense\" misses the layered mood shifts - the poem moves from indicative (\"The world is...\") to counterfactual preference (\"I'd rather be\") to optative inversion (\"So might I\") to projected conditional (\"would make\"), each grammatical shift deepening the retreat from industrial reality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Wordsworth's use of archaic grammar like 'wreathèd' and 'outworn' is just decoration to make the poem sound old and poetic.\" Defend or refute with grammatical evidence.",
+     "a": "Refute. The archaic morphology is **semantically functional**, not decorative.\nEvidence 1: \"wreathèd\" (two syllables: wreath-èd) maintains iambic pentameter in \"blow his wreathèd horn\" - modern \"wreathed\" (one syllable) would break the meter.\nEvidence 2: \"outworn\" (prefix out- + past participle) condenses \"worn out by time\" into a single compound adjective, syntactically efficient and thematically dense - it modifies \"creed\" to mean \"a religion exhausted by history,\" paralleling the speaker's exhausted \"powers.\"\nEvidence 3: The -èd suffix appears also in \"up-gatherèd\" (implied in \"up-gathered now like sleeping flowers\" - though modern editions may print \"up-gathered,\" the participial adjective form carries passive voice force: the winds *have been* gathered, not *gather themselves*).\nA wrong answer accepting the claim reveals inability to distinguish ornamental archaism from grammatically motivated archaism - a crucial distinction for board-level poetry analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write two original lines of poetry (in iambic pentameter) that use syntactic inversion and an archaic morphological form to express a modern environmental concern, modeling Wordsworth's technique.",
+     "a": "Sample answer:\n\"Concrete and steel too much with us; early and late,\nWe pave the earth, and nature's heart abate.\"\nAnalysis of student's answer should check:\n1. Inversion: \"early and late\" postposed (like \"late and soon\")\n2. Archaic morphology: \"abate\" used as transitive verb with -e ending implied, or \"pavèd\" / \"wreathèd\" equivalent\n3. Iambic pentameter: con-CRETE and STEEL too MUCH with US; EAR-ly and LATE (5 iambs)\n4. Thematic parallel: modern environmental critique through grammatical resistance\nA poor answer uses modern word order (\"Early and late, concrete and steel are too much with us\") and no archaic forms, showing inability to transfer the grammatical technique creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

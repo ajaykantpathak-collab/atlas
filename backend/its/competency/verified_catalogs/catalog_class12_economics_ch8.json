@@ -1,0 +1,498 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 8,
+ "chapter_title": "Development Experience of India - A Comparison with Neighbours",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec108.txt",
+ "concepts": [
+  {
+   "id": "c12eco.8.1",
+   "title": "India and Pakistan: Economic Development Path",
+   "section": "8.1",
+   "definition": "India and Pakistan, both part of British India until 1947, followed different development paths with India emphasising public-sector-led planning and Pakistan relying more on private enterprise and foreign aid.",
+   "formula": "",
+   "key_idea": "Despite a shared colonial past, India and Pakistan adopted contrasting economic strategies, leading to different growth and structural outcomes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compare the development paths of India and Pakistan",
+    "how did the economic strategies of India and Pakistan differ after independence",
+    "explain the role of public sector in India and Pakistan",
+    "what similarities exist in the economic development of India and Pakistan",
+    "discuss the impact of land reforms in India and Pakistan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the common colonial heritage",
+     "explain": "Note that both India and Pakistan inherited similar economic structures from British India in 1947."
+    },
+    {
+     "step": 2,
+     "action": "Compare development strategies",
+     "explain": "India pursued public-sector-led planning and import substitution; Pakistan relied more on private sector and foreign aid."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate outcomes",
+     "explain": "Compare growth rates, industrial structure, and poverty outcomes of the two countries over the decades."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compare the development paths of India and Pakistan.",
+     "solution": "India adopted a public-sector-led, import-substituting strategy with five-year plans; Pakistan relied more on private enterprise, foreign aid, and a relatively open economy.",
+     "answer": "India used public-sector planning; Pakistan relied on private enterprise and foreign aid."
+    },
+    {
+     "question": "What is a key similarity in the economic development of India and Pakistan?",
+     "solution": "Both countries inherited an agrarian economy from British India and faced similar challenges of poverty, low literacy, and low industrialisation at independence.",
+     "answer": "Both inherited agrarian economies with poverty and low industrialisation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the development paths of India and Pakistan.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention two similarities in the economic development of India and Pakistan.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the role of the public sector differ in India and Pakistan?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.2",
+   "title": "India and China: Economic Development Path",
+   "section": "8.1",
+   "definition": "India and China, both large Asian economies, adopted different reform paths: China introduced market reforms in 1978 under communist rule, while India launched liberalisation in 1991 within a democratic framework.",
+   "formula": "",
+   "key_idea": "China's reforms began earlier and emphasised export-led manufacturing, while India's reforms focused on services and a slower shift from planning to markets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compare the development paths of India and China",
+    "how did China's economic reforms of 1978 differ from India's 1991 reforms",
+    "explain the role of special economic zones in China's growth",
+    "why did China grow faster than India after reforms",
+    "discuss the sectoral focus of reforms in India and China"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the timing and context of reforms",
+     "explain": "Note that China began reforms in 1978 under a one-party system; India began in 1991 within a democracy."
+    },
+    {
+     "step": 2,
+     "action": "Compare reform strategies",
+     "explain": "China emphasised agriculture, SEZs, and export-led manufacturing; India emphasised services, IT, and gradual liberalisation."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate growth outcomes",
+     "explain": "Compare GDP growth rates, manufacturing share, and poverty reduction achieved by the two economies."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compare the economic reforms of India and China.",
+     "solution": "China began reforms in 1978 focusing on agriculture, SEZs, and export manufacturing under a communist state; India began in 1991 focusing on services and deregulation within a democracy.",
+     "answer": "China reformed earlier with export-led manufacturing; India reformed later with a services focus."
+    },
+    {
+     "question": "Why did China grow faster than India after reforms?",
+     "solution": "China's earlier reforms, strong infrastructure, export-led manufacturing, and labour-intensive SEZs produced faster GDP growth and poverty reduction.",
+     "answer": "Earlier reforms, infrastructure, and export-led manufacturing drove China's faster growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the development paths of India and China.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did China grow faster than India after reforms?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of special economic zones in China's growth.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.3",
+   "title": "Demographic Indicators: India, Pakistan, China",
+   "section": "8.2",
+   "definition": "Demographic indicators such as population size, growth rate, sex ratio, and fertility rate describe the population structure and dynamics of a country.",
+   "formula": "annual_population_growth_rate = ((population_t1 - population_t0) / population_t0) * 100",
+   "key_idea": "China's one-child policy slowed its population growth sharply, while India and Pakistan continue to have higher fertility and younger populations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the annual population growth rate given two population figures",
+    "compare the demographic indicators of India, Pakistan, and China",
+    "how did China's one-child policy affect its population growth",
+    "why does India have a younger population than China",
+    "discuss the implications of a high population growth rate for development"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the population at two time points",
+     "explain": "Collect the population at the start and end of the period from the data."
+    },
+    {
+     "step": 2,
+     "action": "Compute the absolute change in population",
+     "explain": "Subtract the initial population from the final population.",
+     "compute": "change = population_t1 - population_t0"
+    },
+    {
+     "step": 3,
+     "action": "Compute the growth rate as a percentage",
+     "explain": "Divide the change by the initial population and multiply by 100.",
+     "compute": "annual_population_growth_rate = (change / population_t0) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The population of a country rises from 100 crore to 105 crore in a year. Calculate the annual population growth rate.",
+     "solution": "Growth rate = ((105 - 100) / 100) x 100 = 5 percent.",
+     "answer": "5 percent"
+    },
+    {
+     "question": "If population increases from 120 crore to 126 crore, find the annual population growth rate.",
+     "solution": "Growth rate = ((126 - 120) / 120) x 100 = 5 percent.",
+     "answer": "5 percent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the annual population growth rate when population rises from 90 crore to 93.6 crore.",
+     "type": "compute"
+    },
+    {
+     "question": "Compare the demographic indicators of India, Pakistan, and China.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did China's one-child policy affect its population growth?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.4",
+   "title": "GDP Growth Comparison: India, Pakistan, China",
+   "section": "8.2",
+   "definition": "GDP growth comparison examines the rate at which the gross domestic product of the three countries has expanded over time, reflecting the pace of economic progress.",
+   "formula": "gdp_growth_rate = ((gdp_t1 - gdp_t0) / gdp_t0) * 100",
+   "key_idea": "China has consistently recorded the highest GDP growth among the three, followed by India, with Pakistan lagging behind over the reform period.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the GDP growth rate given GDP in two years",
+    "compare the GDP growth rates of India, Pakistan, and China",
+    "why has China recorded higher GDP growth than India and Pakistan",
+    "explain the trend of GDP growth in the three countries since the 1980s",
+    "discuss the implications of differential GDP growth for living standards"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify GDP at two time points",
+     "explain": "Collect the GDP figures for the start and end of the period."
+    },
+    {
+     "step": 2,
+     "action": "Compute the absolute change in GDP",
+     "explain": "Subtract the initial GDP from the final GDP.",
+     "compute": "change = gdp_t1 - gdp_t0"
+    },
+    {
+     "step": 3,
+     "action": "Compute the GDP growth rate as a percentage",
+     "explain": "Divide the change by the initial GDP and multiply by 100.",
+     "compute": "gdp_growth_rate = (change / gdp_t0) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "GDP rises from 1000 billion dollars to 1080 billion dollars. Calculate the GDP growth rate.",
+     "solution": "Growth rate = ((1080 - 1000) / 1000) x 100 = 8 percent.",
+     "answer": "8 percent"
+    },
+    {
+     "question": "If GDP increases from 500 billion dollars to 530 billion dollars, find the GDP growth rate.",
+     "solution": "Growth rate = ((530 - 500) / 500) x 100 = 6 percent.",
+     "answer": "6 percent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the GDP growth rate when GDP rises from 2000 billion dollars to 2120 billion dollars.",
+     "type": "compute"
+    },
+    {
+     "question": "Compare the GDP growth rates of India, Pakistan, and China since the 1980s.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why has China recorded higher GDP growth than India and Pakistan?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.5",
+   "title": "Sectoral Composition of Output",
+   "section": "8.2",
+   "definition": "Sectoral composition measures the share of agriculture, industry, and services in a country's GDP, indicating the structural transformation of the economy.",
+   "formula": "sector_share = (sector_output / total_gdp) * 100",
+   "key_idea": "China is more industry-driven, India is services-driven, and Pakistan remains relatively more dependent on agriculture and services.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the share of a sector in GDP given sector output and total GDP",
+    "compare the sectoral composition of India, Pakistan, and China",
+    "why is the service sector dominant in India's GDP",
+    "how does China's sectoral composition differ from India's",
+    "explain the significance of structural transformation for development"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the output of the sector and total GDP",
+     "explain": "Collect the value of output of the sector and the total GDP of the country."
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio of sector output to GDP",
+     "explain": "Divide the sector output by the total GDP.",
+     "compute": "ratio = sector_output / total_gdp"
+    },
+    {
+     "step": 3,
+     "action": "Convert the ratio to a percentage share",
+     "explain": "Multiply the ratio by 100 to get the sector's share in GDP.",
+     "compute": "sector_share = ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The service sector output is 600 billion dollars and total GDP is 1000 billion dollars. Calculate the service sector share.",
+     "solution": "Service sector share = (600 / 1000) x 100 = 60 percent.",
+     "answer": "60 percent"
+    },
+    {
+     "question": "If agriculture output is 150 billion dollars and total GDP is 1000 billion dollars, find the agriculture share.",
+     "solution": "Agriculture share = (150 / 1000) x 100 = 15 percent.",
+     "answer": "15 percent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the industry share when industry output is 400 billion dollars and total GDP is 1000 billion dollars.",
+     "type": "compute"
+    },
+    {
+     "question": "Compare the sectoral composition of India, Pakistan, and China.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the service sector dominant in India's GDP?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.6",
+   "title": "Human Development Indicators: A Comparison",
+   "section": "8.2",
+   "definition": "Human development indicators such as life expectancy, literacy rate, infant mortality rate, and HDI rank measure the well-being of people beyond income.",
+   "formula": "",
+   "key_idea": "China ranks highest on most human development indicators among the three, with India in the middle and Pakistan lagging on literacy and health.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compare the human development indicators of India, Pakistan, and China",
+    "how does India's HDI rank compare with China and Pakistan",
+    "explain the significance of life expectancy and literacy in development",
+    "why does China perform better on human development indicators",
+    "discuss the relationship between human development and economic growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the key human development indicators",
+     "explain": "Identify life expectancy, literacy rate, infant mortality rate, and HDI rank as the main indicators."
+    },
+    {
+     "step": 2,
+     "action": "Compare the three countries on each indicator",
+     "explain": "Note that China leads on life expectancy and literacy, India is in the middle, and Pakistan lags."
+    },
+    {
+     "step": 3,
+     "action": "Relate human development to growth",
+     "explain": "Explain how better health and education raise productivity and long-run growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compare India, Pakistan, and China on human development indicators.",
+     "solution": "China has the highest life expectancy and literacy and lowest infant mortality; India is in the middle; Pakistan lags on literacy and health.",
+     "answer": "China leads; India is in the middle; Pakistan lags on human development."
+    },
+    {
+     "question": "Why does China perform better on human development indicators?",
+     "solution": "China's earlier investment in education, public health, and rural infrastructure raised literacy and life expectancy faster than in India and Pakistan.",
+     "answer": "Earlier investment in education and health improved China's human development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the human development indicators of India, Pakistan, and China.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does China perform better on human development indicators?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the relationship between human development and economic growth.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.7",
+   "title": "Similarities and Differences Among India, Pakistan, China",
+   "section": "8.3",
+   "definition": "All three countries share a history of colonial or semi-colonial rule and planning, but differ in political system, reform timing, and sectoral focus of development.",
+   "formula": "",
+   "key_idea": "Despite shared starting points, differences in governance, reform strategy, and human capital investment produced divergent development outcomes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the similarities in the development of India, Pakistan, and China",
+    "what are the key differences in the development paths of the three countries",
+    "how does the political system affect economic development in India and China",
+    "explain the common challenges faced by India, Pakistan, and China",
+    "discuss the divergent outcomes of development in the three countries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the similarities",
+     "explain": "List common colonial heritage, reliance on planning, and agrarian starting point as similarities."
+    },
+    {
+     "step": 2,
+     "action": "Identify the differences",
+     "explain": "Contrast political systems, reform timing, and sectoral emphasis across the three countries."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the divergent outcomes",
+     "explain": "Assess how differences in strategy led to different growth, poverty, and human development results."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention two similarities in the development of India, Pakistan, and China.",
+     "solution": "All three started with low per capita income and an agrarian economy, and all adopted some form of economic planning after independence.",
+     "answer": "Shared low-income agrarian start and adoption of economic planning."
+    },
+    {
+     "question": "Mention two key differences among the three countries.",
+     "solution": "China is a one-party communist state with earlier reforms; India is a democracy with later reforms; Pakistan has faced political instability and slower reforms.",
+     "answer": "Different political systems, reform timing, and stability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the similarities in the development of India, Pakistan, and China?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention two key differences among the three countries.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the political system affect economic development in India and China?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.8",
+   "title": "Lessons from India's Neighbours",
+   "section": "8.4",
+   "definition": "Lessons from neighbours are policy insights India can draw from the development experiences of China and Pakistan, including the role of reforms, infrastructure, and human capital.",
+   "formula": "",
+   "key_idea": "India can learn from China's emphasis on infrastructure, manufacturing, and human capital, and avoid the pitfalls of political instability seen in Pakistan.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what lessons can India learn from China's development experience",
+    "what lessons can India learn from Pakistan's development experience",
+    "how can India improve its manufacturing sector based on China's experience",
+    "what is the role of infrastructure in learning from neighbours",
+    "discuss the importance of human capital investment drawn from China"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify lessons from China",
+     "explain": "List infrastructure investment, export-led manufacturing, and human capital focus as lessons from China."
+    },
+    {
+     "step": 2,
+     "action": "Identify lessons from Pakistan",
+     "explain": "Note the need to avoid political instability, manage foreign debt, and strengthen institutions."
+    },
+    {
+     "step": 3,
+     "action": "Synthesise lessons for India",
+     "explain": "Recommend that India combine democratic governance with faster infrastructure and human capital investment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Mention two lessons India can learn from China.",
+     "solution": "India can invest more in physical infrastructure and promote labour-intensive export manufacturing as China did.",
+     "answer": "Invest in infrastructure and promote export manufacturing."
+    },
+    {
+     "question": "What lesson can India draw from Pakistan's experience?",
+     "solution": "India should maintain political stability, avoid excessive foreign debt dependence, and strengthen institutions to sustain growth.",
+     "answer": "Maintain political stability and avoid excessive foreign debt."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What lessons can India learn from China's development experience?",
+     "type": "long_answer"
+    },
+    {
+     "question": "What lessons can India learn from Pakistan's development experience?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How can India improve its manufacturing sector based on China's experience?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

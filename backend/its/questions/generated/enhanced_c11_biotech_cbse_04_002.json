@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_002",
+   "title": "c11_biotech_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define the term 'active site' of an enzyme and state its approximate size relative to the whole enzyme molecule.",
+     "a": "The active site is a three-dimensional pocket or cleft formed by specific amino acid residues on the enzyme surface where substrate binds to form the enzyme-substrate complex. It constitutes only a small fraction (typically 3-12 amino acids) of the total enzyme volume. A wrong answer describing it as \"the whole enzyme surface\" or \"a flat binding surface\" reveals the student hasn't grasped its pocket-like 3D architecture and small relative size.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the Lock and Key Model, the enzyme changes its shape to fit the substrate.\" Is this statement correct? Explain why or why not using the model's core assumption.",
+     "a": "The statement is incorrect. The Lock and Key Model explicitly assumes the active site is rigid and pre-shaped (complementary to the substrate) before binding occurs; no conformational change in the enzyme takes place. The substrate fits into the pre-existing cavity like a key into a rigid lock. If a student says the enzyme changes shape, they are confusing this model with the Induced Fit Model (Koshland, 1958), which proposes flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Lysozyme hydrolyzes the β(1→4) glycosidic bond between N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM) in bacterial peptidoglycan. Its active site cleft accommodates six sugar residues (subsites A-F). If a synthetic substrate containing only three NAG units is used, predict whether an ES complex will form and justify using Lock and Key principles.",
+     "a": "An ES complex will likely form but with lower binding affinity. The Lock and Key Model requires geometric complementarity; the three-sugar substrate can occupy a subset of subsites (e.g., A-C or D-F) and still fit the cleft's shape partially. However, fewer non-covalent interactions (hydrogen bonds, hydrophobic contacts) will form compared to the natural six-sugar substrate, reducing binding stability. A wrong answer claiming \"no binding occurs\" ignores that partial complementarity still permits binding, just less effectively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of hydrogen bonds versus hydrophobic interactions in stabilizing the enzyme-substrate complex in the Lock and Key Model. Which contributes more to binding specificity and which to binding energy? Explain with reasoning.",
+     "a": "Hydrogen bonds provide high directionality and geometric specificity—they require precise donor-acceptor alignment, making them primary determinants of which substrate fits the active site (specificity). Hydrophobic interactions, while weaker individually, are numerous and collectively contribute the major portion of binding free energy (binding energy) by excluding water from the nonpolar surfaces of both enzyme and substrate. A student who reverses these roles misunderstands that specificity arises from precise geometric matching (H-bonds) while affinity arises from cumulative weak forces (hydrophobic effect).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Lock and Key Model's ability to explain the following experimental observation: \"Chymotrypsin cleaves peptide bonds adjacent to aromatic amino acids (Phe, Tyr, Trp) but its active site also binds non-substrate competitive inhibitors that lack a scissile bond.\" Does the model support or contradict this? Justify.",
+     "a": "The Lock and Key Model supports this observation. Since the model requires only structural complementarity between active site and substrate/inhibitor, any molecule with the correct shape (aromatic side chain fitting the hydrophobic S1 pocket) can bind, regardless of whether it possesses a cleavable peptide bond. The model predicts competitive inhibitors will bind the same site without reaction. A critique claiming the model fails here misunderstands that Lock and Key describes binding geometry, not catalytic mechanism—it correctly predicts that binding ≠ catalysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical enzyme active site that would show absolute specificity for D-glucose but not L-glucose. Describe the three-dimensional arrangement of amino acid residues needed and specify which non-covalent interactions would discriminate between the two enantiomers.",
+     "a": "The active site must be a chiral pocket with three contact points arranged to match D-glucose's hydroxyl group geometry (e.g., C2, C3, C4 OH groups equatorial). Residues: Asp (H-bond acceptor at C2-OH), Asn (H-bond donor to C3-OH), Tyr (hydrophobic stacking + H-bond to C4-OH). L-glucose has axial OH at C2/C3/C4 in the chair conformation, causing steric clash and H-bond misalignment. Van der Waals repulsion and loss of H-bonds would prevent L-glucose binding. A poor answer omits the three-point attachment rule or fails to specify chirality of the pocket.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

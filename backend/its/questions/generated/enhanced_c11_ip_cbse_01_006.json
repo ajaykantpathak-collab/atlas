@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_006",
+   "title": "c11_ip_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between RAM and ROM in terms of data retention when power is removed?",
+     "a": "RAM is volatile: it loses all stored data when power is turned off. ROM is non-volatile: it retains data permanently without power. A wrong answer (e.g., \"both lose data\" or \"ROM is faster\") reveals confusion about volatility — the defining characteristic that dictates their roles: RAM for temporary workspace, ROM for permanent firmware.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"ROM is called Read-Only Memory, so the CPU can never write to it. That means the BIOS stored in ROM can never be updated.\" Explain why this reasoning is incorrect.",
+     "a": "While mask ROM is truly read-only, modern systems use EEPROM (Electrically Erasable Programmable ROM) or flash memory for BIOS/UEFI, which can be rewritten electrically (flashing). The student's error is assuming all ROM types are permanently fixed after manufacture; they confuse the category name with the specific technology. This misconception prevents understanding how firmware updates work.",
+     "self_check": true
+    },
+    {
+     "q": "Your computer has 8 GB of DRAM. You open a 2 GB video file, a 1.5 GB game, and a 500 MB browser. The OS reports 92% RAM usage. Why does the system slow down even though total open apps (4 GB) < 8 GB RAM?",
+     "a": "The OS itself consumes 1–2 GB; background processes, file caches, and memory fragmentation use the rest. When available physical RAM drops below a threshold, the OS starts swapping pages to secondary storage (virtual memory), which is orders of magnitude slower. The student must apply the concept that RAM holds OS + apps + caches, not just user apps, and that performance degrades before 100% usage due to paging.",
+     "self_check": true
+    },
+    {
+     "q": "Compare SRAM and DRAM on three parameters: (a) transistor count per bit, (b) need for refresh cycles, (c) typical use in a modern computer. Which one is used for CPU cache and why?",
+     "a": "SRAM uses 6 transistors/bit, no refresh needed, faster, used for CPU cache (L1/L2/L3). DRAM uses 1 transistor + 1 capacitor/bit, requires periodic refresh, slower but denser/cheaper, used for main system RAM. A wrong answer (e.g., \"DRAM for cache because it's cheaper\") shows failure to analyze the speed-density-cost trade-off that drives memory hierarchy design.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since ROM is non-volatile and retains data without power, we should replace all RAM with ROM to make computers instant-on and lose no data during power cuts.\" Evaluate this proposal.",
+     "a": "The proposal fails because: (1) ROM (especially EEPROM/flash) has limited write endurance (~10⁵–10⁶ cycles) vs. RAM's unlimited writes; (2) ROM write speed is orders of magnitude slower than RAM; (3) RAM allows byte-level random write, while flash writes in blocks. A student agreeing misses the critical distinction: RAM is for frequent, fast, fine-grained read-write; ROM is for rare, slow, coarse-grained updates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a memory system for a Mars rover that must: (a) survive radiation-induced bit flips, (b) retain science data during 6-month communication blackouts, (c) allow in-flight firmware patches from Earth. Specify RAM type, ROM type, and one additional technology with justification.",
+     "a": "Use radiation-hardened SRAM (ECC-protected) for main memory — SRAM's latch-up immunity and ECC correct bit flips. Use MRAM (Magnetoresistive RAM) or radiation-hardened EEPROM for firmware — non-volatile, radiation-tolerant, rewritable for patches. Add EDAC (Error Detection and Correction) controller. A poor answer picks commercial DRAM/flash without radiation hardening, ignoring the environment constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

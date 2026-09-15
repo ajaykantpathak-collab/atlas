@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc110.json",
+ "concepts": [
+  {
+   "id": "jesc.110.10.1",
+   "title": "The Human Eye - Structure and Working",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does the eye change focus for near and far objects?",
+     "a": "Ciliary muscles alter the lens thickness (curvature), changing its focal length - accommodation.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to the pupil in bright light?",
+     "a": "The iris makes the pupil smaller, limiting the light entering the eye.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a normal eye's near point 25 cm?",
+     "a": "Below this the lens cannot thicken further, so close objects blur - 25 cm is the least comfortable distance.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.110.10.2",
+   "title": "Defects of Vision and Their Correction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What lens corrects myopia and why?",
+     "a": "A concave (diverging) lens, because it spreads rays so the image forms back on the retina of an elongated eyeball.",
+     "self_check": true
+    },
+    {
+     "q": "What lens corrects hypermetropia and why?",
+     "a": "A convex (converging) lens, which adds convergence so near objects focus on the retina.",
+     "self_check": true
+    },
+    {
+     "q": "Name the defect where a person cannot see nearby objects past a certain age and its correction.",
+     "a": "Presbyopia, corrected with bifocal lenses.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.110.10.3",
+   "title": "Dispersion, Scattering and the Colourful Sky",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does a prism split white light?",
+     "a": "Different colours refract by different amounts since their speeds in glass differ; violet bends most, red least.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the sun reddish at sunrise and sunset?",
+     "a": "Light crosses thicker air; blue is scattered away, letting mostly red reach the eye.",
+     "self_check": true
+    },
+    {
+     "q": "What causes the twinkling of stars?",
+     "a": "Atmospheric refraction through moving air layers changes the star's apparent brightness and position.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

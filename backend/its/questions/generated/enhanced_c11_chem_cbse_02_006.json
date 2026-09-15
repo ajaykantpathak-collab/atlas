@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_006",
+   "title": "c11_chem_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the SI units of frequency, wavelength, and wavenumber. Write the equation relating speed of light, frequency, and wavelength.",
+     "a": "Frequency: hertz (Hz = s⁻¹); wavelength: metre (m); wavenumber: m⁻¹ (commonly cm⁻¹). Equation: c = νλ. A wrong answer (e.g., giving wavelength in nm without conversion, or writing c = ν/λ) reveals confusion between wave parameters and inability to manipulate the fundamental equation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Increasing the brightness of a light source increases the energy of each photon.\" Explain why this is incorrect using Planck's quantum theory.",
+     "a": "Photon energy E = hν depends only on frequency (ν), not on intensity. Brightness (intensity) corresponds to number of photons per second, not energy per photon. A wrong answer indicates the student conflates intensity with photon energy, a classic misconception from classical wave theory.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the frequency and wavenumber of yellow light of wavelength 580 nm. (c = 3.00 × 10⁸ m s⁻¹)",
+     "a": "λ = 580 nm = 5.80 × 10⁻⁷ m. ν = c/λ = (3.00 × 10⁸)/(5.80 × 10⁻⁷) = 5.17 × 10¹⁴ Hz. ν̃ = 1/λ = 1/(5.80 × 10⁻⁷) = 1.72 × 10⁶ m⁻¹ = 1.72 × 10⁴ cm⁻¹. Errors in unit conversion (nm to m) or using c = 3.00 × 10⁸ cm/s reveal weak algebraic manipulation and unit awareness.",
+     "self_check": true
+    },
+    {
+     "q": "The black-body radiation curve at 5000 K peaks at a certain wavelength. If temperature is doubled to 10000 K, how does the peak wavelength change? Explain using Wien's displacement law (λ_max T = constant) and relate to Planck's quantization.",
+     "a": "λ_max halves (shifts to shorter wavelength). Wien's law: λ_max ∝ 1/T. Planck's quantization explains the curve shape: at higher T, higher-frequency (shorter λ) oscillators are excited, shifting the peak. A wrong answer (e.g., peak wavelength stays same) shows failure to connect temperature, wavelength, and quantum energy distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A 100 W sodium lamp emits monochromatic light at 589 nm. Is the number of photons emitted per second greater than, equal to, or less than that from a 100 W red laser at 650 nm? Justify.",
+     "a": "Greater. Power = energy per second = (number of photons/s) × (hν). For same power, lower photon energy (longer wavelength) means more photons. Red photon (650 nm) has lower energy than yellow (589 nm), so red laser emits more photons per second. A wrong choice reveals misunderstanding of the inverse relationship between photon energy and photon flux at constant power.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a prism, a thermometer, and sunlight to demonstrate that infrared radiation exists beyond the red end of the visible spectrum. Describe the setup and expected observation.",
+     "a": "Pass sunlight through a prism to form a spectrum on a table. Place a thermometer just beyond the red band (where no visible light falls). The thermometer shows a temperature rise, proving invisible radiation (infrared) carries energy. A poor answer (e.g., placing thermometer in visible red) misses the key idea of detecting radiation outside the visible range.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

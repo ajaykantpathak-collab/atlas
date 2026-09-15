@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_007",
+   "title": "c10_geo_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the soil type that is formed by the deposition of silt by rivers in the Northern Plains and state one major crop grown in it.",
+     "a": "Alluvial soil; major crops include rice, wheat, sugarcane, pulses, oilseeds. A wrong answer (e.g., Black soil) reveals the student confuses depositional origin with in-situ weathering origin and cannot link soil to its parent material and landform.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Black soil called 'self-ploughing' and what geological process forms it?",
+     "a": "Black soil develops deep cracks during dry weather due to high clay (montmorillonite) content, which acts like natural ploughing; it forms from weathering of Deccan Trap basalt under semi-arid conditions. A wrong answer (e.g., \"formed by river deposition\") shows the student does not understand in-situ formation from volcanic rock and misses the shrink-swell property of montmorillonite clay.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra's Deccan Plateau wants to grow cotton. Identify the soil type he will most likely have, and explain two properties of that soil that make it suitable for cotton.",
+     "a": "Black soil (Regur). Properties: (1) High moisture retention due to fine clay particles — cotton needs moisture during boll formation. (2) Rich in calcium carbonate, magnesium, potash, lime — essential for cotton growth. If the student says Red soil, they confuse the Deccan Plateau's basaltic region with its granitic/gneissic region and miss the specific nutrient and water-holding needs of cotton.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Red soil and Laterite soil on the basis of (a) formation process, (b) rainfall region, and (c) agricultural productivity without fertilizers.",
+     "a": "(a) Red soil: in-situ weathering of crystalline/metamorphic rocks (granite, gneiss) under moderate rainfall; Laterite: intense leaching of silica and bases under high temperature and heavy rainfall. (b) Red soil: moderate rainfall areas (e.g., parts of Tamil Nadu, Karnataka, Andhra Pradesh); Laterite: high rainfall areas (Western Ghats, Eastern Ghats, Meghalaya). (c) Red soil: moderately fertile, responds well to fertilizers; Laterite: highly acidic, low in humus and nutrients, poor productivity without heavy manuring. A wrong answer that swaps rainfall regions or says both are formed by leaching reveals confusion between weathering and leaching processes and their climatic controls.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Alluvial soil is the most agriculturally productive soil in India, so conservation efforts should focus only on it.\" Provide two arguments for and two against.",
+     "a": "For: (1) Alluvial soil supports 40% of India's population and produces bulk of food grains; (2) It is annually replenished by floods, making it naturally sustainable. Against: (1) Black soil is vital for cotton, oilseeds, millets — key for dryland farmers; (2) Red and Laterite soils cover vast tribal and hilly regions where marginal farmers depend on them — ignoring them worsens regional inequality. A wrong answer that only lists \"Alluvial is best\" shows inability to evaluate resource equity and multi-crop national food security.",
+     "self_check": true
+    },
+    {
+     "q": "Design a soil conservation plan for a 5-hectare farm in the Western Ghats foothills that has Laterite soil and receives 3000 mm annual rainfall. List three specific measures with geographical justification for each.",
+     "a": "Measures: (1) Contour bunding and terracing — steep slopes + heavy rain cause rapid erosion; contours reduce runoff velocity. (2) Agroforestry with deep-rooted trees (e.g., coconut, arecanut) + leguminous cover crops — Laterite is acidic and low in humus; trees recycle nutrients, legumes fix nitrogen. (3) Mulching with organic residues — reduces soil temperature, conserves moisture, adds organic matter to improve cation exchange capacity. A poor answer listing only \"plant trees\" without linking to leaching, acidity, slope, and rainfall shows lack of integration of soil properties and local conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

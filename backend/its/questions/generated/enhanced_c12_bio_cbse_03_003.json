@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_003",
+   "title": "c12_bio_cbse_03_003",
+   "questions": [
+    {
+     "q": "Name the cell type that divides by mitosis to maintain the spermatogonial stem-cell pool in the adult human testis.",
+     "a": "Type A spermatogonia (specifically Type A_single or A_s) undergo mitotic self-renewal to maintain the stem-cell pool, while Type A_paired, A_aligned, and Type B spermatogonia are committed to differentiation. A wrong answer (e.g., \"primary spermatocyte\" or \"spermatid\") reveals confusion between mitotic stem-cell divisions and meiotic divisions — the student has not distinguished the self-renewing population from the differentiating lineage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why primary spermatocytes must complete DNA replication (S-phase) before entering Meiosis I, but secondary spermatocytes do not replicate DNA before Meiosis II.",
+     "a": "Primary spermatocytes are diploid (2n, 4C DNA) and must replicate chromosomes once so that homologous pairs consist of sister chromatids, enabling crossing-over and reductional segregation in Meiosis I. Secondary spermatocytes are already haploid (n, 2C DNA) with replicated chromosomes; a second S-phase would double DNA content, defeating the purpose of halving the genome. A wrong answer (e.g., \"both replicate DNA\" or \"neither replicates\") shows the student does not grasp the ploidy/DNA-content changes across the two meiotic divisions — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A histology slide shows a seminiferous tubule cross-section with large cells having prominent nucleoli near the basement membrane, smaller cells with condensed chromatin near the lumen, and no visible lumen. Which stage of spermatogenesis is most abundant in this tubule, and what does the absence of a lumen indicate?",
+     "a": "The large basal cells are Type B spermatogonia / early primary spermatocytes; the condensed cells near the lumen are spermatids undergoing spermiogenesis. Absence of a lumen means spermiation has not yet occurred — this tubule is in the early stages of the spermatogenic cycle (stages I–VI in human). A wrong answer (e.g., \"spermatozoa are abundant\" or \"lumen is full of sperm\") indicates the student cannot correlate histology with the spermatogenic wave and spermiation timing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cytoplasmic fate in spermatogenesis vs oogenesis: why do spermatids shed most cytoplasm as residual bodies while the oocyte retains nearly all cytoplasm?",
+     "a": "Spermatids shed cytoplasm to become streamlined, motile delivery vehicles for paternal DNA; residual bodies are phagocytosed by Sertoli cells. The oocyte retains cytoplasm (yolk, organelles, mRNAs) to support early embryonic development until zygotic genome activation. A wrong answer (e.g., \"both shed cytoplasm equally\") shows the student misses the functional divergence: sperm = motile DNA vector; egg = nutrient-rich zygote starter kit.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has normal FSH and LH but low testosterone and low sperm count. Leydig cells are hyperplastic on biopsy. Propose the most likely defect and explain how it disrupts spermatogenesis.",
+     "a": "Defect: Leydig-cell LH-receptor mutation or 17β-hydroxysteroid dehydrogenase deficiency → impaired testosterone synthesis despite high LH (though LH is normal here, the hyperplastic Leydig cells suggest compensation attempt). Low intratubular testosterone fails to support Meiosis I completion and spermiogenesis (both require high local testosterone via androgen-binding protein). Sertoli cells also need testosterone for blood-testis barrier maintenance. A wrong answer (e.g., \"Sertoli cell defect only\") ignores the dual hormonal requirement: FSH acts on Sertoli cells, but testosterone (Leydig-derived) is essential for meiosis and spermiogenesis — a NEET-level integration trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rodent model to test whether Sertoli-cell-derived androgen-binding protein (ABP) is necessary for maintaining high testosterone concentration in seminiferous tubule fluid.",
+     "a": "Knock out ABP gene specifically in Sertoli cells (Cre-lox system). Measure testosterone in tubule fluid vs serum by LC-MS/MS at multiple stages. Control: wild-type littermates. Prediction: tubule fluid testosterone drops to serum levels (~1/100th of normal) while serum testosterone remains unchanged; spermatogenesis arrests at Meiosis I/spermiogenesis. A poor answer (e.g., \"measure blood testosterone only\") fails to isolate the compartment-specific role of ABP — the student doesn't understand the blood-testis barrier creates a distinct hormonal microenvironment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

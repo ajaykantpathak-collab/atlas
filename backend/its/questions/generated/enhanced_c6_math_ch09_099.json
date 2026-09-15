@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_099",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_099",
+   "title": "c6_math_ch09_099",
+   "questions": [
+    {
+     "q": "What is the main purpose of using a double bar graph instead of two separate single bar graphs?",
+     "a": "The main purpose is to compare two related sets of data side-by-side. A student who says \"to show more numbers\" misses the core concept of comparison; they need to understand that the proximity of the two bars is what makes the analysis easier.",
+     "self_check": true
+    },
+    {
+     "q": "If a double bar graph has bars for 'Rainfall in 2023' and 'Rainfall in 2024' for different months, why is it important to use a key or legend?",
+     "a": "The key identifies which color represents 2023 and which represents 2024. A wrong answer like \"it looks pretty\" shows they don't grasp that the key is a functional tool for data identification.",
+     "self_check": true
+    },
+    {
+     "q": "In a double bar graph showing marks of two students (Amit and Priya) in 5 subjects, if Amit’s bar is consistently taller than Priya's in all subjects, what does this tell you?",
+     "a": "It tells you that Amit scored higher than Priya in every subject represented. A student who answers only \"Amit is smart\" is not interpreting the data; they must focus on the relative heights of the bars.",
+     "self_check": true
+    },
+    {
+     "q": "If you are drawing a double bar graph to show the price of apples and oranges over 4 months, why must the width of all bars be the same?",
+     "a": "Uniform width ensures that the comparison is based purely on the height (the numerical value) of the bars. If bars had different widths, the eye might be tricked into thinking a wider bar represents a larger quantity.",
+     "self_check": true
+    },
+    {
+     "q": "If the gap between the two bars of a pair is inconsistent (e.g., one pair is touching, another pair has a wide gap), does it affect the accuracy of the data?",
+     "a": "It does not change the numerical data, but it makes the graph confusing and unprofessional. A student who says \"it's fine\" fails to see that graphs are communication tools that require consistency for clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a double bar graph would be more useful than a pictograph.",
+     "a": "A good answer would be \"comparing the population of two states over 10 years,\" because the numbers are too large for pictures. A poor answer would be \"counting toys,\" as that is better suited for a simple list or pictograph.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

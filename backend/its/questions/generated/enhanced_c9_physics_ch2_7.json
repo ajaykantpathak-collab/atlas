@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_7",
+   "title": "c9_physics_ch2_7",
+   "questions": [
+    {
+     "q": "What does the slope of a velocity-time graph represent, and what is its SI unit?",
+     "a": "The slope represents acceleration, with SI unit m/s². A wrong answer (e.g., \"slope gives speed\" or \"unit is m/s\") reveals the student is confusing velocity-time graphs with distance-time graphs, where slope gives speed.",
+     "self_check": true
+    },
+    {
+     "q": "A velocity-time graph shows a straight line sloping downward from +10 m/s at t=0 s to -5 m/s at t=5 s. Explain what the negative slope and the negative velocity values physically mean for the moving object.",
+     "a": "The negative slope means the object has a constant negative acceleration (deceleration if velocity is positive, acceleration in the negative direction). The velocity becoming negative at t=5 s means the object has reversed direction. A wrong answer that says \"the object is slowing down throughout\" misses the direction reversal and confuses deceleration with negative acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A car's velocity-time graph is a horizontal line at 20 m/s from t=0 s to t=10 s, then a straight line dropping to 0 m/s at t=15 s. Calculate the total displacement of the car from t=0 s to t=15 s.",
+     "a": "Step 1: Displacement = area under v-t graph. From 0-10 s: rectangle area = 20 m/s × 10 s = 200 m. From 10-15 s: triangle area = ½ × base × height = ½ × 5 s × 20 m/s = 50 m. Total displacement = 200 m + 50 m = 250 m. A wrong answer of 300 m (using 20×15) reveals the student treated the deceleration phase as constant velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Two velocity-time graphs are given: Graph A is a straight line through origin with slope 2 m/s². Graph B is a curve that starts at origin and gets steeper with time. Compare the accelerations at t=3 s for both graphs and explain which object has increasing acceleration.",
+     "a": "Graph A: constant slope = 2 m/s², so acceleration at t=3 s is 2 m/s². Graph B: slope increases with time, so acceleration at t=3 s is greater than at earlier times; the object has increasing acceleration (non-uniform). A wrong answer stating both have same acceleration at t=3 s reveals inability to distinguish constant vs. changing slope.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The area under a velocity-time graph always gives distance travelled, never displacement.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Area under v-t graph gives displacement (a vector), not distance (a scalar). If the graph goes below the time axis (negative velocity), that area subtracts from displacement but adds to distance. For example, a graph from +10 to -10 m/s symmetric about time axis gives zero displacement but non-zero distance. A wrong agreement reveals confusion between scalar distance and vector displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone's accelerometer and a toy car on a ramp to verify that the area under a velocity-time graph equals displacement. List the steps and what you would plot.",
+     "a": "Steps: (1) Place phone on toy car, start accelerometer recording. (2) Release car from rest on ramp, let it roll to stop. (3) Export acceleration vs. time data. (4) Integrate acceleration to get velocity vs. time (or use velocity directly if sensor provides). (5) Plot velocity-time graph. (6) Calculate area under graph numerically (e.g., trapezoidal rule). (7) Measure actual displacement with metre scale. Compare. A poor answer that only measures final speed and multiplies by time reveals misunderstanding of non-uniform acceleration and the need for integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

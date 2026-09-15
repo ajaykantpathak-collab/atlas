@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_011",
+   "title": "c11_cs_cbse_04_011",
+   "questions": [
+    {
+     "q": "What is the result of the Python expression `2 + 3 * 4 ** 2 // 5 - 1`?",
+     "a": "Correct answer: 10. Evaluation steps: 4**2=16 (exponentiation first), 3*16=48 (multiplication), 48//5=9 (floor division), 2+9=11 (addition), 11-1=10 (subtraction). A wrong answer like 39 (doing left-to-right) reveals the student ignores precedence and treats all operators equally. A wrong answer like 9 (doing 3*4 first) reveals confusion between * and ** precedence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `10 / 2 * 5` evaluates to 25.0 in Python, but `10 / (2 * 5)` evaluates to 1.0. What rule causes this difference?",
+     "a": "Correct explanation: * and / have equal precedence and left-to-right associativity, so `10 / 2 * 5` becomes (10/2)*5 = 5.0*5 = 25.0. Parentheses in `10 / (2 * 5)` force multiplication first: 2*5=10, then 10/10=1.0. A wrong answer claiming * has higher precedence than / reveals misunderstanding of equal-precedence associativity. A wrong answer giving 25 for both reveals ignoring parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the expression `x = 7; y = 3; result = x ** 2 % y + x // y * 2` step by step and give the final value of `result`.",
+     "a": "Correct answer: 8. Steps: x**2 = 49, 49%3 = 1 (modulo), x//y = 7//3 = 2 (floor division), 2*2 = 4 (multiplication), 1+4 = 5 (addition). Wait — let me recalculate: 49%3=1, 7//3=2, 2*2=4, 1+4=5. So result=5. A wrong answer of 11 (doing 49%3=1, then 1+7=8, 8//3=2, 2*2=4) reveals ignoring precedence between % and // vs +. A wrong answer of 2.333... reveals using true division / instead of //.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions `-(3 ** 2)` and `(-3) ** 2`. Why do they produce different results? Which operator has higher precedence: unary minus or exponentiation?",
+     "a": "Correct answer: `-(3**2)` = -9 because exponentiation has higher precedence than unary minus, so 3**2=9 then negated. `(-3)**2` = 9 because parentheses force -3 as base. Exponentiation has higher precedence than unary minus. A wrong answer claiming both are -9 or both 9 reveals not understanding that unary minus is an operator with lower precedence than **. A wrong answer saying unary minus has higher precedence reveals confusion about operator hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `celsius = 25; fahrenheit = 9 / 5 * celsius + 32` and gets 77.0. They argue the formula should be `(9/5)*celsius + 32` and that Python's result is wrong. Evaluate their claim.",
+     "a": "The student's claim is incorrect — Python's result 77.0 is mathematically correct. Due to left-to-right associativity of * and /, `9/5*celsius` evaluates as (9/5)*25 = 1.8*25 = 45.0, then +32 = 77.0. The parentheses in `(9/5)*celsius` are redundant but harmless. A student who thinks Python is wrong likely believes * has higher precedence than /, or that multiplication should happen before division regardless of order. This reveals a fundamental misunderstanding of equal-precedence left-to-right evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Python expression using exactly three operators from {+, -, *, /, //, %, **} and one pair of parentheses that evaluates to 100. The expression must use at least one integer and one float literal. Show the step-by-step evaluation.",
+     "a": "Example: `(10.0 + 5) * 6 + 10` evaluates to 100.0. Steps: parentheses first: 10.0+5=15.0, then multiplication: 15.0*6=90.0, then addition: 90.0+10=100.0. A poor answer like `10 * 10` uses no parentheses and only one operator. An answer like `(5+5)**2` evaluates to 100 but uses only int literals (no float). An answer with wrong precedence like `10.0 + 5 * 6 + 10` gives 50.0, revealing inability to design expressions with intended evaluation order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

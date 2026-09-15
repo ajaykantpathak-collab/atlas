@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_006",
+   "title": "c11_biotech_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the optimal pH range for lysosomal hydrolytic enzymes, and which membrane protein maintains this pH?",
+     "a": "Optimal pH is 4.5–5.0, maintained by V‑type H⁺‑ATPase (proton pump) that actively transports H⁺ from cytosol into the lysosomal lumen using ATP. A wrong answer (e.g., pH 7.0 or \"Na⁺/K⁺ pump\") reveals the student confuses lysosomal pH with cytosolic pH or misidentifies the pump; they have not grasped that acidity is actively created and is essential for enzyme activation and for preventing cytosolic damage if enzymes leak.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Lysosomes are formed directly by budding from the rough endoplasmic reticulum.\" Is this statement correct? Explain why or why not using the concept of enzyme targeting.",
+     "a": "The statement is incorrect. Lysosomal enzymes are synthesized on RER ribosomes, but they receive a mannose‑6‑phosphate (M6P) tag in the cis‑Golgi. M6P receptors in the trans‑Golgi network package them into clathrin‑coated vesicles that bud off to become late endosomes/lysosomes. A wrong answer indicates the student thinks the ER directly produces mature lysosomes, missing the essential Golgi modification and sorting step that distinguishes lysosomal enzymes from secretory proteins.",
+     "self_check": true
+    },
+    {
+     "q": "A macrophage engulfs a bacterium into a phagosome. Describe the sequence of events, including membrane dynamics and pH change, that leads to bacterial digestion.",
+     "a": "1. Phagosome forms by plasma membrane invagination around bacterium. 2. Early endosome/phagosome fuses with transport vesicles from trans‑Golgi carrying M6P‑tagged acid hydrolases. 3. V‑ATPase pumps H⁺ into the maturing phagolysosome, lowering pH to ~4.5. 4. Acidic pH activates hydrolases (proteases, nucleases, lipases). 5. Enzymes degrade bacterial macromolecules. 6. Degradation products (amino acids, sugars) are transported into cytosol via specific lysosomal transporters. A wrong sequence (e.g., enzymes added after acidification, or no mention of M6P targeting) shows the student cannot integrate membrane trafficking, pH regulation, and enzyme activation into a coherent pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast heterophagy and autophagy in terms of (a) origin of material digested, (b) membrane dynamics, and (c) physiological trigger.",
+     "a": "(a) Heterophagy digests extracellular material (e.g., phagocytosed bacteria); autophagy digests intracellular components (e.g., damaged mitochondria). (b) Heterophagy: phagosome fuses with lysosome; autophagy: isolation membrane (phagophore) engulfs cargo forming autophagosome, which then fuses with lysosome. (c) Heterophagy triggered by pathogen presence/receptor signaling; autophagy triggered by nutrient starvation, oxidative stress, or organelle damage. A poor comparison (e.g., saying both start with phagocytosis) reveals the student conflates the two pathways and does not recognize the distinct membrane origins and regulatory signals.",
+     "self_check": true
+    },
+    {
+     "q": "In Tay‑Sachs disease, β‑hexosaminidase A is deficient, causing GM2 ganglioside accumulation in neurons. Evaluate why this specific lipid accumulates in neurons but not necessarily in other cell types, considering lysosomal enzyme redundancy and substrate turnover.",
+     "a": "Neurons have high membrane turnover and synthesize large amounts of gangliosides for synaptic function; they lack alternative pathways to degrade GM2 because β‑hexosaminidase A is the only enzyme that cleaves its terminal N‑acetylgalactosamine. Other cells may have lower GM2 synthesis or express compensatory enzymes (e.g., sialidase) that partially process the substrate. A weak evaluation (e.g., \"all cells accumulate lipids equally\") shows the student does not connect cell‑type‑specific metabolic rates and enzyme specificity to the tissue‑specific pathology of lysosomal storage disorders.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using fluorescently labeled dextran and a pH‑sensitive dye to distinguish between early endosomes, late endosomes, and lysosomes in live cells. Outline the expected fluorescence patterns over time.",
+     "a": "Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.g., LysoSensor). Chase for 5 min: dextran appears in early endosomes (neutral pH, low dye fluorescence). Chase for 20 min: dextran moves to late endosomes (mildly acidic, moderate dye signal). Chase for 60 min: dextran co‑localizes with strong dye fluorescence in lysosomes (pH ~4.5). A poor design (e.g., using only one time point or a pH‑insensitive dye) reveals the student cannot apply the concept of progressive acidification along the endocytic pathway to experimental design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_001",
+   "title": "c11_ps_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define negative peace and positive peace in one sentence each, using Galtung’s terminology.",
+     "a": "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic, and political structures—such as equitable resource distribution, participatory governance, and cultural recognition—that remove the root causes of conflict. A wrong answer (e.g., “positive peace means everyone is happy”) reveals confusion between subjective well-being and structural conditions, or conflation of peace with mere absence of overt war.",
+     "self_check": true
+    },
+    {
+     "q": "A country signs a ceasefire agreement ending a civil war but makes no changes to land ownership, political representation, or minority rights. Using Galtung’s framework, classify the resulting situation and explain why it is unstable.",
+     "a": "This is negative peace only: direct violence has stopped, but structural violence (unequal land, exclusion from power) persists. It is unstable because the underlying grievances that fuelled the war remain unaddressed; spoilers can easily remobilise marginalized groups. A wrong answer (e.g., “it’s positive peace because the war ended”) shows inability to distinguish cessation of hostilities from transformation of conflict-generating structures.",
+     "self_check": true
+    },
+    {
+     "q": "The Indian Constitution’s Directive Principles (Articles 38, 39, 46) mandate the state to minimise income inequalities, prevent concentration of wealth, and promote educational/economic interests of SCs/STs. Argue whether these provisions aim at negative peace, positive peace, or both.",
+     "a": "They aim at positive peace. By targeting structural inequalities (caste, class, gender) that generate latent conflict, they seek to build just institutions that prevent violence before it erupts. Negative peace would be satisfied with mere law-and-order maintenance (Police, Article 246). A wrong answer (e.g., “they are about negative peace because they keep order”) misses the proactive, structural-transformative intent of the Directive Principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 1993 Oslo Accords (Israel-PLO mutual recognition, limited Palestinian self-rule) with South Africa’s 1994 transition (Truth & Reconciliation Commission, constitutional equality, land reform debates). Which better illustrates a shift from negative to positive peace? Justify with two specific structural changes.",
+     "a": "South Africa’s transition better illustrates the shift. Structural changes: (1) Constitutional guarantee of equality and socio-economic rights (positive peace floor), (2) Institutionalised truth-telling and reparations addressing past structural violence. Oslo Accords created negative peace (cessation of direct violence) but left settlements, refugees, and sovereignty unresolved—structural drivers intact. A wrong answer (e.g., “both are positive peace because they signed agreements”) conflates diplomatic agreements with structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “A society with zero homicides and zero riots has achieved positive peace.” Provide a counter-example from Indian history or contemporary affairs.",
+     "a": "The claim is false. Positive peace requires just structures, not just low crime. Counter-example: **Emergency (1975-77)**—low reported street violence (negative peace) but suspension of civil liberties, press censorship, and forced sterilisations constituted intense structural violence. Another: **Naxalite-affected districts** with heavy security presence suppressing overt conflict while land alienation and displacement persist. A wrong answer (e.g., “yes, because no one is dying”) reveals a reductive, security-centric view of peace.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-column “Peace Audit” template for a village panchayat. Column A: indicators of negative peace. Column B: indicators of positive peace. List three measurable items per column.",
+     "a": "Column A (Negative Peace): 1) Zero FIRs for assault/riot in past year. 2) No curfew or Section 144 imposition. 3) No displacement due to conflict. Column B (Positive Peace): 1) % of SC/ST households with patta land titles. 2) Women’s attendance in Gram Sabha meetings (target ≥50%). 3) Functional grievance-redressal mechanism resolving 80% complaints within 30 days. A poor answer lists only law-and-order metrics in both columns, showing failure to operationalise structural justice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

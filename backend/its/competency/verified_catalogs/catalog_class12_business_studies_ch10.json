@@ -1,0 +1,572 @@
+{
+ "class": "12",
+ "subject": "business_studies",
+ "chapter": 10,
+ "chapter_title": "Financial Markets",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\ClassXII_2023-24_BusinessStudies-SQP.txt",
+ "concepts": [
+  {
+   "id": "c12bs.10.1",
+   "title": "Meaning and Functions of Financial Markets",
+   "section": "Financial Markets",
+   "definition": "A financial market is a mechanism that allows people to buy and sell financial securities, commodities and other fungible items of value at low transaction costs and at prices that reflect supply and demand.",
+   "formula": "",
+   "key_idea": "Financial markets perform the mobilisation of savings, allocation of resources, price discovery and provision of liquidity, thereby linking savers with investors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define financial market and state its functions.",
+    "Explain the role of financial markets in the economy.",
+    "How do financial markets help in mobilising savings?",
+    "List the functions of a financial market.",
+    "Explain price discovery as a function of financial markets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define financial market",
+     "explain": "It is a platform where financial assets are bought and sold."
+    },
+    {
+     "step": 2,
+     "action": "List the functions",
+     "explain": "Mobilisation of savings, allocation of resources, price discovery, liquidity."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role",
+     "explain": "It links savers with investors and directs funds to productive uses."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a financial market?",
+     "solution": "A financial market is a market for the creation and exchange of financial assets.",
+     "answer": "Financial market = market for creation and exchange of financial assets."
+    },
+    {
+     "question": "State any four functions of a financial market.",
+     "solution": "Mobilisation of savings, allocation of resources, price discovery and provision of liquidity.",
+     "answer": "Four functions: mobilisation, allocation, price discovery, liquidity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions of a financial market.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do financial markets help in mobilising savings?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.2",
+   "title": "Types of Financial Markets -- Money Market and Capital Market",
+   "section": "Types of Financial Markets",
+   "definition": "The money market deals in short-term funds (up to one year) while the capital market deals in long-term funds (more than one year); together they meet the short-term and long-term financial needs of the economy.",
+   "formula": "",
+   "key_idea": "Money market instruments are liquid and low-risk with short maturities, while capital market instruments are for long-term growth and carry higher risk and return.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between money market and capital market.",
+    "What is the maturity period of money market instruments?",
+    "Give two examples each of money market and capital market instruments.",
+    "Explain the role of the money market in the economy.",
+    "How does the capital market differ from the money market in terms of risk?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define both markets",
+     "explain": "Money market = short-term (up to 1 year); Capital market = long-term (more than 1 year)."
+    },
+    {
+     "step": 2,
+     "action": "Compare features",
+     "explain": "Money market = low risk, high liquidity; Capital market = higher risk and return."
+    },
+    {
+     "step": 3,
+     "action": "Give examples",
+     "explain": "Money market: treasury bills, commercial paper; Capital market: equity shares, debentures."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between money market and capital market.",
+     "solution": "Money market deals in short-term funds with maturity up to one year; capital market deals in long-term funds with maturity beyond one year.",
+     "answer": "Money market = short-term; Capital market = long-term."
+    },
+    {
+     "question": "Give two examples each of money market and capital market instruments.",
+     "solution": "Money market: treasury bills, commercial paper; Capital market: equity shares, debentures.",
+     "answer": "Money market: T-bills, CP; Capital market: equity, debentures."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between money market and capital market.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the maturity period of money market instruments.",
+     "type": "very_short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.3",
+   "title": "Money Market Instruments",
+   "section": "Money Market Instruments",
+   "definition": "Money market instruments are short-term, highly liquid, low-risk debt instruments with maturities up to one year, including treasury bills, commercial paper, call money, certificates of deposit and commercial bills.",
+   "formula": "",
+   "key_idea": "Money market instruments help meet short-term financing needs of the government, banks and corporates while providing a parking avenue for short-term surplus funds.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the main instruments of the money market.",
+    "What is a treasury bill? State its features.",
+    "Explain commercial paper as a money market instrument.",
+    "What is call money? Who uses it?",
+    "Distinguish between a certificate of deposit and a commercial paper."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the instruments",
+     "explain": "Treasury bills, commercial paper, call money, certificates of deposit, commercial bills."
+    },
+    {
+     "step": 2,
+     "action": "Explain each instrument",
+     "explain": "State issuer, maturity and purpose of each instrument."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the common features",
+     "explain": "All are short-term, liquid and low-risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a treasury bill?",
+     "solution": "A treasury bill is a short-term government debt instrument issued at a discount and redeemed at face value on maturity.",
+     "answer": "Treasury bill = short-term discounted government debt instrument."
+    },
+    {
+     "question": "Explain commercial paper.",
+     "solution": "Commercial paper is an unsecured short-term debt instrument issued by corporates to raise short-term funds.",
+     "answer": "Commercial paper = unsecured short-term corporate debt."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any three instruments of the money market.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is a certificate of deposit?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.4",
+   "title": "Capital Market -- Primary and Secondary Market",
+   "section": "Capital Market",
+   "definition": "The primary market is where new securities are issued directly to investors (new issue market), while the secondary market is where existing securities are traded among investors (stock market).",
+   "formula": "",
+   "key_idea": "The primary market raises fresh capital for issuers through public and rights issues, while the secondary market provides liquidity and price discovery to existing securities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between primary market and secondary market.",
+    "What is the new issue market? Explain its functions.",
+    "How does the secondary market provide liquidity?",
+    "Explain the relationship between the primary and secondary market.",
+    "Give an example of a primary market transaction."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define primary market",
+     "explain": "It is the market for new issues of securities directly to investors."
+    },
+    {
+     "step": 2,
+     "action": "Define secondary market",
+     "explain": "It is the market for trading existing securities among investors."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship",
+     "explain": "A strong secondary market supports the primary market by providing liquidity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between primary and secondary market.",
+     "solution": "Primary market deals in new securities; secondary market deals in existing securities.",
+     "answer": "Primary = new issues; Secondary = existing securities."
+    },
+    {
+     "question": "Give an example of a primary market transaction.",
+     "solution": "A company issuing shares to the public through an initial public offer (IPO).",
+     "answer": "IPO is a primary market transaction."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions of the primary market.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the secondary market provide liquidity to investors?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.5",
+   "title": "Stock Exchange -- Meaning and Functions",
+   "section": "Stock Exchange",
+   "definition": "A stock exchange is an institution which provides a platform for the purchase and sale of existing securities such as shares, debentures and bonds, under rules and regulations.",
+   "formula": "",
+   "key_idea": "Stock exchanges provide liquidity and marketability to securities, ensure fair price discovery, promote savings and investment, and support economic growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define stock exchange and state its functions.",
+    "Explain the economic functions of a stock exchange.",
+    "How does a stock exchange ensure liquidity of securities?",
+    "List any four functions of a stock exchange.",
+    "Explain the role of a stock exchange in capital formation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define stock exchange",
+     "explain": "It is a platform for trading existing securities under rules."
+    },
+    {
+     "step": 2,
+     "action": "List the functions",
+     "explain": "Liquidity, price discovery, mobilisation of savings, capital formation."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role",
+     "explain": "It directs savings into productive investment and supports growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a stock exchange?",
+     "solution": "A stock exchange is a market where existing securities are bought and sold.",
+     "answer": "Stock exchange = market for existing securities."
+    },
+    {
+     "question": "State any four functions of a stock exchange.",
+     "solution": "Provides liquidity, ensures fair pricing, mobilises savings and promotes capital formation.",
+     "answer": "Four functions: liquidity, pricing, mobilisation, capital formation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions of a stock exchange.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does a stock exchange help in capital formation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.6",
+   "title": "SEBI -- Meaning and Objectives",
+   "section": "Securities and Exchange Board of India (SEBI)",
+   "definition": "SEBI is the statutory regulatory body established in 1992 to regulate the securities market in India and protect the interests of investors in securities and promote the development of the securities market.",
+   "formula": "",
+   "key_idea": "SEBI's objectives are to protect investors, regulate the securities market and promote its development through fair and transparent practices.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is SEBI? State its objectives.",
+    "Explain the need for SEBI in the Indian securities market.",
+    "List the three objectives of SEBI.",
+    "When was SEBI established as a statutory body?",
+    "Explain the role of SEBI in investor protection."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define SEBI",
+     "explain": "It is the statutory regulator of the securities market in India."
+    },
+    {
+     "step": 2,
+     "action": "State the objectives",
+     "explain": "Protect investors, regulate the market, promote development."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need",
+     "explain": "To prevent malpractices and ensure fair and transparent trading."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is SEBI?",
+     "solution": "SEBI is the Securities and Exchange Board of India, the statutory regulator of the securities market.",
+     "answer": "SEBI = statutory regulator of the securities market."
+    },
+    {
+     "question": "State the three objectives of SEBI.",
+     "solution": "To protect the interests of investors, to regulate the securities market and to promote the development of the securities market.",
+     "answer": "Three objectives: investor protection, regulation, development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the objectives of SEBI.",
+     "type": "long_answer"
+    },
+    {
+     "question": "When was SEBI established as a statutory body?",
+     "type": "very_short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.7",
+   "title": "Functions of SEBI",
+   "section": "Functions of SEBI",
+   "definition": "SEBI performs protective, regulatory and developmental functions to safeguard investor interests, ensure orderly market conduct and develop the securities market infrastructure.",
+   "formula": "",
+   "key_idea": "SEBI's protective functions prevent fraud and malpractices, regulatory functions oversee market intermediaries, and developmental functions promote the growth of the securities market.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the protective functions of SEBI.",
+    "Explain the regulatory functions of SEBI.",
+    "Explain the developmental functions of SEBI.",
+    "How does SEBI prevent insider trading?",
+    "List any three regulatory functions of SEBI."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the functions",
+     "explain": "SEBI has protective, regulatory and developmental functions."
+    },
+    {
+     "step": 2,
+     "action": "Explain each category",
+     "explain": "Protective = investor protection; Regulatory = oversight; Developmental = market growth."
+    },
+    {
+     "step": 3,
+     "action": "Give examples",
+     "explain": "Protective: ban on insider trading; Regulatory: registration of brokers; Developmental: training."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the protective functions of SEBI.",
+     "solution": "SEBI prevents fraudulent practices, insider trading and unfair trade practices to protect investors.",
+     "answer": "Protective functions prevent fraud, insider trading and unfair practices."
+    },
+    {
+     "question": "Give two examples of regulatory functions of SEBI.",
+     "solution": "Registration of brokers and regulation of takeover bids.",
+     "answer": "Regulatory functions: broker registration, takeover regulation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three categories of functions performed by SEBI.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does SEBI prevent insider trading?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.8",
+   "title": "Dematerialisation of Securities",
+   "section": "Dematerialisation",
+   "definition": "Dematerialisation (demat) is the process of converting physical share certificates into electronic form held in a demat account with a depository, eliminating the risks associated with physical certificates.",
+   "formula": "",
+   "key_idea": "Dematerialisation removes the risks of loss, theft and damage of physical certificates, enables faster settlement and transfer, and is mandatory for trading in stock exchanges.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is dematerialisation of securities?",
+    "Explain the advantages of dematerialisation.",
+    "What is a depository? Name the two depositories in India.",
+    "How does dematerialisation benefit investors?",
+    "Distinguish between physical shares and dematerialised shares."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define dematerialisation",
+     "explain": "It is the conversion of physical certificates into electronic form."
+    },
+    {
+     "step": 2,
+     "action": "Explain the process",
+     "explain": "Shares are held in a demat account with a depository participant."
+    },
+    {
+     "step": 3,
+     "action": "State the benefits",
+     "explain": "Eliminates physical risks, faster transfer, mandatory for trading."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is dematerialisation?",
+     "solution": "Dematerialisation is the process of converting physical share certificates into electronic form.",
+     "answer": "Demat = physical certificates converted to electronic form."
+    },
+    {
+     "question": "Name the two depositories in India.",
+     "solution": "The two depositories in India are NSDL and CDSL.",
+     "answer": "NSDL and CDSL."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the advantages of dematerialisation of securities.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is a depository? Name the depositories in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.9",
+   "title": "Trading in Stock Exchanges",
+   "section": "Trading in Stock Exchanges",
+   "definition": "Trading in stock exchanges is the process of buying and selling securities through registered brokers using the electronic trading system of the exchange, settled through a clearing corporation.",
+   "formula": "",
+   "key_idea": "Trading involves opening a demat and trading account, placing orders through a broker, matching on the exchange's electronic order book, and settlement through the T+1 rolling settlement cycle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the procedure for trading in a stock exchange.",
+    "What is a trading account? Why is it required?",
+    "Explain the settlement process in stock exchanges.",
+    "What is the role of a broker in stock exchange trading?",
+    "Explain the T+1 settlement cycle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the prerequisites",
+     "explain": "Investor needs a demat account, a trading account and a registered broker."
+    },
+    {
+     "step": 2,
+     "action": "Explain order placement and matching",
+     "explain": "Orders are placed electronically and matched on the exchange order book."
+    },
+    {
+     "step": 3,
+     "action": "Explain settlement",
+     "explain": "Settlement of trades happens through the clearing corporation on T+1 basis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the steps involved in trading on a stock exchange.",
+     "solution": "Open demat and trading account, place order through broker, order matched on exchange, settlement through clearing corporation.",
+     "answer": "Steps: account opening, order placement, matching, settlement."
+    },
+    {
+     "question": "What is the T+1 settlement cycle?",
+     "solution": "T+1 means trades are settled one business day after the trade date.",
+     "answer": "T+1 = settlement one business day after the trade."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the procedure for trading in a stock exchange.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of a broker in stock exchange trading?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.10.10",
+   "title": "Stock Exchanges in India -- NSE and BSE",
+   "section": "Stock Exchanges in India",
+   "definition": "The National Stock Exchange (NSE) and the Bombay Stock Exchange (BSE) are the two principal stock exchanges in India, providing nationwide electronic trading platforms for securities.",
+   "formula": "",
+   "key_idea": "NSE introduced screen-based trading and the NIFTY 50 index, while BSE is the oldest stock exchange in Asia with the SENSEX as its benchmark index.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the two principal stock exchanges in India.",
+    "What is SENSEX? Which exchange does it belong to?",
+    "What is NIFTY? Which exchange does it belong to?",
+    "State the significance of NSE in the Indian securities market.",
+    "Which is the oldest stock exchange in Asia?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exchanges",
+     "explain": "NSE and BSE are the two principal stock exchanges in India."
+    },
+    {
+     "step": 2,
+     "action": "State their benchmark indices",
+     "explain": "BSE -- SENSEX; NSE -- NIFTY 50."
+    },
+    {
+     "step": 3,
+     "action": "Explain their significance",
+     "explain": "BSE is the oldest in Asia; NSE introduced nationwide electronic trading."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the two principal stock exchanges in India and their benchmark indices.",
+     "solution": "BSE (SENSEX) and NSE (NIFTY 50).",
+     "answer": "BSE -- SENSEX; NSE -- NIFTY 50."
+    },
+    {
+     "question": "Which is the oldest stock exchange in Asia?",
+     "solution": "The Bombay Stock Exchange (BSE) is the oldest stock exchange in Asia.",
+     "answer": "BSE is the oldest stock exchange in Asia."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of NSE and BSE in the Indian securities market.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is SENSEX?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

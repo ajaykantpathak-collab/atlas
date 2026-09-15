@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_6",
+   "title": "c9_physics_ch5_6",
+   "questions": [
+    {
+     "q": "State the typical speed of sound in air at 20°C, in water at 20°C, and in steel at 20°C, along with their SI units.",
+     "a": "At 20°C: air ≈ 343 m/s, water ≈ 1480 m/s, steel ≈ 5960 m/s. A wrong answer (e.g., giving the same value for all three or reversing the order) reveals that the student has not internalised the large differences in speed across media and may still think sound travels at a single \"universal\" speed.",
+     "self_check": true
+    },
+    {
+     "q": "A tuning fork of frequency 512 Hz is struck in air at 20°C and then in water at 20°C. Explain why the wavelength of the sound wave changes even though the frequency remains the same.",
+     "a": "Frequency is determined solely by the vibrating source (the tuning fork) and does not change when the wave enters a different medium. Since v = fλ and the speed of sound is much higher in water (≈1480 m/s) than in air (≈343 m/s), the wavelength λ = v/f must increase proportionally in water. A wrong answer that claims frequency changes with medium shows confusion between source-driven frequency and medium-dependent speed.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the wavelength of a 1000 Hz sound wave in (a) air at 20°C and (b) steel at 20°C. Use v_air = 343 m/s and v_steel = 5960 m/s.",
+     "a": "(a) λ = v/f = 343 m/s / 1000 Hz = 0.343 m. (b) λ = 5960 m/s / 1000 Hz = 5.96 m. Steps: identify given v and f, use λ = v/f, substitute with units, divide, obtain metres. A wrong answer (e.g., using the same v for both) indicates the student cannot apply the medium-dependent speed values in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two students measure the time taken for a sound pulse to travel 100 m through a steel rod and through air at 20°C. The times recorded are 0.0168 s and 0.291 s respectively. Which measurement corresponds to which medium? Justify using the speed values.",
+     "a": "Speed in steel = 100 m / 0.0168 s ≈ 5950 m/s (matches steel). Speed in air = 100 m / 0.291 s ≈ 344 m/s (matches air). The shorter time corresponds to steel because sound travels faster in solids. A wrong assignment shows the student cannot link measured time to the known speed hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sound travels faster in denser media because the particles are closer together, so they collide more often.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is partially correct about particle proximity but incorrect in its conclusion. While solids are denser than gases, sound speed depends on the ratio of elasticity (stiffness) to density (v ∝ √(elasticity/density)). Solids have a vastly higher elasticity (Young's modulus) that outweighs their higher density, resulting in higher speed. A wrong evaluation that accepts the claim indicates the student thinks density alone determines speed, ignoring elasticity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to demonstrate that sound travels faster in a solid than in air, using only a metre scale, a stopwatch, and a metal rod (length 2 m). Outline the procedure, measurements, and how you would calculate the speeds.",
+     "a": "Procedure: Place the metal rod on a table. Student A taps one end gently with a stone. Student B listens at the other end with one ear on the rod (solid path) and times the interval between seeing the tap and hearing the sound. Repeat with Student B's ear off the rod (air path) for the same distance. Calculate v_solid = 2 m / t_solid and v_air = 2 m / t_air. Expect t_solid << t_air. A poor answer that uses the same path for both or ignores the need to see the tap reveals inability to design a controlled comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

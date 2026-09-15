@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_004",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_004",
+   "title": "c7_eco_ch04_004",
+   "questions": [
+    {
+     "q": "What is the primary benefit of depositing surplus money into a bank savings account rather than keeping it hidden at home? (Remember)",
+     "a": "The primary benefit is that the money remains safe from theft or loss, and the bank pays interest on the saved amount, helping it grow over time. A student who answers that banks just store money without any advantage misses the crucial economic function of earning interest and ensuring financial security.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a farmer take a bank loan to purchase seeds and fertilizers instead of waiting until they have saved enough cash from the previous harvest? (Understand)",
+     "a": "A farmer takes a bank loan because agricultural inputs are needed immediately at the start of the sowing season to generate future income, whereas waiting to save the full amount could mean missing the crucial farming window. A student who thinks borrowing is always bad fails to understand that productive loans help generate income that exceeds the cost of borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan deposits ₹5,000 in a savings bank account that offers an annual interest rate of 4%. If he leaves the money untouched for one year, how much total money will he have in his account at the end of the year? (Apply)",
+     "a": "Steps: 1. Identify the principal amount deposited, which is ₹5,000. 2. Identify the annual interest rate, which is 4%. 3. Calculate the interest earned by multiplying the principal by the interest rate: ₹5,000 × (4 / 100) = ₹200. 4. Add the earned interest to the principal to find the total amount: ₹5,000 + ₹200 = ₹5,200. Final Answer: ₹5,200. A student who answers ₹5,000 forgot to add the interest earned, missing how savings grow in a bank.",
+     "self_check": true
+    },
+    {
+     "q": "How does the availability of formal bank loans impact local artisans compared to relying on informal moneylenders who charge very high interest rates? (Analyze)",
+     "a": "Formal bank loans typically charge lower, regulated interest rates, allowing artisans to keep more of their profits after buying raw materials and tools, whereas high-interest informal loans can trap families in a cycle of debt. A student who believes all loans have the same impact ignores the significant difference in interest rates and repayment burdens between formal and informal credit sources.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Saving money in a bank is only useful for wealthy people who have large amounts of cash.\" Is this accurate? (Evaluate)",
+     "a": "This statement is inaccurate because banks offer savings accounts with very low or zero minimum balances, enabling people of all income levels to save small amounts safely and earn interest. Furthermore, having a bank account gives even low-income earners access to credit, insurance, and government welfare transfers. A student who agrees with the statement overlooks how micro-savings help daily-wage earners build emergency funds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple one-year financial plan for a student who receives a monthly allowance of ₹500, showing how saving a portion in a bank account can help them buy a ₹2,000 educational book set by the end of the year. (Create)",
+     "a": "A successful plan should show the student saving at least ₹170 per month for 12 months (₹170 × 12 = ₹2,040), depositing it into a savings account to accumulate the required ₹2,000 plus a small amount of interest. A poor plan would suggest spending the entire allowance monthly without any provision for saving, making it impossible to acquire the book set.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

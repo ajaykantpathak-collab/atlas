@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_005",
+   "title": "c11_chem_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the balanced net ionic equation for the reaction between acidified KMnO₄ and Fe²⁺(aq). Include physical states.",
+     "a": "MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l). A wrong answer like MnO₄⁻ + 3Fe²⁺ + 4H⁺ → MnO₂ + 3Fe³⁺ + 2H₂O reveals the student used neutral/basic medium balancing (Mn +7 to +4) instead of acidic medium (Mn +7 to +2), confusing the reaction conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Why is dilute H₂SO₄ preferred over HCl or HNO₃ for acidifying KMnO₄ in redox titrations? Explain using oxidation number changes.",
+     "a": "H₂SO₄ provides H⁺ without competing redox reactions. In HCl, Cl⁻ (-1) is oxidized to Cl₂ (0) by strong oxidizer MnO₄⁻ (+7), consuming extra KMnO₄ and giving false high readings. In HNO₃, N is +5 (already high oxidation state) and can act as oxidizer itself, interfering. A student saying \"HCl reacts with KMnO₄ to give chlorine\" but not writing the half-reaction Cl⁻ → ½Cl₂ + e⁻ shows incomplete understanding of the competing electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "0.500 g of an iron tablet containing FeSO₄·7H₂O is dissolved and titrated with 0.0200 M KMnO₄ requiring 24.5 mL. Calculate the percentage purity of FeSO₄·7H₂O in the tablet. (Molar mass FeSO₄·7H₂O = 278 g/mol)",
+     "a": "Step 1: Moles KMnO₄ = 0.0200 × 0.0245 = 4.90×10⁻⁴ mol.\nStep 2: From equation, 1 mol MnO₄⁻ ≡ 5 mol Fe²⁺. Moles Fe²⁺ = 5 × 4.90×10⁻⁴ = 2.45×10⁻³ mol.\nStep 3: Moles FeSO₄·7H₂O = moles Fe²⁺ = 2.45×10⁻³ mol.\nStep 4: Mass pure FeSO₄·7H₂O = 2.45×10⁻³ × 278 = 0.681 g.\nStep 5: % purity = (0.681/0.500)×100 = 136% → impossible. Error: molar mass of FeSO₄·7H₂O is 278 g/mol, but 0.500 g tablet cannot give 0.681 g pure salt. Re-check: 0.0200 M × 0.0245 L = 4.9×10⁻⁴ mol KMnO₄. Fe²⁺ = 2.45×10⁻³ mol. Mass = 2.45×10⁻³ × 278 = 0.681 g. This exceeds sample mass, so either concentration/volume is wrong or sample mass is different. If student gets >100%, they must recognize experimental error or miscalculation. Correct working with plausible numbers: e.g., if volume was 12.25 mL, mass = 0.340 g, % = 68.1%. A wrong answer using 1:1 mole ratio (forgetting 5e⁻) gives 0.136 g (27.2%), revealing n-factor confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the titration of KMnO₄ vs K₂Cr₂O₇ with the same Fe²⁺ solution. Which requires more volume of titrant for the same moles of Fe²⁺ if both titrants have equal molarity? Justify using n-factors.",
+     "a": "K₂Cr₂O₇ requires more volume. For KMnO₄: n-factor = 5 (Mn +7 → +2). For K₂Cr₂O₇: n-factor = 6 (2 Cr atoms each +6 → +3, total 6e⁻ gained per formula unit). Equal molarity means equal moles per liter. Moles of titrant needed = moles Fe²⁺ / n-factor. Since 6 > 5, K₂Cr₂O₇ needs fewer moles, hence less volume. Wait: moles titrant = moles Fe²⁺ / n-factor. For same moles Fe²⁺, higher n-factor means fewer moles titrant needed. So K₂Cr₂O₇ (n=6) needs fewer moles than KMnO₄ (n=5). Therefore KMnO₄ requires MORE volume. A student saying K₂Cr₂O₇ needs more volume because \"it has 2 Cr atoms\" confuses formula unit with n-factor per mole of compound.",
+     "self_check": true
+    },
+    {
+     "q": "A student titrates 25.0 mL of 0.10 M H₂C₂O₄ (oxalic acid) with 0.02 M KMnO₄ at room temperature without heating. The endpoint is not sharp and volume used is higher than theoretical. Evaluate the procedural errors and explain the correct method.",
+     "a": "Two errors: (1) Oxalic acid titration with KMnO₄ requires heating to 60-70°C because the reaction is slow at room temperature (Mn²⁺ autocatalysis not initiated). Without heating, reaction is incomplete, endpoint drifts, volume overestimated. (2) 0.02 M KMnO₄ is too dilute for 0.1 M H₂C₂O₄; theoretical volume = (5/2)×(0.1×25)/0.02 = 312.5 mL (exceeds burette). Should use ~0.1 M KMnO₄. A student blaming only \"indicator error\" misses the kinetic and stoichiometric design flaws.",
+     "self_check": true
+    },
+    {
+     "q": "Design a redox titration to determine the concentration of H₂O₂ in a commercial antiseptic solution (approx 3% w/v) using standardized KMnO₄. Specify: (a) reaction equation, (b) indicator, (c) why H₂SO₄ is added, (d) one precaution for H₂O₂ instability.",
+     "a": "(a) 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O. (b) KMnO₄ self-indicator (first permanent pink). (c) H₂SO₄ provides H⁺ (6H⁺ per 2MnO₄⁻) and prevents H₂O₂ decomposition catalyzed by impurities; also avoids Cl⁻/NO₃⁻ interference. (d) Titrate immediately after sampling because H₂O₂ decomposes slowly to O₂ and H₂O, especially in light/heat/metal ions, causing low results. A poor answer omits the 6H⁺ stoichiometry or suggests starch indicator (for iodine), showing confusion with iodometric titrations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

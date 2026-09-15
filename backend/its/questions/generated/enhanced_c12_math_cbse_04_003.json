@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_003",
+   "title": "c12_math_cbse_04_003",
+   "questions": [
+    {
+     "q": "State Property 4 of determinants: If each element of a row (or column) of a determinant is multiplied by a scalar \\(k\\), what happens to the value of the determinant?",
+     "a": "The value of the determinant gets multiplied by \\(k\\). A wrong answer (e.g., \"the determinant does not change\" or \"it gets multiplied by \\(k^n\\)\") reveals confusion between multiplying a single row versus multiplying the whole matrix, or misunderstanding the scalar multiplication property.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Property 6 (adding a multiple of one row to another row) does not change the value of the determinant, using the concept of linearity of determinants in each row.",
+     "a": "The determinant is a multilinear function of its rows. Adding \\(k\\) times row \\(j\\) to row \\(i\\) replaces row \\(i\\) with \\(\\mathbf{r}_i + k\\mathbf{r}_j\\). By linearity, \\(\\det(\\dots, \\mathbf{r}_i + k\\mathbf{r}_j, \\dots) = \\det(\\dots, \\mathbf{r}_i, \\dots) + k \\det(\\dots, \\mathbf{r}_j, \\dots)\\). The second term has two identical rows (\\(\\mathbf{r}_j\\) appears twice), so its determinant is zero by Property 3. Hence the determinant remains unchanged. A wrong answer indicates the student does not connect multilinearity with the property and may think the operation always changes the value.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the determinant \\(\\begin{vmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{vmatrix}\\) using properties of determinants (without full expansion). Show each property used.",
+     "a": "Step 1: Apply \\(R_2 \\leftarrow R_2 - 4R_1\\) and \\(R_3 \\leftarrow R_3 - 7R_1\\) (Property 6). Determinant becomes \\(\\begin{vmatrix} 1 & 2 & 3 \\\\ 0 & -3 & -6 \\\\ 0 & -6 & -12 \\end{vmatrix}\\).  \nStep 2: Notice \\(R_3 = 2R_2\\) (Property 3: two rows proportional). The determinant is 0.  \nA wrong answer (e.g., a non-zero number) shows the student either expanded incorrectly or failed to recognise the proportional rows after row operations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of the following two operations on a determinant \\(D\\):  \n(i) Multiply the first row by 2.  \n(ii) Multiply the whole matrix by 2 (i.e., every element by 2).  \nHow do the resulting determinants relate to \\(D\\)? Justify.",
+     "a": "(i) New determinant = \\(2D\\) (Property 4).  \n(ii) New determinant = \\(2^n D\\) where \\(n\\) is the order. For a \\(3 \\times 3\\) matrix, it is \\(8D\\).  \nA student who says both give \\(2D\\) confuses row multiplication with matrix multiplication. This reveals a fundamental misunderstanding of how scalar multiplication distributes across rows.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies \\(\\begin{vmatrix} x & y & z \\\\ x^2 & y^2 & z^2 \\\\ x^3 & y^3 & z^3 \\end{vmatrix}\\) by factoring \\(x, y, z\\) from the first row, then \\(x^2, y^2, z^2\\) from the second row, and \\(x^3, y^3, z^3\\) from the third row, obtaining \\(x^6 y^6 z^6 \\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{vmatrix} = 0\\). Is this correct? Identify the error.",
+     "a": "The student incorrectly factored variables from rows as if they were common factors of the entire row. In the first row, the elements are \\(x, y, z\\) — there is no single common factor across the row unless \\(x=y=z\\). Property 4 applies only when a common factor exists in every element of that row/column. The correct approach is to factor \\(x, y, z\\) from columns instead. This error shows the student applies Property 4 mechanically without checking the condition \"each element of the row has that factor\".",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \\(3 \\times 3\\) determinant with integer entries that evaluates to 0, but where no two rows or columns are identical or proportional at first glance. Explain which property guarantees it is zero.",
+     "a": "Example: \\(\\begin{vmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 5 & 7 & 9 \\end{vmatrix}\\). Here \\(R_3 = R_1 + R_2\\). Using Property 6, we can do \\(R_3 \\leftarrow R_3 - R_1 - R_2\\) to get a zero row, so determinant is 0. A good answer demonstrates understanding that linear dependence (not just identical rows) forces a zero determinant. A poor answer gives a matrix with obviously proportional rows, missing the deeper point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

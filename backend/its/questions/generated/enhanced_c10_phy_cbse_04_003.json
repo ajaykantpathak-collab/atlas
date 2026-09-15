@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_003",
+   "title": "c10_phy_cbse_04_003",
+   "questions": [
+    {
+     "q": "A student draws a ray diagram for an object placed at the centre of curvature (C) of a concave mirror. Which two principal rays should they use to locate the image most easily, and where will the image form?",
+     "a": "The student should use: (1) Ray parallel to principal axis → reflects through F, and (2) Ray passing through C → reflects back along same path. These two rays intersect at C itself, so the image forms at C. A wrong answer (e.g., choosing ray through F as one of the two) reveals the student doesn't recognize that a ray through F reflects parallel to axis, making intersection harder to locate at C, or they confuse the ray through C with ray through F.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a concave mirror form a real, inverted image when the object is placed beyond C, but a virtual, erect image when the object is placed between F and P? Explain using ray behaviour.",
+     "a": "Beyond C: Both principal rays (parallel ray → through F; ray through C → back along same path) converge in front of the mirror after reflection, forming a real intersection point → real, inverted image. Between F and P: The parallel ray reflects through F (diverging), and the ray directed towards C reflects back (also diverging). These reflected rays diverge in front of the mirror but appear to converge behind the mirror when extended backward → virtual, erect image. A wrong answer reveals the student memorizes outcomes without understanding ray convergence/divergence geometry.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4 cm is placed 30 cm from a concave mirror of focal length 10 cm. Draw the ray diagram to scale (1 cm = 5 cm) and determine the image distance and image height. State the nature and orientation of the image.",
+     "a": "Given: u = -30 cm, f = -10 cm, h = +4 cm. Scale: 1 cm = 5 cm → object at 6 cm from P on paper, F at 2 cm, C at 4 cm. Object beyond C (30 > 20). Ray 1: Parallel to axis → reflects through F. Ray 2: Through C → reflects back. Intersection occurs between F and C at ≈ 15 cm from P. Image distance v = -15 cm (real). Image height h' = -2 cm (inverted, diminished). Nature: Real, inverted, diminished. Wrong answer (e.g., v = -30 cm) reveals incorrect ray drawing or scale error; positive v reveals confusion between real/virtual sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for object at F and object between F and P. Identify the critical difference in reflected ray behaviour that changes the image from \"at infinity\" to \"virtual and magnified.\"",
+     "a": "At F: Ray parallel to axis → reflects through F (coincides with incident ray direction). Ray through C → reflects back. Reflected rays emerge parallel to each other → meet at infinity → highly magnified real image at infinity. Between F and P: Ray parallel to axis → reflects through F (diverges). Ray directed towards C → reflects back (diverges). Reflected rays diverge in front of mirror → appear to meet behind mirror → virtual, erect, magnified image. The critical difference: at F, one reflected ray passes through F making rays parallel; between F and P, both reflected rays diverge. Wrong answer reveals inability to trace ray paths for the \"ray through F\" case when object is at F.",
+     "self_check": true
+    },
+    {
+     "q": "A student's ray diagram for object between C and F shows the image forming between F and C. The teacher marks it incorrect. What is the most likely error in the student's diagram?",
+     "a": "The student likely drew the reflected rays converging between F and C, but for object between C and F, the image forms **beyond C** (farther from mirror than C). The error: student confused the relative positions — when object is between C and F, image is beyond C (magnified). The student probably swapped the object-image distance relationship. This reveals the student memorized \"image between F and C\" for some position but didn't derive it from ray geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a candle, and a screen to determine the focal length of the mirror. Explain how you would use ray diagram principles to verify your result.",
+     "a": "Place the concave mirror on a stand facing a distant object (tree/building > 50 m away). Adjust a screen until a sharp image forms — this distance is f (object at infinity → image at F). Verify: Place candle at 2f (use measured f), adjust screen — sharp image should form at 2f on other side (object at C → image at C, same size). Then place candle between f and 2f — image should form beyond 2f, magnified. If all three positions match ray diagram predictions, f is correct. Poor answer: only measures one position without cross-verification, revealing lack of understanding that ray diagrams predict consistent relationships across all positions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

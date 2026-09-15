@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_011",
+   "title": "c11_phy_cbse_06_011",
+   "questions": [
+    {
+     "q": "State the moment of inertia of a thin circular ring of mass M and radius R about an axis perpendicular to its plane passing through its centre. Write the formula and its SI unit.",
+     "a": "I = M R² (kg m²). A wrong answer such as ½ M R² reveals confusion with the disc formula. Writing the unit as kg m or N m shows a misunderstanding of the dimensional difference between moment of inertia and torque/work.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a solid sphere of mass M and radius R has a smaller moment of inertia about its diameter (⅖ M R²) than a hollow sphere of the same mass and radius (⅔ M R²). Use the concept of mass distribution.",
+     "a": "In a solid sphere, mass is distributed throughout the volume, with much of it close to the axis (small r). In a hollow sphere, all mass is at distance R from the centre, so every mass element contributes the maximum r² = R². A student who says \"solid is heavier\" confuses mass with distribution. The correct reasoning compares the average squared distance from the axis.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform rod of mass 2.0 kg and length 1.2 m rotates about an axis perpendicular to the rod through one end. Calculate its moment of inertia and radius of gyration. (Use I_cm = ¹/₁₂ M L² for axis through centre perpendicular to rod.)",
+     "a": "Step 1: I_cm = (1/12) × 2.0 × (1.2)² = 0.24 kg m².  \nStep 2: Distance from centre to end d = L/2 = 0.6 m.  \nStep 3: Parallel axis theorem: I_end = I_cm + M d² = 0.24 + 2.0 × (0.6)² = 0.24 + 0.72 = 0.96 kg m².  \nStep 4: Radius of gyration k = √(I/M) = √(0.96/2.0) = √0.48 ≈ 0.693 m.  \nA wrong answer of 0.24 kg m² indicates failure to apply the parallel axis theorem. Using d = L instead of L/2 gives 2.0 × 1.44 = 2.88, leading to I = 3.12 kg m², showing confusion about the shift distance.",
+     "self_check": true
+    },
+    {
+     "q": "A solid cylinder and a hollow cylinder, both of mass 5 kg and radius 0.1 m, are released from rest on an inclined plane of angle 30°. Without calculating the exact accelerations, predict which reaches the bottom first and justify using the concept of moment of inertia.",
+     "a": "The solid cylinder reaches first. Its moment of inertia about the symmetry axis is ½ M R², while the hollow cylinder's is M R². For rolling without slipping, acceleration a = g sinθ / (1 + I/(M R²)). The solid cylinder has I/(M R²) = ½, giving a = (2/3) g sinθ. The hollow cylinder has I/(M R²) = 1, giving a = ½ g sinθ. The larger moment of inertia of the hollow cylinder means more gravitational potential energy goes into rotational kinetic energy, leaving less for translation. A student who says they arrive together ignores the role of rotational inertia.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the moment of inertia of a thin rectangular plate (sides a and b, mass M) about an axis through its centre and perpendicular to its plane as I = ¹/₁₂ M (a² + b²). Is this correct? If not, give the correct formula and explain the likely source of error.",
+     "a": "The formula is incorrect. The correct formula is I = ¹/₁₂ M (a² + b²) for an axis through the centre **and in the plane of the plate** (parallel to side b or a). For an axis perpendicular to the plane through the centre, the perpendicular axis theorem gives I_z = I_x + I_y = ¹/₁₂ M b² + ¹/₁₂ M a² = ¹/₁₂ M (a² + b²). Wait, that is the same! Actually, the student's formula is correct for the perpendicular axis through the centre. But many students mistakenly think the perpendicular axis theorem gives I = ¹/₁₂ M (a² + b²) for the perpendicular axis, which is correct. However, if the student meant the axis along the diagonal, that would be different. Let's evaluate: The student's formula is exactly the perpendicular axis theorem result for a rectangular plate. So it is correct. But the question asks \"Is this correct?\" and expects evaluation. The student might have confused which axis the formula applies to. The formula I = ¹/₁₂ M (a² + b²) is indeed the moment of inertia about an axis through the centre perpendicular to the plane. So the answer is yes, it is correct. However, a common error is to use this for an axis in the plane. The evaluation should note that the formula is correct for the perpendicular axis, but the student must specify the axis. A wrong answer would be saying it's incorrect without justification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two identical cylindrical cans (one filled with sand, one empty but with sand glued only to the inner curved surface) to demonstrate the difference in moment of inertia between a solid cylinder and a hollow cylinder of the same mass and radius. Describe the procedure and the expected observation.",
+     "a": "Procedure: Place both cans on a gentle incline (e.g., a wooden plank) and release them simultaneously from rest. Observe which reaches the bottom first. Expected observation: The can with sand distributed throughout (solid cylinder) will accelerate faster and reach the bottom before the can with sand only at the rim (hollow cylinder). This happens because the hollow cylinder has a larger moment of inertia (I = M R²) compared to the solid cylinder (I = ½ M R²), so more potential energy is converted to rotational kinetic energy. A poor answer might suggest using a stopwatch to measure time but not controlling the incline angle or not ensuring rolling without slipping. A good answer includes repeating the trial, ensuring no slipping, and explaining the energy partition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_002",
+   "title": "c11_stat_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the primary purpose of an index number in economics?",
+     "a": "The primary purpose is to measure relative changes in a group of related variables (like prices or quantities) over time or space, expressed as a percentage of a base period. A wrong answer (e.g., \"to calculate absolute price levels\" or \"to find the average price of a single good\") reveals that the student confuses index numbers with simple averages or absolute measures, missing the core idea of *relative* comparison across a basket.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why we cannot simply average the prices of wheat, cloth, and petrol to understand overall price changes in the economy.",
+     "a": "Averaging absolute prices is meaningless because the units differ (rupees/kg, rupees/metre, rupees/litre) and the quantities consumed vary vastly; an index number uses price relatives (current price/base price) and weights to create a unit-free, comparable measure. A wrong answer that suggests \"we can average them if we convert to same units\" shows the student misses the conceptual need for a *weighted relative* measure that reflects economic importance, not just arithmetic averaging.",
+     "self_check": true
+    },
+    {
+     "q": "The government revises dearness allowance (DA) for central government employees twice a year. Which index number is most likely used for this revision, and why is an index number necessary instead of using a single commodity's price?",
+     "a": "The Consumer Price Index for Industrial Workers (CPI-IW) is used because it reflects the cost of living of a typical worker's consumption basket. An index is necessary because a single commodity (e.g., wheat) does not capture the overall change in living expenses; workers spend on many items, and the index aggregates them with appropriate weights. A wrong answer naming WPI or a single commodity indicates the student does not link specific indices to their target populations and purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of a Price Index (like CPI) and a Quantity Index (like Index of Industrial Production) in economic analysis. Give one specific policy decision each might inform.",
+     "a": "CPI measures price changes for a consumption basket and informs monetary policy (e.g., RBI setting repo rate) and wage indexation. IIP measures volume changes in industrial output and informs fiscal policy (e.g., government stimulus for manufacturing) and business investment decisions. A wrong answer that swaps the uses or gives vague decisions shows the student cannot distinguish between price-level indicators and real-activity indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since the Wholesale Price Index (WPI) covers more commodities than the Consumer Price Index (CPI), WPI is a better measure of inflation for the common man.\"",
+     "a": "The statement is flawed because WPI tracks wholesale prices of goods traded in bulk (including intermediate goods), while CPI tracks retail prices of goods/services actually consumed by households. For the common man, retail prices (CPI) matter more. A wrong answer agreeing with the statement reveals the misconception that broader coverage automatically implies better relevance, ignoring the *target population* and *stage of transaction* that define an index's purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical index number to measure \"digital access\" in Indian villages. Specify: (a) the variables you would include, (b) the base period, (c) the weighting scheme, and (d) one policy use of this index.",
+     "a": "A good answer might include: (a) variables – % households with smartphone, % with broadband, % using digital payments, % accessing e-governance; (b) base period – Census 2011 or a recent survey year; (c) weights – based on household survey of digital service importance or equal weights if no data; (d) policy use – targeting BharatNet subsidies or digital literacy programs. A poor answer that picks only one variable or ignores weighting shows inability to synthesize the components of index construction for a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 1,
+  "chapter_title": "Introduction",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.101.1.1",
+      "title": "Microeconomics versus Macroeconomics",
+      "section": "1",
+      "definition": "Micro analysis studies single decision makers chasing private gain, while macro analysis treats the whole national economy as its unit and worries about prices, jobs and output taken together.",
+      "formula": "macro_scope = aggregate_output + aggregate_price_level + aggregate_employment",
+      "key_idea": "Micro zooms into individual buyers and sellers; macro zooms out to economy-wide totals and policy.",
+      "textbook_ref": "leec101.txt, chapter opening pages 1-3",
+      "question_patterns": [
+        "which branch of economics treats the entire national economy as its unit and tracks economy-wide totals",
+        "why are inflation and unemployment macro issues rather than micro issues",
+        "explain how macroeconomics goes beyond individual buyers and sellers to cover policy goals of the state",
+        "state the main difference between individual agent analysis and aggregate analysis",
+        "compare what microeconomics and macroeconomics each try to explain",
+        "how does studying one market differ from studying all markets together"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the unit of study in each branch",
+          "explain": "Micro takes one consumer, firm or market; macro takes the national economy as a single unit."
+        },
+        {
+          "step": 2,
+          "action": "Contrast the motivating objectives",
+          "explain": "Micro agents maximise private profit or satisfaction, while macro policy pursues social goals such as jobs, stable prices and growth."
+        },
+        {
+          "step": 3,
+          "action": "Classify the given question",
+          "explain": "Any question about economy-wide totals, general prices or overall employment belongs to macro; questions about one buyer, seller or market belong to micro."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.1.2",
+      "title": "Aggregates and the Representative Good Simplification",
+      "section": "1",
+      "definition": "Because outputs, prices and jobs across sectors usually move together, macro analysis compresses the many goods of an economy into one imaginary representative commodity so that economy-wide behaviour can be tracked with few variables.",
+      "formula": "aggregate_movement = common_direction_of(good_outputs, good_prices, employment_levels)",
+      "key_idea": "Aggregates work because individual outputs, prices and employment tend to rise and fall together.",
+      "textbook_ref": "leec101.txt, chapter opening, pages 1-2",
+      "question_patterns": [
+        "why can economists study a single representative commodity instead of every good",
+        "what makes aggregate analysis of an economy valid",
+        "explain the simplification used to analyse total production and employment",
+        "when does behaviour of one commodity mirror the behaviour of all commodities",
+        "how do output, price and employment levels of different goods move relative to each other",
+        "justify using one imaginary good to represent the entire economy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Note the co-movement of sector variables",
+          "explain": "Food, industrial goods and services generally expand or contract together, as do their prices and jobs."
+        },
+        {
+          "step": 2,
+          "action": "Apply the representative-good shortcut",
+          "explain": "Pick one imaginary commodity whose production, price and employment stand for the economy-wide averages."
+        },
+        {
+          "step": 3,
+          "action": "State the limitation of the shortcut",
+          "explain": "Distinct traits of individual goods or sectors (say agriculture versus industry) are lost, so sometimes a few sector groups are kept instead of one."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.1.3",
+      "title": "Economic Agents and Decision Making",
+      "section": "1",
+      "definition": "Any individual or institution that takes decisions affecting the use of scarce resources - consumers choosing purchases, firms choosing output, governments, banks and corporations setting spending, taxes or interest - is an economic agent.",
+      "formula": "economic_agents = consumers + producers + government_and_institutions",
+      "key_idea": "Households, firms, banks and the state all act as decision-taking units in the economy.",
+      "textbook_ref": "leec101.txt, Economic Agents box, page 3",
+      "question_patterns": [
+        "who are called economic agents in an economy",
+        "name the decision-taking units that economists study",
+        "give examples of institutions that make economic decisions",
+        "what kinds of choices does an economic agent make",
+        "explain the term used for individuals and institutions taking economic decisions",
+        "how do households, firms and government each act as economic units"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the decision-making test",
+          "explain": "An agent is any unit whose choices allocate resources - what to buy, produce, spend, tax or charge."
+        },
+        {
+          "step": 2,
+          "action": "List the agent categories",
+          "explain": "Consumers, producers, and bodies such as government, corporations and banks all qualify."
+        },
+        {
+          "step": 3,
+          "action": "Match the example to the category",
+          "explain": "A family buying food is a consumer agent; a company setting output is a producer agent; a central bank fixing rates is an institutional agent."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.1.4",
+      "title": "Emergence of Macroeconomics and Keynes",
+      "section": "1.1",
+      "definition": "Macroeconomics separated from classical thinking after John Maynard Keynes published his 1936 work arguing that an economy can stay stuck with lasting unemployment, an insight forced by the mass job losses and idle factories of the Great Depression that began in 1929.",
+      "formula": "keynes_1936 = break_from_classical_full_employment_view",
+      "key_idea": "The Great Depression showed self-adjusting full employment to be false, and Keynes's 1936 general theory founded macroeconomics.",
+      "textbook_ref": "leec101.txt, section 1.1 Emergence of Macroeconomics, page 5",
+      "question_patterns": [
+        "when and how did macroeconomics emerge as a separate subject",
+        "which book and author are credited with founding macroeconomics",
+        "what role did the Great Depression play in the birth of macroeconomics",
+        "explain how Keynes challenged the classical full employment belief",
+        "why did economists start studying the economy as a whole in the 1930s",
+        "describe the failure of classical thinking during the 1929 depression"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the classical position",
+          "explain": "Before Keynes, the dominant classical view held that all willing workers find jobs and factories run at capacity."
+        },
+        {
+          "step": 2,
+          "action": "Cite the depression evidence",
+          "explain": "After 1929 output and jobs collapsed across Europe and North America; in the USA unemployment climbed from 3 percent to 25 percent between 1929 and 1933 while output fell about a third."
+        },
+        {
+          "step": 3,
+          "action": "Identify the Keynesian turn",
+          "explain": "Keynes's 1936 General Theory examined the economy in its entirety and the interdependence of sectors, so macroeconomics was born."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.1.5",
+      "title": "Unemployment Rate",
+      "section": "1.1",
+      "definition": "The unemployment rate measures the share of the labour force that is without work yet actively seeking jobs; the labour force counts everyone either working or looking for work.",
+      "formula": "unemployment_rate = 100 * unemployed_seeking_jobs / labour_force",
+      "key_idea": "Only jobless people who are searching count as unemployed; the denominator is the labour force, not the whole population.",
+      "textbook_ref": "leec101.txt, section 1.1, unemployment rate definition, page 5",
+      "question_patterns": [
+        "calculate the unemployment rate when jobless seekers and employed workers are given",
+        "find the percentage of the labour force that is unemployed",
+        "how is the unemployment rate of a country computed",
+        "work out the share of workers without jobs from labour force data",
+        "if 25 people are jobless and 75 are employed, what is the unemployment rate",
+        "define and compute the rate of unemployment from given numbers"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add employed and jobless seekers to get the labour force",
+          "explain": "Everyone working plus everyone looking for work forms the labour force denominator.",
+          "compute": "labour_force = employed_workers + unemployed_seeking_jobs"
+        },
+        {
+          "step": 2,
+          "action": "Express jobless seekers as a percentage of the labour force",
+          "explain": "Dividing seekers by the labour force and scaling by 100 gives the unemployment rate.",
+          "compute": "unemployment_rate = 100 * unemployed_seeking_jobs / labour_force"
+        }
+      ]
+    },
+    {
+      "id": "leec.101.2.1",
+      "title": "Features of a Capitalist Economy",
+      "section": "1.2",
+      "definition": "A capitalist economy is one where most production units are privately owned, output is made for market sale, and labour itself is hired and paid a wage rate rather than supplied by family members.",
+      "formula": "capitalist_economy = private_ownership + production_for_market + wage_labour",
+      "key_idea": "Private ownership, market sale of output and wage-based hiring together mark an economy as capitalist.",
+      "textbook_ref": "leec101.txt, section 1.2, characteristics list, pages 6-7",
+      "question_patterns": [
+        "what are the important features of a capitalist economy",
+        "state the characteristics that define a capitalist country",
+        "how does wage labour distinguish capitalist production from family production",
+        "explain private ownership of means of production in capitalism",
+        "why is production for sale in the market a capitalist trait",
+        "list the conditions under which an economy qualifies as capitalist"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check who owns the means of production",
+          "explain": "In capitalism, capital, land and firms rest in private hands, unlike tribal or peasant settings."
+        },
+        {
+          "step": 2,
+          "action": "Check why output is produced",
+          "explain": "Goods are made to be sold in the market for profit, not mainly for the producer's own use."
+        },
+        {
+          "step": 3,
+          "action": "Check how labour is engaged",
+          "explain": "Workers sell their labour services for a wage, which separates them from family-based farm labour."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.2.2",
+      "title": "Factors of Production and Factor Payments",
+      "section": "1.2",
+      "definition": "A capitalist firm combines land, capital and labour under an entrepreneur; each factor earns a payment from sales revenue - land receives rent, capital receives interest, labour receives wages, and whatever remains is the entrepreneur's profit.",
+      "formula": "profit_of_entrepreneur = sales_revenue - (rent_for_land + interest_for_capital + wages_for_labour)",
+      "key_idea": "Revenue is split among factor payments, and profit is the residual left after paying land, capital and labour.",
+      "textbook_ref": "leec101.txt, section 1.2, revenue split into rent, interest, wages, profit, page 6",
+      "question_patterns": [
+        "how is a firm's revenue divided among the factors of production",
+        "calculate the entrepreneur's profit from revenue and factor payments",
+        "which payment does each factor of production earn in a capitalist firm",
+        "find the residual income left for the entrepreneur after paying rent interest and wages",
+        "name the reward earned by land labour and capital respectively",
+        "given sales revenue and factor payments, work out profit"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add up the contracted factor payments",
+          "explain": "Rent for land, interest for capital and wages for labour are owed before profit is counted.",
+          "compute": "total_factor_payments = rent_for_land + interest_for_capital + wages_for_labour"
+        },
+        {
+          "step": 2,
+          "action": "Subtract factor payments from sales revenue",
+          "explain": "Whatever revenue remains after the three contracted payments is the entrepreneur's profit.",
+          "compute": "profit_of_entrepreneur = sales_revenue - total_factor_payments"
+        }
+      ]
+    },
+    {
+      "id": "leec.101.2.3",
+      "title": "Investment Expenditure",
+      "section": "1.2",
+      "definition": "Spending that raises the economy's productive capacity - buying new machinery or erecting new factories, often financed out of profits kept back by producers - is investment expenditure.",
+      "formula": "investment_expenditure = spending_on_new_machinery + spending_on_new_construction",
+      "key_idea": "Investment means capacity-building purchases, not purchases of consumer goods.",
+      "textbook_ref": "leec101.txt, section 1.2, investment expenditure paragraph, page 6",
+      "question_patterns": [
+        "what is meant by investment expenditure in macroeconomics",
+        "which spending by producers counts as investment",
+        "why is buying new machinery called investment",
+        "distinguish investment spending from consumption spending",
+        "how do retained profits become new plant and machinery",
+        "explain the term used for expenses that raise productive capacity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test whether capacity rises",
+          "explain": "Only outlays that add to future production - machines, buildings - are investment."
+        },
+        {
+          "step": 2,
+          "action": "Trace the source of funds",
+          "explain": "Producers often channel past profits into such purchases, expanding output next period."
+        },
+        {
+          "step": 3,
+          "action": "Reject non-investment outlays",
+          "explain": "Payments for raw materials used up or for consumer goods do not build capacity and are not investment expenditure."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.2.4",
+      "title": "Four Sectors of the Economy",
+      "section": "1.2",
+      "definition": "Macroeconomics pictures the economy as four interacting sectors - households that consume, save and pay taxes; firms that produce; the government that makes laws, taxes, spends and sometimes produces; and the external sector of trade with the rest of the world.",
+      "formula": "four_sectors = households + firms + government + external_sector",
+      "key_idea": "Households, firms, government and the rest of the world are the four building blocks of macro analysis.",
+      "textbook_ref": "leec101.txt, section 1.2 and summary, pages 7-8",
+      "question_patterns": [
+        "describe the four major sectors of an economy in the macroeconomic view",
+        "name the sectors into which macroeconomics divides the economy",
+        "what roles do households firms government and external sector play",
+        "how do the household and firm sectors depend on each other",
+        "which sector frames laws taxes and provides public services",
+        "explain why the rest of the world counts as a sector of the domestic economy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the private domestic sectors",
+          "explain": "Households supply labour and demand goods; firms hire inputs and produce output for sale."
+        },
+        {
+          "step": 2,
+          "action": "Identify the state sector",
+          "explain": "Government frames and enforces laws, taxes, spends on infrastructure and services, and may itself produce."
+        },
+        {
+          "step": 3,
+          "action": "Add the external sector",
+          "explain": "Trade and capital flows with the rest of the world complete the four-sector picture."
+        }
+      ]
+    },
+    {
+      "id": "leec.101.2.5",
+      "title": "Exports, Imports and External Trade",
+      "section": "1.2",
+      "definition": "Selling domestically produced goods to the rest of the world is exports, buying goods from abroad is imports, and alongside these flows capital can also move between the domestic economy and foreign countries.",
+      "formula": "net_trade_balance = value_of_exports - value_of_imports",
+      "key_idea": "Exports bring foreign demand in, imports send domestic demand out, and capital may flow either way.",
+      "textbook_ref": "leec101.txt, section 1.2, external sector paragraph, page 8",
+      "question_patterns": [
+        "differentiate between exports and imports of a country",
+        "what kinds of trade connect a domestic economy with the rest of the world",
+        "when goods are sold abroad what are they called",
+        "explain how foreign capital flows affect the domestic economy",
+        "compute the trade balance from export and import values",
+        "why is the external sector important in macroeconomic study"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Classify each flow as export or import",
+          "explain": "Domestic goods sold abroad are exports; foreign goods bought by the home country are imports."
+        },
+        {
+          "step": 2,
+          "action": "Take the difference of the two values",
+          "explain": "Subtracting import value from export value gives the net trade balance with the rest of the world.",
+          "compute": "net_trade_balance = value_of_exports - value_of_imports"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec101.txt section 1.1 USA 1929-33 depression figures",
+      "concept": "leec.101.1.5",
+      "question_type": "compute",
+      "question_pattern": "In an economy 12 million people are jobless and searching while 48 million are employed. Calculate the unemployment rate.",
+      "extracted_variables": {
+        "unemployed_seeking_jobs": 12,
+        "employed_workers": 48
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Form the labour force",
+          "explain": "Employed plus jobless seekers gives 60 million.",
+          "compute": "labour_force = employed_workers + unemployed_seeking_jobs"
+        },
+        {
+          "step": 2,
+          "action": "Rate as a percentage",
+          "explain": "12 of 60 is one fifth, so the rate is 20 percent.",
+          "compute": "unemployment_rate = 100 * unemployed_seeking_jobs / labour_force"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec101.txt section 1.2 revenue split paragraph",
+      "concept": "leec.101.2.2",
+      "question_type": "compute",
+      "question_pattern": "A firm earns sales revenue of 900 and pays 200 as rent, 250 as interest and 300 as wages. Find the entrepreneur's profit.",
+      "extracted_variables": {
+        "sales_revenue": 900,
+        "rent_for_land": 200,
+        "interest_for_capital": 250,
+        "wages_for_labour": 300
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Total the contracted factor payments",
+          "explain": "Rent plus interest plus wages equals 750.",
+          "compute": "total_factor_payments = rent_for_land + interest_for_capital + wages_for_labour"
+        },
+        {
+          "step": 2,
+          "action": "Profit as the residual",
+          "explain": "Revenue 900 minus 750 leaves a profit of 150.",
+          "compute": "profit_of_entrepreneur = sales_revenue - total_factor_payments"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec101-ex1",
+      "source_ref": "leec101.txt exercise 1",
+      "questions": [
+        "Bring out the contrast between microeconomics and macroeconomics."
+      ]
+    },
+    {
+      "id": "leec101-ex2",
+      "source_ref": "leec101.txt exercise 2",
+      "questions": [
+        "State the main features that mark a capitalist economy."
+      ]
+    },
+    {
+      "id": "leec101-ex3",
+      "source_ref": "leec101.txt exercise 3",
+      "questions": [
+        "Present the four major sectors of an economy from the macroeconomic standpoint."
+      ]
+    },
+    {
+      "id": "leec101-ex4",
+      "source_ref": "leec101.txt exercise 4",
+      "questions": [
+        "Give an account of the Great Depression that began in 1929."
+      ]
+    }
+  ]
+}

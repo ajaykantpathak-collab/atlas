@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_8",
+   "title": "c8_chem_ch2_8",
+   "questions": [
+    {
+     "q": "What is the primary reason why gas particles are able to move freely and independently in all directions compared to particles in solids or liquids?",
+     "a": "The correct answer is that inter-particle forces of attraction in gases are extremely weak (negligible), and the kinetic energy of the particles is very high. A student who answers that gas particles are closely packed shows confusion with the solid state, failing to recognize that large inter-particle spaces characterize gases.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a gas completely fill any container it is pumped into, regardless of the container's shape or size?",
+     "a": "The correct answer is that gas particles have high speeds and very weak mutual attraction, causing them to move continuously in all directions until they collide with all available inner walls of the container. A student who believes gases settle at the bottom of a container confuses gas behavior with liquids or misunderstands the lack of fixed volume in gases.",
+     "self_check": true
+    },
+    {
+     "q": "If a small amount of compressed cooking gas (LPG) leaks from a cylinder in a kitchen, it soon reaches a burner across the room. Explain which property of gas particles enables this rapid mixing and spreading.",
+     "a": "The correct answer is diffusion, which is driven by the rapid, random motion of gas particles through the large empty spaces between air molecules. Working steps: (1) Identify that gas particles have high kinetic energy; (2) Note the large inter-particle distances; (3) Conclude that particles travel rapidly without colliding into a rigid matrix; (4) Explain that this random motion distributes the gas uniformly. A student who states the gas flows downwards due to weight ignores the rapid random motion and diffusion properties of gases.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the distance between particles and their freedom of movement when liquid water turns completely into water vapor (steam) at 100°C.",
+     "a": "The correct answer is that the average distance between particles increases dramatically, and their freedom of movement changes from sliding past each other (liquid) to moving independently at high speeds in all directions (gas). A student who claims particle size increases during vaporization confuses the size of the molecule with the inter-particle distance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Increasing the temperature of a gas inside a rigid container increases the speed of its particles, which causes them to exert more pressure on the container walls.\" Is this scientifically sound?",
+     "a": "The correct answer is that the statement is entirely sound because higher temperature imparts greater kinetic energy to the gas particles, leading to faster movement and more forceful, frequent collisions against the container walls. A student who thinks temperature changes particle mass or size rather than speed shows a fundamental misunderstanding of thermal energy and particle motion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental experiment using a syringe filled with air to demonstrate that gas particles have large inter-particle spaces and can be compressed. Describe what happens to the particle arrangement when the plunger is pushed inward.",
+     "a": "The correct answer should state that pushing the plunger decreases the volume of the gas, forcing the gas particles closer together by reducing the empty space between them, though the particles themselves do not shrink. A poor answer would claim that the particles vanish or that the gas particles themselves become smaller, failing to distinguish between particle size and inter-particle space.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

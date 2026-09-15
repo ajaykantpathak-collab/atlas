@@ -1,0 +1,316 @@
+{
+ "catalog": "catalog_class10_maths_ch113.json",
+ "concepts": [
+  {
+   "id": "jemh.13.1",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((9, 5, 16, 15, 26))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 41"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 34"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (1 + 50) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(17, 49, 18, 15) - min(17, 49, 18, 15)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.13.2",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((19, 6, 16, 2, 34))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 26"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (17 + 42) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(14, 47, 58, 6) - min(14, 47, 58, 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.13.3",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((15, 12, 8, 7, 34))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 25"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 40"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (20 + 55) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(49, 7, 51, 28) - min(49, 7, 51, 28)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.13.4",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((18, 10, 26, 33, 16))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 36"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (13 + 58) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(23, 40, 31, 33) - min(23, 40, 31, 33)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.13.5",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((8, 22, 5, 24, 15))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 15"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 37"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (4 + 48) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(18, 56, 17, 57) - min(18, 56, 17, 57)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.13.6",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 4 * 4 + 3 * 4 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 2 * 3 * 4 ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 1 * 3 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 1 * 3 + 4",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 2 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 4 * 4 + 3 * 4 + 6"
+   ]
+  },
+  {
+   "id": "jemh.13.7",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((35, 24, 10, 39, 27))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 22"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 26"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (2 + 36) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(57, 8, 23, 58) - min(57, 8, 23, 58)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

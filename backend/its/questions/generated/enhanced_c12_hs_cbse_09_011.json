@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_011",
+   "title": "c12_hs_cbse_09_011",
+   "questions": [
+    {
+     "q": "Define \"therapeutic diet\" in the context of cardiovascular disease and state the primary nutrient modifications recommended by ICMR/NIN for an Indian adult with hypertension and hypercholesterolemia.",
+     "a": "A therapeutic diet for CVD is a scientifically planned meal pattern that modifies specific nutrients to manage or prevent cardiovascular pathology. For an Indian adult with hypertension and hypercholesterolemia, ICMR/NIN recommends: total fat 20-25% E, saturated fat <7% E, trans fat <1% E, cholesterol <200 mg/day, sodium <2 g/day (5 g salt), potassium >3.5 g/day, dietary fiber 25-40 g/day, and emphasis on MUFA/PUFA (especially omega-3). A wrong answer that only says \"low fat, low salt\" reveals the student lacks quantitative targets and does not know the specific cut-offs used in board exam marking schemes and clinical guidelines.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why simply \"reducing oil\" is an insufficient strategy for a CVD patient, and describe how the *quality* of fat (SFA, MUFA, PUFA, trans) and *food matrix* (whole vs processed) alter cardiovascular risk.",
+     "a": "Reducing total oil without distinguishing fat quality can inadvertently lower protective MUFA/PUFA and essential fatty acids. Saturated fats (ghee, butter, coconut oil, palm oil) raise LDL-C; trans fats (vanaspati, reused frying oil) raise LDL-C and lower HDL-C; MUFA (olive, groundnut, rice bran oil) and PUFA (especially omega-3 from fish, flaxseed, walnuts) lower LDL-C and triglycerides. Whole foods (nuts, seeds, fatty fish) deliver fats in a matrix with fiber, antioxidants, and phytosterols that blunt postprandial lipemia, whereas processed foods deliver isolated fats with sodium and refined carbs. A student who says \"use less oil\" shows they memorize a slogan but cannot apply lipid biochemistry to food choices — a common board exam error where marks are lost for lack of mechanistic explanation.",
+     "self_check": true
+    },
+    {
+     "q": "A 60-year-old woman with hypertension (BP 150/95 mmHg) and LDL-C 160 mg/dL consumes 3 g sodium/day and 12% E from saturated fat. Design a single dinner meal (with weights) that provides ≤500 mg sodium, ≤5 g saturated fat, ≥8 g fiber, and includes at least one source of omega-3. Show calculations.",
+     "a": "**Meal:** 100 g grilled salmon (omega-3), 150 g quinoa (cooked), 100 g steamed broccoli, 1 tsp (5 mL) olive oil for dressing, 1 small apple.  \n**Calculations:**  \n- Sodium: salmon 60 mg + quinoa 10 mg + broccoli 30 mg + olive oil 0 mg + apple 1 mg ≈ 101 mg (<500 mg).  \n- Saturated fat: salmon 1.5 g + quinoa 0.3 g + broccoli 0.1 g + olive oil 0.9 g ≈ 2.8 g (<5 g).  \n- Fiber: quinoa 4.5 g + broccoli 2.6 g + apple 2.4 g ≈ 9.5 g (≥8 g).  \n- Omega-3: salmon provides ~1.5 g EPA+DHA.  \nA wrong answer that picks chicken breast (low omega-3) or adds salted butter shows inability to select foods meeting multiple simultaneous constraints — a skill tested in CBSE case-based questions and NEET applied nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the DASH diet and the Mediterranean diet for CVD management. Identify two similarities and two differences in their nutrient emphasis, food groups, and evidence base for Indian populations.",
+     "a": "**Similarities:** (1) Both emphasize fruits, vegetables, whole grains, legumes, nuts, and low-fat dairy; (2) Both limit red meat, sweets, and sugar-sweetened beverages.  \n**Differences:** (1) DASH explicitly prescribes sodium ≤2.3 g/day (1.5 g for greater BP reduction) and includes specific serving numbers from each food group; Mediterranean diet focuses on fat *quality* (olive oil as primary fat, ≥4 tbsp/day) and does not set a strict sodium target. (2) Mediterranean diet encourages moderate wine consumption (controversial in India); DASH does not. Evidence: DASH has strong RCT data for BP lowering in diverse ethnicities including South Asians; Mediterranean diet has strong observational and PREDIMED trial data for hard CVD endpoints but less direct Indian trial data. A student who says \"they are the same\" fails to distinguish prescriptive vs pattern-based approaches — a nuance examiners expect in \"compare and contrast\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following dietary advice given to a CVD patient: \"Switch to refined vegetable oils (sunflower, safflower) because they are cholesterol-free and heart-healthy.\" Justify your evaluation with reference to fatty acid composition, oxidation susceptibility, and current ICMR guidelines.",
+     "a": "The advice is **flawed**. While refined sunflower/safflower oils are cholesterol-free (no plant oil contains cholesterol), they are predominantly omega-6 PUFA (linoleic acid) with negligible omega-3. High omega-6/omega-3 ratio promotes pro-inflammatory eicosanoids and may increase oxidized LDL. Moreover, refined PUFA oils are highly susceptible to oxidation during high-heat Indian cooking (tadka, deep frying), generating harmful aldehydes. ICMR 2020 guidelines recommend a *blend* or rotation of oils to achieve a balanced PUFA:MUFA:SFA ratio and suggest oils with natural antioxidants (cold-pressed mustard, groundnut, rice bran, olive). A student who endorses the advice shows they equate \"cholesterol-free\" with \"heart-healthy\" — a classic marketing trap that appears in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-day cyclic menu for a 50-year-old male post-MI patient (sedentary, 1800 kcal) that incorporates traditional North Indian foods (e.g., dal, roti, sabzi, dahi) while meeting CVD therapeutic targets. Provide a table with meals, major food groups, and key nutrient highlights (sodium, saturated fat, fiber, potassium) for each day.",
+     "a": "**Day 1:** Breakfast: 1 multigrain roti (30 g whole wheat + 10 g oats flour), 100 g low-fat dahi, 50 g methi leaves sautéed in 2 g olive oil. Lunch: 1 katori (150 g) moong dal, 1 katori (100 g) lauki sabzi (no added salt), 2 multigrain rotis, salad (cucumber, tomato, lemon). Dinner: 100 g grilled fish (rohu), 100 g brown rice, 100 g palak sabzi (steamed), 1 small orange.  \n**Day 2:** Breakfast: 1 besan cheela (30 g besan + spinach), 100 g mint-coriander chutney (no salt), 100 g low-fat milk. Lunch: 1 katori rajma (kidney beans), 1 katori bhindi sabzi (air-fried), 2 rotis, 100 g curd. Dinner: 100 g tofu stir-fry with mixed veg, 100 g quinoa pulao, 1 apple.  \n**Day 3:** Breakfast: 1 vegetable dalia (broken wheat) upma with peas, carrots, 2 g olive oil, 100 g buttermilk. Lunch: 1 katori chana dal, 1 katori baingan bharta (roasted, minimal oil), 2 rotis, salad. Dinner: 100 g chicken stew (pressure cooked, no skin), 100 g millet (bajra) roti, 100 g sautéed beans, 1 guava.  \n**Nutrient highlights (per day avg):** Sodium ~1.8 g, Saturated fat ~6 g (≤7% E), Fiber ~30 g, Potassium ~3.8 g.  \nA poor answer that includes pickles, papad, fried snacks, or full-fat dairy shows failure to internalize sodium and saturated fat constraints while maintaining cultural acceptability — a key competency in CBSE case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

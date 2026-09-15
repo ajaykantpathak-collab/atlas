@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_003",
+   "title": "c11_ps_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define positive liberty in one sentence using the \"freedom to\" formulation.",
+     "a": "Positive liberty is the freedom to act as an autonomous agent, to govern oneself, and to have the real capacity and opportunities to develop one's potential and make meaningful choices. A wrong answer that defines it merely as \"absence of restrictions\" reveals confusion with negative liberty; a wrong answer that equates it with \"state giving people whatever they want\" reveals a misunderstanding of autonomy as self-direction rather than provision.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why positive liberty thinkers like Rousseau and Gandhi argue that true freedom requires participation in collective self-governance, not just individual choice.",
+     "a": "Rousseau and Gandhi argue that in a society, individual autonomy is only possible when laws reflect the \"general will\" (Rousseau) or when individuals govern themselves through participatory democracy (Gandhi's Swaraj), because external laws imposed by others constitute heteronomy, not autonomy. A wrong answer that says \"the state knows best what is good for you\" reveals the dangerous authoritarian misinterpretation of positive liberty; a wrong answer that says \"voting is enough\" misses the depth of self-governance required.",
+     "self_check": true
+    },
+    {
+     "q": "A state provides free higher education to all citizens but bans student unions and political activity on campuses. Analyze whether this policy promotes or undermines positive liberty, using the concepts of autonomy and enabling conditions.",
+     "a": "The policy partially promotes positive liberty by providing material resources (education) but undermines it by denying political participation and associative freedom, which are essential for self-governance and developing autonomous judgment. A wrong answer that says \"it promotes positive liberty because education is provided\" ignores the autonomy dimension; a wrong answer that says \"it undermines positive liberty completely\" fails to recognize the multidimensional nature of enabling conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the positive liberty conceptions of Marx (freedom from alienated labor) and Gandhi (Swaraj as self-rule). Identify one fundamental similarity and one key difference in their views on the relationship between individual and community.",
+     "a": "Similarity: Both see true freedom as requiring transformation of social structures that distort human potential. Difference: Marx emphasizes collective liberation through revolutionary change of economic base, while Gandhi emphasizes individual moral self-purification as the path to collective Swaraj. A wrong answer that claims they are identical ignores Gandhi's spiritual-individualist emphasis; a wrong answer that claims they are opposites misses their shared critique of structural unfreedom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Positive liberty is dangerous because it allows the state to force people to be free.\" Use Isaiah Berlin's critique and the Indian constitutional framework to support your judgment.",
+     "a": "Berlin's critique is valid historically (e.g., totalitarian regimes misusing \"true freedom\" to justify coercion), but the Indian Constitution mitigates this by embedding positive liberty (Directive Principles) within a framework of justiciable negative liberties (Fundamental Rights) and judicial review, ensuring state action enabling freedom cannot violate core autonomy. A wrong answer that agrees entirely ignores constitutional safeguards; a wrong answer that dismisses Berlin entirely ignores real historical abuses.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a \"Positive Liberty Index\" to measure how well an Indian state enables youth autonomy, specifying three measurable indicators each for material, political, and educational enabling conditions.",
+     "a": "A good proposal includes: Material – youth unemployment rate, access to credit for startups, poverty rate among 18-25 year olds; Political – youth voter turnout, representation in local bodies, participation in grievance redressal; Educational – gross enrollment ratio in higher education, vocational training completion, digital literacy rate. A poor proposal uses only input measures (budget allocation) without outcome indicators, or ignores the political participation dimension entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

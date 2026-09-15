@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_006",
+   "title": "c11_acc_cbse_01_006",
+   "questions": [
+    {
+     "q": "State the primary objective of Financial Accounting as defined in the NCERT textbook for Class 11.",
+     "a": "The primary objective of Financial Accounting is to keep a systematic record of financial transactions to: (a) ascertain profit or loss for an accounting period, (b) determine the financial position at the end of the period, and (c) provide financial information to management and other interested parties. A wrong answer (e.g., \"to control costs\" or \"to help managers make decisions\") reveals confusion between Financial Accounting and Cost/Management Accounting—specifically, not recognising that Financial Accounting is primarily stewardship-oriented, historical, and external-user-focused.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager asks the accountant: \"What was the per-unit cost of the chairs we produced last month, and where did we overspend?\" Which branch of accounting answers this, and why is Financial Accounting insufficient here?",
+     "a": "Cost Accounting answers this because it analyses expenditure to ascertain per-unit product cost and identifies variances for cost control. Financial Accounting is insufficient because it only reports *total* factory cost in aggregate (e.g., \"Cost of Goods Manufactured ₹50 lakh\") without breaking it down by product, process, or cost element (material, labour, overhead). A wrong answer (e.g., \"Management Accounting\") shows the student cannot distinguish between *cost determination* (Cost Accounting) and *decision-support using cost data* (Management Accounting).",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. is planning to launch a new product. The CEO needs a report showing projected sales, cash flows, manpower needs, and environmental impact for the next 3 years. Which branch prepares this report? List two specific data types included that are NOT part of Financial Accounting.",
+     "a": "Management Accounting prepares this report. Two data types not in Financial Accounting: (1) Sales forecast (future-oriented, non-historical), (2) Environmental impact data (non-monetary, qualitative). A wrong answer (e.g., \"Financial Accounting with estimates\") reveals the misconception that Financial Accounting deals with future projections or non-monetary data—it strictly records past monetary transactions in a standardised format.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three branches on these four dimensions: (a) Primary user group, (b) Time orientation, (c) Data nature, (d) Regulatory framework. Present as a 3×4 table.",
+     "a": "| Dimension | Financial Accounting | Cost Accounting | Management Accounting |\n|-----------|---------------------|-----------------|----------------------|\n| (a) Primary User | External (investors, creditors, regulators) | Internal (management, production dept.) | Internal (top & middle management) |\n| (b) Time Orientation | Past (historical) | Past & Present (actual costs incurred) | Future (projections, budgets) |\n| (c) Data Nature | Monetary only | Primarily monetary (cost per unit) | Monetary + Non-monetary (quantitative & qualitative) |\n| (d) Regulatory Framework | Mandatory (Companies Act, Ind AS/GAAP) | Voluntary (industry-specific standards) | Voluntary (no statutory format) |\n\nA wrong answer (e.g., putting \"future\" for Cost Accounting) shows the student hasn't grasped that Cost Accounting analyses *incurred* costs for control, while Management Accounting *projects* for planning.",
+     "self_check": true
+    },
+    {
+     "q": "\"Management Accounting is just a combination of Financial Accounting and Cost Accounting.\" Evaluate this statement. Is it accurate? Justify your answer with two specific differences.",
+     "a": "The statement is **inaccurate**. Management Accounting *draws* data from Financial and Cost Accounting but differs in two fundamental ways: (1) **Scope of data**: Management Accounting includes non-financial, qualitative, and future-oriented data (e.g., employee turnover rate, customer satisfaction index, sales forecasts) which neither Financial nor Cost Accounting captures. (2) **Purpose**: Financial/Cost Accounting are *recording and analysis* systems; Management Accounting is a *decision-support* system focused on planning, controlling, and strategic choices (e.g., make-or-buy, capital budgeting). A wrong evaluation (e.g., \"True, it just combines them\") reveals a surface-level understanding that misses the forward-looking, multi-disciplinary nature of Management Accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (3-4 sentences) where all three branches of accounting are simultaneously active. Label which action belongs to which branch.",
+     "a": "**Scenario**: \"Apex Textiles Ltd. closes its financial year on 31st March. The Financial Accountant prepares the Balance Sheet and P&L for shareholders and bankers. The Cost Accountant calculates the per-metre cost of cotton fabric to set the selling price for the new summer collection. The Management Accountant prepares a 6-month cash budget and a make-or-buy analysis for dyeing machinery.\"  \n**Labels**: Financial Accounting → preparing Balance Sheet/P&L for external users; Cost Accounting → per-metre cost calculation for pricing; Management Accounting → cash budget & make-or-buy analysis for internal decisions.  \nA poor answer (e.g., only describing one branch's activity or mislabeling the cash budget as Cost Accounting) shows inability to visualise how the three branches operate concurrently on the same business data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

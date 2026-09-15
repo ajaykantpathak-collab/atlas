@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_07_005",
+   "title": "c11_ps_cbse_07_005",
+   "questions": [
+    {
+     "q": "According to Benedict Anderson, what are the three key characteristics that define a nation as an \"imagined community\"?",
+     "a": "A nation is imagined as **limited** (finite, bounded boundaries), **sovereign** (conceived in an age of freedom replacing dynastic/religious hierarchy), and a **community** (horizontal comradeship despite inequality). A wrong answer listing \"common language, religion, or race\" reveals a primordialist misunderstanding – the student confuses Anderson's constructivist definition with the objective criteria the textbook explicitly rejects in section 7.2 (e.g., Canada lacks a common language, India lacks a common religion).",
+     "self_check": true
+    },
+    {
+     "q": "Why does Anderson argue that the nation is \"imagined\" rather than \"fake\" or \"false\"? Explain the distinction using the textbook's comparison to a \"team.\"",
+     "a": "\"Imagined\" means the community exists *because* members believe in it and orient their behavior toward it (like a team ceases to be a team if players stop conceiving themselves as a collective). It does not mean \"fictional\" in the sense of unreal; the loyalty and sacrifice are real. A wrong answer saying \"nations are fake because we never meet everyone\" misses the sociological point: all large-scale human solidarity (citizenship, fandom, religious ummah) is imagined. The error reveals a literalist reading of \"imagined\" rather than the technical sociological meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Anderson's concept of \"print capitalism\" to explain why the *Bengal Gazette* (1780) or *Kesari* (1881) were more significant for Indian nationalism than the earlier manuscript tradition or Persian court chronicles.",
+     "a": "Manuscripts/Persian chronicles served narrow elites in a cosmopolitan language. Print capitalism (vernacular newspapers like *Kesari* in Marathi) created a **mass, anonymous readership** consuming the same content **simultaneously** in a **standardized vernacular**, enabling readers to imagine thousands of strangers doing the same thing at the same time – the \"daily ritual\" of the newspaper. A wrong answer focusing only on \"spreading ideas\" misses the structural shift: it's not the *content* but the *form* (simultaneity, standardization, commodification) that creates the imagined community. This error confuses \"communication\" with \"print capitalism.\"",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Anderson's \"print capitalism\" explains the *difference* between European dynastic realms (e.g., Austro-Hungarian Empire) and modern nation-states. Use the concepts of \"Latin vs. Vernacular\" and \"Sacred vs. Secular time.\"",
+     "a": "Dynastic realms used **Latin** (sacred, universal, static) administered by a transnational clergy; legitimacy came from divine right (sacred time). Print capitalism elevated **vernaculars** (particular, standardized, secular) via market forces; legitimacy came from the \"people\" in **homogeneous, empty time** (clock/calendar time shared by citizens). The nation-state emerges when the vernacular print-field maps onto the administrative territory. A wrong answer citing \"industrialization\" or \"French Revolution\" as sole causes ignores Anderson's specific media-historical argument: the *form* of the novel/newspaper (simultaneity, homogeneous time) structurally precedes and enables the political form.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Anderson's theory explains the *origin* of nationalism well but fails to explain its *emotional power* and *persistence* in the digital age.\" Use the NCERT discussion of \"shared beliefs\" and \"territory\" (section 7.2) to support your evaluation.",
+     "a": "Partially valid. Anderson explains the *structural possibility* (print capitalism creates the form), but the *affective depth* (willingness to die) requires the \"shared beliefs,\" \"history,\" \"territory,\" and \"political ideals\" the NCERT lists as the *content* filling the imagined form. Digital media (social media algorithms, WhatsApp forwards) may intensify the \"simultaneity\" and \"horizontal comradeship\" but also fragment the \"shared reading\" into filter bubbles, challenging the *unified* imagined community. A wrong answer dismissing Anderson as \"outdated\" misses that the *logic* of imagined community (simultaneity, boundedness, horizontality) persists even if the technology changes; conversely, an answer saying \"Anderson explains everything\" ignores the NCERT's emphasis on the *content* of nationalism (beliefs, territory, ideals) which Anderson deliberately brackets.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic strip or storyboard concept illustrating Anderson's argument: Panel 1: Pre-print (Latin/Sanskrit, manuscript, elite, sacred time). Panel 2: Print Capitalism moment (Gutenberg/vernacular press, commodity, newspaper/novel, homogeneous empty time). Panel 3: Imagined Community (readers across territory imagining each other, bounded map, horizontal comradeship). Write the caption for each panel.",
+     "a": "**Panel 1 Caption:** \"1500: A Brahmin in Varanasi and a Priest in Rome read the *same* Sanskrit/Latin manuscript – but slowly, for elites, in sacred time. No 'India' or 'Europe' imagined.\" **Panel 2 Caption:** \"1800: A merchant in Calcutta prints a Bengali novel; a clerk in Dhaka buys it. They read *simultaneously* in standardized Bengali, in clock-time, as a commodity. The 'print-field' is born.\" **Panel 3 Caption:** \"1900: Thousands read *Kesari* at breakfast. They imagine each other – strangers linked by language, territory, and time. The Nation appears.\" A poor answer shows only \"spreading information\" without visualizing the *structural shift*: standardization, commodification, simultaneity, and the map/boundedness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

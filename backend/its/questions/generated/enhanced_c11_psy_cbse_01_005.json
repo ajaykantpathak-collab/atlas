@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_005",
+   "title": "c11_psy_cbse_01_005",
+   "questions": [
+    {
+     "q": "What is the central metaphor William James used to describe consciousness, and what does it imply about the nature of mental life?",
+     "a": "James used the \"stream of consciousness\" metaphor, implying consciousness is continuous, ever-changing, and cannot be divided into discrete, static elements without losing its essential nature. A wrong answer (e.g., \"consciousness is like a chain of separate links\" or \"a stack of building blocks\") reveals the student still thinks in structuralist terms—treating mental life as composed of fixed, isolatable units rather than a dynamic flow.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Functionalism and structuralism both study consciousness, so they're basically the same thing—just different names.\" Explain why this is incorrect by identifying the fundamental difference in their guiding questions.",
+     "a": "Structuralism asks \"What ARE the elements of consciousness?\" (analyzing structure via introspection), while functionalism asks \"What DOES consciousness DO for the organism?\" (studying adaptive function in real-world contexts). A wrong answer that focuses only on methods (e.g., \"one uses introspection, the other uses observation\") misses the deeper theoretical divide: structuralism seeks a periodic table of the mind; functionalism seeks the survival value of mental processes.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"selective attention\" from James's stream of consciousness to this scenario: A Class 11 student is studying NCERT Psychology in a noisy classroom. She suddenly realizes she hasn't heard the last five minutes of the teacher's lecture because she was absorbed in the textbook. Using James's framework, explain what happened to the \"stream\" during those five minutes.",
+     "a": "James's stream has a \"focus\" (clear, distinct) and a \"fringe\" (vague, contextual). The student's stream shifted focus from the teacher's voice (fringe) to the textbook (focus), making the lecture content part of the unattended fringe. The stream didn't stop—it selectively amplified one current while others receded. A wrong answer claiming \"she blocked out the noise\" or \"her consciousness paused\" fails to grasp that the stream is continuous and selection is an active, functional process, not a passive filter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a structuralist (Wundt) and a functionalist (James) would study \"fear.\" Identify at least two methodological and two theoretical differences in their approaches.",
+     "a": "Structuralist: Presents a controlled fear stimulus (e.g., sudden loud noise) in lab, asks subject to introspect and report elemental sensations (racing heart, cold sweat, visual images)—aiming to map the structure of the fear experience. Functionalist: Observes fear in natural settings (e.g., student before exam, pedestrian crossing busy road), asks how fear *functions* to prepare the organism for fight/flight, studies its adaptive value across situations. Theoretical difference: Structuralism treats fear as a compound of elements; functionalism treats fear as a survival tool. A wrong answer that only lists \"lab vs. field\" misses the theoretical core: structuralism analyzes; functionalism explains purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using James's principles: \"Since consciousness is a continuous stream, we can never scientifically study it—science requires fixed, measurable units.\" Is this a valid criticism of functionalism? Defend your position.",
+     "a": "Invalid criticism. James argued the stream *can* be studied scientifically—but not by freezing it into artificial elements. Functionalism uses multiple methods: observing behaviour in natural contexts, studying adaptive outcomes, comparing across species, and examining the *functions* of mental processes (e.g., how attention selects relevant stimuli). Science studies dynamic systems (weather, ecosystems) without reducing them to static parts. A wrong answer agreeing with the statement reveals a positivist bias equating science only with element-reductionism, missing James's pragmatic epistemology: truth is what works in explaining adaptive behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original real-life example (not from the textbook) that illustrates all four characteristics of James's stream of consciousness: continuity, selectivity, intentionality, and fringe. Label each characteristic in your example.",
+     "a": "Example: A driver navigating Delhi traffic while planning dinner. \n- Continuity: Thoughts flow from \"brake now\" → \"that car cut me\" → \"need onions\" → \"red light ahead\" without gaps.\n- Selectivity: Focus shifts to sudden braking (focus) while radio music becomes fringe.\n- Intentionality: Every moment of the stream is *about* something—traffic, dinner, time.\n- Fringe: Vague sense of \"running late\" and \"hunger\" frames the focused thoughts without being explicit.\nA poor example treats these as separate events (e.g., \"first continuity, then selectivity\") rather than simultaneous properties of a single flowing stream.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

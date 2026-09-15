@@ -1,0 +1,465 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 113,
+ "chapter_title": "Introduction to Graphs",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh113.txt",
+ "concepts": [
+  {
+   "id": "hemh.113.1.1",
+   "title": "Line Graph Data Difference",
+   "section": "13.1.1",
+   "definition": "A visual representation using line segments connecting plotted points to display changes in a continuous metric over measured intervals of time.",
+   "formula": "difference = value2 - value1",
+   "key_idea": "Calculate the net change in recorded continuous values across two specific time instances.",
+   "textbook_ref": "hemh113.txt lines 15-55",
+   "question_patterns": [
+    "find the difference between the sales in {value1} and {value2}",
+    "calculate the temperature change from {value1} to {value2}",
+    "what is the increase in height between {value1} and {value2}",
+    "determine the net change in value from {value1} to {value2}",
+    "compute how much the parameter changed between {value1} and {value2}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract initial value from final value",
+     "explain": "subtract value1 from value2 to find the net change",
+     "compute": "difference = value2 - value1"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.1",
+   "title": "Independent and Dependent Variables in Graphs",
+   "section": "13.2",
+   "definition": "In a relationship between two quantities, the variable that is altered independently is placed on the horizontal axis while the resulting outcome variable is placed on the vertical axis.",
+   "formula": "y = k * x",
+   "key_idea": "Identify control input variables versus dependent response variables in linear variation graphs.",
+   "textbook_ref": "hemh113.txt lines 140-155",
+   "question_patterns": [
+    "identify the independent variable in a relation between electricity and bill",
+    "which variable is plotted on the horizontal axis when graphing quantity against cost",
+    "determine whether quantity is a dependent or independent variable",
+    "verify if the graph passing through origin shows direct variation",
+    "explain which quantity controls the value of the other in a linear graph"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the control variable",
+     "explain": "the quantity that can be set or changed independently is the independent variable on the x-axis"
+    },
+    {
+     "step": 2,
+     "action": "identify the response variable",
+     "explain": "the quantity that changes as a direct result is the dependent variable on the y-axis"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.2",
+   "title": "Direct Variation of Quantity and Cost",
+   "section": "13.2",
+   "definition": "When unit price remains uniform, the total cost of an item varies in direct proportion with the number of units purchased.",
+   "formula": "cost = unit_price * quantity",
+   "key_idea": "Calculate total cost by multiplying unit price by quantity in linear cost relationships.",
+   "textbook_ref": "hemh113.txt lines 150-175",
+   "question_patterns": [
+    "find the cost of {quantity} litres of petrol if 1 litre costs {unit_price} rupees",
+    "calculate the total price for {quantity} apples at unit price {unit_price}",
+    "what is the total cost for buying {quantity} units when each unit costs {unit_price}",
+    "compute the expenditure for {quantity} units given price per unit is {unit_price}",
+    "determine total cost when quantity is {quantity} and rate is {unit_price}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply unit price by quantity",
+     "explain": "total cost is the product of unit price and quantity",
+     "compute": "cost = unit_price * quantity"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.3",
+   "title": "Simple Interest on Principal Deposit",
+   "section": "13.2",
+   "definition": "Simple interest accumulated over time is directly proportional to the principal sum deposited at a fixed percentage rate per annum.",
+   "formula": "interest = principal * rate * time / 100",
+   "key_idea": "Calculate simple interest earned using principal amount, annual rate, and time in years.",
+   "textbook_ref": "hemh113.txt lines 180-210",
+   "question_patterns": [
+    "find the annual simple interest for a deposit of {principal} rupees at rate {rate} percent",
+    "calculate simple interest on sum {principal} at {rate} percent for {time} years",
+    "what is the interest earned on {principal} rupees at rate {rate} over {time} year",
+    "compute simple interest for principal {principal} with interest rate {rate}",
+    "determine the annual interest obtainable for an investment of {principal} rupees at {rate} percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate simple interest",
+     "explain": "multiply principal, rate, and time, then divide by 100",
+     "compute": "interest = principal * rate * time / 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.4",
+   "title": "Linear Distance Time Relationship at Uniform Speed",
+   "section": "13.2",
+   "definition": "When traveling at a uniform speed, distance covered increases linearly with time, expressed as the product of speed and duration.",
+   "formula": "distance = speed * time",
+   "key_idea": "Calculate distance covered by multiplying constant speed by travel time.",
+   "textbook_ref": "hemh113.txt lines 215-240",
+   "question_patterns": [
+    "find the distance covered in {time} hours at a constant speed of {speed} km per hour",
+    "calculate distance travelled when moving at speed {speed} km per hour for {time} hours",
+    "what is the distance covered by a vehicle travelling at {speed} km per hour in {time} hours",
+    "compute the total travel distance given speed {speed} km per hour and time {time} hours",
+    "determine distance reached in {time} hours at uniform speed {speed}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply speed by time",
+     "explain": "distance is speed multiplied by time",
+     "compute": "distance = speed * time"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.5",
+   "title": "Perimeter of Square as Linear Relation",
+   "section": "13.2",
+   "definition": "The total length around a square varies directly with its side length, forming a straight line graph.",
+   "formula": "perimeter = 4 * side",
+   "key_idea": "Calculate perimeter of a square by multiplying its side length by four.",
+   "textbook_ref": "hemh113.txt line 168",
+   "question_patterns": [
+    "find the perimeter of a square with side length {side} cm",
+    "calculate perimeter for a square having side {side} cm",
+    "what is the perimeter of a square of side {side} cm",
+    "compute the perimeter when square side is {side} cm",
+    "determine boundary length of a square with side {side} cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply side length by 4",
+     "explain": "a square has four equal sides",
+     "compute": "perimeter = 4 * side"
+    }
+   ]
+  },
+  {
+   "id": "hemh.113.2.6",
+   "title": "Area of Square Non-Linear Relation",
+   "section": "13.2",
+   "definition": "The surface region enclosed by a square varies quadratically with its side length, generating a curved non-linear graph.",
+   "formula": "area = side ** 2",
+   "key_idea": "Calculate area of a square by squaring its side length.",
+   "textbook_ref": "hemh113.txt line 169",
+   "question_patterns": [
+    "find the area of a square with side length {side} cm",
+    "calculate area for a square of side {side} cm",
+    "what is the area of a square having side {side} cm",
+    "compute square area given side length {side} cm",
+    "determine surface area of a square with side {side} cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the side length",
+     "explain": "area is side multiplied by itself",
+     "compute": "area = side ** 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1_1",
+   "source_ref": "hemh113.txt line 161",
+   "concept": "hemh.113.1.1",
+   "question_type": "compute_difference",
+   "question_pattern": "Compute the difference between the sales in 2002 with sales {value1} crore rupees and 2006 with sales {value2} crore rupees.",
+   "extracted_variables": {
+    "value1": 4,
+    "value2": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial value from final value",
+     "explain": "subtract 4 from 8 to find difference in sales",
+     "compute": "difference = value2 - value1"
+    }
+   ]
+  },
+  {
+   "id": "ex1_2",
+   "source_ref": "hemh113.txt line 158",
+   "concept": "hemh.113.1.1",
+   "question_type": "compute_difference",
+   "question_pattern": "Calculate the increase in temperature when it rises from {value1} degrees C at 6 a.m. to {value2} degrees C at 10 a.m.",
+   "extracted_variables": {
+    "value1": 37,
+    "value2": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial value from final value",
+     "explain": "subtract 37 from 40 to get temperature rise",
+     "compute": "difference = value2 - value1"
+    }
+   ]
+  },
+  {
+   "id": "ex3_1",
+   "source_ref": "hemh113.txt line 164",
+   "concept": "hemh.113.2.2",
+   "question_type": "compute_cost",
+   "question_pattern": "Find the total cost of {quantity} litres of petrol if the price per litre is {unit_price} rupees.",
+   "extracted_variables": {
+    "unit_price": 50,
+    "quantity": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply unit price by quantity",
+     "explain": "multiply 50 by 12 to get total cost",
+     "compute": "cost = unit_price * quantity"
+    }
+   ]
+  },
+  {
+   "id": "ex3_2",
+   "source_ref": "hemh113.txt line 168",
+   "concept": "hemh.113.2.2",
+   "question_type": "compute_cost",
+   "question_pattern": "Calculate the total cost of {quantity} apples if each apple costs {unit_price} rupees.",
+   "extracted_variables": {
+    "unit_price": 5,
+    "quantity": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply unit price by quantity",
+     "explain": "multiply 5 by 4 to get cost",
+     "compute": "cost = unit_price * quantity"
+    }
+   ]
+  },
+  {
+   "id": "ex4_1",
+   "source_ref": "hemh113.txt line 165",
+   "concept": "hemh.113.2.3",
+   "question_type": "compute_interest",
+   "question_pattern": "Find the annual interest obtainable for an investment of {principal} rupees at {rate} percent simple interest for {time} year.",
+   "extracted_variables": {
+    "principal": 250,
+    "rate": 10,
+    "time": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate simple interest",
+     "explain": "multiply principal 250 by rate 10 and time 1, then divide by 100",
+     "compute": "interest = principal * rate * time / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4_2",
+   "source_ref": "hemh113.txt line 168",
+   "concept": "hemh.113.2.3",
+   "question_type": "compute_interest",
+   "question_pattern": "Calculate the annual simple interest on a deposit of {principal} rupees at {rate} percent per year for {time} year.",
+   "extracted_variables": {
+    "principal": 2500,
+    "rate": 8,
+    "time": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate simple interest",
+     "explain": "multiply 2500 by rate 8 and time 1, then divide by 100",
+     "compute": "interest = principal * rate * time / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5_1",
+   "source_ref": "hemh113.txt line 166",
+   "concept": "hemh.113.2.4",
+   "question_type": "compute_distance",
+   "question_pattern": "Find the distance covered by riding constantly at a speed of {speed} km per hour in {time} hours.",
+   "extracted_variables": {
+    "speed": 30,
+    "time": 3.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply speed by time",
+     "explain": "multiply speed 30 by time 3.5 to get distance",
+     "compute": "distance = speed * time"
+    }
+   ]
+  },
+  {
+   "id": "ex5_2",
+   "source_ref": "hemh113.txt line 167",
+   "concept": "hemh.113.2.4",
+   "question_type": "compute_distance",
+   "question_pattern": "Calculate the distance travelled in {time} hours at a speed of {speed} km per hour.",
+   "extracted_variables": {
+    "speed": 30,
+    "time": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply speed by time",
+     "explain": "multiply speed 30 by time 2 to get distance",
+     "compute": "distance = speed * time"
+    }
+   ]
+  },
+  {
+   "id": "ex6_1",
+   "source_ref": "hemh113.txt line 168",
+   "concept": "hemh.113.2.5",
+   "question_type": "compute_perimeter",
+   "question_pattern": "Find the perimeter of a square whose side is {side} cm.",
+   "extracted_variables": {
+    "side": 3.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply side length by 4",
+     "explain": "multiply 3.5 by 4 to get perimeter",
+     "compute": "perimeter = 4 * side"
+    }
+   ]
+  },
+  {
+   "id": "ex6_2",
+   "source_ref": "hemh113.txt line 168",
+   "concept": "hemh.113.2.5",
+   "question_type": "compute_perimeter",
+   "question_pattern": "Calculate the perimeter of a square with side length {side} cm.",
+   "extracted_variables": {
+    "side": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply side length by 4",
+     "explain": "multiply 5 by 4 to get perimeter",
+     "compute": "perimeter = 4 * side"
+    }
+   ]
+  },
+  {
+   "id": "ex7_1",
+   "source_ref": "hemh113.txt line 169",
+   "concept": "hemh.113.2.6",
+   "question_type": "compute_area",
+   "question_pattern": "Find the area of a square with side length {side} cm.",
+   "extracted_variables": {
+    "side": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the side length",
+     "explain": "multiply 4 by 4 to get area",
+     "compute": "area = side ** 2"
+    }
+   ]
+  },
+  {
+   "id": "ex7_2",
+   "source_ref": "hemh113.txt line 169",
+   "concept": "hemh.113.2.6",
+   "question_type": "compute_area",
+   "question_pattern": "Calculate the area of a square of side {side} cm.",
+   "extracted_variables": {
+    "side": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the side length",
+     "explain": "multiply 5 by 5 to get area",
+     "compute": "area = side ** 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "hemh113.txt lines 160-163",
+   "questions": [
+    "1a. What was the patient's temperature at 1 p.m.?",
+    "1b. When was the patient's temperature 38.5 degrees C?",
+    "1c. The patient's temperature was the same two times during the period given. What were these two times?",
+    "1d. What was the temperature at 1.30 p.m.? How did you arrive at your answer?",
+    "1e. During which periods did the patient's temperature show an upward trend?",
+    "2a. What were the sales in (i) 2002 (ii) 2006?",
+    "2b. What were the sales in (i) 2003 (ii) 2005?",
+    "2c. Compute the difference between the sales in 2002 and 2006.",
+    "2d. In which year was there the greatest difference between the sales as compared to its previous year?",
+    "3a. How high was Plant A after (i) 2 weeks (ii) 3 weeks?",
+    "3b. How high was Plant B after (i) 2 weeks (ii) 3 weeks?",
+    "3c. How much did Plant A grow during the 3rd week?",
+    "3d. How much did Plant B grow from the end of the 2nd week to the end of the 3rd week?",
+    "3e. During which week did Plant A grow most?",
+    "3f. During which week did Plant B grow least?",
+    "3g. Were the two plants of the same height during any week shown here? Specify.",
+    "4a. On which days was the forecast temperature the same as the actual temperature?",
+    "4b. What was the maximum forecast temperature during the week?",
+    "4c. What was the minimum actual temperature during the week?",
+    "4d. On which day did the actual temperature differ the most from the forecast temperature?",
+    "5a. Use the table to draw a linear graph for snow days in hillside city across years.",
+    "5b. Use the table to draw linear graphs for population of men and women in a village across years.",
+    "6a. What is the scale taken for the time axis?",
+    "6b. How much time did the courier person take for travel?",
+    "6c. How far is the place of the merchant from the town?",
+    "6d. Did the person stop on his way? Explain.",
+    "6e. During which period did he ride fastest?",
+    "7. Can there be a time-temperature graph as shown in figures (i) to (iv)? Justify your answer."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "hemh113.txt lines 168-169",
+   "questions": [
+    "1a. Draw graph for cost of apples vs number of apples.",
+    "1b. Draw graph for distance travelled by a car vs time. (i) Distance covered between 7.30 am and 8 am. (ii) Time when car covered 100 km.",
+    "1c. Draw graph for interest on deposits for a year. (i) Does graph pass through origin? (ii) Interest on 2500 rupees for a year. (iii) Deposit required to get interest of 280 rupees.",
+    "2i. Draw graph for side of square vs perimeter. Is it a linear graph?",
+    "2ii. Draw graph for side of square vs area. Is it a linear graph?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

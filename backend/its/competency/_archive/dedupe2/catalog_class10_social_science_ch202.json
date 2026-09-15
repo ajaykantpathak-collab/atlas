@@ -1,0 +1,138 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 202,
+ "chapter_title": "Sectors of the Indian Economy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess202.txt",
+ "concepts": [
+  {
+   "id": "jess.2.1",
+   "title": "Calculating Gross Domestic Product",
+   "section": "Comparing the three sectors",
+   "definition": "The total monetary value of all final goods and services produced within a country's borders during a specific year.",
+   "formula": "gdp = sum(final_good_values)",
+   "key_idea": "Only final goods are counted to avoid double-counting intermediate input values.",
+   "textbook_ref": "jess202.txt lines 130-160",
+   "question_patterns": [
+    "calculate the total gdp given these final goods",
+    "find the gdp if the final goods values are ...",
+    "what is the total value of final production",
+    "determine the gdp based on these sector outputs",
+    "compute the gdp from the provided final product values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the values of all final goods",
+     "explain": "GDP is the aggregate of all final goods and services produced in an economy.",
+     "compute": "gdp = primary_val + secondary_val + tertiary_val"
+    }
+   ]
+  },
+  {
+   "id": "jess.2.2",
+   "title": "Sectoral Share in Employment",
+   "section": "Primary, Secondary and Tertiary Sectors in India",
+   "definition": "The percentage of the total workforce engaged in a specific economic sector.",
+   "formula": "percentage = (sector_workers / total_workers) * 100",
+   "key_idea": "Comparing the workforce distribution across primary, secondary, and tertiary sectors.",
+   "textbook_ref": "jess202.txt lines 240-270",
+   "question_patterns": [
+    "calculate the percentage of workers in the primary sector",
+    "find the share of employment in the secondary sector",
+    "what is the employment percentage for the tertiary sector",
+    "compute the workforce share for a given sector",
+    "determine the percentage of total workers in this sector"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide sector workers by total workers",
+     "explain": "Finding the proportion of the workforce in a specific sector.",
+     "compute": "share = (sector_workers / total_workers) * 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.2.3",
+   "title": "Sectoral Share in GVA",
+   "section": "Primary, Secondary and Tertiary Sectors in India",
+   "definition": "The proportional contribution of a single sector to the total Gross Value Added of the economy.",
+   "formula": "gva_share = (sector_gva / total_gva) * 100",
+   "key_idea": "Measuring the economic importance of a sector by its output contribution.",
+   "textbook_ref": "jess202.txt lines 230-250",
+   "question_patterns": [
+    "calculate the gva share of the primary sector",
+    "find the percentage contribution of the secondary sector to gva",
+    "what is the tertiary sector's share in total gva",
+    "compute the gva percentage for this sector",
+    "determine the sectoral contribution to the total gva"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide sector gva by total gva",
+     "explain": "Calculating the relative economic weight of a sector.",
+     "compute": "gva_share = (sector_gva / total_gva) * 100"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess202.txt",
+   "concept": "jess.2.1",
+   "question_type": "compute",
+   "question_pattern": "If primary sector value is {primary_val} and secondary is {secondary_val} and tertiary is {tertiary_val}, find GDP.",
+   "extracted_variables": {
+    "primary_val": 5000,
+    "secondary_val": 3000,
+    "tertiary_val": 7000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the values",
+     "explain": "GDP = primary + secondary + tertiary",
+     "compute": "gdp = primary_val + secondary_val + tertiary_val"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess202.txt",
+   "concept": "jess.2.2",
+   "question_type": "compute",
+   "question_pattern": "If {sector_workers} work in a sector out of {total_workers} total, find the employment percentage.",
+   "extracted_variables": {
+    "sector_workers": 200,
+    "total_workers": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate percentage",
+     "explain": "share = (workers / total) * 100",
+     "compute": "share = (sector_workers / total_workers) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "jess202.txt",
+   "questions": [
+    "Calculate the share of the three sectors in GDP using the provided data.",
+    "What is the percentage of people in the unorganised sector in agriculture?",
+    "If a city has 15 lakh workers and 11 lakh are in the unorganised sector, what is the percentage of unorganised workers?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

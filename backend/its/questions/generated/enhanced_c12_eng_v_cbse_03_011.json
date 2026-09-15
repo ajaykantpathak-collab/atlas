@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_011",
+   "title": "c12_eng_v_cbse_03_011",
+   "questions": [
+    {
+     "q": "Identify the tense and aspect of the verb phrase \"had been travelling\" in the sentence \"By the time I actually set foot on the Antarctic continent I had been travelling over 100 hours...\" and state its function in the narrative sequence.",
+     "a": "Past perfect progressive (past perfect continuous). It establishes a duration of action (travelling) that was ongoing up to a specific past reference point (setting foot on Antarctica), creating temporal depth before the main narrative moment. A wrong answer (e.g., \"past continuous\" or \"past perfect\") reveals the student cannot distinguish perfective aspect (completion relative to a reference point) from progressive aspect (ongoingness), or conflates the two — a critical error for analyzing narrative time in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"Things were quite different then: humans hadn't arrived on the global scene, and the climate was much warmer, hosting a huge variety of flora and fauna,\" explain the grammatical form and function of \"hosting a huge variety of flora and fauna.\"",
+     "a": "Present participial phrase (non-finite clause) functioning as a post-modifier of \"the climate,\" adding descriptive detail without a new main clause. It compresses a relative clause (\"which hosted...\") into a lighter structure, maintaining flow while packing information. A wrong answer (e.g., \"gerund phrase\" or \"main verb\") shows confusion between -ing forms: gerunds function as nouns, participles as modifiers. This distinction is tested in CBSE grammar transformation questions and JEE English comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from the text using a finite relative clause instead of the participial phrase, preserving meaning: \"Imagine: India pushing northwards, jamming against Asia to buckle its crust and form the Himalayas.\" Then explain the stylistic effect lost in your rewrite.",
+     "a": "Rewrite: \"Imagine India, which pushes northwards and jams against Asia, buckling its crust and forming the Himalayas.\" Effect lost: the participial chain (\"pushing... jamming... to buckle... form\") creates a cinematic, continuous motion — geological process as unfolding action. The finite version fractures this into discrete clauses, losing the sense of inexorable, simultaneous movement. A poor rewrite (e.g., changing tense to past) or missing the effect explanation reveals inability to connect syntax to semantic rhythm — a skill needed for \"analyse the author's style\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the modal verb usage in these two extracts: (a) \"Will the West Antarctic ice sheet melt entirely? Will the Gulf Stream ocean current be disrupted? Will it be the end of the world as we know it? Maybe. Maybe not.\" (b) \"If we want to study and examine the Earth's past, present and future, Antarctica is the place to go.\" Identify the modal verbs, their modality type (epistemic/deontic/dynamic), and explain how the shift reflects the author's rhetorical strategy.",
+     "a": "(a) \"Will\" (epistemic, prediction), \"be disrupted\" (passive, epistemic possibility), \"Maybe/Maybe not\" (epistemic hedging) — all express uncertainty about future outcomes. (b) \"want\" (dynamic, volition), \"is\" (indicative, factual necessity) — expresses certainty about present conditions. The shift from speculative epistemic modals (climate debate) to declarative indicative (Antarctica's scientific value) positions the author as moving from open questions to authoritative conclusion, persuading the reader of Antarctica's indispensability. Mislabeling \"will\" as deontic (obligation) or missing the epistemic/deictic contrast shows weak modality analysis — a gap for both board literary criticism and CUET language questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the sentence fragment \"Nine time zones, six checkpoints, three bodies of water and many ecospheres later, I was still wondering about the beauty of balance in play on our planet.\" as a closing syntactic device. Consider its grammatical irregularity, information density, and thematic resonance.",
+     "a": "Highly effective. The fragment (noun phrase + temporal adverbial \"later\") compresses the entire journey's logistical scale into a preposed adverbial of time, fronting the cost/effort before the reflective main clause. Grammatically irregular (no finite verb in the opening phrase) but rhetorically deliberate: it mimics the accumulation of distance/barriers, then resolves in the complete sentence \"I was still wondering...\" — enacting the theme of \"balance\" through syntactic imbalance-then-resolution. A weak evaluation (e.g., \"it's wrong grammar\" or \"it adds detail\") misses the functional grammar perspective: fragments are licensed in literary prose for thematic enactment. This distinction separates rote grammar from stylistic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph describing a personal journey (real or imagined) that deliberately uses: (i) a past perfect progressive verb phrase for prior duration, (ii) a chain of two participial phrases for descriptive density, and (iii) an epistemic modal verb for speculative reflection. Label each feature in brackets.",
+     "a": "Example: \"By the time I reached the summit [past perfect progressive: had been climbing], I had been climbing for six hours through thinning air. Exhausted but exhilarated, legs trembling with fatigue [participial phrase 1], breath rasping in the cold [participial phrase 2], I stood above the cloud line. The mountain might [epistemic modal] have tested my limits, but it also revealed them.\" Criteria for a good answer: correct form for each feature, logical semantic fit, and labels accurate. A poor answer (e.g., using simple past for (i), gerunds for (ii), or \"must\" for (iii) without epistemic context) reveals mechanical rule application without semantic control — the core gap between school grammar and board-level textual analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

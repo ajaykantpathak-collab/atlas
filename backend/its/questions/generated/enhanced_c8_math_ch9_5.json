@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_5",
+   "title": "c8_math_ch9_5",
+   "questions": [
+    {
+     "q": "State the Baudhayana-Pythagoras Theorem in words and write its algebraic formula for a right-angled triangle with legs \\(a\\), \\(b\\) and hypotenuse \\(c\\).",
+     "a": "The theorem: In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides. Formula: \\(a^2 + b^2 = c^2\\). A wrong answer (e.g., \\(a + b = c\\) or \\(a^2 + b^2 = c\\)) reveals the student confuses the theorem with linear addition or forgets the squares, indicating they have not internalised the area-based geometric meaning.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a triangle with sides 5 cm, 12 cm, and 13 cm and says, \"This is a right-angled triangle because \\(5 + 12 = 17\\) and \\(13\\) is close to \\(17\\).\" Explain why this reasoning is incorrect and what the correct check should be.",
+     "a": "The student incorrectly adds the side lengths instead of squaring them. The theorem requires comparing squares: \\(5^2 + 12^2 = 25 + 144 = 169\\) and \\(13^2 = 169\\). Since they are equal, the triangle is right-angled, but not because \\(5+12 \\approx 13\\). A wrong explanation shows the student does not understand the theorem relates areas (squares), not linear lengths.",
+     "self_check": true
+    },
+    {
+     "q": "A right-angled triangle has legs of length 9 cm and 12 cm. What is the length of the hypotenuse? Show all steps.",
+     "a": "Step 1: Identify legs \\(a = 9\\), \\(b = 12\\), hypotenuse \\(c = ?\\)  \nStep 2: Apply theorem: \\(c^2 = a^2 + b^2\\)  \nStep 3: Substitute: \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\)  \nStep 4: Take square root: \\(c = \\sqrt{225} = 15\\) cm  \nStep 5: Verify: \\(15^2 = 225\\) matches sum. A wrong answer (e.g., \\(c = 21\\) from adding 9+12, or \\(c = \\sqrt{9+12} = \\sqrt{21}\\)) reveals the student either adds lengths linearly or misapplies the square root.",
+     "self_check": true
+    },
+    {
+     "q": "Two right-angled triangles have the same hypotenuse length of 10 cm. Triangle X has legs 6 cm and 8 cm. Triangle Y has legs 5 cm and 5 cm. Is this possible? Explain using the theorem.",
+     "a": "No, it is not possible. For Triangle X: \\(6^2 + 8^2 = 36 + 64 = 100 = 10^2\\). For Triangle Y: \\(5^2 + 5^2 = 25 + 25 = 50 \\neq 100\\). The theorem fixes the sum of squares of legs to equal the square of the hypotenuse. If hypotenuse is 10, the sum of squares of legs must be 100. Triangle Y gives 50, so it cannot have hypotenuse 10. A wrong answer (e.g., \"yes, both are right triangles\") shows the student does not grasp that the theorem is a strict equality that determines the third side uniquely.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi claims that any triangle with sides 7 cm, 24 cm, and 25 cm is right-angled because \\(7^2 + 24^2 = 49 + 576 = 625 = 25^2\\). Priya says we also need to check that the angle opposite the 25 cm side is 90°. Who is correct? Justify.",
+     "a": "Ravi is correct. The Baudhayana-Pythagoras Theorem is an \"if and only if\" statement for right-angled triangles: if the side lengths satisfy \\(a^2 + b^2 = c^2\\), then the triangle must be right-angled with the right angle opposite side \\(c\\). This is the converse, which holds true. Priya's extra check is unnecessary. A wrong judgment (saying Priya is right) reveals the student does not know the converse is valid, a key insight for verifying right angles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires using the Baudhayana-Pythagoras Theorem to find a missing length. Write the problem, draw a labelled diagram, and solve it completely.",
+     "a": "Example problem: A 13 m long bamboo pole leans against a vertical wall. The foot of the pole is 5 m away from the wall. How high up the wall does the pole reach?  \nDiagram: Right triangle with hypotenuse 13 m (pole), base 5 m (distance from wall), height \\(h\\) (on wall).  \nSolution: \\(h^2 + 5^2 = 13^2 \\Rightarrow h^2 = 169 - 25 = 144 \\Rightarrow h = 12\\) m.  \nA poor answer (e.g., problem not right-angled, missing steps, wrong operation) reveals the student cannot translate a physical situation into the geometric model or execute the algebraic steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

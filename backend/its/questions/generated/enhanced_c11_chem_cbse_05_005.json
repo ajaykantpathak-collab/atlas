@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_005",
+   "title": "c11_chem_cbse_05_005",
+   "questions": [
+    {
+     "q": "State Charles's Law in words and write its mathematical form. What are the two conditions that must remain constant for this law to hold?",
+     "a": "Charles's Law: At constant pressure and fixed amount of gas, volume is directly proportional to absolute temperature (Kelvin). Mathematical form: V₁/T₁ = V₂/T₂. Conditions: constant pressure (isobaric) and constant number of moles (closed system). A wrong answer (e.g., using Celsius, or omitting \"constant pressure\") reveals the student hasn't internalised the strict conditions or the absolute temperature requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes V₁/T₁ = V₂/T₂ and substitutes T₁ = 27°C and T₂ = 127°C directly. The calculated V₂ is wrong. Explain why this substitution is invalid and what the correct temperatures in Kelvin are.",
+     "a": "Charles's Law requires absolute temperature (Kelvin) because the proportionality V ∝ T holds only when T=0 corresponds to zero volume (absolute zero). 27°C = 300 K, 127°C = 400 K. Using Celsius gives a ratio 27/127 ≈ 0.21 instead of 300/400 = 0.75, leading to a grossly incorrect volume. This error shows the student treats temperature as a relative scale rather than a thermodynamic absolute scale.",
+     "self_check": true
+    },
+    {
+     "q": "A gas occupies 450 mL at 300 K and 1 atm. If heated to 450 K at the same pressure, what is its new volume? Show the calculation with units.",
+     "a": "Given: V₁ = 450 mL, T₁ = 300 K, T₂ = 450 K, P constant. Using V₁/T₁ = V₂/T₂ → V₂ = V₁ × (T₂/T₁) = 450 mL × (450 K / 300 K) = 450 × 1.5 = 675 mL. A wrong answer (e.g., 300 mL) suggests the student inverted the ratio or used Celsius. The step-by-step check: temperature increases by factor 1.5, so volume must increase by same factor – this proportional reasoning is the core of the law.",
+     "self_check": true
+    },
+    {
+     "q": "Graph of V vs T (in °C) for a gas at constant pressure is a straight line with positive slope. Where does this line intercept the temperature axis, and what is the physical significance of that intercept? How does the graph change if plotted in Kelvin?",
+     "a": "The V vs T(°C) line intercepts the temperature axis at -273.15°C (absolute zero), where volume would theoretically become zero. In Kelvin, the graph passes through the origin (0 K, 0 volume) and is a straight line through the origin with slope = nR/P. A student who says the intercept is 0°C or doesn't mention absolute zero confuses the Celsius zero (water freezing) with thermodynamic zero.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If you double the Celsius temperature of a gas from 100°C to 200°C at constant pressure, its volume doubles.\" Is it true or false? Justify with a calculation.",
+     "a": "False. T₁ = 100°C = 373 K, T₂ = 200°C = 473 K. Ratio T₂/T₁ = 473/373 ≈ 1.27, not 2. Volume increases by factor 1.27, not 2. The statement would only be true if temperatures were in Kelvin (e.g., 373 K to 746 K). This tests whether the student understands that \"doubling temperature\" only has meaning on an absolute scale.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to verify Charles's Law using a capillary tube, a thermometer, and a beaker of water. List the measurements you would take, the graph you would plot, and how you would determine absolute zero from the graph.",
+     "a": "Trapped air column in a capillary tube (sealed at one end) acts as constant-pressure gas (atmospheric pressure on open end). Heat water bath from 0°C to 80°C in steps. At each temperature, measure length of air column (proportional to volume) and temperature. Plot length (y-axis) vs temperature in °C (x-axis). Extrapolate straight line to zero length; the x-intercept gives absolute zero in °C. A poor answer omits the need for constant pressure (open to atmosphere) or suggests plotting volume directly without justifying length ∝ volume.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

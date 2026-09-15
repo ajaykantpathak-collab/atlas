@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 132,
+  "chapter_title": "My Three Passions",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww132.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww132.1.1",
+      "title": "Three Passions Governed a Life",
+      "section": "1",
+      "definition": "Bertrand Russell opens with supreme simplicity: three passions, simple but overwhelmingly strong, have governed his life -- the longing for love, the search for knowledge, and pity for the suffering of mankind. Like great winds, they blew him this way and that over a wayward course across a deep ocean of anguish to the very verge of despair.",
+      "formula": "",
+      "key_idea": "Three winds, one life -- love, knowledge and pity blew Russell across seas of anguish to despair's edge and back.",
+      "textbook_ref": "keww132.txt opening (three passions simple but overwhelmingly strong, longing for love, search for knowledge, pity for suffering mankind, great winds, wayward course, ocean of anguish)",
+      "question_patterns": [
+        "name the three passions that governed bertrand russell's life",
+        "in class 11 my three passions: why does russell compare his passions to great winds",
+        "what does russell mean by a wayward course over a deep ocean of anguish",
+        "which passion brought russell to the verge of despair",
+        "how does russell describe the strength of his passions",
+        "state the three passions in the order russell gives them"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the passions", "explain": "Love, knowledge and pity -- named in one breath as the governing winds of his life."},
+        {"step": 2, "action": "note the imagery", "explain": "The winds-and-ocean metaphor makes the passions forces of weather, not choices of taste."},
+        {"step": 3, "action": "note the cost", "explain": "The same winds drove him near despair -- passion, Russell admits, is not comfort."}
+      ]
+    },
+    {
+      "id": "keww132.1.2",
+      "title": "Love First, Knowledge Second",
+      "section": "1",
+      "definition": "Russell sought love first because it brings ecstasy -- an ecstasy so great he would sacrifice all the rest of life for a few hours of it; it relieves loneliness, the terrible loneliness in which the consciousness of the world stands beyond a fearful abyss; and it unites the solitary vision of saints and poets in a glimpse of the heaven sages and poets have imagined. With equal passion he sought knowledge -- the hearts of men, why stars shine, and the Pythagorean power by which number holds sway above the flux.",
+      "formula": "",
+      "key_idea": "Ecstasy, antidote to loneliness, glimpse of heaven -- then the hearts of men and the stars: love leads, knowledge follows.",
+      "textbook_ref": "keww132.txt love and knowledge sections (ecstasy, terrible loneliness, fearful abyss, glimpse of heaven, hearts of men, why stars shine, pythagorean power, number holds sway above the flux)",
+      "question_patterns": [
+        "why does russell place love first among his passions",
+        "in class 11 my three passions: what kind of ecstasy does love bring russell",
+        "explain the terrible loneliness that love relieves",
+        "what does russell mean by the pythagorean power by which number holds sway above the flux",
+        "what knowledge did russell seek and in what fields",
+        "how does love give a glimpse of the heaven imagined by saints and poets"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace love's three gifts", "explain": "Ecstasy, relief from loneliness, and a foretaste of heaven -- love's three answers to Russell's longing."},
+        {"step": 2, "action": "trace the second passion", "explain": "Knowledge of human hearts, of the stars' shining, of number's rule over change -- equal in force to love."},
+        {"step": 3, "action": "note the pairing", "explain": "Love warms, knowledge lights -- Russell refuses to rank one above the other in his life's arithmetic."}
+      ]
+    },
+    {
+      "id": "keww132.1.3",
+      "title": "Pity, and a Life That Has Been Worth Living",
+      "section": "1",
+      "definition": "Pity for the suffering of mankind carried Russell back up: children in famine, victims tortured by oppressors, helpless old people a hated burden, loneliness, poverty and pain -- the whole mockery of what life should be. He longs to alleviate the evil, and he too suffers; yet he would live the life again, for at last he has found it worth living.",
+      "formula": "",
+      "key_idea": "Pity returns him to the human sea -- and having carried all three winds, he would live it all again.",
+      "textbook_ref": "keww132.txt pity and conclusion sections (children in famine, victims tortured by oppressors, helpless old people hated burden, loneliness poverty pain, would live my life again, worth living)",
+      "question_patterns": [
+        "what sights of human suffering does russell describe",
+        "in class 11 my three passions: why does pity bring russell to the edge of despair",
+        "what does russell long to do about the evil he sees",
+        "why does russell say his life has been worth living",
+        "would russell live his life again on what condition",
+        "how do the three passions work together in russell's conclusion"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "see what pity sees", "explain": "Famine, torture, the hated burden of the old, loneliness, poverty and pain -- the echo of a world's cry reaches him."},
+        {"step": 2, "action": "state the wish and the limits", "explain": "He would alleviate the evil, but he too suffers -- pity's power is sympathy, not cure."},
+        {"step": 3, "action": "deliver the verdict", "explain": "Despite the anguish, the three passions make his life worth living -- the essay's final, earned affirmation."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww132.txt love and knowledge sections",
+      "concept": "keww132.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Give Russell's three reasons for seeking love, in his order.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "reason one", "explain": "Love brings ecstasy -- bliss so great he would trade all the rest of life for hours of it."},
+        {"step": 2, "action": "reason two", "explain": "Love relieves loneliness -- the terrible isolation from which the world seems a fearful abyss."},
+        {"step": 3, "action": "reason three", "explain": "Love unites one in a glimpse of the heaven that saints and poets have imagined -- the best that life can offer."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww132.txt pity and conclusion sections",
+      "concept": "keww132.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "How does pity stand in tension with Russell's first two passions?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the first two gifts", "explain": "Love and knowledge lift him -- ecstasy and understanding carry him upward."},
+        {"step": 2, "action": "recall pity's pull", "explain": "Pity drags him back to famine, torture and lonely old age -- the world's anguish returns him to earth."},
+        {"step": 3, "action": "conclude", "explain": "His life oscillates between heaven's glimpse and earth's cry -- and that is exactly why he calls it worth living."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww132.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Name the three passions that governed Russell's life.",
+        "Why does Russell seek love? Give his reasons in order.",
+        "What knowledge did Russell pursue with equal passion?",
+        "Describe the images of human suffering in the essay.",
+        "Explain the metaphor of winds and the ocean of anguish.",
+        "Why does Russell conclude that his life has been worth living?"
+      ]
+    }
+  ]
+}

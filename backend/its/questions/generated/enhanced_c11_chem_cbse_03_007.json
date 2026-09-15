@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_007",
+   "title": "c11_chem_cbse_03_007",
+   "questions": [
+    {
+     "q": "Define ionic radius and state how it differs from atomic radius in terms of measurement method and the species involved.",
+     "a": "Ionic radius is half the internuclear distance between adjacent cation and anion in an ionic crystal lattice, whereas atomic radius (covalent or metallic) is half the distance between nuclei of two identical atoms bonded together. A wrong answer (e.g., \"ionic radius is measured for isolated ions\") reveals the student confuses gas-phase ion size with solid-state crystal measurements and does not grasp that ionic radius is an operational definition derived from X-ray diffraction of compounds like NaCl.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Na⁺ ion (95 pm) is smaller than the Na atom (186 pm) while the Cl⁻ ion (181 pm) is larger than the Cl atom (99 pm), using the concepts of nuclear charge, electron count, and electron-electron repulsion.",
+     "a": "Na⁺ has 10 electrons vs Na's 11, but the same nuclear charge (+11); losing the 3s¹ electron removes the outermost shell entirely, reduces shielding, and increases effective nuclear charge per remaining electron, pulling the electron cloud inward. Cl⁻ has 18 electrons vs Cl's 17 with the same nuclear charge (+17); the added electron enters the 3p subshell, increasing electron-electron repulsion and decreasing effective nuclear charge per electron, expanding the cloud. A wrong answer (e.g., \"Na⁺ is smaller because it lost mass\") reveals confusion between mass and electrostatic size determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Given the isoelectronic series N³⁻, O²⁻, F⁻, Na⁺, Mg²⁺, Al³⁺ (all with 10 electrons), arrange them in order of increasing ionic radius and justify the trend using nuclear charge values.",
+     "a": "Increasing radius: Al³⁺ (Z=13) < Mg²⁺ (Z=12) < Na⁺ (Z=11) < F⁻ (Z=9) < O²⁻ (Z=8) < N³⁻ (Z=7). All have 10 electrons (1s²2s²2p⁶ configuration). As nuclear charge increases across the series, the attraction per electron increases, pulling the cloud closer. A wrong order (e.g., placing Na⁺ larger than F⁻) reveals the student ignores that nuclear charge, not just electron count, determines size in isoelectronic species.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ionic radii of K⁺ (138 pm) and Cl⁻ (181 pm). Both are isoelectronic with Ar (18 electrons). Which factor — nuclear charge or principal quantum number — dominates the size difference, and why?",
+     "a": "Nuclear charge dominates: K⁺ (Z=19) has a much higher nuclear charge than Cl⁻ (Z=17) for the same electron count (18), so its electrons are held more tightly, giving a smaller radius despite both having n=3 as the outermost shell. A wrong answer citing \"K⁺ is larger because potassium is below sodium in Group 1\" reveals the student incorrectly applies group trends (which apply to neutral atoms) instead of isoelectronic principles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since S²⁻ and K⁺ are isoelectronic (18 electrons), and sulphur is above chlorine in Group 16, S²⁻ should be smaller than Cl⁻.\" Evaluate this statement and correct the reasoning.",
+     "a": "The claim is false. S²⁻ (Z=16) and Cl⁻ (Z=17) are not isoelectronic with each other — S²⁻ has 18 electrons, Cl⁻ has 18 electrons, so they *are* isoelectronic with each other and with Ar, K⁺, Ca²⁺. But the student's reasoning uses group position instead of nuclear charge. For the isoelectronic series N³⁻ (Z=7) to Ca²⁺ (Z=20), radius decreases as Z increases. Correct order: Ca²⁺ < K⁺ < Cl⁻ < S²⁻ < P³⁻. A wrong evaluation reveals the student confuses periodic trends for neutral atoms with isoelectronic trends.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using X-ray diffraction data of three alkali halides (LiF, NaCl, KBr) to estimate the ionic radii of Li⁺, Na⁺, K⁺, F⁻, Cl⁻, Br⁻, assuming the sum of cation and anion radii equals the measured internuclear distance. What additional assumption is needed to separate the individual radii?",
+     "a": "Measure internuclear distances: d(LiF), d(NaCl), d(KBr). Assume r(Li⁺) + r(F⁻) = d(LiF), etc. To separate individual radii, assume one radius is known from a compound with a large, weakly polarising cation (e.g., assume r(I⁻) from KI or use Pauling's assumption that r(Na⁺) ≈ 95 pm based on NaF crystal). A poor answer (e.g., \"just divide by 2\") reveals the student does not understand that internuclear distance is a sum of two unknowns requiring an external reference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

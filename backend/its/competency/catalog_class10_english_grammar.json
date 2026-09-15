@@ -1,0 +1,195 @@
+{
+  "class": 10,
+  "subject": "english_grammar",
+  "chapter": 1,
+  "chapter_title": "English Grammar V: Advanced Agreement, Vocabulary, Spelling",
+  "source_file": "original-authored; grammar drill bank (no textbook source)",
+  "license": "original authored content; no textbook passages",
+  "concepts": [
+    {
+      "id": "engram.10.1",
+      "title": "Subject-Verb Agreement: Advanced",
+      "section": "Grammar Drill",
+      "definition": "Advanced agreement rules: two nouns naming one dish or idea take a singular verb; with either-or and neither-nor the verb agrees with the nearer subject; distances, sums and quantities treated as one unit stay singular.",
+      "formula": "either A or B -> verb agrees with B (the nearer subject)",
+      "key_idea": "Find the nearest subject after or and nor; treat one-unit quantities as singular.",
+      "question_patterns": [
+        "Fill in the blank with the verb that agrees with the subject",
+        "Choose is or are, was or were for the sentence",
+        "Complete the sentence so the verb agrees"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check for one-unit phrases",
+          "explain": "bread and butter, ten kilometres -> singular"
+        },
+        {
+          "step": 2,
+          "action": "Apply proximity",
+          "explain": "either-or / neither-nor agree with the second subject"
+        },
+        {
+          "step": 3,
+          "action": "Ignore of-phrases",
+          "explain": "one of my friends -> he lives -> lives"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the correct verb form: Bread and butter ___ my usual breakfast. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Either Ritu or her brothers ___ responsible for the delay. (be)",
+          "a": "are"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Ten kilometres ___ a long walk for a child. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: One of my friends ___ in Delhi. (live)",
+          "a": "lives"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: The quality of the mangoes ___ good this time. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Neither the players nor the coach ___ satisfied with the result. (be)",
+          "a": "was"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Each of the students ___ a certificate today. (receive)",
+          "a": "receives"
+        }
+      ]
+    },
+    {
+      "id": "engram.10.2",
+      "title": "Synonyms and Antonyms: Choose the Word",
+      "section": "Grammar Drill",
+      "definition": "A synonym means the same, an antonym means the opposite. The options are printed in the question - pick the one word that fits the asked relation.",
+      "formula": "synonym = same meaning;  antonym = opposite meaning",
+      "key_idea": "Replace the word in a short phrase to test the meaning before choosing.",
+      "question_patterns": [
+        "Choose the synonym of the given word from the options",
+        "Choose the antonym of the given word from the options",
+        "Pick the word that matches or opposes the given word"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read the options first",
+          "explain": "all three are common words"
+        },
+        {
+          "step": 2,
+          "action": "Test the relation",
+          "explain": "same meaning for a synonym, opposite for an antonym"
+        },
+        {
+          "step": 3,
+          "action": "Discard traps",
+          "explain": "a related word is not a synonym"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Choose the synonym of 'brave': (timid, courageous, careless)",
+          "a": "courageous"
+        },
+        {
+          "q": "Choose the synonym of 'huge': (tiny, enormous, narrow)",
+          "a": "enormous"
+        },
+        {
+          "q": "Choose the antonym of 'ancient': (modern, antique, aged)",
+          "a": "modern"
+        },
+        {
+          "q": "Choose the antonym of 'abundant': (plentiful, scarce, ample)",
+          "a": "scarce"
+        },
+        {
+          "q": "Choose the synonym of 'fortunate': (lucky, unlucky, poor)",
+          "a": "lucky"
+        },
+        {
+          "q": "Choose the antonym of 'victory': (triumph, defeat, success)",
+          "a": "defeat"
+        },
+        {
+          "q": "Choose the synonym of 'begin': (finish, commence, pause)",
+          "a": "commence"
+        }
+      ]
+    },
+    {
+      "id": "engram.10.3",
+      "title": "Correct Spelling: Advanced",
+      "section": "Grammar Drill",
+      "definition": "Four spellings of one harder word are given; only one is correct. Watch double consonants, silent letters and -ence versus -ance endings.",
+      "formula": "occ-as-ion? no: occasion has two c, two s? one c? learn: occasion, maintenance, privilege",
+      "key_idea": "Break the word into syllables and count every consonant.",
+      "question_patterns": [
+        "Choose the correctly spelled word from the four options",
+        "Pick the right spelling of the word",
+        "Which option spells the word correctly?"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Say the word in parts",
+          "explain": "main-te-nance, ques-tion-naire"
+        },
+        {
+          "step": 2,
+          "action": "Mark the doubles",
+          "explain": "occasion: double c, double s"
+        },
+        {
+          "step": 3,
+          "action": "Fix the ending",
+          "explain": "conscience ends in -ence"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Choose the correctly spelled word: (a) occassion (b) ocassion (c) occasion (d) occasiion",
+          "a": "occasion"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) maintenance (b) maintainance (c) maintanance (d) mantenence",
+          "a": "maintenance"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) privilege (b) priviledge (c) privelege (d) privillege",
+          "a": "privilege"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) quesionnaire (b) questionnaire (c) questionaire (d) questionnair",
+          "a": "questionnaire"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) conscience (b) concience (c) consience (d) consciense",
+          "a": "conscience"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) restaurant (b) restaraunt (c) resturant (d) restorant",
+          "a": "restaurant"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) millenium (b) milleunium (c) millennium (d) millenneum",
+          "a": "millennium"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "exercises": []
+}

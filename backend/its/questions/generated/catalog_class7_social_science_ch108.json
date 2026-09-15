@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class7_social_science_ch108",
+ "concepts": [
+  {
+   "id": "gess.108.1.1",
+   "title": "Crisis of the Mughal Empire",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Crisis of the Mughal Empire' refers to.",
+     "a": "The era of administrative and financial decay in the imperial state after 1707, characterized by failing central oversight and the rise of local kingdoms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Crisis of the Mughal Empire'.",
+     "a": "Decline of central authority due to wars, weak successors, and noble factions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Crisis of the Mughal Empire' taught, and from which source text?",
+     "a": "The Crisis of the Empire and the Later Mughals (source: gess108.txt lines 25-60)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.1.2",
+   "title": "External Invasions of the 18th Century",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'External Invasions of the 18th Century' refers to.",
+     "a": "Military incursions by rulers from Iran and Afghanistan that resulted in the looting of the capital and the weakening of the sovereign's power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'External Invasions of the 18th Century'.",
+     "a": "Foreign raids by Nadir Shah and Ahmad Shah Abdali drained Mughal wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'External Invasions of the 18th Century' taught, and from which source text?",
+     "a": "The Crisis of the Empire and the Later Mughals (source: gess108.txt lines 70-100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.2.1",
+   "title": "Rajput Watan Jagirs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rajput Watan Jagirs' refers to.",
+     "a": "Semi-autonomous hereditary estates where local chieftains maintained governance while maintaining a formal link with the central throne.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rajput Watan Jagirs'.",
+     "a": "Rajput rulers enjoyed internal autonomy in exchange for imperial service.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rajput Watan Jagirs' taught, and from which source text?",
+     "a": "The Rajputs (source: gess108.txt lines 120-150)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.3.1",
+   "title": "Sikh Political Organization",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sikh Political Organization' refers to.",
+     "a": "The evolution of the Panth into a sovereign political body through the creation of the Khalsa and organized military units called misls.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sikh Political Organization'.",
+     "a": "Transformation of Sikhs into a militant state-building community.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sikh Political Organization' taught, and from which source text?",
+     "a": "The Sikhs (source: gess108.txt lines 160-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.3.2",
+   "title": "Rakhi System",
+   "questions": [
+    {
+     "q": "How much tax is paid under Rakhi? Use the method 'Rakhi System'. Work with: produce = 10. Carry the chain through step by step and give the final value of tax.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the Rakhi tax for a produce of {produce}. Use the method 'Rakhi System'. Work with: produce = 30. Carry the chain through step by step and give the final value of tax.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rakhi System' refers to.",
+     "a": "A security arrangement where farmers provided one-fifth of their harvest to the Dal Khalsa for safety.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rakhi System'.",
+     "a": "Protection tax levied by Sikh bands on cultivators.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rakhi System', in plain ASCII form.",
+     "a": "tax = produce * 20 / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.1",
+   "title": "The Maratha State",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Maratha State' refers to.",
+     "a": "A robust regional power established in the Deccan that used mobile warfare and specific levies to expand its influence across the subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Maratha State'.",
+     "a": "Rise of Marathas under Shivaji and the Peshwas.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Maratha State' taught, and from which source text?",
+     "a": "The Marathas (source: gess108.txt lines 220-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.2",
+   "title": "Chauth",
+   "questions": [
+    {
+     "q": "Calculate the chauth for a revenue of {revenue}. Use the method 'Chauth'. Work with: revenue = 120000. Carry the chain through step by step and give the final value of chauth.",
+     "a": "30000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the chauth tax when the revenue is {revenue}. Use the method 'Chauth'. Work with: revenue = 50000. Carry the chain through step by step and give the final value of chauth.",
+     "a": "12500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Chauth' refers to.",
+     "a": "A levy representing a quarter of the agricultural tax gathered by Maratha forces from neighboring regions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chauth'.",
+     "a": "Maratha tax consisting of 25 percent of land revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chauth', in plain ASCII form.",
+     "a": "chauth = revenue * 25 / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.3",
+   "title": "Sardeshmukhi",
+   "questions": [
+    {
+     "q": "Calculate the sardeshmukhi for a revenue of {revenue} at {rate} percent. Use the method 'Sardeshmukhi'. Work with: rate = 25, revenue = 120000. Carry the chain through step by step and give the final value of levy.",
+     "a": "30000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the sardeshmukhi levy for {revenue}. Use the method 'Sardeshmukhi'. Work with: rate = 18, revenue = 50000. Carry the chain through step by step and give the final value of levy.",
+     "a": "9000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sardeshmukhi' refers to.",
+     "a": "A supplementary charge of nine to ten percent given to the chief tax officer within the Deccan province.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sardeshmukhi'.",
+     "a": "Additional levy of 9-10 percent paid to the head revenue collector.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sardeshmukhi', in plain ASCII form.",
+     "a": "levy = revenue * rate / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.108.5.1",
+   "title": "The Jat State",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Jat State' refers to.",
+     "a": "A group of prosperous farmers who consolidated their influence near Delhi and Agra, eventually forming a fortified state at Bharatpur.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Jat State'.",
+     "a": "Jat consolidation under Churaman and Suraj Mal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Jat State' taught, and from which source text?",
+     "a": "The Jats (source: gess108.txt lines 300-330)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

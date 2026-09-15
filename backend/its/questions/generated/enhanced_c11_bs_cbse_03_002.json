@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_002",
+   "title": "c11_bs_cbse_03_002",
+   "questions": [
+    {
+     "q": "What is the single most distinctive financial characteristic of a departmental undertaking that separates it from a statutory corporation or a government company?",
+     "a": "The distinctive financial characteristic is that all funding comes directly from the government treasury through annual budgetary appropriation, and all revenue earned is paid back into the treasury — the undertaking has no separate corpus or retained earnings. A wrong answer (e.g., \"it raises funds by issuing shares\") reveals the student is confusing departmental undertakings with government companies, which can raise capital from the market.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the employees of a departmental undertaking are considered \"government servants\" whereas employees of a government company are not, even though both are public sector enterprises.",
+     "a": "Departmental undertaking employees are recruited through the same civil service examinations (UPSC/State PSC), governed by the same service rules, and headed by transferable IAS officers, making them indistinguishable from ministry staff. Government company employees are hired under the company's own Memorandum and Articles of Association, not civil service rules. A wrong answer focusing only on \"both are paid by government\" misses the legal-administrative distinction that defines the departmental form.",
+     "self_check": true
+    },
+    {
+     "q": "A new metro rail project is proposed in a state capital. The state government wants to complete it quickly, adopt latest signalling technology, and adjust fares dynamically based on demand. Should this project be organised as a departmental undertaking? Justify your answer using two specific limitations of this form.",
+     "a": "No, a departmental undertaking is unsuitable. Limitation 1: Lack of flexibility — fare changes and technology adoption require ministry approval, causing delays (textbook: \"employees not allowed to take independent decisions without approval of ministry\"). Limitation 2: Red tapism — day-to-day operations cannot proceed without proper channels of authority (textbook: \"no action can be taken unless it goes through proper channels\"). A wrong answer citing only \"political interference\" shows incomplete grasp of the operational bottlenecks specific to this form.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism of a departmental undertaking with that of a statutory corporation. Which form provides stronger *direct* parliamentary control, and why?",
+     "a": "Departmental undertakings provide stronger direct parliamentary control because they are an extension of the ministry; their accounts are audited by the CAG like any government department, and the concerned minister answers for them on the floor of Parliament. Statutory corporations, while accountable, operate autonomously with their own audit mechanisms and the minister answers only on broad policy. A wrong answer claiming statutory corporations have stronger control confuses autonomy with accountability.",
+     "self_check": true
+    },
+    {
+     "q": "\"Departmental undertakings are the best form for running commercial enterprises like hotels or textile mills.\" Evaluate this statement critically using at least three limitations from the textbook.",
+     "a": "The statement is false. Three limitations make this form unsuitable for commercial ventures: (1) Inability to seize business opportunities due to bureaucratic caution (\"bureaucrat's over-cautious approval does not allow risky ventures\"); (2) Insensitivity to consumer needs (\"usually insensitive to consumer needs and do not provide adequate services\"); (3) Political interference in day-to-day decisions (\"lot of political interference through the ministry\"). Commercial enterprises require speed, market responsiveness, and autonomy — all absent here. A wrong answer that agrees with the statement or cites only one limitation shows failure to synthesise multiple constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart that a policy-maker should use to decide whether a new public enterprise should be organised as a departmental undertaking. Include at least four decision nodes based on the features, merits, and limitations studied.",
+     "a": "A good flowchart would have decision nodes: (1) Is national security/strategic control the primary objective? (Yes → Departmental) (2) Does the enterprise need operational flexibility and quick market decisions? (Yes → Not Departmental) (3) Is direct parliamentary accountability over finances non-negotiable? (Yes → Departmental) (4) Will the enterprise need to raise capital from markets or retain profits for expansion? (Yes → Not Departmental). A poor answer lists features without structuring them as decision criteria, indicating the student cannot apply the concept to policy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

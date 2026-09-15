@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_002",
+   "title": "c12_phy_cbse_14_002",
+   "questions": [
+    {
+     "q": "**REMEMBER:** State the mass-action law for a semiconductor in thermal equilibrium and give the SI unit of the intrinsic carrier concentration \\(n_i\\).",
+     "a": "The mass-action law is \\(n_e n_h = n_i^2\\). The SI unit of \\(n_i\\) is \\(\\text{m}^{-3}\\) (carriers per cubic metre).  \nA wrong answer (e.g., \\(n_e + n_h = n_i\\) or unit \\(\\text{m}^{-2}\\)) reveals confusion between the law of mass action (product) and charge neutrality (sum/difference) or a misunderstanding that \\(n_i\\) is a volume density, not an area density.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** In the covalent-bond model of silicon, a pentavalent phosphorus atom replaces a silicon atom. Explain why the fifth electron of phosphorus becomes a free conduction electron at room temperature, while the four bonding electrons remain tightly bound. Use the concept of ionisation energy.",
+     "a": "The four phosphorus electrons participating in covalent bonds become part of the effective core seen by the fifth electron. The ionisation energy required to free the fifth electron is only ~0.05 eV (for Si), far smaller than the band gap (1.1 eV) and comparable to \\(k_B T \\approx 0.026 \\text{ eV}\\) at 300 K. Thus thermal energy easily ionises the donor, donating the electron to the conduction band. The bonding electrons are locked in covalent bonds requiring ~1.1 eV to break.  \nA wrong answer (e.g., \"all five electrons become free\" or \"the fifth electron is in the conduction band already\") shows failure to distinguish between the donor ionisation energy and the band gap, and misunderstanding of the effective core model.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A pure silicon crystal has \\(5 \\times 10^{28}\\) atoms \\(\\text{m}^{-3}\\) and \\(n_i = 1.5 \\times 10^{16} \\text{m}^{-3}\\) at 300 K. It is doped with \\(1 \\text{ ppm}\\) (parts per million) of pentavalent arsenic. Calculate the equilibrium electron concentration \\(n_e\\) and hole concentration \\(n_h\\) at 300 K. Assume all donors are ionised.",
+     "a": "**Step 1:** Donor concentration \\(N_D = 1 \\text{ ppm} \\times 5 \\times 10^{28} \\text{m}^{-3} = 10^{-6} \\times 5 \\times 10^{28} = 5 \\times 10^{22} \\text{m}^{-3}\\).  \n**Step 2:** Since \\(N_D \\gg n_i\\), the electron concentration \\(n_e \\approx N_D = 5 \\times 10^{22} \\text{m}^{-3}\\).  \n**Step 3:** Apply mass-action law: \\(n_h = \\frac{n_i^2}{n_e} = \\frac{(1.5 \\times 10^{16})^2}{5 \\times 10^{22}} = \\frac{2.25 \\times 10^{32}}{5 \\times 10^{22}} = 4.5 \\times 10^9 \\text{m}^{-3}\\).  \n**Step 4:** Verify charge neutrality: \\(n_e \\approx N_D + n_h \\approx 5 \\times 10^{22} \\text{m}^{-3}\\) (since \\(n_h\\) is negligible).  \n**Answer:** \\(n_e = 5 \\times 10^{22} \\text{m}^{-3}\\), \\(n_h = 4.5 \\times 10^9 \\text{m}^{-3}\\).  \nA wrong answer (e.g., \\(n_e = n_i\\) or \\(n_h = n_i\\)) reveals the student ignores the dominance of dopant-generated carriers over thermally generated ones.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Sketch the energy band diagram for an n-type semiconductor at room temperature. Label \\(E_C\\), \\(E_V\\), \\(E_D\\), \\(E_F\\) (Fermi level), and indicate the relative positions. Explain why \\(E_F\\) shifts upward compared to the intrinsic case.",
+     "a": "The diagram shows: \\(E_C\\) (conduction band bottom), \\(E_V\\) (valence band top), \\(E_D\\) slightly below \\(E_C\\) (donor level), and \\(E_F\\) lying between \\(E_D\\) and \\(E_C\\) (closer to \\(E_C\\)).  \n**Reason:** Donor atoms donate electrons to the conduction band, raising the electron concentration. The Fermi level \\(E_F\\) marks the energy where the probability of occupation is 1/2. With more electrons, the energy at which states are half-filled moves up toward the conduction band.  \nA wrong diagram (e.g., \\(E_D\\) above \\(E_C\\) or \\(E_F\\) near mid-gap) indicates confusion about the donor level being a bound state just below \\(E_C\\) and the Fermi level's dependence on carrier concentration.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A student claims: \"In an n-type semiconductor, holes are completely absent because the pentavalent dopant donates electrons that fill all the holes.\" Is this statement correct? Justify using the mass-action law and the concept of thermal equilibrium.",
+     "a": "The statement is **incorrect**. In thermal equilibrium, electron-hole pairs are continuously generated and recombined. The mass-action law \\(n_e n_h = n_i^2\\) holds for **both** intrinsic and extrinsic semiconductors. Since \\(n_e\\) is increased by doping, \\(n_h\\) must decrease to keep the product constant, but it never becomes zero. At 300 K, \\(n_h = n_i^2 / n_e\\) is small but finite (e.g., \\(10^9 \\text{m}^{-3}\\) in the previous example).  \nA wrong evaluation (\"holes are absent\") shows the student thinks doping eliminates the valence band or stops thermal generation, ignoring that the valence band still exists and thermal excitation still creates pairs.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a thought experiment: A silicon sample is simultaneously doped with \\(N_D = 2 \\times 10^{21} \\text{m}^{-3}\\) donors and \\(N_A = 5 \\times 10^{20} \\text{m}^{-3}\\) acceptors (compensation doping). Predict the net carrier concentrations and the resulting semiconductor type (n-type or p-type). Explain the physical mechanism of compensation.",
+     "a": "**Expected answer:** Net donor concentration \\(N_D - N_A = 1.5 \\times 10^{21} \\text{m}^{-3} > 0\\), so the material is **n-type**.  \n\\(n_e \\approx N_D - N_A = 1.5 \\times 10^{21} \\text{m}^{-3}\\).  \n\\(n_h = n_i^2 / n_e\\).  \n**Mechanism:** Each acceptor atom \"captures\" one donated electron (from a donor), becoming negatively ionised (\\(A^-\\)) and the donor becomes positively ionised (\\(D^+\\)). The captured electron is removed from the conduction band, effectively cancelling one donor's contribution. The remaining uncompensated donors provide the free electrons.  \nA poor answer (e.g., \"it becomes intrinsic\" or \"add the concentrations\") reveals misunderstanding of charge neutrality and the fact that dopants compensate each other, not add.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

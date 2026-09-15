@@ -1,0 +1,277 @@
+{
+ "catalog": "catalog_class9_social_science_ch105",
+ "concepts": [
+  {
+   "id": "iess.105.1",
+   "title": "Natural and Virgin Vegetation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Natural and Virgin Vegetation' refers to.",
+     "a": "Plant cover growing organically without human intervention or management over long durations, distinguishing native species from imported varieties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Natural and Virgin Vegetation'.",
+     "a": "Undisturbed natural plant growth comprising indigenous endemic species and introduced exotic species.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Natural and Virgin Vegetation' taught, and from which source text?",
+     "a": "Natural Vegetation and Wildlife (source: iess105.txt lines 25-45)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.2",
+   "title": "Relief Factors: Land and Soil",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Relief Factors: Land and Soil' refers to.",
+     "a": "Physical landforms and surface soil qualities that govern spatial distribution, forest canopy types, and wildlife habitats across different terrains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relief Factors: Land and Soil'.",
+     "a": "Terrain relief and soil composition directly dictate local plant species and ecosystem structures.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Relief Factors: Land and Soil' taught, and from which source text?",
+     "a": "RELIEF (source: iess105.txt lines 46-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.3",
+   "title": "Climatic Factors: Temperature, Photoperiod, and Precipitation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climatic Factors: Temperature, Photoperiod, and Precipitation' refers to.",
+     "a": "Atmospheric parameters such as thermal levels, daylight duration, and rainfall patterns shaping regional vegetation zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climatic Factors: Temperature, Photoperiod, and Precipitation'.",
+     "a": "Climatic variables of temperature, sunlight exposure, and rainfall control plant growth rates and vegetation zoning.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climatic Factors: Temperature, Photoperiod, and Precipitation' taught, and from which source text?",
+     "a": "CLIMATE (source: iess105.txt lines 66-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.4",
+   "title": "Forest Cover and Non-Forest Land Calculation",
+   "questions": [
+    {
+     "q": "Find the non-forest area percentage if forest cover is forest_cover_percentage. Use the method 'Forest Cover and Non-Forest Land Calculation'. Work with: forest_area = 100, forest_cover_percentage = 8, total_geographical_area = 2500. Carry the chain through step by step and give the final value of check_total.",
+     "a": "2400 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate non-forest land percentage when forest cover percentage is given. Use the method 'Forest Cover and Non-Forest Land Calculation'. Work with: forest_area = 250, forest_cover_percentage = 25, total_geographical_area = 2500. Carry the chain through step by step and give the final value of check_total.",
+     "a": "2125 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Forest Cover and Non-Forest Land Calculation' refers to.",
+     "a": "Computation of non-forested land percentage from total geographical land area given the percentage of forest cover.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forest Cover and Non-Forest Land Calculation'.",
+     "a": "Subtracting forest cover percentage from total land area gives the non-forest land percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Forest Cover and Non-Forest Land Calculation', in plain ASCII form.",
+     "a": "non_forest_percentage = 100 - forest_cover_percentage",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.5",
+   "title": "Tropical Evergreen Forests",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tropical Evergreen Forests' refers to.",
+     "a": "Dense multilayered forests thriving in warm regions receiving over 200 cm annual rainfall, remaining green throughout the year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tropical Evergreen Forests'.",
+     "a": "Year-round green canopy forests in high rainfall zones with trees growing above 60 meters.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tropical Evergreen Forests' taught, and from which source text?",
+     "a": "TYPES OF VEGETATION - Tropical Evergreen Forests (source: iess105.txt lines 130-165)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.6",
+   "title": "Tropical Deciduous Forests",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tropical Deciduous Forests' refers to.",
+     "a": "Monsoon forests receiving between 70 cm and 200 cm annual rainfall, where trees shed foliage for six to eight weeks during dry summer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tropical Deciduous Forests'.",
+     "a": "Most widespread Indian forests divided into moist and dry categories based on water availability.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tropical Deciduous Forests' taught, and from which source text?",
+     "a": "TYPES OF VEGETATION - Tropical Deciduous Forests (source: iess105.txt lines 166-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.7",
+   "title": "Thorn Forests and Scrubs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Thorn Forests and Scrubs' refers to.",
+     "a": "Arid vegetation growing in areas with less than 70 cm rainfall, exhibiting deep roots, succulent stems, and small thick leaves to store water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Thorn Forests and Scrubs'.",
+     "a": "Xerophytic plant adaptations for moisture conservation in semi-arid and desert environments.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Thorn Forests and Scrubs' taught, and from which source text?",
+     "a": "TYPES OF VEGETATION - The Thorn Forests and Scrubs (source: iess105.txt lines 201-225)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.8",
+   "title": "Montane Forests",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Montane Forests' refers to.",
+     "a": "Vegetation zones changing with elevation in mountainous regions, moving from wet temperate broad-leaf trees to coniferous, alpine, and tundra zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Montane Forests'.",
+     "a": "Altitudinal change in temperature creates distinct vertical forest bands on mountain slopes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Montane Forests' taught, and from which source text?",
+     "a": "TYPES OF VEGETATION - Montane Forests (source: iess105.txt lines 226-255)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.9",
+   "title": "Mangrove Forests",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mangrove Forests' refers to.",
+     "a": "Tidal forests located along muddy coastal deltas, characterized by dense trees with root systems submerged in saline water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mangrove Forests'.",
+     "a": "Salt-tolerant deltaic forest ecosystems providing habitat for species like the Royal Bengal Tiger.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mangrove Forests' taught, and from which source text?",
+     "a": "TYPES OF VEGETATION - Mangrove Forests (source: iess105.txt lines 256-275)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.10",
+   "title": "Medicinal Plants of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Medicinal Plants of India' refers to.",
+     "a": "Indigenous plants listed in traditional Indian medicine systems like Ayurveda, used for therapeutic treatments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Medicinal Plants of India'.",
+     "a": "Herbal plant species valued for curing specific ailments like hypertension, diabetes, and respiratory issues.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Medicinal Plants of India' taught, and from which source text?",
+     "a": "MEDICINAL PLANTS (source: iess105.txt lines 276-300)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.11",
+   "title": "Wildlife Species Share Calculation",
+   "questions": [
+    {
+     "q": "Find the species percentage of national_species_count out of global_species_count. Use the method 'Wildlife Species Share Calculation'. Work with: global_species_count = 75, national_species_count = 100. Carry the chain through step by step and give the final value of species_percentage.",
+     "a": "133.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the percentage share when national count is national_species_count and global count is global_species_count. Use the method 'Wildlife Species Share Calculation'. Work with: global_species_count = 20, national_species_count = 400. Carry the chain through step by step and give the final value of species_percentage.",
+     "a": "2000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Wildlife Species Share Calculation' refers to.",
+     "a": "Calculating the percentage share of a country's bird, animal, or floral species relative to the total global species population.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wildlife Species Share Calculation'.",
+     "a": "Determining a country's proportional contribution to global species diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Wildlife Species Share Calculation', in plain ASCII form.",
+     "a": "species_percentage = (national_species_count / global_species_count) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.105.12",
+   "title": "Conservation of Flora and Fauna",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Conservation of Flora and Fauna' refers to.",
+     "a": "Government measures and environmental reserves created to protect threatened species and maintain ecological equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Conservation of Flora and Fauna'.",
+     "a": "Protection of natural heritage via biosphere reserves, national parks, wildlife sanctuaries, and targeted conservation acts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Conservation of Flora and Fauna' taught, and from which source text?",
+     "a": "WILDLIFE - Conservation (source: iess105.txt lines 346-410)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

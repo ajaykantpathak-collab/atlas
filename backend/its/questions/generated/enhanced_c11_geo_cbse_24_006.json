@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_006",
+   "title": "c11_geo_cbse_24_006",
+   "questions": [
+    {
+     "q": "On a 1:50,000 SOI toposheet, what does a solid black square of size 0.5 mm × 0.5 mm represent, and how does it differ from a hollow square of the same size?",
+     "a": "A solid black square represents a permanent (pucca) building or a group of pucca houses, while a hollow square represents a temporary (kutcha) structure. A wrong answer (e.g., confusing them with a fort symbol or a well) reveals the student has not memorized the SOI conventional signs for building types, which is essential for distinguishing settlement permanence and material culture.",
+     "self_check": true
+    },
+    {
+     "q": "Why do nucleated settlements typically appear on flat interfluves between two rivers on a toposheet, while dispersed settlements are found on undulating plateau surfaces?",
+     "a": "Nucleated settlements cluster on flat interfluves because gentle slopes (wide contour spacing) allow compact construction, access to water from both rivers, and defensive advantage; dispersed settlements occur on undulating plateaus where agricultural land is fragmented, requiring farmers to live on their own plots. A wrong answer that attributes nucleation only to \"water availability\" misses the role of slope (contours) and soil fertility shown by cultivation symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Given a toposheet extract with a metalled road (thick red line) running parallel to a contour line at 300 m elevation, then suddenly crossing contours at right angles to climb a 100 m high escarpment, calculate the average gradient of the climb if the map distance is 2 cm. (Scale 1:50,000)",
+     "a": "Step 1: Convert map distance to ground distance: 2 cm × 50,000 = 100,000 cm = 1 km. Step 2: Height gain = 100 m. Step 3: Gradient = vertical rise / horizontal distance = 100 m / 1000 m = 1:10 or 10%. A wrong calculation (e.g., using 2 cm directly as 2 km) shows inability to apply scale conversion and gradient formula, a core skill for transport geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transport network in a toposheet of the Gangetic plain (dense grid of metalled roads, broad gauge railway) with one in the Western Ghats (sparse footpaths, narrow gauge railway, hairpin bends). What does this contrast reveal about the influence of relief on transport development?",
+     "a": "The Gangetic plain's flat terrain (contours far apart) permits low-cost construction of dense, straight road/rail grids, supporting high connectivity and economic activity. The Western Ghats' steep, dissected relief (contours close, V-shaped valleys) forces transport to follow contours, use hairpin bends, and adopt narrow gauge, resulting in low density and high construction cost. A wrong answer that only lists symbols without linking to contour patterns fails to analyze the physical-human geography interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A toposheet shows a linear settlement along a riverbank with a metalled road on the levee and a railway on the higher terrace. Evaluate the sustainability of this settlement pattern given annual flooding evidence (abandoned channels, sand deposits).",
+     "a": "The pattern is unsustainable: the linear settlement on the floodplain is highly vulnerable to inundation; the road on the levee offers temporary protection but can be breached; the railway on the terrace is safer but may isolate the settlement during floods. Sustainable adaptation would require shifting habitation to the terrace (shown by scattered huts on higher ground) and flood-proofing infrastructure. A wrong answer that calls it \"sustainable because of water access\" ignores the flood hazard symbols (sand, dry channels) and the principle of site safety.",
+     "self_check": true
+    },
+    {
+     "q": "Design a legend for a simplified toposheet of a hypothetical region that includes: a nucleated village with pucca houses, a dispersed settlement of kutcha huts, a national highway, a metre gauge railway with a level crossing, a cart track, and a footbridge. Use only standard SOI symbols.",
+     "a": "A correct legend will draw: (1) a cluster of solid squares for the nucleated pucca village, (2) isolated hollow squares scattered for dispersed kutcha huts, (3) a thick red line for NH, (4) a double black line with narrower spacing for metre gauge, crossed by a road symbol with a small 'X' for level crossing, (5) a single dashed black line for cart track, (6) a dashed line with a small bridge symbol (two parallel ticks) over a blue line for footbridge. A poor answer uses non-standard colors, omits the level crossing symbol, or confuses metre/broad gauge spacing, indicating lack of symbol fluency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

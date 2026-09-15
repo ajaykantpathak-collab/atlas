@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_010",
+   "title": "c11_cs_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the absorption law in Boolean algebra and give one example of its application in simplifying an expression.",
+     "a": "The absorption law states: A + A·B = A and A·(A + B) = A. Example: X + X·Y simplifies directly to X. A wrong answer (e.g., stating A + B = A or confusing it with idempotent law) reveals the student has memorised the name but not the structural pattern – they cannot recognise the \"A AND (A OR B)\" or \"A OR (A AND B)\" form in a larger expression.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (A + B)' · (A' + B') to A'·B' + A·B. Is this correct? Explain why or why not using De Morgan's theorems.",
+     "a": "The simplification is incorrect. Correct application: (A + B)' = A'·B' (De Morgan's first theorem). The second factor (A' + B') remains as is. The product becomes (A'·B')·(A' + B'). Using distributive law: A'·B'·A' + A'·B'·B' = A'·B' + A'·B' = A'·B' (idempotent). The student's error shows they applied De Morgan's to the first factor but then incorrectly treated the whole expression as a sum-of-products instead of a product-of-sums, revealing a misunderstanding of operator precedence and the distributive law in Boolean algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the Boolean expression: F = A·B + A·B' + A'·B. Show each step and name the law used.",
+     "a": "Step 1: A·B + A·B' = A·(B + B') [Distributive Law]\nStep 2: B + B' = 1 [Complement Law]\nStep 3: A·1 = A [Identity Law]\nStep 4: F = A + A'·B [Substitution]\nStep 5: A + A'·B = (A + A')·(A + B) [Distributive Law – OR over AND]\nStep 6: A + A' = 1 [Complement Law]\nStep 7: 1·(A + B) = A + B [Identity Law]\nFinal: F = A + B. A wrong answer (e.g., stopping at A + A'·B or incorrectly cancelling A') reveals the student does not recognise the \"A + A'B = A + B\" pattern (a derived rule from distributive + complement) and cannot apply distributive law in the OR-over-AND direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions: E1 = (X + Y)·(X' + Z) and E2 = X·Z + X'·Y. Are they equivalent? Prove your answer algebraically.",
+     "a": "Yes, they are equivalent. Expand E1 using distributive law (FOIL method): (X + Y)·(X' + Z) = X·X' + X·Z + Y·X' + Y·Z = 0 + X·Z + X'·Y + Y·Z. Now observe Y·Z is redundant because of the consensus theorem: X·Z + X'·Y + Y·Z = X·Z + X'·Y. Thus E1 = X·Z + X'·Y = E2. A wrong answer (saying they are not equivalent or missing the consensus step) reveals the student cannot handle the \"extra\" term Y·Z and does not know the consensus theorem (or cannot derive it using absorption: Y·Z = Y·Z·(X + X') = X·Y·Z + X'·Y·Z, then absorb into X·Z and X'·Y).",
+     "self_check": true
+    },
+    {
+     "q": "A circuit designer claims that the expression (A + B')·(A' + C)·(B' + C) can be simplified to (A + B')·(A' + C) because the third factor (B' + C) is redundant. Evaluate this claim and justify your evaluation.",
+     "a": "The claim is correct. This is the consensus theorem in product-of-sums form: (A + B')·(A' + C)·(B' + C) = (A + B')·(A' + C). Proof: Let X = A, Y = B', Z = C. The POS consensus theorem states (X + Y)·(X' + Z)·(Y + Z) = (X + Y)·(X' + Z). Here Y + Z = B' + C matches the third factor. A wrong evaluation (claiming it's not redundant or unable to prove) shows the student only knows the sum-of-products consensus theorem and cannot dualise it, indicating a lack of understanding of duality in Boolean algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean expression of 3 variables that requires at least 4 distinct Boolean laws to simplify to a single literal. Write the expression, the target simplified form, and the sequence of laws you would apply.",
+     "a": "Example: F = (A + B')·(A' + B)·(A + C). Target: F = A·B + A'·B' (or further simplification depends on C). Actually, a better example: F = A·B' + A'·B + B·C + B'·C'. Simplifies to? Let's design a clear one: F = (A + B)·(A' + C)·(B + C). Target: (A + B)·(A' + C) [Consensus]. Laws: 1. Distributive (expand first two), 2. Complement (A·A'=0), 3. Identity, 4. Distributive (factor), 5. Consensus (or Absorption). A poor answer (expression too simple, laws repeated, or target not a single literal) reveals the student cannot synthesise a multi-step simplification path and does not have a mental map of how laws interact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

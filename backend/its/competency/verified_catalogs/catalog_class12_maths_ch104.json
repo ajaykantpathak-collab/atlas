@@ -1,0 +1,1256 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Determinants",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lemh104.txt",
+ "concepts": [
+  {
+   "id": "lemh.4.2.2",
+   "title": "Determinant of a 2x2 Matrix",
+   "section": "4.2.2",
+   "definition": "A scalar value computed from a 2x2 square matrix by taking the product of the principal diagonal entries minus the product of the off-diagonal entries.",
+   "formula": "det = a11 * a22 - a12 * a21",
+   "key_idea": "Subtract off-diagonal product from main diagonal product.",
+   "textbook_ref": "lemh104.txt lines 40-60",
+   "question_patterns": [
+    "evaluate the determinant of order 2",
+    "calculate determinant of matrix with entries",
+    "find the determinant value for 2x2 matrix",
+    "what is the determinant of matrix",
+    "Explain the method of Determinant of a 2x2 Matrix."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply main diagonal elements",
+     "explain": "multiply top-left element a11 by bottom-right element a22",
+     "compute": "p1 = a11 * a22"
+    },
+    {
+     "step": 2,
+     "action": "multiply off diagonal elements",
+     "explain": "multiply top-right element a12 by bottom-left element a21",
+     "compute": "p2 = a12 * a21"
+    },
+    {
+     "step": 3,
+     "action": "subtract off diagonal product from main diagonal product",
+     "explain": "determinant is p1 minus p2",
+     "compute": "det = p1 - p2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Determinant of a 2x2 Matrix, compute the result for a11 = 3, a22 = 3, a12 = 3, a21 = 2.",
+     "solution": "Step 1: multiply main diagonal elements: p1 = a11 * a22 = 9.0 Step 2: multiply off diagonal elements: p2 = a12 * a21 = 6.0 Step 3: subtract off diagonal product from main diagonal product: det = p1 - p2 = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Determinant of a 2x2 Matrix, compute the result for a11 = 4, a22 = 4, a12 = 4, a21 = 3.",
+     "solution": "Step 1: multiply main diagonal elements: p1 = a11 * a22 = 16.0 Step 2: multiply off diagonal elements: p2 = a12 * a21 = 12.0 Step 3: subtract off diagonal product from main diagonal product: det = p1 - p2 = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.2.3",
+   "title": "Determinant of a 3x3 Matrix",
+   "section": "4.2.3",
+   "definition": "A scalar computed from a 3x3 square matrix by expanding along any row or column using alternating signs and 2x2 sub-determinants.",
+   "formula": "det = a11*(a22*a33 - a23*a32) - a12*(a21*a33 - a23*a31) + a13*(a21*a32 - a22*a31)",
+   "key_idea": "Sum the products of first row elements with their signed 2x2 minor determinants.",
+   "textbook_ref": "lemh104.txt lines 65-120",
+   "question_patterns": [
+    "evaluate the 3x3 determinant",
+    "calculate determinant of matrix of order 3",
+    "find the value of third order determinant",
+    "expand determinant along first row",
+    "Explain the method of Determinant of a 3x3 Matrix."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute weighted minor for first entry",
+     "explain": "multiply a11 by the 2x2 minor formed by eliminating row 1 and column 1",
+     "compute": "t1 = a11 * (a22 * a33 - a23 * a32)"
+    },
+    {
+     "step": 2,
+     "action": "compute weighted minor for second entry",
+     "explain": "multiply a12 by the 2x2 minor formed by eliminating row 1 and column 2",
+     "compute": "t2 = a12 * (a21 * a33 - a23 * a31)"
+    },
+    {
+     "step": 3,
+     "action": "compute weighted minor for third entry",
+     "explain": "multiply a13 by the 2x2 minor formed by eliminating row 1 and column 3",
+     "compute": "t3 = a13 * (a21 * a32 - a22 * a31)"
+    },
+    {
+     "step": 4,
+     "action": "combine weighted terms with alternating signs",
+     "explain": "subtract t2 from t1 and add t3",
+     "compute": "det = t1 - t2 + t3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Determinant of a 3x3 Matrix, compute the result for a11 = 3, a22 = 3, a33 = 3, a23 = 2, a32 = 2, a12 = 2, a21 = 1, a31 = 1, a13 = 1.",
+     "solution": "Step 1: compute weighted minor for first entry: t1 = a11 * (a22 * a33 - a23 * a32) = 15.0 Step 2: compute weighted minor for second entry: t2 = a12 * (a21 * a33 - a23 * a31) = 2.0 Step 3: compute weighted minor for third entry: t3 = a13 * (a21 * a32 - a22 * a31) = -1.0 Step 4: combine weighted terms with alternating signs: det = t1 - t2 + t3 = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    },
+    {
+     "question": "Using Determinant of a 3x3 Matrix, compute the result for a11 = 4, a22 = 4, a33 = 4, a23 = 3, a32 = 3, a12 = 3, a21 = 2, a31 = 2, a13 = 2.",
+     "solution": "Step 1: compute weighted minor for first entry: t1 = a11 * (a22 * a33 - a23 * a32) = 28.0 Step 2: compute weighted minor for second entry: t2 = a12 * (a21 * a33 - a23 * a31) = 6.0 Step 3: compute weighted minor for third entry: t3 = a13 * (a21 * a32 - a22 * a31) = -4.0 Step 4: combine weighted terms with alternating signs: det = t1 - t2 + t3 = 18.0 Final result: 18.0",
+     "answer": "18.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.3.1",
+   "title": "Area of a Triangle using Determinants",
+   "section": "4.3",
+   "definition": "The numerical area enclosed by three non-collinear vertices on a Cartesian plane using half the absolute value of a 3x3 coordinate determinant.",
+   "formula": "area = (1/2) * abs(x1*(y2 - y3) + x2*(y3 - y1) + x3*(y1 - y2))",
+   "key_idea": "Half the absolute determinant value of vertex coordinates yields triangle area.",
+   "textbook_ref": "lemh104.txt lines 190-220",
+   "question_patterns": [
+    "find the area of the triangle with vertices",
+    "calculate area of triangle formed by points",
+    "what is the area of triangle given three coordinates",
+    "find k if area of triangle is given",
+    "Explain the method of Area of a Triangle using Determinants."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate coordinate expansion sum",
+     "explain": "expand coordinate determinant along first column",
+     "compute": "term = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate absolute value and divide by two",
+     "explain": "take half of absolute value of expansion term",
+     "compute": "area = (1/2) * abs(term)"
+    },
+    {
+     "step": 3,
+     "action": "interpret area result",
+     "explain": "if area is zero the three points are collinear, otherwise area gives the enclosed region"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Area of a Triangle using Determinants, compute the result for x1 = 3, y2 = 3, y3 = 3, x2 = 2, y1 = 2, x3 = 2.",
+     "solution": "Step 1: evaluate coordinate expansion sum: term = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2) = 0.0 Step 2: calculate absolute value and divide by two: area = (1/2) * abs(term) = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Area of a Triangle using Determinants, compute the result for x1 = 4, y2 = 4, y3 = 4, x2 = 3, y1 = 3, x3 = 3.",
+     "solution": "Step 1: evaluate coordinate expansion sum: term = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2) = 0.0 Step 2: calculate absolute value and divide by two: area = (1/2) * abs(term) = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.3.2",
+   "title": "Line Equation and Collinearity using Determinants",
+   "section": "4.3",
+   "definition": "Three points are collinear if their coordinate determinant is zero, and the straight line joining two points is defined by setting the coordinate determinant with variable point (x,y) to zero.",
+   "formula": "x * (y1 - y2) - y * (x1 - x2) + (x1 * y2 - x2 * y1) = 0",
+   "key_idea": "Vanishing area determinant characterizes collinear points and straight line equations.",
+   "textbook_ref": "lemh104.txt lines 210-240",
+   "question_patterns": [
+    "show that points are collinear using determinants",
+    "find equation of line joining two points using determinants",
+    "determine line equation through given points",
+    "check if three points lie on a straight line",
+    "Explain the method of Line Equation and Collinearity using Determinants."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute x coefficient",
+     "explain": "coefficient of x in line equation",
+     "compute": "a = y1 - y2"
+    },
+    {
+     "step": 2,
+     "action": "compute y coefficient",
+     "explain": "coefficient of y in line equation",
+     "compute": "b = x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "compute constant term",
+     "explain": "constant term in linear equation",
+     "compute": "c = x1 * y2 - x2 * y1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Line Equation and Collinearity using Determinants, compute the result for y1 = 3, y2 = 3, x2 = 3, x1 = 2.",
+     "solution": "Step 1: compute x coefficient: a = y1 - y2 = 0.0 Step 2: compute y coefficient: b = x2 - x1 = 1.0 Step 3: compute constant term: c = x1 * y2 - x2 * y1 = -3.0 Final result: -3.0",
+     "answer": "-3.0"
+    },
+    {
+     "question": "Using Line Equation and Collinearity using Determinants, compute the result for y1 = 4, y2 = 4, x2 = 4, x1 = 3.",
+     "solution": "Step 1: compute x coefficient: a = y1 - y2 = 0.0 Step 2: compute y coefficient: b = x2 - x1 = 1.0 Step 3: compute constant term: c = x1 * y2 - x2 * y1 = -4.0 Final result: -4.0",
+     "answer": "-4.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.4.1",
+   "title": "Minors of a Matrix Element",
+   "section": "4.4",
+   "definition": "The determinant of a sub-matrix created by omitting the specific row and column containing the chosen entry.",
+   "formula": "m_ij = det(submatrix_ij)",
+   "key_idea": "Minor is the reduced determinant after suppressing row i and column j.",
+   "textbook_ref": "lemh104.txt lines 255-285",
+   "question_patterns": [
+    "find the minor of element",
+    "calculate minor M_ij of entry",
+    "write minors of all elements of determinant",
+    "what is the minor of given position",
+    "Explain the method of Minors of a Matrix Element."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate 2x2 minor determinant",
+     "explain": "cross multiply elements of 2x2 submatrix left after deleting row i and column j",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    },
+    {
+     "step": 2,
+     "action": "identify the row and column indices of the element",
+     "explain": "record the row number i and column number j of the chosen entry to track which submatrix was used"
+    },
+    {
+     "step": 3,
+     "action": "report the minor value for the element",
+     "explain": "the minor M_ij is the determinant computed from the remaining 2x2 submatrix",
+     "compute": "m_ij = minor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Minors of a Matrix Element, compute the result for sub_a11 = 3, sub_a22 = 3, sub_a12 = 3, sub_a21 = 2.",
+     "solution": "Step 1: calculate 2x2 minor determinant: minor = sub_a11 * sub_a22 - sub_a12 * sub_a21 = 3.0 Step 3: report the minor value for the element: m_ij = minor = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Minors of a Matrix Element, compute the result for sub_a11 = 4, sub_a22 = 4, sub_a12 = 4, sub_a21 = 3.",
+     "solution": "Step 1: calculate 2x2 minor determinant: minor = sub_a11 * sub_a22 - sub_a12 * sub_a21 = 4.0 Step 3: report the minor value for the element: m_ij = minor = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.4.2",
+   "title": "Cofactors of a Matrix Element",
+   "section": "4.4",
+   "definition": "A minor assigned a positive or negative sign according to its position factor (-1)^(i+j).",
+   "formula": "a_ij = ((-1)**(row + col)) * m_ij",
+   "key_idea": "Cofactor equals position-signed minor value.",
+   "textbook_ref": "lemh104.txt lines 280-320",
+   "question_patterns": [
+    "find cofactors of all elements",
+    "calculate cofactor A_ij of entry",
+    "evaluate cofactors of second row",
+    "write cofactor matrix elements",
+    "Explain the method of Cofactors of a Matrix Element."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute minor of the position",
+     "explain": "find determinant of submatrix omitting row and col",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    },
+    {
+     "step": 2,
+     "action": "apply positional sign multiplier",
+     "explain": "multiply minor by (-1) raised to sum of row index and column index",
+     "compute": "cofactor = ((-1) ** (row + col)) * minor"
+    },
+    {
+     "step": 3,
+     "action": "report the cofactor value for the element",
+     "explain": "the cofactor A_ij is the signed minor that will be used to build the cofactor matrix and adjoint",
+     "compute": "a_ij = cofactor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Cofactors of a Matrix Element, compute the result for sub_a11 = 3, sub_a22 = 3, sub_a12 = 3, sub_a21 = 2, row = 2, col = 2.",
+     "solution": "Step 1: compute minor of the position: minor = sub_a11 * sub_a22 - sub_a12 * sub_a21 = 3.0 Step 2: apply positional sign multiplier: cofactor = ((-1) ** (row + col)) * minor = 3.0 Step 3: report the cofactor value for the element: a_ij = cofactor = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Cofactors of a Matrix Element, compute the result for sub_a11 = 4, sub_a22 = 4, sub_a12 = 4, sub_a21 = 3, row = 3, col = 3.",
+     "solution": "Step 1: compute minor of the position: minor = sub_a11 * sub_a22 - sub_a12 * sub_a21 = 4.0 Step 2: apply positional sign multiplier: cofactor = ((-1) ** (row + col)) * minor = 4.0 Step 3: report the cofactor value for the element: a_ij = cofactor = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.1",
+   "title": "Adjoint of a Square Matrix",
+   "section": "4.5.1",
+   "definition": "The matrix obtained by transposing the matrix of cofactors corresponding to each element of a square matrix.",
+   "formula": "adj(A) = transpose(cofactor_matrix)",
+   "key_idea": "Swap diagonal entries and negate off-diagonal entries for 2x2 matrix adjoint.",
+   "textbook_ref": "lemh104.txt lines 360-395",
+   "question_patterns": [
+    "find adjoint of matrix",
+    "calculate adj A for given matrix",
+    "write the adjoint matrix",
+    "find adj A of order 2",
+    "Explain the method of Adjoint of a Square Matrix."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "swap main diagonal elements",
+     "explain": "first element of adj A is bottom-right entry a22",
+     "compute": "adj11 = a22"
+    },
+    {
+     "step": 2,
+     "action": "negate top right element",
+     "explain": "adj12 entry is -a12",
+     "compute": "adj12 = -a12"
+    },
+    {
+     "step": 3,
+     "action": "negate bottom left element",
+     "explain": "adj21 entry is -a21",
+     "compute": "adj21 = -a21"
+    },
+    {
+     "step": 4,
+     "action": "assign top left entry to bottom right",
+     "explain": "adj22 entry is a11",
+     "compute": "adj22 = a11"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Adjoint of a Square Matrix, compute the result for a22 = 3, a12 = 3, a21 = 3, a11 = 2.",
+     "solution": "Step 1: swap main diagonal elements: adj11 = a22 = 3.0 Step 2: negate top right element: adj12 = -a12 = -3.0 Step 3: negate bottom left element: adj21 = -a21 = -3.0 Step 4: assign top left entry to bottom right: adj22 = a11 = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    },
+    {
+     "question": "Using Adjoint of a Square Matrix, compute the result for a22 = 4, a12 = 4, a21 = 4, a11 = 3.",
+     "solution": "Step 1: swap main diagonal elements: adj11 = a22 = 4.0 Step 2: negate top right element: adj12 = -a12 = -4.0 Step 3: negate bottom left element: adj21 = -a21 = -4.0 Step 4: assign top left entry to bottom right: adj22 = a11 = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.2",
+   "title": "Determinant of Adjoint Matrix Property",
+   "section": "4.5.1",
+   "definition": "The determinant of the adjoint of an n x n matrix is equal to the original matrix determinant raised to power (n - 1).",
+   "formula": "det_adj = det ** (n - 1)",
+   "key_idea": "Adjoint determinant equals original determinant raised to power n minus 1.",
+   "textbook_ref": "lemh104.txt lines 415-430",
+   "question_patterns": [
+    "find magnitude of adj A",
+    "calculate det(adj A) for order n",
+    "evaluate determinant of adjoint matrix",
+    "what is value of |adj A|",
+    "Explain the method of Determinant of Adjoint Matrix Property."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate exponent power",
+     "explain": "power equals matrix order n minus 1",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise determinant to calculated power",
+     "explain": "det_adj is det raised to power",
+     "compute": "det_adj = det ** power"
+    },
+    {
+     "step": 3,
+     "action": "report the determinant of the adjoint matrix",
+     "explain": "the result det_adj gives the magnitude of adj A for an n x n matrix",
+     "compute": "result = det_adj"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Determinant of Adjoint Matrix Property, compute the result for n = 3, det = 3.",
+     "solution": "Step 1: calculate exponent power: power = n - 1 = 2.0 Step 2: raise determinant to calculated power: det_adj = det ** power = 9.0 Step 3: report the determinant of the adjoint matrix: result = det_adj = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Determinant of Adjoint Matrix Property, compute the result for n = 4, det = 4.",
+     "solution": "Step 1: calculate exponent power: power = n - 1 = 3.0 Step 2: raise determinant to calculated power: det_adj = det ** power = 64.0 Step 3: report the determinant of the adjoint matrix: result = det_adj = 64.0 Final result: 64.0",
+     "answer": "64.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.3",
+   "title": "Inverse of a Square Matrix using Adjoint",
+   "section": "4.5.1",
+   "definition": "The reciprocal matrix for a non-singular square matrix formed by dividing its adjoint matrix by its scalar determinant.",
+   "formula": "A_inv = (1 / det) * adj(A)",
+   "key_idea": "Matrix inverse exists if determinant is non-zero and equals adjoint divided by determinant.",
+   "textbook_ref": "lemh104.txt lines 430-470",
+   "question_patterns": [
+    "find inverse of matrix",
+    "calculate A inverse if it exists",
+    "determine inverse of square matrix",
+    "find A^-1 using adjoint method",
+    "Explain the method of Inverse of a Square Matrix using Adjoint."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate matrix determinant",
+     "explain": "compute 2x2 determinant det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "compute inv11 entry",
+     "explain": "inv11 is a22 divided by det",
+     "compute": "inv11 = a22 / det"
+    },
+    {
+     "step": 3,
+     "action": "compute inv12 entry",
+     "explain": "inv12 is -a12 divided by det",
+     "compute": "inv12 = -a12 / det"
+    },
+    {
+     "step": 4,
+     "action": "compute inv21 entry",
+     "explain": "inv21 is -a21 divided by det",
+     "compute": "inv21 = -a21 / det"
+    },
+    {
+     "step": 5,
+     "action": "compute inv22 entry",
+     "explain": "inv22 is a11 divided by det",
+     "compute": "inv22 = a11 / det"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Inverse of a Square Matrix using Adjoint, compute the result for a11 = 3, a22 = 3, a12 = 3, a21 = 2.",
+     "solution": "Step 1: calculate matrix determinant: det = a11 * a22 - a12 * a21 = 3.0 Step 2: compute inv11 entry: inv11 = a22 / det = 1.0 Step 3: compute inv12 entry: inv12 = -a12 / det = -1.0 Step 4: compute inv21 entry: inv21 = -a21 / det = -0.666667 Step 5: compute inv22 entry: inv22 = a11 / det = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Inverse of a Square Matrix using Adjoint, compute the result for a11 = 4, a22 = 4, a12 = 4, a21 = 3.",
+     "solution": "Step 1: calculate matrix determinant: det = a11 * a22 - a12 * a21 = 4.0 Step 2: compute inv11 entry: inv11 = a22 / det = 1.0 Step 3: compute inv12 entry: inv12 = -a12 / det = -1.0 Step 4: compute inv21 entry: inv21 = -a21 / det = -0.75 Step 5: compute inv22 entry: inv22 = a11 / det = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.6.1",
+   "title": "Solving System of Linear Equations using Matrix Method",
+   "section": "4.6.1",
+   "definition": "Determining unique variable values for a linear equation system AX = B by calculating X = A^(-1)B.",
+   "formula": "X = A_inv * B",
+   "key_idea": "Premultiply constant vector B by inverse matrix A^(-1) to obtain system variables.",
+   "textbook_ref": "lemh104.txt lines 510-560",
+   "question_patterns": [
+    "solve system of linear equations using matrix method",
+    "solve using inverse of matrix",
+    "find x and y using matrix method",
+    "solve system by matrix inverse",
+    "Explain the method of Solving System of Linear Equations using Matrix Method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate determinant of coefficient matrix",
+     "explain": "det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "calculate variable x value",
+     "explain": "x is (a22 * b1 - a12 * b2) divided by det",
+     "compute": "x = (a22 * b1 - a12 * b2) / det"
+    },
+    {
+     "step": 3,
+     "action": "calculate variable y value",
+     "explain": "y is (-a21 * b1 + a11 * b2) divided by det",
+     "compute": "y = (-a21 * b1 + a11 * b2) / det"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Solving System of Linear Equations using Matrix Method, compute the result for a11 = 3, a22 = 3, a12 = 3, a21 = 2, b1 = 2, b2 = 2.",
+     "solution": "Step 1: calculate determinant of coefficient matrix: det = a11 * a22 - a12 * a21 = 3.0 Step 2: calculate variable x value: x = (a22 * b1 - a12 * b2) / det = 0.0 Step 3: calculate variable y value: y = (-a21 * b1 + a11 * b2) / det = 0.666667 Final result: 0.666667",
+     "answer": "0.666667"
+    },
+    {
+     "question": "Using Solving System of Linear Equations using Matrix Method, compute the result for a11 = 4, a22 = 4, a12 = 4, a21 = 3, b1 = 3, b2 = 3.",
+     "solution": "Step 1: calculate determinant of coefficient matrix: det = a11 * a22 - a12 * a21 = 4.0 Step 2: calculate variable x value: x = (a22 * b1 - a12 * b2) / det = 0.0 Step 3: calculate variable y value: y = (-a21 * b1 + a11 * b2) / det = 0.75 Final result: 0.75",
+     "answer": "0.75"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh104.txt lines 50-55",
+   "concept": "lemh.4.2.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate determinant of 2x2 matrix",
+   "extracted_variables": {
+    "a11": 2,
+    "a12": 4,
+    "a21": -1,
+    "a22": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply main diagonal elements",
+     "explain": "multiply top-left element a11 by bottom-right element a22",
+     "compute": "p1 = a11 * a22"
+    },
+    {
+     "step": 2,
+     "action": "multiply off diagonal elements",
+     "explain": "multiply top-right element a12 by bottom-left element a21",
+     "compute": "p2 = a12 * a21"
+    },
+    {
+     "step": 3,
+     "action": "subtract off diagonal product from main diagonal product",
+     "explain": "determinant is p1 minus p2",
+     "compute": "det = p1 - p2"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh104.txt lines 215-230",
+   "concept": "lemh.4.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find area of triangle with given vertices",
+   "extracted_variables": {
+    "x1": 3,
+    "y1": 8,
+    "x2": -4,
+    "y2": 2,
+    "x3": 5,
+    "y3": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate coordinate expansion sum",
+     "explain": "expand coordinate determinant along first column",
+     "compute": "term = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate absolute value and divide by two",
+     "explain": "take half of absolute value of expansion term",
+     "compute": "area = (1/2) * abs(term)"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "lemh104.txt lines 385-395",
+   "concept": "lemh.4.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find adj A for 2x2 matrix",
+   "extracted_variables": {
+    "a11": 2,
+    "a12": 3,
+    "a21": 1,
+    "a22": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "swap main diagonal elements",
+     "explain": "first element of adj A is bottom-right entry a22",
+     "compute": "adj11 = a22"
+    },
+    {
+     "step": 2,
+     "action": "negate top right element",
+     "explain": "adj12 entry is -a12",
+     "compute": "adj12 = -a12"
+    },
+    {
+     "step": 3,
+     "action": "negate bottom left element",
+     "explain": "adj21 entry is -a21",
+     "compute": "adj21 = -a21"
+    },
+    {
+     "step": 4,
+     "action": "assign top left entry to bottom right",
+     "explain": "adj22 entry is a11",
+     "compute": "adj22 = a11"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "lemh104.txt lines 535-555",
+   "concept": "lemh.4.6.1",
+   "question_type": "compute",
+   "question_pattern": "Solve 2x2 linear equation system using matrix method",
+   "extracted_variables": {
+    "a11": 2,
+    "a12": 5,
+    "a21": 3,
+    "a22": 2,
+    "b1": 1,
+    "b2": 7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate determinant of coefficient matrix",
+     "explain": "det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "calculate variable x value",
+     "explain": "x is (a22 * b1 - a12 * b2) divided by det",
+     "compute": "x = (a22 * b1 - a12 * b2) / det"
+    },
+    {
+     "step": 3,
+     "action": "calculate variable y value",
+     "explain": "y is (-a21 * b1 + a11 * b2) divided by det",
+     "compute": "y = (-a21 * b1 + a11 * b2) / det"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Determinant of a 2x2 Matrix chain with a11 = 2, a22 = 3, a12 = 5, a21 = 4, p1 = 7, p2 = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a12": "5",
+    "a21": "4",
+    "p1": "7",
+    "p2": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply main diagonal elements",
+     "explain": "multiply top-left element a11 by bottom-right element a22",
+     "compute": "p1 = a11 * a22"
+    },
+    {
+     "step": 2,
+     "action": "multiply off diagonal elements",
+     "explain": "multiply top-right element a12 by bottom-left element a21",
+     "compute": "p2 = a12 * a21"
+    },
+    {
+     "step": 3,
+     "action": "subtract off diagonal product from main diagonal product",
+     "explain": "determinant is p1 minus p2",
+     "compute": "det = p1 - p2"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.2.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Determinant of a 3x3 Matrix chain with a11 = 2, a22 = 3, a33 = 5, a23 = 4, a32 = 7, a12 = 1.5, a21 = 6, a31 = 8, a13 = 2, t3 = 3, t1 = 5, t2 = 4. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a33": "5",
+    "a23": "4",
+    "a32": "7",
+    "a12": "1.5",
+    "a21": "6",
+    "a31": "8",
+    "a13": "2",
+    "t3": "3",
+    "t1": "5",
+    "t2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute weighted minor for first entry",
+     "explain": "multiply a11 by the 2x2 minor formed by eliminating row 1 and column 1",
+     "compute": "t1 = a11 * (a22 * a33 - a23 * a32)"
+    },
+    {
+     "step": 2,
+     "action": "compute weighted minor for second entry",
+     "explain": "multiply a12 by the 2x2 minor formed by eliminating row 1 and column 2",
+     "compute": "t2 = a12 * (a21 * a33 - a23 * a31)"
+    },
+    {
+     "step": 3,
+     "action": "compute weighted minor for third entry",
+     "explain": "multiply a13 by the 2x2 minor formed by eliminating row 1 and column 3",
+     "compute": "t3 = a13 * (a21 * a32 - a22 * a31)"
+    },
+    {
+     "step": 4,
+     "action": "combine weighted terms with alternating signs",
+     "explain": "subtract t2 from t1 and add t3",
+     "compute": "det = t1 - t2 + t3"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.2.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Determinant of a 3x3 Matrix chain with a11 = 2, a22 = 3, a33 = 5, a23 = 4, a32 = 7, a12 = 1.5, a21 = 6, a31 = 8, a13 = 2, t3 = 3, t1 = 5, t2 = 4. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a33": "5",
+    "a23": "4",
+    "a32": "7",
+    "a12": "1.5",
+    "a21": "6",
+    "a31": "8",
+    "a13": "2",
+    "t3": "3",
+    "t1": "5",
+    "t2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute weighted minor for first entry",
+     "explain": "multiply a11 by the 2x2 minor formed by eliminating row 1 and column 1",
+     "compute": "t1 = a11 * (a22 * a33 - a23 * a32)"
+    },
+    {
+     "step": 2,
+     "action": "compute weighted minor for second entry",
+     "explain": "multiply a12 by the 2x2 minor formed by eliminating row 1 and column 2",
+     "compute": "t2 = a12 * (a21 * a33 - a23 * a31)"
+    },
+    {
+     "step": 3,
+     "action": "compute weighted minor for third entry",
+     "explain": "multiply a13 by the 2x2 minor formed by eliminating row 1 and column 3",
+     "compute": "t3 = a13 * (a21 * a32 - a22 * a31)"
+    },
+    {
+     "step": 4,
+     "action": "combine weighted terms with alternating signs",
+     "explain": "subtract t2 from t1 and add t3",
+     "compute": "det = t1 - t2 + t3"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.3.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area of a Triangle using Determinants chain with x3 = 2, x1 = 3, x2 = 5, y1 = 4, y2 = 7, y3 = 1.5, abs = 6, term = 8. What value does it produce?",
+   "extracted_variables": {
+    "x3": "2",
+    "x1": "3",
+    "x2": "5",
+    "y1": "4",
+    "y2": "7",
+    "y3": "1.5",
+    "abs": "6",
+    "term": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate coordinate expansion sum",
+     "explain": "expand coordinate determinant along first column",
+     "compute": "term = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate absolute value and divide by two",
+     "explain": "take half of absolute value of expansion term",
+     "compute": "area = (1/2) * abs(term)"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Line Equation and Collinearity using Determinants chain with y1 = 2, y2 = 3, x2 = 5, x1 = 4. What value does it produce?",
+   "extracted_variables": {
+    "y1": "2",
+    "y2": "3",
+    "x2": "5",
+    "x1": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coefficient",
+     "explain": "coefficient of x in line equation",
+     "compute": "a = y1 - y2"
+    },
+    {
+     "step": 2,
+     "action": "compute y coefficient",
+     "explain": "coefficient of y in line equation",
+     "compute": "b = x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "compute constant term",
+     "explain": "constant term in linear equation",
+     "compute": "c = x1 * y2 - x2 * y1"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Line Equation and Collinearity using Determinants chain with y1 = 2, y2 = 3, x2 = 5, x1 = 4. What value does it produce?",
+   "extracted_variables": {
+    "y1": "2",
+    "y2": "3",
+    "x2": "5",
+    "x1": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coefficient",
+     "explain": "coefficient of x in line equation",
+     "compute": "a = y1 - y2"
+    },
+    {
+     "step": 2,
+     "action": "compute y coefficient",
+     "explain": "coefficient of y in line equation",
+     "compute": "b = x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "compute constant term",
+     "explain": "constant term in linear equation",
+     "compute": "c = x1 * y2 - x2 * y1"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Minors of a Matrix Element chain with sub_a11 = 2, sub_a22 = 3, sub_a12 = 5, sub_a21 = 4. What value does it produce?",
+   "extracted_variables": {
+    "sub_a11": "2",
+    "sub_a22": "3",
+    "sub_a12": "5",
+    "sub_a21": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate 2x2 minor determinant",
+     "explain": "cross multiply elements of 2x2 submatrix left after deleting row i and column j",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Minors of a Matrix Element chain with sub_a11 = 2, sub_a22 = 3, sub_a12 = 5, sub_a21 = 4. What value does it produce?",
+   "extracted_variables": {
+    "sub_a11": "2",
+    "sub_a22": "3",
+    "sub_a12": "5",
+    "sub_a21": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate 2x2 minor determinant",
+     "explain": "cross multiply elements of 2x2 submatrix left after deleting row i and column j",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Cofactors of a Matrix Element chain with sub_a11 = 3, sub_a22 = 5, sub_a12 = 4, sub_a21 = 7, minor = 1.5, row = 6, col = 8. What value does it produce?",
+   "extracted_variables": {
+    "sub_a11": "3",
+    "sub_a22": "5",
+    "sub_a12": "4",
+    "sub_a21": "7",
+    "minor": "1.5",
+    "row": "6",
+    "col": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute minor of the position",
+     "explain": "find determinant of submatrix omitting row and col",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    },
+    {
+     "step": 2,
+     "action": "apply positional sign multiplier",
+     "explain": "multiply minor by (-1) raised to sum of row index and column index",
+     "compute": "cofactor = ((-1) ** (row + col)) * minor"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Cofactors of a Matrix Element chain with sub_a11 = 3, sub_a22 = 5, sub_a12 = 4, sub_a21 = 7, minor = 1.5, row = 6, col = 8. What value does it produce?",
+   "extracted_variables": {
+    "sub_a11": "3",
+    "sub_a22": "5",
+    "sub_a12": "4",
+    "sub_a21": "7",
+    "minor": "1.5",
+    "row": "6",
+    "col": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute minor of the position",
+     "explain": "find determinant of submatrix omitting row and col",
+     "compute": "minor = sub_a11 * sub_a22 - sub_a12 * sub_a21"
+    },
+    {
+     "step": 2,
+     "action": "apply positional sign multiplier",
+     "explain": "multiply minor by (-1) raised to sum of row index and column index",
+     "compute": "cofactor = ((-1) ** (row + col)) * minor"
+    }
+   ]
+  },
+  {
+   "id": "drill15",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Adjoint of a Square Matrix chain with a22 = 2, a12 = 3, a21 = 5, a11 = 4. What value does it produce?",
+   "extracted_variables": {
+    "a22": "2",
+    "a12": "3",
+    "a21": "5",
+    "a11": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "swap main diagonal elements",
+     "explain": "first element of adj A is bottom-right entry a22",
+     "compute": "adj11 = a22"
+    },
+    {
+     "step": 2,
+     "action": "negate top right element",
+     "explain": "adj12 entry is -a12",
+     "compute": "adj12 = -a12"
+    },
+    {
+     "step": 3,
+     "action": "negate bottom left element",
+     "explain": "adj21 entry is -a21",
+     "compute": "adj21 = -a21"
+    },
+    {
+     "step": 4,
+     "action": "assign top left entry to bottom right",
+     "explain": "adj22 entry is a11",
+     "compute": "adj22 = a11"
+    }
+   ]
+  },
+  {
+   "id": "drill16",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.5.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Determinant of Adjoint Matrix Property chain with n = 2, det = 3, power = 5. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "det": "3",
+    "power": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate exponent power",
+     "explain": "power equals matrix order n minus 1",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise determinant to calculated power",
+     "explain": "det_adj is det raised to power",
+     "compute": "det_adj = det ** power"
+    }
+   ]
+  },
+  {
+   "id": "drill17",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.5.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Determinant of Adjoint Matrix Property chain with n = 2, det = 3, power = 5. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "det": "3",
+    "power": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate exponent power",
+     "explain": "power equals matrix order n minus 1",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise determinant to calculated power",
+     "explain": "det_adj is det raised to power",
+     "compute": "det_adj = det ** power"
+    }
+   ]
+  },
+  {
+   "id": "drill18",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Inverse of a Square Matrix using Adjoint chain with a11 = 2, a22 = 3, a12 = 5, a21 = 4, det = 7. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a12": "5",
+    "a21": "4",
+    "det": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate matrix determinant",
+     "explain": "compute 2x2 determinant det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "compute inv11 entry",
+     "explain": "inv11 is a22 divided by det",
+     "compute": "inv11 = a22 / det"
+    },
+    {
+     "step": 3,
+     "action": "compute inv12 entry",
+     "explain": "inv12 is -a12 divided by det",
+     "compute": "inv12 = -a12 / det"
+    },
+    {
+     "step": 4,
+     "action": "compute inv21 entry",
+     "explain": "inv21 is -a21 divided by det",
+     "compute": "inv21 = -a21 / det"
+    },
+    {
+     "step": 5,
+     "action": "compute inv22 entry",
+     "explain": "inv22 is a11 divided by det",
+     "compute": "inv22 = a11 / det"
+    }
+   ]
+  },
+  {
+   "id": "drill19",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Inverse of a Square Matrix using Adjoint chain with a11 = 2, a22 = 3, a12 = 5, a21 = 4, det = 7. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a12": "5",
+    "a21": "4",
+    "det": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate matrix determinant",
+     "explain": "compute 2x2 determinant det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "compute inv11 entry",
+     "explain": "inv11 is a22 divided by det",
+     "compute": "inv11 = a22 / det"
+    },
+    {
+     "step": 3,
+     "action": "compute inv12 entry",
+     "explain": "inv12 is -a12 divided by det",
+     "compute": "inv12 = -a12 / det"
+    },
+    {
+     "step": 4,
+     "action": "compute inv21 entry",
+     "explain": "inv21 is -a21 divided by det",
+     "compute": "inv21 = -a21 / det"
+    },
+    {
+     "step": 5,
+     "action": "compute inv22 entry",
+     "explain": "inv22 is a11 divided by det",
+     "compute": "inv22 = a11 / det"
+    }
+   ]
+  },
+  {
+   "id": "drill20",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.4.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Solving System of Linear Equations using Matrix Method chain with a11 = 2, a22 = 3, a12 = 5, a21 = 4, det = 7, b1 = 1.5, b2 = 6. What value does it produce?",
+   "extracted_variables": {
+    "a11": "2",
+    "a22": "3",
+    "a12": "5",
+    "a21": "4",
+    "det": "7",
+    "b1": "1.5",
+    "b2": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate determinant of coefficient matrix",
+     "explain": "det = a11 * a22 - a12 * a21",
+     "compute": "det = a11 * a22 - a12 * a21"
+    },
+    {
+     "step": 2,
+     "action": "calculate variable x value",
+     "explain": "x is (a22 * b1 - a12 * b2) divided by det",
+     "compute": "x = (a22 * b1 - a12 * b2) / det"
+    },
+    {
+     "step": 3,
+     "action": "calculate variable y value",
+     "explain": "y is (-a21 * b1 + a11 * b2) divided by det",
+     "compute": "y = (-a21 * b1 + a11 * b2) / det"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "lemh104.txt lines 140-185",
+   "questions": [
+    "1. Evaluate determinant |[2, 4], [-5, -1]|",
+    "2(i). Evaluate determinant |[cos θ, -sin θ], [sin θ, cos θ]|",
+    "3. If A = [[1, 2], [4, 2]], show that |2A| = 4|A|",
+    "7(i). Find values of x if |[2, 4], [5, 1]| = |[2x, 4], [6, x]|"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "lemh104.txt lines 235-250",
+   "questions": [
+    "1(i). Find area of triangle with vertices (1, 0), (6, 0), (4, 3)",
+    "2. Show that points A(a, b+c), B(b, c+a), C(c, a+b) are collinear",
+    "3(i). Find values of k if area of triangle is 4 sq units and vertices are (k, 0), (4, 0), (0, 2)",
+    "4(i). Find equation of line joining (1, 2) and (3, 6) using determinants"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "lemh104.txt lines 345-360",
+   "questions": [
+    "1(i). Write Minors and Cofactors of elements of [[2, -4], [0, 3]]",
+    "3. Using Cofactors of elements of second row evaluate determinant of [[5, 3, 8], [2, 0, 1], [1, 2, 3]]"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "lemh104.txt lines 475-500",
+   "questions": [
+    "1. Find adjoint of matrix [[1, 2], [3, 4]]",
+    "5. Find inverse of matrix [[2, -2], [4, 3]]",
+    "12. Verify (AB)^-1 = B^-1 A^-1 for A = [[3, 7], [2, 5]] and B = [[6, 8], [7, 9]]"
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "lemh104.txt lines 580-600",
+   "questions": [
+    "1. Examine consistency of system x + 2y = 2, 2x + 3y = 3",
+    "7. Solve system 5x + 2y = 4, 7x + 3y = 5 using matrix method",
+    "11. Solve 3D system 2x + y + z = 1, x - 2y - z = 3/2, 3y - 5z = 9"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

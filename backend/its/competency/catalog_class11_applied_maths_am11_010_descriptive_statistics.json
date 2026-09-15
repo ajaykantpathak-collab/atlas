@@ -1,0 +1,479 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 10,
+  "chapter_title": "Descriptive Statistics",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_010_descriptive_statistics.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_010.1",
+      "title": "Organising Raw Data into Frequency Distributions",
+      "section": "10.2",
+      "definition": "Raw numbers become readable once they are sorted and tallied: an ungrouped distribution pairs each distinct value with its frequency, while a grouped distribution packs values into class intervals. The frequencies must account for every observation, and the display can be a bar graph, histogram, frequency polygon or ogive.",
+      "formula": "freq_total = f1 + f2 + f3",
+      "key_idea": "Sort first, tally second, and check the tally adds up to the number of observations.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.2 and recap marks list of 25 students, ungrouped vs grouped display choices",
+      "question_patterns": [
+        "organise the marks 0, 1, 1, 2, 3, 3, 3 into a frequency table",
+        "put the raw data 7, 2, 9, 2, 5 in ascending order and tally the frequencies",
+        "the class frequencies are 6, 9 and 10; confirm they account for all 25 observations",
+        "which graphical display suits grouped data with equal class widths, a bar graph or a histogram",
+        "build the cumulative frequency column that feeds an ogive",
+        "explain the difference between an ungrouped and a grouped frequency distribution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "arrange the observations from smallest to largest",
+          "explain": "order exposes repeats and prepares medians and quartiles"
+        },
+        {
+          "step": 2,
+          "action": "tally each value or class and write its frequency",
+          "explain": "the frequency counts occurrences, and for grouped data classes must not overlap"
+        },
+        {
+          "step": 3,
+          "action": "add the frequency column and match it to the number of observations",
+          "explain": "a mismatch means an observation was skipped or double counted"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.2",
+      "title": "Class Mark of a Class Interval",
+      "section": "10.2",
+      "definition": "A grouped distribution speaks through one representative number per class, its class mark: the midpoint sitting exactly halfway between the lower and upper class limits.",
+      "formula": "mark = (lower + upper) / 2",
+      "key_idea": "Average the two class limits; the midpoint stands for every observation in the class.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.2, grouped data in class intervals with class marks",
+      "question_patterns": [
+        "find the class mark of the interval 10 to 20",
+        "write the mid values of the classes 0-10, 10-20 and 20-30",
+        "a class runs from 35 to 44; what is its class mark",
+        "why is the midpoint used to represent a whole class in grouped calculations",
+        "give the mid value of the class whose limits are 15 and 25",
+        "find the class mark of the class running from 15 to 25"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "average the two class limits",
+          "explain": "the midpoint lies equidistant from both ends of the interval",
+          "compute": "mark = (lower + upper) / 2"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.3",
+      "title": "Arithmetic Mean of Ungrouped Data",
+      "section": "10.3",
+      "definition": "The ordinary average splits the grand total of the observations evenly: add every value, then divide by how many values there are.",
+      "formula": "mean = total / count",
+      "key_idea": "Sum everything, divide by the number of observations.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.3, mean of ungrouped data as sum of values over their count",
+      "question_patterns": [
+        "the sum of 8 observations is 96; find their mean",
+        "a student scored 12, 15, 11 and 18 in four tests with a total of 56; what is the mean score",
+        "find the average of the data set whose total is 150 over 6 values",
+        "if the mean of 12 numbers is 9, what is their combined total",
+        "the mean of the class test marks out of 10 for 25 students is asked; the marks add to 140, find the mean",
+        "after a recheck the total becomes 100 over 9 values; find the new mean"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "share the grand total over the observations",
+          "explain": "the mean is the even share per value",
+          "compute": "mean = total / count"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.4",
+      "title": "Mean of Grouped Data by Frequency Method",
+      "section": "10.3",
+      "definition": "Grouped observations no longer appear individually, so each class mark is weighted by its frequency: multiply every class mark by its frequency, add the products, and divide by the total frequency.",
+      "formula": "mean = fx_sum / f_sum",
+      "key_idea": "Weight each midpoint by how often it occurs, then divide by the total weight.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.3, grouped mean as sum of fi xi over sum of fi",
+      "question_patterns": [
+        "find the mean of grouped data whose fi xi column adds to 195 with total frequency 15",
+        "a frequency table has classes 0-10, 10-20, 20-30 with frequencies 5, 8, 2; compute the mean using class marks",
+        "compute the mean marks of 40 workers from the frequency table of daily wages",
+        "the products of frequencies and mid values sum to 720 over 36 items; find the mean",
+        "why must each class mark be multiplied by its frequency before averaging",
+        "complete the fi xi column and hence the mean for the given distribution"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "weight one class mark by its frequency",
+          "explain": "f times x is the row contribution of that class",
+          "compute": "fx = f * x"
+        },
+        {
+          "step": 2,
+          "action": "divide the summed products by the summed frequencies",
+          "explain": "fx_sum is the total of the fi xi column and f_sum the total of the f column",
+          "compute": "mean = fx_sum / f_sum"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.5",
+      "title": "Median of Ordered Data",
+      "section": "10.3",
+      "definition": "The median is the value sitting in the middle once the data are sorted: the single central value for an odd count, and the average of the two central values for an even count. Outliers drag the mean but leave the median standing.",
+      "formula": "med = (a + b) / 2",
+      "key_idea": "Sort, land on position (n + 1) over 2, and average the two neighbours when the count is even.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.3, middle value of the ordered data, average of the two middle values when even",
+      "question_patterns": [
+        "find the median of 5, 3, 8, 6, 4",
+        "the ordered marks of 6 students are 2, 4, 5, 7, 9, 10; find the median",
+        "the ordered incomes of 15 families have 24000 in the middle slot; find the median",
+        "a data set has two middle values 12 and 16; what is the median",
+        "explain why one extreme salary changes the mean but barely moves the median"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "find the middle position in the ordered list",
+          "explain": "position (n + 1) over 2 points at the median slot",
+          "compute": "half = (n + 1) / 2"
+        },
+        {
+          "step": 2,
+          "action": "average the two central ordered values",
+          "explain": "a and b are the two middle values, identical when n is odd",
+          "compute": "med = (a + b) / 2"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.6",
+      "title": "Mode as the Most Frequent Value",
+      "section": "10.3",
+      "definition": "The mode is the value carrying the largest frequency. A distribution may show one mode, several modes, or no mode at all when no value repeats, which is why the frequency column, not arithmetic, decides it.",
+      "formula": "top_freq = max(f1, f2, f3)",
+      "key_idea": "Pick the value with the tallest tally; ties and zero repeats are legal outcomes.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.3, the mode is the most frequent value, one mode, several, or none",
+      "question_patterns": [
+        "find the mode of 2, 3, 3, 4, 5, 3",
+        "the marks 7 appear 6 times and marks 8 appear 6 times; what is the mode",
+        "can a data set in which no value repeats have a mode",
+        "read the mode directly from a frequency table",
+        "which central tendency needs frequencies rather than arithmetic",
+        "identify the modal class of a grouped distribution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the frequency of every distinct value or class",
+          "explain": "the mode is a reading problem, not a calculation"
+        },
+        {
+          "step": 2,
+          "action": "name the value with the highest frequency as the mode claim",
+          "explain": "check for ties, which give several modes, and for all-ones columns, which give none"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.7",
+      "title": "Mean Deviation about the Mean",
+      "section": "10.4",
+      "definition": "Mean deviation averages how far the observations sit from the mean, ignoring direction: take each absolute gap, weight grouped gaps by frequency, and average over the total frequency.",
+      "formula": "md = wg_sum / f_sum",
+      "key_idea": "Absolute gaps only; direction is thrown away before averaging.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.4, MD as sum of fi times absolute difference divided by total frequency",
+      "question_patterns": [
+        "find the mean deviation about the mean for 4, 6, 8, 10, 12",
+        "the absolute deviations from the mean are 2, 0, 2, 4 with equal frequencies; compute the mean deviation",
+        "compute the mean deviation about the mean for a grouped frequency table",
+        "why are deviations taken as absolute values in mean deviation",
+        "the wg column totals 48 and the frequencies total 16; find the mean deviation",
+        "find the mean deviation about the mean for the ungrouped data 6, 7, 10, 12, 13, 4, 8, 12"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "measure one observation's undirected distance from the mean",
+          "explain": "the absolute value removes the sign of the gap",
+          "compute": "gap = abs(x - mean)"
+        },
+        {
+          "step": 2,
+          "action": "weight the gap by the row frequency",
+          "explain": "grouped data repeats a gap f times",
+          "compute": "wg = f * gap"
+        },
+        {
+          "step": 3,
+          "action": "average the weighted gaps over all observations",
+          "explain": "wg_sum totals the weighted column and f_sum the frequencies",
+          "compute": "md = wg_sum / f_sum"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.8",
+      "title": "Variance as Mean Squared Deviation",
+      "section": "10.4",
+      "definition": "Variance measures spread by averaging the squared distances of the observations from their mean, so misses far from centre are punished much harder than misses near it.",
+      "formula": "var = sq_sum / count",
+      "key_idea": "Square every deviation, then average the squares.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.4, variance as sum of squared deviations of xi from the mean divided by n",
+      "question_patterns": [
+        "find the variance of 2, 4, 6, 8 whose mean is 5",
+        "the squared deviations of six observations add to 24; compute the variance",
+        "compute the variance of the data after subtracting the mean from each value",
+        "why are deviations squared rather than simply added in a spread measure",
+        "a variance comes out 6.25; check the mean squared deviation that produced it",
+        "which is larger for the same data, the mean deviation or the variance, and why can it go either way"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "take one observation's signed distance from the mean",
+          "explain": "deviations are measured from the centre",
+          "compute": "dev = x - mean"
+        },
+        {
+          "step": 2,
+          "action": "square the deviation",
+          "explain": "squaring makes every contribution positive and stresses big misses",
+          "compute": "sq = dev ** 2"
+        },
+        {
+          "step": 3,
+          "action": "average the squared deviations",
+          "explain": "sq_sum totals the squared column over count observations",
+          "compute": "var = sq_sum / count"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.9",
+      "title": "Standard Deviation in Data Units",
+      "section": "10.4",
+      "definition": "The standard deviation is the positive square root of the variance; undoing the square returns the spread to the same unit the data were measured in.",
+      "formula": "sd = sqrt(var)",
+      "key_idea": "Take the positive square root of the variance to get back to original units.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.4, standard deviation is the positive square root of variance and returns to the data unit",
+      "question_patterns": [
+        "find the standard deviation of data whose variance is 9",
+        "compute the standard deviation of 2, 4, 6, 8 given their mean is 5 and squared deviations total 20",
+        "why does the standard deviation carry the same unit as the observations",
+        "the variance of a distribution is 6.25; what is its standard deviation",
+        "which is reported with the mean when describing consistency, variance or standard deviation",
+        "check that a standard deviation is never negative"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "average the squared deviations from the mean",
+          "explain": "sq_sum over count rebuilds the variance first",
+          "compute": "var = sq_sum / count"
+        },
+        {
+          "step": 2,
+          "action": "take the positive square root",
+          "explain": "the root restores the original measuring unit",
+          "compute": "sd = sqrt(var)"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.10",
+      "title": "Quartiles and Their Positions",
+      "section": "10.5",
+      "definition": "Quartiles slice sorted data into four equal parts: the lower quartile Q1, the median Q2, and the upper quartile Q3. For n ordered observations the cutting positions follow from n plus 1 divided by 4 and three times that.",
+      "formula": "pos3 = 3 * (n + 1) / 4",
+      "key_idea": "Q2 is just the median; Q1 and Q3 sit a quarter and three quarters of the way along the ordered list.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.5, quartiles split ordered data into four parts, Q1, Q2, Q3",
+      "question_patterns": [
+        "find the positions of Q1 and Q3 in ordered data with 15 observations",
+        "which quartile is another name for the median",
+        "locate the lower quartile of the ordered marks 1, 2, 3, 4, 5, 6, 7",
+        "explain what it means for quartiles to split the data into four parts",
+        "how much of the data lies below the upper quartile",
+        "for 11 ordered values find where the upper quartile falls"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the data and compute the base position n plus 1",
+          "explain": "quartile positions are fractions of this base"
+        },
+        {
+          "step": 2,
+          "action": "place Q1 at one quarter of the base and Q3 at three quarters",
+          "explain": "read the values there; Q2 in between must equal the median"
+        },
+        {
+          "step": 3,
+          "action": "check the claimed quartile values against those positions",
+          "explain": "a wrong quartile leaves the wrong fraction of data on each side"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.11",
+      "title": "Interquartile Range",
+      "section": "10.5",
+      "definition": "The interquartile range is the width of the middle half of the data: the upper quartile minus the lower quartile, blind to whatever extremes sit outside.",
+      "formula": "iqr = q3 - q1",
+      "key_idea": "Spread of the central 50 percent; extremes are ignored by construction.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.5, the interquartile range is Q3 minus Q1 and measures the spread of the middle half",
+      "question_patterns": [
+        "find the interquartile range when Q1 is 12 and Q3 is 28",
+        "the lower quartile is 8.5 and the upper quartile is 19; compute the IQR",
+        "why does the interquartile range ignore outliers",
+        "compare the spreads of the middle halves of two data sets with IQRs 6 and 11",
+        "what fraction of the data lies inside the interquartile range",
+        "given quartiles 15, 22, 31 find the interquartile range"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "subtract the lower quartile from the upper quartile",
+          "explain": "the gap between the quarter marks is the middle-half spread",
+          "compute": "iqr = q3 - q1"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.12",
+      "title": "Coefficient of Variation",
+      "section": "10.5",
+      "definition": "The coefficient of variation expresses the standard deviation as a percentage of the mean, letting data sets with different units or wildly different averages be compared for relative consistency; the smaller coefficient belongs to the steadier set.",
+      "formula": "cv = (sd / mean) * 100",
+      "key_idea": "Relative spread, not absolute spread; lower percentage wins the consistency contest.",
+      "textbook_ref": "am11_010_descriptive_statistics.txt, section 10.5, CV as standard deviation over mean times 100, lower CV means more consistent",
+      "question_patterns": [
+        "find the coefficient of variation when the standard deviation is 2.5 and the mean is 20",
+        "the sd is 4.2 and the mean is 60; compute the CV as a percentage",
+        "which data set is more consistent, one with CV 12 or one with CV 18",
+        "compare the consistency of two batches whose means and standard deviations are 40, 5 and 90, 6",
+        "why can standard deviation alone not compare data sets with different units",
+        "find the CV when the standard deviation is 6 and the mean is 40"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "scale the standard deviation by the mean",
+          "explain": "the ratio strips the units and the size effect",
+          "compute": "ratio = sd / mean"
+        },
+        {
+          "step": 2,
+          "action": "quote the ratio as a percentage",
+          "explain": "multiplying by 100 gives the coefficient of variation",
+          "compute": "cv = ratio * 100"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_010.we1",
+      "source_ref": "am11_010 section 10.3 grouped mean: classes 0-10, 10-20, 20-30 with frequencies 5, 8, 2",
+      "concept": "am11_010.4",
+      "question_type": "compute",
+      "question_pattern": "a frequency table has classes 0-10, 10-20, 20-30 with frequencies 5, 8, 2; compute the mean using class marks",
+      "extracted_variables": {
+        "f": 8,
+        "x": 15,
+        "fx_sum": 195,
+        "f_sum": 15
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "weight the middle class mark by its frequency",
+          "compute": "fx = f * x"
+        },
+        {
+          "step": 2,
+          "action": "divide the product total by the frequency total",
+          "compute": "mean = fx_sum / f_sum"
+        }
+      ]
+    },
+    {
+      "id": "am11_010.we2",
+      "source_ref": "am11_010 section 10.4 dispersion: six observations, mean 5, observation 7, squared deviations total 24",
+      "concept": "am11_010.9",
+      "question_type": "compute",
+      "question_pattern": "six observations have mean 5 and their squared deviations add to 24; find the standard deviation and show the squared deviation of the observation 7",
+      "extracted_variables": {
+        "x": 7,
+        "mean": 5,
+        "sq_sum": 24,
+        "count": 6
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "deviation of the observation 7",
+          "compute": "dev = x - mean"
+        },
+        {
+          "step": 2,
+          "action": "square it",
+          "compute": "sq = dev ** 2"
+        },
+        {
+          "step": 3,
+          "action": "average all squared deviations",
+          "compute": "var = sq_sum / count"
+        },
+        {
+          "step": 4,
+          "action": "positive square root",
+          "compute": "sd = sqrt(var)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_010.ex1",
+      "source_ref": "am11_010 recap activity and check your progress selected exercises",
+      "questions": [
+        "Organise the 25 class-test marks 0, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 10, 10 into a frequency table and find the average.",
+        "Find the mean, median and mode of 4, 6, 7, 5, 3, 5, 4, 5, 2, 6, 2, 5, 9.",
+        "Find the mean deviation about the mean for 4, 7, 8, 9, 12.",
+        "Compute the variance and standard deviation of the first six natural numbers.",
+        "Find Q1, Q2 and Q3 for the ordered data with 15 values, and the interquartile range.",
+        "Two crops give yields with means 40 and 90 and standard deviations 5 and 6; decide by coefficient of variation which crop is more consistent."
+      ]
+    },
+    {
+      "id": "am11_010.ex2",
+      "source_ref": "am11_010 sections 10.2 to 10.5 application set",
+      "questions": [
+        "Write the class marks of the classes 10-19, 20-29 and 30-39.",
+        "The fi xi column of a frequency table totals 720 and the frequencies total 36; find the mean.",
+        "A distribution has Q1 equal to 18 and Q3 equal to 42; find the interquartile range and say what fraction of the data it contains.",
+        "Explain, with an example of one extreme value, why the median resists outliers better than the mean.",
+        "The squared deviations of 8 observations from their mean of 12 total 32; find the variance and the standard deviation.",
+        "Can the mode, median and mean of a data set all be equal? Give an example or a counterexample."
+      ]
+    }
+  ]
+}

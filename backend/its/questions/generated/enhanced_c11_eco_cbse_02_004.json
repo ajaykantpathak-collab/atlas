@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_004",
+   "title": "c11_eco_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define \"intermediaries\" in the context of India's pre-independence land tenure system and name the two most common regional terms used for them.",
+     "a": "Intermediaries were non-cultivating landholders (zamindars, jagirdars, inamdars) who collected rent from actual tillers without investing in land improvement. A wrong answer (e.g., \"middlemen in crop markets\") reveals confusion between land tenure intermediaries and marketing intermediaries—a fundamental category error that prevents understanding why abolition targeted rentiers, not traders.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the textbook states: \"Tenants do not have the incentive to make improvements on land since it is the landowner who would benefit more from higher output.\" Use the concept of residual claimancy.",
+     "a": "The tenant is not the residual claimant—the landowner captures the marginal return on investment via higher rent. If a tenant invests ₹10,000 in a well yielding ₹15,000 extra output, the landowner can raise rent by ₹14,000, leaving the tenant with ₹1,000 loss. A wrong answer focusing only on \"tenants are poor\" misses the structural incentive misalignment that persists even with credit access.",
+     "self_check": true
+    },
+    {
+     "q": "A state imposes a land ceiling of 18 hectares for irrigated land. A landlord owns 100 hectares. He transfers 20 hectares each to his wife, two sons, and daughter via gift deeds before the law takes effect. Calculate the effective ceiling evasion and explain which legal principle this exploits.",
+     "a": "Effective holding remains 100 hectares; ceiling applies per individual, not per family. The landlord exploits the \"individual holder\" definition—family members are separate legal persons. This reveals the Benami transaction loophole. A student who calculates 100 - (4×20) = 20 hectares evaded misunderstands that the land remains under unified control; the ceiling law failed to define \"family\" as a unit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land reform outcomes in Kerala/West Bengal versus Bihar/Uttar Pradesh. Identify three institutional differences that explain the divergence, using the concepts of political will, administrative capacity, and peasant mobilization.",
+     "a": "Kerala/West Bengal: (1) Left-front governments with ideological commitment to land-to-tiller, (2) Strong peasant organizations (Kisan Sabhas) enabling bottom-up pressure, (3) Dedicated land reform tribunals bypassing civil court delays. Bihar/UP: (1) Dominant landlord legislators blocking implementation, (2) Patwari (revenue official) collusion with landlords in record manipulation, (3) Absence of peasant collective action. A student citing only \"better governance\" misses the specific institutional mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Abolition of intermediaries alone would have achieved equity in agriculture.\" Use data on landless laborers and sharecroppers from the textbook.",
+     "a": "False. Abolition freed 200 lakh tenants from zamindars but did not benefit landless laborers (who own no land) or sharecroppers (who cultivate others' land without tenancy rights). Equity requires both ownership transfer to tillers AND ceiling laws to redistribute surplus land. A student agreeing ignores that equity has two dimensions: eliminating exploitative layers AND redistributing asset concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land reform policy for a hypothetical state with 40% tenant cultivation, 15% landless laborers, and Gini coefficient of land ownership at 0.72. Specify: (a) ceiling limit formula, (b) tenancy registration mechanism, (c) one institutional innovation to prevent Benami transfers.",
+     "a": "(a) Ceiling = 2×(average family holding) adjusted for irrigation: 10 hectares irrigated / 20 hectares rainfed. (b) Digital tenancy registry with Aadhaar-linked biometric verification, mandatory renewal every 3 years, dispute resolution in 60 days via gram nyayalayas. (c) Family-unit ceiling with joint liability: if Benami detected, entire family holding reverts to state. A poor answer proposes only \"strict laws\" without addressing enforcement incentives or digital infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

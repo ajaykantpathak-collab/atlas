@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_001",
+   "title": "c11_soc_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the textbook definition of a social institution in your own words, ensuring you include the three elements: (a) rules acknowledged by law or custom, (b) regular and continuous operation, and (c) constraints and opportunities for individuals.",
+     "a": "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities; e.g., marriage prescribes who can marry whom (constraint) and grants inheritance rights (opportunity). A wrong answer that omits \"continuous operation\" or treats institutions as mere organisations (like a specific school building) reveals the student confuses the abstract institutional pattern with its concrete organisational instantiation — a classic Category Error at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Social institutions are created deliberately by governments to solve social problems\" is a misconception. Use the distinction between informal and formal institutions in your answer.",
+     "a": "Institutions like family, kinship, and religion emerge organically through custom and tradition (informal institutions) long before any state codifies them; governments later formalise some (e.g., marriage registration) but do not \"create\" the underlying normative pattern. A student who agrees with the statement conflates *formalisation* with *origination* and misses the evolutionary, bottom-up character of informal institutions — a Teleological Fallacy common in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the functionalist perspective to the institution of *education* in contemporary India. Identify: (i) the specific societal need it claims to satisfy, (ii) two norms and two roles it prescribes, and (iii) one sanction for norm violation.",
+     "a": "(i) Need: transmitting shared culture and allocating human capital (Durkheim + Parsons). (ii) Norms: punctuality, merit-based evaluation; Roles: teacher (impart curriculum), student (attend, submit work). (iii) Sanction: detention/failure for chronic absenteeism. A wrong answer listing \"getting a job\" as the *societal* need (rather than individual motive) commits the Individualistic Reduction error — confusing latent functions with manifest needs.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following scenario using *both* perspectives: \"A tribal community’s traditional forest rights are replaced by a state forest department that auctions logging contracts to corporations.\" Identify the functionalist’s \"integration\" argument and the conflict theorist’s \"domination\" argument, and explain why they are not merely opposite opinions but *incommensurable frameworks*.",
+     "a": "Functionalist: the forest department provides rational-legal management, prevents overexploitation (tragedy of commons), integrates tribe into national economy — serves *system maintenance*. Conflict: the department is a coercive apparatus; \"scientific forestry\" is an ideology masking capitalist extraction; tribal displacement benefits dominant class/corporate capital — serves *class interest*. They are incommensurable because functionalists ask \"What need does this meet for the *system*?\" while conflict theorists ask \"Whose interest does this serve *within* the system?\" — different units of analysis (system vs. group). A student who says \"both are partially right\" fails to grasp the *ontological* disagreement about whether society is a consensus-based organism or a coercion-based arena.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The functionalist perspective is inherently conservative because it justifies existing institutions as necessary, while the conflict perspective is inherently radical because it seeks to overthrow them.\" Support your judgment with one example from the NCERT text (e.g., family, gender roles, or state).",
+     "a": "The claim is *partially valid but sociologically naive*. Functionalism *can* be conservative (e.g., NCERT notes functionalists argued nuclear family with gendered instrumental/affective roles \"fits\" industrial society — used to justify patriarchy), but Merton’s \"dysfunctions\" and \"non-functional alternatives\" allow critique. Conflict theory *can* be radical, but Dahrendorf’s \"institutionalised conflict\" shows conflict can be managed *within* institutions (e.g., labour courts). NCERT itself uses functionalism to *question* the \"joint family erosion\" myth (Shah’s data). A student calling functionalism \"status-quoist\" without mentioning Merton or the Shah example shows Textbook Literalism — treating introductory summaries as settled doctrine.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 2x2 analytical table that classifies *four* social institutions (family, school, workplace, panchayat) along two dimensions: (a) Primary sanction type (informal/formal) and (b) Dominant perspective that *best* explains its *current* operation in rural India (functionalist/conflict). Justify each cell in one sentence.",
+     "a": "| Institution | Primary Sanction | Best Explanatory Lens | Justification |\n|---|---|---|---|\n| Family | Informal (ostracism, shame) | Functionalist (socialisation, care) | Despite patriarchy, daily reproduction relies on affective bonds Durkheim would recognise. |\n| School | Formal (exams, certificates) | Conflict (credentialism, hidden curriculum) | ASER data shows schooling reproduces caste/class inequality more than merit. |\n| Workplace (MGNREGA site) | Formal (muster rolls, wage slips) | Functionalist (livelihood security) | Provides statutory safety net; corruption exists but *structure* serves need. |\n| Panchayat | Mixed (formal law + informal prestige) | Conflict (capture by dominant caste) | 73rd Amendment created formal powers; empirical studies show *de facto* control by landowning castes. |\nA poor answer uses the same lens for all four, revealing Monolithic Thinking — the inability to match explanatory framework to institutional logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

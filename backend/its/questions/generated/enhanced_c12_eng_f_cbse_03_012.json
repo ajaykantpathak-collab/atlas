@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_03_012",
+   "title": "c12_eng_f_cbse_03_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words.",
+     "a": "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding meaning that is implied but not directly stated, requiring the reader to use textual clues to draw conclusions. A wrong answer that equates inferential with \"guessing\" or \"personal opinion\" reveals the student doesn't grasp that inferential answers must be grounded in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Read this excerpt: 'I was frightened, but not yet frightened out of my wits. On the way down I planned: When my feet hit the bottom, I would make a big jump, come to the surface, lie flat on it, and paddle to the edge of the pool.' Is the question \"What was Douglas's plan as he sank?\" literal or inferential? Explain.",
+     "a": "It is a literal comprehension question because the plan is explicitly stated in the text. A wrong answer labeling it inferential shows the student cannot distinguish explicit statements from implicit meanings, likely because they confuse \"thinking process\" with \"inference\".",
+     "self_check": true
+    },
+    {
+     "q": "Given the question: \"Why did Douglas avoid water for years after the incident?\" Formulate a literal answer and an inferential answer based on the text. Identify which is which.",
+     "a": "Literal answer: The text states, \"I never went back to the pool. I feared water. I avoided it whenever I could.\" Inferential answer: Douglas avoided water because the trauma created a deep-seated phobia that paralyzed him physically (legs frozen, icy horror) whenever he encountered water later, as shown in his failed fishing trips. The literal answer quotes the text; the inferential answer explains the psychological cause using textual evidence. A wrong answer that gives only the literal response for an inferential question shows inability to go beyond the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (a) \"How did the instructor teach Douglas to swim?\" (b) \"How did the instructor help Douglas overcome his fear?\" Analyze the difference in comprehension type required.",
+     "a": "Question (a) is literal: the text describes the step-by-step method (belt, rope, pulley, breathing exercises, kicking practice). Question (b) is inferential: it requires synthesizing the instructor's patience, the gradual reduction of panic, and the psychological support implied by the process. A wrong answer that treats both as literal misses the need to interpret the instructor's role in fear reduction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Douglas conquered his fear because he was determined.\" Evaluate this as an inferential response. Is it sufficient? Why or why not?",
+     "a": "The answer is insufficient because it states a general trait without textual evidence. A strong inferential answer would cite specific actions: he hired an instructor, practiced five days a week, endured panic, swam in Lake Wentworth, and finally in Warm Lake. The student's answer is a claim without evidence. Accepting this vague answer shows lack of understanding that inferential responses require evidence-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Write one literal and one inferential question based on the last sentence: \"At last I felt released — free to walk the trails and climb the peaks and to brush aside fear.\"",
+     "a": "Literal question: What did Douglas feel at last? (Answer: released, free to walk trails, climb peaks, brush aside fear.) Inferential question: What does \"brush aside fear\" suggest about Douglas's changed relationship with fear? (Answer: Fear is no longer a controlling force; he can acknowledge and dismiss it, showing mastery.) A poor answer creates questions that are both literal or both inferential, or that don't arise from the given sentence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

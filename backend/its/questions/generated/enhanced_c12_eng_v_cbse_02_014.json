@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_02_014",
+   "title": "c12_eng_v_cbse_02_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for answering a 5-mark literature question in CBSE Class 12 English.",
+     "a": "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail), Explanation (analysis of how the evidence supports the point), and Link (connecting back to the question/theme or broader context). A wrong answer (e.g., \"PEEL means writing a long paragraph\") reveals the student confuses structure with length and will produce plot summaries instead of analytical answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following weak answer fails: \"The Maharaja killed 99 tigers because the astrologer said he would die by a tiger. He married a princess from a state with tigers. He killed the 100th tiger but it was a wooden tiger that killed him. The story is ironic.\" (Question: \"How does the author employ dramatic irony in the story?\")",
+     "a": "The answer fails because it narrates plot events instead of analyzing *dramatic irony* (where the audience knows more than the character). It mentions the wooden tiger but doesn't explain that the Maharaja *believes* he has cheated fate while the reader knows the prophecy is unfolding. A student giving this answer confuses \"summary\" with \"analysis\" and will lose marks for not addressing the literary device.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to write a 4-sentence response to: \"What is the author's indirect comment on subjecting innocent animals to the willfulness of human beings?\" Use one evidence from the text.",
+     "a": "Point: Kalki condemns human arrogance that treats wildlife as props for ego. Evidence: The Maharaja bans tiger hunting for everyone but himself, declaring \"You may kill even a cow in self-defence\" to justify his slaughter. Explanation: This twisted logic exposes how power corrupts morality — the Maharaja uses a proverb about self-defence to massacre tigers for a personal prophecy, reducing living beings to mere numbers. Link: The satire extends beyond the story, mirroring real-world exploitation of nature by the powerful. A wrong answer would list animals killed without the \"twisted logic\" analysis, missing the author's *comment*.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between a \"character sketch\" answer and a \"thematic analysis\" answer for the Maharaja. Give one structural distinction.",
+     "a": "A character sketch organizes by *traits* (e.g., arrogance, obstinacy, moments of vulnerability) with evidence showing each trait; a thematic analysis organizes by *ideas* (e.g., \"power corrupts,\" \"fate vs free will\") using the character as a vehicle. A student who mixes them (e.g., writes traits in a theme question) loses coherence marks. The distinction is: character sketch = \"Maharaja *is*...\"; thematic analysis = \"The story *shows*... through the Maharaja.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The dewan is the most pragmatic character because he arranges the 100th tiger from Madras to save the kingdom.\" Defend or refute using textual evidence.",
+     "a": "Refute. Pragmatism implies practical wisdom; the dewan's act is *desperate compliance* driven by terror (\"the dewan went home convinced that if the Maharaja did not find the tiger soon, the results could be catastrophic\"). He steals a zoo tiger and stages a fake hunt — not a solution, but a postponement of the Maharaja's wrath. True pragmatism would be confronting the Maharaja's obsession earlier. A student agreeing confuses \"getting the job done\" with \"pragmatism,\" missing the fear-driven motivation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-sentence \"Link\" sentence for a PEEL paragraph on Question 5 (ecology/new system) that connects the story's satire to a contemporary environmental issue without naming the story again.",
+     "a": "\"Just as the Maharaja's obsession with a prophetic tally decimated a species, today's trophy hunting and habitat destruction for vanity projects reveal the same deadly arithmetic: when power treats nature as a scorecard, extinction becomes the only winner.\" A weak link would vaguely say \"We should protect animals\" without the structural parallel (obsession → decimation / vanity projects → extinction).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

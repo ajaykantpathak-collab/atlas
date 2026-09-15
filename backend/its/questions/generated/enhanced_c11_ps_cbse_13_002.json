@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_002",
+   "title": "c11_ps_cbse_13_002",
+   "questions": [
+    {
+     "q": "What is the fundamental constitutional difference between how the Prime Minister in India and the President in the USA assume office?",
+     "a": "The Indian Prime Minister is appointed by the President but must command a majority in the Lok Sabha (indirect election via legislature), while the US President is directly elected by the Electoral College for a fixed term. A wrong answer (e.g., \"both are directly elected\") reveals confusion between head of government and head of state roles, and ignorance of Article 75(3) on collective responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a parliamentary executive be removed more easily than a presidential executive? Explain using the concept of 'confidence of the house'.",
+     "a": "In a parliamentary system, the executive survives only while it enjoys the confidence of the lower house (Lok Sabha), expressed through a no-confidence motion (Article 75(3)); in a presidential system, the legislature cannot remove the executive except through impeachment for high crimes, a much higher threshold. A wrong answer (e.g., \"both can be removed by legislature\") misses the distinction between political accountability (confidence) and legal removal (impeachment).",
+     "self_check": true
+    },
+    {
+     "q": "A country with a presidential system faces a legislature controlled by the opposition party. The President wants to pass a major reform bill. Analyze the likely outcome compared to a parliamentary system with the same party configuration.",
+     "a": "In the presidential system, the President cannot dissolve the legislature and must negotiate or use veto powers, often leading to gridlock; in a parliamentary system, the government would likely fall or call early elections, resolving the deadlock. A wrong answer (e.g., \"both can dissolve legislature\") confuses the separation of origin and survival in presidential systems with the fusion in parliamentary systems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the head of state in India (President) and the USA (President) across three dimensions: election method, executive powers, and accountability.",
+     "a": "India: indirectly elected (electoral college), ceremonial powers exercised on ministerial advice (Article 74), not personally accountable to Parliament. USA: directly elected (Electoral College), real executive powers, accountable via impeachment only. A wrong answer (e.g., \"both are ceremonial\") conflates head of state with head of government roles, ignoring that the US President combines both.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"A presidential system provides more stable government because the executive has a fixed term.\" Consider Indian coalition politics experience since 1989.",
+     "a": "Fixed terms prevent mid-term collapse but can create rigid gridlock when executive and legislature clash; India's parliamentary system allowed flexible coalition adjustments (1996-2014) but also saw frequent elections. Stability ≠ effectiveness. A wrong answer (e.g., \"presidential is always better\") ignores that stability without accountability can entrench unpopular governments, and parliamentary systems can be stable with single-party majorities.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a hybrid semi-presidential system (like France) for a hypothetical diverse federal country. Specify: how the President is elected, relationship with Prime Minister, and removal mechanisms.",
+     "a": "A good answer specifies: President directly elected (fixed term), Prime Minister appointed by President but responsible to legislature, dual executive with President handling foreign/defence and PM domestic policy, removal of PM by no-confidence, President by impeachment. A poor answer copies either pure model without addressing the tension between dual legitimacy (popular vs parliamentary).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

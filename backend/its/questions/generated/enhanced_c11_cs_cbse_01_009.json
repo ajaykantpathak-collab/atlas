@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_009",
+   "title": "c11_cs_cbse_01_009",
+   "questions": [
+    {
+     "q": "What are the two primary objectives of an operating system as stated in the NCERT textbook?",
+     "a": "The two primary objectives are: (1) to provide services for building and running application programs, and (2) to provide an interface for users to interact with the computer. A wrong answer like \"to make the computer fast\" or \"to store files\" reveals the student is confusing OS functions with hardware performance or application software roles, indicating they haven't distinguished between system software objectives and general computing benefits.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Android and iOS are operating systems because they have touch screens.\" Explain why this reasoning is incorrect and what actually makes them operating systems.",
+     "a": "Android and iOS are operating systems because they manage hardware resources (CPU, memory, storage, sensors, radios) and provide system services (process scheduling, memory allocation, file system, security) to applications — not because they have touch screens. Touch screen is an input hardware feature; the OS merely provides a touch-based interface to interact with it. A wrong answer focusing on the interface reveals the student conflates user interface type with the core definition of an OS as a resource manager.",
+     "self_check": true
+    },
+    {
+     "q": "Your school computer lab has 20 computers running Windows 10. The lab administrator wants to prevent students from accessing each other's files. Which OS function handles this, and what specific mechanism would it use?",
+     "a": "File Management handles this, using file permissions/access control lists (ACLs) that associate each file with an owner and specify read/write/execute rights for owner, group, and others. The OS enforces these permissions whenever a process requests file access. A wrong answer like \"Memory Management\" or \"Process Management\" shows the student cannot map the security requirement to the correct OS subsystem, indicating confusion between resource types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how a command-based interface (like MS-DOS) and a graphical user interface (like Windows) handle the task \"create a new folder named 'Project' in the current directory.\" Identify two differences in user cognitive load and two differences in system implementation.",
+     "a": "User cognitive load: CLI requires memorising exact command syntax (mkdir Project) and current path awareness; GUI allows visual navigation and drag-and-drop or right-click menu. System implementation: CLI parses text input into system calls directly; GUI translates mouse/keyboard events into the same system calls via window manager and shell extensions. A wrong answer that only mentions \"one uses text, one uses icons\" misses the deeper distinction: both ultimately invoke the same kernel system call (mkdir), but the translation layer differs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A computer with 8 GB RAM but no operating system can still run a Python program if the Python interpreter is installed on the hard disk.\" Justify your answer.",
+     "a": "The statement is false. Without an OS, there is no process loader to read the Python interpreter from disk into RAM, no memory manager to allocate address space, no file system driver to interpret the disk format, and no scheduler to give CPU time. The hardware alone cannot execute user programs. A wrong answer of \"true\" reveals the student thinks applications run directly on hardware, missing the OS's role as the mandatory intermediary that abstracts hardware and provides execution environment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new user interface type for a smart refrigerator that helps visually impaired users manage grocery inventory. Describe the interaction model, the OS functions it would rely on, and how it differs from the five standard interface types in the textbook.",
+     "a": "A haptic-audio interface: user taps shelf zones (touch), receives vibration patterns indicating item categories, speaks item names (voice), and gets audio confirmation. OS functions: device management for haptic motors and microphone, file management for inventory database, process management for speech recognition service. Differs from standard types by combining touch (spatial), voice (semantic), and haptic (feedback) in a single multimodal loop optimised for non-visual use, whereas textbook types are largely unimodal. A poor answer that just says \"voice interface\" misses the multimodal design requirement and OS integration depth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

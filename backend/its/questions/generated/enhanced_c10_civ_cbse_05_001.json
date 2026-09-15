@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_001",
+   "title": "c10_civ_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the legitimacy of the Union Government in India? (Answer in one sentence.)",
+     "a": "The Union Government derives its legitimacy from Article 75(3) of the Constitution, which states that the Council of Ministers shall be collectively responsible to the Lok Sabha, the directly elected House of the People. A wrong answer (e.g., \"the President appoints the PM\" or \"the Constitution gives power to the PM\") reveals the student confuses *appointment procedure* with *source of democratic legitimacy* — legitimacy comes from the elected legislature's confidence, not the head of state's signature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Right to Information Act, 2005 is considered a stronger tool for accountability than elections alone.",
+     "a": "Elections occur once every five years and offer only retrospective, blunt accountability (vote out the government). RTI provides *continuous, specific, issue-based accountability* — citizens can question any public authority about any decision, expenditure, or action at any time, forcing transparency on a daily basis. A wrong answer (e.g., \"RTI is faster\" or \"elections are not enough\") without contrasting the *nature* of accountability (periodic vs. continuous, general vs. specific) shows the student hasn't grasped the *qualitative difference* between electoral and institutional accountability mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation fails to collect garbage in a ward for three months despite repeated complaints. The ward councillor says, \"I will raise it in the next council meeting.\" Identify which democratic attribute is *missing* and name the specific institutional mechanism a citizen can use *immediately* to force action.",
+     "a": "**Missing attribute:** Responsiveness — the government is not addressing the citizen's immediate need. **Immediate mechanism:** File an RTI application under Section 6 asking for the daily garbage collection log, sanctioned budget vs. actual expenditure, and action taken report on prior complaints. This compels the public authority to respond within 30 days (Section 7). A wrong answer (e.g., \"vote them out next election\" or \"write to the Mayor\") shows the student cannot distinguish *long-term electoral accountability* from *immediate administrative responsiveness* and doesn't know RTI applies to local bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability of a Minister in a Parliamentary democracy (India) with a Secretary in a Presidential democracy (USA). Which system provides *stronger* day-to-day legislative accountability of the executive? Justify.",
+     "a": "**Parliamentary system (India) provides stronger day-to-day accountability.** In India, the Minister is a member of the legislature, faces Question Hour, Zero Hour, and can be removed by a no-confidence motion (Article 75(3)) — daily, direct legislative scrutiny. In the USA, the Secretary is *not* a member of Congress, cannot be questioned directly on the floor, and serves at the President's pleasure; Congress exercises oversight through hearings but cannot remove the Secretary directly. A wrong answer (e.g., \"both are same\" or \"US is stronger because of separation of powers\") reveals confusion between *separation of powers* (US) and *fusion of powers with responsibility* (India) — the core distinction in accountability architecture.",
+     "self_check": true
+    },
+    {
+     "q": "\"Democracy's legitimacy comes solely from the fact that elections are held regularly.\" Evaluate this statement with reference to the Indian experience.",
+     "a": "**The statement is false.** Legitimacy requires *free, fair, and meaningful* elections — not just periodicity. In India, legitimacy is strengthened by: (a) Universal Adult Franchise (Article 326) ensuring inclusive participation, (b) Independent Election Commission (Article 324) ensuring fairness, (c) Multi-party competition offering real choice, (d) Peaceful transfer of power since 1947 (except 1975-77). If elections are rigged, boycotted, or lack genuine alternatives (e.g., one-party dominance), the government loses *moral* legitimacy even if *legal* legitimacy (constitutional procedure) remains. A wrong answer (e.g., \"elections are enough\" or \"legitimacy comes from development\") shows the student conflates *procedural* legitimacy with *substantive* democratic legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph citizen's charter clause for a Passport Seva Kendra that operationalises *all three* attributes — accountability, responsiveness, legitimacy — in a single service standard.",
+     "a": "**Sample clause:** \"The Passport Seva Kendra commits to: (1) **Accountability** — publish monthly data on applications received, processed, pending >30 days, and grievances redressed on the MEA website; (2) **Responsiveness** — issue a police-verified passport within 30 working days for normal applications, with SMS/email updates at each stage; a dedicated grievance officer shall resolve complaints within 7 working days; (3) **Legitimacy** — this charter is issued under the Passports Act, 1967, enacted by Parliament elected by the people, and the Kendra operates under the authority of the Ministry of External Affairs, which is responsible to the Lok Sabha.\" A poor answer lists only timelines (responsiveness) or mentions only the Act (legitimacy) without a transparency mechanism (accountability), showing inability to integrate the three concepts into a governance design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

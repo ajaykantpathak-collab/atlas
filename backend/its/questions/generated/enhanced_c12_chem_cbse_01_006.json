@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_006",
+   "title": "c12_chem_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define an ideal solution and state the two thermodynamic conditions it must satisfy (ΔmixH and ΔmixV).",
+     "a": "An ideal solution obeys Raoult's law over the entire concentration range. The two thermodynamic conditions are: ΔmixH = 0 (no heat absorbed or evolved on mixing) and ΔmixV = 0 (total volume equals sum of individual volumes). A wrong answer (e.g., \"ΔmixH < 0\") reveals confusion between ideal and negative deviation solutions, where stronger A–B interactions release heat.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a mixture of ethanol and acetone shows positive deviation from Raoult's law at the molecular level. What happens to the hydrogen bonding network of pure ethanol when acetone is added?",
+     "a": "Pure ethanol has extensive hydrogen bonding between –OH groups. Acetone molecules (polar, C=O) insert between ethanol molecules and break some H–bonds, forming weaker dipole–dipole A–B interactions. The net intermolecular force decreases, so molecules escape more easily → vapour pressure increases above Raoult's law prediction. A wrong answer (e.g., \"acetone forms H-bonds with ethanol, strengthening forces\") confuses positive with negative deviation; acetone cannot donate H-bonds, only accept them, and the net effect is bond breaking, not strengthening.",
+     "self_check": true
+    },
+    {
+     "q": "A binary mixture of liquids A and B has vapour pressures p_A⁰ = 120 mm Hg and p_B⁰ = 80 mm Hg at 300 K. At x_A = 0.4, the measured total vapour pressure is 112 mm Hg. Determine whether the solution is ideal, shows positive deviation, or shows negative deviation. Show your calculation.",
+     "a": "For ideal solution: p_total = x_A p_A⁰ + x_B p_B⁰ = 0.4×120 + 0.6×80 = 48 + 48 = 96 mm Hg. Measured p_total = 112 mm Hg > 96 mm Hg → positive deviation. A wrong answer (e.g., \"ideal\" or \"negative\") reveals either not calculating the ideal prediction or misinterpreting \"higher than predicted\" as negative deviation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular interactions in a phenol–aniline mixture (negative deviation) with those in a chloroform–acetone mixture (negative deviation). What common feature explains negative deviation in both cases, and how does the specific interaction differ?",
+     "a": "Both show negative deviation because A–B interactions are stronger than A–A/B–B. In phenol–aniline: H-bonding between phenolic –OH (proton donor) and aniline –NH₂ (lone pair on N). In chloroform–acetone: H-bonding between chloroform's C–H (weakly acidic due to three Cl atoms) and acetone's C=O oxygen. Common feature: new H-bond formation between unlike molecules stronger than original forces. A wrong answer that says \"both have dipole-dipole interactions\" misses the specific H-bonding origin and fails to distinguish from weaker dipole-dipole cases.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All mixtures showing positive deviation form minimum-boiling azeotropes, and all mixtures showing negative deviation form maximum-boiling azeotropes.\" Evaluate this statement. Is it always true? Justify.",
+     "a": "The statement is false. Large positive deviation *can* lead to minimum-boiling azeotropes, and large negative deviation *can* lead to maximum-boiling azeotropes, but only if the deviation is sufficiently large to create a maximum/minimum in the p–x curve. Small deviations do not form azeotropes. Example: ethanol–hexane shows positive deviation but no azeotrope; phenol–aniline shows negative deviation but no azeotrope. A wrong answer (\"true\") reveals overgeneralization — confusing tendency with certainty.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between an ideal solution (e.g., n-hexane–n-heptane) and a non-ideal solution showing positive deviation (e.g., ethanol–acetone) using only a thermometer and a graduated cylinder. Describe the procedure and expected observations.",
+     "a": "Mix equal volumes (e.g., 25 mL each) of the two liquids in an insulated beaker. Measure initial temperatures of pure liquids and final temperature of mixture. Ideal: ΔT ≈ 0 (ΔmixH = 0). Positive deviation: temperature rises (ΔmixH > 0, endothermic mixing). Also measure final volume: ideal → 50 mL (ΔmixV = 0); positive deviation → >50 mL (ΔmixV > 0). A poor answer that only checks volume or only temperature misses the dual thermodynamic signature; both must be verified for complete classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

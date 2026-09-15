@@ -1,0 +1,337 @@
+{
+ "catalog": "catalog_class12_economics_leec103",
+ "concepts": [
+  {
+   "id": "leec.103.1.1",
+   "title": "Barter Exchange and Double Coincidence of Wants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Barter Exchange and Double Coincidence of Wants' refers to.",
+     "a": "Swapping goods directly for goods without money passing between the traders is barter, and it only works when each side happens to want exactly what the other offers - a coincidence that becomes nearly impossible to arrange in a large economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Barter Exchange and Double Coincidence of Wants'.",
+     "a": "Barter fails at scale because hunting for a trader whose wants mirror your surplus costs too much.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Barter Exchange and Double Coincidence of Wants', in plain ASCII form.",
+     "a": "barter_feasibility = match_of(buyer_want, seller_surplus) without money",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.1.2",
+   "title": "Functions of Money: Medium of Exchange, Unit of Account, Store of Value",
+   "questions": [
+    {
+     "q": "Using the method 'Functions of Money: Medium of Exchange, Unit of Account, Store of Value', work with: medium_of_exchange = 15, store_of_value = 500, unit_of_account = 45. Carry the chain through step by step and give the final value of roles_of_money.",
+     "a": "560 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Functions of Money: Medium of Exchange, Unit of Account, Store of Value' and work with: medium_of_exchange = 40, store_of_value = 50000, unit_of_account = 6. Carry the chain through step by step and give the final value of roles_of_money.",
+     "a": "50046 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Functions of Money: Medium of Exchange, Unit of Account, Store of Value' refers to.",
+     "a": "Money serves as the accepted intermediary in every sale, as the common yardstick in which all prices are quoted, and as a durable, low-cost way to hold wealth for the future, provided its own value stays reasonably stable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Money: Medium of Exchange, Unit of Account, Store of Value'.",
+     "a": "One universally accepted asset simultaneously oils trade, measures value and carries purchasing power through time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functions of Money: Medium of Exchange, Unit of Account, Store of Value', in plain ASCII form.",
+     "a": "roles_of_money = medium_of_exchange + unit_of_account + store_of_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.1.3",
+   "title": "Relative Price and Purchasing Power of Money",
+   "questions": [
+    {
+     "q": "Find how many pencils a pen is worth when their prices are given. Use the method 'Relative Price and Purchasing Power of Money'. Work with: price_of_good_a = 120000, price_of_good_b = 8000. Carry the chain through step by step and give the final value of money_purchasing_power.",
+     "a": "0.0001 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the worth of one rupee in terms of a commodity whose price is known. Use the method 'Relative Price and Purchasing Power of Money'. Work with: price_of_good_a = 2500, price_of_good_b = 2500. Carry the chain through step by step and give the final value of money_purchasing_power.",
+     "a": "0.0004 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Relative Price and Purchasing Power of Money' refers to.",
+     "a": "Dividing one good's price by another's tells how many units of the second good the first is worth, and the reciprocal of any price tells how much of that good one unit of money buys; a general rise in prices therefore means money's purchasing power has fallen.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relative Price and Purchasing Power of Money'.",
+     "a": "Prices are ratios against money, and rising money prices shrink what each rupee commands.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Relative Price and Purchasing Power of Money', in plain ASCII form.",
+     "a": "relative_price = price_of_good_a / price_of_good_b",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.2.1",
+   "title": "Transaction Demand for Money and Velocity",
+   "questions": [
+    {
+     "q": "Find the average money balance of a person paid 100 at the start of a month. Use the method 'Transaction Demand for Money and Velocity'. Work with: periodic_income = 25, total_money_balance = 80000, total_transaction_value = 12000. Carry the chain through step by step and give the final value of velocity_of_money.",
+     "a": "0.15 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How many times does a rupee change hands in the two-person economy? Use the method 'Transaction Demand for Money and Velocity'. Work with: periodic_income = 100, total_money_balance = 20000, total_transaction_value = 5000. Carry the chain through step by step and give the final value of velocity_of_money.",
+     "a": "0.25 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Transaction Demand for Money and Velocity' refers to.",
+     "a": "People hold cash between paydays to bridge the gap between lumpy income receipts and continuous spending, so average transaction balances are roughly half the periodic income, and the economy's total transaction money demand rises with nominal income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transaction Demand for Money and Velocity'.",
+     "a": "Transaction balances move with nominal GDP, and each rupee turns over a number of times given by its velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transaction Demand for Money and Velocity', in plain ASCII form.",
+     "a": "transaction_money_demand = k * (p * y)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.2.2",
+   "title": "Speculative Demand for Money and the Liquidity Trap",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Speculative Demand for Money and the Liquidity Trap' refers to.",
+     "a": "Wealth holders compare expected movements of the interest rate with bond prices: expecting rates to rise means expecting capital losses on bonds, so money is preferred; the speculative demand therefore varies inversely with the interest rate, becoming infinite at some floor rate where the liquidity trap sets in.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Speculative Demand for Money and the Liquidity Trap'.",
+     "a": "High rates push everyone into bonds, low rates push everyone into money, and at the floor rate money demand explodes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Speculative Demand for Money and the Liquidity Trap', in plain ASCII form.",
+     "a": "speculative_money_demand inversely related to market_rate (zero at max_rate, infinite at min_rate)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.2.3",
+   "title": "Present Value of a Bond and the Bond-Price Interest Inverse",
+   "questions": [
+    {
+     "q": "Find the present value of a two-year bond with given coupon and face value. Use the method 'Present Value of a Bond and the Bond-Price Interest Inverse'. Work with: coupon = 240, face_value = 5000, market_rate = 5. Carry the chain through step by step and give the final value of present_value_of_bond.",
+     "a": "185.5556 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute what a bond is worth when the interest rate moves from 5 to 6 percent. Use the method 'Present Value of a Bond and the Bond-Price Interest Inverse'. Work with: coupon = 120, face_value = 1200, market_rate = 18. Carry the chain through step by step and give the final value of present_value_of_bond.",
+     "a": "9.9723 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Present Value of a Bond and the Bond-Price Interest Inverse' refers to.",
+     "a": "A bond's fair price is the sum of each promised payment discounted back at the market interest rate, which is exactly the bank deposit that would reproduce the same returns; bidding pushes the bond price to this present value, so a higher market rate means a lower bond price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Present Value of a Bond and the Bond-Price Interest Inverse'.",
+     "a": "Discounting future returns at the going rate equates bonds and deposits, making bond prices fall whenever rates rise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Present Value of a Bond and the Bond-Price Interest Inverse', in plain ASCII form.",
+     "a": "present_value_of_bond = coupon / (1 + market_rate) + (coupon + face_value) / (1 + market_rate) ** 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.1",
+   "title": "Central Bank, Commercial Banks and High-Powered Money",
+   "questions": [
+    {
+     "q": "Using the method 'Central Bank, Commercial Banks and High-Powered Money', work with: currency_held_by_public = 6, currency_reserves_of_banks = 150. Carry the chain through step by step and give the final value of high_powered_money.",
+     "a": "156 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Central Bank, Commercial Banks and High-Powered Money' and work with: currency_held_by_public = 100, currency_reserves_of_banks = 120. Carry the chain through step by step and give the final value of high_powered_money.",
+     "a": "220 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Central Bank, Commercial Banks and High-Powered Money' refers to.",
+     "a": "The central bank alone issues currency, banks the government and the banking system, guards foreign exchange reserves and lends to banks in emergencies, while commercial banks accept deposits and lend at a higher rate, keeping the spread as profit; the currency they and the public hold forms high-powered money, the base of credit creation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Central Bank, Commercial Banks and High-Powered Money'.",
+     "a": "The RBI issues the monetary base; commercial banks multiply it into deposits and earn the lending-borrowing spread.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Central Bank, Commercial Banks and High-Powered Money', in plain ASCII form.",
+     "a": "high_powered_money = currency_held_by_public + currency_reserves_of_banks",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.2",
+   "title": "Money Multiplier and Credit Creation",
+   "questions": [
+    {
+     "q": "Compute the money multiplier when the reserve ratio is 20 percent. Use the method 'Money Multiplier and Credit Creation'. Work with: initial_reserves = 60, reserve_ratio = 500. Carry the chain through step by step and give the final value of total_deposits_created.",
+     "a": "0.12 units",
+     "self_check": false
+    },
+    {
+     "q": "Find total deposits supported by reserves of 100 at a given reserve ratio. Use the method 'Money Multiplier and Credit Creation'. Work with: initial_reserves = 3, reserve_ratio = 100. Carry the chain through step by step and give the final value of total_deposits_created.",
+     "a": "0.03 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Money Multiplier and Credit Creation' refers to.",
+     "a": "Because all depositors never withdraw together, each round of lending returns as a fresh deposit, and with a fixed reserve ratio the process converges to total deposits equal to the initial reserves times one divided by the reserve ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Money Multiplier and Credit Creation'.",
+     "a": "A reserve base is stretched into a multiple of deposits; a smaller required ratio stretches it further.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Money Multiplier and Credit Creation', in plain ASCII form.",
+     "a": "total_deposits_created = initial_reserves * money_multiplier",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.3",
+   "title": "Bank Balance Sheet: Assets, Liabilities and Net Worth",
+   "questions": [
+    {
+     "q": "Using the method 'Bank Balance Sheet: Assets, Liabilities and Net Worth', work with: deposits = 200, loans = 300, reserves = 75. Carry the chain through step by step and give the final value of net_worth.",
+     "a": "175 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bank Balance Sheet: Assets, Liabilities and Net Worth' and work with: deposits = 4, loans = 150, reserves = 40. Carry the chain through step by step and give the final value of net_worth.",
+     "a": "186 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bank Balance Sheet: Assets, Liabilities and Net Worth' refers to.",
+     "a": "A bank's balance sheet lists reserves and loans as assets and deposits as liabilities, with the accounting rule that the two sides must tally; any excess of assets over liabilities is recorded as the bank's net worth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bank Balance Sheet: Assets, Liabilities and Net Worth'.",
+     "a": "Reserves plus loans must balance against deposits, and the leftover is the owners' stake.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bank Balance Sheet: Assets, Liabilities and Net Worth', in plain ASCII form.",
+     "a": "net_worth = total_assets - total_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.4.1",
+   "title": "Monetary Policy Instruments of the RBI",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Monetary Policy Instruments of the RBI' refers to.",
+     "a": "The RBI steers the money supply with quantitative levers - altering the cash reserve ratio, changing the bank rate, and buying or selling government bonds in open market operations - and with qualitative nudges such as moral suasion and margin requirements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monetary Policy Instruments of the RBI'.",
+     "a": "Raising CRR or bank rate, or selling bonds, squeezes reserves and shrinks credit; the opposites expand it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Monetary Policy Instruments of the RBI', in plain ASCII form.",
+     "a": "money_supply_effect = direction_of(crr_change, bank_rate_change, open_market_operations)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.4.2",
+   "title": "Fiat Money and Legal Tender",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fiat Money and Legal Tender' refers to.",
+     "a": "Notes and coins carry no intrinsic worth of their own; their value rests on the issuing authority's guarantee, and because no citizen may refuse them in settlement they are legal tender, a status that cheque-backed demand deposits do not enjoy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fiat Money and Legal Tender'.",
+     "a": "Law and trust, not metal content, give modern currency its purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fiat Money and Legal Tender', in plain ASCII form.",
+     "a": "fiat_money_value = issuing_authority_guarantee (not intrinsic_content)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.103.4.3",
+   "title": "Measures of Money Supply: Narrow and Broad Money",
+   "questions": [
+    {
+     "q": "Compute M1 from currency with the public and net demand deposits. Use the method 'Measures of Money Supply: Narrow and Broad Money'. Work with: currency_held_by_public = 4, net_demand_deposits = 120, net_time_deposits = 150. Carry the chain through step by step and give the final value of m3.",
+     "a": "274 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find M3 when M1 and net time deposits of banks are given. Use the method 'Measures of Money Supply: Narrow and Broad Money'. Work with: currency_held_by_public = 75, net_demand_deposits = 3, net_time_deposits = 4. Carry the chain through step by step and give the final value of m3.",
+     "a": "82 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measures of Money Supply: Narrow and Broad Money' refers to.",
+     "a": "India counts its money stock in four nesting aggregates: M1 adds currency held by the public to net demand deposits; M2 adds post-office savings deposits; M3 adds banks' net time deposits to M1; and M4 adds post-office total deposits, the four being arranged in falling order of liquidity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measures of Money Supply: Narrow and Broad Money'.",
+     "a": "M1 and M2 are narrow, M3 and M4 broad, and liquidity thins as you move down the list.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measures of Money Supply: Narrow and Broad Money', in plain ASCII form.",
+     "a": "m1 = currency_held_by_public + net_demand_deposits",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

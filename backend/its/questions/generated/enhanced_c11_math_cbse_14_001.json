@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_001",
+   "title": "c11_math_cbse_14_001",
+   "questions": [
+    {
+     "q": "Which of the following is a mathematical statement? (a) \"Please open the window.\" (b) \"The sum of interior angles of a triangle is 180°.\" (c) \"How beautiful the flower is!\" (d) \"x is an even number.\"",
+     "a": "(b) \"The sum of interior angles of a triangle is 180°.\" This is a declarative sentence with a definite truth value (true). (a) is a command, (c) is an exclamation, (d) is an open sentence whose truth depends on the value of x. A wrong answer reveals the student cannot distinguish between sentences that have a fixed truth value and those that do not.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"The square of a real number is always non-negative\" is a statement, but \"The square of a real number is always positive\" is also a statement (though false). Why is \"This sentence is false\" not considered a mathematical statement?",
+     "a": "Both sentences are declarative and have a definite truth value: the first is true, the second is false. \"This sentence is false\" is a paradox (liar paradox) – it cannot be consistently assigned a truth value (if true then false, if false then true). A wrong answer indicates the student confuses falsity with non-statement status or fails to recognize self-referential paradoxes as excluded from mathematical statements.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether each is a statement. If yes, give its truth value.\n(i) \"All prime numbers are odd.\"\n(ii) \"There exists a real number x such that x² = -1.\"\n(iii) \"Solve the equation 2x + 3 = 7.\"\n(iv) \"The number π is rational.\"",
+     "a": "(i) Statement, false (2 is prime and even). (ii) Statement, false (no real number squares to -1). (iii) Not a statement (imperative/command). (iv) Statement, false (π is irrational). A wrong answer on (i) or (ii) shows the student thinks a false sentence is not a statement; on (iii) shows confusion between commands and assertions; on (iv) shows lack of knowledge about π but that doesn't affect statement classification.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the sentences: P: \"n + 5 = 10\" and Q: \"There exists an integer n such that n + 5 = 10.\" Which is a statement? Why does adding a quantifier change the status?",
+     "a": "Q is a statement (true, n=5 works). P is not a statement because its truth depends on the free variable n. Quantifiers bind variables, removing ambiguity and yielding a definite truth value. A wrong answer reveals the student does not understand the role of free variables vs. quantified variables in determining statementhood.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 'x > 5' is not a statement, 'For all real x, x > 5' is also not a statement because it still contains x.\" Evaluate this claim and correct the error.",
+     "a": "The claim is incorrect. \"For all real x, x > 5\" is a statement (it is false). The universal quantifier \"for all\" binds the variable x, making the sentence a complete assertion with a definite truth value. The student's error is not recognizing that quantifiers eliminate the dependency on a free variable. A wrong evaluation shows the student conflates the presence of a variable letter with the presence of a free variable.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of a sentence that looks like a statement but is not, due to a hidden ambiguity or subjectivity. Explain why it fails the definition.",
+     "a": "Example: \"This triangle is large.\" It fails because \"large\" is subjective and context-dependent; there is no objective criterion to assign a definite truth value. A poor answer would give a sentence that is clearly a command or question, missing the nuance of apparent declarative sentences that lack objective truth conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

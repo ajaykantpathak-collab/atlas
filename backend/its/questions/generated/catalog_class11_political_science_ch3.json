@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class11_political_science_ch3",
+ "concepts": [
+  {
+   "id": "c11ps.3.1",
+   "title": "Elections and Democracy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elections and Democracy' refers to.",
+     "a": "Elections are the mechanism through which people choose their representatives who make laws and run the government. In a democracy, elections are the primary means by which popular consent and accountability are established.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elections and Democracy'.",
+     "a": "Elections translate popular will into governmental authority by allowing citizens to periodically choose and remove their representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Elections and Democracy' taught, and from which source text?",
+     "a": "Elections and Democracy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.2",
+   "title": "System of Representation: First-Past-the-Post",
+   "questions": [
+    {
+     "q": "Using the method 'System of Representation: First-Past-the-Post', work with: winner = 12. Carry the chain through step by step and give the final value of the result.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'System of Representation: First-Past-the-Post' and work with: winner = 60. Carry the chain through step by step and give the final value of the result.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'System of Representation: First-Past-the-Post' refers to.",
+     "a": "First-Past-the-Post (FPTP) is an electoral system in which the country is divided into single-member constituencies and the candidate who gets the most votes in a constituency wins the seat, regardless of whether they secure a majority.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'System of Representation: First-Past-the-Post'.",
+     "a": "In FPTP, the candidate with the highest number of votes wins; a simple plurality is enough and an absolute majority is not required.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'System of Representation: First-Past-the-Post' taught, and from which source text?",
+     "a": "System of Representation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.3",
+   "title": "System of Representation: Proportional Representation",
+   "questions": [
+    {
+     "q": "Using the method 'System of Representation: Proportional Representation', work with: party_votes = 5, total_seats = 300, total_votes = 40, vote_share = 0.35. Carry the chain through step by step and give the final value of the result.",
+     "a": "1.05 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'System of Representation: Proportional Representation' and work with: party_votes = 240, total_seats = 18, total_votes = 4, vote_share = 0.2. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.036 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'System of Representation: Proportional Representation' refers to.",
+     "a": "Proportional Representation (PR) is an electoral system in which seats in a legislature are allocated to parties in proportion to the percentage of votes they receive, ensuring that the share of seats matches the share of popular votes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'System of Representation: Proportional Representation'.",
+     "a": "PR ensures that parties receive seats in proportion to their vote share, making the legislature a more accurate reflection of popular opinion than FPTP.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'System of Representation: Proportional Representation', in plain ASCII form.",
+     "a": "seats_for_party = (party_vote_share / 100) * total_seats",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.4",
+   "title": "Reservation of Constituencies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reservation of Constituencies' refers to.",
+     "a": "Reservation of constituencies is the practice of setting aside certain electoral constituencies from which only candidates belonging to Scheduled Castes or Scheduled Tribes can contest, in order to ensure adequate representation of these marginalized groups in the legislature.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reservation of Constituencies'.",
+     "a": "Reserved constituencies guarantee that SCs and STs have a voice in law-making by ensuring that a minimum number of seats are held by their representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reservation of Constituencies' taught, and from which source text?",
+     "a": "Reservation of Constituencies",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.5",
+   "title": "Election Commission of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Election Commission of India' refers to.",
+     "a": "The Election Commission of India (ECI) is an independent constitutional body established under Article 324 of the Constitution, responsible for conducting, directing, and controlling all elections to Parliament, State Legislatures, and the offices of the President and Vice-President.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Election Commission of India'.",
+     "a": "The Election Commission is an independent body that ensures free and fair elections by supervising the entire electoral process impartially.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Election Commission of India' taught, and from which source text?",
+     "a": "Election Commission of India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.6",
+   "title": "Electoral Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Electoral Reforms' refers to.",
+     "a": "Electoral reforms are changes and improvements made to the electoral system and election laws to make elections more free, fair, transparent, and participatory, addressing issues like criminalization of politics, money power, and voter participation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electoral Reforms'.",
+     "a": "Electoral reforms aim to strengthen democracy by reducing the influence of money and muscle power, increasing transparency, and improving the quality of electoral participation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Electoral Reforms' taught, and from which source text?",
+     "a": "Electoral Reforms",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.7",
+   "title": "Universal Adult Franchise",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Universal Adult Franchise' refers to.",
+     "a": "Universal adult franchise is the principle that every adult citizen of a country has the right to vote, regardless of religion, caste, sex, income, or education, ensuring political equality among all citizens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Universal Adult Franchise'.",
+     "a": "Universal adult franchise is based on the principle of 'one person, one vote, one value', giving every adult citizen an equal voice in choosing representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Universal Adult Franchise' taught, and from which source text?",
+     "a": "Universal Adult Franchise",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.8",
+   "title": "Voters and Voting Behavior",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Voters and Voting Behavior' refers to.",
+     "a": "Voting behavior refers to the patterns and factors that influence how voters decide to cast their votes, including caste, religion, class, language, regional identity, development issues, and the appeal of parties and candidates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Voters and Voting Behavior'.",
+     "a": "Voters in India are influenced by a complex mix of social identities, local issues, party loyalties, and candidate attributes, making voting behavior multi-dimensional.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Voters and Voting Behavior' taught, and from which source text?",
+     "a": "Voters and Voting Behavior",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.3.9",
+   "title": "Free and Fair Elections",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Free and Fair Elections' refers to.",
+     "a": "Free and fair elections are elections conducted in an atmosphere free of coercion, violence, and undue influence, where every eligible voter can freely exercise their franchise, all candidates compete on an equal footing, and the process is transparent and impartial.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Free and Fair Elections'.",
+     "a": "Free and fair elections require an independent election authority, a level playing field for all parties, freedom from intimidation, and transparency at every stage of the electoral process.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Free and Fair Elections' taught, and from which source text?",
+     "a": "Free and Fair Elections",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

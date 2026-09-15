@@ -1,0 +1,757 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Cubes and Cube Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh106.txt",
+ "concepts": [
+  {
+   "id": "hemh.106.1.1",
+   "title": "Hardy-Ramanujan Numbers",
+   "section": "6.1",
+   "definition": "A positive integer that can be expressed as the sum of two cubes in two different ways is known as a Hardy-Ramanujan number.",
+   "formula": "N = a^3 + b^3 = c^3 + d^3",
+   "key_idea": "The smallest Hardy-Ramanujan number is 1729, which equals 1^3 + 12^3 and 9^3 + 10^3.",
+   "textbook_ref": "hemh106.txt lines 1-25",
+   "question_patterns": [
+    "what is a Hardy-Ramanujan number",
+    "verify if a given integer can be written as the sum of two cubes in two different ways",
+    "identify Hardy-Ramanujan numbers among given integers",
+    "explain the significance of the number 1729 in Class 8 mathematics",
+    "check whether a number is expressible as the sum of two cubes in two distinct ways"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find two distinct pairs of integers whose cubes sum to the target number",
+     "explain": "express N as a^3 + b^3 and c^3 + d^3 with different pairs (a, b) and (c, d)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.1",
+   "title": "Cube of a Number",
+   "section": "6.2",
+   "definition": "The cubic value of a given integer is obtained by multiplying the number by itself three times.",
+   "formula": "cube = num * num * num",
+   "key_idea": "Multiplying a natural number three times as a factor yields its perfect cube.",
+   "textbook_ref": "hemh106.txt lines 26-60",
+   "question_patterns": [
+    "calculate the cube of a given number",
+    "find the cube of an integer",
+    "what is the cube of a number",
+    "compute the third power of a natural number",
+    "determine the cubic value of a number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number",
+     "explain": "multiply num by itself to get sq",
+     "compute": "sq = num * num"
+    },
+    {
+     "step": 2,
+     "action": "multiply square by the original number",
+     "explain": "multiply sq by num to find the cube",
+     "compute": "cube = sq * num"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.2",
+   "title": "One's Digit of a Cube",
+   "section": "6.2",
+   "definition": "The unit digit of the cube of any integer is determined solely by the unit digit of the base number.",
+   "formula": "unit_digit = (base_unit ** 3) % 10",
+   "key_idea": "Cubing the last digit of a number gives the last digit of its cube.",
+   "textbook_ref": "hemh106.txt lines 61-75",
+   "question_patterns": [
+    "find the one's digit of the cube of a number",
+    "calculate the unit digit of the cube of an integer",
+    "what is the terminal digit of the cube of a number",
+    "determine the ending digit of the cube",
+    "identify the unit place digit in the cube of a number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "extract the unit digit of the base number",
+     "explain": "find base_unit by taking modulo 10",
+     "compute": "base_unit = num % 10"
+    },
+    {
+     "step": 2,
+     "action": "cube the unit digit",
+     "explain": "multiply base_unit three times",
+     "compute": "unit_cube = base_unit * base_unit * base_unit"
+    },
+    {
+     "step": 3,
+     "action": "get the unit digit of the resulting cube",
+     "explain": "take modulo 10 of unit_cube",
+     "compute": "unit_digit = unit_cube % 10"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.3",
+   "title": "Cube as Sum of Consecutive Odd Numbers",
+   "section": "6.2.1",
+   "definition": "The cube of any natural number n can be represented as the sum of n consecutive odd integers.",
+   "formula": "first_odd = n * (n - 1) + 1",
+   "key_idea": "Summing n consecutive odd numbers starting from n*(n-1)+1 yields n^3.",
+   "textbook_ref": "hemh106.txt lines 76-95",
+   "question_patterns": [
+    "express a given cube as the sum of consecutive odd numbers",
+    "find the first odd number in the consecutive odd sum representation of a cube",
+    "calculate the starting odd integer needed to write a cube as a sum of odd numbers",
+    "how many consecutive odd numbers are needed to get the sum equal to a given cube",
+    "determine the consecutive odd sum sequence for a cubic number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract one from n",
+     "explain": "find prev_n = n - 1",
+     "compute": "prev_n = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the starting odd number of the sequence",
+     "explain": "multiply n by prev_n and add 1 to get first_odd",
+     "compute": "first_odd = n * prev_n + 1"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.4",
+   "title": "Difference of Consecutive Cubes Pattern",
+   "section": "6.2.1",
+   "definition": "The difference between the cubes of two consecutive natural numbers n and (n-1) follows a linear combination pattern.",
+   "formula": "diff = 1 + 3 * n * (n - 1)",
+   "key_idea": "The subtraction of (n-1)^3 from n^3 equals 1 plus three times the product of n and (n-1).",
+   "textbook_ref": "hemh106.txt lines 96-110",
+   "question_patterns": [
+    "evaluate the difference between consecutive cubes using pattern",
+    "find the value of a cube minus the previous cube",
+    "calculate the difference of two consecutive cubic numbers",
+    "what is the result of subtracting consecutive cubes",
+    "compute the difference between cubes of adjacent integers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply n and prev_n",
+     "explain": "calculate base_prod = n * prev_n",
+     "compute": "base_prod = n * prev_n"
+    },
+    {
+     "step": 2,
+     "action": "triple the base product",
+     "explain": "multiply base_prod by 3",
+     "compute": "triple_prod = 3 * base_prod"
+    },
+    {
+     "step": 3,
+     "action": "add one to triple_prod",
+     "explain": "calculate diff = 1 + triple_prod",
+     "compute": "diff = 1 + triple_prod"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.5",
+   "title": "Smallest Multiplier for Perfect Cube",
+   "section": "6.2.2",
+   "definition": "The minimum positive integer required to multiply a number so that every prime factor forms groups of three.",
+   "formula": "mult = prime_base ** missing_exponent",
+   "key_idea": "Multiply by missing prime factors to complete every incomplete triplet in factorisation.",
+   "textbook_ref": "hemh106.txt lines 125-160",
+   "question_patterns": [
+    "find the smallest number by which a given number must be multiplied to make it a perfect cube",
+    "calculate the smallest multiplier to obtain a perfect cube",
+    "what is the least natural number to multiply with to form a perfect cube",
+    "determine the smallest factor needed to make a number a perfect cube",
+    "compute the minimum multiplier required for a perfect cube"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate missing prime factor power required to complete triplet",
+     "explain": "raise prime_base to missing_exponent to find mult",
+     "compute": "mult = prime_base ** missing_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.6",
+   "title": "Smallest Divisor for Perfect Cube",
+   "section": "6.2.2",
+   "definition": "The smallest natural number by which a non-cube must be divided to eliminate prime factors that do not form complete triplets.",
+   "formula": "divisor = extra_factor ** extra_exponent",
+   "key_idea": "Divide out all prime factors that fail to form a triplet to leave a perfect cube quotient.",
+   "textbook_ref": "hemh106.txt lines 161-190",
+   "question_patterns": [
+    "find the smallest number by which a given number must be divided to obtain a perfect cube",
+    "calculate the smallest divisor so that the quotient is a perfect cube",
+    "what is the least natural number to divide by to make a perfect cube",
+    "determine the smallest number to divide a non-cube to get a perfect cube",
+    "compute the minimum divisor needed to form a perfect cube"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the surplus factor to divide out",
+     "explain": "raise extra_factor to extra_exponent to find divisor",
+     "compute": "divisor = extra_factor ** extra_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2.7",
+   "title": "Number of Cuboids to Form a Cube",
+   "section": "6.2.2",
+   "definition": "The total count of identical cuboids of given side lengths needed to assemble a solid perfect cube.",
+   "formula": "num_cuboids = vol_cube // vol_cuboid",
+   "key_idea": "Divide the target cube volume by the cuboid volume to find the number of cuboids required.",
+   "textbook_ref": "hemh106.txt lines 120-135",
+   "question_patterns": [
+    "find how many cuboids of given dimensions are needed to form a cube",
+    "calculate the minimum number of cuboids required to make a perfect cube",
+    "how many identical cuboids must be combined to form a cube",
+    "determine the number of cuboids needed to construct a cube",
+    "compute the required count of plasticine cuboids to build a cube"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume of one cuboid",
+     "explain": "multiply length, breadth, and height",
+     "compute": "vol_cuboid = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of the constructed cube",
+     "explain": "cube the side length cube_edge",
+     "compute": "vol_cube = cube_edge * cube_edge * cube_edge"
+    },
+    {
+     "step": 3,
+     "action": "divide cube volume by cuboid volume",
+     "explain": "find total cuboids needed",
+     "compute": "num_cuboids = vol_cube // vol_cuboid"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.3.1",
+   "title": "Cube Root by Prime Factorisation",
+   "section": "6.3.1",
+   "definition": "Determining the number whose cube equals a given integer by selecting one prime factor from each group of three identical factors.",
+   "formula": "cube_root = part_a * part_b",
+   "key_idea": "Group prime factors into triplets and multiply one representative factor from each triplet.",
+   "textbook_ref": "hemh106.txt lines 210-250",
+   "question_patterns": [
+    "find the cube root of a number by prime factorisation method",
+    "calculate the cube root using prime factorisation",
+    "what is the cube root of a given perfect cube",
+    "determine the cube root of a natural number",
+    "compute the cube root through prime factors"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply primary group prime factor product",
+     "explain": "raise prime_a to power_a",
+     "compute": "part_a = prime_a ** power_a"
+    },
+    {
+     "step": 2,
+     "action": "multiply secondary group prime factor product",
+     "explain": "raise prime_b to power_b",
+     "compute": "part_b = prime_b ** power_b"
+    },
+    {
+     "step": 3,
+     "action": "multiply individual prime representatives to get cube root",
+     "explain": "calculate part_a * part_b",
+     "compute": "cube_root = part_a * part_b"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh106.txt line 35",
+   "concept": "hemh.106.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the cube of {num}.",
+   "extracted_variables": {
+    "num": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the given number",
+     "explain": "multiply num by itself to get sq",
+     "compute": "sq = num * num"
+    },
+    {
+     "step": 2,
+     "action": "multiply square by the original number",
+     "explain": "multiply sq by num to find the cube",
+     "compute": "cube = sq * num"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh106.txt line 32",
+   "concept": "hemh.106.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the cube of {num}.",
+   "extracted_variables": {
+    "num": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the given number",
+     "explain": "multiply num by itself to get sq",
+     "compute": "sq = num * num"
+    },
+    {
+     "step": 2,
+     "action": "multiply square by the original number",
+     "explain": "multiply sq by num to find the cube",
+     "compute": "cube = sq * num"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh106.txt line 70",
+   "concept": "hemh.106.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the one's digit of the cube of {num}.",
+   "extracted_variables": {
+    "num": 3331
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "extract the unit digit of the base number",
+     "explain": "find base_unit by taking modulo 10",
+     "compute": "base_unit = num % 10"
+    },
+    {
+     "step": 2,
+     "action": "cube the unit digit",
+     "explain": "multiply base_unit three times",
+     "compute": "unit_cube = base_unit * base_unit * base_unit"
+    },
+    {
+     "step": 3,
+     "action": "get the unit digit of the resulting cube",
+     "explain": "take modulo 10 of unit_cube",
+     "compute": "unit_digit = unit_cube % 10"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh106.txt line 71",
+   "concept": "hemh.106.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the one's digit of the cube of {num}.",
+   "extracted_variables": {
+    "num": 8888
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "extract the unit digit of the base number",
+     "explain": "find base_unit by taking modulo 10",
+     "compute": "base_unit = num % 10"
+    },
+    {
+     "step": 2,
+     "action": "cube the unit digit",
+     "explain": "multiply base_unit three times",
+     "compute": "unit_cube = base_unit * base_unit * base_unit"
+    },
+    {
+     "step": 3,
+     "action": "get the unit digit of the resulting cube",
+     "explain": "take modulo 10 of unit_cube",
+     "compute": "unit_digit = unit_cube % 10"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh106.txt line 90",
+   "concept": "hemh.106.2.3",
+   "question_type": "compute",
+   "question_pattern": "Find the starting odd number to express {n}^3 as the sum of consecutive odd numbers.",
+   "extracted_variables": {
+    "n": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract one from n",
+     "explain": "find prev_n = n - 1",
+     "compute": "prev_n = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the starting odd number of the sequence",
+     "explain": "multiply n by prev_n and add 1 to get first_odd",
+     "compute": "first_odd = n * prev_n + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh106.txt line 88",
+   "concept": "hemh.106.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the first odd number in the sum of odd numbers equal to {n}^3.",
+   "extracted_variables": {
+    "n": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract one from n",
+     "explain": "find prev_n = n - 1",
+     "compute": "prev_n = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the starting odd number of the sequence",
+     "explain": "multiply n by prev_n and add 1 to get first_odd",
+     "compute": "first_odd = n * prev_n + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh106.txt line 98",
+   "concept": "hemh.106.2.4",
+   "question_type": "compute",
+   "question_pattern": "Using the pattern, find the value of {n}^3 - {prev_n}^3.",
+   "extracted_variables": {
+    "n": 7,
+    "prev_n": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n and prev_n",
+     "explain": "calculate base_prod = n * prev_n",
+     "compute": "base_prod = n * prev_n"
+    },
+    {
+     "step": 2,
+     "action": "triple the base product",
+     "explain": "multiply base_prod by 3",
+     "compute": "triple_prod = 3 * base_prod"
+    },
+    {
+     "step": 3,
+     "action": "add one to triple_prod",
+     "explain": "calculate diff = 1 + triple_prod",
+     "compute": "diff = 1 + triple_prod"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh106.txt line 99",
+   "concept": "hemh.106.2.4",
+   "question_type": "compute",
+   "question_pattern": "Using the pattern, find the value of {n}^3 - {prev_n}^3.",
+   "extracted_variables": {
+    "n": 12,
+    "prev_n": 11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n and prev_n",
+     "explain": "calculate base_prod = n * prev_n",
+     "compute": "base_prod = n * prev_n"
+    },
+    {
+     "step": 2,
+     "action": "triple the base product",
+     "explain": "multiply base_prod by 3",
+     "compute": "triple_prod = 3 * base_prod"
+    },
+    {
+     "step": 3,
+     "action": "add one to triple_prod",
+     "explain": "calculate diff = 1 + triple_prod",
+     "compute": "diff = 1 + triple_prod"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hemh106.txt lines 136-145",
+   "concept": "hemh.106.2.5",
+   "question_type": "compute",
+   "question_pattern": "Find the smallest natural number by which 392 must be multiplied so that the product is a perfect cube.",
+   "extracted_variables": {
+    "prime_base": 7,
+    "missing_exponent": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate missing prime factor power required to complete triplet",
+     "explain": "raise prime_base to missing_exponent to find mult",
+     "compute": "mult = prime_base ** missing_exponent"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hemh106.txt lines 172-180",
+   "concept": "hemh.106.2.5",
+   "question_type": "compute",
+   "question_pattern": "Find the smallest number by which 68600 must be multiplied to get a perfect cube.",
+   "extracted_variables": {
+    "prime_base": 5,
+    "missing_exponent": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate missing prime factor power required to complete triplet",
+     "explain": "raise prime_base to missing_exponent to find mult",
+     "compute": "mult = prime_base ** missing_exponent"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "hemh106.txt lines 146-158",
+   "concept": "hemh.106.2.6",
+   "question_type": "compute",
+   "question_pattern": "Find the smallest natural number by which 53240 should be divided so that the quotient is a perfect cube.",
+   "extracted_variables": {
+    "extra_factor": 5,
+    "extra_exponent": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the surplus factor to divide out",
+     "explain": "raise extra_factor to extra_exponent to find divisor",
+     "compute": "divisor = extra_factor ** extra_exponent"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "hemh106.txt lines 159-171",
+   "concept": "hemh.106.2.6",
+   "question_type": "compute",
+   "question_pattern": "Find the smallest natural number by which 1188 should be divided so that the quotient is a perfect cube.",
+   "extracted_variables": {
+    "extra_factor_a": 2,
+    "extra_exp_a": 2,
+    "extra_factor_b": 11,
+    "extra_exp_b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate part a from first extra factor",
+     "explain": "raise extra_factor_a to extra_exp_a",
+     "compute": "part_a = extra_factor_a ** extra_exp_a"
+    },
+    {
+     "step": 2,
+     "action": "calculate part b from second extra factor",
+     "explain": "raise extra_factor_b to extra_exp_b",
+     "compute": "part_b = extra_factor_b ** extra_exp_b"
+    },
+    {
+     "step": 3,
+     "action": "multiply parts to find total divisor",
+     "explain": "calculate divisor = part_a * part_b",
+     "compute": "divisor = part_a * part_b"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hemh106.txt lines 121-135",
+   "concept": "hemh.106.2.7",
+   "question_type": "compute",
+   "question_pattern": "Raj made a cuboid of dimensions {length} cm, {breadth} cm, {height} cm. How many such cuboids will be needed to make a perfect cube of side {cube_edge} cm?",
+   "extracted_variables": {
+    "length": 15,
+    "breadth": 30,
+    "height": 15,
+    "cube_edge": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate volume of one cuboid",
+     "explain": "multiply length, breadth, and height",
+     "compute": "vol_cuboid = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of the constructed cube",
+     "explain": "cube the side length cube_edge",
+     "compute": "vol_cube = cube_edge * cube_edge * cube_edge"
+    },
+    {
+     "step": 3,
+     "action": "divide cube volume by cuboid volume",
+     "explain": "find total cuboids needed",
+     "compute": "num_cuboids = vol_cube // vol_cuboid"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "hemh106.txt lines 205-208",
+   "concept": "hemh.106.2.7",
+   "question_type": "compute",
+   "question_pattern": "Parikshit makes a cuboid of plasticine of sides {length} cm, {breadth} cm, {height} cm. How many such cuboids will he need to form a cube of side {cube_edge} cm?",
+   "extracted_variables": {
+    "length": 5,
+    "breadth": 2,
+    "height": 5,
+    "cube_edge": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate volume of one cuboid",
+     "explain": "multiply length, breadth, and height",
+     "compute": "vol_cuboid = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of the constructed cube",
+     "explain": "cube the side length cube_edge",
+     "compute": "vol_cube = cube_edge * cube_edge * cube_edge"
+    },
+    {
+     "step": 3,
+     "action": "divide cube volume by cuboid volume",
+     "explain": "find total cuboids needed",
+     "compute": "num_cuboids = vol_cube // vol_cuboid"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "hemh106.txt lines 236-240",
+   "concept": "hemh.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the cube root of 8000 by prime factorisation method.",
+   "extracted_variables": {
+    "prime_a": 2,
+    "power_a": 2,
+    "prime_b": 5,
+    "power_b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply primary group prime factor product",
+     "explain": "raise prime_a to power_a",
+     "compute": "part_a = prime_a ** power_a"
+    },
+    {
+     "step": 2,
+     "action": "multiply secondary group prime factor product",
+     "explain": "raise prime_b to power_b",
+     "compute": "part_b = prime_b ** power_b"
+    },
+    {
+     "step": 3,
+     "action": "multiply individual prime representatives to get cube root",
+     "explain": "calculate part_a * part_b",
+     "compute": "cube_root = part_a * part_b"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "hemh106.txt lines 241-247",
+   "concept": "hemh.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the cube root of 13824 by prime factorisation method.",
+   "extracted_variables": {
+    "prime_a": 2,
+    "power_a": 3,
+    "prime_b": 3,
+    "power_b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply primary group prime factor product",
+     "explain": "raise prime_a to power_a",
+     "compute": "part_a = prime_a ** power_a"
+    },
+    {
+     "step": 2,
+     "action": "multiply secondary group prime factor product",
+     "explain": "raise prime_b to power_b",
+     "compute": "part_b = prime_b ** power_b"
+    },
+    {
+     "step": 3,
+     "action": "multiply individual prime representatives to get cube root",
+     "explain": "calculate part_a * part_b",
+     "compute": "cube_root = part_a * part_b"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hemh106.txt lines 191-208",
+   "questions": [
+    "1. Which of the following numbers are not perfect cubes? (i) 216 (ii) 128 (iii) 1000 (iv) 100 (v) 46656",
+    "2. Find the smallest number by which each of the following numbers must be multiplied to obtain a perfect cube. (i) 243 (ii) 256 (iii) 72 (iv) 675 (v) 100",
+    "3. Find the smallest number by which each of the following numbers must be divided to obtain a perfect cube. (i) 81 (ii) 128 (iii) 135 (iv) 192 (v) 704",
+    "4. Parikshit makes a cuboid of plasticine of sides 5 cm, 2 cm, 5 cm. How many such cuboids will he need to form a cube?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hemh106.txt lines 250-270",
+   "questions": [
+    "1. Find the cube root of each of the following numbers by prime factorisation method. (i) 64 (ii) 512 (iii) 10648 (iv) 27000 (v) 15625 (vi) 13824 (vii) 110592 (viii) 46656 (ix) 175616 (x) 91125",
+    "2. State true or false. (i) Cube of any odd number is even. (ii) A perfect cube does not end with two zeros. (iii) If square of a number ends with 5, then its cube ends with 25. (iv) There is no perfect cube which ends with 8. (v) The cube of a two digit number may be a three digit number. (vi) The cube of a two digit number may have seven or more digits. (vii) The cube of a single digit number may be a single digit number."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

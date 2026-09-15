@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_008",
+   "title": "c11_geo_cbse_26_008",
+   "questions": [
+    {
+     "q": "Define GIS and state its five core components as per the Class 11 NCERT framework.",
+     "a": "GIS is a computer-based system for capturing, storing, manipulating, analyzing, managing, and presenting spatial/geographic data. The five core components are: (1) Hardware (computers, servers, GPS devices), (2) Software (GIS packages like ArcGIS, QGIS), (3) Data (spatial - raster/vector, and attribute data), (4) People (users, analysts, decision-makers), and (5) Methods (procedures, models, workflows). A wrong answer revealing only \"software\" or \"maps\" as components shows the student views GIS as a tool rather than a system, missing the critical role of structured data models and human procedures in geographic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why remotely sensed satellite imagery must be georeferenced before it can be used as a data layer in GIS, and describe what happens if this step is skipped.",
+     "a": "Georeferencing assigns real-world coordinates (latitude/longitude or projected coordinates) to each pixel of the satellite image, aligning it with the Earth's surface and other GIS layers. Without georeferencing, the image lacks spatial reference - pixels have only row/column positions, making overlay with vector layers (roads, boundaries) impossible, measurements inaccurate, and multi-temporal comparison invalid. A student who says \"georeferencing improves image quality\" confuses radiometric correction with geometric correction; the core misconception is treating the image as a picture rather than geospatial data requiring coordinate registration.",
+     "self_check": true
+    },
+    {
+     "q": "A Landsat 8 image (30m spatial resolution) covers a 185km × 185km scene. Calculate the number of pixels in one band of this image. If the same area is imaged by IRS LISS-IV (5.8m resolution), how many times more pixels would the LISS-IV image have? Show your working.",
+     "a": "**Step 1:** Convert scene dimensions to meters: 185 km = 185,000 m.\n**Step 2:** Landsat pixels per side = 185,000 / 30 = 6,166.67 ≈ 6,167 pixels.\n**Step 3:** Total pixels per band = 6,167 × 6,167 ≈ 38,031,889 pixels.\n**Step 4:** LISS-IV pixels per side = 185,000 / 5.8 = 31,896.55 ≈ 31,897 pixels.\n**Step 5:** Total LISS-IV pixels = 31,897 × 31,897 ≈ 1,017,418,609 pixels.\n**Step 6:** Ratio = 1,017,418,609 / 38,031,889 ≈ 26.75 times more pixels.\n**Answer:** LISS-IV image has approximately 26.75 times more pixels. A wrong answer using 185/30 without unit conversion reveals confusion between km and m; using area ratio (30/5.8)² directly shows formulaic application without understanding pixel-grid geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare raster and vector data models for representing the following geographic features in a GIS project for watershed management in the Western Ghats: (a) elevation surface, (b) stream network, (c) soil types, (d) village boundaries. Justify your choice for each.",
+     "a": "(a) Elevation surface → **Raster** (DEM): Continuous surface, each cell holds elevation value, enables slope/aspect/flow direction calculations.\n(b) Stream network → **Vector (lines)**: Discrete linear features with topology (connectivity), precise length measurement, attribute tables for stream order.\n(c) Soil types → **Vector (polygons)**: Discrete areal units with sharp boundaries, each polygon carries multiple attributes (texture, pH, depth).\n(d) Village boundaries → **Vector (polygons)**: Legally defined polygons, topological adjacency matters for administration, attribute data (population, census code).\nA student choosing raster for streams \"because it's easier\" misses that vector preserves topology and precise geometry critical for hydrological modeling; choosing vector for elevation ignores the computational efficiency of raster for continuous surface analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"High spatial resolution remote sensing data (e.g., 1m) is always better for GIS analysis than moderate resolution data (e.g., 30m) because it provides more detail.\" Consider data volume, processing time, cost, and analytical appropriateness for regional-scale land use planning in a district like Palakkad, Kerala.",
+     "a": "**Evaluation:** The statement is **false**. While 1m data (e.g., Cartosat) offers detail for urban mapping, for district-level (Palakkad: ~4,480 km²) land use planning:\n- **Data volume:** 1m data = ~4.48 billion pixels/band vs 30m = ~5 million pixels/band → 900× storage/processing burden.\n- **Processing time:** Classification, mosaicking, analysis become computationally prohibitive without HPC.\n- **Cost:** High-resolution data acquisition and licensing costs are significantly higher.\n- **Analytical appropriateness:** Regional planning needs broad categories (forest, agriculture, wetland, built-up) where 30m (Landsat/IRS LISS-III) matches the Minimum Mapping Unit (MMU) of 1:50,000 scale maps used in district planning.\n**Justification:** Optimal resolution matches the scale of analysis and MMU. A student agreeing with the statement reveals \"resolution fetishism\" - equating pixel size with information quality without considering scale, purpose, and resource constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a GIS workflow to map flood-affected agricultural land in the Kosi river basin (Bihar) using pre-flood and post-flood Sentinel-1 SAR (Synthetic Aperture Radar) images. Specify: (1) data layers needed, (2) key GIS operations in sequence, (3) output products for disaster management authorities.",
+     "a": "**Good answer criteria:**\n1. **Data layers:** Pre-flood SAR (VV/VH polarization), post-flood SAR, DEM (SRTM 30m), land use/land cover (LULC) vector layer, administrative boundaries (district/block), drainage network, settlement points.\n2. **GIS operations sequence:** (a) Co-registration of pre/post SAR images → (b) Speckle filtering (Lee/Gamma MAP) → (c) Change detection: ratio/post-pre or log-ratio for water extent → (d) Thresholding to extract flood inundation mask (raster) → (e) Vectorize flood mask → (f) Overlay (Intersect) flood polygon with LULC agricultural classes → (g) Calculate area statistics per block → (h) Join with village boundaries for damage assessment.\n3. **Outputs:** Flood extent map (raster/vector), agricultural loss area table (block-wise), inundated village list, flood depth proxy map (using DEM difference), time-series animation if multi-temporal.\n**Poor answer reveals:** Missing SAR preprocessing (speckle filtering), using optical imagery ignoring cloud cover in monsoon, skipping DEM for depth estimation, or producing only a map without tabular statistics for relief allocation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_007",
+   "title": "c11_hs_cbse_10_007",
+   "questions": [
+    {
+     "q": "What are the two main types of control checks in money management described in the NCERT textbook?",
+     "a": "The two main types are: (1) Mental and mechanical checks, and (2) Records and accounts. A wrong answer such as \"planning and evaluation\" reveals confusion between the three steps of the management process (planning, controlling, evaluating) and the specific tools used during the controlling step. The student has memorized the process steps but not the control sub-tools.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a mental check and a mechanical check in money management. Give one concrete example of each from a student's daily life.",
+     "a": "A mental check is a cognitive process: visualizing what specific items a budget allocation must cover (e.g., a student realizes their ₹2,000 monthly personal allowance must cover a birthday gift, phone recharge, and two movie outings). A mechanical check is a physical process: setting aside actual cash for a category (e.g., keeping ₹500 in a separate wallet compartment marked \"transport\" and only using it for bus/metro fares). A wrong answer like \"mental check is thinking, mechanical check is writing\" shows superficial understanding — it misses the core distinction: mental = cognitive allocation visualization, mechanical = physical cash separation for spending discipline.",
+     "self_check": true
+    },
+    {
+     "q": "A family allocated ₹9,000 for \"Food\" in their November budget. By November 26th, their single-sheet record shows: Grocery ₹3,800, Milk ₹1,600, Fruit/veg ₹2,100, Meat ₹1,200, Eating out ₹1,500. The month has 4 days remaining. Should they adjust? If yes, specify the exact adjustment and the reasoning.",
+     "a": "Total spent = ₹3,800 + ₹1,600 + ₹2,100 + ₹1,200 + ₹1,500 = ₹10,200. Exceeded allocation by ₹1,200 with 4 days left. Yes, adjust immediately: (1) Stop eating out completely (saves ~₹300-400/day), (2) Reduce meat and fruit/veg for remaining days, (3) Daily limit for last 4 days = (₹9,000 - ₹8,700 non-eating-out spent) / 4 = ₹75/day for essentials only. A wrong answer like \"no adjustment needed, month is almost over\" reveals failure to apply the control concept — control requires proactive correction when variance is detected, not passive acceptance. The textbook explicitly states adjustments are needed when \"there is a considerable gap between the plan and its execution.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the single-sheet record method and the mechanical check (envelope system) for a family with highly irregular income — a farmer who receives lump-sum payments after harvest twice a year. Which method is more suitable and why? Analyze using the textbook's description of both methods.",
+     "a": "The single-sheet method is more suitable. The mechanical check requires regular, predictable cash allocations (monthly envelopes), which is impractical when income arrives in two large lumps. The single-sheet method allows recording expenses whenever they occur, comparing cumulative spending against a seasonal/annual allocation, and adjusting across months. The textbook notes the single sheet is \"simple and flexible\" and can be \"tacked on the back of a door\" for ongoing entry — ideal for irregular tracking. A wrong answer favoring the envelope system shows inability to analyze method suitability contextually; the student recalls the methods but cannot evaluate their fit for different income patterns.",
+     "self_check": true
+    },
+    {
+     "q": "\"Record keeping is only useful for identifying where a family has overspent.\" Critique this statement using at least three specific advantages of record keeping mentioned in the textbook.",
+     "a": "The statement is false. Three textbook advantages contradict it: (1) \"Monthly expenditure can be compared with the spending plan and show us where adjustments must be made to avoid excessive expenditure\" — this includes identifying underspending too, not just overspending. (2) \"Helps in identifying those categories or sub-categories where expenditure is too high or too low. This in turn enables us to make better future budgets\" — record keeping improves future planning, not just current control. (3) \"Some record keeping methods need bills and receipts to be maintained. Thus a proof of payment is at hand in case of a poor product or service if one wants to lodge a complaint\" — this is consumer protection, unrelated to overspending. A wrong answer agreeing with the statement reveals a narrow view of control as mere restriction, missing its optimization and evidence-keeping functions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified single-sheet record format for a Class 11 student living in a hostel with these expense categories: Mess fees, Canteen/snacks, Stationery, Transport, Personal care, Entertainment, Emergency fund. Your format must include columns that enable the control functions described in the textbook: checking progress, comparing with plan, and deciding adjustments.",
+     "a": "A good format includes: Category | Monthly Allocated (₹) | Weekly Target (₹) | Cumulative Spent (₹) | Variance (₹) | % of Allocation Used | Action Required. Rows for each category plus Total. The \"Weekly Target\" column enables mental checks (visualizing weekly limits). \"Cumulative Spent\" enables mechanical checks (tracking actual outflow). \"Variance\" and \"% Used\" enable comparison with plan. \"Action Required\" forces adjustment decisions (e.g., \"Canteen 80% used by Week 3 → stop snack purchases\"). A poor answer with only Allocated and Spent columns shows inability to synthesize control concepts into a practical tool — the student sees recording as data entry, not as a decision-driving system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

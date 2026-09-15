@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_014",
+   "title": "c11_bio_cbse_04_014",
+   "questions": [
+    {
+     "q": "List the seven classes of Vertebrata in the order they appear in the NCERT classification hierarchy, starting from the most primitive.",
+     "a": "The seven classes in hierarchical order are: Cyclostomata → Chondrichthyes → Osteichthyes → Amphibia → Reptilia → Aves → Mammalia. A wrong answer (e.g., placing Chondrichthyes after Osteichthyes or omitting Cyclostomata) reveals the student has not memorized the phylogenetic sequence from jawless to jawed vertebrates and the split between Pisces (fins) and Tetrapoda (limbs).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Cyclostomata are considered the most primitive living vertebrates despite being parasitic on fishes.",
+     "a": "Cyclostomata lack jaws (agnatha), have a cartilaginous cranium and vertebral column, possess 6-15 pairs of gill slits without operculum, lack paired fins and scales, and have a two-chambered heart. These are ancestral chordate traits retained from early vertebrate evolution. Their parasitic lifestyle is a secondary specialization, not a primitive feature. A wrong answer focusing only on parasitism reveals confusion between evolutionary primitiveness and ecological niche.",
+     "self_check": true
+    },
+    {
+     "q": "A vertebrate specimen has a streamlined body, cartilaginous endoskeleton, placoid scales, ventral mouth, separate gill slits without operculum, and males possess claspers on pelvic fins. Identify its class and justify using three features.",
+     "a": "Class: Chondrichthyes. Justification: (1) Cartilaginous endoskeleton (not bony like Osteichthyes), (2) Placoid scales (dermal denticles, distinct from cycloid/ctenoid scales of bony fish), (3) Separate gill slits without operculum (Osteichthyes have operculum). Claspers confirm internal fertilization typical of Chondrichthyes. A wrong classification as Osteichthyes reveals inability to distinguish scale types and gill covering structures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heart structure and circulatory efficiency across the five tetrapod classes (Amphibia, Reptilia, Aves, Mammalia) and explain how the degree of ventricular separation correlates with metabolic rate and thermoregulation.",
+     "a": "Amphibia and most Reptilia have three-chambered hearts (two atria, one partially divided ventricle) allowing some mixing of oxygenated/deoxygenated blood, supporting lower metabolic rates and poikilothermy. Crocodilia (Reptilia), Aves, and Mammalia have fully four-chambered hearts (two atria, two ventricles) enabling complete separation of pulmonary and systemic circuits. This supports high-pressure systemic circulation, higher oxygen delivery, and sustained endothermy (homeothermy) in birds and mammals. A wrong answer stating all reptiles have three chambers ignores the crocodilian exception and misses the evolutionary link between ventricular separation and endothermy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All fishes are cold-blooded, have two-chambered hearts, and respire only through gills.\" Identify the inaccuracies and provide correct examples.",
+     "a": "The statement is partially incorrect. While Chondrichthyes and Osteichthyes are poikilothermic with two-chambered hearts, some Osteichthyes (e.g., Lungfish, *Protopterus*) have lung-like air bladders for aerial respiration and can aestivate. Also, some fishes like Tuna exhibit regional endothermy. Cyclostomes have two-chambered hearts but lack jaws. A student accepting the statement wholesale reveals overgeneralization and ignorance of exceptional adaptations within Pisces that foreshadow tetrapod traits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key with four couplets to distinguish the four amniote classes (Reptilia, Aves, Mammalia) plus Amphibia as the outgroup, using only skin covering, heart chambers, fertilization type, and limb modification.",
+     "a": "1a. Skin moist, no scales; fertilization external → Amphibia\n1b. Skin dry with scales/feathers/hair; fertilization internal → 2\n2a. Skin with feathers; forelimbs modified as wings; four-chambered heart → Aves\n2b. Skin with scales or hair; forelimbs not wings (usually) → 3\n3a. Skin with epidermal scales/scutes; heart usually three-chambered (four in crocodiles) → Reptilia\n3b. Skin with hair; mammary glands present; four-chambered heart → Mammalia\nA poor key using non-diagnostic traits (e.g., \"lays eggs\" which applies to all except some mammals) reveals inability to select phylogenetically informative characters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_009",
+   "title": "c11_bio_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define a virus and state the two types of nucleic acid it can contain.",
+     "a": "A virus is a non-cellular, obligate intracellular parasite consisting of a nucleic acid core (either DNA or RNA, never both) surrounded by a protein capsid. The two types of nucleic acid are DNA and RNA. A wrong answer (e.g., \"viruses contain both DNA and RNA\" or \"viruses are cellular\") reveals the student hasn't grasped the fundamental acellular nature and the mutual exclusivity of viral genetic material — a critical distinction from cellular organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Why are viruses considered non-living outside a host cell but living inside? Explain using two specific criteria of life.",
+     "a": "Outside a host, viruses are inert crystals: they lack metabolism, cannot reproduce independently, and show no response to stimuli — failing criteria of metabolism and autonomous reproduction. Inside a host, they hijack ribosomes, ATP, and enzymes to replicate their genome and synthesise proteins, exhibiting reproduction and metabolism (albeit borrowed). A wrong answer focusing only on \"they replicate\" without mentioning host-dependence shows confusion between autonomous life processes and parasitic replication.",
+     "self_check": true
+    },
+    {
+     "q": "A new plant pathogen is discovered. It passes through filters that retain viruses, consists only of low-molecular-weight circular ssRNA, and lacks a protein coat. Identify it as a virus or viroid and justify.",
+     "a": "It is a viroid. Step 1: Filterability smaller than viruses indicates size < viruses. Step 2: Composition is only RNA — no protein coat (capsid) means it cannot be a virus. Step 3: Circular ssRNA of low molecular weight matches Diener's discovery of potato spindle tuber viroid. A wrong answer identifying it as a virus reveals inability to apply the defining structural difference: viruses always have a capsid, viroids never do.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural symmetry and genetic material of Tobacco Mosaic Virus (TMV) and Bacteriophage. How does this relate to their hosts?",
+     "a": "TMV: helical symmetry, single-stranded RNA (plant virus). Bacteriophage: polyhedral head with helical tail, double-stranded DNA (bacterial virus). Plant viruses typically have ssRNA and helical/rod shapes; bacteriophages have dsDNA and complex polyhedral+tail structures for injecting DNA into bacteria. A wrong answer swapping genetic material types (e.g., TMV has DNA) shows failure to link nucleic acid type to host kingdom — a pattern NCERT explicitly states.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since viruses replicate and evolve, they should be placed in a separate kingdom in Whittaker's classification.\" Provide two reasons against this.",
+     "a": "The statement is incorrect. Reason 1: Whittaker's criteria require cell structure (prokaryotic/eukaryotic), body organisation, and mode of nutrition — viruses lack all three (acellular, no organisation, no nutrition). Reason 2: Viruses are obligate parasites with no metabolic machinery; they cannot be classified as autotrophs, heterotrophs, or saprotrophs. A wrong answer agreeing reveals misunderstanding that classification is based on cellular organisation, not just replication ability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that the infectious agent of potato spindle tuber disease is RNA-only and lacks protein.",
+     "a": "Extract sap from infected plants. Treat one portion with protease (degrades protein) and another with RNase (degrades RNA). Inoculate healthy plants: protease-treated sap remains infectious (protein not needed), RNase-treated sap loses infectivity (RNA essential). This mirrors Diener's 1971 experiment. A poor answer suggesting only filtration or heat treatment shows inability to design a controlled biochemical test targeting specific macromolecules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

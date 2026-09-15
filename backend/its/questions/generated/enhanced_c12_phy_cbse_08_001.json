@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_08_001",
+   "title": "c12_phy_cbse_08_001",
+   "questions": [
+    {
+     "q": "A parallel plate capacitor with circular plates of radius 10 cm is being charged by a steady current of 0.5 A. What is the displacement current between the plates? (Assume no edge effects.)",
+     "a": "The displacement current equals the conduction current: \\( i_d = 0.5 \\, \\text{A} \\). In a charging capacitor, the displacement current between the plates exactly equals the conduction current in the wires to maintain continuity. A wrong answer (e.g., zero or a different value) reveals the student thinks displacement current is a separate independent current rather than the continuation of the same current through the electric field.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the original Ampere's circuital law \\( \\oint \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 i_{\\text{enc}} \\) give contradictory results when applied to a charging capacitor using two different surfaces bounded by the same Amperian loop?",
+     "a": "Surface 1 cuts the wire and encloses conduction current \\( i_c \\), giving \\( B = \\mu_0 i_c / (2\\pi r) \\). Surface 2 passes between the plates and encloses no conduction current (\\( i_c = 0 \\)), giving \\( B = 0 \\). The magnetic field at the same point cannot have two values. The law is incomplete because it ignores the changing electric flux between the plates. A wrong answer (e.g., \"magnetic field is zero between plates\") shows the student does not grasp that the physical B-field must be unique regardless of the mathematical surface chosen.",
+     "self_check": true
+    },
+    {
+     "q": "A parallel plate capacitor of plate area \\( A = 2.0 \\times 10^{-2} \\, \\text{m}^2 \\) has a time-varying electric field \\( E(t) = (3.0 \\times 10^4 \\, \\text{V/m}) \\sin(2\\pi \\times 10^6 t) \\) between its plates. Calculate the displacement current at \\( t = 0 \\). (Given \\( \\varepsilon_0 = 8.85 \\times 10^{-12} \\, \\text{F/m} \\).)",
+     "a": "**Step 1:** Electric flux \\( \\Phi_E = E A = (3.0 \\times 10^4 \\sin(2\\pi \\times 10^6 t)) \\times (2.0 \\times 10^{-2}) = 600 \\sin(2\\pi \\times 10^6 t) \\, \\text{V·m} \\).\n**Step 2:** \\( \\frac{d\\Phi_E}{dt} = 600 \\times 2\\pi \\times 10^6 \\cos(2\\pi \\times 10^6 t) = 1.2\\pi \\times 10^9 \\cos(2\\pi \\times 10^6 t) \\, \\text{V·m/s} \\).\n**Step 3:** At \\( t = 0 \\), \\( \\cos(0) = 1 \\), so \\( \\frac{d\\Phi_E}{dt} = 1.2\\pi \\times 10^9 \\, \\text{V·m/s} \\).\n**Step 4:** \\( i_d = \\varepsilon_0 \\frac{d\\Phi_E}{dt} = (8.85 \\times 10^{-12}) \\times (1.2\\pi \\times 10^9) = 3.34 \\times 10^{-2} \\, \\text{A} = 33.4 \\, \\text{mA} \\).\nA wrong answer (e.g., missing \\( \\varepsilon_0 \\), wrong derivative, or unit error) reveals confusion between electric field rate of change and electric flux rate of change, or mishandling of \\( \\varepsilon_0 \\) units.",
+     "self_check": true
+    },
+    {
+     "q": "In a charging capacitor, the conduction current \\( i_c \\) in the connecting wires is 2.0 A. At a point P outside the capacitor but near the wire, the magnetic field is measured. At a point M between the plates, at the same radial distance from the axis, the magnetic field is also measured. How do the two magnetic fields compare? Explain using the Ampere-Maxwell law.",
+     "a": "The magnetic fields at P and M are equal in magnitude. At P, the Amperian loop encloses only conduction current \\( i_c = 2.0 \\, \\text{A} \\) (since \\( i_d = 0 \\) outside). At M, the same loop encloses only displacement current \\( i_d = 2.0 \\, \\text{A} \\) (since \\( i_c = 0 \\) between plates). By Ampere-Maxwell law \\( \\oint \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 (i_c + i_d) \\), the total enclosed current is 2.0 A in both cases, so B is identical. A wrong answer (e.g., \"B is zero at M\") indicates the student treats displacement current as \"not real\" current.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Displacement current is just a mathematical trick; it doesn't produce a real magnetic field because no charges are moving.\" Evaluate this statement. Design an experiment to test whether the magnetic field between capacitor plates is physically real.",
+     "a": "The statement is false. Displacement current produces a magnetic field identical in every measurable way to that from conduction current. Experiment: Use a small magnetic needle (or a Hall sensor) placed between the plates of a large parallel plate capacitor driven by a high-frequency AC source (e.g., 1 MHz, 10 V). The needle deflects, confirming a real magnetic field. Alternatively, measure the induced emf in a small pickup coil placed between the plates — a time-varying B-field induces emf per Faraday's law. A wrong evaluation (agreeing with the student) reveals the misconception that only moving charges create magnetic fields, ignoring Maxwell's symmetry principle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world analogy for displacement current using a water flow model. Explain how your analogy captures (a) the continuity of \"current\" through a gap, and (b) the role of the time-varying field.",
+     "a": "Analogy: Water flows through a pipe (wire) into a flexible rubber balloon (capacitor gap). The balloon stretches — water doesn't cross the rubber, but the stretching membrane (electric field) transmits the \"flow\" to the other side. The rate of volume increase inside the balloon is \\( dV/dt \\), analogous to \\( d\\Phi_E/dt \\). The \"displacement current\" is the effective flow through the gap. A poor analogy (e.g., water jumping the gap) fails to capture that no medium crosses the gap, yet the effect is continuous. This tests whether the student understands displacement current as a field-mediated continuity, not charge transport.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

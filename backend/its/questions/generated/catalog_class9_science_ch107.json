@@ -1,0 +1,845 @@
+{
+ "catalog": "catalog_class9_science_ch107.json",
+ "concepts": [
+  {
+   "id": "iesc.107.1",
+   "title": "Work Done by a Constant Force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "displacement_cm",
+     "expr": "displacement * 100",
+     "explain": "displacement in centimetres"
+    },
+    {
+     "step": 2,
+     "name": "half_force_work",
+     "expr": "(force / 2) * displacement",
+     "explain": "work if the force were halved"
+    },
+    {
+     "step": 3,
+     "name": "work",
+     "expr": "force * displacement",
+     "explain": "W = F x s when force acts along the motion"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A force of 20 N moves a box 5 m along the force. Find the work done.",
+     "vals": {
+      "force": 20,
+      "displacement": 5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "100 J",
+     "self_check": false
+    },
+    {
+     "q": "A porter lifts a 15 kg sack with 150 N force through 2 m. Calculate the work.",
+     "vals": {
+      "force": 150,
+      "displacement": 2
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "300 J",
+     "self_check": false
+    },
+    {
+     "q": "A horse pulls a cart with 300 N over 50 m. Compute the work done.",
+     "vals": {
+      "force": 300,
+      "displacement": 50
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "15000 J",
+     "self_check": false
+    },
+    {
+     "q": "Find the work done by a 2.5 N force acting through 8 m.",
+     "vals": {
+      "force": 2.5,
+      "displacement": 8
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "20 J",
+     "self_check": false
+    },
+    {
+     "q": "An engine applies 5000 N to move a train 100 m. What work is done?",
+     "vals": {
+      "force": 5000,
+      "displacement": 100
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "500000 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.2",
+   "title": "Negative Work Done by a Retarding Force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "work_magnitude",
+     "expr": "force * displacement",
+     "explain": "size of the work done against motion"
+    },
+    {
+     "step": 2,
+     "name": "work_kj",
+     "expr": "work_magnitude / 1000",
+     "explain": "size of the work in kilojoules"
+    },
+    {
+     "step": 3,
+     "name": "work_signed",
+     "expr": "0 - work_magnitude",
+     "explain": "friction opposes motion, so the work is negative"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Friction of 10 N acts on a block sliding 4 m. Find the work done by friction.",
+     "vals": {
+      "force": 10,
+      "displacement": 4
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "-40 J",
+     "self_check": false
+    },
+    {
+     "q": "A sledge is dragged 12 m while friction acts with 25 N. What work does friction do?",
+     "vals": {
+      "force": 25,
+      "displacement": 12
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "-300 J",
+     "self_check": false
+    },
+    {
+     "q": "Brakes apply 400 N of friction over 20 m. Calculate the work done by braking.",
+     "vals": {
+      "force": 400,
+      "displacement": 20
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "-8000 J",
+     "self_check": false
+    },
+    {
+     "q": "A 50 N retarding force stops a trolley in 6 m. Find the work by this force.",
+     "vals": {
+      "force": 50,
+      "displacement": 6
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "-300 J",
+     "self_check": false
+    },
+    {
+     "q": "Air drag of 200 N acts on a bus moving 150 m. Compute the drag's work.",
+     "vals": {
+      "force": 200,
+      "displacement": 150
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "-30000 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.3",
+   "title": "Kinetic Energy",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "velocity_squared",
+     "expr": "velocity ** 2",
+     "explain": "square the speed"
+    },
+    {
+     "step": 2,
+     "name": "ke_half_speed",
+     "expr": "0.5 * mass * (velocity / 2) ** 2",
+     "explain": "kinetic energy at half the speed"
+    },
+    {
+     "step": 3,
+     "name": "kinetic_energy",
+     "expr": "0.5 * mass * velocity_squared",
+     "explain": "KE = (1/2)mv squared"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the kinetic energy of a 10 kg object moving at 5 m/s.",
+     "vals": {
+      "mass": 10,
+      "velocity": 5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "125 J",
+     "self_check": false
+    },
+    {
+     "q": "A 800 kg car moves at 20 m/s. Calculate its kinetic energy.",
+     "vals": {
+      "mass": 800,
+      "velocity": 20
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "160000 J",
+     "self_check": false
+    },
+    {
+     "q": "A 0.5 kg ball is thrown at 10 m/s. What is its kinetic energy?",
+     "vals": {
+      "mass": 0.5,
+      "velocity": 10
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "25 J",
+     "self_check": false
+    },
+    {
+     "q": "A 60 kg runner runs at 8 m/s. Compute the runner's kinetic energy.",
+     "vals": {
+      "mass": 60,
+      "velocity": 8
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "1920 J",
+     "self_check": false
+    },
+    {
+     "q": "A 2 kg stone rolls at 3 m/s. Find its kinetic energy.",
+     "vals": {
+      "mass": 2,
+      "velocity": 3
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "9 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.4",
+   "title": "Gravitational Potential Energy",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "energy_per_kg",
+     "expr": "g * height",
+     "explain": "energy stored per kilogram raised"
+    },
+    {
+     "step": 2,
+     "name": "pe_half_height",
+     "expr": "mass * g * (height / 2)",
+     "explain": "potential energy at half the height"
+    },
+    {
+     "step": 3,
+     "name": "potential_energy",
+     "expr": "mass * g * height",
+     "explain": "PE = mgh"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the potential energy of a 10 kg box lifted 2 m (g = 9.8 m/s2).",
+     "vals": {
+      "mass": 10,
+      "g": 9.8,
+      "height": 2
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "196 J",
+     "self_check": false
+    },
+    {
+     "q": "A 0.5 kg book rests on a 1.5 m shelf. Calculate its potential energy.",
+     "vals": {
+      "mass": 0.5,
+      "g": 9.8,
+      "height": 1.5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "7.35 J",
+     "self_check": false
+    },
+    {
+     "q": "A 60 kg climber stands 100 m up a cliff. What is her potential energy (g = 9.8)?",
+     "vals": {
+      "mass": 60,
+      "g": 9.8,
+      "height": 100
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "58800 J",
+     "self_check": false
+    },
+    {
+     "q": "A 2 kg flowerpot hangs 5 m above the ground. Compute its PE.",
+     "vals": {
+      "mass": 2,
+      "g": 9.8,
+      "height": 5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "98 J",
+     "self_check": false
+    },
+    {
+     "q": "A pump raises 100 kg of water by 20 m. Find the energy stored (g = 9.8).",
+     "vals": {
+      "mass": 100,
+      "g": 9.8,
+      "height": 20
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "19600 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.5",
+   "title": "Conservation of Mechanical Energy in Free Fall",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "twice_gh",
+     "expr": "2 * g * height",
+     "explain": "from energy conservation, v squared = 2gh"
+    },
+    {
+     "step": 2,
+     "name": "double_speed_height",
+     "expr": "(twice_gh * 4) / (2 * g)",
+     "explain": "height that would double the landing speed"
+    },
+    {
+     "step": 3,
+     "name": "velocity",
+     "expr": "sqrt(twice_gh)",
+     "explain": "speed gained in free fall from the height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the speed of a body falling freely from 20 m (g = 9.8 m/s2).",
+     "vals": {
+      "g": 9.8,
+      "height": 20
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "19.799 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A fruit drops from a 5 m branch. With what speed does it hit the ground?",
+     "vals": {
+      "g": 9.8,
+      "height": 5
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "9.89949 m/s",
+     "self_check": false
+    },
+    {
+     "q": "An object is released from 45 m. Calculate its speed on reaching the ground.",
+     "vals": {
+      "g": 9.8,
+      "height": 45
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "29.6985 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A ball falls from 11.25 m. Find its landing speed (g = 9.8).",
+     "vals": {
+      "g": 9.8,
+      "height": 11.25
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "14.8492 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Water falls 125 m down a dam. What speed does it gain?",
+     "vals": {
+      "g": 9.8,
+      "height": 125
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "49.4975 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.6",
+   "title": "Power as Rate of Doing Work",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "power",
+     "expr": "work / time",
+     "explain": "power is work done per second"
+    },
+    {
+     "step": 2,
+     "name": "power_hp",
+     "expr": "power / 746",
+     "explain": "power in horsepower"
+    },
+    {
+     "step": 3,
+     "name": "power_kw",
+     "expr": "power / 1000",
+     "explain": "convert watts to kilowatts"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A crane does 60000 J of work in 30 s. Find its power in kW.",
+     "vals": {
+      "work": 60000,
+      "time": 30
+     },
+     "unit": "kW",
+     "steps": null,
+     "a": "2 kW",
+     "self_check": false
+    },
+    {
+     "q": "A boy climbs doing 3000 J of work in 5 s. Calculate his power.",
+     "vals": {
+      "work": 3000,
+      "time": 5
+     },
+     "unit": "kW",
+     "steps": null,
+     "a": "0.6 kW",
+     "self_check": false
+    },
+    {
+     "q": "An engine does 900000 J in 60 s. What is its power in kW?",
+     "vals": {
+      "work": 900000,
+      "time": 60
+     },
+     "unit": "kW",
+     "steps": null,
+     "a": "15 kW",
+     "self_check": false
+    },
+    {
+     "q": "A pump lifts water using 48000 J in 40 s. Find the power.",
+     "vals": {
+      "work": 48000,
+      "time": 40
+     },
+     "unit": "kW",
+     "steps": null,
+     "a": "1.2 kW",
+     "self_check": false
+    },
+    {
+     "q": "A machine works at 25000 J per 10 s. Compute its power in kW.",
+     "vals": {
+      "work": 25000,
+      "time": 10
+     },
+     "unit": "kW",
+     "steps": null,
+     "a": "2.5 kW",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.7",
+   "title": "Mechanical Advantage",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "effort_saved",
+     "expr": "load - effort",
+     "explain": "how much effort the machine saves"
+    },
+    {
+     "step": 2,
+     "name": "effort_fraction",
+     "expr": "effort / load",
+     "explain": "effort as a fraction of the load"
+    },
+    {
+     "step": 3,
+     "name": "mechanical_advantage",
+     "expr": "load / effort",
+     "explain": "MA = load lifted / effort applied"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A machine lifts a 600 N load with 200 N effort. Find the effort saved and the mechanical advantage.",
+     "vals": {
+      "load": 600,
+      "effort": 200
+     },
+     "unit": null,
+     "steps": null,
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A crowbar lifts a 900 N rock with 150 N effort. Calculate the effort saved and the MA.",
+     "vals": {
+      "load": 900,
+      "effort": 150
+     },
+     "unit": null,
+     "steps": null,
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A pulley system lifts 480 N using 160 N effort. Find the effort saved and the MA.",
+     "vals": {
+      "load": 480,
+      "effort": 160
+     },
+     "unit": null,
+     "steps": null,
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A lever raises a 100 N load with 40 N effort. What effort is saved, and what is the MA?",
+     "vals": {
+      "load": 100,
+      "effort": 40
+     },
+     "unit": null,
+     "steps": null,
+     "a": "2.5",
+     "self_check": false
+    },
+    {
+     "q": "A machine lifts 450 N using 90 N effort. Compute the effort saved and the MA.",
+     "vals": {
+      "load": 450,
+      "effort": 90
+     },
+     "unit": null,
+     "steps": null,
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.8",
+   "title": "Mechanical Advantage of an Inclined Plane",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mechanical_advantage",
+     "expr": "length / height",
+     "explain": "ideal MA of an inclined plane is its length over its height"
+    },
+    {
+     "step": 2,
+     "name": "steepness",
+     "expr": "height / length",
+     "explain": "steepness of the inclined plane"
+    },
+    {
+     "step": 3,
+     "name": "effort_needed",
+     "expr": "load / mechanical_advantage",
+     "explain": "effort = load / MA"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A ramp is 5 m long rising 1 m. Find its ideal MA and the effort to push a 300 N barrel up it.",
+     "vals": {
+      "length": 5,
+      "height": 1,
+      "load": 300
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "60 N",
+     "self_check": false
+    },
+    {
+     "q": "A plank 4 m long reaches a 2 m ledge. Calculate the MA and the effort for a 200 N box.",
+     "vals": {
+      "length": 4,
+      "height": 2,
+      "load": 200
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "100 N",
+     "self_check": false
+    },
+    {
+     "q": "A road rises 10 m over 200 m of length. Find the ideal MA and effort for a 9000 N car.",
+     "vals": {
+      "length": 200,
+      "height": 10,
+      "load": 9000
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "450 N",
+     "self_check": false
+    },
+    {
+     "q": "A slope of length 6 m climbs 3 m. What effort slides a 150 N crate up it?",
+     "vals": {
+      "length": 6,
+      "height": 3,
+      "load": 150
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "75 N",
+     "self_check": false
+    },
+    {
+     "q": "A gangway 8 m long rises 2 m. Compute the MA and effort for a 480 N drum.",
+     "vals": {
+      "length": 8,
+      "height": 2,
+      "load": 480
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "120 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.9",
+   "title": "Principle of Levers",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "load_moment",
+     "expr": "load * load_arm",
+     "explain": "moment of the load about the fulcrum"
+    },
+    {
+     "step": 2,
+     "name": "arm_ma",
+     "expr": "effort_arm / load_arm",
+     "explain": "mechanical advantage from the arm lengths"
+    },
+    {
+     "step": 3,
+     "name": "effort",
+     "expr": "load_moment / effort_arm",
+     "explain": "balance moments: effort x effort arm = load x load arm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A crowbar has a 60 cm load arm and 180 cm effort arm. What effort balances a 300 N load?",
+     "vals": {
+      "load": 300,
+      "load_arm": 60,
+      "effort_arm": 180
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "100 N",
+     "self_check": false
+    },
+    {
+     "q": "A lever's load arm is 20 cm and effort arm 100 cm. Find the effort for a 500 N load.",
+     "vals": {
+      "load": 500,
+      "load_arm": 20,
+      "effort_arm": 100
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "100 N",
+     "self_check": false
+    },
+    {
+     "q": "In a see-saw, a 400 N child sits 90 cm from the pivot. Where must a 300 N child sit to balance it?",
+     "vals": {
+      "load": 400,
+      "load_arm": 90,
+      "effort_arm": 300
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "120 cm",
+     "self_check": false
+    },
+    {
+     "q": "A nutcracker has load arm 3 cm and effort arm 15 cm. What effort cracks a 250 N nut?",
+     "vals": {
+      "load": 250,
+      "load_arm": 3,
+      "effort_arm": 15
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "50 N",
+     "self_check": false
+    },
+    {
+     "q": "A wheelbarrow carries 700 N at 40 cm from the wheel; the handles are 120 cm away. Find the lifting effort.",
+     "vals": {
+      "load": 700,
+      "load_arm": 40,
+      "effort_arm": 120
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "233.333 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.10",
+   "title": "Mechanical Advantage of a Lever",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mechanical_advantage",
+     "expr": "effort_arm / load_arm",
+     "explain": "MA of a lever is effort arm over load arm"
+    },
+    {
+     "step": 2,
+     "name": "inverse_arm_ratio",
+     "expr": "load_arm / effort_arm",
+     "explain": "inverse ratio of the arms"
+    },
+    {
+     "step": 3,
+     "name": "effort_needed",
+     "expr": "load / mechanical_advantage",
+     "explain": "effort required = load / MA"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A lever has a 90 cm effort arm and 30 cm load arm. Find its MA and the effort for a 240 N load.",
+     "vals": {
+      "effort_arm": 90,
+      "load_arm": 30,
+      "load": 240
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "80 N",
+     "self_check": false
+    },
+    {
+     "q": "Effort arm 60 cm, load arm 20 cm: calculate MA and effort for 300 N.",
+     "vals": {
+      "effort_arm": 60,
+      "load_arm": 20,
+      "load": 300
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "100 N",
+     "self_check": false
+    },
+    {
+     "q": "A lever has MA arms 150 cm and 50 cm. What effort lifts 450 N?",
+     "vals": {
+      "effort_arm": 150,
+      "load_arm": 50,
+      "load": 450
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "150 N",
+     "self_check": false
+    },
+    {
+     "q": "Find the MA and effort for a 100 N load with arms 25 cm and 75 cm.",
+     "vals": {
+      "effort_arm": 75,
+      "load_arm": 25,
+      "load": 100
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "33.3333 N",
+     "self_check": false
+    },
+    {
+     "q": "A pair of scissors class lever: effort arm 10 cm, load arm 4 cm, load 120 N. Compute MA and effort.",
+     "vals": {
+      "effort_arm": 10,
+      "load_arm": 4,
+      "load": 120
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "48 N",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

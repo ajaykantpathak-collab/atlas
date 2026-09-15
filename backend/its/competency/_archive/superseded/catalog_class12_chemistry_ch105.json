@@ -1,0 +1,747 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 105,
+ "chapter_title": "Coordination Compounds",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech105.txt",
+ "concepts": [
+  {
+   "id": "lech.105.1",
+   "title": "Werner's Theory and Valences",
+   "section": "5.1",
+   "definition": "Werner's theory describes coordination complexes by assigning two types of valences to the metal: ionizable primary valences and non-ionizable secondary valences.",
+   "formula": "secondary_valence = coordination_number",
+   "key_idea": "Primary valences correspond to the oxidation state, while secondary valences correspond to the coordination number.",
+   "textbook_ref": "lech105.txt lines 30-100",
+   "question_patterns": [
+    "determine the secondary valence of the metal from precipitation data",
+    "calculate the secondary valence of the central metal in the compound",
+    "on the basis of precipitation with excess silver nitrate, assign the secondary valence",
+    "work out the value using werner's theory and valences",
+    "calculate werner's theory and valences for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the number of coordinated anions inside the coordination sphere",
+     "explain": "Subtract the number of precipitated anions from the total number of anions in the formula.",
+     "compute": "coordinated_anions = total_anions - precipitated_anions"
+    },
+    {
+     "step": 2,
+     "action": "Sum the coordinated anions and neutral ligands to find the secondary valence",
+     "explain": "The secondary valence is the total number of ligands directly coordinated to the metal.",
+     "compute": "secondary_valence = coordinated_anions + neutral_ligands"
+    },
+    {
+     "step": 3,
+     "action": "Verify the primary valence from the precipitated anions",
+     "explain": "The number of ionisable (primary) valences equals the count of anions precipitated by AgNO3, confirming the oxidation state of the metal."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.2",
+   "title": "Coordination Number of Central Metal",
+   "section": "5.2(d)",
+   "definition": "How many ligand donor atoms are bonded straight to the central metal ion.",
+   "formula": "coordination_number = sum(ligand_count * denticity)",
+   "key_idea": "The coordination number varies with both the number of ligands and their individual denticities.",
+   "textbook_ref": "lech105.txt lines 190-220",
+   "question_patterns": [
+    "find the coordination number of the metal in the complex",
+    "calculate the coordination number of the central atom",
+    "what is the coordination number of the metal in",
+    "calculate coordination number of central metal for the given values",
+    "find the required value in a coordination number of central metal problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the total coordination number from the ligands",
+     "explain": "Multiply each ligand count by its respective denticity and sum the products.",
+     "compute": "coordination_number = count_a * denticity_a + count_b * denticity_b"
+    },
+    {
+     "step": 2,
+     "action": "Identify the denticity of each ligand type",
+     "explain": "Monodentate ligands (e.g. Cl-, NH3) donate one donor atom each, while bidentate (e.g. en, ox) donate two and hexadentate (e.g. EDTA) donate six."
+    },
+    {
+     "step": 3,
+     "action": "Verify the coordination number against the metal geometry",
+     "explain": "Common coordination numbers are 4 (tetrahedral or square planar) and 6 (octahedral); the computed value should match one of these expected geometries."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.3",
+   "title": "Oxidation State of Central Metal",
+   "section": "5.2(g)",
+   "definition": "The charge that the central metal atom would carry if all ligands were indeed removed together with the electron pairs shared with them.",
+   "formula": "oxidation_state = complex_charge - sum(ligand_count * ligand_charge)",
+   "key_idea": "The charges on the metal ion and all ligands add up to the overall charge of the coordination entity.",
+   "textbook_ref": "lech105.txt lines 235-245",
+   "question_patterns": [
+    "calculate the oxidation number of the central metal",
+    "find the oxidation state of the metal in the complex",
+    "determine the oxidation state of the central atom in",
+    "calculate oxidation state of central metal for the given values",
+    "find the required value in a oxidation state of central metal problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the total charge contributed by the ligands",
+     "explain": "Multiply the count of each ligand by its charge and sum them up.",
+     "compute": "total_ligand_charge = count_a * charge_a + count_b * charge_b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the oxidation state of the metal",
+     "explain": "Subtract the total ligand charge from the overall charge of the complex.",
+     "compute": "oxidation_state = complex_charge - total_ligand_charge"
+    },
+    {
+     "step": 3,
+     "action": "Verify the oxidation state is chemically reasonable",
+     "explain": "Check that the calculated oxidation state is a common or known stable state for the given metal (e.g. Fe2+/Fe3+, Co3+, Pt2+), ensuring the charge balance of the entire complex is correct."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.4",
+   "title": "IUPAC Nomenclature of Coordination Compounds",
+   "section": "5.3.2",
+   "definition": "Systematic rules established by IUPAC for naming coordination complexes, where ligands are named alphabetically as prefixes followed by the central metal and its oxidation state.",
+   "formula": "None",
+   "key_idea": "The cation is indeed named first, ligands are listed alphabetically, and the metal's oxidation state is written in Roman numerals.",
+   "textbook_ref": "lech105.txt lines 280-350",
+   "question_patterns": [
+    "write the IUPAC name of the coordination compound",
+    "give the systematic name of the complex",
+    "what is the IUPAC name of",
+    "give one everyday example of iupac nomenclature of coordination compounds",
+    "short note on iupac nomenclature of coordination compounds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cation and anion parts of the compound",
+     "explain": "Determine which part of the coordination compound is positively charged and which is negatively charged."
+    },
+    {
+     "step": 2,
+     "action": "Determine the oxidation state of the central metal",
+     "explain": "Calculate the oxidation state of the metal using the charges of the ligands and the complex."
+    },
+    {
+     "step": 3,
+     "action": "List and name the ligands alphabetically",
+     "explain": "Use prefixes like di-, tri-, tetra- or bis-, tris- to indicate ligand quantities, and name them in alphabetical order."
+    },
+    {
+     "step": 4,
+     "action": "Assemble the full name",
+     "explain": "Combine the ligand names with the metal name (ending in -ate if the complex is anionic) and the oxidation state in parentheses."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.5",
+   "title": "Isomerism in Coordination Compounds",
+   "section": "5.4",
+   "definition": "The existence of coordination compounds with identical molecular formulas but different structural arrangements or spatial orientations of their atoms.",
+   "formula": "None",
+   "key_idea": "Isomers are classified into structural isomers (linkage, coordination, ionisation, solvate) and stereoisomers (geometrical, optical).",
+   "textbook_ref": "lech105.txt lines 380-500",
+   "question_patterns": [
+    "identify the type of isomerism exhibited by",
+    "how many geometrical isomers are possible for",
+    "draw the structures of the optical isomers of",
+    "how does isomerism in coordination compounds work",
+    "list the main features of isomerism in coordination compounds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the chemical formula and coordination sphere",
+     "explain": "Check for the presence of ambidentate ligands, exchangeable counter-ions, or different metal centers."
+    },
+    {
+     "step": 2,
+     "action": "Determine the coordination geometry",
+     "explain": "Identify if the complex is square planar or octahedral to evaluate stereochemical possibilities."
+    },
+    {
+     "step": 3,
+     "action": "Check for symmetry and chirality",
+     "explain": "If the complex lacks a plane of symmetry (typically cis-octahedral with didentate ligands), it exhibits optical isomerism."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.6",
+   "title": "Valence Bond Theory and Hybridisation",
+   "section": "5.5.1",
+   "definition": "A bonding theory stating that the metal ion provides empty hybrid orbitals of definite geometry to accept electron pairs donated by ligands.",
+   "formula": "None",
+   "key_idea": "The coordination number determines the hybridisation scheme (sp3, dsp2, d2sp3, or sp3d2) and the resulting spatial geometry.",
+   "textbook_ref": "lech105.txt lines 510-580",
+   "question_patterns": [
+    "predict the hybridisation and geometry of the complex using VBT",
+    "explain why the complex is inner orbital or outer orbital",
+    "determine the geometry of the complex based on valence bond theory",
+    "state two key points about valence bond theory and hybridisation",
+    "why is valence bond theory and hybridisation important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the oxidation state and electronic configuration of the metal ion",
+     "explain": "Determine the number of d-electrons remaining on the central metal ion."
+    },
+    {
+     "step": 2,
+     "action": "Assess the field strength of the ligands",
+     "explain": "Strong-field ligands (like CN-, CO) cause pairing of d-electrons, while weak-field ligands (like Cl-, F-) do not."
+    },
+    {
+     "step": 3,
+     "action": "Identify the hybridisation type",
+     "explain": "Select vacant (n-1)d, ns, np or ns, np, nd orbitals to accommodate the ligand electron pairs."
+    },
+    {
+     "step": 4,
+     "action": "Deduce the geometry and magnetic nature",
+     "explain": "Assign geometry (tetrahedral, square planar, octahedral) and determine if the complex is paramagnetic or diamagnetic."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.7",
+   "title": "Spin-Only Magnetic Moment",
+   "section": "5.5.2",
+   "definition": "The magnetic moment of a coordination complex calculated from the number of unpaired d-electrons on the central metal ion.",
+   "formula": "mu = sqrt(n * (n + 2))",
+   "key_idea": "The magnetic moment grows with the number of unpaired both electrons and is measured in Bohr Magnetons (BM).",
+   "textbook_ref": "lech105.txt lines 580-620",
+   "question_patterns": [
+    "calculate the spin-only magnetic moment of",
+    "find the magnetic moment of the complex with unpaired electrons",
+    "predict the magnetic moment in Bohr Magnetons for",
+    "find the required value in a spin-only magnetic moment problem",
+    "solve a numerical on spin-only magnetic moment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the spin-only magnetic moment",
+     "explain": "Apply the formula mu = sqrt(n * (n + 2)) where n is the number of unpaired electrons.",
+     "compute": "mu = sqrt(n * (n + 2))"
+    },
+    {
+     "step": 2,
+     "action": "Determine the number of unpaired electrons from the d-electron count",
+     "explain": "Find the d^n configuration of the metal ion and distribute electrons according to the ligand field strength (high-spin or low-spin) to obtain n, the count of unpaired electrons.",
+     "compute": "n = count_unpaired(d_count, spin_state)"
+    },
+    {
+     "step": 3,
+     "action": "Express the result in Bohr Magnetons and interpret",
+     "explain": "Report mu in BM units; a value of zero indicates a diamagnetic complex, while a non-zero value indicates paramagnetism that increases with the number of unpaired electrons."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.8",
+   "title": "Crystal Field Splitting in Octahedral Complexes",
+   "section": "5.5.4(a)",
+   "definition": "The split of the five degenerate d-orbitals into a lower-energy t2g set and a higher-energy eg set, caused by electrostatic repulsion in an octahedral ligand field.",
+   "formula": "energy_difference = delta_o",
+   "key_idea": "The configuration of d4 to d7 ions hangs on the relative sizes of the crystal-field splitting energy (delta_o) and the pairing energy (P).",
+   "textbook_ref": "lech105.txt lines 640-710",
+   "question_patterns": [
+    "explain the crystal field splitting in an octahedral complex",
+    "write the electronic configuration of d4 ion in octahedral field when delta_o is greater than P",
+    "determine the d-orbital configuration of the metal in octahedral field",
+    "explain crystal field splitting in octahedral complexes in your own words",
+    "describe crystal field splitting in octahedral complexes with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the number of d-electrons on the metal ion",
+     "explain": "Find the oxidation state and write the corresponding d^n configuration."
+    },
+    {
+     "step": 2,
+     "action": "Compare the splitting energy (delta_o) with the pairing energy (P)",
+     "explain": "If delta_o > P, it is a strong-field/low-spin complex. If delta_o < P, it is a weak-field/high-spin complex."
+    },
+    {
+     "step": 3,
+     "action": "Distribute electrons into t2g and eg orbitals",
+     "explain": "Fill the lower t2g orbitals first, pairing electrons if in a strong field, or placing them in eg if in a weak field."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.9",
+   "title": "Crystal Field Splitting in Tetrahedral Complexes",
+   "section": "5.5.4(b)",
+   "definition": "The splitting of d-orbitals in a tetrahedral ligand field where the e set is lower in energy and the t2 set is higher in energy, with a smaller splitting magnitude than in octahedral fields.",
+   "formula": "delta_t = 4 * delta_o / 9",
+   "key_idea": "Because the tetrahedral splitting energy is small, electrons do not pair up easily, making low-spin tetrahedral complexes extremely rare.",
+   "textbook_ref": "lech105.txt lines 715-730",
+   "question_patterns": [
+    "calculate the tetrahedral crystal field splitting energy from octahedral splitting",
+    "what is the relation between tetrahedral and octahedral splitting energy",
+    "find the value of delta_t given delta_o",
+    "work out the value using crystal field splitting in tetrahedral complexes",
+    "calculate crystal field splitting in tetrahedral complexes for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the tetrahedral splitting energy",
+     "explain": "Multiply the octahedral splitting energy by 4/9 to obtain the tetrahedral splitting energy.",
+     "compute": "delta_t = 4 * delta_o / 9"
+    },
+    {
+     "step": 2,
+     "action": "Identify the orbital energy ordering in a tetrahedral field",
+     "explain": "In a tetrahedral field the e set is lower in energy and the t2 set is higher, which is the reverse of the octahedral splitting pattern."
+    },
+    {
+     "step": 3,
+     "action": "Explain why low-spin tetrahedral complexes are rare",
+     "explain": "Because delta_t is only 4/9 of delta_o and is smaller than the pairing energy P, electrons prefer to occupy higher-energy orbitals rather than pair up, so tetrahedral complexes are almost always high-spin."
+    }
+   ]
+  },
+  {
+   "id": "lech.105.10",
+   "title": "Synergic Bonding in Metal Carbonyls",
+   "section": "5.6",
+   "definition": "A self-strengthening bonding mechanism in metal carbonyls involving sigma-donation from ligand to both metal and simultaneous pi-backdonation from metal to ligand.",
+   "formula": "None",
+   "key_idea": "The synergic effect strengthens both the metal-carbon both bond and weakens the carbon-oxygen bond.",
+   "textbook_ref": "lech105.txt lines 800-830",
+   "question_patterns": [
+    "explain the nature of bonding in metal carbonyls",
+    "what is synergic effect in coordination compounds",
+    "describe the synergic bonding in",
+    "describe synergic bonding in metal carbonyls with an example",
+    "what do you understand by synergic bonding in metal carbonyls"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the metal-carbon sigma bond",
+     "explain": "The carbonyl carbon donates its lone pair of electrons into a vacant metal d-orbital."
+    },
+    {
+     "step": 2,
+     "action": "Describe the metal-carbon pi bond",
+     "explain": "Filled metal d-orbitals donate electron density back into the vacant antibonding pi* orbitals of CO."
+    },
+    {
+     "step": 3,
+     "action": "Explain the synergic reinforcement",
+     "explain": "The sigma donation increases electron density on the metal, which in turn enhances its ability to back-donate via pi-bonding."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lech105.txt Example 5.1",
+   "concept": "lech.105.1",
+   "question_type": "compute",
+   "question_pattern": "For the coordination compound CoCl3.4NH3, {precipitated_anions} mole of AgCl is precipitated per mole of the compound with excess AgNO3. If the total number of chloride anions is {total_anions} and there are {neutral_ligands} neutral NH3 ligands, assign the secondary valence to the metal.",
+   "extracted_variables": {
+    "total_anions": "total number of chloride anions in the formula",
+    "precipitated_anions": "moles of AgCl precipitated per mole of compound",
+    "neutral_ligands": "number of coordinated neutral ammonia molecules"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the number of coordinated anions inside the coordination sphere",
+     "explain": "Subtract the number of precipitated anions from the total number of anions in the formula.",
+     "compute": "coordinated_anions = total_anions - precipitated_anions"
+    },
+    {
+     "step": 2,
+     "action": "Sum the coordinated anions and neutral ligands to find the secondary valence",
+     "explain": "The secondary valence is the total number of ligands directly coordinated to the metal.",
+     "compute": "secondary_valence = coordinated_anions + neutral_ligands"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lech105.txt Example 5.2",
+   "concept": "lech.105.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the oxidation state of the central metal in a complex with an overall charge of {complex_charge} and a total ligand charge of {total_ligand_charge}.",
+   "extracted_variables": {
+    "complex_charge": "overall net charge of the coordination entity",
+    "total_ligand_charge": "the sum of charges of all coordinated ligands"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine the oxidation state of the metal",
+     "explain": "Subtract the total ligand charge from the overall charge of the complex.",
+     "compute": "oxidation_state = complex_charge - total_ligand_charge"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lech105.txt Example 5.7",
+   "concept": "lech.105.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the spin-only magnetic moment in Bohr Magnetons for a coordination complex containing {n} unpaired electrons.",
+   "extracted_variables": {
+    "n": "number of unpaired d-electrons on the central metal ion"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the spin-only magnetic moment",
+     "explain": "Apply the formula mu = sqrt(n * (n + 2)) where n is the number of unpaired electrons.",
+     "compute": "mu = sqrt(n * (n + 2))"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lech105.txt Section 5.5.4(b)",
+   "concept": "lech.105.9",
+   "question_type": "compute",
+   "question_pattern": "If the crystal field splitting energy for an octahedral complex is {delta_o} cm-1, calculate the crystal field splitting energy for the corresponding tetrahedral complex.",
+   "extracted_variables": {
+    "delta_o": "octahedral crystal field splitting energy in cm-1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the tetrahedral splitting energy",
+     "explain": "Multiply the octahedral splitting energy by 4/9 to obtain the tetrahedral splitting energy.",
+     "compute": "delta_t = 4 * delta_o / 9"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lech105.txt lines 30-100",
+   "concept": "lech.105.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute werner's theory and valences step by step",
+   "extracted_variables": {
+    "total_anions": "value of total_anions",
+    "precipitated_anions": "value of precipitated_anions",
+    "neutral_ligands": "value of neutral_ligands"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the number of coordinated anions inside the coordination sphere",
+     "explain": "Subtract the number of precipitated anions from the total number of anions in the formula.",
+     "compute": "coordinated_anions = total_anions - precipitated_anions"
+    },
+    {
+     "step": 2,
+     "action": "Sum the coordinated anions and neutral ligands to find the secondary valence",
+     "explain": "The secondary valence is the total number of ligands directly coordinated to the metal.",
+     "compute": "secondary_valence = coordinated_anions + neutral_ligands"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "lech105.txt lines 190-220",
+   "concept": "lech.105.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute coordination number of central metal step by step",
+   "extracted_variables": {
+    "count_a": "value of count_a",
+    "denticity_a": "value of denticity_a",
+    "count_b": "value of count_b",
+    "denticity_b": "value of denticity_b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the total coordination number from the ligands",
+     "explain": "Multiply each ligand count by its respective denticity and sum the products.",
+     "compute": "coordination_number = count_a * denticity_a + count_b * denticity_b"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "lech105.txt lines 235-245",
+   "concept": "lech.105.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute oxidation state of central metal step by step",
+   "extracted_variables": {
+    "count_a": "value of count_a",
+    "charge_a": "value of charge_a",
+    "count_b": "value of count_b",
+    "charge_b": "value of charge_b",
+    "complex_charge": "value of complex_charge"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the total charge contributed by the ligands",
+     "explain": "Multiply the count of each ligand by its charge and sum them up.",
+     "compute": "total_ligand_charge = count_a * charge_a + count_b * charge_b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the oxidation state of the metal",
+     "explain": "Subtract the total ligand charge from the overall charge of the complex.",
+     "compute": "oxidation_state = complex_charge - total_ligand_charge"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "lech105.txt lines 580-620",
+   "concept": "lech.105.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute spin-only magnetic moment step by step",
+   "extracted_variables": {
+    "n": "value of n"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the spin-only magnetic moment",
+     "explain": "Apply the formula mu = sqrt(n * (n + 2)) where n is the number of unpaired electrons.",
+     "compute": "mu = sqrt(n * (n + 2))"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "lech105.txt lines 715-730",
+   "concept": "lech.105.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute crystal field splitting in tetrahedral complexes step by step",
+   "extracted_variables": {
+    "delta_o": "value of delta_o"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the tetrahedral splitting energy",
+     "explain": "Multiply the octahedral splitting energy by 4/9 to obtain the tetrahedral splitting energy.",
+     "compute": "delta_t = 4 * delta_o / 9"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "lech105.txt lines 190-220",
+   "concept": "lech.105.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute coordination number of central metal step by step",
+   "extracted_variables": {
+    "count_a": "value of count_a",
+    "denticity_a": "value of denticity_a",
+    "count_b": "value of count_b",
+    "denticity_b": "value of denticity_b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the total coordination number from the ligands",
+     "explain": "Multiply each ligand count by its respective denticity and sum the products.",
+     "compute": "coordination_number = count_a * denticity_a + count_b * denticity_b"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "lech105.txt lines 1010-1011",
+   "questions": [
+    "Explain the bonding in coordination compounds in terms of Werner’s postulates."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "lech105.txt lines 1012-1015",
+   "questions": [
+    "FeSO4 solution mixed with (NH4)2SO4 solution in 1:1 molar ratio gives the test of Fe2+ ion but CuSO4 solution mixed with aqueous ammonia in 1:4 molar ratio does not give the test of Cu2+ ion. Explain why?"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "lech105.txt lines 1016-1018",
+   "questions": [
+    "Explain with two examples each of the following: coordination entity, ligand, coordination number, coordination polyhedron, homoleptic and heteroleptic."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "lech105.txt lines 1019-1020",
+   "questions": [
+    "What is meant by unidentate, didentate and ambidentate ligands? Give two examples for each."
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "lech105.txt lines 1021-1024",
+   "questions": [
+    "Specify the oxidation numbers of the metals in the following coordination entities: (i) [Co(H2O)(CN)(en)2]2+ (ii) [CoBr2(en)2]+ (iii) [PtCl4]2- (iv) K3[Fe(CN)6] (v) [Cr(NH3)3Cl3]"
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "lech105.txt lines 1025-1031",
+   "questions": [
+    "Using IUPAC norms write the formulas for the following: (i) Tetrahydroxidozincate(II) (ii) Potassium tetrachloridopalladate(II) (iii) Diamminedichloridoplatinum(II) (iv) Potassium tetracyanidonickelate(II) (v) Pentaamminenitrito-O-cobalt(III) (vi) Hexaamminecobalt(III) sulphate (vii) Potassium tri(oxalato)chromate(III) (viii) Hexaammineplatinum(IV) (ix) Tetrabromidocuprate(II) (x) Pentaamminenitrito-N-cobalt(III)"
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "lech105.txt lines 1032-1037",
+   "questions": [
+    "Using IUPAC norms write the systematic names of the following: (i) [Co(NH3)6]Cl3 (ii) [Pt(NH3)2Cl(NH2CH3)]Cl (iii) [Ti(H2O)6]3+ (iv) [Co(NH3)4Cl(NO2)]Cl (v) [Mn(H2O)6]2+ (vi) [NiCl4]2- (vii) [Ni(NH3)6]Cl2 (viii) [Co(en)3]3+ (ix) [Ni(CO)4]"
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "lech105.txt lines 1038-1039",
+   "questions": [
+    "List various types of isomerism possible for coordination compounds, giving an example of each."
+   ]
+  },
+  {
+   "id": "ex5.9",
+   "source_ref": "lech105.txt lines 1040-1042",
+   "questions": [
+    "How many geometrical isomers are possible in the following coordination entities? (i) [Cr(C2O4)3]3- (ii) [Co(NH3)3Cl3]"
+   ]
+  },
+  {
+   "id": "ex5.10",
+   "source_ref": "lech105.txt lines 1043-1045",
+   "questions": [
+    "Draw the structures of optical isomers of: (i) [Cr(C2O4)3]3- (ii) [PtCl2(en)2]2+ (iii) [Cr(NH3)2Cl2(en)]+"
+   ]
+  },
+  {
+   "id": "ex5.11",
+   "source_ref": "lech105.txt lines 1046-1048",
+   "questions": [
+    "Draw all the isomers (geometrical and optical) of: (i) [CoCl2(en)2]+ (ii) [Co(NH3)Cl(en)2]2+ (iii) [Co(NH3)2Cl2(en)]+"
+   ]
+  },
+  {
+   "id": "ex5.12",
+   "source_ref": "lech105.txt lines 1049-1050",
+   "questions": [
+    "Write all the geometrical isomers of [Pt(NH3)(Br)(Cl)(py)] and how many of these will exhibit optical isomers?"
+   ]
+  },
+  {
+   "id": "ex5.15",
+   "source_ref": "lech105.txt lines 1057-1060",
+   "questions": [
+    "Discuss the nature of bonding in the following coordination entities on the basis of valence bond theory: (i) [Fe(CN)6]4- (ii) [FeF6]3- (iii) [Co(C2O4)3]3- (iv) [CoF6]3-"
+   ]
+  },
+  {
+   "id": "ex5.16",
+   "source_ref": "lech105.txt line 1061",
+   "questions": [
+    "Draw figure to show the splitting of d orbitals in an octahedral crystal field."
+   ]
+  },
+  {
+   "id": "ex5.17",
+   "source_ref": "lech105.txt lines 1062-1063",
+   "questions": [
+    "What is spectrochemical series? Explain the difference between a weak field ligand and a strong field ligand."
+   ]
+  },
+  {
+   "id": "ex5.18",
+   "source_ref": "lech105.txt lines 1064-1065",
+   "questions": [
+    "What is crystal field splitting energy? How does the magnitude of Do decide the actual configuration of d orbitals in a coordination entity?"
+   ]
+  },
+  {
+   "id": "ex5.19",
+   "source_ref": "lech105.txt line 1066",
+   "questions": [
+    "[Cr(NH3)6]3+ is paramagnetic while [Ni(CN)4]2- is diamagnetic. Explain why?"
+   ]
+  },
+  {
+   "id": "ex5.20",
+   "source_ref": "lech105.txt lines 1067-1068",
+   "questions": [
+    "A solution of [Ni(H2O)6]2+ is green but a solution of [Ni(CN)4]2- is colourless. Explain."
+   ]
+  },
+  {
+   "id": "ex5.22",
+   "source_ref": "lech105.txt line 1071",
+   "questions": [
+    "Discuss the nature of bonding in metal carbonyls."
+   ]
+  },
+  {
+   "id": "ex5.23",
+   "source_ref": "lech105.txt lines 1072-1076",
+   "questions": [
+    "Give the oxidation state, d orbital occupation and coordination number of the central metal ion in the following complexes: (i) K3[Co(C2O4)3] (ii) cis-[CrCl2(en)2]Cl (iii) (NH4)2[CoF4] (iv) [Mn(H2O)6]SO4"
+   ]
+  },
+  {
+   "id": "ex5.25",
+   "source_ref": "lech105.txt lines 1082-1083",
+   "questions": [
+    "Explain the violet colour of the complex [Ti(H2O)6]3+ on the basis of crystal field theory."
+   ]
+  },
+  {
+   "id": "ex5.28",
+   "source_ref": "lech105.txt lines 1088-1090",
+   "questions": [
+    "How many ions are produced from the complex Co(NH3)6Cl2 in solution? (i) 6 (ii) 4 (iii) 3 (iv) 2"
+   ]
+  },
+  {
+   "id": "ex5.29",
+   "source_ref": "lech105.txt lines 1091-1093",
+   "questions": [
+    "Amongst the following ions which one has the highest magnetic moment value? (i) [Cr(H2O)6]3+ (ii) [Fe(H2O)6]2+ (iii) [Zn(H2O)6]2+"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

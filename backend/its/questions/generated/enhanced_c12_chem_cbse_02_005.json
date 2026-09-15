@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_005",
+   "title": "c12_chem_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the SI unit of molar conductivity Λₘ, and how is it related to the commonly used unit S cm² mol⁻¹?",
+     "a": "The SI unit of Λₘ is S m² mol⁻¹. The conversion is 1 S m² mol⁻¹ = 10⁴ S cm² mol⁻¹. A wrong answer (e.g., S cm⁻¹ or S m⁻¹) reveals the student confuses conductivity κ with molar conductivity Λₘ, or does not track the concentration unit conversion (mol m⁻³ vs mol L⁻¹). This is a critical unit error that propagates through all numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the resistance of 0.01 M KCl as 100 Ω using a cell with constant 1.29 cm⁻¹. They calculate κ = 0.0129 S cm⁻¹ and then Λₘ = κ × 1000 / M = 1290 S cm² mol⁻¹. Is this correct? If not, identify the error.",
+     "a": "The calculation is incorrect. κ = G*/R = 1.29 cm⁻¹ / 100 Ω = 0.0129 S cm⁻¹ is correct. But Λₘ = (κ × 1000) / M = (0.0129 × 1000) / 0.01 = 1290 S cm² mol⁻¹ is wrong because M = 0.01 mol L⁻¹, so Λₘ = 1290 S cm² mol⁻¹. Wait — this is actually numerically correct for the given numbers. The error is conceptual: the student used M in mol L⁻¹ but κ in S cm⁻¹, which is the standard formula Λₘ = (κ × 1000)/M. However, if they had used SI units (κ = 1.29 S m⁻¹, c = 10 mol m⁻³), Λₘ = 0.129 S m² mol⁻¹ = 1290 S cm² mol⁻¹. The real trap is forgetting the factor of 1000 when M is in mol L⁻¹ and κ in S cm⁻¹. A student who writes Λₘ = κ/M without 1000 gets 1.29 S cm² mol⁻¹ — off by 1000×.",
+     "self_check": true
+    },
+    {
+     "q": "The conductivity of 0.1 M NaCl solution is 1.06 × 10⁻² S cm⁻¹. Calculate its molar conductivity. If the same solution is diluted to 0.01 M, the conductivity becomes 1.29 × 10⁻³ S cm⁻¹. Calculate the new molar conductivity and explain why Λₘ increased while κ decreased.",
+     "a": "For 0.1 M: Λₘ = (1.06 × 10⁻² × 1000) / 0.1 = 106 S cm² mol⁻¹. For 0.01 M: Λₘ = (1.29 × 10⁻³ × 1000) / 0.01 = 129 S cm² mol⁻¹. κ decreased because dilution reduces the number of charge carriers per unit volume. Λₘ increased because the volume containing 1 mole of NaCl increased from 10 L to 100 L, and the increase in volume (10×) more than compensates for the decrease in κ (~8.2×). The student who says \"Λₘ should decrease because κ decreases\" misunderstands that Λₘ is an extensive property per mole of electrolyte, not per unit volume.",
+     "self_check": true
+    },
+    {
+     "q": "Plot Λₘ vs √c for a strong electrolyte (KCl) and a weak electrolyte (CH₃COOH) on the same axes. Label the intercept on the Λₘ axis for each. Why can Λ°ₘ for CH₃COOH not be obtained by extrapolating the experimental Λₘ vs √c curve to √c = 0?",
+     "a": "For KCl (strong), the plot is a straight line with positive intercept Λ°ₘ at √c = 0 and negative slope. For CH₃COOH (weak), the curve rises steeply and non-linearly as √c → 0, approaching Λ°ₘ asymptotically. Extrapolation fails because near infinite dilution, the degree of dissociation α → 1, but the conductivity becomes too small to measure accurately. The curvature is due to α increasing with dilution (Ostwald's dilution law), not just interionic interactions. A student who draws both as straight lines misses the fundamental difference: strong electrolytes are fully dissociated at all concentrations (Λₘ variation due to ion-ion interactions), while weak electrolytes have concentration-dependent dissociation.",
+     "self_check": true
+    },
+    {
+     "q": "In a conductivity cell, the electrodes have area 2 cm² and are separated by 0.5 cm. The cell is filled with 0.02 M KCl solution of conductivity 0.277 S m⁻¹. Calculate the resistance of the solution. If the same cell measures 0.02 M CH₃COOH and gives a resistance of 5000 Ω, calculate Λₘ for CH₃COOH.",
+     "a": "Cell constant G* = l/A = 0.5 cm / 2 cm² = 0.25 cm⁻¹ = 25 m⁻¹. For KCl: R = G*/κ = 25 m⁻¹ / 0.277 S m⁻¹ = 90.3 Ω. For CH₃COOH: κ = G*/R = 25 m⁻¹ / 5000 Ω = 0.005 S m⁻¹ = 5 × 10⁻⁵ S cm⁻¹. Concentration c = 0.02 mol L⁻¹ = 20 mol m⁻³. Λₘ = κ/c = 0.005 S m⁻¹ / 20 mol m⁻³ = 2.5 × 10⁻⁴ S m² mol⁻¹ = 2.5 S cm² mol⁻¹. Alternatively using CGS: κ = 0.25 cm⁻¹ / 5000 Ω = 5 × 10⁻⁵ S cm⁻¹, Λₘ = (5 × 10⁻⁵ × 1000) / 0.02 = 2.5 S cm² mol⁻¹. A student who forgets to convert G* to m⁻¹ when using κ in S m⁻¹ will get R = 0.25/0.277 = 0.9 Ω (wrong by 100×). Unit consistency is the trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine the cell constant of a conductivity cell using only a standard 0.1 M KCl solution (κ = 1.29 S m⁻¹ at 298 K) and a Wheatstone bridge with an AC source. List the steps, the measurements needed, and how you would verify the cell constant is reliable.",
+     "a": "Steps: (1) Rinse cell with conductivity water, then with 0.1 M KCl. (2) Fill cell with 0.1 M KCl, immerse in thermostat at 298 K. (3) Connect cell as unknown resistance R₂ in Wheatstone bridge with AC oscillator (550–5000 Hz) to avoid electrolysis. (4) Balance bridge by adjusting R₁ until detector shows null. (5) Calculate R₂ = (R₃/R₄) × R₁. (6) Cell constant G* = κ × R₂ = 1.29 S m⁻¹ × R₂. (7) Repeat with fresh KCl solution 2–3 times; G* should be consistent within ±1%. (8) Verify by measuring a second standard (e.g., 0.01 M KCl, κ = 0.141 S m⁻¹) and checking if calculated κ matches. A student who suggests using DC current misses that DC causes electrolysis, changing concentration and electrode polarization. A student who omits temperature control ignores that κ varies ~2%/°C.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

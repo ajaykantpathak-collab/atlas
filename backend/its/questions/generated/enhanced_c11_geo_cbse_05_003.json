@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_003",
+   "title": "c11_geo_cbse_05_003",
+   "questions": [
+    {
+     "q": "Name the anionic complex that defines the silicate mineral group and give its chemical formula. Provide one example of a nesosilicate and one tectosilicate found in India.",
+     "a": "The silicate group is defined by the SiO₄⁴⁻ tetrahedron. Nesosilicate example: olivine (Mg,Fe)₂SiO₄ (found in ultramafic rocks of Karnataka). Tectosilicate example: quartz (SiO₂) abundant in Rajasthan granites. A wrong answer (e.g., saying CO₃²⁻ defines silicates) reveals confusion between silicate and carbonate anion chemistry – a fundamental classification error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why limestone (CaCO₃) and marble are both carbonates but marble is classified as a metamorphic rock while limestone is sedimentary. How does the carbonate mineral group behave differently under metamorphism compared to the silicate group?",
+     "a": "Limestone and marble share the carbonate mineral calcite (CaCO₃) but differ in origin: limestone forms by sedimentary precipitation/biogenic accumulation; marble forms by recrystallization of limestone under heat/pressure. Carbonates undergo polymorphic transitions (calcite↔aragonite) and decarbonation reactions (CaCO₃ → CaO + CO₂) during metamorphism, whereas silicates undergo complex dehydration and neocrystallization forming new silicate structures (e.g., clay → mica → garnet). A wrong answer that says \"marble is a different mineral\" shows misunderstanding of mineral vs. rock classification.",
+     "self_check": true
+    },
+    {
+     "q": "Given the mineral formulas below, classify each into its major mineral group and name one Indian location where it is economically mined:\n(a) Fe₂O₃  (b) ZnS  (c) CaMg(CO₃)₂  (d) KAlSi₃O₈",
+     "a": "(a) Fe₂O₃ = oxide (hematite) – mined in Bailadila, Chhattisgarh / Barbil, Odisha.\n(b) ZnS = sulphide (sphalerite) – mined in Zawar, Rajasthan.\n(c) CaMg(CO₃)₂ = carbonate (dolomite) – mined in Chhattisgarh, Odisha.\n(d) KAlSi₃O₈ = silicate (potassium feldspar, tectosilicate) – mined in Rajasthan, Andhra Pradesh.\nA wrong classification (e.g., calling ZnS an oxide) reveals inability to identify the anion (S²⁻ vs O²⁻) – the core classification criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the crustal abundance and economic significance of the silicate group versus the sulphide group. Why does India's ferrous mineral wealth (iron, manganese) concentrate in oxide minerals (BIFs) rather than silicate or sulphide minerals?",
+     "a": "Silicates dominate crustal abundance (~90%) but are rarely high-grade ores due to low metal concentration and difficult extraction. Sulphides are rare (<1% crust) but constitute most base-metal ores (Cu, Pb, Zn) due to high metal:sulphur ratio and easy froth flotation. India's iron wealth is in Banded Iron Formations (BIFs) of Precambrian age where iron precipitated as oxides (hematite/magnetite) in ancient oxygen-poor oceans – a sedimentary-exhalative process, not magmatic silicate crystallization or hydrothermal sulphide deposition. A wrong answer citing \"volcanic origin for iron ore\" misinterprets BIF genesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's cement industry relies entirely on the carbonate mineral group, while its aluminium industry relies entirely on the oxide mineral group.\" Is this fully accurate? Justify with specific mineral names and Indian locations.",
+     "a": "Partially accurate but incomplete. Cement uses limestone (calcite CaCO₃) – a carbonate – from Chhattisgarh, Rajasthan, Madhya Pradesh; but also requires gypsum (CaSO₄·2H₂O, a sulphate) and silica (quartz, silicate) as additives. Aluminium uses bauxite – a rock composed mainly of oxide/hydroxide minerals (gibbsite Al(OH)₃, boehmite AlO(OH)) – from Odisha (Koraput), Gujarat (Kutch), Jharkhand (Lohardaga). Bauxite is not a pure oxide mineral but a lateritic mixture. A \"fully accurate\" answer ignores the sulphate/silicate additives in cement and the hydroxide nature of bauxite minerals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mineral exploration strategy for a new district in the Aravalli range. You have limited budget for geochemical sampling. Which mineral group would you prioritize sampling for (silicate, carbonate, oxide, sulphide) and why? Specify the pathfinder elements and geological setting.",
+     "a": "Prioritize sulphide group for base-metal (Cu-Pb-Zn) potential in the Aravalli-Delhi fold belt. Geological setting: Proterozoic volcanogenic massive sulphide (VMS) or sediment-hosted deposits in metavolcanic/metasedimentary sequences. Pathfinder elements: Cu, Zn, Pb, Ag, Cd, As, Sb in stream sediments and soil. Sulphides give sharp geochemical anomalies due to high mobility of chalcophile elements. Carbonates (limestone/dolomite) are already well-mapped for cement; oxides (iron) are known in Banded Iron Formations but less likely in this sector; silicates are ubiquitous but low-value. A poor answer would choose silicates because \"they are most abundant\" – ignoring economic targeting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

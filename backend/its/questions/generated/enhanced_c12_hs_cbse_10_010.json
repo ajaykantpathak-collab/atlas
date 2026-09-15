@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_010",
+   "title": "c12_hs_cbse_10_010",
+   "questions": [
+    {
+     "q": "List the three budget categories for meal planning and give one typical food item that distinguishes each category from the others.",
+     "a": "The three categories are low-cost, medium-cost, and high-cost budgets. Low-cost distinguishes by relying on cereals, pulses, and seasonal vegetables (e.g., rice + rajma + spinach). Medium-cost adds animal proteins like milk, curd, or egg (e.g., adding a boiled egg to the low-cost menu). High-cost includes flesh foods (chicken/fish), out-of-season produce, and convenience items (e.g., chicken curry with broccoli and ice cream). A wrong answer that only lists \"cheap, moderate, expensive\" foods without linking to specific nutrient contributions reveals the student thinks budget categories are about price alone, not nutritional strategy.",
+     "self_check": true
+    },
+    {
+     "q": "A low-cost lunch menu for a sedentary adult woman provides 550 kcal and 18g protein. The RDA for lunch is 30% of daily needs (1900 kcal, 55g protein). Is this menu adequate? If not, which budget category change would most efficiently close the gap and why?",
+     "a": "The menu provides 550/570 ≈ 96% of energy RDA but only 18/16.5 ≈ 109% of protein RDA (lunch protein RDA = 0.3 × 55 = 16.5g). Energy is slightly short. Moving to medium-cost by adding 100ml toned milk (≈60 kcal, 3.2g protein, cost ~₹5) closes the energy gap efficiently because milk adds high-quality protein and calcium without disproportionate cost increase. A wrong answer suggesting \"add more rice\" reveals the student thinks only cereals can increase calories, ignoring protein quality and micronutrient density per rupee.",
+     "self_check": true
+    },
+    {
+     "q": "You have a medium-cost menu: wheat chapati (60g), moong dal (30g raw), potato-tomato sabzi (100g), curd (100g), banana (1 medium). Market prices: wheat ₹30/kg, moong dal ₹110/kg, potato ₹25/kg, tomato ₹30/kg, curd ₹80/kg, banana ₹40/dozen. Calculate the total cost of this meal. Show steps.",
+     "a": "Step 1: Convert raw weights to kg: wheat 0.06kg, dal 0.03kg, potato 0.07kg (assuming 70% potato in sabzi), tomato 0.03kg, curd 0.1kg, banana 1/12 dozen ≈ 0.083 dozen. Step 2: Calculate each cost: wheat 0.06×30=₹1.80; dal 0.03×110=₹3.30; potato 0.07×25=₹1.75; tomato 0.03×30=₹0.90; curd 0.1×80=₹8.00; banana 0.083×40=₹3.32. Step 3: Sum = ₹1.80+3.30+1.75+0.90+8.00+3.32 = ₹19.07. Step 4: Round to ₹19.10. A wrong answer using cooked weights or ignoring edible portion waste reveals misunderstanding of costing based on raw purchase weights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient density per rupee of three protein sources for a low-cost menu: (a) whole Bengal gram (₹100/kg, 20g protein/100g), (b) egg (₹6/piece, 6g protein/50g egg), (c) toned milk (₹50/L, 3.2g protein/100ml). Which gives the most protein per rupee? Show calculations.",
+     "a": "(a) Bengal gram: 100g costs ₹10, provides 20g protein → 2g protein/₹1. (b) Egg: 1 egg costs ₹6, provides 6g protein → 1g protein/₹1. (c) Milk: 100ml costs ₹5, provides 3.2g protein → 0.64g protein/₹1. Bengal gram gives the most protein per rupee. A wrong answer choosing egg because \"eggs are protein-rich\" reveals the student confuses absolute protein content with cost-effectiveness, a critical error in low-cost planning.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes this low-cost menu for a pregnant woman (2nd trimester): rice 100g, arhar dal 30g, potato sabzi 100g, guava 1 medium. She argues it meets the extra 350 kcal and 23g protein because \"dal gives protein.\" Evaluate this menu against the RDA increments for pregnancy and identify the two most critical deficiencies.",
+     "a": "Pregnancy 2nd trimester needs +350 kcal and +23g protein over sedentary woman. This menu adds ~400 kcal (rice 340 + dal 100 + potato 80 + guava 40 ≈ 560 kcal total, but base sedentary lunch is ~570 kcal, so increment is small) and only ~8g extra protein (dal 7g, rice 2g, potato 1g, guava 0.5g ≈ 10.5g total, base lunch protein ~18g, so increment ~2.5g). Critical deficiencies: (1) Protein increment is far below 23g — need concentrated protein like egg/milk/soya. (2) Iron and folic acid are inadequate — no green leafy vegetable or organ meat. A wrong answer focusing only on total calories reveals the student ignores the incremental needs of pregnancy and the nutrient density requirement per rupee.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day three-meal plan (breakfast, lunch, dinner) for a sedentary adult man (2320 kcal, 60g protein) at a strict low-cost budget of ₹45/day. Use only these foods with prices: wheat flour ₹30/kg, rice ₹35/kg, Bengal gram ₹100/kg, soyabean ₹120/kg, spinach ₹40/kg, potato ₹25/kg, onion ₹30/kg, oil ₹110/L, sugar ₹40/kg, milk ₹50/L. Provide raw weights, total cost, and verify energy and protein meet ≥90% RDA.",
+     "a": "A good answer will: (1) Allocate budget across meals (e.g., ₹15 each). (2) Use cereal-pulse combination 3:1 with soyabean for high protein. Example: Breakfast: wheat 60g (₹1.80) + soyabean 20g (₹2.40) + spinach 50g (₹2.00) + oil 5g (₹0.55) = ₹6.75, 300 kcal, 14g protein. Lunch: rice 80g (₹2.80) + Bengal gram 30g (₹3.00) + potato 50g (₹1.25) + oil 5g (₹0.55) = ₹7.60, 550 kcal, 16g protein. Dinner: wheat 60g (₹1.80) + soyabean 20g (₹2.40) + potato 50g (₹1.25) + oil 5g (₹0.55) + sugar 10g (₹0.40) = ₹6.40, 500 kcal, 14g protein. Total cost ≈ ₹20.75, well under budget, energy ~1350 kcal (58% RDA), protein ~44g (73% RDA) — fails 90% energy. To meet 90% (2088 kcal, 54g protein), need more cereal/fat. Adjust: increase cereals to 100g each meal, oil 10g each, add milk 100ml at dinner. New cost ~₹35, energy ~2100 kcal, protein ~55g. A poor answer that just lists foods without calculation or misses the 90% threshold shows inability to integrate budgeting with nutrient goals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

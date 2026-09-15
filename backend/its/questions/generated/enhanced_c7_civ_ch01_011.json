@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_civ_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c7_civ_ch01_011",
+   "title": "c7_civ_ch01_011",
+   "questions": [
+    {
+     "q": "Which Article of the Constitution of India establishes the Parliament, and what are its three components?",
+     "a": "Article 79 establishes the Parliament of India, which consists of the President, the Lok Sabha (House of the People), and the Rajya Sabha (Council of States). A wrong answer usually confuses Parliament with just the Lok Sabha or forgets to include the President as an essential part of the lawmaking process.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India have a bicameral (two-house) parliament instead of a single legislative chamber?",
+     "a": "India has a bicameral parliament—comprising the Lok Sabha representing the population directly and the Rajya Sabha representing the states—to provide a system of dual check and balance. A wrong answer assumes both houses do the exact same thing, failing to understand that the upper house protects federal interests while the lower house reflects the direct will of the citizens.",
+     "self_check": true
+    },
+    {
+     "q": "A group of citizens in a rural district want a new national highway built to improve market access. Which institution of the Indian government must debate and approve the funds and laws for this nationwide project, and why?",
+     "a": "The Indian Parliament must debate and approve the legislation and budget for the highway because it is a national-level infrastructure project falling under central jurisdiction. A wrong answer might suggest local village panchayats can build national highways, confusing the local level of government with the national legislative level.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the Lok Sabha and the executive branch (the Prime Minister and Council of Ministers). How does the Lok Sabha exercise control over the executive?",
+     "a": "The executive branch is drawn directly from the Lok Sabha and must maintain a majority support there; if a \"no-confidence motion\" is passed by the Lok Sabha, the government must resign. A wrong answer treats the executive and the legislature as completely separate entities that cannot influence one another.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Rajya Sabha is powerless because its members are not directly elected by common citizens in general elections.\" Is this statement accurate, and why or why not?",
+     "a": "This statement is inaccurate because while Rajya Sabha members are indirectly elected by state legislative assemblies, they possess vital constitutional powers, including the ability to review, amend, and delay legislation, as well as protect the federal rights of states. A wrong answer equates direct public elections with absolute political power, ignoring the specific constitutional checks designed for upper houses.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short two-step proposal for how a member of Parliament could introduce a new law concerning digital safety for children, specifying which house it could start in.",
+     "a": "A good proposal states that a bill can be introduced in either the Lok Sabha or the Rajya Sabha by a Member of Parliament (MP), followed by a formal reading, debate, and voting process. A poor answer might suggest citizens can directly walk into Parliament to pass a law without elected representatives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

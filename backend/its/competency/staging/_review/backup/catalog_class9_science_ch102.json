@@ -1,0 +1,145 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 102,
+ "chapter_title": "Cell: The Building Block of Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc102.txt",
+ "concepts": [
+  {
+   "id": "iesc.102.1",
+   "title": "Cell Size Estimation",
+   "section": "2.1",
+   "definition": "The actual size of a microscopic specimen can be determined by dividing the diameter of the microscope's field of view by the number of cells spanning that diameter.",
+   "formula": "cell_size = field_diameter_um / cell_count",
+   "key_idea": "Microscopic dimensions are calculated by relating the field of view to the number of cells observed across it.",
+   "textbook_ref": "iesc102.txt lines 75-85",
+   "question_patterns": [
+    "calculate the size of a cell",
+    "estimate the real size of a cell",
+    "what is the dimension of a cell if field diameter is ...",
+    "find the cell size given cell count"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate cell size",
+     "explain": "Divide the total field diameter in micrometers by the number of cells counted along that diameter.",
+     "compute": "cell_size = field_diameter_um / cell_count"
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.2",
+   "title": "Microscope Magnification",
+   "section": "2.1",
+   "definition": "Total magnification is indeed the result of multiplying the eyepiece's magnifying powers and the objective lens used in the microscope.",
+   "formula": "total_magnification = eyepiece_power * objective_power",
+   "key_idea": "Total magnification is the combined magnifying effect of the ocular and objective lenses.",
+   "textbook_ref": "iesc102.txt lines 88-92",
+   "question_patterns": [
+    "what is the total magnification",
+    "calculate total magnification given lens powers",
+    "find the magnification of the microscope",
+    "how much does the microscope magnify"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total magnification",
+     "explain": "Multiply the magnifying power of the eyepiece by the magnifying power of the objective lens.",
+     "compute": "total_magnification = eyepiece_power * objective_power"
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.3",
+   "title": "Cell Membrane Permeability",
+   "section": "2.2.1",
+   "definition": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the cell membrane acts as a selective barrier, regulating the movement of materials like water, salts, and gases into and out of the cell.",
+   "formula": "net_movement = solute_concentration_difference",
+   "key_idea": "Selectively permeable membranes allow specific molecules to pass while restricting others, driving processes like osmosis.",
+   "textbook_ref": "iesc102.txt lines 115-135",
+   "question_patterns": [
+    "explain the role of the cell membrane",
+    "what is selective permeability",
+    "how do substances move across the membrane",
+    "describe the function of the plasma membrane"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify membrane function",
+     "explain": "The cell membrane controls internal environment by allowing selective passage of solutes and solvents."
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.4",
+   "title": "Cell Division Types",
+   "section": "2.4.1",
+   "definition": "In brief, In brief, In brief, In brief, Mitosis forms two genetically matching daughter cells for growth and repair, while meiosis produces four genetically diverse gametes with half the chromosome count for sexual reproduction.",
+   "formula": "mitosis_output = 2 * parent_ploidy; meiosis_output = 4 * (parent_ploidy / 2)",
+   "key_idea": "Mitosis maintains genetic consistency, whereas meiosis introduces variation and reduces chromosome number.",
+   "textbook_ref": "iesc102.txt lines 305-330",
+   "question_patterns": [
+    "differentiate between mitosis and meiosis",
+    "what is the outcome of mitosis",
+    "how does meiosis differ from mitosis",
+    "compare the daughter cells of mitosis and meiosis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast division processes",
+     "explain": "Mitosis results in identical somatic cells; meiosis results in specialized reproductive cells with reduced chromosome sets."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc102.txt line 82",
+   "concept": "iesc.102.1",
+   "question_type": "compute",
+   "question_pattern": "If the diameter of the visible field is {field_diameter_um} µm and {cell_count} cells are seen along the diameter, what is the size of one cell?",
+   "extracted_variables": {
+    "field_diameter_um": "5000",
+    "cell_count": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate cell size",
+     "explain": "Divide the field diameter by the number of cells.",
+     "compute": "cell_size = field_diameter_um / cell_count"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iesc102.txt line 365",
+   "questions": [
+    "Differentiate between cell membrane and cell wall based on permeability.",
+    "Compare RER and SER based on their structure.",
+    "How do chloroplasts and chromoplasts differ in terms of pigments?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "iesc102.txt line 395",
+   "questions": [
+    "What outcome do you expect if all mitochondria are removed from a eukaryotic cell?",
+    "Explain the role of osmosis in food preservation as applied by the farmer."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

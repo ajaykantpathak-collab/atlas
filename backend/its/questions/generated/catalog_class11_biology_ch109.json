@@ -1,0 +1,326 @@
+{
+ "catalog": "catalog_class11_biology_ch109",
+ "concepts": [
+  {
+   "id": "kebo.109.1",
+   "title": "Chemical Analysis of Living Tissues",
+   "questions": [
+    {
+     "q": "Determine dry weight from wet weight and water loss. Use the method 'Chemical Analysis of Living Tissues'. Work with: filtrate_mass = 8, retentate_mass = 10, water_mass = 50, wet_weight = 240. Carry the chain through step by step and give the final value of acid_insoluble_fraction.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the dry weight of a plant tissue sample. Use the method 'Chemical Analysis of Living Tissues'. Work with: filtrate_mass = 12, retentate_mass = 40, water_mass = 12, wet_weight = 500. Carry the chain through step by step and give the final value of acid_insoluble_fraction.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Chemical Analysis of Living Tissues' refers to.",
+     "a": "Chemical extraction using trichloroacetic acid separates cellular contents into an acid-soluble filtrate of low molecular weight compounds and an acid-insoluble retentate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chemical Analysis of Living Tissues'.",
+     "a": "Acid fractionation separates low molecular weight metabolites from macromolecular insoluble cellular structures.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chemical Analysis of Living Tissues', in plain ASCII form.",
+     "a": "dry_weight = wet_weight - water_mass",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.2",
+   "title": "Primary and Secondary Metabolites",
+   "questions": [
+    {
+     "q": "Calculate total metabolite types from primary and secondary counts. Use the method 'Primary and Secondary Metabolites'. Work with: primary_count = 50, secondary_count = 8. Carry the chain through step by step and give the final value of total_metabolites.",
+     "a": "58 units",
+     "self_check": false
+    },
+    {
+     "q": "Find total number of identified metabolic compounds. Use the method 'Primary and Secondary Metabolites'. Work with: primary_count = 30, secondary_count = 4. Carry the chain through step by step and give the final value of total_metabolites.",
+     "a": "34 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Primary and Secondary Metabolites' refers to.",
+     "a": "Cellular organic molecules are grouped into primary metabolites essential for fundamental physiology and secondary metabolites serving specialized ecological roles.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary and Secondary Metabolites'.",
+     "a": "Primary metabolites participate in basic living processes while secondary metabolites provide defense, coloration, or industrial utility.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Primary and Secondary Metabolites', in plain ASCII form.",
+     "a": "total_metabolites = primary_count + secondary_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.3",
+   "title": "Cellular Mass and Biomacromolecules Composition",
+   "questions": [
+    {
+     "q": "Calculate the mass of cellular protein from percentage in Class 11 biology. Use the method 'Cellular Mass and Biomacromolecules Composition'. Work with: percentage = 25, total_cell_mass = 500. Carry the chain through step by step and give the final value of component_mass.",
+     "a": "125 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the weight of water in cell given total cell mass. Use the method 'Cellular Mass and Biomacromolecules Composition'. Work with: percentage = 12, total_cell_mass = 10. Carry the chain through step by step and give the final value of component_mass.",
+     "a": "1.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cellular Mass and Biomacromolecules Composition' refers to.",
+     "a": "Quantitative distribution of cellular components where macromolecules like proteins form the insoluble fraction while water dominates overall mass.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cellular Mass and Biomacromolecules Composition'.",
+     "a": "Biomacromolecules feature molecular weights above ten thousand daltons and make up most cellular structural dry weight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cellular Mass and Biomacromolecules Composition', in plain ASCII form.",
+     "a": "component_mass = (percentage * total_cell_mass) / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.4",
+   "title": "Proteins and Amino Acid Linkages",
+   "questions": [
+    {
+     "q": "Calculate number of peptide bonds in a linear protein chain. Use the method 'Proteins and Amino Acid Linkages'. Work with: amino_acid_count = 500. Carry the chain through step by step and give the final value of peptide_bonds.",
+     "a": "499 units",
+     "self_check": false
+    },
+    {
+     "q": "Find peptide bond count for a given number of amino acids. Use the method 'Proteins and Amino Acid Linkages'. Work with: amino_acid_count = 10. Carry the chain through step by step and give the final value of peptide_bonds.",
+     "a": "9 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Proteins and Amino Acid Linkages' refers to.",
+     "a": "Proteins are heteropolymers composed of amino acid monomers linked together sequentially by covalent peptide bonds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proteins and Amino Acid Linkages'.",
+     "a": "Unbranched polypeptide chains of N amino acid units contain N minus one peptide bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Proteins and Amino Acid Linkages', in plain ASCII form.",
+     "a": "peptide_bonds = amino_acid_count - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.5",
+   "title": "Polysaccharides and Glycosidic Polymers",
+   "questions": [
+    {
+     "q": "Find average monomer mass in a polysaccharide chain. Use the method 'Polysaccharides and Glycosidic Polymers'. Work with: monomer_count = 360, total_polymer_mass = 3. Carry the chain through step by step and give the final value of monosaccharide_mass.",
+     "a": "0.0083 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate average mass of monosaccharide unit in polysaccharide. Use the method 'Polysaccharides and Glycosidic Polymers'. Work with: monomer_count = 12, total_polymer_mass = 100. Carry the chain through step by step and give the final value of monosaccharide_mass.",
+     "a": "8.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Polysaccharides and Glycosidic Polymers' refers to.",
+     "a": "Long sugar chains joined by glycosidic bonds function as structural walls or stored energy reserves like starch and glycogen.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Polysaccharides and Glycosidic Polymers'.",
+     "a": "Complex polysaccharide chains consist of monosaccharide residues with distinct reducing and non-reducing ends.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Polysaccharides and Glycosidic Polymers', in plain ASCII form.",
+     "a": "monosaccharide_mass = total_polymer_mass / monomer_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.6",
+   "title": "Nucleic Acids and Nucleotide Structure",
+   "questions": [
+    {
+     "q": "Calculate total nucleotides from purine and pyrimidine counts. Use the method 'Nucleic Acids and Nucleotide Structure'. Work with: purine_count = 3, pyrimidine_count = 500. Carry the chain through step by step and give the final value of total_nucleotides.",
+     "a": "503 units",
+     "self_check": false
+    },
+    {
+     "q": "Find nucleotide count given purines and pyrimidines. Use the method 'Nucleic Acids and Nucleotide Structure'. Work with: purine_count = 150, pyrimidine_count = 12. Carry the chain through step by step and give the final value of total_nucleotides.",
+     "a": "162 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nucleic Acids and Nucleotide Structure' refers to.",
+     "a": "Polynucleotides composed of nitrogenous bases, pentose sugars, and phosphate groups that store and transmit biological genetic information.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nucleic Acids and Nucleotide Structure'.",
+     "a": "Nucleic acid polymers consist of purine and pyrimidine nucleotide monomers linked sequentially.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nucleic Acids and Nucleotide Structure', in plain ASCII form.",
+     "a": "total_nucleotides = purine_count + pyrimidine_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.7",
+   "title": "Structural Organization of Proteins",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structural Organization of Proteins' refers to.",
+     "a": "Proteins organize into primary sequences, secondary helices or sheets, tertiary globular folds, and quaternary multi-subunit assemblies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structural Organization of Proteins'.",
+     "a": "Three-dimensional tertiary folding creates active sites required for catalytic and metabolic functions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Structural Organization of Proteins' taught, and from which source text?",
+     "a": "9.7 (source: kebo109.txt lines 325-365)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.8",
+   "title": "Enzyme Catalysis and Reaction Rate",
+   "questions": [
+    {
+     "q": "Calculate enzymatic reaction rate in Class 11 biology. Use the method 'Enzyme Catalysis and Reaction Rate'. Work with: catalysed_rate = 10, delta_p = 120, delta_t = 12, uncatalysed_rate = 5. Carry the chain through step by step and give the final value of rate_ratio.",
+     "a": "2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find rate of product formation per unit time. Use the method 'Enzyme Catalysis and Reaction Rate'. Work with: catalysed_rate = 15, delta_p = 50, delta_t = 6, uncatalysed_rate = 8. Carry the chain through step by step and give the final value of rate_ratio.",
+     "a": "1.875 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Enzyme Catalysis and Reaction Rate' refers to.",
+     "a": "Enzymatic reaction rate represents the quantity of substrate converted into product per unit time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Catalysis and Reaction Rate'.",
+     "a": "Enzymes greatly accelerate chemical conversion rates compared to uncatalysed background reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Enzyme Catalysis and Reaction Rate', in plain ASCII form.",
+     "a": "rate = delta_p / delta_t",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.9",
+   "title": "Activation Energy and Catalytic Acceleration",
+   "questions": [
+    {
+     "q": "Calculate fold acceleration of reaction by enzyme. Use the method 'Activation Energy and Catalytic Acceleration'. Work with: catalysed_rate = 5, uncatalysed_rate = 8. Carry the chain through step by step and give the final value of fold_acceleration.",
+     "a": "0.625 times",
+     "self_check": false
+    },
+    {
+     "q": "Find rate increase factor comparing catalysed and uncatalysed reaction. Use the method 'Activation Energy and Catalytic Acceleration'. Work with: catalysed_rate = 5, uncatalysed_rate = 15. Carry the chain through step by step and give the final value of fold_acceleration.",
+     "a": "0.3333 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Activation Energy and Catalytic Acceleration' refers to.",
+     "a": "Enzymes lower the activation energy barrier necessary to reach the high-energy transition state, increasing conversion speed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Activation Energy and Catalytic Acceleration'.",
+     "a": "Substrate binding at active sites lowers activation energy to accelerate chemical transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Activation Energy and Catalytic Acceleration', in plain ASCII form.",
+     "a": "fold_acceleration = catalysed_rate / uncatalysed_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.10",
+   "title": "Enzyme Kinetics and Factors Affecting Activity",
+   "questions": [
+    {
+     "q": "Calculate half maximum velocity from Vmax in Class 11 biology. Use the method 'Enzyme Kinetics and Factors Affecting Activity'. Work with: vmax = 5. Carry the chain through step by step and give the final value of half_vmax.",
+     "a": "2.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Find half Vmax value for enzyme kinetics curve. Use the method 'Enzyme Kinetics and Factors Affecting Activity'. Work with: vmax = 3. Carry the chain through step by step and give the final value of half_vmax.",
+     "a": "1.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Enzyme Kinetics and Factors Affecting Activity' refers to.",
+     "a": "Enzyme velocity increases with substrate concentration until reaching maximum velocity Vmax, influenced by pH, temperature, and inhibitors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Kinetics and Factors Affecting Activity'.",
+     "a": "Saturation of active sites at high substrate concentration defines maximum enzymatic rate Vmax.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Enzyme Kinetics and Factors Affecting Activity', in plain ASCII form.",
+     "a": "half_vmax = vmax / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.11",
+   "title": "Enzyme Classification and Co-factors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Enzyme Classification and Co-factors' refers to.",
+     "a": "Enzymes are classified into six categories based on reaction type, requiring non-protein cofactors for full catalytic function.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Classification and Co-factors'.",
+     "a": "Active holoenzyme consists of the protein apoenzyme combined with organic or inorganic cofactors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Enzyme Classification and Co-factors' taught, and from which source text?",
+     "a": "9.8.5 (source: kebo109.txt lines 575-630)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

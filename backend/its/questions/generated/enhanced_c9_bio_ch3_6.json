@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_6",
+   "title": "c9_bio_ch3_6",
+   "questions": [
+    {
+     "q": "Define self-pollination and cross-pollination. Give one example of a plant for each type.",
+     "a": "Self-pollination is the transfer of pollen from anther to stigma of the same flower or another flower on the same plant (e.g., pea, wheat). Cross-pollination is the transfer of pollen from anther of one plant to stigma of a different plant of the same species (e.g., maize, papaya). A wrong answer (e.g., confusing cross-pollination with pollen transfer between different species) reveals the student does not understand the species boundary requirement for successful fertilisation.",
+     "self_check": true
+    },
+    {
+     "q": "A flower has its anthers and stigma at the same height and they mature at the same time. The flower is small, lacks nectar, and produces light, smooth pollen. Explain why this flower is adapted for self-pollination and not cross-pollination.",
+     "a": "The flower shows adaptations for self-pollination: (1) anther-stigma proximity and simultaneous maturity (homogamy) ensure pollen easily falls on its own stigma; (2) absence of nectar and scent means it does not attract pollinators; (3) light, smooth pollen is not adapted for insect attachment but can be carried by wind, though in self-pollinators it often falls directly. A wrong answer (e.g., saying light pollen is for wind cross-pollination) reveals the student cannot integrate multiple floral traits to infer pollination mode.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows a pure line of wheat (self-pollinated) and a hybrid variety of maize (cross-pollinated). He saves seeds from both to sow next season. Predict the genetic uniformity of the offspring in each case and justify your answer.",
+     "a": "Wheat offspring will be genetically uniform (true to type) because self-pollination maintains homozygosity. Maize offspring will show genetic segregation and variation because cross-pollination reshuffles alleles; the hybrid vigour will be lost. A wrong answer (e.g., saying both will be uniform) reveals the student does not connect pollination type to genetic consequences and the concept of heterozygosity in hybrids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two flowers: Flower A has large, coloured petals, nectaries, and sticky pollen; Flower B has small, inconspicuous petals, no nectar, and produces large quantities of light, smooth pollen. Identify the likely pollination agent for each and explain how the pollen characteristics suit the agent.",
+     "a": "Flower A is insect-pollinated (entomophilous): sticky pollen adheres to insect bodies; nectar and colour attract insects. Flower B is wind-pollinated (anemophilous): light, smooth pollen is easily airborne; lack of nectar/colour avoids wasting energy on attractants. A wrong answer (e.g., assigning wind to Flower A) reveals the student cannot match pollen morphology to dispersal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "\"Cross-pollination is always better than self-pollination because it produces healthier offspring.\" Evaluate this statement. Provide two advantages and one disadvantage of cross-pollination relative to self-pollination.",
+     "a": "The statement is partially correct but not absolute. Advantages of cross-pollination: (1) introduces genetic variation, enabling adaptation; (2) masks deleterious recessive alleles (heterosis). Disadvantage: (1) requires pollinators or favourable wind, so reproductive assurance is lower; (2) wastes large amounts of pollen. Self-pollination ensures seed set even in isolation. A wrong answer (e.g., listing only advantages) reveals the student cannot critically evaluate trade-offs in evolutionary biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether a given flowering plant in your school garden is self-pollinated or cross-pollinated. List the steps, controls, and expected observations for each case.",
+     "a": "Steps: (1) Select unopened flower buds. (2) Bag one set with fine mesh (exclude pollinators) and leave another set open (control). (3) After flowering, check fruit/seed set in both. If bagged flowers set seeds, plant is self-pollinated; if only open flowers set seeds, it requires cross-pollination. Controls: same plant, same age, same environment. Expected: self-pollinated plants (e.g., pea) produce seeds in bags; cross-pollinated (e.g., pumpkin) do not. A poor answer (e.g., no control, or using only one flower) reveals inability to design controlled biological experiments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

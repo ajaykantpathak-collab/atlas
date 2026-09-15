@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_008",
+   "title": "c11_biotech_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define crossing over and state the specific stage of meiosis when it occurs. What structures are visibly formed at the sites of crossing over?",
+     "a": "Crossing over is the reciprocal exchange of genetic material between non-sister chromatids of homologous chromosomes, occurring during pachytene stage of prophase I. The visible structures formed at crossover sites are chiasmata (singular: chiasma), which become apparent during diplotene when homologous chromosomes start moving apart but remain attached at these points. A wrong answer stating \"crossing over occurs in metaphase I\" or \"between sister chromatids\" reveals the student confuses the timing of genetic exchange with chromosome alignment, or misunderstands that sister chromatids are genetically identical so exchange between them produces no new combinations.",
+     "self_check": true
+    },
+    {
+     "q": "In Morgan's Drosophila experiment, grey body (B) and long wings (V) are dominant over black body (b) and vestigial wings (v). A test cross of F1 heterozygote (BbVv) with double recessive (bbvv) produced 83% parental and 17% recombinant offspring. Explain why the recombinant frequency is 17% and not 50%, and what this reveals about the physical relationship between the two genes.",
+     "a": "The 17% recombinant frequency indicates the genes are linked on the same chromosome. Crossing over physically separates them only in 17% of meiotic events because the exchange occurs at a specific chromosomal location between the two gene loci. If the genes were on different chromosomes (unlinked), independent assortment would produce 50% recombinants. The fact that RF < 50% proves physical linkage; the specific value (17%) reflects the distance between loci — farther apart genes have higher RF because there is more chromosomal space where a crossover can occur between them. A wrong answer claiming \"17% recombination means the genes are 17 map units apart on different chromosomes\" reveals confusion between linkage (same chromosome) and independent assortment (different chromosomes).",
+     "self_check": true
+    },
+    {
+     "q": "A test cross of a maize plant heterozygous for kernel color (C = colored, c = colorless) and kernel texture (Wx = starchy, wx = waxy) yields: 420 colored starchy, 420 colorless waxy, 80 colored waxy, 80 colorless starchy. Calculate the recombination frequency and map distance between these genes. If the genes were 50 map units apart, what would the expected numbers be in a total of 1000 progeny?",
+     "a": "Step 1: Identify parental types (most frequent): colored starchy (C Wx) and colorless waxy (c wx) = 420 + 420 = 840. Step 2: Identify recombinants: colored waxy (C wx) and colorless starchy (c Wx) = 80 + 80 = 160. Step 3: Total progeny = 1000. Step 4: RF = (160/1000) × 100% = 16%. Step 5: Map distance = 16 cM (since RF < 10%, no correction needed). Step 6: If genes were 50 cM apart (unlinked), RF = 50%, so expected recombinants = 500, parentals = 500 (250 each parental type). A wrong answer using 50% as map distance for the given data reveals the student doesn't understand that RF maxes at 50% and only equals map distance for small distances.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cytological evidence from Creighton and McClintock's maize experiment (1931) with the genetic evidence from Morgan's Drosophila crosses. How did each approach contribute to proving that crossing over involves physical exchange of chromosome segments?",
+     "a": "Creighton-McClintock used cytological markers (heterochromatic knob and translocation on chromosome 9) alongside genetic markers (C/c and Wx/wx). They found that recombinant progeny (colored waxy or colorless starchy) had chromosomes carrying only ONE of the two cytological markers, proving physical exchange occurred. Morgan used only genetic data: he observed recombinant phenotypes (grey vestigial, black long) at 17% frequency and inferred crossing over, but couldn't directly visualize chromosome exchange. The maize experiment provided the definitive physical proof by correlating visible chromosome structure changes with genetic recombination. A wrong answer stating \"both experiments used only genetic data\" or \"Morgan saw chiasmata under microscope\" reveals the student cannot distinguish between genetic inference and cytological observation, and doesn't know Morgan worked with Drosophila salivary gland chromosomes (polytene) not meiotic chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Crossing over always increases genetic variation in a population.\" Provide two scenarios where crossing over might NOT increase variation, and one scenario where it could decrease fitness.",
+     "a": "The claim is false. Scenario 1: In a completely homozygous organism (e.g., pure line), crossing over between identical homologous chromosomes produces no new allele combinations — variation remains zero. Scenario 2: If two loci are completely linked (RF = 0%, e.g., extremely close genes), crossing over never occurs between them, so no new combinations arise for that gene pair. Scenario 3 (decreased fitness): Crossing over within a supergene (co-adapted gene complex) can break up beneficial allele combinations. For example, in mimicry butterflies, a specific combination of color pattern alleles is maintained by tight linkage; crossing over produces non-mimetic intermediates with lower survival. A wrong answer stating \"crossing over always creates new combinations\" reveals the student treats crossing over as universally beneficial without considering zygosity, linkage tightness, or co-adapted gene complexes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point test cross experiment to determine the order of three linked genes (A, B, C) on a chromosome. Specify the parental genotypes, the test cross setup, and how you would use the double crossover progeny frequency to identify the middle gene. Create a sample data table with hypothetical numbers showing your logic.",
+     "a": "Parental setup: Triple heterozygote ABC/abc (coupling phase) × triple recessive abc/abc. The middle gene is identified because double crossovers (two exchanges: one between A-B, one between B-C) restore the parental allele for the middle gene while flipping the outer genes. Sample data (1000 progeny): Parental: ABC (400), abc (400); Single CO A-B: Abc (50), aBC (50); Single CO B-C: ABc (80), abC (80); Double CO: AbC (5), aBc (5). Double crossovers are rarest (10 total). Comparing AbC/aBc to parental ABC/abc: A and C alleles flipped, B stayed same → B is middle gene. Order: A-B-C. Map distances: A-B = (50+50+5+5)/1000 = 11 cM; B-C = (80+80+5+5)/1000 = 17 cM; A-C = 11+17 = 28 cM (matches single CO A-C: Abc+aBC+ABc+abC = 260 → 26%, close to 28% with interference). A poor answer that doesn't use double crossover rarity to find middle gene reveals the student doesn't grasp the logic of three-point mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

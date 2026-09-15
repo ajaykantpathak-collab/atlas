@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_009",
+   "title": "c12_eco_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define Marginal Revenue and state its formula. How does it differ from Average Revenue?",
+     "a": "Marginal Revenue (MR) is the change in Total Revenue resulting from a one-unit change in output: MR = ΔTR/ΔQ (or dTR/dQ for continuous). Average Revenue (AR) is Total Revenue divided by output: AR = TR/Q. MR measures the revenue from the last unit, while AR measures revenue per unit on average. A wrong answer (e.g., saying MR = TR/Q) reveals confusion between marginal and average concepts, a fundamental error that leads to incorrect equilibrium analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Marginal Revenue curve lies below the Average Revenue curve when the demand curve is downward sloping.",
+     "a": "When demand slopes downward, to sell an extra unit the firm must lower the price on all units. The revenue gain from the extra unit is the new price, but the loss is the price reduction on all previous units. Hence MR = P + Q(ΔP/ΔQ) which is less than P (= AR). A student who says \"MR falls because price falls\" without mentioning the loss on inframarginal units shows incomplete understanding of the marginal-average relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A firm faces the demand function P = 100 - 2Q. Calculate TR, AR, and MR functions. At what output is TR maximized?",
+     "a": "TR = P×Q = (100 - 2Q)Q = 100Q - 2Q². AR = P = 100 - 2Q. MR = dTR/dQ = 100 - 4Q. Set MR = 0 → 100 - 4Q = 0 → Q = 25. At Q=25, TR = 100(25) - 2(625) = 2500 - 1250 = 1250. A wrong answer (e.g., maximizing TR at MR = AR) indicates confusion between revenue maximization and profit maximization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the shape of the TR curve under perfect competition and under monopoly. Why does TR become a straight line through the origin in perfect competition but an inverted parabola in monopoly?",
+     "a": "Under perfect competition, price is constant, so TR = P×Q is linear with slope P. Under monopoly, price falls as output rises, so TR = (a - bQ)Q = aQ - bQ², a concave quadratic that rises, peaks at MR=0, then falls. A student who draws TR as a straight line for both markets fails to recognize that the demand curve facing the firm differs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A monopolist will never produce in the inelastic portion of its demand curve because MR would be negative there.\" Is this always true? Justify.",
+     "a": "True for a profit-maximizing monopolist with non-negative marginal cost. Since MR = P(1 + 1/ε), when demand is inelastic (|ε|<1), MR is negative. Producing where MR<0 would reduce TR and increase total cost (since MC≥0), lowering profit. However, if MC is negative (rare) or the monopolist has non-profit motives, it might operate there. A student who says \"always true\" without qualifying the MC condition shows lack of nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (table) for a firm under imperfect competition where TR first increases, then reaches a maximum, then decreases. Show the corresponding AR and MR values. Explain the relationship at each stage.",
+     "a": "Example: Q: 0,1,2,3,4,5; P: 10,8,6,4,2,0. TR: 0,8,12,12,8,0. AR = P: 10,8,6,4,2,0. MR: -,8,4,0,-4,-8. TR max at Q=3 where MR=0. When MR>0, TR rises; MR=0, TR max; MR<0, TR falls. AR > MR throughout. A poor answer would show MR = AR or TR not peaking at MR=0, indicating misunderstanding of the marginal-average relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

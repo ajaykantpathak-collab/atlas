@@ -1,0 +1,438 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 2,
+  "chapter_title": "Numerical Applications",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_002_numerical_application.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_002.1",
+      "title": "Average Speed of a Journey",
+      "section": "2.1",
+      "definition": "Average speed spreads the whole path length evenly over the whole duration of the trip; it ignores direction because it is a scalar quantity.",
+      "formula": "speed = dist / total_time",
+      "key_idea": "Add every kilometre travelled, divide by every hour spent, never subtract for turning back.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.1 and recap train example (785 km in 3 h 45 min)",
+      "question_patterns": [
+        "a train covers 785 km in 3 hours 45 minutes at a uniform rate; find its average speed",
+        "calculate the average speed of a bus that travels 180 km in 4 hours 30 minutes",
+        "a cyclist rides 42 km in 2 hours 20 minutes; what is the average speed in km per hour",
+        "a car covers 350 km in 5 hours at a uniform rate; find the average speed",
+        "a truck covers 180 km in 3 hours 45 minutes; find its average speed in km per hour",
+        "convert 45 minutes into hours and then divide the distance by the time to get the speed"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "bring the leftover minutes into hour form",
+          "explain": "minutes must join the hours before dividing",
+          "compute": "mins_h = mins / 60"
+        },
+        {
+          "step": 2,
+          "action": "assemble the full journey duration",
+          "explain": "hours plus the converted minute fraction",
+          "compute": "total_time = hrs + mins_h"
+        },
+        {
+          "step": 3,
+          "action": "spread the whole distance over the whole duration",
+          "explain": "the scalar average rate of travel",
+          "compute": "speed = dist / total_time"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.2",
+      "title": "Average Velocity on Closed Paths",
+      "section": "2.1",
+      "definition": "Average velocity uses displacement, the straight gap between start and finish with its direction, divided by the time taken; on a trip that ends where it began the displacement vanishes, so the velocity is zero even when the speed is not.",
+      "formula": "vel = shift / time",
+      "key_idea": "Speed counts the path, velocity counts only the net change of position.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.1, artificial satellite in a circular orbit returning to its initial position",
+      "question_patterns": [
+        "an artificial satellite moves in a circular orbit of radius 172 km and returns to its starting point; find its average velocity",
+        "find the distance covered in one revolution of a satellite orbiting 172 km from the centre",
+        "a runner completes one full round of a circular track of radius 50 m in 80 seconds; what is the average velocity",
+        "a jogger goes once around a circular park of radius 50 m in 80 seconds and ends where she began; taking the displacement as 0, find her average velocity",
+        "a body goes 300 m east and then 300 m back west in 150 seconds; calculate its average velocity",
+        "how much path length does 3 revolutions of a circle of radius 172 km amount to"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "measure the path of one full circular lap",
+          "explain": "one revolution covers the full circumference",
+          "compute": "lap = 2 * pi * radius"
+        },
+        {
+          "step": 2,
+          "action": "scale the lap length by the number of rounds",
+          "explain": "total path length travelled",
+          "compute": "path = rounds * lap"
+        },
+        {
+          "step": 3,
+          "action": "divide the displacement by the time",
+          "explain": "on a closed round trip the shift input is 0, so the velocity collapses to zero while the path stays positive",
+          "compute": "vel = shift / time"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.3",
+      "title": "Work-Time Efficiency and Combined Work",
+      "section": "2.2",
+      "definition": "A worker who finishes a job in d days performs 1/d of the job per day, so efficiency is the flip side of time: doubling the efficiency halves the days. Rates of workers simply add.",
+      "formula": "together = 1 / (1 / a + 1 / b)",
+      "key_idea": "Turn each person into a per-day fraction, add the fractions, then invert.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.2, A in a days and B in b days working together",
+      "question_patterns": [
+        "A finishes a task in 12 days and B in 24 days; how long do they need working together",
+        "if a man completes a job in 15 days, what fraction of the job does he do in one day",
+        "two workers take 10 and 40 days separately; find their combined time for the job",
+        "if A is twice as efficient as B and B alone needs 18 days, A alone needs 9; how long do A and B take working together",
+        "a job is finished by one worker in 15 days and by another in 10 days; compute the combined days",
+        "if efficiency doubles, what happens to the number of days for the same job"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "express the first worker as a one-day fraction of the job",
+          "explain": "one job in a days means 1/a per day",
+          "compute": "rate_a = 1 / a"
+        },
+        {
+          "step": 2,
+          "action": "express the second worker the same way",
+          "explain": "one job in b days means 1/b per day",
+          "compute": "rate_b = 1 / b"
+        },
+        {
+          "step": 3,
+          "action": "add the daily fractions",
+          "explain": "working together the rates stack",
+          "compute": "team_rate = rate_a + rate_b"
+        },
+        {
+          "step": 4,
+          "action": "invert the combined daily fraction",
+          "explain": "days = one whole job divided by the per-day rate",
+          "compute": "together = 1 / team_rate"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.4",
+      "title": "Pipes and Cisterns Net Filling",
+      "section": "2.2",
+      "definition": "An inlet pours 1/fill_h of the tank per hour and an outlet drains 1/drain_h per hour; the tank fills at the difference of the two rates, and the filling time is the reciprocal of that net rate.",
+      "formula": "fill_time = 1 / (1 / fill_h - 1 / drain_h)",
+      "key_idea": "Same arithmetic as combined work, except the outlet carries a minus sign.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.2, inlet fills at 1/a and outlet empties at 1/b per hour",
+      "question_patterns": [
+        "a pipe fills a tank in 6 hours and a drain empties it in 9 hours; how long does the tank take to fill with both open",
+        "an inlet can fill a cistern in 4 hours while an outlet empties the full tank in 12 hours; find the net filling time",
+        "two inlet pipes need 3 and 6 hours and the waste pipe empties in 8 hours; when all three run, how fast does the tank fill",
+        "a tank empties in 10 hours through a leak; how much of the tank leaks out per hour",
+        "the net rate into a cistern is a quarter tank per hour; how many hours until it is full",
+        "why is the outlet rate subtracted rather than added in a cistern problem"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "rate of the inlet in tanks per hour",
+          "explain": "a full tank in fill_h hours means 1/fill_h per hour",
+          "compute": "rate_in = 1 / fill_h"
+        },
+        {
+          "step": 2,
+          "action": "rate of the outlet in tanks per hour",
+          "explain": "it removes 1/drain_h of the tank each hour",
+          "compute": "rate_out = 1 / drain_h"
+        },
+        {
+          "step": 3,
+          "action": "subtract the draining rate from the filling rate",
+          "explain": "the outlet works against the inlet",
+          "compute": "net = rate_in - rate_out"
+        },
+        {
+          "step": 4,
+          "action": "invert the net rate to get the filling time",
+          "explain": "hours needed for one whole tank",
+          "compute": "fill_time = 1 / net"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.5",
+      "title": "Calendar Odd Days and Weekday Codes",
+      "section": "2.3",
+      "definition": "Days left over after complete weeks are odd days; an ordinary year leaves 1 and a leap year leaves 2. Counting the odd days of a span and reducing them modulo 7 maps 0 to Sunday, 1 to Monday and so on, so any date can be decoded from a reference day.",
+      "formula": "code = extra % 7",
+      "key_idea": "One odd day per ordinary year, two per leap year, then read the remainder mod 7.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.3, 365 days = 52 weeks + 1 odd day, century divisible by 400 rule",
+      "question_patterns": [
+        "how many odd days does an ordinary year of 365 days contribute",
+        "find the number of odd days in a leap year",
+        "a span of 75 years contains 18 leap years; what day-code do its odd days give",
+        "a span of 100 years contains 24 leap years; find the odd days and the weekday code they leave",
+        "why was the year 2002 not a leap year even though 2000 was",
+        "100 years contain 24 leap years; reduce their odd days to the weekday code counting 0 as Sunday"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the ordinary years in the span",
+          "explain": "leap years are removed from the total span first",
+          "compute": "norm = span - leaps"
+        },
+        {
+          "step": 2,
+          "action": "one odd day per ordinary year plus two per leap year",
+          "explain": "365 leaves 1, 366 leaves 2 after whole weeks",
+          "compute": "extra = norm + 2 * leaps"
+        },
+        {
+          "step": 3,
+          "action": "reduce the odd days modulo the 7-day week",
+          "explain": "the remainder indexes the weekday with 0 as Sunday",
+          "compute": "code = extra % 7"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.6",
+      "title": "Clock Hand Angles and Relative Speed",
+      "section": "2.4",
+      "definition": "The minute hand sweeps 6 degrees each minute and the hour hand only half a degree, so the minute hand gains 5.5 degrees per minute. The angle between the hands at h hours m minutes comes from the hour mark spacing of 30 degrees, keeping the smaller of the two possible angles.",
+      "formula": "tilt = min(angle, 360 - angle)",
+      "key_idea": "Each hour mark is 30 degrees; the minute hand runs 5.5 degrees per minute faster.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.4, angle |30h - 5.5m| and 65 5/11 minute coincidence",
+      "question_patterns": [
+        "find the angle between the hands of a clock at 3 hours 30 minutes",
+        "calculate the smaller angle between the hour hand and the minute hand at 7 hours 20 minutes",
+        "what angle do the hands of a clock make at 1 hour 20 minutes",
+        "find the smaller angle between the hands at 11 hours 5 minutes",
+        "at what angle are the hands of a clock placed at 9 hours 40 minutes",
+        "what is the opening between the hour hand and the minute hand at 8 hours 45 minutes"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "take the raw opening between the two hands",
+          "explain": "the hour hand sits at 30h degrees, the minute hand at 5.5m degrees, so their gap is the absolute difference",
+          "compute": "angle = abs(30 * h - 5.5 * m)"
+        },
+        {
+          "step": 2,
+          "action": "keep the smaller of the two possible angles",
+          "explain": "an opening above 180 degrees is reported as its supplement on the other side",
+          "compute": "tilt = min(angle, 360 - angle)"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.7",
+      "title": "Surface Area of Combined Solids",
+      "section": "2.5",
+      "definition": "When two basic solids are joined, only the surfaces you can still see are counted; the faces glued together are hidden inside and drop out. A tent of a cone on a cylinder therefore costs the cone's curved area plus the cylinder's curved area.",
+      "formula": "area = pi * r * slant + 2 * pi * r * h",
+      "key_idea": "Add the visible curved pieces only; the joint circle is never painted.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.5, tent of a cone on a cylinder, capsule and hemisphere examples",
+      "question_patterns": [
+        "find the canvas needed for a tent made of a cone on top of a cylinder with the same radius",
+        "find the visible canvas of a tent whose conical top has slant 5 over a cylinder of height 4, both radius 3",
+        "a silo is a cone on a cylinder with radius 2, slant 7 and cylinder height 6; find its curved surface area",
+        "why is the common circular face not counted in the surface area of a combined solid",
+        "a cone of radius 4 and slant 6 tops a cylinder of height 5 with the same radius; find the total curved area",
+        "how much sheet metal forms a combined solid of cone slant 10 on a cylinder of height 9, both of radius 5"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "area of the visible curved part of the cone",
+          "explain": "half of base times slant height in the unfolded sector",
+          "compute": "cone_part = pi * r * slant"
+        },
+        {
+          "step": 2,
+          "action": "area of the visible curved part of the cylinder",
+          "explain": "the rolled rectangle of the wall",
+          "compute": "cyl_part = 2 * pi * r * h"
+        },
+        {
+          "step": 3,
+          "action": "add only the exposed pieces",
+          "explain": "the joint circle is internal and excluded",
+          "compute": "area = cone_part + cyl_part"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.8",
+      "title": "Volume of Combined Solids",
+      "section": "2.5",
+      "definition": "Unlike surface area, volume keeps everything: a joined solid holds the sum of its parts, so a cone-on-cylinder tent stores one-third pi r squared times the cone height plus pi r squared times the cylinder height.",
+      "formula": "vol = pi * r ** 2 * cone_h / 3 + pi * r ** 2 * cyl_h",
+      "key_idea": "Hidden faces cut area but not capacity; capacities always add.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.5, volume of the combination = sum of the volumes of the parts",
+      "question_patterns": [
+        "find the volume of a tent that is a cone of height 4 on a cylinder of height 4 with common radius 3",
+        "find the volume of a cone of height 6 on a cylinder of height 10, both of radius 4",
+        "a grain bin is a cone of height 3 on a cylinder of height 7 with radius 5; find its capacity",
+        "compute the total volume of a combined solid with cone height 5, cylinder height 5 and radius 6",
+        "why do volumes of the two parts simply add while surface areas do not",
+        "a marquee of cone height 4 on a cylindrical base of height 6 and radius 3 is sealed; how much air does it hold"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "capacity of the conical portion",
+          "explain": "one third of base area times the cone height",
+          "compute": "cone_vol = pi * r ** 2 * cone_h / 3"
+        },
+        {
+          "step": 2,
+          "action": "capacity of the cylindrical portion",
+          "explain": "base area times the cylinder height",
+          "compute": "cyl_vol = pi * r ** 2 * cyl_h"
+        },
+        {
+          "step": 3,
+          "action": "add the two capacities",
+          "explain": "the whole holds what both parts hold",
+          "compute": "vol = cone_vol + cyl_vol"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.9",
+      "title": "Positive and Negative Work",
+      "section": "2.6",
+      "definition": "Work equals force times the displacement measured along the force: motion with the force earns positive work, motion against it earns negative work, and motion perpendicular to it earns none. Net work is the algebraic sum, so opposing contributions cancel part of the total.",
+      "formula": "net = force * shift + opposing",
+      "key_idea": "Give every push a sign from its direction; then just add the signed amounts.",
+      "textbook_ref": "am11_002_numerical_application.txt, section 2.6, work as force times displacement in the direction of the force",
+      "question_patterns": [
+        "a force of 10 N drags a box 5 m along the force; how much work is done",
+        "friction of 4 N acts over the same 5 m against the motion; find the work done by friction",
+        "a 10 N force moves a sledge 5 m while 20 J of friction opposes it; find the net work",
+        "a porter lifts a 20 kg load 2 m; taking g as 10, find the work done by the lifting force",
+        "decide the sign of the work done by gravity on a ball thrown upward",
+        "compute the net work when the driving force does 50 J and friction resists with 20 J"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "work of the driving force over the given displacement",
+          "explain": "force times displacement along the force is positive here",
+          "compute": "work = force * shift"
+        },
+        {
+          "step": 2,
+          "action": "combine with the opposing contribution as a signed amount",
+          "explain": "the resisting work arrives as a negative input, perpendicular cases arrive as 0",
+          "compute": "net = work + opposing"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_002.we1",
+      "source_ref": "am11_002 recap / check your progress: train covering 785 km in 3 h 45 min at uniform speed",
+      "concept": "am11_002.1",
+      "question_type": "compute",
+      "question_pattern": "a train travels 785 km in 3 hours 45 minutes at a uniform speed; find the average speed",
+      "extracted_variables": {
+        "dist": 785,
+        "hrs": 3,
+        "mins": 45
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "convert the minutes",
+          "compute": "mins_h = mins / 60"
+        },
+        {
+          "step": 2,
+          "action": "total journey hours",
+          "compute": "total_time = hrs + mins_h"
+        },
+        {
+          "step": 3,
+          "action": "distance over time",
+          "compute": "speed = dist / total_time"
+        }
+      ]
+    },
+    {
+      "id": "am11_002.we2",
+      "source_ref": "am11_002 section 2.5 combined solid: cone of height 4 on a cylinder of height 4, common radius 3",
+      "concept": "am11_002.8",
+      "question_type": "compute",
+      "question_pattern": "find the volume of a tent formed by a cone of height 4 placed on a cylinder of height 4 with common radius 3",
+      "extracted_variables": {
+        "r": 3,
+        "cone_h": 4,
+        "cyl_h": 4
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "conical part volume",
+          "compute": "cone_vol = pi * r ** 2 * cone_h / 3"
+        },
+        {
+          "step": 2,
+          "action": "cylindrical part volume",
+          "compute": "cyl_vol = pi * r ** 2 * cyl_h"
+        },
+        {
+          "step": 3,
+          "action": "add the capacities",
+          "compute": "vol = cone_vol + cyl_vol"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_002.ex1",
+      "source_ref": "am11_002 check your progress selected exercises",
+      "questions": [
+        "Find the average speed of a train that covers 785 km in 3 hours 45 minutes, assuming a uniform rate.",
+        "Find the angle between the hands of a clock at 4 hours 10 minutes.",
+        "How many odd days are there in an ordinary year and in a leap year?",
+        "A can do a piece of work in 9 days and B in 18 days; in how many days do they finish it together?",
+        "A pipe fills a tank in 5 hours and a drain empties it in 20 hours; how long does the tank take to fill with both open?",
+        "Decide the sign of the work done in each case: lifting a bucket, lowering it, and holding it still while walking level."
+      ]
+    },
+    {
+      "id": "am11_002.ex2",
+      "source_ref": "am11_002 sections 2.1 to 2.6 application set",
+      "questions": [
+        "An artificial satellite orbits in a circle of radius 172 km. How far does it travel in one revolution, and what is its displacement on returning to its initial position?",
+        "At what time between 3 and 4 o'clock do the hands of a clock coincide?",
+        "A span of 100 years contains 24 leap years; find the number of odd days and hence the weekday code.",
+        "A tent is a cone of slant height 5 on a cylinder of height 4 with radius 3. Find the canvas needed.",
+        "Two workers need 15 and 10 days for a job. After 2 days together the first leaves; how long does the second take to finish?",
+        "A force of 12 N moves a crate 6 m while friction of 5 N opposes it over the same distance. Find each work amount and the net work."
+      ]
+    }
+  ]
+}

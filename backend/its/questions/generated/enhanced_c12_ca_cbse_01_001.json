@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_001",
+   "title": "c12_ca_cbse_01_001",
+   "questions": [
+    {
+     "q": "List the five components of a Computerised Accounting System as per the NCERT framework.",
+     "a": "The five components are: Procedure, Data, People, Hardware, and Software. A wrong answer (e.g., listing \"Ledger\", \"Trial Balance\", \"Reports\") reveals the student confuses **outputs** of the system with its **structural components**. This misconception leads to errors in board questions asking \"components of CAS\" where students list accounting reports instead of system pillars.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"Data\" and \"Information\" are not the same in CAS, using the example of \"days worked × rate per day = amount to pay\" from the textbook.",
+     "a": "Data are raw facts (days worked = 25, rate = ₹300/day) — unprocessed and meaningless alone. Information is the processed result (amount to pay = ₹7,500) that aids decision-making. A wrong answer stating \"data and information are the same\" or \"information is just more data\" shows the student misses the **transformation concept**: CAS adds value by processing data into information. This is critical for board questions on \"data vs information\" and for understanding why CAS improves decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "A business adopts CAS. The accountant enters a credit sale of ₹50,000 via a Sales Voucher. Trace the automatic updates in the system without manual posting. Which ledgers and reports change instantly?",
+     "a": "The Sales Voucher entry automatically: (1) credits Sales Account (Revenue), (2) debits Debtor's Account (Trade Receivable), (3) updates the Sales Day Book, (4) updates the Debtor's Ledger, (5) reflects in Trial Balance, (6) increases Revenue in Profit & Loss, (7) increases Trade Receivables in Balance Sheet. A wrong answer listing only \"Sales and Debtor ledgers\" misses the **integration** — the hallmark of CAS. Board exams test this via \"advantages of CAS\" where integration is a key point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the grouping of accounts in CAS (Assets = Liabilities + Capital + Revenues – Expenses) with the traditional accounting equation. Why does CAS expand the equation to include Revenues and Expenses separately?",
+     "a": "Traditional equation: A = L + C. CAS expands to A = L + C + (Rev – Exp) because the **income statement** (profit/loss) changes Capital. Separating Rev/Exp allows CAS to generate Profit & Loss automatically from the same hierarchical code structure used for Balance Sheet. A wrong answer saying \"it's the same equation\" ignores the **hierarchical coding requirement** — CAS needs distinct top-level codes (1: Equity/Liabilities, 2: Assets, 3: Revenues, 4: Expenses) to auto-generate both statements. This is a frequent board trap in \"grouping of accounts\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Block codes are always better than sequential codes for a chart of accounts in CAS.\" Justify your answer with a scenario where sequential codes would be preferred.",
+     "a": "False. Block codes (e.g., 1000–1999 for Sales) are better for **hierarchical grouping** (Balance Sheet structure). Sequential codes (CL001, CL002) are better for **source documents** (invoices, cheques) where chronological order and gap detection matter. A student who says \"block codes are always better\" fails to understand **context-dependent codification** — a key board exam concept. The textbook explicitly states sequential codes for documents, block codes for account heads.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-digit coding structure for a company with: 5 divisions (max), 50 departments per division (max), 200 cost centres per department (max), and 500 ledger accounts per cost centre (max). Show the digit allocation and explain how the hierarchy supports auto-generation of division-wise P&L.",
+     "a": "Division (1 digit: 1–5), Department (2 digits: 01–50), Cost Centre (3 digits: 001–200), Ledger Account (3 digits: 001–500) → Total 9 digits; reserve 1 digit for future expansion (e.g., sub-ledger). Example: 3 12 045 210 = Division 3, Dept 12, Cost Centre 045, Account 210. Sorting by code auto-groups all Division 3 accounts together. A poor answer (e.g., equal digits for all levels) shows inability to **map digit capacity to maximum values** — a practical skill tested in board skill-review exercises.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

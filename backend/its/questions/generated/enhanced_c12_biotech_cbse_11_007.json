@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_007",
+   "title": "c12_biotech_cbse_11_007",
+   "questions": [
+    {
+     "q": "What is the source of the coat protein gene used in coat protein-mediated resistance, and where is it expressed?",
+     "a": "The coat protein gene is isolated from the target virus (e.g., TMV, PRSV) and expressed in the transgenic plant's nucleus/cytoplasm. A wrong answer (e.g., \"from the plant's own genome\" or \"expressed in chloroplasts\") reveals confusion about pathogen-derived resistance and the cellular compartment where nuclear transgenes are typically expressed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why expressing the viral coat protein in a transgenic plant can block viral infection, even though the plant is producing a viral protein.",
+     "a": "The plant-produced coat protein binds to the incoming viral RNA during uncoating, preventing proper disassembly of the virion and/or blocking replication complex formation. This is \"molecular mimicry\" — the protein mimics a natural step but disrupts it. A wrong answer (e.g., \"the coat protein kills the virus\" or \"it triggers an immune response like antibodies\") shows misunderstanding of the intracellular, protein-RNA interaction mechanism and confusion with animal immune systems.",
+     "self_check": true
+    },
+    {
+     "q": "A transgenic tomato plant expresses the coat protein of Tobacco mosaic virus (TMV). It is challenged with TMV and with Cucumber mosaic virus (CMV). Predict the resistance outcome for each challenge and justify.",
+     "a": "The plant will show strong resistance to TMV (homologous virus) because the coat protein is identical and efficiently interferes with TMV uncoating. It will likely be susceptible to CMV (heterologous virus) because CMV coat protein differs significantly; cross-protection is rare and usually limited to closely related strains. A wrong answer claiming resistance to both viruses reveals overgeneralization of cross-protection and ignorance of sequence-specific protein-RNA interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare coat protein-mediated resistance with RNAi-mediated virus resistance in terms of (a) the molecule that confers resistance, (b) the stage of viral life cycle targeted, and (c) durability against viral mutants.",
+     "a": "(a) CP-mediated: viral coat protein (protein); RNAi: siRNA/miRNA (small RNA). (b) CP-mediated: uncoating/early replication; RNAi: post-transcriptional degradation of viral RNA (any stage). (c) CP-mediated: less durable — single point mutations in viral RNA can escape binding; RNAi: more durable if targeting conserved regions, but viruses can evolve suppressors. A wrong answer swapping the molecules or stages indicates failure to distinguish protein-based vs. RNA-based mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Coat protein-mediated resistance is a form of genetic vaccination because the plant produces antibodies against the virus.\"",
+     "a": "The statement is incorrect. Plants do not produce antibodies; they lack an adaptive immune system. Coat protein-mediated resistance works via direct protein-RNA interference (pathogen-derived resistance), not antibody-antigen binding. A student who agrees reveals a fundamental misconception: conflating animal humoral immunity with plant transgenic resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transgenic strategy to confer resistance to a new virus, \"Zeta virus\", in soybean. Specify: (i) which viral gene you would use, (ii) the promoter choice, (iii) one potential limitation, and (iv) how you would test efficacy in the lab.",
+     "a": "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited. (iii) Limitation: resistance may break down if Zeta virus mutates its coat protein or if the virus uses a different uncoating mechanism. (iv) Infect T0/T1 transgenic lines with Zeta virus, measure viral load by qRT-PCR/ELISA, compare symptom severity with non-transgenic controls. A poor answer omits promoter choice or suggests an irrelevant gene (e.g., replicase), showing lack of strategic thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

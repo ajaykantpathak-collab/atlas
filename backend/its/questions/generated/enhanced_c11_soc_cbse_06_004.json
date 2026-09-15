@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_004",
+   "title": "c11_soc_cbse_06_004",
+   "questions": [
+    {
+     "q": "State Marx's famous formulation about the relationship between human agency and historical conditions in a single sentence.",
+     "a": "Correct answer: \"Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already, given and transmitted from the past.\" A wrong answer that says \"humans have no free will under capitalism\" reveals a deterministic misconception—Marx insists on agency *within* constraints, not absence of agency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Marx argues that cooperation under capitalism is \"enforced\" rather than voluntary, using the factory worker vs. artisan contrast from the textbook.",
+     "a": "Correct answer: The artisan controls the labour process and product; the factory worker's cooperation is imposed by the capitalist who owns the means of production, divides labour into fragmented tasks, and appropriates the product—making cooperation a condition of employment, not a free association. A wrong answer focusing only on \"low wages\" misses the structural point: it is the *loss of control over the labour process itself* (alienation) that makes cooperation enforced.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Marx's agency-structure dialectic to explain why Indian farmers' protests (2020-21) involved both structural constraints and collective agency. Identify at least two structural constraints and two forms of agency exercised.",
+     "a": "Structural constraints: (1) dependence on state procurement/APMC mandis shaped by decades of agrarian policy; (2) indebtedness tied to input markets controlled by corporations. Agency exercised: (1) mass mobilisation across state borders creating new collective subjectivity; (2) sustained sit-ins forcing legislative repeal. A weak answer listing only \"government laws\" as constraint and \"protest\" as agency fails to specify the *material* structures (credit, markets, technology) and *organised collective action* that Marx emphasises.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Durkheim's and Marx's views on social constraint. In what precise sense does Durkheim see constraint as \"moral/solidaristic\" while Marx sees it as \"material/coercive\"?",
+     "a": "Durkheim: constraint arises from internalised collective conscience (norms, values) that binds individuals through solidarity—external in origin but moral in operation. Marx: constraint arises from ownership of means of production and the compulsion to sell labour-power for survival—external and material, backed by economic coercion. A confused answer equating both as \"society forces us\" misses the distinct *mechanisms*: normative integration vs. class exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Marx's concept of alienation proves that individual agency is impossible under capitalism.\" Defend or refute using textual evidence from the chapter.",
+     "a": "Refute. Alienation describes the *loss of control* over labour process and product under *wage labour*, not the extinction of agency. The same chapter states humans \"alter society\" through cooperation and \"produce their means of subsistence\" consciously—agency is the precondition for alienation. A student agreeing with the claim confuses *diminished/alienated agency* with *zero agency*, ignoring Marx's revolutionary politics which presuppose collective agency to overthrow the structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 150-word vignette of a contemporary Indian worker (e.g., a Zomato rider, ASHA worker, or Amazon warehouse packer) that illustrates Marx's dialectic: show both the structural constraints (forces/relations of production) and a moment where the worker exercises agency to resist or reshape those constraints.",
+     "a": "A strong vignette names specific structural features (algorithm-determined pay, piece-rate, lack of social security, surveillance) and a concrete agential act (logging off collectively, filing a PIL, forming a union, refusing an unsafe order). A poor vignette either romanticises total freedom (\"he chooses his hours\") or depicts total victimhood (\"he is a slave to the app\"), failing to capture the *simultaneous* presence of constraint and agency that defines the dialectic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

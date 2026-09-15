@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_002",
+   "title": "c12_hs_cbse_13_002",
+   "questions": [
+    {
+     "q": "Define 'consumer needs' and 'consumer behaviour' in one sentence each, using the exact terminology from the NCERT textbook for Class 12 Home Science.",
+     "a": "Consumer needs are the basic requirements (physiological, safety, social, esteem, self-actualization) that motivate a person to acquire goods or services. Consumer behaviour is the decision-making process and physical actions of individuals in evaluating, acquiring, using, and disposing of products to satisfy those needs. A wrong answer that equates needs with mere 'wants' or describes behaviour only as 'buying' reveals confusion between the motivational root (need) and the observable process (behaviour), and omits the post-purchase evaluation stage.",
+     "self_check": true
+    },
+    {
+     "q": "A student states: \"Cultural factors are the same as social factors because both involve other people.\" Explain why this statement is incorrect, distinguishing the two categories with one concrete example each.",
+     "a": "Cultural factors are broad, shared values, beliefs, and customs transmitted across generations (e.g., the Indian cultural preference for gold jewellery during weddings). Social factors are immediate, interpersonal influences from family, reference groups, and roles (e.g., a teenager buying a specific sneaker brand because her basketball team wears it). The student’s error conflates macro-level societal programming with micro-level group pressure; this leads to misidentifying the leverage point for marketing interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Priya, a 28-year-old software engineer earning ₹1,20,000/month, buys a ₹45,000 smartwatch after seeing a tech influencer’s review, despite her current watch functioning well. Identify THREE distinct factors (one personal, one psychological, one social) that likely influenced this purchase, and explain the mechanism for each.",
+     "a": "Personal: Age and occupation – as a young tech professional, she values gadgets that signal competence and fit her lifestyle. Psychological: Perception and learning – the influencer’s review created a perception of superior utility and taught her new features she now believes she needs. Social: Reference group – the tech influencer acts as an aspirational reference group, generating conformity pressure. A wrong answer that lists only 'income' (economic) or 'advertising' (vague) misses the layered, multi-factor nature of real decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of 'economic factors' versus 'psychological factors' in shaping the purchase of a luxury car versus a daily-use detergent. Use a table with two columns (Luxury Car, Detergent) and two rows (Economic, Psychological).",
+     "a": "Luxury Car: Economic – high price, need for loan/credit, income elasticity >1; Psychological – strong ego/esteem motivation, extensive information search, brand image as status symbol. Detergent: Economic – low price, routine budget item, income inelastic; Psychological – habitual buying, low involvement, perception driven by familiarity/scent. A wrong answer that claims psychological factors dominate both equally ignores the shift from high-involvement (car) to low-involvement (detergent) decision-making, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following marketing strategy: \"A brand of organic millet flour targets only high-income urban households, assuming cultural tradition and health awareness will drive sales.\" Evaluate its effectiveness using at least three factor categories, and suggest one modification.",
+     "a": "The strategy overlooks: (1) Economic – price sensitivity even among high-income buyers during inflation; (2) Social – absence of influencer/peer endorsement in the new category; (3) Psychological – lack of perceived taste compatibility (learning barrier). Modification: Introduce a smaller trial pack at a lower price point with recipe cards (addresses economic trial barrier and psychological learning). A poor critique that only mentions 'price' fails to demonstrate multi-factor analysis required for competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini consumer-behaviour audit for a new electric two-wheeler launch in a tier-2 Indian city. List the five factor categories as row headers; for each, write ONE specific research question the marketing team must answer, and ONE data source/method to obtain it.",
+     "a": "Personal: \"What is the age, occupation, and commute distance profile of early adopters?\" – Survey at IT parks/colleges. Psychological: \"What are the perceived barriers (range anxiety, charging time) and motivators (green identity)?\" – Focus groups with test rides. Social: \"Which reference groups (colleagues, EV clubs, family) influence the purchase?\" – Social network analysis of local EV forums. Cultural: \"How does the local culture view electric vehicles versus petrol status symbols?\" – Ethnographic interviews with community elders. Economic: \"What is the price elasticity given existing subsidy schemes and financing options?\" – Conjoint analysis with dealer finance data. A weak answer uses generic questions like \"Do they like it?\" showing inability to operationalize factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

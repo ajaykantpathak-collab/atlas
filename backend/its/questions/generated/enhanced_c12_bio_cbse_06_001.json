@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_001",
+   "title": "c12_bio_cbse_06_001",
+   "questions": [
+    {
+     "q": "In Griffith's experiment, which combination of bacterial strains injected into mice resulted in mouse death AND recovery of live smooth (S) bacteria from the dead mouse?",
+     "a": "Correct answer: Heat-killed S strain + live R strain. A wrong answer (e.g., live S strain alone, or live R strain alone) reveals the student cannot recall the critical transformation combination. They may confuse which strain is virulent or think heat-killed S alone can cause death, missing the key concept that a factor from dead S transforms live R into virulent S.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Hershey and Chase use two different radioactive isotopes (³²P and ³⁵S) in separate experiments instead of a single label?",
+     "a": "Correct answer: Because DNA contains phosphorus but no sulfur, while protein contains sulfur but no phosphorus. Using ³²P labels DNA specifically, and ³⁵S labels protein specifically. A wrong answer (e.g., \"to double-check results\") shows the student does not understand the chemical basis of the labeling strategy. They miss that the isotopes were chosen to distinguish the two candidate molecules chemically.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a Hershey-Chase type experiment but accidentally uses ³⁵S-labeled phage and forgets to include the blender step. After infection and centrifugation, where will most of the radioactivity be found — in the pellet (bacterial cells) or supernatant (phage coats)? Predict and explain.",
+     "a": "Correct answer: Most ³⁵S radioactivity will remain in the supernatant (phage coats) because protein coats do not enter bacterial cells during infection. Without blending, coats stay attached to cell surfaces, but centrifugation pellets the heavier bacteria with attached coats, so some ³⁵S may pellet. However, the key is that protein does not enter the cytoplasm. A wrong answer (e.g., \"radioactivity in pellet because protein enters\") reveals the misconception that protein is the genetic material or that the blender step is irrelevant for separating coats.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conclusions of Griffith (1928) and Hershey-Chase (1952). What critical question did Griffith leave unanswered that Hershey-Chase resolved?",
+     "a": "Correct answer: Griffith concluded a \"transforming principle\" exists but did not identify its chemical nature (DNA vs protein). Hershey-Chase proved DNA is the genetic material by showing only DNA enters bacteria and directs phage reproduction. A wrong answer (e.g., \"Griffith proved DNA is genetic material\") shows the student conflates the two experiments and does not recognize the historical progression of evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If Hershey-Chase had used ³²P-labeled protein and ³⁵S-labeled DNA, they would have reached the same conclusion.\" Is this true or false? Justify.",
+     "a": "Correct answer: False. ³²P labels phosphorus (in DNA), ³⁵S labels sulfur (in protein). Swapping isotopes would not label the intended molecules because proteins lack phosphorus and DNA lacks sulfur. The labeling would fail, and no conclusion could be drawn. A wrong answer (e.g., \"True, isotopes are interchangeable\") reveals a fundamental misunderstanding of the chemical composition of nucleic acids and proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern molecular biology experiment (using PCR and gel electrophoresis) that could confirm DNA is the transforming principle in Griffith's system, without using radioactivity.",
+     "a": "Expected answer: Extract DNA from heat-killed S strain, treat with DNase (control) or not, add to live R strain, then use PCR with primers specific for S-strain capsule genes. Run products on gel: only samples with intact DNA show amplification. A poor answer (e.g., \"sequence the bacteria\") lacks experimental design logic, proper controls, or understanding of how to test transformation at molecular level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

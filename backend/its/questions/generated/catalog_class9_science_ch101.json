@@ -1,0 +1,180 @@
+{
+ "catalog": "catalog_class9_science_ch101.json",
+ "concepts": [
+  {
+   "id": "iesc.101.1",
+   "title": "Scientific Modeling and Simplification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a scientific model?",
+     "a": "A simplified picture of a real system that keeps its essential features and drops unimportant details so it can be studied easily.",
+     "self_check": true
+    },
+    {
+     "q": "Why do scientists use models although they are not exact?",
+     "a": "Models make complex systems manageable; predictions from a good model can be tested and the model improved.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a model used in science.",
+     "a": "The ball-and-stick model of a molecule, or a model of the solar system - both simplify reality to show key relationships.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.2",
+   "title": "Standard Units and International Standards",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a standard unit?",
+     "a": "A unit agreed upon internationally that never changes with place or person, like the metre or kilogram.",
+     "self_check": true
+    },
+    {
+     "q": "What does SI stand for and why was it adopted?",
+     "a": "Systeme International - a single accepted set of units so that measurements mean the same everywhere.",
+     "self_check": true
+    },
+    {
+     "q": "Name the SI units of length, mass and time.",
+     "a": "Metre (m), kilogram (kg) and second (s).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.3",
+   "title": "Laws, Theories, and Principles",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a scientific law differ from a theory?",
+     "a": "A law states what always happens (often as an equation); a theory explains why it happens and can be revised with new evidence.",
+     "self_check": true
+    },
+    {
+     "q": "What makes a statement a scientific principle?",
+     "a": "It is a basic rule drawn from repeated experiments that holds without exception in its range, like Archimedes' principle.",
+     "self_check": true
+    },
+    {
+     "q": "Can a theory be discarded? When?",
+     "a": "Yes - when new experiments show results the theory cannot explain, it is modified or replaced.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.4",
+   "title": "Scientific Predictions and Testability",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What makes a prediction scientific?",
+     "a": "It is based on measurable variables and can be tested by experiment, so it could turn out wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Why is testability important in science?",
+     "a": "A claim that no test could disprove is outside science; testability lets evidence settle the question.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example of a testable prediction.",
+     "a": "'If plants get more sunlight, they will grow taller in two weeks' - it names measurable quantities and can be checked.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.5",
+   "title": "Fermi Estimation and Approximate Reasoning",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "breaths_per_day",
+     "expr": "breaths_per_minute * minutes_per_day",
+     "explain": "total breaths in a full day"
+    },
+    {
+     "step": 2,
+     "name": "air_per_day",
+     "expr": "breaths_per_day * volume_per_breath",
+     "explain": "multiply by the volume taken in each breath"
+    },
+    {
+     "step": 3,
+     "name": "air_per_day_litres",
+     "expr": "air_per_day / 1000",
+     "explain": "convert millilitres to litres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A person takes 15 breaths a minute, each of 500 mL. Estimate the air breathed per day.",
+     "vals": {
+      "breaths_per_minute": 15,
+      "minutes_per_day": 1440,
+      "volume_per_breath": 500
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "10800 L",
+     "self_check": false
+    },
+    {
+     "q": "During exercise breathing rises to 30 per minute of 500 mL. Estimate the daily volume at this rate.",
+     "vals": {
+      "breaths_per_minute": 30,
+      "minutes_per_day": 1440,
+      "volume_per_breath": 500
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "21600 L",
+     "self_check": false
+    },
+    {
+     "q": "A resting person breathes 12 times a minute of 400 mL each. Estimate the daily air volume.",
+     "vals": {
+      "breaths_per_minute": 12,
+      "minutes_per_day": 1440,
+      "volume_per_breath": 400
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "6912 L",
+     "self_check": false
+    },
+    {
+     "q": "An athlete takes 20 breaths of 600 mL per minute. What is the estimated daily intake?",
+     "vals": {
+      "breaths_per_minute": 20,
+      "minutes_per_day": 1440,
+      "volume_per_breath": 600
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "17280 L",
+     "self_check": false
+    },
+    {
+     "q": "A child breathes 18 times a minute of 300 mL. Estimate the child's daily air intake.",
+     "vals": {
+      "breaths_per_minute": 18,
+      "minutes_per_day": 1440,
+      "volume_per_breath": 300
+     },
+     "unit": "L",
+     "steps": null,
+     "a": "7776 L",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

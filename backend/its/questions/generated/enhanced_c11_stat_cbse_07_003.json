@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_003",
+   "title": "c11_stat_cbse_07_003",
+   "questions": [
+    {
+     "q": "A student plots a scatter diagram for \"price of a commodity\" (X-axis) and \"quantity demanded\" (Y-axis) using market data. The dots form a tight cluster sloping downward from left to right. What type of correlation does this diagram represent, and what economic law does it illustrate?",
+     "a": "The diagram shows **negative correlation** (as price rises, quantity demanded falls) and illustrates the **Law of Demand**. A wrong answer (e.g., \"positive correlation\" or \"no correlation\") reveals the student cannot link the visual downward slope to the inverse relationship between price and quantity demanded, or confuses the axis placement (thinking X-axis is quantity and Y-axis is price). This confusion often stems from not internalising that in economics, price is conventionally the independent variable on the X-axis for demand curves.",
+     "self_check": true
+    },
+    {
+     "q": "Two scatter diagrams are drawn for the same bivariate data set: Diagram A has X-axis scale 1 cm = 5 units, Y-axis scale 1 cm = 5 units. Diagram B has X-axis scale 1 cm = 5 units, Y-axis scale 1 cm = 20 units. Diagram A shows a moderate upward trend; Diagram B looks almost flat. Which diagram gives the true visual impression of the correlation strength, and why?",
+     "a": "**Diagram A** gives the true impression because it uses **equal scales on both axes** (isometric scaling). Diagram B artificially compresses the Y-axis variation, making the slope appear flatter and the correlation look weaker than it actually is. A student who picks Diagram B or says \"both are equally valid\" misunderstands that scatter diagram interpretation **requires comparable unit scaling** on X and Y axes; otherwise, the visual angle of the trend line is distorted, leading to incorrect judgments about correlation strength.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following paired data for \"Hours of Study per Week (X)\" and \"Marks Obtained in Statistics Test (Y)\" for 10 students: (2, 35), (4, 42), (5, 50), (6, 55), (7, 60), (8, 68), (9, 72), (10, 78), (11, 80), (12, 85). Plot the scatter diagram (conceptually) and classify the correlation by direction, degree, and nature. Justify each classification.",
+     "a": "**Direction: Positive** — as study hours increase, marks increase (dots trend upward left-to-right).  \n**Degree: High (strong)** — dots lie in a narrow, elongated cluster; a straight line would pass very close to most points.  \n**Nature: Linear** — the upward trend follows a straight-line pattern; no systematic curvature is visible.  \nA student who calls it \"moderate\" or \"non-linear\" likely misjudges the spread (confusing natural variation with low correlation) or expects perfect alignment for \"linear\" classification. The key is recognising that real data always has scatter; \"linear\" means the *trend* is straight, not that every point lies on the line.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher plots \"Age of Car (years)\" on X-axis and \"Resale Price (₹ lakhs)\" on Y-axis for 50 used cars. The scatter diagram shows a distinct downward curve: steep price drops in the first 3 years, then gradual flattening. The student concludes \"negative correlation, non-linear, moderate degree.\" Critique this conclusion: which parts are correct, which need refinement, and why?",
+     "a": "**Correct:** Negative correlation (price falls as age increases) and non-linear (curved pattern).  \n**Needs refinement:** \"Moderate degree\" is ambiguous — the *initial* drop is very strong (high correlation), but the *later* flattening shows low correlation. The overall pattern is **non-linear with varying strength**, not uniformly moderate. A student who labels it simply \"moderate\" misses that correlation strength can change across the range of X. This reveals a senior-secondary misconception: treating non-linear correlations as having a single \"degree\" like linear ones. The correct analysis describes the pattern piecewise: strong negative curvature early, weak negative later.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"If a scatter diagram shows a perfect circle of dots, the correlation is zero because there's no upward or downward trend.\" Evaluate this claim. Is the student right, wrong, or partially right? Explain using the definition of correlation and the limitations of scatter diagrams.",
+     "a": "The student is **partially right but incomplete**. A perfect circle (or any symmetric closed shape) yields **zero *linear* correlation** (Pearson's r = 0) because there is no *linear* trend. However, there is a **perfect non-linear (curvilinear) relationship** — Y is deterministically related to X via the circle equation. The scatter diagram *does* show a clear pattern, just not a straight-line one. The student's error is equating \"correlation\" with \"linear correlation only.\" At Class 11 level, you must distinguish: zero *linear* correlation ≠ no relationship. This misconception leads to discarding important non-linear associations in economics (e.g., U-shaped cost curves).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world bivariate data scenario (Indian context) where the scatter diagram would show: (a) high positive linear correlation, (b) low negative linear correlation, (c) perfect non-linear (curvilinear) correlation. For each, specify the two variables, the expected dot pattern, and one practical reason why this relationship exists.",
+     "a": "**Sample answers (any valid scenario earns credit):**  \n(a) **High positive linear:** X = Monthly household income (₹), Y = Monthly expenditure on food (₹) for 50 urban families. Pattern: tight upward-sloping band. Reason: Engel's Law — food expenditure rises steadily with income, though proportion falls.  \n(b) **Low negative linear:** X = Average daily temperature (°C) in Delhi, Y = Daily sale of hot tea (cups) at a stall over 30 winter days. Pattern: wide, diffuse downward cloud. Reason: Temperature affects tea demand, but many other factors (rain, holidays, marketing) create large scatter.  \n(c) **Perfect non-linear:** X = Speed of a car (km/h), Y = Fuel efficiency (km/litre) for a specific car model tested at 10 speeds. Pattern: dots lie exactly on an inverted-U curve (efficiency peaks at 50-60 km/h). Reason: Physics of engine mechanics — efficiency rises then falls with speed.  \nA poor answer uses unrealistic variables (e.g., \"height and intelligence\") or cannot explain the *economic/physical mechanism* behind the pattern, showing lack of contextual understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

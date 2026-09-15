@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_003",
+   "title": "c12_phy_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the superposition principle for electric forces in your own words. What is the mathematical expression for the net force on a charge \\(q\\) due to charges \\(q_1, q_2, \\dots, q_n\\)?",
+     "a": "The superposition principle states that the force on a charge due to multiple other charges is the vector sum of the individual forces, and each pairwise force is unaffected by other charges. Mathematically, \\(\\vec{F}_{\\text{net}} = \\sum_{i=1}^n \\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_i}{r_i^2} \\hat{r}_i\\). A wrong answer (e.g., \"forces add as scalars\" or \"the presence of a third charge changes the force between two charges\") reveals that the student has not grasped the vector nature of force or the independence of pairwise interactions — a fundamental error that leads to incorrect net force calculations in both board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Three point charges \\(+q\\), \\(+q\\), and \\(-q\\) are placed at the vertices of an equilateral triangle of side \\(a\\). A student claims: \"The net force on the \\(-q\\) charge is zero because the two \\(+q\\) charges are equal and opposite in sign to \\(-q\\), so their forces cancel.\" Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. The forces from the two \\(+q\\) charges on the \\(-q\\) charge are both attractive, directed along the lines joining \\(-q\\) to each \\(+q\\). These two force vectors are at 60° to each other (not 180°), so they do not cancel; their vector sum is non-zero and directed along the symmetry axis toward the midpoint of the two \\(+q\\) charges. This misconception arises from treating forces as scalars or assuming opposite signs automatically imply cancellation regardless of geometry. In board exams, such an error loses full marks for direction and magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Three charges are placed on the x-axis: \\(q_1 = +2.0\\ \\mu\\text{C}\\) at \\(x = 0\\), \\(q_2 = -3.0\\ \\mu\\text{C}\\) at \\(x = 10\\ \\text{cm}\\), and \\(q_3 = +4.0\\ \\mu\\text{C}\\) at \\(x = 20\\ \\text{cm}\\). Calculate the net electrostatic force on \\(q_2\\). Use \\(k = 9 \\times 10^9\\ \\text{N·m}^2/\\text{C}^2\\).",
+     "a": "**Step 1:** Identify forces on \\(q_2\\). Force from \\(q_1\\): attractive (opposite signs), so \\(\\vec{F}_{21}\\) points toward \\(q_1\\) (negative x-direction). Magnitude: \\(F_{21} = k \\frac{|q_2 q_1|}{r_{21}^2} = (9\\times10^9) \\frac{(3.0\\times10^{-6})(2.0\\times10^{-6})}{(0.10)^2} = 5.4\\ \\text{N}\\). So \\(\\vec{F}_{21} = -5.4\\ \\hat{i}\\ \\text{N}\\).  \n**Step 2:** Force from \\(q_3\\): attractive (opposite signs), so \\(\\vec{F}_{23}\\) points toward \\(q_3\\) (positive x-direction). Distance \\(r_{23} = 0.10\\ \\text{m}\\). \\(F_{23} = (9\\times10^9) \\frac{(3.0\\times10^{-6})(4.0\\times10^{-6})}{(0.10)^2} = 10.8\\ \\text{N}\\). So \\(\\vec{F}_{23} = +10.8\\ \\hat{i}\\ \\text{N}\\).  \n**Step 3:** Net force: \\(\\vec{F}_{\\text{net}} = \\vec{F}_{21} + \\vec{F}_{23} = (-5.4 + 10.8)\\ \\hat{i} = +5.4\\ \\hat{i}\\ \\text{N}\\).  \n**Answer:** \\(5.4\\ \\text{N}\\) in the \\(+x\\) direction (toward \\(q_3\\)).  \nA wrong answer (e.g., \\(16.2\\ \\text{N}\\) or \\(-5.4\\ \\text{N}\\)) reveals sign errors in force direction or incorrect distance usage — common in board exams where students forget that force direction depends on both sign and relative position.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical charges \\(+Q\\) are fixed at \\((0, a)\\) and \\((0, -a)\\) on the y-axis. A third charge \\(+q\\) is placed at \\((x, 0)\\) on the x-axis. Without calculating the exact magnitude, determine the direction of the net force on \\(+q\\) and explain how the magnitude varies as \\(x\\) increases from 0 to \\(\\infty\\). Sketch a qualitative graph of \\(F_{\\text{net}}\\) vs \\(x\\).",
+     "a": "By symmetry, the y-components of the forces from the two \\(+Q\\) charges cancel exactly. The x-components add up, so the net force is along the \\(+x\\) direction (repulsive). At \\(x=0\\), the forces are equal and opposite along y, but their x-components are zero, so \\(F_{\\text{net}} = 0\\). As \\(x\\) increases, the x-component of each force initially increases (because the angle with the x-axis decreases, increasing \\(\\cos\\theta\\)), reaches a maximum, then decreases as \\(1/r^2\\) dominates. The graph starts at 0, rises to a peak, then falls asymptotically to 0. A student who says \"force decreases monotonically\" or \"force is always along y\" has not analyzed vector components or symmetry — a typical JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"Three charges \\(+q, +q, +q\\) are at the vertices of an equilateral triangle of side \\(a\\). Find the force on one charge.\" Their solution: \\(F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q^2}{a^2} + \\frac{1}{4\\pi\\varepsilon_0} \\frac{q^2}{a^2} = \\frac{2}{4\\pi\\varepsilon_0} \\frac{q^2}{a^2}\\). Identify the error and give the correct expression.",
+     "a": "The student added the magnitudes as scalars, ignoring that the two forces are at 60° to each other. The correct net force magnitude is \\(F_{\\text{net}} = 2 F \\cos 30^\\circ = 2 \\left(\\frac{1}{4\\pi\\varepsilon_0} \\frac{q^2}{a^2}\\right) \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{4\\pi\\varepsilon_0} \\frac{q^2}{a^2}\\). The error is a classic vector addition mistake: treating forces as scalars. In board exams, this loses marks for both method and final answer; in JEE, it leads to wrong options in MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a gold-leaf electroscope and two known charged spheres to verify the superposition principle. Describe the procedure, what you would measure, and how you would confirm that the net force is the vector sum.",
+     "a": "**Procedure:** (1) Charge sphere A with \\(+Q\\) and bring it near the electroscope knob; note leaf divergence \\(\\theta_1\\) (proportional to force). (2) Discharge electroscope, bring sphere B with \\(+Q\\) to same distance; note \\(\\theta_2\\). (3) Bring both A and B simultaneously to symmetric positions on either side of the knob at same distance; note \\(\\theta_{\\text{both}}\\). (4) If superposition holds, the horizontal components of forces add, vertical components cancel. For symmetric placement, \\(\\theta_{\\text{both}} = 2\\theta_1 \\cos\\alpha\\) where \\(\\alpha\\) is the angle from horizontal. Measure \\(\\theta_{\\text{both}}\\) and compare. A good answer includes a clear diagram, identifies the measured quantity (divergence angle), and explains how vector addition is tested. A poor answer omits vector components or assumes scalar addition, showing the student cannot translate the principle into an experimental test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

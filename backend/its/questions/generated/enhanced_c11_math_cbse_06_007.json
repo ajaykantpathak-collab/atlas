@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_007",
+   "title": "c11_math_cbse_06_007",
+   "questions": [
+    {
+     "q": "A student writes the inequality for \"The sum of two numbers is at most 50\" as x + y < 50. Is this correct? Explain why or why not.",
+     "a": "No, it is not correct. \"At most 50\" means less than or equal to 50, so the inequality should be x + y ≤ 50. A wrong answer reveals the student confuses \"at most\" (≤) with \"less than\" (<), a common language-to-symbol translation error.",
+     "self_check": true
+    },
+    {
+     "q": "In a word problem, a student defines variables as \"x = number of apples\" and \"y = cost of apples\". Why is this definition problematic for forming inequalities?",
+     "a": "The variables must represent quantities of the same type (usually counts or amounts) to be combined in an inequality. Mixing a count (number) and a cost (rupees) leads to dimensionally inconsistent expressions like x + y ≤ budget. A wrong answer shows the student does not grasp the need for consistent units in mathematical modeling.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi has ₹200 to spend on pens (₹15 each) and pencils (₹5 each). He wants at least 4 pens and at least 6 pencils. Write the system of inequalities and find one possible combination of pens and pencils he can buy.",
+     "a": "Let x = number of pens, y = number of pencils.\nInequalities: 15x + 5y ≤ 200, x ≥ 4, y ≥ 6, x,y ≥ 0 integers.\nSimplify cost: 3x + y ≤ 40.\nOne possible combination: x=4, y=6 gives cost = 15*4+5*6=60+30=90 ≤200, satisfies all. (Many others exist.)\nA wrong answer might forget non-negativity, or miswrite the cost inequality (e.g., 15x+5y ≥ 200), revealing misunderstanding of \"has ₹200 to spend\" as a maximum budget.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution sets of the following two problems:\nProblem A: \"Find the number of items x such that 2x + 3 ≤ 15.\"\nProblem B: \"A shopkeeper has 15 meters of cloth. Each shirt requires 2 meters and each trouser requires 3 meters. If he makes x shirts and y trousers, write the inequality.\"\nHow does the interpretation of the solution differ?",
+     "a": "Problem A yields a single-variable inequality with solution x ≤ 6 (x ∈ ℝ or ℤ depending on context). Problem B yields a two-variable inequality 2x + 3y ≤ 15, whose solution is a region in the xy-plane. The difference is that Problem A's solution is a set of numbers, while Problem B's solution is a set of ordered pairs representing combinations. A wrong answer indicates the student does not recognize the shift from one-variable to two-variable modeling.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the word problem: \"Find two consecutive even integers such that their sum is at least 30.\" They write: Let x be the first even integer, then x+2 is the next. Inequality: x + (x+2) ≥ 30 → 2x ≥ 28 → x ≥ 14. They answer: 14 and 16. Is this fully correct? Evaluate.",
+     "a": "The solution is mathematically correct for the inequality, but the problem asks for \"two consecutive even integers\" (implying a specific pair? Actually \"find two consecutive even integers such that...\" usually means find all such pairs, or the smallest pair). The student gave one pair (14,16). However, any even integer ≥14 works (e.g., 16,18; 18,20). The answer should indicate the set of all such pairs or the smallest pair. A wrong evaluation might miss that the problem likely expects the smallest pair or the general solution, revealing a lack of precision in interpreting \"find\" in word problems.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) that leads to the system of inequalities:\n3x + 2y ≤ 100\nx ≥ 10\ny ≥ 5\nx, y are non-negative integers.\nExplain what x and y represent.",
+     "a": "Example: \"A farmer has 100 kg of fertilizer. Crop A requires 3 kg per acre and Crop B requires 2 kg per acre. He must plant at least 10 acres of Crop A and at least 5 acres of Crop B. Let x = acres of Crop A, y = acres of Crop B. Write the constraints.\" A good answer shows creativity and correct mapping of coefficients to resource usage. A poor answer might assign x,y to unrelated quantities or misstate the inequality direction, revealing weak modeling skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

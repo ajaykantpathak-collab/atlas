@@ -1,0 +1,546 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Data Handling and Presentation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp104.txt",
+ "concepts": [
+  {
+   "id": "fegp.4.1.1",
+   "title": "Data",
+   "section": "4.1",
+   "definition": "Numbers, measurements or observations gathered about the things we want to study -- gathered together, they are called data.",
+   "formula": "",
+   "key_idea": "Information collected to convey facts or observations.",
+   "textbook_ref": "fegp104.txt lines 10-12",
+   "question_patterns": [
+    "what is data",
+    "define data",
+    "give examples of data",
+    "identify if a collection of facts is data",
+    "Give one example of data from your classroom.",
+    "Why organise raw observations before drawing conclusions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the collection",
+     "explain": "Check if the information consists of facts, numbers, or observations."
+    },
+    {
+     "step": 2,
+     "action": "classify the data type",
+     "explain": "Determine whether the data is numerical (counts or measurements) or categorical (labels or categories)."
+    },
+    {
+     "step": 3,
+     "action": "confirm it qualifies as data",
+     "explain": "Conclude that the collection is data if it was gathered purposefully to convey facts about the things being studied."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.1.2",
+   "title": "Tally Marks and Frequency",
+   "section": "4.1",
+   "definition": "Tally marks record counts in little bundles of five -- four strokes plus one strike across. A frequency is simply how often a particular value shows up.",
+   "formula": "frequency = count_of_tallies",
+   "key_idea": "Bundle strokes in fives, then read each row's count as its frequency.",
+   "textbook_ref": "fegp104.txt lines 58-62, 163-164",
+   "question_patterns": [
+    "prepare a frequency distribution table",
+    "how many students chose a specific category using tallies",
+    "find the frequency of a value",
+    "complete the tally mark table",
+    "Draw the tally for a count of 12.",
+    "What does a strike across four strokes stand for?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count tally groups",
+     "explain": "Each group of four marks with a diagonal line represents 5 units.",
+     "compute": "group_count = full_groups * 5"
+    },
+    {
+     "step": 2,
+     "action": "add remaining marks",
+     "explain": "Add the individual vertical lines to the group count.",
+     "compute": "frequency = group_count + individual_marks"
+    },
+    {
+     "step": 3,
+     "action": "record the frequency",
+     "explain": "Write the total count beside the tally row in the frequency column of the distribution table."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.2.1",
+   "title": "Pictographs",
+   "section": "4.2",
+   "definition": "A picture chart where each drawn symbol stands for a fixed number of things, so a reader can take in the figures at a glance.",
+   "formula": "total_value = number_of_symbols * scale",
+   "key_idea": "Using visual symbols and a scale to represent numerical data.",
+   "textbook_ref": "fegp104.txt lines 112-113, 165-167",
+   "question_patterns": [
+    "how many items are represented in the pictograph",
+    "calculate the total from the pictograph",
+    "find the value for a category in a pictograph",
+    "how many symbols represent a specific number",
+    "If one symbol stands for 5 books, how many symbols show 35 books?",
+    "Read the grand total from the given picture chart."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the scale",
+     "explain": "Determine how many units one symbol represents.",
+     "compute": "unit_scale = scale"
+    },
+    {
+     "step": 2,
+     "action": "count full symbols",
+     "explain": "Count the number of complete symbols for the category.",
+     "compute": "full_value = count * unit_scale"
+    },
+    {
+     "step": 3,
+     "action": "account for partial symbols",
+     "explain": "If a half symbol is present, add half of the scale value.",
+     "compute": "total_value = full_value + partial_value"
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.3.1",
+   "title": "Bar Graphs",
+   "section": "4.3",
+   "definition": "A chart of equally spaced, same-width bars whose heights (or lengths) carry each category's count.",
+   "formula": "value = bar_length * scale",
+   "key_idea": "Visual comparison of frequencies using rectangular bars.",
+   "textbook_ref": "fegp104.txt lines 212-215, 168-170",
+   "question_patterns": [
+    "interpret the bar graph",
+    "find the value of a category from the bar graph",
+    "which category has the maximum frequency",
+    "calculate the difference between two bars",
+    "Which bar is tallest and what does that tell you?",
+    "By how much do the two tallest bars differ?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read bar length",
+     "explain": "Identify the height or length of the bar on the axis.",
+     "compute": "length = bar_units"
+    },
+    {
+     "step": 2,
+     "action": "apply scale",
+     "explain": "Multiply the units by the scale factor defined for the axis.",
+     "compute": "value = length * scale"
+    },
+    {
+     "step": 3,
+     "action": "compare bars if needed",
+     "explain": "To find a difference or maximum, repeat the reading for each relevant bar and subtract or compare the values."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.4.1",
+   "title": "Drawing a Bar Graph (Scale Selection)",
+   "section": "4.4",
+   "definition": "Pick how many units one step of the axis should carry so the tallest value still fits on the sheet -- that choice is the scale.",
+   "formula": "bar_height = frequency / scale",
+   "key_idea": "Determining the physical height of bars based on frequency and chosen scale.",
+   "textbook_ref": "fegp104.txt lines 243-246, 276-280",
+   "question_patterns": [
+    "calculate the height of the bar",
+    "what scale should be used for the bar graph",
+    "how many units represent the frequency",
+    "determine the number of units for a specific expenditure",
+    "Choose a scale so values up to 200 fit in 20 divisions.",
+    "What drawn height does a frequency of 24 take at 1 unit = 4?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify frequency and scale",
+     "explain": "Determine the data value and the chosen unit scale.",
+     "compute": "val = frequency"
+    },
+    {
+     "step": 2,
+     "action": "calculate height",
+     "explain": "Divide the frequency by the scale to find the number of units to draw.",
+     "compute": "height = val / scale"
+    },
+    {
+     "step": 3,
+     "action": "verify the bar fits the sheet",
+     "explain": "Check that the computed height does not exceed the available axis divisions; if it does, choose a larger scale and recompute."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.5.1",
+   "title": "Column Graphs and Horizontal Bars",
+   "section": "4.5",
+   "definition": "Bars can stand upright or lie flat; upright suits heights, flat suits lengths measured along the ground.",
+   "formula": "",
+   "key_idea": "Orientation of bars based on the nature of the data (height vs distance).",
+   "textbook_ref": "fegp104.txt lines 331-334, 340-343",
+   "question_patterns": [
+    "what is a column graph",
+    "when to use vertical bars",
+    "when to use horizontal bars",
+    "identify the best graph orientation for heights",
+    "Should bars for river lengths stand upright or lie flat?",
+    "When are flat bars easier to label?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify data type",
+     "explain": "Determine if the data represents vertical measures (heights) or horizontal measures (distances)."
+    },
+    {
+     "step": 2,
+     "action": "choose the bar orientation",
+     "explain": "Select vertical (column) bars for heights and horizontal bars for distances or long category labels."
+    },
+    {
+     "step": 3,
+     "action": "confirm the choice aids readability",
+     "explain": "Verify that the chosen orientation makes the graph easy to label and compare without crowding the axis."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.5.2",
+   "title": "Infographics",
+   "section": "4.5",
+   "definition": "Posters that blend charts, icons and short text into one striking visual -- eye-catching, but distorted shapes can mislead.",
+   "formula": "",
+   "key_idea": "Engaging visual communication of data, with a warning about potential misleading shapes.",
+   "textbook_ref": "fegp104.txt lines 351-355, 375-378",
+   "question_patterns": [
+    "define infographics",
+    "what is the purpose of an infographic",
+    "can infographics be misleading",
+    "how do infographics differ from standard bar graphs",
+    "Why can an infographic exaggerate a comparison?",
+    "What should you check before trusting a poster's visual?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze visual elements",
+     "explain": "Check if artistic shapes (like triangles) maintain proportional accuracy to the data."
+    },
+    {
+     "step": 2,
+     "action": "compare with a standard bar graph",
+     "explain": "Contrast the infographic's visual encoding against an equivalent bar graph to spot any exaggeration or distortion."
+    },
+    {
+     "step": 3,
+     "action": "judge reliability",
+     "explain": "Conclude whether the infographic conveys the data faithfully or misleads the reader through scaled icons or decorative effects."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp104.txt lines 128-135",
+   "concept": "fegp.4.2.1",
+   "question_type": "compute",
+   "question_pattern": "How many children sometimes slept at least 9 hours if there are {count} complete pictures and {partial} half picture where one symbol is {scale} children?",
+   "extracted_variables": {
+    "count": "number of full symbols",
+    "partial": "number of half symbols",
+    "scale": "value per symbol"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate full symbols value",
+     "explain": "Multiply the number of full symbols by the scale.",
+     "compute": "full_val = count * scale"
+    },
+    {
+     "step": 2,
+     "action": "calculate partial symbol value",
+     "explain": "A half symbol represents half of the scale.",
+     "compute": "part_val = scale / 2"
+    },
+    {
+     "step": 3,
+     "action": "sum total",
+     "explain": "Add full and partial values.",
+     "compute": "total = full_val + part_val"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp104.txt lines 276-285",
+   "concept": "fegp.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the height of the bar for {item} with expenditure {exp} if 1 unit length = {scale} rupees.",
+   "extracted_variables": {
+    "exp": "expenditure amount",
+    "scale": "rupees per unit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide frequency by scale",
+     "explain": "The height in units is the total value divided by the value per unit.",
+     "compute": "height = exp / scale"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.4.1.2",
+   "question_pattern": "Bundle {n} strokes and read the frequency.",
+   "extracted_variables": {
+    "n": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "make bundles of five",
+     "explain": "one bundle of five",
+     "compute": "bundle = 5"
+    },
+    {
+     "step": 2,
+     "action": "count the leftovers",
+     "explain": "three singles",
+     "compute": "leftover = 3"
+    },
+    {
+     "step": 3,
+     "action": "add up",
+     "explain": "5 + 3 = 8",
+     "compute": "frequency = bundle + leftover"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.1.2",
+   "question_pattern": "A row shows one crossed bundle plus {k} singles -- what is the frequency?",
+   "extracted_variables": {
+    "k": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "make bundles of five",
+     "explain": "one crossed bundle",
+     "compute": "bundle = 5"
+    },
+    {
+     "step": 2,
+     "action": "count the leftovers",
+     "explain": "two singles",
+     "compute": "leftover = 2"
+    },
+    {
+     "step": 3,
+     "action": "add up",
+     "explain": "5 + 2 = 7",
+     "compute": "frequency = bundle + leftover"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.2.1",
+   "question_pattern": "One symbol equals {scale} books; how many books do {symbols} symbols show?",
+   "extracted_variables": {
+    "scale": "5",
+    "symbols": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply symbols by the key",
+     "explain": "4 x 5 = 20",
+     "compute": "total_value = number_of_symbols * scale"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.2.1",
+   "question_pattern": "Each cart icon means {scale} sacks; read the total for {symbols} icons.",
+   "extracted_variables": {
+    "scale": "10",
+    "symbols": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply symbols by the key",
+     "explain": "3 x 10 = 30",
+     "compute": "total_value = number_of_symbols * scale"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.3.1",
+   "question_pattern": "A bar reaches {bars} units at a scale of {scale} per unit -- what value shows?",
+   "extracted_variables": {
+    "bars": "4",
+    "scale": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply length by scale",
+     "explain": "4 x 5 = 20",
+     "compute": "value = bar_length * scale"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.3.1",
+   "question_pattern": "Two bars measure {b1} and {b2} units at {scale} per unit -- find the gap.",
+   "extracted_variables": {
+    "b1": "6",
+    "b2": "2",
+    "scale": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert the first bar",
+     "explain": "6 x 3 = 18",
+     "compute": "v1 = bar_length * scale"
+    },
+    {
+     "step": 2,
+     "action": "convert the second bar",
+     "explain": "2 x 3 = 6",
+     "compute": "v2 = bar_length * scale"
+    },
+    {
+     "step": 3,
+     "action": "subtract",
+     "explain": "18 - 6 = 12",
+     "compute": "gap = v1 - v2"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.4.1",
+   "question_pattern": "At 1 unit = {scale}, what height does a frequency of {frequency} take?",
+   "extracted_variables": {
+    "scale": "4",
+    "frequency": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by the scale",
+     "explain": "24 / 4 = 6",
+     "compute": "bar_height = frequency / scale"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.4.4.1",
+   "question_pattern": "Fit {frequency} into 10 divisions, then read the drawn height.",
+   "extracted_variables": {
+    "frequency": "50"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "choose the scale",
+     "explain": "50 / 10 = 5 per division",
+     "compute": "scale = frequency / 10"
+    },
+    {
+     "step": 2,
+     "action": "compute the height",
+     "explain": "50 / 5 = 10",
+     "compute": "bar_height = frequency / scale"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "fegp104.txt lines 75-78",
+   "questions": [
+    "What is the most popular game in their class?",
+    "How many students chose gujiya?",
+    "The largest shoe size in the class is?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "fegp104.txt lines 83-85",
+   "questions": [
+    "On which day were the minimum number of books borrowed?",
+    "How many symbols represent the kites that Rani purchased?",
+    "Who purchased more kites, Jasmeet or Chaman?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "fegp104.txt lines 86-88",
+   "questions": [
+    "In Class 2, how many students were absent that day?",
+    "How many total cars passed through the crossing between 6 a.m. and noon?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "fegp104.txt lines 93-100",
+   "questions": [
+    "On which item does Imran's family spend the most?",
+    "What is the scale for the ticket sales graph if Vidisha (24 tickets) is 6 units?",
+    "How many girls are there in Class 7 if one symbol equals 4 girls and there are 3 symbols?"
+   ]
+  }
+ ],
+ "source_link": "re-linked to new cache"
+}

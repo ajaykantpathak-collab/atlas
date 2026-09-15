@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class12_accountancy_leac104",
+ "concepts": [
+  {
+   "id": "leac.104.4.1",
+   "title": "Realisation Account",
+   "questions": [
+    {
+     "q": "Using the method 'Realisation Account', work with: credit_side_total = 150, debit_side_total = 25. Carry the chain through step by step and give the final value of realisation_result.",
+     "a": "125 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Realisation Account' and work with: credit_side_total = 300, debit_side_total = 60. Carry the chain through step by step and give the final value of realisation_result.",
+     "a": "240 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Realisation Account' refers to.",
+     "a": "At dissolution every asset other than cash and every external liability is pushed into one account that collects sale proceeds, settlements and wind-up costs; its final balance is the profit or loss on realisation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Realisation Account'.",
+     "a": "The account exists only to measure the wind-up result, which then moves to the partners in the profit ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Realisation Account', in plain ASCII form.",
+     "a": "realisation_result = credit_side_total - debit_side_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.2",
+   "title": "Profit or Loss on Realisation",
+   "questions": [
+    {
+     "q": "Calculate the profit or loss on realisation of the firm. Use the method 'Profit or Loss on Realisation'. Work with: credits_total = 240, debits_total = 4. Carry the chain through step by step and give the final value of realisation_result.",
+     "a": "236 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the balance of the realisation account at dissolution. Use the method 'Profit or Loss on Realisation'. Work with: credits_total = 50, debits_total = 45. Carry the chain through step by step and give the final value of realisation_result.",
+     "a": "5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit or Loss on Realisation' refers to.",
+     "a": "The wind-up result is the excess of everything credited to the realisation account over everything debited to it; a negative figure is a realisation loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit or Loss on Realisation'.",
+     "a": "Sale proceeds and liabilities taken over push the result up; payments, expenses and remuneration push it down.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit or Loss on Realisation', in plain ASCII form.",
+     "a": "realisation_result = credits_total - debits_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.3",
+   "title": "Sharing the Realisation Result",
+   "questions": [
+    {
+     "q": "Calculate each partner's share of the realisation loss. Use the method 'Sharing the Realisation Result'. Work with: profit_share_fraction = 0.8, realisation_result = 150. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "120 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much of the realisation profit goes to each partner? Use the method 'Sharing the Realisation Result'. Work with: profit_share_fraction = 0.8, realisation_result = 100. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "80 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sharing the Realisation Result' refers to.",
+     "a": "Whatever profit or loss the wind-up produces is split among all partners in their profit sharing ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sharing the Realisation Result'.",
+     "a": "The realisation result follows the profit ratio exactly, gains and losses alike.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sharing the Realisation Result', in plain ASCII form.",
+     "a": "partner_share = realisation_result * profit_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.4",
+   "title": "Assets Realised at a Stated Percent",
+   "questions": [
+    {
+     "q": "Calculate the amount realised when debtors are sold at a discount of a stated percent. Use the method 'Assets Realised at a Stated Percent'. Work with: book_value = 2500, realisation_percent = 12. Carry the chain through step by step and give the final value of realised_amount.",
+     "a": "300 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the sale proceeds of an asset realised at a percent of its book value. Use the method 'Assets Realised at a Stated Percent'. Work with: book_value = 80000, realisation_percent = 5. Carry the chain through step by step and give the final value of realised_amount.",
+     "a": "4000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Assets Realised at a Stated Percent' refers to.",
+     "a": "Assets seldom fetch book value; when realisation is quoted at a percent of book value, or at a discount of some percent, the proceeds are the book value scaled by that percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Assets Realised at a Stated Percent'.",
+     "a": "A five percent discount means realising ninety five percent of the book figure.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Assets Realised at a Stated Percent', in plain ASCII form.",
+     "a": "realised_amount = book_value * realisation_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.5",
+   "title": "Asset Taken Over by a Partner",
+   "questions": [
+    {
+     "q": "Calculate the value at which a partner takes over part of the stock. Use the method 'Asset Taken Over by a Partner'. Work with: book_value = 2500, discount_percent = 10, portion_fraction = 0.35. Carry the chain through step by step and give the final value of takeover_value.",
+     "a": "787.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount debited to a partner who absorbs an asset at a discount. Use the method 'Asset Taken Over by a Partner'. Work with: book_value = 500, discount_percent = 25, portion_fraction = 0.5. Carry the chain through step by step and give the final value of takeover_value.",
+     "a": "187.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Asset Taken Over by a Partner' refers to.",
+     "a": "When a partner absorbs part or all of an asset, the agreed value he pays or is debited for is the share's book value trimmed by any agreed discount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Asset Taken Over by a Partner'.",
+     "a": "The partner's capital account is charged with the agreed takeover value, and the asset leaves the realisation account at book value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Asset Taken Over by a Partner', in plain ASCII form.",
+     "a": "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.6",
+   "title": "Liability Settled at a Discount",
+   "questions": [
+    {
+     "q": "Calculate the cash paid to creditors settled at a discount. Use the method 'Liability Settled at a Discount'. Work with: discount_percent = 5, liability_amount = 8000. Carry the chain through step by step and give the final value of payment_amount.",
+     "a": "7600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the payment made when creditors accept a percent less than the claim. Use the method 'Liability Settled at a Discount'. Work with: discount_percent = 12, liability_amount = 20000. Carry the chain through step by step and give the final value of payment_amount.",
+     "a": "17600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Liability Settled at a Discount' refers to.",
+     "a": "Creditors often accept less than the booked claim; the cash paid is the liability reduced by the agreed discount percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liability Settled at a Discount'.",
+     "a": "Only the cash actually paid is recorded; a full settlement against an accepted asset needs no entry at all.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Liability Settled at a Discount', in plain ASCII form.",
+     "a": "payment_amount = liability_amount * (1 - discount_percent / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.7",
+   "title": "Realisation Expenses and Remuneration",
+   "questions": [
+    {
+     "q": "Using the method 'Realisation Expenses and Remuneration', work with: agreed_amount_for_dissolution_work = 12000. Carry the chain through step by step and give the final value of remuneration_credited.",
+     "a": "12000 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Realisation Expenses and Remuneration' and work with: agreed_amount_for_dissolution_work = 80000. Carry the chain through step by step and give the final value of remuneration_credited.",
+     "a": "80000 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Realisation Expenses and Remuneration' refers to.",
+     "a": "Wind-up costs paid by the firm hit the realisation account; costs paid by a partner on the firm's behalf are credited to that partner; a fixed remuneration for doing the work goes to the realisation account, and actual spending by the remunerated partner is not recorded again.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Realisation Expenses and Remuneration'.",
+     "a": "Whichever way expenses are arranged, only one of remuneration or actual expense ever reaches the account twice.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Realisation Expenses and Remuneration', in plain ASCII form.",
+     "a": "remuneration_credited = agreed_amount_for_dissolution_work",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.3.1",
+   "title": "Order of Settlement on Dissolution",
+   "questions": [
+    {
+     "q": "Using the method 'Order of Settlement on Dissolution', work with: assets_available = 80000, capital_balances = 2500, outside_claims = 360, partner_loans = 30. Carry the chain through step by step and give the final value of residue_for_partners.",
+     "a": "77110 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Order of Settlement on Dissolution' and work with: assets_available = 50000, capital_balances = 5000, outside_claims = 6, partner_loans = 200. Carry the chain through step by step and give the final value of residue_for_partners.",
+     "a": "44794 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Order of Settlement on Dissolution' refers to.",
+     "a": "Money from asset sales is applied in a fixed sequence: outside debts first, then partner loans, then partner capitals, and whatever survives is shared by the partners in the profit ratio; losses follow the reverse ladder of profits, capitals, then personal contribution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Order of Settlement on Dissolution'.",
+     "a": "Outsiders always rank ahead of partners, and partner loans rank ahead of partner capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Order of Settlement on Dissolution', in plain ASCII form.",
+     "a": "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.3.2",
+   "title": "Capital Loss Borne in Capital Ratio",
+   "questions": [
+    {
+     "q": "Calculate the capital loss borne by each solvent partner under Garner versus Murray. Use the method 'Capital Loss Borne in Capital Ratio'. Work with: capital_fraction = 0.4, deficiency_amount = 80000. Carry the chain through step by step and give the final value of loss_share.",
+     "a": "32000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the contribution of solvent partners towards an insolvent partner's deficit. Use the method 'Capital Loss Borne in Capital Ratio'. Work with: capital_fraction = 0.6, deficiency_amount = 500. Carry the chain through step by step and give the final value of loss_share.",
+     "a": "300 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Loss Borne in Capital Ratio' refers to.",
+     "a": "When a partner cannot make good the debit on his capital account, the unrecoverable amount falls on the solvent partners in proportion to their capitals on the dissolution date, following the Garner versus Murray principle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Loss Borne in Capital Ratio'.",
+     "a": "The insolvent partner's shortfall is a capital loss shared by capital ratio, not the profit ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Loss Borne in Capital Ratio', in plain ASCII form.",
+     "a": "loss_share = deficiency_amount * capital_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.8",
+   "title": "Reserves and Accumulated Profits on Dissolution",
+   "questions": [
+    {
+     "q": "Calculate each partner's share of the accumulated reserve when the firm dissolves. Use the method 'Reserves and Accumulated Profits on Dissolution'. Work with: accumulated_amount = 500, profit_share_fraction = 0.3. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "150 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the reserve amount credited to a partner when the firm is wound up. Use the method 'Reserves and Accumulated Profits on Dissolution'. Work with: accumulated_amount = 50000, profit_share_fraction = 0.3. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "15000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reserves and Accumulated Profits on Dissolution' refers to.",
+     "a": "General reserves and accumulated profits are not realised; they move straight to the partners' capital accounts in the profit sharing ratio, while fictitious assets and accumulated losses are written off against the capitals the same way.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reserves and Accumulated Profits on Dissolution'.",
+     "a": "Reserves credit the partners; fictitious items and accumulated losses debit them, both in the profit ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reserves and Accumulated Profits on Dissolution', in plain ASCII form.",
+     "a": "partner_share = accumulated_amount * profit_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.9",
+   "title": "Loan Cleared with Interest",
+   "questions": [
+    {
+     "q": "Calculate the payment clearing a loan along with one year's interest. Use the method 'Loan Cleared with Interest'. Work with: interest_rate = 15, loan_amount = 8000. Carry the chain through step by step and give the final value of payment_with_interest.",
+     "a": "9200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the total paid when a bank loan is settled with interest at a yearly rate. Use the method 'Loan Cleared with Interest'. Work with: interest_rate = 20, loan_amount = 50000. Carry the chain through step by step and give the final value of payment_with_interest.",
+     "a": "60000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loan Cleared with Interest' refers to.",
+     "a": "Where a loan is discharged together with one year's interest, the total outgo is the principal grossed up by the yearly rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loan Cleared with Interest'.",
+     "a": "Interest rides on top of the principal when the borrower clears both at once.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loan Cleared with Interest', in plain ASCII form.",
+     "a": "payment_with_interest = loan_amount * (1 + interest_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4.10",
+   "title": "Commission on Realising Assets",
+   "questions": [
+    {
+     "q": "Calculate the commission earned by the partner for realising the assets. Use the method 'Commission on Realising Assets'. Work with: assets_sold_total = 1200, commission_rate = 20. Carry the chain through step by step and give the final value of commission_amount.",
+     "a": "240 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the commission at a stated percent of the assets sold. Use the method 'Commission on Realising Assets'. Work with: assets_sold_total = 5000, commission_rate = 25. Carry the chain through step by step and give the final value of commission_amount.",
+     "a": "1250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Commission on Realising Assets' refers to.",
+     "a": "A partner deputed to sell the assets often earns a commission quoted as a percent of the sale proceeds; the commission is the proceeds times that percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Commission on Realising Assets'.",
+     "a": "The commission debits the realisation account and credits the working partner's capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Commission on Realising Assets', in plain ASCII form.",
+     "a": "commission_amount = assets_sold_total * commission_rate / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

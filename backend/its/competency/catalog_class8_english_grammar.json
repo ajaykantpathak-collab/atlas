@@ -1,0 +1,195 @@
+{
+  "class": 8,
+  "subject": "english_grammar",
+  "chapter": 1,
+  "chapter_title": "English Grammar III: Present Perfect, Passive Voice, Spelling",
+  "source_file": "original-authored; grammar drill bank (no textbook source)",
+  "license": "original authored content; no textbook passages",
+  "concepts": [
+    {
+      "id": "engram.8.1",
+      "title": "Present Perfect Tense: Fill the Blank",
+      "section": "Grammar Drill",
+      "definition": "The present perfect (has or have + third form of the verb) shows an action completed in the recent past or continuing into the present, often with already, just, twice, since.",
+      "formula": "has/have + V3 (third form)",
+      "key_idea": "The time is unfinished or unstated - that is why has or have + V3, not the simple past.",
+      "question_patterns": [
+        "Fill in the blank with the present perfect form of the verb",
+        "Choose has or have with the third verb form",
+        "Complete the sentence in the present perfect tense"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Pick the helper",
+          "explain": "he/she/it -> has; I/we/you/they -> have"
+        },
+        {
+          "step": 2,
+          "action": "Use the third form",
+          "explain": "write the past participle: finish -> finished, give -> given"
+        },
+        {
+          "step": 3,
+          "action": "Check the cue words",
+          "explain": "already, just, twice, since fit the present perfect"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the present perfect form: She ___ her homework already. (finish)",
+          "a": "has finished"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: They ___ the museum twice. (visit)",
+          "a": "have visited"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: I ___ this novel many times. (read)",
+          "a": "have read"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: Rahul ___ his keys. (lose)",
+          "a": "has lost"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: We ___ in this town since 2015. (live)",
+          "a": "have lived"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: The train ___ the station just now. (leave)",
+          "a": "has left"
+        },
+        {
+          "q": "Fill in the blank with the present perfect form: My parents ___ me a gift. (give)",
+          "a": "have given"
+        }
+      ]
+    },
+    {
+      "id": "engram.8.2",
+      "title": "Active to Passive Voice: Present Simple",
+      "section": "Grammar Drill",
+      "definition": "In the passive voice the object of the active sentence becomes the subject. For the present simple the verb is is, am or are + third form; the doer follows by.",
+      "formula": "active: A does X  ->  passive: X is/are done by A",
+      "key_idea": "Present simple passive = is/am/are + V3 (+ by + doer).",
+      "question_patterns": [
+        "Change the sentence into the passive voice",
+        "Fill the passive verb form in the blank",
+        "Rewrite the active sentence in the passive"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Move the object first",
+          "explain": "the active object starts the passive sentence"
+        },
+        {
+          "step": 2,
+          "action": "Choose is or are",
+          "explain": "match the new singular or plural subject"
+        },
+        {
+          "step": 3,
+          "action": "Add the third form",
+          "explain": "then by + doer"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Change into the passive voice: Riya writes a letter. - A letter ___ by Riya. (write)",
+          "a": "is written"
+        },
+        {
+          "q": "Change into the passive voice: The chef cooks dinner. - Dinner ___ by the chef. (cook)",
+          "a": "is cooked"
+        },
+        {
+          "q": "Change into the passive voice: They clean the classroom daily. - The classroom ___ daily. (clean)",
+          "a": "is cleaned"
+        },
+        {
+          "q": "Change into the passive voice: Sohan plays chess. - Chess ___ by Sohan. (play)",
+          "a": "is played"
+        },
+        {
+          "q": "Change into the passive voice: The gardener waters the plants. - The plants ___ by the gardener. (water)",
+          "a": "are watered"
+        },
+        {
+          "q": "Change into the passive voice: Everyone loves the puppy. - The puppy ___ by everyone. (love)",
+          "a": "is loved"
+        },
+        {
+          "q": "Change into the passive voice: The company sells cars. - Cars ___ by the company. (sell)",
+          "a": "are sold"
+        }
+      ]
+    },
+    {
+      "id": "engram.8.3",
+      "title": "Correct Spelling: Choose the Right Word",
+      "section": "Grammar Drill",
+      "definition": "Four spellings of one word are given; only one is correct. Common traps: ie and ei, double letters, and -able versus -eable endings.",
+      "formula": "i before e except after c: believe, receive",
+      "key_idea": "Say the word in syllables and count the double letters.",
+      "question_patterns": [
+        "Choose the correctly spelled word from the four options",
+        "Pick the right spelling of the word",
+        "Which option spells the word correctly?"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read all four options",
+          "explain": "compare letter by letter"
+        },
+        {
+          "step": 2,
+          "action": "Recall the rule",
+          "explain": "believe has ie, receive has ei after c"
+        },
+        {
+          "step": 3,
+          "action": "Count doubles",
+          "explain": "necessary has one c and two s"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Choose the correctly spelled word: (a) recieve (b) receeve (c) receive (d) riceive",
+          "a": "receive"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) beleive (b) believe (c) beleave (d) belive",
+          "a": "believe"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) acomodate (b) accomodate (c) accommodate (d) acommodate",
+          "a": "accommodate"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) neccessary (b) necesary (c) neccesary (d) necessary",
+          "a": "necessary"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) seperate (b) separate (c) separete (d) seperete",
+          "a": "separate"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) definately (b) definetly (c) definitely (d) definatly",
+          "a": "definitely"
+        },
+        {
+          "q": "Choose the correctly spelled word: (a) embarass (b) embarrass (c) emberrass (d) ambarrass",
+          "a": "embarrass"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "exercises": []
+}

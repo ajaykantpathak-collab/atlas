@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_008",
+   "title": "c11_math_cbse_13_008",
+   "questions": [
+    {
+     "q": "State the definition of the derivative of f(x) at x = a using first principles. What condition must be satisfied for the derivative to exist?",
+     "a": "The derivative is f'(a) = lim_{h→0} [f(a+h) - f(a)]/h. For the derivative to exist, this limit must exist and be finite — meaning the expression must simplify so that h cancels from the denominator, allowing direct substitution of h=0. A wrong answer (e.g., writing the limit as x→a instead of h→0, or omitting the limit entirely) reveals confusion between the average rate of change formula and the actual derivative definition, or not understanding that the limit process is essential to convert average to instantaneous rate.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't we simply substitute h = 0 directly into the difference quotient [f(x+h) - f(x)]/h to find the derivative? Explain with the example f(x) = x^2.",
+     "a": "Direct substitution gives 0/0, an indeterminate form. For f(x) = x^2, the difference quotient is [(x+h)^2 - x^2]/h = (x^2 + 2xh + h^2 - x^2)/h = (2xh + h^2)/h = 2x + h. Only after canceling h can we substitute h=0 to get 2x. A wrong answer (e.g., \"we can substitute h=0 directly\" or \"the derivative is undefined\") reveals the student doesn't grasp that the difference quotient is undefined at h=0 and that algebraic simplification is the bridge to evaluating the limit.",
+     "self_check": true
+    },
+    {
+     "q": "Find the derivative of f(x) = 3x^2 - 5x + 2 using first principles. Show all steps.",
+     "a": "f(x+h) = 3(x+h)^2 - 5(x+h) + 2 = 3(x^2 + 2xh + h^2) - 5x - 5h + 2 = 3x^2 + 6xh + 3h^2 - 5x - 5h + 2.\nf(x+h) - f(x) = (3x^2 + 6xh + 3h^2 - 5x - 5h + 2) - (3x^2 - 5x + 2) = 6xh + 3h^2 - 5h.\nDifference quotient = (6xh + 3h^2 - 5h)/h = 6x + 3h - 5.\nf'(x) = lim_{h→0} (6x + 3h - 5) = 6x - 5.\nA wrong answer (e.g., 6x - 5h, or forgetting to subtract f(x), or not canceling h properly) reveals algebraic errors in expansion, sign mistakes, or not understanding that every term in the numerator must contain h for cancellation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of finding the derivative of f(x) = 1/x and f(x) = √x using first principles. What algebraic technique is crucial in each case, and why?",
+     "a": "For f(x) = 1/x: difference quotient = [1/(x+h) - 1/x]/h = [(x - (x+h))/(x(x+h))]/h = (-h)/(x(x+h)h) = -1/[x(x+h)]. Crucial technique: combining fractions by common denominator to get h in the numerator for cancellation.\nFor f(x) = √x: difference quotient = [√(x+h) - √x]/h. Crucial technique: rationalizing the numerator by multiplying by conjugate [√(x+h) + √x]/[√(x+h) + √x] to get h in the numerator: (x+h - x)/[h(√(x+h) + √x)] = 1/[√(x+h) + √x].\nA wrong answer (e.g., saying both use the same technique, or not identifying rationalization) reveals the student doesn't recognize that different function types require specific algebraic manipulations to isolate h for cancellation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the derivative of f(x) = sin x using first principles is cos x because \"the derivative of sin is cos.\" They write: lim_{h→0} [sin(x+h) - sin x]/h = lim_{h→0} [sin x cos h + cos x sin h - sin x]/h = lim_{h→0} [sin x(cos h - 1) + cos x sin h]/h = sin x·0 + cos x·1 = cos x. Identify the missing justifications in this solution.",
+     "a": "The solution uses two standard limits without justification: lim_{h→0} (sin h)/h = 1 and lim_{h→0} (cos h - 1)/h = 0. These are not obvious and must be established (using geometric squeeze theorem or series expansion). The student also implicitly assumes these limits exist and can be split: lim [A + B] = lim A + lim B. A wrong evaluation (e.g., accepting the solution as complete) reveals the student treats standard limits as memorized facts without understanding their derivation or the limit laws that allow splitting the expression.",
+     "self_check": true
+    },
+    {
+     "q": "Create a function f(x) (not a polynomial) for which the derivative at x = 2 can be found using first principles, but the derivative at x = 0 does not exist. Explain why the derivative fails to exist at x = 0.",
+     "a": "Example: f(x) = √x. At x = 2: f'(2) = lim_{h→0} [√(2+h) - √2]/h = 1/(2√2) after rationalization — exists.\nAt x = 0: f'(0) = lim_{h→0} [√h - 0]/h = lim_{h→0} 1/√h = ∞ — limit is infinite, so derivative does not exist (function has vertical tangent).\nA poor answer (e.g., choosing a polynomial, or not explaining the infinite limit) reveals the student doesn't understand that first principles can fail when the limit is infinite or when the function isn't defined on both sides of the point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

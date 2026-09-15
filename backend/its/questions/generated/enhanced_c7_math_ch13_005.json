@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_005",
+   "title": "c7_math_ch13_005",
+   "questions": [
+    {
+     "q": "What is the very first step you must perform on any raw data set before you can find its median value?",
+     "a": "The correct answer is to arrange or sort the data points in order from least to greatest (ascending order) or greatest to least (descending order). A wrong answer—such as \"finding the sum\" or \"finding the most frequent item\"—reveals that the student is confusing the median with either the mean (average) or the mode. They fail to understand that median is a positional value that requires spatial ordering.",
+     "self_check": true
+    },
+    {
+     "q": "If a data set has 9 numbers, why can we not simply pick the 4th number as the median? Explain the position rule.",
+     "a": "The correct answer is that with 9 numbers arranged in order, the middle position is given by $\\frac{9 + 1}{2} = 5$th position, meaning there are 4 numbers below it and 4 numbers above it (positions 1, 2, 3, 4 and positions 6, 7, 8, 9). A wrong answer claiming the 4th number is the median shows a misconception about counting items versus counting spaces, failing to account for the exact center including the middle data point itself.",
+     "self_check": true
+    },
+    {
+     "q": "Find the median of the following set of daily pocket money amounts (in rupees): 45, 20, 35, 50, 15, 60, 30.",
+     "a": "The correct answer is 35 rupees. Working steps: Step 1: Arrange the data in ascending order: 15, 20, 30, 35, 45, 50, 60. Step 2: Count the total number of observations, $n = 7$ (which is odd). Step 3: Find the middle position using the formula $\\frac{n + 1}{2} = \\frac{7 + 1}{2} = 4$th position. Step 4: Locate the 4th number in the sorted list, which is 35. A wrong answer like 40 indicates the student tried to compute the mean (sum divided by count) instead of finding the structural middle value.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I add 100 to the highest number in my data set, the median will definitely change.\" Is this statement always true, sometimes true, or always false? Explain why.",
+     "a": "The correct answer is that the statement is false; it is only sometimes true or usually false. The median depends strictly on the middle position(s), not on the numerical magnitude of the extreme high or low values. Changing an extreme value outside the middle does not shift the middle position or the values occupying it. A wrong answer assuming the median must change reveals a misconception that the median reacts to every single data change like the mean does.",
+     "self_check": true
+    },
+    {
+     "q": "Look at this student's working to find the median of: 12, 4, 8, 15, 6, 20. \nStep 1: Data is already listed. \nStep 2: Count is 6 (even). \nStep 3: Middle numbers are 8 and 15. \nStep 4: Median = 8. \nIdentify the error and provide the correct evaluation.",
+     "a": "The student made two critical errors: they did not sort the data in ascending order before picking the middle numbers, and in Step 4 they only took one middle number instead of averaging the two middle numbers. The correct working: Step 1: Sort data: 4, 6, 8, 12, 15, 20. Step 2: The two middle numbers at positions 3 and 4 are 8 and 12. Step 3: Compute the mean of the two middle numbers: $\\frac{8 + 12}{2} = \\frac{20}{2} = 10$. Correct Median = 10. A student who misses this error believes that median finding requires no sorting or that even sets only have one median.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a data set of 6 whole numbers whose median is exactly 25, such that no number in the data set is equal to 25.",
+     "a": "The expected response is any valid set of 6 numbers where the 3rd and 4th numbers in ascending order average to 25, with neither being 25 itself (e.g., 10, 20, 24, 26, 30, 40, where $\\frac{24 + 26}{2} = 25$). A poor answer features numbers that do not sort properly to a median of 25, or uses 25 as an element, revealing a lack of comprehension that the median does not need to be an actual data point when $n$ is even.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

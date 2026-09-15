@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_16_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_16_014",
+   "title": "c12_hin_a_cbse_16_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing a literature answer, and what does each letter stand for?",
+     "a": "PEEL stands for: **P**oint (clear topic sentence stating your argument), **E**vidence (specific textual detail — quote, incident, or description), **E**xplanation (analysis of *how* the evidence proves your point, focusing on language/effect), **L**ink (connect back to the question/theme/central idea). A wrong answer (e.g., \"PEEL means paragraph writing\") reveals the student treats it as a formatting rule rather than an analytical scaffold — they will produce structured but shallow paragraphs without textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, यमुना says to लहको: *\"लखन जगो, इकत्तीस ब्याह के, लड़कन लखन जगे\"* (p. 120). A student writes: *\"This shows Yamuna is bossy.\"* Why is this an incomplete PEEL response? Identify the missing element(s).",
+     "a": "The response has a **Point** (Yamuna is bossy) and **Evidence** (the quote), but lacks **Explanation** (what the imperative verbs, the specific number \"इकत्तीस\", the domestic detail reveal about power dynamics, gender roles, or her frustration) and **Link** (how this connects to the story's theme of failed communication or urban domesticity). A student who misses this will write \"quote sandwiches\" — evidence dropped in without analysis — a common board exam error that caps marks at 2/4.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a strong PEEL paragraph (80-100 words):  \n*Question: \"इशिता का चरित्र कहानी में क्या भूमिका निभाता है?\"*  \n*Weak answer: \"इशिता एक आधुनिक लड़की है जो लहको से मिलती है। वह उसे अपना नाम बताती है और चली जाती है। यह दर्शाता है कि शहर में लोग अजनबी रहते हैं।\"*",
+     "a": "**Strong PEEL rewrite:**  \n**P**oint: इशिता क्षणिक मानवीय संपर्क की प्रतीक है जो नगरीय अनामिकता को भेदती है।  \n**E**vidence: जब वह लहको से पूछती है, *\"तुम दिल्ली से आई हो? ... हम तो --- के हैं\"* (p. 123), और फिर अपना नाम *\"लहको नसोनकल\"* बताती है — एक ऐसा नाम जो पहचान को तरल बनाता है।  \n**E**xplanation: उसका अस्पष्ट परिचय (*\"हम तो --- के हैं\"*) और स्वयं को \"लहको नसोनकल\" नाम देना दर्शाता है कि महानगर में पहचान निश्चित नहीं, बल्कि चुनी हुई और परिवर्तनशील है।  \n**L**ink: इस प्रकार इशिता कहानी के केंद्रीय सरोकार — *\"कोई भी, कहीं भी, किसी भी समय मिल सकता है\"* — को मूर्त करती है।  \n*Missing in weak answer: specific textual anchor, analysis of naming/ambiguity, thematic link.*",
+     "self_check": true
+    },
+    {
+     "q": "Compare two openings for an answer on *\"कहानी में 'घाट' का प्रतीकात्मक महत्व समझाइए\"*:  \n(A) *\"घाट कहानी में एक महत्वपूर्ण स्थान है जहाँ कई घटनाएँ होती हैं।\"*  \n(B) *\"घाट — जहाँ 'सच्चे ठाकुर का पहला ऐंजल' लिखा है (p. 118) और जहाँ अंत में लहको 'सच्चे ठाकुर की पहली नक़ल से' मुक्त होता है (p. 127) — स्मृति और वर्तमान के संधि-स्थल के रूप में कार्य करता है।\"*  \nAnalyze why (B) earns full marks while (A) earns partial marks, using the marking scheme criteria: *Textual precision + Thematic insight*.",
+     "a": "(A) is a **general statement** — no specific textual reference, no analytical vocabulary (\"प्रतीकात्मक\", \"संधि-स्थल\"), no thematic direction. It scores 1/3 (only identifies setting).  \n(B) embeds **two precise spatial-temporal anchors** (first appearance p. 118, final resolution p. 127), uses **analytical terminology** (\"संधि-स्थल\", \"मूर्त करता है\"), and **frames the symbol functionally** (connects past/present, memory/release). It hits all marking points: *textual evidence (2) + interpretive vocabulary (1) + thematic linkage (1)* = 3/3. Students who write (A) confuse \"describing setting\" with \"analyzing symbol.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: *\"लहको का अंत में बच्चे से कहना 'अच्छा जाओ, जाओ बच्चे' (p. 127) दिखाता है कि वह अब जिम्मेदार हो गया है।\"* Evaluate this interpretation. Is it defensible? What textual evidence supports or contradicts it?",
+     "a": "**Not fully defensible** — it oversimplifies. The phrase *\"अच्छा जाओ, जाओ बच्चे\"* echoes his earlier dismissal of the child (*\"भागो यहाँ से\"* p. 118), but the **context has shifted**: he now *knows* the child's name (\"लहको नसोनकल\"), has shared his own fragmented identity (\"हम तो --- के हैं\"), and the child calls him by his *chosen* name. The tone is **gentle release**, not responsibility. A stronger reading: *\"The repetition of 'जाओ' transforms from rejection to benediction — he releases the child (and his own past) into the city's anonymity.\"* The student's error: reading the *same words* at face value without tracking **contextual transformation** — a classic \"static reading\" trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word diary entry from **यमुना's perspective** on the night लहको leaves (p. 121-122), incorporating: (a) her internal conflict about the \"इकत्तीस ब्याह\" remark, (b) the sensory detail of \"घी की पूड़ियाँ\" (p. 120), (c) the story's motif of *unspoken words*. Use first person, present tense.",
+     "a": "**Criteria for a strong answer:**  \n- **Voice**: यमुना's pragmatic exhaustion mixed with suppressed tenderness (e.g., *\"घी की पूड़ियाँ तलते हुए मैंने गिना — इकत्तीस साल। एक भी बार नहीं कहा उसने 'थक गई हो'।\"*)  \n- **Textual anchors**: \"इकत्तीस ब्याह\", \"घी की पूड़ियाँ\", the unasked question *\"तुम कब तक रहोगे?\"*  \n- **Motif integration**: Ending on an unspoken thought: *\"दरवाज़ा बंद करते हुए मैंने नहीं पूछा — 'वापस आओगे?' शहर में प्रश्न भी अजनबी की तरह लौटते हैं।\"*  \nA poor answer will narrate events (\"वह आया, खाया, चला गया\") without interiority or motif — confusing *diary entry* with *summary*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

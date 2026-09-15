@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_02_011",
+   "title": "c11_eng_h_cbse_02_011",
+   "questions": [
+    {
+     "q": "Define the term 'homonym' and give one example from the nautical terms listed in the textbook (knot, stern, boom, hatch, anchor) showing its two distinct meanings.",
+     "a": "A homonym is a word that shares the same spelling and pronunciation as another word but has a different meaning. Example: 'knot' — (nautical) a unit of speed equal to one nautical mile per hour; (everyday) a fastening made by tying a piece of string or rope. A wrong answer (e.g., confusing homonyms with synonyms or homophones) reveals the student cannot distinguish between same-spelling-different-meaning (homonym) versus same-meaning-different-word (synonym) or same-sound-different-spelling (homophone).",
+     "self_check": true
+    },
+    {
+     "q": "In the third paragraph of the account, the phrase \"we took on two crewmen\" appears. Which of the three dictionary meanings of 'take on' is used here? Explain why the other two meanings do not fit this context.",
+     "a": "The meaning used is \"to employ someone; to engage someone\" (take sb on). The other meanings — \"to begin to have a particular quality\" and \"to accept someone as an opponent\" — do not fit because the subject 'we' (the captain and wife) are hiring help, not acquiring a quality or challenging someone to a contest. A wrong answer reveals the student cannot contextualise phrasal verbs within specific syntactic frames (transitive with human object = employ).",
+     "self_check": true
+    },
+    {
+     "q": "The textbook lists three compound words ending in '-ship': airship, flagship, lightship. For each, identify the base noun, the meaning of '-ship' in that specific compound, and explain how the meaning shifts from the literal 'vessel' sense.",
+     "a": "airship: base 'air' + '-ship' (meaning 'vehicle/vessel for') → aircraft lighter than air; flagship: base 'flag' + '-ship' (meaning 'vessel carrying the commander's flag') → the best or most important product/unit in a group; lightship: base 'light' + '-ship' (meaning 'vessel equipped with a light') → a ship anchored as a lighthouse. The suffix '-ship' shifts from concrete 'seagoing vessel' to abstract 'leading example' in flagship. A wrong answer (e.g., saying '-ship' means 'state of being' as in friendship) reveals confusion between the suffix '-ship' meaning 'state/condition' versus the noun 'ship' used as a combining form meaning 'vessel'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the English words for 'storm' (gale, storm, typhoon, cyclone) with the storm vocabulary in your mother tongue. What does the number and specificity of storm-words in a language reveal about the cultural and geographical history of its speakers?",
+     "a": "Languages develop precise vocabulary for phenomena that critically affect survival. Coastal and island communities (e.g., Tamil, Malayalam, Odia, Bengali) typically have 5+ distinct storm terms distinguishing by origin (Bay of Bengal vs Arabian Sea), season, intensity, and direction, reflecting centuries of maritime dependence. Inland languages may have fewer terms. A wrong answer (e.g., \"all languages have the same number of words\") reveals a misunderstanding of linguistic relativity and the Sapir-Whorf insight that vocabulary density maps onto cultural salience.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The nautical homonyms in this text (knot, stern, boom, hatch, anchor) are merely accidental overlaps — the sea meanings and land meanings have no conceptual connection.\" Defend your position with evidence from at least three of the five terms.",
+     "a": "The claim is false. These are not accidental overlaps but semantic extensions via metaphor. 'Anchor' — nautical: heavy device holding a ship; land: person/thing providing stability (\"she was the anchor of the family\") — metaphor of security. 'Stern' — nautical: rear of ship; land: serious/unyielding demeanor (\"stern warning\") — metaphor from the rigid, commanding officer's position at the rear. 'Boom' — nautical: horizontal spar; land: loud resonant sound (\"boom of cannon\") — onomatopoeic transfer from the sound of the spar swinging. 'Hatch' — nautical: opening in deck; land: to emerge (\"hatch a plan\") — metaphor of something emerging from concealment. A wrong answer reveals inability to trace metaphorical extension from concrete domain (seafaring) to abstract domain (human experience).",
+     "self_check": true
+    },
+    {
+     "q": "Create a short paragraph (4-5 sentences) describing a personal challenge you faced, using at least three of the five nautical homonyms (knot, stern, boom, hatch, anchor) in their non-nautical, metaphorical senses. Underline each usage.",
+     "a": "Sample answer: \"When my board exams approached, anxiety tied my stomach in a tight **knot**. My father's **stern** advice to focus on one subject at a time became my **anchor**. Late one night, a sudden **boom** of thunder startled me, but then a calm **hatched** in my mind — I would tackle the hardest chapter first.\" A poor answer (using the words in nautical sense or forcing them unnaturally) reveals the student cannot transfer domain-specific vocabulary to metaphorical everyday contexts, indicating surface-level memorisation without semantic flexibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_008",
+   "title": "c11_hist_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the base of the Mesopotamian sexagesimal number system, and which three modern time/angle divisions derive directly from it?",
+     "a": "The base is 60. The three modern divisions are: 60 seconds in a minute, 60 minutes in an hour (and degree), and 360 degrees in a circle (60×6). A wrong answer citing base 10 or 12 reveals confusion with the decimal system or the duodecimal (12) subsystem; the student has not grasped that 60 is the fundamental base that subsumes 12 and 24.",
+     "self_check": true
+    },
+    {
+     "q": "Why was the sexagesimal system mathematically superior to a base-10 system for the fractions commonly needed in Mesopotamian astronomy and land measurement?",
+     "a": "Because 60 has 12 divisors (1,2,3,4,5,6,10,12,15,20,30,60), common fractions like 1/3, 1/4, 1/5, 1/6 become exact, finite sexagesimal \"decimals\" (e.g., 1/3 = 20/60 = 0;20). In base 10, 1/3 = 0.333... repeats infinitely, making exact recording impossible. A student who answers \"it was more complex\" or \"they had 60 fingers\" misses the number-theoretic advantage of high divisibility.",
+     "self_check": true
+    },
+    {
+     "q": "A tablet gives the square root of 2 as 1;24,51,10 (sexagesimal). Convert this to decimal and calculate the error relative to the true value 1.41421356. What does the result tell you about Mesopotamian computational precision?",
+     "a": "Conversion: 1 + 24/60 + 51/3600 + 10/216000 = 1 + 0.4 + 0.0141667 + 0.0000463 = 1.4142130. Error = |1.41421356 - 1.4142130| ≈ 0.00000056. This precision (5.6×10⁻⁷) shows Mesopotamian mathematicians achieved accuracy comparable to 16th-century European calculations, using only base-60 arithmetic on clay tablets. A student who cannot perform the place-value conversion or misplaces the powers of 60 lacks fluency in positional notation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Mesopotamian practice of recording eclipse observations with year, month, and day on clay tablets enabled the later development of predictive astronomy by Greek and Islamic scholars.",
+     "a": "Systematic, dated eclipse records (e.g., \"Year X, Month Y, Day Z: lunar eclipse\") created a multi-century database. Greek astronomers like Hipparchus used these to determine lunar periods; Islamic astronomers at the Maragha observatory refined planetary models with them. The key was the combination of *writing* (permanent storage), *sexagesimal time units* (uniform intervals), and *institutional continuity* (scribal schools copying tablets for 2000 years). A student who sees these as mere \"omens\" ignores their empirical, data-driven nature.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The sexagesimal system's greatest legacy is our modern clock, not its mathematics.\" Support your judgment with evidence from the mathematical tablets and transmission history.",
+     "a": "The claim is incomplete. While the clock (60 sec/min, 12/24 hr) is the most visible legacy, the mathematical tablets reveal a deeper legacy: place-value notation with a floating \"zero\" concept, quadratic equation solving, and compound interest tables that prefigure financial mathematics. The transmission chain (Mesopotamia → Hellenistic Greece → Islamic world → Europe) carried *both* the timekeeping *and* the computational techniques. A student who only mentions clocks misses the algebraic and astronomical continuity documented in the Almagest and Zij tables.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity for Class 9 students to discover why base-60 is better than base-10 for dividing hours, circles, and grain measures. Include a hands-on component and a reflection question.",
+     "a": "Activity: Give each group 60 beads. Task 1: Divide into 2,3,4,5,6,10,12,15,20,30 equal piles – all work perfectly. Task 2: Try dividing 100 beads the same way – 3,6,12,15,30 fail. Task 3: Use a protractor (360°) and clock face to show 60-based divisions. Reflection: \"Why did Mesopotamians choose 60 when they counted on 10 fingers?\" (Answer: they used finger *segments* – 3 per finger × 4 fingers = 12 per hand, 5 repetitions = 60). A poor activity only lectures; a good one makes the divisibility tangible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

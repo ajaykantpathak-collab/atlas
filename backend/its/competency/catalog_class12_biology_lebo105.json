@@ -1,0 +1,471 @@
+{
+  "class": 12,
+  "subject": "biology",
+  "chapter": 105,
+  "chapter_title": "Molecular Basis of Inheritance",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebo105.5.1.1",
+      "title": "Nucleotide Anatomy and the Polynucleotide Chain",
+      "section": "5.1.1",
+      "definition": "A nucleotide assembles from three parts -- a nitrogenous base, a five-carbon sugar and a phosphate group; base plus sugar forms a nucleoside through an N-glycosidic bond, adding phosphate builds the nucleotide, and 3'-5' phosphodiester bonds string nucleotides into a chain whose backbone is sugar-phosphate with the bases jutting outward.",
+      "formula": "",
+      "key_idea": "Sugar type and base identity are the only switches separating dna building blocks from rna ones -- deoxyribose versus ribose, thymine versus uracil.",
+      "textbook_ref": "lebo105.txt lines 60-98 (polynucleotide chain chemistry, DNA length examples)",
+      "question_patterns": [
+        "name the three components of a nucleotide",
+        "how does a nucleoside differ from a nucleotide",
+        "which bond joins two nucleotides together in a dna strand",
+        "which purines and pyrimidines occur in dna and rna",
+        "why does every rna residue carry a hydroxyl group that dna lacks",
+        "explain what the 5' and 3' ends of a polynucleotide chain mean"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Assemble the monomer", "explain": "A nitrogenous base attaches at the 1' carbon of the pentose sugar (N-glycosidic bond) to give a nucleoside; phosphorylation at the 5' carbon upgrades it to a nucleotide."},
+        {"step": 2, "action": "Polymerise with direction", "explain": "The phosphate of one nucleotide links the 3' hydroxyl of the next, so every chain has a free 5' phosphate end and a free 3' hydroxyl end."},
+        {"step": 3, "action": "Sort the bases", "explain": "Adenine and guanine are purines; cytosine, thymine and uracil are pyrimidines -- thymine is dna-only, uracil replaces it in rna."},
+        {"step": 4, "action": "Mark the dna/rna contrast", "explain": "Rna's ribose carries an extra hydroxyl at the 2' position; its length is measured in nucleotides or base pairs, a signature of each organism."}
+      ]
+    },
+    {
+      "id": "lebo105.5.1.2",
+      "title": "Watson-Crick Double Helix and Base Pairing",
+      "section": "5.1",
+      "definition": "Two antiparallel sugar-phosphate strands coil right-handedly around a common axis; inside, adenine faces thymine over two hydrogen bonds and guanine faces cytosine over three, so a purine always opposes a pyrimidine, the strands hold an even gap, and roughly ten base pairs fill each 3.4 nm turn of the helix.",
+      "formula": "helix_pitch = 3.4",
+      "key_idea": "Complementarity is the master stroke -- either strand predicts its partner, exactly what a heritable molecule needs for faithful copying.",
+      "textbook_ref": "lebo105.txt lines 99-167 (1953 model, Chargaff observation, five salient features, central dogma)",
+      "question_patterns": [
+        "list the salient features of the dna double helix proposed by watson and crick",
+        "how many hydrogen bonds join adenine to thymine and guanine to cytosine",
+        "why does a purine always sit opposite a pyrimidine in dna",
+        "what does antiparallel polarity mean for the two strands of dna",
+        "how many base pairs fit into one complete turn of the dna helix",
+        "whose x-ray diffraction images supported the 1953 dna model"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Orient the strands", "explain": "One chain runs 5'-to-3' while its partner runs 3'-to-5'; both backbones are outside and the bases point inward."},
+        {"step": 2, "action": "Pair the bases by bond count", "explain": "A-T pairs share two hydrogen bonds, G-C pairs share three; pairing big purine with small pyrimidine keeps the helix diameter uniform."},
+        {"step": 3, "action": "Add the helix geometry", "explain": "The right-handed coil advances 3.4 nm per turn with about 10 bp stacked per turn, roughly 0.34 nm between neighbours."},
+        {"step": 4, "action": "State the payoff", "explain": "Stacked pairs plus hydrogen bonding stabilise the helix, and complementarity implies each strand templates the other -- the logic behind copying and the dna-to-rna-to-protein flow of information."}
+      ]
+    },
+    {
+      "id": "lebo105.5.1.3",
+      "title": "Chargaff's Rule and Base Percentages",
+      "section": "5.1",
+      "definition": "In any double-stranded dna the adenine tally matches thymine and guanine matches cytosine, so each complementary pair owns a fixed share of the molecule; measuring one base pins down the other three by simple arithmetic.",
+      "formula": "adenine_percent = (100 - 2 * cytosine_percent) / 2",
+      "key_idea": "Pair equality is the arithmetic fingerprint of a two-stranded helix -- and it breaks down for single-stranded molecules.",
+      "textbook_ref": "lebo105.txt lines 106-110 (Chargaff ratios) and exercise 2, lines 1211-1213",
+      "question_patterns": [
+        "calculate the adenine percentage when the cytosine content of dna is given",
+        "state chargaff's rule for double stranded dna",
+        "if a dna sample holds 20 percent cytosine what percent of it is adenine",
+        "why must the amounts of a and t be equal inside a double helix",
+        "work out all four base percentages from one measured value",
+        "does chargaff's rule apply to single stranded dna molecules"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Reserve the paired-out share", "explain": "Cytosine pairs only with guanine in equal amounts, so together they occupy twice the cytosine percentage, leaving the rest of the molecule for the a-t pair.", "compute": "a_t_pool = 100 - 2 * cytosine_percent"},
+        {"step": 2, "action": "Split the remainder evenly", "explain": "Adenine and thymine are also equal partners, so adenine takes half of that remainder.", "compute": "adenine_percent = a_t_pool / 2"}
+      ]
+    },
+    {
+      "id": "lebo105.5.1.4",
+      "title": "Packaging the Helix: Nucleosomes and Chromatin",
+      "section": "5.1.2",
+      "definition": "A mammalian nucleus must cram a helix metres long into a compartment a million times smaller; negatively charged dna winds around discs made of eight positively charged histone proteins, producing nucleosomes -- about 200 bp apiece -- whose string coils up into chromatin fibres and ultimately metaphase chromosomes, with loose euchromatin staying readable and dense heterochromatin switched off.",
+      "formula": "nucleosome_count = base_pairs / 200",
+      "key_idea": "Opposite charges do the packing -- basic histones grip acidic dna -- and packing density decides whether a region's genes can be transcribed.",
+      "textbook_ref": "lebo105.txt lines 168-217 (length calculation, nucleoid, histone octamer, beads-on-string, euchromatin vs heterochromatin)",
+      "question_patterns": [
+        "how does a two-metre-long dna molecule fit inside a tiny nucleus",
+        "describe a nucleosome and name the proteins forming its core",
+        "what produces the beads-on-string look of chromatin under the microscope",
+        "differentiate euchromatin from heterochromatin in structure and activity",
+        "how many base pairs wrap around a single nucleosome",
+        "contrast dna organisation in prokaryotes with that in eukaryotes"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Grasp the scale problem", "explain": "Multiplying base pairs by 0.34 nm each gives about 2.2 metres of helix per mammalian diploid cell against a nucleus around a micrometre across."},
+        {"step": 2, "action": "Follow the prokaryotic fix", "explain": "Without a nucleus, e. coli holds its dna in looped domains anchored by proteins in a nucleoid region."},
+        {"step": 3, "action": "Build the eukaryotic spool", "explain": "Histones rich in lysine and arginine form an octamer; dna wraps around it to make a nucleosome, the repeating bead of chromatin."},
+        {"step": 4, "action": "Compact further and sort", "explain": "Beads-on-string folds into fibres with non-histone proteins; light-staining, gene-active stretches are euchromatin while dark, inert stretches are heterochromatin."}
+      ]
+    },
+    {
+      "id": "lebo105.5.2.1",
+      "title": "The Search for Genetic Material: Griffith to Hershey-Chase",
+      "section": "5.2",
+      "definition": "Griffith watched harmless bacteria turn lethal after mingling with heat-killed virulent ones and credited an unknown transforming principle; Avery, MacLeod and McCarty pinned the principle to dna by digesting each candidate in turn, and Hershey and Chase closed the case with radiolabelled phages whose phosphorus-tagged dna -- never their sulfur-tagged protein -- slipped into the bacteria.",
+      "formula": "",
+      "key_idea": "Three experiments in a row narrowed the answer from something to protein-versus-dna to dna alone.",
+      "textbook_ref": "lebo105.txt lines 228-299 (Griffith 1928, Avery-MacLeod-McCarty 1933-44, Hershey-Chase 1952)",
+      "question_patterns": [
+        "what did griffith observe in his experiments with streptococcus pneumoniae",
+        "explain the transforming principle that griffith demonstrated",
+        "how did avery macleod and mccarty identify the transforming substance",
+        "why did protease and rnase treatments fail to stop transformation while dnase succeeded",
+        "describe the hershey and chase blender experiment and its conclusion",
+        "why were radioactive phosphorus and radioactive sulfur the right labels for dna and protein"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Log the surprise", "explain": "Mice given live rough (R) cells survived, given smooth (S) cells died, given heat-killed S cells survived -- but a mix of the last two killed, with live S cells recovered."},
+        {"step": 2, "action": "Name the mystery", "explain": "Something passed from the dead S cells and permanently equipped R cells to make a polysaccharide coat -- Griffith's transforming principle, of unknown chemistry."},
+        {"step": 3, "action": "Test candidates one by one", "explain": "Protease and rnase left transformation intact; dnase abolished it, so dna -- not protein or rna -- carries the transforming information."},
+        {"step": 4, "action": "Track what actually enters", "explain": "Phage dna labelled with phosphorus-32 entered the bacterial cells and progeny phages followed; sulfur-35-labelled protein coats stayed outside after blending -- dna is the hereditary molecule."}
+      ]
+    },
+    {
+      "id": "lebo105.5.2.2",
+      "title": "DNA versus RNA as Genetic Material and the RNA World",
+      "section": "5.2.2, 5.3",
+      "definition": "A genetic molecule must copy itself, keep its structure, admit slow mutation and be expressible; dna outscores rna on stability because it drops the reactive 2' hydroxyl and swaps uracil for thymine, while rna's restlessness suits messenger, adapter and catalytic jobs -- clues that rna ran the earliest cells and dna was refined out of it later.",
+      "formula": "",
+      "key_idea": "Storage favours the stable molecule (dna), dynamic messaging and catalysis favour the reactive one (rna) -- and life very likely began in an rna-only world.",
+      "textbook_ref": "lebo105.txt lines 301-375 (criteria for genetic material, stability argument, RNA world)",
+      "question_patterns": [
+        "why is dna regarded as a better genetic material than rna",
+        "list the four properties a molecule needs to serve as genetic material",
+        "which chemical group makes rna chemically unstable",
+        "why do biologists think rna was the first genetic material",
+        "name the jobs rna performs besides acting as a genome in some viruses",
+        "how does thymine in place of uracil add stability to dna"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Check both against the criteria", "explain": "Base pairing lets dna and rna alike self-copy, mutate and be expressed; proteins fail at the copying step outright."},
+        {"step": 2, "action": "Weigh stability", "explain": "Rna's 2' hydroxyl makes it labile and easily degraded while dna is chemically calmer; heat-separated dna strands even re-anneal, which explains why Griffith's heat-killed cells still transformed."},
+        {"step": 3, "action": "Trade strengths", "explain": "Rna mutates faster (useful for rapid evolution), codes for protein directly, and doubles as catalyst; dna stores information more safely, so genomes that must persist choose dna."},
+        {"step": 4, "action": "Reconstruct the RNA world", "explain": "Metabolism, translation and splicing grew up around rna, which served as both genome and enzyme before dna emerged as the stabilized archive."}
+      ]
+    },
+    {
+      "id": "lebo105.5.4.1",
+      "title": "Semiconservative Replication and the Meselson-Stahl Proof",
+      "section": "5.4, 5.4.1",
+      "definition": "Every daughter helix keeps one original strand and receives one freshly built partner -- the semiconservative scheme that Watson and Crick read directly out of base pairing; Meselson and Stahl shifted heavy-nitrogen-grown bacteria to a light medium and watched the hybrid-then-mixed density pattern that only this scheme predicts.",
+      "formula": "hybrid_fraction = 1 / 2 ** generations",
+      "key_idea": "Heavy nitrogen density-labelling separated old strands from new without needing any radioactivity.",
+      "textbook_ref": "lebo105.txt lines 376-440 (Watson-Crick proposal, Meselson-Stahl 1958, Taylor's Vicia faba experiment)",
+      "question_patterns": [
+        "what does semiconservative replication imply for the two dna strands",
+        "describe the meselson and stahl experiment that proved dna replication is semiconservative",
+        "after three generations in a light medium what fraction of dna molecules still have hybrid density",
+        "why did the experiment use a cesium chloride density gradient instead of radioactivity",
+        "which property of the double helix suggested its own copying mechanism to watson and crick",
+        "how did taylor confirm semiconservative replication in faba bean chromosomes"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Track the heavy-strand molecules", "explain": "Each round of division halves the pool of molecules still carrying a heavy parental strand.", "compute": "hybrid_fraction = 1 / 2 ** generations"},
+        {"step": 2, "action": "Take the remainder as light", "explain": "Everything else now holds two light strands, so subtract from one.", "compute": "light_fraction = 1 - hybrid_fraction"}
+      ]
+    },
+    {
+      "id": "lebo105.5.4.2",
+      "title": "Replication Machinery: Enzymes, Fork and Origin",
+      "section": "5.4.2",
+      "definition": "dna-dependent dna polymerase lengthens chains only in the 5'-to-3' direction, so one template is read continuously while its partner is copied in short pieces that dna ligase later seals; unwinding happens locally at the replication fork, initiation occurs only at special origins, and the deoxynucleoside triphosphate substrates bankroll the reaction with their own high-energy phosphates.",
+      "formula": "",
+      "key_idea": "One-directional polymerisation forces the asymmetric fork -- a continuous leading side and a discontinuous, ligase-stitched lagging side.",
+      "textbook_ref": "lebo105.txt lines 441-491 (polymerase, rate ~2000 bp/s, replication fork, ligase, origin, S-phase)",
+      "question_patterns": [
+        "why can dna polymerase build a new strand only in the 5 to 3 direction",
+        "explain the difference between continuous and discontinuous synthesis at the replication fork",
+        "which enzyme stitches together the short fragments made on the lagging strand",
+        "what is an origin of replication and why must a cloning vector carry one",
+        "at what rate must polymerisation run for e coli to copy its genome within 18 minutes",
+        "what dual role do deoxyribonucleoside triphosphates play during replication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the workhorse enzyme", "explain": "dna polymerase uses a dna template to string deoxynucleotides together, fast and accurate -- e. coli manages roughly 2000 bp per second with few errors."},
+        {"step": 2, "action": "Explain the fork", "explain": "Whole-length strand separation costs too much energy, so the helix opens only in a small pocket that travels along -- the replication fork."},
+        {"step": 3, "action": "Split the strands' fates", "explain": "The 3'-to-5' template accepts continuous synthesis; the 5'-to-3' template forces short segments that dna ligase joins afterwards."},
+        {"step": 4, "action": "Anchor the start", "explain": "Polymerase cannot begin from nothing and initiation is restricted to defined origins -- the reason recombinant dna needs a vector supplying one; in eukaryotes the whole schedule is pinned to S phase."}
+      ]
+    },
+    {
+      "id": "lebo105.5.5.1",
+      "title": "Transcription Unit: Promoter, Gene, Terminator",
+      "section": "5.5, 5.5.1",
+      "definition": "A transcription unit stretches from a promoter, through the structural gene, to a terminator; only one strand is copied -- the 3'-to-5' template -- while its partner, matching the rna letter-for-letter except for thymine, oddly gets the name coding strand, and which strand plays which role is decided purely by where the promoter sits.",
+      "formula": "",
+      "key_idea": "Copying both strands would make complementary rnas that anneal into a dead double strand -- so one strand, one direction, sharply marked boundaries.",
+      "textbook_ref": "lebo105.txt lines 492-552 (definition of transcription, why one strand, unit boundaries, strand conventions)",
+      "question_patterns": [
+        "name the three regions that define a transcription unit in dna",
+        "distinguish the template strand from the coding strand",
+        "why is only one strand of dna copied during transcription",
+        "where do the promoter and terminator sit relative to the structural gene",
+        "what decides which of the two dna strands acts as the template",
+        "write down the rna sequence transcribed from a given template strand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Mark the boundaries", "explain": "The promoter (upstream, 5' side of the coding strand) hosts polymerase binding; the terminator (downstream, 3' side) ends the run; between them lies the structural gene."},
+        {"step": 2, "action": "Assign the strands", "explain": "Polymerase works 5'-to-3', so the 3'-to-5' strand is read as the template; the other strand echoes the rna sequence (T for U) and is called coding."},
+        {"step": 3, "action": "Justify the single strand", "explain": "Two templates would yield two different rna products and, worse, mutually complementary rnas that pair up and never reach the ribosome."},
+        {"step": 4, "action": "Apply complementarity with a twist", "explain": "Copying follows the pairing rule except that adenosine in dna pairs with uracil in rna."}
+      ]
+    },
+    {
+      "id": "lebo105.5.5.2",
+      "title": "RNA Polymerases, Split Genes and mRNA Processing",
+      "section": "5.5.2, 5.5.3",
+      "definition": "Bacteria run all rna synthesis through a single polymerase that starts with a sigma factor and stops with rho, whereas eukaryotes divide the labour among three polymerases and must edit their interrupted genes -- splicing introns out of exons, capping the 5' end and tailing the 3' end -- before the finished mrna may leave the nucleus.",
+      "formula": "",
+      "key_idea": "Split genes and rna editing are living traces of the rna world; bacteria skip the editing because transcription and translation share one compartment.",
+      "textbook_ref": "lebo105.txt lines 553-638 (cistron, exons/introns, three RNA types, bacterial vs eukaryotic transcription, splicing/capping/tailing)",
+      "question_patterns": [
+        "which eukaryotic rna polymerase transcribes rrna trna and the mrna precursor",
+        "what are exons and introns in a split gene",
+        "explain splicing capping and tailing of the primary transcript",
+        "how do sigma and rho factors steer bacterial transcription",
+        "why can bacteria couple transcription with translation but eukaryotes cannot",
+        "define a cistron and contrast monocistronic with polycistronic transcripts"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define the gene practically", "explain": "A cistron -- a dna segment coding for one polypeptide -- lets us label structural genes monocistronic (mostly eukaryotic) or polycistronic (mostly bacterial); even trna and rrna genes count as genes."},
+        {"step": 2, "action": "Handle the bacterial case", "explain": "One rna polymerase initiates at the promoter with sigma, elongates, and releases at the terminator with rho; mrna needs no editing and is translated even while still being made."},
+        {"step": 3, "action": "Divide the eukaryotic labour", "explain": "Polymerase I builds rrnas, polymerase III builds trna and 5s rrna, and polymerase II transcribes hnRNA, the precursor of mrna."},
+        {"step": 4, "action": "Process the transcript", "explain": "Splicing removes introns and joins exons in order; a methyl guanosine triphosphate cap goes on the 5' end and 200-300 adenylates form the 3' tail before the mature mrna exits the nucleus."}
+      ]
+    },
+    {
+      "id": "lebo105.5.6.1",
+      "title": "The Genetic Code: Triplet, Degenerate, Universal",
+      "section": "5.6",
+      "definition": "Three nucleotide letters per codon is the shortest scheme letting four bases spell all twenty amino acids -- four cubed yields 64 codons, sixty-one with meanings and three stop signals; the message reads continuously with no punctuation, holds nearly unchanged from bacteria to humans, doubles aug as methionine codon and start signal, and keeps multiple synonyms for most amino acids.",
+      "formula": "codon_count = base_types ** codon_length",
+      "key_idea": "Degeneracy cushions point mutations -- with several synonyms per amino acid, a single-base error often swaps in a harmless synonym.",
+      "textbook_ref": "lebo105.txt lines 639-701 (Gamow's triplet logic, Khorana/Nirenberg/Ochoa, six salient features)",
+      "question_patterns": [
+        "why must the genetic code use a triplet of bases",
+        "how many codons specify amino acids and how many act as stop signals",
+        "state the salient features of the genetic code",
+        "what makes aug a special codon",
+        "explain the degeneracy of the genetic code with an example",
+        "work out how many codons four bases can generate in groups of three"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Count the alphabet", "explain": "Four different bases serve as the letters of the code.", "compute": "base_types = 4"},
+        {"step": 2, "action": "Enumerate the triplets", "explain": "Three positions with four choices each give four-cubed distinct codons.", "compute": "codon_count = base_types ** codon_length"}
+      ]
+    },
+    {
+      "id": "lebo105.5.6.2",
+      "title": "Frameshift Mutations and the Reading Frame",
+      "section": "5.6.1",
+      "definition": "Inserting or deleting one or two bases knocks every downstream codon out of register because the three-letter reading frame slips, while adding or removing three bases -- or any multiple of three -- merely adds or drops whole amino acids and leaves the remainder of the message intact.",
+      "formula": "",
+      "key_idea": "The three-letter-word sentence analogy shows why only multiples of three keep a gene's message readable.",
+      "textbook_ref": "lebo105.txt lines 702-739 (point mutation recap, RAM HAS RED CAP frameshift analogy)",
+      "question_patterns": [
+        "what is a frameshift mutation and when does it arise",
+        "why does inserting three bases do less harm than inserting one",
+        "explain the ram has red cap analogy used for the genetic code",
+        "how does a single base insertion corrupt every codon after it",
+        "which mutation class removes whole amino acids without disturbing the frame",
+        "connect sickle cell anaemia to a point mutation in the beta globin gene"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Set the reading frame", "explain": "Ribosomes read mrna in fixed three-base steps with no gaps, so codon boundaries depend on where the first base sits."},
+        {"step": 2, "action": "Shift by one or two", "explain": "An insertion or deletion of one or two bases re-partitions the whole downstream sequence into wrong triplets -- a frameshift -- changing every subsequent amino acid."},
+        {"step": 3, "action": "Shift by three", "explain": "Adding or losing a full codon's worth of bases inserts or deletes exactly one amino acid but restores the frame for everything after."},
+        {"step": 4, "action": "Contrast with point substitution", "explain": "A single-base replacement, as in the beta globin gene of sickle-cell anaemia, changes at most one amino acid rather than derailing the message."}
+      ]
+    },
+    {
+      "id": "lebo105.5.7.1",
+      "title": "Translation: tRNA, Ribosome and Polypeptide Synthesis",
+      "section": "5.6.2, 5.7",
+      "definition": "Amino acids have no way of reading codons themselves, so trna adapters each pick up their own amino acid and match their anticodon loop to the mrna message; the ribosome then welds the cargo together -- its 23s rrna even catalyses the peptide bond -- marching from the aug start codon until a release factor meets a stop codon and frees the finished polypeptide.",
+      "formula": "",
+      "key_idea": "Every peptide bond costs energy, paid up front when atp charges each trna with its amino acid.",
+      "textbook_ref": "lebo105.txt lines 740-815 (tRNA adapter, charging, ribosome structure, UTRs, translation phases)",
+      "question_patterns": [
+        "why is trna described as the adapter molecule",
+        "describe the anticodon loop and amino acid acceptor end of trna",
+        "what happens during the charging of trna",
+        "list the phases of translation from initiation through elongation to termination",
+        "which ribosomal component acts as the enzyme for peptide bond formation",
+        "what are untranslated regions of mrna and what good are they"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Charge the adapters", "explain": "Each amino acid is activated by atp and attached to its own trna (aminoacylation); an initiator trna exists for aug, and stop codons have none."},
+        {"step": 2, "action": "Assemble the factory", "explain": "The ribosome splits into subunits; the small one finds the mrna and the aug start codon, while the large one offers two sites that hold neighbouring charged trnas close enough to bond."},
+        {"step": 3, "action": "Elongate codon by codon", "explain": "Anticodon-codon pairing places each amino acid; the 23s rrna ribozyme forms the peptide bond and the ribosome steps along the message."},
+        {"step": 4, "action": "Terminate cleanly", "explain": "At a stop codon a release factor takes the slot, the completed polypeptide detaches, and untranslated regions flanking the coding stretch help regulate the whole process."}
+      ]
+    },
+    {
+      "id": "lebo105.5.8.1",
+      "title": "Lac Operon: Negative Regulation by an Inducer",
+      "section": "5.8, 5.8.1",
+      "definition": "The lac operon of Jacob and Monod bundles a repressor gene (i) with three lactose-processing genes (z, y, a) under one promoter; the constitutively made repressor parks on the operator and blocks transcription until lactose, acting as inducer, disarms it -- so beta-galactosidase, permease and transacetylase appear only when the sugar is actually available.",
+      "formula": "",
+      "key_idea": "A substrate switching on the enzymes that digest it is the classic case of negative control in bacteria.",
+      "textbook_ref": "lebo105.txt lines 816-898 (levels of regulation, operon concept, i/z/y/a genes, inducer mechanism)",
+      "question_patterns": [
+        "how does lactose switch the lac operon on",
+        "name the structural genes of the lac operon and what each product does",
+        "what part does the operator region play in operon function",
+        "why is lac operon control described as negative regulation",
+        "what happens to the operon once the lactose supply runs out",
+        "why must a trickle of lac operon expression continue even without lactose"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Map the parts", "explain": "Gene i makes the repressor; z gives beta-galactosidase (lactose into glucose plus galactose), y gives permease (lets beta-galactosides in), a gives transacetylase -- all sharing one promoter and operator."},
+        {"step": 2, "action": "Run the off state", "explain": "The repressor is always being made and binds the operator, physically barring rna polymerase from transcribing the cluster."},
+        {"step": 3, "action": "Flip to the on state", "explain": "Lactose entering through basal permease meets the repressor and inactivates it; the promoter clears and transcription proceeds -- a substrate regulating its own enzyme synthesis."},
+        {"step": 4, "action": "Note the housekeeping leak", "explain": "A very low constitutive expression must persist, otherwise permease would vanish and lactose could never re-enter to induce the operon; glucose and galactose cannot induce it."}
+      ]
+    },
+    {
+      "id": "lebo105.5.9.1",
+      "title": "Human Genome Project: Goals, Methods and Findings",
+      "section": "5.9",
+      "definition": "Launched in 1990 and wrapped up in 2003, the human genome project read all three billion base pairs using expressed sequence tags plus blind whole-genome sequencing cloned into bacterial or yeast artificial chromosomes, automated sanger-style reads and computer assembly; it settled on roughly twenty thousand to twenty-five thousand genes and revealed that repeats dominate the genome.",
+      "formula": "",
+      "key_idea": "Under two percent of the genome codes for protein, chromosome 1 carries the most genes and the y the fewest, and snp mapping transformed the hunt for disease loci.",
+      "textbook_ref": "lebo105.txt lines 903-1055 (mega project scale, goals, EST vs annotation, salient features, applications)",
+      "question_patterns": [
+        "what were the major goals of the human genome project",
+        "contrast the expressed sequence tag strategy with sequence annotation",
+        "which vectors and host cells were used to clone genome fragments",
+        "list the salient findings about the human genome that the project produced",
+        "why is the human genome project labelled a mega project",
+        "estimate how many printed books would hold the entire human genome sequence"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Size up the mega project", "explain": "Three billion base pairs at early prices meant billions of dollars and thousands of printed volumes -- hence bioinformatics grew alongside it."},
+        {"step": 2, "action": "Run the two strategies", "explain": "One route catalogued expressed sequence tags; the other sequenced everything blindly and assigned functions afterwards (annotation)."},
+        {"step": 3, "action": "Clone, read, assemble", "explain": "Dna was fragmented, cloned in bacteria or yeast via BAC and YAC vectors, read on sanger-method automated sequencers, then aligned by overlapping regions with specialist software."},
+        {"step": 4, "action": "Collect the headline numbers", "explain": "About 3164.7 million bp, average gene 3000 bases (dystrophin the giant at 2.4 million), 99.9 percent of bases identical between people, over half the genome repetitive, chromosome 1 richest in genes (2968), y poorest (231), and about 1.4 million snp positions catalogued."}
+      ]
+    },
+    {
+      "id": "lebo105.5.10.1",
+      "title": "DNA Fingerprinting: Satellite DNA, VNTR and Uses",
+      "section": "5.10",
+      "definition": "Tandemly repeated satellite sequences scattered through the genome code for no protein yet differ enormously in repeat count from person to person; Alec Jeffreys exploited these variable mini-satellites as probes -- isolate, digest, separate, blot, hybridise, autoradiograph -- yielding a band pattern unique to everyone except identical twins, the foundation of forensic and paternity testing.",
+      "formula": "",
+      "key_idea": "Repetitive non-coding dna accumulates variation freely because changes there rarely harm reproduction, which is what makes each person's band pattern personal.",
+      "textbook_ref": "lebo105.txt lines 1056-1151 (satellite vs bulk DNA, polymorphism definition, VNTR technique steps, applications)",
+      "question_patterns": [
+        "what is dna fingerprinting and which sequences does it depend on",
+        "how does satellite dna separate from bulk genomic dna during centrifugation",
+        "list the steps of the vntr southern blot fingerprinting method",
+        "why is dna fingerprinting trusted in forensic and paternity disputes",
+        "what does polymorphism in dna sequence mean and how does it arise",
+        "how does pcr extend dna fingerprinting to samples of a single cell"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Identify the target sequences", "explain": "Density gradient spinning splits bulk dna (major peak) from satellite dna (small peaks); tandem repeats there show extreme polymorphism -- a variant counts as polymorphic when it exceeds one percent frequency in the population."},
+        {"step": 2, "action": "Run the classic workflow", "explain": "Isolate dna, cut with restriction enzymes, electrophorese, blot onto a membrane, hybridise with a labelled vntr probe, and read the autoradiogram's band pattern."},
+        {"step": 3, "action": "Read the pattern's meaning", "explain": "Repeat copy number varies chromosome by chromosome and person by person, so bands match only for identical twins -- every tissue of one individual gives the same fingerprint."},
+        {"step": 4, "action": "Extend the reach", "explain": "Because polymorphisms are inherited, fingerprints settle paternity and track population diversity; amplifying dna by pcr lets one cell suffice."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we_lebo105_1",
+      "source_ref": "lebo105.txt lines 1211-1213 (exercise 2 on base percentages, reworded)",
+      "concept": "lebo105.5.1.3",
+      "question_type": "compute",
+      "question_pattern": "A sample of double stranded dna contains {cytosine_percent} percent cytosine. What percentage of its bases are adenine?",
+      "extracted_variables": {
+        "cytosine_percent": 20
+      },
+      "solution_template": [
+        {"step": 1, "action": "Set aside the g-c share", "explain": "Guanine matches cytosine at 20 percent each, so the pair consumes 40 percent of the molecule.", "compute": "a_t_pool = 100 - 2 * cytosine_percent"},
+        {"step": 2, "action": "Divide the rest between a and t", "explain": "Adenine and thymine are equal partners in the remaining 60 percent, so adenine gets half.", "compute": "adenine_percent = a_t_pool / 2"}
+      ]
+    },
+    {
+      "id": "we_lebo105_2",
+      "source_ref": "lebo105.txt lines 169-204 (diploid length calculation and nucleosome packaging)",
+      "concept": "lebo105.5.1.4",
+      "question_type": "compute",
+      "question_pattern": "A diploid human cell holds {base_pairs} base pairs of dna. Strung out flat, how many metres of helix is that, and about how many nucleosomes would package it?",
+      "extracted_variables": {
+        "base_pairs": 6600000000
+      },
+      "solution_template": [
+        {"step": 1, "action": "Convert base pairs to nanometres", "explain": "Neighbouring base pairs sit 0.34 nm apart along the helix.", "compute": "helix_length_nm = base_pairs * 0.34"},
+        {"step": 2, "action": "Convert nanometres to metres", "explain": "A nanometre is a billionth of a metre.", "compute": "dna_length_metres = helix_length_nm / 10 ** 9"},
+        {"step": 3, "action": "Divide the dna among the spools", "explain": "One nucleosome carries about 200 bp, so the bead count is the base-pair total over 200.", "compute": "nucleosome_count = base_pairs / 200"}
+      ]
+    },
+    {
+      "id": "we_lebo105_3",
+      "source_ref": "lebo105.txt lines 423-435 (generation timings in the Meselson-Stahl culture)",
+      "concept": "lebo105.5.4.1",
+      "question_type": "compute",
+      "question_pattern": "Heavy-nitrogen bacteria are shifted to a light medium and allowed to divide for {generations} generations. What fraction of the dna molecules is then fully light, and what fraction still shows hybrid density?",
+      "extracted_variables": {
+        "generations": 3
+      },
+      "solution_template": [
+        {"step": 1, "action": "Halve the hybrids each round", "explain": "Only molecules descending with a heavy parental strand keep hybrid density, and their share halves every generation.", "compute": "hybrid_fraction = 1 / 2 ** generations"},
+        {"step": 2, "action": "The rest are all-light", "explain": "Subtracting the hybrid share from the whole leaves the fully light molecules.", "compute": "light_fraction = 1 - hybrid_fraction"}
+      ]
+    },
+    {
+      "id": "we_lebo105_4",
+      "source_ref": "lebo105.txt lines 914-927 (mega project scale and the books analogy)",
+      "concept": "lebo105.5.9.1",
+      "question_type": "compute",
+      "question_pattern": "Printing the human genome needs {base_pairs} letters of sequence, {letters_per_page} letters to a page and {pages_per_book} pages per book. How many books would one person's sequence fill?",
+      "extracted_variables": {
+        "base_pairs": 3000000000,
+        "letters_per_page": 1000,
+        "pages_per_book": 1000
+      },
+      "solution_template": [
+        {"step": 1, "action": "Letters per book", "explain": "Each book carries letters per page times pages per book.", "compute": "letters_per_book = letters_per_page * pages_per_book"},
+        {"step": 2, "action": "Books required", "explain": "Dividing the sequence length by a book's capacity gives the library size.", "compute": "book_count = base_pairs / letters_per_book"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_lebo105_1",
+      "source_ref": "lebo105.txt lines 1207-1258 (end-of-chapter exercises 1-14, reworded)",
+      "questions": [
+        "Sort these terms into nitrogenous bases versus nucleosides: adenine, cytidine, thymine, guanosine, uracil, cytosine.",
+        "A double stranded dna molecule measures 20 percent cytosine -- compute its adenine percentage.",
+        "Given one strand written 5'-atgcat...-3', produce the complementary strand in the 5' to 3' direction.",
+        "Given a coding strand of a transcription unit, write out the corresponding mrna sequence.",
+        "Which structural property of the double helix pushed watson and crick toward a semiconservative copying scheme?",
+        "Classify the nucleic acid polymerases by both their template (dna or rna) and their product (dna or rna).",
+        "How did hershey and chase manage to tell dna and protein apart while proving dna carries heredity?",
+        "Draw the contrasts: repetitive versus satellite dna; mrna versus trna; template versus coding strand.",
+        "Give two indispensable jobs the ribosome performs during translation.",
+        "Lactose was added to an e coli culture and the lac operon turned on -- explain why the operon switches off again later.",
+        "In a line or two each, give the function of a promoter, of trna, and of exons.",
+        "Justify why the human genome project deserved the label mega project.",
+        "Define dna fingerprinting and name the fields where it is applied.",
+        "Write brief notes on transcription, polymorphism, translation and bioinformatics."
+      ]
+    }
+  ]
+}

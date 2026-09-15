@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_012",
+   "title": "c11_hs_cbse_10_012",
+   "questions": [
+    {
+     "q": "Define credit in your own words and explain the meaning of the Latin word 'CREDO' from which it is derived.",
+     "a": "Credit is an arrangement to obtain money, goods, or services now and pay for them in the future, usually with interest. 'CREDO' means 'I believe'—reflecting that credit is based on the lender's belief in the borrower's promise to repay. A wrong answer (e.g., \"credit means free money\" or \"credit is same as savings\") reveals the student views credit as a gift or income source rather than a deferred payment obligation with cost.",
+     "self_check": true
+    },
+    {
+     "q": "A family earns ₹50,000/month and spends ₹45,000 on essential expenses. They want a ₹5 lakh home loan. The bank asks for their property papers as security. Identify which TWO of the Four Cs are being assessed here and explain why the family's high expenses weaken one specific C.",
+     "a": "Capacity and Collateral are being assessed. Capacity is weakened because the family's margin (₹50,000 – ₹45,000 = ₹5,000) is too small to comfortably cover loan EMIs—capacity depends on *available margin over necessary expenses*, not total income. Collateral is assessed via property papers. A wrong answer (e.g., \"Character is assessed because they have high expenses\" or \"Capital is the property papers\") reveals confusion between Capacity (repayment ability from income flow) and Capital (net worth), or between Collateral (specific pledged asset) and Capital (overall net worth).",
+     "self_check": true
+    },
+    {
+     "q": "Ravi (age 28) has a stable government job earning ₹60,000/month, saves ₹20,000/month, owns shares worth ₹3 lakh, and has repaid two previous loans on time. He applies for a ₹10 lakh car loan without offering any asset as security. The bank approves it. Which THREE Cs are strong here? Which ONE C is missing? Explain why the bank still approved.",
+     "a": "Strong: Character (past repayment history), Capacity (₹20,000 monthly savings margin), Capital (₹3 lakh shares + savings = positive net worth). Missing: Collateral (no specific asset pledged). The bank approved because the first three Cs were strong enough to compensate—this is an unsecured loan based on creditworthiness. A wrong answer (e.g., \"Collateral is the car itself\" or \"Capital is the car\") reveals misunderstanding that collateral must be *pledged at loan origination*, not the asset being purchased, and that Capital is pre-existing net worth, not the loan-funded asset.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why do self-help groups (SHGs) often lend without collateral while commercial banks insist on it? Use the Four Cs framework to explain how SHGs substitute for the missing C.",
+     "a": "Banks rely on Collateral as a legal safeguard against default because they lack personal knowledge of borrowers—Character is assessed formally via credit scores. SHGs operate on social collateral: members know each other's Character (willingness to repay) intimately through regular meetings, and peer pressure enforces repayment. Capacity is assessed via members' known income patterns. Capital is less critical as loan amounts are small. SHGs substitute Collateral with strong Character assessment through social networks. A wrong answer (e.g., \"SHGs don't need collateral because interest is low\" or \"Banks have more money\") reveals failure to connect the Four Cs to institutional lending models and the role of information asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "\"Credit should be avoided entirely because it always leads to debt traps.\" Evaluate this statement using the concepts of need for credit, cost of credit, and the Four Cs. Provide a reasoned judgment with a concrete example where credit is beneficial.",
+     "a": "The statement is false. Credit is a tool, not inherently harmful. It is beneficial when: (1) the need is genuine (e.g., education loan for skill-building), (2) the cost (interest) is justified by future returns, and (3) the borrower has strong Character, Capacity, and Capital. Example: A ₹4 lakh education loan at 9% for a nursing course leading to ₹25,000/month job—Capacity is created *by* the credit. Avoiding credit here would mean losing lifetime earnings. A wrong answer (e.g., \"Credit is good because you get things early\" without addressing repayment capacity) reveals uncritical acceptance of credit without evaluating the Four Cs or cost-benefit analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario of a 35-year-old freelance graphic designer applying for a ₹3 lakh business loan to buy a high-end laptop and design software. Assign a strength rating (Strong/Moderate/Weak) for each of the Four Cs with specific evidence from your scenario. Justify whether a bank should approve this loan.",
+     "a": "Sample strong answer: Character: Moderate—no prior loans but 5-year client retention proves reliability. Capacity: Moderate—₹80,000 average monthly income but irregular; ₹30,000 essential expenses leaves ₹50,000 margin, sufficient for EMI. Capital: Weak—₹1 lakh savings, no property, net worth low. Collateral: Weak—laptop depreciates fast; no immovable asset. Verdict: Bank may approve with a guarantor or at higher interest due to Character+Capacity strength, but Collateral/Capital weakness increases risk. A poor answer (e.g., all \"Strong\" without evidence, or \"Collateral is the laptop\" ignoring depreciation) reveals inability to apply the Four Cs to irregular-income, asset-light modern professions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

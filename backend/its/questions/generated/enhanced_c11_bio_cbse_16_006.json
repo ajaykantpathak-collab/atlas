@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_16_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_16_006",
+   "title": "c11_bio_cbse_16_006",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the three major nitrogenous wastes excreted in human urine and state the typical daily excretion amount (in grams) for the primary one.",
+     "a": "Correct answer: Urea (~25–30 g/day), uric acid (~0.5–0.8 g/day), creatinine (~1–2 g/day). Urea is the primary nitrogenous waste in humans (ureotelic). A wrong answer (e.g., naming ammonia as major waste, or giving urea as <5 g/day) reveals confusion between ammonotelic/ureotelic classification (Class 11 concept) or failure to memorize quantitative norms essential for board exam short-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why glucose is absent in the urine of a healthy person despite being freely filtered at the glomerulus, and name the specific transport mechanism responsible.",
+     "a": "Correct answer: Glucose is 100% reabsorbed in the proximal convoluted tubule (PCT) via sodium-glucose co-transporters (SGLT2/SGLT1) — an active, carrier-mediated process with a transport maximum (Tm). Since normal blood glucose (~90 mg/dL) keeps filtered load well below Tm (~375 mg/min), no glucose escapes. A wrong answer (e.g., \"glucose is not filtered\" or \"reabsorbed passively\") shows misunderstanding of glomerular permeability (proteins retained, small molecules filtered) and the active nature of nutrient reabsorption — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A patient's 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive. Identify the most likely diagnosis and explain the renal handling of glucose that leads to this finding.",
+     "a": "Correct answer: Diabetes mellitus (uncontrolled). Reasoning: (1) Normal urea excretion is 25–30 g/day; 18 g suggests reduced protein intake or catabolism, not diagnostic. (2) Creatinine 0.8 g/day is low (normal 1–2 g), possibly low muscle mass. (3) Glucose 45 g/day is massive — filtered load = GFR × plasma glucose. At GFR 125 mL/min and plasma glucose >300 mg/dL, filtered load exceeds Tm (~375 mg/min), causing glycosuria. (4) Ketones positive indicates fat catabolism from insulin deficiency. A wrong diagnosis (e.g., renal glycosuria) would ignore the ketone finding and the quantitative glucose load.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the renal handling of urea and creatinine. Why is creatinine clearance used to estimate GFR while urea clearance is not, despite both being filtered at the glomerulus?",
+     "a": "Correct answer: Urea is ~50% passively reabsorbed in the collecting duct (driven by medullary osmotic gradient and ADH), so its excretion underestimates filtration. Creatinine is freely filtered, not reabsorbed, and only minimally secreted (~10%), making its clearance a closer approximation of true GFR. A wrong answer (e.g., \"both are equally good\" or \"urea is secreted\") fails to analyze the tubular processing differences — a key analytical skill for interpreting renal function tests.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student claims: \"Since urine pH is normally acidic (~6.0), the kidney must secrete H⁺ into the filtrate throughout the nephron.\" Evaluate this statement. Is it fully correct? Justify.",
+     "a": "Correct answer: Partially correct but incomplete. H⁺ secretion occurs mainly in PCT (via Na⁺/H⁺ exchanger), DCT, and collecting duct (via H⁺-ATPase and H⁺/K⁺-ATPase in intercalated cells) — not \"throughout\" (e.g., minimal in thin limbs of Henle's loop). Moreover, urine acidity also depends on titratable acidity (phosphate buffers) and NH₄⁺ excretion (ammonia trapping). A fully correct evaluation must note: (1) segment-specific secretion, (2) role of buffers, (3) NH₄⁺ as major adaptive mechanism. A wrong evaluation misses the tubular segment specificity or buffer systems.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a simple classroom investigation using simulated urine samples (prepared by teacher) to demonstrate how dipstick tests detect glucose, protein, and ketones. Specify the chemical principle for each test pad.",
+     "a": "Expected answer: Prepare 3 simulated samples: (A) normal (water + NaCl + urea + yellow dye), (B) diabetic (A + 2% glucose), (C) starvation (A + 0.5% acetoacetic acid + trace albumin). Dipstick principles: Glucose — glucose oxidase/peroxidase reaction (color change via chromogen oxidation). Protein — pH indicator (tetrabromophenol blue) shifts color due to protein charge (protein error of indicators). Ketones — nitroprusside reaction (acetoacetate + nitroprusside in alkaline medium → purple). A poor answer uses generic \"color change\" without naming enzymes/reagents, showing lack of biochemical understanding of diagnostic tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

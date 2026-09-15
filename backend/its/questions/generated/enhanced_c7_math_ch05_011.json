@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_011",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_011",
+   "title": "c7_math_ch05_011",
+   "questions": [
+    {
+     "q": "If two parallel lines are intersected by a transversal, and one alternate interior angle measures $65^\\circ$, what is the measure of its pair?",
+     "a": "The measure is $65^\\circ$. A student who incorrectly subtracts $65^\\circ$ from $180^\\circ$ is confusing alternate interior angles with interior angles on the same side of the transversal, failing to remember that alternate interior angles are equal when lines are parallel.",
+     "self_check": true
+    },
+    {
+     "q": "Why must interior angles on the same side of a transversal add up to $180^\\circ$ when the two lines are parallel, whereas alternate interior angles are equal? Explain the reasoning using linear pairs.",
+     "a": "Alternate interior angles are equal because they are related through vertically opposite angles and corresponding angles along parallel shifts. Interior angles on the same side sum to $180^\\circ$ because they form a linear pair with an adjacent angle that is equal to the alternate interior angle. A student who states \"they just always equal each other\" shows a misunderstanding of angle sums versus angle equality.",
+     "self_check": true
+    },
+    {
+     "q": "In a diagram where line $l$ is parallel to line $m$, a transversal line $t$ cuts them. If one interior angle on the same side of the transversal is represented by $3x + 15^\\circ$ and the consecutive interior angle is $2x + 45^\\circ$, find the exact value of $x$.",
+     "a": "Steps:\n1. Identify the relationship: Interior angles on the same side of a transversal between parallel lines are supplementary (sum to $180^\\circ$).\n2. Set up the algebraic equation: $(3x + 15) + (2x + 45) = 180$.\n3. Combine like terms: $5x + 60 = 180$.\n4. Subtract 60 from both sides: $5x = 180 - 60 \\implies 5x = 120$.\n5. Divide by 5: $x = 120 / 5 = 24$.\nAnswer: $x = 24$. A student who sets the expressions equal to each other ($3x + 15 = 2x + 45$) confuses consecutive interior angles with alternate interior angles.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a situation where a student measures a transversal cutting two lines and finds alternate interior angles are $72^\\circ$ and $78^\\circ$. Can the two lines be parallel? Justify your mathematical conclusion.",
+     "a": "No, the lines cannot be parallel. If two lines are parallel, alternate interior angles must be strictly equal. Since $72^\\circ \\neq 78^\\circ$, the converse of the alternate interior angles property proves the lines are intersecting, not parallel. A student who says \"yes, because they are both acute angles\" does not understand that numerical equality is required for parallelism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If a transversal is perpendicular to one of two parallel lines, it must be perpendicular to the other line as well.\" Is this correct? Defend your answer with geometric properties.",
+     "a": "The statement is correct. If the transversal is perpendicular to the first parallel line, the intersection angle is $90^\\circ$. By the corresponding angles property, the corresponding angle at the second parallel line must also be $90^\\circ$. A student who disagrees fails to see that a $90^\\circ$ corresponding angle maintains perpendicularity across parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multi-step word problem involving a carpenter framing a gate in Jaipur where two wooden horizontal struts are crossed by a diagonal brace forming alternate interior angles of $(5x - 10)^\\circ$ and $(3x + 30)^\\circ$. State the equation and find the angle measure.",
+     "a": "A good response will set up the equation $5x - 10 = 3x + 30$ because alternate interior angles are equal. Solving gives $2x = 40 \\implies x = 20$, and substituting back yields an angle measure of $5(20) - 10 = 90^\\circ$. A poor response uses incorrect angle relationships like setting their sum to $180^\\circ$ or has arithmetic errors in solving the linear equation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_005",
+   "title": "c11_geo_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the chemical equation for the dissolution of limestone by carbonic acid, and why does this reaction require the presence of both carbon dioxide and water?",
+     "a": "The reaction is: CaCO₃ (solid) + H₂CO₃ (aq) → Ca(HCO₃)₂ (aq). Carbonic acid forms only when CO₂ dissolves in water (CO₂ + H₂O ⇌ H₂CO₃); without water, CO₂ cannot form the acid, and without CO₂, water alone (pH ~7) cannot dissolve calcite significantly. A wrong answer (e.g., \"limestone dissolves in plain water\" or \"acid rain alone causes it\") reveals confusion between mechanical weathering and carbonation, or ignorance of the soil-CO₂ role in enhancing acidity beyond rainwater.",
+     "self_check": true
+    },
+    {
+     "q": "A sinkhole and a stalactite are both karst features. Explain why one is classified as erosional and the other as depositional, referencing the direction of water movement and the saturation state of calcium bicarbonate in each case.",
+     "a": "A sinkhole forms when groundwater moving downward through joints dissolves limestone (undersaturated Ca(HCO₃)₂ solution), enlarging voids until the roof collapses — net removal of rock (erosion). A stalactite forms when water saturated with Ca(HCO₃)₂ reaches a cave roof, CO₂ degasses due to lower cave pCO₂, reversing the reaction to precipitate CaCO₃ — net addition of rock (deposition). A wrong answer (e.g., \"both are made by water\") misses the critical role of saturation state and CO₂ partial pressure gradient in determining whether solution or precipitation occurs.",
+     "self_check": true
+    },
+    {
+     "q": "On a topographic map of a karst region (scale 1:50,000), you notice numerous closed depressions with hachured contour lines, no surface streams, and a cave symbol. The contour interval is 20 m. A sinkhole shows the outermost closed contour at 300 m and the innermost at 260 m. Calculate the depth of this sinkhole and explain what the absence of surface streams indicates about the drainage pattern.",
+     "a": "Depth = (300 - 260) m = 40 m (2 contour intervals × 20 m). The absence of surface streams indicates subterranean drainage: rainwater infiltrates rapidly through joints and sinkholes into underground conduits (caves), so surface runoff is minimal. A wrong answer (e.g., \"streams are too small to map\" or \"arid climate\") reveals failure to recognize that karst drainage is underground — a diagnostic feature distinguishing karst from fluvial landscapes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation conditions of a stalactite and a stalagmite. Why do they often fuse to form a column, and what does the growth rate (typically 0.1–1 mm/year) imply about the timescale of cave development relative to surface landform evolution?",
+     "a": "Stalactites grow downward from the ceiling where dripping water loses CO₂ and precipitates CaCO₃; stalagmites grow upward from the floor where the same drops splash and degas further. They fuse when the stalactite's tip meets the stalagmite's tip, forming a column. At 0.1–1 mm/year, a 1 m column takes 1,000–10,000 years — caves are geologically young features (Pleistocene to Holocene) compared to surface valleys shaped by fluvial erosion over millions of years. A wrong answer (e.g., \"they grow fast like icicles\") shows misunderstanding of the slow, diffusion-limited chemical precipitation process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Karst landscapes are unsuitable for intensive agriculture and dense human settlement.\" Consider soil development, water availability, and natural hazards in your justification.",
+     "a": "Partially true but context-dependent. Thin, discontinuous soils (rendzina) form on limestone due to rapid drainage and lack of insoluble residue — limiting agriculture. Water is scarce on the surface (no streams) but accessible via wells tapping aquifers — enabling settlement if groundwater is managed. However, sinkhole collapse (subsidence) and groundwater contamination (rapid pollutant transport through conduits) are major hazards. Regions like the Yucatán Peninsula or parts of Slovenia support agriculture and cities with adapted practices (cenotes for water, terracing). A wrong answer (\"karst is always barren\" or \"perfect for farming\") reveals oversimplification ignoring human adaptation and hydrogeological nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan to distinguish between a collapse sinkhole (doline) and a solution sinkhole in a limestone terrain near Chhattisgarh's Kanger Valley. Specify three observable criteria and the equipment needed.",
+     "a": "Criteria: (1) Rock exposure — collapse sinkholes show broken limestone blocks at the base; solution sinkholes show smooth, chemically etched walls. (2) Shape — collapse: steep, irregular, vertical walls; solution: gentle, funnel-shaped slopes. (3) Sediment fill — collapse: chaotic rubble; solution: layered clay/silt from slow infill. Equipment: clinometer (slope angle), hand lens (surface etching), GPS (location), camera. A poor plan (e.g., \"just measure depth\") misses the genetic distinction critical for hazard assessment — collapse sinkholes indicate active roof failure; solution sinkholes indicate ongoing chemical lowering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "catalog": "catalog_class10_social_science_jess201",
+ "concepts": [
+  {
+   "id": "jess.201.1.1",
+   "title": "Different People, Different Developmental Goals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Different People, Different Developmental Goals' refers to.",
+     "a": "Each person pictures progress through the lens of their own life situation, so a landless labourer may want regular work and better wages while a prosperous farmer may want higher support prices, and goals of different groups can even conflict.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Different People, Different Developmental Goals'.",
+     "a": "What is development for one person may be destructive for another, as when a large dam brings electricity to industry but submerges the land of displaced tribals.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Different People, Different Developmental Goals' taught, and from which source text?",
+     "a": "What Development Promises (source: jess201.txt lines 185-258, 204-255)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.1.2",
+   "title": "Income and Other Goals in Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Income and Other Goals in Life' refers to.",
+     "a": "Besides more income, people seek equal treatment, freedom, security and respect, and these non-material goods matter because money cannot buy everything needed for a good life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Income and Other Goals in Life'.",
+     "a": "A job with lower pay but regular employment may give a stronger sense of security than a highly paid post with no security, showing that people weigh a mix of goals.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Income and Other Goals in Life' taught, and from which source text?",
+     "a": "Income and Other Goals (source: jess201.txt lines 262-377)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.1",
+   "title": "Comparing Countries by Per Capita Income",
+   "questions": [
+    {
+     "q": "Using the method 'Comparing Countries by Per Capita Income', work with: total_income = 120000, total_population = 12000. Carry the chain through step by step and give the final value of per_capita_income.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Comparing Countries by Per Capita Income' and work with: total_income = 20000, total_population = 25000. Carry the chain through step by step and give the final value of per_capita_income.",
+     "a": "0.8 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Comparing Countries by Per Capita Income' refers to.",
+     "a": "Countries are compared using average income, computed by dividing the total income of a country by its total population, and this average is called per capita income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparing Countries by Per Capita Income'.",
+     "a": "World Development Reports classify countries by per capita income, placing rich countries far above low-income countries, with India in the low middle income group.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparing Countries by Per Capita Income', in plain ASCII form.",
+     "a": "per_capita_income = total_income / total_population",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.2",
+   "title": "Average Income of a Group of Persons",
+   "questions": [
+    {
+     "q": "Calculate the average income of the citizens from the given table. Use the method 'Average Income of a Group of Persons'. Work with: income_1 = 12000, income_2 = 1200, income_3 = 500, income_4 = 500, income_5 = 50000. Carry the chain through step by step and give the final value of average_income.",
+     "a": "12840 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the mean monthly income of a group of persons. Use the method 'Average Income of a Group of Persons'. Work with: income_1 = 5000, income_2 = 20000, income_3 = 50000, income_4 = 2500, income_5 = 20000. Carry the chain through step by step and give the final value of average_income.",
+     "a": "19500 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Average Income of a Group of Persons' refers to.",
+     "a": "The average income of a small group, such as the citizens of a model country, is the sum of all their incomes divided by the number of persons, and averages hide disparities in distribution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Average Income of a Group of Persons'.",
+     "a": "Two countries with identical averages can differ sharply in equity: one with similar incomes for all is preferred to one where most people are poor and one person is extremely rich.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Average Income of a Group of Persons', in plain ASCII form.",
+     "a": "average_income = total_income / number_of_persons",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.3",
+   "title": "Missing Family Income from the Group Average",
+   "questions": [
+    {
+     "q": "Find the income of the fourth family given the average income of four families. Use the method 'Missing Family Income from the Group Average'. Work with: average_income = 100, known_income_total = 5000, number_of_families = 1024. Carry the chain through step by step and give the final value of unknown_income.",
+     "a": "97400 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the missing income when the group average is known. Use the method 'Missing Family Income from the Group Average'. Work with: average_income = 1500, known_income_total = 120000, number_of_families = 8192. Carry the chain through step by step and give the final value of unknown_income.",
+     "a": "12168000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Missing Family Income from the Group Average' refers to.",
+     "a": "When the average income of a group is known along with all but one member's income, the unknown income equals the group average multiplied by the number of members, minus the sum of the known incomes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Missing Family Income from the Group Average'.",
+     "a": "This reversal of the average formula shows how averages constrain every member, as in the textbook case of four families with average income Rs 5000.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Missing Family Income from the Group Average', in plain ASCII form.",
+     "a": "unknown_income = average_income * number_of_persons - known_income_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.1",
+   "title": "Income and Other Criteria: Kerala versus Haryana",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Income and Other Criteria: Kerala versus Haryana' refers to.",
+     "a": "States with higher per capita income can still lag on health and education, because money cannot buy a pollution-free environment, unadulterated medicines or protection from infectious disease unless the whole community is served.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Income and Other Criteria: Kerala versus Haryana'.",
+     "a": "Haryana has the higher per capita income but Kerala has far lower Infant Mortality and higher literacy and net attendance, so public facilities matter as much as income.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Income and Other Criteria: Kerala versus Haryana' taught, and from which source text?",
+     "a": "Income and Other Criteria (source: jess201.txt lines 775-937)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.2",
+   "title": "Infant Mortality Rate from Birth and Death Data",
+   "questions": [
+    {
+     "q": "Calculate the infant mortality rate from births and infant deaths. Use the method 'Infant Mortality Rate from Birth and Death Data'. Work with: infant_deaths = 45, live_births = 200. Carry the chain through step by step and give the final value of imr.",
+     "a": "225 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the imr per 1000 live births for a state. Use the method 'Infant Mortality Rate from Birth and Death Data'. Work with: infant_deaths = 25, live_births = 25. Carry the chain through step by step and give the final value of imr.",
+     "a": "1000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Infant Mortality Rate from Birth and Death Data' refers to.",
+     "a": "Infant Mortality Rate counts the children who die before completing one year of age for every 1000 live children born in that year, so it is computed from the number of infant deaths and live births.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infant Mortality Rate from Birth and Death Data'.",
+     "a": "Kerala's IMR of 6 against Haryana's 28 per 1000 shows how health outcomes diverge even within one country.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Infant Mortality Rate from Birth and Death Data', in plain ASCII form.",
+     "a": "imr = infant_deaths / live_births * 1000",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.3.3",
+   "title": "Net Attendance Ratio of School Children",
+   "questions": [
+    {
+     "q": "Calculate the net attendance ratio from enrolment data. Use the method 'Net Attendance Ratio of School Children'. Work with: children_attending = 30, children_total = 24. Carry the chain through step by step and give the final value of attendance_ratio.",
+     "a": "125 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the percentage of children attending secondary school. Use the method 'Net Attendance Ratio of School Children'. Work with: children_attending = 6, children_total = 300. Carry the chain through step by step and give the final value of attendance_ratio.",
+     "a": "2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Attendance Ratio of School Children' refers to.",
+     "a": "The Net Attendance Ratio is the total number of children of the 15-17 year age group attending school expressed as a percentage of all children in that age group.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Attendance Ratio of School Children'.",
+     "a": "With about one-third of Bihar's 15-17 year olds out of secondary school, attendance data expose gaps that income averages miss.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Attendance Ratio of School Children', in plain ASCII form.",
+     "a": "attendance_ratio = children_attending / children_total * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.4.1",
+   "title": "Human Development Index of UNDP",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Development Index of UNDP' refers to.",
+     "a": "The Human Development Index published in the Human Development Report ranks countries by health, education and income together, placing people and their well being at the centre of development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Development Index of UNDP'.",
+     "a": "Sri Lanka, a small neighbour, ranks ahead of India, and Nepal and Bangladesh beat India in life expectancy despite lower per capita income, which shows why UNDP uses broader criteria than the World Bank.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Human Development Index of UNDP' taught, and from which source text?",
+     "a": "Human Development Index (source: jess201.txt lines 1061-1130, 1401-1410)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.5.1",
+   "title": "Body Mass Index of Students",
+   "questions": [
+    {
+     "q": "Calculate the body mass index from weight and height. Use the method 'Body Mass Index of Students'. Work with: height_m = 300, weight_kg = 15. Carry the chain through step by step and give the final value of bmi.",
+     "a": "0.0002 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the bmi of a student weighing kilograms and metres tall. Use the method 'Body Mass Index of Students'. Work with: height_m = 10, weight_kg = 10. Carry the chain through step by step and give the final value of bmi.",
+     "a": "0.1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Body Mass Index of Students' refers to.",
+     "a": "Body Mass Index is a nutrition measure found by dividing a person's weight in kilograms by the square of height in metres, with low values signalling undernourishment and high values overweight.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Body Mass Index of Students'.",
+     "a": "Recording each student's weight and height, converting centimetres to metres, and computing BMI lets a class screen for undernourished or overweight members without body shaming.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Body Mass Index of Students', in plain ASCII form.",
+     "a": "bmi = weight_kg / (height_m * height_m)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.201.6.1",
+   "title": "Sustainability of Development and Groundwater Overuse",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sustainability of Development and Groundwater Overuse' refers to.",
+     "a": "Development is sustainable only when future generations can also maintain it, yet about 300 districts have seen groundwater levels fall over four metres in two decades and nearly one-third of the country is overusing its groundwater reserves.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sustainability of Development and Groundwater Overuse'.",
+     "a": "Groundwater overuse concentrates in agriculturally prosperous Punjab and Western U.P., the hard rock plateau areas of central and south India, some coastal areas and fast-growing urban settlements.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sustainability of Development and Groundwater Overuse' taught, and from which source text?",
+     "a": "Sustainability of Development (source: jess201.txt lines 1205-1280)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

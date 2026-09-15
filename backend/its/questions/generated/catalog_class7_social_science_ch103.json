@@ -1,0 +1,98 @@
+{
+ "catalog": "catalog_class7_social_science_ch103",
+ "concepts": [
+  {
+   "id": "gess.103.1.1",
+   "title": "Land Revenue Assessment",
+   "questions": [
+    {
+     "q": "Calculate the revenue if total produce is ... and rate is .... Use the method 'Land Revenue Assessment'. Work with: tax_rate = 25, total_produce = 45. Carry the chain through step by step and give the final value of revenue.",
+     "a": "1125 units",
+     "self_check": false
+    },
+    {
+     "q": "How much tax is collected if produce is ... at 50 percent rate? Use the method 'Land Revenue Assessment'. Work with: tax_rate = 18, total_produce = 400. Carry the chain through step by step and give the final value of revenue.",
+     "a": "7200 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Land Revenue Assessment' refers to.",
+     "a": "The system of calculating and collecting taxes from agricultural produce based on land measurement and state-prescribed rates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Revenue Assessment'.",
+     "a": "State-controlled revenue collection based on land assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Land Revenue Assessment', in plain ASCII form.",
+     "a": "revenue = total_produce * tax_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.103.2.1",
+   "title": "The Circle of Justice",
+   "questions": [
+    {
+     "q": "Using the method 'The Circle of Justice', work with: justice = 80, prosperity = 120, salaries = 40, soldiers = 3. Carry the chain through step by step and give the final value of stability.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Circle of Justice' and work with: justice = 60, prosperity = 40, salaries = 8, soldiers = 5. Carry the chain through step by step and give the final value of stability.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Circle of Justice' refers to.",
+     "a": "A political theory suggesting that a king's stability depends on soldiers, whose salaries depend on peasant revenue, which in turn requires a prosperous and just peasantry.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Circle of Justice'.",
+     "a": "Interdependence of the king, soldiers, and peasants for a stable state.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Circle of Justice', in plain ASCII form.",
+     "a": "stability = (justice * prosperity) / (soldiers * salaries)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.103.3.1",
+   "title": "Iqta System",
+   "questions": [
+    {
+     "q": "Using the method 'Iqta System', work with: revenue_collected = 80000. Carry the chain through step by step and give the final value of salary.",
+     "a": "80000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Iqta System' and work with: revenue_collected = 1200. Carry the chain through step by step and give the final value of salary.",
+     "a": "1200 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Iqta System' refers to.",
+     "a": "A system where military commanders were assigned territories to manage and collect revenue as salary for their military service.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Iqta System'.",
+     "a": "Land assignment in exchange for military service and law enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Iqta System', in plain ASCII form.",
+     "a": "salary = revenue_collected",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

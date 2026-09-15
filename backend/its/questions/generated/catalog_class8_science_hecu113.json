@@ -1,0 +1,115 @@
+{
+ "catalog": "catalog_class8_science_hecu113.json",
+ "concepts": [
+  {
+   "id": "hecu.113.13.1",
+   "title": "Why Earth Is a Unique Planet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is earth called the blue planet?",
+     "a": "Seen from space, most of its surface (about three-fourths) is water, so it looks blue.",
+     "self_check": true
+    },
+    {
+     "q": "Name two features that make earth special among planets.",
+     "a": "Liquid water and a life-supporting atmosphere (plus a safe distance from the sun).",
+     "self_check": true
+    },
+    {
+     "q": "Why does earth have day and night?",
+     "a": "It spins on its axis once in about 24 hours, turning each side to face the sun.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.113.13.2",
+   "title": "The Planets of the Solar System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the planets in order from the sun.",
+     "a": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+     "self_check": true
+    },
+    {
+     "q": "Which planets are called inner and outer planets?",
+     "a": "Inner: Mercury to Mars (rocky). Outer: Jupiter to Neptune (gas/ice giants).",
+     "self_check": true
+    },
+    {
+     "q": "Why is Venus the hottest planet though Mercury is nearer the sun?",
+     "a": "Venus's thick carbon-dioxide blanket traps heat - a runaway greenhouse effect.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.113.13.3",
+   "title": "What Makes Earth Suitable for Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What makes earth suitable for life?",
+     "a": "Water, a breathable atmosphere with oxygen, and a mild temperature range maintained by its distance from the sun.",
+     "self_check": true
+    },
+    {
+     "q": "How does the atmosphere protect life on earth?",
+     "a": "It holds oxygen, blocks harmful UV (ozone layer) and burns up most meteors.",
+     "self_check": true
+    },
+    {
+     "q": "Why is earth's distance from the sun important for life?",
+     "a": "At this distance water stays liquid - nearer it would boil away, farther it would freeze.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.113.13.4",
+   "title": "Sustaining Life: Cycles and Shields",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two natural cycles that sustain life on earth.",
+     "a": "The water cycle and the carbon (or nitrogen, oxygen) cycle.",
+     "self_check": true
+    },
+    {
+     "q": "What is the ozone layer's role in sustaining life?",
+     "a": "It shields living things from the sun's harmful ultraviolet rays.",
+     "self_check": true
+    },
+    {
+     "q": "How do oceans help keep earth livable?",
+     "a": "They hold water, make rain, absorb carbon dioxide and keep climate mild.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.113.13.5",
+   "title": "Threats to Life on Earth",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two threats to life on earth today.",
+     "a": "Pollution of air and water, and climate change from greenhouse gases (also deforestation).",
+     "self_check": true
+    },
+    {
+     "q": "How does cutting forests threaten life?",
+     "a": "It removes oxygen-makers and animal homes, raises CO2, and causes floods and soil loss.",
+     "self_check": true
+    },
+    {
+     "q": "Suggest two actions to protect earth's life-support systems.",
+     "a": "Save energy and water, plant trees, recycle waste, and cut the use of plastics and fossil fuels.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

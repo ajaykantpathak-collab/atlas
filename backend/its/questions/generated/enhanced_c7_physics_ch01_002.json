@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_002",
+   "title": "c7_physics_ch01_002",
+   "questions": [
+    {
+     "q": "Which branch of science primarily deals with forces, motion, energy, and heat transfer as studied in our everyday observations?",
+     "a": "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer. If a student answers \"Biology,\" they are confusing the study of living organisms with the study of matter and energy, which indicates a need to review basic branch definitions from Class 6.",
+     "self_check": true
+    },
+    {
+     "q": "Why is studying a boiling pot of water considered an example of the interconnectedness of science rather than just a single physics topic?",
+     "a": "While heat transfer and temperature changes involve physics, the phase change from liquid to vapor and the chemical structure of water involve chemistry, showing how multiple disciplines overlap. If a student thinks it is only physics because of \"heat,\" they have the misconception that scientific phenomena happen in isolated silos without chemical or biological factors.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures that a bicycle travels 100 meters in 20 seconds using physical laws of motion. If the rider consumes 500 Joules of chemical energy stored in food to do this, calculate the average speed of the bicycle in meters per second (m/s).",
+     "a": "Step 1: Identify given values: distance $d = 100\\text{ m}$, time $t = 20\\text{ s}$.\nStep 2: Identify the formula for speed: $\\text{Speed } v = \\frac{d}{t}$.\nStep 3: Substitute values with units: $v = \\frac{100\\text{ m}}{20\\text{ s}}$.\nStep 4: Compute and track units: $v = 5\\text{ m/s}$.\nStep 5: Verify the answer is reasonable for a bicycle: $5\\text{ m/s}$ is a normal cycling speed.\nIf a student gets $2000\\text{ m/s}$ by multiplying distance and time, it reveals an algebraic error in applying the speed formula.",
+     "self_check": true
+    },
+    {
+     "q": "How do the chemical properties of fuels connect with the physical concepts of heat and motion in a thermal power plant?",
+     "a": "Chemical energy stored in fuels is released through combustion (chemistry), which produces thermal energy to heat water (physics/heat transfer) into steam, driving turbines to generate electricity (physics/electromagnetism). If a student only mentions burning without connecting it to motion or electricity, they fail to see how chemical reactions enable physical work.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a doctor diagnosing a fever needs only biological knowledge, or if physics and chemistry are also involved.",
+     "a": "A doctor needs all three: biology to understand the body's immune response, physics to measure temperature using thermal expansion or infrared radiation sensors, and chemistry to understand how medicines interact with body cells. If a student claims only biology is needed, they underestimate how medical tools rely on physical principles and drugs rely on chemical reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short observation plan for a potted plant placed near a sunny window that demonstrates both physics and biology working together.",
+     "a": "A good plan records light intensity and direction using physics concepts (light travel, shadow, reflection) alongside the plant's biological response (bending towards light, known as phototropism). A poor plan only describes the plant growing without mentioning how light energy and environmental factors initiate the biological response.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

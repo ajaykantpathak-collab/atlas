@@ -1,0 +1,162 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 103,
+ "chapter_title": "Fibre to Fabric",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lehe201.txt",
+ "concepts": [
+  {
+   "id": "fesc.3.1.1",
+   "title": "Fabric Composition",
+   "section": "3.1",
+   "definition": "Fabrics are materials formed by the systematic arrangement of yarns, which are themselves composed of twisted thin strands known as fibres.",
+   "formula": "fabric = yarns_arranged_together",
+   "key_idea": "Fibres form yarns, and yarns form fabrics.",
+   "textbook_ref": "fesc103.txt lines 35-45",
+   "question_patterns": [
+    "what are fabrics made of",
+    "describe the relationship between fibre yarn and fabric",
+    "how is a fabric structured",
+    "identify the components of a piece of cloth",
+    "explain the hierarchy of fabric construction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify hierarchy",
+     "explain": "fibres are the basic units that combine to form yarns, which are then woven or knitted into fabrics.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.2.1",
+   "title": "Fibre Classification",
+   "section": "3.2",
+   "definition": "Fibres are categorized based on their origin: natural fibres come from biological sources like plants or animals, while synthetic fibres are produced from chemical substances.",
+   "formula": "total_fibres = natural_fibres + synthetic_fibres",
+   "key_idea": "Fibres are either naturally sourced or chemically manufactured.",
+   "textbook_ref": "fesc103.txt lines 60-85",
+   "question_patterns": [
+    "classify the given fibres as natural or synthetic",
+    "what is the difference between natural and man-made fibres",
+    "list examples of synthetic fibres",
+    "how do we distinguish between plant and animal fibres",
+    "categorize wool and polyester correctly"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check source",
+     "explain": "if the fibre originates from a plant or animal, it is natural; otherwise, it is synthetic.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.4.1",
+   "title": "Spinning Efficiency",
+   "section": "3.4",
+   "definition": "Spinning is the mechanical or manual process of drawing out and twisting fibres to create a continuous yarn.",
+   "formula": "yarn_length = fibres_twisted * twist_factor",
+   "key_idea": "Twisting fibres together creates strength and length in yarn.",
+   "textbook_ref": "fesc103.txt lines 130-145",
+   "question_patterns": [
+    "calculate the potential yarn length from a mass of fibres",
+    "how much yarn is produced if the twist factor is given",
+    "determine the output of the spinning process",
+    "find the total yarn length based on fibre quantity",
+    "compute the yarn yield given the twist efficiency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply fibres by twist factor",
+     "explain": "the total length of the yarn depends on the amount of raw fibre and the efficiency of the twisting process.",
+     "compute": "yarn_length = fibres_twisted * twist_factor"
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.5.1",
+   "title": "Weaving Area Calculation",
+   "section": "3.5",
+   "definition": "Weaving is the process of interlacing two distinct sets of yarns at right angles to produce a fabric sheet.",
+   "formula": "fabric_area = length * width",
+   "key_idea": "Weaving creates a two-dimensional surface from one-dimensional yarns.",
+   "textbook_ref": "fesc103.txt lines 160-185",
+   "question_patterns": [
+    "calculate the area of the woven fabric",
+    "find the total surface area of a cloth piece",
+    "what is the area of a fabric with given dimensions",
+    "determine the size of the fabric sheet",
+    "compute the area of the woven material"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply length by width",
+     "explain": "the area of a rectangular fabric is the product of its length and width.",
+     "compute": "fabric_area = length * width"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc103.txt",
+   "concept": "fesc.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "if you have {fibres_twisted} units of fibre and a twist factor of {twist_factor} find the yarn length",
+   "extracted_variables": {
+    "fibres_twisted": 50,
+    "twist_factor": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total length",
+     "explain": "multiply the fibre amount by the twist factor.",
+     "compute": "yarn_length = fibres_twisted * twist_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc103.txt",
+   "concept": "fesc.3.5.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the area of a fabric piece with length {length} cm and width {width} cm",
+   "extracted_variables": {
+    "length": 30,
+    "width": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply dimensions",
+     "explain": "area is length times width.",
+     "compute": "fabric_area = length * width"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "fesc103.txt",
+   "questions": [
+    "Classify the following fibres as natural or synthetic: nylon, wool, cotton, silk, polyester, jute",
+    "State whether the following statements are true or false: Yarn is made from fibres, Spinning is a process of making fibres, Jute is the outer covering of coconut, The process of removing seed from cotton is called ginning, Weaving of yarn makes a piece of fabric, Silk fibre is obtained from the stem of a plant, Polyester is a natural fibre."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

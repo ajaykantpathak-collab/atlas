@@ -1,0 +1,339 @@
+{
+ "catalog": "catalog_class12_home_science_lehe203",
+ "concepts": [
+  {
+   "id": "lehe203.1",
+   "title": "Two Aspects of Fabric Care",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Two Aspects of Fabric Care' refers to.",
+     "a": "Caring for fabrics means guarding the material against physical harm and mending whatever harm use has caused, while also refreshing how it looks -- lifting stains and dirt so the texture and visual character survive to the end of the material's expected service life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Two Aspects of Fabric Care'.",
+     "a": "Laundering is both science and art: principles guide it, but skill delivers the pleasing finish.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Two Aspects of Fabric Care', in plain ASCII form.",
+     "a": "care = damage prevention and repair plus appearance renewal",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.2",
+   "title": "Washing Machines and Their Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Washing Machines and Their Types' refers to.",
+     "a": "Machines load from the top or the front; by control they run fully automatic on a single setting, semi automatic with operator intervention each cycle in two tub form, or manually operated where half or more of the work stays with the person.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Washing Machines and Their Types'.",
+     "a": "A fully automatic unit handles filling, temperature, wash and rinses without help; semi automatic machines need filling and draining by hand every cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Washing Machines and Their Types', in plain ASCII form.",
+     "a": "machine classes -- top or front loading, crossed with automatic, semi automatic, manual",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.3",
+   "title": "Wash Motions and Water Extraction",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Wash Motions and Water Extraction' refers to.",
+     "a": "Every machine works by keeping fabric moving in the wash liquor -- agitator blades churn a current in top loaders, a vertical pulsator vibrates water through them, and front loaders tumble clothes through water in a revolving perforated cylinder; afterwards water leaves by spin alone, by bottom drain then spin, or by the best route, draining during the spin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wash Motions and Water Extraction'.",
+     "a": "Spin speed sets how much water leaves the load, from 333 up to 1100 rpm, but near dry spinning invites stubborn wrinkles; about 600 to 620 rpm is optimal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Wash Motions and Water Extraction', in plain ASCII form.",
+     "a": "motions -- agitation plus pulsation plus tumbling; extraction -- spin plus drain plus combined",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.4",
+   "title": "Driers and Their Air Circulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Driers and Their Air Circulation' refers to.",
+     "a": "Tumbler driers move air two ways: a fast stream of low temperature room air heated as it passes through the load and exhausted out, or a slow moving high temperature stream whose moist exhaust leaves the drum humid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Driers and Their Air Circulation'.",
+     "a": "The low temperature high velocity route keeps room temperature and humidity normal; the hot slow route exhausts very humid air.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Driers and Their Air Circulation', in plain ASCII form.",
+     "a": "circulation choice -- fast cool air or slow hot air",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.5",
+   "title": "Ironing and Hot Pressing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ironing and Hot Pressing' refers to.",
+     "a": "Ironing smooths the wrinkles that use and washing leave, while pressing sets creases into sleeves, trouser legs and pleats; thermostats match metal sole heat to the fabric, steam eases the work, and irons span roughly 1.5 to 3.5 kg with charcoal models still seen in India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ironing and Hot Pressing'.",
+     "a": "Heavy household articles like curtains call for heavier irons, while light ones suit daily apparel.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ironing and Hot Pressing', in plain ASCII form.",
+     "a": "finish work -- smoothing wrinkles plus setting creases",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.6",
+   "title": "Laundry Services: Dhobi to Commercial Laundry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Laundry Services: Dhobi to Commercial Laundry' refers to.",
+     "a": "Household washing handles daily clothes; professional workers collect from homes and hostels and wash at marked town ghats; commercial laundries and dry cleaners take bigger articles, organised into sections for washing, extraction, drying, pressing, dry cleaning, fibre specific work, dyeing and finishes, with invoices and code tags tracking every item.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Laundry Services: Dhobi to Commercial Laundry'.",
+     "a": "Commercial machines take 100 kg or more per cycle against 5 to 10 kg at home, and code tags tie each article to its invoice.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Laundry Services: Dhobi to Commercial Laundry', in plain ASCII form.",
+     "a": "service ladder -- household plus professional worker plus commercial laundry plus dry cleaner",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.7",
+   "title": "Hospital Laundry and Its Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hospital Laundry and Its Process' refers to.",
+     "a": "A hospital laundry puts hygiene, cleanliness and disinfection first: soiled linen is collected from wards and theatres, sorted, washed in hundred kilogram machines, hydro extracted, dried, pressed, mended or condemned, packed and distributed, with infection prone items replaced by burnable disposables.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hospital Laundry and Its Process'.",
+     "a": "Hospital cottons carry dyes of excellent wash fastness; starching and whitening rank below cleanliness, and only blankets are woollen.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hospital Laundry and Its Process', in plain ASCII form.",
+     "a": "process chain -- collection plus transport plus sorting plus wash plus extraction plus dry plus press plus mend plus pack plus distribute",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.8",
+   "title": "Hotel Laundry Priorities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hotel Laundry Priorities' refers to.",
+     "a": "Hospitality laundries chase looks: mixed fibre articles must emerge starched, perfectly pressed and correctly folded, guests' personal laundry gets handled on request, and smaller hotels link up with outside commercial laundries instead of running their own plant.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hotel Laundry Priorities'.",
+     "a": "Hospitals wash for hygiene, hotels finish for beauty -- the same machines, opposite emphases.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hotel Laundry Priorities', in plain ASCII form.",
+     "a": "hotel priority -- aesthetics plus final finish plus guest service",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.9",
+   "title": "Careers in Laundry and Fabric Care",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Careers in Laundry and Fabric Care' refers to.",
+     "a": "The field demands command of the material's fibre, yarn, construction and finishes, of the cleaning processes and chemicals, and of the machinery; short laundry management courses offer training, placement and startup help, and specialisation in textile science opens jobs in airlines, shipping, railways, hotels and hi-tech hospitals or one's own service venture.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Careers in Laundry and Fabric Care'.",
+     "a": "Working women in metros and the nursing home boom make fabric care a promising entrepreneurial field.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Careers in Laundry and Fabric Care', in plain ASCII form.",
+     "a": "knowledge triad -- material plus processes and chemicals plus machinery",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.10",
+   "title": "Stain Removal Practice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stain Removal Practice' refers to.",
+     "a": "A stain is foreign matter absorbed into fabric that needs targeted treatment before washing; the right treatment depends on identifying the stain, its age, and the fibre -- cold water and salt for blood, methylated spirit for ball pen and lipstick, boiling water through tea marks, sour milk or oxalic acid for ink -- always against an untreated control sample.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stain Removal Practice'.",
+     "a": "Fresh blood washes out in cold water and dilute ammonia, but hot water sets it; old stains call for salt steeping or stronger reagents by fibre.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stain Removal Practice', in plain ASCII form.",
+     "a": "treatment choice -- stain identity plus age plus fibre type",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.11",
+   "title": "Linen Stock Requirement",
+   "questions": [
+    {
+     "q": "Calculate the total linen pieces for a ward from its bed count, sets per bed and pieces per set. Use the method 'Linen Stock Requirement'. Work with: bed_count = 4, pieces_per_set = 240, sets_per_bed = 30. Carry the chain through step by step and give the final value of total_pieces.",
+     "a": "28800 units",
+     "self_check": false
+    },
+    {
+     "q": "How many bed sheets alone does a 1800 bed hospital stock at 6 sets and 1 sheet per set? Use the method 'Linen Stock Requirement'. Work with: bed_count = 5, pieces_per_set = 15, sets_per_bed = 8. Carry the chain through step by step and give the final value of total_pieces.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Linen Stock Requirement' refers to.",
+     "a": "A hospital plans linen by multiplying beds by the minimum sets held per bed, then pieces per set -- sheet, draw sheet and pillow slip -- so the store always covers every bed even at peak washing turnover.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Linen Stock Requirement'.",
+     "a": "Six sets per bed with three pieces each means an eighteen piece stock for every bed on the rolls.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Linen Stock Requirement', in plain ASCII form.",
+     "a": "total_pieces = bed_count * sets_per_bed * pieces_per_set",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.12",
+   "title": "Daily Sheet Changes in Special Wards",
+   "questions": [
+    {
+     "q": "Compute the daily sheet requirement for a zone from its beds and the changes per day. Use the method 'Daily Sheet Changes in Special Wards'. Work with: changes_per_day = 5, zone_beds = 20. Carry the chain through step by step and give the final value of sheets_daily.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "How many sheet changes must the laundry process for a ward given its change rate? Use the method 'Daily Sheet Changes in Special Wards'. Work with: changes_per_day = 300, zone_beds = 80. Carry the chain through step by step and give the final value of sheets_daily.",
+     "a": "24000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Daily Sheet Changes in Special Wards' refers to.",
+     "a": "Operation theatre, maternity and labour room sheets can be changed five or more times a day, so the daily wash burden for such a zone is the zone's bed count multiplied by the changes each bed needs per day.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Daily Sheet Changes in Special Wards'.",
+     "a": "At five changes, even a small forty bed zone pushes two hundred sheets into the daily cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Daily Sheet Changes in Special Wards', in plain ASCII form.",
+     "a": "sheets_daily = zone_beds * changes_per_day",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.13",
+   "title": "Hydro-Extractor Moisture Arithmetic",
+   "questions": [
+    {
+     "q": "Find the residual moisture percentage when the extractor's removal rate is stated. Use the method 'Hydro-Extractor Moisture Arithmetic'. Work with: moisture_removed_pct = 45. Carry the chain through step by step and give the final value of moisture_left.",
+     "a": "55 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the share of moisture the drier must handle after hydro extraction. Use the method 'Hydro-Extractor Moisture Arithmetic'. Work with: moisture_removed_pct = 3. Carry the chain through step by step and give the final value of moisture_left.",
+     "a": "97 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hydro-Extractor Moisture Arithmetic' refers to.",
+     "a": "A hydro extractor spins off sixty to seventy per cent of the moisture, so whatever remains for the drier is one hundred minus the percentage removed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hydro-Extractor Moisture Arithmetic'.",
+     "a": "At a mid 65 per cent extraction, about 35 per cent of the moisture still awaits the drier.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hydro-Extractor Moisture Arithmetic', in plain ASCII form.",
+     "a": "moisture_left = 100 - moisture_removed_pct",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe203.14",
+   "title": "Machine Capacity Ratio",
+   "questions": [
+    {
+     "q": "Compute the capacity ratio between an institutional washer and a home washer. Use the method 'Machine Capacity Ratio'. Work with: commercial_capacity = 512, domestic_capacity = 256. Carry the chain through step by step and give the final value of capacity_ratio.",
+     "a": "2 times",
+     "self_check": false
+    },
+    {
+     "q": "How many domestic loads equal one commercial cycle when both capacities are stated? Use the method 'Machine Capacity Ratio'. Work with: commercial_capacity = 8192, domestic_capacity = 1024. Carry the chain through step by step and give the final value of capacity_ratio.",
+     "a": "8 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Machine Capacity Ratio' refers to.",
+     "a": "Commercial washers handle 100 kilogram or more per cycle while domestic machines manage 5 to 10 kilograms, so the industrial advantage is the commercial capacity divided by the domestic one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Machine Capacity Ratio'.",
+     "a": "Against a 5 kilogram home machine, a 100 kilogram plant machine washes twenty times the load each cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Machine Capacity Ratio', in plain ASCII form.",
+     "a": "capacity_ratio = commercial_capacity / domestic_capacity",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

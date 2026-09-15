@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class12_psychology_lepy106",
+ "concepts": [
+  {
+   "id": "lepy106.1",
+   "title": "Nature and A-B-C Components of Attitude",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nature and A-B-C Components of Attitude' refers to.",
+     "a": "An attitude is a state of mind - a set of views about an attitude object - that carries an evaluative quality (positive, negative or neutral), an emotional charge, and a readiness to act; its three faces are the cognitive (thought), affective (feeling) and behavioural or conative (action tendency) aspects, together called the A-B-C components. Attitudes differ from beliefs, which supply only the cognitive ground, and from values, which add a should or ought and therefore change with great difficulty.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nature and A-B-C Components of Attitude'.",
+     "a": "Attitudes are tendencies, not behaviour itself - they stay hidden from outside view, and the three components need not always point the same way, as the green-environment tree-planting example shows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nature and A-B-C Components of Attitude', in plain ASCII form.",
+     "a": "attitude = affective + behavioural + cognitive (A-B-C) ; value = belief with an ought_aspect",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.2",
+   "title": "Features of Attitudes and the Extremeness Score",
+   "questions": [
+    {
+     "q": "Using the method 'Features of Attitudes and the Extremeness Score', work with: neutral_point = 25, rating = 30. Carry the chain through step by step and give the final value of extremeness_score.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Features of Attitudes and the Extremeness Score' and work with: neutral_point = 24, rating = 240. Carry the chain through step by step and give the final value of extremeness_score.",
+     "a": "216 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Features of Attitudes and the Extremeness Score' refers to.",
+     "a": "Attitudes carry four measurable features: valence (positive or negative direction), extremeness (how far the attitude sits from neutral on the rating scale), simplicity or complexity also called multiplexity (how many member attitudes fill the attitude system), and centrality (how strongly one attitude steers the rest, as a negative view of military spending steers an entire world-peace attitude system).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Features of Attitudes and the Extremeness Score'.",
+     "a": "On the chapter's five-point scale for nuclear research, 3 marks the neutral midpoint, so ratings of 1 and 5 are equally extreme while 2 and 4 are milder.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Features of Attitudes and the Extremeness Score', in plain ASCII form.",
+     "a": "extremeness_score = abs(rating - neutral_point)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.3",
+   "title": "Attitude Formation: Processes and Influencing Factors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Attitude Formation: Processes and Influencing Factors' refers to.",
+     "a": "Attitudes are learned - through association (liking a subject because of the teacher), through reward and punishment (being honoured as Miss Good Health builds a positive yoga attitude), through modelling or observing others, through group and cultural norms such as offerings in a place of worship, and through exposure to information in media and biographies. The contexts that drive this learning are the family and school environment, reference groups that set norms especially in adolescence, drastic personal experiences like the army driver who became a community leader, and media-related influences.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attitude Formation: Processes and Influencing Factors'.",
+     "a": "Genetic factors touch attitudes only indirectly; most attitude learning happens while interacting with people, groups and media.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attitude Formation: Processes and Influencing Factors', in plain ASCII form.",
+     "a": "formation_processes = association + reward_punishment + modelling + group_norms + information_exposure ; formation_contexts = family_school + reference_groups + personal_experiences + media",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.4",
+   "title": "Attitude Change: Balance, Dissonance and the Two-Step Concept",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Attitude Change: Balance, Dissonance and the Two-Step Concept' refers to.",
+     "a": "Three classic accounts explain how attitudes change: Heider's balance concept draws the P-O-X triangle among person, other and topic, calling it balanced when all three links are positive or when two are negative and one positive - any other pattern is imbalance that forces some attitude to change; Festinger's cognitive dissonance holds that conflicting cognitions, like knowing pan masala causes cancer while eating it, must be brought into consonance by changing one of them; and S.M. Mohsin's two-step concept says the target first identifies with the source, then imitates the source's own changed behaviour, as when a favourite sportsperson quits the harmful soft drink.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attitude Change: Balance, Dissonance and the Two-Step Concept'.",
+     "a": "Balance and dissonance are both cognitive consistency drives - the mind changes something because two elements no longer point the same way.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attitude Change: Balance, Dissonance and the Two-Step Concept', in plain ASCII form.",
+     "a": "pox_balance = three_positive or one_positive_plus_two_negative ; dissonance -> one_cognition_changes_toward_consonance ; two_step = identification + source_changes_first",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.5",
+   "title": "Factors that Influence Attitude Change",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors that Influence Attitude Change' refers to.",
+     "a": "Whether and how much attitudes shift depends on four clusters: characteristics of the existing attitude (positive, mild, simple and peripheral attitudes change most easily, and congruent change beats incongruent change), source characteristics (credible experts persuade adults, similar peers persuade children), message characteristics (just-enough information, rational or emotional appeal, moderate fear that does not turn receivers off, face-to-face delivery as with ORS campaigns), and target characteristics (persuasibility, weak prejudices, low self-esteem and intelligence all shape the outcome).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors that Influence Attitude Change'.",
+     "a": "Too much fear in a message backfires, and face-to-face transmission still beats letters, pamphlets and mass media.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Factors that Influence Attitude Change', in plain ASCII form.",
+     "a": "change_factors = existing_attitude + source + message + target ; congruent_change easier than incongruent_change",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.6",
+   "title": "Attitude-Behaviour Relationship",
+   "questions": [
+    {
+     "q": "Using the method 'Attitude-Behaviour Relationship', work with: awareness = 75, no_external_pressure = 240, not_watched = 40, positive_consequence_expected = 360, strong_central_attitude = 40. Carry the chain through step by step and give the final value of consistency_conditions.",
+     "a": "755 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Attitude-Behaviour Relationship' and work with: awareness = 80, no_external_pressure = 30, not_watched = 40, positive_consequence_expected = 100, strong_central_attitude = 3. Carry the chain through step by step and give the final value of consistency_conditions.",
+     "a": "253 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Attitude-Behaviour Relationship' refers to.",
+     "a": "Behaviour does not always mirror attitude: consistency appears when the attitude is strong and central, consciously held, free of group pressure, unwatched by evaluators, and expected to bring positive consequences. LaPiere's study showed the gap - a Chinese couple was served almost everywhere they travelled, yet most hotel managers later wrote that they would refuse Chinese guests - and Festinger and Carlsmith's dollar experiment showed the reverse road, where behaving for a tiny reward pushed students to decide the boring experiment had actually been interesting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attitude-Behaviour Relationship'.",
+     "a": "Attitudes may fail to predict behaviour, and sometimes the behaviour itself rewrites the attitude.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attitude-Behaviour Relationship', in plain ASCII form.",
+     "a": "consistency_conditions = strong_central_attitude + awareness + no_external_pressure + not_watched + positive_consequence_expected",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.7",
+   "title": "Prejudice, Stereotype and Discrimination: Sources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prejudice, Stereotype and Discrimination: Sources' refers to.",
+     "a": "Prejudice is a usually negative attitude toward a group whose cognitive component is the stereotype - a cluster of ideas ascribed to every member of the target group - whose affective component is dislike or hatred, and which may be enacted as discrimination, the behavioural component of treating the target group less positively. Its sources include learning like any attitude, a strong social identity with ingroup bias, scapegoating of a weak minority for the majority's troubles, the kernel of truth idea that keeps stereotypes alive, and the self-fulfilling prophecy in which the target group ends up confirming the negative expectation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prejudice, Stereotype and Discrimination: Sources'.",
+     "a": "Prejudice can exist without discrimination and discrimination without prejudice, but they usually travel together; law can curb the act yet hardly touches the cognition and feeling.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prejudice, Stereotype and Discrimination: Sources', in plain ASCII form.",
+     "a": "prejudice = stereotype (cognitive) + dislike (affective) + discrimination (behavioural) ; sources = learning + ingroup_bias + scapegoating + kernel_of_truth + self_fulfilling_prophecy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.8",
+   "title": "Strategies for Handling Prejudice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Strategies for Handling Prejudice' refers to.",
+     "a": "Handling prejudice starts from knowing its causes and then works through education and information dissemination to correct stereotypes, through increased intergroup contact - which succeeds only when groups meet cooperatively rather than competitively, interact closely, and hold equal power and status - and through highlighting individual identity rather than group membership so that the ingroup-outgroup divide loses its force as a basis of judging others.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Strategies for Handling Prejudice'.",
+     "a": "The four goals are blocking prejudice learning, changing the attitudes, weakening narrow ingroup identity, and discouraging self-fulfilling prophecy among victims.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Strategies for Handling Prejudice', in plain ASCII form.",
+     "a": "strategies = education + intergroup_contact + individual_identity ; contact_works = cooperation + close_interaction + equal_status",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy106.9",
+   "title": "Interpersonal Rating Exercise: Means and Rating Gaps",
+   "questions": [
+    {
+     "q": "Compute the mean of your self-ratings across five qualities rated on the five-point scale. Use the method 'Interpersonal Rating Exercise: Means and Rating Gaps'. Work with: friend_rating_of_you = 240, quality1_rating = 60, quality2_rating = 240, quality3_rating = 24, quality_count = 300. Carry the chain through step by step and give the final value of rating_gap.",
+     "a": "238.92 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the average self-rating from the friendly, tense, sincere, pleasant and open-to-new-ideas columns. Use the method 'Interpersonal Rating Exercise: Means and Rating Gaps'. Work with: friend_rating_of_you = 80, quality1_rating = 80, quality2_rating = 12, quality3_rating = 6, quality_count = 80. Carry the chain through step by step and give the final value of rating_gap.",
+     "a": "78.775 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interpersonal Rating Exercise: Means and Rating Gaps' refers to.",
+     "a": "In the chapter's interpersonal judgment exercise, two friends rate each other and themselves on qualities such as friendly, tense, sincere, pleasant and open to new ideas on a five-point scale; comparing your self-rating with your friend's rating of you gives a rating gap whose size and sign show how well you know each other, and averaging ratings across qualities summarises each person's overall standing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interpersonal Rating Exercise: Means and Rating Gaps'.",
+     "a": "A zero gap on a quality means perfect mutual knowledge, and the closer the two columns sit, the better the two friends know each other.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interpersonal Rating Exercise: Means and Rating Gaps', in plain ASCII form.",
+     "a": "mean_self_rating = quality_rating_sum / quality_count ; rating_gap = friend_rating_of_you - self_rating",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 6,
+  "chapter_title": "Application of Derivatives",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter agent author-first draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "lemh.106.6.2.1",
+      "title": "Rate of Change of the Circle Area",
+      "section": "6.2",
+      "definition": "Differentiating the circle area expression with respect to the radius gives how fast the area grows per unit of radius, and substituting a radius value fixes that rate at that instant.",
+      "formula": "rate_circle_area = 2 * pi * r",
+      "key_idea": "The derivative of pi r squared is two pi r.",
+      "textbook_ref": "lemh106.txt example 1 and exercise 6.1 Q1, Q17 (lines ~69-93, 333-340, 405-410)",
+      "question_patterns": [
+        "find the rate of change of the area of a circle with respect to its radius at the given radius",
+        "how fast does the area of a circle grow per unit radius at the given radius",
+        "evaluate dA by dr for the circle at the supplied radius",
+        "calculate the area rate of the circle when the radius is given",
+        "what is the derivative of the circle area formula at the given radius",
+        "determine how much extra area a circle gains per extra unit of radius"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Differentiate pi r squared with respect to r",
+          "explain": "The power rule gives two times pi times r.",
+          "compute": "rate_circle_area = 2 * pi * r"
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.2.2",
+      "title": "Related Rates by the Chain Rule",
+      "section": "6.2",
+      "definition": "When two varying quantities both depend on time, their rates connect through the chain rule: the rate of one equals its rate with respect to the other multiplied by the other's rate with respect to time, which solves balloon, ladder, ripple and shadow problems.",
+      "formula": "dy/dt = (dy/dx) times (dx/dt)",
+      "key_idea": "Link the unknown rate to the given rate through a shared formula.",
+      "textbook_ref": "lemh106.txt examples 2-4, 31-32 (lines ~94-281, 2697-2848)",
+      "question_patterns": [
+        "how fast is the surface area of the cube increasing when the edge grows at the given rate",
+        "at what rate does the balloon radius increase when gas is pumped at the given rate",
+        "how fast is the enclosed area growing when the ripple radius grows at the given speed",
+        "find the rate of change of the shadow length for the walking man problem",
+        "relate the two time rates through the chain rule for the given geometry",
+        "determine how fast the water level rises in the conical tank"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write the geometric or physical relation",
+          "explain": "Express the target quantity through the quantity with the known rate."
+        },
+        {
+          "step": 2,
+          "action": "Differentiate the relation with respect to time",
+          "explain": "Apply the chain rule so every varying part carries a time rate."
+        },
+        {
+          "step": 3,
+          "action": "Substitute the known rate and instant values",
+          "explain": "Solve the resulting equation for the requested rate."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.2.3",
+      "title": "Marginal Revenue of a Quadratic Revenue Function",
+      "section": "6.2",
+      "definition": "Marginal revenue is the derivative of total revenue with respect to units sold; for a revenue of the form a x squared plus b x plus c it works out to twice the quadratic coefficient times x plus the linear coefficient.",
+      "formula": "marginal_rev = 2 * rev_a * x + rev_b",
+      "key_idea": "Differentiate the revenue polynomial and substitute the sales level.",
+      "textbook_ref": "lemh106.txt example 6 and exercise 6.1 Q16, Q18 (lines ~315-332, 399-403, 415-422)",
+      "question_patterns": [
+        "find the marginal revenue when the given number of units are sold",
+        "what is the marginal revenue for the quadratic revenue function at the given sales level",
+        "calculate the rate of change of total revenue at the given output",
+        "determine the extra revenue from one more unit at the given sales level",
+        "differentiate the revenue function and evaluate at the given x"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Differentiate the quadratic revenue",
+          "explain": "a x squared gives 2 a x and b x gives b.",
+          "compute": "marginal_rev = 2 * rev_a * x + rev_b"
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.2.4",
+      "title": "Marginal Cost of a Cubic Cost Function",
+      "section": "6.2",
+      "definition": "Marginal cost is the instantaneous rate of change of total cost with output; for a cubic cost polynomial a x cubed plus b x squared plus c x plus d it equals three a x squared plus two b x plus c evaluated at the production level.",
+      "formula": "marginal_cost = 3 * cost_a * x ** 2 + 2 * cost_b * x + cost_c",
+      "key_idea": "Differentiate the cost polynomial term by term, then plug in the output.",
+      "textbook_ref": "lemh106.txt example 5 and exercise 6.1 Q15 (lines ~285-314, 394-398)",
+      "question_patterns": [
+        "find the marginal cost when the given number of units are produced",
+        "what is the marginal cost for the cubic cost function at the given output level",
+        "calculate the rate of change of total cost at the given production",
+        "determine the approximate cost of one extra item at the given output",
+        "differentiate the cost function and evaluate at the supplied production level"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Differentiate the cubic cost polynomial",
+          "explain": "Each term's power drops by one with its coefficient multiplied by the old power.",
+          "compute": "marginal_cost = 3 * cost_a * x ** 2 + 2 * cost_b * x + cost_c"
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.3.1",
+      "title": "Increasing and Decreasing Intervals",
+      "section": "6.3",
+      "definition": "A function climbs where its derivative stays positive and falls where it stays negative; to sort the real line, solve derivative equals zero, then test the sign of the derivative inside each gap between consecutive roots.",
+      "formula": "f increasing on an interval when f_prime(x) > 0 there",
+      "key_idea": "Roots of the derivative split the line; signs of the derivative decide the trend.",
+      "textbook_ref": "lemh106.txt section 6.3 theorem 1 with examples 10-11 (lines ~504-645)",
+      "question_patterns": [
+        "find the intervals in which the function is increasing and decreasing",
+        "determine where the cubic polynomial rises and where it falls",
+        "show that the given function is increasing on the real line",
+        "prove that the trigonometric function decreases on the stated interval",
+        "on which intervals is the quadratic function strictly increasing",
+        "classify each gap between critical points as increasing or decreasing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Differentiate the function",
+          "explain": "Compute f_prime(x)."
+        },
+        {
+          "step": 2,
+          "action": "Solve f_prime equals zero",
+          "explain": "The roots cut the domain into disjoint intervals."
+        },
+        {
+          "step": 3,
+          "action": "Test the sign in each interval",
+          "explain": "Positive derivative marks increasing stretches, negative marks decreasing ones."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.4.1",
+      "title": "Critical Points of a Function",
+      "section": "6.4",
+      "definition": "A critical point is an interior domain point where the derivative vanishes or fails to exist; every local peak or valley must sit at one, though a vanishing derivative alone does not promise a peak or valley.",
+      "formula": "c is critical when f_prime(c) = 0 or f_prime(c) does not exist",
+      "key_idea": "Turns can only happen where the derivative is zero or undefined.",
+      "textbook_ref": "lemh106.txt note after theorem 2 with the x cubed remark (lines ~1397-1412)",
+      "question_patterns": [
+        "find the critical points of the given function",
+        "locate the points where the derivative vanishes",
+        "what is a critical point of a function",
+        "identify the interior points where the derivative is zero or undefined",
+        "why can a turning point only occur at a critical point",
+        "list the candidate points for local extrema of the polynomial"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Differentiate the function",
+          "explain": "Compute f_prime(x)."
+        },
+        {
+          "step": 2,
+          "action": "Solve f_prime equals zero",
+          "explain": "These stationary points form one class of critical points."
+        },
+        {
+          "step": 3,
+          "action": "Check for non-differentiable points",
+          "explain": "Corners and cusps are critical too, even without a vanishing derivative."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.4.2",
+      "title": "First Derivative Test for Local Extrema",
+      "section": "6.4",
+      "definition": "At a critical point, watch the sign of the derivative on both sides: positive flipping to negative marks a local maximum, negative flipping to positive marks a local minimum, and no flip marks a point of inflexion.",
+      "formula": "sign change of f_prime from plus to minus at c gives a local maximum",
+      "key_idea": "The side-wise sign flip of the derivative classifies the critical point.",
+      "textbook_ref": "lemh106.txt theorem 3 with examples 17-19 (lines ~1415-1528)",
+      "question_patterns": [
+        "use the first derivative test to classify the critical points",
+        "find all points of local maxima and local minima of the function",
+        "determine whether the stationary point is a peak or a valley",
+        "explain how the sign change of the derivative decides the extremum",
+        "show that the given critical point is neither a maximum nor a minimum",
+        "identify the point of inflexion among the stationary points"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find the critical points",
+          "explain": "Solve f_prime equals zero and note non-differentiable points."
+        },
+        {
+          "step": 2,
+          "action": "Probe the sign just left and just right",
+          "explain": "Substitute nearby test values into f_prime."
+        },
+        {
+          "step": 3,
+          "action": "Read the flip direction",
+          "explain": "Plus to minus is a local maximum; minus to plus a local minimum; no flip an inflexion."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.4.3",
+      "title": "Second Derivative Test for Local Extrema",
+      "section": "6.4",
+      "definition": "At a stationary point, a negative second derivative signals a local maximum and a positive one a local minimum; when the second derivative is also zero the test is silent and the first derivative test must decide.",
+      "formula": "c is a local minimum when f_prime(c) = 0 and f_double_prime(c) > 0",
+      "key_idea": "Concavity at the stationary point settles maximum versus minimum.",
+      "textbook_ref": "lemh106.txt theorem 4 with examples 20-21 (lines ~1495-1610)",
+      "question_patterns": [
+        "apply the second derivative test to classify the stationary points",
+        "find the local maximum and minimum values using the second derivative",
+        "determine the concavity at each critical point to decide the extremum",
+        "what does a negative second derivative at a stationary point indicate",
+        "when does the second derivative test fail and what is the fallback",
+        "evaluate the second derivative at the critical point to classify it"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Solve f_prime equals zero",
+          "explain": "List the stationary points."
+        },
+        {
+          "step": 2,
+          "action": "Evaluate the second derivative there",
+          "explain": "Compute f_double_prime at each stationary point."
+        },
+        {
+          "step": 3,
+          "action": "Decide by the sign",
+          "explain": "Negative gives a local maximum, positive a local minimum, zero hands over to the first derivative test."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.4.4",
+      "title": "Absolute Extrema on a Closed Interval",
+      "section": "6.4.1",
+      "definition": "On a closed interval a continuous function always attains a greatest and a least value; compare the function values at the critical points inside the interval and at the two endpoints, and pick the largest and smallest of them.",
+      "formula": "absolute extrema come from comparing f at critical points and endpoints",
+      "key_idea": "Endpoints join the candidate list for global highest and lowest values.",
+      "textbook_ref": "lemh106.txt section 6.4.1 working rule with examples 27-28 (lines ~2114-2312)",
+      "question_patterns": [
+        "find the absolute maximum and minimum values of the function on the given interval",
+        "determine the greatest and least values of the polynomial on the closed interval",
+        "compare the values at critical points and endpoints to get the global extremum",
+        "where does the function attain its absolute maximum on the interval",
+        "evaluate the function at the endpoints and stationary points to find the extremes",
+        "what is the absolute minimum of the function on the stated closed interval"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the interior critical points",
+          "explain": "Solve f_prime equals zero within the interval."
+        },
+        {
+          "step": 2,
+          "action": "Add the interval endpoints",
+          "explain": "Global extrema may sit at the boundary."
+        },
+        {
+          "step": 3,
+          "action": "Evaluate the function at every candidate",
+          "explain": "Compute f at each critical point and endpoint."
+        },
+        {
+          "step": 4,
+          "action": "Pick the largest and smallest values",
+          "explain": "The largest is the absolute maximum, the smallest the absolute minimum."
+        }
+      ]
+    },
+    {
+      "id": "lemh.106.6.4.5",
+      "title": "Max-Min Word Problems",
+      "section": "6.4",
+      "definition": "Turn an optimisation story into a single-variable function, differentiate, set the derivative to zero, and use a derivative test to certify the answer; typical targets are largest volume, least surface, maximum profit or a minimum sum of squares.",
+      "formula": "optimise by solving f_prime(x) = 0 and testing the sign of f_double_prime",
+      "key_idea": "Model, differentiate, solve, then certify with a derivative test.",
+      "textbook_ref": "lemh106.txt examples 22, 36-37 and exercise 6.3 Q13-26 (lines ~1611-1670, 3074-3308, 2518-2573)",
+      "question_patterns": [
+        "find two positive numbers with the given sum whose product is maximum",
+        "minimise the sum of squares of two numbers with a fixed sum",
+        "find the dimensions that maximise the volume of the open box cut from the sheet",
+        "how many items should be sold to earn maximum profit",
+        "minimise the surface area for the given volume of the can",
+        "set up the objective function and locate its extremum"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the variables and the constraint",
+          "explain": "Use the given condition to reduce to one variable."
+        },
+        {
+          "step": 2,
+          "action": "Form the objective function",
+          "explain": "Write the quantity to maximise or minimise in that variable."
+        },
+        {
+          "step": 3,
+          "action": "Differentiate and solve for zero",
+          "explain": "Candidate points come from f_prime equals zero."
+        },
+        {
+          "step": 4,
+          "action": "Certify and answer",
+          "explain": "Use a derivative test, then compute the requested quantity."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "lemh106.txt example 1 (lines ~69-93)",
+      "concept": "lemh.106.6.2.1",
+      "question_type": "circle area rate",
+      "question_pattern": "Find the rate of change of the area of a circle with respect to its radius when r = {r} cm.",
+      "extracted_variables": {"r": 5},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate the area", "explain": "dA/dr = 2 pi r.", "compute": "rate_circle_area = 2 * pi * r"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "lemh106.txt exercise 6.1 Q1(a) style (lines ~334-340)",
+      "concept": "lemh.106.6.2.1",
+      "question_type": "circle area rate",
+      "question_pattern": "Evaluate the area rate dA by dr of a circle when the radius is {r} cm.",
+      "extracted_variables": {"r": 6},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate the area", "explain": "2 pi times 6 gives 12 pi.", "compute": "rate_circle_area = 2 * pi * r"}
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "lemh106.txt example 6 (lines ~315-332)",
+      "concept": "lemh.106.6.2.3",
+      "question_type": "marginal revenue",
+      "question_pattern": "The revenue is R(x) = {rev_a} x squared + {rev_b} x + 5. Find the marginal revenue when x = {x}.",
+      "extracted_variables": {"rev_a": 3, "rev_b": 36, "x": 5},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate and substitute", "explain": "2 times 3 times 5 plus 36 gives 66 rupees.", "compute": "marginal_rev = 2 * rev_a * x + rev_b"}
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "lemh106.txt exercise 6.1 Q18 (lines ~415-422)",
+      "concept": "lemh.106.6.2.3",
+      "question_type": "marginal revenue",
+      "question_pattern": "For the revenue function {rev_a} x squared + {rev_b} x + 5, what is the marginal revenue at x = {x}?",
+      "extracted_variables": {"rev_a": 3, "rev_b": 36, "x": 15},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate and substitute", "explain": "2 times 3 times 15 plus 36 gives 126 rupees.", "compute": "marginal_rev = 2 * rev_a * x + rev_b"}
+      ]
+    },
+    {
+      "id": "ex5",
+      "source_ref": "lemh106.txt example 5 (lines ~285-314)",
+      "concept": "lemh.106.6.2.4",
+      "question_type": "marginal cost",
+      "question_pattern": "The cost is C(x) = {cost_a} x cubed + {cost_b} x squared + {cost_c} x + 5000. Find the marginal cost when {x} units are produced.",
+      "extracted_variables": {"cost_a": 0.005, "cost_b": -0.02, "cost_c": 30, "x": 3},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate and substitute", "explain": "0.135 - 0.12 + 30 gives about 30.015 rupees.", "compute": "marginal_cost = 3 * cost_a * x ** 2 + 2 * cost_b * x + cost_c"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "source_ref": "lemh106.txt exercise 6.1 Q15 (lines ~394-398)",
+      "concept": "lemh.106.6.2.4",
+      "question_type": "marginal cost",
+      "question_pattern": "For the cost function {cost_a} x cubed + {cost_b} x squared + {cost_c} x + 4000, find the marginal cost at {x} units.",
+      "extracted_variables": {"cost_a": 0.007, "cost_b": -0.003, "cost_c": 15, "x": 17},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate and substitute", "explain": "6.069 - 0.102 + 15 gives about 20.967 rupees.", "compute": "marginal_cost = 3 * cost_a * x ** 2 + 2 * cost_b * x + cost_c"}
+      ]
+    },
+    {
+      "id": "ex7",
+      "source_ref": "lemh106.txt example 10 (lines ~593-612)",
+      "concept": "lemh.106.6.3.1",
+      "question_type": "increasing decreasing intervals",
+      "question_pattern": "Find the intervals in which f(x) = x squared - 4x + 6 is increasing and decreasing.",
+      "extracted_variables": {"x": 0},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate", "explain": "f_prime(x) = 2x - 4."},
+        {"step": 2, "action": "Solve f_prime equals zero", "explain": "x = 2 splits the line."},
+        {"step": 3, "action": "Test signs", "explain": "Negative before 2 (decreasing), positive after (increasing)."}
+      ]
+    },
+    {
+      "id": "ex8",
+      "source_ref": "lemh106.txt example 20 (lines ~1529-1571)",
+      "concept": "lemh.106.6.4.3",
+      "question_type": "second derivative test",
+      "question_pattern": "Find the local maxima and minima of f(x) = 3x to the fourth + 4x cubed - 12x squared + 12 using the second derivative test.",
+      "extracted_variables": {"x": 0},
+      "solution_template": [
+        {"step": 1, "action": "Solve f_prime equals zero", "explain": "f_prime = 12x(x-1)(x+2) gives x = 0, 1, -2."},
+        {"step": 2, "action": "Evaluate the second derivative", "explain": "f_double_prime(0) = -24 < 0, f_double_prime(1) = 36 > 0, f_double_prime(-2) = 72 > 0."},
+        {"step": 3, "action": "Classify", "explain": "x = 0 local maximum value 12; x = 1 and x = -2 local minima with values 7 and -20."}
+      ]
+    },
+    {
+      "id": "ex9",
+      "source_ref": "lemh106.txt example 27 (lines ~2168-2182)",
+      "concept": "lemh.106.6.4.4",
+      "question_type": "absolute extrema",
+      "question_pattern": "Find the absolute maximum and minimum of f(x) = 2x cubed - 15x squared + 36x + 1 on [{lo}, {hi}].",
+      "extracted_variables": {"lo": 1, "hi": 5},
+      "solution_template": [
+        {"step": 1, "action": "Find critical points", "explain": "f_prime = 6(x-3)(x-2) gives x = 2, 3."},
+        {"step": 2, "action": "Evaluate at candidates", "explain": "f(1) = 24, f(2) = 29, f(3) = 28, f(5) = 56."},
+        {"step": 3, "action": "Pick extremes", "explain": "Absolute maximum 56 at x = 5, absolute minimum 24 at x = 1."}
+      ]
+    },
+    {
+      "id": "ex10",
+      "source_ref": "lemh106.txt example 3 (lines ~186-222)",
+      "concept": "lemh.106.6.2.2",
+      "question_type": "related rates",
+      "question_pattern": "Ripples move outward at {speed} cm/s. How fast is the enclosed area growing when the radius is {radius} cm?",
+      "extracted_variables": {"speed": 4, "radius": 10},
+      "solution_template": [
+        {"step": 1, "action": "Differentiate the area with respect to time", "explain": "dA/dt = 2 pi r dr/dt."},
+        {"step": 2, "action": "Substitute the values", "explain": "2 pi times 10 times 4 gives 80 pi square cm per second."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex6.1",
+      "source_ref": "lemh106.txt exercise 6.1 (lines ~333-422)",
+      "questions": [
+        "Find the rate of change of circle area with respect to radius at given radii.",
+        "Related-rates items on cubes, balloons, ripples, ladders, rectangles and sand cones.",
+        "Find where the y-coordinate changes a given multiple of the x-coordinate along a curve.",
+        "Find marginal cost and marginal revenue for supplied polynomials.",
+        "Multiple choice on the circle area rate and marginal revenue."
+      ]
+    },
+    {
+      "id": "ex6.2",
+      "source_ref": "lemh106.txt exercise 6.2 (lines ~1008-1198)",
+      "questions": [
+        "Show that given linear and exponential functions increase on R.",
+        "Show sine increases and decreases on stated quadrants.",
+        "Find increasing and decreasing intervals of quadratics and cubics.",
+        "Prove monotonicity of logarithmic expressions on their domains.",
+        "Multiple choice on decreasing functions and increasing intervals."
+      ]
+    },
+    {
+      "id": "ex6.3",
+      "source_ref": "lemh106.txt exercise 6.3 (lines ~2377-2631)",
+      "questions": [
+        "Find maximum and minimum values of quadratics, cubics, modulus and trigonometric functions.",
+        "Find local maxima and minima with values for supplied functions.",
+        "Prove selected functions have no extrema.",
+        "Find absolute extrema of functions on closed intervals.",
+        "Optimisation word problems: products with fixed sums, box volumes, inscribed figures, wire cutting, profit.",
+        "Multiple choice on nearest points and extreme values."
+      ]
+    },
+    {
+      "id": "ex6.misc",
+      "source_ref": "lemh106.txt miscellaneous exercise on chapter 6 (lines ~3309-3449)",
+      "questions": [
+        "Show log x over x attains its maximum at e.",
+        "Related rates for an isosceles triangle with shrinking equal sides.",
+        "Find increasing and decreasing intervals of supplied trigonometric and rational functions.",
+        "Optimisation: triangle area in an ellipse, least cost tank, window of maximum light, least hypotenuse.",
+        "Find local maxima, minima and inflexion points of a factored quartic.",
+        "Absolute extrema of a trigonometric expression on [0, pi].",
+        "Multiple choice on the filling cylindrical tank."
+      ]
+    }
+  ]
+}

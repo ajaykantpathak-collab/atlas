@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_3",
+   "title": "c9_physics_ch2_3",
+   "questions": [
+    {
+     "q": "State the formula for average velocity and its SI unit. How does it differ from the formula for average speed?",
+     "a": "Average velocity = displacement / time taken (v = Δx/Δt), SI unit: m/s. Average speed = total distance / time taken. A wrong answer (e.g., giving distance/time for velocity) reveals the student is confusing the scalar quantity speed with the vector quantity velocity and has not internalised that displacement, not distance, is the numerator for velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 100 m east in 10 s, then 50 m west in 5 s. Calculate its average speed and average velocity. Explain why the two values are different.",
+     "a": "Total distance = 150 m, total time = 15 s → average speed = 10 m/s. Net displacement = 50 m east, total time = 15 s → average velocity = 3.33 m/s east. A wrong answer (e.g., same magnitude for both) reveals the student treats displacement as total distance and does not account for direction reversal, missing the vector nature of velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A train moves along a straight track. It covers 2.4 km in 2 minutes, then reverses direction and covers 1.2 km in 1 minute. Find the average velocity of the train for the whole journey in m/s.",
+     "a": "Step 1: Convert all units to SI. 2.4 km = 2400 m, 2 min = 120 s. 1.2 km = 1200 m, 1 min = 60 s.\nStep 2: Assign direction. Let initial direction be positive. First displacement = +2400 m. Second displacement = -1200 m.\nStep 3: Net displacement = 2400 + (-1200) = +1200 m. Total time = 120 + 60 = 180 s.\nStep 4: Average velocity = net displacement / total time = 1200 m / 180 s = 6.67 m/s (positive, so in initial direction).\nStep 5: Check reasonableness: train ends up 1.2 km ahead in 3 minutes → ~6.7 m/s is plausible.\nA wrong answer (e.g., 20 m/s) reveals the student used total distance (3600 m) instead of net displacement, or made unit conversion errors.",
+     "self_check": true
+    },
+    {
+     "q": "Two runners, A and B, start at the same point on a 400 m circular track. A runs at 5 m/s, B runs at 4 m/s in the same direction. After 200 seconds, what are their average velocities? Explain the physical meaning of your result.",
+     "a": "Both runners have completed integer numbers of laps? A: 5 m/s × 200 s = 1000 m = 2.5 laps → displacement = 200 m (half track). B: 4 m/s × 200 s = 800 m = 2 laps → displacement = 0 m. Average velocity of A = 200 m / 200 s = 1 m/s along the track direction. Average velocity of B = 0 m/s. A wrong answer (e.g., both non-zero) reveals the student does not realize that displacement on a closed loop after integer laps is zero, confusing distance covered with net displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A ball is thrown up and caught at the same point after 4 s. The ball went up 20 m and down 20 m. Average velocity = total distance / time = 40 m / 4 s = 10 m/s.\" Evaluate this solution and correct it.",
+     "a": "The solution is incorrect. The student used total distance (40 m) instead of net displacement. Since the ball returns to the starting point, net displacement = 0. Average velocity = 0 m / 4 s = 0 m/s. A wrong evaluation (e.g., saying the solution is correct) reveals the student does not understand that velocity depends on initial and final positions only, not the path taken.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a toy car, a measuring tape, and a stopwatch to demonstrate the difference between average speed and average velocity. Describe the procedure, measurements, and how you would calculate each quantity.",
+     "a": "Procedure: Mark a start line. Push the car forward 2 m, then backward 1 m (so it stops 1 m from start). Measure total path length (3 m) and net displacement (1 m forward). Time the whole motion. Average speed = 3 m / time. Average velocity = 1 m / time in forward direction. A poor answer (e.g., only moving forward) fails to create a scenario where distance ≠ displacement, so the difference cannot be demonstrated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

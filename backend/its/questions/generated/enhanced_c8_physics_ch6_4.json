@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_4",
+   "title": "c8_physics_ch6_4",
+   "questions": [
+    {
+     "q": "Define the principal focus of a convex mirror and state its position relative to the mirror. What is the SI unit of focal length?",
+     "a": "The principal focus of a convex mirror is the point on the principal axis from which incident rays parallel to the axis appear to diverge after reflection; it lies behind the mirror (virtual focus). The SI unit of focal length is metre (m). A wrong answer that places the focus in front of the mirror reveals confusion with concave mirrors; omitting the unit shows lack of attention to measurement standards.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"The focal length of a convex mirror is negative because the focus is behind the mirror.\" Using the Cartesian sign convention, explain why this statement is incorrect.",
+     "a": "In the Cartesian sign convention, distances measured opposite to the direction of incident light are positive. For a convex mirror, the incident light travels from the object towards the mirror; the focus is behind the mirror, i.e., opposite to the incident light direction, so the focal length is positive. A wrong answer indicates the student has memorised \"convex = negative\" from a different sign convention (like the old real-is-positive convention) without understanding the Cartesian rule.",
+     "self_check": true
+    },
+    {
+     "q": "The radius of curvature of a convex mirror used as a rear-view mirror in a car is 2.0 m. Calculate its focal length. Give the answer with proper sign and unit.",
+     "a": "Given: R = +2.0 m (centre of curvature behind mirror → positive in Cartesian convention). Formula: f = R/2. Substitution: f = (+2.0 m)/2 = +1.0 m. The focal length is +1.0 m. A wrong answer with a negative sign shows sign convention error; missing unit or using cm without conversion shows unit negligence.",
+     "self_check": true
+    },
+    {
+     "q": "Two convex mirrors A and B have radii of curvature 30 cm and 50 cm respectively. Which mirror has a longer focal length? How does the focal length affect the field of view?",
+     "a": "Mirror B (R = 50 cm) has focal length f = 25 cm; Mirror A has f = 15 cm. Mirror B has longer focal length. A longer focal length (less curved mirror) gives a narrower field of view but larger image size; a shorter focal length (more curved) gives a wider field of view but smaller images. A wrong choice reveals inability to connect focal length with curvature and practical consequence.",
+     "self_check": true
+    },
+    {
+     "q": "A diagram shows a convex mirror with pole P, centre of curvature C, and a point F marked on the principal axis in front of the mirror (between P and C). A student labels F as the principal focus. Evaluate this diagram and correct the error.",
+     "a": "The diagram is incorrect. For a convex mirror, the principal focus must be behind the mirror (on the opposite side of the reflecting surface), not in front. The point F should be located behind the mirror such that PF = PC/2. The student has confused convex with concave mirror focus position. This error shows lack of visualisation of virtual focus.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a convex mirror (e.g., a shiny metal bowl), a laser pointer, and a screen to demonstrate that the principal focus of a convex mirror is virtual. Describe the steps and what you would observe.",
+     "a": "Steps: (1) Fix the convex mirror on a stand. (2) Direct a laser beam parallel to the principal axis onto the mirror. (3) Observe the reflected beam diverges. (4) Place a screen in front of the mirror — no sharp spot forms. (5) Extend the reflected ray backward using a ruler or string behind the mirror; the extensions meet at a point F behind the mirror. Observation: The focus cannot be captured on a screen in front; it is virtual. A poor answer that tries to catch the focus on a screen in front shows misunderstanding of virtual vs real focus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

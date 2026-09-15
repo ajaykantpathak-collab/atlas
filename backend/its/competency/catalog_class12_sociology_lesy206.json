@@ -1,0 +1,620 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 6,
+ "chapter_title": "Globalisation and Social Change",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy206.1",
+   "title": "Globalisation Through the Sociological Imagination",
+   "section": "6.2 Understanding Globalisation (introduction)",
+   "definition": "Sociology reads big policies through small lives: a chinese pear on a neighbourhood fruit stall, dozens of television channels, or a bihari silk spinner thrown out of work by cheaper korean yarn all trace back to distant decisions such as the wto agreement and the withdrawal, from april 2001, of quantitative restrictions on imports. Globalisation touches everyone, but it hands new chances to some and takes livelihoods from others.",
+   "formula": "global_change = local_lives + distant_policies + uneven_impact",
+   "key_idea": "The same policy shift can widen choice for an affluent urban shopper while destroying a producer's earnings - gujarati gum collectors lost out to sudanese gum and rag pickers to imported waste paper.",
+   "textbook_ref": "lesy206.txt, introduction (sociological imagination, qr withdrawal 1 april 2001, silk spinners of bihar, gum collectors, rag pickers)",
+   "question_patterns": [
+    "how does the sociological imagination connect a peasant in a remote village to global changes",
+    "which policy change of april 2001 put chinese pears and australian apples in indian fruit stalls",
+    "why did the women silk spinners and twisters of bihar lose their jobs - whose yarn displaced theirs",
+    "give the chapter's examples of livelihood loss among gum collectors and rag pickers caused by imports",
+    "how can one policy change benefit an urban consumer while creating a livelihood crisis for a farmer or for gujarat julifera gum collectors",
+    "why must sociologists now study villages, families and castes with global interconnection in view"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the micro-macro link",
+     "explain": "personal lives and public policies interlock - import liberalisation changed what families eat and watch, showing the connection between the individual and world markets"
+    },
+    {
+     "step": 2,
+     "action": "check the policy anchors",
+     "explain": "quantitative restrictions on imports were withdrawn from 1 april 2001, and the government's wto agreement backs these openings"
+    },
+    {
+     "step": 3,
+     "action": "check the uneven impact cases",
+     "explain": "bihar's silk spinners lost to chinese and korean yarn, women fish sorters to large foreign vessels, gujarat's gum collectors to sudanese imports, rag pickers to imported waste paper"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "From which month did India withdraw quantitative restrictions on imports: April 2001 or April 1991?",
+     "a": "April 2001"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.2",
+   "title": "Old Global Interconnections: Silk Route to Colonialism",
+   "section": "6.1 Are Global Interconnections New to World and to India",
+   "definition": "Worldwide links are ancient, not a modern novelty. The silk route long ago joined india to the civilisations of china, persia, egypt and rome; panini, the greatest sanskrit grammarian, was of afghan origin, and the chinese scholar yi jing learnt sanskrit in java. Colonial capitalism fed on global raw materials, markets and coerced migration - indentured labourers shipped from india and enslaved africans carried to distant shores - while the kupamanduka parable mocked the well-frog's isolationism.",
+   "formula": "old_links = silk_route + migration + colonial_capitalism + kupamanduka_warning",
+   "key_idea": "Amartya sen's retold parable of the well-frog warns that suspicion of the outside world would have starved the world's scientific, cultural and economic history.",
+   "textbook_ref": "lesy206.txt, section 6.1 (box 6.1 sen on panini, yi jing, kupamanduka; colonialism; indentured labour)",
+   "question_patterns": [
+    "which ancient trade route joined india to china, persia, egypt and rome",
+    "what does the kupamanduka parable warn against, and which economist retells it in the chapter",
+    "in what way was colonialism global from its very beginning, from raw materials to indentured migration",
+    "how do indentured labourers and the slave trade show that mass migration long precedes modern globalisation",
+    "why does the chapter insist a global outlook is not unique to modern india",
+    "what do the cases of panini and yi jing reveal about ancient intellectual exchange across asia"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the early connections",
+     "explain": "silk route contacts with china, persia, egypt and rome; panini's afghan origin around the fourth century bce; yi jing learning sanskrit in java on his way from china to india"
+    },
+    {
+     "step": 2,
+     "action": "check the colonial dimension",
+     "explain": "modern capitalism needed global sources of capital, raw material, energy and markets; european settlement in the americas and australia, indian indentured labour shipped to asia, africa and the americas, and the african slave trade were the largest movements of people"
+    },
+    {
+     "step": 3,
+     "action": "check independent india's stance",
+     "explain": "independent india kept a global outlook inherited from the nationalist movement - solidarity with liberation struggles, overseas education and work, and trade in goods and technology"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which ancient route joined India to China, Persia, Egypt and Rome: the Silk Route or the Grand Trunk Road?",
+     "a": "the Silk Route"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.3",
+   "title": "Liberalisation: The 1991 Policy and Structural Adjustment",
+   "section": "6.2 The Different Dimensions of Globalisation - The Economic",
+   "definition": "Liberalisation names the bundle of decisions by which the indian state, from july 1991 onwards, opened the economy to the world market, unwinding the protective rules built after independence on the belief that a former colony would lose out in free competition. It came with loans from the imf whose conditions impose structural adjustment - cuts in state spending on health, education and social security - and a louder voice for the wto.",
+   "formula": "liberalisation_1991 = open_world_market + imf_loans + structural_adjustment",
+   "key_idea": "Reforms ran across every major sector - farming, industry, trade, foreign investment, technology, the public sector and finance - resting on the wager that deeper world-market integration would reward the indian economy.",
+   "textbook_ref": "lesy206.txt, section 6.2 economic policy of liberalisation (july 1991 reforms, imf conditions, wto)",
+   "question_patterns": [
+    "what does liberalisation refer to in the indian context and what structural adjustments did imf loans bring",
+    "how do imf loan conditions bind governments to structural adjustments in social sector spending",
+    "which sectors from agriculture and industry to finance and technology did the reforms of july 1991 touch",
+    "what assumption about former colonies lay behind the old protectionist policy",
+    "how does the wto enter the story of india's reforms alongside imf loan adjustments",
+    "what protective rules did india give up when it moved from state control toward weightless, open markets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the policy meaning",
+     "explain": "liberalisation is the steady removal of rules that regulated indian trade and finance - the break with post-independence protection of indigenous business"
+    },
+    {
+     "step": 2,
+     "action": "check the loan conditions",
+     "explain": "imf loans carry commitments to structural adjustment, which usually means cutting social sector spending on health, education and social security"
+    },
+    {
+     "step": 3,
+     "action": "check the institutional setting",
+     "explain": "institutions such as the wto gained greater say over the rules within which the reformed economy operates"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "From which month did liberalisation open the Indian economy: July 1991 or January 1950?",
+     "a": "July 1991"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.4",
+   "title": "TNCs and the New International Division of Labour",
+   "section": "6.2 Globalisation and Labour",
+   "definition": "Transnational corporations produce goods or market services in more than one country, chasing worldwide profit from a national base - the chapter names coca cola, general motors, colgate-palmolive, kodak and mitsubishi. Nike shows the logic: shoe output migrated from japan to south korea as costs rose, then to thailand and indonesia, and since the 1990s india - a new international division of labour in which routine production drifts to third world locations and workers stay insecure.",
+   "formula": "nike_shift = japan + south_korea + thailand + indonesia + india",
+   "key_idea": "Flexibility favours producers: instead of fordist mass output at one centralised site, post-fordism spreads flexible production across dispersed locations and moves on whenever wages rise.",
+   "textbook_ref": "lesy206.txt, section 6.2 transnational corporations; globalisation and labour (nike, fordism to post-fordism)",
+   "question_patterns": [
+    "define a transnational corporation and name the global companies the chapter lists",
+    "trace in order the countries where nike got its shoes made as labour costs rose",
+    "how does post-fordist flexible production differ from fordist mass production at a centralised location",
+    "why does the ease of shifting production centres make the labouring population vulnerable and insecure",
+    "what does the chapter say about indian corporations turning transnational",
+    "who founded nike and how did the firm begin as an importer of shoes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the tnc definition",
+     "explain": "a tnc produces goods or markets services in more than one country, ranging from small firms with one or two foreign factories to gigantic operations; it aims at global markets and profits even with a national base"
+    },
+    {
+     "step": 2,
+     "action": "check the nike chain",
+     "explain": "founder phil knight imported japanese shoes; production moved from japan to south korea in the mid-1970s, widened to thailand and indonesia in the 1980s, and reached india in the 1990s"
+    },
+    {
+     "step": 3,
+     "action": "check the fordist contrast",
+     "explain": "fordism means mass production at a centralised location; post-fordism means flexible production at dispersed locations, which keeps labour cheap, movable and insecure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Corporations producing in more than one country are called what: transnational or national?",
+     "a": "transnational"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.5",
+   "title": "Global Production Shares: The Pontiac Le Mans Arithmetic",
+   "section": "6.2 Globalisation and Labour (Box 6.4)",
+   "definition": "A supposedly american car is really assembled worldwide. Of the pontiac le mans showroom price of 20,000 dollars only 7,600 dollars stay with americans; the overseas remainder splits by country - 48 percent to south korea for labour and assembly, 28 to japan for engines and electronics, 12 to germany for styling, 7 to taiwan and singapore for small components, 4 to britain for marketing, about 1 to barbados or ireland for data processing.",
+   "formula": "region_amount = overseas_total * region_share / 100",
+   "key_idea": "Multiplying each partner's percentage by the overseas share of the price shows precisely how much of an american-branded car's value is actually earned abroad.",
+   "textbook_ref": "lesy206.txt, section 6.2, box 6.4 (pontiac le mans, reich 1991: 20,000 dollar price, 7,600 american, 48-28-12-7-4-1 split)",
+   "question_patterns": [
+    "south korea gets 48 percent of the overseas share of the pontiac le mans price - with 20,000 dollars total and 7,600 staying in america, how many dollars go to south korea",
+    "japan earns 28 percent of the overseas share for advanced components - calculate japan's takings from the le mans price of 20,000 dollars when americans keep 7,600",
+    "germany receives 12 percent of the overseas share for styling and design engineering - find germany's amount on the chapter's le mans figures",
+    "taiwan and singapore get 7 percent of the overseas share for small components - compute their share of the 20,000 dollar price after the american 7,600",
+    "data processing in barbados or ireland takes about 1 percent of the overseas share - how many dollars is that",
+    "the united kingdom earns 4 percent of the overseas share of the pontiac le mans price for marketing - what sum is that"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the overseas slice of the price",
+     "explain": "subtracting the american 7,600 dollars from the 20,000 dollar showroom price leaves the amount shared abroad",
+     "compute": "overseas_total = showroom_price - american_amount"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's percentage",
+     "explain": "multiplying the overseas share by the region's percentage gives that country's takings",
+     "compute": "region_amount = overseas_total * region_share / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Of the Pontiac Le Mans price of 20,000 dollars, how many dollars stay with Americans: 7,600 or 19,000?",
+     "a": "7600"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.6",
+   "title": "Electronic Economy, Global Finance and the Weightless Economy",
+   "section": "6.2 The Different Dimensions of Globalisation - The Economic",
+   "definition": "Money now travels at screen speed: banks, corporations, fund managers and investors shift electronic money across borders with a click, and integrated markets trade round the clock through new york, tokyo and london, with mumbai as india's financial capital. Alongside runs the weightless economy, whose products are based in information - software, media and entertainment, internet services - and a knowledge economy employing workers in design, development, marketing and servicing rather than making goods.",
+   "formula": "new_economy = electronic_money + round_the_clock_finance + information_products",
+   "key_idea": "Instant capital movement carries its own dangers - foreign investors can buy indian stocks, pocket a profit and sell off, leaving sudden dips in the market.",
+   "textbook_ref": "lesy206.txt, section 6.2 electronic economy; weightless or knowledge economy; globalisation of finance",
+   "question_patterns": [
+    "what is the electronic economy and what risk does instantly movable finance carry",
+    "which cities such as tokyo lead 24-hour financial trading, and which indian city is called the country's financial capital",
+    "how does a weightless economy differ from an industrial or agricultural one - give its product examples",
+    "define a knowledge economy as against a weightless one and name the new occupation the chapter offers",
+    "why does foreign investors' quick buying and selling of stocks unsettle indian markets",
+    "what kinds of weightless-economy work count as employment instead of physical production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the electronic economy",
+     "explain": "banks, corporations, fund managers and individual investors shift funds internationally instantly; indian discussion centres on rising stock markets and sudden dips when foreign investors sell off"
+    },
+    {
+     "step": 2,
+     "action": "check globalised finance",
+     "explain": "information technology made finance global: billions of dollars move within seconds and capital and security markets trade 24 hours, anchored in new york, tokyo and london, with mumbai as india's financial capital"
+    },
+    {
+     "step": 3,
+     "action": "check the weightless and knowledge economy",
+     "explain": "products rest on information - computer software, media and entertainment, internet services - and the workforce handles design, development, technology, marketing, sale and servicing, creating occupations like event managers"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which city is India's financial capital: Mumbai or Patna?",
+     "a": "Mumbai"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.7",
+   "title": "Digital Divide and the Internet User Arithmetic",
+   "section": "6.2 Global Communications",
+   "definition": "Satellites and networks compress time and space - bengaluru and new york can talk and swap documents instantly - yet access is deeply unequal. In 1998 the world had 70 million internet users, of whom the usa and canada held 62 percent and asia only 12 percent; by 2000 users reached 325 million. At home, barely one household in ten had a computer in 2017-18 and only about a quarter had internet connectivity, the digital divide in numbers.",
+   "formula": "region_users = internet_users * region_share / 100",
+   "key_idea": "Applying a region's percentage to the world total shows how skewed early internet access was towards north america and away from asia.",
+   "textbook_ref": "lesy206.txt, section 6.2 global communications (1998: 70 million users, usa and canada 62 percent, asia 12 percent; 2000: 325 million; box 6.2 digital divide)",
+   "question_patterns": [
+    "in 1998 the world had 70 million internet users and the usa and canada held 62 percent of them - how many users was that",
+    "asia accounted for 12 percent of the world's 70 million internet users in 1998 - find asia's user count",
+    "calculate the american and canadian share of the 1998 global internet population of 70 million at 62 percent",
+    "a mock year has 200 million internet users with asia at 20 percent - how many asian users does that make",
+    "out of 325 million internet users in 2000, how many would asia hold if its share stayed at 12 percent",
+    "what do the 2017-18 figures on household computers and internet connectivity reveal about the digital divide"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the region's share into a fraction",
+     "explain": "dividing the percentage by 100 turns the region's share into a multiplier",
+     "compute": "region_fraction = region_share / 100"
+    },
+    {
+     "step": 2,
+     "action": "apply the fraction to the world total",
+     "explain": "multiplying the global user count by the fraction yields the region's users",
+     "compute": "region_users = internet_users * region_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In 1998, the USA and Canada held what percent of world internet users: 62 or 6?",
+     "a": "62"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.8",
+   "title": "India's Telephone Expansion and Village Coverage",
+   "section": "6.2 Global Communications (Box 6.3)",
+   "definition": "At independence india held 84,000 telephone lines for 350 million people; by 1980 there were only 2.5 million telephones and just 3 percent of the country's 600,000 villages had phones. The late 1990s brought a sea change: over 25 million lines by 1999 made the network the world's ninth largest, villages with telephone facility jumped from 27,316 in 1988 to 300,000 by 1998, and about 650,000 pcos by 2000 carried calls into remote and tribal areas.",
+   "formula": "villages_covered = total_villages * covered_pct / 100",
+   "key_idea": "Telephony in india serves a sociocultural purpose as much as a commercial one - the pcos let people walk in, call home and keep family ties alive, like train journeys for weddings and funerals.",
+   "textbook_ref": "lesy206.txt, section 6.2, box 6.3 (1947: 84,000 lines; 1980: 3 percent of 600,000 villages; 1999: 25 million lines; 1988-1998: 27,316 to 300,000 villages; 2000: 650,000 pcos)",
+   "question_patterns": [
+    "by 1980 only 3 percent of india's 600,000 villages had telephones - how many villages were those",
+    "calculate how many of india's 600,000 villages had a telephone when 3 percent were connected",
+    "by 1998 half of india's 600,000 villages had some telephone facility - how many villages does half make",
+    "a mock state of 50,000 villages - far fewer than india's 600,000 - has 3 percent connected by telephone; find the connected villages",
+    "a district of 2,000 villages has 40 percent covered by pcos, like the 650,000 walk-in call centres of 2000 - compute the covered villages",
+    "how many telephone lines did india have at independence, long before the network became the world's ninth largest, and how large was the population then"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the coverage percentage into a fraction",
+     "explain": "dividing 3 by 100 expresses the connected share as a multiplier",
+     "compute": "coverage_fraction = covered_pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "apply the fraction to the village total",
+     "explain": "multiplying india's villages by the fraction gives the villages with telephone facility",
+     "compute": "villages_covered = total_villages * coverage_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At independence India had how many telephone lines: 84,000 or 84 million?",
+     "a": "84000"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.9",
+   "title": "Glocalisation versus Homogenisation of Culture",
+   "section": "6.2 Globalisation and Culture",
+   "definition": "One fear says every culture will flatten into the same global mush; the chapter answers with glocalisation - blending the global with the local, a strategy foreign firms adopt to sell better. Mcdonald's drops beef in india, goes vegetarian for navaratri, global channels such as star, mtv and cartoon network broadcast in indian languages, and bhangra pop, indi pop and fusion remixes flavour the new with the familiar.",
+   "formula": "glocalisation = global_content + local_flavour",
+   "key_idea": "Culture is no fixed thing waiting to collapse; globalisation may create fresh local and even global traditions, though defenders of a rigid cultural identity can also invoke it to excuse undemocratic treatment of women.",
+   "textbook_ref": "lesy206.txt, section 6.2 globalisation and culture (homogenisation vs glocalisation, mcdonald's navaratri, star/mtv/cartoon network, gender and culture)",
+   "question_patterns": [
+    "define glocalisation and set it against the homogenisation argument",
+    "how does the mcdonald's menu in india, including during navaratri, illustrate glocalisation",
+    "why do foreign channels like star, mtv and cartoon network broadcast in indian languages",
+    "which musical forms from bhangra pop to fusion remixes show glocalisation in indian music",
+    "is glocalisation a spontaneous synthesis or a market strategy of multinationals - what does the chapter argue",
+    "how can appeals to cultural identity be turned into a defence of discriminating practices against women"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two readings of cultural change",
+     "explain": "homogenisation expects all cultures to turn similar; glocalisation points to the mixing of global and local, used deliberately by foreign firms to enhance marketability"
+    },
+    {
+     "step": 2,
+     "action": "check the indian evidence",
+     "explain": "star, mtv, channel v and cartoon network use indian languages; mcdonald's sells only vegetarian and chicken items in india and goes vegetarian during navaratri; bhangra pop, indi pop, fusion and remixes grow"
+    },
+    {
+     "step": 3,
+     "action": "check the gender warning",
+     "explain": "cultural identity is sometimes invoked to defend sati or women's exclusion from education and public life; india's democratic tradition instead allows a more inclusive definition of culture"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Blending the global with the local is called what: glocalisation or isolation?",
+     "a": "glocalisation"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.10",
+   "title": "Culture of Consumption and Corporate Culture",
+   "section": "6.2 Globalisation and Culture",
+   "definition": "Since the 1970s the engine of city growth has shifted from factories to cultural consumption - art, food, fashion, music, tourism - visible in the spurt of shopping malls, multiplexes and amusement parks, while advertising praises spending and retires the old virtue of thrift. Corporate culture, a branch of management theory, builds a firm-wide identity of events, rituals and traditions meant to raise productivity, employee loyalty and group solidarity.",
+   "formula": "city_growth = cultural_consumption + malls + multiplexes + advertising",
+   "key_idea": "Beauty pageant wins and game shows like kaun banega crorepati fed new dreams - of cosmetics, fashion and health industries, and of fortunes turning overnight.",
+   "textbook_ref": "lesy206.txt, section 6.2 culture of consumption; corporate culture (miss universe, kaun banega crorepati, malls and multiplexes)",
+   "question_patterns": [
+    "how does the corporate-era culture of consumption shape the growth of indian cities",
+    "what changed around the 1970s in the forces driving urban growth",
+    "how do advertisements recast attitudes towards saving and spending money",
+    "define corporate culture and explain its claimed benefits of loyalty and solidarity",
+    "how did beauty pageants and kaun banega crorepati nourish new consumption aspirations",
+    "compare shopping in a mall with the traditional market - what changes besides the goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the consumption shift",
+     "explain": "manufacturing drove city growth till the 1970s; now art, food, fashion, music and tourism shape it, seen in malls, multiplex cinema halls, amusement parks and water worlds"
+    },
+    {
+     "step": 2,
+     "action": "check the spending ethic",
+     "explain": "advertising and the media promote a culture where spending matters, carefulness with money is no virtue, and shopping is an encouraged pastime"
+    },
+    {
+     "step": 3,
+     "action": "check the corporate culture claim",
+     "explain": "a dynamic corporate culture - company events, rituals and traditions - is thought to increase productivity and competitiveness and to deepen employee loyalty and group solidarity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Since the 1970s, city growth's engine has shifted from factories to what consumption: cultural or industrial?",
+     "a": "cultural"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.11",
+   "title": "Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat",
+   "section": "6.2 Globalisation and Culture",
+   "definition": "Global competition and new media are erasing old livelihoods and arts: about thirty theatre groups around mumbai's parel and girgaon mill districts died with the mills, weavers of sircilla and dubakka who could not fund new technology killed themselves, television emptied the dombari acrobats' audience, and multinationals have tried to patent tulsi, haldi, rudraksha and basmati - sharpening the case for guarding indigenous knowledge systems in medicine and agriculture.",
+   "formula": "threat = dying_audiences + mill_closure + patenting_of_traditions",
+   "key_idea": "Change itself is not new - development had always entered traditional occupations - but the sheer scale and intensity of the current sweep is what endangers craft and literary traditions.",
+   "textbook_ref": "lesy206.txt, section 6.2 threat to indigenous craft and literary traditions (parel-girgaon theatre groups, sircilla and dubakka weavers, tulsi/haldi/rudraksha/basmati patents, box 6.6 dombari)",
+   "question_patterns": [
+    "why did about thirty theatre groups near mumbai's mill areas become defunct",
+    "what drove the weavers of sircilla and dubakka villages to suicide, according to the chapter",
+    "how have the circus and television affected performers of the dombari community",
+    "which indian plants and products have multinational companies tried to patent",
+    "why should indigenous knowledge systems in medicine and agriculture be protected",
+    "how did competition from power looms and changing consumer tastes hurt traditional weavers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the lost audiences",
+     "explain": "mill closures ended some thirty theatre groups in the parel and girgaon areas; the dombari acrobats find television and circus have emptied their village audiences - people watch but pay nothing"
+    },
+    {
+     "step": 2,
+     "action": "check the weaver crisis",
+     "explain": "weavers without capital to invest in technology could not match power looms or shifting tastes; suicides were reported in sircilla of karimnagar district and dubakka of medak district in andhra pradesh"
+    },
+    {
+     "step": 3,
+     "action": "check the knowledge patenting",
+     "explain": "attempts to patent tulsi, haldi (turmeric), rudraksha and basmati rice highlighted the need to protect the base of indigenous knowledge systems passed down generations"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which traditions have multinationals tried to patent: tulsi, haldi and basmati, or cycles and cars?",
+     "a": "tulsi, haldi and basmati"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.12",
+   "title": "Political Dimensions: Neo-liberalism and Global Institutions",
+   "section": "6.2 Globalisation and Political Changes",
+   "definition": "The collapse of the socialist world speeded up a globalisation wearing a neo-liberal face: faith that free markets are efficient and fair, and suspicion of state regulation and subsidies - though an inclusive globalisation that carries every section along remains conceivable. Politics itself globalised through regional blocs like the european union, asean and saarc, intergovernmental organisations such as the wto that regulate transnational activity, and ingos like greenpeace, the red cross and amnesty international.",
+   "formula": "political_layer = neo_liberal_vision + regional_blocs + igos + ingos",
+   "key_idea": "An intergovernmental organisation is set up by participating governments to oversee a transnational domain - the wto increasingly shapes the rules of trade - while ingos act independently of governments.",
+   "textbook_ref": "lesy206.txt, section 6.2 globalisation and political changes (collapse of the socialist world, eu/asean/saarc, wto, ingos)",
+   "question_patterns": [
+    "which major political change hastened globalisation according to the chapter",
+    "what political vision underlies neo-liberal economic measures",
+    "what is an intergovernmental organisation and how does the wto exemplify one",
+    "how do ingos differ from intergovernmental organisations - give two examples of each",
+    "name three regional associations cited as mechanisms of political collaboration",
+    "what would an inclusive globalisation include that the current process may miss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the political trigger and vision",
+     "explain": "the collapse of the erstwhile socialist world hastened globalisation; neo-liberal measures reflect belief in free enterprise, efficiency and fairness, and criticise state regulation and subsidies"
+    },
+    {
+     "step": 2,
+     "action": "check the collaboration mechanisms",
+     "explain": "the european union, asean and saarc show regional political collaboration; igos are government-founded regulators of transnational domains like trade (wto)"
+    },
+    {
+     "step": 3,
+     "action": "check the ingo contrast and the inclusive idea",
+     "explain": "ingos such as greenpeace, the red cross, amnesty international and medecins sans frontieres are independent of governments; inclusive globalisation would include all sections of society"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Post-socialist globalisation wore which face: neo-liberal or neo-baroque?",
+     "a": "neo-liberal"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.13",
+   "title": "Globalisation and Employment: New Openings, Weak Job Growth",
+   "section": "6.2 Globalisation and Employment (Box 6.5)",
+   "definition": "Globalisation splits job fortunes. Urban middle-class youth ride the it wave into call centres, bpo firms, mall sales floors and new restaurants, yet the ilo's asia-pacific audit is sobering: between 2003 and 2004 only 25 million jobs were added, a disappointing 1.6 percent rise to 1.588 billion, while the region's economies grew over 7 percent - an employment gap that keeps the largest number of poor people in south asia.",
+   "formula": "job_growth_rate = jobs_added * 100 / base_jobs",
+   "key_idea": "Working back from the new total to the earlier year's employment shows how thin the job creation was relative to asia's headline economic growth.",
+   "textbook_ref": "lesy206.txt, section 6.2 globalisation and employment, box 6.5 (ilo 2005: 25 million jobs added, 1.6 percent, total 1.588 billion, growth over 7 percent)",
+   "question_patterns": [
+    "the ilo counted 25 million new jobs taking asia-pacific employment to 1,588 million - calculate the percentage increase",
+    "asia-pacific employment ended 2004 at 1,588 million jobs after 25 million were added - find the growth rate the ilo called disappointing",
+    "a mock asia pacific economy closes the year with 2,040 million jobs after creating 40 million - what is its employment growth rate",
+    "an economy reports 1,100 million jobs after adding 22 million new posts - compute the percentage growth in employment",
+    "if asia pacific style employment totals 1,650 million after 33 million new jobs, what growth rate does that imply"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recover the earlier year's employment",
+     "explain": "the base is the final total minus the jobs added during the year",
+     "compute": "base_jobs = jobs_total - jobs_added"
+    },
+    {
+     "step": 2,
+     "action": "express the additions as a growth rate",
+     "explain": "the added jobs as a percentage of the base give the employment growth rate",
+     "compute": "job_growth_rate = jobs_added * 100 / base_jobs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Between 2003 and 2004, how many jobs did Asia-Pacific add: 25 million or 250 million?",
+     "a": "25 million"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy206.we1",
+   "source_ref": "lesy206.txt box 6.4, pontiac le mans",
+   "concept": "lesy206.5",
+   "question_type": "compute",
+   "question_pattern": "Of the pontiac le mans showroom price of 20,000 dollars, only 7,600 dollars go to americans. South korea receives 48 percent of the overseas share for labour and assembly. How many dollars go to south korea?",
+   "extracted_variables": {
+    "showroom_price": 20000,
+    "american_amount": 7600,
+    "region_share": 48
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the overseas slice of the price",
+     "explain": "20,000 - 7,600 = 12,400 dollars are shared abroad",
+     "compute": "overseas_total = showroom_price - american_amount"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's percentage",
+     "explain": "48 percent of 12,400 = 5,952 dollars to south korea",
+     "compute": "region_amount = overseas_total * region_share / 100"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.we2",
+   "source_ref": "lesy206.txt global communications, singhal and rogers 2001",
+   "concept": "lesy206.7",
+   "question_type": "compute",
+   "question_pattern": "In 1998 there were 70 million internet users worldwide, and asia had 12 percent of them. How many internet users did asia have?",
+   "extracted_variables": {
+    "internet_users": 70,
+    "region_share": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert the region's share into a fraction",
+     "explain": "12 divided by 100 gives 0.12",
+     "compute": "region_fraction = region_share / 100"
+    },
+    {
+     "step": 2,
+     "action": "apply the fraction to the world total",
+     "explain": "0.12 of 70 million = 8.4 million users in asia",
+     "compute": "region_users = internet_users * region_fraction"
+    }
+   ]
+  },
+  {
+   "id": "lesy206.we3",
+   "source_ref": "lesy206.txt box 6.5, ilo labour and social trends 2005",
+   "concept": "lesy206.13",
+   "question_type": "compute",
+   "question_pattern": "Between 2003 and 2004, asia-pacific employment rose by 25 million jobs to a total of 1,588 million. What was the percentage growth in employment?",
+   "extracted_variables": {
+    "jobs_total": 1588,
+    "jobs_added": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recover the earlier year's employment",
+     "explain": "1,588 - 25 = 1,563 million jobs formed the base",
+     "compute": "base_jobs = jobs_total - jobs_added"
+    },
+    {
+     "step": 2,
+     "action": "express the additions as a growth rate",
+     "explain": "25 out of 1,563 is about 1.6 percent - the disappointing growth the ilo reported",
+     "compute": "job_growth_rate = jobs_added * 100 / base_jobs"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy206.ex1",
+   "source_ref": "lesy206.txt chapter-end Questions 1-4",
+   "questions": [
+    "Choose any topic that is of interest to you and discuss how you think globalisation has affected it. You could choose cinema, work, marriage or any other topic.",
+    "What are the distinctive features of a globalised economy? Discuss.",
+    "Briefly discuss the impact of globalisation on culture.",
+    "What is glocalisation? Is it simply a market strategy adopted by multinational companies or is genuine cultural synthesis taking place? Discuss."
+   ]
+  }
+ ]
+}

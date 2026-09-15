@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_010",
+   "title": "c11_chem_cbse_06_010",
+   "questions": [
+    {
+     "q": "State the exact mathematical relationship between standard Gibbs energy change (ΔG°) and the equilibrium constant (K) at temperature T. Define every symbol and its SI unit.",
+     "a": "ΔG° = –RT ln K, where ΔG° is standard Gibbs energy change (J mol⁻¹), R = 8.314 J mol⁻¹ K⁻¹, T = absolute temperature (K), K = dimensionless equilibrium constant (activities relative to standard state). A wrong answer like \"ΔG = –RT ln K\" reveals confusion between standard and instantaneous Gibbs energy; omitting the minus sign or using log₁₀ instead of ln indicates formula memorization without understanding the derivation from ΔG = ΔG° + RT ln Q.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ΔG° = –RT ln K implies that a negative ΔG° corresponds to K > 1, while a positive ΔG° corresponds to K < 1. Use the properties of the natural logarithm function in your reasoning.",
+     "a": "Since R > 0 and T > 0, the sign of –RT ln K is opposite to the sign of ln K. If ΔG° < 0, then –RT ln K < 0 ⇒ ln K > 0 ⇒ K > 1 (products favoured). If ΔG° > 0, then ln K < 0 ⇒ K < 1 (reactants favoured). If ΔG° = 0, ln K = 0 ⇒ K = 1. A student who says \"negative ΔG° means spontaneous so K is large\" without invoking the logarithm misses the mathematical necessity; they are recalling a rule, not understanding the functional relationship.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔG° = –33.0 kJ mol⁻¹ at 298 K. Calculate K at this temperature. Show all steps including unit conversion.",
+     "a": "Step 1: ΔG° = –33.0 kJ mol⁻¹ = –33,000 J mol⁻¹.\nStep 2: Use ΔG° = –RT ln K ⇒ ln K = –ΔG°/RT.\nStep 3: ln K = –(–33,000) / (8.314 × 298) = 33,000 / 2477.6 = 13.32.\nStep 4: K = e¹³·³² = 6.1 × 10⁵ (dimensionless).\nStep 5: Check: large K matches negative ΔG° (products predominate).\nCommon error: forgetting to convert kJ to J, giving ln K = 0.0133 and K ≈ 1.01 — a wrong answer reveals unit inconsistency.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two reactions at 300 K:\nReaction A: ΔG° = –10 kJ mol⁻¹\nReaction B: ΔG° = +10 kJ mol⁻¹\nWithout calculating exact K values, compare the equilibrium constants K_A and K_B. Which reaction has a larger K? By approximately what factor does K_A exceed K_B? Justify using the ΔG° = –RT ln K relationship.",
+     "a": "From ΔG° = –RT ln K, ln K = –ΔG°/RT.\nFor A: ln K_A = –(–10,000)/(8.314×300) = +4.01\nFor B: ln K_B = –(+10,000)/(8.314×300) = –4.01\nThus K_A = e⁴·⁰¹ ≈ 55, K_B = e⁻⁴·⁰¹ ≈ 0.018.\nK_A / K_B = e⁴·⁰¹ / e⁻⁴·⁰¹ = e⁸·⁰² ≈ 3040.\nReaction A has K ≈ 55 (products favoured), Reaction B has K ≈ 0.018 (reactants favoured). K_A exceeds K_B by a factor of ~3000. A student who merely says \"A has larger K because ΔG° is negative\" without quantifying the exponential relationship shows incomplete analytical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔG° = –142 kJ mol⁻¹ at 298 K. Therefore ΔG = –142 kJ mol⁻¹ at equilibrium.\" Identify the error and correct the statement using the relationship between ΔG, ΔG°, Q, and K.",
+     "a": "The error: ΔG° is constant at a given temperature, but ΔG varies with reaction composition. At equilibrium, ΔG = 0 (not ΔG°). The correct statement: \"At equilibrium, ΔG = 0 and Q = K. Using ΔG = ΔG° + RT ln Q, we get 0 = ΔG° + RT ln K, so ΔG° = –RT ln K = –142 kJ mol⁻¹.\" A student who confuses ΔG and ΔG° cannot distinguish between the thermodynamic driving force at arbitrary conditions (ΔG) and the standard-state reference value (ΔG°) that determines K.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have a reaction with ΔG° = +50 kJ mol⁻¹ at 298 K. Initially, only reactants are present at standard state (1 bar each). Describe how ΔG, Q, and the system composition evolve as the reaction proceeds toward equilibrium. Sketch a qualitative graph of ΔG vs. extent of reaction (ξ), labeling ΔG°, ΔG = 0, and the equilibrium point.",
+     "a": "Initial state: pure reactants at 1 bar ⇒ Q = 0 ⇒ ln Q = –∞ ⇒ ΔG = ΔG° + RT ln Q = –∞ (large negative). Reaction proceeds forward spontaneously. As products form, Q increases, ln Q becomes less negative, ΔG rises toward zero. At equilibrium: ΔG = 0, Q = K = e^(–ΔG°/RT) = e^(–50,000/2478) = e⁻²⁰·² ≈ 1.6 × 10⁻⁹ (very small). Graph: ΔG starts at –∞ (ξ=0), increases monotonically, crosses zero at ξ_eq (where Q=K), and would go to +∞ if reaction could proceed to pure products. A poor answer shows a straight line or misses that ΔG → –∞ as Q → 0, revealing misunderstanding of the logarithmic dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

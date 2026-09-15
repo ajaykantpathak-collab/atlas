@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class8_social_science_hees107",
+ "concepts": [
+  {
+   "id": "hees.107.7.1",
+   "title": "The Four Factors of Production",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Four Factors of Production' refers to.",
+     "a": "Production needs four classic inputs - land, labour, capital and entrepreneurship - classified as factors of production; businesses combine them, paying rent for land, wages for labour and interest for capital, while profit rewards the organiser who bears the risk.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Four Factors of Production'.",
+     "a": "Land, labour, capital and enterprise join to produce; each factor earns its own return.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Four Factors of Production' taught, and from which source text?",
+     "a": "7 (source: hees107.txt lines 153-200 (classification into four types))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.107.7.2",
+   "title": "Land as a Factor: Natural Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Land as a Factor: Natural Resources' refers to.",
+     "a": "In economics, land means far more than ground - it covers all natural gifts like soil, forests, water, air and minerals that businesses use, paying rent for them; the gifts of nature set the base on which production stands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land as a Factor: Natural Resources'.",
+     "a": "Land in economics is every free gift of nature used in production.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land as a Factor: Natural Resources' taught, and from which source text?",
+     "a": "7 (source: hees107.txt lines 160-175 (land encompasses natural resources, rent))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.107.7.3",
+   "title": "Labour and Human Effort",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Labour and Human Effort' refers to.",
+     "a": "Labour is the physical and mental human effort that turns materials into goods and services - from a farmer's fieldwork to an engineer's design - and it earns wages; the quality of labour, shaped by education and skill, decides how productive an economy can be.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Labour and Human Effort'.",
+     "a": "Every productive human effort, bodily or mental, is labour paid as wages.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Labour and Human Effort' taught, and from which source text?",
+     "a": "7 (source: hees107.txt lines 175-230 (labour as a factor, wages))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.107.7.4",
+   "title": "Capital and Entrepreneurship",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Capital and Entrepreneurship' refers to.",
+     "a": "Capital means the man-made aids of production - machines, tools, buildings, money invested - earning interest, while the entrepreneur supplies ideas, organises the other factors, takes risks and earns profit; technology acts as an enabler that multiplies what all four factors can produce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital and Entrepreneurship'.",
+     "a": "Machines and money are capital; the risk-taking organiser is the entrepreneur, rewarded by profit.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Capital and Entrepreneurship' taught, and from which source text?",
+     "a": "7 (source: hees107.txt lines 230-570 (capital, entrepreneurship), 586-650 (technology an enabler))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

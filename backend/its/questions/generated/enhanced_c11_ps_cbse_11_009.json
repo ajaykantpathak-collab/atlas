@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_009",
+   "title": "c11_ps_cbse_11_009",
+   "questions": [
+    {
+     "q": "Which two articles in the Indian Constitution specifically guarantee Cultural and Educational Rights to minorities?",
+     "a": "Articles 29 and 30. A wrong answer (e.g., Articles 25-28 or Article 15) reveals the student has not distinguished the specific articles for minority cultural/educational rights from the broader right to freedom of religion or the general non-discrimination clause.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Article 29(2) is necessary even though Article 15(1) already prohibits discrimination on grounds of religion, race, caste, sex, or place of birth in access to public places.",
+     "a": "Article 29(2) specifically prohibits denial of admission to *state-aided educational institutions* on grounds of *religion, race, caste, or language* – it adds \"language\" as a protected ground and limits the context to educational admissions, whereas Article 15(1) covers broader public access but does not explicitly mention language. A wrong answer indicates the student sees these as redundant rather than as complementary protections with different scopes and grounds.",
+     "self_check": true
+    },
+    {
+     "q": "A linguistic minority community in Maharashtra establishes a primary school teaching in their mother tongue. The state government passes a rule requiring all primary schools to use Marathi as the medium of instruction. Does this violate the community's rights under Article 30(1)? Reason step by step.",
+     "a": "Yes, it likely violates Article 30(1). Step 1: Identify the community as a linguistic minority (protected under Article 30). Step 2: Recognize that \"establish and administer\" includes the right to choose the medium of instruction as part of administering the institution's character. Step 3: The state rule forces a change in the essential character of the minority institution, infringing the right to administer. Step 4: While the state can impose reasonable regulations for academic standards, it cannot destroy the minority character. A wrong answer shows the student thinks Article 30 only protects the act of setting up the building, not the ongoing administrative autonomy including medium of instruction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of \"minority\" in Article 29(1) and Article 30(1). Are they identical? Why does the distinction matter for a community that is a linguistic minority in one state but a majority nationally?",
+     "a": "Both articles protect \"any section of citizens\" with distinct language, script, or culture (Article 29(1)) and \"all minorities, whether based on religion or language\" (Article 30(1)). The Supreme Court has held that minority status is determined at the *state level* for Article 30. Therefore, a linguistic minority in a state (e.g., Tamil speakers in Karnataka) can claim Article 30 rights even if their language is a majority elsewhere. A wrong answer reveals the student assumes minority status is determined nationally, missing the federal dimension of minority rights in India.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Article 30(2) prevents the government from imposing any conditions on aid to minority educational institutions.\" Is this correct? Justify with the constitutional text.",
+     "a": "The statement is incorrect. Article 30(2) says the state shall not *discriminate* in granting aid on the ground that the institution is under minority management. It does not forbid all conditions; the state can impose reasonable conditions (e.g., academic standards, financial accountability) as long as they are not discriminatory. A wrong answer shows the student confuses \"non-discrimination\" with \"absolute autonomy,\" ignoring that the state retains regulatory power for educational quality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a Public Interest Litigation (PIL) claiming that a state law denying government scholarships to students in minority-run unaided schools violates Articles 29(2) and 30(2). Use the exact constitutional language.",
+     "a": "A good answer will argue: The law denies scholarships *solely* because the school is under minority management, which is discrimination in \"granting aid\" (Article 30(2)) and effectively denies admission benefits on the ground that the institution is minority-managed, violating the spirit of Article 29(2)'s non-discrimination in state-aided institutions. It must cite \"on the ground that it is under the management of a minority\" from Article 30(2). A poor answer fails to link the scholarship to \"aid\" or misses the discriminatory classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

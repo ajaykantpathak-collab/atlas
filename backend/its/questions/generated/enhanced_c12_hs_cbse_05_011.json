@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_011",
+   "title": "c12_hs_cbse_05_011",
+   "questions": [
+    {
+     "q": "A student says, \"Semantic barriers only happen when people speak different languages.\" Is this statement correct? Explain why or why not in two sentences.",
+     "a": "No, the statement is incorrect. Semantic barriers arise from differences in meaning assigned to words, symbols, or jargon *even within the same language* — for example, a teenager using \"sick\" to mean \"excellent\" while a grandparent interprets it as \"ill\". A wrong answer reveals the student confuses semantic barriers with linguistic/language barriers and misses intra-language ambiguity.",
+     "self_check": true
+    },
+    {
+     "q": "In a family, the father sends a long voice note on WhatsApp explaining the monthly budget. The mother, cooking dinner, listens while chopping vegetables and misses the part about the electricity bill increase. Identify the TWO distinct barriers operating here and name the specific strategy that would address each.",
+     "a": "Barrier 1: Physical/environmental barrier (background kitchen noise, divided attention). Strategy: Choose a quiet time and dedicated channel (e.g., sit down together with a written budget sheet). Barrier 2: Psychological barrier (cognitive overload / selective attention due to multitasking). Strategy: Use active listening — pause cooking, make eye contact, paraphrase key figures back. A wrong answer that lists only \"noise\" or only \"distraction\" shows inability to separate co-occurring physical and psychological barriers.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student emails a teacher: \"Respected Ma'am, I am not able to come tomorrow because of some personal work. Please excuse.\" The teacher replies: \"What personal work? Be specific.\" The student feels offended. Apply the communication process to explain why the teacher's feedback created a new psychological barrier, and rewrite the student's original message using one strategy to prevent this.",
+     "a": "The teacher's blunt \"Be specific\" violated the student's need for respect and privacy, triggering a psychological barrier (defensiveness/ego threat). The original message used vague language (\"some personal work\") — a semantic barrier — which invited probing. Rewrite: \"Respected Ma'am, I will be absent tomorrow due to a family medical appointment. I will submit the pending assignment by evening. Kindly grant leave.\" This uses the strategy of *complete, specific, and courteous messaging* to reduce ambiguity and show respect, preventing the defensive cycle. A wrong answer that blames only the teacher or only the student misses the interactional nature of barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"filtering\" (organizational barrier) and \"selective perception\" (psychological barrier) using a concrete workplace example where a manager receives a project report from a subordinate. Show how each distorts the message differently.",
+     "a": "Filtering: The subordinate *omits* the budget overrun in the report because she fears the manager's reaction — the sender intentionally withholds information. Selective perception: The manager *reads* the report but focuses only on the \"on-time completion\" highlight and mentally dismisses the minor delay mentioned in paragraph 3 because it contradicts his belief that the team is efficient — the receiver unconsciously ignores discordant data. Filtering is sender-side, deliberate; selective perception is receiver-side, subconscious. A wrong answer that treats both as \"hiding information\" fails to distinguish agency and consciousness level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Using more technology (video calls, instant messaging, email) automatically reduces communication barriers in a joint family.\" Provide three distinct counter-arguments with Indian-context examples.",
+     "a": "Counter-argument 1: Technological barriers — elderly grandparents may struggle with smartphone interfaces, turning a video call into a frustration barrier (e.g., \"Beta, camera nahi khul raha\"). Counter-argument 2: Information overload — a family WhatsApp group with 50+ forwards daily causes important messages (medicine reminder) to be missed, creating a new semantic/attention barrier. Counter-argument 3: Loss of non-verbal cues — a text \"Thik hai\" from a daughter-in-law to mother-in-law lacks tone, leading to misinterpretation of compliance vs. resentment, a psychological barrier that face-to-face touch/tone would resolve. A wrong answer that only lists \"network issues\" misses the human-factor barriers technology introduces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step \"Communication Audit\" checklist that a family can use every Sunday to identify and fix barriers from the past week. Each step must target a different barrier category and include a measurable action.",
+     "a": "Sample checklist: Step 1 (Physical): \"Did any conversation fail due to noise/distraction? Action: Designate a 'quiet corner' for important talks this week.\" Step 2 (Psychological): \"Did anyone feel unheard or judged? Action: Each member shares one thing they felt; others paraphrase without advice.\" Step 3 (Semantic): \"Was any word/phrase misunderstood? Action: Create a family 'word bank' — agree on meanings for common terms (e.g., 'early' = before 7 AM).\" Step 4 (Cultural/Generational): \"Did a value clash cause silence? Action: Hold a 10-min 'perspective swap' where each generation explains one tradition's logic.\" A poor answer gives generic advice (\"talk more\") without category-specific, measurable actions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

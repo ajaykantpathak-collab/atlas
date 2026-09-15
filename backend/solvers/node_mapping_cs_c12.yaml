@@ -1,0 +1,142 @@
+node_mapping:
+  cs_c12:
+    nodes:
+      boolean_algebra:
+        node_id: boolean_algebra
+        problem_types:
+          - boolean_fundamentals
+          - logical_operators
+          - boolean_theorems
+          - karnaugh_maps
+          - boolean_functions
+          - boolean_expressions
+          - sum_of_products
+          - product_of_sums
+          - logic_gates
+          - truth_tables
+          - switching_theory
+          - boolean_identities
+          - implication_and_equivalence
+
+      circuits:
+        node_id: circuits
+        problem_types:
+          - basic_logic_gates
+          - combinational_circuits
+          - sequential_circuits
+          - half_adder
+          - full_adder
+          - multiplexer
+          - demultiplexer
+          - encoder_decoder
+          - flip_flops
+          - counters
+          - logic_families
+
+      data_structures:
+        node_id: data_structures
+        problem_types:
+          - arrays
+          - one_dimensional_array
+          - two_dimensional_array
+          - string_operations
+          - stack
+          - queue
+          - circular_queue
+          - linked_list
+          - singly_linked_list
+          - doubly_linked_list
+          - tree
+          - binary_tree
+          - searching
+          - sorting_algorithms
+
+      algorithms:
+        node_id: algorithms
+        problem_types:
+          - recursion
+          - fibonacci_sequence
+          - factorial_recursion
+          - tower_of_hanoi
+          - bubble_sort
+          - selection_sort
+          - insertion_sort
+          - linear_search
+          - binary_search
+          - merge_sort
+          - quick_sort
+          - time_complexity
+          - algorithm_analysis
+          - asymptotic_notations
+
+      oop:
+        node_id: oop
+        problem_types:
+          - classes_and_objects
+          - constructors
+          - method_overloading
+          - method_overriding
+          - inheritance
+          - single_inheritance
+          - multilevel_inheritance
+          - hierarchical_inheritance
+          - interface
+          - abstract_classes
+          - polymorphism
+          - encapsulation
+          - wrapper_classes
+          - java_string_manipulation
+          - java_input_output
+          - exception_handling
+
+      database:
+        node_id: database
+        problem_types:
+          - relational_model
+          - attributes_and_tuples
+          - keys
+          - primary_key
+          - candidate_key
+          - foreign_key
+          - relational_algebra
+          - select_operation
+          - project_operation
+          - cartesian_product
+          - join_operation
+          - set_operations
+          - normalization
+          - first_normal_form
+          - second_normal_form
+          - third_normal_form
+          - data_independence
+          - dbms_architecture
+
+      sql:
+        node_id: sql
+        problem_types:
+          - ddl_commands
+          - dml_commands
+          - create_table
+          - alter_table
+          - drop_table
+          - insert_query
+          - update_query
+          - delete_query
+          - select_query
+          - where_clause
+          - distinct_keyword
+          - order_by_clause
+          - group_by_clause
+          - having_clause
+          - aggregate_functions
+          - string_functions
+          - date_functions
+          - inner_join
+          - left_join
+          - right_join
+          - full_outer_join
+          - subqueries
+          - correlated_subqueries
+          - set_operations_sql
+          - view_creation
+          - union_intersect_minus

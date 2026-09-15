@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_007",
+   "title": "c12_ip_cbse_04_007",
+   "questions": [
+    {
+     "q": "**REMEMBER:** List any four distinct forms of cyberbullying as defined in the CBSE Class 12 Informatics Practices curriculum.",
+     "a": "Correct answer: Harassment, Flaming, Denigration, Impersonation, Outing, Trickery, Exclusion, Cyberstalking (any four).  \nA wrong answer (e.g., “hacking, virus, phishing, spam”) reveals the student is confusing **cybercrime categories** with **cyberbullying forms**. This misconception leads to incorrect identification of incidents in case‑based board questions and fails to trigger the correct reporting mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A student receives an anonymous message on a gaming platform: “Everyone in the clan hates you. We’re kicking you out tonight. If you tell anyone, we’ll leak your home address.” Explain why this is **both** exclusion *and* cyberstalking, not just harassment.",
+     "a": "Correct explanation: The message explicitly threatens removal from the online group (exclusion) and includes a threat to reveal private location information if the victim speaks up (cyberstalking — monitoring/threatening offline safety). Harassment is a broader umbrella; the specific tactics here are exclusion and stalking.  \nA wrong answer that labels it only “harassment” shows the student cannot **differentiate overlapping forms**, a skill needed for board case‑study questions where multiple forms co‑occur and each must be named for full marks.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** Rohan, 16, finds a morphed obscene image of himself circulating on a class WhatsApp group. He has screenshots of the image and the sender’s number. Write the **exact sequence of 5 actions** he should take in the first 24 hours, citing the specific platform feature, school authority, and legal portal.",
+     "a": "Correct sequence:  \n1. Use WhatsApp’s “Report” → “Report contact” and “Report group” (platform feature).  \n2. Save screenshots with date/time (evidence preservation).  \n3. Inform school’s Anti‑Bullying Committee / counsellor / trusted teacher (institutional support).  \n4. File a complaint on **cybercrime.gov.in** → “Report Women/Child Related Crime” → “Child Sexual Abuse Material” or “Cyberbullying” category (legal portal).  \n5. Call Childline **1098** for counselling and legal guidance (helpline).  \nA wrong sequence (e.g., confronting the sender first, deleting the image, or only telling friends) reveals the student doesn’t know the **evidence‑first, platform‑then‑institution‑then‑legal** protocol, risking loss of digital evidence and delayed intervention.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the effects of cyberbullying on a victim’s **academic performance** versus **social behaviour**. Give one specific, measurable indicator for each.",
+     "a": "Correct comparison:  \n- Academic: Sudden drop in test scores / incomplete assignments / absenteeism from online classes (measurable: percentage decline in marks, attendance %).  \n- Social: Withdrawal from group chats, refusal to participate in collaborative projects, loss of online friends (measurable: number of active group interactions per week).  \nA wrong answer that gives only vague feelings (“feels sad”, “doesn’t talk”) shows inability to **operationalise effects into observable metrics**, which is required for board competency questions asking to “analyse the impact with examples”.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** “Schools should handle all cyberbullying cases internally without involving police, to protect the reputation of minors.” Critique this statement using the IT Act, 2000 and the POCSO Act, 2012.",
+     "a": "Correct critique: The statement is **legally unsound**. Sections 66C (identity theft), 66D (cheating by personation), 67/67A (publishing obscene/sexually explicit material) of the IT Act are **cognizable offences** — police *must* investigate. POCSO Act mandates reporting of child sexual abuse material (CSAM) to police; failure to report is an offence under Section 21. Schools *must* involve police for legal offences; internal committees can only provide support, not adjudicate crimes.  \nA wrong answer agreeing with the statement reveals ignorance of **mandatory reporting laws**, a critical error in board assertion‑reason questions and real‑life decision‑making.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a **one‑page “Cyberbullying Response Card”** for your school’s student diary. It must include: (a) 3 warning signs a friend is being cyberbullied, (b) 4‑step reporting flowchart (platform → school → portal → helpline), (c) one legal section (IT Act/POCSO) with its punishment. Use only icons and ≤ 10 words per step.",
+     "a": "Expected criteria:  \n- Warning signs: e.g., 📉 sudden grade drop, 😰 anxiety before using phone, 🚫 quits group chats.  \n- Flowchart: 📱 Report on app → 🏫 Tell teacher/counsellor → 🌐 cybercrime.gov.in → 📞 Call 1098.  \n- Legal: IT Act Sec 67A → 5 yrs jail + ₹10 lakh fine.  \nA poor answer (missing legal section, vague steps, text‑heavy) shows the student cannot **synthesize knowledge into an actionable, student‑friendly artifact** — a skill tested in CBSE competency‑based projects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

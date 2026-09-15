@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_002",
+   "title": "c11_bio_cbse_15_002",
+   "questions": [
+    {
+     "q": "State the antigens present on RBCs and antibodies present in plasma for a person with blood group AB positive.",
+     "a": "Correct answer: Antigens on RBCs: A, B, and Rh (D). Antibodies in plasma: None (no anti-A, no anti-B, no anti-D unless previously sensitised). A wrong answer (e.g., saying anti-A or anti-B are present) reveals the student has not internalised Landsteiner's law: an individual cannot make antibodies against their own RBC antigens. They are confusing the donor's perspective (receiving antibodies) with the recipient's own plasma composition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with blood group O is called a 'universal donor' for whole blood but *not* a universal donor for plasma.",
+     "a": "Correct answer: Group O RBCs lack A and B antigens, so they are not attacked by anti-A/anti-B antibodies in any recipient's plasma — safe for red cell transfusion. However, group O plasma contains *both* anti-A and anti-B antibodies. If this plasma is transfused into a group A, B, or AB recipient, those antibodies will attack the recipient's RBCs. A wrong answer indicates the student memorised \"O = universal donor\" without distinguishing between cellular (RBC) and plasma components, a critical error for clinical transfusion practice.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with blood group B negative requires an urgent red blood cell transfusion. The blood bank has only the following units: A positive, B positive, O negative, AB negative. Which unit(s) are compatible? Justify each selection or rejection.",
+     "a": "Correct answer: Only O negative is compatible. Reasoning: (1) Recipient is B negative → has B antigen and Rh-negative (no D antigen). Plasma contains anti-A and anti-D (if sensitised) but *not* anti-B. (2) Donor RBCs must lack A antigen (to avoid anti-A attack) and lack D antigen (to avoid anti-D attack). (3) A positive: has A antigen (incompatible) and D antigen (incompatible). (4) B positive: lacks A antigen (good) but has D antigen (incompatible for Rh-negative recipient). (5) O negative: lacks A, B, and D antigens (fully compatible). (6) AB negative: has A antigen (incompatible). A wrong answer (e.g., choosing B positive) shows the student ignores Rh compatibility or thinks \"same ABO group = always safe\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin of anti-A/anti-B antibodies (ABO system) with the origin of anti-D antibodies (Rh system) in terms of timing of appearance, stimulus for production, and immunoglobulin class.",
+     "a": "Correct answer: Anti-A/anti-B are 'natural' antibodies: appear by 3-6 months of age without known exposure, stimulated by cross-reacting bacterial polysaccharides in gut flora, predominantly IgM (large, do not cross placenta). Anti-D are 'immune' antibodies: appear *only* after exposure to Rh-positive blood (transfusion or pregnancy), stimulated by foreign D antigen, predominantly IgG (small, cross placenta). A wrong answer (e.g., saying anti-D are naturally present) reveals confusion between the two systems' immunology, leading to inability to explain why first Rh-incompatible pregnancy is usually safe but first ABO-incompatible transfusion is dangerous.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In erythroblastosis foetalis, the mother's anti-D antibodies destroy foetal RBCs because the foetus inherits the Rh-positive antigen from the father. Therefore, giving the mother anti-D immunoglobulin *during* her first pregnancy will prevent the disease in the current baby.\"",
+     "a": "Correct evaluation: The statement is **false** on two counts. (1) Anti-D immunoglobulin (RhoGAM) is given *after* delivery (or at 28 weeks + after delivery), not during the first pregnancy to protect the *current* baby — it prevents sensitisation for *future* pregnancies. (2) In the first pregnancy, the mother is usually not yet sensitised; the current baby is unaffected. The antibodies harm *subsequent* Rh-positive foetuses. A wrong evaluation shows the student misunderstands the timeline of sensitisation and the prophylactic purpose of anti-D immunoglobulin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step laboratory procedure (using only anti-A, anti-B, and anti-D sera) to determine the ABO and Rh group of an unknown blood sample. Include a table showing expected agglutination results for all 8 blood groups (A+, A-, B+, B-, AB+, AB-, O+, O-).",
+     "a": "Good answer criteria: Procedure: (1) Place three drops of blood sample on a slide/tile. (2) Add anti-A to drop 1, anti-B to drop 2, anti-D to drop 3. (3) Mix and rock for 2 minutes. (4) Observe for agglutination (clumping). Table must correctly map: A+ = agglutination with anti-A and anti-D only; A- = anti-A only; B+ = anti-B and anti-D; B- = anti-B only; AB+ = all three; AB- = anti-A and anti-B; O+ = anti-D only; O- = none. A poor answer (missing Rh testing, wrong agglutination pattern for AB/O) reveals the student cannot translate the antigen-antibody logic into a practical diagnostic algorithm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

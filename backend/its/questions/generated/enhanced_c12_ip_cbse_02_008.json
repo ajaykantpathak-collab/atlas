@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_008",
+   "title": "c12_ip_cbse_02_008",
+   "questions": [
+    {
+     "q": "What is the default behavior of `Series.mean()` when the Series contains NaN values?",
+     "a": "`Series.mean()` skips NaN values by default and computes the mean of the remaining non-null values. A wrong answer (e.g., \"it returns NaN\" or \"it raises an error\") reveals that the student confuses Pandas' default `skipna=True` with NumPy's behavior or thinks missing values propagate like in arithmetic operations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `Series.mode()` and `Series.mean()` in terms of what they measure and the type of output they return.",
+     "a": "`mean()` returns a single float (central tendency via arithmetic average), while `mode()` returns a Series of the most frequent value(s) — there can be multiple modes. A wrong answer that says both return a single number or that mode returns a scalar shows the student hasn't grasped that mode can be multimodal and returns a Series, not a scalar.",
+     "self_check": true
+    },
+    {
+     "q": "Given a Series `s = pd.Series([10, 20, 30, 40, 50, 1000])`, compute the mean and median manually, then explain why they differ and which better represents the \"typical\" value.",
+     "a": "Mean = (10+20+30+40+50+1000)/6 = 1150/6 ≈ 191.67. Median = (30+40)/2 = 35. The mean is pulled up by the outlier 1000; the median is robust. The median better represents the typical value. A wrong answer that picks the mean or doesn't mention the outlier shows inability to interpret measures of central tendency in skewed data.",
+     "self_check": true
+    },
+    {
+     "q": "A DataFrame `df` has columns 'Math', 'Physics', 'Chemistry' with marks of 50 students. You run `df.describe()`. The output shows 'std' for Math = 15.2, Physics = 8.7, Chemistry = 22.1. Which subject has the most consistent performance? Justify using the standard deviation.",
+     "a": "Physics has the most consistent performance because it has the lowest standard deviation (8.7), meaning marks are clustered closest to the mean. A wrong answer that picks the highest std or confuses consistency with average shows misunderstanding of standard deviation as a measure of spread.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Since `describe()` gives count, mean, std, min, 25%, 50%, 75%, max, we don't need to call `median()` separately.\" Is it always true? When might you still need `median()`?",
+     "a": "`describe()` includes the 50th percentile which is the median, so for numeric data it's redundant. However, `median()` is still useful when you want only the median without the full summary, or when chaining methods, or for non-numeric columns where `describe()` behaves differently. A wrong answer that says \"always true\" or \"never true\" shows lack of nuance about API design and use cases.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (5-6 values) where the mean, median, and mode are all different. Write the Pandas code to compute them and explain what the differences tell you about the data's shape.",
+     "a": "Example: `s = pd.Series([1, 2, 2, 3, 100])`. Mean = 21.6, Median = 2, Mode = 2. The large gap between mean and median indicates right skew; the mode equals median shows a peak at the lower end. A good answer includes code, output, and interpretation. A poor answer gives symmetric data or fails to link differences to skewness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

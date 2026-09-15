@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_8",
+   "title": "c8_math_ch2_8",
+   "questions": [
+    {
+     "q": "State the rule for dividing powers with the same base using the formula \\(a^m \\div a^n\\). What condition must be true about the base \\(a\\)?",
+     "a": "The rule is \\(a^m \\div a^n = a^{m-n}\\) for \\(a \\neq 0\\). A wrong answer such as \\(a^{m+n}\\) or \\(a^{m \\times n}\\) reveals the student is confusing the quotient rule with the product rule \\((a^m \\times a^n = a^{m+n})\\) or the power of a power rule \\((a^m)^n = a^{mn}\\). Forgetting the condition \\(a \\neq 0\\) indicates a gap in understanding that division by zero is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(5^7 \\div 5^4 = 5^3\\) by writing both powers in expanded form and showing the cancellation. Why does subtraction of exponents work here?",
+     "a": "\\(5^7 = 5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5\\) and \\(5^4 = 5 \\times 5 \\times 5 \\times 5\\). Cancelling four 5's from numerator and denominator leaves three 5's, which is \\(5^3\\). Subtraction works because each factor in the denominator cancels exactly one factor in the numerator, reducing the total count by the exponent of the denominator. A student who cannot show the cancellation or says \"we subtract because the rule says so\" lacks conceptual understanding of why the rule holds.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: \\( \\frac{7^{10}}{7^4} \\times 7^2 \\). Show all steps.",
+     "a": "Step 1: Apply quotient rule: \\(7^{10} \\div 7^4 = 7^{10-4} = 7^6\\). Step 2: Apply product rule: \\(7^6 \\times 7^2 = 7^{6+2} = 7^8\\). Final answer: \\(7^8\\). A wrong answer like \\(7^{16}\\) (adding all exponents) or \\(7^4\\) (subtracting then subtracting again) reveals the student does not know the order of operations for combined exponent rules or mixes up product and quotient rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of \\( \\frac{2^8}{2^5} \\) and \\( \\frac{2^5}{2^8} \\). What do you notice about the exponents in the answers? Can you write a general statement for \\( \\frac{a^m}{a^n} \\) when \\( m < n \\)?",
+     "a": "\\( \\frac{2^8}{2^5} = 2^{3} = 8 \\). \\( \\frac{2^5}{2^8} = 2^{-3} = \\frac{1}{2^3} = \\frac{1}{8} \\). When \\( m < n \\), the result is \\( a^{m-n} \\) which is a negative exponent, meaning the reciprocal of the positive power. A student who says the second is \"undefined\" or \"zero\" does not yet grasp that the subtraction rule extends to negative exponents, a concept formally introduced in higher classes but hinted here.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified \\( \\frac{3^9}{3^3} \\) as \\( 3^3 \\). Is this correct? If not, identify the error and give the correct simplification.",
+     "a": "The student is incorrect. The error is subtracting incorrectly: \\(9 - 3 = 6\\), not 3. The correct simplification is \\(3^{9-3} = 3^6\\). A student who agrees with the error may be dividing the exponents (\\(9 \\div 3 = 3\\)) instead of subtracting them, confusing the quotient rule with the power of a power rule where exponents are multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using rupees, metres, or litres) that requires using the rule \\(a^m \\div a^n = a^{m-n}\\) to solve. Write the problem and solve it.",
+     "a": "Example problem: \"A water tank holds \\(10^6\\) litres of water. If each household uses \\(10^3\\) litres per day, how many days will the water last for one household?\" Solution: \\(10^6 \\div 10^3 = 10^{6-3} = 10^3 = 1000\\) days. A good answer includes a clear scenario with same base (10), correct application of the rule, and interpretation of the result. A poor answer uses different bases, does not require division of powers, or solves by repeated subtraction instead of the exponent rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

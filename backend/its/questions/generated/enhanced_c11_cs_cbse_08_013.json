@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_013",
+   "title": "c11_cs_cbse_08_013",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nimport math\nprint(math.pi)\nfrom math import pi\nprint(pi)\n```",
+     "a": "The code prints `3.141592653589793` twice. The first `import math` loads the module; `math.pi` accesses the name through the module namespace. The second `from math import pi` binds the name `pi` directly in the global namespace, so `print(pi)` works without the prefix. A wrong answer (e.g., `NameError` on the second print) reveals the student thinks `from-import` does not actually bind the name or that the two imports conflict.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a `NameError` and how to fix it without changing the import statement.\n```python\nfrom math import sqrt, pi\nresult = math.sqrt(16) + math.pi\n```",
+     "a": "The `from-import` statement binds only `sqrt` and `pi` into the current namespace; the module name `math` itself is NOT imported. Hence `math.sqrt` and `math.pi` are undefined. Fix: either change the call to `sqrt(16) + pi` (using the imported names directly) or change the import to `import math` and keep the qualified names. A wrong answer (e.g., \"add `import math`\") shows the student doesn't understand that `from-import` deliberately avoids bringing the module name into scope.",
+     "self_check": true
+    },
+    {
+     "q": "You are writing a program that uses `sqrt` from `math` and a user-defined function also named `sqrt` in the same file. Which import style minimizes the risk of name collision, and write the exact import statement you would use.",
+     "a": "Use `import math` and call `math.sqrt()`. This keeps the standard-library `sqrt` inside the `math` namespace, leaving the global name `sqrt` free for your function. Writing `from math import sqrt` would overwrite your function (or vice versa) because both would bind to the same global name `sqrt`. A wrong answer choosing `from-import` reveals the student thinks convenience outweighs namespace safety.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and startup-time implications of `import math` versus `from math import *` in a long-running server process that only uses `math.sqrt` and `math.pi`. Which is preferable and why?",
+     "a": "`import math` is preferable. `from math import *` imports all ~60 names from the module into the global namespace, increasing memory footprint and namespace lookup time slightly, and pollutes the namespace with unused names (e.g., `math.gamma`, `math.hypot`). `import math` loads the module once and keeps all names under one attribute lookup (`math.sqrt`). A wrong answer claiming `from-import *` is faster because \"it only loads what you need\" shows confusion: `*` loads everything, while qualified access loads the module object once regardless of how many names you use.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\nimport random as r\nfrom random import randint\nprint(r.randint(1, 6))\nprint(randint(1, 6))\n```\nCritique this code: is it redundant, erroneous, or acceptable? Justify.",
+     "a": "It is redundant but not erroneous. `import random as r` loads the module and binds it to `r`; `from random import randint` additionally binds `randint` directly in the global namespace. Both calls work identically. However, maintaining two import styles for the same module is poor practice — it confuses readers and doubles the namespace bindings. A better style: pick one (`import random as r` and use `r.randint`, OR `from random import randint` and use `randint`). A wrong answer calling it \"erroneous\" shows the student thinks Python forbids mixing import styles for the same module.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tiny \"module demo\" script that proves to a classmate that `from module import name` does NOT import the module object itself. The script must run without errors and print a clear message.",
+     "a": "```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

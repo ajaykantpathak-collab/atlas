@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_engl_ch02_012",
+ "concepts": [
+  {
+   "id": "enh:c7_engl_ch02_012",
+   "title": "c7_engl_ch02_012",
+   "questions": [
+    {
+     "q": "What is the term used to describe the pattern of rhymes at the end of each line of a poem?",
+     "a": "The correct term is \"rhyme scheme.\" A student who answers \"rhythm\" is confusing the sound pattern of line endings with the overall beat or musical pace of the poem. A student who answers \"stanza\" is confusing the structural grouping of lines with the sound pattern itself.",
+     "self_check": true
+    },
+    {
+     "q": "If a four-line stanza has lines ending with the words \"tree\" (A), \"bee\" (A), \"sky\" (B), and \"high\" (B), how is the rhyme scheme properly written?",
+     "a": "The rhyme scheme is written as \"AABB.\" A student who writes \"ABAB\" fails to recognize that lines 1 and 2 rhyme with each other, and lines 3 and 4 rhyme with each other, rather than alternating. A student who writes \"ABCD\" cannot distinguish between rhyming words and non-rhyming words.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a short stanza where line 1 ends with \"cat\", line 2 ends with \"dog\", line 3 ends with \"mat\", and line 4 ends with \"frog\". Determine the correct rhyme scheme.",
+     "a": "Step 1: Identify the ending words: line 1 (\"cat\"), line 2 (\"dog\"), line 3 (\"mat\"), line 4 (\"frog\"). Step 2: Assign 'A' to the sound of \"cat\". Step 3: \"Dog\" does not rhyme with \"cat\", so assign 'B'. Step 4: \"Mat\" rhymes with \"cat\", so assign 'A'. Step 5: \"Frog\" rhymes with \"dog\", so assign 'B'. The rhyme scheme is ABAB. A student who writes AABB is matching adjacent lines instead of listening for the alternating rhyme pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Read the following two descriptions of rhythm in animal poems: Poem X reads with a fast, skipping beat like a bouncing ball, while Poem Y reads with a slow, heavy, marching beat like an elephant. How does this difference in rhythm affect the mood of each poem?",
+     "a": "Poem X's fast rhythm creates a playful, energetic, and humorous mood, fitting for a mischievous animal like a monkey. Poem Y's slow, heavy rhythm creates a solemn, majestic, or ponderous mood, fitting for a large animal like an elephant. A student who states that rhythm has no effect on mood fails to connect the auditory beat of the words to emotional tone and human perception.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that any poem with rhyming words at the end of every line must automatically have a happy and humorous tone. Evaluate this claim using your knowledge of poetry analysis.",
+     "a": "The claim is false because rhyme scheme and rhythm create structure, but tone depends on word choice and imagery. For example, a poem can have an AABB rhyme scheme while describing a lonely, freezing animal in a winter storm, resulting in a sorrowful or sympathetic tone rather than a humorous one. A student who agrees with the claim confuses the structural device of rhyming with the emotional theme of the content.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza about an animal (such as a clever owl or a jumping frog) that follows an AABB rhyme scheme and has an upbeat rhythm.",
+     "a": "The expected answer should feature four lines where line 1 rhymes with line 2 (A), and line 3 rhymes with line 4 (B), with a bouncy, consistent syllable count. Example: \"The little frog upon the stone, / Would never sit and sigh alone. / He leaped into the cooling stream, / And woke up from a sunny dream.\" A poor answer would lack a clear rhyme pattern or have erratic line lengths that disrupt the rhythm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "catalog": "catalog_class12_accountancy_leca104",
+ "concepts": [
+  {
+   "id": "leca104.1",
+   "title": "Graphs and Charts: Meaning and Business Uses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Graphs and Charts: Meaning and Business Uses' refers to.",
+     "a": "A graph is a pictorial presentation of data carrying at least a two-dimensional relationship, drawn on a horizontal X-axis and a vertical Y-axis; it may be single-line or multiple-line, with distinct line styles and colours separating the lines. Charts turn a mass of raw figures into a picture that communicates accounting information faster than tables -- a picture being worth more than a thousand words.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Graphs and Charts: Meaning and Business Uses'.",
+     "a": "Raw figures hide their message; a two-axis picture delivers it at a glance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Graphs and Charts: Meaning and Business Uses', in plain ASCII form.",
+     "a": "graph_axes = horizontal_x plus vertical_y",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.2",
+   "title": "Quarter-wise Sales Totals for Charting",
+   "questions": [
+    {
+     "q": "Find the annual total sales that the quarter-wise graph of ABC Manufacturing displays. Use the method 'Quarter-wise Sales Totals for Charting'. Work with: qtr1_sales = 20000, qtr2_sales = 8000, qtr3_sales = 80000, qtr4_sales = 20000. Carry the chain through step by step and give the final value of annual_total.",
+     "a": "128000 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the year total from four quarterly figures before plotting the sales graph. Use the method 'Quarter-wise Sales Totals for Charting'. Work with: qtr1_sales = 8000, qtr2_sales = 2500, qtr3_sales = 500, qtr4_sales = 8000. Carry the chain through step by step and give the final value of annual_total.",
+     "a": "19000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Quarter-wise Sales Totals for Charting' refers to.",
+     "a": "Before charting, the worksheet totals the data: row totals give quarter-wise sales of all products and column totals give product-wise sales, with the corner cell holding the overall total. For the sample year 2007-08 of ABC Manufacturing Company, the four quarterly totals add up to the annual sales figure that the chart then displays period-wise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Quarter-wise Sales Totals for Charting'.",
+     "a": "Add the four quarterly totals to get the annual sales figure the chart will show period-wise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Quarter-wise Sales Totals for Charting', in plain ASCII form.",
+     "a": "annual_total = qtr1_sales + qtr2_sales + qtr3_sales + qtr4_sales",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.3",
+   "title": "Pie Chart Percentage Share",
+   "questions": [
+    {
+     "q": "Using the method 'Pie Chart Percentage Share', work with: slice_value = 1200, whole_total = 30. Carry the chain through step by step and give the final value of slice_pct.",
+     "a": "4000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pie Chart Percentage Share' and work with: slice_value = 5000, whole_total = 15. Carry the chain through step by step and give the final value of slice_pct.",
+     "a": "33333.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pie Chart Percentage Share' refers to.",
+     "a": "In a pie chart every slice shows the size of one item proportionately, and all slices together equal 100 per cent of the whole. A slice's percentage is its value divided by the total of all values, multiplied by 100 -- the same arithmetic the software applies when it labels the parts of the pie.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pie Chart Percentage Share'.",
+     "a": "Divide the part by the whole and multiply by 100 -- the slices must always sum to 100 per cent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pie Chart Percentage Share', in plain ASCII form.",
+     "a": "slice_pct = slice_value / whole_total * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.4",
+   "title": "Product Series Totals for Radar Comparison",
+   "questions": [
+    {
+     "q": "Compute the aggregate of a data series before plotting it on a radar chart. Use the method 'Product Series Totals for Radar Comparison'. Work with: p1_value = 80000, p2_value = 500, p3_value = 500, p4_value = 20000, p5_value = 8000, p6_value = 2500. Carry the chain through step by step and give the final value of series_total.",
+     "a": "111500 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the combined lowest-sales figure of the six personal-care products. Use the method 'Product Series Totals for Radar Comparison'. Work with: p1_value = 80000, p2_value = 500, p3_value = 80000, p4_value = 2500, p5_value = 50000, p6_value = 20000. Carry the chain through step by step and give the final value of series_total.",
+     "a": "233000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Product Series Totals for Radar Comparison' refers to.",
+     "a": "A radar chart compares the aggregate values of several data series without any category axis. For the personal-care products table, each series -- lowest sales and highest sales -- totals across six products: toothpaste, toothbrush, hair oil, shampoo, toilet soap and bath soap; the two totals then anchor the comparison the radar chart draws.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Product Series Totals for Radar Comparison'.",
+     "a": "Total each data series across all products before the radar chart compares the aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Product Series Totals for Radar Comparison', in plain ASCII form.",
+     "a": "series_total = p1_value + p2_value + p3_value + p4_value + p5_value + p6_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.5",
+   "title": "Vehicle Registration Total for the RTO Pie Chart",
+   "questions": [
+    {
+     "q": "Compute the registration total before drawing the RTO pie chart. Use the method 'Vehicle Registration Total for the RTO Pie Chart'. Work with: auto_count = 15, bus_count = 24, car_count = 45, heavy_count = 45, truck_count = 500, two_wheeler_count = 4. Carry the chain through step by step and give the final value of registered_total.",
+     "a": "633 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the combined registrations when each vehicle type's count is known. Use the method 'Vehicle Registration Total for the RTO Pie Chart'. Work with: auto_count = 100, bus_count = 40, car_count = 25, heavy_count = 10, truck_count = 300, two_wheeler_count = 40. Carry the chain through step by step and give the final value of registered_total.",
+     "a": "515 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Vehicle Registration Total for the RTO Pie Chart' refers to.",
+     "a": "A pie chart of vehicles registered in a city during 2007-08 needs the registration total first: buses, trucks, auto-rickshas, cars, two-wheelers and heavy vehicles each contribute their count, and the six counts add to the whole that the pie divides into percentage slices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Vehicle Registration Total for the RTO Pie Chart'.",
+     "a": "The pie can only divide a whole, so total all vehicle types before slicing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Vehicle Registration Total for the RTO Pie Chart', in plain ASCII form.",
+     "a": "registered_total = bus_count + truck_count + auto_count + car_count + two_wheeler_count + heavy_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.6",
+   "title": "Marks Distribution Total and Column Chart Share",
+   "questions": [
+    {
+     "q": "Using the method 'Marks Distribution Total and Column Chart Share', work with: band1_count = 5, band2_count = 18, band3_count = 360, band4_count = 6, band5_count = 75. Carry the chain through step by step and give the final value of students_total.",
+     "a": "464 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Marks Distribution Total and Column Chart Share' and work with: band1_count = 5, band2_count = 500, band3_count = 60, band4_count = 24, band5_count = 30. Carry the chain through step by step and give the final value of students_total.",
+     "a": "619 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marks Distribution Total and Column Chart Share' refers to.",
+     "a": "A column chart of students' marks bands first totals the distribution: the five class intervals from 0-20 to 81-100 together hold all the students examined. Each band's share of that total shows how the class spread across the intervals, the comparison the column chart draws bar by bar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marks Distribution Total and Column Chart Share'.",
+     "a": "Sum the marks bands to the full cohort, then the columns compare each band's count.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marks Distribution Total and Column Chart Share', in plain ASCII form.",
+     "a": "students_total = band1_count + band2_count + band3_count + band4_count + band5_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.7",
+   "title": "Elements of a Chart",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elements of a Chart' refers to.",
+     "a": "Every chart carries named elements: the chart area covering the entire chart; the plot area bounded by the axes in 2-D and by three axes in 3-D; data points plotted as bars, columns, lines or pie slices, where same-coloured markers form a data series; the horizontal category axis carrying independent values and the vertical value axis carrying dependent values; the legend identifying each series by colour or pattern; chart and axis titles; and data labels that spell out a marker's details.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elements of a Chart'.",
+     "a": "From the outer chart area to the smallest data label, each named element plays one role in reading the picture.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Elements of a Chart', in plain ASCII form.",
+     "a": "chart_parts = chart_area plus plot_area plus data_series plus axes plus legend plus titles plus labels",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.8",
+   "title": "Choosing Chart Types: Pie, Column, Line, Doughnut and Radar",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Choosing Chart Types: Pie, Column, Line, Doughnut and Radar' refers to.",
+     "a": "Each chart type answers a different question. A pie chart shows the relative share of parts in one whole; a column or bar chart compares absolute values of items or time periods; a line chart traces changes over time; a doughnut chart relates parts to a whole across more than one series, each ring one series, though it reads poorly and a stacked column often serves better; a radar chart compares aggregate values of several series without category axes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Choosing Chart Types: Pie, Column, Line, Doughnut and Radar'.",
+     "a": "Shares go to pie, comparisons to columns, trends to lines, multi-series wholes to doughnuts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Choosing Chart Types: Pie, Column, Line, Doughnut and Radar', in plain ASCII form.",
+     "a": "chart_choice = pie for share plus column for comparison plus line for trends",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.9",
+   "title": "Conditions for a Pie Chart",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Conditions for a Pie Chart' refers to.",
+     "a": "Excel can turn a column or bar chart into a pie in a few clicks, but the data must qualify: only one data series is plotted, the plotted values are positive, and no value equals zero. Also, a pie cannot carry more than seven categories, because the categories are the parts of the whole pie.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Conditions for a Pie Chart'.",
+     "a": "One positive series and at most seven categories -- otherwise the pie misrepresents the whole.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Conditions for a Pie Chart', in plain ASCII form.",
+     "a": "pie_rules = one_series plus positive_values plus at most seven_categories",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.10",
+   "title": "2-D and 3-D Charts and Their Axes",
+   "questions": [
+    {
+     "q": "Explain in your own words what '2-D and 3-D Charts and Their Axes' refers to.",
+     "a": "A 2-D chart plots on two axes: the horizontal category axis takes the independent known values -- months, quarters, products -- and the vertical value axis takes the dependent derived values. Negative values fall on the far side of the origin, so profit and loss plot above and below the axis. A 3-D chart adds the depth or series axis, the Z-axis, plotting along the depth -- as representing volume needs height, length and breadth together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about '2-D and 3-D Charts and Their Axes'.",
+     "a": "X carries categories, Y carries values, and only 3-D adds the Z depth axis.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for '2-D and 3-D Charts and Their Axes', in plain ASCII form.",
+     "a": "chart_axes = category_x plus value_y plus depth_z in three dimensions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.11",
+   "title": "Formatting Charts with Design, Layout and Format",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formatting Charts with Design, Layout and Format' refers to.",
+     "a": "Clicking a chart raises the Chart Tools with three tabs. Design changes chart type, layouts and styles, and its Switch Row/Column swaps the plotted data between axes. Format handles the selected element's look: shape fill with colours, pictures, gradients or textures, outline colour, weight and dashes, effects like shadow and bevel, and WordArt text styles. Layout inserts pictures, clip art, data labels and gridlines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formatting Charts with Design, Layout and Format'.",
+     "a": "Design restyles the whole chart, Layout adds insertions, Format dresses the selected element.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Formatting Charts with Design, Layout and Format', in plain ASCII form.",
+     "a": "format_tabs = design plus layout plus format",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.12",
+   "title": "Steps to Create, Resize and Move a Chart",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Steps to Create, Resize and Move a Chart' refers to.",
+     "a": "Chart-making follows a fixed order: enter data with proper row and column titles; create the basic chart from the chart groups on the ribbon; change its layout or style; add or remove chart titles, axis titles and data labels; show or hide the legend; display or hide axes and gridlines; move or resize the chart -- dragging its borders with the two-headed arrow cursor; and finally save it. Excel redraws the chart automatically whenever the underlying data or range changes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steps to Create, Resize and Move a Chart'.",
+     "a": "Data first, chart type next, then dress it with titles, legend and gridlines, resize, and save.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Steps to Create, Resize and Move a Chart', in plain ASCII form.",
+     "a": "chart_steps = enter_data plus insert_type plus style plus labels plus legend plus move_resize plus save",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca104.13",
+   "title": "Advantages of Graphs: Explore, Present, Convince",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Advantages of Graphs: Explore, Present, Convince' refers to.",
+     "a": "Graphs serve three purposes. They help explore -- testing whether variables relate, say a country's GNP and infant mortality, is quicker on a chart than paging through raw data. They help present -- conveying information in the least time, as newspapers and newsmagazines understood early. And they help convince -- distilling large amounts of information into displays that persuade, and exposing trends even in highly random data such as stock prices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Advantages of Graphs: Explore, Present, Convince'.",
+     "a": "Charts explore relationships, present them fastest, and convince an audience of them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Advantages of Graphs: Explore, Present, Convince', in plain ASCII form.",
+     "a": "graph_purpose = explore plus present plus convince",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

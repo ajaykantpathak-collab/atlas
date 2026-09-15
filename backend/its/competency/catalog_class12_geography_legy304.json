@@ -1,0 +1,250 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 30,
+ "chapter_title": "Use of Computer in Data Processing and Mapping",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy304.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.304.1",
+   "title": "Computer System: Hardware and Software",
+   "section": "Computer System",
+   "definition": "A computer system combines hardware - the physical units of input, central processing, memory and output - with software, the programmes that instruct it; system software manages the machine while application software such as databases and spreadsheets does the user's work.",
+   "formula": "",
+   "key_idea": "Input, processing, storage and output form the data cycle every computer runs, whether desktop or server.",
+   "textbook_ref": "legy304.txt hardware components and software types sections",
+   "question_patterns": [
+    "name the hardware components of a computer system",
+    "differentiate system software from application software",
+    "what does the central processing unit do",
+    "compare primary and secondary memory",
+    "list input and output devices used in mapping work",
+    "why is software the set of instructions for hardware"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the system",
+     "explain": "hardware is physical machinery, software is its instructions"
+    },
+    {
+     "step": 2,
+     "action": "trace the data cycle",
+     "explain": "data enter, are processed, stored and output as tables or maps"
+    },
+    {
+     "step": 3,
+     "action": "close with memory",
+     "explain": "primary memory works instantly, secondary memory stores permanently"
+    }
+   ]
+  },
+  {
+   "id": "legy.304.2",
+   "title": "Databases for Geographic Data",
+   "section": "Database Management Systems",
+   "definition": "A database management system stores geographic data as organised tables of records and fields that can be sorted, queried and joined; attributes of villages, districts or weather stations sit in rows that software can filter and summarise instantly.",
+   "formula": "",
+   "key_idea": "Structured tables turn repetitive clerical work - sorting, totalling, searching - into single commands.",
+   "textbook_ref": "legy304.txt database structure and query discussion",
+   "question_patterns": [
+    "define a database and a database management system",
+    "what are records and fields in a data table",
+    "how does a query filter database records",
+    "explain sorting and joining of tables",
+    "why do geographers need databases for census data",
+    "give an example of an attribute table for districts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "structure the table",
+     "explain": "rows hold records for each village or district, columns hold fields like literacy"
+    },
+    {
+     "step": 2,
+     "action": "query the data",
+     "explain": "a query selects records meeting a condition, such as density above a threshold"
+    },
+    {
+     "step": 3,
+     "action": "close with joining",
+     "explain": "joining attribute tables to map units powers thematic mapping"
+    }
+   ]
+  },
+  {
+   "id": "legy.304.3",
+   "title": "Computer-Assisted Computation",
+   "section": "Data Processing with Computers",
+   "definition": "Spreadsheet-style software computes means, totals and ratios over entire columns at once; entering village populations and areas, the computer evaluates the density for every row and even averages the results, replacing hours of manual arithmetic.",
+   "formula": "average_density = sum_of_densities / number_of_rows",
+   "key_idea": "The computer evaluates average density as the sum of all row densities divided by the number of rows.",
+   "textbook_ref": "legy304.txt computation capabilities and data processing with computers",
+   "question_patterns": [
+    "how does spreadsheet software compute column totals",
+    "compute average density over a set of district rows",
+    "why is computer computation less error-prone",
+    "state the steps of a computed column in a data table",
+    "compare manual and computer data processing",
+    "what functions summarise a data column quickly"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the row values",
+     "explain": "the software totals the density column",
+     "compute": "sum_of_densities = density_1 + density_2 + density_3"
+    },
+    {
+     "step": 2,
+     "action": "divide by the row count",
+     "explain": "the average over all rows gives the overall density",
+     "compute": "average_density = sum_of_densities / number_of_rows"
+    }
+   ]
+  },
+  {
+   "id": "legy.304.4",
+   "title": "Computer Mapping and Its Advantages",
+   "section": "Computer Mapping",
+   "definition": "Computer mapping converts attribute tables into thematic maps automatically - choropleth shades, dot patterns and symbols drawn to scale - allowing quick redesign of classes, colours and layouts, which manual cartography achieved only through slow redrafting.",
+   "formula": "",
+   "key_idea": "Digital maps are editable arguments: change the classification and the same data argues differently, in minutes.",
+   "textbook_ref": "legy304.txt computer mapping capabilities and advantages sections",
+   "question_patterns": [
+    "how does software convert data tables into thematic maps",
+    "list the advantages of computer mapping over manual maps",
+    "what map elements can be redesigned digitally",
+    "explain choropleth shading by computer",
+    "relate databases to computer maps",
+    "state the limitations of computer mapping"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "join data to map",
+     "explain": "attribute tables link to area units for shading"
+    },
+    {
+     "step": 2,
+     "action": "redesign quickly",
+     "explain": "classes, colours and legends change without redrafting"
+    },
+    {
+     "step": 3,
+     "action": "close with output",
+     "explain": "print-quality thematic maps emerge from the same table"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy304_1",
+   "source_ref": "legy304.txt computation section",
+   "concept": "legy.304.3",
+   "question_type": "compute",
+   "question_pattern": "Three district rows carry densities 320, 410 and 390 persons per sq km. Compute the average density.",
+   "extracted_variables": {
+    "density_1": 320,
+    "density_2": 410,
+    "density_3": 390,
+    "number_of_rows": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the densities",
+     "explain": "320 + 410 + 390 gives the column total",
+     "compute": "sum_of_densities = density_1 + density_2 + density_3"
+    },
+    {
+     "step": 2,
+     "action": "divide by rows",
+     "explain": "total over three rows is the average",
+     "compute": "average_density = sum_of_densities / number_of_rows"
+    }
+   ]
+  },
+  {
+   "id": "we_legy304_2",
+   "source_ref": "legy304.txt database section",
+   "concept": "legy.304.2",
+   "question_type": "short_answer",
+   "question_pattern": "Design a district attribute table: name its fields and give one query.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "name the fields",
+     "explain": "district, population, area, density, literacy rate"
+    },
+    {
+     "step": 2,
+     "action": "write the query",
+     "explain": "select districts where density exceeds 500 persons per sq km"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the filtered rows become inputs for a choropleth map"
+    }
+   ]
+  },
+  {
+   "id": "we_legy304_3",
+   "source_ref": "legy304.txt computer mapping section",
+   "concept": "legy.304.4",
+   "question_type": "short_answer",
+   "question_pattern": "Give two advantages of computer mapping over manual cartography.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "speed of revision",
+     "explain": "changing classification or colours needs no redrafting"
+    },
+    {
+     "step": 2,
+     "action": "accuracy and storage",
+     "explain": "digital maps store exactly and reproduce identically"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "revision speed invites experimentation with map arguments"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy304_1",
+   "source_ref": "legy304.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "name hardware components and software types",
+    "compute average density over computer-stored district rows",
+    "explain database records, fields and queries",
+    "describe how computers draw thematic maps",
+    "list advantages and limitations of computer mapping"
+   ]
+  },
+  {
+   "id": "ex_legy304_2",
+   "source_ref": "legy304.txt applied questions, reworded",
+   "questions": [
+    "plan a computer workflow from field data to map",
+    "relate spreadsheets to geographic data processing",
+    "evaluate digital maps for school projects",
+    "design queries for a census attribute table",
+    "discuss GIS as an extension of computer mapping"
+   ]
+  }
+ ]
+}

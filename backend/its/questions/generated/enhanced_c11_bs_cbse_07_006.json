@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_006",
+   "title": "c11_bs_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the legal significance of the date printed on the Certificate of Incorporation?",
+     "a": "The date on the Certificate of Incorporation is the legal \"date of birth\" of the company. From this date, the company acquires a distinct legal personality, perpetual succession, and the capacity to contract, sue, and be sued in its own name. A wrong answer (e.g., \"the date the certificate is physically received\" or \"the date of application\") reveals the student confuses the administrative issuance date with the statutory deemed date of incorporation, a critical distinction for contract validity.",
+     "self_check": true
+    },
+    {
+     "q": "If a promoter forges the signatures of two subscribers on the Memorandum of Association, and the ROC issues a Certificate of Incorporation without detecting the forgery, can the company's existence be challenged later by a creditor who suffered losses?",
+     "a": "No, the company's existence cannot be challenged. The Certificate of Incorporation is conclusive evidence of the regularity of incorporation under Section 7(2) of the Companies Act, 2013. Even if the registration involved forgery, procedural defects, or illegal objects, the certificate cannot be invalidated retrospectively. The only remedy is winding up the company. A wrong answer (\"yes, because forgery voids the registration\") shows the student misunderstands the doctrine of conclusive evidence, which protects third parties dealing with the company.",
+     "self_check": true
+    },
+    {
+     "q": "A public company receives its Certificate of Incorporation on 1st April. The directors sign a lease agreement for office premises on 5th April. The company has not yet obtained the Certificate of Commencement of Business. Is the lease agreement legally binding on the company?",
+     "a": "Yes, the lease agreement is binding. The Certificate of Incorporation (1st April) gives the company legal personality and contractual capacity immediately. The Certificate of Commencement of Business is required only to *start business operations* (like borrowing, trading), not to enter into preliminary contracts for setting up the business. A wrong answer (\"no, because business cannot commence without the commencement certificate\") confuses the capacity to contract (from incorporation) with the authority to commence business (from commencement certificate).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal effect of the Certificate of Incorporation on a private company versus a public company. What additional step must a public company complete before it can exercise borrowing powers?",
+     "a": "Both private and public companies acquire legal personality, perpetual succession, and contractual capacity from the date of the Certificate of Incorporation. However, a public company cannot exercise borrowing powers or commence *any* business (including preliminary contracts for operations) until it obtains the Certificate of Commencement of Business (within 180 days of incorporation). A private company can commence business immediately upon incorporation. A wrong answer that treats both identically misses the statutory distinction in Section 11 of the Companies Act, 2013.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since the Certificate of Incorporation is conclusive evidence of registration, a company formed with the main object of 'manufacturing illegal drugs' cannot be challenged in court and continues to exist legally.\" Evaluate this statement.",
+     "a": "The statement is partially correct but dangerously incomplete. The certificate *is* conclusive evidence of the company's *legal existence* (birth), even with illegal objects. However, the company cannot *legally pursue* those objects. The Registrar or any member can petition the Tribunal for winding up on the ground that the company was formed for fraudulent/unlawful purposes (Section 271). The certificate protects the *fact of incorporation*, not the *legality of operations*. A wrong answer that says \"the company is fully legal\" or \"the certificate is void\" fails to distinguish between the *status* of the entity and the *validity of its objects*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a third party deals with a company *before* its Certificate of Incorporation is issued, but the certificate later bears an earlier date. Explain whether the third party can enforce the contract against the company, citing the specific legal principle.",
+     "a": "Scenario: Promoters of \"SolarBright Ltd\" sign a contract to purchase machinery on 5th January. Documents are filed with ROC on 6th January. ROC issues Certificate of Incorporation on 10th January, but the certificate states the date of incorporation as 6th January. The company can ratify the 5th January contract? No, the contract is *void ab initio* because the company did not exist on 5th January. The certificate's date (6th January) is the earliest date of existence. The principle: **The Certificate of Incorporation is conclusive evidence of incorporation *from the date stated therein*, not retrospectively for acts before that date.** A poor answer would claim the contract is valid because the certificate \"backdates\" existence, ignoring that the certificate only confirms existence *from its stated date* and cannot validate pre-incorporation acts (which remain personal liabilities of promoters).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

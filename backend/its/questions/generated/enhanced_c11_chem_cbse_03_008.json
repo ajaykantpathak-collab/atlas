@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_008",
+   "title": "c11_chem_cbse_03_008",
+   "questions": [
+    {
+     "q": "State the exact definition of first ionisation enthalpy including the physical state symbols and the sign convention for the enthalpy change.",
+     "a": "First ionisation enthalpy (ΔiH₁) is the enthalpy change when one mole of gaseous atoms in ground state loses one mole of electrons to form one mole of gaseous unipositive ions: X(g) → X⁺(g) + e⁻; ΔiH₁ > 0 (always positive). A wrong answer reveals confusion between ionisation enthalpy (energy input, positive) and electron gain enthalpy (energy release, often negative), or omission of \"gaseous\" and \"ground state\" specifications which are essential for standard state comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first ionisation enthalpy of boron (Z=5) is lower than beryllium (Z=4) despite boron having a higher nuclear charge.",
+     "a": "In Be (1s²2s²), the electron removed is a 2s-electron which penetrates closer to the nucleus and experiences less shielding. In B (1s²2s²2p¹), the electron removed is a 2p-electron which is more effectively shielded by the 2s² core and has lower penetration. Thus, despite higher Z, the 2p electron in B is easier to remove. A wrong answer indicates the student thinks nuclear charge alone determines IE, ignoring orbital penetration and shielding differences between s and p orbitals in the same shell.",
+     "self_check": true
+    },
+    {
+     "q": "Given: ΔiH₁(Na) = 496 kJ mol⁻¹, ΔiH₁(Mg) = 737 kJ mol⁻¹, ΔiH₁(Al) = 577 kJ mol⁻¹. Predict whether ΔiH₁(Si) will be closer to 760 or 575 kJ mol⁻¹ and justify using effective nuclear charge and orbital type.",
+     "a": "ΔiH₁(Si) ≈ 786 kJ mol⁻¹ (closer to 760). Reasoning: Si (3s²3p²) removes a 3p electron like Al, but nuclear charge increases by +1 with minimal extra shielding (3p electron shields poorly). Effective nuclear charge increases significantly across Period 3. The dip at Al occurs because its 3p¹ electron is shielded by 3s²; Si's 3p² electron experiences greater Z_eff. A wrong answer (choosing 575) shows failure to distinguish between the anomalous drop at Group 13 (p¹) and the general increasing trend across the period.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the first ionisation enthalpies of nitrogen (1402 kJ mol⁻¹) and oxygen (1314 kJ mol⁻¹). Analyse the electronic configurations to explain why oxygen's IE is lower despite higher nuclear charge.",
+     "a": "N: 1s²2s²2p³ (three unpaired electrons in separate 2p orbitals, Hund's rule). O: 1s²2s²2p⁴ (one 2p orbital has paired electrons). In oxygen, the paired electrons in one 2p orbital experience mutual repulsion, making one easier to remove. In nitrogen, all 2p electrons are unpaired and more stable. The electron-electron repulsion in O outweighs the increased nuclear charge. A wrong answer reveals misunderstanding of Hund's rule stability and electron-electron repulsion in paired vs unpaired orbitals.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The second ionisation enthalpy of sodium is higher than the first ionisation enthalpy of magnesium because Na⁺ has a higher nuclear charge than Mg.\" Identify the error and correct it.",
+     "a": "The statement is incorrect. ΔiH₂(Na) = 4562 kJ mol⁻¹ (removing electron from Ne-like core, 1s²2s²2p⁶) while ΔiH₁(Mg) = 737 kJ mol⁻¹ (removing 3s² valence electron). The huge jump for Na occurs because the second electron comes from a stable noble gas core (n=2), not because of nuclear charge comparison. The error confuses \"nuclear charge\" with \"principal quantum level of electron removed.\" Correct reasoning: ΔiH₂(Na) >> ΔiH₁(Mg) because core electrons (n=2) are much closer to nucleus than valence electrons (n=3).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using photoelectron spectroscopy (PES) data to distinguish between the ionisation energies of 2s and 2p electrons in carbon. Describe what the spectrum would show and how you would assign peaks.",
+     "a": "In PES of carbon (1s²2s²2p²), three peaks appear: lowest binding energy (≈11.3 eV) corresponds to 2p electrons (2 peaks if spin-orbit resolved), higher binding energy (≈16.6 eV) corresponds to 2s electrons (greater penetration, higher IE), and highest (≈290 eV) for 1s core. Peak areas ratio 2p:2s:1s = 2:2:2. A poor answer would show equal peak heights or miss that 2s electrons have higher ionisation energy than 2p due to better penetration, revealing failure to connect PES data to orbital energy ordering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

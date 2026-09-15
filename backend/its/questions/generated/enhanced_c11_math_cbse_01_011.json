@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_011",
+   "title": "c11_math_cbse_01_011",
+   "questions": [
+    {
+     "q": "State the formal definition of A − B using set-builder notation and the logical condition that defines membership.",
+     "a": "A − B = {x : x ∈ A and x ∉ B}. A wrong answer like {x : x ∈ A or x ∉ B} reveals confusion between logical conjunction and disjunction; the student thinks \"not in B\" is an alternative to \"in A\" rather than an additional requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Given A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, a student writes A − B = {5, 6}. Explain why this is incorrect and what the student actually computed.",
+     "a": "The student computed B − A instead of A − B. A − B = {1, 2} (elements in A but not in B), while {5, 6} are elements in B but not in A. This error reveals the student does not grasp the order-sensitivity of set difference and treats it as symmetric like union or intersection.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {x ∈ ℤ : −2 ≤ x ≤ 3} and B = {x ∈ ℤ : 0 ≤ x ≤ 5}. Compute A − B and B − A explicitly in roster form.",
+     "a": "A = {−2, −1, 0, 1, 2, 3}, B = {0, 1, 2, 3, 4, 5}. A − B = {−2, −1} (integers in A that are not in B). B − A = {4, 5} (integers in B that are not in A). A wrong answer like A − B = {4, 5} shows the student subtracts the smaller set from the larger numerically rather than following the definition order.",
+     "self_check": true
+    },
+    {
+     "q": "Prove or disprove: For any sets A and B, (A − B) ∩ (B − A) = ∅. If true, explain why this means A − B and B − A are disjoint. If false, give a counterexample.",
+     "a": "True. Suppose x ∈ (A − B) ∩ (B − A). Then x ∈ A − B ⇒ x ∈ A and x ∉ B. Also x ∈ B − A ⇒ x ∈ B and x ∉ A. But x ∈ A and x ∉ A is a contradiction. Hence no such x exists, so the intersection is empty. A student who says \"not always true\" fails to see that membership in A − B forces x ∉ B, while membership in B − A forces x ∈ B — mutually exclusive conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since A − B = A ∩ B', the sets A − B, A ∩ B, and B − A partition A ∪ B.\" Evaluate this claim. Is it correct? Justify your answer.",
+     "a": "The claim is correct. A − B = A ∩ B' (elements in A not in B), A ∩ B (elements in both), and B − A = B ∩ A' (elements in B not in A) are pairwise disjoint and their union is (A ∩ B') ∪ (A ∩ B) ∪ (B ∩ A') = A ∪ B. A student who says \"incorrect\" likely doesn't recognise that A ∪ B splits naturally into three mutually exclusive regions in a Venn diagram.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario (Indian context) involving two sets where finding the difference A − B gives meaningful information that B − A would not. Describe the sets, the difference, and its interpretation.",
+     "a": "Example: A = set of students who applied for JEE Advanced 2024; B = set of students who qualified JEE Advanced 2024. A − B = students who applied but did NOT qualify (useful for counselling alternatives). B − A is empty (no one qualifies without applying). A poor answer gives symmetric scenarios like \"cricket team vs football team\" where both differences are equally meaningful, missing the directional nature of the operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_001",
+   "title": "c11_geo_cbse_09_001",
+   "questions": [
+    {
+     "q": "On a physical map of India, a student marks the boundary between the Peninsular Plateau and the Northern Plains along the 300 m contour line. Is this an appropriate physiographic boundary? Justify your answer in two sentences.",
+     "a": "No, the 300 m contour is an arbitrary elevational threshold, not a geological boundary. The true physiographic boundary is the **northern edge of the Peninsular Plateau's ancient crystalline basement** (often marked by the Delhi-Ridge to Rajmahal Hills lineament), which is overlain by alluvium of the Northern Plains. A wrong answer reveals the student conflates *topographic* classification (elevation-based) with *physiographic* classification (geological structure + relief + evolutionary history).",
+     "self_check": true
+    },
+    {
+     "q": "The Aravalli Range is often included in the Peninsular Plateau division, yet it runs northeast-southwest across Rajasthan, separating the Thar Desert from the plateau interior. Explain why the Aravallis are *not* treated as a separate physiographic division despite their distinct orientation and role as a climatic barrier.",
+     "a": "The Aravallis are a **relict fold mountain range** composed of Precambrian rocks (Aravalli-Delhi Supergroup) that are an *integral part of the Peninsular shield's northern margin*, not a distinct tectonic province. They lack the crustal-scale structural discontinuity (like a suture zone or major fault) that separates the six divisions. A wrong answer indicates the student mistakes *geomorphic prominence* (ridge line, rain shadow) for *tectonostratigraphic distinctiveness*—a common error when prioritizing current landform expression over geological origin.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of **isostatic compensation**, explain why the Himalayan Mountains (mean elevation ~6,000 m) and the Peninsular Plateau (mean elevation ~600 m) can both be in gravitational equilibrium despite their vastly different surface elevations. Assume crustal density = 2.8 g/cm³ and mantle density = 3.3 g/cm³.",
+     "a": "**Step 1:** Recall Airy's isostasy: mountains have deep roots. Root depth *r* = (ρ_crust / (ρ_mantle - ρ_crust)) × surface height *h*. **Step 2:** For Himalayas: *r_H* = (2.8 / 0.5) × 6000 = 33,600 m ≈ 34 km root. Total crustal thickness ≈ 35 km (normal) + 34 km = 69 km (matches seismic data). **Step 3:** For Peninsula: *r_P* = (2.8 / 0.5) × 600 = 3,360 m ≈ 3.4 km root. Total crustal thickness ≈ 35 + 3.4 = 38.4 km (matches Deccan crust ~35-40 km). **Step 4:** Both satisfy isostatic equilibrium; the Himalayas \"float\" higher because of a much deeper root. A wrong answer (e.g., \"Peninsula is denser\") shows confusion between *crustal thickness* and *surface elevation*, ignoring the buoyancy principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **sediment thickness** and **basement rock age** across the three northern divisions: Himalayas, Northern Plains, Peninsular Plateau. Construct a table and infer the tectonic setting (orogenic belt, foreland basin, craton) for each.",
+     "a": "| Division | Basement Rock Age | Sediment Thickness | Tectonic Setting |\n|----------|-------------------|-------------------|------------------|\n| Himalayas | Proterozoic to Phanerozoic (metamorphosed) | Thin to moderate (nappes/thrust sheets) | **Active Orogenic Belt** (continent-continent collision) |\n| Northern Plains | **None exposed** (buried) | **Extreme** (up to 8-10 km alluvium) | **Foreland Basin** (flexural loading by Himalayas) |\n| Peninsular Plateau | **Archean to Proterozoic** (3.5 Ga – 1 Ga) | **Negligible** (thin regolith/Deccan Traps) | **Stable Craton** (shield) |\nA wrong table (e.g., assigning thick sediments to Peninsula) reveals inability to link basement age/sediment architecture to plate tectonic context.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: *\"The Coastal Plains of India are simply the seaward extension of the Peninsular Plateau and therefore do not deserve a separate physiographic division.\"* Use evidence from geological structure, sediment origin, and process regime.",
+     "a": "The statement is **invalid**. (1) **Structure:** Coastal plains rest on *faulted and down-warped* continental margin crust (e.g., East Coast: rifted margin with graben structures; West Coast: faulted scarp), not the stable shield. (2) **Sediment Origin:** They accumulate *marine, deltaic, and aeolian* sediments (Holocene-Pleistocene), distinct from the *sub-aerial weathering products* (laterite, regolith) of the plateau. (3) **Process Regime:** Dominated by *wave, tide, and coastal currents* (exogenic marine), unlike the *fluvial and weathering* regime inland. A wrong evaluation treats \"low elevation\" as the sole criterion, ignoring the **genetic process-structure-sediment triad** that defines physiographic units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **physiographic cross-section** (schematic, not to scale) from the Indo-Gangetic Plain (south of Ganga) across the Peninsular Plateau to the Arabian Sea coast near Mumbai. Annotate: (a) major crustal boundaries, (b) sediment-basement contacts, (c) isostatic root geometry, (d) dominant exogenic process in each division.",
+     "a": "**Expected cross-section (left to right):**  \n1. **Northern Plains:** Thick alluvium (8 km) over Precambrian basement (deeply buried); flexural downwarp; process = **fluvial deposition**.  \n2. **Plateau Margin (e.g., Vindhyan escarpment):** Basement exposed; thin sediment cover; process = **scarp retreat/weathering**.  \n3. **Peninsular Interior:** Archean gneiss/schist + Deccan Traps (west); crustal thickness ~35-40 km; small isostatic root; process = **chemical weathering/planation**.  \n4. **Western Ghats Escarpment:** Faulted basement edge (Western Ghat Fault); crust thins oceanward; process = **structural denudation + orographic rainfall**.  \n5. **Konkan Coast:** Thin coastal alluvium/marine sediments on thinned crust; process = **marine erosion/deposition**.  \n**Poor answer:** draws a smooth elevation profile without crustal-scale boundaries or process labels, indicating a \"landscape painting\" rather than \"physiographic analysis\" mindset.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

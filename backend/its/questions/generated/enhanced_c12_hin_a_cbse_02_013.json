@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_02_013",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_02_013",
+   "title": "c12_hin_a_cbse_02_013",
+   "questions": [
+    {
+     "q": "What is the primary difference between *literal comprehension* (node 012) and *critical interpretation* (this node) when analyzing a poem?",
+     "a": "Literal comprehension retrieves facts explicitly stated in the text (e.g., \"The poet remembers his mother's face\"). Critical interpretation infers unstated meanings, evaluates artistic choices, and synthesizes evidence to argue a theme (e.g., \"The poet uses the mother's fading memory to symbolize the irretrievable loss of childhood innocence\"). A wrong answer that merely lists plot points reveals the student is still operating at the comprehension level and hasn't grasped that interpretation requires an argument backed by analysis of *how* the text works.",
+     "self_check": true
+    },
+    {
+     "q": "In \"ljkst Le`fr,\" the line \"vkdk'k cny dj cuk egh\" appears. A student writes: \"This means the poet wants to change his fate.\" Explain why this interpretation is incomplete and what critical element is missing.",
+     "a": "The interpretation misses the *irony* and *agency*: \"vkdk'k\" (fate/time) is commanded to change, but \"egh\" (mother) is the object — the poet is pleading with fate to *become* the mother, i.e., to restore her presence. The critical element missing is the grammatical role of \"egh\" as the desired state, not the agent of change. A student who only sees \"change fate\" ignores the syntactic structure and the emotional desperation encoded in the imperative mood, revealing a surface-level reading that doesn't engage with the poem's linguistic craft.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of *juxtaposition* to compare the imagery of the mother in stanza 2 (\"ns[krh eq>s rw g¡lh ean / gksBksa esa fctyh i¡Qlh Lian\") with the imagery of the father in stanza 4 (\"eq> HkkX;ghu dh rw lacy\"). What thematic tension does this contrast create?",
+     "a": "Step 1: Identify mother's imagery — gentle, sensory (\"g¡lh ean\" = moist eyes, \"fctyh i¡Qlh Lian\" = trembling lips holding a smile), conveying warmth and fragility. Step 2: Identify father's imagery — \"HkkX;ghu\" (stern/formidable), \"lacy\" (attached/bound), suggesting duty, rigidity, emotional distance. Step 3: Analyze the juxtaposition — the mother embodies unconditional love (\"xhfr\"), the father embodies societal expectation and harsh reality. Step 4: Thematic tension — the poem pits nurturing intimacy against the crushing weight of patriarchal responsibility, mirroring the poet's own life (orphaned, raised by a strict father). A wrong answer that merely describes the two images without linking them to the poem's central conflict (memory vs. reality, tenderness vs. survival) shows the student can spot devices but cannot synthesize them into thematic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the refrain \"nq[k gh thou dh dFkk jgh / D;k dgw¡ vkt tks ugha dgh\" functions structurally and philosophically across the poem's three appearances (end of stanza 3, stanza 5, and the final couplet).",
+     "a": "Structurally, the refrain acts as an anchor — each recurrence marks a shift: first, after the mother's memory (personal grief); second, after the father's departure (existential isolation); third, as a final philosophical statement (universal futility). Philosophically, it evolves from a factual observation (\"life's story remains incomplete\") to a rhetorical challenge (\"what else is there that isn't said?\") to a resigned acceptance (\"if you stay, my work is done\"). A student who treats the refrain as mere repetition misses its *progressive modulation* — the meaning deepens with context. This error reveals a failure to track how a device accumulates significance across the whole text, a core skill of critical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Nirala's use of Braj-inflected Khari Boli in 'ljkst Le`fr' is merely a stylistic flourish; the poem would have the same emotional impact in standard modern Hindi.\" Defend your judgment with evidence from the poem's diction.",
+     "a": "The claim is false. The Braj forms (\"rw\" for \"raha\", \"mj\" for \"man\", \"Lian\" for \"laal\", \"fujkdkj\" for \"nirankar\") carry cultural and emotional resonance: they evoke the *folk* and *devotional* traditions (Braj is the language of Krishna bhakti), framing the mother as a divine, almost sacred figure. Standard Hindi (\"raha\", \"man\", \"laal\", \"nirankar\") would strip the poem of its ritualistic intimacy and its connection to the *bhakti* sensibility that elevates personal grief to spiritual longing. A student who agrees with the claim ignores the *semantic density* of dialect — they treat words as interchangeable labels rather than carriers of cultural memory, a critical oversight in interpreting Nirala, who deliberately fused classical and folk registers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in Nirala's voice that extends the poem's central metaphor of \"thou dh dFkk\" (life's story) using the *same rhyme scheme and refrain structure* as the final couplet. Your stanza must reflect the poet's mature philosophical stance (not just personal grief).",
+     "a": "A strong answer will: (1) Use AABB or ABAB rhyme matching the poem's loose rhyme (e.g., \"jgh / dgh\", \"egh / egh\"), (2) Incorporate the refrain's key words (\"dFkk\", \"jgh\", \"vkt\"), (3) Shift from personal loss to universal insight (e.g., \"sabhi ki dFkk adhi jgh / koi na poora kar sake vkt\"). A poor answer that merely rhymes without thematic depth or mimics the refrain mechanically shows the student cannot internalize the poet's *voice* and *vision* — they imitate form without grasping the intellectual core, which is the ultimate test of critical engagement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

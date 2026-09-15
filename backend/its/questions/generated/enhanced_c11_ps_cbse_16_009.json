@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_009",
+   "title": "c11_ps_cbse_16_009",
+   "questions": [
+    {
+     "q": "Which constitutional article empowers the Union to give directions to a State to ensure compliance with laws made by Parliament, and what is the consequence if the State fails to comply?",
+     "a": "Article 256 mandates that the executive power of every State shall be exercised to ensure compliance with Union laws, and Article 257(1) clarifies that the Union may give such directions as appear necessary. Failure to comply allows the President to invoke Article 356 (President’s Rule) on grounds that the State government cannot be carried on in accordance with the Constitution. A wrong answer (e.g., citing Article 249 or 252) reveals confusion between legislative and administrative relations — students often mix up Parliament’s power to legislate on State List subjects with the Union’s power to direct State executives.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution create All-India Services (Article 312) instead of letting States recruit their own civil servants for all posts, and how does this affect Centre-State administrative relations?",
+     "a": "All-India Services (IAS, IPS, IFoS) ensure a cadre of officers loyal to the Constitution and the Union, providing administrative continuity, uniform standards, and a channel for Union policy percolation to districts. They are recruited by UPSC, trained centrally, but serve under State governments — creating dual control. A wrong answer (e.g., “to reduce State autonomy” or “to centralise all power”) misses the federal design: these officers are the *institutional glue* that makes cooperative federalism operational. Misunderstanding this leads to viewing All-India Services as purely centralising rather than as a federal compromise.",
+     "self_check": true
+    },
+    {
+     "q": "A State government refuses to implement the Union’s “Har Ghar Jal” scheme (under Jal Jeevan Mission), arguing water is a State List subject (Entry 17). The Union threatens to withhold grants under Article 275. Analyse the constitutional validity of both positions.",
+     "a": "Water is indeed a State subject, but the Union can attach conditions to grants-in-aid under Article 275(1) for “welfare of the people” — making compliance voluntary in form but coercive in fiscal reality. The Union cannot *direct* the State under Article 256 because no Union law mandates the scheme; it is a policy funded by conditional grants. A wrong answer claiming “Union can direct under Article 256” confuses legislative backing with policy funding. The correct analysis distinguishes *administrative directions* (require Union law) from *fiscal conditions* (require only grant authority).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Finance Commission (Article 280) and the GST Council (Article 279A) in Centre-State financial relations. Which body addresses vertical imbalance and which addresses horizontal imbalance?",
+     "a": "The Finance Commission (constituted every 5 years) recommends *vertical devolution* (Centre→States share of net proceeds) and *horizontal distribution* (inter-State formula based on population, area, forest cover, etc.). The GST Council is a *joint decision-making body* for GST rates, exemptions, and dispute resolution — it does not decide devolution. A wrong answer swapping their roles reveals confusion between *constitutional fiscal architecture* (Finance Commission) and *tax administration cooperation* (GST Council). The Finance Commission corrects both vertical and horizontal imbalances; the GST Council harmonises a single tax base.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The 15th Finance Commission’s use of 2011 Census population (instead of 1971) for horizontal devolution penalises States that successfully controlled population growth.” Is this a valid critique of federal fiscal equity?",
+     "a": "Valid critique: The 15th FC used 2011 Census (15% weight) alongside 1971 (10% weight) and demographic performance (12.5% reward for low fertility). States like Tamil Nadu and Kerala argue this reduces their share despite better human development outcomes. The Commission defended it as reflecting current fiscal needs. A weak evaluation ignores the *demographic performance* criterion designed to offset the population weight. A strong answer weighs equity (needs-based) vs. efficiency (performance-based) and notes that horizontal devolution *always* involves normative trade-offs — no formula is politically neutral.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal to strengthen State fiscal autonomy without undermining national unity. Justify each clause using Articles 268–293.",
+     "a": "A strong proposal might: (1) Expand State List taxation (e.g., allow States to levy taxes on services currently in Union List) via amending Seventh Schedule; (2) Make Finance Commission recommendations *binding* (currently advisory) by amending Article 280(3); (3) Guarantee minimum GST compensation beyond 5 years via new Article 279A(2); (4) Create a State-level Fiscal Responsibility Act template to prevent Centre imposing FRBM targets. A poor proposal merely demands “more money” without constitutional mechanics. Good answers show awareness that fiscal federalism requires *institutional* changes, not just parametric tweaks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

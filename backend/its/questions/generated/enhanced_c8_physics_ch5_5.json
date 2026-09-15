@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_5",
+   "title": "c8_physics_ch5_5",
+   "questions": [
+    {
+     "q": "What happens to the solubility of common salt (NaCl) in water when the temperature of the water is increased from 20°C to 80°C?",
+     "a": "The solubility of NaCl increases slightly with temperature (from about 36 g/100 g water at 20°C to about 39 g/100 g water at 80°C). A wrong answer stating \"solubility decreases\" or \"stays exactly the same\" reveals the student may be confusing solids with gases (where solubility decreases with temperature) or thinks solubility is a fixed property independent of temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Riya stirs a spoonful of sugar in a cup of cold water until no more dissolves. She then heats the same saturated solution. Will more sugar dissolve? Explain why or why not using particle ideas.",
+     "a": "Yes, more sugar will dissolve because heating increases the kinetic energy of water molecules, allowing them to break more sugar-sugar bonds and accommodate more solute particles. A wrong answer saying \"no, it's already saturated\" reveals the misconception that saturation is a permanent, temperature-independent state rather than a temperature-dependent equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "A student has 100 g of water at 30°C. The solubility of potassium nitrate (KNO₃) at 30°C is 46 g/100 g water. The student adds 50 g of KNO₃ and stirs vigorously for 5 minutes. How much KNO₃ remains undissolved? Show your reasoning.",
+     "a": "At 30°C, maximum KNO₃ that can dissolve in 100 g water = 46 g. Student added 50 g. Undissolved mass = 50 g – 46 g = 4 g. Stirring does not change the solubility limit, only the speed. A wrong answer of 0 g undissolved reveals the student thinks stirring increases the solubility limit. A wrong answer of 50 g undissolved reveals confusion about what solubility means.",
+     "self_check": true
+    },
+    {
+     "q": "Two beakers contain 100 mL of water at 25°C. Beaker A has 30 g of copper sulfate added and is stirred continuously. Beaker B has 30 g of copper sulfate added but is not stirred. The solubility of copper sulfate at 25°C is 23 g/100 mL water. After 10 minutes, compare the mass of undissolved solid in each beaker and explain any difference.",
+     "a": "Both beakers will have 7 g undissolved (30 g – 23 g solubility limit). Beaker A reaches this equilibrium faster due to stirring; Beaker B takes longer but ends at the same point. A wrong answer saying Beaker A has less undissolved solid reveals confusion between rate and equilibrium amount. A wrong answer saying Beaker B has more dissolved solid reveals misunderstanding that stirring only affects speed.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"If I stir a saturated solution of salt in hot water while it cools down, I can keep all the salt dissolved because stirring prevents crystallization.\" Evaluate this claim and explain the error.",
+     "a": "The claim is false. Stirring cannot keep solute dissolved beyond the solubility limit at the new lower temperature. As the solution cools, the solubility decreases, and excess solute will crystallize out regardless of stirring. Stirring might actually promote crystallization by providing nucleation sites. A student agreeing with the claim confuses rate effects with equilibrium thermodynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to show that temperature affects the solubility of a solid, but stirring does not. List materials, procedure, measurements, and how you would conclude.",
+     "a": "Materials: Two beakers, water, thermometer, heater, stirrer, balance, salt (e.g., KNO₃). Procedure: (1) Measure 100 g water at 20°C, add excess salt, stir until saturation, filter, evaporate filtrate to find dissolved mass → solubility at 20°C. (2) Repeat with 100 g water at 60°C → solubility at 60°C. (3) At 20°C, compare stirred vs unstirred beakers with same excess salt; measure time to reach saturation and final dissolved mass. Good answer shows controlled variables, measures equilibrium mass not time, and concludes temperature changes the mass dissolved while stirring only changes time. Poor answer measures only time or doesn't isolate temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

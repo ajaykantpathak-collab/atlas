@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_007",
+   "title": "c7_physics_ch02_007",
+   "questions": [
+    {
+     "q": "What is the primary function of an electric switch in a simple circuit, and what state must it be in for an electric lamp to glow?",
+     "a": "The primary function of a switch is to control the flow of electric current by opening or closing the circuit path. For an electric lamp to glow, the switch must be in the \"CLOSED\" state to provide a continuous conducting path. A wrong answer shows confusion with a resistor or battery, indicating the student does not yet grasp that switches control continuity rather than supplying energy or reducing current magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why placing a plastic ruler across a gap in a copper wire circuit keeps the bulb unlit, whereas replacing the ruler with a metal paper clip acts just like closing a switch.",
+     "a": "A plastic ruler is an electrical insulator that blocks the flow of electrons, effectively keeping the circuit \"open\" even though it physically bridges the gap. A metal paper clip is a conductor that allows electrons to flow freely, closing the circuit loop just like a closed switch. A wrong answer reveals that the student confuses physical contact with electrical contact, ignoring the material property of conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "A circuit contains a 3V battery, an open switch, and a small electric lamp connected in series. If the resistance of the connecting wires is zero, what is the current flowing through the lamp when the switch is open, and what happens to the current when the switch is closed?",
+     "a": "When the switch is open, the current is 0 A because the air gap acts as an insulator preventing a complete loop. When the switch is closed, current flows through the circuit, and the lamp glows. A wrong answer indicates the student thinks current can jump across an air gap or that batteries push current through open loops.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a circuit diagram where a switch is placed *after* the lamp relative to the positive terminal of the battery. Does closing this switch allow the lamp to light up? Justify your reasoning based on the whole-loop requirement for electric current.",
+     "a": "Yes, the lamp will light up when the switch is closed. Electric current requires a complete, unbroken loop from the positive terminal through all components back to the negative terminal; the position of the switch anywhere along this single loop does not matter as long as closing it completes the entire path. A wrong answer reveals the misconception that electricity gets \"used up\" before reaching a switch placed downstream, or that switches only work when placed immediately after the battery's positive terminal.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement made by a classmate: \"A switch uses up electricity when it is open to stop the bulb from glowing.\" Is this statement correct or incorrect? Explain why.",
+     "a": "The statement is incorrect. An open switch does not consume electricity; instead, it creates an infinite resistance or an air gap that stops the flow of electric charge entirely, so no current flows and no energy is drawn from the battery. A wrong answer shows a misunderstanding of energy conservation and circuit physics, confusing obstruction or consumption with breaking a circuit path.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple homemade switch using everyday classroom materials (such as a wooden ice cream stick, two drawing pins, and a paper clip) and explain how its physical manipulation opens and closes a torchlight circuit.",
+     "a": "A good design places two drawing pins through a wooden stick spaced slightly apart, connected to wires in the circuit. A metal paper clip is pivoted under one pin so it can swing to touch or move away from the second pin. When the paper clip touches both pins, it bridges the gap (closed switch); when swung away, air separates them (open switch). A poor answer fails to explain how the physical movement makes and breaks contact between conducting parts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_008",
+   "title": "c12_ps_cbse_10_008",
+   "questions": [
+    {
+     "q": "**REMEMBER**: Who drafted the Bombay Plan (1944) and what was its central demand regarding the state’s role in the economy?",
+     "a": "**Answer**: A group of leading Indian industrialists (J.R.D. Tata, G.D. Birla, Lala Shri Ram, etc.) drafted the Bombay Plan. Its central demand was that the **state must take major initiatives in industrial and economic investments** — i.e., a planned economy with a dominant public sector.  \n**Wrong-answer diagnosis**: If a student says “the Planning Commission” or “Nehru”, they confuse the **plan’s authors** (industrialists) with the **body that later implemented planning**. If they say “it demanded free markets”, they invert the Plan’s actual stance — industrialists wanted state-led investment to reduce their own risk.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: Why did the Bombay Plan’s capitalist authors favour state planning instead of laissez-faire? Explain using the concept of “market failure” in a late-colonial economy.",
+     "a": "**Answer**: In the 1940s, India faced **capital scarcity, low savings, inadequate infrastructure, and a weak private sector** unable to undertake large, long-gestation projects (steel, power, railways). The industrialists recognised that **only the state could mobilise resources at the required scale** and create the “preconditions” (infrastructure, credit, tariff protection) for private industry to flourish. They saw planning as a **strategic complement**, not a substitute, for private enterprise.  \n**Wrong-answer diagnosis**: If a student says “they were socialists” or “they wanted nationalisation”, they miss the **class interest**: the Plan explicitly protected private property and sought state *investment* to *aid* private profit. If they say “the state was more efficient”, they ignore the Plan’s pragmatic argument about **resource gaps**, not efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A state government proposes a Special Economic Zone (SEZ) on fertile agricultural land, promising 10,000 factory jobs. Farmers protest, citing loss of livelihood and food security. Using the **First vs. Second Plan debate**, identify which plan’s logic the SEZ follows and which plan’s logic the farmers’ demand reflects.",
+     "a": "**Answer**: The SEZ follows the **Second Plan (Mahalanobis) logic**: prioritise heavy industry/manufacturing, assume rapid industrial job creation, and accept short-term agrarian displacement for long-term structural transformation. The farmers’ demand reflects the **First Plan logic**: agriculture is the **wage-goods sector**; without raising farm productivity and protecting cultivators, industrial growth will face food inflation and social unrest.  \n**Wrong-answer diagnosis**: If a student says “both plans wanted industry”, they miss the **sequencing difference**: First Plan = “hasten slowly” via irrigation/land reforms; Second Plan = “quick structural transformation” via heavy industry. If they say “farmers are anti-development”, they impose a normative judgement instead of identifying the **plan-priority conflict**.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYSE**: Compare the **Gandhian critique** (J.C. Kumarappa), the **liberal critique** (B.R. Shenoy), and the **leftist critique** (C.N. Vakil/P.R. Brahmananda) of the Second Five Year Plan. Create a three-column table with columns: *Core Argument*, *Plan Feature Attacked*, *Alternative Proposed*.",
+     "a": "**Answer** (sample table):\n\n| Critique | Core Argument | Plan Feature Attacked | Alternative Proposed |\n|----------|---------------|------------------------|----------------------|\n| **Gandhian** (Kumarappa) | Centralised planning destroys village autonomy & ecological balance | Heavy industry, large dams, capital-intensive tech | Decentralised, labour-intensive village industries; self-reliant gram swaraj |\n| **Liberal** (Shenoy) | Deficit financing for plan causes inflation, distorts price signals, crowds out private investment | State monopoly in heavy industry; import controls; deficit financing | Market-determined prices; open trade; limited state role to infrastructure/law |\n| **Leftist** (Vakil/Brahmananda) | Plan benefits urban capitalist class; neglects land reforms & wage-goods; “urban bias” | Priority to capital goods over wage goods; weak land reform implementation | Radical land redistribution; shift investment to agriculture/consumer goods; higher taxation on wealth |\n\n**Wrong-answer diagnosis**: If a student merges Gandhians and leftists as “both wanted equality”, they miss the **institutional divergence**: Gandhians wanted **decentralised moral economy**, leftists wanted **state-led class restructuring**. If they omit Shenoy’s **inflation/price-signal argument**, they overlook the only critique that predicted the **1960s balance-of-payments crisis**.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: “The Bombay Plan proves that Indian capitalists were not opposed to state intervention; they only opposed state intervention that threatened their profits.” Assess this statement using evidence from the Plan’s text and the subsequent **Industrial Policy Resolution 1956**.",
+     "a": "**Answer**: **Largely accurate, but incomplete.** The Bombay Plan *did* demand state investment in **basic industries (steel, power, transport)** where private capital was insufficient, while explicitly **reserving consumer-goods industries for the private sector** and seeking **tariff protection**. The 1956 Resolution **expanded the public sector** to all “strategic” industries (Schedule A) — going *beyond* the Bombay Plan’s scope — which *did* alarm some industrialists. However, the state also provided **subsidised credit, licences, and protection** that *enhanced* private profits in the reserved sphere. Thus, capitalists supported **selective state intervention** that socialised risk (infrastructure) while privatising gain (consumer goods).  \n**Wrong-answer diagnosis**: If a student says “capitalists always oppose the state”, they ignore the **historical specificity** of late-colonial underdevelopment. If they say “the Plan was socialist”, they conflate **state-led development** with **social ownership** — the Plan never questioned private property.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Draft a **one-paragraph “Minority Note”** (150 words) that could have been appended to the Second Five Year Plan document, representing the **Gandhian dissent**. Use the phrase “wage-goods bottleneck” and reference **Article 40 (DPSP)**.",
+     "a": "**Expected answer criteria**:  \n- Opens with **“We dissent from the Plan’s centralising thrust…”**  \n- Argues that **Article 40 (organisation of village panchayats)** is violated by concentrating investment in urban heavy industry.  \n- Uses **“wage-goods bottleneck”** to explain how neglect of food/folk crafts causes inflation that hurts the poor.  \n- Proposes **redirecting 30% of Plan outlay** to village industries, irrigation, and land reforms.  \n- Closes: **“Development that bypasses the village betrays the Constitution’s promise of economic justice.”**  \n**Poor-answer diagnosis**: If the note sounds like a **leftist critique** (demands nationalisation, class struggle language), the student hasn’t internalised the **Gandhian moral-decentralist vocabulary**. If it omits **Article 40**, they miss the **constitutional anchor** of the Gandhian position.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

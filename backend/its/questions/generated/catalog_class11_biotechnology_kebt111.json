@@ -1,0 +1,141 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt111",
+ "concepts": [
+  {
+   "id": "kebt111.1",
+   "title": "Programming Languages for Biologists",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Programming Languages for Biologists' refers to.",
+     "a": "Biology now runs on code: PERL has handled bulk sequence data since bioinformatics began, Python - Guido van Rossum's 1991 object-oriented generalist - dominates sequence, structure and phylogenetic work on unix, mac and windows, R built by Robert Gentleman and Robert Ihaka supplies free statistical muscle, MATLAB rounds out analysis platforms, and newer designs like Microsoft's rule-based GEC and the Kera language with its Samhita biological library target living-cell engineering.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Programming Languages for Biologists'.",
+     "a": "Pick the language by the task - sequence crunching, statistics, visualisation or cell-system design - and most production work still sits on Linux.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Programming Languages for Biologists' taught, and from which source text?",
+     "a": "11.1 (source: kebt111.txt section 11.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt111.2",
+   "title": "Milestones in the Rise of Systems Biology",
+   "questions": [
+    {
+     "q": "Using the method 'Milestones in the Rise of Systems Biology', work with: axon_model_year = 200, cell_model_year = 2600. Carry the chain through step by step and give the final value of span_decades.",
+     "a": "240 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Milestones in the Rise of Systems Biology' and work with: axon_model_year = 100, cell_model_year = 150. Carry the chain through step by step and give the final value of span_decades.",
+     "a": "5 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Milestones in the Rise of Systems Biology' refers to.",
+     "a": "The field grew in dated steps - Hodgkin and Huxley modelled the neuronal action potential in 1952, Denis Noble built the first computer model of the heart pacemaker in 1960, Mesarovic launched systems theory and biology in 1966, von Bertalanffy published the first theory in 1968, and the 2012 whole-cell model of Mycoplasma genitalium capped six decades of quantitative modelling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Milestones in the Rise of Systems Biology'.",
+     "a": "Subtract one milestone year from another to measure the field's growth spans.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Milestones in the Rise of Systems Biology', in plain ASCII form.",
+     "a": "model_span = cell_model_year - axon_model_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt111.3",
+   "title": "Integration Theme versus Reductionism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Integration Theme versus Reductionism' refers to.",
+     "a": "Reductionism catalogued the parts of living systems but stumbled at their pluralism; systems biology answers by integrating every component at once through network mapping joined to kinetics described with partial differential equations, letting quantitative models reveal emergent properties of cells, tissues and organisms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Integration Theme versus Reductionism'.",
+     "a": "Parts alone explain little - map the network and bind its dynamics with mathematics to see the whole system behave.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Integration Theme versus Reductionism' taught, and from which source text?",
+     "a": "11.2.3 (source: kebt111.txt sections 11.2.1 and 11.2.3, Fig. 11.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt111.4",
+   "title": "Protocol of a Systems Biology Experiment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protocol of a Systems Biology Experiment' refers to.",
+     "a": "A systems biology study loops through a fixed protocol: define the problem, design and run the experiment, collect and format the data, build the network interface, transfer it into a mechanism-based model, compare simulation against experiment, fold every discrepancy back as a new hypothesis, and repeat until model and reality agree.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protocol of a Systems Biology Experiment'.",
+     "a": "Model, simulate, compare, revise - the cycle only converges when discrepancies become new hypotheses.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Protocol of a Systems Biology Experiment' taught, and from which source text?",
+     "a": "11.2.4 (source: kebt111.txt section 11.2.4, Fig. 11.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt111.5",
+   "title": "Data Management in Systems Biology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Data Management in Systems Biology' refers to.",
+     "a": "Three pillars organise systems biology data: minimum information sets with their metadata for microarray, proteomic and biomedical studies; XML-style file formats that machines can process automatically; and ontologies such as Gene Ontology and Systems Biology Ontology that fix hierarchical meanings - all wired together by spreadsheets, electronic lab notebooks, LIMS and workflow engines like KNIME, Taverna and Galaxy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Management in Systems Biology'.",
+     "a": "Report the minimum, encode in machine-readable formats, and let ontologies standardise what every term means.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Data Management in Systems Biology' taught, and from which source text?",
+     "a": "11.2.4 (source: kebt111.txt section 11.2.4, Table 11.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt111.6",
+   "title": "Model Analysis Methods for Network Behaviour",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Model Analysis Methods for Network Behaviour' refers to.",
+     "a": "Built models are interrogated three ways: sensitivity analysis with tools like SBML-SAT probes stability and controllability against disturbances, bifurcation and phase-space analysis with AUTO or XPPAut uncovers steady and dynamical tendencies, and metabolic control analysis via MetNetMaker ties steady-state network properties back to individual reactions; the underlying partial differential equations are approximated numerically by the finite element method in ANSYS, FreeFEM++ or MATLAB.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Model Analysis Methods for Network Behaviour'.",
+     "a": "Stress the model, watch its states shift, and connect the network's steady state to its component reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Model Analysis Methods for Network Behaviour' taught, and from which source text?",
+     "a": "11.2.5 (source: kebt111.txt sections 11.2.4-11.2.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

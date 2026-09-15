@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_003",
+   "title": "c11_eng_h_cbse_03_003",
+   "questions": [
+    {
+     "q": "Identify the specific time and date mentioned in the opening paragraph of the text, and name the two primary physical locations where the narrative action takes place.",
+     "a": "The text states: \"It was 6 p.m. on 5 January 2005.\" The two primary locations are the rock-cut tomb in the Valley of the Kings (26 feet underground) and the trailer housing the CT scanner. A wrong answer (e.g., giving only \"Valley of the Kings\" or missing the date) reveals the student cannot locate explicit textual anchors for setting, which are essential for grounding atmospheric analysis in evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the phrase \"casket grey\" functions differently from a neutral descriptor like \"dark grey\" in establishing the atmosphere of the opening scene.",
+     "a": "\"Casket grey\" uses a funeral-specific noun (\"casket\") as a colour modifier, directly linking the sky's colour to death and burial. This creates a foreboding, funereal atmosphere that \"dark grey\" (a mere visual description) cannot. It foreshadows the mummy's journey and the theme of mortality. A student who treats it as just a colour description misses the connotative layering that builds atmospheric tension and thematic resonance.",
+     "self_check": true
+    },
+    {
+     "q": "The text describes tourists in the tomb: \"Some visitors read from guidebooks in a whisper. Others stood silently, perhaps pondering Tut's untimely death... or wondering with a shiver if the pharaoh's curse... was really true.\" Apply the concept of 'narrative perspective' to explain how the author uses the tourists' behaviour to establish atmosphere without directly stating his own feelings.",
+     "a": "The author uses the tourists as a narrative lens: their hushed whispers, silent pondering, and shivering speculation about the \"curse\" externally manifest the tomb's oppressive, reverent, and superstitious atmosphere. By observing *their* reactions, the reader feels the atmosphere without the narrator saying \"the atmosphere was eerie.\" This is indirect atmospheric construction through character behaviour. A wrong answer that only lists tourist actions misses the technique of using observed reactions to convey mood.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the atmosphere inside the tomb (paragraphs 2-3) with the atmosphere inside the CT scanner trailer (paragraphs 10-11). Analyze how the author uses contrasting sensory details to create this shift.",
+     "a": "The tomb atmosphere is hushed, ancient, reverent, and superstitious: \"whisper,\" \"silently,\" \"murals,\" \"gilded face,\" \"pharaoh's curse.\" The trailer atmosphere is clinical, technical, tense, and modern: \"million-dollar scanner,\" \"digital X-ray images,\" \"pixels,\" \"technician spun and tilted,\" \"sand in a cooler fan.\" The shift is created by replacing organic/ancient sensory details (murals, gold, dust, whispers) with technological/clinical ones (scanner, pixels, fans, computer screen). This contrast underscores the central collision of ancient ritual and modern science. A student noting only \"one is quiet, one is noisy\" misses the thematic function of the sensory contrast.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the final paragraph's atmospheric closure: \"By the time we left the trailer... the wind had stopped. The winter air lay cold and still, like death itself... Just above the entrance to Tut's tomb stood Orion — the constellation that the ancient Egyptians knew as the soul of Osiris... watching over the boy king.\" Does this ending resolve or deepen the mystery? Justify with textual evidence.",
+     "a": "The ending *deepens* the mystery rather than resolving it. The simile \"cold and still, like death itself\" returns the atmosphere to the funereal tone of the opening (\"casket grey\"). Orion as \"the soul of Osiris... watching over the boy king\" reintroduces the ancient mythological framework that the scientific scan tried to displace. The scan provided data (\"astonishing images\"), but the final atmosphere restores the enigma: science has scanned the body, but the \"soul of Osiris\" still watches. A student claiming \"the scan solved the mystery\" misreads the atmospheric counterpoint — the text explicitly says \"for now the pressure was off\" but the final image reasserts the unknown.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word atmospheric description of a modern hospital ICU at 3 a.m., using at least three sensory details and one metaphor or simile that conveys a mood of suspended anxiety, modeled on the text's technique of blending clinical precision with emotional undertones.",
+     "a": "A strong answer will include: visual (dim monitors, IV drips), auditory (rhythmic beeps, muffled footsteps), tactile (sterile cold, vinyl sheets), and a metaphor/simile linking clinical setting to emotional state (e.g., \"Monitors glowed like weary constellations mapping breaths not stars\"). A weak answer lists equipment without mood, or uses clichés (\"silence screamed\") without sensory grounding. This tests transfer of the author's technique: precise sensory observation + connotative language = atmosphere.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

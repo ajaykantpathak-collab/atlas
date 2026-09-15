@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_003",
+   "title": "c12_ps_cbse_10_003",
+   "questions": [
+    {
+     "q": "What was the core sectoral priority of the Second Five Year Plan as distinct from the First Plan?",
+     "a": "The Second Plan prioritised heavy industries (capital goods sector: steel, machinery, machine tools) while the First Plan prioritised agriculture, irrigation, and power. A wrong answer (e.g., 'both plans focused on agriculture') reveals confusion between the 'hasten slowly' agrarian strategy of the First Plan and the 'rapid structural transformation' industrial strategy of the Second.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mahalanobis model advocate a closed-economy framework with heavy import substitution?",
+     "a": "The model assumed that developing domestic capital goods capacity would reduce long-run dependence on volatile foreign exchange and technology imports, enabling self-sustained growth. A wrong answer (e.g., 'to protect small artisans' or 'because the Soviet Union forced it') shows misunderstanding of the model's endogenous growth logic and its indigenous analytical origin.",
+     "self_check": true
+    },
+    {
+     "q": "A state government in 1957 wants to set up a bicycle factory. Under the Second Plan's licensing regime, which level of government would grant the industrial licence and why?",
+     "a": "The Central government (via the Industries (Development and Regulation) Act, 1951) granted licences for industries in the First Schedule, which included bicycles. This centralised licensing was a direct policy instrument of the Mahalanobis strategy to align private investment with Plan priorities. A wrong answer (e.g., 'state government') indicates ignorance of the centralised command-and-control architecture of the licence-permit raj.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource allocation logic of the Mahalanobis model with the 'hasten slowly' philosophy of the First Plan. Which approach better addressed the foreign exchange constraint, and why?",
+     "a": "The First Plan's 'hasten slowly' sought to avoid foreign exchange crises by limiting import-intensive projects; the Mahalanobis model accepted a short-run foreign exchange drain (importing machinery for steel plants) to eliminate the constraint in the long run by building domestic capital goods capacity. A wrong answer that claims both plans ignored foreign exchange misses the explicit modelling of the foreign exchange bottleneck in the Mahalanobis framework.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: 'The Second Plan's focus on heavy industry was a purely economic decision with no political dimension.'",
+     "a": "The statement is false. The Avadi resolution (1955) by the Congress party explicitly adopted a 'socialist pattern of society' as a political goal, making the Second Plan a political instrument to reduce concentration of economic power (Directive Principles, Article 39(b)-(c)). A wrong answer that treats it as only technical ignores the constitutional mandate and party-political consensus that legitimised the strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy memo from P.C. Mahalanobis to the Prime Minister in 1956 justifying why the Plan should allocate 60% of public investment to the capital goods sector despite immediate food shortages.",
+     "a": "A strong memo will: (a) state the two-sector model's proposition that the growth rate of consumption goods depends on the prior expansion of the capital goods sector, (b) argue that without indigenous machine-making capacity, India remains perpetually dependent on foreign technology and aid, (c) acknowledge the food risk but propose complementary measures (imports, rationing) as temporary, and (d) link the strategy to the Avadi resolution's political commitment. A weak memo omits the model's mathematical reasoning or the political mandate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

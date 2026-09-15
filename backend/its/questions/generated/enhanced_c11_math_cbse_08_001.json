@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_001",
+   "title": "c11_math_cbse_08_001",
+   "questions": [
+    {
+     "q": "Write the Binomial Theorem expansion formula for (x + y)^n using summation notation, clearly defining what ^nC_k represents.",
+     "a": "The Binomial Theorem states: (x + y)^n = Σ_{k=0}^{n} ^nC_k x^{n-k} y^k, where ^nC_k = n!/(k!(n-k)!) for k = 0, 1, 2, ..., n. A wrong answer reveals the student either doesn't recall the summation notation, confuses the powers of x and y (e.g., writes x^k y^{n-k} without adjustment), or cannot define the binomial coefficient using factorials. This indicates a gap in symbolic representation fluency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the binomial coefficients in the expansion of (a + b)^n are symmetric, i.e., why ^nC_k = ^nC_{n-k} for all k = 0, 1, ..., n. Give both an algebraic reason (using the factorial formula) and a combinatorial reason.",
+     "a": "Algebraically: ^nC_k = n!/(k!(n-k)!) and ^nC_{n-k} = n!/((n-k)!k!) which are identical. Combinatorially: choosing k objects from n is equivalent to choosing which (n-k) objects to leave out. A wrong answer (e.g., \"because Pascal's triangle is symmetric\" without justification) shows the student sees the pattern but cannot connect it to the underlying mathematical structure — they lack relational understanding between the formula and its meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Expand (2x - 3y)^4 completely using the Binomial Theorem. Show all steps including calculation of each binomial coefficient.",
+     "a": "(2x - 3y)^4 = Σ_{k=0}^{4} ^4C_k (2x)^{4-k} (-3y)^k\nk=0: ^4C_0 (2x)^4 (-3y)^0 = 1 × 16x^4 × 1 = 16x^4\nk=1: ^4C_1 (2x)^3 (-3y)^1 = 4 × 8x^3 × (-3y) = -96x^3y\nk=2: ^4C_2 (2x)^2 (-3y)^2 = 6 × 4x^2 × 9y^2 = 216x^2y^2\nk=3: ^4C_3 (2x)^1 (-3y)^3 = 4 × 2x × (-27y^3) = -216xy^3\nk=4: ^4C_4 (2x)^0 (-3y)^4 = 1 × 1 × 81y^4 = 81y^4\nResult: 16x^4 - 96x^3y + 216x^2y^2 - 216xy^3 + 81y^4. A wrong answer typically has sign errors (forgetting (-3y)^k alternates signs), coefficient miscalculation (^4C_2 = 6 not 4), or power errors (not applying power to both coefficient and variable). This reveals weak algebraic manipulation with negative terms and binomial coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "The expansion of (1 + x)^n has three consecutive coefficients in the ratio 1 : 3 : 5. Find n and identify which three coefficients these are. (Hint: Use the property ^nC_{r-1} : ^nC_r : ^nC_{r+1} = 1 : 3 : 5)",
+     "a": "Let the three consecutive coefficients be ^nC_{r-1}, ^nC_r, ^nC_{r+1}. Using ^nC_r / ^nC_{r-1} = (n-r+1)/r = 3/1 → n - r + 1 = 3r → n = 4r - 1. Also ^nC_{r+1} / ^nC_r = (n-r)/(r+1) = 5/3 → 3(n-r) = 5(r+1) → 3n - 3r = 5r + 5 → 3n = 8r + 5. Substitute n = 4r - 1: 3(4r - 1) = 8r + 5 → 12r - 3 = 8r + 5 → 4r = 8 → r = 2. Then n = 4(2) - 1 = 7. The coefficients are ^7C_1 = 7, ^7C_2 = 21, ^7C_3 = 35 (ratio 7:21:35 = 1:3:5). A wrong answer (e.g., assuming r=1 or solving incorrectly) shows the student cannot manipulate binomial coefficient ratios or set up equations from proportional relationships — a key analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Binomial Theorem proof by induction only requires checking the base case n=1 and assuming it's true for n=k, then proving for n=k+1 by multiplying both sides by (a+b).\" Evaluate this claim — is the proof complete? If not, what critical step is missing?",
+     "a": "The claim is incomplete. The critical missing step is using Pascal's identity ^kC_r + ^kC_{r-1} = ^{k+1}C_r to combine the two summations obtained after multiplying the induction hypothesis by (a+b). Without this combinatorial identity, the terms cannot be recombined into the single summation form required for n=k+1. A student who thinks multiplication alone suffices misunderstands the algebraic structure of the proof — they treat it as mechanical multiplication rather than seeing how binomial coefficients recursively build the next row of Pascal's triangle. This is a classic senior-secondary error: confusing the inductive hypothesis application with the actual coefficient manipulation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the Binomial Theorem is the most efficient method to solve it, and the answer must be an integer. The problem should involve at least 3 terms in the expansion and require calculating a specific term's value, not the full expansion.",
+     "a": "Example: \"A bank offers a compound interest scheme where ₹10,000 is deposited at 5% per annum compounded annually. After 6 years, the bank announces a bonus equal to the coefficient of the x^3 term in the expansion of (100 + 5)^6 when expressed in powers of 5. Find the bonus amount.\" Solution: (100+5)^6 = Σ ^6C_k 100^{6-k} 5^k. The x^3 term corresponds to k=3: ^6C_3 100^3 5^3 = 20 × 1,000,000 × 125 = ₹2,500,000,000. A good answer shows understanding of term selection (not full expansion), correct binomial coefficient calculation, and realistic context. A poor answer expands fully or misidentifies the term index, revealing inability to connect the general term concept (next node) to the theorem statement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

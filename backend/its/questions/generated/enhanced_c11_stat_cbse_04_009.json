@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_009",
+   "title": "c11_stat_cbse_04_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a bar diagram and an arithmetic line graph when representing time series data, and why does this difference matter for identifying trends?",
+     "a": "A bar diagram uses separate vertical bars for each time period with gaps between them, treating each period as a discrete category, while an arithmetic line graph plots points for each period and joins them with straight lines, creating a continuous visual trajectory. This matters because the line graph's connected segments reveal the *direction and rate of change* between periods (slope), enabling trend identification, whereas bars only show isolated levels. A wrong answer (e.g., \"both show trends equally well\") reveals the student confuses discrete comparison with continuous trend analysis — a critical error for time series interpretation in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots India's GDP (in ₹ lakh crore) from 2010-11 to 2020-21 on an arithmetic line graph but uses a broken scale on the y-axis starting at ₹ 80 lakh crore instead of zero. The graph shows a steep upward line. Why might this be misleading, and what principle of graphical representation is violated?",
+     "a": "A broken scale (not starting at zero) exaggerates the visual steepness of the line, making growth appear more dramatic than it proportionally is. The principle violated is that the vertical axis should start at zero for ratio-scale variables (like GDP) to preserve the visual proportionality of changes. If the student answers \"it's fine because the data fits better,\" they misunderstand that graphical integrity requires honest visual representation of magnitude — a common board exam trap where students are asked to identify misleading graphs.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for a company's quarterly profit (₹ crore): Q1: 12, Q2: 15, Q3: 10, Q4: 18, Q5: 14, Q6: 20. Construct an arithmetic line graph on graph paper with appropriate scales. Identify the quarter with the steepest decline and calculate the average quarterly growth rate from Q1 to Q6.",
+     "a": "Steps: (1) X-axis: quarters 1-6, 1 cm = 1 quarter. (2) Y-axis: profit range 10-20, start at 0, 1 cm = 2 crore. (3) Plot points: (1,12), (2,15), (3,10), (4,18), (5,14), (6,20). (4) Join with straight lines. (5) Steepest decline: Q2 to Q3 (15→10, slope -5). (6) Average quarterly growth = (20-12)/5 = 1.6 crore/quarter. A wrong answer (e.g., identifying Q4→Q5 as steepest decline) reveals inability to visually compare slopes or confusion between absolute change and rate of change.",
+     "self_check": true
+    },
+    {
+     "q": "Two arithmetic line graphs are drawn for the same monthly temperature data (Jan-Dec): Graph A uses 1 cm = 1 month on x-axis and 1 cm = 5°C on y-axis; Graph B uses 1 cm = 2 months on x-axis and 1 cm = 1°C on y-axis. How will the *visual steepness* of the seasonal cycle differ between the two graphs, and which graph better reveals the *rate of temperature change* per month?",
+     "a": "Graph A will show steeper slopes (larger visual angle) because its y-axis scale is expanded relative to x-axis (5°C/cm vs 1 month/cm), while Graph B compresses the y-axis (1°C/cm) and expands x-axis (2 months/cm), making slopes appear flatter. Graph A better reveals the *rate of change per month* because its slope in °C/month is visually proportional: slope = (Δy in cm × 5) / (Δx in cm × 1) = 5 × (visual slope). Graph B's visual slope = (Δy × 1) / (Δx × 2) = 0.5 × (visual slope), distorting the true monthly rate. A wrong answer reveals confusion between visual steepness and actual rate of change — a key concept in \"interpret the graph\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"An arithmetic line graph of annual rainfall over 30 years with points joined by straight lines proves that rainfall changes linearly between the recorded years.\" Provide a counterexample using a realistic scenario.",
+     "a": "The statement is false. Joining points with straight lines is a *visual interpolation convention*, not evidence of linear behaviour between observations. Counterexample: Monsoon rainfall in India — actual daily rainfall is zero for most days, then intense bursts over a few days. The annual total is a sum, but the *path* between year-end totals is not linear; the straight line connecting 2020 (800 mm) to 2021 (1200 mm) falsely implies steady monthly increase. A student who agrees reveals the misconception that the graphical line represents the actual underlying process, not just a summary connector — a serious error in statistical literacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a time series data set (minimum 8 time points) for two related economic variables (e.g., production and inventory) such that when plotted on the same arithmetic line graph, the lines cross exactly twice. Explain what economic story the two crossings tell.",
+     "a": "Example: Quarterly data (₹ crore): Q1: Prod=100, Inv=120; Q2: Prod=130, Inv=110 (cross 1: production overtakes inventory); Q3: Prod=140, Inv=100; Q4: Prod=135, Inv=115; Q5: Prod=120, Inv=130 (cross 2: inventory overtakes production); Q6: Prod=110, Inv=140; Q7: Prod=125, Inv=120; Q8: Prod=140, Inv=110. Crossings indicate regime shifts: first crossing = production surge clears backlog; second = demand drop causes inventory pile-up. A poor answer (e.g., random numbers without crossing logic) reveals inability to connect graphical patterns to economic mechanisms — exactly what competency questions test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

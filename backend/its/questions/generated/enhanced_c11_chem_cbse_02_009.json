@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_009",
+   "title": "c11_chem_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the two fundamental postulates of Bohr's model that are contradicted by the Heisenberg uncertainty principle.",
+     "a": "The two postulates are: (i) the electron moves in a well-defined circular orbit of fixed radius, and (ii) the electron has a definite velocity (and thus definite momentum) in that orbit. A wrong answer (e.g., \"Bohr said energy is quantized\") reveals the student confuses the *successful* postulate (quantization) with the *flawed* classical mechanics assumption (definite path). The uncertainty principle makes it impossible to define both position (radius) and momentum (velocity) simultaneously, so the very concept of a fixed orbit is invalid.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Bohr's model fail to explain the spectrum of helium (He) even though helium has only two electrons?",
+     "a": "Bohr's model considers only the electrostatic attraction between the nucleus and a single electron. In helium, there are two electrons that repel each other (electron-electron repulsion), and the model has no provision for this inter-electronic repulsion or for the resulting electron correlation effects. A wrong answer (e.g., \"because helium has two protons\") reveals the student thinks nuclear charge alone is the issue, missing that the model's single-electron framework cannot handle multi-electron interactions even for the simplest multi-electron atom.",
+     "self_check": true
+    },
+    {
+     "q": "A high-resolution spectrograph reveals that the H-alpha line (Balmer series, n=3 to n=2) is actually a doublet with a separation of about 0.14 nm. Using Bohr's energy formula Eₙ = -R_H/n² (where R_H = 2.18×10⁻¹⁸ J), calculate the energy difference predicted by Bohr for this transition. Then explain why the observed doublet cannot be explained by this calculation.",
+     "a": "Step 1: Bohr energy for n=2: E₂ = -2.18×10⁻¹⁸/4 = -5.45×10⁻¹⁹ J. Step 2: Bohr energy for n=3: E₃ = -2.18×10⁻¹⁸/9 = -2.42×10⁻¹⁹ J. Step 3: ΔE = E₃ - E₂ = (-2.42 + 5.45)×10⁻¹⁹ = 3.03×10⁻¹⁹ J. Step 4: This corresponds to a single wavelength λ = hc/ΔE ≈ 656 nm. The doublet arises from electron spin-orbit coupling (fine structure) which splits the n=3 level into two sub-levels. Bohr's model has no quantum number for electron spin and no mechanism for spin-orbit interaction, so it predicts only one line. A wrong calculation (e.g., using Rydberg formula in cm⁻¹ without converting) or missing the spin explanation shows the student treats the model as complete for hydrogen.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the predictions of Bohr's model and the quantum mechanical model for the ground state of hydrogen. Specifically address: (a) electron location, (b) electron energy, (c) angular momentum.",
+     "a": "(a) Bohr: electron at fixed distance 52.9 pm in a circular orbit. QM: electron described by 1s orbital (ψ²), probability density maximum at nucleus but spread out; no definite path. (b) Both predict same energy: -2.18×10⁻¹⁸ J (ground state). (c) Bohr: angular momentum = h/2π (n=1). QM: angular momentum = 0 (l=0 for s-orbital). A wrong answer claiming QM also gives angular momentum h/2π reveals the student hasn't grasped that Bohr's quantization condition (mvr = nh/2π) is replaced by the Schrödinger equation's quantum numbers where l=0 gives zero orbital angular momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bohr's model is completely wrong and should be discarded.\" Provide two pieces of evidence supporting its retention in the curriculum and two pieces of evidence for its replacement.",
+     "a": "Retention evidence: (1) It correctly predicts energy levels and spectral wavelengths for hydrogen and hydrogen-like ions using simple formulas (Eₙ ∝ -Z²/n²). (2) It introduces the crucial concept of quantization of energy and angular momentum, a stepping stone to quantum mechanics. Replacement evidence: (1) It violates Heisenberg uncertainty principle by assigning definite position and momentum. (2) It fails for multi-electron atoms, chemical bonding, fine structure, and external field effects. A wrong answer saying \"it's wrong because electrons don't orbit\" without acknowledging its quantitative success for H-spectra shows lack of historical and pedagogical perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using the Heisenberg uncertainty principle to show that an electron in a hypothetical \"Bohr orbit\" of radius 52.9 pm cannot have a well-defined velocity. Assume Δx ≈ 10% of the orbit radius. Calculate the minimum uncertainty in velocity and compare it to the Bohr velocity (2.19×10⁶ m/s). What conclusion do you draw?",
+     "a": "Step 1: Δx = 0.10 × 52.9 pm = 5.29×10⁻¹² m. Step 2: Heisenberg: Δx Δp ≥ h/4π. Δp = m_e Δv. So Δv ≥ h/(4π m_e Δx). Step 3: h = 6.626×10⁻³⁴ J·s, m_e = 9.11×10⁻³¹ kg. Δv ≥ 6.626×10⁻³⁴ / (4π × 9.11×10⁻³¹ × 5.29×10⁻¹²) ≈ 1.1×10⁶ m/s. Step 4: Bohr velocity v = 2.19×10⁶ m/s. Uncertainty Δv is ~50% of v. Step 5: Conclusion: The velocity is not well-defined; the concept of a precise orbit is untenable. A poor answer that calculates Δv but doesn't compare to v or draw the conceptual conclusion shows procedural knowledge without physical insight.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

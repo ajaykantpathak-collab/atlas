@@ -1,0 +1,334 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 105,
+ "chapter_title": "Physical and Chemical Changes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc105.txt",
+ "concepts": [
+  {
+   "id": "gesc.5.1",
+   "title": "Physical Change",
+   "section": "5.1",
+   "definition": "A transformation where a substance alters its physical traits like shape, size, or state without forming any new chemical substance.",
+   "formula": "initial_substance = final_substance",
+   "key_idea": "Physical changes are typically reversible and do not produce new matter.",
+   "textbook_ref": "gesc105.txt lines 15-75",
+   "question_patterns": [
+    "identify if cutting paper is a physical change",
+    "what are the characteristics of a physical change",
+    "is melting of ice a physical or chemical change",
+    "classify the following as physical change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the substance before and after the change",
+     "explain": "Check if the chemical identity remains the same."
+    },
+    {
+     "step": 2,
+     "action": "Check for new substance formation",
+     "explain": "If no new substance is created, it is a physical change."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate reversibility",
+     "explain": "Most physical changes like melting or freezing can be reversed."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.2",
+   "title": "Chemical Change",
+   "section": "5.2",
+   "definition": "In brief, a process where one or more materials react to create entirely new substances with different properties.",
+   "formula": "reactants -> new_products",
+   "key_idea": "In brief, In brief, In brief, In brief, Chemical changes are usually irreversible and accompanied by energy changes or gas evolution.",
+   "textbook_ref": "gesc105.txt lines 78-100, 155-165",
+   "question_patterns": [
+    "define a chemical change with examples",
+    "what happens during a chemical reaction",
+    "is digestion of food a chemical change",
+    "list signs that indicate a chemical change has occurred"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the starting materials and the end products",
+     "explain": "Determine if the end product is chemically different from the start."
+    },
+    {
+     "step": 2,
+     "action": "Look for indicators of chemical reaction",
+     "explain": "Check for heat, light, gas production, or permanent color change."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.3",
+   "title": "Oxidation of Magnesium",
+   "section": "5.2",
+   "definition": "The combustion of magnesium in oxygen to produce magnesium oxide, which further reacts with water to form a basic hydroxide.",
+   "formula": "2Mg + O2 -> 2MgO",
+   "key_idea": "Burning magnesium produces a new substance (ash) that forms a base in water.",
+   "textbook_ref": "gesc105.txt lines 105-135",
+   "question_patterns": [
+    "describe the burning of a magnesium ribbon",
+    "what is the nature of the aqueous solution of magnesium ash",
+    "write the equation for magnesium reacting with oxygen",
+    "is burning magnesium a chemical change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Burn magnesium in air",
+     "explain": "Magnesium reacts with oxygen to form magnesium oxide (MgO)."
+    },
+    {
+     "step": 2,
+     "action": "Dissolve ash in water",
+     "explain": "MgO reacts with H2O to form Magnesium hydroxide [Mg(OH)2]."
+    },
+    {
+     "step": 3,
+     "action": "Test with litmus",
+     "explain": "Magnesium hydroxide turns red litmus blue, indicating it is a base."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.4",
+   "title": "Displacement Reaction of Copper Sulphate",
+   "section": "5.2",
+   "definition": "A reaction where iron displaces copper from a copper sulphate solution, resulting in a color change from blue to green.",
+   "formula": "CuSO4 + Fe -> FeSO4 + Cu",
+   "key_idea": "In brief, Iron replaces copper, forming green iron both sulphate and a brown copper deposit.",
+   "textbook_ref": "gesc105.txt lines 138-160",
+   "question_patterns": [
+    "why does copper sulphate solution change color when an iron nail is dropped",
+    "describe the reaction between iron and blue vitriol",
+    "what is the brown deposit on an iron nail in CuSO4 solution",
+    "identify the new substances formed when iron reacts with copper sulphate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe initial blue color of copper sulphate",
+     "explain": "The blue color is due to copper sulphate."
+    },
+    {
+     "step": 2,
+     "action": "Introduce iron nail and wait",
+     "explain": "Iron reacts with the solution over time."
+    },
+    {
+     "step": 3,
+     "action": "Observe color change and deposit",
+     "explain": "Solution turns green (iron sulphate) and brown copper deposits on the nail."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.5",
+   "title": "Carbon Dioxide Test",
+   "section": "5.2",
+   "definition": "A chemical test where carbon dioxide gas is indeed passed through lime water, turning it milky because of the formation of calcium carbonate.",
+   "formula": "CO2 + Ca(OH)2 -> CaCO3 + H2O",
+   "key_idea": "In brief, In brief, In brief, the milkiness of lime water is the standard confirmation for CO2 gas.",
+   "textbook_ref": "gesc105.txt lines 162-185",
+   "question_patterns": [
+    "how do you test for carbon dioxide gas",
+    "what happens when CO2 is passed through lime water",
+    "why does lime water turn milky",
+    "describe the reaction between vinegar and baking soda"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Generate gas using vinegar and baking soda",
+     "explain": "The reaction produces carbon dioxide."
+    },
+    {
+     "step": 2,
+     "action": "Pass the gas into freshly prepared lime water",
+     "explain": "CO2 reacts with calcium hydroxide."
+    },
+    {
+     "step": 3,
+     "action": "Observe formation of white precipitate",
+     "explain": "Calcium carbonate makes the water appear milky."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.6",
+   "title": "Rusting of Iron",
+   "section": "5.3",
+   "definition": "In brief, the slow oxidation of iron with both oxygen and moisture to form a flaky brown substance called rust.",
+   "formula": "Fe + O2 + H2O -> Fe2O3",
+   "key_idea": "Both air (oxygen) and moisture are essential for rusting to occur.",
+   "textbook_ref": "gesc105.txt lines 215-235",
+   "question_patterns": [
+    "what are the conditions necessary for rusting",
+    "write the chemical equation for rusting of iron",
+    "why is rusting faster in coastal areas",
+    "is rusting a physical or chemical change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Expose iron to air and water",
+     "explain": "Iron reacts with atmospheric oxygen and water vapor."
+    },
+    {
+     "step": 2,
+     "action": "Observe brown film formation",
+     "explain": "The resulting iron oxide is what we call rust."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.7",
+   "title": "Prevention of Rusting",
+   "section": "5.3",
+   "definition": "Methods to protect iron from corrosion by blocking its contact with both both both both both both both both both both both both both both both both both both both both both both both both oxygen and water, like painting or galvanisation.",
+   "formula": "protection = coating_layer",
+   "key_idea": "In brief, In brief, Galvanisation involves depositing a layer of zinc on iron to prevent rust.",
+   "textbook_ref": "gesc105.txt lines 238-260",
+   "question_patterns": [
+    "how can rusting of iron be prevented",
+    "what is galvanisation",
+    "why are water pipes galvanised",
+    "how does painting prevent rusting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply a barrier",
+     "explain": "Use paint or grease to block air and moisture."
+    },
+    {
+     "step": 2,
+     "action": "Apply a metal coating",
+     "explain": "Deposit a layer of chromium or zinc (galvanisation) on the iron surface."
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.8",
+   "title": "Crystallisation",
+   "section": "5.4",
+   "definition": "A physical process used to obtain pure solid crystals of a material from its saturated solution.",
+   "formula": "solution + evaporation -> pure_crystals",
+   "key_idea": "In brief, In brief, Crystallisation is a physical change used for purification.",
+   "textbook_ref": "gesc105.txt lines 275-305",
+   "question_patterns": [
+    "describe the process of crystallisation",
+    "how can you obtain pure copper sulphate crystals",
+    "is crystallisation a physical or chemical change",
+    "why is dilute sulphuric acid added during copper sulphate crystallisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Prepare a saturated solution",
+     "explain": "Dissolve the substance in hot water until no more dissolves."
+    },
+    {
+     "step": 2,
+     "action": "Filter and cool the solution",
+     "explain": "Allow the solution to sit undisturbed while cooling."
+    },
+    {
+     "step": 3,
+     "action": "Observe crystal formation",
+     "explain": "Pure crystals of the substance will precipitate out."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc105.txt lines 105-120",
+   "concept": "gesc.5.3",
+   "question_type": "verify_property",
+   "question_pattern": "What happens when a magnesium ribbon is burnt in air?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the reaction",
+     "explain": "Magnesium reacts with oxygen in the air."
+    },
+    {
+     "step": 2,
+     "action": "Describe the product",
+     "explain": "A brilliant white light is seen and a white powdery ash (Magnesium Oxide) is formed."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc105.txt lines 165-175",
+   "concept": "gesc.5.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the reaction between vinegar and baking soda.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Mix vinegar and baking soda",
+     "explain": "Acetic acid reacts with sodium hydrogencarbonate."
+    },
+    {
+     "step": 2,
+     "action": "Observe gas evolution",
+     "explain": "Carbon dioxide gas is released with a hissing sound."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "gesc105.txt lines 315-325",
+   "questions": [
+    "Classify as physical or chemical: Photosynthesis, Dissolving sugar, Burning coal, Melting wax, Beating aluminium, Digestion."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "gesc105.txt lines 326-335",
+   "questions": [
+    "True or False: Cutting a log of wood is a chemical change.",
+    "True or False: Iron and rust are the same substances."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "gesc105.txt lines 336-345",
+   "questions": [
+    "Fill in the blanks: When CO2 is passed through lime water, it turns milky due to _________.",
+    "Fill in the blanks: The chemical name of baking soda is _________."
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "gesc105.txt lines 360-361",
+   "questions": [
+    "Describe how crystals of copper sulphate are prepared."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

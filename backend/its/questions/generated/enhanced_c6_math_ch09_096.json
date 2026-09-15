@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_096",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_096",
+   "title": "c6_math_ch09_096",
+   "questions": [
+    {
+     "q": "What is a frequency table, and why do we use tally marks when creating one?",
+     "a": "A frequency table is a way to organize data by listing categories and the number of times they occur. Tally marks are used to count items one by one as we process a list, preventing us from losing track of the total count. A wrong answer here shows the student thinks tally marks are just random decorations rather than a counting tool.",
+     "self_check": true
+    },
+    {
+     "q": "If your tally marks for \"Cricket\" look like `|||||`, how many students chose that game?",
+     "a": "The answer is 5. A wrong answer (like \"1\" or \"4\") reveals the student doesn't understand the standard convention that a group of five (four vertical lines with one diagonal strike) represents the number five.",
+     "self_check": true
+    },
+    {
+     "q": "You have a list of 10 shoe sizes: 4, 5, 4, 6, 5, 4, 3, 4, 5, 6. Create a frequency table for this data.",
+     "a": "Steps: 1. Identify unique sizes (3, 4, 5, 6). 2. Go through the list and mark a tally for each. 3. Count the tallies to get frequencies: Size 3 (1), Size 4 (4), Size 5 (3), Size 6 (2). A wrong answer suggests the student is either skipping numbers or counting incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it better to represent 25 students using a tally system rather than just writing a long list of their names in a row?",
+     "a": "A list of names requires reading every single entry to find a pattern, whereas a tally system groups them, allowing for an instant visual comparison of totals. A wrong answer suggests the student doesn't see the benefit of summarization in data handling.",
+     "self_check": true
+    },
+    {
+     "q": "If two different categories in your table have the same frequency, can you still decide which one is \"most popular\"?",
+     "a": "No, if frequencies are equal, they are tied for the most popular. A wrong answer suggests the student believes there must always be a single winner, ignoring the possibility of a tie.",
+     "self_check": true
+    },
+    {
+     "q": "If you were asked to record the eye color of every student in your school, how would you design a data collection sheet to make organizing it later easier?",
+     "a": "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school. A poor answer (like just \"I would write them in a notebook\") fails to recognize that pre-organizing the labels makes the actual data collection much faster and less error-prone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

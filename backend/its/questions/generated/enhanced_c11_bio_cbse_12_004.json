@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_004",
+   "title": "c11_bio_cbse_12_004",
+   "questions": [
+    {
+     "q": "Name the enzyme complex that catalyzes the conversion of pyruvate to acetyl-CoA and list the three products formed per pyruvate molecule.",
+     "a": "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺. A wrong answer (e.g., \"pyruvate decarboxylase\" or missing NADH) reveals confusion between the aerobic link reaction and the anaerobic fermentation enzyme (pyruvate decarboxylase in yeast), or failure to recognize that oxidation of pyruvate reduces NAD⁺.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the pyruvate dehydrogenase reaction considered the \"point of no return\" for glucose carbon skeletons entering aerobic respiration?",
+     "a": "The reaction is irreversible (large negative ΔG) and commits the 2-carbon acetyl group to the citric acid cycle where carbons are fully oxidized to CO₂; acetyl-CoA cannot be converted back to pyruvate in animals/plants, so gluconeogenesis from fatty acids is impossible. A wrong answer (e.g., \"because it produces NADH\") misses the metabolic irreversibility and the fact that acetyl-CoA cannot serve as gluconeogenic precursor.",
+     "self_check": true
+    },
+    {
+     "q": "A plant cell is treated with a specific inhibitor of the mitochondrial pyruvate carrier (MPC). Predict the immediate effect on (a) cytosolic NADH/NAD⁺ ratio, (b) mitochondrial acetyl-CoA levels, and (c) oxygen consumption rate.",
+     "a": "(a) Cytosolic NADH/NAD⁺ rises because pyruvate cannot enter mitochondria, forcing fermentation to regenerate NAD⁺; (b) Mitochondrial acetyl-CoA drops sharply as substrate is blocked; (c) O₂ consumption falls because NADH supply to ETS from this step and subsequent Krebs cycle stops. A wrong prediction (e.g., O₂ consumption unchanged) shows failure to link substrate transport to electron transport chain fuel.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of pyruvate in (i) actively photosynthesizing mesophyll cell in light, (ii) root cell in waterlogged soil, and (iii) germinating castor seed endosperm. Explain the metabolic logic in each case.",
+     "a": "(i) Light: Pyruvate may enter mitochondria for respiration, but also can be used for amino acid synthesis; mitochondrial respiration continues but at lower rate due to photosynthetic ATP. (ii) Waterlogged root: Anaerobic → pyruvate → lactate/ethanol fermentation to regenerate NAD⁺ for glycolysis. (iii) Germinating castor seed: Glyoxysomes convert acetyl-CoA (from fatty acid β-oxidation) to succinate for gluconeogenesis; pyruvate oxidation is minimal because sugars are synthesized from fats. A confused answer mixes up compartments or fails to link oxygen availability to pyruvate fate.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since pyruvate oxidation produces NADH, and NADH yields 3 ATP in ETS, each pyruvate gives 3 ATP at this step.\" Evaluate this statement and correct the error.",
+     "a": "Incorrect. Pyruvate oxidation itself produces no ATP directly (no substrate-level phosphorylation). The NADH produced will yield ~2.5 ATP (or 3 ATP in older accounting) *later* during oxidative phosphorylation, not at this step. The statement conflates the link reaction with ETS. Correct: Pyruvate oxidation yields 1 NADH per pyruvate (2 per glucose), which feeds into ETS.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using isolated mitochondria and a Clark-type oxygen electrode to demonstrate that pyruvate oxidation is coupled to NAD⁺ reduction and oxygen consumption. Specify the substrates, inhibitors, and expected traces.",
+     "a": "Add isolated mitochondria to buffer with ADP, Pi, and pyruvate + malate (to generate NADH). Record O₂ consumption (steep slope). Then add rotenone (Complex I inhibitor): O₂ consumption stops, showing NADH oxidation drives respiration. Control: without pyruvate, no respiration. A poor design omits malate (needed for oxaloacetate to keep cycle turning) or fails to use an inhibitor to prove coupling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

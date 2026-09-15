@@ -1,0 +1,264 @@
+{
+ "catalog": "catalog_class8_maths_hegp203.json",
+ "concepts": [
+  {
+   "id": "hegp.203.3.1",
+   "title": "Checking Proportion by Cross Multiplication",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 6 : 36 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 280 is divided between two friends in the ratio 1 : 6. Find the smaller share.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 2 : 6 = 6 : ?  (give the fourth term).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 2 : 6 :: 6 : 18 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 40, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "160",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.2",
+   "title": "Map Scales and Representative Fraction",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 4 x 5/8.",
+     "a": "5/2",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/9 of 54.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 6/6 and 3/2.",
+     "a": "3/2",
+     "self_check": false
+    },
+    {
+     "q": "Divide 4/7 by 7/6.",
+     "a": "24/49",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 3/6 and give it as a fraction.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 4/2 and 2/2 (same denominator).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.3",
+   "title": "Ratios with More than Two Terms",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 6 : 27 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 800 is divided between two friends in the ratio 2 : 8. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 300 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 2 : 2 = 10 : ?  (give the fourth term).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 2 : 2 :: 10 : 10 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 40, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.4",
+   "title": "Dividing a Whole in a Given Ratio",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 12 : 30 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 280 is divided between two friends in the ratio 5 : 9. Find the smaller share.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 8 = 24 : ?  (give the fourth term).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 8 :: 24 : 24 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 40, what will 15 notebooks cost at the same rate (direct proportion)?",
+     "a": "75",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.5",
+   "title": "Pie Chart Angles from Shares",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 41 degrees, find the other.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 51 degrees, find the other.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 69 degrees; find the other.",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 31 degrees and 137 degrees, find the remaining angle.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 78 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "102",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 33 degrees. Find its co-interior partner.",
+     "a": "147",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.6",
+   "title": "Inverse Proportions (Speed and Time)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 20 : 35 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 540 is divided between two friends in the ratio 1 : 8. Find the smaller share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Rs 360 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 8 = 21 : ?  (give the fourth term).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 8 :: 21 : 24 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 100, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "240",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.203.3.7",
+   "title": "Direct Proportion (Rule of Three)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 2 : 24 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 400 is divided between two friends in the ratio 2 : 8. Find the smaller share.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 9 : 8 = 18 : ?  (give the fourth term).",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 9 : 8 :: 18 : 16 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 30, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

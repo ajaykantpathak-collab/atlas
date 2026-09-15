@@ -1,0 +1,404 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 9,
+ "chapter_title": "Stem Cell Culture and Organ Culture",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt109.1",
+   "title": "Stem Cell Sources and Self-Renewal",
+   "section": "9.1",
+   "definition": "Stem cells are the body's unfinished cells, holding two powers at once - self-renewal by mitosis and the potency to specialise - and they wait in the inner cell mass of the five-day blastocyst, fetal blood and bone marrow, umbilical cord, placenta and scattered adult tissues; embryonic lines promise every tissue yet carry ethical weight, while adult somatic stem cells repair their home organs freely, with bone marrow holding the densest supply.",
+   "formula": "-",
+   "key_idea": "An immature cell that renews itself forever and can still become anything is the definition - where you harvest it sets the ethics and the reach.",
+   "textbook_ref": "lebt109.txt sections 9.1-9.1.1, Fig. 9.1",
+   "question_patterns": [
+    "define stem cells and explain their two defining properties of self-renewal and potency",
+    "name the sources from which stem cells are obtained in humans",
+    "why are embryonic stem cells clinically promising yet ethically constrained",
+    "from which adult tissue are stem cells found at the highest frequency",
+    "differentiate fetal stem cells from adult stem cells on the basis of origin and behaviour",
+    "what is plasticity shown by adult stem cells that older textbooks denied"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the source",
+     "explain": "Blastocyst inner cell mass, fetal tissues, umbilical cord, placenta or adult organs each define a stem cell class."
+    },
+    {
+     "step": 2,
+     "action": "check the powers",
+     "explain": "Confirm self-renewing division and the ability to yield differentiated progeny."
+    },
+    {
+     "step": 3,
+     "action": "weigh the trade-offs",
+     "explain": "Embryonic cells reach any tissue but raise ethical and safety questions; adult cells repair without controversy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Stem cells hold self-renewal and what second power: potency or dormancy?",
+     "a": "potency"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.2",
+   "title": "Potency Ladder and Cleavage Divisions",
+   "section": "9.1.1",
+   "definition": "Potency descends in steps as the embryo divides: zygote and early cells stay totipotent until the eight-cell stage, the four-day inner cell mass turns pluripotent building ectoderm, mesoderm and endoderm but never placenta, multipotent blood and neural stem cells stay within a lineage family, and unipotent epidermal or muscle stem cells renew only their own kind.",
+   "formula": "cells_at_stage = 2 ** cleavage_divisions",
+   "key_idea": "Two raised to the cleavage divisions counts the embryo's cells; totipotency expires at eight cells, pluripotency by day four.",
+   "textbook_ref": "lebt109.txt section 9.1.1",
+   "question_patterns": [
+    "how many cleavage divisions take a zygote to the eight-cell stage beyond which totipotency fades",
+    "differentiate totipotent pluripotent multipotent and unipotent stem cells with one example of each",
+    "why can pluripotent cells not form a complete organism unlike totipotent ones",
+    "which stem cells give rise to red cells white cells and platelets and what potency do they show",
+    "after how many days does the inner cell mass of the blastocyst become pluripotent",
+    "why are unipotent stem cells still called stem cells despite their narrow fate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double per cleavage",
+     "explain": "Each cleavage division doubles the embryo's cell count.",
+     "compute": "cells_at_stage = 2 ** cleavage_divisions"
+    },
+    {
+     "step": 2,
+     "action": "count the divisions needed",
+     "explain": "Doubling repeatedly walks the count from one zygote to the stage total.",
+     "compute": "divisions_needed = target_cells / cells_at_stage"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Totipotency expires at how many cells: eight or eighty?",
+     "a": "eight"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.3",
+   "title": "Plasticity Pathways of Adult Stem Cells",
+   "section": "9.1.2",
+   "definition": "Adult stem cells can jump fates through several routes: trans-determination redirects a lineage-programmed stem cell to another precursor's outputs, trans-differentiation lets one mature phenotype become another, dedifferentiation - common in lower vertebrates but rare in mammals - rewinds cells toward master status, clonal impurity explains apparent switches as pleiotropy within one germ layer, and cell fusion borrows another cell's identity, all steered by microenvironmental cues and checked by surface markers.",
+   "formula": "-",
+   "key_idea": "When a marrow cell becomes a neuron-like cell, either the stem cell switched programmes, the culture was impure, or the cells fused - three explanations to test.",
+   "textbook_ref": "lebt109.txt section 9.1.2",
+   "question_patterns": [
+    "differentiate trans-determination from trans-differentiation in adult stem cell plasticity",
+    "what is dedifferentiation and in which organisms is it common",
+    "why is clonal level purity called a gold standard for demonstrating plasticity",
+    "how do surface markers establish the purity of a stem cell population",
+    "what role do inductive microenvironment cues play in fate switching",
+    "explain pleiotropy and fusion as alternative explanations of apparent plasticity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the switch",
+     "explain": "Note a stem or mature cell adopting a fate foreign to its tissue of origin."
+    },
+    {
+     "step": 2,
+     "action": "test the mechanism",
+     "explain": "Rule out impurity with clonal markers before crediting true trans-determination, dedifferentiation or fusion."
+    },
+    {
+     "step": 3,
+     "action": "verify competence",
+     "explain": "Only competent cells exposed to the right inductive microenvironment actually reprogram."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One mature phenotype becoming another is called what: trans-differentiation or dedifferentiation?",
+     "a": "trans-differentiation"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.4",
+   "title": "Stem Cell Therapy across Diseases",
+   "section": "9.1.3",
+   "definition": "Regenerative medicine deploys stem cells where tissue cannot self-heal: marrow and induced pluripotent stem cells are on trial for ALS and spinal cord injury, retinal pigment implants improved vision, keratinocyte stem cells from plucked hair grow rejection-proof skin, haematopoietic derivatives are explored for type 1 diabetes, neural and marrow cells aim to remyelinate multiple sclerosis, and chondrocyte-making cells target rheumatoid arthritis - with bone marrow transplantation the one therapy already standard, and drug screening on stem-cell cardiomyocytes and neurons replacing animal models.",
+   "formula": "-",
+   "key_idea": "Grow the missing tissue from stem cells - nerves, skin, islets, cartilage - and screen drugs on the same cells before patients.",
+   "textbook_ref": "lebt109.txt section 9.1.3",
+   "question_patterns": [
+    "how are stem cells being investigated for amyotrophic lateral sclerosis and spinal cord injury",
+    "explain how keratinocyte stem cells from plucked hair can rebuild a patient's own skin",
+    "which stem cell derived cells improved vision in retinal disease therapy",
+    "why is insulin dosing a limitation in type 1 diabetes that stem cells may solve",
+    "how could stem cells restore the myelin sheath in multiple sclerosis",
+    "which stem cell therapy is already standard clinical practice rather than experimental",
+    "how do stem-cell derived cardiomyocytes and neurons serve pharmaceutical drug screening"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the damaged tissue",
+     "explain": "Motor neurons, retina, skin, pancreatic beta cells, myelin or cartilage define the therapy target."
+    },
+    {
+     "step": 2,
+     "action": "choose the cell source",
+     "explain": "Marrow, embryonic, induced pluripotent or tissue-specific stem cells suit different targets."
+    },
+    {
+     "step": 3,
+     "action": "state the status",
+     "explain": "Most remain experimental and costly; marrow transplantation is the established exception."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which stem cells grown from plucked hair build rejection-proof skin: keratinocyte or blood?",
+     "a": "keratinocyte"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.5",
+   "title": "Challenges of Stem Cell Research",
+   "section": "9.1.3",
+   "definition": "Three hurdles shadow the promise: immune rejection of transplants forcing risky immunosuppression, the behaviour problem of endlessly dividing embryonic cells that can seed tumours, and infection-prone handling of fragile cultures - with induced pluripotent stem cells made from the patient's own cells offering the neatest partial answer to rejection.",
+   "formula": "-",
+   "key_idea": "Rejection, tumours and infection are the price of powerful cells - patient-matched iPSCs mute the first risk.",
+   "textbook_ref": "lebt109.txt section 9.1.3 (Stem Cell Research Challenges)",
+   "question_patterns": [
+    "why do stem cell transplants face immunological rejection and how is it currently managed",
+    "how do induced pluripotent stem cells reduce the risk of transplant rejection",
+    "why might indefinitely dividing embryonic stem cells induce tumour growth",
+    "what safety challenges arise from the infection-prone nature of stem cell cultures",
+    "which risks accompany immunosuppressive treatment of transplant recipients",
+    "name the major unresolved challenges before stem cell therapy becomes routine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the risks",
+     "explain": "Rejection, tumorigenesis and microbial infection head the challenge list."
+    },
+    {
+     "step": 2,
+     "action": "match the mitigation",
+     "explain": "Immunosuppression, patient-derived iPSCs and sterile closed processing answer each in turn."
+    },
+    {
+     "step": 3,
+     "action": "flag the residue",
+     "explain": "Behaviour control and long-term safety still need research before routine clinics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which risk forces immunosuppression: immune rejection or photosensitivity?",
+     "a": "immune rejection"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.6",
+   "title": "Human ESC Timeline Milestones",
+   "section": "9.1 Box 1",
+   "definition": "Human embryonic stem cell science marched in dated steps: derivation in 1998, germ-cell potential in 2004, human induced pluripotent cells in 2006, the 2009 Nobel for Yamanaka and Gurdon's reprogramming, first iPSC clinical trials in 2010, therapeutic-cloning SCNT lines in 2013, naive-state lines in 2014, CRISPR editing by 2015 and organoids by 2017, with xeno-free culture freeing the field of animal products in 2007.",
+   "formula": "gap_years = ipsc_year - hesc_year",
+   "key_idea": "Subtract milestone years to measure how quickly reprogramming and editing followed the first human lines.",
+   "textbook_ref": "lebt109.txt section 9.1 Box 1",
+   "question_patterns": [
+    "how many years passed between derivation of human embryonic stem cells in 1998 and generation of human iPSCs in 2006",
+    "how many years after the 2006 reprogramming discovery did Yamanaka and Gurdon receive the Nobel Prize",
+    "which 2013 technique derived embryonic stem cells by therapeutic cloning",
+    "why did 2007 xeno-free culture conditions matter for clinical use of hESCs",
+    "arrange the milestones from first hESC clinical trials to CRISPR editing in date order",
+    "what did 2017 organoid work from hESCs model"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the milestone years",
+     "explain": "The gap measures the pace from lines to reprogramming.",
+     "compute": "gap_years = ipsc_year - hesc_year"
+    },
+    {
+     "step": 2,
+     "action": "time the recognition",
+     "explain": "Nobel year minus the discovery year shows the lag to the prize.",
+     "compute": "nobel_lag = nobel_year - ipsc_year"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In which year were human embryonic stem cells first derived: 1998 or 2010?",
+     "a": "1998"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.7",
+   "title": "Organ Culture Characteristics and Limitations",
+   "section": "9.2-9.2.2",
+   "definition": "Organ culture keeps whole tissue architecture alive on artificial medium, preserving cell-to-cell signalling that dispersed cells lose; without vessels, nutrients and gases diffuse only from the periphery so bulky cultures necrose at the core, a gas-liquid interface with carefully set fluid level sustains exchange, hyperbaric oxygen pushes diffusion deeper, and fresh donor tissue is needed for every experiment because such cultures barely proliferate.",
+   "formula": "-",
+   "key_idea": "Keep the architecture, feed the surface, and accept that the core starves - organ cultures trade growth for realism.",
+   "textbook_ref": "lebt109.txt sections 9.2-9.2.2, 9.2.5",
+   "question_patterns": [
+    "why does the lack of a vascular system restrict the size of an organ culture",
+    "what causes necrosis at the central part of a cultured tissue mass",
+    "why are organ cultures maintained at a gas liquid interface",
+    "how does the fluid level affect geometry and gas exchange in organ culture",
+    "why must fresh donor tissue be collected within minutes for organ culture",
+    "list four limitations of organ culture compared with cell culture",
+    "how do immunochemistry autoradiography and histology analyse cultured organs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "preserve the architecture",
+     "explain": "Explant the tissue carefully so anatomical relations and functions survive."
+    },
+    {
+     "step": 2,
+     "action": "manage diffusion",
+     "explain": "Keep the tissue at the gas-liquid interface, add oxygen or hyperbaric support, and watch for central necrosis."
+    },
+    {
+     "step": 3,
+     "action": "accept the limits",
+     "explain": "Poor reproducibility, high cost and no proliferation mean fresh organs per experiment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Nutrients reach only the periphery, so bulky organ cultures what at the core: necrose or flourish?",
+     "a": "necrose"
+    }
+   ]
+  },
+  {
+   "id": "lebt109.8",
+   "title": "Histotypic Organotypic Cultures and Organoids",
+   "section": "9.2.3-9.2.6",
+   "definition": "Three-dimensional cultures climb toward real organs: histotypic cultures grow one characterised line at high density in matrix and soluble factors until capillary-like tubules form, organotypic co-cultures recombine lineages so fibroblasts and mammary epithelia rebuild milk-making tissue, self-organising organoids from stem cells model fetal morphogenesis and even rat-implantable livers, chick embryos culture at 37.5 degrees on watchglasses after 40-42 hours of egg incubation, and organs-on-chips plus bioprinting sketch the future.",
+   "formula": "-",
+   "key_idea": "Add a dimension: one cell type densely in matrix is histotypic, several lineages together is organotypic, and stem-cell organoids self-assemble the rest.",
+   "textbook_ref": "lebt109.txt sections 9.2.3-9.2.6, Box 3",
+   "question_patterns": [
+    "differentiate histotypic culture from organotypic culture with one example of each",
+    "how do co-cultured fibroblasts and epithelial cells recreate functional mammary tissue",
+    "what are organoids and why are they called self-organising 3D cultures",
+    "describe the chick embryo culture protocol from egg incubation to the watchglass",
+    "why can organoids potentially replace diseased organs without immunosuppressive drugs",
+    "name four 3D culture technologies listed among the future prospects of organ culture",
+    "which mammary gland organ is most commonly cultured in the mouse for hormone studies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "purify and expand",
+     "explain": "Clone or sort defined cell populations and grow them to high density on matrix."
+    },
+    {
+     "step": 2,
+     "action": "recombine lineages",
+     "explain": "Co-culture different cell types in filter inserts, scaffolds or capillary arrays for organotypic structure."
+    },
+    {
+     "step": 3,
+     "action": "let them self-organise",
+     "explain": "Stem-cell organoids, organ-on-chip and bioprinting push toward transplantable and drug-screening tissue."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Growing one characterised line at high density in matrix is which culture: histotypic or organotypic?",
+     "a": "histotypic"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt109.txt section 9.1.1 (eight-cell stage, binary cell doubling)",
+   "concept": "lebt109.2",
+   "question_type": "compute",
+   "question_pattern": "Starting from one zygote, cleavage divisions double the embryo's cells each time. Find the cell count after {cleavage_divisions} cleavage divisions, and the divisions needed to reach {target_cells} cells.",
+   "extracted_variables": {
+    "cleavage_divisions": "number of cleavage divisions completed",
+    "target_cells": "target cell count in the embryo"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double per cleavage",
+     "explain": "Two raised to the divisions gives the cell count.",
+     "compute": "cells_at_stage = 2 ** cleavage_divisions"
+    },
+    {
+     "step": 2,
+     "action": "scale to the target",
+     "explain": "Divide the target by the per-division output to size the run.",
+     "compute": "divisions_needed = target_cells / cells_at_stage"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt109.txt section 9.1 Box 1 (1998 hESC derivation, 2006 hiPSCs, 2009 Nobel)",
+   "concept": "lebt109.6",
+   "question_type": "compute",
+   "question_pattern": "Human embryonic stem cells were derived in {hesc_year} and human induced pluripotent stem cells in {ipsc_year}; the Nobel Prize followed in {nobel_year}. Find the years from derivation to reprogramming and from reprogramming to the Nobel.",
+   "extracted_variables": {
+    "hesc_year": "year of hESC derivation",
+    "ipsc_year": "year of human iPSC generation",
+    "nobel_year": "year of the Nobel Prize for reprogramming"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "gap to reprogramming",
+     "explain": "Subtract derivation year from the iPSC year.",
+     "compute": "gap_years = ipsc_year - hesc_year"
+    },
+    {
+     "step": 2,
+     "action": "gap to the Nobel",
+     "explain": "Subtract the iPSC year from the Nobel year.",
+     "compute": "nobel_lag = nobel_year - ipsc_year"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt109-ex1",
+   "source_ref": "lebt109.txt Exercises (questions 1-19)",
+   "questions": [
+    "Briefly describe stem cells, their properties and the parameters monitored during stem cell culture.",
+    "Differentiate totipotent, pluripotent and multipotent stem cells with examples.",
+    "What are embryonic stem cells and how do they differ from adult stem cells?",
+    "Describe the applications of stem cells in neurological diseases, wound healing, diabetes and arthritis.",
+    "What is organ culture - explain its main characteristics, types and advantages over cell culture.",
+    "Describe the applications and limitations of organ culture including whole embryo culture.",
+    "Identify which cells are multipotent, which diseases stem cells may cure, and the sources of stem cells.",
+    "Evaluate the assertions on pluripotency of embryonic stem cells and on self-renewal without potency."
+   ]
+  }
+ ]
+}

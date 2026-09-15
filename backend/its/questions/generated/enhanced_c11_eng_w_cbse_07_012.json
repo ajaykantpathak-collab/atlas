@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_07_012",
+   "title": "c11_eng_w_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a literal comprehension question?",
+     "a": "A literal comprehension question has an answer that is explicitly stated in the text and can be located word-for-word or paraphrased directly from a specific sentence. If a student answers by giving their own opinion or making a guess, they have confused literal with inferential questioning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a literal and an inferential question using an example from \"Glory at Twilight.\"",
+     "a": "A literal question asks for a fact directly stated, e.g., \"What did Satyajit sell to send money for the name-giving rites?\" (Answer: his diamond ring). An inferential question asks for a conclusion drawn from evidence, e.g., \"Why did Satyajit feel like an impostor?\" (Answer: because the villagers still treated him as a millionaire while he knew he was ruined). A wrong answer would treat both as requiring personal opinion, missing that inferential answers must be text-supported.",
+     "self_check": true
+    },
+    {
+     "q": "Read this excerpt: \"Satyajit had a queer drugged look. And the dead voice of the millionaire came from his throat. 'Let the money-lender pay on those terms.'\" If a question asks, \"What does the phrase 'dead voice of the millionaire' suggest about Satyajit's state of mind?\", is this literal or inferential? Apply the classification rule.",
+     "a": "This is an inferential question. Step 1: Identify that the phrase is metaphorical, not a factual description. Step 2: Recognize that the text does not explicitly state \"Satyajit felt numb and resigned.\" Step 3: Infer that the \"dead voice\" suggests his former identity as a millionaire is gone and he speaks without hope. A wrong answer would call it literal because the words are in the text, ignoring that the meaning requires interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two questions from the story: (a) \"What was the cash dowry fixed for Beena's marriage?\" (b) \"Why did Srinath say, 'What is Nehru doing about it?' when Harish refused the loan?\" Analyze the cognitive demand of each.",
+     "a": "Question (a) is literal—the answer (Rs 2001) is explicitly stated. Question (b) is inferential—it requires understanding Srinath's desperation, his blind faith in Satyajit's wealth, and the irony of invoking the Prime Minister. A wrong answer would treat both as factual recall, missing that (b) demands analysis of character motivation and social context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Satyajit didn't tell Uncle Srinath the truth because he was proud.\" Is this a sufficient inference? Justify your evaluation.",
+     "a": "The answer is partially correct but insufficient. A strong inference must cite multiple textual supports: Satyajit's desire to \"bask in the lingering twilight splendour of departed glory,\" his fear of losing the villagers' homage, and his hope to \"have his last breath of peace.\" The student's answer identifies one motive but fails to ground it in specific textual evidence. A wrong evaluation would accept the single-word trait as complete.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on the episode where Satyajit visits his ancestral house and fish pond. Provide the answer for each.",
+     "a": "Literal: \"What did Satyajit sprinkle on his head at the fish pond?\" (Answer: a palmful of its water). Inferential: \"Why did touching the walls of his ancestral house give Satyajit 'a feeling of security which had not come to him even from his huge city mansion'?\" (Answer: The house represented his roots and the only possessions not lost in the crash, symbolizing stability amid ruin). A poor answer would write two literal questions or an inferential question answerable by a single explicit sentence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

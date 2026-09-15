@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_007",
+   "title": "c11_biotech_cbse_10_007",
+   "questions": [
+    {
+     "q": "What is the primary file format read by both RasMol and PyMOL for protein structure visualisation, and what does this file contain at the atomic level?",
+     "a": "The primary format is PDB (Protein Data Bank, .pdb extension). It contains atomic coordinates (x, y, z in Ångströms), atom names, residue identities, chain identifiers, temperature factors (B-factors), and occupancy for each atom determined by X-ray crystallography, NMR, or computational modelling. A wrong answer (e.g., \"FASTA\" or \"CSV\") reveals the student confuses sequence formats with 3D coordinate formats — a critical error because visualisation tools cannot render structures from sequence-only files.",
+     "self_check": true
+    },
+    {
+     "q": "In PyMOL, a student types `show cartoon` and sees the protein backbone as smooth tubes, but the side chains are invisible. They then type `show sticks` and now see all atoms as sticks, cluttering the view. Explain why this happens and how to display *only* the ligand's side chains as sticks while keeping the protein in cartoon representation.",
+     "a": "`show sticks` applies globally to all selected atoms (default: everything). To restrict sticks to the ligand, the student must first create a named selection: `select lig, resn LIG` (where LIG is the ligand's 3-letter code), then `show sticks, lig`. The protein remains in cartoon because `show cartoon` was applied to the default `all` selection. A wrong answer (e.g., \"use hide sticks\") shows misunderstanding of PyMOL's selection algebra — commands act on the *current selection*, not globally unless specified.",
+     "self_check": true
+    },
+    {
+     "q": "You have a PDB file of a homodimeric protein (two identical chains A and B). In RasMol, you want to display chain A as a blue cartoon and chain B as a red spacefill model to compare their conformations. Write the exact RasMol command sequence to achieve this.",
+     "a": "```\nload dimer.pdb\nselect chainA\ncartoon\ncolor blue\nselect chainB\nspacefill\ncolor red\n```\nRasMol commands are sequential and stateful: each `select` defines the target for subsequent display/colour commands. A wrong sequence (e.g., `color blue` before `select chainA`) colours the whole structure blue, revealing the student thinks commands are object-oriented rather than stream-based.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scripting capabilities of RasMol and PyMOL for automating the generation of 50 publication-quality figures of different protein-ligand complexes. Which tool is more suitable and why? Identify two specific PyMOL features that enable this automation.",
+     "a": "PyMOL is far more suitable. Its Python-embedded scripting allows loops, conditionals, and functions (e.g., `for complex in list: load complex; ray; png complex.png`), while RasMol's scripting is a linear macro language without variables or control flow. Two enabling PyMOL features: (1) Python API (`cmd.load`, `cmd.ray`, `cmd.png`) for programmatic control; (2) Session saving (`.pse` files) to preserve exact view, representation, and colour states across runs. A student choosing RasMol misunderstands the difference between macro recording and true scripting.",
+     "self_check": true
+    },
+    {
+     "q": "A student loads a homology model (from node c11_biotech_cbse_10_004) into PyMOL and notices a long loop region with unusually high B-factors (coloured red by `spectrum b`). They claim \"this loop is definitely wrong because it's flexible.\" Critique this statement using knowledge of B-factor interpretation and model validation.",
+     "a": "The statement is partially correct but oversimplified. High B-factors indicate high atomic displacement — which *can* mean the loop is genuinely flexible (disordered in crystal) OR that the homology model is unreliable in that region due to low template similarity. The student must cross-check with: (a) Ramachandran plot outliers (node c11_biotech_cbse_10_006) for that loop; (b) Sequence identity with template in that region; (c) Electron density maps (if experimental). A wrong answer treating B-factor as pure \"error metric\" shows confusion between experimental uncertainty (crystallography) and model uncertainty (homology modelling).",
+     "self_check": true
+    },
+    {
+     "q": "Design a PyMOL script snippet that: (1) Loads a PDB file provided as a command-line argument; (2) Colours the protein by secondary structure (helix=red, sheet=yellow, loop=green); (3) Identifies all residues within 5 Å of any HETATM ligand and shows them as sticks coloured by element; (4) Renders a 1200x1200 ray-traced image named after the PDB code. Write the script assuming it will be run as `pymol -c script.py 1abc.pdb`.",
+     "a": "```python\nimport sys\npdb_file = sys.argv[1]\npdb_code = pdb_file.split('.')[0]\ncmd.load(pdb_file)\ncmd.color(\"red\", \"ss h\")\ncmd.color(\"yellow\", \"ss s\")\ncmd.color(\"green\", \"ss l\")\ncmd.select(\"ligand\", \"hetatm\")\ncmd.select(\"binding_site\", \"byres ligand around 5\")\ncmd.show(\"sticks\", \"binding_site\")\ncmd.util.cbag(\"binding_site\")  # colour by element\ncmd.ray(1200, 1200)\ncmd.png(f\"{pdb_code}_binding_site.png\")\n```\nA poor answer hardcodes the filename, uses `select all` instead of `byres`, or omits `cmd.util.cbag` (standard element colouring). This reveals inability to translate a multi-step visualisation workflow into reproducible code — a core competency for structural bioinformatics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

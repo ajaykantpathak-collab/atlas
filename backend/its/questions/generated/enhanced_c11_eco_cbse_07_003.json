@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_003",
+   "title": "c11_eco_cbse_07_003",
+   "questions": [
+    {
+     "q": "According to the NCERT textbook, what percentage of water in India is polluted, and which two functions of the environment fail when this occurs?",
+     "a": "70% of water in India is polluted. The two functions that fail are: (i) resource supply (clean water becomes scarce) and (ii) waste assimilation (pollutants exceed absorptive capacity). A wrong answer (e.g., \"50% polluted\" or naming \"life sustenance\" as a failed function instead of the first two) reveals the student has not internalised the textbook's causal chain: pollution → loss of supply/assimilation functions → life sustenance function compromised.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Water has become an economic commodity.\" Explain why this statement is economically precise, using the concepts of scarcity, rivalry, and excludability.",
+     "a": "Water became an economic commodity because pollution and depletion made it scarce (demand > supply at zero price), rivalrous (my use of clean water reduces your availability), and excludable (treatment plants, tankers, bottled water allow sellers to exclude non-payers). A wrong answer that says \"water was always an economic good\" or \"government made it a commodity\" misses the endogenous shift: environmental degradation altered the good's economic characteristics from non-rival/non-excludable (public good) to rival/excludable (private/toll good).",
+     "self_check": true
+    },
+    {
+     "q": "The CPCB monitors 125 rivers. In a hypothetical stretch, BOD = 8 mg/L, DO = 2 mg/L, and total coliform = 50,000 MPN/100ml. Classify this stretch per CPCB criteria and calculate the percentage by which BOD exceeds the bathing standard (3 mg/L).",
+     "a": "Classification: Polluted (BOD > 3 mg/L and DO < 4 mg/L both violated). BOD exceedance = [(8 - 3) / 3] × 100 = 166.67%. A wrong classification (e.g., \"moderately polluted\" or using only BOD) or arithmetic error (e.g., 8/3 = 266%) reveals inability to apply the dual-criteria (BOD AND DO) and basic percentage-exceedance calculation used in board exam data-interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pollution dynamics of the Ganga (main stem) and the Yamuna (tributary) using these stylised facts: Ganga receives 60% domestic sewage, 30% industrial effluent; Yamuna receives 80% domestic sewage in Delhi stretch, 15% industrial. Which river's pollution is more amenable to decentralised treatment (STPs) and why? Which requires stricter industrial regulation?",
+     "a": "Yamuna's Delhi stretch (80% domestic) is more amenable to decentralised STPs because domestic sewage is point-source, predictable in volume/composition, and treatable with conventional technology. Ganga's higher industrial share (30%) requires stricter effluent standards, common effluent treatment plants (CETPs), and zero-liquid-discharge mandates because industrial effluents are toxic, variable, and inhibit biological treatment. A wrong answer reversing the logic shows confusion between point-source (domestic) and toxic/heterogeneous (industrial) pollution management.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this policy proposal: \"To solve groundwater depletion in Punjab, the government should ban paddy cultivation and mandate maize.\" Consider: (a) farmer income, (b) food security, (c) water saving, (d) political feasibility.",
+     "a": "The proposal saves water (paddy: 1,500-2,000 mm; maize: 500-800 mm) but fails on: (a) farmer income — paddy MSP procurement gives assured returns; maize lacks procurement infrastructure, (b) food security — Punjab contributes 40% of central rice pool; replacement reduces buffer stocks, (d) political feasibility — powerful farmer unions resist crop diversification without income guarantee. A better policy: incentivise direct-seeded rice (saves 20-30% water), promote basmati (export-oriented, less water), and guarantee maize MSP. A student who only cites \"water saving\" ignores the political-economy constraints central to Indian policy questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step water accounting framework for a 500-ha canal command area in Maharashtra that tracks: (1) surface water delivery, (2) groundwater extraction, (3) crop water consumption. Specify the data sources, frequency, and one indicator to flag unsustainable use.",
+     "a": "Step 1: Surface delivery — from Irrigation Department's daily gauge readings at canal outlet (cusec-days/ha). Step 2: Groundwater extraction — from energised pumpset census × hours run × discharge rate (monthly). Step 3: Crop consumption — from remote sensing (evapotranspiration) × crop coefficient (fortnightly). Unsustainability indicator: Stage of Groundwater Extraction > 100% (extraction > recharge) for two consecutive years. A poor answer lists only \"meter readings\" without distinguishing surface/groundwater sources or omits the sustainability threshold used by Central Ground Water Board.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

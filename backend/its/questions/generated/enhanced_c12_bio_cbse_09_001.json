@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_001",
+   "title": "c12_bio_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define animal husbandry and name any four farm animals commonly managed in India.",
+     "a": "Animal husbandry is the scientific management of domesticated animals for products like milk, meat, eggs, wool, and labour. Four common farm animals in India are cattle (cows/buffaloes), buffaloes, goats, and poultry (chickens). A wrong answer that only lists animals without the management aspect reveals the student equates husbandry with mere rearing, missing the systematic, science‑based decision‑making core of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why providing a balanced ration is more than just offering enough calories to a dairy cow.",
+     "a": "A balanced ration supplies not only energy (calories) but also adequate protein, minerals (Ca, P), vitamins, and fibre in correct proportions to support milk synthesis, maintain rumen health, prevent metabolic disorders (e.g., ketosis, milk fever), and ensure reproductive efficiency. If a student says “enough feed keeps the cow healthy,” they confuse energy sufficiency with nutrient balance, ignoring the specific dietary requirements for lactation and rumen function.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that his cross‑bred cows produce less milk in summer. Propose two management changes — one related to housing and one to feeding — that could mitigate this drop, and justify each biologically.",
+     "a": "Housing: Provide shaded, well‑ventilated sheds with sprinklers/fans to reduce heat stress; high temperature lowers feed intake and increases maintenance energy, diverting nutrients from milk synthesis. Feeding: Increase concentrate proportion and feed during cooler hours (early morning/late evening) to maintain nutrient intake despite reduced appetite; also add bypass fat and buffers to sustain energy density and rumen pH. A wrong answer that only suggests “give more water” misses the integrated physiological response to heat stress (reduced intake, altered metabolism, hormonal changes).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the breeding objectives for a dairy farmer versus a poultry farmer. How do the selection criteria differ and why?",
+     "a": "Dairy farmers select for high milk yield, fat/protein %, udder conformation, disease resistance, and longevity (productive life over several lactations). Poultry farmers (broilers) select for rapid growth rate, feed conversion ratio, breast meat yield, and disease resistance; layers are selected for egg number, egg weight, shell quality, and feed efficiency. The difference arises because dairy animals are long‑term investments with multiple reproductive cycles, while poultry have short production cycles and are often terminal crosses. A student who says “both want high yield” fails to recognise the distinct physiological traits and economic time‑horizons that drive selection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Regular deworming and vaccination are unnecessary if farm hygiene is excellent.” Provide a biological justification for your evaluation.",
+     "a": "The statement is false. Excellent hygiene reduces pathogen load but cannot eliminate all parasites (e.g., nematode eggs persist in soil for years) or prevent airborne/ vector‑borne diseases (e.g., foot‑and‑mouth disease, Newcastle disease). Vaccination primes adaptive immunity; deworming breaks parasite life cycles that hygiene alone cannot interrupt. A student who agrees overlooks the environmental resilience of pathogens and the specific protective mechanisms of vaccines/anthelmintics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple monthly health‑monitoring checklist for a small goat farm (20 does) that a farmer with basic literacy can use. Include at least five observable parameters and the action triggered by an abnormal finding.",
+     "a": "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus; (3) Faecal consistency — if diarrhoea >2 days, test for coccidia/worms; (4) Udder symmetry/temperature — if hot/hard, treat for mastitis; (5) Lameness scoring — if score ≥3, examine hooves/trim. Each parameter is visual/tactile, requires no lab, and links to a specific corrective action. A poor answer lists vague items like “check health” without measurable indicators or linked actions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

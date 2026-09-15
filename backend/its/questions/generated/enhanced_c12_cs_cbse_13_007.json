@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_007",
+   "title": "c12_cs_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define \"context collapse\" in the context of social media communication and give one example of how it affects a student's relationship with both peers and family simultaneously.",
+     "a": "Context collapse occurs when multiple distinct social audiences (e.g., friends, family, teachers) become part of a single audience on a social media platform, forcing the user to present a single self-presentation that satisfies conflicting norms. Example: A student posts a photo from a late-night party; peers interpret it as fun, but parents see it as irresponsible, and a teacher who follows them questions their judgment — the student cannot tailor the message separately for each group. A wrong answer (e.g., \"context collapse means losing your phone\" or \"it's when an app crashes\") reveals the student confuses the term with technical failure or literal collapse, missing the sociological concept of audience merging.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"online disinhibition effect\" can lead to both deeper self-disclosure in online friendships AND harsher conflict escalation in the same medium. Use the concepts of anonymity, asynchronicity, and lack of nonverbal cues in your explanation.",
+     "a": "The online disinhibition effect (Suler, 2004) describes how reduced social cues lower behavioural restraints. Anonymity (or perceived anonymity) and asynchronicity allow users to share vulnerable thoughts without immediate judgement, fostering intimacy — e.g., a teen confessing anxiety in a Discord server at 2 AM. Simultaneously, the lack of nonverbal cues (tone, facial expression, eye contact) removes empathy triggers; a sarcastic comment read without vocal inflection feels hostile, and the delay of asynchronicity lets anger fester before replying, escalating conflict. A wrong answer that only mentions \"people are meaner online\" or \"people share secrets\" shows one-sided understanding — the student fails to see the *same mechanism* produces opposite outcomes depending on context.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student creates a \"Close Friends\" Instagram story visible to 15 peers, sharing frustration about board exam pressure. Two friends screenshot and forward it to a larger group chat saying \"Relatable!\" without asking. Analyse this situation using the concepts of *intended audience*, *digital permanence*, and *consent in digital sharing*. What relational harm occurs even if the content was not \"secret\"?",
+     "a": "The student exercised audience control (Close Friends list), establishing an intended audience of 15 trusted peers — a boundary-setting act. Screenshotting violates digital permanence: ephemeral content (24-hour story) becomes permanent, searchable, and shareable beyond consent. Forwarding without permission breaches relational consent; the harm is not secrecy violation but *agency violation* — the student's right to control the *context* of their vulnerability is stripped. The content becomes decontextualised: in the larger chat, it may be mocked, minimised, or used to label the student \"weak,\" altering peer dynamics. A wrong answer focusing only on \"privacy settings failed\" misses the core issue: technical controls cannot enforce social norms; the harm is relational, not just data leakage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"social comparison\" operates differently on Instagram (visual, curated highlights) versus WhatsApp (text-based, private groups) in shaping a teenager's self-esteem and peer relationships. Which platform poses greater risk for *upward comparison* leading to depressive symptoms, and why?",
+     "a": "Instagram's visual, algorithmically amplified feed presents highly curated highlight reels (edited photos, achievements, aesthetics) from both known peers and influencers, creating frequent upward comparison targets that are idealised and seemingly attainable — triggering \"I'm not enough\" narratives. WhatsApp groups, while private, foster comparison through textual sharing of marks, college admissions, internships — but the comparison is intermittent, context-rich, and often accompanied by supportive dialogue. Research (e.g., Fardouly et al., 2015) shows image-based platforms correlate more strongly with body dissatisfaction and depressive symptoms because visual comparison is more visceral, less counter-arguable, and lacks the mitigating context of conversation. A wrong answer claiming \"WhatsApp is worse because groups are toxic\" ignores the structural difference: Instagram's *design* (infinite scroll, explore page, metrics) systematically amplifies upward comparison; WhatsApp's harm is contingent on group culture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Social media destroys authentic relationships because it replaces deep conversation with shallow likes and comments.\" Defend or refute using at least two empirical findings or theoretical frameworks (e.g., Media Richness Theory, Social Penetration Theory, displacement hypothesis vs. stimulation hypothesis).",
+     "a": "The claim is an oversimplification. Media Richness Theory (Daft & Lengel) argues lean media (text/likes) are poor for equivocal tasks (resolving conflict, deepening intimacy) — supporting the claim *for certain functions*. However, Social Penetration Theory (Altman & Taylor) shows self-disclosure *can* deepen online; the \"hyperpersonal model\" (Walther) demonstrates CMC (computer-mediated communication) sometimes *exceeds* FtF intimacy due to selective self-presentation and idealised reciprocity. Empirically, the displacement hypothesis (social media replaces FtF) finds weak support; the stimulation hypothesis (social media augments existing ties) is better supported — teens who message more also meet offline more (Valkenburg & Peter, 2007). Relationships are *multimodal*: a like maintains weak ties; a 2-hour voice call deepens strong ties. The error is treating social media as monolithic — it is an *ecology* of features, each serving different relational functions. A wrong answer that simply agrees or disagrees without theoretical grounding shows binary thinking; the student must hold nuance: social media *transforms* authenticity, it doesn't uniformly destroy it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute classroom activity for Class 10 students that makes the concept of \"digital footprint persistence\" tangible without using fear-based messaging. Describe the activity steps, the debrief questions, and the specific insight you want them to internalise.",
+     "a": "Activity: \"The Unerasable Whiteboard\". Steps: (1) Give each student a mini-whiteboard and marker. (2) Ask them to write one thing they'd post online today — a thought, photo caption, opinion. (3) After 30 seconds, say: \"Now erase it completely — no trace.\" (4) Observe: marker residue remains; ghosting visible. (5) Hand out baby wipes — \"This is 'delete account'.\" Wipe thoroughly. (6) Shine a phone flashlight at an angle — faint imprint still visible. Debrief: \"What does the residue represent?\" (Cached data, screenshots, metadata, memory in others' minds). \"Who holds the flashlight?\" (Future employers, college admissions, future partners, your future self). \"What would you write differently if you knew the flashlight *always* exists?\" Insight: Digital footprint isn't a threat — it's a *permanent collaboration* between your present self and your future audience. You don't avoid writing; you write *intentionally*. A poor activity uses scare stats (\"70% employers reject!\") — it triggers defensiveness, not agency. The insight must be *ownership*, not fear.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

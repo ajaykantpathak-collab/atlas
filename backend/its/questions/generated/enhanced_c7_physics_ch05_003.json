@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_003",
+   "title": "c7_physics_ch05_003",
+   "questions": [
+    {
+     "q": "What term describes the property of light traveling along straight-line paths in a uniform medium?",
+     "a": "The correct answer is rectilinear propagation of light. A wrong answer reveals that the student is confusing optical terms or recalling random vocabulary without connecting it to the physical observation of straight rays.",
+     "self_check": true
+    },
+    {
+     "q": "Why can you not see a burning candle placed in the next room through a long, bent rubber tube, even though light can pass through transparent materials?",
+     "a": "The correct answer is that light travels in a straight line (rectilinear propagation) and cannot bend around the corners of the bent tube. A wrong answer reveals the misconception that light can bend, curve, or flow like a liquid to fill any shape of container or tube.",
+     "self_check": true
+    },
+    {
+     "q": "A laser pointer projects a red beam across a classroom of length 8.0 meters. If the beam travels directly from the source to the opposite wall without hitting any obstacles, what is the total displacement path shape of the light beam?",
+     "a": "Steps:\n1. Identify the medium and conditions: Uniform air medium, no obstacles present.\n2. Recall the fundamental property of light propagation: Light travels in straight lines in a uniform medium.\n3. Determine the path geometry: A path connecting two points in a uniform medium without deflection is a straight line segment.\n4. Conclude the shape: Straight line of length 8.0 m.\nThe correct answer is a straight line path of 8.0 meters. A wrong answer reveals confusion between wave propagation mechanics and curved trajectories.",
+     "self_check": true
+    },
+    {
+     "q": "If you place an opaque sphere between a point source of light and a wall, a sharp circular shadow forms on the wall. How would the sharpness of the shadow change if you move the point source closer to the sphere?",
+     "a": "The correct answer is that the shadow becomes larger and its edges may change in clarity depending on the size of the source, but the fundamental geometric ray tracing still demonstrates rectilinear propagation where light rays graze the edges of the sphere to outline the shadow boundary. A wrong answer reveals a lack of understanding of how straight light rays form the outer boundaries of shadows.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that during a cloudy day, light bends around trees because it does not travel in straight lines anymore. Evaluate this statement using scientific reasoning.",
+     "a": "The statement is incorrect. Clouds scatter light due to water droplets, but individual light rays still travel in straight lines; the scattering is simply multiple straight-line reflections and refractions off countless tiny droplet surfaces. A wrong answer reveals the misconception that diffusion or scattering means individual light rays themselves are bending like rubber bands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using everyday objects to prove that light travels in a straight line. Describe the materials and expected observation.",
+     "a": "Criteria for a good answer: Uses three cardboards with pinholes, a candle or torch, and a surface. Explains that alignment allows light to pass, while moving one cardboard blocks it completely, proving straight-line travel. A poor answer lacks a controlled testing method or fails to connect the observation to straight-line geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

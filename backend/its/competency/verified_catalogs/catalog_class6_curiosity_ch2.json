@@ -1,0 +1,609 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Diversity in the Living World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu102.txt",
+ "concepts": [
+  {
+   "id": "c6cu.2.1",
+   "title": "Characteristics of Living Organisms",
+   "section": "2.1",
+   "definition": "Living organisms show features such as growth, movement, respiration, response to stimuli, reproduction, and excretion.",
+   "formula": "",
+   "key_idea": "All living things share certain life processes that distinguish them from non-living things.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the characteristics of living organisms?",
+    "How do living things grow?",
+    "What is respiration in living organisms?",
+    "Why is reproduction a characteristic of living things?",
+    "Give one example of a living thing responding to a stimulus."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organism",
+     "explain": "Decide whether the thing being studied is living or non-living."
+    },
+    {
+     "step": 2,
+     "action": "Check life processes",
+     "explain": "Look for growth, respiration, movement, response to stimuli, and reproduction."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If it shows these life processes, it is a living organism."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List three characteristics of living organisms.",
+     "solution": "Three characteristics are growth, respiration, and reproduction.",
+     "answer": "Growth, respiration, reproduction.",
+     "_n": 1
+    },
+    {
+     "question": "How does a plant show that it is living?",
+     "solution": "A plant grows, makes food, responds to light, and reproduces through seeds.",
+     "answer": "A plant grows, makes food, responds to light, and reproduces.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is respiration?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a living thing responding to a stimulus.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is a stone not a living thing?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.2",
+   "title": "Classification of Living Organisms",
+   "section": "2.2",
+   "definition": "Classification is the arrangement of living organisms into groups based on shared features so they can be studied easily.",
+   "formula": "",
+   "key_idea": "Grouping organisms by similarities makes it easier to study the huge variety of life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is classification?",
+    "Why do we classify living organisms?",
+    "On what basis are organisms classified?",
+    "Give one example of classification in daily life.",
+    "How does classification help scientists?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe features",
+     "explain": "Look at the body features of the organisms being grouped."
+    },
+    {
+     "step": 2,
+     "action": "Find similarities",
+     "explain": "Group organisms that share key features together."
+    },
+    {
+     "step": 3,
+     "action": "Explain the purpose",
+     "explain": "State how the grouping makes study and identification easier."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do we classify living organisms?",
+     "solution": "We classify so that the huge variety of life can be studied and identified easily.",
+     "answer": "Classification makes it easy to study and identify organisms."
+    },
+    {
+     "question": "Give one example of classification in daily life.",
+     "solution": "A library arranges books by subject so they can be found easily.",
+     "answer": "A library arranges books by subject for easy finding."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is classification?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one basis on which organisms are classified.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does classification help scientists?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.3",
+   "title": "Plant and Animal Kingdoms",
+   "section": "2.3",
+   "definition": "Living organisms are broadly grouped into the plant kingdom and the animal kingdom based on how they get food and their body structure.",
+   "formula": "",
+   "key_idea": "Plants make their own food while animals depend on plants or other animals for food.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the two main kingdoms of living organisms?",
+    "How do plants differ from animals in getting food?",
+    "Why is a cow placed in the animal kingdom?",
+    "Give one feature of the plant kingdom.",
+    "How do animals get their food?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine food source",
+     "explain": "Check whether the organism makes its own food or gets it from others."
+    },
+    {
+     "step": 2,
+     "action": "Examine body structure",
+     "explain": "Look for features like cell walls in plants or movement in animals."
+    },
+    {
+     "step": 3,
+     "action": "Assign kingdom",
+     "explain": "Place the organism in the plant kingdom or animal kingdom based on these features."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two main kingdoms of living organisms?",
+     "solution": "The two main kingdoms are the plant kingdom and the animal kingdom.",
+     "answer": "Plant kingdom and animal kingdom."
+    },
+    {
+     "question": "How do plants differ from animals in getting food?",
+     "solution": "Plants make their own food using sunlight, while animals eat plants or other animals.",
+     "answer": "Plants make food; animals eat plants or other animals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is a mango tree in the plant kingdom?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one feature of the animal kingdom.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do plants make their food?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.4",
+   "title": "Groups of Plants: Herbs, Shrubs, and Trees",
+   "section": "2.4",
+   "definition": "Plants are grouped by height and stem type into herbs (small soft stems), shrubs (medium woody stems), and trees (tall woody stems with branches).",
+   "formula": "",
+   "key_idea": "The height and type of stem help us group plants into herbs, shrubs, and trees.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a herb?",
+    "How is a shrub different from a tree?",
+    "Classify a mango plant as herb, shrub, or tree.",
+    "Give one example of a herb.",
+    "On what basis are plants grouped into herbs, shrubs, and trees?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe height and stem",
+     "explain": "Look at how tall the plant is and whether its stem is soft or woody."
+    },
+    {
+     "step": 2,
+     "action": "Match to a group",
+     "explain": "Small soft-stemmed plants are herbs, medium woody plants are shrubs, and tall woody plants are trees."
+    },
+    {
+     "step": 3,
+     "action": "Confirm with an example",
+     "explain": "Check the grouping against a known example such as mint as a herb or mango as a tree."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify a mango plant as herb, shrub, or tree.",
+     "solution": "A mango plant has a tall woody stem with branches, so it is a tree.",
+     "answer": "Tree."
+    },
+    {
+     "question": "Give one example each of a herb, a shrub, and a tree.",
+     "solution": "Mint is a herb, rose is a shrub, and mango is a tree.",
+     "answer": "Herb: mint, shrub: rose, tree: mango."
+    },
+    {
+     "question": "How is a shrub different from a tree?",
+     "solution": "A shrub is medium-sized with several woody stems, while a tree is tall with one main woody trunk.",
+     "answer": "A shrub is medium with many stems; a tree is tall with one trunk."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a herb?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify a rose plant as herb, shrub, or tree.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a tree.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.5",
+   "title": "Groups of Animals: Vertebrates and Invertebrates",
+   "section": "2.5",
+   "definition": "Animals are grouped by the presence of a backbone into vertebrates (with a backbone) and invertebrates (without a backbone).",
+   "formula": "",
+   "key_idea": "The backbone is a key feature used to divide animals into two large groups.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a vertebrate?",
+    "What is an invertebrate?",
+    "Classify an earthworm as vertebrate or invertebrate.",
+    "Give one example of a vertebrate.",
+    "On what basis are animals divided into vertebrates and invertebrates?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for a backbone",
+     "explain": "Decide whether the animal has an internal backbone."
+    },
+    {
+     "step": 2,
+     "action": "Assign group",
+     "explain": "If it has a backbone it is a vertebrate; if not, it is an invertebrate."
+    },
+    {
+     "step": 3,
+     "action": "Confirm with an example",
+     "explain": "Match the grouping to a known example such as a dog as a vertebrate or a worm as an invertebrate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify an earthworm as vertebrate or invertebrate.",
+     "solution": "An earthworm has no backbone, so it is an invertebrate.",
+     "answer": "Invertebrate."
+    },
+    {
+     "question": "Give one example each of a vertebrate and an invertebrate.",
+     "solution": "A frog is a vertebrate and a butterfly is an invertebrate.",
+     "answer": "Vertebrate: frog, invertebrate: butterfly."
+    },
+    {
+     "question": "What is the main difference between vertebrates and invertebrates?",
+     "solution": "Vertebrates have a backbone while invertebrates do not.",
+     "answer": "Vertebrates have a backbone; invertebrates do not."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a vertebrate?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify a fish as vertebrate or invertebrate.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of an invertebrate.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.6",
+   "title": "Habitats and Adaptations",
+   "section": "2.6",
+   "definition": "A habitat is the natural place where an organism lives, and an adaptation is a feature that helps it survive there.",
+   "formula": "",
+   "key_idea": "Organisms have special features that help them live in their habitats.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a habitat?",
+    "What is an adaptation?",
+    "Give one example of an adaptation in a desert animal.",
+    "How does a fish adapt to water?",
+    "Why do organisms need adaptations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the habitat",
+     "explain": "Determine where the organism lives, such as desert, forest, or water."
+    },
+    {
+     "step": 2,
+     "action": "Identify the adaptation",
+     "explain": "Find a body feature or behaviour that helps it survive there."
+    },
+    {
+     "step": 3,
+     "action": "Explain the link",
+     "explain": "Show how the adaptation suits the conditions of the habitat."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give one example of an adaptation in a desert animal.",
+     "solution": "A camel stores fat in its hump and can go long without water, helping it survive in the desert.",
+     "answer": "A camel's hump stores fat and helps it survive without water."
+    },
+    {
+     "question": "How does a fish adapt to water?",
+     "solution": "A fish has gills to breathe underwater and fins to swim.",
+     "answer": "Gills to breathe and fins to swim."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a habitat?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of an adaptation in a plant.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do organisms need adaptations?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.7",
+   "title": "Adaptations to Different Habitats",
+   "section": "2.7",
+   "definition": "Different habitats such as deserts, mountains, forests, and water need different adaptations like storing water, thick fur, or streamlined bodies.",
+   "formula": "",
+   "key_idea": "Adaptations match the conditions of the habitat where an organism lives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do desert plants adapt to less water?",
+    "Give one adaptation of a mountain animal.",
+    "How does a polar bear survive in the cold?",
+    "Why do aquatic animals have streamlined bodies?",
+    "Compare adaptations in desert and water habitats."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the habitat",
+     "explain": "Decide the kind of habitat, such as desert, mountain, or water."
+    },
+    {
+     "step": 2,
+     "action": "List the conditions",
+     "explain": "Note the main challenges like heat, cold, or low water."
+    },
+    {
+     "step": 3,
+     "action": "Match adaptations",
+     "explain": "Find the features that help the organism survive those conditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do desert plants adapt to less water?",
+     "solution": "Desert plants like cactus have spines and thick stems to store water and reduce loss.",
+     "answer": "Cactus has spines and thick stems to store water."
+    },
+    {
+     "question": "Give one adaptation of a mountain animal.",
+     "solution": "A snow leopard has thick fur to keep warm in the cold mountains.",
+     "answer": "Thick fur keeps a snow leopard warm."
+    },
+    {
+     "question": "Why do aquatic animals have streamlined bodies?",
+     "solution": "A streamlined body reduces water resistance so they can swim easily.",
+     "answer": "Streamlined bodies reduce water resistance for easy swimming."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does a polar bear survive in the cold?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one adaptation of a desert animal.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do mountain trees have cone shapes?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.8",
+   "title": "Biodiversity",
+   "section": "2.8",
+   "definition": "Biodiversity is the variety of living organisms found in a particular area, including plants, animals, and microorganisms.",
+   "formula": "",
+   "key_idea": "The huge variety of life on Earth is called biodiversity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is biodiversity?",
+    "Why is biodiversity important?",
+    "Give one example of biodiversity in a forest.",
+    "How does biodiversity help humans?",
+    "Why should we protect biodiversity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the area",
+     "explain": "Choose the place whose variety of life you want to study."
+    },
+    {
+     "step": 2,
+     "action": "Count the variety",
+     "explain": "List the different kinds of plants, animals, and microorganisms there."
+    },
+    {
+     "step": 3,
+     "action": "Explain the value",
+     "explain": "Describe how this variety keeps the area healthy and useful."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is biodiversity?",
+     "solution": "Biodiversity is the variety of living organisms in a particular area.",
+     "answer": "The variety of living organisms in an area."
+    },
+    {
+     "question": "Give one example of biodiversity in a forest.",
+     "solution": "A forest has trees, birds, insects, and deer living together, showing high biodiversity.",
+     "answer": "A forest has trees, birds, insects, and deer together."
+    },
+    {
+     "question": "Why is biodiversity important?",
+     "solution": "Biodiversity keeps ecosystems balanced and provides food, medicine, and clean air.",
+     "answer": "It keeps ecosystems balanced and provides food, medicine, and clean air."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why should we protect biodiversity?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of biodiversity near your home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does biodiversity help humans?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.2.9",
+   "title": "Counting Groups of Organisms",
+   "section": "2.9",
+   "definition": "We can count how many organisms belong to each group in a habitat to compare the diversity of groups.",
+   "formula": "total = sum of organisms in each group",
+   "key_idea": "Adding the counts of each group gives the total number of organisms in a sample.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "a habitat has {count1} herbs, {count2} shrubs and {count3} trees -- how many plants are there in total?",
+    "count the total organisms if there are {count1} vertebrates and {count2} invertebrates.",
+    "how many animals are there if {count1} are vertebrates and {count2} are invertebrates?",
+    "find the total number of plants given {count1} herbs and {count2} trees.",
+    "if a sample has {count1} herbs, {count2} shrubs and {count3} trees, what is the total?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the counts of each group",
+     "explain": "Write down how many organisms are in each group."
+    },
+    {
+     "step": 2,
+     "action": "Add the counts",
+     "explain": "add the counts of all the groups, e.g. 5 + 3 + 2 = 10 plants",
+     "compute": "total_organisms = count1 + count2 + count3"
+    },
+    {
+     "step": 3,
+     "action": "Verify the total",
+     "explain": "Check that the total equals the sum of the individual group counts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A habitat has 5 herbs, 3 shrubs, and 2 trees. How many plants are there in total?",
+     "solution": "Add the counts: 5 + 3 + 2 = 10.",
+     "answer": "10 plants."
+    },
+    {
+     "question": "Count the total animals if there are 4 vertebrates and 6 invertebrates.",
+     "solution": "Add the counts: 4 + 6 = 10.",
+     "answer": "10 animals."
+    },
+    {
+     "question": "If a sample has 2 herbs, 4 shrubs, and 3 trees, what is the total number of plants?",
+     "solution": "Add the counts: 2 + 4 + 3 = 9.",
+     "answer": "9 plants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A habitat has 6 herbs and 4 trees. Find the total number of plants.",
+     "type": "compute"
+    },
+    {
+     "question": "Count the total animals if there are 3 vertebrates and 8 invertebrates.",
+     "type": "compute"
+    },
+    {
+     "question": "If there are 5 herbs, 2 shrubs, and 1 tree, what is the total?",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu102.txt",
+   "concept": "c6cu.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "List three characteristics of living organisms.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Three characteristics are growth, respiration",
+     "explain": "Three characteristics are growth, respiration, and reproduction."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu102.txt",
+   "concept": "c6cu.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "How does a plant show that it is living?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A plant grows, makes food",
+     "explain": "A plant grows, makes food, responds to light, and reproduces through seeds."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_009",
+   "title": "c12_geo_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define the quaternary sector and give two examples of occupations that belong exclusively to this sector, distinguishing them from tertiary sector occupations.",
+     "a": "The quaternary sector comprises knowledge-based, information-intensive services involving research, development, information technology, consulting, and data analysis — distinct from the tertiary sector's routine services like retail, transport, or banking. Examples: (1) Artificial intelligence researcher developing machine learning models, (2) Pharmaceutical R&D scientist conducting clinical trials. A wrong answer listing \"software engineer at a service company\" reveals confusion between quaternary (innovation/creation) and tertiary (service delivery); listing \"doctor\" reveals inability to distinguish professional services (tertiary) from knowledge creation (quaternary).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country with 65% workforce in primary sector, 15% in secondary, and 20% in tertiary is likely in Stage 2 of demographic transition, and why this occupational structure creates a \"low productivity trap\" even if total GDP grows.",
+     "a": "Stage 2 demographic transition features high birth rates and declining death rates, yielding a youthful, rapidly growing population. With limited industrial jobs (only 15% secondary), surplus labor remains in low-productivity agriculture (disguised unemployment), depressing per capita output. GDP may grow from population increase, but GDP per capita stagnates because marginal productivity in primary sector approaches zero. A wrong answer citing \"lack of education\" misses the structural mechanism: it's the sectoral mismatch between labor supply and modern sector absorption capacity, not just human capital deficiency. The trap persists until secondary sector expands sufficiently to pull labor out of agriculture — the Lewis turning point.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below for Country X (2021 Census), calculate the percentage of workforce in each sector and identify which stage of the Clark-Fisher model it represents. Total workforce: 480 million. Primary: 192 million. Secondary: 120 million. Tertiary: 120 million. Quaternary: 36 million. Quinary: 12 million.",
+     "a": "Step 1: Calculate percentages. Primary = (192/480)×100 = 40%. Secondary = (120/480)×100 = 25%. Tertiary = (120/480)×100 = 25%. Quaternary = (36/480)×100 = 7.5%. Quinary = (12/480)×100 = 2.5%. Step 2: Sum tertiary+quaternary+quinary = 35%. Step 3: Apply Clark-Fisher thresholds: Primary > 40% = Stage 1 (pre-industrial); Primary 20-40% + Secondary > 20% = Stage 2 (industrializing); Primary < 20% + Tertiary > 50% = Stage 3 (post-industrial). Country X has Primary = 40% (borderline), Secondary = 25%, Services = 35%. This is late Stage 1 / early Stage 2 transition. A wrong answer calling it \"Stage 3\" reveals misapplication of thresholds — ignoring that tertiary+quaternary+quinary must exceed 50% for post-industrial classification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure trajectories of India (1951: Primary 72%, Secondary 11%, Tertiary 17%; 2021: Primary 42%, Secondary 25%, Tertiary 33%) and South Korea (1960: Primary 63%, Secondary 13%, Tertiary 24%; 2020: Primary 5%, Secondary 25%, Tertiary 70%). Analyze why India's secondary sector share stagnated around 25% while South Korea's rose to 35% before declining, using the concepts of \"premature deindustrialization\" and \"service-led growth.\"",
+     "a": "India's secondary sector peaked at ~26% (2012) then stagnated — premature deindustrialization — because labor-intensive manufacturing (textiles, leather) faced global competition and automation, while capital-intensive sectors (steel, chemicals) created fewer jobs. Services (IT, finance, retail) absorbed labor directly from agriculture, bypassing manufacturing — \"service-led growth.\" South Korea pursued export-oriented industrialization (1960s-90s) with state-directed credit to chaebols, raising secondary share to 35% before shifting to high-value services. India's democratic polity, land acquisition challenges, and infrastructure deficits prevented similar manufacturing deepening. A wrong answer blaming \"lack of skills\" misses the structural policy divergence: South Korea's industrial policy created manufacturing jobs first; India's liberalization (1991) opened services before manufacturing matured.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's demographic dividend will be realized automatically because 65% of its population is below 35 years of age.\" Use occupational structure data (PLFS 2022-23: 45.5% agriculture, 12.4% manufacturing, 31.6% services) to justify your judgment.",
+     "a": "The statement is FALSE. Demographic dividend requires not just a youthful population but productive employment in high-value sectors. With 45.5% workforce still in agriculture (contributing only ~18% GDP), marginal productivity is low — disguised unemployment persists. Manufacturing at 12.4% is too small to absorb 7-8 million annual labor market entrants. Services (31.6%) includes large informal segments (retail, transport) with low wages and no social security. Without structural shift — raising manufacturing to 25%+ and modern services to 50%+ — the youth bulge becomes a demographic disaster (unemployment, social unrest). Realization requires: (1) Labor-intensive manufacturing expansion (PLI schemes), (2) Skill upgradation for quaternary jobs, (3) Agricultural productivity rise to release labor. A wrong answer agreeing reveals confusion between demographic window (age structure) and demographic dividend (economic payoff from productive employment).",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level occupational transformation roadmap for Bihar (current: Primary 70%, Secondary 10%, Tertiary 20%) to reach Primary 40%, Secondary 25%, Tertiary 35% in 15 years. Specify three policy interventions with sectoral targets, required annual workforce shift rates, and one geographic constraint that could derail the plan.",
+     "a": "Roadmap: (1) Agro-processing clusters in 10 districts (target: absorb 3% workforce/year from primary to secondary) — leverages Bihar's maize, litchi, makhana; needs cold chains. (2) Textile/apparel SEZs near Patna-Gaya corridor (target: 2%/year) — uses abundant labor, proximity to Kolkata port; needs power stability. (3) Tourism-logistics hub at Bodh Gaya-Nalanda (target: 1.5%/year to tertiary) — exploits Buddhist circuit; needs skill institutes. Annual shift needed: Primary must shed 2% points/year (70%→40% in 15 years = 30%/15 = 2%/year). Secondary must gain 1%/year (10%→25% = 15%/15 = 1%/year). Tertiary gains 1%/year. Geographic constraint: Annual flooding in North Bihar (Kosi, Gandak basins) destroys rural infrastructure, disrupts industrial operations, and pushes displaced labor back into subsistence agriculture — reversing structural gains. A poor answer listing generic \"education, infrastructure, investment\" misses Bihar-specific agro-climatic advantages and the flooding constraint that makes spatial targeting essential.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

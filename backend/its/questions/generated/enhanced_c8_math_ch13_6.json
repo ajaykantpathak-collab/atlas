@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_6",
+   "title": "c8_math_ch13_6",
+   "questions": [
+    {
+     "q": "Identify the like terms in the expression: \\(7a^2b - 3ab^2 + 2a^2b + 5ab - 4ba^2\\).",
+     "a": "The like terms are \\(7a^2b\\), \\(2a^2b\\), and \\(-4ba^2\\) (since \\(ba^2 = a^2b\\)). The terms \\(-3ab^2\\) and \\(5ab\\) are unlike any other term. A wrong answer such as grouping \\(7a^2b\\) with \\(-3ab^2\\) reveals the student ignores the exponent positions and treats \\(a^2b\\) and \\(ab^2\\) as the same.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(5x^2y\\) and \\(3xy^2\\) are unlike terms, even though both contain \\(x\\) and \\(y\\).",
+     "a": "They are unlike because the powers of the variables differ: in \\(5x^2y\\), \\(x\\) has exponent 2 and \\(y\\) has exponent 1; in \\(3xy^2\\), \\(x\\) has exponent 1 and \\(y\\) has exponent 2. The variable parts \\(x^2y\\) and \\(xy^2\\) are not identical. A wrong answer claiming they are like because they have the same letters shows the student does not understand that exponents are part of the variable identity.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression: \\(6p^2q - 4pq^2 + 3p^2q + 2pq^2 - 5pq\\).",
+     "a": "Step 1: Identify like terms: \\(6p^2q\\) and \\(3p^2q\\) are like; \\(-4pq^2\\) and \\(2pq^2\\) are like; \\(-5pq\\) is alone.\nStep 2: Combine coefficients: \\(6+3 = 9\\) for \\(p^2q\\); \\(-4+2 = -2\\) for \\(pq^2\\).\nStep 3: Write simplified expression: \\(9p^2q - 2pq^2 - 5pq\\).\nA wrong answer like \\(9p^2q - 2pq^2 - 5pq^2\\) (combining \\(-5pq\\) with \\(pq^2\\)) reveals the student mistakenly treats \\(pq\\) and \\(pq^2\\) as like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions: \\(A = 4x^2y - 2xy^2 + 3x^2y\\) and \\(B = 4x^2y - 2xy^2 + 3xy\\). Which expression has more like terms that can be combined? Explain.",
+     "a": "Expression A has two like terms (\\(4x^2y\\) and \\(3x^2y\\)) that combine to \\(7x^2y\\), leaving \\(-2xy^2\\) separate. Expression B has no like terms because \\(4x^2y\\), \\(-2xy^2\\), and \\(3xy\\) all have different variable parts. So A has more combinable like terms. A wrong answer saying both have the same number of like terms indicates the student does not recognize that \\(3xy\\) is unlike the others due to missing the square on \\(x\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified \\(8m^2n - 3mn^2 + 2m^2n - 5mn^2\\) as \\(10m^2n - 8mn^2\\). Is this correct? If not, identify the error and give the correct simplification.",
+     "a": "The student's answer is incorrect. They combined \\(8m^2n\\) and \\(2m^2n\\) correctly to \\(10m^2n\\), but they incorrectly combined \\(-3mn^2\\) and \\(-5mn^2\\) as \\(-8mn^2\\) (which is actually correct arithmetic). Wait, \\(-3 + (-5) = -8\\), so that part is correct. The error is that the student wrote the final expression as \\(10m^2n - 8mn^2\\) but the original had \\(-3mn^2 -5mn^2 = -8mn^2\\). Actually the student's answer matches the correct simplification. Let me re-evaluate: \\(8m^2n + 2m^2n = 10m^2n\\); \\(-3mn^2 -5mn^2 = -8mn^2\\). So the student is correct. But the question asks to evaluate if it's correct. The answer is yes, it is correct. A wrong judgment (saying it's incorrect) would reveal the student misapplies sign rules or misidentifies like terms. However, to make it an evaluate question with an error, let's change the student's answer to \\(10m^2n - 2mn^2\\). Then the error is in combining \\(-3\\) and \\(-5\\) as \\(-2\\) instead of \\(-8\\). I'll adjust the question.\n\n**Revised Question:** A student simplified \\(8m^2n - 3mn^2 + 2m^2n - 5mn^2\\) as \\(10m^2n - 2mn^2\\). Is this correct? If not, identify the error and give the correct simplification.\n\n**Revised Answer:** The student's answer is incorrect. The error is in combining the coefficients of \\(mn^2\\): \\(-3 + (-5) = -8\\), not \\(-2\\). The correct simplification is \\(10m^2n - 8mn^2\\). A wrong answer that says it's correct reveals the student adds the absolute values and ignores the negative signs, or misreads the subtraction as addition.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression with exactly four terms that simplifies to \\(5x^2y - 3xy^2\\) after combining like terms. Your expression must include at least two different variable parts and at least one pair of like terms that cancel each other out (sum to zero).",
+     "a": "One possible expression: \\(7x^2y - 2x^2y - 3xy^2 + 4xy - 4xy\\). Here \\(7x^2y\\) and \\(-2x^2y\\) are like terms combining to \\(5x^2y\\); \\(4xy\\) and \\(-4xy\\) cancel to zero; \\(-3xy^2\\) remains. The simplified form is \\(5x^2y - 3xy^2\\). A poor answer that doesn't include a cancelling pair or doesn't simplify to the target shows the student cannot work backwards from a simplified form or doesn't understand that like terms can sum to zero.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

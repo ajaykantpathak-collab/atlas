@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_10",
+   "title": "c8_geo_ch2_10",
+   "questions": [
+    {
+     "q": "Which river is recognized as the longest in the world, and into which body of water does it drain?",
+     "a": "The Nile River is the longest river in the world and drains northwards into the Mediterranean Sea. If a student answers \"Amazon and Atlantic Ocean\", they are confusing the longest river with the largest river by water volume.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Amazon River carry a far greater volume of water than the Nile River, even though the Nile is longer?",
+     "a": "The Amazon flows through an equatorial climate zone with high, year-round rainfall and receives water from hundreds of major tributaries draining the massive Amazon Basin, whereas much of the Nile flows through arid desert regions (Sahara) with very little rainfall contribution. If a student answers that length determines water volume, they reveal a misconception that river length is directly proportional to water volume, ignoring climatic and basin characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "A map shows a river originating in the snow-capped Himalayas, flowing southeast through fertile plains, and forming a massive delta before emptying into the Bay of Bengal. Identify this river and state two physical reasons why its plain is densely populated.",
+     "a": "The river is the Ganga (Ganges). \n1. Step 1: Identify origin (Himalayas) and outlet (Bay of Bengal) -> Ganga.\n2. Step 2: Physical reason 1 -> Continuous supply of water from perennial snow-fed glaciers.\n3. Step 3: Physical reason 2 -> Deposition of fertile alluvium creating ideal agricultural plains.\nIf a student misidentifies it as the Mississippi or Nile, they are failing to apply geographic clues (Himalayas, Bay of Bengal) to map features.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the seasonal flow variations of the Ganga River and the Mississippi River based on their climatic inputs.",
+     "a": "The Ganga exhibits extreme seasonal discharge peaks during the summer southwest monsoon combined with summer glacial melt, whereas the Mississippi experiences high discharge during spring due to snowmelt across the North American interior along with rainfall from frontal weather systems. A wrong answer stating both have identical seasonality shows a failure to link river dynamics to distinct regional climate patterns (Monsoonal vs Temperate continental).",
+     "self_check": true
+    },
+    {
+     "q": "A developer proposes building a major industrial hub at the mouth of the Amazon River, arguing that its huge water volume makes it superior to the Ganga delta for river shipping and agriculture. Evaluate this argument geographically.",
+     "a": "The argument is flawed geographically. While the Amazon has massive discharge, its delta region is covered by dense equatorial rainforest with nutrient-poor soils (oxisols subject to leaching) and high flood risk, making traditional intensive agriculture difficult compared to the Ganga's fertile, sediment-rich alluvial delta. Furthermore, extreme biodiversity loss and remote hinterland access pose severe sustainability challenges. A student supporting the proposal purely based on water quantity fails to consider soil geography, ecosystem impacts, and regional climate conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design an annotated map layout plan that categorizes the Nile, Amazon, Ganga, and Mississippi based on two criteria: Primary Source Region (Glacial/Mountain vs Lake/Plateau) and Flow Direction (North, South, East, West).",
+     "a": "A correct design should map:\n1. Ganga: Glacial/Mountain (Gangotri Glacier, Himalayas) -> Flows East/Southeast.\n2. Mississippi: Lake/Plateau (Lake Itasca) -> Flows South.\n3. Nile: Lake/Plateau (Lake Victoria / Ethiopian Highlands) -> Flows North.\n4. Amazon: Glacial/Mountain (Andes Mountains) -> Flows East.\nA poor answer that misplaces flow directions or miscategorizes sources indicates an inability to synthesize physical geography facts into a structured classification system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

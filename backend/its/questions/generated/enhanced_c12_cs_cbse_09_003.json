@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_003",
+   "title": "c12_cs_cbse_09_003",
+   "questions": [
+    {
+     "q": "What is the difference between a parameter and an argument in Python? Give a one‑line definition for each.",
+     "a": "A **parameter** is a variable in the function definition (e.g., `x` in `def f(x):`). An **argument** is the actual value passed during the call (e.g., `5` in `f(5)`).  \n**Wrong answer reveals:** If the student swaps the terms or says they are the same, they confuse the static definition with the dynamic call — a fundamental gap that leads to errors when reading tracebacks or documentation.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function definition:  \n```python\ndef add(a, b=10):\n    return a + b\n```  \nWhich of the following calls are valid? Explain why the invalid ones fail.  \n1. `add(5)`  \n2. `add(5, 3)`  \n3. `add(b=3, a=2)`  \n4. `add(a=1)`",
+     "a": "Valid: 1, 2, 3. Invalid: 4 — `add(a=1)` misses the required positional argument for `b`? Wait, `b` has a default, so `add(a=1)` is actually valid because `b` will take its default value 10. The only invalid call would be `add()` (missing `a`) or `add(5, 6, 7)` (too many arguments).  \n**Wrong answer reveals:** If the student thinks `add(a=1)` is invalid because `b` is not provided, they misunderstand that default parameters are optional. If they think `add(b=3, a=2)` is invalid because order is swapped, they don’t know keyword arguments can appear in any order.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `compute_interest(principal, rate=0.08, time=1)` that returns simple interest (principal × rate × time). Then show the output of:  \n```python\nprint(compute_interest(5000))\nprint(compute_interest(5000, 0.1))\nprint(compute_interest(5000, time=2))\n```",
+     "a": "```python\ndef compute_interest(principal, rate=0.08, time=1):\n    return principal * rate * time\n\nprint(compute_interest(5000))          # 5000 * 0.08 * 1 = 400.0\nprint(compute_interest(5000, 0.1))     # 5000 * 0.1 * 1 = 500.0\nprint(compute_interest(5000, time=2))  # 5000 * 0.08 * 2 = 800.0\n```  \n**Wrong answer reveals:** If the student writes `print(compute_interest(5000, time=2))` and gets `5000 * 0.08 * 2 = 800` correct but thinks the second call uses `rate=0.1, time=1` (correct), they understand positional mapping. If they mistakenly think the second call assigns `0.1` to `time`, they confuse positional order with keyword binding.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following function definition and identify the error. Explain why Python raises a `SyntaxError`.  \n```python\ndef greet(greeting=\"Hello\", name):\n    print(greeting, name)\n```",
+     "a": "The error: **non‑default parameter `name` follows default parameter `greeting`**. Python requires all positional (non‑default) parameters to appear before any default parameters. The correct order is `def greet(name, greeting=\"Hello\"):`.  \n**Wrong answer reveals:** If the student thinks the error is about missing a colon or indentation, they are not reading the error message. If they suggest swapping the default value to `name=\"Guest\"`, they still haven’t grasped the ordering rule.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"Using a mutable object like a list as a default parameter value is safe because each call gets a fresh copy.\" Provide a code snippet that proves the claim right or wrong.",
+     "a": "The claim is **false**. Default values are evaluated **once** at function definition time, so all calls share the **same** mutable object.  \n```python\ndef add_item(item, shopping_list=[]):\n    shopping_list.append(item)\n    return shopping_list\n\nprint(add_item(\"apple\"))   # ['apple']\nprint(add_item(\"banana\"))  # ['apple', 'banana']  ← same list!\n```  \n**Wrong answer reveals:** If the student says the claim is true, they have not encountered the classic mutable‑default trap. This misconception causes subtle bugs in real projects (e.g., accumulating data across unrelated calls).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new function `generate_invoice(customer, items, tax_rate=0.18, discount=0)` that returns a dictionary with keys `customer`, `subtotal`, `tax`, `discount`, `total`. The function should calculate subtotal as sum of `items`, tax as `subtotal * tax_rate`, and total as `subtotal + tax - discount`. Demonstrate two calls: one with only positional arguments, and one using keyword arguments for `tax_rate` and `discount`.",
+     "a": "```python\ndef generate_invoice(customer, items, tax_rate=0.18, discount=0):\n    subtotal = sum(items)\n    tax = subtotal * tax_rate\n    total = subtotal + tax - discount\n    return {\n        \"customer\": customer,\n        \"subtotal\": subtotal,\n        \"tax\": tax,\n        \"discount\": discount,\n        \"total\": total\n    }",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

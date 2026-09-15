@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_010",
+   "title": "c11_acc_cbse_09_010",
+   "questions": [
+    {
+     "q": "A trial balance shows Sales ₹5,00,000 and Closing Stock ₹50,000. Additional information: \"Goods worth ₹20,000 were taken by the proprietor for personal use but recorded as sales at ₹25,000.\" What is the correct amount of Sales and Closing Stock after adjustment?",
+     "a": "Correct Sales = ₹4,75,000 (₹5,00,000 - ₹25,000 wrongly recorded); Correct Closing Stock = ₹70,000 (₹50,000 + ₹20,000 cost of goods withdrawn). A wrong answer of Sales ₹4,80,000 (deducting cost instead of sale price) reveals the student confuses the recording error (recorded at sale price) with the adjustment needed (reverse the sale entry at sale price, restore stock at cost). A wrong answer of Closing Stock ₹50,000 (no change) reveals the student doesn't understand that goods withdrawn reduce stock but were never credited to purchases/trading account.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for manager's commission on profit AFTER charging commission is: Profit before commission × Rate/(100 + Rate), and not simply Profit before commission × Rate/100.",
+     "a": "Because commission itself reduces the profit on which it is calculated—it's a circular reference. If profit before commission is P and rate is r%, then Commission = r% × (P - Commission). Solving: C = r/100 × (P - C) → C + rC/100 = rP/100 → C(100+r)/100 = rP/100 → C = P × r/(100+r). A student who says \"it's just a different formula\" reveals they memorised without understanding the self-referential nature. A student who uses P × r/100 reveals they treat \"after commission\" as \"on the given profit figure\" ignoring that commission is part of expenses determining that profit.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's Profit and Loss Account shows Net Profit before manager's commission ₹1,20,000. The manager is entitled to 10% commission on net profit AFTER charging such commission. Calculate the commission amount and show the journal entry.",
+     "a": "Commission = ₹1,20,000 × 10/(100+10) = ₹1,20,000 × 10/110 = ₹10,909 (rounded). Journal Entry: Profit and Loss A/c Dr. ₹10,909 To Manager's Commission A/c ₹10,909. A student calculating ₹12,000 (10% of ₹1,20,000) reveals they applied the \"before commission\" formula to an \"after commission\" situation. A student debiting Manager's Commission A/c and crediting P&L reveals they don't understand commission is an expense (debit P&L) creating a liability (credit Commission Outstanding).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet treatment of: (a) Outstanding Wages ₹5,000 and (b) Manager's Commission Outstanding ₹5,000. Are they shown under the same head? Why or why not?",
+     "a": "Both are shown under \"Current Liabilities\" but as separate line items: \"Outstanding Wages\" and \"Manager's Commission Outstanding\". They are not clubbed because they represent different obligations—wages to employees (statutory/contractual) vs. commission to manager (profit-linked). A student who clubs them as \"Outstanding Expenses ₹10,000\" reveals they focus only on the \"outstanding\" nature and miss the distinct classification required by Schedule III of Companies Act / accounting standards for transparency. A student who puts commission under \"Provisions\" reveals confusion between provisions (estimated liabilities) and ascertained liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A question states: \"Manager's commission is 15% on net profit before charging commission. Net profit before commission is ₹2,00,000.\" A student calculates commission as ₹30,000 and shows Net Profit after commission as ₹1,70,000. Another student argues the commission should be calculated on ₹1,70,000. Evaluate both positions and state which is correct.",
+     "a": "First student is correct. \"Before charging commission\" means the base is profit BEFORE this expense is deducted. Commission = 15% of ₹2,00,000 = ₹30,000. Net Profit after commission = ₹2,00,000 - ₹30,000 = ₹1,70,000. The second student incorrectly applies the \"after commission\" logic. This reveals the critical distinction: the phrase \"before/after charging such commission\" defines the BASE, not the sequence of calculation. A student who gets confused reveals they don't parse the language of the adjustment carefully—a major source of errors in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where THREE different unrecorded transactions exist simultaneously, requiring adjustments. Write the additional information as it would appear in a board exam question, then list the journal entries needed.",
+     "a": "Scenario: \"Additional Information: (1) Goods costing ₹12,000 were taken by proprietor for personal use; no entry passed. (2) Wages ₹8,000 paid for construction of a showcase were debited to Wages Account. (3) Interest on capital @ 10% p.a. on opening capital ₹5,00,000 is to be provided; no entry passed.\" \nJournal Entries:\n(1) Drawings A/c Dr. 12,000 To Purchases A/c 12,000\n(2) Showcase A/c Dr. 8,000 To Wages A/c 8,000\n(3) Interest on Capital A/c Dr. 50,000 To Capital A/c 50,000\nA poor answer would miss any one adjustment, or debit/credit wrong accounts (e.g., crediting Sales instead of Purchases for goods withdrawn), revealing inability to trace the original incorrect entry and reverse it correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

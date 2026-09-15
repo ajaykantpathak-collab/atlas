@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_001",
+   "title": "c12_acc_cbse_01_001",
+   "questions": [
+    {
+     "q": "State the legal definition of partnership as per Section 4 of the Indian Partnership Act, 1932.",
+     "a": "Partnership is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all. A wrong answer (e.g., \"partnership is a company\" or \"partnership requires registration\") reveals the student confuses partnership with a company or thinks registration is mandatory for existence — the Act does not require registration for a partnership to exist.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"mutual agency\" is considered the true test of partnership.",
+     "a": "Mutual agency means each partner can act as an agent of the firm and bind other partners by acts done in the ordinary course of business. This distinguishes partnership from co-ownership or joint Hindu family business where no such agency exists. A wrong answer (e.g., \"mutual agency means partners trust each other\") shows the student misunderstands the legal concept of agency and its role in creating liability for the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul and Priya jointly own a building and rent it out, sharing the rental income equally. They have no agreement to carry on any business. Does this constitute a partnership? Justify by checking each essential feature.",
+     "a": "No, it is not a partnership. While there is agreement, profit-sharing, and possibly mutual agency, the essential feature of \"carrying on a business\" is missing — mere co-ownership of property and sharing rental income is not a business. A wrong answer (saying yes) reveals the student thinks profit-sharing alone creates partnership, ignoring the business requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare partnership with a Joint Hindu Family Business (HUF) on the basis of: (a) mode of creation, (b) liability of members, (c) mutual agency, (d) continuity. Which feature is the key differentiator for accounting purposes?",
+     "a": "(a) Partnership arises from agreement; HUF by status/birth. (b) Partners have unlimited joint and several liability; Karta has unlimited liability, coparceners limited to their share. (c) Every partner is an agent; only Karta has agency in HUF. (d) Partnership dissolves on death/retirement; HUF continues. The key accounting differentiator is mutual agency — it determines authority to bind the firm and the nature of liability. A wrong comparison (e.g., saying both have mutual agency) shows confusion between partnership and HUF structures.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A partnership firm is a separate legal entity distinct from its partners, just like a company.\" Is this true or false? Defend your answer with reference to the Indian Partnership Act, 1932.",
+     "a": "False. Under the Indian Partnership Act, 1932, a partnership firm has no separate legal existence apart from its partners — it cannot own property, sue, or be sued in its own name (though procedural law allows suits in the firm's name). A company, under the Companies Act, is a separate legal entity. A student who says true confuses partnership with a company and misses the fundamental legal distinction that makes partners personally liable for firm debts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (2-3 sentences) describing a business arrangement that has five of the six essential features of partnership but fails on one. Identify the missing feature and explain why the arrangement is NOT a partnership.",
+     "a": "Example: \"A and B agree to share profits from a charity event they organize once a year. They have an agreement, share profits, and act for each other, but the activity is not a continuing business.\" Missing feature: carrying on a business (must be a continuous activity, not a one-off venture). A poor answer might miss the continuity aspect or incorrectly claim it is a partnership, showing the student does not grasp that \"business\" implies continuity and repetition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

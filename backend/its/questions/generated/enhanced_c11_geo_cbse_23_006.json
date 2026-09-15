@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_006",
+   "title": "c11_geo_cbse_23_006",
+   "questions": [
+    {
+     "q": "Define a cylindrical projection and state the geometric relationship between the cylinder and the globe in the normal aspect.",
+     "a": "A cylindrical projection projects the Earth's graticule onto a cylinder tangent to or secant with the globe, which is then unrolled into a flat map. In the normal aspect, the cylinder's axis coincides with the Earth's axis, so the cylinder touches the globe along the equator (tangent) or along two symmetrical parallels (secant). Meridians project as equally spaced vertical lines; parallels project as horizontal lines.  \nA wrong answer (e.g., \"the cylinder touches the poles\" or \"meridians converge\") reveals confusion between cylindrical and zenithal/azimuthal projections, or a failure to visualize the developable surface geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mercator projection shows a constant scale along the equator but an increasing scale factor toward the poles, using the concept of parallel length on the globe versus on the cylinder.",
+     "a": "On the globe, the length of a parallel at latitude φ is 2πR cos φ. On the cylinder, every parallel is stretched to the full cylinder circumference 2πR (the equator's length). The scale factor along the parallel is therefore (2πR)/(2πR cos φ) = sec φ. At the equator (φ=0), sec φ = 1 (true scale). As φ → 90°, cos φ → 0, so sec φ → ∞, meaning extreme east-west stretching.  \nA wrong answer that states \"scale increases because the cylinder gets wider\" indicates a misunderstanding that the cylinder's radius is fixed; the distortion comes from mapping a shrinking globe circle onto a constant cylinder circle.",
+     "self_check": true
+    },
+    {
+     "q": "A Mercator map has a Representative Fraction (RF) of 1:100,000,000 at the equator. Calculate the map distance (in cm) between two points on the 60°N parallel that are 10° of longitude apart. (Take R = 6371 km.)",
+     "a": "Step 1: Ground distance along 60°N parallel for 10° longitude = (10/360) × 2πR cos 60° = (1/36) × 2π × 6371 × 0.5 ≈ 556.8 km.  \nStep 2: Map scale at equator = 1:100,000,000 → 1 cm on map = 1000 km on ground at equator.  \nStep 3: On Mercator, the parallel scale factor at 60°N is sec 60° = 2. So the map distance for that 10° longitude is stretched by factor 2 relative to the equatorial scale.  \nStep 4: Map distance = (Ground distance) / (Equatorial ground distance per cm) × sec φ = (556.8 km) / (1000 km/cm) × 2 = 1.1136 cm.  \nAnswer: ≈ 1.11 cm.  \nA wrong answer that ignores the sec φ factor (giving 0.56 cm) shows the student does not understand that the RF is only true at the standard line; map distance must account for projection distortion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distortion patterns of the Mercator (conformal) and the Lambert Cylindrical Equal-Area projections at 45°N latitude. Which projection would you choose for a thematic map showing population density by country, and why?",
+     "a": "At 45°N: Mercator has parallel scale factor = sec 45° = √2 ≈ 1.414, meridian scale factor = sec 45° = 1.414 (conformal, so shape preserved locally). Area scale factor = (sec φ)² = 2 → areas are doubled. Lambert Cylindrical Equal-Area has parallel scale factor = sec φ = 1.414, but meridian scale factor = cos φ = 0.707, so area scale factor = 1 (area preserved). Shapes are distorted (north-south compressed).  \nFor population density (people per unit area), accurate area representation is essential; otherwise, density values will be systematically wrong at high latitudes. Choose Lambert Cylindrical Equal-Area (or Gall-Peters).  \nA wrong choice of Mercator reveals the student prioritizes familiar shape over the quantitative requirement of the thematic variable.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Transverse Mercator projection is the best choice for a world map because it reduces polar distortion.\" Provide a reasoned judgment.",
+     "a": "The statement is false. Transverse Mercator rotates the cylinder 90° so it is tangent along a central meridian. It provides low distortion near that meridian (making it excellent for north-south extent regions like Chile or UTM zones), but distortion increases rapidly east-west away from the central meridian. For a world map, this would place extreme distortion at the edges (e.g., the Pacific and Atlantic margins). A world map requires a balance of distortion globally; normal aspect cylindrical (like Winkel Tripel or Robinson, though not pure cylindrical) or compromise projections are used.  \nA wrong evaluation that agrees with the statement shows the student does not understand that \"transverse\" shifts the low-distortion zone to a meridian, not the whole globe, and that no cylindrical projection can simultaneously minimize distortion everywhere.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map for a shipping company that needs to plot constant-bearing (rhumb line) routes across the Indian Ocean. Specify the projection, its aspect, and the mathematical property that makes it suitable. Annotate a sketch of the graticule showing the standard line and distortion pattern.",
+     "a": "Projection: Normal aspect Mercator (cylindrical conformal). Property: Conformality (local angles preserved) → rhumb lines (loxodromes) plot as straight lines. Standard line: Equator (tangent) or two standard parallels (secant). Graticule sketch: rectangular grid; meridians equally spaced vertical lines; parallels horizontal lines spaced increasingly farther apart toward poles. Distortion: area and scale increase as sec φ; poles at infinity.  \nA poor answer that suggests a conical or azimuthal projection, or a cylindrical equal-area, shows the student cannot link the navigational requirement (constant bearing) to the conformal property of the Mercator.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

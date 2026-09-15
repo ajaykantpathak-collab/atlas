@@ -1,0 +1,333 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_003a_differentiation_applications.json",
+ "concepts": [
+  {
+   "id": "am12_003a.1",
+   "title": "Marginal Cost and Marginal Revenue",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 4x + 1 as x approaches 2 (direct substitution).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^3 is 9x^2. Find the derivative's value at x = 2.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 6x + 5, find the slope of the tangent at x = 2.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 6x + 5 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.07",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.2",
+   "title": "Related Rates of Change",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 6x + 6 as x approaches 1 (direct substitution).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^4 is 8x^3. Find the derivative's value at x = 1.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 1, find the slope of the tangent at x = 4.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 1 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.07",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.3",
+   "title": "Slope of Tangent and Normal",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 70 cm. Find its circumference (pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 49 cm and 70 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "7854",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "297",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 84 cm (pi = 22/7).",
+     "a": "1848",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.4",
+   "title": "Profit from Cost and Revenue Functions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 500 and sells it for Rs 650. Find the profit.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 500, selling price Rs 650. Find the profit percentage.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 500 is sold for Rs 400. Find the loss percentage.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 50% profit on an article costing Rs 500. At what price should he sell it?",
+     "a": "750",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 1000 and the shop offers a 30% discount. What is the sale price?",
+     "a": "700",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 1000 sells for Rs 700 after a discount. Find the discount percentage.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.5",
+   "title": "Maxima and Minima Second Derivative Test",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 8 * 2 + 8 gives 36",
+     "compute": "val = 3 * 2 * 2 + 8 * 2 + 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 8x + 8 as x approaches 2 (direct substitution).",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^2 is 6x^1. Find the derivative's value at x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 3x + 2, find the slope of the tangent at x = 1.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 3x + 2 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.2",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.6",
+   "title": "Monotonic Functions by Derivative Sign",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 3 * 3 + 8 gives 44",
+     "compute": "val = 3 * 3 * 3 + 3 * 3 + 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 3x + 8 as x approaches 3 (direct substitution).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 3.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 5x + 7, find the slope of the tangent at x = 2.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 5x + 7 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.11",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 1.",
+     "a": "735",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.7",
+   "title": "Implicit Parametric and Logarithmic Differentiation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 1 * 1 + 5 * 1 + 6 gives 14",
+     "compute": "val = 3 * 1 * 1 + 5 * 1 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 5x + 6 as x approaches 1 (direct substitution).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^2 is 4x^1. Find the derivative's value at x = 1.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 5x + 5, find the slope of the tangent at x = 3.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 5x + 5 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.03",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.8",
+   "title": "Higher Order Derivatives",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 5 * 5 + 4 * 5 + 4 gives 124",
+     "compute": "val = 4 * 5 * 5 + 4 * 5 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 4x^2 + 4x + 4 as x approaches 5 (direct substitution).",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 5.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 2, find the slope of the tangent at x = 3.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 2 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.08",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

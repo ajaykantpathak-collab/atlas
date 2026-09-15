@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_010",
+   "title": "c10_math_cbse_01_010",
+   "questions": [
+    {
+     "q": "State the rule for finding the HCF of three numbers using prime factorisation. What do you do with a prime factor that appears in only two of the three numbers?",
+     "a": "**Correct answer:** HCF = product of all prime factors common to all three numbers, each raised to the smallest exponent among the three. A prime factor that appears in only two numbers is **not** included in the HCF because it is not common to all three.  \n**What a wrong answer reveals:** If a student includes a prime factor present in only two numbers, they are incorrectly generalising the two-number method (where a factor common to both is used) without checking presence in the third number. If they say \"take the smallest exponent among the numbers where it appears\", they confuse HCF with LCM logic.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when finding the LCM of three numbers, we take the highest power of each prime factor that appears in any of the three numbers, even if that prime factor is missing from one or two numbers.",
+     "a": "**Correct answer:** The LCM must be a multiple of each of the three numbers. For it to be a multiple of a number, it must contain at least the prime power that number contains. Taking the maximum exponent across the three ensures the LCM is divisible by all three. If a prime is missing from a number, its exponent is 0, and the maximum will come from the other numbers.  \n**What a wrong answer reveals:** A student who says \"we take the highest power because we want the largest number\" misses the divisibility reasoning. A student who says \"we only consider primes present in all three\" is confusing LCM with HCF.",
+     "self_check": true
+    },
+    {
+     "q": "Find the HCF and LCM of 24, 36, and 60 using prime factorisation. Show all steps.",
+     "a": "**Correct working:**  \nStep 1: Prime factorisation:  \n\\(24 = 2^3 \\times 3^1\\)  \n\\(36 = 2^2 \\times 3^2\\)  \n\\(60 = 2^2 \\times 3^1 \\times 5^1\\)  \n\nStep 2: HCF — common primes: 2 and 3. Smallest exponents: \\(2^2\\) (min of 3,2,2) and \\(3^1\\) (min of 1,2,1).  \nHCF = \\(2^2 \\times 3^1 = 4 \\times 3 = 12\\).\n\nStep 3: LCM — all primes: 2, 3, 5. Largest exponents: \\(2^3\\) (max of 3,2,2), \\(3^2\\) (max of 1,2,1), \\(5^1\\) (max of 0,0,1).  \nLCM = \\(2^3 \\times 3^2 \\times 5^1 = 8 \\times 9 \\times 5 = 360\\).\n\n**Answer:** HCF = 12, LCM = 360.  \n**What a wrong answer reveals:** If a student gets HCF = 6 (using \\(2^1 \\times 3^1\\)), they took the smallest exponent of 2 as 1 instead of 2 (misreading 36 as \\(2^1\\)). If LCM = 720, they might have used \\(2^4\\) or double-counted. If LCM misses 5, they forgot to include a prime that appears in only one number.",
+     "self_check": true
+    },
+    {
+     "q": "Given that the HCF of three numbers is 6 and their LCM is 360, and two of the numbers are 12 and 30, find the third number. Is the third number unique? Explain.",
+     "a": "**Correct answer:** Let the third number be \\(x\\). Prime factorisations:  \n\\(12 = 2^2 \\times 3\\)  \n\\(30 = 2 \\times 3 \\times 5\\)  \nHCF = 6 = \\(2 \\times 3\\) → so \\(x\\) must have at least \\(2^1\\) and \\(3^1\\), and no other common primes with both.  \nLCM = 360 = \\(2^3 \\times 3^2 \\times 5\\) → \\(x\\) must contribute the maximum exponents for primes where it exceeds the given numbers.  \nFrom LCM: max exponent of 2 is 3 (12 has \\(2^2\\), 30 has \\(2^1\\)), so \\(x\\) must have \\(2^3\\).  \nMax exponent of 3 is 2 (12 has \\(3^1\\), 30 has \\(3^1\\)), so \\(x\\) must have \\(3^2\\).  \nMax exponent of 5 is 1 (30 has \\(5^1\\)), so \\(x\\) may have \\(5^0\\) or \\(5^1\\).  \nAlso, HCF restricts: the minimum exponent of 2 across three numbers is 1 (from 30). Since 12 has \\(2^2\\) and \\(x\\) has \\(2^3\\), min is 1 — okay. For 3, min is 1 (from 12 and 30). Since \\(x\\) has \\(3^2\\), min is 1 — okay. For 5, min is 0 (12 has 0, 30 has 1, \\(x\\) has 0 or 1) → min is 0, but HCF has no 5, so consistent.  \nThus \\(x = 2^3 \\times 3^2 \\times 5^0 = 72\\) or \\(x = 2^3 \\times 3^2 \\times 5^1 = 360\\). Both satisfy.  \n**Answer:** Third number can be 72 or 360. Not unique.  \n**What a wrong answer reveals:** A student who gives only 72 forgot that the prime 5 can have exponent 0 or 1 in \\(x\\) because 30 already provides \\(5^1\\) for LCM and HCF has no 5. A student who tries to use HCF × LCM = product will get a single wrong number because that formula does not hold for three numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find HCF and LCM of 18, 24, 36.\"  \nTheir working:  \n\\(18 = 2 \\times 3^2\\)  \n\\(24 = 2^3 \\times 3\\)  \n\\(36 = 2^2 \\times 3^2\\)  \nHCF = \\(2^1 \\times 3^1 = 6\\)  \nLCM = \\(2^3 \\times 3^2 = 72\\)  \nIs the student's answer correct? If not, identify the error.",
+     "a": "**Correct judgment:** The student's HCF is correct (6). The LCM is **incorrect**.  \n**Error:** The student omitted the prime factor 3's exponent correctly but forgot that all three numbers have only primes 2 and 3 — wait, LCM = \\(2^3 \\times 3^2 = 8 \\times 9 = 72\\) is actually correct for these three numbers. Let me re-check: 18, 24, 36.  \n18 = 2 × 3², 24 = 2³ × 3, 36 = 2² × 3².  \nMax exponent of 2 = 3, max exponent of 3 = 2. LCM = 2³ × 3² = 72.  \nSo the student is **correct**.  \nBut the question asks to evaluate — if the student had written LCM = 2³ × 3¹ = 24, that would be wrong (taking min instead of max). Since the given working is correct, the evaluator must confirm correctness.  \n**What a wrong answer reveals:** If a student says \"incorrect because LCM should be 216\", they might have multiplied the numbers. If they say \"incorrect because 36 is missing\", they misunderstand that LCM of 18, 24, 36 is 72 (since 36 divides 72). The diagnostic tests whether the evaluator can verify the prime factorisation and exponent selection independently.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) that requires finding the LCM of three numbers. The three numbers should be between 10 and 50. Write the problem and solve it.",
+     "a": "**Expected answer:** A well-formed problem, e.g.:  \n\"Three traffic lights at different crossings change after 24 seconds, 36 seconds, and 48 seconds respectively. If they change simultaneously at 8:00 AM, at what time will they next change together?\"  \nSolution: LCM of 24, 36, 48.  \n24 = 2³ × 3, 36 = 2² × 3², 48 = 2⁴ × 3.  \nLCM = 2⁴ × 3² = 16 × 9 = 144 seconds = 2 minutes 24 seconds.  \nNext simultaneous change at 8:02:24 AM.  \n**Criteria for good answer:** Correct use of LCM context (simultaneous events), three numbers in range, correct prime factorisation, correct LCM calculation, correct conversion to time, final answer with units.  \n**What a poor answer reveals:** Using HCF context (e.g., \"cutting ribbons into equal pieces\" for LCM), numbers outside range, missing prime factorisation steps, arithmetic error in LCM, forgetting to convert seconds to minutes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

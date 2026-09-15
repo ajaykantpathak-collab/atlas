@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_006",
+   "title": "c10_chem_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the number of electron shells in elements of Period 3 and explain why this number remains constant across the period.",
+     "a": "Elements in Period 3 have 3 electron shells (K, L, M). The number remains constant because all Period 3 elements have electrons filling the third shell (M-shell) as the valence shell; the principal quantum number n=3 does not change until Period 4 begins. A wrong answer (e.g., \"shells increase\" or \"2 shells\") reveals the student confuses period number with group number or thinks shells increase across a period like they do down a group.",
+     "self_check": true
+    },
+    {
+     "q": "Why does atomic radius decrease from sodium (Na) to chlorine (Cl) in Period 3 even though the number of electrons increases?",
+     "a": "Atomic radius decreases because nuclear charge increases (+11 to +17) while the number of inner shells (2) remains constant — the increased effective nuclear charge pulls the valence shell closer without additional shielding. A wrong answer citing \"more electrons = larger size\" or \"shielding increases\" reveals the student ignores that added electrons enter the same shell and do not shield each other effectively, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Element X is in Period 2 and forms an oxide X₂O₃. Identify X and predict whether its oxide is acidic, basic, or amphoteric. Justify using periodic trends.",
+     "a": "X is Boron (B, atomic number 5). Valency = 3 (Group 13), so oxide is B₂O₃. Boron is a metalloid/non-metal on the right side of Period 2 → oxide is acidic (reacts with water to form boric acid H₃BO₃). Steps: (1) Period 2 → 2 shells; (2) X₂O₃ → valency 3 → Group 13; (3) Group 13 in Period 2 = B; (4) Left-to-right metallic character decreases → B is non-metallic → acidic oxide. Wrong valency (e.g., 2) or misidentifying oxide as basic reveals confusion between group valency and period trends.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the atomic radii of magnesium (Mg) and aluminium (Al) in Period 3. Which is smaller and by approximately how much (in pm)? Explain the anomaly if any.",
+     "a": "Al (143 pm) is smaller than Mg (160 pm) by ~17 pm. No anomaly — the trend holds because Al has higher nuclear charge (+13 vs +12) with same shielding (Ne core). A wrong answer claiming Mg < Al or citing \"Al has more electrons so larger\" reveals the student applies group trend logic (size increases down) to period trend, or forgets effective nuclear charge dominates across a period.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Valency increases from 1 to 4 then decreases to 0 across Period 3.\" Evaluate this statement. Is it fully correct for all elements? If not, correct it.",
+     "a": "The statement is partially correct but incomplete. Valency w.r.t. oxygen: Na=1, Mg=2, Al=3, Si=4, P=3, S=2, Cl=1, Ar=0 — increases to 4 then decreases. But w.r.t. hydrogen: Na=1, Mg=2, Al=3, Si=4, P=3, S=2, Cl=1 — same pattern. However, noble gas Ar shows 0 valency in both. The student's statement is acceptable for board exams if they specify \"with respect to oxygen/hydrogen\" and note the peak at Group 14. A wrong answer saying \"valency always increases\" or \"valency is group number\" reveals confusion between group number and combining capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using only a periodic table (no lab equipment) to prove that metallic character decreases across Period 3. List the elements you would compare, the property you would check, and the expected trend.",
+     "a": "Compare Na, Mg, Al, Si, P, S, Cl. Property: tendency to lose electrons (form cations) or oxide nature. Expected: Na₂O (strongly basic) → MgO (basic) → Al₂O₃ (amphoteric) → SiO₂ (weakly acidic) → P₄O₁₀ (acidic) → SO₂/SO₃ (acidic) → Cl₂O₇ (strongly acidic). Metallic character decreases as oxide nature shifts basic → amphoteric → acidic. A poor answer listing only \"conductivity\" or \"shininess\" without linking to electron loss tendency reveals superficial understanding — board exams require connecting metallic character to electron loss and oxide behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_010",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_010",
+   "title": "c6_chemistry_ch05_010",
+   "questions": [
+    {
+     "q": "What is the difference between a physical change and a chemical change in food?",
+     "a": "A physical change alters the state or shape of food without changing its identity, while a chemical change creates new substances. A wrong answer suggests the student thinks all changes in food are the same; they likely miss that chemical changes are usually permanent.",
+     "self_check": true
+    },
+    {
+     "q": "If milk turns into yogurt (curd), is this a physical or chemical change? Explain why.",
+     "a": "It is a chemical change because the bacteria change the composition of the milk, and you cannot turn the yogurt back into liquid milk. A wrong answer reveals they focus only on the visual state (it is still \"white and soft\") rather than the fundamental change in properties.",
+     "self_check": true
+    },
+    {
+     "q": "You have cooked rice. If you leave it on the counter for two days, it spoils. Is this spoilage a physical or chemical change? Why?",
+     "a": "It is a chemical change because the bacteria have broken down the food, creating new substances that smell and taste different. If the student answers \"physical,\" they likely believe it is just \"old,\" failing to realize the chemical decay process is irreversible.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we put pickles or jams in jars and seal them tightly?",
+     "a": "We seal them to stop air and microbes from entering, which prevents the chemical process of spoilage. A wrong answer suggests they think it is just to keep the food \"clean,\" missing the link between air exposure and chemical spoilage.",
+     "self_check": true
+    },
+    {
+     "q": "If you boil water to make tea, the steam is a physical change, but the brewing of tea leaves is a chemical change. Do you agree? Why?",
+     "a": "Yes, boiling water only changes the state of water (liquid to gas), which is reversible, while tea leaves release new chemicals into the water that change its color and taste permanently. A wrong answer shows confusion between phase changes and chemical composition changes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that leaving an apple slice out is a chemical change.",
+     "a": "The student should suggest slicing an apple, leaving one half exposed to air, and observing the color change to brown. A poor answer would involve just \"looking at it\" without mentioning the observation of the irreversible color change or the role of air.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

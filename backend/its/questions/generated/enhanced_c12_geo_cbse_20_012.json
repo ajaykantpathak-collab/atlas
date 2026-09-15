@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_012",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_012",
+   "title": "c12_geo_cbse_20_012",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a flow map, and how does line width encode information?",
+     "a": "A flow map shows the movement of phenomena (goods, people, vehicles) between origins and destinations; line width is proportional to the quantity of flow (e.g., 1 cm = 50 trains). A wrong answer (e.g., \"line width shows distance\") reveals confusion between flow magnitude and spatial distance, a common error when students treat flow maps as distance maps.",
+     "self_check": true
+    },
+    {
+     "q": "Why must dots on a dot map be of uniform size, and why should they not be placed in mountainous or desert areas when mapping population distribution?",
+     "a": "Uniform dot size ensures each dot represents the same quantity, allowing visual comparison of density; dots are omitted or reduced in uninhabitable areas (mountains, deserts) because population is negligible there. A wrong answer (e.g., \"dots can vary in size to show importance\") shows misunderstanding of the quantitative basis of dot maps and the need to respect physical geography constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Given a flow map scale of 1 cm = 50 trains, calculate the line width in mm for a route with 30 trains and for a route with 8 trains.",
+     "a": "For 30 trains: (30/50) * 10 mm = 6 mm. For 8 trains: (8/50) * 10 mm = 1.6 mm. A wrong calculation (e.g., using 1 cm = 50 trains but forgetting to convert cm to mm) indicates unit conversion errors and poor scale application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flow map of Delhi railways (Fig. 3.10) and the water flow map of Ganga Basin (Fig. 3.12). What geographic insight does each reveal that a table of numbers would not?",
+     "a": "The Delhi railway map reveals nodal stations (Old Delhi, New Delhi) as hubs with thick converging lines, showing centrality in the network. The Ganga basin map shows tributary contributions (e.g., Yamuna, Ghaghara) by line thickness, revealing which tributaries dominate discharge. Tables lack this immediate spatial pattern recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of a dot map versus a choropleth map for showing the distribution of rice production across Indian states. Which would you choose and why?",
+     "a": "A dot map is better for showing absolute production distribution and spatial clustering within states (e.g., concentration in river valleys), while a choropleth map shows relative intensity (percentage of total) per state but masks intra-state variation. For absolute distribution, dot map is superior; for state-wise comparison, choropleth is better. Choosing choropleth for absolute distribution reveals inability to match map type to data nature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow map to show inter-state migration from Bihar to Maharashtra, Punjab, and Delhi using 2011 Census data: Bihar→Maharashtra 1.2 million, Bihar→Punjab 0.8 million, Bihar→Delhi 0.5 million. Choose a scale, draw the map conceptually, and explain how you would represent the three flows.",
+     "a": "Select scale: 1 cm = 0.2 million migrants (so max flow 1.2 million = 6 cm). Draw outline map of India with Bihar, Maharashtra, Punjab, Delhi. Draw curved flow lines from Bihar to each destination with widths: Maharashtra 6 cm, Punjab 4 cm, Delhi 2.5 cm. Add terraced legend, arrowheads for direction, and title. A poor design would use straight lines ignoring geography, omit legend, or use incorrect proportions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

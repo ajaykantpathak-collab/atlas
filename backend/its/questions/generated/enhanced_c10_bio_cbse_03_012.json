@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_012",
+   "title": "c10_bio_cbse_03_012",
+   "questions": [
+    {
+     "q": "Name the causative agent of syphilis and state whether it is a bacterium, virus, or protozoan.",
+     "a": "Treponema pallidum — a spirochete bacterium. A wrong answer (e.g., \"virus\" or \"fungus\") reveals the student cannot distinguish bacterial STDs from viral STDs, which is critical because bacterial STDs are curable with antibiotics while viral STDs are manageable but not curable — a distinction that directly affects treatment decisions and board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why oral contraceptive pills prevent pregnancy but do NOT protect against sexually transmitted diseases.",
+     "a": "Oral contraceptive pills contain hormones (estrogen/progestin) that suppress ovulation and thicken cervical mucus to block sperm entry — they act on the reproductive process internally. They create no physical barrier between partners' genital mucosa, so pathogens in semen, vaginal fluids, or on skin lesions can still be exchanged during intercourse. A wrong answer (e.g., \"pills kill germs\" or \"pills block everything\") reveals confusion between contraception (preventing fertilisation) and barrier protection (blocking pathogen transmission) — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A 17-year-old boy has a painless ulcer on his penis that appeared 3 weeks after unprotected sex. He ignores it because it is not painful. Two months later, he develops a non-itchy rash on his palms and soles. Identify the likely STD and explain why the painless ulcer is dangerous.",
+     "a": "Primary syphilis (chancre) caused by Treponema pallidum. The painless ulcer (chancre) is the primary stage lesion; it heals spontaneously without treatment, leading the patient to believe the infection is gone. However, the spirochete has already disseminated through the bloodstream, causing secondary syphilis (rash on palms/soles). The danger: the painless nature delays diagnosis, allowing progression to tertiary syphilis (neurological, cardiovascular damage). A wrong answer (e.g., \"herpes\" or \"gonorrhoea\") reveals inability to match symptom patterns to specific STDs — herpes causes painful vesicles, gonorrhoea causes purulent discharge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term reproductive health consequences of untreated chlamydia in females versus untreated HPV infection in females. Which poses a greater risk for cervical cancer and why?",
+     "a": "Untreated Chlamydia trachomatis causes pelvic inflammatory disease (PID) → scarring of fallopian tubes → tubal infertility and ectopic pregnancy risk. Untreated high-risk HPV (types 16, 18) causes persistent infection → integration of viral DNA into host cervical cells → dysplasia → cervical carcinoma. HPV poses greater cervical cancer risk because its oncoproteins (E6, E7) directly inactivate tumour suppressor proteins p53 and Rb, driving malignant transformation. Chlamydia causes infertility via mechanical damage, not carcinogenesis. A wrong answer reveals confusion between inflammatory sequelae and oncogenic mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If both partners test negative for HIV immediately after a potential exposure, they can safely stop using condoms.\" Justify your answer with the biological concept of the window period.",
+     "a": "The statement is FALSE. HIV has a window period (typically 2–12 weeks, up to 3 months) during which the virus is replicating but antibodies are not yet detectable by standard tests. A negative test during this period is a false negative. Stopping condoms based on early negative results risks transmission. The correct approach: repeat testing at 3 months post-exposure while continuing barrier protection. A wrong answer reveals ignorance of seroconversion dynamics — a critical concept for both board exams and real-life prevention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public health awareness poster for Class 10 students that communicates the \"ABC\" strategy for STD prevention. Include one specific biological reason why each component (A, B, C) works.",
+     "a": "Expected poster elements:\nA — Abstinence: Zero sexual contact = zero pathogen exchange (biological reason: no mucosal contact, no fluid exchange).\nB — Be faithful (mutual monogamy with uninfected partner): Limits pathogen pool to one source; if both are uninfected, no new pathogens enter the dyad (biological reason: STDs require an infected source).\nC — Condom use (correct, consistent): Latex/polyurethane barrier blocks semen, vaginal fluids, and skin contact (biological reason: physical barrier prevents pathogen access to target cells).\nA poor answer lists slogans without biological mechanisms (e.g., \"condoms are safe\" without explaining barrier function) — reveals rote memorisation without conceptual understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

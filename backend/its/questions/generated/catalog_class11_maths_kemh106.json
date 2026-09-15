@@ -1,0 +1,140 @@
+{
+ "catalog": "catalog_class11_maths_kemh106.json",
+ "concepts": [
+  {
+   "id": "kemh.106.1.1",
+   "title": "Fundamental Principle of Counting",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 5 gives 25",
+     "compute": "total = 5 * 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 8 with a set of size 9?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 8 elements have?",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 2 at a time.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.106.2.1",
+   "title": "Permutations: Arrangements in Order",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 6 * 8 gives 48",
+     "compute": "total = 6 * 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 6 with a set of size 3?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 6 elements have?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 2 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 1 at a time.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.106.3.1",
+   "title": "Combinations: Selections Without Order and the Pair Count",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 3 gives 27",
+     "compute": "total = 9 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 7 with a set of size 8?",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 7 elements have?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 2 at a time.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

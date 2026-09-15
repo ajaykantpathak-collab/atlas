@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_007",
+   "title": "c10_phy_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the formula for the equivalent resistance of three resistors R₁, R₂, R₃ connected in parallel. Write the SI unit of equivalent resistance.",
+     "a": "Correct answer: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃; SI unit is ohm (Ω). A wrong answer like R_eq = R₁ + R₂ + R₃ reveals the student is confusing parallel with series combination (c10_phy_cbse_01_006). Writing the unit as \"ohm⁻¹\" or \"siemens\" for R_eq indicates confusion between resistance and conductance — the formula uses reciprocals but the final answer for resistance must be in ohms.",
+     "self_check": true
+    },
+    {
+     "q": "Two resistors of 6 Ω and 3 Ω are connected in parallel across a 12 V battery. Without calculating the exact value, explain why the equivalent resistance must be less than 3 Ω. What physical reasoning supports this?",
+     "a": "Correct reasoning: In parallel, current has multiple paths. Adding any extra path (even a high resistance) allows more total current for the same voltage. By Ohm's law R_eq = V/I_total, if I_total increases while V stays constant, R_eq must decrease. Since the 3 Ω resistor alone would draw 4 A, adding the 6 Ω branch draws additional current, making total current >4 A, so R_eq = 12 V / (>4 A) < 3 Ω. A wrong answer like \"it becomes 9 Ω because resistances add\" shows the student applies series logic. Saying \"it stays 3 Ω because the smaller resistor dominates\" misses that every added branch reduces equivalent resistance further.",
+     "self_check": true
+    },
+    {
+     "q": "Three resistors of 2 Ω, 4 Ω, and 4 Ω are connected in parallel across a 12 V battery. Calculate: (a) the equivalent resistance, (b) the total current drawn from the battery, (c) the current through the 2 Ω resistor. Show all steps with units.",
+     "a": "**Step 1:** Given: R₁ = 2 Ω, R₂ = 4 Ω, R₃ = 4 Ω, V = 12 V. Find R_eq, I_total, I₁.\n**Step 2:** Formula: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃.\n**Step 3:** Substitute: 1/R_eq = 1/2 + 1/4 + 1/4 = 0.5 + 0.25 + 0.25 = 1 Ω⁻¹.\n**Step 4:** R_eq = 1 / 1 Ω⁻¹ = 1 Ω. (Unit check: 1/Ω⁻¹ = Ω ✓)\n**Step 5:** I_total = V / R_eq = 12 V / 1 Ω = 12 A.\n**Step 6:** I₁ = V / R₁ = 12 V / 2 Ω = 6 A. (Alternatively, current divider: I₁ = I_total × R_eq/R₁ = 12 A × 1/2 = 6 A).\n**Final answers:** (a) 1 Ω, (b) 12 A, (c) 6 A.\nA wrong answer of R_eq = 10 Ω (sum) shows series confusion. Forgetting to take reciprocal at step 4 (leaving answer as 1 Ω⁻¹) reveals misunderstanding that the formula gives conductance, not resistance. Not converting 1/2 to 0.5 or 2/4 leads to arithmetic errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student connects two identical resistors first in series, then in parallel, across the same battery. Compare the total power dissipated in the two cases. Which combination draws more power from the battery? Justify using P = V²/R_eq.",
+     "a": "Let each resistor = R. Series: R_eq_s = 2R. Parallel: R_eq_p = R/2. Since power P = V²/R_eq and V is same, power is inversely proportional to R_eq. R_eq_p = R/2 is four times smaller than R_eq_s = 2R. Therefore, parallel combination dissipates 4 times more power (draws 4 times more current). A wrong answer saying \"series draws more power because resistance is higher\" confuses P = I²R (where I changes) with P = V²/R (where V is fixed). The student must recognize that the battery voltage is constant, so the lower equivalent resistance in parallel draws more current and more power.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a parallel resistor problem: \"R₁ = 3 Ω, R₂ = 6 Ω in parallel. 1/R_eq = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2. So R_eq = 1/2 Ω.\" Evaluate this solution. Is the final answer correct? If not, identify the exact error.",
+     "a": "The solution is **incorrect**. The error is in the final step: 1/R_eq = 1/2 Ω⁻¹ implies R_eq = 2 Ω, not 1/2 Ω. The student correctly computed the sum of reciprocals (1/2 Ω⁻¹) but forgot to take the reciprocal to get resistance. This is the most common board-exam error — writing the conductance value as the resistance. The correct answer is R_eq = 2 Ω. A student who writes 0.5 Ω has confused the reciprocal operation; they need to practice: \"If 1/x = a, then x = 1/a\" with units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a parallel resistor network using only 3 Ω, 4 Ω, and 6 Ω resistors (you may use multiple of each) to achieve an equivalent resistance of exactly 1 Ω. Draw the circuit diagram and show the calculation. Is there more than one solution?",
+     "a": "**Expected answer criteria:** (1) Correct circuit diagram with standard symbols, (2) Valid combination yielding 1 Ω, (3) Calculation shown with units. **Example solution:** Use two 3 Ω resistors in parallel: 1/R_eq = 1/3 + 1/3 = 2/3 → R_eq = 1.5 Ω (not 1 Ω). Use 3 Ω, 4 Ω, 6 Ω all in parallel: 1/R_eq = 1/3 + 1/4 + 1/6 = 4/12 + 3/12 + 2/12 = 9/12 = 3/4 → R_eq = 4/3 Ω ≈ 1.33 Ω. Use two 4 Ω in parallel (2 Ω) then in parallel with 6 Ω: 1/2 + 1/6 = 2/3 → 1.5 Ω. **Actual 1 Ω solution:** Three 3 Ω resistors in parallel: 1/3 + 1/3 + 1/3 = 1 → R_eq = 1 Ω. Or two 6 Ω in parallel (3 Ω) then in parallel with 3 Ω: 1/3 + 1/3 = 2/3 → 1.5 Ω (no). **Only the three 3 Ω resistors work.** A poor answer randomly guesses without calculation or uses series combinations, showing lack of systematic approach to reciprocal sums.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

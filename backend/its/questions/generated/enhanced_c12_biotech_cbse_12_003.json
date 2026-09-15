@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_003",
+   "title": "c12_biotech_cbse_12_003",
+   "questions": [
+    {
+     "q": "What are the three statutory requirements for an invention to be patentable under the Indian Patents Act, 1970?",
+     "a": "The three requirements are: (1) Novelty — the invention must not be part of the prior art anywhere in the world before the filing date; (2) Inventive step (non-obviousness) — the invention must not be obvious to a person skilled in the relevant art; (3) Industrial application — the invention must be capable of being made or used in an industry. A wrong answer that omits \"industrial application\" or confuses \"inventive step\" with \"novelty\" reveals that the student is memorising a list without understanding the distinct legal meaning of each criterion.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates a new antibiotic-producing bacterium from a soil sample. She files a patent claim on \"the bacterium *Bacillus novus* strain XYZ.\" The Patent Examiner objects under Section 3(c) of the Indian Patents Act. Explain why this objection is raised and whether the claim can be amended to overcome it.",
+     "a": "Section 3(c) excludes \"the discovery of any living thing or non-living substance occurring in nature\" from patentability. Since the bacterium was merely isolated from nature, it is a discovery, not an invention. The claim can be amended to cover a *modified* version (e.g., a genetically engineered strain with enhanced yield) or a *process* for producing the antibiotic using the strain, provided the modification involves an inventive step. A student who says \"the bacterium cannot be patented at all\" misses the possibility of claiming a non-natural, engineered variant — a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company files a patent application for a recombinant vaccine. The application claims: (1) the DNA sequence encoding the antigen; (2) the expression vector containing the sequence; (3) the host cell transformed with the vector; (4) the process of producing the vaccine; (5) the purified vaccine protein. The Patent Office grants claims 2–5 but rejects claim 1. Using Section 3(d) and 3(j), explain the likely reason for rejecting claim 1 while allowing claim 5.",
+     "a": "Claim 1 (the DNA sequence *per se*) may be rejected under Section 3(d) if it is considered a \"mere discovery of a new form of a known substance\" without enhanced efficacy, or under Section 3(j) as \"plants and animals in whole or any part thereof other than micro-organisms but including seeds, varieties and species and essentially biological processes.\" However, claim 5 (the purified vaccine protein) is a *product* resulting from human intervention (recombinant expression and purification) and demonstrates industrial application. The student must articulate that the *isolated* DNA sequence may be seen as a natural informational molecule, whereas the *expressed and purified protein* is a man-made product with therapeutic utility. A wrong answer that says \"DNA cannot be patented\" is oversimplified — cDNA or synthetic constructs with inventive modifications can be patented.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a product patent and a process patent in the context of a biotechnological invention (e.g., a monoclonal antibody). How does the burden of proof differ in an infringement suit for each type?",
+     "a": "A product patent protects the antibody molecule itself (regardless of how it is made); a process patent protects the specific method of producing it (e.g., a particular cell line, culture conditions, purification steps). In a product patent infringement suit, the patentee must show the infringing product falls within the claims — direct comparison. In a process patent suit, the patentee must prove the infringer *used the patented process*; since processes are hidden, Indian law (Section 104A) shifts the burden of proof to the defendant if the product is new or there is substantial likelihood the process was used. A student who says \"both are the same\" fails to grasp the evidentiary asymmetry that makes process patents weaker but still valuable for biologics where the product is hard to characterise fully.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"India's compulsory licensing provision (Section 84) undermines biotech innovation because it allows generic manufacturers to copy patented drugs after three years.\" Defend or critique with reference to the TRIPS Agreement and public health safeguards.",
+     "a": "The statement is a critique often made by innovator companies, but it oversimplifies. Section 84 allows compulsory licensing only after three years *if* reasonable requirements of the public are not met, the patented invention is not available at a reasonably affordable price, or the invention is not worked in India. TRIPS Article 31 permits compulsory licensing with conditions (e.g., adequate remuneration, case-by-case basis). India's use of compulsory licensing for Bayer's sorafenib (Natco case) was upheld as TRIPS-compliant. A balanced evaluation acknowledges that compulsory licensing is a *safeguard*, not a free pass, and that the Doha Declaration on TRIPS and Public Health affirms members' right to protect public health. A student who simply says \"it's bad for innovation\" or \"it's good for patients\" without referencing the legal conditions shows incomplete analytical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a patent claim strategy for a startup that has developed a CRISPR-based diagnostic kit for detecting tuberculosis. The kit includes: (a) a novel guide RNA sequence targeting a conserved region of *Mycobacterium tuberculosis*; (b) a Cas12a variant with enhanced specificity; (c) a lateral flow readout strip; (d) a method of sample preparation. List the independent claims you would file and justify each claim type (product, process, kit) in 2–3 sentences.",
+     "a": "A strong claim set would include: (1) **Product claim**: \"An isolated guide RNA sequence comprising SEQ ID NO: X\" — protects the novel gRNA as a chemical entity. (2) **Product claim**: \"A Cas12a variant having amino acid substitutions at positions Y and Z, wherein the variant exhibits at least 10-fold higher specificity than wild-type Cas12a\" — protects the engineered enzyme. (3) **Kit claim**: \"A diagnostic kit for detecting *M. tuberculosis* comprising (i) the guide RNA of claim 1, (ii) the Cas12a variant of claim 2, and (iii) a lateral flow strip\" — protects the combination as a commercial product. (4) **Process claim**: \"A method for detecting *M. tuberculosis* in a biological sample comprising: (a) lysing the sample with a chaotropic agent; (b) amplifying target DNA using recombinase polymerase amplification; (c) contacting the amplified DNA with the guide RNA and Cas12a variant of claims 1 and 2; (d) detecting cleavage of a reporter on a lateral flow strip\" — protects the diagnostic workflow. (5) **Use claim**: \"Use of the kit of claim 3 for the diagnosis of tuberculosis in a subject.\" Each claim type creates a different enforcement perimeter. A poor answer lists only one claim type or fails to justify why multiple claim categories are needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

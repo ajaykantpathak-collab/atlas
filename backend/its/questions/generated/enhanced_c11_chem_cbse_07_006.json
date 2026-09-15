@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_006",
+   "title": "c11_chem_cbse_07_006",
+   "questions": [
+    {
+     "q": "For the equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), Kc = 2.5 at 700 K. At equilibrium, [SO₂] = 0.4 M, [O₂] = 0.2 M, [SO₃] = 0.5 M. If the concentration of SO₂ is suddenly doubled to 0.8 M while keeping volume and temperature constant, what is the immediate value of Q, and in which direction will the reaction proceed to re-establish equilibrium?",
+     "a": "Q = [SO₃]²/([SO₂]²[O₂]) = (0.5)²/((0.8)² × 0.2) = 0.25/(0.64 × 0.2) = 0.25/0.128 = 1.95. Since Q (1.95) < Kc (2.5), the reaction proceeds in the forward direction (toward products) to increase Q until it equals Kc. A wrong answer (e.g., claiming Q > Kc or reverse direction) reveals the student cannot correctly apply the reaction quotient formula or compare Q with Kc to predict shift direction — a fundamental error in applying Le Chatelier's Principle quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "In the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), a student adds solid iodine crystals to the equilibrium mixture at constant volume and temperature. The student claims the equilibrium will shift to the right because \"more I₂ is added.\" Is the student correct? Explain why or why not, referencing the reaction quotient Q.",
+     "a": "The student is incorrect. Adding solid I₂ does not change the concentration (or partial pressure) of I₂ in the gas phase because pure solids have constant activity (unity) and do not appear in the Q or Kc expression. Q = [HI]²/([H₂][I₂]) — but [I₂] for solid iodine is not included. Only if I₂ is gaseous or aqueous does its concentration change. A wrong answer reveals the student misunderstands that Le Chatelier's Principle applies only to species whose concentrations appear in the equilibrium expression — a critical distinction between heterogeneous and homogeneous equilibria.",
+     "self_check": true
+    },
+    {
+     "q": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), Kc = 0.5 at 500 K. Initially at equilibrium: [N₂] = 1.0 M, [H₂] = 1.5 M, [NH₃] = 1.2 M. The volume of the container is suddenly halved (doubling all concentrations). Calculate Q immediately after the volume change and determine the shift direction. Then, set up the ICE table to find the new equilibrium concentrations.",
+     "a": "After halving volume: [N₂] = 2.0 M, [H₂] = 3.0 M, [NH₃] = 2.4 M. Q = (2.4)²/((2.0) × (3.0)³) = 5.76/(2.0 × 27) = 5.76/54 = 0.107. Since Q (0.107) < Kc (0.5), shift is forward. ICE: Initial: 2.0, 3.0, 2.4; Change: -x, -3x, +2x; Equilibrium: 2.0-x, 3.0-3x, 2.4+2x. Kc = (2.4+2x)²/((2.0-x)(3.0-3x)³) = 0.5. Solving gives x ≈ 0.28. New equilibrium: [N₂] ≈ 1.72 M, [H₂] ≈ 2.16 M, [NH₃] ≈ 2.96 M. A wrong answer (e.g., Q > Kc, or incorrect ICE stoichiometry) reveals inability to handle combined volume/concentration changes or algebraic errors in ICE tables — common in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two equilibria at the same temperature: (1) A(g) + B(g) ⇌ C(g) with Kc = 10, and (2) 2A(g) + 2B(g) ⇌ 2C(g) with Kc' = 100. For each, 1 mol A and 1 mol B are placed in a 1 L vessel. At equilibrium, 0.5 mol C is formed in both cases. Now, 1 mol of C is injected into each vessel. Compare the magnitude of the forward shift (moles of C produced additionally) in the two systems. Which system shows a larger absolute shift, and why?",
+     "a": "System (1): Initial equilibrium: [A]=0.5, [B]=0.5, [C]=0.5. After adding 1 mol C: [C]=1.5. Q = 1.5/(0.5×0.5) = 6 < 10 → forward shift. System (2): Kc' = 100. Initial equilibrium same concentrations. After adding 1 mol C: Q = (1.5)²/((0.5)²×(0.5)²) = 2.25/0.0625 = 36 < 100 → forward shift. The shift magnitude depends on how far Q is from K. For (1), ΔQ = 4; for (2), ΔQ = 64. System (2) has larger Q-K gap, so larger driving force, but stoichiometry doubles the shift per mole reacted. Actual calculation shows system (2) produces more additional C. A wrong answer (e.g., \"shifts are equal\") reveals misunderstanding that Kc magnitude and reaction stoichiometry jointly determine shift extent — not just Le Chatelier's qualitative statement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"For the equilibrium 2NO₂(g) ⇌ N₂O₄(g), if we add NO₂, the equilibrium shifts right to produce more N₂O₄. Since the forward reaction consumes 2 moles of NO₂ per mole of N₂O₄ formed, the concentration of NO₂ will decrease below its original equilibrium value.\" Evaluate this statement. Is it chemically correct? Justify using the concept of Q vs Kc.",
+     "a": "The statement is incorrect. After adding NO₂, Q < Kc, so forward reaction occurs, consuming NO₂ and producing N₂O₄. However, the new equilibrium [NO₂] will be HIGHER than the original equilibrium [NO₂] (though lower than the instantaneously increased value). Le Chatelier's Principle only guarantees the shift counteracts the change partially, not that it overcompensates. Mathematically: original Kc = [N₂O₄]/[NO₂]². After adding NO₂, new [NO₂]ₑq > original [NO₂]ₑq because Kc is constant and [N₂O₄]ₑq also increases. A wrong evaluation reveals the student thinks the system \"overcorrects\" — a classic misconception confusing shift direction with final concentration relative to original equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment using the equilibrium Co(H₂O)₆²⁺(aq) + 4Cl⁻(aq) ⇌ CoCl₄²⁻(aq) + 6H₂O(l) (pink ⇌ blue) to demonstrate Le Chatelier's Principle for concentration changes. Specify: (a) the observable change, (b) how you would disturb equilibrium by changing [Cl⁻], (c) how you would reverse the shift, and (d) why temperature must be controlled.",
+     "a": "(a) Observable: Pink solution (Co(H₂O)₆²⁺) turns blue (CoCl₄²⁻) as [Cl⁻] increases. (b) Add concentrated HCl (source of Cl⁻) to pink solution → shifts right, turns blue. (c) Dilute with water (decreases [Cl⁻]) → shifts left, turns pink again. (d) Temperature control is essential because this equilibrium is exothermic in the forward direction (pink → blue); heating would shift it left (pink), confounding the concentration effect. A poor answer (e.g., using temperature change to shift, or not explaining reversibility) reveals inability to design a controlled experiment isolating concentration as the only variable — a key practical skill for board practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

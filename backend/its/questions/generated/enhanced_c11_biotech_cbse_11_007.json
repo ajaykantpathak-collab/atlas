@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_007",
+   "title": "c11_biotech_cbse_11_007",
+   "questions": [
+    {
+     "q": "What is the mRNA sequence produced when the DNA coding strand \"ATGGCCTAA\" is transcribed using Biopython's `transcribe()` method?",
+     "a": "The mRNA sequence is \"AUGGCCUAA\". The `transcribe()` method replaces all 'T' bases with 'U' while keeping other bases unchanged. A wrong answer like \"TACCGGAUU\" reveals the student confused the coding strand with the template strand — they performed reverse complement then transcription, which is what RNA polymerase does biologically, but Biopython's `transcribe()` assumes input is the coding strand (same sequence as mRNA except T/U).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `seq.translate(table=1)` and gets a protein sequence ending with '*'. They ask: \"Why is there an asterisk at the end?\" Explain what the asterisk represents and why it appears.",
+     "a": "The asterisk (*) represents a stop codon (UAA, UAG, or UGA) in the translated protein sequence. It appears because the `translate()` method by default includes the stop codon as '*' in the output. A wrong answer like \"It indicates a sequencing error\" or \"It means the protein is incomplete\" reveals the student doesn't understand that stop codons are a normal part of translation termination and are conventionally represented as '*' in bioinformatics output.",
+     "self_check": true
+    },
+    {
+     "q": "Given the DNA sequence \"ATGAAATAG\", write the Python code using Biopython to translate it in all three forward reading frames and identify which frame produces a protein starting with 'M' (Methionine) and ending with '*' (stop codon).",
+     "a": "```python\nfrom Bio.Seq import Seq\ndna = Seq(\"ATGAAATAG\")\nfor frame in range(3):\n    protein = dna[frame:].translate(table=1)\n    print(f\"Frame {frame+1}: {protein}\")\n```\nOutput: Frame 1: MK*, Frame 2: EN, Frame 3: K*. Frame 1 is correct — it starts with M (from ATG) and ends with * (from TAG). A wrong answer identifying Frame 3 reveals the student doesn't understand that translation starts at the first codon of the frame, not at the first ATG encountered — Frame 3 starts at position 3 (GAA) giving Glu-Asn, missing the start codon entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protein sequences obtained by translating the DNA sequence \"ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG\" using `translate(table=1)` versus `translate(table=11)`. What difference would you expect and why?",
+     "a": "Table 1 is the standard genetic code; Table 11 is the bacterial/archaeal/plastid code. The only difference relevant here is that in Table 11, UGA codes for Tryptophan (W) instead of Stop (*). If the sequence contains a UGA codon (TGA in DNA), Table 1 would produce '*' while Table 11 would produce 'W'. A wrong answer saying \"no difference\" reveals the student doesn't know that genetic code variations exist and that mitochondrial/bacterial codes reassign stop codons — critical when working with organellar or prokaryotic sequences.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher has a FASTA file with 50 bacterial gene sequences. They run a script that translates each sequence in all six frames and selects the longest ORF per gene. Evaluate whether this approach will correctly identify the true protein-coding sequence for all 50 genes. Justify your answer.",
+     "a": "No, this approach will fail for genes with: (1) non-ATG start codons (GTG, TTG in bacteria), which `translate()` won't recognize as start; (2) programmed frameshifts or selenocysteine insertion (UGA recoding); (3) genes split across multiple exons (not in bacteria but relevant for eukaryotes); (4) N-terminal signal peptides cleaved post-translationally. The longest ORF heuristic works for typical bacterial genes but isn't universally reliable. A wrong answer claiming \"yes, it always works\" reveals the student oversimplifies biological complexity and doesn't know bacterial translation initiation alternatives.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python function `find_all_orfs(dna_seq, min_length=30)` that takes a Biopython Seq object and returns a list of all ORFs (as Seq objects) longer than `min_length` amino acids in all six reading frames. Each ORF must start with 'M' and end with '*'. Include handling for the reverse complement strand.",
+     "a": "```python\nfrom Bio.Seq import Seq\ndef find_all_orfs(dna_seq, min_length=30):\n    orfs = []\n    for strand, seq in [(1, dna_seq), (-1, dna_seq.reverse_complement())]:\n        for frame in range(3):\n            trans = seq[frame:].translate(table=1)\n            start = 0\n            while True:\n                start_idx = trans.find('M', start)\n                if start_idx == -1: break\n                stop_idx = trans.find('*', start_idx)\n                if stop_idx == -1: break\n                orf_protein = trans[start_idx:stop_idx+1]\n                if len(orf_protein) >= min_length:\n                    orfs.append(orf_protein)\n                start = start_idx + 1\n    return orfs\n```\nA poor answer that only checks three frames or doesn't use `reverse_complement()` reveals the student doesn't grasp that genes can be on either strand and that the reverse complement must be transcribed/translated separately.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

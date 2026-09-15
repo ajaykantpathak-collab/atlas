@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_007",
+   "title": "c11_geo_cbse_17_007",
+   "questions": [
+    {
+     "q": "State the four broad categories of physical infrastructure whose deficiency is most commonly reported in Indian villages according to Census 2011 and NFHS-5.",
+     "a": "The four categories are: (1) Transport connectivity (all-weather roads, public transport), (2) Energy access (electricity for domestic and productive use, clean cooking fuel), (3) Water and sanitation (piped water supply, household toilets, drainage), (4) Social infrastructure (primary health centres, secondary schools, anganwadis). A wrong answer that lists only \"roads and electricity\" reveals a narrow understanding that misses the multidimensional nature of rural deprivation and the link between social infrastructure and human capital formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rural out-migration in India is predominantly male-driven and seasonal/circular in the agricultural belts of Bihar and Uttar Pradesh, but increasingly female and permanent in the tribal regions of Jharkhand and Odisha.",
+     "a": "In the Indo-Gangetic plains, male seasonal migration to Punjab/Haryana/Delhi for agricultural labour or construction is driven by push factors (small landholdings, monsoon-dependent income) and pull factors (peak-season wage labour demand), while women stay back to manage subsistence farming and household — a \"circular\" pattern. In tribal regions, displacement due to mining/industrial projects, loss of forest rights, and chronic poverty push whole families into permanent migration to urban informal sectors, with women joining as domestic/construction workers. A wrong answer attributing both to \"poverty\" fails to distinguish the role of agrarian structure, social norms, and type of urban demand in shaping migration selectivity.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Maharashtra's Marathwada region has 1,200 households. Census data shows 38% households have at least one member migrated for >6 months in a year. If the average migrant sends ₹8,000/month as remittance for 8 months, calculate the total annual remittance inflow to the village. Then explain how this inflow might affect (a) agricultural labour wages and (b) fallow land extent.",
+     "a": "Step 1: Migrant households = 1,200 × 0.38 = 456. Step 2: Annual remittance per migrant household = ₹8,000 × 8 = ₹64,000. Step 3: Total annual inflow = 456 × ₹64,000 = ₹2.9184 crore. Step 4: (a) Remittances raise reservation wages, making hired labour costlier for farmers → mechanisation or crop shift to less labour-intensive crops. (b) With assured remittance income, households may lease out land or keep it fallow during risky kharif season → increase in fallow land. A wrong calculation ignoring the 8-month duration or misinterpreting the wage/fallow linkage shows inability to connect quantitative data to agrarian transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the infrastructure-migration nexus in Kerala's villages (high social infrastructure, high out-migration to Gulf) with villages in Madhya Pradesh's tribal belts (low infrastructure, distress migration to cities). Identify two structural differences in the migration outcome.",
+     "a": "Kerala: High literacy, healthcare, and pension coverage (social infrastructure) enable \"skill-based\" migration to Gulf countries — remittances fund household consumption, education, and housing, leading to \"remittance economy\" with low agricultural dependence. MP tribal belts: Absence of roads, irrigation, schools, and healthcare forces \"distress migration\" to nearby cities as unskilled construction labour — remittances barely cover subsistence, no asset creation, and village economy remains stagnant. Structural differences: (1) Migration selectivity (skilled vs unskilled) determined by human capital infrastructure, (2) Remittance utilisation (investment vs consumption) determined by financial inclusion and local investment climate. A wrong answer that says \"both migrate for money\" misses the role of infrastructure quality in shaping migration type and development feedback.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Improving rural road connectivity alone will significantly reduce rural-to-urban migration in India.\" Use evidence from the Pradhan Mantri Gram Sadak Yojana (PMGSY) impact studies.",
+     "a": "PMGSY studies show all-weather roads increase access to markets, healthcare, and non-farm jobs within the village/commute distance, reducing *distress* migration for daily wage work. However, they also lower migration costs and information barriers, facilitating *aspirational* migration for better education and salaried jobs. Migration reduction is significant only where roads are complemented by local non-farm enterprise (agro-processing, tourism) and quality schools. A wrong answer claiming roads always reduce migration ignores the \"migration facilitation\" effect and the multi-dimensionality of push factors (caste discrimination, lack of higher education, climate risk).",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level infrastructure improvement plan for a hypothetical village in Bundelkhand (UP/MP) facing water scarcity, out-migration of youth, and declining agriculture. Your plan must prioritise three interventions with justification linking each to a specific migration driver.",
+     "a": "A strong plan includes: (1) Watershed management + micro-irrigation (check dams, drip subsidies) — addresses *agricultural risk* push factor by securing kharif/rabi yields, reducing seasonal migration for farm labour. (2) Digital connectivity + skill training centre (PMKVY aligned) — addresses *employability* push factor by enabling remote work, gig economy, and local non-farm jobs for educated youth. (3) Primary health centre upgradation with telemedicine — addresses *health expenditure* push factor (catastrophic health costs drive distress migration/indebtedness). Each intervention must have a measurable indicator (irrigated area %, youth trained/placed, OOPE reduction). A poor plan lists generic \"roads, schools, hospitals\" without linking to the specific migration drivers of Bundelkhand (drought, caste-bound labour markets, lack of non-farm diversification).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

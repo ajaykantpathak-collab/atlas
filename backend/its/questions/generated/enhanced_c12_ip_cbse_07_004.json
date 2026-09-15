@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_004",
+   "title": "c12_ip_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the primary difference between signature-based detection and heuristic/behavioral analysis in antivirus software?",
+     "a": "Signature-based detection compares file code against a database of known malware fingerprints (signatures); it catches known threats but fails against new/unknown malware. Heuristic/behavioral analysis examines code structure or runs the file in a sandbox to observe actions (e.g., modifying system files, mass encryption) — it can catch zero-day threats but may produce false positives. A wrong answer (e.g., \"both use signatures\") reveals confusion between static pattern matching and dynamic behavior monitoring.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"My antivirus has a firewall built in, so I don't need a separate firewall.\" Explain why this statement is partially correct but dangerous in practice.",
+     "a": "Modern \"internet security suites\" bundle antivirus and a host-based firewall, so technically one product provides both functions. However, relying solely on a host firewall leaves gaps: it cannot protect other devices on the same LAN, cannot filter traffic before it reaches the host, and can be disabled by malware that gains admin privileges. A wrong answer (e.g., \"antivirus and firewall are the same thing\") shows the student conflates file scanning with network traffic control.",
+     "self_check": true
+    },
+    {
+     "q": "You configure a firewall rule: \"Block inbound TCP port 3389 from any source to 192.168.1.50\". A colleague working from home cannot RDP into their office PC (192.168.1.50). They connect via VPN which assigns them IP 10.8.0.15. Why does the rule block them, and how would you modify it to allow VPN users only?",
+     "a": "The rule blocks *all* inbound traffic to port 3389 (RDP) regardless of source. VPN traffic arrives with source IP 10.8.0.15, which matches \"any source\", so it is blocked. To allow only VPN users, change the source to the VPN subnet (e.g., 10.8.0.0/24) or create a higher-priority allow rule for 10.8.0.0/24 before the block rule. A wrong answer (e.g., \"open port 3389 for everyone\") exposes the network to brute-force attacks — a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare stateful inspection firewall vs. packet-filtering (stateless) firewall in handling a TCP three-way handshake. Which provides better protection against TCP SYN flood attacks and why?",
+     "a": "A stateless firewall examines each packet independently (source/dest IP, port, flags) and would allow SYN, SYN-ACK, ACK packets if they match allow rules, making it vulnerable to SYN floods (half-open connections exhaust resources). A stateful firewall tracks connection state (SYN sent → SYN-ACK received → ESTABLISHED) and can enforce rate limits on half-open connections, dropping excess SYN packets. The student who says \"both allow the handshake\" misses the state-tracking capability that enables DoS mitigation.",
+     "self_check": true
+    },
+    {
+     "q": "Your organization's antivirus quarantined a legitimate accounting script because it uses `CryptEncrypt` API (also used by ransomware). The IT head wants to disable heuristic scanning to avoid false positives. Evaluate this decision and propose a better alternative.",
+     "a": "Disabling heuristics removes a critical layer against zero-day malware; ransomware often uses legitimate encryption APIs. Better: create an exclusion rule for the specific script's hash/path *and* submit the file to the vendor for whitelist analysis. Alternatively, use application control (allowlist) for approved scripts while keeping heuristics active for unknown files. A wrong answer (\"disable heuristics\") shows inability to balance usability and security — a key competency in board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a layered defense strategy for a small Indian business (10 PCs, one server, broadband router) that uses both antivirus and firewall at network and host levels. Specify: (a) where each component sits, (b) one critical rule for the network firewall, (c) one critical setting for host antivirus, (d) how they complement each other against a USB-delivered worm.",
+     "a": "(a) Network firewall: on the broadband router (edge); host firewall + antivirus on each PC and server. (b) Network firewall: block all inbound except VPN (port 1194 UDP) to server; allow outbound only on ports 80, 443, 53, 1194. (c) Host antivirus: enable real-time scanning + USB auto-scan on insertion. (d) USB worm: network firewall cannot see it (no network traffic); host antivirus scans USB on mount, detects/quarantines via signatures/heuristics; host firewall blocks worm's attempt to spread via SMB (port 445) to other PCs. A poor answer omits USB scanning or relies only on network firewall.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

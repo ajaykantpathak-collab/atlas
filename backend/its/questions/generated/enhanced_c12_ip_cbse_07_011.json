@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_011",
+   "title": "c12_ip_cbse_07_011",
+   "questions": [
+    {
+     "q": "What is the default audience setting for new posts on a freshly created Facebook account for a user aged 17 in India as of 2024?",
+     "a": "The default audience for new posts on a new Facebook account for a minor (13‑17) in India is \"Friends\". A wrong answer (e.g., \"Public\" or \"Only Me\") reveals the student assumes defaults are uniform across ages/regions or hasn't checked Meta's current teen‑safety defaults, which are stricter for minors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why enabling \"Two‑Factor Authentication\" (2FA) on Instagram does not prevent your followers from seeing your email address if it is listed in your bio.",
+     "a": "2FA protects **account access** (login), not **data visibility**. The email in the bio is voluntarily shared public content; privacy controls for profile fields (Edit Profile → Personal Information Settings) govern its visibility. A wrong answer conflates authentication security with information‑disclosure controls — a critical confusion between \"who can log in as me\" and \"who can see my data\".",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to share a Reel only with cousins in a WhatsApp group but not with school friends on Instagram. They post the Reel on Instagram with audience \"Close Friends\" and add all cousins + some school friends to that list. Then they share the Reel's link in the WhatsApp group. Can the school friends on Instagram view the Reel? Can the cousins in WhatsApp view it without an Instagram account?",
+     "a": "School friends on Instagram **cannot** view the Reel because they are not on the Close Friends list. Cousins in WhatsApp **cannot** view it without an Instagram account because the link redirects to Instagram, which enforces the \"Close Friends\" audience restriction — the link alone does not bypass platform‑level privacy. A wrong answer (e.g., \"yes, the link makes it public\") shows misunderstanding that sharing a link ≠ changing the object's access control list.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the privacy risks of \"Live Location\" sharing on WhatsApp (shared with a group for 8 hours) vs. \"Add Location\" tag on a public Instagram post. Which exposes more granular, persistent, and searchable location history? Justify.",
+     "a": "The Instagram \"Add Location\" tag on a **public** post is riskier: it attaches a permanent, searchable, geotagged metadata to content that remains discoverable via location search pages indefinitely. WhatsApp Live Location is ephemeral (expires after chosen duration), shared only with selected recipients, and not indexed publicly. A wrong answer that equates them ignores persistence, searchability, and audience scope — key dimensions of location‑privacy risk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If I delete a photo from my Instagram profile, it is permanently erased from the internet and no one can ever access it.\"",
+     "a": "The statement is **false**. Deletion removes the photo from your profile and Instagram's primary serving infrastructure, but: (1) Cached copies may exist in CDNs, browser caches, or the Internet Archive; (2) Anyone who screenshotted/shared it before deletion retains a copy; (3) Instagram retains data for up to 90 days in backup systems per their Data Policy. A wrong evaluation shows lack of understanding of data replication, caching, and the difference between \"user‑visible deletion\" and \"cryptographic erasure\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5‑step \"Monthly Privacy Audit Checklist\" for a Class 12 student who uses Instagram, WhatsApp, and Snapchat. Each step must be a concrete action (not vague advice) and address a distinct risk category (audience, location, third‑party apps, profile data, account security).",
+     "a": "A strong answer includes five specific, verifiable actions, e.g.:\n1. **Audience**: On Instagram, go to Settings → Privacy → Posts → \"Hide Story From\" and \"Close Friends\" list → remove anyone no longer trusted.\n2. **Location**: On Snapchat, open Snap Map → ensure \"Ghost Mode\" is ON; on WhatsApp, check Settings → Privacy → Live Location → stop any active shares.\n3. **Third‑party apps**: On Instagram, go to Settings → Security → Apps and Websites → remove unused/unknown apps; on Facebook (linked), check Settings → Apps and Websites.\n4. **Profile data**: On WhatsApp, Settings → Privacy → About / Profile Photo / Last Seen → set to \"My Contacts\" or \"My Contacts Except…\".\n5. **Account security**: On all three, verify 2FA is enabled (Instagram: Settings → Security → Two‑Factor Auth; WhatsApp: Settings → Account → Two‑step verification; Snapchat: Settings → Two‑Factor Authentication).\nA weak answer gives generic advice like \"check settings\" without navigation paths or distinct risk categories.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

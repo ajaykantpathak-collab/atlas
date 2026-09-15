@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_007",
+   "title": "c11_bio_cbse_11_007",
+   "questions": [
+    {
+     "q": "State Blackman's Law of Limiting Factors and identify which factor would limit photosynthesis in a well-watered C3 plant at 10% full sunlight, 35°C, and ambient CO₂ (0.04%).",
+     "a": "Blackman's Law: When multiple factors affect a process, the rate is determined by the factor nearest its minimal value. At 10% full sunlight, light intensity is the limiting factor because light saturation occurs at ~10% of full sunlight for C3 plants; at this low light, increasing CO₂ or temperature won't increase the rate. A wrong answer (e.g., naming CO₂ or temperature) reveals the student doesn't understand that light saturation threshold is low and that the law identifies the factor furthest from its optimum, not just any sub-optimal factor.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why increasing CO₂ concentration from 0.04% to 0.05% boosts photosynthesis in C3 plants but has little effect on C4 plants at high light intensity, referencing the CO₂ compensation point and RuBisCO kinetics.",
+     "a": "C3 plants have a higher CO₂ compensation point (30-70 µL L⁻¹) because RuBisCO's oxygenase activity is significant at ambient CO₂; raising CO₂ suppresses photorespiration and increases carboxylation. C4 plants concentrate CO₂ in bundle sheath cells (via PEP carboxylase), saturating RuBisCO even at ambient CO₂, so their compensation point is near zero (0-10 µL L⁻¹); extra CO₂ provides no benefit. A wrong answer indicates confusion between CO₂ fixation mechanisms and failure to link RuBisCO's dual affinity to the law of limiting factors.",
+     "self_check": true
+    },
+    {
+     "q": "A greenhouse tomato grower maintains 0.05% CO₂, 25°C, and optimal watering. At noon, light intensity is 1200 µmol m⁻² s⁻¹ (full sun). The photosynthesis rate plateaus. The grower installs supplemental LED lighting increasing intensity to 1800 µmol m⁻² s⁻¹. Predict the effect on photosynthesis rate and justify using the law of limiting factors.",
+     "a": "No increase in photosynthesis rate. At 1200 µmol m⁻² s⁻¹, light is already saturating (well above 10% full sunlight ≈ 200 µmol m⁻² s⁻¹); the limiting factor has shifted to CO₂ (even at 0.05%) or temperature (25°C is near optimum for C3 tomato). Increasing light further cannot raise the rate because another factor is now minimal. A wrong prediction (rate increases) shows the student treats factors additively rather than understanding the sequential bottleneck concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the temperature response curves of photosynthesis for a C3 plant (wheat) and a C4 plant (maize) from 10°C to 45°C. Explain the physiological basis for the difference in optimum temperatures and the steeper decline in C3 plants above 35°C.",
+     "a": "C3 optimum: 20-25°C; C4 optimum: 30-40°C. C4 plants have higher temperature optimum because: (1) PEP carboxylase has higher affinity for CO₂ and no oxygenase activity, so photorespiration doesn't increase with temperature; (2) CO₂ concentrating mechanism maintains high CO₂/O₂ ratio in bundle sheath cells even when stomata partially close at high temperatures; (3) C4 enzymes (PEPcase, pyruvate phosphate dikinase) are more thermostable. C3 plants show steep decline above 35°C due to exponential rise in RuBisCO oxygenase activity (photorespiration) and stomatal closure reducing CO₂ influx. A poor comparison misses the enzyme kinetics and photorespiration link.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Water is rarely a direct limiting factor for photosynthesis because it is a reactant in the light reaction; its main effect is indirect through stomatal closure.\" Use the concept of limiting factors and the distinction between reactant availability and regulatory effects.",
+     "a": "The statement is correct. Water as a reactant in light reaction (2H₂O → O₂ + 4H⁺ + 4e⁻) is required in tiny amounts relative to leaf water content; even severe water stress leaves sufficient water for photolysis. The limiting effect occurs because water stress → ABA accumulation → stomatal closure → reduced CO₂ diffusion → CO₂ becomes limiting. This exemplifies Blackman's law: the direct factor (water) isn't limiting; the indirect consequence (CO₂ shortage) is. An incorrect evaluation treats water as a direct substrate limitation like CO₂, ignoring the orders-of-magnitude difference in required quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using leaf discs (spinach) and bicarbonate solution to demonstrate that CO₂ is limiting at high light intensity but not at low light intensity. Specify the independent variable, dependent variable, controlled variables, and the expected graph pattern.",
+     "a": "Independent: Light intensity (two levels: low 50 µmol m⁻² s⁻¹, high 500 µmol m⁻² s⁻¹). Dependent: Time for leaf discs to float (proxy for O₂ evolution rate). Controlled: 0.2% NaHCO₃ (saturating CO₂), temperature 25°C, leaf disc size, bicarbonate infiltration method. Expected: At low light, both low and high CO₂ (if tested) give similar float times (light limiting); at high light, low CO₂ (ambient air-equilibrated water) shows much slower floating than high CO₂ (0.2% NaHCO₃). A poor design fails to include both light levels or doesn't control temperature, missing the interaction central to the law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

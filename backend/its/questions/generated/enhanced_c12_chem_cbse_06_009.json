@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_009",
+   "title": "c12_chem_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the hybridisation of the carbon atom bearing the halogen in chlorobenzene and in 2-chloropropane. How does this difference affect C–Cl bond length and bond strength?",
+     "a": "In chlorobenzene, the carbon is sp²-hybridised; in 2-chloropropane, it is sp³-hybridised. The sp² carbon has 33% s-character vs 25% in sp³, making it more electronegative and holding the C–Cl bond electrons more tightly. Consequently, the C–Cl bond in chlorobenzene is shorter (169 pm) and stronger than in 2-chloropropane (177 pm), making cleavage harder. A wrong answer (e.g., both sp³) reveals the student has not internalised the hybridisation difference between aryl and alkyl halides — a prerequisite for understanding reactivity trends.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the resonance structures of chlorobenzene that show the C–Cl bond acquiring partial double-bond character. Use these to explain why the C–Cl bond in chlorobenzene is stronger than in chloroethane.",
+     "a": "Three resonance structures place a positive charge on the halogen and a double bond between ring carbon and chlorine. This delocalisation gives the C–Cl bond partial double-bond character, shortening and strengthening it. In chloroethane, no such resonance exists; the C–Cl bond is a pure σ-bond. A student who draws resonance but claims it weakens the bond confuses electron donation with bond order — they must recognise that π-contribution increases bond order from 1 to ~1.3, raising bond dissociation energy.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major product when p-chloronitrobenzene is treated with aqueous NaOH at 623 K and 300 atm. Write the mechanism showing the Meisenheimer intermediate. Why does the nitro group at para position accelerate the reaction but a meta-nitro group does not?",
+     "a": "Major product: p-nitrophenol. Mechanism: OH⁻ attacks the carbon bearing Cl, forming a resonance-stabilised anionic σ-complex (Meisenheimer complex) where the negative charge is delocalised onto the ortho/para positions — including the carbon bearing –NO₂. The –NO₂ group stabilises this charge via –R effect. At meta position, none of the resonance structures place negative charge on the carbon bearing –NO₂, so no stabilisation occurs. A student who says \"meta also works\" has not drawn the resonance structures of the intermediate — a critical visualisation skill for JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactivity of chlorobenzene and benzyl chloride (C₆H₅CH₂Cl) towards SN1 and SN2 reactions. Explain the role of the phenyl group in each case.",
+     "a": "Benzyl chloride: primary benzylic halide. SN2 — phenyl group slightly hinders backside attack but less than alkyl groups; SN1 — forms resonance-stabilised benzylic carbocation (charge delocalised into ring), so SN1 is fast. Chlorobenzene: SN2 — backside attack blocked by ring π-cloud and sp² carbon geometry; SN1 — phenyl cation (C⁺ on ring) is not resonance-stabilised (positive charge on sp² carbon cannot delocalise into π-system), so SN1 is impossible. A student claiming chlorobenzene undergoes SN1 because \"phenyl cation is stable\" confuses benzylic and aryl cations — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Chlorobenzene undergoes nitration faster than benzene because –Cl is an electron-donating group by resonance.\" Evaluate this statement. Is it correct, partially correct, or incorrect? Justify with reference to inductive and resonance effects.",
+     "a": "The statement is incorrect. Chlorobenzene nitrates slower than benzene (deactivated). –Cl has –I effect (electron-withdrawing) stronger than its +R effect (electron-donating). Net effect: electron withdrawal, ring deactivation. However, +R effect dominates at ortho/para positions, making –Cl o/p-directing. The student incorrectly assumes resonance donation outweighs inductive withdrawal for overall reactivity. This confusion between \"directing influence\" and \"activating/deactivating nature\" is a frequent NEET error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert bromobenzene to biphenyl using only sodium metal and dry ether. Write balanced equations for both steps and name the reaction. What would be the product if you used a mixture of bromobenzene and 1-bromopropane instead?",
+     "a": "Step 1: 2 C₆H₅Br + 2 Na → C₆H₅–C₆H₅ + 2 NaBr (Fittig reaction). Step 2: Not needed — biphenyl forms directly. With PhBr + CH₃CH₂CH₂Br + 2 Na: mixture gives three products — biphenyl (Fittig), n-hexane (Wurtz), and propylbenzene (Wurtz-Fittig). A student who writes only biphenyl misses the statistical mixture — a competitive exam trap testing understanding that all possible radical couplings occur.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

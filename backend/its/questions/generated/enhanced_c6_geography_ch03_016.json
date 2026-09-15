@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch03_016",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch03_016",
+   "title": "c6_geography_ch03_016",
+   "questions": [
+    {
+     "q": "What does the word \"monsoon\" mean, and where does it come from?",
+     "a": "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself.",
+     "self_check": true
+    },
+    {
+     "q": "During the summer months, why does wind flow from the Indian Ocean toward the Indian landmass?",
+     "a": "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea. A wrong answer suggests the student doesn't understand that temperature differences cause pressure changes, which dictate wind direction.",
+     "self_check": true
+    },
+    {
+     "q": "If 75% of India's annual rainfall happens between June and September, what would likely happen to farming if the wind direction did not reverse?",
+     "a": "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land. 3. Conclude that agriculture would fail or suffer from severe drought. A wrong answer suggests the student thinks rain happens randomly rather than due to this specific wind pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the summer monsoon to a giant \"delivery system.\" What is it delivering, and why is it essential?",
+     "a": "It delivers moisture/water from the ocean to the land, which is essential for filling reservoirs and growing crops. If a student ignores the \"delivery\" aspect, they likely view the monsoon as just a static event rather than a dynamic process.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to say the monsoon is just a rainy season? Why or why not?",
+     "a": "No, it is a seasonal reversal of winds; the rain is simply the result of that wind shift. Just calling it \"rainy season\" ignores the physical mechanism (the wind shift) that actually drives the climate.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to design a poster explaining the monsoon to a younger student, what two images would you draw to represent the \"before\" and \"after\" of the land-sea pressure difference?",
+     "a": "The poster should show a sun heating the land (low pressure) and arrows indicating air moving from the high-pressure ocean to the low-pressure land. A poor answer would just show clouds and rain, failing to explain *why* the air moves in that direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

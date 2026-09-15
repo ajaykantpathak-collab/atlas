@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_011",
+   "title": "c11_hist_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the sexagesimal value recorded on c. 1800 BCE tablets for the square root of 2, and how accurate is it compared to the modern value?",
+     "a": "The tablets give √2 as 1 + 24/60 + 51/60² + 10/60³ = 1.41421296, which differs from the true value 1.41421356 by only 0.0000006. A wrong answer (e.g., \"they used √2 = 1.41\") reveals the student misses the sophistication of Mesopotamian place-value notation and assumes they only used approximations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the textbook argue that \"science requires written texts that generations of scholars can read and build upon,\" contrasting this with oral transmission of narratives?",
+     "a": "Oral transmission preserves stories but cannot reliably preserve exact numerical data, complex calculations, or astronomical observations across generations without distortion. Writing allows fixed, verifiable records that later scholars can check, correct, and extend—essential for mathematics and astronomy. A wrong answer focusing only on \"writing preserves history\" misses the specific epistemic requirement of *cumulative, verifiable accuracy* in scientific fields.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The 60-minute hour came from the Greeks because they invented geometry.\" Using evidence from the chapter, explain why this is incorrect and trace the actual transmission route.",
+     "a": "The sexagesimal system (base-60) originated in Mesopotamia c. 1800 BCE for mathematics and astronomy. It passed to the Hellenistic world after Alexander's conquest (331 BCE), then to the Roman world, then to the Islamic world, and finally to medieval Europe. The Greeks adopted and refined it; they did not invent it. A wrong answer shows the student conflates Greek geometry with the earlier Mesopotamian arithmetic foundation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Assurbanipal's library (7th century BCE) and Nabonidus's antiquarian activities (6th century BCE). What do they reveal about Mesopotamian attitudes toward their own past?",
+     "a": "Assurbanipal systematically collected, copied, catalogued, and preserved tablets from earlier periods (including 2000 BCE texts), showing a state-sponsored scholarly tradition valuing textual continuity. Nabonidus excavated ancient inscriptions to restore forgotten rituals, showing a historical consciousness that used material evidence to legitimise present rule. Together they reveal a culture that actively curated its intellectual heritage. A wrong answer treating them as \"just kings collecting old things\" misses the methodological sophistication—cataloguing, collation, and stratigraphic observation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Mesopotamian urban schools were the world's first research institutions.\" Support your judgment with evidence from the chapter.",
+     "a": "The claim is largely valid. Schools trained scribes not only for administration but also as intellectuals who copied, studied, and extended earlier tablets (e.g., mathematical problem texts, lexical lists, bilingual Sumerian-Akkadian dictionaries). The curriculum included advanced mathematics (compound interest, square roots) and astronomy—fields requiring building on predecessors' work. However, \"research\" in the modern sense of hypothesis-driven inquiry is anachronistic; it was more textual scholarship and problem-solving. A weak answer either overstates (calling them \"universities\") or understates (calling them \"clerical training\").",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the transmission of Mesopotamian time-reckoning (12 months, 24 hours, 60 minutes) from c. 1800 BCE to its adoption in medieval Europe. Include at least four civilisational waypoints.",
+     "a": "A strong answer includes: (1) Old Babylonian period (c. 1800 BCE) – sexagesimal astronomy/math tablets; (2) Achaemenid/Hellenistic period (post-331 BCE) – transmission to Greek astronomy (Hipparchus, Ptolemy); (3) Roman Empire – adoption of 12-month Julian calendar and 24-hour day; (4) Islamic Golden Age (8th–12th c. CE) – preservation and refinement (al-Biruni, al-Khwarizmi); (5) Medieval Europe (12th–13th c. CE) – recovery via Arabic translations in Toledo/Sicily. Missing waypoints or incorrect sequence (e.g., skipping Islamic mediation) reveals gaps in understanding transmission mechanics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

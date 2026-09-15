@@ -1,0 +1,190 @@
+{
+ "catalog": "catalog_class7_maths_ch9_perimeter_area.json",
+ "concepts": [
+  {
+   "id": "c7m9.1.1",
+   "title": "Area of a Parallelogram",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 11 cm and height 19 cm.",
+     "a": "209",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 4 cm and 20 cm. Find its area.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 18 cm and 21 cm and the distance between them is 8 cm. Find the area.",
+     "a": "156",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 16 cm and the perpendiculars on it from opposite vertices are 8 cm and 6 cm. Find the area.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 20 cm and height 6 cm. Find the parallelogram's height if its base is 10 cm.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 8 m and height 12 m. Find its area.",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m9.2.1",
+   "title": "Area of a Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 22 cm by 14 cm.",
+     "a": "308",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 21 m.",
+     "a": "441",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 15 m garden has a 11 m x 11 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 8 cm. Find its breadth.",
+     "a": "4.5",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 18 m x 19 m floor.",
+     "a": "5130",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 2 m (square tiles) fit in a 10 m x 8 m hall?",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.1",
+   "title": "Circumference of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 63 cm. Find its circumference (pi = 22/7).",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 14 cm (pi = 22/7).",
+     "a": "616",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 35 cm and 70 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "11550",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 60 degrees at the centre of a circle of radius 77 cm (pi = 22/7).",
+     "a": "80.6667",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 63 cm (pi = 22/7).",
+     "a": "1039.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.2",
+   "title": "Area of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 5 cm by 16 cm.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 25 m.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 11 m garden has a 11 m x 7 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 84 sq cm and length 10 cm. Find its breadth.",
+     "a": "8.4",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 8 per square metre. Find the cost of tiling a 8 m x 18 m floor.",
+     "a": "1152",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 2 m (square tiles) fit in a 14 m x 8 m hall?",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.3",
+   "title": "Applications of Perimeter and Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 39 m long and 4 m wide. Find its perimeter.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 23 cm.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 6 cm, 13 cm and 8 cm.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 5 cm. What is its perimeter?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 12 sides, each 12 cm long. Find its perimeter.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 3 rounds around a square field of side 18 m. How many metres does she cover?",
+     "a": "216",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

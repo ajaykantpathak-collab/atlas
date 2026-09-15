@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_001",
+   "title": "c11_hs_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define financial management in the context of a family. How does it differ from simply \"spending money wisely\"?",
+     "a": "Financial management is the systematic process of planning, controlling, and evaluating the use of all types of family income (money, real, and psychic) to achieve maximum satisfaction of family goals. It differs from \"spending wisely\" because it is proactive (planning before spending), systematic (covers all income types, not just money), and cyclical (includes control and evaluation to adjust future plans). A wrong answer that equates it to \"not wasting money\" or \"saving more\" reveals the misconception that financial management is only about restraint or savings, ignoring the planning-evaluation cycle and the inclusion of real/psychic income.",
+     "self_check": true
+    },
+    {
+     "q": "A family grows vegetables in their kitchen garden and the mother stitches clothes for the children. The father earns ₹40,000 monthly salary. Classify each income source as money income, direct real income, or indirect real income. Explain why psychic income cannot be quantified in rupees.",
+     "a": "Father's salary: money income. Kitchen garden vegetables: direct real income (goods available without money exchange). Mother's stitching service: direct real income (service rendered without money). Psychic income is the satisfaction derived from using these goods/services—it is subjective, intangible, and varies by individual perception (e.g., the joy of eating home-grown food vs. buying it), so it cannot be objectively measured in rupees. A wrong answer classifying stitching as \"indirect real income\" reveals confusion: indirect real income requires money as an intermediary (e.g., using salary to buy vegetables), whereas direct real income bypasses money entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A family's monthly money income is ₹60,000. Their estimated expenses: Food ₹18,000, Housing ₹12,000, Education ₹10,000, Transport ₹5,000, Medical ₹3,000, Miscellaneous ₹7,000. They want to save ₹10,000. Using the five steps of budget-making, show whether this budget balances. If not, propose two specific adjustments following Step (iv) principles.",
+     "a": "Step (i): Categories listed. Step (ii): Total estimated expenses = ₹18,000+₹12,000+₹10,000+₹5,000+₹3,000+₹7,000 = ₹55,000. Step (iii): Total expected income = ₹60,000 (assured). Step (iv): Income (₹60,000) – Expenses (₹55,000) = ₹5,000 surplus, but desired savings is ₹10,000. Deficit of ₹5,000 for savings goal. Adjustments: (a) Reduce miscellaneous from ₹7,000 to ₹4,000 (cut recreation), (b) Reduce food from ₹18,000 to ₹15,000 (limit eating out). New expenses = ₹50,000, allowing ₹10,000 savings. Step (v): Check—needs met, emergency fund possible, solvency assured. A wrong answer that simply says \"increase income\" without specific expense-cutting examples shows failure to apply Step (iv)'s two-way balancing principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the purpose of \"mental checks\" versus \"mechanical checks\" in the control phase of money management. Give a concrete example where a mental check would fail but a mechanical check would succeed.",
+     "a": "Mental checks involve visualising how far an allocated amount must stretch across specific items (e.g., realising ₹1,000 must cover shoes, dress, and books). Mechanical checks involve physically separating cash (e.g., a food envelope). Mental checks fail when self-discipline is low or expenses are frequent/small (e.g., daily snack purchases erode the food budget unnoticed). Mechanical checks succeed here because the emptying envelope gives immediate, tangible feedback. A wrong answer stating \"mental checks are for small amounts, mechanical for large\" reverses the logic—mechanical checks are precisely for frequent small expenditures where mental tracking fails.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A family with high money income but low real income (few home-produced goods/services) has a lower quality of living than a family with moderate money income but high real and psychic income.\" Defend your position using the three income types.",
+     "a": "The statement is largely defensible. Quality of living depends on total satisfaction (psychic income), which derives from real income (goods/services consumed). A high-money-income family buying everything may have low psychic income if purchases are stressful, low-quality, or time-pressured. A moderate-income family with kitchen garden (direct real income), skilled home cooking (direct real service), and strong family bonds (high psychic income from shared meals) may experience greater satisfaction. However, \"lower quality\" is not absolute—money income buys healthcare, education, security that real income cannot replace. A balanced view: money income enables access to essential market goods; real and psychic income enhance daily well-being. A wrong answer focusing only on money income reveals the misconception that financial well-being equals monetary wealth, ignoring the textbook's emphasis on psychic income as \"most important in terms of quality of living.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel scenario: A three-generation family (grandparents, parents, two children) where the grandparents contribute pension (money income), childcare (direct real income), and emotional support (psychic income). The parents earn salaries. The children receive pocket money. Map ALL income flows by type for each member. Then design a single budget category that captures the grandparents' non-monetary contributions so the family can \"see\" their value in the budget.",
+     "a": "Grandparents: Pension → money income; Childcare/cooking → direct real income; Emotional support → psychic income. Parents: Salaries → money income; Household management → direct real income. Children: Pocket money → money income; Errands/help → direct real income. Novel budget category: \"Family Care Contributions (Imputed Value)\" with sub-heads: Childcare (₹8,000/month market rate), Meal Preparation (₹4,000), Emotional Support (not quantified, noted qualitatively). This makes invisible contributions visible for planning. A poor answer that only lists money incomes or omits the imputed-value category shows inability to operationalise real income in a budget framework—the core skill of financial planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

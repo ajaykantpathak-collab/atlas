@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_008",
+   "title": "c12_bs_cbse_10_008",
+   "questions": [
+    {
+     "q": "What is the primary function of a Depository Participant (DP) in the Indian depository system?",
+     "a": "A Depository Participant (DP) acts as an agent of the depository (NSDL or CDSL) and provides the interface for investors to open Demat accounts, dematerialise/rematerialise securities, and execute settlement instructions. A wrong answer (e.g., \"DP is the depository itself\" or \"DP executes trades on the stock exchange\") reveals confusion between the depository (NSDL/CDSL), the DP (intermediary like a bank/broker), and the stock broker (trading member).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an investor cannot directly approach NSDL or CDSL to open a Demat account.",
+     "a": "NSDL and CDSL are the central depositories that maintain the electronic records of securities; they operate through a network of registered Depository Participants (DPs) — banks, brokers, custodians — who act as their agents. Investors must open Demat accounts with a DP, not directly with the depository. A wrong answer (e.g., \"because NSDL/CDSL are government bodies\" or \"because DPs charge lower fees\") shows misunderstanding of the depository-DP-investor hierarchy and the regulatory requirement that depositories interface with investors only through DPs.",
+     "self_check": true
+    },
+    {
+     "q": "An investor holds 500 physical shares of XYZ Ltd. She submits the certificates and a Dematerialisation Request Form (DRF) to her DP. List the correct sequence of the next four steps until the shares are credited to her Demat account.",
+     "a": "Step 1: DP verifies the DRF and certificates, then forwards them to the Registrar & Transfer Agent (RTA) of XYZ Ltd. Step 2: RTA verifies the certificates with the company's records and confirms validity. Step 3: RTA communicates confirmation to the depository (NSDL/CDSL). Step 4: Depository credits the equivalent electronic securities to the investor's Demat account via the DP. A wrong sequence (e.g., DP credits directly, or depository contacts company) reveals gaps in understanding the verification chain and the roles of RTA vs. depository.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Demat account vs. Trading account vs. Bank account. Which account is debited/credited when you buy shares on the NSE?",
+     "a": "- Demat account: holds securities (electronic storage). Credited on purchase, debited on sale.\n- Trading account: interface to place buy/sell orders on the exchange. No holding of securities or funds.\n- Bank account: holds funds. Debited for purchase payment, credited on sale proceeds.\nOn buying shares: Trading account executes order → Bank account debited (funds) → Demat account credited (securities) on T+1 settlement. A wrong mapping (e.g., \"trading account holds shares\" or \"bank account receives shares\") indicates confusion about the three-account linkage essential for the settlement cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dematerialisation has eliminated all risks associated with holding securities.\" Support your answer with two specific risks that remain in the electronic holding system.",
+     "a": "The statement is false. Dematerialisation eliminates *physical* risks (theft, loss, mutilation, forgery, bad delivery, fake certificates). However, electronic risks remain: (1) Cybersecurity risk — unauthorised access/hacking of DP systems or investor credentials leading to fraudulent transfers. (2) Operational/technical risk — system failures, data corruption, or erroneous credits/debits due to software bugs. A student who agrees with the statement or lists only physical risks fails to appreciate that digitisation shifts risk rather than eliminating it entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart (text-based) showing the complete lifecycle of a share from physical certificate to electronic holding and back to physical (rematerialisation), labeling the role of each entity: Investor, DP, RTA, Depository, Company.",
+     "a": "**Dematerialisation:** Investor → (submits DRF + certificates) → DP → (forwards) → RTA → (verifies & confirms) → Depository → (credits) → Investor's Demat account (via DP).\n**Rematerialisation:** Investor → (submits Remat Request Form) → DP → (forwards) → Depository → (confirms & instructs) → RTA → (prints certificates & updates register) → Company → (dispatches certificates) → Investor.\nA poor answer omits RTA, reverses the direction, or merges DP and Depository, showing lack of clarity on the distinct roles in the two opposing processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

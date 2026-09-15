@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_08_001",
+   "title": "c12_math_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the formula for the area bounded by the curve y = f(x), the x-axis, and the ordinates x = a and x = b (with b > a), assuming f(x) ≥ 0 on [a, b].",
+     "a": "The area is given by A = ∫_a^b f(x) dx. A wrong answer such as A = ∫_a^b f'(x) dx or A = f(b) - f(a) reveals confusion between integration and differentiation, or between definite integral and the Fundamental Theorem of Calculus evaluation step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the area under the curve y = f(x) from x = a to x = b is given by the limit of the sum of areas of vertical strips as the strip width tends to zero. What does each term f(x_i) Δx represent?",
+     "a": "Each term f(x_i) Δx is the area of a thin rectangle of height f(x_i) and width Δx that approximates the area under the curve over a small subinterval. As Δx → 0, the sum of these rectangles approaches the exact area because the rectangles better approximate the curved region. A student who says \"it's just the formula\" or confuses f(x_i) with the derivative shows they have not connected the Riemann sum to the geometric meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area under the curve y = 2x + 1 from x = 0 to x = 4. Show all steps.",
+     "a": "A = ∫_0^4 (2x + 1) dx = [x^2 + x]_0^4 = (16 + 4) - (0 + 0) = 20 square units. A common error is forgetting to integrate and just substituting endpoints: 2(4)+1 - (2(0)+1) = 9 - 1 = 8, which is the change in y, not the area. Another error is integrating incorrectly as x^2 + x + C and then not evaluating the definite integral properly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area formulas for vertical strips (A = ∫_a^b f(x) dx) and horizontal strips (A = ∫_c^d g(y) dy). For the curve x = y^2 from y = 0 to y = 2, which formula would you use and why?",
+     "a": "Since the curve is given as x = g(y) = y^2 and the bounds are on y, it is natural to use horizontal strips: A = ∫_0^2 y^2 dy = [y^3/3]_0^2 = 8/3. Using vertical strips would require solving for y = √x and integrating from x=0 to x=4, which is also possible but less direct. A student who insists on always using vertical strips may not recognize that the choice of variable of integration should match the given function and bounds.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the area under y = sin x from x = 0 to x = 2π as ∫_0^{2π} sin x dx = 0 and concludes the area is 0. Is this correct? Explain.",
+     "a": "The integral is zero because the positive area from 0 to π cancels the negative area from π to 2π. The geometric area is |∫_0^π sin x dx| + |∫_π^{2π} sin x dx| = 2 + 2 = 4. The student's error is ignoring the sign convention: area is always non-negative, so we must take absolute value of the integral over intervals where the curve is below the axis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires finding the area under a simple curve using integration. Specify the curve, bounds, and what the area represents.",
+     "a": "Example: A farmer's irrigation channel has a cross-section shaped like y = 4 - x^2 from x = -2 to x = 2 (in metres). Find the cross-sectional area to estimate water flow. The area is ∫_{-2}^2 (4 - x^2) dx = [4x - x^3/3]_{-2}^2 = (8 - 8/3) - (-8 + 8/3) = 32/3 m². A good answer includes a clear scenario, correct function, bounds, and interpretation. A poor answer might use a linear function (trivial) or forget units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

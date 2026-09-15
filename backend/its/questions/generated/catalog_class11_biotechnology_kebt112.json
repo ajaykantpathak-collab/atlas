@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt112",
+ "concepts": [
+  {
+   "id": "kebt112.1",
+   "title": "Microscope Magnification and Its Many Forms",
+   "questions": [
+    {
+     "q": "Using the method 'Microscope Magnification and Its Many Forms', work with: eyepiece_mag = 240, objective_mag = 60, real_size = 1024. Carry the chain through step by step and give the final value of apparent_size.",
+     "a": "14745600 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Microscope Magnification and Its Many Forms' and work with: eyepiece_mag = 24, objective_mag = 40, real_size = 2048. Carry the chain through step by step and give the final value of apparent_size.",
+     "a": "1966080 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Microscope Magnification and Its Many Forms' refers to.",
+     "a": "A compound microscope multiplies the objective's power by the eyepiece's power - a 10x eyepiece with the 100x oil objective yields a thousand-fold view - while resolving power names the closest pair of points still seen as two; variants then bend light differently: dark field blocks central rays, phase contrast converts density into contrast, fluorophore stains glow in fluorescence microscopy, electron beams shortened a hundred thousand-fold give transmission and scanning modes, and confocal optics sharpen labelled fixed cells.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microscope Magnification and Its Many Forms'.",
+     "a": "Multiply objective by eyepiece for total magnification; pick the microscopy variant by what must be seen - surfaces, organelles or glowing probes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microscope Magnification and Its Many Forms', in plain ASCII form.",
+     "a": "total_power = objective_mag * eyepiece_mag",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.2",
+   "title": "Centrifugation and Its Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Centrifugation and Its Types' refers to.",
+     "a": "Spinning samples around an axis lets centrifugal force sort particles by density: differential centrifugation exploits differing sedimentation rates to drop nuclei, mitochondria or chloroplasts in turn, density-gradient runs settle molecules at levels matching their densities inside a preformed gradient, and ultracentrifugation pushes past one hundred thousand times gravity to separate dissolved molecules.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Centrifugation and Its Types'.",
+     "a": "Rate of sedimentation sorts by size and density in differential runs; a gradient sorts similar-sized particles purely by density.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Centrifugation and Its Types' taught, and from which source text?",
+     "a": "12.2 (source: kebt112.txt sections 12.2-12.2.1, Fig. 12.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.3",
+   "title": "Electrophoresis of DNA and Proteins",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Electrophoresis of DNA and Proteins' refers to.",
+     "a": "An electric field walks charged macromolecules through a gel at speeds set by their charge-to-size ratio: negatively charged DNA threads from the wells toward the anode with short pieces outrunning long ones across an 80-120 volt run, while SDS coats proteins uniformly negative so polyacrylamide gels - loose at 4-8 percent for big proteins, hard at 12-20 percent for small ones - resolve them, with bromophenol blue racing ahead as the tracking dye and ethidium bromide or Coomassie blue making the bands visible.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electrophoresis of DNA and Proteins'.",
+     "a": "DNA sorts by size alone toward the anode; SDS-PAGE sorts proteins by size after the detergent equalises their charge.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Electrophoresis of DNA and Proteins' taught, and from which source text?",
+     "a": "12.3 (source: kebt112.txt sections 12.3-12.3.4, Figs. 12.4-12.5, Box 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.4",
+   "title": "ELISA Formats for Antigen and Antibody",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'ELISA Formats for Antigen and Antibody' refers to.",
+     "a": "Engvall and Perlman's 1971 enzyme-linked immunosorbent assay quantifies antigen or antibody through an enzyme's colour signal: direct ELISA coats antigen and adds one labelled antibody; indirect adds an unlabelled primary then a labelled secondary for extra sensitivity; sandwich traps antigen between a captured and a second labelled antibody for high specificity; and competitive ELISA reads antigen amounts inversely, more antigen meaning weaker colour.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ELISA Formats for Antigen and Antibody'.",
+     "a": "Count the antibodies and which one carries the enzyme - that tells you the format and what the colour measures.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'ELISA Formats for Antigen and Antibody' taught, and from which source text?",
+     "a": "12.4 (source: kebt112.txt section 12.4, Figs. 12.6-12.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.5",
+   "title": "Chromatography Modes from Adsorption to Gas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chromatography Modes from Adsorption to Gas' refers to.",
+     "a": "Chromatography races solutes between a moving eluent and a held stationary phase, each molecule eluting in step with its affinity: adsorption onto polar surfaces, partitioning between immiscible solvents, ion-exchange electrostatics, molecular sieving in gel filtration, biospecific ligand capture in affinity columns, high-pressure liquid runs through fine particles, and gas chromatography for volatiles - all traced as peaks on a chromatogram.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chromatography Modes from Adsorption to Gas'.",
+     "a": "Name the mode by what holds the solute back - surface, solvent, charge, pore, ligand, pressure or volatility.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Chromatography Modes from Adsorption to Gas' taught, and from which source text?",
+     "a": "12.5 (source: kebt112.txt section 12.5, Figs. 12.9-12.10)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.6",
+   "title": "Beer-Lambert Law Quantitation",
+   "questions": [
+    {
+     "q": "Using the method 'Beer-Lambert Law Quantitation', work with: absorbance = 100, epsilon_val = 360, i_in = 120, i_out = 45, path_length = 80. Carry the chain through step by step and give the final value of transmittance.",
+     "a": "0.375 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Beer-Lambert Law Quantitation' and work with: absorbance = 8, epsilon_val = 3, i_in = 360, i_out = 300, path_length = 24. Carry the chain through step by step and give the final value of transmittance.",
+     "a": "0.8333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Beer-Lambert Law Quantitation' refers to.",
+     "a": "Light lost equals solute present: the Beer-Lambert law writes absorbance as the molar absorptivity times path length times concentration, with transmittance as the ratio of transmitted to incident intensity, so a colorimeter with its filters or a spectrophotometer with its prism turns any coloured solution into a number - and the same spectroscopy family, from infrared to NMR and mass spectrometry, identifies functional groups, metals and molecular structures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Beer-Lambert Law Quantitation'.",
+     "a": "Divide the measured absorbance by absorptivity times path length to recover the concentration; transmittance is simply transmitted over incident.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Beer-Lambert Law Quantitation', in plain ASCII form.",
+     "a": "conc = absorbance / (epsilon_val * path_length)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.7",
+   "title": "Automated DNA Sequencing Speed",
+   "questions": [
+    {
+     "q": "Using the method 'Automated DNA Sequencing Speed', work with: automated_hours = 5, manual_bases = 75, year_hours = 10. Carry the chain through step by step and give the final value of speed_fold.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Automated DNA Sequencing Speed' and work with: automated_hours = 80, manual_bases = 150, year_hours = 2600. Carry the chain through step by step and give the final value of speed_fold.",
+     "a": "32.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Automated DNA Sequencing Speed' refers to.",
+     "a": "Sanger's chain-termination chemistry - ddNTPs lacking the 3-prime hydroxyl stopping each growing strand, four tubes then a PAGE read bottom-up - became the gold standard, while Maxam-Gilbert cleaved bases chemically; automation replaced radioactivity with four fluorescent rhodamine ddNTPs in one capillary tube, so a task needing a person's whole year of manual work, twenty to fifty thousand bases, now finishes in a few hours at roughly half the material cost.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Automated DNA Sequencing Speed'.",
+     "a": "Divide the year's hours by the automated run's hours to price the speed-up that fluorescent automation delivered.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Automated DNA Sequencing Speed', in plain ASCII form.",
+     "a": "speed_fold = year_hours / automated_hours",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt112.8",
+   "title": "FISH, Microarray and Flow Cytometry Profiling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'FISH, Microarray and Flow Cytometry Profiling' refers to.",
+     "a": "Three probes-on-cells techniques close the toolkit: fluorescent in situ hybridisation anneals a labelled DNA probe to its chromosome site and even paints every chromosome a different colour; DNA microarrays hybridise Cy3/Cy5-labelled cDNA onto thousands of immobilised probes to flag upregulated and downregulated genes; and flow cytometry streams single cells past lasers - a Coulter-counter idea from the late 1950s - reading scattered and fluorescent light to count and sort labelled populations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'FISH, Microarray and Flow Cytometry Profiling'.",
+     "a": "Label the probe or the cell, let complementarity or a laser do the sorting, and read the colours as biology.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'FISH, Microarray and Flow Cytometry Profiling' taught, and from which source text?",
+     "a": "12.8, 12.10-12.11 (source: kebt112.txt sections 12.8, 12.10-12.11, Figs. 12.15-12.23)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

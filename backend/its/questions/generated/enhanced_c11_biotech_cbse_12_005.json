@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_005",
+   "title": "c11_biotech_cbse_12_005",
+   "questions": [
+    {
+     "q": "State the three steps of a standard PCR cycle in correct order with their typical temperature ranges and the key molecular event occurring at each step.",
+     "a": "The three steps in order: (1) Denaturation at 94–98°C — hydrogen bonds break, separating double-stranded DNA template into single strands; (2) Annealing at 50–65°C — primers anneal to complementary sequences on single-stranded templates; (3) Extension at 72°C — Taq polymerase synthesises new DNA strands by adding dNTPs to the 3'-OH of primers. A wrong answer (e.g., swapping annealing/extension temperatures or omitting primer binding) reveals the student doesn't understand that each temperature serves a distinct biochemical purpose: high heat melts DNA, low heat allows specific primer binding, optimal heat maximises polymerase activity.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a PCR with 100 ng of human genomic DNA as template but gets no amplification. The primers are designed for a 500 bp region of the β-globin gene. The reaction contains all components: Taq polymerase, dNTPs, buffer, MgCl₂, primers, template, and water. The thermal cycler program is correct. Explain two distinct molecular reasons why amplification might fail despite all components being present.",
+     "a": "Two distinct reasons: (1) **Primer-template mismatch** — the primers may not perfectly complement the target sequence due to SNPs, alternative splicing variants, or pseudogene interference, preventing stable annealing at the chosen temperature. (2) **Inhibitors in template prep** — human genomic DNA preps often carry heme, EDTA, or phenol carryover that chelate Mg²⁺ or inhibit Taq polymerase. A wrong answer focusing only on \"wrong temperature\" or \"bad enzyme\" reveals the student thinks PCR failure is always a protocol error, not appreciating that template quality and primer specificity are independent molecular variables that must be validated separately.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the theoretical number of amplicon molecules after 30 PCR cycles starting with 5 template molecules. If the reaction volume is 25 μL, what is the molar concentration of amplicons assuming 100% efficiency? (Avogadro's number = 6.022 × 10²³ mol⁻¹)",
+     "a": "Step 1: Theoretical amplification formula: N = N₀ × 2ⁿ where N₀ = 5, n = 30 → N = 5 × 2³⁰ = 5 × 1,073,741,824 = 5.37 × 10⁹ molecules. Step 2: Convert molecules to moles: moles = (5.37 × 10⁹) / (6.022 × 10²³) = 8.91 × 10⁻¹⁵ mol. Step 3: Concentration = moles/volume = (8.91 × 10⁻¹⁵ mol) / (25 × 10⁻⁶ L) = 3.56 × 10⁻¹⁰ M = 356 pM. A wrong answer (e.g., forgetting to multiply by initial copies, or using 2ⁿ⁻¹) reveals the student memorises \"2ⁿ\" without understanding it represents doubling per cycle from EACH starting molecule, or confuses molecule count with molarity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast standard endpoint PCR, RT-PCR, and qPCR (real-time PCR) in terms of: (a) what they measure, (b) when quantification occurs, and (c) the role of reverse transcriptase. Create a summary table.",
+     "a": "| Feature | Standard PCR | RT-PCR | qPCR (Real-time PCR) |\n|---------|--------------|--------|----------------------|\n| (a) Measures | DNA amplicon presence/size (gel) | RNA expression via cDNA | DNA amplification in real-time (fluorescence) |\n| (b) Quantification | Endpoint (semi-quantitative at best) | Endpoint (after gel) | During exponential phase (Ct value) |\n| (c) Reverse transcriptase | Not used | **Essential** — converts RNA → cDNA before PCR | Optional — only if starting material is RNA (RT-qPCR) |\n\nA wrong answer conflating RT-PCR with qPCR (common error: \"RT-PCR is real-time PCR\") reveals the student confuses the **R**everse **T**ranscription step (RNA→cDNA) with **R**eal-**T**ime detection. They are orthogonal: you can have RT-qPCR (RNA start, real-time detection) or standard RT-PCR (RNA start, endpoint gel).",
+     "self_check": true
+    },
+    {
+     "q": "A diagnostic lab uses PCR to detect a pathogen. They observe amplification in the no-template control (NTC). Evaluate three possible causes and propose a specific experimental fix for each. Rank them by likelihood in a typical molecular biology lab.",
+     "a": "Ranked by likelihood: (1) **Primer-dimer formation** — primers anneal to each other and amplify short non-specific products. *Fix:* Redesign primers to avoid 3' complementarity; use hot-start Taq; increase annealing temperature. (2) **Cross-contamination from amplicons** — previous PCR products aerosolise and contaminate reagents. *Fix:* Physical separation of pre- and post-PCR areas; UV-irradiate reagents; use dUTP/UNG system. (3) **Reagent contamination** — commercial dNTPs or water contaminated with microbial DNA. *Fix:* Use certified nuclease-free water; aliquot reagents; include extraction controls. A wrong answer blaming \"Taq polymerase contamination\" reveals misunderstanding: Taq is an enzyme, not a DNA template; it cannot amplify without a nucleic acid template.",
+     "self_check": true
+    },
+    {
+     "q": "Design a PCR strategy to distinguish between a wild-type allele (sequence: 5'-ATG**C**GTA-3') and a disease-associated SNP variant (5'-ATG**T**GTA-3') in a heterozygous patient. Specify primer design, expected products, and how you would interpret results on a gel. Be creative but biochemically sound.",
+     "a": "**Strategy: Allele-Specific PCR (AS-PCR) with intentional mismatch.** Design two forward primers: Primer-WT (3' end = **G** complementary to wild-type C) and Primer-SNP (3' end = **A** complementary to variant T). Use a common reverse primer. Set up two separate reactions: Reaction A (Primer-WT + common reverse), Reaction B (Primer-SNP + common reverse). Include deliberate penultimate mismatch in each primer to enhance specificity. **Expected gel:** Heterozygous patient shows bands in BOTH reactions (two alleles present). Homozygous WT shows band only in Reaction A. Homozygous SNP shows band only in Reaction B. **Interpretation:** Band in Reaction A = WT allele present; Band in Reaction B = SNP allele present. A poor answer using restriction digest (RFLP) instead of AS-PCR shows the student knows only one method and cannot adapt PCR design to solve a genotyping problem directly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

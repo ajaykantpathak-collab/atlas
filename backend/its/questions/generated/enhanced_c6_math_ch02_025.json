@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_025",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_025",
+   "title": "c6_math_ch02_025",
+   "questions": [
+    {
+     "q": "What is the absolute value of -12?",
+     "a": "The absolute value is 12. A student who answers -12 likely forgets that absolute value measures distance, which cannot be negative, and is simply stripping the bars without changing the value.",
+     "self_check": true
+    },
+    {
+     "q": "If |x| = 5, does x have to be 5? Explain why or why not.",
+     "a": "No, x could be 5 or -5. A student who says \"yes\" does not understand that both 5 and -5 are exactly 5 units away from zero on the number line.",
+     "self_check": true
+    },
+    {
+     "q": "A diver is at 8 metres below sea level, and a bird is flying 8 metres above sea level. Represent their distances from sea level using absolute value notation.",
+     "a": "The diver is at |-8| = 8 metres, and the bird is at |8| = 8 metres. A student who writes |-8| = -8 is still struggling to accept that distance is always non-negative regardless of the starting position.",
+     "self_check": true
+    },
+    {
+     "q": "Compare |-10| and |4|. Which is greater?",
+     "a": "|-10| is 10 and |4| is 4; therefore, |-10| > |4|. A student who thinks |-10| < |4| is comparing the original integers (-10 < 4) rather than their absolute values.",
+     "self_check": true
+    },
+    {
+     "q": "Can the absolute value of an integer ever be negative? Justify your answer using the concept of the number line.",
+     "a": "No, because the absolute value measures distance from zero. Since distance is a measure of \"how far\" something is, it must be zero (if at the origin) or positive (if moved in any direction). A student who says \"yes\" is confusing the sign of the integer with the result of the absolute value function.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario involving money (credits and debits) where two different amounts result in the same absolute value.",
+     "a": "A credit of ₹50 (+50) and a debit of ₹50 (-50) both have an absolute value of 50. A poor answer would use numbers with different values, showing a failure to grasp that absolute value focuses on the magnitude of the change, not the direction (credit vs debit).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

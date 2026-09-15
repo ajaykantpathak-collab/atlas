@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_009",
+   "title": "c11_hs_cbse_11_009",
+   "questions": [
+    {
+     "q": "A student says, \"Optical brighteners are just another type of bleach because they make whites whiter.\" Is this statement correct? Explain why or why not in two sentences.",
+     "a": "No, the statement is incorrect. Optical brighteners (fluorescent brightening agents) absorb ultraviolet light and re-emit it as visible blue light, masking yellowness and greyness without destroying colour or chemically altering the fibre. Bleaches (oxidising or reducing) chemically break down chromophores to remove colour permanently. A wrong answer reveals confusion between optical masking (physical fluorescence) and chemical bleaching (oxidation/reduction), a common error when students equate \"whiteness\" with \"bleaching.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why is ultramarine blue powder pasted with a little water before adding to the final rinse, and why must the solution be used immediately?",
+     "a": "Ultramarine blue is a fine pigment that does not dissolve but remains in suspension; pasting prevents lumps and ensures even distribution. The suspension settles quickly due to gravity, causing patchy blue deposits if not used immediately. A wrong answer (e.g., \"it dissolves slowly\" or \"it reacts with water\") shows the student treats blue as a soluble dye rather than an insoluble pigment, missing the critical procedural step that prevents streaking on fabric.",
+     "self_check": true
+    },
+    {
+     "q": "A homemaker starches a dark coloured cotton saree using plain rice starch. After drying, white patches appear on the fabric. Explain the cause and state the precise corrective measure recommended in the textbook.",
+     "a": "The white patches are dried starch residue visible on the dark fabric. The textbook recommends adding a small amount of blue or tea concoction to the starch solution so the starch does not show up as white patches. A wrong answer (e.g., \"use less starch\" or \"rinse more\") misses the specific colour-correction technique taught for dark cottons, indicating the student has not internalised the fabric-specific finishing nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the action of borax in a starch solution with the action of gum acacia on silk. How do their mechanisms of stiffening differ?",
+     "a": "Borax is not a stiffener itself; it melts during ironing to form a thin water-repellent film on the starched fabric surface, preserving crispness in humid conditions. Gum acacia (gum arabic) is a natural polysaccharide that dissolves to form a colloidal solution, depositing a light, crisp film on silk and fine cottons without heaviness. A wrong answer conflates borax as a starch substitute or gum acacia as a heavy stiffener, failing to distinguish between a finishing additive (borax) and a primary stiffening agent (gum acacia) with different chemical natures and end-uses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of using friction washing (scrubbing board) for a heavily soiled wool sweater. Justify your evaluation with three fibre-property reasons from the textbook.",
+     "a": "Unsuitable. Three reasons: (1) Wool weakens when wet; mechanical friction causes fibre damage. (2) Wool felts and shrinks under agitation combined with moisture and heat. (3) Alkaline detergents used in friction washing damage wool's protein structure. The correct method is kneading/squeezing in cold water with mild detergent. A wrong answer that suggests \"gentle friction\" or \"lukewarm water\" shows the student knows wool is delicate but cannot articulate the specific structural vulnerabilities (felting, alkali sensitivity, wet weakness) that prohibit friction entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a finishing protocol for a blended fabric: 60% polyester / 40% cotton white bedsheet that has turned grey after multiple washes. Specify the washing method, brightening agent, stiffening agent (if any), and drying condition. Justify each choice.",
+     "a": "Washing method: Machine wash (gentle cycle) — polyester-cotton blends tolerate machine agitation; gentle cycle reduces cotton abrasion. Brightening agent: Optical brightener (not blue) — counters both greyness (polyester) and yellowness (cotton); blue only masks yellowness. Stiffening agent: Light starch (optional) — cotton component accepts starch; polyester does not need it but tolerates it. Drying: Line dry in shade — polyester loses strength in sunlight; cotton tolerates sun but shade prevents unnecessary UV exposure. A poor answer chooses blue over optical brightener (missing greyness), recommends heavy starch (polyester doesn't absorb starch), or sun-dries (ignores polyester photodegradation), revealing inability to synthesise blend-specific care.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

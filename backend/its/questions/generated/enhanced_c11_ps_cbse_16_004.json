@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_004",
+   "title": "c11_ps_cbse_16_004",
+   "questions": [
+    {
+     "q": "Define \"coming together federation\" and \"holding together federation\" in one sentence each, and name one canonical example of each type.",
+     "a": "Coming together federation: Independent sovereign states voluntarily pool sovereignty to form a federal union, creating relatively strong constituent units with equal powers (example: USA). Holding together federation: A formerly unitary state decentralizes power to constituent units to accommodate diversity, typically creating a stronger centre with possible asymmetric powers (example: India). A wrong answer — such as calling India a \"coming together\" federation because it has states — reveals the student confuses the *existence* of state units with the *historical process* of federation formation, missing that Indian states were created by the Constitution, not pre-existing sovereign entities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distinction between \"coming together\" and \"holding together\" federations matters for understanding the relative power of the central government versus constituent units.",
+     "a": "In coming together federations, the constituent units pre-exist as sovereign entities and negotiate the terms of union, so they retain significant powers (often residuary powers) and demand equality of representation (e.g., US Senate). In holding together federations, the centre creates the units and retains residuary powers, emergency override authority, and often asymmetric control to maintain unity (e.g., India's Article 3, Article 249). A wrong answer that claims \"both types have equal state power\" reveals the student misses how the *direction of delegation* — states delegating upward vs. centre delegating downward — structurally embeds different power asymmetries that persist in constitutional text and political practice.",
+     "self_check": true
+    },
+    {
+     "q": "Country X was a unitary kingdom for 300 years. In 1990, facing separatist movements in three regions, it adopted a federal constitution creating three states with elected governments, but the centre retained control over defence, foreign affairs, currency, and residuary powers. Classify Country X and justify your classification using the formation-process criterion.",
+     "a": "Country X is a holding together federation. The key evidence: (1) it existed as a unitary state for centuries before federalization, (2) federalism was adopted as a response to internal diversity pressures (separatist movements), not as a voluntary union of sovereigns, and (3) the centre retained residuary powers and critical sovereignty markers (defence, currency), indicating the centre *devolved* power rather than states *pooling* it. A wrong classification as \"coming together\" would reveal the student focuses on the *current existence* of states rather than the *historical trajectory* of power flow — a category error that mispredicts how constitutional disputes will be resolved (centre-favoured in holding together systems).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical representation logic in the upper house (second chamber) of coming together vs. holding together federations. How does the formation history explain the difference?",
+     "a": "Coming together federations typically adopt **equal representation** of units in the upper house (e.g., US Senate: 2 senators per state regardless of population) because the units entered as sovereign equals and demanded parity as a condition of union. Holding together federations typically adopt **population-weighted or mixed representation** (e.g., India's Rajya Sabha: seats allocated by population; Germany's Bundesrat: weighted votes) because the centre created the units and sees no normative claim to equal state sovereignty — the federation serves national unity, not state equality. A wrong answer claiming both use equal representation reveals the student misses how the *bargaining context at founding* (negotiation among equals vs. unilateral devolution) hardwires distinct representational principles that affect legislative politics for centuries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Holding together federations are inherently less stable than coming together federations because the centre's dominance creates perennial secessionist tensions.\" Support your evaluation with two comparative arguments.",
+     "a": "The claim is **partially valid but oversimplified**. Argument 1 (supporting): Holding together federations often face centre-state friction because units feel the federal bargain was imposed, not negotiated — e.g., Quebec in Canada (though Canada is hybrid), Kashmir in India pre-2019, Catalonia in Spain. The centre's residuary powers and emergency provisions (India Art. 356, Spain Art. 155) can fuel alienation. Argument 2 (countering): Coming together federations face *different* instability — secession threats from units that never fully internalized the union (US Civil War, Swiss Sonderbund War, Australian secession referendums in 1930s). Stability depends less on origin type than on **accommodation mechanisms**: asymmetric federalism (Belgium, India Art. 371), fiscal transfers, and intergovernmental councils. A wrong evaluation that declares one type \"superior\" reveals the student treats federalism as a static design rather than a dynamic bargaining process where *institutional flexibility* matters more than *origin story*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a federal constitution for a hypothetical country \"Federia\" that has 5 regions with distinct languages and histories. Federia was a unitary empire for 200 years until a 2020 revolution. Two regions threaten secession. Specify: (a) classification of your design, (b) residuary powers allocation, (c) upper house representation, (d) one asymmetric provision for the secessionist regions.",
+     "a": "(a) Holding together federation — Federia's 200-year unitary history and revolutionary decentralization under secessionist pressure fit the definition precisely. (b) Residuary powers to the **centre** — consistent with holding together logic where the centre retains unenumerated powers to preserve unity (cf. India Art. 248, Canada s.91). (c) Upper house: **population-weighted with a minimum floor** (e.g., 4 seats per region + additional seats per million population) — balances unit voice with demographic legitimacy, avoiding pure equality (which would reward secessionist leverage) and pure population (which would erase small-region voice). (d) Asymmetric provision: **Special autonomy statute for the two secessionist regions** granting exclusive competence over language policy, education curriculum, and local police, with a \"notwithstanding\" clause requiring their consent for central legislation in these areas (modelled on India Art. 371A/G, Spain's Basque/Navarre foral regime). A poor design giving equal upper house representation and residuary powers to states would replicate coming together logic in a holding together context, likely accelerating secession by legitimizing sovereign-claim rhetoric.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

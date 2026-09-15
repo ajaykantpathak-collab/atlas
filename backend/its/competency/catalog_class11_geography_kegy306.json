@@ -1,0 +1,114 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 306,
+ "chapter_title": "Introduction to Remote Sensing",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy306.txt",
+ "concepts": [
+  {
+   "id": "kegy.306.1.1",
+   "title": "Remote Sensing: Concept, Stages and Platforms",
+   "section": "",
+   "definition": "Remote sensing is the science of acquiring information about the earth's surface without physical contact, using electromagnetic energy through stages of energy source, interaction with the target, recording by sensors on platforms like aircraft and satellites, transmission, processing and interpretation into images and maps.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "Sensors record reflected sunlight in the visible and infrared bands or emit their own microwave energy, giving passive and active systems like radar.",
+   "question_patterns": "kegy306.txt concept and stages sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.306.2.1",
+   "title": "Indian Remote Sensing Satellites and Applications",
+   "section": "",
+   "definition": "India's IRS satellite series launched by ISRO supplies images used in agriculture, forestry, water resources, land use, drought and flood monitoring, and multispectral digital data processed into false colour composites lets interpreters identify features by their spectral signatures.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "False colour composite images show vegetation in red, and the digital data support computer classification and GIS integration for planning.",
+   "question_patterns": "kegy306.txt irs and applications sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.306.3.1",
+   "title": "Electromagnetic Radiation and Interaction with Targets",
+   "section": "Electromagnetic radiation",
+   "definition": "Remote sensing uses electromagnetic radiation ranging from visible light to infrared and microwave, and each surface target reflects or emits this energy differently by wavelength, so the interaction of radiation with water, vegetation and soil produces the spectral differences that sensors record.",
+   "formula": "",
+   "key_idea": "Healthy vegetation reflects strongly in the near infrared while water absorbs almost all radiation, which is why spectral bands are chosen for each application.",
+   "textbook_ref": "kegy306.txt radiation interaction sections",
+   "question_patterns": [
+    "define electromagnetic radiation and its spectrum used in sensing",
+    "how do vegetation soil and water differ in spectral response",
+    "why is near infrared useful for vegetation study",
+    "state the stages of interaction of energy with the target",
+    "what is a spectral band in satellite sensing",
+    "compare reflection absorption and transmission of radiation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy306.txt exercises",
+   "questions": [
+    "What is remote sensing? State its stages.",
+    "Name the platforms used in remote sensing.",
+    "Differentiate between active and passive remote sensing.",
+    "Explain the applications of remote sensing in India.",
+    "What is a false colour composite and how is it read?"
+   ]
+  }
+ ]
+}

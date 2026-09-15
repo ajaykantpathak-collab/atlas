@@ -1,0 +1,340 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 11,
+ "chapter_title": "Data Communication",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs111.1",
+   "title": "Data Rate for Uploading Pages",
+   "section": "11.3.2 and Example 11.1",
+   "definition": "The data transfer rate or bit rate counts the bits moved per second; for an upload job, multiply the pages by the characters per page and the bits per character, then divide by the seconds taken.",
+   "formula": "rate_bps = pages * chars_per_page * bits_per_char / seconds",
+   "key_idea": "Ten pages of 1600 eight-bit characters uploaded in 20 seconds demand a channel of 6400 bps.",
+   "textbook_ref": "lecs111.txt, section 11.3.2 and Example 11.1",
+   "question_patterns": [
+    "Solve Example 11.1: what channel rate uploads 10 pages of 1600 characters in 20 seconds at 8 bits per character?",
+    "A scanner feeds 5 pages of 2000 characters in 10 seconds. Compute the required data rate in bps.",
+    "Define data transfer rate and name the unit it is measured in.",
+    "How many bits does a 12-page document of 1500 characters contain, and what rate sends it in 30 seconds?",
+    "Distinguish bandwidth from data transfer rate."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the whole upload",
+     "explain": "Pages times characters per page times bits per character.",
+     "compute": "bits = pages * chars_per_page * bits_per_char"
+    },
+    {
+     "step": 2,
+     "action": "spread over the seconds",
+     "explain": "Bits divided by seconds gives the rate in bps.",
+     "compute": "rate_bps = bits / seconds"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Ten pages of 1600 eight-bit characters upload in 20 seconds. What bit rate in bps does that need?",
+     "a": "6400"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.2",
+   "title": "Bandwidth of a Composite Signal",
+   "section": "11.3.1 and Exercise 13",
+   "definition": "Bandwidth is the span of frequencies a channel carries, measured in Hertz as the difference between the maximum and minimum frequency of the composite signal.",
+   "formula": "bandwidth = max_frequency - min_frequency",
+   "key_idea": "A signal spanning 500 MHz to 1 GHz occupies 500 MHz of bandwidth.",
+   "textbook_ref": "lecs111.txt, section 11.3.1 and Exercise 13",
+   "question_patterns": [
+    "A composite signal carries frequencies between 500 MHz and 1 GHz. Compute its bandwidth.",
+    "Define bandwidth and state its unit of measurement.",
+    "How many Hertz are there in 10 Megahertz?",
+    "Why does a higher bandwidth give a higher data transfer rate?",
+    "A channel spans 90 MHz to 110 MHz. Find its bandwidth."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express the upper bound in MHz",
+     "explain": "One GHz holds 1000 MHz.",
+     "compute": "upper = ghz * 1000"
+    },
+    {
+     "step": 2,
+     "action": "subtract the lower bound",
+     "explain": "The frequency span is the bandwidth.",
+     "compute": "bandwidth = upper - lower_mhz"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A composite signal spans 500 MHz to 1 GHz. What bandwidth in MHz does it occupy?",
+     "a": "500"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.3",
+   "title": "Converting Gbps into Bits per Second",
+   "section": "11.3.2",
+   "definition": "Data rate units climb by factors of 1024: one Kbps is 2 to the power 10 bps, one Mbps is 2 to the power 20 bps and one Gbps is 2 to the power 30 bps, so a Gbps figure multiplies by 1024 three times.",
+   "formula": "total_bps = gbps_value * 1024 ** 3",
+   "key_idea": "Since 1 Gbps equals 1073741824 bps, an 18 Gbps link carries 19327352832 bits per second.",
+   "textbook_ref": "lecs111.txt, section 11.3.2 and Exercise 9",
+   "question_patterns": [
+    "18 Gbps equals how many bits per second?",
+    "State the ladder of data rate units from Kbps to Tbps using powers of 2.",
+    "How many bps are there in 1 Mbps according to the chapter's definition?",
+    "Convert 5 Gbps into bits per second.",
+    "Why does the chapter use 1024 rather than 1000 as the multiplier between rate units?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build one Gbps in bps",
+     "explain": "1024 x 1024 x 1024 equals 2 to the power 30.",
+     "compute": "one_gbps = 1024 * 1024 * 1024"
+    },
+    {
+     "step": 2,
+     "action": "scale the given rate",
+     "explain": "Multiply the Gbps figure by the single-Gbps size.",
+     "compute": "total_bps = gbps_value * one_gbps"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One Gbps equals 2 raised to what power bps?",
+     "a": "30"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.4",
+   "title": "Bluetooth Piconet Device Limits",
+   "section": "11.6.3(A)",
+   "definition": "Bluetooth devices within about 10 metres form a small network called a piconet working in master-slave style: one master actively talks to up to 7 slaves, while the remaining paired devices of up to 255 wait inactive.",
+   "formula": "waiting = total_devices - (master + slaves)",
+   "key_idea": "With 8 devices communicating at once out of a 255-device network, 247 devices stay parked.",
+   "textbook_ref": "lecs111.txt, section 11.6.3(A)",
+   "question_patterns": [
+    "A piconet allows 8 active devices out of 255 paired. How many devices wait inactive?",
+    "What is a piconet, and in which configuration do its devices work?",
+    "How many slave devices can a Bluetooth master serve simultaneously?",
+    "State the range, speed band and frequency band of Bluetooth communication.",
+    "Which wireless technology uses the 2.4 GHz unlicensed band over about 10 metres?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the active devices",
+     "explain": "One master plus its slaves communicate at once.",
+     "compute": "active = master + slaves"
+    },
+    {
+     "step": 2,
+     "action": "subtract from the network size",
+     "explain": "The rest of the paired devices wait for a turn.",
+     "compute": "waiting = total_devices - active"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A Bluetooth piconet has one master and 7 active slaves. How many devices are actively communicating?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.5",
+   "title": "Simplex, Half-duplex and Full-duplex Modes",
+   "section": "11.4",
+   "definition": "Communication runs in three modes: simplex sends one way only, like a keyboard to a computer; half-duplex exchanges both ways but never at once, like a walkie-talkie; full-duplex carries both directions simultaneously, like a telephone call.",
+   "formula": "simplex: one way; half-duplex: both ways, one at a time; full-duplex: both ways at once",
+   "key_idea": "A one-way narrow bridge pictures half-duplex, while a two-way road pictures full-duplex.",
+   "textbook_ref": "lecs111.txt, sections 11.4.1 to 11.4.3 and Figures 11.3-11.5",
+   "question_patterns": [
+    "Which communication mode allows both directions simultaneously?",
+    "Classify: keyboard input, walkie-talkie conversation, mobile phone call.",
+    "Why is half-duplex described as a switched simplex channel?",
+    "How does a full-duplex link share its capacity between the two directions?",
+    "Give one IoT example of simplex communication from the chapter."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the active directions",
+     "explain": "One direction only is simplex, alternating directions are half-duplex, and simultaneous directions are full-duplex."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which mode sends data one way only, like a keyboard to a computer?",
+     "a": "simplex"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.6",
+   "title": "Circuit Switching versus Packet Switching",
+   "section": "11.5",
+   "definition": "Circuit switching establishes one dedicated path before any data moves, as old telephone calls did; packet switching chops each message into addressed packets that travel independently, possibly by different routes, and are reassembled on arrival.",
+   "formula": "circuit: one reserved path; packet: many routes per message",
+   "key_idea": "A packet has a header with the destination address plus the message part, and the channel frees as soon as the packet passes.",
+   "textbook_ref": "lecs111.txt, sections 11.5.1 and 11.5.2",
+   "question_patterns": [
+    "Differentiate circuit switching from packet switching with one example of each.",
+    "What does a packet contain besides the message, and why is it needed?",
+    "Why does a channel stay busy for the whole call in circuit switching but not in packet switching?",
+    "How are scattered packets turned back into the original message at the receiver?",
+    "Why were dedicated per-pair connections considered too costly for large networks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the path behaviour",
+     "explain": "One fixed reserved route for the whole session is circuit switching; independent addressed pieces seeking any available route are packet switching."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which switching establishes one dedicated path before any data moves?",
+     "a": "circuit switching"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.7",
+   "title": "Guided and Unguided Transmission Media",
+   "section": "11.6",
+   "definition": "Guided media are physical cables, namely twisted pair, coaxial cable and fibre optic, while unguided media send electromagnetic waves through air, divided into radio waves, microwaves and infrared waves by frequency band.",
+   "formula": "twisted pair and coax carry electricity; fibre carries light; air carries waves",
+   "key_idea": "Radio waves span 3 KHz to 1 GHz and penetrate walls, while microwaves from 1 GHz to 300 GHz need line of sight.",
+   "textbook_ref": "lecs111.txt, sections 11.6.1, 11.6.2 and Table 11.1",
+   "question_patterns": [
+    "Name the three categories of wired media and state what each carries.",
+    "Which transmission medium carries signals in the form of light, and what are its pros and cons?",
+    "State the frequency range of radio waves and one property that walls affect.",
+    "Why do microwaves need line-of-sight propagation, and where are they used?",
+    "Compare shielded and unshielded twisted pair cable.",
+    "Why are two fibre cables needed for full-duplex communication?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "look for a wire",
+     "explain": "A physical cable means guided media whose type follows from what it carries; air-borne electromagnetic waves mean unguided media grouped by frequency."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which guided media carries light signals?",
+     "a": "fibre optic"
+    }
+   ]
+  },
+  {
+   "id": "lecs111.8",
+   "title": "Protocols: HTTP, FTP, SMTP and TCP/IP",
+   "section": "11.8",
+   "definition": "A protocol is the rule book of communication covering flow control, access control and addressing: HTTP serves web pages, FTP moves files between machines, SMTP handles outgoing mail queues, PPP links two devices directly, and TCP/IP breaks data into packets, routes them and reassembles them in order.",
+   "formula": "sender -> protocol rules -> receiver",
+   "key_idea": "Flow control exists because a 1024 Mbps sender would drown a 512 Mbps receiver without an agreed slow-down.",
+   "textbook_ref": "lecs111.txt, sections 11.8.1 to 11.8.6 and Figure 11.14",
+   "question_patterns": [
+    "What is a protocol in data communication? Explain with an example.",
+    "Why is flow control needed when computer A sends at 1024 Mbps and computer B receives at 512 Mbps?",
+    "Which protocol transfers files between machines, and on which model does it work?",
+    "How does SMTP handle the outgoing mail queue and the receiver addresses?",
+    "What roles do TCP and IP play separately in the TCP/IP suite?",
+    "Which protocol would a home modem use to talk to an ISP server?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the task to the protocol",
+     "explain": "Web pages point to HTTP, file movement to FTP, mail delivery to SMTP, direct two-device links to PPP, and packetised Internet delivery to TCP/IP."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which protocol serves web pages?",
+     "a": "HTTP"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs111.we1",
+   "title": "Channel rate for the upload of Example 11.1",
+   "concept_id": "lecs111.1",
+   "problem": "A user uploads a text document at 10 pages per 20 seconds, each page holding 1600 characters of 8 bits. Find the required data rate.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "size the upload",
+     "explain": "10 pages times 1600 characters times 8 bits.",
+     "compute": "bits = 10 * 1600 * 8"
+    },
+    {
+     "step": 2,
+     "action": "divide by the time",
+     "explain": "128000 bits over 20 seconds.",
+     "compute": "rate_bps = bits / 20"
+    }
+   ],
+   "answer_note": "The channel must carry 6400 bits per second."
+  },
+  {
+   "id": "lecs111.we2",
+   "title": "Bandwidth from 500 MHz to 1 GHz",
+   "concept_id": "lecs111.2",
+   "problem": "A composite signal contains frequencies between 500 MHz and 1 GHz. Compute the bandwidth.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "common units",
+     "explain": "1 GHz equals 1000 MHz.",
+     "compute": "upper = 1 * 1000"
+    },
+    {
+     "step": 2,
+     "action": "subtract the bounds",
+     "explain": "1000 MHz minus 500 MHz.",
+     "compute": "bandwidth = upper - 500"
+    }
+   ],
+   "answer_note": "The signal occupies 500 MHz of bandwidth."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs111.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 11 Exercise (items reworded)",
+   "questions": [
+    "Define data communication and list its main components.",
+    "Which mode lets both devices talk simultaneously? Name the other two modes with one example of each.",
+    "Among LAN, MAN and WAN, which runs fastest and which covers the largest area?",
+    "Name the three categories of wired media, and state which one carries light.",
+    "18 Gbps equals how many bits per second? Show the conversion chain.",
+    "Write short notes on HTTP, bandwidth, Bluetooth and DNS.",
+    "A composite signal spans 60 MHz to 900 MHz. Compute its bandwidth, and give the upload rate for 8 pages of 1200 characters in 16 seconds at 8 bits per character.",
+    "What is a protocol? Explain flow control with the 1024 Mbps versus 512 Mbps example."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Pair of Linear Equations in Two Variables",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.103.3.1",
+   "title": "Graphical Representation of a Pair of Linear Equations",
+   "section": "3.2",
+   "definition": "A pair of linear equations in two variables plots as two straight lines: they either intersect at one point (unique solution), are parallel (no solution), or coincide (infinitely many solutions).",
+   "formula": "-",
+   "key_idea": "Two lines, three stories: crossing gives one answer, parallel gives none, coincidence gives endless answers.",
+   "textbook_ref": "jemh103.txt section 3.2 (graphical method)",
+   "question_patterns": [
+    "draw the graph of the given pair of linear equations and find the solution",
+    "do the given lines intersect, coincide or stay parallel - justify",
+    "find the solution of the pair from the graph",
+    "how many solutions does the given pair have - reason from the graph",
+    "form a pair of equations for the given situation and solve graphically",
+    "identify the point of intersection of the two given lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "draw both lines",
+     "explain": "Plot at least two points of each equation and join them."},
+    {"step": 2, "action": "locate the meeting",
+     "explain": "The intersection point, if any, is the common solution."},
+    {"step": 3, "action": "classify the pair",
+     "explain": "Parallel lines mean no solution; coincident lines mean infinitely many."}
+   ]
+  },
+  {
+   "id": "jemh.103.3.2",
+   "title": "Comparing Ratios to Classify the Pair",
+   "section": "3.2",
+   "definition": "Writing the pair as a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, comparing the ratios a1 over a2, b1 over b2 and c1 over c2 predicts the solution type without graphing: equal first two ratios with a different third means parallel, and all three equal means coincident lines.",
+   "formula": "ratio_a = a1 / a2",
+   "key_idea": "Ratios tell all: both equal, third different means parallel; all three equal means coincident.",
+   "textbook_ref": "jemh103.txt sections comparing ratios for consistency",
+   "question_patterns": [
+    "check whether the given pair is consistent by comparing ratios",
+    "find whether the pair a1x + b1y + c1 = 0 has a unique solution",
+    "determine without drawing whether the lines are parallel",
+    "find the value of k for which the given pair has no solution",
+    "classify the given pair as consistent or inconsistent",
+    "compare the ratios and state the nature of the solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the first ratio",
+     "explain": "Divide the x-coefficients.",
+     "compute": "ratio_a = a1 / a2"},
+    {"step": 2, "action": "form the second ratio",
+     "explain": "Divide the y-coefficients.",
+     "compute": "ratio_b = b1 / b2"}
+   ]
+  },
+  {
+   "id": "jemh.103.3.3",
+   "title": "Substitution Method",
+   "section": "3.3",
+   "definition": "In the substitution method one variable is expressed from the first equation and substituted into the second, reducing the pair to a single equation in one variable; solving it and back-substituting yields the solution pair (x, y).",
+   "formula": "-",
+   "key_idea": "Replace to reduce: express, substitute, solve one variable, then return for the other.",
+   "textbook_ref": "jemh103.txt section 3.3 (substitution method)",
+   "question_patterns": [
+    "solve the given pair of equations by substitution",
+    "solve x + y = 14, x - y = 4 by the substitution method",
+    "express x in terms of y from the first equation and solve the pair",
+    "find the two numbers satisfying the given conditions by substitution",
+    "solve the pair and verify by substituting in both equations",
+    "use substitution to solve the given word problem pair"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "express one variable",
+     "explain": "Write x or y in terms of the other from the simpler equation."},
+    {"step": 2, "action": "substitute into the other equation",
+     "explain": "This gives one linear equation in a single variable."},
+    {"step": 3, "action": "solve and back-substitute",
+     "explain": "Find the first variable, then recover the second; the answer is the pair (x, y)."}
+   ]
+  },
+  {
+   "id": "jemh.103.3.4",
+   "title": "Elimination Method",
+   "section": "3.4",
+   "definition": "In the elimination method the equations are multiplied by suitable numbers so that one variable has equal and opposite coefficients; adding removes that variable, the remaining equation is solved, and back-substitution gives the full solution pair.",
+   "formula": "-",
+   "key_idea": "Add to cancel: make one variable's coefficients opposite and eliminate it.",
+   "textbook_ref": "jemh103.txt section 3.4 (elimination method)",
+   "question_patterns": [
+    "solve the given pair by the elimination method",
+    "eliminate y from the given pair and solve",
+    "solve the equations by addition and subtraction of multiples",
+    "use elimination to find the fraction satisfying the given conditions",
+    "solve the pair and check the solution in both equations",
+    "choose between substitution and elimination for the given pair - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the coefficients",
+     "explain": "Multiply the equations so one variable gets opposite equal coefficients."},
+    {"step": 2, "action": "eliminate and solve",
+     "explain": "Add the equations to remove that variable and solve the survivor."},
+    {"step": 3, "action": "back-substitute",
+     "explain": "Substitute back to obtain the other variable and the solution pair."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh103.txt ratio comparison examples",
+   "concept": "jemh.103.3.2",
+   "question_type": "compute",
+   "question_pattern": "For the pair a1 x + b1 y + c1 = 0 with a1 = {a1}, a2 = {a2}, b1 = {b1}, b2 = {b2}, compare the ratios a1 over a2 and b1 over b2.",
+   "extracted_variables": {
+    "a1": "x-coefficient of the first equation",
+    "a2": "x-coefficient of the second equation",
+    "b1": "y-coefficient of the first equation",
+    "b2": "y-coefficient of the second equation"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the x-coefficients",
+     "explain": "First comparison ratio.",
+     "compute": "ratio_a = a1 / a2"},
+    {"step": 2, "action": "divide the y-coefficients",
+     "explain": "Compare with the first ratio to classify the pair.",
+     "compute": "ratio_b = b1 / b2"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh103.txt consistency practice",
+   "concept": "jemh.103.3.2",
+   "question_type": "compute",
+   "question_pattern": "Check whether the pair with coefficients ({a1}, {b1}) and ({a2}, {b2}) has proportional x and y coefficients.",
+   "extracted_variables": {
+    "a1": "first equation x-coefficient",
+    "b1": "first equation y-coefficient",
+    "a2": "second equation x-coefficient",
+    "b2": "second equation y-coefficient"
+   },
+   "solution_template": [
+    {"step": 1, "action": "form the x ratio",
+     "explain": "a1 over a2.",
+     "compute": "ratio_a = a1 / a2"},
+    {"step": 2, "action": "form the y ratio",
+     "explain": "Equal ratios point to parallel or coincident lines.",
+     "compute": "ratio_b = b1 / b2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jemh103.txt EXERCISE 3.1-3.3",
+   "questions": [
+     "Form the pair of linear equations for the given situations and solve graphically.",
+     "On comparing the ratios find whether the given pairs are consistent or inconsistent.",
+     "Solve the given pairs by substitution and by elimination."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "jemh103.txt EXERCISE 3.4 word problems",
+   "questions": [
+     "The sum of two numbers is given with their difference - find the numbers.",
+     "Solve the fraction and age word problems using pairs of equations."
+   ]
+  }
+ ]
+}

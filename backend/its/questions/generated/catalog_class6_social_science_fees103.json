@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class6_social_science_fees103",
+ "concepts": [
+  {
+   "id": "fees.3.1",
+   "title": "Three Major Landforms",
+   "questions": [
+    {
+     "q": "Using the method 'Three Major Landforms', work with: mountains = 4, plains = 40, plateaus = 200. Carry the chain through step by step and give the final value of land.",
+     "a": "244 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Three Major Landforms' and work with: mountains = 80, plains = 500, plateaus = 120. Carry the chain through step by step and give the final value of land.",
+     "a": "700 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Three Major Landforms' refers to.",
+     "a": "Land takes three major forms: mountains rising high with steep slopes, plateaus standing as raised flat lands, and plains lying low and level; a road trip from Chhota Nagpur to Almora crosses all three.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Three Major Landforms'.",
+     "a": "The same journey can climb a plateau, cross a plain and wind up a mountain, meeting new life at each step.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Three Major Landforms', in plain ASCII form.",
+     "a": "land = mountains + plateaus + plains",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.3.2",
+   "title": "Life in the Mountains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Life in the Mountains' refers to.",
+     "a": "Mountains have thin air, steep slopes and cold climate; people terrace the slopes, rear sheep or grow fruit, and mountain culture, from pilgrim routes to mountain homes, grows out of this hard, beautiful life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Life in the Mountains'.",
+     "a": "Mountains both challenge and shelter: they test travel and farming yet guard rivers and forests.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Life in the Mountains' taught, and from which source text?",
+     "a": "Mountains (source: fees103.txt, Mountains)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.3.3",
+   "title": "Life on Plateaus and Plains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Life on Plateaus and Plains' refers to.",
+     "a": "Plateaus are raised flatlands, often rich in minerals and suited to grazing or special crops, while plains, level and watered by rivers, carry the densest farms, towns and transport routes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Life on Plateaus and Plains'.",
+     "a": "Flat land is easy land: plains feed and house the most people, plateaus store minerals beneath.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Life on Plateaus and Plains' taught, and from which source text?",
+     "a": "Plateaus and Plains (source: fees103.txt, Plateaus and Plains)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.3.4",
+   "title": "The Hymn to the Earth: Landforms in Culture",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Hymn to the Earth: Landforms in Culture' refers to.",
+     "a": "The chapter opens with the Atharva Veda's hymn to the Earth, which calls the land our mother bearing heights, slopes and plains; landforms are thus part of prayer and culture, not just geography.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Hymn to the Earth: Landforms in Culture'.",
+     "a": "Ancient verses saw the Earth as a mother to be respected, binding geography with gratitude.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Hymn to the Earth: Landforms in Culture' taught, and from which source text?",
+     "a": "Opening verses (source: fees103.txt, Opening verses)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

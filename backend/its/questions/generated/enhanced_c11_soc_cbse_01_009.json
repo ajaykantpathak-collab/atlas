@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_009",
+   "title": "c11_soc_cbse_01_009",
+   "questions": [
+    {
+     "q": "According to standard Western textbook definitions (e.g., Giddens), what is the primary distinction between the subject matter of sociology and social anthropology?",
+     "a": "Correct answer: Sociology is defined as \"the study of human groups and societies, giving particular emphasis to the analysis of the industrialised world,\" while social anthropology is defined as \"the study of simple societies of non-western and therefore 'other' cultures.\" A wrong answer (e.g., \"sociology studies cities, anthropology studies villages\") reveals the student is confusing the *typical setting* with the *definitional criterion* (industrialised vs. simple/non-Western). This misconception prevents understanding why the distinction collapses in India, where villages are part of the industrialised world.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why M.N. Srinivas argued that in India \"the 'other' can be encountered literally next door,\" and how this undermines the Western sociology/anthropology divide.",
+     "a": "Correct answer: In the West, anthropologists travelled to distant colonies to study \"exotic\" others, creating a sharp geographic and cultural distance. In India, extreme diversity (caste, tribe, religion, language, rural/urban) exists side-by-side; a sociologist studying a modern factory finds kinship and caste networks (traditional anthropological subjects) operating within it. A wrong answer that only mentions \"India has diversity\" without linking it to the *collapse of the distance* required for the Western anthropological gaze shows the student has not grasped the structural reason for convergence.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies a Santhal tribal community in Jharkhand that has been displaced by a mining project. She uses a household survey (quantitative) to measure income loss and participant observation (qualitative) to understand cultural disruption. Identify which method is traditionally associated with which discipline, and explain why this mixed-method approach exemplifies the convergence in India.",
+     "a": "Correct answer: Surveys are traditionally sociological (studying parts of complex societies); participant observation/ethnography is traditionally anthropological (studying simple societies holistically). The convergence occurs because the Santhal community is no longer a \"bounded simple society\" — it is enmeshed in global capitalism (mining), state policy (displacement), and urban labour markets. Studying it requires both the macro/quantitative lens (sociology) and the micro/qualitative lens (anthropology). A wrong answer that assigns methods rigidly (\"surveys are only for sociology\") fails to see that the *nature of the object* (a tribe in a globalised world) demands methodological pluralism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Western and Indian trajectories of sociology and social anthropology using the following axes: (a) subject matter, (b) typical method, (c) relationship between the disciplines. Present your answer as a three-row comparison table.",
+     "a": "Correct answer: \n| Axis | Western Trajectory | Indian Trajectory |\n|------|-------------------|-------------------|\n| Subject Matter | Sociology: industrial/modern societies; Anthropology: simple/non-Western societies | Both study the full continuum: tribes, villages, cities, diaspora, global processes |\n| Typical Method | Sociology: survey/quantitative; Anthropology: ethnography/qualitative | Both use mixed methods; sociologists do ethnography, anthropologists use surveys |\n| Relationship | Rigid divide; separate departments, journals, theories | Porous boundary; shared departments (e.g., \"Department of Sociology and Social Anthropology\"), frequent collaboration |\n\nA wrong answer that claims \"India followed the Western model initially but later merged\" misses the point that Indian sociology *always* studied \"native\" societies (including tribes) from the start (e.g., S.C. Dube, M.N. Srinivas), so the divide was never fully institutionalised.",
+     "self_check": true
+    },
+    {
+     "q": "\"Globalisation has made the distinction between sociology and social anthropology obsolete everywhere, not just in India.\" Evaluate this statement using evidence from the text and your own reasoning.",
+     "a": "Correct evaluation: The statement is partially true but overstated. Globalisation *has* eroded the \"boundedness\" of simple societies (the text notes \"the assumption of studying a simple society was that it was bounded. We know this is not so today\"), forcing Western anthropology to study \"at home\" and global processes. However, the *institutional* divide (separate departments, distinct canonical theories) remains stronger in the West than in India, where the convergence was also driven by *colonial history* and *internal diversity* — factors not universal. A weak answer simply agrees without noting the persistent institutional differences in the West.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research project on \"The Impact of Digital Gig Work on Family Structure in a Tier-2 Indian City\" that explicitly integrates one sociological and one anthropological method. State the research question, the two methods, and one specific way the findings from each method would be triangulated.",
+     "a": "Expected answer: Research question: \"How does algorithmic management in gig work renegotiate gender roles and intergenerational authority in middle-class households in Jaipur?\" Sociological method: Structured survey of 300 gig-worker households measuring income volatility, working hours, and decision-making indices. Anthropological method: Six-month ethnography with three families, including participant observation of app-use routines and in-depth narrative interviews. Triangulation: Survey identifies statistical correlation between algorithmic penalty rates and women's reduced say in financial decisions; ethnography reveals the *mechanism* — how real-time tracking creates \"time poverty\" that men cite to justify excluding women from budget meetings. A poor answer lists two methods without showing how they *speak to each other* (triangulation), treating them as parallel rather than integrated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_007",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_007",
+   "title": "c6_biology_ch09_007",
+   "questions": [
+    {
+     "q": "What are the three main roles that nutrients play in our body?",
+     "a": "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases. An answer that only mentions \"energy\" reveals that the student is ignoring the vital \"protective\" and \"building\" functions of food.",
+     "self_check": true
+    },
+    {
+     "q": "If someone only eats rice every day, why is their diet not \"balanced\"?",
+     "a": "While rice provides energy (carbohydrates), it lacks sufficient protein for repair and protective vitamins/minerals. A student answering \"because they will get fat\" misses the point of nutrition, focusing only on weight instead of the lack of variety in essential nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a plate with roti, dal, a little ghee, and spinach, which components are you providing for your body?",
+     "a": "Roti provides carbohydrates, dal provides protein, ghee provides fat, and spinach provides vitamins/minerals. A student who misses one component fails to recognize the specific function of common Indian food ingredients.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a packet of potato wafers with a bowl of roasted chana. Why is one considered \"junk food\" while the other is a healthier snack?",
+     "a": "Potato wafers are high in fat/sugar but low in nutrients (vitamins/minerals/protein), while roasted chana is rich in protein and fibre. A student who says \"wafers taste better\" is confusing personal preference with nutritional value.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to eat fruits and vegetables in their raw or lightly cooked state when possible?",
+     "a": "Cooking at high heat can destroy sensitive nutrients like Vitamin C. A student who says \"because it tastes better\" is ignoring the chemical reality of nutrient degradation mentioned in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost \"balanced\" lunch plate using local Indian staples.",
+     "a": "A good answer would include a cereal (e.g., rice or roti), a pulse (e.g., moong or tuar dal), and a seasonal vegetable (e.g., carrot or leafy greens). A poor answer would include items like \"biscuits and soda,\" failing to meet the requirement for protein and protective nutrients.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 102,
+ "chapter_title": "Principles of Management",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs102.txt",
+ "concepts": [
+  {
+   "id": "lebs.102.1",
+   "title": "Nature of Management Principles",
+   "section": "Nature of Principles of Management",
+   "definition": "The fundamental characteristics of management guidelines, which are flexible, universally applicable, and derived from observation and experimentation.",
+   "formula": "N/A",
+   "key_idea": "Management principles are adaptable guidelines rather than rigid scientific laws.",
+   "textbook_ref": "lebs102.txt lines 33-36",
+   "question_patterns": [
+    "What is the nature of management principles?",
+    "Explain why management principles are considered flexible.",
+    "How are management principles universally applicable?",
+    "Discuss the behavioral nature of management principles."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify characteristics",
+     "explain": "Check if the principle is universal, flexible, and based on cause-and-effect."
+    },
+    {
+     "step": 2,
+     "action": "evaluate application",
+     "explain": "Determine if the principle depends on the situation (contingent) or aims to influence human behavior."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.2",
+   "title": "Significance of Management Principles",
+   "section": "Significance of Principles of Management",
+   "definition": "The practical utility of management rules in improving efficiency, optimizing resource use, and facilitating scientific decision-making.",
+   "formula": "N/A",
+   "key_idea": "Principles provide managers with insights into reality and help in meeting environmental changes.",
+   "textbook_ref": "lebs102.txt lines 37-39",
+   "question_patterns": [
+    "Why are management principles significant?",
+    "How do principles help in optimum utilization of resources?",
+    "Explain the role of principles in scientific decision making.",
+    "How do management principles fulfill social responsibilities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess utility",
+     "explain": "Analyze how the principle adds to managerial knowledge and reduces trial-and-error wastage."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.3",
+   "title": "Taylor's Principles of Scientific Management",
+   "section": "Principles of Scientific Management",
+   "definition": "A set of four core principles focusing on replacing traditional 'rule of thumb' with scientific analysis and fostering harmony between labor and management.",
+   "formula": "N/A",
+   "key_idea": "Finding the 'one best way' through science, harmony, and cooperation.",
+   "textbook_ref": "lebs102.txt lines 43-47",
+   "question_patterns": [
+    "State the principles of scientific management.",
+    "Explain 'Science, not Rule of Thumb'.",
+    "What is 'Harmony, Not Discord' in Taylor's theory?",
+    "How does cooperation differ from individualism in management?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify scientific method",
+     "explain": "Check if the task is analyzed to find the most efficient method."
+    },
+    {
+     "step": 2,
+     "action": "verify cooperation",
+     "explain": "Ensure management and workers are working together with shared goals."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.4",
+   "title": "Functional Foremanship",
+   "section": "Functional Foremanship",
+   "definition": "A technique that extends the division of labor to the shop floor by using eight specialized supervisors to guide workers in planning and execution.",
+   "formula": "N/A",
+   "key_idea": "Separating planning from execution through specialized supervision.",
+   "textbook_ref": "lebs102.txt lines 47-48",
+   "question_patterns": [
+    "What is functional foremanship?",
+    "Identify the eight specialists in functional foremanship.",
+    "How does functional foremanship ensure specialization?",
+    "Distinguish between planning incharge and production incharge."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize supervisors",
+     "explain": "Group supervisors into Planning (Instruction Card, Route, Time/Cost, Disciplinarian) and Production (Speed, Gang, Repair, Inspector)."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.5",
+   "title": "Standardisation and Simplification of Work",
+   "section": "Standardisation and Simplification of Work",
+   "definition": "Standardisation involves setting benchmarks for every business activity, while simplification aims to eliminate unnecessary diversity in products.",
+   "formula": "N/A",
+   "key_idea": "Uniformity and reduction of waste through fixed types and sizes.",
+   "textbook_ref": "lebs102.txt lines 48-49",
+   "question_patterns": [
+    "Differentiate between standardisation and simplification.",
+    "What are the objectives of standardisation?",
+    "How does simplification help in cost reduction?",
+    "Explain the importance of setting benchmarks in production."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for benchmarks",
+     "explain": "Verify if standards are set for quality, time, or methods."
+    },
+    {
+     "step": 2,
+     "action": "check for variety reduction",
+     "explain": "Identify if superfluous sizes or types are being removed."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.6",
+   "title": "Time Study and Standard Output",
+   "section": "Time Study",
+   "definition": "A technique to determine the standard time required for a job to fix fair daily work and determine labor requirements.",
+   "formula": "standard_output = (total_shift_time - rest_time) / time_per_unit",
+   "key_idea": "Calculating the expected volume of work based on measured time elements.",
+   "textbook_ref": "lebs102.txt lines 50",
+   "question_patterns": [
+    "Calculate the standard output for an 8-hour shift.",
+    "Find the number of units a worker should produce given the standard time.",
+    "Determine the standard task per day.",
+    "How much output is expected if one unit takes 20 minutes?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net working time",
+     "explain": "Subtract rest intervals from the total shift duration.",
+     "compute": "working_time = total_shift_time - rest_time"
+    },
+    {
+     "step": 2,
+     "action": "calculate output",
+     "explain": "Divide total working time by the time taken per unit.",
+     "compute": "standard_output = working_time / time_per_unit"
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.7",
+   "title": "Differential Piece Wage System",
+   "section": "Differential Piece Wage System",
+   "definition": "A wage method that uses different rates for efficient and inefficient workers to motivate higher productivity.",
+   "formula": "earnings = units_produced * rate_per_unit",
+   "key_idea": "Rewarding performance above standard with a higher unit rate.",
+   "textbook_ref": "lebs102.txt lines 50-51",
+   "question_patterns": [
+    "Calculate the daily earnings of an efficient worker.",
+    "Find the wage difference between two workers based on output.",
+    "How much will a worker earn if they produce 11 units at a higher rate?",
+    "Calculate total wages under Taylor's differential system."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine total earnings",
+     "explain": "Multiply the actual units produced by the specific rate assigned to that performance level.",
+     "compute": "earnings = units_produced * rate_per_unit"
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.8",
+   "title": "Mental Revolution",
+   "section": "Mental Revolution",
+   "definition": "A total change in the attitude of management and workers from competition to cooperation, focusing on increasing the organizational surplus.",
+   "formula": "N/A",
+   "key_idea": "Shifting from conflict over surplus to cooperation for growth.",
+   "textbook_ref": "lebs102.txt lines 51",
+   "question_patterns": [
+    "What is meant by mental revolution?",
+    "How does mental revolution benefit both workers and management?",
+    "Explain the change in attitude required for scientific management.",
+    "Why is cooperation emphasized over competition?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze attitude shift",
+     "explain": "Check if both parties prioritize mutual gain and increased output over individual demands."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.9",
+   "title": "Unity of Command vs Unity of Direction",
+   "section": "Unity of Command / Unity of Direction",
+   "definition": "Unity of Command ensures a subordinate has only one boss, while Unity of Direction ensures one plan for activities with the same objective.",
+   "formula": "N/A",
+   "key_idea": "Command prevents dual subordination; Direction prevents overlapping activities.",
+   "textbook_ref": "lebs102.txt lines 56-57",
+   "question_patterns": [
+    "Distinguish between Unity of Command and Unity of Direction.",
+    "What happens if Unity of Command is violated?",
+    "How does Unity of Direction affect the entire organization?",
+    "Identify the principle that prevents dual subordination."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check reporting lines",
+     "explain": "If a worker reports to two bosses, Unity of Command is violated."
+    },
+    {
+     "step": 2,
+     "action": "check departmental plans",
+     "explain": "If different units have separate heads and plans for the same goal, Unity of Direction is maintained."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.10",
+   "title": "Scalar Chain and Gang Plank",
+   "section": "Scalar Chain",
+   "definition": "The formal hierarchy of authority from top to bottom, with 'Gang Plank' allowing direct communication between same-level employees in emergencies.",
+   "formula": "N/A",
+   "key_idea": "Maintaining formal communication while allowing shortcuts for speed in crises.",
+   "textbook_ref": "lebs102.txt lines 58-59",
+   "question_patterns": [
+    "Explain the concept of Scalar Chain.",
+    "What is a Gang Plank and when is it used?",
+    "How does communication flow in a formal scalar chain?",
+    "Why is violating the scalar chain generally avoided?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace communication path",
+     "explain": "Follow the vertical line of authority from the sender to the receiver."
+    },
+    {
+     "step": 2,
+     "action": "identify emergency shortcut",
+     "explain": "Check if direct horizontal communication (Gang Plank) is used to bypass the chain."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.11",
+   "title": "Centralisation and Decentralisation",
+   "section": "Centralisation and Decentralisation",
+   "definition": "Centralisation refers to the concentration of decision-making at the top, while decentralisation is its dispersal across organizational levels.",
+   "formula": "N/A",
+   "key_idea": "Balancing top-level control with subordinate empowerment.",
+   "textbook_ref": "lebs102.txt lines 58",
+   "question_patterns": [
+    "Define centralisation and decentralisation.",
+    "How should an organization balance these two concepts?",
+    "Give an example of decentralisation in a national context.",
+    "Why do large organizations require more decentralisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate authority distribution",
+     "explain": "Determine if final authority is retained at the top or shared with lower levels."
+    }
+   ]
+  },
+  {
+   "id": "lebs.102.12",
+   "title": "Esprit De Corps",
+   "section": "Esprit De Corps",
+   "definition": "A principle advocating for team spirit, unity, and harmony to replace individualistic 'I' with a collective 'We'.",
+   "formula": "N/A",
+   "key_idea": "Fostering mutual trust and belongingness to minimize penalties.",
+   "textbook_ref": "lebs102.txt lines 62",
+   "question_patterns": [
+    "Explain the principle of Esprit De Corps.",
+    "How can a manager foster team spirit?",
+    "Why is 'We' preferred over 'I' in management conversations?",
+    "Discuss the impact of team unity on organizational objectives."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify team-building actions",
+     "explain": "Check for practices that promote coordination and collective identity."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs102.txt lines 50-51",
+   "concept": "lebs.102.7",
+   "question_type": "compute",
+   "question_pattern": "Standard output is {std_units} units. Rate for >= {std_units} is {high_rate} and for < {std_units} is {low_rate}. Calculate earnings for a worker producing {actual_units} units.",
+   "extracted_variables": {
+    "std_units": "standard daily output",
+    "high_rate": "wage rate for efficient workers",
+    "low_rate": "wage rate for inefficient workers",
+    "actual_units": "units produced by the worker"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total earnings",
+     "explain": "Multiply actual units by the applicable rate based on performance.",
+     "compute": "earnings = actual_units * high_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs102.txt lines 50",
+   "concept": "lebs.102.6",
+   "question_type": "compute",
+   "question_pattern": "A worker's shift is {total_shift_time} hours. They take {rest_time} hour for lunch. If it takes {time_per_unit} minutes to make one unit, what is the standard output?",
+   "extracted_variables": {
+    "total_shift_time": "total hours in shift",
+    "rest_time": "hours of rest",
+    "time_per_unit": "minutes required per unit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net working time",
+     "explain": "Subtract rest from total time.",
+     "compute": "working_time = total_shift_time - rest_time"
+    },
+    {
+     "step": 2,
+     "action": "convert time to minutes",
+     "explain": "Multiply hours by 60.",
+     "compute": "working_minutes = working_time * 60"
+    },
+    {
+     "step": 3,
+     "action": "calculate output",
+     "explain": "Divide total minutes by minutes per unit.",
+     "compute": "standard_output = working_minutes / time_per_unit"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "lebs102.txt lines 65",
+   "questions": [
+    "What makes principles of management flexible?",
+    "State the main objective of time study.",
+    "Name the principle that is an extension of the 'harmony, not discord'.",
+    "Which technique is used by Taylor for distinguishing efficient and inefficient workers?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "lebs102.txt lines 65",
+   "questions": [
+    "How is the Principle of 'Unity of Command' useful to management?",
+    "Explain the principle of 'Scalar Chain' and gang plank.",
+    "Define scientific management and state any three of its principles."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

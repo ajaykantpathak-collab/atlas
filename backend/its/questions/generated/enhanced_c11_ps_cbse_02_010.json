@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_010",
+   "title": "c11_ps_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the 'harm principle' as articulated by J.S. Mill, and what distinction does it draw between self-regarding and other-regarding actions?",
+     "a": "The harm principle states that the only justification for interfering with an individual's liberty is to prevent harm to others. Self-regarding actions affect only the actor and should be free from state interference; other-regarding actions affect others and may be constrained. A wrong answer (e.g., \"state can interfere for the person's own good\") reveals a paternalistic misunderstanding that Mill explicitly rejects, confusing positive liberty with negative liberty.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution use the phrase 'reasonable restrictions' (Article 19(2)) instead of allowing absolute freedom of speech and expression?",
+     "a": "The Constitution recognizes that unlimited freedom for one can become tyranny for others; reasonable restrictions balance individual liberty with public order, decency, morality, security of the state, and protection of marginalized groups (equality). A wrong answer (e.g., \"to give government power to suppress dissent\") reveals a cynical misconception ignoring the constitutional design that restrictions must be reasonable, justiciable, and proportionate — not arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law banning all protests within 500 meters of legislative assemblies to ensure security and smooth functioning. Apply the harm principle and the test of reasonable restrictions to analyze whether this law balances freedom of assembly (Article 19(1)(b)) with security.",
+     "a": "The law targets other-regarding actions (protests can disrupt governance and public order), so harm principle allows constraints. However, a total ban within 500m is likely disproportionate — it severely restricts the positive liberty of citizens to petition representatives. A narrowly tailored restriction (e.g., regulating time, manner, noise levels) would be more reasonable. A wrong answer accepting the blanket ban reveals failure to apply proportionality; a wrong answer rejecting all restrictions reveals absolutist misunderstanding of Article 19(2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare how negative liberty and positive liberty perspectives would differently evaluate a government policy providing free coaching for competitive exams to economically weaker sections (EWS) to promote equality of opportunity.",
+     "a": "Negative liberty focuses on absence of coercion: the policy is justified only if funded voluntarily, not through taxation (seen as coercion). Positive liberty focuses on enabling conditions: the policy expands real freedom by removing structural barriers (poverty) so EWS students can actually exercise their talents. A wrong answer conflating the two (e.g., \"both support it because it helps people\") reveals inability to distinguish the philosophical foundations — negative liberty worries about state overreach, positive liberty worries about capacity to act.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Reservation in public employment (Article 16(4)) violates the freedom of meritocratic competition and therefore should be abolished to protect liberty.\" Use the framework of balancing freedom with equality.",
+     "a": "The statement prioritizes formal negative liberty (no interference in competition) over substantive equality. However, the Constitution adopts positive liberty: true freedom requires a level playing field. Reservation addresses structural inequality (caste barriers) that make competition unfree for marginalized groups. Abolishing it would entrench privilege, not expand freedom. A wrong answer agreeing with the statement reveals a formalistic, ahistorical view of liberty ignoring the constitutional commitment to transformative equality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 'reasonable restriction' clause for a hypothetical law regulating social media algorithms that amplify hate speech, balancing freedom of expression (Article 19(1)(a)) with equality (Article 14) and security (public order). Your clause must specify the harm targeted, the proportionality test, and a safeguard against misuse.",
+     "a": "A good clause: \"Platforms must disable algorithmic amplification of content adjudicated as hate speech by an independent tribunal, provided the restriction is narrowly tailored to prevent incitement to violence/discrimination, reviewed quarterly, and does not apply to political satire or historical analysis.\" A poor answer (e.g., \"ban all hate speech algorithms\") reveals absolutism or vagueness, failing the specificity and proportionality required by Article 19(2) jurisprudence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

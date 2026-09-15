@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_010",
+   "title": "c11_cs_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the total number of times the statement `print(i, j)` will execute in the following code?\n```python\nfor i in range(3):\n    for j in range(4):\n        print(i, j)\n```",
+     "a": "The statement executes 12 times. The outer loop runs 3 times (i = 0,1,2) and for each outer iteration, the inner loop runs 4 times (j = 0,1,2,3), giving 3 × 4 = 12 total iterations. A wrong answer of 7 (3+4) reveals the student thinks loops run sequentially rather than multiplicatively; an answer of 3 or 4 reveals they think only one loop runs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the inner loop variable `j` resets to its start value (0) on every iteration of the outer loop in a nested `for` loop structure.",
+     "a": "The inner loop is re-evaluated from scratch each time the outer loop body begins a new iteration because the `for j in range(4):` statement is *inside* the outer loop's block. Python creates a new iterator for `range(4)` every time that line is reached. A wrong answer claiming \"j continues from where it left off\" reveals confusion between a single loop's continuation and the re-initialization of a nested loop.",
+     "self_check": true
+    },
+    {
+     "q": "Write a nested `for` loop using `range()` to print the following multiplication table pattern for numbers 1 to 3:\n```\n1 2 3\n2 4 6\n3 6 9\n```",
+     "a": "```python\nfor i in range(1, 4):\n    for j in range(1, 4):\n        print(i * j, end=' ')\n    print()\n```\nSteps: outer loop `i` = 1,2,3; inner loop `j` = 1,2,3; print product with space; after inner loop, `print()` moves to next line. A wrong answer missing the `print()` after the inner loop produces a single line; using `range(3)` instead of `range(1,4)` gives 0-based products.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total iterations and the sequence of `(i, j)` pairs produced by these two snippets. Are they equivalent? Why or why not?\n**Snippet A:**\n```python\nfor i in range(2):\n    for j in range(3):\n        print(i, j)\n```\n**Snippet B:**\n```python\nfor j in range(3):\n    for i in range(2):\n        print(i, j)\n```",
+     "a": "Both produce 6 iterations but the **order of pairs differs**. Snippet A: (0,0), (0,1), (0,2), (1,0), (1,1), (1,2) — `i` changes slowly. Snippet B: (0,0), (1,0), (0,1), (1,1), (0,2), (1,2) — `j` changes slowly. They are not equivalent if order matters (e.g., row-major vs column-major traversal). A student saying \"they are the same\" ignores the nesting order's effect on sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to print a 3×3 grid of asterisks but gets 9 lines each with one asterisk. Identify the error and correct it.\n```python\nfor i in range(3):\n    for j in range(3):\n        print('*')\n```",
+     "a": "The error: `print('*')` defaults to `end='\\n'`, so each asterisk prints on a new line. Fix: use `print('*', end=' ')` inside the inner loop and add a plain `print()` after the inner loop to move to the next row. A student who only changes `end=' '` but forgets the outer `print()` gets one long line of 9 asterisks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nested loop program that prints a right-angled triangle pattern of height 5 where row `r` contains `r` stars (row 1: 1 star, row 2: 2 stars, ..., row 5: 5 stars). Explain how the inner loop's range depends on the outer loop variable.",
+     "a": "```python\nfor i in range(1, 6):\n    for j in range(i):\n        print('*', end='')\n    print()\n```\nThe inner loop `range(i)` makes the number of columns equal to the current row number `i`. A poor answer uses a constant inner range (producing a rectangle) or `range(5)` (producing 5 stars every row), showing they don't grasp dependency between loop variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

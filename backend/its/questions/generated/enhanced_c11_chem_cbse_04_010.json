@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_010",
+   "title": "c11_chem_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define hydrogen bonding and name the two types with one example each.",
+     "a": "Hydrogen bonding is the electrostatic attraction between a hydrogen atom covalently bonded to a highly electronegative atom (N, O, or F) and another electronegative atom (N, O, or F) with a lone pair. The two types are: (i) Intermolecular hydrogen bonding — between molecules, e.g., H₂O, HF, NH₃, alcohols; (ii) Intramolecular hydrogen bonding — within the same molecule, e.g., o-nitrophenol, o-hydroxybenzaldehyde. A wrong answer reveals confusion between hydrogen bonding and covalent bonding (if the student calls it a \"bond\" without \"interaction/force\") or failure to restrict the electronegative atoms to only N, O, F (if they include Cl, S, etc.).",
+     "self_check": true
+    },
+    {
+     "q": "Hydrogen fluoride (HF) forms strong hydrogen bonds, but hydrogen chloride (HCl) does not, even though both have H–X bonds and chlorine is electronegative (3.16). Explain why, using the concepts of electronegativity and atomic size.",
+     "a": "Although chlorine's electronegativity (3.16) is close to nitrogen's (3.04), HCl does not form significant hydrogen bonds because: (1) Chlorine's larger atomic radius (99 pm vs 71 pm for N) disperses the negative charge over a larger volume, reducing charge density and electrostatic attraction to H⁺δ; (2) The H–Cl bond is less polar than H–F (ΔEN = 0.96 vs 1.78), so the δ⁺ on H is smaller; (3) Chlorine's lone pairs occupy more diffuse 3p orbitals, overlapping poorly with the 1s orbital of hydrogen. A wrong answer focusing only on electronegativity reveals the misconception that electronegativity alone determines H-bonding capability, ignoring the critical role of atomic size and charge density.",
+     "self_check": true
+    },
+    {
+     "q": "Predict which of the following compounds can form intermolecular hydrogen bonds in the liquid state: (a) CH₃OH, (b) CH₃SH, (c) CH₃F, (d) CH₃NH₂. Justify each prediction.",
+     "a": "(a) CH₃OH — YES. Contains O–H bond (H bonded to O) and O has two lone pairs → can donate and accept H-bonds. (b) CH₃SH — NO. S is not among N, O, F; S–H bond polarity is low (ΔEN = 0.38) and S's larger size reduces charge density. (c) CH₃F — NO. Contains C–F bond but NO H bonded to F; the H atoms are on carbon (C–H bonds, ΔEN ≈ 0.35). Fluorine can accept H-bonds but cannot donate because no H–F bond exists. (d) CH₃NH₂ — YES. Contains N–H bonds (two H atoms on N) and N has a lone pair → can donate and accept H-bonds. A wrong answer for (c) reveals the common error of thinking any molecule containing F can H-bond, ignoring the requirement that H must be directly attached to N, O, or F.",
+     "self_check": true
+    },
+    {
+     "q": "The boiling points of the Group 16 hydrides are: H₂O (100 °C), H₂S (–60 °C), H₂Se (–41 °C), H₂Te (–2 °C). For Group 17: HF (19.5 °C), HCl (–85 °C), HBr (–67 °C), HI (–35 °C). For Group 15: NH₃ (–33 °C), PH₃ (–88 °C), AsH₃ (–62 °C), SbH₃ (–17 °C). Analyze these trends and explain why the first member of each group shows an anomalously high boiling point.",
+     "a": "In each group, the first member (H₂O, HF, NH₃) shows an anomalously high boiling point because it forms extensive intermolecular hydrogen bonding networks. For heavier congeners (H₂S, H₂Se, H₂Te; HCl, HBr, HI; PH₃, AsH₃, SbH₃), boiling points increase down the group due to increasing London dispersion forces (larger electron clouds, greater polarizability). The anomaly magnitude follows: H₂O > HF > NH₃, reflecting the combined effect of electronegativity (F > O > N) and number of H-bonds per molecule (H₂O: 2 donors + 2 acceptors = 4 H-bonds/molecule in tetrahedral network; HF: 1 donor + 3 acceptors but linear chains; NH₃: 3 donors + 1 acceptor but pyramidal geometry limits network formation). A wrong answer that attributes the trend solely to molecular mass or dispersion forces misses the specific directional H-bonding network that overrides the mass trend for the first member.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Intramolecular hydrogen bonding increases the boiling point of a compound because it adds extra attractive forces within the molecule.\" Evaluate this statement and correct it with a specific example.",
+     "a": "The statement is FALSE. Intramolecular hydrogen bonding DECREASES the boiling point because it \"ties up\" the H-bond donor and acceptor sites within the same molecule, preventing them from forming intermolecular hydrogen bonds with neighbouring molecules. This reduces the overall intermolecular forces in the liquid. Example: o-Nitrophenol (intramolecular H-bond between –OH and –NO₂) boils at 214 °C, while p-nitrophenol (intermolecular H-bonding between molecules) boils at 279 °C. The para isomer's higher boiling point confirms that intermolecular H-bonding dominates bulk properties. A wrong answer reveals the misconception that \"more H-bonds = higher boiling point\" without distinguishing intra- vs intermolecular location.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment using only distillation apparatus and thermometers to distinguish between a sample of o-nitrophenol and p-nitrophenol. Explain the principle and expected observations.",
+     "a": "**Experiment**: Perform simple distillation of each compound separately. **Principle**: o-Nitrophenol has intramolecular H-bonding (–OH⋯O=N–), making it more volatile (lower boiling point, 214 °C) and steam volatile. p-Nitrophenol has intermolecular H-bonding, giving it a higher boiling point (279 °C) and no steam volatility. **Expected observations**: o-Nitrophenol distills over at a lower temperature and co-distills with steam (can be separated by steam distillation). p-Nitrophenol remains in the distillation flask at the same temperature and does not co-distill with steam. **Alternative**: Measure solubility in water — o-nitrophenol is less soluble (intramolecular H-bonding satisfies its own H-bonding sites) while p-nitrophenol is more soluble (free –OH and –NO₂ groups interact with water). A poor answer would suggest melting point (both are solids with similar m.p.) or fail to connect the observation to the intra- vs intermolecular H-bonding distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

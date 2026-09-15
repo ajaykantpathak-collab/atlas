@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_004",
+   "title": "c12_chem_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the nucleophile in the key C–N bond-forming step of Gabriel phthalimide synthesis, and what is its structure?",
+     "a": "The nucleophile is the potassium salt of phthalimide (phthalimide anion). It has a nitrogen anion delocalized over two carbonyl groups: a five-membered cyclic imide with the negative charge on nitrogen, resonance-stabilized by the two adjacent C=O groups. A wrong answer (e.g., \"phthalimide itself\" or \"KOH\") reveals the student does not recognize that deprotonation is essential to generate the nucleophilic nitrogen; they may attempt the alkylation on neutral phthalimide, which is far less reactive.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Gabriel synthesis reliably stop at the primary amine and not produce secondary/tertiary amines or quaternary ammonium salts, unlike direct ammonolysis of alkyl halides?",
+     "a": "In Gabriel synthesis, the nitrogen is part of a cyclic imide (phthalimide). After the single SN2 alkylation, the nitrogen becomes an N-alkylphthalimide. The nitrogen's lone pair is delocalized into two carbonyl groups, making it far less nucleophilic; moreover, the bulky phthaloyl group sterically hinders a second SN2 attack. In direct ammonolysis, the product primary amine (RNH₂) is still a good nucleophile and attacks more alkyl halide, leading to a mixture. A wrong answer (e.g., \"because excess ammonia is used\") confuses Gabriel with ammonolysis conditions and misses the structural protection principle.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to prepare 2-phenylethanamine (C₆H₅CH₂CH₂NH₂) via Gabriel synthesis. Which alkyl halide should they use, and will the reaction work efficiently? Justify.",
+     "a": "Use 2-phenylethyl bromide (or chloride), C₆H₅CH₂CH₂Br. This is a primary benzylic halide; the benzylic position undergoes SN2 readily (even enhanced by resonance stabilization of the transition state), so the reaction works well. A wrong choice like benzyl chloride (C₆H₅CH₂Cl) would give phenylmethanamine (benzylamine), not the target; choosing chlorobenzene (aryl halide) would fail because aryl halides do not undergo SN2. An answer that picks the wrong halide or claims chlorobenzene works reveals confusion between alkyl/aryl halides and SN2 reactivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hydrolysis step of Gabriel synthesis (alkaline hydrolysis of N-alkylphthalimide) with the hydrolysis of an amide. What is the key structural difference in the substrate that makes phthalimide hydrolysis require more forcing conditions (concentrated NaOH, reflux) than simple amide hydrolysis?",
+     "a": "N-Alkylphthalimide is a cyclic imide with two carbonyl groups attached to the same nitrogen; hydrolysis must cleave two N–C(O) bonds to release the amine, whereas a simple amide (R–C(O)NH₂) has only one N–C(O) bond. The imide nitrogen is also less basic/more electron-deficient due to two electron-withdrawing carbonyls, making the carbonyl carbons more electrophilic but the overall cleavage of both bonds requires prolonged heating with strong base. A wrong answer that treats it as a normal amide hydrolysis underestimates the reagent strength/time needed and may not account for the dicarboxylate byproduct.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Gabriel phthalimide synthesis can be used to prepare p-toluidine (4-methylaniline) from p-tolyl chloride.\" Is it correct? Explain.",
+     "a": "Incorrect. p-Tolyl chloride is an aryl halide (chlorine attached directly to the benzene ring). Aryl halides do not undergo SN2 reactions under normal conditions because the C–Cl bond has partial double-bond character (resonance) and the ring sterically hinders backside attack. The phthalimide anion cannot displace chloride from an aryl halide. p-Toluidine is instead made by nitration of toluene followed by reduction, or by ammonolysis of p-tolyl halide under high pressure/temperature (not Gabriel). A student who says \"yes\" confuses benzyl halides (benzylic, SN2 works) with aryl halides (vinylic/aryl, SN2 fails).",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step sequence (starting from a commercially available alkyl halide) to prepare 3-aminopropanenitrile (NC–CH₂CH₂CH₂NH₂) using Gabriel synthesis. Show all reagents and intermediates.",
+     "a": "Step 1: React 3-bromopropanenitrile (BrCH₂CH₂CH₂CN) with potassium phthalimide in ethanol → N-(3-cyanopropyl)phthalimide. Step 2: Alkaline hydrolysis (conc. NaOH, reflux) → 3-aminopropanenitrile + sodium phthalate. The nitrile group survives both steps (stable to SN2 and base hydrolysis of imide). A good answer shows the correct halide, notes that the nitrile is not affected, and writes the hydrolysis products correctly. A poor answer might use a halide that would self-react (e.g., BrCH₂CH₂Br) or forget that hydrolysis gives the diamine precursor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

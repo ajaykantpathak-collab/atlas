@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_008",
+   "title": "c10_bio_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define speciation and state the two essential conditions required for it to occur.",
+     "a": "Speciation is the formation of new and distinct species in the course of evolution. The two essential conditions are: (1) isolation of populations (stopping gene flow) and (2) accumulation of genetic differences through natural selection, genetic drift, or mutation over time. A wrong answer that only mentions \"evolution\" or \"variation\" without isolation reveals the student thinks speciation is just any evolutionary change, not the splitting of lineages.",
+     "self_check": true
+    },
+    {
+     "q": "A population of beetles lives on a mountain range. A river changes course and splits the population into two groups that cannot cross. After 50,000 years, the two groups are brought together in a lab but do not mate. Explain why this is an example of allopatric speciation and identify the type of isolation that initiated the process.",
+     "a": "This is allopatric speciation because a geographical barrier (river) physically separated the population, stopping gene flow. Over time, genetic divergence accumulated due to different selection pressures or drift. The initial isolation was geographical (a pre-zygotic barrier). If the student says \"they became different species because they adapted differently\" without mentioning the barrier stopping gene flow first, they confuse the outcome with the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "In a population of flowering plants, some individuals flower in March and others in May due to a genetic mutation. They are pollinated by the same bee species. Over generations, the two groups stop exchanging genes. Identify the type of reproductive isolation and explain how this can lead to sympatric speciation.",
+     "a": "This is temporal isolation (a pre-zygotic barrier) because the populations are separated by breeding time, not geography. Since they live in the same area but reproduce at different times, gene flow stops without physical separation — this is sympatric speciation. A student who calls this \"geographical isolation\" or \"behavioural isolation\" does not understand that sympatric speciation can occur via ecological or temporal separation within the same habitat.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast pre-zygotic and post-zygotic reproductive isolation mechanisms. Give one example of each from Indian fauna.",
+     "a": "Pre-zygotic isolation prevents fertilization (e.g., different mating calls of Indian bullfrog vs. cricket frog). Post-zygotic isolation occurs after fertilization but reduces hybrid fitness (e.g., sterile mules from horse-donkey cross, though not native; a better Indian example: hybrid inviability in some Drosophila species in Western Ghats). A student who lists only \"geographical isolation\" for both or confuses hybrid sterility with inability to mate shows they cannot distinguish the stage at which gene flow is blocked.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Speciation always requires a physical barrier like a mountain or river.\" Evaluate this statement using the concept of sympatric speciation and provide a counterexample.",
+     "a": "The statement is false. Sympatric speciation occurs without geographical barriers, through mechanisms like polyploidy (common in plants), habitat differentiation, or sexual selection. Example: In the same lake, cichlid fish evolve different feeding morphs and mate assortatively, leading to new species. A student who agrees with the statement has only learned allopatric speciation and cannot apply the concept to non-geographical isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation study to test whether two similar-looking butterfly populations in the Western Ghats are separate species. List the observations you would make and the criteria you would use to conclude they are distinct species.",
+     "a": "Observe: (1) mating behaviour — do they court and mate with each other? (2) breeding time — same season? (3) habitat preference — same host plants? (4) hybrid viability — if they mate in captivity, are offspring fertile? Criteria: if they do not interbreed in nature (behavioural/temporal/ecological isolation) OR produce sterile/inviable hybrids, they are distinct species. A poor answer that only compares wing patterns reveals the student relies on morphology alone, ignoring the biological species concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

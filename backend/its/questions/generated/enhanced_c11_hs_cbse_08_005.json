@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_005",
+   "title": "c11_hs_cbse_08_005",
+   "questions": [
+    {
+     "q": "Define complementary feeding and state the exact age (in months) recommended by WHO for its initiation.",
+     "a": "Complementary feeding is the process of introducing solid/semi-solid foods alongside continued breastfeeding to meet the infant's growing nutritional needs; WHO recommends initiation at 6 completed months (180 days). A wrong answer (e.g., \"4 months\" or \"when baby gets teeth\") reveals confusion between developmental readiness signs and the fixed WHO/UNICEF policy threshold, risking early introduction that displaces breast milk and increases infection risk.",
+     "self_check": true
+    },
+    {
+     "q": "A mother introduces three new foods (mashed banana, suji kheer, and egg yolk) on the same day to her 6-month-old. Which guideline does this violate, and what are two specific risks of this practice?",
+     "a": "This violates the \"only one food at a time\" guideline. Risks: (1) inability to identify which food causes allergy/intolerance (e.g., egg allergy masked by banana), and (2) overwhelming the infant's limited digestive enzyme capacity, leading to indigestion or diarrhea. A wrong answer focusing only on \"confusion\" misses the immunological and physiological rationale for the 3-5 day waiting period between new foods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single meal for an 8-month-old infant using only locally available ingredients that provides: (a) semi-solid texture, (b) at least two food groups, (c) iron source, and (d) calorie density >1 kcal/g. List ingredients with approximate household measures.",
+     "a": "Example: 2 tbsp (30g) cooked rice + 1 tbsp (15g) well-mashed moong dal + 1 tsp (5g) ghee + 1 tbsp (15g) mashed spinach. Total ≈65g, ~130 kcal (2 kcal/g), provides cereal+pulse+fat+vegetable, iron from dal/spinach. A wrong answer using only fruit or diluted milk fails calorie density and iron requirements; using whole nuts/chunks fails texture safety.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient composition rationale for \"Indian Multipurpose Flour\" (groundnut flour: bengal gram 75:25) versus \"Win Food\" (pearl millet: green gram: groundnut: jaggery 5:2:2:2). Which better addresses the protein quality gap in cereal-based diets, and why?",
+     "a": "Win Food better addresses protein quality because it combines cereal (pearl millet) + pulse (green gram) + oilseed (groundnut) providing complementary amino acid profiles (lysine from pulse, methionine from cereal/groundnut), while Indian Multipurpose Flour lacks a cereal component. The jaggery in Win Food also adds calorie density and iron. A wrong answer focusing only on protein quantity misses the limiting amino acid concept essential for infant growth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since complementary foods must provide ≥10% energy from protein, adding commercial protein powder to infant porridge is an efficient way to meet this target.\" Support your evaluation with two physiological arguments.",
+     "a": "The statement is unsafe. Arguments: (1) Infant kidneys have low solute load capacity; excess protein increases renal solute load and dehydration risk, especially during diarrhea. (2) Commercial powders often contain added sugars, flavors, and non-essential amino acid profiles that displace nutrient-dense whole foods and disturb gut microbiota. A wrong answer endorsing protein powder ignores the \"food first\" principle and renal immaturity specific to infancy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-day complementary feeding schedule for a 9-month-old infant from a vegetarian household in Rajasthan, using only seasonal, locally available ingredients (include at least one traditional recipe like 'Poshak' or 'Balahar'). Ensure each day includes 3 meals + 1 snack, progresses in texture, and covers all food groups.",
+     "a": "Day 1: AM - Breastfeed; Breakfast - Ragi porridge (2 tbsp ragi flour + milk + jaggery); Lunch - Khichdi (rice+moong dal+carrot+ghee); Snack - Mashed banana; Dinner - Wheat porridge (Poshak mix 2 tbsp + water/milk). Day 2: Breakfast - Suji upma with grated bottle gourd; Lunch - Balahar porridge (wheat:groundnut:bengal gram 7:2:2) with spinach; Snack - Stewed apple; Dinner - Soft chapati soaked in dal. Day 3: Breakfast - Bajra porridge with jaggery; Lunch - Rice + mashed chana dal + pumpkin; Snack - Paneer crumbles; Dinner - Daliya (broken wheat) with milk. A poor answer repeats same cereal, lacks texture progression (puree to mash to soft chunks), or omits iron-rich foods daily.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

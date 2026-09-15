@@ -1,0 +1,536 @@
+{
+ "catalog": "catalog_class7_science_ch109.json",
+ "concepts": [
+  {
+   "id": "gesc.109.1",
+   "title": "Types of Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is motion?",
+     "a": "A body is in motion when its position changes with time relative to its surroundings.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of straight-line, circular and periodic motion.",
+     "a": "Car on a road; hands of a clock; a pendulum swing.",
+     "self_check": true
+    },
+    {
+     "q": "How do we know a body has moved?",
+     "a": "By comparing its position at two times with a fixed reference point.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.2",
+   "title": "Average Speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "speed",
+     "expr": "distance / time",
+     "explain": "speed is distance covered per unit time"
+    },
+    {
+     "step": 2,
+     "name": "half_speed",
+     "expr": "speed / 2",
+     "explain": "speed if the time doubled"
+    },
+    {
+     "step": 3,
+     "name": "speed_m_per_s",
+     "expr": "speed * 1000 / 3600",
+     "explain": "the same speed in metres per second"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A car covers 180 km in 4 h. Find its speed in km/h and in m/s.",
+     "vals": {
+      "distance": 180,
+      "time": 4
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "12.5 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist rides 30 km in 2 h. Calculate the speed in km/h.",
+     "vals": {
+      "distance": 30,
+      "time": 2
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "4.16667 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A bus travels 240 km in 5 h. What is its average speed?",
+     "vals": {
+      "distance": 240,
+      "time": 5
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "13.3333 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A train covers 420 km in 6 h. Find its speed in km/h and m/s.",
+     "vals": {
+      "distance": 420,
+      "time": 6
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "19.4444 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A scooter goes 90 km in 3 h. Compute its speed.",
+     "vals": {
+      "distance": 90,
+      "time": 3
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "8.33333 km/h",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.3",
+   "title": "Uniform and Non-Uniform Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is uniform motion?",
+     "a": "Covering equal distances in equal intervals of time - a straight, sloping distance-time graph.",
+     "self_check": true
+    },
+    {
+     "q": "What is non-uniform motion?",
+     "a": "Unequal distances in equal times - the body speeds up or slows down.",
+     "self_check": true
+    },
+    {
+     "q": "Which graph shows non-uniform motion?",
+     "a": "A curved (or changing-slope) distance-time graph.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.4",
+   "title": "Time Period of a Simple Pendulum",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "time_period",
+     "expr": "total_time / oscillations",
+     "explain": "time period is the time of one complete to-and-fro swing"
+    },
+    {
+     "step": 2,
+     "name": "double_period_rate",
+     "expr": "60 / (time_period * 2)",
+     "explain": "swings per minute at twice the period"
+    },
+    {
+     "step": 3,
+     "name": "oscillations_per_min",
+     "expr": "60 / time_period",
+     "explain": "swings completed in a minute"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A pendulum makes 20 oscillations in 40 s. Find its time period and swings per minute.",
+     "vals": {
+      "total_time": 40,
+      "oscillations": 20
+     },
+     "unit": "s",
+     "steps": null,
+     "a": "30 s",
+     "self_check": false
+    },
+    {
+     "q": "A simple pendulum completes 15 oscillations in 30 s. Calculate the time period.",
+     "vals": {
+      "total_time": 30,
+      "oscillations": 15
+     },
+     "unit": "s",
+     "steps": null,
+     "a": "30 s",
+     "self_check": false
+    },
+    {
+     "q": "If 50 oscillations take 100 s, what is the time period?",
+     "vals": {
+      "total_time": 100,
+      "oscillations": 50
+     },
+     "unit": "s",
+     "steps": null,
+     "a": "30 s",
+     "self_check": false
+    },
+    {
+     "q": "A pendulum swings 8 times in 12 s. Find the time period and oscillations per minute.",
+     "vals": {
+      "total_time": 12,
+      "oscillations": 8
+     },
+     "unit": "s",
+     "steps": null,
+     "a": "40 s",
+     "self_check": false
+    },
+    {
+     "q": "A wall clock's pendulum does 30 oscillations in 60 s. What is its time period?",
+     "vals": {
+      "total_time": 60,
+      "oscillations": 30
+     },
+     "unit": "s",
+     "steps": null,
+     "a": "30 s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.5",
+   "title": "Distance Covered",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "distance",
+     "expr": "speed * time",
+     "explain": "distance covered equals speed times time"
+    },
+    {
+     "step": 2,
+     "name": "half_time_distance",
+     "expr": "speed * (time / 2)",
+     "explain": "distance in half the time"
+    },
+    {
+     "step": 3,
+     "name": "distance_m",
+     "expr": "distance * 1000",
+     "explain": "the same distance in metres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A bus moves at 50 km/h for 2 h. Find the distance covered in km and m.",
+     "vals": {
+      "speed": 50,
+      "time": 2
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "100000 km",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist rides at 15 km/h for 3 h. How far does she go?",
+     "vals": {
+      "speed": 15,
+      "time": 3
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "45000 km",
+     "self_check": false
+    },
+    {
+     "q": "A car at 80 km/h runs for 1.5 h. Calculate the distance.",
+     "vals": {
+      "speed": 80,
+      "time": 1.5
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "120000 km",
+     "self_check": false
+    },
+    {
+     "q": "A train runs at 60 km/h for 4 h. What distance does it cover?",
+     "vals": {
+      "speed": 60,
+      "time": 4
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "240000 km",
+     "self_check": false
+    },
+    {
+     "q": "Walking at 5 km/h for 2.5 h, how far does a boy walk (in km and m)?",
+     "vals": {
+      "speed": 5,
+      "time": 2.5
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "12500 km",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.6",
+   "title": "Time Taken",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "time",
+     "expr": "distance / speed",
+     "explain": "time taken equals distance divided by speed"
+    },
+    {
+     "step": 2,
+     "name": "time_seconds",
+     "expr": "time * 3600",
+     "explain": "the same time in seconds"
+    },
+    {
+     "step": 3,
+     "name": "time_min",
+     "expr": "time * 60",
+     "explain": "the same time in minutes"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How long does a car take to cover 150 km at 50 km/h? Give the time in hours and minutes.",
+     "vals": {
+      "distance": 150,
+      "speed": 50
+     },
+     "unit": "h",
+     "steps": null,
+     "a": "180 h",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist must cover 36 km at 12 km/h. Find the time taken.",
+     "vals": {
+      "distance": 36,
+      "speed": 12
+     },
+     "unit": "h",
+     "steps": null,
+     "a": "180 h",
+     "self_check": false
+    },
+    {
+     "q": "A train travels 480 km at 60 km/h. Calculate the journey time in hours and minutes.",
+     "vals": {
+      "distance": 480,
+      "speed": 60
+     },
+     "unit": "h",
+     "steps": null,
+     "a": "480 h",
+     "self_check": false
+    },
+    {
+     "q": "Walking at 4 km/h, how long to cover 10 km?",
+     "vals": {
+      "distance": 10,
+      "speed": 4
+     },
+     "unit": "h",
+     "steps": null,
+     "a": "150 h",
+     "self_check": false
+    },
+    {
+     "q": "A bus covers 210 km at 70 km/h. What time does the trip take?",
+     "vals": {
+      "distance": 210,
+      "speed": 70
+     },
+     "unit": "h",
+     "steps": null,
+     "a": "180 h",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.7",
+   "title": "Speed Unit Conversion",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "half_kmh",
+     "expr": "speed_kmh / 2",
+     "explain": "half the speed in km/h"
+    },
+    {
+     "step": 2,
+     "name": "half_ms",
+     "expr": "(speed_kmh / 2) * 1000 / 3600",
+     "explain": "half the speed in m/s"
+    },
+    {
+     "step": 3,
+     "name": "speed_ms",
+     "expr": "speed_kmh * 1000 / 3600",
+     "explain": "multiply km/h by 1000 and divide by 3600 to get m/s"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Convert a speed of 36 km/h into m/s.",
+     "vals": {
+      "speed_kmh": 36
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "10 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A bus runs at 72 km/h. Express this in m/s.",
+     "vals": {
+      "speed_kmh": 72
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "20 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Change 90 km/h into metres per second.",
+     "vals": {
+      "speed_kmh": 90
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "25 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist's speed is 18 km/h. What is it in m/s?",
+     "vals": {
+      "speed_kmh": 18
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "5 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A sprinter averages 25.2 km/h. Convert to m/s.",
+     "vals": {
+      "speed_kmh": 25.2
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "7 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.8",
+   "title": "Odometer Distance and Speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "distance",
+     "expr": "final_reading - initial_reading",
+     "explain": "the odometer shows total distance, so subtract the readings"
+    },
+    {
+     "step": 2,
+     "name": "half_journey_m",
+     "expr": "((final_reading - initial_reading) / 2) * 1000",
+     "explain": "metres in half the journey"
+    },
+    {
+     "step": 3,
+     "name": "distance_m",
+     "expr": "distance * 1000",
+     "explain": "the same distance in metres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An odometer reads 25040.5 km at journey's start and 25105.5 km at the end. Find the distance covered.",
+     "vals": {
+      "final_reading": 25105.5,
+      "initial_reading": 25040.5
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "65000 km",
+     "self_check": false
+    },
+    {
+     "q": "Trip readings: start 12000 km, end 12186 km. How far did the car travel?",
+     "vals": {
+      "final_reading": 12186,
+      "initial_reading": 12000
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "186000 km",
+     "self_check": false
+    },
+    {
+     "q": "A taxi's odometer shows 48250.2 before and 48361.2 after a shift. Calculate the distance.",
+     "vals": {
+      "final_reading": 48361.2,
+      "initial_reading": 48250.2
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "111000 km",
+     "self_check": false
+    },
+    {
+     "q": "Readings of 7731 and 7798.5 km bracket a trip. What distance was covered?",
+     "vals": {
+      "final_reading": 7798.5,
+      "initial_reading": 7731
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "67500 km",
+     "self_check": false
+    },
+    {
+     "q": "An odometer changed from 900 to 1023 km during an excursion. Find the distance in km and m.",
+     "vals": {
+      "final_reading": 1023,
+      "initial_reading": 900
+     },
+     "unit": "km",
+     "steps": null,
+     "a": "123000 km",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_003",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_003",
+   "title": "c7_eco_ch04_003",
+   "questions": [
+    {
+     "q": "What is the primary term used for money that individuals and businesses safely place into a bank account for safekeeping and earning a reward?",
+     "a": "The correct term is deposits. A wrong answer—such as \"loans\" or \"investments\"—reveals a confusion between money entering the bank from savers (deposits) versus money leaving the bank to borrowers (loans).",
+     "self_check": true
+    },
+    {
+     "q": "Why do commercial banks pay interest to people who keep their savings in bank accounts?",
+     "a": "Banks pay interest as a reward to depositors for letting the bank use their surplus money to fund loans for others. A student who believes banks pay interest purely out of charity does not understand that banks generate revenue by lending those deposited funds at a higher interest rate.",
+     "self_check": true
+    },
+    {
+     "q": "A local bank collects ₹5,00,000 in total deposits from local households, promising to pay them 4% annual interest. It then lends ₹4,00,000 of this amount to local shopkeepers at an 11% annual interest rate. How much annual interest does the bank earn from loans, and how much does it pay out to depositors?",
+     "a": "Interest earned from loans = ₹4,00,000 × 11% = ₹44,000. Interest paid to depositors = ₹5,00,000 × 4% = ₹20,000. \nWorking steps:\n1. Identify total loan amount (₹4,00,000) and loan interest rate (11%).\n2. Calculate loan interest: 4,00,000 × 0.11 = ₹44,000.\n3. Identify total deposit amount (₹5,00,000) and deposit interest rate (4%).\n4. Calculate deposit interest: 5,00,000 × 0.04 = ₹20,000.\nA student who calculates deposit interest on the loaned amount (₹4,00,000) rather than total deposits (₹5,00,000) confuses the bank's total pool of public savings with specific loan allocations.",
+     "self_check": true
+    },
+    {
+     "q": "If a bank suddenly experiences a situation where all depositors demand their money back simultaneously, but the bank has already lent most of those funds out to borrowers, what core risk of banking is exposed?",
+     "a": "This exposes liquidity risk (or a \"bank run\"), where the bank's assets (long-term loans) cannot be converted into cash instantly to meet immediate withdrawal demands. A wrong answer suggesting that \"banks keep 100% of cash in the vault\" shows a failure to grasp fractional reserve banking, where banks keep only a fraction of deposits as cash.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Banks create money out of thin air by taking deposits and giving loans, so they face no financial risks if borrowers never repay their loans.\" Is this correct, and why?",
+     "a": "The statement is false. While banks expand the money supply through the lending process (multiplying deposits), unpaid loans (\"non-performing assets\") destroy bank capital. If borrowers default, the bank cannot pay back its depositors, leading to insolvency. A student who thinks banks face zero risk misunderstands that bank lending depends entirely on the trustworthiness and repayment capacity of borrowers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple operational model for a village cooperative bank that takes in ₹1,00,000 in deposits at 5% interest and lends out ₹80,000 at 12% interest. Calculate the bank's gross profit from interest and explain how this profit keeps the bank functioning.",
+     "a": "Interest earned = ₹80,000 × 12% = ₹9,600. Interest paid = ₹1,00,000 × 5% = ₹5,000. Gross profit = ₹9,600 - ₹5,000 = ₹4,600. A poor answer would fail to calculate the different bases (deposits vs. loans) or omit how this net interest margin covers bank operating expenses like salaries and electricity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

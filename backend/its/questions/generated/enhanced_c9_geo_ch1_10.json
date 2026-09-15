@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_10",
+   "title": "c9_geo_ch1_10",
+   "questions": [
+    {
+     "q": "Name the three main types of plains based on their formation process and give one Indian example for each type.",
+     "a": "The three types are: (1) Depositional plains - formed by sediment deposition, e.g., Northern Plains (Ganga-Brahmaputra); (2) Erosional plains - formed by erosion reducing highlands, e.g., parts of Peninsular Plateau like the Chotanagpur peneplain; (3) Structural plains - formed by uplift of horizontally bedded sedimentary rocks, e.g., parts of the Great Plains of USA (not Indian). A wrong answer reveals the student confuses formation process with location or elevation, or cannot distinguish between depositional and erosional origins.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Deccan Plateau has a flat top and steep escarpments, while the Northern Plains are flat and gently sloping. Use the terms 'tectonic uplift' and 'deposition' in your answer.",
+     "a": "The Deccan Plateau formed when a large crustal block uplifted vertically due to tectonic forces (tectonic uplift) without folding, preserving horizontal lava layers as a flat top; rivers later cut steep escarpments at its edges. The Northern Plains formed by deposition of alluvium carried by Himalayan rivers over millions of years, creating a gently sloping aggradational surface. A wrong answer reveals the student attributes plateau flatness to erosion or plain flatness to tectonic subsidence, confusing endogenic and exogenic processes.",
+     "self_check": true
+    },
+    {
+     "q": "A river flows from the Western Ghats (elevation 1000 m) to the Arabian Sea across the Konkan coastal plain (width 50 km). If the river drops 800 m in the first 20 km (ghat section) and 200 m in the next 30 km (coastal plain), calculate the average gradient in each section and explain which landform process dominates in each.",
+     "a": "Ghat section gradient = 800 m / 20 km = 40 m/km (steep) - vertical erosion dominates, forming V-shaped valley. Coastal plain gradient = 200 m / 30 km = 6.7 m/km (gentle) - deposition dominates, forming alluvial plain. A wrong answer reveals the student cannot calculate gradient, misinterprets steep gradient as depositional, or fails to link gradient to process dominance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation of a rift valley (e.g., Narmada Valley) with a river valley (e.g., Ganga Valley in Himalayas). Identify the driving force in each case and explain why their cross-sectional profiles differ.",
+     "a": "Rift valley: formed by tectonic forces pulling crust apart (divergent boundary or faulting), creating a flat-floored, steep-sided valley with graben structure - driving force is endogenic. River valley: formed by fluvial downcutting in uplifted mountains, creating V-shaped profile - driving force is exogenic (running water). Cross-sections differ because tectonic subsidence creates wide flat floors while river erosion creates narrow V-shapes. A wrong answer reveals confusion between tectonic and erosional origins, or inability to link cross-section shape to process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Indo-Gangetic Plain is entirely a depositional landform with no structural control.\" Provide evidence from its northern and southern boundaries to support your judgment.",
+     "a": "The statement is partially incorrect. While the plain's surface is depositional (alluvium), its northern boundary (Himalayan Frontal Thrust) and southern boundary (Peninsular Plateau margin) are structurally controlled by tectonic features. The plain sits in a foreland basin created by Himalayan loading (flexural subsidence) - a structural depression. Evidence: (1) Northern edge aligns with active thrust faults; (2) Southern edge follows the Bundelkhand-Aravalli structural trend; (3) Subsurface basement ridges (Delhi-Haridwar ridge) influence river courses. A wrong answer reveals the student sees only surface deposits, ignoring tectonic framework controlling basin geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use plan for a hypothetical district covering three zones: (a) dissected plateau edge (Chotanagpur-like), (b) alluvial floodplain (Ganga-like), (c) rift valley floor (Narmada-like). For each zone, specify the dominant crop/land use and justify using soil, slope, and drainage characteristics.",
+     "a": "Good answer criteria: (a) Dissected plateau: forestry/millets/pulses - shallow lateritic soils, steep slopes, rapid drainage, erosion risk; (b) Alluvial floodplain: rice/wheat/sugarcane - deep fertile soils, gentle slope, good water retention, irrigation access; (c) Rift valley floor: cotton/soybean/orchards - black cotton soil (vertisol), flat floor, seasonal drainage, moisture retention. Poor answer reveals inability to link landform process to soil properties, or ignores slope/drainage constraints in land-use decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_02_009",
+   "title": "c12_hist_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the approximate chronological span of the Second Urbanisation in the Ganga Valley, and which archaeological culture is its most distinctive marker?",
+     "a": "The Second Urbanisation spans c. 6th century BCE to 3rd century CE; its most distinctive archaeological marker is Northern Black Polished Ware (NBPW), a glossy, wheel-made pottery used by urban elites. A wrong answer (e.g., \"3rd millennium BCE\" or \"Painted Grey Ware\") reveals confusion with the Harappan civilisation or the earlier PGW culture, indicating the student cannot distinguish chronological phases of urbanisation.",
+     "self_check": true
+    },
+    {
+     "q": "Why did virtually all major towns of the Second Urbanisation emerge along routes of communication (riverine, land, or coastal)?",
+     "a": "Towns emerged along communication routes because these routes enabled the movement of surplus agricultural produce, craft goods, and tribute to sustain urban populations, and allowed rulers to control trade and collect revenue. A wrong answer focusing only on \"defence\" or \"religion\" misses the economic integration function — towns were nodes in a resource-extraction and redistribution network, not isolated fortresses.",
+     "self_check": true
+    },
+    {
+     "q": "A votive inscription from Mathura (c. 2nd century BCE) records a donation by Nagapiya, wife of a goldsmith (sovanika) named Dharmaka. What does this single inscription reveal about urban society, economy, and gender in the Second Urbanisation?",
+     "a": "It reveals: (1) craft specialisation (goldsmithing) was hereditary and recognised; (2) guilds (shrenis) likely organised production; (3) women of artisan families had agency to make religious donations; (4) Mathura was a multi-functional urban centre (commercial, religious, political). A wrong answer listing only \"goldsmiths existed\" fails to extract the layered social and economic information embedded in the source.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urban planning of Harappan cities (c. 2600–1900 BCE) with mahajanapada capitals like Rajgir and Pataliputra (c. 6th–4th century BCE). Identify three structural differences and explain what they imply about state-society relations.",
+     "a": "Differences: (1) Harappan cities had standardised grid layouts, drainage, and citadels; mahajanapada capitals grew organically around forts/palaces with no uniform planning — implying weaker central planning but stronger royal authority display. (2) Harappan cities show little evidence of palaces/temples; mahajanapada capitals centred on royal compounds — implying kingship as the organising principle. (3) Harappan script remains undeciphered; Second Urbanisation yields readable inscriptions (Brahmi) recording donations, taxes, administration — implying a literate bureaucratic state. A wrong answer claiming \"both were planned\" misses the shift from corporate/ritual urbanism to king-centric urbanism.",
+     "self_check": true
+    },
+    {
+     "q": "Historians debate whether the decline in gold coin finds after c. 6th century CE indicates an economic crisis or a shift in circulation patterns. Evaluate both positions using evidence from the text and suggest what additional data would resolve the debate.",
+     "a": "Position A (crisis): Collapse of Roman trade reduced gold inflow; fewer coins minted. Position B (circulation shift): Coins remained in use (mentioned in inscriptions/texts) but were not hoarded; new trade networks emerged. To resolve: need settlement archaeology (occupation layers), textual references to prices/wages, and comparative coin hoard data from Southeast Asia. A wrong answer picking one side without acknowledging the evidentiary gap shows inability to handle historiographical ambiguity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain linking: (a) iron ploughshare adoption in the Ganga Valley → (b) paddy transplantation → (c) agricultural surplus → (d) emergence of gahapatis and vellalar → (e) Second Urbanisation. Identify where state policy (taxation, irrigation grants) accelerates or diverts this chain.",
+     "a": "Chain: Iron ploughshares enable deep alluvial soil turning → transplantation raises paddy yields 2–3× → surplus supports non-producers → gahapatis (household heads controlling land/labour) and vellalar (large landholders) emerge as rural elites → they supply towns with grain, craft raw materials, and tax revenue → towns grow as administrative, craft, and trade hubs. State accelerates via irrigation grants (Sudarshana lake), land grants to Brahmanas (expanding cultivation), and tax collection in cash (punch-marked coins). Diverts via excessive taxation (Jataka: \"tax collectors by day, robbers by night\") causing village abandonment. A poor answer lists factors without causal links or ignores the feedback loop between rural stratification and urban demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

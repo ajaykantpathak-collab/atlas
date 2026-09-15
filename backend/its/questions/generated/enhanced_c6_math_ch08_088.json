@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_088",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_088",
+   "title": "c6_math_ch08_088",
+   "questions": [
+    {
+     "q": "What is the formula to calculate the area of a triangle if you know its base ($b$) and its perpendicular height ($h$)?",
+     "a": "The formula is $A = \\frac{1}{2} \\times b \\times h$. A wrong answer like $A = b \\times h$ indicates the student is confusing the triangle formula with the parallelogram/rectangle formula, forgetting that a triangle is half of a parallelogram.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given a parallelogram with a base of 10 cm and two side lengths of 6 cm and 8 cm, why can you not simply multiply 10 by 6 to find the area?",
+     "a": "Because the area formula requires the perpendicular height, not the side length. Multiplying by 6 uses the slanting side, which is incorrect; a wrong answer suggests the student does not distinguish between a side length and the perpendicular altitude.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has a base of 8 m and a height of 5 m. Calculate its area.",
+     "a": "$A = \\frac{1}{2} \\times 8 \\times 5 = \\frac{1}{2} \\times 40 = 20 \\text{ m}^2$. A wrong answer like 40 $\\text{m}^2$ shows the student forgot the $\\frac{1}{2}$ factor, failing to recognize that a triangle covers less space than a parallelogram of the same dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area of a parallelogram and a triangle that both have a base of 12 cm and a height of 4 cm. Which is larger and by how much?",
+     "a": "The parallelogram ($48 \\text{ cm}^2$) is larger than the triangle ($24 \\text{ cm}^2$) by $24 \\text{ cm}^2$. A wrong answer shows a lack of understanding that the triangle formula is exactly half the area of the parallelogram formula.",
+     "self_check": true
+    },
+    {
+     "q": "If you double the height of a triangle while keeping the base the same, what happens to the total area? Justify your answer.",
+     "a": "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original. A wrong answer suggests the student does not understand the proportional relationship between height and area.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a parallelogram and a triangle have the exact same area, even though their base and height are different.",
+     "a": "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$). A poor answer fails to use the formulas correctly to balance the values of $b$ and $h$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

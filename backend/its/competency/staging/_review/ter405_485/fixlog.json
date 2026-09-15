@@ -1,0 +1,4812 @@
+[
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch111.json",
+  "detail": "gesc.111.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch112.json",
+  "detail": "gesc.112.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_science_ch113.json",
+  "detail": "gesc.13.7.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch1.json",
+  "detail": "c7ss.1.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch10.json",
+  "detail": "c7ss.10.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch11.json",
+  "detail": "c7ss.11.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch12.json",
+  "detail": "c7ss.12.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch2.json",
+  "detail": "c7ss.2.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch3.json",
+  "detail": "c7ss.3.11: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch4.json",
+  "detail": "c7ss.4.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch5.json",
+  "detail": "c7ss.5.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch6.json",
+  "detail": "c7ss.6.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch7.json",
+  "detail": "c7ss.7.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch8.json",
+  "detail": "c7ss.8.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_ch9.json",
+  "detail": "c7ss.9.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch101.json",
+  "detail": "gess.101.1.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch102.json",
+  "detail": "gess.102.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch103.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch103.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch103.json",
+  "detail": "gess.103.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch103.json",
+  "detail": "gess.103.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch103.json",
+  "detail": "gess.103.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch104.json",
+  "detail": "gess.104.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch105.json",
+  "detail": "gess.105.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch106.json",
+  "detail": "gess.106.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch107.json",
+  "detail": "gess.107.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch108.json",
+  "detail": "gess.108.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch201.json",
+  "detail": "gess.201.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.1.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch202.json",
+  "detail": "gess.202.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch203.json",
+  "detail": "gess.203.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch204.json",
+  "detail": "gess.204.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch205.json",
+  "detail": "gess.205.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch206.json",
+  "detail": "gess.206.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class7_social_science_ch207.json",
+  "detail": "gess.207.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch1.json",
+  "detail": "c8cu.1.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch10.json",
+  "detail": "c8cu.10.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch11.json",
+  "detail": "c8cu.11.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch12.json",
+  "detail": "c8cu.12.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch13.json",
+  "detail": "c8cu.13.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch2.json",
+  "detail": "c8cu.2.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch3.json",
+  "detail": "c8cu.3.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch4.json",
+  "detail": "c8cu.4.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch5.json",
+  "detail": "c8cu.5.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch6.json",
+  "detail": "c8cu.6.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch7.json",
+  "detail": "c8cu.7.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch8.json",
+  "detail": "c8cu.8.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_curiosity_ch9.json",
+  "detail": "c8cu.9.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.2.1.2; Calculate the required value step by step for a case with {base}, {m}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.3.2.2; Calculate the required value step by step for a case with {m}, {n}, {target_exp}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.3.2.3; Calculate the required value step by step for a case with {m}, {n}, {target_exp}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.3.3.2; Calculate the required value step by step for a case with {denominator}, {numera"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.3.3.3; Calculate the required value step by step for a case with {denominator}, {numera"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.4.3.1; Calculate the required value step by step for a case with {num1}, {num2}, {e1}, "
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "exgen.c8m10.4.3.2; Calculate the required value step by step for a case with {num1}, {num2}, {e1}, "
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch10_exponents_powers.json",
+  "detail": "c8m10.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": "hemh.111.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": "hemh.111.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": "hemh.111.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch111.json",
+  "detail": "hemh.111.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "exgen.c8m12.3.1.2; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "exgen.c8m12.3.1.3; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch12_factorisation.json",
+  "detail": "c8m12.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "exgen.c8m13.1.2.2; Calculate the required value step by step for a case with {later_value}, {earlie"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "exgen.c8m13.1.2.3; Calculate the required value step by step for a case with {later_value}, {earlie"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "c8m13.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "c8m13.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "c8m13.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "c8m13.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+  "detail": "c8m13.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": ""
+ },
+ {
+  "action": "COPYRIGHT_DEF_REWRITE",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.7; definition; However many distinct rational numbers you pick between two fixed ones, another ; ->; However many distinct rational numbers you pick between two fixed ones, another "
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.4.1; Calculate the required value step by step for a case with {a}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.4.2; Calculate the required value step by step for a case with {a}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.5.1; Calculate the required value step by step for a case with {a}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.5.2; Calculate the required value step by step for a case with {a}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.7.1; Calculate the required value step by step for a case with {a}, {b}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "exgen.c8m1.2.7.2; Calculate the required value step by step for a case with {a}, {b}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch1_rational_numbers.json",
+  "detail": "c8m1.2.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch201.json",
+  "detail": "hegp.201.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.7.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.7.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch202.json",
+  "detail": "hegp.2.7.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch203.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch203.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch203.json",
+  "detail": "hegp.3.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch203.json",
+  "detail": "hegp.3.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch203.json",
+  "detail": "hegp.3.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch204.json",
+  "detail": "hegp.204.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.1.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch205.json",
+  "detail": "hegp.205.5.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.6.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch206.json",
+  "detail": "hegp.6.6.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch207.json",
+  "detail": "hegp.207.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.1.2.1; Calculate the required value step by step for a case with {a}, {value}, {b}, {c}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.1.2.2; Calculate the required value step by step for a case with {a}, {value}, {b}, {c}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.2.1.2; Calculate the required value step by step for a case with {a}, {c}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.2.1.3; Calculate the required value step by step for a case with {a}, {c}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.2.2.1; Calculate the required value step by step for a case with {c}, {b}, {a}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "exgen.c8m2.2.2.2; Calculate the required value step by step for a case with {c}, {b}, {a}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+  "detail": "c8m2.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.2.1.2; Calculate the required value step by step for a case with {n}, {known_angles_sum"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.2.1.3; Calculate the required value step by step for a case with {n}, {known_angles_sum"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.2.2.2; Calculate the required value step by step for a case with {interior_angle}, {ext"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.2.2.3; Calculate the required value step by step for a case with {interior_angle}, {ext"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.3.3.2; Calculate the required value step by step for a case with {side1}, {side2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.3.3.3; Calculate the required value step by step for a case with {side1}, {side2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.3.5.2; Calculate the required value step by step for a case with {diagonal}, {half}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "exgen.c8m3.3.5.3; Calculate the required value step by step for a case with {diagonal}, {half}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.3.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+  "detail": "c8m3.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.1.1; Calculate the required value step by step for a case with {part}, {whole}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.1.2; Calculate the required value step by step for a case with {part}, {whole}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.2.2; Calculate the required value step by step for a case with {total}, {value}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.2.3; Calculate the required value step by step for a case with {total}, {value}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.3.2; Calculate the required value step by step for a case with {given_amount}, {given"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.2.3.3; Calculate the required value step by step for a case with {given_amount}, {given"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.3.2.2; Calculate the required value step by step for a case with {total_outcomes}, {fav"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "exgen.c8m4.3.2.3; Calculate the required value step by step for a case with {total_outcomes}, {fav"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch4_data_handling.json",
+  "detail": "c8m4.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.1.1.1; Calculate the required value step by step for a case with {number}, {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.1.1.2; Calculate the required value step by step for a case with {number}, {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.1.1; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.1.2; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.2.1; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.2.2; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.3.1; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.3.2; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.4.1; Calculate the required value step by step for a case with {middle}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.3.4.2; Calculate the required value step by step for a case with {middle}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.4.1.2; Calculate the required value step by step for a case with {tens_part}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.4.1.3; Calculate the required value step by step for a case with {tens_part}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.5.1.1; Calculate the required value step by step for a case with {number}, {root}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.5.1.2; Calculate the required value step by step for a case with {number}, {root}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.5.2.1; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.5.2.2; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.6.1.2; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "exgen.c8m5.6.1.3; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.5.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.5.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch5_squares_square_roots.json",
+  "detail": "c8m5.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.2.1.1; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.2.1.2; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.2.2.1; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.2.2.2; Calculate the required value step by step for a case with {n}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.3.1.1; Calculate the required value step by step for a case with {number}, {root}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.3.1.2; Calculate the required value step by step for a case with {number}, {root}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.3.2.2; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "exgen.c8m6.3.2.3; Calculate the required value step by step for a case with {number}."
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "c8m6.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "c8m6.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "c8m6.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "c8m6.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+  "detail": "c8m6.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.1.1.1; Calculate the required value step by step for a case with {part}, {whole}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.1.1.2; Calculate the required value step by step for a case with {part}, {whole}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.1.2.1; Calculate the required value step by step for a case with {value}, {percent}, {t"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.1.2.2; Calculate the required value step by step for a case with {value}, {percent}, {t"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.2.1.2; Calculate the required value step by step for a case with {marked_price}, {sale_"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.2.1.3; Calculate the required value step by step for a case with {marked_price}, {sale_"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.2.2.2; Calculate the required value step by step for a case with {marked_price}, {disco"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.2.2.3; Calculate the required value step by step for a case with {marked_price}, {disco"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.4.1.2; Calculate the required value step by step for a case with {principal}, {rate}, {"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.4.1.3; Calculate the required value step by step for a case with {principal}, {rate}, {"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.4.2.1; Calculate the required value step by step for a case with {principal}, {rate}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.4.2.2; Calculate the required value step by step for a case with {principal}, {rate}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.5.1.2; Calculate the required value step by step for a case with {principal}, {rate}, {"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "exgen.c8m7.5.1.3; Calculate the required value step by step for a case with {principal}, {rate}, {"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch7_comparing_quantities.json",
+  "detail": "c8m7.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": ""
+ },
+ {
+  "action": "DSL_FLIP_VERIFY",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.4.1; Multiplying a Monomial by a Binomial or Trinomial; no compute in own steps"
+ },
+ {
+  "action": "DSL_FLIP_VERIFY",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.5.1; Multiplying a Binomial by a Binomial; no compute in own steps"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.1.1.2; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.1.1.3; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.1.2.2; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.1.2.3; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.3.1.1; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.3.1.2; Calculate the required value step by step for a case with {coeff1}, {coeff2}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.3.2.2; Calculate the required value step by step for a case with {coeff1}, {coeff2}, {c"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "exgen.c8m8.3.2.3; Calculate the required value step by step for a case with {coeff1}, {coeff2}, {c"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch8_algebraic_expressions_identities.json",
+  "detail": "c8m8.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": ""
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.1.2; Calculate the required value step by step for a case with {side_a}, {side_b}, {h"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.1.3; Calculate the required value step by step for a case with {side_a}, {side_b}, {h"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.2.2; Calculate the required value step by step for a case with {diagonal1}, {diagonal"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.2.3; Calculate the required value step by step for a case with {diagonal1}, {diagonal"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.3.1; Calculate the required value step by step for a case with {base}, {height}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.2.3.2; Calculate the required value step by step for a case with {base}, {height}."
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.4.1.2; Calculate the required value step by step for a case with {length}, {breadth}, {"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.4.1.3; Calculate the required value step by step for a case with {length}, {breadth}, {"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.4.2.1; Calculate the required value step by step for a case with {side}, {surface_area}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.4.2.2; Calculate the required value step by step for a case with {side}, {surface_area}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.5.2.1; Calculate the required value step by step for a case with {side}, {volume}, {sid"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.5.2.2; Calculate the required value step by step for a case with {side}, {volume}, {sid"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.5.3.2; Calculate the required value step by step for a case with {radius}, {height}, {v"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.5.3.3; Calculate the required value step by step for a case with {radius}, {height}, {v"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.6.1.1; Calculate the required value step by step for a case with {volume_cm3}, {litres}"
+ },
+ {
+  "action": "EXAMPLE_GENERATED",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "exgen.c8m9.6.1.2; Calculate the required value step by step for a case with {volume_cm3}, {litres}"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.5.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_maths_ch9_mensuration.json",
+  "detail": "c8m9.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch101.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch101.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch101.json",
+  "detail": "hesc.1.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch101.json",
+  "detail": "hesc.1.6.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch101.json",
+  "detail": "hesc.1.8.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch102.json",
+  "detail": "hesc.102.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.0.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch103.json",
+  "detail": "hesc.103.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch104.json",
+  "detail": "hesc.104.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch105.json",
+  "detail": "hesc.105.11: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch106.json",
+  "detail": "hesc.6.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.2.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch107.json",
+  "detail": "hesc.107.7.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch108.json",
+  "detail": "hesc.108.11: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch109.json",
+  "detail": "hesc.109.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch110.json",
+  "detail": "hesc.10.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch111.json",
+  "detail": "hesc.11.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch112.json",
+  "detail": "hesc.112.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_science_ch113.json",
+  "detail": "hesc.13.11: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch1.json",
+  "detail": "c8ss.1.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch2.json",
+  "detail": "c8ss.2.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch3.json",
+  "detail": "c8ss.3.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "SOURCE_REPOINT",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "cbse_pq_class_0258.txt; ->; hees104.txt"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.9: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch4.json",
+  "detail": "c8ss.4.10: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GROUNDING_SKIP_NOSRC",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": ""
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "chapter_title does not match the file opening: wrong or mislabeled source file"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.1: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.2: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.3: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.4: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.5: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.6: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.7: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.8: topical terms not grounded in chapter"
+ },
+ {
+  "action": "GATE_RESIDUAL",
+  "file": "catalog_class8_social_ch5.json",
+  "detail": "c8ss.5.9: topical terms not grounded in chapter"
+ }
+]

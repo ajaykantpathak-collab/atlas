@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch3_8",
+   "title": "c9_engl_ch3_8",
+   "questions": [
+    {
+     "q": "Define the term \"warp\" in the context of textile-related crafts like pankha-making, and explain how it differs from \"weft.\"",
+     "a": "Warp refers to the lengthwise threads held stationary on a loom or frame, while weft refers to the crosswise threads woven over and under the warp. A wrong answer (e.g., \"warp means the design\" or \"warp and weft are the same\") reveals the student is confusing structural terminology with decorative terminology, indicating they cannot distinguish construction from ornamentation—a critical distinction for analyzing craft techniques in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The artisan used openwork plaiting to create a lattice pattern on the pankha's blade,\" explain what \"openwork\" contributes to the meaning that \"plaiting\" alone would not.",
+     "a": "\"Openwork\" specifies that the plaiting creates deliberate gaps or perforations (negative space) forming a lattice, whereas \"plaiting\" alone only describes the interlacing technique. A wrong answer (e.g., \"openwork means it's see-through\" without mentioning intentional design) shows the student treats vocabulary as synonyms rather than precision tools, missing how specific terms encode technical intentionality—a skill needed for expository analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The pankha has beautiful paisley designs on its border.\" Rewrite this sentence using three craft-specific terms from the chapter to make it analytically precise for a board exam answer.",
+     "a": "Strong rewrite: \"The pankha's guard features a repeating boteh (paisley) motif executed in silver filigree appliqué along the woven border.\" Steps: (1) Replace \"beautiful\" with technical descriptor (filigree), (2) Replace \"designs\" with \"motif\" + specific name (boteh), (3) Specify location structurally (guard, not just border), (4) Name technique (appliqué). A weak rewrite using only \"intricate patterns\" reveals the student cannot access the domain lexicon needed for analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the terms \"indigenous craft\" and \"traditional craft\" function differently in the chapter's discussion of pankhas. What specific nuance does each carry?",
+     "a": "\"Indigenous\" emphasizes origin—rooted in a specific region/community's knowledge systems (e.g., Rajasthani pankha-making by local artisans), while \"traditional\" emphasizes continuity—practices transmitted across generations, which may include adopted techniques. A wrong answer treating them as interchangeable misses the chapter's argument about cultural ownership vs. historical practice, a distinction critical for the \"Values: Preserving Indigenous Crafts\" node (c9_engl_ch3_10).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using words like 'khus,' 'boteh,' and 'filigree' in a board answer about pankhas is just showing off—simpler words communicate the same ideas.\" Defend or refute with evidence from the chapter's expository structure.",
+     "a": "Refute. The chapter's expository structure (c9_engl_ch3_7) uses precise terminology to distinguish: (1) material properties (khus cools by evaporation; silk doesn't), (2) design genealogy (boteh traces to Persian trade routes; floral motifs don't), (3) technique hierarchy (filigree requires metalworking skill; painting doesn't). Simpler words erase these analytical distinctions. A student agreeing with the claim reveals a \"vocabulary as ornament\" misconception rather than \"vocabulary as analytical instrument.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence museum label for a Gujarat pankha that uses at least five craft-specific terms correctly and explains both its construction and cultural significance.",
+     "a": "Exemplar: \"This early 19th-century Gujarat pankha features a bamboo-ribbed blade of khus-root openwork plaiting, its guard adorned with mirror-work appliqué in a repeating boteh motif. The silver filigree handle indicates courtly patronage, while the cooling khus material reflects indigenous climate-responsive design. Acquired during the 1850s revival of regional crafts under princely support.\" Criteria: 5+ terms used correctly (khus-root, openwork plaiting, mirror-work appliqué, boteh motif, filigree, indigenous), technical accuracy, cultural context integrated. A poor answer using \"beautiful fan with decorations\" reveals inability to transfer vocabulary to authentic communicative task.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

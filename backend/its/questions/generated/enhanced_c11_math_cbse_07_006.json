@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_006",
+   "title": "c11_math_cbse_07_006",
+   "questions": [
+    {
+     "q": "State the formula for the number of permutations of \\(n\\) distinct objects taken \\(r\\) at a time when repetition is allowed.",
+     "a": "The formula is \\(n^r\\). A wrong answer like \\(^nP_r = \\frac{n!}{(n-r)!}\\) or \\(n!\\) reveals the student is confusing \"repetition allowed\" with \"all objects distinct and no repetition\". They have not internalised that the number of choices per position remains constant at \\(n\\) rather than decreasing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of 3-letter codes formed from the letters A, B, C, D, E with repetition allowed is \\(5^3\\) and not \\(^5P_3 = 60\\).",
+     "a": "With repetition allowed, each of the 3 positions has 5 independent choices (A–E), giving \\(5 \\times 5 \\times 5 = 125\\). \\(^5P_3 = 60\\) assumes once a letter is used it cannot be reused, so choices decrease (5, then 4, then 3). A student who cannot articulate this distinction thinks the formulas are interchangeable and misses the condition \"repetition allowed\".",
+     "self_check": true
+    },
+    {
+     "q": "A 6-digit OTP is generated using digits 0–9. Repetition is allowed. How many different OTPs are possible? If the system blocks an account after 5 failed attempts, what is the probability that a random guess succeeds on the first try?",
+     "a": "Total OTPs = \\(10^6 = 1,000,000\\). Probability = \\(\\frac{1}{1,000,000}\\). A wrong answer like \\(^{10}P_6 = 151,200\\) or \\(10!\\) shows the student applied the distinct-permutation formula. An answer of \\(\\frac{5}{10^6}\\) for probability indicates they incorrectly used the number of attempts in the numerator without understanding \"first try\" means exactly 1 favourable outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of 4-character passwords possible from the set \\(\\{a,b,c\\}\\) when (i) repetition is allowed, (ii) repetition is not allowed. What happens to the ratio \\(\\frac{\\text{with repetition}}{\\text{without repetition}}\\) as the password length increases to 5, 6, …?",
+     "a": "For length 4: with repetition = \\(3^4 = 81\\); without repetition = \\(^3P_4 = 0\\) (impossible, since \\(r > n\\)). For length \\(r \\le 3\\): without repetition = \\(^3P_r\\). The ratio \\(\\frac{3^r}{^3P_r}\\) grows rapidly because the numerator multiplies by 3 each step while the denominator multiplies by a decreasing number. A student who only computes \\(3^4=81\\) and says \"without repetition is 0\" without explaining why \\(r>n\\) fails for distinct permutations misses the structural difference: repetition allowed has no upper bound on \\(r\\), while distinct permutations require \\(r \\le n\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many 5-letter words can be formed from the letters of 'DELHI' if repetition is allowed?\" Their working: \\(^5P_5 = 5! = 120\\). Identify the error and give the correct answer.",
+     "a": "The student used the permutation formula for distinct objects without repetition (\\(^nP_r\\) with \\(n=r=5\\)). The phrase \"repetition is allowed\" means each of the 5 positions has 5 choices, so the correct answer is \\(5^5 = 3125\\). The error reveals the student overlooks the condition \"repetition allowed\" and defaults to the familiar distinct-permutation formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires permutations with repetition allowed, where \\(n=4\\) and \\(r=3\\). Write the problem statement and solve it.",
+     "a": "Example problem: \"A food delivery app offers 4 cuisine types: North Indian, South Indian, Chinese, Continental. A user orders dinner for 3 consecutive nights. Each night they can choose any cuisine, including the same one multiple times. How many different cuisine sequences are possible over the 3 nights?\" Solution: \\(n=4, r=3 \\Rightarrow 4^3 = 64\\) sequences. A poor answer would use \\(^4P_3 = 24\\) or \\(4! = 24\\), showing the student cannot construct a scenario where independent repetition is natural.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

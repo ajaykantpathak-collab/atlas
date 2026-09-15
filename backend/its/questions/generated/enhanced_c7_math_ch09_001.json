@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_001",
+   "title": "c7_math_ch09_001",
+   "questions": [
+    {
+     "q": "What condition must two geometric figures satisfy to be called \"congruent\"?",
+     "a": "Two figures must have the exact same shape and the exact same size. If a student answers that they only need to have the same shape, they are confusing congruence with similarity. Congruence requires both identical form and identical measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have identical interior angles measuring $60^\\circ$, $60^\\circ$, and $60^\\circ$. One triangle has sides of length $4\\text{ cm}$, and the other has sides of length $8\\text{ cm}$. Are these two triangles congruent? Explain why or why not.",
+     "a": "No, they are not congruent. While their shapes are identical (both are equilateral triangles), their sizes are different because their side lengths ($4\\text{ cm}$ vs $8\\text{ cm}$) do not match. A student who says \"yes\" mistakenly thinks that having the same angles is enough to guarantee congruence.",
+     "self_check": true
+    },
+    {
+     "q": "Line segment $AB$ has a length of $7.5\\text{ cm}$. Line segment $CD$ has a length of $7.5\\text{ cm}$. Are line segments $AB$ and $CD$ congruent? If you place $AB$ on top of $CD$ such that point $A$ coincides with point $C$, what happens to point $B$ and point $D$?",
+     "a": "Yes, line segments $AB$ and $CD$ are congruent because their lengths are equal ($7.5\\text{ cm} = 7.5\\text{ cm}$). When placed on top of each other with point $A$ matching point $C$, point $B$ will coincide exactly with point $D$. A student who says they might not coincide assumes line segments can curve or shift, forgetting that straight line segments are determined entirely by their fixed length.",
+     "self_check": true
+    },
+    {
+     "q": "If figure P and figure Q are congruent, what can you deduce about their perimeters and areas? Compare them and explain your reasoning.",
+     "a": "Their perimeters must be exactly equal, and their areas must also be exactly equal. Since congruent figures have identical corresponding sides and angles, the total boundary length (perimeter) and the total space enclosed (area) must be identical. A student who thinks congruent figures can have different areas does not understand that size includes total surface coverage.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan claims that if you cut any rectangle of area $24\\text{ cm}^2$ into two pieces, the pieces will always be congruent to each other. Evaluate Rohan's claim and give a counterexample.",
+     "a": "Rohan's claim is false. For example, a rectangle of dimensions $6\\text{ cm} \\times 4\\text{ cm}$ can be cut into two rectangles of $3\\text{ cm} \\times 4\\text{ cm}$ (which are congruent), but it can also be cut into a $6\\text{ cm} \\times 3\\text{ cm}$ piece and a $6\\text{ cm} \\times 1\\text{ cm}$ piece along the length, which are clearly not congruent. A student who accepts Rohan's claim confuses having the same total area with having identical dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Draw or describe two different irregular 4-sided polygons (quadrilaterals) that are NOT congruent to each other, yet both have a total perimeter of $20\\text{ cm}$.",
+     "a": "The expected response should describe two quadrilaterals with different side length combinations that add up to $20\\text{ cm}$, such as one with sides $4\\text{ cm}, 5\\text{ cm}, 6\\text{ cm}, 5\\text{ cm}$ and another with sides $2\\text{ cm}, 8\\text{ cm}, 2\\text{ cm}, 8\\text{ cm}$. A poor answer would provide two shapes with the same side lengths rearranged, which would actually make them congruent, failing to understand that different shapes can share a perimeter without being congruent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

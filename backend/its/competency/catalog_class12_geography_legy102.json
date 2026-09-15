@@ -1,0 +1,232 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "The World Population Distribution, Density and Growth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.102.1",
+   "title": "Patterns of Population Distribution",
+   "section": "Patterns of Population Distribution",
+   "definition": "About 90 per cent of the world's population lives on about 10 per cent of its land area, with dense clusters in East Asia, South Asia, South East Asia and Europe, where availability of water, fertile plains and mild climate attract settlement.",
+   "formula": "",
+   "key_idea": "Distribution is uneven because habitability is uneven: water, plains and soil pull people, deserts and tundra push them away.",
+   "textbook_ref": "legy102.txt distribution patterns and factors attracting concentration",
+   "question_patterns": [
+    "what share of humanity lives on what share of land area",
+    "name the major population clusters of the world",
+    "why do river plains support dense populations",
+    "which physical factors limit settlement in deserts and polar areas",
+    "how does availability of water shape distribution",
+    "what is meant by sparse and dense population regions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "quote the shares",
+     "explain": "90 per cent of people on 10 per cent of land is the chapter's headline imbalance"
+    },
+    {
+     "step": 2,
+     "action": "list the clusters",
+     "explain": "East, South and South East Asia plus Europe are the four crowded regions"
+    },
+    {
+     "step": 3,
+     "action": "close with factors",
+     "explain": "water availability, plains and climate explain the pull of these clusters"
+    }
+   ]
+  },
+  {
+   "id": "legy.102.2",
+   "title": "Density of Population",
+   "section": "Density of Population",
+   "definition": "Population density is the ratio between the number of people and the area of land they occupy, usually expressed as persons per square kilometre; the world average and country averages mask sharp internal contrasts.",
+   "formula": "population_density = total_population / land_area",
+   "key_idea": "Dividing total population by land area in square kilometres yields density in persons per square kilometre.",
+   "textbook_ref": "legy102.txt density definition and density of world and regions",
+   "question_patterns": [
+    "define population density and give its formula",
+    "compute density when population and area are given",
+    "why does density vary within a country",
+    "compare high and low density regions with examples",
+    "how is density used in planning",
+    "what units express population density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the ratio",
+     "explain": "density equals population divided by area in sq km",
+     "compute": "population_density = total_population / land_area"
+    }
+   ]
+  },
+  {
+   "id": "legy.102.3",
+   "title": "Population Growth and its Components",
+   "section": "Population Growth",
+   "definition": "Population growth is the change of population in an area between two time points, expressed as absolute change or growth rate per cent; natural growth comes from births and deaths while migration adds immigration and emigration components.",
+   "formula": "",
+   "key_idea": "Growth rates peak in the developing world because birth rates fall later than death rates, producing the demographic bulge.",
+   "textbook_ref": "legy102.txt growth components, growth rates and demographic transition sections",
+   "question_patterns": [
+    "distinguish absolute growth from growth rate",
+    "list the four components of population change",
+    "how do birth and death rates jointly determine natural growth",
+    "what is the role of migration in population change",
+    "compare growth patterns of developed and developing regions",
+    "define natural increase of population"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the components",
+     "explain": "births minus deaths give natural growth; migrants give the mechanical component"
+    },
+    {
+     "step": 2,
+     "action": "read the rates",
+     "explain": "growth rate per cent allows comparison across countries of different sizes"
+    },
+    {
+     "step": 3,
+     "action": "close with regions",
+     "explain": "developing countries now contribute the bulk of annual additions"
+    }
+   ]
+  },
+  {
+   "id": "legy.102.4",
+   "title": "Top Ten Countries and Their Share",
+   "section": "Population Distribution",
+   "definition": "The ten most populous countries of the world contribute about 60 per cent of the world's population, with China and India alone approaching two-fifths; the remaining world population share can be found by subtracting the top ten share from 100.",
+   "formula": "rest_share = 100 - top_ten_share",
+   "key_idea": "Subtracting the top ten share from 100 gives the share of all other countries together.",
+   "textbook_ref": "legy102.txt ten most populous countries passage (60 per cent of world population)",
+   "question_patterns": [
+    "what share of world population do the ten most populous countries hold",
+    "compute the share of the remaining countries of the world",
+    "which two countries dominate the top ten list",
+    "why do few countries hold most of humanity",
+    "how is population concentration linked to development challenges",
+    "name five countries of the top ten list"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the top ten share",
+     "explain": "the ten most populous countries hold 60 per cent of humanity",
+     "compute": "top_ten_share = 60"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the rest of the world is the difference from the full hundred",
+     "compute": "rest_share = 100 - top_ten_share"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy102_1",
+   "source_ref": "legy102.txt density definition",
+   "concept": "legy.102.2",
+   "question_type": "compute",
+   "question_pattern": "A country has a population of 24,00,000 on an area of 1,20,000 sq km. Compute its population density.",
+   "extracted_variables": {
+    "total_population": 2400000,
+    "land_area": 120000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the formula",
+     "explain": "density = population / area in sq km",
+     "compute": "population_density = total_population / land_area"
+    }
+   ]
+  },
+  {
+   "id": "we_legy102_2",
+   "source_ref": "legy102.txt top ten countries passage",
+   "concept": "legy.102.4",
+   "question_type": "compute",
+   "question_pattern": "The ten most populous countries hold 60 per cent of world population. What is the share of all remaining countries?",
+   "extracted_variables": {
+    "top_ten_share": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the top ten share",
+     "explain": "60 per cent is held by the top ten countries",
+     "compute": "top_ten_share = 60"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 60 leaves the rest of the world",
+     "compute": "rest_share = 100 - top_ten_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy102_3",
+   "source_ref": "legy102.txt distribution factors",
+   "concept": "legy.102.1",
+   "question_type": "short_answer",
+   "question_pattern": "Explain three physical factors behind the clustering of world population.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "water",
+     "explain": "settled life gathers around rivers, lakes and coastal water sources"
+    },
+    {
+     "step": 2,
+     "action": "plains and soil",
+     "explain": "flat fertile plains permit agriculture and dense rural settlement"
+    },
+    {
+     "step": 3,
+     "action": "climate",
+     "explain": "moderate climates of Europe and monsoon Asia attract population while hot deserts and tundra repel"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy102_1",
+   "source_ref": "legy102.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the uneven distribution of world population with factors",
+    "compute density for a country with given population and area",
+    "describe the four major population clusters of the world",
+    "differentiate absolute growth from growth rate",
+    "why do deserts remain sparsely populated even with resources"
+   ]
+  },
+  {
+   "id": "ex_legy102_2",
+   "source_ref": "legy102.txt applied questions, reworded",
+   "questions": [
+    "compute the remaining share when the top ten countries hold 60 per cent",
+    "analyse how irrigation changes regional density",
+    "compare the demographic situations of developed and developing regions",
+    "explain the role of migration in redistributing population",
+    "argue why density alone cannot measure crowding"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_011",
+   "title": "c12_math_cbse_03_011",
+   "questions": [
+    {
+     "q": "State the exact condition for a square matrix A to have an inverse, and write the starting augmented matrix setup for finding A⁻¹ by elementary row operations.",
+     "a": "A square matrix A has an inverse iff it is non-singular (det(A) ≠ 0). The starting setup is the augmented matrix [A | I] where I is the identity matrix of the same order. A wrong answer like \"write [I | A]\" or \"apply operations only to A\" reveals the student does not understand that row operations on A correspond to left-multiplication by elementary matrices, and we track the cumulative product on the right side which becomes A⁻¹.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we must apply the *same* elementary row operation to both the left and right halves of the augmented matrix [A | I]. What would go wrong if we only operated on the left half?",
+     "a": "Each elementary row operation corresponds to left-multiplication by an elementary matrix E. Applying it to [A | I] gives [EA | EI] = [EA | E]. After a sequence Eₖ...E₁, we get [Eₖ...E₁A | Eₖ...E₁I]. When the left side becomes I, we have Eₖ...E₁A = I, so Eₖ...E₁ = A⁻¹, which is exactly the right side. If we only operate on the left, the right side remains I, losing the cumulative product that equals A⁻¹. A student who says \"to keep them equal\" without the matrix multiplication reasoning has a procedural but not conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Find the inverse of A = [[2, 3], [1, 2]] using elementary row operations. Show every step with the operation notation (e.g., R₁ ↔ R₂, R₁ → R₁/2, R₂ → R₂ - R₁).",
+     "a": "Start: [2 3 | 1 0; 1 2 | 0 1]\nR₁ ↔ R₂: [1 2 | 0 1; 2 3 | 1 0]\nR₂ → R₂ - 2R₁: [1 2 | 0 1; 0 -1 | 1 -2]\nR₂ → -R₂: [1 2 | 0 1; 0 1 | -1 2]\nR₁ → R₁ - 2R₂: [1 0 | 2 -3; 0 1 | -1 2]\nA⁻¹ = [[2, -3], [-1, 2]]. A wrong answer with sign errors in the last step (e.g., R₁ → R₁ + 2R₂) reveals confusion about eliminating the (1,2) entry: we must subtract 2×(new row 2) to zero out the 2 above the pivot.",
+     "self_check": true
+    },
+    {
+     "q": "Matrix B = [[1, 2, 3], [2, 4, 6], [1, 0, -1]]. Without computing the determinant, use elementary row operations to determine whether B⁻¹ exists. Show the step where you can conclude.",
+     "a": "Start: [1 2 3 | 1 0 0; 2 4 6 | 0 1 0; 1 0 -1 | 0 0 1]\nR₂ → R₂ - 2R₁: [1 2 3 | 1 0 0; 0 0 0 | -2 1 0; 1 0 -1 | 0 0 1]\nA row of zeros appears in the left half (row 2). Since we cannot obtain a pivot in every row, the left side can never become I. Therefore B is singular and B⁻¹ does not exist. A student who continues operating or says \"inverse exists because it's square\" has not grasped that row equivalence to I requires full rank.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the inverse of C = [[1, 2], [3, 4]] is C⁻¹ = [[-2, 1], [1.5, -0.5]]. They wrote the augmented matrix and got this result. Check their answer by computing CC⁻¹ and identify the likely error in their row operations.",
+     "a": "CC⁻¹ = [[1, 2], [3, 4]] × [[-2, 1], [1.5, -0.5]] = [[-2+3, 1-1], [-6+6, 3-2]] = [[1, 0], [0, 1]] = I. The student's answer is actually correct (the standard inverse). If a student incorrectly says it's wrong, they may have miscalculated the product. If a student says it's correct but cannot verify, they lack the verification habit. A common error in row operations for this matrix is mishandling fractions: after R₂ → R₂ - 3R₁ giving [1 2 | 1 0; 0 -2 | -3 1], students often write R₂ → R₂/(-2) as [0 1 | -1.5 0.5] instead of [0 1 | 1.5 -0.5] — sign error on the right side.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2×2 matrix A with integer entries such that A⁻¹ exists and also has integer entries. Explain how you chose it. Then create a 3×3 matrix with the same property (integer entries, integer inverse).",
+     "a": "For 2×2: A = [[1, 2], [3, 7]] has det = 7-6 = 1, so A⁻¹ = [[7, -2], [-3, 1]] (integers). Any 2×2 matrix with determinant ±1 works (unimodular matrices). For 3×3: use a product of elementary matrices with integer entries, e.g., A = [[1, 1, 0], [0, 1, 1], [0, 0, 1]] (det = 1). Its inverse is [[1, -1, 1], [0, 1, -1], [0, 0, 1]] — all integers. A poor answer gives a matrix with det ≠ ±1 and claims integer inverse, revealing the student doesn't know det(A⁻¹) = 1/det(A), so integer inverse requires det(A) = ±1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

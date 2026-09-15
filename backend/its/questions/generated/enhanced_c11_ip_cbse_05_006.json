@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_006",
+   "title": "c11_ip_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the exact syntax to declare a global variable `counter` inside a function so that assignments to `counter` modify the global variable?",
+     "a": "Correct answer: `global counter` placed at the beginning of the function body before any use of `counter`. A wrong answer like `global counter = 0` reveals the misconception that `global` initializes the variable; it only declares the name as global. Another wrong answer: forgetting `global` entirely, which creates a local variable instead.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this code:\n```python\nx = 10\ndef modify():\n    x = 20\nmodify()\nprint(x)\n```\nExplain why the output is 10, not 20, and what single keyword addition would change the output to 20.",
+     "a": "Correct explanation: Inside `modify()`, `x = 20` creates a new local variable `x` that shadows the global `x`. The global `x` remains unchanged. Adding `global x` as the first line of `modify()` tells Python to use the global `x` for assignment, so the global becomes 20. A wrong answer claiming \"functions cannot change global variables\" reveals the misconception that globals are read-only without `global`; they are readable but not writable without the declaration.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `increment_counter()` that uses the `global` keyword to increase a global variable `counter` by 1 each time it is called. Initialize `counter = 0` globally. Show the output after three calls.",
+     "a": "Correct code:\n```python\ncounter = 0\ndef increment_counter():\n    global counter\n    counter += 1\n\nincrement_counter()\nincrement_counter()\nincrement_counter()\nprint(counter)  # Output: 3\n```\nSteps: 1) Declare global `counter`. 2) Use `counter += 1` which modifies the global. 3) Call three times. 4) Print global `counter`. A wrong answer that omits `global` will raise `UnboundLocalError` or print 0, revealing the student doesn't understand that assignment without `global` creates a local variable.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this code and predict the output:\n```python\nbalance = 1000\ndef deposit(amount):\n    global balance\n    balance = balance + amount\n    print(\"Inside deposit:\", balance)\n\ndef withdraw(amount):\n    balance = balance - amount  # No global declaration\n    print(\"Inside withdraw:\", balance)\n\ndeposit(500)\nwithdraw(200)\nprint(\"Final balance:\", balance)\n```",
+     "a": "Output:\n```\nInside deposit: 1500\nUnboundLocalError: local variable 'balance' referenced before assignment\n```\nExplanation: `deposit` works because `global balance` is declared. `withdraw` fails because `balance = balance - amount` tries to read local `balance` before assignment (since assignment makes it local). The global `balance` is 1500 after deposit, but withdraw crashes. A wrong answer predicting 1300 reveals the student thinks assignment without `global` still modifies the global, or that the error doesn't occur.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Using `global` is always bad practice because it makes code harder to debug; therefore, students should never use it in Class 11 programs.\" Defend or refute with a specific Class 11 level example where `global` is appropriate.",
+     "a": "Refute: While overuse of globals is discouraged, `global` is appropriate for simple stateful functions in Class 11, e.g., a game score tracker:\n```python\nscore = 0\ndef add_points(points):\n    global score\n    score += points\n```\nThis is clearer than passing and returning score through every function call for beginners. The statement is an overgeneralization. A wrong answer agreeing completely reveals the misconception that `global` is inherently evil rather than a tool with specific use cases; students must learn when it's appropriate (simple scripts) vs inappropriate (large programs).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: Design a Python program for a school library that uses a global variable `total_books_issued` to track books issued across multiple functions `issue_book()` and `return_book()`. Each function should modify the global counter appropriately. Write the complete code with initialization and two function calls to demonstrate.",
+     "a": "Expected answer criteria: 1) Global `total_books_issued = 0`. 2) `issue_book()` with `global total_books_issued` and `total_books_issued += 1`. 3) `return_book()` with `global total_books_issued` and `total_books_issued -= 1`. 4) Calls showing increment and decrement. 5) Final print. A poor answer that uses parameters/returns instead of global misses the point of the exercise; one that forgets `global` in either function will not modify the global, showing incomplete mastery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

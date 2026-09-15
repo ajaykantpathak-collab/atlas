@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_006",
+   "title": "c10_geo_cbse_04_006",
+   "questions": [
+    {
+     "q": "Name the type of soil most suitable for cotton cultivation in India and state the ideal temperature range for its growth.",
+     "a": "**Correct answer:** Black soil (regur soil) is most suitable for cotton. Ideal temperature range: 21°C to 30°C.  \n**Wrong answer reveals:** If a student says \"alluvial soil\" or \"laterite soil\", they are confusing cotton with rice/jute (alluvial) or rubber (laterite). If they state temperature >35°C or <15°C, they don't know cotton's sensitivity to frost and extreme heat during boll formation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is jute cultivation concentrated in the Ganga-Brahmaputra delta region? Explain using two geographical factors.",
+     "a": "**Correct answer:** (1) High temperature (24°C–35°C) and heavy rainfall (150–250 cm) during the growing season (Kharif) — provided by the Southwest Monsoon in the delta. (2) Deep, fertile alluvial soil renewed annually by floods, plus abundant stagnant water for retting (fibre extraction).  \n**Wrong answer reveals:** If a student only says \"high rainfall\" or \"fertile soil\" without mentioning **retting requirement for stagnant water**, they miss the unique human-geography interaction that locks jute to floodplains. If they mention black soil, they confuse jute with cotton.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Tamil Nadu wants to grow rubber. Using the data below, decide if the location is suitable. Give two reasons.\nLocation: 10°N, 77°E | Annual rainfall: 120 cm | Temperature range: 20°C–32°C | Soil: Laterite, well-drained | Elevation: 400 m",
+     "a": "**Step 1:** Check temperature — 20°C–32°C fits rubber's need (25°C–35°C ideal, but 20°C minimum is acceptable).  \n**Step 2:** Check rainfall — 120 cm is **below** rubber's requirement of >200 cm (needs 200–300 cm well-distributed).  \n**Step 3:** Check soil — Laterite, well-drained: **suitable** (rubber needs deep, well-drained loamy/laterite soil).  \n**Step 4:** Check elevation — 400 m: **suitable** (rubber grows up to 450 m on slopes).  \n**Conclusion:** **Not suitable** primarily due to **insufficient rainfall (120 cm < 200 cm)**. Rubber needs high, well-distributed rainfall; this region likely has a distinct dry season.  \n**Wrong answer reveals:** If a student says \"suitable because temperature and soil match\", they ignore the **critical rainfall threshold** — a common board exam trap where students check only 2 of 3 factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical reasons for cotton's dominance in the Deccan Plateau (Maharashtra, Gujarat, Telangana) versus rubber's confinement to the Western Ghats (Kerala, Tamil Nadu, Karnataka). Use the terms \"rain shadow\", \"black soil\", and \"frost-free days\" in your answer.",
+     "a": "**Correct analysis:**  \n- **Cotton (Deccan Plateau):** Lies in the **rain shadow** of the Western Ghats → receives moderate rainfall (50–100 cm) ideal for cotton (needs 50–100 cm, not heavy rain). **Black soil (regur)** retains moisture, perfect for cotton's deep roots. **210+ frost-free days** in this tropical plateau region allow long growing period.  \n- **Rubber (Western Ghats):** Windward side of Ghats → **heavy rainfall (200–300 cm)** from Southwest Monsoon, no dry spell. **Laterite/loamy soil** on slopes, well-drained. **Zero frost** at low elevations (0–450 m).  \n**Key contrast:** Cotton thrives in **moderate rain + moisture-retentive soil**; rubber needs **high rain + well-drained slopes**.  \n**Wrong answer reveals:** If a student says \"cotton needs heavy rain\" or \"rubber grows in black soil\", they have swapped the crops' climatic niches. Missing \"rain shadow\" shows they don't link relief to rainfall distribution (Class 9: c9_geo_ch2_7).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Jute can be grown in Punjab if irrigation is provided, because it only needs high temperature and water.\" Is this geographically sound? Justify with two arguments.",
+     "a": "**Evaluation: Not sound.**  \n**Argument 1 (Soil):** Jute requires **deep, fertile alluvial soil renewed by annual floods** — Punjab has alluvial soil but **lacks the annual flooding and stagnant water** of the Ganga-Brahmaputra delta needed for retting. Canal irrigation provides water but not the anaerobic, nutrient-rich flood sediment.  \n**Argument 2 (Climate seasonality):** Punjab has **extreme temperatures** (summer >40°C, winter <5°C) and **low humidity** — jute needs **consistently high humidity (80–90%)** and temperatures 24–35°C throughout its 4–5 month growth. The dry, hot Loo winds desiccate the crop.  \n**Wrong answer reveals:** If a student says \"yes, with irrigation it's possible\", they treat water as the only variable, ignoring **soil renewal by floods** and **humidity/frost constraints** — a classic reductionist error in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-crop rotation plan for a farm in the Krishna-Godavari delta (Andhra Pradesh) that includes cotton and jute. Specify the season (Kharif/Rabi/Zaid) for each crop and explain the soil moisture logic.",
+     "a": "**Good answer criteria:**  \n- **Kharif (June–Oct):** Jute — uses Southwest Monsoon rain + floodwater for growth and retting (needs standing water).  \n- **Rabi (Nov–Mar):** Cotton — sown after jute harvest; uses **residual soil moisture** from monsoon + **black soil's high moisture retention**; needs cool, dry weather for boll maturation (no rain during picking).  \n- **Zaid (Apr–Jun):** Short-duration pulse (e.g., moong) or fallow — uses pre-monsoon showers; fixes nitrogen for next cycle.  \n**Soil moisture logic:** Jute **consumes** floodwater; cotton **exploits** stored moisture in vertisols; pulse **replenishes** N without heavy water demand.  \n**Poor answer reveals:** Putting cotton in Kharif (rain damages bolls), jute in Rabi (no water for retting), or ignoring soil type (delta has alluvial, not black soil — cotton would need irrigation). Shows no grasp of **season-soil-crop coupling**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

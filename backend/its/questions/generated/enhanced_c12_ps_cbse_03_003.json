@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_03_003",
+   "title": "c12_ps_cbse_03_003",
+   "questions": [
+    {
+     "q": "What was the immediate legal justification the United States invoked under international law for the invasion of Afghanistan in October 2001?",
+     "a": "The US invoked Article 51 of the UN Charter (right to individual and collective self-defense) after the 9/11 attacks, arguing Afghanistan's Taliban regime harbored Al-Qaeda and refused to extradite Osama bin Laden. A wrong answer (e.g., \"UN Security Council resolution authorizing force\") reveals confusion between self-defense and Chapter VII enforcement action — no such resolution authorized the invasion.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Bonn Agreement (December 2001) exclude the Taliban from Afghanistan's post-conflict political arrangement, and what long-term consequence did this have?",
+     "a": "The Taliban were excluded because they were the defeated hostile regime that had harbored Al-Qaeda; the agreement was among anti-Taliban factions (Northern Alliance, royalists, exiles). This created a structural legitimacy deficit — the Taliban viewed the new order as foreign-imposed, fueling a resilient insurgency that regained control in 2021. A wrong answer focusing only on \"Taliban were terrorists\" misses the political-exclusion dimension critical to understanding insurgency dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'asymmetric warfare' to explain how the Taliban, with inferior military technology, sustained a two-decade insurgency against the world's most advanced military.",
+     "a": "The Taliban used asymmetric tactics: avoiding direct confrontation, blending with civilians, using IEDs, exploiting difficult terrain, leveraging cross-border sanctuaries in Pakistan, and outlasting US political will. They turned US strengths (firepower, technology) into liabilities (civilian casualties, high costs, domestic fatigue). A wrong answer listing only \"guerrilla tactics\" without linking to US strategic vulnerabilities (casualty aversion, election cycles, cost sensitivity) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the US approach in Afghanistan (2001–2021) with the Soviet approach (1979–1989). Identify two structural similarities and one critical difference in outcomes.",
+     "a": "Similarities: both installed a Kabul government lacking broad legitimacy; both faced insurgencies supported by external patrons (US/Pakistan for mujahideen; Pakistan/US for Taliban). Difference: Soviets withdrew after 9 years under Gorbachev's reform agenda; US stayed 20 years, spent vastly more, and left a collapsed state — but the Soviet withdrawal led to civil war and Taliban rise, while US withdrawal led to immediate Taliban takeover. A wrong answer claiming \"US succeeded where USSR failed\" ignores that both ended with the same regime in power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Afghanistan intervention demonstrates the limits of hard power in creating political order.\" Use evidence from the 20-year period.",
+     "a": "The claim is strongly supported. Hard power removed the Taliban in weeks but could not build a self-sustaining Afghan state: corruption, warlordism, and aid dependency undermined the Kabul government; the Afghan National Security Forces collapsed without US air support; the Taliban's return showed military victory ≠ political legitimacy. Counter-evidence: Al-Qaeda was degraded, no major terror attack on US soil originated from Afghanistan post-2001. A wrong answer focusing only on \"terrorism prevented\" misses the nation-building failure central to the hegemony debate.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-point policy recommendation for a future great power intervening in a fragile state, drawing lessons from the Afghanistan experience. Each point must address a specific failure mode observed in 2001–2021.",
+     "a": "(1) Define narrow, achievable objectives (counter-terrorism) rather than expansive nation-building — avoids mission creep. (2) Include all major local actors in political settlement from day one — prevents exclusion-driven insurgency. (3) Set clear exit criteria tied to local capacity, not calendar dates — prevents premature withdrawal or endless commitment. A poor answer gives generic advice (\"build institutions\") without linking to specific Afghanistan failures (exclusion of Taliban, corruption, ANSF dependency).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

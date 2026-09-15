@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_002",
+   "title": "c12_hs_cbse_12_002",
+   "questions": [
+    {
+     "q": "Define the Principle of Cultural Sensitivity in extension education and give one example of violating it in a rural Indian context.",
+     "a": "The Principle of Cultural Sensitivity requires extension workers to respect and work within the community's existing values, beliefs, customs, and social structures rather than imposing external norms. Example of violation: Promoting egg consumption for protein in a strictly vegetarian community without offering plant-based alternatives, causing resistance and loss of credibility. A wrong answer (e.g., \"it means translating materials into local language\") reveals the student confuses cultural sensitivity with mere linguistic translation, missing the deeper requirement of aligning with values and social norms.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Extension education is just like school teaching but for adults in villages.\" Explain why this statement is incorrect by contrasting at least three fundamental differences between formal education and extension education.",
+     "a": "Three fundamental differences: (1) **Curriculum**: Formal education follows a fixed, centrally prescribed syllabus; extension education uses flexible, need-based curriculum emerging from community problems. (2) **Authority**: Formal education relies on teacher authority and certification; extension education relies on credibility, trust, and demonstrated results. (3) **Evaluation**: Formal education uses standardised exams for grading; extension education uses continuous, participatory evaluation for programme improvement. A wrong answer focusing only on \"location difference\" or \"age of learners\" reveals superficial understanding — the student misses the philosophical shift from *prescribed learning* to *problem-solving partnership*.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker plans a nutrition awareness programme for tribal women in Odisha. The community traditionally consumes millets but is shifting to rice from PDS. Applying the Principle of Grassroots Democracy and Principle of Whole Family Approach, design a 3-step strategy the worker should follow in the first month.",
+     "a": "Step 1: Conduct participatory appraisal (PRA) with women's self-help groups, village elders, and men to *identify their perceived nutrition problems* — not impose \"millet promotion\" (Grassroots Democracy). Step 2: Map household food decisions — who purchases, cooks, serves, eats first/last — to engage *all decision-makers* (Whole Family Approach). Step 3: Co-create trial activities (e.g., millet recipe demonstrations with men as tasters, seed-saving groups led by elders) where *community members design and own* the intervention. A wrong answer starting with \"distribute millet seeds\" or \"give lectures on millet benefits\" reveals the student treats principles as labels rather than operational guides for *process*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Principle of Adaptability and Principle of Satisfaction in extension education. How does violating one undermine the other? Illustrate with a concrete example from agricultural extension.",
+     "a": "**Adaptability** means modifying content, methods, and pace to fit local agro-ecological, socio-economic, and cultural conditions. **Satisfaction** means the learner experiences tangible benefit (economic, social, psychological) that reinforces continued participation. Violating Adaptability → rigid recommendations (e.g., promoting high-yield paddy requiring 1500mm rainfall in a 700mm zone) → crop failure → no Satisfaction → dropout. Violating Satisfaction → even well-adapted technology (e.g., suitable millet variety) with no visible yield/income gain in first season → loss of trust → community rejects future Adaptability efforts. The two principles form a feedback loop: Adaptability enables Satisfaction; Satisfaction sustains willingness to Adapt.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this extension programme design: \"To improve sanitation, we will construct 50 toilets in Village X using government funds. We will hire masons from the district headquarters. After construction, we will distribute pamphlets on toilet use. Success = number of toilets built.\" Identify violations of at least four extension principles and explain the likely outcome.",
+     "a": "Violations: (1) **Participation** — community not involved in planning, site selection, or labour; (2) **Leadership** — local leaders bypassed, external masons used; (3) **Cultural Sensitivity** — no attention to sanitation beliefs, water availability, or gender-specific needs; (4) **Evaluation** — success measured by output (toilets built) not outcome (usage, behaviour change); (5) **Adaptability** — standard design ignores local soil, water table, space constraints. Likely outcome: Toilets remain unused (storage, bathing, or abandoned), funds wasted, community distrusts future programmes. The design treats extension as *delivery of hardware* rather than *facilitation of social change*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 5-minute role-play scenario for training new extension workers that demonstrates the conflict between Principle of Cooperation and Principle of Leadership. Write the scenario, roles, and the key learning point the trainer should debrief.",
+     "a": "**Scenario**: \"The Watershed Committee\" — Village has a new watershed project. **Roles**: (1) Extension Worker (EW), (2) Sarpanch (elected head), (3) Traditional Water Manager (patel), (4) Women's SHG Leader, (5) Landless Labourer. **Conflict**: Sarpanch wants check-dams on *his* family land (Leadership misused for elite capture). Patel demands traditional water-sharing rules be followed. SHG Leader wants drinking water wells prioritised. Labourer wants wage employment in construction. **EW's task**: Facilitate a decision in 5 minutes using Cooperation principle. **Debrief point**: True Leadership in extension *enables* Cooperation — it convenes diverse voices, mediates power imbalances, and ensures the *process* is owned by all, not just the powerful. If EW sides with Sarpanch for \"speed,\" Cooperation collapses. If EW avoids conflict, Leadership is abdicated. The principle pair demands *facilitative leadership*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

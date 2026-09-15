@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_9",
+   "title": "c8_physics_ch8_9",
+   "questions": [
+    {
+     "q": "What is the primary purpose of an elephant corridor in wildlife conservation?",
+     "a": "The primary purpose of an elephant corridor is to connect fragmented habitats so that elephants can move safely between them for food, water, breeding, and seasonal migration, thereby reducing human-elephant conflict and maintaining genetic diversity. A wrong answer that only mentions \"protecting elephants from poachers\" reveals a misunderstanding that corridors are primarily about anti-poaching rather than habitat connectivity and movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the width of an elephant corridor just as important as its length when designing safe passage for elephants?",
+     "a": "Corridor width is critical because elephants need sufficient space to maintain their natural social spacing, avoid edge effects like human disturbance, and feel secure enough to use the corridor; a narrow corridor increases stress and the likelihood of human-elephant encounters. If a student answers that only length matters because \"elephants just need to get from A to B,\" they are ignoring the behavioral ecology that elephants require a buffer zone from human activity to use a corridor willingly.",
+     "self_check": true
+    },
+    {
+     "q": "An elephant herd walks at an average speed of 5 km/h. They need to cross a corridor that is 12 km long to reach a water source. How many hours will it take them to cross the corridor? If they start at 6:00 AM, at what time will they reach the water source?",
+     "a": "Given: speed = 5 km/h, distance = 12 km. Using time = distance/speed = 12 km / 5 km/h = 2.4 hours. 0.4 hours = 0.4 × 60 min = 24 minutes. Total time = 2 hours 24 minutes. Starting at 6:00 AM, they arrive at 8:24 AM. A wrong answer of 2.4 hours without converting to hours/minutes or miscalculating 0.4 hours as 40 minutes reveals a unit conversion error common when working with decimal hours.",
+     "self_check": true
+    },
+    {
+     "q": "Two corridors are proposed: Corridor A is 1 km wide and 10 km long; Corridor B is 500 m wide and 8 km long. Assuming elephants walk at 4 km/h and avoid areas within 200 m of human activity, analyze which corridor provides a larger effective safe zone for a herd that spreads 300 m wide while moving.",
+     "a": "Corridor A: safe width = 1000 m - 2×200 m = 600 m. Herd needs 300 m, so safe zone width = 600 m > 300 m, adequate. Corridor B: safe width = 500 m - 2×200 m = 100 m. Herd needs 300 m, so safe zone width = 100 m < 300 m, inadequate. Corridor A is better despite being longer because its width provides a sufficient buffer. A student who chooses Corridor B because it is shorter ignores the critical role of width in reducing edge effects and shows a misunderstanding of how animals perceive habitat quality.",
+     "self_check": true
+    },
+    {
+     "q": "A wildlife manager proposes building an elephant corridor through a region with intense agriculture, arguing that the corridor will be fenced on both sides to prevent crop raiding. Evaluate this proposal considering elephant behavior and the purpose of corridors.",
+     "a": "The proposal is flawed because fencing a corridor through agricultural land creates a hard edge that increases stress, restricts natural foraging, and may lead to elephants breaking fences, escalating conflict. Corridors should ideally pass through natural or semi-natural habitats with minimal human activity. A student who supports the proposal because \"fencing solves crop raiding\" fails to evaluate the long-term behavioral consequences and the fact that corridors are meant to be permeable landscapes, not tunnels.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple corridor plan for a hypothetical landscape where two forest patches are separated by 15 km of mixed farmland and a state highway. Specify the corridor width, any crossing structures for the highway, and two features to minimize human-elephant conflict.",
+     "a": "A good answer includes: (1) Corridor width of at least 1 km to provide 300 m buffer on each side after accounting for 200 m edge effect, (2) An underpass or overpass at the highway with guide fencing, (3) Features like native vegetation planting for cover and community-based early warning systems. A poor answer that suggests a narrow fenced path without crossing structures reveals an inability to synthesize movement ecology, engineering solutions, and social dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

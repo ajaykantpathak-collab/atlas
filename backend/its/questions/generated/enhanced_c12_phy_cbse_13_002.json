@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_002",
+   "title": "c12_phy_cbse_13_002",
+   "questions": [
+    {
+     "q": "State the approximate range of the nuclear force and explain why the binding energy per nucleon becomes nearly constant for nuclei with mass number 30 < A < 170.",
+     "a": "The nuclear force acts over a very short range (~1–2 fm). For A > 30, a nucleon interacts only with its nearest neighbours within this range; adding more nucleons increases total binding energy proportionally to A, so binding energy per nucleon saturates. A wrong answer (e.g., \"Coulomb force causes saturation\") reveals confusion between long-range electromagnetic and short-range strong forces.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the nuclear force between two protons essentially the same as that between a proton and a neutron, despite the Coulomb repulsion between protons?",
+     "a": "The strong nuclear force is charge-independent; it acts equally between n-n, p-n, and p-p pairs. The Coulomb repulsion is a separate, weaker long-range force that adds to the net interaction for protons. A wrong answer (e.g., \"Protons don't repel inside the nucleus\") shows misunderstanding of force superposition.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the binding energy per nucleon (in MeV) for a ⁵⁶₂₆Fe nucleus given its atomic mass is 55.934939 u. Use mₚ = 1.007276 u, mₙ = 1.008665 u, mₑ = 0.000548 u, and 1 u = 931.5 MeV/c².",
+     "a": "Step 1: Nuclear mass M = atomic mass - 26 mₑ = 55.934939 - 26×0.000548 = 55.920691 u.  \nStep 2: Total constituent mass = 26 mₚ + 30 mₙ = 26×1.007276 + 30×1.008665 = 56.448866 u.  \nStep 3: Mass defect ΔM = 56.448866 - 55.920691 = 0.528175 u.  \nStep 4: Binding energy E_b = ΔM × 931.5 MeV/u = 492.0 MeV.  \nStep 5: E_bn = 492.0 / 56 = 8.79 MeV/nucleon.  \nA wrong answer (e.g., using atomic mass directly without subtracting electron mass) reveals neglect of atomic vs nuclear mass distinction.",
+     "self_check": true
+    },
+    {
+     "q": "The binding energy per nucleon curve peaks at ⁵⁶Fe (≈8.8 MeV) and falls to ≈7.6 MeV for ²³⁸U. Explain why this makes ²³⁸U fission energetically favourable but ⁵⁶Fe fission unfavourable.",
+     "a": "Fission splits a heavy nucleus into two intermediate-mass fragments. For ²³⁸U, the fragments (A≈120) have higher binding energy per nucleon (~8.5 MeV) than the parent (7.6 MeV), so nucleons become more tightly bound and energy is released. For ⁵⁶Fe, any split would produce lighter nuclei with lower binding energy per nucleon (<8.8 MeV), requiring energy input. A wrong answer (e.g., \"Fe is stable so it doesn't fission\") misses the quantitative energy-balance argument.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The mass defect of a nucleus is negative because the nucleus has less mass than its constituents, so binding energy should be negative.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Mass defect ΔM = (Z mₚ + N mₙ) - M is defined as a positive quantity (constituent mass minus nuclear mass). Binding energy E_b = ΔM c² is therefore positive, representing the energy released when the nucleus forms (or needed to break it). A negative binding energy would imply an unbound system. The student confuses the sign convention for mass defect with the physical meaning of binding energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using the binding energy curve to show that fusion of two ²H (deuterium) nuclei into ⁴He releases energy, while fusion of two ⁵⁶Fe nuclei would absorb energy.",
+     "a": "Locate A=2 (E_bn≈1.1 MeV) and A=4 (E_bn≈7.1 MeV) on the curve: the product has much higher binding energy per nucleon, so energy is released. Locate A=56 (E_bn≈8.8 MeV) and A=112 (E_bn≈8.5 MeV): the product has lower binding energy per nucleon, so energy must be supplied. A poor answer (e.g., just stating \"fusion releases energy\") fails to use the curve quantitatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 8,
+ "chapter_title": "Controlling",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_ms_0025.txt",
+ "concepts": [
+  {
+   "id": "c12bs.8.1",
+   "title": "Meaning and Importance of Controlling",
+   "section": "8.1",
+   "definition": "Controlling is the managerial function of measuring and correcting the performance of subordinates to ensure that organisational plans are achieved by comparing actual performance with standards and taking corrective action.",
+   "formula": "",
+   "key_idea": "Controlling ensures that actual performance conforms to planned performance by measuring, comparing and correcting deviations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is controlling in management?",
+    "Why is controlling an important function of management?",
+    "How does controlling help in achieving organisational goals?",
+    "What is the relationship between planning and controlling?",
+    "Explain the meaning of controlling with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define controlling",
+     "explain": "Controlling is the process of measuring actual performance, comparing it with standards and taking corrective action to ensure goals are achieved."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features",
+     "explain": "Controlling is goal-oriented, pervasive, continuous and both backward-looking and forward-looking; it links to planning."
+    },
+    {
+     "step": 3,
+     "action": "State its importance",
+     "explain": "Controlling helps achieve goals, judge accuracy of standards, makes efficient use of resources, improves motivation, facilitates coordination and ensures order and discipline."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is controlling in management?",
+     "solution": "Controlling is the managerial function of measuring actual performance, comparing it with standards and taking corrective action to achieve organisational goals.",
+     "answer": "Measuring and correcting performance to achieve goals."
+    },
+    {
+     "question": "Why is controlling an important function of management?",
+     "solution": "Controlling ensures goal achievement, efficient resource use, accurate standards, improved motivation, coordination and organisational discipline.",
+     "answer": "It ensures goal achievement and efficient resource use."
+    },
+    {
+     "question": "Explain the meaning of controlling with an example.",
+     "solution": "A sales manager comparing actual monthly sales with the sales target and taking corrective action if there is a shortfall is exercising control.",
+     "answer": "Comparing actual sales with targets and correcting deviations."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does controlling help in achieving organisational goals?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the relationship between planning and controlling?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are the features of controlling?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.2",
+   "title": "Steps in the Control Process",
+   "section": "8.2",
+   "definition": "The control process involves setting performance standards, measuring actual performance, comparing actual performance with standards, identifying deviations and taking corrective action to bring performance back in line with standards.",
+   "formula": "",
+   "key_idea": "The control process has four steps: setting standards, measuring performance, comparing performance with standards and taking corrective action for deviations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the steps in the control process?",
+    "Why is setting standards the first step in control?",
+    "How is actual performance compared with standards?",
+    "What is corrective action in the control process?",
+    "Explain the control process with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set performance standards",
+     "explain": "Standards are the criteria against which actual performance is measured; they may be quantitative or qualitative."
+    },
+    {
+     "step": 2,
+     "action": "Measure and compare actual performance",
+     "explain": "Actual performance is measured and compared with the set standards to identify deviations, if any."
+    },
+    {
+     "step": 3,
+     "action": "Take corrective action",
+     "explain": "If deviations are beyond acceptable limits, managers analyse causes and take corrective action to bring performance in line with standards."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the steps in the control process?",
+     "solution": "The steps are setting performance standards, measuring actual performance, comparing it with standards and taking corrective action for deviations.",
+     "answer": "Set standards, measure, compare and take corrective action."
+    },
+    {
+     "question": "Why is setting standards the first step in control?",
+     "solution": "Standards provide the benchmark against which actual performance is measured, so without them comparison and correction are impossible.",
+     "answer": "Standards provide the benchmark for comparison."
+    },
+    {
+     "question": "Explain the control process with an example.",
+     "solution": "A production manager sets a target of 1000 units, measures actual output of 900 units, compares to find a shortfall of 100 units and takes corrective action to increase output.",
+     "answer": "Set target, measure output, compare and correct the shortfall."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is actual performance compared with standards?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is corrective action in the control process?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why must standards be set in measurable terms?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.3",
+   "title": "Types of Control: Feedforward, Concurrent and Feedback",
+   "section": "8.3",
+   "definition": "Feedforward control focuses on preventing defects before operations begin, concurrent control monitors ongoing operations to correct them as they happen, and feedback control corrects performance after the work is completed by using past results.",
+   "formula": "",
+   "key_idea": "Control can be applied before (feedforward), during (concurrent) or after (feedback) an activity to prevent, monitor or correct performance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the types of control in management?",
+    "Explain feedforward control with an example.",
+    "What is concurrent control?",
+    "How does feedback control differ from feedforward control?",
+    "Give an example of feedback control."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three types of control",
+     "explain": "The three types of control are feedforward, concurrent and feedback control."
+    },
+    {
+     "step": 2,
+     "action": "Explain each type",
+     "explain": "Feedforward control anticipates problems before they occur; concurrent control monitors ongoing activities; feedback control uses past results to correct future action."
+    },
+    {
+     "step": 3,
+     "action": "Compare the types",
+     "explain": "Feedforward is preventive and future-oriented, concurrent is real-time, and feedback is past-oriented and corrective after the event."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the types of control in management?",
+     "solution": "The three types of control are feedforward, concurrent and feedback control.",
+     "answer": "Feedforward, concurrent and feedback control."
+    },
+    {
+     "question": "Explain feedforward control with an example.",
+     "solution": "Feedforward control prevents defects before operations begin; for example, inspecting raw materials before production starts to avoid defective output.",
+     "answer": "Preventive control before operations, e.g., inspecting raw materials."
+    },
+    {
+     "question": "How does feedback control differ from feedforward control?",
+     "solution": "Feedforward control prevents problems before they occur, while feedback control corrects performance after the work is completed using past results.",
+     "answer": "Feedforward is preventive; feedback is corrective after the event."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is concurrent control?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give an example of feedback control.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which type of control is most useful for preventing defects?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.4",
+   "title": "Relationship Between Planning and Controlling",
+   "section": "8.4",
+   "definition": "Planning and controlling are interrelated managerial functions; planning sets goals and standards while controlling measures performance against those standards, and each is meaningless without the other.",
+   "formula": "",
+   "key_idea": "Planning and controlling are inseparable -- planning provides the standards for control, and controlling evaluates the achievement of plans.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the relationship between planning and controlling?",
+    "Why are planning and controlling called inseparable functions?",
+    "How does planning provide the basis for controlling?",
+    "How does controlling help improve planning?",
+    "Explain why planning is meaningless without controlling."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the interrelationship",
+     "explain": "Planning and controlling are interrelated; planning sets the goals and standards, while controlling ensures that the goals are achieved."
+    },
+    {
+     "step": 2,
+     "action": "Explain the basis",
+     "explain": "Planning provides the standards against which actual performance is measured in controlling; without planning there is nothing to control."
+    },
+    {
+     "step": 3,
+     "action": "Explain mutual dependence",
+     "explain": "Controlling provides feedback that improves future planning, so the two functions form a continuous cycle of management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the relationship between planning and controlling?",
+     "solution": "Planning sets goals and standards while controlling measures and corrects performance against those standards; the two are interrelated and inseparable.",
+     "answer": "Planning sets standards; controlling ensures they are achieved."
+    },
+    {
+     "question": "Why are planning and controlling called inseparable functions?",
+     "solution": "Planning without controlling is meaningless because there is no check on achievement, and controlling without planning is impossible because there are no standards to measure against.",
+     "answer": "Each is meaningless without the other."
+    },
+    {
+     "question": "How does controlling help improve planning?",
+     "solution": "Controlling provides feedback about deviations and performance, which managers use to revise and improve future plans.",
+     "answer": "It provides feedback to revise future plans."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does planning provide the basis for controlling?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why planning is meaningless without controlling.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is controlling called backward-looking and forward-looking?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.5",
+   "title": "Techniques of Control: Budgetary Control",
+   "section": "8.5",
+   "definition": "Budgetary control is a technique of control that uses budgets -- statements of expected results in financial terms -- to compare actual performance with planned performance and take corrective action for deviations.",
+   "formula": "",
+   "key_idea": "Budgetary control uses budgets as standards to compare actual performance with planned performance and take corrective action.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is budgetary control?",
+    "How does budgetary control help an organisation?",
+    "What is a budget in the context of control?",
+    "Explain the process of budgetary control.",
+    "What are the limitations of budgetary control?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define budgetary control",
+     "explain": "Budgetary control is the technique of preparing budgets and using them as standards to compare actual performance with planned performance."
+    },
+    {
+     "step": 2,
+     "action": "Explain the process",
+     "explain": "Budgets are prepared for each area, actual results are recorded, compared with budgets and deviations are analysed for corrective action."
+    },
+    {
+     "step": 3,
+     "action": "State its benefits and limitations",
+     "explain": "Budgetary control helps coordinate activities and control costs, but it may be rigid, time-consuming and based on estimates that may be inaccurate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is budgetary control?",
+     "solution": "Budgetary control is a control technique that uses budgets as standards to compare actual performance with planned performance and take corrective action.",
+     "answer": "Using budgets as standards to control performance."
+    },
+    {
+     "question": "Explain the process of budgetary control.",
+     "solution": "Budgets are prepared, actual performance is recorded and compared with the budgets, deviations are identified and corrective action is taken.",
+     "answer": "Prepare budgets, compare actuals, analyse deviations, take action."
+    },
+    {
+     "question": "What is a budget in the context of control?",
+     "solution": "A budget is a statement of expected results expressed in financial or quantitative terms, used as a standard for control.",
+     "answer": "A statement of expected results used as a control standard."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does budgetary control help an organisation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are the limitations of budgetary control?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are budgets called standards of control?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.6",
+   "title": "Techniques of Control: Ratio Analysis",
+   "section": "8.6",
+   "definition": "Ratio analysis is a control technique that establishes relationships between two accounting figures to evaluate the liquidity, solvency, profitability and efficiency of an organisation.",
+   "formula": "Ratio = (Figure A) / (Figure B)",
+   "key_idea": "Ratio analysis compares related accounting figures to assess profitability, liquidity, solvency and efficiency of the firm.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is ratio analysis as a control technique?",
+    "How is a ratio calculated?",
+    "What are the types of ratios used in ratio analysis?",
+    "How does ratio analysis help in controlling?",
+    "Compute the current ratio given current assets and current liabilities."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two figures to be compared",
+     "explain": "Select the relevant accounting figures such as current assets and current liabilities for the required ratio.",
+     "compute": "figures = current_assets, current_liabilities"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio",
+     "explain": "Divide the first figure by the second to obtain the ratio value.",
+     "compute": "ratio = current_assets / current_liabilities"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the ratio",
+     "explain": "Compare the computed ratio with the standard or previous ratios to judge liquidity, profitability or efficiency.",
+     "compute": "interpretation = compare(ratio, standard_ratio)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compute the current ratio when current assets are Rs. 2,00,000 and current liabilities are Rs. 1,00,000.",
+     "solution": "Current ratio = Current assets / Current liabilities = 2,00,000 / 1,00,000 = 2 : 1.",
+     "answer": "Current ratio = 2 : 1."
+    },
+    {
+     "question": "If net profit is Rs. 50,000 and sales are Rs. 5,00,000, compute the net profit ratio.",
+     "solution": "Net profit ratio = (Net profit / Sales) x 100 = (50,000 / 5,00,000) x 100 = 10%.",
+     "answer": "Net profit ratio = 10%."
+    },
+    {
+     "question": "Compute the debt-equity ratio when debt is Rs. 3,00,000 and equity is Rs. 2,00,000.",
+     "solution": "Debt-equity ratio = Debt / Equity = 3,00,000 / 2,00,000 = 1.5 : 1.",
+     "answer": "Debt-equity ratio = 1.5 : 1."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the current ratio when current assets are Rs. 1,50,000 and current liabilities are Rs. 75,000.",
+     "type": "compute"
+    },
+    {
+     "question": "What are the types of ratios used in ratio analysis?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compute the gross profit ratio if gross profit is Rs. 40,000 and sales are Rs. 2,00,000.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.7",
+   "title": "Techniques of Control: Break-Even Analysis",
+   "section": "8.7",
+   "definition": "Break-even analysis is a control technique that determines the level of sales at which total revenue equals total cost, resulting in neither profit nor loss; the break-even point is where contribution equals fixed costs.",
+   "formula": "Break-even point (units) = Fixed cost / Contribution per unit",
+   "key_idea": "Break-even analysis finds the sales volume at which total revenue equals total cost, helping managers understand the profit impact of changes in cost and volume.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is break-even analysis?",
+    "How is the break-even point calculated?",
+    "What is contribution per unit?",
+    "How does break-even analysis help in control?",
+    "Compute the break-even point given fixed cost and contribution per unit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify fixed cost and contribution per unit",
+     "explain": "Determine the total fixed cost and the contribution per unit (selling price per unit minus variable cost per unit).",
+     "compute": "contribution_per_unit = selling_price_per_unit - variable_cost_per_unit"
+    },
+    {
+     "step": 2,
+     "action": "Compute the break-even point",
+     "explain": "Divide the fixed cost by the contribution per unit to obtain the break-even point in units.",
+     "compute": "break_even_units = fixed_cost / contribution_per_unit"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the break-even point",
+     "explain": "The break-even point is the sales volume at which there is no profit or loss; sales above it yield profit and below it cause loss.",
+     "compute": "interpretation = profit if sales > break_even_units else loss"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compute the break-even point in units when fixed cost is Rs. 50,000, selling price per unit is Rs. 20 and variable cost per unit is Rs. 10.",
+     "solution": "Contribution per unit = 20 - 10 = Rs. 10. Break-even point = Fixed cost / Contribution per unit = 50,000 / 10 = 5,000 units.",
+     "answer": "Break-even point = 5,000 units."
+    },
+    {
+     "question": "If fixed cost is Rs. 80,000 and contribution per unit is Rs. 16, compute the break-even point.",
+     "solution": "Break-even point = Fixed cost / Contribution per unit = 80,000 / 16 = 5,000 units.",
+     "answer": "Break-even point = 5,000 units."
+    },
+    {
+     "question": "Compute the break-even point when fixed cost is Rs. 1,20,000, selling price per unit is Rs. 50 and variable cost per unit is Rs. 30.",
+     "solution": "Contribution per unit = 50 - 30 = Rs. 20. Break-even point = 1,20,000 / 20 = 6,000 units.",
+     "answer": "Break-even point = 6,000 units."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the break-even point when fixed cost is Rs. 60,000 and contribution per unit is Rs. 15.",
+     "type": "compute"
+    },
+    {
+     "question": "What is contribution per unit?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compute the break-even point when fixed cost is Rs. 1,00,000, selling price per unit is Rs. 25 and variable cost per unit is Rs. 15.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.8",
+   "title": "Behavioural Implications of Control",
+   "section": "8.8",
+   "definition": "Behavioural implications of control refer to the psychological and human reactions of employees to control systems; controls that are too rigid or set unrealistic standards can demotivate employees and create resistance.",
+   "formula": "",
+   "key_idea": "Control systems affect employee behaviour; unrealistic standards and excessive controls can demotivate staff, while participative and fair controls encourage acceptance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the behavioural implications of control?",
+    "How do unrealistic standards affect employee motivation?",
+    "Why may employees resist control systems?",
+    "How can behavioural problems of control be reduced?",
+    "Explain the relationship between control and employee morale."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the behavioural impact of control",
+     "explain": "Control systems influence employee behaviour; tight or unfair controls can cause resistance, frustration and reduced motivation."
+    },
+    {
+     "step": 2,
+     "action": "Identify causes of negative reactions",
+     "explain": "Unrealistic standards, lack of participation, excessive pressure and focus on short-term results lead to negative behavioural responses."
+    },
+    {
+     "step": 3,
+     "action": "Suggest remedies",
+     "explain": "Setting realistic standards, involving employees in setting standards and focusing on self-control reduces resistance and improves acceptance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the behavioural implications of control?",
+     "solution": "Control systems affect employee behaviour; rigid or unrealistic controls can demotivate employees and create resistance, while fair controls encourage acceptance.",
+     "answer": "Controls influence employee motivation and acceptance."
+    },
+    {
+     "question": "How do unrealistic standards affect employee motivation?",
+     "solution": "Standards that are too high or impossible to achieve frustrate employees, lower morale and reduce their willingness to perform.",
+     "answer": "They frustrate employees and lower morale."
+    },
+    {
+     "question": "How can behavioural problems of control be reduced?",
+     "solution": "By setting realistic standards, involving employees in standard-setting and encouraging self-control, resistance to control can be reduced.",
+     "answer": "Set realistic standards and involve employees."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why may employees resist control systems?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the relationship between control and employee morale.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can participation reduce resistance to control?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.8.9",
+   "title": "Limitations of Controlling",
+   "section": "8.9",
+   "definition": "Limitations of controlling are the constraints that reduce its effectiveness, including difficulty in setting quantitative standards, resistance from employees, limitations of the control system itself and the influence of external factors beyond the manager's control.",
+   "formula": "",
+   "key_idea": "Controlling has limitations such as difficulty in setting standards for qualitative work, employee resistance, cost of the control system and the effect of uncontrollable external factors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the limitations of controlling?",
+    "Why is it difficult to set standards for qualitative activities?",
+    "How does employee resistance limit the effectiveness of control?",
+    "What are the costs associated with controlling?",
+    "How do external factors limit the effectiveness of controlling?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the limitations of controlling",
+     "explain": "Limitations include difficulty in setting quantitative standards, resistance from employees, cost of the control system and the effect of external factors."
+    },
+    {
+     "step": 2,
+     "action": "Explain each limitation",
+     "explain": "It is hard to set standards for qualitative work; employees may resist control; control systems are costly; and external factors like government policy are beyond control."
+    },
+    {
+     "step": 3,
+     "action": "Suggest how to manage the limitations",
+     "explain": "Managers can reduce limitations by setting realistic standards, communicating the purpose of control and focusing on key areas rather than controlling everything."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the limitations of controlling?",
+     "solution": "Limitations of controlling include difficulty in setting quantitative standards, employee resistance, cost of the control system and the influence of external factors.",
+     "answer": "Difficulty in standards, resistance, cost and external factors."
+    },
+    {
+     "question": "Why is it difficult to set standards for qualitative activities?",
+     "solution": "Qualitative activities such as employee morale or customer satisfaction cannot be easily measured in numbers, making standards hard to set.",
+     "answer": "Qualitative work is hard to measure numerically."
+    },
+    {
+     "question": "How do external factors limit the effectiveness of controlling?",
+     "solution": "Factors such as changes in government policy, technology or competition are beyond the manager's control and can make even good control systems ineffective.",
+     "answer": "Uncontrollable external factors reduce control effectiveness."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does employee resistance limit the effectiveness of control?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are the costs associated with controlling?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can managers reduce the limitations of controlling?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

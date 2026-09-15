@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_006",
+   "title": "c12_phy_cbse_04_006",
+   "questions": [
+    {
+     "q": "State Ampere's circuital law in integral form and give the SI unit of μ₀.",
+     "a": "Ampere's circuital law: ∮ **B·dl** = μ₀ **Iₑₙc**, where the integral is taken over a closed loop and **Iₑₙc** is the net steady current passing through the surface bounded by the loop. The SI unit of μ₀ is T·m/A (tesla metre per ampere) or N/A². A wrong answer (e.g., writing ∮ **B·dl** = **I**/μ₀ or giving μ₀ unit as T/A) reveals confusion with the electric analogue (Gauss's law) or a memory error in the constant's placement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Ampere's circuital law in its simplified form **B L** = μ₀ **Iₑₙc** cannot be used directly to find the magnetic field at the centre of a circular current loop.",
+     "a": "The simplified form requires that along the chosen Amperian loop, **B** is either tangential and constant, normal, or zero. For a circular loop, no single Amperian loop exists where **B** is both tangential and constant in magnitude everywhere on the loop. The magnetic field of a circular loop is not cylindrically symmetric; its magnitude and direction vary along any simple closed path. A student who says \"it can be used by taking a circular loop concentric with the wire\" misunderstands that the field lines of a circular loop are not concentric circles centered on the wire — they are more complex. The correct approach for a circular loop is the Biot-Savart law (previous node).",
+     "self_check": true
+    },
+    {
+     "q": "A long straight wire of radius 4.0 mm carries a steady current of 5.0 A uniformly distributed across its cross-section. Calculate the magnetic field at a distance (a) 2.0 mm from the axis (inside the wire) and (b) 8.0 mm from the axis (outside the wire). Use μ₀ = 4π × 10⁻⁷ T·m/A.",
+     "a": "**Given:** radius of wire **a** = 4.0 mm = 4.0 × 10⁻³ m, current **I** = 5.0 A.  \n**(a)** At **r** = 2.0 mm = 2.0 × 10⁻³ m (r < a):  \nCurrent density **J** = **I** / (π**a**²) = 5.0 / (π × (4.0×10⁻³)²) A/m².  \nEnclosed current **Iₑₙc** = **J** × π**r**² = **I** × (**r**²/**a**²) = 5.0 × (2.0/4.0)² = 5.0 × 0.25 = 1.25 A.  \nAmpere's law: **B** × 2π**r** = μ₀ **Iₑₙc** → **B** = μ₀ **Iₑₙc** / (2π**r**) = (4π×10⁻⁷ × 1.25) / (2π × 2.0×10⁻³) = (5π×10⁻⁷) / (4π×10⁻³) = 1.25 × 10⁻⁴ T = **0.125 mT**.  \n**(b)** At **r** = 8.0 mm = 8.0 × 10⁻³ m (r > a):  \nEnclosed current **Iₑₙc** = **I** = 5.0 A.  \n**B** = μ₀ **I** / (2π**r**) = (4π×10⁻⁷ × 5.0) / (2π × 8.0×10⁻³) = (20π×10⁻⁷) / (16π×10⁻³) = 1.25 × 10⁻⁴ T = **0.125 mT**.  \nNote: The field is continuous at the surface (r = a). A common error is using **I** instead of **Iₑₙc** for part (a), giving **B** = 2.5 × 10⁻⁴ T (double the correct value), or forgetting to convert mm to m.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Ampere's law ∮ **B·dl** = μ₀ **Iₑₙc** implies that if I take an Amperian loop that encloses no current, the magnetic field **B** must be zero everywhere on that loop.\" Is this statement correct? Justify your answer with a counterexample.",
+     "a": "The statement is **incorrect**. Ampere's law relates the *line integral* of **B** around a closed loop to the enclosed current. If **Iₑₙc** = 0, the *integral* ∮ **B·dl** = 0, but **B** itself need not be zero at every point on the loop. Counterexample: Consider a long straight wire carrying current **I**. Take a rectangular Amperian loop that does *not* enclose the wire (placed entirely to one side). The magnetic field due to the wire is non-zero everywhere, but the line integral around the rectangle is zero because contributions from opposite sides cancel (or because the net enclosed current is zero). Another counterexample: a uniform magnetic field **B** = **B₀** **î** in a region with no currents; ∮ **B·dl** = 0 for any loop, but **B** ≠ 0. A student who agrees with the statement confuses the integral of a vector field with the field itself.",
+     "self_check": true
+    },
+    {
+     "q": "In the derivation of the magnetic field inside a long solenoid using Ampere's law, we use a rectangular Amperian loop **abcd** where side **ab** is inside the solenoid parallel to the axis, side **cd** is outside, and sides **bc**, **da** are perpendicular to the axis. The derivation assumes the field outside the solenoid is zero and the field inside is uniform and parallel to the axis. Which of these assumptions is an approximation, and why is it justified for a *long* solenoid?",
+     "a": "The assumption that the magnetic field **outside** the solenoid is zero is an approximation. For a finite solenoid, field lines must form closed loops (since ∇·**B** = 0), so they emerge from one end and re-enter at the other, giving a non-zero external field. However, for a *long* solenoid (length ≫ radius), the external field becomes very weak compared to the internal field because the field lines spread out over a large volume outside. The approximation becomes exact in the ideal limit of an infinitely long solenoid. The assumption that the field inside is uniform and parallel to the axis is also an approximation that holds well away from the ends for a long solenoid. A student who says \"both are exact for any solenoid\" ignores the fringing fields at the ends; a student who says \"the internal field assumption is the approximation\" misses that the internal field is nearly uniform by symmetry and the zero-external-field is the stronger approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a compass, a battery, a long straight wire, and a ruler to verify the inverse-distance dependence of the magnetic field around a long straight current-carrying wire (B ∝ 1/r). Describe the procedure, measurements, and how you would analyse the data.",
+     "a": "**Procedure:** (1) Set up a vertical long straight wire (e.g., 1 m) connected in series with a battery, a rheostat, and an ammeter. Keep current **I** constant (e.g., 2 A). (2) Place a small compass on a horizontal table at a known horizontal distance **r** from the wire. The compass needle aligns with the *net* horizontal magnetic field: the vector sum of Earth's horizontal field **Bₑ** (known or measured separately) and the wire's field **B_w** (tangential to circles around the wire). (3) Rotate the compass so that the wire is exactly perpendicular to the compass needle's initial north-south alignment (i.e., wire is east-west). Then **B_w** is perpendicular to **Bₑ**, and the deflection angle **θ** satisfies tan **θ** = **B_w** / **Bₑ**. (4) Measure **θ** for several distances **r** (e.g., 2, 3, 4, 5, 6 cm). (5) Plot tan **θ** vs 1/**r**; a straight line through the origin confirms **B_w** ∝ 1/**r**. **Analysis:** Slope = μ₀**I**/(2π**Bₑ**). Compare with theoretical slope. A poor answer would ignore Earth's field or assume the compass directly measures **B_w**; it would also not mention keeping current constant or using the tangent law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

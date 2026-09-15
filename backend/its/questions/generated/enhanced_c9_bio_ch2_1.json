@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_1",
+   "title": "c9_bio_ch2_1",
+   "questions": [
+    {
+     "q": "Define meristematic tissue and state two cellular features that distinguish it from permanent tissue.",
+     "a": "Meristematic tissue is a group of undifferentiated plant cells capable of continuous division; distinguishing features include thin cellulose cell walls, dense cytoplasm with prominent nucleus, and absence of large vacuoles. A wrong answer listing \"thick lignified walls\" or \"large central vacuole\" reveals confusion with permanent tissue features, indicating the student cannot differentiate undifferentiated vs. differentiated cellular states.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why meristematic cells lack large vacuoles while permanent cells like parenchyma often have a prominent central vacuole.",
+     "a": "Meristematic cells prioritize division and metabolism, requiring dense cytoplasm and minimal vacuolar space for organelle mobility; permanent cells develop large vacuoles for turgor maintenance, storage, or waste sequestration after differentiation. A wrong answer suggesting vacuoles \"interfere with photosynthesis\" shows misunderstanding — meristematic cells are non-photosynthetic, and vacuole absence relates to division needs, not energy production.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices his wheat crop stops growing in height after the tip is grazed by cattle, but the stem continues to thicken. Identify which meristematic tissue is damaged and which remains functional, and explain the growth consequence.",
+     "a": "Apical meristem at the shoot tip is damaged (stops primary growth/height increase), while lateral meristem (vascular cambium) remains active (allows secondary growth/thickening). Reasoning: apical meristems drive elongation; lateral meristems drive girth increase. A wrong answer claiming \"intercalary meristem is damaged\" misidentifies the tissue — intercalary meristems are at nodes in grasses, not shoot tips, and would cause regrowth from base, not permanent height arrest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cell wall composition and metabolic activity of a meristematic cell in the root apex with a mature xylem vessel element. How do these differences reflect their functions?",
+     "a": "Meristematic cell: thin primary wall (cellulose/pectin), high metabolic activity, living. Xylem vessel: thick secondary wall (lignin), no metabolic activity, dead at maturity. Differences reflect division vs. conduction: thin walls allow expansion during division; lignified walls provide rigid water-conducting pipes. A wrong answer stating \"both have lignified walls\" fails to analyze that lignification occurs only after differentiation, not in dividing cells.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All permanent tissues in a plant originate directly from apical meristems.\" Justify your answer with examples.",
+     "a": "False. Primary permanent tissues (e.g., primary xylem, primary phloem, cortex) originate from apical meristems, but secondary permanent tissues (e.g., secondary xylem/wood, secondary phloem/bark) originate from lateral meristems (vascular cambium and cork cambium). A wrong \"true\" answer ignores secondary growth, showing inability to distinguish primary vs. secondary tissue origins — a critical board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using onion root tips to demonstrate that meristematic cells divide continuously while mature root cells do not. Specify what you would observe, stain, and measure.",
+     "a": "Grow onion roots, cut 1 cm tips, stain with acetocarmine or Feulgen stain, squash on slide. Observe under microscope: count cells in interphase, prophase, metaphase, anaphase, telophase in the meristematic zone vs. elongation/maturation zones. Calculate mitotic index (dividing cells/total cells × 100). Expect high index in tip (5-10%), near zero in mature zones. A poor design omitting zonal comparison or staining method reveals inability to link cell cycle visualization to tissue-level function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

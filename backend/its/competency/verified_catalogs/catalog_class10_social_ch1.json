@@ -1,0 +1,536 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "The Rise of Nationalism in Europe",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess301.txt",
+ "concepts": [
+  {
+   "id": "c10ss.1.1",
+   "title": "The French Revolution and the Idea of the Nation",
+   "section": "The French Revolution and the Idea of the Nation",
+   "definition": "The French Revolution of 1789 transferred sovereignty from the monarch to a body of French citizens, introducing measures like the ideas of la patrie (the fatherland) and le citoyen (the citizen), a new tricolour flag, and an elected body called the Assembly, marking the first clear expression of nationalism in Europe.",
+   "formula": "",
+   "key_idea": "The French Revolution established that a nation is not the property of a king but a community of equal citizens who together constitute the sovereign power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the French Revolution contribute to the idea of nationalism in Europe?",
+    "Explain the meaning of la patrie and le citoyen.",
+    "Describe the administrative and symbolic measures introduced during the French Revolution to create a collective identity.",
+    "Why was the tricolour flag adopted during the French Revolution?",
+    "Discuss how the revolutionary ideas spread to other parts of Europe."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the shift in sovereignty",
+     "explain": "Note that before 1789 the king held sovereignty; after the revolution it passed to the citizens of France."
+    },
+    {
+     "step": 2,
+     "action": "Verify the unifying measures",
+     "explain": "Check that la patrie, le citoyen, the tricolour flag, a uniform system of weights and measures, and the French language all created a common national identity."
+    },
+    {
+     "step": 3,
+     "action": "Relate to nationalism",
+     "explain": "Confirm that these measures made the people, not the monarch, the source of state power -- the core idea of nationalism."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the significance of la patrie and le citoyen during the French Revolution?",
+     "solution": "La patrie meant the fatherland and le citoyen meant the citizen. These terms declared that the people of France collectively constituted the nation and were the source of sovereign power, replacing the authority of the king.",
+     "answer": "They established that sovereignty belongs to the citizens, not the monarch."
+    },
+    {
+     "question": "Mention three measures introduced by the revolutionary government to create a collective identity among the French people.",
+     "solution": "The measures included: (1) the ideas of la patrie and le citoyen, (2) a new tricolour flag replacing the former royal standard, and (3) the Estates General elected by active citizens renamed the National Assembly.",
+     "answer": "la patrie/le citoyen, the tricolour flag, and the National Assembly."
+    },
+    {
+     "question": "How did the French Revolution spread the idea of nationalism beyond France?",
+     "solution": "As the French armies moved into Holland, Belgium, Switzerland and Italy in the 1790s, they carried the revolutionary ideas of popular sovereignty and national identity, inspiring people in these regions to think of themselves as nations.",
+     "answer": "French armies carried revolutionary ideas of popular sovereignty to neighbouring regions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What do you understand by the term 'nation' as defined during the French Revolution?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the tricolour flag in creating a collective French identity.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the measures introduced by the French Revolution to foster a sense of collective identity.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.2",
+   "title": "The Making of Nationalism in Europe",
+   "section": "The Making of Nationalism in Europe",
+   "definition": "Nationalism in Europe emerged through a long process: the decline of feudalism, the growth of new trade and a middle class, the rise of the nation-state, and the cultural movements of Romanticism, all of which gradually replaced the multi-national empires with states built around a shared identity.",
+   "formula": "",
+   "key_idea": "No nation-state existed in mid-eighteenth-century Europe; nationalism grew out of social, economic and cultural changes that slowly created shared identities among people who had previously identified with local regions or empires.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why were there no nation-states in mid-eighteenth-century Europe?",
+    "Explain the role of the middle class in the growth of nationalism in Europe.",
+    "How did the Napoleonic Code contribute to the making of nationalism?",
+    "Describe the contribution of Romanticism to the development of nationalist feelings.",
+    "Discuss how language and culture helped build national identity in Europe."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pre-nationalist order",
+     "explain": "Note that in the mid-eighteenth century Europe was divided into kingdoms, duchies and multi-national empires such as the Habsburg and Ottoman empires, with no nation-states."
+    },
+    {
+     "step": 2,
+     "action": "Verify the forces of change",
+     "explain": "Check that the growth of towns, the emergence of a middle class, the Napoleonic reforms and the Romantic cultural movement created shared identities and weakened old empires."
+    },
+    {
+     "step": 3,
+     "action": "Relate changes to nationalism",
+     "explain": "Confirm that these social, economic and cultural changes gradually made people identify with a larger national community rather than local regions or empires."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why were there no nation-states in mid-eighteenth-century Europe?",
+     "solution": "In 1750 Europe was made up of kingdoms, duchies and large multi-national empires like the Habsburg Empire and the Ottoman Empire. People identified with their local regions, religions or rulers rather than with a nation, so the modern nation-state did not exist.",
+     "answer": "Europe was divided into kingdoms and multi-national empires with no shared national identity."
+    },
+    {
+     "question": "How did the Napoleonic Code help in the making of nationalism?",
+     "solution": "The Napoleonic Code of 1804 did away with all privileges based on birth, established equality before the law and secured the right to property, creating administrative efficiency and a sense of common citizenship that later inspired nationalist feelings.",
+     "answer": "It introduced equality before the law and common administration, fostering shared identity."
+    },
+    {
+     "question": "What role did Romanticism play in the development of nationalism in Europe?",
+     "solution": "Romanticism was a cultural movement that focused on emotions, intuition and mystical feelings instead of reason and science, to create a shared collective heritage; artists and poets used folk songs, folk poetry and national myths to build national identity.",
+     "answer": "Romanticism used folk culture and emotions to create a shared national heritage."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the Habsburg Empire was not a nation-state.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did language become a source of nationalist feeling in Europe?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two multi-national empires that existed in mid-eighteenth-century Europe.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.3",
+   "title": "The Age of Revolutions (1830-1848)",
+   "section": "The Age of Revolutions (1830-1848)",
+   "definition": "The period 1830-1848 saw a wave of revolutions across Europe driven by liberal-nationalists and republicans; the July Revolution of 1830 in France, the Greek war of independence, and the revolutions of 1848 all aimed to establish constitutional government and national unity, though most were suppressed by conservative forces.",
+   "formula": "",
+   "key_idea": "Even though the revolutions of 1830-1848 largely failed to achieve their immediate political goals, they spread nationalist and liberal ideas across Europe and weakened the conservative order established by the Congress of Vienna.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the significance of the July Revolution of 1830 in France?",
+    "Describe the Greek war of independence and its outcome.",
+    "Why did the revolutions of 1848 fail in most parts of Europe?",
+    "Explain the role of the Congress of Vienna in restoring the conservative order.",
+    "Discuss the relationship between liberalism and nationalism during 1830-1848."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the revolutionary events",
+     "explain": "List the July Revolution of 1830 in France, the Greek war of independence (1821-1832), and the widespread revolutions of 1848 across Europe."
+    },
+    {
+     "step": 2,
+     "action": "Verify the goals and outcomes",
+     "explain": "Check that the revolutionaries sought constitutional government and national unity but were largely suppressed by monarchies and conservative armies."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the spread of nationalism",
+     "explain": "Confirm that despite failure, the revolutions spread liberal and nationalist ideas and weakened the conservative Congress of Vienna system."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the July Revolution of 1830 and what were its consequences?",
+     "solution": "In July 1830 the Bourbon kings of France were overthrown by liberal revolutionaries, who installed a constitutional monarchy under Louis Philippe. The revolution inspired uprisings in Brussels, which led to Belgium breaking away from the United Kingdom of the Netherlands.",
+     "answer": "It overthrew the Bourbon monarchy and inspired nationalist uprisings like Belgium's independence."
+    },
+    {
+     "question": "Why did the Greek war of independence become a cause for other European nationalists?",
+     "solution": "Greece had been part of the Ottoman Empire since the fifteenth century. The Greek struggle, supported by other Greeks in exile and West European sympathisers, finally won independence in 1832 with the Treaty of Constantinople, showing that a nationalist movement could defeat a great empire.",
+     "answer": "Greek independence (1832) proved that nationalist movements could defeat empires."
+    },
+    {
+     "question": "Why did the revolutions of 1848 fail to achieve their aims?",
+     "solution": "The revolutions of 1848 were led by liberal-nationalists belonging to the educated middle class, but they lacked the support of the peasantry and workers. The conservative monarchies, especially Russia and Austria, used their armies to crush the uprisings, and the movements were too fragmented to succeed.",
+     "answer": "They lacked mass support and were crushed by conservative armies."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the aims of the Congress of Vienna (1815).",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the outcome of the Greek war of independence.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did the revolutions of 1848 fail in most of Europe?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.4",
+   "title": "The Unification of Germany",
+   "section": "The Making of Germany and Italy",
+   "definition": "Germany was unified in 1871 under the leadership of Prussia's Chief Minister Otto von Bismarck, who used the Prussian army and bureaucracy along with three wars -- against Denmark (1864), Austria (1866) and France (1870-71) -- to unite the German states into a powerful empire, proclaimed at Versailles.",
+   "formula": "",
+   "key_idea": "The unification of Germany was achieved not by popular democratic movements but by the Prussian state using military power and diplomacy under Bismarck's policy of 'blood and iron'.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the role of Otto von Bismarck in the unification of Germany.",
+    "Explain the significance of the three wars fought by Prussia between 1864 and 1871.",
+    "How was the German Empire proclaimed in 1871?",
+    "Why was the unification of Germany called a process of 'blood and iron'?",
+    "Compare the unification of Germany with that of Italy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the wars and their outcomes",
+     "explain": "List the three wars: Denmark (1864), Austria (1866) and France (1870-71), each removing an obstacle to unification."
+    },
+    {
+     "step": 2,
+     "action": "Compute the timeline of unification",
+     "explain": "Calculate the span from the first war to the proclamation of the empire.",
+     "compute": "span = 1871 - 1864"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the seven-year span to Bismarck's strategy of using successive wars to unite the German states.",
+     "compute": "years_to_unify = 1871 - 1864"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Otto von Bismarck unify Germany?",
+     "solution": "Bismarck, the Chief Minister of Prussia, carried out the process of unification with the help of the Prussian army and bureaucracy. He fought three wars over seven years -- against Denmark (1864), Austria (1866) and France (1870-71) -- which ended in Prussian victory and the unification of the German states.",
+     "answer": "Bismarck used the Prussian army and three wars to unite Germany by 1871."
+    },
+    {
+     "question": "When and where was the German Empire proclaimed?",
+     "solution": "In January 1871, after Prussia's victory over France, the Prussian King William I was proclaimed German Emperor in the Hall of Mirrors at the Palace of Versailles, formally marking the unification of Germany.",
+     "answer": "January 1871 at the Palace of Versailles; William I became German Emperor."
+    },
+    {
+     "question": "Calculate the number of years it took Bismarck to unify Germany from the first war (1864) to the proclamation of the empire (1871).",
+     "solution": "First war began in 1864 and the empire was proclaimed in 1871. Span = 1871 - 1864 = 7 years.",
+     "answer": "It took 7 years (1864 to 1871)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the role of Bismarck in the unification of Germany.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the three wars fought by Prussia that led to German unification.",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the gap (in years) between the war against Austria (1866) and the proclamation of the German Empire (1871).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.5",
+   "title": "The Unification of Italy",
+   "section": "The Making of Germany and Italy",
+   "definition": "Italy was unified in 1861-1870 through the efforts of Count Camillo de Cavour (Chief Minister of Sardinia-Piedmont), Giuseppe Garibaldi and Giuseppe Mazzini; Cavour used diplomacy and war, Garibaldi led armed volunteers, and in 1861 Victor Emmanuel II was proclaimed King of united Italy, with Rome added in 1870.",
+   "formula": "",
+   "key_idea": "Unlike Germany's top-down military unification, Italy's unification combined diplomatic manoeuvring, popular armed struggle and the idealism of Mazzini's Young Italy movement, but ordinary people remained largely excluded from the new nation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the role of Count Cavour in the unification of Italy.",
+    "Explain the contribution of Giuseppe Garibaldi to Italian unification.",
+    "What was the role of Giuseppe Mazzini in the Italian nationalist movement?",
+    "Why did a large number of ordinary Italians remain unaware of liberal-nationalist ideology?",
+    "Trace the stages of the unification of Italy from 1859 to 1870."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the key figures and their roles",
+     "explain": "List Cavour (diplomacy), Garibaldi (armed volunteers) and Mazzini (ideology of Young Italy)."
+    },
+    {
+     "step": 2,
+     "action": "Compute the unification timeline",
+     "explain": "Calculate the span from the proclamation of the Kingdom (1861) to the addition of Rome (1870).",
+     "compute": "span = 1870 - 1861"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the nine-year gap to the staged unification process and the final addition of Rome.",
+     "compute": "years_to_complete = 1870 - 1861"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Count Cavour contribute to the unification of Italy?",
+     "solution": "Cavour, the Chief Minister of Sardinia-Piedmont, was neither a revolutionary nor a democrat. Through a tactful diplomatic alliance with France, he defeated the Austrian forces in 1859 and secured the regions of Sardinia-Piedmont, thus contributing to the unification of Italy.",
+     "answer": "Cavour used diplomacy and an alliance with France to defeat Austria and unite northern Italy."
+    },
+    {
+     "question": "What was the role of Giuseppe Garibaldi?",
+     "solution": "In 1860 Garibaldi led armed volunteers known as the Red Shirts into South Italy and the Kingdom of the Two Sicilies, winning the support of local peasants to drive out the Spanish rulers, and handed these regions over to King Victor Emmanuel II.",
+     "answer": "Garibaldi led the Red Shirts to liberate southern Italy and unite it with the north."
+    },
+    {
+     "question": "Calculate the number of years between the proclamation of the Kingdom of Italy (1861) and the addition of Rome (1870).",
+     "solution": "Kingdom proclaimed in 1861, Rome added in 1870. Span = 1870 - 1861 = 9 years.",
+     "answer": "It took 9 years (1861 to 1870) to complete unification."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the contribution of Mazzini to Italian nationalism.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the three main leaders of Italian unification.",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the number of years from Cavour's victory over Austria (1859) to the proclamation of the Kingdom of Italy (1861).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.6",
+   "title": "Nationalism and Imperialism",
+   "section": "Visualising the Nation and Nationalism and Imperialism",
+   "definition": "By the last quarter of the nineteenth century, nationalism in Europe had shifted from a liberating force to a justification for imperial expansion; the great powers -- Britain, France, Germany, Russia and Austria-Hungary -- competed for colonies in Africa and Asia, driven by national pride, economic interests and the balance of power.",
+   "formula": "",
+   "key_idea": "Nationalism, which began as a movement for freedom and self-determination, was transformed into an ideology of imperial rivalry that ultimately led to the First World War.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did nationalism become a cause of imperialism in Europe?",
+    "Explain the concept of the balance of power among European nations.",
+    "Why did European powers compete for colonies in Africa and Asia?",
+    "Discuss the role of nationalism in creating tensions that led to World War I.",
+    "Describe the relationship between economic interests and imperial expansion."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the shift in nationalism",
+     "explain": "Note that by the 1870s nationalism had changed from a liberating movement into a narrow, aggressive ideology tied to imperial power."
+    },
+    {
+     "step": 2,
+     "action": "Verify the imperial competition",
+     "explain": "Check that the great powers competed for colonies, markets and raw materials, and maintained large standing armies to protect their interests."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the coming of war",
+     "explain": "Confirm that this nationalist-driven imperial rivalry created tensions among the great powers that culminated in the First World War in 1914."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did nationalism lead to imperialism in the late nineteenth century?",
+     "solution": "By the last quarter of the nineteenth century, nationalism had ceased to be a liberating force and became associated with imperial expansion. Major European powers used national pride to justify the conquest of territories in Africa and Asia, competing for colonies, markets and raw materials.",
+     "answer": "Nationalism became a justification for imperial conquest and colonial rivalry."
+    },
+    {
+     "question": "What was the 'balance of power' in European diplomacy?",
+     "solution": "The balance of power was a system in which European nations tried to maintain an equal distribution of military and economic strength so that no single nation became powerful enough to dominate the others, often through shifting alliances.",
+     "answer": "It was a system to prevent any one nation from dominating Europe."
+    },
+    {
+     "question": "How did nationalist tensions contribute to the outbreak of the First World War?",
+     "solution": "The aggressive nationalism of the great powers, their competition for colonies, and the arms race created deep rivalries. When these tensions combined with the alliance system, the assassination of Archduke Franz Ferdinand in 1914 triggered the First World War.",
+     "answer": "Aggressive nationalism and imperial rivalry helped trigger World War I in 1914."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how nationalism changed from a liberating force to an aggressive ideology.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the major European powers that competed for colonies.",
+     "type": "recall"
+    },
+    {
+     "question": "Discuss the role of the arms race in increasing European tensions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.7",
+   "title": "The Balkan Crisis",
+   "section": "Nationalism and Imperialism - The Balkans",
+   "definition": "The Balkan region, comprising modern Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia and Montenegro, was under Ottoman control and became a site of intense nationalist tension as the Slavic peoples sought independence; the rivalry of great powers over this region led to a series of wars and ultimately to the First World War.",
+   "formula": "",
+   "key_idea": "The Balkans became a powder keg because each great power tried to control the region for its own strategic and economic interests, while the newly independent Balkan states themselves competed for territory, making the area the flashpoint of the First World War.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why was the Balkan region a major source of nationalist tension in Europe?",
+    "Name the countries that made up the Balkan region.",
+    "Explain how the disintegration of the Ottoman Empire affected the Balkans.",
+    "How did the great powers intensify the Balkan crisis?",
+    "Discuss the role of the Balkan wars in leading to World War I."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Balkan states and their situation",
+     "explain": "List the Balkan states and note that they were under Ottoman rule and sought independence based on their distinct national identities."
+    },
+    {
+     "step": 2,
+     "action": "Verify the great-power rivalry",
+     "explain": "Check that Russia, Germany, England and Austria-Hungary each tried to extend their control over the Balkans, intensifying the crisis."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the outbreak of war",
+     "explain": "Confirm that the combination of Balkan nationalism and great-power rivalry made the region the flashpoint that triggered the First World War in 1914."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was the Balkan region a major source of nationalist tension in Europe after 1871?",
+     "solution": "The Balkans were under the Ottoman Empire and its different Slavic nationalities struggled to define their identity and independence. As the Ottoman Empire weakened, the Balkan states became independent and rival, and the great powers competed to control the region, making it a major source of tension.",
+     "answer": "Slavic nationalism and great-power rivalry made the Balkans a flashpoint."
+    },
+    {
+     "question": "Name the countries that made up the Balkan region.",
+     "solution": "The Balkan region included Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia and Montenegro.",
+     "answer": "Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia and Montenegro."
+    },
+    {
+     "question": "How did the great powers intensify the Balkan crisis?",
+     "solution": "Each great power -- Russia, Germany, England and Austria-Hungary -- had its own imperial interests in the Balkans and tried to extend its hold over the area. Their rivalry, combined with the competing territorial ambitions of the newly independent Balkan states, made the crisis worse and led to a series of Balkan wars.",
+     "answer": "Great-power rivalry and Balkan territorial ambitions intensified the crisis."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the geographical and political significance of the Balkan region.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the weakening of the Ottoman Empire affect the Balkans?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any five countries of the Balkan region.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.1.8",
+   "title": "Visualising the Nation",
+   "section": "Visualising the Nation",
+   "definition": "Artists in the eighteenth and nineteenth centuries personified nations as female figures that stood as allegories of the nation's ideas -- Marianne for France, Germania for Germany -- using symbols like the tricolour, red cap, sword and crown of oak leaves to convey abstract ideas of liberty, justice and unity.",
+   "formula": "",
+   "key_idea": "Since a nation is an abstract idea, artists used female allegorical figures with specific symbols to give concrete visual form to the values and identity of the nation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an allegory and how was it used to represent nations?",
+    "Describe the allegory of Marianne and the symbols associated with it.",
+    "Describe the allegory of Germania and the symbols associated with it.",
+    "Why did artists use female figures to represent nations?",
+    "Explain the significance of the tricolour and the red cap in French allegories."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the allegorical figures",
+     "explain": "Note that Marianne represented France and Germania represented Germany, both depicted as female figures."
+    },
+    {
+     "step": 2,
+     "action": "Verify the symbols",
+     "explain": "Check that each figure carried specific symbols -- the red cap of liberty, tricolour, sword and crown of oak leaves -- each conveying a particular national value."
+    },
+    {
+     "step": 3,
+     "action": "Relate symbols to national identity",
+     "explain": "Confirm that these visual allegories gave concrete form to abstract ideas like liberty, justice and unity, helping to build national identity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is an allegory and how was it used to represent the nation in Europe?",
+     "solution": "An allegory is the personification of a nation as a person or an idea. During the French Revolution, artists used female allegorical figures like Marianne to represent the ideas of the French Republic -- liberty, justice and republicanism -- and Germania to represent German unity and strength.",
+     "answer": "Allegories personified nations as female figures symbolising national values."
+    },
+    {
+     "question": "Describe the allegory of Marianne.",
+     "solution": "Marianne was the allegory of the French Republic, represented as a female figure wearing the red Phrygian cap of liberty and the tricolour cockade. Her images were marked on coins and stamps, representing liberty and the Republic.",
+     "answer": "Marianne symbolised liberty and the French Republic with the red cap and tricolour."
+    },
+    {
+     "question": "Describe the allegory of Germania.",
+     "solution": "Germania wears a crown of oak leaves, as the German oak stands for heroism. She holds a sword, representing readiness to fight, and the olive branch around the sword signifies a willingness to make peace. The rays of the rising sun behind her symbolise the dawn of a new era.",
+     "answer": "Germania symbolises heroism, readiness to fight and the dawn of a new era."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why artists used female figures to personify nations.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the symbols associated with the allegory of Germania.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What did the red Phrygian cap symbolise in the allegory of Marianne?",
+     "type": "recall"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

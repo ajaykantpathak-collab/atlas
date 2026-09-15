@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_002",
+   "title": "c12_chem_cbse_03_002",
+   "questions": [
+    {
+     "q": "For the reaction \\(2\\text{N}_2\\text{O}_5(g) \\rightarrow 4\\text{NO}_2(g) + \\text{O}_2(g)\\), the rate law is found to be \\(\\text{Rate} = k[\\text{N}_2\\text{O}_5]\\). What is the order of reaction with respect to \\(\\text{N}_2\\text{O}_5\\) and the overall order?",
+     "a": "The order with respect to \\(\\text{N}_2\\text{O}_5\\) is 1 (first order) and the overall order is 1. A wrong answer (e.g., saying order is 2 because the stoichiometric coefficient is 2) reveals the misconception that rate law exponents come from the balanced equation rather than experiment.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction \\(\\text{CHCl}_3 + \\text{Cl}_2 \\rightarrow \\text{CCl}_4 + \\text{HCl}\\), the experimental rate law is \\(\\text{Rate} = k[\\text{CHCl}_3][\\text{Cl}_2]^{1/2}\\). Explain why the exponent for \\(\\text{Cl}_2\\) is \\(1/2\\) and not 1 (its stoichiometric coefficient).",
+     "a": "The exponent \\(1/2\\) indicates a complex reaction mechanism where the rate-determining step involves the dissociation of \\(\\text{Cl}_2\\) into chlorine atoms, so the rate depends on the square root of \\(\\text{Cl}_2\\) concentration. A student who says \"it should be 1 because the coefficient is 1\" does not understand that rate law is experimentally determined and reflects mechanism, not stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "The following initial-rate data were obtained for the reaction \\(2\\text{A} + \\text{B} \\rightarrow \\text{Products}\\) at 300 K:\n\n| Experiment | \\([\\text{A}]_0\\) (mol L⁻¹) | \\([\\text{B}]_0\\) (mol L⁻¹) | Initial Rate (mol L⁻¹ s⁻¹) |\n|------------|---------------------------|---------------------------|----------------------------|\n| 1          | 0.10                      | 0.10                      | \\(2.0 \\times 10^{-4}\\)     |\n| 2          | 0.20                      | 0.10                      | \\(8.0 \\times 10^{-4}\\)     |\n| 3          | 0.10                      | 0.20                      | \\(4.0 \\times 10^{-4}\\)     |\n\nDetermine the rate law and calculate the rate constant \\(k\\) with proper units.",
+     "a": "Comparing Experiments 1 and 2: \\([\\text{A}]\\) doubles, \\([\\text{B}]\\) constant, rate increases by factor 4 → order w.r.t. A = 2.  \nComparing Experiments 1 and 3: \\([\\text{B}]\\) doubles, \\([\\text{A}]\\) constant, rate doubles → order w.r.t. B = 1.  \nRate law: \\(\\text{Rate} = k[\\text{A}]^2[\\text{B}]\\).  \nUsing Experiment 1: \\(2.0 \\times 10^{-4} = k(0.10)^2(0.10) = k \\times 1.0 \\times 10^{-3}\\) → \\(k = 0.20\\ \\text{L}^2\\ \\text{mol}^{-2}\\ \\text{s}^{-1}\\).  \nA student who gets orders wrong likely misreads the rate ratios; one who forgets units of \\(k\\) does not grasp dimensional consistency.",
+     "self_check": true
+    },
+    {
+     "q": "A reaction \\(\\text{A} + 2\\text{B} \\rightarrow \\text{C}\\) has the rate law \\(\\text{Rate} = k[\\text{A}][\\text{B}]^2\\). If the volume of the reaction vessel is suddenly halved (doubling all concentrations), by what factor does the initial rate change? Explain.",
+     "a": "Halving volume doubles \\([\\text{A}]\\) and \\([\\text{B}]\\). New rate = \\(k(2[\\text{A}])(2[\\text{B}])^2 = k \\cdot 2[\\text{A}] \\cdot 4[\\text{B}]^2 = 8 \\times \\text{original rate}\\). The rate increases by a factor of 8. A student who says factor 2 or 4 is not applying the orders correctly to the concentration changes.",
+     "self_check": true
+    },
+    {
+     "q": "The rate constant for a reaction is reported as \\(k = 3.5 \\times 10^{-3}\\ \\text{mol}^{-1}\\ \\text{L}\\ \\text{s}^{-1}\\). What is the overall order of the reaction? Could this reaction be elementary? Justify.",
+     "a": "Units of \\(k\\) for overall order \\(n\\): \\(\\text{mol}^{1-n}\\ \\text{L}^{n-1}\\ \\text{s}^{-1}\\). Given units \\(\\text{mol}^{-1}\\ \\text{L}\\ \\text{s}^{-1}\\) match \\(n=2\\) (second order). The reaction could be elementary if it is bimolecular (e.g., \\(\\text{A} + \\text{B} \\rightarrow \\text{products}\\)) because molecularity = order for elementary steps. A student who says order is 1 or 3 cannot connect units to order; one who says \"yes it must be elementary\" confuses possibility with certainty — complex reactions can also have integer orders.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using the initial-rates method to determine the rate law for the reaction between sodium thiosulfate (\\(\\text{Na}_2\\text{S}_2\\text{O}_3\\)) and hydrochloric acid (\\(\\text{HCl}\\)) which produces a sulfur precipitate. Outline the steps, what you would measure, and how you would analyze the data.",
+     "a": "Steps: (1) Prepare several reaction mixtures with varying initial \\([\\text{Na}_2\\text{S}_2\\text{O}_3]\\) while keeping \\([\\text{HCl}]\\) constant, and vice versa. (2) Start each reaction by mixing, and simultaneously start a timer. (3) Measure the time \\(t\\) for the precipitate to obscure a marked cross beneath the flask (a proxy for a fixed amount of product formed). (4) Initial rate \\(\\propto 1/t\\). (5) Plot \\(\\log(\\text{rate})\\) vs \\(\\log[\\text{reactant}]\\); slope gives order. A poor answer omits controlling one reactant's concentration or uses only one trial per condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

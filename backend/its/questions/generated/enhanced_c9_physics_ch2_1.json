@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_1",
+   "title": "c9_physics_ch2_1",
+   "questions": [
+    {
+     "q": "A car moves 50 m east, then 30 m west. What is the distance traveled and the displacement of the car? State the SI unit for each.",
+     "a": "Distance = 80 m, Displacement = 20 m east. SI unit for both is meter (m). A wrong answer (e.g., giving displacement as 80 m or forgetting direction) reveals the student treats displacement as a scalar or adds magnitudes without considering direction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distance traveled by an object moving along a closed loop (like a circular track) is non-zero while its displacement is zero. Use the terms \"scalar\" and \"vector\" in your explanation.",
+     "a": "Distance is a scalar that accumulates total path length regardless of direction, so completing a loop adds the circumference. Displacement is a vector from start to end; since they coincide, the vector has zero magnitude. A wrong answer (e.g., \"displacement is zero because the car stopped\") reveals confusion between displacement and final velocity or misunderstanding of vector addition.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist rides 3 km north, then 4 km east. Calculate the distance traveled and the magnitude of displacement. (Use Pythagoras for displacement magnitude.)",
+     "a": "Distance = 3 km + 4 km = 7 km. Displacement magnitude = √(3² + 4²) = 5 km (north-east direction). A wrong answer (e.g., displacement = 7 km) reveals the student adds magnitudes linearly, ignoring the vector nature and the right-angle geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves on a number line: starts at x = -2 m, goes to x = +5 m, then to x = -1 m. Plot the positions on a number line and determine the distance and displacement. Which quantity is larger and why?",
+     "a": "Distance = |5 - (-2)| + |-1 - 5| = 7 + 6 = 13 m. Displacement = final - initial = -1 - (-2) = +1 m. Distance (13 m) > |displacement| (1 m) because distance sums absolute segment lengths while displacement is net change. A wrong answer (e.g., displacement = 13 m) reveals the student conflates the two quantities or mishandles negative coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A boy walks 10 m forward, then 10 m backward. Distance = 0 m, Displacement = 20 m.\" Evaluate this solution. Identify the errors and give the correct values.",
+     "a": "The solution swaps the two quantities. Correct: Distance = 20 m (scalar sum), Displacement = 0 m (start = end). The error reveals the student thinks distance cancels like vectors and displacement adds like scalars — a fundamental confusion of scalar vs vector addition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a meter scale, a toy car, and tape to demonstrate that distance ≥ |displacement|. Describe the procedure, measurements, and how you would record results in a table.",
+     "a": "Procedure: Mark start point A. Run car along a curved path (e.g., half-circle) to point B. Measure curved path length with thread (distance) and straight-line AB (displacement magnitude). Repeat for different paths. Table columns: Path shape, Distance (m), Displacement magnitude (m), Difference. A poor answer (e.g., only straight line) fails to show path-dependence of distance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_012",
+   "title": "c11_acc_cbse_08_012",
+   "questions": [
+    {
+     "q": "State the journal entry for depreciation charged on machinery at 10% per annum on Straight Line Method when machinery appears in the Trial Balance at ₹2,00,000 and the adjustment says \"Depreciation on machinery @ 10% p.a. on SLM.\"",
+     "a": "Correct entry: Depreciation A/c Dr. 20,000 To Machinery A/c 20,000. Calculation: ₹2,00,000 × 10% = ₹20,000. A wrong answer (e.g., crediting Depreciation A/c or debiting Machinery A/c) reveals the student confuses the direction of the adjustment — they think depreciation increases asset value or is a credit entry, misunderstanding that depreciation is an expense (debit) that reduces the asset's book value (credit).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Bad debts of ₹3,000 are given in the Trial Balance. In the adjustment, it says 'Further bad debts ₹2,000'. The total bad debts in P&L Account will be ₹3,000.\" Explain why this is incorrect and state the correct treatment.",
+     "a": "The student incorrectly assumes the Trial Balance bad debts (₹3,000) already include the adjustment. In reality, Trial Balance bad debts are *already incurred and recorded* during the year. Adjustment \"further bad debts ₹2,000\" means *additional* irrecoverable debts discovered *after* Trial Balance. Total bad debts in P&L = ₹3,000 (from TB) + ₹2,000 (adjustment) = ₹5,000. In Balance Sheet, Sundry Debtors are reduced by ₹2,000 only (the new write-off). This error reveals confusion between *already recorded* expenses and *adjustments for unrecorded* items.",
+     "self_check": true
+    },
+    {
+     "q": "Machinery cost ₹5,00,000 on 1st April 2022. Depreciation is charged @ 20% p.a. on Written Down Value Method. The adjustment on 31st March 2024 says \"Depreciation on machinery @ 20% p.a. on WDV.\" Calculate the depreciation amount for the year ended 31st March 2024 and pass the journal entry.",
+     "a": "Step 1: WDV on 1st April 2023 = Cost – Depreciation for 2022-23 = ₹5,00,000 – (20% of ₹5,00,000) = ₹4,00,000.\nStep 2: Depreciation for 2023-24 = 20% of ₹4,00,000 = ₹80,000.\nStep 3: Journal Entry: Depreciation A/c Dr. 80,000 To Machinery A/c 80,000.\nA wrong answer (e.g., ₹1,00,000 using SLM on original cost) reveals the student applies the wrong method — they use Straight Line on original cost instead of Written Down Value on reducing balance, a fundamental confusion between depreciation methods.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on Net Profit and Balance Sheet total when: (a) Depreciation ₹15,000 is provided as adjustment, vs (b) Bad debts ₹15,000 are written off as adjustment. Are the effects identical? Justify.",
+     "a": "Yes, effects are identical on *both* Net Profit and Balance Sheet total. In both cases: P&L Account is debited by ₹15,000 → Net Profit decreases by ₹15,000. In Balance Sheet: (a) Fixed Asset (e.g., Machinery) reduces by ₹15,000; (b) Current Asset (Sundry Debtors) reduces by ₹15,000. Total assets decrease by ₹15,000 in both cases. Capital (via Net Profit) decreases by ₹15,000. Balance Sheet totals match. A student saying \"different because one is fixed asset, other current asset\" confuses *classification* with *aggregate effect* — the accounting equation impact is the same.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If depreciation is not provided, profit will be overstated and assets will be overstated by the same amount. Therefore, the Balance Sheet will still balance.\" Is this reasoning correct for decision-making by stakeholders?",
+     "a": "The statement is *arithmetically* correct (Balance Sheet will balance) but *conceptually dangerous* for stakeholders. While assets and profit are both overstated by the same amount (so Assets = Liabilities + Capital holds), the *true and fair view* is violated. Stakeholders (bank, investors, tax authorities) rely on correct profit for decisions — overstated profit may lead to excessive drawings, wrong tax payment, or misleading loan eligibility. Depreciation matches cost to revenue period (Matching Principle). A student agreeing fully reveals they focus only on arithmetic balancing, not on accounting's decision-usefulness objective.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic adjustment scenario for a Class 11 problem where *both* depreciation (on two assets with different methods) and bad debts (including further bad debts) appear. Write the full question with Trial Balance extracts and adjustments. Do not solve.",
+     "a": "Good answer example: \"Trial Balance (31/3/2024): Plant & Machinery ₹3,00,000; Furniture ₹1,00,000; Sundry Debtors ₹80,000; Bad Debts ₹2,000 (Dr.). Adjustments: (1) Depreciate Plant & Machinery @ 15% p.a. on WDV (WDV on 1/4/2023 was ₹2,55,000). (2) Depreciate Furniture @ 10% p.a. on SLM on original cost. (3) Further bad debts ₹3,000. (4) Provision for doubtful debts @ 5% on debtors.\" A poor answer uses only one asset, one method, or omits \"further\" distinction, showing inability to design multi-concept problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

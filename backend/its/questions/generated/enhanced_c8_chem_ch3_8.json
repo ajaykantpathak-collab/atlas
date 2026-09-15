@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_8",
+   "title": "c8_chem_ch3_8",
+   "questions": [
+    {
+     "q": "Define an \"element\" in terms of its constituent atoms. Can a pure sample of copper be broken down into simpler substances by heating it strongly in a closed tube?",
+     "a": "An element is a pure substance made up of only one kind of atom. A pure sample of copper cannot be broken down into simpler substances by heating because copper is an element, and elements are chemically indivisible. \n\n*What a wrong answer reveals:* If a student thinks heating copper decomposes it, they confuse physical heating with the thermal decomposition of a compound, failing to realize that an element contains no other component substances to split into.",
+     "self_check": true
+    },
+    {
+     "q": "An artist has a block of pure gold ($Au$) and a block of brass (an alloy made of copper and zinc). Explain why gold is classified as an element, while brass is classified as a mixture, referring to the types of atoms present in each.",
+     "a": "Gold is an element because it is a pure substance consisting entirely of one single type of atom (gold atoms, $Au$). Brass is a mixture because it contains two different types of atoms (copper and zinc atoms) physically blended together without chemical bonding, and their proportions can vary.\n\n*What a wrong answer reveals:* If a student classifies brass as an element, they are confusing a homogeneous mixture (an alloy) with a pure element, demonstrating a failure to understand that an element must consist of only one species of atom.",
+     "self_check": true
+    },
+    {
+     "q": "A student is given three containers: Container X has pure iron filings ($Fe$), Container Y has rust ($Fe_2O_3$), and Container Z has a physical mixture of iron filings and sulfur powder. If a magnet is hovered over each container, in which container(s) will the magnet easily separate the iron, and what does this reveal about which container holds a pure element?",
+     "a": "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present.\n2. In Container Y (rust, $Fe_2O_3$), the iron is chemically bonded with oxygen to form a compound; the magnet will not attract or separate the iron because its elemental properties are lost.\n3. In Container Z (iron and sulfur mixture), the magnet will attract and easily separate the iron filings from the sulfur powder because they are only physically mixed.\n\nThis reveals that Container X contains the pure element iron, which retains its unique magnetic properties because it has not chemically combined with any other type of atom.\n\n*What a wrong answer reveals:* If a student thinks the iron in rust can be separated by a magnet, they do not understand that elements lose their individual properties when they chemically react to form compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chemical reactivity of oxygen gas ($O_2$) and gold ($Au$) when exposed to air and moisture. Does this difference in reactivity affect their classification as elements? Explain.",
+     "a": "Oxygen gas is a highly reactive non-metal element that readily reacts with metals to form oxides, whereas gold is an extremely unreactive metal element that does not react with air or moisture. However, this difference in reactivity does not affect their classification; both are elements because they each consist of only one type of atom ($O$ atoms in oxygen gas, and $Au$ atoms in gold) and cannot be simplified further.\n\n*What a wrong answer reveals:* If a student argues that gold is an element but oxygen is not due to reactivity differences, they wrongly believe that \"element\" status depends on chemical stability rather than atomic uniformity.",
+     "self_check": true
+    },
+    {
+     "q": "A student states: \"Since oxygen gas exists as $O_2$ molecules (where two oxygen atoms are chemically bonded together), it must be classified as a compound, not an element.\" Evaluate this statement.",
+     "a": "The student's statement is incorrect. A compound must consist of two or more *different* elements chemically combined. Although oxygen gas exists as diatomic molecules ($O_2$), both bonded atoms are of the exact same kind (oxygen). Therefore, it remains a pure element.\n\n*What a wrong answer reveals:* This reveals the common misconception that any molecule (atoms chemically bonded together) must be a compound, showing a failure to distinguish between homonuclear molecules (elements) and heteronuclear molecules (compounds).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test to prove that a solution of blue copper sulfate ($CuSO_4$) contains the element copper, even though the solution itself is not an element.",
+     "a": "1. Take the blue copper sulfate solution in a beaker.\n2. Introduce a clean iron nail ($Fe$) into the solution.\n3. Observe that a reddish-brown deposit of copper metal forms on the iron nail due to a displacement reaction: \n   $$Fe (s) + CuSO_4 (aq) \\rightarrow FeSO_4 (aq) + Cu (s)$$\n4. This displacement reaction extracts pure, elemental copper ($Cu$) from the solution, proving that copper was chemically combined inside the compound copper sulfate.\n\n*What a poor answer reveals:* A poor answer might suggest physical filtration or evaporation, which shows a failure to realize that chemically bonded elements in a compound can only be separated using chemical reactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

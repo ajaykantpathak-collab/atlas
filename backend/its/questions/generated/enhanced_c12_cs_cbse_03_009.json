@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_009",
+   "title": "c12_cs_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the primary function of the Domain Name System (DNS) in the context of web hosting?",
+     "a": "The primary function of DNS is to translate human-readable domain names (e.g., example.com) into machine-readable IP addresses (e.g., 192.0.2.1) so that browsers can locate the web server hosting the website. A wrong answer (e.g., \"DNS stores website files\") reveals confusion between DNS (a directory service) and web hosting (storage service).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a domain registrar and a web hosting provider. Can the same company provide both services?",
+     "a": "A domain registrar manages the reservation of domain names and maintains the registry database, while a web hosting provider allocates server space and resources to store website files and serve them to visitors. Yes, many companies (e.g., GoDaddy, Namecheap) offer both services, but they are distinct functions. A wrong answer that conflates the two (e.g., \"registrar hosts the website\") indicates a lack of understanding of the separation of concerns.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to host a simple static portfolio website with low traffic. They have registered a domain `portfolio.in`. List the exact steps they must take to point the domain to a shared hosting server using an A record.",
+     "a": "Steps: 1) Purchase shared hosting and note the server's IP address provided by the host. 2) Log in to the domain registrar's control panel. 3) Navigate to DNS management for `portfolio.in`. 4) Create an A record with host `@` (or blank) pointing to the server IP. 5) Optionally create a CNAME record for `www` pointing to `@`. 6) Wait for DNS propagation (up to 48 hours). A wrong answer that suggests changing nameservers instead of adding an A record shows misunderstanding of DNS record types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare shared hosting, VPS, and dedicated hosting in terms of resource allocation, control, cost, and scalability. Which would you recommend for a small e-commerce site expecting moderate traffic and why?",
+     "a": "Shared hosting: multiple sites share one server's resources, low cost, limited control, limited scalability. VPS: virtual partitioned server with dedicated resources, root access, moderate cost, scalable. Dedicated: entire physical server, full control, high cost, high scalability. For a small e-commerce site with moderate traffic, VPS is recommended because it offers dedicated resources for consistent performance, better security isolation than shared hosting, and room to scale, without the cost of a dedicated server. A wrong answer that picks shared hosting for e-commerce ignores security and performance needs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Once I register a domain name, I own it forever and do not need to renew it.\" Identify the misconception and explain the correct model.",
+     "a": "The statement is false. Domain registration is a lease, not a purchase; you pay a recurring fee (usually annually) to maintain the right to use the domain. If you fail to renew, the domain becomes available for others to register. The misconception arises from treating domain names like physical property. A wrong answer that agrees with the statement shows ignorance of the registry-registrar model and renewal cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company uses multiple DNS record types (A, CNAME, MX, TXT) for a single domain. Describe the purpose of each record in your scenario.",
+     "a": "Scenario: `company.com` hosts a website on IP 203.0.113.10, uses `www.company.com` as alias, email handled by Google Workspace, and needs SPF verification. Records: A record for `@` -> 203.0.113.10 (website), CNAME for `www` -> `company.com` (alias), MX records pointing to Google's mail servers (email), TXT record for SPF (`v=spf1 include:_spf.google.com ~all`) to authorize email senders. A poor answer that omits MX or TXT shows incomplete understanding of DNS beyond web hosting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

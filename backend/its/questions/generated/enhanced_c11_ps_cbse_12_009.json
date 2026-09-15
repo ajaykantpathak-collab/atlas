@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_009",
+   "title": "c11_ps_cbse_12_009",
+   "questions": [
+    {
+     "q": "What is the constitutional article that vests the superintendence, direction, and control of the preparation of electoral rolls and the conduct of all elections to Parliament and State Legislatures in the Election Commission of India?",
+     "a": "Article 324 of the Constitution of India. A wrong answer (e.g., Article 326 or Article 243K) reveals confusion between the constitutional source of the ECI's power (Art. 324), the basis of universal adult franchise (Art. 326), and the separate provision for local body elections (Art. 243K).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Representation of the People Act, 1950 mandates a \"summary revision\" of electoral rolls every year and a \"continuous updating\" process, rather than preparing a fresh roll before every election.",
+     "a": "Summary revision (annual) and continuous updating balance accuracy with administrative feasibility: they capture new eligible voters (turning 18), remove deceased/shifted electors, and correct errors without the massive cost and delay of a full fresh enumeration before each election. A wrong answer focusing only on \"saving money\" misses the democratic principle that the roll must be perpetually current to uphold the right to vote under Article 326.",
+     "self_check": true
+    },
+    {
+     "q": "A candidate files nomination papers for a Lok Sabha seat but fails to submit the required security deposit of ₹25,000 (₹12,500 for SC/ST) before the scrutiny deadline. The Returning Officer rejects the nomination. The candidate challenges this in the High Court under Article 226. Apply the relevant statutory provision to determine if the challenge will succeed.",
+     "a": "The challenge will fail. Section 34(1)(a) of the Representation of the People Act, 1951 makes the deposit mandatory, and Section 36(2)(b) requires the RO to reject a nomination if the deposit is not made. The Supreme Court in *K. Venkatachalam v. A. Swamickan* (1999) held this is a mandatory, non-waivable requirement. A wrong answer suggesting the court can condone the delay confuses judicial review of administrative discretion with mandatory statutory conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nomination requirements for a candidate of a recognized national party versus an independent candidate in a State Legislative Assembly election. Analyze how the differential requirements reflect the party system's institutionalization.",
+     "a": "A recognized party candidate needs only one proposer (elector from the constituency) and a security deposit of ₹10,000 (₹5,000 for SC/ST), while an independent needs ten proposers and the same deposit. This differential (Section 33 RP Act, 1951) incentivizes party affiliation and filters frivolous candidates, reflecting the constitutional preference for a structured party system (Article 324 read with the Tenth Schedule's anti-defection framework). A wrong answer stating both need the same number of proposers ignores the statutory recognition of political parties as vehicles of democratic representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the statutory expenditure ceiling (Section 77 RP Act, 1951) in ensuring a level playing field during campaigning, given the Explanation 1(a) inserted in 1974 that excludes party expenditure on \"general party propaganda\" from the candidate's account.",
+     "a": "The ceiling is significantly undermined: parties spend unlimited amounts on \"general propaganda\" (rallies, media, star campaigners) that de facto benefits specific candidates, making the candidate's limit (₹95 lakh for Lok Sabha, ₹40 lakh for Assembly as of 2024) porous. The 2003 amendment (Explanation 2) brought *some* party expenditure into the candidate's account if authorized, but enforcement remains weak. A wrong answer claiming the ceiling works perfectly ignores the \"general propaganda\" loophole and the Association for Democratic Reforms (ADR) data showing actual spending often exceeds limits 5-10 times.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a procedural reform to the nomination scrutiny process that would reduce the rejection of valid nominations on technical grounds (e.g., minor affidavit defects) while preserving the Returning Officer's duty to filter ineligible candidates. Justify your proposal with a constitutional principle.",
+     "a": "A good proposal: \"Introduce a mandatory 'cure period' of 48 hours after initial scrutiny where the RO must notify the candidate of specific, curable defects (e.g., missing notary stamp, incomplete column) and allow rectification before final rejection, with a speaking order for non-curable defects (e.g., age, disqualification).\" This upholds Article 14 (non-arbitrariness) and Article 326 (right to contest) by ensuring procedural fairness. A poor proposal (e.g., \"remove scrutiny entirely\") reveals a misunderstanding of the RO's quasi-judicial gatekeeping role under Section 36.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

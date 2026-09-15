@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_1",
+   "title": "c8_hist_ch5_1",
+   "questions": [
+    {
+     "q": "Name two distinct historical periods before the 12th century CE when Indian architecture made significant technological advances in stone construction, and give one example from each.",
+     "a": "Correct answer: Mauryan period (3rd century BCE) — polished sandstone pillars with monolithic shafts; Gupta period (4th–6th century CE) — structural stone temples like the Dashavatara Temple at Deogarh. A wrong answer (e.g., naming only the Mughal period or confusing rock-cut with structural stone) reveals the student thinks \"technology\" means only arches and domes, missing the indigenous post-and-lintel mastery and early stone experimentation.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Indian builders continue using the post-and-lintel (trabeate) system for temples long after the arch and dome were known from the 12th century onwards?",
+     "a": "Correct answer: The trabeate system was deeply tied to Hindu temple symbolism — the horizontal beam (lintel) represented the cosmic axis and the threshold between worlds, while the vertical posts mirrored the mounting of the deity. Switching to arches would have broken the ritual grammar of the temple. A wrong answer (e.g., \"they didn't know how to build arches\") shows the student confuses technological ignorance with deliberate cultural choice, ignoring that arches were used in secular buildings and water structures simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues that the shift from rock-cut to free-standing structural temples in the Deccan (e.g., Chalukya temples at Badami, Pattadakal) was driven mainly by the availability of good building stone. Use evidence from the 6th–8th centuries to support or challenge this claim.",
+     "a": "Correct reasoning: The claim is partially true but incomplete. Soft sandstone cliffs at Badami allowed early rock-cut caves (c. 578 CE), but the nearby hard sandstone and schist also enabled structural experimentation (e.g., Virupaksha Temple, c. 740 CE). Patronage (Chalukya kings asserting legitimacy), guild mobility of artisans, and the desire to create a \"mountain\" form (shikhara) that rock-cut could not fully achieve were equally critical. A wrong answer that cites only geology misses the interplay of political ideology and artisan innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the technological response to water scarcity in two different regions: the stepwells of Gujarat/Rajasthan (e.g., Rani ki Vav) and the temple tanks of Tamil Nadu (e.g., Brihadiswara). What does this comparison reveal about the relationship between architecture, environment, and social ritual?",
+     "a": "Correct answer: Stepwells are inverted architectures — descending into the earth with multi-storeyed corridors, combining water access, cool retreats, and sculptural programmes, reflecting a desert climate where water is deep and seasonal. Temple tanks are expansive, open reservoirs at ground level, integrated into temple complexes for ritual bathing and festivals, suited to monsoonal Tamil Nadu where water is surface-abundant but needs storage. Both are \"water architecture\" but their form follows climate, ritual need, and social hierarchy (stepwells often patronised by queens, tanks by kings). A wrong answer that only describes physical differences misses the socio-ecological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Indo-Islamic architecture is simply a mechanical mixing of Hindu and Islamic elements.\" Use the concepts of *syncretism* and *structural adaptation* to justify your position.",
+     "a": "Correct evaluation: The statement is false. Indo-Islamic architecture involved structural adaptation — Indian masons reinterpreted the arch and dome using local techniques (e.g., corbelled domes, true arches with voussoirs cut to fit) and infused them with indigenous decorative vocabularies (lotus medallions, jali screens derived from Hindu/Jain traditions). This was not mechanical mixing but a creative synthesis where the *logic* of construction remained Indian while the *form* absorbed Persian/Central Asian influences. A wrong answer that lists \"Hindu motifs on Islamic buildings\" without explaining the structural negotiation shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a conceptual timeline (not just dates) showing how the *idea* of the \"sacred mountain\" (Meru/Kailasa) evolves in built form from the Buddhist stupa (Sanchi) to the Hindu vimana (Brihadiswara) to the Islamic tomb (Humayun's Tomb). Annotate each stage with the technological innovation that made the new form possible.",
+     "a": "Expected answer: 1) Stupa (3rd c. BCE–1st c. CE): solid mound, circumambulatory path — technology: brick/stone masonry with core filling. 2) Rock-cut chaitya (2nd c. BCE–5th c. CE): excavated mountain — technology: top-down excavation, ribbed wooden ribs imitated in stone. 3) Structural vimana (7th–11th c. CE): towering shikhara as Meru — technology: corbelling, interlocking stones, precise load distribution. 4) Tomb with double dome (16th c. CE): celestial dome over garden — technology: true arch, double dome for height and insulation, pietra dura. A poor answer lists monuments without linking the *symbolic concept* to the *structural breakthrough*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

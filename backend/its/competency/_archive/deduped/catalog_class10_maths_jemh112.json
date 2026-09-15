@@ -1,0 +1,180 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 12,
+ "chapter_title": "Surface Areas and Volumes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.112.12.1",
+   "title": "Surface Area of a Combination of Solids",
+   "section": "12.2",
+   "definition": "Solids around us combine basic shapes - a capsule is a cylinder with two hemispheres, a tent is a cone on a cylinder; the surface area of such a combination is found by adding the visible curved surfaces of the parts and dropping the faces hidden at the joints.",
+   "formula": "cone_surface = pi * r * l",
+   "key_idea": "Add only what shows: hidden joining faces leave the surface total.",
+   "textbook_ref": "jemh112.txt section 12.2 (surface area of a combination of solids)",
+   "question_patterns": [
+    "find the total surface area of the given combination solid like a capsule or tent",
+    "a toy is a cone mounted on a hemisphere - find its surface area",
+    "find the area of canvas needed for the given conical tent",
+    "which surfaces must be excluded when solids are joined - explain",
+    "calculate the cost of polishing the given combined solid",
+    "find the slant height and curved surface of the cone part"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the cone's slant height",
+     "explain": "l equals the square root of r squared plus h squared.",
+     "compute": "l = sqrt(r * r + h * h)"},
+    {"step": 2, "action": "take the curved surface of the cone",
+     "explain": "pi times r times l covers the sloping part.",
+     "compute": "cone_surface = pi * r * l"}
+   ]
+  },
+  {
+   "id": "jemh.112.12.2",
+   "title": "Volume of a Combination of Solids",
+   "section": "12.3",
+   "definition": "The volume of a combined solid is simply the sum of the volumes of its parts: cylinder, cone and hemisphere each contribute their own measure - pi r squared h for the cylinder, one-third of it for a cone of the same base, and two-thirds pi r cubed for a hemisphere.",
+   "formula": "cone_volume = pi * r * r * h / 3",
+   "key_idea": "Volumes add: parts that join fill space without overlapping.",
+   "textbook_ref": "jemh112.txt section 12.3 (volume of a combination of solids)",
+   "question_patterns": [
+    "find the volume of the solid made of a cylinder with a hemisphere on top",
+    "a cone of the same base and height stands with a cylinder - compare their volumes",
+    "find the volume of the given capsule-shaped solid",
+    "how much water fills the given combined container",
+    "find the volume of the sphere of the given radius",
+    "the volume and radius are given - find the height of the cone"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the base area times height",
+     "explain": "pi r squared h is the cylinder volume.",
+     "compute": "cyl_volume = pi * r * r * h"},
+    {"step": 2, "action": "take one third for the cone",
+     "explain": "A cone of the same base and height holds one third.",
+     "compute": "cone_volume = cyl_volume / 3"}
+   ]
+  },
+  {
+   "id": "jemh.112.12.3",
+   "title": "Conversion of Solids from One Shape to Another",
+   "section": "12.4",
+   "definition": "Melting or recasting a solid changes its shape but not its volume: a sphere melted into a wire, or dough rolled from a cone, keeps the same volume - equating the volumes before and after finds the new dimensions.",
+   "formula": "-",
+   "key_idea": "Volume is the invariant: equate before and after to find the new dimensions.",
+   "textbook_ref": "jemh112.txt section 12.4 (conversion of solid from one shape to another)",
+   "question_patterns": [
+    "a metallic sphere is melted and drawn into a wire - find the length of the wire",
+    "a cone is melted and recast into a sphere - find the radius of the sphere",
+    "how many small spheres can be made from the given big sphere",
+    "find the height of the cylinder formed by melting the given solid",
+    "why does the volume remain the same on recasting - explain",
+    "solve the given recasting numerical from the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compute the original volume",
+     "explain": "Use the volume formula of the original shape."},
+    {"step": 2, "action": "equate with the new shape's formula",
+     "explain": "Set the same volume equal to the new solid's expression."},
+    {"step": 3, "action": "solve for the new dimension",
+     "explain": "The unknown radius, height or length follows."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh112.txt cone surface example",
+   "concept": "jemh.112.12.1",
+   "question_type": "compute",
+   "question_pattern": "Find the curved surface area of a cone with radius {r} cm and slant height {l} cm.",
+   "extracted_variables": {
+    "r": "radius of the cone in cm",
+    "l": "slant height of the cone in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply pi r and l",
+     "explain": "Curved surface of a cone is pi r l.",
+     "compute": "cone_surface = pi * r * l"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh112.txt surface area practice",
+   "concept": "jemh.112.12.1",
+   "question_type": "compute",
+   "question_pattern": "A tent of radius {r} m has slant height {l} m. Find the canvas needed for its conical part.",
+   "extracted_variables": {
+    "r": "radius of the tent in m",
+    "l": "slant height in m"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the curved surface formula",
+     "explain": "Canvas equals pi r l.",
+     "compute": "cone_surface = pi * r * l"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh112.txt cone volume example",
+   "concept": "jemh.112.12.2",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cone of radius {r} cm and height {h} cm.",
+   "extracted_variables": {
+    "r": "radius of the base in cm",
+    "h": "height of the cone in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the cylinder volume",
+     "explain": "pi r squared h.",
+     "compute": "cyl_volume = pi * r * r * h"},
+    {"step": 2, "action": "take one third",
+     "explain": "The cone holds one third of it.",
+     "compute": "cone_volume = cyl_volume / 3"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh112.txt volume practice",
+   "concept": "jemh.112.12.2",
+   "question_type": "compute",
+   "question_pattern": "A conical heap of sand has base radius {r} cm and height {h} cm. Find the volume of sand.",
+   "extracted_variables": {
+    "r": "radius of the heap in cm",
+    "h": "height of the heap in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the cylinder volume",
+     "explain": "Base area times height first.",
+     "compute": "cyl_volume = pi * r * r * h"},
+    {"step": 2, "action": "take one third",
+     "explain": "One third gives the conical volume.",
+     "compute": "cone_volume = cyl_volume / 3"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "jemh112.txt EXERCISE 12.1",
+   "questions": [
+     "Find the surface area of the given combination solids.",
+     "A toy is in the form of a cone mounted on a hemisphere - find its surface area.",
+     "Find the area of canvas required for the given tent."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "jemh112.txt EXERCISE 12.2",
+   "questions": [
+     "Find the volumes of the given combination solids.",
+     "A metallic sphere is melted and recast into a wire - find the length.",
+     "How many spheres of the given radius can be made from the given solid?"
+   ]
+  }
+ ]
+}

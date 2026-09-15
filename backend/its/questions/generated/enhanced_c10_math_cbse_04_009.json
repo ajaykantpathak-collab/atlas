@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_009",
+   "title": "c10_math_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the condition for a quadratic equation \\(ax^2 + bx + c = 0\\) to have two equal real roots. Write the formula for the repeated root.",
+     "a": "The condition is \\(D = b^2 - 4ac = 0\\) or equivalently \\(b^2 = 4ac\\). The repeated root is \\(x = -\\frac{b}{2a}\\).  \nA wrong answer like \"\\(D > 0\\)\" or \"\\(D < 0\\)\" reveals confusion between the three discriminant cases. Writing the root as \\(x = \\frac{-b \\pm \\sqrt{D}}{2a}\\) without simplifying \\(\\sqrt{0} = 0\\) shows the student hasn't internalized that the \\(\\pm\\) disappears when \\(D = 0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the quadratic equation \\(x^2 - 6x + 9 = 0\\) has equal roots without using the discriminant formula. What is the repeated root?",
+     "a": "The expression \\(x^2 - 6x + 9\\) is a perfect square trinomial: \\((x - 3)^2\\). Setting \\((x - 3)^2 = 0\\) gives \\(x - 3 = 0\\), so \\(x = 3\\) (repeated). The root is 3.  \nA student who computes \\(D = 36 - 36 = 0\\) but cannot recognize the perfect square shows procedural knowledge without conceptual understanding. A student who says \"roots are 3 and -3\" has the misconception that \\((x-3)^2 = 0\\) gives two different roots, confusing squaring with square root.",
+     "self_check": true
+    },
+    {
+     "q": "Find the value of \\(k\\) for which the quadratic equation \\(2x^2 + kx + 8 = 0\\) has equal roots. Also find the repeated root.",
+     "a": "Given: \\(a = 2\\), \\(b = k\\), \\(c = 8\\).  \nCondition for equal roots: \\(D = 0 \\Rightarrow b^2 - 4ac = 0\\)  \n\\(k^2 - 4(2)(8) = 0\\)  \n\\(k^2 - 64 = 0\\)  \n\\(k^2 = 64\\)  \n\\(k = \\pm 8\\)  \n\nFor \\(k = 8\\): equation is \\(2x^2 + 8x + 8 = 0\\) or \\(x^2 + 4x + 4 = 0 \\Rightarrow (x+2)^2 = 0 \\Rightarrow x = -2\\)  \nFor \\(k = -8\\): equation is \\(2x^2 - 8x + 8 = 0\\) or \\(x^2 - 4x + 4 = 0 \\Rightarrow (x-2)^2 = 0 \\Rightarrow x = 2\\)  \n\nAnswer: \\(k = 8\\) gives repeated root \\(x = -2\\); \\(k = -8\\) gives repeated root \\(x = 2\\).  \nA wrong answer giving only \\(k = 8\\) reveals the student forgot that \\(k^2 = 64\\) has two solutions. A student writing the root as \\(x = \\frac{-k}{4}\\) without substituting the value of \\(k\\) shows incomplete working.",
+     "self_check": true
+    },
+    {
+     "q": "The quadratic equation \\(px^2 - 2\\sqrt{5}px + 15 = 0\\) has two equal roots. Find the value of \\(p\\). (CBSE 2016)",
+     "a": "Given: \\(a = p\\), \\(b = -2\\sqrt{5}p\\), \\(c = 15\\)  \nCondition: \\(D = 0 \\Rightarrow b^2 - 4ac = 0\\)  \n\\((-2\\sqrt{5}p)^2 - 4(p)(15) = 0\\)  \n\\(4 \\times 5 \\times p^2 - 60p = 0\\)  \n\\(20p^2 - 60p = 0\\)  \n\\(20p(p - 3) = 0\\)  \n\\(p = 0\\) or \\(p = 3\\)  \n\nBut \\(p \\neq 0\\) because then the equation is not quadratic (coefficient of \\(x^2\\) vanishes).  \nTherefore, \\(p = 3\\).  \n\nA student who gives \\(p = 0, 3\\) without rejecting \\(p = 0\\) makes a classic board exam error — forgetting the condition \\(a \\neq 0\\). A student who writes \\((-2\\sqrt{5}p)^2 = -20p^2\\) has a sign error in squaring.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(3x^2 - 12x + 12 = 0\\) for equal roots as follows:  \n\\(D = (-12)^2 - 4(3)(12) = 144 - 144 = 0\\).  \nRoots: \\(x = \\frac{12 \\pm \\sqrt{0}}{6} = \\frac{12}{6} = 2\\).  \nIs the solution correct? If not, identify the error and give the correct root.",
+     "a": "The solution is **correct**. \\(D = 144 - 144 = 0\\), so equal roots exist. The root is \\(x = \\frac{-(-12)}{2(3)} = \\frac{12}{6} = 2\\). The student correctly used \\(\\frac{-b \\pm \\sqrt{D}}{2a}\\) with \\(\\sqrt{0} = 0\\).  \nA student who claims this is wrong might mistakenly think the formula \\(\\frac{-b \\pm \\sqrt{D}}{2a}\\) cannot be used when \\(D = 0\\), or might incorrectly simplify \\(\\frac{12 \\pm 0}{6}\\) as \"12/6 and 0/6 giving 2 and 0\". The latter reveals the misconception that \\(\\pm 0\\) produces two different values.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic equation with integer coefficients that has equal roots at \\(x = -5\\). Then construct another with the same repeated root but non-integer coefficients. Explain how you did it.",
+     "a": "For integer coefficients: repeated root \\(x = -5\\) means the equation is \\((x + 5)^2 = 0 \\Rightarrow x^2 + 10x + 25 = 0\\). Here \\(a=1, b=10, c=25\\), \\(D = 100 - 100 = 0\\).  \nFor non-integer coefficients: multiply by any non-integer, e.g., \\(\\frac{1}{2}(x^2 + 10x + 25) = 0 \\Rightarrow 0.5x^2 + 5x + 12.5 = 0\\). Or use \\(a=2\\): \\(2(x+5)^2 = 2x^2 + 20x + 50 = 0\\).  \nGeneral form: \\(a(x+5)^2 = 0\\) for any \\(a \\neq 0\\).  \nA poor answer gives only one example without the general form, or writes \\((x-5)^2 = 0\\) (wrong sign), or cannot explain the role of the leading coefficient \\(a\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_005",
+   "title": "c11_biotech_cbse_07_005",
+   "questions": [
+    {
+     "q": "A student writes: \"Introns are non-coding DNA sequences that are removed during transcription.\" Identify the two factual errors in this statement and correct them using precise terminology.",
+     "a": "Errors: (1) Introns are removed from the *primary transcript (pre-mRNA/hnRNA)*, not from DNA—the DNA sequence remains unchanged in the genome. (2) Splicing occurs *post-transcriptionally* in the nucleus, not during transcription (though co-transcriptional splicing occurs, it is mechanistically distinct from transcription elongation). A wrong answer reveals the student conflates DNA-level gene structure with RNA-level processing and misunderstands the central dogma flow (DNA → pre-mRNA → mRNA).",
+     "self_check": true
+    },
+    {
+     "q": "Given the pre-mRNA sequence: 5'-AUG **GUAAGU** ... (intron) ... **UACUAAC** ... (intron) ... **CAG** GGA-3' (bold = conserved elements), identify the 5' splice site, branch point, and 3' splice site. Explain why the branch point adenosine is invariant while flanking sequences tolerate variation.",
+     "a": "5' splice site: GUAAGU (consensus GURAGU, R=purine); Branch point: UACUAAC (consensus YUNAY, branch A underlined); 3' splice site: CAG (consensus YAG). The branch point A is invariant because its 2' OH acts as the nucleophile in the first transesterification—chemical catalysis demands a 2' OH (only ribose has it; deoxyribose lacks it). Flanking sequences are recognized by base-pairing with snRNAs (U1, U2) which tolerate wobble. A wrong answer reveals the student memorizes consensus without understanding the chemical mechanism (transesterification) that constrains the branch A.",
+     "self_check": true
+    },
+    {
+     "q": "A point mutation changes the 5' splice donor site of intron 2 in the human HBB gene from GUAAGU to GUAAGA. Predict the most likely splicing outcome and the resulting effect on the β-globin protein. Justify using the spliceosome's recognition mechanism.",
+     "a": "Outcome: Exon 2 skipping (exon 1 spliced directly to exon 3) or activation of a cryptic 5' splice site within exon 2. Effect: Frameshift → premature stop codon → nonsense-mediated decay (NMD) of mRNA → β⁰-thalassemia (no β-globin). Justification: U1 snRNA base-pairs with the 5' splice site (positions +1 to +6); the +5 G→A disrupts a critical G-C pair with U1 snRNA (position 5 of U1), reducing binding affinity below the threshold for spliceosome assembly. A wrong answer reveals the student cannot connect snRNA:pre-mRNA base-pairing energetics to phenotypic consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare constitutive splicing and alternative splicing in terms of: (a) splice site strength, (b) regulatory protein involvement (SR proteins vs hnRNPs), and (c) evolutionary conservation of the resulting protein isoforms.",
+     "a": "(a) Constitutive: strong consensus splice sites (high match to GURAGU/YAG); Alternative: weak/suboptimal splice sites requiring enhancers/silencers. (b) Constitutive: basal spliceosome suffices; Alternative: requires SR proteins (bind ESEs, recruit U2AF/U1) or hnRNPs (bind ESSs/ISSs, block spliceosome). (c) Constitutive: highly conserved protein sequence; Alternative: isoforms often show tissue-specific conservation—some domains conserved, others divergent. A wrong answer reveals the student views alternative splicing as \"noise\" rather than a regulated mechanism with distinct cis-elements and trans-factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The spliceosome is a ribozyme because snRNAs catalyze the transesterification reactions.\" Support or refute with evidence from the spliceosome's composition and mechanism.",
+     "a": "Supported. Evidence: (1) U2 and U6 snRNAs form a catalytic triplex structure that positions the branch A and 5' splice site for inline attack—mutations in U6 ACAGAGA box abolish catalysis. (2) Protein components (Prp8, etc.) are structural scaffolds; the active site is RNA-only. (3) The reaction mechanism (two metal ion catalysis) mirrors Group II self-splicing introns, implying common evolutionary origin. (4) In vitro, purified U2-U6 complex can catalyze splicing without proteins (at high Mg²⁺). A wrong answer reveals the student equates \"ribozyme\" with \"protein-free\" and misses that the spliceosome is a *ribonucleoprotein* enzyme where RNA provides catalysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minigene splicing reporter assay to test whether a synonymous mutation (does not change amino acid) in exon 3 of the CFTR gene creates a cryptic 5' splice site. Specify: vector backbone, insert design, cell line, readout, and critical controls.",
+     "a": "Vector: pSPL3 or pCI-neo with dual reporter (e.g., GFP/RFP). Insert: CFTR genomic fragment spanning exon 2–intron 2–exon 3–intron 3–exon 4 (with flanking intronic sequences ≥200 bp) cloned between two constitutive exons (SD/SA). Two constructs: wild-type and mutant (synonymous change). Cell line: HEK293T (high transfection, functional splicing machinery). Readout: RT-PCR with primers in vector exons → resolve products on capillary electrophoresis; quantify % exon inclusion/skipping. Controls: (1) Empty vector (background); (2) Known pathogenic splice mutation (positive control); (3) RNase-free DNase treatment (exclude genomic DNA); (4) qPCR for transfection normalization. A poor answer omits flanking intronic context, uses wrong cell type (e.g., bacteria), or lacks quantification strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

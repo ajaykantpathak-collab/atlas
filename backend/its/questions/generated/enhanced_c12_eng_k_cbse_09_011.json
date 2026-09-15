@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_09_011",
+   "title": "c12_eng_k_cbse_09_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the word order in the opening line “In Xanadu did Kubla Khan / A stately pleasure-dome decree” and state one effect of this pattern.",
+     "a": "The pattern is **subject-auxiliary inversion** (interrogative structure used declaratively) combined with **object-fronting** (“A stately pleasure-dome” placed before the verb “decree”). Effect: it delays the verb, forcing the reader to hold the image of the dome in mind before learning the action, mimicking the slow unveiling of a vision. A wrong answer (e.g., calling it “passive voice” or “normal order”) reveals confusion between syntactic movement and voice, or inability to see word order as a deliberate artistic choice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet shifts from past tense (“ran,” “were girdled,” “blossomed”) in the first two stanzas to present tense (“is forced,” “flung,” “runs,” “sank”) in the third stanza, and then to conditional (“Could I revive,” ’twould win”) in the final stanza.",
+     "a": "The past tense establishes the **dream-vision as a completed, recalled event** — the “vision in a dream” that Coleridge *had*. The present tense in the chasm/fountain section (stanza 3) makes the geological violence **immediate and alive**, as if the dream is still unfolding before our eyes. The conditional in the final stanza shifts to **poetic aspiration**: the speaker *wishes* to reconstruct the vision through art. A wrong answer that treats all verbs as “past tense because it’s a narrative” misses the poem’s meta-structure: it moves from memory → hallucination → artistic ambition.",
+     "self_check": true
+    },
+    {
+     "q": "In the lines “And ’mid these dancing rocks at once and ever / It flung up momently the sacred river,” rewrite the sentence in standard Subject-Verb-Object order. Then explain why Coleridge’s original order is more effective for the poem’s rhythm and imagery.",
+     "a": "Standard order: “It flung up the sacred river momently at once and ever amid these dancing rocks.” Coleridge’s version front-loads the locative phrase (“And ’mid these dancing rocks”) and the adverbial cluster (“at once and ever”), placing the verb “flung” late and the object “the sacred river” at the very end. This **delays the core action**, making the reader experience the rocks’ perpetual motion *before* the river’s eruption — the syntax *enacts* the fountain’s buildup. A student who only rewrites without commenting on the *experiential* effect treats grammar as a puzzle, not a performance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure of the first stanza (one long periodic sentence spanning 11 lines) with the final stanza (four shorter sentences, two of them imperative: “Weave a circle…”, “close your eyes…”). What does this structural shift suggest about the speaker’s control over the vision?",
+     "a": "The first stanza’s **single periodic sentence** — with multiple subordinate clauses (“Where Alph… ran”, “Where blossomed…”, “And here were forests…”) suspending the main clause — mirrors the **unbroken, expansive flow of the dream**. The final stanza’s **fragmented, imperative sentences** reflect the speaker’s **desperate attempt to impose order** on the broken vision through ritual (“Weave a circle round him thrice”). The shift from hypotaxis (subordination) to parataxis (coordination/imperatives) enacts the move from passive reception to active, almost magical, reconstruction. A wrong answer that only counts sentences misses the functional contrast between *suspension* and *command*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “The archaic forms ‘hath fed’ and ‘hath drunk’ in the final stanza are merely decorative — they add a medieval flavour but carry no grammatical significance.” Defend or refute with evidence.",
+     "a": "**Refute.** “Hath” is the **third-person singular present indicative of ‘have’** in Early Modern English, but here it functions as a **perfect aspect marker** (“has fed”, “has drunk”) with a crucial difference: the archaic form **distances the action from ordinary time**, placing the poet-figure in a timeless, ritualised space. It also maintains the **iambic rhythm** (“For HE on HON-ey-DEW hath FED”) where modern “has” would create a trochaic substitution. A student who calls it “just old-fashioned” confuses *register* with *grammatical function* and ignores how form serves metre and myth-making simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza imitating *Kubla Khan*’s grammatical style: use at least one inversion, one fronted adverbial, one archaic verb form, and a periodic structure that delays the main verb until the last line.",
+     "a": "**Sample answer:**\n> Beneath the banyan’s whispered shade,  \n> Where ancient roots in darkness wove,  \n> A silent prayer the priest hath made —  \n> **Hath** the forest **heard** and **moved**.  \n\n**Criteria for a good answer:** (1) Inversion (“A silent prayer the priest hath made” — object before verb), (2) Fronted adverbial (“Beneath the banyan’s whispered shade”), (3) Archaic “hath” + past participle, (4) Main verb “heard/moved” delayed to final line. A poor answer uses normal SVO order throughout, showing the student cannot *produce* the syntax they were asked to *analyse*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

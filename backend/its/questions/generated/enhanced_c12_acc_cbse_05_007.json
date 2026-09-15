@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_007",
+   "title": "c12_acc_cbse_05_007",
+   "questions": [
+    {
+     "q": "A company forfeited 200 shares of ₹10 each, ₹8 called up, for non-payment of first call of ₹2 per share. The shareholder had paid application and allotment money. What amount will be credited to Forfeited Shares Account?",
+     "a": "Correct answer: ₹1,200 (200 shares × ₹6 paid per share). A wrong answer of ₹1,600 (200 × ₹8) reveals the student incorrectly used called-up capital instead of amount actually paid. A wrong answer of ₹400 (200 × ₹2) reveals confusion between unpaid call and forfeited amount. The forfeited amount is always the money actually received from the defaulting shareholder.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Forfeited Shares Account is credited (not debited) when shares are forfeited, and why it appears under 'Reserves and Surplus' in the Balance Sheet.",
+     "a": "Correct answer: Forfeited Shares Account is credited because it represents a capital gain — money received from the defaulting shareholder that the company retains without any obligation to repay. It is a reserve, not a liability, so it appears under 'Reserves and Surplus'. A wrong answer stating it is a liability or that it should be debited reveals misunderstanding of the nature of forfeited amount as a gain to the company, not a claim by the shareholder.",
+     "self_check": true
+    },
+    {
+     "q": "X Ltd. issued shares of ₹100 each at a premium of ₹20, payable as: ₹30 on application, ₹50 on allotment (including premium), ₹40 on first call. A shareholder holding 100 shares failed to pay the allotment money. Pass the journal entry for forfeiture assuming premium was included in allotment.",
+     "a": "Correct entry:\nShare Capital A/c Dr. 3,000 (100 × ₹30 called-up)\nTo Calls in Arrears A/c 2,000 (100 × ₹20 unpaid allotment excluding premium)\nTo Forfeited Shares A/c 1,000 (100 × ₹10 paid on application)\nNote: Securities Premium Reserve is NOT debited because premium was not received. A wrong entry debiting Securities Premium Reserve reveals the student thinks premium once credited must be reversed — but premium is only credited when received. A wrong entry crediting Forfeited Shares with ₹3,000 reveals confusion between called-up and paid-up.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries for forfeiture of shares issued at par vs. at discount when the default occurs on allotment. Highlight the role of 'Discount on Issue of Shares Account' in the discount case.",
+     "a": "At par: Share Capital A/c Dr. (called-up) → Calls in Arrears A/c (unpaid) + Forfeited Shares A/c (paid).\nAt discount: Share Capital A/c Dr. (called-up) → Calls in Arrears A/c (unpaid net of discount) + Discount on Issue of Shares A/c (discount on forfeited shares) + Forfeited Shares A/c (paid).\nThe Discount on Issue of Shares Account is credited to reverse the discount originally debited on those shares, because the discount was a loss on issue that is now partially recovered by forfeiture. A student who omits the discount reversal treats the discount as a permanent loss even on forfeited shares, overstating the loss.",
+     "self_check": true
+    },
+    {
+     "q": "A company forfeited 500 shares of ₹10 each, ₹8 called up, issued at a discount of ₹2 per share. The shareholder paid ₹5 per share (application ₹3, allotment ₹2) but failed to pay first call of ₹3. The discount was adjusted at allotment. Evaluate whether the following entry is correct:\nShare Capital A/c Dr. 4,000\nTo Calls in Arrears A/c 1,500\nTo Discount on Issue of Shares A/c 500\nTo Forfeited Shares A/c 2,000",
+     "a": "The entry is INCORRECT. Correct entry:\nShare Capital A/c Dr. 4,000 (500 × ₹8)\nTo Calls in Arrears A/c 1,500 (500 × ₹3)\nTo Discount on Issue of Shares A/c 1,000 (500 × ₹2 discount on forfeited shares)\nTo Forfeited Shares A/c 1,500 (500 × ₹3 paid: ₹5 paid − ₹2 discount already adjusted)\nThe given entry under-credits Discount on Issue by ₹500 and over-credits Forfeited Shares by ₹500. The error arises because the student forgot that the discount of ₹2 per share was already adjusted at allotment, so the shareholder effectively paid only ₹3 net. Forfeited amount = net amount received = ₹3 per share.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company forfeits shares issued at a premium, but the premium was fully received with application money. The default occurs on first call. Write the journal entry for forfeiture and explain why Securities Premium Reserve is NOT debited.",
+     "a": "Scenario: Y Ltd. issued 1,000 shares of ₹100 each at a premium of ₹20. Payable: ₹50 on application (including ₹20 premium), ₹30 on allotment, ₹40 on first call. A shareholder holding 200 shares fails to pay first call.\nEntry:\nShare Capital A/c Dr. 16,000 (200 × ₹80 called-up)\nTo Calls in Arrears A/c 8,000 (200 × ₹40)\nTo Forfeited Shares A/c 8,000 (200 × ₹40 paid: ₹50 application − ₹10 capital portion of application)\nSecurities Premium Reserve is NOT debited because the premium of ₹20 was already received and credited — it is not refundable. The forfeited amount includes only the capital portion paid. A poor answer that debits Securities Premium Reserve shows the student thinks any premium credited must be reversed on forfeiture, ignoring that premium is received only once and not part of calls in arrears.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

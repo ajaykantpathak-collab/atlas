@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_002",
+   "title": "c12_cs_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the full form of DBMS and name one key advantage it provides over a traditional file system.",
+     "a": "DBMS stands for Database Management System. One key advantage is reduced data redundancy because data is stored centrally and shared across applications. A wrong answer (e.g., \"DBMS is just a file manager\" or \"DBMS increases redundancy\") reveals the student confuses DBMS with file management tools or misunderstands the core purpose of centralization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"data inconsistency\" is more likely in a file system than in a DBMS. Use a concrete example with two files.",
+     "a": "In a file system, the same data (e.g., student address) may be stored in multiple files (admission file, library file). If one file is updated and the other is not, the two files show different addresses — this is inconsistency. A DBMS stores address once and shares it, so inconsistency cannot arise. A wrong answer that says \"files are always consistent\" or \"DBMS also has inconsistency\" shows the student does not grasp that redundancy leads to inconsistency when updates are not synchronized.",
+     "self_check": true
+    },
+    {
+     "q": "A small business uses separate CSV files for Customers, Orders, and Products. They want to generate a report of all orders placed by customers from Delhi. Describe the steps a programmer must write in a file system approach, and identify two difficulties that a DBMS would eliminate.",
+     "a": "File system steps: (1) Read Customers.csv, filter rows where city = 'Delhi', collect customer IDs. (2) Read Orders.csv, match orders with those customer IDs. (3) Read Products.csv to get product names for each order. (4) Merge and print. Difficulties eliminated by DBMS: (a) Need to write custom join logic in code; (b) Risk of missing orders if a customer ID in Orders.csv has a typo not caught by any integrity constraint. A wrong answer that only mentions \"writing code is hard\" without specifying join logic or integrity misses the core technical differences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a file system and a DBMS handle concurrent access when two users try to update the same record simultaneously. What problem can occur in a file system, and what mechanism does a DBMS use to prevent it?",
+     "a": "In a file system, both users may read the same record, modify it locally, and write back — the second write overwrites the first (lost update). A DBMS uses locking (or timestamp ordering) to serialize access: one user gets a lock, the other waits, ensuring atomicity and isolation. A wrong answer that says \"file systems handle concurrency fine\" or \"DBMS uses only passwords\" shows confusion between security and concurrency control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For a single-user application with a few hundred records, a file system is always better than a DBMS because it is simpler and faster.\" Defend or refute with at least three technical points.",
+     "a": "Refute. Even for single-user, small-scale apps: (1) A file system offers no built-in integrity constraints (e.g., unique ID, foreign key), so bad data can enter silently. (2) Schema changes (adding a column) require rewriting all application code; DBMS provides data independence. (3) Backup/recovery and crash atomicity are manual in file systems; DBMS provides transactions. Simplicity is often illusory when maintenance costs are counted. A wrong answer that agrees without qualifications shows the student cannot evaluate trade-offs beyond initial setup effort.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini case study (3-4 sentences) where a school's file-based system fails during annual result processing, and explain how a DBMS would resolve each failure point.",
+     "a": "Case: During result entry, Teacher A updates marks in Marks.csv while Teacher B updates attendance in Attendance.csv for the same student. A power cut occurs after Teacher A's write but before Teacher B's, leaving marks updated but attendance not — the student's record is now inconsistent. Also, two teachers simultaneously edit Marks.csv, causing one set of marks to be lost. A DBMS would wrap both updates in a transaction (atomicity), use row-level locking (concurrency), and enforce foreign key between marks and attendance tables (integrity). A poor answer that only mentions \"DBMS has backup\" misses atomicity, concurrency, and integrity mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

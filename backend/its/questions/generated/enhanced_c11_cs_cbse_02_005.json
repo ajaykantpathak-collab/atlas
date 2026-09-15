@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_005",
+   "title": "c11_cs_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the correct logic gate symbol and Boolean representation for a three-input AND operation with variables A, B, and C?",
+     "a": "The correct representation is a single AND gate with three inputs (A, B, C) and output Y = A·B·C (or A AND B AND C). A wrong answer showing three separate two-input AND gates cascaded (A AND B, then result AND C) reveals the student doesn't understand that multi-input AND is a single gate in standard logic diagrams, though functionally equivalent — board exams expect the compact multi-input gate symbol for expressions like A·B·C.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean expression F = (A + B') · (C + D'), a student draws an OR gate for A + B' and another OR gate for C + D', then connects both OR outputs to an AND gate. They forgot to include NOT gates for B' and D'. What does this error reveal about their understanding of expression-to-circuit translation?",
+     "a": "This reveals the student treats complemented variables (B', D') as direct inputs rather than recognizing they require NOT gates before entering the OR gates. The correct circuit needs two NOT gates (for B and D) feeding into the respective OR gates. This error shows the student hasn't internalized that every operator in the expression — including NOT — must map to a physical gate in the circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the Boolean expression Y = (A · B) + (C' · D) into a logic circuit diagram. Draw the circuit showing all gates, inputs, and the final output Y.",
+     "a": "Step 1: Identify operations — two AND operations (A·B and C'·D) and one OR operation combining them. Step 2: C' requires a NOT gate on input C. Step 3: First AND gate takes A and B. Step 4: Second AND gate takes output of NOT gate (C') and D. Step 5: OR gate takes outputs of both AND gates. Step 6: OR output is Y. A wrong circuit missing the NOT gate or connecting A,B directly to OR reveals failure to map each operator to its gate and respect precedence.",
+     "self_check": true
+    },
+    {
+     "q": "Two circuits are given: Circuit 1 implements F = A·(B+C) and Circuit 2 implements F = (A·B)+C. Without drawing truth tables, explain how to determine if these circuits are functionally equivalent by analyzing their structure.",
+     "a": "They are NOT equivalent. Circuit 1: OR gate (B+C) feeds into AND gate with A — so A must be 1 AND at least one of B,C must be 1. Circuit 2: AND gate (A·B) feeds into OR gate with C — so output is 1 if either (A=1 AND B=1) OR C=1. When A=0, B=1, C=0: Circuit 1 gives 0·(1+0)=0, Circuit 2 gives (0·1)+0=0. When A=1, B=0, C=0: Circuit 1 gives 1·(0+0)=0, Circuit 2 gives (1·0)+0=0. When A=0, B=0, C=1: Circuit 1 gives 0·(0+1)=0, Circuit 2 gives (0·0)+1=1 — different outputs prove non-equivalence. A student claiming equivalence reveals inability to trace signal flow and evaluate structural differences.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since AND distributes over OR in Boolean algebra, the circuit for A·(B+C) can always be replaced by (A·B)+(A·C) with no change in function, so they are interchangeable in hardware design.\" Evaluate this statement for correctness and practical implications.",
+     "a": "The statement is logically correct (Distributive Law holds) but practically incomplete for hardware design. While functionally equivalent, the two circuits differ in gate count (3 gates vs 3 gates but different types), propagation delay (2 gate levels vs 2 gate levels), and fan-out (A drives 1 gate vs A drives 2 gates). In real circuits, fan-out loading and timing matter. A student missing the practical distinction shows purely algebraic thinking without hardware awareness — board exams may ask \"which implementation is better?\" requiring delay/fan-out analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a logic circuit for a \"majority vote\" system with three inputs (A, B, C) where output Y = 1 if at least two inputs are 1. Write the Boolean expression first, then draw the circuit. Can you implement it using only two-input gates?",
+     "a": "Expression: Y = (A·B) + (B·C) + (A·C). Circuit: three two-input AND gates (A·B, B·C, A·C) feeding a three-input OR gate. Using only two-input gates: replace three-input OR with two two-input OR gates — first OR combines (A·B) and (B·C), second OR combines that result with (A·C). Total: 3 AND + 2 OR = 5 two-input gates. A poor answer using a three-input OR gate directly violates the \"only two-input gates\" constraint; one missing the (A·C) term fails the majority condition for A=1,B=0,C=1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

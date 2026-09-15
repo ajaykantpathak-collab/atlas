@@ -1,0 +1,437 @@
+{
+ "catalog": "catalog_class7_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "gegp.103.1",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 1 + 4 / 10 + 5 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 3.2 + 5.5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 8.45 - 3.35"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 1.3 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 8.8 * 5.3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 5.2 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.2",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 + 2 / 10 + 9 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 5.2 + 5.9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 5.38 - 1.07"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 7.3 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 8.9 * 8.9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 3.1 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.3",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 + 9 / 10 + 6 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 8.9 + 4.7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 4.10 - 2.83"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 4.6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 9.4 * 8.6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 8.8 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.4",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 7 + 7 / 10 + 2 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1.2 + 7.7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 9.07 - 3.94"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 3.3 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 1.4 * 6.6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 5.8 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.5",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 + 5 / 10 + 3 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 4.6 + 6.8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 4.85 - 1.24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 4.3 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 9.7 * 5.9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 3.0 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.6",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 + 1 / 10 + 1 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1.5 + 3.5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 3.79 - 3.46"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 7.4 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4.8 * 3.9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 5.5 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.7",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 + 7 / 10 + 8 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 8.1 + 3.7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 7.82 - 7.76"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 8.4 * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 2.0 * 9.1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 6.6 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.8",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 7 + 8 / 10 + 1 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 8.9 + 2.5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 5.44 - 2.98"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 4.6 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 5.9 * 4.3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 6.0 / 10"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 7 + 8 / 10 + 1 / 100"
+   ]
+  },
+  {
+   "id": "gegp.103.9",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 + 7 / 10 + 6 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 9.8 + 9.7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 4.96 - 4.60"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 8.6 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 1.1 * 4.4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 5.0 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.103.10",
+   "family": "dec_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 8 + 4 / 10 + 4 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 7.3 + 7.1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "diff = 3.50 - 2.86"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 2.0 * 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4.9 * 9.5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 4.9 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

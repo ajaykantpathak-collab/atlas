@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_2",
+   "title": "c9_bio_ch3_2",
+   "questions": [
+    {
+     "q": "Define vegetative propagation and state one fundamental way it differs from sexual reproduction in plants at the cellular level.",
+     "a": "Vegetative propagation is asexual reproduction where new plants arise from vegetative parts (root, stem, leaf) via mitosis, producing genetically identical clones. It differs from sexual reproduction because no gamete formation (meiosis) or fertilization occurs — the chromosome number remains constant (2n → 2n), whereas sexual reproduction involves meiosis (2n → n) and fusion (n + n → 2n). A wrong answer (e.g., \"vegetative propagation uses seeds\" or \"both involve fertilization\") reveals the student conflates propagation methods with seed-based reproduction or misunderstands the role of meiosis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since vegetative propagation produces clones, all cells in the new plant must have exactly the same DNA as the parent plant's leaf cells.\" Is this statement fully correct? Explain why or why not, considering somatic mutations.",
+     "a": "The statement is largely correct but not absolute. While vegetative propagation preserves the parental genome (no meiotic recombination), spontaneous somatic mutations can occur during mitotic divisions in meristematic tissue. These mutations would be present in the clone but absent in the original parent's leaf cells. A student who says \"yes, absolutely identical\" overlooks that DNA replication errors accumulate over mitotic divisions — a nuance critical for understanding why long-lived clones (e.g., ancient aspen groves) show genetic variation. A wrong answer reveals confusion between \"clonal\" (no meiotic shuffling) and \"mutation-free.\"",
+     "self_check": true
+    },
+    {
+     "q": "A farmer wants to propagate a prized mango tree that produces exceptionally sweet fruit. She tries planting seeds from the fruit, but the resulting trees bear sour fruit. Explain biologically why seed propagation failed to preserve the trait, and why grafting a scion from the prized tree onto a hardy rootstock would succeed.",
+     "a": "Seed propagation involves sexual reproduction: meiosis creates genetically unique gametes, and fertilization combines alleles from two parents (the prized tree and an unknown pollen donor), shuffling the genetic basis for sweetness. The offspring segregate for fruit quality traits. Grafting joins a scion (shoot with desired genotype) to a rootstock; the scion's meristematic tissue divides mitotically, preserving the exact genetic makeup for sweet fruit. The rootstock only provides water/mineral absorption and disease resistance — its genome does not mix with the scion's. A wrong answer (e.g., \"seeds are weaker\" or \"grafting mixes genes\") shows misunderstanding of meiosis vs. mitosis and the non-fusion nature of graft unions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare natural vegetative propagation by stem tubers (potato) and by leaf adventitious buds (Bryophyllum). Analyze how the anatomical origin of the propagule differs and why both can regenerate a complete plant despite arising from different organs.",
+     "a": "Potato tubers are swollen **stem** tips (stolons) with nodes (\"eyes\") bearing axillary buds — each eye is a compressed shoot with meristematic tissue. Bryophyllum produces adventitious buds on **leaf** margins from meristematic cells in the leaf notch. Both regenerate complete plants because meristematic cells in buds (whether axillary on stems or adventitious on leaves) are **totipotent** — they retain the full genetic program to form roots, shoots, and vascular tissue. The difference is organ identity: stem vs. leaf origin. A wrong answer (e.g., \"potato is a root\" or \"Bryophyllum uses seeds\") reveals confusion about modified stems vs. roots and failure to recognize that totipotency resides in meristems, not specific organs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Tissue culture (micropropagation) is just a high-tech version of cutting — both produce clones, so there is no biological advantage of tissue culture over traditional cutting for mass propagation of banana.\" Provide two distinct biological reasons why tissue culture is superior for banana propagation.",
+     "a": "The claim is false. Two biological advantages: (1) **Disease elimination**: Banana is propagated vegetatively, so viral/fungal pathogens accumulate in suckers/cuttings. Tissue culture uses meristem-tip culture (0.1–0.5 mm) where viruses have not yet invaded, yielding virus-free plantlets — impossible with cuttings. (2) **Scale & speed**: One explant can produce thousands of plantlets in months under sterile, controlled conditions via repeated subculturing; cuttings are limited by mother-plant numbers, season, and rooting success. A wrong answer focusing only on \"clones are clones\" misses the critical phytosanitary and scalability dimensions that make tissue culture essential for commercial banana (and potato, orchid) production.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to test whether a given plant (e.g., money plant/Epipremnum) can propagate vegetatively from stem cuttings, and how rooting hormone (IAA/IBA) affects success rate. Specify control, variables, and measurable outcome.",
+     "a": "**Experiment**: Take 20 uniform stem cuttings (2 nodes each) of money plant. Divide into two groups of 10: **Control** — dip basal end in water; **Treatment** — dip in 500 ppm IBA solution for 5 sec. Plant all in identical moist sand-vermiculite mix in same tray. Keep in shade, maintain humidity. **Variables**: Independent = hormone application; Dependent = number of roots per cutting, root length, % survival after 3 weeks. **Measurable outcome**: Count roots, measure longest root, record survival. **Expected**: Treatment shows higher root number, longer roots, better survival — demonstrating auxin-induced adventitious root formation from stem meristematic tissue. A poor design (no control, varying cutting size, no replication) reveals inability to isolate the hormone effect — a core experimental skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

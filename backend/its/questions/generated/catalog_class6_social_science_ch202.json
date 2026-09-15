@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class6_social_science_ch202",
+ "concepts": [
+  {
+   "id": "fess.202.1.1",
+   "title": "The Globe and Earth's Axis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Globe and Earth's Axis' refers to.",
+     "a": "A globe is a scaled-down physical representation of the Earth, featuring an imaginary line called an axis around which it rotates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Globe and Earth's Axis'.",
+     "a": "The globe serves as a miniature, accurate model of our planet's shape and rotation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Globe and Earth's Axis', in plain ASCII form.",
+     "a": "rotation_direction = west to east",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.1.2",
+   "title": "Equator and Hemispheres",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equator and Hemispheres' refers to.",
+     "a": "The equator is an imaginary circular line that splits the Earth into two equal parts: the Northern and Southern Hemispheres.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equator and Hemispheres'.",
+     "a": "The equator is the primary reference line for dividing the Earth horizontally.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Equator and Hemispheres', in plain ASCII form.",
+     "a": "equator = 0 degrees latitude",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.1.3",
+   "title": "Parallels of Latitude",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Parallels of Latitude' refers to.",
+     "a": "Horizontal circles drawn parallel to the equator extending toward the poles, used to measure distance in degrees north or south.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parallels of Latitude'.",
+     "a": "Latitudes are parallel circles that decrease in size as they move from the equator to the poles.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Parallels of Latitude', in plain ASCII form.",
+     "a": "max_latitude = 90 degrees",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.2.1",
+   "title": "Important Parallels of Latitude",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Important Parallels of Latitude' refers to.",
+     "a": "Specific latitudinal lines including the Tropics of Cancer and Capricorn, and the Arctic and Antarctic Circles, which mark climate boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Important Parallels of Latitude'.",
+     "a": "Four key latitudes besides the equator and poles define the Earth's major zones.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Important Parallels of Latitude', in plain ASCII form.",
+     "a": "tropic_of_cancer = 23.5 n",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.3.1",
+   "title": "Heat Zones of the Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Heat Zones of the Earth' refers to.",
+     "a": "Regions categorized by the amount of solar heat received, classified into Torrid, Temperate, and Frigid zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Heat Zones of the Earth'.",
+     "a": "The angle of sun rays determines the temperature and classification of heat zones.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Heat Zones of the Earth', in plain ASCII form.",
+     "a": "torrid_zone = between 23.5 n and 23.5 s",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.4.1",
+   "title": "Meridians of Longitude",
+   "questions": [
+    {
+     "q": "Using the method 'Meridians of Longitude', work with: total_longitudes = 360. Carry the chain through step by step and give the final value of total_longitudes.",
+     "a": "360 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meridians of Longitude' and work with: total_longitudes = 360. Carry the chain through step by step and give the final value of total_longitudes.",
+     "a": "360 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meridians of Longitude' refers to.",
+     "a": "Vertical reference lines running from the North Pole to the South Pole used to measure East-West positions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meridians of Longitude'.",
+     "a": "Longitudes are semi-circles of equal length that meet at the poles.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meridians of Longitude', in plain ASCII form.",
+     "a": "total_longitudes = 360",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.4.2",
+   "title": "Prime Meridian and Hemispheres",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prime Meridian and Hemispheres' refers to.",
+     "a": "The 0 degree longitude line passing through Greenwich, dividing the Earth into Eastern and Western Hemispheres.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prime Meridian and Hemispheres'.",
+     "a": "The Prime Meridian and the 180 degree meridian together divide the Earth vertically.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prime Meridian and Hemispheres', in plain ASCII form.",
+     "a": "prime_meridian = 0 degrees longitude",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.5.1",
+   "title": "Time Difference Calculation",
+   "questions": [
+    {
+     "q": "Calculate the time difference for 15 degrees of longitude.. Use the method 'Time Difference Calculation'. Work with: diff = 30. Carry the chain through step by step and give the final value of time_diff_minutes.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "How many minutes does the earth take to rotate 1 degree? Use the method 'Time Difference Calculation'. Work with: diff = 6. Carry the chain through step by step and give the final value of time_diff_minutes.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Time Difference Calculation' refers to.",
+     "a": "Calculating the time gap between two locations based on the Earth's rotation rate of 4 minutes per degree of longitude.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Time Difference Calculation'.",
+     "a": "Earth rotates 1 degree every 4 minutes, making time dependent on longitudinal position.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Time Difference Calculation', in plain ASCII form.",
+     "a": "time_diff_minutes = longitude_diff * 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.202.6.1",
+   "title": "Indian Standard Time (IST)",
+   "questions": [
+    {
+     "q": "Using the method 'Indian Standard Time (IST)', work with: lon = 82.5. Carry the chain through step by step and give the final value of offset_hours.",
+     "a": "5.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indian Standard Time (IST)' and work with: lon = 82.5. Carry the chain through step by step and give the final value of offset_hours.",
+     "a": "5.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indian Standard Time (IST)' refers to.",
+     "a": "The uniform time adopted for the whole of India based on the central meridian of 82.5 degrees East.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indian Standard Time (IST)'.",
+     "a": "Standard time prevents confusion caused by local time differences across a large country.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indian Standard Time (IST)', in plain ASCII form.",
+     "a": "ist_meridian = 82.5 e",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

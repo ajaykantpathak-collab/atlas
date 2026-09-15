@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 104,
+ "chapter_title": "Climate",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy104.txt",
+ "concepts": [
+  {
+   "id": "kegy.104.1.1",
+   "title": "Monsoon Mechanism and Seasons of India",
+   "section": "Climate",
+   "definition": "India's climate is dominated by the monsoon mechanism of differential heating, ITCZ shift, jet streams and Tibetan plateau effects, giving four seasons of cold weather, hot weather, advancing monsoon and retreating monsoon with rainfall from the Arabian Sea and Bay of Bengal branches.",
+   "formula": "",
+   "key_idea": "The onset and retreat of the southwest monsoon, the burst of the monsoon, and October heat and retreating monsoon rains of Tamil Nadu shape the annual weather rhythm.",
+   "textbook_ref": "kegy104.txt monsoon and seasons sections",
+   "question_patterns": [
+    "explain the mechanism of the indian monsoon",
+    "describe the seasons of india in order",
+    "what are the arabian sea and bay of bengal monsoon branches",
+    "define burst of the monsoon and october heat",
+    "what is the role of jet streams in the monsoon",
+    "state the features of the retreating monsoon season"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.104.2.1",
+   "title": "Rainfall Distribution, Variability and El Nino",
+   "section": "Rainfall distribution",
+   "definition": "Rainfall in India varies from very high on the Western Ghats windward side and Meghalaya's Cherrapunji-Mawsynram to arid western Rajasthan, with the El Nino southern oscillation affecting monsoon strength and variability year to year.",
+   "formula": "",
+   "key_idea": "Areas receiving over 400 cm of rain contrast with below 60 cm zones, and this variability decides agriculture, water supply and flood-drought risk.",
+   "textbook_ref": "kegy104.txt rainfall distribution section",
+   "question_patterns": [
+    "describe the spatial distribution of rainfall in india",
+    "what is el nino and how does it affect the monsoon",
+    "name the wettest and driest regions of india",
+    "why do the western ghats receive heavy rainfall",
+    "explain monsoon variability and its effects",
+    "define the el nino southern oscillation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.104.3.1",
+   "title": "Climate, Monsoon Dependence and Its Variability",
+   "section": "Climate",
+   "definition": "India's climate is described as the monsoon type with alternating wet and dry seasons, and the economy from agriculture to water supply depends on the timing and variability of monsoon rains, so years of weak monsoon bring drought while strong monsoons bring floods.",
+   "formula": "",
+   "key_idea": "The southwest monsoon delivers about 75 to 80 per cent of annual rainfall in four months, making its variability the single most important climatic fact of India.",
+   "textbook_ref": "kegy104.txt monsoon dependence discussion",
+   "question_patterns": [
+    "why is india said to have a monsoon type of climate",
+    "how does monsoon variability affect indian agriculture",
+    "what share of annual rainfall does the southwest monsoon bring",
+    "compare the climates of kerala and rajasthan",
+    "how do jet streams and el nino influence monsoon strength",
+    "state the effects of a failed monsoon on the economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy104.txt exercises",
+   "questions": [
+    "Describe the mechanism of monsoon onset in India.",
+    "Discuss the spatial distribution of rainfall in the country.",
+    "What is the ITCZ and how does it affect the monsoon?",
+    "Explain the El Nino effect on the Indian monsoon.",
+    "Name the seasons of India with their main features."
+   ]
+  }
+ ]
+}

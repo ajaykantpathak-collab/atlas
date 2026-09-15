@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_008",
+   "title": "c12_cs_cbse_06_008",
+   "questions": [
+    {
+     "q": "What method is used to close a cursor object in `mysql.connector`? What about the connection object?",
+     "a": "The cursor object uses `cursor.close()` and the connection object uses `connection.close()`. A wrong answer (e.g., \"connection.close() closes both\" or \"garbage collector handles it\") reveals the misconception that closing the connection automatically closes the cursor or that Python's garbage collector reliably releases database resources. In reality, the cursor must be closed explicitly first, and the server-side connection may persist until a timeout if not closed properly.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to close the cursor before closing the connection? What happens if you close the connection first?",
+     "a": "The cursor depends on an open connection; closing the connection first leaves the cursor in an invalid state and may raise an exception when `cursor.close()` is later called. A wrong answer (e.g., \"order doesn't matter\") shows the student hasn't grasped the dependency hierarchy: the cursor is a child resource of the connection. The correct order is always `cursor.close()` then `connection.close()`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a code snippet that opens a connection, creates a cursor, executes a query, fetches data, and then closes both cursor and connection properly, even if an exception occurs.",
+     "a": "```python\nimport mysql.connector\nconn = None\ncursor = None\ntry:\n    conn = mysql.connector.connect(host=\"localhost\", user=\"root\", password=\"pwd\", database=\"school\")\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    rows = cursor.fetchall()\n    for row in rows:\n        print(row)\nexcept mysql.connector.Error as err:\n    print(f\"Database error: {err}\")\nfinally:\n    if cursor is not None:\n        cursor.close()\n    if conn is not None:\n        conn.close()\n```\nA wrong answer that omits the `finally` block or checks reveals the student doesn't understand that exceptions can skip normal cleanup code, leaving resources open.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource management of database connections with file handling in Python. What are the similarities and differences?",
+     "a": "Similarities: both acquire limited system resources (file descriptors, network sockets), both require explicit `close()` or a `with` statement, and both can leak resources if not closed. Differences: database connections involve a server-side process that consumes memory and counts toward `max_connections`; unclosed connections can deny service to other users. Files are purely local. A wrong answer that says \"they are exactly the same\" misses the critical server-side impact of leaked database connections.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes code that closes the connection but not the cursor. Is this acceptable? Justify your answer.",
+     "a": "No, it is not acceptable. Closing the connection without closing the cursor first can leave the cursor in an unusable state and may cause an exception when the cursor's `__del__` method tries to clean up. Moreover, some drivers may not release cursor-related server resources until the cursor is explicitly closed. A wrong answer (\"yes, it's fine\") shows the student ignores the explicit cleanup contract of the DB-API and the potential for subtle resource leaks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a context manager class (using `__enter__` and `__exit__`) that automatically closes the cursor and connection when used in a `with` statement.",
+     "a": "```python\nclass DBContext:\n    def __init__(self, **conn_params):\n        self.conn_params = conn_params\n        self.conn = None\n        self.cursor = None\n\n    def __enter__(self):\n        self.conn = mysql.connector.connect(**self.conn_params)\n        self.cursor = self.conn.cursor()\n        return self.cursor\n\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        if self.cursor:\n            self.cursor.close()\n        if self.conn:\n            if exc_type is None:\n                self.conn.commit()\n            else:\n                self.conn.rollback()\n            self.conn.close()\n        return False  # propagate exceptions\n```\nA poor answer that only closes the connection or doesn't handle commit/rollback reveals the student hasn't synthesized exception safety, transaction control, and resource cleanup into a single reusable abstraction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

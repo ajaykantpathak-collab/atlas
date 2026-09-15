@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_6",
+   "title": "c8_physics_ch5_6",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a saturated solution at a given temperature?",
+     "a": "A saturated solution contains the maximum amount of solute that can dissolve at that temperature; any additional solute added will not dissolve and will remain as a visible solid. A wrong answer (e.g., \"a solution with a lot of solute\" or \"a concentrated solution\") reveals the student confuses saturation with concentration — a solution can be concentrated but still unsaturated if more solute can dissolve.",
+     "self_check": true
+    },
+    {
+     "q": "You have two beakers of salt water at room temperature. In Beaker A, a pinch of salt added dissolves completely. In Beaker B, the same pinch of salt sinks to the bottom unchanged. Which beaker contains a saturated solution and why?",
+     "a": "Beaker B contains the saturated solution because the added salt cannot dissolve — the solution already holds the maximum dissolved salt at that temperature. Beaker A is unsaturated because it can still accept more solute. A wrong answer (e.g., guessing Beaker A is saturated because it \"looks saltier\") shows the student relies on appearance rather than the operational test of adding solute.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a saturated solution of potassium nitrate (KNO₃) in 100 g of water at 40°C. The solubility of KNO₃ at 40°C is 64 g per 100 g water. The student then cools the solution to 20°C, where solubility is 32 g per 100 g water. How many grams of KNO₃ will crystallise out? (Assume no evaporation.)",
+     "a": "Step 1: At 40°C, maximum dissolved KNO₃ = 64 g in 100 g water. Step 2: At 20°C, maximum dissolved KNO₃ = 32 g in 100 g water. Step 3: Excess solute = 64 g − 32 g = 32 g. Step 4: This excess crystallises out upon cooling. Answer: 32 g of KNO₃ crystallises. A wrong answer (e.g., 64 g or 0 g) reveals the student does not connect solubility change with temperature or misunderstands that the \"lost\" dissolved solute becomes solid crystals.",
+     "self_check": true
+    },
+    {
+     "q": "Two students test different solutions for saturation by adding a single crystal of the same solute. Student X observes the crystal dissolves completely. Student Y observes the crystal grows larger. Compare the saturation states of the two solutions and explain the crystal growth in Student Y's beaker.",
+     "a": "Student X's solution is unsaturated (crystal dissolves). Student Y's solution is saturated (crystal grows). The crystal grows because in a saturated solution, the rate of crystallisation equals the rate of dissolution; adding a seed crystal provides a surface for excess solute molecules to deposit, shifting the dynamic equilibrium toward net crystallisation. A wrong answer (e.g., \"the crystal grew because the solution was unsaturated\") shows the student does not understand dynamic equilibrium at saturation.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"If you heat a saturated solution, it will always become unsaturated.\" Evaluate this statement. Is it always true? Give a reason.",
+     "a": "The statement is generally true for most solid solutes (like salt, sugar) because solubility of solids usually increases with temperature, so heating a saturated solution raises its capacity to hold solute, making it unsaturated. However, it is NOT universally true — for some salts (e.g., cerium sulfate) solubility decreases with temperature, so heating could cause crystallisation. A wrong evaluation (e.g., \"always true because heat makes things dissolve faster\") reveals the student confuses rate of dissolving with equilibrium solubility, and ignores exceptions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household items (sugar, salt, water, glasses, spoon, refrigerator, stove) to demonstrate that a saturated solution at room temperature becomes unsaturated when heated, and becomes supersaturated (with crystals forming) when cooled. Write the steps clearly.",
+     "a": "A good answer includes: (1) Make saturated sugar solution at room temp by adding sugar until no more dissolves. (2) Divide into two glasses. (3) Heat one glass gently — observe no crystals, solution becomes unsaturated (can add more sugar). (4) Cool the other glass in refrigerator — observe sugar crystals forming (supersaturation then crystallisation). (5) Explain each observation using solubility-temperature relationship. A poor answer (e.g., just \"heat and cool\") reveals the student cannot translate the concept into a testable procedure or identify the control variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

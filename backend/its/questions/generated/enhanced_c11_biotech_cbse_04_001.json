@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_001",
+   "title": "c11_biotech_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the precise IUB class number and name for an enzyme that catalyzes the following reaction: ATP + glucose → ADP + glucose-6-phosphate. Justify your answer in one sentence by identifying the specific group transferred.",
+     "a": "Class 2: Transferases. The enzyme transfers a phosphoryl group (PO₃²⁻) from ATP (donor) to glucose (acceptor), which is the defining characteristic of transferases. A wrong answer (e.g., \"kinase\" or \"Class 1 Oxidoreductase\") reveals the student confuses common enzyme names with systematic IUB classes, or misidentifies phosphorylation as a redox reaction because ATP is involved.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All enzymes are proteins, so if you treat any enzyme with a protease, it will lose all activity permanently.\" Using the concepts of ribozymes, holoenzymes, and prosthetic groups, explain why this statement is incorrect in three distinct ways.",
+     "a": "The statement is incorrect because: (1) Ribozymes are catalytic RNA molecules, not proteins, and are resistant to proteases. (2) Holoenzymes require non-protein cofactors; protease digestion destroys the apoenzyme but the cofactor (e.g., metal ion) remains intact, though inactive without the protein scaffold. (3) Prosthetic groups are covalently bound cofactors; protease cleavage may release the prosthetic group still attached to a peptide fragment, which could retain partial activity or spectral properties. A wrong answer focusing only on \"enzymes are proteins\" reveals the student has not internalized the exceptions (ribozymes) and the modular nature of holoenzymes.",
+     "self_check": true
+    },
+    {
+     "q": "Carbonic anhydrase (EC 4.2.1.1) contains a Zn²⁺ ion essential for catalysis. If you treat the enzyme with 1,10-phenanthroline (a specific Zn²⁺ chelator), then dialyze the mixture against a buffer containing excess Zn²⁺, predict the enzymatic activity at each step and explain the structural basis for your prediction.",
+     "a": "Step 1 (Native enzyme): Full activity – Zn²⁺ is tightly bound in the active site as a cofactor. Step 2 (After chelation): Zero activity – Zn²⁺ is removed, converting holoenzyme to inactive apoenzyme; the active site loses its catalytic metal center. Step 3 (After Zn²⁺ re-addition): Full activity restored – the apoenzyme correctly folds and rebinds Zn²⁺ spontaneously because the metal binding site is encoded in the protein's primary structure. A wrong answer predicting permanent loss after chelation reveals the student thinks metal cofactors are irreversibly bound like prosthetic groups, or that denaturation occurs during chelation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the physiological significance of isozymes (e.g., lactate dehydrogenase LDH-1 to LDH-5) with the concept of enzyme specificity (e.g., stereospecificity of D-amino acid oxidase). How do both concepts expand the functional diversity of the proteome without increasing gene number?",
+     "a": "Isozymes are different gene products (different amino acid sequences) that catalyze the SAME reaction but with different kinetic/regulatory properties (e.g., LDH-1 in heart favors lactate→pyruvate, LDH-5 in muscle favors pyruvate→lactate), allowing tissue-specific metabolic tuning. Specificity types (like stereospecificity) describe how a SINGLE enzyme discriminates between SIMILAR substrates (e.g., D- vs L-amino acids), enabling chiral selectivity in metabolism. Both expand functional diversity: isozymes via differential expression of multiple genes for one reaction; specificity via precise active site architecture that distinguishes substrates. A wrong answer conflating \"isozymes act on different substrates\" reveals confusion between multiple forms of one enzyme vs. one enzyme acting on multiple substrates (group specificity).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The IUB classification system is obsolete because modern bioinformatics classifies enzymes by sequence homology (e.g., Pfam domains) rather than reaction chemistry.\" Defend your position with two arguments supporting the IUB system's continued relevance in biotechnology and metabolic engineering.",
+     "a": "The IUB system remains essential because: (1) It directly links to reaction chemistry (EC numbers), which is the primary search criterion for metabolic pathway reconstruction and synthetic biology design—engineers need to know \"what reaction does this enzyme catalyze?\" before sequence details. (2) Convergent evolution produces enzymes with different sequences/folds catalyzing the same reaction (e.g., serine vs. cysteine proteases both EC 3.4.21); IUB class unifies them functionally, while sequence-based classification separates them. A wrong answer agreeing with obsolescence reveals the student misunderstands that classification by function (reaction type) serves a different purpose than classification by structure (homology), and both are complementary in biotechnology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical enzyme classification challenge: Create a new enzyme (give it a systematic name and EC number) that catalyzes a reaction not fitting neatly into the existing 7 classes. Describe the reaction, justify why it requires a new class or subclass, and propose how the IUB nomenclature committee should handle it.",
+     "a": "Example: \"ATP-dependent macromolecular translocase\" (EC 7.6.1.x) – catalyzes directional movement of a folded protein across a membrane using ATP hydrolysis, distinct from Class 7 (translocase) which moves ions/small molecules. Justification: The substrate is a macromolecule with complex tertiary structure requiring unfolding/refolding, involving mechanical work beyond simple ion translocation. Proposal: Create subclass 7.6 \"Macromolecule translocases\" under Class 7. A poor answer would force it into Class 3 (hydrolase) because ATP is hydrolyzed, missing that the primary reaction is mechanical translocation, not bond cleavage of the substrate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

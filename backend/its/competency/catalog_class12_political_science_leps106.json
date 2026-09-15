@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Environment and Natural Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.106.1",
+   "title": "Environment as a Political Question",
+   "section": "Environmental Concerns in Global Politics",
+   "definition": "Environmental concerns entered world politics as the effects of industrial growth - ozone depletion, global warming, resource depletion - crossed borders; since northern states industrialised first, questions of responsibility and equity divide rich and developing countries.",
+   "formula": "",
+   "key_idea": "The core clash is distributive: who bears the cost of saving a commons damaged mostly by the industrialised North?",
+   "textbook_ref": "leps106.txt environmental concerns and North-South divides sections",
+   "question_patterns": [
+    "name the global environmental issues of the chapter",
+    "why do North-South divides shape climate politics",
+    "explain the commons argument with examples",
+    "state the concerns of developing countries in climate talks",
+    "relate industrialisation to ecological footprints",
+    "define sustainable development in this context"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the issues",
+     "explain": "ozone, warming, biodiversity and resource loss head the agenda"
+    },
+    {
+     "step": 2,
+     "action": "read the divide",
+     "explain": "the North industrialised first; the South seeks development space"
+    },
+    {
+     "step": 3,
+     "action": "close with equity",
+     "explain": "common but differentiated responsibility frames the fairness debate"
+    }
+   ]
+  },
+  {
+   "id": "leps.106.2",
+   "title": "Global Commons and Conferences",
+   "section": "The Global Commons",
+   "definition": "The global commons - earth's atmosphere, Antarctica, ocean floor and outer space - lie outside national jurisdiction; the Antarctic Treaty of 1959 reserved the continent for peaceful science, and conferences from Stockholm 1972 to Rio 1992 and Kyoto 1997 built the regime of environmental agreements.",
+   "formula": "rio_to_kyoto = kyoto_year - rio_year",
+   "key_idea": "The Kyoto protocol followed the Rio earth summit by the difference of 1997 and 1992.",
+   "textbook_ref": "leps106.txt Antarctic Treaty 1959, Stockholm 1972, Rio 1992 and Kyoto 1997 sections",
+   "question_patterns": [
+    "define the global commons and list its components",
+    "what does the Antarctic Treaty provide",
+    "compute the years between the Rio summit and the Kyoto protocol",
+    "state the Stockholm conference's significance",
+    "explain common but differentiated responsibilities",
+    "evaluate the effectiveness of summit diplomacy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the summits",
+     "explain": "Rio 1992, Kyoto 1997",
+     "compute": "rio_year = 1992"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1997 - 1992 = five years between summit and protocol",
+     "compute": "rio_to_kyoto = kyoto_year - rio_year"
+    }
+   ]
+  },
+  {
+   "id": "leps.106.3",
+   "title": "Indigenous Peoples and Resource Rights",
+   "section": "Indigenous Peoples and their Rights",
+   "definition": "Indigenous peoples - whose homelands cross borders and whose cultures predate modern states - seek recognition of land and resource rights; their movements highlight how states and corporations appropriate forests, minerals and knowledge, and the UN declared an international day and decade for them.",
+   "formula": "",
+   "key_idea": "Indigenous claims turn environment into justice: protecting cultures means protecting the ecosystems they manage.",
+   "textbook_ref": "leps106.txt indigenous peoples' definition, voices and rights sections",
+   "question_patterns": [
+    "who are indigenous peoples and where do they live",
+    "what rights do indigenous movements demand",
+    "how do states and corporations threaten indigenous lands",
+    "state the UN's recognitions of indigenous peoples",
+    "relate indigenous knowledge to conservation",
+    "give examples of indigenous struggles from the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the peoples",
+     "explain": "descendants of original inhabitants across the Americas, Australia and beyond"
+    },
+    {
+     "step": 2,
+     "action": "list the claims",
+     "explain": "land titles, cultural survival and resource consent head their agenda"
+    },
+    {
+     "step": 3,
+     "action": "close with stewardship",
+     "explain": "their livelihoods often sustain the very biodiversity states seek to protect"
+    }
+   ]
+  },
+  {
+   "id": "leps.106.4",
+   "title": "Resource Geopolitics: Oil and Water",
+   "section": "Resource Geopolitics",
+   "definition": "Resources shape world politics: oil concentrates power in West Asia and the control of supply lines, and water - river basins like the Jordan, Tigris-Euphrates and the Indus - generates disputes where upstream and downstream states meet; competition for natural resources remains a driver of conflict.",
+   "formula": "",
+   "key_idea": "Whoever commands pipelines, straits and river heads commands leverage: resource geography is power geography.",
+   "textbook_ref": "leps106.txt oil politics, water disputes and regional competition sections",
+   "question_patterns": [
+    "explain oil's role in world politics and West Asia",
+    "name the river basins prone to water disputes",
+    "describe the Indus waters arrangement's significance",
+    "relate pipeline routes to geopolitical competition",
+    "state the concept of water as a strategic resource",
+    "evaluate cooperation possibilities over shared resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the oil",
+     "explain": "Western Asian reserves and sea lanes anchor energy geopolitics"
+    },
+    {
+     "step": 2,
+     "action": "trace the rivers",
+     "explain": "Jordan and Tigris-Euphrates basins fuel interstate water conflicts"
+    },
+    {
+     "step": 3,
+     "action": "close with treaties",
+     "explain": "the Indus treaty shows water sharing can survive rivalries"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps106_1",
+   "source_ref": "leps106.txt Rio and Kyoto dates",
+   "concept": "leps.106.2",
+   "question_type": "compute",
+   "question_pattern": "The Rio earth summit was held in 1992 and the Kyoto protocol in 1997. Compute the years between them.",
+   "extracted_variables": {
+    "rio_year": 1992,
+    "kyoto_year": 1997
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "Rio 1992, Kyoto 1997",
+     "compute": "rio_year = 1992"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1997 - 1992 = 5 years",
+     "compute": "rio_to_kyoto = kyoto_year - rio_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps106_2",
+   "source_ref": "leps106.txt commons section",
+   "concept": "leps.106.2",
+   "question_type": "short_answer",
+   "question_pattern": "Name the four global commons and why they need treaties.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "the commons",
+     "explain": "atmosphere, Antarctica, ocean floor and outer space"
+    },
+    {
+     "step": 2,
+     "action": "the problem",
+     "explain": "no state owns them, so each may overuse them"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "treaties like the Antarctic Treaty create shared rules"
+    }
+   ]
+  },
+  {
+   "id": "we_leps106_3",
+   "source_ref": "leps106.txt resource geopolitics section",
+   "concept": "leps.106.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain water as a strategic resource with one river-basin example.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scarcity meets power",
+     "explain": "upstream states control flow that downstream economies need"
+    },
+    {
+     "step": 2,
+     "action": "example",
+     "explain": "Jordan basin disputes tie water to regional conflict"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "water sharing becomes a test of cooperation, not just engineering"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps106_1",
+   "source_ref": "leps106.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "identify major global environmental concerns",
+    "compute the years between Rio and Kyoto conferences",
+    "describe the global commons and treaty protections",
+    "discuss indigenous peoples' movements and rights",
+    "analyse resource geopolitics of oil and water"
+   ]
+  },
+  {
+   "id": "ex_leps106_2",
+   "source_ref": "leps106.txt applied questions, reworded",
+   "questions": [
+    "argue the equity principle in climate negotiations",
+    "evaluate indigenous knowledge for sustainability",
+    "relate India's energy needs to resource geopolitics",
+    "assess summit diplomacy's environmental record",
+    "design a cooperative plan for a shared river basin"
+   ]
+  }
+ ]
+}

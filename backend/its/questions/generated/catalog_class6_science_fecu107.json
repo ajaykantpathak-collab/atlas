@@ -1,0 +1,208 @@
+{
+ "catalog": "catalog_class6_science_fecu107.json",
+ "concepts": [
+  {
+   "id": "fecu.7.1",
+   "title": "Hot, Cold and Temperature",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do we feel hot and cold?",
+     "a": "Our skin senses heat flowing in or out - but the sense can be misled, so we use thermometers.",
+     "self_check": true
+    },
+    {
+     "q": "Why is touching an unreliable way to compare temperatures?",
+     "a": "Cold water feels colder after hot water than it did before - the sense adapts.",
+     "self_check": true
+    },
+    {
+     "q": "What is temperature?",
+     "a": "The degree of hotness or coldness of a body, measured with a thermometer.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.2",
+   "title": "Thermometers: Clinical and Laboratory",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the two kinds of thermometers and their uses.",
+     "a": "Clinical thermometer for body temperature (35-42 deg C); laboratory thermometer for experiments (-10 to 110 deg C).",
+     "self_check": true
+    },
+    {
+     "q": "Why can a laboratory thermometer not measure fever?",
+     "a": "It has no kink and a wide range - reading a body temperature would be inconvenient and inaccurate.",
+     "self_check": true
+    },
+    {
+     "q": "What liquid is commonly used in thermometers?",
+     "a": "Mercury (older ones) and coloured alcohol (spirit) in many modern ones.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.3",
+   "title": "Celsius, Fahrenheit and Kelvin Scales",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "times_nine_fifths",
+     "expr": "1.8 * deg_c",
+     "explain": "each degree Celsius is 1.8 degrees Fahrenheit"
+    },
+    {
+     "step": 2,
+     "name": "temp_kelvin",
+     "expr": "deg_c + 273",
+     "explain": "the same temperature in kelvin"
+    },
+    {
+     "step": 3,
+     "name": "deg_f",
+     "expr": "times_nine_fifths + 32",
+     "explain": "add 32 for the Fahrenheit offset"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Convert 37 deg C (body temperature) into degrees Fahrenheit.",
+     "vals": {
+      "deg_c": 37
+     },
+     "unit": "deg F",
+     "steps": null,
+     "a": "98.6 deg F",
+     "self_check": false
+    },
+    {
+     "q": "Water boils at 100 deg C. What is this in deg F?",
+     "vals": {
+      "deg_c": 100
+     },
+     "unit": "deg F",
+     "steps": null,
+     "a": "212 deg F",
+     "self_check": false
+    },
+    {
+     "q": "Change 0 deg C (freezing point) into Fahrenheit.",
+     "vals": {
+      "deg_c": 0
+     },
+     "unit": "deg F",
+     "steps": null,
+     "a": "32 deg F",
+     "self_check": false
+    },
+    {
+     "q": "A hot summer day is 40 deg C. Convert to deg F.",
+     "vals": {
+      "deg_c": 40
+     },
+     "unit": "deg F",
+     "steps": null,
+     "a": "104 deg F",
+     "self_check": false
+    },
+    {
+     "q": "A pleasant day reads 25 deg C. What is it in deg F?",
+     "vals": {
+      "deg_c": 25
+     },
+     "unit": "deg F",
+     "steps": null,
+     "a": "77 deg F",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.4",
+   "title": "Reading a Fever: Rise above Normal",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "body_f",
+     "expr": "1.8 * body_temp + 32",
+     "explain": "body temperature in deg F"
+    },
+    {
+     "step": 2,
+     "name": "normal_f",
+     "expr": "1.8 * normal_temp + 32",
+     "explain": "normal temperature in deg F"
+    },
+    {
+     "step": 3,
+     "name": "rise",
+     "expr": "body_temp - normal_temp",
+     "explain": "fever is measured as the rise above normal body temperature"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A patient's temperature is 39 deg C. Normal body temperature is 37 deg C. Find the rise.",
+     "vals": {
+      "body_temp": 39,
+      "normal_temp": 37
+     },
+     "unit": "deg C",
+     "steps": null,
+     "a": "2 deg C",
+     "self_check": false
+    },
+    {
+     "q": "A child's fever reads 38.5 deg C against a normal of 37 deg C. How much is the rise?",
+     "vals": {
+      "body_temp": 38.5,
+      "normal_temp": 37
+     },
+     "unit": "deg C",
+     "steps": null,
+     "a": "1.5 deg C",
+     "self_check": false
+    },
+    {
+     "q": "A thermometer shows 40 deg C. Calculate the fever rise above 37 deg C.",
+     "vals": {
+      "body_temp": 40,
+      "normal_temp": 37
+     },
+     "unit": "deg C",
+     "steps": null,
+     "a": "3 deg C",
+     "self_check": false
+    },
+    {
+     "q": "Body temperature is 38.2 deg C; normal is 37 deg C. Find the rise.",
+     "vals": {
+      "body_temp": 38.2,
+      "normal_temp": 37
+     },
+     "unit": "deg C",
+     "steps": null,
+     "a": "1.2 deg C",
+     "self_check": false
+    },
+    {
+     "q": "After medicine the fever came down to 37.5 deg C. What rise above the normal 37 deg C still remains?",
+     "vals": {
+      "body_temp": 37.5,
+      "normal_temp": 37
+     },
+     "unit": "deg C",
+     "steps": null,
+     "a": "0.5 deg C",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

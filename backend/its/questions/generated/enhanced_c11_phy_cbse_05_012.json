@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_012",
+   "title": "c11_phy_cbse_05_012",
+   "questions": [
+    {
+     "q": "State the SI unit of power and write the formula for average power in terms of work and time.",
+     "a": "The SI unit of power is the watt (W), where 1 W = 1 J/s. Average power is given by P_avg = W / t, where W is work done (J) and t is time interval (s). A wrong answer (e.g., giving unit as joule or newton) reveals confusion between work and power, or missing the time aspect of power.",
+     "self_check": true
+    },
+    {
+     "q": "A constant force of 10 N acts on a block moving at a constant velocity of 2 m/s in the direction of the force. What is the instantaneous power delivered by the force? Explain why this equals the average power over any interval.",
+     "a": "Instantaneous power P = F·v = (10 N)(2 m/s) = 20 W. Since both force and velocity are constant, the work done in any interval Δt is W = F·v Δt, so average power = W/Δt = F·v = 20 W, same as instantaneous. A student who says \"average power is different\" misunderstands that constancy of F and v makes the rate of work uniform.",
+     "self_check": true
+    },
+    {
+     "q": "A particle of mass 2 kg moves along the x-axis such that its velocity varies with time as v(t) = 3t^2 m/s. A net force F(t) = 12t N acts on it in the direction of motion. Calculate the instantaneous power at t = 2 s.",
+     "a": "At t = 2 s, v = 3(2)^2 = 12 m/s, F = 12(2) = 24 N. Instantaneous power P = F·v = (24 N)(12 m/s) = 288 W. Unit check: N·m/s = J/s = W. A wrong answer (e.g., using average force or velocity) shows the student does not grasp that instantaneous power uses values at a specific instant.",
+     "self_check": true
+    },
+    {
+     "q": "A force F = (3i + 4j) N acts on a particle moving with velocity v = (2i - 1j) m/s. Compute the instantaneous power. Is the kinetic energy increasing or decreasing at this instant?",
+     "a": "P = F·v = (3)(2) + (4)(-1) = 6 - 4 = 2 W. Since P > 0, kinetic energy is increasing (dK/dt = P > 0). A student who computes magnitude of force times magnitude of velocity (5 × √5 ≈ 11.2 W) ignores the dot product and the angle between vectors, a common vector algebra error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a car engine delivers a constant power of 50 kW, the force exerted by the engine on the car is constant at all speeds.\" Evaluate this statement.",
+     "a": "The statement is false. For constant power P, force F = P/v. As speed v increases, force F must decrease to keep P constant. At low speeds, the force is large; at high speeds, it is small. A student who agrees confuses constant power with constant force, not understanding the inverse relationship between force and velocity for constant power.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a trolley, and a stopwatch to estimate the average power you exert while pulling the trolley horizontally at constant speed over a distance of 5 m. List the measurements needed and the formula you would use.",
+     "a": "Measure the constant pulling force F (spring balance reading in N), the time t taken to cover 5 m (stopwatch), and verify constant speed. Average power = Work/time = (F × 5 m) / t. A good answer includes checking that the force is horizontal and speed is constant (so net force zero, applied force equals friction). A poor answer omits the need for constant speed or forgets to multiply force by distance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

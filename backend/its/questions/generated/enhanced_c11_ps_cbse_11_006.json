@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_006",
+   "title": "c11_ps_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the maximum period for which a person can be detained under a preventive detention law without obtaining the opinion of an Advisory Board, as mandated by Article 22(4) of the Constitution?",
+     "a": "The maximum period is three months. Article 22(4) explicitly states that no law providing for preventive detention shall authorize detention for a longer period than three months unless an Advisory Board, consisting of persons qualified to be appointed as High Court judges, has reported before the expiration of that period that there is sufficient cause for such detention. A wrong answer (e.g., \"six months\" or \"no limit\") reveals a confusion between the initial executive detention power and the constitutional check imposed by the Advisory Board requirement, or a conflation with the maximum period allowed under specific statutes like the NSA (which can be up to 12 months *with* the Board's opinion).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Constitution makers included the \"right to be informed of the grounds of detention\" (Article 22(5)) as a safeguard for preventive detention, but simultaneously allowed the state to withhold facts considered \"against the public interest to disclose.\"",
+     "a": "The right to know grounds enables the detenu to make an effective representation (Article 22(5)), which is the only meaningful remedy available since preventive detention lacks a judicial trial. However, the \"public interest\" exception acknowledges that preventive detention often relies on intelligence inputs (sources, methods, ongoing investigations) whose disclosure could compromise national security or public order – the very grounds for detention. A wrong answer (e.g., \"the state can hide anything it wants\" or \"the detenu must always get all details\") shows a failure to grasp the constitutional balancing act: the safeguard is real but qualified, and the judiciary (not the executive alone) ultimately decides the validity of the \"public interest\" claim in a habeas corpus petition.",
+     "self_check": true
+    },
+    {
+     "q": "A person is detained under the Conservation of Foreign Exchange and Prevention of Smuggling Activities Act (COFEPOSA) for alleged smuggling. The detaining authority provides the grounds of detention but withholds the identity of the secret informant, citing \"public interest.\" The detenu challenges this in the High Court via a habeas corpus petition. Applying Article 22(5) and Supreme Court precedent, analyze whether the non-disclosure of the informant's identity vitiates the detention order.",
+     "a": "The detention order is not automatically vitiated. Under Article 22(5), the authority must communicate grounds \"as soon as may be,\" but facts \"which the authority considers to be against the public interest to disclose\" need not be revealed. The Supreme Court (e.g., in *Dropti Devi v. Union of India* and *A.K. Roy v. Union of India*) has held that the *substance* of the grounds must be conveyed so the detenu can make an effective representation. If the informant's identity is withheld but the specific allegations (dates, items, modus operandi) are provided, the detention stands. However, if the withheld fact is the *only* basis for the allegation and the detenu cannot rebut it, the Court may quash the order. A wrong answer (e.g., \"any non-disclosure invalidates detention\" or \"the state has absolute privilege\") ignores the judicial doctrine of \"effective representation\" and the proportionality test applied to the \"public interest\" exception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and function of the Advisory Board under Article 22(4) with a regular criminal trial court. Identify three structural differences that make the Advisory Board a weaker safeguard for the detenu.",
+     "a": "Three structural differences: (1) **Composition**: The Advisory Board consists of persons qualified to be High Court judges (usually serving/retired judges), but they function as an administrative body, not a judicial court; there is no guarantee of independence from the executive in the same way as the judiciary. (2) **Procedure**: The Board follows no strict rules of evidence; the detenu has no right to legal representation (Article 22(3)(b) explicitly denies this for preventive detention), no right to cross-examine witnesses, and often no access to the full material against them. (3) **Standard of Review**: The Board only opines on whether there is \"sufficient cause\" for detention (a subjective satisfaction standard), not whether the detention is \"beyond reasonable doubt\" or even on a \"preponderance of probabilities.\" A wrong answer focusing only on \"lawyers not allowed\" misses the deeper structural point: the Board is an executive check on the executive, not a judicial adjudication of guilt.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument: \"Preventive detention is a necessary evil for a young democracy facing internal security threats; the safeguards in Article 22 are sufficient to prevent misuse.\" Use the Constituent Assembly debates and post-independence judicial history to support your assessment.",
+     "a": "The argument is constitutionally defensible but historically contested. **In favor**: The Constituent Assembly (e.g., Sardar Patel, Alladi Krishnaswami Ayyar) argued that in a nascent state facing partition violence, communal riots, and princely state integration, preventive detention was a \"necessary evil\" to act *before* a crime occurs. The safeguards (Advisory Board, 3-month limit, representation) were deliberate insertions absent in colonial laws like the Rowlatt Act or Defence of India Rules. **Against**: Critics (e.g., H.V. Kamath, K.T. Shah) warned it creates a \"police state\" potential. Judicial history shows misuse: *A.K. Gopalan v. State of Madras* (1950) upheld the validity of preventive detention with minimal judicial review (procedure established by law); it took *Maneka Gandhi* (1978) to read \"due process\" into Article 21, and *A.K. Roy* (1982) to impose strict procedural compliance. The frequent re-promulgation of ordinances (e.g., NSA, TADA, POTA) and low conviction rates under UAPA suggest the \"safeguards\" often fail in practice. A poor evaluation treats this as a binary \"good/bad\" rather than a structural tension between Articles 21/22 and the Seventh Schedule (List I/III entries on preventive detention).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal to Article 22 that addresses the most criticized gap in preventive detention safeguards, while retaining the state's power to act against genuine threats to public order. Justify each change in one sentence.",
+     "a": "**Proposed Amendment to Article 22:**\n1. **Insert Clause (4A):** \"The Advisory Board shall consist of a sitting High Court Judge as Chairperson and two members appointed by the Chief Justice of that High Court.\" *Justification:* Removes executive control over Board composition, ensuring judicial independence.\n2. **Amend Clause (3)(b):** Delete the words \"preventive detention\" from the exception to the right to legal counsel. *Justification:* The complexity of NSA/UAPA cases makes effective representation impossible without a lawyer; the denial of counsel violates the principle of equality before law (Article 14).\n3. **Insert Clause (7A):** \"No preventive detention order shall remain in force beyond six months unless confirmed by a High Court on merits.\" *Justification:* Replaces the Advisory Board's opinion with judicial confirmation for long-term detention, aligning with *Maneka Gandhi*'s \"fair, just, and reasonable procedure.\"\nA poor answer proposes vague changes (\"make it fairer\") or abolishes preventive detention entirely (ignoring the prompt's constraint to retain state power), showing an inability to design institutional checks within a constitutional framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

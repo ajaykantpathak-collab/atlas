@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_5",
+   "title": "c9_bio_ch1_5",
+   "questions": [
+    {
+     "q": "Define the term \"nuclear pore complex\" and state its primary function in a eukaryotic cell.",
+     "a": "The nuclear pore complex (NPC) is a large protein assembly embedded in the nuclear envelope that forms aqueous channels allowing selective, regulated transport of macromolecules (proteins, RNA) between nucleus and cytoplasm. A wrong answer (e.g., \"pores let anything pass freely\" or \"pores are only in plant cells\") reveals the student thinks nuclear transport is passive diffusion or confuses nuclear pores with plasmodesmata in plant cell walls.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the nucleolus disappears during prophase of mitosis and reappears in telophase, linking this to its function.",
+     "a": "The nucleolus is the site of ribosomal RNA transcription and ribosomal subunit assembly; during prophase, chromatin condenses into chromosomes and transcription halts, so the nucleolus disassembles. In telophase, chromosomes decondense, rRNA genes become active again, and nucleoli reform around nucleolar organizer regions. A wrong answer (e.g., \"nucleolus moves to cytoplasm\" or \"nucleolus divides like chromosomes\") shows the student views nucleolus as a static structure rather than a dynamic, transcription-dependent body.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cultured human cells with a drug that inhibits nuclear export receptors (exportins). Predict the effect on cytoplasmic protein synthesis after 4 hours and justify your prediction.",
+     "a": "Cytoplasmic protein synthesis will decrease because mature mRNA cannot exit the nucleus to reach ribosomes; tRNA and ribosomal subunits (assembled in nucleolus) also fail to reach cytoplasm. Step 1: Drug blocks exportins → Step 2: mRNA, tRNA, ribosomal subunits accumulate in nucleus → Step 3: Cytoplasmic ribosomes lack new mRNA templates and components → Step 4: Translation slows/stops. A wrong answer (e.g., \"protein synthesis increases because mRNA stays in nucleus\") reveals confusion between transcription (nuclear) and translation (cytoplasmic) compartments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chromatin organization in a human neuron (non-dividing) versus a rapidly dividing intestinal epithelial cell. How does this relate to their metabolic activities?",
+     "a": "Neurons show predominantly euchromatin (loose, transcriptionally active) with scattered heterochromatin, reflecting high gene expression for synaptic proteins; intestinal epithelial cells show more condensed chromatin overall with dynamic euchromatin/heterochromatin transitions during cell cycle phases, balancing division-related gene expression with differentiation. A wrong answer (e.g., \"both have same chromatin because same DNA\") ignores that chromatin state is dynamic and cell-type-specific, not just DNA sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student claims: \"The nucleus controls everything in the cell because it contains DNA, so if you remove the nucleus, the cell dies immediately.\" Evaluate this statement with evidence from enucleation experiments (e.g., red blood cells, cytoplasts).",
+     "a": "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins, but cannot synthesize new proteins or adapt to changes, leading to eventual death. Step 1: Nucleus removed → Step 2: No new transcription → Step 3: Existing mRNA/proteins degrade over time → Step 4: Cell loses homeostasis → Step 5: Death. A wrong evaluation (e.g., \"cell dies instantly\" or \"cell lives forever\") shows lack of understanding of mRNA/protein half-life and the distinction between genetic control and metabolic maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using acetocarmine stain and onion root tips to demonstrate that the nucleolus is the site of ribosomal RNA synthesis. Include control, observation, and inference.",
+     "a": "Good answer: Treat root tips with actinomycin D (low dose inhibits rRNA synthesis) vs. untreated control; stain with acetocarmine; observe nucleolus size/number under microscope. Treated: nucleoli shrink/disappear; control: prominent nucleoli. Inference: Nucleolus integrity depends on active rRNA transcription. Poor answer (e.g., \"just stain and look\") reveals inability to design controlled experiments linking structure to function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

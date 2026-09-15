@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_011",
+   "title": "c12_hs_cbse_03_011",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the three models of disability (medical, social, and bio-psycho-social) and state the core belief of each in one sentence.",
+     "a": "Correct answer: Medical model — disability is a problem within the individual that needs to be cured or fixed; Social model — disability is created by societal barriers (physical, attitudinal, systemic) that exclude people with impairments; Bio-psycho-social model (ICF framework) — disability results from the interaction between a person's health condition and contextual factors (environmental and personal). A wrong answer that equates all three models or describes only the medical model reveals the student has memorised terminology without grasping the paradigm shift from \"fixing the person\" to \"removing barriers\" — the conceptual foundation for inclusion policy.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: A school principal says, \"We practice inclusion — we admit children with disabilities and they sit in regular classes with a shadow teacher.\" Explain why this description aligns more with integration than inclusion, using the concepts of systemic change and barrier removal.",
+     "a": "Correct answer: Integration places the child in an existing system unchanged, expecting the child to adapt (often with a shadow teacher as a \"human crutch\"). Inclusion requires the system itself to transform — curriculum, pedagogy, assessment, physical environment, and teacher beliefs — so that barriers are removed at the source. The principal's statement reveals integration because: (a) the burden of adaptation remains on the child (via shadow teacher), (b) no mention of curricular flexibility or universal design for learning, (c) no systemic teacher training or policy change. A wrong answer that calls this \"inclusion\" shows the student conflates physical placement with philosophical and structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A Class 5 student with low vision (visual acuity 6/60 with correction) struggles to read the blackboard and standard textbook print. Using the RPWD Act 2016 categories and the principle of reasonable accommodation, specify three specific accommodations the school must provide, citing the relevant Act provision.",
+     "a": "Correct answer: Under RPWD Act 2016, low vision falls under \"Visual Impairment\" (Section 2(zc), Schedule). Reasonable accommodations (Section 2(y)) the school must provide: (1) Large print textbooks (minimum 18-point font) and high-contrast worksheets — addresses curricular barrier; (2) Preferential seating near board with adjustable lighting and glare reduction — addresses physical/environmental barrier; (3) Extra time (25% additional) in examinations and option for oral assessment — addresses assessment barrier. Each accommodation must be documented in an Individualised Education Plan (IEP). A wrong answer suggesting only \"give glasses\" or \"sit in front\" misses the legal mandate for systemic, documented, multi-barrier accommodations.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the identification processes for intellectual disability (ID) and specific learning disability (SLD) in the Indian context. Why is SLD often identified later than ID, and what are the consequences of this delay for inclusive education?",
+     "a": "Correct answer: ID identification relies on standardised IQ testing (typically <70) and adaptive behaviour deficits, often detectable by age 3-5 through developmental milestones. SLD identification requires a discrepancy model or response-to-intervention (RTI) approach — average/above IQ but specific deficits in reading/writing/math despite adequate instruction, typically evident only when academic demands increase (Class 3-5). Delayed SLD identification occurs because: (a) no visible physical markers, (b) children compensate initially, (c) lack of teacher training in early screening tools, (d) stigma around \"learning disability\" labels. Consequences: (1) Cumulative academic gap widens (Matthew effect), (2) Secondary emotional/behavioural issues develop (learned helplessness), (3) Missed critical window for foundational literacy intervention. A wrong answer attributing delay solely to \"parental neglect\" ignores systemic screening gaps and the invisible nature of SLD.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: \"Special schools should be phased out completely because inclusion means all children must learn in mainstream schools.\" Critique this statement using the RPWD Act 2016, the concept of continuum of services, and the principle of least restrictive environment (LRE).",
+     "a": "Correct answer: The statement is an oversimplification that violates the principle of Least Restrictive Environment (LRE) — inclusion is a continuum, not a single placement. RPWD Act 2016 (Section 16, 17, 31) mandates inclusive education but also recognises special schools for children who need intensive support (e.g., severe-profound ID, multiple disabilities with high support needs). Phasing out special schools entirely would deny choice and appropriate support to children who currently benefit from specialised environments. The ethical stance: mainstreaming with adequate support is the default; special school placement is a temporary, reviewed decision when mainstream cannot meet needs even with maximum accommodation. A wrong answer agreeing fully ignores legal nuance and the diversity of support needs; a wrong answer disagreeing fully ignores the inclusion mandate. The critique must balance rights, pragmatism, and individualised decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a one-page \"Inclusion Readiness Checklist\" for a mainstream primary school teacher to self-assess their classroom's inclusivity for a new student with autism spectrum disorder (ASD). Include 8 items across physical, curricular, social, and communication domains with observable indicators.",
+     "a": "A strong answer includes: Physical — (1) Defined quiet corner with sensory regulation tools (observable: tent, noise-cancelling headphones, fidget tools accessible); (2) Visual schedule displayed at eye level (observable: pictorial schedule with Velcro, updated daily). Curricular — (3) Task analysis sheets for multi-step activities (observable: broken-down steps with visuals for math/language tasks); (4) Alternative output options documented in lesson plans (observable: typing, drawing, oral response, scribe options listed). Social — (5) Structured peer buddy system with defined roles (observable: buddy chart, weekly rotation, teacher modelling); (6) Explicit social skills instruction embedded in routine (observable: 10-min daily circle time with social script practice). Communication — (7) AAC (Augmentative and Alternative Communication) system available and modelled (observable: PECS book/Proloquo2Go on tablet, teacher uses it); (8) Consistent transition cues (observable: 5-min visual timer, verbal+visual warning, transition song). A poor answer lists vague items like \"be patient\" or \"give extra help\" without observable, measurable indicators — revealing the student cannot translate inclusion principles into actionable classroom practices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

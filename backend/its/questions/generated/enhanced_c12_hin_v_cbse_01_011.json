@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_01_011",
+   "title": "c12_hin_v_cbse_01_011",
+   "questions": [
+    {
+     "q": "Identify the tense and aspect of the verb form \"मBkbZ\" (from the opening sentence \"iarth us vkf[kjh I+kQkby dk yky iQhrk ck¡èkdj fuxkg es”k ls mBkbZ\") and state its primary narrative function in Hindi prose.",
+     "a": "The form \"मBkbZ\" is the simple past (सामान्य भूतकाल), masculine singular, of the verb \"मBकना\" (to sit/set out). Its narrative function is to establish the primary timeline — the \"story now\" — against which flashbacks (past perfect) and habitual actions (imperfective) are contrasted. A wrong answer (e.g., calling it past perfect or present) reveals the student cannot distinguish the backbone tense of Hindi narration, leading to confusion when the text shifts to earlier events like the friend's retirement.",
+     "self_check": true
+    },
+    {
+     "q": "In the dialogue \"¶vki yksxksa dh ns[kkns[kh lsD'ku dh ?kM+h Hkh lqLr gks xbZ gS!¸\", the speaker uses \"vki\" (आप) and the verb \"gks xbZ gS\" (हो गई है). Explain why the speaker chooses \"vki\" instead of \"तुम\" or \"तू\", and what the perfective aspect \"गई है\" adds to the meaning that simple past \"गई\" would not.",
+     "a": "\"vki\" marks respectful distance appropriate for addressing an older retired officer (;'kksèkj ckcw) — using \"तुम\" would imply inappropriate intimacy or disrespect. The perfective \"गई है\" (present perfect) signals current relevance: the completion of the house is a present fact with ongoing implications (they can now live in it), whereas simple past \"गई\" would treat it as a closed past event. A student who says \"both mean the same\" misses the aspectual nuance that Hindi uses to manage information flow.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following reported speech into direct speech, preserving the honorific level and aspect: \";'kksèkj ckcw us dgk fd og vius DokVZj esa cSBdj dksbZ çopu lquuk pkgrs gSaA\" (The retired gentleman said that he wanted to listen to some music sitting in his office.) Ensure the pronoun and verb agreement reflect the original speaker's self-reference.",
+     "a": "Correct rewrite: \";'kksèkj ckcw bole, ¶eSaus vius DokVZj esa cSBdj dksbZ çopu lquuk pkgrs gSaA¸\" (First person \"eSaus\" with ergative \"us\" because \"चाहना\" takes ergative in perfective; verb \"pkgrs gSa\" agrees with masculine plural honorific \"हम\" — the speaker referring to himself respectfully). Common error: using \"मैं\" instead of \"eSaus\" or \"चाहता हूँ\" instead of \"चाहते हैं\" — shows failure to track honorific self-reference in reported speech conversion.",
+     "self_check": true
+    },
+    {
+     "q": "The text uses the idiomatic phrase \"legkm baçkij\" (लेगकम बाजकिज) repeatedly. Analyze how this fixed expression functions grammatically (as a single lexical unit) and pragmatically (as a character tag) for ;'kksèkj ckcw. Contrast with a literal paraphrase like \"नियम के अनुसार\".",
+     "a": "Grammatically, \"लेगकम बाजकिज\" acts as an indeclinable adverbial phrase (अविकारी अव्यय) — it never inflects for gender/number/case. Pragmatically, it serves as a verbal tic revealing the protagonist's bureaucratic mindset: he reduces complex human situations to rule-following. The literal paraphrase \"नियम के अनुसार\" lacks the colloquial, almost mocking flavor of the English loan blend, which marks him as a relic of colonial administration. A student who only translates the meaning misses the characterization function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to use the passive construction \"mUgksaus nÝ+rj dh ?kM+h dks gh lqLr Bgjk;k\" (He got the friend's house built) instead of the active \"उसने नीरज का घर बनवाया\". What does the causative-passive \"बनवाया गया\" (implied by \"घर को बनवाया\") convey about agency and responsibility that the active hides?",
+     "a": "The causative-passive \"बनवाया\" (get built) shifts focus from the doer (the retired man) to the outcome (the house) and implies he arranged/funded it without manual labor — appropriate for a former officer who exercises authority through systems. The active \"बनवाया\" (built/caused to build) is ambiguous: it could mean he physically built it. The passive-clitic \"घर को\" (house as object) foregrounds the beneficiary (friend). A student who says \"passive is just formal\" misses the precise agency calibration Hindi causative-passive achieves.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue between ;'kksèkj ckcw and his wife where he uses \"legkm baçkij\" twice and she responds with a colloquial idiom (e.g., \"अंधेरे में तीर चलाना\"). Ensure pronoun choices reflect their marital intimacy (तुम/तू) but his bureaucratic habit leaks into the home register.",
+     "a": "Example:\n;'kksèkj ckcw: \"तुम खाना समय पर खाओ, लेगकम बाजकिज।\" (Honorific \"तुम\" for wife, but bureaucratic tag)\nWife: \"आप भी न, अंधेरे में तीर चलाते हो — घर में कोई ऑफिसर थोड़े है।\" (Uses \"आप\" respectfully but mocks his register)\n;'kksèkj ckcw: \"नियम घर में भी लागू होता है, लेगकम बाजकिज।\" (Persists in formal idiom)\nWife: \"चलो, अब सो जाओ, बड़ी बातें मत बनाओ।\" (Drops to intimate \"तुम\" implied, cuts through his jargon)\nA weak answer uses only \"आप/आप\" or misses the register clash — shows inability to map grammar to relationship dynamics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

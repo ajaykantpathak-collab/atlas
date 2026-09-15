@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_001",
+   "title": "c11_eng_s_cbse_05_001",
+   "questions": [
+    {
+     "q": "Who is the author of \"The Tale of Melon City\" and from which collection is this poem taken?",
+     "a": "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems.\" A wrong answer (e.g., naming another poet like Nissim Ezekiel or misidentifying the collection as \"The Golden Gate\") reveals the student hasn't read the introductory note carefully and misses the significance of Seth's formal verse satire in Indian English poetry.",
+     "self_check": true
+    },
+    {
+     "q": "What does the phrase \"After Idries Shah\" in the poem's subtitle indicate about its literary source?",
+     "a": "It indicates the poem is adapted from or inspired by a tale in Idries Shah's collections of Sufi teaching stories (like \"The Tale of the Melon City\" in \"Tales of the Dervishes\"), which use absurd narratives to convey wisdom about human folly. A wrong answer (e.g., \"It means Idries Shah wrote it\" or \"It's a translation\") shows confusion between adaptation and attribution, missing the intertextual dialogue central to postcolonial Indian English literature.",
+     "self_check": true
+    },
+    {
+     "q": "The introductory note asks: \"The king, in this poem, is 'just and placid.' Does he carry his notion of justice a bit too far?\" Predict how a \"just and placid\" king's rigid adherence to procedure could lead to absurd outcomes in a satirical narrative.",
+     "a": "A \"just and placid\" king who follows procedure without wisdom will mechanically apply laws to the letter, ignoring context, leading to cascading blame-shifting (builders → workmen → masons → architect → king himself) and ultimately executing himself to satisfy the process. A wrong prediction (e.g., \"he will wisely solve the problem\") reveals the student expects conventional heroic narrative logic, not satirical inversion where virtue becomes vice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the framing of justice in this poem's introduction with the concept of \"nyaya\" in Indian philosophical tradition (e.g., as discussed in Class 11 Political Theory). How might the poem critique a purely procedural view of justice?",
+     "a": "The poem exposes the gap between procedural justice (following rules exactly) and substantive justice (fair outcomes), mirroring the Indian distinction between \"vyavaharika nyaya\" (legalistic justice) and \"paramarthika nyaya\" (true justice). The king's mechanical \"justice\" produces injustice, satirizing systems where due process becomes a ritual divorced from equity. A weak answer treats the poem as mere humor without linking to philosophical concepts, missing the layered critique.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of using a narrative poem in rhyming couplets (aa bb cc...) for political satire versus a prose essay. What does the verse form add to the critique of bureaucratic absurdity?",
+     "a": "The sing-song couplets create a nursery-rhyme innocence that contrasts sharply with the dark absurdity (hanging the king, crowning a melon), heightening irony through tonal dissonance. The rigid form mirrors the rigid bureaucracy it mocks — each couplet a procedural step. A weak evaluation (e.g., \"it's easier to remember\") ignores how form enacts content, a key skill for Class 11 literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-stanza satirical verse (in rhyming couplets) about a modern Indian bureaucratic absurdity (e.g., Aadhaar linking, pothole repairs, exam paper leaks), imitating the tone and structure of \"The Tale of Melon City.\"",
+     "a": "A strong response uses aa bb couplets, a placid authority figure, escalating procedural absurdity, and a ludicrous resolution (e.g., \"The officer said, 'The form is wrong / The date of birth is far too long / Reject the child, accept the dog / The file is closed, goodbye, so long'\"). A weak response lacks rhythmic control, misses the escalating blame-shifting pattern, or fails to target systemic absurdity, showing incomplete internalization of the satirical mode.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_014",
+   "title": "c11_cs_cbse_02_014",
+   "questions": [
+    {
+     "q": "Draw the logic symbol for a 2-input XOR gate and write its truth table.",
+     "a": "The logic symbol is an OR gate with an additional curved line on the input side. Truth table: A B | Y; 0 0 | 0; 0 1 | 1; 1 0 | 1; 1 1 | 0. A wrong answer (e.g., outputting 1 for 11) reveals confusion between OR and XOR; the student thinks \"one or both\" instead of \"exactly one\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the XNOR gate is called the \"equivalence gate\" and give its Boolean expression for two inputs.",
+     "a": "XNOR outputs 1 when both inputs are equal (both 0 or both 1), hence it checks equivalence. Boolean expression: Y = AB + A'B' (or A ⊙ B). A wrong answer stating it outputs 1 when inputs are different confuses XNOR with XOR; the student has not grasped the complement relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Using only 2-input NAND gates, design a circuit that implements a 2-input XOR gate. Draw the circuit diagram and write the Boolean expression at each stage.",
+     "a": "Step 1: XOR = A'B + AB'. Step 2: Using De Morgan, A'B = (A + B')'? Actually standard NAND implementation: 4 NAND gates. Let N1 = (A·B)', N2 = (A·N1)', N3 = (B·N1)', Y = (N2·N3)'. Verify: N2 = (A·(AB)')' = A' + AB = A' + B (by absorption? Wait, need correct derivation). A wrong circuit with 3 NAND gates reveals the student doesn't know the minimal NAND implementation requires 4 gates and may have misapplied De Morgan's theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of a 3-input XOR and a 3-input XNOR. What pattern do you observe about the number of 1's in the input?",
+     "a": "For 3-input XOR, output is 1 when the number of 1's is odd (1 or 3). For 3-input XNOR, output is 1 when the number of 1's is even (0 or 2). A wrong answer stating XOR gives 1 for exactly one 1 (ignoring three 1's) shows the student incorrectly generalises from 2-input case; they haven't understood the parity property.",
+     "self_check": true
+    },
+    {
+     "q": "A half adder adds two bits A and B producing Sum and Carry. Justify why the Sum output is an XOR gate and the Carry output is an AND gate. Could you replace the XOR with an XNOR and invert one input to get the same Sum?",
+     "a": "Sum = A ⊕ B because binary addition: 0+0=0, 0+1=1, 1+0=1, 1+1=0 (carry 1). This matches XOR truth table. Carry = AB because carry is 1 only when both are 1. Yes, Sum = (A ⊙ B)' = A ⊕ B, so using XNOR with one inverted input works. A wrong answer saying Carry is OR reveals misunderstanding of binary addition; the student thinks 1+1=1 with carry 0.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-bit even parity generator using XOR gates. Draw the circuit and explain how it detects a single-bit error during transmission.",
+     "a": "Circuit: Three XOR gates cascaded: P = ((D1 ⊕ D2) ⊕ D3) ⊕ D4. The parity bit P is transmitted with data. At receiver, recompute parity on received 4 bits plus P; if result is 1, an odd number of bits flipped (single-bit error detected). A poor answer that uses XNOR gates or doesn't cascade properly shows the student doesn't understand parity as XOR reduction and error detection mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

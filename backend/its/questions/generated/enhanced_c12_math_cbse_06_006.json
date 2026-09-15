@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_006",
+   "title": "c12_math_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the formula for approximating Δy using differentials and explain what each symbol represents. Under what condition is this approximation valid?",
+     "a": "The formula is Δy ≈ dy = f'(x) dx, where Δy = f(x + Δx) - f(x) is the actual change in y, f'(x) is the derivative at x, and dx = Δx is a small change in x. The approximation is valid when Δx is sufficiently small (|Δx| → 0) and f is differentiable at x. A wrong answer like \"Δy = f'(x)Δx exactly\" reveals confusion between exact differential dy and actual change Δy — students often forget this is an approximation, not an equality, leading to errors in error estimation problems where they treat the differential as the true error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity.",
+     "a": "The tangent line approximates the curve well only in a small neighbourhood of the point of tangency because f(x) is locally linear — the curve and its tangent become indistinguishable as Δx → 0. For √26.3, Δx = 1.3 is small relative to x=25 (5.2% change), so the linear approximation is accurate. For √100 from x=25, Δx = 75 is huge (300% change); the curvature of √x accumulates significant error over this interval, making the tangent line a terrible approximation. A student who says \"it works for any Δx\" fails to understand that the approximation error grows with (Δx)² and higher-order terms — a classic JEE trap where they apply the formula blindly without checking if Δx is \"small enough.\"",
+     "self_check": true
+    },
+    {
+     "q": "Use differentials to approximate the value of (82)^(1/3). Show all steps including the choice of base point, derivative calculation, and final approximation. Compute the actual error if the true value is 4.34448.",
+     "a": "Let f(x) = x^(1/3). Choose x₀ = 8 (since 8^(1/3) = 2 exactly). Δx = 82 - 8 = 74. f'(x) = (1/3)x^(-2/3). f'(8) = (1/3)(8)^(-2/3) = (1/3)(1/4) = 1/12. dy = f'(8)Δx = (1/12)(74) = 74/12 = 37/6 ≈ 6.1667. Approximate value = f(8) + dy = 2 + 6.1667 = 8.1667. **Wait — this is clearly wrong!** The error is massive because Δx = 74 is NOT small. Correct approach: Choose x₀ = 64 (4³ = 64). Δx = 82 - 64 = 18. f'(64) = (1/3)(64)^(-2/3) = (1/3)(1/16) = 1/48. dy = (1/48)(18) = 18/48 = 3/8 = 0.375. Approximation = 4 + 0.375 = 4.375. Actual error = |4.375 - 4.34448| = 0.03052. Relative error ≈ 0.7%. A student choosing x₀=8 reveals they don't understand \"small Δx\" is relative to the function's curvature — they must pick a base point where |Δx| is small compared to x₀.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical balloon's radius is measured as 10 cm with a possible error of ±0.02 cm. Use differentials to estimate the maximum possible error in the calculated volume. Also find the relative error and percentage error in volume.",
+     "a": "Volume V = (4/3)πr³. dV = V'(r) dr = 4πr² dr. At r = 10 cm, dr = ±0.02 cm. |dV| = 4π(10)²(0.02) = 4π(100)(0.02) = 8π ≈ 25.13 cm³. Relative error = |dV|/V = (4πr² dr) / ((4/3)πr³) = 3(dr/r) = 3(0.02/10) = 0.006. Percentage error = 0.006 × 100% = 0.6%. A common error: students compute dV = 4πr² Δr but forget the 3 in relative error (writing dr/r instead of 3dr/r), or they use ΔV ≈ dV but then compute percentage error as (dV/V)×100 without simplifying to 3(dr/r)×100 — missing the elegant relationship that percentage error in volume = 3 × percentage error in radius for spheres.",
+     "self_check": true
+    },
+    {
+     "q": "A student approximates √15.9 using differentials with base point x₀ = 16. They write: f(x) = √x, f'(x) = 1/(2√x), f'(16) = 1/8. Δx = 15.9 - 16 = -0.1. dy = (1/8)(-0.1) = -0.0125. √15.9 ≈ 4 - 0.0125 = 3.9875. Is this correct? If not, identify the exact error and correct it.",
+     "a": "The method and arithmetic are correct, but the base point choice is problematic. f'(x) = 1/(2√x) is valid for x > 0. At x₀ = 16, Δx = -0.1 gives |Δx|/x₀ = 0.1/16 = 0.625% — this IS small, so the approximation is actually valid and accurate. The error is only in the student's potential thinking: if they chose x₀ = 9 (since √9=3), Δx = 6.9 would be huge (76.7% change), giving a terrible approximation. The given solution is mathematically sound. A student who flags this as \"wrong\" because \"Δx is negative\" reveals a misconception that differentials only work for positive increments — differentials handle negative Δx perfectly fine (the tangent line extends both ways). The approximation √15.9 ≈ 3.9875 is correct (actual: 3.98748...).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem where a manufacturing engineer must use differentials to estimate the maximum allowable error in measuring the radius of a cylindrical pipe so that the cross-sectional area error stays within 1%. Specify all given values and what needs to be found. Solve your own problem.",
+     "a": "**Problem:** A cylindrical pipe's cross-sectional area A = πr² must be manufactured with area error ≤ 1%. If the nominal radius is r = 5 cm, find the maximum allowable measurement error Δr in the radius.\n**Solution:** dA = A'(r) dr = 2πr dr. Relative error: |dA|/A = |2πr dr| / (πr²) = 2|dr|/r. Set 2|dr|/r ≤ 0.01 → |dr| ≤ 0.01r/2 = 0.01(5)/2 = 0.025 cm. Maximum allowable error = ±0.025 cm.\nA good answer shows: (1) correct formula for area, (2) differential relationship, (3) relative error derivation, (4) algebraic solution for dr, (5) units. A poor answer might use absolute error instead of relative, forget the factor of 2, or confuse radius with diameter — revealing they don't understand how relative errors propagate through power functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

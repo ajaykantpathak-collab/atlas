@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_003",
+   "title": "c10_bio_cbse_02_003",
+   "questions": [
+    {
+     "q": "Name the five components of a reflex arc in the correct sequence from stimulus to response.",
+     "a": "Correct sequence: Receptor → Sensory neuron → Interneuron (in spinal cord) → Motor neuron → Effector (muscle/gland). A wrong answer like \"Brain → Spinal cord → Muscle\" reveals the student thinks the brain initiates the reflex, confusing voluntary pathways with reflex arcs. Another common error is omitting the interneuron or placing it in the brain instead of the spinal cord.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the withdrawal reflex (pulling hand from hot object) occur *before* you consciously feel the pain?",
+     "a": "The reflex arc pathway (receptor → sensory neuron → interneuron in spinal cord → motor neuron → effector) bypasses the brain entirely for the motor response. The sensory signal *also* travels up the spinal cord to the brain, but this takes longer; the interneuron in the spinal cord immediately activates the motor neuron. A wrong answer like \"The brain sends the signal very fast\" shows the student does not grasp that the spinal cord interneuron is the decision point, not the brain.",
+     "self_check": true
+    },
+    {
+     "q": "A doctor taps the patellar tendon below a patient's kneecap with a rubber hammer, and the lower leg kicks forward. Identify the receptor, sensory neuron, interneuron location, motor neuron, and effector in this knee-jerk reflex arc.",
+     "a": "Receptor: Muscle spindle in quadriceps (detects stretch). Sensory neuron: Carries stretch signal to spinal cord (L2-L4). Interneuron: In spinal cord gray matter (synapses directly with motor neuron — monosynaptic). Motor neuron: Carries signal back to quadriceps. Effector: Quadriceps muscle contracts → leg extends. A wrong answer naming \"skin receptor\" or \"brain interneuron\" reveals confusion between cutaneous withdrawal reflex and deep tendon stretch reflex, and mislocation of the interneuron.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the neural pathway of a reflex action (touching a hot plate) with a voluntary action (deciding to pick up a pen). List three structural differences in the pathways.",
+     "a": "1) Reflex arc: Interneuron in spinal cord; Voluntary: Interneurons in brain (cerebrum/cerebellum). 2) Reflex arc: No conscious decision node; Voluntary: Prefrontal cortex evaluates and initiates. 3) Reflex arc: Single synapse (monosynaptic) or few synapses; Voluntary: Multiple synaptic relays across brain regions. A wrong answer focusing only on \"speed\" without naming the anatomical difference (spinal cord vs brain interneuron) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All quick responses are reflex actions. When a fielder catches a ball flying towards them, it is a reflex because it is fast.\" Evaluate this statement and explain why it is correct or incorrect.",
+     "a": "Incorrect. Catching a ball is a *learned voluntary skill* involving visual tracking, prediction, and motor planning in the cerebrum and cerebellum — not a reflex arc. Reflex actions are innate, stereotyped, and mediated by spinal cord interneurons without cerebral involvement. The fielder's response improves with practice; a reflex (e.g., knee-jerk) does not. A student agreeing reveals confusion between \"fast voluntary response\" and \"reflex action\" — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity to demonstrate that the knee-jerk reflex does not require the brain, using only a rubber hammer and a willing volunteer. Describe the procedure, observation, and the conclusion a Class 10 student should draw.",
+     "a": "Procedure: Volunteer sits with leg hanging freely. Tap patellar tendon sharply with rubber hammer. Observe: Leg kicks forward involuntarily. Repeat — response is identical each time. Ask volunteer: \"Did you decide to kick?\" Answer: No. Conclusion: The reflex arc (muscle spindle → sensory neuron → spinal cord interneuron → motor neuron → quadriceps) operates without brain command. A poor activity would test reaction time (ruler drop) which *does* involve the brain, confusing voluntary reaction with reflex.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

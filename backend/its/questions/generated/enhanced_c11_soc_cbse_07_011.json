@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_011",
+   "title": "c11_soc_cbse_07_011",
+   "questions": [
+    {
+     "q": "According to the 2011 Census, what percentage of India's population lived in urban areas, and how does this compare to the 1901 figure?",
+     "a": "The 2011 Census recorded 37.7% urban population, up from slightly less than 11% in 1901. A wrong answer (e.g., citing 28% from 2001 or confusing global 54% with India's figure) reveals the student is memorising isolated data points without understanding the historical trajectory of Indian urbanisation across Census decades.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states that \"size is not always decisive\" in distinguishing large villages from small towns. Explain what two criteria ARE used for the rural-urban distinction in economic and administrative terms.",
+     "a": "The two criteria are population density (persons per sq km) and the proportion of the workforce engaged in non-agricultural economic activities. A wrong answer focusing on total population size or infrastructure (roads, electricity) shows the student confuses administrative classification with sociological criteria, missing the textbook's explicit statement that large villages and small towns can have similar population sizes.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Punjab has 8,000 residents spread over 20 sq km, with 65% of workers in agriculture. A nearby settlement has 12,000 residents over 5 sq km, with 30% in agriculture. Using the textbook's criteria, classify each settlement and justify your classification.",
+     "a": "First settlement: Village (density = 400/sq km, low; 65% agricultural workforce, high). Second settlement: Town (density = 2,400/sq km, high; 30% agricultural workforce, low). A wrong classification (e.g., calling both villages because both have agriculture) reveals the student cannot apply the density and occupational criteria simultaneously, treating them as optional rather than joint definitional requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how social order is maintained in a traditional village versus a modern city. Specifically, contrast the role of \"lack of anonymity\" in villages with \"spatial management\" in cities as mechanisms of social control.",
+     "a": "In villages, lack of anonymity enables dominant castes to monitor and sanction dissent directly (everyone knows everyone), making social control personal and informal. In cities, high density and anonymity require formal spatial management – housing zones, transport systems, policing, sanitation – to maintain order, making control impersonal, institutional, and space-dependent. A wrong answer that says \"villages use caste, cities use police\" oversimplifies; the key contrast is personalised surveillance vs. systemic spatial organisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Gentrification improves urban neighbourhoods.\" Use the textbook's description of gentrification and its effects on different social groups to support your judgment.",
+     "a": "The statement is partially true but sociologically incomplete. Gentrification upgrades physical infrastructure and attracts investment (benefiting developers, new middle-class residents, city revenue), but displaces original lower-class residents through rising rents, erodes existing community networks, and often proceeds without democratic consultation. A one-sided \"yes\" or \"no\" answer reveals the student cannot weigh distributional consequences across social classes – a core sociological skill.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical but realistic scenario showing how a technological change in urban transport (e.g., a new Metro line) could trigger a chain of social changes in housing, commuting culture, and class relations in an Indian city. Describe at least three linked changes.",
+     "a": "Example: A new Metro line connects a distant suburb to the CBD. (1) Land prices near stations rise, triggering gentrification and displacement of low-income renters. (2) Middle-class families shift from cars to Metro, creating a new \"commuter culture\" (reading, podcasts, informal networks). (3) Commercial establishments cluster at stations, altering local economies and creating jobs but also informal vendor crackdowns. A poor answer lists isolated effects without showing causal links (transport → land value → displacement → new cultural practices), missing the systemic nature of urban social change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

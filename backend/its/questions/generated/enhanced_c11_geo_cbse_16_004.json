@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_004",
+   "title": "c11_geo_cbse_16_004",
+   "questions": [
+    {
+     "q": "State the three quantitative criteria used by the Census of India (since 1991) to define a 'Census Town' as distinct from a 'Statutory Town'.",
+     "a": "A Census Town requires: (1) minimum population of 5,000; (2) population density of at least 400 persons per sq km; (3) at least 75% of male main workforce engaged in non-agricultural activities. A Statutory Town is any place with a municipality, corporation, cantonment board, or notified town area committee, irrespective of these criteria. A wrong answer (e.g., citing only population size) reveals confusion between administrative and statistical definitions, leading to misinterpretation of urbanization data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 'tempo of urbanization' (rate of change of urbanization level) declined in India during 1981-1991 but increased sharply during 2001-2011, despite similar rural-urban migration volumes.",
+     "a": "The 1981-91 decline occurred because the Census definition changed in 1991 (introducing the 75% male workforce criterion), declassifying many towns. The 2001-11 surge was driven by massive reclassification of villages into Census Towns (especially in Kerala, West Bengal) due to workforce shifts, not just migration. A wrong answer attributing both to migration alone shows failure to distinguish between 'urbanization by migration' and 'urbanization by reclassification'.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the 'Urbanization Rate' (UR) and 'Tempo of Urbanization' (TU) for State X between 2001 and 2011. Interpret the result.\n| Year | Total Population | Urban Population |\n|------|------------------|------------------|\n| 2001 | 50 million       | 15 million       |\n| 2011 | 60 million       | 22 million       |",
+     "a": "Step 1: UR_2001 = (15/50)×100 = 30%; UR_2011 = (22/60)×100 = 36.67%.\nStep 2: Absolute increase in UR = 6.67 percentage points.\nStep 3: TU = (UR_2011 - UR_2001) / UR_2001 × 100 = (6.67/30)×100 = 22.23% per decade.\nStep 4: Interpretation: State X urbanized at a moderate tempo; the urban population grew faster (46.7% decadal growth) than total population (20%), indicating strong urban pull or reclassification. A wrong tempo calculation (e.g., using total population growth) reveals confusion between growth rates of urban population vs urbanization level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial pattern of urbanization in Kerala (high urbanization, low metro dominance) with Maharashtra (moderate urbanization, high metro dominance). Identify the geographical and historical factors causing this divergence.",
+     "a": "Kerala's pattern stems from high rural density, literacy, and remittance-driven rural non-farm employment converting villages into census towns (polycentric). Maharashtra's pattern reflects colonial port-city legacy (Mumbai), industrial corridors (Pune-Nashik), and strong rural-to-metro migration (monocentric). A wrong answer citing only 'industrialization' for both misses Kerala's unique 'urbanization without industrialization' driven by social development and Gulf remittances.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's low urbanization level (31.1% in 2011) compared to the global average (54%) indicates a failure of economic development.\" Use concepts of 'subaltern urbanization' and 'census town emergence' in your critique.",
+     "a": "The statement is flawed. India's urbanization is underestimated due to definitional rigidity (many 'rural' settlements are functionally urban). Subaltern urbanization (growth of small towns, census towns) absorbs rural surplus labor without metropolitan congestion. Kerala's 47.7% urbanization (2011) achieved via census towns shows high human development with low metropolitan stress. A wrong agreement reveals a Eurocentric view equating urbanization only with large-city growth, ignoring India's distinct 'in-situ' transition pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-indicator dashboard to monitor 'quality of urbanization' for a district that has rapidly transitioned from 20% to 40% urban in a decade (e.g., Bengaluru Rural). Justify each indicator's relevance to sustainable urban transition.",
+     "a": "1. **Slum Population %** (measures inclusivity); 2. **Water Supply LPCD** (service delivery); 3. **Non-Farm Workforce %** (economic base); 4. **Built-up Area Growth Rate vs Population Growth Rate** (sprawl vs densification); 5. **Air Quality Index (PM2.5)** (environmental sustainability). A poor answer listing only 'population size' or 'number of towns' ignores the multidimensional nature of urban quality emphasized in NITI Aayog's SDG Urban Index.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

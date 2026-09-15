@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_006",
+   "title": "c12_biotech_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the theoretical number of copies of a target DNA sequence after 30 PCR cycles if you start with a single double-stranded DNA molecule?",
+     "a": "Correct answer: 2³⁰ = 1,073,741,824 copies (≈ 1.07 × 10⁹). A wrong answer like 30² = 900 or 2 × 30 = 60 reveals the student thinks amplification is linear (adding 2 copies per cycle) rather than exponential (doubling per cycle). This is the most common board-exam error — confusing arithmetic with geometric progression.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the annealing temperature in PCR is typically set 3–5°C below the melting temperature (Tm) of the primers, rather than exactly at the Tm.",
+     "a": "Correct explanation: At Tm, 50% of primer-template duplexes are dissociated; setting Ta 3–5°C below Tm ensures >90% primers are stably bound, maximizing specific amplification. A wrong answer like “lower temperature makes primers bind faster” confuses kinetics with thermodynamics — the issue is equilibrium binding fraction, not speed. This misconception appears in NEET assertion-reason questions where students pick “both true but reason not correct” because they cite kinetics instead of equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a PCR with 10 ng of a 2 kb plasmid as template. After 25 cycles, they calculate the expected amplicon mass using N = N₀ × 2ⁿ and get 335 µg. The actual yield on a gel is only 50 ng. List three distinct biochemical reasons (not pipetting errors) why the observed yield is far lower than theoretical.",
+     "a": "Correct reasons: (1) Reagent limitation — dNTPs or primers become exhausted before 25 cycles, halting exponential growth. (2) Polymerase inactivation — Taq loses ~50% activity every 1–2 min at 95°C; after 25 cycles (≈50 min at 95°C cumulative), activity drops sharply. (3) Product inhibition — pyrophosphate (PPi) accumulates and inhibits polymerase; also long amplicons re-anneal faster than primers bind (C₀t effect). A wrong answer listing “contamination” or “wrong temperature” misses the *biochemical* saturation effects that are examinable in board long-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the denaturation step in PCR (94–95°C) with the denaturation of double-stranded DNA in a thermal melting curve experiment (gradual heating from 25°C to 95°C while monitoring A₂₆₀). What fundamental difference in *process* explains why PCR uses a sharp, fixed high temperature instead of a gradual ramp?",
+     "a": "Correct analysis: In a melting curve, equilibrium is maintained at each temperature, allowing observation of cooperative domain melting. In PCR, denaturation must be *complete and rapid* within 15–30 s to prevent primer binding during the ramp and to keep cycle time short; a gradual ramp would allow non-specific primer annealing during the transition. A wrong answer focusing only on “speed” misses the kinetic competition between specific primer annealing and non-specific template re-annealing — a classic JEE Advanced concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: “Using a proofreading polymerase (e.g., Pfu) instead of Taq always gives better PCR results because it has higher fidelity.” Provide a justified judgment with two specific scenarios where Taq is actually preferred.",
+     "a": "Judgment: The claim is false. (1) Taq leaves 3' A-overhangs essential for TA-cloning vectors (pGEM-T, pCR2.1); Pfu produces blunt ends requiring extra A-tailing step. (2) Taq’s lower fidelity is irrelevant for applications like colony PCR or genotyping where exact sequence isn’t needed, and its faster extension rate (≈60 bases/s vs Pfu’s ≈20 bases/s) shortens run time. A wrong answer that only cites “cost” or “availability” fails to address the *molecular mechanism* (A-overhangs, extension rate) that examiners expect in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step PCR protocol (combining annealing and extension) for amplifying a 150 bp GC-rich (70% GC) target from human genomic DNA. Specify the two temperatures, hold times, and justify each choice based on polymerase kinetics and template stability.",
+     "a": "Expected protocol: Step 1: 95°C for 15 s (denaturation). Step 2: 70°C for 30 s (combined annealing/extension). Justification: High GC raises Tm; primers designed for 70°C Ta ensure specificity. At 70°C, Taq retains ~80% activity (extension rate ~50 bases/s), so 30 s is sufficient for 150 bp (3 s theoretical). A poor answer uses 72°C for extension — that would melt high-Tm primers, causing failure. This tests ability to *create* a protocol from first principles, a NEET-level skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

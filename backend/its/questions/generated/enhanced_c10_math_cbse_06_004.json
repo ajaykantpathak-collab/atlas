@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_004",
+   "title": "c10_math_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the Converse of Basic Proportionality Theorem with all necessary conditions. In ΔPQR, a line intersects PQ at S and PR at T. What specific ratio equality must hold to conclude ST ∥ QR?",
+     "a": "The Converse of BPT: If a line intersects two sides of a triangle and divides them in the same ratio, then the line is parallel to the third side. For ΔPQR with S on PQ and T on PR, we need PS/SQ = PT/TR to conclude ST ∥ QR. A wrong answer (e.g., writing PS/PQ = PT/PR or SQ/PS = TR/PT) reveals the student confuses the ratio order or uses the wrong segments. It also shows they may not know the points must lie on the sides, not extensions.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, points D and E lie on AB and AC respectively. AD = 4 cm, DB = 6 cm, AE = 5 cm, EC = 7.5 cm. A student claims DE ∥ BC because AD/DB = 4/6 = 2/3 and AE/EC = 5/7.5 = 2/3. Is the student correct? Explain why the converse applies here but would NOT apply if E were on the extension of AC beyond C.",
+     "a": "Yes, the student is correct. AD/DB = 4/6 = 2/3 and AE/EC = 5/7.5 = 2/3, so ratios are equal. Since D and E lie on the segments AB and AC (internal division), the Converse of BPT applies and DE ∥ BC. If E were on the extension of AC beyond C, then AE/EC would not represent division of side AC internally; the theorem requires the line to intersect the two sides (not their extensions). A wrong answer shows the student does not understand the \"internal division\" condition — a common board exam trap where they apply the converse without checking if points lie on the sides.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔXYZ, a line intersects XY at M and XZ at N. XM = 8 cm, MY = 4 cm, XN = 10 cm. Find NZ if MN ∥ YZ. Show all steps using the Converse of BPT.",
+     "a": "Given: MN ∥ YZ. By Converse of BPT (or rather, we use the fact that if MN ∥ YZ, then the ratios are equal — but wait, the question gives MN ∥ YZ and asks to find NZ, so we actually use BPT, not its converse. Let me correct: The question says \"if MN ∥ YZ\", so we use BPT: XM/MY = XN/NZ. 8/4 = 10/NZ → 2 = 10/NZ → NZ = 5 cm. Steps: 1) Identify given: XM=8, MY=4, XN=10, MN∥YZ. 2) Apply BPT (since line is parallel): XM/MY = XN/NZ. 3) Substitute: 8/4 = 10/NZ. 4) Simplify: 2 = 10/NZ. 5) Cross-multiply: 2 × NZ = 10 → NZ = 5 cm. A wrong answer (e.g., NZ=20) reveals the student inverted the ratio or used XM/XY = XN/XN incorrectly. They confuse BPT with its converse.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Basic Proportionality Theorem and its Converse. Create a table with columns: \"Statement\", \"Given\", \"To Prove\", \"Direction of Logic\". Then explain why both theorems are needed in geometry — give one example where only BPT works and one where only the Converse works.",
+     "a": "| | BPT | Converse of BPT |\n|---|---|---|\n| Statement | If a line is drawn parallel to one side of a triangle intersecting the other two sides, it divides them in the same ratio. | If a line divides two sides of a triangle in the same ratio, then it is parallel to the third side. |\n| Given | DE ∥ BC | AD/DB = AE/EC |\n| To Prove | AD/DB = AE/EC | DE ∥ BC |\n| Direction | Parallel → Proportional | Proportional → Parallel |\n\nExample where only BPT works: Given DE ∥ BC, find EC when AD=3, DB=4, AE=6. Use BPT: AD/DB = AE/EC. Example where only Converse works: Given AD/DB = AE/EC, prove DE ∥ BC. A wrong answer (swapping the columns or saying they are the same) reveals the student does not grasp the logical direction — a critical error in proof-based board questions where they must state \"Given\" and \"To Prove\" correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In ΔABC, D and E are points on AB and AC such that AD = 2 cm, DB = 3 cm, AE = 4 cm, EC = 6 cm. Prove DE ∥ BC.\" Their working: \"AD/DB = 2/3. AE/EC = 4/6 = 2/3. Since ratios are equal, by Converse of BPT, DE ∥ BC.\" Is this solution complete for a 3-mark board question? If not, what is missing?",
+     "a": "The solution is incomplete for a 3-mark board question. Missing: (1) Explicit statement that D lies on AB and E lies on AC (internal division condition). (2) The theorem name: \"By Converse of Basic Proportionality Theorem\". (3) A concluding statement: \"Therefore, DE ∥ BC.\" Board marking scheme requires: 1 mark for correct ratio calculation, 1 mark for stating the converse theorem with condition, 1 mark for final conclusion. A student who only computes ratios loses 2 marks. This reveals the misconception that calculation alone suffices — board exams require structured proof writing with theorem citation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (Indian context) where the Converse of BPT is used to verify parallelism without measuring angles. The problem must involve a triangular field, a proposed fence line, and given side measurements. Provide the full problem statement with all measurements, and outline the solution steps a Class 10 student should write in the board exam.",
+     "a": "Problem: \"A farmer has a triangular field PQR with PQ = 50 m, PR = 40 m. He wants to build a fence from point S on PQ to point T on PR such that the fence runs parallel to QR. He marks PS = 20 m, SQ = 30 m, PT = 16 m, TR = 24 m. Verify using the Converse of BPT whether the fence ST will be parallel to QR.\"\n\nSolution steps: 1) Given: PS=20, SQ=30, PT=16, TR=24. 2) Compute PS/SQ = 20/30 = 2/3. 3) Compute PT/TR = 16/24 = 2/3. 4) Since PS/SQ = PT/TR and S lies on PQ, T lies on PR (internal division), by Converse of BPT, ST ∥ QR. 5) Conclusion: The fence will run parallel to QR.\n\nA poor answer (just \"yes\" or only ratio calculation) reveals the student cannot translate real situations into structured mathematical verification — a key competency for case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

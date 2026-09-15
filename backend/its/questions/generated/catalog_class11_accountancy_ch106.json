@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class11_accountancy_ch106",
+ "concepts": [
+  {
+   "id": "keac.106.1",
+   "title": "Trial Balance Agreement Check",
+   "questions": [
+    {
+     "q": "Calculate the difference in trial balance. Use the method 'Trial Balance Agreement Check'. Work with: total_credits = 8, total_debits = 8. Carry the chain through step by step and give the final value of difference.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the trial balance discrepancy. Use the method 'Trial Balance Agreement Check'. Work with: total_credits = 100, total_debits = 25. Carry the chain through step by step and give the final value of difference.",
+     "a": "75 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Trial Balance Agreement Check' refers to.",
+     "a": "A verification procedure that compares the total of all debit balances against the total of all credit balances to ensure arithmetical consistency.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trial Balance Agreement Check'.",
+     "a": "In double-entry bookkeeping, total debits must equal total credits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Trial Balance Agreement Check', in plain ASCII form.",
+     "a": "difference = abs(total_debits - total_credits)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.2",
+   "title": "Wrong Side Posting Detection",
+   "questions": [
+    {
+     "q": "Find the potential wrong side posting amount if the trial balance difference is. Use the method 'Wrong Side Posting Detection'. Work with: difference = 15. Carry the chain through step by step and give the final value of potential_wrong_posting_amount.",
+     "a": "7.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the amount posted to the wrong side of an account. Use the method 'Wrong Side Posting Detection'. Work with: difference = 25. Carry the chain through step by step and give the final value of potential_wrong_posting_amount.",
+     "a": "12.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Wrong Side Posting Detection' refers to.",
+     "a": "A technique to identify if a transaction was posted to the opposite side of an account by checking if the trial balance difference is divisible by two.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wrong Side Posting Detection'.",
+     "a": "Posting an entry to the wrong side doubles the error amount, creating a trial balance difference equal to twice the transaction value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Wrong Side Posting Detection', in plain ASCII form.",
+     "a": "potential_wrong_posting_amount = difference / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.3",
+   "title": "Transposition Error Check",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transposition Error Check' refers to.",
+     "a": "A diagnostic check where a trial balance discrepancy divisible by nine indicates a possible transposition of digits or a misplaced decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transposition Error Check'.",
+     "a": "The mathematical difference between any number and its transposed counterpart is always divisible by nine.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transposition Error Check', in plain ASCII form.",
+     "a": "is_transposition = (difference % 9 == 0)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4",
+   "title": "Rectification of Short Amount Posting",
+   "questions": [
+    {
+     "q": "Calculate the rectification amount for short debit. Use the method 'Rectification of Short Amount Posting'. Work with: correct_amount = 80000, recorded_amount = 1200. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "78800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount needed to correct a short credit of ... instead of .... Use the method 'Rectification of Short Amount Posting'. Work with: correct_amount = 80000, recorded_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectification of Short Amount Posting' refers to.",
+     "a": "Correcting an error where a transaction is posted to the correct side of an account but with a lower amount than required.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectification of Short Amount Posting'.",
+     "a": "Add the difference to the same side of the account to bring it to the correct balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectification of Short Amount Posting', in plain ASCII form.",
+     "a": "rectification_amount = correct_amount - recorded_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5",
+   "title": "Rectification of Excess Amount Posting",
+   "questions": [
+    {
+     "q": "Calculate the rectification amount for excess debit. Use the method 'Rectification of Excess Amount Posting'. Work with: correct_amount = 2500, recorded_amount = 2500. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount needed to correct an over-recorded credit of ... instead of .... Use the method 'Rectification of Excess Amount Posting'. Work with: correct_amount = 5000, recorded_amount = 12000. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "7000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectification of Excess Amount Posting' refers to.",
+     "a": "Correcting an error where a transaction is posted to the correct side of an account but with a higher amount than required.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectification of Excess Amount Posting'.",
+     "a": "Reverse the excess amount by posting it to the opposite side of the same account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectification of Excess Amount Posting', in plain ASCII form.",
+     "a": "rectification_amount = recorded_amount - correct_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.6",
+   "title": "Rectification of Wrong Side Posting",
+   "questions": [
+    {
+     "q": "Calculate the rectification amount when a debit of ... is wrongly credited. Use the method 'Rectification of Wrong Side Posting'. Work with: correct_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "160000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the adjustment amount for posting ... to the wrong side of the account. Use the method 'Rectification of Wrong Side Posting'. Work with: correct_amount = 1200. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "2400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectification of Wrong Side Posting' refers to.",
+     "a": "Correcting an error where an entry is posted to the wrong side of an account with the correct amount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectification of Wrong Side Posting'.",
+     "a": "To rectify a wrong side posting, double the correct amount is posted to the opposite side.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectification of Wrong Side Posting', in plain ASCII form.",
+     "a": "rectification_amount = 2 * correct_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.7",
+   "title": "Rectification of Wrong Side and Wrong Amount",
+   "questions": [
+    {
+     "q": "Calculate the rectification amount when a debit of ... is wrongly credited as .... Use the method 'Rectification of Wrong Side and Wrong Amount'. Work with: correct_amount = 8000, wrong_amount = 8000. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "16000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the adjustment amount for posting ... to the wrong side as .... Use the method 'Rectification of Wrong Side and Wrong Amount'. Work with: correct_amount = 20000, wrong_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
+     "a": "100000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectification of Wrong Side and Wrong Amount' refers to.",
+     "a": "Correcting an error where an entry is posted to the wrong side of an account with an incorrect amount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectification of Wrong Side and Wrong Amount'.",
+     "a": "The rectification amount is the sum of the wrong amount (to cancel it) and the correct amount (to record it).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectification of Wrong Side and Wrong Amount', in plain ASCII form.",
+     "a": "rectification_amount = correct_amount + wrong_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.8",
+   "title": "Suspense Account Balance Determination",
+   "questions": [
+    {
+     "q": "Calculate the initial balance of suspense account. Use the method 'Suspense Account Balance Determination'. Work with: total_credits = 6, total_debits = 30. Carry the chain through step by step and give the final value of suspense_balance.",
+     "a": "24 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the difference to be put in suspense account. Use the method 'Suspense Account Balance Determination'. Work with: total_credits = 120, total_debits = 240. Carry the chain through step by step and give the final value of suspense_balance.",
+     "a": "120 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Suspense Account Balance Determination' refers to.",
+     "a": "Determining the initial or remaining balance of the suspense account needed to temporarily balance the trial balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Suspense Account Balance Determination'.",
+     "a": "The suspense account absorbs the difference between debits and credits until all errors are located.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Suspense Account Balance Determination', in plain ASCII form.",
+     "a": "suspense_balance = total_debits - total_credits",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_009",
+   "title": "c12_cs_cbse_11_009",
+   "questions": [
+    {
+     "q": "What is the result of the following Python code?\n```python\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nprint(A ^ B)\n```",
+     "a": "The output is `{1, 2, 5, 6}`. Symmetric difference (`^`) returns elements that are in exactly one of the sets. A wrong answer like `{3, 4}` indicates confusion with intersection; `{1, 2, 3, 4, 5, 6}` indicates confusion with union; `{1, 2}` indicates confusion with difference (A - B). This reveals the student cannot distinguish symmetric difference from other operations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `A - B` is not the same as `B - A` for sets `A = {10, 20, 30}` and `B = {20, 30, 40}`. Provide the results of both.",
+     "a": "`A - B` = `{10}` (elements in A but not in B), while `B - A` = `{40}` (elements in B but not in A). Difference is **not commutative** because it depends on which set is the \"source\" and which is the \"subtractand\". A student who says they are equal or swaps the results misunderstands the directional nature of set difference.",
+     "self_check": true
+    },
+    {
+     "q": "Given sets `X = {1, 2, 3}`, `Y = {2, 3, 4}`, `Z = {3, 4, 5}`, evaluate `(X | Y) & Z` and `X | (Y & Z)`. Are they equal? Show each step.",
+     "a": "Step 1: `X | Y` = `{1, 2, 3, 4}`. Step 2: `(X | Y) & Z` = `{1, 2, 3, 4} & {3, 4, 5}` = `{3, 4}`.\nStep 3: `Y & Z` = `{2, 3, 4} & {3, 4, 5}` = `{3, 4}`. Step 4: `X | (Y & Z)` = `{1, 2, 3} | {3, 4}` = `{1, 2, 3, 4}`.\nResults: `{3, 4}` vs `{1, 2, 3, 4}` — **not equal**. This tests understanding of operator precedence and distributive laws (union over intersection does not distribute the same way as intersection over union). A wrong answer claiming equality shows lack of step-by-step evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and time efficiency of using `set1.union(set2)` vs `set1 | set2` vs `set1.update(set2)` when `set1` has 10,000 elements and `set2` has 5,000 elements. Which modifies the original set?",
+     "a": "`set1.union(set2)` and `set1 | set2` both create a **new set** with ~15,000 elements (O(len(set1)+len(set2)) time and space). `set1.update(set2)` modifies `set1` in-place, adding only the new elements from `set2` (O(len(set2)) time, no extra space for a new set). Only `update` modifies the original. A student who says all three modify the original or that `|` is in-place confuses operators with in-place methods.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `result = A - B - C` to find elements in A that are in neither B nor C. Is this correct for all sets A, B, C? If not, give a counterexample and the correct expression.",
+     "a": "`A - B - C` is evaluated left-to-right as `(A - B) - C`. This **is** mathematically correct for \"elements in A but not in B and not in C\" because set difference is associative in this sense: `(A \\ B) \\ C = A \\ (B ∪ C)`. However, a common error is to think `A - (B - C)` is the same. Counterexample: A={1,2}, B={2}, C={1}. `(A-B)-C` = `{1}-{1}` = `{}`. `A-(B-C)` = `A-{2}` = `{1}`. The correct expression for \"in A but not in B nor C\" is `A - (B | C)` or `A - B - C`. A student who claims `A - B - C` is wrong may be confusing with `A - (B - C)`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use symmetric difference of two sets. Write the Python code to solve it and explain why symmetric difference is the right choice.",
+     "a": "Scenario: Two mobile recharge shops, ShopA and ShopB, record customer phone numbers (as strings) who recharged today. ShopA = `{'9876543210', '9123456780', '9988776655'}`, ShopB = `{'9123456780', '9988776655', '9001122334'}`. The owner wants a list of customers who recharged at **exactly one shop** (loyal to one, not both). Code:\n```python\nshopA = {'9876543210', '9123456780', '9988776655'}\nshopB = {'9123456780', '9988776655', '9001122334'}\nexclusive = shopA ^ shopB\nprint(exclusive)  # {'9876543210', '9001122334'}\n```\nSymmetric difference is right because it captures \"either A or B but not both\". A poor answer might use union (includes both) or difference (only one direction), showing inability to map the problem to the correct operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

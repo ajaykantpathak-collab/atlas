@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_005",
+   "title": "c10_phy_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the mirror formula and magnification formula for spherical mirrors. Write the Cartesian sign convention rules for object distance (u), image distance (v), and focal length (f).",
+     "a": "Mirror formula: 1/f = 1/v + 1/u. Magnification: m = h'/h = -v/u. Sign convention: (1) Object distance u is always negative (object placed in front of mirror). (2) Focal length f is negative for concave mirrors, positive for convex mirrors. (3) Image distance v is negative for real images (formed in front of mirror), positive for virtual images (formed behind mirror). A wrong answer reveals the student has memorized formulas without understanding sign convention — the single biggest source of errors in board exams. Students often forget u is always negative or mix up f signs for concave vs convex mirrors.",
+     "self_check": true
+    },
+    {
+     "q": "A concave mirror forms a real, inverted image of magnification -2. Without calculation, explain whether the object is placed between F and C, at C, or beyond C. Justify using the relationship between magnification and object position.",
+     "a": "Magnification m = -2 means image is real (negative m), inverted, and magnified (|m| > 1). For a concave mirror, magnified real images occur only when object is placed between F and C (focus and centre of curvature). At C, m = -1 (same size). Beyond C, |m| < 1 (diminished). A wrong answer reveals the student cannot connect magnification sign/magnitude to object position — they treat magnification as just a calculation tool rather than a physical indicator of image characteristics. This conceptual gap leads to errors in case-based questions where they must predict image nature from object position.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4.0 cm is placed 30 cm in front of a concave mirror of focal length 15 cm. Calculate the image distance, magnification, and image height. State the nature of the image.",
+     "a": "Given: h = 4.0 cm, u = -30 cm (object in front), f = -15 cm (concave mirror). Step 1: Mirror formula 1/f = 1/v + 1/u → 1/(-15) = 1/v + 1/(-30) → -1/15 = 1/v - 1/30 → 1/v = -1/15 + 1/30 = -2/30 + 1/30 = -1/30 → v = -30 cm. Step 2: m = -v/u = -(-30)/(-30) = -1. Step 3: h' = m × h = -1 × 4.0 = -4.0 cm. Image: real (v negative), inverted (h' negative), same size (|m| = 1), formed at C (v = -30 cm = 2f). A wrong answer typically shows sign convention errors: using u = +30 or f = +15, or forgetting the negative in m = -v/u. These yield v = +10 cm (virtual) or m = +1 (erect) — both incorrect.",
+     "self_check": true
+    },
+    {
+     "q": "A convex mirror of focal length 20 cm forms an image of magnification +0.5. Compare the object distance and image distance magnitudes. Is the image distance greater than, equal to, or less than the focal length? Explain without calculation.",
+     "a": "For convex mirror: f = +20 cm, m = +0.5 (positive → virtual, erect). m = -v/u = +0.5 → v = -0.5u. Since u is negative, v is positive (virtual image behind mirror). |v| = 0.5|u|, so image distance magnitude is half the object distance magnitude — image is closer to mirror than object. Also, for convex mirrors, virtual images always form between pole and focus, so |v| < f = 20 cm. A wrong answer reveals the student doesn't know convex mirrors always produce diminished virtual images between P and F, or cannot reason about magnitude relationships without plugging numbers. This is a common board exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Object at 20 cm from concave mirror of focal length 10 cm. Find v.\" Working: 1/10 = 1/v + 1/20 → 1/v = 1/10 - 1/20 = 1/20 → v = 20 cm. Identify the error and give the correct answer with sign convention.",
+     "a": "Error: Student used f = +10 cm (should be -10 cm for concave mirror) and u = +20 cm (should be -20 cm). Correct: 1/(-10) = 1/v + 1/(-20) → -1/10 = 1/v - 1/20 → 1/v = -1/10 + 1/20 = -1/20 → v = -20 cm. Image is real, at C (2f = 20 cm). A wrong answer reveals the student treats sign convention as optional or forgets it entirely. In board exams, missing signs in the formula step loses 1-2 marks even if final magnitude is correct. The examiner checks sign convention application at each substitution step.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a screen, and a meter scale to determine the focal length of the mirror. Write the procedure, the formula you will use, and how you will handle sign convention in your calculations.",
+     "a": "Procedure: (1) Fix concave mirror on stand. (2) Place a distant object (tree/building > 50 m away) so rays are nearly parallel. (3) Move screen until sharp image forms. (4) Measure mirror-to-screen distance = focal length f (magnitude). (5) Repeat with object at 2f (use u = -2f, find v = -2f). Formula: 1/f = 1/v + 1/u. Sign convention: u = -measured distance, v = -measured distance (real image), f = -calculated value. A poor answer uses u, v as positive distances, or suggests using virtual images (cannot be caught on screen), showing they don't understand real images are needed for screen method or that sign convention must be applied consistently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

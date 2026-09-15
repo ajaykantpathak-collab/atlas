@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_02_011",
+   "title": "c12_hin_ar_cbse_02_011",
+   "questions": [
+    {
+     "q": "Identify the tense and aspect of the verb phrase \"mM+kus okys\" in the line \"irax mM+kus okys cPpksa osQ >qaM dks\". Explain how this form functions grammatically in the sentence.",
+     "a": "The verb phrase \"mM+kus okys\" consists of the infinitive \"mM+kus\" (to fly) + the present participle \"okys\" (doing/which does), forming a present imperfective participial phrase meaning \"who are flying\" or \"flying\". It functions as an adjective modifying \"cPpksa\" (children). A wrong answer might identify it as past tense or miss the participial nature, revealing confusion between infinitive, participle, and finite verb forms.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"Nrksa osQ [krjukd fdukjksa rdµ\", the case marker \"osQ\" appears twice. Explain the grammatical role (karak) of each \"osQ\" and why the poet might use the same marker for two different relationships.",
+     "a": "First \"osQ\" (in \"Nrksa osQ\") is the genitive case (sambandh karak) showing possession: \"of the men\". Second \"osQ\" (in \"fdukjksa osQ\") is also genitive but part of the postposition \"fdukjksa osQ rd\" meaning \"up to the shoulders of\". The poet uses the same marker for rhythmic parallelism and to bind the two possessive relationships (men's shoulders, shoulders' height). A wrong answer might treat both as identical without noting the postpositional phrase, showing lack of attention to syntactic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the poetic line \"ck¡l dh lcls iryh dekuh mM+ losQµ\" into standard Hindi prose word order (SOV) while preserving the meaning. Identify the syntactic inversion used in the original.",
+     "a": "Standard prose: \"mM+ ck¡l dh lcls iryh dekuh losQ\" (The sky is the longest distance of the lap). The original uses OSV (Object-Subject-Verb) inversion: the complement \"ck¡l dh lcls iryh dekuh\" is fronted before the subject \"mM+\" and verb \"losQ\". This fronting emphasizes the metaphorical description. A wrong answer might keep the same order or misidentify subject/object, indicating difficulty with Hindi word order flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the compound word \"vk¡[kksa\" in \"[kjxks'k dh vk¡[kksa tSlk yky losjk\". Break it into its components, identify the samasa type, and explain how the compound contributes to the imagery.",
+     "a": "\"vk¡[kksa\" = \"vk¡\" (hand) + \"[kksa\" (armpits/sides) → a tatpurusha samasa (determinative compound) where the first member specifies the second: \"armpits of the hand\" i.e., the hollows under the arms. The compound creates a vivid body image: the red evening light is compared to the color seen in the hollows under the arms, suggesting warmth and intimacy. A wrong answer might miss the samasa type or misinterpret the body part, showing weak morphological analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's use of the imperative verb forms \"cqykrs gq,\" and \"ctkrs gq,\" in the first stanza. Do these imperatives function as commands, wishes, or something else? Justify with context.",
+     "a": "They function as optative/wishes (not direct commands) because the subject is the poet addressing abstract entities (evening, childhood) or invoking a mood. The context \"pedhys b'kkjksa ls cqykrs gq,\" (emerging from the feet of childhood) and \"?kaVh ctkrs gq,\" (shining like a lamp) shows the poet wishing the evening to take on these qualities. A wrong answer might label them as commands to the evening, missing the poetic invocation and the first-person perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Create two new lines in the style of the poem, using at least one participial phrase (like \"mM+kus okys\"), one compound word (samasa), and one syntactic inversion. Write in Hindi and explain your grammatical choices.",
+     "a": "Example lines:\n\"nqfu;k dh lcls gydh vkSj jaxhu ph”k mM+ losQ\nlosjk dh lcls iryh dekuh zkr losQ\"\nGrammatical choices: \"gydh vkSj jaxhu\" (compound adjectives), \"ph”k mM+ losQ\" (inversion: complement fronted), \"iryh dekuh\" (tatpurusha samasa). A poor answer would lack these features or use them incorrectly, showing inability to apply grammatical knowledge creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

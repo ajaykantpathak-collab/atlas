@@ -1,0 +1,235 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Parallel and Intersecting Lines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.5.1",
+   "title": "Parallel Lines: Same Direction, Never Meeting",
+   "section": "Parallel and Intersecting Lines",
+   "definition": "Parallel lines run in the same direction and keep the same distance everywhere, so however far they are drawn they never meet, like the opposite edges of a ruler or railway tracks.",
+   "formula": "",
+   "key_idea": "Parallelism is about direction: same direction plus constant gap means no meeting, ever.",
+   "textbook_ref": "gegp105.txt, Parallel and Intersecting Lines",
+   "question_patterns": [
+    "what are parallel lines give two examples around you",
+    "do parallel lines meet when extended justify",
+    "how do you check whether two lines are parallel",
+    "draw a pair of parallel lines using a ruler and set square",
+    "which is parallel to which among the lines of your notebook",
+    "why do railway tracks stay the same distance apart"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2",
+   "title": "Intersecting Lines and the Angles They Make",
+   "section": "Intersecting lines",
+   "definition": "When two lines cross, four angles form at the crossing: angles on one side of a line fill a straight angle of 180 degrees, and the angles opposite each other at the crossing are equal.",
+   "formula": "x = 180 - known",
+   "key_idea": "A crossing obeys two quiet laws: each straight side totals 180 degrees, and opposite angles are twins.",
+   "textbook_ref": "gegp105.txt, Intersecting lines",
+   "question_patterns": [
+    "how many angles are made when two lines cross",
+    "two angles on one side of a line are 118 and x find x",
+    "what do you notice about opposite angles at a crossing",
+    "if one angle at a crossing is 64 what are the other three",
+    "check the angle sums in the given figure of crossing lines",
+    "why do angles on one side of a line add to 180"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "Angles filling one side of a straight line total 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the known part",
+     "explain": "The unknown angle is 180 minus the known angle.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3",
+   "title": "Perpendicular Lines: The Right-Angle Crossing",
+   "section": "Perpendicular lines",
+   "definition": "When two intersecting lines make a right angle of 90 degrees at their crossing, they are perpendicular; the four angles are then equal right angles, as at the corners of a page.",
+   "formula": "",
+   "key_idea": "Perpendicular is the fairest crossing: all four angles share the same 90 degrees.",
+   "textbook_ref": "gegp105.txt, Perpendicular lines",
+   "question_patterns": [
+    "what are perpendicular lines",
+    "give two examples of perpendicular lines in your classroom",
+    "how can you check whether two lines are perpendicular",
+    "draw a line perpendicular to a given line through a point",
+    "what angles does a perpendicular crossing make",
+    "where do you see perpendicular lines in road crossings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.4",
+   "title": "Lines Across a Line: Transversals",
+   "section": "A line crossing lines",
+   "definition": "A line drawn across two or more lines is a transversal; it makes eight angles, and matching positions at the two crossings reveal equal or related pairs, a first look at the geometry of parallel lines.",
+   "formula": "",
+   "key_idea": "A transversal is a scanner: it copies the angle pattern from one crossing to the other when the lines are parallel.",
+   "textbook_ref": "gegp105.txt, A line crossing lines",
+   "question_patterns": [
+    "what is a transversal",
+    "mark the eight angles made by a transversal",
+    "which angles look equal when a transversal cuts parallel lines",
+    "draw two parallel lines and a transversal and measure angles",
+    "what changes when the crossed lines are not parallel",
+    "find the angle pairs at both crossings in the given figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp105.txt",
+   "concept": "gegp.5.3",
+   "question_type": "compute",
+   "question_pattern": "Two angles on one side of a straight line measure 118 degrees and x. Find x.",
+   "extracted_variables": {
+    "known": "the given angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "Angles that fill one side of a straight line total 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "Take the known angle from 180.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp105.txt",
+   "concept": "gegp.5.3",
+   "question_type": "compute",
+   "question_pattern": "A line makes an angle of 64 degrees with one part of a straight line. Find the other part.",
+   "extracted_variables": {
+    "known": "the given angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "The two parts together make a straight angle.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "180 minus 64 gives the other angle.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp105.txt",
+   "concept": "gegp.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "two angles on one side of a straight line are 118 degrees and x; find x.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp105.txt, Figure it Out",
+   "questions": [
+    "What are parallel lines? Give two examples.",
+    "Two angles on one side of a straight line are 118 degrees and x; find x.",
+    "What do you notice about opposite angles when two lines cross?",
+    "What are perpendicular lines? Give examples.",
+    "What is a transversal? Draw two parallel lines and one."
+   ]
+  }
+ ]
+}

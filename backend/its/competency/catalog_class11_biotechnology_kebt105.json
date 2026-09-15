@@ -1,0 +1,414 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 5,
+ "chapter_title": "Cellular Processes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt105.1",
+   "title": "Cell Signaling: Paracrine Autocrine and Endocrine",
+   "section": "5.1",
+   "definition": "Cells converse through chemical messengers that only work where a matching receptor waits: short-range release reaching neighbours at once is paracrine, a cell talking back to its own receptors is autocrine - the trick cancer cells abuse by making their own growth factors - and hormones riding the bloodstream to distant targets is endocrine signaling.",
+   "formula": "-",
+   "key_idea": "Distance decides the name of the signaling; no receptor on the cell means no response, whatever the ligand level.",
+   "textbook_ref": "kebt105.txt section 5.1",
+   "question_patterns": [
+    "differentiate paracrine autocrine and endocrine signaling with one example of each",
+    "why do cancer cells not depend on outside growth factors - name the signaling they exploit",
+    "what is a ligand and why must its receptor be specific for the message to work",
+    "where may a receptor sit inside or on a cell - list the three possible locations",
+    "neuronal communication is an example of which signaling type - justify",
+    "what happens inside a cell once a ligand locks onto its receptor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the distance",
+     "explain": "Neighbour-close release is paracrine, self-stimulation is autocrine, blood-borne travel to far targets is endocrine."
+    },
+    {
+     "step": 2,
+     "action": "check the receptor",
+     "explain": "A response requires the corresponding receptor on the surface, in the cytoplasm or in the nucleus."
+    },
+    {
+     "step": 3,
+     "action": "trace the relay",
+     "explain": "Binding deforms the receptor and starts the message relay that changes cell activities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Short-range messengers reaching neighbours at once is what signalling: paracrine or endocrine?",
+     "a": "paracrine"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.2",
+   "title": "Glycolysis and the Fate of Pyruvate",
+   "section": "5.2.4",
+   "definition": "In the cytosol the Embden-Meyerhof-Parnas route splits one six-carbon glucose into two three-carbon pyruvates over ten enzyme steps, spending two ATP early and banking four later, with hexokinase, phosphofructokinase and pyruvate kinase marking the three irreversible control points; afterwards pyruvate either becomes lactate or ethanol without air, or enters mitochondria as acetyl CoA when oxygen is present.",
+   "formula": "-",
+   "key_idea": "Three regulated, irreversible enzymes steer glycolysis, and oxygen availability alone picks pyruvate's next destination.",
+   "textbook_ref": "kebt105.txt sections 5.2.4 and Fig. 5.4-5.5",
+   "question_patterns": [
+    "list the ten enzymatic steps of glycolysis naming the enzyme at each step",
+    "which three glycolytic reactions are irreversible and why are they called regulatory",
+    "what are the two anaerobic fates and the one aerobic fate of pyruvate",
+    "which enzyme links glycolysis to the citric acid cycle and where is it located",
+    "why must NADH be reoxidised to NAD+ for glycolysis to keep running",
+    "name the coenzyme of pyruvate decarboxylase and the two enzymes of alcoholic fermentation",
+    "how does the aldolase reaction split fructose-1-6-bisphosphate and which trioses appear"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the carbons",
+     "explain": "Glucose to glucose-6-phosphate, fructose-1-6-bisphosphate, then aldolase cleavage into two triose phosphates that converge on pyruvate."
+    },
+    {
+     "step": 2,
+     "action": "mark the control points",
+     "explain": "Hexokinase, phosphofructokinase and pyruvate kinase each run an irreversible, allosterically regulated step."
+    },
+    {
+     "step": 3,
+     "action": "pick the pyruvate exit",
+     "explain": "No oxygen: lactate via lactate dehydrogenase or ethanol via decarboxylase plus dehydrogenase; oxygen present: acetyl CoA via the PDH complex."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The two pyruvates from one glucose carry how many carbon atoms together?",
+     "a": "6"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.3",
+   "title": "Energy Yield of Glycolysis and Fermentation",
+   "section": "5.2.4",
+   "definition": "Each glucose passing down the glycolytic line returns four ATP at the two substrate-level phosphorylation steps - two per triose across the two trioses formed - while two ATP were spent priming the sugar, so the net harvest is two; fermentation extends this by recycling NAD+ yet still yields only two ATP per glucose.",
+   "formula": "net_yield = gross_atp - invested_atp",
+   "key_idea": "Subtract the two priming ATP from the four collected to get the net two per glucose.",
+   "textbook_ref": "kebt105.txt section 5.2.4 Energy yield by glycolysis",
+   "question_patterns": [
+    "compute the net ATP gain of glycolysis given that four ATP are generated and two are consumed",
+    "how many ATP does one glucose yield under homolactic fermentation and why so low",
+    "write the balanced net equation of glycolysis showing ATP ADP NAD+ and NADH terms",
+    "at which two enzymatic steps does substrate-level phosphorylation bank ATP in glycolysis",
+    "why does the per-triose ATP gain double when counted per glucose",
+    "compare the ATP return of alcoholic fermentation with that of aerobic oxidation of pyruvate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the collected ATP",
+     "explain": "Each triose pays two ATP at phosphoglycerate kinase and pyruvate kinase; two trioses arise per glucose.",
+     "compute": "gross_atp = atp_per_triose * triose_count"
+    },
+    {
+     "step": 2,
+     "action": "repay the priming cost",
+     "explain": "Hexokinase and phosphofructokinase each spent one ATP, so subtract the investment.",
+     "compute": "net_yield = gross_atp - invested_atp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the net ATP yield of glycolysis per glucose?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.4",
+   "title": "Citric Acid Cycle in the Mitochondrial Matrix",
+   "section": "5.2.5",
+   "definition": "Hans Kreb's cycle condenses a two-carbon acetyl group with four-carbon oxaloacetate into citrate and walks it through decarboxylations and dehydrogenations back to oxaloacetate, banking three NADH, one FADH2 and one GTP per turn; all its enzymes sit in the mitochondrial matrix except succinate dehydrogenase, which alone is embedded in the inner membrane.",
+   "formula": "-",
+   "key_idea": "One turn burns one acetyl group to two CO2 while loading three NADH, one FADH2 and one GTP.",
+   "textbook_ref": "kebt105.txt section 5.2.5, Fig. 5.6",
+   "question_patterns": [
+    "write the overall equation of the citric acid cycle for one acetyl CoA",
+    "which enzyme of the TCA cycle remains attached to the inner mitochondrial membrane and what cofactors does it carry",
+    "at which single step does substrate-level phosphorylation occur in the cycle - name the enzyme and product",
+    "name the two decarboxylation steps of the cycle and the enzymes catalysing them",
+    "why is the citric acid cycle called the final common pathway of carbohydrate lipid and protein oxidation",
+    "how many isozyme forms does isocitrate dehydrogenase show and which coenzyme does each prefer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enter the cycle",
+     "explain": "Citrate synthase joins acetyl CoA to oxaloacetate forming citrate; aconitase shifts it to isocitrate."
+    },
+    {
+     "step": 2,
+     "action": "oxidise and decarboxylate",
+     "explain": "Two NAD+-linked decarboxylations release two CO2 and produce succinyl CoA via alpha-ketoglutarate."
+    },
+    {
+     "step": 3,
+     "action": "regenerate the acceptor",
+     "explain": "Succinyl CoA synthetase banks GTP, succinate dehydrogenase loads FADH2, and malate dehydrogenase restores oxaloacetate with a third NADH."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which cycle condenses an acetyl group with oxaloacetate: the citric acid cycle or glycolysis?",
+     "a": "the citric acid cycle"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.5",
+   "title": "Electron Transport Chain and Oxidative Phosphorylation",
+   "section": "5.2.6",
+   "definition": "Four giant complexes in the inner mitochondrial membrane pass electrons from NADH and FADH2 down to oxygen, pumping protons as complexes I, III and IV work - enough gradient for about 1, 0.5 and 1 ATP respectively - so one matrix NADH finally buys about 2.5 ATP while FADH2, entering at QH2 past complex I, buys only about 1.5.",
+   "formula": "atp_total = nadh_share + fadh_share",
+   "key_idea": "Price NADH at 2.5 ATP and FADH2 at 1.5 ATP; complex II feeds in later and so pays less.",
+   "textbook_ref": "kebt105.txt sections 5.2.6, Figs. 5.7-5.8",
+   "question_patterns": [
+    "mitochondria oxidise 10 NADH and 4 FADH2 - how many ATP does oxidative phosphorylation deliver in total",
+    "why does FADH2 yield fewer ATP than NADH - answer with the entry point of its electrons",
+    "name the four complexes of the electron transport chain and state which ones pump protons",
+    "what is the proton motive force and how does ATP synthase exploit it",
+    "which molecule accepts electrons at the end of the chain and what product appears",
+    "how many ATP correspond to the gradients built by complexes I III and IV individually"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "price the NADH contribution",
+     "explain": "Each matrix NADH drives complexes I, III and IV for about 2.5 ATP.",
+     "compute": "nadh_share = nadh_units * 2.5"
+    },
+    {
+     "step": 2,
+     "action": "price the FADH2 contribution",
+     "explain": "Electrons entering at QH2 skip complex I, so each FADH2 earns about 1.5 ATP.",
+     "compute": "fadh_share = fadh_units * 1.5"
+    },
+    {
+     "step": 3,
+     "action": "add the shares",
+     "explain": "The sum is the total ATP delivered by oxidative phosphorylation.",
+     "compute": "atp_total = nadh_share + fadh_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One matrix NADH buys about how many ATP: 2.5 or 25?",
+     "a": "2.5"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.6",
+   "title": "Photosynthesis Light Reactions and Calvin Cycle",
+   "section": "5.2.7",
+   "definition": "Chloroplast machinery runs two phases: photosystems II and I split water - two molecules give one oxygen for every four electrons shipped to PSI - and build ATP plus NADPH by photophosphorylation, while the Calvin cycle in the stroma spends those coins to fix carbon dioxide onto ribulose-1,5-bisphosphate, reducing the six formed 3-phosphoglycerates with six ATP and six NADPH and then paying three more ATP to regenerate the acceptor.",
+   "formula": "atp_cost = pga_total + regen_atp",
+   "key_idea": "Fixing three CO2 makes six 3-phosphoglycerate, so the reduction bill is six ATP plus six NADPH with three ATP more for regeneration.",
+   "textbook_ref": "kebt105.txt sections 5.2.7.1-5.2.7.3, Figs. 5.9-5.13",
+   "question_patterns": [
+    "for every four electrons sent from PSII to PSI how many water molecules are split and how much oxygen evolves",
+    "how many ATP and NADPH does the Calvin cycle consume to fix three molecules of CO2",
+    "name the enzyme that fixes CO2 in the Calvin cycle and state its two activities",
+    "differentiate cyclic from non-cyclic photophosphorylation in terms of products",
+    "at which wavelengths do PSI and PSII respond - give the nanometre values",
+    "why is the Calvin cycle called the C3 cycle and where do its reactions occur",
+    "how does the C4 pathway of maize differ from the C3 pathway in its first CO2 acceptor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the fixation into PGA",
+     "explain": "Each CO2 fixed on ribulose-1,5-bisphosphate yields two 3-phosphoglycerate molecules.",
+     "compute": "pga_total = co2_fixed * 2"
+    },
+    {
+     "step": 2,
+     "action": "add the regeneration bill",
+     "explain": "Reducing the PGA takes one ATP per molecule; regenerating the acceptor adds three more ATP per three CO2.",
+     "compute": "atp_cost = pga_total + regen_atp"
+    },
+    {
+     "step": 3,
+     "action": "count the oxygen released",
+     "explain": "Four electrons pulled from water accompany two water molecules split into one O2.",
+     "compute": "o2_evolved = electrons_sent / 4"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which cycle fixes carbon dioxide onto ribulose-1,5-bisphosphate: the Calvin cycle or the Krebs cycle?",
+     "a": "the Calvin cycle"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.7",
+   "title": "Cell Cycle Arithmetic and Mitotic Stages",
+   "section": "5.3",
+   "definition": "A dividing cell passes through G1 growth, S phase where the 2C DNA content doubles to 4C, G2 preparation, and then mitosis - prophase, metaphase, anaphase, telophase - followed by cytokinesis; because every round doubles the population, starting from one cell, r rounds leave two raised to r cells and one fewer division events than cells produced.",
+   "formula": "cells_total = initial_cells * 2 ** rounds",
+   "key_idea": "Two raised to the number of rounds sizes a clone; subtract the starting cell to count the divisions performed.",
+   "textbook_ref": "kebt105.txt sections 5.3.1-5.3.2, Figs. 5.14-5.15",
+   "question_patterns": [
+    "how many mitotic rounds take a single cell to 64 cells and how many total divisions is that",
+    "a culture starts from 4 cells and doubles three times - how many cells and how many division events result",
+    "what happens to the DNA content of a cell during S phase - express the change from 2C",
+    "list the four stages of karyokinesis with one landmark event of each",
+    "which structure anchors chromosomes to spindle fibers and where does it sit",
+    "how does cytokinesis differ between an animal cell and a plant cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double per round",
+     "explain": "Each mitotic round doubles the cell count, so raise two to the round count.",
+     "compute": "cells_total = initial_cells * 2 ** rounds"
+    },
+    {
+     "step": 2,
+     "action": "count the divisions",
+     "explain": "Every new cell beyond the starters needed one division, so subtract the founders.",
+     "compute": "total_divisions = cells_total - initial_cells"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Starting from one cell, how many cells do 3 rounds of division leave?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "kebt105.8",
+   "title": "Meiosis, Apoptosis, Stem Cells and Migration",
+   "section": "5.3.3-5.6",
+   "definition": "Two reductions shape cell life: meiosis halves the chromosome set across a reductional first division and an equational second one, delivering four haploid cells enriched by crossing over at pachytene; apoptosis then prunes unneeded cells by programmed DNA fragmentation and membrane blebbing without inflammation, unlike traumatic necrosis; meanwhile stem cells of totipotent, pluripotent or multipotent grade repair tissues, and cell migration walks single cells or sheets through embryogenesis, wound healing and cancer spread.",
+   "formula": "-",
+   "key_idea": "Halving, pruning, specialising and moving - the four long-term acts that shape a multicellular organism.",
+   "textbook_ref": "kebt105.txt sections 5.3.3-5.6, Table 5.1, Figs. 5.16-5.20",
+   "question_patterns": [
+    "give a comparative account of apoptosis and necrosis",
+    "name the five substages of prophase I and the event that defines pachytene",
+    "why is meiosis I called reductional while meiosis II is equational",
+    "differentiate totipotent pluripotent and multipotent stem cells with one example of each",
+    "what makes a bivalent and at which zygotene structure does synapsis occur",
+    "list the four steps of cell migration in order from protrusion to rear retraction",
+    "how does cell migration assist gastrulation and what danger does metastasis pose"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "track the divisions",
+     "explain": "One interphase then two nuclear divisions; homologues part in anaphase I, sister chromatids in anaphase II."
+    },
+    {
+     "step": 2,
+     "action": "compare the two deaths",
+     "explain": "Apoptosis is ordered, energy-dependent and silently phagocytosed; necrosis spills contents and inflames."
+    },
+    {
+     "step": 3,
+     "action": "grade the potency",
+     "explain": "Totipotent cells build everything including extraembryonic tissue, pluripotent build the three germ layers, multipotent only a narrow set such as blood cells."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which division halves the chromosome set: meiosis or mitosis?",
+     "a": "meiosis"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt105.txt section 5.2.7.2 (three stages of Calvin cycle)",
+   "concept": "kebt105.6",
+   "question_type": "compute",
+   "question_pattern": "The Calvin cycle fixes {co2_fixed} molecules of CO2. Find the 3-phosphoglycerate molecules formed, the ATP bill for their reduction plus acceptor regeneration, and the NADPH consumed.",
+   "extracted_variables": {
+    "co2_fixed": "molecules of CO2 fixed in the cycle"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double into PGA",
+     "explain": "Each fixed CO2 yields two 3-phosphoglycerate.",
+     "compute": "pga_total = co2_fixed * 2"
+    },
+    {
+     "step": 2,
+     "action": "total the ATP bill",
+     "explain": "One ATP per PGA for reduction plus three ATP for regeneration of RuBP.",
+     "compute": "atp_cost = pga_total + regen_atp"
+    },
+    {
+     "step": 3,
+     "action": "count the NADPH",
+     "explain": "Reduction of each PGA consumes one NADPH.",
+     "compute": "nadph_used = pga_total * 1"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt105.txt section 5.3.1 and Exercise 3 (64 cells from one cell)",
+   "concept": "kebt105.7",
+   "question_type": "compute",
+   "question_pattern": "A culture is started from {initial_cells} cell(s) and allowed {rounds} mitotic rounds. Find the final cell count and the total number of division events performed.",
+   "extracted_variables": {
+    "initial_cells": "number of starting cells",
+    "rounds": "number of mitotic doubling rounds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double per round",
+     "explain": "Two raised to the rounds multiplies the founders.",
+     "compute": "cells_total = initial_cells * 2 ** rounds"
+    },
+    {
+     "step": 2,
+     "action": "count the events",
+     "explain": "Each cell beyond the founders costs one division.",
+     "compute": "total_divisions = cells_total - initial_cells"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt105-ex1",
+   "source_ref": "kebt105.txt Exercises (questions 1-11)",
+   "questions": [
+    "Give a comparative account of apoptosis and necrosis, autocrine and paracrine signaling, anabolic and catabolic pathways, and totipotent and pluripotent cells.",
+    "Explain how stem cells differ from blood cells in terms of potency.",
+    "How many mitotic divisions will produce 64 cells out of a single cell?",
+    "Match centromere, kinetochore, metaphase, zygotene, pachytene, meiosis I and meiosis II with their correct descriptions.",
+    "How is cell migration important for the development of an embryo?",
+    "What is the significance of the citric acid cycle?",
+    "Which enzyme catalyses the first reaction of glycolysis - choose from glucokinase, phosphoglycerate kinase, phosphofructokinase and hexokinase.",
+    "Differentiate between cyclic and non-cyclic photophosphorylation, and briefly describe the Calvin cycle."
+   ]
+  }
+ ]
+}

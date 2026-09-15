@@ -1,0 +1,423 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 5,
+ "chapter_title": "Patterns of Social Inequality and Exclusion",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy105.1",
+   "title": "Social Inequality and the Three Forms of Capital",
+   "section": "5.1 What Is Social About Social Inequality and Exclusion?",
+   "definition": "Social inequality is social in three ways - it divides groups rather than individuals, it is not merely economic even though the two usually travel together, and it is systematic and structured rather than random. Following Bourdieu, valued resources take three forms of capital: economic capital of assets and income, cultural capital of qualifications and status, and social capital of networks of contacts - and each form can be converted into the others, as when a well-off family buys expensive education or influential friends open doors to a well-paid job.",
+   "formula": "social_senses = group_not_individual + not_only_economic + systematic_structured ; capitals = economic + cultural + social (convertible)",
+   "key_idea": "Hard work matters, but group differences explain why back-breaking labour rarely lifts life chances - no rich man keeps the stone-breaking jobs for himself.",
+   "textbook_ref": "lesy105.txt, section 5.1 opening and Social Inequality (Bourdieu 1986 three capitals, Activity 5.1 diaries)",
+   "question_patterns": [
+    "how is social inequality different from the inequality of individuals?",
+    "name the three forms of capital described by Bourdieu in the chapter on social inequality",
+    "how can economic capital be converted into cultural capital? give the higher education example",
+    "in what sense is social inequality systematic and structured?",
+    "why does hard work alone fail to explain the position of the poor in society?",
+    "give one example of social capital converting into a well-paid job"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three senses of the social",
+     "explain": "inequality concerns groups, exceeds economics alone, and follows a definite pattern rather than chance"
+    },
+    {
+     "step": 2,
+     "action": "check the capital conversion",
+     "explain": "economic, cultural and social capital overlap and convert into one another - money buys education, contacts fetch jobs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Social inequality divides groups or individuals?",
+     "a": "groups"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.2",
+   "title": "Social Stratification and Its Three Principles",
+   "section": "5.1 Social Stratification",
+   "definition": "Social stratification is the system by which a society ranks categories of people in a hierarchy that shapes identity, relationships and access to resources. Three principles explain it: it belongs to society rather than to individual differences, arising once a surplus exists beyond basic needs; it persists over generations because position is ascribed through the family and protected by endogamous marriage within the caste; and it is propped up by ideology - beliefs such as purity and pollution that make the hierarchy look fair or inevitable, with the privileged defending it most and the humiliated at the bottom likeliest to challenge it.",
+   "formula": "stratification_principles = society_wide_system + persists_generations (ascribed + endogamy) + supported_by_ideology",
+   "key_idea": "Birth dictates opportunity in caste, and a hierarchy survives only while enough people see it as legitimate or unavoidable.",
+   "textbook_ref": "lesy105.txt, Social Stratification (three numbered principles, surplus in advanced societies, endogamy, purity-pollution ideology)",
+   "question_patterns": [
+    "what are some of the features of social stratification?",
+    "why is social stratification called a characteristic of society rather than of individuals?",
+    "how do ascription and endogamy help stratification persist over generations?",
+    "which ideology justifies the caste hierarchy through purity and pollution?",
+    "why do the most privileged defend stratification while the bottom challenges it?",
+    "how does producing a surplus make stronger stratification possible in advanced societies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the society-wide and persistence claims",
+     "explain": "the hierarchy distributes resources among categories regardless of individual ability, and children step into parental positions reinforced by caste-endogamous marriage"
+    },
+    {
+     "step": 2,
+     "action": "check the ideological support",
+     "explain": "no stratification lasts unless widely judged fair or inevitable - caste leans on purity-pollution beliefs that rank Brahmins highest and Dalits lowest by birth"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Ranking categories of people in a hierarchy is called social what?",
+     "a": "stratification"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.3",
+   "title": "Prejudice, Stereotype, Discrimination and Social Exclusion",
+   "section": "5.1 Prejudices and Stereotypes / Social Exclusion",
+   "definition": "Prejudice is a pre-judgement - an opinion formed before evidence, resting on hearsay and resisting correction, and it may be favourable as well as hostile. Stereotypes are the fixed, inflexible characterisations that feed prejudice, treating a whole community as one person with one trait, as in the colonial labels of martial or cowardly races. Discrimination is prejudice put into behaviour - refusing a job or a house - and is hard to prove because it hides behind claims of merit. Social exclusion is broader still: the systematic, structural cutting off of individuals or groups from full involvement in society, denying access to education, health, transport, banking, social security and even the police or judiciary.",
+   "formula": "chain = prejudice (attitude) + stereotype (fixed_image) -> discrimination (behaviour) -> social_exclusion (structural_cutoff)",
+   "key_idea": "Exclusion is never accidental - it grows from structural features of society, so legislation alone cannot end it without constant social campaigns.",
+   "textbook_ref": "lesy105.txt, Prejudices and Stereotypes paragraphs, Social Exclusion section, Activity 5.2",
+   "question_patterns": [
+    "how would you distinguish prejudice from other kinds of opinion or belief?",
+    "what is social exclusion and why is it called systematic rather than accidental?",
+    "how do stereotypes fix entire groups into single homogenous categories?",
+    "why is discrimination hard to prove in job or housing refusals?",
+    "can prejudice be positive? give the own-caste example from the chapter",
+    "which essential services must a full and active life include beyond food, clothing and shelter?",
+    "how did colonialism contribute stereotypes such as martial races to Indian society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the attitude-to-behaviour chain",
+     "explain": "prejudice names the pre-conceived attitude, stereotype the fixed group image behind it, and discrimination the actual disqualifying behaviour"
+    },
+    {
+     "step": 2,
+     "action": "check the exclusion claim",
+     "explain": "social exclusion blocks involvement in the wider society across goods, services and institutions, and stems from structural features rather than accident"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An opinion formed before evidence is called what?",
+     "a": "prejudice"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.4",
+   "title": "Caste-Based Inequality: Untouchability and the Poverty Tables",
+   "section": "5.2 The Caste System as a Discriminatory System / Untouchability / Tables 1 and 2",
+   "definition": "The caste system legitimises discrimination by tying occupation and status to birth; untouchability is its most vicious edge, placing so-called impure castes outside the hierarchy itself, with three dimensions - exclusion, humiliation-subordination and exploitation such as forced unpaid labour. The data confirm the tie of caste to class: in 2011-12, 45.3 per cent of rural Scheduled Tribes lived below the poverty line against an all-group rural average of 25.4, and in 1999-2000 only 1.4 per cent of rural STs were affluent against 31.7 per cent of rural Sikhs - so the privileged remain overwhelmingly upper caste while the disadvantaged cluster in the lower castes.",
+   "formula": "poverty_ratio = group_poverty_share / all_group_poverty_share",
+   "key_idea": "Distance pollution once punished even a shadow, and Harijan, Dalit and Adivasi each replaced abusive names with terms of dignity and assertion.",
+   "textbook_ref": "lesy105.txt, Untouchability section, Tables 1 and 2 with the exercise questions, Dalit and Harijan naming paragraphs",
+   "question_patterns": [
+    "what is untouchability and which three dimensions define it?",
+    "using Table 1, how many times higher than the rural national average is the poverty rate of Scheduled Tribes?",
+    "compute how the rural poverty share of Scheduled Castes compares with the all-group average of 25.4 per cent",
+    "which community shows the highest rural affluence percentage in Table 2 and which the lowest?",
+    "why are the three dimensions of untouchability all equally important in defining it?",
+    "how did the term Dalit gain currency through the Dalit Panthers of the 1970s?",
+    "why is the caste-class correlation weaker within castes yet stable at the macro level?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the Scheduled Tribe poverty share by the all-group poverty share",
+     "explain": "Table 1 gives 45.3 per cent for rural STs against 25.4 per cent for all groups, so the quotient shows how many times the average their poverty runs",
+     "compute": "st_poverty_ratio = st_poverty_share / all_poverty_share"
+    },
+    {
+     "step": 2,
+     "action": "divide the Scheduled Caste poverty share by the same all-group share",
+     "explain": "the parallel quotient places the SCs against the national rural average",
+     "compute": "sc_poverty_ratio = sc_poverty_share / all_poverty_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In 2011-12, what percent of rural Scheduled Tribes lived below the poverty line: 45.3 or 5.3?",
+     "a": "45.3"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.5",
+   "title": "Race and Caste Compared: Apartheid Arithmetic",
+   "section": "5.2 Box 5.1b Race and Caste - A Cross-Cultural Comparison",
+   "definition": "South Africa's apartheid, law from 1948, stratified society by race much as caste does in India: the white minority of about one in seven denied the Black majority citizenship, land and voice; Black workers earned on average one-fourth of white earnings; and millions were forced into Bantustan homelands covering only 14 per cent of the land while Blacks formed close to 80 per cent of the population. Only in 1994, after decades of struggle under the African National Congress and Nelson Mandela, did Black majority rule arrive, though economic capital remains largely in white hands.",
+   "formula": "land_per_head_ratio = homeland_land_share / homeland_population_share ; earnings_multiple = white_earnings / black_earnings",
+   "key_idea": "Homelands gave the Black majority less than a fifth of the average land per head, and whites out-earned blacks four to one - the arithmetic of racial caste.",
+   "textbook_ref": "lesy105.txt, Box 5.1b (apartheid law 1948, one-fourth earnings, 14 per cent land for 80 per cent population, Mandela 1994)",
+   "question_patterns": [
+    "compute how the homeland land share compared with the population share forced to live there under apartheid",
+    "using the one-fourth earnings figure, find how many times more white South Africans earned than Black workers",
+    "in what ways does apartheid in South Africa resemble the caste system in India?",
+    "which policy became law in 1948 to separate the races in South Africa?",
+    "what were the Bantustans or homelands and what resources did they lack?",
+    "how did the African National Congress and Nelson Mandela finally come to power in 1994?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the homeland land share by the Black population share",
+     "explain": "14 per cent of the land carried close to 80 per cent of the people, so the quotient shows the land per head relative to the national average",
+     "compute": "land_per_head_ratio = homeland_land_share / homeland_population_share"
+    },
+    {
+     "step": 2,
+     "action": "divide the white average earnings by the Black average earnings",
+     "explain": "with Black pay at one-fourth of white pay, the quotient gives the racial earnings multiple",
+     "compute": "earnings_multiple = white_earnings / black_earnings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Under apartheid, Black workers earned on average what fraction of white earnings: one-fourth or three-fourths?",
+     "a": "one-fourth"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.6",
+   "title": "Reservations, Anti-Discrimination Laws and OBC Politics",
+   "section": "5.2 State and Non-State Initiatives / The Other Backward Classes",
+   "definition": "The state answers caste discrimination with reservations - seats in legislatures, government jobs and educational institutions set aside for Scheduled Castes and Tribes in proportion to their population share, extended to the Other Backward Classes from the early 1990s. A legal arc runs from the Caste Disabilities Removal Act of 1850, through Article 17 of the 1950 Constitution abolishing untouchability and the 1989 Prevention of Atrocities Act, to the Ninety-Third Amendment of 2005 bringing OBC reservation to higher education. OBC politics itself grew from the sidelined Kaka Kalelkar report of 1953 to the B.P. Mandal Commission, implemented in 1990, turning their roughly 41 per cent share of the national population into national political influence.",
+   "formula": "reservation_spheres = legislatures + government_jobs + educational_institutions ; obc_trajectory = kalelkar_1953 sidelined -> mandal_report -> implemented_1990",
+   "key_idea": "Laws passed again and again prove that legislation alone cannot end a social practice - Dalit and OBC movements push change from below.",
+   "textbook_ref": "lesy105.txt, State and Non-State Initiatives (1935 schedules, reservations, 1850 Act, Article 17, 1989 Act, 93rd Amendment 2006), The Other Backward Classes (Kalelkar, Mandal, 41 per cent)",
+   "question_patterns": [
+    "describe some of the policies designed to address caste inequality in India",
+    "how are the Other Backward Classes different from the Dalits or Scheduled Castes?",
+    "what does the reservation principle share with population shares, and how is the OBC quota decided differently?",
+    "trace the OBC journey from the Kalelkar Commission report to the Mandal Commission implementation of 1990",
+    "connect the Caste Disabilities Removal Act of 1850 and the Ninety-Third Amendment of 2005 through education",
+    "which constitutional article abolished untouchability and which 1989 law punished atrocities against Dalits and adivasis?",
+    "why are OBCs called a more diverse and difficult category than Dalits or adivasis?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the reservation design",
+     "explain": "reserved seats in legislatures, jobs and education match the population share of SCs and STs, while the OBC proportion follows a different rule"
+    },
+    {
+     "step": 2,
+     "action": "check the legal and political arc",
+     "explain": "from 1850 to the 2005 amendment the law repeatedly attacked caste discrimination, and OBC numbers around 41 per cent of the population converted into national influence only after 1990"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Seats in legislatures and government jobs set aside for Scheduled Castes and Tribes are called what?",
+     "a": "reservations"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.7",
+   "title": "Adivasi Struggles: Forests, Displacement and Identity",
+   "section": "5.2 Adivasi Struggles",
+   "definition": "Adivasis, coined in the 1930s to mean original inhabitants, lost their forest rights when the colonial government reserved forests for timber from the late nineteenth century, and independent India's capital-intensive industrialisation then acquired their mineral-rich lands for dams and mines - the Sardar Sarovar on the Narmada and Polavaram on the Godavari displaced hundreds of thousands - a process critics call internal colonialism. Tribal movements against outsiders called dikus and the state won statehood for Jharkhand and Chattisgarh, which adivasis could demand because, unlike Dalits, they were concentrated in contiguous areas.",
+   "formula": "adivasi_losses = forest_rights_reserved + land_acquired_for_dams_mines + displacement_without_rehabilitation ; wins = jharkhand + chattisgarh statehood",
+   "key_idea": "Being Adivasi names shared experiences of lost forests, alienated land and repeated displacement rather than any ancient essence.",
+   "textbook_ref": "lesy105.txt, Adivasi Struggles (colonial forest reservation, dams, internal colonialism, dikus, statehood achievements, Tribes of India photo feature)",
+   "question_patterns": [
+    "what are the major issues of concern to adivasis today?",
+    "how did colonial forest reservation take away the livelihood base of adivasis?",
+    "why are dam and mining projects in adivasi areas called a form of internal colonialism?",
+    "name two dams that displaced adivasi communities and the rivers they span",
+    "why could adivasis demand states of their own while Dalits could not?",
+    "what does the term Adivasi literally mean and when was it coined?",
+    "which statehood victories mark the achievements of post-Independence adivasi movements?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the loss chain",
+     "explain": "reserved forests severed gathering and shifting cultivation rights, and post-Independence acquisitions for mining and dams displaced millions without proper rehabilitation"
+    },
+    {
+     "step": 2,
+     "action": "check the movement gains",
+     "explain": "struggles against dikus and the state won Jharkhand and Chattisgarh statehood, possible because adivasis lived in contiguous areas unlike dispersed Dalits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Adivasi, coined in the 1930s, means what: original inhabitants or new settlers?",
+     "a": "original inhabitants"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.8",
+   "title": "Struggle for Women's Equality and Rights",
+   "section": "5.3 Struggle for women's equality and rights",
+   "definition": "Gender inequality is social, not natural - matrilineal societies like the Nairs and Khasis, and African women farmers and traders, prove no biology blocks women's inheritance or leadership. The nineteenth-century middle-class reform movements fought sati under Raja Rammohun Roy, widow remarriage through Ranade, caste-plus-gender oppression through Jyotiba Phule, and Muslim social reform through Sir Syed Ahmed Khan; women themselves wrote back, from Tarabai Shinde's Stree Purush Tulana of 1882 to Rokeya Sakhawat Hossain's Sultana's Dream of 1905, an early feminist science fiction. The 1931 Karachi Session pledged equal rights for women, and the movement re-emerged in the 1970s around modern issues such as media representation, unequal development, legal reform and the falling child sex ratio.",
+   "formula": "reform_sites = anti_sati_roy + widow_remarriage_ranade + phule_caste_gender + sir_syed_education ; women_voices = tarabai_1882 + rokeya_1905 ; karachi_1931 = equal_rights_pledge",
+   "key_idea": "Once the right to education was conceded, confining women to household curricula became impossible - and the twenty-first century adds new battles like the declining child sex ratio.",
+   "textbook_ref": "lesy105.txt, section 5.3 (reform movements, Boxes 5.3 and 5.4, Karachi Session declaration, 1970s re-emergence)",
+   "question_patterns": [
+    "what are the major issues taken up by the women's movement over its history?",
+    "why is gender inequality called social rather than natural, with the matrilineal counter-example?",
+    "which reformer led the anti-sati campaign and with what arguments?",
+    "how did Tarabai Shinde protest the double standards of male-dominated society in 1882?",
+    "what makes Sultana's Dream an early feminist science fiction text?",
+    "what did the Karachi Session of 1931 promise about women's rights?",
+    "how did the concerns of the 1970s women's movement differ from the nineteenth century reform agenda?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the social-not-natural argument",
+     "explain": "societies where women inherit and lead - Nairs, Khasis, African farming communities - show biology cannot explain male dominance"
+    },
+    {
+     "step": 2,
+     "action": "check the movement timeline",
+     "explain": "nineteenth-century reform attacked sati, widow maltreatment and education bar; women authors answered from 1882 and 1905; the Karachi pledge of 1931 and the 1970s revival carried equality forward"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who led the fight against sati: Raja Rammohun Roy or Ranade?",
+     "a": "Raja Rammohun Roy"
+    }
+   ]
+  },
+  {
+   "id": "lesy105.9",
+   "title": "Disability as a Social Construction",
+   "section": "5.4 The Struggles of the Disabled",
+   "definition": "The differently abled are disabled not only by impairment but by a society built without them - buildings without ramps, schooling split into segregated streams, courts reached only by stairs. Anita Ghai likens their invisibility to Ellison's Invisible Man; culture deepens it by reading disability as fate or retribution for past karma and labelling people bechara. Replacing crippled or retarded with visually impaired or physically challenged shifts attention to the social model: disablement lies in the construction of society, and disability and poverty feed each other, leaving disabled people among the poorest - which is why Census 2011 widened its count to eight types of disability against five in 2001.",
+   "formula": "social_model = society_renders_disabled (built_environment + segregated_schooling + labels) ; poverty_link = disability <-> poverty two_way",
+   "key_idea": "We are disabled by steps at the courthouse and by two-stream schooling, not merely by body or fate - and the disabled themselves forced the public rethinking.",
+   "textbook_ref": "lesy105.txt, section 5.4 (Ghai and Ellison, public perception features, Brisenden quote, Box 5.5 Census 2011 approach, Boxes 5.6 and 5.7)",
+   "question_patterns": [
+    "in what sense can one say that disability is as much a social as a physical thing?",
+    "how does Anita Ghai use Ellison's Invisible Man to describe the disabled in India?",
+    "which cultural beliefs portray disability as fate or retribution for past karma?",
+    "why do disability and poverty reinforce each other according to the chapter?",
+    "how many types of disability did Census 2011 attempt to record against how many in Census 2001?",
+    "what does the court building example in Box 5.6 show about disablement by construction?",
+    "which film does the chapter cite to illustrate the phrase differently abled?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the social model claim",
+     "explain": "steps without ramps, segregated schooling and insulting labels disable people whose impairment alone would not; the construction of society, not the body, is the culprit"
+    },
+    {
+     "step": 2,
+     "action": "check the data and recognition shift",
+     "explain": "Census 2011 covered eight disability types through a filter question after field trials, reflecting the disabled movement's push for visibility and the two-way link with poverty"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The differently abled are disabled by impairment and by what else: a society built without them, or fate alone?",
+     "a": "a society built without them"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy105.we1",
+   "concept_id": "lesy105.4",
+   "problem": "Using Table 1 of the chapter, rural Scheduled Tribe poverty is 45.3 per cent and the all-group rural average is 25.4 per cent; Scheduled Castes stand at 31.5 per cent. How many times the average does each group's poverty run?",
+   "given": {
+    "st_poverty_share": 45.3,
+    "sc_poverty_share": 31.5,
+    "all_poverty_share": 25.4
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide the ST share by the all-group share",
+     "compute": "st_poverty_ratio = 45.3 / 25.4"
+    },
+    {
+     "step": 2,
+     "action": "divide the SC share by the same all-group share",
+     "compute": "sc_poverty_ratio = 31.5 / 25.4"
+    }
+   ],
+   "answer": "st_poverty_ratio = 1.78 and sc_poverty_ratio = 1.24, so rural ST poverty runs nearly 1.8 times the national average and SC poverty about a quarter more"
+  },
+  {
+   "id": "lesy105.we2",
+   "concept_id": "lesy105.5",
+   "problem": "Under apartheid, the Bantustan homelands held 14 per cent of South Africa's land for a population that was about 80 per cent of the country, and Black workers earned 25 units for every 100 earned by whites. Compute the land-per-head ratio and the earnings multiple.",
+   "given": {
+    "homeland_land_share": 14,
+    "homeland_population_share": 80,
+    "white_earnings": 100,
+    "black_earnings": 25
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide the land share by the population share",
+     "compute": "land_per_head_ratio = 14 / 80"
+    },
+    {
+     "step": 2,
+     "action": "divide white earnings by Black earnings",
+     "compute": "earnings_multiple = 100 / 25"
+    }
+   ],
+   "answer": "land_per_head_ratio = 0.175, less than a fifth of the average land per head, and earnings_multiple = 4, whites out-earning Black workers four to one"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy105.ex1",
+   "source_ref": "lesy105.txt chapter-end Questions",
+   "questions": [
+    "How is social inequality different from the inequality of individuals?",
+    "What are some of the features of social stratification?",
+    "How would you distinguish prejudice from other kinds of opinion or belief?",
+    "What is social exclusion?",
+    "What is the relationship between caste and economic inequality today?",
+    "What is untouchability?",
+    "Describe some of the policies designed to address caste inequality.",
+    "How are the Other Backward Classes different from the Dalits or Scheduled Castes?",
+    "What are the major issues of concern to adivasis today?",
+    "What are the major issues taken up by the women's movement over its history?",
+    "In what sense can one say that disability is as much a social as a physical thing?"
+   ]
+  },
+  {
+   "id": "lesy105.ex2",
+   "source_ref": "lesy105.txt Exercise for Tables 1 and 2",
+   "questions": [
+    "What percentage of the Indian population lived below the poverty line in rural and in urban India in 2011-12?",
+    "Which caste or community group shows the highest proportion in extreme poverty in rural and in urban India, and which the lowest?",
+    "The affluence line equals Rs.1000 per person per month in rural India - what monthly expenditure does that mean for a family of five?",
+    "Compare urban OBC poverty (15.4 per cent) with the urban all-group figure (13.7 per cent) - how many times the average is it?",
+    "Using Table 2, how many times larger is rural Sikh affluence (31.7 per cent) than rural ST affluence (1.4 per cent)?"
+   ]
+  }
+ ]
+}

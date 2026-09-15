@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_11",
+   "title": "c9_math_ch3_11",
+   "questions": [
+    {
+     "q": "What is the length of the hypotenuse of a right triangle with legs of length 1 unit and 1 unit, and where does this length appear on the number line constructed from zero?",
+     "a": "The hypotenuse length is √2 units. On the number line, it appears at the point where an arc of radius √2 (drawn from zero) intersects the positive side. A wrong answer like \"2 units\" or \"1.5 units\" reveals the student is confusing the Pythagorean sum of squares (1²+1²=2) with linear addition (1+1=2) or averaging, indicating they haven't internalised that the hypotenuse is √(a²+b²), not a+b.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why constructing a perpendicular of 1 unit at the point √2 on the number line and joining it to zero gives a hypotenuse of exactly √3. Use the Pythagorean theorem in your reasoning.",
+     "a": "The existing distance from zero to √2 is one leg (√2). The new perpendicular of 1 unit is the other leg. By Pythagoras, hypotenuse² = (√2)² + 1² = 2 + 1 = 3, so hypotenuse = √3. A student who says \"we add 1 to √2 to get √3\" or \"the hypotenuse becomes √2 + 1\" is treating the construction as linear addition rather than quadratic addition of squares, a fundamental misconception about how distances combine in right triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Construct √5 on the number line starting from 0 and 1. Show all steps and state the exact legs of the right triangle used in the final step.",
+     "a": "Step 1: Mark 0 and 1 on number line. Step 2: At 1, draw perpendicular of 1 unit → hypotenuse = √2. Step 3: At √2, draw perpendicular of 1 unit → hypotenuse = √3. Step 4: At √3, draw perpendicular of 1 unit → hypotenuse = √4 = 2. Step 5: At 2, draw perpendicular of 1 unit → hypotenuse = √(2²+1²) = √5. Final triangle legs: 2 and 1. A student who tries to jump directly from 1 to √5 using legs 1 and 2 (without first constructing 2) shows they don't understand the sequential dependency: each √n requires the previous √(n-1) as a leg, unless they use a different Pythagorean triplet (like 1 and 2 for √5, but 2 must already be constructed).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"spiral method\" (adding 1 unit perpendicular each time) with the \"direct triplet method\" (using known Pythagorean triplets like 3-4-5) for representing √5, √10, and √13. Which is more efficient for √13 and why?",
+     "a": "For √13, the direct triplet method using legs 2 and 3 (since 2²+3²=13) is more efficient: construct 2 (already on number line), erect perpendicular of 3 units, hypotenuse = √13. The spiral method would require 12 steps (√2 through √13). A student who says \"spiral is always better\" or \"triplet method doesn't work for √13\" fails to recognise that any representation relies on finding integers a,b such that a²+b²=n, and that pre-constructed lengths can be reused. This tests analytical comparison of algorithms.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs √7 by drawing a right triangle with legs 1 and √6, but they haven't constructed √6 yet. They claim the construction is valid because \"1² + (√6)² = 7\". Evaluate this reasoning.",
+     "a": "The reasoning is mathematically correct (1² + (√6)² = 7) but geometrically invalid because √6 is not yet available on the number line. Constructions must be sequential: each new length must be built from already-constructed lengths. The student must first construct √2, √3, √4=2, √5, √6, then use √6 and 1 to get √7. A wrong evaluation that says \"it's fine because the algebra works\" confuses algebraic truth with constructive feasibility — a critical distinction in geometric construction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a construction sequence to represent √11 on the number line using the fewest possible steps. Justify your choice of right triangle legs at each step.",
+     "a": "Optimal sequence: 0,1 → √2 (1,1) → √3 (√2,1) → 2 (√3,1) → √5 (2,1) → √11 (√5,√6?) Wait, better: use triplet 1²+√10²? No, √10 not built. Best: Build 3 (from 2 and √5? No). Actually, 11 = 3² + √2²? 9+2=11. So if we have 3 and √2, we can get √11 in one step after having 3. To get 3: 0,1 → √2 → √3 → 2 → √5 → √6 → √7 → √8 → 3 (that's 8 steps). Alternatively, 11 = 1²+√10², but √10 needs building. The minimal step construction is an open-ended optimisation problem; a good answer identifies a Pythagorean pair (a,b) with a²+b²=11 where both a and b are already constructed or easily constructed (e.g., √2 and 3). A poor answer gives a long spiral without seeking shortcuts, showing lack of strategic thinking about Pythagorean triplets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

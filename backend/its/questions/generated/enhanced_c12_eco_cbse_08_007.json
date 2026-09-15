@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_007",
+   "title": "c12_eco_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define Gross Domestic Capital Formation and list its three sub-components as per the NCERT classification.",
+     "a": "Gross Domestic Capital Formation (GDCF) is the addition to the capital stock of the economy within the domestic territory during an accounting year. Its three sub-components are: (1) Gross Fixed Capital Formation (expenditure on fixed assets like machinery, buildings), (2) Change in Stocks (inventory investment: unsold goods, raw materials, semi-finished goods), and (3) Acquisitions less Disposals of Valuables (gold, jewellery, art held as store of value). A wrong answer that omits 'Change in Stocks' or includes 'purchase of shares' reveals confusion between financial investment and real capital formation.",
+     "self_check": true
+    },
+    {
+     "q": "Why are imports (M) subtracted in the expenditure method formula GDPmp = C + G + I + (X − M)? Explain using the concept of domestic production.",
+     "a": "C, G, and I include expenditure on both domestic and imported goods. For example, if a household buys an imported phone (part of C) or a firm buys an imported machine (part of I), that spending does not reflect domestic production. Exports (X) are domestically produced but not consumed domestically, so they are added. To isolate expenditure on domestic output only, we must subtract the import content embedded in C, G, and I. A wrong answer that says \"imports are subtracted because they are a leakage\" confuses the expenditure method with the circular flow leakage/injection framework; the correct reason is accounting for domestic territory.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate GDPmp from the following data (in ₹ crore): Private Final Consumption Expenditure = 80,000; Government Final Consumption Expenditure = 20,000; Gross Domestic Fixed Capital Formation = 25,000; Change in Stocks = 3,000; Acquisitions less Disposals of Valuables = 2,000; Exports = 15,000; Imports = 18,000.",
+     "a": "Step 1: Identify components: C = 80,000; G = 20,000.\nStep 2: Compute I = Gross Fixed Capital Formation + Change in Stocks + Valuables = 25,000 + 3,000 + 2,000 = 30,000.\nStep 3: Compute Net Exports = X − M = 15,000 − 18,000 = −3,000.\nStep 4: GDPmp = C + G + I + (X − M) = 80,000 + 20,000 + 30,000 + (−3,000) = 1,27,000 crore.\nA wrong answer that forgets to add 'Change in Stocks' and 'Valuables' to get I, or uses M = 18,000 as positive in the sum, reveals misunderstanding of capital formation composition or sign convention for net exports.",
+     "self_check": true
+    },
+    {
+     "q": "A car manufacturer produces ₹500 crore worth of cars in 2023-24. It sells ₹300 crore to households, ₹100 crore to the government as official vehicles, ₹50 crore are exported, and ₹50 crore remain unsold. The firm also buys ₹80 crore of steel (intermediate good) from a domestic steel plant. How much of this activity enters GDPmp via the expenditure method? Show the allocation across C, G, I, X.",
+     "a": "Only final expenditure on domestic output counts. The steel purchase (₹80 crore) is intermediate and excluded. Final expenditure: Household purchase = C = ₹300 crore; Government purchase = G = ₹100 crore; Exports = X = ₹50 crore; Unsold cars = Change in Stocks (part of I) = ₹50 crore. Total = 300 + 100 + 50 + 50 = ₹500 crore. Note that the value of output (₹500 crore) equals the sum of final expenditures. A wrong answer that includes the ₹80 crore steel purchase in I or G double-counts intermediate goods; another error is treating unsold cars as 'not sold so not counted' — they are inventory investment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An increase in imports always reduces GDPmp because imports are subtracted in the formula.\" Use a scenario where higher imports accompany higher domestic investment.",
+     "a": "The statement is false. Imports are subtracted because they are already embedded in C, G, or I. If a firm imports a machine worth ₹100 crore, I increases by ₹100 crore (gross fixed capital formation) and M increases by ₹100 crore. The net effect on GDPmp is zero for that transaction — domestic production is unchanged. However, if the imported machine enables higher future domestic output, GDPmp may rise later. A wrong answer that treats the subtraction as a causal negative effect confuses accounting identity with behavioural relationship; the identity GDPmp = C + G + I + X − M holds by construction, but M is not an independent policy lever that directly reduces GDP.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical example for a small open economy showing how a shift from consumption to investment (with no change in total final expenditure) affects the composition of GDPmp but not its level. Use numbers for C, G, I, X, M before and after.",
+     "a": "Initial: C = 60, G = 10, I = 20, X = 15, M = 15 → GDPmp = 60+10+20+15−15 = 90.\nAfter shift: Households save more, firms invest more. C falls to 50, I rises to 30. G, X, M unchanged. New GDPmp = 50+10+30+15−15 = 90.\nComposition changes: Consumption share falls from 66.7% to 55.6%; Investment share rises from 22.2% to 33.3%. A poor answer that changes GDPmp level or forgets that M might change if investment goods are imported misses the ceteris paribus condition and the import content of investment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

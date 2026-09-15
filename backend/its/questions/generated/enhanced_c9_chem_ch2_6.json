@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_6",
+   "title": "c9_chem_ch2_6",
+   "questions": [
+    {
+     "q": "What is the maximum number of electrons that can be accommodated in the M shell (n=3) according to the 2n² rule?",
+     "a": "The maximum number is 2 × 3² = 18 electrons. A wrong answer (e.g., 8) reveals the student is confusing the 2n² capacity with the octet rule limitation that applies only to the outermost shell, not the inherent capacity of the M shell.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the electronic configuration of calcium (Z=20) end as 2,8,8,2 instead of 2,8,10?",
+     "a": "After filling K (2) and L (8), the M shell can hold up to 18 (2n²), but the octet rule limits the outermost shell to 8 electrons until the next shell begins. So the 19th and 20th electrons go to the N shell (n=4) giving 2,8,8,2. A wrong answer (e.g., \"M shell can only hold 8\") shows the student thinks 2n² gives 8 for n=3, confusing the octet rule with the shell capacity formula.",
+     "self_check": true
+    },
+    {
+     "q": "Write the electronic configuration of an element with atomic number 15. Show the step-by-step filling of shells using the 2n² rule.",
+     "a": "Step 1: K shell (n=1) max = 2×1² = 2 → fill 2 electrons (remaining 13). Step 2: L shell (n=2) max = 2×2² = 8 → fill 8 electrons (remaining 5). Step 3: M shell (n=3) max = 2×3² = 18, but outermost limit = 8 → fill 5 electrons. Configuration = 2,8,5. A wrong answer (e.g., 2,8,13 or 2,8,8, -3) reveals the student either ignores the octet limit for the outermost shell or miscalculates remaining electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electronic configurations of argon (Z=18) and potassium (Z=19). Explain why the 19th electron enters the N shell instead of the M shell, even though the M shell can hold 18 electrons.",
+     "a": "Argon: 2,8,8 (M shell has 8, outermost is full with octet). Potassium: 2,8,8,1. The 19th electron goes to N shell because the M shell, though capable of 18, is the outermost shell in argon and already satisfies the octet. Adding more electrons to M would exceed the octet rule for the valence shell. The next shell (N) starts once the outermost shell reaches 8. A wrong answer (e.g., \"M shell is full at 8\") shows the student confuses shell capacity with valence shell limit.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the electronic configuration of chlorine (Z=17) as 2,8,7. Another student writes it as 2,7,8. Which is correct? Justify your answer using the 2n² rule and the octet rule.",
+     "a": "The correct configuration is 2,8,7. The first student followed the correct order: K=2, L=8 (max 8), M gets the remaining 7. The second student incorrectly placed 7 in L and 8 in M, violating the sequential filling order (lower n fills first) and the octet rule (L shell can hold 8, but they put only 7). A wrong choice reveals the student does not understand that shells fill in increasing order of n and that the octet rule applies to the outermost shell, not inner shells.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple rule or mnemonic that a Class 9 student could use to remember the maximum electrons in the first four shells (K, L, M, N) and the order of filling for elements 1–20. Explain why your mnemonic works chemically.",
+     "a": "A good mnemonic: \"K=2, L=8, M=18, N=32\" for capacities, but \"Fill order: 2, 8, 8, 18...\" for elements 1–20. Or a phrase: \"Two Eight Eight Eighteen\" for the filling sequence. It works because it encodes the 2n² values (2,8,18,32) and the octet limitation that modifies the third shell filling to 8 before the fourth shell starts. A poor answer would just list numbers without explaining the octet constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

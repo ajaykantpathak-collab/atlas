@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_004",
+   "title": "c10_phy_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the direction of the magnetic field inside a long solenoid carrying current, and name the rule used to determine the polarity of its ends.",
+     "a": "Inside a long solenoid, magnetic field lines are straight, parallel to the axis, and directed from the south pole to the north pole. The polarity is determined by the **clock rule** (or right-hand grip rule): if current appears clockwise at an end, that end is the south pole; if anticlockwise, it is the north pole. A wrong answer (e.g., \"field lines are circular inside\") reveals confusion between a single loop and a solenoid; the student has not visualized the superposition of fields from multiple turns.",
+     "self_check": true
+    },
+    {
+     "q": "Why does inserting a soft iron core into a current-carrying solenoid increase the magnetic field strength dramatically, whereas a steel core would not be suitable for an electromagnet?",
+     "a": "Soft iron has high magnetic permeability and low retentivity: it magnetizes strongly when current flows but loses almost all magnetism when current stops, making it ideal for a temporary electromagnet. Steel has high retentivity; it retains magnetization and becomes a permanent magnet, so the device cannot be switched off. A wrong answer (e.g., \"steel is stronger\") shows the student confuses \"magnetic strength\" with \"retentivity\" and does not understand the requirement of temporary magnetization for electromagnets.",
+     "self_check": true
+    },
+    {
+     "q": "A solenoid of length 20 cm has 500 turns and carries a current of 2 A. If the number of turns is doubled while keeping length and current the same, how does the magnetic field strength inside the solenoid change? Justify qualitatively.",
+     "a": "The magnetic field strength inside a solenoid is directly proportional to the number of turns per unit length (\\(n = N/L\\)). Doubling \\(N\\) while keeping \\(L\\) constant doubles \\(n\\), so the magnetic field strength **doubles**. Steps: (1) Identify \\(B \\propto n = N/L\\). (2) Initial \\(n_1 = 500/0.2 = 2500\\) turns/m. (3) New \\(n_2 = 1000/0.2 = 5000\\) turns/m. (4) Ratio \\(B_2/B_1 = n_2/n_1 = 2\\). (5) Field doubles. A wrong answer (e.g., \"remains same\") indicates the student thinks only current matters, ignoring turn density.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical solenoids A and B are connected in series to a battery. Solenoid A has a soft iron core, B has a wooden core. Compare the magnetic field strengths at their centers and explain why the compass needle deflection differs when placed near each.",
+     "a": "Solenoid A (soft iron core) produces a much stronger magnetic field at its center than solenoid B (wooden core). Soft iron has high relative permeability (\\(\\mu_r \\approx 4000\\)), concentrating magnetic field lines inside the core, while wood is non-magnetic (\\(\\mu_r \\approx 1\\)). The compass needle near A shows large deflection; near B, weak deflection. A wrong answer (e.g., \"both same because current same\") reveals the student ignores the core material's role in amplifying the field.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"An electromagnet made with a soft iron core can be used to separate magnetic materials from non-magnetic ones in a scrapyard, but it cannot lift a permanent bar magnet.\" Evaluate this statement.",
+     "a": "The statement is **partially incorrect**. An electromagnet can indeed lift a permanent bar magnet because the electromagnet's field interacts with the permanent magnet's field, producing attraction (if opposite poles face) or repulsion. Scrapyard cranes lift ferromagnetic materials (iron, steel) which include permanent magnets. The error in the claim shows the student thinks permanent magnets are immune to external fields or that electromagnets only attract unmagnetized iron.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, insulated copper wire, an iron nail, and a compass to demonstrate that (a) a current-carrying solenoid behaves like a bar magnet, and (b) the polarity reverses when current direction is reversed.",
+     "a": "**Expected answer:** Wind 50 turns of wire on the nail, connect to battery via a switch. Place compass near one end; note deflection direction (e.g., north pole of compass points away → that end is north). Reverse battery terminals; compass deflection reverses, proving polarity reversal. For (a), bring a bar magnet near the solenoid; observe attraction/repulsion matching pole polarity. A poor answer (e.g., \"just use the compass\") lacks controlled steps, does not mention reversing current, or does not link deflection to pole identification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

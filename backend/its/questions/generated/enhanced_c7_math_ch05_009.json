@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_009",
+   "title": "c7_math_ch05_009",
+   "questions": [
+    {
+     "q": "What do we call the pair of interior angles that lie on the same side of a transversal line cutting across two lines?",
+     "a": "They are called interior angles on the same side of the transversal, consecutive interior angles, or co-interior angles. A wrong answer like \"alternate interior angles\" shows confusion between angles on opposite sides versus the same side of the transversal. Another wrong answer like \"corresponding angles\" indicates the student is confusing interior angles with angles in matching positions at different intersections.",
+     "self_check": true
+    },
+    {
+     "q": "If two lines are cut by a transversal, why are the interior angles on the same side of the transversal *not* always supplementary ($180^\\circ$)?",
+     "a": "They are only supplementary if the two lines cut by the transversal are parallel lines. If the two lines are intersecting and not parallel, the co-interior angles will not sum to $180^\\circ$. A student who answers \"They are always supplementary for any two lines\" misses the essential condition that parallel lines are required for this angle relationship to hold true.",
+     "self_check": true
+    },
+    {
+     "q": "Two parallel lines are cut by a transversal. If one interior angle on the same side of the transversal measures $75^\\circ$, what is the measure of the other interior angle on that same side?",
+     "a": "The correct answer is $105^\\circ$. Working steps: 1) Identify that interior angles on the same side of a transversal between parallel lines are supplementary. 2) Write the equation: $\\text{Angle}_1 + \\text{Angle}_2 = 180^\\circ$. 3) Substitute the known value: $75^\\circ + \\text{Angle}_2 = 180^\\circ$. 4) Subtract $75^\\circ$ from $180^\\circ$ to get $\\text{Angle}_2 = 180^\\circ - 75^\\circ = 105^\\circ$. A student who answers $75^\\circ$ incorrectly assumes co-interior angles are equal (confusing them with corresponding or alternate interior angles).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a figure where line $L_1$ and line $L_2$ are cut by a transversal $T$. Co-interior angles are measured as $(3x + 10)^\\circ$ and $(2x + 20)^\\circ$. If $L_1$ is parallel to $L_2$, what is the algebraic expression for their sum, and what property justifies it?",
+     "a": "The sum is $(3x + 10) + (2x + 20) = 5x + 30$, and it equals $180^\\circ$ because interior angles on the same side of a transversal of parallel lines are supplementary. A student who sets the two expressions equal to each other ($(3x + 10) = (2x + 20)$) is confusing co-interior angles with alternate interior or corresponding angles, which are equal.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a co-interior angle problem where the angles are given as $4x$ and $2x$, and claims that $4x = 120^\\circ$ and $2x = 60^\\circ$ because \"co-interior angles divide the straight line into ratio 2:1\". Evaluate this student's reasoning.",
+     "a": "The student's final angle values happen to be correct ($120^\\circ$ and $60^\\circ$ sum to $180^\\circ$), but their reasoning is flawed. Co-interior angles are supplementary ($4x + 2x = 180^\\circ$, so $6x = 180^\\circ$, $x = 30^\\circ$), meaning $4(30) = 120^\\circ$ and $2(30) = 60^\\circ$. They do not automatically divide a straight line in a simple ratio unless specified; they sum to $180^\\circ$ due to the parallel line property. A student who accepts the flawed ratio reasoning without checking the algebraic sum fails to understand the geometric theorem behind the numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem involving a street layout in a town where two parallel roads are crossed by a diagonal railway track, requiring the use of co-interior angles to find an unknown angle for town planning.",
+     "a": "An acceptable response must feature two parallel streets (e.g., MG Road and Station Road) cut by a transversal railway track, with one co-interior angle given as an algebraic expression like $(5x)^\\circ$ and the other as $100^\\circ$, requiring setting their sum to $180^\\circ$ to solve for $x$. A poor response would just use random numbers without a real-world context or fail to make the two roads parallel, making the co-interior angle rule invalid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

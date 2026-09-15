@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_001",
+   "title": "c12_acc_cbse_07_001",
+   "questions": [
+    {
+     "q": "What are the two primary financial statements mandated by Schedule III of the Companies Act, 2013 for a company, and what does each report?",
+     "a": "The two primary statements are: (1) Balance Sheet — reports the financial position (assets, liabilities, equity) at a specific point in time (e.g., 31st March 2024). (2) Statement of Profit and Loss — reports the financial performance (revenue, expenses, profit/loss) over a period (e.g., year ended 31st March 2024). A wrong answer (e.g., naming \"Trading Account\" or \"Cash Flow Statement\" as primary) reveals confusion between the *statutory requirement for companies* (Schedule III) and the *traditional sole proprietorship format* learned in Class 11, or misunderstanding that Cash Flow Statement, though mandatory, is a *supplementary* statement, not one of the two primary ones.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Financial statements of a company are just like those of a sole proprietorship, only the headings change from 'Capital' to 'Share Capital'.\" Explain why this statement is incorrect, referencing at least three fundamental differences in nature or objective.",
+     "a": "The statement is incorrect because: (1) **Legal Requirement**: Company statements *must* follow Schedule III format (statutory), while sole proprietorship has no prescribed format. (2) **User Base & Objective**: Companies serve diverse external users (shareholders, creditors, regulators, public) requiring stewardship accountability and comparability; sole proprietorship serves mainly the owner. (3) **Audit & Disclosure**: Company statements are subject to mandatory audit and extensive note disclosures (accounting policies, contingent liabilities, related party transactions); sole proprietorship has no such mandate. (4) **Equity Structure**: Company equity includes share capital, reserves, surplus, money received against share warrants — far more complex than a single Capital account. A wrong answer indicates failure to grasp the *regulatory framework* and *public accountability* that define company financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. prepares its financial statements for the year ended 31st March 2024. The accountant includes the following in the Balance Sheet: (a) Unpaid salary for March 2024 (₹50,000), (b) Market value of land purchased in 2010 (₹2 crore), (c) Estimated future profit from a signed contract (₹10 lakh). Identify which items violate the nature of financial statements and explain why, using the concepts of *historical cost*, *accrual basis*, and *monetary measurement*.",
+     "a": "(a) **Unpaid salary ₹50,000** — *Correctly included* as a current liability (Outstanding Expense). This follows the **accrual basis** (expense recognised when incurred, not paid).  \n(b) **Market value of land ₹2 crore** — *Violates historical cost concept*. Financial statements record assets at *acquisition cost*, not current market value (unless revaluation is done per specific accounting standard with disclosure). Including market value without revaluation misleads users.  \n(c) **Estimated future profit ₹10 lakh** — *Violates monetary measurement and realisation concept*. Only *realised* or *realisable* revenues are recognised; future profits are uncertain and not measurable reliably.  \nA wrong answer (e.g., accepting market value or future profit) shows confusion between *economic value* and *accounting measurement*, or ignorance of the qualitative characteristic **reliability** (verifiability, neutrality, faithful representation).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the objective of \"Stewardship Reporting\" in a company versus a partnership firm. How does the separation of ownership and management in a company change the nature of this objective?",
+     "a": "In a **partnership**, partners are usually both owners and managers; stewardship is internal — partners monitor each other directly. In a **company**, ownership (shareholders) is separated from management (Board of Directors). Stewardship becomes an *external accountability mechanism*: financial statements are the primary tool for shareholders to assess whether directors have safeguarded and grown their investment. This necessitates **independent audit**, **standardised format (Schedule III)**, and **extensive disclosures** (segment reporting, related party transactions) — none mandatory for partnerships. The objective shifts from \"mutual trust\" to \"verified, comparable, decision-useful information for absentee owners.\" A weak answer misses the *agency theory* implication: separation of ownership/control creates information asymmetry, which financial statements aim to reduce.",
+     "self_check": true
+    },
+    {
+     "q": "\"Financial statements prepared under Schedule III are completely free from bias because they follow a rigid legal format.\" Evaluate this statement. Discuss the role of *accounting estimates*, *choice of accounting policies*, and *management judgement* in introducing subjectivity, even within a prescribed format.",
+     "a": "The statement is **false**. Schedule III standardises *presentation* (format, classification, disclosure requirements), not *measurement*. Significant subjectivity remains:  \n- **Accounting Estimates**: Provision for doubtful debts, useful life of assets, warranty obligations, fair value of unquoted investments — all require management judgement.  \n- **Choice of Policies**: Within Ind AS/AS, choices exist (e.g., cost model vs revaluation model for PPE, FIFO vs weighted average for inventory). Different choices yield different profits/equity.  \n- **Judgement in Classification**: Current vs non-current classification of liabilities (e.g., loan due in 13 months but refinanced), revenue recognition timing (percentage of completion vs completed contract).  \nThese are disclosed in *Notes to Accounts* (Significant Accounting Policies, Critical Estimates). The format ensures *comparability of structure*, not *uniformity of numbers*. A student who agrees with the statement confuses *standardisation of form* with *elimination of measurement uncertainty*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-page \"Financial Statement User Guide\" for a new shareholder of a listed Indian company. Identify 4 key components of the annual report they must read, 2 red flags to watch for in the Balance Sheet, and 1 question they should ask at the AGM based on the Statement of Profit and Loss. Justify each choice using the objectives of financial statements.",
+     "a": "**Key Components (aligned with objectives):**  \n1. **Auditor's Report** (Stewardship/Accountability) — checks if statements give \"true and fair view\".  \n2. **Statement of Profit and Loss** (Performance/Profitability) — assesses earning capacity.  \n3. **Balance Sheet** (Financial Position/Solvency) — evaluates liquidity and leverage.  \n4. **Notes to Accounts (Significant Policies & Estimates)** (Transparency/Comparability) — reveals measurement basis and judgement areas.  \n\n**Red Flags in Balance Sheet:**  \n1. **Sharp rise in Trade Receivables without revenue growth** — may indicate aggressive revenue recognition or collection issues (violates *reliability* and *prudence*).  \n2. **Large \"Other Current Assets\" or \"Loans & Advances\" to related parties** — potential siphoning of funds (violates *stewardship* and *faithful representation*).  \n\n**AGM Question:** \"The company's revenue grew 15% but PAT grew only 2%. Note 28 shows a change in depreciation method from SLM to WDV. Can the Board quantify the impact of this change on current and future profits?\" — Tests *consistency*, *comparability*, and *management accountability*.  \nA poor answer lists generic items without linking to objectives (stewardship, decision-making, accountability) or misses the *qualitative characteristics* (prudence, faithful representation) that justify the red flags.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

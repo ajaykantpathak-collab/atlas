@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_001",
+   "title": "c11_geo_cbse_15_001",
+   "questions": [
+    {
+     "q": "List the four global biodiversity hotspots that extend into India and name one endemic mammal species from each.",
+     "a": "The four hotspots are: 1) Himalaya (e.g., Himalayan musk deer *Moschus leucogaster*), 2) Western Ghats (e.g., Nilgiri tahr *Nilgiritragus hylocrius*), 3) Indo-Burma (e.g., Hoolock gibbon *Hoolock hoolock*), 4) Sundaland (e.g., Nicobar treeshrew *Tupaia nicobarica*). A wrong answer naming the Thar Desert or Gangetic Plain as hotspots reveals confusion between bio-geographic zones (based on physiography) and biodiversity hotspots (defined by high endemism + high threat). If a student lists tiger or elephant as endemic examples, they misunderstand \"endemic\" (restricted range) versus \"flagship\" (conservation icon).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Western Ghats have higher amphibian endemism (over 90%) compared to the Eastern Ghats? Explain using geological history and climate.",
+     "a": "The Western Ghats are an ancient, stable mountain chain (Gondwanan fragment) with continuous wet evergreen forests acting as a climatic refugium during Pleistocene aridification, allowing ancient lineages to persist and speciate in situ. The Eastern Ghats are fragmented, geologically younger, drier, and lack stable mesic habitats, resulting in lower persistence and speciation. A wrong answer focusing only on current rainfall ignores the critical role of paleo-climatic stability and geological antiquity as evolutionary time machines.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India's bio-geographic zones, identify which zone has the highest number of endemic bird species and justify using two geographical factors.",
+     "a": "The Western Ghats zone (Malabar rainforest province) has the highest endemic bird diversity. Factors: 1) Orographic rainfall from the southwest monsoon creates wet evergreen forests on windward slopes, providing diverse, stable niches; 2) Geographic isolation from other wet forests by the dry Deccan Plateau prevents gene flow, driving allopatric speciation. A student choosing the Himalaya zone confuses overall species richness (high in Himalaya due to elevational gradients) with endemism (many Himalayan birds are shared with the Palearctic and Sino-Himalayan regions).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the patterns of faunal endemism in the Andaman & Nicobar Islands versus the Western Ghats. What does this tell you about the mechanisms of speciation in each?",
+     "a": "Andaman & Nicobar: High endemism results from oceanic isolation (island biogeography)—species evolved from Southeast Asian ancestors after dispersal across sea barriers (e.g., Andaman wild pig *Sus scrofa andamanensis*, Narcondam hornbill *Rhyticeros narcondami*). Western Ghats: High endemism results from montane isolation (\"sky islands\") and ancient Gondwanan vicariance—species persisted in stable wet climates since continental breakup (e.g., purple frog *Nasikabatrachus sahyadrensis*, lion-tailed macaque *Macaca silenus*). A wrong answer treating both as simply \"isolated\" misses the different mechanisms: dispersal + isolation (islands) vs. vicariance + in-situ radiation (continental fragment).",
+     "self_check": true
+    },
+    {
+     "q": "\"India's faunal diversity is well represented in its protected area network.\" Critically evaluate this statement with reference to endemic species distribution.",
+     "a": "The statement is misleading. While Protected Areas (PAs) cover ~5% of India's land, many narrow-range endemics (especially amphibians, reptiles, invertebrates in Western Ghats and Himalayas) have significant populations outside PAs in human-dominated landscapes (e.g., Nilgiri tahr in tea plantations, Hoolock gibbon in fragmented community forests). PAs are biased toward large mammal habitats (tiger, elephant) and under-represent high-endemism taxa with small ranges. A student agreeing fully shows ignorance of the \"protection gap\" for non-charismatic endemics and the need for Other Effective Area-based Conservation Measures (OECMs).",
+     "self_check": true
+    },
+    {
+     "q": "Design a prioritization framework for identifying new conservation areas specifically for endemic fauna in the Western Ghats. What three spatial data layers would you combine and why?",
+     "a": "Combine: 1) Endemic species richness layer (from GBIF/occurrence data weighted by range rarity) to identify irreplaceable sites; 2) Forest connectivity/fragmentation layer (using canopy cover and corridor mapping) to ensure demographic viability; 3) Human pressure index (population density, road density, plantation extent) to assess imminent threat. A poor answer listing only species richness without connectivity or threat reveals a static \"snapshot\" approach ignoring dynamic processes of extinction debt and habitat loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

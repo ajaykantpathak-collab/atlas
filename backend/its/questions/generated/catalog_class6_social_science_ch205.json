@@ -1,0 +1,182 @@
+{
+ "catalog": "catalog_class6_social_science_ch205",
+ "concepts": [
+  {
+   "id": "fess.205.1",
+   "title": "Four Major Domains of the Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Four Major Domains of the Earth' refers to.",
+     "a": "The environment of the Earth is composed of four principal realms: the land surface, the surrounding atmospheric air, all global water bodies, and the living sphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Four Major Domains of the Earth'.",
+     "a": "Interlinked realms of land, air, and water interact to form the environment supporting life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Four Major Domains of the Earth' taught, and from which source text?",
+     "a": "MAJOR DOMAINS OF THE EARTH (source: fess205.txt lines 1-30)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.2",
+   "title": "Lithospheric Elevation and Vertical Relief",
+   "questions": [
+    {
+     "q": "Calculate the total vertical relief between the highest peak and deepest trench. Use the method 'Lithospheric Elevation and Vertical Relief'. Work with: peak_elevation = 40, trench_depth = 150. Carry the chain through step by step and give the final value of total_relief.",
+     "a": "190 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the height difference between a mountain peak of elevation {peak_elevation} and trench of depth {trench_depth}. Use the method 'Lithospheric Elevation and Vertical Relief'. Work with: peak_elevation = 25, trench_depth = 15. Carry the chain through step by step and give the final value of total_relief.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lithospheric Elevation and Vertical Relief' refers to.",
+     "a": "The solid outer surface of the Earth, including landmasses and ocean floors, where elevation and depth are measured relative to sea level.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lithospheric Elevation and Vertical Relief'.",
+     "a": "Sea level serves as the zero reference datum for calculating heights and ocean trench depths.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lithospheric Elevation and Vertical Relief', in plain ASCII form.",
+     "a": "total_relief = peak_elevation + trench_depth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.3",
+   "title": "Continents and Geographic Divisions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Continents and Geographic Divisions' refers to.",
+     "a": "Large, continuous terrestrial landmasses separated by major oceans, predominantly situated across the Northern Hemisphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Continents and Geographic Divisions'.",
+     "a": "Seven distinct continents make up the land portion of the Earth's surface.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Continents and Geographic Divisions' taught, and from which source text?",
+     "a": "Continents (source: fess205.txt lines 51-120)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.4",
+   "title": "Hydrosphere and Water Proportions",
+   "questions": [
+    {
+     "q": "Calculate the volume of fresh water given total water volume {total_water} and fresh water percentage {freshwater_percent}. Use the method 'Hydrosphere and Water Proportions'. Work with: freshwater_percent = 5, total_water = 15. Carry the chain through step by step and give the final value of freshwater_volume.",
+     "a": "0.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount of fresh water available in a total volume of {total_water}. Use the method 'Hydrosphere and Water Proportions'. Work with: freshwater_percent = 20, total_water = 120. Carry the chain through step by step and give the final value of freshwater_volume.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hydrosphere and Water Proportions' refers to.",
+     "a": "The domain encompassing all forms of water on Earth, divided into vast ocean saltwater and a small fraction of fresh water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hydrosphere and Water Proportions'.",
+     "a": "Over 97% of Earth's water is salty ocean water, leaving under 3% as fresh water.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hydrosphere and Water Proportions', in plain ASCII form.",
+     "a": "freshwater_volume = total_water * freshwater_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.5",
+   "title": "Oceanic Basins and Characteristics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Oceanic Basins and Characteristics' refers to.",
+     "a": "Vast interconnected basins of saline water undergoing continuous motion through waves, tides, and currents.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Oceanic Basins and Characteristics'.",
+     "a": "Five major oceans differ in extent, shape, coastline indentation, and land boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Oceanic Basins and Characteristics' taught, and from which source text?",
+     "a": "Oceans (source: fess205.txt lines 156-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.6",
+   "title": "Atmospheric Composition and Gaseous Volumes",
+   "questions": [
+    {
+     "q": "Calculate the volume of nitrogen in a air sample of total volume {total_air_volume} given percentage {nitrogen_percent}. Use the method 'Atmospheric Composition and Gaseous Volumes'. Work with: nitrogen_percent = 25, total_air_volume = 60. Carry the chain through step by step and give the final value of nitrogen_volume.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the volume of gas present in {total_air_volume} units of air. Use the method 'Atmospheric Composition and Gaseous Volumes'. Work with: nitrogen_percent = 18, total_air_volume = 80. Carry the chain through step by step and give the final value of nitrogen_volume.",
+     "a": "14.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Atmospheric Composition and Gaseous Volumes' refers to.",
+     "a": "The protective gaseous blanket surrounding Earth, structured into five layers and dominated by nitrogen and oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Atmospheric Composition and Gaseous Volumes'.",
+     "a": "Air consists primarily of 78% nitrogen and 21% oxygen, with density decreasing with elevation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Atmospheric Composition and Gaseous Volumes', in plain ASCII form.",
+     "a": "nitrogen_volume = total_air_volume * nitrogen_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.205.7",
+   "title": "Biosphere and Environmental Equilibrium",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biosphere and Environmental Equilibrium' refers to.",
+     "a": "The narrow intersection of land, water, and air where life forms flourish and interact in plant and animal kingdoms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biosphere and Environmental Equilibrium'.",
+     "a": "Human activity disrupting land, water, or air can destabilize global climate and natural balance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biosphere and Environmental Equilibrium' taught, and from which source text?",
+     "a": "BIOSPHERE \u2013 THE DOMAIN OF LIFE (source: fess205.txt lines 241-280)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

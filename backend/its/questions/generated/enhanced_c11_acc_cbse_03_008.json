@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_008",
+   "title": "c11_acc_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the minimum number of accounts affected in a compound journal entry, and how does it differ from a simple journal entry in terms of structure?",
+     "a": "A compound journal entry affects a minimum of three accounts (e.g., two debits and one credit, or one debit and two credits), while a simple journal entry affects exactly two accounts (one debit, one credit). In structure, a compound entry lists multiple accounts on the debit side and/or credit side with 'Dr.' on the first account and 'To' before each credited account. A wrong answer (e.g., \"two accounts\" or \"no structural difference\") reveals the student confuses compound entries with simple entries or doesn't recognize the formatting conventions for multiple accounts.",
+     "self_check": true
+    },
+    {
+     "q": "A student records a transaction \"Purchased furniture ₹25,000, paid ₹5,000 cash, balance on credit\" as: Furniture A/c Dr. 25,000; To Cash A/c 5,000; To Creditor A/c 20,000. Another student writes: Furniture A/c Dr. 25,000; To Cash A/c 5,000; Creditor A/c Dr. 20,000. Which is correct and why? Explain the rule for writing credited accounts in a compound entry.",
+     "a": "The first student is correct. In a compound journal entry, ALL accounts to be credited are written on the credit side with the prefix 'To' (indented), while only the first debited account gets 'Dr.' at the end. The second student incorrectly used 'Dr.' for the creditor account, treating it as a debit. This error reveals misunderstanding of journal formatting: students often think each account needs its own 'Dr./Cr.' label, but the convention is single 'Dr.' for the first debit account and 'To' for every credit account.",
+     "self_check": true
+    },
+    {
+     "q": "Record a compound journal entry for: \"Sold goods costing ₹30,000 to Aman for ₹40,000 on credit, charging CGST @9% and SGST @9%.\" Show the complete entry with narration.",
+     "a": "**Step 1:** Identify accounts: Aman (Debtor/Asset) increases by ₹47,200 (40,000 + 3,600 CGST + 3,600 SGST) → Debit. Sales (Revenue) increases by ₹40,000 → Credit. Output CGST (Liability) increases by ₹3,600 → Credit. Output SGST (Liability) increases by ₹3,600 → Credit. Cost of goods sold not recorded in journal entry (only in trading account later).  \n**Step 2:** Apply rules: Increase in asset → Debit; Increase in revenue → Credit; Increase in liability → Credit.  \n**Step 3:** Format:  \nAman A/c Dr. 47,200  \n To Sales A/c 40,000  \n To Output CGST A/c 3,600  \n To Output SGST A/c 3,600  \n(Being goods sold to Aman on credit plus GST)  \n**Step 4:** Verify: Total Debit = 47,200; Total Credit = 40,000+3,600+3,600 = 47,200. ✓  \nA wrong answer (e.g., missing GST accounts, wrong amounts, or debiting GST) reveals inability to handle multi-account transactions with tax implications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two transactions:  \n(A) Paid ₹15,000 to creditor Mohan in full settlement of ₹16,000.  \n(B) Received ₹14,500 from debtor Rohan in full settlement of ₹15,000.  \nAnalyze how the discount received/discount allowed affects the compound entry structure in each case. Which accounts are debited/credited in each?",
+     "a": "**Transaction A (Discount Received):**  \nMohan (Creditor/Liability) decreases by ₹16,000 → Debit 16,000.  \nCash (Asset) decreases by ₹15,000 → Credit 15,000.  \nDiscount Received (Revenue/Gain) increases by ₹1,000 → Credit 1,000.  \nEntry: Mohan A/c Dr. 16,000; To Cash A/c 15,000; To Discount Received A/c 1,000.  \n\n**Transaction B (Discount Allowed):**  \nCash (Asset) increases by ₹14,500 → Debit 14,500.  \nDiscount Allowed (Expense/Loss) increases by ₹500 → Debit 500.  \nRohan (Debtor/Asset) decreases by ₹15,000 → Credit 15,000.  \nEntry: Cash A/c Dr. 14,500; Discount Allowed A/c Dr. 500; To Rohan A/c 15,000.  \n\n**Analysis:** Both are compound entries (3 accounts). In A, one debit (creditor) and two credits (cash, discount received). In B, two debits (cash, discount allowed) and one credit (debtor). The discount account flips side: Discount Received is revenue (credit), Discount Allowed is expense (debit). A wrong answer (e.g., putting discount on wrong side) reveals confusion between discount received/allowed classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a compound entry, since there are multiple accounts, the total of debits doesn't have to equal total of credits for each account individually, only the grand total must match.\" Evaluate this statement. Is it correct? Justify with the dual aspect concept.",
+     "a": "The statement is **incorrect and dangerous**. The dual aspect concept requires that **every transaction** maintains the accounting equation (Assets = Liabilities + Capital). In a compound entry, the *sum of all debit amounts* must equal the *sum of all credit amounts* — this is non-negotiable. There is no concept of \"individual account balance\" within a single entry; the entry itself is the atomic unit of recording. If debits ≠ credits, the trial balance will not tally, and financial statements will be wrong. The student's reasoning confuses \"multiple accounts\" with \"multiple entries.\" A wrong answer reveals fundamental misunderstanding of the double-entry system's core invariant.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (Indian context, using ₹) that requires a compound journal entry with **two debits and two credits** (4 accounts total). Write the complete journal entry with proper formatting and narration. Explain why this cannot be recorded as two separate simple entries.",
+     "a": "**Scenario:** \"M/s Gupta Traders purchased a delivery van for ₹4,00,000 from M/s Delhi Motors. Paid ₹1,50,000 by cheque immediately. The balance ₹2,50,000 is payable after 3 months. Also paid ₹20,000 for registration and insurance by cheque.\"  \n**Accounts:**  \n1. Delivery Van (Asset) ↑ → Debit 4,00,000  \n2. Registration & Insurance (Expense) ↑ → Debit 20,000  \n3. Bank (Asset) ↓ → Credit 1,70,000 (1,50,000 + 20,000)  \n4. M/s Delhi Motors (Liability) ↑ → Credit 2,50,000  \n\n**Journal Entry:**  \nDelivery Van A/c Dr. 4,00,000  \nRegistration & Insurance A/c Dr. 20,000  \n To Bank A/c 1,70,000  \n To M/s Delhi Motors A/c 2,50,000  \n(Being van purchased, registration paid, partial payment by cheque, balance on credit)  \n\n**Why not two simple entries?**  \nIf split: (1) Van Dr. 4,00,000; To Bank 1,50,000; To Delhi Motors 2,50,000 — but registration ₹20,000 is missing. (2) Registration Dr. 20,000; To Bank 20,000 — this separates two parts of the *same transaction* (van acquisition), violating the principle that a single economic event = one journal entry. Splitting obscures the full cost of the van (₹4,20,000) and the single payment to the bank. A poor answer creates a scenario with only 3 accounts or splits it incorrectly, showing inability to synthesize multi-element transactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

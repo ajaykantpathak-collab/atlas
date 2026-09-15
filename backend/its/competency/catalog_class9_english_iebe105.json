@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 5,
+ "chapter_title": "The World of Limitless Possibilities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.105.5.1",
+   "title": "The Paralympic Games",
+   "section": "5",
+   "definition": "The text introduces the Paralympic Games, a global stage where athletes with locomotor, sensory or intellectual disabilities defy the odds and showcase exceptional skill - a celebration of resilience, training and extraordinary talent.",
+   "formula": "-",
+   "key_idea": "Disability is no disqualification: the Paralympics rewrite the limits of sport.",
+   "textbook_ref": "iebe105.txt sections on the Paralympic Games",
+   "question_patterns": [
+    "what are the Paralympic Games - explain their purpose",
+    "which categories of athletes participate in the Paralympics",
+    "how do the Paralympics change our idea of ability",
+    "complete the table of what you know and want to know about Paralympics",
+    "why are the Paralympics called a celebration of resilience",
+    "compare the Olympics and the Paralympics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define the games",
+     "explain": "An international sports event for athletes with disabilities."},
+    {"step": 2, "action": "note the categories",
+     "explain": "Locomotor, sensory and intellectual disabilities shape the events."},
+    {"step": 3, "action": "grasp the spirit",
+     "explain": "Training and willpower, not disability, define the athletes."}
+   ]
+  },
+  {
+   "id": "iebe.105.5.2",
+   "title": "Sheetal Devi - An Interview of Courage",
+   "section": "5",
+   "definition": "The interview with Sheetal Devi, the para-archer honoured with the Arjuna Award in January 2024, shows a young athlete who turned physical challenge into world-class archery through grit, practice and self-belief.",
+   "formula": "-",
+   "key_idea": "One interview, one message: determination draws the perfect arrow.",
+   "textbook_ref": "iebe105.txt interview sections (Sheetal Devi)",
+   "question_patterns": [
+    "who is Sheetal Devi - describe her achievement",
+    "what challenges did Sheetal Devi overcome to become a para-archer",
+    "how did the Arjuna Award change her life - discuss",
+    "what does the interview reveal about her training",
+    "which quality of Sheetal Devi inspires you most - why",
+    "what message does Sheetal Devi give to young people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall her journey",
+     "explain": "From a small village to international archery glory."},
+    {"step": 2, "action": "note her method",
+     "explain": "Adapted technique, relentless practice and confidence."},
+    {"step": 3, "action": "draw the inspiration",
+     "explain": "Her story argues that limits live in minds, not bodies."}
+   ]
+  },
+  {
+   "id": "iebe.105.5.3",
+   "title": "Theme - Limitless Possibilities",
+   "section": "5",
+   "definition": "The chapter's title states its theme: human possibility is limitless when determination meets opportunity; athletes with disabilities expand society's definition of what bodies and minds can achieve.",
+   "formula": "-",
+   "key_idea": "Limits are suggestions, not laws: the chapter asks readers to expand them.",
+   "textbook_ref": "iebe105.txt thematic discussions and title",
+   "question_patterns": [
+    "why is the chapter titled The World of Limitless Possibilities",
+    "how do Paralympic athletes expand our idea of possibility",
+    "what attitudes towards disability does the chapter question",
+    "how can schools support athletes with disabilities",
+    "connect the chapter's message to a personal challenge",
+    "what does resilience mean - explain with examples from the text"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the theme",
+     "explain": "Ability is measured by effort and spirit, not by the body alone."},
+    {"step": 2, "action": "cite the examples",
+     "explain": "Paralympians and Sheetal Devi personify the limitless."},
+    {"step": 3, "action": "apply the lesson",
+     "explain": "Readers should chase their own possibilities with equal grit."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iebe105.txt exercises",
+   "questions": [
+     "Complete the table about the Paralympic Games.",
+     "Describe Sheetal Devi's journey to the Arjuna Award.",
+     "Explain the title of the chapter with examples."
+   ]
+  }
+ ]
+}

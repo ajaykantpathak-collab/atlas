@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_07_005",
+   "title": "c12_ps_cbse_07_005",
+   "questions": [
+    {
+     "q": "What are the two main pillars of human security as defined in the UNDP 1994 Human Development Report?",
+     "a": "The two pillars are \"freedom from fear\" (protection from violence, conflict, human rights abuses) and \"freedom from want\" (protection from hunger, disease, poverty, environmental degradation). A wrong answer such as \"military security and economic security\" reveals confusion with traditional security categories and failure to grasp the people-centred reframing.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the UNDP report argue that human security is not a replacement for state security but a complement to it?",
+     "a": "The report states that human security and state security are mutually dependent: a state cannot be secure if its people are chronically insecure, and people cannot be secure in a failed or predatory state. A wrong answer like \"human security makes state security obsolete\" shows a misunderstanding of the report's nuanced position that the two frameworks reinforce each other.",
+     "self_check": true
+    },
+    {
+     "q": "A country faces a severe epidemic but its government prioritizes buying fighter jets over vaccines. Using the human security framework, identify which components are neglected and which traditional security logic is being followed.",
+     "a": "The neglected components are health security (directly) and economic security (indirectly, due to lost livelihoods). The government follows traditional state security logic — prioritizing military defence (external threats) over human well-being. A wrong answer such as \"epidemics are not security threats\" indicates inability to apply the human security lens to non-military threats.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the seven components of human security with the traditional notion of security. Which components have no parallel in traditional security, and why?",
+     "a": "Traditional security focuses on military, political, and diplomatic security (state survival). Components like food security, health security, environmental security, and personal security (crime, domestic violence) have no direct parallel because they address individual well-being rather than state sovereignty. A wrong answer claiming \"all components are covered by traditional security\" shows failure to distinguish the paradigms.",
+     "self_check": true
+    },
+    {
+     "q": "Critics argue that human security is too broad and makes security policy unmanageable. Assess this criticism with reference to the UNDP report's approach.",
+     "a": "The UNDP report acknowledges breadth but advocates context-specific prioritisation, not simultaneous action on all components. It provides a normative framework for policy choices, not a rigid checklist. A wrong answer like \"the criticism is valid because we cannot measure human security\" fails to engage with the report's pragmatic stance that the framework guides resource allocation toward the most acute threats.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy brief for a district collector in a drought-prone region, using human security components to justify shifting budget from a police modernization scheme to watershed management.",
+     "a": "A strong answer identifies at least three human security components (food, economic, environmental security) and explains how watershed management addresses root causes of insecurity (water scarcity, crop failure, migration), while police modernization addresses only symptoms (crime). A poor answer focuses solely on law and order or ignores the human security framework entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

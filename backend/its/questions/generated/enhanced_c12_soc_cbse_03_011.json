@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_011",
+   "title": "c12_soc_cbse_03_011",
+   "questions": [
+    {
+     "q": "Define endogamy and exogamy in the context of the Indian caste system. Give one example of each.",
+     "a": "Endogamy: marriage within one's own caste/sub-caste (e.g., a Jat marrying a Jat). Exogamy: marriage outside one's gotra/clan/village (e.g., a Sharma gotra Brahmin cannot marry another Sharma gotra Brahmin). A wrong answer that swaps the definitions or gives only caste-level examples for both reveals confusion about the two levels at which these rules operate — endogamy at the caste boundary, exogamy at the kinship boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between hypergamy (anuloma) and hypogamy (pratiloma) in your own words. Why is hypogamy traditionally stigmatised in Dharmashastric texts?",
+     "a": "Hypergamy: woman marries a man of equal or higher ritual status (e.g., Brahmin woman → Kshatriya man). Hypogamy: woman marries a man of lower ritual status (e.g., Kshatriya woman → Vaishya man). Hypogamy is stigmatised because it lowers the woman's ritual status and that of her offspring, threatening the purity hierarchy. A wrong answer that defines them only in economic terms (dowry, wealth) misses the ritual-status dimension central to the classical texts.",
+     "self_check": true
+    },
+    {
+     "q": "A Reddy (dominant caste) man from Andhra Pradesh marries a Brahmin woman. Identify which marriage rules are followed and which are violated. Justify using the concepts of endogamy, exogamy, hypergamy, hypogamy.",
+     "a": "Caste endogamy is violated (intercaste marriage). Gotra exogamy may be followed if their gotras differ. This is hypergamy (anuloma) because the woman (Brahmin, higher ritual status) marries a man of lower ritual status (Reddy, though politically/economically dominant). A wrong answer that calls this hypogamy because the Reddy is economically powerful confuses ritual status with secular power — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how endogamy and exogamy function together to maintain caste boundaries. Why does the caste system need both rules simultaneously?",
+     "a": "Endogamy keeps the caste group closed (no inflow/outflow of members), preserving ritual purity and occupational monopoly. Exogamy (gotra/village) prevents incest and creates affinal alliances *outside* the kinship unit but *inside* the caste. Together they ensure: (1) caste reproduction through endogamous marriages, (2) social network expansion through exogamous links. A wrong answer that treats them as contradictory fails to see they operate at different levels of social organisation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Modern education and urbanisation have made hypergamy irrelevant in India.\" Use sociological evidence to support your position.",
+     "a": "The statement is partially true but oversimplified. Education/urbanisation have weakened *caste-based* hypergamy (e.g., intercaste marriages rising), but *class-based* hypergamy persists (women still tend to marry men with equal/higher education/income). Matrimonial ads still highlight \"well-settled groom\" — a secular avatar of hypergamy. A wrong answer that says \"hypergamy has disappeared\" ignores the transformation of status criteria from ritual to socioeconomic.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical matrimonial advertisement that simultaneously reflects caste endogamy, gotra exogamy, and hypergamy. Annotate each line with the rule it illustrates.",
+     "a": "Example: \"Alliance invited for Kanyakubja Brahmin boy, 30, IAS (UP cadre). Caste: Brahmin only (endogama). Gotra: Not Kaushik, Vatsa (exogamy). Girl should be graduate, homely (hypergamy — status equivalence sought).\" A poor answer lists rules without a coherent ad or misses one rule, showing inability to synthesise the three layers in a real-world context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

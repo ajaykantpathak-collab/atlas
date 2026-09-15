@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_007",
+   "title": "c12_biotech_cbse_02_007",
+   "questions": [
+    {
+     "q": "A student writes a forward primer sequence: 5'-ATGCGTACGTACGTACGT-3'. What is the GC content of this primer, and does it fall within the recommended 40–60% range?",
+     "a": "The primer has 20 nucleotides. Counting G and C: A T G C G T A C G T A C G T A C G T → G appears 5 times, C appears 5 times, total GC = 10. GC% = (10/20) × 100 = 50%. This falls within the 40–60% range. A wrong answer (e.g., 40% or 60%) reveals the student cannot accurately count bases or misunderstands that GC% is (G+C)/total length × 100, not (G+C)/(A+T) or some other ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a primer pair with a ΔTm (difference in melting temperatures) of 12°C would likely fail in a standard PCR, even if both primers individually have Tm values within the 55–65°C range.",
+     "a": "PCR uses a single annealing temperature for both primers. If ΔTm = 12°C, the primer with lower Tm will not bind efficiently at the higher annealing temperature needed for the other primer, while the higher-Tm primer may bind non-specifically at the lower temperature. This leads to asymmetric amplification or complete failure. A wrong answer (e.g., \"it works because both are in range\") shows the student doesn't understand that annealing temperature is a single compromise value, not two separate temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "Given the target DNA sequence: 5'-...ATG GCT AGC TGA TCC GTA...-3' (coding strand), design a 20-nucleotide forward primer starting at the ATG start codon. Calculate its Tm using the Wallace rule (Tm = 2×(A+T) + 4×(G+C)). Show the primer sequence (5'→3') and the calculation.",
+     "a": "Forward primer (same as coding strand start): 5'-ATGGCTAGCTGATCCGTA-3' (20 nt). Count: A=5, T=4, G=5, C=6. A+T=9, G+C=11. Tm = 2×9 + 4×11 = 18 + 44 = 62°C. A wrong answer (e.g., using the template strand sequence 5'-TACGGATCAGCTAGCCAT-3') reveals the student confuses the primer sequence with the template strand; primers are written 5'→3' and match the coding strand (except T/U).",
+     "self_check": true
+    },
+    {
+     "q": "Two primers are proposed for a PCR:\nForward: 5'-GGC CGC GGC CGC GGC-3' (15 nt)\nReverse: 5'-CCG CCG CCG CCG CCG-3' (15 nt)\nAnalyze this pair for THREE major design flaws. Explain the consequence of each flaw.",
+     "a": "Flaw 1: Length = 15 nt (below 18 nt minimum) → low specificity, high chance of non-specific binding. Flaw 2: GC content = 100% (all G/C) → Tm extremely high (>80°C), prone to non-specific amplification and secondary structures. Flaw 3: The two primers are reverse complements of each other (G↔C, C↔G) → they will form a stable primer-dimer artifact, consuming primers and polymerase. A partial answer (e.g., only mentioning GC%) shows the student cannot simultaneously evaluate length, composition, and intermolecular interactions.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"For maximum specificity, I always design primers with the highest possible GC content (80–90%) because G-C pairs have three hydrogen bonds and make binding stronger.\" Evaluate this claim. Is it correct, partially correct, or incorrect? Justify with thermodynamic and practical reasoning.",
+     "a": "The claim is incorrect. While high GC increases Tm, 80–90% GC causes: (1) non-specific binding to GC-rich genomic regions, (2) stable secondary structures (hairpins, G-quadruplexes) that sequester primers, (3) difficulty in complete denaturation of primer-template duplex, and (4) increased mispriming. Optimal GC is 40–60% to balance specificity and efficiency. A student agreeing with the claim confuses thermodynamic stability with specificity; they ignore that specificity requires unique sequence context, not just strong binding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 22-nucleotide forward primer for the sequence 5'-ATG GAA TTC GAT CCA GCT AGC-3' (coding strand) such that: (a) it starts at the ATG, (b) its GC% is between 45–55%, and (c) its 3' end is a G or C (GC clamp). Provide the primer sequence and verify all three constraints.",
+     "a": "Target start: ATGGAA... Need 22 nt. Take first 22 nt of coding strand: 5'-ATGGAATTCGATCCAGCTAGC-3' (22 nt). Count: A=6, T=5, G=5, C=6. Total=22. GC=11 → GC% = 50% (within 45–55%). 3' end = C (GC clamp satisfied). All constraints met. A poor answer might extend beyond 22 nt, ignore the 3' clamp, or miscalculate GC%. This tests the student's ability to synthesize a primer de novo under multiple simultaneous constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

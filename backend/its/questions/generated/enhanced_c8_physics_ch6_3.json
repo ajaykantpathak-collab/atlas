@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_3",
+   "title": "c8_physics_ch6_3",
+   "questions": [
+    {
+     "q": "What is the principal focus of a concave mirror, and where is it located relative to the pole and centre of curvature?",
+     "a": "The principal focus (F) is the point on the principal axis where rays parallel to the principal axis converge after reflection. It lies exactly midway between the pole (P) and the centre of curvature (C), so PF = PC/2. A wrong answer (e.g., saying F is at C or beyond C) reveals the student has not grasped the geometric relationship f = R/2 and may be confusing the focus with the centre of curvature.",
+     "self_check": true
+    },
+    {
+     "q": "Why do parallel rays incident on a concave mirror converge at a single point (the principal focus) instead of scattering in different directions?",
+     "a": "Because the concave mirror's spherical surface ensures that the normal at any point passes through the centre of curvature (C). When a ray parallel to the principal axis strikes the mirror, the angle of incidence equals the angle of reflection relative to this normal. Geometry shows that the reflected ray always passes through the point F located at R/2 from the pole, independent of where the ray hits (for small apertures). A wrong answer (e.g., \"the mirror attracts light\" or \"it's a property of glass\") shows the student is not applying the law of reflection and the geometry of a sphere.",
+     "self_check": true
+    },
+    {
+     "q": "A concave mirror used in a solar cooker has a radius of curvature of 40 cm. Calculate its focal length in metres, and state the sign according to the Cartesian sign convention.",
+     "a": "Given: R = 40 cm = 0.40 m. Formula: f = R/2. Substitution: f = 0.40 m / 2 = 0.20 m. For a concave mirror, focal length is negative (focus in front of the mirror). Answer: f = -0.20 m. A wrong answer with positive sign or incorrect unit conversion (e.g., 20 cm without converting to m) reveals confusion about sign convention or unit handling.",
+     "self_check": true
+    },
+    {
+     "q": "Two concave mirrors A and B have the same aperture but mirror A has a radius of curvature of 30 cm while mirror B has a radius of curvature of 60 cm. Compare their focal lengths and explain which mirror will concentrate sunlight to a smaller, more intense spot.",
+     "a": "Mirror A: f_A = -15 cm; Mirror B: f_B = -30 cm. Mirror A has a shorter focal length, so it bends the rays more sharply and brings them to a focus closer to the mirror. For the same aperture, the smaller focal length produces a smaller focal spot (higher concentration), making mirror A better for a solar cooker. A wrong answer (e.g., saying both give same spot size or B is better because it's \"more curved\") shows the student does not connect focal length to converging power and spot size.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I cover the lower half of a concave mirror with black paper, the principal focus will shift upward because only the top half is reflecting.\" Evaluate this claim.",
+     "a": "The claim is false. Covering half the mirror reduces the intensity (brightness) of the focused spot but does not change the location of the principal focus. Every small portion of the mirror still reflects parallel rays to the same point F (by geometry). The focus is a geometric property of the mirror's curvature, not of how much area is exposed. A wrong evaluation (agreeing with the student) reveals a misunderstanding that the focus depends on the amount of reflecting surface rather than the mirror's shape.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a metre scale, and a distant object (like a tree or building) to determine the focal length of the mirror. Describe the steps and how you would ensure accuracy.",
+     "a": "Steps: (1) Mount the concave mirror on a stand facing a distant object (at least 50 m away). (2) Place a white screen on the other side of the mirror. (3) Move the screen back and forth until a sharp, inverted image of the distant object forms. (4) Measure the distance between the mirror's pole and the screen using the metre scale — this is the focal length. (5) Repeat 3 times and take the average. Accuracy: use a distant object so incoming rays are nearly parallel; ensure the screen is perpendicular to the principal axis; measure from the pole (not the mirror's edge). A poor answer (e.g., using a nearby object, measuring from the wrong point, or not repeating) shows lack of experimental rigor and misunderstanding of \"parallel rays.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

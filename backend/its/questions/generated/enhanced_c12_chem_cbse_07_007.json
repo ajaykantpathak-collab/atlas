@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_007",
+   "title": "c12_chem_cbse_07_007",
+   "questions": [
+    {
+     "q": "Write the major product when 3-methylbutan-2-ol undergoes acid-catalyzed dehydration with concentrated H₂SO₄. Explain why this is the major product.",
+     "a": "Major product: 2-methylbut-2-ene (more substituted alkene). The secondary carbocation initially formed rearranges via a 1,2-hydride shift to a more stable tertiary carbocation, then elimination gives the Saytzeff product. A wrong answer (e.g., 3-methylbut-1-ene) reveals the student ignores carbocation rearrangements and Saytzeff's rule, treating dehydration as a simple E2-like elimination without intermediate stability considerations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does PCC in CH₂Cl₂ oxidize primary alcohols to aldehydes while acidified KMnO₄ oxidizes them to carboxylic acids? Explain in terms of reaction medium and oxidizing strength.",
+     "a": "PCC is a mild, anhydrous oxidant in non-aqueous CH₂Cl₂ — it lacks water to hydrate the aldehyde intermediate to gem-diol, preventing further oxidation. Acidified KMnO₄ is a strong aqueous oxidant; the aldehyde formed is immediately hydrated to gem-diol (R-CH(OH)₂) which is easily oxidized to the acid. A wrong answer (e.g., \"PCC is weaker so it stops\") reveals confusion between thermodynamic oxidizing power and kinetic control via reaction medium — the key is absence of water, not just oxidant strength.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats butan-2-ol with (a) Cu/573 K, (b) acidified K₂Cr₂O₇, (c) PCC. Write the organic product(s) for each case with balanced equations.",
+     "a": "(a) Butan-2-one (CH₃COCH₂CH₃) — dehydrogenation on Cu surface. (b) Butan-2-one — secondary alcohol → ketone with strong oxidant. (c) Butan-2-one — PCC also oxidizes 2° alcohols to ketones. All three give the same product because secondary alcohols cannot be over-oxidized (no α-H on carbonyl carbon). A wrong answer showing butanoic acid for (b) or (c) reveals the student thinks all oxidants over-oxidize, not understanding that ketones lack α-hydrogen on the carbonyl carbon and resist further oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dehydration of 1-methylcyclohexanol and butan-1-ol. Which gives a single alkene product and which gives a mixture? Explain using carbocation stability and Saytzeff's rule.",
+     "a": "1-Methylcyclohexanol (tertiary) gives only 1-methylcyclohexene — the tertiary carbocation has no rearrangement pathway to a more stable cation, and only one β-hydrogen set exists. Butan-1-ol (primary) proceeds via E2-like mechanism (no stable primary carbocation) giving mainly but-1-ene, but with some but-2-ene via carbocation rearrangement if E1 pathway competes. A wrong answer claiming both give mixtures reveals failure to recognize that primary alcohols dehydrate via concerted E2-like pathway while tertiary go through carbocations with possible rearrangements.",
+     "self_check": true
+    },
+    {
+     "q": "In the Lucas test, 2-methylpropan-2-ol (tert-butyl alcohol) produces immediate turbidity, butan-2-ol takes 5–10 minutes, and butan-1-ol shows no turbidity at room temperature. Explain this observation mechanistically and state what it proves about the reaction mechanism.",
+     "a": "Lucas reagent (ZnCl₂/conc. HCl) converts alcohols to alkyl chlorides via SN1 for 3°/2° and SN2 for 1°. Tertiary forms stable carbocation instantly → immediate turbidity (immiscible alkyl chloride). Secondary forms less stable carbocation slowly → turbidity in minutes. Primary cannot form primary carbocation; SN2 is slow with bulky ZnCl₂/HCl → no turbidity at RT. This proves the reaction proceeds via carbocation formation (SN1) for 3°/2° alcohols. A wrong answer attributing turbidity to \"reactivity order\" without mechanistic detail reveals memorization without understanding the SN1/SN2 distinction and carbocation stability role.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step sequence to convert 2-methylpropan-1-ol (isobutyl alcohol) to 2-methylpropanal (isobutyraldehyde) without over-oxidation to the acid. Specify reagents, conditions, and how you would verify the product.",
+     "a": "Step 1: Oxidize with PCC in CH₂Cl₂ at 0–25°C → 2-methylpropanal (aldehyde). Step 2: Verify by Tollens' test (silver mirror) or Fehling's test (red precipitate) — both positive for aldehydes, negative for acids. Alternative: Use Cu/573 K (dehydrogenation) but PCC gives better yield. A poor answer using KMnO₄/K₂Cr₂O₇ shows the student cannot select reagents based on oxidation level control; using NaBH₄ reduction after strong oxidation is inefficient (reduces acid back to alcohol, not aldehyde).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

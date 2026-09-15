@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_004",
+   "title": "c11_bio_cbse_07_004",
+   "questions": [
+    {
+     "q": "Name the three main structural parts of a typical multipolar neuron and state the primary function of each part.",
+     "a": "The three main parts are: (1) Dendrites — short, branched processes that receive incoming signals from other neurons or sensory receptors; (2) Cell body (soma) — contains nucleus and organelles, integrates incoming signals; (3) Axon — a single long process that conducts nerve impulses away from the cell body to effector cells or other neurons. A wrong answer (e.g., \"axon receives signals\") reveals confusion between input and output zones, a fundamental error in tracing signal direction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the resting membrane potential of a neuron remain close to -70 mV despite continuous leakage of Na⁺ into and K⁺ out of the cell?",
+     "a": "The Na⁺/K⁺-ATPase pump actively transports 3 Na⁺ out and 2 K⁺ in per ATP hydrolysed, counteracting passive leakage and maintaining steep concentration gradients. The membrane is more permeable to K⁺ (via leak channels), so K⁺ diffuses out down its gradient, leaving negative charges inside. A wrong answer citing only \"K⁺ leakage\" without the pump reveals the misconception that passive diffusion alone establishes the potential, ignoring active transport's essential role.",
+     "self_check": true
+    },
+    {
+     "q": "A student places a myelinated axon and an unmyelinated axon of equal diameter in a chamber and stimulates both at one end. The myelinated axon conducts the impulse faster. Explain the mechanism responsible for this difference using the concept of saltatory conduction.",
+     "a": "In myelinated axons, voltage-gated Na⁺ channels are concentrated at nodes of Ranvier. Depolarisation jumps from node to node (saltatory conduction) because the myelin sheath prevents ion flow across the membrane in internodal regions. Current flows passively under the myelin to the next node, where it triggers a new action potential. In unmyelinated axons, action potentials regenerate at every membrane patch, which is slower. A wrong answer saying \"myelin increases conduction speed by insulating the axon\" without mentioning nodal clustering of channels shows incomplete understanding of the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of oligodendrocytes in the CNS and Schwann cells in the PNS regarding myelination. How does this difference affect regeneration after injury?",
+     "a": "One oligodendrocyte myelinates multiple axons (up to 50) in the CNS, while one Schwann cell myelinates only one axon segment in the PNS. After injury, PNS axons can regenerate because Schwann cells form Bands of Büngner that guide regrowth; CNS regeneration fails partly because oligodendrocytes do not form such bands and produce inhibitory factors (e.g., Nogo). A wrong answer stating \"both myelinate axons\" without distinguishing one-to-many vs one-to-one, or missing the regeneration implication, reveals a gap in linking structure to clinical outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"During an action potential, Na⁺ influx depolarises the membrane, and then K⁺ efflux repolarises it; therefore, the Na⁺/K⁺ pump directly restores the resting potential after each spike.\"",
+     "a": "The statement is partially correct about ion movements but incorrect about the pump's role. The pump restores *concentration gradients* over time, not the immediate membrane potential. Repolarisation is caused by voltage-gated K⁺ channel opening and Na⁺ channel inactivation — passive fluxes down existing gradients. The pump works slowly (millions of ions per second) and is not fast enough to repolarise a single spike. A student who agrees reveals the misconception that active transport drives the rapid voltage changes of an action potential.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a frog sciatic nerve preparation to demonstrate that nerve impulse conduction is blocked by a local anaesthetic (e.g., lidocaine) but not by cooling the nerve to 10°C. State the expected observations and the physiological basis.",
+     "a": "Setup: Isolate frog sciatic nerve, place stimulating and recording electrodes at known distance. Apply lidocaine to a segment — conduction block occurs (no recorded compound action potential) because lidocaine binds voltage-gated Na⁺ channels from inside, preventing depolarisation. Cool another preparation to 10°C — conduction slows (increased latency) but does not block, because lower temperature reduces channel kinetics and ion diffusion rates without stopping them. A poor answer that predicts block at 10°C confuses slowing with failure, missing that anaesthetics specifically target channel gating while cooling affects all rate processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

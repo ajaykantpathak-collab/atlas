@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_11",
+   "title": "c8_physics_ch6_11",
+   "questions": [
+    {
+     "q": "What are the three principal rays used to draw ray diagrams for a convex lens, and what happens to each after refraction?",
+     "a": "The three principal rays are: (1) Ray parallel to principal axis → refracts through second focus F₂. (2) Ray through optical centre O → passes undeviated. (3) Ray through first focus F₁ → emerges parallel to principal axis. A wrong answer (e.g., saying the ray through focus reflects back) reveals confusion with concave mirror rules or not understanding that lenses refract (bend) light rather than reflect it.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex lens form a real, inverted image when the object is placed beyond 2F, but a virtual, erect image when the object is between the lens and F?",
+     "a": "Beyond 2F, the refracted rays actually converge on the opposite side, forming a real image that can be caught on a screen. Between F and lens, the refracted rays diverge; they only appear to meet when extended backwards on the object side, forming a virtual image. A wrong answer (e.g., \"the lens flips the image\") shows the student memorizes outcomes without understanding ray convergence/divergence geometry.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4 cm is placed 30 cm from a convex lens of focal length 10 cm. Using a scale of 1 cm = 5 cm, draw the ray diagram and determine the image distance and height. State the nature of the image.",
+     "a": "Steps: (1) Scale: 1 cm = 5 cm → object distance = 6 cm on paper, focal length = 2 cm. (2) Draw lens, mark F (2 cm) and 2F (4 cm) on both sides. (3) Place object arrow 6 cm from lens (beyond 2F). (4) Draw Ray 1 parallel → refracts through F₂. Ray 2 through O → straight. (5) Rays intersect at ~3 cm from lens on opposite side → image distance = 3 × 5 = 15 cm. Image height measured ~2 cm on paper → 10 cm actual? Wait, let's compute properly: Using similar triangles, image distance = 15 cm, image height = -2 cm (inverted, diminished). Nature: Real, inverted, diminished. A wrong answer with image distance 30 cm reveals incorrect ray drawing (e.g., not extending refracted rays correctly) or scale confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for an object at 2F and an object between F and 2F. How do the image position, size, and nature change? Explain using ray geometry.",
+     "a": "At 2F: Image at 2F on other side, same size, real, inverted. Between F and 2F: Image beyond 2F on other side, magnified, real, inverted. The change occurs because as object moves closer to F, the ray through F₁ becomes steeper, causing the refracted parallel ray to intersect the other ray farther from the lens. A wrong answer stating image becomes smaller shows they haven't visualized how ray angles change with object position.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for an object at F (focal point) and shows the image forming at 2F on the other side. Is this correct? Justify your answer.",
+     "a": "Incorrect. When object is at F, the ray through F₁ emerges parallel to principal axis, and the ray parallel to axis refracts through F₂. These two refracted rays are parallel to each other – they never meet on either side. The image forms at infinity (highly magnified, real, inverted). The student's error shows they treat the lens like a mirror where object at F gives image at infinity, but they incorrectly located it at 2F.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the image characteristics when the object is placed between F and 2F. List the steps and what you would observe.",
+     "a": "Good answer: (1) Find approximate focal length by focusing distant tree on screen. (2) Place lens on stand, mark F and 2F on both sides. (3) Place candle between F and 2F. (4) Move screen on other side until sharp image forms. (5) Observe: image beyond 2F, inverted, larger than candle flame. Poor answer (just \"light the candle and look\") reveals no understanding of controlled variable manipulation or ray diagram prediction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_013",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_013",
+   "title": "c11_bio_cbse_04_013",
+   "questions": [
+    {
+     "q": "State the four fundamental characteristics that define Phylum Chordata and specify the germ layer origin of the notochord.",
+     "a": "The four fundamental characteristics are: (1) notochord (mesodermal in origin), (2) dorsal hollow nerve cord (ectodermal), (3) paired pharyngeal gill slits, and (4) post-anal tail. A wrong answer that lists \"ventral nerve cord\" or \"solid nerve cord\" reveals confusion with non-chordate body plans (e.g., annelids/arthropods). Missing \"post-anal tail\" indicates incomplete recall of the diagnostic feature set.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the notochord in Urochordata is considered a larval feature while in Cephalochordata it is a persistent adult feature, and how this relates to their ecological lifestyles.",
+     "a": "Urochordates (e.g., Ascidia) are sessile filter-feeders as adults; their free-swimming larva needs a notochord for tail-based locomotion to disperse, but the adult attaches and loses the tail/notochord. Cephalochordates (e.g., Branchiostoma) are burrowing marine animals that retain the notochord throughout life for continuous swimming and burrowing. A wrong answer stating \"Urochordates lose notochord because they become parasitic\" reveals a misconception — they are not parasitic, just sessile.",
+     "self_check": true
+    },
+    {
+     "q": "A marine biologist collects a small, fish-like animal with a notochord extending from head to tail, a dorsal hollow nerve cord, numerous pharyngeal gill slits, and a post-anal tail. It has no distinct head or vertebral column. Identify its subphylum and justify your answer using two distinguishing features from Vertebrata.",
+     "a": "The animal belongs to Cephalochordata. Justification: (1) Notochord extends the entire body length and persists in adult (unlike Vertebrata where it is replaced by vertebral column). (2) Absence of a distinct head/cranium and vertebral column (Vertebrata have a well-developed brain protected by cranium and vertebral column). A wrong answer of \"Vertebrata\" ignores the absence of vertebral column and cranium.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the circulatory and excretory systems of protochordates (Urochordata and Cephalochordata) with those of Vertebrata. What evolutionary advancement does this represent?",
+     "a": "Protochordates have a simple, ventral heart (if present) and lack kidneys; excretion occurs via diffusion or protonephridia. Vertebrates possess a ventral muscular heart (2-4 chambers), closed circulation, and kidneys (pronephros/mesonephros/metanephros) for osmoregulation. This represents the evolution of efficient oxygen/nutrient transport and specialized osmoregulatory organs supporting higher metabolic rates and diverse habitats. A wrong answer claiming protochordates have a \"four-chambered heart\" confuses them with advanced vertebrates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The presence of a stomochord in Hemichordata makes them chordates.\" Use evidence from germ layer origin and structural homology.",
+     "a": "The statement is false. The stomochord in Hemichordata (e.g., Balanoglossus) is an endodermal outgrowth of the gut into the proboscis, whereas the true notochord in Chordata is a mesodermal rod formed from the chordamesoderm. They are not homologous; the stomochord lacks the structural and developmental equivalence of a notochord. A wrong answer accepting the statement shows failure to distinguish germ layer origin (endoderm vs mesoderm) and homology vs analogy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key with three couplets to separate the three chordate subphyla (Urochordata, Cephalochordata, Vertebrata) based on adult features only.",
+     "a": "1a. Notochord absent in adult ................... Urochordata  \n1b. Notochord present in adult ................... 2  \n2a. Notochord extends to anterior end of body; no vertebral column; no distinct head ................... Cephalochordata  \n2b. Notochord replaced by vertebral column; distinct head with cranium; paired appendages present ................... Vertebrata  \nA poor key using larval features (e.g., \"notochord in tail only\") fails the \"adult features only\" constraint, revealing inability to apply the concept of feature modification during metamorphosis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

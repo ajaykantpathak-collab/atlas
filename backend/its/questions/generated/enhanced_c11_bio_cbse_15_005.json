@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_005",
+   "title": "c11_bio_cbse_15_005",
+   "questions": [
+    {
+     "q": "Name the two circuits of double circulation and identify which ventricle pumps blood into each circuit.",
+     "a": "The two circuits are pulmonary circulation (right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium) and systemic circulation (left ventricle → aorta → body → vena cava → right atrium). A wrong answer (e.g., \"left ventricle pumps to lungs\") reveals the student hasn't internalized the fundamental right-heart/left-heart functional separation and still confuses the oxygenation status of blood in each chamber.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pulmonary artery carries deoxygenated blood while the pulmonary vein carries oxygenated blood, which is opposite to the general naming convention for arteries and veins.",
+     "a": "Arteries are defined as vessels carrying blood *away* from the heart, veins as vessels carrying blood *toward* the heart — oxygenation status is irrelevant to the definition. The pulmonary artery carries deoxygenated blood away from the right ventricle to the lungs; the pulmonary vein carries oxygenated blood toward the left atrium. A wrong answer (e.g., \"arteries always carry oxygenated blood\") reveals a definitional misconception carried from middle school that fails at the pulmonary circuit exception.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a ventricular septal defect (VSD) — a hole in the interventricular septum. Predict the direction of shunting at rest and during exercise, and explain the effect on systemic oxygen delivery.",
+     "a": "At rest, left ventricular pressure (∼120 mmHg) > right ventricular pressure (∼25 mmHg), causing left-to-right shunting: oxygenated blood recirculates through the lungs, increasing pulmonary flow but not systemic delivery. During exercise, both pressures rise but the gradient persists; systemic oxygen delivery falls because a fraction of the left ventricle's output is wasted recycling through the pulmonary circuit instead of reaching tissues. A wrong answer (e.g., \"right-to-left shunt causes cyanosis immediately\") reveals ignorance of the pressure gradient direction and the concept of \"effective\" vs \"total\" cardiac output.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mean arterial pressure in the pulmonary artery (∼15 mmHg) and aorta (∼95 mmHg). Relate this 6-fold difference to the structural differences in the two vascular beds and ventricular wall thicknesses.",
+     "a": "The systemic circuit has high resistance (long narrow arterioles, high total peripheral resistance) requiring high pressure; the pulmonary circuit has low resistance (short, wide, distensible vessels, large capillary cross-section) requiring low pressure. Consequently, the left ventricle wall (10-15 mm) is 3× thicker than the right (3-5 mm) to generate 6× the pressure. A wrong answer (e.g., \"pulmonary pressure is low because lungs are delicate\") misses the quantitative hemodynamic principle: Pressure = Flow × Resistance (Poiseuille's law), and that both ventricles pump the *same flow* (∼5 L/min) but against vastly different resistances.",
+     "self_check": true
+    },
+    {
+     "q": "\"Double circulation is more efficient than single circulation.\" Evaluate this statement with reference to maximum metabolic rate and oxygen delivery capacity in fish vs mammals.",
+     "a": "True. In single circulation (fish), blood passes through the heart once: heart → gills → body → heart. Gill capillaries cause a large pressure drop, so blood reaches body tissues at low pressure, limiting flow rate and oxygen delivery. In double circulation, the heart re-pressurizes blood after the lungs, enabling high-pressure systemic flow (∼100 mmHg) and 10× higher oxygen delivery per gram of tissue, supporting endothermy. A wrong answer (e.g., \"double circulation is better because it separates oxygenated/deoxygenated blood\") states the *mechanism* but not the *physiological consequence* — the critical link is pressure recovery enabling high flow rates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart showing the path of a single red blood cell starting in the right atrium, traversing both circuits, and returning to the right atrium. Include every chamber, valve, and major vessel; indicate oxygenation state at each step.",
+     "a": "Right atrium (deoxy) → tricuspid valve → right ventricle (deoxy) → pulmonary valve → pulmonary artery (deoxy) → pulmonary capillaries (gas exchange) → pulmonary veins (oxy) → left atrium (oxy) → mitral valve → left ventricle (oxy) → aortic valve → aorta (oxy) → systemic arteries → systemic capillaries (gas exchange) → systemic veins (deoxy) → vena cava (deoxy) → right atrium. A poor answer omits valves, confuses pulmonary/systemic vessels, or shows oxygenation change at the wrong site (e.g., in the heart chambers instead of capillaries), revealing a lack of spatial-temporal integration of the circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

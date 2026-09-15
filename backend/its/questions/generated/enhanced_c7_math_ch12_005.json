@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_005",
+   "title": "c7_math_ch12_005",
+   "questions": [
+    {
+     "q": "What is the primary rule for making it easier to divide a decimal by another decimal number?",
+     "a": "The correct answer is that you multiply both the dividend and the divisor by the same power of $10$ to make the divisor a whole number. A wrong answer usually shows that the student only shifted the decimal point in the dividend or tried to ignore the decimal point in the divisor entirely, which changes the value of the expression.",
+     "self_check": true
+    },
+    {
+     "q": "Why does multiplying both the dividend and the divisor by $10$ when calculating $3.6 \\div 1.2$ give the exact same answer as $36 \\div 12$?",
+     "a": "The correct answer is that $3.6 \\div 1.2$ can be written as the fraction $\\frac{3.6}{1.2}$, and multiplying the numerator and denominator by $10$ gives an equivalent fraction $\\frac{36}{12}$, which represents the exact same ratio and division. A wrong answer reveals the misconception that changing the numbers to whole numbers alters the final quotient, forgetting the rule of equivalent fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $7.5 \\div 1.5$. Show your reasoning.",
+     "a": "The correct answer is $5$. Working: \n1. Write as a fraction: $\\frac{7.5}{1.5}$. \n2. Multiply numerator and denominator by $10$ to remove decimals: $\\frac{7.5 \\times 10}{1.5 \\times 10} = \\frac{75}{15}$. \n3. Divide whole numbers: $75 \\div 15 = 5$. \nA wrong answer, such as $0.5$ or $50$, indicates that the student miscounted the decimal places or incorrectly placed the decimal point after division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of $4.8 \\div 0.4$ and $0.48 \\div 0.04$. Without fully recalculating, explain how their quotients relate to each other.",
+     "a": "The correct answer is that both expressions yield the exact same quotient ($12$). In the second expression, both the dividend and the divisor were multiplied by $100$ ($0.48 \\times 100 = 48$ and $0.04 \\times 100 = 4$), which maintains equivalence according to the properties of division. A wrong answer indicates confusion about how scaling both numbers by the same factor preserves the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates $6.3 \\div 0.3$ and states the answer is $0.21$. Identify the error in the student's work and provide the correct evaluation.",
+     "a": "The student's error was dividing $6.3$ by $3$ without shifting the decimal point of the dividend, or mistaking the operation for multiplication and moving the decimal two places to the left. The correct evaluation is: \n1. Convert divisor $0.3$ to whole number by multiplying both by $10$. \n2. Expression becomes $63 \\div 3$. \n3. Calculate $63 \\div 3 = 21$. \nA wrong answer shows the student cannot spot computational or decimal-shift errors in another person's work.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem involving two decimals where the divisor is $0.05$ and the final quotient is a whole number greater than $10$. Show the conversion steps.",
+     "a": "An expected good answer would be $0.85 \\div 0.05$. \nSteps: \n1. Write expression: $0.85 \\div 0.05$. \n2. Multiply both by $100$ to clear the divisor: $85 \\div 5$. \n3. Compute whole number division: $85 \\div 5 = 17$ (which is a whole number greater than $10$). \nA poor answer would feature a divisor that is not $0.05$ or result in a quotient that is not a whole number, showing a failure to construct a problem meeting specific constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

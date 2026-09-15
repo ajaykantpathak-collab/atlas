@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_005",
+   "title": "c12_geo_cbse_13_005",
+   "questions": [
+    {
+     "q": "Name the two states that together account for the largest share of limestone reserves in India according to the NCERT mineral belts.",
+     "a": "Correct answer: Rajasthan and Madhya Pradesh (Rajasthan from the North-Western belt, Madhya Pradesh from the South-Western/Vindhyan belt). A wrong answer like \"Jharkhand and Odisha\" reveals confusion with the iron-ore/coal belt (North-Eastern Plateau) where limestone is not the dominant mineral.",
+     "self_check": true
+    },
+    {
+     "q": "Why is high-quality mica concentrated in a 150 km long belt in the lower Hazaribagh plateau of Jharkhand, while limestone shows a much wider distribution across multiple states?",
+     "a": "Correct answer: Mica requires specific pegmatite intrusions in metamorphic terrains (Schist belts) that are spatially restricted, whereas limestone forms from widespread marine sedimentary deposits (Vindhyan, Cuddapah, Bijawar groups) covering large basins. A wrong answer citing \"mica is only found in Jharkhand\" ignores the Nellore (AP) and Rajasthan belts, showing incomplete map knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "A cement plant in Satna (Madhya Pradesh) sources limestone from the nearby Kaimur range. Using the geological map of India, identify the rock formation (group) this limestone belongs to and state its geological age.",
+     "a": "Steps: (1) Locate Satna in MP on the Vindhyan range. (2) Recall that the Vindhyan Supergroup (Sandstone, Limestone, Shale) of Proterozoic age hosts extensive limestone. (3) The Kaimur range is part of the Upper Vindhyan. (4) Therefore, the limestone is from the Vindhyan Supergroup, Proterozoic (Precambrian). Wrong answer \"Gondwana\" indicates confusion with coal-bearing formations; \"Deccan Traps\" confuses volcanic basalt with sedimentary limestone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of mica and dolomite in India. Which physiographic region hosts both, and what does this imply about their geological association?",
+     "a": "Correct answer: The Chhotanagpur Plateau (Jharkhand) hosts high-quality mica belts, while dolomite occurs in the same Precambrian shield (Dharwar, Cuddapah) but also in the Vindhyan basin. Their co-occurrence in Jharkhand indicates metamorphic-metasomatic processes in the same cratonic block. A wrong answer stating \"both are only in Rajasthan\" misses the Jharkhand mica belt and the widespread Vindhyan dolomite.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's phosphate reserves are adequate to meet the domestic fertilizer industry's long-term needs without imports.\"",
+     "a": "Correct evaluation: False. India's phosphate deposits (e.g., Mussoorie, Purulia, Jhabua) are low-grade (15-30% P₂O₅) and limited; the country imports ~90% of its phosphate rock. A wrong \"True\" answer ignores the grade and quantity gap, a common error when students equate \"presence of deposits\" with \"self-sufficiency\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page map annotation for a Class 12 board exam that shows the distribution of limestone, mica, dolomite, and phosphate with correct symbols, labels, and a legend. Include two industrial centres linked to each mineral.",
+     "a": "Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP (Satna, Katni), AP (Cuddapah), Karnataka (Gulbarga), linked to cement plants at Chittorgarh, Satna, Gulbarga. (b) Mica: belt symbols in Jharkhand (Koderma-Giridih), AP (Nellore), Rajasthan (Jaipur-Bhilwara), linked to mica-processing at Giridih, Nellore. (c) Dolomite: dots in Chhattisgarh (Bilaspur), Odisha (Sundargarh), MP (Jabalpur), linked to steel plants at Bhilai, Rourkela. (d) Phosphate: stars at Mussoorie (UK), Purulia (WB), Jhabua (MP), linked to fertilizer units at Paradeep, Phulpur. Poor answer uses same symbol for all minerals or omits industrial linkages.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

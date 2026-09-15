@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_005",
+   "title": "c11_geo_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define frost action and state the approximate volumetric expansion of water when it freezes at 0°C. Why does this expansion generate stress in rock joints?",
+     "a": "Frost action is the mechanical weathering process where water enters rock cracks, freezes, expands by ~9% in volume, and exerts pressures up to 200 MPa, progressively widening joints. A wrong answer (e.g., \"water contracts when freezing\" or \"expansion is 50%\") reveals a fundamental misconception about the phase change of water and its mechanical consequence, indicating the student cannot link the physical property of water to the geological process.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why thermal expansion weathering is most effective in arid regions with large diurnal temperature ranges, but not in humid tropical regions. Use the concept of differential expansion of mineral grains.",
+     "a": "In arid regions, large diurnal temperature ranges (e.g., 40°C day to 10°C night) cause repeated heating/cooling cycles. Different minerals in a rock (e.g., quartz, feldspar) have different coefficients of thermal expansion, so they expand/contract at different rates, creating internal shear stresses at grain boundaries that eventually separate grains (granular disintegration). In humid tropics, small diurnal range and moisture promote chemical weathering instead. A wrong answer attributing it solely to \"high temperature\" misses the critical role of *cyclic differential stress* and the lithological control (mineral heterogeneity).",
+     "self_check": true
+    },
+    {
+     "q": "A granite outcrop in Rajasthan experiences a diurnal temperature change from 45°C to 15°C. The coefficient of linear expansion for quartz is 7.5 × 10⁻⁶ /°C and for feldspar is 6.0 × 10⁻⁶ /°C. If a quartz grain and adjacent feldspar grain are each 2 mm long at 15°C, calculate the difference in their lengths at 45°C. How does this differential strain contribute to granular disintegration?",
+     "a": "ΔT = 30°C. ΔL_quartz = 2 mm × 7.5×10⁻⁶ × 30 = 0.00045 mm. ΔL_feldspar = 2 mm × 6.0×10⁻⁶ × 30 = 0.00036 mm. Difference = 0.00009 mm (90 nm). Though microscopic, this differential strain repeated daily over years creates cumulative fatigue at grain boundaries, leading to granular disintegration. A wrong calculation (e.g., using volume expansion or ignoring ΔT) or missing the fatigue concept shows inability to apply physics principles to geological timescales.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the conditions required for exfoliation dome formation (e.g., in the Deccan Traps) versus frost shattering in the Himalayas. Identify the key differences in rock type, climate, and stress mechanism.",
+     "a": "Exfoliation domes form in homogeneous, massive rocks (granite, basalt) due to pressure release (unloading) or thermal cycling creating concentric tensile stresses parallel to the surface. Frost shattering requires jointed/fractured rock, abundant water, and freeze-thaw cycles (temperatures oscillating around 0°C). Key differences: Exfoliation needs massive rock and stress parallel to surface; frost action needs pre-existing joints and stress perpendicular to joint walls. A wrong answer conflating the two (e.g., \"both need water\") reveals confusion between tensile stress from unloading vs. wedging pressure from ice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Physical weathering is the dominant weathering process in the cold desert of Ladakh.\" Justify your answer with reference to specific processes and climatic data.",
+     "a": "The statement is correct. Ladakh (cold desert) has: (1) temperatures frequently crossing 0°C enabling frost action; (2) low precipitation (~100 mm/yr) limiting chemical weathering; (3) sparse vegetation reducing biological weathering; (4) large diurnal temperature ranges (up to 40°C) enabling thermal fatigue. Frost action and thermal expansion dominate. A wrong evaluation (e.g., \"chemical weathering dominates because of snowmelt\") reveals misunderstanding of the moisture and temperature thresholds for chemical reactions vs. mechanical stress.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan to distinguish whether a given boulder field in the Western Ghats was formed by exfoliation or by chemical weathering along joints. Specify the observations, measurements, and criteria you would use.",
+     "a": "Plan: (1) Observe boulder shape: exfoliation yields rounded, concentric shells; chemical weathering yields angular blocks with solution pits. (2) Measure joint spacing and orientation: exfoliation joints are parallel to topography; chemical weathering follows structural joints. (3) Test rock hardness with Schmidt hammer: exfoliation shells are fresh/hard; chemically weathered surfaces are soft. (4) Check for secondary minerals (clays, oxides): present in chemical weathering, absent in exfoliation. A poor plan lacking specific discriminators (e.g., only measuring size) shows inability to link process to diagnostic field evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

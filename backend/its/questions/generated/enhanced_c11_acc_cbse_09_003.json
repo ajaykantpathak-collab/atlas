@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_003",
+   "title": "c11_acc_cbse_09_003",
+   "questions": [
+    {
+     "q": "State the adjustment journal entry for outstanding wages of ₹5,000 and explain where each account appears in the final accounts.",
+     "a": "Correct entry: Wages A/c Dr. 5,000 → Outstanding Wages A/c 5,000. Wages expense increases by ₹5,000 in the Trading Account (debit side); Outstanding Wages appears as a current liability in the Balance Sheet. A wrong answer (e.g., debiting Outstanding Wages) reveals the student confuses the direction of the entry — they think the liability account is debited because it's \"new\", not understanding that expenses are debited to increase them.",
+     "self_check": true
+    },
+    {
+     "q": "A trial balance shows Insurance Premium ₹12,000. Additional info: ₹3,000 relates to next year. A student writes the entry: Insurance A/c Dr. 3,000 → Prepaid Insurance A/c 3,000. Is this correct? Explain why or why not.",
+     "a": "No, it's incorrect. The correct entry is Prepaid Insurance A/c Dr. 3,000 → Insurance A/c 3,000. The student reversed the accounts because they think \"prepaid is an asset so debit it\" but forget that the expense must be reduced (credited) to remove the next-year portion. This reveals a mechanical memorisation of \"debit asset\" without understanding the dual effect: we are transferring part of an expense to an asset.",
+     "self_check": true
+    },
+    {
+     "q": "From the following, calculate the amount of Rent to be debited to P&L and the Prepaid Rent to be shown in the Balance Sheet: Rent paid during the year ₹1,80,000 (covers 18 months from 1st Oct 2016). Accounting year ends 31st March 2017.",
+     "a": "Step 1: Period covered = 18 months from 1 Oct 2016 → ends 31 March 2018. Step 2: Current year = 1 Oct 2016 to 31 March 2017 = 6 months. Step 3: Monthly rent = ₹1,80,000 / 18 = ₹10,000. Step 4: Current year expense = 6 × ₹10,000 = ₹60,000 (debited to P&L). Step 5: Prepaid = ₹1,80,000 − ₹60,000 = ₹1,20,000 (current asset in Balance Sheet). A wrong answer (e.g., 12 months expense) shows the student cannot map the payment period to the accounting year.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on Net Profit and Total Assets of (a) Outstanding Salary ₹10,000 and (b) Prepaid Insurance ₹10,000. Assume no other changes.",
+     "a": "(a) Outstanding Salary: Profit decreases by ₹10,000 (expense ↑); Total Assets unchanged (no asset created, only liability ↑). (b) Prepaid Insurance: Profit increases by ₹10,000 (expense ↓); Total Assets unchanged (one asset ↓ cash, another asset ↑ prepaid — net zero). A student who says both increase assets or both decrease profit fails to see that outstanding creates a liability, not an asset, and prepaid swaps one asset for another.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has Outstanding Rent ₹5,000 and Prepaid Rent ₹5,000. The accountant nets them off and shows zero in the Balance Sheet. Evaluate this treatment.",
+     "a": "Incorrect. AS 1 (Disclosure of Accounting Policies) and the Companies Act require gross presentation: Outstanding Rent is a current liability; Prepaid Rent is a current asset. Netting violates the principle of separate disclosure of assets and liabilities. A student who agrees shows they confuse \"net effect zero\" with \"correct presentation\" — they don't understand that financial statements must show each item distinctly for users' decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context) where a business has both outstanding wages and prepaid rent. Write the adjustment entries, show the P&L and Balance Sheet extracts, and explain why both adjustments are necessary for true profit.",
+     "a": "Scenario: A garment shop pays ₹2,00,000 rent on 1 Jan 2017 for 12 months (year ends 31 March). March wages ₹15,000 unpaid. Entries: (1) Wages A/c Dr. 15,000 → Outstanding Wages A/c 15,000. (2) Prepaid Rent A/c Dr. 1,50,000 → Rent A/c 1,50,000. P&L: Wages ₹15,000 added; Rent ₹50,000 charged (₹2,00,000 − ₹1,50,000). Balance Sheet: Outstanding Wages ₹15,000 (liability); Prepaid Rent ₹1,50,000 (asset). Both needed: without (1), profit is overstated (wage expense missing); without (2), profit is understated (rent expense includes next year). A poor answer omits the \"why\" or misallocates periods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_6",
+   "title": "c8_geo_ch2_6",
+   "questions": [
+    {
+     "q": "Name the continent that has the world's longest mountain range (Andes), largest rainforest (Amazon), and the driest non-polar desert (Atacama).",
+     "a": "South America. A wrong answer (like Africa or Asia) reveals the student is recalling famous features from different continents but hasn't synthesized which combination belongs uniquely to one continent. It shows they know individual features but not the continental-scale pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Australia is the only continent without any major active mountain ranges or volcanoes, despite having ancient mountain remnants like the Great Dividing Range.",
+     "a": "Australia sits entirely on the stable Indo-Australian Plate away from plate boundaries, so no current tectonic collision or subduction creates new mountains or volcanoes. The Great Dividing Range is an ancient, eroded remnant. A wrong answer citing \"Australia is flat\" or \"no tectonic activity\" without mentioning plate position shows confusion between current tectonic setting and historical geology.",
+     "self_check": true
+    },
+    {
+     "q": "On a blank world physical map, locate and label: (a) the Tibetan Plateau, (b) the Congo Basin, (c) the Canadian Shield, (d) the Great Artesian Basin. Which continent does each belong to?",
+     "a": "(a) Tibetan Plateau - Asia; (b) Congo Basin - Africa; (c) Canadian Shield - North America; (d) Great Artesian Basin - Australia. Steps: 1) Identify each feature's name, 2) Recall its continental location from physical geography knowledge, 3) Place on correct continent on map. Wrong placement (e.g., Tibetan Plateau in South America) reveals inability to associate major physical features with their continents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sahara Desert (Africa) and the Gobi Desert (Asia). Both are large deserts, but what fundamental difference in their formation mechanism makes them distinct types of deserts?",
+     "a": "Sahara is a subtropical desert formed by descending dry air in the Hadley Cell (around 30°N), while Gobi is a cold rain-shadow desert formed by the Himalayas blocking moisture from the Indian Ocean. A wrong answer saying \"both are hot deserts\" or \"both lack rain\" misses the critical distinction between latitude-driven and topography-driven aridity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Antarctica's unique physical feature is its ice sheet, but if the ice melted, Antarctica would be just another mountainous continent like any other.\" Is this geographically accurate? Justify your answer.",
+     "a": "Inaccurate. Without ice, Antarctica would reveal a unique archipelago of mountainous islands and a deep continental basin (some below sea level), not a single landmass. Its tectonic history as the center of Gondwana gives it distinct geology (Transantarctic Mountains dividing East/West Antarctica). A wrong answer accepting the statement shows misunderstanding that ice is not just a surface cover but actively shapes the continent's isostasy and that bedrock geology is unique.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Continent Identity Card\" for Europe that uses ONLY physical geography features (no countries, cities, or human features) to distinguish it from Asia, with which it shares a landmass. Include at least four features with explanations.",
+     "a": "Good answer includes: 1) Extensive peninsula structure (Scandinavian, Iberian, Italian, Balkan) creating long coastline-to-area ratio; 2) North European Plain as vast lowland corridor; 3) Alpine mountain system (Alps, Carpathians) from Africa-Eurasia collision; 4) Gulf Stream influence creating mild climate for latitude; 5) Glacial landforms (fjords, cirques) from recent ice sheets. Poor answer lists political boundaries or uses \"small continent\" as a feature, showing confusion between physical and human geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

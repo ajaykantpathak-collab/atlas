@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_biology_kebo118",
+ "concepts": [
+  {
+   "id": "kebo.118.1.1",
+   "title": "Neuron Structure and Resting Membrane Potential",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Neuron Structure and Resting Membrane Potential' refers to.",
+     "a": "A neuron has a cell body with cytoplasm and nucleus, dendrites carrying impulses toward the cell, and a long axon ending in synaptic knobs; the resting nerve membrane maintains a resting potential through the sodium potassium pump, keeping the outside positive and the inside negative.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Neuron Structure and Resting Membrane Potential'.",
+     "a": "The polarised resting membrane is maintained by active transport of three sodium ions out for two potassium ions in, making the axonal membrane more permeable to potassium ions at rest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Neuron Structure and Resting Membrane Potential' taught, and from which source text?",
+     "a": "18.1 Neural System, 18.2 Human Neural System, 18.3.1 Generation and Conduction of Nerve Impulse (source: kebo118.txt sections 18.1-18.3.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.2.1",
+   "title": "Action Potential Generation and Its Voltage Change",
+   "questions": [
+    {
+     "q": "Using the method 'Action Potential Generation and Its Voltage Change', work with: action_potential = 12, resting_potential = 10. Carry the chain through step by step and give the final value of voltage_swing.",
+     "a": "2 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Action Potential Generation and Its Voltage Change' and work with: action_potential = 200, resting_potential = 8. Carry the chain through step by step and give the final value of voltage_swing.",
+     "a": "192 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Action Potential Generation and Its Voltage Change' refers to.",
+     "a": "When a stimulus depolarises the membrane beyond threshold, sodium channels open and the membrane potential reverses to the peak of the action potential or nerve impulse; the change in voltage equals the peak action potential minus the resting potential, and conduction proceeds as depolarisation spreads along the axon with repolarisation following behind.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Action Potential Generation and Its Voltage Change'.",
+     "a": "The impulse is an all or none self-propagating reversal of membrane polarity, and repolarisation restores the resting state as potassium ions flow outward.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Action Potential Generation and Its Voltage Change', in plain ASCII form.",
+     "a": "voltage_swing = action_potential - resting_potential",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.3.1",
+   "title": "Synapse and Synaptic Transmission",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Synapse and Synaptic Transmission' refers to.",
+     "a": "At a synapse the axon terminal of one neuron meets the dendrite of another across a synaptic cleft; in chemical synapses calcium entry releases neurotransmitters like acetylcholine from synaptic vesicles that bind receptors on the post-synaptic membrane, while electrical synapses pass current directly at gap junctions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Synapse and Synaptic Transmission'.",
+     "a": "Chemical synapses are far more common, and neurotransmitter binding generates a new potential in the post-synaptic neuron, allowing one-way conduction across the cleft.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Synapse and Synaptic Transmission' taught, and from which source text?",
+     "a": "18.3.2 Synapse (source: kebo118.txt section 18.3.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.4.1",
+   "title": "Human Brain, Reflex Action and Reflex Arc",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Brain, Reflex Action and Reflex Arc' refers to.",
+     "a": "The human brain divides into forebrain with cerebrum and limbic structures, midbrain and hindbrain with pons, cerebellum and medulla controlling involuntary functions; a reflex action such as the knee jerk travels through a reflex arc of receptor, sensory neuron, CNS centre, motor neuron and effector muscle, with the spinal cord as its centre.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Brain, Reflex Action and Reflex Arc'.",
+     "a": "The medulla controls vital involuntary functions like breathing and heart rate, while the cerebellum keeps posture and balance, and reflex arcs protect the body before conscious processing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Human Brain, Reflex Action and Reflex Arc' taught, and from which source text?",
+     "a": "18.4 Central Neural System, 18.5 Reflex Action and Reflex Arc (source: kebo118.txt sections 18.4, 18.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

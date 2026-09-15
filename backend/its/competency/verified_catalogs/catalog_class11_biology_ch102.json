@@ -1,0 +1,618 @@
+{
+ "subject": "biology",
+ "class": 11,
+ "chapter": 102,
+ "chapter_title": "Biological Classification",
+ "ncert_unit": "Diversity in the Living World",
+ "concepts": [
+  {
+   "id": "jebh.2.1",
+   "title": "Two Kingdom Classification",
+   "section": "2.1",
+   "definition": "The earliest system of classification proposed by Carl Linnaeus (1758) that divided all living organisms into two kingdoms - Plantae and Animalia - based on basic morphological and structural differences.",
+   "formula": "",
+   "key_idea": "Linnaeus divided living organisms into two kingdoms based on presence/absence of cell wall, mode of nutrition, and locomotion ability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who proposed the two kingdom system of classification?",
+    "What were the two kingdoms in Linnaeus classification?",
+    "State the criteria used in the two kingdom classification.",
+    "Why was the two kingdom classification inadequate?",
+    "Give two limitations of the two kingdom system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the classification system being asked about",
+     "explain": "The two kingdom system was proposed by Linnaeus and divides organisms into Plantae and Animalia."
+    },
+    {
+     "step": 2,
+     "action": "Recall the criteria used for classification",
+     "explain": "Criteria included presence of cell wall, mode of nutrition (autotrophic vs heterotrophic), ability to locomote, and response to stimuli."
+    },
+    {
+     "step": 3,
+     "action": "State the kingdoms and limitations",
+     "explain": "Kingdom Plantae included all plants and bacteria, Kingdom Animalia included all animals. It failed to distinguish prokaryotes from eukaryotes and unicellular from multicellular organisms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who proposed the two kingdom system of classification and what were the two kingdoms?",
+     "solution": "Carl Linnaeus proposed the two kingdom system of classification in 1758. The two kingdoms were Plantae (plants) and Animalia (animals).",
+     "answer": "Carl Linnaeus; Kingdom Plantae and Kingdom Animalia"
+    },
+    {
+     "question": "Mention two major drawbacks of the two kingdom classification.",
+     "solution": "The two kingdom system did not distinguish between prokaryotes and eukaryotes. It also grouped unicellular and multicellular organisms together, and placed fungi with plants despite their different mode of nutrition.",
+     "answer": "No distinction between prokaryotes and eukaryotes; unicellular and multicellular organisms grouped together"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the criteria used by Linnaeus for the two kingdom classification.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the two kingdom classification was considered inadequate.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.2",
+   "title": "Five Kingdom Classification",
+   "section": "2.2",
+   "definition": "A classification system proposed by R.H. Whittaker (1969) that grouped living organisms into five kingdoms - Monera, Protista, Fungi, Plantae and Animalia - based on cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships.",
+   "formula": "",
+   "key_idea": "Whittaker used five main criteria: cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships to classify organisms into five kingdoms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who proposed the five kingdom classification?",
+    "What are the five kingdoms in Whittaker classification?",
+    "List the criteria used by Whittaker for five kingdom classification.",
+    "How does five kingdom classification differ from two kingdom classification?",
+    "Which kingdom was added by Whittaker that was not in the two kingdom system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the proposer and year",
+     "explain": "R.H. Whittaker proposed the five kingdom classification in 1969."
+    },
+    {
+     "step": 2,
+     "action": "List the five kingdoms",
+     "explain": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+     "step": 3,
+     "action": "State the criteria used",
+     "explain": "The criteria were cell structure (prokaryotic/eukaryotic), body organization (unicellular/multicellular), mode of nutrition (autotrophic/heterotrophic), reproduction, and phylogenetic relationships."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who proposed the five kingdom classification and on what criteria was it based?",
+     "solution": "R.H. Whittaker (1969) proposed the five kingdom classification. It was based on five criteria: cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships.",
+     "answer": "R.H. Whittaker (1969); based on cell structure, body organization, mode of nutrition, reproduction, and phylogeny"
+    },
+    {
+     "question": "Name the five kingdoms of Whittaker classification.",
+     "solution": "The five kingdoms are Monera (prokaryotes), Protista (unicellular eukaryotes), Fungi (heterotrophic eukaryotes), Plantae (autotrophic eukaryotes), and Animalia (heterotrophic multicellular eukaryotes).",
+     "answer": "Monera, Protista, Fungi, Plantae, Animalia"
+    },
+    {
+     "question": "What is the main advantage of five kingdom classification over two kingdom classification?",
+     "solution": "The five kingdom classification separates prokaryotes (Monera) from eukaryotes and places unicellular organisms in a separate kingdom (Protista), overcoming the major limitations of the two kingdom system.",
+     "answer": "Separates prokaryotes from eukaryotes and unicellular from multicellular organisms"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the five criteria used by Whittaker for his five kingdom classification.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between the two kingdom and five kingdom systems of classification.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.3",
+   "title": "Kingdom Monera",
+   "section": "2.2.1",
+   "definition": "Kingdom Monera comprises all prokaryotic organisms including bacteria, archaebacteria, and eubacteria. They lack a true nucleus, membrane-bound organelles, and have a single circular chromosome.",
+   "formula": "",
+   "key_idea": "Monera contains prokaryotic organisms (bacteria) that lack a nuclear membrane and membrane-bound organelles, divided into archaebacteria and eubacteria based on habitat and cell wall composition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main characteristics of Kingdom Monera?",
+    "Differentiate between archaebacteria and eubacteria.",
+    "What are halophiles? Give an example.",
+    "Explain the role of methanogens.",
+    "Why are bacteria classified under Kingdom Monera?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organism as prokaryotic",
+     "explain": "Kingdom Monera includes all prokaryotes - organisms without a true nucleus or membrane-bound organelles."
+    },
+    {
+     "step": 2,
+     "action": "Classify into archaebacteria or eubacteria",
+     "explain": "Archaebacteria live in harsh conditions (halophiles, thermophiles, methanogens) with distinct cell wall composition. Eubacteria are true bacteria with peptidoglycan in cell walls, including photosynthetic and chemosynthetic autotrophs."
+    },
+    {
+     "step": 3,
+     "action": "State the characteristics and examples",
+     "explain": "Monerans are unicellular, have a single circular chromosome, reproduce by binary fission, and include bacteria, cyanobacteria (Nostoc, Anabaena), and mycoplasma (lack cell wall)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between archaebacteria and eubacteria.",
+     "solution": "Archaebacteria live in harsh habitats (hot springs, salt lakes, marshes) and have a different cell wall structure that allows survival in extreme conditions. Eubacteria are true bacteria with a rigid cell wall made of peptidoglycan. Archaebacteria include methanogens, halophiles and thermoacidophiles, while eubacteria include photosynthetic and heterotrophic bacteria.",
+     "answer": "Archaebacteria: extreme habitats, different cell wall; Eubacteria: true bacteria, peptidoglycan cell wall"
+    },
+    {
+     "question": "What are methanogens and where are they found?",
+     "solution": "Methanogens are archaebacteria that produce methane gas. They are found in marshy areas and in the guts of ruminant animals like cows and buffaloes.",
+     "answer": "Methanogens produce methane; found in marshes and ruminant guts"
+    },
+    {
+     "question": "Why are mycoplasma unique among monerans?",
+     "solution": "Mycoplasma are organisms that completely lack a cell wall, making them unique among monerans. They are the smallest living cells known and can survive without oxygen.",
+     "answer": "Mycoplasma lack a cell wall and are the smallest known living cells"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the salient features of Kingdom Monera.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the different types of archaebacteria with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.4",
+   "title": "Kingdom Protista",
+   "section": "2.2.2",
+   "definition": "Kingdom Protista includes all single-celled eukaryotic organisms that have a well-defined nucleus and membrane-bound organelles. It forms a link with plants, animals, and fungi.",
+   "formula": "",
+   "key_idea": "Protista consists of unicellular eukaryotes including chrysophytes, dinoflagellates, euglenoids, slime moulds, and protozoans, showing diverse modes of nutrition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the characteristics of Kingdom Protista?",
+    "What are chrysophytes? Give an example.",
+    "Describe dinoflagellates and their significance.",
+    "Why are euglenoids called connecting links?",
+    "Differentiate between slime moulds and protozoans."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Confirm the organism is a unicellular eukaryote",
+     "explain": "Protista includes all single-celled eukaryotes with a defined nucleus and membrane-bound organelles."
+    },
+    {
+     "step": 2,
+     "action": "Classify into the appropriate protistan group",
+     "explain": "Groups include chrysophytes (diatoms, golden algae), dinoflagellates (marine, photosynthetic), euglenoids (freshwater, mixotrophic), slime moulds (saprophytic), and protozoans (heterotrophic, predatory)."
+    },
+    {
+     "step": 3,
+     "action": "State characteristics and examples",
+     "explain": "Protists show diverse nutrition modes. Diatoms form diatomaceous earth, dinoflagellates cause red tides, Euglena has both plant and animal features, and protozoans like Amoeba and Plasmodium are heterotrophic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are chrysophytes and why are diatoms important?",
+     "solution": "Chrysophytes include diatoms and golden algae, which are photosynthetic protists found in marine and freshwater. Diatoms have siliceous cell walls that form two overlapping halves. Their cell wall deposits form diatomaceous earth, used in polishing and filtration.",
+     "answer": "Chrysophytes are photosynthetic protists; diatom cell walls form diatomaceous earth"
+    },
+    {
+     "question": "Why are euglenoids considered a connecting link between plants and animals?",
+     "solution": "Euglenoids like Euglena have chloroplasts (plant feature) for photosynthesis but also lack a cell wall and can behave heterotrophically in the dark (animal feature), making them a connecting link.",
+     "answer": "Euglenoids have chloroplasts (plant) but lack cell wall and show heterotrophy (animal)"
+    },
+    {
+     "question": "What causes red tides and how?",
+     "solution": "Red tides are caused by dinoflagellates like Gonyaulax. These marine, photosynthetic protists multiply rapidly and impart a red colour to the seawater.",
+     "answer": "Rapid multiplication of dinoflagellates like Gonyaulax causes red tides"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the different groups of Kingdom Protista with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain why Euglena is called a connecting link between plants and animals.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.5",
+   "title": "Kingdom Fungi",
+   "section": "2.2.3",
+   "definition": "Kingdom Fungi comprises heterotrophic eukaryotic organisms that are saprophytic or parasitic, with a cell wall made of chitin. They show a wide variety of forms and reproduce by spores.",
+   "formula": "",
+   "key_idea": "Fungi are heterotrophic eukaryotes with chitinous cell walls, classified into phycomycetes, ascomycetes, basidiomycetes, and deuteromycetes based on reproductive structures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the general characteristics of Kingdom Fungi?",
+    "Differentiate between the four classes of fungi.",
+    "What is mycorrhiza and why is it important?",
+    "Describe the reproductive structures of ascomycetes.",
+    "Why are deuteromycetes called fungi imperfecti?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Confirm the organism is a heterotrophic eukaryote with chitin cell wall",
+     "explain": "Fungi are heterotrophic (saprophytic or parasitic), eukaryotic, with cell walls of chitin and a body made of thread-like hyphae forming mycelium."
+    },
+    {
+     "step": 2,
+     "action": "Classify into the appropriate fungal class",
+     "explain": "Phycomycetes (aseptate mycelium, zygospores), Ascomycetes (septate mycelium, ascospores in asci), Basidiomycetes (septate mycelium, basidiospores on basidia), Deuteromycetes (imperfect fungi, only asexual reproduction)."
+    },
+    {
+     "step": 3,
+     "action": "State characteristics and examples",
+     "explain": "Examples: Phycomycetes - Mucor, Rhizopus; Ascomycetes - Saccharomyces, Penicillium, Aspergillus; Basidiomycetes - Agaricus, Ustilago, Puccinia; Deuteromycetes - Alternaria, Trichoderma."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between ascomycetes and basidiomycetes.",
+     "solution": "Ascomycetes produce spores (ascospores) inside sac-like structures called asci and include yeast, Penicillium and Aspergillus. Basidiomycetes produce spores (basidiospores) on club-shaped basidia and include mushrooms, rust fungi and smut fungi. Basidiomycetes generally do not have asexual reproduction.",
+     "answer": "Ascomycetes: spores in asci (yeast, Penicillium); Basidiomycetes: spores on basidia (mushrooms, rusts)"
+    },
+    {
+     "question": "Why are deuteromycetes called fungi imperfecti?",
+     "solution": "Deuteromycetes are called fungi imperfecti because only the asexual or vegetative phases of these fungi are known and their sexual reproductive stage has not been observed or does not exist.",
+     "answer": "Only asexual phase known; sexual reproduction not observed"
+    },
+    {
+     "question": "What is mycorrhiza and what is its significance?",
+     "solution": "Mycorrhiza is a symbiotic association between fungi and the roots of higher plants. The fungus helps the plant absorb water and minerals from the soil, while the plant provides the fungus with food. This symbiosis is important for plant nutrition.",
+     "answer": "Symbiotic fungus-root association aiding water and mineral absorption"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the four classes of fungi with distinguishing features and examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the economic importance of fungi? Give examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.6",
+   "title": "Kingdom Plantae",
+   "section": "2.2.4",
+   "definition": "Kingdom Plantae includes all eukaryotic, chlorophyll-containing, autotrophic organisms commonly called plants. It is divided into various divisions including algae, bryophytes, pteridophytes, gymnosperms, and angiosperms.",
+   "formula": "",
+   "key_idea": "Plantae comprises autotrophic eukaryotes with cellulose cell walls, classified into algae, bryophytes, pteridophytes, gymnosperms, and angiosperms based on differentiation and reproductive structures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main characteristics of Kingdom Plantae?",
+    "Differentiate between bryophytes and pteridophytes.",
+    "Why are bryophytes called amphibians of the plant kingdom?",
+    "What is the main difference between gymnosperms and angiosperms?",
+    "List the divisions of Kingdom Plantae in order of evolution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Confirm the organism is an autotrophic eukaryote with cellulose cell wall",
+     "explain": "Plantae includes all chlorophyll-containing, photosynthetic eukaryotes with cell walls made of cellulose."
+    },
+    {
+     "step": 2,
+     "action": "Classify into the appropriate plant division",
+     "explain": "Algae (thalloid, no differentiation), Bryophyta (non-vascular, need water for reproduction), Pteridophyta (first vascular plants), Gymnosperms (naked seeds), Angiosperms (seeds enclosed in fruit)."
+    },
+    {
+     "step": 3,
+     "action": "State characteristics and examples",
+     "explain": "Bryophytes (mosses, liverworts) are amphibians of plant kingdom. Pteridophytes (ferns) have vascular tissues. Gymnosperms (Pinus, Cycas) have naked seeds. Angiosperms are divided into monocots and dicots."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are bryophytes called the amphibians of the plant kingdom?",
+     "solution": "Bryophytes are called amphibians of the plant kingdom because although they live on land, they require water for the transfer of male gametes to female gametes for fertilization, similar to how amphibians live on land but need water for reproduction.",
+     "answer": "They live on land but need water for sexual reproduction"
+    },
+    {
+     "question": "What is the key difference between gymnosperms and angiosperms?",
+     "solution": "Gymnosperms bear naked seeds (seeds not enclosed in fruits) as in Pinus and Cycas. Angiosperms bear seeds enclosed within fruits (developed from ovaries) and are divided into monocots (single cotyledon) and dicots (two cotyledons).",
+     "answer": "Gymnosperms: naked seeds; Angiosperms: seeds enclosed in fruits"
+    },
+    {
+     "question": "What is the significance of pteridophytes in plant evolution?",
+     "solution": "Pteridophytes are the first terrestrial plants to possess vascular tissues (xylem and phloem), marking an important evolutionary step. However, they still require water for fertilization, like bryophytes.",
+     "answer": "First vascular plants with xylem and phloem"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the major divisions of Kingdom Plantae and give one example of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare bryophytes and pteridophytes in terms of structure and reproduction.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.7",
+   "title": "Kingdom Animalia",
+   "section": "2.2.5",
+   "definition": "Kingdom Animalia includes all heterotrophic, multicellular eukaryotic organisms that lack a cell wall. Animals are directly or indirectly dependent on plants for food and show varied levels of organization.",
+   "formula": "",
+   "key_idea": "Animalia comprises heterotrophic, multicellular eukaryotes without cell walls, classified based on body symmetry, coelom, segmentation, and presence/absence of notochord.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main characteristics of Kingdom Animalia?",
+    "On what basis are animals classified?",
+    "Differentiate between radial and bilateral symmetry.",
+    "What is a coelom and its significance?",
+    "How are animals divided based on the notochord?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Confirm the organism is a heterotrophic multicellular eukaryote without cell wall",
+     "explain": "Animals are multicellular, heterotrophic, eukaryotic organisms lacking a cell wall. They depend on plants directly or indirectly for food."
+    },
+    {
+     "step": 2,
+     "action": "Classify based on fundamental features",
+     "explain": "Animals are classified based on body symmetry (radial/bilateral), nature of coelom (acoelomate/pseudocoelomate/coelomate), segmentation (metameric), and presence or absence of notochord."
+    },
+    {
+     "step": 3,
+     "action": "State the major groups and examples",
+     "explain": "Major phyla include Porifera (sponges), Cnidaria (Hydra), Platyhelminthes (flatworms), Annelida (earthworm), Arthropoda (insects), Mollusca (Pila), Echinodermata (starfish), Hemichordata, and Chordata (vertebrates)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the fundamental features used for animal classification?",
+     "solution": "The fundamental features used for animal classification are: body symmetry (radial or bilateral), nature of coelom (acoelomate, pseudocoelomate, or coelomate), patterns of segmentation (present or absent), and presence or absence of notochord.",
+     "answer": "Symmetry, coelom, segmentation, and notochord"
+    },
+    {
+     "question": "Differentiate between radial and bilateral symmetry with examples.",
+     "solution": "In radial symmetry, the body can be divided into two equal halves by any plane passing through the central axis (e.g., Coelenterates, Echinoderms). In bilateral symmetry, the body can be divided into two identical left and right halves only through one plane (e.g., Annelids, Arthropods, Chordates).",
+     "answer": "Radial: any plane through central axis (Hydra); Bilateral: one plane only (earthworm)"
+    },
+    {
+     "question": "What is a coelom and why is it important?",
+     "solution": "A coelom is a fluid-filled body cavity between the body wall and the gut wall, lined by mesoderm. It provides space for internal organs, allows their independent movement, and serves as a shock absorber. Animals are classified as acoelomate, pseudocoelomate, or coelomate based on it.",
+     "answer": "Fluid-filled mesoderm-lined cavity; basis for classification into acoelomate, pseudocoelomate, coelomate"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the major phyla of Kingdom Animalia with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the basis of classification of animals into different phyla.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.8",
+   "title": "Viruses, Viroids, Prions and Lichens",
+   "section": "2.3",
+   "definition": "Viruses are acellular obligate parasites with protein coat (capsid) and genetic material (RNA or DNA). Viroids are free infectious RNA molecules. Prions are infectious proteins. Lichens are symbiotic associations of fungi and algae.",
+   "formula": "",
+   "key_idea": "Viruses, viroids, and prions are acellular infectious agents not included in the five kingdom system, while lichens are symbiotic organisms showing mutualism between fungi and algae.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are viruses not included in the five kingdom classification?",
+    "What is the structure of a virus?",
+    "Differentiate between viruses and viroids.",
+    "What are prions and what diseases do they cause?",
+    "What are lichens and what is their ecological significance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of acellular organism or symbiotic association",
+     "explain": "Viruses have protein coat + nucleic acid; viroids are free RNA; prions are infectious proteins; lichens are fungal-algal symbiosis."
+    },
+    {
+     "step": 2,
+     "action": "State the structural features",
+     "explain": "Viruses have a capsid (protein coat) enclosing RNA or DNA, and are obligate parasites. Viroids are naked, free RNA without protein coat. Prions are misfolded proteins causing disease. Lichens have a fungal partner (mycobiont) and algal partner (phycobiont)."
+    },
+    {
+     "step": 3,
+     "action": "State examples and significance",
+     "explain": "Viruses: TMV, HIV; Viroids: causes potato spindle tuber disease; Prions: cause bovine spongiform encephalopathy (mad cow disease); Lichens: good pollution indicators, pioneer species in succession."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are viruses not included in any of the five kingdoms?",
+     "solution": "Viruses are not included in the five kingdom classification because they are acellular, lack cellular structure, and do not show characteristics of living organisms outside a host. They are obligate parasites that can only reproduce inside a living host cell.",
+     "answer": "Viruses are acellular obligate parasites lacking cellular structure"
+    },
+    {
+     "question": "Differentiate between viruses and viroids.",
+     "solution": "Viruses have a protein coat (capsid) enclosing either RNA or DNA as genetic material. Viroids are free RNA molecules without a protein coat. Viroids are smaller than viruses and cause diseases like potato spindle tuber disease.",
+     "answer": "Viruses: protein coat + DNA/RNA; Viroids: free RNA, no protein coat"
+    },
+    {
+     "question": "What are lichens and why are they ecologically important?",
+     "solution": "Lichens are symbiotic associations between a fungus (mycobiont) and an alga or cyanobacterium (phycobiont). The fungus provides shelter and minerals while the alga provides food through photosynthesis. Lichens are ecologically important as pioneer species in succession and as indicators of air pollution.",
+     "answer": "Fungal-algal symbiosis; pioneer species and pollution indicators"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the structure of a virus with a labelled explanation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are prions? Name a disease caused by prions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.9",
+   "title": "Three Domain Classification",
+   "section": "2.4",
+   "definition": "A classification system proposed by Carl Woese (1990) based on differences in 16S rRNA sequences, dividing organisms into three domains: Bacteria (eubacteria), Archaea (archaebacteria), and Eukarya (all eukaryotes).",
+   "formula": "",
+   "key_idea": "Woese proposed three domains based on rRNA characteristics: Domain Bacteria, Domain Archaea, and Domain Eukarya, separating archaebacteria from eubacteria due to fundamental molecular differences.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who proposed the three domain classification?",
+    "What are the three domains in Woese classification?",
+    "On what basis was the three domain classification proposed?",
+    "Why were archaebacteria separated into a separate domain?",
+    "Which kingdoms fall under Domain Eukarya?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis of classification",
+     "explain": "Carl Woese proposed the three domain system based on differences in 16S rRNA sequences, which revealed fundamental differences between archaebacteria and eubacteria."
+    },
+    {
+     "step": 2,
+     "action": "List the three domains",
+     "explain": "The three domains are: Domain Bacteria (eubacteria with peptidoglycan cell wall), Domain Archaea (archaebacteria with distinct cell wall, no peptidoglycan), and Domain Eukarya (all eukaryotes with nucleus)."
+    },
+    {
+     "step": 3,
+     "action": "Map kingdoms to domains",
+     "explain": "Domain Bacteria includes kingdom Monera (eubacteria), Domain Archaea includes archaebacteria, and Domain Eukarya includes kingdoms Protista, Fungi, Plantae, and Animalia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who proposed the three domain classification and on what basis?",
+     "solution": "Carl Woese proposed the three domain classification in 1990 based on differences in 16S rRNA sequences. This molecular approach revealed that archaebacteria are fundamentally different from eubacteria.",
+     "answer": "Carl Woese; based on 16S rRNA sequence differences"
+    },
+    {
+     "question": "Name the three domains and the kingdoms included in each.",
+     "solution": "The three domains are Bacteria, Archaea, and Eukarya. Domain Bacteria includes eubacteria, Domain Archaea includes archaebacteria, and Domain Eukarya includes the kingdoms Protista, Fungi, Plantae, and Animalia.",
+     "answer": "Bacteria (eubacteria), Archaea (archaebacteria), Eukarya (Protista, Fungi, Plantae, Animalia)"
+    },
+    {
+     "question": "Why was Domain Archaea separated from Domain Bacteria?",
+     "solution": "Archaebacteria were separated into a distinct domain because molecular studies of rRNA showed they are more closely related to eukaryotes than to eubacteria. They also differ in cell wall composition (no peptidoglycan) and membrane lipids.",
+     "answer": "rRNA studies show archaebacteria are more related to eukaryotes; differ in cell wall and membrane lipids"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three domain system of classification proposed by Carl Woese.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the three domain system considered an improvement over the five kingdom system?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.10",
+   "title": "Advantages and Limitations of Classification Systems",
+   "section": "2.5",
+   "definition": "Classification systems have evolved from two kingdom to five kingdom and three domain systems, each addressing limitations of the previous system while introducing new criteria based on advancing biological knowledge.",
+   "formula": "",
+   "key_idea": "Each classification system improved upon the previous one by incorporating new criteria (cell structure, nutrition, phylogeny, molecular data) but none is perfect as new discoveries like viruses and lichens challenge existing frameworks.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the advantages of the five kingdom classification?",
+    "State two limitations of the five kingdom classification.",
+    "How did the three domain system improve upon the five kingdom system?",
+    "Why is no single classification system perfect?",
+    "Compare the criteria used in two, five kingdom, and three domain classifications."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the classification system being evaluated",
+     "explain": "Evaluate two kingdom, five kingdom, or three domain systems based on their criteria and outcomes."
+    },
+    {
+     "step": 2,
+     "action": "List the advantages",
+     "explain": "Five kingdom: separates prokaryotes from eukaryotes, unicellular from multicellular, autotrophs from heterotrophs. Three domain: uses molecular data, separates Archaea from Bacteria."
+    },
+    {
+     "step": 3,
+     "action": "List the limitations",
+     "explain": "Five kingdom: does not include viruses, viroids, lichens; places unicellular and multicellular together in some cases; no clear boundary between Protista and other kingdoms. Three domain: kingdom Monera split across two domains."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main advantages of the five kingdom classification?",
+     "solution": "The five kingdom classification separates prokaryotes (Monera) from eukaryotes, unicellular organisms (Protista) from multicellular ones, and autotrophs (Plantae) from heterotrophs (Animalia, Fungi). It also reflects phylogenetic relationships better than the two kingdom system.",
+     "answer": "Separates prokaryotes/eukaryotes, unicellular/multicellular, autotrophs/heterotrophs; reflects phylogeny"
+    },
+    {
+     "question": "State two limitations of the five kingdom classification.",
+     "solution": "Two limitations are: (1) It does not include acellular organisms like viruses, viroids, and prions. (2) Kingdom Protista is a heterogeneous group with no clear-cut boundary, and the placement of some organisms like slime moulds is debatable.",
+     "answer": "Excludes viruses/viroids/prions; Protista is heterogeneous with unclear boundaries"
+    },
+    {
+     "question": "How does the three domain system improve upon the five kingdom system?",
+     "solution": "The three domain system uses molecular data (rRNA sequences) to separate Archaea from Bacteria, recognizing that archaebacteria are more closely related to eukaryotes. This provides a more accurate evolutionary picture, though it splits kingdom Monera across two domains.",
+     "answer": "Uses molecular data; separates Archaea from Bacteria based on evolutionary relationships"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the advantages and limitations of the five kingdom classification.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do classification systems keep changing? Explain with examples.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo102.txt",
+ "source_link": "title-matched (new syllabus)"
+}

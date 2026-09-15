@@ -1,0 +1,476 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 1,
+ "chapter_title": "Querying and SQL Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leip101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leip101.1",
+   "title": "GST, FinalPrice and EMI Computation",
+   "section": "1.2.1 A",
+   "definition": "A showroom query can chain arithmetic inside SELECT: add tax at 12 percent of the listed price to build the final price, then split that amount into ten equal monthly installments rounded down to a multiple of ten thousand, leaving the leftover payable at once. The MOD-style remainder isolates the leftover, and integer division by the installment count gives the clean EMI.",
+   "formula": "emi_amount = (final_price - final_price % emi_unit) / instalment_count",
+   "key_idea": "Tax first, total second, remainder third: the leftover after stripping the last ten-thousands, divided by ten, is the payable EMI.",
+   "textbook_ref": "leip101.txt Example 1.1, GST and EMI queries (lines 243-346)",
+   "question_patterns": [
+    "calculate the GST at 12 percent of the price of car D001 costing 582613 and round it to one decimal place",
+    "find the FinalPrice of car D001 after adding 12 percent GST to its price",
+    "divide the FinalPrice 652526.6 into 10 EMIs in multiples of 10000; what is each EMI",
+    "find the remaining amount payable immediately after dividing FinalPrice into 10 EMIs using modular division",
+    "which SQL functions help compute the EMI and the leftover amount from FinalPrice",
+    "for the car priced 673112, compute the GST, FinalPrice and EMI in multiples of 10000"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the tax component",
+     "explain": "12 percent of the listed price: 582613 * 12 / 100 = 69913.56",
+     "compute": "gst_amount = car_price * gst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "build the payable total",
+     "explain": "price plus tax: 582613 + 69913.56 = 652526.56, stored as 652526.6",
+     "compute": "final_price = car_price + gst_amount"
+    },
+    {
+     "step": 3,
+     "action": "strip the leftover and split into ten",
+     "explain": "removing the remainder on division by 10000 leaves 650000, and a tenth of it is the EMI 65000",
+     "compute": "emi_amount = (final_price - final_price % emi_unit) / instalment_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A car lists at Rs 400000. With 12 percent GST added, what is the final price in rupees?",
+     "a": "448000"
+    }
+   ]
+  },
+  {
+   "id": "leip101.2",
+   "title": "String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM",
+   "section": "1.2.1 B",
+   "definition": "String functions dissect text values: LENGTH counts characters, INSTR reports where a substring first sits (0 when absent), LEFT and RIGHT copy characters from either end, MID/SUBSTR cut from a position onward, and LTRIM, RTRIM, TRIM shave padding spaces from the left, right or both sides. Combining INSTR with LEFT, for example, slices an email into its name part before the at-sign.",
+   "formula": "trimmed_length = raw_length - saved_spaces",
+   "key_idea": "Position functions locate, cut functions extract, and trimming functions subtract the padding from the raw length.",
+   "textbook_ref": "leip101.txt Table 1.6 and Example 1.3 (lines 394-634)",
+   "question_patterns": [
+    "what does MID('Informatics', 3, 4) return",
+    "find the position of 'ma' in the string Informatics using INSTR",
+    "display the part of an email before the at-sign using LEFT with INSTR",
+    "the string '  MADAM  ' has length 9; what does TRIM return and what is its length",
+    "how many leading spaces does LTRIM remove from a padded string of length 7 holding DELHI",
+    "write the query showing the length of each customer email"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cut the name part before the at-sign",
+     "explain": "characters before position 10 number 10 - 1 = 9",
+     "compute": "user_part_length = at_sign_position - 1"
+    },
+    {
+     "step": 2,
+     "action": "count the domain side",
+     "explain": "the rest of a 19-character email after the at-sign is 19 - 10 = 9 characters",
+     "compute": "domain_part_length = email_length - at_sign_position"
+    },
+    {
+     "step": 3,
+     "action": "rebuild the whole length",
+     "explain": "name part plus domain part plus the single at-sign must reproduce the raw length 19",
+     "compute": "email_length_check = user_part_length + domain_part_length + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which SQL function reports where a substring first sits, answering 0 when absent?",
+     "a": "INSTR"
+    }
+   ]
+  },
+  {
+   "id": "leip101.3",
+   "title": "Date Functions: YEAR, MONTH, DAY, DAYNAME",
+   "section": "1.2.1 C",
+   "definition": "Date functions pick a stored date apart: YEAR, MONTH and DAY return the numeric parts, MONTHNAME and DAYNAME return words like November or Thursday, NOW() reads the clock, and DATE() keeps just the date part of a timestamp. Duration questions, such as months of service between two dates, reduce to counting month numbers on both ends and subtracting.",
+   "formula": "service_months = months_now - months_joined",
+   "key_idea": "Convert each date to a single month counter (year times twelve plus month); the difference is the span in months.",
+   "textbook_ref": "leip101.txt Table 1.7 and Example 1.4 (lines 635-798)",
+   "question_patterns": [
+    "display the day, month number and year of joining of all employees using date functions",
+    "which function returns the weekday name of a date such as Thursday",
+    "what do YEAR('2003-10-03') and MONTHNAME('2003-11-28') return",
+    "an employee joined in December 2017; find the months of service up to July 2019",
+    "which function shows the current system date and time in MySQL",
+    "how would you fetch only the date part from a NOW() timestamp"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collapse the joining date to a month counter",
+     "explain": "2017 * 12 + 12 = 24216 months from the epoch start",
+     "compute": "months_joined = join_year * 12 + join_month"
+    },
+    {
+     "step": 2,
+     "action": "collapse the later date the same way",
+     "explain": "2019 * 12 + 7 = 24235 months",
+     "compute": "months_now = exit_year * 12 + exit_month"
+    },
+    {
+     "step": 3,
+     "action": "subtract to get the span",
+     "explain": "24235 - 24216 = 19 months of service",
+     "compute": "service_months = months_now - months_joined"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which function returns the weekday name of a stored date?",
+     "a": "DAYNAME"
+    }
+   ]
+  },
+  {
+   "id": "leip101.4",
+   "title": "Aggregate Functions: MAX, MIN, AVG, SUM, COUNT",
+   "section": "1.2.2",
+   "definition": "Aggregate (multiple row) functions collapse a whole column of rows into one number: MAX and MIN take the extremes, SUM totals, AVG divides the total by the value count, COUNT counts non-null entries and COUNT(*) counts every row. On the chapter's INVENTORY table, the eight car prices give a total of 4608733 and an average of 576091.625.",
+   "formula": "inventory_average = inventory_total / car_count",
+   "key_idea": "Sum the column once, divide by the row count for the average; extremes come from MAX and MIN without sorting.",
+   "textbook_ref": "leip101.txt Table 1.9 and Example 1.5 (lines 763-909)",
+   "question_patterns": [
+    "find MAX(Price) and MIN(Price) from the INVENTORY table",
+    "compute SUM(Price) of all eight cars in the INVENTORY table",
+    "what does AVG(Price) return for the INVENTORY table",
+    "how does COUNT(column) differ from COUNT(*) when a column holds NULL",
+    "count the cars whose model is VXI in the INVENTORY table",
+    "find how many different models the INVENTORY table lists using COUNT with DISTINCT"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the price spread",
+     "explain": "the costliest price 673112 minus the cheapest 355205 gives the span 317907",
+     "compute": "price_span = max((p_one, p_two, p_three, p_four, p_five, p_six, p_seven, p_eight)) - min((p_one, p_two, p_three, p_four, p_five, p_six, p_seven, p_eight))"
+    },
+    {
+     "step": 2,
+     "action": "total all eight prices",
+     "explain": "the eight prices add up to 4608733, matching SUM(Price)",
+     "compute": "inventory_total = sum((p_one, p_two, p_three, p_four, p_five, p_six, p_seven, p_eight))"
+    },
+    {
+     "step": 3,
+     "action": "average the column",
+     "explain": "4608733 divided by 8 cars gives 576091.625, matching AVG(Price)",
+     "compute": "inventory_average = inventory_total / car_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Eight car prices total 4608733. What does AVG(Price) return?",
+     "a": "576091.625"
+    }
+   ]
+  },
+  {
+   "id": "leip101.5",
+   "title": "GROUP BY and HAVING Clauses",
+   "section": "1.3",
+   "definition": "GROUP BY collects the rows sharing a value in one column into buckets so aggregates run per bucket, for instance the number of cars each customer bought. HAVING then filters those buckets after aggregation, keeping only the groups that pass a condition such as more than one purchase; WHERE cannot do this job because it filters rows before grouping.",
+   "formula": "c0001_average = c0001_total / c0001_purchase_count",
+   "key_idea": "WHERE filters rows, GROUP BY buckets them, HAVING filters the buckets; per-group aggregates follow the same sum-then-divide arithmetic.",
+   "textbook_ref": "leip101.txt section 1.3, Example 1.6 (lines 910-1016)",
+   "question_patterns": [
+    "display the number of cars purchased by each customer from the SALE table",
+    "which customers purchased more than one car, using GROUP BY with HAVING",
+    "show the number of payments in each payment mode category of the SALE table",
+    "find the sum of sale price of the cars purchased by customer C0001",
+    "compute the average sale price per car for customer C0001 who bought two cars",
+    "why can a condition on COUNT(*) be written in HAVING but not in WHERE"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total one customer's purchases",
+     "explain": "C0001 bought cars on invoices worth 613247 and 659982, totalling 1273229",
+     "compute": "c0001_total = sum((invoice_one, invoice_four))"
+    },
+    {
+     "step": 2,
+     "action": "average over the customer's cars",
+     "explain": "1273229 spread over 2 purchased cars gives 636614.5 per car",
+     "compute": "c0001_average = c0001_total / c0001_purchase_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which clause filters buckets after aggregation?",
+     "a": "HAVING"
+    }
+   ]
+  },
+  {
+   "id": "leip101.6",
+   "title": "Set Operations: UNION, INTERSECT, MINUS",
+   "section": "1.4",
+   "definition": "Two relations with matching columns can be merged set-wise: UNION stacks the rows of both tables but shows a shared row once, INTERSECT keeps only rows present in both, and MINUS keeps rows of the first table absent from the second. Row counting follows the inclusion-exclusion arithmetic of sets.",
+   "formula": "union_rows = dance_only + music_only + shared_rows",
+   "key_idea": "Subtract the overlap to get each table's exclusive rows; the union is the two exclusives plus one copy of the overlap.",
+   "textbook_ref": "leip101.txt sections 1.4.1-1.4.3, Tables 1.10-1.14 (lines 1017-1152)",
+   "question_patterns": [
+    "how many rows does DANCE UNION MUSIC contain for the two event tables of the chapter",
+    "which students appear in both the DANCE and the MUSIC tables after INTERSECT",
+    "how many rows does DANCE MINUS MUSIC keep",
+    "state the condition on the two relations before a set operation can be applied",
+    "the DANCE table has 4 rows, MUSIC has 5 and they share 2; count the union rows",
+    "how is MINUS different from INTERSECT"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the first table's exclusive rows",
+     "explain": "4 dance rows minus the 2 shared rows leave 2 dance-only participants",
+     "compute": "dance_only_rows = dance_rows - shared_rows"
+    },
+    {
+     "step": 2,
+     "action": "count the second table's exclusive rows",
+     "explain": "5 music rows minus the 2 shared rows leave 3 music-only participants",
+     "compute": "music_only_rows = music_rows - shared_rows"
+    },
+    {
+     "step": 3,
+     "action": "assemble the union",
+     "explain": "2 exclusives plus 3 exclusives plus 1 copy of the 2 shared rows gives 7 union rows",
+     "compute": "union_rows = dance_only_rows + music_only_rows + shared_rows"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which set operation shows a row shared by both tables only once?",
+     "a": "UNION"
+    }
+   ]
+  },
+  {
+   "id": "leip101.7",
+   "title": "Cartesian Product Degree and Cardinality",
+   "section": "1.4.4",
+   "definition": "The Cartesian product pairs every row of one relation with every row of another. Its degree adds the two degrees (columns pile up side by side) and its cardinality multiplies the two cardinalities (each row of the first meets each row of the second); DANCE with MUSIC therefore yields degree 6 and cardinality 20.",
+   "formula": "combined_cardinality = first_cardinality * second_cardinality",
+   "key_idea": "Columns add, rows multiply: the product relation's size is the product of the input sizes.",
+   "textbook_ref": "leip101.txt section 1.4.4 and Table 1.15 (lines 1153-1260)",
+   "question_patterns": [
+    "what are the degree and cardinality of DANCE X MUSIC",
+    "two relations of degree 3 and cardinalities 4 and 5 are multiplied; find the resulting cardinality",
+    "why does the cartesian product grow so large compared to the input tables",
+    "a Student table of 6 rows meets a Stream table of 3 rows; how many rows does their cartesian product hold",
+    "if a new column is added to the Stream table, what happens to the degree of the product",
+    "write the SQL that produces all combinations of tuples of two relations"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the degrees",
+     "explain": "3 columns from each side line up into 3 + 3 = 6 columns",
+     "compute": "combined_degree = first_degree + second_degree"
+    },
+    {
+     "step": 2,
+     "action": "multiply the cardinalities",
+     "explain": "every one of the 4 rows pairs with every one of the 5 rows, giving 20 combinations",
+     "compute": "combined_cardinality = first_cardinality * second_cardinality"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "DANCE has 4 rows and MUSIC has 5. How many rows does their cartesian product hold?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "leip101.8",
+   "title": "JOIN and NATURAL JOIN on Two Tables",
+   "section": "1.5.2",
+   "definition": "A JOIN pulls related rows out of two tables by testing a condition, usually equality between a primary key and its foreign key; the condition may sit in WHERE, in JOIN ... ON, or be left implicit in NATURAL JOIN, which additionally drops the duplicated common column. Joining N tables on equality needs N-1 joins.",
+   "formula": "joins_needed = table_count - 1",
+   "key_idea": "JOIN filters the cartesian product down to matching pairs; NATURAL JOIN hides the repeated common column.",
+   "textbook_ref": "leip101.txt sections 1.5.1-1.5.2, Example 1.7 (lines 1261-1424)",
+   "question_patterns": [
+    "list UCode, UName, UColor, Size and Price of related tuples of UNIFORM and COST",
+    "how does NATURAL JOIN differ from JOIN with an ON condition",
+    "where can the join condition be placed when combining two tables in SQL",
+    "how many joins are needed to combine four tables on equality conditions",
+    "why is a table alias used while joining two tables that share a column name",
+    "write the query joining UNIFORM and COST using JOIN ON"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the linking columns",
+     "explain": "one side's primary key matches the other side's foreign key on the shared attribute"
+    },
+    {
+     "step": 2,
+     "action": "choose the syntax",
+     "explain": "comma plus WHERE, JOIN with ON, or NATURAL JOIN all produce the same matched pairs"
+    },
+    {
+     "step": 3,
+     "action": "check the output shape",
+     "explain": "plain JOIN repeats the common column on both sides; NATURAL JOIN shows it once"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Joining 3 tables on equality needs how many joins?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "leip101.9",
+   "title": "Single Row versus Aggregate Functions",
+   "section": "1.2",
+   "definition": "Single row (scalar) functions such as POWER, ROUND, MOD, UPPER, LOWER and the date extractors work on one value per row and return one result per row, so they may appear in SELECT, WHERE or ORDER BY. Aggregate functions instead swallow a whole group of rows and return one value per group, and they live only in the SELECT list.",
+   "formula": "results_returned = one_per_row_or_group",
+   "key_idea": "Row functions transform each row independently; aggregates collapse many rows into a single figure.",
+   "textbook_ref": "leip101.txt Table 1.8 and section 1.2 intro (lines 749-762, 160-181)",
+   "question_patterns": [
+    "state two differences between single row functions and aggregate functions",
+    "in which clauses can a single row function be used",
+    "name the category of MAX, MIN, AVG, SUM and COUNT functions",
+    "what does POWER(2,3) return and which category does POWER belong to",
+    "what does MOD(21,2) compute",
+    "why can an aggregate function not be used inside a WHERE clause"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the input width",
+     "explain": "scalar functions take one value; aggregates take a whole column of values"
+    },
+    {
+     "step": 2,
+     "action": "check the output width",
+     "explain": "a scalar function answers per row; an aggregate answers once per group"
+    },
+    {
+     "step": 3,
+     "action": "check the allowed clauses",
+     "explain": "scalar functions work in SELECT, WHERE and ORDER BY; aggregates only in the SELECT list (or HAVING over groups)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "POWER and UPPER return one result per row. Are they single-row or aggregate functions?",
+     "a": "single-row"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leip101.txt Example 1.1 (GST and EMI on car D001)",
+   "concept": "leip101.1",
+   "question_type": "numeric",
+   "question_pattern": "Car D001 is priced 582613. Add 12 percent GST to get FinalPrice, then find the EMI in multiples of 10000 when the amount is split into 10 installments.",
+   "extracted_variables": {
+    "car_price": 582613,
+    "gst_rate": 12,
+    "emi_unit": 10000,
+    "instalment_count": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the GST",
+     "explain": "582613 * 12 / 100 = 69913.56",
+     "compute": "gst_amount = car_price * gst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax to the price",
+     "explain": "582613 + 69913.56 = 652526.56, stored as 652526.6",
+     "compute": "final_price = car_price + gst_amount"
+    },
+    {
+     "step": 3,
+     "action": "strip the remainder and divide by ten",
+     "explain": "(652526.56 - 2526.56) / 10 = 65000, the EMI shown in the chapter output",
+     "compute": "emi_amount = (final_price - final_price % emi_unit) / instalment_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leip101.txt section 1.4.4, DANCE X MUSIC",
+   "concept": "leip101.7",
+   "question_type": "numeric",
+   "question_pattern": "Relations DANCE (degree 3, cardinality 4) and MUSIC (degree 3, cardinality 5) are combined with a cartesian product. Find the degree and cardinality of the result.",
+   "extracted_variables": {
+    "first_degree": 3,
+    "second_degree": 3,
+    "first_cardinality": 4,
+    "second_cardinality": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the degrees",
+     "explain": "3 + 3 = 6 columns in the product",
+     "compute": "combined_degree = first_degree + second_degree"
+    },
+    {
+     "step": 2,
+     "action": "multiply the cardinalities",
+     "explain": "4 * 5 = 20 rows, matching Table 1.15",
+     "compute": "combined_cardinality = first_cardinality * second_cardinality"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leip101.txt Exercise Q2 (outputs of SQL commands)",
+   "questions": [
+    "Find the output of SELECT POW(2,3). (8)",
+    "Find the output of SELECT ROUND(123.2345, 2), ROUND(342.9234, -1). (123.23 and 340)",
+    "Find the output of SELECT LENGTH('Informatics Practices'). (21)",
+    "Find the output of SELECT YEAR('1979/11/26'), MONTH('1979/11/26'), DAY('1979/11/26'), MONTHNAME('1979/11/26'). (1979, 11, 26, November)",
+    "Find the output of SELECT LEFT('INDIA',3), RIGHT('Computer Science',4). (IND and ence)",
+    "Find the output of SELECT MID('Informatics',3,4), SUBSTR('Practices',3). (form and actices)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leip101.txt Exercise Q4 (CARSHOWROOM queries)",
+   "questions": [
+    "Write the ALTER statement to add a Discount column to INVENTORY. (ALTER TABLE INVENTORY ADD Discount Numeric(8,2))",
+    "Which models get no discount, which get 10 percent and which get 12 percent? (LXI none; VXI 10 percent; others 12 percent)",
+    "Display the name of the costliest petrol car. (SELECT CarName FROM INVENTORY WHERE FuelType='Petrol' AND Price = MAX...) order or MAX with WHERE",
+    "The average discount and total discount on Car4, given its two prices 514000 and 614000 at 0 and 10 percent discounts. (discounts 0 and 61400; total 61400; average 30700)",
+    "Count the cars having no discount. (2, the two LXI models)",
+    "In the Streams_Of_Students database, Student has 6 rows and Stream has 3 rows; state the degree and cardinality of their cartesian product, and after adding a TeacherIncharge column to Stream. (degree 6, cardinality 18; then degree 7, cardinality 18)"
+   ]
+  }
+ ]
+}

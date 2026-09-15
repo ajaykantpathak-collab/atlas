@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_010",
+   "title": "c12_cs_cbse_13_010",
+   "questions": [
+    {
+     "q": "Define the \"gender digital divide\" in your own words, distinguishing it from the general digital divide. Give one India-specific statistic (from NFHS-5, NSSO, or GSMA reports) that illustrates this gap.",
+     "a": "The gender digital divide is the measurable gap between men/women (and gender minorities) in access to, use of, and benefits from digital technologies — distinct from the general digital divide which compares across geography, income, or education without gender disaggregation. Example: NFHS-5 (2019-21) shows only 33% of women in India have ever used the internet vs 57% of men; in rural areas, the gap widens to 25% vs 49%. A wrong answer that cites only overall internet penetration (e.g., \"India has 50% internet users\") reveals the student cannot disaggregate data by gender — a critical skill for evidence-based policy analysis in board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 60% smartphone penetration. Yet only 18% of adolescent girls use smartphones for education, compared to 42% of boys. Explain three non-infrastructure barriers that could produce this gap, linking each to a specific socio-cultural mechanism (e.g., gatekeeping, mobility restrictions, gendered time poverty).",
+     "a": "1. **Gatekeeping**: Male household heads control device access, prioritising sons' education or entertainment over daughters' — rooted in patriarchal resource allocation. 2. **Mobility/safety restrictions**: Girls cannot visit cybercafés or community centres alone; boys face no such constraint — spatial control limits physical access points. 3. **Gendered time poverty**: Girls shoulder disproportionate domestic/care work (cooking, sibling care), leaving near-zero discretionary time for digital exploration — \"time poverty\" is structurally produced. A wrong answer listing only \"cost\" or \"network\" shows the student conflates access with infrastructure, missing the socio-cultural architecture of exclusion that board case-study questions target.",
+     "self_check": true
+    },
+    {
+     "q": "A state government launches a free tablet scheme for Class 10 girls. After one year, usage data shows 65% of tablets are used primarily by brothers/fathers. Diagnose why the intervention failed using the \"access-use-outcome\" framework, and redesign one program element to address the failure.",
+     "a": "**Diagnosis**: The scheme addressed *access* (device provision) but ignored *use* barriers: (a) no household-level negotiation strategy → devices captured by male members; (b) no digital literacy training for girls → low self-efficacy; (c) no content relevance → tablets seen as \"boys' toys.\" **Redesign**: Add a mandatory \"digital guardianship\" module co-delivered with mothers/SHGs — training girls *and* sensitising families on girls' right to device time, with usage tracking linked to school attendance incentives. A wrong answer focusing only on \"better tablets\" or \"more tablets\" reveals inability to distinguish access from agency — a classic competitive exam trap in policy evaluation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how algorithmic bias in hiring platforms and gendered design in mobile money apps each reinforce technology access gaps for women. Use the concepts of \"training data bias\" and \"default user persona\" in your answer.",
+     "a": "**Hiring platforms**: Training data reflects historical male-dominated hiring → algorithms learn to downgrade resumes with women's colleges, career gaps, or \"feminine\" keywords → women get fewer interview calls → less digital labour market access. **Mobile money apps**: Default user persona is male, urban, literate, with own phone → UI assumes single-user device, English literacy, high-risk tolerance → women (shared phones, lower literacy, risk-averse) find app unusable → remain excluded from digital finance. Both cases show *design* is not neutral — it encodes the biases of its creators. A wrong answer treating these as \"technical bugs\" rather than *structural design choices* misses the sociotechnical perspective examiners expect in AI ethics questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If we just give every woman a smartphone, the gender digital divide will close.\" Evaluate using evidence from at least two Indian states with high device penetration but persistent usage gaps (e.g., Kerala, Punjab).",
+     "a": "The statement is false — it commits the **access fallacy** (equating device ownership with meaningful use). Evidence: Kerala has 96% household smartphone penetration (NFHS-5) but women's internet use (64%) still lags men's (79%) due to time poverty, surveillance, and relevance gaps. Punjab shows similar: 93% penetration, yet only 58% women vs 76% men use internet. Device ≠ agency. Closing the divide requires: (1) household-level negotiation of usage rights, (2) gender-responsive content/services, (3) safety from online harassment, (4) digital literacy beyond basic operations. A wrong answer citing \"Kerala is already digital\" reveals inability to read disaggregated data — a direct board exam marking penalty in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost, community-led intervention to increase adolescent girls' meaningful technology access in a conservative rural block where: (a) families own phones but girls are forbidden to touch them, (b) no internet café exists, (c) female literacy is 48%. Your design must specify: target group, entry point, trust-building mechanism, skill progression, and sustainability plan.",
+     "a": "**Intervention: \"Digital Didi\" Peer-Learning Circles**  \n**Target**: Girls 13-18, in-school and out-of-school.  \n**Entry point**: Leverage existing Anganwadi/SHG network — trusted female spaces.  \n**Trust-building**: Mothers' orientation sessions (\"phone for *your* daughter's scholarship, not *her* boyfriend\"); female facilitators from same community.  \n**Skill progression**: Month 1: Voice-based IVR for govt schemes (no literacy needed) → Month 2: WhatsApp voice notes for peer support → Month 3: Basic text + UPI for scholarships → Month 4: Content creation (village stories, recipes).  \n**Sustainability**: Train 2 \"Digital Didis\" per village as paid mentors (honorarium from CSR/panchayat); link to PMGDISHA certification.  \nA poor answer proposing \"computer centres\" or \"giving phones\" ignores the *social permission* barrier — the core constraint in the scenario. Examiners reward designs that name and navigate gatekeepers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

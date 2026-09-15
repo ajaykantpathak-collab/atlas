@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_005",
+   "title": "c12_phy_cbse_05_005",
+   "questions": [
+    {
+     "q": "A student measures the magnetisation M of a material placed in a uniform magnetic intensity H = 500 A/m and finds M = -0.005 A/m. What is the magnetic susceptibility χ, and how would you classify this material?",
+     "a": "χ = M/H = -0.005/500 = -1×10⁻⁵. Since χ is negative and small (|χ| ~ 10⁻⁵), the material is diamagnetic. A wrong answer (e.g., positive χ or |χ| ~ 1) reveals the student confuses the sign convention (diamagnets have M opposite to H) or misjudges the typical magnitude of susceptibility for ordinary materials.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical solenoids carry the same current. One has a copper core, the other an aluminium core. The magnetic field inside the aluminium-core solenoid is slightly larger than inside the copper-core solenoid. Explain why, using the concepts of magnetic susceptibility and magnetisation.",
+     "a": "Copper is diamagnetic (χ ≈ -10⁻⁵), so its magnetisation M = χH opposes H, reducing B = μ₀(H+M) slightly below μ₀H. Aluminium is paramagnetic (χ ≈ +2×10⁻⁵), so its M aligns with H, increasing B slightly above μ₀H. A wrong answer (e.g., \"aluminium is ferromagnetic\" or \"copper has no magnetic response\") reveals confusion between the three magnetic classes and the universal presence of diamagnetism.",
+     "self_check": true
+    },
+    {
+     "q": "A solenoid of 1000 turns/m carries a current of 2 A. Its core is a material with relative permeability μᵣ = 400. Calculate: (a) H, (b) B, (c) M, and (d) the magnetising current Iₘ that would produce the same B without the core.",
+     "a": "(a) H = nI = 1000 × 2 = 2000 A/m.  \n(b) B = μᵣμ₀H = 400 × 4π×10⁻⁷ × 2000 = 1.005 T ≈ 1.0 T.  \n(c) M = (μᵣ - 1)H = 399 × 2000 = 7.98×10⁵ A/m ≈ 8×10⁵ A/m.  \n(d) B = μᵣ n (I + Iₘ) ⇒ 1.0 = 400 × 4π×10⁻⁷ × 1000 × (2 + Iₘ) ⇒ Iₘ = 794 A.  \nA wrong answer in (c) using M = χB/μ₀ instead of M = χH reveals confusion between B and H as the driving field for magnetisation.",
+     "self_check": true
+    },
+    {
+     "q": "A paramagnetic salt follows Curie's law: χ = C/T. At T = 300 K, its susceptibility is 2×10⁻³. The salt is placed in a solenoid with H = 10⁴ A/m. If the temperature is lowered to 150 K while keeping H constant, by what factor does the magnetisation M change?",
+     "a": "M = χH = (C/T)H. Since H is constant, M ∝ 1/T. T halves from 300 K to 150 K, so M doubles. Factor = 2. A wrong answer (e.g., factor = 4 or no change) reveals the student either squares the temperature ratio or forgets Curie's law's inverse temperature dependence for paramagnets.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since diamagnetism is present in all materials, a ferromagnet like iron should also show diamagnetic behaviour, but its strong ferromagnetism masks it. If we heat iron above its Curie temperature, it becomes paramagnetic, and then its diamagnetism should become visible.\" Evaluate this statement.",
+     "a": "The statement is partially correct but misleading. Above the Curie temperature (T_c ≈ 1043 K for iron), iron becomes paramagnetic with χ_para ~ 10⁻³. Its diamagnetic susceptibility χ_dia ~ -10⁻⁵ is still present but is two orders of magnitude smaller than χ_para, so the net χ remains positive and paramagnetic. Diamagnetism is only directly observable in materials with no paramagnetic/ferromagnetic response (e.g., bismuth, copper, water). A wrong evaluation (e.g., \"diamagnetism disappears above T_c\" or \"net χ becomes negative\") reveals misunderstanding of additive susceptibilities and magnitude hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a strong bar magnet, a sensitive spring balance, and samples of bismuth, aluminium, and iron to distinguish their magnetic classes. Describe the procedure, expected observations, and how you would quantify the relative susceptibility.",
+     "a": "Procedure: Hang each sample from the spring balance. Bring the bar magnet close from below and observe the change in apparent weight. Iron: strong attraction (large apparent weight increase). Aluminium: weak attraction (small increase). Bismuth: weak repulsion (small decrease). Quantify: ΔF = (χ/μ₀) V B (dB/dz) for small χ. Measure ΔF for each sample at same position; ratio of ΔF gives ratio of χ. Iron's ΔF will be ~10³× larger than Al's. A poor answer (e.g., \"all attract\" or \"use a compass\") reveals lack of understanding of force on magnetised materials in non-uniform fields and the sign of force for diamagnets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

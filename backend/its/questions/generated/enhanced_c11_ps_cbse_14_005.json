@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_005",
+   "title": "c11_ps_cbse_14_005",
+   "questions": [
+    {
+     "q": "What is the constitutional distinction between a \"Bill\" and an \"Act\" in the Indian legislative process, and at which precise stage does this transformation occur?",
+     "a": "A Bill is a draft legislative proposal; it becomes an Act only after it has been passed by both Houses of Parliament (or deemed passed in case of Money Bills) and received the President's assent under Article 111. A wrong answer (e.g., \"after Lok Sabha passes it\" or \"after the Prime Minister signs it\") reveals the student confuses legislative passage with executive assent, or misses the bicameral requirement — a fundamental structural feature of Indian parliamentary democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution prescribe a different, truncated procedure for Money Bills (Article 109-110) where Rajya Sabha has only recommendatory powers and no power to reject or amend, unlike Ordinary Bills?",
+     "a": "Money Bills deal exclusively with taxation, borrowing, and expenditure from the Consolidated Fund — matters where the directly elected Lok Sabha (representing the people who pay taxes) must have primacy, reflecting the principle of \"no taxation without representation.\" Rajya Sabha represents States, not taxpayers directly. A wrong answer (e.g., \"Rajya Sabha is weaker\" or \"to speed up laws\") reveals confusion between institutional design (federal representation vs. popular mandate) and mere procedural efficiency, missing the democratic theory embedded in Article 109.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill is passed by Lok Sabha but rejected by Rajya Sabha. The President summons a joint sitting under Article 108. The Bill passes at the joint sitting. Later, the President withholds assent. Can the Bill become law? Explain the constitutional sequence.",
+     "a": "No, the Bill cannot become law. Article 111 gives the President three options: assent (Bill becomes Act), withhold assent (Bill dies), or return for reconsideration (only for non-Money Bills). If the President withholds assent after a joint sitting, the Bill fails — there is no override mechanism in the Indian Constitution (unlike the US 2/3 congressional override). A wrong answer (e.g., \"joint sitting makes it final\" or \"Parliament can override\") reveals the student confuses the legislative deadlock-resolution mechanism (Article 108) with the final executive check (Article 111), missing the separation of powers design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legislative procedure for a Constitutional Amendment Bill (Article 368) with an Ordinary Bill. Identify three procedural differences that reflect the higher constitutional status of amendments.",
+     "a": "Three key differences: (1) Constitutional Amendment Bills require special majority (2/3 of members present and voting + majority of total membership) in each House, while Ordinary Bills need simple majority; (2) No joint sitting is possible for Constitutional Amendment Bills — deadlock means the Bill fails, whereas Ordinary Bills have Article 108 joint sitting; (3) Constitutional Amendment Bills affecting federal provisions require ratification by half the State Legislatures, while Ordinary Bills never involve States. A wrong answer missing any of these reveals the student treats all Bills as procedurally identical, missing the Constitution's own hierarchy of legal norms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that \"the legislative procedure in India is excessively cumbersome and delays urgent legislation.\" Use constitutional design principles to justify or refute this view.",
+     "a": "The criticism misunderstands constitutional intent. The multi-stage procedure (three readings in each House, committee scrutiny, bicameral passage, presidential review) is a feature, not a bug — it operationalizes \"deliberative democracy\" by forcing multiple moments of reflection, minority voice inclusion (via Rajya Sabha and committees), and executive-legislative negotiation. Urgency is addressed through Ordinances (Article 123) and Money Bill fast-tracking, not by shortcutting democratic deliberation. A weak answer citing only \"delays are bad\" reveals instrumentalist thinking that misses the normative purpose of procedural hurdles: preventing majority tyranny and ensuring laws survive reasoned debate.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a new \"Emergency Legislation\" category that would allow a Bill to become law within 72 hours during a national crisis, while preserving core democratic safeguards. Specify which existing Articles you would amend and what checks you would include.",
+     "a": "A strong answer would: (1) cite Article 107 (introduction), 108 (joint sitting), 111 (assent) as Articles to amend; (2) propose a \"Certified Emergency Bill\" introduced only by the Prime Minister with Cabinet approval; (3) require simultaneous debate in both Houses within 24 hours; (4) mandate a 3/5 majority in each House (higher than simple majority, lower than constitutional amendment); (5) make presidential assent mandatory within 12 hours (removing pocket veto); (6) include a sunset clause — law expires in 6 months unless ratified by normal procedure. A poor answer omits supermajority requirements, excludes Rajya Sabha, or removes presidential assent, revealing the student cannot balance urgency with constitutional supremacy and checks and balances.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

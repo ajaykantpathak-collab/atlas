@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_009",
+   "title": "c11_eco_cbse_07_009",
+   "questions": [
+    {
+     "q": "List Herman Daly's five operational principles for achieving sustainable development. State each principle as a precise condition (e.g., using inequality notation where applicable).",
+     "a": "The five principles are: (1) Population ≤ Carrying Capacity (K), (2) Technological progress should be input-efficient (output/input ratio rising), not input-consuming, (3) For renewable resources: Extraction rate (R) ≤ Regeneration rate (r), (4) For non-renewable resources: Depletion rate (d) ≤ Rate of creation of renewable substitutes (s), (5) Pollution emission rate ≤ Environment's assimilative capacity (A). A wrong answer that merely lists vague goals like \"protect nature\" or \"use less resources\" reveals the student has memorised the Brundtland definition (from prior node) but not the operational, measurable conditions Daly provides for policy design.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the condition \"rate of extraction of renewable resources should not exceed rate of regeneration\" is necessary but NOT sufficient for sustainable development. Use the concept of carrying capacity and assimilative capacity in your answer.",
+     "a": "Even if extraction ≤ regeneration for a specific resource (e.g., fish catch ≤ fish reproduction), the aggregate human scale (population × per capita consumption) might still exceed the ecosystem's carrying capacity (K), causing habitat loss for other species. Simultaneously, the waste generated from harvesting/processing that resource might exceed the environment's assimilative capacity (A), violating Daly's fifth principle. A student who says \"it's sufficient because the resource renews\" confuses single-resource sustainability with system-wide sustainability — a classic senior-secondary error of partial equilibrium thinking.",
+     "self_check": true
+    },
+    {
+     "q": "A town has 50,000 people. Each person uses 0.8 tonnes of firewood per year. The surrounding forest regenerates 35,000 tonnes of biomass annually. (a) Calculate the extraction-regeneration gap. (b) If the town switches 60% of households to LPG (which uses no firewood), will the gap close? Show calculations. (c) Which of Daly's principles does this switch primarily address?",
+     "a": "(a) Total extraction = 50,000 × 0.8 = 40,000 tonnes/year. Regeneration = 35,000 tonnes/year. Gap = 5,000 tonnes/year (extraction > regeneration). (b) After switch: 40% still use firewood = 20,000 people × 0.8 = 16,000 tonnes/year. New extraction (16,000) < regeneration (35,000). Gap closes with surplus of 19,000 tonnes. (c) Primarily addresses Principle 3 (renewable extraction ≤ regeneration). A wrong answer in (b) that forgets to reduce the population using firewood (e.g., calculates 60% reduction on total extraction) reveals confusion between percentage of households vs percentage of total extraction — a common arithmetic error in resource accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategy of promoting CNG in urban public transport (Delhi's case) with promoting solar photovoltaic cells in remote rural areas. Analyse both using Daly's Principles 2 (input-efficient technology), 3 (renewable extraction), and 5 (pollution inefficiencies). Which strategy addresses more principles simultaneously?",
+     "a": "CNG: Addresses Principle 5 (reduces particulate matter, NOx, CO vs diesel — corrects pollution inefficiency). Partially addresses Principle 2 (CNG engines more energy-efficient per km than old diesel engines). Does NOT address Principle 3 (CNG is non-renewable fossil fuel). Solar PV: Addresses Principle 3 (sunlight is renewable, extraction = 0 ≤ regeneration). Addresses Principle 5 (zero operational emissions). Addresses Principle 2 (PV converts abundant sunlight directly to electricity — high input efficiency once installed). Solar PV addresses three principles; CNG addresses two. A student claiming CNG is \"renewable\" or \"sustainable\" in the long run misclassifies CNG as renewable — it is a cleaner fossil fuel, not a renewable substitute created at rate ≥ depletion (Principle 4).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Biocomposting and biopest control are merely traditional farming methods; they cannot scale to meet India's food security needs in the 21st century.\" Use economic reasoning involving opportunity cost, long-term soil capital, and Daly's principles.",
+     "a": "The statement is flawed. Economic evaluation must include opportunity cost of chemical fertilisers/pesticides: (1) Degradation of soil capital (loss of 5.8–8.4 million tonnes nutrients/year per NCERT) reduces future productivity — violates Principle 3 (soil as renewable resource extracted beyond regeneration). (2) Groundwater contamination and health costs are negative externalities — violate Principle 5 (pollution > assimilative capacity). (3) Biocomposting builds soil organic carbon, raising long-term yield potential (input-efficient technology — Principle 2). Scaling is achieved through decentralized production (vermicomposting units) and policy support (subsidies for bio-inputs). A student agreeing with the statement ignores the dynamic efficiency of maintaining natural capital vs static yield maximisation — a confusion between short-run output and sustainable development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable development plan for a hypothetical coastal town of 100,000 people facing: (a) groundwater depletion (extraction 20% > recharge), (b) marine fish catch declining 5% annually, (c) municipal waste dumped untreated into sea. Your plan must include at least three strategies from the chapter, each linked to a specific Daly principle, and one measurable target for Year 5.",
+     "a": "Plan: (1) Strategy: Rooftop rainwater harvesting + aquifer recharge wells → Target: Groundwater extraction ≤ recharge by Year 5 (Principle 3). (2) Strategy: Community-managed marine protected areas + seasonal fishing bans + promotion of seaweed farming as alternative livelihood → Target: Fish stock biomass stabilises (growth rate ≥ catch rate) by Year 5 (Principles 3 & 4). (3) Strategy: Decentralised biocomposting of organic waste (60% of municipal waste) + biogas plant for slurry → Target: Zero untreated waste discharge into sea; 50% of town's cooking gas from biogas by Year 5 (Principles 2, 3, 5). A poor answer lists strategies without quantitative targets or Daly principle linkages, showing inability to operationalise principles into policy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

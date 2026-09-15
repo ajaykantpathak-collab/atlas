@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_001",
+   "title": "c11_phy_cbse_04_001",
+   "questions": [
+    {
+     "q": "State Aristotle's law of motion in your own words and give one everyday example that seems to support it.",
+     "a": "Aristotle's law: \"An external force is required to keep a body in motion.\" Example: A child must continuously pull a toy car with a string to keep it moving on the floor; if the child stops pulling, the car stops. A wrong answer (e.g., \"force is needed to start motion only\") reveals the student has not grasped the historical misconception that dominated physics for nearly two millennia.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Aristotle—and most people—believe a force is needed to sustain uniform motion? Identify the specific force that is always present in terrestrial experience but absent in Galileo's idealised thought experiment.",
+     "a": "Aristotle generalised from everyday experience where friction (and air resistance) always opposes motion. On Earth, a moving object slows down unless a force counters friction. Galileo's genius was to imagine a world without friction—an idealised horizontal plane—where no force is needed to maintain uniform motion. A wrong answer (e.g., \"gravity stops the motion\") reveals confusion between the vertical force of gravity and the horizontal retarding force of friction.",
+     "self_check": true
+    },
+    {
+     "q": "A ball is released from rest at height h on a smooth (frictionless) inclined plane. It rolls down and up a second smooth inclined plane of the same angle. What maximum height does it reach on the second plane? Now, if the second plane is made horizontal (angle = 0°), how far does the ball travel before stopping? Explain using energy reasoning.",
+     "a": "On the second inclined plane, the ball reaches exactly height h (conservation of mechanical energy, no friction). On a horizontal plane (angle = 0°), the ball never stops—it travels an infinite distance at constant speed because no component of gravity acts horizontally and there is no friction to dissipate kinetic energy. A wrong answer (e.g., \"it stops after a finite distance\") reveals the student still thinks motion naturally decays without friction.",
+     "self_check": true
+    },
+    {
+     "q": "Galileo's double inclined plane experiment is often called a \"thought experiment.\" Why could Galileo not perform this experiment exactly as described in a real laboratory? What practical limitation forces the ball to stop even on a horizontal plane?",
+     "a": "In a real laboratory, friction (rolling friction, air resistance) can never be completely eliminated. Even on a very smooth horizontal surface, these dissipative forces do negative work, reducing the ball's kinetic energy until it stops. Galileo's experiment is a thought experiment because it requires an idealised frictionless world that does not exist. A wrong answer (e.g., \"gravity pulls it down\") shows the student does not distinguish between vertical and horizontal forces.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Galileo was wrong. If I stop pushing my bicycle on a level road, it stops. So force IS needed to keep it moving.\" Evaluate this claim. Is the student's observation correct? Is the conclusion correct? Explain the flaw in reasoning.",
+     "a": "The observation is correct (bicycle stops), but the conclusion is wrong. The bicycle stops because friction (tyre-road, bearings, air resistance) exerts a net retarding force. To maintain constant velocity, the cyclist must apply a forward force that exactly cancels friction—net force zero. Galileo's law states: if net external force is zero, velocity is constant. The student confuses \"applied force\" with \"net force.\" A wrong evaluation (e.g., \"student is right because bicycle stops\") reveals failure to distinguish individual forces from net force.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using low-cost materials (e.g., a wooden plank, a marble, a towel, a book) that illustrates Galileo's insight: reducing friction makes an object move farther with the same initial push. Describe the setup, the variable you change, and what students should observe.",
+     "a": "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel, (3) wood with a smooth plastic sheet (or just the bare wood if very smooth). Variable: surface roughness (friction coefficient). Observation: Marble travels farthest on smoothest surface. Students infer: less friction → less opposing force → longer distance at constant speed on horizontal. A poor answer (e.g., \"use a fan to blow the marble\") misses the point of varying friction while keeping initial energy the same.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

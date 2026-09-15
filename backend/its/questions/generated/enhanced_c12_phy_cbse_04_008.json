@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_008",
+   "title": "c12_phy_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the formula for the force per unit length between two long parallel current-carrying conductors in vacuum. Give the SI unit of each quantity in the formula.",
+     "a": "The force per unit length is \\(f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}\\). SI units: \\(f\\) in N/m, \\(\\mu_0\\) in T·m/A (or N/A²), \\(I_1, I_2\\) in A, \\(d\\) in m. A wrong answer (e.g., missing \\(2\\pi\\), using \\(d^2\\) in denominator, or giving force instead of force per unit length) reveals the student has memorised the formula incorrectly or confuses it with Coulomb's law for charges.",
+     "self_check": true
+    },
+    {
+     "q": "Two parallel wires carry currents in the same direction. Using the right-hand rule for magnetic field and the Lorentz force, explain why the force between them is attractive. Do not just state the rule — show the vector directions step by step.",
+     "a": "Wire 1 produces a magnetic field \\(\\vec{B}_1\\) that circles around it. At the location of wire 2 (to the right of wire 1), \\(\\vec{B}_1\\) points into the page (right-hand grip rule). Wire 2 carries current upward. The force on wire 2 is \\(\\vec{F} = I_2 \\vec{L} \\times \\vec{B}_1\\). With \\(\\vec{L}\\) upward and \\(\\vec{B}_1\\) into the page, \\(\\vec{L} \\times \\vec{B}_1\\) points left, toward wire 1. By Newton's third law, wire 1 feels an equal rightward force. A wrong answer (e.g., claiming repulsion, or saying the field is parallel to the wire) shows the student cannot apply the cross product to determine direction.",
+     "self_check": true
+    },
+    {
+     "q": "Two long parallel wires are separated by 5.0 cm. Wire A carries 12 A upward, wire B carries 8.0 A downward. Calculate the magnitude and direction of the force per unit length on wire B. Use \\(\\mu_0 = 4\\pi \\times 10^{-7}\\,\\text{T·m/A}\\).",
+     "a": "Given: \\(I_1 = 12\\,\\text{A}\\), \\(I_2 = 8.0\\,\\text{A}\\), \\(d = 0.050\\,\\text{m}\\).  \n\\(f = \\frac{\\mu_0 I_1 I_2}{2\\pi d} = \\frac{(4\\pi \\times 10^{-7}) \\times 12 \\times 8.0}{2\\pi \\times 0.050} = \\frac{384\\pi \\times 10^{-7}}{0.1\\pi} = 3.84 \\times 10^{-4}\\,\\text{N/m}\\).  \nCurrents are opposite (antiparallel), so the force is repulsive: wire B is pushed away from wire A. A wrong answer (e.g., \\(3.84 \\times 10^{-3}\\,\\text{N/m}\\) from missing a factor of 10, or attractive direction) reveals unit conversion errors (cm to m) or confusion about the attraction/repulsion rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The force between two parallel currents is proportional to \\(1/d^2\\) because the magnetic field of a wire falls as \\(1/d\\) and the force on the other wire also falls as \\(1/d\\), so together it's \\(1/d^2\\).\" Identify the error in this reasoning and give the correct dependence.",
+     "a": "The error is double-counting the distance dependence. The magnetic field of wire 1 at wire 2 is \\(B \\propto 1/d\\). The force on wire 2 is \\(F = I_2 L B \\sin\\theta\\). Since \\(B \\propto 1/d\\), the force per unit length \\(f \\propto 1/d\\). The student incorrectly multiplied two \\(1/d\\) factors, but the force formula already includes the field's \\(1/d\\) dependence only once. The correct dependence is \\(f \\propto 1/d\\). A wrong answer accepting the \\(1/d^2\\) claim shows the student does not understand that the force formula \\(F = I L B\\) directly uses the field at the location of the second wire, not a product of two separate distance factors.",
+     "self_check": true
+    },
+    {
+     "q": "In a current balance experiment to define the ampere, two parallel wires are 1.00 m apart in vacuum. One wire carries a known current of 2.00 A. The measured force per unit length on the other wire is \\(8.00 \\times 10^{-7}\\,\\text{N/m}\\). The student calculates the unknown current as 1.00 A. Is this correct? If not, find the correct value and explain the student's mistake.",
+     "a": "Using \\(f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}\\) with \\(d = 1.00\\,\\text{m}\\), \\(\\mu_0 = 4\\pi \\times 10^{-7}\\).  \n\\(I_2 = \\frac{f \\cdot 2\\pi d}{\\mu_0 I_1} = \\frac{(8.00 \\times 10^{-7}) \\times 2\\pi \\times 1.00}{(4\\pi \\times 10^{-7}) \\times 2.00} = \\frac{16\\pi \\times 10^{-7}}{8\\pi \\times 10^{-7}} = 2.00\\,\\text{A}\\).  \nThe student's answer of 1.00 A is incorrect. The mistake likely came from using \\(\\mu_0 = 2 \\times 10^{-7}\\) (the defined force per metre for 1 A) instead of \\(4\\pi \\times 10^{-7}\\), or forgetting the factor of 2 in the numerator. A wrong answer indicates confusion between the defined constant \\(2 \\times 10^{-7}\\,\\text{N/m}\\) and the permeability \\(\\mu_0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment using a current balance to verify that the force between two parallel currents is proportional to the product of the currents. Specify the measurements you would take, the graph you would plot, and how you would extract the proportionality constant.",
+     "a": "Use a current balance with two parallel conductors: one fixed, one movable on a balance arm. Keep separation \\(d\\) constant. Vary \\(I_1\\) and \\(I_2\\) independently (e.g., using two power supplies). For each pair \\((I_1, I_2)\\), measure the force \\(F\\) (via mass added to balance) on a known length \\(L\\). Compute force per unit length \\(f = F/L\\). Plot \\(f\\) versus \\(I_1 I_2\\). The graph should be a straight line through origin. Slope = \\(\\frac{\\mu_0}{2\\pi d}\\). From slope and known \\(d\\), calculate \\(\\mu_0\\). A poor answer would omit independent variation of both currents, forget to keep \\(d\\) constant, or plot \\(f\\) vs \\(I\\) only, missing the product relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

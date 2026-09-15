@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_006",
+   "title": "c12_bio_cbse_10_006",
+   "questions": [
+    {
+     "q": "Name the bacterium that produces crystal (Cry) proteins used as a bioinsecticide, and state the specific insect orders it primarily targets.",
+     "a": "Bacillus thuringiensis (Bt) produces Cry proteins that primarily target Lepidoptera (caterpillars), Coleoptera (beetles), and Diptera (flies/mosquitoes). A wrong answer (e.g., \"E. coli\" or \"all insects\") reveals the student cannot distinguish Bt from other bacteria or does not know its narrow host-range specificity — a key concept for both board and NEET questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Bt toxin not kill the Bacillus thuringiensis bacterium itself, but kills the insect larva that ingests it?",
+     "a": "The toxin exists as an inactive protoxin (crystal protein) in the bacterium; it is only activated by the alkaline pH (pH 9–10) and specific proteases in the insect midgut, which solubilize the crystal and cleave the protoxin to its active form. The bacterium’s own cytoplasm is neutral and lacks these proteases. A wrong answer (e.g., \"bacteria are immune\" or \"toxin is secreted only outside\") shows confusion between immunity and conditional activation — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer applies a Trichoderma-based biofungicide to soil infected with Rhizoctonia solani (causing root rot). Explain the sequence of events by which Trichoderma suppresses the pathogen.",
+     "a": "1) Trichoderma spores germinate and grow rapidly, colonizing the rhizosphere. 2) They secrete cell-wall degrading enzymes (chitinases, glucanases) that lyse Rhizoctonia hyphae (mycoparasitism). 3) They compete for nutrients and space, outcompeting the pathogen. 4) They induce systemic resistance in the host plant via signaling molecules. A wrong answer that only mentions \"competition\" or \"antibiotics\" misses the multi-mechanistic action (mycoparasitism + competition + induced resistance) that examiners expect in a 3-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of action of a baculovirus (e.g., Nucleopolyhedrovirus) with that of Bacillus thuringiensis when used as biocontrol agents against insect pests.",
+     "a": "Baculoviruses are ingested as occlusion bodies (polyhedra) that dissolve in the alkaline midgut, releasing virions that infect midgut epithelial cells, replicate systemically, and liquefy the host — they are obligate pathogens requiring host replication. Bt acts via crystal proteins that form pores in midgut cells without replication; it is a toxin-mediated kill, not an infection. A wrong answer that says \"both are bacteria\" or \"both multiply in the insect\" conflates viral and bacterial mechanisms — a frequent error in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Microbial biocontrol agents are always safer and more effective than chemical pesticides, so they should completely replace them in all crops.\" Provide two specific limitations of microbial biocontrol agents.",
+     "a": "The statement is false. Limitations: (1) Microbial agents are often host-specific (e.g., Bt only affects certain insect orders), so they cannot control a broad pest complex like broad-spectrum chemicals. (2) They are sensitive to UV radiation, temperature, and humidity, leading to short field persistence and inconsistent efficacy. (3) They act slower (days) than neurotoxic chemicals (hours). A student who agrees without caveats shows lack of critical evaluation — a competency skill tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment to test whether a local isolate of Bacillus thuringiensis is effective against the diamondback moth (Plutella xylostella) on cabbage. List the key treatments, controls, and measurable parameters.",
+     "a": "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control). Randomized block design with 3 replicates. Measurable parameters: larval mortality at 24, 48, 72 h; leaf damage index; yield at harvest. A poor answer that omits dose-response, replication, or a proper negative control reveals inability to design a valid biological experiment — a skill required for practical exams and research aptitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_035",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_035",
+   "title": "c6_math_ch03_035",
+   "questions": [
+    {
+     "q": "What is the rule for multiplying two fractions?",
+     "a": "To multiply two fractions, you multiply the numerators together to get the new numerator and the denominators together to get the new denominator. A wrong answer like \"add the denominators\" reveals a confusion between the rules for addition/subtraction and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "If you multiply 1/2 by 1/4, will the result be larger or smaller than 1/2? Why?",
+     "a": "The result will be smaller (1/8) because you are taking a fraction of a fraction. Answering \"larger\" shows the student is incorrectly applying whole-number multiplication logic where products are always larger than factors.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the product: 2/5 × 3/4.",
+     "a": "(2 × 3) / (5 × 4) = 6/20. Simplified, this is 3/10. Answering 5/9 or 6/9 shows the student is attempting to cross-multiply or add instead of multiplying directly across.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the calculation 1/3 × 1/5 with the addition 1/3 + 1/5. Why are the results different?",
+     "a": "The product is 1/15, while the sum is 8/15. The results differ because multiplication finds a portion of a portion, while addition combines two distinct quantities, requiring different operational rules. Failing to see this distinction suggests the student views \"fractions\" as just numbers and not as parts of a whole.",
+     "self_check": true
+    },
+    {
+     "q": "If a recipe requires 2/3 of a cup of milk, and you decide to make only 1/2 of the recipe, how much milk do you need? Justify your calculation.",
+     "a": "You need 1/2 × 2/3 = 2/6 = 1/3 cup of milk. The student must justify that taking half of two-thirds means multiplying them. Answering 2/3 shows a failure to recognize the need for multiplication in a \"part of a part\" scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where you would need to multiply 3/4 by 1/2.",
+     "a": "A good answer would involve a physical quantity: \"If you have 3/4 of a litre of juice and drink half of it, how much juice did you drink?\" A poor answer would just be a string of numbers or an addition-based scenario, showing they haven't grasped that multiplication implies taking a fraction \"of\" a quantity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

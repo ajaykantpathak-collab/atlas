@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_18_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_18_011",
+   "title": "c12_eng_k_cbse_18_011",
+   "questions": [
+    {
+     "q": "From the first two paragraphs of the essay, list three words (other than \"prolixity\") that belong to the semantic field of speaking, writing, or argumentation.",
+     "a": "Correct answers include: loquaciousness, speak, dialogues, debates, arguments, counterarguments, disputations, interrogate, questioning. A wrong answer (e.g., \"epics,\" \"Homer,\" \"Kashmir\") reveals the student cannot distinguish vocabulary of *language action* from vocabulary of *content*. This misidentification means they will miss how Sen's lexical choices create a meta-commentary on Indian talkativeness.",
+     "self_check": true
+    },
+    {
+     "q": "Sen writes: \"The arguments are also, often enough, quite substantive.\" Explain in your own words what the phrases \"often enough\" and \"quite\" do to the claim \"The arguments are substantive.\" Why does Sen not simply write \"The arguments are substantive\"?",
+     "a": "\"Often enough\" limits the frequency (not always, but sufficiently frequent); \"quite\" moderates the degree (substantive to a significant extent, but not absolutely). Together they hedge the claim, acknowledging exceptions while asserting a strong tendency. Sen avoids the absolute \"The arguments are substantive\" because (a) it would be factually indefensible (some arguments in the epics are trivial), (b) it would sound dogmatic, contradicting the very spirit of dialogic openness he champions, and (c) academic credibility rests on calibrated claims. A student who says \"they mean the same thing\" misses the epistemic humility central to Sen's rhetorical stance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the noun phrase in this sentence from the text: \"The second woman head of the Indian National Congress, Nellie Sengupta, was elected in 1933.\" Identify: (a) the head noun, (b) all pre-modifiers (determiners, adjectives, quantifiers), (c) the appositive phrase, and (d) any post-modifying prepositional phrase.",
+     "a": "(a) Head noun: \"head\" (b) Pre-modifiers: \"The\" (definite article), \"second\" (ordinal adjective), \"woman\" (noun adjunct functioning as adjective), \"of the Indian National Congress\" (prepositional phrase *pre-modifying* \"head\" — note: it precedes the head) (c) Appositive: \"Nellie Sengupta\" (renames \"head\") (d) Post-modifying prepositional phrase: none (the prepositional phrase is a pre-modifier here). A student who labels \"Nellie Sengupta\" as a relative clause or misses that \"of the Indian National Congress\" comes *before* the head noun has not grasped that prepositional phrases can be pre- or post-modifiers depending on position — a critical distinction for parsing complex academic sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rhetorical effect of these two versions of a Sen-like sentence:\nVersion A: \"India's argumentative tradition has crossed caste barriers.\"\nVersion B: \"The argumentative tradition has, it must be acknowledged, frequently crossed the barriers of caste and class.\"\nWhich version better reflects Sen's style? Justify by referencing at least three specific grammatical features from Version B.",
+     "a": "Version B mirrors Sen's style. Three features: (1) Parenthetical clause \"it must be acknowledged\" — a concessive hedge that invites reader agreement while signaling the claim is not self-evident. (2) Qualification \"frequently\" — replaces absolute \"has\" with calibrated frequency. (3) Expanded noun phrase \"the barriers of caste and class\" — adds \"class\" and uses \"barriers of\" (prepositional post-modifier) for precision. (4) Definite article \"The\" (not possessive \"India's\") — frames the tradition as a shared object of study, not a national possession. A student who picks Version A because \"it's simpler\" confuses clarity with nuance; Sen's complexity *is* the precision required for contested historical claims.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Sen's use of parenthetical clauses (like '—the dialectical treatises that were composed from about the eighth century BCE and which are often taken to be foundations of Hindu philosophy—') distracts from the main argument and should be edited out for clarity.\" Defend or refute using evidence from the text.",
+     "a": "Refute. The parenthetical *is* the evidence. In \"This can be traced back even to the Upanisads—the dialectical treatises...\", the dash-enclosed clause supplies the definition of \"Upanisads\" that a general reader needs *at the moment of reading*, without breaking flow into a separate sentence. It also performs two rhetorical moves: (a) establishes Sen's scholarly authority by citing dates and scholarly consensus (\"often taken to be foundations\"), and (b) models the very \"argumentative\" layering he describes — embedding supporting reasoning inside the main claim. Removing it would flatten the texture of reasoned discourse Sen exemplifies. A student who calls it \"distracting\" reads for information only, not for *how argument builds itself through syntax*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph on any current Indian policy debate (e.g., farm laws, digital privacy, uniform civil code) that demonstrates: (i) a complex noun phrase with an appositive, (ii) at least two qualification/hedging phrases, and (iii) a parenthetical clause adding definitional context. Underline and label each feature.",
+     "a": "Sample answer: \"The proposed Digital Personal Data Protection Bill, a landmark legislation aiming to regulate data processing, may *largely* strengthen user consent mechanisms, *though* enforcement capacity remains uncertain. The bill's 'deemed consent' provision — a clause that assumes consent for certain 'legitimate uses' without explicit user action — has *rightly* drawn criticism from privacy advocates. *On balance*, the framework represents progress *provided* the Data Protection Board operates independently.\" Features: (i) Appositive: \"a landmark legislation aiming to regulate data processing\" (ii) Qualifications: \"largely\", \"though\", \"rightly\", \"on balance\", \"provided\" (iii) Parenthetical: \"— a clause that assumes consent for certain 'legitimate uses' without explicit user action —\". A poor answer uses simple sentences, no hedging, or mislabels a relative clause as an appositive — showing inability to *produce* the structures they only passively recognize.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

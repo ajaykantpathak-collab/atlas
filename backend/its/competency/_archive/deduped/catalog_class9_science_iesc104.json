@@ -1,0 +1,204 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Describing Motion Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.104.4.1",
+   "title": "Distance, Displacement and Position",
+   "section": "4",
+   "definition": "Motion is a change of position with time: the total path length travelled is distance, a scalar, while displacement is the straight-line change of position from start to end with its direction - they differ whenever the path bends or returns.",
+   "formula": "-",
+   "key_idea": "Distance counts the road; displacement draws the arrow from start to finish.",
+   "textbook_ref": "iesc104.txt sections on distance and displacement",
+   "question_patterns": [
+    "differentiate distance and displacement with an example",
+    "a body moves 4 m east and 3 m north - find distance and displacement",
+    "can displacement be zero while distance is not - explain",
+    "which of the two is a vector quantity and why",
+    "find the displacement of the object from the given description",
+    "draw the path and mark distance and displacement for the given motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the path",
+     "explain": "Add the lengths of every stretch for distance."},
+    {"step": 2, "action": "draw the straight line",
+     "explain": "Join start to end with an arrow for displacement."},
+    {"step": 3, "action": "compare",
+     "explain": "Displacement never exceeds distance and carries direction."}
+   ]
+  },
+  {
+   "id": "iesc.104.4.2",
+   "title": "Speed and Velocity",
+   "section": "4",
+   "definition": "Speed is the distance covered per unit time, while velocity is speed with direction - the rate of change of displacement; average speed uses total distance over total time, and uniform motion keeps both constant.",
+   "formula": "speed = distance / time",
+   "key_idea": "Speed says how fast; velocity says how fast and which way.",
+   "textbook_ref": "iesc104.txt sections on speed and velocity",
+   "question_patterns": [
+    "a car covers 150 km in 3 hours - find its speed",
+    "differentiate speed and velocity with an example",
+    "find the average speed from the given journey data",
+    "a runner completes one round of a circular track - what is the average velocity",
+    "calculate the velocity of the object from the given data",
+    "is the speed of the given motion uniform - justify"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "Speed equals distance covered over the time taken.",
+     "compute": "speed = distance / time"}
+   ]
+  },
+  {
+   "id": "iesc.104.4.3",
+   "title": "Acceleration",
+   "section": "4",
+   "definition": "Acceleration measures how quickly velocity changes: it equals the change in velocity divided by the time taken, so speeding up, slowing down and turning are all accelerations, with units of metre per second squared.",
+   "formula": "acceleration = (v - u) / t",
+   "key_idea": "Change of velocity per second: negative acceleration means slowing down.",
+   "textbook_ref": "iesc104.txt sections on acceleration",
+   "question_patterns": [
+    "a bus speeds up from 5 m/s to 15 m/s in 4 s - find the acceleration",
+    "define acceleration with its unit",
+    "find the acceleration when velocity changes as given",
+    "can acceleration be negative - explain with an example",
+    "a body moves with uniform velocity - what is its acceleration",
+    "calculate the final velocity using acceleration and time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the velocity change",
+     "explain": "Subtract the initial velocity u from the final velocity v.",
+     "compute": "dv = v - u"},
+    {"step": 2, "action": "divide by the time",
+     "explain": "The quotient is the acceleration.",
+     "compute": "acceleration = dv / t"}
+   ]
+  },
+  {
+   "id": "iesc.104.4.4",
+   "title": "Graphs of Motion",
+   "section": "4",
+   "definition": "Motion graphs make movement visible: a distance-time graph's slope gives speed - a rising straight line for uniform motion, a flat line for rest - while a velocity-time graph's slope gives acceleration and its area gives distance.",
+   "formula": "-",
+   "key_idea": "Slope speaks: steep slope is fast motion, flat line is rest.",
+   "textbook_ref": "iesc104.txt sections on distance-time and velocity-time graphs",
+   "question_patterns": [
+    "what does a straight line on a distance-time graph show",
+    "read the speed of the object from the given distance-time graph",
+    "which part of the velocity-time graph shows acceleration",
+    "how is distance found from a velocity-time graph",
+    "identify rest, uniform and accelerated motion in the given graph",
+    "draw a distance-time graph for the given journey data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the axes",
+     "explain": "Note which quantity sits on each axis."},
+    {"step": 2, "action": "read the slope",
+     "explain": "Slope of distance-time gives speed; of velocity-time gives acceleration."},
+    {"step": 3, "action": "read the area if needed",
+     "explain": "The area under a velocity-time graph gives distance covered."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc104.txt speed example",
+   "concept": "iesc.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "An object covers {distance} m in {time} s. Find its speed.",
+   "extracted_variables": {
+    "distance": "distance covered in metres",
+    "time": "time taken in seconds"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "Speed equals distance over time.",
+     "compute": "speed = distance / time"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc104.txt average speed practice",
+   "concept": "iesc.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "A cyclist covers {distance} km in {time} hours. Calculate the speed in km/h.",
+   "extracted_variables": {
+    "distance": "distance in km",
+    "time": "time in hours"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "Total distance over total time.",
+     "compute": "speed = distance / time"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iesc104.txt acceleration example",
+   "concept": "iesc.104.4.3",
+   "question_type": "compute",
+   "question_pattern": "The velocity of a scooter changes from {u} m/s to {v} m/s in {t} s. Find the acceleration.",
+   "extracted_variables": {
+    "u": "initial velocity in m/s",
+    "v": "final velocity in m/s",
+    "t": "time in seconds"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the velocity change",
+     "explain": "v minus u.",
+     "compute": "dv = v - u"},
+    {"step": 2, "action": "divide by time",
+     "explain": "The quotient is the acceleration.",
+     "compute": "acceleration = dv / t"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iesc104.txt acceleration practice",
+   "concept": "iesc.104.4.3",
+   "question_type": "compute",
+   "question_pattern": "A car starts from rest ({u} m/s) and reaches {v} m/s in {t} s. Calculate the acceleration.",
+   "extracted_variables": {
+    "u": "initial velocity in m/s",
+    "v": "final velocity in m/s",
+    "t": "time in seconds"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the velocity change",
+     "explain": "Subtract the starting velocity.",
+     "compute": "dv = v - u"},
+    {"step": 2, "action": "divide by time",
+     "explain": "Change per second is the acceleration.",
+     "compute": "acceleration = dv / t"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iesc104.txt exercises",
+   "questions": [
+     "Find the speed and velocity for the given journeys.",
+     "Distinguish distance and displacement with the given example.",
+     "Calculate the acceleration for the given velocity-time data."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "iesc104.txt graph exercises",
+   "questions": [
+     "Interpret the given distance-time graph.",
+     "Find the acceleration from the given velocity-time graph."
+   ]
+  }
+ ]
+}

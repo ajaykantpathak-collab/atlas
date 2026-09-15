@@ -1,0 +1,124 @@
+{
+ "catalog": "catalog_class10_maths_jemh108.json",
+ "concepts": [
+  {
+   "id": "jemh.108.8.1",
+   "title": "Trigonometric Ratios",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 3 and 4, and the hypotenuse is 5. Find sin of the angle opposite the side 3. (give the fraction)",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 3 and 4, hypotenuse 5), find cos of the angle opposite the side 4. (give the fraction)",
+     "a": "4/5",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 3 and 4 and hypotenuse 5, find tan of the angle opposite the side 3. (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 3/5, find cosec(A). (give the fraction)",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 4/5, find sec(A). (give the fraction)",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 3/5 and cos(A) = 4/5, find tan(A). (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.108.8.2",
+   "title": "Ratios of 45, 30 and 60 Degrees",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
+     "compute": "t1 = 24 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 24 : 44 in its simplest form and give the first term of the simplest form.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Rs 800 is divided between two friends in the ratio 1 : 9. Find the smaller share.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Rs 480 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 4 : 5 = 8 : ?  (give the fourth term).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 4 : 5 :: 8 : 10 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 120, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "300",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.108.8.3",
+   "title": "Trigonometric Identities",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 7, 24 and hypotenuse 25 by computing (7/25)^2 + (24/25)^2.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + tan^2 A = sec^2 A with tan A = 7/24, find sec A as a fraction.",
+     "a": "25/24",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + cot^2 A = cosec^2 A with cot A = 24/7, find cosec A as a fraction.",
+     "a": "25/7",
+     "self_check": false
+    },
+    {
+     "q": "If sin A = 7/25 and cos A = 24/25 (same right triangle), compute sin 2A = 2 sin A cos A as a fraction.",
+     "a": "336/625",
+     "self_check": false
+    },
+    {
+     "q": "Compound angle: with sin A = 3/5, cos A = 4/5, sin B = 5/13, cos B = 12/13, find sin(A + B) = sinA cosB + cosA sinB as a fraction.",
+     "a": "56/65",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/25. (give the fraction)",
+     "a": "24/25",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

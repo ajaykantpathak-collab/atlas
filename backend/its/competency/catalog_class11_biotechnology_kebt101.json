@@ -1,0 +1,392 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 1,
+ "chapter_title": "An Introduction to Biotechnology",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt101.1",
+   "title": "Meaning and Scope of Biotechnology",
+   "section": "Chapter 1 opening",
+   "definition": "Biotechnology is the umbrella name for every technique that puts living cells, or molecules harvested from them, to work manufacturing items people need - from bread and curd to vaccines and transgenic crops.",
+   "formula": "-",
+   "key_idea": "The word fuses biology with technology: life processes harnessed to make products of value.",
+   "textbook_ref": "kebt101.txt chapter opening and section 1.1",
+   "question_patterns": [
+    "who coined the term biotechnology and in which year was it first used",
+    "define biotechnology and justify why it is treated as a multidisciplinary subject",
+    "what do the two halves of the word biotechnology stand for - explain",
+    "why are bread making curd setting and wine brewing called biotechnological practices",
+    "distinguish between what biotechnology meant in ancient times and what it means today",
+    "name any four scientific streams that feed into modern biotechnology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the word origin",
+     "explain": "Karl Ereky, a Hungarian engineer-scientist, coined the word in 1917 in his book on large-scale farm production of meat, fat and milk."
+    },
+    {
+     "step": 2,
+     "action": "give the working definition",
+     "explain": "Technologies that use living cells and/or biological molecules to generate useful products for mankind."
+    },
+    {
+     "step": 3,
+     "action": "support with classical examples",
+     "explain": "Domestication of animals, germplasm conservation by Egyptian farmers, and fermentation-based bread, cheese and wine show the practice long predates the name."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which bacterium converts milk into curd by producing lactic acid?",
+     "a": "Lactobacillus"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.2",
+   "title": "Historical Phases of Biotechnology",
+   "section": "1.1",
+   "definition": "The subject passes through three eras: a prehistoric phase of crop cultivation and animal domestication, a classical phase built on brewing and fermenting, and the present phase of gene-level engineering that began once DNA structure was solved.",
+   "formula": "-",
+   "key_idea": "The toolkit evolved from picking better seeds to stitching DNA, while the aim of useful products stayed fixed.",
+   "textbook_ref": "kebt101.txt section 1.1 Historical Perspectives",
+   "question_patterns": [
+    "give a comparative account of the ancient and the modern concept of biotechnology",
+    "arrange the contributions of Janssen Hooke Leeuwenhoek Pasteur Mendel and Watson-Crick on a timeline",
+    "which wartime need pushed the development of the modern fermenter and for which antibiotic",
+    "whose 1952 experiment confirmed DNA as the genetic material - name the scientists",
+    "why is the invention of the compound microscope in 1590 counted as a foundation of modern biotechnology",
+    "in which year did the National Biotechnology Board become the Department of Biotechnology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the milestones",
+     "explain": "Place each event - 1590 microscope, 1665 cells in cork, 1857 pea crossings, 1869 nuclein, 1952 Hershey-Chase, 1953 double helix - in date order."
+    },
+    {
+     "step": 2,
+     "action": "label the era",
+     "explain": "Pre-DNA work belongs to ancient or classical biotechnology; gene transfer and rDNA work belongs to modern biotechnology."
+    },
+    {
+     "step": 3,
+     "action": "link cause to effect",
+     "explain": "World War I drove glycerol fermentation, World War II drove the penicillin fermenter; each scale-up marks a phase change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Solving the structure of which molecule opened the gene-level engineering phase?",
+     "a": "DNA"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.3",
+   "title": "Fermentation in Traditional Food Processing",
+   "section": "1.1",
+   "definition": "Fermentation is the microbe-driven, enzyme-guided chemical change of organic matter; dough left overnight or grape juice invaded by yeast turns into leavened bread and wine by accident, which is how several staple foods began.",
+   "formula": "-",
+   "key_idea": "Lactobacillus in curd converts milk constituents so that lactic acid clots the milk protein into solid curds, leaving watery whey behind.",
+   "textbook_ref": "kebt101.txt section 1.1 and Box 1 (curd making)",
+   "question_patterns": [
+    "how does milk turn into curd - explain the role of Lactobacillus and lactic acid",
+    "name the yeast responsible for fermented dough and the civilisations that exported leavened bread",
+    "by which century did the Chinese use fermentation for soy sauce and fermented vegetables",
+    "who established between the 1850s and 1860s that microbes cause fermentation",
+    "list any four fermented products that mark ancient biotechnology and the region each came from",
+    "why did brewers before the fourteenth century treat brewing as an art rather than a science"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the microbe",
+     "explain": "Name the organism: Saccharomyces yeast for dough and grape juice, Lactobacillus for curd."
+    },
+    {
+     "step": 2,
+     "action": "state the chemical change",
+     "explain": "Enzymes of the microbe convert organic compounds; in curd, lactic acid formed as a by-product denatures globular milk proteins."
+    },
+    {
+     "step": 3,
+     "action": "give the visible outcome",
+     "explain": "Coagulation yields solid curds separated from whey; fermentation of juice yields alcohol; both were discovered accidentally and refined over centuries."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fermentation of dough and grape juice is microbe-driven and guided by what?",
+     "a": "enzymes"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.4",
+   "title": "Compound Microscope Magnification",
+   "section": "1.1",
+   "definition": "A compound microscope enlarges in two stages: the objective lens forms a first enlarged image of the specimen and the eyepiece magnifies that image again, so the overall power equals the product of the two lens powers.",
+   "formula": "total_power = eyepiece_mag * objective_mag",
+   "key_idea": "Multiply the two lens powers; a 10x eyepiece with a 40x objective shows the object 400 times larger.",
+   "textbook_ref": "kebt101.txt section 1.1 (Zacharias Janssen, 1590, 3x-9x)",
+   "question_patterns": [
+    "an eyepiece of 10x is paired with an objective of 45x - calculate the total magnification of the compound microscope",
+    "the first compound microscope magnified about 3x to 9x - how many times weaker is that than a modern school microscope working at 400x",
+    "a slide appears 600 times larger through a microscope fitted with a 10x eyepiece - which objective power is in use",
+    "why is the Janssen instrument called a compound microscope - answer with reference to its two-stage magnification",
+    "calculate the objective power required to view a specimen at 450x using a 15x eyepiece"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the lens powers",
+     "explain": "The objective magnifies the specimen first; its power multiplies with the eyepiece power.",
+     "compute": "total_power = eyepiece_mag * objective_mag"
+    },
+    {
+     "step": 2,
+     "action": "scale the specimen size",
+     "explain": "Multiply the real size by the total power to get the size seen through the lenses.",
+     "compute": "apparent_size = object_size * total_power"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 10x eyepiece with a 40x objective gives what total magnification?",
+     "a": "400"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.5",
+   "title": "Fermented Share of the World Diet",
+   "section": "1.2.3",
+   "definition": "Close to one third of everything humans eat worldwide is fermented, so the fermented tonnage for any population can be estimated as its total food intake divided by three.",
+   "formula": "fermented_part = total_food / 3",
+   "key_idea": "Scale any food total by the factor one third to get its fermented component.",
+   "textbook_ref": "kebt101.txt section 1.2.3 Food processing",
+   "question_patterns": [
+    "almost what fraction of the world's diet is made up of fermented food",
+    "a household eats 15 kg of food in a month - estimate its monthly intake of fermented food",
+    "a hostel of 600 students consumes 90 kg of food daily - how much fermented food does the hostel consume per day",
+    "a city consumes 900 tonnes of food each year - compute the yearly fermented tonnage for the city",
+    "name two industrial fermented foods whose large-scale production biotechnology has made possible"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the food consumed",
+     "explain": "Multiply the number of consumers by the per-capita intake to get the collective intake.",
+     "compute": "total_food = people * food_each"
+    },
+    {
+     "step": 2,
+     "action": "apply the one-third share",
+     "explain": "One third of the global diet is fermented, so divide the total by 3.",
+     "compute": "fermented_part = total_food / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what fraction of the world's food is fermented: one third or three quarters?",
+     "a": "one third"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.6",
+   "title": "Bt Cotton Share of the Hybrid Seed Market",
+   "section": "1.3.2",
+   "definition": "Cotton engineered with the insect-killing Cry protein made by the soil bacterium Bacillus thuringiensis leads Indian hybrid seed sales, holding roughly 45 percent of that market by value.",
+   "formula": "bt_value = seed_market * 45 / 100",
+   "key_idea": "A percent share of a market means market total times 45 divided by 100; the remainder is the total minus that share.",
+   "textbook_ref": "kebt101.txt section 1.3.2 Agriculture sector",
+   "question_patterns": [
+    "Bt cotton accounts for what percentage of the Indian hybrid seed industry",
+    "the Indian hybrid seed market is worth Rs 900 crore - compute the value of the Bt cotton segment",
+    "find the value of the non-Bt portion of a Rs 640 crore hybrid seed market",
+    "hybrid seed sales rise 12 percent next year - project the next-year market from a Rs 500 crore base",
+    "name the soil bacterium whose toxin gene gives cotton its resistance to bollworms",
+    "the Indian hybrid seed industry grows between 10 and 17 percent annually - compute the rupee range gained on a Rs 800 crore market"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the 45 percent share",
+     "explain": "Multiply the market total by 45 and divide by 100 to price the Bt segment.",
+     "compute": "bt_value = seed_market * 45 / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract for the remainder",
+     "explain": "The rest of the market is what stays after the Bt share is removed.",
+     "compute": "non_bt_value = seed_market - bt_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Bt cotton holds roughly what percent of the Indian hybrid seed market by value?",
+     "a": "45"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.7",
+   "title": "Colour-Coded Branches of Biotechnology",
+   "section": "1.1 Table 1.1",
+   "definition": "Applications are labelled by colour: red covers medical products such as insulin, enzymes, antibiotics and vaccines; green covers eco-friendly plant work including transgenic crops; blue covers marine and freshwater organisms; white covers industrial processes with enzymes as green catalysts.",
+   "formula": "-",
+   "key_idea": "Four colours sort the field: red heals, green feeds, blue explores water, white builds industry.",
+   "textbook_ref": "kebt101.txt Table 1.1",
+   "question_patterns": [
+    "which branch of biotechnology deals with marine and freshwater organisms",
+    "classify vaccine production transgenic pest-resistant plants enzyme catalysis and aquaculture under their correct colour labels",
+    "transgenic plants with better nutritional quality belong to which colour of biotechnology - justify",
+    "match blue green red and white biotechnology with one application example each",
+    "why is the use of enzymes as industrial catalysts called white biotechnology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the domain",
+     "explain": "Decide whether the application is medical, agricultural, marine/ aquatic or industrial."
+    },
+    {
+     "step": 2,
+     "action": "assign the colour",
+     "explain": "Medical maps to red, plant and eco-friendly farming to green, water systems to blue, industrial processing to white."
+    },
+    {
+     "step": 3,
+     "action": "quote one example",
+     "explain": "Anchor the answer with a named example, e.g. insulin for red, Bt brinjal for green, seafood supply for blue."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which colour code covers medical products like insulin and vaccines: red or green?",
+     "a": "red"
+    }
+   ]
+  },
+  {
+   "id": "kebt101.8",
+   "title": "Application Domains of Modern Biotechnology",
+   "section": "1.2",
+   "definition": "Gene-cutting technology now serves four headline areas - healing (recombinant insulin, growth hormone, gene therapy for ADA-SCID, genetic tests for phenylketonuria), farming (Bt crops, herbicide-tolerant soybean, Flavr Savr tomato, Golden Rice), food processing (industrial fermented foods) and planet care (bioremediation of pollutants and hyper-accumulator plants that soak up heavy metals).",
+   "formula": "-",
+   "key_idea": "One toolkit, four arenas: the same recombinant DNA logic heals patients, upgrades crops, improves food and cleans polluted sites.",
+   "textbook_ref": "kebt101.txt sections 1.2 to 1.3.2",
+   "question_patterns": [
+    "elaborate the role of biotechnology in biopharmaceutical production gene therapy and environmental protection",
+    "why does Golden Rice appear golden - name the pigment it overproduces and the vitamin it precursors",
+    "how does the Flavr Savr tomato achieve a longer shelf life than ordinary tomato",
+    "which enzyme-coding gene inserted in E. coli lets the bacterium degrade PCB - name it",
+    "name two hyper-accumulator plants used to remove mercury and lead from contaminated soil",
+    "into which five segments is the Indian biotechnology industry divided"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the example in its domain",
+     "explain": "Decide whether the question concerns medicine, agriculture, food or environment."
+    },
+    {
+     "step": 2,
+     "action": "name the mechanism or organism",
+     "explain": "Cite the responsible gene, protein or species - Cry protein for insect resistance, beta-carotene for Golden Rice, biphenyl dioxygenase for PCB breakdown."
+    },
+    {
+     "step": 3,
+     "action": "state the benefit",
+     "explain": "Close with the concrete gain: treated disease, higher yield, longer shelf life or detoxified soil."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which rice carries provitamin A: Golden Rice or Flavr Savr?",
+     "a": "Golden Rice"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt101.txt section 1.1 (compound microscope, Janssen 1590)",
+   "concept": "kebt101.4",
+   "question_type": "compute",
+   "question_pattern": "A cell of {object_size} mm is viewed under a compound microscope fitted with a {eyepiece_mag}x eyepiece and a {objective_mag}x objective. Find the total magnification and the apparent size of the cell.",
+   "extracted_variables": {
+    "eyepiece_mag": "eyepiece power in x",
+    "objective_mag": "objective power in x",
+    "object_size": "real size of the specimen in mm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the lens powers",
+     "explain": "Total magnification is the product of eyepiece and objective powers.",
+     "compute": "total_power = eyepiece_mag * objective_mag"
+    },
+    {
+     "step": 2,
+     "action": "scale the specimen",
+     "explain": "Multiply the real size by the total power.",
+     "compute": "apparent_size = object_size * total_power"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt101.txt section 1.3.2 (Bt cotton 45 percent share)",
+   "concept": "kebt101.6",
+   "question_type": "compute",
+   "question_pattern": "India's hybrid seed industry is worth Rs {market_crore} crore and Bt cotton commands a {share_pct} percent share of it. Compute the value of the Bt cotton segment and of the remaining market.",
+   "extracted_variables": {
+    "market_crore": "total hybrid seed market value in Rs crore",
+    "share_pct": "Bt cotton share in percent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "price the Bt segment",
+     "explain": "Share percent times market total divided by 100.",
+     "compute": "bt_value = market_crore * share_pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "price the remainder",
+     "explain": "Subtract the Bt segment from the market total.",
+     "compute": "other_value = market_crore - bt_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt101-ex1",
+   "source_ref": "kebt101.txt Exercises (questions 1-5)",
+   "questions": [
+    "Explain the term biotechnology, supporting the definition with suitable examples.",
+    "Give a comparative account of the ancient and the modern concept of biotechnology.",
+    "Elaborate the role of biotechnology in biopharmaceutical production, gene therapy, abiotic stress resistance, insect-resistant crops and environmental protection.",
+    "Bring out the contribution of ancient biotechnology to human welfare.",
+    "Justify the statement that modern biotechnology rests on recombinant DNA technology."
+   ]
+  }
+ ]
+}

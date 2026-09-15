@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_004",
+   "title": "c12_bio_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the maximum gestational limit for MTP under the Medical Termination of Pregnancy (Amendment) Act, 2021 for a pregnancy resulting from contraceptive failure in a married woman?",
+     "a": "The maximum gestational limit is 24 weeks for contraceptive failure in married women (as per the 2021 amendment, which extended the limit from 20 to 24 weeks for specific categories including contraceptive failure). A wrong answer (e.g., 20 weeks) reveals the student is relying on the pre-2021 law and has not updated their knowledge with the recent amendment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mifepristone is administered before misoprostol in a medical abortion regimen, and what would happen if the order were reversed.",
+     "a": "Mifepristone is a progesterone receptor antagonist that blocks progesterone action, causing decidual breakdown, cervical softening, and increased uterine sensitivity to prostaglandins. Misoprostol (a prostaglandin E1 analogue) then induces uterine contractions to expel the products. If reversed, misoprostol alone would be less effective because the uterus is not primed (progesterone maintains uterine quiescence). A wrong answer indicates the student does not understand the hormonal basis of pregnancy maintenance and the synergistic mechanism of the two drugs.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old unmarried girl presents at 10 weeks gestation requesting MTP. She is accompanied by her mother. Under the MTP Act, whose consent is required and what is the gestational limit applicable to her?",
+     "a": "For a minor (<18 years), written consent of a guardian (mother) is required. The gestational limit for her is 24 weeks because she falls under the category of \"survivors of sexual assault/rape/incest\" or \"minors\" as per the 2021 amendment (which extended the limit to 24 weeks for vulnerable categories). A wrong answer (e.g., only her consent, or 20 weeks limit) shows confusion about consent rules for minors and the expanded gestational limits for special categories.",
+     "self_check": true
+    },
+    {
+     "q": "Compare vacuum aspiration and dilation & evacuation (D&E) as surgical MTP methods in terms of gestational age range, mechanism, and typical setting.",
+     "a": "Vacuum aspiration (manual or electric) is used up to 12-14 weeks; it uses suction to remove uterine contents. D&E is used from 14-24 weeks; it involves cervical dilation followed by evacuation using forceps and suction. Vacuum aspiration is often an outpatient procedure; D&E usually requires more advanced facility and may need anesthesia. A wrong answer (e.g., swapping gestational ranges) indicates the student has not linked the method to the physical size of the fetus and cervical dilation requirements.",
+     "self_check": true
+    },
+    {
+     "q": "A woman at 18 weeks gestation is diagnosed with a fetal anomaly incompatible with life. She requests MTP. Evaluate whether this is legally permissible under the current MTP Act and what additional requirement, if any, applies.",
+     "a": "Yes, it is permissible. The 2021 amendment allows MTP up to 24 weeks for substantial fetal abnormalities diagnosed by a Medical Board. The requirement is the opinion of two registered medical practitioners (or a Medical Board for fetal anomalies beyond 20 weeks). A wrong answer (e.g., not allowed after 20 weeks, or no Medical Board needed) shows the student is unaware of the fetal anomaly exception and the role of the Medical Board.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart that a community health worker could use to guide a woman with an unintended pregnancy through the decision-making process for MTP, including legal eligibility, method selection, and referral points.",
+     "a": "A good flowchart would start with: confirm pregnancy → determine gestational age (LMP/ultrasound) → assess legal category (general, rape/incest, minor, fetal anomaly, contraceptive failure) → check gestational limit for that category → if within limit, counsel on method options (medical vs surgical) based on gestation and medical eligibility → refer to approved MTP facility → post-procedure follow-up and contraception counseling. A poor flowchart (missing legal categories, gestational limits, or referral) reveals the student cannot integrate legal, clinical, and counseling aspects into a practical tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

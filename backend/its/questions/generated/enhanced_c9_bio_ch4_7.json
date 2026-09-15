@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_7",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_7",
+   "title": "c9_bio_ch4_7",
+   "questions": [
+    {
+     "q": "What are the seven major taxonomic ranks in the hierarchical classification system, listed from broadest to most specific?",
+     "a": "The seven major ranks in order are: Kingdom, Phylum, Class, Order, Family, Genus, Species. A wrong answer (e.g., missing Phylum, swapping Genus and Species, or adding \"Domain\" as a major rank) reveals the student has memorized an incomplete or incorrect sequence, indicating they cannot reliably navigate or construct a full taxonomic hierarchy for any organism.",
+     "self_check": true
+    },
+    {
+     "q": "Two organisms belong to the same Genus but different Species. Another pair belongs to the same Family but different Genera. Which pair shares more characteristics, and why?",
+     "a": "The pair in the same Genus shares more characteristics because Genus is a lower (more specific) rank than Family; organisms sharing a lower taxonomic rank have a more recent common ancestor and therefore more shared derived traits. A wrong answer (saying the Family pair shares more, or that they share the same amount) reveals the misconception that higher ranks imply greater similarity, confusing breadth of grouping with degree of relatedness.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds an unknown flowering plant in the Western Ghats. It has vascular tissue, produces seeds enclosed in a fruit, has two cotyledons, net-veined leaves, and flower parts in multiples of four or five. At which taxonomic rank can the student confidently place this plant, and what is the name of that rank?",
+     "a": "The student can place the plant at the Class rank: Dicotyledonae (or Magnoliopsida). Steps: (1) Vascular tissue → Phylum Tracheophyta; (2) Seeds enclosed in fruit → Class Angiospermae; (3) Two cotyledons, net veins, flower parts in 4s/5s → Class Dicotyledonae. A wrong answer (e.g., stopping at Phylum or jumping to Family) shows the student cannot map observable traits to the correct hierarchical level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the taxonomic hierarchy of Homo sapiens (human) and Pan troglodytes (chimpanzee) versus Homo sapiens and Panthera leo (lion). Humans and chimpanzees share Kingdom, Phylum, Class, Order, and Family but differ at Genus. Humans and lions share only Kingdom, Phylum, and Class. What does this pattern tell you about their evolutionary relationships?",
+     "a": "Humans and chimpanzees share a more recent common ancestor (at the Family Hominidae level) than humans and lions (which share only Class Mammalia), evidenced by sharing five ranks versus three. The greater number of shared ranks indicates closer evolutionary relationship and more shared derived characteristics. A wrong answer (claiming human-lion are equally related, or focusing only on shared Class) reveals inability to use hierarchical depth as a proxy for evolutionary distance.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"Since the housefly (Musca domestica) and the butterfly (Papilio demoleus) both belong to Phylum Arthropoda, they are more closely related to each other than either is to the earthworm (Pheretima posthuma) which belongs to Phylum Annelida.\" Evaluate this statement and identify any error in reasoning.",
+     "a": "The statement is correct in conclusion but the reasoning is incomplete: sharing Phylum Arthropoda (vs. Annelida) does indicate closer relationship, but the real evidence is that they also share Class Insecta, while the earthworm does not. The error would be if a student thinks sharing ONLY the Phylum is sufficient proof - they must recognize that the two insects share additional lower ranks (Class, possibly Order) that the worm lacks. A wrong evaluation (calling the statement fully correct without noting the missing Class-level evidence) shows the student treats each rank in isolation rather than as a cumulative hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification key using only observable features that could distinguish between a mango tree (Mangifera indica), a banyan tree (Ficus benghalensis), a housefly (Musca domestica), and a human (Homo sapiens) at the Kingdom, Phylum, and Class levels. Show your reasoning for each decision point.",
+     "a": "A good answer creates a dichotomous key: (1) Kingdom: Plants (cell wall, chloroplasts) vs Animals (no cell wall, heterotrophic) → separates mango/banyan from fly/human. (2) Phylum: For plants - Tracheophyta (vascular tissue) vs Bryophyta; both trees are Tracheophyta. For animals - Chordata (notochord/dorsal nerve cord) vs Arthropoda (jointed appendages, exoskeleton) → separates human (Chordata) from fly (Arthropoda). (3) Class: For plants - Angiospermae (flowers, fruits) vs Gymnospermae; both are Angiospermae. For animals - Mammalia (mammary glands, hair) vs Insecta (three body parts, six legs) → separates human (Mammalia) from fly (Insecta). A poor answer uses non-observable traits (DNA, internal anatomy not visible) or creates non-hierarchical groupings, revealing they don't understand that classification follows nested, observable character progression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "catalog": "catalog_class6_social_ch5",
+ "concepts": [
+  {
+   "id": "c6ss.5.1",
+   "title": "Meaning of India and Bharat",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of India and Bharat' refers to.",
+     "a": "India and Bharat are two names for the same nation; 'Bharat' derives from ancient texts and the Bharata clan, while 'India' originates from the river Indus and the Greek term 'Indoi'.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of India and Bharat'.",
+     "a": "The Constitution recognises both 'India' and 'Bharat' as the official names of the country, reflecting its ancient and modern identities.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Meaning of India and Bharat'.",
+     "a": "explain the meaning of the names India and Bharat",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.2",
+   "title": "Geographical Extent of India",
+   "questions": [
+    {
+     "q": "Using the method 'Geographical Extent of India', work with: north_latitude = 200, south_latitude = 120. Carry the chain through step by step and give the final value of latitudinal_extent.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Geographical Extent of India' and work with: north_latitude = 240, south_latitude = 4. Carry the chain through step by step and give the final value of latitudinal_extent.",
+     "a": "236 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Geographical Extent of India' refers to.",
+     "a": "India extends from about 8 degrees 4 minutes North to 37 degrees 6 minutes North latitude and 68 degrees 7 minutes East to 97 degrees 25 minutes East longitude, giving it a vast north-south spread.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Geographical Extent of India'.",
+     "a": "India's latitudinal extent of about 29 degrees accounts for its wide climate variety from tropical to temperate conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Geographical Extent of India', in plain ASCII form.",
+     "a": "latitudinal_extent = north_latitude - south_latitude",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.3",
+   "title": "India's Neighbours",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India's Neighbours' refers to.",
+     "a": "India shares land borders with seven neighbouring countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh, and has maritime neighbours including Sri Lanka and the Maldives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India's Neighbours'.",
+     "a": "India's location gives it a strategic position in South Asia with both land and sea neighbours that influence its culture and security.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'India's Neighbours'.",
+     "a": "list the countries that share a land border with India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.4",
+   "title": "Unity in Diversity in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Unity in Diversity in India' refers to.",
+     "a": "Unity in diversity means that despite differences in language, religion, food, dress, and customs, the people of India share a common national identity and cultural bond.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Unity in Diversity in India'.",
+     "a": "India's diversity in languages, religions, and traditions is united by shared values, history, and a common constitutional framework.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Unity in Diversity in India'.",
+     "a": "explain the phrase unity in diversity with reference to India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.5",
+   "title": "India as a Civilizational Entity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India as a Civilizational Entity' refers to.",
+     "a": "India is not only a modern nation-state but also an ancient civilization that has continued for thousands of years, sharing common cultural roots across its regions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India as a Civilizational Entity'.",
+     "a": "The idea of India as a civilization is older than the modern political state, with shared traditions, philosophies, and cultural practices uniting its people.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'India as a Civilizational Entity'.",
+     "a": "explain India as a civilizational entity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.6",
+   "title": "Different Names of India in History",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Different Names of India in History' refers to.",
+     "a": "India has been known by many names through history, including Bharat, Bharatvarsha, Jambudvipa, Aryavarta, Hindustan, and India, each reflecting different periods and perspectives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Different Names of India in History'.",
+     "a": "The multiple historical names of India reflect its rich past and the different peoples who interacted with the land over centuries.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Different Names of India in History'.",
+     "a": "list the different names by which India has been known",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.7",
+   "title": "States and Union Territories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'States and Union Territories' refers to.",
+     "a": "India is a Union of States composed of states that have their own governments and Union Territories that are administered directly by the Central Government.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'States and Union Territories'.",
+     "a": "The federal structure of India divides the country into states with elected governments and Union Territories under central administration, all under one Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'States and Union Territories'.",
+     "a": "explain the difference between a state and a union territory",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class9_social_science_ch302",
+ "concepts": [
+  {
+   "id": "iess.302.1.1",
+   "title": "Political Ideologies: Liberals, Radicals, and Conservatives",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Political Ideologies: Liberals, Radicals, and Conservatives' refers to.",
+     "a": "A classification of political groups in 19th-century Europe based on their differing views regarding the pace and nature of social and governmental reform.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Ideologies: Liberals, Radicals, and Conservatives'.",
+     "a": "The spectrum of political thought ranging from gradual reform to radical restructuring of society.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Political Ideologies: Liberals, Radicals, and Conservatives' taught, and from which source text?",
+     "a": "1.1 (source: iess302.txt lines 25-60)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.1.3",
+   "title": "Marxist Theory of Capitalism and Socialism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Marxist Theory of Capitalism and Socialism' refers to.",
+     "a": "The economic and social theory suggesting that industrial society is built on the exploitation of workers by owners of capital, requiring a revolution to establish social control of property.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marxist Theory of Capitalism and Socialism'.",
+     "a": "Workers must overthrow private property to end capitalist exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Marxist Theory of Capitalism and Socialism' taught, and from which source text?",
+     "a": "1.3 (source: iess302.txt lines 130-155)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.2",
+   "title": "Russian Agricultural Population Calculation",
+   "questions": [
+    {
+     "q": "Calculate the number of agriculturists if the total population was {total_population}.. Use the method 'Russian Agricultural Population Calculation'. Work with: agri_percentage = 20, total_population = 125000. Carry the chain through step by step and give the final value of agri_count.",
+     "a": "25000 units",
+     "self_check": false
+    },
+    {
+     "q": "How many people earned a living from agriculture given a percentage of {agri_percentage}? Use the method 'Russian Agricultural Population Calculation'. Work with: agri_percentage = 8, total_population = 60000. Carry the chain through step by step and give the final value of agri_count.",
+     "a": "4800 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Russian Agricultural Population Calculation' refers to.",
+     "a": "Calculating the number of people involved in farming based on the total population and the specific percentage of agriculturists in the Russian Empire.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Russian Agricultural Population Calculation'.",
+     "a": "The Russian Empire had a significantly higher proportion of farmers (85 percent) compared to other European nations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Russian Agricultural Population Calculation', in plain ASCII form.",
+     "a": "agri_count = total_population * agri_percentage / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.2b",
+   "title": "The Mir (Commune) System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Mir (Commune) System' refers to.",
+     "a": "A traditional Russian peasant arrangement where land was pooled and redistributed periodically among families based on their specific needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Mir (Commune) System'.",
+     "a": "Collective land management distinguished Russian peasants from their Western European counterparts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Mir (Commune) System' taught, and from which source text?",
+     "a": "2.2 (source: iess302.txt lines 255-265)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.4",
+   "title": "The 1905 Revolution and Bloody Sunday",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The 1905 Revolution and Bloody Sunday' refers to.",
+     "a": "The series of mass protests and strikes triggered by the killing of peaceful demonstrators at the Winter Palace, leading to the creation of the Duma.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The 1905 Revolution and Bloody Sunday'.",
+     "a": "A violent crackdown on workers' demands for better conditions sparked a nationwide revolutionary movement.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The 1905 Revolution and Bloody Sunday' taught, and from which source text?",
+     "a": "2.4 (source: iess302.txt lines 310-345)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.2.4b",
+   "title": "Julian to Gregorian Calendar Conversion",
+   "questions": [
+    {
+     "q": "Calculate the Gregorian equivalent of a Russian date.. Use the method 'Julian to Gregorian Calendar Conversion'. Work with: julian_day = 40. Carry the chain through step by step and give the final value of gregorian_day.",
+     "a": "53 units",
+     "self_check": false
+    },
+    {
+     "q": "How many days must be added to a Julian date to get the Gregorian date? Use the method 'Julian to Gregorian Calendar Conversion'. Work with: julian_day = 15. Carry the chain through step by step and give the final value of gregorian_day.",
+     "a": "28 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Julian to Gregorian Calendar Conversion' refers to.",
+     "a": "The mathematical adjustment required to convert dates from the old Russian Julian calendar to the modern Gregorian calendar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Julian to Gregorian Calendar Conversion'.",
+     "a": "The Gregorian calendar is 13 days ahead of the Julian calendar used in Tsarist Russia.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Julian to Gregorian Calendar Conversion', in plain ASCII form.",
+     "a": "gregorian_day = julian_day + 13",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.3.1",
+   "title": "Lenin's April Theses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lenin's April Theses' refers to.",
+     "a": "The three specific radical demands made by Vladimir Lenin upon his return to Russia in April 1917 to guide the Bolshevik strategy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lenin's April Theses'.",
+     "a": "Ending the war, redistributing land, and nationalizing banks were the core pillars of Bolshevik policy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Lenin's April Theses' taught, and from which source text?",
+     "a": "3.1 (source: iess302.txt lines 485-500)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.4.2",
+   "title": "Industrial Production Growth Calculation",
+   "questions": [
+    {
+     "q": "Find the new production level given a growth ratio of {growth_ratio}.. Use the method 'Industrial Production Growth Calculation'. Work with: base_output = 45, growth_ratio = 15. Carry the chain through step by step and give the final value of final_output.",
+     "a": "675 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the industrial output after the first Five Year Plan.. Use the method 'Industrial Production Growth Calculation'. Work with: base_output = 60, growth_ratio = 20. Carry the chain through step by step and give the final value of final_output.",
+     "a": "1200 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Industrial Production Growth Calculation' refers to.",
+     "a": "Calculating the final output of industrial goods like oil, coal, or steel based on a specified growth ratio during the Five Year Plans.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Production Growth Calculation'.",
+     "a": "Centralised planning in the USSR led to massive increases in industrial production, often doubling output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Industrial Production Growth Calculation', in plain ASCII form.",
+     "a": "final_output = base_output * growth_ratio",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.4.3",
+   "title": "Stalin's Collectivisation Programme",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stalin's Collectivisation Programme' refers to.",
+     "a": "The policy of merging individual peasant farms into large state-controlled collective farms (kolkhoz) to modernize agriculture and solve grain shortages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stalin's Collectivisation Programme'.",
+     "a": "Eliminating independent farming to establish industrial-scale agricultural production under state control.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stalin's Collectivisation Programme' taught, and from which source text?",
+     "a": "4.3 (source: iess302.txt lines 660-700)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.302.5.0",
+   "title": "Global Influence of the Russian Revolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Global Influence of the Russian Revolution' refers to.",
+     "a": "The worldwide impact of the Bolshevik experiment, leading to the formation of communist parties and inspiring colonial liberation movements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global Influence of the Russian Revolution'.",
+     "a": "The USSR gave socialism a global presence, though its internal repressive policies later damaged its reputation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Global Influence of the Russian Revolution' taught, and from which source text?",
+     "a": "5 (source: iess302.txt lines 730-770)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,604 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 10,
+ "chapter_title": "Care and Maintenance of Fabrics in Institutions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe203.1",
+   "title": "Two Aspects of Fabric Care",
+   "section": "Introduction and Basic Concepts",
+   "definition": "Caring for fabrics means guarding the material against physical harm and mending whatever harm use has caused, while also refreshing how it looks -- lifting stains and dirt so the texture and visual character survive to the end of the material's expected service life.",
+   "formula": "care = damage prevention and repair plus appearance renewal",
+   "key_idea": "Laundering is both science and art: principles guide it, but skill delivers the pleasing finish.",
+   "textbook_ref": "lehe203.txt, Introduction and Basic Concepts (approx lines 20-49)",
+   "question_patterns": [
+    "what are the two aspects of care and maintenance of fabrics",
+    "why is laundry called both a science and an art",
+    "what does retaining the appearance of a fabric involve",
+    "why should fabric characteristics be preserved through the material's service life",
+    "which factors decide the care needs of a given fabric"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two aspects",
+     "explain": "structural protection and mending on one side, stain and dirt removal on the other"
+    },
+    {
+     "step": 2,
+     "action": "note the determining factors",
+     "explain": "fibre content, yarn and construction, finishes and end use"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fabric care guards against harm and also renews what: appearance or ownership?",
+     "a": "appearance"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.2",
+   "title": "Washing Machines and Their Types",
+   "section": "Washing Equipment",
+   "definition": "Machines load from the top or the front; by control they run fully automatic on a single setting, semi automatic with operator intervention each cycle in two tub form, or manually operated where half or more of the work stays with the person.",
+   "formula": "machine classes -- top or front loading, crossed with automatic, semi automatic, manual",
+   "key_idea": "A fully automatic unit handles filling, temperature, wash and rinses without help; semi automatic machines need filling and draining by hand every cycle.",
+   "textbook_ref": "lehe203.txt, washing equipment (approx lines 68-102)",
+   "question_patterns": [
+    "differentiate between top loading and front loading machines",
+    "distinguish fully automatic, semi automatic and manually operated machines",
+    "which machine type needs the operator at every rinse cycle",
+    "what defines a manually operated washing machine",
+    "which household washing tasks still remain manual without machines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort by loading side",
+     "explain": "top versus front access"
+    },
+    {
+     "step": 2,
+     "action": "sort by automation",
+     "explain": "one setting machines, two tub helped machines, hand powered machines"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which machines load through a door at the front: front loaders or top loaders?",
+     "a": "front loaders"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.3",
+   "title": "Wash Motions and Water Extraction",
+   "section": "Automatic Washer operations",
+   "definition": "Every machine works by keeping fabric moving in the wash liquor -- agitator blades churn a current in top loaders, a vertical pulsator vibrates water through them, and front loaders tumble clothes through water in a revolving perforated cylinder; afterwards water leaves by spin alone, by bottom drain then spin, or by the best route, draining during the spin.",
+   "formula": "motions -- agitation plus pulsation plus tumbling; extraction -- spin plus drain plus combined",
+   "key_idea": "Spin speed sets how much water leaves the load, from 333 up to 1100 rpm, but near dry spinning invites stubborn wrinkles; about 600 to 620 rpm is optimal.",
+   "textbook_ref": "lehe203.txt, washing, rinsing, extraction and speed (approx lines 116-181)",
+   "question_patterns": [
+    "name the three washing actions used in machines",
+    "how does tumbling in a front loader differ from agitation",
+    "list the three ways of extracting water after a wash",
+    "why is spinning to near dryness avoided",
+    "which spin speed is called optimal and what range do machines cover",
+    "why is thorough rinsing important for the finished look of clothes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair each motion with its machine",
+     "explain": "agitation and pulsation ride in top loaders, tumbling in front loaders"
+    },
+    {
+     "step": 2,
+     "action": "rank the extraction routes",
+     "explain": "combined bottom drain with spin extracts best because it clears settled and suspended dirt together"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Front loaders clean by which motion: tumbling or agitation?",
+     "a": "tumbling"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.4",
+   "title": "Driers and Their Air Circulation",
+   "section": "Drying Equipment and Process",
+   "definition": "Tumbler driers move air two ways: a fast stream of low temperature room air heated as it passes through the load and exhausted out, or a slow moving high temperature stream whose moist exhaust leaves the drum humid.",
+   "formula": "circulation choice -- fast cool air or slow hot air",
+   "key_idea": "The low temperature high velocity route keeps room temperature and humidity normal; the hot slow route exhausts very humid air.",
+   "textbook_ref": "lehe203.txt, drying equipment (approx lines 183-199)",
+   "question_patterns": [
+    "compare the two circulation systems used in driers",
+    "why does the slow hot drier exhaust very humid air",
+    "which drier system keeps the room atmosphere normal",
+    "where does room air enter and leave a drier",
+    "when are driers preferred over open air drying"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe system one",
+     "explain": "low temperature, high velocity, exhausts dry"
+    },
+    {
+     "step": 2,
+     "action": "describe system two",
+     "explain": "high temperature, slow fan driven flow, exhausts moist"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which circulation exhausts very humid air: slow hot air or fast cool air?",
+     "a": "slow hot air"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.5",
+   "title": "Ironing and Hot Pressing",
+   "section": "Ironing and Hot pressing",
+   "definition": "Ironing smooths the wrinkles that use and washing leave, while pressing sets creases into sleeves, trouser legs and pleats; thermostats match metal sole heat to the fabric, steam eases the work, and irons span roughly 1.5 to 3.5 kg with charcoal models still seen in India.",
+   "formula": "finish work -- smoothing wrinkles plus setting creases",
+   "key_idea": "Heavy household articles like curtains call for heavier irons, while light ones suit daily apparel.",
+   "textbook_ref": "lehe203.txt, ironing section (approx lines 201-215)",
+   "question_patterns": [
+    "differentiate between ironing and pressing",
+    "how does a thermostat protect fabrics during ironing",
+    "what is a charcoal iron",
+    "what weight range do electric irons cover and which articles need heavier ones",
+    "which garments need creases set by pressing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two finish operations",
+     "explain": "removing wrinkles versus imposing creases"
+    },
+    {
+     "step": 2,
+     "action": "note the equipment features",
+     "explain": "heated sole, thermostat, steam system, weight choices"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Setting creases into sleeves and pleats is called what: pressing or folding?",
+     "a": "pressing"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.6",
+   "title": "Laundry Services: Dhobi to Commercial Laundry",
+   "section": "Care levels and commercial laundries",
+   "definition": "Household washing handles daily clothes; professional workers collect from homes and hostels and wash at marked town ghats; commercial laundries and dry cleaners take bigger articles, organised into sections for washing, extraction, drying, pressing, dry cleaning, fibre specific work, dyeing and finishes, with invoices and code tags tracking every item.",
+   "formula": "service ladder -- household plus professional worker plus commercial laundry plus dry cleaner",
+   "key_idea": "Commercial machines take 100 kg or more per cycle against 5 to 10 kg at home, and code tags tie each article to its invoice.",
+   "textbook_ref": "lehe203.txt, service levels and commercial sections (approx lines 221-284)",
+   "question_patterns": [
+    "describe the levels at which laundry care happens for a household",
+    "who is a dhobi and what is a dhobighat",
+    "how are sections organised in a commercial laundry",
+    "why do laundries issue invoices and code tags",
+    "which special sections serve woolens, silks and blankets",
+    "what extra services may big laundries offer besides washing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "climb the service ladder",
+     "explain": "home washing, hired workers, shops with transport, dry cleaning"
+    },
+    {
+     "step": 2,
+     "action": "explain the record system",
+     "explain": "damage noted at intake, invoice per customer, matching tags on items"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Commercial machines take how many kilograms or more per cycle: 100 or 1?",
+     "a": "100"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.7",
+   "title": "Hospital Laundry and Its Process",
+   "section": "Institutions: hospital laundry",
+   "definition": "A hospital laundry puts hygiene, cleanliness and disinfection first: soiled linen is collected from wards and theatres, sorted, washed in hundred kilogram machines, hydro extracted, dried, pressed, mended or condemned, packed and distributed, with infection prone items replaced by burnable disposables.",
+   "formula": "process chain -- collection plus transport plus sorting plus wash plus extraction plus dry plus press plus mend plus pack plus distribute",
+   "key_idea": "Hospital cottons carry dyes of excellent wash fastness; starching and whitening rank below cleanliness, and only blankets are woollen.",
+   "textbook_ref": "lehe203.txt, hospital laundry and process steps (approx lines 296-344)",
+   "question_patterns": [
+    "list the steps of laundry functioning in a hospital",
+    "why do hospitals prefer disposables for infection prone articles",
+    "why must hospital cottons use wash fast dyes",
+    "which finishing steps are less emphasised in a hospital laundry and why",
+    "how is condemned linen handled in the hospital process",
+    "which articles besides bed linen does a hospital laundry process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the ten step process",
+     "explain": "from ward collection through sorting, washing, extraction, drying, finishing to distribution"
+    },
+    {
+     "step": 2,
+     "action": "note the hospital priorities",
+     "explain": "disinfection and cleanliness outrank starch, whitening and perfect pressing"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which laundry puts hygiene and disinfection first: hospital or hotel?",
+     "a": "hospital"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.8",
+   "title": "Hotel Laundry Priorities",
+   "section": "Institutions: hospitality sector",
+   "definition": "Hospitality laundries chase looks: mixed fibre articles must emerge starched, perfectly pressed and correctly folded, guests' personal laundry gets handled on request, and smaller hotels link up with outside commercial laundries instead of running their own plant.",
+   "formula": "hotel priority -- aesthetics plus final finish plus guest service",
+   "key_idea": "Hospitals wash for hygiene, hotels finish for beauty -- the same machines, opposite emphases.",
+   "textbook_ref": "lehe203.txt, hospitality sector (approx lines 307-313)",
+   "question_patterns": [
+    "how does a hotel laundry differ from a hospital laundry in emphasis",
+    "which finishing treatments matter most in the hospitality sector",
+    "why may hotel articles be of varied fibre contents",
+    "how do smaller hotels manage their linen needs",
+    "what arrangement exists for guests' personal laundry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the two institutional goals",
+     "explain": "disinfection versus aesthetics"
+    },
+    {
+     "step": 2,
+     "action": "list the hotel finishing musts",
+     "explain": "starching, ironing, pressing, perfect folding, guest items"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which laundry chases starched, pressed and folded looks: hotel or hospital?",
+     "a": "hotel"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.9",
+   "title": "Careers in Laundry and Fabric Care",
+   "section": "Preparing for a Career and Scope",
+   "definition": "The field demands command of the material's fibre, yarn, construction and finishes, of the cleaning processes and chemicals, and of the machinery; short laundry management courses offer training, placement and startup help, and specialisation in textile science opens jobs in airlines, shipping, railways, hotels and hi-tech hospitals or one's own service venture.",
+   "formula": "knowledge triad -- material plus processes and chemicals plus machinery",
+   "key_idea": "Working women in metros and the nursing home boom make fabric care a promising entrepreneurial field.",
+   "textbook_ref": "lehe203.txt, career and scope (approx lines 413-465)",
+   "question_patterns": [
+    "which knowledge areas must a laundry professional master",
+    "what do laundry management short term courses offer",
+    "which employers hire fabric care specialists",
+    "why is practical internship needed in this trade",
+    "what entrepreneurial openings exist in fabric care services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the knowledge requirements",
+     "explain": "fibre and finish effects, processes, reagents, machines"
+    },
+    {
+     "step": 2,
+     "action": "map the routes",
+     "explain": "short courses with stipend training, textile science specialisations, self employment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Laundry careers demand command of material, processes and which third area: machinery or poetry?",
+     "a": "machinery"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.10",
+   "title": "Stain Removal Practice",
+   "section": "Practical 1: stain removal",
+   "definition": "A stain is foreign matter absorbed into fabric that needs targeted treatment before washing; the right treatment depends on identifying the stain, its age, and the fibre -- cold water and salt for blood, methylated spirit for ball pen and lipstick, boiling water through tea marks, sour milk or oxalic acid for ink -- always against an untreated control sample.",
+   "formula": "treatment choice -- stain identity plus age plus fibre type",
+   "key_idea": "Fresh blood washes out in cold water and dilute ammonia, but hot water sets it; old stains call for salt steeping or stronger reagents by fibre.",
+   "textbook_ref": "lehe203.txt, Practical 1 stain table (approx lines 488-699)",
+   "question_patterns": [
+    "how should a fresh blood stain be treated on cotton and why never in hot water",
+    "which reagent lifts a ball pen ink stain",
+    "how is an old tea stain removed from cotton and from silk",
+    "why is a control sample kept in the stain removal practical",
+    "state the treatment for old grease on an unwashable woollen fabric",
+    "how does the treatment of stains differ for cotton, silk and synthetics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify stain, age and fibre",
+     "explain": "the table branches on all three"
+    },
+    {
+     "step": 2,
+     "action": "apply and verify",
+     "explain": "treat one sample, keep the second untreated for comparison, then file both"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fresh blood washes out in cold water but which kind of water sets it: hot or cold?",
+     "a": "hot"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.11",
+   "title": "Linen Stock Requirement",
+   "section": "Institutions: linen planning",
+   "definition": "A hospital plans linen by multiplying beds by the minimum sets held per bed, then pieces per set -- sheet, draw sheet and pillow slip -- so the store always covers every bed even at peak washing turnover.",
+   "formula": "total_pieces = bed_count * sets_per_bed * pieces_per_set",
+   "key_idea": "Six sets per bed with three pieces each means an eighteen piece stock for every bed on the rolls.",
+   "textbook_ref": "lehe203.txt, linen requirement (approx lines 345-351)",
+   "question_patterns": [
+    "a 500 bed hospital keeps a minimum of 6 linen sets per bed with 3 pieces per set; how many pieces must the store hold",
+    "calculate the total linen pieces for a ward from its bed count, sets per bed and pieces per set",
+    "how many bed sheets alone does a 1800 bed hospital stock at 6 sets and 1 sheet per set",
+    "find the stock of pillow slips for a 1000 bed hospital at 6 sets and 1 pillow slip per set",
+    "work out the complete linen inventory when beds, sets per bed and pieces per set are stated"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the sets",
+     "explain": "multiply the bed count by the sets held per bed",
+     "compute": "total_sets = bed_count * sets_per_bed"
+    },
+    {
+     "step": 2,
+     "action": "total the pieces",
+     "explain": "multiply the sets by the pieces in each set",
+     "compute": "total_pieces = total_sets * pieces_per_set"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Six sets per bed with three pieces each means how many pieces per bed: eighteen or six?",
+     "a": "eighteen"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.12",
+   "title": "Daily Sheet Changes in Special Wards",
+   "section": "Institutions: linen planning",
+   "definition": "Operation theatre, maternity and labour room sheets can be changed five or more times a day, so the daily wash burden for such a zone is the zone's bed count multiplied by the changes each bed needs per day.",
+   "formula": "sheets_daily = zone_beds * changes_per_day",
+   "key_idea": "At five changes, even a small forty bed zone pushes two hundred sheets into the daily cycle.",
+   "textbook_ref": "lehe203.txt, bed linen quantum (approx lines 345-349)",
+   "question_patterns": [
+    "a maternity ward of 40 beds needs 5 sheet changes per bed daily; how many sheets enter the wash each day",
+    "compute the daily sheet requirement for a zone from its beds and the changes per day",
+    "an operation theatre zone has 25 beds with 5 changes daily; find the sheets to launder",
+    "how many sheet changes must the laundry process for a ward given its change rate",
+    "work out the daily linen turnover for a high change zone"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply beds by daily changes",
+     "explain": "each change puts one sheet into the cycle",
+     "compute": "sheets_daily = zone_beds * changes_per_day"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At five changes a day, a forty-bed zone pushes how many sheets into daily wash: 200 or 45?",
+     "a": "200"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.13",
+   "title": "Hydro-Extractor Moisture Arithmetic",
+   "section": "Process: hydro-extraction",
+   "definition": "A hydro extractor spins off sixty to seventy per cent of the moisture, so whatever remains for the drier is one hundred minus the percentage removed.",
+   "formula": "moisture_left = 100 - moisture_removed_pct",
+   "key_idea": "At a mid 65 per cent extraction, about 35 per cent of the moisture still awaits the drier.",
+   "textbook_ref": "lehe203.txt, hydro-extraction step (approx lines 338-340)",
+   "question_patterns": [
+    "a hydro extractor removes 65 per cent of the moisture from a load; what per cent remains",
+    "if extraction clears 70 per cent of moisture, calculate the moisture still left for drying",
+    "find the residual moisture percentage when the extractor's removal rate is stated",
+    "a load enters the drier with 60 per cent moisture already removed; how much remains",
+    "compute the share of moisture the drier must handle after hydro extraction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the removed share from one hundred",
+     "explain": "the remainder is the moisture still held by the fabric",
+     "compute": "moisture_left = 100 - moisture_removed_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A hydro-extractor spins off sixty to seventy percent of the what: moisture or colour?",
+     "a": "moisture"
+    }
+   ]
+  },
+  {
+   "id": "lehe203.14",
+   "title": "Machine Capacity Ratio",
+   "section": "Commercial laundries: equipment",
+   "definition": "Commercial washers handle 100 kilogram or more per cycle while domestic machines manage 5 to 10 kilograms, so the industrial advantage is the commercial capacity divided by the domestic one.",
+   "formula": "capacity_ratio = commercial_capacity / domestic_capacity",
+   "key_idea": "Against a 5 kilogram home machine, a 100 kilogram plant machine washes twenty times the load each cycle.",
+   "textbook_ref": "lehe203.txt, commercial equipment capacities (approx lines 260-263)",
+   "question_patterns": [
+    "a plant machine washes 100 kg per cycle against a domestic 5 kg machine; how many times greater is its capacity",
+    "compute the capacity ratio between an institutional washer and a home washer",
+    "a 100 kg commercial unit is compared with a 10 kg domestic one; find the ratio",
+    "how many domestic loads equal one commercial cycle when both capacities are stated",
+    "calculate how many times more linen a commercial machine handles per cycle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the capacities",
+     "explain": "commercial capacity over domestic capacity gives the multiplier",
+     "compute": "capacity_ratio = commercial_capacity / domestic_capacity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Against a 5 kg home machine, a 100 kg plant machine washes how many times the load: twenty or two?",
+     "a": "twenty"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe203.txt linen requirement paragraph",
+   "concept": "lehe203.11",
+   "question_type": "numeric",
+   "question_pattern": "A hospital with {bed_count} beds stocks {sets_per_bed} linen sets per bed, each set holding {pieces_per_set} pieces. How many pieces must the linen store hold?",
+   "extracted_variables": {
+    "bed_count": 500,
+    "sets_per_bed": 6,
+    "pieces_per_set": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the sets",
+     "explain": "500 x 6 = 3000 sets",
+     "compute": "total_sets = bed_count * sets_per_bed"
+    },
+    {
+     "step": 2,
+     "action": "total the pieces",
+     "explain": "3000 x 3 = 9000 pieces in stock",
+     "compute": "total_pieces = total_sets * pieces_per_set"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe203.txt hydro-extraction step",
+   "concept": "lehe203.13",
+   "question_type": "numeric",
+   "question_pattern": "A hydro extractor removes {moisture_removed_pct} per cent of the moisture from washed linen. What percentage still remains for the drier?",
+   "extracted_variables": {
+    "moisture_removed_pct": 65
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from one hundred",
+     "explain": "100 - 65 = 35 per cent moisture left",
+     "compute": "moisture_left = 100 - moisture_removed_pct"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe203.txt equipment capacities",
+   "concept": "lehe203.14",
+   "question_type": "numeric",
+   "question_pattern": "A hospital laundry machine takes {commercial_capacity} kg per cycle while a domestic machine takes {domestic_capacity} kg. How many times larger is the commercial capacity?",
+   "extracted_variables": {
+    "commercial_capacity": 100,
+    "domestic_capacity": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the capacities",
+     "explain": "100 / 10 = 10 times the household load per cycle",
+     "compute": "capacity_ratio = commercial_capacity / domestic_capacity"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe203.txt bed linen quantum paragraph",
+   "concept": "lehe203.12",
+   "question_type": "numeric",
+   "question_pattern": "A labour room zone has {zone_beds} beds and its sheets need {changes_per_day} changes a day. How many sheets go to the wash daily?",
+   "extracted_variables": {
+    "zone_beds": 40,
+    "changes_per_day": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply beds by changes",
+     "explain": "40 x 5 = 200 sheets enter the daily cycle",
+     "compute": "sheets_daily = zone_beds * changes_per_day"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe203.txt Review Questions 1-4",
+   "questions": [
+    "State the two aspects of care and maintenance of fabrics.",
+    "Which factors affect the cleaning process for a fabric?",
+    "How are the sections of a commercial or institutional laundry organised?",
+    "Contrast the working of commercial laundries with hospital laundries.",
+    "Compare the two air circulation systems of driers and the three methods of water extraction.",
+    "Why must hospital linen use wash fast dyes and what finishes are less emphasised there?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe203.txt Practical 1, stain removal",
+   "questions": [
+    "Prepare two stained samples of each stain on four by four inch white cotton, treating one and keeping the other as control.",
+    "Remove a fresh blood stain with cold water and dilute ammonia, and explain why hot water is forbidden.",
+    "Treat ball pen and lipstick marks with methylated spirit and record the result against the control.",
+    "Clear an old tea stain using borax and boiling water, then compare with the silk and wool procedure.",
+    "File the control and treated pairs and write the observations."
+   ]
+  }
+ ]
+}

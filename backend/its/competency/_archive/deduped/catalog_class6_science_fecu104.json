@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Exploring Magnets",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.4.1",
+   "title": "Magnetic and Non-magnetic Materials",
+   "section": "Magnetic and non-magnetic materials",
+   "definition": "A magnet attracts some materials and ignores others: iron, nickel and cobalt are magnetic, while wood, plastic, glass, cloth and paper are not, so a magnet can sort materials silently.",
+   "formula": "",
+   "key_idea": "Attraction is a test: what clings to a magnet is magnetic, the rest is not.",
+   "textbook_ref": "fecu104.txt, Magnetic and non-magnetic materials",
+   "question_patterns": [
+    "which materials are attracted by a magnet",
+    "is wood magnetic why or why not",
+    "how can a magnet be used to separate materials",
+    "name three magnetic materials",
+    "why does a magnet not attract a plastic ruler",
+    "test which objects in your pencil box are magnetic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.2",
+   "title": "Poles of a Magnet",
+   "section": "Poles of magnet",
+   "definition": "The magnetism of a magnet concentrates at its two ends, the poles; a magnet dipped in iron filings shows rings of filings thick at the poles and thin in the middle.",
+   "formula": "",
+   "key_idea": "Pull is strongest at the poles: the ends do the work the middle cannot.",
+   "textbook_ref": "fecu104.txt, Poles of magnet",
+   "question_patterns": [
+    "what are the poles of a magnet",
+    "where is the magnetic force strongest",
+    "what happens when iron filings are sprinkled on a bar magnet",
+    "how many poles does a magnet have",
+    "where is the magnetic strength of a magnet the weakest",
+    "why do the ends of a magnet hold more pins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.3",
+   "title": "Finding Directions with a Compass",
+   "section": "Finding directions",
+   "definition": "A freely suspended magnet always settles pointing north-south; this discovery gives the magnetic compass, whose needle lets travellers find directions even without the sun or stars.",
+   "formula": "",
+   "key_idea": "The earth itself is a magnet: every compass needle answers to it and shows the way.",
+   "textbook_ref": "fecu104.txt, Finding directions",
+   "question_patterns": [
+    "how does a magnetic compass find directions",
+    "why does a freely suspended magnet rest north south",
+    "who first used the compass for directions",
+    "what does the red end of a compass needle show",
+    "how would you make a simple compass at home",
+    "why should iron objects be kept away from a compass"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.4",
+   "title": "Attraction and Repulsion",
+   "section": "Attraction and repulsion",
+   "definition": "Like poles push apart while unlike poles pull together: north repels north, south repels south, but north attracts south; this rule lets magnets both grip and race each other.",
+   "formula": "like poles repel, unlike poles attract",
+   "key_idea": "Repulsion is the surest test of a magnet: attraction may be mere iron, but repulsion proves the pole.",
+   "textbook_ref": "fecu104.txt, Attraction and repulsion",
+   "question_patterns": [
+    "what happens when two north poles face each other",
+    "when do two magnets attract each other",
+    "why is repulsion the sure test of magnetism",
+    "float two magnets and predict their motion",
+    "how can magnets be used in games",
+    "state the rule of attraction and repulsion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu104.txt",
+   "concept": "fecu.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "which materials does a magnet attract?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu104.txt",
+   "concept": "fecu.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "what did the iron filings pattern show about the poles?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu104.txt, Let us enhance our learning",
+   "questions": [
+    "Which materials does a magnet attract?",
+    "What did the iron filings pattern show about the poles?",
+    "How does a magnetic compass help find directions?",
+    "Test five objects at home with a magnet and record which stick.",
+    "Make a straw float with a magnet and explore push and pull of poles."
+   ]
+  }
+ ]
+}

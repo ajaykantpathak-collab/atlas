@@ -1,0 +1,867 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 303,
+ "chapter_title": "Nazism and the Rise of Hitler",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iess303.txt",
+ "concepts": [
+  {
+   "id": "iess.303.1.1",
+   "title": "Birth of the Weimar Republic and the Versailles Treaty",
+   "section": "1",
+   "definition": "Following Imperial Germany's collapse in World War I, an elected National Assembly established a federal parliamentary democracy at Weimar, which immediately faced severe public resentment for signing the punitive Versailles Treaty.",
+   "formula": "none",
+   "key_idea": "The Weimar Republic was politically burdened from inception by the humiliating territorial and financial penalties imposed at Versailles.",
+   "textbook_ref": "iess303.txt lines 51-52",
+   "question_patterns": [
+    "Explain the circumstances leading to the formation of the Weimar Republic",
+    "Describe the major territorial and economic losses imposed on Germany by the Treaty of Versailles",
+    "Why was the Weimar Republic unpopular among many Germans from its inception",
+    "How did the War Guilt Clause affect the stability of the new German democratic government",
+    "Examine why the supporters of the Weimar Republic were labeled November criminals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of the Weimar Republic",
+     "explain": "Note the abdication of the Kaiser and the establishment of an elected federal parliament (Reichstag) based on universal adult franchise."
+    },
+    {
+     "step": 2,
+     "action": "Detail the penalties of the Versailles Treaty",
+     "explain": "Account for the loss of colonies, 13 percent of European territory, 75 percent iron, 26 percent coal, demilitarisation, and a 6 billion pound war indemnity."
+    },
+    {
+     "step": 3,
+     "action": "Assess the political fallout",
+     "explain": "Connect the treaty's national humiliation to domestic hostility against socialists, Catholics, and Democrats who formed the republic."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.1.2",
+   "title": "Economic Crises, Hyperinflation and the Great Depression in Germany",
+   "section": "1.2 - 1.3",
+   "definition": "The reckless printing of paper money to handle reparations triggered extreme hyperinflation in 1923, followed by economic devastation during the Great Depression of 1929 when foreign loans collapsed.",
+   "formula": "none",
+   "key_idea": "Economic vulnerability and soaring unemployment destroyed public faith in democratic governance and created widespread panic among middle and working classes.",
+   "textbook_ref": "iess303.txt lines 53-55",
+   "question_patterns": [
+    "What led to the hyperinflation crisis in Germany in 1923",
+    "Explain the impact of the Great Economic Depression on German society and industry",
+    "Define the concept of proletarianisation in the context of the German economic crisis",
+    "How did the crash of the Wall Street Exchange affect the German economy",
+    "Describe the constitutional weaknesses such as Article 48 that made the Weimar Republic fragile"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the 1923 hyperinflation mechanism",
+     "explain": "Detail how reparations in gold, the French occupation of Ruhr, and unbacked currency printing caused the mark's value to collapse."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact of the 1929 Great Depression",
+     "explain": "Show how withdrawal of US short-term loans reduced German industrial output by 60 percent and pushed unemployment to 6 million."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate social anxieties and constitutional instability",
+     "explain": "Highlight the fear of proletarianisation, coalition instabilities, and frequent invocation of presidential emergency powers under Article 48."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.2.1",
+   "title": "Hitler's Rise to Power and Destruction of Democracy",
+   "section": "2 - 2.1",
+   "definition": "Capitalising on popular discontent through charismatic oratory and mass rallies, Hitler gained chancellorship in 1933 and systematically dismantled democratic institutions using emergency decrees and the Enabling Act.",
+   "formula": "none",
+   "key_idea": "The transition from democracy to totalitarian dictatorship occurred rapidly through legal suspension of civic freedoms and violent elimination of political rivals.",
+   "textbook_ref": "iess303.txt lines 56-58",
+   "question_patterns": [
+    "Describe the factors that facilitated the rise of Adolf Hitler to power",
+    "How did the Reichstag Fire Decree of 1933 undermine basic democratic rights in Germany",
+    "Explain the significance of the Enabling Act passed on 3 March 1933",
+    "What methods of propaganda and mass spectacles did the Nazi Party use to mobilise support",
+    "List the special surveillance and security forces set up by the Nazi regime"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace political mobilization",
+     "explain": "Examine how the Great Depression transformed the Nazi Party from a minor group into the largest parliamentary party by 1932 through promises of economic renewal and national dignity."
+    },
+    {
+     "step": 2,
+     "action": "Detail legal destruction of democracy",
+     "explain": "Explain the suspension of civil rights via the Fire Decree of 28 February 1933 and the granting of absolute decree powers to Hitler via the Enabling Act of March 1933."
+    },
+    {
+     "step": 3,
+     "action": "Identify instruments of terror",
+     "explain": "Describe the deployment of the Gestapo, SS, SD, and regular police to crush communists, trade unions, and political opposition."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.2.2",
+   "title": "Economic Reconstruction and Foreign Expansion",
+   "section": "2.2",
+   "definition": "Under state economic planners, Germany targeted full employment via public works and rearmament, while aggressively pursuing territorial expansion that directly triggered the Second World War.",
+   "formula": "none",
+   "key_idea": "Nazi economic recovery was tied to military buildup and territorial conquest to secure external resources.",
+   "textbook_ref": "iess303.txt lines 59-60",
+   "question_patterns": [
+    "Explain the economic recovery programme devised by Hjalmar Schacht",
+    "Trace the major foreign policy successes achieved by Hitler between 1933 and 1938",
+    "Why was the German invasion of the Soviet Union in 1941 considered a historic blunder",
+    "What led to the entry of the United States into the Second World War",
+    "Describe the significance of the Tripartite Pact signed in 1940"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine state-funded reconstruction",
+     "explain": "Highlight Schacht's creation of superhighways (Autobahn) and the Volkswagen project to achieve full production and employment."
+    },
+    {
+     "step": 2,
+     "action": "Review aggressive diplomatic moves",
+     "explain": "Detail the remilitarisation of the Rhineland (1936), annexation of Austria (1938), and annexation of Sudetenland and Czechoslovakia."
+    },
+    {
+     "step": 3,
+     "action": "Analyze wartime escalations and defeats",
+     "explain": "Trace the September 1939 invasion of Poland, the turning-point defeat at Stalingrad following the attack on the USSR, and US entry after Pearl Harbor."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.3.1",
+   "title": "The Nazi Worldview and Racial Hierarchy",
+   "section": "3",
+   "definition": "A pseudoscientific ideology asserting that biological racial struggle drives history, placing Nordic Aryans at the apex of humanity and defining Jews as an existential racial enemy.",
+   "formula": "none",
+   "key_idea": "Nazi ideology distorted theories of evolution to justify violent racial supremacism and geopolitical conquest.",
+   "textbook_ref": "iess303.txt lines 61-62",
+   "question_patterns": [
+    "What were the core features of Hitler's racial worldview",
+    "How did Nazi ideology distort the scientific ideas of Charles Darwin and Herbert Spencer",
+    "Explain the concept of Lebensraum or living space in Nazi geopolitical doctrine",
+    "Who were categorized as undesirables in the Nazi racial state",
+    "Why did the Nazis consider Jews to be their arch-enemies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline the racial hierarchy",
+     "explain": "Explain the ranking of blond, blue-eyed Nordic Aryans at the top, intermediate categorisation of other groups, and Jews at the bottom as an anti-race."
+    },
+    {
+     "step": 2,
+     "action": "Examine ideological distortion of science",
+     "explain": "Show how Spencer's survival of the fittest was misused to claim that the strongest race must subjugate or eliminate weaker races."
+    },
+    {
+     "step": 3,
+     "action": "Explain the geopolitical drive of Lebensraum",
+     "explain": "Describe the policy of acquiring eastern territories for German resettlement and resource control."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.3.2",
+   "title": "Establishment of the Racial Utopia and the Holocaust",
+   "section": "3.1 - 3.2",
+   "definition": "A systematic, state-sponsored programme carried out in stages through legal exclusion, ghettoisation, and industrialised mass murder in concentration and death camps.",
+   "formula": "none",
+   "key_idea": "The Holocaust progressed methodically from legal disenfranchisement under the Nuremberg Laws to mass extermination in extermination camps.",
+   "textbook_ref": "iess303.txt lines 62-65",
+   "question_patterns": [
+    "Explain the three distinct stages in the Nazi process of exterminating Jews",
+    "What were the provisions of the Nuremberg Laws of Citizenship of September 1935",
+    "Describe how occupied Poland was treated as a racial laboratory by the Nazis",
+    "What occurred during the pogrom remembered as the Night of Broken Glass",
+    "Describe the conditions in ghettos and the operation of extermination camps like Auschwitz"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Stage 1: Exclusion (1933-1939)",
+     "explain": "Detail the Nuremberg Laws that stripped Jewish citizenship, banned intermarriage, boycotted businesses, and culminated in the Kristallnacht pogrom."
+    },
+    {
+     "step": 2,
+     "action": "Stage 2: Ghettoisation (1940-1944)",
+     "explain": "Describe the compulsion to wear the yellow Star of David, property confiscation, and forced confinement in overcrowded ghettos like Warsaw and Lodz."
+    },
+    {
+     "step": 3,
+     "action": "Stage 3: Annihilation (1941 onwards)",
+     "explain": "Examine the Final Solution involving mass deportation by railway cars and industrial gassing in death camps such as Auschwitz, Treblinka, and Belzec."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.4.1",
+   "title": "Youth Indoctrination and Schooling under Nazism",
+   "section": "4",
+   "definition": "Total state control over the educational curriculum and mandatory youth groups designed to instill absolute obedience to Hitler, martial values, and racial prejudice in German children.",
+   "formula": "none",
+   "key_idea": "Education and youth movements were overhauled into instruments of ideological indoctrination and military readiness.",
+   "textbook_ref": "iess303.txt line 66",
+   "question_patterns": [
+    "How were schools purified and reorganized under the Nazi regime",
+    "What was the role of the Hitler Youth and Jungvolk in shaping German boys",
+    "How did Nazi school textbooks promote racial anti-Semitism",
+    "Explain the physical and ideological training given to German youth before military service",
+    "Why did Hitler place immense importance on controlling youth organizations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain school purification and curriculum overhaul",
+     "explain": "Detail the dismissal of Jewish and unreliable teachers, segregation of pupils, introduction of racial science, and antisemitic stereotypes across subjects."
+    },
+    {
+     "step": 2,
+     "action": "Describe mandatory youth organization stages",
+     "explain": "Track progression from Jungvolk at age 10 to Hitler Youth at age 14, followed by the Labour Service and Armed Forces at age 18."
+    },
+    {
+     "step": 3,
+     "action": "Highlight physical conditioning for war",
+     "explain": "Show how boxing and aggressive sports were used to nurture brutality and unquestioning loyalty to the state."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.4.2",
+   "title": "The Nazi Cult of Motherhood and Gender Roles",
+   "section": "4.1",
+   "definition": "A state policy that strictly confined women to domestic spheres, mandating them to produce racially pure Aryan offspring while penalizing non-conformity and contact with undesirable groups.",
+   "formula": "none",
+   "key_idea": "Motherhood was instrumentalised to maximize the pure-blooded Aryan population through incentives and harsh punitive laws.",
+   "textbook_ref": "iess303.txt lines 67-68",
+   "question_patterns": [
+    "Explain the Nazi concept of motherhood and how it differed from democratic notions of gender equality",
+    "What rewards and honours were given to German mothers who produced racially desirable children",
+    "How were women who violated the Nazi racial code of conduct punished",
+    "Compare the role of women under Nazism with that during the French Revolution",
+    "Describe the function of Honour Crosses awarded to mothers in Nazi Germany"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast democratic equality with Nazi gender doctrine",
+     "explain": "Explain the official rejection of equal rights and the division into distinct spheres: aggressive soldiers for men, pure mothers for women."
+    },
+    {
+     "step": 2,
+     "action": "Detail state incentives for childbearing",
+     "explain": "Account for concessions in hospitals, public transport, shops, and the award of the Honour Cross (bronze for 4, silver for 6, gold for 8 or more children)."
+    },
+    {
+     "step": 3,
+     "action": "Describe state repression of non-conforming women",
+     "explain": "Examine public humiliation, shaving of heads, blackening of faces, and imprisonment for women associating with Jews or Slavic people."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.4.3",
+   "title": "The Art of Propaganda and Deceptive Language",
+   "section": "4.2",
+   "definition": "The deliberate deployment of mass media, stereotyping films, posters, and euphemistic official terminology to sanitize atrocities and incite hatred against targeted communities.",
+   "formula": "none",
+   "key_idea": "The regime masked violent extermination behind sanitized bureaucratic language and pervasive visual propaganda.",
+   "textbook_ref": "iess303.txt lines 68-70",
+   "question_patterns": [
+    "How did the Nazi regime use deceptive language to conceal mass killings",
+    "Describe the role of media and films like The Eternal Jew in spreading anti-Semitism",
+    "What visual stereotypes were used in Nazi propaganda posters against Jews and communists",
+    "How did Nazi propaganda appeal to different social groups like peasants and workers",
+    "Why were gas chambers termed disinfection areas in official communications"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze official linguistic deception",
+     "explain": "Identify code words: 'special treatment' or 'final solution' for mass murder, 'euthanasia' for killing disabled persons, and 'evacuation' for deportation to death camps."
+    },
+    {
+     "step": 2,
+     "action": "Examine visual propaganda techniques",
+     "explain": "Show how films, radio broadcasts, and posters dehumanised targeted groups by depicting them as vermin or foreign conspirators."
+    },
+    {
+     "step": 3,
+     "action": "Demonstrate sectional political messaging",
+     "explain": "Illustrate how tailored leaflets presented National Socialism as the singular protector of farmers and workers against capitalism and Marxism."
+    }
+   ]
+  },
+  {
+   "id": "iess.303.5.1",
+   "title": "Reactions of Ordinary People, Resistance and Holocaust Memory",
+   "section": "5 - 5.1",
+   "definition": "The spectrum of civilian responses ranging from active support and passive conformity to underground resistance, alongside clandestine efforts by victims to document atrocities for future generations.",
+   "formula": "none",
+   "key_idea": "While widespread apathy and fear enabled state crimes, victims preserved clandestine archives ensuring the historical memory of the Holocaust survived.",
+   "textbook_ref": "iess303.txt lines 71-72",
+   "question_patterns": [
+    "How did common Germans react to Nazi rule and anti-Jewish persecution",
+    "Explain the message conveyed in Pastor Niemoeller's famous poem regarding civilian silence",
+    "What does Charlotte Beradt's book The Third Reich of Dreams reveal about Jewish psychology",
+    "How was documentary evidence of the Holocaust preserved by ghetto inhabitants in Warsaw",
+    "Why did the Nuremberg International Military Tribunal prosecute only leading Nazis after the war"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize societal reactions",
+     "explain": "Contrast true believers who adopted Nazi prejudice with the large majority who remained silent onlookers out of apathy or fear of terror."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate psychological impact and resistance",
+     "explain": "Discuss internalized terror recorded in dreams, instances of brave resistance, and international rescue efforts like the Danish evacuation of Jews."
+    },
+    {
+     "step": 3,
+     "action": "Assess Holocaust documentation and remembrance",
+     "explain": "Detail how victims hid diaries and documents in milk cans to ensure historical accountability despite Nazi attempts to burn evidence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess303.txt lines 51-52",
+   "concept": "iess.303.1.1",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "Describe the main terms of the Treaty of Versailles and explain why it humiliated Germany.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the origin of the Weimar Republic",
+     "explain": "Note the abdication of the Kaiser and the establishment of an elected federal parliament (Reichstag) based on universal adult franchise."
+    },
+    {
+     "step": 2,
+     "action": "Detail the penalties of the Versailles Treaty",
+     "explain": "Account for the loss of colonies, 13 percent of European territory, 75 percent iron, 26 percent coal, demilitarisation, and a 6 billion pound war indemnity."
+    },
+    {
+     "step": 3,
+     "action": "Assess the political fallout",
+     "explain": "Connect the treaty's national humiliation to domestic hostility against socialists, Catholics, and Democrats who formed the republic."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess303.txt lines 64-65",
+   "concept": "iess.303.3.2",
+   "question_type": "historical_process",
+   "question_pattern": "What were the three stages through which the Nazi state carried out the destruction of Jews?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Stage 1: Exclusion (1933-1939)",
+     "explain": "Detail the Nuremberg Laws that stripped Jewish citizenship, banned intermarriage, boycotted businesses, and culminated in the Kristallnacht pogrom."
+    },
+    {
+     "step": 2,
+     "action": "Stage 2: Ghettoisation (1940-1944)",
+     "explain": "Describe the compulsion to wear the yellow Star of David, property confiscation, and forced confinement in overcrowded ghettos like Warsaw and Lodz."
+    },
+    {
+     "step": 3,
+     "action": "Stage 3: Annihilation (1941 onwards)",
+     "explain": "Examine the Final Solution involving mass deportation by railway cars and industrial gassing in death camps such as Auschwitz, Treblinka, and Belzec."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why was the Weimar Republic unpopular among many Germans from its inception",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the origin of the Weimar Republic",
+     "explain": "Note the abdication of the Kaiser and the establishment of an elected federal parliament (Reichstag) based on universal adult franchise."
+    },
+    {
+     "step": 2,
+     "action": "Detail the penalties of the Versailles Treaty",
+     "explain": "Account for the loss of colonies, 13 percent of European territory, 75 percent iron, 26 percent coal, demilitarisation, and a 6 billion pound war indemnity."
+    },
+    {
+     "step": 3,
+     "action": "Assess the political fallout",
+     "explain": "Connect the treaty's national humiliation to domestic hostility against socialists, Catholics, and Democrats who formed the republic."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "What led to the hyperinflation crisis in Germany in 1923",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the 1923 hyperinflation mechanism",
+     "explain": "Detail how reparations in gold, the French occupation of Ruhr, and unbacked currency printing caused the mark's value to collapse."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact of the 1929 Great Depression",
+     "explain": "Show how withdrawal of US short-term loans reduced German industrial output by 60 percent and pushed unemployment to 6 million."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate social anxieties and constitutional instability",
+     "explain": "Highlight the fear of proletarianisation, coalition instabilities, and frequent invocation of presidential emergency powers under Article 48."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the impact of the Great Economic Depression on German society and industry",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the 1923 hyperinflation mechanism",
+     "explain": "Detail how reparations in gold, the French occupation of Ruhr, and unbacked currency printing caused the mark's value to collapse."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact of the 1929 Great Depression",
+     "explain": "Show how withdrawal of US short-term loans reduced German industrial output by 60 percent and pushed unemployment to 6 million."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate social anxieties and constitutional instability",
+     "explain": "Highlight the fear of proletarianisation, coalition instabilities, and frequent invocation of presidential emergency powers under Article 48."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the factors that facilitated the rise of Adolf Hitler to power",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Trace political mobilization",
+     "explain": "Examine how the Great Depression transformed the Nazi Party from a minor group into the largest parliamentary party by 1932 through promises of economic renewal and national dignity."
+    },
+    {
+     "step": 2,
+     "action": "Detail legal destruction of democracy",
+     "explain": "Explain the suspension of civil rights via the Fire Decree of 28 February 1933 and the granting of absolute decree powers to Hitler via the Enabling Act of March 1933."
+    },
+    {
+     "step": 3,
+     "action": "Identify instruments of terror",
+     "explain": "Describe the deployment of the Gestapo, SS, SD, and regular police to crush communists, trade unions, and political opposition."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did the Reichstag Fire Decree of 1933 undermine basic democratic rights in Germany",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Trace political mobilization",
+     "explain": "Examine how the Great Depression transformed the Nazi Party from a minor group into the largest parliamentary party by 1932 through promises of economic renewal and national dignity."
+    },
+    {
+     "step": 2,
+     "action": "Detail legal destruction of democracy",
+     "explain": "Explain the suspension of civil rights via the Fire Decree of 28 February 1933 and the granting of absolute decree powers to Hitler via the Enabling Act of March 1933."
+    },
+    {
+     "step": 3,
+     "action": "Identify instruments of terror",
+     "explain": "Describe the deployment of the Gestapo, SS, SD, and regular police to crush communists, trade unions, and political opposition."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the economic recovery programme devised by Hjalmar Schacht",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine state-funded reconstruction",
+     "explain": "Highlight Schacht's creation of superhighways (Autobahn) and the Volkswagen project to achieve full production and employment."
+    },
+    {
+     "step": 2,
+     "action": "Review aggressive diplomatic moves",
+     "explain": "Detail the remilitarisation of the Rhineland (1936), annexation of Austria (1938), and annexation of Sudetenland and Czechoslovakia."
+    },
+    {
+     "step": 3,
+     "action": "Analyze wartime escalations and defeats",
+     "explain": "Trace the September 1939 invasion of Poland, the turning-point defeat at Stalingrad following the attack on the USSR, and US entry after Pearl Harbor."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "Trace the major foreign policy successes achieved by Hitler between 1933 and 1938",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine state-funded reconstruction",
+     "explain": "Highlight Schacht's creation of superhighways (Autobahn) and the Volkswagen project to achieve full production and employment."
+    },
+    {
+     "step": 2,
+     "action": "Review aggressive diplomatic moves",
+     "explain": "Detail the remilitarisation of the Rhineland (1936), annexation of Austria (1938), and annexation of Sudetenland and Czechoslovakia."
+    },
+    {
+     "step": 3,
+     "action": "Analyze wartime escalations and defeats",
+     "explain": "Trace the September 1939 invasion of Poland, the turning-point defeat at Stalingrad following the attack on the USSR, and US entry after Pearl Harbor."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "What were the core features of Hitler's racial worldview",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline the racial hierarchy",
+     "explain": "Explain the ranking of blond, blue-eyed Nordic Aryans at the top, intermediate categorisation of other groups, and Jews at the bottom as an anti-race."
+    },
+    {
+     "step": 2,
+     "action": "Examine ideological distortion of science",
+     "explain": "Show how Spencer's survival of the fittest was misused to claim that the strongest race must subjugate or eliminate weaker races."
+    },
+    {
+     "step": 3,
+     "action": "Explain the geopolitical drive of Lebensraum",
+     "explain": "Describe the policy of acquiring eastern territories for German resettlement and resource control."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did Nazi ideology distort the scientific ideas of Charles Darwin and Herbert Spencer",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline the racial hierarchy",
+     "explain": "Explain the ranking of blond, blue-eyed Nordic Aryans at the top, intermediate categorisation of other groups, and Jews at the bottom as an anti-race."
+    },
+    {
+     "step": 2,
+     "action": "Examine ideological distortion of science",
+     "explain": "Show how Spencer's survival of the fittest was misused to claim that the strongest race must subjugate or eliminate weaker races."
+    },
+    {
+     "step": 3,
+     "action": "Explain the geopolitical drive of Lebensraum",
+     "explain": "Describe the policy of acquiring eastern territories for German resettlement and resource control."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "Describe how occupied Poland was treated as a racial laboratory by the Nazis",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Stage 1: Exclusion (1933-1939)",
+     "explain": "Detail the Nuremberg Laws that stripped Jewish citizenship, banned intermarriage, boycotted businesses, and culminated in the Kristallnacht pogrom."
+    },
+    {
+     "step": 2,
+     "action": "Stage 2: Ghettoisation (1940-1944)",
+     "explain": "Describe the compulsion to wear the yellow Star of David, property confiscation, and forced confinement in overcrowded ghettos like Warsaw and Lodz."
+    },
+    {
+     "step": 3,
+     "action": "Stage 3: Annihilation (1941 onwards)",
+     "explain": "Examine the Final Solution involving mass deportation by railway cars and industrial gassing in death camps such as Auschwitz, Treblinka, and Belzec."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "How were schools purified and reorganized under the Nazi regime",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain school purification and curriculum overhaul",
+     "explain": "Detail the dismissal of Jewish and unreliable teachers, segregation of pupils, introduction of racial science, and antisemitic stereotypes across subjects."
+    },
+    {
+     "step": 2,
+     "action": "Describe mandatory youth organization stages",
+     "explain": "Track progression from Jungvolk at age 10 to Hitler Youth at age 14, followed by the Labour Service and Armed Forces at age 18."
+    },
+    {
+     "step": 3,
+     "action": "Highlight physical conditioning for war",
+     "explain": "Show how boxing and aggressive sports were used to nurture brutality and unquestioning loyalty to the state."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "What was the role of the Hitler Youth and Jungvolk in shaping German boys",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain school purification and curriculum overhaul",
+     "explain": "Detail the dismissal of Jewish and unreliable teachers, segregation of pupils, introduction of racial science, and antisemitic stereotypes across subjects."
+    },
+    {
+     "step": 2,
+     "action": "Describe mandatory youth organization stages",
+     "explain": "Track progression from Jungvolk at age 10 to Hitler Youth at age 14, followed by the Labour Service and Armed Forces at age 18."
+    },
+    {
+     "step": 3,
+     "action": "Highlight physical conditioning for war",
+     "explain": "Show how boxing and aggressive sports were used to nurture brutality and unquestioning loyalty to the state."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the Nazi concept of motherhood and how it differed from democratic notions of gender equality",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast democratic equality with Nazi gender doctrine",
+     "explain": "Explain the official rejection of equal rights and the division into distinct spheres: aggressive soldiers for men, pure mothers for women."
+    },
+    {
+     "step": 2,
+     "action": "Detail state incentives for childbearing",
+     "explain": "Account for concessions in hospitals, public transport, shops, and the award of the Honour Cross (bronze for 4, silver for 6, gold for 8 or more children)."
+    },
+    {
+     "step": 3,
+     "action": "Describe state repression of non-conforming women",
+     "explain": "Examine public humiliation, shaving of heads, blackening of faces, and imprisonment for women associating with Jews or Slavic people."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "What rewards and honours were given to German mothers who produced racially desirable children",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast democratic equality with Nazi gender doctrine",
+     "explain": "Explain the official rejection of equal rights and the division into distinct spheres: aggressive soldiers for men, pure mothers for women."
+    },
+    {
+     "step": 2,
+     "action": "Detail state incentives for childbearing",
+     "explain": "Account for concessions in hospitals, public transport, shops, and the award of the Honour Cross (bronze for 4, silver for 6, gold for 8 or more children)."
+    },
+    {
+     "step": 3,
+     "action": "Describe state repression of non-conforming women",
+     "explain": "Examine public humiliation, shaving of heads, blackening of faces, and imprisonment for women associating with Jews or Slavic people."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "How did the Nazi regime use deceptive language to conceal mass killings",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze official linguistic deception",
+     "explain": "Identify code words: 'special treatment' or 'final solution' for mass murder, 'euthanasia' for killing disabled persons, and 'evacuation' for deportation to death camps."
+    },
+    {
+     "step": 2,
+     "action": "Examine visual propaganda techniques",
+     "explain": "Show how films, radio broadcasts, and posters dehumanised targeted groups by depicting them as vermin or foreign conspirators."
+    },
+    {
+     "step": 3,
+     "action": "Demonstrate sectional political messaging",
+     "explain": "Illustrate how tailored leaflets presented National Socialism as the singular protector of farmers and workers against capitalism and Marxism."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the role of media and films like The Eternal Jew in spreading anti-Semitism",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze official linguistic deception",
+     "explain": "Identify code words: 'special treatment' or 'final solution' for mass murder, 'euthanasia' for killing disabled persons, and 'evacuation' for deportation to death camps."
+    },
+    {
+     "step": 2,
+     "action": "Examine visual propaganda techniques",
+     "explain": "Show how films, radio broadcasts, and posters dehumanised targeted groups by depicting them as vermin or foreign conspirators."
+    },
+    {
+     "step": 3,
+     "action": "Demonstrate sectional political messaging",
+     "explain": "Illustrate how tailored leaflets presented National Socialism as the singular protector of farmers and workers against capitalism and Marxism."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did common Germans react to Nazi rule and anti-Jewish persecution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Categorize societal reactions",
+     "explain": "Contrast true believers who adopted Nazi prejudice with the large majority who remained silent onlookers out of apathy or fear of terror."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate psychological impact and resistance",
+     "explain": "Discuss internalized terror recorded in dreams, instances of brave resistance, and international rescue efforts like the Danish evacuation of Jews."
+    },
+    {
+     "step": 3,
+     "action": "Assess Holocaust documentation and remembrance",
+     "explain": "Detail how victims hid diaries and documents in milk cans to ensure historical accountability despite Nazi attempts to burn evidence."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.303.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the message conveyed in Pastor Niemoeller's famous poem regarding civilian silence",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Categorize societal reactions",
+     "explain": "Contrast true believers who adopted Nazi prejudice with the large majority who remained silent onlookers out of apathy or fear of terror."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate psychological impact and resistance",
+     "explain": "Discuss internalized terror recorded in dreams, instances of brave resistance, and international rescue efforts like the Danish evacuation of Jews."
+    },
+    {
+     "step": 3,
+     "action": "Assess Holocaust documentation and remembrance",
+     "explain": "Detail how victims hid diaries and documents in milk cans to ensure historical accountability despite Nazi attempts to burn evidence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex303.1",
+   "source_ref": "iess303.txt line 74",
+   "questions": [
+    "Describe the problems faced by the Weimar Republic.",
+    "Discuss why Nazism became popular in Germany by 1930.",
+    "What are the peculiar features of Nazi thinking?",
+    "Explain why Nazi propaganda was effective in creating a hatred for Jews.",
+    "Explain what role women had in Nazi society. Return to Chapter 1 on the French Revolution. Write a paragraph comparing and contrasting the role of women in the two periods.",
+    "In what ways did the Nazi state seek to establish total control over its people?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

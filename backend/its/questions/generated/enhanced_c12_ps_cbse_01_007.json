@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_01_007",
+   "title": "c12_ps_cbse_01_007",
+   "questions": [
+    {
+     "q": "What was the immediate trigger for the outbreak of the Korean War on 25 June 1950?",
+     "a": "The immediate trigger was the invasion of South Korea by North Korean forces across the 38th parallel on 25 June 1950. A wrong answer (e.g., \"US invasion of North Korea\" or \"Chinese attack on US bases\") reveals confusion about which side initiated the conflict and misattributes agency to the superpowers rather than the local actors who started the fighting.",
+     "self_check": true
+    },
+    {
+     "q": "Why was the United Nations able to authorize military intervention in Korea despite the Soviet Union being a permanent Security Council member with veto power?",
+     "a": "The USSR was boycotting the Security Council in protest over the refusal to seat Communist China (PRC) instead of Nationalist China (ROC), so it was absent during the vote on Resolution 83 (27 June 1950) and could not exercise its veto. A wrong answer (e.g., \"USSR supported the resolution\" or \"UN General Assembly overrode the veto\") shows misunderstanding of the procedural accident that enabled UN action and the critical role of great-power presence in collective security.",
+     "self_check": true
+    },
+    {
+     "q": "If a similar proxy conflict occurred today in a divided country where one side is backed by a nuclear-armed great power, which UN body would authorize force and what procedural hurdle might prevent it?",
+     "a": "The UN Security Council would authorize force under Chapter VII, but any of the five permanent members (US, Russia, China, UK, France) could veto the resolution, unlike in 1950 when the USSR was absent. A wrong answer (e.g., \"UN General Assembly decides\" or \"Secretary-General orders intervention\") reveals ignorance of the Security Council's exclusive authority on enforcement actions and the veto's paralyzing effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Korean War and the Cuban Missile Crisis (1962) in terms of direct superpower confrontation risk. Which event brought the world closer to nuclear war and why?",
+     "a": "The Cuban Missile Crisis brought the world closer to nuclear war because it involved direct US–USSR naval confrontation and strategic nuclear missiles placed 90 miles from the US, whereas in Korea, Soviet pilots flew covertly (deniability) and no nuclear threats were exchanged at the leadership level. A wrong answer (e.g., \"Korea was closer because more troops fought\") confuses scale of conventional fighting with nuclear escalation risk and misses the distinction between proxy and direct confrontation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Korean War was a success for the US policy of containment.\" Provide two arguments for and two against.",
+     "a": "**For:** (1) Communism was contained south of the 38th parallel; (2) US alliances in Asia (US-Japan, ANZUS, SEATO) were strengthened. **Against:** (1) The war ended in stalemate, not rollback; (2) It militarized containment, leading to massive defense spending and entanglement in Vietnam. A wrong answer that only lists \"success\" or \"failure\" without nuanced criteria shows inability to evaluate policy outcomes against stated objectives.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph UN Security Council resolution (operative clauses only) that could have ended the Korean War in 1951, incorporating a ceasefire, withdrawal to the 38th parallel, and a political conference.",
+     "a": "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2. Establishes a Military Armistice Commission to supervise the ceasefire; 3. Convenes a political conference of concerned parties within 90 days to negotiate a peaceful settlement; 4. Requests the Secretary-General to report on implementation.\" A poor answer omits enforcement mechanisms, ignores the 38th parallel baseline, or assigns roles to the General Assembly instead of the Security Council.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

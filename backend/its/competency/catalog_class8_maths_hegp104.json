@@ -1,0 +1,289 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Quadrilaterals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.104.4.1",
+   "title": "Rectangle and Its Diagonals",
+   "section": "4.1",
+   "definition": "A rectangle is a quadrilateral whose angles are all right angles and whose opposite sides are equal; equivalently, its two diagonals must be of equal length, must cut each other at their midpoints, and can cross at any angle - which is exactly what the carpenter must arrange with her two strips.",
+   "formula": "rectangle: all angles 90 degrees, opposite sides equal, diagonals equal and bisecting",
+   "key_idea": "Equal strips joined at their midpoints with endpoints threaded into a four-sided frame force a rectangle.",
+   "textbook_ref": "hegp104.txt lines 15-60 (definition, carpenter problem), 60-120 (diagonal conditions)",
+   "question_patterns": [
+    "what length should the second strip have so the frame is a rectangle when the first is 8 cm",
+    "state the conditions the diagonals must satisfy for a quadrilateral to be a rectangle",
+    "where should the two strips be joined to form a rectangle",
+    "does the angle between the diagonals decide whether the figure is a rectangle - justify",
+    "define a rectangle using its sides and angles",
+    "check whether a quadrilateral with equal bisecting diagonals is always a rectangle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the angle condition",
+     "explain": "All four angles must be right angles for the figure to qualify as a rectangle."},
+    {"step": 2, "action": "check the side condition",
+     "explain": "Opposite sides must be equal in length."},
+    {"step": 3, "action": "check the diagonals",
+     "explain": "The diagonals must be equal and must bisect each other; the carpenter satisfies this by taking equal strips joined at their midpoints."}
+   ]
+  },
+  {
+   "id": "hegp.104.4.2",
+   "title": "Angle Sum of a Quadrilateral",
+   "section": "4.2",
+   "definition": "Drawing one diagonal splits any quadrilateral into two triangles, and since each triangle contributes 180 degrees, the four angles of every quadrilateral total 360 degrees; this is why three right angles force the fourth to be a right angle too.",
+   "formula": "fourth_angle = 360 - angle_a - angle_b - angle_c",
+   "key_idea": "Two triangles glued along a diagonal hand over 180 + 180 = 360 degrees.",
+   "textbook_ref": "hegp104.txt lines 643-686 (angles in a quadrilateral)",
+   "question_patterns": [
+    "find the fourth angle of a quadrilateral when the other three are 90, 80 and 100 degrees",
+    "what is the sum of all angles of a quadrilateral - justify with a diagonal",
+    "can a quadrilateral have exactly three right angles - explain",
+    "three angles of a quadrilateral are 30, 110 and 75 degrees - calculate the remaining angle",
+    "why does the angle sum of a quadrilateral equal twice the triangle angle sum",
+    "calculate the missing angle of a quadrilateral with angles 65, 115 and 90 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the three known angles",
+     "explain": "Sum the given angles of the quadrilateral.",
+     "compute": "known_sum = angle_a + angle_b + angle_c"},
+    {"step": 2, "action": "subtract from 360",
+     "explain": "The full angle sum is 360 degrees, so the fourth angle is what remains.",
+     "compute": "fourth_angle = 360 - known_sum"}
+   ]
+  },
+  {
+   "id": "hegp.104.4.3",
+   "title": "Parallelogram",
+   "section": "4.3",
+   "definition": "A parallelogram is a quadrilateral whose opposite sides are parallel; it arises by drawing two pairs of parallel lines that do not meet at right angles, and rectangles are the special parallelograms with right angles.",
+   "formula": "parallelogram: opposite sides parallel and equal, opposite angles equal",
+   "key_idea": "Parallel opposite sides are the defining feature; right angles upgrade it to a rectangle.",
+   "textbook_ref": "hegp104.txt lines 689-740 (more quadrilaterals with parallel opposite sides)",
+   "question_patterns": [
+    "define a parallelogram and say how it differs from a rectangle",
+    "construct a parallelogram that is not a rectangle - describe the steps",
+    "what relation do the opposite angles of a parallelogram have",
+    "is every rectangle a parallelogram - justify",
+    "are the opposite sides of a parallelogram equal - explain why",
+    "how many pairs of parallel lines are needed to build a parallelogram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the two parallel pairs",
+     "explain": "Mark the opposite sides and confirm each pair runs parallel."},
+    {"step": 2, "action": "compare with the rectangle case",
+     "explain": "If the crossing is not at right angles the figure is a parallelogram but not a rectangle."},
+    {"step": 3, "action": "note the inherited properties",
+     "explain": "Opposite sides are equal and opposite angles are equal in every parallelogram."}
+   ]
+  },
+  {
+   "id": "hegp.104.4.4",
+   "title": "Rhombus and Its Angles",
+   "section": "4.4",
+   "definition": "A quadrilateral with all four sides of the same length is a rhombus; a diagonal of a rhombus makes four equal angles, and opposite angles of the rhombus are equal - for instance a rhombus built with one angle of 50 degrees has angles 50, 130, 50 and 130.",
+   "formula": "half_angle = (180 - given_angle) / 2",
+   "key_idea": "Equal sides force equal diagonal angles, and the diagonal splits the vertex angle into equal halves.",
+   "textbook_ref": "hegp104.txt lines 893-990 (equal sidelengths, rhombus GAME deduction, 50 degree example)",
+   "question_patterns": [
+    "find all angles of a rhombus in which one angle is 50 degrees",
+    "what is a rhombus - define it",
+    "why does a diagonal of a rhombus make four equal angles",
+    "show that opposite angles of a rhombus are equal",
+    "in rhombus GAME why are angles a, b, c and d all equal",
+    "calculate the angle a in triangle ADB when the rhombus angle is 50 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "use the triangle angle sum with equal base angles",
+     "explain": "In the triangle formed by a side and the diagonal, the two angles beside the diagonal are equal, say each equals a.",
+     "compute": "base_half = (180 - given_angle) / 2"}
+   ]
+  },
+  {
+   "id": "hegp.104.4.5",
+   "title": "Kite",
+   "section": "4.6",
+   "definition": "A kite is a quadrilateral whose adjacent side pairs are equal, labellable as AB = BC and CD = DA; its diagonal joining the unequal-vertex pair bisects the two angles it meets and also bisects the other diagonal perpendicularly, which follows from triangle congruences.",
+   "formula": "kite: AB = BC and CD = DA (adjacent equal pairs)",
+   "key_idea": "Two congruent triangles glued along a shared side give the kite its symmetric diagonal behaviour.",
+   "textbook_ref": "hegp104.txt lines 1167-1215 (kite definition and Property 1)",
+   "question_patterns": [
+    "define a kite as a quadrilateral with equal adjacent sides",
+    "show that diagonal BD bisects angle ABC in the kite",
+    "why is AO equal to OC and perpendicular to BD in a kite",
+    "join two triangles of sides 6, 9 and 12 cm to form a kite - describe the arrangement",
+    "which congruence proves the kite's diagonal property",
+    "state the two diagonal properties of a kite"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the equal adjacent pairs",
+     "explain": "Check AB = BC and CD = DA to confirm the figure is a kite."},
+    {"step": 2, "action": "use triangle congruence on the halves",
+     "explain": "Triangles AOB and COB are congruent, giving AO = OC and the right angle at O."},
+    {"step": 3, "action": "read off the angle bisects",
+     "explain": "The same congruence shows the shared diagonal bisects the angles at B and D."}
+   ]
+  },
+  {
+   "id": "hegp.104.4.6",
+   "title": "Trapezium and Co-interior Angles",
+   "section": "4.6",
+   "definition": "A trapezium is a quadrilateral with at least one pair of parallel opposite sides; angles on the same leg between the parallels add to 180 degrees, and when the non-parallel sides are equal the figure is an isosceles trapezium whose base angles match.",
+   "formula": "co_angle = 180 - given_angle",
+   "key_idea": "Parallel sides force the two angles along each leg to be supplementary.",
+   "textbook_ref": "hegp104.txt lines 1216-1270 (trapezium, Property 1, isosceles trapezium)",
+   "question_patterns": [
+    "in trapezium PQRS with PQ parallel SR, find angle S when angle P is 75 degrees",
+    "what is a trapezium - define it",
+    "find the remaining angles of a trapezium when one base angle is given",
+    "what makes a trapezium isosceles",
+    "why do angles S and P of trapezium PQRS add to 180 degrees",
+    "are the base angles of an isosceles trapezium equal - justify with congruent triangles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "identify the supplementary pair",
+     "explain": "The two angles on one leg between the parallel sides are co-interior.",
+     "compute": "co_angle = 180 - given_angle"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp104.txt lines 655-686, three right angles discussion",
+   "concept": "hegp.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "Three angles of a quadrilateral are {angle_a}, {angle_b} and {angle_c} degrees. Find the fourth angle.",
+   "extracted_variables": {
+    "angle_a": "first given angle in degrees",
+    "angle_b": "second given angle in degrees",
+    "angle_c": "third given angle in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the three known angles",
+     "explain": "Sum the three given angles.",
+     "compute": "known_sum = angle_a + angle_b + angle_c"},
+    {"step": 2, "action": "subtract from 360",
+     "explain": "The quadrilateral angle sum is 360 degrees.",
+     "compute": "fourth_angle = 360 - known_sum"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp104.txt lines 666-670, angles 30 and 110 figure",
+   "concept": "hegp.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "In quadrilateral SOME the angles at S, O and M are {angle_a}, {angle_b} and {angle_c} degrees. Calculate the angle at E.",
+   "extracted_variables": {
+    "angle_a": "angle at S in degrees",
+    "angle_b": "angle at O in degrees",
+    "angle_c": "angle at M in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the three known angles",
+     "explain": "Total the three given vertex angles.",
+     "compute": "known_sum = angle_a + angle_b + angle_c"},
+    {"step": 2, "action": "subtract from 360",
+     "explain": "The remaining angle completes the 360 degree sum.",
+     "compute": "fourth_angle = 360 - known_sum"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp104.txt lines 975-990, rhombus with 50 degree angle",
+   "concept": "hegp.104.4.4",
+   "question_type": "compute",
+   "question_pattern": "In rhombus ABCD one angle is {given_angle} degrees and angle a in triangle ADB is unknown. Find the equal angles a.",
+   "extracted_variables": {
+    "given_angle": "one angle of the rhombus in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the triangle angle sum",
+     "explain": "In triangle ADB the two equal angles a plus the rhombus angle make 180 degrees.",
+     "compute": "base_half = (180 - given_angle) / 2"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp104.txt lines 990-1000, rhombus angles 50 and 130",
+   "concept": "hegp.104.4.4",
+   "question_type": "compute",
+   "question_pattern": "A rhombus is constructed with angle {given_angle} degrees. Compute the angle that pairs with it in the triangle to check the opposite angle value.",
+   "extracted_variables": {
+    "given_angle": "a rhombus angle in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the triangle angle sum",
+     "explain": "Equal base angles plus the given angle fill the triangle's 180 degrees.",
+     "compute": "base_half = (180 - given_angle) / 2"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp104.txt lines 1220-1240, PQ parallel SR angles",
+   "concept": "hegp.104.4.6",
+   "question_type": "compute",
+   "question_pattern": "In trapezium PQRS with PQ parallel SR, angle P is {given_angle} degrees. Find angle S.",
+   "extracted_variables": {
+    "given_angle": "given base angle in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "use the supplementary rule",
+     "explain": "Angles S and P sit between parallels on one leg, so they add to 180 degrees.",
+     "compute": "co_angle = 180 - given_angle"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp104.txt lines 1240-1250, remaining angles without measuring",
+   "concept": "hegp.104.4.6",
+   "question_type": "compute",
+   "question_pattern": "One angle of a trapezium is {given_angle} degrees. Calculate its co-interior partner angle.",
+   "extracted_variables": {
+    "given_angle": "known angle in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "use the supplementary rule",
+     "explain": "Co-interior angles between parallel sides sum to 180 degrees.",
+     "compute": "co_angle = 180 - given_angle"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hegp104.txt lines 49-60 (carpenter problem)",
+   "questions": [
+    "A carpenter has one 8 cm strip. What should be the length of the other strip and where should they be joined so the thread frame is a rectangle?",
+    "What angle between the diagonals still gives a rectangle?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hegp104.txt lines 643-686",
+   "questions": [
+    "Is it possible to construct a quadrilateral with three angles equal to 90 degrees and the fourth not 90 degrees? Why?",
+    "Use a diagonal to show that the sum of the angles of quadrilateral SOME is 360 degrees."
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "hegp104.txt lines 1167-1270",
+   "questions": [
+    "In the kite ABCD show that diagonal BD bisects angles ABC and ADC and is perpendicular to AC.",
+    "Construct an isosceles trapezium UVWX with UV parallel XW and find the remaining angles from angle U.",
+    "State the co-interior angle property for the trapezium PQRS."
+   ]
+  }
+ ]
+}

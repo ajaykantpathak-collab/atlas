@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_009",
+   "title": "c12_acc_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the three statutory conditions under Section 68(2) of the Companies Act, 2013 that a company must satisfy before making a buyback of its shares.",
+     "a": "The three conditions are: (1) Buyback must be authorised by the Articles of Association; (2) A special resolution is required in general meeting if buyback exceeds 10% of paid-up capital and free reserves (board resolution suffices up to 10%); (3) The buyback must not exceed 25% of the aggregate of paid-up capital and free reserves as per the latest audited balance sheet. A wrong answer typically misses the 25% ceiling or confuses the 10% threshold for board vs special resolution — this reveals the student has memorised \"special resolution needed\" without understanding the quantitative trigger.",
+     "self_check": true
+    },
+    {
+     "q": "A company has paid-up equity capital of ₹10 crore (₹10 face value) and free reserves of ₹40 crore. It proposes to buy back shares at ₹50 per share. Explain why the buyback price (market premium) does NOT affect the 25% limit calculation, and compute the maximum number of shares that can be bought back.",
+     "a": "The 25% limit under Section 68(2)(c) applies to the nominal value of shares bought back, not the buyback consideration. Maximum nominal value = 25% of (₹10 cr + ₹40 cr) = ₹12.5 crore. At ₹10 face value, maximum shares = 1.25 crore. The buyback price of ₹50 determines cash outflow (₹62.5 cr) but not the share-count ceiling. A student who uses ₹50 in the denominator (₹12.5 cr / ₹50 = 25 lakh shares) confuses \"paid-up capital\" with \"buyback consideration\" — this reveals a fundamental misunderstanding of what the statute limits.",
+     "self_check": true
+    },
+    {
+     "q": "TechNova Ltd. has: Equity Share Capital ₹20 cr (₹10 face value), Securities Premium ₹5 cr, General Reserve ₹15 cr, Profit & Loss ₹10 cr. It buys back 20 lakh shares at ₹30 per share using free reserves. Pass the journal entries for (a) buyback, (b) transfer to Capital Redemption Reserve.",
+     "a": "(a) Equity Share Capital A/c Dr. 2,00,00,000  \n&nbsp;&nbsp;&nbsp;&nbsp;Securities Premium A/c Dr. 1,00,00,000  \n&nbsp;&nbsp;&nbsp;&nbsp;General Reserve A/c Dr. 3,00,00,000  \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c 6,00,00,000  \n(Being 20 lakh shares bought back at ₹30: ₹10 capital + ₹20 premium; premium first charged to Securities Premium ₹5 cr, balance ₹15 cr to General Reserve)  \n(b) General Reserve A/c Dr. 2,00,00,000  \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To Capital Redemption Reserve A/c 2,00,00,000  \n(Being nominal value of bought-back shares transferred to CRR)  \nA student who debits \"Loss on Buyback\" or credits \"Profit on Buyback\" treats buyback as a revenue transaction — this reveals confusion with debenture redemption where premium on redemption is a loss. Buyback never touches Statement of Profit and Loss.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment when buyback is funded from: (i) free reserves, (ii) proceeds of fresh issue of shares. Why does Capital Redemption Reserve arise only in case (i)?",
+     "a": "(i) Free reserves: Nominal value of shares bought back is transferred from free reserves to CRR (CRR created).  \n(ii) Fresh issue: Proceeds of new shares directly replace the cancelled capital; no transfer to CRR needed because the capital base is maintained externally.  \nCRR arises only when internal reserves are used because Section 69 requires the company to maintain its capital intact — the nominal value \"locked\" in CRR cannot be distributed as dividend. A student who creates CRR in both cases fails to grasp that CRR is a substitute for the cancelled capital when no fresh capital comes in — this reveals a mechanical application without understanding the capital maintenance principle.",
+     "self_check": true
+    },
+    {
+     "q": "A listed company proposes to buy back 15% of its paid-up capital via open market route. The CFO argues: \"Since it's only 15%, we only need a board resolution — special resolution is for >25%.\" Evaluate this statement with reference to Section 68 and SEBI regulations.",
+     "a": "The CFO is wrong on two counts: (1) Section 68(2)(b) requires special resolution if buyback exceeds 10% of paid-up capital AND free reserves — not 25%. At 15% of paid-up capital alone, the threshold is almost certainly crossed. (2) For listed companies, SEBI (Buyback) Regulations, 2018 mandate a special resolution regardless of size for open market buyback. The student who cites only the 25% limit (which is the absolute ceiling) confuses the \"authorisation threshold\" (10%) with the \"maximum limit\" (25%) — this reveals a common conflation of two distinct statutory numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a buyback scenario where a company uses BOTH free reserves and fresh issue proceeds. Specify the capital structure, buyback size, and fresh issue details. Then write the combined journal entries showing how CRR is created only for the portion funded by free reserves.",
+     "a": "Scenario: Equity Capital ₹30 cr (₹10 FV), Free Reserves ₹20 cr. Buyback 1 cr shares at ₹25 (₹25 cr total). Funded: ₹15 cr from fresh issue of 60 lakh new shares at ₹25, ₹10 cr from General Reserve.  \nEntries:  \n1. Bank Dr. 15,00,00,000 → Share Capital Dr. 6,00,00,000, Securities Premium Dr. 9,00,00,000 (fresh issue)  \n2. Equity Share Capital Dr. 10,00,00,000, Securities Premium Dr. 5,00,00,000, General Reserve Dr. 10,00,00,000 → Bank 25,00,00,000 (buyback)  \n3. General Reserve Dr. 10,00,00,000 → Capital Redemption Reserve 10,00,00,000 (only ₹10 cr nominal value from reserves)  \nA poor answer creates CRR for the full ₹10 cr buyback nominal value (₹1 cr × ₹10) ignoring that ₹6 cr was replaced by fresh issue — this reveals the student cannot isolate the \"internal funding\" portion requiring capital maintenance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

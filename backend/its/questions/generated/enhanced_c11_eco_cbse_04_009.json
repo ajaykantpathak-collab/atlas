@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_009",
+   "title": "c11_eco_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the two ways in which government expenditure on education is expressed as per the NCERT textbook, and give the latest available figures (2020) for each.",
+     "a": "The two expressions are: (i) education expenditure as a percentage of total government expenditure (16.54% in 2020), and (ii) education expenditure as a percentage of GDP (4.47% in 2020). A wrong answer (e.g., quoting only one measure or using outdated figures) reveals the student cannot distinguish between the *priority* signal (% of total expenditure) and the *resource commitment* signal (% of GDP), both essential for assessing fiscal seriousness.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Education Commission (1964-66) recommended 6% of GDP for education, and why the current level of \"a little over 4%\" is considered inadequate despite absolute spending rising.",
+     "a": "The 6% benchmark was estimated as the minimum needed to achieve a \"noticeable rate of growth in educational achievements\" (universalisation, quality). The current ~4.47% falls short because GDP grew faster than education allocations, so the *share* of national income devoted to education remains insufficient to close infrastructure gaps, hire qualified teachers, and reduce inter-state disparities. A student who says \"spending increased so it's adequate\" confuses nominal growth with adequacy relative to need and GDP growth.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 4.2 data, calculate the percentage point increase in female youth literacy rate (ages 15-24) between 1990 and 2017-18, and interpret what this implies about gender equity progress.",
+     "a": "Female youth literacy rose from 54.2% (1990) to 90% (2017-18), a 35.8 percentage point increase. This rapid narrowing (male youth literacy rose from 76.6% to 93%, only 16.4 pp) shows strong gender equity progress in the younger cohort, but the persistent 3 pp gap and low adult female literacy (66%) indicate historical deficits remain. A wrong calculation (e.g., using male data or wrong years) or missing the \"cohort vs. stock\" distinction reveals inability to handle demographic data nuances.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why unemployment rates are higher among educated youth (graduates) than among those with only primary education, using the NSSO 2011-12 data cited in the textbook (rural male graduates 19%, rural female graduates 30%, primary-educated 3-6%).",
+     "a": "Higher educated unemployment reflects a structural mismatch: the economy creates insufficient quality jobs matching graduate skills (skill mismatch), while primary-educated workers accept low-productivity informal work (disguised unemployment). Graduates have reservation wages and job search duration (frictional unemployment), whereas primary-educated cannot afford unemployment. A student blaming \"laziness of graduates\" or \"too much education\" misses the demand-side failure and the distinction between open and disguised unemployment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Right to Education Act 2009 and the 2% education cess have successfully solved the problem of inadequate education funding in India.\"",
+     "a": "The statement is false. While RTE made education a fundamental right (ages 6-14) and the cess earmarked revenue for elementary education, the combined expenditure remains below the 6% GDP target (at 4.47%), per-student spending disparities persist (Bihar vs. Sikkim), and quality deficits (teacher vacancies, infrastructure) remain. The policies addressed *access* and *earmarking* but not the *adequacy* or *equity* of overall financing. A student agreeing with the statement confuses legal entitlement and revenue earmarking with sufficient fiscal space and effective utilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a brief policy brief (4-5 bullet points) for a state finance minister arguing why increasing per-student expenditure in elementary education should be prioritized over expanding higher education seats, using the textbook's argument about teacher supply and inter-state equity.",
+     "a": "A strong brief would include: (1) Elementary education takes the major share of total expenditure but per-student spending is lowest there. (2) Expanding school enrolment requires more trained teachers, who are produced by higher education — so both levels need funding, not substitution. (3) Inter-state disparity (₹10,710 in Bihar vs ₹96,968 in Sikkim) violates equity and undermines national human capital. (4) Low elementary spending yields high dropout → child labour → permanent human capital loss (Fig 4.6). (5) Quality at foundation determines later productivity; weak base makes higher education spending inefficient. A poor answer focuses only on \"more schools\" without linking teacher pipeline, equity, or the dropout-child labour nexus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

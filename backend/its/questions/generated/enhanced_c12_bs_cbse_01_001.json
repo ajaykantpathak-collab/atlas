@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_001",
+   "title": "c12_bs_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define management as per Harold Koontz and Heinz Weihrich. How does their definition differ from the layperson's understanding of management as \"bossing people around\"?",
+     "a": "Koontz and Weihrich define management as \"the process of designing and maintaining an environment in which individuals, working together in groups, efficiently accomplish selected aims.\" The layperson's view misses three critical elements: (1) it is a *process* (systematic functions), not a one-time act; (2) it creates an *enabling environment*, not just giving orders; (3) it emphasises *group accomplishment* and *efficiency*, not mere compliance. A wrong answer reveals the student equates management with authority rather than a structured, collaborative process.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager achieves the annual production target of 10,000 units but uses 20% more raw material and 30% more labour hours than the industry standard. Is this manager effective? Efficient? Both? Neither? Justify using the exact NCERT distinction.",
+     "a": "The manager is **effective but not efficient**. Effectiveness = achieving goals (target met). Efficiency = minimum resource use for given output (exceeded standards). NCERT states: \"Effectiveness is concerned with doing the right task, completing activities and achieving goals... Efficiency means doing the task correctly and with minimum cost.\" A student who says \"both\" confuses goal attainment with resource optimisation; one who says \"neither\" misunderstands that effectiveness was achieved.",
+     "self_check": true
+    },
+    {
+     "q": "Smita at Namchi Designer Candles plans a Diwali collection, organises funds and workers, communicates with suppliers, and takes customer feedback — all in one day. Which characteristic of management does this illustrate? Explain why this characteristic is essential for a small enterprise.",
+     "a": "This illustrates **management is a continuous process** — \"a series of continuous, composite, but separate functions (planning, organising, directing, staffing and controlling) performed by all managers all the time.\" In a small enterprise, the owner-manager cannot compartmentalise functions; they overlap daily. A wrong answer (e.g., \"multidimensional\" or \"group activity\") shows the student cannot map observed behaviours to the correct characteristic definition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"management of work,\" \"management of people,\" and \"management of operations\" dimensions using a hospital as an example. Why must all three be balanced — what happens if a hospital excels in two but neglects the third?",
+     "a": "- **Management of work**: Defining goals (patient care targets), decisions (treatment protocols), plans (shift schedules), budgets (medicine procurement).\n- **Management of people**: Dealing with doctors/nurses as individuals (shifts, burnout) and as teams (OT coordination, emergency response).\n- **Management of operations**: Transforming inputs (medicines, equipment, patients) into outputs (treated patients) via processes (diagnosis → treatment → discharge).\nIf a hospital excels in work + people but neglects operations → modern equipment but chaotic patient flow → long waits, errors. If work + operations but neglect people → efficient processes but demotivated staff → high attrition, negligence. If people + operations but neglect work → happy staff, smooth flow but no clear goals → wasted effort. A partial answer reveals inability to see interdependence.",
+     "self_check": true
+    },
+    {
+     "q": "\"Management is an intangible force.\" Evaluate this statement: Can something intangible be measured? If yes, how do we *know* management exists in an organisation? Give three observable indicators from the NCERT text.",
+     "a": "Yes, intangible forces are measured by their *effects*. NCERT lists three indicators: (1) targets are met according to plans, (2) employees are happy and satisfied, (3) there is orderliness instead of chaos. These are observable outcomes. A student who says \"management cannot be measured\" confuses *direct visibility* with *measurability of impact*. A student who gives only financial indicators (profit, revenue) misses the human and process dimensions NCERT explicitly highlights.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example (not from the textbook) of an organisation where management is **all-pervasive** but **how it is done differs due to culture**. Describe the organisation, the universal management activities, and the cultural difference in execution.",
+     "a": "Example: A **wedding planning agency** in Kerala vs. Rajasthan. Universal activities: planning (timeline, budget), organising (vendors, venues), staffing (decorators, caterers), directing (coordinating on the day), controlling (checking quality, costs). Cultural difference: In Kerala, client meetings are formal, decisions hierarchical (elders decide); in Rajasthan, decisions involve extended family, negotiations are relationship-based, ceremonies dictate timeline rigidly. A poor answer copies the textbook's \"petrol pump/hospital/school\" example or states cultural differences vaguely (\"different styles\") without linking to specific management functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

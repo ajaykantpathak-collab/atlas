@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_2",
+   "title": "c8_bio_ch1_2",
+   "questions": [
+    {
+     "q": "Which part of a compound microscope is closest to the specimen being observed on the glass slide?",
+     "a": "The objective lens is closest to the specimen. A student who answers \"eyepiece\" or \"ocular lens\" is confusing the two main lens systems and does not understand the light path from the bottom of the microscope up to the observer's eye.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we need to stain transparent cells with a dye like iodine or methylene blue before viewing them under a compound microscope?",
+     "a": "Staining adds contrast to transparent or colorless cellular structures, making internal components like the nucleus and cell wall visible against a bright background. A student who answers that \"stain makes the cells bigger\" confuses magnification with contrast and staining.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses a 10X eyepiece and a 40X objective lens to view an onion peel cell. What is the total magnification of the microscope setup?",
+     "a": "The total magnification is 400X, calculated by multiplying the eyepiece magnification (10X) by the objective lens magnification (40X). A student who answers 50X has incorrectly added the lens values instead of multiplying their magnifying powers.",
+     "self_check": true
+    },
+    {
+     "q": "How does the image of a letter 'e' placed on a microscope slide appear when viewed through a standard compound microscope compared to how it looks on the stage?",
+     "a": "The image appears inverted (upside down and flipped backwards) because the lenses bend and cross the light rays passing through the specimen. A student who believes the image appears in its normal upright orientation fails to understand how optical lenses invert images during magnification.",
+     "self_check": true
+    },
+    {
+     "q": "A laboratory group in Delhi complains that their microscope field of view is completely dark even though the lamp is turned on. What is the most likely structural cause to evaluate?",
+     "a": "The diaphragm or mirror alignment is likely closed or misaligned, blocking light from passing through the stage aperture and up into the objective lens. A student who suggests changing the objective lens does not understand that illumination relies on the independent light path controlled by the diaphragm.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick classroom procedure to estimate the actual size of a microscopic filamentous alga using a transparent millimeter ruler on the microscope stage.",
+     "a": "A good response involves placing a transparent ruler on the stage under low power, counting how many millimeter divisions fit across the circular field of view to find its diameter, and then estimating the organism's size relative to that diameter. A poor response simply states \"measure it directly with a regular plastic ruler,\" ignoring the scale difference and optical inversion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

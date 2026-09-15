@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_6",
+   "title": "c9_eco_ch1_6",
+   "questions": [
+    {
+     "q": "Define \"For Whom to Produce\" in one sentence and state what determines the answer in a pure market economy.",
+     "a": "Correct: \"For Whom to Produce\" is the problem of allocating final goods among people; in a pure market economy, distribution is determined by purchasing power derived from factor ownership. A wrong answer like \"the government decides who gets goods\" reveals confusion between market and planned economies; \"goods go to those who need them most\" confuses normative desire with positive market mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two families in the same village — one owning 2 hectares of fertile land, the other only their labour — end up with very different bundles of goods in a market economy, even if both work equally hard.",
+     "a": "Correct: The land-owning family earns rent (factor payment for land) plus wages, giving higher income and purchasing power; the landless family earns only wages. Since market distribution follows purchasing power, not effort, the land-owning family commands more goods. A wrong answer focusing on \"hard work\" or \"fairness\" shows the misconception that market rewards effort directly, ignoring factor ownership and marginal productivity.",
+     "self_check": true
+    },
+    {
+     "q": "In a simplified economy, total output is 1,000 units of grain. Factor payments are: Rent = ₹20,000, Wages = ₹50,000, Interest = ₹10,000, Profit = ₹20,000. Price of grain = ₹100/unit. Calculate how many units each factor-owner group can buy if they spend all income on grain. Show steps.",
+     "a": "Step 1: Total income = 20,000 + 50,000 + 10,000 + 20,000 = ₹1,00,000. Step 2: Total output value = 1,000 × 100 = ₹1,00,000 (income = output value). Step 3: Landlords' share = 20,000/100 = 200 units. Workers' share = 50,000/100 = 500 units. Capitalists' share = 10,000/100 = 100 units. Entrepreneurs' share = 20,000/100 = 200 units. Step 4: Check sum = 200+500+100+200 = 1,000 units. A wrong calculation (e.g., dividing output equally) reveals failure to link factor payments to purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distribution outcome in two scenarios: (A) Market economy with no government intervention. (B) Same economy but government taxes ₹15,000 from profit and rent (proportionally) and distributes as free grain to workers. Analyse how the consumption bundles change for each group and state the equity-efficiency trade-off.",
+     "a": "Scenario A: Landlords 200, Workers 500, Capitalists 100, Entrepreneurs 200 units. Scenario B: Tax = ₹15,000 → 150 units grain. Proportional tax: Rent 20k/30k = 2/3 → 100 units from landlords, 50 units from entrepreneurs. Workers receive 150 free units. New bundles: Landlords 100, Workers 650, Capitalists 100, Entrepreneurs 150. Equity improves (workers gain), but efficiency may fall if high taxes reduce incentive to supply land/entrepreneurship. A wrong answer ignoring incentive effects misses the trade-off central to board-level analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's Public Distribution System (PDS) solves the 'For Whom' problem by ensuring food reaches the poor, so market distribution is no longer relevant.\" Use the concepts of targeting errors (exclusion/inclusion) and fiscal cost.",
+     "a": "The statement is partially true but overstated. PDS improves equity by redistributing grain to poor households, directly addressing market failure where low purchasing power excludes them. However, targeting errors (e.g., 20% exclusion of eligible, 15% inclusion of non-poor per NSSO data) mean some poor still rely on market. Fiscal cost (₹2 lakh crore+ annually) implies higher taxes or deficit, affecting other factor incomes. Market distribution remains dominant for non-PDS goods (clothing, housing, education). A wrong answer calling PDS a complete solution ignores leakages, fiscal constraints, and the continued role of markets for most goods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple redistribution scheme for a village economy of 100 families: 20 landless (income ₹60,000/yr), 50 small farmers (₹1,20,000/yr), 30 large farmers (₹5,00,000/yr). Propose a lump-sum tax on large farmers to give each landless family a ₹12,000/yr cash transfer. Calculate required tax per large farmer, total fiscal cost, and one potential disincentive effect.",
+     "a": "Total transfer needed = 20 × 12,000 = ₹2,40,000. Tax per large farmer = 2,40,000 / 30 = ₹8,000/yr. Fiscal cost = ₹2.4 lakh. Disincentive: Large farmers may reduce land cultivation or shift to less productive but tax-evading activities, lowering overall output. A poor answer proposing tax on \"income\" without lump-sum assumption misses the distortionary effect; ignoring the output effect shows lack of efficiency analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

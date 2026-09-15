@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class10_social_ch19",
+ "concepts": [
+  {
+   "id": "c10ss.19.1",
+   "title": "Primary, Secondary and Tertiary Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Primary, Secondary and Tertiary Sectors' refers to.",
+     "a": "The primary sector includes activities that use natural resources directly, such as agriculture, fishing, mining and forestry; the secondary sector covers activities that transform raw materials into finished goods, such as manufacturing and construction; and the tertiary sector provides services that support the primary and secondary sectors, such as transport, banking and education.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary, Secondary and Tertiary Sectors'.",
+     "a": "The three sectors are linked by a chain of dependence -- the primary sector supplies raw materials, the secondary sector processes them into goods, and the tertiary sector provides the services needed to run both.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Primary, Secondary and Tertiary Sectors' taught, and from which source text?",
+     "a": "Sectors of Economic Activities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.2",
+   "title": "Comparison of the Three Sectors",
+   "questions": [
+    {
+     "q": "Using the method 'Comparison of the Three Sectors', work with: p = 400, s = 45, t = 4. Carry the chain through step by step and give the final value of total.",
+     "a": "449 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Comparison of the Three Sectors' and work with: p = 75, s = 24, t = 100. Carry the chain through step by step and give the final value of total.",
+     "a": "199 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Comparison of the Three Sectors' refers to.",
+     "a": "The three sectors differ in what they produce and how they contribute to the economy: the primary sector produces raw materials from nature, the secondary sector produces manufactured goods, and the tertiary sector produces services; their relative shares in GDP and employment show the stage of development of a country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparison of the Three Sectors'.",
+     "a": "Comparing the output and employment shares of the three sectors reveals how an economy is structured and how it changes as a country develops.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparison of the Three Sectors', in plain ASCII form.",
+     "a": "GDP share = (sector output / total output) x 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.3",
+   "title": "Rising Importance of the Tertiary Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rising Importance of the Tertiary Sector' refers to.",
+     "a": "Over the last few decades the tertiary sector has become the largest producing sector in India, driven by the need for basic services like hospitals and schools, the development of agriculture and industry requiring services such as transport and banking, and the growth of new services like information technology and communication.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rising Importance of the Tertiary Sector'.",
+     "a": "The tertiary sector has risen in importance because development of the primary and secondary sectors creates demand for services, and because new service industries like IT have themselves become major contributors to GDP.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rising Importance of the Tertiary Sector' taught, and from which source text?",
+     "a": "Sectors of Economic Activities - Rising Importance of Tertiary Sector",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.4",
+   "title": "Employment Generation and the Sectors",
+   "questions": [
+    {
+     "q": "Using the method 'Employment Generation and the Sectors', work with: ep = 200, p = 150. Carry the chain through step by step and give the final value of primary_mismatch.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Employment Generation and the Sectors' and work with: ep = 100, p = 75. Carry the chain through step by step and give the final value of primary_mismatch.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Employment Generation and the Sectors' refers to.",
+     "a": "In India the primary sector employs the largest share of workers, even though it contributes the least to GDP, while the tertiary sector contributes the most to GDP but employs far fewer people, showing a mismatch between output and employment across the sectors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Employment Generation and the Sectors'.",
+     "a": "The mismatch between GDP share and employment share means that the primary sector is overpopulated and less productive, while the secondary and tertiary sectors generate fewer jobs than their output would suggest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Employment Generation and the Sectors', in plain ASCII form.",
+     "a": "employment share = (workers in sector / total workers) x 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.5",
+   "title": "Organised and Unorganised Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Organised and Unorganised Sectors' refers to.",
+     "a": "The organised sector consists of registered enterprises that follow government rules and provide job security, paid leave and benefits like provident fund, while the unorganised sector includes small, unregistered enterprises that do not offer job security or benefits and often pay low wages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organised and Unorganised Sectors'.",
+     "a": "The key difference is the level of regulation and protection: organised sector workers have formal contracts and social security, while unorganised sector workers are largely unprotected and vulnerable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Organised and Unorganised Sectors' taught, and from which source text?",
+     "a": "Sectors of Economic Activities - Organised and Unorganised",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.6",
+   "title": "Public and Private Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public and Private Sectors' refers to.",
+     "a": "In the public sector the government owns most of the assets and provides services to the people, often without seeking profit, while in the private sector individuals or companies own the assets and operate to earn profit; the government provides public services like education, health and infrastructure that the private sector may not supply adequately.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public and Private Sectors'.",
+     "a": "The public sector exists to provide essential services and infrastructure that are needed by all but are not profitable enough for the private sector to supply, ensuring equitable access.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public and Private Sectors' taught, and from which source text?",
+     "a": "Sectors of Economic Activities - Public and Private",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.7",
+   "title": "MNREGA and Employment Guarantee",
+   "questions": [
+    {
+     "q": "Using the method 'MNREGA and Employment Guarantee', work with: demand = 10, rural_households_willing_to_work = 60000, guaranteed_days = 100. Carry the chain through step by step and give the final value of employment_created.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'MNREGA and Employment Guarantee' and work with: demand = 18, rural_households_willing_to_work = 5000, guaranteed_days = 100. Carry the chain through step by step and give the final value of employment_created.",
+     "a": "18 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'MNREGA and Employment Guarantee' refers to.",
+     "a": "The Mahatma Gandhi National Rural Employment Guarantee Act (MNREGA), launched in 2005, guarantees 100 days of wage employment in a year to all rural households that are willing to do unskilled manual work, providing a legal right to work and creating assets in rural areas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'MNREGA and Employment Guarantee'.",
+     "a": "MNREGA creates a legal right to work, ensuring that rural households can earn a minimum wage for at least 100 days a year, which protects the unemployed poor and reduces distress migration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'MNREGA and Employment Guarantee', in plain ASCII form.",
+     "a": "guaranteed_days = 100 days per rural household per year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.19.8",
+   "title": "Contribution of Sectors to GDP",
+   "questions": [
+    {
+     "q": "Using the method 'Contribution of Sectors to GDP', work with: p = 150, s = 18, sector_output = 24, t = 500. Carry the chain through step by step and give the final value of share.",
+     "a": "3.5928 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Contribution of Sectors to GDP' and work with: p = 40, s = 150, sector_output = 120, t = 12. Carry the chain through step by step and give the final value of share.",
+     "a": "59.4059 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Contribution of Sectors to GDP' refers to.",
+     "a": "Gross Domestic Product (GDP) is the total value of all final goods and services produced in a country in a year; in India the tertiary sector contributes the largest share of GDP, the secondary sector the next largest, and the primary sector the smallest, reflecting the structural transformation of the economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Contribution of Sectors to GDP'.",
+     "a": "The sectoral contribution to GDP shows how the economy is transforming over time, with the tertiary sector becoming dominant as the country develops.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Contribution of Sectors to GDP', in plain ASCII form.",
+     "a": "GDP = primary output + secondary output + tertiary output",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_02_001",
+   "title": "c12_math_cbse_02_001",
+   "questions": [
+    {
+     "q": "State the domain and range of the principal value branch of \\( \\cos^{-1} x \\).",
+     "a": "Domain: \\([-1, 1]\\); Range: \\([0, \\pi]\\).  \nA wrong answer (e.g., range \\( [-\\pi/2, \\pi/2] \\) or domain \\( \\mathbb{R} \\)) reveals that the student has confused the principal branch of cosine with that of sine, or has not internalised that cosine is restricted to \\([0, \\pi]\\) to make it one‑one while covering all values from \\(-1\\) to \\(1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the domain of \\( \\sec^{-1} x \\) given as \\( \\mathbb{R} \\setminus (-1, 1) \\) (i.e., \\( x \\le -1 \\) or \\( x \\ge 1 \\))? Explain using the definition of the secant function.",
+     "a": "The secant function is \\( \\sec y = 1/\\cos y \\). Since \\( \\cos y \\in [-1, 1] \\), its reciprocal \\( \\sec y \\) satisfies \\( |\\sec y| \\ge 1 \\); it never takes values strictly between \\(-1\\) and \\(1\\). Therefore, the inverse function \\( \\sec^{-1} x \\) can only accept inputs \\( x \\) with \\( |x| \\ge 1 \\).  \nA wrong answer (e.g., “domain is all real numbers”) shows the student has not linked the domain of the inverse to the range of the original function, a fundamental principle from Class 11 (inverse functions).",
+     "self_check": true
+    },
+    {
+     "q": "Find the principal value of \\( \\tan^{-1}(-\\sqrt{3}) \\).",
+     "a": "We need \\( \\theta \\in (-\\pi/2, \\pi/2) \\) such that \\( \\tan \\theta = -\\sqrt{3} \\).  \n\\( \\tan(-\\pi/3) = -\\sqrt{3} \\) and \\( -\\pi/3 \\in (-\\pi/2, \\pi/2) \\).  \nHence, principal value = \\( -\\pi/3 \\).  \nA wrong answer like \\( 2\\pi/3 \\) or \\( -\\pi/3 \\) without checking the range indicates the student either forgot the range of \\( \\tan^{-1} \\) or incorrectly used the general solution of \\( \\tan \\theta = -\\sqrt{3} \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ranges of \\( \\sin^{-1} x \\) and \\( \\cos^{-1} x \\). Why are they different even though both have the same domain \\([-1, 1]\\)?",
+     "a": "\\( \\sin^{-1} x \\) has range \\( [-\\pi/2, \\pi/2] \\) because sine is restricted to \\( [-\\pi/2, \\pi/2] \\) to make it bijective; \\( \\cos^{-1} x \\) has range \\( [0, \\pi] \\) because cosine is restricted to \\( [0, \\pi] \\). The intervals are chosen so that each restricted function is one‑one and covers the full range \\([-1, 1]\\). They differ because sine and cosine attain the same set of values on different intervals.  \nA wrong answer that states the ranges are the same or gives no justification shows the student has memorised the table without understanding the geometric reason (the restricted intervals are where the functions are monotonic and cover \\([-1,1]\\) exactly once).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: “The principal value of \\( \\cosec^{-1}(-2) \\) is \\( -\\pi/6 \\).” Evaluate this statement and correct it if necessary.",
+     "a": "The range of \\( \\cosec^{-1} \\) is \\( [-\\pi/2, \\pi/2] \\setminus \\{0\\} \\). We need \\( \\theta \\) in this range with \\( \\cosec \\theta = -2 \\), i.e., \\( \\sin \\theta = -1/2 \\). The angle \\( -\\pi/6 \\) lies in the range and satisfies \\( \\sin(-\\pi/6) = -1/2 \\). Therefore the statement is **correct**.  \nIf a student says it is incorrect because “range of cosec inverse is \\( [0, \\pi] \\)”, they have confused it with \\( \\cos^{-1} \\) or \\( \\sec^{-1} \\). If they give \\( 7\\pi/6 \\), they have used the general solution instead of the principal branch.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real‑world problem (with numbers) that requires using the domain of \\( \\sin^{-1} x \\) to decide whether a solution exists. Provide the problem statement and the reasoning.",
+     "a": "Example problem: “A pendulum of length 2 m is displaced horizontally by 3 m from its equilibrium position. The angle \\( \\theta \\) is given by \\( \\sin \\theta = x/L \\). Find \\( \\theta \\) using inverse sine.”  \nReasoning: \\( x/L = 3/2 = 1.5 \\). Since the domain of \\( \\sin^{-1} \\) is \\([-1, 1]\\), \\( 1.5 \\) is not in the domain — no real angle satisfies this. The physical interpretation: the displacement cannot exceed the length of the pendulum.  \nA poor answer might give a problem where the ratio is within \\([-1,1]\\) (missing the domain check) or fail to explain why the domain matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

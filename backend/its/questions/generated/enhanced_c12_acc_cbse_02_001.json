@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_001",
+   "title": "c12_acc_cbse_02_001",
+   "questions": [
+    {
+     "q": "Three partners A, B, C share profits in the ratio 5:3:2. They admit D for 1/5th share. If A, B, C sacrifice in their old ratio, what is the sacrificing ratio of A, B, C?",
+     "a": "The sacrificing ratio is 5:3:2 (same as old ratio). When the problem states \"sacrifice in their old ratio\", the sacrificing ratio is identical to the old profit sharing ratio. A common error is to compute each partner's sacrifice as (old share × 1/5) and then simplify, which also yields 5:3:2, but students often incorrectly think the sacrificing ratio changes. If a student answers with fractions like 1/3, 1/5, 1/10, they have computed the absolute sacrifice but not the ratio. The sacrificing ratio is the proportion in which they sacrifice, not the absolute amount.",
+     "self_check": true
+    },
+    {
+     "q": "X and Y share profits 3:2. They admit Z for 1/4th share. Z acquires his share from X and Y in the ratio 2:1. A student writes: \"X's sacrifice = 2/3 × 1/4 = 2/12, Y's sacrifice = 1/3 × 1/4 = 1/12. So sacrificing ratio = 2:1.\" Is this correct? Explain.",
+     "a": "Yes, the student is correct. The sacrificing ratio is explicitly given as 2:1 (the ratio in which Z acquires from X and Y). The calculation of absolute sacrifices (2/12 and 1/12) is correct and simplifies to 2:1. However, a common misconception is that the sacrificing ratio must always equal the old ratio. Here it differs because the acquisition ratio is specified. If the student had instead computed new shares first and then subtracted old shares, they would get the same sacrificing ratio. The key is: **when acquisition ratio is given, that IS the sacrificing ratio**.",
+     "self_check": true
+    },
+    {
+     "q": "P and Q share profits 4:1. They admit R. The new profit sharing ratio is agreed as 3:1:1. Calculate the sacrificing ratio of P and Q.",
+     "a": "Old shares: P = 4/5, Q = 1/5. New shares: P = 3/5, Q = 1/5, R = 1/5.\nSacrifice of P = 4/5 – 3/5 = 1/5. Sacrifice of Q = 1/5 – 1/5 = 0.\nSacrificing ratio = 1/5 : 0 = 1:0 (only P sacrifices). A frequent error is to assume both sacrifice in old ratio (4:1) or to calculate R's share as 1/5 and then split it 4:1. But the new ratio is given, so we must use **Sacrifice = Old – New**. If a student gets 4:1, they ignored the given new ratio and assumed sacrifice in old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A, B, C share profits 2:2:1. D is admitted for 1/6th share. D acquires 1/12 from A and 1/12 from B. C does not sacrifice. What is the new profit sharing ratio of A, B, C, D?",
+     "a": "Old shares: A = 2/5 = 24/60, B = 2/5 = 24/60, C = 1/5 = 12/60.\nSacrifices: A = 1/12 = 5/60, B = 1/12 = 5/60, C = 0.\nNew shares: A = 24/60 – 5/60 = 19/60, B = 24/60 – 5/60 = 19/60, C = 12/60, D = 1/6 = 10/60.\nNew ratio = 19:19:12:10. Students often forget to convert to a common denominator (LCM of 5,12,6 = 60) and make arithmetic errors. Another error: assuming C's share reduces because total must be 1, but C's share stays 12/60 because he didn't sacrifice. The new partner's share comes ONLY from those who sacrifice.",
+     "self_check": true
+    },
+    {
+     "q": "In a partnership, the old ratio is 3:2. A new partner is admitted for 1/5th share. The remaining share (4/5) is divided between old partners in the ratio 2:1. A student computes new shares as: Old partner 1 = 2/3 × 4/5 = 8/15, Old partner 2 = 1/3 × 4/5 = 4/15, New partner = 1/5 = 3/15. Then sacrificing ratio = Old – New = (3/5 – 8/15) : (2/5 – 4/15) = (9/15 – 8/15) : (6/15 – 4/15) = 1/15 : 2/15 = 1:2. Is this correct? Justify.",
+     "a": "Yes, the student is correct. The problem states the remaining share (after giving 1/5 to new partner) is divided in 2:1. That division ratio (2:1) is the **new ratio between old partners**, not the sacrificing ratio. The student correctly computed new shares, then subtracted old shares to get sacrificing ratio 1:2. This reveals a deep understanding: the ratio in which the remaining share is divided is the **new profit sharing ratio among old partners**, and sacrificing ratio must be derived. A common trap is to assume the 2:1 is the sacrificing ratio. If a student answers sacrificing ratio = 2:1, they confused the division of remaining share with sacrifice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem where the old profit sharing ratio is 4:3:2, a new partner is admitted for 1/5th share, and the sacrificing ratio is NOT the same as the old ratio. Provide the full solution.",
+     "a": "**Problem:** X, Y, Z share profits 4:3:2. W is admitted for 1/5th share. W acquires 3/20 from X and 1/20 from Y. Z does not sacrifice. Find new profit sharing ratio and sacrificing ratio.\n**Solution:** Old shares: X=4/9, Y=3/9, Z=2/9. LCM of 9,20 = 180. X=80/180, Y=60/180, Z=40/180. Sacrifices: X=3/20=27/180, Y=1/20=9/180, Z=0. New shares: X=53/180, Y=51/180, Z=40/180, W=1/5=36/180. New ratio = 53:51:40:36. Sacrificing ratio = 27:9 = 3:1.\nA good answer shows LCM conversion, subtraction, and clear ratio expression. A poor answer would skip LCM, use decimals, or assume Z sacrifices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

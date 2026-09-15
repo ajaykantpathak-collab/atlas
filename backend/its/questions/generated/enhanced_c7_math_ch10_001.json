@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_001",
+   "title": "c7_math_ch10_001",
+   "questions": [
+    {
+     "q": "Which of the following numbers is considered neither a positive integer nor a negative integer?\nA) $+1$\nB) $0$\nC) $-1$\nD) Both A and C",
+     "a": "The correct answer is B) $0$. Zero is the neutral reference integer that separates positive and negative numbers on the number line; it carries no sign. A student who chooses A or C has forgotten that positive and negative integers are strictly greater than or less than zero, respectively. A student who chooses D shows a complete misunderstanding of the definitions of signed numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A weather app shows the temperature in Shimla is $-4^\\circ\\text{C}$ and in Srinagar is $-7^\\circ\\text{C}$. Which statement correctly explains which place is colder?\nA) Shimla is colder because $4$ is less than $7$.\nB) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower value.\nC) Shimla is colder because positive numbers are always larger than negative numbers.\nD) Both places have the same temperature because $7$ and $4$ are both cold.",
+     "a": "The correct answer is B) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower value. As you move left on a number line, values decrease. A student who chooses A looks only at the digits $4$ and $7$ and forgets that negative signs reverse the order of magnitude for debt or temperature drops. A student who chooses C or D misinterprets how negative integers compare to one another.",
+     "self_check": true
+    },
+    {
+     "q": "An elevator starts at the ground floor ($0$). It goes up $5$ floors, then goes down $8$ floors, and finally goes up $3$ floors. What is the final floor position represented as an integer?",
+     "a": "The correct answer is $0$ (ground floor). Working steps: \n1) Start at ground level: $0$. \n2) Going up $5$ floors translates to $0 + 5 = +5$. \n3) Going down $8$ floors translates to $+5 - 8 = -3$. \n4) Going up $3$ floors translates to $-3 + 3 = 0$. \nA student who answers $+3$ or $-3$ likely made an error in tracking directional movements, treating up and down additions incorrectly or miscalculating the arithmetic sequence step-by-step.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the set of numbers $\\{-5, 12, 0, -3, 8, -1\\}$. Group them into positive integers, negative integers, and neither, and explain how the number line helps prove your grouping.",
+     "a": "Positive integers: $\\{12, 8\\}$; Negative integers: $\\{-5, -3, -1\\}$; Neither: $\\{0\\}$. On a number line, positive integers are positioned strictly to the right of zero, negative integers are positioned strictly to the left of zero, and zero occupies the exact center point. A student who includes zero in the positive or negative group fails to recognize zero's unique neutral classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that since $-15$ is a larger number than $-5$ in terms of digits ($15 > 5$), $-15$ must represent a higher temperature than $-5^\\circ\\text{C}$. Evaluate this claim and correct the error.",
+     "a": "The claim is incorrect. While the whole number $15$ is greater than $5$, when applied to negative integers, $-15$ represents a deficit or depth greater than $-5$, placing $-15$ further to the left on the number line than $-5$. Therefore, $-15^\\circ\\text{C}$ is colder (lower in value) than $-5^\\circ\\text{C}$. A student who agrees with the claim fails to understand that for negative numbers, a larger absolute value means a smaller (lower) actual value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving a bank account balance, deposits, and withdrawals that results in a final integer value of $-500$ rupees. Explain each step using positive and negative integers.",
+     "a": "A valid response should feature a starting balance (e.g., $0$ or a positive amount), a series of withdrawals represented as negative integers, and deposits represented as positive integers, resulting in a net balance of $-500$. For example: Rahul starts with a balance of ₹200 ($+200$). He withdraws ₹800 ($-800$). His current balance is $+200 - 800 = -600$ rupees. Then he deposits ₹100 ($+100$), making his final balance $-600 + 100 = -500$ rupees. A poor response uses operations without assigning correct positive and negative signs to deposits and withdrawals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

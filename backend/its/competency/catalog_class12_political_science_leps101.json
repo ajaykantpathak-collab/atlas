@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "The End of Bipolarity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.101.1",
+   "title": "Soviet System and Its Collapse",
+   "section": "The Soviet System",
+   "definition": "The Soviet system, built after the 1917 Bolshevik revolution, concentrated economic and political power in the communist party and a centrally planned economy; by the 1980s stagnation, shortages and the arms burden with the USA had weakened it, and Gorbachev's reforms of glasnost and perestroika accelerated rather than saved the system.",
+   "formula": "",
+   "key_idea": "Reform exposed the rot: once censorship and central control loosened, republics and nationalities moved for independence.",
+   "textbook_ref": "leps101.txt soviet system, stagnation and Gorbachev reforms sections",
+   "question_patterns": [
+    "describe the features of the Soviet political-economic system",
+    "why did the Soviet economy stagnate by the 1980s",
+    "state the meaning of glasnost and perestroika",
+    "how did Gorbachev's reforms speed the collapse",
+    "which events of 1991 ended the Soviet Union",
+    "evaluate internal versus external causes of the collapse"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the system",
+     "explain": "one-party rule and central planning defined the Soviet model from 1917"
+    },
+    {
+     "step": 2,
+     "action": "diagnose the crisis",
+     "explain": "consumer shortages, technological lag and the arms race drained the economy"
+    },
+    {
+     "step": 3,
+     "action": "close with 1991",
+     "explain": "the failed coup and the republics' exits dissolved the union in 1991"
+    }
+   ]
+  },
+  {
+   "id": "leps.101.2",
+   "title": "Berlin Wall's Fall and Bipolarity's End",
+   "section": "End of Bipolarity",
+   "definition": "The Berlin Wall, built at the height of the Cold War as its greatest symbol, was toppled by the people in 1989; two years later the Soviet Union itself dissolved, so the wall's fall and the union's end are separated by the difference of 1991 and 1989.",
+   "formula": "wall_to_end = ussr_end_year - wall_year",
+   "key_idea": "Subtracting the wall's fall year from the Soviet end year gives the gap in years between the two events.",
+   "textbook_ref": "leps101.txt Berlin Wall 1989 passage and 1991 Soviet dissolution",
+   "question_patterns": [
+    "when was the Berlin Wall toppled",
+    "when did the Soviet Union dissolve",
+    "compute the gap between the wall's fall and the union's end",
+    "why was the wall the Cold War's symbol",
+    "sequence the events from 1989 to 1991",
+    "what replaced the bipolar world order"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two years",
+     "explain": "wall fell 1989; union dissolved 1991",
+     "compute": "wall_year = 1989"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1991 - 1989 = two years between the events",
+     "compute": "wall_to_end = ussr_end_year - wall_year"
+    }
+   ]
+  },
+  {
+   "id": "leps.101.3",
+   "title": "Shock Therapy and Its Consequences",
+   "section": "Shock Therapy in Post-communist Regimes",
+   "definition": "Post-communist states adopted shock therapy - abrupt transition to capitalism under Washington consensus prescriptions: privatisation of assets, free trade, currency convertibility; the therapy produced deep initial contraction, oligarchic capture of privatised assets and social distress, with uneven recovery across states.",
+   "formula": "",
+   "key_idea": "Speed was the therapy and the disease: overnight privatisation handed state assets to insiders while safety nets vanished.",
+   "textbook_ref": "leps101.txt shock therapy features and consequences sections",
+   "question_patterns": [
+    "define shock therapy and the Washington consensus",
+    "list the three features of shock therapy",
+    "state the social costs of rapid transition",
+    "how did privatisation create oligarchs in Russia",
+    "compare recovery across former Soviet states",
+    "why did some economists question shock therapy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the package",
+     "explain": "privatisation, free trade and convertibility arrived together and fast"
+    },
+    {
+     "step": 2,
+     "action": "measure the pain",
+     "explain": "output fell, inflation soared and welfare systems collapsed in the early 1990s"
+    },
+    {
+     "step": 3,
+     "action": "close with capture",
+     "explain": "insider privatisation built the Russian oligarchy"
+    }
+   ]
+  },
+  {
+   "id": "leps.101.4",
+   "title": "India and Post-communist States",
+   "section": "India and Post-communist Countries",
+   "definition": "India maintained long friendship with the Soviet Union - defence supplies, diplomatic support and trade - and after 1991 rebuilt ties with Russia and the new republics through energy, defence partnership and connectivity initiatives like the International North-South corridor.",
+   "formula": "",
+   "key_idea": "The end of bipolarity did not end the partnership: India and Russia re-tooled an old friendship for a multipolar market age.",
+   "textbook_ref": "leps101.txt India-Soviet relations and post-1991 ties sections",
+   "question_patterns": [
+    "describe India-Soviet ties before 1991",
+    "what sustains India-Russia relations after the collapse",
+    "name India's connectivity initiatives with the region",
+    "how did the end of bipolarity affect Indian foreign policy",
+    "state India's stakes in Central Asian energy and security",
+    "evaluate the multipolarity argument for India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the friendship",
+     "explain": "Soviet vetoes and defence supplies anchored Cold War ties"
+    },
+    {
+     "step": 2,
+     "action": "note the rebuild",
+     "explain": "energy, defence and transport corridors renewed the partnership"
+    },
+    {
+     "step": 3,
+     "action": "close with strategy",
+     "explain": "multipolarity lets India diversify while keeping old friends"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps101_1",
+   "source_ref": "leps101.txt 1989 and 1991 dates",
+   "concept": "leps.101.2",
+   "question_type": "compute",
+   "question_pattern": "The Berlin Wall fell in 1989 and the Soviet Union dissolved in 1991. Compute the gap between the two events in years.",
+   "extracted_variables": {
+    "wall_year": 1989,
+    "ussr_end_year": 1991
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1989 and 1991",
+     "compute": "wall_year = 1989"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1991 - 1989 = 2 years",
+     "compute": "wall_to_end = ussr_end_year - wall_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps101_2",
+   "source_ref": "leps101.txt shock therapy section",
+   "concept": "leps.101.3",
+   "question_type": "short_answer",
+   "question_pattern": "State the three components of shock therapy and one consequence each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "privatisation",
+     "explain": "state assets sold off fast, later captured by oligarchs"
+    },
+    {
+     "step": 2,
+     "action": "free trade",
+     "explain": "sudden openness crushed uncompetitive local industry"
+    },
+    {
+     "step": 3,
+     "action": "convertibility",
+     "explain": "the ruble's float unleashed inflation hurting households"
+    }
+   ]
+  },
+  {
+   "id": "we_leps101_3",
+   "source_ref": "leps101.txt India ties section",
+   "concept": "leps.101.4",
+   "question_type": "short_answer",
+   "question_pattern": "Give two continuities in India-Russia relations after 1991.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "defence partnership",
+     "explain": "Russia remained India's leading arms supplier"
+    },
+    {
+     "step": 2,
+     "action": "diplomatic alignment",
+     "explain": "both backed multipolarity and each other in global forums"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "institutions of friendship adapted rather than ended"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps101_1",
+   "source_ref": "leps101.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the features and weaknesses of the Soviet system",
+    "compute the gap between the Berlin Wall's fall and the USSR's end",
+    "evaluate shock therapy and its social costs",
+    "describe Gorbachev's reforms and their unintended results",
+    "discuss India's relations with post-communist states"
+   ]
+  },
+  {
+   "id": "ex_leps101_2",
+   "source_ref": "leps101.txt applied questions, reworded",
+   "questions": [
+    "argue internal versus external causes of Soviet collapse",
+    "map the new republics and their resources",
+    "relate the Washington consensus to transition outcomes",
+    "assess multipolarity's benefits for India",
+    "compare Cold War and post-Cold War security orders"
+   ]
+  }
+ ]
+}

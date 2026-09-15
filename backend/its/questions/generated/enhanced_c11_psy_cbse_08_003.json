@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_003",
+   "title": "c11_psy_cbse_08_003",
+   "questions": [
+    {
+     "q": "Define \"psychosocial motive\" and name the four main types discussed in the NCERT textbook for Class 11.",
+     "a": "A psychosocial motive is a learned motivational state arising from social interaction, not physiological deficit. The four main types are: need for affiliation, need for power, need for achievement, and curiosity/exploration. A wrong answer that lists biological motives (hunger, thirst) or includes \"self-actualisation\" reveals confusion between psychosocial motives and the next topic (Maslow) or failure to distinguish learned vs. innate motives.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"need for power\" is considered a psychosocial motive and not a biological motive, using the concept of homeostasis.",
+     "a": "Biological motives like hunger and thirst aim to restore homeostasis (internal physiological balance). The need for power does not correct any physiological imbalance; instead, it drives a person to influence others and enhance reputation, which are social goals learned through interaction. If a student says power is biological because it involves adrenaline or brain areas, they are confusing physiological correlates with the motive's origin and function.",
+     "self_check": true
+    },
+    {
+     "q": "A student, Priya, joins the school debate team. She enjoys researching new topics, wants to win the best-speaker award, and likes the camaraderie during practice. Identify which psychosocial motives are operating and justify each with evidence from the scenario.",
+     "a": "Curiosity/exploration: \"enjoys researching new topics\" shows intrinsic desire for novel information. Need for achievement: \"wants to win the best-speaker award\" reflects desire to meet standards of excellence. Need for affiliation: \"likes the camaraderie during practice\" indicates motivation for social contact. A wrong answer that misses one motive or mislabels camaraderie as \"need for power\" shows inability to map behaviors to specific motive definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"need for affiliation\" and \"need for power\" in terms of (a) the typical social situation that arouses them, and (b) the behavioral outcome they produce.",
+     "a": "(a) Affiliation is aroused when individuals feel threatened/helpless OR happy, seeking company; power is aroused when an individual wants to influence/control others. (b) Affiliation produces friendly relationship maintenance; power produces attempts to influence, lead, or enhance reputation. A wrong answer that says both are aroused by threat or both produce leadership reveals failure to analyze distinct trigger-outcome patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Psychosocial motives are completely independent of biological motives; they operate in separate domains.\" Use the NCERT concept of interdependence to support your evaluation.",
+     "a": "The statement is false. NCERT explicitly states that no motive is absolutely biological or psychosocial; they are aroused in varying combinations. For example, hunger (biological) can trigger affiliation (eating together), and affiliation needs can influence eating behavior (social facilitation of eating). A student who agrees with the statement has missed the textbook's emphasis on interdependence and likely treats the categories as rigid boxes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief observational study (3-4 steps) to investigate whether \"curiosity and exploration\" motive is stronger in children who are given open-ended toys versus those given structured puzzles. State the predicted outcome based on the textbook.",
+     "a": "Steps: 1) Randomly assign children to two groups: open-ended toys (blocks, clay) vs structured puzzles (jigsaw with single solution). 2) Observe free-play duration and variety of actions for 20 minutes. 3) Code behaviors indicating exploration (trying new combinations, asking \"what if\" questions). 4) Compare frequency/intensity of exploration behaviors between groups. Prediction: Open-ended toy group will show higher curiosity/exploration because the motive thrives on novelty and lack of predetermined goals. A poor design that doesn't control for toy familiarity or doesn't define measurable exploration behaviors reveals inability to operationalize the motive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

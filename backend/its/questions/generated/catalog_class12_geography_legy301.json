@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy301",
+  "concepts": [
+    {
+      "id": "legy.301.1",
+      "questions": [
+        {"q": "Data collected first-hand by the researcher through surveys and interviews are called what kind of data? (one word)", "a": "primary"},
+        {"q": "Data already compiled by others, like the census, are called what kind of data? (one word)", "a": "secondary"},
+        {"q": "Which method of primary collection involves asking sampled people questions? (one word)", "a": "interviews"},
+        {"q": "Name one primary method of data collection besides surveys and interviews. (one word)", "a": "observation"},
+        {"q": "The Census of India is an example of which kind of data source? (one word)", "a": "secondary"},
+        {"q": "Government registers of births and trade are which kind of source? (one word)", "a": "secondary"},
+        {"q": "How many main classes of data sources are recognised? (number)", "a": "2"}
+      ]
+    },
+    {
+      "id": "legy.301.2",
+      "questions": [
+        {"q": "If 25 households out of 200 own a car, what per cent is that? (give the per cent)", "a": "12.5"},
+        {"q": "If 40 of 160 farms are irrigated, what is the percentage share? (give the per cent)", "a": "25"},
+        {"q": "The row labels of a table form the what, while column labels form the caption? (one word)", "a": "stub"},
+        {"q": "What are the column headings of a statistical table called? (one word)", "a": "caption"},
+        {"q": "What note below a table states where the data came from? (two words)", "a": "source note"},
+        {"q": "Arranging collected figures into rows and columns is called what? (one word)", "a": "tabulation"},
+        {"q": "Before tabulation, data must be sorted into what? (one word)", "a": "categories"}
+      ]
+    },
+    {
+      "id": "legy.301.3",
+      "questions": [
+        {"q": "After how many years does the Census of India take place? (number of years)", "a": "10"},
+        {"q": "Which organisation runs periodic rounds of household surveys on consumption and employment? (short form)", "a": "NSSO"},
+        {"q": "Which source gives a complete count of population and houses? (one word)", "a": "census"},
+        {"q": "The NSSO surveys are conducted through periodic what? (one word)", "a": "rounds"},
+        {"q": "Name one topic the NSSO surveys besides consumption and employment. (two words)", "a": "land holding"},
+        {"q": "Is the census a sample count or a complete enumeration? (two words)", "a": "complete enumeration"},
+        {"q": "Both census and NSSO anchor which kind of geographic analysis? (one word)", "a": "secondary"}
+      ]
+    },
+    {
+      "id": "legy.301.4",
+      "questions": [
+        {"q": "Which presentation mode gives the most exact figures? (one word)", "a": "tables"},
+        {"q": "Which presentation mode best shows a trend through time? (one word)", "a": "graphs"},
+        {"q": "Which presentation mode best shows spatial distribution? (one word)", "a": "maps"},
+        {"q": "Which simple diagrams popularise comparisons among the public? (one word)", "a": "pictograms"},
+        {"q": "The choice of presentation depends on the nature of data and the what intended? (one word)", "a": "purpose"},
+        {"q": "How many main presentation modes are listed (tables, graphs, diagrams, maps)? (number)", "a": "4"},
+        {"q": "Diagrams and graphs present data to the eye; tables present data to be what? (one word)", "a": "read"}
+      ]
+    }
+  ]
+}

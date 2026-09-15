@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_001",
+   "title": "c11_geo_cbse_06_001",
+   "questions": [
+    {
+     "q": "A student states: \"Earthquakes are exogenic processes because they happen on the Earth's surface and destroy buildings.\" Is this classification correct? Justify your answer in two sentences.",
+     "a": "No, earthquakes are endogenic processes. They originate from sudden release of accumulated strain energy in Earth's crust due to tectonic forces (plate movements driven by mantle convection), not from solar energy or atmospheric agents. The destruction of surface structures is an effect, not the cause or energy source. A wrong answer reveals the student confuses the location of impact (surface) with the origin of energy (interior), a fundamental misclassification error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chemical weathering of limestone by carbonic acid (H₂CO₃) is classified as an exogenic process, even though the carbon dioxide comes from both atmosphere and soil respiration.",
+     "a": "Chemical weathering is exogenic because its immediate driving energy comes from solar radiation powering the hydrological cycle (rainwater formation) and biological activity (soil CO₂ production), both ultimately solar-driven. The reactants operate at Earth's surface under atmospheric conditions. A wrong answer indicates the student thinks any process involving gases or subsurface components must be endogenic, failing to trace the ultimate energy source to the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Given: The Himalayas rise at ~5 mm/year due to Indian-Eurasian plate convergence, while denudation rates in the region average 1-2 mm/year. Calculate the net annual relief change and classify the dominant process type shaping this landscape over a 1000-year period.",
+     "a": "Net relief change = Uplift rate - Denudation rate = 5 mm/yr - 1.5 mm/yr (avg) = +3.5 mm/yr. Over 1000 years: +3.5 meters net uplift. Dominant process: Endogenic (tectonic uplift exceeds exogenic denudation). Steps: 1) Identify uplift as endogenic, denudation as exogenic. 2) Use mean denudation rate. 3) Subtract to find net. 4) Compare magnitudes. 5) Conclude endogenic dominance. Wrong answer reveals inability to quantify the competition between opposing processes or misuse of rates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of gravity in endogenic vs exogenic processes. Why is gravity a driving force for mass wasting (exogenic) but only an indirect participant in volcanism (endogenic)?",
+     "a": "In mass wasting, gravity is the direct driving force pulling material downslope - the process cannot occur without it. In volcanism, gravity acts indirectly by influencing magma buoyancy and conduit flow, but the primary driving force is internal pressure from dissolved gases and tectonic stress (endogenic energy). Gravity does not power the eruption; it modulates it. Wrong answer shows confusion between direct driving force and modulating factor, or inability to distinguish energy source from force mediator.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If solar radiation stopped tomorrow, all exogenic processes would cease immediately, but endogenic processes would continue unchanged for millions of years.\" Is this accurate? Provide geographical reasoning.",
+     "a": "Largely accurate. Exogenic processes (weathering, erosion, mass movement) depend on solar-driven hydrological cycle, wind systems, and biological activity - all would halt rapidly. Endogenic processes (plate tectonics, volcanism) are powered by Earth's internal heat budget (radiogenic + primordial) which would persist for billions of years. Minor nuance: some exogenic processes like gravitational creep might continue briefly without solar input. Wrong answer reveals failure to link process energy sources to their ultimate origins (Sun vs Earth interior).",
+     "self_check": true
+    },
+    {
+     "q": "Design a field observation checklist for a Class 11 student visiting a local river valley to identify evidence of both endogenic and exogenic processes. Include 4 observable features with the process type each indicates.",
+     "a": "Good checklist: 1) River terraces at multiple levels - indicates tectonic uplift (endogenic) interrupting river erosion (exogenic). 2) Jointed bedrock with chemical weathering rinds - exogenic chemical weathering. 3) Fault scarps offsetting alluvial fans - endogenic faulting. 4) Alluvial fan morphology with coarse proximal/decreasing distal grain size - exogenic fluvial deposition. Poor answer lists only erosional features or cannot link landform to process origin, showing inability to read landscape as process-record.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

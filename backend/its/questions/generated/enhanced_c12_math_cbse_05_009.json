@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_009",
+   "title": "c12_math_cbse_05_009",
+   "questions": [
+    {
+     "q": "What is the derivative of \\( y = x^x \\) (for \\( x > 0 \\)) using logarithmic differentiation? Write the first two steps: taking log and differentiating implicitly.",
+     "a": "Step 1: \\( \\ln y = x \\ln x \\). Step 2: \\( \\frac{1}{y} \\frac{dy}{dx} = \\ln x + x \\cdot \\frac{1}{x} = \\ln x + 1 \\). A wrong answer like \\( \\frac{dy}{dx} = x \\cdot x^{x-1} = x^x \\) (treating exponent as constant) or \\( \\frac{dy}{dx} = x^x \\ln x \\) (treating base as constant) reveals the student is applying the power rule or exponential rule incorrectly without recognizing both base and exponent are variable. The correct approach requires the product rule on \\( x \\ln x \\) after taking logs.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we require \\( u(x) > 0 \\) and \\( y > 0 \\) when using logarithmic differentiation on \\( y = [u(x)]^{v(x)} \\)? Explain what happens if \\( u(x) \\) is negative.",
+     "a": "The natural logarithm \\( \\ln u(x) \\) is only defined for positive arguments. If \\( u(x) \\le 0 \\), the step \\( \\ln y = v(x) \\ln u(x) \\) is invalid because \\( \\ln u(x) \\) does not exist as a real number. A student who ignores this condition and proceeds mechanically might get an algebraic expression that accidentally matches the derivative formula for some negative values (e.g., \\( y = (-x)^x \\) for integer \\( x \\)), but the method itself is not justified and can lead to incorrect results for non-integer exponents. The correct understanding is that the technique is only valid on intervals where \\( u(x) > 0 \\) and consequently \\( y > 0 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Differentiate \\( y = \\frac{(x+1)^2 (x+2)^3}{(x+3)^4} \\) with respect to \\( x \\) using logarithmic differentiation. Show all steps and simplify the final expression.",
+     "a": "**Step 1:** Take ln: \\( \\ln y = 2\\ln(x+1) + 3\\ln(x+2) - 4\\ln(x+3) \\).  \n**Step 2:** Differentiate: \\( \\frac{1}{y} \\frac{dy}{dx} = \\frac{2}{x+1} + \\frac{3}{x+2} - \\frac{4}{x+3} \\).  \n**Step 3:** Multiply by \\( y \\): \\( \\frac{dy}{dx} = y \\left( \\frac{2}{x+1} + \\frac{3}{x+2} - \\frac{4}{x+3} \\right) \\).  \n**Step 4:** Substitute \\( y \\): \\( \\frac{dy}{dx} = \\frac{(x+1)^2 (x+2)^3}{(x+3)^4} \\left( \\frac{2}{x+1} + \\frac{3}{x+2} - \\frac{4}{x+3} \\right) \\).  \n**Step 5:** Simplify: \\( \\frac{dy}{dx} = \\frac{(x+1)(x+2)^2}{(x+3)^5} \\left[ 2(x+2)(x+3) + 3(x+1)(x+3) - 4(x+1)(x+2) \\right] \\).  \nA wrong answer where the student forgets to multiply by \\( y \\) at the end, or incorrectly combines the fractions without common denominator, reveals a gap in the implicit differentiation step or algebraic simplification. The correct final expression after expanding the bracket is \\( \\frac{(x+1)(x+2)^2 (x^2 + 6x + 18)}{(x+3)^5} \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effort required to differentiate \\( y = (x^2+1)^5 (x^3-2)^4 (x+5)^6 \\) using (a) repeated product rule and (b) logarithmic differentiation. Which method is more efficient and why?",
+     "a": "Logarithmic differentiation is far more efficient. Method (a) requires applying the product rule twice (for three functions), generating a sum of three terms each containing products of two derivatives and one original function, leading to a messy expression with high powers that then needs factoring. Method (b): \\( \\ln y = 5\\ln(x^2+1) + 4\\ln(x^3-2) + 6\\ln(x+5) \\); derivative \\( \\frac{y'}{y} = \\frac{10x}{x^2+1} + \\frac{12x^2}{x^3-2} + \\frac{6}{x+5} \\); multiply by \\( y \\). This avoids expanding polynomials and keeps the derivative in factored form. A student who thinks both methods are equally easy has not experienced the algebraic explosion of the product rule for multiple factors.",
+     "self_check": true
+    },
+    {
+     "q": "A student differentiates \\( y = (\\sin x)^{\\cos x} \\) and writes: \\( \\ln y = \\cos x \\ln(\\sin x) \\), then \\( \\frac{1}{y} \\frac{dy}{dx} = -\\sin x \\ln(\\sin x) + \\cos x \\cdot \\frac{\\cos x}{\\sin x} \\), and finally \\( \\frac{dy}{dx} = -\\sin x \\ln(\\sin x) + \\cot x \\cos x \\). Identify the error and correct it.",
+     "a": "The student forgot to multiply the right-hand side by \\( y \\) in the final step. The correct derivative is \\( \\frac{dy}{dx} = y \\left[ -\\sin x \\ln(\\sin x) + \\cos x \\cot x \\right] = (\\sin x)^{\\cos x} \\left[ -\\sin x \\ln(\\sin x) + \\cos x \\cot x \\right] \\). This is a very common error: after implicitly differentiating \\( \\ln y \\), the student writes the derivative of \\( \\ln y \\) as \\( \\frac{dy}{dx} \\) instead of \\( \\frac{1}{y} \\frac{dy}{dx} \\), or simply omits the multiplication by \\( y \\) when solving for \\( \\frac{dy}{dx} \\). The mistake reveals a misunderstanding of the chain rule application on \\( \\ln y \\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a function of the form \\( y = [u(x)]^{v(x)} \\) where \\( u(x) \\) and \\( v(x) \\) are non-constant differentiable functions, such that its derivative using logarithmic differentiation simplifies to a form without logarithms. Provide the function and its simplified derivative.",
+     "a": "Example: \\( y = x^{\\ln x} \\) (for \\( x > 0 \\)). Then \\( \\ln y = \\ln x \\cdot \\ln x = (\\ln x)^2 \\). Differentiate: \\( \\frac{1}{y} y' = 2 \\ln x \\cdot \\frac{1}{x} \\). So \\( y' = x^{\\ln x} \\cdot \\frac{2 \\ln x}{x} = 2 x^{\\ln x - 1} \\ln x \\). The derivative still contains \\( \\ln x \\). A better example: \\( y = e^{x \\ln x} = x^x \\) gives \\( y' = x^x(1+\\ln x) \\) which still has log. To get rid of log entirely, choose \\( u(x) = e^{g(x)} \\) so \\( \\ln u = g(x) \\). Let \\( y = (e^{x^2})^{\\sin x} = e^{x^2 \\sin x} \\). Then \\( \\ln y = x^2 \\sin x \\), \\( y' = y (2x \\sin x + x^2 \\cos x) = e^{x^2 \\sin x} (2x \\sin x + x^2 \\cos x) \\). No logarithms remain. A poor answer would be a function where the derivative still contains \\( \\ln u(x) \\) and the student doesn't realize the condition for log-free simplification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

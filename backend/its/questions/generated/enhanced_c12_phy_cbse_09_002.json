@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_002",
+   "title": "c12_phy_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the mirror formula and the magnification formula for a spherical mirror using the Cartesian sign convention. Define each symbol and its SI unit.",
+     "a": "Mirror formula: 1/v + 1/u = 1/f, where u = object distance from pole (m), v = image distance from pole (m), f = focal length (m). Magnification: m = h'/h = -v/u, where h' = image height (m), h = object height (m), m is dimensionless. A wrong answer (e.g., 1/v - 1/u = 1/f or m = v/u) reveals the student has not internalised the sign convention or the derivation steps, and will consistently misapply signs in numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "A concave mirror of focal length 15 cm forms a real image three times the size of the object. Explain why the object distance must be negative and calculate its value. Why does the magnification formula have a negative sign?",
+     "a": "Real object ⇒ u < 0 (incident light travels from object to mirror, so object is opposite to positive direction). Real image ⇒ v < 0. Magnification m = -3 (inverted, real). Using m = -v/u ⇒ -3 = -v/u ⇒ v = 3u. Substitute in mirror formula: 1/(3u) + 1/u = 1/(-15) ⇒ (1+3)/(3u) = -1/15 ⇒ 4/(3u) = -1/15 ⇒ u = -20 cm. The negative sign in m = -v/u ensures that a real image (v negative) formed by a real object (u negative) gives m negative (inverted), while a virtual image (v positive) gives m positive (erect). A student who omits the negative sign will predict erect images for real images, a fundamental error.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4.0 cm is placed 25 cm in front of a concave mirror of radius of curvature 30 cm. Calculate: (a) the focal length, (b) the image distance, (c) the magnification, (d) the image height, and (e) state the nature of the image. Show all steps with units.",
+     "a": "(a) f = R/2 = -30/2 = -15 cm (concave ⇒ f negative). (b) u = -25 cm. 1/v = 1/f - 1/u = 1/(-15) - 1/(-25) = -1/15 + 1/25 = (-5+3)/75 = -2/75 ⇒ v = -37.5 cm. (c) m = -v/u = -(-37.5)/(-25) = -1.5. (d) h' = m × h = -1.5 × 4.0 = -6.0 cm. (e) Image is real (v negative), inverted (m negative), magnified (|m|>1), formed 37.5 cm in front of mirror. A wrong answer with v positive indicates sign convention error; m positive indicates missing negative sign in magnification formula.",
+     "self_check": true
+    },
+    {
+     "q": "A convex mirror of focal length 20 cm forms an image of a car located 10 m behind the mirror. Compare the image distance and magnification when the car is at 10 m versus at 5 m. Explain the trend without calculation, then verify numerically.",
+     "a": "For convex mirror, f = +20 cm (positive). As object moves closer (|u| decreases from 1000 cm to 500 cm), 1/|u| increases. Mirror formula: 1/v = 1/f - 1/u. Since u is negative, -1/u = +1/|u|. So 1/v = 1/f + 1/|u|. As |u| decreases, 1/|u| increases ⇒ 1/v increases ⇒ v decreases (image moves closer to mirror from focus towards pole). Magnification m = -v/u = v/|u|. As v decreases and |u| decreases, m increases (image becomes larger but still diminished). Numerical: u₁ = -1000 cm ⇒ 1/v₁ = 1/20 + 1/1000 = 0.05 + 0.001 = 0.051 ⇒ v₁ ≈ 19.6 cm, m₁ = 19.6/1000 = 0.0196. u₂ = -500 cm ⇒ 1/v₂ = 0.05 + 0.002 = 0.052 ⇒ v₂ ≈ 19.2 cm, m₂ = 19.2/500 = 0.0384. Trend confirmed. A student who thinks image moves away as object approaches has not analysed the formula's behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a concave mirror problem and gets v = +30 cm, u = -20 cm, f = -15 cm. They claim the image is real and inverted. Evaluate their claim and identify the error.",
+     "a": "The claim is incorrect. For a concave mirror, f is negative. Real images have v negative (formed in front of mirror, same side as object). Here v = +30 cm is positive ⇒ image is virtual (behind mirror). The student likely used the mirror formula without sign convention (treating all distances as positive magnitudes). Check: 1/30 + 1/(-20) = 1/30 - 1/20 = (2-3)/60 = -1/60 ≠ 1/(-15) = -1/15. The values don't even satisfy the mirror formula! The error is ignoring sign convention entirely. Correct approach: use signs consistently. If object is at -20 cm and f = -15 cm, then 1/v = -1/15 + 1/20 = (-4+3)/60 = -1/60 ⇒ v = -60 cm (real, inverted). The student's v = +30 cm would correspond to a convex mirror or a virtual image case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a screen, and a metre scale to verify the mirror formula. Specify how you would choose at least 5 object positions, what measurements to take, and how to plot a graph to determine the focal length. Include how to handle sign convention in your data table.",
+     "a": "Place concave mirror on a stand facing a window (distant object ≈ infinity) to get approximate f by focusing on a screen. Then place a candle (object) at 5 positions: u = -60, -40, -30, -20, -15 cm (all between f and 2f, at 2f, beyond 2f, between f and pole). For each, move screen to get sharp image, measure v (positive if real image on screen). Record u, v with signs (u negative, v negative for real images). Compute 1/u and 1/v. Plot 1/v (y-axis) vs 1/u (x-axis). The graph is a straight line with slope -1 and intercept 1/f on y-axis (when 1/u=0) and 1/f on x-axis (when 1/v=0). f = 1/intercept. A poor answer would omit sign convention in the table, plot v vs u (non-linear), or use only 2 positions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

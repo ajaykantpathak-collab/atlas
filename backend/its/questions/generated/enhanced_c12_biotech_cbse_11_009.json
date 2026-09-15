@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_009",
+   "title": "c12_biotech_cbse_11_009",
+   "questions": [
+    {
+     "q": "Name the three biofertilizers discussed in this node and state one key difference in their nitrogen-fixing ability.",
+     "a": "The three biofertilizers are Rhizobium, Azotobacter, and Mycorrhiza. Rhizobium and Azotobacter fix atmospheric nitrogen (Rhizobium symbiotically in legume nodules, Azotobacter freely in soil), whereas Mycorrhiza does not fix nitrogen — it enhances phosphorus uptake and water absorption. A wrong answer that says \"Mycorrhiza fixes nitrogen\" reveals confusion between nitrogen fixation and phosphorus solubilization.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer applies Rhizobium inoculant to a wheat field. Will it increase soil nitrogen? Explain why or why not.",
+     "a": "No, Rhizobium will not increase soil nitrogen in wheat because Rhizobium forms nodules only on legume roots (e.g., peas, beans, soybean). Wheat is a non-legume and cannot host Rhizobium. A student who answers \"yes\" thinks Rhizobium works on all crops — a common misconception that ignores host specificity.",
+     "self_check": true
+    },
+    {
+     "q": "You have 1 kg of Azotobacter carrier-based inoculant (10^8 cells/g). The recommended dose is 200 g per acre. How many acres can you treat, and how many viable cells are applied per acre?",
+     "a": "Step 1: Total inoculant = 1000 g. Step 2: Dose per acre = 200 g. Step 3: Acres treated = 1000 g / 200 g/acre = 5 acres. Step 4: Cells per acre = 200 g × 10^8 cells/g = 2 × 10^10 cells. Answer: 5 acres, 2 × 10^10 cells/acre. A wrong answer that multiplies 1000 g by 10^8 and forgets to divide by dose shows failure to apply unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the survival challenges of Rhizobium vs. Azotobacter when applied to acidic soil (pH 5.0). Which is more tolerant and why?",
+     "a": "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes. Azotobacter tolerates pH down to ~5.5 due to its thick cyst walls and production of alginate slime that buffers pH. Thus Azotobacter is more tolerant. A student who says \"both die equally\" misses the physiological adaptation difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mycorrhiza can replace chemical phosphorus fertilizer completely in all crops.\" Defend or refute with two reasons.",
+     "a": "Refute. Reason 1: Mycorrhiza mobilizes existing soil phosphorus but cannot create phosphorus de novo; in severely P-deficient soils, external P is still needed. Reason 2: Mycorrhizal colonization varies by crop (e.g., brassicas are non-mycorrhizal) and soil conditions (high P fertilizer suppresses colonization). A student who agrees overlooks the dependency on native soil P and host compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small experiment to test whether a local isolate of Azotobacter fixes nitrogen more efficiently than a commercial strain. List the control, measurable variable, and one precaution.",
+     "a": "Control: Uninoculated sterile soil with same carbon source. Measurable variable: Acetylene reduction assay (ARA) rate (nmol C2H4/h/g soil) or total nitrogen increase by Kjeldahl after 30 days. Precaution: Maintain microaerophilic conditions (2–5% O2) because nitrogenase is O2-sensitive. A poor answer that uses \"plant height\" as the only measure confuses biofertilizer effect with plant genetics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

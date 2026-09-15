@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_007",
+   "title": "c12_ip_cbse_06_007",
+   "questions": [
+    {
+     "q": "What are the four components of the CSS box model, listed from innermost to outermost?",
+     "a": "The four components are: content, padding, border, margin. A wrong answer (e.g., missing one layer or wrong order) reveals the student hasn't internalized the nested structure, leading to errors in dimension calculations.",
+     "self_check": true
+    },
+    {
+     "q": "If an element has width: 300px, padding: 20px, border: 5px, and margin: 10px, what is its total rendered width in the default content-box model? Explain your calculation.",
+     "a": "Total width = content width (300) + left padding (20) + right padding (20) + left border (5) + right border (5) = 350px. Margin does not affect the element's own width but adds space outside. A wrong answer indicates confusion about which layers contribute to the element's box width versus external spacing.",
+     "self_check": true
+    },
+    {
+     "q": "A div has the following CSS: width: 400px; padding: 15px; border: 3px solid black; box-sizing: border-box;. What is the width of the content area inside the padding?",
+     "a": "With border-box, the declared width includes content, padding, and border. Content width = 400 - 2*15 (padding) - 2*3 (border) = 400 - 30 - 6 = 364px. A wrong answer suggests the student doesn't understand how box-sizing changes the meaning of width.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the default content-box model and border-box model. In which scenario would you prefer border-box for responsive design? Justify.",
+     "a": "In content-box, width applies only to content; padding and border expand the box. In border-box, width includes content, padding, and border. Border-box is preferred for responsive design because it allows setting a fixed width (e.g., 50%) and adding padding/border without breaking the layout. A poor justification shows lack of practical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"margin: 10px 20px 30px 40px;\". Explain what each value represents and how the browser interprets this shorthand. Then evaluate whether this shorthand can be used for padding and border as well.",
+     "a": "The values are top, right, bottom, left (clockwise). The same shorthand works for padding but not for border (border requires width, style, color). A wrong evaluation indicates confusion between property shorthands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a CSS rule for a card component that must be exactly 300px wide including a 2px border and 15px padding on all sides, with 20px margin outside. Write the CSS using border-box and calculate the content width.",
+     "a": "CSS: .card { box-sizing: border-box; width: 300px; padding: 15px; border: 2px solid #000; margin: 20px; } Content width = 300 - 2*15 - 2*2 = 300 - 30 - 4 = 266px. A poor answer may omit box-sizing or miscalculate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

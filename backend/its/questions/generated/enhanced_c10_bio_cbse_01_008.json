@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_008",
+   "title": "c10_bio_cbse_01_008",
+   "questions": [
+    {
+     "q": "Name the specific site in the human respiratory system where actual gas exchange between air and blood occurs, and state the approximate thickness of the barrier across which this exchange takes place.",
+     "a": "The site is the alveoli (alveolar sacs). The respiratory membrane (alveolar epithelium + capillary endothelium + fused basement membranes) is approximately 0.5 micrometers (0.5 μm) thick. A wrong answer such as \"trachea\" or \"bronchi\" reveals the student confuses conducting airways with respiratory airways; stating \"1 mm\" or \"cell membrane thickness\" shows lack of precision on the structural adaptation for diffusion.",
+     "self_check": true
+    },
+    {
+     "q": "During inhalation, the diaphragm contracts and flattens while the external intercostal muscles lift the ribs upward and outward. Explain why this causes air to flow INTO the lungs, referencing the pressure changes involved.",
+     "a": "Contraction of the diaphragm and external intercostal muscles increases the volume of the thoracic cavity. According to Boyle's law, an increase in volume decreases the intrapulmonary (intraalveolar) pressure below atmospheric pressure (typically to about -1 mmHg or 759 mmHg vs 760 mmHg). Air flows from higher pressure (atmosphere) to lower pressure (alveoli). A wrong answer that says \"diaphragm pushes air in\" or \"lungs suck air\" reveals a misconception that muscles directly push/pull air rather than creating a pressure gradient.",
+     "self_check": true
+    },
+    {
+     "q": "A person living at high altitude (e.g., Leh, Ladakh at 3500 m) has a lower arterial partial pressure of oxygen (PaO₂) than a person at sea level. Using the concept of partial pressure gradients, explain why gas exchange in the alveoli is less efficient at high altitude even though the percentage of oxygen in air remains 21%.",
+     "a": "At high altitude, atmospheric pressure is lower (e.g., ~650 mmHg at 3500 m). Since PO₂ = 0.21 × (atmospheric pressure - water vapour pressure), the partial pressure of oxygen in alveolar air drops significantly (from ~104 mmHg at sea level to ~60 mmHg at 3500 m). The diffusion gradient for O₂ from alveoli to blood (alveolar PO₂ - arterial PO₂) is reduced, slowing the rate of diffusion (Fick's law). A wrong answer focusing only on \"less oxygen\" without mentioning partial pressure reveals the student does not understand that diffusion is driven by partial pressure difference, not concentration percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations of the alveoli for gas exchange with the structural adaptations of the small intestine villi for nutrient absorption. Identify two similarities and one key difference in the transport mechanism after exchange.",
+     "a": "Similarities: (1) Both have a massive surface area (alveoli ~70 m², villi ~200 m²) created by extensive folding and microscopic projections. (2) Both have extremely thin exchange surfaces (alveolar epithelium and capillary endothelium are one cell thick; intestinal epithelium is one cell thick) to minimize diffusion distance. Difference: After exchange, O₂ and CO₂ are transported by blood (bulk flow via cardiovascular system), whereas absorbed nutrients (glucose, amino acids) enter blood capillaries (and fats enter lacteals) but then are transported via the hepatic portal vein to the liver first. A wrong answer stating \"both use blood\" for the difference misses the hepatic portal distinction; saying \"alveoli have cilia\" confuses conducting airways with exchange surface.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since exhalation is a passive process that does not require muscle contraction, the diaphragm must be completely relaxed and dome-shaped at the end of normal exhalation.\" Evaluate this statement. Is it fully correct? Justify your answer using the concept of residual volume.",
+     "a": "The statement is partially correct but incomplete. At the end of normal (tidal) exhalation, the diaphragm is indeed relaxed and dome-shaped, and the lungs still contain air called the functional residual capacity (FRC ≈ 2400 mL). However, the diaphragm is not \"completely relaxed\" in the sense of zero tone; it maintains some tonic contraction to keep the airway open. More importantly, even after maximal forced exhalation, about 1200 mL (residual volume) remains, so the lungs never fully collapse. A wrong answer saying \"yes, it's fully correct\" ignores residual volume and the fact that the respiratory system is never empty; saying \"exhalation uses abdominal muscles always\" confuses forced exhalation with normal breathing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using household items (balloons, plastic bottle, straw, clay) to model the mechanism of human inhalation and exhalation. Explain which parts represent the diaphragm, thoracic cavity, lungs, and trachea, and state one limitation of this model.",
+     "a": "Model: Cut the bottom off a plastic bottle. Insert a balloon (lung) through the neck, securing it around a straw (trachea) with clay. Stretch a second balloon (diaphragm) over the cut bottom. Pull the bottom balloon down → volume increases → pressure decreases → top balloon inflates (inhalation). Push bottom balloon up → volume decreases → pressure increases → top balloon deflates (exhalation). Limitation: The model shows volume-pressure changes but does not replicate the active role of intercostal muscles, the branching of bronchi/bronchioles, or the diffusion of gases across the alveolar membrane. A poor answer describes a model that doesn't show pressure change (e.g., blowing into a balloon) or misses the limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

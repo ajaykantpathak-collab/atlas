@@ -1,0 +1,286 @@
+{
+ "catalog": "catalog_class12_psychology_lepy103",
+ "concepts": [
+  {
+   "id": "lepy103.1",
+   "title": "Nature, Types and Sources of Stress",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nature, Types and Sources of Stress' refers to.",
+     "a": "Stress is the pattern of responses an organism makes when a stimulus event disturbs its inner balance and outruns its ability to cope; eustress is the helpful level that sharpens performance while distress wears the body down. It arrives as physical and environmental strain, as self-generated psychological pressure such as frustration and conflict, or as social strain from interactions, and its sources range from major life events through everyday hassles to traumatic events.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nature, Types and Sources of Stress'.",
+     "a": "Strain is the reaction to stressors; whether an event stresses you at all depends on how you perceive it, as the opening batsman and number-eleven batsman facing the same bowler show.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nature, Types and Sources of Stress', in plain ASCII form.",
+     "a": "stress_types = physical_environmental + psychological + social ; sources = life_events + hassles + traumatic_events",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.2",
+   "title": "Cognitive Appraisal in the Stress Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cognitive Appraisal in the Stress Process' refers to.",
+     "a": "In Lazarus's transactional account, feeling stressed depends on a two-step evaluation: primary appraisal labels a new or changing situation positive, neutral or negative, sorting negative events into harm already suffered, future threat, or challenge that can be overcome; secondary appraisal then weighs one's coping abilities and resources - mental, physical, personal, social - against those demands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cognitive Appraisal in the Stress Process'.",
+     "a": "Past success with similar situations and a sense of personal control shrink the stress experience; perceived controllability decides whether an event reads as threat or challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cognitive Appraisal in the Stress Process', in plain ASCII form.",
+     "a": "primary_appraisal = harm_or_threat_or_challenge ; secondary_appraisal = coping_resources vs event_demands",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.3",
+   "title": "Signs and Effects of Stress on Functioning",
+   "questions": [
+    {
+     "q": "Using the method 'Signs and Effects of Stress on Functioning', work with: behavioural = 24, cognitive = 40, emotional = 500, physiological = 80. Carry the chain through step by step and give the final value of stress_effects.",
+     "a": "644 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Signs and Effects of Stress on Functioning' and work with: behavioural = 150, cognitive = 400, emotional = 400, physiological = 10. Carry the chain through step by step and give the final value of stress_effects.",
+     "a": "960 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Signs and Effects of Stress on Functioning' refers to.",
+     "a": "Stress shows itself in physical, emotional and behavioural warning signs - sleep or eating difficulties, mood swings, poor concentration - and produces four major kinds of effects: emotional turbulence such as anxiety and depression, physiological arousal through adrenaline and cortisol, cognitive damage to decisions and short-term memory, and behavioural changes like disturbed sleep, absenteeism and heavier use of stimulants or tranquillisers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Signs and Effects of Stress on Functioning'.",
+     "a": "Prolonged exhaustion of body and mind in a demanding setting with little support is burnout; falling sick around examinations is a familiar sign of stress at work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Signs and Effects of Stress on Functioning', in plain ASCII form.",
+     "a": "stress_effects = emotional + physiological + cognitive + behavioural",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.4",
+   "title": "Stress-Related Illness Percentages",
+   "questions": [
+    {
+     "q": "Using the method 'Stress-Related Illness Percentages', work with: medical_visits = 40, stress_share_percent = 0.25. Carry the chain through step by step and give the final value of stress_visit_count.",
+     "a": "0.1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Stress-Related Illness Percentages' and work with: medical_visits = 240, stress_share_percent = 0.4. Carry the chain through step by step and give the final value of stress_visit_count.",
+     "a": "0.96 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Stress-Related Illness Percentages' refers to.",
+     "a": "Researchers credit stress with a role in roughly half to seventy per cent of all physical illnesses, and about sixty medical visits in every hundred are made chiefly for stress-related symptoms such as ulcers, asthma, allergies, headaches and high blood pressure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stress-Related Illness Percentages'.",
+     "a": "Multiply the number of visits or illness cases by the stress-related percentage to estimate the stress-linked share.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stress-Related Illness Percentages', in plain ASCII form.",
+     "a": "stress_visit_count = medical_visits * stress_share_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.5",
+   "title": "General Adaptation Syndrome (GAS)",
+   "questions": [
+    {
+     "q": "Using the method 'General Adaptation Syndrome (GAS)', work with: alarm_reaction = 400, exhaustion = 20, resistance = 20. Carry the chain through step by step and give the final value of gas_stages.",
+     "a": "440 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'General Adaptation Syndrome (GAS)' and work with: alarm_reaction = 8, exhaustion = 50, resistance = 360. Carry the chain through step by step and give the final value of gas_stages.",
+     "a": "418 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'General Adaptation Syndrome (GAS)' refers to.",
+     "a": "Selye's General Adaptation Syndrome describes the body's fixed three-stage reply to any prolonged stressor: an alarm reaction in which the adrenal-pituitary-cortex system releases hormones and prepares fight or flight, a resistance stage where the parasympathetic system rations bodily resources while coping proceeds, and an exhaustion stage in which resources run dry and stress-related diseases such as high blood pressure take hold.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'General Adaptation Syndrome (GAS)'.",
+     "a": "The same physiological pattern appears whatever the stressor, but critics say Selye gave psychological appraisal far too small a role.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'General Adaptation Syndrome (GAS)', in plain ASCII form.",
+     "a": "gas_stages = alarm_reaction + resistance + exhaustion",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.6",
+   "title": "Coping with Stress: Strategies and Focus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coping with Stress: Strategies and Focus' refers to.",
+     "a": "Coping is a dynamic, situation-specific set of concrete responses meant to solve the problem and soften the stress; Endler and Parker separate task-oriented, emotion-oriented and avoidance-oriented strategies, while Lazarus and Folkman divide coping into problem-focused efforts that alter the event and emotion-focused efforts that limit emotional disruption.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coping with Stress: Strategies and Focus'.",
+     "a": "People generally reach for problem-focused coping more often than emotion-focused coping; poor copers show weaker natural killer cell activity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Coping with Stress: Strategies and Focus', in plain ASCII form.",
+     "a": "endler_parker = task_oriented + emotion_oriented + avoidance_oriented ; lazarus_folkman = problem_focused + emotion_focused",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.7",
+   "title": "Stress Management Techniques and the Exercise Prescription",
+   "questions": [
+    {
+     "q": "Using the method 'Stress Management Techniques and the Exercise Prescription', work with: minutes_per_session = 3, sessions_per_week = 150. Carry the chain through step by step and give the final value of weekly_exercise_minutes.",
+     "a": "450 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Stress Management Techniques and the Exercise Prescription' and work with: minutes_per_session = 300, sessions_per_week = 80. Carry the chain through step by step and give the final value of weekly_exercise_minutes.",
+     "a": "24000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Stress Management Techniques and the Exercise Prescription' refers to.",
+     "a": "Stress management trains people in relaxation that runs from the lower body up to the facial muscles, yogic meditation that refocuses attention, biofeedback with its three stages of awareness, quiet control and transfer to daily life, creative visualisation toward a realistic goal, Meichenbaum's stress inoculation training with assessment, stress reduction and follow-through phases, and regular exercise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stress Management Techniques and the Exercise Prescription'.",
+     "a": "The chapter's exercise prescription is at least four sessions a week of thirty minutes each, with warm-up, exercise and cool-down phases in every session.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stress Management Techniques and the Exercise Prescription', in plain ASCII form.",
+     "a": "weekly_exercise_minutes = sessions_per_week * minutes_per_session",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.8",
+   "title": "Scoring the Stressful Life Events Scale",
+   "questions": [
+    {
+     "q": "How many life changes make up the Presumptive Stressful Life Events Scale? Use the method 'Scoring the Stressful Life Events Scale'. Work with: event_value_a = 2500, event_value_b = 120000, event_value_c = 50000. Carry the chain through step by step and give the final value of stress_score.",
+     "a": "172500 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the combined stress score for a person who faced an unexpected accident and a change in sleeping habits. Use the method 'Scoring the Stressful Life Events Scale'. Work with: event_value_a = 12000, event_value_b = 80000, event_value_c = 12000. Carry the chain through step by step and give the final value of stress_score.",
+     "a": "104000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Scoring the Stressful Life Events Scale' refers to.",
+     "a": "Holmes and Rahe's life-event measure, adapted for India by Singh, Kaur and Kaur as the Presumptive Stressful Life Events Scale, is a self-rating questionnaire of fifty-one life changes, each carrying a fixed severity value - death of a spouse 95, death of a close family member 66, personal illness 56, examination failure 43 - and a respondent's stress score is the weighted sum of the events checked over the past year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scoring the Stressful Life Events Scale'.",
+     "a": "Both pleasant and unpleasant changes count, because any change disturbs equilibrium; on average about two stressful life events a year pass without overt illness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Scoring the Stressful Life Events Scale', in plain ASCII form.",
+     "a": "stress_score = weighted_sum_of_checked_life_events",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.9",
+   "title": "Hardiness and Resilience",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hardiness and Resilience' refers to.",
+     "a": "Kobasa's hardiness is the stress-resistant profile made of the three Cs - commitment to what one does, a sense of control over one's life, and seeing change as challenge rather than threat; resilience is the dynamic developmental capacity to keep positive adjustment, to bounce back under adversity, and it draws on three resources: I HAVE trusted people around me, I AM inwardly strong, and I CAN solve the problems I face.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hardiness and Resilience'.",
+     "a": "A child needs more than one resilience resource - self-esteem alone without a trusted supporter or problem-solving skill does not make a child resilient.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hardiness and Resilience', in plain ASCII form.",
+     "a": "hardiness = commitment + control + challenge ; resilience_resources = i_have + i_am + i_can",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.10",
+   "title": "Life Skills, Positive Health and Social Support",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Life Skills, Positive Health and Social Support' refers to.",
+     "a": "Life skills are learnable abilities for adaptive, positive behaviour - assertiveness that can say no without self-consciousness, time management built on valuing one's hours, rational thinking that challenges distorted beliefs, relationship skills of listening and expressing, self-care with slow diaphragmatic breathing, and dropping unhelpful habits such as perfectionism and procrastination; they feed positive health, which adds diet, exercise, positive attitude, optimism and social support, where perceived support quality matters more than the size of one's social network.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Life Skills, Positive Health and Social Support'.",
+     "a": "Health is complete physical, mental, social and spiritual well-being, not just the absence of disease; optimists use problem-focused coping while pessimists deny or abandon the goal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Life Skills, Positive Health and Social Support', in plain ASCII form.",
+     "a": "positive_health = healthy_body + quality_relationships + purpose_in_life + self_regard + resilience ; support_quality beats network_size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy103.11",
+   "title": "Stress and the Immune System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stress and the Immune System' refers to.",
+     "a": "Psychoneuroimmunology studies how mind and brain affect immune working: leucocytes guard the body, with T cells destroying invaders, B cells manufacturing antibodies, and natural killer cells fighting viruses and tumours; stress lowers natural killer cell cytotoxicity, which is why the highly stressed - examination candidates, the bereaved, the severely depressed - fall ill more easily, while social support keeps immune functioning better.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stress and the Immune System'.",
+     "a": "HIV attacks the T-helper cells; negative emotions trigger stress hormones that weaken immunity and thereby damage mental and physical health.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stress and the Immune System', in plain ASCII form.",
+     "a": "immune_guardians = t_cells + b_cells + natural_killer_cells ; stress lowers nk_cytotoxicity",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_012",
+   "title": "c11_ps_cbse_14_012",
+   "questions": [
+    {
+     "q": "Which constitutional article empowers Parliament to create or abolish a Legislative Council in a state, and what majority is required in the state Legislative Assembly for the resolution?",
+     "a": "Article 169 empowers Parliament to create/abolish Legislative Councils. The state Legislative Assembly must pass a resolution by a special majority (majority of total membership + 2/3 of members present and voting). Parliament then passes the law by simple majority. A wrong answer (e.g., citing Article 168 or saying Parliament needs special majority) reveals confusion between the constitutional provision for existence of legislatures (Art. 168) vs. the power to modify them (Art. 169), and misunderstanding that this is not a constitutional amendment under Art. 368.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution make the Vidhan Sabha supreme over the Vidhan Parishad in matters of Money Bills and confidence motions, unlike the near-equality of Lok Sabha and Rajya Sabha on non-Money Bills?",
+     "a": "The Vidhan Sabha is directly elected by the people on universal adult franchise, embodying popular sovereignty at the state level. The Vidhan Parishad is indirectly elected (by MLAs, local bodies, graduates, teachers, Governor's nominees) and partly nominated. Since the Council of Ministers is collectively responsible only to the Vidhan Sabha (Art. 164), allowing the unelected/indirectly elected Parishad to block Money Bills or topple the government would violate democratic accountability. A wrong answer (e.g., \"Parishad is weaker because it's smaller\" or \"Governor controls it\") misses the core principle: democratic legitimacy flows from direct election, making the Assembly the primary house.",
+     "self_check": true
+    },
+    {
+     "q": "A state Legislative Assembly passes a resolution by special majority requesting creation of a Legislative Council. The ruling party at the Centre opposes this. Can Parliament refuse to enact the law? Explain the constitutional position.",
+     "a": "Parliament is NOT constitutionally bound to enact the law. Article 169 says Parliament \"may\" by law provide for creation/abolition - the word \"may\" indicates discretion. While the Assembly's resolution is a prerequisite, Parliament can choose not to act. This reflects federal balance: states initiate, but Union legislature decides, preventing unilateral state action altering legislative structure. A wrong answer (e.g., \"Parliament must pass it\" or \"Governor can block it\") confuses Art. 169 with Art. 368 (constitutional amendment) or misunderstands the permissive language of the article.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of Vidhan Parishad with Rajya Sabha. Identify two similarities and two differences in their election methods, and explain how these differences reflect the distinct federal principles at state vs. union level.",
+     "a": "Similarities: Both use indirect election (proportional representation by single transferable vote); both have nominated members (12 in Rajya Sabha by President, 1/6 in Parishad by Governor). Differences: (1) Rajya Sabha represents States as federal units (elected by State Legislative Assemblies); Vidhan Parishad represents functional interests (local bodies, graduates, teachers) within the state. (2) Rajya Sabha has no nominated members from specific professions; Parishad has 1/12 each from graduates and teachers. This reflects that Union bicameralism protects state interests (federalism), while state bicameralism accommodates diverse expertise and local governance experience (deliberative democracy). A wrong answer focusing only on numbers or terms misses the conceptual distinction: Rajya Sabha = federal chamber; Vidhan Parishad = functional/representative chamber.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Legislative Councils are redundant because they only delay legislation and most states function well without them. India should abolish all Vidhan Parishads.\" Use constitutional design principles and empirical evidence.",
+     "a": "The argument is partially valid but constitutionally incomplete. Valid: 22 of 28 states are unicameral and function effectively; Councils can be used for political patronage (Governor's nominees) or delaying tactics. However, constitutional design (Art. 169) deliberately makes Councils optional - states choose based on size, diversity, need for revising chamber. Abolishing all would require each state Assembly to pass resolution + Parliament law; a uniform abolition violates federal choice. Empirically, Councils in UP, Maharashtra, Karnataka have contributed to detailed scrutiny (e.g., Maharashtra's Council committees on agriculture, education). The better evaluation: retain optionality, reform composition (reduce patronage nominations), strengthen committee systems. A wrong answer taking absolute position (all good/all bad) ignores the constitutional philosophy of flexible federalism and the evidence of varied state experiences.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal to reform Vidhan Parishad composition to make it more representative and less prone to political patronage, while retaining its revising function. Specify which articles you would amend and the new composition formula.",
+     "a": "Amend Article 171 (Composition of Legislative Councils). Proposed formula for a state with Council strength N: (1) 40% elected by MLAs (PR-STV) - retains link to popular house; (2) 25% elected by local bodies (panchayats/municipalities) - strengthens grassroots voice; (3) 15% elected by graduates - retains expertise; (4) 10% elected by teachers - retains academic voice; (5) 10% nominated by Governor from eminent persons in arts, science, social service (with consultation with CM and Leader of Opposition) - reduces patronage. Remove the separate \"1/12 each graduates/teachers\" rigid fractions; make percentages flexible based on state population. Retain 1/3 retirement every 2 years (Art. 172). A poor answer would keep the existing complex fractions or increase Governor's nomination quota, missing the reform objective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

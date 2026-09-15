@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_007",
+   "title": "c12_phy_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the principle of the meter bridge and write the formula for unknown resistance X in terms of known resistance R and balancing lengths \\(l_1\\) and \\(l_2\\).",
+     "a": "The meter bridge works on the Wheatstone bridge principle. At balance, the unknown resistance \\(X = R \\frac{l_1}{l_2}\\), where \\(l_1\\) is the length from the left end to the jockey (in cm) and \\(l_2 = 100 - l_1\\) cm. A wrong answer (e.g., \\(X = R \\frac{l_2}{l_1}\\) or using 1 m instead of cm) reveals confusion about which gap corresponds to which length segment — a very common error that leads to inverted resistance values in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the meter bridge wire be of uniform cross-section and material? What would happen to the balance condition if the wire diameter increased linearly from left to right?",
+     "a": "Uniform cross-section ensures constant resistance per unit length (\\(\\rho/A\\)), making resistance directly proportional to length (\\(R \\propto l\\)). This allows the simple length ratio \\(l_1/l_2\\) to replace the resistance ratio. If the diameter increases linearly, resistance per unit length decreases along the wire; the balance condition would then involve integrals of \\(1/A(x)\\), and the null point would shift toward the thinner (higher resistance per cm) end for the same resistance ratio. A student who says \"the formula still works because the wire is still 1 m long\" fails to grasp that the proportionality \\(R \\propto l\\) is the linchpin of the meter bridge.",
+     "self_check": true
+    },
+    {
+     "q": "In a meter bridge experiment, a standard resistance \\(R = 12\\ \\Omega\\) is placed in the left gap and an unknown resistance X in the right gap. The null point is found at 45.0 cm from the left end. Calculate X. If the unknown wire has length 1.50 m and diameter 0.40 mm, find its resistivity.",
+     "a": "**Step 1:** \\(l_1 = 45.0\\ \\text{cm},\\ l_2 = 55.0\\ \\text{cm}\\).  \n**Step 2:** \\(X = R \\frac{l_1}{l_2} = 12 \\times \\frac{45.0}{55.0} = 9.818\\ \\Omega\\).  \n**Step 3:** Wire length \\(L = 1.50\\ \\text{m}\\), diameter \\(d = 0.40\\ \\text{mm} = 4.0 \\times 10^{-4}\\ \\text{m}\\).  \nCross-sectional area \\(A = \\pi (d/2)^2 = \\pi (2.0 \\times 10^{-4})^2 = 1.257 \\times 10^{-7}\\ \\text{m}^2\\).  \n**Step 4:** Resistivity \\(\\rho = \\frac{X A}{L} = \\frac{9.818 \\times 1.257 \\times 10^{-7}}{1.50} = 8.22 \\times 10^{-7}\\ \\Omega\\ \\text{m}\\).  \nA wrong answer (e.g., using \\(l_1\\) in meters without converting, or forgetting to square the radius) exposes unit conversion errors and confusion between diameter and radius — the most frequent mistakes in board practical calculations.",
+     "self_check": true
+    },
+    {
+     "q": "A student obtains balancing lengths of 52.0 cm and 47.5 cm when the unknown resistance X and a standard resistance \\(R = 10\\ \\Omega\\) are interchanged in the two gaps. Explain why the two values of X calculated from these readings differ, and show how to obtain a more accurate value of X that eliminates end corrections to first order.",
+     "a": "The difference arises due to **end resistances** (contact resistances at the wire ends) which add effective lengths \\(\\alpha\\) (left end) and \\(\\beta\\) (right end) to the measured lengths.  \nFirst reading (R left, X right): \\(X_1 = 10 \\times \\frac{52.0}{48.0} = 10.83\\ \\Omega\\).  \nSecond reading (X left, R right): \\(X_2 = 10 \\times \\frac{47.5}{52.5} = 9.05\\ \\Omega\\).  \nThe true X is the geometric mean: \\(X = \\sqrt{X_1 X_2} = \\sqrt{10.83 \\times 9.05} = 9.90\\ \\Omega\\).  \nThis works because end corrections affect the two measurements in opposite ways; the geometric mean cancels them to first order. A student who simply averages the two values (9.94 Ω) or takes only the first reading shows they don't understand the systematic nature of end corrections — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To get the most accurate result in a meter bridge, I should choose the known resistance R such that the balance point is as close to 10 cm as possible.\" Evaluate this claim with physical reasoning.",
+     "a": "The claim is **false**. The meter bridge sensitivity (change in galvanometer deflection per unit change in resistance) is maximum when the four bridge arms are nearly equal, i.e., when the balance point is near 50 cm. At 10 cm, the ratio arms are 1:9, making the bridge extremely insensitive — a large change in X produces a tiny galvanometer deflection, increasing measurement uncertainty. The percentage error in X is minimized at \\(l_1 = 50\\ \\text{cm}\\). A student who agrees with the claim confuses \"small length\" with \"high precision\" and misses the concept of bridge sensitivity — a frequent error in CBSE competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine the temperature coefficient of resistance (\\(\\alpha\\)) of a given wire using a meter bridge. List the additional equipment needed and the procedure.",
+     "a": "**Equipment:** Meter bridge, resistance box, the wire under test, thermometer, beaker with water, heater, stirrer, connecting wires, galvanometer, cell.  \n**Procedure:**  \n1. Measure the wire's resistance \\(R_0\\) at room temperature \\(T_0\\) using the meter bridge (balance point \\(l_0\\)).  \n2. Immerse the wire in a water bath, heat gradually, and measure resistance \\(R_t\\) at several temperatures \\(t\\) (e.g., 30°C, 40°C, 50°C, 60°C) by finding new balance points.  \n3. Plot \\(R_t\\) vs \\(t\\); the slope gives \\(R_0 \\alpha\\).  \n4. Calculate \\(\\alpha = \\frac{1}{R_0} \\frac{dR}{dt}\\).  \n**Key precaution:** Use a low current to avoid self-heating. A good answer must mention stirring for uniform temperature, using a water bath for even heating, and the linear approximation \\(R_t = R_0[1 + \\alpha(t - T_0)]\\). Missing any of these shows incomplete experimental design thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_08_014",
+   "title": "c11_eng_h_cbse_08_014",
+   "questions": [
+    {
+     "q": "What is the primary difference between note-making and summarising in terms of output format and purpose?",
+     "a": "Note-making uses abbreviated points, nominalised verbs, and symbols for personal reference; summarising expands those points into full, connected sentences using connectors to report main ideas to an audience. A wrong answer (e.g., \"summary is just shorter notes\") reveals the student confuses the *process* (both start with underlining) with the *product* (notes vs. prose).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a summary by copying three sentences from the original text, deleting a few adjectives, and joining them with \"and\". Why does this not meet the NCERT criteria for summarising?",
+     "a": "Summarising requires *paraphrasing* (rephrasing in own words) and *synthesis* (combining ideas), not mere deletion. The student's method retains original phrasing (plagiarism risk) and fails to use connectors that show logical relationships (cause-effect, contrast). A wrong answer indicates the student views summarising as a cutting exercise rather than a rewriting exercise.",
+     "self_check": true
+    },
+    {
+     "q": "Read this 60-word excerpt: \"The Himalayan monsoon shifts northward every 10,000 years due to axial tilt changes. This brings rain to the Sahara, turning it green. Around 5,000 years ago the monsoon retreated south. The soil lost moisture-retention capacity, creating a runaway drying effect. Today the Sahara is a desert.\" Write a 25-word summary following the NCERT steps.",
+     "a": "**Steps:** 1. Underline: monsoon shifts north → green Sahara; monsoon retreats → soil dries → desert. 2. Abridge verbs: shifts/brings → shifting/bringing; retreated/lost/creating → retreating/losing/creating. 3. Combine with connectors: \"Cyclical monsoon shifts caused by axial tilt periodically green the Sahara; its retreat triggers irreversible desertification.\" (23 words). A wrong answer (e.g., listing points with bullets) shows failure to convert to connected prose.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two summaries of the soybean text (NCERT p.78). Summary A: \"Soybean is a legume growing in varied soils. It yields beans, sprouts, processed foods, candles, bio-diesel. Rich in protein, vitamins, minerals, fibres; low fat/cholesterol. Lowers LDL, reduces heart risk. Soymilk is lactose-free, good for allergies, can be homemade.\" Summary B: \"Soybean, a versatile legume adaptable to diverse soils, yields beans, sprouts, and numerous food products plus industrial uses. Its nutritional profile — high protein, vitamins, minerals, fibre, zero cholesterol — lowers LDL and coronary risk. Lactose-free soymilk suits milk-allergic people and is easily home-prepared.\" Which better demonstrates the NCERT skill? Justify.",
+     "a": "Summary B is superior. It uses *apposition* (\"a versatile legume...\"), *present participles* (\"adaptable\", \"yielding\"), and *postponed main verbs* to condense information — techniques explicitly modelled in the textbook (p.79). Summary A is a bullet-list in sentence form, lacking syntactic compression and flow. A student choosing A misses the lesson's core: summarising is *syntactic transformation*, not just selection.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"Summarise the given passage in 80 words.\" The passage is 240 words. A student writes a 110-word summary covering all points perfectly. How should this be marked per CBSE guidelines? Defend your judgment.",
+     "a": "The summary should be penalised (typically 1 mark deduction for exceeding word limit by >10%). CBSE marking schemes explicitly reward *conciseness* as part of the skill. The student failed the \"one-third length\" discipline central to the NCERT definition. A wrong answer (\"full marks for content\") reveals confusion between *comprehension* (getting points) and *summarising* (compressing points).",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence summary of this micro-passage: \"Tenzin, a 14-year-old monk in Tawang, walks 6 km daily to school through snow. His father, a yak herder, insists on education despite needing help. Tenzin wants to become a doctor to serve his village. The school lacks a science lab; he studies from shared textbooks.\" Focus on the *central conflict* and *aspiration*.",
+     "a": "**Expected answer:** \"Despite his father's reliance on him for yak herding, 14-year-old Tenzin treks through snow to a poorly equipped school, driven by his dream of becoming a doctor for his village.\" (28 words). Criteria: 1) Identifies protagonist + constraint (father's need vs. son's walk), 2) Captures central conflict (duty vs. education), 3) States aspiration + irony (doctor dream vs. no lab). A poor answer lists facts sequentially without synthesising the tension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

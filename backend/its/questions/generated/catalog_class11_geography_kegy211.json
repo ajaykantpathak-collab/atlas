@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy211",
+  "concepts": [
+    {
+      "id": "kegy.211.1.1",
+      "questions": [
+        {"q": "Who devised the most widely used empirical classification of world climates? (one word)", "a": "Koeppen"},
+        {"q": "How many major climate groups does the Koeppen scheme recognise (A to E)? (number)", "a": "5"},
+        {"q": "Which letter denotes Koeppen's tropical rainy group? (one letter)", "a": "A"},
+        {"q": "Which letter denotes Koeppen's dry climates? (one letter)", "a": "B"},
+        {"q": "Which Koeppen group covers cold snowy climates? (one letter)", "a": "D"},
+        {"q": "Which Koeppen group covers polar climates? (one letter)", "a": "E"},
+        {"q": "On what two data elements did Koeppen base his climate classification? (two words)", "a": "temperature, precipitation"}
+      ]
+    },
+    {
+      "id": "kegy.211.2.1",
+      "questions": [
+        {"q": "By about how many degrees has global temperature risen over the past century? (number)", "a": "0.6"},
+        {"q": "Which human activity, besides deforestation, drives greenhouse gas emissions? (two words)", "a": "burning fossil fuels"},
+        {"q": "What are the heat-trapping emissions from industry and farming collectively called? (two words)", "a": "greenhouse gases"},
+        {"q": "Which frozen features retreat as evidence of warming? (one word)", "a": "glaciers"},
+        {"q": "Name one natural factor of climate change besides volcanoes. (one word)", "a": "orbital"},
+        {"q": "Rising seas follow the thermal expansion of oceans and the melting of what? (one word)", "a": "ice"},
+        {"q": "Which land use change, besides fossil fuel burning, adds carbon dioxide? (one word)", "a": "deforestation"}
+      ]
+    },
+    {
+      "id": "kegy.211.3.1",
+      "questions": [
+        {"q": "Which Koeppen type describes India's west coast monsoon climate? (two letters/digits)", "a": "Am"},
+        {"q": "Which Koeppen type covers the interior savanna of India? (two characters)", "a": "Aw"},
+        {"q": "Which Koeppen type is the hot desert climate of northwest India? (four characters)", "a": "BWhw"},
+        {"q": "Which Koeppen type is the humid subtropical climate of the northern plains? (three characters)", "a": "Cwg"},
+        {"q": "Which Indian terrain carries highland climates in the Koeppen scheme? (one word)", "a": "Himalayas"},
+        {"q": "How many Koeppen climate types are reproduced within India in this account? (number)", "a": "5"},
+        {"q": "Which coast of India falls in the Am monsoon climate? (two words)", "a": "west coast"}
+      ]
+    }
+  ]
+}

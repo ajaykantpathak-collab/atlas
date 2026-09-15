@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_006",
+   "title": "c12_hs_cbse_07_006",
+   "questions": [
+    {
+     "q": "A newborn exhibits the Moro reflex when startled by a loud noise. At what age should this reflex typically disappear, and what does its persistence beyond that age suggest neurologically?",
+     "a": "The Moro reflex typically integrates (disappears) by 4-6 months. Persistence beyond 6 months suggests possible upper motor neuron lesion or cerebral palsy, as primitive reflexes are normally inhibited by developing cortical control. A wrong answer (e.g., \"disappears at birth\" or \"persists normally till 12 months\") reveals confusion between primitive reflexes (which must integrate for voluntary movement to emerge) and postural reflexes (which emerge later and persist).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an infant typically achieves head control (lifting head in prone) BEFORE developing the ability to sit independently, using the principles of cephalocaudal development and sensory-motor integration.",
+     "a": "Cephalocaudal development means neural maturation proceeds head-to-tail: cervical spinal cord and brainstem centers controlling neck/trunk extensors mature before lumbar centers for hip/trunk control. Head control also requires vestibular and visual input to stabilize the head in space — sensory systems that mature early. Sitting independently additionally demands mature proprioception, trunk rotation, and protective extension reactions (parachute reflex) which emerge ~6-7 months. A wrong answer citing only \"muscle strength\" misses the neural maturation sequence and sensory prerequisites.",
+     "self_check": true
+    },
+    {
+     "q": "A 5-month-old infant is brought for a well-baby visit. The parent reports the baby rolls from back to front but not front to back, grasps a rattle placed in the hand but doesn't reach for it, and visually tracks a toy 180 degrees. Which milestone is MOST delayed for age, and what single assessment would best clarify the concern?",
+     "a": "Not reaching for a toy (voluntary reach) is most delayed — typical emergence is 4-5 months. Rolling front-to-back usually emerges ~5-6 months (back-to-front ~4-5 mo), so that's borderline. Palmar grasp reflex integrates ~3-4 months, replaced by voluntary grasp ~5 months; the baby still using reflexive grasp suggests delay. Best single assessment: observe if baby visually fixates on toy THEN extends arm toward it (reach requires visual-motor integration). If baby looks but doesn't reach, assess trunk/shoulder stability in supported sitting. A wrong answer focusing only on rolling misses that reach is a finer motor milestone with earlier typical onset.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the developmental trajectory of vision versus hearing in infancy. Why does auditory localization mature before visual depth perception, and how does this sequence affect early social interaction?",
+     "a": "Hearing is functional at birth (fetus hears in utero); auditory localization (turning to sound) emerges ~2-3 months. Vision at birth is 20/400, color perception absent, binocular fusion/depth perception develops ~3-5 months. Auditory localization matures earlier because cochlear mechanics are mature at birth while retinal cones, myelination of optic tracts, and cortical visual areas require postnatal experience. This sequence means infants respond to caregiver's voice before making sustained eye contact — early social bonding is auditory-first. A wrong answer claiming \"vision develops first\" confuses anatomical presence with functional maturity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If an infant skips crawling and goes straight to walking, it indicates advanced development and no intervention is needed.\" Justify your position with motor development principles.",
+     "a": "The statement is FALSE. Crawling (typically 7-10 months) provides critical weight-bearing through hands (developing palmar arches for fine motor), cross-lateral coordination (corpus callosum integration), and vestibular-proprioceptive mapping of 3D space. Skipping crawling may indicate low tone, asymmetry, or sensory avoidance — not advancement. Some typical infants skip crawling, but assessment must check: symmetric limb use, ability to transition in/out of sitting, and quality of movement. A wrong answer accepting the statement misses that motor milestones are not a checklist but a sequence where each stage builds neural infrastructure for the next.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute observational screening protocol for a community health worker to identify 6-month-olds at risk for motor delay, using only household items (no standardized tools). Specify 5 observable behaviors, the expected response for typical development, and the referral trigger for each.",
+     "a": "Protocol: (1) Pull-to-sit: hold hands, gently pull from supine — typical: head stays in line with trunk (no head lag); trigger: persistent head lag >50% trials. (2) Supported standing: hold upright, feet on surface — typical: bears weight, extends hips/knees; trigger: stiff scissoring or no weight-bearing. (3) Prone pivot: place toy to side — typical: pivots/reaches; trigger: no attempt or only rolls passively. (4) Transfer object: offer rattle, then second — typical: releases first, grasps second; trigger: persistent fisting or no release. (5) Visual-motor reach: dangle toy at midline — typical: reaches with both hands symmetrically; trigger: one-sided reach or no reach. A poor protocol tests only milestones without quality observation (e.g., \"sits?\" without checking protective extension).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

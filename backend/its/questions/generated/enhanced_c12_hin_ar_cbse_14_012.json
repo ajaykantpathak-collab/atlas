@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_012",
+   "title": "c12_hin_ar_cbse_14_012",
+   "questions": [
+    {
+     "q": "पाठ में फखरुद्दीन के जन्म-वर्ष और मृत्यु-वर्ष क्या दिए गए हैं? (केवल तथ्य लिखें)",
+     "a": "**Correct answer:** जन्म: 1907, मृत्यु: 1979 (पाठ की पहली पंक्ति: \"जन्म % 1907... मृत्यु % 1979\")।\n**Wrong answer reveals:** If a student writes \"1907-1979\" without labeling or gives approximate years (e.g., \"1900 के आसपास\"), they confuse *literal retrieval* with *general knowledge*. Literal questions demand **exact textual fidelity** — no paraphrasing, no approximation. This error costs 1-mark questions in board exams where \"पाठ के अनुसार\" is explicitly asked.",
+     "self_check": true
+    },
+    {
+     "q": "\"फखरुद्दीन की कविता में लोकजीवन की सहज अभिव्यक्ति है\" — इस कथन का अर्थ अपने शब्दों में समझाइए। यह कथन पाठ के किस भाग में आया है?",
+     "a": "**Correct answer:** अर्थ: फखरुद्दीन की कविता में सामान्य जनजीवन (किसान, मजदूर, स्त्रियाँ) के अनुभव, भावनाएँ और संघर्ष बिना कृत्रिम अलंकार या जटिल बिंबों के, सीधी-सरल भाषा में व्यक्त हुए हैं। स्थान: पाठ के दूसरे अनुच्छेद में (\"फखरुद्दीन की कविता... लोकजीवन की सहज अभिव्यक्ति है\")।\n**Wrong answer reveals:** If a student only explains the meaning but cannot *locate* the sentence, they treat inference as pure opinion — missing that **inferential answers must be anchored in a specific textual locus**. If they quote a different sentence (e.g., about \"मानवीय मूल्य\"), they fail to map the *exact* textual evidence to the claim. This is the #1 reason students lose marks in 3-mark \"स्पष्ट कीजिए\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ में आए \"वुकलदर ;कसह\" (वुकलदर ;कसह) शब्द का अर्थ लिखें और बताएं कि लेखक ने फखरुद्दीन के लिए इस शब्द का प्रयोग क्यों किया है?",
+     "a": "**Correct answer:** अर्थ: \"वुकलदर\" = स्वतंत्र/मुक्त (पाठ की शब्दावली सूची: \"वुकलदर & फो\"क;-हक्स लस मिब मब गकव\")। कारण: फखरुद्दीन किसी राजनैतिक दल, विचारधारा या संस्था से बंधे नहीं थे; वे स्वतंत्र चेतना के कवि थे जो जनपक्षधरता को ही अपना धर्म मानते थे (पाठ: \"वुकलदर उघा जग लडक] टस फडककड उघा कू लडक] टस ड,डजक, डक यस[क्क फेकुस एसा मेरा\")।\n**Wrong answer reveals:** If a student defines \"वुकलदर\" as \"बेबस\" or \"लाचार\" (common confusion with \"विवश\"), they haven't used the **text's own glossary** (शब्दार्थ खंड). If they say \"क्योंकि वे गरीब थे\", they impose external assumption instead of using the text's explicit justification: \"किसी सिद्धांत, राजनैतिक दल या संस्था से बंधे नहीं थे\". This tests **vocabulary-in-context + inferential reasoning** — a combined skill CBSE loves.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ में फखरुद्दीन की कविता की दो विशेषताएँ बताई गई हैं: (1) लोकजीवन की सहज अभिव्यक्ति, (2) मानवीय मूल्यों की प्रतिष्ठा। इन दोनों में क्या अंतर्संबंध है? पाठ के प्रमाण देकर समझाइए।",
+     "a": "**Correct answer:** दोनों विशेषताएँ **जनपक्षधरता** से जुड़ी हैं। लोकजीवन की सहज अभिव्यक्ति का अर्थ है जनता के वास्तविक अनुभवों को आवाज़ देना; मानवीय मूल्यों की प्रतिष्ठा का अर्थ है उन अनुभवों में निहित गरिमा, करुणा और संघर्ष-चेतना को पहचानना। पाठ प्रमाण: \"उसकी कविता... जनता के सुख-दुःख, आशा-निराशा का चित्रण करती है\" (लोकजीवन) और \"मानवीय मूल्यों की प्रतिष्ठा... उसकी कविता का केंद्रीय सरोकार है\" (मानवीय मूल्य)। लेखक स्पष्ट करते हैं: \"लोकजीवन की सहज अभिव्यक्ति... मानवीय मूल्यों की प्रतिष्ठा के बिना अधूरी है\"।\n**Wrong answer reveals:** If a student lists the two features separately without showing the *link* (e.g., \"पहली विशेषता X है, दूसरी Y है\"), they treat analysis as mere enumeration. The question asks \"क्या अंतर्संबंध है\" — this demands **synthesis**, not retrieval. Students who miss this lose the 2nd and 3rd marks in a 3-mark question. The trap: thinking \"दो विशेषताएँ\" = \"दो अलग-अलग उत्तर\".",
+     "self_check": true
+    },
+    {
+     "q": "लेखक फखरुद्दीन को \"लोककवि\" कहने के बजाय \"जनकवि\" क्यों मानते हैं? पाठ के आधार पर तर्कसंगत निर्णय दीजिए।",
+     "a": "**Correct answer:** \"लोककवि\" का संकीर्ण अर्थ है — केवल लोकगीत/परंपरागत शैली में लिखने वाला; \"जनकवि\" का व्यापक अर्थ है — जनता के पक्ष में, उसकी चेतना को स्वर देने वाला, चाहे शैली कुछ भी हो। पाठ प्रमाण: लेखक लिखते हैं — \"फखरुद्दीन... लोककवि नहीं, जनकवि हैं... उनकी कविता लोकजीवन की सहज अभिव्यक्ति होने के साथ-साथ मानवीय मूल्यों की प्रतिष्ठा भी करती है\"। वे फखरुद्दीन की कविता को \"लोकजीवन की सहज अभिव्यक्ति\" *और* \"मानवीय मूल्यों की प्रतिष्ठा\" — दोनों मानते हैं, जो \"जनकवि\" की परिधि में आता है।\n**Wrong answer reveals:** If a student says \"दोनों शब्द समान हैं\" or \"लोककवि ज्यादा अच्छा लगता है\", they miss the **conceptual distinction** the author deliberately builds. The chapter spends a full paragraph differentiating them (पैराग्राफ 3: \"लोककवि... जनकवि...\")। This is an **evaluate-level** trap: students must *judge* the author's terminological choice using textual criteria, not personal preference.",
+     "self_check": true
+    },
+    {
+     "q": "मान लीजिए आप फखरुद्दीन की किसी कविता का शीर्षक \"नई सुबह\" रखते हैं। पाठ में आए उनके काव्य-सरोकारों (लोकजीवन, मानवीय मूल्य, स्वतंत्र चेतना) के आधार पर इस कविता की 4 पंक्तियाँ लिखें जो इन तीनों सरोकारों को एक साथ व्यक्त करती हों।",
+     "a": "**Expected criteria for a good answer:**\n- पंक्ति 1: लोकजीवन का दृश्य (जैसे: खेत में हल चलाता किसान, चूल्हे पर रोटी सेंकती स्त्री)\n- पंक्ति 2: मानवीय मूल्य — गरिमा/संघर्ष/आशा (जैसे: \"पसीने की बूँद में चमकता स्वाभिमान\")\n- पंक्ति 3: स्वतंत्र चेतना — किसी बाहरी सत्ता/विचारधारा का दबाव नहीं (जैसे: \"न किसी झंडे तले, न किसी नारे के साए\")\n- पंक्ति 4: नई सुबह का प्रतीक — सामूहिक मुक्ति (जैसे: \"उगेगी सुबह जब सबके हिस्से आए धूप\")\n**Poor answer reveals:** If a student writes only about \"सूरज उगा, चिड़ियाँ चहकी\" (generic nature poem), they fail to **transfer** the chapter's conceptual framework into creative application. If they include slogans like \"इंकलाब जिंदाबाद\", they violate \"वुकलदर\" (स्वतंत्र चेतना) — the text explicitly says फखरुद्दीन \"किसी दल/सिद्धांत से बंधे नहीं थे\". This tests **create-level synthesis** of all three core concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

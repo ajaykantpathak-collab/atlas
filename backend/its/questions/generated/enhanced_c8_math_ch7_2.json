@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_2",
+   "title": "c8_math_ch7_2",
+   "questions": [
+    {
+     "q": "Write the ratio of 75 cm to 1.5 m in the form \\(a:b\\). Do not simplify.",
+     "a": "Correct answer: 75:150 (after converting 1.5 m to 150 cm). A wrong answer of 75:1.5 reveals the student ignores the unit requirement and compares numbers directly without conversion. A wrong answer of 1.5:75 shows confusion about order (antecedent vs consequent) or part-whole vs part-part thinking.",
+     "self_check": true
+    },
+    {
+     "q": "In a class of 40 students, 25 are girls. A student writes the ratio of girls to boys as 25:40. Is this correct? Explain why or why not.",
+     "a": "Correct answer: No, it is incorrect. The ratio of girls to boys should compare girls (25) to boys (15), so it is 25:15. The student compared girls to total students (part-whole) instead of girls to boys (part-part). This reveals the misconception that the second term in a ratio can be the whole rather than the other part.",
+     "self_check": true
+    },
+    {
+     "q": "A recipe uses 3 cups of flour and 2 cups of sugar. Write the ratio of flour to sugar. Then write the ratio of sugar to total dry ingredients (flour + sugar). Express both in \\(a:b\\) form.",
+     "a": "Flour:sugar = 3:2. Sugar:total = 2:5. Steps: (1) Identify quantities: flour=3, sugar=2. (2) First ratio: antecedent=flour=3, consequent=sugar=2 → 3:2. (3) Total dry ingredients = 3+2=5. (4) Second ratio: antecedent=sugar=2, consequent=total=5 → 2:5. A wrong answer of 2:3 for the second ratio shows the student used flour as the consequent instead of the total.",
+     "self_check": true
+    },
+    {
+     "q": "Two ratios are given: \\(a:b = 4:5\\) and \\(c:d = 8:10\\). Without simplifying, how can you tell they represent the same multiplicative relationship? What does this suggest about the definition of a ratio?",
+     "a": "The ratios are the same because \\(4/5 = 0.8\\) and \\(8/10 = 0.8\\). This shows that a ratio captures the relative size (the quotient \\(a/b\\)), not the absolute numbers. A student who says \"they are different because 4≠8 and 5≠10\" treats ratio as an ordered pair of specific numbers rather than an equivalence class of pairs with the same quotient.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The ratio of 5 kg to 500 g is 5:500 because both are masses.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Although both are masses, the units differ (kg vs g). The correct ratio is 5000:500 (or 10:1 after conversion). The error is assuming \"same kind\" means \"same unit\" – the definition requires both same kind AND same unit. A student who accepts 5:500 confuses dimension with unit.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the ratio of two quantities is 3:7. The quantities must be in the same unit but different from the examples used in class. Write the problem and the ratio with correct antecedent and consequent labels.",
+     "a": "Example: \"Rohan saves ₹300 per month and his sister saves ₹700 per month. The ratio of Rohan's savings to his sister's savings is 300:700 = 3:7. Antecedent = Rohan's savings (₹300), Consequent = sister's savings (₹700).\" A poor answer uses different units (e.g., 3 kg and 7 g) or reverses the order, showing lack of attention to unit consistency and order significance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

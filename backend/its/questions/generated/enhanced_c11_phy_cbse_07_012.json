@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_012",
+   "title": "c11_phy_cbse_07_012",
+   "questions": [
+    {
+     "q": "State the three necessary conditions for a satellite to be geostationary. Give the approximate height above Earth's surface and the orbital period in hours.",
+     "a": "Conditions: (1) Orbit must be in the equatorial plane (inclination = 0°), (2) Orbital period must equal Earth's rotational period (24 hours = 86,400 s), (3) Orbit must be circular and in the same direction as Earth's rotation (prograde). Height ≈ 35,786 km above surface (orbital radius ≈ 42,164 km from Earth's centre). Period = 24 h. A wrong answer (e.g., giving height as 36,000 km without derivation, or saying inclination can be non-zero) reveals the student has memorized numbers without understanding the geometric and dynamical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a single geostationary satellite not provide continuous communication coverage for the polar regions (latitudes above 81°)? Explain using geometry.",
+     "a": "A geostationary satellite lies in the equatorial plane. For an observer at latitude φ, the elevation angle θ of the satellite is given by sin θ = (cos φ cos λ - R/(R+h)) / √(1 - cos²φ cos²λ) where λ is longitude difference. At the poles (φ = 90°), the satellite lies on the horizon (θ = 0°) and is blocked by Earth's curvature. Above ~81° latitude, the satellite drops below the horizon. A wrong answer (e.g., \"signal too weak\" or \"atmosphere blocks it\") shows confusion between geometric visibility and signal attenuation.",
+     "self_check": true
+    },
+    {
+     "q": "A polar remote-sensing satellite orbits at 720 km altitude. Calculate its orbital period in minutes. Use G = 6.67 × 10⁻¹¹ N·m²/kg², Mₑ = 6.0 × 10²⁴ kg, Rₑ = 6400 km.",
+     "a": "Step 1: Orbital radius r = Rₑ + h = 6400 km + 720 km = 7120 km = 7.12 × 10⁶ m.  \nStep 2: Period formula from Kepler's third law: T = 2π √(r³ / GMₑ).  \nStep 3: r³ = (7.12 × 10⁶)³ = 3.61 × 10²⁰ m³.  \nStep 4: GMₑ = (6.67 × 10⁻¹¹) × (6.0 × 10²⁴) = 4.002 × 10¹⁴ m³/s².  \nStep 5: r³ / GMₑ = 3.61 × 10²⁰ / 4.002 × 10¹⁴ = 9.02 × 10⁵ s².  \nStep 6: √(9.02 × 10⁵) = 950 s. T = 2π × 950 = 5969 s ≈ 99.5 minutes.  \nAnswer: ≈ 100 minutes. A wrong answer (e.g., 90 min or 120 min) usually comes from using Rₑ instead of r, or forgetting the 2π factor, or unit conversion errors (km vs m).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ground track of a geostationary satellite and a polar satellite over a 24-hour period. Sketch the paths on a mental map of Earth and explain why a polar satellite can image the entire globe while a geostationary one cannot.",
+     "a": "Geostationary: Ground track is a single fixed point on the equator (longitude fixed). Polar: Ground track is a series of meridians shifting westward by ~25° per orbit due to Earth's rotation; after ~14–15 orbits/day, the tracks cover all longitudes at all latitudes. The polar satellite's orbital plane is fixed in inertial space while Earth rotates underneath, so each pass images a new swath. A geostationary satellite's orbital plane rotates with Earth, so its footprint is fixed. A wrong answer (e.g., \"polar satellite goes around equator\") indicates misunderstanding of orbital inclination and Earth rotation coupling.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we launch a satellite at 35,786 km altitude but with an inclination of 30°, it will still be geostationary because the period is 24 hours.\" Evaluate this claim and explain the error.",
+     "a": "The claim is false. A 24-hour period at that altitude makes it *geosynchronous*, not *geostationary*. With 30° inclination, the satellite's ground track traces a figure-8 (analemma) spanning ±30° latitude, moving north-south daily. It would not stay fixed relative to a ground antenna, requiring tracking. Geostationary requires zero inclination AND zero eccentricity. The error is confusing \"geosynchronous\" (period match) with \"geostationary\" (fixed position). A student who agrees reveals they do not distinguish between period matching and spatial fixing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation activity using a smartphone app (e.g., Satellite Tracker or Heavens-Above) to distinguish a geostationary satellite from a polar satellite in the night sky over one week. What would you record and how would you conclude?",
+     "a": "Record: (1) Time, azimuth, elevation of a bright satellite (e.g., INSAT-3D for geostationary, ISS for near-polar) each night for 7 days. (2) Plot positions on a star chart. Geostationary: same coordinates every night (fixed point near equator). Polar: moves across sky in different paths each night, visible only near dawn/dusk, crosses from north to south or vice versa. Conclusion: Fixed position → geostationary; moving track shifting westward daily → polar. A poor answer (e.g., \"watch for a week and see\") lacks specific measurable criteria and confusion with stars/planets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

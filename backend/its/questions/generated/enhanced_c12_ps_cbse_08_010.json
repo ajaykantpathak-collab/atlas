@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_08_010",
+   "title": "c12_ps_cbse_08_010",
+   "questions": [
+    {
+     "q": "What was the estimated number of people forced to migrate across the new India-Pakistan border during Partition (1947–1948), and what was the estimated death toll from Partition-related violence?",
+     "a": "Approximately 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed. A wrong answer (e.g., \"10 lakh migrated, 1 lakh died\") reveals the student underestimates the scale of the humanitarian crisis, which is critical for understanding the administrative and moral burden on the nascent Indian state. The numbers are not mere statistics — they determined camp sizes, rehabilitation budgets, and the political urgency of the \"refugee question.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Partition of Punjab and Bengal cause deeper trauma than the division of other provinces? Explain using the demographic logic of the \"two-nation theory\" and the Radcliffe Award.",
+     "a": "Punjab and Bengal had no clear Muslim/non-Muslim majority at the province level — both were mixed, with Muslims concentrated in western Punjab/eastern Bengal and Hindus/Sikhs in eastern Punjab/western Bengal. The Radcliffe Line cut through districts, villages, and even households, leaving minorities stranded on the \"wrong\" side. A wrong answer focusing only on \"religious violence\" misses the structural cause: the two-nation theory's territorial logic failed in mixed provinces, creating the \"minority problem\" that drove displacement. This distinction is essential for analyzing why rehabilitation was hardest in these regions.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu family from Sialkot (West Punjab) arrives in Delhi in September 1947 with no assets. The Indian government sets up a refugee camp, provides temporary rations, and later allots \"evacuee property\" (abandoned Muslim homes) in Karol Bagh. Identify the constitutional principle that legitimizes this differential treatment (refugees getting property while Muslim citizens lose theirs) and explain the tension it creates with Article 14 (equality before law).",
+     "a": "The principle is \"compensatory justice\" — the state treats refugees as a distinct class entitled to restitution for losses suffered due to Partition (a state-recognized event). Article 14 permits reasonable classification; the classification here is \"Partition-displaced persons\" vs. general citizens. A wrong answer claiming \"this violates Article 14\" fails to grasp that the Constitution allows special provisions for historically disadvantaged groups (prefiguring Article 15(4)). The tension is real: Muslim citizens in Delhi saw their neighbors' homes given to refugees, fueling insecurity — which Nehru's 1947 letter to Chief Ministers explicitly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rehabilitation approach for Punjabi refugees (largely agrarian, resettled in East Punjab/Haryana/Delhi) with that for Sindhi refugees (largely urban traders, dispersed across Bombay, Ahmedabad, Ulhasnagar). What does this difference reveal about the Indian state's administrative capacity and social assumptions in 1947–1951?",
+     "a": "Punjabi refugees received systematic land allotment (standard acres, verified claims) because they were concentrated, politically vocal (Congress base), and fit the \"peasant proprietor\" model the state understood. Sindhi refugees, scattered and lacking a territorial base, got ad hoc cash compensation and industrial plots (e.g., Ulhasnagar), reflecting the state's weaker capacity to track urban claims and its bias toward agrarian rehabilitation. A wrong answer treating both groups identically misses how refugee policy reinforced regional and class inequalities — a pattern that resurfaced in later development policy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Gandhi's fasts in Calcutta (1947) and Delhi (1948) were political theatre; the real stabilization of communal violence came from police/military action and the passage of time.\" Support your evaluation with evidence from the text and historical context.",
+     "a": "The argument is partially true but incomplete. Gandhi's fasts created moral pressure that enabled the state to act: in Calcutta, his presence allowed Suhrawardy (Muslim League CM) to cooperate with Congress, enabling joint peace patrols; in Delhi, his fast forced the Cabinet to release ₹55 crores to Pakistan, reducing a major irritant. However, without police firings, curfews, and the exhaustion of violence, fasts alone would not have stopped killings. A student who dismisses Gandhi as \"theatre\" ignores the political psychology of legitimacy — the fasts gave the state moral cover to enforce law against co-religionists. A student who overstates Gandhi ignores the coercive apparatus. The synthesis is the mark of analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 1950 directive for District Magistrates in East Punjab on \"Allotment of Evacuee Property to Displaced Persons\" that balances: (a) verified claims, (b) prevention of bogus claims, (c) protection of Muslim minority property rights (for those who stayed), and (d) administrative speed. List 4 operational rules.",
+     "a": "1. Allotment only against verified revenue records (jamabandi) from West Punjab, cross-checked with village-level patwari lists digitized at tehsil level. 2. Muslim-owned properties in East Punjab where owners have not migrated are \"protected\" — no allotment without Deputy Commissioner's certification of abandonment. 3. Bogus claim penalty: 2-year imprisonment + forfeiture of allotted property (deterrent). 4. Temporary \"occupancy permits\" issued within 15 days for shelter; final title after 90-day verification window. A poor answer omits (c) or (b), revealing inability to design policy that upholds secular citizenship while managing crisis — the core governance challenge of 1947–51.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

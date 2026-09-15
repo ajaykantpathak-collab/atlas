@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_01_012",
+   "title": "c12_eng_f_cbse_01_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words.",
+     "a": "**Correct answer:** Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding implied meanings by combining textual clues with prior knowledge.  \n**Why a wrong answer reveals misunderstanding:** If a student swaps the definitions (e.g., \"literal means reading between the lines\"), they confuse explicit retrieval with implicit reasoning — a fundamental error that leads to answering \"Franz hated school\" as a literal fact when the text only says he \"thought of running away.\"",
+     "self_check": true
+    },
+    {
+     "q": "In the first paragraph of \"The Last Lesson,\" Franz thinks of running away. What does this literally tell us? What can we infer about his feelings toward school?",
+     "a": "**Correct answer:** Literal: Franz considered skipping school. Inferential: Franz feels anxious and reluctant about school because he is unprepared for the participle test.  \n**Why a wrong answer reveals misunderstanding:** Stating \"Franz hates school\" as a literal fact shows inability to distinguish stated action (considering running away) from inferred emotion (dread rooted in unpreparedness). The text never uses the word \"hate.\"",
+     "self_check": true
+    },
+    {
+     "q": "Read this new sentence: \"The bulletin-board was surrounded by a silent crowd.\" Write one literal question and one inferential question based on this sentence.",
+     "a": "**Correct answer:**  \nLiteral question: \"What was the crowd doing?\" → Answer: Standing silently around the bulletin-board.  \nInferential question: \"Why was the crowd silent?\" → Answer: They were anxious about bad news (lost battles, draft orders).  \n**Why a wrong answer reveals misunderstanding:** Asking \"What was on the bulletin-board?\" as a literal question is incorrect because the sentence does not state the content — that would be an inference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal and inferential layers of M. Hamel's announcement: \"This is your last French lesson.\" What is literally said? What is inferred about the political situation?",
+     "a": "**Correct answer:**  \nLiteral: French will no longer be taught in Alsace-Lorraine schools; a new German teacher arrives tomorrow.  \nInferential: Alsace-Lorraine has been annexed by Prussia; French language is being systematically suppressed as a tool of cultural erasure.  \n**Why a wrong answer reveals misunderstanding:** Giving only the literal meaning misses the historical inference that the order comes from Berlin (Prussian capital), signaling political conquest — a key context from node c12_eng_f_cbse_01_001.",
+     "self_check": true
+    },
+    {
+     "q": "Franz thinks, \"Will they make them sing in German, even the pigeons?\" Evaluate whether this is a literal fear or an inferential comment on cultural erasure. Justify.",
+     "a": "**Correct answer:** It is an inferential comment. Literal level: pigeons cannot sing in any human language. Inferential level: the imposed language policy is so absurdly total that even nature would be forced to conform, highlighting the ridicule of forced assimilation.  \n**Why a wrong answer reveals misunderstanding:** Calling it a literal fear shows failure to recognize hyperbole and satire. The student misses the author's use of irony (node c12_eng_f_cbse_01_009) to critique linguistic chauvinism.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short diary entry (50 words) from Franz's perspective that includes two literal facts from the story and two inferences about his future.",
+     "a": "**Expected answer criteria:**  \n- Two literal facts (e.g., \"Today was our last French lesson,\" \"M. Hamel wore his green coat\").  \n- Two inferences (e.g., \"I fear I'll never write French well again,\" \"The Prussian teachers will mock our accent\").  \n**Why a poor answer reveals misunderstanding:** An entry that blends facts and inferences without distinction (e.g., \"M. Hamel was sad because he lost his job\") shows the student cannot separate textual evidence from interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_007",
+   "title": "c11_chem_cbse_02_007",
+   "questions": [
+    {
+     "q": "State Einstein's photoelectric equation and define each term with its SI unit.",
+     "a": "K_max = hν − hν₀ = hν − W₀, where K_max = maximum kinetic energy of photoelectrons (J), h = Planck's constant (6.626 × 10⁻³⁴ J s), ν = frequency of incident light (Hz = s⁻¹), ν₀ = threshold frequency (Hz), W₀ = work function (J). A wrong answer (e.g., writing K = hν only) reveals the student ignores the work function — they think all photon energy becomes kinetic energy, missing that part is used to overcome the metal's binding force.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Increasing the intensity of light increases the kinetic energy of photoelectrons because more energy is delivered.\" Explain why this is incorrect using Einstein's photon model.",
+     "a": "In Einstein's model, intensity = number of photons per second × energy per photon (hν). Increasing intensity at fixed frequency only increases the NUMBER of photons, hence the NUMBER of ejected electrons (photocurrent), but each photon still has the SAME energy hν, so each electron receives the SAME energy. The kinetic energy depends ONLY on frequency (K_max = hν − W₀). A wrong answer indicates the student still thinks classically (energy ∝ intensity) and hasn't internalised the particle nature of light.",
+     "self_check": true
+    },
+    {
+     "q": "Light of wavelength 250 nm strikes a sodium surface (work function = 2.28 eV). Calculate the maximum kinetic energy of ejected photoelectrons in eV and their maximum speed. (h = 6.626 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m/s, 1 eV = 1.602 × 10⁻¹⁹ J, m_e = 9.109 × 10⁻³¹ kg)",
+     "a": "Step 1: Photon energy E = hc/λ = (6.626×10⁻³⁴ × 3.00×10⁸) / (250×10⁻⁹) = 7.951×10⁻¹⁹ J = 4.96 eV.\nStep 2: K_max = E − W₀ = 4.96 eV − 2.28 eV = 2.68 eV.\nStep 3: K_max = 2.68 × 1.602×10⁻¹⁹ = 4.293×10⁻¹⁹ J.\nStep 4: v_max = √(2K_max/m_e) = √(2 × 4.293×10⁻¹⁹ / 9.109×10⁻³¹) = 9.71×10⁵ m/s.\nA wrong answer (e.g., forgetting to convert eV to J before using ½mv²) reveals unit inconsistency — a common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "The stopping potential for a metal is measured as 1.2 V for incident light of frequency 8.0 × 10¹⁴ Hz, and 2.8 V for frequency 1.2 × 10¹⁵ Hz. Determine Planck's constant and the work function of the metal from this data.",
+     "a": "Step 1: eV_s = hν − W₀ (Einstein's equation with stopping potential V_s). Two equations:\n(1) e(1.2) = h(8.0×10¹⁴) − W₀\n(2) e(2.8) = h(1.2×10¹⁵) − W₀\nStep 2: Subtract (1) from (2): e(1.6) = h(4.0×10¹⁴) → h = (1.6 × 1.602×10⁻¹⁹) / (4.0×10¹⁴) = 6.41×10⁻³⁴ J s.\nStep 3: Substitute h into (1): W₀ = h(8.0×10¹⁴) − e(1.2) = 5.13×10⁻¹⁹ − 1.92×10⁻¹⁹ = 3.21×10⁻¹⁹ J = 2.00 eV.\nA wrong answer (e.g., using only one data point) reveals the student doesn't realise two unknowns (h, W₀) require two independent measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"If the frequency of incident light is doubled, the maximum kinetic energy of photoelectrons also doubles.\" Is this statement always true, sometimes true, or never true? Justify.",
+     "a": "Sometimes true. K_max = hν − W₀. If ν is doubled to 2ν, new K_max' = 2hν − W₀ = 2(hν − W₀) + W₀ = 2K_max + W₀. This equals 2K_max ONLY if W₀ = 0 (no work function, impossible for real metals). For ν ≫ ν₀, K_max ≈ hν, so doubling ν approximately doubles K_max. But near threshold, doubling ν can more than double K_max. A wrong answer (e.g., \"always true\") reveals the student treats the relationship as directly proportional, ignoring the constant work function offset.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to prove that the photoelectric effect is instantaneous (no time lag) even for extremely low intensity light, and explain what this implies about the energy transfer mechanism.",
+     "a": "Place a freshly cleaned potassium plate (ν₀ = 5.0×10¹⁴ Hz) in vacuum. Illuminate with yellow light (ν = 5.2×10¹⁴ Hz) of intensity 10⁻¹⁰ W/m² (extremely dim). Use a fast detector to measure time between first photon arrival and first photoelectron detection. Result: time lag < 10⁻⁹ s even at this intensity. Implication: energy is NOT accumulated over time (wave model prediction) but transferred in a single photon-electron collision. A poor answer (e.g., \"measure current after 1 hour\") reveals the student confuses \"eventually some electrons appear\" with \"instantaneous per photon.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

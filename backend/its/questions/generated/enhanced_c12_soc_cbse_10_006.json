@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_006",
+   "title": "c12_soc_cbse_10_006",
+   "questions": [
+    {
+     "q": "What is the constitutional article that mandates reservation of seats for SCs, STs, and women in Panchayats, and what percentage of seats is reserved for women?",
+     "a": "Article 243D of the Constitution (inserted by the 73rd Amendment Act, 1992) mandates reservation for SCs and STs in proportion to their population and reserves not less than one-third (33%) of the total seats for women. A wrong answer (e.g., citing Article 330/332 or saying 50% for women) reveals confusion between parliamentary/assembly reservations and Panchayat reservations, or between the 73rd and 74th Amendments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the reservation for women (33%) interacts with the reservation for SCs and STs in a Panchayat. Does the women's quota apply separately to each category or to the total seats?",
+     "a": "The women's reservation of one-third applies to the total number of seats in the Panchayat, including those already reserved for SCs and STs. This means that out of the seats reserved for SCs, one-third must be filled by SC women; similarly for ST seats. The remaining women's seats come from the unreserved (general) category. A wrong answer that treats the women's quota as an additional separate block (e.g., SC seats + ST seats + 33% women seats = total > 100%) shows a fundamental misunderstanding of the \"quota within quota\" horizontal reservation design.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat has 21 seats. The village population is 30% SC, 5% ST, and 65% general. Calculate the number of seats reserved for SCs, STs, and women (total and category-wise), assuming the women's quota is applied to the total seats and SC/ST women are counted within their respective category quotas.",
+     "a": "Step 1: Total seats = 21. Step 2: SC seats = 30% of 21 = 6.3 → 6 seats (rounding down as per usual practice). Step 3: ST seats = 5% of 21 = 1.05 → 1 seat. Step 4: Total women seats = 1/3 of 21 = 7 seats. Step 5: SC women seats = 1/3 of SC seats = 1/3 of 6 = 2 seats. Step 6: ST women seats = 1/3 of ST seats = 1/3 of 1 = 0.33 → 0 or 1 seat (usually at least 1 if fraction >0, but here 0). Step 7: General women seats = Total women seats - SC women seats - ST women seats = 7 - 2 - 0 = 5 seats. A wrong calculation that adds women's seats on top of SC/ST seats (e.g., 6+1+7=14 reserved, leaving only 7 general) reveals the additive misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reservation design for Panchayats (73rd Amendment) with that for Lok Sabha/State Assemblies (Articles 330/332). Identify two key structural differences and explain their sociological significance.",
+     "a": "Difference 1: Panchayats have a mandatory 33% horizontal reservation for women cutting across SC/ST/general categories, while Lok Sabha/Assemblies have no women's reservation (except the recently passed but not yet implemented 106th Amendment). Difference 2: Panchayat reservations rotate across constituencies every election cycle (Article 243D), whereas parliamentary/assembly reservations are fixed for specific constituencies based on census. Significance: Rotation prevents entrenchment of local elites in reserved seats and forces parties to field women/SC/ST candidates widely; fixed parliamentary constituencies create \"pocket boroughs\" for dominant groups. A wrong answer that misses rotation or women's quota shows ignorance of the 73rd Amendment's innovative design.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Reservation in Panchayats has successfully empowered Dalit and Adivasi women in rural India.\" Use evidence from sociological studies (e.g., proxy representation, patriarchal backlash, intersectional discrimination) to justify your position.",
+     "a": "The statement is partially true but overstated. Empowerment is real: women gained formal decision-making roles, visibility, and access to resources (e.g., MGNREGA works, sanitation funds). However, studies (e.g., by Niraja Gopal Jayal, B.S. Baviskar) show persistent proxy rule (husbands/relatives acting as \"pradhan-pati\"), caste-based humiliation in meetings, and lack of financial autonomy. Intersectionality means Dalit women face both gender and caste subordination, often excluded from dominant caste women's networks. A purely positive evaluation ignores structural patriarchy and caste power; a purely negative one ignores the transformative potential of formal representation. The nuanced answer acknowledges both.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical Gram Panchayat reservation rotation policy for a block with 10 Gram Panchayats over three election cycles (15 years) that ensures: (a) each Panchayat gets SC/ST reservation proportional to its population at least once, (b) women's reservation rotates across all seats, and (c) no Panchayat has the same category reserved consecutively. Outline the algorithm or rule set.",
+     "a": "A good answer proposes a rule-based rotation: 1) List Panchayats by SC/ST population %. 2) Assign SC/ST reserved Pradhan seats in descending order of population % each cycle, skipping those already served. 3) For ward-level seats, use a lottery system each cycle with the constraint that a ward reserved for SC women in cycle 1 cannot be SC women in cycle 2 (rotate among SC, ST, general women, and open). 4) Ensure overall block-level proportionality over three cycles. A poor answer suggests random rotation without proportionality guarantees or ignores the \"no consecutive same category\" rule, showing lack of understanding of the constitutional requirement for fair rotation (Article 243D read with state Panchayati Raj Acts).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

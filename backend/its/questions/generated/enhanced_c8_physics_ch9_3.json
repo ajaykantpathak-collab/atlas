@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_3",
+   "title": "c8_physics_ch9_3",
+   "questions": [
+    {
+     "q": "What are the two most abundant gases in Earth's atmosphere and their approximate percentages by volume in dry air?",
+     "a": "Nitrogen (~78%) and oxygen (~21%). A wrong answer (e.g., oxygen and carbon dioxide) reveals the student confuses the trace gas CO₂ (0.04%) with a major component and does not recall the actual composition that makes Earth unique for life.",
+     "self_check": true
+    },
+    {
+     "q": "Why does temperature increase with altitude in the stratosphere but decrease in the troposphere?",
+     "a": "In the troposphere, heat from the sun-warmed ground drives convection, so temperature drops with height. In the stratosphere, ozone absorbs incoming ultraviolet radiation, releasing heat and causing a temperature inversion. A wrong answer (e.g., \"gravity pulls heat down\") shows the student has not connected the ozone-UV interaction (radiation absorption) to the temperature profile, missing the link to Class 7 radiation heat transfer (c7_physics_ch03_006).",
+     "self_check": true
+    },
+    {
+     "q": "A weather balloon rises from sea level (15°C) into the troposphere where temperature drops at 6.5°C per km. What is the temperature at 5 km altitude? Show your steps.",
+     "a": "Step 1: Identify given: lapse rate = 6.5°C/km, altitude change = 5 km, initial temp = 15°C. Step 2: Temperature change = 6.5°C/km × 5 km = 32.5°C decrease. Step 3: Final temperature = 15°C - 32.5°C = -17.5°C. A wrong answer (e.g., +17.5°C or using wrong lapse rate) reveals the student cannot apply the concept of environmental lapse rate or forgets that temperature decreases with height in the troposphere.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the troposphere and thermosphere: which has higher particle density, which has higher temperature, and why does the thermosphere not feel \"hot\" to a satellite?",
+     "a": "Troposphere has much higher particle density (most mass of atmosphere). Thermosphere has very high temperature (up to 1500°C) due to absorption of high-energy solar radiation by few gas molecules. It doesn't feel hot because temperature measures average kinetic energy of particles, but heat transfer requires sufficient particle collisions — the thermosphere is near-vacuum. A wrong answer (e.g., \"thermosphere is hot so satellites melt\") confuses temperature with heat content, a common misconception from Class 6 (c6_physics_ch07_024 Heat vs Temperature).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The ozone layer is in the troposphere because that's where weather happens and weather needs oxygen.\" Evaluate this statement.",
+     "a": "The statement is incorrect. The ozone layer is in the stratosphere (15-35 km), not the troposphere. While ozone is a form of oxygen, the troposphere's weather is driven by water vapor and convection, not ozone. The student incorrectly associates \"oxygen\" with \"ozone layer\" and confuses the layer where weather occurs with the layer where UV absorption occurs. This reveals a failure to distinguish layers by their defining characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate why the troposphere has convection currents but the stratosphere does not. Explain the setup and what it shows.",
+     "a": "Good answer: Use two transparent containers with water. Container A: heat from bottom (stove) — shows rising warm water (convection) like troposphere heated from below by ground. Container B: heat from top (lamp above) — water stays stratified, no convection, like stratosphere heated from above by ozone absorbing UV. Poor answer (e.g., just \"heat water\") shows the student cannot model the different heating mechanisms (bottom-up vs top-down) that define the layers' stability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

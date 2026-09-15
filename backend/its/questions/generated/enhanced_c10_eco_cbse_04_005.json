@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_005",
+   "title": "c10_eco_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the full form of WTO and in which year was it established as a successor to GATT?",
+     "a": "The World Trade Organisation (WTO) was established on 1 January 1995, replacing the General Agreement on Tariffs and Trade (GATT) which had governed world trade since 1948. A wrong answer (e.g., \"World Trade Organisation, 1948\" or \"World Tariff Organisation\") reveals the student confuses the WTO with its predecessor GATT or misremembers the establishment year — a frequent 1-mark error in CBSE board exams where exact terminology and dates are tested.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Most-Favoured-Nation (MFN) principle is called the \"cornerstone\" of the WTO, and give one example of how it protects a developing country like India.",
+     "a": "The MFN principle (Article I of GATT) requires that any trade advantage (e.g., lower tariff) a WTO member grants to one country must be extended immediately and unconditionally to all other WTO members. It is the cornerstone because without it, powerful countries could form exclusive trade blocs, leaving developing countries like India facing higher tariffs. For example, if the USA reduces tariffs on textiles from Vietnam, it must give the same reduction to Indian textiles — preventing India from being disadvantaged. A wrong answer that says \"MFN means a country treats its most favoured trading partner specially\" shows the student has reversed the meaning — a critical conceptual error that leads to incorrect analysis of trade agreements.",
+     "self_check": true
+    },
+    {
+     "q": "India's average bound tariff rate for agricultural products is 113% (as per WTO tariff profiles), while its applied MFN tariff is around 39%. If India wants to protect its farmers from a sudden surge in cheap wheat imports, which tariff rate can it legally raise up to without violating WTO commitments, and what is the maximum additional duty it can impose if it invokes the Special Safeguard Mechanism (SSM) — assuming the SSM allows an additional 30% above the bound rate?",
+     "a": "Step 1: Identify the bound rate (ceiling) = 113%. Step 2: Identify current applied rate = 39%. Step 3: India can raise the applied rate up to the bound rate (113%) without violating WTO commitments. Step 4: If SSM is invoked (allowed for developing countries on designated products), an additional 30% above the bound rate is permitted: 113% + 30% = 143%. Maximum legal tariff = 143%. A student who answers \"39% + 30% = 69%\" confuses applied rate with bound rate — a common error because they don't understand that bound rates are the legal ceiling, not the current rate. This distinction is crucial for CBSE case-based questions on agricultural safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the WTO's Agreement on Agriculture (AoA) on Indian farmers versus farmers in the USA/EU. Use the concepts of \"Amber Box\", \"Blue Box\", and \"Green Box\" subsidies to explain why the AoA is criticised as asymmetrical.",
+     "a": "The AoA classifies subsidies into boxes: Amber Box (trade-distorting, subject to reduction commitments), Blue Box (production-limiting programmes, exempt from reduction), and Green Box (minimally trade-distorting, unlimited). Developed countries (USA/EU) shifted massive subsidies from Amber to Blue/Green boxes (e.g., US crop insurance, EU decoupled payments), keeping high support for their farmers. India's subsidies are mostly Amber Box (input subsidies like fertiliser, power, MSP procurement) and face reduction limits. Since India's per-farmer subsidy is tiny ($49 vs $7,000 in USA), but the *rules* constrain India's ability to support food security, the agreement is asymmetrical. A wrong answer that says \"India gives more subsidies than USA\" reveals the student ignores per-capita data and box classifications — a frequent error in 3-mark \"analyse\" questions where data interpretation is required.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"India should withdraw from the WTO because the TRIPS agreement forces it to grant pharmaceutical patents, making medicines unaffordable for the poor.\" Consider the Doha Declaration on TRIPS and Public Health (2001) and India's use of compulsory licensing.",
+     "a": "The argument is flawed because the Doha Declaration (2001) explicitly affirms that TRIPS does not prevent members from taking measures to protect public health, including granting compulsory licences (Article 31) and allowing parallel imports. India has used this flexibility: e.g., Natco's compulsory licence for Nexavar (2012) reduced the price from ₹2.8 lakh/month to ₹8,800/month. Withdrawal would mean losing MFN market access in 164 countries, hurting India's $400+ billion exports. A student who agrees with withdrawal ignores the built-in flexibilities India successfully uses — showing inability to evaluate policy trade-offs, a key competency in CBSE's \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point strategy for the Indian government to make the WTO's dispute settlement mechanism more effective for protecting India's interests in the current context where the Appellate Body is non-functional (since Dec 2019).",
+     "a": "A strong answer includes: (1) Push for Appellate Body reform at MC13 (Ministerial Conference) with like-minded developing countries (G-33, African Group) to restore two-tier adjudication — essential because panel reports cannot be appealed now, creating legal uncertainty. (2) Increase use of arbitration under Article 25 DSU as an interim appeal mechanism — India used this in the EU-IT Products dispute (2023). (3) Strengthen domestic trade remedy capacity (DGTR) to impose anti-dumping/countervailing duties swiftly while disputes drag on — e.g., India's recent duties on Chinese steel, Vietnamese solar cells. A poor answer suggests \"ignore WTO rulings\" or \"bilateral deals only\" — revealing misunderstanding that WTO dispute settlement, even impaired, provides legal cover for retaliatory tariffs authorised by DSB.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

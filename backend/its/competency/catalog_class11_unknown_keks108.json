@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 108,
+  "chapter_title": "Chemistry and Metallurgy in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks108.1.1",
+      "title": "From Alchemy to Chemistry",
+      "section": "8.1",
+      "definition": "Modern chemistry evolved from alchemy and iatrochemistry during 1300-1600 CE, and alchemy itself first developed in ancient Egypt, tied to beliefs in life after death and practices like mummification. The chapter follows this long road from magical craft to scientific chemistry, with India's own alchemical traditions as part of the story.",
+      "formula": "",
+      "key_idea": "Chemistry's family tree runs through alchemy -- Egypt's tombs, India's laboratories and Europe's iatrochemistry all feed the line.",
+      "textbook_ref": "keks108.txt opening (from alchemy to chemistry, 1300 1600 CE, iatrochemistry, ancient egypt, mummification)",
+      "question_patterns": [
+        "how did alchemy give rise to modern chemistry",
+        "in class 11 chemistry and metallurgy: what is iatrochemistry",
+        "why did alchemy first develop in ancient egypt",
+        "what was the connection between mummification and chemical practice",
+        "distinguish alchemy from modern chemistry",
+        "what role did india play in the alchemical tradition"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "begin with alchemy",
+          "explain": "Alchemy sought transmutation and elixirs, developing laboratory techniques in Egypt and beyond."
+        },
+        {
+          "step": 2,
+          "action": "watch it turn medical",
+          "explain": "Iatrochemistry applied chemical preparations to healing, shifting attention toward usable substances."
+        },
+        {
+          "step": 3,
+          "action": "arrive at chemistry",
+          "explain": "By 1300-1600 CE systematic experiment replaced mystery -- the road to modern chemistry."
+        }
+      ]
+    },
+    {
+      "id": "keks108.1.2",
+      "title": "Metallurgy in India: Iron, Steel and the Famous Wonders",
+      "section": "8.2",
+      "definition": "India's metallurgical record is famed: high-grade iron and the wootz steel that travelled to the world, the rust-resistant Delhi iron pillar standing for centuries, and zinc distillation at Zawar. These achievements rested on kilns, furnaces and empirically mastered techniques far ahead of their time.",
+      "formula": "",
+      "key_idea": "Furnace mastery made history -- wootz steel, the rustless pillar and distilled zinc are India's metallurgical calling cards.",
+      "textbook_ref": "keks108.txt metallurgy sections (wootz steel, delhi iron pillar, zawar zinc distillation, iron smelting, furnaces, bronze and copper)",
+      "question_patterns": [
+        "what is wootz steel and why is it famous",
+        "in class 11 chemistry and metallurgy: why has the delhi iron pillar not rusted",
+        "describe the zinc distillation at zawar",
+        "how was iron smelted in ancient india",
+        "what do indian metallurgical achievements show about ancient technology",
+        "compare ancient indian steel with modern steel making"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "praise the steel",
+          "explain": "Wootz, a high-carbon crucible steel, was prized abroad for blades of exceptional quality."
+        },
+        {
+          "step": 2,
+          "action": "marvel at the pillar",
+          "explain": "The Delhi iron pillar's composition and forged structure built a protective film that has resisted rust for over a millennium and a half."
+        },
+        {
+          "step": 3,
+          "action": "cite the zinc",
+          "explain": "Zawar's upward distillation of zinc vapour solved a problem -- this metal's chemistry -- that Europe cracked only centuries later."
+        }
+      ]
+    },
+    {
+      "id": "keks108.1.3",
+      "title": "Chemical Practice in Daily and Ritual Life",
+      "section": "8.3",
+      "definition": "Chemical knowledge in India also lived in workshops and rituals: dyeing and pigments, soaps and sugars, glass and cosmetics, fermentation and perfumery. Texts recorded recipes and procedures, showing that chemistry was practised -- and documented -- long before it was named a science.",
+      "formula": "",
+      "key_idea": "Chemistry before chemistry -- dyes, glass, sugar and scents carried chemical know-how through workshops and texts.",
+      "textbook_ref": "keks108.txt practice sections (dyes and pigments, glass, sugar, perfumery, fermentation, texts recording chemical procedures)",
+      "question_patterns": [
+        "give examples of chemical techniques used in ancient indian daily life",
+        "in class 11 chemistry and metallurgy: how were dyes and pigments prepared",
+        "what chemical processes were used in making sugar and glass",
+        "why were procedures recorded in texts",
+        "relate perfumery and fermentation to chemical knowledge",
+        "show how ritual practices preserved chemical techniques"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "survey the crafts",
+          "explain": "Dyeing, pigment-making, glass, sugar, soaps and perfumes all depend on controlled chemical transformations."
+        },
+        {
+          "step": 2,
+          "action": "note the documentation",
+          "explain": "Texts and manuals recorded procedures, letting craft knowledge accumulate across generations."
+        },
+        {
+          "step": 3,
+          "action": "read it as chemistry",
+          "explain": "What the crafts practised empirically, later chemistry would explain -- continuity of the same knowledge."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks108.txt metallurgy sections",
+      "concept": "keks108.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "The Delhi iron pillar has stood for over 1500 years with little rust. Explain what this achievement demonstrates.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the fact",
+          "explain": "The pillar's wrought iron has formed a protective surface layer, resisting corrosion across fifteen centuries of weather."
+        },
+        {
+          "step": 2,
+          "action": "infer the mastery",
+          "explain": "Such purity and forging skill imply sophisticated control of smelting and working."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The pillar is standing evidence of ancient India's advanced metallurgical chemistry."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks108.txt practice sections",
+      "concept": "keks108.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A dyer produces the same fast colour repeatedly without knowing molecular theory. Explain how his work is still chemistry.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the operations",
+          "explain": "Preparing the dye bath, adding mordants and fixing colour are controlled chemical reactions."
+        },
+        {
+          "step": 2,
+          "action": "note the empirical rule",
+          "explain": "Recorded proportions and procedures give reproducible results without theoretical explanation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Chemistry can be practised before it is theorised -- craft knowledge is chemistry in the workshop."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks108.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Trace the development from alchemy to chemistry.",
+        "What is wootz steel and what made it famous?",
+        "Explain the significance of the Delhi iron pillar.",
+        "Describe the zinc distillation method of Zawar.",
+        "List chemical techniques used in ancient Indian crafts.",
+        "How did iatrochemistry change the direction of alchemy?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_9",
+   "title": "c8_math_ch11_9",
+   "questions": [
+    {
+     "q": "What are the three standard orthographic views used to represent a 3D solid on paper?",
+     "a": "The three standard views are the front view, top view, and side view. A wrong answer (e.g., \"isometric, oblique, perspective\") reveals the student confuses orthographic projection with pictorial drawing methods and does not recall the specific terminology for the three principal views.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a right circular cylinder standing on its base have a rectangular front view but a circular top view?",
+     "a": "From the front, you see the cylinder's height and diameter, which form a rectangle; from the top, you look down onto the circular base, so you see a circle. A wrong answer (e.g., \"both are circles\") shows the student does not understand that the view depends on the direction of projection and the orientation of the solid.",
+     "self_check": true
+    },
+    {
+     "q": "A solid is made by stacking two identical cubes of side 3 cm one on top of the other. Draw the front, top, and side views (describe the shape and dimensions of each view).",
+     "a": "Front view: rectangle 3 cm wide × 6 cm high. Top view: square 3 cm × 3 cm. Side view: rectangle 3 cm wide × 6 cm high. Steps: 1) The stack has total height 6 cm, width 3 cm, depth 3 cm. 2) Front view shows height and width → 3×6 rectangle. 3) Top view shows width and depth → 3×3 square. 4) Side view shows height and depth → 3×6 rectangle. A wrong answer (e.g., top view as 3×6 rectangle) reveals the student cannot mentally separate the dimensions that each view captures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the front view of a right circular cone (base on table) and a square pyramid (base on table). How are they similar and how do they differ?",
+     "a": "Both front views are triangles (the cone's triangle has a curved base line if the cone is oblique, but for a right cone it is a straight line; the pyramid's triangle has a straight base). They are similar in overall triangular shape. They differ in the top view: the cone's top view is a circle, the pyramid's top view is a square. A wrong answer (e.g., \"both front views are rectangles\") shows the student cannot visualize the outline of a cone or pyramid from the front.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The front view is a 4 cm × 4 cm square, the top view is a 4 cm × 4 cm square, and the side view is a 4 cm × 4 cm square. Therefore the solid must be a cube of side 4 cm.\" Is the student correct? Justify your answer.",
+     "a": "The student is not necessarily correct. A cuboid with dimensions 4 cm × 4 cm × 4 cm (a cube) gives those views, but so does any solid that fits inside a 4 cm cube and has the same silhouette from all three directions (e.g., a sphere of diameter 4 cm, or a cylinder of diameter 4 cm and height 4 cm). The three views alone do not guarantee the solid is a cube. A wrong answer (e.g., \"Yes, it must be a cube\") reveals the student thinks orthographic views uniquely determine the solid, ignoring that different solids can share the same projections.",
+     "self_check": true
+    },
+    {
+     "q": "Design a solid using exactly four unit cubes such that its front view is an L-shape, its top view is a 2×2 square, and its side view is a 2×2 square. Describe the arrangement of the cubes.",
+     "a": "Place three cubes on the bottom layer forming an L (two cubes side by side along the x-axis, and one cube attached to the left cube along the y-axis). Place the fourth cube on top of the cube at the corner of the L (the one that has two neighbours). This gives a top view of a 2×2 square (the bottom layer covers three of the four cells, the top cube covers the fourth cell from above). The front view (looking along the y-axis) shows an L-shape 2 cubes high and 2 cubes wide. The side view (looking along the x-axis) also shows a 2×2 square because the top cube fills the missing column. A poor answer (e.g., random arrangement) reveals the student cannot work backwards from views to a 3D configuration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

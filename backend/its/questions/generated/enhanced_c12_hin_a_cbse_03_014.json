@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_03_014",
+   "title": "c12_hin_a_cbse_03_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for poetry?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorized a mnemonic without understanding its function: Point = thesis statement, Evidence = quoted textual detail, Explanation = analysis of how evidence supports point, Link = connection to central idea/question. Without this precision, answers remain descriptive rather than analytical.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In 'nhi vosQyk', the poet says small things are important because they make life complete.\" Identify why this answer would score low on a CBSE 5-mark question despite being factually correct.",
+     "a": "The answer is a mere paraphrase — it states *what* the poem says but not *how* the poet conveys it. It lacks: (1) a clear analytical point (e.g., \"The poet elevates the insignificant through repetition and imperative tone\"), (2) textual evidence (e.g., quoting \"ij bldks Hkh iafDr dks ns nks\"), (3) explanation of literary device (repetition of \"ns nks\" creates urgency), and (4) link to the theme of acceptance. Low marks stem from missing the \"E\" and \"E\" of PEEL.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"Analyze the symbolism of 'lwjt' (dry wind) in the second poem.\" Write only the Point and Evidence steps.",
+     "a": "Point: The 'lwjt' (dry wind) symbolizes the hostile, indifferent forces of the world that threaten to wither fragile life. Evidence: The line \"jax xbZ {k.kHkj <yrs lwjt dh vkx ls\" explicitly states the plant's color fades due to the heat of the dry wind. A wrong answer might quote the line but call it \"imagery of weather\" — missing the symbolic leap from literal wind to metaphorical adversity, which is the core of poetic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the two poems in this chapter treat the concept of \"smallness\" (nhi / cw¡n). What is the key difference in their thematic focus?",
+     "a": "\"nhi vosQyk\" treats smallness as *inherent value* — the nhi (small) is complete in itself and demands acceptance (\"iafDr esa 'kkfey dj yks\"). \"eSaus ns[kk] ,d cw¡n\" treats smallness as *latent power* — the cw¡n (small plant) is fragile but possesses explosive vitality (\"u'ojrk osQ nkx ls\"). The difference: first poem argues for *dignity of the small*; second demonstrates *triumph of the small*. A wrong answer conflates them as \"both talk about small things\" — missing the shift from static worth to dynamic resilience.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The refrain 'ij bldks Hkh iafDr dks ns nks' in 'nhi vosQyk' is merely a repetition for rhythm.\" Defend or refute using poetic function.",
+     "a": "Refute. The refrain is a structural and thematic anchor: (1) structurally, it divides the poem into three stanzas, each addressing a different \"nhi\" (small thing), creating a catalog effect; (2) thematically, the imperative \"ns nks\" (give it) transforms from request to demand to command across stanzas, mirroring the poet's escalating insistence on acceptance; (3) the repetition of \"iafDr\" (life) expands the scope from individual to universal. Calling it \"just rhythm\" ignores how form enacts meaning — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line original stanza in Hindi that uses the same symbolic strategy as \"eSaus ns[kk] ,d cw¡n\" — a small natural object representing human resilience — but set in an urban context (e.g., a crack in concrete, a weed in a gutter).",
+     "a": "Example:\n\"simT gya ek patta, simenT ki darar mein,\ndhoop ki talab, barish ke intezaar mein.\nkoi nahi dekhata, koi nahi poochta,\nphir bhi khilta hai, apne hi pyaar mein.\"\nA poor answer writes a generic motivational poem without a concrete central image (the \"cw¡n\" equivalent) or fails to ground resilience in a specific hostile setting (the \"lwjt\" equivalent). The skill tested: transferring the poem's symbolic architecture to a new context — proof of deep structural understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

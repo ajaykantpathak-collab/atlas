@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_009",
+   "title": "c12_soc_cbse_04_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between pre-colonial agricultural trade and colonial commercialisation of agriculture in terms of peasant agency and crop choice?",
+     "a": "Pre-colonial trade involved voluntary surplus exchange where peasants retained crop choice; colonial commercialisation forced peasants into cash-crop cultivation (indigo, opium, cotton) through revenue compulsions and debt bondage, stripping them of crop sovereignty. A wrong answer that says \"both involved cash crops\" reveals the student misses the coercion/agency distinction — they conflate market participation with forced commercialisation, a classic board-exam error where students describe *what* was grown but not *why* and *under what compulsion*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the Permanent Settlement (1793) in Bengal created a chain of intermediaries that intensified commercialisation pressure on actual cultivators.",
+     "a": "The Permanent Settlement fixed revenue demand permanently on zamindars, who became landlords with proprietary rights. To meet the high fixed demand, zamindars sub-infeudated land to jotedars/tenants, who further sublet to actual cultivators (ryots). Each layer extracted rent, pushing the cultivator to maximise cash-crop output. A wrong answer focusing only on \"zamindars exploited peasants\" misses the *structural chain* — the exam expects you to name jotedars, pattadars, and show how revenue fixity at the top transmitted pressure downward through rent layers, not direct zamindar-peasant contact.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot in Ryotwari Madras Presidency (1820s) owns 5 hectares. The revenue demand is 50% of estimated produce value. Cotton prices rise 40% due to the American Civil War (1861–65). The ryot switches from millets to cotton. Calculate the new revenue burden if the colonial state revises settlement based on higher cotton prices, and explain why this traps the ryot in a debt cycle even when prices fall post-war.",
+     "a": "Step 1: Original revenue = 50% of millet value. Step 2: Cotton boom → state revises settlement upward using new cotton prices as benchmark. Step 3: New revenue = 50% of (higher cotton value) → ryot must pay more even if he reverts to millets. Step 4: Post-1865 cotton prices crash → ryot's income falls but revenue demand stays at boom-level. Step 5: Ryot borrows from moneylender at 24–36% interest to pay revenue → debt trap. A wrong answer that calculates only the boom-time profit misses the *settlement revision* mechanism — the colonial state captured windfall gains but refused to lower demand during busts, a key \"ratchet effect\" examiners test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of commercialisation on tribal communities (e.g., Gonds in Bastar) versus settled peasantry in the Gangetic plains. Use the concepts of \"forest produce as commons\" and \"labour market incorporation\" in your answer.",
+     "a": "Tribal impact: (1) Forests declared state property → loss of commons (tamarind, mahua, timber) → forced sale of forest produce to contractors at low prices. (2) \"Pacification\" and roads enabled merchant-moneylender influx → land alienation through debt. (3) Labour market incorporation: tribals recruited as coolies for plantations/mines — *first-time* wage labour, destroying subsistence autonomy. Peasant impact: (1) Already integrated into revenue/credit markets → commercialisation deepened existing tenancy/usury relations. (2) Crop shift within settled agriculture, not total livelihood rupture. A wrong answer treating both as \"exploitation\" misses the *qualitative difference*: tribals faced *primitive accumulation* (dispossession from commons), peasants faced *intensified exploitation* within existing class relations.",
+     "self_check": true
+    },
+    {
+     "q": "\"Commercialisation of agriculture modernised Indian agriculture by integrating it into global markets.\" Evaluate this statement using evidence from the indigo (Bengal/Bihar) and cotton (Deccan) cases, addressing both productivity and social costs.",
+     "a": "The statement is largely false for the colonial period. Evidence against: (1) Indigo: *nij* and *ryoti* systems forced cultivation via advance contracts (dadon) — no technological improvement, soil exhaustion, peasant revolts (1859–60 Blue Mutiny). (2) Cotton: 1860s boom led to acreage expansion but *yield per hectare stagnated*; post-1865 crash caused Deccan Riots (1875) against moneylenders. (3) No capital investment in irrigation/seeds — colonial state extracted surplus, didn't reinvest. Counter-evidence: limited railway/port infrastructure facilitated export. Verdict: commercialisation was *extractive integration*, not developmental modernisation. A wrong answer citing \"railways and ports\" as modernisation misses the *colonial purpose* — infrastructure served extraction, not agricultural productivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table showing how three land revenue systems (Permanent Settlement, Ryotwari, Mahalwari) differently structured the commercialisation pressure on cultivators. Include columns for: revenue fixity, intermediary layers, crop choice coercion, and credit relation.",
+     "a": "| System | Revenue Fixity | Intermediaries | Crop Coercion | Credit Relation |\n|---|---|---|---|---|\n| Permanent Settlement (Bengal/Bihar) | Permanent (fixed forever) | Zamindar → Jotedar → Ryot (3+ layers) | Indirect: rent pressure forces cash crops | Zamindar/moneylender advances for revenue payment |\n| Ryotwari (Madras/Bombay) | Revised every 20–30 years | Direct state-ryot (theoretically) | Direct: settlement based on cash-crop prices | State as ultimate creditor; moneylenders fill gaps |\n| Mahalwari (North/West) | Revised periodically | Village body (lambardar) jointly liable | Collective: village decides but revenue pressure forces commercialisation | Community pressure + moneylender for deficit payers |\n\nA poor table that lists only \"exploitation\" in all cells reveals the student cannot differentiate *institutional mechanisms* — a skill CUET/JEE-style case-based questions explicitly test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc113.json",
+ "concepts": [
+  {
+   "id": "jesc.113.13.1",
+   "title": "Ecosystem - Components and Energy Flow",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the biotic and abiotic parts of an ecosystem?",
+     "a": "Biotic: all living organisms. Abiotic: non-living factors like air, water, soil, temperature and light.",
+     "self_check": true
+    },
+    {
+     "q": "How does energy flow in an ecosystem?",
+     "a": "One way: sunlight -> producers -> herbivores -> carnivores, with about 10% passing to each level.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the number of trophic levels limited?",
+     "a": "Energy shrinks tenfold at each transfer, leaving too little to sustain more levels.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.13.2",
+   "title": "Ozone Layer - Depletion and Protection",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the ozone layer called a protective shield?",
+     "a": "It absorbs the sun's harmful ultraviolet rays that would damage living cells.",
+     "self_check": true
+    },
+    {
+     "q": "Which human-made chemicals deplete ozone?",
+     "a": "Chlorofluorocarbons used in refrigerators and sprays.",
+     "self_check": true
+    },
+    {
+     "q": "What steps protect the ozone layer?",
+     "a": "Phasing out CFCs under global agreements and using safer alternatives.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.13.3",
+   "title": "Managing Our Garbage - Biodegradable and Non-biodegradable Waste",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Distinguish biodegradable and non-biodegradable waste with examples.",
+     "a": "Biodegradable waste rots naturally (vegetable peels, paper); non-biodegradable waste does not (plastics, glass).",
+     "self_check": true
+    },
+    {
+     "q": "Why is segregation of waste at source important?",
+     "a": "Separating wet and dry waste lets organic waste be composted and recyclables recovered, cutting landfill load.",
+     "self_check": true
+    },
+    {
+     "q": "What is vermicomposting?",
+     "a": "Using redworms to convert biodegradable waste into rich compost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

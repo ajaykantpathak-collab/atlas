@@ -1,0 +1,65 @@
+{
+  "catalog": "catalog_class12_history_lehs301",
+  "concepts": [
+    {
+      "id": "lehs.301.1",
+      "questions": [
+        {"q": "In which year was the Permanent Settlement concluded? (give the year)", "a": "1793"},
+        {"q": "Under the Permanent Settlement, revenue demand was fixed for how long? (one word)", "a": "forever"},
+        {"q": "Which rural group was recognised as proprietor of the land under the Permanent Settlement? (one word)", "a": "zamindars"},
+        {"q": "By what time of day did zamindars have to pay the revenue demand at collection? (one word)", "a": "sunset"},
+        {"q": "What happened to a zamindar's estate on failure to pay the revenue? (one word)", "a": "auction"},
+        {"q": "Which company's state introduced the Permanent Settlement? (short form, three words)", "a": "East India Company"},
+        {"q": "In which region was the Permanent Settlement first imposed? (one word)", "a": "Bengal"}
+      ]
+    },
+    {
+      "id": "lehs.301.2",
+      "questions": [
+        {"q": "What were the rich peasants who controlled village land and credit in Bengal called? (one word)", "a": "jotedars"},
+        {"q": "To whom did jotedars lease out parts of their holdings? (one word)", "a": "under-ryots"},
+        {"q": "Jotedars resisted the demands of which proprietors? (one word)", "a": "zamindars"},
+        {"q": "What local economic power did jotedars control over poorer cultivators? (one word)", "a": "credit"},
+        {"q": "Whose control over the countryside proved more durable than the zamindars': the jotedars or the auction purchasers? (one word)", "a": "jotedars"},
+        {"q": "Did the power of jotedars survive or collapse when zamindar estates were auctioned? (one word)", "a": "survived"},
+        {"q": "In which presidency did jotedars dominate the rural economy? (one word)", "a": "Bengal"}
+      ]
+    },
+    {
+      "id": "lehs.301.3",
+      "questions": [
+        {"q": "Into which hills did the Santhals migrate and clear forest for cultivation? (two words)", "a": "Rajmahal hills"},
+        {"q": "Against which earlier hill community did Santhal settlers clash? (one word)", "a": "Paharias"},
+        {"q": "In which year did the Santhal rebellion begin? (give the year)", "a": "1855"},
+        {"q": "In which year was the Santhal rebellion suppressed? (give the year)", "a": "1856"},
+        {"q": "From which decade of the eighteenth century had Santhal migration into the Rajmahal hills proceeded? (short phrase)", "a": "late eighteenth century"},
+        {"q": "What kind of cultivation did the Santhals practise after clearing forests? (two words)", "a": "settled cultivation"},
+        {"q": "What administrative result followed the Santhal rebellion of 1855-56? (short phrase)", "a": "separate Santhal district"}
+      ]
+    },
+    {
+      "id": "lehs.301.4",
+      "questions": [
+        {"q": "The cotton boom of the 1860s was tied to which war? (three words)", "a": "American Civil War"},
+        {"q": "In which decade did the Deccan cotton boom collapse? (short phrase)", "a": "1860s"},
+        {"q": "After which year did cotton prices crash? (give the year)", "a": "1864"},
+        {"q": "In which year did the Deccan riots break out? (give the year)", "a": "1875"},
+        {"q": "Whose houses and account books did Deccan ryots attack in 1875? (one word)", "a": "moneylenders"},
+        {"q": "What were village moneylenders of the Deccan called? (one word)", "a": "sahukars"},
+        {"q": "Which commission investigated the Deccan riots? (three words)", "a": "Deccan Riots Commission"}
+      ]
+    },
+    {
+      "id": "lehs.301.5",
+      "questions": [
+        {"q": "In which year was the Permanent Settlement made? (give the year)", "a": "1793"},
+        {"q": "How many years passed between the Permanent Settlement (1793) and the Santhal rebellion (1855)? (number of years)", "a": "62"},
+        {"q": "How many years passed between the Santhal rebellion (1855) and the Deccan riots (1875)? (number of years)", "a": "20"},
+        {"q": "How many years passed between the Permanent Settlement (1793) and the Deccan riots (1875)? (number of years)", "a": "82"},
+        {"q": "The Deccan riots broke out in 1875. How many years after the cotton price crash of 1864 was that? (number of years)", "a": "11"},
+        {"q": "Half of the interval from the Permanent Settlement (1793) to the Deccan riots (1875) is how many years? (number of years)", "a": "41"},
+        {"q": "Which event came first: the Santhal rebellion or the Deccan riots? (two words)", "a": "Santhal rebellion"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_005",
+   "title": "c12_cs_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the result of the condition `WHERE marks BETWEEN 40 AND 50` for a row where marks = 50?",
+     "a": "The row is included because BETWEEN is inclusive of both boundary values. A wrong answer (e.g., \"excluded\" or \"depends on database\") reveals the student thinks BETWEEN behaves like Python's `range()` (exclusive upper bound) or misunderstands inclusive endpoints — a common error that costs marks in board exams when boundary values are tested.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the query `SELECT * FROM students WHERE grade = 'A' OR grade = 'B' AND city = 'Delhi'` returns a different result than `SELECT * FROM students WHERE (grade = 'A' OR grade = 'B') AND city = 'Delhi'` for the same table.",
+     "a": "AND has higher precedence than OR, so the first query evaluates as `grade = 'A' OR (grade = 'B' AND city = 'Delhi')` — it returns all 'A' grade students from any city plus 'B' grade students from Delhi. The second query forces OR to evaluate first, returning only students from Delhi who have grade 'A' or 'B'. A wrong answer shows the student ignores operator precedence, leading to incorrect filtering in competitive exams where parentheses are omitted intentionally.",
+     "self_check": true
+    },
+    {
+     "q": "Write a WHERE clause to select employees whose salary is NOT in the set {30000, 40000, 50000} AND whose name starts with 'S' or ends with 'a'.",
+     "a": "`WHERE salary NOT IN (30000, 40000, 50000) AND (name LIKE 'S%' OR name LIKE '%a')`. Steps: (1) Use NOT IN for set exclusion. (2) Use LIKE with % wildcard for prefix/suffix patterns. (3) Parenthesise the OR condition because AND binds tighter. A wrong answer missing parentheses or using `!=` for multiple values reveals confusion between single-value negation and set negation, or precedence neglect.",
+     "self_check": true
+    },
+    {
+     "q": "A table `orders` has columns `order_date` (DATE) and `amount` (DECIMAL). Compare the results of these two conditions for a row with `order_date = '2024-02-29'` (leap year) and `amount = 1000.00`:\nCondition 1: `WHERE order_date BETWEEN '2024-02-01' AND '2024-02-28'`\nCondition 2: `WHERE order_date >= '2024-02-01' AND order_date <= '2024-02-28'`",
+     "a": "Both conditions exclude the row because '2024-02-29' is outside the range ending 28th. They are functionally equivalent for DATE types. A student who says \"Condition 1 includes 29th because BETWEEN is inclusive\" reveals a misunderstanding: inclusivity applies to the stated endpoints (1st and 28th), not to dates beyond them. This tests boundary reasoning with date literals — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this WHERE clause for finding students with NULL email OR phone starting with '98': `WHERE email = NULL OR phone LIKE '98%'`. Is it correct? If not, fix it.",
+     "a": "Incorrect. `email = NULL` always evaluates to UNKNOWN (not TRUE) because NULL cannot be compared with =. The fix: `WHERE email IS NULL OR phone LIKE '98%'`. A student who thinks `= NULL` works reveals the most pervasive SQL misconception — treating NULL as a value rather than a missing-value marker. This error appears in both board and JEE/NEET-style questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sample table `products` (at least 5 rows, columns: id, name, category, price, stock) and write a single WHERE clause that selects exactly 3 specific rows of your choice using a combination of IN, BETWEEN, LIKE, and IS NOT NULL. Explain why each of the other 2 rows is excluded.",
+     "a": "Example table:\n| id | name | category | price | stock |\n|----|------|----------|-------|-------|\n| 1 | Rice | Grain | 50 | 100 |\n| 2 | Wheat | Grain | 40 | 80 |\n| 3 | Apple | Fruit | 120 | NULL |\n| 4 | Mango | Fruit | 90 | 50 |\n| 5 | Dal | Pulse | 110 | 60 |\n\nWHERE clause: `WHERE category IN ('Grain', 'Fruit') AND price BETWEEN 40 AND 100 AND stock IS NOT NULL`\nSelected rows: 1, 2, 4. Row 3 excluded (stock IS NULL). Row 5 excluded (category not in list). A poor answer uses only one operator type or fails to justify exclusions, showing inability to compose multi-operator conditions — a skill needed for case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

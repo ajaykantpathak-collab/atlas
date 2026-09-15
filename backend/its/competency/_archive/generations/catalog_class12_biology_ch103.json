@@ -1,0 +1,492 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 103,
+ "chapter_title": "Reproductive Health",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo103.txt",
+ "concepts": [
+  {
+   "id": "lebo.103.1",
+   "title": "Reproductive Health and RCH Programmes",
+   "section": "3.1",
+   "definition": "Complete well-being - physical, mental, emotional and social - in all matters of the reproductive system, backed at the national level by programmes such as RCH.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Reproductive health extends beyond physical fitness to encompass both emotional and social aspects of human reproduction.",
+   "textbook_ref": "lebo103.txt lines 10-40",
+   "question_patterns": [
+    "What does reproductive health mean according to WHO?",
+    "Explain the objectives of the Reproductive and Child Health Care (RCH) programmes.",
+    "What are the major tasks under the RCH programmes?",
+    "How does the society benefit from reproductive health awareness?",
+    "state two key points about reproductive health and rch programmes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define reproductive health according to WHO",
+     "explain": "According to the World Health Organisation, reproductive health means total well-being in physical, emotional, behavioural, and social aspects of reproduction."
+    },
+    {
+     "step": 2,
+     "action": "Detail the goals of RCH programmes",
+     "explain": "The goals include creating awareness about reproduction-related aspects and providing facilities and support for building a reproductively healthy society."
+    },
+    {
+     "step": 3,
+     "action": "Outline the major tasks and societal benefits of RCH programmes",
+     "explain": "Major tasks include sex education, awareness of birth control and STD prevention, and access to medical facilities; these together reduce maternal and infant mortality and build a reproductively healthy society."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.2",
+   "title": "Amniocentesis and its Regulation",
+   "section": "3.1",
+   "definition": "A prenatal diagnostic technique where amniotic fluid is analyzed to detect genetic abnormalities in the fetus, legally restricted to prevent its misuse for sex determination.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Amniocentesis is meant for detecting chromosomal disorders, but is legally banned for sex determination to prevent female foeticide.",
+   "textbook_ref": "lebo103.txt lines 41-55",
+   "question_patterns": [
+    "Why is there a statutory ban on amniocentesis in India?",
+    "What is amniocentesis and how is it performed?",
+    "Which genetic disorders can be detected using amniocentesis?",
+    "Explain the misuse of amniocentesis.",
+    "describe amniocentesis and its regulation with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the procedure of amniocentesis",
+     "explain": "A small amount of amniotic fluid containing fetal cells is extracted from the uterus to analyze chromosomes and biochemical substances."
+    },
+    {
+     "step": 2,
+     "action": "Identify the disorders detected",
+     "explain": "It is used to test for genetic disorders such as Down's syndrome, hemophilia, and sickle-cell anemia."
+    },
+    {
+     "step": 3,
+     "action": "Explain the reason for the legal ban",
+     "explain": "The test is banned for gender determination to legally check the increasing menace of female foeticide."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.3",
+   "title": "Natural Methods of Contraception",
+   "section": "3.2",
+   "definition": "Contraceptive practices that prevent fertilization by avoiding the meeting of sperm and ovum without using any artificial devices or chemicals.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Includes periodic abstinence (days 10-17), coitus interruptus, and lactational amenorrhea (up to 6 months post-partum).",
+   "textbook_ref": "lebo103.txt lines 75-100",
+   "question_patterns": [
+    "Explain the natural methods of contraception.",
+    "What is lactational amenorrhea and what is its maximum duration of effectiveness?",
+    "How does periodic abstinence prevent conception?",
+    "What is coitus interruptus?",
+    "short note on natural methods of contraception"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three natural methods",
+     "explain": "The three methods are periodic abstinence, withdrawal (coitus interruptus), and lactational amenorrhea."
+    },
+    {
+     "step": 2,
+     "action": "Explain the physiological basis of each method",
+     "explain": "Periodic abstinence avoids coitus during the fertile period (days 10-17 of the cycle); withdrawal prevents insemination; lactational amenorrhea relies on the absence of ovulation during intense breastfeeding (up to 6 months)."
+    },
+    {
+     "step": 3,
+     "action": "State the limitations of natural methods",
+     "explain": "Natural methods have a high failure rate because they depend on precise tracking of the fertile window and self-restraint, making them less reliable than barrier or hormonal methods."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.4",
+   "title": "Barrier Methods of Contraception",
+   "section": "3.2",
+   "definition": "Contraceptive methods that physically block sperm from reaching the ovum using mechanical barriers like condoms, diaphragms, cervical caps, or vaults.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Barriers prevent physical contact of gametes and, in the case of condoms, also protect against STIs and AIDS.",
+   "textbook_ref": "lebo103.txt lines 101-125",
+   "question_patterns": [
+    "How do barrier methods prevent pregnancy?",
+    "Name some reusable female barrier contraceptives.",
+    "Why is the use of condoms highly recommended over other barriers?",
+    "What is the role of spermicidal creams used with barriers?",
+    "explain barrier methods of contraception in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the barrier devices for males and females",
+     "explain": "Condoms are used by both males and females; diaphragms, cervical caps, and vaults are used by females."
+    },
+    {
+     "step": 2,
+     "action": "Describe how they block sperm entry",
+     "explain": "They cover the cervix or penis during coitus, physically blocking the entry of ejaculated semen into the female reproductive tract."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the dual benefit of condoms",
+     "explain": "Condoms provide additional protection against contracting sexually transmitted infections (STIs) and AIDS."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.5",
+   "title": "Intrauterine Devices (IUDs)",
+   "section": "3.2",
+   "definition": "Devices inserted into the uterus by medical professionals that prevent conception by releasing copper ions, hormones, or acting as physical foreign bodies to suppress sperm both motility and implantation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Categorized into non-medicated, copper-releasing, and hormone-releasing IUDs.",
+   "textbook_ref": "lebo103.txt lines 126-145",
+   "question_patterns": [
+    "Classify the different types of Intrauterine Devices with examples.",
+    "How do copper-releasing IUDs prevent conception?",
+    "Explain the mechanism of hormone-releasing IUDs.",
+    "Why are IUDs widely accepted in India for spacing children?",
+    "explain intrauterine devices (iuds) in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify IUDs with examples",
+     "explain": "Non-medicated (e.g., Lippes loop), copper-releasing (e.g., CuT, Cu7, Multiload 375), and hormone-releasing (e.g., Progestasert, LNG-20)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism of copper-releasing IUDs",
+     "explain": "Released copper ions suppress sperm motility and their fertilizing capacity, while increasing phagocytosis of sperms within the uterus."
+    },
+    {
+     "step": 3,
+     "action": "Explain the mechanism of hormone-releasing IUDs",
+     "explain": "They make the uterus unsuitable for implantation and render the cervix hostile to the sperms."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.6",
+   "title": "Oral and Injectable Contraceptives",
+   "section": "3.2",
+   "definition": "Pills, injections or implants carrying progestogen alone or with estrogen; they stop ovulation and block implantation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Pills like 'Saheli' are non-steroidal and taken weekly, while others are indeed taken daily for 21 days.",
+   "textbook_ref": "lebo103.txt lines 146-170",
+   "question_patterns": [
+    "How do oral contraceptive pills prevent pregnancy?",
+    "What is Saheli and why is it considered a major development in oral contraception?",
+    "Describe the administration pattern of daily oral pills.",
+    "What are implants and how do they differ from oral pills?",
+    "justify why oral and injectable contraceptives matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the hormonal composition of pills and implants",
+     "explain": "They contain small doses of either progestogens or progestogen-estrogen combinations."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism of action",
+     "explain": "They inhibit ovulation and implantation, and alter cervical mucus quality to prevent sperm entry."
+    },
+    {
+     "step": 3,
+     "action": "Contrast daily pills with weekly non-steroidal pills like Saheli",
+     "explain": "Saheli is a non-steroidal, once-a-week pill developed by CDRI, Lucknow, having high contraceptive value and minimal side effects."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.7",
+   "title": "Surgical Methods of Contraception",
+   "section": "3.2",
+   "definition": "Terminal contraceptive procedures that block gamete transport through surgical intervention, namely vasectomy in males and tubectomy in females.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Highly effective but virtually irreversible methods of permanent contraception.",
+   "textbook_ref": "lebo103.txt lines 171-190",
+   "question_patterns": [
+    "Distinguish between vasectomy and tubectomy.",
+    "Why are surgical methods of contraception considered terminal?",
+    "How does sterilisation prevent pregnancy without affecting gametogenesis?",
+    "What is the main drawback of surgical contraception?",
+    "short note on surgical methods of contraception"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define vasectomy and tubectomy",
+     "explain": "In vasectomy, a small part of the vas deferens is removed or tied up. In tubectomy, a small part of the fallopian tube is removed or tied up."
+    },
+    {
+     "step": 2,
+     "action": "Explain the physiological block",
+     "explain": "These procedures block gamete transport, preventing sperm and ovum from meeting, while gamete production remains unaffected."
+    },
+    {
+     "step": 3,
+     "action": "Note the reversibility and efficacy",
+     "explain": "These techniques are highly effective but their reversibility is extremely poor."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.8",
+   "title": "Medical Termination of Pregnancy (MTP)",
+   "section": "3.3",
+   "definition": "Deliberately ending a pregnancy before it reaches full term, under legal safeguards that guard against misuse.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Safe during the first trimester (up to 12 weeks), and legalised in India since 1971 with amendments in 2017.",
+   "textbook_ref": "lebo103.txt lines 191-230",
+   "question_patterns": [
+    "What is Medical Termination of Pregnancy (MTP)?",
+    "Under what conditions is MTP legalised in India?",
+    "Up to which week of pregnancy is MTP considered safe?",
+    "Explain the amendments made in the MTP Act in 2017.",
+    "what do you understand by medical termination of pregnancy (mtp)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define MTP",
+     "explain": "MTP is the voluntary or intentional termination of a pregnancy before it reaches full term."
+    },
+    {
+     "step": 2,
+     "action": "State the safety period",
+     "explain": "MTPs are relatively safe during the first trimester (up to 12 weeks of pregnancy); second trimester abortions are much riskier."
+    },
+    {
+     "step": 3,
+     "action": "Explain the legal conditions and grounds",
+     "explain": "Legalised in 1971 to avoid misuse, and amended in 2017 to require opinions from registered medical practitioners based on risk to the mother's life or severe fetal abnormalities."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.9",
+   "title": "Sexually Transmitted Infections (STIs)",
+   "section": "3.4",
+   "definition": "Infections or diseases transmitted primarily through sexual contact, which can lead to severe complications if left untreated.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Early detection is crucial; hepatitis-B, genital herpes, and HIV are currently incurable, while others are completely curable.",
+   "textbook_ref": "lebo103.txt lines 231-265",
+   "question_patterns": [
+    "List some common sexually transmitted infections (STIs).",
+    "Which STIs are not completely curable?",
+    "What are the long-term complications of untreated STIs?",
+    "How can one prevent contracting sexually transmitted infections?",
+    "list the main features of sexually transmitted infections (stis)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List curable and incurable STIs",
+     "explain": "Incurable STIs include hepatitis-B, genital herpes, and HIV. Others like gonorrhea, syphilis, and chlamydiasis are completely curable if detected early."
+    },
+    {
+     "step": 2,
+     "action": "Describe early symptoms and long-term complications",
+     "explain": "Early symptoms include itching, fluid discharge, and slight pain. Untreated STIs can lead to pelvic inflammatory diseases (PID), ectopic pregnancies, stillbirths, and infertility."
+    },
+    {
+     "step": 3,
+     "action": "Outline preventive measures",
+     "explain": "Prevention includes avoiding sex with multiple/unknown partners, using condoms during coitus, and seeking immediate medical attention in case of doubt."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.10",
+   "title": "Assisted Reproductive Technologies (ART) - IVF, ZIFT, and IUT",
+   "section": "3.5",
+   "definition": "Fertilisation done outside the body (in vitro), after which the early embryo is placed into the woman's reproductive tract.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "ZIFT places embryos of up to eight blastomeres into the fallopian tube; IUT puts embryos beyond that stage into the uterus.",
+   "textbook_ref": "lebo103.txt lines 266-300",
+   "question_patterns": [
+    "Explain the test tube baby programme.",
+    "Differentiate between ZIFT and IUT.",
+    "What is In Vitro Fertilisation (IVF)?",
+    "When is embryo transfer (ET) recommended?",
+    "explain assisted reproductive technologies (art) - ivf, zift, and iut in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define IVF",
+     "explain": "In vitro fertilisation involves fusing ova and sperms outside the body under simulated laboratory conditions."
+    },
+    {
+     "step": 2,
+     "action": "Explain ZIFT",
+     "explain": "Zygote Intra Fallopian Transfer involves transferring the zygote or early embryo (up to 8 blastomeres) into the fallopian tube."
+    },
+    {
+     "step": 3,
+     "action": "Explain IUT",
+     "explain": "Intra Uterine Transfer involves transferring embryos with more than 8 blastomeres directly into the uterus."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.11",
+   "title": "Assisted Reproductive Technologies (ART) - GIFT, ICSI, and AI",
+   "section": "3.5",
+   "definition": "Specialized infertility treatments where gametes are directly manipulated or artificially introduced to achieve fertilization, either in vivo or in vitro.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Includes GIFT (transfer of ovum), ICSI (direct injection of sperm), and AI/IUI (artificial introduction of semen).",
+   "textbook_ref": "lebo103.txt lines 301-325",
+   "question_patterns": [
+    "What is GIFT and for whom is it recommended?",
+    "Explain Intra Cytoplasmic Sperm Injection (ICSI).",
+    "Under what conditions is Artificial Insemination (AI) used?",
+    "What is Intra-Uterine Insemination (IUI)?",
+    "state two key points about assisted reproductive technologies (art) - gift, icsi, and ai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain GIFT",
+     "explain": "Gamete Intra Fallopian Transfer involves transferring a donor's ovum into the fallopian tube of a female who cannot produce one but can support development."
+    },
+    {
+     "step": 2,
+     "action": "Explain ICSI",
+     "explain": "Intra Cytoplasmic Sperm Injection is a laboratory procedure where a single sperm is directly injected into an ovum to form an embryo."
+    },
+    {
+     "step": 3,
+     "action": "Explain AI and IUI",
+     "explain": "Artificial Insemination involves introducing semen from a husband or donor artificially into the vagina or uterus (IUI) to correct low sperm count or inability to inseminate."
+    }
+   ]
+  },
+  {
+   "id": "lebo.103.12",
+   "title": "Estimation of Total Conceived Pregnancies",
+   "section": "3.3",
+   "definition": "A back-of-the-envelope count of yearly conceptions worldwide: MTPs are known to make up about one fifth of all conceptions, so multiplying MTP numbers by five estimates the total.",
+   "formula": "total_conceptions = mtps * 5",
+   "key_idea": "Since MTPs represent 20% (1/5th) of all conceived pregnancies, multiplying the annual MTP count by 5 yields the total annual conceptions.",
+   "textbook_ref": "lebo103.txt lines 191-200",
+   "question_patterns": [
+    "If there are {mtps} million MTPs performed in a year, calculate the total number of conceived pregnancies.",
+    "How many total pregnancies are conceived annually if {mtps} million are terminated via MTP?",
+    "Find the total conceived pregnancies given that MTPs equal {mtps} million and represent one-fifth of all conceptions.",
+    "Calculate the total annual conceptions when the number of MTPs is {mtps}.",
+    "work out the value using estimation of total conceived pregnancies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of MTPs performed",
+     "explain": "The given number of MTPs is stored in the variable mtps.",
+     "compute": "mtps_count = mtps"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total conceptions",
+     "explain": "Multiply the MTP count by 5 to get the total conceived pregnancies.",
+     "compute": "total_conceptions = mtps_count * 5"
+    },
+    {
+     "step": 3,
+     "action": "State the final estimated total conceived pregnancies",
+     "explain": "Since MTPs represent one-fifth of all conceptions, the product gives the total annual conceptions, completing the estimation.",
+     "compute": "result = total_conceptions"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo103.txt lines 191-200",
+   "concept": "lebo.103.12",
+   "question_type": "compute",
+   "question_pattern": "If there are {mtps} million MTPs performed in a year, what is the total number of conceived pregnancies in millions?",
+   "extracted_variables": {
+    "mtps": "The annual number of medical terminations of pregnancy in millions"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the number of MTPs performed",
+     "explain": "The given number of MTPs is stored in the variable mtps.",
+     "compute": "mtps_count = mtps"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total conceptions",
+     "explain": "Multiply the MTP count by 5 to get the total conceived pregnancies.",
+     "compute": "total_conceptions = mtps_count * 5"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lebo103.txt lines 191-200",
+   "concept": "lebo.103.12",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute estimation of total conceived pregnancies step by step",
+   "extracted_variables": {
+    "mtps": "value of mtps"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the number of MTPs performed",
+     "explain": "The given number of MTPs is stored in the variable mtps.",
+     "compute": "mtps_count = mtps"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total conceptions",
+     "explain": "Multiply the MTP count by 5 to get the total conceived pregnancies.",
+     "compute": "total_conceptions = mtps_count * 5"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "lebo103.txt lines 330-350",
+   "questions": [
+    "What do you think is the significance of reproductive health in a society?",
+    "Suggest the aspects of reproductive health which need to be given special attention in the present scenario.",
+    "Is sex education necessary in schools? Why?",
+    "Do you think that reproductive health in our country has improved in the past 50 years? If yes, mention some such areas of improvement.",
+    "What are the suggested reasons for population explosion?",
+    "Is the use of contraceptives justified? Give reasons.",
+    "Removal of gonads cannot be considered as a contraceptive option. Why?",
+    "Amniocentesis for sex determination is banned in our country. Is this ban necessary? Comment.",
+    "Suggest some methods to assist infertile couples to have children.",
+    "What are the measures one has to take to prevent from contracting STDs?",
+    "State True/False with explanation: (a) Abortions could happen spontaneously too. (b) Infertility is defined as the inability to produce a viable offspring and is always due to abnormalities/defects in the female partner. (c) Complete lactation could help as a natural method of contraception. (d) Creating awareness about sex related aspects is an effective method to improve reproductive health of the people.",
+    "Correct the following statements: (a) Surgical methods of contraception prevent gamete formation. (b) All sexually transmitted diseases are completely curable. (c) Oral pills are very popular contraceptives among the rural women. (d) In E. T. techniques, embryos are always transferred into the uterus."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

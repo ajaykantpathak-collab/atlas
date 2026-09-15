@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_003",
+   "title": "c10_hist_cbse_04_003",
+   "questions": [
+    {
+     "q": "In which industry did machine production first clearly outpace hand production in Britain, and by approximately what decade had this shift become dominant?",
+     "a": "Cotton textiles; by the 1830s machine-spun yarn and power-loom weaving dominated. A wrong answer (e.g., \"iron industry in the 1760s\" or \"wool industry in the 1780s\") reveals the student confuses the first industry to mechanise (cotton) with early inventions in other sectors, and misses the 50-year lag between invention and dominance.",
+     "self_check": true
+    },
+    {
+     "q": "Why did British merchants in the late 18th century continue to give work to handloom weavers even after Arkwright's water frame and Crompton's mule were invented?",
+     "a": "Merchants needed diverse, small-batch, high-quality fabrics (muslins, patterned silks) that early machines could not produce; handlooms offered design flexibility and lower fixed costs for uncertain demand. A wrong answer (\"workers resisted machines\" or \"machines were banned\") shows the student attributes the delay to social resistance rather than economic rationality and technical limits of early machines.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 1790 merchant's ledger showing payments to 200 handloom weavers and only 5 power looms in the same region. Using the concept of 'seasonal labour', explain why this ratio makes economic sense for the merchant.",
+     "a": "In winter, agricultural workers sought weaving work, expanding labour supply and depressing wages — handloom output could expand cheaply without new capital; power looms required year-round fixed costs (building, engine, coal) regardless of season. A wrong answer focusing only on \"machines were new\" misses the structural link between agrarian calendar and industrial labour costs that sustained hand production.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pace of mechanisation in the cotton industry versus the iron industry in Britain (1760–1830). Identify two structural reasons why cotton mechanised faster.",
+     "a": "Cotton: standardised raw material (raw cotton), uniform product (yarn/cloth), large export markets → easy to mechanise spinning/weaving. Iron: varied ores, multiple products (pig iron, wrought iron, steel), needed high heat and skilled judgement → mechanisation limited to rolling/puddling until Cort's process (1784) and later Bessemer (1856). A wrong answer listing only \"cotton had more inventions\" ignores the material and market structures that made cotton amenable to factory discipline.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The slow pace of industrial change in Britain before 1830 proves that British entrepreneurs were conservative and resistant to innovation.\"",
+     "a": "The claim is flawed. Entrepreneurs adopted machines where they lowered unit cost (cotton spinning); they retained hand labour where it was cheaper for customised, seasonal, or skill-intensive work. This was rational cost-minimisation, not conservatism. Evidence: British patent records show thousands of inventions; capital flowed to canals, railways, and cotton mills. A wrong answer agreeing with the claim confuses 'slow diffusion' with 'resistance', ignoring the economic calculus of fixed vs. variable costs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a two-column timeline (1760–1850) showing: Column A — key technological inventions in textiles and iron; Column B — the decade when each invention became widely used in factories. What pattern does the gap between columns reveal about the pace of industrial change?",
+     "a": "Example: Spinning jenny (1764) → widespread 1780s; Water frame (1769) → 1780s; Power loom (1785) → 1820s; Cort's puddling (1784) → 1800s; Bessemer (1856) → 1860s. Pattern: 20–40 year lags between invention and diffusion. Reveals that adoption depended on complementary factors (capital, skills, transport, market size), not invention alone. A poor answer lists inventions without adoption dates, missing the core concept of 'pace' as diffusion lag.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

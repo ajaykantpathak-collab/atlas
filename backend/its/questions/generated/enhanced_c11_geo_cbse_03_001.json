@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_001",
+   "title": "c11_geo_cbse_03_001",
+   "questions": [
+    {
+     "q": "Name two direct sources of information about Earth's interior and state the maximum depth they have reached as a percentage of Earth's radius.",
+     "a": "Direct sources: deep drilling (Kola Superdeep Borehole, 12.2 km ≈ 0.19% of Earth's radius) and volcanic eruptions (bring magma from upper mantle, ~100–200 km depth ≈ 1.5–3% of radius). A wrong answer that cites \"mining reaching the mantle\" or \"drilling reaching the core\" reveals the student does not grasp the extreme scale difference between crustal access and Earth's total radius.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't we rely solely on direct sources to understand Earth's core, and what fundamental physical property of seismic waves makes them the most powerful indirect tool?",
+     "a": "Direct sources are limited to the crust and uppermost mantle because temperature and pressure prevent drilling deeper; the core lies 2,900 km down. Seismic waves change speed and direction (refraction/reflection) at density contrasts, creating shadow zones and arrival-time patterns that map discontinuities like the Moho and core-mantle boundary. A wrong answer focusing only on \"seismic waves tell us about earthquakes\" misses their role as probes of internal structure.",
+     "self_check": true
+    },
+    {
+     "q": "A geologist finds a rock sample with density 3.3 g/cm³ at a depth of 50 km in a borehole. Using the concept of direct vs. indirect sources, explain whether this sample represents the crust or upper mantle, and how seismic data would confirm the boundary.",
+     "a": "Step 1: Recall typical crustal density (2.7–3.0 g/cm³) and upper mantle density (~3.3 g/cm³). Step 2: The sample's density matches mantle values, suggesting the borehole penetrated the Mohorovičić discontinuity. Step 3: Seismic P-wave velocity jumps from ~6.5 km/s (crust) to ~8.0 km/s (mantle) at the same depth, providing independent indirect confirmation. A wrong answer that ignores the seismic velocity contrast shows inability to cross-validate direct and indirect evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information provided by gravity anomalies and magnetic surveys about Earth's interior. Which reveals sharp boundaries better, and why?",
+     "a": "Gravity anomalies reflect lateral density variations and are smoothed by the inverse-square law, making them poor at resolving sharp vertical boundaries. Magnetic surveys detect magnetization contrasts in the crust but vanish above the Curie depth (~20–30 km) where rocks lose permanent magnetism. Neither resolves deep discontinuities as sharply as seismic waves, which show abrupt velocity jumps at the Moho and core-mantle boundary. A wrong answer claiming gravity or magnetics give \"clear layer boundaries\" confuses the resolving power of different geophysical fields.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Iron meteorites are perfect analogues for Earth's core composition because both formed from the same solar nebula.\"",
+     "a": "Iron meteorites (especially octahedrites) match the density and nickel-iron alloy inferred for the core, supporting the statement. However, Earth's core contains light elements (S, O, Si) that lower its density below pure iron-nickel, and meteorites may not represent the exact bulk Earth composition due to planetary differentiation processes. A good evaluation acknowledges the strong analogy but notes geochemical nuances. A wrong answer that accepts the statement uncritically misses the role of light elements in the outer core.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a layered transparent container, liquid, and a laser pointer to model how seismic waves reveal interior layering. List materials, procedure, and the geographical concept illustrated.",
+     "a": "Materials: clear tank, water (crust), glycerin (mantle), honey (core), laser pointer, protractor. Procedure: Layer fluids by density; shine laser at an angle; observe refraction at each interface. Concept: Snell's law governs seismic wave refraction at discontinuities (Mohorovičić, Gutenberg). A poor demonstration uses only one fluid or ignores angle measurement, failing to show how velocity contrasts bend wave paths and create shadow zones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

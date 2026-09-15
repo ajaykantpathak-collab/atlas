@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt108",
+ "concepts": [
+  {
+   "id": "lebt108.1",
+   "title": "Animal Cell Culture Media and Serum",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Animal Cell Culture Media and Serum' refers to.",
+     "a": "Animal cells drink a broth of amino acids, glucose, salts, vitamins, hormones and serum, the fetal bovine kind being favourite; natural media of plasma and embryo extract reproducibility poorly, synthetic formulations run from serum-containing through serum-free and xeno-free to protein-free and chemically defined salt solutions, and serum itself both feeds and fouls - growth factors and adhesion proteins on one side, batch variability, contaminants and purification headaches on the other.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Animal Cell Culture Media and Serum'.",
+     "a": "Serum feeds attachment and growth but carries variability and contamination - synthetic serum-free recipes trade convenience for control.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Animal Cell Culture Media and Serum' taught, and from which source text?",
+     "a": "8.2 (source: lebt108.txt sections 8.1-8.2, Boxes 2-3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.2",
+   "title": "Phenol Red and Culture Buffering Systems",
+   "questions": [
+    {
+     "q": "Using the method 'Phenol Red and Culture Buffering Systems', work with: acidic_ph = 8, alkaline_ph = 24. Carry the chain through step by step and give the final value of mid_ph.",
+     "a": "16 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Phenol Red and Culture Buffering Systems' and work with: acidic_ph = 6, alkaline_ph = 10. Carry the chain through step by step and give the final value of mid_ph.",
+     "a": "8 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Phenol Red and Culture Buffering Systems' refers to.",
+     "a": "Cultures breathe in 37 degree incubators gassed with five to ten percent carbon dioxide at about 300 mOsmol osmolality, their pH held by bicarbonate's Le Chatelier dance or by HEPES in the 7.2-7.4 window; phenol red plays traffic light - yellow below 6.8, bright red at the optimal 7.4, pink above 8.2 - while pyruvate lets cells make their own carbon dioxide.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phenol Red and Culture Buffering Systems'.",
+     "a": "Measure the pH window phenol red watches, and compare its midpoint with the optimum to see the buffer's job.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phenol Red and Culture Buffering Systems', in plain ASCII form.",
+     "a": "colour_span = alkaline_ph - acidic_ph",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.3",
+   "title": "Laminar Hoods and CO2 Incubators",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Laminar Hoods and CO2 Incubators' refers to.",
+     "a": "Aseptic work happens inside laminar flow cabinets where pre-filters and HEPA filtration wash the bench in sterile air - vertical downflow protecting the operator better than horizontal crossflow - while carbon dioxide incubators hold 37 degrees, five to ten percent carbon dioxide and about 95 percent humidity, and an inverted phase-contrast microscope watches morphology, blebbing and early contamination daily.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Laminar Hoods and CO2 Incubators'.",
+     "a": "Filtered airflow guards the culture from you, and the incubator guards it from the world - check both every day.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Laminar Hoods and CO2 Incubators' taught, and from which source text?",
+     "a": "8.4 (source: lebt108.txt section 8.4, Figs. 8.2-8.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.4",
+   "title": "Primary Secondary Finite and Continuous Cell Lines",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Primary Secondary Finite and Continuous Cell Lines' refers to.",
+     "a": "Cells taken straight from tissue form primary cultures of mixed, parent-like cells; passaging them builds secondary lines where the fastest growers dominate, and lifespan splits the lineage - finite lines senesce after limited divisions while transformed cells immortalise into continuous lines that grow densely, loosely and even in suspension, as HeLa cells have done since George Gey cultured them from Henrietta Lacks in 1951.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Secondary Finite and Continuous Cell Lines'.",
+     "a": "Fresh tissue gives finite, faithful cultures; transformation buys immortality at the price of tumorigenic change.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Primary Secondary Finite and Continuous Cell Lines' taught, and from which source text?",
+     "a": "8.5 (source: lebt108.txt sections 8.5 and Box 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.5",
+   "title": "Subculture and Cryopreservation of Cells",
+   "questions": [
+    {
+     "q": "Using the method 'Subculture and Cryopreservation of Cells', work with: dmso_pct = 20, freeze_volume = 45. Carry the chain through step by step and give the final value of serum_volume.",
+     "a": "36 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Subculture and Cryopreservation of Cells' and work with: dmso_pct = 60, freeze_volume = 10. Carry the chain through step by step and give the final value of serum_volume.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Subculture and Cryopreservation of Cells' refers to.",
+     "a": "Crowded monolayers are split by trypsinising cells off the vessel, centrifuging and reseeding into fresh flasks - each split raising the passage number - while long-term stocks sleep in liquid nitrogen at minus 180 to minus 196 degrees celsius, below minus 130 ice crystals fade, a freezing medium of ninety percent serum with ten percent DMSO or glycerol cushions the cells, slow cooling to minus 80 lets water leave, and thawing rushes back at 37 degrees.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Subculture and Cryopreservation of Cells'.",
+     "a": "Take ten percent of the freezing medium as cryoprotectant, cool slowly, thaw fast.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Subculture and Cryopreservation of Cells', in plain ASCII form.",
+     "a": "dmso_volume = freeze_volume * dmso_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.6",
+   "title": "Cell Viability by Dye Exclusion and MTT",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Viability by Dye Exclusion and MTT' refers to.",
+     "a": "Counting the living drives toxicology and drug testing through two assays: dye exclusion lets trypan blue, propidium iodide or 7-AAD slip only into membrane-broken dead cells, and metabolic assays such as MTT ask live mitochondria to reduce a yellow tetrazolium salt into purple formazan whose dissolved colour scales with the number of surviving cells.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Viability by Dye Exclusion and MTT'.",
+     "a": "Dead cells leak dye in; live cells turn MTT purple - either signal reads out viability.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Viability by Dye Exclusion and MTT' taught, and from which source text?",
+     "a": "8.6 (source: lebt108.txt section 8.6, Figs. 8.7-8.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.7",
+   "title": "Growth Timing of Cultured Animal Cells",
+   "questions": [
+    {
+     "q": "Using the method 'Growth Timing of Cultured Animal Cells', work with: divisions = 45, hours_per_div = 400, starter_cells = 4. Carry the chain through step by step and give the final value of days_elapsed.",
+     "a": "750 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Growth Timing of Cultured Animal Cells' and work with: divisions = 15, hours_per_div = 8, starter_cells = 30. Carry the chain through step by step and give the final value of days_elapsed.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth Timing of Cultured Animal Cells' refers to.",
+     "a": "Animal cells divide slowly - eighteen to twenty-four hours per generation - so a culture doubles once a day at best, leaving any stray bacterium to overgrow the flask within a day and making asepsis the difference between a clean line and contamination; population size still follows the doubling rule across days.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth Timing of Cultured Animal Cells'.",
+     "a": "Double once per division cycle and divide total hours by hours per division to time any culture's expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth Timing of Cultured Animal Cells', in plain ASCII form.",
+     "a": "cells_after = starter_cells * 2 ** divisions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt108.8",
+   "title": "Pharmaceutical Proteins from CHO Cell Culture",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pharmaceutical Proteins from CHO Cell Culture' refers to.",
+     "a": "Chinese hamster ovary cells manufacture a pharmacy of human proteins - erythropoietin for anaemia, factors VIII and IX for haemophilia, tissue plasminogen activator for strokes as the first drug ever made in mammalian culture, follicle-stimulating hormone, growth hormone and interleukin-2 - while hybridoma-derived monoclonals from the transplant drug OKT3 to the HER2-blocking trastuzumab treat cancer and autoimmune disease.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pharmaceutical Proteins from CHO Cell Culture'.",
+     "a": "One cell line, many medicines - CHO bioreactors and hybridomas now supply clotting factors, hormones and targeted antibodies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pharmaceutical Proteins from CHO Cell Culture' taught, and from which source text?",
+     "a": "8.8 (source: lebt108.txt section 8.8, Table 8.3, Figs. 8.9-8.10)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

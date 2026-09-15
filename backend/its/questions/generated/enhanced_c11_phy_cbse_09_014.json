@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_014",
+   "title": "c11_phy_cbse_09_014",
+   "questions": [
+    {
+     "q": "Define angle of contact and state its SI unit. Draw a labeled diagram showing the angle of contact for a liquid that wets the solid (θ < 90°) and one that does not wet (θ > 90°).",
+     "a": "Angle of contact (θ) is the angle between the tangent to the liquid-air interface at the point of contact and the solid surface, measured inside the liquid. SI unit: degree (°) or radian (rad) – it is dimensionless. For water on clean glass, θ ≈ 0° (acute, concave meniscus). For mercury on glass, θ ≈ 140° (obtuse, convex meniscus). A wrong answer (e.g., measuring the angle outside the liquid, or confusing θ with the angle of the meniscus curvature) reveals the student has not internalised the precise geometric definition and the convention of measuring inside the liquid.",
+     "self_check": true
+    },
+    {
+     "q": "Using Young's equation (S_la cos θ = S_sa - S_sl), explain why a liquid with θ > 90° does not wet the solid surface. What does the sign of (S_sa - S_sl) tell you about the relative strength of adhesive vs. cohesive forces?",
+     "a": "For θ > 90°, cos θ is negative, so S_sa - S_sl < 0 → S_sl > S_sa. This means the solid-liquid interfacial tension is larger than the solid-air tension, implying the adhesive forces between liquid and solid are weaker than the cohesive forces within the liquid (and solid-air attraction). Consequently, the liquid minimizes contact area, forming droplets with a convex meniscus. A wrong answer that simply states \"θ > 90° means non-wetting\" without linking to the sign of (S_sa - S_sl) or the force balance shows the student cannot connect the algebraic sign to the physical force competition.",
+     "self_check": true
+    },
+    {
+     "q": "A liquid has surface tension S_la = 0.072 N/m. The solid-air and solid-liquid interfacial tensions are S_sa = 0.050 N/m and S_sl = 0.020 N/m. Calculate the angle of contact θ. Will this liquid rise or fall in a capillary tube of radius 0.5 mm? (Density ρ = 1000 kg/m³, g = 9.8 m/s²)",
+     "a": "Step 1: Young's equation: cos θ = (S_sa - S_sl) / S_la = (0.050 - 0.020) / 0.072 = 0.030 / 0.072 = 0.4167.\nStep 2: θ = cos⁻¹(0.4167) ≈ 65.4° (acute).\nStep 3: Since θ < 90°, cos θ > 0 → capillary rise. Use h = (2 S_la cos θ) / (ρ g r).\nStep 4: h = (2 × 0.072 × 0.4167) / (1000 × 9.8 × 0.5×10⁻³) = (0.060) / (4.9) ≈ 0.0122 m = 1.22 cm rise.\nStep 5: Answer: θ ≈ 65°, liquid rises by 1.22 cm. A wrong answer with θ > 90° or negative h indicates sign error in cos θ or misapplication of the capillary rise formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two liquids A and B have the same surface tension (0.05 N/m) but different contact angles on the same solid: θ_A = 30°, θ_B = 120°. Compare the capillary rise/depression in identical tubes (r = 0.2 mm, ρ = 800 kg/m³). Which liquid will have a higher meniscus (greater height magnitude) and why?",
+     "a": "Step 1: Capillary height h = (2 S cos θ) / (ρ g r). S, ρ, g, r same for both → h ∝ cos θ.\nStep 2: cos 30° = √3/2 ≈ 0.866 (positive) → h_A positive (rise).\nStep 3: cos 120° = -0.5 (negative) → h_B negative (depression).\nStep 4: Magnitude |h_A| = (2×0.05×0.866)/(800×9.8×0.2×10⁻³) ≈ 0.055 m = 5.5 cm rise.\n|h_B| = (2×0.05×0.5)/(800×9.8×0.2×10⁻³) ≈ 0.032 m = 3.2 cm depression.\nStep 5: Liquid A has higher meniscus (5.5 cm rise vs 3.2 cm depression) because |cos 30°| > |cos 120°|. A wrong answer comparing only angles without cosine, or ignoring sign, shows lack of understanding that the height depends on cos θ, not θ directly.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we increase the temperature of water in a glass capillary, the contact angle will decrease because surface tension decreases.\" Evaluate this statement. Is it necessarily true? Explain using the temperature dependence of interfacial tensions.",
+     "a": "The statement is NOT necessarily true. Young's equation: cos θ = (S_sa - S_sl)/S_la. All three interfacial tensions change with temperature, not just S_la. Typically S_la decreases with temperature, but S_sa and S_sl also change. The contact angle θ may increase, decrease, or stay constant depending on the relative rates of change. For water on clean glass, θ remains near 0° over a wide temperature range because both numerator and denominator decrease proportionally. A wrong answer that assumes only S_la changes reveals the student treats the other tensions as constants, ignoring that all three are temperature-dependent interfacial properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that the angle of contact for water on a clean glass surface is acute, while for mercury it is obtuse. Describe the procedure, observations, and how you would estimate θ qualitatively.",
+     "a": "Procedure: (1) Take a clean glass beaker and a small test tube. (2) Pour water into the beaker and observe the meniscus at the wall – it curves upward (concave). (3) Carefully pour a small amount of mercury (from a broken thermometer, with safety gloves) into the test tube – the meniscus curves downward (convex). (4) To estimate θ: for water, the meniscus nearly meets the wall vertically → θ ≈ 0°. For mercury, the meniscus meets the wall at a steep angle inside the liquid → θ > 90° (typically ~140°). A poor answer that only says \"water wets, mercury doesn't\" without describing the meniscus shape or the geometric angle shows the student cannot connect the macroscopic observation to the defined angle of contact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

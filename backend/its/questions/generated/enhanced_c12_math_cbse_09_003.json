@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_003",
+   "title": "c12_math_cbse_09_003",
+   "questions": [
+    {
+     "q": "What is the number of arbitrary constants in the general solution of a fourth-order differential equation? Choose the correct option: (A) 0 (B) 2 (C) 3 (D) 4",
+     "a": "Correct answer: (D) 4. The general solution of an nth order differential equation contains exactly n arbitrary constants. A wrong answer (e.g., 0, 2, or 3) reveals that the student has not internalised the fundamental link between the order of the DE and the number of essential arbitrary constants in its general solution — a fact explicitly stated in the NCERT summary and tested in Exercise 9.2, Question 11.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that y = x² + 5 is the general solution of dy/dx = 2x because it satisfies the equation. Is the student correct? Explain why or why not.",
+     "a": "The student is **incorrect**. y = x² + 5 is a **particular solution** (no arbitrary constants). The general solution of dy/dx = 2x is y = x² + C, where C is an arbitrary constant. The given function corresponds to the specific choice C = 5. A wrong answer here shows the student confuses \"a solution that works\" with \"the general solution containing the full complement of arbitrary constants equal to the order\".",
+     "self_check": true
+    },
+    {
+     "q": "Verify that y = e^{2x} (c₁ cos 3x + c₂ sin 3x) is a solution of the differential equation d²y/dx² - 4 dy/dx + 13y = 0. Show all steps of differentiation and substitution.",
+     "a": "Given y = e^{2x}(c₁ cos 3x + c₂ sin 3x).  \nStep 1: Compute dy/dx using product rule:  \ndy/dx = 2e^{2x}(c₁ cos 3x + c₂ sin 3x) + e^{2x}(-3c₁ sin 3x + 3c₂ cos 3x)  \n= e^{2x}[(2c₁+3c₂) cos 3x + (2c₂-3c₁) sin 3x].  \nStep 2: Compute d²y/dx² similarly (differentiate dy/dx again):  \nd²y/dx² = e^{2x}[(-5c₁+12c₂) cos 3x + (-12c₁-5c₂) sin 3x].  \nStep 3: Substitute y, dy/dx, d²y/dx² into LHS = d²y/dx² - 4 dy/dx + 13y.  \nCollect coefficients of cos 3x and sin 3x. Both vanish identically for all c₁, c₂.  \nThus LHS = 0 = RHS. Verified.  \nA wrong answer typically arises from algebraic errors in the product/chain rule differentiation or sign mistakes when combining terms — this is the most common computational trap in verification problems.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the differential equation d²y/dx² + y = 0. Two students propose solutions:  \nStudent A: y = 3 cos x + 4 sin x  \nStudent B: y = 5 cos(x + π/6)  \nAre both solutions? Are both general solutions? Justify your answer.",
+     "a": "Both are **solutions** (substitution verifies each). However, **neither is the general solution** because the general solution of a second-order DE must contain **two independent arbitrary constants**. Student A's solution has no arbitrary constants (it's a particular solution with fixed amplitudes 3 and 4). Student B's solution has only one arbitrary constant hidden in the phase shift (π/6 is fixed; if it were written as y = A cos(x + φ) with A and φ arbitrary, that would be general). A wrong answer reveals the student does not distinguish between \"a solution\" and \"the general solution\" — a critical distinction for board exam MCQs and JEE concept-check questions.",
+     "self_check": true
+    },
+    {
+     "q": "A candidate writes the following as the general solution of d³y/dx³ = 0:  \ny = Ax² + Bx + C.  \nIs this correct? If not, identify the error and write the correct general solution.",
+     "a": "The candidate's answer is **incorrect**. The differential equation is third order, so its general solution must contain **three arbitrary constants**. The given expression has only three constants (A, B, C) but is only a quadratic polynomial — its third derivative is identically zero, so it satisfies the DE. However, the general solution of d³y/dx³ = 0 is obtained by integrating three times:  \nd²y/dx² = c₁ → dy/dx = c₁x + c₂ → y = (c₁/2)x² + c₂x + c₃.  \nThe candidate's form y = Ax² + Bx + C is actually equivalent (just rename constants: A = c₁/2, B = c₂, C = c₃). So the **form is correct** but the reasoning about the number of constants is flawed if they think three constants are present because it's a quadratic — the number of constants must equal the order (3), which it does. Wait: the candidate wrote three constants (A, B, C) and the order is 3, so it is correct. Let me re-evaluate: d³y/dx³ = 0 is third order. The general solution is y = c₁x² + c₂x + c₃ (three arbitrary constants). The candidate's y = Ax² + Bx + C has three arbitrary constants and is a quadratic. It satisfies the DE. So it **is** a correct general solution. The error would be if they wrote only two constants. Since they wrote three, it's correct. A wrong answer from a student might be saying it's incorrect because \"quadratic has only two constants\" — revealing confusion between degree of polynomial and number of arbitrary constants.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a differential equation whose general solution is y = c₁ e^{x} + c₂ e^{-x} + c₃ x e^{x}, where c₁, c₂, c₃ are arbitrary constants. What is the order of this DE? Explain how you determined the order.",
+     "a": "The general solution contains **three independent arbitrary constants** (c₁, c₂, c₃). Therefore, the differential equation must be of **order 3**. To construct the DE, we eliminate the constants by successive differentiation:  \ny = c₁ e^x + c₂ e^{-x} + c₃ x e^x  \ny' = c₁ e^x - c₂ e^{-x} + c₃ e^x + c₃ x e^x  \ny'' = c₁ e^x + c₂ e^{-x} + 2c₃ e^x + c₃ x e^x  \ny''' = c₁ e^x - c₂ e^{-x} + 3c₃ e^x + c₃ x e^x  \nObserving patterns: y'' - y' = (c₁ e^x + c₂ e^{-x} + 2c₃ e^x + c₃ x e^x) - (c₁ e^x - c₂ e^{-x} + c₃ e^x + c₃ x e^x) = 2c₂ e^{-x} + c₃ e^x.  \nSimilarly, y''' - y'' = -2c₂ e^{-x} + c₃ e^x.  \nAdding: (y'' - y') + (y''' - y'') = y''' - y' = 2c₃ e^x.  \nDifferentiate again: y'''' - y'' = 2c₃ e^x = y''' - y'.  \nThus y'''' - y''' - y'' + y' = 0, or y'''' - y''' - y'' + y' = 0. But this is fourth order. Wait — we need third order. Let's find a third-order DE.  \nNotice that the solution is a linear combination of e^x, e^{-x}, x e^x. These are solutions of a linear homogeneous DE with constant coefficients whose characteristic equation has roots 1, -1, 1 (1 repeated). So characteristic polynomial: (r-1)^2 (r+1) = (r^2 - 2r +1)(r+1) = r^3 - r^2 - r + 1 = 0.  \nThus the DE is y''' - y'' - y' + y = 0. Order = 3.  \nA good answer shows the characteristic equation method or systematic elimination yielding a third-order DE. A poor answer gives a higher-order DE or cannot explain why the order must be 3.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

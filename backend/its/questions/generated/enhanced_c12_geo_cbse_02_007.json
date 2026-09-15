@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_007",
+   "title": "c12_geo_cbse_02_007",
+   "questions": [
+    {
+     "q": "Define sex ratio as per the Indian Census convention and state its unit of expression.",
+     "a": "Sex ratio in the Indian Census is defined as the number of females per 1,000 males in a given population. It is expressed as a pure number (e.g., 943 females per 1,000 males in Census 2011). A wrong answer — such as \"males per 100 females\" or \"percentage of females\" — reveals confusion between the Indian convention and the international convention, or a misunderstanding that sex ratio is a percentage rather than a ratio per thousand.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country with a high proportion of population in the 0-14 age group will have a broad-based population pyramid, and what this implies for its dependency ratio.",
+     "a": "A high proportion in the 0-14 age group indicates high birth rates and a youthful population. In a population pyramid, each bar represents an age cohort; a large 0-14 cohort creates a wide base. This yields a high youth dependency ratio (population aged 0-14 ÷ population aged 15-59 × 100), meaning fewer working-age adults must support many children, straining education, health, and future job markets. A wrong answer that says \"it implies a low dependency ratio\" or \"the pyramid will be top-heavy\" shows the student has not linked fertility levels to pyramid shape and dependency burden.",
+     "self_check": true
+    },
+    {
+     "q": "Census 2011 data for a hypothetical district: Total population = 2,500,000; Males = 1,280,000; Females = 1,220,000. Calculate the sex ratio (females per 1,000 males). Show all steps.",
+     "a": "Step 1: Identify formula — Sex Ratio = (Number of Females / Number of Males) × 1,000.  \nStep 2: Substitute values — (1,220,000 / 1,280,000) × 1,000.  \nStep 3: Simplify fraction — 1,220/1,280 = 0.953125.  \nStep 4: Multiply by 1,000 — 0.953125 × 1,000 = 953.125 ≈ 953 females per 1,000 males.  \nA wrong answer such as 953 males per 1,000 females, or forgetting to multiply by 1,000 (giving 0.95), reveals either confusion between numerator/denominator or missing the scaling factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population pyramids of Japan (low fertility, high life expectancy) and Nigeria (high fertility, declining mortality). Identify two structural differences and explain the demographic transition stage each represents.",
+     "a": "Japan: narrow base (low birth rate), broad top (large elderly cohort), bulge in middle-aged groups — constrictive pyramid, Stage 4/5 of Demographic Transition (low stationary/declining). Nigeria: very wide base (high birth rate), rapidly tapering sides (high but declining mortality), small top — expansive pyramid, Stage 2/3 (early/late expanding). A wrong answer that swaps the shapes or assigns both to Stage 3 shows inability to link pyramid morphology to birth/death rates and transition stages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A sex ratio of 900 females per 1,000 males in a district necessarily indicates female foeticide or infanticide.\" Provide a reasoned judgment with at least two alternative explanations.",
+     "a": "The statement is not necessarily true. While a skewed sex ratio *can* reflect sex-selective practices, two other major factors are: (1) **Male-selective out-migration** — in many Indian districts, men migrate for work to cities, leaving a female-majority rural population; the reverse (female out-migration for marriage) can also skew ratios locally. (2) **Differential mortality** — historically, higher male mortality in infancy or due to occupational hazards can alter ratios. A student who agrees without qualification demonstrates a common board-exam trap: attributing all sex-ratio imbalances to female foeticide, ignoring migration and mortality dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a population pyramid for a hypothetical country with the following characteristics: total fertility rate 1.6, life expectancy 82 years, net migration +2 per 1,000. Label the axes, show the shape of the 0-4, 25-29, and 65-69 cohorts, and annotate one policy implication.",
+     "a": "Axes: x-axis = population (or % of total), split left for males, right for females; y-axis = 5-year age cohorts from 0-4 to 80+. Shape: 0-4 cohort narrow (below replacement fertility), 25-29 cohort slightly wider (echo of past larger cohorts or migration), 65-69 cohort broad (high life expectancy, post-war baby boom). Pyramid is constrictive/inverted at base. Annotation: \"Shrinking workforce → raise retirement age / incentivise immigration / invest in automation.\" A poor answer draws an expansive pyramid or omits migration's effect on young adult cohorts, showing failure to synthesise fertility, mortality, and migration into pyramid morphology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

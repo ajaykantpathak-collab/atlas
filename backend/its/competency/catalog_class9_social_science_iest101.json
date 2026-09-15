@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Understanding Social Science",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.101.1.1",
+   "title": "What Social Science Studies",
+   "section": "1",
+   "definition": "Social Science explores people, places and events: it studies how humans live together, how societies and states organise, how economies work and how the past shapes the present - building on the stories explored in Grades 6 to 8.",
+   "formula": "-",
+   "key_idea": "People, places and events studied together: social science reads society like a text.",
+   "textbook_ref": "iest101.txt opening sections (understanding social science)",
+   "question_patterns": [
+    "what does social science study",
+    "name the branches of social science and their concerns",
+    "how do stories of people and places help us understand society",
+    "why is the study of society important for citizens",
+    "how does the past shape the present according to social science",
+    "distinguish history, geography and economics as social sciences"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the subject",
+     "explain": "Social science takes human society as its object of study."},
+    {"step": 2, "action": "list the branches",
+     "explain": "History, geography, political science and economics each view society differently."},
+    {"step": 3, "action": "connect the parts",
+     "explain": "Together they explain how people live, govern and earn."}
+   ]
+  },
+  {
+   "id": "iest.101.1.2",
+   "title": "Methods of Studying Society",
+   "section": "1",
+   "definition": "Social scientists work with evidence - sources, maps, data and field studies - asking questions of the past and present, comparing viewpoints and reasoning from evidence rather than opinion.",
+   "formula": "-",
+   "key_idea": "Evidence first, opinion later: social science argues with sources and data.",
+   "textbook_ref": "iest101.txt sections on methods of study",
+   "question_patterns": [
+    "what kinds of evidence do social scientists use",
+    "how do maps help in studying society",
+    "why must conclusions in social science rest on evidence",
+    "describe how a historian works with sources",
+    "compare the methods of an economist and a geographer",
+    "frame a social science question from your surroundings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "collect the evidence",
+     "explain": "Sources, statistics and field observation supply the material."},
+    {"step": 2, "action": "question and compare",
+     "explain": "Interrogate the evidence from multiple viewpoints."},
+    {"step": 3, "action": "reason to conclusions",
+     "explain": "Arguments stay tied to the evidence collected."}
+   ]
+  },
+  {
+   "id": "iest.101.1.3",
+   "title": "Why Social Science Matters for Citizens",
+   "section": "1",
+   "definition": "Studying society equips citizens to understand rights and duties, judge public policies, respect diversity and participate in democracy; the discipline trains informed, questioning and responsible members of the community.",
+   "formula": "-",
+   "key_idea": "Informed citizens are made, not born: social science builds the toolkit.",
+   "textbook_ref": "iest101.txt concluding sections (relevance for citizens)",
+   "question_patterns": [
+    "how does social science make us better citizens",
+    "why should students learn about democracy and economy",
+    "how does social science help in understanding diversity",
+    "what skills does the study of society build",
+    "connect a social science idea to a current public issue",
+    "how can you use social science in daily decision-making"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "build understanding",
+     "explain": "Knowledge of society, polity and economy informs opinions."},
+    {"step": 2, "action": "train the skills",
+     "explain": "Questioning, comparing and reasoning are civic skills."},
+    {"step": 3, "action": "act responsibly",
+     "explain": "Informed participation completes the citizen's role."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iest101.txt exercises",
+   "questions": [
+     "Name the branches of social science with one question each asks.",
+     "How do social scientists use evidence?",
+     "Explain the importance of social science for citizens."
+   ]
+  }
+ ]
+}

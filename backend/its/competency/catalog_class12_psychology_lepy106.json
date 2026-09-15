@@ -1,0 +1,426 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 6,
+ "chapter_title": "Attitude and Social Cognition",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy106.1",
+   "title": "Nature and A-B-C Components of Attitude",
+   "section": "Nature and Components of Attitudes",
+   "definition": "An attitude is a state of mind - a set of views about an attitude object - that carries an evaluative quality (positive, negative or neutral), an emotional charge, and a readiness to act; its three faces are the cognitive (thought), affective (feeling) and behavioural or conative (action tendency) aspects, together called the A-B-C components. Attitudes differ from beliefs, which supply only the cognitive ground, and from values, which add a should or ought and therefore change with great difficulty.",
+   "formula": "attitude = affective + behavioural + cognitive (A-B-C) ; value = belief with an ought_aspect",
+   "key_idea": "Attitudes are tendencies, not behaviour itself - they stay hidden from outside view, and the three components need not always point the same way, as the green-environment tree-planting example shows.",
+   "textbook_ref": "lepy106.txt, Nature and Components of Attitudes, Box 6.1 A-B-C of a green environment attitude",
+   "question_patterns": [
+    "define attitude and discuss its A-B-C components with the green environment example",
+    "how does an attitude differ from a mere opinion and from a belief?",
+    "why are values harder to change than ordinary attitudes?",
+    "in Class 12 attitude and social cognition, which component is called the conative aspect?",
+    "give one situation where the cognitive component is strong but the behavioural component stays neutral",
+    "what mental blueprint does an attitude supply when we meet a new situation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three-component structure",
+     "explain": "the thought, feeling and action-tendency aspects must all be present for a view to count as an attitude rather than an opinion"
+    },
+    {
+     "step": 2,
+     "action": "check the consistency caveat",
+     "explain": "the three components are expected to align, yet one may lag - strong green beliefs with weak plantation participation is still one attitude"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name the three A-B-C components of attitude: affective, behavioural and what?",
+     "a": "cognitive"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.2",
+   "title": "Features of Attitudes and the Extremeness Score",
+   "section": "Nature and Components of Attitudes - four features",
+   "definition": "Attitudes carry four measurable features: valence (positive or negative direction), extremeness (how far the attitude sits from neutral on the rating scale), simplicity or complexity also called multiplexity (how many member attitudes fill the attitude system), and centrality (how strongly one attitude steers the rest, as a negative view of military spending steers an entire world-peace attitude system).",
+   "formula": "extremeness_score = abs(rating - neutral_point)",
+   "key_idea": "On the chapter's five-point scale for nuclear research, 3 marks the neutral midpoint, so ratings of 1 and 5 are equally extreme while 2 and 4 are milder.",
+   "textbook_ref": "lepy106.txt, four features (valence, extremeness, simplicity or complexity, centrality) with the 5-point nuclear research scale",
+   "question_patterns": [
+    "a person rates her attitude towards nuclear research as 1 on a five-point scale with 3 as neutral - compute the extremeness score",
+    "explain valence, extremeness, multiplexity and centrality as features of attitudes",
+    "which rating shows the lowest extremeness on the chapter's scale and why?",
+    "how does a central attitude differ from a peripheral one in an attitude system?",
+    "when is an attitude system called complex rather than simple?",
+    "why can ratings of 1 and 5 be equally extreme though opposite in valence?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the neutral midpoint from the given rating",
+     "explain": "the neutral point on the five-point scale is 3, so the difference shows both direction and distance from neutral",
+     "compute": "distance_from_neutral = rating - neutral_point"
+    },
+    {
+     "step": 2,
+     "action": "take the absolute value of that distance",
+     "explain": "extremeness ignores direction (valence) and measures only how strong the attitude is",
+     "compute": "extremeness_score = abs(distance_from_neutral)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "On the chapter's five-point attitude scale, which rating marks the neutral midpoint?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.3",
+   "title": "Attitude Formation: Processes and Influencing Factors",
+   "section": "Attitude Formation",
+   "definition": "Attitudes are learned - through association (liking a subject because of the teacher), through reward and punishment (being honoured as Miss Good Health builds a positive yoga attitude), through modelling or observing others, through group and cultural norms such as offerings in a place of worship, and through exposure to information in media and biographies. The contexts that drive this learning are the family and school environment, reference groups that set norms especially in adolescence, drastic personal experiences like the army driver who became a community leader, and media-related influences.",
+   "formula": "formation_processes = association + reward_punishment + modelling + group_norms + information_exposure ; formation_contexts = family_school + reference_groups + personal_experiences + media",
+   "key_idea": "Genetic factors touch attitudes only indirectly; most attitude learning happens while interacting with people, groups and media.",
+   "textbook_ref": "lepy106.txt, Attitude Formation (five learning processes, four influencing factors, army driver example)",
+   "question_patterns": [
+    "are attitudes learnt? explain the processes through which attitudes are formed",
+    "how does a student come to like a subject because of the teacher - name the process",
+    "which factor explains the pull of reference groups during early adolescence?",
+    "illustrate learning of attitudes through group or cultural norms with the place of worship example",
+    "how can media-related influences both inform and mislead attitude formation?",
+    "give one real-life case where a personal experience transformed an attitude completely",
+    "what role does reward and punishment play in building a positive attitude towards healthy food?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the five learning processes",
+     "explain": "association, reward or punishment, modelling, group or cultural norms, and exposure to information are the named routes of attitude learning"
+    },
+    {
+     "step": 2,
+     "action": "check the four contexts",
+     "explain": "family and school, reference groups, personal experiences, and media-related influences supply the settings in which those routes operate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Liking a subject because of the teacher forms attitude through what: association or modelling?",
+     "a": "association"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.4",
+   "title": "Attitude Change: Balance, Dissonance and the Two-Step Concept",
+   "section": "Attitude Change - process concepts",
+   "definition": "Three classic accounts explain how attitudes change: Heider's balance concept draws the P-O-X triangle among person, other and topic, calling it balanced when all three links are positive or when two are negative and one positive - any other pattern is imbalance that forces some attitude to change; Festinger's cognitive dissonance holds that conflicting cognitions, like knowing pan masala causes cancer while eating it, must be brought into consonance by changing one of them; and S.M. Mohsin's two-step concept says the target first identifies with the source, then imitates the source's own changed behaviour, as when a favourite sportsperson quits the harmful soft drink.",
+   "formula": "pox_balance = three_positive or one_positive_plus_two_negative ; dissonance -> one_cognition_changes_toward_consonance ; two_step = identification + source_changes_first",
+   "key_idea": "Balance and dissonance are both cognitive consistency drives - the mind changes something because two elements no longer point the same way.",
+   "textbook_ref": "lepy106.txt, Process of Attitude Change (P-O-X dowry example, pan masala dissonance, Preeti and the sportsperson two-step example)",
+   "question_patterns": [
+    "state the conditions of balance and imbalance in Heider's P-O-X triangle",
+    "in the dowry example which relationship could change to restore balance?",
+    "define cognitive dissonance with the pan masala example and show the healthy resolution",
+    "how did the Festinger and Carlsmith dollar experiment demonstrate dissonance at work?",
+    "describe the two steps of Mohsin's concept of attitude change with the Preeti example",
+    "what is cognitive consistency and why does its absence produce mental discomfort?",
+    "why must one of three attitudes change whenever two sides of the P-O-X triangle are positive and one negative?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the balance conditions",
+     "explain": "all-positive or two-negative-one-positive triangles are balanced; three-negative or two-positive-one-negative triangles are imbalanced and force change"
+    },
+    {
+     "step": 2,
+     "action": "check the dissonance resolution",
+     "explain": "when two cognitions clash, one is revised toward consonance - stopping pan masala rather than denying the cancer risk is the logical fix"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose balance concept draws the P-O-X triangle: Heider's or Festinger's?",
+     "a": "Heider's"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.5",
+   "title": "Factors that Influence Attitude Change",
+   "section": "Attitude Change - influencing factors",
+   "definition": "Whether and how much attitudes shift depends on four clusters: characteristics of the existing attitude (positive, mild, simple and peripheral attitudes change most easily, and congruent change beats incongruent change), source characteristics (credible experts persuade adults, similar peers persuade children), message characteristics (just-enough information, rational or emotional appeal, moderate fear that does not turn receivers off, face-to-face delivery as with ORS campaigns), and target characteristics (persuasibility, weak prejudices, low self-esteem and intelligence all shape the outcome).",
+   "formula": "change_factors = existing_attitude + source + message + target ; congruent_change easier than incongruent_change",
+   "key_idea": "Too much fear in a message backfires, and face-to-face transmission still beats letters, pamphlets and mass media.",
+   "textbook_ref": "lepy106.txt, Factors that Influence Attitude Change (four bullet clusters, laptop and pressure cooker figures, ORS example)",
+   "question_patterns": [
+    "explain the factors that influence attitude change under source, message and target headings",
+    "why are extreme and central attitudes harder to change than mild peripheral ones?",
+    "differentiate congruent from incongruent attitude change with the women empowerment example",
+    "when does fear work in persuasion and when does it fail?",
+    "why does a computer engineer convince laptop buyers more than a schoolchild would?",
+    "compare rational and emotional appeals in the pressure cooker advertisements",
+    "which qualities of the target make attitude change more or less likely?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the attitude-property rule",
+     "explain": "positive, less extreme, simple and peripheral attitudes yield to change more readily, and shifts along the existing direction are easier than reversals"
+    },
+    {
+     "step": 2,
+     "action": "check the delivery rule",
+     "explain": "information must be neither too little nor too much, fear must stay moderate, and direct face-to-face contact outperforms indirect media transmission"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which kind of change is easier: congruent or incongruent?",
+     "a": "congruent"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.6",
+   "title": "Attitude-Behaviour Relationship",
+   "section": "Attitude-Behaviour Relationship",
+   "definition": "Behaviour does not always mirror attitude: consistency appears when the attitude is strong and central, consciously held, free of group pressure, unwatched by evaluators, and expected to bring positive consequences. LaPiere's study showed the gap - a Chinese couple was served almost everywhere they travelled, yet most hotel managers later wrote that they would refuse Chinese guests - and Festinger and Carlsmith's dollar experiment showed the reverse road, where behaving for a tiny reward pushed students to decide the boring experiment had actually been interesting.",
+   "formula": "consistency_conditions = strong_central_attitude + awareness + no_external_pressure + not_watched + positive_consequence_expected",
+   "key_idea": "Attitudes may fail to predict behaviour, and sometimes the behaviour itself rewrites the attitude.",
+   "textbook_ref": "lepy106.txt, Attitude-Behaviour Relationship (five consistency conditions, LaPiere Chinese couple study, Festinger and Carlsmith follow-up)",
+   "question_patterns": [
+    "is behaviour always a reflection of one's attitude? explain with the LaPiere example",
+    "list the conditions under which attitude and behaviour stay consistent",
+    "what did the hotel managers' questionnaire reveal about the attitude-behaviour link?",
+    "how did students paid one dollar come to like a boring experiment?",
+    "why does being watched or evaluated weaken the attitude-behaviour connection?",
+    "give one everyday case where group pressure makes behaviour depart from private attitude"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the five consistency conditions",
+     "explain": "strength and centrality, awareness, absence of pressure, absence of observation, and expected positive consequence must all hold for behaviour to track attitude"
+    },
+    {
+     "step": 2,
+     "action": "check the two classic findings",
+     "explain": "LaPiere found behaviour outdoing expressed attitude, while the dollar study found behaviour rewriting the attitude through dissonance reduction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In LaPiere's study the Chinese couple was served almost everywhere, yet most hotel managers later wrote that they would do what?",
+     "a": "refuse"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.7",
+   "title": "Prejudice, Stereotype and Discrimination: Sources",
+   "section": "Prejudice and Discrimination",
+   "definition": "Prejudice is a usually negative attitude toward a group whose cognitive component is the stereotype - a cluster of ideas ascribed to every member of the target group - whose affective component is dislike or hatred, and which may be enacted as discrimination, the behavioural component of treating the target group less positively. Its sources include learning like any attitude, a strong social identity with ingroup bias, scapegoating of a weak minority for the majority's troubles, the kernel of truth idea that keeps stereotypes alive, and the self-fulfilling prophecy in which the target group ends up confirming the negative expectation.",
+   "formula": "prejudice = stereotype (cognitive) + dislike (affective) + discrimination (behavioural) ; sources = learning + ingroup_bias + scapegoating + kernel_of_truth + self_fulfilling_prophecy",
+   "key_idea": "Prejudice can exist without discrimination and discrimination without prejudice, but they usually travel together; law can curb the act yet hardly touches the cognition and feeling.",
+   "textbook_ref": "lepy106.txt, Prejudice and Discrimination (five sources, Nazi genocide example, gender and caste instances)",
+   "question_patterns": [
+    "differentiate between prejudice and stereotype as components of attitude toward a group",
+    "can prejudice exist without discrimination and vice versa? comment",
+    "explain scapegoating with the majority-minority example",
+    "what is the kernel of truth concept and how does it sustain stereotypes?",
+    "how does a self-fulfilling prophecy make the target group confirm prejudice?",
+    "how do ingroup bias and strong social identity feed prejudice against the outgroup?",
+    "why does law curb discrimination more easily than the cognitive and emotional parts of prejudice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three-component mapping",
+     "explain": "stereotype supplies the cognition, dislike or hatred the affect, and discriminatory treatment the behaviour of the same prejudiced attitude"
+    },
+    {
+     "step": 2,
+     "action": "check the source list",
+     "explain": "learning, ingroup bias, scapegoating, kernel of truth and self-fulfilling prophecy are the five named sources of prejudice"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The cognitive component of prejudice is the what: stereotype or discrimination?",
+     "a": "stereotype"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.8",
+   "title": "Strategies for Handling Prejudice",
+   "section": "Strategies for Handling Prejudice",
+   "definition": "Handling prejudice starts from knowing its causes and then works through education and information dissemination to correct stereotypes, through increased intergroup contact - which succeeds only when groups meet cooperatively rather than competitively, interact closely, and hold equal power and status - and through highlighting individual identity rather than group membership so that the ingroup-outgroup divide loses its force as a basis of judging others.",
+   "formula": "strategies = education + intergroup_contact + individual_identity ; contact_works = cooperation + close_interaction + equal_status",
+   "key_idea": "The four goals are blocking prejudice learning, changing the attitudes, weakening narrow ingroup identity, and discouraging self-fulfilling prophecy among victims.",
+   "textbook_ref": "lepy106.txt, Strategies for Handling Prejudice (four aims, three methods, three contact conditions)",
+   "question_patterns": [
+    "state the strategies for handling prejudice and the conditions under which intergroup contact succeeds",
+    "why must the two groups be equal in power and status for contact to reduce prejudice?",
+    "how does education and information dissemination correct stereotypes about target groups?",
+    "what four goals should anti-prejudice strategies aim at?",
+    "how does highlighting individual identity weaken ingroup-outgroup evaluation?",
+    "why does competitive contact fail where cooperative contact succeeds?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the contact conditions",
+     "explain": "cooperative rather than competitive setting, close interaction, and equal power or status are the three conditions for contact to work"
+    },
+    {
+     "step": 2,
+     "action": "check the strategy-to-goal mapping",
+     "explain": "education corrects stereotypes and ingroup bias, contact builds trust and reveals outgroup qualities, and individual identity removes the group yardstick"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Intergroup contact works only when groups meet cooperatively rather than how?",
+     "a": "competitively"
+    }
+   ]
+  },
+  {
+   "id": "lepy106.9",
+   "title": "Interpersonal Rating Exercise: Means and Rating Gaps",
+   "section": "Project Idea 2 - Interpersonal Judgment Exercise",
+   "definition": "In the chapter's interpersonal judgment exercise, two friends rate each other and themselves on qualities such as friendly, tense, sincere, pleasant and open to new ideas on a five-point scale; comparing your self-rating with your friend's rating of you gives a rating gap whose size and sign show how well you know each other, and averaging ratings across qualities summarises each person's overall standing.",
+   "formula": "mean_self_rating = quality_rating_sum / quality_count ; rating_gap = friend_rating_of_you - self_rating",
+   "key_idea": "A zero gap on a quality means perfect mutual knowledge, and the closer the two columns sit, the better the two friends know each other.",
+   "textbook_ref": "lepy106.txt, Project Idea 2 Interpersonal Judgment Exercise (Column 1 self-rating, Column 3 friend's rating of you, Column 4 difference)",
+   "question_patterns": [
+    "compute the mean of your self-ratings across five qualities rated on the five-point scale",
+    "you rate yourself 4 on friendly and your friend rates you 3 - find the rating gap for that quality",
+    "in the interpersonal judgment exercise what does a zero in Column 4 indicate?",
+    "why does a smaller difference between Column 1 and Column 3 mean the friends know each other better?",
+    "calculate the average self-rating from the friendly, tense, sincere, pleasant and open-to-new-ideas columns",
+    "which quality shows the greatest self-versus-friend difference in the class exercise and how is that found?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the self-ratings across the rated qualities",
+     "explain": "each quality such as friendly or sincere carries one rating from 1 to 5",
+     "compute": "quality_rating_sum = quality1_rating + quality2_rating + quality3_rating"
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of qualities rated",
+     "explain": "the mean summarises overall self-standing on the scale",
+     "compute": "mean_self_rating = quality_rating_sum / quality_count"
+    },
+    {
+     "step": 3,
+     "action": "subtract the self-rating from the friend's rating of you",
+     "explain": "a positive gap means the friend rates you higher, a negative gap lower - Column 4 of the exercise",
+     "compute": "rating_gap = friend_rating_of_you - mean_self_rating"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A zero rating gap between your self-rating and your friend's rating of you means you know each other how well: perfectly or poorly?",
+     "a": "perfectly"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy106.we1",
+   "concept_id": "lepy106.2",
+   "problem": "On the chapter's five-point attitude scale towards nuclear research (1 very bad to 5 very good, 3 neutral), one respondent marks 1 and another marks 4. Compute each extremeness score and compare.",
+   "given": {
+    "rating": 1,
+    "neutral_point": 3
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "subtract the neutral point from the rating",
+     "compute": "distance_from_neutral = 1 - 3"
+    },
+    {
+     "step": 2,
+     "action": "take the absolute value to measure strength regardless of direction",
+     "compute": "extremeness_score = abs(distance_from_neutral)"
+    }
+   ],
+   "answer": "extremeness_score = 2 for the rating of 1; the same arithmetic on rating 4 gives distance 1 and extremeness 1, so the 'very bad' attitude is twice as extreme as the mildly good one"
+  },
+  {
+   "id": "lepy106.we2",
+   "concept_id": "lepy106.9",
+   "problem": "In the interpersonal judgment exercise you rate yourself 4 on friendly, 5 on sincere and 3 on pleasant; your friend rates you 3 on friendly. Find your mean self-rating and the friendly-quality rating gap.",
+   "given": {
+    "quality1_rating": 4,
+    "quality2_rating": 5,
+    "quality3_rating": 3,
+    "quality_count": 3,
+    "friend_rating_of_you": 3
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "sum the self-ratings across the three qualities",
+     "compute": "quality_rating_sum = 4 + 5 + 3"
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of qualities",
+     "compute": "mean_self_rating = quality_rating_sum / 3"
+    },
+    {
+     "step": 3,
+     "action": "subtract your mean self-rating from the friend's rating",
+     "compute": "rating_gap = friend_rating_of_you - mean_self_rating"
+    }
+   ],
+   "answer": "mean_self_rating = 4 and rating_gap = 3 - 4 = -1, so the friend rates you one point below your own overall self-view"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy106.ex1",
+   "source_ref": "lepy106.txt Review Questions (chapter-end)",
+   "questions": [
+    "Define attitude and discuss the components of an attitude.",
+    "Are attitudes learnt? Explain how.",
+    "What are the factors that influence the formation of an attitude?",
+    "Is behaviour always a reflection of one's attitude? Explain with a relevant example.",
+    "Differentiate between prejudice and stereotype.",
+    "Prejudice can exist without discrimination and vice versa. Comment.",
+    "Your friend eats too much junk food - how would you bring about a change in her attitude towards food?"
+   ]
+  },
+  {
+   "id": "lepy106.ex2",
+   "source_ref": "lepy106.txt Activity 6.1 and Project Idea 1 (waste management survey)",
+   "questions": [
+    "Cut out one newspaper advertisement and classify it by topic, rational or emotional appeal, and expert or popular source.",
+    "In a colony survey of 20 households, 13 say they separate kitchen waste - what percentage of households separate waste?",
+    "Which survey question from the waste-management project tests awareness of recycling, and what answers would show a positive attitude?"
+   ]
+  }
+ ]
+}

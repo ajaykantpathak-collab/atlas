@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_008",
+   "title": "c10_math_cbse_12_008",
+   "questions": [
+    {
+     "q": "State the exact formula for the volume of a frustum of a right circular cone. Define each variable and state the condition under which this formula is valid.",
+     "a": "The formula is V = (1/3)πh(R² + r² + Rr), where R is the radius of the larger circular base, r is the radius of the smaller circular base, and h is the perpendicular height (vertical distance) between the two bases. This formula is valid only for a frustum of a right circular cone formed by cutting the cone with a plane parallel to its base. A wrong answer (e.g., writing V = (1/3)πh(R² + r²) or forgetting the Rr term) reveals that the student has memorised an incomplete formula, likely confusing it with the sum of two cone volumes or the surface area formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the volume of a frustum as V = (1/3)πh(R³ - r³)/(R - r). Is this equivalent to the standard formula? Explain why or why not using algebraic reasoning.",
+     "a": "Yes, it is equivalent. Using the algebraic identity a³ - b³ = (a - b)(a² + ab + b²), we have (R³ - r³)/(R - r) = R² + Rr + r². Substituting this into the student's expression gives V = (1/3)πh(R² + Rr + r²), which is exactly the standard formula. A wrong answer (saying they are not equal) reveals the student does not recognise the sum of cubes factorisation, a key algebraic identity from Class 9 (c9_math_ch4_1/c9_math_ch4_2) that connects the \"difference of volumes of two cones\" derivation to the direct frustum formula.",
+     "self_check": true
+    },
+    {
+     "q": "A drinking glass is in the shape of a frustum of a cone. Its height is 14 cm, and the diameters of its two circular ends are 4 cm and 2 cm. Find the capacity of the glass in cm³. Use π = 22/7.",
+     "a": "Given: h = 14 cm, Diameter₁ = 4 cm → R = 2 cm, Diameter₂ = 2 cm → r = 1 cm.\nStep 1: Write formula: V = (1/3)πh(R² + r² + Rr)\nStep 2: Substitute: V = (1/3) × (22/7) × 14 × (2² + 1² + 2×1)\nStep 3: Simplify inside brackets: 4 + 1 + 2 = 7\nStep 4: V = (1/3) × (22/7) × 14 × 7\nStep 5: Cancel 7: V = (1/3) × 22 × 14 = (308/3) = 102.67 cm³ (approx)\nAnswer: 102.67 cm³ (or 308/3 cm³). A wrong answer often comes from using diameters instead of radii (giving 410.67 cm³) or forgetting the 1/3 factor (giving 308 cm³), showing confusion between cone and frustum volume structure.",
+     "self_check": true
+    },
+    {
+     "q": "Two frustums have the same height h. Frustum A has radii R and r. Frustum B has radii 2R and 2r. How many times larger is the volume of Frustum B compared to Frustum A? Justify without calculating actual volumes.",
+     "a": "Volume of A: V_A = (1/3)πh(R² + r² + Rr). Volume of B: V_B = (1/3)πh((2R)² + (2r)² + (2R)(2r)) = (1/3)πh(4R² + 4r² + 4Rr) = 4 × (1/3)πh(R² + r² + Rr) = 4V_A. Frustum B's volume is 4 times that of Frustum A. A wrong answer (e.g., 2 times or 8 times) reveals the student thinks volume scales linearly with radius (like height) or cubically (like similar 3D shapes), not recognising that the formula is quadratic in radii because height is held constant, so scaling radii by k scales volume by k².",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Find the height of a frustum with volume 28490 cm³, radii 28 cm and 7 cm.\" Their working:\nV = (1/3)πh(R² + r² + Rr)\n28490 = (1/3) × (22/7) × h × (28² + 7² + 28×7)\n28490 = (22/21) × h × (784 + 49 + 196)\n28490 = (22/21) × h × 1029\nh = 28490 × 21 / (22 × 1029) = 15 cm.\nIdentify if the solution is correct. If not, pinpoint the exact error.",
+     "a": "The solution is correct. Let's verify: 28²=784, 7²=49, 28×7=196. Sum = 1029. (22/21)×1029 = 22×49 = 1078. 28490 / 1078 = 26.43? Wait: 28490 × 21 = 598290. 22 × 1029 = 22638. 598290 / 22638 = 26.43... not 15. Let's recalculate carefully:\n1029 / 21 = 49. So (22/21) × 1029 = 22 × 49 = 1078.\nThen h = 28490 / 1078 = 26.428... cm. The student's final answer of 15 cm is wrong. The error is in the final division step: they likely computed 28490 × 21 / (22 × 1029) incorrectly. 28490/1078 = 26.43. A student getting 15 cm might have mistakenly used 28490 = (1/3)πh(R² - r²) or made an arithmetic slip. This exposes the common board exam trap of arithmetic errors with large numbers and π = 22/7.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) that requires finding the volume of a frustum where the height is NOT given directly, but the slant height and the two radii are given. Provide the problem statement only.",
+     "a": "Example problem: \"A decorative flower pot is in the shape of a frustum of a cone. The radii of its circular ends are 15 cm and 5 cm. The slant height of the pot is 13 cm. Find the volume of soil (in litres) required to fill the pot completely. Use π = 3.14.\" A good answer shows the student understands they must first find the vertical height using Pythagoras theorem: h = √(l² - (R - r)²) = √(169 - 100) = √69 ≈ 8.31 cm, then apply the volume formula. A poor answer (giving a problem where height is directly given, or using slant height directly in the volume formula) reveals the student cannot distinguish between slant height and vertical height, a critical distinction tested in CBSE case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

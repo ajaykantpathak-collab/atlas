@@ -1,0 +1,239 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Data Handling and Presentation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.4.1",
+   "title": "Collecting and Organising Data",
+   "section": "Data Handling",
+   "definition": "Raw data, like a list of favourite colours or measured weights, becomes useful only when organised: counting how many times each value occurs and writing the results in a table prepares data for any graph.",
+   "formula": "",
+   "key_idea": "Organised data speaks: tables turn a jumble of facts into counts that can be compared.",
+   "textbook_ref": "fegp104.txt, Data Handling",
+   "question_patterns": [
+    "what is data and give two examples from your class",
+    "how do we organise raw data using tally marks",
+    "why is organised data easier to read",
+    "make a frequency table of your classmates' favourite fruits",
+    "which value occurs most often in the given list",
+    "what questions can you answer from an organised table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.2",
+   "title": "Pictographs and Their Keys",
+   "section": "Pictographs",
+   "definition": "A pictograph shows data with pictures or symbols, where each symbol stands for a fixed number of things; reading the key first, then counting symbols and multiplying, gives every value.",
+   "formula": "",
+   "key_idea": "The key is the heart of a pictograph: without knowing what one symbol stands for, no count is possible.",
+   "textbook_ref": "fegp104.txt, Pictographs",
+   "question_patterns": [
+    "what is a pictograph and what does its key tell",
+    "read the number of books from the given pictograph",
+    "if one symbol means 5 students how many do 4 symbols show",
+    "draw a pictograph of favourite games of your class",
+    "why should symbols in a pictograph be of equal size",
+    "which row of the pictograph has the most and how do you know"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.3",
+   "title": "Totals from a Frequency Table",
+   "section": "Organising data in tables",
+   "definition": "Once data sits in a table of counts, adding the row counts gives the total of all observations, a first step before drawing graphs or answering questions about the whole collection.",
+   "formula": "total = f1 + f2 + f3",
+   "key_idea": "The grand total is one addition away: row counts added together tell the size of the whole data set.",
+   "textbook_ref": "fegp104.txt, Organising data in tables",
+   "question_patterns": [
+    "find the total number of children from the given table",
+    "how do you find the total from a table of counts",
+    "add the row counts of the given data table",
+    "what does the total tell us about the survey",
+    "check the total of your class survey table",
+    "why should the total match the number of responses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read each count",
+     "explain": "Take the number written in every row of the table.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add all the counts",
+     "explain": "The sum of the row counts is the grand total.",
+     "compute": "total = f1 + f2 + f3"
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.4",
+   "title": "Bar Graphs and Reading Them",
+   "section": "Bar Graphs",
+   "definition": "A bar graph shows data as bars of different heights on a common scale: taller bars mean bigger values, and the scale on the axis converts bar height back into numbers.",
+   "formula": "",
+   "key_idea": "Bar graphs trade pictures for lengths: equal spacing and a clear scale make comparison instant.",
+   "textbook_ref": "fegp104.txt, Bar Graphs",
+   "question_patterns": [
+    "read the tallest bar from the given bar graph",
+    "which two bars differ the most and by how much",
+    "draw a bar graph of the class attendance for a week",
+    "what does the scale on the axis mean",
+    "how is a bar graph better than a table",
+    "make questions from the given bar graph for your friend"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp104.txt",
+   "concept": "fegp.4.3",
+   "question_type": "compute",
+   "question_pattern": "A table shows 12 children liked red, 8 liked blue and 5 liked green. Find the total number of children.",
+   "extracted_variables": {
+    "f1": "count in the first row",
+    "f2": "count in the second row",
+    "f3": "count in the third row"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read each count",
+     "explain": "Take the numbers written against each row of the table.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the counts",
+     "explain": "The total is the sum of all the row counts.",
+     "compute": "total = f1 + f2 + f3"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp104.txt",
+   "concept": "fegp.4.3",
+   "question_type": "compute",
+   "question_pattern": "In a survey, 15 houses have 1 pet, 9 houses have 2 pets and 6 houses have 3 pets. Add the counts of all rows.",
+   "extracted_variables": {
+    "f1": "count in the first row",
+    "f2": "count in the second row",
+    "f3": "count in the third row"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read each count",
+     "explain": "Collect the three numbers from the table.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the counts",
+     "explain": "Adding them gives the grand total of houses.",
+     "compute": "total = f1 + f2 + f3"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp104.txt",
+   "concept": "fegp.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "find the total from the table: 12, 8 and 5 responses in three rows.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp104.txt, Figure it Out",
+   "questions": [
+    "What is data? Give two examples from your class.",
+    "Find the total from the table: 12, 8 and 5 responses in three rows.",
+    "If one symbol means 5 students, how much do 4 symbols show?",
+    "Draw a bar graph of attendance of your class for a week.",
+    "Why is organised data easier to read than raw data?"
+   ]
+  }
+ ]
+}

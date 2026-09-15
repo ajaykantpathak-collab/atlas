@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_political_science_keps203",
+ "concepts": [
+  {
+   "id": "keps203.1.1",
+   "title": "Elections and Democracy: Why Free and Fair Elections Matter",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elections and Democracy: Why Free and Fair Elections Matter' refers to.",
+     "a": "Modern democracy runs through elections: they convert citizens' preferences into a governing body, let people dismiss rulers peacefully, and force parties to court public opinion. Elections qualify as democratic only when they are free -- no coercion or fear -- and fair -- impartially conducted with equal weight for each vote.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elections and Democracy: Why Free and Fair Elections Matter'.",
+     "a": "Elections are democracy's gearbox -- free choice inside a fair procedure turns votes into government.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Elections and Democracy: Why Free and Fair Elections Matter' taught, and from which source text?",
+     "a": "1.1 (source: keps203.txt lines 15-110 (introduction, election commission, elections and democracy, why elections matter, free and fair conditions))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps203.1.2",
+   "title": "Election Commission of India: The Independent Referee",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Election Commission of India: The Independent Referee' refers to.",
+     "a": "The Election Commission of India supervises and controls the entire electoral process -- preparing rolls, scheduling polls, enforcing the model code of conduct, and certifying results. Its independence comes from constitutional protection: Commissioners can be removed only like judges of the Supreme Court, and its spending is charged on the Consolidated Fund.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Election Commission of India: The Independent Referee'.",
+     "a": "One referee above all players -- the Commission's independence is what keeps political contests honest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Election Commission of India: The Independent Referee' taught, and from which source text?",
+     "a": "1.2 (source: keps203.txt lines 110-200 (election commission of india, article 324, powers and functions, independence of the commission, model code of conduct))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps203.1.3",
+   "title": "First Past the Post and Proportional Representation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'First Past the Post and Proportional Representation' refers to.",
+     "a": "Two great families of electoral systems exist. First past the post divides the country into single-member constituencies and elects whoever tops the count there -- simple and area-anchored, but it can hand large seats to a party with a modest vote share. Proportional representation allocates seats in proportion to votes, using party lists or transferable votes -- fairer in shares, weaker in constituency bonds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'First Past the Post and Proportional Representation'.",
+     "a": "Winner-takes-all by area, or seats-by-share -- each system trades simplicity against proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'First Past the Post and Proportional Representation' taught, and from which source text?",
+     "a": "1.3 (source: keps203.txt lines 200-320 (first past the post system, proportional representation, single transferable vote, party list, merits and demerits of each system))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps203.1.4",
+   "title": "Reservation of Constituencies and Universal Franchise",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reservation of Constituencies and Universal Franchise' refers to.",
+     "a": "The Constitution adopted universal adult franchise at once, making every adult a voter regardless of wealth, gender or education. To open legislatures to historically excluded groups, it reserved seats for Scheduled Castes and Tribes in proportion to population, while reserving a third of local-body seats for women -- representation as inclusion, not just counting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reservation of Constituencies and Universal Franchise'.",
+     "a": "One person one vote one value -- plus reserved seats so the excluded do not stay outside the house.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reservation of Constituencies and Universal Franchise' taught, and from which source text?",
+     "a": "1.4 (source: keps203.txt lines 320-430 (universal adult franchise, reservation of constituencies for sc and st, women's reservation in panchayats and local bodies))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

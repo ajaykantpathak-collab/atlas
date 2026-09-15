@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_005",
+   "title": "c12_hist_cbse_05_005",
+   "questions": [
+    {
+     "q": "In what year did Ibn Battuta set out from Tangier, and what was his primary motivation for travelling initially?",
+     "a": "Ibn Battuta left Tangier in 1325 CE at age 22, primarily to perform the Hajj (pilgrimage to Mecca). A wrong answer (e.g., \"he came to India first\" or \"he was a merchant\") reveals confusion between his initial pilgrimage motive and his later, decades-long wanderings driven by curiosity and patronage-seeking.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Muhammad bin Tughlaq appoint Ibn Battuta as *qazi* of Delhi, and what does this reveal about the Sultan’s court?",
+     "a": "The Sultan was impressed by Ibn Battuta’s scholarly credentials in Islamic law (*shari‘a*) and his wide travel experience, which made him a valuable addition to a court that cultivated a cosmopolitan, Persianate culture. A wrong answer (e.g., \"because he was a spy\" or \"he bought the post\") misses the nuance that the Delhi Sultanate actively recruited foreign scholars to legitimize its Islamic credentials and administer a diverse empire.",
+     "self_check": true
+    },
+    {
+     "q": "Ibn Battuta describes the *dawa* (foot-post) system as having runners stationed every one-third of a mile (*dawa*) with bells on their rods. If a message had to travel from Delhi to Daulatabad (approx. 1,100 km), estimate the minimum number of runner-relays required, assuming each runner covers exactly one *dawa* (≈ 0.5 km). Show your calculation.",
+     "a": "1,100 km = 1,100,000 m. One *dawa* = 1/3 mile ≈ 536 m. Number of relays = 1,100,000 / 536 ≈ 2,052 runners. A wrong answer (e.g., using 4 miles for horse-post, or ignoring unit conversion) shows inability to apply the text’s quantitative data — a skill tested in CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Ibn Battuta’s description of Delhi’s ramparts (eleven-cubit-thick walls, 28 gates, granaries inside) with the archaeological remains of Tughlaqabad Fort. What does the convergence or divergence tell us about the *Rihla*’s reliability?",
+     "a": "The physical remains of Tughlaqabad confirm massive stone walls, bastions, and gate complexes, broadly matching Ibn Battuta’s account, but the exact number of gates (28) and internal granaries may reflect literary convention or hearsay. A strong answer notes that travellers often exaggerated scale for effect; a weak answer treats the text as either wholly factual or wholly fictional without corroboration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ibn Battuta’s *Rihla* is more useful for understanding the *mental world* of a 14th-century Muslim scholar than for reconstructing the *material conditions* of the Delhi Sultanate.\" Defend your position with two pieces of evidence from the text.",
+     "a": "The claim is partially valid. Evidence for mental world: his fascination with \"curiosities\" (coconut resembling a human head, betel-chewing ritual) reflects what a Maghrebi audience found exotic. Evidence for material conditions: his precise account of the *uluq/dawa* system, crop cycles (two harvests), and textile trade (muslins, silks) provides verifiable economic data. A weak evaluation ignores the dual nature of travelogues as both ethnographic and documentary sources.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-event timeline of Ibn Battuta’s Indian sojourn (1333–1347) that includes: arrival in Sindh, appointment in Delhi, imprisonment, envoy mission to China, stay in Maldives, and return voyage. Annotate each event with the primary source of information (e.g., *Rihla* Chapter X, Ibn Juzayy’s introduction).",
+     "a": "1. 1333 – Arrives in Sindh (*Rihla*, early chapters). 2. 1334 – Reaches Delhi, appointed *qazi* (*Rihla*). 3. c. 1341 – Falls from favour, imprisoned (*Rihla*). 4. 1342 – Restored, ordered as envoy to China (*Rihla*). 5. 1343–1345 – *Qazi* in Maldives, visits Sri Lanka, Bengal, Assam (*Rihla*). 6. 1347 – Departs from Zaytun (Quanzhou) for home (*Rihla*). A poor timeline omits the Maldives interlude or misorders the China mission before the Malabar journey.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

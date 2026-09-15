@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_7",
+   "title": "c8_math_ch13_7",
+   "questions": [
+    {
+     "q": "What is the rule for adding two like terms? Give an example.",
+     "a": "The rule: To add like terms, add their numerical coefficients and keep the variable part exactly the same. Example: 4x + 7x = (4+7)x = 11x. A wrong answer (e.g., adding the variable parts to get 11x², or multiplying coefficients) reveals the student does not recall the definition of like terms or the addition rule.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 3x + 5y cannot be simplified to a single term like 8xy.",
+     "a": "3x and 5y are unlike terms because they have different variables (x vs y). Adding them would be like adding 3 apples and 5 oranges; you cannot combine them into a single type. Writing 8xy incorrectly multiplies the variables, changing the meaning entirely. A wrong answer shows the student confuses addition with multiplication or does not understand the concept of like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Add the expressions: (2x² + 3xy – 5y) + (4x² – 2xy + 7y). Show all steps.",
+     "a": "Step 1: Group like terms: (2x² + 4x²) + (3xy – 2xy) + (–5y + 7y).\nStep 2: Add coefficients: (2+4)x² = 6x²; (3–2)xy = 1xy = xy; (–5+7)y = 2y.\nStep 3: Result: 6x² + xy + 2y.\nA wrong answer (e.g., 6x² + 1xy² or 6x⁴) reveals errors in identifying like terms or mishandling signs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods for subtracting (3a – 4b) from (5a + 2b): (i) Change signs of the subtrahend and add; (ii) Write vertically and subtract column-wise. Which method is less error-prone and why?",
+     "a": "Method (i) is often less error-prone because it converts subtraction into addition of the additive inverse, reducing sign errors. For example: (5a+2b) – (3a–4b) = 5a+2b –3a+4b = 2a+6b. Method (ii) requires careful alignment and sign handling in columns. A student who prefers (ii) but makes sign errors (e.g., subtracting –4b as –4b instead of +4b) reveals difficulty with integer subtraction rules.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified (4x² + 3x – 7) – (2x² – 5x + 9) as 2x² – 2x – 16. Identify the error and give the correct simplification.",
+     "a": "The error: The student subtracted 2x² correctly but did not change the signs of –5x and +9 properly. They did: 3x – 5x = –2x (should be 3x – (–5x) = 8x) and –7 – 9 = –16 (this part is correct because –7 – (+9) = –16). Correct simplification: (4x²+3x–7) – (2x²–5x+9) = 4x²+3x–7–2x²+5x–9 = 2x²+8x–16. A wrong evaluation indicates the student does not apply the distributive property of subtraction over addition correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving addition of two algebraic expressions that represents a real-life situation (e.g., perimeter of a rectangle, total cost, etc.). Write the expressions and find the sum.",
+     "a": "Example: \"A rectangular garden has length (3x + 2) metres and breadth (2x – 1) metres. Write an expression for the perimeter and simplify.\" Perimeter = 2(l+b) = 2[(3x+2)+(2x–1)] = 2[5x+1] = 10x+2. A good answer includes a realistic context, correct expressions, and correct simplification. A poor answer might use unlike terms that cannot be combined or incorrect operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

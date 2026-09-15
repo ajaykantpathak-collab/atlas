@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_011",
+   "title": "c11_math_cbse_10_011",
+   "questions": [
+    {
+     "q": "Write the slope-intercept form of a line with slope 3/4 and y-intercept -2. Then state the coordinates of the point where this line crosses the y-axis.",
+     "a": "The equation is y = (3/4)x - 2. The line crosses the y-axis at (0, -2). A wrong answer like y = (3/4)x + 2 reveals the student confuses the sign of the intercept. Writing the crossing point as (-2, 0) shows confusion between x-intercept and y-intercept - a very common error where students think \"intercept = -2 means x = -2\".",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation of a line passing through (0, 5) with slope -2 as y = -2x + 5. Another student says \"But the point (0, 5) has x = 0, so shouldn't the equation be y = 5?\" Explain why the first student is correct and what the second student misunderstands about the slope-intercept form.",
+     "a": "The first student is correct: y = -2x + 5 satisfies both conditions - when x = 0, y = 5 (y-intercept), and the coefficient of x is -2 (slope). The second student incorrectly thinks that because x = 0 at the y-intercept, the x-term disappears entirely. They confuse \"evaluating at x = 0\" with \"the equation having no x-term\". The slope-intercept form y = mx + c describes ALL points on the line, not just the intercept point. A wrong explanation indicates the student views the equation as only valid at the intercept rather than as a relationship between x and y for every point.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the equation 3x - 4y + 12 = 0 into slope-intercept form. Hence find the slope, y-intercept, and the angle of inclination of the line (to the nearest degree).",
+     "a": "3x - 4y + 12 = 0 → -4y = -3x - 12 → y = (3/4)x + 3. Slope m = 3/4, y-intercept c = 3. Angle θ = tan⁻¹(3/4) ≈ 36.87° ≈ 37°. Common errors: y = (3/4)x - 3 (sign error when dividing by -4), or m = -3/4 (forgetting to change sign when moving terms). If a student gets θ = 53°, they used tan⁻¹(4/3) - confusing rise/run with run/rise.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given: L₁: y = 2x + 3 and L₂: 2y = 4x - 5. Without graphing, determine whether these lines are parallel, perpendicular, or neither. Justify your answer by analysing their slope-intercept forms.",
+     "a": "L₁ is already in slope-intercept form: m₁ = 2. L₂: 2y = 4x - 5 → y = 2x - 2.5, so m₂ = 2. Since m₁ = m₂ = 2, the lines are parallel (different y-intercepts: 3 and -2.5). A student saying \"perpendicular\" might think 2 and -1/2 but failed to convert L₂ correctly. A student saying \"neither\" might compare 2 and 4 (not simplifying L₂) or compare y-intercepts instead of slopes. This tests whether they know parallel lines have equal slopes AND they can convert to slope-intercept form first.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the equation of the line with x-intercept 4 and y-intercept -3.\" Their working: \"x-intercept = 4 means point (4, 0). y-intercept = -3 means c = -3. So y = mx - 3. Using (4, 0): 0 = 4m - 3 → m = 3/4. Equation: y = (3/4)x - 3.\" Is this correct? If not, identify the error and give the correct equation.",
+     "a": "The student's answer y = (3/4)x - 3 is INCORRECT. The error: they used the y-intercept correctly (c = -3) but the x-intercept is 4, meaning the line passes through (4, 0). Substituting gives 0 = 4m - 3 → m = 3/4. Wait - this actually gives the correct equation! Let me recheck: y = (3/4)x - 3. When x = 4, y = 3 - 3 = 0 ✓. When x = 0, y = -3 ✓. The equation IS correct. A student who says \"incorrect\" might think x-intercept means something else, or that slope should be negative. The correct equation is indeed y = (3/4)x - 3. This question tests whether students can verify intercepts and catch \"phantom errors\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: rupees, metres, etc.) that can be modelled by a linear equation in slope-intercept form. Define what the slope and y-intercept represent in your problem. Then write the equation and explain what the x-intercept would mean in this context.",
+     "a": "Example: \"A taxi charges ₹50 as base fare plus ₹12 per kilometre. Let y be total fare (₹) and x be distance (km). Equation: y = 12x + 50. Slope (12) = rate per km. y-intercept (50) = base fare when distance = 0. x-intercept = -50/12 ≈ -4.17 km (not physically meaningful - would mean negative distance to get zero fare).\" A good answer has correct units, proper interpretation, and recognises when x-intercept is not meaningful. A poor answer uses vague variables, misses units, or thinks x-intercept is always meaningful.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

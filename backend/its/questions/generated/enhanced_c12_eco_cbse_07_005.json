@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_005",
+   "title": "c12_eco_cbse_07_005",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Define a stock variable and a flow variable. Give one example of each from macroeconomics.",
+     "a": "**Correct:** Stock = quantity measured at a point in time (e.g., capital stock on 31st March 2024). Flow = quantity measured over a period (e.g., gross capital formation during 2023-24).  \n**Wrong answer reveals:** Student confuses \"wealth\" (stock) with \"income\" (flow) or thinks \"money supply\" is a flow because money \"circulates\". They miss the time-dimension distinction.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** \"India's foreign exchange reserves stood at $640 billion on 31st March 2024. During 2023-24, the current account deficit was $23 billion.\" Identify the stock and the flow. Explain why the change in reserves is NOT exactly equal to the current account deficit.",
+     "a": "**Correct:** Reserves ($640B) = stock (point in time). CAD ($23B) = flow (over FY24). Change in reserves ≠ CAD because reserves also change due to capital account flows (FDI, FII, loans), valuation changes (exchange rate), and gold revaluation.  \n**Wrong answer reveals:** Student thinks BoP identity means reserves change = current account balance, ignoring capital/financial account and valuation effects. They treat stocks and flows as directly convertible without netting all flows.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** Classify each as stock (S) or flow (F):  \n(a) Government debt outstanding on 31st March 2024  \n(b) Fiscal deficit for 2023-24  \n(c) Money supply (M3) on 31st Dec 2023  \n(d) Gross Domestic Product for 2023-24  \n(e) Net foreign investment during April-Dec 2023  \n(f) Capital stock of the economy on 1st April 2023",
+     "a": "**Correct:** (a) S, (b) F, (c) S, (d) F, (e) F, (f) S.  \n**Wrong answer reveals:** Student misclassifies (b) as stock because \"deficit accumulates into debt\" or (d) as stock because \"GDP is the size of the economy\". They confuse the *measure* (flow) with the *resulting accumulation* (stock).",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** \"Net investment = Gross investment – Depreciation. Capital stock at end of year = Capital stock at start + Net investment.\"  \nIf capital stock on 1st April 2023 = ₹200 lakh crore, gross investment during 2023-24 = ₹30 lakh crore, depreciation = ₹8 lakh crore, calculate capital stock on 31st March 2024. Explain why depreciation is subtracted from gross investment to get the flow that changes the stock.",
+     "a": "**Correct:** Net investment = 30 – 8 = ₹22 lakh crore. End stock = 200 + 22 = ₹222 lakh crore. Depreciation is the wear-and-tear flow that reduces the existing stock; gross investment adds new capital. Only the *net* addition (gross – depreciation) increases the stock.  \n**Wrong answer reveals:** Student adds gross investment (30) to get 230, ignoring that depreciation simultaneously reduces the stock. They treat depreciation as a separate stock reduction rather than a flow netting against gross investment.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** \"A country's money supply (M3) increased from ₹180 lakh crore to ₹200 lakh crore in one year. Therefore, the flow of money supply during that year was ₹20 lakh crore.\" Critique this statement.",
+     "a": "**Correct:** The statement is conceptually wrong. Money supply is a **stock**; it has no \"flow\". The ₹20 lakh crore is the **change in stock** (ΔM), not a flow variable. Flows that cause this change are: net bank credit to government, bank credit to commercial sector, net foreign exchange assets, etc. (sources of money supply).  \n**Wrong answer reveals:** Student treats the change in a stock as a flow variable itself, confusing \"change in stock\" (which is a flow-equivalent) with a genuine flow like \"money creation by RBI\". They miss that stocks change *due to* flows.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Construct a mini \"stock-flow consistency\" table for a hypothetical Indian household for FY 2023-24. Include at least 3 stock variables (with opening/closing values) and 3 flow variables that link them. Ensure the identity: Closing Stock = Opening Stock + Inflows – Outflows holds for each.",
+     "a": "**Good answer example:**  \n| Stock Variable | Opening (1 Apr 23) | Inflows (Flow) | Outflows (Flow) | Closing (31 Mar 24) |  \n|---|---|---|---|---|  \n| Bank Deposits | ₹5,00,000 | Salary ₹12,00,000 | Expenses ₹9,00,000 | ₹8,00,000 |  \n| Gold Holdings | ₹3,00,000 | Purchase ₹50,000 | Sale ₹0 | ₹3,50,000 |  \n| Loan Outstanding | ₹10,00,000 | Fresh loan ₹0 | Repayment ₹2,00,000 | ₹8,00,000 |  \n**Poor answer reveals:** Student lists unrelated stocks and flows (e.g., \"Income\" as stock, \"Wealth\" as flow) or fails to balance the identity. They don't grasp that every stock change must be explained by flows.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

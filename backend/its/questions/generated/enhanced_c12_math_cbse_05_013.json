@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_013",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_013",
+   "title": "c12_math_cbse_05_013",
+   "questions": [
+    {
+     "q": "State the Mean Value Theorem precisely, including all hypotheses and the conclusion. Use mathematical notation.",
+     "a": "**Correct Answer:** If \\( f \\) is continuous on \\([a, b]\\) and differentiable on \\((a, b)\\), then there exists at least one \\( c \\in (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b - a} \\).  \n**Misconception Analysis:** A common wrong answer omits \"continuous on \\([a, b]\\)\" or \"differentiable on \\((a, b)\\)\", or writes the conclusion as \\( f(c) = \\frac{f(b)-f(a)}{b-a} \\) (confusing function value with derivative). This reveals the student memorizes the formula without understanding the conditions that make it valid.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( f(x) = |x| \\) on \\([-1, 1]\\) does NOT satisfy the hypotheses of the Mean Value Theorem. What happens if you try to find \\( c \\) such that \\( f'(c) = \\frac{f(1)-f(-1)}{1-(-1)} \\)?",
+     "a": "**Correct Answer:** \\( f(x) = |x| \\) is continuous on \\([-1, 1]\\) but NOT differentiable at \\( x = 0 \\in (-1, 1) \\). The right-hand derivative at 0 is 1, left-hand derivative is -1, so \\( f'(0) \\) does not exist. The secant slope is \\( \\frac{1-1}{2} = 0 \\). There is no \\( c \\in (-1, 1) \\) with \\( f'(c) = 0 \\) because \\( f'(x) = 1 \\) for \\( x>0 \\) and \\( f'(x) = -1 \\) for \\( x<0 \\).  \n**Misconception Analysis:** Students often say \"it's not differentiable at 0\" but forget to explicitly state that 0 lies in the OPEN interval \\((-1, 1)\\). Some incorrectly claim the function is not continuous. This shows confusion between the closed interval condition (continuity) and open interval condition (differentiability).",
+     "self_check": true
+    },
+    {
+     "q": "Verify the Mean Value Theorem for \\( f(x) = x^3 - 3x^2 + 2x \\) on the interval \\([0, 2]\\). Find all values of \\( c \\) that satisfy the conclusion.",
+     "a": "**Correct Answer with Steps:**  \n1. \\( f(x) = x^3 - 3x^2 + 2x \\) is a polynomial, so continuous on \\([0, 2]\\) and differentiable on \\((0, 2)\\). Conditions satisfied.  \n2. \\( f(0) = 0 \\), \\( f(2) = 8 - 12 + 4 = 0 \\). Secant slope \\( = \\frac{0-0}{2-0} = 0 \\).  \n3. \\( f'(x) = 3x^2 - 6x + 2 \\).  \n4. Set \\( f'(c) = 0 \\Rightarrow 3c^2 - 6c + 2 = 0 \\Rightarrow c = \\frac{6 \\pm \\sqrt{36 - 24}}{6} = \\frac{6 \\pm 2\\sqrt{3}}{6} = 1 \\pm \\frac{\\sqrt{3}}{3} \\).  \n5. Both \\( 1 - \\frac{\\sqrt{3}}{3} \\approx 0.423 \\) and \\( 1 + \\frac{\\sqrt{3}}{3} \\approx 1.577 \\) lie in \\((0, 2)\\).  \n**Answer:** \\( c = 1 \\pm \\frac{\\sqrt{3}}{3} \\).  \n**Error Analysis:** A common mistake is solving \\( f(c) = 0 \\) instead of \\( f'(c) = 0 \\), yielding \\( c = 0, 1, 2 \\). This confuses the function value with the derivative. Another error is forgetting to check that the found \\( c \\) lies in the open interval.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works.",
+     "a": "**Correct Answer:** Rolle's Theorem requires \\( f(a) = f(b) \\) and concludes \\( f'(c) = 0 \\). MVT drops the equal-endpoint condition and concludes \\( f'(c) = \\frac{f(b)-f(a)}{b-a} \\). The auxiliary function is \\( g(x) = f(x) - \\frac{f(b)-f(a)}{b-a}(x-a) - f(a) \\). Then \\( g(a) = f(a) - 0 - f(a) = 0 \\) and \\( g(b) = f(b) - (f(b)-f(a)) - f(a) = 0 \\). So \\( g \\) satisfies Rolle's conditions. By Rolle's Theorem, \\( \\exists c \\in (a,b) \\) with \\( g'(c) = 0 \\). But \\( g'(x) = f'(x) - \\frac{f(b)-f(a)}{b-a} \\), so \\( g'(c) = 0 \\Rightarrow f'(c) = \\frac{f(b)-f(a)}{b-a} \\).  \n**Error Analysis:** Students often write the auxiliary function incorrectly, e.g., missing the \\(-f(a)\\) term or using \\( (x-b) \\) instead of \\( (x-a) \\). This shows they don't understand the geometric idea of subtracting the secant line equation to make endpoints equal.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The function \\( f(x) = \\frac{1}{x} \\) on \\([-1, 1]\\) satisfies the Mean Value Theorem because it is differentiable everywhere except at 0, and 0 is just one point.\" Evaluate this claim. Is the student correct? Justify your answer.",
+     "a": "**Correct Answer:** The student is INCORRECT. The Mean Value Theorem requires differentiability on the ENTIRE OPEN INTERVAL \\((-1, 1)\\). Since \\( f(x) = \\frac{1}{x} \\) is not defined at \\( x = 0 \\), it is neither continuous nor differentiable at 0. The domain of \\( f \\) is \\( (-\\infty, 0) \\cup (0, \\infty) \\), so \\( f \\) is not even a function on \\([-1, 1]\\). The hypotheses fail at the very first step.  \n**Error Analysis:** The student confuses \"differentiable almost everywhere\" with \"differentiable on the whole open interval\". They also overlook that continuity on the closed interval fails because the function isn't defined at 0. This is a classic JEE trap: checking differentiability only where the function is defined, ignoring points in the interval where it is not defined.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f \\) defined on \\([0, 2]\\) such that \\( f(0) = 0 \\), \\( f(2) = 4 \\), and the Mean Value Theorem guarantees at least one \\( c \\in (0, 2) \\) with \\( f'(c) = 2 \\). Your function must be differentiable on \\((0, 2)\\) but NOT a straight line. Verify that your function works.",
+     "a": "**Expected Answer:** Any function continuous on \\([0, 2]\\), differentiable on \\((0, 2)\\), with \\( f(0)=0, f(2)=4 \\), and non-linear. Example: \\( f(x) = x^2 \\). Check: \\( f(0)=0, f(2)=4 \\). Secant slope \\( = \\frac{4-0}{2-0} = 2 \\). \\( f'(x) = 2x \\). Set \\( 2c = 2 \\Rightarrow c = 1 \\in (0, 2) \\). Works. Another example: \\( f(x) = 2x + \\sin(\\pi x) \\).  \n**Poor Answer Indicators:** If the student gives a straight line \\( f(x) = 2x \\), they miss \"NOT a straight line\". If they give \\( f(x) = |x| \\) or a piecewise function with a corner, they violate differentiability. This tests whether they can synthesize the conditions and construct a valid example.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

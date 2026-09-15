@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_012",
+   "title": "c10_chem_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the general formula of a soap molecule? Name the two distinct parts of the molecule and state the nature (hydrophilic/hydrophobic) of each part.",
+     "a": "General formula: RCOO⁻Na⁺ (or RCOO⁻K⁺), where R is a long hydrocarbon chain (C₁₂–C₁₈). The two parts are: (1) the carboxylate head (–COO⁻Na⁺) which is hydrophilic (water-attracting) due to its ionic charge, and (2) the hydrocarbon tail (R–) which is hydrophobic (water-repelling) due to its non-polar nature. A wrong answer (e.g., saying the tail is hydrophilic or writing R–OH) reveals the student confuses soap with alcohol or does not understand the dual nature essential for micelle formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why soap forms scum (precipitate) in hard water but detergent does not. Write the chemical equation for the reaction of sodium stearate (C₁₇H₃₅COONa) with calcium ions (Ca²⁺) in hard water.",
+     "a": "Soap (sodium stearate) reacts with Ca²⁺/Mg²⁺ ions in hard water to form insoluble calcium/magnesium salts of fatty acids (scum): 2C₁₇H₃₅COONa(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s) + 2Na⁺(aq). Detergents (e.g., sodium alkylbenzene sulphonate) form soluble calcium/magnesium salts because the sulphonate group (–SO₃⁻) forms more soluble salts with Ca²⁺/Mg²⁺ than carboxylate (–COO⁻). A wrong answer (e.g., saying detergents don't react at all, or writing the wrong precipitate formula) shows the student hasn't grasped the solubility difference between carboxylates and sulphonates/sulphates — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes 5 g of castor oil (a triglyceride) and adds 20 mL of 20% NaOH solution. The mixture is heated and then common salt (NaCl) is added. The solid that separates out is collected. Identify the process, the main product, the by-product, and the role of common salt. Write the balanced chemical equation for the reaction.",
+     "a": "Process: Saponification. Main product: Soap (sodium salt of fatty acids from castor oil). By-product: Glycerol (propane-1,2,3-triol). Role of common salt: Decreases solubility of soap in aqueous solution, causing it to precipitate out (salting out). Balanced equation (simplified for one triglyceride molecule with three identical fatty acid chains RCOOH):\nC₃H₅(OOCR)₃ + 3NaOH → 3RCOONa + C₃H₅(OH)₃\nA wrong answer (e.g., missing the 3:1 stoichiometry, forgetting glycerol, or saying salt acts as a catalyst) reveals confusion between saponification and neutralisation, or not knowing the salting-out effect — both are frequently tested in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cleansing action of soap and detergent in (i) soft water, (ii) hard water, and (iii) acidic water. Explain the chemical reason for each case.",
+     "a": "(i) Soft water: Both work well — form micelles, remove dirt. (ii) Hard water: Soap fails (forms insoluble scum with Ca²⁺/Mg²⁺); detergent works (forms soluble salts). (iii) Acidic water: Soap fails (H⁺ converts RCOO⁻ to RCOOH, which is insoluble and non-ionic, so no micelles); detergent works (sulphonic/sulphuric acids are strong acids, so R–SO₃⁻/R–OSO₃⁻ remains ionised even in acidic medium). A wrong answer (e.g., saying detergent also fails in acidic water) shows the student doesn't understand the acid-base chemistry of the hydrophilic heads — a higher-order thinking question common in competency-based papers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Soaps are better than detergents because they are biodegradable and do not cause water pollution.\" Evaluate this statement. Is it fully correct? Give two chemical reasons to support your evaluation.",
+     "a": "The statement is partially correct but incomplete. Two chemical reasons: (1) Soaps are biodegradable (straight-chain carboxylates are easily broken down by bacteria), while many early detergents had branched hydrocarbon chains that resisted biodegradation, causing foam pollution. (2) However, soaps fail in hard water (forming scum) and acidic water, wasting soap and reducing cleaning efficiency. Modern detergents use linear alkylbenzene sulphonates (LAS) which are biodegradable AND work in hard/acidic water. A wrong answer (e.g., saying soaps are always better, or that all detergents are non-biodegradable) shows lack of awareness of modern detergent chemistry — a common board exam misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether a given cleansing agent is a soap or a detergent. List the materials, steps, observations, and the chemical principle used.",
+     "a": "Materials: Two test tubes, hard water (or CaCl₂ solution), the unknown cleansing agent, shaking apparatus. Steps: (1) Dissolve equal amounts of the cleansing agent in two test tubes with soft water and hard water separately. (2) Shake vigorously to form lather. (3) Observe lather formation and any precipitate. Observations: If lather forms in soft water but scum (white precipitate) forms in hard water → it is a soap. If lather forms in both → it is a detergent. Principle: Soap (carboxylate) forms insoluble Ca²⁺/Mg²⁺ salts; detergent (sulphonate/sulphate) forms soluble salts. A poor answer (e.g., using pH paper only, or not using hard water) shows the student cannot translate chemical properties into a practical test — a skill tested in board practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 103,
+ "chapter_title": "Private, Public and Global Enterprises",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs103.txt",
+ "concepts": [
+  {
+   "id": "kebs.103.1",
+   "title": "Private Sector and Public Sector in a Mixed Economy",
+   "section": "3.2",
+   "definition": "A framework where economic operations are divided between privately owned entities seeking profit and government-owned entities serving public interest.",
+   "formula": "",
+   "key_idea": "Coexistence of privately owned firms and state-managed organizations within the economy.",
+   "textbook_ref": "kebs103.txt lines 30-65",
+   "question_patterns": [
+    "explain the difference between private sector and public sector enterprises",
+    "what is a mixed economy in the context of business ownership",
+    "differentiate private and public sector based on ownership and control",
+    "identify the two main sectors operating in the Indian economy",
+    "Explain private sector and public sector in a mixed economy in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ownership structure",
+     "explain": "Determine whether the enterprise is owned by private individuals or state entities."
+    },
+    {
+     "step": 2,
+     "action": "verify primary motive and accountability",
+     "explain": "Check if primary goal is profit earning (private) or social welfare and public accountability (public)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.2",
+   "title": "Departmental Undertakings",
+   "section": "3.3.1",
+   "definition": "Public sector units established as direct departments of a ministry without an independent legal identity, financed directly through government budgetary allocations.",
+   "formula": "",
+   "key_idea": "Direct ministry control without separate legal entity status.",
+   "textbook_ref": "kebs103.txt lines 95-155",
+   "question_patterns": [
+    "explain the features of departmental undertakings",
+    "what are the merits and limitations of departmental undertakings",
+    "why are railways and post offices organized as departmental undertakings",
+    "how are departmental undertakings financed and controlled",
+    "Explain departmental undertakings in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check structural legal status",
+     "explain": "Verify that the unit functions as an extension of a ministry and lacks a separate corporate entity."
+    },
+    {
+     "step": 2,
+     "action": "examine funding mechanism",
+     "explain": "Confirm funding originates from the government treasury via annual appropriations and revenue is deposited back into the treasury."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.3",
+   "title": "Statutory Corporations",
+   "section": "3.3.2",
+   "definition": "Autonomous corporate bodies created by a special parliamentary act specifying their powers, functions, employee service rules, and financial independence.",
+   "formula": "",
+   "key_idea": "Parliamentary act creation combining government authority with operational autonomy.",
+   "textbook_ref": "kebs103.txt lines 156-220",
+   "question_patterns": [
+    "what is a statutory corporation and its features",
+    "how does a statutory corporation differ from a departmental undertaking",
+    "explain the merits and limitations of statutory corporations",
+    "why are statutory corporations given financial autonomy",
+    "Explain statutory corporations in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check governing statute",
+     "explain": "Confirm the organization was established by a Special Act of Parliament or state legislature."
+    },
+    {
+     "step": 2,
+     "action": "verify legal personality and financial autonomy",
+     "explain": "Verify that the corporation is a body corporate capable of suing, entering contracts, acquiring property, and managing its own finances."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.4",
+   "title": "Government Company Shareholding Criteria",
+   "section": "3.3.3",
+   "definition": "A company formed under the Companies Act where a minimum of 51 percent of total paid-up share capital is held by the central government, state governments, or a combination thereof.",
+   "formula": "govt_share_percent = (govt_capital / total_capital) * 100",
+   "key_idea": "A minimum of 51% paid-up capital held by government grants government company status.",
+   "textbook_ref": "kebs103.txt lines 221-280",
+   "question_patterns": [
+    "calculate the government shareholding percentage to determine government company status",
+    "find the minimum government capital required for a company to become a government company",
+    "what percentage of paid-up capital must government hold in a government company",
+    "compute whether a given equity distribution satisfies government company criteria",
+    "Explain government company shareholding criteria in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate government share percentage",
+     "explain": "Divide government-owned capital by total paid-up share capital and multiply by 100.",
+     "compute": "(govt_capital / total_capital) * 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate minimum required capital for 51 percent ownership threshold",
+     "explain": "Compute 51 percent of total paid-up capital to verify the minimum state contribution needed.",
+     "compute": "(total_capital * 51) / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving government company shareholding criteria.",
+     "solution": "Step 1: calculate government share percentage. Step 2: calculate minimum required capital for 51 percent ownership threshold. Working: (govt_capital / total_capital) * 100, (total_capital * 51) / 100.",
+     "answer": "Government Company Shareholding Criteria applied step by step gives the required result."
+    },
+    {
+     "question": "Apply government company shareholding criteria to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate government share percentage. Step 2: calculate minimum required capital for 51 percent ownership threshold. Working: (govt_capital / total_capital) * 100, (total_capital * 51) / 100.",
+     "answer": "The method of government company shareholding criteria leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.5",
+   "title": "Changing Role of Public Sector and Industrial Policy Reforms",
+   "section": "3.4",
+   "definition": "Refers to the policy shifts post-1991 redefining public sector priorities from monopolies and heavy capital investment toward competitiveness, disinvestment, and reduced sector reservations.",
+   "formula": "",
+   "key_idea": "Reorienting state enterprises through disinvestment, BIFR referrals, MoUs, and reduced reserved areas.",
+   "textbook_ref": "kebs103.txt lines 281-380",
+   "question_patterns": [
+    "describe the government policy towards the public sector since 1991",
+    "what is disinvestment of shares in public sector enterprises",
+    "how has the number of reserved industries for public sector changed over time",
+    "explain the role of Memorandum of Understanding in public enterprises",
+    "Explain changing role of public sector and industrial policy reforms in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine policy shift measures",
+     "explain": "Identify major policy elements: strategic equity reduction, disinvestment, MoU accountability, and BIFR referral for sick units."
+    },
+    {
+     "step": 2,
+     "action": "analyze impact on sector reservations",
+     "explain": "Trace reduction of reserved industries from 17 (in 1956) down to 8 (in 1991) and eventually 3 core areas."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.6",
+   "title": "Global Enterprises (Multinational Corporations)",
+   "section": "3.5",
+   "definition": "Gigantic industrial concerns that extend production, commercial, and marketing operations across multiple countries from a centralized home country headquarters.",
+   "formula": "",
+   "key_idea": "Transnational operations characterized by vast financial resources, advanced technology, and centralized management.",
+   "textbook_ref": "kebs103.txt lines 381-450",
+   "question_patterns": [
+    "what are global enterprises and state their main features",
+    "why do multinational corporations dominate international markets",
+    "explain how foreign collaboration and product innovation help global enterprises",
+    "how does centralized control work in multinational corporations",
+    "Explain global enterprises (multinational corporations) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify operational scope",
+     "explain": "Check if the enterprise operates network branches and subsidiaries across multiple host nations."
+    },
+    {
+     "step": 2,
+     "action": "verify key attributes",
+     "explain": "Assess attributes such as massive capital, advanced technology, aggressive marketing, and parent headquarters control."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.7",
+   "title": "Joint Ventures",
+   "section": "3.6",
+   "definition": "A business partnership formed when two or more independent organizations pool assets, technical expertise, and risks to achieve shared commercial objectives.",
+   "formula": "",
+   "key_idea": "Mutual resource pooling between distinct businesses, categorized as contractual or equity-based.",
+   "textbook_ref": "kebs103.txt lines 451-530",
+   "question_patterns": [
+    "what is a joint venture and explain its benefits",
+    "differentiate between contractual joint venture and equity-based joint venture",
+    "why do foreign firms form joint ventures with domestic companies",
+    "explain how joint ventures provide access to new markets and technology",
+    "Explain joint ventures in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify joint venture structure",
+     "explain": "Determine whether the agreement creates a new corporate entity (equity-based) or relies on a contractual cooperation scheme (contractual)."
+    },
+    {
+     "step": 2,
+     "action": "evaluate mutual benefits",
+     "explain": "Identify gained synergies such as low production cost, established brand equity, advanced technology, or market entry."
+    }
+   ]
+  },
+  {
+   "id": "kebs.103.8",
+   "title": "Public Private Partnership (PPP)",
+   "section": "3.7",
+   "definition": "A long-term collaborative framework between government bodies and private enterprises for designing, financing, building, and operating public infrastructure projects.",
+   "formula": "",
+   "key_idea": "Optimal risk distribution and efficiency sharing between government and private entities for public projects.",
+   "textbook_ref": "kebs103.txt lines 531-590",
+   "question_patterns": [
+    "explain the concept and main features of public private partnership",
+    "what are the strengths and weaknesses of the PPP model",
+    "give examples of sectors where public private partnerships are commonly used",
+    "how are tasks and risks allocated in a public private partnership",
+    "Explain public private partnership (ppp) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify participating entities",
+     "explain": "Verify collaboration between state agency (ministry/municipality) and private investor/operator."
+    },
+    {
+     "step": 2,
+     "action": "assess risk allocation and role distribution",
+     "explain": "Check that design, construction, or operational risks are transferred to private partner while public authority ensures social obligations."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs103.txt lines 221-255",
+   "concept": "kebs.103.4",
+   "question_type": "compute",
+   "question_pattern": "A commercial entity has a total paid-up share capital of {total_capital}. The central government holds {govt_capital} of this capital. Calculate the percentage of share capital held by the government and find the minimum government contribution required for majority control as a government company.",
+   "extracted_variables": {
+    "total_capital": "total paid-up capital of the enterprise in INR",
+    "govt_capital": "share capital owned by government in INR"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate government share percentage",
+     "explain": "Divide government-owned capital by total paid-up share capital and multiply by 100.",
+     "compute": "govt_share_percent = (govt_capital / total_capital) * 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate minimum required capital for 51 percent ownership threshold",
+     "explain": "Compute 51 percent of total paid-up capital to verify the minimum state contribution needed.",
+     "compute": "min_required_capital = (total_capital * 51) / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex103.short",
+   "source_ref": "kebs103.txt lines 600-610",
+   "questions": [
+    "Explain the concept of public sector and private sector.",
+    "State the various types of organisations in the private sector.",
+    "What are the different kinds of organisations that come under the public sector?",
+    "List the names of some enterprises under the public sector and classify them.",
+    "Why is the government company form of organisation preferred to other types in the public sector?",
+    "How does the government maintain a regional balance in the country?",
+    "State the meaning of public private partnership."
+   ]
+  },
+  {
+   "id": "ex103.long",
+   "source_ref": "kebs103.txt lines 611-620",
+   "questions": [
+    "Describe the Industrial Policy 1991, towards the public sector.",
+    "What was the role of the public sector before 1991?",
+    "Can the public sector companies compete with the private sector in terms of profits and efficiency? Give reasons for your answer.",
+    "Why are global enterprises considered superior to other business organisations?",
+    "What are the benefits of entering into joint ventures and public private partnership?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

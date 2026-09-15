@@ -1,0 +1,278 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 12,
+ "chapter_title": "घर की याद",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.112.1.1",
+   "title": "भवानीप्रसाद मिश्र और कविता का संदर्भ: कारावास में लिखी घर-स्मृति",
+   "section": "1",
+   "definition": "होशंगाबाद (नर्मदापुरम) के भवानीप्रसाद मिश्र (1913-1985) स्वाधीनता आंदोलन में सक्रिय कवि थे - 'भारत छोड़ो' आंदोलन के लिए उन्हें तीन वर्ष का कारावास मिला और जेल में ही उन्होंने 'घर की याद' लिखी; 'बुनी हुई रस्सी' पर साहित्य अकादमी पुरस्कार पाने वाले ये कवि परिवार की स्मृति को ही इस कविता की केंद्रीय संवेदना बनाते हैं।",
+   "formula": "-",
+   "key_idea": "देश के लिए सजा काटते कवि की कलम घर के परिजनों की एक-एक छवि बुनती चली जाती है।",
+   "textbook_ref": "ihga112.txt lines 1-22 (कवि-परिचय और कविता की प्रस्तावना)",
+   "question_patterns": [
+    "Bhavaniprasad Mishra ne ye kavita kahan aur kyon likhi",
+    "1942 ke andolan mein kavita ka kya sambandh hai",
+    "kavita ki kendraiya samsvedana kya hai",
+    "kavi jail mein parijano ke baare mein kya sochte hain",
+    "Buni Hui Rassi ka kya mahatva hai",
+    "savan ke baadal kavita mein kis kaam aate hain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संदर्भ बाँधिए",
+     "explain": "कविता स्वतंत्रता-संग्राम के दौरान जेल की दीवारों के भीतर जन्मी है।"},
+    {"step": 2, "action": "संवेदना पहचानिए",
+     "explain": "परिवार की स्मृति ही कविता की धड़कन है - एक-एक परिजन स्मृति में शामिल होता जाता है।"},
+    {"step": 3, "action": "दूत-कल्पना जोड़िए",
+     "explain": "कवि सावन के बादल को परिवार तक संदेश पहुँचाने वाला बना देता है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.2",
+   "title": "बरसात और मन: 'आज पानी गिर रहा है' का आंतरिक बिंब",
+   "section": "1",
+   "definition": "रात-भर गिरता पानी कवि की चिंता और बेचैनी का बाहरी प्रतीक बन जाता है - 'प्राण मन घिरता रहा है'; बादल की अँधेरी के कारण सुबह का पता भी नहीं चला; पानी के साथ-साथ 'घर चतुर्दिक् घिर रहा है' - यानी बाहर की बरसात भीतर की घर-याद का जाल बुन देती है।",
+   "formula": "-",
+   "key_idea": "बाहर का मौसम और भीतर की मनःस्थिति एक-दूसरे का दर्पण बन जाते हैं।",
+   "textbook_ref": "ihga112.txt lines 24-47 तथा lines 50-55 (पानी, अँधेरी और घर-घिरने के बिंब)",
+   "question_patterns": [
+    "lagatar barasta pani kavi ke man ki kis bhavna ka parichayak hai",
+    "pran man ghirta raha hai ka kya arth hai",
+    "baadal ki andheri se kavi ko kya hua",
+    "ghar chaturdik ghira raha hai ka bhavarth likhiye",
+    "barasat aur akelapan mein kya sambandh dikha",
+    "ek chhin sau baras hai re ka bhaav samjhaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "बाह्य दृश्य पकड़िए",
+     "explain": "रात-भर की बरसात और बादलों की घनेरी अँधेरी वातावरण बनाती है।"},
+    {"step": 2, "action": "अंतरंग अनुभूति जोड़िए",
+     "explain": "एक पल भी सौ बरस जैसा हो जाना विरह-वेदना का माप है।"},
+    {"step": 3, "action": "बिंब-संयोग बताइए",
+     "explain": "चारों ओर घिरता पानी और स्मृति में घिरता घर - दोनों का तादात्म्य ही कविता की कला है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.3",
+   "title": "माँ की छवि: स्नेह-धारा और भावनात्मक मजबूती",
+   "section": "1",
+   "definition": "बिन-पढ़ी माँ को कवि 'दुख में गढ़ी' कहता है - जिसकी गोद में सिर रखते ही दुख नहीं रहता और जिसकी स्नेह-धारा का कोई हाँ तक पसारा नहीं; जेल के डर के बावजूद वह पुत्र को सांत्वना देती है - 'वहाँ अच्छा है भवानी... इस तरह होओ न कच्चे' - माँ की छवि स्नेहमयी और दृढ़ दोनों है।",
+   "formula": "-",
+   "key_idea": "माँ की अनपढ़ी आँखें भी पुत्र की पीड़ा को पढ़ लेती हैं - यही उसकी संवेदना की गहराई है।",
+   "textbook_ref": "ihga112.txt lines 61-69 (माँ की स्नेह-धारा) तथा lines 122-136 (माँ के संत्वना-वचन)",
+   "question_patterns": [
+    "kavita mein maa ki kaisi chhavi ubharti hai",
+    "ma bin padhi dukh mein gadhi ka kya arth hai",
+    "ma ke sneh dhara ka varnan kijiye",
+    "ma ne Bhavani ko kaise santvana di",
+    "kosh ko meri lajata ka kya bhaav hai",
+    "ma ki bhavnatmak majbuti kis panktiyon se dikhti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "छवि के दो पक्ष रखिए",
+     "explain": "गोद का आश्रय और दुख में गढ़ा हुआ अडिग धैर्य - दोनों साथ रखिए।"},
+    {"step": 2, "action": "अनपढ़ी का विरोधाभास देखिए",
+     "explain": "लिखना न आना प्रेम की अभिव्यक्ति में बाधक नहीं।"},
+    {"step": 3, "action": "संत्वना का स्वर पकड़िए",
+     "explain": "कच्चे मत होओ और आँख में पानी किसलिए - यही माँ का दृढ़ प्रेम है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.4",
+   "title": "पिताजी का बहुआयामी चरित्र: 'वज्र-भुज नवनीत-सा उर'",
+   "section": "1",
+   "definition": "पिताजी 'भोले-बहादुर' हैं - बुढ़ापा एक क्षण भी नहीं व्यापा; वे शेर के आगे नहीं बिचकते, बोल में बादल गरजते और काम में झंझा लरजते हैं; वज्र की भुजाएँ और नवनीत जैसा हृदय - यह विरोधाभासी जोड़ी उनके साहस और संवेदनशीलता दोनों को दिखाती है; जैसे एक पत्ता टूटते ही धारा फूट पड़ती है।",
+   "formula": "-",
+   "key_idea": "कठोर शरीर के भीतर पिघलता हुआ हृदय - पिता का साहस और भावुकता का संतुलन।",
+   "textbook_ref": "ihga112.txt lines 72-80 (पिता का परिचय) तथा lines 216-233 (वेश-क्लेश और बड़-झाड़ का उपमान)",
+   "question_patterns": [
+    "vajra bhuj navneet sa ur pankti se kaisi chhavi banti hai",
+    "pitaji ka vyaktitv kaun kaun se rang dikhta hai",
+    "bol mein baadal garajta kaam mein jhanjha larajta ka arth likhiye",
+    "ek patta toot jaye dhara phoot jaye ka kya sandesh hai",
+    "shere ke aage na bichke ka bhaav samjhaiye",
+    "deh pahad jaise man bar ka jhaad jaise mein kya upama hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों गुण जोड़िए",
+     "explain": "वज्र-भुज साहस है और नवनीत-उर संवेदनशीलता - दोनों का संगम ही चरित्र है।"},
+    {"step": 2, "action": "कर्म-शैली देखिए",
+     "explain": "गीता-पाठ, दंड और मुगदर - बुढ़ापे में भी चुस्त जीवन के प्रमाण हैं।"},
+    {"step": 3, "action": "भावुकता का चित्र रखिए",
+     "explain": "पुत्र का नाम लेते ही आँखों में जल भर आना उनकी गहरी लगन दिखाता है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.5",
+   "title": "संयुक्त परिवार का चित्र: 'घर कि घर में सब जुड़े हैं'",
+   "section": "1",
+   "definition": "कवि की स्मृति में चार भाई, चार बहिनें, मायके आई बहन, भौजी और सरला - सब जुड़े हुए हैं; 'पाँचवाँ मैं हूँ अभागा, जिसे सोने पर सुहागा' कहकर वह अपने ही सिलसिले की वंचित कड़ी बन जाता है; घर का यह सामूहिक चित्र संयुक्त परिवार की गर्मजोशी और विरह में उसकी कीमत दोनों दिखाता है।",
+   "formula": "-",
+   "key_idea": "सब जुड़े होने का दुख तब बड़ा लगता है जब बीच में पाँचवाँ कड़ी गायब हो।",
+   "textbook_ref": "ihga112.txt lines 44-56 (चार भाई-चार बहिनें) तथा lines 97-111 (पाँचवें की पहचान)",
+   "question_patterns": [
+    "ghar ki ghar mein sab jude hain ka bhaav kya hai",
+    "chhai bhai chhai bahinen ka ullekh kya batata hai",
+    "panchvan main hoon abhaga ka kya arth hai",
+    "ghar ki yaad mein panchvan bhai ka sone par suhaga hone ka kya arth hai",
+    "bahin aayi baap ke ghar ka prasang samjhaiye",
+    "sanyukt parivar ki smriti mein kya garmjosh hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिवार-नक्शा बनाइए",
+     "explain": "चार भाई-चार बहिनें, माता-पिता, भौजी-सरला - समग्र चित्र खींचिए।"},
+    {"step": 2, "action": "विरह-कड़ी पहचानिए",
+     "explain": "सबसे छोटा पाँचवाँ ही दूर है, इसीलिए वह अभागा कहलाता है।"},
+    {"step": 3, "action": "भाव-निष्कर्ष रखिए",
+     "explain": "संयुक्त परिवार में हर सदस्य की जगह ही उसकी पहचान बनाती है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.6",
+   "title": "सावन-दूत और झूठी सांत्वना: 'और कहना मस्त हूँ मैं'",
+   "section": "1",
+   "definition": "कवि सावन के सजीले हरे बादल को अपना दूत बनाकर कहता है - घर को कष्टों का हाल न बताए, शोक न करे; 'मस्त हूँ मैं, कातने में व्यस्त हूँ मैं, वजन सत्तर सेर मेरा' कहकर वह अपनी जेल-पीड़ा छिपाना चाहता है - यह प्रेमपूर्ण झूठ ही त्याग और संवेदनशीलता का चरम है।",
+   "formula": "-",
+   "key_idea": "अपने दुख को छिपाकर परिजनों को धीर देना ही विरह में सच्चा प्रेम है।",
+   "textbook_ref": "ihga112.txt lines 236-318 (सावन से संबोधन और संदेश)",
+   "question_patterns": [
+    "aur kahna mast hoon main mein kavi aisa kyon kehta hai",
+    "savan ka baadal doot kaise bana hai",
+    "kavi parijano ko kya sandesh bhejna chahta hai",
+    "khatne mein vyast hona ka kya arth hai",
+    "shok mat karo sandesh mein kya bhaav hai",
+    "duk dhdatkar thelta hoon ka bhaav likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दूत-कल्पना पहचानिए",
+     "explain": "बादल संदेशवाहक बनकर दूर के परिवार तक बात पहुँचाते हैं।"},
+    {"step": 2, "action": "झूठ की गरिमा देखिए",
+     "explain": "मस्त हूँ कहना झूठ है, पर यही झूठ परिवार की चिंता को सहारा देता है।"},
+    {"step": 3, "action": "विरोधाभास उठाइए",
+     "explain": "'जागता हूँ, आदमी से भागता हूँ' जैसी पंक्तियाँ छिपी वेदना को उगल देती हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.7",
+   "title": "पंछी का उपदेश और बादलों की माँ-छवि",
+   "section": "1",
+   "definition": "एक पंछी कवि को समझाता है कि आदमी के हृदय में इतनी तृषा किसलिए - थोड़ा-सा दुख ही सह सकना पड़े; जमे हुए बादल माँ का आँगन लीपने जैसे लगते हैं और 'ध्यान जितनी फिक्र, डाल जितनी जड़ें' कहकर पिता की चिंता को वृक्ष से मिलाया जाता है - प्रकृति यहाँ भावों का दर्पण बन जाती है।",
+   "formula": "-",
+   "key_idea": "पक्षी की सीमित तृषा और मनुष्य की असीम तड़प - यही तुलना कविता का दार्शनिक बिंदु है।",
+   "textbook_ref": "ihga112.txt lines 173-233 (पंछी का विचार और बादल-वृक्ष के बिंब)",
+   "question_patterns": [
+    "panchhi adam ke ur mein itni trisha kisliye puchta hai",
+    "dhyan jitna fikr dal jitni jaden ka kya arth hai",
+    "jame baadal maa ka aangan kaise lagte hain",
+    "hawa aai ud chala tu ka bhaav samjhaiye",
+    "ashru sinchit has tere ka arth likhiye",
+    "prakriti ke bimb bhavon ka darpan kaise bante hain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "पंछी-संवाद पकड़िए",
+     "explain": "पक्षी की सरल तुक के माध्यम से जीवन-दर्शन की बात कही गई है।"},
+    {"step": 2, "action": "प्रतीक की गहराई देखिए",
+     "explain": "फूट बैठा पंछी और प्रिय से दूर कवि - दोनों की स्थिति मिलती है।"},
+    {"step": 3, "action": "बादल-माँ बिंब बाँधिए",
+     "explain": "सफेद जमे बादल जैसे लीपे आँगन - घर और माँ दोनों की साफ-सुथरी छवि है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.1.8",
+   "title": "काव्य-सौंदर्य: ध्वन्यात्मकता, लोकभाषा और संबोधनात्मक शैली",
+   "section": "1",
+   "definition": "'गिर रहा पानी झरा-झर, हिल रहे पत्ते हरा-हर, बह रही है हवा सर-सर, काँपते हैं प्राण थर-थर' - ध्वनि-प्रधान शब्दों से नाद-सौंदर्य बनता है; 'छिन', 'चुआ', 'तरला', 'भौजी' जैसे क्षेत्रीय शब्दों से लोकभाषा की सहजता आती है और 'हे सजीले हरे सावन' के संबोधन से कविता भाव-यात्रा की संरचना बनती है।",
+   "formula": "-",
+   "key_idea": "ध्वनि, लोकशब्द और संबोधन - तीनों मिलकर कविता को जीवंत और प्रभावपूर्ण बनाते हैं।",
+   "textbook_ref": "ihga112.txt lines 359-372 (कविता का सौंदर्य और विशेषताएँ) तथा lines 399-452 (व्याकरण - शब्द-पहचान)",
+   "question_patterns": [
+    "jhara jhar hara har sar sar se kya saundarya banta hai",
+    "lok bhasha ki sahajta ka kya matlab hai",
+    "he sajeel hare saavan mein kis shaili ka prayog hai",
+    "panktiyon ka dohrav kya karta hai",
+    "chua chhin tarla jaise shabdon ka arth likhiye",
+    "smriti aur drishya bimb ka sanyog kaise hota hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "ध्वनि-चित्र सुनिए",
+     "explain": "अनुकरणात्मक शब्द बरसात का वातावरण कानों के सामने खड़ा कर देते हैं।"},
+    {"step": 2, "action": "भाषा-रंग देखिए",
+     "explain": "क्षेत्रीय शब्द कविता को घरेलू आत्मीयता देते हैं।"},
+    {"step": 3, "action": "संरचना बाँधिए",
+     "explain": "पानी के गिरने से संबोधन तक भाव-चरणों की यात्रा ही कविता की रूपरेखा है।"}
+   ]
+  },
+  {
+   "id": "ihga.112.2.1",
+   "title": "शब्दों की व्याकरणिक पहचान: संज्ञा-विशेषण-क्रिया-सर्वनाम",
+   "section": "2",
+   "definition": "वाक्य में शब्दों की श्रेणी पहचानना व्याकरण का आधार है - 'बहुत पानी गिर रहा है' में 'पानी' संज्ञा, 'बहुत' विशेषण और 'गिर रहा है' क्रिया है; इसी तरह 'जिनको' सर्वनाम, 'खुले' विशेषण और 'फूट जाए' क्रिया है - शब्दों की यह व्याकरणिक छँटाई अर्थ को स्पष्ट करती है।",
+   "formula": "-",
+   "key_idea": "वाक्य की हड्डी संज्ञा-सर्वनाम, रूप विशेषण और धड़कन क्रिया है।",
+   "textbook_ref": "ihga112.txt lines 416-452 (व्याकरण की बात - शब्दों की व्याकरणिक पहचान)",
+   "question_patterns": [
+    "sangya visheshan kriya sarvanam ki pehchan kijiye",
+    "bahut pani gir raha hai mein shabdon ki shreni likhiye",
+    "budhapa aur vyapa shabd kya hain",
+    "jinako shabd kis shreni mein aata hai",
+    "kavita se sangya aur visheshan ke udaharan chuniye",
+    "shabdon ki vyakaranik chhantai kaise ki jati hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "नाम-शब्द पहचानिए",
+     "explain": "व्यक्ति-वस्तु-भाव का नाम संज्ञा है, नाम की जगह लेने वाला सर्वनाम।"},
+    {"step": 2, "action": "गुण-बताने वाला शब्द देखिए",
+     "explain": "संज्ञा-सर्वनाम की विशेषता बताने वाला शब्द विशेषण है।"},
+    {"step": 3, "action": "काम-शब्द बाँधिए",
+     "explain": "कार्य होना या करना बताने वाला शब्द क्रिया है।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "ihga112.txt lines 287-343 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "भवानीप्रसाद मिश्र ने यह कविता कहाँ और क्यों लिखी?",
+    "लगातार बरसता पानी कवि के मन की किस भावना का परिचायक है?",
+    "कविता में माँ की कैसी छवि उभरती है?",
+    "'वज्र-भुज नवनीत-सा उर' पंक्ति से पिता के व्यक्तित्व की कैसी छवि प्रस्तुत होती है?",
+    "'एक पत्ता टूट जाए, बस कि धारा फूट जाए' पंक्ति किस ओर संकेत करती है?",
+    "'और कहना मस्त हूँ मैं' में कवि का ऐसा कहना किस बात का संकेत है?",
+    "इस कविता में किस बात को प्रमुखता से वर्णित किया गया है?"
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "ihga112.txt lines 344-358 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "कविता में वर्णित पिता के व्यक्तित्व की विशेषताओं का वर्णन कीजिए जिनसे उनका बहुआयामी रूप सामने आता है।",
+    "'दुख डटकर ठेलता हूँ' कथन के आधार पर बताइए कि कठिन परिस्थितियों में कवि धैर्य और त्याग का परिचय कैसे देता है।",
+    "कविता से उन पंक्तियों को चुनकर माँ की भावनात्मक मजबूती का परिचय दीजिए।"
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "ihga112.txt lines 399-458 (व्याकरण और ध्वनि-शब्द अभ्यास)",
+   "questions": [
+    "'छिन', 'चुआ', 'तरला', 'भौजी' जैसे स्थानीय शब्दों का अर्थ स्पष्ट करते हुए नए वाक्य बनाइए।",
+    "'बहुत पानी गिर रहा है' वाली पंक्तियों में शब्दों की व्याकरणिक पहचान लिखिए।",
+    "झरा-झर, थर-थर, सर-सर जैसे ध्वनि-आधारित शब्द कविता में वातावरण कैसे बनाते हैं - बताइए।"
+   ]
+  }
+ ]
+}

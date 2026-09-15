@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_002",
+   "title": "c12_eco_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define Marginal Product and Average Product. Write the formulas for each using TP and L (units of labour).",
+     "a": "Marginal Product (MP) = ΔTP/ΔL, the change in total product from a one-unit change in labour. Average Product (AP) = TP/L, total product divided by units of labour. A wrong answer (e.g., MP = TP/L or AP = ΔTP/ΔL) shows the student confuses the marginal concept (incremental) with the average concept (per unit).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the MP curve must intersect the AP curve at the maximum point of AP. Use the average-marginal relationship.",
+     "a": "When MP > AP, the marginal unit adds more than the current average, pulling the average up. When MP < AP, the marginal unit adds less than the current average, pulling the average down. Therefore, AP stops rising and starts falling exactly when MP = AP — the intersection point. A student who says “MP crosses AP because both are falling” misses the causal logic: the crossing *causes* the peak, not the other way around.",
+     "self_check": true
+    },
+    {
+     "q": "Given the TP schedule below, compute MP and AP for each level of labour. Identify where AP is maximum.\n\n| L | TP |\n|---|----|\n| 0 | 0  |\n| 1 | 10 |\n| 2 | 24 |\n| 3 | 36 |\n| 4 | 44 |\n| 5 | 48 |\n| 6 | 48 |",
+     "a": "Step 1: MP at L=1 = 10-0 = 10; L=2 = 24-10 = 14; L=3 = 36-24 = 12; L=4 = 44-36 = 8; L=5 = 48-44 = 4; L=6 = 48-48 = 0.\nStep 2: AP at L=1 = 10/1 = 10; L=2 = 24/2 = 12; L=3 = 36/3 = 12; L=4 = 44/4 = 11; L=5 = 48/5 = 9.6; L=6 = 48/6 = 8.\nAP is maximum at L=2 and L=3 (both 12). MP at L=3 is 12, equal to AP, confirming the intersection. A student who calculates MP as TP/L or forgets to compute ΔTP will get wrong values and miss the intersection.",
+     "self_check": true
+    },
+    {
+     "q": "A firm’s TP curve is given by TP = 20L + 6L² - 0.5L³. Derive the MP and AP functions. At what labour level does AP reach its maximum? Verify that MP = AP at that point.",
+     "a": "MP = d(TP)/dL = 20 + 12L - 1.5L². AP = TP/L = 20 + 6L - 0.5L².\nSet derivative of AP w.r.t L to zero: d(AP)/dL = 6 - L = 0 → L = 6.\nAt L=6: AP = 20 + 36 - 18 = 38. MP = 20 + 72 - 54 = 38. MP = AP = 38, verified.\nA student who sets MP=0 instead of d(AP)/dL=0 finds TP maximum, not AP maximum — a common confusion between maximizing total vs average.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “If marginal product is falling, average product must also be falling.” Provide a counterexample using a TP schedule.",
+     "a": "The statement is false. MP can fall while still being above AP, causing AP to rise. Example: TP at L=2 is 24 (AP=12, MP=14), at L=3 TP=36 (AP=12, MP=12). Here MP fell from 14 to 12, but AP stayed constant (then would rise if MP>AP). A student who agrees confuses the direction of MP with the level of MP relative to AP.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical TP schedule for 5 units of labour that exhibits: (a) increasing MP for first two units, (b) diminishing but positive MP for next two, (c) zero MP at fifth unit. Compute MP and AP, and sketch the three curves qualitatively.",
+     "a": "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6.5); L=5 TP=26 (MP=0, AP=5.2).\nSketch: TP rises at increasing rate (0-2), then at decreasing rate (2-4), flattens at 5. MP rises to 9 at L=2, then falls, crossing AP at L=3 (both 7), hits zero at L=5. AP peaks at L=3. A poor answer shows MP never crossing AP or TP not flattening when MP=0, indicating misunderstanding of the graphical relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Light: Shadows and Reflections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.11.1",
+   "title": "Sources of Light and Straight-line Travel",
+   "section": "Sources of light and straight line",
+   "definition": "The sun, stars, fireflies and flames make their own light as luminous sources, and light from them travels in straight lines, a fact proven by seeing a candle only through holes kept in one line.",
+   "formula": "",
+   "key_idea": "Light goes straight until something turns it: this simple rule builds shadows, images and cameras.",
+   "textbook_ref": "gecu111.txt, Sources of light and straight line",
+   "question_patterns": [
+    "name natural and artificial sources of light",
+    "how can we show that light travels in a straight line",
+    "what are luminous objects",
+    "why can we not see around a bent pipe",
+    "how do fireflies make light",
+    "what is a beam of light"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.2",
+   "title": "Transparent, Translucent, Opaque and Shadows",
+   "section": "Light through materials and shadows",
+   "definition": "Glass lets light pass fully as a transparent material, butter paper partially as translucent, and wood not at all as opaque; where an opaque body blocks light, a dark shadow forms, with umbra and penumbra bands.",
+   "formula": "",
+   "key_idea": "What light cannot pass becomes shadow: the material's honesty to light decides the darkness behind it.",
+   "textbook_ref": "gecu111.txt, Light through materials and shadows",
+   "question_patterns": [
+    "classify materials as transparent translucent or opaque",
+    "how is a shadow formed",
+    "why does a shadow change in length through the day",
+    "can a shadow be sharper than its edges discuss",
+    "what is the difference between image and shadow",
+    "make shadows of different sizes with one source"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.3",
+   "title": "Reflection and the Plane Mirror",
+   "section": "Reflection of light and images",
+   "definition": "Light bouncing off a smooth mirror obeys reflection: the angle of bounce equals the angle of arrival, and a plane mirror forms an image that is upright, same-sized, and laterally inverted, left becoming right.",
+   "formula": "angle of incidence = angle of reflection",
+   "key_idea": "A mirror obeys two quiet laws: equal angles and a faithful but left-right flipped image.",
+   "textbook_ref": "gecu111.txt, Reflection of light and images",
+   "question_patterns": [
+    "state the laws of reflection",
+    "what is lateral inversion in a plane mirror",
+    "why is the image in a mirror called virtual",
+    "how far behind a mirror does the image form",
+    "check the laws of reflection with a plane strip",
+    "why is the word ambulance written reversed on vehicles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.4",
+   "title": "The Pinhole Camera and Useful Items",
+   "section": "Pinhole camera",
+   "definition": "A small hole in a dark box casts an inverted, real image on the far wall, the pinhole camera principle; the same ray ideas make useful items, periscopes, kaleidoscopes and solar cookers, from plain mirrors and angles.",
+   "formula": "",
+   "key_idea": "Straight rays plus a tiny hole give a true, upside-down picture: the simplest camera has no lens at all.",
+   "textbook_ref": "gecu111.txt, Pinhole camera",
+   "question_patterns": [
+    "why is the pinhole camera image inverted",
+    "construct a pinhole camera with a box and tracing paper",
+    "how does a periscope work with two mirrors",
+    "what happens to the image when the pinhole is enlarged",
+    "which everyday items work on reflection",
+    "explain how a kaleidoscope makes patterns"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu111.txt",
+   "concept": "gecu.11.1",
+   "question_type": "verify_property",
+   "question_pattern": "how do the fireflies of the village make light?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu111.txt",
+   "concept": "gecu.11.2",
+   "question_type": "verify_property",
+   "question_pattern": "does light always travel in a straight line? how do we know?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu111.txt, Let us enhance our learning",
+   "questions": [
+    "How do the fireflies of the village make light?",
+    "Does light always travel in a straight line? How do we know?",
+    "What kind of image does a plane mirror form?",
+    "Construct a pinhole camera and observe the image of a lamp.",
+    "Explore shadows of a ball at different distances from a torch."
+   ]
+  }
+ ]
+}

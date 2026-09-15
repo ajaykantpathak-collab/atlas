@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_003",
+   "title": "c12_hs_cbse_14_003",
+   "questions": [
+    {
+     "q": "Name the single most effective first-aid step for a fresh blood stain on wool and explain why hot water must be avoided.",
+     "a": "Correct: Flush immediately with cold water, then apply a neutral-pH enzymatic detergent. Hot water coagulates the protein (haemoglobin), setting the stain permanently. A wrong answer (e.g., \"soak in hot soapy water\") reveals the student confuses protein stains with grease stains and ignores fibre damage.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats a tea stain on silk with sodium hypochlorite bleach. The stain lightens but the fabric yellows and weakens. Explain the chemical reason for the damage and name a safe alternative oxidising agent for silk.",
+     "a": "Correct: Hypochlorite (high pH, strong oxidiser) hydrolyses silk's peptide bonds and oxidises residual sericin to yellow chromophores. Safe alternative: hydrogen peroxide (3 %) at pH 7–8 with a short contact time. A wrong answer shows the student does not link fibre chemistry (protein fibre = acid-stable, alkali-labile) to bleach selection.",
+     "self_check": true
+    },
+    {
+     "q": "You have a ballpoint ink stain on polyester. Design a 4-step removal sequence using only household reagents, justifying each step's chemical action.",
+     "a": "Correct sequence: (1) Blot with dry cloth — mechanical removal of excess dye/solvent. (2) Sponge with isopropyl alcohol (70 %) — dissolves the dye carrier (glycol) and resin binder. (3) Apply liquid dish-wash detergent + warm water — emulsifies residual oil. (4) Rinse, then air-dry. A wrong sequence (e.g., starting with hot water) spreads the dye and sets the resin.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the removal of turmeric (curry) stain from cotton versus wool. Why is lemon juice (citric acid) recommended for cotton but contra-indicated for wool?",
+     "a": "Correct: Turmeric's curcumin is a pH-sensitive dye; acid (lemon) converts it to a colourless form on cotton (cellulose tolerates pH 3–4). Wool's amide linkages hydrolyse below pH 5, causing fibre damage. For wool, use glycerine + lukewarm water to solubilise the oily carrier, then mild detergent. A wrong answer misses the fibre-pH stability difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Enzyme pre-soak works equally well for all protein stains (blood, egg, milk, perspiration) on all fabrics.\" Defend or refute with three specific exceptions.",
+     "a": "Correct: Refute. (1) Perspiration contains urea/lactic acid — enzyme works but alkalinity from sweat can inactivate protease; pre-rinse needed. (2) Silk/wool are protein fibres — protease digests the fabric itself; use non-enzymatic detergent. (3) Old, heat-set blood cross-links — enzyme cannot penetrate; needs oxidising bleach first. A wrong evaluation shows over-generalisation without considering fibre chemistry or stain age.",
+     "self_check": true
+    },
+    {
+     "q": "Create a stain-removal decision flowchart (text-based) that a Class 12 student could use for any unknown stain on an unknown fabric. Include at least four decision nodes (e.g., stain class, fibre type, colourfastness, reagent availability).",
+     "a": "Good answer: START → Is stain fresh? YES → Blot/rinse cold water. NO → Identify class (protein/tannin/oil/dye/mineral) via simple tests (solubility, smell, colour). → Identify fibre (burn test/label). → Test colourfastness on seam. → Select reagent ladder per table. → Apply mildest first, escalate. → Rinse, dry. Poor answer omits colourfastness test or treats all fibres identically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

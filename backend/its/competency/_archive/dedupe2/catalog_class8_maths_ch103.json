@@ -1,0 +1,771 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Understanding Quadrilaterals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh103.txt",
+ "concepts": [
+  {
+   "id": "hemh.3.1.1",
+   "title": "Convex and Concave Polygons",
+   "section": "3.1.1",
+   "definition": "A simple closed figure composed purely of line segments where any line segment connecting two internal points lies entirely inside is a convex polygon; if any segment goes outside, it is concave.",
+   "formula": "N/A",
+   "key_idea": "Internal diagonals stay completely inside a convex polygon, while concave polygons contain exterior diagonal portions.",
+   "textbook_ref": "hemh103.txt lines 12-25",
+   "question_patterns": [
+    "classify the given polygon as convex or concave",
+    "determine whether a figure with an exterior diagonal is convex or concave",
+    "identify if the polygon is convex or concave",
+    "distinguish between convex and concave polygons",
+    "which of the following shapes represents a convex polygon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine line segments between interior points",
+     "explain": "If every line segment connecting any two interior points stays entirely inside the polygon, it is convex."
+    },
+    {
+     "step": 2,
+     "action": "State polygon classification",
+     "explain": "Otherwise, if any diagonal or segment extends outside the boundary, it is concave."
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.1.2",
+   "title": "Regular and Irregular Polygons",
+   "section": "3.1.2",
+   "definition": "A polygon is designated as regular when all its bounding sides share identical lengths and all its interior vertex angles possess equal measures.",
+   "formula": "N/A",
+   "key_idea": "Regular shapes require simultaneous equilateral side lengths and equiangular interior angles.",
+   "textbook_ref": "hemh103.txt lines 26-45",
+   "question_patterns": [
+    "what is a regular polygon",
+    "state the name of a regular polygon of 3 sides",
+    "state the name of a regular polygon of 4 sides",
+    "classify a shape as regular or irregular based on sides and angles",
+    "determine if a given quadrilateral is a regular polygon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check equality of all sides and angles",
+     "explain": "A regular polygon must be both equilateral (equal sides) and equiangular (equal angles)."
+    },
+    {
+     "step": 2,
+     "action": "Name or classify the shape",
+     "explain": "A 3-sided regular polygon is an equilateral triangle, and a 4-sided regular polygon is a square."
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.2.1",
+   "title": "Sum of Exterior Angles of a Polygon",
+   "section": "3.2",
+   "definition": "The aggregate sum of all outer angles formed by extending each side of a simple convex polygon equals a complete revolution of 360 degrees.",
+   "formula": "unknown_angle = 360 - sum_known_angles",
+   "key_idea": "The exterior angles of any convex polygon always sum to 360 degrees regardless of the number of sides.",
+   "textbook_ref": "hemh103.txt lines 50-75",
+   "question_patterns": [
+    "find the unknown exterior angle x when other exterior angles are angle1 angle2 and angle3",
+    "calculate the value of x from given exterior angles angle1 angle2 and angle3",
+    "what is the missing exterior angle in a polygon with known exterior angles angle1 angle2 angle3",
+    "determine the measure of exterior angle x given exterior angles angle1 angle2 and angle3",
+    "compute the exterior angle x when the sum of other exterior angles is known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum all given exterior angles",
+     "explain": "Add together all known exterior angle measures.",
+     "compute": "known_sum = angle1 + angle2 + angle3"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from 360 degrees",
+     "explain": "The total sum of exterior angles is 360 degrees.",
+     "compute": "x = 360 - known_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.2.2",
+   "title": "Number of Sides from Exterior Angle of Regular Polygon",
+   "section": "3.2",
+   "definition": "The total count of sides in a regular polygon is determined by dividing 360 degrees by the measure of one exterior angle.",
+   "formula": "num_sides = 360 / ext_angle",
+   "key_idea": "In a regular polygon, all exterior angles are identical, so side count equals 360 divided by each exterior angle.",
+   "textbook_ref": "hemh103.txt lines 76-88",
+   "question_patterns": [
+    "find the number of sides of a regular polygon whose each exterior angle is ext_angle degrees",
+    "calculate the number of sides in a regular polygon having exterior angle ext_angle",
+    "how many sides does a regular polygon have if an exterior angle measures ext_angle",
+    "determine the number of sides of a regular polygon with each exterior angle ext_angle",
+    "what is the count of sides for a regular polygon with exterior angle ext_angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total exterior sum 360 by the measure of each exterior angle",
+     "explain": "Since all exterior angles are congruent in a regular polygon, dividing 360 by the exterior angle yields the side count.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.2.3",
+   "title": "Measure of Each Exterior Angle of a Regular Polygon",
+   "section": "3.2",
+   "definition": "Each individual exterior angle of a regular polygon is calculated by dividing 360 degrees by its total number of sides.",
+   "formula": "ext_angle = 360 / num_sides",
+   "key_idea": "Distributing 360 degrees equally across all exterior vertices gives the measure of one exterior angle.",
+   "textbook_ref": "hemh103.txt lines 89-100",
+   "question_patterns": [
+    "find the measure of each exterior angle of a regular polygon of num_sides sides",
+    "calculate the exterior angle of a regular polygon having num_sides sides",
+    "what is the measure of each exterior angle for a regular polygon with num_sides sides",
+    "determine the size of each exterior angle of a regular polygon of num_sides sides",
+    "compute each exterior angle of a polygon with num_sides equal sides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide 360 by the number of sides",
+     "explain": "The sum of exterior angles is 360 degrees divided equally among all vertices.",
+     "compute": "ext_angle = 360 / num_sides"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.2.4",
+   "title": "Number of Sides from Interior Angle of Regular Polygon",
+   "section": "3.2",
+   "definition": "To find the number of sides when an interior angle is known, subtract the interior angle from 180 degrees to find the exterior angle, then divide 360 by that exterior angle.",
+   "formula": "num_sides = 360 / (180 - int_angle)",
+   "key_idea": "Interior and exterior angles at any vertex form a supplementary linear pair summing to 180 degrees.",
+   "textbook_ref": "hemh103.txt lines 95-108",
+   "question_patterns": [
+    "how many sides does a regular polygon have if each interior angle is int_angle degrees",
+    "find the number of sides of a regular polygon with interior angle int_angle",
+    "calculate the number of sides in a regular polygon having each interior angle int_angle",
+    "determine the number of sides when each interior angle measures int_angle",
+    "what is the number of sides of a regular polygon given interior angle int_angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the exterior angle measure",
+     "explain": "Subtract the interior angle measure from 180 degrees.",
+     "compute": "ext_angle = 180 - int_angle"
+    },
+    {
+     "step": 2,
+     "action": "Calculate number of sides",
+     "explain": "Divide 360 degrees by the calculated exterior angle.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.3.1",
+   "title": "Perimeter of a Parallelogram",
+   "section": "3.3.4",
+   "definition": "The total perimeter of a parallelogram is calculated by doubling the sum of its two adjacent side lengths, since opposite sides are equal.",
+   "formula": "perimeter = 2 * (side_a + side_b)",
+   "key_idea": "Opposite sides in a parallelogram are congruent, making perimeter equal to 2 times the sum of adjacent sides.",
+   "textbook_ref": "hemh103.txt lines 160-185",
+   "question_patterns": [
+    "find the perimeter of a parallelogram with adjacent sides side_a and side_b",
+    "calculate the perimeter of a parallelogram given sides side_a and side_b",
+    "what is the perimeter of a parallelogram having length side_a and breadth side_b",
+    "determine the total perimeter of a parallelogram with side measures side_a and side_b",
+    "compute the boundary length of a parallelogram with side_a and side_b"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add adjacent side lengths",
+     "explain": "Find the sum of two adjacent sides of the parallelogram.",
+     "compute": "sum_sides = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 2",
+     "explain": "Double the sum because opposite sides are equal in length.",
+     "compute": "perimeter = 2 * sum_sides"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.3.2",
+   "title": "Adjacent and Opposite Angles of a Parallelogram",
+   "section": "3.3.5",
+   "definition": "In any parallelogram, consecutive adjacent angles add up to 180 degrees (supplementary), whereas opposite angles have equal measures.",
+   "formula": "adjacent_angle = 180 - known_angle",
+   "key_idea": "Parallel side lines make adjacent interior angles supplementary and opposite angles equal.",
+   "textbook_ref": "hemh103.txt lines 190-230",
+   "question_patterns": [
+    "find the adjacent angle of a parallelogram if one angle is known_angle",
+    "calculate the missing adjacent interior angle when one angle is known_angle",
+    "what is the adjacent angle measure in a parallelogram with angle known_angle",
+    "determine the consecutive angle in a parallelogram given angle known_angle",
+    "compute the measure of the adjacent angle from given angle known_angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract known angle from 180 degrees",
+     "explain": "Adjacent interior angles of a parallelogram lie along parallel lines and are supplementary.",
+     "compute": "adjacent_angle = 180 - known_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.3.3",
+   "title": "Diagonals of a Parallelogram",
+   "section": "3.3.6",
+   "definition": "The diagonals of a parallelogram cross each other at their mutual midpoint, splitting each diagonal into two equal segments.",
+   "formula": "full_length = 2 * half_length",
+   "key_idea": "Intersection point bisects both diagonals of a parallelogram.",
+   "textbook_ref": "hemh103.txt lines 235-265",
+   "question_patterns": [
+    "find the full diagonal length when half diagonal segment is half_length",
+    "calculate the total diagonal length if one half is half_length",
+    "what is the full length of a diagonal given half segment half_length",
+    "determine the length of the diagonal when bisected part is half_length",
+    "compute the complete diagonal length from bisected segment half_length"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Double the bisected half segment",
+     "explain": "Because the diagonal is bisected at the intersection point, full diagonal is twice the half length.",
+     "compute": "full_length = 2 * half_length"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.3.4",
+   "title": "Trapezium and Kite Properties",
+   "section": "3.3.1",
+   "definition": "A trapezium is a quadrilateral possessing at least one pair of parallel opposite sides, whereas a kite is a quadrilateral with two distinct pairs of equal adjacent sides.",
+   "formula": "N/A",
+   "key_idea": "Trapeziums focus on parallel side pairs, whereas kites feature equal adjacent side pairs and perpendicular diagonals.",
+   "textbook_ref": "hemh103.txt lines 110-155",
+   "question_patterns": [
+    "explain how a figure is a trapezium",
+    "check whether a quadrilateral with given sides is a kite",
+    "identify which sides are parallel in a trapezium",
+    "determine if non-parallel sides of an isosceles trapezium are equal",
+    "state the main defining properties of a kite"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify side alignment or adjacent pairs",
+     "explain": "Check for parallel side pairs (trapezium) or equal consecutive adjacent pairs (kite)."
+    },
+    {
+     "step": 2,
+     "action": "Verify classification",
+     "explain": "Confirm geometric attributes like perpendicular diagonals for kites or parallel bases for trapeziums."
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.4.1",
+   "title": "Diagonal Properties of a Rectangle",
+   "section": "3.4.2",
+   "definition": "A rectangle is an equiangular parallelogram whose diagonals are equal in length and bisect each other into four equal half-segments.",
+   "formula": "x = (const_a - const_b) / (coeff_b - coeff_a)",
+   "key_idea": "Equal diagonals bisecting each other imply that half-diagonal segment expressions are set equal.",
+   "textbook_ref": "hemh103.txt lines 310-340",
+   "question_patterns": [
+    "find the value of x if half diagonal segments in a rectangle are coeff_a x + const_a and coeff_b x + const_b",
+    "calculate x when half diagonals of rectangle RENT meet at O with OR = coeff_a x + const_a and OT = coeff_b x + const_b",
+    "determine x given equal bisected diagonal expressions coeff_a x + const_a and coeff_b x + const_b",
+    "compute unknown x in rectangle diagonal half lengths coeff_a x + const_a and coeff_b x + const_b",
+    "solve for x given rectangular diagonal half segment equality"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute difference in constant terms",
+     "explain": "Subtract const_b from const_a.",
+     "compute": "diff_const = const_a - const_b"
+    },
+    {
+     "step": 2,
+     "action": "Compute difference in variable coefficients",
+     "explain": "Subtract coeff_a from coeff_b.",
+     "compute": "diff_coeff = coeff_b - coeff_a"
+    },
+    {
+     "step": 3,
+     "action": "Solve for x",
+     "explain": "Divide constant difference by coefficient difference.",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  },
+  {
+   "id": "hemh.3.4.2",
+   "title": "Properties of Rhombus and Square",
+   "section": "3.4.1",
+   "definition": "A rhombus is a parallelogram with four equal sides and perpendicular bisecting diagonals; a square is a regular quadrilateral inheriting all properties of a rectangle, rhombus, and parallelogram.",
+   "formula": "N/A",
+   "key_idea": "Rhombus diagonals intersect at right angles; square diagonals are equal, perpendicular, and bisect each other.",
+   "textbook_ref": "hemh103.txt lines 275-309, 345-380",
+   "question_patterns": [
+    "explain why diagonals of a rhombus meet at right angles",
+    "state whether a square is a rhombus and a rectangle",
+    "verify if all sides of a rhombus are equal",
+    "identify properties of square diagonals",
+    "determine if every rectangle is a square"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze side and angle properties",
+     "explain": "Check for four equal sides (rhombus/square) and 90 degree internal angles (rectangle/square)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze diagonal relationships",
+     "explain": "Verify whether diagonals bisect each other, are equal in length, or meet at right angles."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh103.txt Example 1",
+   "concept": "hemh.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find measure x in a figure with exterior angles {angle1} degrees, {angle2} degrees, and {angle3} degrees.",
+   "extracted_variables": {
+    "angle1": 90,
+    "angle2": 50,
+    "angle3": 110
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum all given exterior angles",
+     "explain": "Add together all known exterior angle measures.",
+     "compute": "known_sum = angle1 + angle2 + angle3"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from 360 degrees",
+     "explain": "The total sum of exterior angles is 360 degrees.",
+     "compute": "x = 360 - known_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh103.txt Exercise 3.2 Q1a",
+   "concept": "hemh.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find measure x in a figure with exterior angles {angle1} degrees, {angle2} degrees, and {angle3} degrees.",
+   "extracted_variables": {
+    "angle1": 125,
+    "angle2": 125,
+    "angle3": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum all given exterior angles",
+     "explain": "Add together all known exterior angle measures.",
+     "compute": "known_sum = angle1 + angle2 + angle3"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from 360 degrees",
+     "explain": "The total sum of exterior angles is 360 degrees.",
+     "compute": "x = 360 - known_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh103.txt Example 2",
+   "concept": "hemh.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the number of sides of a regular polygon whose each exterior angle has a measure of {ext_angle} degrees.",
+   "extracted_variables": {
+    "ext_angle": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total exterior sum 360 by the measure of each exterior angle",
+     "explain": "Since all exterior angles are congruent in a regular polygon, dividing 360 by the exterior angle yields the side count.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh103.txt Exercise 3.2 Q3",
+   "concept": "hemh.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "How many sides does a regular polygon have if the measure of an exterior angle is {ext_angle} degrees?",
+   "extracted_variables": {
+    "ext_angle": 24
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total exterior sum 360 by the measure of each exterior angle",
+     "explain": "Since all exterior angles are congruent in a regular polygon, dividing 360 by the exterior angle yields the side count.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh103.txt Exercise 3.2 Q2i",
+   "concept": "hemh.3.2.3",
+   "question_type": "compute",
+   "question_pattern": "Find the measure of each exterior angle of a regular polygon of {num_sides} sides.",
+   "extracted_variables": {
+    "num_sides": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide 360 by the number of sides",
+     "explain": "The sum of exterior angles is 360 degrees divided equally among all vertices.",
+     "compute": "ext_angle = 360 / num_sides"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh103.txt Exercise 3.2 Q2ii",
+   "concept": "hemh.3.2.3",
+   "question_type": "compute",
+   "question_pattern": "Find the measure of each exterior angle of a regular polygon of {num_sides} sides.",
+   "extracted_variables": {
+    "num_sides": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide 360 by the number of sides",
+     "explain": "The sum of exterior angles is 360 degrees divided equally among all vertices.",
+     "compute": "ext_angle = 360 / num_sides"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh103.txt Exercise 3.2 Q4",
+   "concept": "hemh.3.2.4",
+   "question_type": "compute",
+   "question_pattern": "How many sides does a regular polygon have if each of its interior angles is {int_angle} degrees?",
+   "extracted_variables": {
+    "int_angle": 165
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the exterior angle measure",
+     "explain": "Subtract the interior angle measure from 180 degrees.",
+     "compute": "ext_angle = 180 - int_angle"
+    },
+    {
+     "step": 2,
+     "action": "Calculate number of sides",
+     "explain": "Divide 360 degrees by the calculated exterior angle.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh103.txt Chapter Practice",
+   "concept": "hemh.3.2.4",
+   "question_type": "compute",
+   "question_pattern": "Find the number of sides of a regular polygon with interior angle {int_angle} degrees.",
+   "extracted_variables": {
+    "int_angle": 144
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the exterior angle measure",
+     "explain": "Subtract the interior angle measure from 180 degrees.",
+     "compute": "ext_angle = 180 - int_angle"
+    },
+    {
+     "step": 2,
+     "action": "Calculate number of sides",
+     "explain": "Divide 360 degrees by the calculated exterior angle.",
+     "compute": "num_sides = 360 / ext_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hemh103.txt Example 3",
+   "concept": "hemh.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the perimeter of the parallelogram PQRS with side lengths {side_a} cm and {side_b} cm.",
+   "extracted_variables": {
+    "side_a": 12,
+    "side_b": 7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add adjacent side lengths",
+     "explain": "Find the sum of two adjacent sides of the parallelogram.",
+     "compute": "sum_sides = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 2",
+     "explain": "Double the sum because opposite sides are equal in length.",
+     "compute": "perimeter = 2 * sum_sides"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hemh103.txt Chapter Practice",
+   "concept": "hemh.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the perimeter of a parallelogram whose adjacent sides are {side_a} cm and {side_b} cm.",
+   "extracted_variables": {
+    "side_a": 9,
+    "side_b": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add adjacent side lengths",
+     "explain": "Find the sum of two adjacent sides of the parallelogram.",
+     "compute": "sum_sides = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 2",
+     "explain": "Double the sum because opposite sides are equal in length.",
+     "compute": "perimeter = 2 * sum_sides"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "hemh103.txt Example 5",
+   "concept": "hemh.3.3.2",
+   "question_type": "compute",
+   "question_pattern": "In a parallelogram RING, if angle R is {known_angle} degrees, find adjacent angle I.",
+   "extracted_variables": {
+    "known_angle": 70
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract known angle from 180 degrees",
+     "explain": "Adjacent interior angles of a parallelogram lie along parallel lines and are supplementary.",
+     "compute": "adjacent_angle = 180 - known_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "hemh103.txt Example 4 adaptation",
+   "concept": "hemh.3.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find adjacent angle measure in a parallelogram if one interior angle is {known_angle} degrees.",
+   "extracted_variables": {
+    "known_angle": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract known angle from 180 degrees",
+     "explain": "Adjacent interior angles of a parallelogram lie along parallel lines and are supplementary.",
+     "compute": "adjacent_angle = 180 - known_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hemh103.txt Example 6 adaptation",
+   "concept": "hemh.3.3.3",
+   "question_type": "compute",
+   "question_pattern": "In a parallelogram, if half of a diagonal segment OE is {half_length} cm, find total diagonal length PE.",
+   "extracted_variables": {
+    "half_length": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the bisected half segment",
+     "explain": "Because the diagonal is bisected at the intersection point, full diagonal is twice the half length.",
+     "compute": "full_length = 2 * half_length"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "hemh103.txt Chapter Practice",
+   "concept": "hemh.3.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate total diagonal length in a parallelogram if bisected segment is {half_length} cm.",
+   "extracted_variables": {
+    "half_length": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the bisected half segment",
+     "explain": "Because the diagonal is bisected at the intersection point, full diagonal is twice the half length.",
+     "compute": "full_length = 2 * half_length"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "hemh103.txt Example 8",
+   "concept": "hemh.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "RENT is a rectangle. Its diagonals meet at O. Find x if OR = {coeff_a} x + {const_a} and OT = {coeff_b} x + {const_b}.",
+   "extracted_variables": {
+    "coeff_a": 2,
+    "const_a": 4,
+    "coeff_b": 3,
+    "const_b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute difference in constant terms",
+     "explain": "Subtract const_b from const_a.",
+     "compute": "diff_const = const_a - const_b"
+    },
+    {
+     "step": 2,
+     "action": "Compute difference in variable coefficients",
+     "explain": "Subtract coeff_a from coeff_b.",
+     "compute": "diff_coeff = coeff_b - coeff_a"
+    },
+    {
+     "step": 3,
+     "action": "Solve for x",
+     "explain": "Divide constant difference by coefficient difference.",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "hemh103.txt Chapter Practice",
+   "concept": "hemh.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find x if half diagonal expressions of a rectangle are {coeff_a} x + {const_a} and {coeff_b} x + {const_b}.",
+   "extracted_variables": {
+    "coeff_a": 2,
+    "const_a": 10,
+    "coeff_b": 4,
+    "const_b": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute difference in constant terms",
+     "explain": "Subtract const_b from const_a.",
+     "compute": "diff_const = const_a - const_b"
+    },
+    {
+     "step": 2,
+     "action": "Compute difference in variable coefficients",
+     "explain": "Subtract coeff_a from coeff_b.",
+     "compute": "diff_coeff = coeff_b - coeff_a"
+    },
+    {
+     "step": 3,
+     "action": "Solve for x",
+     "explain": "Divide constant difference by coefficient difference.",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hemh103.txt lines 30-48",
+   "questions": [
+    "1. Classify given figures on the basis of simple curve, simple closed curve, polygon, convex polygon, concave polygon.",
+    "2. What is a regular polygon? State the name of a regular polygon of (i) 3 sides (ii) 4 sides (iii) 6 sides."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hemh103.txt lines 85-110",
+   "questions": [
+    "1. Find x in given figures.",
+    "2. Find the measure of each exterior angle of a regular polygon of (i) 9 sides (ii) 15 sides.",
+    "3. How many sides does a regular polygon have if the measure of an exterior angle is 24 degrees?",
+    "4. How many sides does a regular polygon have if each of its interior angles is 165 degrees?",
+    "5. (a) Is it possible to have a regular polygon with measure of each exterior angle as 22 degrees? (b) Can it be an interior angle of a regular polygon? Why?",
+    "6. (a) What is the minimum interior angle possible for a regular polygon? Why? (b) What is the maximum exterior angle possible for a regular polygon?"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "hemh103.txt lines 266-305",
+   "questions": [
+    "1. Given a parallelogram ABCD. Complete each statement along with definition or property used: (i) AD = ... (ii) angle DCB = ... (iii) OC = ... (iv) m angle DAB + m angle CDA = ...",
+    "2. Consider parallelograms and find values of unknowns x, y, z.",
+    "3. Can a quadrilateral ABCD be a parallelogram if (i) angle D + angle B = 180 degrees? (ii) AB = DC = 8 cm, AD = 4 cm and BC = 4.4 cm? (iii) angle A = 70 degrees and angle C = 65 degrees?",
+    "4. Draw a rough figure of a quadrilateral that is not a parallelogram but has exactly two opposite angles of equal measure.",
+    "5. The measures of two adjacent angles of a parallelogram are in the ratio 3 : 2. Find the measure of each of the angles of the parallelogram.",
+    "6. Two adjacent angles of a parallelogram have equal measure. Find the measure of each angle of the parallelogram.",
+    "7. The adjacent figure HOPE is a parallelogram. Find angle measures x, y and z.",
+    "8. Figures GUNS and RUNS are parallelograms. Find x and y.",
+    "9. In the given figure both RISK and CLUE are parallelograms. Find x.",
+    "10. Explain how figure is a trapezium. Which of its two sides are parallel?",
+    "11. Find m angle C if AB is parallel to DC.",
+    "12. Find the measure of angle P and angle S if SP is parallel to RQ."
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "hemh103.txt lines 380-410",
+   "questions": [
+    "1. State whether True or False: (a) All rectangles are squares (b) All rhombuses are parallelograms (c) All squares are rhombuses and also rectangles (d) All squares are not parallelograms (e) All kites are rhombuses (f) All rhombuses are kites (g) All parallelograms are trapeziums (h) All squares are trapeziums.",
+    "2. Identify all quadrilaterals that have: (a) four sides of equal length (b) four right angles.",
+    "3. Explain how a square is: (i) a quadrilateral (ii) a parallelogram (iii) a rhombus (iv) a rectangle.",
+    "4. Name the quadrilaterals whose diagonals: (i) bisect each other (ii) are perpendicular bisectors of each other (iii) are equal.",
+    "5. Explain why a rectangle is a convex quadrilateral.",
+    "6. ABC is a right-angled triangle and O is the mid point of the side opposite to the right angle. Explain why O is equidistant from A, B and C."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

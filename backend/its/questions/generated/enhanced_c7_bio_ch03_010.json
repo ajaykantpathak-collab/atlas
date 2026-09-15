@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_010",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_010",
+   "title": "c7_bio_ch03_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of cellular respiration in plant cells?",
+     "a": "The correct answer is to release stored chemical energy (ATP) from food molecules so the plant can carry out life functions like growth and transport. \nA student who answers \"to make food\" has confused cellular respiration with photosynthesis, failing to realize that respiration breaks down food rather than creating it. Another common wrong answer is \"to take in oxygen,\" which mistakes the method of gas exchange for the actual metabolic purpose of the process.",
+     "self_check": true
+    },
+    {
+     "q": "During a sunny afternoon, a potted plant is actively performing photosynthesis. Does it also perform cellular respiration at the same time? Explain why.",
+     "a": "The correct answer is yes, cellular respiration occurs continuously, both day and night, because plant cells need a constant supply of energy to survive, even while photosynthesis is also taking place. \nA student who states that plants only respire at night reveals the misconception that plants switch respiration off when the sun comes out, confusing the absence of net carbon dioxide release with an absence of the metabolic process itself.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener seals a potted plant inside an airtight glass jar and places it in a completely dark room for 24 hours. When tested, the air inside the jar shows a significant increase in carbon dioxide and a decrease in oxygen. Explain which biological process caused this change and why.",
+     "a": "The correct answer is cellular respiration. In the dark, photosynthesis cannot occur because there is no light, but cellular respiration continues unabated; the plant cells consume oxygen and release carbon dioxide as they break down glucose for energy, altering the gas composition of the sealed jar. \nA student who claims photosynthesis caused the carbon dioxide increase does not understand that light is mandatory for photosynthesis and that darkness shuts down food production while respiration carries on.",
+     "self_check": true
+    },
+    {
+     "q": "Roots of plants growing in waterlogged soil (where air spaces are filled with water instead of air) often turn black and rot. Using your knowledge of plant respiration, analyze why this happens.",
+     "a": "The correct answer is that waterlogged soil blocks oxygen from reaching the root hair cells, preventing aerobic cellular respiration. Without oxygen, root cells cannot produce the energy needed for active transport of minerals and general cell maintenance, leading to cell death and root rot. \nA student who suggests the roots drowned because they drank too much water fails to connect the physical absence of air pockets in the soil to the biological necessity of oxygen for cellular respiration in underground plant tissues.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Animals breathe by using lungs or gills, but plants do not breathe, so they do not need oxygen at all.\" Evaluate this statement using scientific reasoning.",
+     "a": "The statement is scientifically incorrect. While it is true that plants lack specialized breathing organs like lungs, they still require oxygen for cellular respiration; oxygen simply diffuses directly into plant tissues through stomata, lenticels, and root spaces, where it is used by every living cell to release energy from glucose. \nA student who agrees with the statement is confusing physical breathing (ventilation) with cellular respiration, assuming that the absence of a respiratory system means the absence of cellular respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost domestic experiment using germinating seeds in an Indian household to prove that living plant tissues consume oxygen during respiration.",
+     "a": "A valid experiment design: Take two glass bottles, place wet cotton with germinating gram (chana) seeds in Bottle A, and boiled (dead) gram seeds in Bottle B as a control. Hang a small open vial containing potassium hydroxide (KOH) solution inside each bottle to absorb any carbon dioxide produced, and attach a bent glass delivery tube containing a drop of colored water to each airtight stopper. Place both setups in a dark room; the colored water drop will move toward Bottle A because the germinating seeds consume oxygen, creating a partial vacuum, while Bottle B shows no movement. \nA poor answer involves simply looking at a plant or fails to include a control group (boiled seeds) or a carbon dioxide absorber, showing a lack of experimental control design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

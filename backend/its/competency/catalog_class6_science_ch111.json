@@ -1,0 +1,324 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Light, Shadows and Reflections",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu110.txt",
+ "concepts": [
+  {
+   "id": "fesc.11.0.1",
+   "title": "Luminous and Non-Luminous Objects",
+   "section": "11.0",
+   "definition": "Entities that generate and emit light of their own are termed luminous, while objects that do not emit both light and become visible only by reflecting light are non-luminous.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Objects are categorized based on whether they produce their own light or reflect light from external sources.",
+   "textbook_ref": "fesc111.txt lines 15-30",
+   "question_patterns": [
+    "classify objects as luminous or non-luminous",
+    "identify whether a given object emits its own light",
+    "what is the difference between luminous and non-luminous sources",
+    "how do we perceive non-luminous objects around us",
+    "how does luminous and non-luminous objects work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check light emission",
+     "explain": "Determine if the object generates and emits light independently (e.g., Sun, lighted candle, torch)."
+    },
+    {
+     "step": 2,
+     "action": "classify category",
+     "explain": "If it emits light, classify as luminous; if it only scatters light falling on it, classify as non-luminous."
+    },
+    {
+     "step": 3,
+     "action": "verify visibility in darkness",
+     "explain": "Confirm that non-luminous objects become invisible in complete darkness since they cannot emit light, reinforcing the distinction between the two categories."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.1.1",
+   "title": "Transparent, Opaque, and Translucent Objects",
+   "section": "11.1",
+   "definition": "Materials are classified by light permeability: opaque materials block light completely, transparent materials allow light to pass fully, and translucent materials allow light to pass partially.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The degree to which light goes through a material determines its classification as transparent, translucent, or opaque.",
+   "textbook_ref": "fesc111.txt lines 31-55",
+   "question_patterns": [
+    "categorize materials into transparent opaque or translucent",
+    "explain how opaque objects differ from translucent objects",
+    "what happens to light when it encounters a transparent surface",
+    "how can you test if a sheet of paper is translucent",
+    "why is transparent, opaque, and translucent objects important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe light transmission",
+     "explain": "Attempt to view a distant illuminated object through the test material."
+    },
+    {
+     "step": 2,
+     "action": "evaluate optical clarity",
+     "explain": "If light passes clearly, classify as transparent; if partially/hazily, translucent; if completely blocked, opaque."
+    },
+    {
+     "step": 3,
+     "action": "confirm with a second test object",
+     "explain": "Repeat the observation with a different illuminated object behind the material to ensure the classification is consistent and not an artifact of a single test."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.2.1",
+   "title": "Conditions for Shadow Formation",
+   "section": "11.2",
+   "definition": "A dark patch formed on a surface when an opaque body blocks the path of light traveling from a source.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Shadow formation strictly requires a light source, an opaque obstacle, and a surface or screen.",
+   "textbook_ref": "fesc111.txt lines 56-95",
+   "question_patterns": [
+    "what are the essential requisites to observe a shadow",
+    "why is a screen necessary for shadow formation",
+    "explain why shadows cannot form in complete darkness",
+    "how does an opaque obstacle result in a shadow",
+    "give one everyday example of conditions for shadow formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify light source and obstacle",
+     "explain": "Ensure a luminous source shines towards an opaque object obstructing the light path."
+    },
+    {
+     "step": 2,
+     "action": "verify screen presence",
+     "explain": "Confirm the presence of a screen (such as ground, wall, or sheet) behind the object where the shadow drops."
+    },
+    {
+     "step": 3,
+     "action": "confirm all three requisites are met",
+     "explain": "Verify that the light source, opaque obstacle, and screen are all present simultaneously; removing any one of them prevents a shadow from forming."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.2.2",
+   "title": "Characteristics and Properties of Shadows",
+   "section": "11.2",
+   "definition": "Shadows represent black silhouetted outlines showing spatial shape details, independent of the object's color, and vary in shape depending on object orientation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Shadows reveal basic shape outlines without preserving color or fine surface detail.",
+   "textbook_ref": "fesc111.txt lines 96-125",
+   "question_patterns": [
+    "does the color of an object affect the color of its shadow",
+    "why can shadows sometimes give misleading information about shapes",
+    "how does rotating an object change its shadow size and shape",
+    "what properties characterize a shadow formed on a screen",
+    "justify why characteristics and properties of shadows matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine shadow color",
+     "explain": "Observe that shadows remain dark patches regardless of the color of the object."
+    },
+    {
+     "step": 2,
+     "action": "examine shadow outline",
+     "explain": "Note how the silhouette changes when the position or angle of the object with respect to light changes."
+    },
+    {
+     "step": 3,
+     "action": "compare shadow with object detail",
+     "explain": "Observe that the shadow only shows the outer shape outline and never reproduces the object's color or fine surface details, confirming shadows are colorless silhouettes."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.3.1",
+   "title": "Pinhole Camera and Image Formation",
+   "section": "11.3",
+   "definition": "A simple device without lenses that forms an inverted, colored image of a bright object on a translucent screen through a small aperture.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Pinhole cameras produce real, inverted images displaying true object colors.",
+   "textbook_ref": "fesc111.txt lines 126-175",
+   "question_patterns": [
+    "how does a pinhole camera form images",
+    "what are the characteristics of an image formed by a pinhole camera",
+    "how do pinhole images differ from shadows",
+    "describe how natural pinhole images of the sun form under a tree",
+    "justify why pinhole camera and image formation matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "direct light through pinhole",
+     "explain": "Light rays from a brightly lit object pass through a tiny pinhole aperture."
+    },
+    {
+     "step": 2,
+     "action": "analyze projected image",
+     "explain": "Observe that the image formed on the screen is upside-down (inverted) and retains the original colors of the object."
+    },
+    {
+     "step": 3,
+     "action": "explain inversion via rectilinear propagation",
+     "explain": "Rays from the top of the object travel straight through the pinhole to the bottom of the screen and vice versa, which is why the image appears inverted while still showing true colors."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.3.2",
+   "title": "Rectilinear Propagation of Light",
+   "section": "11.3",
+   "definition": "The principle stating that light moves strictly along straight paths in a uniform medium unless obstructed or redirected.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Light propagates in straight lines, which explains shadow formation and straight-line visibility.",
+   "textbook_ref": "fesc111.txt lines 176-200",
+   "question_patterns": [
+    "prove that light travels in a straight line",
+    "why can you not see a candle flame through a bent pipe",
+    "what property of light leads to shadow formation",
+    "demonstrate rectilinear propagation using a tube experiment",
+    "list the main features of rectilinear propagation of light"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "view source through straight tube",
+     "explain": "Light reaches the eye when the tube or pipe is completely straight."
+    },
+    {
+     "step": 2,
+     "action": "view source through bent tube",
+     "explain": "Light is obstructed when the pipe is bent, demonstrating that light rays cannot curve on their own."
+    },
+    {
+     "step": 3,
+     "action": "link propagation to shadow formation",
+     "explain": "Conclude that since light travels only in straight lines, an opaque obstacle placed in its path blocks the rays and casts a sharp shadow, confirming rectilinear propagation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.4.1",
+   "title": "Reflection of Light by Mirrors",
+   "section": "11.4",
+   "definition": "The bouncing back of light rays when they strike a smooth, polished surface like a mirror, altering their direction of move.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Smooth surfaces reflect incident light beams in definite directions to form clear reflections.",
+   "textbook_ref": "fesc111.txt lines 201-230",
+   "question_patterns": [
+    "what happens when a beam of light falls on a mirror surface",
+    "how does a mirror change the direction of light",
+    "explain mirror reflection using a torch and comb experiment",
+    "what type of surface causes reflection of light",
+    "why is reflection of light by mirrors important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "direct light beam onto mirror",
+     "explain": "A straight beam of light strikes a smooth reflective plane surface."
+    },
+    {
+     "step": 2,
+     "action": "observe redirected patch",
+     "explain": "The mirror bounces the beam off its surface, redirecting light toward another location."
+    },
+    {
+     "step": 3,
+     "action": "relate reflection to surface smoothness",
+     "explain": "Confirm that a smooth polished surface produces a clear, definite reflected patch, whereas a rough surface scatters light in many directions, showing that reflection requires a smooth reflective surface."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc111.txt lines 15-30",
+   "concept": "fesc.11.0.1",
+   "question_type": "classification",
+   "question_pattern": "Classify {object_list} as luminous or non-luminous.",
+   "extracted_variables": {
+    "object_list": "list of items like Sun, moon, wooden chair, lighted torch"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "check light emission",
+     "explain": "Identify objects that generate their own light (Sun, lighted torch) vs those that do not (moon, wooden chair)."
+    },
+    {
+     "step": 2,
+     "action": "classify category",
+     "explain": "Sun and lighted torch are luminous; moon and wooden chair are non-luminous."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc111.txt lines 126-175",
+   "concept": "fesc.11.3.1",
+   "question_type": "conceptual_contrast",
+   "question_pattern": "Compare an image formed by a pinhole camera with a shadow formed on a screen.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pass light through pinhole",
+     "explain": "Pinhole camera images show color and inverted details of the object."
+    },
+    {
+     "step": 2,
+     "action": "analyze projected image",
+     "explain": "Shadows are dark silhouette patches that give no color or surface detail."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "fesc111.txt line 238",
+   "questions": [
+    "Rearrange the given letter boxes to make a meaningful sentence: [O W S] [A K E] [O P A Q] [U E   O] [B J E C] [T   S M] [S H A D]"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "fesc111.txt lines 240-246",
+   "questions": [
+    "Classify the objects or materials given below as opaque, transparent or translucent and luminous or non-luminous: Air, water, a piece of rock, a sheet of aluminium, a mirror, a wooden board, a sheet of polythene, a CD, smoke, a sheet of plane glass, fog, a piece of red hot iron, an umbrella, a lighted fluorescent tube, a wall, a sheet of carbon paper, the flame of a gas burner, a sheet of cardboard, a lighted torch, a sheet of cellophane, a wire mesh, kerosene stove, sun, firefly, moon."
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "fesc111.txt lines 247-248",
+   "questions": [
+    "Can you think of creating a shape that would give a circular shadow if held in one way and a rectangular shadow if held in another way?"
+   ]
+  },
+  {
+   "id": "ex11.4",
+   "source_ref": "fesc111.txt lines 249-250",
+   "questions": [
+    "In a completely dark room, if you hold up a mirror in front of you, will you see a reflection of yourself in the mirror?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

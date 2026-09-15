@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_004",
+   "title": "c7_math_ch07_004",
+   "questions": [
+    {
+     "q": "A triangle has side lengths measuring $7\\text{ cm}$, $7\\text{ cm}$, and $5\\text{ cm}$. What type of triangle is it based on its sides, and why?",
+     "a": "It is an isosceles triangle because exactly two of its sides are equal in length ($7\\text{ cm}$ each), while the third side is different. A wrong answer here indicates confusion between the definitions of equilateral, isosceles, and scalene triangles, often caused by miscounting the number of equal sides.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says, \"An equilateral triangle is also a special type of isosceles triangle.\" Is Rahul correct? Explain your reasoning using the definitions of both triangle types.",
+     "a": "Rahul is correct. An isosceles triangle requires *at least* two sides to be equal. Since an equilateral triangle has three equal sides, it satisfies the condition of having at least two equal sides, making it a specialized case of an isosceles triangle. A wrong answer shows a misunderstanding of inclusive mathematical definitions, thinking that categories must be mutually exclusive.",
+     "self_check": true
+    },
+    {
+     "q": "The perimeter of a scalene triangle is $45\\text{ cm}$. If the first side is $12\\text{ cm}$ and the second side is $15\\text{ cm}$, find the length of the third side.",
+     "a": "Step 1: Write down the perimeter formula: $\\text{Perimeter} = \\text{Side}_1 + \\text{Side}_2 + \\text{Side}_3$.\nStep 2: Substitute the known values: $45 = 12 + 15 + \\text{Side}_3$.\nStep 3: Combine the known lengths: $45 = 27 + \\text{Side}_3$.\nStep 4: Subtract $27$ from $45$ to solve for the third side: $\\text{Side}_3 = 45 - 27 = 18\\text{ cm}$.\nAnswer: $18\\text{ cm}$. A wrong answer often stems from adding all numbers incorrectly or confusing perimeter with area.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given three side lengths of $4\\text{ cm}$, $4\\text{ cm}$, and $9\\text{ cm}$, can you construct a triangle? If classified by sides, what would it attempt to be, and what is the underlying geometric contradiction?",
+     "a": "You cannot construct this triangle. While it attempts to be an isosceles triangle, it violates the Triangle Inequality Theorem (the sum of any two sides must be greater than the third side: $4 + 4 = 8$, which is less than $9$). A wrong answer reveals a failure to link side-length classification with the fundamental existence rules of triangles learned previously.",
+     "self_check": true
+    },
+    {
+     "q": "A student examines a triangle with side lengths $6.5\\text{ cm}$, $6.5\\text{ cm}$, and $6.5\\text{ cm}$ and classifies it as scalene because the numbers have decimals. Evaluate this student's claim and correct their error.",
+     "a": "The student's claim is incorrect. The presence of decimals does not change the fact that all three side lengths are equal ($6.5\\text{ cm} = 6.5\\text{ cm} = 6.5\\text{ cm}$). Therefore, it is an equilateral triangle, not a scalene triangle. A wrong answer shows that the student focuses on superficial features (like decimals) rather than comparing the actual numerical values of the side lengths.",
+     "self_check": true
+    },
+    {
+     "q": "Create the side lengths for a scalene triangle whose perimeter is exactly $30\\text{ cm}$, such that all three side lengths are whole numbers and no side is greater than $14\\text{ cm}$. Show your verification.",
+     "a": "One possible answer is side lengths $9\\text{ cm}$, $10\\text{ cm}$, and $11\\text{ cm}$. Verification: $9 + 10 + 11 = 30\\text{ cm}$ (Perimeter); all three lengths are different (scalene); no side exceeds $14\\text{ cm}$; and the sum of any two sides is greater than the third ($9+10=19 > 11$). A poor answer provides duplicate side lengths or violates the perimeter and inequality constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

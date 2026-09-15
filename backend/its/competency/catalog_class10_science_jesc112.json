@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Magnetic Effects of Electric Current",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.112.12.1",
+   "title": "Magnetic Field and Field Lines",
+   "section": "12.1",
+   "definition": "A magnet's influence fills the space around it as a magnetic field, mapped by field lines that run from the north pole to the south pole outside the magnet, never crossing, and crowding together where the field is strongest - as at the poles.",
+   "formula": "-",
+   "key_idea": "Field lines are the map: direction along the line, crowding shows strength.",
+   "textbook_ref": "jesc112.txt sections on magnetic field and field lines",
+   "question_patterns": [
+    "what is a magnetic field - how is it detected",
+    "list the properties of magnetic field lines",
+    "why do two field lines never cross each other",
+    "where is the magnetic field of a bar magnet strongest - explain",
+    "draw the field lines of a bar magnet",
+    "how does a compass needle show the direction of the field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sprinkle the compass or iron filings",
+     "explain": "Their alignment traces the field lines."},
+    {"step": 2, "action": "read the lines",
+     "explain": "Direction follows the line; crowding shows strength."},
+    {"step": 3, "action": "note the closure",
+     "explain": "Lines form closed loops from north to south outside, south to north inside."}
+   ]
+  },
+  {
+   "id": "jesc.112.12.2",
+   "title": "Magnetic Effects of Current - Solenoid and Electromagnet",
+   "section": "12.2",
+   "definition": "Every current carries magnetism: a straight wire's field forms circles around it (right-hand thumb rule), a circular loop concentrates it at the centre, and a current-carrying solenoid behaves like a bar magnet with north and south poles - turning it into an electromagnet with a soft iron core.",
+   "formula": "-",
+   "key_idea": "Current creates magnetism: the right-hand rule reads it, the solenoid concentrates it.",
+   "textbook_ref": "jemh112 magnetic field due to current, solenoid sections",
+   "question_patterns": [
+    "state the right-hand thumb rule for the field around a straight conductor",
+    "how does a solenoid behave like a bar magnet - explain",
+    "what is an electromagnet - how can its strength be increased",
+    "describe the magnetic field inside a long current-carrying solenoid",
+    "draw the field pattern of a circular current-carrying loop",
+    "list the uses of electromagnets in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the thumb rule",
+     "explain": "Thumb along the current, fingers curl along the field."},
+    {"step": 2, "action": "stack the loops",
+     "explain": "A solenoid adds the fields of many loops into a uniform interior."},
+    {"step": 3, "action": "insert the core",
+     "explain": "A soft iron core multiplies the field, making an electromagnet."}
+   ]
+  },
+  {
+   "id": "jesc.112.12.3",
+   "title": "Force on a Conductor, Electric Motor and Electromagnetic Induction",
+   "section": "12.2",
+   "definition": "A current-carrying conductor in a magnetic field feels a force whose direction Fleming's left-hand rule gives - the principle of the electric motor; the reverse, moving a conductor in a field, induces current by electromagnetic induction (Fleming's right-hand rule), the principle of generators, with domestic AC supply alternating at 50 hertz.",
+   "formula": "-",
+   "key_idea": "Motor: current plus field gives force. Generator: motion plus field gives current.",
+   "textbook_ref": "jesc112.txt sections on force, motor, electromagnetic induction, domestic circuits",
+   "question_patterns": [
+    "state Fleming's left-hand rule and name the device using it",
+    "explain the working of an electric motor with a diagram",
+    "what is electromagnetic induction - state Fleming's right-hand rule",
+    "differentiate AC and DC generators",
+    "why is earthing of domestic appliances important - explain",
+    "what is the role of a fuse in a domestic circuit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "choose the rule",
+     "explain": "Left hand for force on current, right hand for induced current."},
+    {"step": 2, "action": "trace the device",
+     "explain": "Motors convert current to motion; generators convert motion to current."},
+    {"step": 3, "action": "guard the house",
+     "explain": "Fuses, earthing and proper wiring keep domestic circuits safe."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "jesc112.txt exercises",
+   "questions": [
+     "Draw magnetic field lines of a bar magnet and a solenoid.",
+     "State Fleming's left-hand and right-hand rules with uses.",
+     "Explain the working of an electric motor and a generator."
+   ]
+  }
+ ]
+}

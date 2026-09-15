@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_1",
+   "title": "c9_physics_ch4_1",
+   "questions": [
+    {
+     "q": "A student holds a 20 N school bag stationary at a height of 1.5 m above the ground for 30 seconds. How much work is done by the student on the bag during this time? State the answer with units.",
+     "a": "Zero joules (0 J). The bag has zero displacement while the force is applied, so work = force × displacement = 20 N × 0 m = 0 J. A wrong answer (e.g., 30 J or 900 J) reveals the student confuses work with effort or thinks time multiplied by force gives work, not understanding that displacement is essential for work to be done.",
+     "self_check": true
+    },
+    {
+     "q": "A coolie carries a 50 kg load on his head and walks horizontally 100 m on a level road at constant speed. The gravitational force on the load is 500 N downwards. Explain why the work done by the gravitational force on the load is zero, even though the load moves 100 m.",
+     "a": "Work done by gravity is zero because the gravitational force acts vertically downward while the displacement is horizontal - they are perpendicular (90°). Work = F × s × cos 90° = 0. A wrong explanation (e.g., \"because speed is constant\" or \"because no net force\") reveals the student doesn't understand that work depends on the angle between force and displacement vectors, not on speed or net force.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer pushes a cart with a constant force of 120 N. The cart moves 25 m in the direction of the force. Calculate the work done by the farmer on the cart. Show all steps with units.",
+     "a": "Step 1: Identify given - Force F = 120 N, displacement s = 25 m, force and displacement parallel.\nStep 2: Formula - W = F × s (since θ = 0°, cos 0° = 1).\nStep 3: Substitute - W = 120 N × 25 m.\nStep 4: Compute - W = 3000 N·m = 3000 J.\nStep 5: Verify - 3000 J is reasonable for a human pushing a cart 25 m. Answer: 3000 J. A wrong answer like 300 J (decimal error) or 145 J (adding instead of multiplying) reveals computational carelessness or not tracking units.",
+     "self_check": true
+    },
+    {
+     "q": "Two students, Arjun and Meera, push identical boxes with the same force of 80 N. Arjun's box moves 5 m before stopping. Meera's box moves 12 m before stopping. Compare the work done by each student on their respective boxes. Which student did more work and by how much?",
+     "a": "Arjun's work = 80 N × 5 m = 400 J. Meera's work = 80 N × 12 m = 960 J. Meera did more work by 960 J - 400 J = 560 J. A wrong answer (e.g., \"same work because same force\" or comparing time instead of displacement) reveals the student thinks work depends only on force magnitude, not on displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook shows this solution: \"A woman pushes a 200 N box 4 m across a floor. Work done = 200 N × 4 m = 800 J.\" Identify the error in this solution and write the correct solution. The coefficient of friction is 0.3.",
+     "a": "The error: The solution uses the box's weight (200 N) as the applied force, but the woman's pushing force is not given and is not equal to the weight. The correct approach: If the woman pushes horizontally with force F, work done by her = F × 4 m. The weight (200 N) and friction (0.3 × 200 N = 60 N) are vertical/horizontal forces but not necessarily the applied force. Without knowing F, work cannot be calculated. A student who accepts the textbook solution confuses weight with applied force - a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a spring balance, a wooden block, and a meter scale to demonstrate that work done depends on both force and displacement. Write the procedure in 4 steps and state what measurements you would record.",
+     "a": "Good procedure: (1) Attach spring balance to block on smooth table. (2) Pull with constant force (e.g., 2 N) for 0.5 m, record force and displacement. (3) Repeat with same force for 1.0 m. (4) Repeat with 4 N force for 0.5 m. Record: force (N), displacement (m), calculate W = F×s. Compare: doubling displacement doubles work; doubling force doubles work. A poor answer (e.g., \"pull and see how far it goes\" without controlled variables) reveals inability to design a controlled experiment isolating variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

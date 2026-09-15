@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_009",
+   "title": "c12_phy_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define capacitance and state its SI unit. Write the formula relating charge, potential difference, and capacitance.",
+     "a": "Capacitance \\(C\\) is the ratio of the magnitude of charge \\(Q\\) on one conductor to the potential difference \\(V\\) between the two conductors: \\(C = Q/V\\). The SI unit is the farad (F), where \\(1 \\text{ F} = 1 \\text{ C/V}\\). A wrong answer (e.g., \"capacitance is the charge stored\" or unit \"coulomb\") reveals the student confuses the stored charge \\(Q\\) with the capacity \\(C\\) to hold that charge per volt.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I double the charge on a capacitor, its capacitance doubles because \\(C = Q/V\\).\" Explain why this reasoning is incorrect. What actually happens to \\(V\\) when \\(Q\\) is doubled?",
+     "a": "The reasoning is incorrect because \\(C\\) is a geometric constant for a given capacitor; it does not depend on \\(Q\\) or \\(V\\). From \\(C = Q/V\\), if \\(Q\\) is doubled, \\(V\\) also doubles (since \\(V \\propto Q\\) for a fixed geometry), keeping \\(C\\) unchanged. A wrong answer (e.g., \"V stays the same\" or \"C doubles\") reveals the student treats the formula as a simple algebraic relation without understanding the physical proportionality \\(Q \\propto V\\) implied by Coulomb's law and superposition.",
+     "self_check": true
+    },
+    {
+     "q": "A capacitor has a capacitance of \\(5.0 \\text{ nF}\\). When connected to a \\(12 \\text{ V}\\) battery, what is the magnitude of charge on each plate? If the same capacitor is instead connected to a \\(6.0 \\text{ V}\\) battery, what is the new charge? Show unit analysis.",
+     "a": "Given \\(C = 5.0 \\text{ nF} = 5.0 \\times 10^{-9} \\text{ F}\\).\nCase 1: \\(V = 12 \\text{ V}\\). \\(Q = C V = (5.0 \\times 10^{-9} \\text{ F}) \\times (12 \\text{ V}) = 6.0 \\times 10^{-8} \\text{ C} = 60 \\text{ nC}\\).\nCase 2: \\(V = 6.0 \\text{ V}\\). \\(Q = (5.0 \\times 10^{-9}) \\times 6.0 = 3.0 \\times 10^{-8} \\text{ C} = 30 \\text{ nC}\\).\nUnit analysis: \\(\\text{F} \\times \\text{V} = (\\text{C/V}) \\times \\text{V} = \\text{C}\\). A wrong answer (e.g., forgetting to convert nF to F, or getting 60 C) reveals unit conversion errors or misunderstanding that \\(Q\\) scales linearly with \\(V\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical parallel-plate capacitors are built. Capacitor A has air between plates; Capacitor B has a dielectric with constant \\(K = 4\\) filling the space. Both are given the same charge \\(Q\\). Compare their potential differences \\(V_A\\) and \\(V_B\\). Which capacitor has higher capacitance?",
+     "a": "Since \\(C = Q/V\\) and \\(Q\\) is the same, \\(V \\propto 1/C\\). The dielectric increases capacitance by factor \\(K\\): \\(C_B = K C_A = 4 C_A\\). Therefore \\(V_B = V_A / 4\\). Capacitor B has higher capacitance (4 times) and lower potential difference (1/4) for the same charge. A wrong answer (e.g., \"V_B = V_A\" or \"C_B = C_A\") reveals the student does not grasp that dielectric reduces the effective field for the same free charge, thus reducing \\(V\\) and increasing \\(C\\).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A single isolated metal sphere cannot have capacitance because a capacitor requires two conductors.\" Is this true or false? Justify your answer using the definition of capacitance and the concept of potential at infinity.",
+     "a": "False. A single isolated conductor can be treated as a capacitor with the second conductor at infinity (where potential is defined as zero). The capacitance of an isolated sphere of radius \\(R\\) is \\(C = 4\\pi\\varepsilon_0 R\\). The definition \\(C = Q/V\\) still holds, where \\(V\\) is the potential of the sphere relative to infinity. A wrong answer (\"true\") reveals the student thinks capacitance strictly requires two physical plates, missing the conceptual extension to infinity used in electrostatics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple capacitor using household materials (aluminum foil, paper, plastic wrap) that can store enough charge to light a small LED briefly when discharged. Describe how you would increase its capacitance without changing the materials.",
+     "a": "A good answer: Use two sheets of aluminum foil separated by paper (dielectric). Roll them into a cylinder to increase effective area \\(A\\) and decrease separation \\(d\\) (thin paper). Capacitance \\(C \\propto A/d\\). To increase \\(C\\) without new materials: (1) use larger foil sheets (increase \\(A\\)), (2) use thinner paper (decrease \\(d\\)), (3) add more layers (effectively parallel combination). A poor answer (e.g., \"add more charge\" or \"use a higher voltage battery\") reveals confusion between changing \\(C\\) (geometry) vs changing \\(Q\\) or \\(V\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

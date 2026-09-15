@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_005",
+   "title": "c10_math_cbse_12_005",
+   "questions": [
+    {
+     "q": "State the principle of volume conservation when a solid is melted and recast into another shape. Write the mathematical equation that represents this principle for a sphere of radius R recast into a cylinder of radius r and height h.",
+     "a": "The principle: Volume remains constant during melting and recasting (no material lost or added). Equation: (4/3)πR³ = πr²h. A wrong answer (e.g., equating surface areas 4πR² = 2πrh or 2πr(r+h)) reveals the student confuses volume conservation with surface area conservation — a critical board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A solid cube of side 4 cm is melted and recast into a solid sphere. Find the radius of the sphere.\" The student writes: Volume of cube = 4³ = 64 cm³. Volume of sphere = (4/3)πr³. Equating: 64 = (4/3)πr³ → r³ = 48/π → r = ∛(48/π) ≈ 2.48 cm. Is this correct? Explain why or why not.",
+     "a": "The method is correct but the arithmetic is wrong: 64 = (4/3)πr³ → multiply both sides by 3/(4π): r³ = (64 × 3)/(4π) = 192/(4π) = 48/π. This step is correct. However, the student must use π = 22/7 (CBSE standard) unless told otherwise. r³ = 48 ÷ (22/7) = 48 × 7/22 = 336/22 = 168/11 ≈ 15.27 → r ≈ 2.48 cm is numerically correct for π=22/7. But if the student used π=3.14, the answer differs. A wrong answer like r³ = 64 × (3/4) = 48 (forgetting π) reveals the student treats π as a variable that cancels incorrectly or forgets π in the sphere formula.",
+     "self_check": true
+    },
+    {
+     "q": "A solid metallic sphere of radius 4.2 cm is melted and recast into a solid cylinder of radius 6 cm. Find the height of the cylinder. Use π = 22/7. Show all steps.",
+     "a": "Step 1: Volume of sphere = (4/3)πr³ = (4/3) × (22/7) × (4.2)³.\nStep 2: 4.2 = 42/10 = 21/5. (21/5)³ = 9261/125.\nStep 3: Volume = (4/3) × (22/7) × (9261/125) = (4 × 22 × 9261) / (3 × 7 × 125) = (4 × 22 × 1323) / (3 × 125) = (4 × 22 × 441) / 125 = 38808/125 cm³.\nStep 4: Volume of cylinder = πr²h = (22/7) × 6² × h = (22/7) × 36 × h.\nStep 5: Equate: 38808/125 = (22/7) × 36 × h → h = (38808/125) × (7/(22×36)) = (38808 × 7) / (125 × 22 × 36).\nStep 6: Simplify: 38808 ÷ 36 = 1078. 1078 ÷ 22 = 49. So h = (49 × 7) / 125 = 343/125 = 2.744 cm.\nA wrong answer like h = 2.74 cm (rounded early) or h = 2.7 cm loses the exact fraction mark. Forgetting to cube the radius (using r² instead of r³) is a common computational error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two problems:\n(A) A solid sphere of radius R is melted and recast into a solid cylinder of radius r. Find height h.\n(B) A solid sphere of radius R is melted and recast into a hollow cylinder of external radius r₁, internal radius r₂, and height h. Find h.\nExplain how the volume equation changes and why the same formula for sphere volume applies in both.",
+     "a": "In (A): Volume of sphere = Volume of solid cylinder → (4/3)πR³ = πr²h.\nIn (B): Volume of sphere = Volume of hollow cylinder → (4/3)πR³ = π(r₁² - r₂²)h.\nThe sphere volume formula is unchanged because the original solid is the same. The new solid's volume formula changes from solid cylinder to hollow cylinder (difference of two cylinders). A wrong answer that uses πr₁²h for (B) reveals the student cannot distinguish solid vs hollow cylinder volume formulas — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many spherical bullets of radius 0.2 cm can be made from a solid cube of lead of side 44 cm?\" The student calculates:\nVolume of cube = 44³ = 85184 cm³.\nVolume of one bullet = (4/3)π(0.2)³ = (4/3)π(0.008) = 0.01067π cm³.\nNumber of bullets = 85184 / (0.01067π) ≈ 2,545,000.\nThe student concludes: \"Approximately 25 lakh bullets.\" Evaluate this solution. Is the method correct? Is the answer acceptable in a board exam?",
+     "a": "Method is correct (equate total volume = n × volume of one bullet). But the answer is unacceptable for two board-exam reasons:\n1. Used decimal approximation for π (0.01067π) instead of exact fraction π = 22/7. Exact: Volume of bullet = (4/3)×(22/7)×(1/5)³ = (4×22)/(3×7×125) = 88/2625 cm³.\n2. Number of bullets must be an integer. Exact calculation: n = 85184 ÷ (88/2625) = 85184 × 2625 / 88 = 968 × 2625 = 2,541,000 exactly.\nThe student's decimal approach gives an approximate non-integer, losing marks for \"not using π=22/7\" and \"not giving exact integer answer\". A wrong evaluation that says \"method is fine, answer is close enough\" reveals the student doesn't know CBSE marking scheme demands exact fractions and integer counts for discrete objects.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on melting and recasting that combines TWO different original solids (e.g., a cylinder and a cone melted together) into ONE new solid (e.g., a sphere). Specify all dimensions such that the answer is a neat integer. Provide the problem statement only.",
+     "a": "Example problem: \"A solid iron cylinder of radius 6 cm and height 8 cm, and a solid iron cone of radius 6 cm and height 24 cm, are melted together and recast into a solid sphere. Find the radius of the sphere.\"\nCheck: Cylinder volume = π×6²×8 = 288π. Cone volume = (1/3)π×6²×24 = 288π. Total = 576π.\nSphere: (4/3)πR³ = 576π → R³ = 432 → R = ∛432 = not integer.\nBetter: Cylinder r=3, h=4 → 36π. Cone r=3, h=12 → 36π. Total=72π. Sphere: (4/3)πR³=72π → R³=54 → not integer.\nGood problem: Cylinder r=4, h=9 → 144π. Cone r=4, h=27 → 144π. Total=288π. Sphere: R³=216 → R=6 cm. Integer!\nA poor problem (e.g., dimensions not yielding integer, or missing units) reveals the student doesn't understand the reverse-engineering needed to create valid board-style questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

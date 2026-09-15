@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_12",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_12",
+   "title": "c8_math_ch8_12",
+   "questions": [
+    {
+     "q": "What is the formula to calculate the GST amount when the taxable value and GST rate are given?",
+     "a": "GST Amount = (GST Rate / 100) × Taxable Value. A wrong answer like \"GST = Taxable Value × GST Rate\" (without dividing by 100) reveals the student treats the percentage as a whole number instead of a fraction out of 100, a common error from not converting percentage to decimal/fraction first.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells a notebook for ₹50 (taxable value) and charges 12% GST. The student calculates GST as 12 × 50 = ₹600. Why is this incorrect, and what should the correct calculation be?",
+     "a": "The student forgot to divide the percentage by 100. 12% means 12/100, not 12. Correct: GST = (12/100) × 50 = ₹6. A wrong explanation like \"the answer is too big\" without identifying the missing division by 100 shows the student lacks conceptual understanding of what \"percent\" means.",
+     "self_check": true
+    },
+    {
+     "q": "A pair of shoes costs ₹1,200 before GST. If the GST rate is 18%, find the total amount the customer pays.",
+     "a": "Step 1: Taxable value = ₹1,200. Step 2: GST rate = 18%. Step 3: GST amount = (18/100) × 1200 = 18 × 12 = ₹216. Step 4: Total price = 1200 + 216 = ₹1,416. A wrong answer of ₹1,416 but with GST calculated as 18 × 1200 = 21600 shows the student did not divide by 100; an answer of ₹1,218 suggests they added 18 instead of 18%.",
+     "self_check": true
+    },
+    {
+     "q": "The final price of a toy including 12% GST is ₹560. Compare these two methods to find the taxable value: (A) Divide ₹560 by 1.12. (B) Subtract 12% of ₹560 from ₹560. Which method is correct and why?",
+     "a": "Method A is correct. The final price is 112% of the taxable value, so taxable value = final price / 1.12 = 560 / 1.12 = ₹500. Method B is wrong because 12% of ₹560 is not the GST amount (GST is 12% of the taxable value, not the final price). Choosing B reveals the student thinks GST is calculated on the final price, a classic \"base confusion\" error.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Taxable value ₹400, GST 5%. Final price = 400 + 5% of 400 = 400 + 20 = ₹420.\" Then they say: \"So if final price is ₹420, taxable value = 420 - 5% of 420 = 420 - 21 = ₹399.\" Evaluate this reasoning.",
+     "a": "The reasoning is flawed. The first part is correct (₹420). The second part incorrectly assumes GST is 5% of the final price. Actually, GST is 5% of the taxable value. To reverse, we must divide by 1.05: 420 / 1.05 = ₹400. The student's error is using the wrong base for percentage subtraction, showing they don't understand that percentage increase and decrease are not symmetric with the same base.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where a customer buys two items with different GST rates (e.g., 5% and 18%), and the total bill is given. Ask to find the taxable value of each item if their prices before GST are in a given ratio.",
+     "a": "A good problem: \"Riya buys a book (5% GST) and a pen (18% GST). The taxable prices are in ratio 3:2. Total bill = ₹1,236. Find taxable price of each.\" Expected solution: Let prices be 3x and 2x. Total with GST = 3x×1.05 + 2x×1.18 = 3.15x + 2.36x = 5.51x = 1236 → x = 224.32... (not neat). Better numbers: ratio 5:4, rates 12% and 18%, total ₹1,200 → 5x×1.12 + 4x×1.18 = 5.6x+4.72x=10.32x=1200 → x≈116.28. A poor problem uses only one GST rate or asks only for total GST, not requiring algebraic setup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

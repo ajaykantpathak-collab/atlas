@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_004",
+   "title": "c11_hist_cbse_01_004",
+   "questions": [
+    {
+     "q": "What were the two primary environmental challenges in southern Mesopotamia that made centralized management of irrigation and trade necessary for urban survival?",
+     "a": "The two primary challenges were: (1) Unpredictable flooding of the Euphrates and Tigris — channels could flood crops one year and change course the next, requiring coordinated embankment and canal maintenance; (2) Absence of local stone, metal, and quality timber — necessitating long-distance trade for essential materials, which required organized expeditions and record-keeping. A wrong answer (e.g., \"low rainfall\" or \"desert climate\") reveals the student confuses the *irrigated south* with the *northern steppe* where rainfall agriculture worked, missing that the south’s fertility came from river silt, not rain, and that scarcity of minerals — not food — drove trade.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the earliest Mesopotamian writing (c. 3200 BCE) emerged in temple economies of Uruk rather than in palaces or marketplaces.",
+     "a": "Writing emerged in temples because they were the first institutions to manage large-scale, multi-party transactions: collecting agricultural surplus (grain, fish, livestock), redistributing rations to laborers, organizing craft production (textiles, pottery), and coordinating long-distance trade for metals and stone. These activities involved deferred exchanges, multiple participants, and need for accountability — unlike kin-based household economies. A wrong answer (e.g., \"kings needed to record laws\" or \"merchants needed contracts\") reflects a later development (post-2600 BCE) and misses that early tablets (c. 3200 BCE) are *administrative lists* (oxen, bread, beer) from temple storehouses, not legal codes or trade invoices.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The city-state of Ur (c. 2500 BCE) was more socially stratified than Mohenjo-daro (c. 2600 BCE) because Ur’s Royal Cemetery contained gold vessels, lapis lazuli, and human sacrifices, while Harappan burials show minimal grave goods.\" Evaluate this claim using evidence from both civilizations.",
+     "a": "The claim is partially valid but oversimplified. Ur’s Royal Cemetery (Woolley’s excavations) *does* show extreme elite wealth and retainer sacrifice — clear markers of sharp hierarchy. However, Harappan burials’ simplicity may reflect *cultural norms* (egalitarian ideology, belief in afterlife without goods) rather than absence of stratification. Evidence of Harappan hierarchy exists in: citadel vs. lower town layout, seal ownership (elite control of trade), and craft specialization. A student who agrees uncritically misses that *absence of evidence is not evidence of absence* — and that Mesopotamian and Harappan elites expressed power differently (conspicuous burial vs. urban planning/standardization).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the temple in early Uruk (c. 3500–3000 BCE) with the role of the Great Bath/citadel complex in Mohenjo-daro. How did each institution shape urban labor and resource allocation?",
+     "a": "Uruk’s temple was an *economic engine*: it owned land, herds, and fisheries; employed thousands in weaving, milling, construction; stored and redistributed grain/rations; and used writing to track flows — making it the central node of redistribution. Mohenjo-daro’s citadel/Great Bath was likely *ritual-administrative*: no evidence of large-scale storage or production; instead, standardized bricks, weights, and drainage suggest *municipal planning* by a collective authority. The temple *commanded* labor (corvée for ziggurats); the citadel *coordinated* it (public works). A wrong answer equating both as \"religious centers\" misses the temple’s role as a *firm-like household* (oikos) managing production — a uniquely Mesopotamian institution.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the significance of the \"Enmerkar and the Lord of Aratta\" epic for understanding the relationship between kingship, writing, and long-distance trade in early Sumer.",
+     "a": "The epic reveals three linked developments: (1) Kingship *organized* trade — Enmerkar sends messengers for lapis lazuli and metals, showing royal control over exotic goods; (2) Writing *originated* as a royal tool — when messengers fail, Enmerkar invents writing on clay to transmit complex demands, marking writing’s birth in *statecraft*, not commerce; (3) Trade *drove* technological innovation — the need for metals (bronze) and prestige goods (lapis) pushed Uruk to develop transport (river boats), diplomacy, and record-keeping. A student who sees the epic as mere \"myth\" misses its function as a *charter narrative* legitimizing the king’s monopoly on external exchange and the scribe’s role in administration.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline (3000–2000 BCE) showing parallel urban developments in Mesopotamia (Uruk, Ur, Mari) and the Indus Valley (Mohenjo-daro, Harappa, Dholavira). Highlight three divergences in political centralization, writing use, and trade orientation.",
+     "a": "A strong answer will show:\n- **Political**: Mesopotamia → competing city-states with royal dynasties (Ur-Nanshe, Gilgamesh, Zimrilim); Indus → no palaces/temples, possible corporate/oligarchic rule.\n- **Writing**: Mesopotamia → cuneiform on clay, used for admin, law, literature, math (thousands of tablets); Indus → undeciphered script on seals/tablets, likely limited to trade/identity (fewer, shorter texts).\n- **Trade**: Mesopotamia → *outward* (import metals, stone, timber from Anatolia, Iran, Gulf); Indus → *maritime* (export cotton, beads, ivory to Mesopotamia via Dilmun/Magan).\nWeak answers list dates without *mechanism* (e.g., \"both had trade\") or ignore Mari’s pastoral-trade hybridity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

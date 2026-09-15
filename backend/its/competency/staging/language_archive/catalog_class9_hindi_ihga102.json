@@ -1,0 +1,224 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 2,
+ "chapter_title": "क्या लिखूँ?",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.102.1.1",
+   "title": "लेखन-प्रेरणा: गार्डिनर की मानसिक अवस्था और लेखक का परिश्रम",
+   "section": "1",
+   "definition": "अंग्रेज निबंधकार गार्डिनर मानते हैं कि लिखने के लिए एक खास मानसिक दशा चाहिए जिसमें भाव स्वयं उमंग बनकर बहने लगते हैं; इसके विपरीत पाठ के लेखक मानते हैं कि लेखन सोच, चिंता और लगन का फल है - 'हैट और खूँटी' के उदाहरण से यह भी समझ आता है कि भाव ही असली वस्तु है, विषय केवल टेक है।",
+   "formula": "-",
+   "key_idea": "विषय गौण है, लेखक की भावना और मेहनत प्रधान है - यही लेखन की पहली सीख है।",
+   "textbook_ref": "ihga102.txt lines 29-44 (गार्डिनर का कथन और हैट-खूँटी उदाहरण)",
+   "question_patterns": [
+    "Gardiner ke anusaar likhne ki maansik sthiti kaisi hoti hai",
+    "hat aur khoonti ka udaharan kis bhav ko darshata hai",
+    "lekhak aur Gardiner ke vicharon mein kya antar hai",
+    "nibandh likhne ke liye kya prerna aur parishram chahiye",
+    "vishay se adhik bhav pradhan hona kyon zaroori hai",
+    "likhne ki bheetari umang ka varnan apne shabdon mein kijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "गार्डिनर का मत रखिए",
+     "explain": "उनके अनुसार उमंग और आवेग की दशा में विषय की चिंता छूट जाती है।"},
+    {"step": 2, "action": "लेखक के अनुभव से तुलना कीजिए",
+     "explain": "लेखक को तो सोच-परिश्रम के बाद ही लेखन संभव लगता है।"},
+    {"step": 3, "action": "उदाहरण से निष्कर्ष निकालिए",
+     "explain": "खूँटी चाहे कोई भी हो, असली चीज हैट यानी भाव है।"}
+   ]
+  },
+  {
+   "id": "ihga.102.1.2",
+   "title": "विषय-चयन की दुविधा: दो पूछे गए विषयों की कठिनाई",
+   "section": "1",
+   "definition": "नमिता 'दूर के ढोल सुहावने होते हैं' और अमिता 'समाज-सुधार' पर आदर्श निबंध माँगती हैं; पहला विषय इतना छोटा लगता है कि उस पर लंबा लेख भरना कठिन है और दूसरा इतना विस्तृत कि पाँच पृष्ठों में समेटना कठिन प्रतीत होता है - यही विषय-चयन की व्यावहारिक दुविधा है।",
+   "formula": "-",
+   "key_idea": "छोटा विषय विस्तार माँगता है और विस्तृत विषय संक्षेप - लेखक को दोनों ओर संतुलन करना पड़ता है।",
+   "textbook_ref": "ihga102.txt lines 40-50 (नमिता-अमिता के आदेश और दोनों विषयों की कठिनाई)",
+   "question_patterns": [
+    "Namita aur Amita kis kis vishay par nibandh likhwana chahti hain",
+    "door ke dhol suhavane vishay par likhne mein kya kathinai aayi",
+    "samaj sudhaar jaise vistrit vishay ko panch pages mein kaise sameta jaye",
+    "nibandh ke liye vishay chunne ka sahi tareeka kya hai",
+    "do vishayon ko ek hi lekhe mein jodne ka upay kya nikla",
+    "chhota vishay bada lekhe mein kyon kathin lagta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों विषय पहचानिए",
+     "explain": "एक लोकोक्ति आधारित है और दूसरा सामाजिक विमर्श है।"},
+    {"step": 2, "action": "कठिनाई बताइए",
+     "explain": "एक में सामग्री कम, दूसरे में अत्यधिक - दोनों ही लेखक को उलझाते हैं।"},
+    {"step": 3, "action": "समाधान की ओर संकेत कीजिए",
+     "explain": "अंततः लेखक दोनों विषयों को एक ही लेख में गूँथ देते हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.102.1.3",
+   "title": "निबंध-शास्त्र के दो अंग: सामग्री और शैली",
+   "section": "1",
+   "definition": "आचार्यों के अनुसार निबंध के दो प्रधान अंग हैं - सामग्री (विचारों का संकलन) और शैली (अभिव्यक्ति का ढंग); सामग्री के लिए अध्ययन और मनन चाहिए, शैली के लिए प्रवाहमयी भाषा, जुड़े हुए छोटे वाक्य और पहले से बनी रूपरेखा जैसी युक्तियाँ सुझाई जाती हैं।",
+   "formula": "-",
+   "key_idea": "सामग्री जोड़ने के बाद शैली तय करना ही व्यवस्थित निबंध-रचना की पद्धति है।",
+   "textbook_ref": "ihga102.txt lines 54-99 (आचार्यों के कथन, रूपरेखा और भाषा-प्रवाह पर चर्चा)",
+   "question_patterns": [
+    "nibandh ke do pradhan ang kaun se hain",
+    "rooprekha banane ka kya mahatva hai nibandh lekhan mein",
+    "bhasha mein pravah kaise laya jaye - achariyon ke sujhav likhiye",
+    "saamagri ekatrit karne ke liye kya karna hota hai",
+    "chhota nibandh bade nibandh se behtar kyon kaha gaya hai",
+    "shaili nirdharit karne se pehle kya sochna chahiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों अंग स्पष्ट कीजिए",
+     "explain": "सामग्री विचारों का भंडार है, शैली उन्हें ढालने का ढंग।"},
+    {"step": 2, "action": "आचार्यों की युक्तियाँ गिनाइए",
+     "explain": "रूपरेखा, छोटे संबद्ध वाक्य और स्पष्ट प्रवाहमयी भाषा मुख्य सुझाव हैं।"},
+    {"step": 3, "action": "व्यावहारिक उपयोग बताइए",
+     "explain": "लेखन से पहले योजना बनाने से विचार बिखरते नहीं।"}
+   ]
+  },
+  {
+   "id": "ihga.102.1.4",
+   "title": "माँटेन की पद्धति: अनुभव-आधारित स्वच्छंद निबंध",
+   "section": "1",
+   "definition": "माँटेन को व्यक्तिगत निबंध पद्धति का जन्मदाता माना जाता है; उन्होंने जो देखा, सुना और अनुभव किया, वही लिपिबद्ध कर दिया - ऐसे निबंध कवि की कल्पना, आख्यायिका की सूक्ष्म दृष्टि या विद्वान की तर्क-विवेचना से नहीं, बल्कि लेखक की सच्ची अनुभूति और उल्लास से जीवंत होते हैं।",
+   "formula": "-",
+   "key_idea": "व्यक्तिगत अनुभव को स्वच्छंद ढंग से उडेलने वाली शैली निबंध साहित्य की एक अलग धारा है।",
+   "textbook_ref": "ihga102.txt lines 100-111 (अंग्रेजी निबंधकारों और माँटेन की पद्धति)",
+   "question_patterns": [
+    "Montaigne ki paddhati ke pramukh lakshan kya hain",
+    "swachchhand nibandh se kya abhipray hai",
+    "anubhav aadharit nibandh ki visheshta batayiye",
+    "nibandh lekhan ki angrez paddhati - Montaigne ke anubhav aadharit swachchhand lekhan ki visheshta kya hai",
+    "Montaigne ne apne nibandhon mein kya anubhav lipibaddh kiye",
+    "nibandh paddhati ka janmdata kise kaha gaya hai aur kyon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "पद्धति का स्वरूप बताइए",
+     "explain": "देखा-सुना-अनुभवा सब कुछ सीधे लिख देना इसकी पहचान है।"},
+    {"step": 2, "action": "विशेषताएँ उभारिए",
+     "explain": "इसमें लेखक की सच्ची अनुभूति, भावों की खरी अभिव्यक्ति और उल्लास रहता है।"},
+    {"step": 3, "action": "परिणाम बताइए",
+     "explain": "इसी धारा ने अंग्रेजी साहित्य में निबंधकारों को ऊँचा स्थान दिलाया।"}
+   ]
+  },
+  {
+   "id": "ihga.102.1.5",
+   "title": "'दूर के ढोल सुहावने': दूरी का प्रभाव और युवा-वृद्ध दृष्टि",
+   "section": "1",
+   "definition": "ढोल की कर्कश ध्वनि दूर से मधुर सुनाई देती है क्योंकि दूरी यथार्थ की कठोरता को छिपा देती है; इसी सूत्र पर तरुण भविष्य का उज्ज्वल चित्र देखकर क्रांति के समर्थक बनते हैं, जबकि वृद्ध अतीत के गौरव को सँजोते हैं - दोनों की वर्तमान से असंतुष्टि ही सुधारों का स्रोत बनती है।",
+   "formula": "-",
+   "key_idea": "दूर की चीज सुहावनी लगती है - यही लोकोक्ति युगांतरों में सुधार-चेतना की व्याख्या करती है।",
+   "textbook_ref": "ihga102.txt lines 121-155 (ढोल की ध्वनि, तरुण-वृद्ध तुलना, सुधारों का क्रम)",
+   "question_patterns": [
+    "door ke dhol suhavane kyon hote hain - path ke aadhar par likhiye",
+    "tarun aur vriddh dono vartaman se asantusht kyon rehte hain",
+    "tarun kranti ke samarthak aur vriddh atit gaurav ke sanrakshak kyon hote hain",
+    "dhol ki dhvani door se madhur kyon lagti hai",
+    "vartaman kal sudharon ka kal kyon kaha gaya hai",
+    "lokokti door ke dhol se humein kya seekh milti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "लोकोक्ति का भाव समझाइए",
+     "explain": "कर्कशता दूर तक नहीं पहुँचती, इसलिए वही शब्द दूर खड़े को मधुरता देते हैं।"},
+    {"step": 2, "action": "विस्तार में जोड़िए",
+     "explain": "दूरी केवल ध्वनि की नहीं, स्मृति और आकांक्षा की भी होती है।"},
+    {"step": 3, "action": "पीढ़ीगत निष्कर्ष निकालिए",
+     "explain": "युवा भविष्य और वृद्ध अतीत में सुख खोजते हैं, इसीलिए वर्तमान सुधार का काल रहता है।"}
+   ]
+  },
+  {
+   "id": "ihga.102.2.1",
+   "title": "समास: अर्थ, पूर्वपद-उत्तरपद और समास-विग्रह",
+   "section": "2",
+   "definition": "समास का अर्थ संक्षेप है - दो या अधिक स्वतंत्र शब्दों के मेल से बना संक्षिप्त नया शब्द; इसमें पहला पद पूर्वपद और दूसरा उत्तरपद कहलाता है तथा मेल का परिणाम समस्त पद कहलाता है; उसे खोलने की प्रक्रिया समास-विग्रह है - जैसे गंगाजल का विग्रह 'गंगा का जल' है।",
+   "formula": "-",
+   "key_idea": "समास शब्दों को छोटा कर अर्थ को सघन बनाता है; विग्रह से छिपा अर्थ-संबंध खुलता है।",
+   "textbook_ref": "ihga102.txt lines 283-300 (व्याकरण खंड: समास, पद और विग्रह)",
+   "question_patterns": [
+    "samas kise kehte hain - udaharan sahit paribhasha dijiye",
+    "purvapad aur uttarapad kya hote hain - udaharan dijiye",
+    "samast pad aur samas vigrah mein kya antar hai",
+    "gangajal shabd ka samas vigrah karke bhed ka naam likhiye",
+    "nibandh-shastr jaise samasik shabdon ka vigrah kijiye",
+    "samas shabdon ka sankshp kaise banata hai - samjhaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिभाषा अपने शब्दों में रखिए",
+     "explain": "शब्दों का संक्षेप ही समास का मूल स्वभाव है।"},
+    {"step": 2, "action": "पद-नाम बताइए",
+     "explain": "पहला अंग पूर्वपद, दूसरा उत्तरपद और मेल का फल समस्त पद है।"},
+    {"step": 3, "action": "विग्रह से पुष्टि कीजिए",
+     "explain": "विग्रह करने पर छिपे परसर्ग-संबंध सामने आ जाते हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.102.2.2",
+   "title": "समास के छह भेद: तत्पुरुष से अव्ययीभाव तक",
+   "section": "2",
+   "definition": "समास के छह प्रमुख भेद हैं - तत्पुरुष (उत्तरपद प्रधान, परसर्ग-लोप, जैसे रसोईघर), कर्मधारय (विशेषण-विशेष्य या उपमान-उपमेय भाव, जैसे नीलकमल), द्विगु (संख्यावाची पूर्वपद, जैसे तिरंगा), बहुव्रीहि (दोनों पद गौण, तीसरे का संकेत, जैसे पीतांबर), द्वंद्व (दोनों पद प्रधान, जैसे भाई-बहन) और अव्ययीभाव (पूर्वपद अव्यय, जैसे यथाशक्ति)।",
+   "formula": "-",
+   "key_idea": "कौन-सा पद प्रधान है, यही पहचान बताती है कि समास किस भेद का है।",
+   "textbook_ref": "ihga102.txt lines 301-354 (छह भेदों की परिभाषाएँ और उदाहरण)",
+   "question_patterns": [
+    "tatpurush samas ki pehchan kya hai - udaharan dijiye",
+    "bahuvrihi aur dwandv samas mein kya antar hai",
+    "dwigu samas kahan hota hai - sankhyavachi udaharan likhiye",
+    "neelkamal aur pitambar kis kis samas ke udaharan hain",
+    "avyayibhav samas mein purvapad kaisa hota hai",
+    "karmadharay samas ki pehchan udaharan sahit likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "प्रधान पद खोजिए",
+     "explain": "प्रधानता के नियम से ही भेद-निर्णय शुरू होता है।"},
+    {"step": 2, "action": "विग्रह लिखिए",
+     "explain": "विग्रह का रूप ही भेद का नाम तय करता है।"},
+    {"step": 3, "action": "भेद-नाम जोड़िए",
+     "explain": "हर भेद का एक स्मरणीय उदाहरण याद रखिए, जैसे पीतांबर बहुव्रीहि का।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "ihga102.txt lines 162-199 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "निबंध में 'हैट' और 'खूँटी' का उल्लेख किस भाव को सबसे अधिक उजागर करता है?",
+    "माँटेन की पद्धति लेखक के लिए किस निर्णय का आधार बनती है?",
+    "तरुणों और वृद्धों की तुलना किस पर आधारित है?",
+    "निबंध में अमीर खुसरो की कहानी का उल्लेख किस संदर्भ में किया गया है?",
+    "समाज-सुधार के संदर्भ में निबंध में क्या कहा गया है?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "ihga102.txt lines 200-210 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "निबंध लेखन के विषय में गार्डिनर और लेखक के विचारों में क्या अंतर है?",
+    "निबंधशास्त्र के आचार्यों ने आदर्श निबंध लिखने की कौन-सी युक्तियाँ सुझाई हैं?",
+    "निबंध लेखन के लिए देखने, सुनने और अनुभव करने की क्या उपयोगिता हो सकती है?"
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "ihga102.txt lines 283-354 (व्याकरण की बात - समास)",
+   "questions": [
+    "पाठ से सामासिक शब्द ढूँढ़कर उनका समास-विग्रह और भेद-नाम लिखिए।",
+    "पूर्वपद, उत्तरपद और समस्त पद को उदाहरण से समझाइए।",
+    "पाठ में आए उपसर्ग और प्रत्यय वाले शब्द छाँटकर लिखिए।"
+   ]
+  }
+ ]
+}

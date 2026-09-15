@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_001",
+   "title": "c11_bs_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define e-business as per the NCERT Class 11 Business Studies textbook. Use the exact three components (industry, trade, commerce) and specify the network medium.",
+     "a": "E-business is the conduct of industry, trade, and commerce using computer networks. A wrong answer that omits any of the three components (e.g., only \"buying and selling online\") reveals the student equates e-business with e-commerce, missing the internal functions like production planning, HR, and accounting that NCERT explicitly includes. If the student says \"internet\" only, they miss that firms use private networks (intranet) for internal processes — a critical distinction for Intra-B commerce.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"E-business and e-commerce mean the same thing — selling products on Amazon or Flipkart.\" Explain why this statement is incorrect using the NCERT distinction. Provide one example of an e-business activity that is NOT e-commerce.",
+     "a": "E-commerce covers only a firm's interactions with customers and suppliers over the internet (B2B and B2C). E-business is broader: it includes e-commerce PLUS other electronically conducted functions like production, inventory management, product development, accounting, finance, and HR management. Example: A manufacturer's production department adjusting output schedules in real-time based on live sales data from the marketing department via the company intranet is e-business (Intra-B) but not e-commerce. A wrong answer that gives \"online payment\" or \"digital marketing\" as the non-e-commerce example shows the student still confuses external transactional activities with internal operational functions.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following transactions into B2B, B2C, Intra-B, or C2C. Justify each classification in one sentence.\n(a) A car manufacturer orders tyres from a vendor via a dedicated supplier portal.\n(b) An employee submits a leave application on the company's HR intranet.\n(c) A student sells her used textbooks to another student on OLX.\n(d) A homemaker orders groceries on BigBasket for home delivery.",
+     "a": "(a) B2B — both parties are business firms (manufacturer and vendor) transacting for production inputs. (b) Intra-B — both parties are within the same business firm (employee and HR department) using intranet. (c) C2C — both origin and destination are consumers with no established market mechanism, using a platform (OLX) for peer-to-peer exchange. (d) B2C — business firm (BigBasket) interacting with end customer for final consumption. A wrong classification of (b) as B2C or (c) as B2C reveals the student focuses only on \"online platform\" rather than analysing the *identity of transacting parties* — the NCERT's primary basis for scope classification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare traditional business and e-business on the basis of: (i) nature of internal communication, (ii) business process cycle length, (iii) opportunity for physical pre-sampling. Use the NCERT Table 5.1 framework but explain *why* each difference arises from the use of computer networks.",
+     "a": "(i) Traditional: hierarchical (top-down); e-business: non-hierarchical (direct vertical/horizontal/diagonal) — because intranet allows any employee to access information directly without chain-of-command filtering. (ii) Traditional: sequential (purchase → production → marketing → sales) → longer cycle; e-business: simultaneous/parallel processes → shorter cycle — because digital information flows instantly across departments, enabling concurrent engineering. (iii) Traditional: much more; e-business: less (except digitable products like music/software where pre-sampling is tremendous) — because physical goods cannot be experienced digitally, but digital goods *are* the experience. A wrong answer that lists differences without the \"because\" clause shows rote memorisation of Table 5.1 without understanding the causal mechanism: *digitisation of information flow*.",
+     "self_check": true
+    },
+    {
+     "q": "\"E-business eliminates all risks of traditional business because everything is digital and traceable.\" Evaluate this statement. Identify at least three specific risks *unique* to or *amplified* in e-business (per NCERT 5.6) and explain why they do not exist or are lower in traditional face-to-face trade.",
+     "a": "The statement is false. Three e-business-specific/amplified risks: (1) Default on order/payment/delivery due to anonymity — in traditional trade, physical presence and arm's-length verification reduce this; (2) Data storage/transmission risks (hacking, virus/Vital Information Under Siege) — physical records in traditional business cannot be remotely copied or corrupted at scale; (3) Intellectual property/privacy threats — once digital information is online, controlling copying is nearly impossible, unlike physical catalogues or brochures. A wrong evaluation that agrees with the statement or lists only \"internet not working\" shows the student has not grasped the *structural* vulnerabilities introduced by cyber-personalities and open network architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal e-business model for a local bakery that currently only sells walk-in. Your model must include: (i) one B2C element, (ii) one B2B element, (iii) one Intra-B element, and (iv) specify which stage (pre-purchase, purchase/sale, delivery) each operates in. Draw a simple flowchart showing information flow between the four parties/departments.",
+     "a": "Good answer criteria: (i) B2C: Customer browses menu on WhatsApp/website, places order (pre-purchase + purchase stage). (ii) B2B: Bakery auto-orders flour/butter from supplier when inventory drops below threshold via supplier portal (purchase stage). (iii) Intra-B: Kitchen display system receives order instantly, updates inventory, triggers billing — all departments (sales, production, accounts) see real-time data (all stages). Flowchart must show: Customer → Bakery Frontend → (simultaneously) Kitchen Display + Inventory System + Billing + Supplier Portal. A poor answer that only creates a website for orders (B2C only) or misses the simultaneous information flow reveals the student views e-business as \"online shop\" rather than integrated digital nervous system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

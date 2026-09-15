@@ -1,0 +1,664 @@
+{
+ "class": "6",
+ "subject": "social_science",
+ "chapter": 9,
+ "chapter_title": "Family and Community",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees109.txt",
+ "concepts": [
+  {
+   "id": "c6ss.9.1",
+   "title": "Types of Families: Nuclear Family",
+   "section": "Types of Families",
+   "definition": "A nuclear family consists of only parents and their children living together in one household.",
+   "formula": "",
+   "key_idea": "A nuclear family is a small unit made up of parents and their unmarried children sharing a home and resources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a nuclear family and list its members.",
+    "How does a nuclear family differ from a joint family in terms of size?",
+    "Give two examples of situations where a nuclear family structure is common.",
+    "What are the advantages of living in a nuclear family?",
+    "Describe the daily life of a typical nuclear family."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the members that make up a nuclear family.",
+     "explain": "A nuclear family includes only parents and their children living together."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the described household contains only parents and children.",
+     "explain": "If grandparents, uncles, or aunts also live together, it is not a nuclear family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family is nuclear based on the membership check.",
+     "explain": "Only parent-child households qualify as nuclear families."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A household has a father, a mother, and their two children. What type of family is this?",
+     "solution": "The household contains only parents and their children, which matches the definition of a nuclear family.",
+     "answer": "Nuclear family"
+    },
+    {
+     "question": "Is a family with parents, children, and a grandmother living together a nuclear family? Explain.",
+     "solution": "Since the grandmother also lives in the same household, the unit goes beyond parents and children, so it is not a nuclear family.",
+     "answer": "No, it is not a nuclear family; it is an extended or joint family."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three characteristics of a nuclear family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain with an example why a nuclear family is smaller than a joint family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State whether the following is a nuclear family: a mother and her son living alone. Justify your answer.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.2",
+   "title": "Types of Families: Joint Family",
+   "section": "Types of Families",
+   "definition": "A joint family is one in which several generations of a family live together under one roof, sharing resources and responsibilities.",
+   "formula": "",
+   "key_idea": "A joint family includes grandparents, parents, children, and sometimes uncles, aunts, and cousins living and working together.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a joint family and name the generations usually present in it.",
+    "How does a joint family share responsibilities among its members?",
+    "Give two reasons why joint families were more common in earlier times.",
+    "Compare the size of a joint family with that of a nuclear family.",
+    "Describe one advantage and one challenge of living in a joint family."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the generations and relatives living in the given family.",
+     "explain": "A joint family typically has grandparents, parents, children, and other relatives together."
+    },
+    {
+     "step": 2,
+     "action": "Check whether multiple generations share the same household and resources.",
+     "explain": "Shared living and shared resources are the key markers of a joint family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family qualifies as a joint family.",
+     "explain": "If multiple generations live together with shared responsibilities, it is a joint family."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A household has grandparents, their two sons, the sons' wives, and the grandchildren. What type of family is this?",
+     "solution": "Multiple generations and related families live together and share resources, which matches the definition of a joint family.",
+     "answer": "Joint family"
+    },
+    {
+     "question": "A family has only a father and his two children. Is this a joint family? Why or why not?",
+     "solution": "Only one parent and children are present, with no multiple generations or extended relatives, so it does not meet the criteria of a joint family.",
+     "answer": "No, it is not a joint family; it is a nuclear family."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two relatives, apart from parents and children, who may live in a joint family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how responsibilities are divided in a joint family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a family with parents, children, and two uncles living together is a joint family. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.3",
+   "title": "Types of Families: Extended Family",
+   "section": "Types of Families",
+   "definition": "An extended family includes members beyond the nuclear family, such as grandparents, aunts, uncles, and cousins, who may or may not live in the same household.",
+   "formula": "",
+   "key_idea": "An extended family broadens the family circle to include relatives beyond parents and children, connected by blood or marriage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define an extended family and give two examples of relatives included in it.",
+    "Distinguish between a joint family and an extended family.",
+    "How does an extended family provide support to its members?",
+    "List three relatives who are part of an extended family but not a nuclear family.",
+    "Explain why an extended family network is important in Indian society."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the relatives listed in the given family description.",
+     "explain": "Extended families include relatives such as grandparents, aunts, uncles, and cousins."
+    },
+    {
+     "step": 2,
+     "action": "Check whether members beyond parents and children are included.",
+     "explain": "The presence of additional relatives beyond the nuclear unit indicates an extended family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family is an extended family.",
+     "explain": "If relatives beyond the nuclear family are part of the family network, it is an extended family."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A family consists of parents, children, and a paternal aunt who lives nearby and helps daily. What type of family is this?",
+     "solution": "The family includes a relative beyond the nuclear unit (the aunt), so it is an extended family.",
+     "answer": "Extended family"
+    },
+    {
+     "question": "A family has only a mother, father, and daughter. Is this an extended family?",
+     "solution": "No relatives beyond parents and the child are present, so it does not qualify as an extended family.",
+     "answer": "No, it is a nuclear family."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two differences between a nuclear family and an extended family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how an extended family supports children's upbringing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Check whether a family with parents, children, and a cousin living together is an extended family. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.4",
+   "title": "Roles and Responsibilities in a Family",
+   "section": "Roles and Responsibilities",
+   "definition": "Each member of a family has certain roles and responsibilities that contribute to the smooth functioning and well-being of the household.",
+   "formula": "",
+   "key_idea": "Family members share duties such as earning, cooking, caring for children, and supporting elders so that the household runs smoothly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List three responsibilities that parents typically have in a family.",
+    "How do children contribute to family responsibilities? Give two examples.",
+    "Explain why sharing responsibilities is important in a family.",
+    "Describe the role of elders in guiding a family.",
+    "Give an example of how family members support each other during difficulties."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the roles assigned to each family member in the given situation.",
+     "explain": "Roles may include earning, cooking, caring, studying, or guiding."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the responsibilities are shared among members.",
+     "explain": "Shared responsibilities ensure the well-being of the whole family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family functions well through shared roles.",
+     "explain": "A family functions smoothly when members fulfil their roles and support one another."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a family, the father earns, the mother manages the home, and the children help with chores. Is responsibility shared? Explain.",
+     "solution": "Each member has a defined role and contributes to the household, showing shared responsibility.",
+     "answer": "Yes, responsibilities are shared among family members."
+    },
+    {
+     "question": "A family where only one member does all the work. Is this a healthy distribution of responsibilities? Why?",
+     "solution": "All work resting on one member is not a healthy distribution, as it overburdens that person.",
+     "answer": "No, it is not healthy; responsibilities should be shared."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two responsibilities of children in a family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why elders are considered guides in a family.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a family where members share tasks equally functions well. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.5",
+   "title": "Family Values and Traditions",
+   "section": "Family Values and Traditions",
+   "definition": "Family values and traditions are the beliefs, customs, and practices passed down from one generation to the next within a family.",
+   "formula": "",
+   "key_idea": "Values such as respect, honesty, and cooperation, along with traditions like festivals and rituals, shape a family's identity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define family values and give two examples.",
+    "How are traditions passed from one generation to the next?",
+    "Explain the importance of festivals in strengthening family bonds.",
+    "List three values that a family may teach its children.",
+    "Describe one family tradition and explain its significance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the values or traditions described in the given situation.",
+     "explain": "Values include respect and honesty; traditions include festivals and rituals."
+    },
+    {
+     "step": 2,
+     "action": "Check whether these are passed down across generations.",
+     "explain": "Traditions and values are meaningful when they are transmitted from elders to children."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the practice is a family value or tradition.",
+     "explain": "If a belief or custom is shared across generations, it is a family value or tradition."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A family celebrates a harvest festival together every year and teaches children its meaning. Is this a family tradition? Explain.",
+     "solution": "The festival is celebrated regularly and its meaning is passed to children, which is a tradition.",
+     "answer": "Yes, it is a family tradition."
+    },
+    {
+     "question": "A child is taught to respect elders and speak truthfully. What kind of learning is this?",
+     "solution": "Respect and truthfulness are beliefs taught within the family, which are family values.",
+     "answer": "These are family values."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two family values and explain why they are important.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how a festival helps strengthen family bonds.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Check whether the practice of a family prayer each morning is a tradition. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.6",
+   "title": "Community and Its Types: Rural and Urban",
+   "section": "Community",
+   "definition": "A community is a group of people living together in a particular area who share common interests, customs, and a sense of belonging.",
+   "formula": "",
+   "key_idea": "Communities may be rural (villages, based on agriculture) or urban (towns and cities, based on trade and services), each with distinct features.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a community and list two features that bind its members.",
+    "Distinguish between a rural community and an urban community.",
+    "Give two examples of activities common in a rural community.",
+    "List three features of an urban community.",
+    "Explain how people in a community help one another."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the area and the shared features of the group described.",
+     "explain": "A community is defined by shared area, interests, and customs."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the setting is rural (village) or urban (town/city).",
+     "explain": "Rural communities are agriculture-based; urban communities are based on trade and services."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the type of community based on its features.",
+     "explain": "The setting and main activities determine whether the community is rural or urban."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A group of people live in a village and mostly farm for a living. What type of community is this?",
+     "solution": "The group lives in a village and depends on agriculture, which are features of a rural community.",
+     "answer": "Rural community"
+    },
+    {
+     "question": "People living in a city work in offices and shops. What type of community do they belong to?",
+     "solution": "The setting is a city with trade and service-based occupations, which are features of an urban community.",
+     "answer": "Urban community"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two differences between rural and urban communities.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example of cooperation in a rural community.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a town with markets and offices is an urban community. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.7",
+   "title": "Community Participation and Cooperation",
+   "section": "Community",
+   "definition": "Community participation means members actively taking part in collective activities, while cooperation means working together for common goals.",
+   "formula": "",
+   "key_idea": "When community members join hands to solve problems, celebrate events, or help neighbours, the community becomes stronger and more united.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define community participation with one example.",
+    "Explain how cooperation helps a community solve problems.",
+    "List three activities in which community members may participate together.",
+    "Describe how a community can help during a natural disaster.",
+    "Why is cooperation considered important for community life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the collective activity described in the situation.",
+     "explain": "Look for actions where members act together, such as cleaning or helping."
+    },
+    {
+     "step": 2,
+     "action": "Check whether members are cooperating towards a shared goal.",
+     "explain": "Cooperation means working together for a common purpose."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the activity shows community participation and cooperation.",
+     "explain": "If members act jointly for a shared goal, it demonstrates participation and cooperation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Residents of a colony together clean a public park every Sunday. What does this show?",
+     "solution": "Members are jointly working to maintain a shared space, which shows community participation and cooperation.",
+     "answer": "It shows community participation and cooperation."
+    },
+    {
+     "question": "A single person cleans the road alone and no one joins. Is this community cooperation? Explain.",
+     "solution": "Since only one person acts and others do not join, it is not an example of community cooperation.",
+     "answer": "No, it is not community cooperation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give two examples of community participation in a village.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how cooperation helps during a festival.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Check whether a group of neighbours organising a blood donation camp shows cooperation. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.8",
+   "title": "Interdependence of Family and Community",
+   "section": "Family and Community",
+   "definition": "Families and communities depend on each other: families form communities, and communities provide support, services, and a sense of belonging to families.",
+   "formula": "",
+   "key_idea": "A family is the basic unit of a community, and the community in turn supports families through shared resources, security, and social bonds.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain how families form a community.",
+    "List two ways in which a community supports a family.",
+    "Why is a family called the basic unit of a community?",
+    "Describe an example of interdependence between family and community.",
+    "How does a strong community benefit individual families?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify how the family and community interact in the given situation.",
+     "explain": "Look for support flowing from community to family or contributions from family to community."
+    },
+    {
+     "step": 2,
+     "action": "Check whether both sides depend on each other.",
+     "explain": "Interdependence means each side gives to and receives from the other."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation shows interdependence.",
+     "explain": "If family and community support each other, it shows interdependence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A family participates in a community festival, and the community helps the family during a medical emergency. What does this show?",
+     "solution": "The family contributes to the community and the community supports the family, showing interdependence.",
+     "answer": "It shows interdependence of family and community."
+    },
+    {
+     "question": "A family lives isolated and never interacts with neighbours. Does this show interdependence? Why?",
+     "solution": "Since there is no interaction or mutual support, it does not show interdependence.",
+     "answer": "No, it does not show interdependence."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two ways a family contributes to its community.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why a community needs families to function.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a school inviting families for a community event shows interdependence. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.9",
+   "title": "Social Institutions: Family, Community, and School",
+   "section": "Social Institutions",
+   "definition": "Social institutions are organised structures in society, such as the family, community, and school, that guide behaviour and meet people's needs.",
+   "formula": "",
+   "key_idea": "Family, community, and school are key social institutions that teach values, provide support, and prepare children for life in society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a social institution and give two examples.",
+    "How does a school function as a social institution?",
+    "List three roles of the family as a social institution.",
+    "Explain how community and school together shape a child.",
+    "Why are social institutions important for society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the institution described in the situation.",
+     "explain": "Determine whether it is the family, community, or school."
+    },
+    {
+     "step": 2,
+     "action": "Check whether it guides behaviour and meets people's needs.",
+     "explain": "Social institutions provide structure, values, and support."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether it is a social institution.",
+     "explain": "If the structure guides behaviour and serves social needs, it is a social institution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A school teaches children discipline, teamwork, and knowledge. Is the school a social institution? Explain.",
+     "solution": "The school provides structured learning and shapes behaviour, which are functions of a social institution.",
+     "answer": "Yes, the school is a social institution."
+    },
+    {
+     "question": "A market where people only buy goods and leave. Is this a social institution in the same sense as a family? Why?",
+     "solution": "A market mainly enables trade and does not primarily guide behaviour or socialise members like a family does.",
+     "answer": "No, it is not a social institution in the same sense as a family."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two functions of the family as a social institution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a school prepares children for community life.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Check whether a community library that organises reading sessions is a social institution. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.9.10",
+   "title": "Changing Nature of Families",
+   "section": "Changing Families",
+   "definition": "Families change over time due to factors such as migration, urbanisation, education, and new occupations, leading to shifts from joint to nuclear setups.",
+   "formula": "",
+   "key_idea": "Modern influences like city jobs and education have led many families to become smaller and nuclear, while still retaining values and bonds.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List two reasons why families are changing in modern times.",
+    "Explain how urbanisation affects family structure.",
+    "Compare a joint family of the past with a nuclear family of today.",
+    "Describe one positive and one negative effect of changing family structures.",
+    "How do families stay connected even when members live apart?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the factor causing change in the given family situation.",
+     "explain": "Factors include migration, urbanisation, education, or new jobs."
+    },
+    {
+     "step": 2,
+     "action": "Check how the factor alters the family structure.",
+     "explain": "Determine whether the family has become smaller, nuclear, or more dispersed."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the family has changed.",
+     "explain": "If a factor has shifted the structure or living pattern, the family has undergone change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A joint family moves to a city for jobs and splits into two nuclear households. What caused this change?",
+     "solution": "The shift to the city for employment led the joint family to split into nuclear units.",
+     "answer": "Urbanisation and new occupations caused the change."
+    },
+    {
+     "question": "A family uses video calls to stay in touch with relatives abroad. What does this show about changing families?",
+     "solution": "Even when members live apart, technology helps families stay connected, reflecting a modern change.",
+     "answer": "It shows families adapting to change while staying connected."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two effects of education on family structure.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain one way families maintain bonds despite living apart.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether migration to another state for work changes a family structure. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.9.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain types of families: nuclear family with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the members that make up a nuclear family.",
+     "explain": "A nuclear family includes only parents and their children living together."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the described household contains only parents and children.",
+     "explain": "If grandparents, uncles, or aunts also live together, it is not a nuclear family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family is nuclear based on the membership check.",
+     "explain": "Only parent-child households qualify as nuclear families."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.9.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain types of families: joint family with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the generations and relatives living in the given family.",
+     "explain": "A joint family typically has grandparents, parents, children, and other relatives together."
+    },
+    {
+     "step": 2,
+     "action": "Check whether multiple generations share the same household and resources.",
+     "explain": "Shared living and shared resources are the key markers of a joint family."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the family qualifies as a joint family.",
+     "explain": "If multiple generations live together with shared responsibilities, it is a joint family."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

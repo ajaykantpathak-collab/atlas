@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_104",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_104",
+   "title": "c6_math_ch09_104",
+   "questions": [
+    {
+     "q": "What is the purpose of using \"tally marks\" when counting a long list of items?",
+     "a": "Tally marks help in keeping an accurate count of items as you process a list one by one without losing track. If a student says they are just for decoration or to make the list look \"math-y,\" they have missed the fundamental purpose of organization for error-free counting.",
+     "self_check": true
+    },
+    {
+     "q": "If a pictograph uses a symbol of a star to represent 10 books, what does \"half a star\" represent?",
+     "a": "Half a star represents 5 books. If a student says \"it depends\" or \"it represents 1 book,\" they do not understand that the scale applies proportionally to the symbol, which is a common error when interpreting partial images in data displays.",
+     "self_check": true
+    },
+    {
+     "q": "You have 30 apples, 45 oranges, and 15 mangoes. If you want to draw a bar graph, what would be a logical scale to use on the vertical axis?",
+     "a": "A logical scale would be \"1 unit = 5 items\" or \"1 unit = 10 items.\" If a student suggests \"1 unit = 1 item,\" they fail to realize the graph would become too tall to fit on a standard page; if they suggest \"1 unit = 100 items,\" the bars would be too tiny to compare effectively.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we leave equal gaps between bars in a bar graph?",
+     "a": "Equal gaps ensure that the bars are visually independent and distinct, making it easy to compare the height of one category against another. A student who thinks the gaps are arbitrary or just for \"extra space\" does not recognize that a bar graph represents discrete categories that should not be confused with continuous measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Look at a bar graph showing rainfall over five days. If the bar for Monday is twice as high as the bar for Tuesday, can we conclude it rained exactly twice as much? Explain.",
+     "a": "Yes, because in a standard bar graph, the height of the bar is directly proportional to the frequency. If a student says \"no,\" they might be overthinking or failing to grasp that the linear scale is specifically designed to make such comparisons accurate.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a bar graph would be a better choice than a pictograph.",
+     "a": "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e.g., 273 versus 274), where drawing icons would be tedious or impossible to display accurately. A poor answer would focus on \"looks\" rather than the efficiency of representing large numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

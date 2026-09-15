@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_001",
+   "title": "c11_soc_cbse_02_001",
+   "questions": [
+    {
+     "q": "A student says: \"Sociology studies society, which we all live in, so we already know the words. Special terminology just makes it complicated.\" What is the fundamental flaw in this statement?",
+     "a": "The flaw is equating *familiarity with social life* with *analytical understanding of social structures*. Common sense treats social phenomena as natural, obvious, and unproblematic (e.g., \"caste is just tradition\"), while sociological concepts expose them as constructed, variable, and structurally embedded (e.g., \"caste is a closed stratification system based on endogamy and ritual purity\"). A wrong answer reveals the student confuses *lived experience* with *theoretical explanation*—they haven't grasped that concepts are tools for analysis, not labels for recognition.",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT text, Berger (1976) writes: \"We are so well acquainted with the social institutions that surround us that we cannot see them clearly and precisely.\" Explain this paradox in your own words using the example of \"social control.\"",
+     "a": "The paradox is that intimate familiarity creates *invisibility of structure*. We experience social control daily (parental scolding, traffic fines, peer pressure) but lump them together as \"just how things are.\" Sociological terminology separates them into *formal vs. informal*, *coercive vs. normative*, *internalised vs. external*, revealing patterns (e.g., informal control dominates in primary groups; formal control scales with state capacity). A wrong answer treats the quote as merely \"we take things for granted\" without showing how *conceptual disaggregation* solves the blindness.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"concepts as keys\" metaphor to the study of \"honour killing\" in India. Which sociological concept(s) would you select as keys, and what specific analytical doors would each unlock?",
+     "a": "Select *patriarchy* (unlocks gendered power structure), *community honour as social capital* (unlocks collective reputation economy), *informal social control* (unlocks non-state enforcement mechanisms), and *caste endogamy* (unlocks boundary-maintenance logic). Each concept isolates a distinct causal strand: patriarchy explains *why* women's sexuality is policed; honour-as-capital explains *why* families enforce norms violently; informal control explains *how* sanctions operate without courts; caste endogamy explains *which* boundaries trigger lethal violence. A weak answer lists concepts without mapping each to a specific analytical door.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a functionalist and a conflict theorist would define \"social stratification.\" What does this divergence reveal about the nature of sociological concepts?",
+     "a": "Functionalist (Davis & Moore): stratification is a *functional necessity* ensuring \"the most important positions are filled by the most qualified persons\" via differential rewards. Conflict theorist (Marx): stratification is *exploitative structure* where dominant classes monopolise means of production and extract surplus labour. The divergence reveals that concepts are *theoretically loaded*—they embed assumptions about society's core logic (consensus vs. coercion). A wrong answer merely states \"they disagree\" without showing how each definition *generates different research questions* (e.g., functionalist asks \"what rewards motivate?\"; conflict asks \"who benefits from inequality?\").",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since sociological concepts are contested and change over time (e.g., 'caste' now includes political mobilisation, not just ritual purity), they are unreliable for scientific study.\" Defend or critique using the NCERT's position.",
+     "a": "Critique: The NCERT explicitly states concepts \"are entry points in our understanding, not the final answer\" and that \"we both use and also constantly interrogate or question the concepts.\" Contestability is a *feature*, not a bug—it reflects sociology's reflexivity. As society changes (e.g., caste becoming a vote bank), concepts *must* evolve to remain analytically sharp. Reliability comes from *transparent theoretical anchoring* (stating which perspective's definition you use), not from fixed meanings. A wrong answer either defends the claim (missing the reflexive epistemology) or says \"all science has changing concepts\" without linking to sociology's specific *interpretive* nature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sociological concept (neologism or recombination) to analyse a contemporary Indian phenomenon not fully captured by existing terms in Chapter 2. Define it precisely and show what analytical door it opens.",
+     "a": "Example: **\"Digital Caste Capital\"** — the conversion of caste-based social networks into algorithmic visibility and platform monetisation (e.g., caste-specific matrimonial apps, YouTube channels mobilising jati identity for ad revenue). *Analytical door*: reveals how *traditional stratification adapts to platform capitalism*—caste is not just surviving but being *reproduced and valorised* through digital infrastructure. A poor answer invents a label without showing *what existing concepts miss* (e.g., \"cyber caste\" without specifying the capital conversion mechanism).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

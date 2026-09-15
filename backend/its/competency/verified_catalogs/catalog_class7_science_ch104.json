@@ -1,0 +1,150 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Acids, Bases and Salts",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc102.txt",
+ "concepts": [
+  {
+   "id": "gesc.4.1.1",
+   "title": "Properties of Acids and Bases",
+   "section": "4.1",
+   "definition": "Acids are substances that taste sour and have an acidic chemical nature, while bases are substances that taste bitter, feel soapy to the touch, and have a basic chemical nature.",
+   "formula": "N/A",
+   "key_idea": "Acids are indeed sour; bases are both bitter and soapy.",
+   "textbook_ref": "gesc104.txt lines 10-35",
+   "question_patterns": [
+    "what are the characteristics of acids",
+    "how do bases feel when touched",
+    "identify the nature of a substance based on taste",
+    "distinguish between acidic and basic substances",
+    "justify why properties of acids and bases matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check taste and texture",
+     "explain": "Acids taste sour; bases taste bitter and feel soapy."
+    },
+    {
+     "step": 2,
+     "action": "Classify the substance by its chemical nature",
+     "explain": "A sour taste indicates an acidic nature, while a bitter and soapy feel indicates a basic nature."
+    },
+    {
+     "step": 3,
+     "action": "Verify with an indicator if tasting is unsafe",
+     "explain": "Use litmus or turmeric to confirm the classification without relying on taste alone."
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.2.1",
+   "title": "Indicators",
+   "section": "4.2",
+   "definition": "Indicators are special substances that change their color when exposed to acidic or basic solutions, allowing us to identify their chemical nature without tasting them.",
+   "formula": "N/A",
+   "key_idea": "Indicators signal acidity or basicity through color change.",
+   "textbook_ref": "gesc104.txt lines 36-50",
+   "question_patterns": [
+    "what is an indicator",
+    "how do indicators help identify substances",
+    "list some natural indicators",
+    "what happens to litmus in an acidic solution",
+    "state two key points about indicators"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe color change",
+     "explain": "Litmus turns red in acid and blue in base."
+    },
+    {
+     "step": 2,
+     "action": "Select an appropriate indicator",
+     "explain": "Natural indicators like litmus, turmeric, or china rose petals reveal whether a solution is acidic or basic through a distinct color change."
+    },
+    {
+     "step": 3,
+     "action": "Record the indicator response",
+     "explain": "The observed color confirms the chemical nature of the solution without tasting it."
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.3.1",
+   "title": "Neutralisation Reaction",
+   "section": "4.3",
+   "definition": "Neutralisation is a chemical process where an acid and a base react to form both salt and water, releasing heat in the process.",
+   "formula": "acid + base = salt + water + heat",
+   "key_idea": "Acid and base cancel each other's effects to create both salt and water.",
+   "textbook_ref": "gesc104.txt lines 140-165",
+   "question_patterns": [
+    "define neutralisation",
+    "what are the products of a neutralisation reaction",
+    "does neutralisation release heat",
+    "calculate the outcome of mixing acid and base",
+    "describe neutralisation reaction with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Combine reactants",
+     "explain": "Acid and base are mixed in suitable amounts."
+    },
+    {
+     "step": 2,
+     "action": "Account for energy",
+     "explain": "Heat is evolved during the reaction."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products formed",
+     "explain": "The reaction produces a salt and water, which are the characteristic products of neutralisation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc104.txt lines 150-160",
+   "concept": "gesc.4.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "What happens when {acid} reacts with {base}?",
+   "extracted_variables": {
+    "acid": "hydrochloric acid",
+    "base": "sodium hydroxide"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify reaction",
+     "explain": "Neutralisation occurs between HCl and NaOH."
+    },
+    {
+     "step": 2,
+     "action": "Determine products",
+     "explain": "The reaction produces sodium chloride (salt) and water."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gesc104.txt lines 180-210",
+   "questions": [
+    "State differences between acids and bases.",
+    "Describe the process of neutralisation with an example.",
+    "How will you identify hydrochloric acid, sodium hydroxide, and sugar solution using turmeric?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

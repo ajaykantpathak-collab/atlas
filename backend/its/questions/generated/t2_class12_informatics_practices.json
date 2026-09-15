@@ -1,0 +1,228 @@
+{
+ "catalog": "t2_class12_informatics_practices",
+ "note": "Wave-2 graded top-ups for class 12 Informatics Practices pools (leip101-107). Numeric answers or one-term factual keys; machine-graded.",
+ "concepts": [
+  {"id": "leip101.1", "title": "GST, FinalPrice and EMI Computation", "questions": [
+    {"q": "A car lists at Rs 400000. With 12 percent GST added, what is the final price in rupees?", "a": "448000"},
+    {"q": "That final price splits into 10 equal EMIs of how many rupees each?", "a": "44800"}
+  ]},
+  {"id": "leip101.2", "title": "String Functions: LEFT, RIGHT, INSTR, LENGTH, TRIM", "questions": [
+    {"q": "Which SQL function reports where a substring first sits, answering 0 when absent?", "a": "INSTR"},
+    {"q": "Which function shaves padding spaces from both ends of a string?", "a": "TRIM"}
+  ]},
+  {"id": "leip101.3", "title": "Date Functions: YEAR, MONTH, DAY, DAYNAME", "questions": [
+    {"q": "Which function returns the weekday name of a stored date?", "a": "DAYNAME"},
+    {"q": "An employee's service month counter was 240 at joining and is 252 now. How many months of service is that?", "a": "12"}
+  ]},
+  {"id": "leip101.4", "title": "Aggregate Functions: MAX, MIN, AVG, SUM, COUNT", "questions": [
+    {"q": "Eight car prices total 4608733. What does AVG(Price) return?", "a": "576091.625"},
+    {"q": "Which aggregate counts every row regardless of NULLs: COUNT(*) or COUNT(column)?", "a": "COUNT(*)"}
+  ]},
+  {"id": "leip101.5", "title": "GROUP BY and HAVING Clauses", "questions": [
+    {"q": "Which clause filters buckets after aggregation?", "a": "HAVING"},
+    {"q": "WHERE cannot filter buckets because it filters rows before or after grouping?", "a": "before"}
+  ]},
+  {"id": "leip101.6", "title": "Set Operations: UNION, INTERSECT, MINUS", "questions": [
+    {"q": "Which set operation shows a row shared by both tables only once?", "a": "UNION"},
+    {"q": "Which set operation keeps only rows present in both tables?", "a": "INTERSECT"}
+  ]},
+  {"id": "leip101.7", "title": "Cartesian Product Degree and Cardinality", "questions": [
+    {"q": "DANCE has 4 rows and MUSIC has 5. How many rows does their cartesian product hold?", "a": "20"},
+    {"q": "Their degrees are 3 and 3. What is the product relation's degree?", "a": "6"}
+  ]},
+  {"id": "leip101.8", "title": "JOIN and NATURAL JOIN on Two Tables", "questions": [
+    {"q": "Joining 3 tables on equality needs how many joins?", "a": "2"},
+    {"q": "Which join drops the duplicated common column automatically?", "a": "NATURAL JOIN"}
+  ]},
+  {"id": "leip101.9", "title": "Single Row versus Aggregate Functions", "questions": [
+    {"q": "POWER and UPPER return one result per row. Are they single-row or aggregate functions?", "a": "single-row"},
+    {"q": "Aggregate functions swallow a group of rows and return how many values per group?", "a": "1"}
+  ]},
+  {"id": "leip102.1", "title": "Series Creation from Scalars, Arrays and Dictionary", "questions": [
+    {"q": "A series is built from 4 values but 5 custom labels. What does pandas raise?", "a": "ValueError"},
+    {"q": "Without explicit labels, what is the last position of a 6-value series?", "a": "5"}
+  ]},
+  {"id": "leip102.2", "title": "Positional versus Labelled Slicing", "questions": [
+    {"q": "The positional slice [1:3] returns how many values?", "a": "2"},
+    {"q": "A labelled slice spans three labels including the end label. How many values does it return?", "a": "3"}
+  ]},
+  {"id": "leip102.3", "title": "Series Arithmetic and NaN Alignment", "questions": [
+    {"q": "Two series share 3 labels and their union holds 7. How many NaN results appear when they are added?", "a": "4"},
+    {"q": "A label unique to one side produces what in the output?", "a": "NaN"}
+  ]},
+  {"id": "leip102.4", "title": "fill_value Methods: add, sub, mul, div", "questions": [
+    {"q": "With fill_value=1000, seriesA.sub(seriesB) at a label where A has 2 and B lacks the label gives what?", "a": "-998"},
+    {"q": "Which argument stands in for a missing side before computing?", "a": "fill_value"}
+  ]},
+  {"id": "leip102.5", "title": "DataFrame from Dictionary of Lists and Series", "questions": [
+    {"q": "Dictionary keys become the what of a DataFrame: columns or rows?", "a": "columns"},
+    {"q": "A label that a series lacks turns into what cell value?", "a": "NaN"}
+  ]},
+  {"id": "leip102.6", "title": "DataFrame Attributes: shape, size, T", "questions": [
+    {"q": "A DataFrame has shape (4, 3). What is its size?", "a": "12"},
+    {"q": "Which attribute flips a DataFrame's rows and columns?", "a": "T"}
+  ]},
+  {"id": "leip102.7", "title": "Adding and Dropping Rows and Columns", "questions": [
+    {"q": "Which axis value does drop() use to remove columns?", "a": "axis=1"},
+    {"q": "Assigning to a fresh column label appends a column or raises an error?", "a": "appends a column"}
+  ]},
+  {"id": "leip102.8", "title": "append Method for DataFrames", "questions": [
+    {"q": "Which append() setting renumbers the stacked rows from zero?", "a": "ignore_index=True"},
+    {"q": "Which append() setting raises an error on duplicate labels?", "a": "verify_integrity=True"}
+  ]},
+  {"id": "leip102.9", "title": "CSV Import Export and Series versus ndarray", "questions": [
+    {"q": "Which function loads a comma separated file into a DataFrame?", "a": "read_csv()"},
+    {"q": "Which to_csv() setting suppresses the row labels?", "a": "index=False"}
+  ]},
+  {"id": "leip103.1", "title": "Column Maximum and Minimum Marks", "questions": [
+    {"q": "Scores are 92, 95, 85, 80, 75, 50. What is the column maximum?", "a": "95"},
+    {"q": "What is the score range (max minus min) for that column?", "a": "45"}
+  ]},
+  {"id": "leip103.2", "title": "Column Sum and Mean of Marks", "questions": [
+    {"q": "Twelve Maths marks total 231. What is their mean?", "a": "19.25"},
+    {"q": "Which method adds a numeric column end to end?", "a": "sum()"}
+  ]},
+  {"id": "leip103.3", "title": "Raman Row Sum Percentage", "questions": [
+    {"q": "Raman's Unit Test 1 row reads 22, 21, 18, 20, 21. What is the row sum?", "a": "102"},
+    {"q": "Against the ceiling of 25 marks per subject over 5 subjects, what percentage is that total?", "a": "81.6"}
+  ]},
+  {"id": "leip103.4", "title": "Median of Even Unit Test Column", "questions": [
+    {"q": "Four Maths marks ordered 15, 20, 22, 23: what is the median?", "a": "21"},
+    {"q": "For an even count, the median averages how many central values?", "a": "2"}
+  ]},
+  {"id": "leip103.5", "title": "Mode of the Hindi Column", "questions": [
+    {"q": "In the Hindi column, which mark appears three times to become the mode?", "a": "24"},
+    {"q": "That mode appears 3 times among 12 entries. What is its share in percent?", "a": "25 percent"}
+  ]},
+  {"id": "leip103.6", "title": "GROUP BY UT-wise Mean", "questions": [
+    {"q": "Which three-word strategy names GROUP BY's working: split, apply and combine?", "a": "split-apply-combine"},
+    {"q": "UT 3 holds 4 students whose Maths marks total 65. What is the UT 3 Maths mean?", "a": "16.25"}
+  ]},
+  {"id": "leip103.7", "title": "pivot_table Mean for Duplicate Entries", "questions": [
+    {"q": "Two blue-pen rows priced 50 and 20 collapse into which pivot_table cell value?", "a": "35"},
+    {"q": "Which aggregate does pivot_table() apply by default?", "a": "mean"}
+  ]},
+  {"id": "leip103.8", "title": "fillna Percentage for Missing Marks", "questions": [
+    {"q": "Filling an absent mark with zero gives a filled total of 60 over a ceiling of 100. What percentage is that?", "a": "60 percent"},
+    {"q": "Which fillna method copies the previous value forward?", "a": "pad"}
+  ]},
+  {"id": "leip103.9", "title": "Sorting Values and Altering the Index", "questions": [
+    {"q": "Which argument flips sort_values() to descending order?", "a": "ascending=False"},
+    {"q": "Which method promotes a column to be the row index?", "a": "set_index()"}
+  ]},
+  {"id": "leip103.10", "title": "MySQL Import Export with sqlalchemy", "questions": [
+    {"q": "Which sqlalchemy function builds the connection engine?", "a": "create_engine()"},
+    {"q": "Which to_sql() setting overwrites an existing table: fail, replace or append?", "a": "replace"}
+  ]},
+  {"id": "leip104.1", "title": "Plotting using Matplotlib", "questions": [
+    {"q": "Which pyplot function displays the finished figure on screen?", "a": "show()"},
+    {"q": "Which pyplot function draws a line chart from two equal-length sequences?", "a": "plot()"},
+    {"q": "plot(x, y) demands what relationship between the two lists' lengths?", "a": "equal length"},
+    {"q": "Which function adds a heading to the figure?", "a": "title()"}
+  ]},
+  {"id": "leip104.2", "title": "Customisation of Plots Marker Colour Linewidth", "questions": [
+    {"q": "What does the format string 'r--' draw?", "a": "a red dashed line"},
+    {"q": "Which argument sets a line's thickness in points?", "a": "linewidth"},
+    {"q": "The format string 'g^' places which marker: triangles or circles?", "a": "triangles"},
+    {"q": "Which argument sets the shape drawn at each data point?", "a": "marker"}
+  ]},
+  {"id": "leip104.3", "title": "Pandas Plot Function", "questions": [
+    {"q": "Which kind value draws a vertical bar chart in df.plot()?", "a": "bar"},
+    {"q": "Which kind value draws a horizontal bar chart?", "a": "barh"},
+    {"q": "Which kind value draws a box plot?", "a": "box"},
+    {"q": "For most plot kinds, what becomes the x axis: the index or the values?", "a": "the index"}
+  ]},
+  {"id": "leip104.4", "title": "Bar Chart Percentage Share", "questions": [
+    {"q": "A bar of 40 among totals of 200 contributes what share in percent?", "a": "20 percent"},
+    {"q": "Shares computed over one column always sum to what number?", "a": "100"}
+  ]},
+  {"id": "leip104.5", "title": "Line Chart Reading and Comparison", "questions": [
+    {"q": "Line A reads y=30 and line B reads y=18 at x=5. What is the vertical gap at that x?", "a": "12"},
+    {"q": "A line rises from (0, 10) to (2, 30). What is its slope?", "a": "10"}
+  ]},
+  {"id": "leip105.1", "title": "Types of Networks LAN MAN WAN", "questions": [
+    {"q": "Which network type spans a building or campus?", "a": "LAN"},
+    {"q": "Which network type covers a city, like cable networks across town?", "a": "MAN"},
+    {"q": "Which network type spans countries or the world?", "a": "WAN"},
+    {"q": "A Bluetooth headset link forms which small network type?", "a": "PAN"}
+  ]},
+  {"id": "leip105.2", "title": "Network Devices Repeater Switch Router", "questions": [
+    {"q": "Which device regenerates a weakening signal?", "a": "repeater"},
+    {"q": "Which device broadcasts incoming data to every port?", "a": "hub"},
+    {"q": "Which device forwards frames only to the intended port using MAC addresses?", "a": "switch"},
+    {"q": "Which device translates between different protocol systems?", "a": "gateway"}
+  ]},
+  {"id": "leip105.3", "title": "Bandwidth and Data Transfer Time", "questions": [
+    {"q": "How many bits are in one byte -- the factor most often missed in transfer-time sums?", "a": "8"},
+    {"q": "A 10 MB file crosses a 20 Mbps link. How many seconds does it take?", "a": "4"}
+  ]},
+  {"id": "leip105.4", "title": "Web Address URL and DNS", "questions": [
+    {"q": "Which system translates a domain name into an IP address?", "a": "DNS"},
+    {"q": "A URL has protocol, domain and what third part?", "a": "path"},
+    {"q": "Machines route traffic by which numeric address?", "a": "IP address"},
+    {"q": "Which encryption layer separates https from http?", "a": "TLS"}
+  ]},
+  {"id": "leip105.5", "title": "Network Topologies Star Bus Tree", "questions": [
+    {"q": "Which topology taps one shared backbone wire?", "a": "bus"},
+    {"q": "Which topology links every node to a central switch?", "a": "star"},
+    {"q": "Failure of the central device downs which topology entirely?", "a": "star"},
+    {"q": "Which topology links every node to every other, at the highest cost?", "a": "mesh"}
+  ]},
+  {"id": "leip105.6", "title": "Voice over Internet Protocol and Video Conferencing", "questions": [
+    {"q": "What does VoIP carry as packets over IP networks?", "a": "telephone calls"},
+    {"q": "Which application joins distant sites with live two-way audio and video?", "a": "video conferencing"},
+    {"q": "Which tolerates delay better: file transfer or live voice?", "a": "file transfer"},
+    {"q": "Conferencing quality tracks available bandwidth and which delay property?", "a": "latency"}
+  ]},
+  {"id": "leip106.1", "title": "Digital Footprints", "questions": [
+    {"q": "Deliberately shared posts form which kind of digital footprint?", "a": "active"},
+    {"q": "Browsing logs collected without a deliberate post form which footprint?", "a": "passive"},
+    {"q": "Screenshots, caches and shares mean online deletion is never what?", "a": "guaranteed"},
+    {"q": "Assembling a person's footprints builds a what?", "a": "profile"}
+  ]},
+  {"id": "leip106.2", "title": "Netizen and Net Etiquettes", "questions": [
+    {"q": "What is a responsible citizen of the digital society called?", "a": "netizen"},
+    {"q": "Typing messages in all capitals reads online as what behaviour?", "a": "shouting"},
+    {"q": "What should you do before sharing a social media post?", "a": "verify"},
+    {"q": "Forwarding pirated files violates which etiquettes: file sharing or communication?", "a": "file sharing"}
+  ]},
+  {"id": "leip106.3", "title": "Data Protection and Privacy", "questions": [
+    {"q": "How many combinations does a 4-digit numeric PIN allow?", "a": "10000"},
+    {"q": "Which verification step adds a one-time code to the password?", "a": "two-step verification"}
+  ]},
+  {"id": "leip106.4", "title": "Intellectual Property Right and Licensing", "questions": [
+    {"q": "Which intellectual property right covers software, books and artwork?", "a": "copyright"},
+    {"q": "Which intellectual property right covers inventions?", "a": "patent"},
+    {"q": "Which open source licence requires sharing the source of modified works?", "a": "GPL"},
+    {"q": "A software licence is the legal what between user and owner?", "a": "contract"}
+  ]},
+  {"id": "leip106.5", "title": "Cyber Crime and Cyber Safety Categories", "questions": [
+    {"q": "Impersonating someone using their personal data is which cyber crime?", "a": "identity theft"},
+    {"q": "Fraudulent messages posing as trusted services to harvest credentials practice what?", "a": "phishing"},
+    {"q": "Harassment through digital channels is cyber bullying or cyber what?", "a": "stalking"},
+    {"q": "Unauthorised entry into computer systems is called what?", "a": "hacking"}
+  ]},
+  {"id": "leip106.6", "title": "E-waste and Digital Society Impact", "questions": [
+    {"q": "Discarded electronics containing toxic materials are called what waste?", "a": "e-waste"},
+    {"q": "What should happen to e-waste rather than dumping?", "a": "recycling"},
+    {"q": "Unequal access to devices and connectivity is called the digital what?", "a": "divide"},
+    {"q": "Access, jobs and services belong to which side of the societal ledger: benefits or costs?", "a": "benefits"}
+  ]},
+  {"id": "leip107.1", "title": "Approaches for Solving Projects", "questions": [
+    {"q": "What must be stated before code is written: requirements or the report?", "a": "requirements"},
+    {"q": "Turning one large unknown into several small solvable pieces is called what?", "a": "decomposition"},
+    {"q": "Testing should happen during the build or only at the end?", "a": "during the build"},
+    {"q": "Writing what as you go lets the final report write itself?", "a": "documentation"}
+  ]},
+  {"id": "leip107.2", "title": "Teamwork Components", "questions": [
+    {"q": "What kind of goal should a team hold: a shared one or private ones?", "a": "shared goal"},
+    {"q": "Roles should be divided to match members' what?", "a": "strengths"},
+    {"q": "Teams fail more on coordination or on skill?", "a": "coordination"},
+    {"q": "Which reviews surface problems while they are small: regular short ones or one final review?", "a": "regular short reviews"}
+  ]},
+  {"id": "leip107.3", "title": "Project Descriptions and Data Handling Tasks", "questions": [
+    {"q": "A good school project ends in an answer or in a program?", "a": "an answer"},
+    {"q": "A category sold 30 of 200 total items. What share does it represent in percent?", "a": "15 percent"}
+  ]}
+ ]
+}

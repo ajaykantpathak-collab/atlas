@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Parliamentary System: Legislature and Executive",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.106.6.1",
+   "title": "India's Parliamentary System",
+   "section": "6",
+   "definition": "India follows a parliamentary form of government in which the executive is drawn from and answerable to the legislature; the Constituent Assembly debates of 1949 chose this model so that elected representatives directly control the government of the day.",
+   "formula": "-",
+   "key_idea": "The government sits in the legislature and answers to it - the heart of parliamentary democracy.",
+   "textbook_ref": "hees106.txt lines 1-76 (constitutional choice, Constituent Assembly debates)",
+   "question_patterns": [
+    "what is a parliamentary system of government",
+    "why did India choose the parliamentary model",
+    "how is the government formed in a parliamentary system",
+    "what does collective responsibility mean",
+    "compare the parliamentary and presidential systems",
+    "why must ministers be members of parliament"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the connection",
+     "explain": "Ministers are chosen from among members of parliament."},
+    {"step": 2, "action": "note the accountability",
+     "explain": "The council of ministers must keep the confidence of the Lok Sabha."},
+    {"step": 3, "action": "trace the origin",
+     "explain": "The 1949 Assembly debates show why India adopted this responsible model."}
+   ]
+  },
+  {
+   "id": "hees.106.6.2",
+   "title": "The Legislature: Parliament and Its Functions",
+   "section": "6",
+   "definition": "Parliament - the Lok Sabha and the Rajya Sabha with the President - is the legislature that makes laws, controls finances, questions the government and represents the people; its legislative functions follow a bill's journey from introduction to presidential assent.",
+   "formula": "-",
+   "key_idea": "Parliament debates, makes laws and holds the government to account on the people's behalf.",
+   "textbook_ref": "hees106.txt lines 256-290 (legislative functions), 220-260",
+   "question_patterns": [
+    "name the two houses of the Indian parliament",
+    "what are the main functions of the legislature",
+    "how does a bill become a law in India",
+    "what is the difference between the Lok Sabha and the Rajya Sabha",
+    "how does parliament control the executive",
+    "describe the legislative procedure in parliament"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compose the legislature",
+     "explain": "Elected Lok Sabha and mostly elected Rajya Sabha together form Parliament."},
+    {"step": 2, "action": "make the laws",
+     "explain": "Bills pass through readings and votes in both houses before presidential assent."},
+    {"step": 3, "action": "watch the purse and the government",
+     "explain": "Budget approval, questions and motions keep the executive answerable."}
+   ]
+  },
+  {
+   "id": "hees.106.6.3",
+   "title": "The Executive: President, Prime Minister and Council of Ministers",
+   "section": "6",
+   "definition": "The executive runs the government: the President is the constitutional head who acts on advice, while the Prime Minister and the council of ministers take real decisions; the Vice President presides over the Rajya Sabha, and ministers answer for their departments.",
+   "formula": "-",
+   "key_idea": "Nominal head in the President, real power with the Prime Minister and ministers.",
+   "textbook_ref": "hees106.txt lines 220-260 (President, Vice President), 290-400 (MPs, ministers)",
+   "question_patterns": [
+    "who is the head of the Indian state and what are the powers of the office",
+    "how is the Prime Minister appointed",
+    "what is the role of the council of ministers",
+    "why does the Vice President preside over the Rajya Sabha",
+    "distinguish the nominal executive from the real executive",
+    "what are the functions of the President of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "place the President",
+     "explain": "Elected indirectly, the President appoints the Prime Minister and acts on ministerial advice."},
+    {"step": 2, "action": "place the council",
+     "explain": "The Prime Minister leads the majority party's ministers who run departments."},
+    {"step": 3, "action": "note the accountability",
+     "explain": "Ministers answer to parliament and hold office while confidence lasts."}
+   ]
+  },
+  {
+   "id": "hees.106.6.4",
+   "title": "Rights, Duties and the Working of Democracy",
+   "section": "6",
+   "definition": "The parliamentary system works inside constitutional limits: the legislature and executive must uphold fundamental rights and follow the directive principles while making policy, keeping governance bound to justice, liberty and equality for all citizens.",
+   "formula": "-",
+   "key_idea": "Power flows within constitutional rails - rights and principles guide both parliament and government.",
+   "textbook_ref": "hees106.txt lines 290-347 (upholding fundamental rights and directive principles)",
+   "question_patterns": [
+    "how do fundamental rights limit the parliament and the executive",
+    "what are directive principles of state policy",
+    "why must laws respect fundamental rights",
+    "give an example of a law guided by directive principles",
+    "how does the constitution check the power of the government",
+    "what happens when a law violates fundamental rights"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the limits",
+     "explain": "No law or executive act may violate fundamental rights."},
+    {"step": 2, "action": "note the goals",
+     "explain": "Directive principles guide policy toward social and economic justice."},
+    {"step": 3, "action": "see the balance",
+     "explain": "Courts review, parliament legislates and the executive implements within these bounds."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hees106.txt parliamentary system sections",
+   "questions": [
+     "Why did the Constituent Assembly choose the parliamentary system for India?",
+     "Explain the term collective responsibility.",
+     "Distinguish between the Lok Sabha and the Rajya Sabha."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hees106.txt executive sections",
+   "questions": [
+     "Describe the position and powers of the President of India.",
+     "What is the role of the council of ministers?",
+     "How does parliament control the executive?"
+   ]
+  }
+ ]
+}

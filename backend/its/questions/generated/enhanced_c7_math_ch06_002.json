@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_002",
+   "title": "c7_math_ch06_002",
+   "questions": [
+    {
+     "q": "Which of the following integers is an odd number: $-45$, $0$, $102$, or $338$?",
+     "a": "$-45$ is the correct answer. Students who choose $0$ often confuse zero with odd numbers or think it has no parity, while students who choose $102$ or $338$ confuse the last digit's divisibility rules or forget that negative numbers also possess parity based on divisibility by $2$.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of any two odd numbers is always an even number using algebraic expressions.",
+     "a": "Let the two odd numbers be $2a + 1$ and $2b + 1$. Their sum is $(2a + 1) + (2b + 1) = 2a + 2b + 2 = 2(a + b + 1)$, which has a factor of $2$ and is therefore even. A student who answers incorrectly often tries to test only a single pair of numbers like $3 + 5 = 8$ without realizing that algebraic proof guarantees the rule for all possible integers.",
+     "self_check": true
+    },
+    {
+     "q": "If $x$ is an odd integer, what is the parity of the expression $3x + 5$? Show your calculation.",
+     "a": "The expression evaluates to an even number. \nStep 1: Substitute $x = 2n + 1$ into the expression.\nStep 2: $3(2n + 1) + 5 = 6n + 3 + 5$.\nStep 3: Combine like terms: $6n + 8$.\nStep 4: Factor out $2$: $2(3n + 4)$. Since it is a multiple of $2$, the result is even. \nStudents who miscalculate often substitute numbers incorrectly or fail to distribute the coefficient $3$ to both terms inside the parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parity of $product = (2n)(2m)$ versus $product = (2n+1)(2m+1)$ for any integers $n$ and $m$. What pattern do you observe about the product of two even numbers versus two odd numbers?",
+     "a": "The product of two even numbers is $4nm = 2(2nm)$, which is always even. The product of two odd numbers is $(2n+1)(2m+1) = 4nm + 2n + 2m + 1 = 2(2nm + n + m) + 1$, which is always odd. A student who struggles here fails to expand algebraic brackets correctly or mixes up addition rules with multiplication rules for parity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that \"the sum of three consecutive integers is always divisible by $6$.\" Evaluate this claim using parity properties.",
+     "a": "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$. While this sum is always a multiple of $3$, it is not always divisible by $6$. For example, if $n=1$, the sum is $1 + 2 + 3 = 6$ (divisible by $6$), but if $n=2$, the sum is $2 + 3 + 4 = 9$ (not divisible by $6$, because $9$ is odd). A student who judges the claim as true likely checked only one example and confused divisibility by $3$ with divisibility by $6$.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a linear algebraic expression in variable $x$ whose value is guaranteed to be odd for any integer value of $x$. Explain why your expression works.",
+     "a": "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$. Adding $7$ (an odd number) to an even number always yields an odd number. A weak answer provides a simple number like \"13\" or uses an expression like $x + 1$ without accounting for all integer types or fails to prove it algebraically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

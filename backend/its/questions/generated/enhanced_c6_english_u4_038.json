@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u4_038",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u4_038",
+   "title": "c6_english_u4_038",
+   "questions": [
+    {
+     "q": "What is the main difference between a simple sentence and a complex sentence?",
+     "a": "A simple sentence has one independent clause, while a complex sentence includes at least one dependent clause. A wrong answer suggests the student confuses them with compound sentences or does not recognize what a \"complete thought\" is.",
+     "self_check": true
+    },
+    {
+     "q": "Read this: \"Although Prabhat felt nervous, he played the game.\" Is this a simple or complex sentence? Why?",
+     "a": "It is a complex sentence because \"Although Prabhat felt nervous\" cannot stand alone as a sentence. A wrong answer reveals the student thinks the presence of two verbs automatically makes it a \"simple\" sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Turn the simple sentence \"Surya smiled\" into a complex sentence by adding a dependent clause.",
+     "a": "Example: \"When the match ended, Surya smiled.\" This requires the student to attach a dependent thought (using a subordinate conjunction) to the main clause. A wrong answer shows the student does not understand how to create a dependent clause.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the sentence: \"Because it was raining, we stopped the game.\" Identify the dependent clause and the independent clause.",
+     "a": "Dependent: \"Because it was raining\"; Independent: \"we stopped the game.\" A wrong answer shows the student cannot identify which part of the sentence provides a complete meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this sentence: \"I went home because.\" Is this a complete complex sentence? Why or why not?",
+     "a": "No, it is incomplete because \"because\" requires a reason to follow it to make it a proper dependent clause. A wrong answer indicates the student does not understand that dependent clauses must contain both a subject and a verb.",
+     "self_check": true
+    },
+    {
+     "q": "Create a complex sentence about playing a sport in your school playground.",
+     "a": "Acceptable answers follow the pattern: [Dependent clause] + [Independent clause] or vice versa (e.g., \"If we finish our homework, we will play cricket\"). Poor answers lack a dependent clause or are just two simple sentences joined incorrectly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

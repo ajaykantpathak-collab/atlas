@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_009",
+   "title": "c12_hs_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the fundamental difference between a mechanical finish and a chemical finish in terms of the mechanism of action on the fabric.",
+     "a": "Mechanical finishes use physical forces (heat, pressure, friction, tension) to alter fabric surface/structure without chemical reaction; chemical finishes apply chemical agents that bond with fibres or form a polymer film to impart new properties. A wrong answer (e.g., \"mechanical finishes use machines, chemical finishes use chemicals\") reveals confusion between equipment and mechanism — sanforizing uses a machine but works by controlled compressive shrinkage (physical), while a softener applied by the same padding mangle works by chemical lubrication.",
+     "self_check": true
+    },
+    {
+     "q": "A cotton fabric is passed through heated rollers under high pressure to produce a high-gloss surface. Identify the finish, classify it, and explain why the gloss may disappear after washing.",
+     "a": "The finish is calendaring (specifically friction calendaring) — a mechanical finish. The gloss is produced by flattening fibres and fusing surface fibres under heat/pressure; it is not chemically bonded, so laundering restores fibre mobility and the gloss fades. A student who says \"the chemical wears off\" misclassifies it as chemical and misunderstands the physical nature of the surface modification.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer wants to prevent a cotton shirting fabric from shrinking more than 1% after repeated home laundering. Which mechanical finish should be applied, and what is the principle behind it?",
+     "a": "Sanforizing (compressive shrinkage). The fabric is fed through a rubber blanket stretched over a steam-heated cylinder; when the blanket contracts, it compresses the fabric, forcing yarns closer and removing residual shrinkage potential. A student suggesting \"calendaring\" confuses surface gloss with dimensional stability; calendaring does not guarantee residual shrinkage control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the durability of a fluorocarbon-based water-repellent finish and a wax-based water-repellent finish on a polyester-cotton blend. Which will withstand more launderings and why?",
+     "a": "Fluorocarbon finish is more durable. Fluoropolymers form covalent bonds with fibre surfaces and have low surface energy that resists surfactant penetration during washing; wax finishes are merely deposited on the surface and are removed by detergents and mechanical action. A student claiming \"both are chemical so both are durable\" misses the critical distinction between reactive (durable) and non-reactive (temporary) chemical finishes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of a formaldehyde-based resin wrinkle-resistant finish for children's sleepwear considering current safety regulations and consumer preferences. Propose an alternative.",
+     "a": "Unsuitable. Formaldehyde resins release free formaldehyde, a known carcinogen and skin irritant, which is restricted by FSSAI/BIS standards for children's wear. Alternative: formaldehyde-free resin (e.g., DMDHEU with blocked isocyanate) or butanetetracarboxylic acid (BTCA) — a polycarboxylic acid cross-linker that provides durable press with low formaldehyde release. A student recommending \"no finish\" ignores the functional need for wrinkle resistance; the competency is balancing performance with safety.",
+     "self_check": true
+    },
+    {
+     "q": "Design a finish sequence for a 100% cotton fabric intended for premium summer shirting that must have: (a) soft handle, (b) low shrinkage, (c) wrinkle resistance, (d) soil release. Specify mechanical/chemical, order, and justify each step.",
+     "a": "1. Singeing (mechanical) — remove protruding fibres for smooth surface. 2. Desizing/scouring/bleaching (wet prep) — not finishes but essential prep. 3. Sanforizing (mechanical) — compressive shrinkage control before resin to avoid distortion. 4. Pad-dry-cure with DMDHEU resin + catalyst + softener (chemical) — imparts wrinkle resistance and soft handle simultaneously. 5. Fluorocarbon soil-release agent applied in same bath or separate pad (chemical) — durable soil release. Order matters: mechanical shrinkage control before resin curing; softener and soil-release must be compatible with resin (non-ionic softener). A student putting softener before resin would get poor cross-linking; putting sanforizing after resin would distort the cured fabric.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

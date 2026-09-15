@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_006",
+   "title": "c12_geo_cbse_18_006",
+   "questions": [
+    {
+     "q": "Define spatial data and give one example from a topographical map.",
+     "a": "Spatial data refers to data that has a geographic location reference (e.g., coordinates, address, topology). Example: the contour lines on a topographical map representing elevation — each line has a specific location. A wrong answer (e.g., \"temperature values on a map\") reveals the student confuses the attribute (non-spatial) with the geometry (spatial).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a table of state-wise population totals is non-spatial data, but becomes spatial when joined to a state boundary shapefile.",
+     "a": "The table alone lacks geographic coordinates — it only has state names and numbers (non-spatial). When joined to a shapefile containing state polygons with coordinates, each record gains a location, enabling mapping. A wrong answer (e.g., \"the table has coordinates\") shows the student does not grasp that non-spatial data requires a spatial key (like state name) to link to geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Given a dataset of 50 soil sample points with pH values, classify each column as spatial or non-spatial: Sample_ID, Latitude, Longitude, Depth_cm, pH, Soil_Type.",
+     "a": "Spatial: Latitude, Longitude (direct coordinates). Non-spatial: Sample_ID (identifier), Depth_cm (measurement attribute), pH (attribute), Soil_Type (categorical attribute). A wrong classification (e.g., marking pH as spatial) indicates the student thinks any numerical field is spatial; they must understand only location-referencing fields are spatial.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of spatial and non-spatial data in creating a choropleth map of literacy rates by district. Which type defines the district boundaries and which provides the shading values?",
+     "a": "Spatial data (district boundary polygons) defines the \"where\" — the geometry for each district. Non-spatial data (literacy rate per district) provides the \"what\" — the attribute values used for shading. A wrong answer swapping the two shows the student cannot map the conceptual roles to the map-making workflow.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For analyzing the spread of a disease, only the spatial data of patient locations is needed; non-spatial data like age and symptoms is irrelevant.\" Justify your answer.",
+     "a": "The statement is false. Spatial data shows where cases cluster, but non-spatial attributes (age, symptoms, travel history) are essential to understand vulnerability, transmission patterns, and to design targeted interventions. A student agreeing reveals they see spatial data as sufficient for all geographical analysis, missing the explanatory power of attribute data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple data structure (list the fields) for a GIS layer representing \"Major Rivers of India\" that includes both spatial and non-spatial components. Specify which fields are spatial.",
+     "a": "Fields: River_ID (non-spatial), River_Name (non-spatial), Length_km (non-spatial), Basin_Area_sqkm (non-spatial), Geometry (spatial — polyline with coordinates). Spatial field: Geometry only. A poor answer listing Length_km as spatial shows confusion between a measured attribute and the actual location geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

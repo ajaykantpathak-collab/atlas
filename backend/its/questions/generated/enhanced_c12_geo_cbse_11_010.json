@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_010",
+   "title": "c12_geo_cbse_11_010",
+   "questions": [
+    {
+     "q": "Name the two countries from which the High-Yielding Variety (HYV) seeds of wheat and rice were introduced in India during the Green Revolution.",
+     "a": "Correct: Wheat HYVs came from Mexico (CIMMYT, Norman Borlaug’s dwarf varieties); rice HYVs came from the Philippines (IRRI, IR8 'Miracle Rice'). A wrong answer (e.g., \"USA and Japan\" or \"Punjab and Haryana\") reveals the student confuses the *origin of the germplasm* with the *regions of adoption in India* — a common error because textbooks often highlight Punjab/Haryana as the 'Green Revolution belt' without reiterating the international source.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Green Revolution initially remain confined to the northwestern states (Punjab, Haryana, western Uttar Pradesh) and not spread simultaneously to eastern India?",
+     "a": "Correct: HYV seeds are highly input-responsive *only* under assured, controlled soil moisture. The northwestern states had extensive canal irrigation (Bhakra-Nangal, Yamuna canals) and tubewell networks, plus fertile alluvial soils. Eastern India (Bihar, eastern UP, West Bengal) had high rainfall but poor water control (floods/droughts), fragmented landholdings, and inadequate rural credit — making the 'package' unviable. A wrong answer focusing only on \"soil fertility\" or \"farmer awareness\" misses the *hydrological prerequisite*: protective irrigation vs. productive irrigation distinction (node c12_geo_cbse_11_005).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the cropping intensity for a district where Net Sown Area (NSA) is 1,20,000 hectares and Gross Cropped Area (GCA) is 1,80,000 hectares. Interpret the result in the context of Green Revolution technology.",
+     "a": "Step 1: Recall formula — Cropping Intensity (CI) = (GCA / NSA) × 100. Step 2: Substitute values: CI = (1,80,000 / 1,20,000) × 100 = 1.5 × 100 = 150%. Step 3: Interpretation — CI > 100% means double cropping (some area sown twice a year). Step 4: Green Revolution link — HYV wheat (rabi) + HYV rice (kharif) on same field, enabled by tubewell irrigation, raised CI from ~110% (pre-1960s) to >150% in Punjab. A wrong calculation (e.g., using NSA/GCA) or interpreting 150% as \"1.5 crops per year\" without linking to *irrigation-dependent multiple cropping* shows procedural error and lack of conceptual integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ecological consequences of the Green Revolution in the northwestern alluvial plains (Punjab-Haryana) versus the eastern rainfed regions (Chhattisgarh-Odisha) where it spread later.",
+     "a": "Correct: Northwestern plains — groundwater depletion (tubewell overdraft), soil salinisation/alkalisation (flood irrigation + poor drainage), nitrate pollution, loss of agro-biodiversity (monoculture rice-wheat). Eastern regions — less groundwater stress (higher rainfall) but *increased* chemical runoff into rivers, displacement of traditional flood-tolerant rice varieties and pulses, soil acidification from urea overuse. A one-size-fits-all answer (\"soil degradation everywhere\") fails to distinguish *hydrological regime* (irrigated vs. rainfed) as the driver of divergent ecological footprints — a key analytical skill for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Green Revolution solved India's food security problem but created a new crisis of agricultural sustainability.\" Support your judgment with three specific pieces of evidence from the NCERT chapter.",
+     "a": "Judgment: Partially true — it achieved *national* foodgrain self-sufficiency (production rose from 82 MT in 1960-61 to 264 MT in 2013-14), but sustainability crisis is real and regionally specific. Evidence 1: Water table in Punjab falling ~0.5–1 m/year due to rice-wheat cycle (p. 37: \"degradation of cultivable land... alkalisation and salinisation... waterlogging\"). Evidence 2: Displacement of legumes (gram, tur) from irrigated cropping pattern broke natural nitrogen fixation, raising fertiliser dependence (p. 37: \"Leguminous crops have been displaced... obliterated the process of natural fertilization\"). Evidence 3: Small/marginal farmers indebted due to high input costs (p. 37: \"inputs of modern agriculture are very expensive... trap of indebtedness\"). A vague answer (\"it caused pollution\") without citing *mechanisms* (waterlogging, nitrate leaching, fiscal squeeze) lacks evaluative depth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point sustainable intensification plan for a 2-hectare farm in central Punjab that maintains current rice-wheat yield but reduces groundwater extraction by 30% and chemical fertiliser use by 20%.",
+     "a": "Good answer criteria: (1) Replace 50% rice area with short-duration maize/basmati (less water); (2) Adopt Direct Seeded Rice (DSR) instead of puddled transplanting — saves ~25% irrigation water; (3) Laser land leveling for uniform water application; (4) Integrate green manure (dhaincha) before wheat to fix 40-60 kg N/ha, cutting urea; (5) Use leaf colour chart (LCC) for need-based nitrogen top-dressing. Poor answer: generic \"use organic farming\" or \"drip irrigation\" without addressing *rice-wheat system constraints* (rice needs standing water; drip is uneconomical for dense cereals) shows ignorance of crop-specific agro-hydrology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

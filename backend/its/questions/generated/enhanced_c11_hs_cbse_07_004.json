@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_004",
+   "title": "c11_hs_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the WHO definition of health and name its three dimensions. How does the textbook define \"nutrition\" in relation to health?",
+     "a": "WHO defines health as \"a state of complete physical, mental, and social well-being and not merely the absence of disease.\" The three dimensions are physical, mental, and social health. The textbook defines nutrition as being \"concerned with maintenance of body organs and tissues in structure and function\" and \"growth and development of the body.\" A wrong answer (e.g., \"health means no sickness\" or \"nutrition is just eating fruits\") reveals the student is stuck at a middle-school level and has not internalized the holistic, multidimensional definition required for Class 11 board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why nutrition and health are called \"intimately interlinked\" (bidirectional). Give two distinct physiological mechanisms — one showing how nutrition affects health, and one showing how health affects nutrition.",
+     "a": "Nutrition → health: Adequate protein and micronutrients (e.g., zinc, vitamin A) maintain immune cell integrity and antibody production, increasing resistance to infection. Health → nutrition: During diarrhoea (illness), nutrient absorption drops while nutrient losses (electrolytes, zinc) rise, and appetite falls — so health status directly alters nutrient requirements and utilization. A wrong answer that only lists \"good food makes you healthy\" misses the reverse pathway and the metabolic mechanisms (e.g., infection-induced catabolism, malabsorption) that are examinable at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old girl consumes 1800 kcal/day, 40 g protein, 15 mg iron, and 600 mg calcium daily. Using the ICMR RDA for her age group (Energy: 2200 kcal, Protein: 46 g, Iron: 28 mg, Calcium: 800 mg), calculate the percentage adequacy for each nutrient. Identify which two nutrients are most deficient and suggest one food source from the textbook's composition table to improve each.",
+     "a": "Step 1: % adequacy = (Intake ÷ RDA) × 100.  \nEnergy: (1800/2200)×100 = 81.8%. Protein: (40/46)×100 = 87.0%. Iron: (15/28)×100 = 53.6%. Calcium: (600/800)×100 = 75.0%.  \nStep 2: Most deficient: Iron (53.6%) and Calcium (75.0%).  \nStep 3: From the table, 150 g soyabean provides 10.4 mg iron and 240 mg calcium — adding 100 g soyabean would supply ~6.9 mg iron and 160 mg calcium, significantly closing both gaps.  \nA wrong answer that only calculates percentages without identifying the critical deficits or linking to actual food sources shows inability to apply composition data to real dietary planning — a core board competency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"undernutrition\" and \"overnutrition\" using the textbook's criteria. Then explain why India is said to face a \"double burden of malnutrition\" with one urban and one rural statistic from the NFHS-4 data given in the text.",
+     "a": "Undernutrition = intake < requirement (causes low weight, stunting, wasting, micronutrient deficiencies). Overnutrition = intake > requirement (causes overweight/obesity, diet-related NCDs like diabetes, hypertension). Double burden = coexistence of both in the same population. NFHS-4: Urban women overweight/obese = 31.3%; rural women = 14.3%. Urban men = 26.6%; rural men = 15.0%. A wrong answer that defines overnutrition only as \"eating too much junk food\" without mentioning chronic disease risk, or that quotes outdated NFHS-3 data, shows lack of precision with current Indian epidemiological terminology required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Providing free rice and wheat through PDS will solve India's malnutrition problem.\" Use the four factors of nutritional well-being (food security, care for vulnerable, health for all, safe environment) to justify your evaluation.",
+     "a": "The statement is insufficient. PDS addresses only food security (cereal calories) but not: (1) Care for vulnerable — no guarantee of diverse diet (pulses, vegetables, milk) for pregnant women/children; (2) Health for all — infections like diarrhoea, worms, malaria deplete nutrients even if intake is adequate; (3) Safe environment — contaminated water causes diarrhoea, reducing absorption. Without all four factors, cereal-only security fails to prevent stunting, anaemia, or the double burden. A wrong answer that agrees with the statement shows a reductionist view ignoring the multi-factorial framework explicitly taught in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day balanced diet menu for a 17-year-old rural boy (heavy activity) using only locally available foods: wheat, bajra, bengal gram dal, spinach, milk, jaggery, groundnut oil. Ensure it meets ≥90% RDA for energy, protein, iron, and calcium. Present as a table with food, quantity (g), and nutrient contribution from the composition table.",
+     "a": "A good answer provides a table with at least 5 meals, uses the ICMR composition values per 100 g, scales to quantities, sums nutrients, and shows % RDA ≥90% for all four. Example: Wheat 300g (1038 kcal, 35.4g protein, 123mg Ca, 15.9mg Fe) + Bajra 100g (361kcal, 11.6g protein, 42mg Ca, 8mg Fe) + Bengal gram dal 75g (270kcal, 12.8g protein, 42mg Ca, 4mg Fe) + Spinach 150g (39kcal, 3g protein, 109.5mg Ca, 26.1mg Fe) + Milk 300ml (approx 180kcal, 9.6g protein, 360mg Ca, 0.3mg Fe) + Jaggery 30g (114kcal, 0g protein, 24mg Ca, 3.3mg Fe) + Oil 25g (225kcal). Total ~2227 kcal, 72.4g protein, 700.5mg Ca, 57.6mg Fe → meets RDA (Energy 3000, Protein 55g, Iron 28mg, Calcium 800mg) except calcium slightly low — add 100g more milk. A poor answer omits calculations, uses unrealistic quantities, or ignores the composition table — showing inability to translate theory into practical meal planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

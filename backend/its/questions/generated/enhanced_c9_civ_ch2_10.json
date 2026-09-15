@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_10",
+   "title": "c9_civ_ch2_10",
+   "questions": [
+    {
+     "q": "What is the minimum constitutional requirement for a coalition government to assume office at the Centre after a general election?",
+     "a": "The coalition must demonstrate the support of a majority of the total membership of the Lok Sabha (currently 272 out of 543) through a floor test or by submitting a list of supporting MPs to the President. A wrong answer (e.g., \"the single largest party automatically forms government\" or \"a simple majority of those present and voting\") reveals confusion between the plurality principle (first-past-the-post) and the parliamentary confidence principle — the student thinks winning the most seats is sufficient, ignoring that the Prime Minister must command a majority in the House.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a Common Minimum Programme (CMP) considered essential for a stable coalition government, and what happens if coalition partners disagree on an issue *not* covered in the CMP?",
+     "a": "A CMP is a pre-negotiated policy document listing only those agenda items all partners agree on; it acts as the governance glue. Issues outside the CMP are handled through continuous negotiation or consensus — if consensus fails, the coalition risks collapse or the issue is dropped. A wrong answer (e.g., \"CMP is a legal contract enforceable by courts\" or \"partners must agree on everything\") reveals the misconception that coalitions operate like single-party governments with a fixed manifesto, ignoring the inherent need for ongoing compromise and the distinction between binding agreement and political understanding.",
+     "self_check": true
+    },
+    {
+     "q": "In the 2019 Karnataka Assembly elections, the BJP emerged as the single largest party (104 seats) but the Congress (80) and JD(S) (37) formed a post-poll coalition claiming 117 seats together. The Governor invited the BJP leader first. Was this constitutionally correct? Explain using the Sarkaria Commission guidelines.",
+     "a": "Yes, it was constitutionally correct. The Sarkaria Commission (1988) recommended the Governor invite the \"single largest party or pre-poll alliance\" first to attempt government formation. Since the BJP was the single largest party and no pre-poll alliance existed, the Governor followed convention. The Congress-JD(S) coalition was a *post-poll* alliance, which gets a chance only if the first invitee fails to prove majority. A wrong answer (e.g., \"the coalition should have been invited first because they had more combined seats\") reveals ignorance of the constitutional convention that prioritizes pre-poll mandates and the single largest party to avoid opportunistic post-election realignments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stability of a coalition government formed by a pre-poll alliance (e.g., NDA 2014) versus a post-poll coalition (e.g., UPA 2004). Identify two structural reasons why pre-poll alliances tend to be more stable.",
+     "a": "Pre-poll alliances campaign on a joint manifesto, signal voter consent for the coalition, and have pre-negotiated seat-sharing and power-sharing formulas. Post-poll coalitions lack a joint electoral mandate, negotiate power-sharing after results (creating distrust), and often include ideologically disparate parties forced together only by arithmetic. A wrong answer focusing only on \"number of parties\" or \"ideology\" misses the crucial distinction: the *timing of the agreement relative to the election* shapes legitimacy, voter expectations, and institutionalized coordination mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Coalition governments are inherently bad for economic reforms because they require consensus among diverse partners, leading to policy paralysis.\" Use evidence from India's 1991, 1999, and 2014 governments.",
+     "a": "The argument is partially valid but oversimplified. The 1991 minority Congress government (supported externally by Left parties) pushed landmark liberalization. The 1999 NDA (pre-poll alliance) continued reforms. The 2014 single-party majority also reformed. However, UPA-II (2009-14) saw policy paralysis due to coalition compulsions (e.g., retail FDI, nuclear deal). The key variable is not coalition *per se* but *type of coalition* (pre-poll vs post-poll), *ideological coherence*, and *leadership authority*. A wrong answer that says \"coalitions always block reforms\" or \"coalitions never affect reforms\" fails to analyze the conditional relationship between coalition structure and reform capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-point Common Minimum Programme for a hypothetical coalition between a national party focused on infrastructure development and a regional party focused on farmer loan waivers and local job reservation. Justify how each point balances both partners' core demands.",
+     "a": "A strong CMP would include: (1) \"Accelerate rural infrastructure (roads, irrigation, cold storage) funded by central-state partnership\" — bridges infrastructure and farmer needs; (2) \"Implement a targeted agricultural debt relief scheme for small/marginal farmers linked to crop insurance\" — addresses loan waiver demand fiscally responsibly; (3) \"Reserve 75% of new government-funded private sector jobs in the state for local domiciles, with skill-training funds from the Centre\" — satisfies regional party's job demand while using national party's central leverage. A poor answer lists unrelated promises without showing how each point *integrates* both agendas, revealing inability to think in terms of political compromise and policy synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

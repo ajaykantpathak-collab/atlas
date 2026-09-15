@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_005",
+   "title": "c11_soc_cbse_08_005",
+   "questions": [
+    {
+     "q": "List the five major categories of environmental problems as identified in the NCERT textbook for Class 11 Sociology.",
+     "a": "The five categories are: (A) Resource Depletion, (B) Pollution, (C) Global Warming, (D) Genetically Modified Organisms (GMOs), and (E) Natural and Man-made Environmental Disasters. A wrong answer that omits one category or adds \"deforestation\" as a separate category reveals the student is confusing a specific manifestation (deforestation) with the broader category (resource depletion) or relying on general knowledge instead of the textbook classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Resource depletion is just about running out of oil and coal.\" Using the NCERT text, explain why this statement is incomplete and what other resources it ignores.",
+     "a": "The NCERT text explicitly states that while fossil fuels get headlines, \"the depletion and destruction of water and land is probably even more rapid,\" citing groundwater decline in Punjab/Haryana/UP, river damming, topsoil erosion from brick-making, and biodiversity loss from agricultural expansion. A wrong answer that only mentions fossil fuels shows the student has not read the full scope of \"Resource Depletion\" in the textbook and misses the sociologically critical point that water/land depletion disproportionately affects the poor.",
+     "self_check": true
+    },
+    {
+     "q": "In a village in Rajasthan, wealthy farmers install deep borewells for cash crops while poorer households' shallow wells run dry. Identify which environmental problem category this illustrates and explain the social mechanism linking the two groups' outcomes.",
+     "a": "This illustrates Resource Depletion (groundwater) with a social inequality mechanism. The steps: (1) Identify the resource: groundwater (aquifer). (2) Note the technology: deep borewells require capital only wealthy farmers have. (3) Trace the hydrological connection: deep extraction lowers the water table, drying shallow wells. (4) Link to social structure: property rights over land give the wealthy control over the water beneath, while the poor lack both capital and political voice to regulate extraction. A wrong answer that calls this only \"water scarcity\" misses the sociological core: scarcity is socially produced through unequal property relations and technology access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social roots of air pollution from industrial emissions versus indoor cooking fires in rural India. How do class and gender shape exposure and responsibility differently in these two cases?",
+     "a": "Industrial emissions: driven by capitalist production for profit, regulated (or not) by state policies influenced by industrial lobbies; exposure affects urban poor living near factories, while owners/managers live elsewhere. Indoor cooking fires: driven by poverty (lack of clean fuel access) and gendered division of labour (women cook); exposure is borne almost entirely by rural women. Both are \"air pollution\" but the social relations producing them — class-based industrial location vs. gendered energy poverty — are distinct. A wrong answer that treats both as \"burning things\" fails to analyze how social organization shapes both cause and consequence differently.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Global warming is a universal problem affecting everyone equally, so it requires universal solutions.\" Use the NCERT concept of \"environment as a contested arena\" and the example of China/India's rising emissions.",
+     "a": "The claim is false. NCERT states: \"Securing the public interest may actually serve the interests of particular politically and economically powerful groups, or hurt the interests of the poor.\" China and India's rising emissions reflect their industrialization paths, but per capita emissions remain far below the West. Universal solutions (e.g., equal per-country cuts) would freeze global inequality. Climate impacts also differ: coastal poor in Odisha face cyclones, while wealthy nations build sea walls. A wrong answer agreeing with the claim ignores the textbook's core thesis that environmental problems are embedded in social inequality and power.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example of a GMO-related environmental problem that illustrates the social dimension of \"seed dependency\" described in the textbook. Your example must name a crop, a trait, a social group affected, and a property-rights mechanism.",
+     "a": "Example: Herbicide-tolerant mustard (DMH-11) introduced in Punjab. Trait: survives glyphosate spraying, allowing blanket weed control. Affected group: smallholder farmers who previously saved mustard seeds. Property-rights mechanism: seed patent + terminator technology (sterile seeds) forces annual repurchase from Bayer-Monsanto, shifting control from farmers to corporation. This mirrors the textbook's warning: \"Agricultural companies can also use genetic modification to create sterile seeds, preventing farmers from re-using them, and guaranteeing that seeds remain their profit-yielding property.\" A poor example would describe only health risks (e.g., \"allergies\") without linking to seed sovereignty or corporate control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

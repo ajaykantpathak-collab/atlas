@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_001",
+   "title": "c11_bio_cbse_18_001",
+   "questions": [
+    {
+     "q": "Name the granular bodies found in the cytoplasm of a neuron's cell body and dendrites, and state their specific biochemical composition and functional significance.",
+     "a": "The granular bodies are Nissl's granules (Nissl bodies), composed of rough endoplasmic reticulum and free ribosomes. They are the site of protein synthesis, producing neurotransmitters, ion channels, and cytoskeletal proteins essential for neuronal function and repair. A wrong answer (e.g., \"mitochondria\" or \"Golgi bodies\") reveals confusion between general cell organelles and neuron-specific structures, indicating the student hasn't distinguished the unique protein synthesis demands of a cell with extremely long processes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Unipolar neurons have only one process extending from the cell body, so they cannot receive incoming signals.\" Explain why this reasoning is biologically incorrect, referencing the actual structure of a unipolar neuron in the human dorsal root ganglion.",
+     "a": "Unipolar neurons have a single process that bifurcates into two branches: a peripheral branch (dendritic function, receiving sensory stimuli) and a central branch (axonal function, conducting to CNS). Both branches are structurally axonal (myelinated) but functionally distinct. The student's error stems from equating \"one process\" with \"one function,\" ignoring that the peripheral branch acts as a dendrite despite lacking Nissl's granules. This misconception arises from oversimplified textbook diagrams that don't show the T-junction bifurcation.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a genetic defect causing dysfunctional Schwann cells that cannot form myelin sheaths. Predict the specific change in nerve impulse conduction velocity in their cranial nerves versus autonomic nerves, and justify using structural differences between myelinated and non-myelinated axons.",
+     "a": "Cranial nerves (myelinated) would show severely reduced conduction velocity because saltatory conduction at nodes of Ranvier is lost; impulse must propagate continuously along the entire axon length. Autonomic nerves (mostly non-myelinated) would be less affected because they already conduct via continuous propagation. The student must recognize that myelinated axons depend on Schwann cells for nodes of Ranvier, while non-myelinated axons are merely enclosed by Schwann cells without myelin layers. A wrong prediction (e.g., \"both equally affected\") reveals failure to link Schwann cell function to axon type-specific conduction mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations of a multipolar neuron in the cerebral cortex versus a bipolar neuron in the retina that enable their distinct roles in information processing. Include at least three specific structural differences with functional correlates.",
+     "a": "1. **Dendritic complexity**: Multipolar neurons have numerous highly branched dendrites with dendritic spines (increasing surface area for ~10,000 synaptic inputs for integration), while bipolar neurons have a single dendrite receiving input from photoreceptors only. 2. **Axon length**: Cortical multipolar axons project long distances (corticospinal tracts), requiring thick myelinated axons; retinal bipolar axons are very short (within retina), often non-myelinated. 3. **Cell body size**: Multipolar neurons have large soma with abundant Nissl's granules for high protein synthesis to maintain long axons; bipolar neurons have smaller soma with less synthetic demand. A superficial comparison (e.g., only \"number of processes\") misses the integration vs. relay functional distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since all neurons have a cell body, dendrites, and an axon, the classification into multipolar, bipolar, and unipolar is arbitrary and has no functional significance.\" Provide evidence from human neural anatomy to support your evaluation.",
+     "a": "The statement is false. Classification directly reflects functional circuitry: Multipolar (interneurons/motor) integrate multiple inputs for complex processing; bipolar (special sensory: retina, olfactory) relay single-modality signals with high fidelity; unipolar (sensory ganglia) transmit peripheral stimuli to CNS without local integration. The structural differences (dendritic field size, axon branching, myelination pattern) are adaptations to these roles. For example, unipolar neurons lack dendritic branching because they don't integrate - they simply transmit. A student agreeing with the statement confuses \"common basic parts\" with \"functional specialization,\" a classic category error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple histological experiment to distinguish between myelinated and non-myelinated nerve fibers in a mixed peripheral nerve sample, using only light microscopy and standard stains (no electron microscopy). Specify the stain, expected observations, and the structural basis for the difference.",
+     "a": "Use **osmium tetroxide** (stains lipid-rich myelin black) or **luxol fast blue** (myelin-specific blue stain). Myelinated fibers appear as dark rings (myelin sheath) around unstained axons with periodic gaps (nodes of Ranvier); non-myelinated fibers show only thin Schwann cell nuclei on the surface of axon bundles without dark rings. Structural basis: myelin is 70-80% lipid, retaining lipid stains; non-myelinated axons lack concentric lipid layers. A poor design (e.g., using H&E only) fails because both fiber types appear similar pink/blue without lipid-specific staining, revealing ignorance of myelin's biochemical composition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

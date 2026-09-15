@@ -1,0 +1,301 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_012_coordinate_geometry.json",
+ "concepts": [
+  {
+   "id": "am11_012.1",
+   "title": "Slope of a Line from Two Points",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (1, 8) and (21, 29).",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-5, -5) from the origin.",
+     "a": "7.07",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (7, 5) and (0, -1).",
+     "a": "3.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 2 : 3. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-4, 5), (-3, -1) and (-3, 0) (two decimal places).",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-2, -2), (-5, 2) and (3, -4).",
+     "a": "-1.33333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.2",
+   "title": "Perpendicular Slopes and Negative Reciprocal",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 43 degrees, find the other.",
+     "a": "47",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 12 degrees, find the other.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 36 degrees; find the other.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 83 degrees and 219 degrees, find the remaining angle.",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 58 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 112 degrees. Find its co-interior partner.",
+     "a": "68",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.3",
+   "title": "Forms of the Equation of a Line",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 4x + 7 = 15.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 6 = 1.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 13 = 8.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 25 = 3.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x + 2 = 1x + 44.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 1) = 9.",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.4",
+   "title": "Intersection of Two Lines and Market Equilibrium",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set with 4 elements: how many pairs are in the full universal relation A x A?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 4 elements must contain at least how many pairs?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {4}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.5",
+   "title": "Distance of a Point from a Line",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular hexagon?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.6",
+   "title": "Distance Between Parallel Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 126 degrees, find the other.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 59 degrees; find the other.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 148 degrees and 161 degrees, find the remaining angle.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 46 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 72 degrees. Find its co-interior partner.",
+     "a": "108",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.7",
+   "title": "Equation, Centre and Radius of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
+     "a": "528",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 35 cm. Find its circumference (pi = 22/7).",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 84 cm (pi = 22/7).",
+     "a": "22176",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 70 cm and 119 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "29106",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 42 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 90 degrees in a circle of radius 63 cm (pi = 22/7).",
+     "a": "3118.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_012.8",
+   "title": "Parabola Parameter, Focus and Latus Rectum",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 1x^2 + 6x + 2 at x = 5.",
+     "a": "57",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 2x^3 + 3x + 5 at x = 2.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(3).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 5. Find the sum of the zeros.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 5. Find the product of the zeros.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 5. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_005",
+   "title": "c11_psy_cbse_04_005",
+   "questions": [
+    {
+     "q": "Name the four distinct cutaneous modalities and identify the specific receptor type responsible for each modality.",
+     "a": "The four cutaneous modalities are: (1) Pressure/touch — Merkel discs (sustained pressure), Meissner's corpuscles (light touch/texture), Ruffini endings (skin stretch), Pacinian corpuscles (deep pressure/vibration); (2) Warmth — Ruffini endings (also) and free nerve endings with TRPV3/TRPV4 channels; (3) Cold — free nerve endings with TRPM8 channels; (4) Pain — free nerve endings (nociceptors) with TRPV1, ASIC, and other channels. A wrong answer listing only \"touch, heat, cold, pain\" without receptor types reveals the student memorised modalities but not the labelled-line coding principle. Confusing Ruffini for both stretch and warmth shows misunderstanding that one receptor type can serve multiple modalities depending on stimulus intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why olfaction is the only sense that has direct cortical access without first relaying through the thalamus, and describe the functional consequence of this pathway for emotional memory.",
+     "a": "Olfactory receptor neurons project directly to the olfactory bulb, then via the olfactory tract to primary olfactory cortex (piriform cortex), amygdala, and entorhinal cortex — bypassing the thalamus. This direct limbic connection explains why smells trigger vivid emotional memories (Proust effect) more powerfully than other senses. A wrong answer stating \"olfaction goes to thalamus first\" reveals confusion with vision/hearing pathways. Saying \"smells are processed in the amygdala\" without mentioning piriform cortex shows incomplete pathway knowledge. The functional consequence must link direct amygdala access to emotional valence assignment before conscious identification.",
+     "self_check": true
+    },
+    {
+     "q": "A student pinches their finger in a door. Describe the sequence from stimulus to perception, distinguishing between first pain (sharp, fast) and second pain (dull, throbbing), including fibre types, conduction velocities, and brain areas involved.",
+     "a": "Step 1: Mechanical deformation activates A-delta nociceptors (myelinated, 5-30 m/s) and C-fibre nociceptors (unmyelinated, 0.5-2 m/s). Step 2: A-delta fibres transmit \"first pain\" via neospinothalamic tract to VPL thalamus → primary somatosensory cortex (S1) for localisation — sharp, pricking, well-localised. Step 3: C-fibres transmit \"second pain\" via paleospinothalamic tract to intralaminar thalamic nuclei → anterior cingulate cortex and insula — dull, burning, poorly localised, affective. Step 4: Both pathways activate periaqueductal grey for descending modulation. Wrong answers confusing fibre types or claiming both pains reach S1 reveal misunderstanding of the dual-pathway architecture for sensory-discriminative vs. affective-motivational pain dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast kinesthetic and vestibular senses in terms of: (a) adequate stimuli, (b) receptor locations, (c) receptor types, (d) neural pathways, and (e) functional roles in posture and movement.",
+     "a": "(a) Kinesthetic: muscle length/velocity (muscle spindles), tendon tension (Golgi tendon organs), joint angle (Ruffini endings); Vestibular: angular acceleration (semicircular canals), linear acceleration/gravity (utricle/saccule). (b) Kinesthetic: muscles, tendons, joint capsules; Vestibular: bony labyrinth of inner ear. (c) Kinesthetic: modified muscle fibres (intrafusal), encapsulated nerve endings; Vestibular: hair cells with stereocilia/kinocilium in cupula/otolithic membrane. (d) Kinesthetic: dorsal column-medial lemniscus to VPL thalamus → S1; Vestibular: vestibular nerve → vestibular nuclei → cerebellum, thalamus (VPL), ocular motor nuclei, spinal cord. (e) Kinesthetic: limb position, movement control, force regulation; Vestibular: balance, gaze stabilisation (VOR), spatial orientation, postural tone. Errors conflating the two or omitting Golgi tendon organs reveal failure to distinguish proprioception (body schema) from equilibrioception (gravity/inertia reference frame).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Flavour is a taste sensation.\" Use evidence from olfactory-gustatory integration, retronasal olfaction, and the effect of nasal congestion on food perception to support your judgment.",
+     "a": "The claim is false. Flavour is a multisensory percept combining: (1) gustation (sweet, sour, salty, bitter, umami) detected by taste buds on tongue/palate/pharynx via cranial nerves VII, IX, X → NST → VPM thalamus → insular cortex; (2) retronasal olfaction — volatile compounds from chewed food travel nasopharynx → olfactory epithelium → olfactory bulb → piriform cortex; (3) somatosensation (texture, temperature, pungency via trigeminal nerve). Evidence: nasal congestion eliminates retronasal olfaction, reducing flavour to basic tastes; pinching nose while eating jelly bean makes it taste only sweet, release nose → fruit flavour appears. Wrong answers equating flavour with taste alone ignore the 80% contribution of olfaction. Saying \"smell and taste mix in the mouth\" reveals misunderstanding of separate neural pathways converging in orbitofrontal cortex for flavour binding.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to test whether the gate control theory of pain explains why rubbing a bumped elbow reduces pain. Specify: hypothesis, independent/dependent variables, control condition, neural mechanism being tested, and predicted outcome.",
+     "a": "Hypothesis: Non-noxious mechanical stimulation (rubbing) activates A-beta fibres that inhibit nociceptive transmission in substantia gelatinosa (lamina II) of dorsal horn, reducing pain perception. IV: Stimulation type (rubbing vs. no rubbing vs. vibration at 250 Hz vs. cold pack). DV: Pain intensity rating (0-10 VAS) at 10s, 30s, 60s post-impact. Control: No-stimulation condition after standardised elbow impact. Neural mechanism: A-beta → inhibitory interneurons (GABA/glycine) → presynaptic inhibition of A-delta/C-fibre terminals in lamina II. Predicted: Rubbing and vibration (A-beta activation) reduce pain ratings vs. control; cold (A-delta activation) may not. Poor answers omitting lamina II inhibition or using only subjective ratings without timing reveal confusion between gate control (spinal) and descending modulation (supraspinal). Failing to include vibration control confounds tactile vs. thermal mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_006",
+   "title": "c10_math_cbse_02_006",
+   "questions": [
+    {
+     "q": "Write the three relationships between the zeros \\( \\alpha, \\beta, \\gamma \\) and the coefficients of the cubic polynomial \\( p(x) = ax^3 + bx^2 + cx + d \\) (\\( a \\neq 0 \\)).",
+     "a": "The relationships are:\n\\( \\alpha + \\beta + \\gamma = -\\frac{b}{a} \\),\n\\( \\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = \\frac{c}{a} \\),\n\\( \\alpha\\beta\\gamma = -\\frac{d}{a} \\).\nA wrong answer (e.g., missing the negative signs or swapping \\( c/a \\) and \\( -d/a \\)) reveals that the student has memorised the quadratic version \\( \\alpha+\\beta = -b/a, \\alpha\\beta = c/a \\) and incorrectly extended it without deriving from the cubic expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product of zeros for a cubic polynomial is \\( -\\frac{d}{a} \\) and not \\( \\frac{d}{a} \\). Use the factored form expansion to justify.",
+     "a": "Expanding \\( a(x-\\alpha)(x-\\beta)(x-\\gamma) \\) gives the constant term \\( a(-\\alpha)(-\\beta)(-\\gamma) = -a\\alpha\\beta\\gamma \\). Equating to \\( d \\) yields \\( -a\\alpha\\beta\\gamma = d \\), so \\( \\alpha\\beta\\gamma = -\\frac{d}{a} \\). A student who answers \\( \\frac{d}{a} \\) likely forgot the three negative signs from \\( (x-\\alpha) \\) factors, a common sign error when extending from quadratic where product is \\( c/a \\) (only two negatives give positive).",
+     "self_check": true
+    },
+    {
+     "q": "If \\( \\alpha, \\beta, \\gamma \\) are zeros of \\( 3x^3 - 6x^2 + 2x - 9 \\), find the value of \\( \\alpha\\beta + \\beta\\gamma + \\gamma\\alpha \\).",
+     "a": "Given \\( a=3, b=-6, c=2, d=-9 \\).\nSum of products of zeros taken two at a time = \\( \\frac{c}{a} = \\frac{2}{3} \\).\nA wrong answer like \\( -\\frac{2}{3} \\) or \\( \\frac{-6}{3} = -2 \\) indicates confusion between the formulas for sum of zeros and sum of pairwise products, or incorrect sign handling for \\( c \\).",
+     "self_check": true
+    },
+    {
+     "q": "A cubic polynomial \\( p(x) = 2x^3 + bx^2 + cx + d \\) has zeros \\( 1, -2, \\) and \\( 3 \\). Determine the coefficients \\( b, c, d \\) without expanding the polynomial fully. Show your reasoning.",
+     "a": "Zeros: \\( \\alpha=1, \\beta=-2, \\gamma=3 \\).\n\\( \\alpha+\\beta+\\gamma = 1-2+3 = 2 = -\\frac{b}{2} \\Rightarrow b = -4 \\).\n\\( \\alpha\\beta+\\beta\\gamma+\\gamma\\alpha = (1)(-2)+(-2)(3)+(3)(1) = -2-6+3 = -5 = \\frac{c}{2} \\Rightarrow c = -10 \\).\n\\( \\alpha\\beta\\gamma = 1 \\times (-2) \\times 3 = -6 = -\\frac{d}{2} \\Rightarrow d = 12 \\).\nSo \\( b=-4, c=-10, d=12 \\).\nAn incorrect answer suggests the student cannot apply the formulas in reverse (from zeros to coefficients) or makes arithmetic errors in summing/products.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if \\( \\alpha, \\beta, \\gamma \\) are zeros of \\( x^3 - 4x^2 + 5x - 2 \\), then \\( \\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha+\\beta+\\gamma)^2 \\). Is the student correct? Justify your answer.",
+     "a": "The student is incorrect. \\( \\alpha^2+\\beta^2+\\gamma^2 = (\\alpha+\\beta+\\gamma)^2 - 2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha) \\).\nHere \\( \\alpha+\\beta+\\gamma = 4 \\), \\( \\alpha\\beta+\\beta\\gamma+\\gamma\\alpha = 5 \\), so \\( \\alpha^2+\\beta^2+\\gamma^2 = 16 - 10 = 6 \\), not \\( 16 \\).\nA student who agrees likely does not know the algebraic identity connecting sum of squares to sum and pairwise sum, a gap in algebraic manipulation skills.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cubic polynomial with integer coefficients whose zeros are \\( 2, -1, \\) and \\( \\frac{1}{2} \\). Write the polynomial in standard form.",
+     "a": "Zeros: \\( 2, -1, \\frac{1}{2} \\).\nSum = \\( 2 - 1 + 0.5 = 1.5 = \\frac{3}{2} \\).\nPairwise sum = \\( 2(-1) + (-1)(0.5) + (0.5)(2) = -2 -0.5 + 1 = -1.5 = -\\frac{3}{2} \\).\nProduct = \\( 2 \\times (-1) \\times 0.5 = -1 \\).\nTo avoid fractions, multiply by 2: \\( a=2 \\), then \\( b = -a(\\text{sum}) = -3 \\), \\( c = a(\\text{pairwise sum}) = -3 \\), \\( d = -a(\\text{product}) = 2 \\).\nPolynomial: \\( 2x^3 - 3x^2 - 3x + 2 \\).\nA poor answer (e.g., leaving fractions or wrong signs) reveals difficulty in clearing denominators or applying the formulas in reverse with scaling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

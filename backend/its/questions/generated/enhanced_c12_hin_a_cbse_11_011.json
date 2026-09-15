@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_11_011",
+   "title": "c12_hin_a_cbse_11_011",
+   "questions": [
+    {
+     "q": "In the sentence \"ckyd us lh[kk fl[kk;k mÙkj fn;k\" from \"ckyd cp x;k\", identify the case marking on \"ckyd\" and explain why it appears in this form rather than the direct case \"ckyd\".",
+     "a": "Correct answer: \"ckyd\" takes the ergative marker \"us\" because the verb \"fn;k\" (gave) is in the perfective past tense and transitive. In Hindi, transitive perfective verbs require the subject to appear in the ergative case (marked by \"ne/us\"). A wrong answer (e.g., \"ckyd is the subject so it should be direct case\") reveals the student doesn't know the split-ergativity rule: Hindi subjects are direct in imperfective/habitual but ergative in perfective past. This is the single most tested grammar concept in CBSE Class 12 Hindi Core and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator in \"?kM+h osQ iq\"ksZ\" writes: \"èkeZ osQ jgL; tkuus dh bPNk izR;sd euq\"; u djs] tks dgk tk, ogh dku <ydkdj lqu ys\". Explain the grammatical difference between \"dku <ydkdj\" and \"dku [kksydj\" and why the author chooses the former.",
+     "a": "Correct answer: \"<ydkdj\" is the perfective participle (absolutive) of \"<yks/k\" (to see), formed from the verb root + -dj (from -kar). \"[kksydj\" would be the causative perfective participle of \"[kks/y\" (to show/make see). The author uses \"<ydkdj\" because the meaning is \"having seen/understood for oneself\" — direct perception. A wrong answer confusing the two reveals ignorance of causative morphology (-a- insertion) and the semantic nuance: \"<yks/k\" = perceive, \"[kks/y\" = cause to perceive. This distinction appears in CBSE \"shuddhi\" questions and CUET language precision items.",
+     "self_check": true
+    },
+    {
+     "q": "In \"<sys pqu yks\", the line \"vkt dk dcwrj vPNk gS dy osQ eksj ls] vkt dk iSlk vPNk gS dy dh eksgj ls\" uses a specific comparative construction. Identify the grammatical structure and rewrite the sentence using standard Khari Boli comparative postpositions without changing meaning.",
+     "a": "Correct answer: The structure is \"X vPNk gS dy Y ls\" (X is big from Y) — a dialectal/archaic comparative using \"dy\" (from Braj \"dai\" = than) + instrumental \"ls\". Standard Khari Boli: \"vkt dk dcwrj osQ eksj se vPNk gS] vkt dk iSlk dh eksgj se vPNk gS\". A student writing \"vPNk gS osQ eksj ls\" (missing \"dy\") shows they don't recognize \"dy\" as the comparative marker distinct from instrumental \"ls\". This tests knowledge of historical layers in literary Hindi — a CUET favorite.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the honorific usage in these two extracts: (a) \"firk dk ân; mYykl ls Hkj jgk Fkk\" (\"ckyd cp x;k\") vs (b) \"vè;kid dk og mÙkj ns jgk Fkk\" (same story). Why does the father get \"ân;\" (honorific) while the teacher gets \"vè;kid\" (honorific plural) despite both being authority figures?",
+     "a": "Correct answer: \"ân;\" reflects intimate familial respect (father-son dyad) using the honorific singular pronoun, while \"vè;kid\" marks institutional authority (teacher-student) requiring plural honorific. The father's \"mYykl\" (embrace) signals affective closeness; the teacher's \"mÙkj ns jgk Fkk\" (was giving answers) signals formal pedagogical role. A wrong answer treating both as \"just respect\" misses the sociolinguistic register distinction: kinship vs. institutional honorifics. This is tested in CBSE long-answer questions on \"bhasha ki visheshtayen\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The vocabulary in '<sys pqu yks' is harder than in 'ckyd cp x;k' because it has more Sanskrit words like 'izfrew£r', 'vdM+ck\"k', 'fe^h osQ Mxys'.\" Is this claim accurate? Justify using register analysis.",
+     "a": "Correct answer: The claim is partially inaccurate. While \"<sys pqu yks\" uses Sanskritic administrative/philosophical register (izfrew£r, vdM+ck\"k), \"ckyd cp x;k\" uses Perso-Arabic administrative register (okf\"kZdksRlo, uqekb'k, dksYgw, oqQlhZukek) and dialectal forms (mYykl, ;koTtUe). Difficulty depends on the student's exposure, not Sanskrit vs. Persian origin. A student calling one \"harder\" reveals a nationalist linguistic bias (Sanskrit = pure/hard) rather than register awareness. CBSE marking schemes reward register identification, not value judgments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence dialogue between the clock (\"?kM+h\") and the stone (\"<sys\") from their respective stories, where each uses ONE grammatical feature characteristic of their story's register (e.g., ergative past for the clock, dialectal comparative for the stone). Gloss each feature.",
+     "a": "Sample answer: \"?kM+h: 'mÙjhe le; dk n`\"Vkar u djsa, mÙNe tumhare sab sawalon ka jawab diya hai.' [Ergative 'mÙNe' + perfective 'diya' — clock's authoritative voice.] <sys: 'mYN tumse vPNk chu, kyokI mera wajan tumhare wajan se zyada hai.' [Dialectal 'mYN' for 'maÑ', comparative 'tumse...zyada' — stone's folk wisdom voice.]\" A poor answer uses standard Hindi throughout, showing inability to shift register — a key skill for creative writing sections in boards and CUET.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

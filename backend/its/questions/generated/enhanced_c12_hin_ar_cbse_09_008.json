@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_09_008",
+   "title": "c12_hin_ar_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" (चित्रण) and \"metaphor\" (रूपक) in your own words, and give one original example of each in Hindi (not from the textbook).",
+     "a": "Imagery: इंद्रियों को संबोधित करने वाला जीवंत भाषा-प्रयोग जो मानसिक चित्र बनाता है (उदाहरण: \"धुएँ की लकीरें शाम को चादर की तरह फैली थीं\" — दृश्य/स्पर्श)। Metaphor: दो असमान वस्तुओं की अंतर्निहित तुलना जहाँ एक को दूसरा *कह* दिया जाता है (उदाहरण: \"समय एक नदी है जो कभी लौटती नहीं\")। **Wrong answer reveals**: Student confuses metaphor with simile (using \"जैसे/वैसे\"), or thinks imagery is only visual, or gives textbook examples instead of original ones — showing rote memorization without conceptual ownership.",
+     "self_check": true
+    },
+    {
+     "q": "In \"नक्शा एक सड़क\", the poet calls the map \"एक प्यासे रास्ते की तरह\" (like a thirsty road). Is this a metaphor or a simile? Explain why the distinction matters for analyzing the poem's theme.",
+     "a": "It is a **simile** (उपमा) because of the explicit comparator \"की तरह\" (like). A metaphor would say \"नक्शा एक प्यासा रास्ता *है*\". The distinction matters: simile keeps the two domains separate (map ≠ road), suggesting *longing*; metaphor fuses them (map = road), suggesting *identity*. In this poem, the simile preserves the gap between representation (map) and lived experience (road) — which *is* the poem's central tension. **Wrong answer reveals**: Student calls it a metaphor (missing the comparator), or says \"distinction doesn't matter\" — showing they don't grasp how device choice shapes meaning, a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to analyze this line from \"चित्रों के आईक\": \"उजाले में अँधेरे की परछाइयाँ नाचती हैं\" (Shadows of darkness dance in the light). Write a 4-sentence analysis.",
+     "a": "**Point**: The line uses visual imagery and personification to convey memory's persistence. **Evidence**: \"उजाले में अँधेरे की परछाइयाँ\" creates a stark light/dark contrast; \"नाचती हैं\" gives shadows agency. **Explanation**: The tactile \"डांस\" suggests memories aren't static — they move, invade present moments (\"उजाला\") unbidden. **Link**: This supports the poem's theme: the past (चित्रों के आईक) refuses to stay framed; it performs in the present. **Wrong answer reveals**: Student writes a paraphrase instead of analysis, misses personification, or fails to connect to theme — showing they treat PEEL as a formula, not a thinking tool.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the central metaphor in \"नक्शा एक सड़क\" (map = life's journey) with the extended metaphor in \"चित्रों के आईक\" (frames = memory's containment). How does each metaphor's *structure* (simple vs. extended) serve its poem's emotional arc?",
+     "a": "\"नक्शा एक सड़क\" uses a **simple metaphor** (map → journey) stated early and revisited — its brevity mirrors the sudden clarity of realizing \"the map is not the territory.\" \"चित्रों के आईक\" builds an **extended metaphor**: frames → preservation → prison → performance, unfolding across stanzas like memories escaping. The simple metaphor delivers an *epiphany*; the extended metaphor enacts a *process*. **Wrong answer reveals**: Student lists both as \"metaphors\" without distinguishing structure, or says \"both show life is hard\" — missing how *form* (simple/extended) mirrors *content* (moment/process), a key analytical skill for CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The olfactory imagery in 'चित्रों के आईक' (गंध, धूल, पुरानी किताबों की खुशबू) is more effective than the visual imagery because smell triggers stronger memories.\" Defend or refute using the poem's actual imagery hierarchy.",
+     "a": "**Refute**: The poem *opens* with visual dominance (\"उजाले में अँधेरे की परछाइयाँ\", \"चित्रों के आईक\") — sight frames the memory *before* smell enters. Olfactory images (\"गंध\", \"खुशबू\") appear later as *triggers* that *release* the visual memories. The hierarchy is: visual (container) → olfactory (key) → tactile/emotional (release). Claim reverses cause/effect. **Wrong answer reveals**: Student accepts the claim uncritically, or argues \"all senses equal\" — showing they don't analyze *sequence* and *hierarchy* of imagery, which board marking schemes reward.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi poem-stanza using an **extended metaphor** for \"exam anxiety\" that incorporates at least two sensory images (not visual). Do not use simile.",
+     "a": "**Sample**:  \nपरीक्षा एक बंद कमरा है जहाँ घड़ी की टिक-टिक  \nदीवारों पर नाखूनों की तरह खरोंचती है,  \nसूखे गले का स्वाद चखता है हर साँस में,  \nऔर दरवाज़े की कुंडी — भूल गई है खुलना।  \n**Criteria**: Extended metaphor (exam = locked room), auditory (टिक-टिक, खरोंचती), gustatory (सूखे गले का स्वाद), tactile (कुंडी), no simile. **Poor answer reveals**: Uses simile (\"जैसे\"), only visual images, metaphor doesn't extend across lines, or anxiety is stated not shown — showing inability to *construct* devices, only identify them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

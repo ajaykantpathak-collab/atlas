@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_001",
+   "title": "c11_ps_cbse_11_001",
+   "questions": [
+    {
+     "q": "What is the precise constitutional distinction between a \"fundamental right\" under Part III of the Indian Constitution and an ordinary \"legal right\" created by a statute like the Right to Information Act, 2005?",
+     "a": "A fundamental right is constitutionally entrenched (Part III, Articles 12-35), justiciable directly under Article 32 (Supreme Court) and Article 226 (High Courts), and can only be amended through the special majority procedure under Article 368. A legal right like RTI is statutory - created by ordinary legislation, amendable by simple parliamentary majority, and enforceable through statutory remedies, not directly through constitutional writ jurisdiction. A wrong answer (e.g., \"both are just rights\") reveals confusion between constitutional supremacy and legislative supremacy - the student doesn't grasp that fundamental rights bind Parliament itself, while statutory rights exist at Parliament's pleasure.",
+     "self_check": true
+    },
+    {
+     "q": "The Constituent Assembly rejected \"due process of law\" (American model) in favor of \"procedure established by law\" (Japanese model) for Article 21. Why did they make this choice, and how did the Supreme Court later reinterpret this phrase in Maneka Gandhi v. Union of India (1978)?",
+     "a": "The Assembly chose \"procedure established by law\" to avoid judicial review of legislative policy (substantive due process), fearing unelected judges would strike down social welfare legislation. They wanted parliamentary sovereignty in economic regulation. However, in Maneka Gandhi, the Court read \"procedure\" as \"fair, just, and reasonable procedure\" - effectively importing substantive due process by requiring the procedure itself to be non-arbitrary. A wrong answer (e.g., \"they meant the same thing\") reveals the student misses the deliberate constitutional design choice and the Court's creative interpretation that transformed Article 21 into a reservoir of unenumerated rights.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 80% of medical college seats for \"domicile students,\" arguing this promotes regional equity. A non-domicile student challenges this under Article 14 (equality) and Article 19(1)(g) (freedom of profession). Apply the constitutional reasoning framework to analyze whether this law violates fundamental rights.",
+     "a": "Step 1: Identify the right infringed - Article 19(1)(g) (occupation) and Article 14 (equality). Step 2: Check if the restriction falls under Article 19(6) \"reasonable restrictions in public interest\" - domicile reservations for professional education have been struck down as unreasonable (Pradeep Jain v. Union of India). Step 3: Apply Article 14 classification test - domicile is not a reasonable classification for medical education (unlike local government jobs). Step 4: Consider if Directive Principles (Article 41, 46) can justify - they are non-justiciable. Step 5: Conclude - law violates fundamental rights; state cannot use domicile to exclude citizens from national-level professional opportunities. A wrong answer reveals inability to apply the \"reasonable restriction\" framework and the hierarchy between justiciable rights and non-justiciable directives.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian constitutional approach to rights (Part III + Part IV) with the South African Constitution's Bill of Rights (Chapter 2). How does each system handle the tension between civil-political rights and socio-economic rights?",
+     "a": "India separates them: Part III (justiciable fundamental rights - mostly civil-political) and Part IV (non-justiciable directive principles - socio-economic). South Africa integrates them in one justiciable Bill of Rights (Sections 7-39), making housing, healthcare, food, water directly enforceable (Grootboom, TAC cases). India's approach prioritized judicial enforceability of civil liberties first, leaving socio-economic claims to political accountability; South Africa made both equally justiciable but subject to \"progressive realization\" and \"available resources\" qualifiers. A wrong answer (e.g., \"India has no socio-economic rights\") misses that India's directives have been partially judicialized through Article 21 expansion (Olga Tellis, Chameli Singh) - showing the student doesn't understand the dynamic interplay between Parts III and IV.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Fundamental rights are anti-democratic because they allow unelected judges to strike down laws passed by elected representatives.\" Use the Indian constitutional design and at least two landmark cases in your evaluation.",
+     "a": "This \"counter-majoritarian difficulty\" (Alexander Bickel) is real but the Indian design addresses it: (1) Rights were democratically enacted by the Constituent Assembly (not judges) - they represent \"pre-commitment\" democracy (Jon Elster). (2) Article 368 allows constitutional amendment by elected representatives (special majority). (3) Kesavananda Bharati (1973) established \"basic structure\" - Parliament can amend but not destroy rights framework. (4) I.R. Coelho (2007) placed Ninth Schedule laws under judicial review. The critique fails because rights protect the democratic process itself (free speech, fair elections) - without them, majority rule becomes majority tyranny. A weak answer treats judicial review as inherently undemocratic, missing that the Constitution itself (democratically adopted) authorizes it as a check on temporary majorities.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a new democracy that guarantees \"digital privacy\" as a fundamental right. Your provision must specify: (a) the right's scope, (b) permissible restrictions with constitutional standards, (c) enforcement mechanism, and (d) relationship to existing rights. Justify each element using Indian constitutional jurisprudence.",
+     "a": "Good answer includes: (a) Scope: \"Right to informational self-determination including control over personal data, surveillance protection, and algorithmic transparency\" - modeled on Puttaswamy (2017) reading privacy into Article 21. (b) Restrictions: \"Only by law, necessary for legitimate aim, proportionate, with procedural safeguards\" - the Puttaswamy triple test (legality, necessity, proportionality). (c) Enforcement: Direct Supreme Court/High Court writ access (Article 32/226) + independent Data Protection Authority with quasi-judicial powers. (d) Relationship: \"Integral to Article 19(1)(a) speech, 19(1)(g) profession, 21 life/liberty\" - shows horizontal application. Poor answer copies GDPR without constitutional anchoring, revealing the student can't translate principles into Indian constitutional language.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

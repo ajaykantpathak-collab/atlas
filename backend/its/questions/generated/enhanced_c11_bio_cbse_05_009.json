@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_009",
+   "title": "c11_bio_cbse_05_009",
+   "questions": [
+    {
+     "q": "Write the floral formula for a bisexual, actinomorphic flower with 5 free sepals, 5 free petals, 6 stamens (4 long + 2 short), and a syncarpous superior ovary of 2 carpels with axile placentation.",
+     "a": "⊕ ⚥ K5 C5 A4+2 G(2)\nA wrong answer like \"K5 C5 A6 G2\" reveals the student does not understand: (1) cohesion notation for tetradynamous stamens (A4+2), (2) syncarpous ovary requires brackets G(2), (3) superior ovary requires line above G (G̅(2) or G(2) with line), and (4) the order of symbols must follow whorl sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the floral formula for a zygomorphic, bisexual flower with 5 gamosepalous sepals, 5 gamopetalous petals (vexillary aestivation), 10 diadelphous stamens (9+1), and a monocarpellary superior ovary is written as: % ⚥ K(5) C(5) A(9)+1 G̅(1). Specifically justify the use of % instead of ⊕, brackets for K and C, and the notation A(9)+1.",
+     "a": "% denotes zygomorphic (bilateral) symmetry; ⊕ is only for actinomorphic. Brackets ( ) indicate fusion (cohesion) within a whorl: K(5) = 5 fused sepals (gamosepalous), C(5) = 5 fused petals (gamopetalous). A(9)+1 shows 9 stamens fused into one bundle (diadelphous) and 1 free stamen. A wrong answer confusing % with ⊕ or omitting brackets reveals inability to distinguish symmetry types and cohesion notation.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a flower: bracteate, bisexual, zygomorphic, calyx 5 gamosepalous with valvate aestivation, corolla 5 gamopetalous with vexillary aestivation, androecium 10 diadelphous (9+1), gynoecium monocarpellary superior ovary with marginal placentation. Construct the floral formula and identify which family this flower likely belongs to.",
+     "a": "Br % ⚥ K(5) C(5) A(9)+1 G̅(1) — Family Fabaceae (Papilionoideae).\nSteps: (1) Br for bracteate, (2) % for zygomorphic, (3) ⚥ for bisexual, (4) K(5) gamosepalous, (5) C(5) gamopetalous, (6) A(9)+1 diadelphous, (7) G̅(1) monocarpellary superior. Vexillary aestivation and diadelphous stamens are hallmark of Fabaceae. A wrong family guess (e.g., Solanaceae) shows failure to link formula traits to family diagnostics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the floral diagrams of mustard (Brassicaceae) and china rose (Malvaceae). Both have 4 sepals, 4 petals, 6 stamens (tetradynamous), and syncarpous superior ovary of 2 carpels. Yet their floral formulas differ: Mustard: ⊕ ⚥ K2+2 C4 A2+4 G(2); China rose: ⊕ ⚥ K5 C5 A(∞) G(5). Explain why the diagrams look different despite both having superior syncarpous ovaries.",
+     "a": "The difference lies in calyx cohesion (mustard: polysepalous in two whorls of 2 → K2+2; china rose: gamosepalous 5 → K5), corolla number (mustard 4 polypetalous; china rose 5 gamopetalous), and androecium (mustard tetradynamous 2+4 free; china rose monadelphous ∞). Floral diagrams show these distinct arrangements: mustard has two alternating sepal pairs, china rose has a calyx tube. A student saying \"both have 4 sepals\" misreads K2+2 as total 4 but misses the two-whorl arrangement unique to Brassicaceae.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a floral diagram, the mother axis is always represented by a dot at the top of the diagram, and the gynoecium is always drawn in the center. Therefore, the position of the odd sepal in a zygomorphic flower can be determined by its proximity to the mother axis dot.\" Is this correct? Justify.",
+     "a": "The statement is partially correct but misleading. The mother axis dot is indeed at the top (posterior side). In zygomorphic flowers (e.g., Fabaceae), the odd (posterior) petal (standard) is near the mother axis, but the odd sepal position depends on calyx aestivation. In vexillary aestivation, the posterior sepal is also near mother axis. However, the rule \"proximity to mother axis determines odd member\" applies to the posterior side, not universally to all whorls. A student agreeing fully overlooks that floral diagram shows median plane symmetry; the odd sepal may not be the one closest to the dot if calyx is valvate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a floral formula for a hypothetical flower that is: ebracteate, unisexual male, actinomorphic, with 3 distinct whorls of perianth (each whorl 3 tepals, free), 6 stamens in two whorls of 3 (outer whorl opposite sepals, inner opposite petals), and no gynoecium. Draw the corresponding floral diagram layout (describe in words).",
+     "a": "Formula: ⊕ ♂ P3+3 A3+3 G0\nDiagram: Three concentric circles. Outermost: 3 tepals (whorl 1). Middle: 3 tepals alternating with outer (whorl 2). Next: 3 stamens opposite outer tepals (whorl 3). Innermost: 3 stamens opposite middle tepals (whorl 4). Center: empty (no gynoecium). Mother axis dot at top. A poor answer drawing 6 stamens in one ring or placing gynoecium shows misunderstanding of whorl succession and unisexual representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

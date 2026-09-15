@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_003",
+   "title": "c11_phy_cbse_12_003",
+   "questions": [
+    {
+     "q": "State the kinetic interpretation of temperature equation and identify the physical meaning of each symbol with its SI unit.",
+     "a": "The equation is (1/2)m⟨v²⟩ = (3/2)k_BT. Here m = molecular mass (kg), ⟨v²⟩ = mean square speed (m²/s²), k_B = Boltzmann constant = 1.38 × 10⁻²³ J/K, T = absolute temperature (K). The left side is average translational kinetic energy per molecule (J). A wrong answer (e.g., writing v_rms instead of ⟨v²⟩, or using R instead of k_B) reveals confusion between molecular and molar quantities, or between speed and mean square speed.",
+     "self_check": true
+    },
+    {
+     "q": "Two gas samples, helium (monatomic) and oxygen (diatomic), are at the same temperature in separate containers. Compare their average translational kinetic energy per molecule and their rms speeds. Explain why they are equal or different.",
+     "a": "Average translational kinetic energy per molecule is equal (3/2)k_BT for both gases because it depends only on temperature. However, rms speed differs: v_rms = √(3k_BT/m). Since helium molecules are lighter (m_He ≈ 4 u, m_O₂ ≈ 32 u), helium has higher rms speed by factor √(32/4) = √8 ≈ 2.83. A student claiming equal rms speeds confuses kinetic energy equality with speed equality, ignoring mass dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the rms speed of nitrogen molecules (molar mass M = 28.0 g/mol) at 300 K. Use R = 8.31 J/(mol·K). Express your answer in m/s with correct significant figures.",
+     "a": "**Step 1:** Identify formula: v_rms = √(3RT/M)  \n**Step 2:** Convert M to kg/mol: M = 28.0 × 10⁻³ kg/mol  \n**Step 3:** Substitute: v_rms = √(3 × 8.31 × 300 / 0.0280) = √(7479 / 0.0280) = √267107 ≈ 517 m/s  \n**Step 4:** Check units: J = kg·m²/s², so √(J·K⁻¹·K / kg·mol⁻¹) = √(m²/s²) = m/s ✓  \n**Step 5:** Reasonableness: speed of sound in air ~340 m/s, N₂ rms speed ~517 m/s is physically plausible.  \n**Answer:** 517 m/s (3 significant figures). A wrong answer (e.g., 5170 m/s or 16.3 m/s) reveals unit conversion error (forgetting g→kg) or formula misuse (using k_B with molar mass).",
+     "self_check": true
+    },
+    {
+     "q": "A graph of PV/T versus P for a fixed mass of oxygen gas at two temperatures T₁ and T₂ shows two curves approaching the same y-intercept at P→0. If T₁ > T₂, which curve corresponds to T₁? Justify using kinetic theory.",
+     "a": "At low pressures (P→0), all gases behave ideally. The y-intercept is PV/T = μR, which is constant for a fixed mass. For a real gas, PV/T decreases with P at low T due to intermolecular attraction, but increases at high T due to molecular volume dominance. At higher temperature T₁, molecules have greater kinetic energy, overcoming attraction more effectively, so the curve lies closer to the ideal horizontal line. Thus the curve with smaller deviation from the y-intercept (less negative slope at low P) corresponds to T₁. A student choosing the wrong curve misinterprets how molecular kinetic energy competes with intermolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we double the temperature of an ideal gas from 300 K to 600 K, the rms speed of its molecules also doubles.\" Evaluate this claim and provide the correct relationship.",
+     "a": "The claim is false. From v_rms = √(3k_BT/m), v_rms ∝ √T. Doubling T increases v_rms by factor √2 ≈ 1.414, not 2. Correct relationship: v_rms₂/v_rms₁ = √(T₂/T₁) = √2. A student making this error treats the square root as linear, indicating poor grasp of power-law relationships. This misconception often appears when students memorize \"v_rms increases with T\" without internalising the √T dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using a mixture of two gases with very different molecular masses (e.g., hydrogen and sulfur hexafluoride) in a container at thermal equilibrium to demonstrate that temperature is a measure of average kinetic energy, not average speed.",
+     "a": "A good answer: Place H₂ (M = 2 g/mol) and SF₆ (M = 146 g/mol) in a thermally insulated container. Wait for thermal equilibrium (same T). Measure or calculate v_rms for each: v_rms,H₂/v_rms,SF₆ = √(M_SF₆/M_H₂) ≈ √73 ≈ 8.5. Despite vastly different speeds, both gases have identical average translational KE = (3/2)k_BT. This proves temperature reflects energy, not speed. A poor answer (e.g., \"measure temperature with thermometer\") misses the microscopic-macroscopic connection and fails to use kinetic theory concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

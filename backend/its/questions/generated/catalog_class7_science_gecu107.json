@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu107.json",
+ "concepts": [
+  {
+   "id": "gecu.7.1",
+   "title": "Conduction of Heat",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is conduction of heat?",
+     "a": "Heat passing through a solid from the hot end to the cold end, particle to particle.",
+     "self_check": true
+    },
+    {
+     "q": "Name two good and two bad conductors of heat.",
+     "a": "Good: metals like copper, aluminium. Bad: wood, plastic, wool, air.",
+     "self_check": true
+    },
+    {
+     "q": "Why do metal handles feel colder than wooden ones in winter?",
+     "a": "Metal conducts heat away from the hand faster, so it feels colder.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.2",
+   "title": "Convection in Liquids and Gases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is convection?",
+     "a": "Heat carried by the moving particles of a liquid or gas - hot parts rise, cool parts sink.",
+     "self_check": true
+    },
+    {
+     "q": "Why does water in a kettle heat by convection?",
+     "a": "Warm water at the bottom rises while cooler water sinks, forming currents that spread heat.",
+     "self_check": true
+    },
+    {
+     "q": "Name one natural convection current.",
+     "a": "Sea breeze, or the upward flight of a hot-air balloon.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.3",
+   "title": "Radiation: Heat without a Medium",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is radiation?",
+     "a": "Heat travelling as rays without any medium - how the sun's heat reaches earth.",
+     "self_check": true
+    },
+    {
+     "q": "Does radiation need a material to travel through?",
+     "a": "No - it passes even through vacuum of space.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we wear light colours in summer?",
+     "a": "Light colours reflect radiated heat; dark colours absorb it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.4",
+   "title": "Heat, Land, Water and the Cycle of Weather",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do coastal places have milder weather than deserts?",
+     "a": "Water heats and cools slowly, keeping sea-side temperatures steady; land swings fast.",
+     "self_check": true
+    },
+    {
+     "q": "How does land breeze form at night?",
+     "a": "Land cools faster than the sea; warm air over the sea rises and cooler land air flows to take its place.",
+     "self_check": true
+    },
+    {
+     "q": "Why do clouds often form over land in the afternoon near the sea?",
+     "a": "Warm moist air rises from the heated land and condenses high up into clouds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

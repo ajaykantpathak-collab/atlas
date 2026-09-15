@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_002",
+   "title": "c10_math_cbse_08_002",
+   "questions": [
+    {
+     "q": "In a right triangle ABC, right-angled at B, if sin A = 4/5, what is the value of cosec A?",
+     "a": "cosec A = 5/4. A wrong answer like 4/5 reveals the student confused cosec with sin (did not take reciprocal). An answer of 5/3 or 3/5 reveals the student incorrectly used the triangle sides without checking which side is opposite/hypotenuse for angle A.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: sec θ = 1/cos θ = Adjacent/Hypotenuse. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. sec θ = 1/cos θ = Hypotenuse/Adjacent. The student correctly wrote the reciprocal relationship but inverted the sides wrongly. cos θ = Adjacent/Hypotenuse, so its reciprocal is Hypotenuse/Adjacent. A wrong answer reveals the student memorized \"sec = 1/cos\" but did not connect it to the side-ratio definition, leading to errors in triangle-based problems.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, right-angled at Q, PQ = 12 cm, QR = 5 cm. Find cot R.",
+     "a": "First, identify sides relative to angle R: Opposite = PQ = 12 cm, Adjacent = QR = 5 cm. tan R = Opposite/Adjacent = 12/5. cot R = 1/tan R = Adjacent/Opposite = 5/12. A wrong answer of 12/5 reveals the student computed tan instead of cot. An answer of 5/13 or 12/13 reveals the student incorrectly used the hypotenuse (PR = 13 cm from Pythagoras) instead of the adjacent side.",
+     "self_check": true
+    },
+    {
+     "q": "Given that tan θ = 7/24 for an acute angle θ, find the values of sin θ and cosec θ without using a calculator. Explain your reasoning.",
+     "a": "tan θ = 7/24 ⇒ Opposite = 7k, Adjacent = 24k. Hypotenuse = √(7²+24²)k = 25k. sin θ = Opp/Hyp = 7/25. cosec θ = 1/sin θ = 25/7. A wrong answer like sin θ = 7/24 reveals the student confused tan with sin. An answer of cosec θ = 7/25 reveals the student took reciprocal of tan instead of sin. This tests if the student can reconstruct the triangle from one ratio and then derive others.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"If sec θ = 13/5, find cos θ.\" Their working: cos θ = 1/sec θ = 1/(13/5) = 5/13. Then they write: \"cos θ = Adjacent/Hypotenuse = 5/13, so the triangle sides are 5, 13, and 12.\" Is the triangle side conclusion correct? Justify.",
+     "a": "Yes, the conclusion is correct. cos θ = 5/13 means Adjacent = 5k, Hypotenuse = 13k. Then Opposite = √(13²−5²)k = 12k. The sides are in ratio 5:12:13. A wrong \"No\" with reasoning like \"hypotenuse must be the largest side, 13 is not largest\" reveals the student doesn't understand that 13 is the hypotenuse (largest). A wrong \"No\" because \"we don't know the actual lengths\" reveals confusion between ratio and actual length — the triangle sides are proportional to 5,12,13, which is valid.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (with Indian context) where a surveyor needs to use cot θ to find the height of a tower, given the distance from the tower and the angle of elevation. Provide the problem statement, a labelled diagram description, and the formula the surveyor would use.",
+     "a": "Example: A surveyor stands 20 m from the base of a tower in Delhi. The angle of elevation to the top is 30°. Find the tower height. Diagram: right triangle with base 20 m (adjacent to 30°), height h (opposite). Formula: cot 30° = Adjacent/Opposite = 20/h ⇒ h = 20/cot 30° = 20 tan 30°. A poor answer uses tan directly without showing cot relationship, or uses sin/cos incorrectly, or gives a non-Indian context (e.g., feet, yards). This tests ability to model a real situation with the appropriate reciprocal ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_011",
+   "title": "c11_eco_cbse_08_011",
+   "questions": [
+    {
+     "q": "According to NCERT Table 8.2, what was China's annual GDP growth rate during 1980–90, and how did it compare to India and Pakistan in the same period?",
+     "a": "China: 10.3%; India: 5.7%; Pakistan: 6.3%. A wrong answer (e.g., stating India grew faster) reveals the student has not internalized the pre-reform growth baseline or confuses post-1991 India growth with the 1980s. This indicates a failure to distinguish between the pre-reform era (when all three had similar low development) and the post-reform divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT text attribute China's superior human development indicators (Table 8.5) primarily to *pre-reform* strategies rather than the 1978 reforms themselves?",
+     "a": "Because China had already achieved massive extension of basic health services in rural areas, equitable food distribution via communes, high literacy, and land reforms *before* 1978. A wrong answer crediting post-1978 reforms alone shows the student misses the textbook's explicit statement: \"these improvements were attributed not to the reform process but the strategies that China adopted in the pre-reform period.\" This confusion undermines understanding of sequencing: human capital precedes growth.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.3 (2022 data), calculate the ratio of industrial GVA share to industrial workforce share for India, China, and Pakistan. Which country shows the highest labor productivity in industry, and what does this imply about manufacturing quality?",
+     "a": "India: 28/26 = 1.08; China: 38/32 = 1.19; Pakistan: 21/26 = 0.81. China has the highest ratio (1.19), implying its industrial sector generates more output per worker — reflecting higher value-added manufacturing. A student who only compares absolute GVA shares (China 38% > India 28%) without adjusting for workforce share misses the productivity insight. This error shows inability to compute and interpret labor productivity from sectoral data.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states Pakistan's growth decelerated in all three sectors (agriculture, industry, services) during 2014–18 vs 1980–90 (Table 8.4). Analyze two structural reasons from the text for this broad-based slowdown, contrasting with China's experience.",
+     "a": "Reason 1: Pakistan's agricultural growth depended on \"good harvest\" (weather luck) not \"institutionalised process of technical change\" — so volatility dragged down overall growth. Reason 2: Foreign exchange reliance on volatile remittances and agricultural exports (not manufactured exports) plus rising foreign debt created balance-of-payments instability. China avoided both by building manufacturing exports and retaining state capacity. A student blaming only \"political instability\" without linking to agricultural volatility and export structure shows superficial reading.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the textbook's claim that \"China used the market system without losing political commitment\" to raise growth and alleviate poverty. Is this a sufficient lesson for India? Justify using HDI and liberty indicator arguments from the text.",
+     "a": "The claim is partially valid: China achieved remarkable poverty reduction (Table 8.5: 0% below poverty line vs India's 21.9%) and high growth via state-guided marketization. However, the textbook explicitly warns that \"lack of political freedom and its implications for human rights are major concerns\" and that liberty indicators (democratic participation, judicial independence, constitutional rights) are missing from HDI. For India, a democratic polity, the lesson is to *combine* China's manufacturing focus and pre-reform human capital investment *with* liberty-preserving institutions — not replicate the political model. A student agreeing uncritically ignores the textbook's normative framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy brief for India's Manufacturing Mission (2025) drawing *only* from the comparative lessons of China's 1978–2024 reforms and Pakistan's 1988–2024 experience as presented in this chapter. Each point must reference a specific table or NCERT observation.",
+     "a": "1. **Prioritize agricultural productivity first** (like China's 1978 household responsibility system): Table 8.4 shows China's agricultural growth fell from 5.9% to 3.1% but *preceded* industrial takeoff; India's stagnant 3.1% in both periods (Table 8.4) signals unfinished agrarian reform. 2. **Build export-oriented manufacturing via SEZs and township enterprises** (China's phased industrial reform): Table 8.3 shows China's industry at 38% GVA with 32% workforce vs India's 28%/26%; Table 8.2 shows China's sustained 10.3% growth in 1980s. 3. **Avoid remittance/foreign-aid dependence** (Pakistan's trap): Text notes Pakistan's forex came from \"remittances... and exports of highly volatile agricultural products\" leading to debt cycles; India must earn forex via manufactured exports (Table 8.5: China's GNI per capita PPP $22,029 vs India's $9,047). A brief missing table references or copying generic \"improve manufacturing\" fails the competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

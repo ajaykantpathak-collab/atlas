@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_005",
+   "title": "c11_stat_cbse_07_005",
+   "questions": [
+    {
+     "q": "State the formula for Karl Pearson's correlation coefficient using the actual mean method and define each variable.",
+     "a": "The formula is r = Σxy / √(Σx² Σy²), where x = X - X̄ (deviation of X from its mean), y = Y - Ȳ (deviation of Y from its mean), Σx² is the sum of squared deviations of X, Σy² is the sum of squared deviations of Y, and Σxy is the sum of the product of deviations. A wrong answer typically reveals confusion between the actual mean method and the assumed mean method (where deviations are taken from an arbitrary value A and B), or forgetting to take the square root of the product of sums of squares in the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the actual mean method becomes computationally tedious when the arithmetic means are not whole numbers, and how this motivates the use of the assumed mean method.",
+     "a": "When X̄ or Ȳ are fractions/decimals, every deviation (X - X̄) and (Y - Ȳ) becomes a decimal, making squaring and multiplication cumbersome and error-prone for manual calculation. The assumed mean method avoids this by choosing convenient whole numbers A and B as reference points, calculating deviations as (X - A) and (Y - B), and applying a correction factor. A wrong answer indicates the student does not understand the practical computational difficulty that leads to alternative methods, treating all methods as equally convenient regardless of data values.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for X and Y, compute the correlation coefficient using the actual mean method.\nX: 10, 12, 14, 16, 18\nY: 20, 22, 24, 26, 28",
+     "a": "Step 1: X̄ = (10+12+14+16+18)/5 = 70/5 = 14; Ȳ = (20+22+24+26+28)/5 = 120/5 = 24.\nStep 2: Deviations x = X - 14 → -4, -2, 0, 2, 4; y = Y - 24 → -4, -2, 0, 2, 4.\nStep 3: x²: 16, 4, 0, 4, 16 → Σx² = 40; y²: 16, 4, 0, 4, 16 → Σy² = 40.\nStep 4: xy: 16, 4, 0, 4, 16 → Σxy = 40.\nStep 5: r = 40 / √(40 × 40) = 40/40 = 1.\nA wrong answer (e.g., r = 0.8 or calculation errors in deviations) reveals inability to handle symmetric data or arithmetic mistakes in summing squares/products.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the actual mean method and the assumed mean method in terms of the final value of r. Will they always give the same numerical result? Justify your answer mathematically.",
+     "a": "Yes, both methods yield the identical value of r because they are algebraically equivalent transformations of the same formula. The assumed mean method uses deviations dₓ = X - A and dᵧ = Y - B, and the formula r = [NΣdₓdᵧ - ΣdₓΣdᵧ] / √([NΣdₓ² - (Σdₓ)²][NΣdᵧ² - (Σdᵧ)²]) simplifies to the same expression as Σxy/√(Σx²Σy²) since x = dₓ - dₓ̄ and y = dᵧ - dᵧ̄. A wrong answer (e.g., \"they give different results\" or \"assumed mean is approximate\") reveals a fundamental misunderstanding that the assumed mean method is an approximation rather than an algebraic simplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates r = 1.2 using the actual mean method. Without redoing the calculation, explain why this answer must be wrong and identify the most likely step where the error occurred.",
+     "a": "Karl Pearson's correlation coefficient r always lies in the closed interval [-1, 1] by the Cauchy-Schwarz inequality. A value of 1.2 is mathematically impossible. The most likely error is in the denominator: the student probably forgot to take the square root of the product Σx²Σy², or incorrectly computed Σx² or Σy² (e.g., using Σx instead of Σx²), or made a sign error in Σxy that made the numerator larger than the denominator. A wrong answer indicates the student does not know the bounded range of r or cannot use it as a reasonableness check.",
+     "self_check": true
+    },
+    {
+     "q": "Create a bivariate data set of 5 pairs (X, Y) such that the correlation coefficient calculated by the actual mean method is exactly 0. Show the data and verify the calculation.",
+     "a": "Example: X: 1, 2, 3, 4, 5; Y: 5, 4, 3, 2, 1 (perfect negative correlation gives -1, not 0). For r=0, we need Σxy = 0. One set: X: 1, 2, 3, 4, 5; Y: 3, 5, 3, 1, 3.\nX̄ = 3, Ȳ = 3.\nx: -2, -1, 0, 1, 2; y: 0, 2, 0, -2, 0.\nxy: 0, -2, 0, -2, 0 → Σxy = -4? Wait, that gives -4. Let's construct carefully.\nWe need Σ(x - X̄)(y - Ȳ) = 0.\nTake X: 1, 2, 3, 4, 5 (X̄=3). Choose Y such that deviations multiply to sum zero.\nLet Y: 2, 4, 3, 5, 1. Ȳ = 3.\nx: -2, -1, 0, 1, 2; y: -1, 1, 0, 2, -2.\nxy: 2, -1, 0, 2, -4 → Σxy = -1. Not zero.\nBetter: Y: 1, 3, 5, 3, 1. Ȳ = 2.6? Not integer mean.\nSimplest: X: 1, 2, 3, 4, 5; Y: 5, 3, 4, 2, 1? Let's just give a correct example.\nX: 1, 2, 3, 4, 5 (X̄=3). Y: 1, 3, 5, 3, 1 (Ȳ=2.6? Sum=13/5=2.6). Deviations: x: -2,-1,0,1,2; y: -1.6, 0.4, 2.4, 0.4, -1.6. Products: 3.2, -0.4, 0, 0.4, -3.2 = 0. Works but decimals.\nInteger example: X: 1, 2, 3, 4, 5 (X̄=3). Y: 2, 4, 6, 4, 2 (Ȳ=18/5=3.6). Not integer.\nUse X: 10, 20, 30, 40, 50 (X̄=30). Y: 10, 20, 30, 40, 50 → r=1.\nFor r=0: X: 1, 2, 3, 4, 5; Y: 5, 4, 5, 4, 5. X̄=3, Ȳ=23/5=4.6.\nx: -2,-1,0,1,2; y: 0.4, -0.6, 0.4, -0.6, 0.4.\nxy: -0.8, 0.6, 0, -0.6, 0.8 = 0. Yes.\nA poor answer (e.g., giving a set with obvious linear trend) shows the student cannot reverse-engineer the condition Σxy=0.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

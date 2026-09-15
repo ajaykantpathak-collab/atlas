@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 106,
+  "chapter_title": "Mathematics in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks106.1.1",
+      "title": "Early Indian Mathematicians and Our Indebtedness",
+      "section": "1.1",
+      "definition": "Little is popularly known of the achievements of early Indian mathematicians, yet the indebtedness of world mathematics to them is real: from ancient times onwards, Indian workers in mathematics developed results and methods that later centuries absorbed. The chapter urges readers to wonder at, and recover, this history.",
+      "formula": "",
+      "key_idea": "A debt most students never hear of -- modern mathematics stands partly on early Indian achievements.",
+      "textbook_ref": "keks106.txt opening (achievements of early indian mathematicians, indebtedness, works in mathematics in the ancient period)",
+      "question_patterns": [
+        "why does the chapter speak of indebtedness to early indian mathematicians",
+        "in class 11 mathematics in india: what achievements are highlighted from the ancient period",
+        "name the mathematicians discussed and their contributions",
+        "why is the history of mathematics worth studying",
+        "what works of indian mathematicians reached later ages",
+        "how did indian mathematical ideas travel to other cultures"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "recover the names",
+          "explain": "The chapter names mathematicians of the ancient period and lists their works."
+        },
+        {
+          "step": 2,
+          "action": "list the results",
+          "explain": "Numerals and place value, algebraic methods, geometry and astronomical computation form the core achievements."
+        },
+        {
+          "step": 3,
+          "action": "trace the debt",
+          "explain": "These ideas passed through translation into later mathematics -- the indebtedness the chapter insists on."
+        }
+      ]
+    },
+    {
+      "id": "keks106.1.2",
+      "title": "Zero, Decimals and Place Value",
+      "section": "1.2",
+      "definition": "Among the greatest Indian gifts is the number system we still use: the place-value decimal system, the mature concept of zero as a number, and algorithms of arithmetic that made calculation fast and universal. These quiet inventions underwrite all modern computation.",
+      "formula": "",
+      "key_idea": "Nothing that means everything -- zero, place value and decimal method are India's quiet revolution in calculation.",
+      "textbook_ref": "keks106.txt numeral sections (zero as number, decimal place value system, arithmetic methods, numerals travel to the west)",
+      "question_patterns": [
+        "what is the indian contribution to the concept of zero",
+        "in class 11 mathematics in india: explain the place value system",
+        "why did the decimal system make calculation easier",
+        "how did indian numerals reach the world",
+        "compare roman numerals with the indian decimal system",
+        "why is zero called a revolutionary idea in mathematics"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the system",
+          "explain": "Nine digits plus zero, read by place value, encode any number however large with ease."
+        },
+        {
+          "step": 2,
+          "action": "credit the zero",
+          "explain": "Indian mathematicians treated zero as a number with rules of operation -- not merely a placeholder."
+        },
+        {
+          "step": 3,
+          "action": "follow the spread",
+          "explain": "Arab scholars absorbed and transmitted the system, giving the world its everyday arithmetic."
+        }
+      ]
+    },
+    {
+      "id": "keks106.1.3",
+      "title": "Geometry, Algebra and Their Practical Roots",
+      "section": "1.3",
+      "definition": "Indian mathematics grew from practice: geometry from altar construction and surveying, algebra from problem-solving in inheritance and trade, trigonometry from astronomy. Texts treated rules with worked demonstrations, and mathematicians like Aryabhata and his successors organised results into teachable systems.",
+      "formula": "",
+      "key_idea": "Maths grew where life needed it -- altars, markets and skies -- then matured into system and teaching.",
+      "textbook_ref": "keks106.txt geometry algebra sections (sulba constructions, geometry, algebra, aryabhata, astronomical applications, practical problems)",
+      "question_patterns": [
+        "how did geometry develop in ancient india",
+        "in class 11 mathematics in india: what did aryabhata contribute",
+        "relate altar construction to early geometry",
+        "what problems did indian algebra set out to solve",
+        "why was mathematics linked with astronomy in india",
+        "give examples of practical problems solved by indian mathematicians"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "start from practice",
+          "explain": "Ritual geometry fixed altar areas and shapes; land and trade problems demanded equations."
+        },
+        {
+          "step": 2,
+          "action": "systematise",
+          "explain": "Aryabhata and successors condensed rules and methods into texts that taught computation efficiently."
+        },
+        {
+          "step": 3,
+          "action": "serve astronomy",
+          "explain": "Trigonometric tables and algebraic technique answered astronomical needs, binding the sciences together."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks106.txt numeral sections",
+      "concept": "keks106.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Show why writing 4096 in the Indian place-value system is more efficient than repeating a symbol four thousand and ninety-six times.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "write it positionally",
+          "explain": "Four digits -- 4, 0, 9, 6 -- each carrying weight by position say all of it."
+        },
+        {
+          "step": 2,
+          "action": "note the zero's work",
+          "explain": "The zero marks the empty hundreds place, holding the structure without any tally marks."
+        },
+        {
+          "step": 3,
+          "action": "generalise",
+          "explain": "Any number however large takes only a few digits -- the efficiency that made the system world-conquering."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks106.txt geometry algebra sections",
+      "concept": "keks106.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Explain how altar construction could give rise to geometrical rules in ancient India.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the requirement",
+          "explain": "Ritual demanded altars of exact shapes and areas, built to specification."
+        },
+        {
+          "step": 2,
+          "action": "derive the rules",
+          "explain": "Meeting the specification required reliable right angles, areas and proportions -- geometry in bricks."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Construction needs became mathematical rules -- practice as the parent of theory."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why should we study the history of Indian mathematics?",
+        "Explain the Indian contribution to the number system.",
+        "Why is the concept of zero important in mathematics?",
+        "What did Aryabhata achieve as a mathematician?",
+        "Describe the practical roots of Indian geometry and algebra.",
+        "How did Indian mathematical ideas reach other cultures?"
+      ]
+    }
+  ]
+}

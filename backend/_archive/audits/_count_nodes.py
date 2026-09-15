@@ -1,0 +1,12 @@
+from neo4j import GraphDatabase
+d = GraphDatabase.driver('bolt://localhost:7687', auth=('neo4j', 'dream_neo4j_2024'))
+s = d.session()
+r = s.run('MATCH (n) RETURN count(n) as c').single()
+print('Total Neo4j nodes:', r['c'])
+r2 = s.run('MATCH (n) WHERE n.board = "CBSE" RETURN count(n) as c').single()
+print('CBSE nodes:', r2['c'])
+r3 = s.run('MATCH (n) WHERE n.board = "CISCE" OR n.board IS NULL RETURN count(n) as c').single()
+print('CISCE/null nodes:', r3['c'])
+r4 = s.run('MATCH (n) WHERE n.board IS NOT NULL RETURN n.board as b, count(n) as c ORDER BY c DESC').data()
+print('By board:', r4)
+d.close()

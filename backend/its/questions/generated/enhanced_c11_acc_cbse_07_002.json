@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_002",
+   "title": "c11_acc_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the four causes of depreciation as per Accounting Standard‑6.",
+     "a": "The four causes are: (1) Wear and Tear due to use or passage of time, (2) Expiration of Legal Rights, (3) Obsolescence, and (4) Abnormal Factors.  \nA wrong answer (e.g., listing \"market value fall\" or \"inflation\") reveals the student is confusing depreciation causes with general value changes or mixing up depreciation with impairment.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchases a patent for ₹10,00,000 with a legal life of 10 years. After 10 years, the patent cannot be used. Which cause of depreciation (amortisation) applies here, and why is it NOT wear and tear?",
+     "a": "The cause is **Expiration of Legal Rights** because the patent's utility ends when its legal protection expires. It is not wear and tear because the patent is an intangible asset with no physical substance to deteriorate.  \nIf the student says \"wear and tear\" or \"obsolescence\", they misunderstand that legal‑life expiry is a distinct cause applicable to intangible/legal assets, not physical deterioration.",
+     "self_check": true
+    },
+    {
+     "q": "A printing press buys a high‑speed printer for ₹5,00,000. Two years later, a new 3D printing technology makes the printer obsolete for the firm's main product line. The firm still uses it for minor jobs. Calculate the depreciation cause and explain why the asset is not fully written off immediately.",
+     "a": "The cause is **Obsolescence** (technological change). The asset is not fully written off because it still has *some* utility (minor jobs) and depreciation allocates the cost over its *remaining useful life*, not just the period of primary use.  \nA wrong answer (e.g., \"write off the whole amount now\" or \"wear and tear\") shows the student thinks obsolescence requires immediate full write‑off or confuses it with physical deterioration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Wear and Tear\" and \"Obsolescence\" in terms of: (a) nature of decline, (b) controllability by management, (c) typical pattern of value loss.",
+     "a": "(a) Wear and tear is physical deterioration from use/time; obsolescence is economic/functional decline from external changes.  \n(b) Wear and tear can be slowed by maintenance; obsolescence is largely uncontrollable (tech/market shifts).  \n(c) Wear and tear is gradual and predictable; obsolescence can be sudden (new model launch) or gradual.  \nIf the student says both are physical or both are controllable, they miss the fundamental distinction between internal physical decay and external economic forces.",
+     "self_check": true
+    },
+    {
+     "q": "A factory building suffers flood damage. The accountant argues this is \"abnormal factor\" depreciation and should be spread over the remaining life. Evaluate this treatment.",
+     "a": "Incorrect. Abnormal factors (flood, fire, earthquake) cause **sudden, non‑recurring** loss. The loss should be recognised immediately as an extraordinary item/impairment, not spread as depreciation. Depreciation is for *gradual, continuing* decline.  \nIf the student agrees to spread it, they confuse abnormal factor depreciation (which is actually an impairment loss) with regular depreciation, violating the \"gradual and continuing\" feature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini‑case (3‑4 sentences) involving a fixed asset where **at least three** causes of depreciation operate simultaneously. Identify each cause in your case.",
+     "a": "Example: \"A taxi company buys a car for ₹6,00,000. Over 4 years, the engine wears out from daily driving (wear and tear), a new electric model makes petrol taxis less profitable (obsolescence), the commercial permit expires after 5 years (expiration of legal rights), and in year 3 the car is hit by a falling tree (abnormal factor).\"  \nA poor answer lists only one or two causes, or uses vague phrases like \"value went down\", showing inability to disentangle multiple simultaneous forces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

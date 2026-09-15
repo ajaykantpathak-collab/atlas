@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_4",
+   "title": "c9_physics_ch4_4",
+   "questions": [
+    {
+     "q": "Name the four energy forms discussed in this node and state the SI unit of energy.",
+     "a": "The four forms are heat, light, chemical, and electrical energy. The SI unit is joule (J). A wrong answer (e.g., listing \"mechanical\" or \"nuclear\", or giving \"watt\" as unit) reveals the student is confusing energy forms with energy sources or confusing energy with power.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"When a battery lights a bulb, chemical energy is converted into electrical energy, which is then converted into light energy. No heat is produced because the bulb is LED.\" Explain why this statement is partially incorrect using the concept of energy conversion efficiency.",
+     "a": "Even LED bulbs produce some heat because no energy conversion is 100% efficient; a fraction of electrical energy always dissipates as heat due to resistance in the circuit and non-radiative recombination in the semiconductor. A wrong answer (e.g., \"LEDs produce no heat\") reveals the misconception that \"efficient\" means \"zero heat loss\", confusing high efficiency with perfect conversion.",
+     "self_check": true
+    },
+    {
+     "q": "A solar water heater receives 800 J of light energy per second per square metre. The collector area is 2.5 m² and it operates for 10 minutes. If the system converts 45% of incident light energy into heat energy absorbed by water, calculate the heat energy gained by water in joules.",
+     "a": "**Step 1:** Incident power = 800 J/s/m² × 2.5 m² = 2000 J/s.  \n**Step 2:** Time = 10 min = 600 s.  \n**Step 3:** Total incident light energy = 2000 J/s × 600 s = 1,200,000 J.  \n**Step 4:** Heat energy absorbed = 45% of 1,200,000 J = 0.45 × 1,200,000 = 540,000 J.  \n**Step 5:** Answer: 5.4 × 10⁵ J.  \nA wrong answer (e.g., forgetting to convert minutes to seconds, or using 800 J directly) reveals unit-tracking failure or inability to chain multi-step conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy conversion sequence in a **pressure cooker on a gas stove** versus an **electric immersion rod** heating water. Identify the initial stored energy form and the final useful energy form in each case. Why is the gas stove sequence longer?",
+     "a": "Gas stove: Chemical (LPG) → Heat (flame) → Heat (water). Immersion rod: Electrical → Heat (rod) → Heat (water). The gas stove has an extra step (combustion) converting chemical to heat, while the rod directly converts electrical to heat via Joule heating. A wrong answer (e.g., saying gas stove starts with \"heat energy\") reveals confusion between energy *source* (fuel) and energy *form* (chemical potential).",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"In a rechargeable battery, during charging electrical energy is converted to chemical energy, and during discharging chemical energy is converted to electrical energy. So the battery *creates* electrical energy from nothing during discharge.\" Evaluate this claim using the law of conservation of energy.",
+     "a": "The claim is false. The battery does not *create* energy; it *stores* energy from the charger as chemical potential energy (reversing the discharge reaction) and releases it later. Total energy over a full charge-discharge cycle is conserved (minus heat losses). A wrong evaluation (agreeing with the claim) reveals the deep misconception that energy can be created by a device, ignoring the input during charging.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using a **lemon, copper coin, and zinc nail** to demonstrate conversion of chemical energy to electrical energy. List the materials, steps, and how you would detect the electrical energy produced without a multimeter.",
+     "a": "**Materials:** Lemon, copper coin (cathode), zinc-coated nail (anode), LED (low current red) or a sensitive galvanometer from school lab. **Steps:** Insert coin and nail into lemon without touching. Connect LED legs to coin and nail. **Detection:** LED glows dimly, proving electrical energy (current) is produced from chemical reaction (Zn oxidation, H⁺ reduction). A poor answer (e.g., \"use a voltmeter\" without explaining the chemical reaction, or expecting bright light) reveals lack of understanding of the electrochemical cell principle and energy magnitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

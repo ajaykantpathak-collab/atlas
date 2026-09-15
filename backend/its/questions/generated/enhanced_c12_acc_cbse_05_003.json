@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_003",
+   "title": "c12_acc_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the correct journal entry when a company issues 10,000 equity shares of ₹10 each at par, payable ₹3 on application, ₹4 on allotment, and ₹3 on first & final call, assuming all money is received.",
+     "a": "Correct entries:\n1. Bank A/c Dr. 30,000 → Share Application A/c 30,000\n2. Share Application A/c Dr. 30,000 → Share Capital A/c 30,000\n3. Share Allotment A/c Dr. 40,000 → Share Capital A/c 40,000\n4. Bank A/c Dr. 40,000 → Share Allotment A/c 40,000\n5. Share First & Final Call A/c Dr. 30,000 → Share Capital A/c 30,000\n6. Bank A/c Dr. 30,000 → Share First & Final Call A/c 30,000\nA wrong answer (e.g., crediting Share Capital with ₹1,00,000 in one go) reveals the student does not understand instalment accounting and the need to route money through Application/Allotment/Call accounts.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 5,000 shares of ₹100 each at a premium of ₹20, payable ₹30 on application, ₹50 (including premium) on allotment, and the balance on call. Explain why the premium is credited to Securities Premium Reserve and not to Share Capital.",
+     "a": "Share Capital represents the nominal (face) value of shares issued; it cannot exceed the authorised capital's face value. The premium is a capital profit, not part of share capital, and is restricted by Section 52 of the Companies Act, 2013 for specific uses (e.g., writing off issue expenses, bonus shares). Crediting it to Share Capital would overstate the nominal capital and violate legal provisions. A student who puts premium in Share Capital confuses face value with issue price.",
+     "self_check": true
+    },
+    {
+     "q": "Pass journal entries for the issue of 2,000, 10% preference shares of ₹100 each at a discount of 10%, payable ₹25 on application, ₹40 on allotment, and ₹25 on call. All money is received.",
+     "a": "Steps:\n1. Bank Dr. 50,000 → Pref. Share Application 50,000 (2,000 × ₹25)\n2. Pref. Share Application Dr. 50,000 → 10% Pref. Share Capital 50,000\n3. Pref. Share Allotment Dr. 80,000 → 10% Pref. Share Capital 60,000; Discount on Issue 20,000 (2,000 × ₹10 discount)\n4. Bank Dr. 80,000 → Pref. Share Allotment 80,000\n5. Pref. Share Call Dr. 50,000 → 10% Pref. Share Capital 50,000\n6. Bank Dr. 50,000 → Pref. Share Call 50,000\nTotal Share Capital credited = ₹1,60,000 (face value ₹2,00,000 minus discount ₹40,000? Wait: discount is ₹10 per share × 2,000 = ₹20,000 total. Face value ₹2,00,000. Amount received = ₹1,80,000. So Share Capital credited ₹2,00,000? No: at discount, Share Capital is credited with face value, Discount on Issue debited. Let's recalc: Face value ₹2,00,000. Discount ₹20,000. Issue price ₹1,80,000. Payable: App ₹50,000, Allot ₹80,000, Call ₹50,000 = ₹1,80,000. On allotment: Share Capital gets ₹60,000 (₹80,000 - ₹20,000 discount). So entries: Allotment Dr. 80,000 → Share Capital 60,000, Discount on Issue 20,000. A wrong answer that credits Share Capital with only ₹1,80,000 shows the student thinks discount reduces share capital — it does not; share capital is always at face value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation of Securities Premium Reserve and Discount on Issue of Shares. Where does each appear, and what does a debit balance in Discount on Issue of Shares indicate?",
+     "a": "Securities Premium Reserve appears under \"Reserves and Surplus\" (Shareholders' Funds) on the Liabilities side. Discount on Issue of Shares is a capital loss; the portion to be written off within 12 months appears under \"Other Current Assets\", and the balance under \"Other Non-Current Assets\" (both on Assets side). A debit balance in Discount on Issue of Shares means the loss has not yet been fully written off against Securities Premium Reserve or Statement of Profit and Loss. A student placing Discount on Issue on the Liabilities side treats it as a liability instead of a deferred charge/asset.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues shares at a premium but the Securities Premium Reserve balance is insufficient to write off the discount on another series of debentures issued simultaneously. Evaluate whether the company can use the share premium to write off the debenture discount, and cite the legal provision.",
+     "a": "Yes, Securities Premium Reserve (from share issue) can be used to write off discount/loss on issue of debentures. Section 52(2) of the Companies Act, 2013 permits Securities Premium Reserve to be applied for \"writing off the preliminary expenses of the company\", \"writing off the expenses of, or the commission paid or discount allowed on, any issue of shares or debentures of the company\". The reserve is a common pool for both shares and debentures. A student who says \"no, they are separate\" misunderstands that Securities Premium Reserve is a single reserve available for all permitted purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues 10,000 equity shares of ₹10 each at a premium of ₹2, but the allotment money (including premium) is not fully received. Design the journal entries up to allotment, showing the call account for the unpaid amount.",
+     "a": "Scenario: Green Ltd. issues 10,000 shares @ ₹12 (₹10 face + ₹2 premium). Payable: ₹3 application, ₹5 allotment (incl. ₹2 premium), ₹4 call. Applications for 10,000 shares received. Allotment money received for 9,500 shares; 500 shares unpaid.\nEntries:\n1. Bank Dr. 30,000 → Share Application 30,000\n2. Share Application Dr. 30,000 → Share Capital 30,000\n3. Share Allotment Dr. 50,000 → Share Capital 30,000; Securities Premium Reserve 20,000\n4. Bank Dr. 47,500 → Share Allotment 47,500 (9,500 × ₹5)\n5. Calls in Arrears Dr. 2,500 → Share Allotment 2,500 (for 500 shares)\nA poor answer that credits Securities Premium Reserve only for shares paid misses that premium becomes due on allotment regardless of receipt; the unpaid premium goes to Calls in Arrears.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

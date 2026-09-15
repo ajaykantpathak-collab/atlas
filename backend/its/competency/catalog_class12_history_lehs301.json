@@ -1,0 +1,283 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 30,
+ "chapter_title": "Colonialism and the Countryside",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs301.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.301.1",
+   "title": "Permanent Settlement and Zamindars",
+   "section": "Bengal and the Zamindars",
+   "definition": "The Permanent Settlement of 1793 fixed Bengal's revenue demand forever and made zamindars proprietors answerable for payment by sunset on fixed dates; default brought auction of their estates, so the East Company's state shifted risk onto the rural elite.",
+   "formula": "",
+   "key_idea": "Fixed demand plus strict sunset rules were designed for predictability, but fluctuating harvests made zamindars the first losers.",
+   "textbook_ref": "lehs301.txt Permanent Settlement 1793, sunset law and auction sections",
+   "question_patterns": [
+    "what did the Permanent Settlement of 1793 fix",
+    "explain the sunset law and its consequences",
+    "why were zamindari estates auctioned",
+    "who was Cornwallis and his role in the settlement",
+    "how did the raiyat's position change under the settlement",
+    "evaluate the aims behind fixing revenue forever"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the settlement",
+     "explain": "Cornwallis introduced the Permanent Settlement in 1793"
+    },
+    {
+     "step": 2,
+     "action": "state the rigidity",
+     "explain": "the demand was fixed forever and payment windows were brutally short"
+    },
+    {
+     "step": 3,
+     "action": "close with auctions",
+     "explain": "defaulting zamindars saw estates sold to the highest bidder"
+    }
+   ]
+  },
+  {
+   "id": "lehs.301.2",
+   "title": "Jotedars and Rural Power",
+   "section": "The Jotedars of Bengal",
+   "definition": "Within Bengal villages, jotedars - rich peasants holding substantial land - controlled local credit, leased land to under-ryots and resisted zamindar demands far more effectively than zamindars resisted the state, shifting real rural power below the proprietors.",
+   "formula": "",
+   "key_idea": "While zamindars urbanised and defaulted, jotedars stayed in the village, buying auctioned land and tightening their grip on tenants.",
+   "textbook_ref": "lehs301.txt jotedar power and resistance sections",
+   "question_patterns": [
+    "who were jotedars and what powers did they wield",
+    "why did jotedars resist zamindars successfully",
+    "compare zamindar and jotedar positions after 1793",
+    "how did credit strengthen jotedar control",
+    "what happened to zamindars who moved to cities",
+    "argue the jotedars as the true rural controllers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the layer",
+     "explain": "jotedars held land and money-lending power over under-ryots"
+    },
+    {
+     "step": 2,
+     "action": "note their tactics",
+     "explain": "they delayed rent, mobilised tenants and bought auctioned estates"
+    },
+    {
+     "step": 3,
+     "action": "close with persistence",
+     "explain": "village residence gave jotedars staying power zamindars lacked"
+    }
+   ]
+  },
+  {
+   "id": "lehs.301.3",
+   "title": "Santhals and the Rajmahal Hills",
+   "section": "The Santhals: Settled Farmers",
+   "definition": "The Santhals migrated into the Rajmahal hills from the late eighteenth century, clearing forests for settled cultivation, clashing with Paharia herdsmen, and eventually rebelling in 1855-56 against moneylenders, indigo planters and colonial officials, which led to the creation of a separate Santhal district.",
+   "formula": "",
+   "key_idea": "Santhal settlement turned forest into paddy land, but traders' debts and state taxes converted gratitude into the great rebellion.",
+   "textbook_ref": "lehs301.txt Paharias, Santhal settlement and 1855-56 rebellion sections",
+   "question_patterns": [
+    "describe Paharia life in the Rajmahal hills",
+    "how did Santhal settlement change the hills",
+    "state the grievances behind the 1855 Santhal rebellion",
+    "what followed the rebellion's suppression",
+    "who led the Santhal rising",
+    "relate moneylending to the rebellion's outbreak"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "settle the hills",
+     "explain": "Santhals cleared forest for permanent paddy and mulberry plots"
+    },
+    {
+     "step": 2,
+     "action": "date the revolt",
+     "explain": "the rising of 1855-56 targeted moneylenders and colonial agents"
+    },
+    {
+     "step": 3,
+     "action": "close with the district",
+     "explain": "a separate Santhal Pargana recognised their distinct world"
+    }
+   ]
+  },
+  {
+   "id": "lehs.301.4",
+   "title": "Deccan Riots and the Cotton Boom",
+   "section": "The Deccan Riots",
+   "definition": "The American Civil War cotton boom (1860s) drew Deccan ryots into credit-financed cotton exports; when prices crashed after 1864, debt to sahukars crushed peasants, and in 1875 ryots attacked moneylenders' houses and account books, prompting the Deccan Riots Commission.",
+   "formula": "",
+   "key_idea": "The rioters targeted the bahi khatas - account books - showing that the battle was over debt records as much as grain.",
+   "textbook_ref": "lehs301.txt cotton boom, debt and 1875 riots sections",
+   "question_patterns": [
+    "link the American Civil War to Deccan cotton expansion",
+    "why did peasant debt explode after 1864",
+    "what did ryots attack in 1875 and why account books",
+    "what did the Deccan Riots Commission find",
+    "describe the sahukar's methods of debt manipulation",
+    "state the aftermath for debt legislation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "boom then bust",
+     "explain": "war-time cotton prices drew ryots into debt-financed exports"
+    },
+    {
+     "step": 2,
+     "action": "burn the ledgers",
+     "explain": "1875 rioters burned bahi khatas to destroy debt claims"
+    },
+    {
+     "step": 3,
+     "action": "close with inquiry",
+     "explain": "the commission's report fixed the episode in colonial records"
+    }
+   ]
+  },
+  {
+   "id": "lehs.301.5",
+   "title": "Colonial Countryside Timeline",
+   "section": "Colonial Countryside Timeline",
+   "definition": "Key countryside dates form a chain: the Permanent Settlement in 1793, the Santhal rebellion in 1855, and the Deccan riots in 1875; each interval is found by subtracting the earlier year from the later one.",
+   "formula": "ps_to_santhal = santhal_year - settlement_year",
+   "key_idea": "Subtracting the settlement year from the Santhal year measures how long the settlement's order lasted before open rebellion.",
+   "textbook_ref": "lehs301.txt dates 1793, 1855 and 1875 across the chapter",
+   "question_patterns": [
+    "compute the years between the Permanent Settlement and the Santhal rising",
+    "compute the interval between Santhal and Deccan riots",
+    "arrange the three events in order",
+    "what does the spacing suggest about colonial rule",
+    "name the commission following the Deccan riots",
+    "which decade saw the cotton crash"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two years",
+     "explain": "settlement 1793, Santhal rising 1855",
+     "compute": "settlement_year = 1793"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1855 - 1793 = 62 years between them",
+     "compute": "ps_to_santhal = santhal_year - settlement_year"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs301_1",
+   "source_ref": "lehs301.txt dates 1793 and 1855",
+   "concept": "lehs.301.5",
+   "question_type": "compute",
+   "question_pattern": "Compute the years between the Permanent Settlement (1793) and the Santhal rebellion (1855).",
+   "extracted_variables": {
+    "settlement_year": 1793,
+    "santhal_year": 1855
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1793 settlement, 1855 rising",
+     "compute": "settlement_year = 1793"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1855 - 1793 = 62 years",
+     "compute": "ps_to_santhal = santhal_year - settlement_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs301_2",
+   "source_ref": "lehs301.txt jotedar sections",
+   "concept": "lehs.301.2",
+   "question_type": "short_answer",
+   "question_pattern": "Explain two reasons jotedars outlasted zamindars as rural powers.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "village presence",
+     "explain": "jotedars lived among their tenants and controlled credit locally"
+    },
+    {
+     "step": 2,
+     "action": "state dependence",
+     "explain": "the state needed village-level collection, giving jotedars leverage"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "auctions changed proprietors but not the men who ran the fields"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs301_3",
+   "source_ref": "lehs301.txt Deccan riots section",
+   "concept": "lehs.301.4",
+   "question_type": "short_answer",
+   "question_pattern": "Why did Deccan ryots burn account books in 1875?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "debt as paper",
+     "explain": "the bahi khata held inflated, manipulated claims"
+    },
+    {
+     "step": 2,
+     "action": "symbolic target",
+     "explain": "destroying records symbolised ending bondage"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the riot attacked the documentary engine of exploitation"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs301_1",
+   "source_ref": "lehs301.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the Permanent Settlement and its sunset law",
+    "describe the rise of jotedars in Bengal villages",
+    "account for the Santhal rebellion of 1855-56",
+    "compute intervals between 1793, 1855 and 1875",
+    "discuss the Deccan riots and the commission's findings"
+   ]
+  },
+  {
+   "id": "ex_lehs301_2",
+   "source_ref": "lehs301.txt project questions, reworded",
+   "questions": [
+    "argue whom the Permanent Settlement really served",
+    "use Santhal songs and accounts for rebellion history",
+    "relate cotton price swings to peasant debt",
+    "compare Bengal zamindars and Deccan sahukars as exploiters",
+    "assess colonial records' biases in writing rural history"
+   ]
+  }
+ ]
+}

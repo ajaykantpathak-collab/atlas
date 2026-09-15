@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_003",
+   "title": "c12_math_cbse_03_003",
+   "questions": [
+    {
+     "q": "Two matrices A and B are given as A = [[2, 5], [3, 7]] and B = [[2, 5, 0], [3, 7, 1]]. A student claims A = B because \"the first two columns match\". Is the student correct? Explain why or why not using the definition of matrix equality.",
+     "a": "No, the student is incorrect. Matrix A is of order 2×2 while matrix B is of order 2×3. The definition of matrix equality REQUIRES both matrices to have the same order (same number of rows AND same number of columns). Since the orders differ, A and B cannot be equal regardless of element matches. A wrong answer reveals the student thinks equality only requires matching elements where they overlap, ignoring the order condition — a fundamental misunderstanding that leads to errors in solving matrix equations where order mismatch makes the equation undefined.",
+     "self_check": true
+    },
+    {
+     "q": "If [[x, 3], [2, y]] = [[4, 3], [2, -1]], a student writes x = 4 and y = -1 but also writes \"3 = 3 and 2 = 2 are identities so they give no information\". Is the student's reasoning about the constant elements correct? Why do we still check them?",
+     "a": "Yes, the student's reasoning is correct: the equations 3 = 3 and 2 = 2 are identities (always true) and do not determine x or y. However, we MUST still verify them because if any corresponding constant elements were NOT equal (e.g., 3 = 5), the matrices would NOT be equal regardless of x and y values. A wrong answer reveals the student thinks constant elements can be ignored entirely, missing that they serve as consistency checks — a critical error when solving matrix equations where a single mismatched constant makes the whole system inconsistent.",
+     "self_check": true
+    },
+    {
+     "q": "Solve for a, b, c, d from the matrix equation:\n[[2a + b, a - 2b], [5c - d, 4c + 3d]] = [[4, -3], [11, 24]]",
+     "a": "Step 1: Equate corresponding elements:\n(1) 2a + b = 4\n(2) a - 2b = -3\n(3) 5c - d = 11\n(4) 4c + 3d = 24\n\nStep 2: Solve (1) and (2) for a, b.\nFrom (1): b = 4 - 2a\nSubstitute in (2): a - 2(4 - 2a) = -3 → a - 8 + 4a = -3 → 5a = 5 → a = 1\nThen b = 4 - 2(1) = 2\n\nStep 3: Solve (3) and (4) for c, d.\nFrom (3): d = 5c - 11\nSubstitute in (4): 4c + 3(5c - 11) = 24 → 4c + 15c - 33 = 24 → 19c = 57 → c = 3\nThen d = 5(3) - 11 = 4\n\nAnswer: a = 1, b = 2, c = 3, d = 4.\nA wrong answer (e.g., a = 2, b = 0) reveals the student likely solved only one equation or made a sign error in substitution — common when students rush the algebraic manipulation without verifying both equations.",
+     "self_check": true
+    },
+    {
+     "q": "Given matrices A = [[x, 2], [3, y]] and B = [[1, 2], [3, 4]]. A student says \"Since A = B, we get x = 1 and y = 4. But what if the (2,1) element of B was 5 instead of 3? Would x and y still be 1 and 4?\" Analyze this scenario.",
+     "a": "If B = [[1, 2], [5, 4]], then comparing A and B gives: x = 1 (from (1,1)), 2 = 2 (ok), 3 = 5 (FALSE), y = 4. The equation 3 = 5 is a contradiction. Therefore NO values of x and y can make A = B — the matrix equation is inconsistent. The student's hypothetical x = 1, y = 4 would satisfy three positions but fail at (2,1). A wrong answer (e.g., \"x and y would still be 1 and 4\") reveals the student treats each element equation independently, not understanding that matrix equality requires ALL corresponding elements to match simultaneously — a single mismatch invalidates the entire equality.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves [[x+2, 3], [4, y-1]] = [[5, 3], [4, 2]] and writes: \"x+2 = 5 ⇒ x = 3; y-1 = 2 ⇒ y = 3. Check: 3 = 3 and 4 = 4 are true. So x = 3, y = 3.\" Evaluate this solution. Is it complete? Is the verification step correctly done?",
+     "a": "The solution is correct and complete. The student correctly equated corresponding elements, solved for x and y, and verified the constant elements (3 = 3 and 4 = 4). The verification step is correctly done — it confirms the given constant elements in both matrices match, which is necessary for the equality to hold. A wrong answer (e.g., \"verification is unnecessary\" or \"they forgot to check order\") would reveal either that the student doesn't understand the role of constant-element verification, or that they mechanically solve without checking the order condition first (though here both are 2×2 so order matches). This evaluates whether the student treats matrix equality as a system of simultaneous conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2×2 matrix equation A = B where A has variables x, y and B has constants, such that: (i) the equation has a unique solution, (ii) the equation has no solution, (iii) the equation has infinitely many solutions. Explain each case.",
+     "a": "(i) Unique solution: [[x, 2], [3, y]] = [[5, 2], [3, 7]] → x=5, y=7 (all 4 equations determine values uniquely).\n(ii) No solution: [[x, 2], [3, y]] = [[5, 2], [4, 7]] → 3 = 4 is a contradiction, so no (x,y) works.\n(iii) Infinitely many solutions: [[x, 2], [3, y]] = [[x, 2], [3, y]] (identical matrices with variables) — any x,y work. OR [[x, 2], [3, y]] = [[x, 2], [3, 5]] → x free, y=5 (infinitely many).\nA poor answer (e.g., giving same matrix for all three) reveals the student doesn't understand how the structure of element-wise equations determines solution count — confusing matrix equality with linear equation systems. This tests deep understanding of the definition's implications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

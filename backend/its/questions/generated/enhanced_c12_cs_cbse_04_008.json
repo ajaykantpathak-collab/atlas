@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_008",
+   "title": "c12_cs_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the difference between a `UNIQUE` constraint and a `PRIMARY KEY` constraint in terms of NULL values?",
+     "a": "A `PRIMARY KEY` column cannot contain any NULL values, whereas a `UNIQUE` column can contain one NULL (in most SQL implementations) because NULL is not considered equal to another NULL. A wrong answer (e.g., \"both allow NULL\" or \"neither allows NULL\") reveals confusion about the SQL standard's treatment of NULL in uniqueness checks and the stricter requirement of entity integrity for primary keys.",
+     "self_check": true
+    },
+    {
+     "q": "A table `PRODUCT(PID, PName, Price)` has a constraint `CHECK (Price > 0)`. A user tries to insert a row with `Price = NULL`. Will the insertion succeed? Explain why or why not.",
+     "a": "Yes, the insertion will succeed because a `CHECK` constraint evaluates to UNKNOWN (not FALSE) when any operand is NULL, and UNKNOWN does not violate the constraint. A student who says \"it will fail\" misunderstands three‑valued logic in SQL: CHECK constraints only reject rows where the condition evaluates to FALSE. This exposes the misconception that CHECK constraints implicitly enforce NOT NULL.",
+     "self_check": true
+    },
+    {
+     "q": "Write the SQL statement to create a table `EMPLOYEE(EmpID, Name, Dept, Salary)` such that:\n- EmpID is the primary key,\n- Name cannot be NULL,\n- Salary must be at least 15000,\n- Dept defaults to 'GENERAL' if not provided.",
+     "a": "```sql\nCREATE TABLE EMPLOYEE (\n    EmpID   INT PRIMARY KEY,\n    Name    VARCHAR(50) NOT NULL,\n    Dept    VARCHAR(30) DEFAULT 'GENERAL',\n    Salary  DECIMAL(10,2) CHECK (Salary >= 15000)\n);\n```\nA wrong answer (e.g., missing `NOT NULL`, using `CHECK (Salary > 15000)` instead of `>=`, or forgetting `DEFAULT`) shows inability to translate business rules into correct DDL syntax and constraint types.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a table `BOOK(ISBN, Title, Author, Year)` with `ISBN` as primary key. The following rows exist:\n| ISBN | Title | Author | Year |\n|------|-------|--------|------|\n| 101  | 'DBMS' | 'Navathe' | 2020 |\n| 102  | 'OS'   | 'Silberschatz' | 2018 |\n| 101  | 'Networks' | 'Tanenbaum' | 2019 |\n\nIdentify all constraint violations and explain which integrity rule each violates.",
+     "a": "Violations:\n1. Duplicate ISBN 101 — violates **entity integrity** (primary key uniqueness).\n2. The second row with ISBN 101 also violates **key integrity** because a primary key must be unique.\nNo domain or NOT NULL violations are visible. A student who only mentions \"duplicate key\" without naming entity integrity or who thinks the different Title/Author makes it acceptable shows incomplete understanding of primary key semantics.",
+     "self_check": true
+    },
+    {
+     "q": "A developer argues: \"We don't need a `CHECK (Age >= 18)` constraint on the `VOTER` table because our application code validates age before insertion.\" Evaluate this claim from a database design perspective.",
+     "a": "The claim is flawed. Database constraints are the **last line of defense**; they protect data integrity even when data enters via bulk loads, direct SQL tools, other applications, or future code changes. Relying solely on application validation violates the principle of **data independence** and can lead to corrupt data. A student who agrees with the developer fails to appreciate the multi‑user, multi‑access nature of databases and the role of declarative integrity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a table `LIBRARY_BOOK` for a school library that stores `BookID`, `Title`, `Category` (only 'Fiction', 'Non‑Fiction', 'Reference'), `Copies` (positive integer), and `LastIssued` (date, can be NULL). Write the CREATE TABLE statement with all appropriate domain, key, and entity integrity constraints.",
+     "a": "```sql\nCREATE TABLE LIBRARY_BOOK (\n    BookID      INT PRIMARY KEY,\n    Title       VARCHAR(100) NOT NULL,\n    Category    VARCHAR(20) CHECK (Category IN ('Fiction','Non-Fiction','Reference')),\n    Copies      INT CHECK (Copies > 0),\n    LastIssued  DATE\n);\n```\nA good answer includes PRIMARY KEY (entity integrity), NOT NULL on Title, CHECK for Category domain, CHECK for positive Copies, and allows NULL on LastIssued. Missing any constraint indicates incomplete mapping of requirements to constraint types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

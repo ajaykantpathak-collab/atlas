@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_110",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_110",
+   "title": "c6_math_ch10_110",
+   "questions": [
+    {
+     "q": "What is a \"line of symmetry\" in a building or piece of art?",
+     "a": "A line of symmetry is an imaginary line that divides a figure into two identical halves that perfectly overlap if folded. A wrong answer like \"a line that cuts an object into two parts\" is incomplete because it ignores the requirement that the parts must be mirror images/identical.",
+     "self_check": true
+    },
+    {
+     "q": "If you look at the front of a rectangular building with a door exactly in the center, why do we say it is symmetric?",
+     "a": "It is symmetric because the vertical line passing through the center of the door creates two sides that are mirror reflections of each other. A student who says \"because it's a rectangle\" misses the point; a rectangle is symmetric, but the architecture's symmetry depends on the placement of features like the door and windows relative to that central line.",
+     "self_check": true
+    },
+    {
+     "q": "If a square-shaped courtyard has a pattern that looks the same after a 90-degree turn, does it have rotational symmetry?",
+     "a": "Yes, because it returns to its original appearance after a partial rotation. A wrong answer suggests the student confuses rotational symmetry with line symmetry; they are testing for \"look-alike\" positions after turning, not folding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symmetry of a circle to the symmetry of a triangle. How do they differ?",
+     "a": "A circle has an infinite number of lines of symmetry (every diameter), whereas a triangle (depending on its type) has a fixed, small number (0, 1, or 3). A student failing to mention the difference in the *number* of lines shows they haven't grasped that symmetry is a measurable property.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"All symmetric buildings must have exactly two lines of symmetry.\" Is this true?",
+     "a": "This is false; buildings can have one line (like many houses), four lines (like a square-based structure), or even none if the architecture is asymmetrical. A student agreeing with the statement likely hasn't looked at diverse examples and assumes symmetry is limited to a single \"cross\" shape.",
+     "self_check": true
+    },
+    {
+     "q": "Create a plan for a simple garden path pattern that has at least two lines of symmetry.",
+     "a": "A good response describes a square or rectangular layout where items (like flower beds) are placed at equal distances from a horizontal and vertical center. A poor answer just says \"make it pretty\" without explaining the placement relative to the center lines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

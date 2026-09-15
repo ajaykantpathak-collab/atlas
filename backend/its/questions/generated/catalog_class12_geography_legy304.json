@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy304",
+  "concepts": [
+    {
+      "id": "legy.304.1",
+      "questions": [
+        {"q": "The physical machinery of a computer is called what? (one word)", "a": "hardware"},
+        {"q": "The programmes that instruct a computer are called what? (one word)", "a": "software"},
+        {"q": "Which part of the computer performs the central processing? (short form)", "a": "CPU"},
+        {"q": "Which software manages the machine itself? (two words)", "a": "system software"},
+        {"q": "Spreadsheets and databases are examples of which software class? (two words)", "a": "application software"},
+        {"q": "How many hardware functions are listed (input, processing, memory, output)? (number)", "a": "4"},
+        {"q": "Which hardware function delivers results to the user? (one word)", "a": "output"}
+      ]
+    },
+    {
+      "id": "legy.304.2",
+      "questions": [
+        {"q": "What does DBMS stand for (three words)?", "a": "database management system"},
+        {"q": "In a database table, each row is a what? (one word)", "a": "record"},
+        {"q": "In a database table, each column is a what? (one word)", "a": "field"},
+        {"q": "Which database operation arranges records in order? (one word)", "a": "sort"},
+        {"q": "Which database operation picks records matching a condition? (one word)", "a": "query"},
+        {"q": "Village name, population and area are stored as what in a table? (one word)", "a": "fields"},
+        {"q": "Joining two tables links records through a common what? (one word)", "a": "field"}
+      ]
+    },
+    {
+      "id": "legy.304.3",
+      "questions": [
+        {"q": "Three villages have densities 120, 240 and 60 per sq km. What is their average density? (number)", "a": "140"},
+        {"q": "Two villages have densities 90 and 150. What is their average density? (number)", "a": "120"},
+        {"q": "Which software type computes means and totals over entire columns at once? (one word)", "a": "spreadsheet"},
+        {"q": "Density for each row is computed as population divided by what? (one word)", "a": "area"},
+        {"q": "Four villages have densities 100, 200, 300 and 400. What is the average? (number)", "a": "250"},
+        {"q": "A village of 2,000 people on 8 sq km has what density? (number)", "a": "250"},
+        {"q": "What does computer-assisted computation replace: hours of manual what? (one word)", "a": "arithmetic"}
+      ]
+    },
+    {
+      "id": "legy.304.4",
+      "questions": [
+        {"q": "Which shading method maps density ratios by administrative units on a computer? (one word)", "a": "choropleth"},
+        {"q": "Computer mapping redraws classes and colours quickly, which manual cartography did only through slow what? (one word)", "a": "redrafting"},
+        {"q": "Which symbol patterns can computer mapping generate for point data? (one word)", "a": "dots"},
+        {"q": "Attribute tables are converted into thematic what by computer? (one word)", "a": "maps"},
+        {"q": "How many map design elements can a computer redesign quickly (classes, colours, layouts)? (number)", "a": "3"},
+        {"q": "Computer mapping draws symbols and shades to what property of the map? (one word)", "a": "scale"},
+        {"q": "Is changing a map's colour scheme faster on computer or by hand? (one word)", "a": "computer"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch1_15",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch1_15",
+   "title": "c8_engl_ch1_15",
+   "questions": [
+    {
+     "q": "What is the structural difference between a simile and a metaphor?",
+     "a": "A simile compares two things using comparison words such as \"like\" or \"as\" (e.g., \"The king is as brave as a lion\"), whereas a metaphor directly equates two things without comparison words (e.g., \"The king is a lion\"). \n\n*What a wrong answer reveals:* If a student thinks metaphors also use \"like\" or \"as,\" they are confusing similes with metaphors and missing the direct equivalence that defines a metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Read this line praising a court minister: \"His mind is an endless library where wisdom never sleeps.\" Explain why this line is a metaphor and what specific qualities are being transferred.",
+     "a": "This line is a metaphor because it directly equates \"his mind\" to an \"endless library\" without using \"like\" or \"as.\" The qualities being transferred are vast storage of knowledge, organization, depth, and non-stop intellectual alertness.\n\n*What a wrong answer reveals:* If a student calls this a hyperbole simply because \"a mind cannot literally be a building,\" they are confusing structural comparison (Metaphor: Mind = Library) with numerical or physical overstatement.",
+     "self_check": true
+    },
+    {
+     "q": "Identify whether the following courtly verse contains a Metaphor, a Hyperbole, or Both, and justify your choice:\n\"The royal general's battle cry shattered the moon into a thousand silver pieces, making the enemy army freeze like ice.\"",
+     "a": "The line contains **Hyperbole** (\"shattered the moon into a thousand silver pieces\" — an physically impossible exaggeration of sound volume) and a **Simile** (\"freeze like ice\"), but NOT a metaphor. \n\n*What a wrong answer reveals:* If a student labels \"freeze like ice\" as a metaphor, they are ignoring the presence of the word \"like.\" If they fail to identify hyperbole, they are missing extreme exaggeration.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze these two lines from court poems:\nLine A: \"Tenali Ramakrishna's wit is a double-edged sword.\"\nLine B: \"Tenali Ramakrishna's wit made the entire mountain laugh until its rocks fell.\"\n\nHow do the poetic devices in Line A and Line B differ in their artistic purpose?",
+     "a": "Line A uses a **metaphor** (\"wit is a double-edged sword\") to highlight the *dual function* of wit—that it can both protect the king and cut down foolish court opponents. Line B uses **hyperbole** (\"mountain laughed until its rocks fell\") to magnify the *impact and power* of his humor to an impossible degree. Metaphor explains the nature of his wit, while hyperbole magnifies its scale.\n\n*What a wrong answer reveals:* If a student says both lines mean the same thing, they cannot analyze how different poetic devices achieve distinct literary effects in court literature.",
+     "self_check": true
+    },
+    {
+     "q": "A student states: \"Court poets used hyperbole because they were telling lies to fool the king into giving them gold coins.\" Critique this statement. Is courtly hyperbole simply \"lying\"?",
+     "a": "The student's claim is incorrect. Hyperbole in court poetry is an established literary convention (*praśasti* or praise poetry), not dishonesty. Neither the poet nor the court audience expected exaggerated claims (like \"filling rivers with tears\") to be taken as literal facts; instead, hyperbole was understood as an artistic tool to express high reverence, celebrate royal ideals, and exhibit poetic skill.\n\n*What a wrong answer reveals:* If a student agrees that hyperbole is lying, they are mistaking figurative literary convention for literal factual reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Write a two-line praise poem dedicated to a wise monarch.\n- Line 1 must contain a **metaphor** describing the monarch's justice.\n- Line 2 must contain a **hyperbole** describing the reach of the kingdom's peace.",
+     "a": "*Example Answer:*\nLine 1: Your royal justice is an unyielding anchor in a stormy sea.\nLine 2: Under your reign, even the wild stars sleep without fear of darkness.\n\n*Evaluation Criteria:* Line 1 must directly equate justice to an object/concept without \"like/as\". Line 2 must contain a deliberate, physically impossible exaggeration emphasizing perfect peace.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

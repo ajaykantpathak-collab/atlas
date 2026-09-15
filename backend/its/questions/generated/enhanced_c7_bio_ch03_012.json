@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_012",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_012",
+   "title": "c7_bio_ch03_012",
+   "questions": [
+    {
+     "q": "Which of the following describes the main energy change that happens during photosynthesis?\nA) Chemical energy is converted into light energy\nB) Light energy is converted into chemical energy stored in glucose\nC) Heat energy is converted into mechanical energy\nD) Kinetic energy is converted into potential energy",
+     "a": "B is the correct answer because chlorophyll traps sunlight, driving a chemical reaction that builds glucose molecules, effectively storing solar energy as chemical bonds. A student who selects A has the direction reversed, which reveals a failure to understand that plants are solar energy converters, not energy emitters. A student choosing C or D is guessing wildly without applying basic life science terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Why do green plants carry out respiration 24 hours a day, whereas active photosynthesis occurs mainly during daylight hours?\nA) Respiration requires sunlight to break down glucose molecules\nB) Photosynthesis needs light energy as a driving force, while cellular energy needs (respiration) are constant day and night\nC) Plants close all their stomata at night, preventing respiration from happening in the dark\nD) Respiration stops completely during the day because photosynthesis produces enough oxygen internally",
+     "a": "B is the correct answer because photosynthesis depends on photons from sunlight to power the light-dependent reactions, whereas cellular respiration is a metabolic necessity required to generate ATP for cell survival continuously, regardless of light. A student selecting A mistakenly attributes light dependence to respiration. A student selecting C reveals a misconception about stomatal behavior and gas exchange at night.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the products of photosynthesis and the reactants of respiration. How do these two processes support each other in a closed terrarium ecosystem?\nA) They are completely independent; photosynthesis uses soil minerals while respiration uses water vapor\nB) The glucose and oxygen produced by photosynthesis serve as the exact raw materials consumed during respiration\nC) Both processes produce carbon dioxide and water as end products to nourish the plant tissues\nD) Respiration produces sunlight which is then captured by photosynthesis to drive plant growth",
+     "a": "B is the correct answer because the glucose ($C_6H_{12}O_6$) and oxygen ($O_2$) created during photosynthesis are utilized by plant (and animal) cells during cellular respiration to release energy, water, and carbon dioxide, which in turn feed back into photosynthesis. A student choosing C fails to remember that photosynthesis requires carbon dioxide and water as inputs, not outputs. A student choosing D shows severe confusion about energy sources in biology.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that \"plants only respire at night and only photosynthesize during the day, so they do not need oxygen during daylight hours.\" Evaluate this statement using biological reasoning.\nA) The statement is entirely correct because the two processes take turns operating in mutually exclusive shifts\nB) The statement is false because while photosynthesis happens by day, respiration happens continuously day and night, meaning plants use oxygen constantly\nC) The statement is partially correct because plants never respire; they only use photosynthesis to get all their energy\nD) The statement is false because plants perform both processes simultaneously during the day, with photosynthesis rates usually masking respiration gas exchange",
+     "a": "D is the correct answer with justification: Cellular respiration is an uninterrupted, 24-hour cellular requirement for energy extraction from food. During the daytime, although a plant produces a large amount of oxygen through rapid photosynthesis, it is simultaneously consuming a portion of that oxygen for its own internal respiration. A student selecting A or C misses the fundamental fact that plant cells, like animal cells, need continuous respiration to stay alive regardless of sunlight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple comparative rule or mnemonic that a middle school student can use to never confuse the raw materials of photosynthesis with the end products of respiration. Provide the biological justification for your rule.",
+     "a": "A high-quality response will create a conceptual mirror-image rule, such as: \"What goes in for photosynthesis ($CO_2$ + $H_2O$) comes out of respiration, and what comes out of photosynthesis ($C_6H_{12}O_6$ + $O_2$) goes into respiration.\" The justification must explain that respiration is essentially the reverse chemical pathway of photosynthesis in terms of matter recycling. A poor response simply lists random formulas without showing how one process feeds the other.",
+     "self_check": true
+    },
+    {
+     "q": "[Question needed - generate a create level question]",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

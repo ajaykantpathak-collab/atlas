@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_003",
+   "title": "c12_eco_cbse_08_003",
+   "questions": [
+    {
+     "q": "Define Nominal GDP and Real GDP. State the formula for GDP Deflator.",
+     "a": "**Correct Answer:**  \nNominal GDP = Σ (Current Year Quantity × Current Year Price) for all final goods/services.  \nReal GDP = Σ (Current Year Quantity × Base Year Price) for all final goods/services.  \nGDP Deflator = (Nominal GDP / Real GDP) × 100.  \n\n**What a wrong answer reveals:**  \nIf a student writes \"Real GDP = Σ (Base Year Quantity × Base Year Price)\", they confuse Real GDP with base-year GDP (a constant). If they omit \"× 100\" in the deflator formula, they treat it as a ratio rather than an index number. Both errors show lack of precision in distinguishing **valuation year** (current vs base) from **quantity year** (always current for Real GDP).",
+     "self_check": true
+    },
+    {
+     "q": "Why does Real GDP use **current-year quantities** but **base-year prices**? Explain the economic reasoning.",
+     "a": "**Correct Answer:**  \nReal GDP aims to isolate **volume changes** from **price changes**. Using current-year quantities captures the actual production that occurred in the current year. Using base-year prices holds the valuation constant, so any change in Real GDP compared to the base year reflects only quantity changes. If we used base-year quantities, we would measure base-year output, not current output. If we used current-year prices, price inflation would contaminate the measure.\n\n**What a wrong answer reveals:**  \nA student who says \"Real GDP uses base-year quantities and base-year prices\" is describing base-year Nominal GDP, not Real GDP. This misconception often arises from memorising \"constant prices\" without understanding that **quantities must vary** to reflect current production.",
+     "self_check": true
+    },
+    {
+     "q": "An economy produces only two goods: Wheat and Steel.  \nBase Year (2011-12): Wheat = 100 tonnes @ ₹1,000/tonne; Steel = 50 tonnes @ ₹30,000/tonne.  \nCurrent Year (2023-24): Wheat = 120 tonnes @ ₹2,000/tonne; Steel = 60 tonnes @ ₹40,000/tonne.  \nCalculate: (a) Nominal GDP 2023-24, (b) Real GDP 2023-24 (base 2011-12), (c) GDP Deflator 2023-24.",
+     "a": "**Correct Answer with Steps:**  \n1. Nominal GDP 2023-24 = (120 × 2,000) + (60 × 40,000) = 2,40,000 + 24,00,000 = **₹26,40,000**  \n2. Real GDP 2023-24 = (120 × 1,000) + (60 × 30,000) = 1,20,000 + 18,00,000 = **₹19,20,000**  \n3. GDP Deflator = (26,40,000 / 19,20,000) × 100 = **137.5**  \n\n**What a wrong answer reveals:**  \nIf a student uses current-year prices for Real GDP (e.g., 120×2,000 + 60×40,000), they compute Nominal GDP again. If they use base-year quantities for Real GDP (100×1,000 + 50×30,000), they get base-year GDP (₹16,00,000). Both are classic errors: confusing **valuation prices** with **quantity period**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare GDP Deflator and Consumer Price Index (CPI) on three dimensions: (i) basket of goods, (ii) treatment of imported goods, (iii) base-year revision frequency in India.",
+     "a": "**Correct Answer:**  \n| Dimension | GDP Deflator | CPI (India) |\n|-----------|--------------|-------------|\n| (i) Basket | **All final domestically produced goods/services**; basket changes every year with output composition. | **Fixed basket** of goods/services consumed by a representative household; updated only when base year revised. |\n| (ii) Imports | **Excludes** imported goods (only domestic production). | **Includes** imported goods consumed by households (e.g., crude oil, electronics). |\n| (iii) Base-year revision (India) | Revised with **National Accounts** base year (currently 2011-12; next likely 2017-18). | Revised independently by NSO/Labour Bureau (CPI Combined base 2012=100; CPI-IW base 2016=100). |\n\n**What a wrong answer reveals:**  \nA student who says \"GDP Deflator includes imports\" confuses it with the **GDP at market prices** identity (GDP = C+I+G+X-M). The deflator is derived from GDP, so imports are already netted out in Net Exports. Saying \"CPI basket changes every year\" confuses CPI with the GDP Deflator's flexible basket.",
+     "self_check": true
+    },
+    {
+     "q": "\"GDP Deflator is a better measure of inflation than CPI for policy-making.\" Evaluate this statement with two arguments for and two against.",
+     "a": "**Correct Answer:**  \n**For:** (1) GDP Deflator covers **entire domestic output** (investment goods, government services, exports) — broader than CPI's consumption basket. (2) Its basket **automatically updates** with production structure, avoiding substitution bias.  \n**Against:** (1) GDP Deflator is available only **quarterly/annually with lag**; CPI is monthly and timely for monetary policy. (2) GDP Deflator **excludes import prices**, which directly affect cost of living and input costs (e.g., oil). CPI captures them.  \n**Verdict:** CPI is preferred for **inflation targeting** (RBI uses CPI); GDP Deflator is better for **deflating national accounts** to get Real GDP.\n\n**What a wrong answer reveals:**  \nA student who claims \"GDP Deflator is always better because it covers more goods\" ignores **timeliness** and **relevance to households**. Policy requires high-frequency data; a broad but delayed index cannot guide monthly repo rate decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical example (minimum 3 goods, 2 years) where Nominal GDP grows by 20% but Real GDP **falls** by 5%. Show all calculations and explain the economic situation.",
+     "a": "**Example:**  \nBase Year (2022): Good A: 100 units @ ₹10; Good B: 50 units @ ₹20; Good C: 200 units @ ₹5.  \nCurrent Year (2023): Good A: 80 units @ ₹15; Good B: 40 units @ ₹30; Good C: 180 units @ ₹8.  \n\n**Calculations:**  \nNominal GDP 2022 = (100×10)+(50×20)+(200×5) = 1,000+1,000+1,000 = **₹3,000**  \nNominal GDP 2023 = (80×15)+(40×30)+(180×8) = 1,200+1,200+1,440 = **₹3,840** → Growth = (3,840-3,000)/3,000 = **28%** (≈20% target met).  \nReal GDP 2023 (base 2022) = (80×10)+(40×20)+(180×5) = 800+800+900 = **₹2,500** → Change = (2,500-3,000)/3,000 = **-16.7%** (Real GDP falls).  \n\n**Economic Situation:** Severe **stagflation** — output of every good declined (supply shock, e.g., drought + power shortage), but prices rose even more sharply due to cost-push inflation. Nominal GDP rises purely due to inflation; Real GDP reveals the contraction.\n\n**What a poor answer reveals:**  \nIf a student cannot construct such an example, they do not grasp that Nominal GDP = Real GDP × (Price Level). They likely think \"GDP growth\" always means \"production growth\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

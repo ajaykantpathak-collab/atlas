@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_009",
+   "title": "c11_cs_cbse_04_009",
+   "questions": [
+    {
+     "q": "What is the output of `type(3.0)` and `type(3)` in Python? Are they the same data type?",
+     "a": "`type(3.0)` returns `<class 'float'>` and `type(3)` returns `<class 'int'>` — they are different data types even though mathematically 3.0 = 3. A wrong answer (saying both are `int` or both are `float`) reveals the misconception that numeric value alone determines type, ignoring the literal syntax (presence of decimal point) which Python uses to distinguish `int` from `float`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `0.1 + 0.2 == 0.3` evaluates to `False` in Python, and what this implies about the `float` data type.",
+     "a": "`0.1` and `0.2` cannot be represented exactly in binary floating-point (IEEE 754), so their sum is `0.30000000000000004`, not exactly `0.3`. This shows `float` is an approximation with limited precision (53 bits significand). A wrong answer (e.g., \"Python has a bug\" or \"it's a rounding error that can be fixed by using more decimal places\") reveals the misconception that `float` behaves like exact decimal arithmetic, not understanding binary representation limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Given `x = \"42\"` and `y = 42`, what is the result of `x + y`? If it raises an error, explain why and write the minimal fix to concatenate them as `\"4242\"`.",
+     "a": "`x + y` raises `TypeError: can only concatenate str (not \"int\") to str` because `+` is not defined between `str` and `int`. Minimal fix: `x + str(y)` → `\"4242\"`. A wrong answer (e.g., predicting `84` or `\"42 42\"`) reveals the misconception that Python automatically converts types in expressions (like JavaScript), not understanding Python's strong typing and explicit conversion requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and precision implications of storing Aadhaar numbers (12-digit integers) as `int` vs `str`. Which is more appropriate and why?",
+     "a": "`int` is more appropriate: Python's arbitrary-precision `int` stores 12 digits exactly with no precision loss, supports arithmetic (e.g., checksum validation), and uses ~28 bytes. `str` uses ~49 bytes, cannot do arithmetic directly, but preserves leading zeros (not needed for Aadhaar). A wrong answer choosing `str` \"because it's just digits\" reveals the misconception that numeric data should be stored as text if no math is done immediately, ignoring future validation needs and memory efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"`bool` is redundant in Python because `True == 1` and `False == 0`, so we can just use integers for conditions.\"",
+     "a": "The claim is false. While `bool` is a subclass of `int`, its semantic purpose is distinct: `bool` conveys *intent* (truth value) and restricts values to exactly two singletons (`True`, `False`). Using integers allows invalid states (e.g., `2`, `-5`) in logical contexts, reducing readability and causing bugs (e.g., `if count:` vs `if count > 0:`). A wrong answer agreeing reveals the misconception that syntactic equivalence implies semantic interchangeability, ignoring type semantics and code clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python snippet that demonstrates all four types (`int`, `float`, `str`, `bool`) interacting in a single expression without explicit conversion functions (`int()`, `float()`, `str()`, `bool()`), and explain the type of the final result.",
+     "a": "Example: `result = 5 + 2.0 * (3 > 1) - len(\"hi\")` → `5 + 2.0 * True - 2` → `5 + 2.0 - 2` → `5.0` (float). Steps: `3 > 1` yields `bool` `True`; `True` in arithmetic becomes `1` (int); `2.0 * 1` yields `float` `2.0`; `len(\"hi\")` returns `int` `2`; `int + float - int` promotes to `float`. A poor answer (e.g., using `str()` or not mixing types) reveals inability to trace implicit type promotion rules (`int` → `float` in mixed arithmetic, `bool` → `int` in numeric context).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

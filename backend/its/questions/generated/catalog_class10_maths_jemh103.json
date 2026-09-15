@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class10_maths_jemh103.json",
+ "concepts": [
+  {
+   "id": "jemh.103.3.1",
+   "title": "Graphical Representation of a Pair of Linear Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (77 - 11) / 6 gives 11",
+     "compute": "x = (77 - 11) / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 11 = 77.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 6 = 39.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 15 = 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 29 = 6.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 5 = 2x + 13.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 4) = 42.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.103.3.2",
+   "title": "Comparing Ratios to Classify the Pair",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 18 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 450 is divided between two friends in the ratio 1 : 8. Find the smaller share.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 5 = 25 : ?  (give the fourth term).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 5 :: 25 : 25 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 100, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.103.3.3",
+   "title": "Substitution Method",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (19 - 4) / 5 gives 3",
+     "compute": "x = (19 - 4) / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 5x + 4 = 19.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 6 = 78.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 10 = 4.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 6 = 6.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 4 = 1x + 28.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 1) = 28.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.103.3.4",
+   "title": "Elimination Method",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (67 - 12) / 5 gives 11",
+     "compute": "x = (67 - 12) / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 5x + 12 = 67.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 3 = 6.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 25 = 5.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 7 = 5.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x + 9 = 1x + 19.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 6) = 28.",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

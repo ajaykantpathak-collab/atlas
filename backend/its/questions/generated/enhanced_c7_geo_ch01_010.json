@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_010",
+   "title": "c7_geo_ch01_010",
+   "questions": [
+    {
+     "q": "Which physical feature acts as a massive climatic barrier that prevents freezing winds from Central Asia from entering India during winter?",
+     "a": "The Himalayan mountain range. A student who answers incorrectly (such as naming the Western Ghats or the Thar Desert) confuses regional physical barriers, showing a lack of basic recall regarding the northern boundary of India.",
+     "self_check": true
+    },
+    {
+     "q": "Why do coastal regions like Mumbai or Chennai experience a moderate climate throughout the year compared to interior continental cities like Nagpur or Delhi?",
+     "a": "Coastal regions experience a maritime climate because land and sea breezes moderate temperatures, preventing extreme heat in summer and extreme cold in winter. A student who thinks coastal cities are hotter because they are closer to the equator misunderstands the moderating effect of proximity to large water bodies.",
+     "self_check": true
+    },
+    {
+     "q": "If Cherrapunji in the Khasi Hills receives over 11,000 mm of annual rainfall while Shillong located just 50 km away in a rainshadow area receives much less, calculate or explain the geographical mechanism causing this difference.",
+     "a": "Step 1: Identify that moisture-laden monsoon winds from the Bay of Bengal strike the steep southern slopes of the Khasi Hills. \nStep 2: Recognize that forced upward movement (orographic lift) causes heavy condensation and rainfall on the windward side (Cherrapunji). \nStep 3: Note that as air descends on the opposite side (Shillong), it warms up and loses its moisture-holding capacity, creating a rainshadow zone. \nA wrong answer indicates a failure to understand orographic rainfall and how mountain slopes alter precipitation distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the Thar Desert experiences extreme daily and seasonal temperature ranges (very hot days, cold nights; hot summers, cold winters) unlike the coastal plains of Kerala.",
+     "a": "The Thar Desert has sandy soils that absorb and radiate heat very rapidly, combined with dry air and lack of cloud cover that allows heat to escape quickly at night. Kerala is stabilized by high humidity and maritime influence. A wrong answer shows a mix-up between soil-heat properties and latitude.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim that \"India's climate diversity is caused entirely by its vast latitudinal extent from North to South.\" Is this statement fully accurate?",
+     "a": "The statement is only partially accurate. While latitudinal extent accounts for tropical and subtropical temperature differences, India's extreme climate diversity (from the cold desert of Ladakh to the tropical rainforest climate of the Western Ghats) is equally driven by physical landforms (Himalayas, plateaus) and monsoonal barriers. A student who agrees fully fails to account for altitude and physical barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental map or conceptual guide showing how a monsoon cloud traveling from the Arabian Sea crosses the Western Ghats and creates different climate zones in Maharashtra and Karnataka.",
+     "a": "A good response traces the cloud hitting the windward western coastal strip (heavy rain), rising over the Western Ghats peak, and descending into the Deccan Plateau interior (semi-arid rainshadow). A poor answer ignores topography and treats rainfall as uniform across the plateau.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

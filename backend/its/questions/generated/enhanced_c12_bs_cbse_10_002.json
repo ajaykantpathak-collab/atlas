@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_002",
+   "title": "c12_bs_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the maximum maturity period for instruments traded in the money market, and which of the three instruments (T-Bill, CP, Call Money) typically has the shortest maturity?",
+     "a": "The maximum maturity in the money market is 365 days (one year). Call Money typically has the shortest maturity — overnight to 14 days (mostly overnight). A wrong answer (e.g., \"5 years\" or \"T-Bill has shortest maturity\") reveals confusion between money market and capital market, or confusion between T-Bill tenors (91/182/364 days) and Call Money's overnight nature.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues Commercial Paper with a face value of ₹10 crore at a discount of 8% per annum for 90 days. The company receives ₹9.8 crore. Is this correct? Explain the error if any.",
+     "a": "Incorrect. The discount amount = Face Value × Rate × (Days/365) = 10,00,00,000 × 0.08 × (90/365) = ₹19,72,603 (approx). Issue price = ₹10,00,00,000 - ₹19,72,603 = ₹9,80,27,397, not ₹9.8 crore exactly. A student who says \"correct\" is ignoring the exact day-count convention (365 days) and rounding prematurely — a common board exam error where marks are lost for not showing the calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a highly rated corporate issue Commercial Paper at a lower interest rate than a bank loan of the same maturity, even though both are unsecured?",
+     "a": "CP is issued directly to investors (mutual funds, banks, corporates) bypassing the bank's intermediation margin. The issuer pays only the market-determined discount rate, while a bank loan includes the bank's spread over its cost of funds, plus processing fees. Also, CP is tradable, giving investors liquidity, so they accept a slightly lower yield. A wrong answer focusing only on \"CP is unsecured like a bank loan\" misses the disintermediation and tradability advantages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the eligibility criteria for issuing Treasury Bills vs Commercial Paper. Why is the eligibility for CP stricter in terms of credit rating?",
+     "a": "T-Bills are issued only by the Government of India (via RBI) — no credit rating needed because sovereign risk is near-zero. CP can be issued only by corporates with a minimum credit rating of A3 (as per SEBI/RBI guidelines), tangible net worth ≥ ₹4 crore, and a sanctioned working capital limit. The stricter CP eligibility exists because CP carries credit/default risk (corporate can default), whereas T-Bills have virtually none. A student who says \"both need credit rating\" confuses sovereign vs corporate credit risk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Call Money is the most expensive source of short-term funds for a bank.\" Defend or refute with reasoning.",
+     "a": "Refute. Call Money rate (call rate) is usually the *benchmark* for short-term rates and often *lower* than the Marginal Cost of Funds based Lending Rate (MCLR) or Repo Rate. Banks borrow in call market to meet temporary CRR/SLR shortfalls; the rate is market-determined and can be very low when liquidity is surplus. It becomes expensive only during liquidity crunches (rate spikes). A student calling it \"always expensive\" ignores its role as the most liquid, lowest-cost overnight window in normal times.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a mutual fund manager would choose a 91-day T-Bill over a 90-day CP of a AAA-rated company, even if the CP offers a 0.25% higher yield. Justify your answer.",
+     "a": "Scenario: The fund has a large redemption pressure expected in 60 days and needs *guaranteed* liquidity with zero credit risk. T-Bills are sovereign-backed, highly liquid in the secondary market (NDS-OM platform), and eligible for SLR. CP, though AAA-rated, has slight credit risk, lower secondary market depth, and is not SLR-eligible. The manager accepts lower yield for superior liquidity and regulatory compliance. A poor answer focuses only on yield and ignores liquidity, credit risk, and regulatory constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

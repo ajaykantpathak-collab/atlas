@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_001",
+   "title": "c12_cs_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the exact definition of 'network topology' as per the CBSE Class 12 Computer Science curriculum? Use the terms 'nodes' and 'links' in your answer.",
+     "a": "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network. A wrong answer that omits 'geometric arrangement' or confuses topology with 'protocol' reveals the student is memorising examples without grasping the abstract graph‑theoretic foundation.",
+     "self_check": true
+    },
+    {
+     "q": "A school lab has 15 computers connected to a central switch. The switch fails. The network administrator claims the logical topology is still a star because the cables radiate from the switch. Is the administrator correct? Explain the difference between physical and logical topology in this context.",
+     "a": "The administrator is confusing physical and logical topology. Physical topology is the actual cabling layout (star). Logical topology is the path data signals follow; with a failed switch, no data flows, so the logical topology is effectively non‑existent. A student who says 'yes' thinks physical layout alone defines topology, missing that logical topology depends on the active data‑forwarding mechanism (e.g., hub vs. switch).",
+     "self_check": true
+    },
+    {
+     "q": "Draw a labelled diagram of a hybrid topology that combines a star backbone with three ring segments attached to three different backbone nodes. How many nodes and links are in your diagram if each ring has 4 nodes and the star backbone has 5 nodes (including the three attachment points)?",
+     "a": "Star backbone: 5 nodes, 4 links (central hub to each of 4 peripheral backbone nodes). Three rings: each ring has 4 nodes and 4 links, but one node per ring is shared with a backbone node, so each ring adds 3 new nodes and 4 links. Total nodes = 5 + 3×3 = 14. Total links = 4 (backbone) + 3×4 = 16. A student who counts 5+12=17 nodes double‑counts the shared nodes, showing inability to handle overlapping sub‑topologies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of dedicated point‑to‑point links required for a fully connected mesh topology with 8 nodes versus a star topology with the same 8 nodes. Which topology uses more cable, and by what factor?",
+     "a": "Mesh: n(n‑1)/2 = 8×7/2 = 28 links. Star: n‑1 = 7 links. Mesh uses 28/7 = 4 times more links. A student who answers 'mesh uses more' without calculating the factor lacks quantitative comparison skill needed for board exam 'analyse' questions.",
+     "self_check": true
+    },
+    {
+     "q": "Assertion (A): In a tree topology, the failure of a non‑root node never disconnects any other node from the root.\nReason (R): Tree topology is a hierarchy where each node has exactly one parent except the root.\nChoose the correct option:\n(a) Both A and R are true and R correctly explains A.\n(b) Both A and R are true but R does not explain A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+     "a": "(d) A is false but R is true. In a tree, if a non‑root node fails, all its descendants lose connection to the root. R correctly describes the hierarchy but does not prevent subtree disconnection. A student choosing (a) assumes 'exactly one parent' guarantees redundancy, confusing tree with mesh.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new topology for a 6‑node network that satisfies: (i) at most 7 links, (ii) any single link failure does not partition the network, (iii) maximum hop count between any two nodes ≤ 2. Draw the topology, list its links, and justify each requirement.",
+     "a": "A valid design: a 6‑node cycle (ring) plus one chord connecting opposite nodes (total 7 links). The chord creates two 3‑hop paths, reducing max hop count to 2. Single link failure leaves a connected graph (either a 5‑edge path or a 5‑node cycle plus chord). A student who proposes a star fails (ii) because central link failure partitions; a student who proposes a full mesh fails (i) with 15 links. This tests synthesis of constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt104",
+ "concepts": [
+  {
+   "id": "lebt104.1",
+   "title": "DNA Fingerprinting and VNTR Variation",
+   "questions": [
+    {
+     "q": "Using the method 'DNA Fingerprinting and VNTR Variation', work with: genome_bp = 40, variation_pct = 75. Carry the chain through step by step and give the final value of identical_bp.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DNA Fingerprinting and VNTR Variation' and work with: genome_bp = 4, variation_pct = 30. Carry the chain through step by step and give the final value of identical_bp.",
+     "a": "2.8 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DNA Fingerprinting and VNTR Variation' refers to.",
+     "a": "People share 99.9 percent of their 3.2 billion base genomes, so Alec Jeffreys' 1984 fingerprinting hunts the variable remainder: tandem repeats called VNTRs - microsatellites of 1-9 bp units and minisatellites of 10-100 bp - are cut by restriction enzymes, separated on gels, blotted to nylon and probed through Southern hybridisation, yielding RFLP band patterns unique enough for forensics, paternity and evolutionary comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DNA Fingerprinting and VNTR Variation'.",
+     "a": "Multiply the genome by the variable fraction to size the discriminating DNA; the band pattern of repeats is the fingerprint.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DNA Fingerprinting and VNTR Variation', in plain ASCII form.",
+     "a": "variable_bp = genome_bp * variation_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.2",
+   "title": "Transgenic Plants via Agrobacterium and Biolistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transgenic Plants via Agrobacterium and Biolistics' refers to.",
+     "a": "Transgenesis plants a foreign gene and watches it pass to progeny: Agrobacterium tumefaciens, the natural genetic engineer, donates its Ti plasmid T-DNA once tumor genes are disarmed and swapped for genes of interest plus markers; where dicots yield to this vector, cereals take DNA bullets instead - gold or tungsten particles shot by a gene gun - and protoplasts accept naked DNA helped by PEG or electric pulses, feeding crops like Bt cotton, grown commercially in India since 2002, along with herbicide-tolerant and virus-resistant varieties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transgenic Plants via Agrobacterium and Biolistics'.",
+     "a": "Disarm the T-DNA, load your gene, and let the bacterium or a gene gun carry it past the plant cell wall.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transgenic Plants via Agrobacterium and Biolistics' taught, and from which source text?",
+     "a": "4.2.2-4.2.3 (source: lebt104.txt sections 4.2.2-4.2.3, Figs. 4.4-4.5, Box 3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.3",
+   "title": "Transgenic Animals and Molecular Pharming",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transgenic Animals and Molecular Pharming' refers to.",
+     "a": "Animal pharming turns livestock into bioreactors: pronuclear microinjection into the larger male pronucleus, embryonic stem-cell transfer through the blastocyst inner cell mass, or single-copy retroviral insertion build the transgenics - Tracy the ewe secreted alpha1-antitrypsin in milk, Rosie the 1997 cow enriched milk with human alpha-lactalbumin, and goat-made ATryn won FDA approval in 2009 - while chimeric mice and GEAC oversight frame the research and its ethics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transgenic Animals and Molecular Pharming'.",
+     "a": "Inject, electrify or infect the embryo, then harvest the human protein from milk - with regulators watching the ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transgenic Animals and Molecular Pharming' taught, and from which source text?",
+     "a": "4.2.2-4.2.4 (source: lebt104.txt sections 4.2.2-4.2.4, Figs. 4.5, Boxes 2-3, Table 4.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.4",
+   "title": "Gene Therapy Approaches and Delivery",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gene Therapy Approaches and Delivery' refers to.",
+     "a": "Gene therapy repairs faulty genes by delivering correct copies - the 1990 ADA-SCID treatment of a four-year-old girl set the precedent - through three strategies: replacement or augmentation of the missing function as with CFTR or p53, inhibition of dominant rogue genes by antisense means, and CRISPR-Cas9 editing that snips mutations out; delivery runs ex vivo through cultured cells or in vivo by direct vectors, and only somatic changes stay non-heritable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gene Therapy Approaches and Delivery'.",
+     "a": "Replace, silence or edit - and choose ex vivo convenience or in vivo directness, remembering germ-line edits are heritable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gene Therapy Approaches and Delivery' taught, and from which source text?",
+     "a": "4.3 (source: lebt104.txt section 4.3, Figs. 4.6-4.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.5",
+   "title": "Recombinant Vaccines from Subunit to mRNA",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Recombinant Vaccines from Subunit to mRNA' refers to.",
+     "a": "Recombinant vaccines trade whole pathogens for precision: live genetically modified or vector-based vaccines such as recombinant vaccinia carrying about 200 genes' worth of foreign antigens; subunit vaccines brewing hepatitis B surface antigen in Saccharomyces cerevisiae since the 1987 Recombivax licence; DNA vaccines shot into muscle by gene gun; and mRNA vaccines wrapped in lipid nanoparticles that powered COVID-19 responses alongside Covaxin and Covishield, with edible banana-based HBsAg vaccines on the horizon.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Recombinant Vaccines from Subunit to mRNA'.",
+     "a": "Deliver only the antigen gene or its message - safer than live pathogen, faster to update for new variants.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Recombinant Vaccines from Subunit to mRNA' taught, and from which source text?",
+     "a": "4.4 (source: lebt104.txt section 4.4, Figs. 4.9-4.10, Boxes 4-5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.6",
+   "title": "Monoclonal Antibodies by Hybridoma Technology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Monoclonal Antibodies by Hybridoma Technology' refers to.",
+     "a": "Koehler and Milstein's 1975 hybridoma trick fuses short-lived antibody-producing B plasma cells with immortal myeloma cells using polyethylene glycol; HAT medium kills unfused myelomas and aged B cells alike so only hybridomas endure, secreting monoclonal antibodies aimed at one epitope - later humanised with mouse-human chimeric segments for therapy, diagnostics like pregnancy kits and tumor-targeted drug delivery.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monoclonal Antibodies by Hybridoma Technology'.",
+     "a": "Fuse mortality with immortality: only the B-cell-and-myeloma hybrid survives HAT medium and keeps secreting one specific antibody.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Monoclonal Antibodies by Hybridoma Technology' taught, and from which source text?",
+     "a": "4.5 (source: lebt104.txt section 4.5, Fig. 4.11)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.7",
+   "title": "Engineered Insulin Chain Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Engineered Insulin Chain Arithmetic', work with: a_chain = 25, b_chain = 4, proinsulin_len = 400. Carry the chain through step by step and give the final value of cleaved_off.",
+     "a": "371 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Engineered Insulin Chain Arithmetic' and work with: a_chain = 75, b_chain = 12, proinsulin_len = 200. Carry the chain through step by step and give the final value of cleaved_off.",
+     "a": "113 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Engineered Insulin Chain Arithmetic' refers to.",
+     "a": "Insulin's active form holds a 21-residue A chain bonded to a 30-residue B chain, carved from an 86-residue proinsulin whose 31-residue C chain and four connecting residues are trimmed away; bacteria cannot perform this editing, so engineers clone the A and B genes separately beside beta-galactosidase, release the chains with cyanogen bromide and re-oxidise the disulfides - yielding Humulin, marketed from 1982.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Engineered Insulin Chain Arithmetic'.",
+     "a": "Add the two chains for the active hormone; subtract it from proinsulin to price the editing the pancreas does and bacteria cannot.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Engineered Insulin Chain Arithmetic', in plain ASCII form.",
+     "a": "insulin_len = a_chain + b_chain",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt104.8",
+   "title": "Human Growth Hormone Gene Engineering",
+   "questions": [
+    {
+     "q": "Using the method 'Human Growth Hormone Gene Engineering', work with: mature_len = 360, removed_codons = 15, signal_extra = 4, synthetic_len = 150. Carry the chain through step by step and give the final value of restored_len.",
+     "a": "499 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Human Growth Hormone Gene Engineering' and work with: mature_len = 200, removed_codons = 3, signal_extra = 25, synthetic_len = 5. Carry the chain through step by step and give the final value of restored_len.",
+     "a": "227 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Human Growth Hormone Gene Engineering' refers to.",
+     "a": "Growth hormone deficiency once demanded pituitaries from more than eighty cadavers per year of treatment and risked prion disease, so engineers rebuilt the gene: the cDNA encodes mature 191-residue HGH plus a 26-residue signal peptide, EcoRI excision removes the signal and a further 24 residues, and a chemically synthesised 24-residue segment is ligated back before expression in E. coli - products Humatrope and Protropin from 1985.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Growth Hormone Gene Engineering'.",
+     "a": "Add the signal peptide to size the cDNA product, subtract the excised codons, then add back the synthetic piece to restore the full hormone.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Growth Hormone Gene Engineering', in plain ASCII form.",
+     "a": "intermediate_len = mature_len + signal_extra",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

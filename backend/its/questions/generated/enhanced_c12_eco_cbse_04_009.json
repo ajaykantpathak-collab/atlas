@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_009",
+   "title": "c12_eco_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the formula for price elasticity of supply using the percentage method. If the price of a commodity rises from ₹50 to ₹60 and the quantity supplied increases from 200 units to 240 units, calculate Es. Is supply elastic or inelastic?",
+     "a": "**Correct answer:** Es = (%ΔQs) / (%ΔP). %ΔQs = (40/200)×100 = 20%. %ΔP = (10/50)×100 = 20%. Es = 20/20 = 1 (unitary elastic).  \n**Wrong answer reveals:** If a student gets Es = 0.5 or 2, they likely used initial values for one percentage and average values for the other (mixing base) or miscalculated percentage changes. If they say elastic/inelastic without comparing to 1, they don't understand the threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the price elasticity of supply is always positive, while price elasticity of demand is usually negative. Use the law of supply and the law of demand in your reasoning.",
+     "a": "**Correct answer:** Law of supply states a direct relationship between price and quantity supplied (↑P → ↑Qs), so %ΔQs and %ΔP have the same sign → Es > 0. Law of demand states an inverse relationship (↑P → ↓Qd), so %ΔQd and %ΔP have opposite signs → Ed < 0.  \n**Wrong answer reveals:** If a student says \"supply elasticity is positive because supply curve slopes upward\" without linking to the sign of percentage changes, they are memorizing a fact without understanding the mathematical reason. If they confuse it with demand elasticity sign, they haven't internalized the directional difference between supply and demand laws.",
+     "self_check": true
+    },
+    {
+     "q": "A linear supply curve passes through the origin. At a price of ₹100, quantity supplied is 50 units. When price rises to ₹120, quantity supplied becomes 60 units. Calculate Es at the initial point (P=100, Q=50) using the geometric method (Es = (P/Q) × (1/slope)). Show all steps.",
+     "a": "**Correct answer:** Slope = ΔP/ΔQ = (120-100)/(60-50) = 20/10 = 2. 1/slope = 0.5. At (100,50): Es = (100/50) × 0.5 = 2 × 0.5 = 1. (Alternatively, since the supply curve passes through origin, Es = 1 at all points.)  \n**Wrong answer reveals:** If a student uses slope = ΔQ/ΔP (demand-style), they get 1/slope = 2 and Es = 4 — wrong. If they forget the (P/Q) factor and just use 1/slope, they get 0.5 — wrong. This tests whether they know the geometric formula for *supply* (not demand) and that a ray through origin has unitary elasticity everywhere.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the price elasticity of supply for: (a) fresh strawberries in winter, (b) digital software copies, (c) crude oil from existing wells, (d) handcrafted Persian carpets. Rank them from most elastic to least elastic and justify each ranking using determinants of supply elasticity.",
+     "a": "**Correct ranking (most to least elastic):** (b) digital software copies (perfectly elastic, near-zero marginal cost), (a) fresh strawberries in winter (somewhat elastic — can import from other hemispheres or use greenhouses, but perishable), (c) crude oil from existing wells (inelastic — fixed reserve, extraction rate limited by geology), (d) handcrafted Persian carpets (highly inelastic — skilled labour cannot be quickly increased, time-intensive).  \n**Wrong answer reveals:** If a student ranks strawberries as perfectly elastic, they ignore perishability and seasonality. If they rank oil as elastic, they confuse short-run extraction capacity with long-run exploration. This tests deep understanding of determinants: time period, factor substitutability, perishability, and production lags.",
+     "self_check": true
+    },
+    {
+     "q": "\"Technological progress always makes supply more elastic.\" Evaluate this statement. Consider both process innovation (lower marginal cost) and product innovation (new goods). Provide a counterexample where technology could make supply *less* elastic in the short run.",
+     "a": "**Correct evaluation:** The statement is false. Process innovation (e.g., automation) typically increases elasticity by making it easier to scale output. However, product innovation creating a *new* good with specialized, non-replicable inputs (e.g., a patented drug requiring a rare enzyme) can make supply *highly inelastic* initially because production cannot be ramped up quickly. Also, capital-intensive technology may reduce factor substitutability (labour cannot replace specialized machines), lowering short-run elasticity.  \n**Wrong answer reveals:** If a student agrees unconditionally, they are applying a rote rule without considering the nature of technology. If they only think of \"technology = better = more elastic\", they miss the distinction between process vs. product innovation and the role of input specificity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario involving an Indian agricultural commodity where the price elasticity of supply changes from 0.4 (short run) to 1.8 (long run). Specify the commodity, the price change, the quantity responses in both periods, and explain *which determinants* cause this shift.",
+     "a": "**Good answer example:** Commodity: Sugarcane in Uttar Pradesh. Price rises from ₹320 to ₹350 per quintal. Short run (same crop cycle): Qs rises from 100 to 104 million tonnes (Es = 0.4) — land fixed, planting cycle fixed. Long run (2-3 years): farmers switch from wheat to sugarcane, invest in irrigation, new mills open; Qs rises to 130 million tonnes (Es = 1.8). Determinants shifting: time for land-use change, capital investment in irrigation, entry of new firms (mills), factor mobility (labour moves to cane harvesting).  \n**Poor answer reveals:** If the student picks a non-agricultural good or doesn't specify *why* elasticity changes (just says \"time passes\"), they haven't linked determinants to the specific commodity. If they use the same quantity response for both periods, they don't understand the concept of short vs. long run elasticity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

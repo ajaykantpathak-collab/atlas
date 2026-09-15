@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_006",
+   "title": "c11_psy_cbse_05_006",
+   "questions": [
+    {
+     "q": "What are the four mediational processes Bandura identified as necessary for observational learning to occur?",
+     "a": "The four mediational processes are attention (observer must notice the model), retention (observer must remember the behaviour), reproduction (observer must be physically capable of replicating the behaviour), and motivation (observer must have a reason to perform the behaviour). A wrong answer that lists only \"imitation\" or \"reinforcement\" reveals the student conflates the overall phenomenon with its component cognitive processes, missing the critical distinction that learning can occur without immediate performance.",
+     "self_check": true
+    },
+    {
+     "q": "In Bandura's Bobo doll experiment, children who saw the model punished for aggression showed less imitation than those who saw the model rewarded. Does this mean the punished-group children did not learn the aggressive behaviours? Explain your reasoning.",
+     "a": "No, the punished-group children likely learned the behaviours (acquisition occurred) but did not perform them due to low motivation (vicarious punishment). Bandura demonstrated this by later offering rewards for imitation — the previously non-imitating children then reproduced the aggressive acts. A wrong answer claiming they \"didn't learn\" confuses performance with learning, a core conceptual error in observational learning theory.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old watches an older sibling practice piano daily and receive praise from parents. The child then attempts to play the same piece but stops after making errors. Using Bandura's four processes, identify which process(es) likely broke down and why.",
+     "a": "Reproduction broke down: the child attended to the model, retained the sequence, and was motivated by vicarious praise, but lacked the physical skill (fine motor coordination) to reproduce the piece. A wrong answer blaming \"lack of attention\" or \"no motivation\" ignores the capability constraint — Bandura explicitly states reproduction requires the observer to possess the component skills, which a novice pianist may not yet have.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast observational learning with operant conditioning on three dimensions: (a) role of direct reinforcement, (b) necessity of the learner's own behaviour during acquisition, and (c) timing of learning relative to performance.",
+     "a": "(a) Observational learning relies on vicarious reinforcement (model's consequences); operant conditioning requires direct reinforcement to the learner. (b) In observational learning, the learner need not emit the behaviour during acquisition; in operant conditioning, the learner must emit the response to be reinforced. (c) Observational learning separates acquisition (can be delayed) from performance; operant conditioning typically shows learning and performance concurrently. A wrong answer that says \"both need reinforcement\" misses the vicarious vs. direct distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Bandura's Bobo doll study proves that watching violent media causes children to become aggressive.\" Base your evaluation on the study's design, findings, and the learning-performance distinction.",
+     "a": "The claim overstates the findings. The study showed short-term imitation of specific acts under controlled conditions with a live model, not long-term aggression from media exposure. Crucially, children who saw the model punished did not imitate until incentivised, proving learning occurred without performance — media effects depend on viewer motivation, context, and perceived consequences. A wrong answer accepting the claim uncritically ignores the vicarious punishment condition and the acquisition-performance gap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-experiment to test whether a 6-year-old can learn a novel multi-step task (e.g., origami crane) solely by observing a peer model, without any direct reinforcement. Specify the control condition, dependent variable, and how you would isolate attention and retention.",
+     "a": "Experimental group: child watches peer fold crane twice. Control group: child sees finished crane only (no modeling). Dependent variable: number of correct folds in 5-minute test. To isolate attention: record gaze duration toward model's hands. To isolate retention: impose a 10-minute distractor task before test. A poor design that omits the control or distractor task fails to rule out trial-and-error learning or immediate mimicry, conflating retention with short-term motor mimicry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

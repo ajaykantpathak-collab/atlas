@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_006",
+   "title": "c10_geo_cbse_06_006",
+   "questions": [
+    {
+     "q": "Name the specific air pollution control device commonly installed in Indian thermal power plants to remove fly ash from flue gases before they exit the chimney.",
+     "a": "The correct answer is **Electrostatic Precipitator (ESP)**. A wrong answer like \"scrubber\" or \"cyclone separator\" reveals the student cannot distinguish between devices for particulate matter (ESP, bag filters) versus gaseous pollutants (scrubbers for SO₂). Many students confuse ESP with wet scrubbers — ESP uses electrical charges to collect dry particles like fly ash, while scrubbers use liquid spray to absorb gases. In CBSE exams, naming \"ESP\" specifically for thermal power plants earns the mark; generic \"filter\" does not.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a textile industry in Tirupur, Tamil Nadu, must have a tertiary treatment stage in its Effluent Treatment Plant (ETP) before discharging treated water into the Noyyal River, whereas primary and secondary treatment alone are insufficient.",
+     "a": "Primary treatment removes suspended solids (screening, sedimentation), and secondary treatment (biological/activated sludge) removes biodegradable organic matter (BOD/COD). However, textile effluent contains **dissolved salts, colour (dyes), and toxic heavy metals** (from mordants) that are not removed by biological processes. Tertiary treatment (reverse osmosis, activated carbon adsorption, ion exchange) is essential to remove these dissolved inorganic pollutants and colour. A wrong answer stating \"secondary treatment removes all pollutants\" reveals the misconception that biological treatment handles everything — it does not remove non-biodegradable, dissolved, or toxic substances. CBSE expects students to link industry-specific pollutants to the required treatment stage.",
+     "self_check": true
+    },
+    {
+     "q": "A sugar mill in Uttar Pradesh generates bagasse (fibrous residue) and press mud (filter cake) as solid wastes. The mill decides to use bagasse as fuel in its boiler and press mud as manure in sugarcane fields. Classify this waste management approach using the correct geographical term and explain why it is preferred over landfilling.",
+     "a": "This is **waste minimization / resource recovery / circular economy approach** (specifically, **by-product utilization**). Step 1: Identify the wastes — bagasse (cellulosic) and press mud (organic, nutrient-rich). Step 2: Recognize bagasse has high calorific value (~19 MJ/kg) → can replace coal in boiler (energy recovery). Step 3: Recognize press mud contains nitrogen, phosphorus, organic carbon → improves soil fertility (material recovery). Step 4: Compare with landfilling — landfilling wastes resources, occupies land, generates methane (GHG) and leachate. Step 5: Conclude — this approach aligns with **3R principle (Reduce, Reuse, Recycle)** and **Cleaner Production** philosophy. A wrong answer like \"recycling\" without specifying *how* each waste is reused shows superficial understanding. CBSE awards marks for naming the specific utilization method and linking to sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the noise control strategies for a heavy engineering industry (e.g., machinery manufacturing in Jamshedpur) versus a textile mill (e.g., spinning unit in Coimbatore). Identify two key differences in the *source* of noise and the corresponding *control measure* for each.",
+     "a": "**Heavy engineering (Jamshedpur):** Source = impact noise from forging, hammering, pressing, heavy machinery vibration. Control = **vibration isolation pads/mountings** under machines, **acoustic enclosures** for high-noise equipment, **silencers** on pneumatic exhausts. **Textile mill (Coimbatore):** Source = continuous high-frequency noise from high-speed looms, spinning frames, air-jet weaving. Control = **acoustic louvers/ventilators** for airflow with noise reduction, **machine lubrication/maintenance** to reduce friction noise, **personal protective equipment (PPE)** like earplugs for workers. Difference 1: Impact vs continuous noise → requires vibration damping vs acoustic absorption. Difference 2: Heavy engineering often allows full enclosures; textile needs airflow for heat/humidity control → requires acoustic louvers. A wrong answer listing generic \"silencers\" for both misses the industry-specific noise character. CBSE case-based questions test this differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Installing an Effluent Treatment Plant (ETP) is sufficient to solve water pollution from a chemical industry located on the banks of the Yamuna River in Delhi.\" Provide three geographical reasons with specific pollutants to support your evaluation.",
+     "a": "**Evaluation: The statement is FALSE.** Reason 1: **ETP cannot remove all pollutants** — chemical industries generate persistent organic pollutants (POPs), heavy metals (mercury, lead, chromium), and toxic synthetic compounds that resist conventional biological treatment; they require specialized tertiary/advanced oxidation processes, which many ETPs lack. Reason 2: **Hydrological context** — Yamuna in Delhi has extremely low flow (especially non-monsoon), so even treated effluent (with residual BOD, TDS, ammonia) constitutes a large fraction of river flow, preventing dilution and self-purification. Reason 3: **Regulatory enforcement gap** — CPCB norms (e.g., BOD < 30 mg/L, COD < 250 mg/L) are often violated due to bypassing ETP during power cuts or shock loads; real-time monitoring (OCEMS) is not universal. A wrong answer saying \"ETP cleans water completely\" ignores pollutant specificity, river assimilative capacity, and enforcement reality — all three are CBSE evaluation criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step pollution control plan for a new integrated iron and steel plant proposed in the Chotanagpur plateau region (Jharkhand). Your plan must address air, water, solid waste, and noise — one specific measure per pollution type, with the geographical reasoning for each choice.",
+     "a": "**Step 1 (Air):** Install **Electrostatic Precipitators (ESPs)** on blast furnace, sinter plant, and boiler stacks + **Bag Filters** at material handling points. *Reasoning:* Iron/steel emits massive particulate matter (PM₁₀, PM₂.₅) and SO₂/NOₓ; ESPs handle high-temperature, high-volume flue gas efficiently (99%+ removal). **Step 2 (Water):** **Closed-loop water recycling system** with cooling towers + **ETP with tertiary treatment (RO)** for wastewater from coke oven, rolling mill, pickling. *Reasoning:* Region is water-stressed (Damodar basin); recycling reduces freshwater withdrawal; RO removes dissolved salts, phenols, cyanides from coke oven effluent. **Step 3 (Solid Waste):** **Slag utilization** — blast furnace slag → cement industry (Portland slag cement); steel melting slag → road base/aggregate; **sludge from ETP** → secured landfill (hazardous). *Reasoning:* Chotanagpur has cement plants nearby (synergy); converts waste to resource, avoids landfilling in ecologically sensitive plateau. **Step 4 (Noise):** **Acoustic enclosures** for blowers, compressors, rolling mills + **green belt (3-tier plantation)** of 50m width using native species (Sal, Mahua, Neem). *Reasoning:* Plateau topography amplifies sound; green belt attenuates noise, traps dust, restores biodiversity. A poor answer lists generic measures without linking to industry-specific pollutants, regional geography (water scarcity, topography), or industrial symbiosis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

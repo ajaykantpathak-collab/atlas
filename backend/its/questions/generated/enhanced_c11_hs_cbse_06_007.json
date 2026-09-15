@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_007",
+   "title": "c11_hs_cbse_06_007",
+   "questions": [
+    {
+     "q": "**REMEMBER**: List the three elements of the SMCRE model covered in this node and state one key characteristic of each that determines its effectiveness.",
+     "a": "**Answer**: 1) **Source** – credibility, communication skills, attitudes, knowledge level, social-cultural position. 2) **Message** – content, structure, code (language/symbols), treatment (format/style), relevance, timeliness. 3) **Channel** – type (interpersonal/mass media), sensory involvement (audio/visual/audio-visual), accessibility, cost, reach.  \n**Wrong answer reveals**: Student recalls only the acronym letters (S, M, C) without the defining attributes, indicating rote memorisation without conceptual grasp of *what makes each element effective*.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: In your own words, explain why a message that is \"simple, specific, and culturally appropriate\" might still fail if the channel is poorly chosen. Give a concrete rural Indian example.",
+     "a": "**Answer**: A well-designed message fails if the channel does not reach the target audience or match their media habits. Example: A beautifully illustrated poster on handwashing (simple, specific, culturally appropriate) placed in a village *Panchayat* office will fail if the target audience—mothers of young children—rarely visit that office and prefer receiving health information through ASHA workers (interpersonal channel) or mobile voice messages (audio channel).  \n**Wrong answer reveals**: Student treats channel as a passive pipe (\"it delivers the message\") rather than an active filter that must align with audience access, literacy, and trust patterns.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: You are designing a nutrition-awareness message for *urban* college students (aged 18–20) about reducing junk food. Choose **one** source, **one** message format, and **one** channel. Justify each choice in one sentence linking it to the audience profile.",
+     "a": "**Answer**:  \n- **Source**: A popular fitness influencer on Instagram (high credibility & relatability for this age group).  \n- **Message format**: A 60-second Reel showing a \"day in my plate\" swap (visual, engaging, demonstrates behaviour not just facts).  \n- **Channel**: Instagram Reels (high daily usage, algorithmic reach, shareable, audio-visual).  \n**Justification**: Urban college students trust peer-like influencers over formal experts, prefer short-form video over text, and spend 3+ hours/day on Instagram.  \n**Wrong answer reveals**: Student selects a credible source (e.g., a doctor) but pairs it with a long PDF brochure on a government website—ignoring the audience's media consumption habits and attention span.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYSE**: Compare the **Source–Message–Channel** alignment in two scenarios:  \n(A) A government scientist reads a technical report on millet benefits over All India Radio (national broadcast).  \n(B) A local *Anganwadi* worker demonstrates a millet recipe using local ingredients in a women's self-help group meeting.  \nIdentify **two** specific mismatches in (A) that (B) resolves.",
+     "a": "**Answer**:  \n1. **Source–Audience mismatch**: The distant scientist lacks the *Anganwadi* worker's established trust and cultural proximity to rural women.  \n2. **Message–Channel mismatch**: A technical report (abstract, jargon-heavy) delivered via audio-only radio cannot demonstrate cooking techniques, whereas the live demo (concrete, multisensory) in the SHG meeting allows taste, smell, and immediate Q&A.  \n**Wrong answer reveals**: Student identifies only generic \"language barrier\" but misses the structural mismatches: source credibility type (expert vs. peer), message abstraction level, and channel sensory capacity.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"For behaviour-change communication in low-literacy rural communities, interpersonal channels (e.g., home visits, group meetings) are *always* superior to mass media channels (e.g., radio, TV).\" Critique this statement with **two** arguments for and **two** against, using SMCRE concepts.",
+     "a": "**Answer**:  \n**For**: (1) Interpersonal channels allow dynamic message tailoring (source adapts message in real-time to receiver's queries). (2) They leverage existing trust networks (source credibility is high).  \n**Against**: (1) Mass media achieves vastly greater reach/scale at lower cost per person (channel efficiency). (2) Audio-visual mass media (TV) can model behaviours visually—overcoming literacy barriers better than a low-skilled interpersonal communicator.  \n**Verdict**: The statement is false; optimal strategies *combine* both (e.g., radio drama + follow-up SHG discussion).  \n**Wrong answer reveals**: Student takes a binary stance without analysing trade-offs in reach, fidelity, cost, and sensory richness—showing inability to evaluate channel choice as a context-dependent design decision.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a **mini communication plan** (Source, Message, Channel) for a new *government scheme* providing free sanitary pads in schools. Target: **adolescent girls (13–16) in semi-urban government schools**. Present as a 3-row table with justifications.",
+     "a": "**Answer**:  \n| Element | Choice | Justification |\n|---------|--------|---------------|\n| **Source** | Trained female teacher + peer leader (girls' captain) | Teacher = authority/access; Peer leader = relatability, reduces stigma. |\n| **Message** | Short video (2 min) + demo kit: \"How to use, dispose, and ask for pads\" in local language + Hindi | Visual demo overcomes literacy variance; addresses taboo by normalising \"asking\". |\n| **Channel** | School assembly screening + WhatsApp group for girls (video share) + poster in girls' toilet | Assembly = captive audience; WhatsApp = private revisit/sharing; Poster = point-of-use reminder. |  \n**Poor answer reveals**: Student picks only one channel (e.g., \"teacher announces in class\") ignoring the need for *redundancy* (multiple channels) and *privacy* (critical for menstrual health), showing failure to design a *system* of SMC elements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

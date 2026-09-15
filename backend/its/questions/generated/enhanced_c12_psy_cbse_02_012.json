@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_012",
+   "title": "c12_psy_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the fundamental assumption behind projective techniques that distinguishes them from self-report measures?",
+     "a": "Projective techniques assume that when presented with unstructured or ambiguous stimuli, individuals will project their unconscious feelings, desires, and needs onto the stimulus, revealing aspects of personality that direct questioning cannot access. A wrong answer (e.g., \"projective techniques are more objective\" or \"they measure the same traits as questionnaires\") reveals confusion about the psychoanalytic basis of projection and the role of stimulus ambiguity in bypassing social desirability and conscious editing.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The MMPI and Rorschach both measure personality, so they should give similar results for the same person.\" Explain why this statement is incorrect using the concepts of stimulus structure and response format.",
+     "a": "The MMPI uses 567 structured true/false statements (highly structured stimuli, forced-choice responses) measuring conscious self-reported psychopathology, while the Rorschach uses 10 ambiguous inkblots (unstructured stimuli, free-response) interpreted for unconscious processes. They differ in theoretical basis (empirical/psychiatric vs. psychoanalytic), what they access (conscious self-view vs. unconscious projection), and scoring objectivity (quantitative vs. qualitative). A wrong answer indicates failure to distinguish structured vs. unstructured stimulus properties and the resulting difference in what aspect of personality each captures.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to screen for clinical depression in a large adolescent population using a self-report measure. Which test — MMPI, EPQ, or 16PF — is most appropriate, and why? Identify one specific limitation of using this test for screening.",
+     "a": "The MMPI (specifically MMPI-2) is most appropriate because it was explicitly developed for psychiatric diagnosis and contains a Depression (D) subscale among its 10 clinical subscales. The EPQ measures broad dimensions (neuroticism, extraversion, psychoticism) and 16PF measures normal-range trait factors — neither is designed for clinical diagnosis. Limitation: Social desirability and acquiescence response biases can distort MMPI scores, and the test's length (567 items) causes fatigue, reducing validity in adolescents. A wrong choice (e.g., EPQ) shows misunderstanding of test purpose and clinical utility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scoring and interpretation processes of the 16PF and the TAT. How do these differences reflect their underlying theoretical orientations (trait theory vs. psychoanalytic theory)?",
+     "a": "The 16PF uses factor-analytically derived source traits scored quantitatively against norms, yielding a trait profile — reflecting Cattell's trait theory emphasis on measurable, stable dimensions. The TAT uses qualitative narrative analysis of stories for themes (need for achievement, power, affiliation), conflicts, and defence mechanisms — reflecting Murray's psychoanalytic-influenced need-press theory. The 16PF assumes traits are consistent and quantifiable; the TAT assumes unconscious motives emerge in fantasy. A superficial comparison (e.g., \"both give scores\") misses the epistemological divide: nomothetic/trait vs. idiographic/dynamic.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Projective techniques like the Rorschach are unscientific because their scoring is subjective and they lack reliability.\" Provide a balanced evaluation considering both psychometric standards and clinical utility.",
+     "a": "The claim has partial validity: inter-rater reliability for Rorschach is lower than for MMPI/16PF, and validity for specific diagnoses is debated (Exner's Comprehensive System improved but didn't eliminate concerns). However, projective techniques serve a different purpose — generating hypotheses about unconscious dynamics, not confirming diagnoses. They provide rich idiographic data inaccessible to self-report. Dismissing them entirely ignores their clinical heuristic value in psychotherapy contexts. A one-sided answer (either \"they're useless\" or \"they're perfect\") shows inability to evaluate methods based on their intended use and theoretical framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief assessment battery for a vocational guidance counsellor helping Class 12 students choose career paths. Select ONE self-report measure and ONE projective technique from the chapter. Justify each choice in terms of what aspect of personality it illuminates for career decision-making.",
+     "a": "Self-report: 16PF — provides a comprehensive trait profile (warmth, reasoning, emotional stability, dominance, liveliness, rule-consciousness, social boldness, sensitivity, vigilance, abstractedness, privateness, apprehension, openness to change, self-reliance, perfectionism, tension) directly relevant to vocational fit (e.g., high social boldness + low apprehension → sales/leadership; high perfectionism + high rule-consciousness → accounting/engineering). Projective: TAT — stories reveal implicit motives (need for achievement, power, affiliation) and conflict patterns that predict job satisfaction and persistence beyond conscious self-report. A good answer links specific test outputs to career-relevant constructs; a poor answer names tests without theoretical justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_15_011",
+   "title": "c12_hin_a_cbse_15_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical category of the word \"ले\" in the sentence \"वके ले जाइब\" from the text.",
+     "a": "\"ले\" functions as a **vector verb** (सहायक क्रिया) indicating completion/benefactive aspect, not as a main verb \"to take.\" Wrong answer (e.g., \"main verb\") reveals the student cannot distinguish light verb constructions — a core feature of Hindi aspectual grammar tested in CBSE grammar questions and CUET language sections.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the narrator uses \"तुम\" for the station master but \"आप\" for the English officer in the same conversation.",
+     "a": "The honorific shift encodes **power asymmetry**: \"तुम\" marks the station master as socially inferior/subordinate, while \"आप\" acknowledges the colonial officer's authority. A wrong answer (e.g., \"random variation\") shows the student misses how pronoun choice maps social hierarchy — a frequent board exam \"explain the significance\" question type.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the Magahi sentence \"हमनी के नै जाइत\" into standard Hindi, preserving the exact grammatical meaning (person, number, negation, habitative aspect).",
+     "a": "\"हम नहीं जाते\" (Standard Hindi: हम [1st pl.] + नहीं [negation] + जाते [habitual present]). Steps: (1) पहचानें \"हमनी\" = हम (प्रथम पुरुष बहुवचन), (2) \"के\" = ergative marker (Magahi uses के for nominative in perfective, but here habitative so nominative), (3) \"नै\" = नहीं, (4) \"जाइत\" = जाते (habitual). Wrong rewrite (e.g., \"हम नहीं गए\") changes aspect to perfective — a classic board error in \"convert dialect to standard\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of onomatopoeia in \"खट-खट\" (train wheels) and \"चर-चर\" (old cart). What distinct auditory imagery does each create, and how does that contrast serve the theme?",
+     "a": "\"खट-खट\" = metallic, rhythmic, industrial modernity (train); \"चर-चर\" = wooden, irregular, decaying tradition (cart). The contrast sonically enacts the **displacement of rural life by colonial modernity** — the story's central conflict. A weak answer merely defines onomatopoeia without linking sound to theme, missing the \"analyze\" demand of competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The English words in the story (स्टेशन, टिकट, गार्ड) are just loanwords; they don't affect the grammar.\"",
+     "a": "False. These are **code-mixed nouns** that trigger Hindi case morphology (e.g., \"स्टेशन पर\", \"टिकट लिया\", \"गार्ड ने\") proving they are fully integrated into the Hindi syntactic frame. Their presence also marks **register shift** — bureaucratic/colonial domain vs. domestic Magahi. A student agreeing reveals a \"vocabulary-only\" view of language contact, ignoring morphosyntactic integration — a JEE/CUET linguistics trap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence Magahi-style dialogue between a villager and a ticket collector using: (a) ergative \"ने\" only on transitive perfective, (b) vector verb \"दे\" for benefactive, (c) honorific \"तू/तुम\" distinction.",
+     "a": "Example: Villager: \"तू टिकट देखलअ हऽ?\" (Ergative omitted on intransitive \"देखलअ\" — error if student adds ने). TC: \"हम टिकट देखब देबऽ, तूँ देख ले।\" (Vector \"दे\" in \"देखब देबऽ\" = benefactive future; \"तूँ\" for subordinate). Poor answer uses standard Hindi throughout or misapplies ergative — shows inability to *produce* the dialect grammar, only recognize it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

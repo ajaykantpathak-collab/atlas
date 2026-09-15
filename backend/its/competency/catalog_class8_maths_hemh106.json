@@ -1,0 +1,190 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "Cubes and Cube Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.106.6.1",
+   "title": "Cubes of Numbers",
+   "section": "6.2",
+   "definition": "A cube is a number multiplied by itself twice more - n cubed equals n times n times n; cubes of even numbers stay even, of odd numbers stay odd, and numbers like 1, 8, 27, 64 that come from natural numbers are perfect cubes.",
+   "formula": "cube = n * n * n",
+   "key_idea": "Triple the self-multiplication: 4 cubed is 64, keeping the parity of its root.",
+   "textbook_ref": "hemh106.txt section 6.2 (cubes, some interesting patterns)",
+   "question_patterns": [
+    "find the cube of 12",
+    "is 243 a perfect cube - justify",
+    "which of the given numbers are perfect cubes",
+    "find the cube of the given rational number",
+    "check the parity of the cube of an odd number",
+    "express 512 as a cube of a natural number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply by itself twice",
+     "explain": "n times n times n gives the cube.",
+     "compute": "cube = n * n * n"}
+   ]
+  },
+  {
+   "id": "hemh.106.6.2",
+   "title": "Adding Consecutive Odd Numbers Gives Cubes",
+   "section": "6.2",
+   "definition": "Cubes hide odd-number patterns: 2 cubed equals 3 plus 5, 3 cubed equals 7 plus 9 plus 11 - each cube is the sum of as many consecutive odd numbers as its root, starting from the right place.",
+   "formula": "-",
+   "key_idea": "The cube of n is the sum of n consecutive odd numbers - a cube's secret staircase.",
+   "textbook_ref": "hemh106.txt section 6.2.1 (some interesting patterns)",
+   "question_patterns": [
+    "express 4 cubed as the sum of consecutive odd numbers",
+    "which consecutive odd numbers add to 6 cubed",
+    "how many odd numbers make the cube of 5",
+    "verify the odd number pattern for 3 cubed",
+    "state the pattern connecting cubes and odd numbers",
+    "find the sum of the required consecutive odd numbers for the given cube"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the terms",
+     "explain": "The cube of n needs exactly n consecutive odd numbers."},
+    {"step": 2, "action": "locate the starting odd",
+     "explain": "Each cube's run of odd numbers starts just past the previous cube's run."},
+    {"step": 3, "action": "check the total",
+     "explain": "Adding the run reproduces the cube."}
+   ]
+  },
+  {
+   "id": "hemh.106.6.3",
+   "title": "Smallest Multiple That Is a Perfect Cube",
+   "section": "6.2",
+   "definition": "Prime factorisation exposes near-cubes: group the prime factors in triples, and any factor left unpaired tells the smallest multiplier - or divisor - that turns the number into a perfect cube, as 81 times 3 becomes 243, the cube of 9.",
+   "formula": "-",
+   "key_idea": "Triples of prime factors make a cube; the lonely factors name the fix.",
+   "textbook_ref": "hemh106.txt section 6.2.2 (smallest multiple that is a perfect cube)",
+   "question_patterns": [
+    "find the smallest number by which 81 must be multiplied to get a perfect cube",
+    "by what smallest number should 256 be divided to get a perfect cube",
+    "is 1188 a perfect cube - if not find the smallest multiplier",
+    "check the given number for being a perfect cube using prime factorisation",
+    "find the smallest multiple of the given number that is a perfect cube",
+    "what cube does the corrected number become"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "factorise into primes",
+     "explain": "Write the number as a product of prime factors."},
+    {"step": 2, "action": "group in triples",
+     "explain": "Complete triples confirm cube-hood; leftovers do not."},
+    {"step": 3, "action": "name the multiplier",
+     "explain": "Multiply or divide by the primes that complete or clear the broken triples."}
+   ]
+  },
+  {
+   "id": "hemh.106.6.4",
+   "title": "Cube Roots",
+   "section": "6.3",
+   "definition": "The cube root undoes cubing: the cube root of 1331 is 11 because 11 cubed gives 1331; it is found through prime factorisation by taking one factor from every triple, and the method extends to negative numbers and to estimating between known cubes.",
+   "formula": "edge = number ** (1 / 3)",
+   "key_idea": "One factor from each triple of primes reassembles the root.",
+   "textbook_ref": "hemh106.txt section 6.3 (cube roots, prime factorisation method)",
+   "question_patterns": [
+    "find the cube root of 1331 by prime factorisation",
+    "find the cube root of the given perfect cube",
+    "what is the cube root of -27",
+    "estimate the cube root of the given number between two cubes",
+    "find the side of a cube whose volume is the given number",
+    "check the cube root by cubing back"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the cube root",
+     "explain": "Raising to the one-third power undoes the cube.",
+     "compute": "edge = number ** (1 / 3)"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh106.txt section 6.2 cube examples",
+   "concept": "hemh.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the cube of {n}.",
+   "extracted_variables": {
+    "n": "the number to cube"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply by itself twice",
+     "explain": "n cubed is n times n times n.",
+     "compute": "cube = n * n * n"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh106.txt section 6.2 practice",
+   "concept": "hemh.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "A cube of edge {n} units holds how many unit cubes - compute {n} cubed.",
+   "extracted_variables": {
+    "n": "edge of the cube"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply by itself twice",
+     "explain": "The unit cube count is n cubed.",
+     "compute": "cube = n * n * n"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh106.txt section 6.3 cube root examples",
+   "concept": "hemh.106.6.4",
+   "question_type": "compute",
+   "question_pattern": "Find the cube root of {number}.",
+   "extracted_variables": {
+    "number": "the given perfect cube"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the cube root",
+     "explain": "The one-third power undoes the cube.",
+     "compute": "edge = number ** (1 / 3)"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh106.txt section 6.3 practice",
+   "concept": "hemh.106.6.4",
+   "question_type": "compute",
+   "question_pattern": "The volume of a cube is {number} cubic units. Find its edge.",
+   "extracted_variables": {
+    "number": "volume of the cube"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the cube root",
+     "explain": "The edge is the cube root of the volume.",
+     "compute": "edge = number ** (1 / 3)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hemh106.txt EXERCISE 6.1",
+   "questions": [
+     "Which of the given numbers are not perfect cubes?",
+     "Find the smallest number by which 243 must be multiplied to get a perfect cube.",
+     "State true or false: there is no perfect cube that ends with 8."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hemh106.txt EXERCISE 6.2",
+   "questions": [
+     "Find the cube root of each of the given numbers by prime factorisation.",
+     "Find the cube root of 175616.",
+     "Find the cube root of 17576 through estimation."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_012",
+   "title": "c12_ip_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the default value of the `kind` parameter in `Series.plot()` and `DataFrame.plot()`?",
+     "a": "The default `kind` is `'line'` for both Series and DataFrame. A wrong answer (e.g., `'bar'` or `'hist'`) reveals the student assumes the default matches the most common use case or confuses it with matplotlib's `plt.plot()` default. This misconception leads to unexpected line plots when a bar chart was intended, wasting exam time debugging.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df.plot(kind='bar')` on a DataFrame with three numeric columns and gets a grouped bar chart with all three columns plotted. They expected only the first column. Explain why this happens and how to plot only one specific column.",
+     "a": "`DataFrame.plot(kind='bar')` plots *all* numeric columns by default, treating each column as a separate series grouped by the index. This is because Pandas assumes you want to compare columns side-by-side. To plot only one column, use `df['ColumnName'].plot(kind='bar')` (Series.plot) or `df.plot(kind='bar', y='ColumnName')`. A wrong answer indicates the student doesn't understand that DataFrame plotting operates on the entire frame unless subsetted — a critical distinction from Series plotting.",
+     "self_check": true
+    },
+    {
+     "q": "Given a DataFrame `sales` with columns `['Quarter', 'ProductA', 'ProductB', 'ProductC']` where `Quarter` contains `['Q1','Q2','Q3','Q4']`, write the exact code to create a grouped bar chart with Quarter on x-axis and the three products as grouped bars, with figure size 10x6, title \"Quarterly Sales\", and y-axis label \"Sales (₹ Lakhs)\".",
+     "a": "```python\nsales.set_index('Quarter').plot(kind='bar', figsize=(10,6), title='Quarterly Sales', ylabel='Sales (₹ Lakhs)')\nplt.show()\n```\nSteps: (1) Set `Quarter` as index so it becomes x-axis categories, (2) call `.plot(kind='bar')` on the remaining numeric columns, (3) pass figsize, title, ylabel. A wrong answer (e.g., using `x='Quarter'` without setting index, or plotting before setting index) reveals confusion between Series.plot (which takes x/y) and DataFrame.plot (which uses index for x and columns for groups).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `df.plot(kind='hist')` versus `df['column'].plot(kind='hist')` for a DataFrame `df` with three numeric columns. What does each produce, and why does the difference matter for exam questions asking \"plot the distribution of *marks*\"?",
+     "a": "`df.plot(kind='hist')` produces *overlapping* histograms for all numeric columns on the same axes (each column gets a different color, transparency controlled by `alpha`). `df['column'].plot(kind='hist')` produces a *single* histogram for that column. For \"plot the distribution of marks\", if marks are in one column, use Series.plot; if marks for multiple groups are in separate columns, DataFrame.plot with `alpha=0.5` allows comparison. A wrong answer shows the student doesn't grasp that DataFrame.hist() is a multi-column overlay — a frequent board exam trap where they produce a messy overlapped plot instead of a clean single distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df.plot(kind='line', x='Date', y='Sales')` on a DataFrame where `Date` is a string column like `'2023-01'`, `'2023-02'`, etc. The plot renders but x-axis labels are crowded and unreadable. They try `plt.xticks(rotation=45)` but it doesn't work. Diagnose the issue and give the correct fix.",
+     "a": "The issue: `plt.xticks()` operates on the *current* axes, but Pandas `.plot()` may create a new figure/axes that isn't the current one when `plt.xticks()` is called. The fix: either (a) capture the axes: `ax = df.plot(kind='line', x='Date', y='Sales'); ax.tick_params(axis='x', rotation=45)` or (b) use the `rot` parameter: `df.plot(kind='line', x='Date', y='Sales', rot=45)`. A wrong answer (blaming data format or suggesting `plt.xticks()` alone) reveals the student doesn't understand that Pandas plotting returns an `Axes` object and matplotlib pyplot state-machine commands may not target it — a classic JEE/board practical exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single visualization to compare the *shape* of score distributions for three sections (A, B, C) of Class 12 in a subject, where the data is in a DataFrame `df` with columns `['Section', 'Score']`. The visualization must allow comparing central tendency, spread, and modality. Write the code and justify your choice over a grouped bar chart of mean scores.",
+     "a": "```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

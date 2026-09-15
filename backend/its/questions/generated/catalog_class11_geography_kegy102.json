@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy102",
+  "concepts": [
+    {
+      "id": "kegy.102.1.1",
+      "questions": [
+        {"q": "What is the northernmost and highest Himalayan range called? (one word)", "a": "Himadri"},
+        {"q": "Which Himalayan division is also called the Himachal? (one word)", "a": "Lesser Himalaya"},
+        {"q": "Which outermost Himalayan range is made of young, soft sediments? (one word)", "a": "Shiwaliks"},
+        {"q": "How many major divisions does the Himalaya show in this account? (number)", "a": "3"},
+        {"q": "What are the eastern hills of the Himalayan system collectively called? (one word)", "a": "Purvanchal"},
+        {"q": "Into how many broad structural units is India's physiography divided (Peninsular block, Himalayas, plains)? (number)", "a": "3"},
+        {"q": "Which alternative name belongs to the Greater Himalaya: Himadri or Shiwalik? (one word)", "a": "Himadri"}
+      ]
+    },
+    {
+      "id": "kegy.102.2.1",
+      "questions": [
+        {"q": "Which belt of pebbly deposits lies at the foot of the Shiwaliks? (one word)", "a": "Bhabar"},
+        {"q": "Which marshy belt lies south of the Bhabar? (one word)", "a": "Terai"},
+        {"q": "Which older alluvial belt of the northern plains lies above the flood level? (one word)", "a": "Bhangar"},
+        {"q": "Which newer alluvium forms the active floodplains of the northern plains? (one word)", "a": "Khadar"},
+        {"q": "The northern plains stretch from Punjab to which eastern state? (one word)", "a": "Assam"},
+        {"q": "Which plateau, built of lava flows, fills the Indian peninsula? (two words)", "a": "Deccan trap"},
+        {"q": "Which island group of India is coral-built: Lakshadweep or Andaman-Nicobar (name the coral one)? (one word)", "a": "Lakshadweep"}
+      ]
+    },
+    {
+      "id": "kegy.102.3.1",
+      "questions": [
+        {"q": "The Himalayas shield the northern plains from which kind of winds in winter? (two words)", "a": "cold winds"},
+        {"q": "The Himalayas force monsoon winds to rise and give what? (one word)", "a": "rains"},
+        {"q": "Himalayan rivers are perennial because they are fed by what? (one word)", "a": "snow"},
+        {"q": "How many major physiographic parts complete India's diversity (plateau, plains, coasts, islands)? (number)", "a": "4"},
+        {"q": "Do the Himalayas cause or block the monsoon rains over the plains? (one word)", "a": "cause"},
+        {"q": "What two-word gift of the Himalayas, besides rains, keeps the plains green year-round? (two words)", "a": "perennial rivers"},
+        {"q": "India's unmatched variety of landscapes arises from which three elements interacting: mountains, plains and what else? (one word)", "a": "coasts"}
+      ]
+    }
+  ]
+}

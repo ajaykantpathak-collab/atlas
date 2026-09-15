@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_16_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_16_011",
+   "title": "c12_eng_k_cbse_16_011",
+   "questions": [
+    {
+     "q": "Identify the Subject, Verb, and Object in this sentence from the text: \"The film was a great success and was projected every night until it broke.\"",
+     "a": "Correct analysis: This is a compound predicate sentence with two clauses joined by \"and\".\nClause 1: Subject = \"The film\", Verb = \"was\" (linking verb), Complement = \"a great success\" (not an object, because \"was\" is intransitive/linking).\nClause 2 (passive): Subject = \"The film\" (understood), Verb = \"was projected\", Agent = not stated.\nClause 3 (embedded): Subject = \"it\", Verb = \"broke\" (intransitive).\nA wrong answer (e.g., calling \"a great success\" an Object) reveals the student confuses linking-verb complements with transitive objects — a classic board-exam error in voice-change questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"in Uppsala\" in the sentence \"My grandmother had a very large old apartment in Uppsala\" is an Adjunct and not an Object.",
+     "a": "\"In Uppsala\" is a prepositional phrase answering \"where?\" — it adds circumstantial information (location) and can be omitted without making the sentence grammatically incomplete (\"My grandmother had a very large old apartment\" is complete). An Object answers \"what?\" after a transitive verb and is required for completeness. A student who calls it an Object misunderstands that Objects are noun phrases, not prepositional phrases, and that Adjuncts are optional modifiers. This confusion leads to errors in \"Do as directed\" questions (e.g., \"Rewrite removing the adjunct\").",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the sentence \"Thus the script is a very imperfect technical basis for a film\" into Subject, Verb, Complement, Intensifier, and Adjunct(s).",
+     "a": "Step 1: Verb = \"is\" (linking). Step 2: Subject = \"the script\" (answers \"What is?\"). Step 3: Complement = \"a very imperfect technical basis for a film\" (subject complement). Step 4: Inside the complement, \"very\" is an intensifier modifying \"imperfect\". Step 5: \"for a film\" is a prepositional phrase functioning as an Adjunct modifying \"basis\" (telling purpose). A wrong answer that misses \"for a film\" as an adjunct or mislabels \"very\" as an adjective shows inability to handle nested modification — a skill tested in CUET sentence-improvement items.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structures of Bergman's \"I would play my part in the collective building of the cathedral\" and Eco's \"The Name of the Rose is a very serious novel.\" How does each structure reflect the speaker's stance?",
+     "a": "Bergman: Subject \"I\" + Modal verb phrase \"would play\" + Object \"my part\" + Adjunct \"in the collective building of the cathedral\" — shows agency, intention, and humility (adjunct embeds him in a collective). Eco: Subject \"The Name of the Rose\" + Linking verb \"is\" + Complement \"a very serious novel\" with intensifier \"very\" — states an objective classification. A student who only lists parts without linking structure to stance misses the analytical depth required for \"Appreciation\" questions in board exams (e.g., \"Comment on the conversational tone\").",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's analysis: \"In 'The ability to create was a gift', 'to create' is the Object because it comes after the verb 'was'.\" Is the analysis correct? Justify.",
+     "a": "Incorrect. \"Was\" is a linking verb; it cannot take an object. \"The ability to create\" is the complete Subject (head noun \"ability\" with infinitive phrase \"to create\" as post-modifier). \"A gift\" is the Subject Complement. The student's error stems from applying transitive-verb logic (SVO) to a linking-verb structure (SVC). This misconception causes frequent errors in board \"Identify the pattern\" questions and in competitive-exam error-spotting (e.g., \"The book is interesting to read\" — \"to read\" is not an object).",
+     "self_check": true
+    },
+    {
+     "q": "Write a new sentence about film-making that mimics Bergman's pattern: Subject + Transitive Verb + Object (with two adjectives and an intensifier) + Adjunct of place. Then label each component.",
+     "a": "Example: \"The director chose a remarkably sensitive script for the project.\"\nLabels: Subject = \"The director\"; Verb = \"chose\" (transitive); Object = \"a remarkably sensitive script\" (intensifier \"remarkably\" modifies adjective \"sensitive\"); Adjunct = \"for the project\" (prepositional phrase of purpose/place). A poor answer either omits the intensifier, uses an intransitive verb, or mislabels the adjunct — showing the student cannot yet produce the structure they only recognize passively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

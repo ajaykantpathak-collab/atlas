@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_political_science_keps104",
+ "concepts": [
+  {
+   "id": "keps104.1.1",
+   "title": "Justice as Fairness in Institutions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Justice as Fairness in Institutions' refers to.",
+     "a": "Justice is not only what courts deliver; it is the quality of a society's basic structure -- its laws, markets and institutions -- judged by whether they treat persons fairly. A just society is one whose rules would still look fair to those born into the worst positions it creates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Justice as Fairness in Institutions'.",
+     "a": "Judge the rules, not just the referees -- justice belongs first to institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Justice as Fairness in Institutions' taught, and from which source text?",
+     "a": "1.1 (source: keps104.txt lines 1-80 (overview and introduction, justice as a attribute of institutions, intuitive grasp of justice))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps104.1.2",
+   "title": "Procedural and Distributive Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Procedural and Distributive Justice' refers to.",
+     "a": "Procedural justice asks whether the process is fair -- equal rules, impartial application, a real chance to be heard. Distributive justice asks whether the resulting shares of wealth, opportunity and burdens are fair -- a question processes alone cannot settle, since fair procedures can still accumulate unfair outcomes over time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Procedural and Distributive Justice'.",
+     "a": "Fair process matters, but the fairness of the resulting distribution needs judging too.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Procedural and Distributive Justice' taught, and from which source text?",
+     "a": "1.2 (source: keps104.txt lines 80-160 (procedural justice, distributive justice, free market arguments and their critique))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps104.1.3",
+   "title": "John Rawls' Theory of Justice and the Veil of Ignorance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'John Rawls' Theory of Justice and the Veil of Ignorance' refers to.",
+     "a": "Rawls invites us to design society's rules from behind a veil of ignorance, not knowing which class, gender, religion or talent we will be born with. He argues rational people there would secure equal basic liberties for all, allow inequalities only where they benefit the worst off, and keep positions open to all under fair opportunity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'John Rawls' Theory of Justice and the Veil of Ignorance'.",
+     "a": "Choose rules before you know your place in the world -- whatever you would accept blind is just.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'John Rawls' Theory of Justice and the Veil of Ignorance' taught, and from which source text?",
+     "a": "1.3 (source: keps104.txt lines 160-260 (John Rawls, veil of ignorance, two principles of justice, equal liberty, difference principle))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps104.1.4",
+   "title": "Pursuing Social Justice: Free Markets versus State Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pursuing Social Justice: Free Markets versus State Action' refers to.",
+     "a": "One school trusts free markets and minimal government, holding that voluntary exchange plus welfare floors suffice; another holds that markets systematically leave the unlucky behind, so the state must actively redistribute through taxation, public services and reservations for the deprived.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pursuing Social Justice: Free Markets versus State Action'.",
+     "a": "Leave it to the market, or steer with the state -- social justice turns on this choice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pursuing Social Justice: Free Markets versus State Action' taught, and from which source text?",
+     "a": "1.4 (source: keps104.txt lines 260-360 (free markets versus state intervention, welfare state, reservations and compensatory discrimination, Amartya Sen's capabilities mention))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

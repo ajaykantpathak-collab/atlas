@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_003",
+   "title": "c12_bs_cbse_01_003",
+   "questions": [
+    {
+     "q": "Name the three levels of management in an organisation and give one typical designation for each level.",
+     "a": "The three levels are: (1) Top Management — e.g., Chief Executive Officer (CEO) / Chairman; (2) Middle Management — e.g., Production Manager / Division Head; (3) Lower/Operational Management — e.g., Foreman / Supervisor. A wrong answer (e.g., listing \"HR Manager\" as top level or \"CEO\" as middle level) reveals the student cannot distinguish levels based on scope of authority and strategic vs operational focus.",
+     "self_check": true
+    },
+    {
+     "q": "\"Middle management is just a post office passing messages between top and lower levels.\" Do you agree? Explain why or why not using the functions of middle management.",
+     "a": "Disagree. Middle management does far more than relay messages: it interprets top-level policies into actionable departmental plans, recruits and assigns personnel, motivates first-line managers, coordinates with peer departments (e.g., production with marketing), and monitors implementation. Calling it a \"post office\" ignores its decision-making authority (e.g., a Production Manager decides shift schedules, machine allocation, quality norms) and accountability for departmental results. A student who agrees confuses \"link\" with \"passive conduit\" and misses the interpretive, coordinative, and motivational roles.",
+     "self_check": true
+    },
+    {
+     "q": "A factory supervisor notices that raw material wastage has increased by 15% this month. According to the levels of management, what specific actions should the supervisor take, and what should they escalate to the middle-level Production Manager?",
+     "a": "The supervisor (lower level) should: (1) immediately investigate the shop-floor cause — e.g., machine calibration, worker technique, material handling; (2) implement corrective actions within their authority — e.g., retrain workers, adjust machine settings, enforce standard operating procedures; (3) document the issue and corrective steps taken. They should escalate to the Production Manager (middle level) if: (a) the cause is beyond their authority (e.g., faulty raw material batch from purchase department, need for new machinery), (b) the wastage trend persists despite corrective actions, or (c) it requires cross-department coordination (e.g., purchase changing supplier). A wrong answer (e.g., supervisor directly calling the supplier or changing procurement policy) reveals confusion about authority boundaries and scalar chain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time horizon of planning at top, middle, and lower levels of management in a manufacturing company. Give a concrete example of a decision at each level with its typical time frame.",
+     "a": "Top level: Strategic planning, 3-5 years — e.g., \"Enter electric vehicle component manufacturing by 2028\" (CEO/Board). Middle level: Tactical planning, 6-18 months — e.g., \"Set up new assembly line for EV battery packs by Q3 next year\" (Plant Manager). Lower level: Operational planning, daily/weekly — e.g., \"Schedule 3 shifts for battery pack assembly line this week, allocate 12 workers per shift\" (Shift Supervisor). A student who gives same time frame for all levels (e.g., \"all plan for 1 year\") fails to grasp that higher levels deal with uncertainty and long-term resource commitment, while lower levels deal with certainty and immediate execution.",
+     "self_check": true
+    },
+    {
+     "q": "\"In a startup with 20 employees, the founder performs all three levels of management.\" Evaluate this statement. Is it possible? What are the risks?",
+     "a": "Yes, it's possible and common in early-stage startups — the founder sets vision (top), designs processes/hires (middle), and may even do coding/sales/support (lower). However, risks are: (1) Role conflict — strategic thinking gets crowded out by operational firefighting; (2) No checks and balances — same person sets targets and evaluates performance; (3) Scalability limit — beyond ~30-50 employees, span of control breaks down; (4) Succession risk — if founder is unavailable, all management collapses. A good evaluation acknowledges the practical reality while highlighting why formal separation becomes necessary as the organisation grows. A student who says \"impossible\" ignores real-world startup dynamics; one who says \"no risks\" misses the structural limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-level management structure for a new 200-bed multi-specialty hospital in a Tier-2 Indian city. Specify 2-3 designations at each level and one key function unique to that level in this context.",
+     "a": "Top: Medical Director / CEO / Board of Trustees — Unique function: Define hospital's medical ethics charter, approve capital budget for MRI/CT equipment, tie up with insurance networks. Middle: Head of Surgery / Head of Nursing / Head of Administration / Head of Finance — Unique function: Create departmental SOPs (e.g., surgery scheduling protocol), manage nurse-patient ratios, negotiate vendor contracts for medicines. Lower: Ward Sister / OT Technician Supervisor / Billing Shift In-charge — Unique function: Ensure daily nurse roster coverage, verify surgical instrument sterilization logs, resolve patient billing disputes at counter. A strong answer shows contextual adaptation (e.g., \"Head of Nursing\" not \"HR Manager\" as middle level) and distinct functions per level. A weak answer copies generic factory designations without hospital-specific roles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

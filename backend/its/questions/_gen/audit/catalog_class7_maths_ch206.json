@@ -1,0 +1,184 @@
+{
+ "catalog": "catalog_class7_maths_ch206.json",
+ "concepts": [
+  {
+   "id": "gegp.6.1.1",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 42"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 28 * 28"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (84 * 84 - 14 * 14)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 270 / 360 * 2 * 22 / 7 * 70"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 120 / 360 * 22 / 7 * 56 * 56"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "circ = 2 * 22 / 7 * 42"
+   ]
+  },
+  {
+   "id": "gegp.6.1.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 50"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 104"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 13"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 22 - 150"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 63"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 119"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.6.1.3",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 19"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 109"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 18"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 71 - 49"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 64"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 85"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 19"
+   ]
+  },
+  {
+   "id": "gegp.6.1.4",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 27 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 4 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 13 * 12",
+      "bed = 9 * 8",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 96 / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 13 * 5",
+      "cost = area * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 15 * 9 / (3 * 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

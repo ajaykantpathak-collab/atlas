@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_002",
+   "title": "c12_biotech_cbse_02_002",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List two restriction enzymes that produce 5' sticky ends and two that produce blunt ends. Write their recognition sequences and indicate the cleavage positions.",
+     "a": "Correct answer: 5' sticky ends — EcoRI (5'-G↓AATTC-3', leaves 5'-AATT overhang), BamHI (5'-G↓GATCC-3', leaves 5'-GATC overhang). Blunt ends — PvuII (5'-CAG↓CTG-3', cuts centrally), EcoRV (5'-GAT↓ATC-3', cuts centrally). A wrong answer (e.g., listing HindIII as blunt, or saying EcoRI gives 3' overhangs) reveals the student has memorised enzyme names but not their cleavage geometry — they cannot visualise the phosphodiester bond hydrolysis pattern, which is essential for predicting ligation compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why sticky-end ligation is typically 10-100× more efficient than blunt-end ligation, referencing the molecular events during the ligation reaction.",
+     "a": "Correct answer: Sticky ends transiently base-pair via complementary overhangs, holding the two DNA fragments in correct alignment and proximity long enough for DNA ligase to form phosphodiester bonds. This effective local concentration of compatible ends is high. Blunt ends lack base-pairing; they rely on random collision in solution, so their effective concentration is extremely low, requiring much higher DNA/ligase amounts and longer incubation. A wrong answer focusing only on \"hydrogen bonds\" without mentioning effective concentration or ligase kinetics shows the student knows the what but not the why — they will fail to optimise blunt-end ligations in the lab (e.g., by increasing DNA concentration or using PEG).",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: You want to directionally clone a 1.2 kb insert into pUC19. The insert has unique EcoRI and HindIII sites flanking the gene (EcoRI at 5' end, HindIII at 3' end). pUC19 MCS contains EcoRI and HindIII sites in the same order. Design the double-digest strategy for vector and insert, and explain how this ensures directional cloning.",
+     "a": "Correct answer: Digest both vector and insert with EcoRI + HindIII simultaneously. EcoRI produces 5'-AATT overhangs; HindIII produces 5'-AGCT overhangs. The insert's EcoRI end can only ligate to the vector's EcoRI site, and its HindIII end only to the vector's HindIII site — the two ends are incompatible with each other, forcing a single orientation. Vector cannot self-ligate because its two ends are also incompatible. A wrong answer (e.g., single digest with EcoRI) reveals the student does not grasp that directional cloning requires two different sticky ends — they will obtain bidirectional inserts and waste screening effort.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the ligation outcomes when a vector cut with BamHI is mixed with an insert cut with (a) BamHI, (b) BglII, (c) Sau3AI. All three enzymes recognise 5'-GATC-3' core but have different extended recognition sequences. Predict which combinations yield compatible sticky ends and which allow directional cloning.",
+     "a": "Correct answer: BamHI (5'-G↓GATCC-3') leaves 5'-GATC overhang. BglII (5'-A↓GATCT-3') leaves 5'-GATC overhang — compatible with BamHI, but the resulting junction (GGATCT) is not recognised by either enzyme, preventing re-cutting. Sau3AI (5'-↓GATC-3') leaves 5'-GATC overhang — compatible with both, but Sau3AI site is regenerated upon ligation, so the junction can be re-cut. (a) BamHI-BamHI: compatible, bidirectional, site regenerated. (b) BamHI-BglII: compatible, unidirectional (vector BamHI end ≠ insert BglII end), junction resistant to both. (c) BamHI-Sau3AI: compatible, but Sau3AI site regenerated — risk of re-digestion. A wrong answer missing the regeneration aspect shows the student cannot analyse junction sequences — critical for library construction where re-cutting destroys clones.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student plans to clone a 5 kb genomic fragment (with internal EcoRI sites) into a vector using blunt-end ligation after EcoRI digestion followed by Klenow fill-in. Critique this strategy: identify two major risks and propose one modification to reduce each risk.",
+     "a": "Correct answer: Risk 1 — Internal EcoRI sites become blunt after fill-in, creating multiple fragments that can ligate randomly, yielding scrambled inserts. Mitigation: Use partial digestion or choose a rare-cutter (e.g., NotI) for vector linearisation. Risk 2 — Blunt-end ligation is non-directional and inefficient; vector self-ligation dominates. Mitigation: Treat vector with alkaline phosphatase (CIP/SAP) to remove 5' phosphates, preventing self-circularisation. A wrong answer that only mentions \"low efficiency\" without addressing fragment scrambling or self-ligation shows the student cannot evaluate multi-factor experimental design — they will generate libraries full of empty vectors and chimeric inserts.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a cloning strategy to insert a cDNA fragment (with no internal NotI sites) into a vector such that: (i) the insert orientation is fixed relative to the promoter, (ii) the vector cannot self-ligate, (iii) the final construct has no NotI site at the junctions. Specify enzymes, modifications, and the expected junction sequences.",
+     "a": "Expected answer: Cut vector with NotI (5'-GC↓GGCCGC-3', 5' overhang CGGCC). Cut insert with NotI + a second enzyme (e.g., SalI, 5'-G↓TCGAC-3') at the other end, or engineer NotI + SalI sites via PCR primers. Dephosphorylate vector with CIP. Ligate. Junction 1: NotI-NotI regenerates NotI site (undesirable per iii) — so instead use NotI on vector and a compatible-but-different enzyme on insert (e.g., AscI, 5'-GG↓CGCGCC-3', leaves CGGC overhang — NOT compatible). Better: Use two different rare-cutters (NotI + SfiI) on vector, match with PCR-engineered ends on insert. A poor answer that simply says \"use two enzymes\" without specifying compatibility, dephosphorylation, and junction analysis shows the student cannot synthesise a complete cloning workflow — they will produce constructs with unwanted restriction sites or wrong orientation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

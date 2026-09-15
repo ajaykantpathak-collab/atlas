@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_8",
+   "title": "c8_eco_ch3_8",
+   "questions": [
+    {
+     "q": "What is a \"negative externality\" in the context of urban traffic and pollution?",
+     "a": "A negative externality is an unintended cost imposed on third parties (the general public) by an economic activity (like driving a personal car or running a factory) without any compensation. For example, a driver enjoys the private benefit of a comfortable car ride but imposes the external costs of air pollution and traffic delays on everyone else on the road. \n\n*What a wrong answer reveals:* If a student defines it simply as \"something bad that happens in a city,\" they lack the economic understanding of private benefits versus social costs.",
+     "self_check": true
+    },
+    {
+     "q": "Why does rapid migration to Indian cities lead to high housing prices and the growth of informal settlements (slums)?",
+     "a": "Housing supply is highly inelastic in the short run because building houses takes time and urban land is limited. When rapid migration causes a sharp increase (rightward shift) in the demand for housing, prices and rents shoot up dramatically. Low-income migrants who cannot afford these high market prices are priced out of formal housing, forcing them to live in informal settlements (slums) where living conditions are poor but affordable.\n\n*What a wrong answer reveals:* If a student thinks slums form because \"people prefer not to pay rent,\" they miss the structural demand-supply mismatch and the economic reality of income constraints in urban land markets.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a city road handles 1,000 commuters daily. When 200 commuters switch from riding public buses to driving private cars, the average travel time for all 1,000 commuters increases from 20 minutes to 35 minutes. Calculate the total daily hours wasted by the community due to this switch, and identify the economic concept this represents.",
+     "a": "**Step 1:** Calculate the increase in travel time per commuter:  \n35 minutes - 20 minutes = 15 minutes (or 0.25 hours) per commuter.\n\n**Step 2:** Calculate the total daily hours wasted by all 1,000 commuters:  \n1,000 commuters × 0.25 hours = 250 hours.\n\n**Step 3:** Identify the concept:  \nThis represents a **negative externality (congestion cost)**. The private decision of 200 commuters to drive cars imposed a collective time cost of 250 hours daily on the entire commuting population.\n\n*What a wrong answer reveals:* If a student only calculates the time for the 200 car drivers, they fail to understand that private actions in shared spaces impact the entire public.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two policy options to reduce urban air pollution:  \n- **Policy A:** Charging a \"pollution tax\" on private diesel cars entering the city center.  \n- **Policy B:** Widening the city roads to reduce idling traffic.  \n\nAnalyze which policy directly addresses the economic cause of pollution.",
+     "a": "**Policy A** directly addresses the economic cause of pollution. By charging a pollution tax, the government forces drivers to \"internalize the externality\"—meaning drivers must pay for the social damage their exhaust causes, which discourages private car use. \n\n**Policy B (road widening)** does not address the cause; in fact, it often leads to \"induced demand.\" Widening roads lowers the immediate private cost of driving (making it temporarily faster), which encourages more people to buy and drive cars, eventually returning the city to the same level of congestion and pollution.\n\n*What a wrong answer reveals:* If a student chooses Policy B, they hold the common misconception that physical expansion of infrastructure is always the solution to capacity limits, ignoring behavioral responses to price and convenience.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal board decides to drain a local wetland to build an affordable housing complex. Evaluate this decision from an economic perspective, weighing short-term gains against long-term external costs.",
+     "a": "While the project provides a short-term benefit by increasing housing supply and lowering rents, it creates massive long-term negative externalities. Draining wetlands destroys natural flood-absorption infrastructure and water-purification systems. \n\nOver time, this will lead to costly urban flooding and water scarcity, forcing the city to spend heavily on disaster relief and water imports. Economically, the long-term ecological depreciation and public health costs will likely far outweigh the short-term housing benefits.\n\n*What a wrong answer reveals:* If a student supports the project solely because \"people need homes,\" they fail to evaluate the long-term economic trade-offs and the value of natural infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple, sustainable 3-point municipal policy plan to tackle traffic congestion and air pollution in a city of 2 million people, ensuring that the funding for your plan does not burden poor residents.",
+     "a": "A highly rated plan would include:\n1. **Congestion Pricing:** Levy a daily entry fee on private vehicles entering busy commercial zones during peak hours (taxing luxury/convenience).\n2. **Dedicated Public Transit Funding:** Allocate 100% of the congestion fee revenues to buy electric public buses and subsidize bus fares, making clean transit affordable for low-income workers.\n3. **Non-Motorized Infrastructure:** Build safe, shaded bicycle lanes and wide pedestrian walkways, reducing the need for short motorized trips.\n\n*What a poor answer reveals:* If a student proposes building more highways or charging high bus fares, they show a lack of understanding of equity (not burdening the poor) and the economics of public transit incentives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

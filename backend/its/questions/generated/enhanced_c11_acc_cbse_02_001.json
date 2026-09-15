@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_001",
+   "title": "c11_acc_cbse_02_001",
+   "questions": [
+    {
+     "q": "What does GAAP stand for, and what is its primary purpose in accounting?",
+     "a": "GAAP stands for Generally Accepted Accounting Principles. Its primary purpose is to bring uniformity and consistency in the preparation and presentation of financial statements so that they are comparable across firms and time periods. A wrong answer (e.g., \"GAAP is a law passed by Parliament\" or \"GAAP is only for big companies\") reveals the student confuses GAAP with legislation or thinks it applies selectively, missing that it's a professional framework for all entities.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't accounting information be reliable and comparable if each business follows its own accounting methods? Give a concrete example with numbers.",
+     "a": "Without common methods, the same economic event yields different numbers. Example: Firm A buys machinery for ₹10 lakh, estimates 10-year life, charges ₹1 lakh/year depreciation. Firm B buys identical machinery but estimates 5-year life, charges ₹2 lakh/year. After Year 1, Firm A shows higher profit by ₹1 lakh purely due to method choice, not performance. A wrong answer (e.g., \"It's fine, users can adjust\") reveals the student underestimates how method differences distort decision-making and misses that comparability requires ex-ante uniformity, not ex-post adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder says: \"GAAP is outdated. My investors only care about cash in the bank. I'll just show bank statements.\" Identify the flaw in this reasoning using the concept of GAAP's need.",
+     "a": "Bank statements show cash flows, not financial performance or position. They don't match revenues with expenses incurred to earn them (matching concept), don't show obligations like unpaid salaries or taxes (accrual basis), and don't reveal asset values or profit trends. GAAP exists precisely because cash alone is insufficient for decisions — investors need accrual-based profit, liability disclosure, and consistency. A wrong answer (e.g., \"Bank statements are enough for small business\") reveals the student confuses cash accounting with GAAP accrual accounting and misses that GAAP serves multiple users (banks, tax, regulators), not just founders.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the terms \"principle,\" \"concept,\" \"convention,\" and \"postulate\" as used in GAAP. Why does NCERT say they are used interchangeably in practice?",
+     "a": "Technically: Principle = general rule for action; Concept = fundamental assumption; Convention = custom/tradition; Postulate = assumed truth. But in practice, the same rule (e.g., \"record assets at cost\") is called a concept by one author, convention by another, postulate by a third. NCERT treats them interchangeably because the label doesn't change the practical application — what matters is the rule's effect on recording. A wrong answer (e.g., \"They are completely different\") reveals the student gets stuck on semantics instead of focusing on practicability, which NCERT explicitly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"GAAP is rigid and prevents innovation in accounting. We should let each company design its own reporting framework.\" Defend or critique with two arguments.",
+     "a": "Critique. Argument 1: Without GAAP, inter-firm and inter-period comparisons become impossible — investors couldn't compare Reliance with Tata, or this year with last year. Argument 2: GAAP evolves (e.g., Ind-AS convergence with IFRS) — it's not static; it changes with legal, social, economic environment. A wrong answer (e.g., \"GAAP should be flexible for startups\") reveals the student misunderstands that comparability requires mandatory uniformity, not optional frameworks, and misses that GAAP already has change mechanisms (e.g., Accounting Standards updates).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where the absence of GAAP would mislead a specific user (banker, investor, tax authority, supplier). Describe the transaction, the two different accounting treatments possible, and the resulting misleading signal.",
+     "a": "Scenario: A construction company signs a 3-year ₹30 crore contract. Treatment A (GAAP-compliant): Recognizes ₹10 crore revenue each year as work progresses. Treatment B (no GAAP): Recognizes ₹30 crore revenue in Year 1 when contract signed. User: Banker lending ₹5 crore sees Treatment B's Year 1 profit inflated by ₹20 crore, approves loan. Company defaults in Year 2 because real cash comes later. Good answer must specify user, two treatments, and the misleading signal. A poor answer (vague scenario, no specific misleading signal) reveals the student cannot connect GAAP's purpose to concrete decision-making consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

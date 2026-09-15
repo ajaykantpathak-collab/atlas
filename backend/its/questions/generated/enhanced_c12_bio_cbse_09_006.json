@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_006",
+   "title": "c12_bio_cbse_09_006",
+   "questions": [
+    {
+     "q": "Name the three Indian major carps (IMC) and state one distinct feeding habit for each that makes them compatible for composite culture.",
+     "a": "Correct: Catla catla (surface feeder, zooplankton), Labeo rohita (column feeder, omnivorous), Cirrhinus mrigala (bottom feeder, detritus/algae). Their non-overlapping feeding niches allow simultaneous stocking.  \nWrong answer reveals: Student memorizes names but not ecological roles — they might list \"rohu, catla, mrigal\" but cannot explain *why* they are cultured together. This leads to errors in board questions asking \"justify composite culture\" or NEET questions on resource partitioning.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer stocks a 1-ha pond with only Catla catla at 10,000 fingerlings/ha. After 6 months, growth is poor and mortality is high. Explain the biological reason using the concept of carrying capacity and trophic niche.",
+     "a": "Correct: Monoculture of a surface feeder exhausts zooplankton (its sole food) while column and bottom niches remain unutilized. Carrying capacity for Catla alone is far lower than for a mixed assemblage exploiting all niches. Intraspecific competition + waste accumulation → poor growth, disease susceptibility.  \nWrong answer reveals: Student thinks \"more fish = more yield\" ignoring trophic ecology. They may blame \"poor feed quality\" or \"water quality\" without linking to niche underutilization. This is a classic NEET trap — application of carrying capacity to aquaculture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a composite fish culture stocking ratio for a 0.5-ha seasonal pond in West Bengal using IMC + two exotic carps. Justify each species' inclusion based on feeding niche and growth rate.",
+     "a": "Correct: Example ratio (total 5000 fingerlings/ha → 2500 for 0.5 ha): Catla 1.5 (surface), Rohu 2.0 (column), Mrigala 1.5 (bottom), Silver carp 1.0 (surface phytoplankton), Grass carp 1.0 (macrophytes). Justification: Silver carp controls algal blooms (prevents O2 crash), Grass carp converts aquatic weeds to fish protein. All occupy distinct niches; fast-growing exotics boost yield in short seasonal window.  \nWrong answer reveals: Student copies standard 3:4:3 ratio without adapting to pond type (seasonal vs perennial) or adding exotics. They miss that Grass carp needs macrophytes (absent in many ponds) — a practical constraint NEET case studies test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impacts of intensive shrimp farming (mariculture) in Chilika Lake vs. traditional capture fisheries in the same lagoon. Analyze using concepts of eutrophication, habitat destruction, and disease spillover.",
+     "a": "Correct: Intensive shrimp farms: high stocking density → organic waste (feed, feces) → eutrophication → algal blooms → hypoxia; mangrove clearance for ponds → nursery habitat loss; viral diseases (WSSV) spread to wild stocks. Traditional capture: lower density, no feed input, but overfishing + destructive gear (trawling) depletes stocks and damages benthos. Trade-off: culture gives higher yield/area but higher ecological footprint per kg.  \nWrong answer reveals: Student lists impacts separately but cannot *compare* using a common framework (e.g., per unit production). They may think \"culture is always better for conservation\" — a board-level misconception. NEET often asks \"which is more sustainable?\" requiring nuanced analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Induced breeding using synthetic hormones (Ovatide, Ovaprim) has completely replaced pituitary extract in Indian carp hatcheries because it is cheaper and more reliable.\" Support or refute with three specific arguments.",
+     "a": "Correct: Refute. (1) Synthetic analogs (GnRHa + dopamine antagonist) are *more reliable* (standardized dose, consistent potency) but *not cheaper* — pituitary extract is low-cost from slaughterhouse waste. (2) Pituitary extract contains multiple gonadotropins (FSH+LH) giving better spawning synchrony in some species. (3) Small hatcheries still use pituitary due to cost; synthetics dominate large commercial units.  \nWrong answer reveals: Student assumes \"modern = better in all aspects\" — a common competitive exam trap. They confuse \"standardized\" with \"cheaper\" and miss the socio-economic reality of small-scale farmers. Board marking scheme awards points for balanced evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a low-cost integrated farming model for a 2-ha smallholder farm in Bihar combining fish culture, livestock, and agriculture. Specify species, waste-recycling flows, and one measurable sustainability indicator.",
+     "a": "Good answer: Fish-poultry-vegetable integration. Pond (1 ha): IMC + exotic carps (5000/ha). Poultry house (200 birds) built over pond — droppings (N,P) fertilize pond → plankton → fish feed. Pond silt (nutrient-rich) used as fertilizer for vegetable beds (0.5 ha) on bunds. Vegetable waste → poultry feed. Sustainability indicator: \"External feed/fertilizer input reduced by >60% compared to monoculture\" or \"Net profit/ha/year > ₹3 lakh\".  \nPoor answer reveals: Student lists components but misses *recycling flows* (e.g., \"chicken manure to pond\" but not \"pond silt to crops\"). They treat integration as coexistence, not nutrient cycling. This tests systems thinking — a NEET 2023 case-study style question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

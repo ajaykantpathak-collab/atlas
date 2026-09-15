@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_014",
+   "title": "c11_phy_cbse_04_014",
+   "questions": [
+    {
+     "q": "State the five sequential steps of the standard Free Body Diagram procedure for solving a mechanics problem, as prescribed in the NCERT Class 11 textbook (Section 4.11).",
+     "a": "The five steps are: (i) Draw a schematic diagram of the assembly showing all parts, links, and supports. (ii) Choose a convenient part of the assembly as the system. (iii) Draw a separate free-body diagram showing the system and ALL forces on it by the environment (excluding forces BY the system). (iv) Include known force magnitudes/directions; treat unknowns as variables. (v) If needed, repeat for another system choice, using Newton's Third Law (action-reaction pairs) to relate forces between diagrams. A wrong answer reveals the student memorizes \"draw arrows\" but lacks the systematic algorithm to handle multi-body systems — they will miss forces or misapply Third Law when connecting subsystems.",
+     "self_check": true
+    },
+    {
+     "q": "A 5 kg block rests on a rough horizontal floor (μs = 0.4). A horizontal force F = 15 N is applied. The block does not move. A student draws the FBD and writes: \"fs = μs N = 0.4 × 50 = 20 N acting opposite to F.\" Identify the conceptual error in this statement and explain why it violates the nature of static friction.",
+     "a": "The error is equating static friction to its **maximum value** (fs = μs N) when the block is in equilibrium with F = 15 N < fs_max. Static friction is **self-adjusting**: fs = F_applied = 15 N (up to the limit 20 N). The student incorrectly assumes static friction always equals μs N, which is true ONLY at the point of impending motion. This misconception leads to wrong net force calculations — they would compute net force as 15 N - 20 N = -5 N and predict acceleration opposite to F, which is physically absurd.",
+     "self_check": true
+    },
+    {
+     "q": "Two blocks of masses 3 kg and 5 kg are connected by a light inextensible string passing over a smooth pulley. The 3 kg block hangs vertically; the 5 kg block rests on a smooth horizontal table. Draw the FBD for each block and calculate the acceleration of the system and the tension in the string. (Take g = 10 m/s²)",
+     "a": "**FBDs:**\n- 3 kg block: Weight (30 N) downward, Tension (T) upward.\n- 5 kg block: Weight (50 N) downward, Normal (N) upward, Tension (T) horizontal toward pulley.\n\n**Equations (taking downward +ve for 3 kg, horizontal +ve for 5 kg):**\n3 kg: 30 - T = 3a  ...(1)\n5 kg: T = 5a        ...(2)\n\nSubstitute (2) into (1): 30 - 5a = 3a → 8a = 30 → **a = 3.75 m/s²**\nThen T = 5 × 3.75 = **18.75 N**\n\n**Unit check:** a in m/s², T in N = kg·m/s² ✓\nA wrong answer (e.g., a = 6 m/s²) reveals the student forgot the 5 kg mass contributes to inertia but not to driving force, treating it as a single 3 kg mass in free fall.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 kg block sits on a 30° rough incline (μs = 0.5). A horizontal force F = 50 N pushes the block **up** the incline. Without calculating the exact value, determine whether the block moves up, moves down, or stays at rest. Justify by comparing the component of net driving force along the incline with the maximum static friction. (g = 10 m/s²)",
+     "a": "**Forces along incline (up +ve):**\n- Component of weight down: mg sin30° = 100 × 0.5 = 50 N\n- Component of F up: F cos30° = 50 × (√3/2) ≈ 43.3 N\n- Net driving force (without friction) = 43.3 - 50 = -6.7 N (down the incline)\n\n**Normal force:** N = mg cos30° + F sin30° = 100×(√3/2) + 50×0.5 ≈ 86.6 + 25 = 111.6 N\n**Max static friction:** fs_max = μs N = 0.5 × 111.6 ≈ 55.8 N\n\nSince |net driving force| (6.7 N) < fs_max (55.8 N), friction can fully oppose the net tendency. The block **stays at rest**.\nA wrong answer (e.g., \"moves up because F has an upward component\") reveals the student ignores the weight component or miscomputes normal force (forgetting F sin30° adds to N), leading to underestimated friction limit.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a connected-bodies problem (two masses on a pulley) and obtains a negative acceleration value. They write: \"Since acceleration is negative, the system moves opposite to my assumed direction. The magnitude is correct.\" Evaluate this statement: Is the magnitude necessarily correct? Under what condition would the magnitude be wrong even if the sign interpretation is right?",
+     "a": "The magnitude is **correct only if the equations were set up with consistent sign conventions for both bodies**. If the student assumed opposite positive directions for the two masses (e.g., +ve upward for hanging mass, +ve rightward for table mass) but wrote constraint a₁ = a₂ without a sign link, the magnitude could be wrong. For example, if the hanging mass equation is mg - T = ma (down +ve) and the table mass equation is T = ma (right +ve), the constraint is a_hanging = a_table (same magnitude, same sign convention for acceleration direction relative to motion). If they instead wrote T = -ma for the table mass, they'd get wrong magnitude. A wrong answer reveals the student treats \"negative acceleration\" as a universal fix without checking internal consistency of sign conventions across all FBDs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a **spring balance, a wooden block, a protractor, and an adjustable inclined plane** to verify that the coefficient of static friction μs = tan θ_max, where θ_max is the angle at which the block just begins to slide. Specify: (a) What you measure directly, (b) What you plot, (c) How you extract μs from the graph, (d) One precaution to ensure the block doesn't topple before sliding.",
+     "a": "(a) Measure θ_max (angle of inclination) at which the block **just starts to slide** — repeat 5 times with different contact surfaces (sandpaper, cloth, plastic) by changing the block's bottom face. (b) Plot **tan θ_max (y-axis) vs. surface type (x-axis categorical)** or simply record values. (c) μs is directly the **average of tan θ_max** for each surface — no graph slope needed; the theory predicts μs = tan θ_max for each trial. (d) Precaution: Ensure the **block's center of mass is low and base wide** (height < base width) so that the line of action of weight stays within the base until sliding occurs — otherwise toppling precedes sliding, invalidating θ_max. A poor answer uses a spring balance to pull horizontally on a flat surface, which measures kinetic friction or requires dynamic measurement, missing the elegant static equilibrium method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

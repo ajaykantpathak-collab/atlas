@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_006",
+   "title": "c12_phy_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the resonant angular frequency ω₀ of a series LCR circuit with L = 2.0 H and C = 50 μF? State the formula and compute the numerical value in rad/s.",
+     "a": "ω₀ = 1/√(LC) = 1/√(2.0 × 50×10⁻⁶) = 1/√(10⁻⁴) = 1/0.01 = 100 rad/s. A wrong answer like 1000 rad/s reveals the student forgot to convert μF to F (50 μF = 50×10⁻⁶ F) or misapplied the square root. Another common error: using f₀ = 1/(2π√(LC)) and giving answer in Hz instead of rad/s.",
+     "self_check": true
+    },
+    {
+     "q": "In a series LCR circuit at resonance, the voltage across the inductor is measured as 300 V (rms) while the source voltage is only 50 V (rms). A student claims this violates Kirchhoff's voltage law. Explain why the student is wrong using phasor concepts.",
+     "a": "At resonance, VL and VC are equal in magnitude but 180° out of phase (phasors opposite). Their phasor sum is zero, so the net voltage across the LC combination is zero. The source voltage appears entirely across R. The individual voltages VL and VC can exceed the source voltage by a factor Q (quality factor). This does not violate KVL because KVL applies to phasor sums, not arithmetic sums of magnitudes. A wrong answer indicates the student treats AC voltages as scalars and ignores phase differences.",
+     "self_check": true
+    },
+    {
+     "q": "A series LCR circuit has R = 20 Ω, L = 1.5 H, C = 35 μF. It is connected to a 200 V (rms), variable-frequency AC supply. Calculate: (a) the resonant frequency f₀ in Hz, (b) the rms current at resonance, (c) the rms voltage across the inductor at resonance, (d) the quality factor Q.",
+     "a": "(a) f₀ = 1/(2π√(LC)) = 1/(2π√(1.5 × 35×10⁻⁶)) = 1/(2π√(5.25×10⁻⁵)) = 1/(2π × 7.246×10⁻³) = 1/(0.04553) ≈ 22.0 Hz.\n(b) At resonance, Z = R = 20 Ω. Irms = Vrms/R = 200/20 = 10 A.\n(c) XL = ω₀L = 2πf₀L = 2π × 22.0 × 1.5 ≈ 207.3 Ω. VL,rms = Irms × XL = 10 × 207.3 = 2073 V.\n(d) Q = ω₀L/R = (2π × 22.0 × 1.5)/20 = 207.3/20 = 10.37. Alternatively Q = VL,rms / Vrms = 2073/200 = 10.37.\nWrong answers often arise from: using peak instead of rms values inconsistently, forgetting 2π in f₀ formula, or using XL = ωL with ω in rad/s but f₀ in Hz without conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Two series LCR circuits have identical L and C but different resistances: Circuit A has R = 10 Ω, Circuit B has R = 100 Ω. Both are driven at their resonant frequency by the same voltage amplitude vm. Compare: (i) the peak current in each circuit, (ii) the quality factor Q, (iii) the bandwidth Δω, (iv) the voltage across the capacitor at resonance.",
+     "a": "(i) im = vm/R. Circuit A: im = vm/10 = 0.1 vm. Circuit B: im = vm/100 = 0.01 vm. Circuit A has 10× larger current.\n(ii) Q = ω₀L/R. Since ω₀L is same, Q_A = 10×Q_B. Circuit A has sharper resonance.\n(iii) Δω = R/L. Circuit A has 10× smaller bandwidth (narrower resonance peak).\n(iv) VC = im XC = (vm/R) × (1/ω₀C) = vm Q. So VC_A = 10×VC_B. Circuit A has larger voltage magnification.\nA wrong answer that says both have same current or same Q reveals confusion between resonant frequency (depends only on L,C) and resonance sharpness (depends on R).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a resonance problem and writes: \"At resonance, XL = XC = 0, so Z = R.\" Evaluate this statement. Is it correct? If not, what is the correct condition and why is the student's version wrong?",
+     "a": "The statement is incorrect. At resonance, XL = XC ≠ 0 (unless L=0 or C=0 or ω=0). The correct condition is XL = XC, meaning their magnitudes are equal and non-zero. Their phasor voltages cancel because they are 180° out of phase, not because they are zero. The student likely confused \"net reactance X = XL - XC = 0\" with \"XL = 0 and XC = 0\". This error leads to wrong voltage calculations across L and C (they would predict zero voltage across L and C at resonance, missing voltage magnification entirely).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a function generator, an oscilloscope, a resistor (100 Ω), an inductor (10 mH), and a capacitor (0.1 μF) to demonstrate resonance in a series LCR circuit. Describe the procedure, what to measure, and how to identify the resonant frequency from the oscilloscope display.",
+     "a": "Connect R, L, C in series with function generator. Set generator to sine wave, amplitude ~5 V. Connect oscilloscope Channel 1 across the source (input voltage), Channel 2 across the resistor (current proxy, since VR in phase with I). Vary frequency from 1 kHz to 100 kHz. At resonance: (1) VR amplitude maximizes (current maximum), (2) phase difference between Channel 1 and Channel 2 becomes zero (traces overlap perfectly), (3) frequency reads f₀ ≈ 1/(2π√(LC)) ≈ 1/(2π√(10×10⁻³ × 0.1×10⁻⁶)) ≈ 5.03 kHz. A good answer includes: using resistor voltage as current indicator, looking for maximum amplitude and zero phase shift, and comparing measured f₀ with calculated value. A poor answer measures voltage across L or C only, or doesn't mention phase observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

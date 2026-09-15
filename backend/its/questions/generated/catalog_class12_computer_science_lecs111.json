@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs111",
+ "concepts": [
+  {
+   "id": "lecs111.1",
+   "title": "Data Rate for Uploading Pages",
+   "questions": [
+    {
+     "q": "Using the method 'Data Rate for Uploading Pages', work with: bits_per_char = 200, chars_per_page = 150, pages = 150, seconds = 6. Carry the chain through step by step and give the final value of rate_bps.",
+     "a": "750000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Data Rate for Uploading Pages' and work with: bits_per_char = 400, chars_per_page = 50, pages = 1500, seconds = 400. Carry the chain through step by step and give the final value of rate_bps.",
+     "a": "75000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Data Rate for Uploading Pages' refers to.",
+     "a": "The data transfer rate or bit rate counts the bits moved per second; for an upload job, multiply the pages by the characters per page and the bits per character, then divide by the seconds taken.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Rate for Uploading Pages'.",
+     "a": "Ten pages of 1600 eight-bit characters uploaded in 20 seconds demand a channel of 6400 bps.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Rate for Uploading Pages', in plain ASCII form.",
+     "a": "rate_bps = pages * chars_per_page * bits_per_char / seconds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.2",
+   "title": "Bandwidth of a Composite Signal",
+   "questions": [
+    {
+     "q": "Using the method 'Bandwidth of a Composite Signal', work with: ghz = 15, lower_mhz = 25. Carry the chain through step by step and give the final value of bandwidth.",
+     "a": "14975 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bandwidth of a Composite Signal' and work with: ghz = 400, lower_mhz = 150. Carry the chain through step by step and give the final value of bandwidth.",
+     "a": "399850 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bandwidth of a Composite Signal' refers to.",
+     "a": "Bandwidth is the span of frequencies a channel carries, measured in Hertz as the difference between the maximum and minimum frequency of the composite signal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bandwidth of a Composite Signal'.",
+     "a": "A signal spanning 500 MHz to 1 GHz occupies 500 MHz of bandwidth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bandwidth of a Composite Signal', in plain ASCII form.",
+     "a": "bandwidth = max_frequency - min_frequency",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.3",
+   "title": "Converting Gbps into Bits per Second",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Converting Gbps into Bits per Second' refers to.",
+     "a": "Data rate units climb by factors of 1024: one Kbps is 2 to the power 10 bps, one Mbps is 2 to the power 20 bps and one Gbps is 2 to the power 30 bps, so a Gbps figure multiplies by 1024 three times.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Converting Gbps into Bits per Second'.",
+     "a": "Since 1 Gbps equals 1073741824 bps, an 18 Gbps link carries 19327352832 bits per second.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Converting Gbps into Bits per Second', in plain ASCII form.",
+     "a": "total_bps = gbps_value * 1024 ** 3",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.4",
+   "title": "Bluetooth Piconet Device Limits",
+   "questions": [
+    {
+     "q": "Using the method 'Bluetooth Piconet Device Limits', work with: master = 8, slaves = 50, total_devices = 400. Carry the chain through step by step and give the final value of waiting.",
+     "a": "342 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bluetooth Piconet Device Limits' and work with: master = 3, slaves = 12, total_devices = 30. Carry the chain through step by step and give the final value of waiting.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bluetooth Piconet Device Limits' refers to.",
+     "a": "Bluetooth devices within about 10 metres form a small network called a piconet working in master-slave style: one master actively talks to up to 7 slaves, while the remaining paired devices of up to 255 wait inactive.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bluetooth Piconet Device Limits'.",
+     "a": "With 8 devices communicating at once out of a 255-device network, 247 devices stay parked.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bluetooth Piconet Device Limits', in plain ASCII form.",
+     "a": "waiting = total_devices - (master + slaves)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.5",
+   "title": "Simplex, Half-duplex and Full-duplex Modes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Simplex, Half-duplex and Full-duplex Modes' refers to.",
+     "a": "Communication runs in three modes: simplex sends one way only, like a keyboard to a computer; half-duplex exchanges both ways but never at once, like a walkie-talkie; full-duplex carries both directions simultaneously, like a telephone call.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Simplex, Half-duplex and Full-duplex Modes'.",
+     "a": "A one-way narrow bridge pictures half-duplex, while a two-way road pictures full-duplex.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Simplex, Half-duplex and Full-duplex Modes', in plain ASCII form.",
+     "a": "simplex: one way; half-duplex: both ways, one at a time; full-duplex: both ways at once",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.6",
+   "title": "Circuit Switching versus Packet Switching",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Circuit Switching versus Packet Switching' refers to.",
+     "a": "Circuit switching establishes one dedicated path before any data moves, as old telephone calls did; packet switching chops each message into addressed packets that travel independently, possibly by different routes, and are reassembled on arrival.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Circuit Switching versus Packet Switching'.",
+     "a": "A packet has a header with the destination address plus the message part, and the channel frees as soon as the packet passes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Circuit Switching versus Packet Switching', in plain ASCII form.",
+     "a": "circuit: one reserved path; packet: many routes per message",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.7",
+   "title": "Guided and Unguided Transmission Media",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Guided and Unguided Transmission Media' refers to.",
+     "a": "Guided media are physical cables, namely twisted pair, coaxial cable and fibre optic, while unguided media send electromagnetic waves through air, divided into radio waves, microwaves and infrared waves by frequency band.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Guided and Unguided Transmission Media'.",
+     "a": "Radio waves span 3 KHz to 1 GHz and penetrate walls, while microwaves from 1 GHz to 300 GHz need line of sight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Guided and Unguided Transmission Media', in plain ASCII form.",
+     "a": "twisted pair and coax carry electricity; fibre carries light; air carries waves",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs111.8",
+   "title": "Protocols: HTTP, FTP, SMTP and TCP/IP",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protocols: HTTP, FTP, SMTP and TCP/IP' refers to.",
+     "a": "A protocol is the rule book of communication covering flow control, access control and addressing: HTTP serves web pages, FTP moves files between machines, SMTP handles outgoing mail queues, PPP links two devices directly, and TCP/IP breaks data into packets, routes them and reassembles them in order.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protocols: HTTP, FTP, SMTP and TCP/IP'.",
+     "a": "Flow control exists because a 1024 Mbps sender would drown a 512 Mbps receiver without an agreed slow-down.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Protocols: HTTP, FTP, SMTP and TCP/IP', in plain ASCII form.",
+     "a": "sender -> protocol rules -> receiver",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

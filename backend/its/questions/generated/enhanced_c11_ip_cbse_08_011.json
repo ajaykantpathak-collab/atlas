@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_011",
+   "title": "c11_ip_cbse_08_011",
+   "questions": [
+    {
+     "q": "A student says, \"I have nothing to hide, so I don't care about privacy settings on social media.\" What fundamental misunderstanding about privacy does this statement reveal?",
+     "a": "The student conflates privacy with secrecy. Privacy is about **control** over personal information, not about hiding wrongdoing. A wrong answer reveals the misconception that privacy is only for those with something to conceal, ignoring risks like identity theft, profiling, discrimination, and loss of autonomy over how one's data is used by corporations or governments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between an active digital footprint and a passive digital footprint. Give one example of each that a Class 11 student might generate in a single day.",
+     "a": "Active footprint: deliberate, intentional data creation (e.g., posting a photo on Instagram, submitting an online assignment). Passive footprint: automatic, often invisible data collection (e.g., Google Maps logging location history in background, school Wi-Fi recording MAC address and login time). A wrong answer that lists two active actions (posting + commenting) shows failure to grasp the \"without user awareness\" characteristic of passive footprints.",
+     "self_check": true
+    },
+    {
+     "q": "Your school introduces a new app for attendance that requires: name, class, roll number, parent phone number, GPS location at time of marking, and biometric fingerprint scan. Apply the principle of **data minimization** to argue which three fields are excessive and should not be collected.",
+     "a": "Data minimization requires collecting only what is strictly necessary for the stated purpose (attendance). Excessive fields: (1) GPS location — attendance can be verified by classroom Wi-Fi or teacher confirmation; continuous location tracking is disproportionate. (2) Biometric fingerprint — highly sensitive special category data; a simple PIN or ID card scan suffices. (3) Parent phone number — not needed for attendance marking; contact info should be in a separate secured database. A wrong answer that keeps GPS \"for safety\" shows inability to distinguish purpose-specific necessity from feature creep.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the persistence of a digital footprint with a physical footprint in sand. Analyze why the analogy fails in three critical ways for a student's future university admissions and job applications.",
+     "a": "Three failures of the sand analogy: (1) **Erasability**: Sand footprints vanish with tide/wind; digital footprints are replicated across servers, backups, and caches globally — deletion is virtually impossible. (2) **Searchability**: No one catalogs sand footprints; digital footprints are indexed, searchable, and algorithmically correlated across platforms (e.g., a Class 9 meme resurfacing during a job interview). (3) **Context collapse**: Sand footprints have no metadata; digital footprints carry timestamps, geotags, device IDs, and network context, enabling reconstruction of intent and behavior patterns. A wrong answer focusing only on \"digital is longer\" misses the structural differences in replicability and searchability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a website has a privacy policy, my data is protected.\" Defend your position with two specific reasons why a privacy policy alone is insufficient for data protection.",
+     "a": "A privacy policy is a **disclosure document**, not a protection mechanism. Two reasons it's insufficient: (1) **No enforcement guarantee**: Policies often contain clauses like \"we may share data with trusted partners\" or \"we reserve the right to change this policy\" — they describe what *will* happen, not what *won't*. (2) **No technical safeguards**: A policy doesn't encrypt data, prevent breaches, or limit employee access. Real protection requires technical measures (encryption, access controls) and legal accountability (audits, penalties). A wrong answer treating the policy as a shield shows confusion between transparency and security.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Digital Footprint Audit Checklist\" of 5 actionable items a Class 11 student can perform *today* to reduce their passive digital footprint. Each item must be a specific technical action, not generic advice.",
+     "a": "Good checklist: (1) Disable \"Location History\" in Google Account → Data & Privacy → Location History → Turn Off. (2) Clear cookies and site data for all non-essential sites via browser settings (e.g., Chrome: Settings → Privacy → Clear browsing data → Cookies). (3) Revoke unused app permissions: Android Settings → Apps → Permissions → Location/Microphone/Contacts → Deny for apps not used in 30 days. (4) Opt out of ad personalization: Google Ad Settings → Ad Personalization → Off. (5) Use a privacy-focused search engine (DuckDuckGo) as default instead of Google. A poor answer listing \"be careful online\" shows inability to translate concept into technical agency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

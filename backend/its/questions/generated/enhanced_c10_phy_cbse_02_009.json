@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_009",
+   "title": "c10_phy_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the energy conversion that takes place in an electric motor. Name the rule used to find the direction of force on the coil arms.",
+     "a": "An electric motor converts electrical energy into mechanical energy (kinetic energy of rotation). The direction of force on the current-carrying arms of the coil is determined by Fleming's left-hand rule. A wrong answer (e.g., \"mechanical to electrical\" or \"Fleming's right-hand rule\") reveals confusion between a motor and a generator, or between the motor rule and the generator rule — a very common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "In a simple DC motor, the split-ring commutator reverses the current in the coil every half-rotation. Explain WHY this reversal is necessary. What would happen if the commutator were replaced by two complete slip rings (like in an AC generator)?",
+     "a": "The commutator reverses the current in the coil arms precisely when the coil passes through the vertical position (plane parallel to magnetic field). At that instant, the forces on the arms would otherwise reverse direction and try to rotate the coil backwards. By reversing the current simultaneously, the forces on the arms also reverse, so the torque continues in the same direction, giving continuous rotation. If slip rings were used, the current direction would not reverse; the coil would oscillate back and forth (or stop at the vertical position) instead of rotating continuously. A wrong answer indicates the student memorises \"commutator reverses current\" without understanding the torque reversal problem.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular coil of a simple electric motor has 150 turns. Each turn has length 12 cm and breadth 8 cm. The coil carries a current of 1.5 A and is placed in a uniform magnetic field of 0.4 T. When the plane of the coil is parallel to the magnetic field, calculate the magnitude of the force acting on each longer arm of the coil. (Take sin 90° = 1)",
+     "a": "**Given:** N = 150 turns, L (length of longer arm) = 12 cm = 0.12 m, I = 1.5 A, B = 0.4 T, θ = 90° (current perpendicular to field).  \n**Formula:** Force on one arm = N × B × I × L × sinθ  \n**Step 1:** Identify that the longer arms are perpendicular to the field when the coil plane is parallel to the field, so θ = 90°.  \n**Step 2:** Substitute values: F = 150 × 0.4 T × 1.5 A × 0.12 m × 1  \n**Step 3:** Compute: 150 × 0.4 = 60; 60 × 1.5 = 90; 90 × 0.12 = 10.8  \n**Step 4:** Units: T·A·m = (N/(A·m))·A·m = N.  \n**Answer:** Force on each longer arm = 10.8 N.  \nA wrong answer (e.g., using breadth instead of length, or forgetting N) shows the student cannot identify which arms experience force and which are parallel to the field (zero force). This is a classic board exam numerical trap.",
+     "self_check": true
+    },
+    {
+     "q": "The diagram shows a rectangular coil ABCD placed in a magnetic field directed from North to South (left to right). Current enters the coil from a battery via brush X and leaves via brush Y. At the instant shown, the plane of the coil is horizontal. (a) Using Fleming's left-hand rule, state the direction of force on arm AB and on arm CD. (b) Will the coil rotate clockwise or anticlockwise when viewed from the side? (c) After half a rotation, which brush will be in contact with which half of the split ring?",
+     "a": "(a) For arm AB: current flows from A to B (towards the viewer), magnetic field left to right. Fleming's left-hand rule: forefinger (field) left, middle finger (current) out of page → thumb (force) DOWNWARDS. For arm CD: current flows from C to D (away from viewer), field left to right → force UPWARDS.  \n(b) Downward force on AB and upward force on CD produce an anticlockwise torque when viewed from the side (or clockwise from the top).  \n(c) After half rotation, the half-ring that was in contact with brush X will now contact brush Y, and vice versa. This reverses the current in the coil.  \nA wrong answer (e.g., forces both upwards, or wrong rotation direction) reveals the student cannot apply Fleming's left-hand rule in 3D or visualise the commutator action. Board exams often test this exact diagram.",
+     "self_check": true
+    },
+    {
+     "q": "A student builds a simple motor but finds that the coil only vibrates and does not rotate continuously. She checks the battery, magnet, and coil — all are working. She suspects the commutator. Describe TWO specific defects in the split-ring commutator or brush contact that could cause this behaviour. For each defect, explain the physics reason.",
+     "a": "Defect 1: The split rings are not insulated from each other (or the insulation gap is bridged by metal dust). Then the current does not reverse at the vertical position; the coil experiences a torque that reverses every half-turn, causing oscillation.  \nDefect 2: The carbon brushes are not positioned exactly at the neutral plane (where the coil plane is parallel to the field). If they contact the rings too early or too late, the current reverses when the coil arms are not parallel to the field, producing a torque that opposes rotation at some angles.  \nA vague answer like \"commutator is broken\" without specific physics reasoning shows the student cannot connect the commutator's timing to the torque direction — a key evaluative skill for board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a magnet, a few metres of insulated copper wire, and two paper clips to demonstrate the motor principle. Draw a labelled sketch and write the step-by-step procedure. Explain how your setup shows the conversion of electrical energy to mechanical energy and where the \"commutator action\" occurs naturally.",
+     "a": "**Procedure:** (1) Wind the copper wire into a small coil (10-15 turns) leaving two long ends. (2) Scrape off insulation completely from one end; from the other end, scrape only the top half of the insulation (half-stripped). (3) Bend the two paper clips into supports and tape them to the battery terminals. (4) Place the magnet on the battery. (5) Rest the coil ends in the paper clip loops. (6) Give the coil a gentle spin.  \n**Explanation:** The half-stripped end acts as a natural commutator: when the bare copper contacts the paper clip, current flows and the coil experiences a torque (Fleming's left-hand rule). When the insulated half contacts the clip, current stops, and inertia carries the coil through the \"dead\" zone. The coil continues spinning in one direction.  \n**Energy conversion:** Chemical energy (battery) → electrical energy → kinetic energy (rotation).  \nA poor answer that just says \"make a coil and spin it\" without the half-stripping trick shows the student does not understand the need for current reversal (or interruption) to sustain rotation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

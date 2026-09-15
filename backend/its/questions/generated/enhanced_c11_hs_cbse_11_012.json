@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_012",
+   "title": "c11_hs_cbse_11_012",
+   "questions": [
+    {
+     "q": "A student reads that cotton \"can withstand high temperatures, if necessary can be boiled\" and concludes that boiling is the best way to sterilize all cotton garments. State the precise condition from NCERT Table 2 that makes this conclusion dangerous for certain cotton items.",
+     "a": "Correct answer: NCERT Table 2 states cotton \"gets crushed easily, have to be ironed properly to remove wrinkles\" and \"needs to be damp for ironing or may scorch.\" Boiling removes all moisture, causing irreversible scorching and loss of tensile strength when the dry fabric is later handled or ironed. A wrong answer (e.g., \"boiling always sanitizes\") reveals the student treats fibre properties as absolute rather than conditional — ignoring that mechanical action on bone-dry cellulose causes fibre fracture.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same stain removal reagent (e.g., dilute acetic acid) that safely removes a mineral stain from cotton would permanently damage a wool garment, referencing the fibre's chemical nature.",
+     "a": "Correct answer: Cotton is cellulose (polysaccharide) resistant to weak acids but weakened by strong acids; wool is keratin (protein) hydrolyzed by both acids and alkalis. Acetic acid protonates wool's peptide bonds, causing chain scission and irreversible strength loss. A wrong answer (e.g., \"wool is delicate\") reveals the student memorizes \"wool = delicate\" without linking to protein chemistry — missing that the same reagent damages silk (also protein) but not nylon (amide polymer resistant to weak acids).",
+     "self_check": true
+    },
+    {
+     "q": "A white cotton tablecloth has an old turmeric-oil stain (curry). Using only the reagents and methods listed in NCERT Table 1, design a 4-step removal sequence that avoids setting the oil component while bleaching the turmeric. Justify the order.",
+     "a": "Correct sequence: (1) Sponge with grease solvent (petrol/kerosene) to dissolve oil — prevents heat-setting in later steps. (2) Wash with hot soapy water to emulsify residual solvent. (3) Apply starch paste, dry in shade, repeat 2-3 times to absorb last traces of oil. (4) Soak in javelle water (sodium hypochlorite) to oxidize turmeric's chromophore, then wash with soap and water. Wrong order (e.g., bleach first) oxidizes oil to insoluble varnish-like polymers that no solvent can remove — revealing the student doesn't understand that stain components interact chemically during treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drying and ironing requirements of silk and nylon. Identify the one shared precaution and the one critical difference, explaining each at the molecular level.",
+     "a": "Shared precaution: Both must be dried in shade — silk weakens by UV-induced peptide bond cleavage; nylon loses strength via photo-oxidative chain scission of amide linkages. Critical difference: Silk must be ironed damp at low temperature (110°C) because dry heat denatures keratin irreversibly; nylon can be ironed dry at low temperature but melts at 215°C due to thermoplastic polymer flow. A wrong answer (e.g., \"both need low heat\") misses that silk's risk is protein denaturation while nylon's is melting — different mechanisms requiring different moisture management.",
+     "self_check": true
+    },
+    {
+     "q": "A care label shows: \"Hand wash, cold water, mild detergent, dry flat, do not bleach, iron low with steam.\" The garment is a wool-acrylic blend (70% wool, 30% acrylic). Evaluate whether this label correctly addresses the care needs of BOTH fibres. Cite specific property conflicts from Table 2.",
+     "a": "The label is partially correct but incomplete. Correct for wool: cold water, mild detergent (avoids alkali damage), dry flat (prevents stretching), no chlorine bleach (wool damaged by oxidizing bleaches), steam press (avoids direct heat scorching). Conflict for acrylic: \"do not bleach\" is unnecessary — acrylic resists all bleaches per Table 2; \"iron low with steam\" risks melting acrylic's thermoplastic fibres (acrylic catches fire readily and melts). The label follows the \"most delicate fibre\" rule for wool but ignores acrylic's heat sensitivity. A wrong evaluation (e.g., \"label is perfect\") reveals the student applies blanket rules without analysing each fibre's hazard profile in blends.",
+     "self_check": true
+    },
+    {
+     "q": "Design a storage protocol for a mixed wardrobe containing: (a) heavily starched cotton sarees, (b) wool sweaters, (c) silk dupattas, (d) nylon sportswear. Specify humidity, pest control, folding method, and pre-storage treatment for each, justifying from Table 2.",
+     "a": "(a) Cotton sarees: Destarch completely (starch attracts silverfish), store at <60% RH (prevents mildew), fold loosely (avoids permanent creases in cellulose), no naphthalene (cotton not attacked by moths). (b) Wool sweaters: Brush, dry-clean, store at <50% RH with naphthalene balls (protein attracts clothes moths/carpet beetles), fold with acid-free tissue (prevents fibre abrasion), outline traced for reshaping if stretched. (c) Silk dupattas: Dry-clean, air thoroughly (perspiration damages silk), store at <55% RH in dark (UV weakens silk), no naphthalene (carpet beetles eat silk), roll not fold (avoids crease fracture in dry protein). (d) Nylon sportswear: Wash separately (absorbs dirt from other items), store dry at any RH (resists microbes), no sunlight exposure (photo-degradation), hang to avoid creases (thermoplastic sets creases). A poor protocol (e.g., \"store all in plastic bags with mothballs\") traps moisture causing mildew on cotton/rayon, melts nylon with mothball vapours, and ignores silk's light sensitivity — revealing the student treats storage as one-size-fits-all.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

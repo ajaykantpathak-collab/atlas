@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_4",
+   "title": "c8_math_ch2_4",
+   "questions": [
+    {
+     "q": "What is the value of 2⁵? Write it as a multiplication expression first, then give the final number.",
+     "a": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32. A wrong answer like 10 (2×5) reveals the student confuses exponent with multiplication by the exponent. An answer of 25 (5²) shows they swapped base and exponent. An answer of 16 suggests they computed 2⁴ instead, indicating they lost track of the number of factors.",
+     "self_check": true
+    },
+    {
+     "q": "If 2⁶ = 64, what is 2⁷? Explain how you know without multiplying 2 seven times.",
+     "a": "2⁷ = 128 because each increase in exponent doubles the value: 2⁷ = 2 × 2⁶ = 2 × 64 = 128. A wrong answer of 126 or 130 reveals the student doesn't see the doubling relationship and tries to compute from scratch, likely making arithmetic errors. If they say \"I don't know\", they haven't internalized the recursive pattern that powers of 2 build on each other.",
+     "self_check": true
+    },
+    {
+     "q": "A bacteria culture doubles every hour. If there are 32 bacteria at hour 5, how many were there at hour 2? Show your reasoning using powers of 2.",
+     "a": "At hour 5: 32 = 2⁵. Each hour back halves the count (exponent decreases by 1). Hour 4: 2⁴ = 16. Hour 3: 2³ = 8. Hour 2: 2² = 4. So 4 bacteria at hour 2. A wrong answer of 16 (hour 4) shows they only went back one step. An answer of 64 shows they went forward instead of backward. This tests whether they can work backwards using the inverse operation (halving) and connect exponent decrease to division by 2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of 2ⁿ and n² for n = 1 to 6. At which n does 2ⁿ become larger than n² and stay larger? What does this tell you about exponential vs quadratic growth?",
+     "a": "n=1: 2¹=2, 1²=1 → 2ⁿ larger\nn=2: 2²=4, 2²=4 → equal\nn=3: 2³=8, 3²=9 → n² larger\nn=4: 2⁴=16, 4²=16 → equal\nn=5: 2⁵=32, 5²=25 → 2ⁿ larger\nn=6: 2⁶=64, 6²=36 → 2ⁿ larger\nFrom n=5 onward, 2ⁿ > n² and the gap widens rapidly. A wrong answer like \"n=3\" shows they only checked one value and didn't see the crossover. This analyzes the fundamental difference: exponential eventually outpaces polynomial growth, a key concept for later chapters.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: 2⁴ = 2 × 4 = 8. Is this correct? If not, identify the exact error and show the correct working.",
+     "a": "Incorrect. The error is treating the exponent as a multiplier: 2⁴ ≠ 2 × 4. The exponent 4 means four factors of 2, not multiply by 4. Correct: 2⁴ = 2 × 2 × 2 × 2 = 16. If a student defends this, they fundamentally misunderstand exponent notation — they think aⁿ = a × n. This is the most common and dangerous misconception because it persists into algebra (e.g., x² ≠ 2x).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, kilograms, or school scenario) that requires computing 2⁸ to solve. Write the problem and its solution.",
+     "a": "Example problem: \"A video is shared on WhatsApp. Each person who receives it forwards to 2 new people. If the chain starts with 1 person at 9 AM, how many people have received it by 9 AM after 8 rounds of forwarding?\" Solution: Round 0: 1 = 2⁰. Round 1: 2 = 2¹. ... Round 8: 2⁸ = 256 people. A good answer shows the doubling pattern clearly. A poor answer might use addition (1+2+4+...) confusing total recipients with new recipients in that round, or might not reach 256, showing they can't compute 2⁸ fluently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

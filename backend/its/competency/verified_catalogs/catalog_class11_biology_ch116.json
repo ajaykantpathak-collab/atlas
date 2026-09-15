@@ -1,0 +1,679 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 116,
+ "chapter_title": "Excretory Products and Their Elimination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo116.txt",
+ "concepts": [
+  {
+   "id": "kebo.16.1",
+   "title": "Modes of Nitrogenous Excretion",
+   "section": "16",
+   "definition": "The categorization of animals into ammonotelic, ureotelic, or uricotelic using their primary metabolic nitrogenous waste.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Excretion type is an evolutionary adaptation directly linked to habitat water availability.",
+   "textbook_ref": "kebo116.txt lines 15-45",
+   "question_patterns": [
+    "classify animals based on their nitrogenous waste products",
+    "why do aquatic animals tend to be ammonotelic while terrestrial ones are ureotelic or uricotelic",
+    "compare the toxicity and water requirements of ammonia, urea, and uric acid",
+    "identify the mode of excretion in bony fishes, mammals, and birds",
+    "how does modes of nitrogenous excretion work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary nitrogenous waste product",
+     "explain": "Determine if the animal excretes ammonia, urea, or uric acid based on its metabolic pathways."
+    },
+    {
+     "step": 2,
+     "action": "Correlate with water availability",
+     "explain": "Ammonia requires high water volume, urea requires moderate volume, and uric acid is excreted with minimal water loss."
+    },
+    {
+     "step": 3,
+     "action": "Classify the excretion mode",
+     "explain": "Label the animal as ammonotelic, ureotelic, or uricotelic accordingly."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.2",
+   "title": "Excretory Organs across Animal Taxa",
+   "section": "16",
+   "definition": "The evolutionary spectrum of waste-filtering structures across invertebrates and vertebrates, from flame cells to kidneys.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Diverse animal groups utilize specialized tubular or glandular organs to maintain both osmotic and ionic balance.",
+   "textbook_ref": "kebo116.txt lines 46-65",
+   "question_patterns": [
+    "what are the excretory structures of flatworms, earthworms, and cockroaches",
+    "match the animal group with its respective excretory organ",
+    "explain the function of green glands in crustaceans",
+    "which organisms use protonephridia for osmoregulation",
+    "why is excretory organs across animal taxa important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organism or taxon",
+     "explain": "Determine the taxonomic group of the animal in question."
+    },
+    {
+     "step": 2,
+     "action": "Map to the corresponding excretory structure",
+     "explain": "Associate the taxon with its specific organ (e.g., protonephridia for flatworms, nephridia for annelids, Malpighian tubules for insects, green glands for crustaceans, kidneys for vertebrates)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the organ matches the animal's habitat and osmoregulatory needs",
+     "explain": "Confirm the excretory organ aligns with the animal's environment, since aquatic forms use water-flushing structures while terrestrial forms conserve water through specialized tubular reabsorption."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.3",
+   "title": "Anatomy of the Human Kidney",
+   "section": "16.1",
+   "definition": "The macro-structural organization of the human kidney, highlighting its zones, dimensions, and internal pathways.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Bean-shaped organs situated retroperitoneally, featuring an outer cortex, inner medullary pyramids, and a central pelvis.",
+   "textbook_ref": "kebo116.txt lines 66-105",
+   "question_patterns": [
+    "describe the internal structure of a human kidney",
+    "what are the columns of Bertini",
+    "what are the dimensions and average weight of an adult human kidney",
+    "explain the path of urine from the renal pyramids to the ureter",
+    "give one everyday example of anatomy of the human kidney"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the anatomical region of the kidney",
+     "explain": "Locate the structure relative to the outer cortex, inner medulla, or central hilum."
+    },
+    {
+     "step": 2,
+     "action": "Verify its structural role",
+     "explain": "Determine how the structure contributes to the kidney's overall anatomy (e.g., columns of Bertini extending between medullary pyramids)."
+    },
+    {
+     "step": 3,
+     "action": "Trace the path of urine from renal pyramids to the ureter",
+     "explain": "Filtrate drains from the renal pyramids into the renal pelvis and exits via the ureter to the bladder, confirming the kidney's role as a filtering and drainage organ."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.4",
+   "title": "Structure of the Nephron",
+   "section": "16.1",
+   "definition": "The microscopic structural and functional unit of the kidney, consisting of a filtration corpuscle and a specialized tubular system.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Nephrons are classified into cortical and juxtamedullary types using their medullary depth and loop length.",
+   "textbook_ref": "kebo116.txt lines 106-145",
+   "question_patterns": [
+    "distinguish between cortical and juxtamedullary nephrons",
+    "what are the components of the Malpighian corpuscle",
+    "describe the path of filtrate through a single nephron",
+    "what is the vasa recta and where is it found",
+    "list the main features of structure of the nephron"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific segment of the nephron",
+     "explain": "Determine if the question refers to the glomerulus, Bowman's capsule, PCT, Henle's loop, DCT, or collecting duct."
+    },
+    {
+     "step": 2,
+     "action": "Classify the nephron type",
+     "explain": "Determine if the nephron is cortical or juxtamedullary based on the length of the loop of Henle and presence of vasa recta."
+    },
+    {
+     "step": 3,
+     "action": "Trace the path of filtrate through the nephron",
+     "explain": "Follow filtrate from the glomerulus into Bowman's capsule, through the PCT, loop of Henle, DCT, and collecting duct, confirming the sequential processing that produces urine."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.5",
+   "title": "Glomerular Filtration Rate and Daily Filtrate",
+   "section": "16.2",
+   "definition": "The rate of fluid filtration across the glomerular membrane into Bowman's capsule, determining daily filtrate volume.",
+   "formula": "daily_filtrate = gfr_per_minute * 1.44",
+   "key_idea": "High-pressure ultrafiltration produces a massive daily volume of filtrate compared to final urine output.",
+   "textbook_ref": "kebo116.txt lines 146-185",
+   "question_patterns": [
+    "calculate the total daily glomerular filtrate volume given the GFR",
+    "what is the normal GFR of a healthy individual in ml/min and liters/day",
+    "how much blood is filtered by the kidneys per minute relative to cardiac output",
+    "find the daily filtrate volume if GFR increases or decreases",
+    "work out the value using glomerular filtration rate and daily filtrate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the daily filtrate volume",
+     "explain": "Multiply the GFR per minute by 1440 minutes in a day and divide by 1000 to convert milliliters to liters.",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given GFR value into the formula",
+     "explain": "Insert the provided glomerular filtration rate into the daily filtrate formula to obtain the total volume filtered in one day.",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the final daily filtrate volume",
+     "explain": "Perform the multiplication and express the result in liters per day to quantify the total glomerular filtrate produced by the kidneys.",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.6",
+   "title": "Renal Reabsorption Rate",
+   "section": "16.2",
+   "definition": "The process and efficiency of reclaiming water and essential solutes from the glomerular filtrate back into systemic circulation.",
+   "formula": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
+   "key_idea": "Nearly ninety-nine percent of the initial filtrate is actively or passively reabsorbed by the renal tubules.",
+   "textbook_ref": "kebo116.txt lines 186-210",
+   "question_patterns": [
+    "calculate the percentage of filtrate reabsorbed given the daily filtrate and urine volumes",
+    "how much of the 180 liters of daily filtrate is reabsorbed if 1.5 liters of urine is produced",
+    "find the reabsorption rate of water in the renal tubules",
+    "find the required value in a renal reabsorption rate problem",
+    "solve a numerical on renal reabsorption rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the volume of filtrate reabsorbed",
+     "explain": "Subtract the daily urine volume from the total daily filtrate volume.",
+     "compute": "reabsorbed_volume = filtrate_volume - urine_volume"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the reabsorption percentage",
+     "explain": "Divide the reabsorbed volume by the total filtrate volume and multiply by 100.",
+     "compute": "reabsorption_percent = (reabsorbed_volume / filtrate_volume) * 100"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the final reabsorption percentage",
+     "explain": "Perform the division and multiplication to express the result as a percentage, confirming that nearly 99% of the filtrate is reabsorbed by the renal tubules.",
+     "compute": "reabsorption_percent = (reabsorbed_volume / filtrate_volume) * 100"
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.7",
+   "title": "Function of Renal Tubules",
+   "section": "16.3",
+   "definition": "The segment-specific transport activities of the nephron tubules that regulate pH, osmolarity, and electrolyte balance.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "PCT handles bulk reabsorption, Henle's loop establishes medullary gradients, and DCT/collecting duct perform fine-tuning.",
+   "textbook_ref": "kebo116.txt lines 211-255",
+   "question_patterns": [
+    "explain the role of the proximal convoluted tubule in reabsorption",
+    "which segment of the nephron is impermeable to water but permeable to electrolytes",
+    "what are the transport properties of the descending and ascending limbs of Henle's loop",
+    "where does conditional reabsorption of sodium and water occur",
+    "how does function of renal tubules work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific segment of the renal tubule",
+     "explain": "Determine if the question refers to the PCT, descending limb, ascending limb, DCT, or collecting duct."
+    },
+    {
+     "step": 2,
+     "action": "Recall its permeability characteristics",
+     "explain": "Assess whether the segment is permeable or impermeable to water and electrolytes."
+    },
+    {
+     "step": 3,
+     "action": "Determine the primary transport activity",
+     "explain": "Identify whether active/passive reabsorption or selective secretion of ions occurs in this segment."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.8",
+   "title": "Counter-Current Mechanism and Urine Concentration",
+   "section": "16.4",
+   "definition": "The physiological process utilizing parallel, opposite-flowing loops of Henle and vasa recta to establish a hypertonic medullary gradient.",
+   "formula": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
+   "key_idea": "A steep osmotic gradient from cortex to medulla enables passive water reclamation, concentrating urine up to four-fold.",
+   "textbook_ref": "kebo116.txt lines 256-295",
+   "question_patterns": [
+    "calculate the concentration factor of human urine relative to the initial filtrate",
+    "explain how the counter-current mechanism concentrates the filtrate",
+    "what is the osmolarity of the medullary interstitium in the inner medulla compared to the cortex",
+    "how many times can human kidneys concentrate the initial filtrate",
+    "work out the value using counter-current mechanism and urine concentration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the concentration factor",
+     "explain": "Divide the maximum osmolarity of the medullary interstitium by the cortical osmolarity.",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given osmolarity values into the formula",
+     "explain": "Insert the provided cortical and medullary osmolarity values into the concentration factor formula to determine the medullary gradient strength.",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the final concentration factor",
+     "explain": "Perform the division to express how many times the kidneys can concentrate the initial filtrate, confirming the counter-current mechanism's efficiency.",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.9",
+   "title": "Hormonal Regulation of Kidney Function",
+   "section": "16.5",
+   "definition": "The endocrine feedback loops involving ADH, the renin-angiotensin-aldosterone system, and ANF that monitor and adjust renal performance.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Antagonistic and synergistic hormonal pathways regulate blood volume, pressure, and GFR.",
+   "textbook_ref": "kebo116.txt lines 296-335",
+   "question_patterns": [
+    "explain the renin-angiotensin-aldosterone mechanism",
+    "how does ADH regulate water reabsorption in the kidneys",
+    "what is the role of Atrial Natriuretic Factor (ANF) in kidney regulation",
+    "how does a fall in GFR trigger the release of renin",
+    "how does hormonal regulation of kidney function work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the physiological trigger",
+     "explain": "Determine if the system is responding to dehydration, low blood pressure, or high blood volume."
+    },
+    {
+     "step": 2,
+     "action": "Determine the hormone released",
+     "explain": "Identify whether ADH, renin/angiotensin/aldosterone, or ANF is activated."
+    },
+    {
+     "step": 3,
+     "action": "Trace the physiological effect",
+     "explain": "Determine how the hormone affects blood vessels, GFR, and tubular reabsorption to restore homeostasis."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.10",
+   "title": "Micturition and Urine Characteristics",
+   "section": "16.6",
+   "definition": "The neural reflex controlling bladder emptying, alongside the diagnostic physical and chemical properties of excreted urine.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Bladder wall stretching triggers a coordinated autonomic reflex to release slightly acidic, urea-rich urine.",
+   "textbook_ref": "kebo116.txt lines 336-360",
+   "question_patterns": [
+    "describe the micturition reflex",
+    "what are the typical characteristics of normal human urine",
+    "what do glycosuria and ketonuria indicate",
+    "how much urea is excreted by an adult human daily",
+    "explain micturition and urine characteristics in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stimulus and reflex pathway",
+     "explain": "Recognize that stretching of the bladder wall sends sensory signals to the CNS, which responds with motor signals to contract smooth muscles and relax the sphincter."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the physical and chemical properties of urine",
+     "explain": "Recall that normal urine is slightly acidic (pH 6.0), light yellow, and contains 25-30 g of urea per day."
+    },
+    {
+     "step": 3,
+     "action": "Verify abnormal urine composition indicates metabolic disorders",
+     "explain": "Glycosuria reveals excess glucose from diabetes while ketonuria indicates fat breakdown, confirming that urine analysis serves as a diagnostic indicator of metabolic health."
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.11",
+   "title": "Lungs, Liver, and Skin in Excretion",
+   "section": "16.7",
+   "definition": "The contribution of accessory organs to the elimination of metabolic wastes like carbon dioxide, bile pigments, and sweat.",
+   "formula": "daily_co2_elimination = co2_rate_per_minute * 1.44",
+   "key_idea": "Non-renal organs assist in homeostatic waste removal, including significant daily carbon dioxide and water loss.",
+   "textbook_ref": "kebo116.txt lines 361-385",
+   "question_patterns": [
+    "calculate the total volume of carbon dioxide removed by the lungs in a day",
+    "what substances are excreted by the liver and skin",
+    "describe the excretory function of sweat and sebaceous glands",
+    "how much CO2 do human lungs eliminate per minute",
+    "work out the value using lungs, liver, and skin in excretion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the daily carbon dioxide elimination",
+     "explain": "Multiply the rate of CO2 elimination per minute by 1440 minutes in a day and divide by 1000 to convert to liters.",
+     "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given CO2 rate into the formula",
+     "explain": "Insert the provided carbon dioxide elimination rate per minute into the daily elimination formula to obtain the total volume removed by the lungs in a day.",
+     "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the final daily CO2 elimination volume",
+     "explain": "Perform the multiplication and express the result in liters per day to quantify the lungs' contribution to metabolic waste removal.",
+     "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.12",
+   "title": "Disorders of the Urinary System",
+   "section": "16.8",
+   "definition": "Pathological conditions resulting from renal dysfunction, including uremia, calculi, and glomerulonephritis, and their clinical management.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Kidney failure requires artificial blood filtration via hemodialysis or surgical transplantation to sustain life.",
+   "textbook_ref": "kebo116.txt lines 386-420",
+   "question_patterns": [
+    "what is uremia and how is it treated",
+    "explain the principle of hemodialysis",
+    "define renal calculi and glomerulonephritis",
+    "why is a close relative preferred as a kidney donor",
+    "how does disorders of the urinary system work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the clinical disorder or treatment procedure",
+     "explain": "Determine if the question refers to uremia, hemodialysis, renal calculi, or glomerulonephritis."
+    },
+    {
+     "step": 2,
+     "action": "Recall the underlying cause or mechanism",
+     "explain": "Explain the accumulation of urea, crystallization of oxalates, inflammation of glomeruli, or the concentration-gradient-driven filtration of blood during dialysis."
+    },
+    {
+     "step": 3,
+     "action": "Verify the clinical management restores renal function",
+     "explain": "Confirm that hemodialysis artificially filters blood across a concentration gradient or that kidney transplantation replaces failed function, validating the treatment approach for urinary system disorders."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo116.txt lines 170-175",
+   "concept": "kebo.16.5",
+   "question_type": "compute",
+   "question_pattern": "A patient has a measured glomerular filtration rate of {gfr_per_minute} ml/min. What is the total volume of filtrate formed by their kidneys in one day?",
+   "extracted_variables": {
+    "gfr_per_minute": "glomerular filtration rate in ml/min"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the daily filtrate volume",
+     "explain": "Multiply the GFR per minute by 1440 minutes in a day and divide by 1000 to convert milliliters to liters.",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo116.txt lines 185-195",
+   "concept": "kebo.16.6",
+   "question_type": "compute",
+   "question_pattern": "If the kidneys of an individual produce {filtrate_volume} liters of filtrate in a day and only {urine_volume} liters are excreted as urine, calculate the percentage of the filtrate that is reabsorbed.",
+   "extracted_variables": {
+    "filtrate_volume": "daily filtrate in liters",
+    "urine_volume": "daily urine in liters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the volume of filtrate reabsorbed",
+     "explain": "Subtract the daily urine volume from the total daily filtrate volume.",
+     "compute": "reabsorbed_volume = filtrate_volume - urine_volume"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the reabsorption percentage",
+     "explain": "Divide the reabsorbed volume by the total filtrate volume and multiply by 100.",
+     "compute": "reabsorption_percent = (reabsorbed_volume / filtrate_volume) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo116.txt lines 260-270",
+   "concept": "kebo.16.8",
+   "question_type": "compute",
+   "question_pattern": "Given that the osmolarity of the renal cortex is {cortical_osmolarity} mOsmol/L and the maximum osmolarity in the inner medulla is {medullary_osmolarity} mOsmol/L, find the concentration factor of the medullary gradient.",
+   "extracted_variables": {
+    "cortical_osmolarity": "osmolarity of the cortex",
+    "medullary_osmolarity": "osmolarity of the inner medulla"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the concentration factor",
+     "explain": "Divide the maximum osmolarity of the medullary interstitium by the cortical osmolarity.",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo116.txt lines 146-185",
+   "concept": "kebo.16.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute glomerular filtration rate and daily filtrate step by step",
+   "extracted_variables": {
+    "gfr_per_minute": "value of gfr_per_minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the daily filtrate volume",
+     "explain": "Multiply the GFR per minute by 1440 minutes in a day and divide by 1000 to convert milliliters to liters.",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kebo116.txt lines 186-210",
+   "concept": "kebo.16.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute renal reabsorption rate step by step",
+   "extracted_variables": {
+    "filtrate_volume": "value of filtrate_volume",
+    "urine_volume": "value of urine_volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the volume of filtrate reabsorbed",
+     "explain": "Subtract the daily urine volume from the total daily filtrate volume.",
+     "compute": "reabsorbed_volume = filtrate_volume - urine_volume"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the reabsorption percentage",
+     "explain": "Divide the reabsorbed volume by the total filtrate volume and multiply by 100.",
+     "compute": "reabsorption_percent = (reabsorbed_volume / filtrate_volume) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kebo116.txt lines 256-295",
+   "concept": "kebo.16.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute counter-current mechanism and urine concentration step by step",
+   "extracted_variables": {
+    "medullary_osmolarity": "value of medullary_osmolarity",
+    "cortical_osmolarity": "value of cortical_osmolarity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the concentration factor",
+     "explain": "Divide the maximum osmolarity of the medullary interstitium by the cortical osmolarity.",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "kebo116.txt lines 361-385",
+   "concept": "kebo.16.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute lungs, liver, and skin in excretion step by step",
+   "extracted_variables": {
+    "co2_rate_per_minute": "value of co2_rate_per_minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the daily carbon dioxide elimination",
+     "explain": "Multiply the rate of CO2 elimination per minute by 1440 minutes in a day and divide by 1000 to convert to liters.",
+     "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "kebo116.txt lines 361-385",
+   "concept": "kebo.16.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute lungs, liver, and skin in excretion step by step",
+   "extracted_variables": {
+    "co2_rate_per_minute": "value of co2_rate_per_minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the daily carbon dioxide elimination",
+     "explain": "Multiply the rate of CO2 elimination per minute by 1440 minutes in a day and divide by 1000 to convert to liters.",
+     "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo116.txt lines 421-422",
+   "questions": [
+    "Define Glomerular Filtration Rate (GFR)"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo116.txt lines 423-424",
+   "questions": [
+    "Explain the autoregulatory mechanism of GFR."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo116.txt lines 425-431",
+   "questions": [
+    "Indicate whether the following statements are true or false : (a) Micturition is carried out by a reflex. (b) ADH helps in water elimination, making the urine hypotonic. (c) Protein-free fluid is filtered from blood plasma into the Bowman’s capsule. (d) Henle’s loop plays an important role in concentrating the urine. (e) Glucose is actively reabsorbed in the proximal convoluted tubule."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kebo116.txt lines 432-433",
+   "questions": [
+    "Give a brief account of the counter current mechanism."
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kebo116.txt lines 434-435",
+   "questions": [
+    "Describe the role of liver, lungs and skin in excretion."
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kebo116.txt lines 436-437",
+   "questions": [
+    "Explain micturition."
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "kebo116.txt lines 438-445",
+   "questions": [
+    "Match the items of column I with those of column II : Column I: (a) Ammonotelism, (b) Bowman’s capsule, (c) Micturition, (d) Uricotelism, (e) ADH. Column II: (i) Birds, (ii) Water reabsorption, (iii) Bony fish, (iv) Urinary bladder, (v) Renal tubule"
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "kebo116.txt lines 446-447",
+   "questions": [
+    "What is meant by the term osmoregulation?"
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "kebo116.txt lines 448-449",
+   "questions": [
+    "Terrestrial animals are generally either ureotelic or uricotelic, not ammonotelic, why ?"
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "kebo116.txt lines 450-451",
+   "questions": [
+    "What is the significance of juxta glomerular apparatus (JGA) in kidney function?"
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "kebo116.txt lines 452-456",
+   "questions": [
+    "Name the following: (a) A chordate animal having flame cells as excretory structures (b) Cortical portions projecting between the medullary pyramids in the human kidney (c) A loop of capillary running parallel to the Henle’s loop."
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "kebo116.txt lines 457-463",
+   "questions": [
+    "Fill in the gaps: (a) Ascending limb of Henle’s loop is _______ to water whereas the descending limb is _______ to it. (b) Reabsorption of water from distal parts of the tubules is facilitated by hormone _______. (c) Dialysis fluid contain all the constituents as in plasma except _______. (d) A healthy adult human excretes (on an average) _______ gm of urea/day."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

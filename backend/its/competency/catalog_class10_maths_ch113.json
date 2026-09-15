@@ -1,0 +1,399 @@
+{
+ "catalog_id": "class10_maths_ch113",
+ "subject": "maths",
+ "class": 10,
+ "chapter": 113,
+ "chapter_title": "Statistics",
+ "concepts": [
+  {
+   "id": "jemh.13.1",
+   "title": "Mean of Grouped Data - Direct Method",
+   "section": "Mean of grouped data",
+   "definition": "The mean of grouped data by the direct method is found by summing the products of class marks and their corresponding frequencies, divided by the total frequency. Each observation is represented by its class mark (midpoint of the class interval).",
+   "formula": "mean = sum(f_i * x_i) / sum(f_i), where x_i is the class mark and f_i is the frequency of the i-th class.",
+   "key_idea": "Replace each class interval by its midpoint (class mark) x_i = (lower limit + upper limit) / 2, multiply by frequency f_i, add all products, and divide by the total number of observations N = sum(f_i).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the mean of the following grouped frequency distribution by the direct method.",
+    "Calculate the mean daily wages of workers from the given frequency distribution table using the direct method.",
+    "The table below shows the marks obtained by students. Find the mean marks using the direct method.",
+    "Compute the mean of the given grouped data using the direct method.",
+    "Determine the mean of the following frequency distribution by direct method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Class marks times frequencies",
+     "explain": "For every class take x_i = (lower + upper)/2 and form f_i x_i."
+    },
+    {
+     "step": 2,
+     "action": "Total the columns",
+     "explain": "Add all products and all frequencies."
+    },
+    {
+     "step": 3,
+     "action": "Divide",
+     "explain": "mean = (sum of f_i x_i) / (sum of f_i).",
+     "compute": "mean = sum_fx / sum_f"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mean of the following distribution: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=15), 30-40 (f=12), 40-50 (f=10).",
+     "solution": "Class marks: 5, 15, 25, 35, 45. Products f*x: 5*5=25, 8*15=120, 15*25=375, 12*35=420, 10*45=450. Sum(f*x)=25+120+375+420+450=1390. Sum(f)=5+8+15+12+10=50. Mean=1390/50=27.8.",
+     "answer": "Mean = 27.8"
+    },
+    {
+     "question": "Calculate the mean of: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=10), 40-50 (f=5).",
+     "solution": "Class marks: 15, 25, 35, 45. Products: 3*15=45, 7*25=175, 10*35=350, 5*45=225. Sum(f*x)=45+175+350+225=795. Sum(f)=3+7+10+5=25. Mean=795/25=31.8.",
+     "answer": "Mean = 31.8"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the mean of the following distribution by the direct method: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8).",
+     "type": "compute"
+    },
+    {
+     "question": "The following data gives the number of children in 50 families. Find the mean number of children: 0-1 (f=5), 1-2 (f=12), 2-3 (f=18), 3-4 (f=10), 4-5 (f=5).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.2",
+   "title": "Mean of Grouped Data - Assumed Mean Method",
+   "section": "Mean of grouped data",
+   "definition": "The assumed mean method simplifies the calculation of the mean of grouped data by choosing a convenient class mark as the assumed mean (a), computing deviations d_i = x_i - a, and finding the mean as a plus the ratio of sum of f_i*d_i to sum of f_i.",
+   "formula": "mean = a + sum(f_i * d_i) / sum(f_i), where a is the assumed mean and d_i = x_i - a.",
+   "key_idea": "Choose a class mark near the middle of the distribution as the assumed mean a. Deviations d_i = x_i - a are smaller numbers, reducing computational effort while giving the same result as the direct method.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the mean of the following grouped data using the assumed mean method.",
+    "Calculate the mean of the given frequency distribution by the assumed mean method taking a as the assumed mean.",
+    "Using the assumed mean method, find the mean marks of students from the given table.",
+    "Compute the mean of the following distribution using the step of assumed mean a.",
+    "Determine the mean daily income from the data using the assumed mean method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Deviations from the assumed mean",
+     "explain": "Pick a, form d_i = x_i - a and multiply by f_i."
+    },
+    {
+     "step": 2,
+     "action": "Add the mean back",
+     "explain": "mean = a + (sum f_i d_i)/(sum f_i).",
+     "compute": "mean = a + sum_fd / sum_f"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mean using the assumed mean method: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=15), 30-40 (f=12), 40-50 (f=10). Take a = 25.",
+     "solution": "Class marks: 5, 15, 25, 35, 45. Deviations d=x-a: -20, -10, 0, 10, 20. Products f*d: 5*(-20)=-100, 8*(-10)=-80, 15*0=0, 12*10=120, 10*20=200. Sum(f*d)=-100-80+0+120+200=140. Sum(f)=50. Mean=25+140/50=25+2.8=27.8.",
+     "answer": "Mean = 27.8"
+    },
+    {
+     "question": "Calculate the mean by assumed mean method: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=10), 40-50 (f=5). Take a = 35.",
+     "solution": "Class marks: 15, 25, 35, 45. Deviations: -20, -10, 0, 10. Products f*d: 3*(-20)=-60, 7*(-10)=-70, 10*0=0, 5*10=50. Sum(f*d)=-60-70+0+50=-80. Sum(f)=25. Mean=35+(-80)/25=35-3.2=31.8.",
+     "answer": "Mean = 31.8"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the mean of the following distribution using the assumed mean method: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8). Take a = 50.",
+     "type": "compute"
+    },
+    {
+     "question": "Using the assumed mean method with a = 35, find the mean of: Class 10-30 (f=4), 30-50 (f=9), 50-70 (f=11), 70-90 (f=6).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.3",
+   "title": "Mean of Grouped Data - Step Deviation Method",
+   "section": "Mean of grouped data",
+   "definition": "The step deviation method further simplifies the assumed mean method by dividing the deviations by a common class width h. The scaled deviations u_i = (x_i - a) / h are used, and the mean is found as a plus h times the ratio of sum of f_i*u_i to sum of f_i.",
+   "formula": "mean = a + h * sum(f_i * u_i) / sum(f_i), where u_i = (x_i - a) / h and h is the class width.",
+   "key_idea": "When all class intervals are of equal width h, dividing deviations by h gives small integer values u_i = -3, -2, -1, 0, 1, 2, 3, making the arithmetic extremely simple.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the mean of the following grouped data using the step deviation method.",
+    "Calculate the mean of the given frequency distribution by the step deviation method with class width h.",
+    "Using the step deviation method, find the mean from the given table.",
+    "Compute the mean of the following data using step deviation method taking a and h.",
+    "Determine the mean of the distribution by the step deviation method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Step deviations",
+     "explain": "With u_i = (x_i - a)/h, form the products f_i u_i and add them."
+    },
+    {
+     "step": 2,
+     "action": "Scale back",
+     "explain": "mean = a + h x (sum f_i u_i)/(sum f_i).",
+     "compute": "mean = a + h * sum_fu / sum_f"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mean using the step deviation method: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=15), 30-40 (f=12), 40-50 (f=10). Take a = 25, h = 10.",
+     "solution": "Class marks: 5, 15, 25, 35, 45. u_i = (x_i - 25)/10: -2, -1, 0, 1, 2. Products f*u: 5*(-2)=-10, 8*(-1)=-8, 15*0=0, 12*1=12, 10*2=20. Sum(f*u)=-10-8+0+12+20=14. Sum(f)=50. Mean=25+10*(14/50)=25+10*0.28=25+2.8=27.8.",
+     "answer": "Mean = 27.8"
+    },
+    {
+     "question": "Calculate the mean by step deviation method: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=10), 40-50 (f=5). Take a = 35, h = 10.",
+     "solution": "Class marks: 15, 25, 35, 45. u_i = (x_i - 35)/10: -2, -1, 0, 1. Products f*u: 3*(-2)=-6, 7*(-1)=-7, 10*0=0, 5*1=5. Sum(f*u)=-6-7+0+5=-8. Sum(f)=25. Mean=35+10*(-8/25)=35+10*(-0.32)=35-3.2=31.8.",
+     "answer": "Mean = 31.8"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the mean using the step deviation method: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8). Take a = 50, h = 20.",
+     "type": "compute"
+    },
+    {
+     "question": "Using the step deviation method with a = 40 and h = 20, find the mean of: Class 0-20 (f=5), 20-40 (f=8), 40-60 (f=12), 60-80 (f=7).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.4",
+   "title": "Mode of Grouped Data",
+   "section": "Mode of grouped data",
+   "definition": "The mode of grouped data is the value within the modal class (the class with the highest frequency) that occurs most frequently. It is estimated using a formula that involves the lower limit of the modal class, the frequencies of the modal class and its adjacent classes, and the class width.",
+   "formula": "mode = l + ((f1 - f0) / (2*f1 - f0 - f2)) * h, where l is the lower limit of the modal class, f1 is the frequency of the modal class, f0 is the frequency of the class preceding the modal class, f2 is the frequency of the class succeeding the modal class, and h is the class width.",
+   "key_idea": "Identify the modal class as the one with the maximum frequency. The mode lies within this class and is adjusted toward the side of the neighboring class with the larger frequency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the mode of the following grouped frequency distribution.",
+    "Calculate the mode of the given data from the frequency table.",
+    "Determine the modal value of the following distribution.",
+    "Find the mode of the marks obtained by students from the given grouped data.",
+    "Compute the mode of the following frequency distribution and state the modal class."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the modal class",
+     "explain": "Note l, the modal frequency f1, the neighbours f0 and f2, and the width h."
+    },
+    {
+     "step": 2,
+     "action": "Guard the denominator",
+     "explain": "For a genuine modal class 2 f1 - f0 - f2 is a positive integer.",
+     "compute": "denominator = max(2 * f1 - f0 - f2, 1)"
+    },
+    {
+     "step": 3,
+     "action": "Apply the mode formula",
+     "explain": "mode = l + ((f1 - f0)/denominator) x h.",
+     "compute": "mode = l + ((f1 - f0) / denominator) * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mode of: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=20), 30-40 (f=12), 40-50 (f=10).",
+     "solution": "Modal class = 20-30 (highest frequency f1=20). l=20, f1=20, f0=8, f2=12, h=10. Mode=20+((20-8)/(2*20-8-12))*10=20+(12/(40-8-12))*10=20+(12/20)*10=20+6=26.",
+     "answer": "Mode = 26"
+    },
+    {
+     "question": "Calculate the mode of: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=15), 40-50 (f=5).",
+     "solution": "Modal class = 30-40 (highest frequency f1=15). l=30, f1=15, f0=7, f2=5, h=10. Mode=30+((15-7)/(2*15-7-5))*10=30+(8/(30-7-5))*10=30+(8/18)*10=30+4.44=34.44.",
+     "answer": "Mode = 34.44 (approx)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the mode of the following distribution: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8).",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the mode of: Class 5-10 (f=4), 10-15 (f=10), 15-20 (f=18), 20-25 (f=9), 25-30 (f=6).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.5",
+   "title": "Median of Grouped Data",
+   "section": "Median of grouped data",
+   "definition": "The median of grouped data is the value that divides the entire distribution into two equal parts. It is found within the median class (the class where the cumulative frequency first reaches or exceeds N/2) using a formula involving the lower limit, cumulative frequency before the median class, frequency of the median class, and class width.",
+   "formula": "median = l + ((N/2 - cf) / f) * h, where l is the lower limit of the median class, N is the total frequency, cf is the cumulative frequency of the class preceding the median class, f is the frequency of the median class, and h is the class width.",
+   "key_idea": "First compute cumulative frequencies to locate the median class where cumulative frequency first reaches or exceeds N/2. The median is interpolated within this class based on how far into the class the N/2-th observation falls.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the median of the following grouped frequency distribution.",
+    "Calculate the median of the given data from the frequency table.",
+    "Determine the median value of the following distribution.",
+    "Find the median marks of students from the given grouped data.",
+    "Compute the median of the following frequency distribution and state the median class."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the median class",
+     "explain": "From cumulative frequencies find the class holding the (N/2)-th value; note l, cf, f and h."
+    },
+    {
+     "step": 2,
+     "action": "Half of the total frequency",
+     "explain": "n_by2 = N / 2.",
+     "compute": "n_by2 = n / 2"
+    },
+    {
+     "step": 3,
+     "action": "Apply the median formula",
+     "explain": "median = l + ((N/2 - cf)/f) x h.",
+     "compute": "median = l + ((n_by2 - cf) / f) * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the median of: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=15), 30-40 (f=12), 40-50 (f=10).",
+     "solution": "N=5+8+15+12+10=50. N/2=25. Cumulative frequencies: 5, 13, 28, 40, 50. Median class = 20-30 (cf first >= 25). l=20, cf=13, f=15, h=10. Median=20+((25-13)/15)*10=20+(12/15)*10=20+8=28.",
+     "answer": "Median = 28"
+    },
+    {
+     "question": "Calculate the median of: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=10), 40-50 (f=5).",
+     "solution": "N=3+7+10+5=25. N/2=12.5. Cumulative frequencies: 3, 10, 20, 25. Median class = 30-40 (cf first >= 12.5). l=30, cf=10, f=10, h=10. Median=30+((12.5-10)/10)*10=30+(2.5/10)*10=30+2.5=32.5.",
+     "answer": "Median = 32.5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the median of the following distribution: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8).",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the median of: Class 5-10 (f=4), 10-15 (f=10), 15-20 (f=18), 20-25 (f=9), 25-30 (f=6).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.6",
+   "title": "Cumulative Frequency Curve (Ogive)",
+   "section": "Graphical representation of cumulative frequency",
+   "definition": "An ogive is a graphical representation of cumulative frequency distribution. The less than ogive plots upper class limits against cumulative frequencies, and the more than ogive plots lower class limits against cumulative frequencies. The x-coordinate of the intersection point of the two ogives gives the median of the data.",
+   "formula": "Less than ogive: plot points (upper limit, cumulative frequency). More than ogive: plot points (lower limit, cumulative frequency). Median = x-coordinate of intersection of the two ogives.",
+   "key_idea": "Cumulative frequency is the running total of frequencies. The less than ogive rises from left to right while the more than ogive falls. Their intersection gives the median graphically.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Draw a less than ogive for the given frequency distribution and find the median from the graph.",
+    "Draw both less than and more than ogives for the given data and find the median from their point of intersection.",
+    "Plot the cumulative frequency curve (less than type) and estimate the median.",
+    "From the given ogive, find the median and verify it using the formula.",
+    "Construct a more than ogive for the following distribution and use it to find the median."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Plot the points",
+     "explain": "Less-than ogive: (upper limit, cf). More-than ogive: (lower limit, cf)."
+    },
+    {
+     "step": 2,
+     "action": "Join smoothly",
+     "explain": "Connect the points with a smooth free-hand curve."
+    },
+    {
+     "step": 3,
+     "action": "Read the median",
+     "explain": "Take the x-coordinate at N/2 on the y-axis, or of the crossing of the two ogives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Draw a less than ogive for: Class 0-10 (f=5), 10-20 (f=8), 20-30 (f=15), 30-40 (f=12), 40-50 (f=10) and find the median.",
+     "solution": "N=50, N/2=25. Less than cumulative frequency points: (10,5), (20,13), (30,28), (40,40), (50,50). Plot and join smoothly. From y=25, draw horizontal to the curve, drop to x-axis. Reading gives approximately x=27.8.",
+     "answer": "Median (from ogive) approx 27.8"
+    },
+    {
+     "question": "Draw both less than and more than ogives for: Class 10-20 (f=3), 20-30 (f=7), 30-40 (f=10), 40-50 (f=5) and find the median from their intersection.",
+     "solution": "N=25, N/2=12.5. Less than points: (20,3), (30,10), (40,20), (50,25). More than points: (10,25), (20,22), (30,15), (40,5). Plot both ogives. Their intersection has x-coordinate approximately 32.5.",
+     "answer": "Median (from intersection) approx 32.5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a less than ogive for the following distribution and find the median: Class 0-20 (f=6), 20-40 (f=10), 40-60 (f=14), 60-80 (f=8).",
+     "type": "compute"
+    },
+    {
+     "question": "Draw both less than and more than ogives for: Class 5-10 (f=4), 10-15 (f=10), 15-20 (f=18), 20-25 (f=9), 25-30 (f=6) and find the median from their intersection.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.7",
+   "title": "Relation Between Mean, Median, and Mode",
+   "section": "Relation between mean, median, and mode",
+   "definition": "For a moderately skewed frequency distribution, there is an empirical relation connecting the mean, median, and mode. The mode lies about three times as far from the mean as the median does, giving the relation 3 * median = mode + 2 * mean. This can be used to estimate any one measure when the other two are known.",
+   "formula": "3 * median = mode + 2 * mean, equivalently mode = 3 * median - 2 * mean, or mean = (3 * median - mode) / 2.",
+   "key_idea": "In a moderately skewed distribution the three measures of central tendency are not equal but satisfy the empirical relation 3*median = mode + 2*mean. This relation lets us find the third measure when two are known.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "given the median and mean of a distribution, find the mode using the empirical relation",
+    "calculate the mode when the median and mean are known",
+    "what is the mode if the median and mean of the data are given",
+    "determine the mode from 3 times the median minus twice the mean",
+    "compute the modal value from the empirical relation",
+    "estimate the mode of the distribution from its median and mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the empirical relation",
+     "explain": "mode = 3 x median - 2 x mean.",
+     "compute": "mode = 3 * median - 2 * mean"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The mean and median of a distribution are 27.8 and 28 respectively. Find the mode using the empirical relation.",
+     "solution": "Using mode = 3*median - 2*mean = 3*28 - 2*27.8 = 84 - 55.6 = 28.4. Verification: 3*median = 84; mode + 2*mean = 28.4 + 55.6 = 84. Both sides equal.",
+     "answer": "Mode = 28.4"
+    },
+    {
+     "question": "The mode and mean of a distribution are 34.44 and 31.8 respectively. Find the median.",
+     "solution": "Using median = (mode + 2*mean)/3 = (34.44 + 2*31.8)/3 = (34.44 + 63.6)/3 = 98.04/3 = 32.68. Verification: 3*median = 98.04; mode + 2*mean = 34.44 + 63.6 = 98.04. Both sides equal.",
+     "answer": "Median = 32.68 (approx)"
+    },
+    {
+     "question": "Verify the relation 3*median = mode + 2*mean for mean = 27.8, median = 28, mode = 28.4.",
+     "solution": "LHS = 3*median = 3*28 = 84. RHS = mode + 2*mean = 28.4 + 2*27.8 = 28.4 + 55.6 = 84. LHS = RHS = 84. The relation is verified.",
+     "answer": "Relation verified: 84 = 84"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The median and mode of a distribution are 28 and 28.4 respectively. Find the mean using the empirical relation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Given mean = 31.8 and mode = 34.44, find the median and verify the relation 3*median = mode + 2*mean.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh113.txt",
+ "source_link": "title-matched (new syllabus)"
+}

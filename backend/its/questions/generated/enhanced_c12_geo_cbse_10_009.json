@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_009",
+   "title": "c12_geo_cbse_10_009",
+   "questions": [
+    {
+     "q": "What is the Census of India definition of a village, and which two infrastructure amenities are used as key indicators of rural development in the Census village directory?",
+     "a": "A village is a statutory revenue unit with defined boundaries; key infrastructure indicators in the village directory are (1) access to all-weather road and (2) availability of electricity for domestic use. A wrong answer (e.g., defining village by population size or listing only schools/hospitals) reveals confusion between Census administrative units and functional service delivery metrics.",
+     "self_check": true
+    },
+    {
+     "q": "Why do hamleted settlements in the middle Ganga plain (e.g., eastern Uttar Pradesh) often have worse access to piped water supply than clustered villages in the Punjab plains, even when groundwater levels are similar?",
+     "a": "Hamleted settlements consist of multiple socially segregated hamlets (panna, tola) spread over a large area, requiring longer pipeline networks per household and making per-capita capital cost prohibitive for state water boards. Clustered villages concentrate population, lowering per-unit infrastructure cost. A wrong answer focusing only on groundwater depth or caste politics misses the core geographical principle: settlement morphology directly determines infrastructure economics.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below from a hypothetical Census village directory, calculate the percentage of villages lacking all-weather road connectivity and interpret what this implies for emergency healthcare access.\nTotal villages in district: 850\nVillages with all-weather road: 510\nVillages with PHC within 5 km: 220",
+     "a": "Step 1: Villages without all-weather road = 850 - 510 = 340. Step 2: Percentage = (340/850) × 100 = 40%. Step 3: 40% of villages lack reliable road access, meaning ambulances cannot reach them in monsoon; patients must be carried on foot or cart, increasing maternal/infant mortality. A wrong calculation (e.g., using 510/850) or interpretation ignoring seasonal road failure shows inability to link infrastructure statistics to health outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the infrastructure challenges of a dispersed settlement in the Western Ghats (Kerala) with a semi-clustered settlement in the Gujarat plain. How do terrain and social structure differently shape the type of infrastructure deficit?",
+     "a": "Western Ghats dispersed settlements: steep slopes, high rainfall, and isolated huts make road construction and grid electrification technically difficult and expensive; deficits are primarily physical/engineering. Gujarat semi-clustered settlements: flat terrain allows easy road/pipeline laying, but social segregation forces marginalized hamlets to the periphery where services are deliberately not extended; deficits are socio-political. A wrong answer that treats both as purely physical or purely social fails to analyse the interaction of geography and society.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Pradhan Mantri Gram Sadak Yojana (PMGSY) has solved rural connectivity in India because 99% of eligible habitations are now connected.\" Use geographical reasoning about connectivity quality, maintenance, and network integration.",
+     "a": "The statement is misleading. PMGSY targets \"eligible habitations\" (population ≥500 in plains, ≥250 in hills), excluding thousands of smaller hamlets. \"Connected\" often means a single-lane gravel road that becomes impassable in monsoon, with no maintenance budget. True connectivity requires all-weather surface, link to higher-order roads (district highways), and last-mile access to health/education nodes. A student accepting the 99% figure uncritically ignores geographical concepts of network hierarchy, seasonal accessibility, and equity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimum-service package for a remote tribal village (population 350, dispersed hamlets, hilly terrain) that ensures basic health, education, and digital access within 5 years. Justify each component geographically.",
+     "a": "A good answer includes: (1) Solar mini-grid + battery storage (grid extension uneconomical due to low density and terrain), (2) Telemedicine kiosk linked to district hospital (avoids need for full PHC given small population), (3) Multi-grade learning centre with satellite internet (single teacher, digital content), (4) Gravity-fed piped water from spring source (low O&M, suits dispersed layout), (5) Footpath upgrade to all-weather standard for one hamlet as pilot (low cost, high impact). Poor answers propose standard PHC, grid electricity, or high school ignoring threshold population and terrain constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

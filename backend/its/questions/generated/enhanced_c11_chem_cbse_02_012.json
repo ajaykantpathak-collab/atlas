@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_012",
+   "title": "c11_chem_cbse_02_012",
+   "questions": [
+    {
+     "q": "State the three quantum numbers that define an atomic orbital and give the permissible values of each for n = 3.",
+     "a": "The three quantum numbers are: principal quantum number (n), azimuthal quantum number (l), and magnetic quantum number (mₗ). For n = 3: n = 3 (fixed); l = 0, 1, 2; mₗ values: for l=0 → mₗ=0 (1 orbital, 3s); for l=1 → mₗ = -1, 0, +1 (3 orbitals, 3p); for l=2 → mₗ = -2, -1, 0, +1, +2 (5 orbitals, 3d). Total = 9 orbitals. A wrong answer (e.g., l = 0,1,2,3 or mₗ = -3 to +3) reveals the student hasn't internalized the rule l ≤ n-1 and mₗ range depends on l, not n directly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the concept of a definite electron orbit (as in Bohr's model) is incompatible with Heisenberg's uncertainty principle, and how the quantum mechanical model resolves this.",
+     "a": "Bohr's orbit requires simultaneously knowing the electron's exact position (on a specific circular path at radius r) and exact momentum (velocity v tangential to the circle). Heisenberg's principle (Δx·Δp ≥ h/4π) makes this impossible for microscopic particles. The quantum mechanical model replaces the definite path with an orbital—a region described by |ψ|² where probability of finding the electron is high. We speak of probability density, not trajectory. A wrong answer (e.g., \"orbits are just smaller\" or \"uncertainty is negligible\") shows the student treats the uncertainty principle as a measurement limitation rather than a fundamental property of nature.",
+     "self_check": true
+    },
+    {
+     "q": "For a hydrogen atom, the 3s, 3p, and 3d orbitals are degenerate (same energy). In a multi-electron atom like potassium (Z=19), the energy order is 3s < 3p < 3d. Using the concepts of penetration and shielding, explain this difference in 4-5 steps.",
+     "a": "Step 1: In hydrogen, only one electron exists—no electron-electron repulsion, so energy depends only on n (Coulomb potential is purely -Ze²/r). Step 2: In multi-electron atoms, inner electrons shield outer electrons from the full nuclear charge. Step 3: s-orbitals (l=0) have non-zero probability density at the nucleus (penetration), so 3s electron experiences higher Z_eff than 3p. Step 4: p-orbitals (l=1) have a nodal plane at nucleus—less penetration, more shielding, higher energy than 3s. Step 5: d-orbitals (l=2) have even less penetration, maximum shielding, highest energy among n=3. Wrong answer (e.g., \"d has higher energy because it's farther\") confuses radial distribution with penetration; the 3d radial distribution peaks farther out but the key is the *small-r* behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the radial probability distribution of 2s and 2p orbitals. How does the presence of a radial node in 2s affect its penetration and energy relative to 2p in a multi-electron atom?",
+     "a": "The 2s orbital has one radial node (where ψ=0) at r ≈ 2a₀, creating two regions: an inner lobe near the nucleus and an outer lobe. The 2p orbital has no radial nodes (only angular node at nucleus). The inner lobe of 2s allows significant electron density close to the nucleus (penetration), so the 2s electron experiences less shielding and lower energy (more negative) than 2p. In hydrogen, both have same energy because no shielding exists. A wrong answer stating \"2s has higher energy because it has a node\" misunderstands that nodes are regions of zero probability, not high energy; the inner lobe dominates penetration.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The 4f orbital fills before 5d because f has lower energy than d.\" Evaluate this statement using the (n+l) rule and provide the correct filling order for 4f, 5d, 6s, 6p.",
+     "a": "The claim is incorrect. The (n+l) rule: 4f → n+l = 4+3 = 7; 5d → 5+2 = 7; 6s → 6+0 = 6; 6p → 6+1 = 7. Lower (n+l) fills first: 6s (6) < 4f (7) = 5d (7) = 6p (7). For equal (n+l), lower n fills first: 4f (n=4) < 5d (n=5) < 6p (n=6). Correct order: 6s → 4f → 5d → 6p. The student's error: comparing only l values (f vs d) without considering n. This reveals confusion between azimuthal quantum number and total energy ordering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that an electron in a 1s orbital does not \"crash into the nucleus\" despite having maximum probability density at r=0. Use the concepts of kinetic energy, potential energy, and the virial theorem.",
+     "a": "Thought experiment: Confine an electron to a smaller volume near the nucleus. By Heisenberg (Δx↓ → Δp↑), momentum uncertainty increases, raising kinetic energy (KE ∝ p²/2m). The potential energy (PE = -Ze²/r) becomes more negative but only as 1/r, while KE rises as 1/r² (from Δp ~ h/Δx). At equilibrium (virial theorem: 2⟨KE⟩ = -⟨PE⟩), the total energy is minimized at the Bohr radius a₀. The 1s orbital represents this minimum-energy balance—maximum |ψ|² at r=0 is a probability density, not a classical trajectory. A poor answer (e.g., \"electron moves too fast\") treats the electron classically; the quantum view requires energy minimization of a wave function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

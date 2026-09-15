@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_005",
+   "title": "c12_hs_cbse_07_005",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Write the full expansion of the acronym APGAR and the maximum possible total score.",
+     "a": "**Correct answer:** A = Appearance (skin color), P = Pulse (heart rate), G = Grimace (reflex irritability), A = Activity (muscle tone), R = Respiration (breathing effort). Maximum total score = 10.  \n**What a wrong answer reveals:** If a student writes “Attitude” for A or “Gestation” for G, they are confusing the mnemonic with other obstetric terms. If they say the maximum is 5, they think each criterion is only 0/1. This shows they have not memorised the exact scoring rubric.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** Explain why the Apgar score is assessed at **both** 1 minute and 5 minutes after birth, and what a rising score between the two times indicates.",
+     "a": "**Correct answer:** The 1‑minute score reflects how well the baby tolerated the birth process; the 5‑minute score shows how well the baby is adapting to extrauterine life **after** initial resuscitation (if any). A rising score (e.g., 4 → 8) indicates effective response to interventions (drying, stimulation, oxygen) and improving cardiorespiratory status.  \n**What a wrong answer reveals:** If a student says “the 5‑minute score is just a repeat to be sure,” they miss the dynamic purpose — the 5‑minute score evaluates **response to resuscitation**. If they say a rising score means the baby was “fine all along,” they confuse improvement with initial stability.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A newborn at 1 minute shows: body pink but hands and feet blue; heart rate 110 beats/minute; grimaces and cries when suctioned; some flexion of extremities; slow, irregular breathing with a weak cry. Calculate the 1‑minute Apgar score.",
+     "a": "**Step‑by‑step:**  \n1. **Appearance:** acrocyanosis (body pink, extremities blue) → score **1**.  \n2. **Pulse:** heart rate 110 bpm (>100) → score **2**.  \n3. **Grimace:** cries on suction → score **2**.  \n4. **Activity:** some flexion → score **1** (active motion would be 2).  \n5. **Respiration:** slow, irregular, weak cry → score **1** (good cry = 2).  \n**Total = 1+2+2+1+1 = 7.**  \n**What a wrong answer reveals:** Scoring Appearance as 2 (missing acrocyanosis) or Pulse as 1 (misreading 110 as <100) shows inability to map observations to the exact rubric. Forgetting to add all five criteria indicates procedural error.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Two newborns are assessed:  \nBaby X: 1‑min score 3, 5‑min score 8.  \nBaby Y: 1‑min score 6, 5‑min score 6.  \nCompare their clinical trajectories and state which baby is of greater concern at 5 minutes and why.",
+     "a": "**Correct answer:** Baby X improved significantly (3→8), showing good response to resuscitation; at 5 minutes the score is in the normal range (7‑10). Baby Y’s score remained static at 6 (moderately depressed) with **no improvement**, indicating persistent compromise — this baby is of greater concern and likely needs continued respiratory support and monitoring.  \n**What a wrong answer reveals:** Choosing Baby X because “3 is lower than 6” ignores the **trend**. The 5‑minute score and its change from 1 minute are more prognostically meaningful than the 1‑minute score alone.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** Critique the statement: “An Apgar score of 4 at 5 minutes predicts cerebral palsy with high certainty.” Justify your evaluation using evidence‑based reasoning.",
+     "a": "**Correct answer:** The statement is **false**. The Apgar score assesses **immediate physiological condition**, not long‑term neurological outcome. While a persistently low 5‑minute score (0‑3) is associated with increased risk of neonatal encephalopathy, it has **low specificity** for cerebral palsy. Many babies with low scores recover fully; many with normal scores later develop CP due to antenatal factors. The American Academy of Pediatrics explicitly states Apgar score alone should not be used to predict individual neurologic outcome.  \n**What a wrong answer reveals:** Agreeing with the statement shows confusion between **association** and **prediction**, and ignorance of the AAP position. It also reflects a common board‑exam trap: over‑interpreting a screening tool as a diagnostic one.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a one‑page “Apgar Quick‑Reference Card” for a delivery‑room nurse that includes (a) the five criteria with 0/1/2 descriptors, (b) the clinical action triggered by each total score range (0‑3, 4‑6, 7‑10), and (c) a reminder that the score is **not** a predictor of long‑term outcome.",
+     "a": "**Expected answer:** A clear table with columns: Criterion | Score 0 | Score 1 | Score 2. Below it, three coloured boxes: **Red (0‑3) → Full resuscitation (PPV, chest compressions, epinephrine)**, **Yellow (4‑6) → Stimulation, O₂, reposition**, **Green (7‑10) → Routine care (dry, warm, skin‑to‑skin)**. A bold footer: “Apgar = communication tool, not prognosis.”  \n**What a poor answer reveals:** Missing the action boxes shows the student doesn’t connect score to **clinical decision‑making**. Omitting the “not a prognosis” reminder perpetuates the misconception addressed in Q5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

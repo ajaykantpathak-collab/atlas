@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_01_005",
+   "title": "c11_hs_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define 'synergistic relationship' in the context of Human Ecology and Family Sciences using the four components: human, family, society, and environment.",
+     "a": "A synergistic relationship in HEFS is the mutually reinforcing interaction among humans, families, society, and environment where the combined outcome (e.g., quality of life) exceeds what any single component could achieve independently, integrating physical, economic, socio-cultural, and psychological resources. A wrong answer that merely lists the four components without explaining their *reciprocal influence* or *emergent combined effect* reveals the student views them as separate categories rather than an interacting system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the family is described as the 'critical social unit' mediating the synergistic relationship between the individual and society in HEFS, rather than just a 'group of people living together'.",
+     "a": "The family is the 'critical social unit' because it is the primary site where biological individuals are transformed into social beings through nurturance, value transmission, and resource allocation, directly linking the individual's psychological/physical development to societal structures (economy, culture, law) and environmental conditions. A wrong answer focusing only on co-residence or emotional bonds misses the family's *structural function* as the mediator that converts environmental/societal inputs (food, education, norms) into human capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A rural family decides to sell their agricultural land to a factory and move to an urban slum. Apply the concept of synergistic relationships to predict three specific cascading effects on: (a) the family's internal resource management, (b) the village's socio-economic structure, and (c) the local environment.",
+     "a": "(a) Family shifts from land-based subsistence (food, fuel, water from land) to cash-dependent survival, increasing vulnerability to market fluctuations and reducing women's control over resources; (b) Village loses agricultural labor and traditional knowledge, weakening local food security and social cohesion, while gaining remittances but facing out-migration hollowing; (c) Local environment loses biodiversity and soil health from monoculture factory farming, while urban slum growth degrades air/water quality. A wrong answer treating these as isolated consequences (e.g., only \"family gets money\") fails to trace the *feedback loops* between the family's decision and the larger system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the synergistic relationship framework of HEFS with the biological concept of an 'ecosystem'. Identify two fundamental similarities and one critical difference arising from the inclusion of 'Family Sciences'.",
+     "a": "Similarities: (1) Both emphasize interdependence among components (organisms/humans, populations/families, community/society, abiotic factors/environment). (2) Both recognize that system health depends on resource flows and feedback loops. Critical difference: HEFS explicitly centers the *family* as a conscious, decision-making unit with cultural values and psychological bonds that actively *manage* resources, whereas biological ecosystems operate through instinct and natural selection without intentional socio-cultural mediation. A wrong answer stating \"both are about nature\" misses the *human agency* and *socio-cultural dimensions* unique to HEFS.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In HEFS, the environment is merely a passive backdrop providing resources for human families.\" Use the concept of synergistic relationships to justify your position.",
+     "a": "The statement is false. In a synergistic relationship, the environment is an *active, dynamic partner*: it imposes constraints (climate, geography), offers affordances (water, soil, biodiversity), and *responds* to human actions (degradation, restoration). Families adapt cultural practices (housing, diet, festivals) to environmental rhythms; societies build institutions (irrigation laws, disaster management) *because* the environment acts back. A wrong answer agreeing with the statement reveals a linear 'human-dominates-nature' mental model, ignoring the *reciprocal causality* central to ecology.",
+     "self_check": true
+    },
+    {
+     "q": "Create a visual concept map (describe in words) showing the synergistic linkages for an adolescent girl in a peri-urban setting deciding whether to continue schooling or join the gig economy as a delivery rider. Include at least 5 nodes (individual, family, society, environment, economy) and 6 directional arrows with labels explaining the nature of each linkage.",
+     "a": "A strong map includes: Individual (health, skills, aspirations) ↔ Family (income needs, gender norms, care burden) ↔ Society (labor laws, education policy, safety norms) ↔ Environment (air pollution, traffic, urban heat) ↔ Economy (platform algorithms, wage rates, job security). Arrows: e.g., \"Family income pressure → Individual drops out\", \"Individual riding → Environment pollution exposure\", \"Society's weak labor laws → Economy exploits Individual\", \"Individual's education → Society's future workforce\". A poor map with only one-way arrows or missing the environment/economy nodes shows failure to grasp *multidirectional, multi-sectoral* synergy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

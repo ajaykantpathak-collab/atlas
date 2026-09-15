@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_12",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_12",
+   "title": "c8_eco_ch3_12",
+   "questions": [
+    {
+     "q": "What is the difference between a \"push factor\" and a \"pull factor\" in rural-urban migration? Provide one economic example of each.",
+     "a": "A push factor is an adverse condition in a rural area that forces people to leave their villages (e.g., agricultural unemployment or crop failure due to drought). A pull factor is an attractive condition in an urban area that draws migrants toward the city (e.g., higher wage rates or better-quality educational institutions). \n\n*What a wrong answer reveals:* If a student classifies \"higher wages in cities\" as a push factor, it reveals a fundamental confusion regarding the direction of the incentive (thinking that any economic force is a \"push\" regardless of its geographic source).",
+     "self_check": true
+    },
+    {
+     "q": "Why might a family in a drought-prone village in Rajasthan choose to send only one family member to Jaipur to work in construction, rather than migrating as an entire family? Explain using the concept of household risk diversification.",
+     "a": "The family is diversifying its economic risk. Agriculture is highly volatile due to weather conditions. By keeping some members on the farm and sending one member to the city, the household secures two independent income streams: a rural agricultural income and an urban remittance. If the crops fail, the urban remittance acts as an economic safety net, preventing complete household consumption collapse.\n\n*What a wrong answer reveals:* If a student answers that the family is just being lazy or that city living is too expensive for everyone, they fail to see migration as a rational, collective household risk-management strategy, viewing it instead purely as an individual whim.",
+     "self_check": true
+    },
+    {
+     "q": "A rural laborer earns ₹4,000 per month in their village. They are considering migrating to Mumbai for an informal sector job that pays ₹14,000 per month. However, the probability of securing this job is only 60% (0.60), and the monthly cost of living in Mumbai is ₹5,000. Calculate the expected net monthly financial gain or loss from migrating. Show your steps.",
+     "a": "Step 1: Identify the given data: Rural wage ($W_r$) = ₹4,000; Urban wage ($W_u$) = ₹14,000; Probability of employment ($P_u$) = 0.60; Urban living cost ($C$) = ₹5,000.\nStep 2: Calculate the expected urban income: \n$$\\text{Expected Urban Income} = P_u \\times W_u = 0.60 \\times ₹14,000 = ₹8,400$$\nStep 3: Deduct the urban cost of living from the expected urban income: \n$$₹8,400 - ₹5,000 = ₹3,400$$\nStep 4: Subtract the current rural wage from\nthe expected urban net income to find the migration incentive: Rs 3,400 - Rs 4,000 = -Rs 600. Since the result is negative, the rural wage is actually higher than the expected urban net income, meaning migration is not economically rational in this case. A wrong answer that says migration is beneficial reveals the student did not account for the probability of unemployment and urban living costs.",
+     "self_check": true
+    },
+    {
+     "q": "Define push factors in the context of rural-urban migration and give two examples from the Indian context.",
+     "a": "Push factors are negative conditions in rural areas that force people to leave. Examples: (1) Lack of employment opportunities beyond agriculture. (2) Poor access to education and healthcare facilities. A wrong answer that lists urban attractions (better jobs, city life) as push factors reveals the student confuses push factors (conditions at origin that drive people away) with pull factors (conditions at destination that attract people).",
+     "self_check": true
+    },
+    {
+     "q": "Define pull factors in the context of rural-urban migration and give two examples.",
+     "a": "Pull factors are positive conditions in urban areas that attract migrants. Examples: (1) Better employment opportunities in industry and services. (2) Access to better education, healthcare, and infrastructure. A wrong answer that lists rural problems (poverty, lack of schools) as pull factors reveals the student has reversed push and pull factors - pull factors describe the destination attractions, not the origin problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain two negative consequences of rapid rural-urban migration for the destination city.",
+     "a": "Two negative consequences: (1) Overcrowding and strain on urban infrastructure - housing shortages, traffic congestion, water and sanitation pressure. (2) Growth of informal settlements (slums) with poor living conditions, as migrants cannot afford formal housing. A wrong answer that only mentions too many people reveals the student identifies the symptom (population increase) but not the specific infrastructural and social consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

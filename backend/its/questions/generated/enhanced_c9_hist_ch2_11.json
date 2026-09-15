@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_11",
+   "title": "c9_hist_ch2_11",
+   "questions": [
+    {
+     "q": "What material was primarily used for the earliest Chinese writing during the Shang dynasty, and what was its ritual purpose?",
+     "a": "Oracle bones (ox scapulae and turtle plastrons) were used for pyromantic divination — heating them to produce cracks interpreted as ancestral answers. A wrong answer (e.g., \"bamboo strips\" or \"silk\") reveals confusion between Shang oracle bones and later Zhou/Warring States writing materials, missing the ritual-divination origin of Chinese script.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Zhou dynasty replace the Shang's ancestral worship with the Mandate of Heaven as the basis of political legitimacy?",
+     "a": "The Zhou, as conquerors, needed a universal moral principle to justify overthrowing the Shang — the Mandate of Heaven claimed heaven grants rule to the virtuous and withdraws it from the corrupt, making legitimacy conditional on governance, not lineage. A wrong answer (e.g., \"Zhou abolished ancestor worship\") shows misunderstanding: Zhou retained ancestor worship but added a transferable heavenly mandate, unlike Egypt's permanent divine kingship.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"Chinese logographic writing prevented the development of alphabetic literacy but enabled bureaucratic unity across dialects.\" Using evidence from Shang oracle bones and Zhou bronze inscriptions, evaluate this claim.",
+     "a": "Valid: Oracle bones (c. 1200 BCE) show ~4,000 characters, 30% still readable today; bronze inscriptions standardised script for royal decrees across Zhou states. Logographs conveyed meaning independent of pronunciation, allowing officials from mutually unintelligible regions (e.g., Chu vs. Qi) to share documents — unlike alphabetic Mesopotamia where script matched spoken Sumerian/Akkadian. A weak answer ignores the dialect bridge function or conflates logographs with \"pictures.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Zhou feudal system (fengjian) with Harappan urban administration (c6_history_ch04_003) and Mesopotamian city-states (c9_hist_ch2_9). What structural difference explains why Zhou feudalism eventually fragmented into the Warring States period?",
+     "a": "Zhou fengjian granted hereditary land and military autonomy to kinsmen/allies, creating semi-independent polities bound only by ritual homage — unlike Harappa's uniform weights/seals suggesting central control, or Mesopotamia's temple-centred city-states with shared culture but no feudal hierarchy. Zhou's lack of a standing bureaucracy or tax system meant the king couldn't control regional lords once kinship loyalty faded. A wrong answer cites \"weak kings\" without analysing the feudal structure's inherent decentralisation.",
+     "self_check": true
+    },
+    {
+     "q": "\" The Mandate of Heaven was merely a propaganda tool for Zhou usurpers.\" Critique this statement using the concepts of moral accountability and cyclical dynastic theory.",
+     "a": "The Mandate introduced moral accountability: heaven's withdrawal was signaled by natural disasters/peasant revolts, making rulers responsible for welfare — a concept absent in Shang's ancestral mandate or Egypt's ma'at. It became a cyclical theory (rise → virtue → decline → loss of mandate) that later dynasties (Han, Tang) institutionalised via Confucian exams. Calling it \"mere propaganda\" ignores its 3,000-year normative power in Chinese political culture. A poor answer treats it as static justification rather than an evolving ethical standard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a museum exhibit label (50 words) for a Zhou bronze *ding* vessel that explains its triple role in governance: ritual object, political contract, and administrative record.",
+     "a": "\"Bronze *ding* (c. 900 BCE): Cast for ancestral feasts affirming the lord's mandate; its 200-character inscription records a royal land grant to a minister — a feudal contract witnessed by heaven; the vessel itself, weighed against standard measures, symbolised the state's metrological authority. Ritual, law, and administration fused in bronze.\" A weak label lists functions without showing their integration in one object.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

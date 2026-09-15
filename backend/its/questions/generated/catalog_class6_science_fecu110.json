@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu110.json",
+ "concepts": [
+  {
+   "id": "fecu.10.1",
+   "title": "Characteristics of Living Beings",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List the characteristics of living beings.",
+     "a": "Growth, respiration, nutrition, response to stimuli, excretion and reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a moving bus not living?",
+     "a": "It cannot grow, feed, respire or reproduce by itself.",
+     "self_check": true
+    },
+    {
+     "q": "How do plants show response to stimuli?",
+     "a": "Shoots bend toward light; mimosa leaves fold on touch.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.2",
+   "title": "Germination of a Seed",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is germination?",
+     "a": "A seed sprouting into a seedling when it gets air, water and warmth.",
+     "self_check": true
+    },
+    {
+     "q": "Name the conditions needed for germination.",
+     "a": "Air (oxygen), water and warmth - light is not needed for most seeds.",
+     "self_check": true
+    },
+    {
+     "q": "What comes out first from a germinating seed?",
+     "a": "The baby root (radicle), which grows downward, then the shoot.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.3",
+   "title": "Life Cycles of Plants and Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a life cycle?",
+     "a": "The stages of an organism's life from birth to reproduction of the next generation.",
+     "self_check": true
+    },
+    {
+     "q": "Name the stages of a butterfly's life cycle.",
+     "a": "Egg -> larva (caterpillar) -> pupa -> adult butterfly.",
+     "self_check": true
+    },
+    {
+     "q": "Do all animals have the same life cycle stages?",
+     "a": "No - mammals grow young directly; insects and frogs change form (metamorphosis).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.4",
+   "title": "Living and Non-living: The Puzzle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why were cars and clouds once puzzling - living or not?",
+     "a": "They move and change like living things, so early thinkers wondered; but they cannot grow or reproduce.",
+     "self_check": true
+    },
+    {
+     "q": "Name one thing that grows but is not living.",
+     "a": "A cloud grows (snow crystals) - but has no life processes of its own.",
+     "self_check": true
+    },
+    {
+     "q": "What settles the question of whether something is living?",
+     "a": "Whether it shows all life processes - nutrition, respiration, growth, response and reproduction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

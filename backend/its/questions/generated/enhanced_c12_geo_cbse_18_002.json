@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_002",
+   "title": "c12_geo_cbse_18_002",
+   "questions": [
+    {
+     "q": "A researcher visits 50 villages in Rajasthan’s Thar Desert and records the depth of each open well using a measuring tape. She also notes the water taste (sweet/saline) by tasting. Classify each variable (depth, taste) as primary or secondary data and name the specific collection method for each.",
+     "a": "Both variables are primary data. Depth is collected via **personal observation with instrumental measurement** (measuring tape). Taste is collected via **personal observation with sensory evaluation** (direct tasting). A wrong answer (e.g., calling taste \"secondary\" because it's qualitative) reveals the misconception that primary data must be numerical — NCERT explicitly includes qualitative field observations as primary data (see \"Personal Observations\" section covering soil, vegetation, population structure).",
+     "self_check": true
+    },
+    {
+     "q": "Why does NCERT distinguish between a \"questionnaire\" (filled by respondent) and a \"schedule\" (filled by trained enumerator)? Explain how this distinction affects the *type of population* that can be surveyed in a geographical study of tribal literacy in Odisha’s Koraput district.",
+     "a": "A questionnaire requires respondent literacy; a schedule does not. In Koraput, where tribal literacy rates are below 50%, a questionnaire would systematically exclude non-literate households, introducing **selection bias**. A schedule administered by a trained enumerator captures both literate and illiterate respondents, ensuring representativeness. A wrong answer focusing only on \"who fills the form\" misses the geographical implication: method choice determines *spatial coverage* and *demographic inclusivity* of the dataset.",
+     "self_check": true
+    },
+    {
+     "q": "You are studying the change in forest cover of the Western Ghats between 2000 and 2020. You have access to: (A) ISRO’s LISS-III satellite imagery for both years, (B) Forest Survey of India (FSI) State of Forest Reports for both years, (C) Your own GPS-mapped ground truthing plots from 2023. Classify each as primary/secondary and explain which *combination* gives the most robust analysis for a board-exam case study question.",
+     "a": "(A) Secondary — satellite imagery processed by ISRO (original collector). (B) Secondary — FSI reports are government publications (NCERT: \"Government Publications\" under Published Sources). (C) Primary — your own GPS field survey (NCERT: \"Personal Observations\"). Most robust combination: **A + C**. Use FSI report (B) for contextual validation only. Satellite imagery (A) provides wall-to-wall spatial coverage; ground truthing (C) validates classification accuracy. Relying only on B (reported statistics) loses spatial explicitness; relying only on C lacks temporal depth. A wrong answer choosing B + C ignores that satellite data is the *primary evidence* for forest cover change detection in modern geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *spatial resolution* and *temporal frequency* of secondary data from: (i) Census of India (decadal), (ii) IMD daily rainfall grids (0.25° × 0.25°), (iii) NFHS-5 district-level health indicators. Which source would you choose to analyse the relationship between monsoon onset variability and kharif sowing dates at the *tehsil level* in Maharashtra? Justify.",
+     "a": "Choose **IMD daily rainfall grids**. Census (i) is decadal — too coarse temporally for onset variability. NFHS-5 (iii) is district-level — too coarse spatially for tehsil-level sowing decisions. IMD grids (ii) offer daily temporal resolution and ~25 km spatial resolution, enabling tehsil-scale analysis of onset dates (defined as first day of >20 mm rain after June 1). A wrong answer choosing Census reveals confusion between *administrative reporting frequency* and *phenomenon frequency*; choosing NFHS reveals ignoring spatial scale mismatch. This tests the geographical skill of matching data resolution to process scale.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a Class 12 board exam answer: \"Secondary data is always less reliable than primary data because the researcher cannot verify the collection methodology.\" Provide two geographical scenarios where secondary data is *more* reliable, and one where primary data is indispensable.",
+     "a": "The statement is **false**. Secondary data can be *more* reliable when: (1) **Census of India population totals** — primary enumeration of 1.4 billion people is logistically impossible for a student; Census methodology is rigorously standardised, transparent, and legally mandated. (2) **IMD long-term temperature records** — 100+ years of calibrated station data with metadata exceeds any student’s primary capability. Primary data is indispensable for: **micro-scale soil moisture variability** across a single watershed — no secondary source exists at that resolution. A wrong answer treating \"secondary = less reliable\" as a rule misses NCERT’s emphasis on *source credibility* (government, UN, peer-reviewed) over source type.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mixed-method data collection plan for a geographical investigation of **urban heat island intensity** in Delhi NCR. Specify: (a) two primary data methods with instruments, (b) two secondary data sources with agencies, (c) how you will *triangulate* them. Your plan must be executable by a Class 12 student with school-level resources.",
+     "a": "(a) **Primary**: (1) Mobile transects with digital thermometer (Kestrel 3000) mounted on bicycle — measures air temperature at 1.5 m height along fixed routes at 6 AM and 3 PM. (2) Infrared thermometer (FLIR ONE) for surface temperature of land cover types (asphalt, concrete, grass, water). (b) **Secondary**: (1) IMD automatic weather station (AWS) hourly data for Safdarjung, Palam, Lodhi Road — validates mobile transects. (2) Landsat 8/9 Thermal Infrared Sensor (TIRS) Level-2 surface temperature product (USGS EarthExplorer) — 30 m resolution, 16-day revisit — validates spatial pattern. (c) **Triangulation**: Compare mobile transect averages with nearest AWS for same timestamps (bias correction). Overlay IR surface points on Landsat LST map — check correlation (r > 0.7 expected). Discrepancies >2°C trigger re-survey. A poor answer lists sources without instruments, agencies, or a concrete triangulation protocol — missing the geographical rigour of *cross-validation*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

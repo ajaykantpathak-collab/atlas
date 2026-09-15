@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_005",
+   "title": "c11_ps_cbse_18_005",
+   "questions": [
+    {
+     "q": "Under Article 368 of the Indian Constitution, which body has the power to amend the Constitution, and what is the key limitation on this power as established by the Supreme Court?",
+     "a": "Parliament has the power to amend the Constitution under Article 368, but this power is limited by the basic structure doctrine - Parliament cannot amend the Constitution in a manner that destroys or damages its basic structure or essential features, as held in Kesavananda Bharati v. State of Kerala (1973). A wrong answer (e.g., \"no limitation exists\" or \"only the President can limit it\") reveals the student misunderstands that judicial review acts as a constitutional check on Parliament's amending power, confusing parliamentary sovereignty (UK model) with constitutional supremacy (Indian model).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in Minerva Mills v. Union of India (1980) struck down Sections 4 and 55 of the 42nd Constitutional Amendment Act, and what this reveals about the relationship between fundamental rights and directive principles.",
+     "a": "The 42nd Amendment attempted to give primacy to all Directive Principles over Fundamental Rights and barred judicial review of amendments. The Court struck this down because it destroyed the basic structure - specifically the balance between Parts III and IV, and judicial review itself. A wrong answer (e.g., \"Directive Principles are more important\" or \"Parliament can do anything with special majority\") shows the student fails to grasp that the basic structure includes the harmony between Fundamental Rights and Directive Principles, and that judicial review is itself a basic structure feature that cannot be amended away.",
+     "self_check": true
+    },
+    {
+     "q": "A constitutional amendment is passed by Parliament with the required special majority under Article 368, inserting a new article that states: \"Notwithstanding anything in this Constitution, the President shall have the power to dismiss any State Government at any time without any judicial review.\" Applying the basic structure doctrine, would this amendment be constitutionally valid? Justify your answer with reference to at least two basic structure elements.",
+     "a": "No, the amendment would be unconstitutional. It violates two basic structure elements: (1) Federalism - the power to dismiss state governments arbitrarily destroys the federal balance and state autonomy, a core feature since S.R. Bommai (1994); (2) Judicial Review - explicitly barring judicial review of executive action destroys the Court's power of judicial review, held as basic structure in Minerva Mills and I.R. Coelho. A wrong answer (e.g., \"valid because special majority was followed\") reveals the student thinks procedural compliance with Article 368 is sufficient, missing the substantive limitation imposed by the basic structure doctrine.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Supreme Court's position in Shankari Prasad v. Union of India (1951) and Golaknath v. State of Punjab (1967) regarding the amendability of Fundamental Rights. How did Kesavananda Bharati (1973) resolve this conflict?",
+     "a": "Shankari Prasad held Fundamental Rights are amendable under Article 368 (Parliament's amending power is plenary). Golaknath reversed this, holding Fundamental Rights are transcendental and cannot be amended. Kesavananda Bharati synthesized: Fundamental Rights CAN be amended, but not in a way that destroys the basic structure. The Court distinguished between \"amending power\" (wide) and \"power to destroy basic structure\" (non-existent). A wrong answer (e.g., \"Kesavananda overruled Golaknath completely\" or \"Fundamental Rights can never be amended\") shows the student misses the nuanced middle path - that amendability exists but with substantive limits, not absolute prohibition or absolute permission.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Judicial review of constitutional amendments is undemocratic because it allows unelected judges to overturn the will of elected representatives who command a special majority in Parliament.\" Consider both the counter-majoritarian difficulty and the constitutional supremacy principle in your evaluation.",
+     "a": "The argument has surface appeal but fails constitutionally. India chose constitutional supremacy over parliamentary sovereignty. The Constitution derives authority from \"We the People,\" not Parliament. Judicial review protects the Constitution's identity against temporary majorities. The basic structure doctrine is not judicial whim - it identifies features the Constituent Assembly embedded as permanent (democracy, federalism, secularism, judicial review). Without this check, a majority could amend the Constitution into a dictatorship. The counter-majoritarian difficulty is real but resolved by: (a) judges interpret, not make, the Constitution; (b) appointments involve executive+judiciary; (c) Parliament can respond with new amendments respecting basic structure. A poor evaluation ignores that the Constitution itself creates this check - it's a feature, not a bug, of constitutional democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical constitutional amendment that would test the boundaries of the basic structure doctrine. Identify which basic structure element it targets, and explain how the Supreme Court would likely apply the \"width vs. identity\" test from Kesavananda Bharati to evaluate it.",
+     "a": "Sample amendment: \"Article 368A: Notwithstanding anything in this Constitution, Parliament may, by a law passed by simple majority, alter any provision of this Constitution including the basic structure.\" Targets: (1) Basic structure doctrine itself; (2) Special majority requirement (procedural basic structure); (3) Judicial review. The Court would apply the \"width vs. identity\" test: Article 368 grants width to amend, but not identity to abrogate. An amendment that removes the very limitation on amending power destroys the Constitution's identity, replacing it with a new constitution - which requires a Constituent Assembly, not Parliament. The Court would strike it down per I.R. Coelho (2007): amendments to Ninth Schedule laws after 1973 are subject to basic structure test. A poor answer proposes an amendment that merely changes policy (e.g., tax rates) rather than constitutional identity, showing confusion between ordinary legislation and constitutional amendment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

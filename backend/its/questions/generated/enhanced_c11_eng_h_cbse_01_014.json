@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_01_014",
+   "title": "c11_eng_h_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point (topic sentence), Evidence (textual detail/quote), Explanation (analysis of evidence), Link (connection to theme/question). A wrong answer like \"Paragraph, Example, Explanation, Line\" reveals the student confuses the structural mnemonic with generic paragraph components and doesn't know the specific analytical function of each step.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it insufficient to write \"The grandmother was very religious\" without adding \"She sat by her wheel spinning and reciting prayers from sunrise to sunset\"?",
+     "a": "The first statement is a claim; the second provides textual evidence that proves the claim. Without evidence, the answer is an unsupported opinion and scores low on CBSE's \"textual support\" criterion. A student who thinks the claim alone suffices misunderstands that literature answers must demonstrate close reading, not just plot recall.",
+     "self_check": true
+    },
+    {
+     "q": "Prompt: \"Describe the grandmother's daily routine in the village.\" Write a 4-sentence PEEL paragraph using two specific details from the text.",
+     "a": "Point: The grandmother's village routine reflects her devotion and care. Evidence: She woke the author, bathed him while saying \"morning prayer in a monotonous sing-song,\" and prepared his \"wooden slate... plastered with yellow chalk.\" Explanation: These actions show she integrated spiritual practice into caregiving, making prayer a natural part of daily life. Link: This routine establishes the peaceful, God-centered world that later contrasts with the city school's secular education. A weak answer would list activities without the explanatory link to her character or the theme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how physical aging is depicted in the grandmother's description (prose) and the mother's description in the poem \"A Photograph\". Identify one similarity and one difference in technique.",
+     "a": "Similarity: Both use vivid visual imagery – \"criss-cross of wrinkles\" (prose) and \"terribly transient feet\" (poem) – to convey fragility. Difference: The prose employs sustained, realistic description across paragraphs (wrinkles, stoop, silver locks) to build a living character, while the poem uses a single metaphorical snapshot (\"cardboard\", \"transient feet\") to emphasize impermanence. A student who only says \"both describe old age\" misses the technical distinction between extended character portrayal and poetic compression.",
+     "self_check": true
+    },
+    {
+     "q": "Two students write about the grandmother's reaction to music lessons. Student A: \"She hated music because she thought it was for harlots.\" Student B: \"Her silence after hearing about music lessons – 'She said nothing but her silence meant disapproval' – reveals a deep cultural conviction that music was 'the monopoly of harlots and beggars', showing how tradition governs her worldview.\" Which answer demonstrates higher-order analysis? Justify.",
+     "a": "Student B demonstrates higher-order analysis. They embed the exact textual phrase (\"silence meant disapproval\"), interpret its significance (cultural conviction), and connect it to the broader theme (tradition vs modernity). Student A merely paraphrases plot without evidence or thematic linkage. A student who chooses Student A likely equates \"analysis\" with summarizing character feelings rather than examining authorial craft.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word diary entry from the grandmother's perspective on the day the author leaves for university, capturing her inner calm and unspoken love.",
+     "a": "A strong entry: \"March 12. The boy left for foreign lands today. My lips moved with the rosary; my heart held him close. No tears, no words – only the moist imprint on his forehead. The sparrows will keep me company till he returns. Waheguru.\" Criteria: first-person voice, specific textual details (rosary, moist imprint, sparrows), emotional restraint matching her character, thematic resonance (prayer, silence). A poor entry would overexpress emotion (\"I cried all day\") or use modern language, violating character consistency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

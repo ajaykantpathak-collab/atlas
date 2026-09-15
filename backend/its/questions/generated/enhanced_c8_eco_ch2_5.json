@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_5",
+   "title": "c8_eco_ch2_5",
+   "questions": [
+    {
+     "q": "State the mathematical formula used to calculate population density and the standard unit of measurement.",
+     "a": "The formula is: \n$$\\text{Population Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area}}$$\nThe standard unit of measurement is **people per square kilometre (persons/km²)**. \n*What a wrong answer reveals:* If a student multiplies population by area or simply states the total population count, they do not understand that density is a ratio of people to space, failing to distinguish between absolute size and geographic concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a large state like Rajasthan has a much lower population density than a smaller state like West Bengal, even though Rajasthan has vast amounts of land.",
+     "a": "Rajasthan has a lower population density because its vast land area consists largely of the Thar Desert, where harsh climate and water scarcity limit agricultural productivity and human settlement. West Bengal, on the other hand, has highly fertile plains, abundant water resources, and industrial hubs that can support a massive population on a much smaller land area, resulting in a higher ratio of people per square kilometre.\n*What a wrong answer reveals:* If a student says Rajasthan has lower density simply \"because it is big,\" they fail to understand that density is determined by *both* population and area, and they overlook the geographic and economic factors (like water and fertile land) that attract people to settle in specific regions.",
+     "self_check": true
+    },
+    {
+     "q": "District A has a population of 15,00,000 living in an area of 3,000 sq km. District B has a population of 6,00,000 living in an area of 500 sq km. Calculate the population density of both districts and identify which district faces higher demand for residential land.",
+     "a": "**Step 1:** Calculate District A's density:  \n$$\\text{Density}_A = \\frac{15,00,000\\text{ people}}{3,000\\text{ sq km}} = 500\\text{ people/km²}$$\n\n**Step 2:** Calculate District B's density:  \n$$\\text{Density}_B = \\frac{6,00,000\\text{ people}}{500\\text{ sq km}} = 1,200\\text{ people/km²}$$\n\n**Conclusion:** District B is more densely populated (1,200 persons/km² vs 500 persons/km²) and therefore faces higher demand and competition for residential land.\n*What a wrong answer reveals:* If a student selects District A because 15,00,000 is larger than 6,00,000, they are confusing absolute population size with population density, showing they cannot apply the ratio concept to determine crowding.",
+     "self_check": true
+    },
+    {
+     "q": "How does a rapid increase in population density in an urban area affect the market price of housing and the pressure on social infrastructure like government schools?",
+     "a": "A rapid increase in population density means more people are competing for a fixed supply of land in that area. Economically, this high demand shifts housing prices and rents upward. Simultaneously, social infrastructure like government schools faces extreme pressure, leading to overcrowded classrooms, higher student-to-teacher ratios, and a need for immediate public investment to expand school buildings.\n*What a wrong answer reveals:* If a student claims that higher density will make housing cheaper (confusing density with supply), they do not understand how land scarcity behaves under high demand. If they ignore the impact on schools, they fail to link demographic density to infrastructure strain.",
+     "self_check": true
+    },
+    {
+     "q": "An economic planner suggests: \"To be fair, we should divide our state's health budget equally among all districts based solely on their geographic size (land area).\" Evaluate this proposal from an economic efficiency perspective.",
+     "a": "The planner's proposal is highly inefficient. Allocating healthcare budgets based on land area ignores population density. A highly dense district (e.g., 2,000 people/km²) will have thousands of patients needing a single clinic, leading to severe shortages and clinic failures. Meanwhile, a sparsely populated district (e.g., 10 people/km²) of the same geographic size will have underutilized clinics and wasted medical resources. Budgets must be allocated based on population density and size to ensure resources match human demand.\n*What a wrong answer reveals:* If a student agrees with the planner's proposal, they are confusing \"spatial equality\" with \"economic efficiency,\" failing to see that public funds must target the concentration of human needs (demand) rather than empty physical space.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are the chief economist for a city municipal corporation. The population density of a ward has doubled from 4,000 to 8,000 people/km² due to migration. Propose one physical infrastructure upgrade and one social infrastructure upgrade necessary to manage this change.",
+     "a": "A high-quality response should identify:\n1. **Physical Infrastructure Upgrade:** Upgrading underground sewer lines/water pipelines to high-capacity networks, or expanding public transit (like adding bus rapid transit lanes) to handle the doubled volume of daily commuters without gridlock.\n2. **Social Infrastructure Upgrade:** Constructing multi-story public clinic buildings or expanding existing government school buildings (adding vertical classrooms) to accommodate the dense population within the same geographic footprint.\n*What a poor answer reveals:* Proposing low-density solutions (like building individual single-family villas or wide highways that consume massive land) shows a failure to understand that high-density environments require vertically-scaled, space-saving infrastructure solutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

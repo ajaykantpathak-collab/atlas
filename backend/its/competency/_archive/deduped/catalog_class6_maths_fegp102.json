@@ -1,0 +1,235 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Lines and Angles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.2.1",
+   "title": "Point, Line Segment, Line and Ray",
+   "section": "2.1 to 2.4",
+   "definition": "A point fixes a location with no length, breadth or height; a line segment joins two points and has two endpoints; extending a segment endlessly on both sides gives a line, and extending it only one way gives a ray with one endpoint.",
+   "formula": "",
+   "key_idea": "Endpoint count separates the three: segment has two, ray has one, line has none.",
+   "textbook_ref": "fegp102.txt, 2.1 to 2.4",
+   "question_patterns": [
+    "what is the difference between a line and a line segment",
+    "how many endpoints does a ray have",
+    "draw and label a line segment AB of any length",
+    "give models of a point, line and ray from the classroom",
+    "can we measure the length of a line why not",
+    "write the notation of a ray starting at A through B"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.2",
+   "title": "Angles as Rotation",
+   "section": "2.5 to 2.7 Angle and rotation",
+   "definition": "An angle measures the amount of rotation between two arms joined at a vertex: opening the rotating arms wider makes a bigger angle, and the size does not depend on how long the arms are drawn.",
+   "formula": "",
+   "key_idea": "Angle is turning, not length: longer arms never make a bigger angle.",
+   "textbook_ref": "fegp102.txt, 2.5 to 2.7 Angle and rotation",
+   "question_patterns": [
+    "what is an angle and what are its arms",
+    "does a longer arm make a bigger angle justify",
+    "show the rotation of arms for a quarter turn",
+    "compare two angles using a circular paper",
+    "make rotating arms with straws and a clip",
+    "which angle is bigger when arms look unequal in drawing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.3",
+   "title": "Angles on a Straight Line",
+   "section": "2.8 Special Types of Angles",
+   "definition": "When a ray stands on a straight angle, the two angles on either side together make a straight angle of 180 degrees, so the unknown angle is found by subtracting the known one from 180.",
+   "formula": "x = 180 - known",
+   "key_idea": "A straight line hides a fixed total: 180 degrees, which turns angle puzzles into one subtraction.",
+   "textbook_ref": "fegp102.txt, 2.8 Special Types of Angles",
+   "question_patterns": [
+    "two angles on a straight line make how many degrees together",
+    "find the unknown angle when one angle on the line is 110 degrees",
+    "one angle of a straight line pair is 45 degrees find the other",
+    "why do angles on a straight line add to 180 degrees",
+    "check whether 70 and 120 can sit on the same straight line",
+    "draw a straight angle and split it into two angles of your choice"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "Angles standing on a straight line fill 180 degrees together.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the known angle",
+     "explain": "The unknown angle is 180 minus the known angle.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.4",
+   "title": "Measuring and Classifying Angles",
+   "section": "2.9 and 2.11 Measuring angles, types of angles",
+   "definition": "A protractor measures angles in degrees; angles are classified by size as right (exactly 90 degrees), acute (smaller than a right angle), obtuse (bigger than right but less than a straight angle), straight (180 degrees) and reflex (bigger than a straight angle).",
+   "formula": "",
+   "key_idea": "Each angle type is a region of turning: knowing the boundaries at 90, 180 and 360 sorts every angle.",
+   "textbook_ref": "fegp102.txt, 2.9 and 2.11 Measuring angles, types of angles",
+   "question_patterns": [
+    "how do you measure an angle with a protractor",
+    "define acute obtuse right straight and reflex angles",
+    "classify 45 90 120 and 200 degree angles",
+    "where should the centre of the protractor be placed",
+    "what is the measure of a straight angle",
+    "draw an angle of 60 degrees using a protractor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp102.txt",
+   "concept": "fegp.2.3",
+   "question_type": "compute",
+   "question_pattern": "Two angles on a straight line measure 110 degrees and x. Find x.",
+   "extracted_variables": {
+    "known": "the given angle on the straight line in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "Angles on a straight line add up to a straight angle of 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the known angle",
+     "explain": "Subtract the known angle from 180 to get the other.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp102.txt",
+   "concept": "fegp.2.3",
+   "question_type": "compute",
+   "question_pattern": "Two angles on a straight line measure 45 degrees and x. Find x.",
+   "extracted_variables": {
+    "known": "the given angle on the straight line in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the straight angle",
+     "explain": "The two angles together make 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the known angle",
+     "explain": "Take 45 away from 180.",
+     "compute": "x = 180 - known"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp102.txt",
+   "concept": "fegp.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "two angles on a straight line are 110 degrees and x; find x.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp102.txt, Figure it Out",
+   "questions": [
+    "What is the difference between a line, a ray and a line segment?",
+    "Two angles on a straight line are 110 degrees and x; find x.",
+    "Classify angles of 45, 90 and 120 degrees.",
+    "How do you compare two angles using a circular paper?",
+    "Draw an angle of 60 degrees with a protractor."
+   ]
+  }
+ ]
+}

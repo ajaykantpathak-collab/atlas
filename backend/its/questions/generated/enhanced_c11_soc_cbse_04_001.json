@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_001",
+   "title": "c11_soc_cbse_04_001",
+   "questions": [
+    {
+     "q": "State Tylor's 1871 definition of culture verbatim as given in the NCERT text, and identify which two elements in his list are explicitly non-material.",
+     "a": "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law, custom and any other capabilities and habits acquired by man as a member of society.\" Non-material elements: knowledge, belief, morals, law, custom (any two). A wrong answer that includes 'art' as non-material reveals confusion between tangible artifacts (paintings) and the abstract aesthetic system; Tylor treats art as a capability/habit, not the physical object.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Malinowski's definition (\"inherited artifacts, goods, technical processes, ideas, habits and values\") is considered a 'functional' expansion of Tylor's, using the NCERT's hint about Malinowski's fieldwork experience.",
+     "a": "Malinowski was stranded in the Trobriand Islands during WWI, forcing him to live with the people he studied (participant observation). He saw that artifacts (canoes, yams) and technical processes (fishing, gardening) are *inseparable* from ideas and values — they function together to meet human needs. Tylor, a museum curator, studied artifacts in isolation. A wrong answer focusing only on 'adding artifacts' misses the functional interdependence: for Malinowski, a canoe is not just an object but a technical process embedded with knowledge and social values.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Geertz's \"webs of significance\" concept to the Bangalore auto-driver interaction (NCERT p.64). Identify the specific 'web' (shared meaning system) that allows the commuter to understand the driver's eyebrow arch as a question and the head jerk as 'yes' — without a single word spoken.",
+     "a": "The 'web' is the *Bangalore auto-rickshaw hiring ritual*: a shared, tacit code where (1) destination-name + eyebrow arch = \"Will you go to X?\", (2) head jerk toward back seat = \"Yes, get in\", (3) grimace/drive away = \"No\". Both parties have internalised this symbol system through repeated interaction. A wrong answer describing it as 'body language' or 'gesture' misses Geertz's point: the meaning is not in the gesture itself but in the *culturally constructed interpretation* shared by the group — an outsider (e.g., a tourist) would not decode it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Kroeber & Kluckhohn definition (h) \"a mechanism for the normative regulation of behaviour\" with Malinowski's definition. Which dimension of culture (cognitive, normative, material) does each prioritise, and why does this difference matter for studying a society like the Andaman Islanders (NCERT tsunami example)?",
+     "a": "Definition (h) prioritises the *normative* dimension (rules, sanctions); Malinowski prioritises the *material-functional* dimension (artifacts, technical processes meeting needs). For the Andaman Islanders, Malinowski's lens explains *how* their experiential knowledge (cognitive) and technical process of reading nature (material) enabled survival — their 'mechanism' was not written laws but ecological attunement. A wrong answer saying both are 'normative' fails to see that Malinowski's 'values' are embedded in survival practices, not abstract rules.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Geertz's interpretive approach makes Tylor's and Malinowski's definitions obsolete because meaning is all that matters.\" Use the NCERT's discussion of literacy/orality (p.68) to justify your position.",
+     "a": "The claim is false. Geertz *complements* rather than replaces: Tylor inventories the *contents* of culture (knowledge, belief, art), Malinowski shows their *functional integration* (artifacts + ideas), Geertz reveals their *interpretive logic* (meaning). The literacy/orality example proves this: Tylor lists 'literature' as a capability; Malinowski notes the technical process of oral transmission; Geertz interprets why a vegetable-seller rejects alphabet literacy — the *meaning* of calculation differs across cognitive cultures. All three levels are needed for a \"comprehensive understanding\" (NCERT p.67).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 'definition of culture' in the style of Kroeber & Kluckhohn's list that synthesises Tylor (complex whole), Malinowski (functional integration), and Geertz (webs of meaning) into a single phrase (d)–(h) format. Justify each word choice.",
+     "a": "Example: \"(i) A shared, intergenerational system of meanings, artifacts, and practices that organises human experience and regulates conduct through culturally specific symbols.\" Justification: 'shared' = Geertz's webs; 'intergenerational' = Tylor's 'acquired by man as member of society'; 'system' = Malinowski's functional integration; 'meanings, artifacts, and practices' = all three dimensions; 'organises experience' = cognitive; 'regulates conduct' = normative (definition h); 'culturally specific symbols' = Geertz's interpretive focus. A poor answer merely concatenates the three definitions without synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_08_003",
+   "title": "c12_math_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the formula for the area between two curves y = f(x) and y = g(x) from x = a to x = b, assuming f(x) ≥ g(x) on [a, b]. What modification is needed if the curves cross within the interval?",
+     "a": "Area = ∫[a to b] [f(x) - g(x)] dx. If curves cross at x = c ∈ (a, b), split the integral: Area = ∫[a to c] |f(x) - g(x)| dx + ∫[c to b] |f(x) - g(x)| dx. A wrong answer like \"Area = ∫[a to b] [g(x) - f(x)] dx\" reveals the student does not understand which function is the upper bound. Writing the formula without absolute value or splitting at intersections shows they miss the critical step of handling sign changes when curves cross.",
+     "self_check": true
+    },
+    {
+     "q": "Two curves are given: y = x² and y = 2x. A student sets up the area between them from x = 0 to x = 2 as ∫[0 to 2] (x² - 2x) dx. Explain why this setup is incorrect and write the correct integral.",
+     "a": "On [0, 2], 2x ≥ x² (since at x=1, 2 > 1), so the upper curve is y = 2x, not y = x². The student subtracted in the wrong order, which would give a negative area. The correct integral is ∫[0 to 2] (2x - x²) dx. If a student writes the integral as given, they are not checking which function is greater on the interval — a critical step before integrating. They may also be confusing \"first minus second\" with \"upper minus lower.\"",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the region bounded by the curves y = x² and y = x + 2.",
+     "a": "Step 1: Find intersections: x² = x + 2 → x² - x - 2 = 0 → (x - 2)(x + 1) = 0 → x = -1, 2.\nStep 2: Determine upper curve on [-1, 2]: test x = 0 → 0² = 0, 0 + 2 = 2, so x + 2 ≥ x².\nStep 3: Set up integral: Area = ∫[-1 to 2] [(x + 2) - x²] dx.\nStep 4: Integrate: [x²/2 + 2x - x³/3] from -1 to 2.\nStep 5: Evaluate: At 2: (4/2 + 4 - 8/3) = 2 + 4 - 8/3 = 6 - 8/3 = 10/3.\nAt -1: (1/2 - 2 - (-1/3)) = 1/2 - 2 + 1/3 = 3/6 - 12/6 + 2/6 = -7/6.\nArea = 10/3 - (-7/6) = 20/6 + 7/6 = 27/6 = 9/2 = 4.5 sq units.\nA wrong answer like 0 or negative reveals sign errors in evaluation or wrong subtraction order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area between y = sin x and y = cos x on [0, π/2] using vertical strips versus horizontal strips. Which method is simpler and why?",
+     "a": "Vertical strips: Curves intersect at x = π/4. On [0, π/4], cos x ≥ sin x; on [π/4, π/2], sin x ≥ cos x. Requires two integrals: ∫[0 to π/4] (cos x - sin x) dx + ∫[π/4 to π/2] (sin x - cos x) dx.\nHorizontal strips: Solve for x: x = arcsin y and x = arccos y. Limits y = 0 to 1. Right curve is arccos y, left is arcsin y. Single integral: ∫[0 to 1] (arccos y - arcsin y) dy.\nVertical strips are simpler because integrating sin x and cos x is elementary, while integrating arcsin y and arccos y requires integration by parts. A student who says horizontal is simpler hasn't considered the antiderivative difficulty — they're only looking at number of integrals.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the area between y = x³ and y = x from x = -1 to x = 1 and writes: Area = ∫[-1 to 1] (x - x³) dx = [x²/2 - x⁴/4] from -1 to 1 = (1/2 - 1/4) - (1/2 - 1/4) = 0. They conclude the area is 0. Evaluate this solution and correct it.",
+     "a": "The student's integration is correct but the setup is wrong. The curves intersect at x = -1, 0, 1. On [-1, 0], x³ ≥ x (e.g., at x = -0.5: -0.125 ≥ -0.5), so upper is x³. On [0, 1], x ≥ x³. The integral ∫[-1 to 1] (x - x³) dx gives net signed area, not total area. Correct approach: Area = ∫[-1 to 0] (x³ - x) dx + ∫[0 to 1] (x - x³) dx = 2 × ∫[0 to 1] (x - x³) dx = 2 × [1/2 - 1/4] = 2 × 1/4 = 1/2 sq units. The student forgot that area is always positive and requires splitting at ALL intersections, not just endpoints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where finding the area between two curves is necessary. Define the curves, the interval, and explain what the area represents physically.",
+     "a": "Example: A farmer in Punjab has a field bounded by two irrigation canals. Canal A follows y = 4 - x² (in km) and Canal B follows y = x + 1, between their intersection points. The farmer wants to plant wheat in the region between the canals. Find the cultivable area.\nIntersections: 4 - x² = x + 1 → x² + x - 3 = 0 → x = [-1 ± √13]/2 ≈ -2.30, 1.30.\nOn this interval, 4 - x² ≥ x + 1. Area = ∫[(-1-√13)/2 to (-1+√13)/2] [(4 - x²) - (x + 1)] dx = ∫ (3 - x - x²) dx.\nThis represents the land area in km² between two curved boundaries. A good answer includes: clear physical interpretation, correct intersection finding, proper upper/lower identification, and correct integral setup. A poor answer uses straight lines instead of curves, or forgets that area represents cultivable land.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

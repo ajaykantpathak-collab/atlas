@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_002",
+   "title": "c10_math_cbse_11_002",
+   "questions": [
+    {
+     "q": "Write the formula for the circumference of a circle in terms of its radius \\(r\\) and also in terms of its diameter \\(d\\). State the approximate value of \\(\\pi\\) used in CBSE board exams for non-calculator questions.",
+     "a": "\\(C = 2\\pi r\\) and \\(C = \\pi d\\); \\(\\pi \\approx \\frac{22}{7}\\) or \\(3.14\\). A wrong answer like \\(C = \\pi r^2\\) reveals confusion between circumference and area formulas. Writing \\(\\pi = 3.14\\) only (without \\(\\frac{22}{7}\\)) suggests the student may not know which approximation yields exact answers in CBSE marking scheme — \\(\\frac{22}{7}\\) is preferred when radius/diameter is a multiple of 7.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Circumference of a circle with radius 7 cm is \\(2 \\times \\frac{22}{7} \\times 7 = 44\\,\\text{cm}\\). If the radius is doubled to 14 cm, the circumference also doubles to \\(88\\,\\text{cm}\\).\" Is the student's reasoning correct? Explain why or why not using the formula.",
+     "a": "Yes, the reasoning is correct. Circumference \\(C = 2\\pi r\\) is directly proportional to radius \\(r\\) (with constant \\(2\\pi\\)). Doubling \\(r\\) doubles \\(C\\). A wrong answer claiming \"circumference becomes four times\" reveals the student is incorrectly applying the area proportionality (\\(A \\propto r^2\\)) to circumference. This is a common Class 10 error where students confuse linear vs quadratic scaling.",
+     "self_check": true
+    },
+    {
+     "q": "The circumference of a circular garden is \\(176\\,\\text{m}\\). Find the radius of the garden. Use \\(\\pi = \\frac{22}{7}\\). Then find the cost of fencing the garden at ₹15 per metre.",
+     "a": "Given \\(C = 176\\,\\text{m}\\), \\(\\pi = \\frac{22}{7}\\). Formula: \\(C = 2\\pi r\\). Substitute: \\(176 = 2 \\times \\frac{22}{7} \\times r\\). Simplify: \\(176 = \\frac{44}{7} r\\). Multiply both sides by 7: \\(1232 = 44r\\). Divide by 44: \\(r = 28\\,\\text{m}\\). Fencing cost = circumference × rate = \\(176 \\times 15 = ₹2640\\). A wrong answer like \\(r = 56\\,\\text{m}\\) reveals the student used \\(C = \\pi r\\) (forgetting the factor 2). A cost answer of ₹1320 reveals they used radius instead of circumference for cost calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Two circular tracks have radii \\(r_1 = 21\\,\\text{m}\\) and \\(r_2 = 28\\,\\text{m}\\). An athlete runs 5 rounds on the first track and 3 rounds on the second. Which track covers more total distance? By how much? Use \\(\\pi = \\frac{22}{7}\\).",
+     "a": "Track 1: \\(C_1 = 2 \\times \\frac{22}{7} \\times 21 = 132\\,\\text{m}\\). 5 rounds = \\(5 \\times 132 = 660\\,\\text{m}\\). Track 2: \\(C_2 = 2 \\times \\frac{22}{7} \\times 28 = 176\\,\\text{m}\\). 3 rounds = \\(3 \\times 176 = 528\\,\\text{m}\\). Track 1 covers more by \\(660 - 528 = 132\\,\\text{m}\\). A wrong answer choosing Track 2 reveals the student compared only radii (28 > 21) without considering number of rounds. An answer of \"difference = 44 m\" reveals they computed single-round difference (176−132) but forgot to multiply by rounds.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the radius of a circle whose circumference is \\(44\\,\\text{cm}\\).\" Their working: \\(44 = 2 \\times \\frac{22}{7} \\times r \\Rightarrow 44 = \\frac{44}{7} r \\Rightarrow r = 7\\,\\text{cm}\\). They then write: \"Area = \\(\\pi r^2 = \\frac{22}{7} \\times 7^2 = 154\\,\\text{cm}^2\\).\" The question only asked for radius. Identify the error in the student's approach and explain whether the final radius value is correct.",
+     "a": "The radius value \\(r = 7\\,\\text{cm}\\) is correct. The error is that the student computed area unnecessarily — the question did not ask for it. In board exams, extra working wastes time and may lead to arithmetic errors. A student who says \"the radius is wrong because they calculated area\" reveals they cannot distinguish between required and extra steps. The correct evaluation: radius is right, but the area calculation is irrelevant and should not be written.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that requires using the circumference formula to find the number of revolutions a wheel makes. Specify all given values clearly. The problem should involve a vehicle wheel and distance travelled in kilometres.",
+     "a": "Example problem: \"The wheel of a tractor has radius 42 cm. How many complete revolutions does it make in covering 1.32 km? (Use \\(\\pi = \\frac{22}{7}\\))\". A good answer shows: \\(C = 2 \\times \\frac{22}{7} \\times 42 = 264\\,\\text{cm}\\). Distance = \\(1.32\\,\\text{km} = 1,32,000\\,\\text{cm}\\). Revolutions = \\(\\frac{1,32,000}{264} = 500\\). A poor problem (e.g., missing units, unrealistic numbers, or not solvable with \\(\\frac{22}{7}\\)) reveals the student does not understand the relationship between circumference, distance, and revolutions, or cannot design problems with \"nice\" numbers for CBSE exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

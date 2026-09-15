@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_002",
+   "title": "c12_bs_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the six points of importance of planning as per NCERT Class 12 Business Studies.",
+     "a": "The six points are: (i) Planning provides directions, (ii) Planning reduces the risks of uncertainty, (iii) Planning reduces overlapping and wasteful activities, (iv) Planning promotes innovative ideas, (v) Planning facilitates decision making, (vi) Planning establishes standards for controlling. A wrong answer (e.g., listing features like \"pervasive\" or \"continuous\") reveals confusion between *features* (what planning *is*) and *importance* (what planning *achieves*).",
+     "self_check": true
+    },
+    {
+     "q": "\"Planning reduces uncertainty\" — explain this in your own words using a business example. Why is it incorrect to say \"planning eliminates uncertainty\"?",
+     "a": "Planning reduces uncertainty by forcing managers to anticipate future changes (e.g., a smartphone company forecasting 5G demand and pre-ordering chips) and prepare responses in advance. It cannot *eliminate* uncertainty because external forces (policy shifts, natural disasters, competitor breakthroughs) are inherently unpredictable. Saying \"eliminates\" confuses risk mitigation with total control — a common board-exam error that loses marks for imprecise terminology.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm produces three products on shared machines. Without planning, Product A delays Product B, and raw material for Product C expires unused. Which *specific* importance point addresses this, and how would a plan fix it?",
+     "a": "This illustrates \"Planning reduces overlapping and wasteful activities.\" A production schedule (plan) sequences machine time, aligns raw material orders with usage dates, and assigns clear responsibilities — eliminating idle machines, expired inventory, and inter-departmental blame. A wrong answer citing \"direction\" or \"decision making\" misses the coordination aspect unique to this benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Planning promotes innovative ideas\" and \"Planning reduces creativity\" (a limitation). How can both be true simultaneously? Resolve the apparent contradiction.",
+     "a": "Both are true at different levels: Top management’s strategic plan *creates space* for innovation (e.g., allocating 10% revenue to R&D, setting a \"green product\" goal) — this is \"promotes innovative ideas.\" However, rigid *operational* plans forced on middle/lower managers without discretion *stifle* day-to-day creativity — this is \"reduces creativity.\" The contradiction resolves when recognizing planning’s dual role: it enables innovation at the strategic level but can constrain it at the execution level if poorly designed.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A startup founder says, 'We don’t need formal planning; we pivot daily based on customer feedback. Planning establishes standards for controlling, but we have no fixed standards — we just iterate.' Is the founder correct that planning is unnecessary?\"",
+     "a": "The founder is *incorrect*. Even agile startups need planning: sprint goals, burn-rate limits, hiring targets, and product roadmaps *are* plans with standards (e.g., \"launch MVP in 8 weeks,\" \"keep CAC below ₹500\"). Without these, there is no basis to measure if a pivot improves performance. \"Iterating\" without standards is drifting, not controlling. Planning in dynamic environments means *shorter-cycle, flexible* plans — not absence of plans.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-row table mapping each of the six importance points to: (a) a specific managerial problem it solves, (b) a measurable indicator that the benefit is working, and (c) a real Indian organization example (use any sector).",
+     "a": "Example row for \"Planning establishes standards for controlling\": Problem = \"No way to know if sales team is effective\"; Indicator = \"Monthly sales variance vs. target < 5%\"; Example = \"Maruti Suzuki uses monthly dealer-wise sales budgets to track and correct deviations.\" A good answer shows distinct problems/indicators/examples for all six points. A poor answer repeats generic phrases like \"improves efficiency\" without measurable indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

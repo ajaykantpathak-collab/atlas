@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_010",
+   "title": "c11_hist_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the approximate time period when the Gothic style of cathedral architecture emerged in France?",
+     "a": "The Gothic style emerged in the Île-de-France region around 1140, with the rebuilding of the Abbey Church of Saint-Denis under Abbot Suger. A wrong answer (e.g., 10th century or 13th century) reveals confusion between Romanesque and Gothic chronology or between the start of the style and its high phase.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Church invest enormous resources in building cathedrals during the 12th and 13th centuries?",
+     "a": "Cathedrals served as bishops' seats, centers of diocesan administration, repositories of relics attracting pilgrims (and revenue), and visible symbols of the Church's spiritual and temporal authority. A wrong answer focusing only on piety misses the political, economic, and social functions.",
+     "self_check": true
+    },
+    {
+     "q": "How did the flying buttress solve a structural problem inherent in earlier Romanesque churches?",
+     "a": "Romanesque barrel vaults exerted outward thrust on walls, requiring thick walls and small windows. The flying buttress transferred that thrust to external piers, allowing taller, thinner walls filled with stained glass. A wrong answer might confuse buttresses with internal piers or misattribute the innovation to aesthetic preference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organization of labor for a typical Gothic cathedral with that for a Harappan citadel (studied in Class 6). What does the comparison reveal about social hierarchy?",
+     "a": "Harappan citadels used planned, possibly state-organized labor with standardized bricks; Gothic cathedrals relied on a mix of feudal corvée labor, paid urban artisans, and volunteer pilgrims, overseen by a master mason. The comparison shows a shift from centralized state control to a decentralized, hierarchical but negotiated mobilization involving Church, lords, and guilds. A poor answer overlooks the role of guilds or the voluntary dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Gothic cathedrals were built solely by the peasantry under coercion.\"",
+     "a": "The claim is false. While peasants provided unskilled labor (quarrying, transport) often as feudal dues, skilled work (stonecutting, sculpture, stained glass) was done by professional masons organized in guilds who negotiated wages and conditions. Many workers were volunteers motivated by piety. A wrong answer reflects a monolithic view of medieval labor ignoring guild autonomy and religious motivation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the diffusion of Gothic architecture from France to England, Germany, and Italy, noting one key cathedral in each region and its approximate start date.",
+     "a": "A good timeline: Saint-Denis (France, 1140) → Canterbury Cathedral choir (England, 1175) → Cologne Cathedral (Germany, 1248) → Milan Cathedral (Italy, 1386). Include the role of Cistercians and royal patronage in diffusion. A poor answer lists cathedrals without dates or fails to show the chronological spread.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

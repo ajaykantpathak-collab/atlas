@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_004",
+   "title": "c12_bio_cbse_09_004",
+   "questions": [
+    {
+     "q": "Define artificial insemination and state the single most critical parameter for timing insemination in cattle.",
+     "a": "Artificial Insemination (AI) is the technique of collecting semen from a male and depositing it artificially into the female reproductive tract (cervix/uterus) using instruments, without natural mating. The most critical timing parameter is insemination during **standing heat (estrus)**, specifically 12-18 hours after onset of estrus (AM-PM rule), when ovulation occurs ~24-30 hours post-estrus onset, ensuring sperm capacitation (6-8 hours) aligns with oocyte viability (6-10 hours post-ovulation).  \n**Wrong answer reveals**: If student says \"any time during heat\" or \"after ovulation\", they confuse estrus detection with ovulation timing — a classic error causing repeat breeding. If they cite \"morning/evening\" without the 12-18 hour window, they memorised a rule without understanding sperm-oocyte synchrony.",
+     "self_check": true
+    },
+    {
+     "q": "Why is semen diluted with extenders containing egg yolk/glycerol before AI, and what would happen if undiluted semen were used directly?",
+     "a": "Semen is diluted to: (i) increase dose volume for practical deposition, (ii) extend shelf-life by providing nutrients (fructose, citrate), buffers, and antibiotics, (iii) **protect sperm membranes during cooling/freezing** — egg yolk phospholipids stabilise membranes against cold shock, glycerol acts as cryoprotectant preventing intracellular ice crystal formation. If undiluted semen were used: (a) only 1-2 cows could be served per ejaculate (vs 500+ doses), (b) sperm would die within hours at room temperature, (c) freezing without cryoprotectant would lyse >90% sperm due to ice crystals.  \n**Wrong answer reveals**: If student says \"to increase sperm count\" — they confuse dilution with concentration. If they omit cold shock/cryoprotection, they miss the physics of membrane phase transition, a NEET-favourite concept linking biology to thermodynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer superovulates a donor cow with FSH (total 20 mg over 4 days, twice daily). On Day 4, he administers PGF2α. When should he inseminate, and how many times? Explain the physiological basis.",
+     "a": "**Insemination schedule**: First AI at 12 hours after observed standing heat (estrus onset), second AI at 24 hours (i.e., 12-hour interval). **Physiological basis**: FSH recruits a follicular wave → multiple preovulatory follicles develop. PGF2α (given Day 4) lyses the corpus luteum → progesterone drops → LH surge → ovulation of **multiple follicles 24-36 hours post-PGF2α**. Estrus (standing heat) begins ~36-48 hours post-PGF2α. Since multiple oocytes ovulate over 6-12 hours, and each oocyte survives 6-10 hours, two inseminations 12 hours apart ensure sperm (viable 18-24 hours post-capacitation) are present for all ovulations.  \n**Wrong answer reveals**: Single AI timing error (e.g., \"at heat onset\" or \"24 hours after PGF2α\") shows ignorance of follicular asynchrony. Missing the second AI indicates they think all follicles ovulate simultaneously — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic gain per year achievable by (a) natural mating of one elite bull to 40 cows, (b) AI using the same bull on 10,000 cows, (c) MOET from one elite cow producing 6 transferable embryos transferred to surrogates. Assume generation interval = 5 years for bull, 4 years for cow, selection intensity identical.",
+     "a": "Genetic gain per year (ΔG/yr) = (Selection intensity × Accuracy × Genetic SD) / Generation Interval.  \n(a) Natural mating: 40 progeny/year from bull → bull pathway gain = k/5. Cow pathway unchanged.  \n(b) AI: 10,000 progeny/year from same bull → **selection intensity on bull pathway increases ~√(10000/40) ≈ 16-fold** (truncation selection). Bull pathway gain = 16k/5 = 3.2k/yr.  \n(c) MOET: 6 embryos/year from elite cow → cow pathway selection intensity increases ~√(6/1) ≈ 2.4-fold. Cow pathway gain = 2.4k/4 = 0.6k/yr.  \n**Combined AI + MOET** multiplies both pathways.  \n**Wrong answer reveals**: If student says \"AI gives more calves so more gain\" without invoking selection intensity formula, they miss the quantitative genetics core (Falconer's equation). If they ignore generation interval difference, they can't explain why MOET (shorter cow generation interval) is powerful despite fewer embryos.",
+     "self_check": true
+    },
+    {
+     "q": "A veterinary student claims: \"Superovulation with FSH always yields 8-10 viable embryos per donor cow.\" Evaluate this statement. Identify three biological sources of variation in embryo yield and quality.",
+     "a": "**Statement is FALSE** — it overgeneralises. Actual yield: **0 to 20+ embryos**, with mean 5-6 transferable embryos; 20-30% donors yield ≤2 embryos (\"poor responders\"). Three biological variation sources:  \n1. **Follicular wave dynamics**: Cows have 2-3 follicular waves/estrus cycle; FSH must be given during wave emergence (Day 0-3) to recruit subordinate follicles. If given at wrong wave stage, dominant follicle suppresses others → fewer ovulations.  \n2. **Oocyte competence**: Not all ovulated oocytes are developmentally competent; mitochondrial DNA copy number, cytoplasmic maturation, and meiotic spindle integrity vary with cow age, nutrition, metabolic status (NEFA/BHBA levels).  \n3. **Embryo recovery efficiency**: Non-surgical uterine flushing at Day 7 recovers 50-70% of embryos; some degenerate, some trapped in oviducts. Synchrony between donor and recipient (within ±12 hours) is critical for pregnancy rates post-transfer.  \n**Wrong answer reveals**: Accepting \"always 8-10\" shows textbook memorisation without field variability awareness. Missing follicular wave dynamics ignores the endocrine physiology (FSH/LH interplay) taught in Class 11 endocrine chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost field protocol to identify the optimal day for PGF2α administration in a superovulation programme for a herd of 50 crossbred cows, using only rectal palpation and estrus detection (no ultrasound). Justify each step.",
+     "a": "**Protocol**:  \n1. **Estrus synchronisation**: Give PGF2α to all 50 cows (Day 0). Observe for standing heat (Days 2-5).  \n2. **Follicular wave mapping**: From Day 5 onward, perform **daily rectal palpation** to track follicular growth. Record largest follicle diameter.  \n3. **Identify wave emergence**: A new follicular wave emerges when a cohort of 3-5 mm follicles appears (palpable as small firm structures) while the previous dominant follicle regresses. This typically occurs **Day 3-5 post-estrus** (first wave) and **Day 10-12** (second wave).  \n4. **Start FSH at wave emergence**: Begin FSH injections on the day the new cohort is first palpated (Day 3-5 or Day 10-12 post-estrus).  \n5. **Give PGF2α on Day 4 of FSH** (standard protocol).  \n**Justification**: Without ultrasound, rectal palpation detects follicles ≥5 mm. Wave emergence is the only physiologically correct time to start FSH — starting mid-wave yields poor response because the dominant follicle exerts inhibin/estradiol negative feedback suppressing FSH receptor expression on subordinate follicles.  \n**Wrong answer reveals**: Fixed calendar-based FSH start (e.g., \"Day 10 of cycle\") ignores individual variation in wave timing — a major cause of poor superovulation response in field conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

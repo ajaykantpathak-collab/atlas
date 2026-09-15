@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_008",
+   "title": "c11_phy_cbse_03_008",
+   "questions": [
+    {
+     "q": "State the magnitude and direction of the cross product **A** × **B** if **A** = 3î + 4ĵ and **B** = 5î (both in metres). Give the SI unit of the result.",
+     "a": "Magnitude = 20 m², direction = +k̂ (out of the page). The cross product yields a vector with units m² (area). A wrong answer of 0 reveals the student thinks parallel vectors have non-zero cross product; an answer with units m reveals confusion with dot product; missing the direction or giving -k̂ shows the right-hand rule is not applied correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why **A** × **B** = -(**B** × **A**) using the right-hand rule and the definition of the cross product. Why does this anti-commutativity not hold for the dot product?",
+     "a": "The right-hand rule gives opposite directions when the order is reversed because curling fingers from **A** to **B** vs **B** to **A** points the thumb oppositely. The magnitude |**A**||**B**| sin θ is symmetric, so only the sign flips. The dot product uses cos θ, which is symmetric (cos θ = cos(-θ)), so **A**·**B** = **B**·**A**. A student who says \"cross product is negative because of sine\" confuses sin(-θ) = -sin θ with the order reversal; the angle between vectors is always taken as the smaller angle (0 to π), so sin θ ≥ 0. The sign change comes solely from the direction reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate **A** × **B** for **A** = 2î - 3ĵ + 4k̂ and **B** = î + 2ĵ - k̂. Express the result in component form and find its magnitude.",
+     "a": "**A** × **B** = determinant |î ĵ k̂; 2 -3 4; 1 2 -1| = î(3 - 8) - ĵ(-2 - 4) + k̂(4 + 3) = -5î + 6ĵ + 7k̂. Magnitude = √(25 + 36 + 49) = √110 ≈ 10.49 (unit²). A common error is sign mistakes in the cofactor expansion (e.g., forgetting the minus sign for the ĵ component) or adding instead of subtracting the products. Unit analysis: if **A** and **B** are in metres, the result is in m².",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **P** and **Q** have magnitudes 5 and 12 respectively. Their cross product has magnitude 30. Find the angle between **P** and **Q**. Is the angle uniquely determined? Explain.",
+     "a": "|**P** × **Q**| = |**P**||**Q**| sin θ = 5 × 12 × sin θ = 60 sin θ = 30 → sin θ = 0.5 → θ = 30° or 150°. The angle is NOT uniquely determined because sin θ = sin(180° - θ). The cross product magnitude only gives the acute/obtuse ambiguity. A student who gives only 30° misses the 150° possibility; a student who uses cos θ confuses with dot product.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The cross product of two vectors is zero only if at least one of them is a zero vector.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is FALSE. The cross product is zero if the vectors are parallel (θ = 0° or 180°) because sin θ = 0, even if both are non-zero. For example, **A** = 2î and **B** = 3î give **A** × **B** = 0. The correct condition: **A** × **B** = 0 iff **A** = 0 or **B** = 0 or **A** is parallel to **B**. A student who agrees with the statement confuses cross product with the property that only the zero vector has zero magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, a known mass, and a spring balance to demonstrate that the turning effect (torque) of a force about a pivot is given by the cross product **τ** = **r** × **F**. Describe the measurements, the vector quantities involved, and how you would verify the sin θ dependence.",
+     "a": "Fix a metre scale horizontally on a pivot at the 0 cm mark. Hang a mass (force **F** = mg downward) at different positions (varying **r**) and at different angles (using a string pulled sideways). Measure the force with a spring balance and the angular acceleration (or balance with a known torque). Plot torque magnitude vs sin θ for fixed |**r**| and |**F**|; it should be linear. The direction of **τ** (axis of rotation) is perpendicular to the plane of **r** and **F**, verified by the right-hand rule. A poor answer would only describe balancing weights without varying the angle or identifying the vector nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

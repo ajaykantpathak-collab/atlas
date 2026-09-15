@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_08_014",
+   "title": "c11_hin_ar_cbse_08_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing structured answers for literature questions?",
+     "a": "PEEL stands for Point (topic sentence stating the argument), Evidence (specific textual detail/quote), Explanation (analysis of how evidence supports the point), and Link (connecting back to the question/theme). A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student lacks the meta-cognitive framework for answer construction and will likely produce disorganized, summary-heavy responses.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Nehru travelled across India and talked to peasants. He realised Bharat Mata is not land but people. This shows unity in diversity.\" Identify which PEEL component is missing and why this answer would score low on a 6-mark question.",
+     "a": "The answer has Point and Link but lacks specific Evidence (no paraphrased incident/quote) and Explanation (no analysis of *how* the realization occurs or *why* it signifies unity). Without Evidence/Explanation, the answer remains a plot summary. A student who misses this thinks \"knowing the story\" equals \"writing an answer\" – the core misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the weak answer from Question 2 into a strong PEEL paragraph for a 3-mark question. Include one specific textual reference (paraphrased) and analytical explanation.",
+     "a": "**Strong Answer:** Nehru redefines Bharat Mata as the collective people of India, not its geography (Point). When a peasant in a remote village asks, \"Who is this Bharat Mata whose victory you shout?\" (Evidence), it exposes the disconnect between elite nationalist slogans and the masses' lived reality (Explanation). Nehru's reply – \"You are Bharat Mata\" – transforms the nation into a living relationship of shared dignity, making unity in diversity a human truth, not a political slogan (Link). A weak rewrite would still lack the causal explanation connecting the peasant's question to the conceptual shift.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two approaches to answering \"Discuss the role of irony in Nehru's portrayal of 'Bharat Mata'.\" Approach A: Lists three ironic statements from the text. Approach B: Argues that irony reveals the gap between abstract nationalism and concrete humanity, using the peasant scene as central evidence. Which approach demonstrates higher-order analysis? Justify.",
+     "a": "Approach B demonstrates analysis (Bloom's Level 4) because it identifies a *pattern* (irony as a structural device) and explains its *thematic function* (exposing the abstract/concrete gap). Approach A is mere identification (Level 1). A student choosing A thinks literary devices are \"things to spot\" rather than \"tools the author uses to shape meaning\" – a critical senior-secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a 6-mark question on Chapter 8, writing a 300-word detailed summary of Nehru's travels guarantees full marks because it shows thorough knowledge of the text.\" Defend your evaluation with reference to CBSE marking rubrics.",
+     "a": "The claim is false. CBSE rubrics allocate marks for: Understanding (2), Analysis/Interpretation (2), Expression/Structure (2). A summary scores only on Understanding (max 2/6). It fails Analysis (no argument, no device discussion) and Expression (no PEEL, no thesis). A student believing this confuses \"content knowledge\" with \"answer writing skill\" – they need to practice converting knowledge into structured arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-mark question on Chapter 8 that tests *both* theme (unity in diversity) and literary device (metaphor), then write a model PEEL answer for it.",
+     "a": "**Question:** \"How does Nehru use the metaphor of 'Bharat Mata' to embody the theme of unity in diversity? Support with two textual details.\" **Model Answer:** Nehru transforms 'Bharat Mata' from a territorial metaphor into a humanistic one to embody unity in diversity (Point). Initially, the slogan \"Bharat Mata ki Jai\" treats the nation as a sacred geography (Evidence 1: the slogan's abstract reverence). Through the peasant's question and Nehru's response – \"The mountains, rivers, forests... are Bharat Mata, but ultimately *you* are Bharat Mata\" (Evidence 2: the redefinition) – the metaphor shifts to the diverse people themselves (Explanation). This makes unity organic: every Indian, irrespective of region/faith, *is* the nation, making diversity the very substance of unity (Link). A poor answer would list metaphors without explaining the *shift* or its *thematic consequence*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

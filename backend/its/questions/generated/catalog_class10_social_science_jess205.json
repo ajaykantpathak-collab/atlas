@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class10_social_science_jess205",
+ "concepts": [
+  {
+   "id": "jess.205.1.1",
+   "title": "Rise of the Consumer Movement in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rise of the Consumer Movement in India' refers to.",
+     "a": "The consumer movement grew out of frequent shortages, hoarding, black marketing and adulteration, shifting from small local actions in the 1960s to an organised national campaign that pressed the government to frame rules against unfair trade practices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rise of the Consumer Movement in India'.",
+     "a": "Until the 1970s and 1980s, voluntary consumer organisations were busy writing articles and holding exhibitions, and the campaign became a united front only after the enactment of COPRA in 1986.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rise of the Consumer Movement in India' taught, and from which source text?",
+     "a": "The Consumer Movement (source: jess205.txt lines 189-384)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.2.1",
+   "title": "Rights of Consumers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rights of Consumers' refers to.",
+     "a": "Consumers hold a bundle of rights: safety against hazardous goods, information about ingredients, price and expiry, choice against forced selling, representation in forums, redressal with compensation, consumer education, and a healthy environment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rights of Consumers'.",
+     "a": "The right to information is so vital that the RTI Act, 2005 now lets citizens ask government departments for records, and the right to choose means nobody can force a stove purchase with a gas connection.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rights of Consumers' taught, and from which source text?",
+     "a": "Consumer Rights (source: jess205.txt lines 400-660)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.3.1",
+   "title": "Proportionate Course Fee Refund",
+   "questions": [
+    {
+     "q": "Calculate the fee for one year from a lumpsum course fee. Use the method 'Proportionate Course Fee Refund'. Work with: course_years = 50, total_fee = 80000. Carry the chain through step by step and give the final value of annual_fee.",
+     "a": "1600 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the per year fee when the total course fee is known. Use the method 'Proportionate Course Fee Refund'. Work with: course_years = 150, total_fee = 8000. Carry the chain through step by step and give the final value of annual_fee.",
+     "a": "53.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Proportionate Course Fee Refund' refers to.",
+     "a": "When a student pays a lumpsum fee for a multi-year course and exits early, the fee for one year is worked out by dividing the total fee by the number of course years, a calculation that redressal commissions use while directing refunds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proportionate Course Fee Refund'.",
+     "a": "In the institute case, a two-year lumpsum fee was challenged after one year, and the District Commission directed a refund while restricting advance collection of full-course fees.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Proportionate Course Fee Refund', in plain ASCII form.",
+     "a": "annual_fee = total_fee / course_years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.4.1",
+   "title": "Three-Tier Consumer Disputes Redressal Machinery",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Three-Tier Consumer Disputes Redressal Machinery' refers to.",
+     "a": "Under COPRA a three-tier quasi-judicial machinery hears consumer disputes: the District Commission for claims up to Rs 1 crore, the State Commission for claims between Rs 1 crore and Rs 10 crore, and the National Commission for claims above Rs 10 crore.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Three-Tier Consumer Disputes Redressal Machinery'.",
+     "a": "A consumer can file a complaint alone or with lawyers, physically or online, and appeals move upward from district to state to national commission, as Prakash's money-order case shows.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Three-Tier Consumer Disputes Redressal Machinery' taught, and from which source text?",
+     "a": "Where Should Consumers Go to Get Justice (source: jess205.txt lines 660-700, 780-840)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.4.2",
+   "title": "Consumer Protection Councils and COPRA Amendment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consumer Protection Councils and COPRA Amendment' refers to.",
+     "a": "Consumer protection councils are voluntary bodies that guide consumers on filing cases and represent them, while the Consumer Protection Act, amended in 2019, brought internet buying, e-commerce liability, penalties and mediation into the redressal system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Protection Councils and COPRA Amendment'.",
+     "a": "COPRA's enactment created separate Departments of Consumer Affairs in central and state governments and spread awareness through posters and television campaigns.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Consumer Protection Councils and COPRA Amendment' taught, and from which source text?",
+     "a": "Learning to Become Well-Informed Consumers (source: jess205.txt lines 330-400, 780-880, 1023-1060)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.5.1",
+   "title": "Quality Certification: ISI, Agmark and Hallmark",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Quality Certification: ISI, Agmark and Hallmark' refers to.",
+     "a": "Certification logos such as ISI, Agmark, Hallmark and the +F mark assure buyers of quality, and for products affecting health and safety like LPG cylinders, food colours, cement and packaged drinking water, certification is mandatory for producers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Quality Certification: ISI, Agmark and Hallmark'.",
+     "a": "Certifying organisations let producers use their logos only if they follow set quality standards, though certification is not compulsory for every product.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Quality Certification: ISI, Agmark and Hallmark' taught, and from which source text?",
+     "a": "ISI and Agmark (source: jess205.txt lines 880-905)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.6.1",
+   "title": "Organised Share of Consumer Groups",
+   "questions": [
+    {
+     "q": "Calculate the share of well organised consumer groups in india. Use the method 'Organised Share of Consumer Groups'. Work with: organised_groups = 400, total_groups = 500. Carry the chain through step by step and give the final value of organised_share.",
+     "a": "80 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the percentage of organised groups from the total number of groups. Use the method 'Organised Share of Consumer Groups'. Work with: organised_groups = 500, total_groups = 12. Carry the chain through step by step and give the final value of organised_share.",
+     "a": "4166.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Organised Share of Consumer Groups' refers to.",
+     "a": "India today has more than two thousand consumer organisations, but only a small recognised fraction is well organised, so the recognised share is computed by dividing the number of organised groups by the total number of groups.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organised Share of Consumer Groups'.",
+     "a": "Of over 2000 consumer groups only about 50 to 60 are well organised and recognised, and the redressal process remains cumbersome, expensive and time consuming.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Organised Share of Consumer Groups', in plain ASCII form.",
+     "a": "organised_share = organised_groups / total_groups * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.205.7.1",
+   "title": "National Consumers Day and Consumer Awareness",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'National Consumers Day and Consumer Awareness' refers to.",
+     "a": "India observes 24 December as National Consumers Day because Parliament enacted the Consumer Protection Act on that day in 1986, and awareness spreads through posters, advertisements and school learning, though enforcement remains uneven.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Consumers Day and Consumer Awareness'.",
+     "a": "After more than thirty years of COPRA, awareness is spreading slowly, laws for unorganised sector workers stay weak, and the movement succeeds only with active voluntary involvement of consumers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'National Consumers Day and Consumer Awareness' taught, and from which source text?",
+     "a": "National Consumers Day (source: jess205.txt lines 905-930, 1023-1080)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

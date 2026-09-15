@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch02_008",
+   "title": "c6_physics_ch02_008",
+   "questions": [
+    {
+     "q": "What colour does turmeric powder turn when it comes in contact with a basic substance like soap solution?",
+     "a": "Turmeric turns red-brown in a basic solution. If a student says it turns green or blue, they are confusing it with litmus or red cabbage indicators, showing they haven't distinguished between the specific reactions of different natural indicators.",
+     "self_check": true
+    },
+    {
+     "q": "If you dip a piece of blue litmus paper into lemon juice, what change do you expect to see, and what does this tell you about the lemon juice?",
+     "a": "The blue litmus paper will turn red, indicating that lemon juice is an acid. If a student says it stays blue, they are failing to recognize that acids cause a color change in litmus, a fundamental property of this specific indicator.",
+     "self_check": true
+    },
+    {
+     "q": "You have a mystery liquid that turns red cabbage juice from purple to green. Is this liquid an acid or a base?",
+     "a": "The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for each type of substance; they need to revisit the pattern that red cabbage turns pink/red for acids and green/yellow for bases.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't we use a single natural indicator like turmeric to test every substance in the world with total certainty?",
+     "a": "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric. A student who thinks one indicator is \"perfect\" fails to realize that science often requires multiple tests to confirm results when a reaction is not clear.",
+     "self_check": true
+    },
+    {
+     "q": "If a teacher asks you to classify a substance as acidic or basic using only rose petals, how would you design a simple test?",
+     "a": "I would crush the rose petals in water to extract the pigment, then add drops of the mystery substance to the extract and observe the colour shift compared to a control sample of plain water. An incorrect answer suggests the student doesn't grasp the concept of using a \"pigment extraction\" to create a testing medium.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are at a picnic and spill vinegar (an acid) on your white shirt which has a turmeric stain. Based on what you know about indicators, what will happen to the stain?",
+     "a": "The stain will remain yellow because turmeric does not change colour in the presence of an acid. A student who predicts the stain will change colour clearly does not understand that turmeric is only sensitive to bases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

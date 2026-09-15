@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_001",
+   "title": "c11_bio_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the two postulates of modern cell theory as formulated after Virchow's contribution, using the exact biological terminology expected in board examinations.",
+     "a": "The two postulates are: (i) All living organisms are composed of cells and products of cells. (ii) All cells arise from pre-existing cells (Omnis cellula e cellula). A wrong answer reveals the student is recalling the original Schleiden-Schwann version (which omitted cell origin) or confusing \"products of cells\" with \"cell products\" — the former includes extracellular matrix, secretions, acellular structures like hair/nails; the latter is vague. Missing \"pre-existing\" implies belief in spontaneous generation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Virchow's statement \"Omnis cellula e cellula\" was necessary to complete the cell theory, and what specific gap in Schleiden and Schwann's formulation it addressed.",
+     "a": "Schleiden and Schwann (1838-39) established that plants and animals are composed of cells, but they believed new cells formed spontaneously from a \"cytoblastema\" or nucleated granular material — essentially abiogenesis within organisms. Virchow (1855) demonstrated through pathological studies that cells only arise by division of existing cells, refuting spontaneous generation at the cellular level. A wrong answer indicates the student thinks Schleiden-Schwann already knew about cell division, or confuses Virchow's contribution with the discovery of mitosis (which came later, by Flemming in 1882).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Viruses are living because they contain genetic material and evolve. Therefore, cell theory is incomplete.\" Using the criteria of cell theory, evaluate this claim and explain why viruses are considered exceptions, not counterexamples.",
+     "a": "Viruses are acellular — they lack cytoplasm, organelles, metabolic machinery, and cannot perform independent existence or self-reproduction. They replicate only inside host cells by hijacking host machinery. Cell theory defines the cell as the basic unit of *independent* life; viruses are obligate parasites at the genetic level. The claim fails because it confuses \"genetic information\" with \"cellular organisation.\" A wrong answer reveals the student equates genetic material with life, ignoring the requirement for metabolic autonomy and structural integrity as a cell.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cellular basis of continuity in three scenarios: (a) binary fission in Amoeba, (b) budding in yeast, (c) regeneration in Planaria. Identify the common principle from cell theory operating in all three.",
+     "a": "In all three, new cells/organisms arise exclusively from pre-existing cells through division — binary fission (mitotic division of parent nucleus and cytoplasm), budding (asymmetric mitotic division producing a smaller daughter cell), and regeneration (dedifferentiation of somatic cells into blastema followed by mitotic divisions). The common principle: Omnis cellula e cellula — no new cellular organisation arises de novo from non-living matter. A wrong answer suggests the student sees these as fundamentally different processes rather than variations of the same cell-division principle, or thinks regeneration involves spontaneous cell formation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Cell theory applies to all living organisms, so it must apply to the first living cell on Earth. Therefore, the first cell must have come from a pre-existing cell.\" Identify the logical error and explain how origin-of-life research addresses this without violating cell theory.",
+     "a": "The statement commits a category error: cell theory describes the *operation* of life once cellular organisation exists, not the *origin* of that organisation. The first cell (progenote) arose through chemical evolution — abiotic synthesis of polymers, compartmentalisation in lipid vesicles, emergence of metabolism and replication — a historical singularity. Cell theory governs biological continuity *after* the threshold of cellular life is crossed. Origin-of-life research (e.g., RNA world, hydrothermal vent hypotheses) explains pre-cellular steps without invoking spontaneous generation of *functional cells*. A wrong answer reveals the student conflates \"theory of cell continuity\" with \"theory of life's origin\" — a philosophical error about the scope of scientific theories.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you discovered a novel entity in a deep-sea hydrothermal vent that grows, metabolises, and divides but lacks a membrane-bound nucleus and has no detectable DNA (only RNA), how would you classify it using cell theory criteria? Justify whether it fits prokaryote, eukaryote, virus, or a new category.",
+     "a": "It fits \"prokaryote\" — cell theory requires cells (membrane-bound, metabolic, self-reproducing). Lack of nucleus = prokaryotic. RNA genome is plausible for early life (RNA world hypothesis) but doesn't exclude cellular organisation. Key test: does it have ribosomes (even 70S), cytoplasm, and independent metabolism? If yes → cell → prokaryote. If no ribosomes/metabolism → virus-like. The thought experiment tests whether the student applies cell theory's structural/functional criteria (membrane, metabolism, division) rather than genomic composition alone. A poor answer classifies by genome type (RNA → virus) ignoring cellular organisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

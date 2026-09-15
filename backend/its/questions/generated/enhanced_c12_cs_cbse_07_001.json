@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_001",
+   "title": "c12_cs_cbse_07_001",
+   "questions": [
+    {
+     "q": "What are the only two values a Boolean variable can take, and what do they represent in logical terms?",
+     "a": "A Boolean variable can take only two values: 0 (representing FALSE) and 1 (representing TRUE). A wrong answer (e.g., \"0 and 1 are just numbers\" or \"variables can be any integer\") reveals the student thinks Boolean Algebra is ordinary arithmetic with a restricted range, missing the core idea that these values encode logical states, not quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why ordinary algebra (with variables like x, y that can be any real number) cannot directly model a decision like \"If it is raining AND I have an umbrella, then I will go out.\"",
+     "a": "Ordinary algebra deals with continuous numerical quantities and operations like addition/multiplication that produce new numbers, not logical truth values. The decision involves conditions that are either true or false, and the combination \"AND\" yields a true/false result, not a number. A wrong answer (e.g., \"we can use 1 for rain and 2 for umbrella\") shows the student confuses encoding with algebraic structure — they don't see that Boolean operations (AND, OR, NOT) follow different rules (e.g., 1+1=1 in Boolean OR) than arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "A school library allows a student to borrow a reference book ONLY if (the student is in Class 12) OR (the student has a teacher's permission slip). Represent this rule as a Boolean expression using variables: S = \"student is in Class 12\" (TRUE/FALSE), P = \"student has permission slip\" (TRUE/FALSE). Write the expression for \"allowed to borrow\".",
+     "a": "Allowed = S + P  (using + for OR). Steps: (1) Identify the two conditions. (2) Note the connecting word \"OR\". (3) Map OR to Boolean addition (+). (4) Write expression. A wrong answer like \"Allowed = S * P\" (using AND) reveals the student confuses \"OR\" (at least one condition suffices) with \"AND\" (both required) — a critical error in logic translation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Boolean expression A + B (OR) with the arithmetic expression a + b (addition) when A, B, a, b are all 1. What is the result in each case, and why does this difference matter for designing digital circuits?",
+     "a": "In Boolean Algebra, 1 + 1 = 1 (TRUE OR TRUE = TRUE). In arithmetic, 1 + 1 = 2. This difference matters because digital circuits use voltage levels (high/low) to represent 1/0; an OR gate outputs high (1) if any input is high, never a \"higher voltage\" like 2. A wrong answer (e.g., \"both give 2\") shows the student hasn't internalized that Boolean operations are closed in {0,1} — they treat Boolean '+' as arithmetic addition, leading to incorrect circuit analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since Boolean Algebra only has 0 and 1, it's just a subset of arithmetic, so all arithmetic laws (like distributive a*(b+c)=a*b+a*c) must hold exactly the same way.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "The claim is partially correct but dangerously incomplete. Some laws (like distributive of AND over OR: A·(B+C) = A·B + A·C) do hold, but others fail: in Boolean, A + A = A (idempotent), while in arithmetic a + a = 2a. Also, Boolean has complement law A + A' = 1, which has no arithmetic analogue. A student who says \"fully correct\" ignores the unique laws of Boolean Algebra (idempotence, absorption, complement) that have no arithmetic counterpart and are essential for simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life decision scenario (different from the vault or library examples) that involves exactly three yes/no conditions combined with AND, OR, and NOT. Define Boolean variables for each condition, then write the full Boolean expression for the final decision. Explain why each operator is used.",
+     "a": "Example: \"A student gets a scholarship if (they have 90%+ marks) AND (they are in financial need) AND (they have NOT violated any school rule).\" Variables: M = marks ≥90%, N = financial need, V = violated rule. Expression: Scholarship = M · N · V'. AND used because all three must be true; NOT used because violation disqualifies. A poor answer uses only AND/OR without NOT, or misplaces parentheses, showing inability to map \"except\", \"unless\", \"without\" to complement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

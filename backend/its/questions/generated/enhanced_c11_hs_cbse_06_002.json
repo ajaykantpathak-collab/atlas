@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_002",
+   "title": "c11_hs_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define one-way communication and give one example from a classroom setting that is NOT a lecture.",
+     "a": "One-way communication: Sender transmits message; receiver cannot reciprocate or respond immediately. Example: A teacher showing a documentary film without pausing for discussion. A wrong answer (e.g., \"students taking notes\") reveals the student confuses *passive reception* with *one-way structure*; note-taking is a receiver activity, but the communication remains one-way if the teacher doesn't solicit input.",
+     "self_check": true
+    },
+    {
+     "q": "A student watches a live Instagram session by a celebrity. The celebrity reads comments aloud but cannot reply to all. The student argues this is two-way communication because comments exist. Explain why this is still fundamentally one-way communication at the structural level.",
+     "a": "Structurally one-way: The primary flow is celebrity → mass audience. Comments are a separate, asynchronous reverse channel, not integrated into the *same* communication act; the celebrity selects few comments, most receive no response, and there is no mutual adjustment of the ongoing message. A wrong answer (calling it two-way) reveals the student equates *any* feedback mechanism (even delayed/filtered) with true two-way reciprocity, ignoring the requirement of simultaneous, direct exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each scenario and justify using the feedback criterion:\n(a) A farmer listens to a weather forecast on All India Radio.\n(b) The same farmer calls the Krishi Vigyan Kendra helpline to ask about pest control.\n(c) A WhatsApp group where a teacher posts homework and students reply with doubts.",
+     "a": "(a) One-way: Radio broadcast has no return channel for the farmer during transmission. (b) Two-way: Real-time dialogue, farmer asks, expert answers, clarification possible. (c) Two-way: Asynchronous but *reciprocal* and *integrated*; teacher can modify next post based on doubts, students get answers. A wrong classification of (c) as one-way reveals the student thinks two-way requires *synchronous* (live) interaction, confusing timing with structural reciprocity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare one-way and two-way communication on: (i) Error correction capability, (ii) Persuasion effectiveness for behaviour change, (iii) Cognitive load on receiver. Use the concept of 'shared understanding' from the communication definition.",
+     "a": "(i) Two-way allows immediate error detection/correction via feedback; one-way errors persist until separate check. (ii) Two-way is more effective for behaviour change (e.g., health adoption) because receiver's resistance can be addressed; one-way relies on message design alone. (iii) One-way imposes higher cognitive load: receiver must decode, store, and self-verify without clarification; two-way distributes load via interaction. A weak answer treats these as mere lists without linking to the *shared understanding* requirement (common meaning).",
+     "self_check": true
+    },
+    {
+     "q": "\"Two-way communication is always superior to one-way communication for extension work in rural areas.\" Evaluate this statement. Give two specific situations where one-way is preferable, justifying with reach, cost, and message fidelity.",
+     "a": "Statement is false. Superiority depends on objective. One-way preferable when: (1) Disseminating standardized emergency alerts (e.g., cyclone warning via siren/radio) — need maximum reach, speed, zero distortion, no time for dialogue. (2) Broadcasting fixed technical protocols (e.g., pesticide dosage instructions) — message fidelity critical; two-way risks misinterpretation by semi-literate receivers. A wrong evaluation (always two-way) reveals the student ignores contextual constraints (literacy, infrastructure, urgency) and treats communication as a value judgment rather than a strategic choice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication strategy for a new government nutrition scheme targeting rural mothers. Specify which components use one-way media (radio, posters) and which use two-way methods (SHG meetings, IVRS helpline), and explain the *transition logic* between them.",
+     "a": "Good answer: Phase 1 (Awareness) — One-way: Radio jingles, wall paintings (high reach, low cost, simple message). Phase 2 (Understanding) — Two-way: Anganwadi worker home visits, SHG discussions (clarify doubts, address myths). Phase 3 (Adoption support) — Two-way: IVRS helpline for dosage timing, peer groups for sustained practice. Transition logic: One-way creates *common knowledge*; two-way builds *shared understanding* and *behavioural capacity*. Poor answer uses only one mode or sequences randomly, showing inability to match communication type to stage of adoption curve.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

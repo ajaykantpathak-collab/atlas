@@ -1,0 +1,1807 @@
+step_types:
+  - id: physics_units_dimensional_analysis
+    title: Dimensional Analysis
+    category: Units & Measurements
+    description: Verify dimensional homogeneity or derive dimensional formulas
+    fields:
+      - name: problem_statement
+        label: Problem Statement
+        type: textarea
+        placeholder: e.g., Check the dimensional correctness of v = u + at
+        help_text: Enter the equation or formula to analyze
+      - name: physical_quantity
+        label: Physical Quantity
+        type: text
+        placeholder: e.g., Force, Energy, Pressure
+        help_text: The physical quantity whose formula needs derivation
+      - name: given_dependencies
+        label: Given Dependencies
+        type: textarea
+        placeholder: e.g., F depends on m, v, and r
+        help_text: List the quantities the physical quantity depends on
+
+  - id: physics_units_conversion
+    title: Unit Conversion
+    category: Units & Measurements
+    description: Convert between different unit systems (SI, CGS, MKS)
+    fields:
+      - name: value
+        label: Given Value
+        type: number
+        placeholder: e.g., 72
+        help_text: The numerical value to convert
+      - name: from_unit
+        label: From Unit
+        type: text
+        placeholder: e.g., km/h
+        help_text: The unit to convert from
+      - name: to_unit
+        label: To Unit
+        type: text
+        placeholder: e.g., m/s
+        help_text: The unit to convert to
+
+  - id: physics_units_significant_figures
+    title: Significant Figures & Errors
+    category: Units & Measurements
+    description: Calculate absolute, relative errors and percentage errors
+    fields:
+      - name: measured_value
+        label: Measured Value
+        type: text
+        placeholder: e.g., 9.8 m/s²
+        help_text: The measured physical quantity
+      - name: exact_value
+        label: True / Exact Value
+        type: text
+        placeholder: e.g., 10 m/s²
+        help_text: The accepted or exact value
+      - name: operation
+        label: Operation
+        type: select
+        options: [Subtraction, Addition, Multiplication, Division, Power]
+        placeholder: Select the mathematical operation
+
+  - id: physics_kinematics_motion_1d
+    title: One-Dimensional Motion
+    category: Kinematics
+    description: Solve problems using equations of motion
+    fields:
+      - name: initial_velocity
+        label: Initial Velocity (u)
+        type: text
+        placeholder: e.g., 0 or 20 m/s
+        help_text: Initial velocity in m/s (leave blank if not given)
+      - name: final_velocity
+        label: Final Velocity (v)
+        type: text
+        placeholder: e.g., 30 m/s
+        help_text: Final velocity in m/s (leave blank if unknown)
+      - name: acceleration
+        label: Acceleration (a)
+        type: text
+        placeholder: e.g., 5 m/s²
+        help_text: Acceleration in m/s² (leave blank if unknown)
+      - name: time
+        label: Time (t)
+        type: text
+        placeholder: e.g., 4 s
+        help_text: Time duration in seconds (leave blank if unknown)
+      - name: displacement
+        label: Displacement (s)
+        type: text
+        placeholder: e.g., 100 m
+        help_text: Displacement in meters (leave blank if unknown)
+      - name: unknown_quantity
+        label: Find
+        type: select
+        options: [final_velocity, displacement, time, acceleration, initial_velocity]
+
+  - id: physics_kinematics_free_fall
+    title: Free Fall / Vertically Thrown Body
+    category: Kinematics
+    description: Motion under gravity — upward or downward
+    fields:
+      - name: initial_velocity
+        label: Initial Velocity (u)
+        type: text
+        placeholder: e.g., 50 m/s (upward is positive)
+        help_text: Positive if thrown upward, negative if thrown downward
+      - name: height
+        label: Height (h)
+        type: text
+        placeholder: e.g., 100 m
+        help_text: Height from which body falls or maximum height
+      - name: g_value
+        label: Acceleration Due to Gravity (g)
+        type: text
+        placeholder: 9.8 or 10 m/s²
+        help_text: Usually taken as positive for calculations
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [time_to_reach_max_height, max_height, velocity_after_time, time_to_hit_ground, velocity_at_ground]
+
+  - id: physics_kinematics_projectile
+    title: Projectile Motion
+    category: Kinematics
+    description: Two-dimensional motion with horizontal and vertical components
+    fields:
+      - name: launch_speed
+        label: Launch Speed (u)
+        type: text
+        placeholder: e.g., 50 m/s
+        help_text: Initial speed of projectile
+      - name: launch_angle
+        label: Launch Angle (θ)
+        type: text
+        placeholder: e.g., 30 degrees
+        help_text: Angle with the horizontal in degrees
+      - name: g_value
+        label: Gravity (g)
+        type: text
+        placeholder: 9.8 m/s²
+        help_text: Acceleration due to gravity
+      - name: launch_height
+        label: Launch Height
+        type: text
+        placeholder: e.g., 20 m
+        help_text: Initial height above ground (default: 0)
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [max_height, time_of_flight, horizontal_range, velocity_at_any_point, angle_of_projection]
+
+  - id: physics_kinematics_graphs
+    title: Motion Graphs
+    category: Kinematics
+    description: Analyze displacement-time, velocity-time, and acceleration-time graphs
+    fields:
+      - name: graph_type
+        label: Graph Type
+        type: select
+        options: [Displacement-Time, Velocity-Time, Acceleration-Time]
+        placeholder: Select the type of graph
+      - name: description
+        label: Graph Description
+        type: textarea
+        placeholder: e.g., Straight line with positive slope from origin
+        help_text: Describe the shape of the graph (linear, curved, etc.)
+      - name: time_interval
+        label: Time Interval
+        type: text
+        placeholder: e.g., 0 to 10 s
+        help_text: Time range of interest
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [displacement, average_velocity, instantaneous_velocity, acceleration, total_distance]
+
+  - id: physics_kinematics_relative_motion
+    title: Relative Motion & River-Boat Problems
+    category: Kinematics
+    description: Relative velocity in one and two dimensions
+    fields:
+      - name: velocity_A
+        label: Velocity of A (magnitude)
+        type: text
+        placeholder: e.g., 10 m/s
+        help_text: Magnitude of first object's velocity
+      - name: velocity_B
+        label: Velocity of B (magnitude)
+        type: text
+        placeholder: e.g., 8 m/s
+        help_text: Magnitude of second object's velocity
+      - name: direction_angle
+        label: Angle Between Velocities
+        type: text
+        placeholder: e.g., 60 degrees
+        help_text: Angle between the two velocity vectors
+      - name: problem_type
+        label: Problem Type
+        type: select
+        options: [Linear relative velocity, River-boat, Rain-man, Aircraft-wind]
+
+  - id: physics_newton_first_law
+    title: Newton's First Law (Inertia)
+    category: Laws of Motion
+    description: Inertia and force required to change state of motion
+    fields:
+      - name: mass
+        label: Mass of Object
+        type: text
+        placeholder: e.g., 10 kg
+        help_text: Mass of the object
+      - name: initial_velocity
+        label: Initial Velocity
+        type: text
+        placeholder: e.g., 20 m/s
+        help_text: Initial velocity of the object
+      - name: force_applied
+        label: Force Applied
+        type: text
+        placeholder: e.g., 50 N
+        help_text: Net force acting on the object
+        required: false
+      - name: time_force_acts
+        label: Time Force Acts
+        type: text
+        placeholder: e.g., 5 s
+        help_text: Duration force acts
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [final_velocity, force_required, inertia_demonstration]
+
+  - id: physics_newton_second_law
+    title: Newton's Second Law
+    category: Laws of Motion
+    description: F = ma — force, mass, and acceleration relationships
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 5 kg
+        help_text: Mass of the object in kg
+      - name: force
+        label: Force (F)
+        type: text
+        placeholder: e.g., 25 N
+        help_text: Net force in Newtons (leave blank if unknown)
+      - name: acceleration
+        label: Acceleration (a)
+        type: text
+        placeholder: e.g., 5 m/s²
+        help_text: Acceleration in m/s² (leave blank if unknown)
+      - name: friction_coefficient
+        label: Coefficient of Friction (μ)
+        type: text
+        placeholder: e.g., 0.3
+        help_text: Coefficient of friction (if applicable)
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [acceleration, force, mass, frictional_force, net_acceleration]
+
+  - id: physics_newton_third_law
+    title: Newton's Third Law (Action-Reaction)
+    category: Laws of Motion
+    description: Action-reaction pairs and their implications
+    fields:
+      - name: action_force
+        label: Action Force
+        type: text
+        placeholder: e.g., 100 N
+        help_text: The action force in Newtons
+      - name: mass_A
+        label: Mass of Object A
+        type: text
+        placeholder: e.g., 10 kg
+        help_text: Mass of object exerting action
+        required: false
+      - name: mass_B
+        label: Mass of Object B
+        type: text
+        placeholder: e.g., 5 kg
+        help_text: Mass of object receiving action
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [reaction_force, acceleration_A, acceleration_B]
+
+  - id: physics_friction
+    title: Friction & Limiting Friction
+    category: Laws of Motion
+    description: Static, kinetic, and rolling friction problems
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 20 kg
+        help_text: Mass of the body
+      - name: coefficient_static
+        label: Coefficient of Static Friction (μₛ)
+        type: text
+        placeholder: e.g., 0.4
+        help_text: Coefficient of static friction
+      - name: coefficient_kinetic
+        label: Coefficient of Kinetic Friction (μₖ)
+        type: text
+        placeholder: e.g., 0.3
+        help_text: Coefficient of kinetic friction
+      - name: applied_force
+        label: Applied Force (F)
+        type: text
+        placeholder: e.g., 50 N
+        help_text: Horizontal force applied
+      - name: angle_incline
+        label: Incline Angle (θ)
+        type: text
+        placeholder: e.g., 30 degrees
+        help_text: Angle of inclined plane (0 for horizontal)
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [limiting_friction, frictional_force, acceleration, angle_of_repose, force_to_move]
+
+  - id: physics_circular_motion
+    title: Circular Motion & Centripetal Force
+    category: Laws of Motion
+    description: Uniform and non-uniform circular motion
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 2 kg
+        help_text: Mass of the object
+      - name: velocity
+        label: Velocity (v)
+        type: text
+        placeholder: e.g., 10 m/s
+        help_text: Linear speed
+      - name: radius
+        label: Radius (r)
+        type: text
+        placeholder: e.g., 5 m
+        help_text: Radius of the circular path
+      - name: angular_velocity
+        label: Angular Velocity (ω)
+        type: text
+        placeholder: e.g., 2 rad/s
+        help_text: Angular speed (leave blank if not given)
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [centripetal_force, centripetal_acceleration, angular_velocity, frequency, time_period, tension]
+
+  - id: physics_conservation_momentum
+    title: Conservation of Linear Momentum
+    category: Laws of Motion
+    description: Collision problems — elastic and inelastic
+    fields:
+      - name: mass_1
+        label: Mass of Object 1 (m₁)
+        type: text
+        placeholder: e.g., 2 kg
+        help_text: Mass of first object
+      - name: mass_2
+        label: Mass of Object 2 (m₂)
+        type: text
+        placeholder: e.g., 3 kg
+        help_text: Mass of second object
+      - name: velocity_1_initial
+        label: Initial Velocity of Object 1 (u₁)
+        type: text
+        placeholder: e.g., 10 m/s
+        help_text: Initial velocity of first object
+      - name: velocity_2_initial
+        label: Initial Velocity of Object 2 (u₂)
+        type: text
+        placeholder: e.g., 0 m/s
+        help_text: Initial velocity of second object
+      - name: velocity_1_final
+        label: Final Velocity of Object 1 (v₁)
+        type: text
+        placeholder: e.g., 2 m/s
+        help_text: Final velocity of first object (leave blank if unknown)
+        required: false
+      - name: velocity_2_final
+        label: Final Velocity of Object 2 (v₂)
+        type: text
+        placeholder: e.g., ?
+        help_text: Final velocity of second object (leave blank if unknown)
+        required: false
+      - name: collision_type
+        label: Collision Type
+        type: select
+        options: [Elastic, Inelastic, Perfectly Inelastic]
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [velocity_1_final, velocity_2_final, kinetic_energy_lost, recoil_velocity]
+
+  - id: physics_impulse
+    title: Impulse & Impulsive Force
+    category: Laws of Motion
+    description: Impulse-momentum theorem applications
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 0.5 kg
+        help_text: Mass of the object
+      - name: initial_velocity
+        label: Initial Velocity (u)
+        type: text
+        placeholder: e.g., 20 m/s
+        help_text: Initial velocity
+      - name: final_velocity
+        label: Final Velocity (v)
+        type: text
+        placeholder: e.g., -10 m/s
+        help_text: Final velocity after impact
+      - name: contact_time
+        label: Contact Time (Δt)
+        type: text
+        placeholder: e.g., 0.01 s
+        help_text: Time of contact/impact
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [impulse, average_force, change_in_momentum, final_velocity, contact_time]
+
+  - id: physics_work_energy
+    title: Work & Work-Energy Theorem
+    category: Work, Energy & Power
+    description: Calculate work done by constant and variable forces
+    fields:
+      - name: force
+        label: Force (F)
+        type: text
+        placeholder: e.g., 10 N
+        help_text: Magnitude of force applied
+      - name: displacement
+        label: Displacement (s)
+        type: text
+        placeholder: e.g., 20 m
+        help_text: Displacement in the direction of force
+      - name: angle
+        label: Angle Between F and s (θ)
+        type: text
+        placeholder: e.g., 60 degrees
+        help_text: Angle between force and displacement
+      - name: initial_velocity
+        label: Initial Velocity (u)
+        type: text
+        placeholder: e.g., 5 m/s
+        help_text: Initial velocity of the object
+        required: false
+      - name: final_velocity
+        label: Final Velocity (v)
+        type: text
+        placeholder: e.g., 15 m/s
+        help_text: Final velocity of the object
+        required: false
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 2 kg
+        help_text: Mass of the object
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [work_done, kinetic_energy_change, velocity]
+
+  - id: physics_power
+    title: Power
+    category: Work, Energy & Power
+    description: Average and instantaneous power calculations
+    fields:
+      - name: force
+        label: Force (F)
+        type: text
+        placeholder: e.g., 50 N
+        help_text: Applied force
+      - name: velocity
+        label: Velocity (v)
+        type: text
+        placeholder: e.g., 10 m/s
+        help_text: Velocity of the object
+      - name: work_done
+        label: Work Done (W)
+        type: text
+        placeholder: e.g., 1000 J
+        help_text: Total work done
+        required: false
+      - name: time
+        label: Time (t)
+        type: text
+        placeholder: e.g., 20 s
+        help_text: Time interval
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [power, work_done, time, efficiency]
+
+  - id: physics_kinetic_energy
+    title: Kinetic Energy
+    category: Work, Energy & Power
+    description: Translational and rotational kinetic energy
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 5 kg
+        help_text: Mass of the object
+      - name: velocity
+        label: Velocity (v)
+        type: text
+        placeholder: e.g., 10 m/s
+        help_text: Speed of the object
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [kinetic_energy, velocity_from_KE, mass_from_KE]
+
+  - id: physics_potential_energy
+    title: Gravitational Potential Energy
+    category: Work, Energy & Power
+    description: Gravitational potential energy and elastic potential energy
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 10 kg
+        help_text: Mass of the object
+      - name: height
+        label: Height (h)
+        type: text
+        placeholder: e.g., 50 m
+        help_text: Height above reference level
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 100 N/m
+        help_text: For elastic PE problems
+        required: false
+      - name: extension
+        label: Extension/Compression (x)
+        type: text
+        placeholder: e.g., 0.2 m
+        help_text: Displacement from natural length
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [gravitational_PE, elastic_PE, height, spring_constant, extension]
+
+  - id: physics_conservation_energy
+    title: Conservation of Mechanical Energy
+    category: Work, Energy & Power
+    description: Apply conservation of energy to solve problems
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 5 kg
+        help_text: Mass of the object
+      - name: initial_height
+        label: Initial Height (h₁)
+        type: text
+        placeholder: e.g., 20 m
+        help_text: Starting height
+      - name: final_height
+        label: Final Height (h₂)
+        type: text
+        placeholder: e.g., 5 m
+        help_text: Ending height
+      - name: initial_velocity
+        label: Initial Velocity (u)
+        type: text
+        placeholder: e.g., 0 m/s
+        help_text: Initial velocity (default: 0)
+      - name: friction_coefficient
+        label: Coefficient of Friction (μ)
+        type: text
+        placeholder: e.g., 0.1
+        help_text: For rough surfaces
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [velocity_at_bottom, height_reached, energy_lost_to_friction]
+
+  - id: physics_rotational_motion_kinematics
+    title: Rotational Kinematics
+    category: Rotational Motion
+    description: Angular displacement, velocity, acceleration and their relationships
+    fields:
+      - name: initial_angular_velocity
+        label: Initial Angular Velocity (ω₀)
+        type: text
+        placeholder: e.g., 0 rad/s
+        help_text: Initial angular velocity
+      - name: angular_acceleration
+        label: Angular Acceleration (α)
+        type: text
+        placeholder: e.g., 2 rad/s²
+        help_text: Angular acceleration
+      - name: time
+        label: Time (t)
+        type: text
+        placeholder: e.g., 5 s
+        help_text: Time elapsed
+      - name: angular_displacement
+        label: Angular Displacement (θ)
+        type: text
+        placeholder: e.g., 25 rad
+        help_text: Angular displacement in radians
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [final_angular_velocity, angular_displacement, angular_acceleration, time, number_of_revolutions]
+
+  - id: physics_moment_of_inertia
+    title: Moment of Inertia
+    category: Rotational Motion
+    description: Calculate moment of inertia for various geometries
+    fields:
+      - name: mass
+        label: Mass (M)
+        type: text
+        placeholder: e.g., 5 kg
+        help_text: Total mass of the body
+      - name: geometry
+        label: Geometry / Shape
+        type: select
+        options: [Solid_Cylinder_about_axis, Hollow_Cylinder_about_axis, Solid_Sphere_about_diameter, Hollow_Sphere_about_diameter, Thin_Rod_about_end, Thin_Rod_about_center, Disc_about_axis, Rectangular_Plate_about_edge, Disc_about_diameter]
+        help_text: Shape of the object and axis of rotation
+      - name: radius
+        label: Radius / Length Parameter
+        type: text
+        placeholder: e.g., 0.3 m
+        help_text: Radius for spheres/cylinders, length for rods
+      - name: parallel_distance
+        label: Distance for Parallel Axis (d)
+        type: text
+        placeholder: e.g., 0.5 m
+        help_text: Distance between parallel axes
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [moment_of_inertia, radius_of_gyration, new_I_by_parallel_axis]
+
+  - id: physics_torque
+    title: Torque & Angular Momentum
+    category: Rotational Motion
+    description: Torque, angular momentum, and their conservation
+    fields:
+      - name: force
+        label: Force (F)
+        type: text
+        placeholder: e.g., 20 N
+        help_text: Applied force
+      - name: lever_arm
+        label: Lever Arm / Radius (r)
+        type: text
+        placeholder: e.g., 0.5 m
+        help_text: Perpendicular distance from axis
+      - name: angle_force
+        label: Angle Between r and F (θ)
+        type: text
+        placeholder: e.g., 90 degrees
+        help_text: Angle between radius vector and force
+      - name: moment_of_inertia
+        label: Moment of Inertia (I)
+        type: text
+        placeholder: e.g., 2 kg·m²
+        help_text: Moment of inertia about axis
+      - name: angular_velocity
+        label: Angular Velocity (ω)
+        type: text
+        placeholder: e.g., 3 rad/s
+        help_text: Angular velocity
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [torque, angular_momentum, angular_acceleration, radius_of_gyration]
+
+  - id: physics_rotational_dynamics
+    title: Rotational Dynamics
+    category: Rotational Motion
+    description: τ = Iα and related dynamic problems
+    fields:
+      - name: torque
+        label: Torque (τ)
+        type: text
+        placeholder: e.g., 10 N·m
+        help_text: Applied torque
+      - name: moment_of_inertia
+        label: Moment of Inertia (I)
+        type: text
+        placeholder: e.g., 5 kg·m²
+        help_text: Moment of inertia of the body
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 4 kg
+        help_text: Mass for pulley/cylinder problems
+        required: false
+      - name: radius
+        label: Radius (R)
+        type: text
+        placeholder: e.g., 0.2 m
+        help_text: Radius of pulley or cylinder
+        required: false
+      - name: hanging_mass
+        label: Hanging Mass (m₂)
+        type: text
+        placeholder: e.g., 3 kg
+        help_text: Mass hanging from pulley
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [angular_acceleration, tension_in_string, linear_acceleration, torque_required]
+
+  - id: physics_rolling_motion
+    title: Rolling Motion
+    category: Rotational Motion
+    description: Rolling without slipping — kinetic energy and velocity relations
+    fields:
+      - name: mass
+        label: Mass (M)
+        type: text
+        placeholder: e.g., 10 kg
+        help_text: Mass of the rolling body
+      - name: radius
+        label: Radius (R)
+        type: text
+        placeholder: e.g., 0.3 m
+        help_text: Radius of the body
+      - name: geometry
+        label: Body Type
+        type: select
+        options: [Solid_Cylinder, Hollow_Cylinder, Solid_Sphere, Hollow_Sphere, Ring]
+      - name: linear_velocity
+        label: Linear Velocity (v)
+        type: text
+        placeholder: e.g., 5 m/s
+        help_text: Linear speed of the center
+      - name: height_incline
+        label: Height of Incline (h)
+        type: text
+        placeholder: e.g., 10 m
+        help_text: Height of inclined plane
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [angular_velocity, total_KE, translational_KE, rotational_KE, velocity_at_bottom]
+
+  - id: physics_gravitation_kepler
+    title: Kepler's Laws & Gravitation
+    category: Gravitation
+    description: Universal law of gravitation and Kepler's laws
+    fields:
+      - name: mass1
+        label: Mass of Body 1 (M)
+        type: text
+        placeholder: e.g., 6 × 10²⁴ kg
+        help_text: Mass of first body (e.g., Earth)
+      - name: mass2
+        label: Mass of Body 2 (m)
+        type: text
+        placeholder: e.g., 1000 kg
+        help_text: Mass of second body (e.g., satellite)
+      - name: distance
+        label: Separation Distance (r)
+        type: text
+        placeholder: e.g., 6.4 × 10⁶ m
+        help_text: Distance between the two bodies
+      - name: orbital_radius
+        label: Orbital Radius (R)
+        type: text
+        placeholder: e.g., 1.5 × 10¹¹ m
+        help_text: Radius of orbit (for Kepler's third law)
+        required: false
+      - name: orbital_period
+        label: Orbital Period (T)
+        type: text
+        placeholder: e.g., 365 days
+        help_text: Time period of revolution
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [gravitational_force, acceleration_due_to_gravity, orbital_period, orbital_velocity, escape_velocity]
+
+  - id: physics_gravitation_field
+    title: Gravitational Field & Potential
+    category: Gravitation
+    description: Gravitational field strength and potential energy
+    fields:
+      - name: mass_body
+        label: Mass of Central Body (M)
+        type: text
+        placeholder: e.g., 6 × 10²⁴ kg
+        help_text: Mass of the body creating the field
+      - name: distance
+        label: Distance from Center (r)
+        type: text
+        placeholder: e.g., 4 × 10⁶ m
+        help_text: Distance from center of body
+      - name: height_above_surface
+        label: Height Above Surface (h)
+        type: text
+        placeholder: e.g., 1000 km
+        help_text: Height above the surface
+        required: false
+      - name: radius_body
+        label: Radius of Body (R)
+        type: text
+        placeholder: e.g., 6.4 × 10⁶ m
+        help_text: Radius of central body
+        required: false
+      - name: test_mass
+        label: Test Mass (m)
+        type: text
+        placeholder: e.g., 1 kg
+        help_text: Mass of test object
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [gravitational_field_strength, gravitational_potential, gravitational_PE, escape_velocity]
+
+  - id: physics_satellite_motion
+    title: Satellite & Orbital Motion
+    category: Gravitation
+    description: Orbital velocity, time period, geostationary satellites
+    fields:
+      - name: mass_planet
+        label: Mass of Planet (M)
+        type: text
+        placeholder: e.g., 6 × 10²⁴ kg
+        help_text: Mass of the central planet
+      - name: orbital_height
+        label: Height Above Surface (h)
+        type: text
+        placeholder: e.g., 36000 km
+        help_text: Height of satellite orbit above surface
+      - name: radius_planet
+        label: Radius of Planet (R)
+        type: text
+        placeholder: e.g., 6400 km
+        help_text: Radius of the planet
+      - name: period
+        label: Orbital Period (T)
+        type: text
+        placeholder: e.g., 24 hours
+        help_text: Time period of satellite
+        required: false
+      - name: satellite_type
+        label: Satellite Type
+        type: select
+        options: [General, Geostationary, Polar, Natural]
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [orbital_velocity, time_period, height, total_energy, binding_energy, angular_momentum]
+
+  - id: physics_elasticity_stress_strain
+    title: Stress and Strain
+    category: Mechanical Properties of Solids
+    description: Calculate stress, strain, and proportional constants
+    fields:
+      - name: force
+        label: Applied Force (F)
+        type: text
+        placeholder: e.g., 1000 N
+        help_text: Force applied on the body
+      - name: cross_sectional_area
+        label: Cross-Sectional Area (A)
+        type: text
+        placeholder: e.g., 0.01 m²
+        help_text: Area perpendicular to force
+      - name: original_length
+        label: Original Length (L)
+        type: text
+        placeholder: e.g., 2 m
+        help_text: Natural length of the body
+      - name: change_in_length
+        label: Change in Length (ΔL)
+        type: text
+        placeholder: e.g., 0.001 m
+        help_text: Extension or compression
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [stress, strain, youngs_modulus, lateral_strain, poissons_ratio]
+
+  - id: physics_hookes_law
+    title: Hooke's Law & Springs
+    category: Mechanical Properties of Solids
+    description: Elastic behavior, spring constant, and energy stored
+    fields:
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 50 N/m
+        help_text: Stiffness of the spring
+      - name: extension
+        label: Extension/Compression (x)
+        type: text
+        placeholder: e.g., 0.1 m
+        help_text: Displacement from natural length
+      - name: mass
+        label: Mass Suspended (m)
+        type: text
+        placeholder: e.g., 2 kg
+        help_text: Mass hung from the spring
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [restoring_force, potential_energy_stored, equilibrium_position, spring_constant, effective_spring_series, effective_spring_parallel]
+
+  - id: physics_elastic_moduli
+    title: Elastic Moduli
+    category: Mechanical Properties of Solids
+    description: Young's modulus, bulk modulus, shear modulus, and modulus of rigidity
+    fields:
+      - name: material
+        label: Material
+        type: select
+        options: [Steel, Copper, Aluminum, Glass, Rubber, Wood, Iron, Brass]
+        placeholder: Select material for typical values
+      - name: youngs_modulus
+        label: Young's Modulus (Y)
+        type: text
+        placeholder: e.g., 2 × 10¹¹ N/m²
+        help_text: Young's modulus (leave blank if unknown)
+        required: false
+      - name: bulk_modulus
+        label: Bulk Modulus (B)
+        type: text
+        placeholder: e.g., 1 × 10¹¹ N/m²
+        help_text: Bulk modulus
+        required: false
+      - name: original_volume
+        label: Original Volume (V)
+        type: text
+        placeholder: e.g., 0.001 m³
+        help_text: Original volume of the body
+        required: false
+      - name: pressure_change
+        label: Change in Pressure (ΔP)
+        type: text
+        placeholder: e.g., 10⁵ Pa
+        help_text: Change in applied pressure
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [change_in_volume, bulk_modulus, youngs_modulus, strain, energy_density]
+
+  - id: physics_fluids_pressure
+    title: Fluid Pressure
+    category: Fluid Mechanics
+    description: Pressure in fluids, Pascal's law, and manometer problems
+    fields:
+      - name: density
+        label: Fluid Density (ρ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the fluid
+      - name: depth
+        label: Depth Below Surface (h)
+        type: text
+        placeholder: e.g., 10 m
+        help_text: Vertical depth in fluid
+      - name: g_value
+        label: Gravity (g)
+        type: text
+        placeholder: 9.8 m/s²
+        help_text: Acceleration due to gravity
+      - name: area
+        label: Area (A)
+        type: text
+        placeholder: e.g., 0.5 m²
+        help_text: Area of the surface/container
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [absolute_pressure, gauge_pressure, force_on_wall, pressure_difference, manometer_reading]
+
+  - id: physics_archimedes_principle
+    title: Archimedes' Principle & Buoyancy
+    category: Fluid Mechanics
+    description: Buoyant force, floating bodies, apparent weight
+    fields:
+      - name: volume_object
+        label: Volume of Object (V)
+        type: text
+        placeholder: e.g., 0.002 m³
+        help_text: Volume of the submerged object
+      - name: density_object
+        label: Density of Object (ρₒ)
+        type: text
+        placeholder: e.g., 8000 kg/m³
+        help_text: Density of the object
+      - name: density_fluid
+        label: Density of Fluid (ρբ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the fluid
+      - name: weight_air
+        label: Weight in Air (W)
+        type: text
+        placeholder: e.g., 50 N
+        help_text: Weight measured in air
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [buoyant_force, apparent_weight, volume_submerged, fraction_submerged, will_it_float]
+
+  - id: physics_fluid_flow
+    title: Fluid Dynamics & Bernoulli's Equation
+    category: Fluid Mechanics
+    description: Continuity equation and Bernoulli's principle
+    fields:
+      - name: density
+        label: Fluid Density (ρ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the flowing fluid
+      - name: velocity_1
+        label: Velocity at Section 1 (v₁)
+        type: text
+        placeholder: e.g., 2 m/s
+        help_text: Velocity at first cross-section
+      - name: area_1
+        label: Area at Section 1 (A₁)
+        type: text
+        placeholder: e.g., 0.02 m²
+        help_text: Cross-sectional area at first section
+      - name: area_2
+        label: Area at Section 2 (A₂)
+        type: text
+        placeholder: e.g., 0.01 m²
+        help_text: Cross-sectional area at second section
+      - name: height_1
+        label: Height at Section 1 (h₁)
+        type: text
+        placeholder: e.g., 5 m
+        help_text: Height at first section (reference)
+      - name: height_2
+        label: Height at Section 2 (h₂)
+        type: text
+        placeholder: e.g., 3 m
+        help_text: Height at second section
+      - name: pressure_1
+        label: Pressure at Section 1 (P₁)
+        type: text
+        placeholder: e.g., 2 × 10⁵ Pa
+        help_text: Pressure at first section
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [velocity_2, flow_rate, pressure_2, pressure_difference, velocity_from_torricelli]
+
+  - id: physics_viscosity
+    title: Viscosity & Stokes' Law
+    category: Fluid Mechanics
+    description: Viscous drag, terminal velocity, Stokes' law
+    fields:
+      - name: viscosity
+        label: Coefficient of Viscosity (η)
+        type: text
+        placeholder: e.g., 1.8 × 10⁻⁵ Ns/m² (air) or 1 × 10⁻³ (water)
+        help_text: Viscosity of the fluid
+      - name: radius_sphere
+        label: Radius of Sphere (r)
+        type: text
+        placeholder: e.g., 0.001 m
+        help_text: Radius of the falling sphere
+      - name: density_sphere
+        label: Density of Sphere (ρₛ)
+        type: text
+        placeholder: e.g., 7800 kg/m³
+        help_text: Density of the falling body
+      - name: density_fluid
+        label: Density of Fluid (ρբ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the fluid medium
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [viscous_force, terminal_velocity, viscous_drag_coefficient]
+
+  - id: physics_surface_tension
+    title: Surface Tension
+    category: Fluid Mechanics
+    description: Capillary rise, excess pressure, surface tension effects
+    fields:
+      - name: surface_tension
+        label: Surface Tension (S)
+        type: text
+        placeholder: e.g., 0.072 N/m (water)
+        help_text: Surface tension of the liquid
+      - name: radius_tube
+        label: Capillary Radius (r)
+        type: text
+        placeholder: e.g., 0.5 × 10⁻³ m
+        help_text: Inner radius of capillary tube
+      - name: density_liquid
+        label: Density of Liquid (ρ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the liquid
+      - name: contact_angle
+        label: Contact Angle (θ)
+        type: text
+        placeholder: e.g., 0 degrees
+        help_text: Angle between liquid surface and tube wall
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [capillary_rise, excess_pressure_inside_drop, excess_pressure_inside_bubble, energy_to_form_drop]
+
+  - id: physics_thermodynamics_first_law
+    title: First Law of Thermodynamics
+    category: Thermodynamics
+    description: ΔU = Q - W — heat, internal energy, and work
+    fields:
+      - name: heat_supplied
+        label: Heat Supplied (Q)
+        type: text
+        placeholder: e.g., 500 J
+        help_text: Heat added to the system (positive) or removed (negative)
+      - name: work_done
+        label: Work Done (W)
+        type: text
+        placeholder: e.g., 200 J
+        help_text: Work done by the system (positive) or on the system (negative)
+      - name: change_internal_energy
+        label: Change in Internal Energy (ΔU)
+        type: text
+        placeholder: e.g., 300 J
+        help_text: Change in internal energy (leave blank if unknown)
+        required: false
+      - name: moles
+        label: Number of Moles (n)
+        type: text
+        placeholder: e.g., 2 mol
+        help_text: Moles of gas
+        required: false
+      - name: gamma
+        label: Heat Capacity Ratio (γ = Cp/Cv)
+        type: text
+        placeholder: e.g., 1.4
+        help_text: For adiabatic processes
+        required: false
+      - name: process_type
+        label: Type of Process
+        type: select
+        options: [Isothermal, Adiabatic, Isobaric, Isochoric, Cyclic]
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [change_internal_energy, work_done, heat_supplied, final_state, temperature_change]
+
+  - id: physics_thermodynamics_second_law
+    title: Second Law & Heat Engines
+    category: Thermodynamics
+    description: Carnot engine, refrigerators, efficiency
+    fields:
+      - name: hot_reservoir_temp
+        label: Hot Reservoir Temperature (T₁)
+        type: text
+        placeholder: e.g., 500 K
+        help_text: Temperature of hot reservoir in Kelvin
+      - name: cold_reservoir_temp
+        label: Cold Reservoir Temperature (T₂)
+        type: text
+        placeholder: e.g., 300 K
+        help_text: Temperature of cold reservoir in Kelvin
+      - name: heat_supplied
+        label: Heat Supplied (Q₁)
+        type: text
+        placeholder: e.g., 1000 J
+        help_text: Heat absorbed from hot reservoir
+        required: false
+      - name: work_output
+        label: Work Output (W)
+        type: text
+        placeholder: e.g., 400 J
+        help_text: Work done by the engine
+        required: false
+      - name: coefficient_performance
+        label: Coefficient of Performance (COP)
+        type: text
+        placeholder: e.g., 5
+        help_text: For refrigerator problems
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [efficiency, work_output, heat_rejected, COP, ideal_efficiency]
+
+  - id: physics_specific_heat
+    title: Specific Heat & Calorimetry
+    category: Thermodynamics
+    description: Heat transfer, specific heat, latent heat
+    fields:
+      - name: mass_object
+        label: Mass of Object (m)
+        type: text
+        placeholder: e.g., 0.5 kg
+        help_text: Mass of the body
+      - name: specific_heat
+        label: Specific Heat Capacity (c)
+        type: text
+        placeholder: e.g., 4200 J/kg·K
+        help_text: Specific heat capacity of the material
+      - name: initial_temp
+        label: Initial Temperature (T₁)
+        type: text
+        placeholder: e.g., 80°C
+        help_text: Initial temperature
+      - name: final_temp
+        label: Final Temperature (T₂)
+        type: text
+        placeholder: e.g., 30°C
+        help_text: Final temperature
+      - name: latent_heat
+        label: Latent Heat (L)
+        type: text
+        placeholder: e.g., 3.34 × 10⁵ J/kg
+        help_text: Latent heat of fusion/vaporization
+        required: false
+      - name: mass_second
+        label: Mass of Second Body (m₂)
+        type: text
+        placeholder: e.g., 0.3 kg
+        help_text: For mixture problems
+        required: false
+      - name: specific_heat_second
+        label: Specific Heat of Second Body (c₂)
+        type: text
+        placeholder: e.g., 900 J/kg·K
+        help_text: For mixture problems
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [heat_transferred, final_temperature, latent_heat, mass_required, specific_heat]
+
+  - id: physics_kinetic_theory_gas_laws
+    title: Kinetic Theory & Gas Laws
+    category: Kinetic Theory of Gases
+    description: Ideal gas law and kinetic theory postulates
+    fields:
+      - name: pressure
+        label: Pressure (P)
+        type: text
+        placeholder: e.g., 1 × 10⁵ Pa
+        help_text: Pressure of the gas
+      - name: volume
+        label: Volume (V)
+        type: text
+        placeholder: e.g., 0.0224 m³
+        help_text: Volume of the gas
+      - name: temperature
+        label: Temperature (T)
+        type: text
+        placeholder: e.g., 273 K
+        help_text: Absolute temperature in Kelvin
+      - name: moles
+        label: Number of Moles (n)
+        type: text
+        placeholder: e.g., 1 mol
+        help_text: Number of moles of gas
+      - name: gas_constant
+        label: Gas Constant (R)
+        type: text
+        placeholder: 8.31 J/mol·K
+        help_text: Universal gas constant
+        default: "8.31"
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [pressure, volume, temperature, moles, gas_constant, number_of_molecules, number_density]
+
+  - id: physics_degrees_of_freedom
+    title: Degrees of Freedom & Law of Equipartition
+    category: Kinetic Theory of Gases
+    description: Calculate molar specific heats from degrees of freedom
+    fields:
+      - name: molecule_type
+        label: Type of Gas Molecule
+        type: select
+        options: [Monatomic, Diatomic, Linear_Polyatomic, Non_Linear_Polyatomic]
+      - name: temperature
+        label: Temperature (T)
+        type: text
+        placeholder: e.g., 300 K
+        help_text: Temperature of the gas
+      - name: moles
+        label: Number of Moles (n)
+        type: text
+        placeholder: e.g., 2 mol
+        help_text: Number of moles
+      - name: gas_constant
+        label: Gas Constant (R)
+        type: text
+        placeholder: 8.31 J/mol·K
+        default: "8.31"
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [degrees_of_freedom, Cv, Cp, gamma, internal_energy, energy_per_molecule]
+
+  - id: physics_maxwell_distribution
+    title: Maxwell-Boltzmann Distribution
+    category: Kinetic Theory of Gases
+    description: Most probable, average, and RMS speeds
+    fields:
+      - name: temperature
+        label: Temperature (T)
+        type: text
+        placeholder: e.g., 300 K
+        help_text: Absolute temperature
+      - name: molar_mass
+        label: Molar Mass (M)
+        type: text
+        placeholder: e.g., 0.032 kg/mol (O₂)
+        help_text: Molar mass in kg/mol
+      - name: gas_constant
+        label: Gas Constant (R)
+        type: text
+        placeholder: 8.31 J/mol·K
+        default: "8.31"
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [rms_speed, average_speed, most_probable_speed, mean_free_path, collision_frequency]
+
+  - id: physics_osmotic_pressure
+    title: Osmotic Pressure
+    category: Kinetic Theory of Gases
+    description: van't Hoff equation and osmotic pressure calculations
+    fields:
+      - name: concentration
+        label: Concentration (C)
+        type: text
+        placeholder: e.g., 0.1 mol/L
+        help_text: Molar concentration of solution
+      - name: temperature
+        label: Temperature (T)
+        type: text
+        placeholder: e.g., 300 K
+        help_text: Absolute temperature
+      - name: vanthoff_factor
+        label: van't Hoff Factor (i)
+        type: text
+        placeholder: e.g., 2 for NaCl
+        help_text: Degree of dissociation/association
+      - name: gas_constant
+        label: Gas Constant (R)
+        type: text
+        placeholder: 0.083 L·atm/mol·K
+        default: "0.083"
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [osmotic_pressure, degree_of_dissociation, molecular_mass, vanthoff_factor]
+
+  - id: physics_shm_definition
+    title: Simple Harmonic Motion — Basics
+    category: Oscillations
+    description: SHM definition, amplitude, period, frequency, phase
+    fields:
+      - name: amplitude
+        label: Amplitude (A)
+        type: text
+        placeholder: e.g., 0.05 m
+        help_text: Maximum displacement from mean position
+      - name: angular_frequency
+        label: Angular Frequency (ω)
+        type: text
+        placeholder: e.g., 10 rad/s
+        help_text: Angular frequency of oscillation
+      - name: time
+        label: Time (t)
+        type: text
+        placeholder: e.g., 0.5 s
+        help_text: Time at which to find displacement/velocity
+      - name: phase_constant
+        label: Phase Constant (φ)
+        type: text
+        placeholder: e.g., 0 or π/2
+        help_text: Initial phase angle
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [displacement, velocity, acceleration, period, frequency, phase]
+
+  - id: physics_shm_spring_mass
+    title: Mass-Spring System (SHM)
+    category: Oscillations
+    description: Simple harmonic oscillator with spring
+    fields:
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 25 N/m
+        help_text: Stiffness of spring
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 1 kg
+        help_text: Mass attached to spring
+      - name: amplitude
+        label: Amplitude (A)
+        type: text
+        placeholder: e.g., 0.1 m
+        help_text: Maximum displacement
+        required: false
+      - name: time
+        label: Time (t)
+        type: text
+        placeholder: e.g., 0.5 s
+        help_text: Time at which to calculate
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [time_period, frequency, angular_frequency, max_velocity, max_acceleration, total_energy]
+
+  - id: physics_shm_pendulum
+    title: Simple Pendulum
+    category: Oscillations
+    description: Time period and frequency of simple pendulum
+    fields:
+      - name: length
+        label: Length of Pendulum (L)
+        type: text
+        placeholder: e.g., 1 m
+        help_text: Length of the pendulum string
+      - name: gravity
+        label: Acceleration Due to Gravity (g)
+        type: text
+        placeholder: 9.8 m/s²
+        help_text: Local value of g
+      - name: amplitude_angle
+        label: Amplitude Angle (θ₀)
+        type: text
+        placeholder: e.g., 5 degrees
+        help_text: Angular amplitude (should be small for SHM approximation)
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [time_period, frequency, angular_frequency, length_for_seconds_pendulum]
+
+  - id: physics_energy_shm
+    title: Energy in SHM
+    category: Oscillations
+    description: Kinetic, potential, and total energy variation in SHM
+    fields:
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 0.5 kg
+        help_text: Mass of oscillating body
+      - name: angular_frequency
+        label: Angular Frequency (ω)
+        type: text
+        placeholder: e.g., 10 rad/s
+        help_text: Angular frequency
+      - name: amplitude
+        label: Amplitude (A)
+        type: text
+        placeholder: e.g., 0.1 m
+        help_text: Amplitude of oscillation
+      - name: displacement
+        label: Displacement (x)
+        type: text
+        placeholder: e.g., 0.05 m
+        help_text: Position at which to find energies
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 50 N/m
+        help_text: For spring-mass system
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [total_energy, kinetic_energy, potential_energy, average_KE, average_PE, energy_ratio]
+
+  - id: physics_damped_oscillations
+    title: Damped Oscillations
+    category: Oscillations
+    description: Damped harmonic oscillator, damping coefficient, logarithmic decrement
+    fields:
+      - name: damping_coefficient
+        label: Damping Coefficient (b)
+        type: text
+        placeholder: e.g., 0.2 kg/s
+        help_text: Damping constant
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 1 kg
+        help_text: Mass of the oscillator
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 100 N/m
+        help_text: Stiffness of the spring
+      - name: initial_amplitude
+        label: Initial Amplitude (A₀)
+        type: text
+        placeholder: e.g., 0.1 m
+        help_text: Starting amplitude
+      - name: amplitude_after
+        label: Amplitude After n Cycles (Aₙ)
+        type: text
+        placeholder: e.g., 0.05 m
+        help_text: Amplitude after n oscillations
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [damped_frequency, damping_ratio, logarithmic_decrement, amplitude_decay, time_to_decay]
+
+  - id: physics_resonance
+    title: Resonance & Forced Oscillations
+    category: Oscillations
+    description: Resonance frequency, quality factor, amplitude at resonance
+    fields:
+      - name: natural_frequency
+        label: Natural Frequency (f₀ or ω₀)
+        type: text
+        placeholder: e.g., 50 Hz
+        help_text: Natural frequency of the oscillator
+      - name: driving_frequency
+        label: Driving Frequency (f)
+        type: text
+        placeholder: e.g., 50 Hz
+        help_text: Frequency of external driving force
+      - name: damping_coefficient
+        label: Damping Coefficient (b)
+        type: text
+        placeholder: e.g., 0.1 kg/s
+        help_text: Damping constant
+        required: false
+      - name: mass
+        label: Mass (m)
+        type: text
+        placeholder: e.g., 1 kg
+        help_text: Mass of the system
+      - name: spring_constant
+        label: Spring Constant (k)
+        type: text
+        placeholder: e.g., 1000 N/m
+        help_text: Stiffness
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [resonance_frequency, amplitude_at_resonance, quality_factor, amplitude_at_given_driving_freq, bandwidth]
+
+  - id: physics_wave_properties
+    title: Wave Properties & Wave Equation
+    category: Waves
+    description: Wave speed, frequency, wavelength, wave equation
+    fields:
+      - name: frequency
+        label: Frequency (f)
+        type: text
+        placeholder: e.g., 256 Hz
+        help_text: Frequency of the wave in Hz
+      - name: wavelength
+        label: Wavelength (λ)
+        type: text
+        placeholder: e.g., 1.2 m
+        help_text: Wavelength of the wave
+      - name: tension
+        label: Tension in String (T)
+        type: text
+        placeholder: e.g., 80 N
+        help_text: Tension in the string
+        required: false
+      - name: linear_density
+        label: Linear Mass Density (μ)
+        type: text
+        placeholder: e.g., 0.01 kg/m
+        help_text: Mass per unit length of string
+        required: false
+      - name: bulk_modulus
+        label: Bulk Modulus (B)
+        type: text
+        placeholder: e.g., 2.2 × 10⁹ Pa
+        help_text: For sound waves in medium
+        required: false
+      - name: medium_density
+        label: Density of Medium (ρ)
+        type: text
+        placeholder: e.g., 1000 kg/m³
+        help_text: Density of the medium
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [wave_speed, frequency, wavelength, wave_number, wave_equation]
+
+  - id: physics_standing_waves
+    title: Standing Waves & Stationary Waves
+    category: Waves
+    description: Nodes, antinodes, harmonics, resonance in strings and pipes
+    fields:
+      - name: string_length
+        label: Length (L)
+        type: text
+        placeholder: e.g., 1 m
+        help_text: Length of string or air column
+      - name: wave_speed
+        label: Wave Speed (v)
+        type: text
+        placeholder: e.g., 300 m/s
+        help_text: Speed of wave in the medium
+      - name: harmonic_number
+        label: Harmonic / Mode Number (n)
+        type: text
+        placeholder: e.g., 3
+        help_text: Harmonic number
+      - name: pipe_type
+        label: Pipe Type
+        type: select
+        options: [Open_at_both_ends, Closed_at_one_end]
+        required: false
+      - name: tension
+        label: Tension (T)
+        type: text
+        placeholder: e.g., 100 N
+        help_text: Tension in string (if calculating wave speed)
+        required: false
+      - name: linear_density
+        label: Linear Density (μ)
+        type: text
+        placeholder: e.g., 0.01 kg/m
+        help_text: Linear mass density
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [resonant_frequency, wavelength, number_of_nodes, number_of_antinodes, wave_speed, frequencies_of_harmonics]
+
+  - id: physics_beats
+    title: Beats & Beat Frequency
+    category: Waves
+    description: Superposition of two waves with close frequencies
+    fields:
+      - name: frequency_1
+        label: Frequency of First Source (f₁)
+        type: text
+        placeholder: e.g., 256 Hz
+        help_text: Frequency of first wave
+      - name: frequency_2
+        label: Frequency of Second Source (f₂)
+        type: text
+        placeholder: e.g., 260 Hz
+        help_text: Frequency of second wave
+      - name: time
+        label: Time Interval
+        type: text
+        placeholder: e.g., 5 s
+        help_text: Time over which beats are counted
+        required: false
+      - name: beat_count
+        label: Number of Beats
+        type: text
+        placeholder: e.g., 20
+        help_text: Number of beats heard
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [beat_frequency, frequency_of_source, unknown_frequency]
+
+  - id: physics_doppler_effect
+    title: Doppler Effect
+    category: Waves
+    description: Frequency shift due to relative motion
+    fields:
+      - name: source_frequency
+        label: Source Frequency (f₀)
+        type: text
+        placeholder: e.g., 500 Hz
+        help_text: Frequency emitted by the source
+      - name: source_velocity
+        label: Source Velocity (vₛ)
+        type: text
+        placeholder: e.g., 20 m/s
+        help_text: Velocity of source (positive toward observer)
+      - name: observer_velocity
+        label: Observer Velocity (vₒ)
+        type: text
+        placeholder: e.g., 0 m/s
+        help_text: Velocity of observer (positive toward source)
+      - name: wave_speed
+        label: Wave Speed (v)
+        type: text
+        placeholder: e.g., 340 m/s (sound)
+        help_text: Speed of wave in the medium
+      - name: medium_moving
+        label: Is Medium Moving?
+        type: select
+        options: [No, Yes — Wind toward Observer, Yes — Wind toward Source]
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [observed_frequency, wavelength, source_velocity, observer_velocity]
+
+  - id: physics_wave_superposition
+    title: Superposition & Interference
+    category: Waves
+    description: Interference of two waves — constructive and destructive
+    fields:
+      - name: wavelength_1
+        label: Wavelength λ₁
+        type: text
+        placeholder: e.g., 0.5 m
+        help_text: Wavelength of first wave
+      - name: wavelength_2
+        label: Wavelength λ₂
+        type: text
+        placeholder: e.g., 0.5 m
+        help_text: Wavelength of second wave
+      - name: path_difference
+        label: Path Difference (Δx)
+        type: text
+        placeholder: e.g., 0.25 m
+        help_text: Difference in path lengths
+      - name: frequency
+        label: Frequency (f)
+        type: text
+        placeholder: e.g., 340 Hz
+        help_text: Common frequency of both waves
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [resultant_wavelength, condition_for_constructive, condition_for_destructive, resultant_amplitude, phase_difference]
+
+  - id: physics_wave_reflection
+    title: Reflection & Refraction of Waves
+    category: Waves
+    description: Laws of reflection and refraction of waves
+    fields:
+      - name: incident_angle
+        label: Angle of Incidence (i)
+        type: text
+        placeholder: e.g., 30 degrees
+        help_text: Angle of incidence with normal
+      - name: refracted_angle
+        label: Angle of Refraction (r)
+        type: text
+        placeholder: e.g., 20 degrees
+        help_text: Angle of refraction
+        required: false
+      - name: velocity_1
+        label: Velocity in Medium 1 (v₁)
+        type: text
+        placeholder: e.g., 340 m/s
+        help_text: Wave speed in first medium
+        required: false
+      - name: velocity_2
+        label: Velocity in Medium 2 (v₂)
+        type: text
+        placeholder: e.g., 1500 m/s
+        help_text: Wave speed in second medium
+        required: false
+      - name: incident_wavelength
+        label: Incident Wavelength (λ₁)
+        type: text
+        placeholder: e.g., 0.68 m
+        help_text: Wavelength in first medium
+        required: false
+      - name: find_quantity
+        label: Find
+        type: select
+        options: [angle_of_reflection, angle_of_refraction, snells_law_verification, refracted_wavelength, critical_angle]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_06_011",
+   "title": "c11_hin_ar_cbse_06_011",
+   "questions": [
+    {
+     "q": "Define डक्सम फेफ्डलाक्स and डक्सम फ्लोफपाक्स in your own words, giving one original example from the play for each.",
+     "a": "डक्सम फेफ्डलाक्स = inserting a single English word into a Hindi sentence (e.g., \"V~;w'ku\" in \"V~;w'ku osQ uke ij\"). डक्सम फ्लोफपाक्स = mixing grammatical structures of both languages within one clause (e.g., \"eks aVkt esa oqQN n`'; fn[kk, tk,¡\" where English syntax \"montage\" is embedded). A wrong answer that merely lists English words without distinguishing insertion vs. structural blending reveals the student cannot see grammar as a system of choices.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the playwright makes the school director (funs'kd) say \"cksMZ dk dke gh ;g gS fd f'k{kk osQ izpkj&izlkj esa ftruk Hkh gks losQ lg;ksx djsA\" while जटुह (jtuh) replies \"tc bruh cM+h ,M nsrs gSa rks vkidk dksbZ oaQVªksy Hkh jgrk gksxk LowQyksa ijA\" Focus on register and power dynamics.",
+     "a": "The director uses bureaucratic register (\"izpkj&izlkj\", \"lg;ksx\") to legitimise institutional authority; जटुह counters with sarcastic commercial register (\"oaQVªksy\", \"LowQyksa ij\") to expose the school's market-driven hypocrisy. A student who only translates the sentences misses how register encodes ideological conflict.",
+     "self_check": true
+    },
+    {
+     "q": "In the exchange where वफर says \"esjs gks x,A\" after जटुह asks \"isij vPNk djks rc Hkh uacj de gks tkrs gSa\\\", identify the grammatical mood of वफर's utterance and explain its pragmatic effect in the context of a parent-teacher conference.",
+     "a": "\"esjs gks x.A\" is a declarative mood statement functioning as a performative admission—it simultaneously acknowledges the fee reduction and asserts वफर's helplessness. A student who labels it merely \"past tense\" fails to connect grammar to the powerlessness of a marginalised parent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stage direction language (\"n`'; lekIr u;k n`';\") with the dialogue language. How does the playwright use imperative vs. descriptive verb forms to differentiate narrative voice from character voice?",
+     "a": "Stage directions use infinitives/imperfective participles (\"ctkus\", \"ns[krs gq,\", \"iM+rs gq,\") to create a timeless, observational narrator, while dialogue uses finite conjugated verbs (\"gS\", \"gqbZ\", \"yxh\") anchoring characters in immediate interaction. Confusing the two voices indicates the student cannot distinguish meta-textual grammar from dramatic grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the effectiveness of the playwright's use of डक्सम फ्लोफपाक्स in the climax where जटुह declares \"vc vki yksx viuh jk; nhft,A\" after a montage of voices. Does the syntactic blending enhance or dilute the political message? Justify.",
+     "a": "The blending enhances the message: by embedding English administrative terms (\"f'kdk;r\", \"fu;e\", \"izLrko\") inside Hindi syntactic frames, the playwright mirrors how neoliberal policy language colonises everyday speech, making the protest linguistically enact the very resistance it voices. A purely aesthetic judgment (\"it sounds modern\") shows insufficient critical engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Write a five-line dialogue between a gig-worker and a platform-algorithm (personified) that uses डक्सम फेफ्डलाक्स for technical terms and डक्सम फ्लोफपाक्स for the worker's internal monologue, mimicking the play's style.",
+     "a": "Example:\nWorker: \"Algorithm bhai, rating kam kyun gayi?\"\nAlgorithm: \"Policy update—new metrics applied.\"\nWorker (aside): \"Metrics matlab? Mere kaam ka data harvest kar liya.\"\nAlgorithm: \"Compliance mandatory. Appeal window closed.\"\nWorker: \"Appeal bhi ek 'feature' hai jo humein diya hi nahi.\"\nA poor answer would use only Hindi or only English, missing the strategic code-switching that indexes power asymmetry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

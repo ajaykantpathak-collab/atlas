@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_03_004",
+   "title": "c10_civ_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the exact constitutional status of the word “secular” in the Indian Preamble, and which amendment inserted it?",
+     "a": "The word “secular” was added to the Preamble by the 42nd Constitutional Amendment Act, 1976. It declares India a secular state, meaning the State has no official religion and treats all religions equally. A wrong answer (e.g., “it was in the original 1950 Constitution” or “it was added by the 44th Amendment”) shows the student confuses the amendment history and may not realise that the Preamble’s secular character is an explicit constitutional commitment, not just an implied principle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indian model of secularism is described as “principled distance” rather than “strict separation” of religion and state.",
+     "a": "Indian secularism allows the State to intervene in religious practices to ensure equality and social reform (e.g., banning untouchability under Article 17, reforming Hindu personal law in the 1950s), whereas strict separation (as in the U.S. First Amendment) forbids any state involvement in religion. A wrong answer that equates Indian secularism with complete separation reveals the student has not grasped the unique “principled distance” doctrine and will misapply Articles 25–28 in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A political party’s manifesto promises to “enact a law based on the religious scriptures of the majority community.” Using Articles 14, 15, and 25, analyse whether this promise is constitutionally permissible.",
+     "a": "The promise violates Articles 14 (equality before law) and 15 (prohibition of discrimination on grounds of religion) because it privileges one religion’s scriptures over others. Article 25 guarantees freedom of religion but does not permit the State to enforce religious laws on all citizens. A student who says “it is allowed because Article 25 protects religious freedom” confuses individual freedom with state endorsement, missing that the State must remain neutral.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the communalism of the 1980s (e.g., the Shah Bano case aftermath) with the communalism seen in contemporary social media campaigns. Identify two structural similarities and one key difference in how political mobilisation occurs.",
+     "a": "Similarities: (1) Both use religious identity as the primary political cleavage; (2) Both portray the “other” community as a threat. Difference: 1980s mobilisation relied on physical rallies and print media, while today’s uses algorithmic targeting on digital platforms, allowing micro-targeting and faster spread. A wrong answer that only lists surface events (e.g., “both caused riots”) fails to analyse the structural logic of communal mobilisation across eras.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: “A Uniform Civil Code (UCC) would strengthen Indian secularism by removing religion-based personal laws.” Consider Articles 25, 26, and 44 (Directive Principle) in your judgement.",
+     "a": "A UCC could strengthen formal equality (Article 14) and non-discrimination (Article 15), but imposing it without consensus may violate the freedom to manage religious affairs (Article 26) and the right to propagate religion (Article 25). The Directive Principle in Article 44 urges the State to “endeavour” to secure a UCC, not mandate it immediately. A balanced evaluation acknowledges both the equality goal and the religious autonomy concern. A one-sided answer (“UCC is fully secular” or “UCC destroys secularism”) shows inability to weigh competing constitutional values.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph “Secularism Charter” for a school student council that reflects the Indian constitutional model (not the Western strict-separation model). Include at least three actionable commitments.",
+     "a": "A good charter will: (1) affirm equal respect for all faiths and non-faith; (2) allow voluntary religious expression (prayer, dress) but prohibit coercion; (3) empower the council to intervene if any practice discriminates (e.g., exclusion based on caste or gender within a religious group). A poor charter either bans all religious expression (Western separation) or privileges one religion’s festivals, showing the student cannot translate “principled distance” into practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

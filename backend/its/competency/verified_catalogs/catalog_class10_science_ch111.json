@@ -1,0 +1,937 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 111,
+ "chapter_title": "Electricity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc111.txt",
+ "concepts": [
+  {
+   "id": "jesc.11.1",
+   "title": "Electric Current and Charge",
+   "section": "11.1",
+   "definition": "The flow rate of electric charges through a given cross-sectional area of a conductor over time.",
+   "formula": "current = charge / time",
+   "key_idea": "Electric current measures charge transfer per unit time in amperes.",
+   "textbook_ref": "jesc111.txt lines 15-55",
+   "question_patterns": [
+    "find the electric current when charge ... flows in time ...",
+    "calculate the charge flowing through a circuit given current and time",
+    "how much electric charge flows when a current of ... drawn for ...",
+    "determine the time required for a charge of ... to flow with current ...",
+    "what is the current produced by a charge of ... flowing for ... seconds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate charge",
+     "explain": "charge equals current multiplied by time duration in seconds",
+     "compute": "charge = current * time"
+    },
+    {
+     "step": 2,
+     "action": "convert time to seconds if given in minutes",
+     "explain": "when time is given in minutes, multiply by 60 to obtain seconds before computing charge",
+     "compute": "time_seconds = time_min * 60"
+    },
+    {
+     "step": 3,
+     "action": "state the final charge with correct unit",
+     "explain": "express the result in coulombs, since one ampere of current carries one coulomb of charge per second",
+     "compute": "charge_coulombs = current * time_seconds"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.2",
+   "title": "Electric Potential Difference",
+   "section": "11.2",
+   "definition": "The work required to move a unit positive charge from one point to another in an electric circuit.",
+   "formula": "potential_difference = work_done / charge",
+   "key_idea": "Potential difference measures electrical work per unit charge in volts.",
+   "textbook_ref": "jesc111.txt lines 65-105",
+   "question_patterns": [
+    "find the work done moving a charge across potential difference",
+    "calculate the potential difference given work done and charge",
+    "how much energy is transferred when charge ... moves through potential difference ...",
+    "determine the charge moved when work done is ... and potential difference is ...",
+    "what is the work done in transferring a charge of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate work done",
+     "explain": "work done equals potential difference multiplied by electric charge",
+     "compute": "work_done = potential_difference * charge"
+    },
+    {
+     "step": 2,
+     "action": "calculate energy transferred if needed",
+     "explain": "the work done in moving charge through a potential difference equals the electrical energy transferred, in joules",
+     "compute": "energy = work_done"
+    },
+    {
+     "step": 3,
+     "action": "state the result with correct unit",
+     "explain": "express work done or energy in joules, since one volt times one coulomb equals one joule",
+     "compute": "result_joules = work_done"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.3",
+   "title": "Circuit Symbols and Schematic Diagrams",
+   "section": "11.3",
+   "definition": "Standardized visual representations used to depict electrical elements and their interconnections in a circuit diagram.",
+   "formula": "N/A",
+   "key_idea": "Schematic diagrams use standard symbols for cells, switches, meters, and resistors.",
+   "textbook_ref": "jesc111.txt lines 110-135",
+   "question_patterns": [
+    "identify the circuit symbol for a resistor or variable resistance",
+    "draw the schematic symbol for a plug key or voltmeter",
+    "what does the symbol of a wire joint or crossing represent",
+    "verify the connection rule for ammeter and voltmeter in a circuit",
+    "justify why circuit symbols and schematic diagrams matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify circuit component",
+     "explain": "match the provided symbol to the corresponding standard electrical device"
+    },
+    {
+     "step": 2,
+     "action": "verify connection orientation",
+     "explain": "ammeters must be in series and voltmeters must be parallel across components"
+    },
+    {
+     "step": 3,
+     "action": "confirm the schematic follows standard conventions",
+     "explain": "ensure wires are drawn as straight lines, junctions are marked with dots, and components use their correct standardized symbols for an unambiguous diagram."
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.4",
+   "title": "Ohm's Law",
+   "section": "11.4",
+   "definition": "For a metallic conductor kept at one temperature, the current flowing through it grows in step with the voltage applied between its ends.",
+   "formula": "voltage = current * resistance",
+   "key_idea": "Resistance is the ratio of potential difference to current for a conductor.",
+   "textbook_ref": "jesc111.txt lines 140-190",
+   "question_patterns": [
+    "find the resistance of a resistor given potential difference and current",
+    "calculate the current through a conductor given voltage and resistance",
+    "how much current flows through a bulb of resistance ... connected to ...",
+    "determine the voltage across a resistor of ... carrying current ...",
+    "what is the potential difference needed to draw a current of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate current",
+     "explain": "divide potential difference by electrical resistance",
+     "compute": "current = voltage / resistance"
+    },
+    {
+     "step": 2,
+     "action": "calculate resistance if voltage and current are given",
+     "explain": "rearrange Ohm's law so resistance equals voltage divided by current",
+     "compute": "resistance = voltage / current"
+    },
+    {
+     "step": 3,
+     "action": "state the result with correct unit",
+     "explain": "express current in amperes and resistance in ohms, confirming the values satisfy Ohm's law V = I x R",
+     "compute": "verify = current * resistance"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.5",
+   "title": "Factors Affecting Resistance and Electrical Resistivity",
+   "section": "11.5",
+   "definition": "Resistance varies in direct proportion with conductor length and in inverse proportion with cross-sectional area, multiplied by material resistivity.",
+   "formula": "resistance = (resistivity * length) / area",
+   "key_idea": "Resistivity is an intrinsic material property measuring opposition to charge flow.",
+   "textbook_ref": "jesc111.txt lines 200-260",
+   "question_patterns": [
+    "find the resistivity of a wire given length, diameter, and resistance",
+    "calculate the resistance of a wire of given length and area",
+    "how much does resistance change when wire length is doubled",
+    "determine the length of wire needed for a specified resistance",
+    "what is the new resistance when area of cross section changes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cross-sectional area",
+     "explain": "cross-sectional area equals pi times diameter squared divided by 4",
+     "compute": "area = pi * (diameter ** 2) / 4"
+    },
+    {
+     "step": 2,
+     "action": "calculate resistivity",
+     "explain": "resistivity equals resistance multiplied by area divided by length",
+     "compute": "resistivity = (resistance * area) / length"
+    },
+    {
+     "step": 3,
+     "action": "state the resistivity with correct unit",
+     "explain": "express resistivity in ohm-meters, which is the intrinsic material property independent of wire dimensions",
+     "compute": "resistivity_ohm_m = resistivity"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.6.1",
+   "title": "Resistors in Series",
+   "section": "11.6.1",
+   "definition": "When multiple resistors are joined end to end in a single line, the total resistance is the sum of individual resistances while current remains uniform.",
+   "formula": "r_series = r1 + r2 + r3",
+   "key_idea": "Series connection adds individual resistances and maintains equal current through all components.",
+   "textbook_ref": "jesc111.txt lines 270-330",
+   "question_patterns": [
+    "find the equivalent resistance of resistors connected in series",
+    "calculate total current in a series circuit with battery voltage",
+    "how much voltage drops across individual resistors in series",
+    "determine total resistance for three series connected resistors",
+    "what is the total resistance when ... and ... are in series"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum individual resistances",
+     "explain": "total series resistance equals sum of r1, r2, and r3",
+     "compute": "r_series = r1 + r2 + r3"
+    },
+    {
+     "step": 2,
+     "action": "calculate circuit current",
+     "explain": "divide supply voltage by total series resistance",
+     "compute": "current = voltage / r_series"
+    },
+    {
+     "step": 3,
+     "action": "calculate voltage drop across each resistor",
+     "explain": "in a series circuit the same current flows through all resistors, so each voltage drop equals current times that resistor's value",
+     "compute": "v_drop = current * resistor"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.6.2",
+   "title": "Resistors in Parallel",
+   "section": "11.6.2",
+   "definition": "When resistors are joined across common points, the inverse of total resistance equals the sum of inverses of individual resistances, and voltage across branches is identical.",
+   "formula": "1 / r_parallel = (1 / r1) + (1 / r2) + (1 / r3)",
+   "key_idea": "Parallel connection reduces total resistance and splits current among branches.",
+   "textbook_ref": "jesc111.txt lines 340-410",
+   "question_patterns": [
+    "find the equivalent resistance of resistors in parallel",
+    "calculate branch currents for parallel connected resistors",
+    "how much is the total current in a parallel circuit",
+    "determine equivalent parallel resistance for given values",
+    "what is the total current drawn from source by parallel resistors"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate sum of inverse resistances",
+     "explain": "sum reciprocals of individual resistances",
+     "compute": "inv_r = (1 / r1) + (1 / r2) + (1 / r3)"
+    },
+    {
+     "step": 2,
+     "action": "calculate equivalent parallel resistance",
+     "explain": "take reciprocal of sum of inverses",
+     "compute": "r_parallel = 1 / inv_r"
+    },
+    {
+     "step": 3,
+     "action": "calculate total current",
+     "explain": "divide source voltage by equivalent parallel resistance",
+     "compute": "total_current = voltage / r_parallel"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.7",
+   "title": "Heating Effect of Electric Current and Joule's Law",
+   "section": "11.7",
+   "definition": "Electrical energy changed into thermal energy in a conductor varies in direct proportion with current squared, resistance, and time duration.",
+   "formula": "heat = (current ** 2) * resistance * time",
+   "key_idea": "Joule heating converts electrical energy to heat energy in resistive components.",
+   "textbook_ref": "jesc111.txt lines 420-470",
+   "question_patterns": [
+    "find the heat produced in a resistor given current, resistance and time",
+    "calculate heat generated when charge moves across potential difference",
+    "how much heat is developed in ... seconds by a current of ...",
+    "determine potential difference across resistor given heat and time",
+    "what is the rate of heat generation in a heating element"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate heat energy produced",
+     "explain": "heat generated equals square of current times resistance times time",
+     "compute": "heat = (current ** 2) * resistance * time"
+    },
+    {
+     "step": 2,
+     "action": "calculate heat from potential difference if needed",
+     "explain": "using V = I x R, heat can also be expressed as voltage squared times time divided by resistance",
+     "compute": "heat_alt = (voltage ** 2) * time / resistance"
+    },
+    {
+     "step": 3,
+     "action": "state the heat energy with correct unit",
+     "explain": "express the result in joules, confirming Joule's law that heat is proportional to current squared, resistance, and time",
+     "compute": "heat_joules = heat"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.8",
+   "title": "Electric Power",
+   "section": "11.8",
+   "definition": "The speed with which electric energy is consumed or changed into other forms of energy in an electric circuit.",
+   "formula": "power = voltage * current",
+   "key_idea": "Electric power measures the rate of energy consumption in watts.",
+   "textbook_ref": "jesc111.txt lines 480-530",
+   "question_patterns": [
+    "find the electric power of an appliance given voltage and current",
+    "calculate current drawn by a device of given power rating and voltage",
+    "how much power is consumed when voltage is ... and resistance is ...",
+    "determine resistance of a bulb from its rated power and voltage",
+    "what is the power rating of an electric device"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate electric power",
+     "explain": "multiply potential difference by electric current",
+     "compute": "power = voltage * current"
+    },
+    {
+     "step": 2,
+     "action": "calculate power using resistance if needed",
+     "explain": "using Ohm's law, power can also be computed as current squared times resistance or voltage squared divided by resistance",
+     "compute": "power_alt = (current ** 2) * resistance"
+    },
+    {
+     "step": 3,
+     "action": "state the power with correct unit",
+     "explain": "express power in watts, where one watt equals one joule per second, representing the rate of energy consumption",
+     "compute": "power_watts = power"
+    }
+   ]
+  },
+  {
+   "id": "jesc.11.8.1",
+   "title": "Commercial Unit of Electrical Energy and Electricity Bill Calculation",
+   "section": "11.8.1",
+   "definition": "Commercial electrical energy is calculated in kilowatt-hours (kWh) and multiplied by cost rate per unit to determine electricity expenses.",
+   "formula": "energy_kwh = (power_watts * hours * days) / 1000",
+   "key_idea": "Electrical energy consumption is billed in units of kilowatt-hours.",
+   "textbook_ref": "jesc111.txt lines 525-560",
+   "question_patterns": [
+    "find the commercial electrical energy consumed in kWh",
+    "calculate the cost of operating an appliance for a given duration",
+    "how much does it cost to run a heater of power ... for ... hours",
+    "determine the total energy in kWh used by multiple appliances",
+    "what is the expense of electrical energy at rate per unit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy consumed in kWh",
+     "explain": "multiply power in watts by daily hours and number of days divided by 1000",
+     "compute": "energy_kwh = (power_watts * hours * days) / 1000"
+    },
+    {
+     "step": 2,
+     "action": "calculate total cost",
+     "explain": "multiply total energy in kWh by unit price rate",
+     "compute": "total_cost = energy_kwh * rate_per_kwh"
+    },
+    {
+     "step": 3,
+     "action": "state the total energy and cost with correct units",
+     "explain": "express energy in kilowatt-hours (units) and cost in rupees, confirming the commercial billing calculation",
+     "compute": "result_cost = total_cost"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex11.1",
+   "source_ref": "Example 11.1",
+   "concept": "jesc.11.1",
+   "question_type": "compute",
+   "question_pattern": "A current of {current} A is drawn by a filament of an electric bulb for {time_min} minutes. Find the amount of electric charge that flows through the circuit.",
+   "extracted_variables": {
+    "current": "0.5 A",
+    "time_min": "10 min"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert time into seconds",
+     "explain": "multiply minutes by 60 to obtain seconds",
+     "compute": "time = time_min * 60"
+    },
+    {
+     "step": 2,
+     "action": "calculate electric charge",
+     "explain": "charge equals current multiplied by time in seconds",
+     "compute": "charge = current * time"
+    }
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "Example 11.2",
+   "concept": "jesc.11.2",
+   "question_type": "compute",
+   "question_pattern": "How much work is done in moving a charge of {charge} C across two points having a potential difference {potential_difference} V?",
+   "extracted_variables": {
+    "charge": "2 C",
+    "potential_difference": "12 V"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate work done",
+     "explain": "work done equals potential difference times charge",
+     "compute": "work_done = potential_difference * charge"
+    }
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "Example 11.3",
+   "concept": "jesc.11.4",
+   "question_type": "compute",
+   "question_pattern": "How much current will an electric bulb draw from a {voltage} V source, if the resistance of the bulb filament is {resistance} ohm?",
+   "extracted_variables": {
+    "voltage": "220 V",
+    "resistance": "1200 ohm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate current",
+     "explain": "current equals voltage divided by resistance",
+     "compute": "current = voltage / resistance"
+    }
+   ]
+  },
+  {
+   "id": "ex11.4",
+   "source_ref": "Example 11.4",
+   "concept": "jesc.11.4",
+   "question_type": "compute",
+   "question_pattern": "The potential difference between terminals of an electric heater is {voltage1} V when it draws a current of {current1} A. What current will the heater draw if potential difference is increased to {voltage2} V?",
+   "extracted_variables": {
+    "voltage1": "60 V",
+    "current1": "4 A",
+    "voltage2": "120 V"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate resistance of heater",
+     "explain": "resistance equals initial voltage divided by initial current",
+     "compute": "resistance = voltage1 / current1"
+    },
+    {
+     "step": 2,
+     "action": "calculate new current",
+     "explain": "new current equals new voltage divided by calculated resistance",
+     "compute": "current2 = voltage2 / resistance"
+    }
+   ]
+  },
+  {
+   "id": "ex11.5",
+   "source_ref": "Example 11.5",
+   "concept": "jesc.11.5",
+   "question_type": "compute",
+   "question_pattern": "Resistance of a metal wire of length {length} m is {resistance} ohm at 20°C. If the diameter of the wire is {diameter} m, what will be the resistivity of the metal?",
+   "extracted_variables": {
+    "length": "1 m",
+    "resistance": "26 ohm",
+    "diameter": "0.0003 m"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cross-sectional area",
+     "explain": "area equals pi times diameter squared divided by 4",
+     "compute": "area = pi * (diameter ** 2) / 4"
+    },
+    {
+     "step": 2,
+     "action": "calculate resistivity",
+     "explain": "resistivity equals resistance times area divided by length",
+     "compute": "resistivity = (resistance * area) / length"
+    }
+   ]
+  },
+  {
+   "id": "ex11.7",
+   "source_ref": "Example 11.7",
+   "concept": "jesc.11.6.1",
+   "question_type": "compute",
+   "question_pattern": "An electric lamp of resistance {r1} ohm and a conductor of {r2} ohm resistance are connected in series to a {voltage} V battery. Calculate total resistance and total current.",
+   "extracted_variables": {
+    "r1": "20 ohm",
+    "r2": "4 ohm",
+    "voltage": "6 V"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total series resistance",
+     "explain": "total resistance equals sum of r1 and r2",
+     "compute": "r_series = r1 + r2"
+    },
+    {
+     "step": 2,
+     "action": "calculate total circuit current",
+     "explain": "total current equals voltage divided by total series resistance",
+     "compute": "current = voltage / r_series"
+    }
+   ]
+  },
+  {
+   "id": "ex11.8",
+   "source_ref": "Example 11.8",
+   "concept": "jesc.11.6.2",
+   "question_type": "compute",
+   "question_pattern": "Resistors {r1} ohm, {r2} ohm and {r3} ohm are connected in parallel across a {voltage} V battery. Calculate individual branch currents and total resistance.",
+   "extracted_variables": {
+    "r1": "5 ohm",
+    "r2": "10 ohm",
+    "r3": "30 ohm",
+    "voltage": "12 V"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate branch current 1",
+     "explain": "i1 equals voltage divided by r1",
+     "compute": "i1 = voltage / r1"
+    },
+    {
+     "step": 2,
+     "action": "calculate branch current 2",
+     "explain": "i2 equals voltage divided by r2",
+     "compute": "i2 = voltage / r2"
+    },
+    {
+     "step": 3,
+     "action": "calculate branch current 3",
+     "explain": "i3 equals voltage divided by r3",
+     "compute": "i3 = voltage / r3"
+    },
+    {
+     "step": 4,
+     "action": "calculate total circuit current",
+     "explain": "total current equals sum of i1, i2 and i3",
+     "compute": "total_current = i1 + i2 + i3"
+    },
+    {
+     "step": 5,
+     "action": "calculate parallel equivalent resistance",
+     "explain": "total resistance equals voltage divided by total current",
+     "compute": "r_parallel = voltage / total_current"
+    }
+   ]
+  },
+  {
+   "id": "ex11.10",
+   "source_ref": "Example 11.10",
+   "concept": "jesc.11.8",
+   "question_type": "compute",
+   "question_pattern": "An electric iron consumes energy at a rate of {power_max} W at maximum heating from a {voltage} V supply. What are the current and resistance?",
+   "extracted_variables": {
+    "power_max": "840 W",
+    "voltage": "220 V"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate current drawn",
+     "explain": "current equals power divided by voltage",
+     "compute": "current = power_max / voltage"
+    },
+    {
+     "step": 2,
+     "action": "calculate iron resistance",
+     "explain": "resistance equals voltage divided by current",
+     "compute": "resistance = voltage / current"
+    }
+   ]
+  },
+  {
+   "id": "ex11.11",
+   "source_ref": "Example 11.11",
+   "concept": "jesc.11.7",
+   "question_type": "compute",
+   "question_pattern": "{heat} J of heat is produced each second in a {resistance} ohm resistance. Find the potential difference across the resistor.",
+   "extracted_variables": {
+    "heat": "100 J",
+    "resistance": "4 ohm",
+    "time": "1 s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate current",
+     "explain": "current equals square root of heat divided by product of resistance and time",
+     "compute": "current = sqrt(heat / (resistance * time))"
+    },
+    {
+     "step": 2,
+     "action": "calculate potential difference",
+     "explain": "voltage equals current multiplied by resistance",
+     "compute": "voltage = current * resistance"
+    }
+   ]
+  },
+  {
+   "id": "ex11.12",
+   "source_ref": "Example 11.12",
+   "concept": "jesc.11.8",
+   "question_type": "compute",
+   "question_pattern": "An electric bulb is connected to a {voltage} V generator drawing {current} A current. What is the power of the bulb?",
+   "extracted_variables": {
+    "voltage": "220 V",
+    "current": "0.50 A"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric power",
+     "explain": "power equals voltage multiplied by current",
+     "compute": "power = voltage * current"
+    }
+   ]
+  },
+  {
+   "id": "ex11.13",
+   "source_ref": "Example 11.13",
+   "concept": "jesc.11.8.1",
+   "question_type": "compute",
+   "question_pattern": "An electric refrigerator rated {power_watts} W operates {hours} hour/day. What is the cost of energy to operate it for {days} days at Rs {rate_per_kwh} per kWh?",
+   "extracted_variables": {
+    "power_watts": "400 W",
+    "hours": "8",
+    "days": "30",
+    "rate_per_kwh": "3.00"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate energy consumed in kWh",
+     "explain": "energy in kWh equals power in watts times daily hours times days divided by 1000",
+     "compute": "energy_kwh = (power_watts * hours * days) / 1000"
+    },
+    {
+     "step": 2,
+     "action": "calculate total operation cost",
+     "explain": "total cost equals energy in kWh times rate per kWh",
+     "compute": "total_cost = energy_kwh * rate_per_kwh"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc111.txt lines 15-55",
+   "concept": "jesc.11.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute electric current and charge step by step",
+   "extracted_variables": {
+    "current": "value of current",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate charge",
+     "explain": "charge equals current multiplied by time duration in seconds",
+     "compute": "charge = current * time"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "jesc111.txt lines 65-105",
+   "concept": "jesc.11.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute electric potential difference step by step",
+   "extracted_variables": {
+    "potential_difference": "value of potential_difference",
+    "charge": "value of charge"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate work done",
+     "explain": "work done equals potential difference multiplied by electric charge",
+     "compute": "work_done = potential_difference * charge"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "jesc111.txt lines 200-260",
+   "concept": "jesc.11.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute factors affecting resistance and electrical resistivity step by step",
+   "extracted_variables": {
+    "diameter": "value of diameter",
+    "resistance": "value of resistance",
+    "length": "value of length"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cross-sectional area",
+     "explain": "cross-sectional area equals pi times diameter squared divided by 4",
+     "compute": "area = pi * (diameter ** 2) / 4"
+    },
+    {
+     "step": 2,
+     "action": "calculate resistivity",
+     "explain": "resistivity equals resistance multiplied by area divided by length",
+     "compute": "resistivity = (resistance * area) / length"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "jesc111.txt lines 270-330",
+   "concept": "jesc.11.6.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute resistors in series step by step",
+   "extracted_variables": {
+    "r1": "value of r1",
+    "r2": "value of r2",
+    "r3": "value of r3",
+    "voltage": "value of voltage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum individual resistances",
+     "explain": "total series resistance equals sum of r1, r2, and r3",
+     "compute": "r_series = r1 + r2 + r3"
+    },
+    {
+     "step": 2,
+     "action": "calculate circuit current",
+     "explain": "divide supply voltage by total series resistance",
+     "compute": "current = voltage / r_series"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "jesc111.txt lines 340-410",
+   "concept": "jesc.11.6.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute resistors in parallel step by step",
+   "extracted_variables": {
+    "r1": "value of r1",
+    "r2": "value of r2",
+    "r3": "value of r3",
+    "voltage": "value of voltage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate sum of inverse resistances",
+     "explain": "sum reciprocals of individual resistances",
+     "compute": "inv_r = (1 / r1) + (1 / r2) + (1 / r3)"
+    },
+    {
+     "step": 2,
+     "action": "calculate equivalent parallel resistance",
+     "explain": "take reciprocal of sum of inverses",
+     "compute": "r_parallel = 1 / inv_r"
+    },
+    {
+     "step": 3,
+     "action": "calculate total current",
+     "explain": "divide source voltage by equivalent parallel resistance",
+     "compute": "total_current = voltage / r_parallel"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "jesc111.txt lines 420-470",
+   "concept": "jesc.11.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute heating effect of electric current and joule's law step by step",
+   "extracted_variables": {
+    "current": "value of current",
+    "resistance": "value of resistance",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate heat energy produced",
+     "explain": "heat generated equals square of current times resistance times time",
+     "compute": "heat = (current ** 2) * resistance * time"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "jesc111.txt lines 525-560",
+   "concept": "jesc.11.8.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute commercial unit of electrical energy and electricity bill calculation step by step",
+   "extracted_variables": {
+    "power_watts": "value of power_watts",
+    "hours": "value of hours",
+    "days": "value of days",
+    "rate_per_kwh": "value of rate_per_kwh"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate energy consumed in kWh",
+     "explain": "multiply power in watts by daily hours and number of days divided by 1000",
+     "compute": "energy_kwh = (power_watts * hours * days) / 1000"
+    },
+    {
+     "step": 2,
+     "action": "calculate total cost",
+     "explain": "multiply total energy in kWh by unit price rate",
+     "compute": "total_cost = energy_kwh * rate_per_kwh"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "in_text_q1",
+   "source_ref": "In-text Questions Section 11.1",
+   "questions": [
+    "What does an electric circuit mean?",
+    "Define the unit of current.",
+    "Calculate the number of electrons constituting one coulomb of charge."
+   ]
+  },
+  {
+   "id": "in_text_q2",
+   "source_ref": "In-text Questions Section 11.2",
+   "questions": [
+    "Name a device that helps to maintain a potential difference across a conductor.",
+    "What is meant by saying that the potential difference between two points is 1 V?",
+    "How much energy is given to each coulomb of charge passing through a 6 V battery?"
+   ]
+  },
+  {
+   "id": "in_text_q3",
+   "source_ref": "In-text Questions Section 11.5",
+   "questions": [
+    "On what factors does the resistance of a conductor depend?",
+    "Will current flow more easily through a thick wire or a thin wire of the same material, when connected to the same source? Why?",
+    "Let the resistance of an electrical component remains constant while the potential difference across the two ends of the component decreases to half of its former value. What change will occur in the current through it?",
+    "Why are coils of electric toasters and electric irons made of an alloy rather than a pure metal?",
+    "Use the data in Table 11.2 to answer: (a) Which among iron and mercury is a better conductor? (b) Which material is the best conductor?"
+   ]
+  },
+  {
+   "id": "in_text_q4",
+   "source_ref": "In-text Questions Section 11.6.1",
+   "questions": [
+    "Draw a schematic diagram of a circuit consisting of a battery of three cells of 2 V each, a 5 ohm resistor, an 8 ohm resistor, and a 12 ohm resistor, and a plug key, all connected in series.",
+    "Redraw the circuit putting in an ammeter to measure current and a voltmeter across 12 ohm resistor. What would be the ammeter and voltmeter readings?"
+   ]
+  },
+  {
+   "id": "in_text_q5",
+   "source_ref": "In-text Questions Section 11.6.2",
+   "questions": [
+    "Judge the equivalent resistance when connected in parallel: (a) 1 ohm and 10^6 ohm, (b) 1 ohm, 10^3 ohm and 10^6 ohm.",
+    "An electric lamp of 100 ohm, a toaster of resistance 50 ohm, and a water filter of resistance 500 ohm are connected in parallel to a 220 V source. What is the resistance of an electric iron connected to the same source that takes as much current as all three appliances, and what is the current through it?",
+    "What are the advantages of connecting electrical devices in parallel with the battery instead of connecting them in series?",
+    "How can three resistors of resistances 2 ohm, 3 ohm, and 6 ohm be connected to give a total resistance of (a) 4 ohm, (b) 1 ohm?",
+    "What is (a) the highest, (b) the lowest total resistance that can be secured by combinations of four coils of resistance 4 ohm, 8 ohm, 12 ohm, 24 ohm?"
+   ]
+  },
+  {
+   "id": "in_text_q6",
+   "source_ref": "In-text Questions Section 11.7",
+   "questions": [
+    "Why does the cord of an electric heater not glow while the heating element does?",
+    "Compute the heat generated while transferring 96000 coulomb of charge in one hour through a potential difference of 50 V.",
+    "An electric iron of resistance 20 ohm takes a current of 5 A. Calculate the heat developed in 30 s."
+   ]
+  },
+  {
+   "id": "in_text_q7",
+   "source_ref": "In-text Questions Section 11.8",
+   "questions": [
+    "What determines the rate at which energy is delivered by a current?",
+    "An electric motor takes 5 A from a 220 V line. Determine the power of the motor and the energy consumed in 2 h."
+   ]
+  },
+  {
+   "id": "ex_11.1",
+   "source_ref": "Exercises Q1-Q5",
+   "questions": [
+    "A piece of wire of resistance R is cut into five equal parts. These parts are then connected in parallel. If the equivalent resistance of this combination is R', then the ratio R/R' is (a) 1/25 (b) 1/5 (c) 5 (d) 25.",
+    "Which of the following terms does not represent electrical power in a circuit? (a) I^2 R (b) I R^2 (c) V I (d) V^2 / R.",
+    "An electric bulb is rated 220 V and 100 W. When it is operated on 110 V, the power consumed will be (a) 100 W (b) 75 W (c) 50 W (d) 25 W.",
+    "Two conducting wires of the same material and equal lengths and equal diameters are connected in series and then parallel across the same potential difference. Ratio of heat produced in series and parallel is (a) 1:2 (b) 2:1 (c) 1:4 (d) 4:1.",
+    "How is a voltmeter connected in the circuit to measure the potential difference between two points?"
+   ]
+  },
+  {
+   "id": "ex_11.2",
+   "source_ref": "Exercises Q6-Q12",
+   "questions": [
+    "A copper wire has diameter 0.5 mm and resistivity of 1.6 x 10^-8 ohm m. What will be the length of this wire to make its resistance 10 ohm? How much does resistance change if diameter is doubled?",
+    "Given current I and potential difference V values for a resistor, plot V-I graph and calculate resistance.",
+    "When a 12 V battery is connected across an unknown resistor, there is a current of 2.5 mA in the circuit. Find the value of resistance.",
+    "A battery of 9 V is connected in series with resistors of 0.2 ohm, 0.3 ohm, 0.4 ohm, 0.5 ohm and 12 ohm. How much current flows through the 12 ohm resistor?",
+    "How many 176 ohm resistors (in parallel) are required to carry 5 A on a 220 V line?",
+    "Show how you would connect three resistors, each of resistance 6 ohm, so that the combination has a resistance of (i) 9 ohm, (ii) 4 ohm.",
+    "Several electric bulbs designed to be used on a 220 V electric supply line, are rated 10 W. How many lamps can be connected in parallel across 220 V line if maximum current is 5 A?"
+   ]
+  },
+  {
+   "id": "ex_11.3",
+   "source_ref": "Exercises Q13-Q18",
+   "questions": [
+    "A hot plate connected to 220 V line has two resistance coils A and B of 24 ohm each, used separately, in series, or in parallel. What are the currents in the three cases?",
+    "Compare the power used in 2 ohm resistor in (i) 6 V battery in series with 1 ohm and 2 ohm resistors, (ii) 4 V battery in parallel with 12 ohm and 2 ohm resistors.",
+    "Two lamps, rated 100 W at 220 V and 60 W at 220 V, are connected in parallel to 220 V supply. What current is drawn from line?",
+    "Which uses more energy, a 250 W TV set in 1 hr, or a 1200 W toaster in 10 minutes?",
+    "An electric heater of resistance 44 ohm draws 5 A for 2 hours. Calculate rate at which heat is developed.",
+    "Explain: (a) Why tungsten is used for filament of lamps? (b) Why conductors of heating devices are made of alloy? (c) Why series arrangement is not used for domestic circuits? (d) How resistance varies with cross-sectional area? (e) Why copper and aluminium are used for power transmission?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

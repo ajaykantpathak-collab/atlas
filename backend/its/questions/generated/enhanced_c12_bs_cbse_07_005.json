@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_005",
+   "title": "c12_bs_cbse_07_005",
+   "questions": [
+    {
+     "q": "List the four broad categories of barriers to communication as per NCERT Class 12 Business Studies.",
+     "a": "The four categories are: (1) Semantic barriers, (2) Psychological barriers, (3) Organizational barriers, (4) Personal barriers. A wrong answer (e.g., listing \"language barrier\" and \"cultural barrier\" as separate categories) reveals the student is confusing general communication theory with the specific NCERT classification. NCERT groups language issues under semantic barriers and does not treat cultural barriers as a separate category.",
+     "self_check": true
+    },
+    {
+     "q": "A manager sends an email to a junior executive: \"Please ensure the deliverables are aligned with the strategic imperatives outlined in the Q3 roadmap.\" The executive, new to the company, does not understand terms like \"deliverables,\" \"strategic imperatives,\" or \"Q3 roadmap.\" Identify the specific semantic barrier sub-type and explain why it fits.",
+     "a": "This is \"Technical jargon\" — specialists using terminology unfamiliar to non-specialists. The manager used corporate/strategic planning jargon that the new executive cannot decode. A wrong answer like \"Badly expressed message\" misses the nuance: the message is well-structured but uses specialized vocabulary. \"Symbols with different meanings\" would apply if a word like \"value\" had multiple interpretations — not the case here.",
+     "self_check": true
+    },
+    {
+     "q": "In a highly centralized organization, a junior employee has a process improvement idea but the policy requires all suggestions to go through three hierarchical levels before reaching the decision-maker. By the time it reaches the top, the idea is diluted and delayed. Which organizational barrier sub-type is illustrated? Name the specific NCERT measure that directly addresses this.",
+     "a": "Barrier: \"Complexity in organisation structure\" — multiple managerial levels create filtering points that delay and distort communication. Measure: \"Consult others before communicating\" (participation of subordinates in developing communication plans) OR \"Organisational facilities\" like suggestion boxes that bypass hierarchy. A wrong answer citing \"Rules and regulations\" confuses rigid procedures with structural layers. The problem here is the number of levels, not the rules per se.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Premature evaluation\" (psychological barrier) and \"Fear of challenge to authority\" (personal barrier). Give a one-sentence workplace example for each that clearly distinguishes them.",
+     "a": "Premature evaluation: Receiver judges the message before the sender finishes — e.g., a boss interrupts a subordinate mid-sentence saying \"I know where this is going, it won't work.\" Fear of challenge to authority: Sender withholds information to protect their power — e.g., a department head hides a critical error report from the CEO to avoid looking incompetent. The first is a receiver-side mental shortcut; the second is a sender-side defensive behavior. A wrong answer that swaps the examples shows confusion about who initiates the barrier (sender vs. receiver).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a manager simply implements all nine NCERT measures to improve communication effectiveness, all barriers will be eliminated.\" Justify your answer with two specific reasons.",
+     "a": "False. (1) Barriers arise from human and structural factors that cannot be fully eliminated — e.g., semantic differences in language interpretation persist even with \"clarify ideas\" because words inherently carry multiple meanings. (2) Some measures conflict in practice — e.g., \"communicate for present and future\" may overload the receiver, while \"be aware of languages, tone and content\" requires simplification that loses future-oriented nuance. A wrong answer that says \"True\" treats the measures as a mechanical checklist rather than adaptive managerial judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (4-5 sentences) involving a cross-functional team in an Indian startup where at least THREE different barrier categories operate simultaneously. Label each barrier in your case.",
+     "a": "Example: \"At a Bengaluru fintech startup, the CTO (technical) tells the marketing lead: 'The API latency is 200ms, we need to optimize the query pipeline.' [Semantic: technical jargon] The marketing lead, stressed about an investor pitch, hears only 'latency' and assumes the product is slow. [Psychological: lack of attention/premature evaluation] The company's flat structure has no formal review meetings, so the CTO never follows up. [Organizational: lack of facilities for smooth communication] The marketing lead doesn't ask for clarification, fearing it will make her look incompetent. [Personal: unwillingness to communicate].\" A poor answer lists barriers without a coherent scenario or mislabels them (e.g., calling jargon a psychological barrier).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

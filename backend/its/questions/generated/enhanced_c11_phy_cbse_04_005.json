@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_005",
+   "title": "c11_phy_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the SI units of momentum and impulse. Are they dimensionally equivalent? Show the dimensional analysis.",
+     "a": "Momentum: kg·m/s. Impulse: N·s = (kg·m/s²)·s = kg·m/s. Yes, they are dimensionally equivalent [M L T⁻¹]. A wrong answer (e.g., giving impulse as N or J) reveals confusion between impulse (force × time) and work/energy (force × distance), or failure to recognize that N·s simplifies to kg·m/s.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.5 kg ball moving at 10 m/s hits a wall and rebounds at 8 m/s in the opposite direction. Calculate the change in momentum. Explain why the change is not simply 0.5 × (10 - 8) = 1 kg·m/s.",
+     "a": "Initial momentum = +5 kg·m/s (toward wall). Final momentum = -4 kg·m/s (away). Δp = (-4) - (+5) = -9 kg·m/s. Magnitude = 9 kg·m/s. A wrong answer of 1 kg·m/s reveals the student treated velocity as scalar, ignoring direction reversal. Momentum is a vector; change requires vector subtraction, not scalar difference of speeds.",
+     "self_check": true
+    },
+    {
+     "q": "A constant force of 20 N acts on a 2 kg block initially at rest for 3 seconds. Find: (a) impulse delivered, (b) final momentum, (c) final velocity, (d) distance travelled during this time.",
+     "a": "(a) I = FΔt = 20 × 3 = 60 N·s. (b) Δp = I = 60 kg·m/s (since initial p = 0). (c) v = p/m = 60/2 = 30 m/s. (d) Using v = u + at: a = F/m = 10 m/s², s = 0 + ½×10×9 = 45 m. A wrong answer for (d) using s = vt = 30×3 = 90 m reveals confusion between average and final velocity in accelerated motion.",
+     "self_check": true
+    },
+    {
+     "q": "The force-time graph for a collision is a triangle with base 0.02 s and peak force 500 N. Calculate the impulse. If the same impulse were delivered by a constant force over 0.1 s, what would that force be? Compare the peak forces in both cases.",
+     "a": "Impulse = area = ½ × 0.02 × 500 = 5 N·s. Constant force = I/Δt = 5/0.1 = 50 N. Peak force in triangular case (500 N) is 10× the constant force. A wrong answer using average force (250 N) for impulse calculation shows misunderstanding that impulse is total area, not peak × time. The comparison reveals why impulsive forces (short duration, high peak) cause more damage than gentler forces with same impulse.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since F = ma and a = Δv/Δt, then F = mΔv/Δt = Δp/Δt. So impulse I = FΔt = Δp. This proves impulse equals momentum change.\" Evaluate this reasoning. Is it valid for all situations?",
+     "a": "The reasoning is valid ONLY for constant mass systems. It assumes m is constant when writing Δp = mΔv. For variable mass systems (rockets, leaking sand), Δp = mΔv + vΔm, so F = dp/dt still holds but I = ∫F dt = Δp requires careful handling. A student who says \"always valid\" misses the constant mass assumption and the vector nature of the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a dynamics trolley, a force sensor, and a motion sensor to verify the impulse-momentum theorem. Specify what you would plot and how you would confirm I = Δp.",
+     "a": "Attach force sensor to trolley, push it with varying forces while motion sensor records velocity. For each run: (1) Integrate force-time graph from sensor to get impulse I. (2) Calculate Δp = m(v_final - v_initial) from velocity data. (3) Plot I vs. Δp for multiple runs; slope should be 1, intercept 0. A poor answer omits mass measurement, uses only one trial, or plots F vs. v instead of I vs. Δp, showing lack of understanding of the integral relationship and experimental verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

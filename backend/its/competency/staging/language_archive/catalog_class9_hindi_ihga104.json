@@ -1,0 +1,252 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 4,
+ "chapter_title": "ऐसी भी बातें होती हैं",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.104.1.1",
+   "title": "साक्षात्कार विधा: स्वरूप और शैली",
+   "section": "1",
+   "definition": "साक्षात्कार वह गद्य-विधा है जिसमें एक व्यक्ति प्रश्न पूछता है और दूसरा उत्तर देता है; इसके मुख्य अंग हैं - आमंत्रण-स्वागत, परिचय, प्रश्नोत्तर की क्रमबद्ध शृंखला, स्मृतियाँ, भावनात्मक वातावरण और समापन; पाठ का स्वर औपचारिक पूछताछ नहीं, आत्मीय बातचीत जैसा है।",
+   "formula": "-",
+   "key_idea": "साक्षात्कार प्रश्नों के माध्यम से एक व्यक्तित्व को सामने वाले के लिए खोल देता है।",
+   "textbook_ref": "ihga104.txt lines 25-37 (साक्षात्कार का आरंभ) तथा lines 484-505 (साक्षात्कार के मुख्य बिंदु)",
+   "question_patterns": [
+    "saakshaatkaar vidha ke mukhya ang kaun se hain",
+    "interview aur jeevni lekhan mein kya antar hai",
+    "is saakshaatkaar ki shaili aatmiya kyon lagti hai",
+    "saakshaatkaar mein prashnottar ki bhumika kya hai",
+    "sambhashak aur saakshaatkaarta ke parichay ka mahatva batayiye",
+    "saakshaatkaar ka samapan kaise hona chahiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "विधा के अंग पहचानिए",
+     "explain": "पाठ में आमंत्रण, स्वागत, परिचय, प्रश्नोत्तर और समापन - सब दृष्टिगोचर होते हैं।"},
+    {"step": 2, "action": "शैली का स्वर पकड़िए",
+     "explain": "'दीदी' जैसे संबोधन और हँसी के संकेत बातचीत की आत्मीयता दिखाते हैं।"},
+    {"step": 3, "action": "उद्देश्य बताइए",
+     "explain": "उद्देश्य केवल सूचना नहीं, व्यक्तित्व की छवि उभारना भी है।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.2",
+   "title": "पं. दीनानाथ मंगेशकर के संस्मरण: संगीतमय घर का वातावरण",
+   "section": "1",
+   "definition": "लता जी की स्मृतियों में पिता बिना डाँटे संकेतों से अनुशासन सिखाने वाले, नाटकों में लंबी रागदारी करने वाले और एक राग को सुर बदलकर नया रूप देने वाले कलाकार थे; उन्होंने मराठी रंगमंच में कर्नाटक और पंजाब का संगीत पहली बार लाकर घर को संगीत-सभा जैसा बना दिया था।",
+   "formula": "-",
+   "key_idea": "घर का संगीतमय वातावरण ही लता जी की संगीत-साधना की पहली पाठशाला बना।",
+   "textbook_ref": "ihga104.txt lines 38-77 (पिता की स्मृतियाँ, नाटक, रागदारी और रिकॉर्ड)",
+   "question_patterns": [
+    "Deenanath Mangeshkar ki smritiyan Lata ji ke liye kya khas hain",
+    "ek raag ko sur badalkar gaane ki kala ka varnan kijiye",
+    "marathi rangmanch mein Deenanath ji ka kya yogdan tha",
+    "drama company ke natak der raat tak kyon chalte the",
+    "ghar mein sangeet sabha ka kya mahatva tha",
+    "Deenanath ji ke gayan ki visheshtayen likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "स्मृतियाँ गिनाइए",
+     "explain": "गंभीर देख भर से डराने वाले पिता और मंच पर रागदारी वाले कलाकार - दोनों रूप याद किए गए हैं।"},
+    {"step": 2, "action": "नवीनता बताइए",
+     "explain": "किसी भी सुर को 'सा' मानकर राग बदलना उनकी प्रयोगधर्मिता थी।"},
+    {"step": 3, "action": "प्रभाव जोड़िए",
+     "explain": "यही वातावरण बच्चों में संगीत और अनुशासन दोनों का बीज बो गया।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.3",
+   "title": "स्वाभिमान और कर्तव्यनिष्ठा: पिता से मिली जीवन-शिक्षा",
+   "section": "1",
+   "definition": "लता जी को पिता से स्वाभिमानपूर्वक जीने की प्रेरणा मिली - सही बात पर खड़े रहना और किसी के आगे हाथ न पसारना; पिता के निधन के बाद किशोर आयु में परिवार का भरण-पोषण करना उनकी कर्तव्यनिष्ठा और दृढ़ता दोनों का प्रमाण है।",
+   "formula": "-",
+   "key_idea": "आत्मसम्मान और उत्तरदायित्व ही उनके जीवन के दो स्तंभ रहे।",
+   "textbook_ref": "ihga104.txt lines 78-97 (पिता से शिक्षा, स्वाभिमान) तथा lines 511-521 (13 वर्ष की आयु में घर सँभालना)",
+   "question_patterns": [
+    "Lata ji ne pita se kya kya seekha",
+    "pita ki mrityu ke baad parivar sambhalne ka nirnay kis jeevan mooly ka dyotak hai",
+    "swabhimaan ke saath jeene ki prerna kisse mili",
+    "kisi ke aage haath na pasarna kya bhaav rakhta hai",
+    "teri saarah ke din ke baad Lata ji ne kaise haal sambhale",
+    "kartyavnishtha ka parichay Lata ji ke jeevan se kaise milta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "शिक्षा का सार पकड़िए",
+     "explain": "सही बात पर अडिग रहना और आत्मनिर्भर रहना - यही पिता का सबसे बड़ा उपहार था।"},
+    {"step": 2, "action": "परीक्षा का क्षण बताइए",
+     "explain": "पिता के बाद माँ और भाई-बहनों का भरण-पोषण किशोर लता की दृढ़ता की परीक्षा था।"},
+    {"step": 3, "action": "मूल्य निकालिए",
+     "explain": "कर्तव्य और स्वाभिमान का संतुलन ही उनके चरित्र की पहचान बना।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.4",
+   "title": "संगीत-यात्रा: शुरुआती दौर, संघर्ष और तकनीक का बदलाव",
+   "section": "1",
+   "definition": "1949-50 के आसपास खेमचंद प्रकाश, शंकर-जयकिशन जैसे संगीतकारों और 'आएगा आने वाला', 'हवा में उड़ता जाए' जैसे गीतों ने नए युग का सूत्रपात किया; तब स्टूडियो-दर-स्टूडियो भागने वाली लता जी के लिए रिकॉर्डिंग की मशक्कत और आज की उन्नत तकनीक - दोनों की तुलना फिल्म-संगीत के विकास क्रम को दिखाती है।",
+   "formula": "-",
+   "key_idea": "कला की परिपक्वता संघर्ष और तकनीक दोनों के साथ साँस लेती है।",
+   "textbook_ref": "ihga104.txt lines 133-208 (स्टूडियो-भ्रमण, पुराने गीत, रिकॉर्डिंग-तकनीक और काल्पनिक प्रश्न)",
+   "question_patterns": [
+    "1949-50 ke daur mein film sangeet ki shuruaat kaise hui",
+    "Aaega aane wala jaise geeton ka naye yug mein kya yogdan tha",
+    "Lata ji ki recording ka din kaise bita karta tha",
+    "purani aur nayi recording technique mein kya antar tha",
+    "purane sangeetkaron ke totke kya the",
+    "time machine wale kalpanik prashn par Lata ji ka kya uttar tha"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "युग की पहचान कीजिए",
+     "explain": "महल, बरसात, बड़ी बहन जैसी फिल्मों के गीतों ने नई धारा खोली।"},
+    {"step": 2, "action": "संघर्ष उभारिए",
+     "explain": "सुबह से रात तक स्टूडियो चक्कर और माइक तक चलकर जाना उस दौर की मजबूरी थी।"},
+    {"step": 3, "action": "तुलना कीजिए",
+     "explain": "आज की तकनीक में वे संगीतकार और अधिक प्रयोग कर पाते - यही पाठ की आलोचनात्मक सोच है।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.5",
+   "title": "त्योहार और लोक-परंपराएँ: गुड़ी पड़वा से मंगलागौर तक",
+   "section": "1",
+   "definition": "पाठ महाराष्ट्रीय परंपराओं का रंगीन चित्र देता है - होलिका-पूजा का 'गुड़वड़', रंग-पंचमी, राम-आगमन के रूप में गुड़ी बाँधकर मनाई जाने वाली नवरात्रि, दीवाली पर संगीतकारों को तड़के मिठाई बाँटने की लता जी की रीति और नई बहू के घर मंगलागौर में स्त्रियों के गीत-नृत्य की लोक-परंपरा।",
+   "formula": "-",
+   "key_idea": "त्योहार केवल रीति नहीं, संगीत, सौहार्द और सामाजिक संबंधों को जोड़ने वाली धागे हैं।",
+   "textbook_ref": "ihga104.txt lines 220-286 (गुड़वड़, गुड़ी पड़वा, दीवाली की मिठाई, मंगलागौर)",
+   "question_patterns": [
+    "gudi padwa kaise manaya jata hai - path ke aadhar par likhiye",
+    "gudwad se kya tatyap hai",
+    "Diwali par Lata ji mithai baantne kyon jaati thi - Naushad wali vakya sunaiye",
+    "mangalagaur utsav mein striyon ki kya bhumika hoti thi",
+    "maharashtra mein navratri ram aagman kaise manate hain",
+    "tyoharon se jude geet gaane ki parampara par tippani likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परंपराएँ सूचिबद्ध कीजिए",
+     "explain": "होलिका की राख वाला गुड़वड़, बताशों की माला वाली गुड़ी और केसर की छींटाकशी - सब विवरण पाठ में हैं।"},
+    {"step": 2, "action": "सामाजिक आयाम जोड़िए",
+     "explain": "मंगलागौर स्त्रियों के सामूहिक गायन-नृत्य से सौहार्द जोड़ता था।"},
+    {"step": 3, "action": "परिवर्तन देखिए",
+     "explain": "लता जी स्वयं कहती हैं कि यह ठेठ गँवई उत्सव अब धीरे-धीरे लुप्त हो रहा है।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.6",
+   "title": "संगीत की असीम शक्ति: तानसेन की कथाएँ और टूटा सरोद-तार",
+   "section": "1",
+   "definition": "दीपक राग से दीये जलने और मेघ राग से वर्षा जैसी जनश्रुतियों पर लता जी संशय के साथ आदर रखती हैं; उस्ताद अली अकबर खाँ के कंसर्ट में सुर में डूबे वादन से सरोद का तार टूटने का प्रसंग उनका विश्वास दृढ़ करता है कि संगीत में अप्रत्याशित रच देने की असीम शक्ति होती है।",
+   "formula": "-",
+   "key_idea": "शुद्ध सुर का आघात वाद्य की सीमाओं को भी तोड़ देता है।",
+   "textbook_ref": "ihga104.txt lines 320-355 (तानसेन कथाएँ और अली अकबर खाँ का प्रसंग)",
+   "question_patterns": [
+    "sangeet mein asimit shakti hone ka bhaav kis prasang se aaya",
+    "Tansen ke deepak raag wali kathayen par Lata ji ka kya mat hai",
+    "Ali Akbar Khan ka sarod ka taar kyon toota tha",
+    "jab bahut sur mein taar lagta hai to toot jata hai - ka arth samjhaiye",
+    "megh raag gan se varsav hone ki manyata ka varnan kijiye",
+    "sangeet ki apratyashit rachanne ki kshamata ka kya udaharan hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कथाओं का स्थान निर्धारित कीजिए",
+     "explain": "लता जी इन्हें आदर की दृष्टि से देखती हैं, पर अनुभव के बिना प्रमाण नहीं मानतीं।"},
+    {"step": 2, "action": "प्रसंग से पुष्टि कीजिए",
+     "explain": "मंत्रमुग्ध वादन में तार का टूटना सुर की गहनता का दृश्य प्रमाण बनता है।"},
+    {"step": 3, "action": "निष्कर्ष निकालिए",
+     "explain": "संगीत की सीमा अनंत है - यही पाठ का सौंदर्यबोध है।"}
+   ]
+  },
+  {
+   "id": "ihga.104.1.7",
+   "title": "'गाव गेला वाहुन, नाव गेला राहुन': अमरता का दर्शन",
+   "section": "1",
+   "definition": "मराठी कहावत का भाव है - गाँव बह जाता है पर नाम रह जाता है; लता जी इसी भाव से कहती हैं कि गाना अमर है, शरीर नहीं, और उनकी सबसे बड़ी खुशी यह है कि उन्होंने पिता का नाम आगे बढ़ाया - यह नश्वरता पर उनका शांत, दार्शनिक दृष्टिकोण है।",
+   "formula": "-",
+   "key_idea": "कर्म और कला ही सच्ची अमरता है - जीवन अस्थायी है।",
+   "textbook_ref": "ihga104.txt lines 356-369 (अमरता पर संवाद और कहावत का अर्थ)",
+   "question_patterns": [
+    "gaav gela vahun nav gela rahun ka pratikatmak arth kya hai",
+    "mera gana amar hai par sharir amar nahi - ka bhaav spast kijiye",
+    "naam aage badhaya se Lata ji ka kya abhipray hai",
+    "Lata ji ki darshanik drishti kaise dikhai deti hai",
+    "karm aur kala ki amarata par apne vichar likhiye",
+    "sharir ka nashvar hona par Lata ji ko kyo afsos nahi hota"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कहावत का अर्थ रखिए",
+     "explain": "वस्तुएँ और स्थान नष्ट होते हैं, पर कर्म से बना नाम बचा रहता है।"},
+    {"step": 2, "action": "व्यक्तिगत भाव जोड़िए",
+     "explain": "पिता के नाम को आगे बढ़ाना उनके लिए प्रसिद्धि से बड़ा उत्तरदायित्व है।"},
+    {"step": 3, "action": "दर्शन निकालिए",
+     "explain": "जीवन-मृत्यु को बिना विषाद स्वीकार करना उनकी परिपक्व दृष्टि है।"}
+   ]
+  },
+  {
+   "id": "ihga.104.2.1",
+   "title": "हाथ से जुड़े मुहावरे",
+   "section": "2",
+   "definition": "मुहावरा वह वाक्यांश है जिसका अर्थ शब्दों के साधारण योग से नहीं, परंपरागत भाव से चलता है; 'हाथ पसारना' का अर्थ है माँगना-याचना करना, वैसे ही 'हाथ में आना' (वश में होना), 'हाथ का मैल होना' (उपेक्षित होना), 'हाथ साफ करना' (रुपये ठगना) और 'हाथ धो बैठना' (वंचित रह जाना) हाथ से जुड़े प्रचलित मुहावरे हैं।",
+   "formula": "-",
+   "key_idea": "मुहावरे भाषा को रोचक और भाव को तीव्र बनाते हैं।",
+   "textbook_ref": "ihga104.txt lines 567-584 (व्याकरण खंड: मुहावरे)",
+   "question_patterns": [
+    "hath se jude muhavare ke arth likhkar vakya banaiye",
+    "hath pasarna muhavare ka arth kya hai",
+    "hath ka mail hona se kya tatyap hota hai",
+    "hath dho baithna ka prayog kis sthiti mein hota hai",
+    "muhavara aur vakyaansh mein kya antar hai",
+    "hath saf karna muhavare ka prayog karte hue vakya banao"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "मुहावरा पहचानिए",
+     "explain": "शब्दों का शाब्दिक योग नहीं, जमा हुआ भाव ही मुहावरे का अर्थ है।"},
+    {"step": 2, "action": "अर्थ लिखिए",
+     "explain": "हर मुहावरे का स्थायी भावार्थ याद कीजिए, जैसे हाथ पसारना = माँगना।"},
+    {"step": 3, "action": "वाक्य में बाँधिए",
+     "explain": "अर्थ के अनुरूप संदर्भ बनाकर वाक्य-प्रयोग की पुष्टि कीजिए।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "ihga104.txt lines 375-418 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "लता जी ने अपने पिताजी से क्या-क्या सीखा?",
+    "पिताजी की मृत्यु के बाद परिवार सँभालने का निर्णय किस जीवन-मूल्य का द्योतक है?",
+    "'गाव गेला वाहुन, नाव गेला राहुन' कहावत का प्रतीकात्मक अर्थ क्या है?",
+    "कोरस में साथ गाने वाली लड़कियों के साथ लता जी के संबंध कैसे थे?",
+    "बाबा हरिदास और तानसेन की कथाओं से क्या निष्कर्ष निकाला जा सकता है?",
+    "पूरे साक्षात्कार में लता मंगेशकर की जो छवि बनती है, वह कैसी है?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "ihga104.txt lines 420-433 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "'समझ गए न?' वाला प्रसंग पारिवारिक अनुशासन और स्नेह के संतुलन का प्रतीक कैसे है?",
+    "लता मंगेशकर पर अपने पिताजी के व्यक्तित्व का क्या प्रभाव पड़ा?",
+    "'नाम आगे बढ़ाने' का लता जी के लिए क्या अर्थ है?",
+    "साक्षात्कार के आधार पर लता जी के सहयोगियों के साथ संबंध कैसे थे?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "ihga104.txt lines 484-505 (साक्षात्कार की पड़ताल)",
+   "questions": [
+    "साक्षात्कार विधा के मुख्य बिंदुओं को रेखांकित करने वाली पंक्तियाँ पाठ से ढूँढ़कर लिखिए।",
+    "'मैं कोशिश करूँगी...' कथन से साक्षाकार की शैली के विषय में क्या पता चलता है?",
+    "लता जी से आप स्वयं कौन-कौन से नए प्रश्न पूछते और क्यों?"
+   ]
+  }
+ ]
+}

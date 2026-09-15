@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_006",
+   "title": "c12_phy_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the physical significance of the density of electric field lines in a region?",
+     "a": "The density of electric field lines (number of lines per unit cross-sectional area perpendicular to the lines) is proportional to the magnitude of the electric field in that region. Closer lines mean stronger field; wider spacing means weaker field. A wrong answer (e.g., \"density represents total charge\" or \"density is constant everywhere\") reveals the student confuses field lines with flux lines or does not grasp that line density is a *relative* measure of field strength, not an absolute count.",
+     "self_check": true
+    },
+    {
+     "q": "Why can two electric field lines never cross each other? Explain using the definition of electric field at a point.",
+     "a": "If two field lines crossed, the tangent at the intersection point would have two different directions, implying two different directions for the electric field vector at that same point. Since the electric field is a vector quantity and can have only one direction at any point, crossing is impossible. A wrong answer (e.g., \"they repel each other\" or \"it's just a drawing rule\") shows the student has memorized the rule without linking it to the vector nature of **E**.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws electric field lines for a single positive point charge. They draw 8 lines radiating outward. At a distance *r* from the charge, the lines cross a circular arc of radius *r*. At distance *2r*, the same lines cross a circular arc of radius *2r*. By what factor does the line density (lines per unit length along the arc) change? What does this imply about the field strength?",
+     "a": "At distance *r*, arc length = *rθ* (for a given angular spread θ). Number of lines = 8. Density = 8/(*rθ*). At distance *2r*, arc length = *2rθ*, same 8 lines. Density = 8/(*2rθ*) = (1/2) × density at *r*. Since density ∝ |E|, the field strength at *2r* is half that at *r*. But Coulomb's law says |E| ∝ 1/*r²*. The student's drawing with *constant number of lines* incorrectly gives 1/*r* dependence. The correct representation requires the number of lines crossing a *solid angle* to be constant, so density ∝ 1/*r²*. A wrong factor (e.g., 1/4 without reasoning) reveals the student hasn't connected line density to solid angle and the inverse-square law.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the electric field lines for an electric dipole (+q and -q separated by distance *2a*). At a point on the equatorial plane far from the dipole (*r >> a*), the field lines are directed opposite to the dipole moment vector **p**. Using the properties of field lines, explain why the field magnitude on the equatorial plane falls off as 1/*r³* while for a point charge it falls off as 1/*r²*.",
+     "a": "For a point charge, field lines spread radially in 3D; the number of lines crossing a spherical surface is constant, so density ∝ 1/*r²*. For a dipole, field lines originate on +q and terminate on -q. At large *r*, the dipole looks like a pair of opposite charges whose fields nearly cancel. The net flux through a large sphere enclosing the dipole is zero (total charge = 0), so the number of lines leaving the sphere equals those entering. The *net* outward line density decreases faster than 1/*r²* because lines that go out must curve back in. Quantitatively, the dipole field ∝ *p/r³*. A wrong answer (e.g., \"dipole field also falls as 1/*r²*\") shows the student hasn't grasped that zero net charge changes the asymptotic flux behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A diagram shows uniform, parallel, equally spaced electric field lines pointing to the right. A student claims: \"This represents the field of an infinite positively charged plane sheet.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "Partially correct. An infinite plane sheet with uniform positive surface charge density *σ* does produce a uniform electric field of magnitude *σ/(2ε₀)* directed away from the sheet on both sides. The field lines are indeed parallel, equally spaced, and perpendicular to the sheet. However, the diagram shows lines only on *one side* pointing right. For an infinite sheet, lines must emerge from *both* faces. If the diagram shows only one side, it could represent the field *near* a large finite sheet (ignoring edge effects) or the field *between* two oppositely charged parallel plates. A fully correct claim would specify the geometry. A student saying \"fully correct\" misses the two-sided nature; saying \"incorrect\" misses that uniform parallel lines *do* represent a uniform field.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a glass plate, castor oil, grass seeds (or semolina), and two metal electrodes connected to a high-voltage DC source (e.g., 5 kV) to map electric field lines for (a) two parallel plates and (b) a point and a plate. Describe the procedure and what the seed alignment shows.",
+     "a": "Procedure: Place the glass plate on an insulating support. Arrange electrodes on the plate (parallel plates for (a), point and plate for (b)). Sprinkle a thin layer of grass seeds mixed with castor oil (to reduce friction and provide viscosity). Connect the electrodes to the 5 kV DC source. The seeds, being dielectric, polarize in the electric field and experience a torque aligning them along the local field direction. They form chains along the field lines. For (a), seeds align in straight parallel lines between plates, curving at edges (fringing). For (b), seeds show radial lines from point to plate, denser near the point. This demonstrates: (1) tangent to seed chains = field direction, (2) density of chains ∝ field strength. A poor answer omits the role of polarization/torque, uses AC voltage (seeds would vibrate, not align), or ignores safety (5 kV requires strict insulation and teacher supervision).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

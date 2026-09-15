@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_003",
+   "title": "c11_soc_cbse_08_003",
+   "questions": [
+    {
+     "q": "Define \"property relations\" in the context of natural resources and explain how it differs from the everyday meaning of \"property ownership.\"",
+     "a": "Property relations are the socially constructed rules and power structures governing who can access, use, control, and benefit from natural resources, including state ownership, private title, customary rights, and open access regimes. Unlike everyday \"property ownership\" which implies a single legal titleholder with exclusive rights, property relations recognize multiple, overlapping, and often conflicting claims (e.g., the state holds legal title to a forest, a corporation holds a lease, and a tribal community holds customary usufruct rights). A wrong answer that equates property relations with private property deeds reveals a misunderstanding of the sociological concept as a bundle of rights and power relations rather than a simple legal title.",
+     "self_check": true
+    },
+    {
+     "q": "In rural India, women are primarily responsible for collecting water and fuelwood but rarely hold legal title to land or water sources. Using the concept of property relations, explain why this gendered division of labour persists even when women are the primary users of these resources.",
+     "a": "Property relations allocate control (decision-making power) and benefit rights separately from use rights. In patriarchal property regimes, men hold legal title (control rights) over land and water infrastructure, while women are assigned use rights (collection labour) without control over allocation or management. This separation allows the system to extract women's labour for resource provisioning while denying them a say in decisions like well deepening, crop choice, or water selling. A wrong answer that blames \"tradition\" or \"culture\" without analyzing the structural separation of use rights from control rights misses the power dimension of property relations.",
+     "self_check": true
+    },
+    {
+     "q": "A state government leases a stretch of river to a private company for bottled water extraction. The company builds a fenced plant, extracts groundwater, and sells it at ₹20/litre. Downstream villagers' wells run dry. Identify the property regime shift that occurred and explain its impact on three different social groups' access to water.",
+     "a": "The property regime shifted from a common property/resource access regime (where villagers had customary usufruct rights to groundwater recharge) to a private property regime (where the company holds exclusive extraction rights backed by state lease). Impact: (1) The company gains commodified control — water becomes a profit-generating asset; (2) Downstream villagers lose subsistence access — their wells dry up because recharge is intercepted, and they cannot afford bottled water; (3) The state gains revenue but loses regulatory legitimacy — it prioritizes lease income over its duty to ensure equitable water access. A wrong answer focusing only on \"privatization\" without naming the regime shift (common → private) and its differential impact on groups fails to apply the property relations framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a capitalist property regime and a socialist property regime would differently define \"control over forests.\" Use the concepts of commodification and redistribution in your answer.",
+     "a": "Under a capitalist property regime, forests are commodified — valued primarily for timber revenue, carbon credits, or tourism profit. Control rests with the state (as owner) or private firms (as leaseholders) who maximize exchange value; local communities are excluded or incorporated as low-wage labour. Under a socialist property regime, forests are treated as social wealth — control is vested in the state on behalf of the people, with policies aimed at redistributing usufruct rights to landless peasants and tribal communities (e.g., land reform, joint forest management). The key difference: capitalism strips forests of multiple cultural/ecological meanings to a single profit calculus; socialism (in principle) subordinates profit to equity and subsistence needs. A wrong answer that describes only \"government control\" for both regimes misses the distinct value orientations (exchange value vs. use value/equity) that drive control decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Forest Rights Act (2006) resolves property relation conflicts over forests by recognizing tribal communities' rights.\" Consider both the legal recognition and the implementation gap.",
+     "a": "The FRA legally recognizes individual and community forest rights (CFR), shifting property relations from state monopoly to a plural regime where gram sabhas have authority over management. However, implementation gaps persist: (1) Forest Departments resist relinquishing control, rejecting claims on technicalities; (2) CFR titles are granted without corresponding management power — the department still controls working plans; (3) Corporate interests (mining, plantations) use state power to override gram sabha consent. Thus, the FRA changes the legal property regime on paper but not the effective control structure in practice. A wrong answer that celebrates the FRA as a complete solution ignores the distinction between de jure rights (legal title) and de facto control (enforcement capacity), which is central to property relations analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a property relations map for a contested urban lake in a metro city. Show at least four claimants, their basis of claim, and the resulting access hierarchy. Present it as a diagram description (text-based) with arrows indicating power flow.",
+     "a": "A strong answer would describe: [Municipal Corporation (legal owner, state power) → grants lease → Private Developer (commercial control, fences lake, builds promenade) → restricts access → Middle-class Residents (pay for entry, aesthetic use) → excludes → Informal Settlers (customary users: fishing, washing, water collection) → displaced → Migrant Waste-pickers (subsistence users: recycling, no recognition)]. Arrows show power flow from state to capital to privileged users to marginalized users. A poor answer lists claimants without showing the hierarchical power relations or the basis of each claim (legal title, lease contract, payment capacity, customary use, invisibility), treating all claims as equal rather than structured by property relations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

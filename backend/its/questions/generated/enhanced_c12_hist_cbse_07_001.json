@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_001",
+   "title": "c12_hist_cbse_07_001",
+   "questions": [
+    {
+     "q": "In what year did Colin Mackenzie first visit the ruins of Hampi, and what was his official position at the time?",
+     "a": "Colin Mackenzie visited Hampi in 1800 as an engineer and antiquarian employed by the English East India Company; he became the first Surveyor General of India in 1815. A wrong answer (e.g., \"1856\" or \"Robert Sewell\") reveals confusion between the initial survey and later photographic/epigraphical phases, or conflating Mackenzie with the historian who wrote the first major synthesis (Sewell's *A Forgotten Empire*, 1900).",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mackenzie rely heavily on the priests of the Virupaksha temple and the shrine of Pampadevi for his initial information?",
+     "a": "The priests maintained living oral traditions linking the ruins to the local mother goddess Pampadevi and the deity Virupaksha, providing continuity of place-memory that archaeological surfaces alone could not yield. A wrong answer (e.g., \"priests had written records\" or \"Mackenzie knew Sanskrit\") misses the specific role of *oral tradition* in bridging the gap between a deserted city (post-1565) and 19th-century investigation, and overlooks that Mackenzie's informants were indigenous knowledge-holders, not colonial archives.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds two sources on Vijayanagara's water system: (a) Mackenzie's 1800 survey map showing tanks and canals, and (b) Domingo Paes's 1520s description of the Kamalapuram tank fed by pipes from 15 km away. How should the historian use these together, and what limitation does each have?",
+     "a": "Use Paes for *contemporary functional detail* (how the system worked, scale of labour) and Mackenzie for *spatial layout* (physical traces surviving in 1800). Limitation: Paes describes a living system; Mackenzie maps ruins after 250 years of decay — some channels may have silted or shifted. A wrong answer treating both as equally reliable \"primary sources\" without distinguishing *contemporary observation* from *retrospective survey* fails to grasp source-criticism principles (provenance, temporal distance, purpose).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the historiographical significance of (i) the 1836 start of systematic inscription collection at Hampi and (ii) Alexander Greenlaw's 1856 photographs. Which provided stronger evidence for *chronology* and which for *architectural form*? Justify.",
+     "a": "Inscriptions (1836+) provided stronger *chronological* evidence — they yield regnal years, genealogy, and dated donations. Photographs (1856) provided stronger *architectural* evidence — they capture three-dimensional form, ornamentation, and spatial relationships before further decay. A wrong answer reversing these roles confuses the epistemic function of textual vs. visual sources; another error is assuming photographs give dates (they don't, unless inscribed).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The term 'Vijayanagara Empire' is a modern colonial construct; contemporaries called it 'karnataka samrajyamu'.\" Does this invalidate the colonial contribution to its rediscovery?",
+     "a": "The claim is *partially true but misleading*. \"Karnataka samrajyamu\" (Karnataka empire) *was* the contemporary endogenous term, reflecting regional identity. \"Vijayanagara Empire\" is indeed a modern historiographical label (city-name + European \"empire\" category). However, this does *not* invalidate colonial scholarship: Mackenzie's survey, epigraphists' decipherment, and Sewell's synthesis *recovered* the very data that lets us know the indigenous term. A wrong answer either dismisses colonial work as \"biased\" (ignoring its evidentiary foundation) or uncritically adopts \"Vijayanagara Empire\" as the only valid name (ignoring indigenous self-representation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a research plan to investigate how the *amara-nayaka* system (military chiefs holding territory) functioned in the 1520s, using ONLY sources available by 1900 (i.e., before modern archaeology). List the source types, their specific contributions, and one major gap that would remain.",
+     "a": "Sources: (1) Inscriptions (donative records showing nayaka land grants, titles, obligations) — gives legal/formal structure. (2) Foreign travellers (Paes, Nuniz, Barbosa) — describe nayaka court appearances, tribute, military contingents. (3) *Amuktamalyada* (Krishnadeva Raya's Telugu treatise) — royal ideology on nayaka management. Gap: *Peasant perspective* — no 16th-century source records how cultivators experienced nayaka exactions vs. royal demands; inscriptions and travellers reflect elite views. A poor answer lists sources without linking each to a specific research question, or misses the structural gap (subaltern voice).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

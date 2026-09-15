@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_010",
+   "title": "c12_eco_cbse_08_010",
+   "questions": [
+    {
+     "q": "Define Real GDP per Capita and state its unit of measurement.",
+     "a": "Real GDP per Capita = Real GDP (at constant prices) / Mid-year Population. Unit: Rupees per person per year (or constant international dollars for cross-country comparison). A wrong answer (e.g., using Nominal GDP, or forgetting to divide by population, or stating unit as just \"Rupees\") reveals the student confuses aggregate output with average output, or misses the inflation-adjustment requirement, or treats it as a pure number without units.",
+     "self_check": true
+    },
+    {
+     "q": "Country A has Real GDP of ₹200 lakh crore and population 100 crore. Country B has Real GDP of ₹150 lakh crore and population 50 crore. Which country has a higher Real GDP per Capita? Show the calculation.",
+     "a": "Country A: ₹200 lakh crore / 100 crore = ₹2,00,000 per person. Country B: ₹150 lakh crore / 50 crore = ₹3,00,000 per person. Country B has higher Real GDP per Capita. A wrong answer (choosing A because its total Real GDP is larger) reveals the \"aggregate fallacy\" — confusing total national output with average individual welfare. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "India's Real GDP grew at 6% per annum over a decade while its population grew at 1.2% per annum. Approximate the annual growth rate of Real GDP per Capita. Explain the approximation used.",
+     "a": "Growth rate of Real GDP per Capita ≈ Growth rate of Real GDP – Growth rate of Population = 6% – 1.2% = 4.8% per annum. The approximation uses the rule that for small percentages, the growth rate of a ratio equals the difference of growth rates. A wrong answer (e.g., 6% or 7.2%) shows the student does not understand that per capita growth depends on both numerator and denominator dynamics, a key concept for CUET/JEE-style analytical questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Real GDP per Capita in India doubled between 2004-05 and 2022-23. Therefore, the standard of living of the average Indian doubled.\" Critically evaluate this statement using three specific limitations of Real GDP per Capita as a welfare measure.",
+     "a": "The statement is flawed. (1) Inequality: Doubling of average income could mask stagnation for the bottom 50% if top 1% captured most gains. (2) Non-market activities: Unpaid domestic work, subsistence farming, and volunteer services are excluded but contribute hugely to well-being. (3) Environmental degradation: Depletion of groundwater, air pollution, and loss of biodiversity reduce sustainable welfare but are not deducted from GDP. A wrong answer that only says \"it's not perfect\" without naming specific exclusions shows superficial understanding insufficient for 4-6 mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "The government is deciding between two policies: Policy X raises Real GDP by 3% with no population change. Policy Y raises Real GDP by 2% but reduces population growth by 0.5 percentage points (through family planning). Assuming current Real GDP growth is 6% and population growth is 1%, which policy yields higher Real GDP per Capita growth? Justify.",
+     "a": "Current per capita growth ≈ 6% – 1% = 5%. Policy X: New GDP growth = 9%, population growth = 1% → per capita growth ≈ 8%. Policy Y: New GDP growth = 8%, population growth = 0.5% → per capita growth ≈ 7.5%. Policy X yields higher per capita growth (8% > 7.5%). A wrong answer choosing Y because \"population control helps\" ignores the magnitude of GDP growth difference. This tests the ability to weigh competing policy levers — a frequent CUET/IPMAT case-study pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical example of two countries with identical Real GDP per Capita but vastly different standards of living. Specify the values and explain the divergence using at least two limitations.",
+     "a": "Country P: Real GDP = ₹100 lakh crore, Population = 10 crore → Per Capita = ₹1,00,000. High inequality (Gini 0.60), severe air pollution, low female labor participation (unpaid care work uncounted). Country Q: Real GDP = ₹100 lakh crore, Population = 10 crore → Per Capita = ₹1,00,000. Low inequality (Gini 0.25), clean environment, universal public healthcare/education. Same per capita GDP, but Q's citizens enjoy higher true welfare. A poor answer that cannot construct such a pair or cites vague \"differences\" fails to demonstrate the conceptual distinction between the metric and the reality it imperfectly proxies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

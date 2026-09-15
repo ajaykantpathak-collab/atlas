@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_010",
+   "title": "c12_hs_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define communication according to the SMCRE model. List its five components in order.",
+     "a": "Communication is the process where a Source encodes a Message, sends it through a Channel to a Receiver who decodes it, and Feedback returns to the Source to complete the loop. The five components in order are: Source, Message, Channel, Receiver, Effect/Feedback. A wrong answer (e.g., listing only \"sender, message, receiver\" or omitting Feedback) reveals the student views communication as linear one-way transmission rather than a circular two-way process — a critical error for understanding family decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between verbal and non-verbal communication. Give two examples of each from a family discussion about saving electricity.",
+     "a": "Verbal communication uses words — spoken or written (e.g., \"Switch off the AC when not in room,\" a written note on the fridge). Non-verbal communication uses body language, gestures, facial expressions, tone, silence, or visual cues without words (e.g., a parent frowning at a high electricity bill, a child nodding agreement without speaking). A wrong answer that equates non-verbal only with \"gestures\" or ignores tone/silence shows the student misses the breadth of non-verbal channels — leading to misinterpretation of family members' true attitudes toward resource conservation.",
+     "self_check": true
+    },
+    {
+     "q": "In a family meeting about time management, the mother says \"We must wake up at 5 AM\" while looking at her watch and tapping her foot. The father says \"Fine\" but crosses his arms and looks away. The daughter nods and smiles. Using the SMCRE model, identify the Source, Message, Channel, Receiver, and Feedback for the mother's statement. Then classify each person's response as verbal or non-verbal feedback.",
+     "a": "Source: Mother. Message: \"We must wake up at 5 AM\" + non-verbal cues (watch-checking, foot-tapping). Channel: Face-to-face auditory + visual. Receivers: Father, Daughter. Feedback: Father — verbal \"Fine\" + non-verbal crossed arms/looking away (incongruent); Daughter — non-verbal nod/smile (congruent). A wrong answer that misses the non-verbal part of the Message or treats silence as \"no feedback\" reveals the student cannot decode the full communication package — a fatal flaw when analysing family conflicts over schedules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare one-way and two-way communication in the context of a parent instructing a child to follow a study timetable. Which is more effective for ensuring adherence? Justify with reference to the Feedback element.",
+     "a": "One-way: Parent announces timetable, child listens — no Feedback loop; adherence relies on authority. Two-way: Parent explains timetable, child asks questions, suggests adjustments, parent incorporates — Feedback closes the loop, building ownership. Two-way is more effective because Feedback allows clarification, negotiation, and commitment. A wrong answer claiming one-way is \"faster\" or \"clearer\" ignores that without Feedback the child's understanding and buy-in are unverified — a common reason timetables fail in real families.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In family resource management, non-verbal communication is more honest than verbal communication.\" Support your evaluation with two concrete examples.",
+     "a": "The statement is largely true because non-verbal cues (micro-expressions, posture, tone) are often involuntary and harder to consciously control than chosen words. Example 1: A spouse says \"I'm fine with the budget cut\" but their tightened jaw and avoidance of eye contact reveal resentment. Example 2: A teenager says \"I'll save my pocket money\" but their slumped shoulders and sigh indicate doubt. A wrong answer that dismisses non-verbal as \"less important\" or claims verbal is always deliberate shows the student underestimates the leakage of true feelings — critical for detecting hidden conflicts in financial decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step communication plan for a family to collaboratively decide on a weekend outing, ensuring each SMCRE element is addressed and both verbal and non-verbal channels are used intentionally. Present it as a numbered list.",
+     "a": "1. Source: Rotate initiator each week (shared leadership). 2. Message: Verbal proposal (destination, cost, time) + non-verbal visual aid (photos, map on TV). 3. Channel: Family group chat (written) + face-to-face discussion (auditory/visual). 4. Receivers: All members; each must acknowledge receipt (thumbs-up emoji or verbal \"got it\"). 5. Feedback: Structured round-robin where each states preference/concern verbally; final decision by consensus with non-verbal agreement (nodding, high-five). A poor plan that omits explicit Feedback step or uses only one channel reveals the student cannot operationalise the model — a gap between theory and practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

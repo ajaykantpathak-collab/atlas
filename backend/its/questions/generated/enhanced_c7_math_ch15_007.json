@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_007",
+   "title": "c7_math_ch15_007",
+   "questions": [
+    {
+     "q": "If a number $x$ is increased by 12 and the result is 45, which of the following statements represents this situation as an equation?\nA) $12x = 45$\nB) $x - 12 = 45$\nC) $x + 12 = 45$\nD) $45 + x = 12$",
+     "a": "The correct answer is C) $x + 12 = 45$. \nIf a student chooses A ($12x = 45$), it reveals a misconception that phrases like \"increased by\" mean multiplication rather than addition. If a student chooses B ($x - 12 = 45$), they are confusing \"increased by\" with \"decreased by\".",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that \"5 less than three times a number $y$\" translates to $5 - 3y$. Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect. The correct algebraic expression is $3y - 5$. A student who agrees with Rahul or writes $5 - 3y$ misunderstands the order of operations in language, failing to realize that \"less than\" means we must subtract 5 *from* the quantity $3y$ that comes before it.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden has a length that is 3 metres more than twice its width. If the perimeter of the garden is 42 metres, set up an equation to find the width ($w$) and determine the width of the garden.",
+     "a": "The correct answer is width $w = 6$ metres. \nWorking steps:\n1. Let the width be $w$. Then the length is $2w + 3$.\n2. The formula for perimeter is $2 \\times (\\text{length} + \\text{width})$.\n3. Set up the equation: $2(2w + 3 + w) = 42$.\n4. Simplify inside the parentheses: $2(3w + 3) = 42$.\n5. Divide both sides by 2: $3w + 3 = 21$.\n6. Subtract 3: $3w = 18$, so $w = 6$.\nA student who gets $w = 12$ likely forgot to multiply both the length and width by 2 when calculating the perimeter or forgot to divide the entire perimeter equation correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two phrases: \"Aman has 5 rupees more than twice of what Priya has\" and \"Twice of what Priya has is 5 rupees more than Aman has\". If Priya has $p$ rupees, write the algebraic expressions for Aman's money in both cases and explain how the position of the word \"is\" changes the equation.",
+     "a": "For the first phrase, Aman's money is an expression: $2p + 5$. For the second phrase, the sentence forms a complete comparison equation: $2p = A + 5$ (where $A$ is Aman's money). A student who writes $2p + 5 = A$ for the second phrase fails to recognize that the word \"is\" acts as the equals sign separating the two distinct sides of the statement.",
+     "self_check": true
+    },
+    {
+     "q": "Arjun solved the word problem: \"Sum of three consecutive integers is 48\" by writing the equation $x + (x+1) + (x+2) = 48$. His friend Priya wrote $3x = 48$. Evaluate both equations and explain whose equation correctly represents consecutive integers.",
+     "a": "Arjun's equation ($x + (x+1) + (x+2) = 48$) is correct. Priya's equation ($3x = 48$) represents three identical numbers added together, not *consecutive* integers. A student who thinks Priya is correct does not understand that consecutive integers must increase by 1 successively ($x, x+1, x+2$).",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem about buying fruits at a local market where the total cost is Rs. 150, involving two types of fruits (mangoes and apples), such that it requires setting up a two-step linear equation in one variable to solve.",
+     "a": "A good response should look like this: \"Aman bought 2 kg of mangoes and a basket of apples costing Rs. 50. If the total bill was Rs. 150, and 1 kg of mangoes costs $x$ rupees, set up the equation.\" \nExpected equation: $2x + 50 = 150$. \nA poor response would give disconnected numbers or fail to define a variable linked to a rate and a fixed cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

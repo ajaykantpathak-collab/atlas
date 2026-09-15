@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_11",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_11",
+   "title": "c9_physics_ch4_11",
+   "questions": [
+    {
+     "q": "State the Work-Energy Theorem and define each term.",
+     "a": "The net work done by all forces acting on a body equals the change in its kinetic energy: W_net = delta_KE = (1/2)mv^2 - (1/2)mu^2, where W_net is net work (joules), m is mass (kg), v is final velocity (m/s), and u is initial velocity (m/s). A wrong answer (e.g., \"work equals energy\") is too vague — it must specify that NET work equals CHANGE in kinetic energy, with the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg object accelerates from 4 m/s to 8 m/s. Calculate the net work done on it.",
+     "a": "W_net = delta_KE = (1/2)(2)(8^2) - (1/2)(2)(4^2) = (1)(64) - (1)(16) = 64 - 16 = 48 J. The net work done is 48 joules. A wrong answer (e.g., (1/2)(2)(8-4)^2 = 8 J) uses the difference of velocities squared incorrectly — the formula is (1/2)mv^2 - (1/2)mu^2, not (1/2)m(v-u)^2.",
+     "self_check": true
+    },
+    {
+     "q": "A net force of 10 N acts on a 2 kg object over a distance of 5 m. The object starts from rest. Find the final velocity using the Work-Energy Theorem.",
+     "a": "Step 1: Calculate work. W = F * d = 10 * 5 = 50 J. Step 2: Apply theorem. W = delta_KE = (1/2)mv^2 - (1/2)mu^2. Since u = 0: 50 = (1/2)(2)v^2 = v^2. So v^2 = 50, v = 7.07 m/s. A wrong answer (e.g., v = 10 m/s from a = F/m = 5, v = at without time) uses kinematics without the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A 3 kg object moving at 6 m/s is brought to rest by friction. Calculate the work done by friction.",
+     "a": "W_net = delta_KE = (1/2)(3)(0^2) - (1/2)(3)(6^2) = 0 - 27 = -27 J. The work done by friction is -27 J (negative because friction opposes motion, reducing kinetic energy). A wrong answer (e.g., +27 J) misses the sign — friction does negative work because it reduces kinetic energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the work done by friction negative? Explain using the Work-Energy Theorem.",
+     "a": "Friction acts opposite to the direction of motion, so the angle between force and displacement is 180 degrees, and W = Fd cos(180) = -Fd. By the Work-Energy Theorem, W_net = delta_KE. Since friction reduces kinetic energy (object slows down), delta_KE is negative, so W_net is negative. The negative work reflects that friction removes kinetic energy from the object (converting it to heat). A wrong answer (e.g., \"friction is negative because it is bad\") confuses a value judgment with the mathematical sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If no work is done on an object, its kinetic energy is zero.\" Evaluate this statement.",
+     "a": "The statement is incorrect. The Work-Energy Theorem says W_net = delta_KE (change in kinetic energy), not W_net = KE (kinetic energy itself). If no work is done (W_net = 0), then delta_KE = 0, meaning the kinetic energy does not change — the object continues at the same velocity. An object moving at constant velocity has non-zero kinetic energy but zero change in kinetic energy, so zero net work. A wrong evaluation (agreeing with the student) confuses \"change in KE\" with \"KE itself.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

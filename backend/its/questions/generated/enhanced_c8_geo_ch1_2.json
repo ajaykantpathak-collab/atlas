@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_2",
+   "title": "c8_geo_ch1_2",
+   "questions": [
+    {
+     "q": "What is the fundamental distinction between biotic and abiotic natural resources? Give one specific example of each found in the Himalayan region.",
+     "a": "Biotic resources originate from living organisms or organic matter within the biosphere (e.g., Pine trees or Himalayan Brown Bears), whereas abiotic resources consist of non-living physical or chemical substances (e.g., glacial meltwater or granite rock). A wrong answer stating that abiotic resources are 'man-made' or that biotic resources 'only include animals' reveals a failure to recognize that both are natural resources and that biotic includes all living organisms and organic derivatives.",
+     "self_check": true
+    },
+    {
+     "q": "Why do geologists classify petroleum and coal as biotic resources, even though they are non-living liquids and rocks extracted from deep underground rock strata?",
+     "a": "Petroleum and coal are classified as biotic resources because their origin is organic: they formed from the compressed and transformed remains of ancient marine organisms and swamp vegetation over millions of years. A wrong answer claiming they are abiotic because they are non-living solids/liquids dug out of rocks reveals the misconception that a resource's current physical state determines its classification rather than its biological origin.",
+     "self_check": true
+    },
+    {
+     "q": "A survey team in the Thar Desert cataloged the following natural features: sand dunes, acacia (khejri) trees, limestone rocks, wild camels, saline lakes, and deep groundwater reserves. Calculate the percentage of abiotic resources in this surveyed list.",
+     "a": "1. Identify biotic resources (originating from living matter): Acacia (khejri) trees and wild camels (2 items).\n2. Identify abiotic resources (non-living physical matter): Sand dunes, limestone rocks, saline lakes, and deep groundwater reserves (4 items).\n3. Total resources counted = 2 + 4 = 6 items.\n4. Calculate abiotic percentage = (4 abiotic resources / 6 total resources) × 100 = 66.67%.\nA wrong answer of 33.33% or 50% reveals either misclassifying groundwater or sand dunes as biotic, or failing to perform the percentage calculation correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Western Ghats rainforests and the Ladakh cold desert. How do the primary abiotic resources of each region determine the nature of their biotic resources?",
+     "a": "In the Western Ghats, high abiotic inputs (heavy monsoonal rainfall, rich humid soil, warm temperatures) sustain dense, biodiverse evergreen tropical rain forests and varied wildlife (biotic). In Ladakh, harsh abiotic conditions (extreme cold temperatures, low oxygen, arid rain-shadow climate, rocky infertile soil) restrict biotic resources to sparse alpine shrubs, low grasses, and specialized animals like the Tibetan Wild Ass (Kiang). A wrong answer that only lists species without linking them to abiotic drivers (climate, soil, water) shows an inability to analyze environmental cause-and-effect relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A mining company argues that extracting iron ore (an abiotic resource) from a forested ridge in Odisha will have zero impact on the region's biotic resource base. Evaluate this statement critically from a geographical perspective.",
+     "a": "The statement is geographically and ecologically false. Open-cast extraction of abiotic iron ore requires clearing forest canopy, stripping topsoil, and disturbing local hydrological flows; this directly destroys biotic resources such as Sal timber forests, medicinal plant species, and wildlife habitats (e.g., elephants), while runoff pollutes downstream river fauna. A student who agrees with the mining company fails to recognize the systemic dependence of biotic resources on undisturbed abiotic land and water systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a resource management plan for a degraded river valley in the Chota Nagpur Plateau that restores an abiotic resource to revive a lost biotic resource.",
+     "a": "A successful plan must propose: 1) Constructing check dams and contour bunds to retain topsoil and capture seasonal runoff (restoring abiotic water and soil moisture); 2) Planting native leguminous grasses and saplings to fix nitrogen and prevent erosion; 3) Allowing restored soil moisture (abiotic) to revive natural forest cover and native wildlife populations (biotic). An unsatisfactory answer will suggest planting trees without addressing the missing abiotic water and soil foundation needed for seedling survival.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

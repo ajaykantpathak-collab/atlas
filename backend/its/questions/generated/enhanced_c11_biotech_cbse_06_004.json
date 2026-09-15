@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_004",
+   "title": "c11_biotech_cbse_06_004",
+   "questions": [
+    {
+     "q": "State Mendel’s Law of Independent Assortment in your own words and give the expected phenotypic ratio in the F₂ generation of a dihybrid cross involving two independently assorting genes with complete dominance.",
+     "a": "Correct answer: The Law of Independent Assortment states that allele pairs for different traits separate independently during gamete formation. The expected F₂ phenotypic ratio is 9:3:3:1 (9 dominant for both traits, 3 dominant for first/recessive for second, 3 recessive for first/dominant for second, 1 recessive for both). A wrong answer that quotes a 3:1 ratio reveals confusion with monohybrid crosses; a wrong answer that omits “independently” or mentions linkage shows the student has not grasped the condition required for the law to hold.",
+     "self_check": true
+    },
+    {
+     "q": "In a dihybrid cross between heterozygous parents (RrYy × RrYy), a student claims that the genotype RRYY will appear in 1/4 of the offspring because “each trait has a 1/4 chance of being homozygous dominant.” Explain why this reasoning is incorrect and state the correct probability.",
+     "a": "Correct answer: The student incorrectly multiplied the probabilities for each trait as if they were mutually exclusive events for a single trait. For two independent traits, the probability of RR is 1/4 and of YY is 1/4; because the genes assort independently, the combined probability is (1/4) × (1/4) = 1/16. A wrong answer that says 1/4 or 1/8 indicates the student does not understand that independent assortment requires multiplication of probabilities across different genes, not within a single gene.",
+     "self_check": true
+    },
+    {
+     "q": "A pea plant with genotype RrYy is test‑crossed with a plant of genotype rryy. List the four possible phenotypes of the offspring and their expected ratio. Show how you obtain the gametes from the heterozygous parent.",
+     "a": "Correct answer: The heterozygous parent (RrYy) produces four gamete types (RY, Ry, rY, ry) in equal proportions (FOIL method). The double‑recessive parent (rryy) produces only ry gametes. Offspring phenotypes: round‑yellow (RrYy), round‑green (Rryy), wrinkled‑yellow (rrYy), wrinkled‑green (rryy) in a 1:1:1:1 ratio. A wrong answer that gives a 9:3:3:1 ratio reveals the student confused a test cross with an F₁ self‑cross; missing one phenotype indicates an error in gamete formation (e.g., forgetting Ry or rY).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genotypic ratio of a monohybrid cross (1:2:1) with that of a dihybrid cross. How many distinct genotypes appear in the F₂ of a dihybrid cross, and why is the ratio not simply a doubling of the monohybrid ratio?",
+     "a": "Correct answer: A dihybrid cross yields 9 distinct genotypes in the ratio 1:2:1:2:4:2:1:2:1 (for RRYY, RRYy, RRyy, RrYY, RrYy, Rryy, rrYY, rrYy, rryy). The ratio is not a simple doubling because the two genes combine independently, creating a 3×3 grid of genotype combinations (each gene follows 1:2:1, so the product is (1:2:1)²). A wrong answer that says 6 genotypes or a 1:2:1:2:1 ratio shows the student treats the two genes as a single locus or fails to apply the product rule.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher observes an F₂ phenotypic ratio of 9:3:4 in a dihybrid cross instead of 9:3:3:1. Evaluate whether this deviation disproves Mendel’s Law of Independent Assortment. Justify your answer.",
+     "a": "Correct answer: No, the deviation does not disprove the law. The 9:3:4 ratio indicates recessive epistasis (one gene masks the expression of another), but the alleles of the two genes still assort independently during meiosis. The law of independent assortment concerns the segregation of alleles into gametes, not the final phenotypic expression. A wrong answer that says “yes, the law is broken” confuses phenotypic ratios with the mechanism of allele segregation; a wrong answer that says “no, because of linkage” misattributes the deviation to linkage rather than gene interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dihybrid cross experiment using two traits of your choice (other than seed shape/colour) that would allow a Class 11 student to verify the Law of Independent Assortment. Specify the parental genotypes, the F₁ genotype, the gametes, and the expected F₂ phenotypic ratio. Explain how the appearance of recombinant phenotypes confirms independent assortment.",
+     "a": "Good answer example: Traits – flower colour (purple P dominant to white p) and plant height (tall T dominant to dwarf t). Parental cross: PPTT × pptt. F₁: PpTt. F₁ gametes: PT, Pt, pT, pt (equal proportions). F₂ phenotypic ratio: 9 purple‑tall : 3 purple‑dwarf : 3 white‑tall : 1 white‑dwarf. Recombinant phenotypes (purple‑dwarf and white‑tall) appear because the allele for flower colour assorts independently of the allele for height. A poor answer that uses linked traits (e.g., flower colour and pollen shape in sweet pea) or fails to show recombinant phenotypes indicates the student cannot distinguish independent assortment from linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

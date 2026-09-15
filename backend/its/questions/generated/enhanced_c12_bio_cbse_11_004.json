@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_004",
+   "title": "c12_bio_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the primary function of an origin of replication (ori) in a plasmid vector?",
+     "a": "The origin of replication (ori) is a specific DNA sequence where replication initiates; it allows the plasmid to replicate independently of the host chromosome, ensuring the vector is propagated in daughter cells. A wrong answer (e.g., \"it codes for antibiotic resistance\") reveals confusion between selectable markers and replication control.",
+     "self_check": true
+    },
+    {
+     "q": "Why are multiple cloning sites (MCS) engineered into plasmid vectors like pUC19?",
+     "a": "An MCS (polylinker) contains many unique restriction enzyme sites in a short region, allowing flexible insertion of foreign DNA fragments cut with different enzymes. A wrong answer (e.g., \"to increase plasmid copy number\") shows misunderstanding of the MCS's purpose versus ori or selectable markers.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to clone a 15 kb DNA fragment. Would you recommend a standard plasmid vector (e.g., pBR322) or a λ bacteriophage vector? Justify.",
+     "a": "λ bacteriophage vector, because plasmids typically accept inserts up to ~10 kb, while λ phage vectors can accommodate 12–20 kb inserts. Choosing pBR322 would likely result in unstable or failed cloning. A wrong answer indicates lack of knowledge about insert size limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the selectable marker systems of pBR322 and pUC19. How does pUC19 allow easier identification of recombinants?",
+     "a": "pBR322 uses antibiotic resistance (ampR, tetR) and insertional inactivation (e.g., tetR disrupted) requiring replica plating. pUC19 uses lacZα complementation (blue-white screening) on X-gal/IPTG plates, allowing direct visual identification of recombinants (white colonies) vs non-recombinants (blue). A wrong answer conflates the two systems or misses the visual screening advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Bacteriophage λ vectors are always better than plasmids because they can hold larger inserts.\" Is it correct? Explain.",
+     "a": "Not always. λ vectors have larger capacity but are more complex to handle (packaging, infection efficiency), and plasmid vectors are simpler for routine subcloning, high copy number, and mutagenesis. The statement ignores trade-offs. A wrong answer (agreeing without qualification) shows lack of critical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to verify that a plasmid vector has successfully incorporated a foreign DNA insert using blue-white screening.",
+     "a": "Transform competent E. coli with ligation mixture, plate on LB+ampicillin+X-gal+IPTG. Blue colonies = empty vector (functional lacZα); white colonies = recombinant (insert disrupts lacZα). Pick white colonies, isolate plasmid, confirm by restriction digest. A poor answer omits controls or misinterprets color.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

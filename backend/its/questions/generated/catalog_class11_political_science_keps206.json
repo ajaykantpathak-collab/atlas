@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_political_science_keps206",
+ "concepts": [
+  {
+   "id": "keps206.1.1",
+   "title": "Independence of the Judiciary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Independence of the Judiciary' refers to.",
+     "a": "Courts can protect rights and police the constitution only if judges cannot be punished for their verdicts. India secures judicial independence through security of tenure -- removal only by a hard parliamentary process for proven misbehaviour -- fixed salaries charged on the Consolidated Fund, insulation of judicial appointments, and a ban on practice after retirement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Independence of the Judiciary'.",
+     "a": "A judge who fears dismissal, salary cuts or post-retirement favour will not judge fearlessly -- independence is engineered by tenure, purse and appointment design.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Independence of the Judiciary' taught, and from which source text?",
+     "a": "1.1 (source: keps206.txt lines 15-130 (independence of judiciary, appointment of judges, removal and impeachment, salaries, restrictions on practice after retirement))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps206.1.2",
+   "title": "Structure of the Indian Judiciary: Single Integrated System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structure of the Indian Judiciary: Single Integrated System' refers to.",
+     "a": "India runs one unified judicial pyramid: the Supreme Court at the apex, High Courts for the states, and subordinate courts below, all applying the same law. Appeals climb from district courts through High Courts to the Supreme Court, so the last word on any legal question belongs to one apex court.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structure of the Indian Judiciary: Single Integrated System'.",
+     "a": "One pyramid, one apex -- appeals climb a single ladder from district court to Supreme Court.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Structure of the Indian Judiciary: Single Integrated System' taught, and from which source text?",
+     "a": "1.2 (source: keps206.txt lines 130-240 (structure of the judiciary, supreme court, high courts, subordinate courts, single integrated judicial system, appeals))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps206.1.3",
+   "title": "Judicial Review and Judicial Activism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Judicial Review and Judicial Activism' refers to.",
+     "a": "Under judicial review, courts test laws and executive acts against the Constitution and strike down what fails. When courts use this power expansively -- probing policy, enforcing directives through public interest litigation -- critics call it judicial activism, praising the rescue of rights or warning of judges legislating from the bench.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Judicial Review and Judicial Activism'.",
+     "a": "Courts as guardians of the Constitution -- review checks power, activism stretches the guardianship into policy space.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Judicial Review and Judicial Activism' taught, and from which source text?",
+     "a": "1.3 (source: keps206.txt lines 240-360 (judicial review, judicial activism, public interest litigation, evolution of pil, criticism and defence of activism))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keps206.1.4",
+   "title": "Courts and Rights: Guardian of Fundamental Rights",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Courts and Rights: Guardian of Fundamental Rights' refers to.",
+     "a": "The Supreme Court is the guarantor of fundamental rights: any citizen may move it directly under Article 32 when a right is violated, and High Courts offer the wider remedy under Article 226. Through writs like habeas corpus, mandamus and prohibition, courts command the state itself to obey the law.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Courts and Rights: Guardian of Fundamental Rights'.",
+     "a": "A right without a remedy is a wish -- Article 32 turns fundamental rights into enforceable claims against the state.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Courts and Rights: Guardian of Fundamental Rights' taught, and from which source text?",
+     "a": "1.4 (source: keps206.txt lines 360-470 (supreme court as guardian of fundamental rights, article 32, writs, habeas corpus mandamus prohibition certiorari quo warranto))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

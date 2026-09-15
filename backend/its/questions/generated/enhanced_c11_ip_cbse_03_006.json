@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_006",
+   "title": "c11_ip_cbse_03_006",
+   "questions": [
+    {
+     "q": "What is the exact syntax of Python's ternary operator and which part is evaluated first when the expression `result = \"Pass\" if marks >= 33 else \"Fail\"` runs?",
+     "a": "Syntax: `value_if_true if condition else value_if_false`. Evaluation order: first the `condition` (`marks >= 33`) is evaluated; only the chosen branch (`\"Pass\"` or `\"Fail\"`) is then evaluated. A wrong answer (e.g., saying the branches are evaluated first or that the syntax is `if condition: value_if_true else: value_if_false`) reveals confusion between the ternary *expression* and the `if-else` *statement*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a SyntaxError: `x = 10 if y > 5 else print(\"Small\")`. How would you fix it while keeping the ternary structure?",
+     "a": "The `else` branch must be an expression that yields a value; `print(\"Small\")` is a statement (returns `None`). The ternary operator requires *expressions* in both branches. Fix: `x = 10 if y > 5 else \"Small\"` (assign a string) or move the print outside: `msg = \"Large\" if y > 5 else \"Small\"; print(msg)`. A student who thinks the branches can be statements misunderstands that the ternary operator is an *expression* producing a value.",
+     "self_check": true
+    },
+    {
+     "q": "Given `age = 20; status = \"Adult\" if age >= 18 else \"Minor\" if age >= 13 else \"Child\"`, what is the value of `status`? Show the step-by-step evaluation.",
+     "a": "Step 1: Check `age >= 18` → 20 >= 18 is True → the first `\"Adult\"` is selected. The nested ternary is never evaluated. `status = \"Adult\"`. A wrong answer (e.g., \"Minor\") reveals the student thinks ternary operators evaluate right-to-left or that all conditions are checked sequentially like `elif`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two snippets below. Are they functionally identical? Justify.\n```python",
+     "a": "Yes, they are functionally identical for this simple assignment. Both evaluate `score >= 40` once and assign exactly one string to `grade`. The difference: A is a *statement* (cannot be used inside another expression), B is an *expression* (can be nested, passed to functions, used in comprehensions). A student who says \"B is faster\" or \"A allows multiple statements\" is correct about capabilities but misses that *for this specific task* they are equivalent.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `result = (lambda: \"Even\") if n % 2 == 0 else (lambda: \"Odd\")` and then calls `result()`. Is this a good use of the ternary operator? Critique.",
+     "a": "It works but is poor style. The ternary operator already selects *values*; wrapping each branch in a zero-argument lambda adds unnecessary indirection and overhead. Better: `result = \"Even\" if n % 2 == 0 else \"Odd\"`. If the branches were expensive computations, lazy evaluation via lambdas *could* be justified, but for simple strings it obscures intent. A student who defends it as \"lazy evaluation\" shows partial understanding but misses Python's eager evaluation of the chosen branch (the other branch is never evaluated anyway).",
+     "self_check": true
+    },
+    {
+     "q": "Design a single-line expression using the ternary operator that takes an integer `n` and returns \"Positive\", \"Negative\", or \"Zero\" without using `if-elif-else` statements. Test it mentally for n = -5, 0, 7.",
+     "a": "`\"Positive\" if n > 0 else \"Negative\" if n < 0 else \"Zero\"`. Evaluation: n=-5 → first condition False → second condition True → \"Negative\". n=0 → both False → \"Zero\". n=7 → first True → \"Positive\". A poor answer uses multiple separate ternaries with `and`/`or` or tries to force a tuple index, showing inability to nest ternaries correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

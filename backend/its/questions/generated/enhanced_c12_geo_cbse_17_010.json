@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_010",
+   "title": "c12_geo_cbse_17_010",
+   "questions": [
+    {
+     "q": "What is the definition of sustainable development as per the Brundtland Report (1987)?",
+     "a": "Correct: \"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\" A wrong answer (e.g., \"development that protects the environment only\") reveals the student misses the intergenerational equity and the balance with present needs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is watershed management considered a sustainable development strategy in India's degraded lands, such as in Jhabua district?",
+     "a": "Correct: \"Watershed management integrates land, water, and vegetation conservation with community participation, improving soil quality, recharging groundwater, and enhancing livelihoods simultaneously – addressing environmental, economic, and social pillars.\" A wrong answer focusing only on water conservation misses the holistic integration of resources and community ownership.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: Jhabua district treated 20% of its total area under watershed management in five years, resulting in a 30% increase in groundwater recharge and 25% increase in crop yield. If the district's total area is 6,782 km², calculate the area treated and explain how this contributes to sustainable development.",
+     "a": "Area treated = 20% of 6,782 km² = 1,356.4 km². This contributes by improving resource base (water, soil), increasing agricultural productivity (economic), and involving community (social). A wrong calculation or missing linkage to pillars shows inability to apply quantitative data to geographical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Namami Gange programme and the Jhabua watershed management approach in terms of scale, stakeholder involvement, and integration of the three pillars of sustainable development.",
+     "a": "Namami Gange is a large-scale, top-down government programme focusing on sewage treatment, industrial monitoring, and riverfront development across multiple states; stakeholder involvement includes government agencies, NGOs, and public awareness. Jhabua is a local, community-driven watershed management with strong participation of tribal communities (Bhils), integrating land, water, vegetation, and livelihoods. Both address all three pillars but at different scales and governance models. A wrong answer that treats them as identical misses the scale and governance difference.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether the Smart Cities Mission in India aligns with sustainable development principles, considering its focus on infrastructure, technology, and urban renewal. Provide two arguments for and two against.",
+     "a": "For: Promotes efficient resource use (smart grids, waste management), improves quality of life (social), and can reduce carbon footprint (environmental). Against: May prioritize technological solutions over equity, risk displacing urban poor (social exclusion), and often focuses on limited areas within cities (uneven development). A one-sided answer reveals inability to critically evaluate policy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable development plan for a hypothetical drought-prone district in Maharashtra, incorporating water conservation, livelihood support, and community participation. Outline three specific interventions with geographical justification.",
+     "a": "Good answer: 1) Watershed structures (check dams, contour trenches) to recharge groundwater – justified by basaltic terrain and seasonal rainfall. 2) Promote drought-resistant crops (millets) and agroforestry – justified by soil type and climate. 3) Establish village-level water user associations for equitable distribution – justified by social equity. Poor answer lists generic interventions without geographical justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

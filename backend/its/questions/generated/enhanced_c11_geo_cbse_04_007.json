@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_007",
+   "title": "c11_geo_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define the term \"magnetic anomaly\" in the context of sea floor spreading and state what causes the alternating pattern of positive and negative anomalies observed parallel to a mid-ocean ridge.",
+     "a": "A magnetic anomaly is the difference between the measured magnetic field strength and the expected theoretical field (International Geomagnetic Reference Field) at a location; positive anomalies occur where the crustal magnetisation reinforces the present field (normal polarity), and negative anomalies occur where it opposes (reversed polarity). The alternating pattern arises because Earth's magnetic field has reversed many times; as new basalt cools at the ridge axis during a normal chron it records a positive anomaly, and during a reversed chron it records a negative anomaly, creating symmetric stripes. A wrong answer that attributes the pattern to variations in crustal thickness or sediment cover reveals confusion between magnetic signature and bathymetric/topographic features.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the magnetic stripe pattern is symmetric about the mid-ocean ridge axis and what this symmetry implies about the process of crustal formation.",
+     "a": "Symmetry occurs because magma wells up at the ridge axis, solidifies, and splits into two equal halves that move apart in opposite directions at the same rate — each polarity chron is recorded simultaneously on both flanks, producing mirror-image stripes. This symmetry proves that the ridge is a divergent boundary where crust is created and moves laterally, not a random fracture zone. A student who claims symmetry results from \"matching coastlines\" or \"continental drift pulling crust apart\" confuses Wegener's mechanism (continental rafting) with Hess's sea floor spreading (ridge-push and slab-pull driven plate motion).",
+     "self_check": true
+    },
+    {
+     "q": "A magnetic anomaly profile across the East Pacific Rise shows a normal polarity stripe (Chron C1n, Brunhes) that is 18 km wide on one flank. Given that the Brunhes chron began 0.78 Ma, calculate the half-spreading rate in cm/year and state whether this is a fast, intermediate, or slow spreading ridge.",
+     "a": "Half-spreading rate = stripe width / chron duration = 18 km / 0.78 Ma = 18,00,000 cm / 7,80,000 yr ≈ 2.31 cm/yr. This classifies as a fast-spreading ridge (full rate > 8 cm/yr). Steps: (1) Convert 18 km to cm (×100,000), (2) Convert 0.78 Ma to years (×1,000,000), (3) Divide width by time, (4) Compare to classification thresholds: slow < 2.5 cm/yr half-rate, intermediate 2.5–4.5, fast > 4.5. A wrong answer using full width (36 km) or forgetting unit conversions shows inability to distinguish half-rate from full-rate and poor dimensional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnetic stripe patterns you would expect at a slow-spreading ridge (e.g., Mid-Atlantic Ridge, ~1.2 cm/yr half-rate) versus a fast-spreading ridge (e.g., East Pacific Rise, ~6 cm/yr half-rate) for the same polarity chron (e.g., Jaramillo subchron, 0.99–1.07 Ma). How does stripe width differ and what does this imply for magnetic survey resolution?",
+     "a": "For Jaramillo (duration 0.08 Ma): at MAR, stripe width = 1.2 cm/yr × 80,000 yr = 0.96 km; at EPR, width = 6 cm/yr × 80,000 yr = 4.8 km. Fast ridges produce wider stripes for the same chron, making anomalies easier to resolve with ship-track spacing but compressing older chrons into broader bands; slow ridges yield narrow stripes requiring dense survey lines to detect short chrons. A student who says \"fast ridges have narrower stripes because crust moves faster\" reverses the relationship — faster spreading stretches each time interval over greater distance.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Magnetic stripes prove that continents drift because the stripes on either side of the Atlantic match when Africa and South America are fitted together.\"",
+     "a": "The statement conflates two different evidences: magnetic stripes demonstrate sea floor spreading (creation and lateral movement of oceanic crust at ridges), while continental fit (jigsaw puzzle) is Wegener's evidence for continental drift. Stripes are symmetric about the ridge, not about continental margins; matching continental edges uses rock age and structural continuity, not magnetic anomaly correlation. A student who agrees reveals a fundamental category error — confusing the mechanism (spreading) with the earlier hypothesis (drift) and misunderstanding that magnetic anomalies date the ocean floor, not the continental breakup directly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple magnetic survey plan to determine the spreading history of a previously unmapped mid-ocean ridge segment. Specify: (a) ship track orientation relative to the ridge, (b) minimum track spacing needed to resolve the Jaramillo subchron (0.08 Ma duration) at a half-rate of 3 cm/yr, and (c) how you would identify the ridge axis from the magnetic data alone.",
+     "a": "(a) Tracks perpendicular to ridge axis (cross-strike) to cut across magnetic stripes and capture full anomaly sequence. (b) Jaramillo width = 3 cm/yr × 80,000 yr = 2.4 km; Nyquist criterion requires track spacing ≤ half the smallest wavelength → ≤ 1.2 km spacing. (c) Ridge axis corresponds to the central positive anomaly high (Brunhes normal polarity) flanked by symmetric negative anomalies; it is the line of maximum positive anomaly amplitude and zero-crossing of the vertical derivative. A poor plan using parallel tracks or spacing > 5 km would alias short chrons and fail to locate the axis precisely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

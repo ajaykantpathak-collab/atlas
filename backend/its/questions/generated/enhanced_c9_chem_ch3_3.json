@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_3",
+   "title": "c9_chem_ch3_3",
+   "questions": [
+    {
+     "q": "State all five postulates of Dalton's Atomic Theory using precise chemical terminology.",
+     "a": "The five postulates are: (1) All matter consists of indivisible particles called atoms. (2) Atoms of the same element are identical in mass and chemical properties; atoms of different elements differ in mass and properties. (3) Atoms cannot be created, destroyed, or transformed into atoms of another element in chemical reactions. (4) Compounds form when atoms of different elements combine in fixed, simple whole-number ratios. (5) Chemical reactions involve rearrangement of atoms, not their alteration. A wrong answer revealing confusion between postulates 2 and 4 indicates the student doesn't distinguish between atomic identity (intrinsic property) and combining behavior (relational property). Missing postulate 3 suggests the student hasn't connected the theory to the Law of Conservation of Mass (c9_chem_ch3_1).",
+     "self_check": true
+    },
+    {
+     "q": "Explain how Dalton's third postulate (atoms cannot be created or destroyed in chemical reactions) directly accounts for the Law of Conservation of Mass. Use the reaction 2H₂ + O₂ → 2H₂O to illustrate your reasoning.",
+     "a": "Dalton's third postulate states atoms are neither created nor destroyed, only rearranged. In 2H₂ + O₂ → 2H₂O, the reactant side has 4 hydrogen atoms and 2 oxygen atoms; the product side also has 4 hydrogen atoms and 2 oxygen atoms. Since each atom retains its mass (postulate 2), the total mass remains unchanged. A wrong answer that merely states \"mass is conserved\" without tracing individual atoms reveals the student sees conservation as an empirical rule rather than a consequence of atomic indestructibility. If the student claims atoms change identity during reaction, they confuse chemical rearrangement with nuclear transmutation.",
+     "self_check": true
+    },
+    {
+     "q": "A compound contains 2.0 g of hydrogen and 16.0 g of oxygen. Using Dalton's postulate of fixed whole-number ratios, determine the simplest formula of the compound and explain why the ratio must be whole numbers.",
+     "a": "Step 1: Convert masses to moles using atomic masses (H = 1 u, O = 16 u). Moles of H = 2.0/1 = 2 mol; moles of O = 16.0/16 = 1 mol. Step 2: The mole ratio H:O = 2:1, which is already a simple whole-number ratio. Step 3: The simplest formula is H₂O. Step 4: Whole-number ratios are required because atoms are discrete, indivisible units (postulate 1) - you cannot have half an atom combining. Step 5: This validates postulate 4: compounds form in fixed, simple whole-number ratios. A wrong answer giving HO or H₁.₅O reveals the student treats ratios as continuous mass proportions rather than discrete atomic counting, missing the particulate nature of matter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how Dalton's theory explains the Law of Constant Proportions versus how modern atomic theory (with isotopes) modifies this explanation. Use carbon dioxide (CO₂) as your example.",
+     "a": "Dalton's theory: All carbon atoms are identical (mass 12 u), all oxygen atoms identical (mass 16 u), so CO₂ always has mass ratio C:O = 12:32 = 3:8. Modern theory: Carbon has isotopes ¹²C (98.9%) and ¹³C (1.1%); oxygen has ¹⁶O, ¹⁷O, ¹⁸O. CO₂ molecules vary slightly in mass (e.g., ¹²C¹⁶O₂ = 44 u, ¹³C¹⁶O₂ = 45 u), but the *average* mass ratio remains constant because isotopic abundances are fixed in nature. The constant proportion law holds statistically, not absolutely for each molecule. A wrong answer claiming modern theory disproves constant proportions entirely reveals the student doesn't understand the distinction between \"every molecule identical\" (Dalton) and \"bulk sample has constant average composition\" (modern).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Dalton's Atomic Theory is completely wrong because atoms are divisible into subatomic particles.\" Provide a reasoned judgment with evidence.",
+     "a": "The claim is an overgeneralization. Dalton's theory is *incomplete*, not completely wrong. Evidence: (1) Postulate 1 (indivisibility) is falsified by discovery of electrons, protons, neutrons - but this doesn't invalidate postulates 2-5 for chemical reactions. (2) Postulates 2-5 remain valid for *chemical* processes: atoms retain identity in chemical reactions (no nuclear change), combine in whole-number ratios, and are conserved. (3) The theory successfully predicted laws of multiple proportions and explained conservation of mass. A wrong answer calling it \"completely wrong\" reveals black-and-white thinking; the student fails to distinguish between the domain of chemical reactions (where Dalton works) and nuclear/particle physics (where it fails).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment that would have convinced Dalton that his postulate of \"atoms of the same element are identical in mass\" is incorrect, using only chemical observations available in 1803 (no spectroscopy, no mass spectrometry).",
+     "a": "A strong answer: \"Measure the density of hydrogen gas prepared from different sources - e.g., reaction of zinc with HCl vs. electrolysis of water. If hydrogen atoms were truly identical, the density should be exactly the same. However, with precise enough measurements (beyond 1803 capability), one might detect tiny variations due to deuterium (²H) present in natural water. The experiment requires: (1) identical temperature/pressure conditions, (2) highly accurate mass and volume measurements, (3) multiple trials from different sources.\" A poor answer proposing nuclear reactions or spectroscopy reveals the student doesn't grasp the historical constraints or the subtlety of isotopic mass differences (~0.01% for H/D). The key is recognizing that *chemical* methods alone couldn't detect isotopes in 1803.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

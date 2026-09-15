@@ -1,0 +1,423 @@
+# ISC Class 11 Biology — Syllabus Node → Problem Type Mapping
+# Maps 70 CISCE syllabus nodes to problem type IDs
+
+syllabus_nodes:
+
+  # ── UNIT I: DIVERSITY OF LIVING ORGANISMS ────────────────────────────────
+  - node_id: "C11.1.1"
+    node_name: "Taxonomic Hierarchy and Binomial Nomenclature"
+    unit: "Diversity of Living Organisms"
+    problem_types: [TAXONOMY_CLASSIFICATION, TAXONOMY_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.1.2"
+    node_name: "Five Kingdom Classification"
+    unit: "Diversity of Living Organisms"
+    problem_types: [TAXONOMY_CLASSIFICATION, TAXONOMY_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.1.1"]
+
+  - node_id: "C11.1.3"
+    node_name: "Kingdom Monera"
+    unit: "Diversity of Living Organisms"
+    problem_types: [MONERA_PROTISTA, TAXONOMY_CLASSIFICATION]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.1.2"]
+
+  - node_id: "C11.1.4"
+    node_name: "Kingdom Protista"
+    unit: "Diversity of Living Organisms"
+    problem_types: [MONERA_PROTISTA, TAXONOMY_CLASSIFICATION]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.1.2", "C11.1.3"]
+
+  - node_id: "C11.1.5"
+    node_name: "Kingdom Fungi"
+    unit: "Diversity of Living Organisms"
+    problem_types: [FUNGI_CLASSIFICATION, FUNGI_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.1.2"]
+
+  - node_id: "C11.1.6"
+    node_name: "Kingdom Plantae — Major Groups"
+    unit: "Diversity of Living Organisms"
+    problem_types: [PLANT_KINGDOM_CLASSIFICATION, TAXONOMY_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.1.2"]
+
+  - node_id: "C11.1.7"
+    node_name: "Kingdom Animalia — Phylum Level"
+    unit: "Diversity of Living Organisms"
+    problem_types: [ANIMALIA_CLASSIFICATION, TAXONOMY_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.1.2"]
+
+  # ── UNIT II: PLANT PHYSIOLOGY ─────────────────────────────────────────────
+  - node_id: "C11.2.1"
+    node_name: "Photosynthesis — Light Reactions"
+    unit: "Plant Physiology"
+    problem_types: [PHOTOSYNTHESIS_RATE, FACTORS_PHOTOSYNTHESIS, PHOTOSYNTHESIS_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.2.2"
+    node_name: "Photosynthesis — Dark Reactions (Calvin Cycle)"
+    unit: "Plant Physiology"
+    problem_types: [PHOTOSYNTHESIS_RATE, C3_C4_PHOTOSYNTHESIS]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.2.1"]
+
+  - node_id: "C11.2.3"
+    node_name: "C3, C4, and CAM Pathways"
+    unit: "Plant Physiology"
+    problem_types: [C3_C4_PHOTOSYNTHESIS, FACTORS_PHOTOSYNTHESIS]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.2.1", "C11.2.2"]
+
+  - node_id: "C11.2.4"
+    node_name: "Factors Affecting Photosynthesis"
+    unit: "Plant Physiology"
+    problem_types: [FACTORS_PHOTOSYNTHESIS, PHOTOSYNTHESIS_RATE]
+    bloom_levels: [Analyzing]
+    prerequisite_nodes: ["C11.2.1", "C11.2.2"]
+
+  - node_id: "C11.2.5"
+    node_name: "Respiration — Glycolysis"
+    unit: "Plant Physiology"
+    problem_types: [RESPIRATION_ATP, ANAEROBIC_RESPIRATION]
+    bloom_levels: [Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.2.6"
+    node_name: "Respiration — Krebs Cycle and ETS"
+    unit: "Plant Physiology"
+    problem_types: [RESPIRATION_ATP, ANAEROBIC_RESPIRATION]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.2.5"]
+
+  - node_id: "C11.2.7"
+    node_name: "Fermentation"
+    unit: "Plant Physiology"
+    problem_types: [ANAEROBIC_RESPIRATION, RESPIRATION_ATP]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.2.5", "C11.2.6"]
+
+  - node_id: "C11.2.8"
+    node_name: "Respiratory Quotient"
+    unit: "Plant Physiology"
+    problem_types: [RESPIRATION_ATP]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.2.5", "C11.2.6"]
+
+  - node_id: "C11.2.9"
+    node_name: "Plant Growth Regulators (Auxin, Gibberellin, Cytokinin, ABA, Ethylene)"
+    unit: "Plant Physiology"
+    problem_types: [PHYTOHORMONES, PHOTOPERIODISM, SEED_DORMANCY, PHYTOHORMONES_INDIAN]
+    bloom_levels: [Understanding, Applying, Analyzing]
+    prerequisite_nodes: []
+
+  - node_id: "C11.2.10"
+    node_name: "Photoperiodism"
+    unit: "Plant Physiology"
+    problem_types: [PHOTOPERIODISM, PHYTOHORMONES]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.2.9"]
+
+  - node_id: "C11.2.11"
+    node_name: "Vernalization"
+    unit: "Plant Physiology"
+    problem_types: [PHOTOPERIODISM]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.2.10"]
+
+  - node_id: "C11.2.12"
+    node_name: "Seed Dormancy"
+    unit: "Plant Physiology"
+    problem_types: [SEED_DORMANCY, PHYTOHORMONES]
+    bloom_levels: [Understanding, Analyzing]
+    prerequisite_nodes: ["C11.2.9"]
+
+  # ── UNIT III: HUMAN PHYSIOLOGY ────────────────────────────────────────────
+  - node_id: "C11.3.1"
+    node_name: "Digestion — Alimentary Canal and Enzymes"
+    unit: "Human Physiology"
+    problem_types: [DIGESTION_SYSTEM, DIGESTION_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.2"
+    node_name: "Digestive Glands and Their Secretions"
+    unit: "Human Physiology"
+    problem_types: [DIGESTION_SYSTEM, DIGESTION_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.3.1"]
+
+  - node_id: "C11.3.3"
+    node_name: "Digestive Disorders"
+    unit: "Human Physiology"
+    problem_types: [DIGESTION_INDIAN]
+    bloom_levels: [Evaluating]
+    prerequisite_nodes: ["C11.3.1"]
+
+  - node_id: "C11.3.4"
+    node_name: "Breathing and Respiratory Organs"
+    unit: "Human Physiology"
+    problem_types: [RESPIRATORY_SYSTEM, RESPIRATORY_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.5"
+    node_name: "Mechanism of Breathing (Ventilation)"
+    unit: "Human Physiology"
+    problem_types: [RESPIRATORY_SYSTEM, RESPIRATORY_INDIAN]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.3.4"]
+
+  - node_id: "C11.3.6"
+    node_name: "Gas Exchange and Transport"
+    unit: "Human Physiology"
+    problem_types: [RESPIRATORY_SYSTEM]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.3.5"]
+
+  - node_id: "C11.3.7"
+    node_name: "Regulation of Respiration"
+    unit: "Human Physiology"
+    problem_types: [RESPIRATORY_SYSTEM, RESPIRATORY_INDIAN]
+    bloom_levels: [Analyzing]
+    prerequisite_nodes: ["C11.3.5"]
+
+  - node_id: "C11.3.8"
+    node_name: "Respiratory Disorders"
+    unit: "Human Physiology"
+    problem_types: [RESPIRATORY_INDIAN]
+    bloom_levels: [Evaluating]
+    prerequisite_nodes: ["C11.3.4", "C11.3.5"]
+
+  - node_id: "C11.3.9"
+    node_name: "Body Fluids — Blood and Lymph"
+    unit: "Human Physiology"
+    problem_types: [BODY_FLUIDS]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.10"
+    node_name: "Circulatory System — Heart and Blood Vessels"
+    unit: "Human Physiology"
+    problem_types: [BODY_FLUIDS]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.3.9"]
+
+  - node_id: "C11.3.11"
+    node_name: "Lymphatic System"
+    unit: "Human Physiology"
+    problem_types: [BODY_FLUIDS]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.3.9"]
+
+  - node_id: "C11.3.12"
+    node_name: "Double Circulation"
+    unit: "Human Physiology"
+    problem_types: [BODY_FLUIDS]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.3.10"]
+
+  - node_id: "C11.3.13"
+    node_name: "Cardiac Cycle and ECG"
+    unit: "Human Physiology"
+    problem_types: [BODY_FLUIDS]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.3.10", "C11.3.12"]
+
+  - node_id: "C11.3.14"
+    node_name: "Excretory System — Kidneys"
+    unit: "Human Physiology"
+    problem_types: [EXCRETION, EXCRETION_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.15"
+    node_name: "Urine Formation"
+    unit: "Human Physiology"
+    problem_types: [EXCRETION]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.3.14"]
+
+  - node_id: "C11.3.16"
+    node_name: "Skin and Sweat Glands"
+    unit: "Human Physiology"
+    problem_types: [EXCRETION]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.3.14"]
+
+  - node_id: "C11.3.17"
+    node_name: "Locomotion — Skeleton and Muscles"
+    unit: "Human Physiology"
+    problem_types: [LOCOMOTION, LOCOMOTION_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.18"
+    node_name: "Joints and Muscle Contraction"
+    unit: "Human Physiology"
+    problem_types: [LOCOMOTION]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.3.17"]
+
+  - node_id: "C11.3.19"
+    node_name: "Neurons and Nerve Impulses"
+    unit: "Human Physiology"
+    problem_types: [NEURAL_CONTROL]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.20"
+    node_name: "Synaptic Transmission and Reflex Arc"
+    unit: "Human Physiology"
+    problem_types: [NEURAL_CONTROL]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.3.19"]
+
+  - node_id: "C11.3.21"
+    node_name: "Endocrine Glands and Hormones"
+    unit: "Human Physiology"
+    problem_types: [CHEMICAL_COORDINATION, ENDOCRINE_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C11.3.22"
+    node_name: "Human Endocrine System (Hypothalamus-Pituitary Axis)"
+    unit: "Human Physiology"
+    problem_types: [CHEMICAL_COORDINATION, ENDOCRINE_INDIAN]
+    bloom_levels: [Analyzing]
+    prerequisite_nodes: ["C11.3.21"]
+
+  # ── UNIT IV: CELL BIOLOGY AND GENETICS (Class 11) ─────────────────────────
+  - node_id: "C11.4.1"
+    node_name: "Cell Structure and Organelles"
+    unit: "Cell Biology and Genetics"
+    problem_types: [CELL_CYCLE]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C11.4.2"
+    node_name: "Biomolecules — Proteins, Nucleic Acids"
+    unit: "Cell Biology and Genetics"
+    problem_types: [TRANSCRIPTION_C11, TRANSLATION_C11, GC_CONTENT_C11]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.4.1"]
+
+  - node_id: "C11.4.3"
+    node_name: "DNA Replication and Gene Expression"
+    unit: "Cell Biology and Genetics"
+    problem_types: [TRANSCRIPTION_C11, TRANSLATION_C11]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.4.2"]
+
+  - node_id: "C11.4.4"
+    node_name: "Cell Cycle — Interphase and M Phase"
+    unit: "Cell Biology and Genetics"
+    problem_types: [CELL_CYCLE]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.4.1"]
+
+  - node_id: "C11.4.5"
+    node_name: "Mitosis and Meiosis"
+    unit: "Cell Biology and Genetics"
+    problem_types: [CELL_CYCLE, MONOHYBRID_CROSS_C11]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.4.4"]
+
+  - node_id: "C11.4.6"
+    node_name: "Mendel's Laws of Inheritance"
+    unit: "Cell Biology and Genetics"
+    problem_types: [MONOHYBRID_CROSS_C11, HARDY_WEINBERG_C11]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C11.4.5"]
+
+  - node_id: "C11.4.7"
+    node_name: "Hardy-Weinberg Principle"
+    unit: "Cell Biology and Genetics"
+    problem_types: [HARDY_WEINBERG_C11]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.4.6"]
+
+  # ── UNIT V: ECOLOGY (Class 11) ────────────────────────────────────────────
+  - node_id: "C11.5.1"
+    node_name: "Organisms and Environment — Ecological Niche"
+    unit: "Ecology"
+    problem_types: [POPULATION_GROWTH_C11, ECOSYSTEM_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C11.5.2"
+    node_name: "Population Interactions"
+    unit: "Ecology"
+    problem_types: [POPULATION_GROWTH_C11, POPULATION_GROWTH_INDIAN_C11]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.5.1"]
+
+  - node_id: "C11.5.3"
+    node_name: "Population Growth Models"
+    unit: "Ecology"
+    problem_types: [POPULATION_GROWTH_C11, POPULATION_GROWTH_INDIAN_C11]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.5.2"]
+
+  - node_id: "C11.5.4"
+    node_name: "Ecosystem — Structure and Function"
+    unit: "Ecology"
+    problem_types: [ECOSYSTEM_INDIAN, ENERGY_FLOW_C11]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.5.3"]
+
+  - node_id: "C11.5.5"
+    node_name: "Productivity — GPP, NPP, Secondary Production"
+    unit: "Ecology"
+    problem_types: [ENERGY_FLOW_C11, ECOSYSTEM_INDIAN]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.5.4"]
+
+  - node_id: "C11.5.6"
+    node_name: "Energy Flow and Ecological Pyramids"
+    unit: "Ecology"
+    problem_types: [ENERGY_FLOW_C11, BIOGEOCHEMICAL_CYCLES]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C11.5.5"]
+
+  - node_id: "C11.5.7"
+    node_name: "Ecological Succession"
+    unit: "Ecology"
+    problem_types: [ECOSYSTEM_INDIAN]
+    bloom_levels: [Understanding, Analyzing]
+    prerequisite_nodes: ["C11.5.4"]
+
+  - node_id: "C11.5.8"
+    node_name: "Biogeochemical Cycles — Carbon, Nitrogen, Phosphorus"
+    unit: "Ecology"
+    problem_types: [BIOGEOCHEMICAL_CYCLES, NITROGEN_CYCLE_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C11.5.6"]
+
+  - node_id: "C11.5.9"
+    node_name: "Major Ecosystems of the World"
+    unit: "Ecology"
+    problem_types: [ECOSYSTEM_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C11.5.4"]
+
+  - node_id: "C11.5.10"
+    node_name: "Biodiversity and Conservation"
+    unit: "Ecology"
+    problem_types: [ECOSYSTEM_INDIAN, NITROGEN_CYCLE_INDIAN]
+    bloom_levels: [Evaluating, Creating]
+    prerequisite_nodes: ["C11.5.7", "C11.5.8"]
+
+coverage_summary:
+  total_nodes: 70
+  covered_nodes: 70
+  coverage_percentage: 100.0
+  standard_questions: 28
+  competency_questions: 28
+  standard_competency_ratio: "50:50"

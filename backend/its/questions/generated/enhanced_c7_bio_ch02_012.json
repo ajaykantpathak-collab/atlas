@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_012",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_012",
+   "title": "c7_bio_ch02_012",
+   "questions": [
+    {
+     "q": "Which respiratory structure is primarily used by aquatic animals like fish to extract dissolved oxygen from water?",
+     "a": "Fish use gills to extract dissolved oxygen from water. A wrong answer shows confusion between lungs and gills, often forgetting that aquatic environments require structures adapted to extract oxygen dissolved in water rather than gaseous oxygen from the air.",
+     "self_check": true
+    },
+    {
+     "q": "Why must an earthworm keep its skin constantly moist in order to respire properly?",
+     "a": "An earthworm breathes through its skin, and gases like oxygen and carbon dioxide must dissolve in a liquid layer to pass through the cell membranes into its blood. A wrong answer suggests that the earthworm drinks through its skin or uses it for swimming, missing the fundamental rule that respiratory surfaces must be wet for gas exchange.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener accidentally covers a patch of soil containing earthworms with thick plastic sheeting, cutting off air supply. Predict what happens to the earthworms and explain why using their mode of respiration.",
+     "a": "The earthworms will suffocate and try to crawl out. Step 1: Earthworms respire through their moist skin by absorbing oxygen from air spaces in the soil. Step 2: Plastic sheeting blocks atmospheric air from entering the soil. Step 3: Without fresh oxygen diffusing through their skin, cellular respiration stops. Step 4: The earthworms cannot extract energy and die. A wrong answer reveals the misconception that earthworms do not need external air or that they can live indefinitely without oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the respiratory mechanism of a cockroach with that of a fish. How do their transport networks differ in delivering oxygen to cells?",
+     "a": "A cockroach uses a system of branching tubes called tracheae that open to the outside through spiracles, delivering oxygen directly to tissues without relying on blood for gas transport. In contrast, a fish uses gills where oxygen is absorbed from water into the blood, which then circulates it to the cells. A wrong answer shows a failure to distinguish between open tracheal systems and blood-circulating gill systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that frogs only breathe through their lungs just like adult humans. Evaluate this statement based on amphibian biology.",
+     "a": "The statement is false because frogs are amphibians that possess a dual respiratory system; while adult frogs do have lungs, they also rely heavily on cutaneous respiration (breathing through their moist, slimy skin), especially when underwater or hibernating. A wrong answer demonstrates rigid thinking that an animal can only have one single breathing method throughout its life.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using household items (like a sponge, straws, and a basin of water) to demonstrate how gills maximize surface area for gas exchange compared to a flat body surface.",
+     "a": "A good model uses a folded, sponge-like structure (representing gill filaments) submerged in water to show how many folds create a much larger surface area for water flow than a flat piece of material. A poor answer just uses a flat solid block, showing no understanding of how branching and folding increase area for diffusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

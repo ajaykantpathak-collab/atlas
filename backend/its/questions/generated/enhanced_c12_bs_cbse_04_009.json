@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_009",
+   "title": "c12_bs_cbse_04_009",
+   "questions": [
+    {
+     "q": "List the six limitations of planning as stated in the NCERT textbook for Class 12 Business Studies.",
+     "a": "The six limitations are: (i) Planning leads to rigidity, (ii) Planning may not work in a dynamic environment, (iii) Planning reduces creativity, (iv) Planning involves huge costs, (v) Planning is a time-consuming process, (vi) Planning does not guarantee success. A wrong answer (e.g., missing \"huge costs\" or adding \"planning causes delays\") reveals the student has memorised an incomplete list or confused limitations with features/importance. This is a direct 1-mark recall question in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "\"Planning reduces creativity\" and \"Planning promotes innovative ideas\" both appear in the same NCERT chapter. Explain how both statements can be true without contradiction.",
+     "a": "\"Planning promotes innovative ideas\" refers to the *formulation* stage where top management encourages new strategies (e.g., IOCL's net-zero plan). \"Planning reduces creativity\" refers to the *implementation* stage where middle/lower management must follow the set plan without deviation, stifling on-the-ground innovation. A wrong answer that says \"the textbook contradicts itself\" shows failure to distinguish between planning as a creative *process* vs. a rigid *framework* for execution — a classic 3-mark \"critical comment\" trap.",
+     "self_check": true
+    },
+    {
+     "q": "A family-owned textile manufacturer in Surat spends ₹12 lakh and four months hiring a consultancy to create a detailed 3-year production plan. Two months later, raw cotton prices surge 40% due to a poor monsoon, and a new GST rate on finished fabrics is announced. The owner refuses to deviate from the plan, saying \"we paid lakhs for this.\" Identify which TWO limitations of planning are demonstrated here and explain why the owner's refusal worsens the situation.",
+     "a": "The two limitations are: (1) Planning involves huge costs (₹12 lakh + 4 months) and (2) Planning leads to rigidity (owner refuses to adapt). The owner's refusal compounds the problem because sunk costs (consultancy fees) should not dictate future actions — this is the \"sunk cost fallacy.\" A wrong answer that only names \"dynamic environment\" misses that the *rigidity* is a *choice* by management, not an inevitable outcome. Board exams test this distinction in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limitation \"Planning may not work in a dynamic environment\" with \"Planning leads to rigidity.\" Are they the same concept described differently? Justify your answer with a business example where one applies but the other does not.",
+     "a": "They are distinct. \"Dynamic environment\" limitation means *external changes* (policy, tech, competition) make the plan obsolete *despite* flexibility. \"Rigidity\" limitation means *internal unwillingness* to change the plan *even when* adaptation is possible. Example: A restaurant's plan fails because a pandemic locks down the city (dynamic environment — no plan could foresee this). Another restaurant's plan fails because the owner refuses to start home delivery despite no lockdown (rigidity — adaptation was possible but rejected). Confusing them loses marks in 4-mark \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Since planning does not guarantee success and involves huge costs, small businesses should avoid formal planning and rely on owner intuition.\" Use at least three limitations and two importance points in your evaluation.",
+     "a": "The statement is flawed. While planning has limitations (no success guarantee, huge costs, time-consuming), its importance outweighs them for small businesses: (1) Planning provides direction — without it, intuition leads to ad-hoc decisions; (2) Planning reduces uncertainty — small firms have less buffer for shocks; (3) Planning establishes standards for controlling — without benchmarks, the owner cannot measure deviations. A good answer acknowledges limitations but argues planning is a *tool*, not a *guarantee*, and cites the NCERT line: \"planning is not a useless exercise... it is a tool to be used with caution.\" A weak answer agrees with the statement, ignoring that *all* businesses plan informally; formal planning just makes it systematic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step \"Planning Limitation Audit\" checklist that a startup founder can use quarterly to detect if their planning process is suffering from rigidity, creativity suppression, or cost-time overruns. Each step must be actionable and measurable.",
+     "a": "A strong answer:\nStep 1 (Rigidity Check): \"In the last quarter, how many times did we deviate from the plan due to new information? If zero → rigidity risk.\" (Measurable: count of approved plan deviations).\nStep 2 (Creativity Check): \"What % of implemented ideas originated from non-top-management? If <20% → creativity suppression.\" (Measurable: idea source tracking).\nStep 3 (Cost-Time Check): \"Ratio of planning cost (hours × hourly cost + external fees) to revenue impact of plan-driven decisions. If ratio > 0.15 → overrun.\" (Measurable: cost accounting).\nA poor answer gives vague steps like \"review the plan regularly\" without metrics — this fails to demonstrate application of limitations to real management practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

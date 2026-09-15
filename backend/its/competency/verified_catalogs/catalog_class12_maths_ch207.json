@@ -1,0 +1,459 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 207,
+ "chapter_title": "Probability",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lemh207.txt",
+ "concepts": [
+  {
+   "id": "lemh.13.2.1",
+   "title": "Conditional Probability",
+   "section": "13.2",
+   "definition": "The chance of an event taking place given that a related event from the same experiment has already occurred.",
+   "formula": "P(E|F) = P(E ∩ F) / P(F)",
+   "key_idea": "Restricting the sample space to outcomes where the given condition has already taken place.",
+   "textbook_ref": "lemh207.txt lines 45-90",
+   "question_patterns": [
+    "find the conditional probability of event E given event F",
+    "calculate P(E|F) when P(E ∩ F) and P(F) are given",
+    "what is the probability of event A given that event B has occurred",
+    "determine the likelihood of event E occurring given event F",
+    "evaluate conditional probability P(A|B)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide intersection probability by given event probability",
+     "explain": "apply conditional probability formula P(E|F) = P(E ∩ F) / P(F)",
+     "compute": "p_cond = p_intersection / p_f"
+    }
+   ]
+  },
+  {
+   "id": "lemh.13.2.2",
+   "title": "Properties of Conditional Probability",
+   "section": "13.2.1",
+   "definition": "Rules establishing how conditional probabilities behave regarding total space, complementary sets, and unions.",
+   "formula": "P(S|F) = 1, P(E'|F) = 1 - P(E|F)",
+   "key_idea": "Conditional probabilities inherit standard probability axioms over the reduced sample space.",
+   "textbook_ref": "lemh207.txt lines 92-135",
+   "question_patterns": [
+    "verify that P(S|F) equals 1",
+    "show that P(E'|F) is equal to 1 minus P(E|F)",
+    "find the conditional probability of the complement event",
+    "determine P((A union B)|F) for disjoint events",
+    "check the properties of conditional probability for given events"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply complement rule",
+     "explain": "subtract P(E|F) from 1 to obtain P(E'|F)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.13.3.1",
+   "title": "Multiplication Theorem on Probability",
+   "section": "13.3",
+   "definition": "Principle stating that the joint probability of consecutive events equals the initial event probability times the subsequent conditional probability.",
+   "formula": "P(E ∩ F) = P(E) * P(F|E)",
+   "key_idea": "Finding joint probabilities through sequential stage-by-stage conditioning.",
+   "textbook_ref": "lemh207.txt lines 310-360",
+   "question_patterns": [
+    "find the joint probability of events E and F",
+    "calculate P(E ∩ F) using the multiplication theorem",
+    "determine the probability of both events occurring sequentially",
+    "compute P(A and B) given P(A) and P(B|A)",
+    "evaluate the probability of drawing two items without replacement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply initial probability by conditional probability",
+     "explain": "use multiplication theorem P(E ∩ F) = P(E) * P(F|E)",
+     "compute": "p_intersection = p_e * p_f_given_e"
+    }
+   ]
+  },
+  {
+   "id": "lemh.13.4.1",
+   "title": "Independent Events",
+   "section": "13.4",
+   "definition": "Pair of events where knowing whether one happens provides no information about the likelihood of the other.",
+   "formula": "P(E ∩ F) = P(E) * P(F)",
+   "key_idea": "Joint probability of independent events is simply the product of individual probabilities.",
+   "textbook_ref": "lemh207.txt lines 375-430",
+   "question_patterns": [
+    "check if events A and B are independent",
+    "calculate P(A ∩ B) for independent events",
+    "find the joint probability when events are independent",
+    "determine whether two given events are statistically independent",
+    "evaluate P(A and B) given independent probabilities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply individual event probabilities",
+     "explain": "for independent events P(A ∩ B) = P(A) * P(B)",
+     "compute": "p_joint = p_a * p_b"
+    }
+   ]
+  },
+  {
+   "id": "lemh.13.5.1",
+   "title": "Theorem of Total Probability",
+   "section": "13.5.2",
+   "definition": "Summing conditional path probabilities across mutually disjoint hypotheses that exhaust the entire outcome space.",
+   "formula": "P(A) = P(E1)*P(A|E1) + P(E2)*P(A|E2)",
+   "key_idea": "Computing total marginal probability by summing weighted path probabilities across a sample space partition.",
+   "textbook_ref": "lemh207.txt lines 525-570",
+   "question_patterns": [
+    "calculate the total probability of an event A",
+    "find P(A) across two exhaustive mutually exclusive hypotheses",
+    "determine the total likelihood of an outcome given initial path probabilities",
+    "evaluate overall probability using the theorem of total probability",
+    "compute the overall chance of an event from partition probabilities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate first branch joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "path1 = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "calculate second branch joint probability",
+     "explain": "multiply prior P(E2) by conditional P(A|E2)",
+     "compute": "path2 = p_e2 * p_a_given_e2"
+    },
+    {
+     "step": 3,
+     "action": "sum branch probabilities",
+     "explain": "add path probabilities to obtain total P(A)",
+     "compute": "p_total = path1 + path2"
+    }
+   ]
+  },
+  {
+   "id": "lemh.13.5.2",
+   "title": "Bayes' Theorem",
+   "section": "13.5",
+   "definition": "Mathematical procedure for revising initial belief probabilities about causes after receiving new empirical evidence.",
+   "formula": "P(E1|A) = (P(E1) * P(A|E1)) / (P(E1)*P(A|E1) + P(E2)*P(A|E2))",
+   "key_idea": "Calculating the updated posterior probability of a cause given an observed outcome.",
+   "textbook_ref": "lemh207.txt lines 570-650",
+   "question_patterns": [
+    "find posterior probability using Bayes theorem",
+    "calculate P(E1|A) given prior and likelihood values",
+    "determine the probability that a cause occurred given the observed result",
+    "compute posterior likelihood of hypothesis E1 after event A",
+    "apply Bayes theorem to find conditional probability of a partition event"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute numerator joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "num = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "compute total probability denominator",
+     "explain": "sum joint probabilities for all partition branches",
+     "compute": "den = (p_e1 * p_a_given_e1) + (p_e2 * p_a_given_e2)"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by total probability denominator",
+     "explain": "calculate posterior probability P(E1|A) = num / den",
+     "compute": "p_posterior = num / den"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh207.txt lines 136-141",
+   "concept": "lemh.13.2.1",
+   "question_type": "compute_conditional_probability",
+   "question_pattern": "If P(B) = {p_f} and P(A ∩ B) = {p_intersection}, compute P(A|B).",
+   "extracted_variables": {
+    "p_intersection": 0.32,
+    "p_f": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide intersection probability by given event probability",
+     "explain": "apply conditional probability formula P(A|B) = P(A ∩ B) / P(B)",
+     "compute": "p_cond = p_intersection / p_f"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh207.txt lines 215-225",
+   "concept": "lemh.13.2.1",
+   "question_type": "compute_conditional_probability",
+   "question_pattern": "Given P(E ∩ F) = {p_intersection} and P(F) = {p_f}, find P(E|F).",
+   "extracted_variables": {
+    "p_intersection": 0.2,
+    "p_f": 0.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide intersection probability by given event probability",
+     "explain": "apply conditional probability formula P(E|F) = P(E ∩ F) / P(F)",
+     "compute": "p_cond = p_intersection / p_f"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh207.txt lines 330-355",
+   "concept": "lemh.13.3.1",
+   "question_type": "compute_multiplication_rule",
+   "question_pattern": "Find P(E ∩ F) when P(E) = {p_e} and P(F|E) = {p_f_given_e}.",
+   "extracted_variables": {
+    "p_e": 0.6,
+    "p_f_given_e": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply initial probability by conditional probability",
+     "explain": "use multiplication theorem P(E ∩ F) = P(E) * P(F|E)",
+     "compute": "p_intersection = p_e * p_f_given_e"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh207.txt lines 356-370",
+   "concept": "lemh.13.3.1",
+   "question_type": "compute_multiplication_rule",
+   "question_pattern": "Calculate the joint probability P(A ∩ B) given P(A) = {p_e} and P(B|A) = {p_f_given_e}.",
+   "extracted_variables": {
+    "p_e": 0.4,
+    "p_f_given_e": 0.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply initial probability by conditional probability",
+     "explain": "use multiplication theorem P(A ∩ B) = P(A) * P(B|A)",
+     "compute": "p_intersection = p_e * p_f_given_e"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lemh207.txt lines 431-442",
+   "concept": "lemh.13.4.1",
+   "question_type": "compute_independent_probability",
+   "question_pattern": "If A and B are independent events with P(A) = {p_a} and P(B) = {p_b}, find P(A ∩ B).",
+   "extracted_variables": {
+    "p_a": 0.6,
+    "p_b": 0.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply individual event probabilities",
+     "explain": "for independent events P(A ∩ B) = P(A) * P(B)",
+     "compute": "p_joint = p_a * p_b"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh207.txt lines 480-490",
+   "concept": "lemh.13.4.1",
+   "question_type": "compute_independent_probability",
+   "question_pattern": "Calculate P(A ∩ B) for independent events given P(A) = {p_a} and P(B) = {p_b}.",
+   "extracted_variables": {
+    "p_a": 0.3,
+    "p_b": 0.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply individual event probabilities",
+     "explain": "for independent events P(A ∩ B) = P(A) * P(B)",
+     "compute": "p_joint = p_a * p_b"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lemh207.txt lines 555-568",
+   "concept": "lemh.13.5.1",
+   "question_type": "compute_total_probability",
+   "question_pattern": "Calculate P(A) when P(E1) = {p_e1}, P(A|E1) = {p_a_given_e1}, P(E2) = {p_e2}, and P(A|E2) = {p_a_given_e2}.",
+   "extracted_variables": {
+    "p_e1": 0.65,
+    "p_a_given_e1": 0.32,
+    "p_e2": 0.35,
+    "p_a_given_e2": 0.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate first branch joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "path1 = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "calculate second branch joint probability",
+     "explain": "multiply prior P(E2) by conditional P(A|E2)",
+     "compute": "path2 = p_e2 * p_a_given_e2"
+    },
+    {
+     "step": 3,
+     "action": "sum branch probabilities",
+     "explain": "add path probabilities to obtain total P(A)",
+     "compute": "p_total = path1 + path2"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lemh207.txt lines 600-615",
+   "concept": "lemh.13.5.1",
+   "question_type": "compute_total_probability",
+   "question_pattern": "Determine total probability P(A) given P(E1) = {p_e1}, P(A|E1) = {p_a_given_e1}, P(E2) = {p_e2}, and P(A|E2) = {p_a_given_e2}.",
+   "extracted_variables": {
+    "p_e1": 0.5,
+    "p_a_given_e1": 0.02,
+    "p_e2": 0.5,
+    "p_a_given_e2": 0.01
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate first branch joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "path1 = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "calculate second branch joint probability",
+     "explain": "multiply prior P(E2) by conditional P(A|E2)",
+     "compute": "path2 = p_e2 * p_a_given_e2"
+    },
+    {
+     "step": 3,
+     "action": "sum branch probabilities",
+     "explain": "add path probabilities to obtain total P(A)",
+     "compute": "p_total = path1 + path2"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "lemh207.txt lines 616-630",
+   "concept": "lemh.13.5.2",
+   "question_type": "compute_bayes_theorem",
+   "question_pattern": "Find posterior probability P(E1|A) given P(E1) = {p_e1}, P(A|E1) = {p_a_given_e1}, P(E2) = {p_e2}, and P(A|E2) = {p_a_given_e2}.",
+   "extracted_variables": {
+    "p_e1": 0.8,
+    "p_a_given_e1": 0.81,
+    "p_e2": 0.2,
+    "p_a_given_e2": 0.16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute numerator joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "num = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "compute total probability denominator",
+     "explain": "sum joint probabilities for all partition branches",
+     "compute": "den = (p_e1 * p_a_given_e1) + (p_e2 * p_a_given_e2)"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by total probability denominator",
+     "explain": "calculate posterior probability P(E1|A) = num / den",
+     "compute": "p_posterior = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "lemh207.txt lines 631-645",
+   "concept": "lemh.13.5.2",
+   "question_type": "compute_bayes_theorem",
+   "question_pattern": "Calculate P(E1|A) using Bayes theorem with P(E1) = {p_e1}, P(A|E1) = {p_a_given_e1}, P(E2) = {p_e2}, and P(A|E2) = {p_a_given_e2}.",
+   "extracted_variables": {
+    "p_e1": 0.35,
+    "p_a_given_e1": 0.04,
+    "p_e2": 0.65,
+    "p_a_given_e2": 0.03
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute numerator joint probability",
+     "explain": "multiply prior P(E1) by conditional P(A|E1)",
+     "compute": "num = p_e1 * p_a_given_e1"
+    },
+    {
+     "step": 2,
+     "action": "compute total probability denominator",
+     "explain": "sum joint probabilities for all partition branches",
+     "compute": "den = (p_e1 * p_a_given_e1) + (p_e2 * p_a_given_e2)"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by total probability denominator",
+     "explain": "calculate posterior probability P(E1|A) = num / den",
+     "compute": "p_posterior = num / den"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "lemh207.txt lines 215-300",
+   "questions": [
+    "1. Given that E and F are events such that P(E) = 0.6, P(F) = 0.3 and P(E ∩ F) = 0.2, find P(E|F) and P(F|E)",
+    "2. Compute P(A|B), if P(B) = 0.5 and P(A ∩ B) = 0.32",
+    "3. If P(A) = 0.8, P(B) = 0.5 and P(B|A) = 0.4, find (i) P(A ∩ B) (ii) P(A|B) (iii) P(A ∪ B)"
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "lemh207.txt lines 491-524",
+   "questions": [
+    "1. If P(A) = 3/5 and P(B) = 1/5, find P(A ∩ B) if A and B are independent events.",
+    "8. Let A and B be independent events with P(A) = 0.3 and P(B) = 0.4. Find (i) P(A ∩ B) (ii) P(A ∪ B) (iii) P(A|B) (iv) P(B|A)"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "lemh207.txt lines 651-700",
+   "questions": [
+    "2. A bag contains 4 red and 4 black balls, another bag contains 2 red and 6 black balls. One bag is selected at random and a ball is drawn and found to be red. Find the probability that the ball is drawn from the first bag.",
+    "8. A factory has two machines A and B. Machine A produces 60% of items and Machine B produces 40%. 2% of items from A and 1% from B are defective. A chosen item is defective; find probability it was produced by machine B."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

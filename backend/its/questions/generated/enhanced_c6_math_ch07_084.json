@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_084",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_084",
+   "title": "c6_math_ch07_084",
+   "questions": [
+    {
+     "q": "Name three common geometric shapes found in the architecture of your house and identify where they appear.",
+     "a": "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles). If a student names non-geometric objects (like \"a table\" without specifying a shape), it reveals they are not yet looking for the mathematical properties of the object.",
+     "self_check": true
+    },
+    {
+     "q": "If you look at an open door, how does the angle between the door and the wall change as you push it further open?",
+     "a": "The angle becomes larger (the amount of rotation increases). A wrong answer suggests the student confuses the length of the door (which stays the same) with the angle of opening (which increases), highlighting a misunderstanding of rotation.",
+     "self_check": true
+    },
+    {
+     "q": "A carpenter is laying square tiles on a floor. If he has a triangular gap in the corner, can he use a square tile to fill it perfectly? Explain why.",
+     "a": "No, because the properties of a square (four 90-degree angles and four equal sides) do not match the properties of a triangle (three sides and three internal angles). This tests the ability to apply shape properties to a spatial problem; a wrong answer shows failure to distinguish shape definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a ball (sphere) and a box (cuboid). How are their geometric properties different in terms of how they interact with a flat floor?",
+     "a": "A box has flat surfaces (faces) and sharp corners (vertices) that allow it to remain stationary on a flat surface, while a sphere has a curved surface and no vertices, causing it to roll. This reveals if the student can analyze the relationship between geometric form and physical behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Geometry is only useful for people who build houses.\" Is this true or false, and why?",
+     "a": "It is false. Geometry is used by nature (honeycombs, leaves), in art, in sports (angles of a football kick), and in daily navigation. A wrong answer shows a limited perspective of the scope of geometry; the student needs to see that geometry describes the physical world, not just construction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple toy that uses at least two different geometric shapes. Describe which shapes you used and where they are placed.",
+     "a": "A good answer would describe, for example, a \"rocket\" made of a cylinder (body) and a cone (top). A poor answer would just list shapes without describing how they are combined, showing a lack of creative application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

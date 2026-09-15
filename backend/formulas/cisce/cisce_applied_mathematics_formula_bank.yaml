@@ -1,0 +1,5246 @@
+---
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_001
+  name: SI
+  latex: P × R × T / 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - si
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_002
+  name: CI
+  latex: A - P
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - ci
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_003
+  name: Half-yearly
+  latex: rate = r/2, periods = 2n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - half-yearly
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_004
+  name: Profit
+  latex: SP - CP (if SP > CP)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - profit
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_005
+  name: Loss
+  latex: CP - SP (if CP > SP)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - loss
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_006
+  name: Profit%
+  latex: (Profit/CP) × 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - profit%
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_007
+  name: Loss%
+  latex: (Loss/CP) × 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - loss%
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_008
+  name: SP
+  latex: MP × (1 - d/100)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - sp
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_009
+  name: Successive
+  latex: SP = MP × (1-d₁/100) × (1-d₂/100)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - successive
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_010
+  name: Equivalent single discount
+  latex: (1 - SP/MP) × 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COMMERCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - equivalent-single-discount
+  - commercial-mathematics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_011
+  name: CGST
+  latex: price × rate/200
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GST
+  subject: applied_mathematics
+  concept_tags:
+  - cgst
+  - gst
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_012
+  name: SGST
+  latex: price × rate/200
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GST
+  subject: applied_mathematics
+  concept_tags:
+  - sgst
+  - gst
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_013
+  name: Total GST
+  latex: CGST + SGST
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GST
+  subject: applied_mathematics
+  concept_tags:
+  - total-gst
+  - gst
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_014
+  name: IGST
+  latex: price × rate/100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GST
+  subject: applied_mathematics
+  concept_tags:
+  - igst
+  - gst
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_015
+  name: Net GST
+  latex: Output GST - Input GST
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GST
+  subject: applied_mathematics
+  concept_tags:
+  - net-gst
+  - gst
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_016
+  name: Mean (ungrouped)
+  latex: x̄ = Σx/n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mean-(ungrouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_017
+  name: Mean (grouped)
+  latex: x̄ = Σ(midpoint × f)/Σf
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mean-(grouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_018
+  name: Median
+  latex: middle value when sorted
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - median
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_019
+  name: Odd n
+  latex: (n+1)/2 th value
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - odd-n
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_020
+  name: Even n
+  latex: average of n/2 and (n/2+1) th values
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - even-n
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_021
+  name: Mode
+  latex: most frequent value
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mode
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_022
+  name: Range
+  latex: maximum - minimum
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - range
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_023
+  name: Empirical relation
+  latex: 3 × Median = Mode + 2 × Mean
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - empirical-relation
+  - statistics
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_024
+  name: Distance
+  latex: d = √((x₂-x₁)² + (y₂-y₁)²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - distance
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_025
+  name: Midpoint
+  latex: ((x₁+x₂)/2, (y₁+y₂)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - midpoint
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_026
+  name: Section (internal, m
+  latex: 'n): ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - section-(internal,-m
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_027
+  name: Slope
+  latex: m = (y₂-y₁)/(x₂-x₁)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - slope
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_028
+  name: Area of triangle
+  latex: ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - area-of-triangle
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_029
+  name: Point-slope
+  latex: y - y₁ = m(x - x₁)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - point-slope
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c10_appmath_formula_bank_030
+  name: General
+  latex: ax + by + c = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - general
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c10_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_001
+  name: A∪B
+  latex: elements in A or B
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - a∪b
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_002
+  name: A∩B
+  latex: elements in both A and B
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - a∩b
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_003
+  name: A-B
+  latex: elements in A but not B
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - a-b
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_004
+  name: A'
+  latex: complement = U - A
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - a'
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_005
+  name: n(A∪B)
+  latex: n(A) + n(B) - n(A∩B)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(a∪b)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_006
+  name: n(A∪B∪C)
+  latex: n(A)+n(B)+n(C) - n(A∩B) - n(B∩C) - n(A∩C) + n(A∩B∩C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(a∪b∪c)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_007
+  name: (A∪B)'
+  latex: A'∩B'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - (a∪b)'
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_008
+  name: (A∩B)'
+  latex: A'∪B'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - (a∩b)'
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_009
+  name: n(only A)
+  latex: n(A) - n(A∩B) - n(A∩C) + n(A∩B∩C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(only-a)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_010
+  name: n(exactly one)
+  latex: n(only A) + n(only B) + n(only C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(exactly-one)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_011
+  name: n(exactly two)
+  latex: '[n(A∩B)-n(all three)] + [n(B∩C)-n(all three)] + [n(A∩C)-n(all three)]'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(exactly-two)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_012
+  name: n(none)
+  latex: n(U) - n(A∪B∪C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n(none)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_013
+  name: (fog)(x)
+  latex: f(g(x))
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - (fog)(x)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_014
+  name: (gof)(x)
+  latex: g(f(x))
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - (gof)(x)
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_015
+  name: Domain of fog
+  latex: x ∈ dom(g) AND g(x) ∈ dom(f)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SETS AND FUNCTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - domain-of-fog
+  - sets-and-functions
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_016
+  name: sin(A+B)
+  latex: sinAcosB + cosAsinB
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin(a+b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_017
+  name: sin(A-B)
+  latex: sinAcosB - cosAsinB
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin(a-b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_018
+  name: cos(A+B)
+  latex: cosAcosB - sinAsinB
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos(a+b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_019
+  name: cos(A-B)
+  latex: cosAcosB + sinAsinB
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos(a-b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_020
+  name: tan(A+B)
+  latex: (tanA+tanB)/(1-tanAtanB)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan(a+b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_021
+  name: tan(A-B)
+  latex: (tanA-tanB)/(1+tanAtanB)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan(a-b)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_022
+  name: sin2A
+  latex: 2sinAcosA
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin2a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_023
+  name: cos2A
+  latex: cos²A-sin²A = 2cos²A-1 = 1-2sin²A = (1-tan²A)/(1+tan²A)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos2a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_024
+  name: tan2A
+  latex: 2tanA/(1-tan²A)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan2a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_025
+  name: sin(A/2)
+  latex: ±√((1-cosA)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin(a-2)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_026
+  name: cos(A/2)
+  latex: ±√((1+cosA)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos(a-2)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_027
+  name: tan(A/2)
+  latex: (1-cosA)/sinA = sinA/(1+cosA)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan(a-2)
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_028
+  name: sinA+sinB
+  latex: 2sin((A+B)/2)cos((A-B)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sina+sinb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_029
+  name: sinA-sinB
+  latex: 2cos((A+B)/2)sin((A-B)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sina-sinb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_030
+  name: cosA+cosB
+  latex: 2cos((A+B)/2)cos((A-B)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cosa+cosb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_031
+  name: cosA-cosB
+  latex: -2sin((A+B)/2)sin((A-B)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cosa-cosb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_032
+  name: sinAsinB
+  latex: (1/2)[cos(A-B) - cos(A+B)]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sinasinb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_033
+  name: cosAcosB
+  latex: (1/2)[cos(A-B) + cos(A+B)]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cosacosb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_034
+  name: sinAcosB
+  latex: (1/2)[sin(A+B) + sin(A-B)]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sinacosb
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_035
+  name: sin²A + cos²A
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin²a-+-cos²a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_036
+  name: 1 + tan²A
+  latex: sec²A
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - 1-+-tan²a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_037
+  name: 1 + cot²A
+  latex: cosec²A
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - 1-+-cot²a
+  - trigonometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_038
+  name: logₐ(xy)
+  latex: logₐ(x) + logₐ(y)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - logₐ(xy)
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_039
+  name: logₐ(x/y)
+  latex: logₐ(x) - logₐ(y)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - logₐ(x-y)
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_040
+  name: logₐ(xⁿ)
+  latex: n × logₐ(x)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - logₐ(xⁿ)
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_041
+  name: logₐ(x)
+  latex: log_b(x) / log_b(a)  [change of base]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - logₐ(x)
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_042
+  name: a^(logₐ(x))
+  latex: x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - a^(logₐ(x))
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_043
+  name: logₐ(a)
+  latex: 1, logₐ(1) = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: LOGARITHMS
+  subject: applied_mathematics
+  concept_tags:
+  - logₐ(a)
+  - logarithms
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_044
+  name: '|z|'
+  latex: √(a²+b²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - '|z|'
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_045
+  name: z̄
+  latex: a - bi (conjugate)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - z̄
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_046
+  name: z × z̄
+  latex: '|z|² = a²+b²'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - z-×-z̄
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_047
+  name: arg(z)
+  latex: arctan(b/a) [adjusted for quadrant]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - arg(z)
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_048
+  name: Polar
+  latex: z = r(cosθ + isinθ)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - polar
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_049
+  name: z₁/z₂
+  latex: (z₁ × z̄₂)/|z₂|²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - z₁-z₂
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_050
+  name: De Moivre
+  latex: (cosθ+isinθ)ⁿ = cos(nθ)+isin(nθ)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COMPLEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - de-moivre
+  - complex-numbers
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_051
+  name: ax² + bx + c
+  latex: '0'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - ax²-+-bx-+-c
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_052
+  name: Discriminant
+  latex: D = b²-4ac
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - discriminant
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_053
+  name: D > 0
+  latex: two distinct real roots
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - d->-0
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_054
+  name: D < 0
+  latex: two complex conjugate roots
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - d-<-0
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_055
+  name: Sum of roots
+  latex: α+β = -b/a
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - sum-of-roots
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_056
+  name: Product of roots
+  latex: αβ = c/a
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - product-of-roots
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_057
+  name: Equation from roots
+  latex: x² - (α+β)x + αβ = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: QUADRATIC EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - equation-from-roots
+  - quadratic-equations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_058
+  name: nPr
+  latex: n!/(n-r)!
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - npr
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_059
+  name: nCr
+  latex: n!/(r!(n-r)!)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - ncr
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_060
+  name: nCn
+  latex: 1, nC0 = 1, nCr = nC(n-r)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - ncn
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_061
+  name: n!
+  latex: n×(n-1)×...×1, 0! = 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - n!
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_062
+  name: Arrangements with repeats
+  latex: n!/(n₁!×n₂!×...)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - arrangements-with-repeats
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_063
+  name: Circular permutations
+  latex: (n-1)!
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PERMUTATIONS AND COMBINATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - circular-permutations
+  - permutations-and-combinations
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_064
+  name: (a+b)ⁿ
+  latex: Σ(nCk) a**(n-k) b**k, k=0 to n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: BINOMIAL THEOREM
+  subject: applied_mathematics
+  concept_tags:
+  - (a+b)ⁿ
+  - binomial-theorem
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_065
+  name: General term
+  latex: T(k+1) = nCk × a**(n-k) × b**k
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: BINOMIAL THEOREM
+  subject: applied_mathematics
+  concept_tags:
+  - general-term
+  - binomial-theorem
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_066
+  name: Middle term (n even)
+  latex: T(n/2 + 1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: BINOMIAL THEOREM
+  subject: applied_mathematics
+  concept_tags:
+  - middle-term-(n-even)
+  - binomial-theorem
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_067
+  name: Middle term (n odd)
+  latex: T((n+1)/2) and T((n+3)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: BINOMIAL THEOREM
+  subject: applied_mathematics
+  concept_tags:
+  - middle-term-(n-odd)
+  - binomial-theorem
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_068
+  name: aₙ
+  latex: a + (n-1)d
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - aₙ
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_069
+  name: Sₙ
+  latex: n/2 × [2a + (n-1)d] = n/2 × (a + l)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - sₙ
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_070
+  name: AM
+  latex: (a+b)/2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - am
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_071
+  name: aₙ
+  latex: a × r**(n-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - aₙ
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_072
+  name: Sₙ
+  latex: a(rⁿ-1)/(r-1) for r > 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - sₙ
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_073
+  name: Sₙ
+  latex: a(1-rⁿ)/(1-r) for r < 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - sₙ
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_074
+  name: S∞
+  latex: a/(1-r) for |r| < 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - s∞
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_075
+  name: GM
+  latex: √(ab)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - gm
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_076
+  name: Sum of squares
+  latex: Σk² = n(n+1)(2n+1)/6
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - sum-of-squares
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_077
+  name: Sum of cubes
+  latex: Σk³ = [n(n+1)/2]²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: SEQUENCES AND SERIES
+  subject: applied_mathematics
+  concept_tags:
+  - sum-of-cubes
+  - sequences-and-series
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_078
+  name: Distance
+  latex: d = √((x₂-x₁)² + (y₂-y₁)²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - distance
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_079
+  name: Midpoint
+  latex: ((x₁+x₂)/2, (y₁+y₂)/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - midpoint
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_080
+  name: Section (internal, m
+  latex: 'n): ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - section-(internal,-m
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_081
+  name: Section (external, m
+  latex: 'n): ((mx₂-nx₁)/(m-n), (my₂-ny₁)/(m-n))'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - section-(external,-m
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_082
+  name: Slope
+  latex: m = (y₂-y₁)/(x₂-x₁)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - slope
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_083
+  name: Area of triangle
+  latex: ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - area-of-triangle
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_084
+  name: Line
+  latex: y - y₁ = m(x - x₁)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - line
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_085
+  name: General
+  latex: ax + by + c = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - general
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_086
+  name: Slope
+  latex: m = -a/b
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - slope
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_087
+  name: Distance from point to line
+  latex: '|ax₀+by₀+c|/√(a²+b²)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - distance-from-point-to-line
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_088
+  name: Circle
+  latex: (x-h)² + (y-k)² = r²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - circle
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_089
+  name: General
+  latex: x² + y² + 2gx + 2fy + c = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - general
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_090
+  name: Centre
+  latex: (-g, -f)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - centre
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_091
+  name: Radius
+  latex: √(g² + f² - c)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: COORDINATE GEOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - radius
+  - coordinate-geometry
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_092
+  name: lim(x→a) (xⁿ - aⁿ)/(x-a)
+  latex: n×a**(n-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - lim(x→a)-(xⁿ---aⁿ)-(x-a)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_093
+  name: lim(x→0) (sinx/x)
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - lim(x→0)-(sinx-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_094
+  name: lim(x→0) (tanx/x)
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - lim(x→0)-(tanx-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_095
+  name: lim(x→0) (e^x - 1)/x
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - lim(x→0)-(e^x---1)-x
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_096
+  name: lim(x→0) (ln(1+x)/x)
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - lim(x→0)-(ln(1+x)-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_097
+  name: d/dx(xⁿ)
+  latex: nx**(n-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(xⁿ)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_098
+  name: d/dx(sin x)
+  latex: cos x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sin-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_099
+  name: d/dx(cos x)
+  latex: -sin x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cos-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_100
+  name: d/dx(tan x)
+  latex: sec²x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(tan-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_101
+  name: d/dx(e^x)
+  latex: e**x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(e^x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_102
+  name: d/dx(ln x)
+  latex: 1/x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(ln-x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_103
+  name: d/dx(a^x)
+  latex: a**x × ln(a)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(a^x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_104
+  name: d/dx(sin⁻¹x)
+  latex: 1/√(1-x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sin⁻¹x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_105
+  name: d/dx(cos⁻¹x)
+  latex: -1/√(1-x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cos⁻¹x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_106
+  name: d/dx(tan⁻¹x)
+  latex: 1/(1+x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(tan⁻¹x)
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_107
+  name: Sum
+  latex: (u+v)' = u' + v'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - sum
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_108
+  name: Product
+  latex: (uv)' = uv' + u'v
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - product
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_109
+  name: Quotient
+  latex: (u/v)' = (vu' - uv')/v²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - quotient
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_110
+  name: Chain
+  latex: dy/dx = (dy/du)(du/dx)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CALCULUS (LIMITS AND DERIVATIVES)
+  subject: applied_mathematics
+  concept_tags:
+  - chain
+  - calculus-(limits-and-derivativ
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_111
+  name: Mean (ungrouped)
+  latex: x̄ = Σx/n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mean-(ungrouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_112
+  name: Mean (grouped)
+  latex: x̄ = Σfx/Σf
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mean-(grouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_113
+  name: Median (grouped)
+  latex: M = L + [(n/2 - cf)/f] × h
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - median-(grouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_114
+  name: Mode (grouped)
+  latex: Z = L + [(f₁-f₀)/(2f₁-f₀-f₂)] × h
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mode-(grouped)
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_115
+  name: Range
+  latex: max - min
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - range
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_116
+  name: Mean deviation
+  latex: Σ|x-x̄|/n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - mean-deviation
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_117
+  name: Variance
+  latex: σ² = Σ(x-x̄)²/n = Σx²/n - x̄²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - variance
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_118
+  name: Standard deviation
+  latex: σ = √(Σ(x-x̄)²/n) = √(Σx²/n - x̄²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - standard-deviation
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_119
+  name: For grouped
+  latex: σ = √(Σfx²/Σf - (Σfx/Σf)²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - for-grouped
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_120
+  name: Coefficient of variation
+  latex: CV = (σ/x̄) × 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - coefficient-of-variation
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_121
+  name: Q1
+  latex: (n+1)/4 th value
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - q1
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_122
+  name: Q3
+  latex: 3(n+1)/4 th value
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - q3
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_123
+  name: Quartile deviation
+  latex: QD = (Q3-Q1)/2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: STATISTICS
+  subject: applied_mathematics
+  concept_tags:
+  - quartile-deviation
+  - statistics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_124
+  name: Covariance
+  latex: cov(x,y) = Σ(x-x̄)(y-ȳ)/n = Σxy/n - x̄ȳ
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - covariance
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_125
+  name: (d
+  latex: difference in ranks, n = number of pairs)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - (d
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_126
+  name: Regression of y on x
+  latex: y - ȳ = byx(x - x̄)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - regression-of-y-on-x
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_127
+  name: Regression of x on y
+  latex: x - x̄ = bxy(y - ȳ)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - regression-of-x-on-y
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_128
+  name: byx
+  latex: cov(x,y)/σx² = Σ(x-x̄)(y-ȳ)/Σ(x-x̄)²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - byx
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_129
+  name: bxy
+  latex: cov(x,y)/σy² = Σ(x-x̄)(y-ȳ)/Σ(y-ȳ)²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - bxy
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_130
+  name: byx × bxy
+  latex: r²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: CORRELATION AND REGRESSION
+  subject: applied_mathematics
+  concept_tags:
+  - byx-×-bxy
+  - correlation-and-regression
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_131
+  name: P(A')
+  latex: 1 - P(A)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - p(a')
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_132
+  name: Addition theorem
+  latex: P(A∪B) = P(A) + P(B) - P(A∩B)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - addition-theorem
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_133
+  name: Three events
+  latex: P(A∪B∪C) = P(A)+P(B)+P(C) - P(A∩B) - P(B∩C) - P(A∩C) + P(A∩B∩C)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - three-events
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_134
+  name: Conditional
+  latex: P(A|B) = P(A∩B)/P(B)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - conditional
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_135
+  name: Multiplication
+  latex: P(A∩B) = P(B) × P(A|B) = P(A) × P(B|A)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - multiplication
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_136
+  name: Independent events
+  latex: P(A∩B) = P(A) × P(B)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - independent-events
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_137
+  name: Total probability
+  latex: P(B) = Σ P(Ai) × P(B|Ai)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: PROBABILITY
+  subject: applied_mathematics
+  concept_tags:
+  - total-probability
+  - probability
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_138
+  name: Simple Interest
+  latex: SI = P×R×T/100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - simple-interest
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_139
+  name: Amount
+  latex: A = P + SI = P(1 + RT/100)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - amount
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_140
+  name: Compound Interest
+  latex: A = P(1 + r/100)**n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - compound-interest
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_141
+  name: CI
+  latex: A - P
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - ci
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_142
+  name: Half-yearly
+  latex: rate = r/2, periods = 2n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - half-yearly
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_143
+  name: Quarterly
+  latex: rate = r/4, periods = 4n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - quarterly
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_144
+  name: Present Value
+  latex: PV = FV/(1+r/100)**n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - present-value
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_145
+  name: Future Value
+  latex: FV = PV × (1+r/100)**n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - future-value
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_146
+  name: Net Present Value
+  latex: NPV = -C₀ + Σ Cₜ/(1+r)**t
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - net-present-value
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_147
+  name: PV
+  latex: PMT × [(1-(1+r)**(-n))/r]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - pv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_148
+  name: FV
+  latex: PMT × [((1+r)**n - 1)/r]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - fv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_149
+  name: PV(due)
+  latex: PV(immediate) × (1+r)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - pv(due)
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_150
+  name: FV(due)
+  latex: FV(immediate) × (1+r)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - fv(due)
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_151
+  name: Effective Rate
+  latex: (1 + nominal/m)**m - 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - effective-rate
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_152
+  name: Intra-state
+  latex: CGST = price × rate/200, SGST = price × rate/200
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - intra-state
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_153
+  name: Inter-state
+  latex: IGST = price × rate/100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - inter-state
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_154
+  name: Net GST
+  latex: Output GST - Input GST
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - net-gst
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_155
+  name: Negation
+  latex: ~p
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - negation
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_156
+  name: Conjunction
+  latex: p ∧ q (AND)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - conjunction
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_157
+  name: Disjunction
+  latex: p ∨ q (OR)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - disjunction
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_158
+  name: Implication
+  latex: p → q (IF p THEN q)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - implication
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_159
+  name: Converse of p→q
+  latex: q→p
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - converse-of-p→q
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_160
+  name: Inverse of p→q
+  latex: ~p→~q
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - inverse-of-p→q
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_161
+  name: Contrapositive of p→q
+  latex: ~q→~p (equivalent to original)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - contrapositive-of-p→q
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_162
+  name: Biconditional
+  latex: p ↔ q (p if and only if q)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - biconditional
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_163
+  name: Tautology
+  latex: always true
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - tautology
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_164
+  name: Contradiction
+  latex: always false
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - contradiction
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_165
+  name: ~(p∧q)
+  latex: ~p ∨ ~q (De Morgan)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - ~(p∧q)
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_166
+  name: ~(p∨q)
+  latex: ~p ∧ ~q (De Morgan)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - ~(p∨q)
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_167
+  name: p→q
+  latex: ~p ∨ q (equivalent)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - p→q
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c11_appmath_formula_bank_168
+  name: ~(p→q)
+  latex: p ∧ ~q
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: MATHEMATICAL REASONING
+  subject: applied_mathematics
+  concept_tags:
+  - ~(p→q)
+  - mathematical-reasoning
+  related_formulas: []
+  source: cisce/c11_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_001
+  name: Equivalence Relation
+  latex: reflexive + symmetric + transitive
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - equivalence-relation
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_002
+  name: Reflexive
+  latex: (a,a) ∈ R for all a
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - reflexive
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_003
+  name: Symmetric
+  latex: (a,b) ∈ R → (b,a) ∈ R
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - symmetric
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_004
+  name: Transitive
+  latex: (a,b),(b,c) ∈ R → (a,c) ∈ R
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - transitive
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_005
+  name: sin⁻¹x
+  latex: domain [-1,1], range [-π/2, π/2]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_006
+  name: cos⁻¹x
+  latex: domain [-1,1], range [0, π]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_007
+  name: tan⁻¹x
+  latex: domain ℝ, range (-π/2, π/2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_008
+  name: sin⁻¹x + cos⁻¹x
+  latex: π/2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin⁻¹x-+-cos⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_009
+  name: tan⁻¹x + cot⁻¹x
+  latex: π/2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan⁻¹x-+-cot⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_010
+  name: sec⁻¹x + cosec⁻¹x
+  latex: π/2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sec⁻¹x-+-cosec⁻¹x
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_011
+  name: tan⁻¹x + tan⁻¹y
+  latex: tan⁻¹((x+y)/(1-xy)) if xy < 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan⁻¹x-+-tan⁻¹y
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_012
+  name: tan⁻¹x + tan⁻¹y
+  latex: π + tan⁻¹((x+y)/(1-xy)) if xy > 1, x,y > 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - tan⁻¹x-+-tan⁻¹y
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_013
+  name: sin⁻¹(sinθ)
+  latex: θ if θ ∈ [-π/2, π/2]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - sin⁻¹(sinθ)
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_014
+  name: cos⁻¹(cosθ)
+  latex: θ if θ ∈ [0, π]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: RELATIONS AND INVERSE TRIGONOMETRY
+  subject: applied_mathematics
+  concept_tags:
+  - cos⁻¹(cosθ)
+  - relations-and-inverse-trigonom
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_015
+  name: A + B
+  latex: same order, add corresponding elements
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - a-+-b
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_016
+  name: kA
+  latex: multiply every element by k
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - ka
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_017
+  name: AB
+  latex: (i,j) entry = Σ a(i,k)×b(k,j). Inner dimensions must match.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - ab
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_018
+  name: Determinant (2×2)
+  latex: '|A| = ad - bc for [[a,b],[c,d]]'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - determinant-(2×2)
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_019
+  name: Determinant (3×3)
+  latex: '|A| = a(ei-fh) - b(di-fg) + c(dh-eg)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - determinant-(3×3)
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_020
+  name: '|kA|'
+  latex: kⁿ|A| (n = order of matrix)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - '|ka|'
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_021
+  name: '|AB|'
+  latex: '|A| × |B|'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - '|ab|'
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_022
+  name: '|A^T|'
+  latex: '|A|'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - '|a^t|'
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_023
+  name: '|A⁻¹|'
+  latex: 1/|A|
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - '|a⁻¹|'
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_024
+  name: '|I|'
+  latex: '1'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - '|i|'
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_025
+  name: A × adj(A)
+  latex: '|A| × I'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - a-×-adj(a)
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_026
+  name: Inverse
+  latex: A⁻¹ = adj(A)/|A| (exists only if |A| ≠ 0)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - inverse
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_027
+  name: adj(A)
+  latex: transpose of cofactor matrix
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - adj(a)
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_028
+  name: ax + by
+  latex: e, cx + dy = f
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - ax-+-by
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_029
+  name: Area of triangle
+  latex: ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: MATRICES AND DETERMINANTS
+  subject: applied_mathematics
+  concept_tags:
+  - area-of-triangle
+  - matrices-and-determinants
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_030
+  name: d/dx(xⁿ)
+  latex: nx**(n-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(xⁿ)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_031
+  name: d/dx(sin x)
+  latex: cos x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sin-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_032
+  name: d/dx(cos x)
+  latex: -sin x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cos-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_033
+  name: d/dx(tan x)
+  latex: sec²x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(tan-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_034
+  name: d/dx(cot x)
+  latex: -cosec²x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cot-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_035
+  name: d/dx(sec x)
+  latex: sec x tan x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sec-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_036
+  name: d/dx(cosec x)
+  latex: -cosec x cot x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cosec-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_037
+  name: d/dx(e^x)
+  latex: e**x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(e^x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_038
+  name: d/dx(a^x)
+  latex: a**x ln(a)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(a^x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_039
+  name: d/dx(ln x)
+  latex: 1/x
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(ln-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_040
+  name: d/dx(logₐ x)
+  latex: 1/(x ln a)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(logₐ-x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_041
+  name: d/dx(sin⁻¹x)
+  latex: 1/√(1-x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sin⁻¹x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_042
+  name: d/dx(cos⁻¹x)
+  latex: -1/√(1-x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(cos⁻¹x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_043
+  name: d/dx(tan⁻¹x)
+  latex: 1/(1+x²)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(tan⁻¹x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_044
+  name: d/dx(sec⁻¹x)
+  latex: 1/(|x|√(x²-1))
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d-dx(sec⁻¹x)
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_045
+  name: Sum
+  latex: (u+v)' = u' + v'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - sum
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_046
+  name: Product
+  latex: (uv)' = u'v + uv'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - product
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_047
+  name: Quotient
+  latex: (u/v)' = (u'v - uv')/v²
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - quotient
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_048
+  name: Chain
+  latex: dy/dx = (dy/du)(du/dx)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - chain
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_049
+  name: Differentiate both sides w.r.t. x. Every y-term gets a dy/dx
+  latex: Differentiate both sides w.r.t. x. Every y-term gets a dy/dx factor.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - differentiate-both-sides-w.r.t
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_050
+  name: Collect dy/dx terms on one side, solve for dy/dx.
+  latex: Collect dy/dx terms on one side, solve for dy/dx.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - collect-dy-dx-terms-on-one-sid
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_051
+  name: Use when
+  latex: variable base AND variable exponent (x**x, x**(sinx), etc.)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - use-when
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_052
+  name: dy/dx
+  latex: (dy/dt)/(dx/dt)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - dy-dx
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_053
+  name: d²y/dx²
+  latex: d/dt(dy/dx) / (dx/dt)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIATION
+  subject: applied_mathematics
+  concept_tags:
+  - d²y-dx²
+  - differentiation
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_054
+  name: Rate of change
+  latex: dy/dx (instantaneous rate)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - rate-of-change
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_055
+  name: Increasing
+  latex: f'(x) > 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - increasing
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_056
+  name: Decreasing
+  latex: f'(x) < 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - decreasing
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_057
+  name: Maximum
+  latex: f'(x) = 0 and f''(x) < 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - maximum
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_058
+  name: Minimum
+  latex: f'(x) = 0 and f''(x) > 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - minimum
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_059
+  name: Inflection point
+  latex: f''(x) = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - inflection-point
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_060
+  name: Marginal Cost
+  latex: MC = dC/dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - marginal-cost
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_061
+  name: Marginal Revenue
+  latex: MR = dR/dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - marginal-revenue
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_062
+  name: Profit
+  latex: P(x) = R(x) - C(x)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - profit
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_063
+  name: Maximum profit
+  latex: MR = MC and P''(x) < 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - maximum-profit
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_064
+  name: Breakeven
+  latex: R(x) = C(x) → P(x) = 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATIONS OF DERIVATIVES
+  subject: applied_mathematics
+  concept_tags:
+  - breakeven
+  - applications-of-derivatives
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_065
+  name: ∫xⁿ dx
+  latex: x**(n+1)/(n+1) + C (n ≠ -1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫xⁿ-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_066
+  name: ∫1/x dx
+  latex: ln|x| + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫1-x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_067
+  name: ∫e^x dx
+  latex: e**x + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫e^x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_068
+  name: ∫a^x dx
+  latex: a**x/ln(a) + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫a^x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_069
+  name: ∫sin x dx
+  latex: -cos x + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫sin-x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_070
+  name: ∫cos x dx
+  latex: sin x + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫cos-x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_071
+  name: ∫sec²x dx
+  latex: tan x + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫sec²x-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_072
+  name: ∫1/(a²+x²) dx
+  latex: (1/a)tan⁻¹(x/a) + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫1-(a²+x²)-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_073
+  name: ∫1/√(a²-x²) dx
+  latex: sin⁻¹(x/a) + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫1-√(a²-x²)-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_074
+  name: ∫1/(x²-a²) dx
+  latex: (1/2a)ln|(x-a)/(x+a)| + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫1-(x²-a²)-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_075
+  name: ∫1/√(x²+a²) dx
+  latex: ln|x + √(x²+a²)| + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫1-√(x²+a²)-dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_076
+  name: ∫u dv
+  latex: uv - ∫v du
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫u-dv
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_077
+  name: ILATE order for choosing u
+  latex: Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ilate-order-for-choosing-u
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_078
+  name: ∫ₐᵇ f(x)dx
+  latex: ∫ₐᵇ f(a+b-x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫ₐᵇ-f(x)dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_079
+  name: ∫₀ᵃ f(x)dx
+  latex: ∫₀ᵃ f(a-x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫₀ᵃ-f(x)dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_080
+  name: ∫₀^(2a) f(x)dx
+  latex: 2∫₀ᵃ f(x)dx if f(2a-x) = f(x), else 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫₀^(2a)-f(x)dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_081
+  name: ∫ₐᵇ f(x)dx
+  latex: -∫b_a f(x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫ₐᵇ-f(x)dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_082
+  name: ∫ₐᵃ f(x)dx
+  latex: '0'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INTEGRATION
+  subject: applied_mathematics
+  concept_tags:
+  - ∫ₐᵃ-f(x)dx
+  - integration
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_083
+  name: Order
+  latex: highest derivative present
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - order
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_084
+  name: Degree
+  latex: power of highest derivative (only if polynomial in derivatives)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - degree
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_085
+  name: f(y)dy
+  latex: g(x)dx → ∫f(y)dy = ∫g(x)dx + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - f(y)dy
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_086
+  name: dy/dx + Py
+  latex: Q
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - dy-dx-+-py
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_087
+  name: IF
+  latex: e**(∫P dx)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - if
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_088
+  name: Solution
+  latex: y × IF = ∫(Q × IF)dx + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - solution
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_089
+  name: dy/dx
+  latex: f(x,y) where f is homogeneous of ^{\circ}ree 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - dy-dx
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_090
+  name: Substitute y
+  latex: vx, dy/dx = v + x(dv/dx)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: DIFFERENTIAL EQUATIONS
+  subject: applied_mathematics
+  concept_tags:
+  - substitute-y
+  - differential-equations
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_091
+  name: P(X
+  latex: k) = nCk × p**k × q**(n-k), q = 1-p
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(x
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_092
+  name: Mean
+  latex: np
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - mean
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_093
+  name: Variance
+  latex: npq
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - variance
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_094
+  name: P(X ≥ k)
+  latex: 1 - P(X ≤ k-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(x-≥-k)
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_095
+  name: P(X
+  latex: k) = e**(-λ) × λ**k / k!
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(x
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_096
+  name: Mean
+  latex: λ
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - mean
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_097
+  name: Variance
+  latex: λ
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - variance
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_098
+  name: Standardize
+  latex: Z = (X-μ)/σ
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - standardize
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_099
+  name: P(a < X < b)
+  latex: P((a-μ)/σ < Z < (b-μ)/σ)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(a-<-x-<-b)
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_100
+  name: P(μ-σ < X < μ+σ) ≈ 0.6827
+  latex: P(μ-σ < X < μ+σ) ≈ 0.6827
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(μ-σ-<-x-<-μ+σ)-≈-0.6827
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_101
+  name: P(μ-2σ < X < μ+2σ) ≈ 0.9545
+  latex: P(μ-2σ < X < μ+2σ) ≈ 0.9545
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(μ-2σ-<-x-<-μ+2σ)-≈-0.9545
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_102
+  name: P(μ-3σ < X < μ+3σ) ≈ 0.9973
+  latex: P(μ-3σ < X < μ+3σ) ≈ 0.9973
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(μ-3σ-<-x-<-μ+3σ)-≈-0.9973
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_103
+  name: P(Ai|B)
+  latex: P(B|Ai) × P(Ai) / Σ P(B|Aj) × P(Aj)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(ai|b)
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_104
+  name: P(B)
+  latex: Σ P(Ai) × P(B|Ai)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: PROBABILITY DISTRIBUTIONS
+  subject: applied_mathematics
+  concept_tags:
+  - p(b)
+  - probability-distributions
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_105
+  name: Maximize/Minimize Z
+  latex: cx + dy
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: LINEAR PROGRAMMING
+  subject: applied_mathematics
+  concept_tags:
+  - maximize-minimize-z
+  - linear-programming
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_106
+  name: Subject to
+  latex: linear inequalities
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: LINEAR PROGRAMMING
+  subject: applied_mathematics
+  concept_tags:
+  - subject-to
+  - linear-programming
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_107
+  name: 5. Select maximum/minimum
+  latex: 5. Select maximum/minimum
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: LINEAR PROGRAMMING
+  subject: applied_mathematics
+  concept_tags:
+  - 5.-select-maximum-minimum
+  - linear-programming
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_108
+  name: Time Reversal Test
+  latex: P₀₁ × P₁₀ = 100 (Fisher satisfies)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INDEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - time-reversal-test
+  - index-numbers
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_109
+  name: Factor Reversal Test
+  latex: P₀₁ × Q₀₁ = (ΣP₁Q₁/ΣP₀Q₀) × 100 (Fisher satisfies)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INDEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - factor-reversal-test
+  - index-numbers
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_110
+  name: Odd period (e.g., 3-year)
+  latex: MA(t) = [V(t-1)+V(t)+V(t+1)]/3
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INDEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - odd-period-(e.g.,-3-year)
+  - index-numbers
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_111
+  name: Even period (e.g., 4-year)
+  latex: Compute 4-year MA, then center by averaging consecutive pairs
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: INDEX NUMBERS
+  subject: applied_mathematics
+  concept_tags:
+  - even-period-(e.g.,-4-year)
+  - index-numbers
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_112
+  name: EMI
+  latex: P × r × (1+r)**n / [(1+r)**n - 1]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - emi
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_113
+  name: Interest
+  latex: P × r × n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - interest
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_114
+  name: Total
+  latex: P + Interest
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - total
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_115
+  name: EMI
+  latex: Total/n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - emi
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_116
+  name: CAGR
+  latex: (FV/PV)**(1/n) - 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - cagr
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_117
+  name: PV
+  latex: A/r (immediate)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - pv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_118
+  name: PV
+  latex: A/r × (1+r) (due)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - pv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_119
+  name: FV
+  latex: PMT × [((1+r)**n - 1)/r]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - fv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_120
+  name: PV
+  latex: PMT × [(1-(1+r)**(-n))/r]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - pv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_121
+  name: FV
+  latex: PMT × [((1+r)**n - 1)/r]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - fv
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_122
+  name: Effective
+  latex: (1 + nominal/m)**m - 1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: FINANCIAL MATHEMATICS
+  subject: applied_mathematics
+  concept_tags:
+  - effective
+  - financial-mathematics
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_123
+  name: Equilibrium
+  latex: D(x) = S(x) → solve for Q (quantity) and P (price)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - equilibrium
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_124
+  name: CS
+  latex: ∫₀**Q D(x)dx - P×Q
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - cs
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_125
+  name: PS
+  latex: P×Q - ∫₀**Q S(x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - ps
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_126
+  name: Total Surplus
+  latex: CS + PS
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - total-surplus
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_127
+  name: Marginal Cost
+  latex: MC = dC/dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - marginal-cost
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_128
+  name: Marginal Revenue
+  latex: MR = dR/dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - marginal-revenue
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_129
+  name: Profit
+  latex: P(x) = R(x) - C(x)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - profit
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_130
+  name: Maximum profit
+  latex: MR = MC, P''(x) < 0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - maximum-profit
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_c12_appmath_formula_bank_131
+  name: Breakeven
+  latex: R(x) = C(x)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: APPLICATION OF CALCULUS IN COMMERCE
+  subject: applied_mathematics
+  concept_tags:
+  - breakeven
+  - application-of-calculus-in-com
+  related_formulas: []
+  source: cisce/c12_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_001
+  name: Class 10
+  latex: Commercial maths (SI, CI, profit/loss, discount), GST, statistics (mean/median/mode),
+    coordinate geometry (distance/midpoint/section/area)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: INDEX
+  subject: applied_mathematics
+  concept_tags:
+  - class-10
+  - index
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_002
+  name: Class 11
+  latex: Sets (cardinality, De Morgan), trigonometry (compound/double/half angle,
+    sum-to-product), logarithms, complex numbers, quadratic, P&C, binomial, sequences
+    (AP/GP), coordinate geometry (line/circle), calculus (limits/derivatives), statistics
+    (SD/CV/quartiles), correlation/regression (Karl Pearson/Spearman), probability
+    (addition/conditional), financial maths (annuity/GST/NPV), mathematical reasoning
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: INDEX
+  subject: applied_mathematics
+  concept_tags:
+  - class-11
+  - index
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_003
+  name: Class 12
+  latex: Relations/inverse trig, matrices/determinants (inverse/Cramer's/properties),
+    differentiation (standard/rules/implicit/log/parametric), applications (max/min/MC/MR/breakeven),
+    integration (standard/parts/definite properties), DE (order/^{\circ}ree/separable/linear),
+    probability distributions (binomial/Poisson/normal/Bayes), LPP, index numbers
+    (L/P/F/moving averages), financial maths (EMI/CAGR/perpetuity/sinking fund), commerce
+    calculus (CS/PS/equilibrium)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: INDEX
+  subject: applied_mathematics
+  concept_tags:
+  - class-12
+  - index
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_004
+  name: Class 10
+  latex: ~25 formulas
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: TOTAL
+  subject: applied_mathematics
+  concept_tags:
+  - class-10
+  - total
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_005
+  name: Class 11
+  latex: ~80 formulas
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: TOTAL
+  subject: applied_mathematics
+  concept_tags:
+  - class-11
+  - total
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_006
+  name: Class 12
+  latex: ~100 formulas
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: TOTAL
+  subject: applied_mathematics
+  concept_tags:
+  - class-12
+  - total
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_007
+  name: TOTAL
+  latex: ~205 formulas across 3 class files + 1 master index
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: TOTAL
+  subject: applied_mathematics
+  concept_tags:
+  - total
+  - total
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_008
+  name: 4. For board exam (C12)
+  latex: memorize ALL formulas at least 1 month before exam
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: HOW TO USE
+  subject: applied_mathematics
+  concept_tags:
+  - 4.-for-board-exam-(c12)
+  - how-to-use
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_009
+  name: 1. Implicit differentiation
+  latex: every y-term gets dy/dx factor
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 1.-implicit-differentiation
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_010
+  name: 2. Integration by parts
+  latex: ∫u dv = uv - ∫v du, ILATE order
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 2.-integration-by-parts
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_011
+  name: 3. Definite integral property
+  latex: ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 3.-definite-integral-property
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_012
+  name: 4. Linear DE
+  latex: IF = e**(∫P dx), y×IF = ∫(Q×IF)dx + C
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 4.-linear-de
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_013
+  name: 5. Cramer's rule
+  latex: x = Δx/Δ, y = Δy/Δ
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 5.-cramer's-rule
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_014
+  name: 6. |kA|
+  latex: kⁿ|A| (NOT k|A|)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 6.-|ka|
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_015
+  name: 7. Binomial
+  latex: P(X=k) = nCk × p**k × q**(n-k), Mean = np, Var = npq
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 7.-binomial
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_016
+  name: 8. Normal
+  latex: Z = (X-μ)/σ
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 8.-normal
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_017
+  name: 9. Bayes
+  latex: P(Ai|B) = P(B|Ai)P(Ai) / ΣP(B|Aj)P(Aj)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 9.-bayes
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_018
+  name: 10. Laspeyre's
+  latex: 'L = (ΣP₁Q₀/ΣP₀Q₀)×100, Paasche''s: P = (ΣP₁Q₁/ΣP₀Q₁)×100'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 10.-laspeyre's
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_019
+  name: 11. EMI
+  latex: Pr(1+r)**n/((1+r)**n-1), r = monthly rate
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 11.-emi
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_APPL_master_appmath_formula_bank_020
+  name: 12. CS
+  latex: ∫₀**Q D(x)dx - P×Q, PS = P×Q - ∫₀**Q S(x)dx
+  variables: []
+  preconditions: []
+  grade_range:
+  - classALL
+  chapter: MOST CRITICAL FORMULAS (board exam)
+  subject: applied_mathematics
+  concept_tags:
+  - 12.-cs
+  - most-critical-formulas-(board-
+  related_formulas: []
+  source: cisce/master_formula_bank.marker
+  board: CISCE

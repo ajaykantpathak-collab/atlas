@@ -1,0 +1,338 @@
+{
+ "catalog": "catalog_class8_maths_ch201.json",
+ "concepts": [
+  {
+   "id": "hegp.201.1",
+   "title": "Understanding Percentages",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 5% of 500.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 3/4 into a percentage.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.07 as a percentage.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 56 to Rs 90. Find the percentage increase (rounded to two decimal places).",
+     "a": "60.71",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 205 to 20. What is the percentage decrease (two decimal places)?",
+     "a": "90.24",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 200 is 90?",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.2",
+   "title": "Converting Fractions to Percentages",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 7 x 2/3.",
+     "a": "14/3",
+     "self_check": false
+    },
+    {
+     "q": "Find 6/8 of 16.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 4/9 and 5/4.",
+     "a": "5/9",
+     "self_check": false
+    },
+    {
+     "q": "Divide 2/7 by 4/5.",
+     "a": "5/14",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 6/9 and give it as a fraction.",
+     "a": "3/2",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 3/3 and 4/3 (same denominator).",
+     "a": "7/3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.3",
+   "title": "Finding the Value of a Percentage",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 40% of 200.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 5/16 into a percentage.",
+     "a": "31.25",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.45 as a percentage.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 62 to Rs 122. Find the percentage increase (rounded to two decimal places).",
+     "a": "96.77",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 307 to 217. What is the percentage decrease (two decimal places)?",
+     "a": "29.32",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 150 is 53?",
+     "a": "35.3333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.4",
+   "title": "Ratios to Percentages",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 75% of 80.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 2/5 into a percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.07 as a percentage.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 75 to Rs 121. Find the percentage increase (rounded to two decimal places).",
+     "a": "61.33",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 131 to 76. What is the percentage decrease (two decimal places)?",
+     "a": "41.98",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 300 is 53?",
+     "a": "17.6667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.5",
+   "title": "Percentage Increase or Decrease",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 20% of 120.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 3/8 into a percentage.",
+     "a": "37.5",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 1.25 as a percentage.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 200 to Rs 207. Find the percentage increase (rounded to two decimal places).",
+     "a": "3.5",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 328 to 71. What is the percentage decrease (two decimal places)?",
+     "a": "78.35",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 250 is 63?",
+     "a": "25.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.6",
+   "title": "Profit and Loss Percentage",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 25% of 60.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 3/4 into a percentage.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.45 as a percentage.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 139 to Rs 269. Find the percentage increase (rounded to two decimal places).",
+     "a": "93.53",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 243 to 164. What is the percentage decrease (two decimal places)?",
+     "a": "32.51",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 100 is 37?",
+     "a": "37",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.7",
+   "title": "Simple Interest (No Compounding)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 6000 at 12% per annum for 3 years.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 6000 is deposited at 12% simple interest per annum for 3 years. Find the maturity amount.",
+     "a": "8160",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 12% per annum simple interest earns Rs 2160 in 3 years. Find the principal (two decimal places).",
+     "a": "6000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 6000 at 12% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "1526.4",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 6000 grows for 2 years at 12% per annum compounded annually (two decimal places)?",
+     "a": "7526.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 6000 at 12% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "7574.86",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.8",
+   "title": "Compound Interest (Annual)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 12000 at 6% per annum for 3 years.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 12000 is deposited at 6% simple interest per annum for 3 years. Find the maturity amount.",
+     "a": "14160",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 6% per annum simple interest earns Rs 2160 in 3 years. Find the principal (two decimal places).",
+     "a": "12000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 12000 at 6% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "1483.2",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 12000 grows for 2 years at 6% per annum compounded annually (two decimal places)?",
+     "a": "13483.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 12000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "14038.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.9",
+   "title": "Depreciation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 2000 at 8% per annum for 3 years.",
+     "a": "480",
+     "self_check": false
+    },
+    {
+     "q": "Rs 2000 is deposited at 8% simple interest per annum for 3 years. Find the maturity amount.",
+     "a": "2480",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 8% per annum simple interest earns Rs 480 in 3 years. Find the principal (two decimal places).",
+     "a": "2000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 2000 at 8% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "332.8",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 2000 grows for 2 years at 8% per annum compounded annually (two decimal places)?",
+     "a": "2332.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 2000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "2339.72",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,504 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 203,
+ "chapter_title": "Financial Statements of a Company",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac203.txt",
+ "concepts": [
+  {
+   "id": "leac.3.1",
+   "title": "Meaning and Nature of Financial Statements",
+   "section": "3.1 & 3.2",
+   "definition": "Formal periodic summary reports published by corporate management presenting the monetary results and financial stance based on historical costs, accounting conventions, and necessary estimates.",
+   "formula": "Financial Position = Function(Recorded Costs, Accounting Conventions, Postulates, Personal Judgements)",
+   "key_idea": "Financial statements combine historical transaction costs, standard accounting rules, and management estimations.",
+   "textbook_ref": "leac203.txt lines 20-95",
+   "question_patterns": [
+    "explain the nature of financial statements",
+    "what are the main components of financial statements of a company",
+    "describe how historical cost and accounting conventions affect financial reporting",
+    "state the meaning and scope of corporate financial statements",
+    "Explain Meaning and Nature of Financial Statements with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify recorded facts",
+     "explain": "Transactions are logged based on actual historical costs rather than fluctuating market valuations."
+    },
+    {
+     "step": 2,
+     "action": "Apply accounting conventions and postulates",
+     "explain": "Consistently follow concepts such as going concern, conservatism, and money measurement."
+    },
+    {
+     "step": 3,
+     "action": "Factor in management estimates and judgements",
+     "explain": "Incorporate necessary estimations for asset useful life, provisions, and inventory valuations."
+    }
+   ]
+  },
+  {
+   "id": "leac.3.2",
+   "title": "Objectives of Financial Statements",
+   "section": "3.3",
+   "definition": "The primary purpose of preparing financial statements is to supply reliable financial data regarding economic resources, liabilities, profitability, and cash movements to assist stakeholders in economic decision-making.",
+   "formula": "Primary Objective = Decision Support for External and Internal Stakeholders",
+   "key_idea": "To deliver standardized, transparent information on resources, debt obligations, cash flows, and earning capacity.",
+   "textbook_ref": "leac203.txt lines 96-135",
+   "question_patterns": [
+    "what are the objectives of financial statements",
+    "list the main purposes of preparing corporate financial reports",
+    "how do financial statements help in judging management effectiveness",
+    "explain how financial statements communicate earning capacity and financial health",
+    "Explain Objectives of Financial Statements with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Provide resource and obligation disclosures",
+     "explain": "Report clear details about entity assets and external liabilities."
+    },
+    {
+     "step": 2,
+     "action": "Report earning ability and cash flows",
+     "explain": "Enable users to evaluate profitability and evaluate the timing and certainty of future cash flows."
+    },
+    {
+     "step": 3,
+     "action": "Enable management evaluation",
+     "explain": "Help owners and investors evaluate how effectively management has deployed corporate resources."
+    }
+   ]
+  },
+  {
+   "id": "leac.3.3",
+   "title": "Schedule III Balance Sheet Structure - Equity and Liabilities",
+   "section": "3.4.1",
+   "definition": "The legal vertical format prescribed under Schedule III of the Companies Act, 2013, categorising obligations into Shareholders' Funds, Share Application Money Pending Allotment, Non-current Liabilities, and Current Liabilities.",
+   "formula": "Total Equity and Liabilities = Shareholders' Funds + Application Money Pending Allotment + Non-Current Liabilities + Current Liabilities",
+   "key_idea": "Obligations are presented vertically, separated strictly by major heads and sub-heads.",
+   "textbook_ref": "leac203.txt lines 136-210",
+   "question_patterns": [
+    "state the major heads of equity and liabilities under Schedule III",
+    "how are liabilities classified in a company balance sheet",
+    "under which head is share capital and reserves shown",
+    "list the sub-heads of current liabilities in a company balance sheet",
+    "Explain Schedule III Balance Sheet Structure - Equity and Liabilities with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Shareholders' Funds",
+     "explain": "Include Share Capital, Reserves and Surplus, and Money Received against Share Warrants."
+    },
+    {
+     "step": 2,
+     "action": "Classify Non-Current Liabilities",
+     "explain": "Group Long-term borrowings, Deferred tax liabilities, Other long-term liabilities, and Long-term provisions."
+    },
+    {
+     "step": 3,
+     "action": "Classify Current Liabilities",
+     "explain": "Group Short-term borrowings, Trade payables, Other current liabilities, and Short-term provisions."
+    }
+   ]
+  },
+  {
+   "id": "leac.3.4",
+   "title": "Schedule III Balance Sheet Structure - Assets",
+   "section": "3.4.1",
+   "definition": "The arrangement of corporate assets under Schedule III into Non-Current Assets (fixed assets, non-current investments, long-term loans) and Current Assets (inventories, trade receivables, cash equivalents).",
+   "formula": "Total Assets = Non-Current Assets + Current Assets",
+   "key_idea": "Assets are segregated into non-current or current based on operating cycle and 12-month realization criteria.",
+   "textbook_ref": "leac203.txt lines 180-220",
+   "question_patterns": [
+    "what are the major heads of assets in a company balance sheet",
+    "how are fixed assets presented under Schedule III",
+    "under which sub-head are trade receivables and loose tools classified",
+    "classify assets into current and non-current categories",
+    "Explain Schedule III Balance Sheet Structure - Assets with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Non-Current Assets",
+     "explain": "Include Property, Plant, Equipment, Intangible assets, Capital WIP, Non-current investments, and Long-term loans."
+    },
+    {
+     "step": 2,
+     "action": "Identify Current Assets",
+     "explain": "Include Current investments, Inventories, Trade receivables, Cash and cash equivalents, Short-term loans, and Other current assets."
+    }
+   ]
+  },
+  {
+   "id": "leac.3.5",
+   "title": "Share Capital Presentation in Balance Sheet",
+   "section": "3.4.1",
+   "definition": "Detailed reporting of corporate share capital in Notes to Accounts, distinguishing Authorised, Issued, Subscribed & fully paid, and Subscribed but not fully paid capital after adjusting unpaid calls and forfeited shares.",
+   "formula": "Net Share Capital = Fully Paid Capital + (Called Up Partly Paid Capital - Calls in Arrears) + Share Forfeiture Amount",
+   "key_idea": "Net share capital shown on the face of the balance sheet reflects paid-up amounts plus forfeited share balances.",
+   "textbook_ref": "leac203.txt lines 221-270",
+   "question_patterns": [
+    "calculate net share capital to be shown in balance sheet",
+    "how is calls-in-arrears treated in share capital disclosures",
+    "find the amount of subscribed capital after adjusting forfeiture account",
+    "show share capital presentation in notes to accounts",
+    "Numerical: apply Share Capital Presentation in Balance Sheet and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate subscribed partly paid net amount",
+     "explain": "Subtract calls-in-arrears from the total called-up value of partly paid shares.",
+     "compute": "subscribed_partly_paid = called_up_partly_paid - calls_in_arrears"
+    },
+    {
+     "step": 2,
+     "action": "Calculate net share capital for balance sheet",
+     "explain": "Add fully paid capital, net partly paid capital, and share forfeiture balance.",
+     "compute": "net_share_capital = fully_paid_capital + subscribed_partly_paid + share_forfeiture_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Share Capital Presentation in Balance Sheet, compute the result for called_up_partly_paid = 3, calls_in_arrears = 3, fully_paid_capital = 3, share_forfeiture_amount = 2.",
+     "solution": "Step 1: Calculate subscribed partly paid net amount: subscribed_partly_paid = called_up_partly_paid - calls_in_arrears = 0.0 Step 2: Calculate net share capital for balance sheet: net_share_capital = fully_paid_capital + subscribed_partly_paid + share_forfeiture_amount = 5.0 Final result: 5.0",
+     "answer": "5.0"
+    },
+    {
+     "question": "Using Share Capital Presentation in Balance Sheet, compute the result for called_up_partly_paid = 4, calls_in_arrears = 4, fully_paid_capital = 4, share_forfeiture_amount = 3.",
+     "solution": "Step 1: Calculate subscribed partly paid net amount: subscribed_partly_paid = called_up_partly_paid - calls_in_arrears = 0.0 Step 2: Calculate net share capital for balance sheet: net_share_capital = fully_paid_capital + subscribed_partly_paid + share_forfeiture_amount = 7.0 Final result: 7.0",
+     "answer": "7.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.3.6",
+   "title": "Reserves and Surplus Computation",
+   "section": "3.4.1",
+   "definition": "Aggregation of all capital and revenue reserves, securities premium, and profit/loss balance, deducting preliminary expenses written off or debit balances of Statement of Profit and Loss.",
+   "formula": "Net Reserves and Surplus = General Reserve + Securities Premium + Profit & Loss Credit Balance - Profit & Loss Debit Balance - Preliminary Expenses Written Off",
+   "key_idea": "A negative resulting net surplus figure is still presented under the head 'Reserves and Surplus'.",
+   "textbook_ref": "leac203.txt lines 271-310",
+   "question_patterns": [
+    "calculate net reserves and surplus for balance sheet",
+    "how is debit balance of statement of profit and loss shown",
+    "find total reserves and surplus after writing off preliminary expenses",
+    "show treatment of securities premium and general reserve in balance sheet",
+    "Numerical: apply Reserves and Surplus Computation and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum total additions to reserves",
+     "explain": "Combine general reserve, securities premium, and credit balance of profit and loss.",
+     "compute": "total_additions = general_reserve + securities_premium + pl_credit_balance"
+    },
+    {
+     "step": 2,
+     "action": "Sum total deductions",
+     "explain": "Combine debit balance of statement of profit and loss and preliminary expenses to be written off.",
+     "compute": "total_deductions = pl_debit_balance + preliminary_expenses"
+    },
+    {
+     "step": 3,
+     "action": "Compute net reserves and surplus",
+     "explain": "Subtract total deductions from total positive reserve balances.",
+     "compute": "net_reserves_surplus = total_additions - total_deductions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Reserves and Surplus Computation, compute the result for general_reserve = 3, securities_premium = 3, pl_credit_balance = 3, pl_debit_balance = 2, preliminary_expenses = 2.",
+     "solution": "Step 1: Sum total additions to reserves: total_additions = general_reserve + securities_premium + pl_credit_balance = 9.0 Step 2: Sum total deductions: total_deductions = pl_debit_balance + preliminary_expenses = 4.0 Step 3: Compute net reserves and surplus: net_reserves_surplus = total_additions - total_deductions = 5.0 Final result: 5.0",
+     "answer": "5.0"
+    },
+    {
+     "question": "Using Reserves and Surplus Computation, compute the result for general_reserve = 4, securities_premium = 4, pl_credit_balance = 4, pl_debit_balance = 3, preliminary_expenses = 3.",
+     "solution": "Step 1: Sum total additions to reserves: total_additions = general_reserve + securities_premium + pl_credit_balance = 12.0 Step 2: Sum total deductions: total_deductions = pl_debit_balance + preliminary_expenses = 6.0 Step 3: Compute net reserves and surplus: net_reserves_surplus = total_additions - total_deductions = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.3.7",
+   "title": "Operating Cycle and Current/Non-Current Classification",
+   "section": "3.4.1",
+   "definition": "The standard rule to classify assets and liabilities as current if they are held primarily for trading, or expected to be realized/settled within 12 months or within the normal operating cycle of the business.",
+   "formula": "Current Item Condition = Realization Period <= Max(12 Months, Operating Cycle Duration)",
+   "key_idea": "Items exceeding both 12 months and operating cycle realization periods are classified as non-current.",
+   "textbook_ref": "leac203.txt lines 311-370",
+   "question_patterns": [
+    "explain the criteria for current vs non-current assets",
+    "what is an operating cycle in corporate accounting",
+    "how are trade payables classified based on operating cycle",
+    "determine whether an asset is current or non-current",
+    "Explain Operating Cycle and Current/Non-Current Classification with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine operating cycle length",
+     "explain": "Identify time between acquisition of assets for processing and their realization in cash."
+    },
+    {
+     "step": 2,
+     "action": "Apply 12-month or operating cycle benchmark",
+     "explain": "Classify as current if expected settlement occurs within 12 months or operating cycle; otherwise non-current."
+    }
+   ]
+  },
+  {
+   "id": "leac.3.8",
+   "title": "Statement of Profit and Loss - Total Revenue",
+   "section": "3.4.2",
+   "definition": "Computation of total revenue earned by a company during the financial reporting period by summing core revenue from operations and non-operating other income.",
+   "formula": "Total Revenue = Revenue from Operations + Other Income",
+   "key_idea": "Operating revenue includes sales of goods/services, while non-operating items like dividend and interest income form other income.",
+   "textbook_ref": "leac203.txt lines 520-565",
+   "question_patterns": [
+    "calculate total revenue for statement of profit and loss",
+    "what items constitute revenue from operations",
+    "find total income from operating sales and dividend income",
+    "compute revenue under Schedule III format",
+    "Numerical: apply Statement of Profit and Loss - Total Revenue and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total revenue",
+     "explain": "Add revenue from operations and other non-operating income.",
+     "compute": "total_revenue = revenue_from_operations + other_income"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Statement of Profit and Loss - Total Revenue, compute the result for revenue_from_operations = 3, other_income = 3.",
+     "solution": "Step 1: Calculate total revenue: total_revenue = revenue_from_operations + other_income = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Statement of Profit and Loss - Total Revenue, compute the result for revenue_from_operations = 4, other_income = 4.",
+     "solution": "Step 1: Calculate total revenue: total_revenue = revenue_from_operations + other_income = 8.0 Final result: 8.0",
+     "answer": "8.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.3.9",
+   "title": "Statement of Profit and Loss - Profit Before Tax",
+   "section": "3.4.2",
+   "definition": "Determining profit before tax by aggregating operating and non-operating expense categories and subtracting total expenses from total revenue.",
+   "formula": "Profit Before Tax = Total Revenue - (Cost of Materials Consumed + Purchases of Stock-in-Trade + Changes in Inventories + Employee Benefits Expense + Finance Costs + Depreciation & Amortisation + Other Expenses)",
+   "key_idea": "Profit before tax represents net earnings prior to deducting current and deferred tax expenses.",
+   "textbook_ref": "leac203.txt lines 566-604",
+   "question_patterns": [
+    "calculate profit before tax from given trial balance figures",
+    "compute total expenses in statement of profit and loss",
+    "find net profit before tax as per Schedule III",
+    "deduct operating expenses and finance costs from total revenue",
+    "Numerical: apply Statement of Profit and Loss - Profit Before Tax and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum total expenses",
+     "explain": "Add cost of materials, employee benefits, finance costs, depreciation and amortisation, and other expenses.",
+     "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation_amortisation + other_expenses"
+    },
+    {
+     "step": 2,
+     "action": "Compute profit before tax",
+     "explain": "Subtract total expenses from total revenue.",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Statement of Profit and Loss - Profit Before Tax, compute the result for cost_of_materials = 3, employee_benefits = 3, finance_costs = 3, depreciation_amortisation = 2, other_expenses = 2, total_revenue = 2.",
+     "solution": "Step 1: Sum total expenses: total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation_amortisation + other_expenses = 13.0 Step 2: Compute profit before tax: profit_before_tax = total_revenue - total_expenses = -11.0 Final result: -11.0",
+     "answer": "-11.0"
+    },
+    {
+     "question": "Using Statement of Profit and Loss - Profit Before Tax, compute the result for cost_of_materials = 4, employee_benefits = 4, finance_costs = 4, depreciation_amortisation = 3, other_expenses = 3, total_revenue = 3.",
+     "solution": "Step 1: Sum total expenses: total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation_amortisation + other_expenses = 18.0 Step 2: Compute profit before tax: profit_before_tax = total_revenue - total_expenses = -15.0 Final result: -15.0",
+     "answer": "-15.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.3.10",
+   "title": "Uses, Importance, and Limitations of Financial Statements",
+   "section": "3.5 & 3.6",
+   "definition": "Evaluation of financial statements as stewardship reports aiding investors, bankers, and government, while acknowledging inherent constraints like historical cost bias and exclusion of non-monetary qualitative factors.",
+   "formula": "Utility = Informed Decision Making; Limitation = Historical Cost + Qualitative Omission",
+   "key_idea": "Financial statements provide invaluable quantitative data for decision-making but omit qualitative factors and current market valuation.",
+   "textbook_ref": "leac203.txt lines 605-700",
+   "question_patterns": [
+    "explain the limitations of corporate financial statements",
+    "why do financial statements fail to reflect current market realities",
+    "discuss the importance of financial reporting to creditors and investors",
+    "explain why qualitative information is absent in financial statements",
+    "Explain Uses, Importance, and Limitations of Financial Statements with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key uses",
+     "explain": "Assists credit assessment, investment valuation, tax policy formulation, and management stewardship evaluation."
+    },
+    {
+     "step": 2,
+     "action": "Identify key limitations",
+     "explain": "Based on historical costs, subject to personal judgements, missing non-monetary qualitative inputs like employee relations."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Illustration 1, Page 152",
+   "concept": "leac.3.5",
+   "question_type": "compute_share_capital",
+   "question_pattern": "Dinkar Ltd. has authorised capital of Rs. 50,00,000 in Rs. 100 shares. Applications received for 36,000 shares. All calls made except Rs. 20 final call on 500 shares. 200 shares forfeited. Show share capital in balance sheet.",
+   "extracted_variables": {
+    "fully_paid_capital": 3550000,
+    "called_up_partly_paid": 30000,
+    "calls_in_arrears": 6000,
+    "share_forfeiture_amount": 16000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate subscribed partly paid net amount",
+     "explain": "Subtract calls-in-arrears from called-up value of 300 non-forfeited partly paid shares.",
+     "compute": "subscribed_partly_paid = called_up_partly_paid - calls_in_arrears"
+    },
+    {
+     "step": 2,
+     "action": "Calculate net share capital for balance sheet",
+     "explain": "Add fully paid shares capital, net partly paid capital, and forfeited share amount.",
+     "compute": "net_share_capital = fully_paid_capital + subscribed_partly_paid + share_forfeiture_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Illustration 3, Page 156",
+   "concept": "leac.3.6",
+   "question_type": "compute_reserves_and_surplus",
+   "question_pattern": "Sunfill Ltd. shows General Reserve of Rs. {general_reserve} and Statement of profit and loss debit balance of Rs. {pl_debit_balance}. Calculate net Reserves and Surplus.",
+   "extracted_variables": {
+    "general_reserve": 500000,
+    "securities_premium": 0,
+    "pl_credit_balance": 0,
+    "pl_debit_balance": 300000,
+    "preliminary_expenses": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum total additions to reserves",
+     "explain": "Combine general reserve, securities premium, and credit P&L balance.",
+     "compute": "total_additions = general_reserve + securities_premium + pl_credit_balance"
+    },
+    {
+     "step": 2,
+     "action": "Sum total deductions",
+     "explain": "Combine debit balance of statement of profit and loss and preliminary expenses.",
+     "compute": "total_deductions = pl_debit_balance + preliminary_expenses"
+    },
+    {
+     "step": 3,
+     "action": "Compute net reserves and surplus",
+     "explain": "Subtract total deductions from total positive reserve balances.",
+     "compute": "net_reserves_surplus = total_additions - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Illustration 8, Page 163",
+   "concept": "leac.3.9",
+   "question_type": "compute_profit_before_tax",
+   "question_pattern": "Calculate profit before tax given Net Sales {total_revenue}, Adjusted Purchases {cost_of_materials}, Employee expenses {employee_benefits}, Finance cost {finance_costs}, and Depreciation {depreciation_amortisation}.",
+   "extracted_variables": {
+    "total_revenue": 1000000,
+    "cost_of_materials": 400000,
+    "employee_benefits": 200000,
+    "finance_costs": 10000,
+    "depreciation_amortisation": 16000,
+    "other_expenses": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum total expenses",
+     "explain": "Add material costs, employee benefits, finance costs, depreciation, and other expenses.",
+     "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation_amortisation + other_expenses"
+    },
+    {
+     "step": 2,
+     "action": "Compute profit before tax",
+     "explain": "Subtract total expenses from total revenue.",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex203.short",
+   "source_ref": "Short Answer Questions, Page 167",
+   "questions": [
+    "State the meaning of financial statements?",
+    "What are limitations of financial statements?",
+    "List any three objectives of financial statements?",
+    "State the importance of financial statements to shareholders, creditors, government, and investors.",
+    "How will you disclose current assets, contingent liabilities, reserves and surplus, intangible assets, and proposed dividend in the Balance Sheet of a company?"
+   ]
+  },
+  {
+   "id": "ex203.long",
+   "source_ref": "Long Answer Questions, Page 168",
+   "questions": [
+    "Explain the nature of the financial statements.",
+    "Explain in detail about the significance of the financial statements.",
+    "Explain the limitations of financial statements.",
+    "Prepare the format of statement of profit and loss and explain its items upto the ascertainment of profit before tax.",
+    "Prepare the format of balance sheet and explain the various elements of balance sheet.",
+    "Explain how financial statements are useful to the various parties who are interested in the affairs of an undertaking.",
+    "Financial statements reflect a combination of recorded facts, accounting conventions and personal judgements. Discuss."
+   ]
+  },
+  {
+   "id": "ex203.numerical",
+   "source_ref": "Numerical Questions, Page 168-170",
+   "questions": [
+    "Show preliminary expenses, discount on issue of shares, 10% debentures, stock in trade, cash at bank, bills receivable, goodwill, loose tools, motor vehicles, and provision for tax in balance sheet as per Schedule III.",
+    "On April 1, 2017, Jumbo Ltd. issued 10,000; 12% debentures of Rs. 100 each at discount of 20%, redeemable after 5 years. Show items in balance sheet immediately after issue.",
+    "From given information prepare balance sheet of Gitanjali Ltd. (Inventories Rs. 14,00,000; Equity Capital Rs. 20,00,000; Plant & Machinery Rs. 10,00,000, etc.).",
+    "Prepare balance sheet of Jam Ltd. given inventories, share capital, reserves, bills payable, and debentures.",
+    "Prepare balance sheet of Jyoti Ltd. as at March 31, 2017.",
+    "Show 25,000 10% debentures, bank loan, and unpaid interest in the balance sheet of Brinda Ltd.",
+    "Prepare balance sheet of Black Swan Ltd. as at March 31, 2017."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

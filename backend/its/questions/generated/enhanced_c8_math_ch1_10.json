@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_10",
+   "title": "c8_math_ch1_10",
+   "questions": [
+    {
+     "q": "What is the value of \\( (-3)^3 \\) and how does it differ from \\( -3^3 \\)?",
+     "a": "\\( (-3)^3 = -27 \\) because the base is -3, multiplied three times: \\( (-3) \\times (-3) \\times (-3) = 9 \\times (-3) = -27 \\). For \\( -3^3 \\), the exponent applies only to 3, so it is \\( -(3^3) = -27 \\). In this case they are equal, but if the exponent were even they would differ. A wrong answer (e.g., saying \\( (-3)^3 = 27 \\)) reveals the student does not understand that an odd number of negative factors yields a negative product, or they confuse the placement of parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( 5^3 \\) is not equal to \\( 3 \\times 5 \\). Use the geometric meaning of a cube to justify your answer.",
+     "a": "\\( 5^3 = 5 \\times 5 \\times 5 = 125 \\), which is the volume of a cube with side 5 units. \\( 3 \\times 5 = 15 \\) is just three groups of 5, representing a rectangular prism of dimensions 3 × 5 × 1, not a cube. A student who says \"both give 15\" or \"multiplication is the same\" shows they interpret the exponent as a multiplier rather than repeated multiplication of the base, missing the dimensional difference between a line (×5), a square (×5×5), and a cube (×5×5×5).",
+     "self_check": true
+    },
+    {
+     "q": "A cubic water tank has a side length of 6 metres. Calculate its capacity in cubic metres. Then find the side length of a cube whose volume is 343 cubic centimetres.",
+     "a": "Step 1: Volume = side³ = 6³ = 6 × 6 × 6 = 216 m³. Step 2: For volume 343 cm³, find n such that n³ = 343. By trial: 7³ = 7×7×7 = 49×7 = 343, so side = 7 cm. A wrong answer like 6³ = 18 (6×3) shows the student multiplies base by exponent. If they cannot reverse the process for 343, they lack the concept of perfect cubes and the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of \\( n^2 \\) and \\( n^3 \\) for n = 1, 2, 3, 4, 5. At what value of n does \\( n^3 \\) first exceed twice of \\( n^2 \\)? Explain the pattern.",
+     "a": "Table: n=1: 1²=1, 1³=1; n=2: 4, 8; n=3: 9, 27; n=4: 16, 64; n=5: 25, 125. Twice n²: 2, 8, 18, 32, 50. n³ exceeds 2n² at n=3 (27 > 18). The pattern shows n³ grows faster because it has an extra factor of n. A student who only computes values without comparing ratios misses the structural reason: n³ / n² = n, so n³ = n × n², which exceeds 2n² when n > 2.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \\( (-2)^3 = -2 \\times -2 \\times -2 = 4 \\times -2 = -8 \\). Another writes: \\( (-2)^3 = -6 \\) because \"cubing means multiply by 3\". Evaluate both methods and state which is correct and why the other is wrong.",
+     "a": "The first method is correct: it follows the definition of exponentiation as repeated multiplication. The second method incorrectly treats the exponent 3 as a multiplier (i.e., -2 × 3 = -6), confusing \\( n^3 \\) with \\( 3n \\). This is a classic misconception where the exponent is seen as a factor rather than an instruction for repeated multiplication. A student who defends the second method does not grasp the notation \\( n^3 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, litres, etc.) that requires finding a cube number to solve. The problem must involve a 3D object and ask for either volume or side length. Write the problem and solve it.",
+     "a": "Example problem: \"A cubical grain silo has side length 8 metres. How many cubic metres of grain can it hold? If another silo holds 1000 m³, what is its side length?\" Solution: 8³ = 512 m³; for 1000 m³, side = 10 m because 10³ = 1000. A poor problem would be 2D (area) or use multiplication by 3. The student must demonstrate understanding that cube numbers model volume of cubes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

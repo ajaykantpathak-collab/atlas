@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_012",
+   "title": "c12_eng_k_cbse_19_012",
+   "questions": [
+    {
+     "q": "According to Asimov in \"On Science Fiction\", what is the fundamental difference between the universe of myths/legends and the universe of science fiction?",
+     "a": "The fundamental difference is that myths/legends depict a universe controlled by gods/demons who can be manipulated by magical formulas (enchantments or prayers), whereas science fiction depicts a universe controlled by impersonal, unswervable laws of nature that can be understood and controlled through scientific knowledge. A wrong answer (e.g., \"myths are old, science fiction is new\") reveals the student cannot distinguish the author's explicit conceptual contrast from superficial temporal differences.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what Asimov means when he writes: \"In a narrow sense, only science fiction is valid for today since, as far as we can tell, the Universe does follow the dictates of the laws of nature and is not at the mercy of gods and demons.\"",
+     "a": "Asimov means that because modern understanding confirms the universe operates by consistent natural laws rather than divine whims, science fiction — which bases its imagined futures on scientific extrapolation — is the only logically valid form of speculative literature for contemporary readers. A wrong answer (e.g., \"He thinks myths are fake\") reveals the student misses the epistemological justification: validity here means intellectual coherence with current knowledge, not moral judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following question as literal or inferential and answer it using the text: \"What examples does Asimov give to show that ancient magical devices have modern scientific equivalents?\"",
+     "a": "This is a LITERAL question. Answer: Asimov gives these explicit pairs: crystal ball → television; magic shells → telephones; 'Open sesame' doors → remote-control devices; seven-league boots → automobiles; winged horses/flying carpets → jet planes. A wrong classification (inferential) or missing any listed pair reveals the student cannot identify direct textual enumeration or confuses author's examples with their own associations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between these two questions from the text's \"Understanding the Text\" section: (1) \"What makes for the distinction between the various genres of fiction... and science fiction?\" (2) \"How does Asimov establish that John Campbell was wrong...?\" Identify which is literal, which is inferential, and explain the cognitive demand difference.",
+     "a": "Question (1) is LITERAL — it asks for the author's explicitly stated criterion: genre is defined by content, while science fiction is defined by background (society significantly different from our own). Question (2) is INFERENTIAL — it requires synthesizing Asimov's counter-argument across multiple paragraphs: he cites his own novels (The Caves of Steel, The Naked Sun) as proof that fair-play mysteries are possible in SF if boundary conditions are fixed. The cognitive difference: (1) tests retrieval; (2) tests synthesis of argument structure and evidence evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why does Asimov reject the label 'science fiction' for sword-and-sorcery stories?\" Student writes: \"Because they have magic, not science. Asimov hates magic.\" Is this answer acceptable for a CBSE 2-mark inferential question? Justify.",
+     "a": "No, this answer is unacceptable. It contains two errors: (1) \"Asimov hates magic\" is an unsupported inference — the text shows he respects mythological fiction as \"equivalent of science fiction set in another kind of Universe\" and asks only for self-consistency. (2) It misses the nuanced criterion: he rejects the label because they don't meet his narrow definition (universe governed by natural laws), not because of personal dislike. A correct answer would quote: \"I am sufficiently stick-in-the-muddish to be narrow in my definition... I would not be willing to consider sword-and-sorcery examples of science fiction.\" This reveals the student confuses personal opinion with textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on this paragraph from Section II: \"A 'sports story' must have, as part of its content, some competitive activity... Take the content of any of these and place it against a background that involves a society significantly different from our own and you have not changed the nature of the story — you have merely added to it.\"",
+     "a": "Literal: \"According to Asimov, what happens when you take the content of a sports story and place it against a background of a significantly different society?\" (Answer: You have not changed the nature of the story; you have merely added to it.) Inferential: \"Why does Asimov use the examples of sports, Western, and jungle stories to define science fiction?\" (Answer: To demonstrate that science fiction is a background/setting category, not a content category — any genre can become SF by changing the societal backdrop.) A poor answer would create two literal questions or an inferential question answerable by a single phrase, showing misunderstanding of the inference spectrum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

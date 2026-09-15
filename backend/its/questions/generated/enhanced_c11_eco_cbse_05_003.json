@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_003",
+   "title": "c11_eco_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define Primary Agricultural Credit Society (PACS) and state its two distinguishing features from a commercial bank branch operating in the same village.",
+     "a": "PACS is a village-level cooperative society registered under the State Cooperative Societies Act, owned and managed by farmer-members with \"one member, one vote\" governance, providing short-term crop loans and medium-term investment credit primarily for agriculture. Two distinguishing features: (1) Membership is restricted to residents of the village/operational area and borrowing rights are linked to share capital contribution; (2) Profit is not the primary motive — surplus is distributed as patronage dividend or ploughed back into reserves, unlike commercial banks which maximize shareholder returns. A wrong answer (e.g., \"PACS is a branch of RBI\" or \"PACS lends to corporates\") reveals confusion between cooperative federal structure and commercial banking hierarchy, or misunderstanding of the target clientele.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the three-tier cooperative credit structure (PACS → CCB → SCB) was designed as a federal system rather than a unitary branch network like commercial banks. Use the concepts of \"local knowledge\" and \"monitoring cost\" in your answer.",
+     "a": "The federal structure minimizes asymmetric information: PACS managers live in the village, know each farmer's cropping pattern, repayment history, and land quality — reducing adverse selection and moral hazard at near-zero monitoring cost. CCBs pool surplus/deficit across PACS within a district, achieving geographical diversification of risk (e.g., drought in one taluka offset by good rains in another). SCBs access NABARD refinance and money markets. A unitary branch network would require each branch to independently assess borrowers, raising transaction costs prohibitively for small loans. A wrong answer focusing only on \"administrative convenience\" misses the core economic rationale: cooperatives solve the information problem in rural credit markets through social collateral and peer monitoring, which a centralized hierarchy cannot replicate.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer borrows ₹1,00,000 from PACS at 7% p.a. simple interest for 12 months under KCC. The same farmer could borrow from a moneylender at 3% per month compounded monthly. Calculate the total interest payable under each source and the absolute savings from choosing PACS. Show all steps.",
+     "a": "Step 1: PACS interest = Principal × Rate × Time = 1,00,000 × 0.07 × 1 = ₹7,000 (simple interest). Step 2: Moneylender monthly rate = 3% = 0.03; Amount after 12 months = P(1+r)^n = 1,00,000 × (1.03)^12 = 1,00,000 × 1.42576 = ₹1,42,576. Step 3: Moneylender interest = 1,42,576 - 1,00,000 = ₹42,576. Step 4: Savings = 42,576 - 7,000 = ₹35,576. Step 5: Effective annual rate for moneylender = (1.03)^12 - 1 = 42.58% vs PACS 7%. A wrong answer using simple interest for moneylender (36,000) or ignoring compounding reveals failure to distinguish nominal vs effective interest rate — a critical error in rural credit analysis where moneylenders always compound.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"High overdue ratios in PACS (over 30% in many states) prove that farmers are unwilling to repay even at subsidized interest rates.\" Identify three structural factors unrelated to farmer intent that contribute to overdues, referencing the crop cycle and institutional design.",
+     "a": "Three structural factors: (1) **Gestation mismatch**: PACS disburses Kharif loans in June but recovery is tied to harvest (Oct-Dec); if monsoon fails, the farmer has zero income at due date — not unwillingness but inability. (2) **Single-crop lending norm**: PACS typically lend only for one season's working capital; farmers need consumption credit between seasons, forcing diversion of crop loan to survival needs, creating automatic default. (3) **Political loan waivers**: State governments announce waivers before elections; rational farmers delay repayment anticipating write-off — a rational response to policy uncertainty, not moral failure. A wrong answer blaming \"farmer dishonesty\" ignores the covariance of agricultural income with weather risk and the time-inconsistency problem of political economy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the Vaidyanathan Committee (2004) recommendation for a one-time recapitalization package of ₹13,596 crore for PACS conditional on legal reforms. Was this a fiscally efficient intervention compared to continuous interest subvention? Justify using the concepts of \"balance sheet cleanup\" and \"moral hazard\".",
+     "a": "The package was fiscally efficient because: (1) It addressed the **stock problem** (accumulated losses eroding net worth) rather than the **flow problem** (annual interest subvention which distorts pricing and benefits even viable PACS). Recapitalization restored negative net worth PACS to viability, enabling them to borrow from CCBs at market rates. (2) Conditionality — amendment of State Cooperative Acts for democratic elections, professional management, and audit — tackled the root cause (governance failure) not symptom. (3) Interest subvention creates permanent moral hazard: banks lend recklessly knowing government bears rate risk; recapitalization is one-time with exit option (non-compliant PACS denied funds). Counter-argument: Recapitalization without fixing deposit mobilization culture (PACS depend 80% on borrowed funds) risks relapse. A wrong answer calling it \"bailout\" misses the structural reform linkage; a wrong answer favoring subvention ignores that subvention benefits large farmers disproportionately (higher loan size = higher subsidy capture).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal viable product (MVP) for a digital PACS lending workflow that reduces loan sanction time from 15 days to 48 hours for KCC renewals. Specify: (a) three data sources for automated credit appraisal, (b) one digital disbursement channel, (c) one mechanism to prevent diversion of crop loan to non-agricultural use.",
+     "a": "(a) Data sources: (i) **Satellite-based crop health index** (NDVI from Sentinel-2) verifying actual cultivation on declared land parcels; (ii) **Land record integration** (Bhulekh/Record of Rights) for tenure verification and charge creation; (iii) **PM-KISAN beneficiary database** cross-referenced for identity and operational holding. (b) Disbursement: **Direct Benefit Transfer (DBT) to farmer's Aadhaar-linked bank account** with UPI mandate for input dealers — funds released only against verified invoice from authorized agro-input dealer. (c) Anti-diversion: **End-use tracking via UPI merchant category codes** — loan amount tagged to \"agricultural inputs\" MCC; any transaction at non-agri MCC triggers alert and temporary freeze. A poor answer suggesting \"mobile app for application\" without data integration misses that the bottleneck is verification, not application submission. A poor answer ignoring land records fails the collateral requirement for KCC > ₹1.6 lakh.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

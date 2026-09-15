@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_009",
+   "title": "c11_ps_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define \"pluralism\" in political theory and distinguish it from mere \"diversity\" using one constitutional example.",
+     "a": "Pluralism is the normative commitment to institutionalize diversity through power-sharing, recognition rights, and differentiated citizenship (e.g., Article 29-30 protecting minority cultural/educational rights), whereas diversity is the empirical fact of multiple groups coexisting. A wrong answer treating them as synonyms reveals the student misses the crucial distinction between demographic reality and political choice—pluralism requires active institutional design, not passive coexistence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why political theorists argue that \"equal treatment\" (formal equality) can deepen inequality in a society with historical caste discrimination, using the NCERT queue analogy extended to education.",
+     "a": "Formal equality applies identical rules to unequally positioned people: in the NCERT queue, everyone waits their turn, but if some cannot afford the doctor's fee (structural barrier), equal queue access yields unequal health outcomes. In education, identical entrance exams ignore that Dalit students face under-resourced schools, caste bias, and no coaching access—so \"merit\" measured identically reproduces caste hierarchy. A wrong answer claiming \"reservations violate equality\" shows the student conflates procedural sameness with substantive justice, missing the theorists' point that context determines what equality requires.",
+     "self_check": true
+    },
+    {
+     "q": "A state proposes a Uniform Civil Code (UCC) replacing all religious personal laws with one secular code. Using political theory's diversity framework, analyze whether this promotes or undermines pluralism, identifying the specific tension between two conceptions of equality.",
+     "a": "UCC embodies liberal neutrality: equal treatment via uniform law (formal equality). But political theorists of pluralism (e.g., Bhikhu Parekh, Will Kymlicka) argue this ignores that personal laws are sites of community self-governance and gender justice struggles *within* communities. Imposing uniformity may erase minority cultural autonomy (violating recognition equality) while failing to guarantee gender justice (which requires reform from within). The tension: formal equality (sameness) vs. substantive equality (differentiated accommodation). A wrong answer endorsing UCC as \"obviously equal\" misses that political theory treats this as a contested balance, not a settled truth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"accommodation model\" (Belgium, Class 10) and the \"integration model\" (France-style laïcité) as responses to diversity. Which better aligns with India's constitutional design, and why?",
+     "a": "Belgium's accommodation model (c10_civ_cbse_01_001) recognizes groups institutionally—community governments, proportional representation, veto powers—treating diversity as constitutive of the polity. France's integration model demands assimilation into a universal citizen identity, relegating difference to private sphere. India's Constitution aligns with accommodation: Article 29-30 (minority rights), Schedule V/VI (tribal autonomy), linguistic states reorganization, and asymmetric federalism (Article 370 formerly, Article 371) all institutionalize group-differentiated rights. A wrong answer choosing \"integration\" because \"India is secular\" confuses Indian secularism (principled distance, group rights) with French laïcité (strict separation, no group recognition).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Political theory's multiple definitions of equality (opportunity, outcome, capability) create confusion; policymakers should pick one definition and apply it uniformly.\" Use Ambedkar's distinction between political, social, and economic democracy.",
+     "a": "The argument commits the \"monistic fallacy\"—assuming one metric fits all spheres. Ambedkar (Constituent Assembly, 1949) warned: \"We are going to enter a life of contradictions. In politics we will have equality... in social and economic life we will have inequality.\" Political theory's multiple definitions reflect this: political equality = one person one vote (formal); social equality = anti-untouchability, anti-discrimination (status); economic equality = redistributive policies (capability/outcome). Uniform application fails because each sphere has distinct barriers. A wrong answer favoring \"one definition for clarity\" reveals inability to grasp that theoretical pluralism mirrors institutional complexity—different injustices require different remedies.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word policy brief for a state government justifying \"weighted voting\" in panchayats (e.g., SC/ST votes count 1.5x) using political theory's pluralism framework. Address the objection that this violates \"one person, one vote.\"",
+     "a": "A strong brief argues: (1) Formal political equality (Article 326) coexists with structural social inequality—dominant castes capture panchayats despite reservations (sarpanch proxy rule). (2) Weighted voting is a *corrective* mechanism, not privilege: it offsets vote-buying, intimidation, and structural dependency that devalue marginalized votes. (3) Political theory (Young, Phillips) distinguishes \"equality of influence\" from \"equality of casting\"—the latter is necessary but insufficient. (4) Temporary, reviewable, and paired with capacity-building, it deepens substantive democracy. A poor brief either ignores the theoretical distinction between formal and effective equality or fails to address the \"one person one vote\" objection by explaining that vote *weight* corrects for vote *effectiveness* distortion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

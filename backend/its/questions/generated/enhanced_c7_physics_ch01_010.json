@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_010",
+   "title": "c7_physics_ch01_010",
+   "questions": [
+    {
+     "q": "What term best describes the scientific habit of questioning established ideas and testing them against new evidence rather than accepting them blindly?",
+     "a": "Scientific temper. A student who answers \"memorization\" or \"assumption\" reveals a misunderstanding of how science values critical inquiry and empirical proof over dogma.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the process of scientific discovery never truly end once a scientist publishes a successful experiment?",
+     "a": "Because new technology and more precise instruments allow us to test ideas at deeper levels, often revealing limitations in older models that require new theories. A student who thinks science ends with a final \"proof\" confuses science with rigid dogmatic belief systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the time period of a simple pendulum in the school lab as 1.2 seconds. If a more advanced electronic sensor measures it as 1.245 seconds, how does this numerical refinement reflect science as an ongoing process?",
+     "a": "Steps: \n1. Identify the initial measurement (1.2 s using a manual stopwatch).\n2. Identify the refined measurement (1.245 s using an electronic sensor).\n3. Compare the precision and recognize that better tools reduce human error and parallax.\n4. Conclude that scientific data constantly updates as measurement precision improves, tracking smaller units of time (seconds, s).\nAnswer: It demonstrates that scientific knowledge becomes more accurate as observational tools improve, showing that discovery is cumulative. A student who says the first measurement was \"wrong\" misses that science builds on approximations rather than absolute perfection.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"If a scientific theory has been accepted for over a hundred years, it can never be modified or replaced.\" Is this statement scientifically accurate? Explain using the nature of science.",
+     "a": "The statement is false. Science is an ongoing process where even long-standing theories (like models of the atom or light) are modified when new experimental evidence emerges that older theories cannot explain. A student who believes theories are permanent dogmas does not understand the self-correcting nature of empirical inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate a scenario where a student conducts an experiment on heat conduction in metals (building on Class 6 heat concepts), gets a result that contradicts the textbook table, and immediately throws away the data. Did this student practice scientific inquiry correctly? Judge their action.",
+     "a": "The student acted incorrectly. In the ongoing process of discovery, unexpected or \"contradictory\" data is often the most valuable clue; it can reveal experimental error, unrecorded variables (like impurity in the metal rod), or even a novel physical phenomenon. Throwing away data destroys empirical integrity, whereas true scientific practice requires documenting, re-testing, and analyzing why the discrepancy occurred.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short observational plan to test whether the shadow length cast by a flagpole changes throughout the school day, and explain how recording this data contributes to an ongoing scientific investigation.",
+     "a": "A good plan involves measuring shadow length and angle every hour from 9:00 AM to 3:00 PM, noting time (s) and length (m), and repeating for multiple days. This contributes to science by gathering consistent empirical data that patterns the Earth's rotation and light travel in straight lines. A poor answer lacks measurable units or fails to connect regular recording to identifying natural patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

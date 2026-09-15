@@ -1,0 +1,416 @@
+{
+ "catalog": "catalog_class9_science_ch110.json",
+ "concepts": [
+  {
+   "id": "iesc.10.1",
+   "title": "Production of Sound",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is sound produced?",
+     "a": "By vibration of objects - a stretched rubber band, vocal cords or a drum membrane vibrating back and forth.",
+     "self_check": true
+    },
+    {
+     "q": "What is required for sound to travel to our ears?",
+     "a": "A material medium (solid, liquid or gas); sound cannot travel through vacuum.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a table top ring when knocked but not when held tightly?",
+     "a": "Holding it stops the vibrations, and no vibration means no sound.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.2",
+   "title": "Propagation through a Medium",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why can sound not travel through vacuum?",
+     "a": "Sound travels as particles of the medium vibrating; with no particles in vacuum there is nothing to vibrate.",
+     "self_check": true
+    },
+    {
+     "q": "Through which medium does sound travel fastest - solid, liquid or gas?",
+     "a": "Solids, because their particles are closest, passing the vibration on fastest.",
+     "self_check": true
+    },
+    {
+     "q": "Why do astronauts on the moon use radios to talk?",
+     "a": "The moon has no atmosphere (vacuum), so sound cannot carry between them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.3",
+   "title": "Longitudinal Nature of Sound Waves",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What kind of wave is sound - longitudinal or transverse?",
+     "a": "Longitudinal - the particles vibrate along the direction the wave travels, forming compressions and rarefactions.",
+     "self_check": true
+    },
+    {
+     "q": "Define compressions and rarefactions.",
+     "a": "Compressions are regions where particles crowd together (high pressure); rarefactions are where they spread apart (low pressure).",
+     "self_check": true
+    },
+    {
+     "q": "Why is sound called a mechanical wave?",
+     "a": "It needs a material medium whose particles vibrate to carry the energy from place to place.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.4",
+   "title": "Frequency and Time Period",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "frequency",
+     "expr": "1 / time_period",
+     "explain": "frequency is the reciprocal of the time period"
+    },
+    {
+     "step": 2,
+     "name": "waves_per_minute",
+     "expr": "frequency * 60",
+     "explain": "vibrations per minute"
+    },
+    {
+     "step": 3,
+     "name": "period_ms",
+     "expr": "time_period * 1000",
+     "explain": "time period in milliseconds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A pendulum-like sound source vibrates with a time period of 0.005 s. Find its frequency.",
+     "vals": {
+      "time_period": 0.005
+     },
+     "unit": "Hz",
+     "steps": null,
+     "a": "5 Hz",
+     "self_check": false
+    },
+    {
+     "q": "If the time period of a wave is 0.02 s, what is its frequency?",
+     "vals": {
+      "time_period": 0.02
+     },
+     "unit": "Hz",
+     "steps": null,
+     "a": "20 Hz",
+     "self_check": false
+    },
+    {
+     "q": "A tuning fork completes one vibration in 0.0025 s. Calculate the frequency.",
+     "vals": {
+      "time_period": 0.0025
+     },
+     "unit": "Hz",
+     "steps": null,
+     "a": "2.5 Hz",
+     "self_check": false
+    },
+    {
+     "q": "A wave has a time period of 0.04 s. Find the frequency.",
+     "vals": {
+      "time_period": 0.04
+     },
+     "unit": "Hz",
+     "steps": null,
+     "a": "40 Hz",
+     "self_check": false
+    },
+    {
+     "q": "A drum's vibration lasts 0.008 s per cycle. Compute the frequency.",
+     "vals": {
+      "time_period": 0.008
+     },
+     "unit": "Hz",
+     "steps": null,
+     "a": "8 Hz",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.5",
+   "title": "Wave Speed Relation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "waves_per_metre",
+     "expr": "1 / wavelength",
+     "explain": "waves fitted into one metre"
+    },
+    {
+     "step": 2,
+     "name": "half_wave_speed",
+     "expr": "(wavelength / 2) * frequency",
+     "explain": "speed if the wavelength halved"
+    },
+    {
+     "step": 3,
+     "name": "speed",
+     "expr": "wavelength * frequency",
+     "explain": "wave speed = wavelength x frequency"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A sound wave of wavelength 1.7 m has frequency 200 Hz. Find its speed.",
+     "vals": {
+      "wavelength": 1.7,
+      "frequency": 200
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Find the speed of a wave with wavelength 0.5 m and frequency 680 Hz.",
+     "vals": {
+      "wavelength": 0.5,
+      "frequency": 680
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A wave of wavelength 3.4 m travels at frequency 100 Hz. Calculate its speed.",
+     "vals": {
+      "wavelength": 3.4,
+      "frequency": 100
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Ultrasound of wavelength 0.005 m has frequency 680000 Hz. What is its speed?",
+     "vals": {
+      "wavelength": 0.005,
+      "frequency": 680000
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "3400 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A sound of frequency 500 Hz has wavelength 0.68 m. Compute the speed of sound.",
+     "vals": {
+      "wavelength": 0.68,
+      "frequency": 500
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.6",
+   "title": "Audible Range",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the audible range of human hearing?",
+     "a": "About 20 Hz to 20000 Hz.",
+     "self_check": true
+    },
+    {
+     "q": "What are sounds below 20 Hz and above 20000 Hz called?",
+     "a": "Infrasound (below 20 Hz) and ultrasound (above 20 kHz).",
+     "self_check": true
+    },
+    {
+     "q": "Name one animal that can hear ultrasound.",
+     "a": "Dogs (also bats and dolphins produce and hear ultrasound).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.7",
+   "title": "Echo and Reflection",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "total_path",
+     "expr": "speed * time",
+     "explain": "the sound travels to the obstacle and back"
+    },
+    {
+     "step": 2,
+     "name": "round_trip_km",
+     "expr": "total_path / 1000",
+     "explain": "round trip in kilometres"
+    },
+    {
+     "step": 3,
+     "name": "distance",
+     "expr": "total_path / 2",
+     "explain": "the obstacle is half the round trip away"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An echo returns 2 s after a shout; sound speed 340 m/s. How far is the reflecting wall?",
+     "vals": {
+      "speed": 340,
+      "time": 2
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "340 m",
+     "self_check": false
+    },
+    {
+     "q": "A clap's echo is heard after 3 s. With sound at 340 m/s, find the cliff's distance.",
+     "vals": {
+      "speed": 340,
+      "time": 3
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "510 m",
+     "self_check": false
+    },
+    {
+     "q": "Sound returns from a valley in 1.5 s. Find the distance if sound travels at 330 m/s.",
+     "vals": {
+      "speed": 330,
+      "time": 1.5
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "247.5 m",
+     "self_check": false
+    },
+    {
+     "q": "An echo from a building takes 0.5 s at 340 m/s. How far is the building?",
+     "vals": {
+      "speed": 340,
+      "time": 0.5
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "85 m",
+     "self_check": false
+    },
+    {
+     "q": "A boy hears an echo after 4 s; sound speed 342 m/s. Calculate the obstacle distance.",
+     "vals": {
+      "speed": 342,
+      "time": 4
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "684 m",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.10.8",
+   "title": "SONAR (Sound Navigation and Ranging)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "total_path",
+     "expr": "speed * time",
+     "explain": "the pulse goes down and comes back"
+    },
+    {
+     "step": 2,
+     "name": "one_way_time",
+     "expr": "time / 2",
+     "explain": "time of the one-way trip"
+    },
+    {
+     "step": 3,
+     "name": "depth",
+     "expr": "total_path / 2",
+     "explain": "the sea depth is half the round trip"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A SONAR pulse returns in 4 s; sound in sea water is 1500 m/s. Find the sea depth.",
+     "vals": {
+      "speed": 1500,
+      "time": 4
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "3000 m",
+     "self_check": false
+    },
+    {
+     "q": "An ultrasonic pulse from a ship returns in 6 s. With speed 1480 m/s, find the depth.",
+     "vals": {
+      "speed": 1480,
+      "time": 6
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "4440 m",
+     "self_check": false
+    },
+    {
+     "q": "A submarine's SONAR echo comes back in 2 s at 1520 m/s. How deep is the water?",
+     "vals": {
+      "speed": 1520,
+      "time": 2
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "1520 m",
+     "self_check": false
+    },
+    {
+     "q": "A ship sends a pulse that returns in 10 s at 1450 m/s. Calculate the sea depth.",
+     "vals": {
+      "speed": 1450,
+      "time": 10
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "7250 m",
+     "self_check": false
+    },
+    {
+     "q": "The echo of an ultrasound probe returns in 0.8 s at 1500 m/s. Find the reflecting distance.",
+     "vals": {
+      "speed": 1500,
+      "time": 0.8
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "600 m",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

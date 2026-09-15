@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_1",
+   "title": "c9_math_ch8_1",
+   "questions": [
+    {
+     "q": "Which of the following lists represents a sequence? \nA) {2, 4, 6, 8} \nB) {5, 10, 15, 20, ...} \nC) The set of prime numbers less than 20 \nD) The colors of the rainbow in order",
+     "a": "Correct answer: B) {5, 10, 15, 20, ...} \nA sequence must be an ordered list with a defined rule for generating terms, typically indexed by natural numbers. Option A is a finite list but lacks an explicit rule or continuation (though it could be a finite sequence, the ellipsis in B makes the infinite pattern clear). Option C is a set (order doesn't matter in sets). Option D is not numerical. A wrong answer reveals the student confuses sequences with sets or unordered collections, or thinks any list is a sequence without a position-based rule.",
+     "self_check": true
+    },
+    {
+     "q": "The sequence is defined by \\(a_n = n^2 - 1\\). A student writes the first three terms as 0, 3, 8. Is the student correct? Explain why the term for \\(n=1\\) is 0 and not -1.",
+     "a": "Correct answer: Yes, the student is correct. For \\(n=1\\): \\(1^2 - 1 = 0\\); for \\(n=2\\): \\(2^2 - 1 = 3\\); for \\(n=3\\): \\(3^2 - 1 = 8\\). The term for \\(n=1\\) is 0 because the domain of a sequence starts at \\(n=1\\) (the first natural number), not \\(n=0\\). A wrong answer (e.g., saying first term is -1) reveals the misconception that the index \\(n\\) can start at 0, confusing sequences with functions defined on whole numbers or programming arrays.",
+     "self_check": true
+    },
+    {
+     "q": "Write the first four terms of the sequence defined by \\(a_n = \\frac{2n+1}{n}\\). Show each substitution step.",
+     "a": "Correct answer: \n\\(n=1: a_1 = \\frac{2(1)+1}{1} = 3\\)\n\\(n=2: a_2 = \\frac{2(2)+1}{2} = \\frac{5}{2} = 2.5\\)\n\\(n=3: a_3 = \\frac{2(3)+1}{3} = \\frac{7}{3} \\approx 2.33\\)\n\\(n=4: a_4 = \\frac{2(4)+1}{4} = \\frac{9}{4} = 2.25\\)\nTerms: \\(3, \\frac{5}{2}, \\frac{7}{3}, \\frac{9}{4}\\). \nA wrong answer (e.g., 3, 5, 7, 9) reveals the student forgot to divide by \\(n\\), treating the rule as \\(2n+1\\) only. This shows a procedural error in algebraic substitution: not applying the operation to the entire expression.",
+     "self_check": true
+    },
+    {
+     "q": "Two sequences are given: Sequence P: 2, 4, 8, 16, ... and Sequence Q: 2, 4, 6, 8, ... . Compare the rules generating these sequences. How does the difference in rules affect the growth rate of the terms? Which sequence grows faster after the 5th term?",
+     "a": "Correct answer: Sequence P follows a geometric rule (multiply by 2): \\(a_n = 2^n\\). Sequence Q follows an arithmetic rule (add 2): \\(a_n = 2n\\). After the 5th term, Sequence P grows faster because its growth is multiplicative (exponential) while Sequence Q grows additively (linear). For \\(n=5\\): P=32, Q=10; for \\(n=6\\): P=64, Q=12. A wrong answer (e.g., saying they grow at the same rate) reveals the student cannot distinguish between linear and exponential patterns, a critical gap for later AP/GP chapters.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the list \"1, 3, 5, 7, 9\" is an infinite sequence because \"you can always add 2 more\". Evaluate this claim. Is the list finite or infinite? Justify.",
+     "a": "Correct answer: The list \"1, 3, 5, 7, 9\" is a finite sequence (5 terms). The student's claim is incorrect. An infinite sequence is denoted by an ellipsis (...) indicating the rule continues indefinitely (e.g., 1, 3, 5, 7, 9, ...). Without the ellipsis, the list has exactly five terms. A wrong answer (agreeing with the student) reveals confusion between the *potential* to extend a pattern and the *definition* of the given sequence. The notation determines finiteness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) that generates a finite sequence of exactly 6 terms. Write the sequence and the rule for the \\(n^{th}\\) term.",
+     "a": "Expected answer: Example: \"A student saves ₹50 in the first week and increases savings by ₹10 each week for 6 weeks.\" Sequence: 50, 60, 70, 80, 90, 100. Rule: \\(a_n = 50 + 10(n-1)\\) for \\(n = 1, 2, ..., 6\\). \nA poor answer (e.g., giving an infinite sequence like \"saves forever\" or no clear rule) reveals the student cannot translate a bounded real-world situation into a finite mathematical sequence with an explicit formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt110",
+ "concepts": [
+  {
+   "id": "lebt110.1",
+   "title": "Primary and Secondary Metabolites",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Primary and Secondary Metabolites' refers to.",
+     "a": "Cell chemistry splits into two economies: primary metabolites flow straight from growth-sustaining pathways - the amino acids, organic acids and alcohols of everyday metabolism - while secondary metabolites branch off into defence compounds, stress shields and attractants such as antibiotics, pigments and alkaloids, made in such tiny natural amounts that industry must cultivate them in hundred to ten-thousand litre bioreactors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary and Secondary Metabolites'.",
+     "a": "Growth chemicals are primary; the chemical arsenal of survival is secondary - and markets want the second kind in bulk.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Primary and Secondary Metabolites' taught, and from which source text?",
+     "a": "10 opening (source: lebt110.txt chapter opening and section 10.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.2",
+   "title": "Bioreactor Design and Components",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bioreactor Design and Components' refers to.",
+     "a": "A bioreactor is a glass or steel engineered vessel giving cells aseptic, aerated, well-mixed life: an agitator shaft with its impeller homogenises nutrients and cells without shear damage, the sparger bubbles sterilised air through microfilters, baffles smash the power-wasting vortex, a water-jacket holds temperature, pH and temperature probes report to a digital controller that doses one molar sodium hydroxide or hydrochloric acid to hold the set point.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bioreactor Design and Components'.",
+     "a": "Mix it, aerate it, keep it warm and at pH - every bioreactor part exists to hold one of those four steady.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Bioreactor Design and Components' taught, and from which source text?",
+     "a": "10.2 (source: lebt110.txt section 10.2, Fig. 10.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.3",
+   "title": "Stirred Tank Air-Lift and Bubble Column Reactors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stirred Tank Air-Lift and Bubble Column Reactors' refers to.",
+     "a": "Three configurations dominate: the conventional stirred tank drives mixing with an impeller shaft, the air-lift lifts broth up and down a draft tube on an air current alone, and the bubble column lets sparger jets do everything - the gentlest option for shear-sensitive cells and the best oxygen transfer per unit of power input.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stirred Tank Air-Lift and Bubble Column Reactors'.",
+     "a": "Mechanical stirrer, air lift or plain bubbles - choose the mixing style that matches how fragile your cells are.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stirred Tank Air-Lift and Bubble Column Reactors' taught, and from which source text?",
+     "a": "10.2.1 (source: lebt110.txt section 10.2.1, Fig. 10.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.4",
+   "title": "Upstream Processing and the Yield Coefficient",
+   "questions": [
+    {
+     "q": "Using the method 'Upstream Processing and the Yield Coefficient', work with: biomass_produced = 6, substrate_used = 18, target_biomass = 100. Carry the chain through step by step and give the final value of substrate_needed.",
+     "a": "300 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Upstream Processing and the Yield Coefficient' and work with: biomass_produced = 100, substrate_used = 20, target_biomass = 24. Carry the chain through step by step and give the final value of substrate_needed.",
+     "a": "4.8 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Upstream Processing and the Yield Coefficient' refers to.",
+     "a": "Upstream work formulates and sterilises the medium, raises a healthy log-phase inoculum free of contamination and tunes aeration, agitation, temperature and pH; stoichiometry budgets the inputs through the yield coefficient - dry cell mass produced per unit of carbon substrate consumed - so media are designed for minimal wastage, with dissolved oxygen near eight grams per litre marking the ceiling plain water can hold.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Upstream Processing and the Yield Coefficient'.",
+     "a": "Divide biomass by substrate for the yield, then divide the target biomass by that yield to buy exactly enough substrate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Upstream Processing and the Yield Coefficient', in plain ASCII form.",
+     "a": "yield_coef = biomass_produced / substrate_used",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.5",
+   "title": "Batch Fed-Batch and Continuous Operation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Batch Fed-Batch and Continuous Operation' refers to.",
+     "a": "A bioprocess runs in one of three gears: batch is a sealed flask of fixed nutrients that climbs through the growth curve and stops; fed-batch dribbles in the growth-limiting substrate to keep its residual level low and non-toxic while the volume swells; continuous culture pours fresh medium in and draws broth out so growth, product formation and substrate use all lock at a steady state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Batch Fed-Batch and Continuous Operation'.",
+     "a": "Close the lid, top it up, or keep it flowing - the mode decides whether the product arrives once, longer, or forever.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Batch Fed-Batch and Continuous Operation' taught, and from which source text?",
+     "a": "10.3.1 (source: lebt110.txt section 10.3.1, Fig. 10.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.6",
+   "title": "Downstream Processing Recovery and Purification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Downstream Processing Recovery and Purification' refers to.",
+     "a": "Downstream processing recovers the product fast and cheaply: filtration above ten microns or centrifugation between a hundred and a tenth of a micron separates biomass, bead mills and ultrasonicators or osmotic shock rupture cells for intracellular prizes, liquid-liquid extraction splits extract from raffinate, and precipitation, chromatography, dialysis, ultrafiltration or reverse osmosis polish the product to purity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Downstream Processing Recovery and Purification'.",
+     "a": "Separate solids, break cells only if the product hides inside, then extract and purify - quickly and cheaply.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Downstream Processing Recovery and Purification' taught, and from which source text?",
+     "a": "10.3.1 (source: lebt110.txt section 10.3.1, Figs. 10.6-10.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.7",
+   "title": "Membrane Separation Cutoffs and Pressures",
+   "questions": [
+    {
+     "q": "Using the method 'Membrane Separation Cutoffs and Pressures', work with: mf_cutoff = 6, mf_psi = 6, ro_cutoff = 400, ro_psi = 12. Carry the chain through step by step and give the final value of cutoff_fold.",
+     "a": "0.015 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Membrane Separation Cutoffs and Pressures' and work with: mf_cutoff = 45, mf_psi = 200, ro_cutoff = 500, ro_psi = 3. Carry the chain through step by step and give the final value of cutoff_fold.",
+     "a": "0.09 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Membrane Separation Cutoffs and Pressures' refers to.",
+     "a": "Pressure-driven membranes grade by tightness: microfiltration holds back bacteria through 0.1-10 micron pores at about ten psi, ultrafiltration narrows to 0.01-0.1 micron for macromolecules between three hundred and three hundred thousand daltons at ten to a hundred psi, and reverse osmosis squeezes water through sub-nanometre pores under a hundred to eight hundred psi to reject everything dissolved - pressure always beating osmotic pressure to push flow backwards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Membrane Separation Cutoffs and Pressures'.",
+     "a": "Divide the reverse-osmosis pressure by the microfiltration pressure to see the cost of tighter pores; divide pore sizes for the cutoff ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Membrane Separation Cutoffs and Pressures', in plain ASCII form.",
+     "a": "pressure_fold = ro_psi / mf_psi",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt110.8",
+   "title": "Commercial Products of Bioprocessing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Commercial Products of Bioprocessing' refers to.",
+     "a": "Fermenters now brew the everyday pharmacopoeia: Saccharomyces cerevisiae for ethanol, Corynebacterium glutamicum mutants for glutamic acid and lysine, Aspergillus niger for citric acid and pectinase, Penicillium chrysogenum for penicillin, Propionibacterium and Pseudomonas for vitamin B12, Ashbya gossypii for riboflavin, Streptococcus-derived streptokinase as clot buster, Trichoderma polysporum's cyclosporin A for transplant patients, Monascus purpureus statins, and plant cell cultures of Lithospermum for shikonin dye and Taxus for taxol - plus recombinant insulin from engineered E. coli.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Commercial Products of Bioprocessing'.",
+     "a": "Name the microbe and you name the product - each industrial biochemical has a chosen fermenter champion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Commercial Products of Bioprocessing' taught, and from which source text?",
+     "a": "10.4 (source: lebt110.txt section 10.4, Tables 10.2-10.3, Box 1)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

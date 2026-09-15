@@ -1,0 +1,398 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "Our Changing Earth",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees103.txt",
+ "concepts": [
+  {
+   "id": "gess.203.1",
+   "title": "Lithospheric Plates and Earth Movements",
+   "section": "Earth Movements",
+   "definition": "Slabs of the Earth's crust move extremely slowly driven by thermal convection currents within mantle magma, dividing tectonic activity into endogenic and exogenic forces.",
+   "formula": "",
+   "key_idea": "Internal mantle convection propels crustal plate movement and drives endogenic and exogenic geological processes.",
+   "textbook_ref": "gess203.txt lines 1-35",
+   "question_patterns": [
+    "explain why lithospheric plates move slowly in Class 7 geography",
+    "differentiate between endogenic and exogenic forces on earth",
+    "what causes the movement of earth's lithospheric plates",
+    "classify forces that shape the earth's surface into internal and external types",
+    "describe how magma circulation affects crustal plate movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the driver of plate movement",
+     "explain": "Recognize that heat convection in the earth's mantle causes circular movement of molten magma, shifting the overlying lithospheric plates."
+    },
+    {
+     "step": 2,
+     "action": "Categorize geological forces",
+     "explain": "Distinguish endogenic forces originating inside the earth (causing earthquakes and volcanoes) from exogenic forces operating on the surface (like wind and river erosion)."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.2",
+   "title": "Volcanoes and Volcanic Eruptions",
+   "section": "Volcanoes",
+   "definition": "A vent or opening in the earth's crust through which subterranean magma, molten rock, hot gases, and ash erupt suddenly.",
+   "formula": "",
+   "key_idea": "Deep subterranean pressure forces molten rock through crustal vents to form volcanic structures.",
+   "textbook_ref": "gess203.txt lines 36-50",
+   "question_patterns": [
+    "what is a volcano and what are its main components",
+    "explain how magma erupts through the earth's crust",
+    "identify the parts of a volcano including vent and crater",
+    "describe the sudden movement caused by endogenic volcanic activity",
+    "how does molten rock reach the surface during an eruption"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a volcanic vent and magma chamber",
+     "explain": "Locate the magma chamber deep underground and the vent or opening through which molten rock travels."
+    },
+    {
+     "step": 2,
+     "action": "Explain eruption products",
+     "explain": "Trace how subterranean magma reaches the surface as lava along with released gases and ash forming a crater."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.3",
+   "title": "Earthquakes and Seismic Energy Transmission",
+   "section": "Earthquakes",
+   "definition": "Sudden vibrations propagating through the earth caused by tectonic plate adjustments, originating at an underground focus and spreading outward from the surface epicentre.",
+   "formula": "",
+   "key_idea": "Tectonic vibrations radiate outward from the surface epicentre located directly above the subterranean origin focus.",
+   "textbook_ref": "gess203.txt lines 51-85",
+   "question_patterns": [
+    "distinguish between focus and epicentre of an earthquake",
+    "how do seismic waves travel through the earth",
+    "what causes the vibrations felt during an earthquake",
+    "identify the three main categories of seismic waves",
+    "explain where the maximum damage occurs during an earthquake event"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate focus and epicentre",
+     "explain": "Define the focus as the subterranean point of energy release and epicentre as the point directly above it on the surface."
+    },
+    {
+     "step": 2,
+     "action": "Describe wave propagation and impact",
+     "explain": "Understand that seismic energy radiates outward in waves, with peak intensity and damage nearest to the epicentre."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.4",
+   "title": "Earthquake Measurement and Disaster Preparedness",
+   "section": "Earthquake Preparedness",
+   "definition": "Quantification of seismic magnitude using a seismograph on the Richter scale, alongside practical safety measures to mitigate disaster impacts.",
+   "formula": "",
+   "key_idea": "Richter scale rating measures earthquake magnitude while structural shelter precautions minimise human impact.",
+   "textbook_ref": "gess203.txt lines 86-140",
+   "question_patterns": [
+    "how is the magnitude of an earthquake measured",
+    "list safe spots to take shelter during an earthquake",
+    "what instrument records earthquake vibrations",
+    "explain the Richter scale classifications for earthquake intensity",
+    "describe precautions to stay safe during seismic activity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify measurement tools and scales",
+     "explain": "Use a seismograph to detect ground vibrations and the Richter scale to assign numerical magnitude."
+    },
+    {
+     "step": 2,
+     "action": "Outline safety protocols",
+     "explain": "Seek shelter under sturdy furniture like desks or tables, avoid glass and fireplaces, and stay in clear indoor corners."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.5",
+   "title": "Weathering and Erosion Processes",
+   "section": "Major Landforms",
+   "definition": "Degradation of surface geology split into static rock disintegration (weathering) and dynamic removal and transport of material by water, wind, or ice (erosion).",
+   "formula": "",
+   "key_idea": "Weathering breaks down surface rocks while natural agents erode, transport, and deposit rock particles to shape landforms.",
+   "textbook_ref": "gess203.txt lines 141-155",
+   "question_patterns": [
+    "differentiate between weathering and erosion",
+    "what agents are responsible for eroding the earth's landscape",
+    "explain how erosion and deposition continuously create new landforms",
+    "describe the process of rock disintegration on the earth's surface",
+    "how does landscape change over time due to exogenic processes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define weathering",
+     "explain": "Recognize weathering as the mechanical or chemical breaking down of stationary surface rocks."
+    },
+    {
+     "step": 2,
+     "action": "Define erosion and deposition",
+     "explain": "Identify erosion as the removal and transport of sediment by water, wind, or ice, leading to deposition elsewhere."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.6",
+   "title": "Fluvial Landforms and River Processes",
+   "section": "Work of a River",
+   "definition": "Geological structures created across river courses, including erosion features like waterfalls and meanders, and deposition features like ox-bow lakes, floodplains, levees, and deltas.",
+   "formula": "",
+   "key_idea": "Running water shapes landscapes through upper-course erosion and lower-course deposition.",
+   "textbook_ref": "gess203.txt lines 156-200",
+   "question_patterns": [
+    "explain how an ox-bow lake is formed by a river",
+    "what features are formed by river deposition in plain regions",
+    "describe the formation of a waterfall and a delta",
+    "how are levees and floodplains developed during river flooding",
+    "differentiate between river meanders and distributaries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify erosional river features",
+     "explain": "Analyze steep gradient drops creating waterfalls and lateral erosion forming winding meanders."
+    },
+    {
+     "step": 2,
+     "action": "Identify depositional river features",
+     "explain": "Trace meander loop cut-offs forming ox-bow lakes, flood deposits forming fertile floodplains and levees, and river mouth sediments forming deltas."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.7",
+   "title": "Coastal Landforms and Sea Wave Action",
+   "section": "Work of Sea Waves",
+   "definition": "Shoreline structures produced by marine hydraulic action and abrasion, progressing from sea caves to arches and isolated stacks, along with sea cliffs and beaches.",
+   "formula": "",
+   "key_idea": "Continuous wave action erodes coastal rock from caves to arches and stacks, while sediment deposition creates beaches.",
+   "textbook_ref": "gess203.txt lines 201-225",
+   "question_patterns": [
+    "how do sea waves transform sea caves into stacks",
+    "explain the formation of beaches along coastal areas",
+    "describe the sequence of erosion from sea cave to sea arch and stack",
+    "what is a sea cliff and how is it formed",
+    "identify erosional and depositional landforms created by ocean waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace coastal erosion stages",
+     "explain": "Wave impact hollows out rock cracks to form sea caves, hollows out roofs to leave sea arches, and collapses roofs leaving vertical rock stacks."
+    },
+    {
+     "step": 2,
+     "action": "Identify coastal deposition and cliff features",
+     "explain": "Recognize steep rocky faces as sea cliffs and shoreline sediment accumulation as beaches."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.8",
+   "title": "Glacial Landforms and Ice Erosion",
+   "section": "Work of Ice",
+   "definition": "Features crafted by moving ice sheets that scrape bedrock hollows which fill into glacial lakes, while dumping mixed rock sediment as glacial moraines.",
+   "formula": "",
+   "key_idea": "Moving glaciers carve deep bedrock hollows and deposit unsorted rock debris known as moraines.",
+   "textbook_ref": "gess203.txt lines 226-245",
+   "question_patterns": [
+    "what are glaciers and how do they alter the landscape",
+    "how are glacial moraines formed",
+    "explain how mountain lakes are created by glacial action",
+    "describe the erosional process known as bulldozing by rivers of ice",
+    "identify depositional features resulting from melting glaciers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain glacial erosion",
+     "explain": "Glaciers scrape underlying bedrock through bulldozing action, carving deep depressions that hold meltwater lakes."
+    },
+    {
+     "step": 2,
+     "action": "Explain glacial deposition",
+     "explain": "Melting ice leaves behind piles of boulders, gravel, sand, and silt called glacial moraines."
+    }
+   ]
+  },
+  {
+   "id": "gess.203.9",
+   "title": "Aeolian Landforms and Wind Action",
+   "section": "Work of Wind",
+   "definition": "Arid features shaped by wind erosion and transport, producing narrow-based mushroom rocks, shifting sand dunes, and extensive fine silt loess deposits.",
+   "formula": "",
+   "key_idea": "Desert winds selectively erode rock bases and deposit sand as dunes or fine dust as extensive loess fields.",
+   "textbook_ref": "gess203.txt lines 246-270",
+   "question_patterns": [
+    "why do some desert rocks have the shape of a mushroom",
+    "explain how sand dunes are formed in desert landscapes",
+    "what is loess and where are large deposits of loess found",
+    "describe the active agents of erosion and deposition in deserts",
+    "differentiate between sand dunes and loess deposits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain aeolian erosion",
+     "explain": "Wind erodes lower rock sections more aggressively than upper parts, forming mushroom-shaped rocks."
+    },
+    {
+     "step": 2,
+     "action": "Explain aeolian deposition",
+     "explain": "Lighter sand particles drop when wind stops to form sand dunes, while fine silt travels far to deposit as loess."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess203.txt lines 10-30",
+   "concept": "gess.203.1",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "Differentiate between endogenic and exogenic forces shaping the Earth's surface.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define endogenic forces",
+     "explain": "Endogenic forces are internal geological forces originating deep within the earth that cause sudden events like earthquakes and volcanoes or slow mountain-building movements."
+    },
+    {
+     "step": 2,
+     "action": "Define exogenic forces",
+     "explain": "Exogenic forces act on the earth's surface through natural agents like running water, wind, sea waves, and ice that continuously erode and deposit material."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess203.txt lines 55-80",
+   "concept": "gess.203.3",
+   "question_type": "conceptual_identification",
+   "question_pattern": "Explain the difference between focus and epicentre during an earthquake.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define focus",
+     "explain": "The focus is the location inside the earth's crust where tectonic movement begins and seismic energy is released."
+    },
+    {
+     "step": 2,
+     "action": "Define epicentre",
+     "explain": "The epicentre is the point on the earth's surface located directly vertically above the focus, where seismic waves first hit and cause maximum destruction."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess203.txt lines 165-185",
+   "concept": "gess.203.6",
+   "question_type": "landform_formation",
+   "question_pattern": "Describe how an ox-bow lake is formed by a river.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain meander development",
+     "explain": "As a river flows through a plain, lateral erosion and deposition form large looping bends called meanders."
+    },
+    {
+     "step": 2,
+     "action": "Explain cut-off formation",
+     "explain": "Continuous erosion brings the ends of a meander loop closer together until the river cuts through the narrow neck, abandoning the bend to form a crescent-shaped ox-bow lake."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess203.txt lines 248-265",
+   "concept": "gess.203.9",
+   "question_type": "landform_explanation",
+   "question_pattern": "Give reasons why mushroom rocks are narrow at the base and wider at the top.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze wind erosion behavior in deserts",
+     "explain": "Desert winds carry sand grains close to the ground, concentrating maximum abrasive power at lower rock levels."
+    },
+    {
+     "step": 2,
+     "action": "Conclude structural shape result",
+     "explain": "Because the lower section erodes faster than the upper section, the standing rock develops a narrow base and broad top resembling a mushroom."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "gess203.txt lines 272-282",
+   "questions": [
+    "Why do the plates move?",
+    "State clearly what endogenic means in this chapter and why it matters.",
+    "What is erosion?",
+    "How are flood plains formed?",
+    "What are sand dunes?",
+    "How are beaches formed?",
+    "What are ox bow lakes?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "gess203.txt lines 283-295",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about erosional.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about depositional.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about movements.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about glaciers.",
+    "Answer the exercise task on glaciers using your own phrasing."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "gess203.txt lines 296-308",
+   "questions": [
+    "Match the following: (i) Glacier -> Rivers of ice, (ii) Meanders -> Rivers, (iii) Beach -> Sea shore, (iv) Sand dunes -> Deserts, (v) Waterfall -> Hard bed rock, (vi) Earthquake -> Vibrations of earth"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "gess203.txt lines 309-315",
+   "questions": [
+    "Give reasons: Some rocks have a shape of a mushroom.",
+    "Give reasons: Flood plains are very fertile.",
+    "Give reasons: Sea caves are turned into stacks.",
+    "Give reasons: Buildings collapse due to earthquakes."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

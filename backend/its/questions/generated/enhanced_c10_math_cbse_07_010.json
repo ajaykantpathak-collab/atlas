@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_010",
+   "title": "c10_math_cbse_07_010",
+   "questions": [
+    {
+     "q": "State the section formula for the coordinates of a point \\( P(x, y) \\) that divides the line segment joining \\( A(x_1, y_1) \\) and \\( B(x_2, y_2) \\) internally in the ratio \\( m:n \\).",
+     "a": "The formula is \\( x = \\frac{m x_2 + n x_1}{m+n} \\), \\( y = \\frac{m y_2 + n y_1}{m+n} \\). A wrong answer where the student writes \\( x = \\frac{m x_1 + n x_2}{m+n} \\) reveals they have swapped the weights: they incorrectly associate the ratio part \\( m \\) with the first point \\( A \\) instead of the second point \\( B \\). This is the most common sign error in the section formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the section formula uses a weighted average of the coordinates. Use the concept of similar triangles or a number line analogy to justify why the weight \\( m \\) multiplies \\( x_2 \\) (the coordinate of the second point) and not \\( x_1 \\).",
+     "a": "On a number line, if point P divides AB in ratio \\( m:n \\), the distance AP is \\( \\frac{m}{m+n} \\) of AB. So \\( x = x_1 + \\frac{m}{m+n}(x_2 - x_1) = \\frac{m x_2 + n x_1}{m+n} \\). The weight \\( m \\) multiplies \\( x_2 \\) because the fraction of the distance from A to B is \\( \\frac{m}{m+n} \\). A student who says \"m multiplies x1 because it's the first ratio\" shows they memorized the formula without understanding the directional weighting.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the segment joining \\( A(-3, 4) \\) and \\( B(5, -2) \\) internally in the ratio \\( 2:3 \\). Show all steps.",
+     "a": "Given: \\( x_1=-3, y_1=4 \\); \\( x_2=5, y_2=-2 \\); \\( m=2, n=3 \\).\n\\( x = \\frac{2 \\times 5 + 3 \\times (-3)}{2+3} = \\frac{10 - 9}{5} = \\frac{1}{5} = 0.2 \\)\n\\( y = \\frac{2 \\times (-2) + 3 \\times 4}{5} = \\frac{-4 + 12}{5} = \\frac{8}{5} = 1.6 \\)\nAnswer: \\( (0.2, 1.6) \\). A wrong answer like \\( (-0.2, 1.6) \\) or \\( (0.2, -1.6) \\) indicates a sign error in substituting negative coordinates or incorrect addition of terms in the numerator.",
+     "self_check": true
+    },
+    {
+     "q": "The midpoint of a segment is a special case of the section formula. Determine the ratio \\( m:n \\) that yields the midpoint and show algebraically how the midpoint formula \\( \\left( \\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2} \\right) \\) emerges from the section formula.",
+     "a": "For the midpoint, the ratio is \\( 1:1 \\). Substituting \\( m=1, n=1 \\) into the section formula: \\( x = \\frac{1\\cdot x_2 + 1\\cdot x_1}{1+1} = \\frac{x_1+x_2}{2} \\), similarly for y. A student who cannot identify the ratio as 1:1 or who writes \\( m=2, n=2 \\) (which also works but is not simplest) shows they do not recognize the midpoint as equal division. If they cannot simplify \\( \\frac{x_2+x_1}{2} \\) from the formula, they lack algebraic fluency.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the point dividing \\( A(1, 2) \\) and \\( B(7, 8) \\) in the ratio \\( 3:1 \\) is \\( (4, 5) \\). Evaluate this claim by checking the coordinates using the section formula. If incorrect, find the correct coordinates and explain the student's likely error.",
+     "a": "Using formula: \\( x = \\frac{3 \\times 7 + 1 \\times 1}{3+1} = \\frac{21+1}{4} = \\frac{22}{4} = 5.5 \\), \\( y = \\frac{3 \\times 8 + 1 \\times 2}{4} = \\frac{24+2}{4} = \\frac{26}{4} = 6.5 \\). Correct point is \\( (5.5, 6.5) \\). The student's answer \\( (4,5) \\) is exactly the midpoint (ratio 1:1). The error is using equal weights instead of 3:1. This reveals the student may be defaulting to the midpoint formula whenever they see \"divides the segment\" without reading the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a point \\( P \\) divides the segment joining \\( A(x_1, y_1) \\) and \\( B(x_2, y_2) \\) in the ratio \\( 3:4 \\) and the coordinates of \\( P \\) are \\( (6, 8) \\). Choose integer coordinates for A and B such that the problem has a unique solution. Write the problem statement and solve it to verify.",
+     "a": "Sample problem: \"Point P(6,8) divides the segment joining A(2,2) and B(x,y) in the ratio 3:4. Find B.\" Solution: \\( 6 = \\frac{3x + 4\\cdot2}{7} \\Rightarrow 42 = 3x + 8 \\Rightarrow 3x = 34 \\Rightarrow x = 34/3 \\) (not integer). To get integer B, choose A(10,10) and ratio 3:4: \\( 6 = \\frac{3x + 4\\cdot10}{7} \\Rightarrow 42 = 3x + 40 \\Rightarrow 3x = 2 \\Rightarrow x = 2/3 \\) (not integer). A good student will realize they need to set up equations and pick A such that B comes out integer. For example, let A(2,2) and ratio 1:2 gives P(6,8)? \\( 6 = \\frac{1\\cdot x + 2\\cdot2}{3} \\Rightarrow 18 = x+4 \\Rightarrow x=14 \\), \\( 8 = \\frac{y+4}{3} \\Rightarrow y=20 \\). So A(2,2), B(14,20), ratio 1:2 gives P(6,8). A poor answer would be a problem with no solution or non-integer coordinates without acknowledging it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

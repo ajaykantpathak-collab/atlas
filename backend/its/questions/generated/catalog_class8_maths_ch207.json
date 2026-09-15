@@ -1,0 +1,301 @@
+{
+ "catalog": "catalog_class8_maths_ch207.json",
+ "concepts": [
+  {
+   "id": "hegp.207.1",
+   "title": "Area of a Rectangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 17 cm by 9 cm.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 13 m.",
+     "a": "169",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 8 m garden has a 11 m x 4 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 48 sq cm and length 12 cm. Find its breadth.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 16 m x 20 m floor.",
+     "a": "4800",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 12 m x 18 m hall?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.2",
+   "title": "Area of a Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 10 cm by 8 cm.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 12 m.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "A 10 m x 7 m garden has a 6 m x 3 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 8 cm. Find its breadth.",
+     "a": "4.5",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 17 m x 9 m floor.",
+     "a": "3060",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 20 m x 16 m hall?",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.3",
+   "title": "Area of a General Quadrilateral",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 19 cm and height 8 cm.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 24 cm and 10 cm. Find its area.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 20 cm and 29 cm and the distance between them is 14 cm. Find the area.",
+     "a": "343",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 36 cm and the perpendiculars on it from opposite vertices are 8 cm and 10 cm. Find the area.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 10 cm and height 6 cm. Find the parallelogram's height if its base is 15 cm.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 8 m and height 4 m. Find its area.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.4",
+   "title": "Area of a Parallelogram",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 7 cm and height 13 cm.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 8 cm and 28 cm. Find its area.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 11 cm and 34 cm and the distance between them is 8 cm. Find the area.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 24 cm and the perpendiculars on it from opposite vertices are 6 cm and 8 cm. Find the area.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 12 cm and height 8 cm. Find the parallelogram's height if its base is 10 cm.",
+     "a": "4.8",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 10 m and height 6 m. Find its area.",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.5",
+   "title": "Area of a Rhombus",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 18 cm and height 10 cm.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 30 cm and 20 cm. Find its area.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 7 cm and 32 cm and the distance between them is 14 cm. Find the area.",
+     "a": "273",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 38 cm and the perpendiculars on it from opposite vertices are 8 cm and 8 cm. Find the area.",
+     "a": "304",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 12 cm and height 10 cm. Find the parallelogram's height if its base is 15 cm.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 8 m. Find its area.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.6",
+   "title": "Area of a Trapezium",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 10 cm and height 8 cm.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 10 cm and 20 cm. Find its area.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 14 cm and 23 cm and the distance between them is 10 cm. Find the area.",
+     "a": "185",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 20 cm and the perpendiculars on it from opposite vertices are 8 cm and 8 cm. Find the area.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 15 cm and height 10 cm. Find the parallelogram's height if its base is 10 cm.",
+     "a": "7.5",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 8 m. Find its area.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7",
+   "title": "Area Unit Conversion (Square Inches to Square Centimeters)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 16.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 39 m. What is the number of square metres in its area?",
+     "a": "1521",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 5^2 and 6^2? (Rule: 2 x n)",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 24?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 16. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "65",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.8",
+   "title": "Finding Altitude using Area Equivalence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 13 cm and height 24 cm.",
+     "a": "312",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 18 cm and 26 cm. Find its area.",
+     "a": "234",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 11 cm and 22 cm and the distance between them is 10 cm. Find the area.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 40 cm and the perpendiculars on it from opposite vertices are 8 cm and 6 cm. Find the area.",
+     "a": "280",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 20 cm and height 4 cm. Find the parallelogram's height if its base is 20 cm.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 4 m. Find its area.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

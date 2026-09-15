@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_001",
+   "title": "c11_ps_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define \"distributive justice\" in one sentence and name the three principles of justice discussed in the chapter that govern distribution.",
+     "a": "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society, governed by three principles: (1) equal treatment for equals — identical treatment for those similarly situated; (2) proportionality — rewards proportionate to effort, skill, or danger; (3) special needs — differential treatment for disadvantaged groups to achieve substantive equality. A wrong answer (e.g., \"distributive justice means everyone gets the same\") reveals confusion between formal equality and substantive justice, ignoring that equal treatment of unequals perpetuates inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why treating everyone identically (formal equality) can produce unjust outcomes, using the example of a scholarship awarded solely on exam marks to students from vastly different educational backgrounds.",
+     "a": "Identical treatment ignores unequal starting conditions: a student from a resource-rich school and one from a deprived school may score the same marks, but the latter achieved it with far greater effort and fewer opportunities. Formal equality treats unequals as equals, violating the principle of proportionality (reward should reflect effort/skill) and special needs (the deprived student needs compensatory support). A wrong answer focusing only on \"marks are objective\" reveals a misunderstanding that justice requires examining the conditions behind outcomes, not just the outcomes themselves.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes two policies: (A) 50% reservation in government jobs for women; (B) free coaching centres for women aspirants in rural areas. Analyze which policy aligns with which principle of justice (equal treatment, proportionality, special needs) and justify.",
+     "a": "Policy A (reservation) aligns with **special needs** — it provides differential treatment to a historically excluded group to overcome structural barriers, ensuring substantive equality of opportunity. Policy B (free coaching) aligns with **proportionality** — it enables women to compete on merit by equalising preparation, so rewards become proportional to effort/talent. A wrong answer equating both as \"special treatment\" misses that Policy B levels the playing field before competition (proportionality), while Policy A adjusts outcomes to correct systemic exclusion (special needs).",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a libertarian (Nozick) and a social democrat (Rawls) would evaluate a progressive tax funding free healthcare for the poor. Identify the core principle each prioritises.",
+     "a": "A libertarian prioritises **entitlement/property rights** — progressive tax violates self-ownership and voluntary exchange; redistribution is unjust coercion. A Rawlsian prioritises **the difference principle** — inequalities are justified only if they benefit the least advantaged; free healthcare meets basic needs and improves the worst-off's position. A wrong answer claiming both support \"helping the poor\" misses the fundamental disagreement: libertarians reject *forced* redistribution as unjust; Rawlsians see it as a requirement of justice, not charity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Providing free mid-day meals in government schools is charity, not justice.\" Use the three principles of justice to support your judgment.",
+     "a": "The statement is **false**. Mid-day meals align with **special needs** (addressing malnutrition that impairs learning), **proportionality** (ensuring health so effort translates to outcomes), and **equal treatment** (giving all children the baseline capacity to exercise their right to education). Justice requires securing the *conditions* for equal opportunity; charity is voluntary and discretionary. A wrong answer calling it \"charity\" reveals confusion between moral benevolence and constitutional obligation — the state *must* provide basic needs as a matter of right (Article 21, 39), not generosity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a just admission policy for a premier public university that balances merit, diversity, and historical disadvantage. Specify which principle of justice each component serves.",
+     "a": "A just policy could include: (1) **Merit-based seats (50%)** — serves *proportionality*, rewarding demonstrated effort/skill; (2) **Reservation for SC/ST/OBC/EWS (40%)** — serves *special needs*, correcting historical exclusion and structural barriers; (3) **Socio-economic disadvantage weightage (10%)** — serves *special needs* and *proportionality*, recognising that low scores may reflect deprivation not ability; (4) **No capitation fees, need-based scholarships** — serves *equal treatment*, ensuring financial status doesn't block access. A poor answer focusing only on merit ignores that \"merit\" itself is socially constructed and unequally nurtured.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

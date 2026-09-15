@@ -1,0 +1,165 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "India's Urban Landscape",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.207.7.1",
+   "title": "Population Density in Cities",
+   "section": "7",
+   "definition": "Cities crowd many people onto small land: population density - persons per square kilometre - runs far higher in cities like Gurugram than in villages such as Asadpur Khera in Haryana, and this density drives both the energy and the strains of urban life.",
+   "formula": "density = population / area",
+   "key_idea": "People per square kilometre is the yardstick of crowding - and cities pack thousands.",
+   "textbook_ref": "hees207.txt lines 63-105 (population density in cities, village vs city example)",
+   "question_patterns": [
+    "what is population density and how is it calculated",
+    "compare the population density of a village and a city",
+    "find the density of a city with given population and area",
+    "why do cities have much higher population density than villages",
+    "what problems does high density bring to a city",
+    "how does density change from Gurugram city to a Haryana village"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide population by area",
+     "explain": "Persons per square kilometre measure the crowding of a place.",
+     "compute": "density = population / area"}
+   ]
+  },
+  {
+   "id": "hees.207.7.2",
+   "title": "Why Cities Grow: Centres of Work and Hope",
+   "section": "7",
+   "definition": "Cities attract people because they concentrate jobs, factories, offices, schools, hospitals and markets - offering something for everybody, as the chapter's epigraph puts it - so migration from villages keeps feeding urban growth.",
+   "formula": "-",
+   "key_idea": "Jobs and services pull migrants in: cities grow because opportunity concentrates there.",
+   "textbook_ref": "hees207.txt lines 2-62 (cities provide something for everybody), 106-128 (how cities become centres)",
+   "question_patterns": [
+    "why do people migrate from villages to cities",
+    "what makes a city a centre of economic activity",
+    "list the services that cities provide better than villages",
+    "how does industry help a city grow",
+    "explain the push and pull factors of urban migration",
+    "why are cities said to provide something for everybody"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the pull factors",
+     "explain": "Employment, education and healthcare draw migrants to cities."},
+    {"step": 2, "action": "spot the push factors",
+     "explain": "Rural joblessness and shrinking farmland push people out."},
+    {"step": 3, "action": "see the compounding",
+     "explain": "More people attract more businesses, which attract still more people."}
+   ]
+  },
+  {
+   "id": "hees.207.7.3",
+   "title": "Urbanisation: The Process and Its Challenges",
+   "section": "7",
+   "definition": "Urbanisation is the rising share of people living in urban places; as India urbanises, cities strain under slums, housing shortages, traffic, pollution and unequal services, needing planned infrastructure and governance to stay liveable.",
+   "formula": "-",
+   "key_idea": "Urbanisation is inevitable - planning decides whether cities become engines or slums.",
+   "textbook_ref": "hees207.txt lines 205-260 (the process of urbanisation), 260-340 (challenges)",
+   "question_patterns": [
+    "what is urbanisation",
+    "list the challenges faced by Indian cities",
+    "why do slums grow in big cities",
+    "how can cities be made more liveable",
+    "what is the role of municipal government in a city",
+    "explain traffic and pollution problems of urban areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define the process",
+     "explain": "Urbanisation measures the growing urban share of population."},
+    {"step": 2, "action": "list the strains",
+     "explain": "Housing, water, transport and pollution top the urban challenge list."},
+    {"step": 3, "action": "point to planning",
+     "explain": "Master plans, municipal services and citizen participation keep cities liveable."}
+   ]
+  },
+  {
+   "id": "hees.207.7.4",
+   "title": "The World's Most Populous Cities",
+   "section": "7",
+   "definition": "Giant cities now span the globe - Tokyo, Delhi, Shanghai and other metropolises hold tens of millions, with New Delhi among the world's most populous cities and Seoul in South Korea another megacity - showing that urbanisation is a worldwide phenomenon.",
+   "formula": "-",
+   "key_idea": "Megacities of tens of millions now anchor the world economy - and its congestion.",
+   "textbook_ref": "hees207.txt lines 129-160 (world's most populous cities in 2025, New Delhi, Seoul)",
+   "question_patterns": [
+    "name the most populous cities of the world",
+    "where does New Delhi stand among world cities by population",
+    "what is a megacity",
+    "compare the growth of Tokyo and Delhi",
+    "why do megacities grow in developing countries",
+    "what problems are common to the world's largest cities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the rankings",
+     "explain": "Lists of 2025 place Asian megacities like Tokyo, Delhi and Shanghai on top."},
+    {"step": 2, "action": "note the pattern",
+     "explain": "The biggest urban agglomerations cluster in Asia."},
+    {"step": 3, "action": "draw lessons",
+     "explain": "Transport, housing and pollution solutions must match megacity scale."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hees207.txt lines 63-80, density in cities",
+   "concept": "hees.207.7.1",
+   "question_type": "compute",
+   "question_pattern": "A city has {population} people living on {area} sq km. Find its population density.",
+   "extracted_variables": {
+    "population": "number of people",
+    "area": "area in square kilometres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide population by area",
+     "explain": "Persons per sq km is the density.",
+     "compute": "density = population / area"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hees207.txt lines 74-105, village vs city comparison",
+   "concept": "hees.207.7.1",
+   "question_type": "compute",
+   "question_pattern": "A village spreads {population} people over {area} sq km. Calculate its population density and compare with a city.",
+   "extracted_variables": {
+    "population": "village population",
+    "area": "village area in sq km"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide population by area",
+     "explain": "Density equals population over area.",
+     "compute": "density = population / area"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hees207.txt density and growth sections",
+   "questions": [
+     "Calculate the density of a city with 40 lakh people over 200 sq km.",
+     "Why do people migrate to cities?",
+     "Compare life in Gurugram city and a Haryana village."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hees207.txt urbanisation sections",
+   "questions": [
+     "List four challenges of urbanisation in India.",
+     "Name the five most populous cities of the world.",
+     "Suggest steps to make Indian cities more liveable."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,592 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "The Colonial Era in India",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees203.txt",
+ "concepts": [
+  {
+   "id": "c8ss.4.1",
+   "title": "Arrival of Europeans in India",
+   "section": "European Arrival",
+   "definition": "European powers -- the Portuguese, Dutch, French, and British -- arrived in India from the late 15th century onward, initially for trade and later for territorial control.",
+   "formula": "",
+   "key_idea": "The Portuguese arrived first (Vasco da Gama, 1498), followed by the Dutch, British, and French, each establishing trading posts along the Indian coast.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who was the first European to reach India by sea?",
+    "Which European powers came to India for trade?",
+    "Where did the Portuguese establish their base in India?",
+    "When did the British East India Company arrive in India?",
+    "Why did Europeans come to India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the first arrival",
+     "explain": "Vasco da Gama of Portugal reached Calicut in 1498."
+    },
+    {
+     "step": 2,
+     "action": "List the European powers",
+     "explain": "Portuguese, Dutch, British, and French established trading posts in India."
+    },
+    {
+     "step": 3,
+     "action": "Explain the motive",
+     "explain": "Europeans came primarily for the spice trade and later for territorial control."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who was the first European to reach India by sea?",
+     "solution": "Vasco da Gama, a Portuguese explorer, reached Calicut in 1498.",
+     "answer": "Vasco da Gama in 1498."
+    },
+    {
+     "question": "Which European powers came to India for trade?",
+     "solution": "The Portuguese, Dutch, British, and French came to India for trade.",
+     "answer": "Portuguese, Dutch, British, French"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the arrival of European powers in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Where did the Portuguese establish their base in India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Vasco da Gama reached India in which year?",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.2",
+   "title": "British East India Company",
+   "section": "British East India Company",
+   "definition": "The British East India Company, chartered in 1600, was a trading company that gradually acquired political and territorial control over large parts of India.",
+   "formula": "",
+   "key_idea": "Starting with trading posts at Surat, Madras, Bombay, and Calcutta, the Company used its commercial privileges to build military and political power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When was the British East India Company established?",
+    "Where were the main British trading posts in India?",
+    "How did a trading company become a political power?",
+    "What was the significance of the Company's charter?",
+    "Name the three presidency cities of the Company."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the charter year",
+     "explain": "The British East India Company was chartered in 1600."
+    },
+    {
+     "step": 2,
+     "action": "List trading posts",
+     "explain": "Major posts were at Surat, Madras (Fort St. George), Bombay, and Calcutta (Fort William)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the shift to power",
+     "explain": "Through trade, alliances, and military victories, the Company acquired political control."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When was the British East India Company established?",
+     "solution": "The British East India Company was chartered in 1600 by Queen Elizabeth I.",
+     "answer": "1600"
+    },
+    {
+     "question": "Name the three presidency cities of the Company.",
+     "solution": "Madras, Bombay, and Calcutta were the three presidency cities.",
+     "answer": "Madras, Bombay, Calcutta"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did the East India Company become a political power?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Where was the first British factory in India?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.3",
+   "title": "Battle of Plassey (1757)",
+   "section": "Battles for Empire",
+   "definition": "The Battle of Plassey (1757) was a decisive victory of the British East India Company under Robert Clive over the Nawab of Bengal, Siraj-ud-Daulah, marking the beginning of British political rule in India.",
+   "formula": "",
+   "key_idea": "The victory at Plassey gave the Company control over Bengal's revenues and laid the foundation for British political dominance in India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When and where was the Battle of Plassey fought?",
+    "Who won the Battle of Plassey?",
+    "Why was the Battle of Plassey important?",
+    "Who betrayed Siraj-ud-Daulah at Plassey?",
+    "What was the result of the Battle of Plassey?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the year and place",
+     "explain": "The Battle of Plassey was fought in 1757 at Plassey in Bengal."
+    },
+    {
+     "step": 2,
+     "action": "Identify the parties",
+     "explain": "Robert Clive led the British against Nawab Siraj-ud-Daulah of Bengal."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance",
+     "explain": "The British victory gave them control of Bengal and began British political rule in India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When and where was the Battle of Plassey fought?",
+     "solution": "The Battle of Plassey was fought in 1757 at Plassey in Bengal.",
+     "answer": "1757; Plassey, Bengal"
+    },
+    {
+     "question": "Who betrayed Siraj-ud-Daulah at Plassey?",
+     "solution": "Mir Jafar, the commander of Siraj-ud-Daulah's army, betrayed him, leading to the British victory.",
+     "answer": "Mir Jafar"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of the Battle of Plassey.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Who led the British forces at Plassey?",
+     "type": "short_answer"
+    },
+    {
+     "question": "The Battle of Plassey was fought in which year?",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.4",
+   "title": "Battle of Buxar (1764)",
+   "section": "Battles for Empire",
+   "definition": "The Battle of Buxar (1764) was fought between the British East India Company and the combined forces of the Nawabs of Bengal and Awadh and the Mughal Emperor, resulting in a decisive British victory.",
+   "formula": "",
+   "key_idea": "The victory at Buxar consolidated British power in Bengal and led to the granting of Diwani (revenue collection rights) of Bengal, Bihar, and Orissa to the Company.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When was the Battle of Buxar fought?",
+    "Who fought against the British at Buxar?",
+    "What was the significance of the Battle of Buxar?",
+    "What is Diwani and who granted it?",
+    "How did Buxar differ from Plassey?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the year and parties",
+     "explain": "In 1764, the British fought the combined armies of Bengal, Awadh, and the Mughal Emperor at Buxar."
+    },
+    {
+     "step": 2,
+     "action": "Explain the outcome",
+     "explain": "The British won decisively, consolidating their hold over Bengal and neighboring regions."
+    },
+    {
+     "step": 3,
+     "action": "Explain the Diwani",
+     "explain": "In 1765, the Mughal Emperor granted the Company the Diwani of Bengal, Bihar, and Orissa."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When was the Battle of Buxar fought?",
+     "solution": "The Battle of Buxar was fought in 1764.",
+     "answer": "1764"
+    },
+    {
+     "question": "What was the significance of the Battle of Buxar?",
+     "solution": "It consolidated British power in Bengal and led to the grant of Diwani rights to the Company.",
+     "answer": "It secured British control and Diwani rights over Bengal, Bihar, and Orissa."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of the Battle of Buxar.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the Diwani?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.5",
+   "title": "British Expansion in India",
+   "section": "British Expansion",
+   "definition": "After Plassey and Buxar, the British East India Company expanded its control across India through wars, subsidiary alliances, and the doctrine of lapse.",
+   "formula": "",
+   "key_idea": "The Company used direct conquest, subsidiary alliances (Wellesley), and the doctrine of lapse (Dalhousie) to bring most of India under British control by the mid-19th century.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the subsidiary alliance?",
+    "Explain the doctrine of lapse.",
+    "Who introduced the subsidiary alliance system?",
+    "How did the British expand their territory in India?",
+    "Which Indian states were annexed under the doctrine of lapse?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain subsidiary alliance",
+     "explain": "Indian rulers had to keep British troops and pay for them, losing independence in foreign policy."
+    },
+    {
+     "step": 2,
+     "action": "Explain doctrine of lapse",
+     "explain": "States without a natural heir were annexed by the British under Lord Dalhousie."
+    },
+    {
+     "step": 3,
+     "action": "Summarize expansion",
+     "explain": "Through wars, alliances, and annexation, the Company brought most of India under its control."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the subsidiary alliance?",
+     "solution": "It was a system where Indian rulers accepted British troops and paid for their maintenance, surrendering foreign policy control.",
+     "answer": "A system making Indian rulers dependent on the British."
+    },
+    {
+     "question": "Who introduced the doctrine of lapse?",
+     "solution": "Lord Dalhousie introduced the doctrine of lapse.",
+     "answer": "Lord Dalhousie"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the methods of British expansion in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one state annexed under the doctrine of lapse.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who introduced the subsidiary alliance system?",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.6",
+   "title": "Economic Impact of British Rule",
+   "section": "Economic Impact",
+   "definition": "British economic policies transformed India from a producer of manufactured goods into an exporter of raw materials and an importer of British manufactured goods, leading to deindustrialization.",
+   "formula": "",
+   "key_idea": "Heavy taxation, unfavorable trade policies, and the destruction of Indian industries led to economic decline and widespread poverty under British rule.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the economic impact of British rule on India?",
+    "How did British rule affect Indian industries?",
+    "Why did Indian handicrafts decline under British rule?",
+    "What was the drain of wealth?",
+    "How did British trade policies harm India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain deindustrialization",
+     "explain": "British policies destroyed Indian handicrafts by flooding markets with cheap goods."
+    },
+    {
+     "step": 2,
+     "action": "Explain the drain of wealth",
+     "explain": "Surplus revenues were transferred to Britain without adequate return, draining Indian wealth."
+    },
+    {
+     "step": 3,
+     "action": "Explain the trade pattern",
+     "explain": "India exported raw materials and imported British manufactured goods, harming local industry."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the economic impact of British rule on India?",
+     "solution": "British rule led to deindustrialization, the drain of wealth, and widespread poverty in India.",
+     "answer": "Deindustrialization, drain of wealth, and poverty."
+    },
+    {
+     "question": "What was the drain of wealth?",
+     "solution": "The drain of wealth referred to the transfer of India's surplus revenues to Britain without fair economic return.",
+     "answer": "Transfer of Indian wealth to Britain."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the economic impact of British rule in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the drain of wealth?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.7",
+   "title": "Land Revenue Systems",
+   "section": "Land Revenue",
+   "definition": "The British introduced three main land revenue systems -- Zamindari, Ryotwari, and Mahalwari -- to collect taxes from land, each with different implications for farmers and landlords.",
+   "formula": "",
+   "key_idea": "The Zamindari system made zamindars the owners who collected revenue; the Ryotwari system settled revenue directly with cultivators; the Mahalwari system collected revenue village by village.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the three land revenue systems introduced by the British?",
+    "Explain the Zamindari system.",
+    "What was the Ryotwari system?",
+    "Describe the Mahalwari system.",
+    "Which region was under the Zamindari system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Zamindari system",
+     "explain": "Zamindars collected revenue from peasants and paid fixed amounts to the British; common in Bengal and Bihar."
+    },
+    {
+     "step": 2,
+     "action": "Describe Ryotwari system",
+     "explain": "Revenue was collected directly from individual cultivators (ryots); common in south India."
+    },
+    {
+     "step": 3,
+     "action": "Describe Mahalwari system",
+     "explain": "Revenue was assessed village by village; common in north-western provinces like Punjab and Agra."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the three land revenue systems introduced by the British?",
+     "solution": "The three systems were the Zamindari, Ryotwari, and Mahalwari systems.",
+     "answer": "Zamindari, Ryotwari, Mahalwari"
+    },
+    {
+     "question": "Explain the Zamindari system.",
+     "solution": "Under the Zamindari system, zamindars were recognized as landowners and collected revenue from peasants on behalf of the British.",
+     "answer": "Zamindars collected revenue as intermediaries for the British."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the three land revenue systems of British India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which region was under the Ryotwari system?",
+     "type": "short_answer"
+    },
+    {
+     "question": "The Mahalwari system was based on village assessment. True or False?",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.8",
+   "title": "Impact on Indian Industries",
+   "section": "Indian Industries",
+   "definition": "British policies led to the decline of traditional Indian industries, especially textiles, while promoting the export of raw materials and the import of British manufactured goods.",
+   "formula": "",
+   "key_idea": "Indian handicrafts, particularly cotton and silk textiles, could not compete with cheap British factory-made goods, leading to the ruin of artisans and deindustrialization.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did British rule affect Indian industries?",
+    "Why did Indian textiles decline under British rule?",
+    "What happened to Indian artisans under British rule?",
+    "How did British trade policies affect Indian handicrafts?",
+    "What was the impact of cheap British goods on Indian industry?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the decline of textiles",
+     "explain": "Cheap British manufactured textiles undercut Indian handloom products."
+    },
+    {
+     "step": 2,
+     "action": "Explain the fate of artisans",
+     "explain": "Many artisans lost their livelihood and were forced into agriculture."
+    },
+    {
+     "step": 3,
+     "action": "Explain deindustrialization",
+     "explain": "India shifted from a manufacturer to a supplier of raw materials like cotton and indigo."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did British rule affect Indian industries?",
+     "solution": "British policies led to the decline of Indian handicrafts and deindustrialization as cheap British goods flooded the market.",
+     "answer": "Decline of handicrafts and deindustrialization."
+    },
+    {
+     "question": "Why did Indian textiles decline under British rule?",
+     "solution": "Indian textiles could not compete with cheap, machine-made British cloth and unfavorable trade policies.",
+     "answer": "Competition from cheap British manufactured textiles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the impact of British rule on Indian industries.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What happened to Indian artisans under British rule?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.9",
+   "title": "Social and Cultural Changes",
+   "section": "Social Changes",
+   "definition": "British rule brought significant social and cultural changes in India through Western education, social reform movements, and the introduction of new laws and ideas.",
+   "formula": "",
+   "key_idea": "Western education, the printing press, and reform movements led by leaders like Raja Ram Mohan Roy challenged social evils and promoted modern ideas of equality and rationalism.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What social changes occurred during British rule?",
+    "Who was Raja Ram Mohan Roy?",
+    "What was the role of Western education in social reform?",
+    "Name two social reform movements of the 19th century.",
+    "How did the British introduce modern education in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify education changes",
+     "explain": "English-medium education and the printing press spread modern ideas across India."
+    },
+    {
+     "step": 2,
+     "action": "Identify reform movements",
+     "explain": "Reformers like Raja Ram Mohan Roy fought practices like sati and promoted women's rights."
+    },
+    {
+     "step": 3,
+     "action": "Identify legal changes",
+     "explain": "New laws banned sati, allowed widow remarriage, and promoted social justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who was Raja Ram Mohan Roy?",
+     "solution": "Raja Ram Mohan Roy was a social reformer who founded the Brahmo Samaj and campaigned against sati.",
+     "answer": "A social reformer who opposed sati and founded the Brahmo Samaj."
+    },
+    {
+     "question": "What was the role of Western education in social reform?",
+     "solution": "Western education introduced modern ideas of equality, rationalism, and human rights that fueled reform movements.",
+     "answer": "It spread modern ideas that inspired social reform."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the social and cultural changes during British rule.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one social reform movement of the 19th century.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.4.10",
+   "title": "Resistance to British Rule",
+   "section": "Resistance",
+   "definition": "Resistance to British rule took many forms, including tribal uprisings, peasant revolts, civil rebellions, and ultimately the Revolt of 1857, also known as the First War of Independence.",
+   "formula": "",
+   "key_idea": "Discontent caused by economic exploitation, social reforms, and political annexations led to widespread resistance, culminating in the Revolt of 1857 which challenged British authority across northern India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main causes of resistance to British rule?",
+    "Describe the Revolt of 1857.",
+    "Who were the key leaders of the 1857 revolt?",
+    "Why did tribal and peasant uprisings occur?",
+    "What was the significance of the Revolt of 1857?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify causes of resistance",
+     "explain": "Economic exploitation, annexations, and social reforms angered different sections of society."
+    },
+    {
+     "step": 2,
+     "action": "Describe the Revolt of 1857",
+     "explain": "It began as a sepoy mutiny and grew into a widespread rebellion across northern India."
+    },
+    {
+     "step": 3,
+     "action": "Explain its significance",
+     "explain": "The revolt ended Company rule and led to direct British Crown governance of India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main causes of resistance to British rule?",
+     "solution": "Economic exploitation, political annexations, social reforms, and resentment among soldiers caused resistance.",
+     "answer": "Economic, political, social, and military causes."
+    },
+    {
+     "question": "Who were the key leaders of the 1857 revolt?",
+     "solution": "Leaders included Mangal Pandey, Rani Lakshmibai, Bahadur Shah Zafar, Nana Saheb, and Tantia Tope.",
+     "answer": "Mangal Pandey, Rani Lakshmibai, Bahadur Shah Zafar, Nana Saheb, Tantia Tope"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes and significance of the Revolt of 1857.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two leaders of the 1857 revolt.",
+     "type": "short_answer"
+    },
+    {
+     "question": "The Revolt of 1857 ended the rule of the East India Company. True or False?",
+     "type": "objective"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched to new cache"
+}

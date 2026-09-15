@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_005",
+   "title": "c11_cs_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the primary purpose of using a flowchart to represent an algorithm instead of writing the steps in plain English?",
+     "a": "The primary purpose is to provide a **visual representation of the control flow** that makes the sequence of operations, decision points, and data movement immediately apparent, reducing ambiguity and helping detect logical errors before coding. A wrong answer like \"flowcharts are easier to write than English\" reveals the student confuses the *representation medium* with the *cognitive benefit* — flowcharts are not about ease of writing but about clarity of logic structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a flowchart for \"Calculate the total cost of 5 pens at ₹10 each\" and uses a **rectangle** for the step \"Input number of pens and price per pen\". Explain why this is incorrect and name the correct symbol.",
+     "a": "The rectangle represents a **process/computation** (e.g., multiplication), while input/output operations must use a **parallelogram**. Using a rectangle for input blurs the distinction between data entering the system and data being transformed, which leads to errors when later adding validation or file I/O. If the student says \"both are boxes so it doesn't matter\", they miss the semantic meaning of symbols — a critical misconception because standardized symbols are a universal language for programmers.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a flowchart (describe in text: list symbols in order with arrows) for the algorithm: \"Read radius of a circle, compute area (π × r²), print area.\" Use π = 3.14.",
+     "a": "Correct sequence:  \n**Start (Oval)** → **Input radius (Parallelogram)** → **Process: area = 3.14 * radius * radius (Rectangle)** → **Output area (Parallelogram)** → **End (Oval)**  \nArrows connect each symbol top-to-bottom. A wrong answer that swaps the process and output symbols, or omits the Start/End ovals, shows the student does not yet internalize the **mandatory framing** (start/end) and the **strict symbol-type mapping** for I/O vs computation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a flowchart and a written algorithm for the same problem (e.g., \"Find the average of three numbers\"). Identify two specific advantages of the flowchart that are NOT just \"it looks better\".",
+     "a": "1. **Immediate detection of missing steps**: In a flowchart, a missing arrow or unconnected symbol visually jumps out; in text, a skipped line reads like a complete sentence.  \n2. **Unambiguous order of execution**: Arrows enforce a single path; written steps can be misread as parallel or optional.  \nIf the student says \"flowcharts are shorter\", they confuse brevity with structural clarity — a flowchart for a simple problem may actually take more space, but its value is in **explicit control flow**, not compactness.",
+     "self_check": true
+    },
+    {
+     "q": "A flowchart for \"Convert temperature from Fahrenheit to Celsius\" has the process symbol: `C = (F - 32) * 5/9`. The student argues that writing `C = 5/9 * (F - 32)` in the same rectangle is equally correct. Evaluate this claim.",
+     "a": "The claim is **correct** because multiplication is commutative and associative; both expressions yield identical results for all real numbers. However, the student must recognize that **inside a process symbol, any mathematically equivalent expression is acceptable** — the flowchart captures the *logic*, not the exact syntactic form. If the student insists the order must match the formula exactly, they confuse **algorithmic logic** with **code syntax**; flowcharts are pre-code and language-agnostic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-life problem (Indian context, using rupees/kilograms/litres) that can be solved by a **sequential flowchart** (no decisions, no loops). Write the algorithm in 4-5 steps, then describe the flowchart symbols you would use for each step.",
+     "a": "**Problem**: \"A milk vendor buys 15 litres of milk at ₹48 per litre and sells it at ₹55 per litre. Calculate his total profit.\"  \n**Algorithm**:  \n1. Start  \n2. Input cost price per litre (48) and selling price per litre (55) and quantity (15)  \n3. Compute total cost = cost price × quantity  \n4. Compute total revenue = selling price × quantity  \n5. Compute profit = total revenue - total cost  \n6. Output profit  \n7. End  \n**Flowchart symbols**: Start/End (ovals), Input (parallelogram for three values), three Process rectangles (for the three computations), Output (parallelogram). A poor answer would use a decision diamond for \"Is profit positive?\" — revealing the student cannot distinguish sequential from conditional logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

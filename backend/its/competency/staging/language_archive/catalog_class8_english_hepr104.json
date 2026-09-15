@@ -1,0 +1,205 @@
+{
+ "class": 8,
+ "subject": "english",
+ "chapter": 4,
+ "chapter_title": "The Cherry Tree",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hepr104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hepr.4.1",
+   "title": "Rakesh and the Cherry Seed",
+   "section": "The Cherry Tree, Let us read I",
+   "definition": "Six-year-old Rakesh presses a cherry seed into a shady corner of his grandfather's Mussoorie garden and almost forgets it; the seed's quiet rise into a tree teaches him that luck grows only when it is put to use.",
+   "formula": "seed + care + time = cherry tree",
+   "key_idea": "Grandfather's line that nothing is lucky if you put it away turns a discarded seed into a living lesson.",
+   "textbook_ref": "hepr104.txt, The Cherry Tree, Let us read I",
+   "question_patterns": [
+    "how did rakesh plant the cherry seed",
+    "what did grandfather say about lucky cherry seeds",
+    "why did rakesh live with his grandfather in mussoorie",
+    "how did rakesh care for the young cherry tree",
+    "what did rakesh see one morning in early spring",
+    "why is the cherry tree special to rakesh and grandfather"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the central events",
+     "explain": "Retell the main happenings in one or two sentences."
+    },
+    {
+     "step": 2,
+     "action": "trace the turn",
+     "explain": "Point to the moment of change, realisation or sacrifice."
+    },
+    {
+     "step": 3,
+     "action": "state the theme",
+     "explain": "Say the message of the text in one sentence of your own."
+    }
+   ]
+  },
+  {
+   "id": "hepr.4.2",
+   "title": "The Cherry Tree's Struggles and Survival",
+   "section": "The Cherry Tree, Let us read II",
+   "definition": "The young tree survives a goat that eats its leaves, a grass-cutter's scythe that cuts it in two, and heavy snow; each time it sends out new shoots, until it blossoms pink and bears sour cherries that the birds love.",
+   "formula": "",
+   "key_idea": "Cherry trees are tough, as grandfather says; the tree's will to live answers every blow with fresh growth.",
+   "textbook_ref": "hepr104.txt, The Cherry Tree, Let us read II",
+   "question_patterns": [
+    "what dangers did the cherry tree face while growing",
+    "how did the cherry tree recover after the goat ate its leaves",
+    "what happened when the woman cut the tree with her scythe",
+    "when did the cherry tree first blossom",
+    "which birds came to feast on the cherries",
+    "why did grandfather call the cherry tree tough"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the setbacks",
+     "explain": "Note each injury the tree suffers, season by season."
+    },
+    {
+     "step": 2,
+     "action": "watch the recovery",
+     "explain": "Describe the new leaves and shoots that follow each blow."
+    },
+    {
+     "step": 3,
+     "action": "state the reward",
+     "explain": "Recall the blossoms, the fruit and the visitors the grown tree earns."
+    }
+   ]
+  },
+  {
+   "id": "hepr.4.3",
+   "title": "Grandfather's Company: Bond across Generations",
+   "section": "The Cherry Tree, Let us read",
+   "definition": "Grandfather and Rakesh share stories by the charcoal fire, newspapers read aloud, and the garden; growing side by side with the tree, the boy learns patience while the old man finds shade and joy under its leaves.",
+   "formula": "",
+   "key_idea": "The tree binds the two ages: planted by a child, enjoyed by the old, it measures how both have grown.",
+   "textbook_ref": "hepr104.txt, The Cherry Tree, Let us read",
+   "question_patterns": [
+    "how do rakesh and grandfather spend winter evenings",
+    "why does rakesh read the newspaper to grandfather",
+    "what does grandfather mean by we planted it ourselves",
+    "how do rakesh and the cherry tree grow together",
+    "why do grandfather and rakesh like the shade of the tree",
+    "what does rakesh wonder as he lies beneath the tree"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the shared scenes",
+     "explain": "List the moments the two spend together through the seasons."
+    },
+    {
+     "step": 2,
+     "action": "watch the tree between them",
+     "explain": "Note how their talk keeps returning to the growing tree."
+    },
+    {
+     "step": 3,
+     "action": "state the bond",
+     "explain": "Say what the tree finally means to each of them."
+    }
+   ]
+  },
+  {
+   "id": "hepr.4.4",
+   "title": "Word Meanings: Stunted, Tang and Foliage",
+   "section": "The Cherry Tree, Let us learn",
+   "definition": "Hill-country words are fixed by context: stunted means stopped from growing to usual size, tang is a strong sharp taste, foliage means green leaves, and the outskirts are the edges of a town.",
+   "formula": "",
+   "key_idea": "Nature words like haunches, scythe and blossoms place the reader in the Himalayan garden.",
+   "textbook_ref": "hepr104.txt, The Cherry Tree, Let us learn",
+   "question_patterns": [
+    "what does stunted growth mean here",
+    "what is the tang of a cherry",
+    "what does foliage mean in the story",
+    "where are the outskirts of mussoorie in the story",
+    "find the meaning of plodded and grumpy",
+    "use the word flitted in a sentence about the birds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the word",
+     "explain": "Find the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "read the clues around it",
+     "explain": "Use nearby words to sense the meaning that fits."
+    },
+    {
+     "step": 3,
+     "action": "test a replacement",
+     "explain": "Swap in the guessed meaning and check the sentence still works."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr104.txt, Let us read I",
+   "concept": "hepr.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What advice did Grandfather give about the lucky cherry seed?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall Rakesh's question",
+     "explain": "Rakesh asks whether cherry seeds are lucky and wants to keep the seed."
+    },
+    {
+     "step": 2,
+     "action": "read the answer",
+     "explain": "Grandfather says nothing is lucky if you put it away; luck must be put to use, so the seed is planted."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hepr104.txt, Let us read II",
+   "concept": "hepr.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "How did the cherry tree respond after the scythe cut it in two?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the damage",
+     "explain": "A woman cutting grass sweeps her scythe and the tree is cut in two."
+    },
+    {
+     "step": 2,
+     "action": "note the reply of the tree",
+     "explain": "By the next summer it has sent out several new shoots with tender green leaves, refusing to die."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr104.txt, Let us discuss and think and reflect",
+   "questions": [
+    "Arrange the ten events of the story in the order they happen.",
+    "Do you think the cherry tree would survive the goat and the scythe? Why?",
+    "Complete the cause-and-effect table for part II of the story.",
+    "Why did Rakesh water the tree even when it rained?",
+    "What makes the cherry tree more special to Rakesh than the trees of the forest?"
+   ]
+  }
+ ]
+}

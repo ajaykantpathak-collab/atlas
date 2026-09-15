@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_005",
+   "title": "c11_cs_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the exact output of the following code snippet when `marks = 75`?\n```python\nif marks >= 90:\n    print(\"Grade A\")\nelif marks >= 75:\n    print(\"Grade B\")\nelif marks >= 60:\n    print(\"Grade C\")\nelse:\n    print(\"Grade D\")\n```",
+     "a": "The output is `Grade B`. The first condition `marks >= 90` is false, so the interpreter checks the first `elif` condition `marks >= 75`, which is true (75 >= 75). It executes that block and skips all remaining `elif` and `else` blocks. A wrong answer like `Grade C` reveals the student thinks all conditions are checked independently (like multiple separate `if` statements) rather than sequentially with short-circuiting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following two code fragments are NOT logically equivalent for all values of `x`:\n```python",
+     "a": "They are logically equivalent for all integer/real `x`; the statement in the question is false — they ARE equivalent. Fragment A uses nesting: the inner `if-else` only runs when `x > 0`. Fragment B flattens it using `and` and `elif`. Both print \"Small positive\" for 0 < x < 10, \"Large positive\" for x >= 10, and \"Non-positive\" for x <= 0. A student who claims they are not equivalent likely misunderstands that `elif x > 0` in Fragment B is only reached when the first condition `x > 0 and x < 10` is false, which implies `x >= 10` (since `x > 0` must be true to reach that `elif`). This misconception stems from not tracing the short-circuit logic of `elif`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program segment that reads an integer `score` (0-100) and prints the category: \"Excellent\" for 90-100, \"Good\" for 75-89, \"Average\" for 60-74, \"Needs Improvement\" for 40-59, and \"Fail\" for below 40. Use an if-elif-else ladder. Then trace the execution for `score = 74`.",
+     "a": "```python\nscore = int(input(\"Enter score: \"))\nif score >= 90:\n    print(\"Excellent\")\nelif score >= 75:\n    print(\"Good\")\nelif score >= 60:\n    print(\"Average\")\nelif score >= 40:\n    print(\"Needs Improvement\")\nelse:\n    print(\"Fail\")\n```\nFor `score = 74`: first condition false (74>=90), second false (74>=75), third true (74>=60) → prints \"Average\". A wrong trace (e.g., printing \"Good\") indicates the student incorrectly ordered the conditions (e.g., put `>=60` before `>=75`) or thinks multiple blocks can execute.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the execution flow and readability of these two approaches for a 4-category classification problem. Which is preferable and why?\nApproach 1: Nested if-else (4 levels deep)\nApproach 2: if-elif-else ladder (4 branches)\nConsider a scenario where categories are: (i) x < 0, (ii) 0 <= x < 10, (iii) 10 <= x < 20, (iv) x >= 20.",
+     "a": "Approach 2 (if-elif-else ladder) is preferable. The conditions are mutually exclusive and at the same decision level (all classify `x` based on its value). A ladder evaluates conditions sequentially from top to bottom, is flat (indentation level 1), and clearly shows the partition of the number line. Approach 1 would require nesting like `if x < 0: ... else: if x < 10: ... else: if x < 20: ... else: ...`, which increases indentation, makes it harder to see the mutual exclusivity, and is more error-prone. A student preferring nesting here likely hasn't internalized that `elif` is specifically designed for multi-way branching on the same variable.",
+     "self_check": true
+    },
+    {
+     "q": "A student wrote the following code to classify a triangle by sides (equilateral, isosceles, scalene). Identify the logical error and correct it.\n```python\na = int(input(\"Side a: \"))\nb = int(input(\"Side b: \"))\nc = int(input(\"Side c: \"))\nif a == b:\n    if b == c:\n        print(\"Equilateral\")\n    else:\n        print(\"Isosceles\")\nelif b == c:\n    print(\"Isosceles\")\nelif a == c:\n    print(\"Isosceles\")\nelse:\n    print(\"Scalene\")\n```",
+     "a": "The code is logically correct for valid triangles. However, it does not validate the triangle inequality (sum of any two sides > third side). For invalid inputs like 1, 2, 3 it would print \"Scalene\" incorrectly. The error is a missing validity check before classification. A student who says \"no error\" misses the requirement that classification only applies to valid triangles. The fix: add a preliminary check `if a + b > c and a + c > b and b + c > a:` wrapping the entire classification, else print \"Invalid triangle\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) that requires a three-level nested if-else structure where the outer condition has three branches, the middle has two, and the inner has two. Write the problem statement and the skeleton code with comments only (no actual conditions).",
+     "a": "Problem: A bank offers loan interest rates based on customer type (Salaried, Self-Employed, Student), loan amount (≤5 lakh, >5 lakh), and credit score (≥750, <750). Skeleton:\n```python\ncustomer_type = input(\"Type (Salaried/Self-Employed/Student): \")\nloan_amount = float(input(\"Loan amount in lakhs: \"))\ncredit_score = int(input(\"Credit score: \"))\n\nif customer_type == \"Salaried\":\n    # outer branch 1\n    if loan_amount <= 5:\n        # middle branch 1\n        if credit_score >= 750:\n            # inner branch 1\n            pass\n        else:\n            # inner branch 2\n            pass\n    else:\n        # middle branch 2\n        if credit_score >= 750:\n            pass\n        else:\n            pass\nelif customer_type == \"Self-Employed\":\n    # outer branch 2 (similar structure)\n    pass\nelse:\n    # outer branch 3 (Student)\n    pass\n```\nA poor answer would use an if-elif-else ladder for customer_type but then fail to nest the subsequent decisions inside each branch, showing confusion about when nesting is required (hierarchical decisions) vs when a ladder suffices (flat, mutually exclusive choices at same level).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

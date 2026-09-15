@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_7",
+   "title": "c8_physics_ch7_7",
+   "questions": [
+    {
+     "q": "What is the approximate duration of one lunar month (synodic month) in days, and which two identical Moon phases mark its beginning and end?",
+     "a": "One lunar month is approximately 29.5 days, measured from one New Moon to the next New Moon (or Full Moon to next Full Moon). A wrong answer like \"28 days\" or \"30 days exactly\" reveals the student is confusing the lunar month with the Moon's orbital period (sidereal month, 27.3 days) or a calendar month, and hasn't grasped that the Earth-Moon system must move around the Sun for the phase to repeat.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a purely lunar calendar of 12 months (354 days) cause festivals like Ramadan or Diwali to shift earlier each year relative to the Gregorian calendar seasons?",
+     "a": "A lunar year of 12 × 29.5 = 354 days is about 11 days shorter than the solar year (~365.25 days). Each year the lunar calendar starts 11 days earlier relative to the Sun's position, so seasons drift. A wrong answer like \"the Moon moves faster\" or \"the Earth rotates slower\" shows the student doesn't understand the cumulative difference between lunar and solar cycles.",
+     "self_check": true
+    },
+    {
+     "q": "If an ancient lunisolar calendar adds an extra 13th month (Adhik Maas) every 3 years to catch up with the solar year, how many total days does this 3-year cycle contain, and how close is it to 3 solar years? (Use 29.5 days/lunar month, 365.25 days/solar year)",
+     "a": "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days. Difference = 33.75 days (about 1 month short). The student who gets 1062 but doesn't compare to solar years misses the point that even with intercalation every 3 years, a small drift remains — requiring more sophisticated rules like the 19-year Metonic cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Islamic (purely lunar) and Hindu (lunisolar) calendars: which one keeps festivals in the same season every year, and what structural feature enables this?",
+     "a": "The Hindu lunisolar calendar keeps festivals seasonally aligned because it inserts an intercalary month (Adhik Maas) roughly every 32.5 months to reconcile lunar months with the solar year. The Islamic calendar has no intercalation, so Ramadan shifts through all seasons over a 33-year cycle. A student who says \"both use Moon phases\" misses the critical difference in handling the 11-day annual drift.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ancient Egyptians used a lunar calendar for agriculture because the Nile flood depended on Moon phases.\" Evaluate this statement using historical and astronomical reasoning.",
+     "a": "The claim is incorrect. Egyptians developed a *solar* civil calendar (365 days, 12 months × 30 days + 5 epagomenal days) tied to the heliacal rising of Sirius, which predicted the Nile flood. They used a separate lunar calendar for religious festivals. A wrong evaluation shows the student conflates all ancient calendars as lunar and doesn't know that agriculture requires seasonal (solar) alignment, not lunar phases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lunar calendar for a fictional planet where the moon orbits every 20 Earth-days and the planet's year is 300 Earth-days. How many months in a year? What intercalation rule would you propose to keep the calendar aligned with seasons over a 10-year period?",
+     "a": "300 ÷ 20 = 15 months exactly — no intercalation needed if the ratio is integer. But if the moon's period were 20.2 days, then 300 ÷ 20.2 ≈ 14.85 months/year. Over 10 years: 148.5 months → need 148 or 149 months. A good rule: add 1 extra month every 2 years (7 times in 10 years) to get 149 months. A poor answer ignores the fractional remainder or proposes random intercalation without a repeating cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

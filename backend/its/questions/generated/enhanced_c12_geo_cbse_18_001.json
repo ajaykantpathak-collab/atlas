@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_001",
+   "title": "c12_geo_cbse_18_001",
+   "questions": [
+    {
+     "q": "Define geographical data and give one concrete example from the Indian context that matches the NCERT definition.",
+     "a": "Geographical data are numbers representing measurements from the real world (e.g., 20 cm rainfall in Barmer, 1385 km rail distance Delhi–Mumbai via Kota). A wrong answer that says \"data are facts\" or \"data are information\" reveals the student has not grasped the NCERT distinction: data are *raw measurements*; information is a *meaningful answer to a query* derived from data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the average depth of the river (0.95 m) being less than the child's height (1 m) did not prevent drowning. What geographical principle does this illustrate about using averages in spatial analysis?",
+     "a": "The average (0.95 m) masks the actual variation: one measurement was 1.5 m, deeper than the child's height. The child drowned at that deeper point. This illustrates the **statistical fallacy**: using a single summary statistic (mean) without examining the distribution leads to erroneous conclusions. In geography, phenomena (rainfall, population density, groundwater depth) vary spatially; an average for a region can hide critical local extremes that determine outcomes (e.g., flood risk, irrigation feasibility).",
+     "self_check": true
+    },
+    {
+     "q": "A student collects maximum temperatures (°C) of five Indian cities on a summer day: Delhi 42, Mumbai 33, Chennai 38, Kolkata 36, Shimla 22.  \n(a) Calculate the mean temperature.  \n(b) The student concludes \"India is experiencing a heat wave.\" Identify the geographical error in this conclusion and name the concept violated.",
+     "a": "(a) Mean = (42+33+38+36+22)/5 = 34.2°C.  \n(b) The conclusion ignores **spatial variation** — Shimla (22°C) is not in a heat wave. The concept violated is that **geographical phenomena are spatially heterogeneous**; a national average obscures regional realities. A geographer would map the temperatures, identify heat-wave zones (e.g., plains >40°C), and relate to continentality vs. maritime influence.",
+     "self_check": true
+    },
+    {
+     "q": "Contrast these two pairs of Indian geographical data:  \nPair A: Annual rainfall — Cherrapunji 11,000 mm vs. Jaisalmer 150 mm.  \nPair B: Population density — Delhi 11,320 persons/km² vs. Arunachal Pradesh 17 persons/km².  \nWhat do these contrasts reveal about the nature of geographical data? Why is reporting only the national average rainfall or average population density insufficient for planning?",
+     "a": "Geographical data exhibit **extreme spatial variability** (orders of magnitude difference). National averages (e.g., India's average rainfall ~1,100 mm; average density ~420 persons/km²) erase the very patterns that drive planning: water scarcity in Rajasthan vs. flood management in Meghalaya; urban infrastructure pressure in Delhi vs. service delivery challenges in sparse Arunachal. Planning requires **disaggregated, location-specific data** to capture spatial inequality and target interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the age of big data, the challenge in geography is not collecting data but distinguishing reliable data from noise.\" Use the concepts of data vs. information and statistical fallacy to justify your answer.",
+     "a": "Agree. Big data provides voluminous *raw measurements* (data), but without critical processing — source validation, contextualisation, appropriate statistical treatment — they remain noise. The river-depth fallacy shows how a simple average (a form of uncritical processing) can be dangerously misleading. Reliable geographical **information** requires: (1) assessing source credibility (primary vs. secondary, government vs. private), (2) checking representativeness (sample design, spatial coverage), (3) using measures of dispersion (range, standard deviation) alongside averages, and (4) mapping spatial patterns. Without these, big data can amplify statistical fallacies (e.g., spurious correlations from uncritical regression on massive datasets).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple data-collection plan to study maximum temperature variation across your school campus over one week. Specify: (a) what you will measure, (b) number and selection of locations, (c) time of measurement, (d) how you will avoid the statistical fallacy of reporting only a single campus-wide average.",
+     "a": "(a) Maximum air temperature using a calibrated thermometer.  \n(b) Minimum 5 locations representing different micro-environments: open playground, shaded courtyard, rooftop, near building wall, garden/lawn.  \n(c) Same time daily (e.g., 14:00 IST) to control for diurnal cycle.  \n(d) Record each location separately; compute **range, standard deviation, and daily spatial map** (isotherm sketch) instead of a single campus average. This reveals microclimatic variation (e.g., rooftop 2–3°C hotter than lawn) that a campus average would hide — directly applying the lesson from the river-depth fallacy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

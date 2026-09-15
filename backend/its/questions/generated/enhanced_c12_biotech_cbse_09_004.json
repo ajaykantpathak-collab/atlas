@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_004",
+   "title": "c12_biotech_cbse_09_004",
+   "questions": [
+    {
+     "q": "Name the three main clinical sources of hematopoietic stem cells used for transplantation and state the typical volume of bone marrow aspirated from a donor for an adult recipient.",
+     "a": "The three main sources are: (1) Bone marrow (harvested by aspiration from the posterior iliac crests, typically 10–15 mL/kg donor body weight, ~500–1000 mL total for an adult), (2) Mobilized peripheral blood stem cells (collected by leukapheresis after G-CSF mobilization), and (3) Umbilical cord blood (collected from the placenta/umbilical vein after delivery, typically 60–100 mL). A wrong answer that lists \"embryonic stem cells\" or \"adipose tissue\" reveals confusion between HSCs and other stem cell types (covered in nodes c12_biotech_cbse_09_001 and c12_biotech_cbse_09_005). Forgetting the volume indicates lack of procedural detail needed for board short-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why granulocyte colony-stimulating factor (G-CSF) is administered to a donor before peripheral blood stem cell (PBSC) collection, and why this source now exceeds bone marrow as the preferred graft for adult allogeneic transplants.",
+     "a": "G-CSF mobilizes HSCs from the bone marrow niche into the peripheral circulation by disrupting the CXCR4/SDF-1 retention axis and increasing neutrophil proteases that cleave adhesion molecules. This allows collection via apheresis (non-surgical, no general anesthesia). PBSC grafts contain 10–20× more CD34+ cells than bone marrow, leading to faster neutrophil and platelet engraftment (median 10–14 days vs 15–20 days), reducing transfusion and infection risk. A wrong answer that says \"G-CSF creates new stem cells\" reveals a fundamental misunderstanding: G-CSF only *mobilizes* existing HSCs, it does not increase their absolute number long-term. Missing the engraftment speed advantage misses a key NEET comparison point.",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old male with relapsed diffuse large B-cell lymphoma is planned for high-dose chemotherapy followed by autologous stem cell rescue. His peripheral blood CD34+ count after G-CSF mobilization is 15 cells/µL. The target dose for safe autologous transplant is ≥2 × 10⁶ CD34+ cells/kg recipient body weight. If the patient weighs 70 kg and the apheresis machine processes 12 L of blood with a CD34+ collection efficiency of 40%, will a single apheresis session yield an adequate graft? Show your calculation.",
+     "a": "Step 1: Calculate required total CD34+ cells = 2 × 10⁶ cells/kg × 70 kg = 1.4 × 10⁸ cells.\nStep 2: Calculate total CD34+ cells available in processed blood = 15 cells/µL × 12 L × (10⁶ µL/L) = 15 × 12 × 10⁶ = 1.8 × 10⁸ cells.\nStep 3: Account for collection efficiency (40%) = 1.8 × 10⁸ × 0.40 = 7.2 × 10⁷ cells collected.\nStep 4: Compare: 7.2 × 10⁷ < 1.4 × 10⁸ → **Inadequate**. A second apheresis day or plerixafor addition is needed.\nA wrong answer that forgets to convert liters to microliters (factor of 10⁶) or ignores the 40% efficiency shows unit-conversion and real-world-efficiency blind spots common in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast umbilical cord blood (UCB) and mobilized peripheral blood (PBSC) as HSC sources for allogeneic transplantation across these four parameters: (a) HLA matching stringency, (b) time to neutrophil engraftment, (c) risk of chronic graft-versus-host disease (cGVHD), (d) cell dose limitation.",
+     "a": "(a) HLA matching: UCB tolerates 1–2 antigen mismatches (4/6 or 5/6 HLA-A, -B, -DR) due to immunological naivety of T-cells; PBSC requires high-resolution 8/8 or 10/10 match (HLA-A, -B, -C, -DRB1, -DQB1). (b) Engraftment: UCB slower (median 21–28 days) due to lower CD34+ dose (~1–5 × 10⁷/kg); PBSC faster (10–14 days) with higher dose (~5–10 × 10⁶/kg). (c) cGVHD: UCB significantly lower incidence (~10–15%) vs PBSC (~40–50%) because naive T-cells are less alloreactive. (d) Cell dose: UCB limited by fixed volume (single unit often insufficient for adults >70 kg, requiring double-unit transplants); PBSC dose easily scalable by additional apheresis days. A wrong answer that claims UCB engrafts faster or has higher cGVHD reverses the key trade-offs tested in NEET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Autologous HSC transplantation is the preferred curative option for a 25-year-old with newly diagnosed acute myeloid leukemia (AML) in first complete remission who has an HLA-matched sibling donor.\" Justify your evaluation with two evidence-based reasons.",
+     "a": "The statement is **incorrect**. Reason 1: For AML in first remission with a matched sibling donor, *allogeneic* transplant is preferred because of the graft-versus-leukemia (GVL) effect mediated by donor T-cells recognizing residual host leukemia antigens, which reduces relapse risk by 30–40% compared to autologous transplant. Reason 2: Autologous transplant carries risk of reinfusing occult leukemic cells (even after purging) and lacks GVL, resulting in higher relapse rates (50–60% vs 20–30% for allogeneic). The only exception is if the patient has severe comorbidities making allogeneic transplant prohibitively risky (HCT-CI score >3). A student who selects \"autologous\" confuses the standard of care for lymphoma (where autologous is standard) with AML, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a patient-information flowchart (text-based) for a couple expecting a baby who are considering private vs. public umbilical cord blood banking. Include at least four decision nodes with evidence-based criteria (e.g., family history, HLA match probability, cost, likelihood of use).",
+     "a": "A good answer produces a logical flowchart, e.g.:\nSTART → Node 1: Does a first-degree relative have a disease treatable by HSC transplant (e.g., thalassemia, leukemia)? YES → Private banking strongly recommended (directed donation). NO → Node 2: Is the family of mixed ethnicity/minority background where finding an unrelated donor is difficult? YES → Private banking may be considered. NO → Node 3: Can the family afford ₹50,000–₹1,00,000 initial + ₹3,000–₹5,000 annual storage without financial strain? YES → Node 4: Donate to public bank (free, increases inventory for patients in need, ~30% chance unit will be used). NO → Discard (standard care). A poor answer omits the public donation option or ignores the <0.04% autologous use probability, showing lack of critical appraisal of commercial marketing claims.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

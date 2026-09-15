@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_004",
+   "title": "c11_math_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the exact values of sin 45°, cos 45°, and tan 45° in radical form. Also give the radian measure of 45°.",
+     "a": "sin 45° = 1/√2, cos 45° = 1/√2, tan 45° = 1. Radian measure = π/4. A wrong answer (e.g., sin 45° = 0.5) reveals the student has not memorized the standard angle values or confuses them with 30°/60° values. It also indicates they may not know the radian equivalent, which is essential for Class 11 where radian measure is standard.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sin(π/2 - θ) = cos θ for any acute angle θ, using the unit circle definition.",
+     "a": "On the unit circle, an angle θ has coordinates (cos θ, sin θ). The complementary angle π/2 - θ corresponds to the point (cos(π/2 - θ), sin(π/2 - θ)). Geometrically, rotating by π/2 - θ is equivalent to reflecting the point (cos θ, sin θ) across the line y = x, giving coordinates (sin θ, cos θ). Hence sin(π/2 - θ) = cos θ and cos(π/2 - θ) = sin θ. A wrong explanation (e.g., just stating the formula without geometric reasoning) shows the student memorized the identity but does not understand its origin, making it harder to derive similar relations like tan(π/2 - θ) = cot θ.",
+     "self_check": true
+    },
+    {
+     "q": "If sin θ = 3/5 and θ is acute, find the exact values of cos θ, tan θ, and sec θ without using a calculator.",
+     "a": "Given sin θ = 3/5. Since θ is acute, cos θ > 0. Using sin²θ + cos²θ = 1 → cos²θ = 1 - 9/25 = 16/25 → cos θ = 4/5. Then tan θ = sin θ/cos θ = (3/5)/(4/5) = 3/4. sec θ = 1/cos θ = 5/4. A common error is forgetting to take the positive square root for cos θ (since θ is acute) or miscalculating the fraction arithmetic. Another error is using the reciprocal identity incorrectly (e.g., sec θ = 4/5).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the values of sin 30°, sin 45°, and sin 60°. Explain the pattern you observe and predict whether sin 15° would be greater or smaller than sin 30°.",
+     "a": "sin 30° = 1/2 = 0.5, sin 45° = 1/√2 ≈ 0.707, sin 60° = √3/2 ≈ 0.866. The sine function increases as the angle increases from 0° to 90° (in the first quadrant). Therefore, sin 15° < sin 30° because 15° < 30°. A student who says sin 15° > sin 30° does not understand the monotonic increasing nature of sine in the first quadrant, a key concept for later calculus and graphing.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that tan 45° = 1 implies tan 30° = 1/√3 and tan 60° = √3 are also exact values. Evaluate this claim: Is it correct? Justify your answer using the complementary angle relation.",
+     "a": "The claim is correct. tan 30° = 1/√3 and tan 60° = √3 are exact values. Justification: tan 60° = tan(90° - 30°) = cot 30° = 1/tan 30° = √3. This uses the complementary relation tan(π/2 - θ) = cot θ. A student who cannot justify this shows they only memorized the table but cannot connect complementary angles to tangent values, which is needed for solving equations like tan θ = √3.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a right triangle where one acute angle is 30° and the opposite side is 5 metres. Ask for the length of the hypotenuse and the adjacent side. Solve your own problem.",
+     "a": "Problem: A ladder leans against a wall making a 30° angle with the ground. The foot of the ladder is 5 m from the wall. Find the length of the ladder and the height it reaches on the wall. Solution: cos 30° = adjacent/hypotenuse = 5/h → h = 5/cos 30° = 5/(√3/2) = 10/√3 m. Height = opposite = h sin 30° = (10/√3) × 1/2 = 5/√3 m. Or directly tan 30° = height/5 → height = 5/√3 m. A poor problem would use non-standard angles or ask for values that cannot be expressed exactly with standard angles, indicating the student does not appreciate the utility of exact values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

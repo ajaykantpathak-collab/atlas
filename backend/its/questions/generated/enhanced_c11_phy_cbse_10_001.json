@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_001",
+   "title": "c11_phy_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define temperature and heat. State their SI units. Is heat a property of a system? Justify your answer in one sentence.",
+     "a": "Temperature is an intensive thermodynamic variable measuring degree of hotness; SI unit: kelvin (K). Heat is energy transferred due to temperature difference; SI unit: joule (J). Heat is NOT a property of a system — it is energy in transit, existing only during transfer. A wrong answer (e.g., \"heat is energy stored in a body\") reveals the caloric theory misconception where students treat heat as a fluid-like substance contained within objects.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical copper blocks A and B are at 80°C and 20°C respectively. They are placed in thermal contact in an insulated container. Describe the direction of heat flow and the final equilibrium temperature. Explain why the final temperature is exactly 50°C.",
+     "a": "Heat flows from block A (80°C) to block B (20°C) until thermal equilibrium. Final temperature = 50°C because the blocks are identical (same mass, same specific heat capacity), so heat lost by A = heat gained by B gives (80 - T_f) = (T_f - 20) → T_f = 50°C. A wrong answer (e.g., \"heat flows from B to A\" or \"final temperature is not 50°C\") reveals confusion about heat flow direction or misunderstanding that temperature equilibrates, not heat content.",
+     "self_check": true
+    },
+    {
+     "q": "A 2.0 kg aluminium block at 150°C is placed in thermal contact with a 3.0 kg copper block at 30°C in an insulated container. Given s_Al = 900 J kg⁻¹ K⁻¹ and s_Cu = 386 J kg⁻¹ K⁻¹, calculate the final equilibrium temperature. Show all steps with units.",
+     "a": "Step 1: Heat lost by Al = heat gained by Cu (insulated system). m_Al s_Al (T_Al - T_f) = m_Cu s_Cu (T_f - T_Cu).\nStep 2: (2.0 kg)(900 J kg⁻¹ K⁻¹)(150 - T_f) = (3.0 kg)(386 J kg⁻¹ K⁻¹)(T_f - 30).\nStep 3: 1800(150 - T_f) = 1158(T_f - 30).\nStep 4: 270000 - 1800T_f = 1158T_f - 34740 → 304740 = 2958T_f.\nStep 5: T_f = 103.0°C.\nUnit check: kg × J kg⁻¹ K⁻¹ × K = J on both sides. A wrong answer (e.g., 90°C) reveals arithmetic error or using mass-weighted average instead of heat-capacity-weighted average.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A cup of hot coffee at 80°C has more heat than a bathtub of warm water at 30°C because the coffee is hotter.\" Analyze this statement using the concepts of temperature, heat, and internal energy. Is the student correct? Explain.",
+     "a": "The student is incorrect. Temperature (80°C vs 30°C) indicates degree of hotness, not total energy. Heat is energy *in transit*, not contained. The bathtub has vastly larger mass, so its internal energy (U = mcT approximately) is much greater despite lower temperature. The coffee would transfer heat *to* the bathtub if mixed, but the bathtub's temperature would barely change. A wrong analysis (agreeing with the student) reveals confusion between temperature (intensive) and internal energy (extensive), and treating heat as a stored quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following solution: \"Two bodies at different temperatures are brought into contact. Heat flows from the hotter body to the colder body until both have the same amount of heat.\" Identify the error and correct it.",
+     "a": "The error: \"until both have the same amount of heat\" — heat is not a property bodies possess; they have internal energy. Thermal equilibrium means equal *temperature*, not equal heat. Corrected statement: \"Heat flows from the hotter body to the colder body until both reach the same temperature (thermal equilibrium).\" A student who misses this error still holds the caloric theory misconception and cannot distinguish between heat (transfer) and internal energy (state).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a mercury thermometer, two identical beakers, hot water, cold water, and a stirrer to demonstrate that heat transfer depends on temperature difference, not on the \"amount of heat\" in the hotter body. Describe the procedure, measurements, and expected conclusion.",
+     "a": "Procedure: (1) Fill beaker A with 100 mL water at 80°C, beaker B with 200 mL water at 80°C (twice the mass, same temperature). (2) Place identical thermometers in each. (3) Simultaneously immerse both beakers in a large ice-water bath at 0°C. (4) Record temperature vs time for both. Expected: Both cool at nearly identical rates initially because initial ΔT = 80°C is same; heat *rate* depends on ΔT, not total internal energy. A poor design (e.g., comparing different initial temperatures) reveals failure to isolate variables and misunderstanding of Newton's law of cooling (covered later in c11_phy_cbse_10_015).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

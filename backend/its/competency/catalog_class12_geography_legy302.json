@@ -1,0 +1,244 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 30,
+ "chapter_title": "Data Processing",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy302.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.302.1",
+   "title": "Measures of Central Tendency",
+   "section": "Measures of Central Tendency",
+   "definition": "A measure of central tendency summarises a data series by one typical value: the arithmetic mean divides the sum of values by their number, the median is the middle value of the ordered series, and the mode is the most frequently occurring value.",
+   "formula": "mean_value = sum_of_values / number_of_values",
+   "key_idea": "The arithmetic mean equals the sum of all values divided by how many values there are.",
+   "textbook_ref": "legy302.txt mean, median and mode definitions and computation",
+   "question_patterns": [
+    "define mean, median and mode",
+    "compute the mean of a given data series",
+    "when is the median preferred over the mean",
+    "find the mode of a frequency distribution",
+    "what does central tendency summarise in data",
+    "which measure is affected most by extreme values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the values",
+     "explain": "the numerator of the mean is the sum of the series",
+     "compute": "sum_of_values = value_1 + value_2 + value_3"
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
+     "explain": "the mean is sum over count",
+     "compute": "mean_value = sum_of_values / number_of_values"
+    }
+   ]
+  },
+  {
+   "id": "legy.302.2",
+   "title": "Computing the Median",
+   "section": "Median",
+   "definition": "The median is found by arranging values in ascending order and taking the middle value; for an even number of observations the median is the average of the two middle values, making it resistant to extremes.",
+   "formula": "median_even = (middle_low + middle_high) / 2",
+   "key_idea": "With an even number of ordered values the median is the average of the two central values.",
+   "textbook_ref": "legy302.txt median computation steps",
+   "question_patterns": [
+    "state the steps to find the median",
+    "compute the median for even and odd counts",
+    "why is the median called a positional measure",
+    "compare median and mean for skewed rainfall data",
+    "find the median from a frequency table",
+    "give a geographic example where median fits better"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the two middle values",
+     "explain": "order the series and pick the central pair",
+     "compute": "middle_low = 1"
+    },
+    {
+     "step": 2,
+     "action": "average them",
+     "explain": "their average is the median",
+     "compute": "median_even = (middle_low + middle_high) / 2"
+    }
+   ]
+  },
+  {
+   "id": "legy.302.3",
+   "title": "Measures of Dispersion",
+   "section": "Measures of Dispersion",
+   "definition": "Dispersion measures how values spread around the central value; the range is the difference between the largest and smallest values, the mean deviation averages absolute distances from the mean, and the standard deviation squares distances before averaging, giving the most used spread measure.",
+   "formula": "range_value = largest_value - smallest_value",
+   "key_idea": "The range of a data series is the largest value minus the smallest value.",
+   "textbook_ref": "legy302.txt range, mean deviation and standard deviation sections",
+   "question_patterns": [
+    "define range and compute it for a series",
+    "what does a high standard deviation indicate",
+    "contrast mean deviation and standard deviation",
+    "why is dispersion needed alongside central tendency",
+    "compute the range of monthly rainfall values",
+    "relate dispersion to reliability of the mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the extremes",
+     "explain": "the largest and smallest values bound the spread",
+     "compute": "largest_value = 1"
+    },
+    {
+     "step": 2,
+     "action": "subtract smallest from largest",
+     "explain": "the difference is the range",
+     "compute": "range_value = largest_value - smallest_value"
+    }
+   ]
+  },
+  {
+   "id": "legy.302.4",
+   "title": "Processing Steps for Geographic Data",
+   "section": "Processing of Data",
+   "definition": "Data processing runs from editing and coding collected figures, classifying them into class intervals, tallying frequencies and computing summary measures, so that raw field sheets become analysable frequency tables ready for graphs and maps.",
+   "formula": "",
+   "key_idea": "Classification into class intervals is the bridge between raw numbers and every table, graph and map that follows.",
+   "textbook_ref": "legy302.txt editing, classification and frequency table sections",
+   "question_patterns": [
+    "list the steps of data processing",
+    "how are class intervals chosen",
+    "construct a frequency table from raw scores",
+    "what is tally marking",
+    "why edit data before processing",
+    "relate frequency tables to later mapping"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sequence the steps",
+     "explain": "editing, coding, classification, tally and summary form the processing chain"
+    },
+    {
+     "step": 2,
+     "action": "explain intervals",
+     "explain": "class intervals group values so frequencies become visible"
+    },
+    {
+     "step": 3,
+     "action": "close with output",
+     "explain": "the frequency table feeds every later diagram and map"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy302_1",
+   "source_ref": "legy302.txt mean computation section",
+   "concept": "legy.302.1",
+   "question_type": "compute",
+   "question_pattern": "Five villages record rainfall of 62, 58, 71, 69 and 60 cm. Compute the mean rainfall.",
+   "extracted_variables": {
+    "value_1": 62,
+    "value_2": 58,
+    "value_3": 71,
+    "number_of_values": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the values",
+     "explain": "62 + 58 + 71 gives the running sum",
+     "compute": "sum_of_values = value_1 + value_2 + value_3"
+    },
+    {
+     "step": 2,
+     "action": "divide by five",
+     "explain": "sum over five villages is the mean",
+     "compute": "mean_value = sum_of_values / number_of_values"
+    }
+   ]
+  },
+  {
+   "id": "we_legy302_2",
+   "source_ref": "legy302.txt range section",
+   "concept": "legy.302.3",
+   "question_type": "compute",
+   "question_pattern": "Monthly rainfall ranges from 3 cm in January to 31 cm in July. Compute the range.",
+   "extracted_variables": {
+    "largest_value": 31,
+    "smallest_value": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify extremes",
+     "explain": "largest 31, smallest 3",
+     "compute": "largest_value = 31"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "31 - 3 = 28 cm is the range",
+     "compute": "range_value = largest_value - smallest_value"
+    }
+   ]
+  },
+  {
+   "id": "we_legy302_3",
+   "source_ref": "legy302.txt median section",
+   "concept": "legy.302.2",
+   "question_type": "compute",
+   "question_pattern": "Find the median of the ordered series 4, 7, 9, 12, 15, 18.",
+   "extracted_variables": {
+    "middle_low": 9,
+    "middle_high": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the central pair",
+     "explain": "the series has six values, so the middle pair is 9 and 12",
+     "compute": "middle_low = 9"
+    },
+    {
+     "step": 2,
+     "action": "average the pair",
+     "explain": "(9 + 12) / 2 = 10.5 is the median",
+     "compute": "median_even = (middle_low + middle_high) / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy302_1",
+   "source_ref": "legy302.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "compute the mean of a given rainfall series",
+    "find the median of an even-numbered data set",
+    "compute the range and interpret dispersion",
+    "construct a frequency table with class intervals",
+    "explain which measure of central tendency suits skewed data"
+   ]
+  },
+  {
+   "id": "ex_legy302_2",
+   "source_ref": "legy302.txt applied questions, reworded",
+   "questions": [
+    "argue why the mean misleads with extreme values",
+    "process a raw field sheet into a frequency table",
+    "compare mean deviation and standard deviation",
+    "relate dispersion to crop risk assessment",
+    "choose summary measures for a village income survey"
+   ]
+  }
+ ]
+}

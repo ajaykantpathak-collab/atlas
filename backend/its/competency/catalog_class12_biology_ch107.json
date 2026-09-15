@@ -1,0 +1,494 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 107,
+ "chapter_title": "Strategies for Enhancement in Food Production",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo107.txt",
+ "concepts": [
+  {
+   "id": "jebh.9.1",
+   "title": "Animal Husbandry: Dairy, Poultry, and Fisheries",
+   "section": "9.1",
+   "definition": "The agricultural practice of breeding and raising livestock including cattle for dairy, birds for poultry, and aquatic organisms for fisheries to meet the growing demand for food of animal origin.",
+   "formula": "",
+   "key_idea": "Animal husbandry encompasses dairy farming, poultry management, and fisheries to enhance production of milk, eggs, meat, and fish for human consumption.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "define animal husbandry and list its major branches",
+    "explain the scope of dairy farming, poultry, and fisheries in food production",
+    "how does animal husbandry contribute to meeting human nutritional demands",
+    "differentiate between dairy farming and poultry management",
+    "describe animal husbandry (dairy, poultry, fisheries) with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the major branches of animal husbandry",
+     "explain": "Animal husbandry includes dairy farming for milk, poultry for eggs and meat, fisheries for aquatic food, and bee-keeping for honey."
+    },
+    {
+     "step": 2,
+     "action": "examine the contribution of each branch to food production",
+     "explain": "Dairy provides milk and derivatives, poultry supplies eggs and broiler meat, and fisheries furnish protein-rich aquatic food."
+    },
+    {
+     "step": 3,
+     "action": "relate animal husbandry to rising human demand",
+     "explain": "With increasing human population, animal husbandry bridges the gap between demand and supply of animal-based food products."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is animal husbandry? Name its three major branches that contribute to food production.",
+     "solution": "Animal husbandry is the practice of breeding and raising livestock for food and other products. Its three major branches are dairy farming (milk), poultry (eggs and meat), and fisheries (aquatic food).",
+     "answer": "Animal husbandry is the agricultural practice of managing livestock; its major branches are dairy farming, poultry, and fisheries."
+    },
+    {
+     "question": "How does poultry farming differ from dairy farming in terms of food output?",
+     "solution": "Poultry farming primarily yields eggs and broiler meat from birds, whereas dairy farming yields milk and milk products from cattle and buffaloes.",
+     "answer": "Poultry provides eggs and meat; dairy provides milk and milk products."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define animal husbandry and list its major branches.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how fisheries contribute to food production in India.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Differentiate between dairy farming and poultry management.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.3",
+   "title": "Animal Breeding: Inbreeding and Outbreeding",
+   "section": "9.1.2",
+   "definition": "The systematic mating of animals to increase yield and develop desirable traits, encompassing inbreeding (mating of related animals) and outbreeding (mating of unrelated animals).",
+   "formula": "",
+   "key_idea": "Inbreeding increases homozygosity and can cause inbreeding depression, while outbreeding including crossbreeding introduces hybrid vigour and improves productivity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "differentiate between inbreeding and outbreeding in animal breeding",
+    "what is inbreeding depression and how can it be overcome",
+    "explain the importance of crossbreeding in improving livestock yield",
+    "describe outbreeding devices such as outcrossing and interspecific hybridization",
+    "what do you understand by animal breeding (inbreeding and outbreeding)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish inbreeding from outbreeding",
+     "explain": "Inbreeding involves mating of more closely related individuals within the same breed, whereas outbreeding involves mating unrelated animals."
+    },
+    {
+     "step": 2,
+     "action": "analyse the effects of inbreeding",
+     "explain": "Continuous inbreeding increases homozygosity and can lead to inbreeding depression, reducing fertility and productivity."
+    },
+    {
+     "step": 3,
+     "action": "evaluate outbreeding methods for hybrid vigour",
+     "explain": "Outcrossing, crossbreeding, and interspecific hybridization introduce new alleles and produce heterosis, improving yield and vigour."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is inbreeding depression? How can a breeder overcome it?",
+     "solution": "Inbreeding depression is the reduced fertility and productivity that arises from continued mating of closely related animals due to increased homozygosity. It can be overcome by outcrossing with unrelated superior animals of the same breed.",
+     "answer": "Inbreeding depression is loss of fertility and productivity from continued inbreeding; it is overcome by outcrossing."
+    },
+    {
+     "question": "How does crossbreeding improve cattle yield? Give an example.",
+     "solution": "Crossbreeding between two superior breeds combines desirable traits and produces hybrid vigour. For example, Hisardale sheep was developed by crossing Bikaneri ewes with Marino rams.",
+     "answer": "Crossbreeding combines desirable traits and produces heterosis; Hisardale sheep is an example."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between inbreeding and outbreeding.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain inbreeding depression and the methods to overcome it.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Describe the role of crossbreeding in livestock improvement with an example.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.4",
+   "title": "Bee-Keeping (Apiculture)",
+   "section": "9.1.3",
+   "definition": "The practice of rearing honey bees for the production of honey and beeswax, requiring knowledge of bee behaviour, colony structure, and suitable pasturage.",
+   "formula": "",
+   "key_idea": "Apiculture yields honey, a highly nutritious food, and beeswax, while requiring suitable bee species, pasturage, and colony management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is apiculture and why is it important",
+    "name the common bee species used in bee-keeping in India",
+    "explain the factors that affect honey yield in apiculture",
+    "describe the products obtained from bee-keeping",
+    "short note on bee-keeping (apiculture)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define apiculture and its products",
+     "explain": "Apiculture is the rearing of honey bees for honey and beeswax, both of commercial and nutritional value."
+    },
+    {
+     "step": 2,
+     "action": "identify suitable bee species",
+     "explain": "In India, Apis indica, Apis dorsata, and Apis florea are commonly used for bee-keeping."
+    },
+    {
+     "step": 3,
+     "action": "assess factors influencing honey yield",
+     "explain": "Honey yield depends on the quality and quantity of pasturage (nectar-rich flowers) and the bee species selected."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is apiculture? Name two products obtained from it.",
+     "solution": "Apiculture is the rearing of honey bees. The two main products are honey and beeswax.",
+     "answer": "Apiculture is rearing honey bees; products are honey and beeswax."
+    },
+    {
+     "question": "Name the bee species commonly reared in India and state one factor that determines honey yield.",
+     "solution": "Apis indica is commonly reared in India. Honey yield depends on the availability of nectar-rich pasturage.",
+     "answer": "Apis indica is commonly reared; pasturage quality determines honey yield."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define apiculture and list its products.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name the bee species used in bee-keeping in India.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.5",
+   "title": "Plant Breeding: Steps and Methods",
+   "section": "9.2",
+   "definition": "The purposeful manipulation of plant species to create improved crop varieties with higher yield, better quality, and resistance to diseases through a defined sequence of steps.",
+   "formula": "",
+   "key_idea": "Plant breeding follows four steps: collection of variability, evaluation and selection of parents, cross hybridisation of selected parents, and testing and commercial release of new cultivars.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list the main steps of plant breeding",
+    "explain the process of cross hybridisation in plant breeding",
+    "what is the importance of collection of variability in plant breeding",
+    "describe how a new crop variety is tested and released commercially",
+    "describe plant breeding (steps and methods) with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect and conserve genetic variability",
+     "explain": "Germplasm collection from wild relatives and existing varieties provides the raw material for selection."
+    },
+    {
+     "step": 2,
+     "action": "evaluate and cross hybridise selected parents",
+     "explain": "Superior parents are selected and cross-pollinated to combine desirable traits, producing hybrid progeny."
+    },
+    {
+     "step": 3,
+     "action": "test and release the new cultivar",
+     "explain": "Hybrid lines are evaluated over several generations for yield and disease resistance before commercial release."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List the four main steps involved in plant breeding.",
+     "solution": "The four steps are: collection of variability, evaluation and selection of parents, cross hybridisation of selected parents, and testing and commercial release of new cultivars.",
+     "answer": "The four steps are variability collection, parent selection, cross hybridisation, and testing and release."
+    },
+    {
+     "question": "Give an example of a disease-resistant wheat variety developed through plant breeding.",
+     "solution": "Himgiri is a disease-resistant wheat variety developed through hybridisation and selection for resistance to leaf and stripe rust.",
+     "answer": "Himgiri is a disease-resistant wheat variety developed by plant breeding."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the main steps of plant breeding.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the process of cross hybridisation in plant breeding.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give an example of an improved crop variety developed through plant breeding.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.6",
+   "title": "Tissue Culture and Micropropagation",
+   "section": "9.2.1",
+   "definition": "The technique of regenerating whole plants from explant tissues or single cells grown on nutrient medium under aseptic conditions, exploiting the totipotency of plant cells.",
+   "formula": "",
+   "key_idea": "Micropropagation allows rapid production of disease-free, genetically identical plants, while somaclonal variation generates useful genetic diversity in culture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is tissue culture and on what property of cells is it based",
+    "explain the process of micropropagation",
+    "what is somaclonal variation and how is it useful",
+    "describe the applications of tissue culture in agriculture",
+    "describe tissue culture and micropropagation with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the principle of totipotency",
+     "explain": "Each plant cell retains the capacity to regenerate a complete plant, which is exploited in tissue culture."
+    },
+    {
+     "step": 2,
+     "action": "describe the micropropagation process",
+     "explain": "An explant is grown on a nutrient medium to form a callus, which differentiates into plantlets that are hardened and transferred to soil."
+    },
+    {
+     "step": 3,
+     "action": "evaluate somaclonal variation and applications",
+     "explain": "Genetic variation arising in culture (somaclonal variation) can be selected for desirable traits such as disease resistance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On what principle is tissue culture based? Name one application.",
+     "solution": "Tissue culture is based on totipotency, the ability of a single plant cell to regenerate a whole plant. One application is rapid multiplication of disease-free plants.",
+     "answer": "Tissue culture is based on totipotency; it is used for rapid disease-free plant multiplication."
+    },
+    {
+     "question": "What is somaclonal variation?",
+     "solution": "Somaclonal variation is the genetic variation observed in plants regenerated from cell cultures, which can be exploited to select improved varieties.",
+     "answer": "Somaclonal variation is genetic variation in cultured cells useful for crop improvement."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define tissue culture and state the principle on which it is based.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain micropropagation and its applications.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is somaclonal variation and how is it useful in plant breeding?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.7",
+   "title": "Single Cell Protein (SCP)",
+   "section": "9.3",
+   "definition": "The production of protein-rich biomass from unicellular microorganisms such as algae, fungi, bacteria, and yeast grown on inexpensive substrates for use as food or feed.",
+   "formula": "protein_yield = microbial_biomass * protein_fraction",
+   "key_idea": "Single cell protein provides an alternative protein source by cultivating microbes on waste materials, reducing pressure on conventional agriculture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is single cell protein and why is it important",
+    "name the microorganisms used for scp production",
+    "how does scp help reduce environmental pollution",
+    "explain the advantages of single cell protein over conventional protein sources",
+    "compute the protein yield from a given microbial biomass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the microbial biomass produced",
+     "explain": "Determine the total dry microbial biomass generated from the substrate.",
+     "compute": "microbial_biomass = substrate_mass * conversion_efficiency"
+    },
+    {
+     "step": 2,
+     "action": "determine the protein fraction of the biomass",
+     "explain": "Each microbe has a characteristic protein content expressed as a fraction of dry biomass.",
+     "compute": "protein_fraction = protein_content_percent / 100"
+    },
+    {
+     "step": 3,
+     "action": "compute the protein yield",
+     "explain": "Multiply the microbial biomass by the protein fraction to obtain the usable single cell protein yield.",
+     "compute": "protein_yield = microbial_biomass * protein_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is single cell protein? Name two microbes used for its production.",
+     "solution": "Single cell protein is the protein-rich biomass obtained from unicellular microbes. Spirulina and yeast are commonly used for SCP production.",
+     "answer": "SCP is microbial protein biomass; Spirulina and yeast are used."
+    },
+    {
+     "question": "If 100 kg of substrate yields 50 kg of dry microbial biomass with a protein content of 60 percent, calculate the protein yield.",
+     "solution": "microbial_biomass = 50 kg; protein_fraction = 60/100 = 0.6; protein_yield = 50 * 0.6 = 30 kg.",
+     "answer": "The protein yield is 30 kg."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define single cell protein and name two microbes used for its production.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Calculate the protein yield if 200 kg of substrate produces 80 kg of microbial biomass with 50 percent protein content.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how single cell protein helps reduce environmental pollution.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.8",
+   "title": "Biofortification: Enhancing Nutritional Quality",
+   "section": "9.4",
+   "definition": "The breeding strategy of developing crop varieties with higher levels of vitamins, minerals, and proteins to improve the nutritional quality of food.",
+   "formula": "nutrient_increase_percent = ((fortified_level - original_level) / original_level) * 100",
+   "key_idea": "Biofortification enriches crops with micronutrients and essential amino acids, addressing hidden hunger caused by nutrient-deficient diets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is biofortification and why is it important",
+    "give two examples of biofortified crops and the nutrients enhanced",
+    "how does biofortification differ from ordinary plant breeding",
+    "explain the objectives of biofortification in improving nutritional quality",
+    "compute the percentage increase in nutrient content after biofortification"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the original and fortified nutrient levels",
+     "explain": "Determine the nutrient content of the conventional variety and the biofortified variety.",
+     "compute": "difference = fortified_level - original_level"
+    },
+    {
+     "step": 2,
+     "action": "calculate the relative increase",
+     "explain": "Divide the difference by the original level to obtain the fractional increase.",
+     "compute": "relative_increase = difference / original_level"
+    },
+    {
+     "step": 3,
+     "action": "convert the relative increase to a percentage",
+     "explain": "Multiply the relative increase by 100 to express the nutrient enhancement as a percentage.",
+     "compute": "nutrient_increase_percent = relative_increase * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is biofortification? Give one example of a biofortified crop.",
+     "solution": "Biofortification is the breeding of crops with enhanced nutrient content. Golden rice is enriched with beta-carotene (vitamin A precursor).",
+     "answer": "Biofortification enriches crops nutritionally; golden rice is enriched with beta-carotene."
+    },
+    {
+     "question": "A maize variety originally contains 20 ppm of iron. After biofortification it contains 35 ppm. Calculate the percentage increase in iron content.",
+     "solution": "difference = 35 - 20 = 15 ppm; relative_increase = 15/20 = 0.75; nutrient_increase_percent = 0.75 * 100 = 75 percent.",
+     "answer": "The percentage increase in iron content is 75 percent."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define biofortification and state its objectives.",
+     "type": "verify_property"
+    },
+    {
+     "question": "A wheat variety has 30 ppm zinc originally and 45 ppm after biofortification. Calculate the percentage increase in zinc content.",
+     "type": "compute"
+    },
+    {
+     "question": "Give two examples of biofortified crops and the nutrients enhanced.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.9",
+   "title": "Green Revolution and Plant Breeding",
+   "section": "9.2.2",
+   "definition": "The dramatic increase in crop production achieved through the development and adoption of high-yielding, disease-resistant semi-dwarf varieties of wheat and rice during the mid-twentieth century.",
+   "formula": "",
+   "key_idea": "The Green Revolution relied on plant breeding to produce semi-dwarf varieties of wheat and rice that responded to fertilizers and reduced lodging, dramatically increasing food grain production.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what was the green revolution and which crops were involved",
+    "name the varieties of wheat and rice that contributed to the green revolution in India",
+    "explain the role of plant breeding in the green revolution",
+    "why were semi-dwarf varieties preferred during the green revolution",
+    "describe green revolution and plant breeding with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the crops and varieties central to the green revolution",
+     "explain": "Semi-dwarf varieties of wheat (Sonora 64, Lerma Rojo) and rice (IR-8, Taichung Native-1) were developed through plant breeding."
+    },
+    {
+     "step": 2,
+     "action": "explain the advantage of semi-dwarf stature",
+     "explain": "Semi-dwarf varieties have shorter stems, reducing lodging and allowing better response to fertilizers, which increases grain yield."
+    },
+    {
+     "step": 3,
+     "action": "assess the impact on food production",
+     "explain": "The adoption of these varieties dramatically increased wheat and rice production, making India self-sufficient in food grains."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the semi-dwarf varieties of wheat and rice that contributed to the green revolution in India.",
+     "solution": "Semi-dwarf wheat varieties include Sonara 64 and Lerma Rojo, developed by Norman Borlaug. Rice varieties include IR-8 and Taichung Native-1, developed at IRRI.",
+     "answer": "Wheat: Sonara 64, Lerma Rojo; Rice: IR-8, Taichung Native-1."
+    },
+    {
+     "question": "Why were semi-dwarf varieties preferred over tall varieties during the green revolution?",
+     "solution": "Tall varieties lodged when fertilized and irrigated, reducing yield. Semi-dwarf varieties resisted lodging and responded better to fertilizers, increasing grain output.",
+     "answer": "Semi-dwarf varieties resisted lodging and used fertilizers better, increasing yield."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What was the green revolution? Name the crops and varieties involved.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the role of plant breeding in the green revolution.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why were semi-dwarf varieties preferred during the green revolution?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

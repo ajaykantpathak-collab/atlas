@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_007",
+   "title": "c10_eco_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define adulteration in the context of consumer exploitation and give one common example from the Indian food market.",
+     "a": "Adulteration is the intentional addition of inferior, harmful, or cheaper substances to a genuine product to increase quantity and profit, reducing quality and potentially endangering health. Example: Mixing argemone seeds (which resemble mustard seeds) in mustard oil, causing epidemic dropsy. A wrong answer (e.g., \"adulteration means selling expired goods\") reveals the student confuses adulteration with sale of stale/substandard goods without additive mixing — a common board exam error where students blur distinct exploitation categories.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells \"1 kg\" of loose sugar but the actual weight is 950 grams. The price charged is for 1 kg. Explain why this is under-weighing and not adulteration, and state which consumer right is primarily violated.",
+     "a": "Under-weighing involves delivering less quantity than paid for, without altering the product's composition — the sugar is pure but the measure is false. Adulteration would mean adding sand or chalk powder to the sugar. The primary right violated is the Right to be Assured of Fair Value (or Right to Choose/Value for Money) because the consumer pays for 1000g but receives only 950g. A wrong answer that says \"Right to Safety is violated\" shows the student incorrectly maps quantity fraud to safety risk, a frequent board exam confusion between exploitation types and corresponding rights.",
+     "self_check": true
+    },
+    {
+     "q": "A packaged juice label states \"No Added Sugar\" and \"100% Fruit Juice\". Laboratory testing reveals it contains 15% added sucrose and only 40% fruit concentrate. The MRP is ₹80 for 1 litre. Calculate the effective price the consumer pays per litre of actual fruit juice content, and identify the exploitation type.",
+     "a": "Step 1: Identify actual fruit juice volume = 40% of 1 litre = 0.4 litres.  \nStep 2: Total price paid = ₹80.  \nStep 3: Effective price per litre of pure fruit juice = ₹80 / 0.4 = ₹200 per litre.  \nStep 4: The label misrepresents composition — this is a false claim (misleading advertisement).  \nStep 5: The consumer pays ₹200 for what they believe is 1 litre of pure juice, but gets only 0.4 litres.  \nAnswer: ₹200 per litre of actual fruit juice; exploitation type = false claim.  \nA wrong calculation (e.g., ₹80/1 = ₹80) reveals the student ignores the composition fraud and treats the labelled quantity as true — a trap in board case-based questions where data must be extracted from the scenario, not taken at face value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the health risk and detection difficulty of adulteration vs. under-weighing in the context of daily consumables like milk and cereals. Which is more dangerous for a low-income household and why?",
+     "a": "Adulteration (e.g., water + detergent in milk, or stones in rice) poses direct health hazards — detergent causes kidney damage, stones cause dental/intestinal injury — and is harder to detect without lab tests. Under-weighing (e.g., 900g sold as 1kg rice) causes financial loss but no immediate health risk; it can be detected by a simple weighing scale. For a low-income household spending 60% of income on food, adulteration is more dangerous because health costs (medical bills, lost wages) amplify the financial burden, and they lack resources for quality testing. A wrong answer saying \"under-weighing is worse because they lose money\" ignores the compounding health-poverty trap — a nuance CBSE competency questions often test through case studies on vulnerable consumers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Strict enforcement of standardisation marks (ISI, Agmark, Hallmark) alone can eliminate consumer exploitation in India.\" Provide two arguments for and two against, using economic reasoning.",
+     "a": "For: (1) Standardisation reduces information asymmetry by signalling verified quality, lowering search costs for consumers. (2) Legal backing (BIS Act, 2016) enables penalties, creating deterrence.  \nAgainst: (1) Many exploitative practices (under-weighing, false claims in services, digital fraud) fall outside product standardisation scope. (2) Informal/unorganised sector (80% of retail) often operates without certification; enforcement capacity is limited. (3) Counterfeit marks exist — marks alone don't guarantee authenticity without supply chain traceability.  \nJudgement: Necessary but insufficient; must be combined with consumer awareness, effective redressal, and digital monitoring.  \nA wrong answer that says \"Yes, marks guarantee safety\" shows over-reliance on certification without understanding market structure limitations — a common board exam oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple 3-step \"Consumer Self-Check\" routine a Class 10 student can teach their family to detect adulteration, under-weighing, and false claims while buying packed and loose goods in a weekly market. Each step must be actionable without lab equipment.",
+     "a": "Step 1 (Packed goods): Check for standardisation mark (ISI/Agmark/Hallmark/FSSAI licence number), verify net weight on label vs. actual weight using a home kitchen scale, and scan the \"Best Before\" date and ingredient list for contradictions (e.g., \"no added sugar\" but sugar listed in ingredients).  \nStep 2 (Loose goods): Inspect visually/smell (e.g., pure ghee solidifies in winter, adulterated doesn't); ask the seller to weigh in your presence using a calibrated scale — refuse if they use non-standard weights.  \nStep 3 (All goods): Keep the bill (mandatory under Legal Metrology Act) — it is evidence for complaint. Report discrepancies via the National Consumer Helpline (1800-11-4000) or consumerhelpline.gov.in.  \nA poor answer that only says \"check the label\" misses the actionable, multi-layered verification (weighing, sensory checks, evidence preservation) needed for board exam \"suggest measures\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

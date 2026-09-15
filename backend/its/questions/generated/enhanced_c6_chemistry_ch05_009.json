@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_009",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_009",
+   "title": "c6_chemistry_ch05_009",
+   "questions": [
+    {
+     "q": "What is the primary difference between a physical change and a chemical change regarding the substance involved?",
+     "a": "In a physical change, the original substance remains the same, while in a chemical change, a new substance with different properties is formed. A student who says \"they are just different types of changes\" misses the core concept of new material formation.",
+     "self_check": true
+    },
+    {
+     "q": "If you tear a piece of paper into small bits, why is it considered a physical change?",
+     "a": "It is physical because the paper remains paper; only its size and shape changed. If a student thinks it is chemical because the paper \"looks different,\" they are confusing physical appearance (shape) with the chemical identity of the substance.",
+     "self_check": true
+    },
+    {
+     "q": "You add sugar to water and it disappears. Is this a physical or chemical change? Justify your answer.",
+     "a": "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water. A student who calls it chemical because the sugar \"vanished\" fails to recognize that the chemical identity of sugar molecules does not change when dissolved.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the rusting of an iron nail classified as a chemical change?",
+     "a": "Rusting is chemical because the iron reacts with oxygen and moisture to form a new substance (iron oxide) with properties distinct from iron. A student who thinks it is physical because \"it's just a color change\" ignores that the substance itself has been fundamentally altered.",
+     "self_check": true
+    },
+    {
+     "q": "If a baker heats dough to make bread, is this a physical or chemical change? Defend your answer.",
+     "a": "It is a chemical change because heat causes ingredients to react, creating a new substance (bread) that cannot be turned back into raw dough. A student who says physical because \"it’s still just food\" fails to account for the irreversible chemical transformation of ingredients.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a change you see at home. Describe it and explain how you would prove to a friend whether it is physical or chemical.",
+     "a": "A good answer would describe an activity like melting butter or cooking an egg. The explanation must clearly distinguish between reversible state changes (melting) and irreversible substance changes (cooking) based on the \"new substance\" rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

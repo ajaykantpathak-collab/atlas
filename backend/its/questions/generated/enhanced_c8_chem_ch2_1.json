@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_1",
+   "title": "c8_chem_ch2_1",
+   "questions": [
+    {
+     "q": "What are the fundamental building blocks that compose all matter around us?",
+     "a": "Matter is composed of extremely small particles called atoms and molecules. A wrong answer often mentions large visible pieces or continuous matter, revealing a misunderstanding that matter is a solid, unbroken sheet rather than a collection of discrete particles.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a crystal of potassium permanganate color an entire beaker of water when dissolved, even when only a tiny amount is used?",
+     "a": "The crystal breaks down into millions of tiny, invisible particles that spread out evenly into the spaces between water particles. A wrong answer might state that the crystal melts or dissolves into a liquid layer, missing the key concept that substances are made of countable, discrete particles that disperse.",
+     "self_check": true
+    },
+    {
+     "q": "If you take 50g of chalk and crush it into a fine powder, have you broken the substance down into its fundamental constituent particles? Explain your reasoning.",
+     "a": "No, crushing chalk only creates smaller physical pieces of calcium carbonate, not its fundamental constituent particles (atoms of calcium, carbon, and oxygen). Step 1: Identify the initial substance (calcium carbonate, $CaCO_3$). Step 2: Analyze the physical action (mechanical crushing reduces particle size but keeps molecules intact). Step 3: Compare with chemical breakdown (which separates molecules into atoms or simpler substances). A wrong answer assumes physical grinding breaks chemical bonds, confusing physical changes with chemical decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "How does the particle theory of matter explain why gases can be easily compressed while solids cannot?",
+     "a": "In gases, particles have very large spaces between them, allowing them to be pushed closer together under pressure. In solids, particles are tightly packed with minimal inter-particle space. A wrong answer suggests gas particles themselves shrink under pressure, confusing particle compression with particle volume reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"When water boils and turns into steam, the water molecules break apart into hydrogen and oxygen atoms.\" Is this correct? Justify your answer.",
+     "a": "This statement is incorrect. Boiling is a physical change where water ($H_2O$) changes state from liquid to gas; the molecules remain intact as $H_2O$, they just move farther apart and faster. Breaking water into hydrogen and oxygen requires a chemical change (electrolysis), not a physical change like boiling. A wrong answer reveals a confusion between phase changes (physical) and decomposition reactions (chemical).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home observation using common kitchen items (like salt, water, and food coloring) to prove that matter consists of particles with spaces between them. Describe your steps and expected observation.",
+     "a": "A good answer should describe filling a glass with water up to a mark, adding a measured amount of salt or sugar, stirring until dissolved, and noting that the water level does not rise significantly. This proves that the solute particles fit into the empty spaces between water particles. A poor answer fails to connect the observation of volume stability to inter-particle spaces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

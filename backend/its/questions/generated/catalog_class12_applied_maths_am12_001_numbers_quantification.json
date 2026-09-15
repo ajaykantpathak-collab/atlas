@@ -1,0 +1,375 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_001_numbers_quantification.json",
+ "concepts": [
+  {
+   "id": "am12_001.1",
+   "title": "Modular Arithmetic Remainder",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 4 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 6 with a set of size 4?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 6 elements have?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 5 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "33554432",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 3 at a time.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.2",
+   "title": "Modulo Addition Property",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 4 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 4?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 3 at a time.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.3",
+   "title": "Alligation Mean Price",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 145, find the index number.",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 9, 10, 17 and the base-year prices are 14, 10, 18. Find the simple aggregative price index (two decimal places).",
+     "a": "85.71",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 85.71 and the corresponding Paasche price index is 85.71. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.73",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 56 + 7 x. Find the fitted value at x = 5.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 2 per kg (4 kg) and Rs 3 per kg (2 kg). Find the mean price by alligation (two decimal places).",
+     "a": "2.33",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 80 litres; 8 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.4",
+   "title": "Replaced Liquid Remaining",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 130, find the index number.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 9, 11, 10 and the base-year prices are 13, 7, 16. Find the simple aggregative price index (two decimal places).",
+     "a": "83.33",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 83.33 and the corresponding Paasche price index is 83.33. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.69",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 26 + 5 x. Find the fitted value at x = 5.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 5 per kg (3 kg) and Rs 8 per kg (6 kg). Find the mean price by alligation (two decimal places).",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 10 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.5",
+   "title": "Boats Upstream Downstream Speeds",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A can finish a job in 4 days and B in 6 days. Working together, how many days will they take (two decimal places)?",
+     "a": "2.4",
+     "self_check": false
+    },
+    {
+     "q": "A pipe fills a tank in 6 hours while a leak empties it in 8 hours. With both open, how long to fill the tank (two decimal places)?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A bus covers 120 km in 3 hours and 180 km in 2 hours. Find its average speed for the whole journey.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "10 workers build a wall in 6 days. How long would 20 workers take (inverse proportion)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A boat's downstresam speed is 16 km/h and its upstream speed is 8 km/h. Find the speed of the stream.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A boat travels 60 km upstream at 8 km/h. How many hours does the trip take?",
+     "a": "7.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.6",
+   "title": "Pipes and Cisterns Filling Time",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A can finish a job in 8 days and B in 8 days. Working together, how many days will they take (two decimal places)?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A pipe fills a tank in 3 hours while a leak empties it in 6 hours. With both open, how long to fill the tank (two decimal places)?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A bus covers 120 km in 3 hours and 180 km in 2 hours. Find its average speed for the whole journey.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "6 workers build a wall in 12 days. How long would 24 workers take (inverse proportion)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A boat's downstresam speed is 14 km/h and its upstream speed is 10 km/h. Find the speed of the stream.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A boat travels 48 km upstream at 10 km/h. How many hours does the trip take?",
+     "a": "4.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.7",
+   "title": "Partnership Profit Sharing",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 400 and sells it for Rs 480. Find the profit.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 400, selling price Rs 480. Find the profit percentage.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 400 is sold for Rs 240. Find the loss percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 400. At what price should he sell it?",
+     "a": "440",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 600 and the shop offers a 15% discount. What is the sale price?",
+     "a": "510",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 600 sells for Rs 510 after a discount. Find the discount percentage.",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.8",
+   "title": "Races and Games Start Advantage",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 113, find the index number.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 17, 18, 15 and the base-year prices are 18, 6, 13. Find the simple aggregative price index (two decimal places).",
+     "a": "135.14",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 135.14 and the corresponding Paasche price index is 135.14. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "1.83",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 21 + 6 x. Find the fitted value at x = 5.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 4 per kg (9 kg) and Rs 7 per kg (6 kg). Find the mean price by alligation (two decimal places).",
+     "a": "5.2",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 80 litres; 20 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.9",
+   "title": "First Come First Serve Waiting Time",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 131, find the index number.",
+     "a": "131",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 9, 15, 19 and the base-year prices are 14, 8, 7. Find the simple aggregative price index (two decimal places).",
+     "a": "148.28",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 148.28 and the corresponding Paasche price index is 148.28. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "2.2",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 30 + 7 x. Find the fitted value at x = 5.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 8 per kg (6 kg) and Rs 9 per kg (7 kg). Find the mean price by alligation (two decimal places).",
+     "a": "8.54",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 80 litres; 20 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_001.10",
+   "title": "Numerical Inequality Cross Comparison",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 3 = 57.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 9 = 18.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 18 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 15 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x + 5 = 2x + 6.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 4) = 15.",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

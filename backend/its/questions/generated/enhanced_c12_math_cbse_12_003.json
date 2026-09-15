@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_12_003",
+   "title": "c12_math_cbse_12_003",
+   "questions": [
+    {
+     "q": "State the definition of a feasible region in a linear programming problem with two variables. What are the non‑negativity constraints?",
+     "a": "The feasible region is the common region determined by all the constraints (including non‑negativity constraints \\(x \\ge 0, y \\ge 0\\)) of a linear programming problem. The non‑negativity constraints are \\(x \\ge 0\\) and \\(y \\ge 0\\). A wrong answer (e.g., \"the region that satisfies only the main constraints\") reveals that the student forgets that non‑negativity is part of every LPP and must be included in the graph.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the optimal value of a linear objective function \\(Z = ax + by\\) over a convex polygonal feasible region must occur at a corner point (vertex) and not in the interior or on an edge (unless the edge itself is optimal).",
+     "a": "Because \\(Z = ax + by\\) is a linear function, its level curves are parallel straight lines. As we move a level line in the direction of increasing (or decreasing) \\(Z\\), the last point of the feasible region that the line touches is always a vertex. If the feasible region is bounded, Theorem 1 guarantees the optimum is at a vertex. A wrong answer (e.g., \"it occurs at the centre\") shows the student does not understand the geometry of linear functions and confuses linear programming with quadratic optimisation.",
+     "self_check": true
+    },
+    {
+     "q": "For the constraints \\(x + y \\le 10\\), \\(2x + y \\le 14\\), \\(x \\ge 0\\), \\(y \\ge 0\\), find the feasible region and list the coordinates of all its corner points.",
+     "a": "Step 1: Graph \\(x + y = 10\\) (intercepts (10,0) and (0,10)) and shade below. Step 2: Graph \\(2x + y = 14\\) (intercepts (7,0) and (0,14)) and shade below. Step 3: Include first quadrant (\\(x\\ge0, y\\ge0\\)). The feasible region is a quadrilateral with corner points: O(0,0), A(7,0) [intersection of \\(2x+y=14\\) with x‑axis], B(4,6) [intersection of \\(x+y=10\\) and \\(2x+y=14\\): subtract to get \\(x=4\\), then \\(y=6\\)], C(0,10) [intersection of \\(x+y=10\\) with y‑axis]. A wrong answer (e.g., missing (0,0) or miscalculating B as (5,5)) reveals errors in solving simultaneous equations or forgetting axes intersections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Corner Point Method for a bounded feasible region with the method required when the feasible region is unbounded. What additional check must be performed in the unbounded case?",
+     "a": "For a bounded region, the maximum and minimum of \\(Z\\) are simply the largest and smallest values of \\(Z\\) at the corner points (Theorem 2). For an unbounded region, after finding the smallest/largest corner‑point value \\(m/M\\), we must check whether the open half‑plane \\(ax+by < m\\) (or \\(> M\\)) has any point in common with the feasible region. If it does, no minimum (or maximum) exists. A wrong answer (e.g., \"same method works\") shows the student ignores the critical difference highlighted in Theorem 2 and the remark.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP and obtains corner points (0,0), (5,0), (3,4), (0,5). For \\(Z = 4x + 3y\\), they claim the maximum is 24 at (3,4) and the minimum is 0 at (0,0). Evaluate this claim and identify any error.",
+     "a": "Evaluate \\(Z\\) at each corner: (0,0)→0; (5,0)→20; (3,4)→12+12=24; (0,5)→15. Maximum is indeed 24 at (3,4). Minimum is 0 at (0,0). The claim is correct. If the student had said minimum is 15 at (0,5), that would reveal they only checked the \"non‑zero\" corners and forgot the origin, a common oversight when the feasible region includes the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a linear programming problem (objective function and constraints) whose feasible region is a triangle with vertices (0,0), (6,0), (0,8). Write the objective function \\(Z = px + qy\\) such that the maximum occurs at (6,0) and the minimum at (0,8). Explain your choice of \\(p\\) and \\(q\\).",
+     "a": "Constraints: \\(x \\ge 0, y \\ge 0, 4x + 3y \\le 24\\) (line through (6,0) and (0,8)). Choose \\(Z = 4x - 3y\\). At (6,0): \\(Z=24\\); at (0,8): \\(Z=-24\\); at (0,0): \\(Z=0\\). Maximum 24 at (6,0), minimum -24 at (0,8). A poor answer (e.g., \\(Z = x + y\\)) gives maximum at (6,0) and (0,8) both 6 and 8? Actually (0,8) gives 8, (6,0) gives 6, so max at (0,8) — wrong. This reveals the student does not understand how the coefficients of the objective function determine which vertex is optimal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

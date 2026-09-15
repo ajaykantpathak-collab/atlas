@@ -1,0 +1,357 @@
+{
+ "catalog": "catalog_class7_maths_ch102.json",
+ "concepts": [
+  {
+   "id": "gegp.2.1.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 7 + 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 * 4 * 4 + 3 * 4 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 3 + 2 - 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 8 * 4 + 8 * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 + 6 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (6 + 4) * 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.2.1.2",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 49 * 49"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (91 * 91 - 56 * 56)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 60 / 360 * 2 * 22 / 7 * 84"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 90 / 360 * 22 / 7 * 56 * 56"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "circ = 2 * 22 / 7 * 77"
+   ]
+  },
+  {
+   "id": "gegp.2.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 6 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 2 * 2 + 6 * 2 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 6 + 6 - 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 8 * 2 + 8 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 8 + 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (9 + 7) * 9"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.2.2.2",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 3 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 * 6 * 6 + 2 * 6 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 5 + 8 - 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 4 + 7 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 + 4 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (2 + 4) * 5"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 3 + 8"
+   ]
+  },
+  {
+   "id": "gegp.2.2.3",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = -12 + (10)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = 30 + (14)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = 12 * (-10)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = -104 / (-2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(-1)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 7 * (7 + 9)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = -12 + (10)"
+   ]
+  },
+  {
+   "id": "gegp.2.2.4",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = -15 + (-3)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = -8 + (-30)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = 8 * (4)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = -111 / (-3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(-13)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 9 * (7 + 7)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = -15 + (-3)"
+   ]
+  },
+  {
+   "id": "gegp.2.2.5",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 3 * 3 + 4 * 3 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 2 + 6 - 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 * 2 + 4 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 2 + 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (6 + 6) * 9"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.2.2.6",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = -9 + (1)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = 27 + (-14)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = -8 * (10)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = -110 / (6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(-9)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 7 * (6 + 8)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

@@ -1,0 +1,491 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 107,
+ "chapter_title": "How do Organisms Reproduce?",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc107.txt",
+ "concepts": [
+  {
+   "id": "jesc.107.1",
+   "title": "DNA Copying and Variation",
+   "section": "7.1",
+   "definition": "The biochemical process of replicating genetic material during cell division, which introduces minor errors leading to diversity within a species.",
+   "formula": "variation_rate = total_errors / dna_replication_events",
+   "key_idea": "DNA copying ensures body design stability while variations enable species survival during environmental changes.",
+   "textbook_ref": "jesc107.txt lines 25-65",
+   "question_patterns": [
+    "Why is DNA copying essential for reproduction?",
+    "How does variation benefit a species over time?",
+    "What is the importance of DNA replication in creating new cells?",
+    "Explain why offspring are similar but not identical to parents.",
+    "explain dna copying and variation in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the role of DNA",
+     "explain": "DNA in the nucleus contains the blueprint for protein synthesis and body design."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the copying process",
+     "explain": "Cells use chemical reactions to create two DNA copies, which are then separated into daughter cells."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the outcome of variations",
+     "explain": "Inaccurate copying leads to variations; while some are lethal, others allow individuals to survive niche changes."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.2",
+   "title": "Fission in Unicellular Organisms",
+   "section": "7.2.1",
+   "definition": "A form of asexual reproduction where a single-celled organism splits into two or more daughter cells.",
+   "formula": "daughter_cells = 2 ** number_of_divisions",
+   "key_idea": "Binary fission produces two individuals, while multiple fission produces many simultaneously.",
+   "textbook_ref": "jesc107.txt lines 105-130",
+   "question_patterns": [
+    "How does binary fission differ from multiple fission?",
+    "Describe the process of reproduction in Amoeba.",
+    "How does Plasmodium reproduce in a host?",
+    "What is the orientation of fission in Leishmania?",
+    "short note on fission in unicellular organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the type of fission",
+     "explain": "Binary fission splits one cell into two."
+    },
+    {
+     "step": 2,
+     "action": "Calculate total population",
+     "explain": "The population grows exponentially with each division cycle."
+    },
+    {
+     "step": 3,
+     "action": "Contrast binary and multiple fission",
+     "explain": "Binary fission (as in Amoeba) splits one cell into two along any plane, while multiple fission (as in Plasmodium) produces many daughter cells simultaneously, and in Leishmania fission occurs in a definite longitudinal orientation."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.3",
+   "title": "Fragmentation and Regeneration",
+   "section": "7.2.2, 7.2.3",
+   "definition": "Fragmentation is the breaking of a simple multicellular organism into pieces that grow into adults; regeneration is the regrowth of a whole organism from a cut body part.",
+   "formula": "new_individuals = number_of_fragments",
+   "key_idea": "Regeneration relies on specialized proliferating cells to reconstruct missing tissues.",
+   "textbook_ref": "jesc107.txt lines 135-175",
+   "question_patterns": [
+    "How does Spirogyra reproduce?",
+    "Explain regeneration in Planaria with a diagram.",
+    "Why can simple organisms regenerate but complex ones cannot?",
+    "What is the role of specialized cells in regeneration?",
+    "short note on fragmentation and regeneration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the body organization",
+     "explain": "Simple organisms like Hydra or Planaria have less specialized tissue distribution."
+    },
+    {
+     "step": 2,
+     "action": "Identify the trigger",
+     "explain": "Accidental cutting or maturation causes the body to break into pieces."
+    },
+    {
+     "step": 3,
+     "action": "Describe cell proliferation",
+     "explain": "Specialized cells at the cut site divide rapidly to form a mass that differentiates into new tissues."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.4",
+   "title": "Budding",
+   "section": "7.2.4",
+   "definition": "An asexual reproduction method where an outgrowth or bud develops at a specific site on the parent body because of repeated cell division.",
+   "formula": "total_organisms = parent + active_buds",
+   "key_idea": "The bud matures while attached and eventually detaches to live independently.",
+   "textbook_ref": "jesc107.txt lines 176-185",
+   "question_patterns": [
+    "Describe budding in Hydra.",
+    "How does yeast reproduce through budding?",
+    "What happens to a bud once it matures?",
+    "Where does the bud develop on the parent body?",
+    "why is budding important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the site of growth",
+     "explain": "A specific site on the parent organism undergoes rapid cell division."
+    },
+    {
+     "step": 2,
+     "action": "Monitor development",
+     "explain": "The outgrowth develops into a miniature version of the parent."
+    },
+    {
+     "step": 3,
+     "action": "Final separation",
+     "explain": "Once fully developed, the new individual detaches from the parent."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.5",
+   "title": "Vegetative Propagation",
+   "section": "7.2.5",
+   "definition": "The development of new plants from vegetative parts like roots, stems, or leaves rather than seeds.",
+   "formula": "plant_yield = cuttings * success_rate",
+   "key_idea": "Allows for rapid multiplication and preservation of genetic traits in seedless plants.",
+   "textbook_ref": "jesc107.txt lines 186-225",
+   "question_patterns": [
+    "What are the advantages of vegetative propagation?",
+    "How does Bryophyllum reproduce?",
+    "Explain the use of layering and grafting in agriculture.",
+    "What is tissue culture and how is it performed?",
+    "list the main features of vegetative propagation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select the vegetative part",
+     "explain": "Identify if the plant uses roots, stems (like potato), or leaves (like Bryophyllum)."
+    },
+    {
+     "step": 2,
+     "action": "Provide appropriate conditions",
+     "explain": "Moisture and soil contact trigger the growth of buds into new plantlets."
+    },
+    {
+     "step": 3,
+     "action": "Verify genetic similarity",
+     "explain": "Confirm that the offspring are clones of the parent plant."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.6",
+   "title": "Spore Formation",
+   "section": "7.2.6",
+   "definition": "Asexual reproduction where specialized reproductive units called spores are produced in sporangia and dispersed to grow into new individuals.",
+   "formula": "spore_count = sporangia * spores_per_blob",
+   "key_idea": "Spores have protective walls to survive unfavorable conditions until they find a moist surface.",
+   "textbook_ref": "jesc107.txt lines 235-250",
+   "question_patterns": [
+    "How does Rhizopus reproduce?",
+    "What are sporangia?",
+    "What is the function of the thick wall around a spore?",
+    "Identify the reproductive and non-reproductive parts of bread mould.",
+    "state two key points about spore formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the hyphae and sporangia",
+     "explain": "Hyphae are thread-like structures; sporangia are the blobs at the tips."
+    },
+    {
+     "step": 2,
+     "action": "Release of spores",
+     "explain": "Spores are released from the sporangia into the air."
+    },
+    {
+     "step": 3,
+     "action": "Germination",
+     "explain": "On reaching a suitable moist substrate, the spore grows into a new fungus."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.7",
+   "title": "Sexual Reproduction and Meiosis",
+   "section": "7.3.1",
+   "definition": "A reproduction method combining DNA from two individuals, utilizing meiosis to maintain constant chromosome numbers across generations.",
+   "formula": "zygote_chromosomes = male_gamete_n + female_gamete_n",
+   "key_idea": "Meiosis halves the DNA content in germ cells so fusion restores the original amount in the zygote.",
+   "textbook_ref": "jesc107.txt lines 270-320",
+   "question_patterns": [
+    "Why is sexual reproduction advantageous over asexual reproduction?",
+    "How is the chromosome number maintained in offspring?",
+    "What is the difference between a male and female gamete?",
+    "Explain the role of meiosis in sexual reproduction.",
+    "calculate sexual reproduction and meiosis for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify somatic chromosome count",
+     "explain": "The normal body cell has a diploid number of chromosomes.",
+     "compute": "n_somatic = somatic_count"
+    },
+    {
+     "step": 2,
+     "action": "Calculate gamete count",
+     "explain": "Germ cells undergo meiosis to halve the count.",
+     "compute": "n_gamete = n_somatic / 2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate zygote count",
+     "explain": "Fusion of two gametes restores the diploid state.",
+     "compute": "n_zygote = n_gamete + n_gamete"
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.8",
+   "title": "Reproduction in Flowering Plants",
+   "section": "7.3.2",
+   "definition": "The process in angiosperms where pollen from the stamen fertilizes the egg in the pistil to form a seed.",
+   "formula": "seeds = successful_fertilizations",
+   "key_idea": "Pollination is the move of pollen, while fertilization is the fusion of germ cells.",
+   "textbook_ref": "jesc107.txt lines 325-375",
+   "question_patterns": [
+    "Distinguish between self-pollination and cross-pollination.",
+    "Describe the parts of a pistil.",
+    "What happens to the ovary and ovule after fertilization?",
+    "Explain the process of pollen tube growth.",
+    "how does reproduction in flowering plants work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pollination",
+     "explain": "Pollen is transferred from the anther to the stigma by wind, water, or animals."
+    },
+    {
+     "step": 2,
+     "action": "Pollen Tube Formation",
+     "explain": "A tube grows through the style to deliver male germ cells to the ovary."
+    },
+    {
+     "step": 3,
+     "action": "Fertilization and Seed Development",
+     "explain": "Fusion creates a zygote; the ovule becomes a seed and the ovary becomes a fruit."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.9",
+   "title": "Human Male Reproductive System",
+   "section": "7.3.3(a)",
+   "definition": "The anatomical system in human males designed to produce sperms and testosterone, and deliver sperms for fertilization.",
+   "formula": "semen = sperm_cells + glandular_secretions",
+   "key_idea": "Testes are located in the scrotum to maintain a lower temperature necessary for sperm production.",
+   "textbook_ref": "jesc107.txt lines 440-470",
+   "question_patterns": [
+    "What is the role of the testes in humans?",
+    "Why is the scrotum located outside the abdominal cavity?",
+    "What are the functions of the prostate gland and seminal vesicles?",
+    "Trace the path of sperm from the testes to the urethra.",
+    "why is human male reproductive system important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sperm Production",
+     "explain": "Sperms are formed in the testes under the influence of testosterone."
+    },
+    {
+     "step": 2,
+     "action": "Transport",
+     "explain": "Sperms travel through the vas deferens."
+    },
+    {
+     "step": 3,
+     "action": "Glandular Addition",
+     "explain": "Prostate and seminal vesicles add fluids for nutrition and easier transport."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.10",
+   "title": "Human Female Reproductive System and Menstruation",
+   "section": "7.3.3(b), 7.3.3(c)",
+   "definition": "The system producing eggs and supporting fetal development, characterized by a monthly cycle of uterine lining preparation and shedding.",
+   "formula": "cycle_duration = days_of_lining_growth + days_of_shedding",
+   "key_idea": "If fertilization does indeed not occur, the thickened uterine lining is shed as menstrual blood.",
+   "textbook_ref": "jesc107.txt lines 475-525",
+   "question_patterns": [
+    "Where does fertilization occur in humans?",
+    "What is the role of the placenta?",
+    "Why does menstruation occur?",
+    "How does the embryo get nourishment from the mother?",
+    "state two key points about human female reproductive system and menstruation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Ovulation",
+     "explain": "One egg is released every month from an ovary into the fallopian tube."
+    },
+    {
+     "step": 2,
+     "action": "Uterine Preparation",
+     "explain": "The uterus wall thickens with blood vessels to receive a potential embryo."
+    },
+    {
+     "step": 3,
+     "action": "Menstruation",
+     "explain": "In the absence of fertilization, the lining breaks down and exits through the vagina."
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.11",
+   "title": "Reproductive Health and Contraception",
+   "section": "7.3.3(d)",
+   "definition": "The state of physical, mental, and social well-being in all matters relating to the reproductive system, including methods to prevent pregnancy and STIs.",
+   "formula": "contraceptive_efficacy = 100 - failure_rate",
+   "key_idea": "Contraceptive methods include mechanical barriers, hormonal changes, and surgical blocks.",
+   "textbook_ref": "jesc107.txt lines 530-585",
+   "question_patterns": [
+    "What are the different methods of contraception?",
+    "How do oral pills prevent pregnancy?",
+    "What is the purpose of using a condom?",
+    "Explain the surgical methods of birth control.",
+    "how does reproductive health and contraception work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Mechanical Barriers",
+     "explain": "Condoms or Copper-T prevent the physical meeting of sperm and egg."
+    },
+    {
+     "step": 2,
+     "action": "Chemical/Hormonal Methods",
+     "explain": "Pills alter hormonal balance to stop egg release."
+    },
+    {
+     "step": 3,
+     "action": "Surgical Methods",
+     "explain": "Vasectomy (male) or Tubectomy (female) blocks the gamete transport path."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc107.txt lines 105-120",
+   "concept": "jesc.107.2",
+   "question_type": "compute",
+   "question_pattern": "If an Amoeba divides every 20 minutes, how many individuals will be produced from one parent after {generations} cycles?",
+   "extracted_variables": {
+    "generations": "number of division cycles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify base division rate",
+     "explain": "Amoeba undergoes binary fission, so each cell splits into 2."
+    },
+    {
+     "step": 2,
+     "action": "Calculate final count",
+     "explain": "Total cells = base raised to the power of generations."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc107.txt lines 300-315",
+   "concept": "jesc.107.7",
+   "question_type": "compute",
+   "question_pattern": "If a plant has {somatic_count} chromosomes in its leaf cells, calculate the number of chromosomes in its pollen grain.",
+   "extracted_variables": {
+    "somatic_count": "diploid chromosome number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify cell type",
+     "explain": "Leaf cells are somatic (2n), pollen grains are gametes (n).",
+     "compute": "n_somatic = somatic_count"
+    },
+    {
+     "step": 2,
+     "action": "Apply meiosis reduction",
+     "explain": "Gametes have half the number of chromosomes as somatic cells.",
+     "compute": "n_gamete = n_somatic / 2"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc107.txt lines 270-320",
+   "concept": "jesc.107.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sexual reproduction and meiosis step by step",
+   "extracted_variables": {
+    "somatic_count": "value of somatic_count"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify somatic chromosome count",
+     "explain": "The normal body cell has a diploid number of chromosomes.",
+     "compute": "n_somatic = somatic_count"
+    },
+    {
+     "step": 2,
+     "action": "Calculate gamete count",
+     "explain": "Germ cells undergo meiosis to halve the count.",
+     "compute": "n_gamete = n_somatic / 2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate zygote count",
+     "explain": "Fusion of two gametes restores the diploid state.",
+     "compute": "n_zygote = n_gamete + n_gamete"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "jesc107.txt lines 620-630",
+   "questions": [
+    "Asexual reproduction takes place through budding in (a) Amoeba (b) Yeast (c) Plasmodium (d) Leishmania.",
+    "Which of the following is not a part of the female reproductive system in human beings? (a) Ovary (b) Uterus (c) Vas deferens (d) Fallopian tube.",
+    "The anther contains (a) sepals (b) ovules (c) pistil (d) pollen grains."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "jesc107.txt lines 631-645",
+   "questions": [
+    "What are the advantages of sexual reproduction over asexual reproduction?",
+    "What are the functions performed by the testis in human beings?",
+    "Why does menstruation occur?",
+    "Draw a labelled diagram of the longitudinal section of a flower.",
+    "What are the different methods of contraception?",
+    "How are the modes for reproduction different in unicellular and multicellular organisms?",
+    "How does reproduction help in providing stability to populations of species?",
+    "What could be the reasons for adopting contraceptive methods?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

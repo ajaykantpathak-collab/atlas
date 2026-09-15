@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_013",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_013",
+   "title": "c6_geography_ch02_013",
+   "questions": [
+    {
+     "q": "What are two examples of observations you should record in your weather diary?",
+     "a": "Temperature and wind direction (or rainfall/cloud cover). A wrong answer suggests the student confuses weather with general climate or forgets the specific measurable elements mentioned in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to record weather at the same time every day?",
+     "a": "It ensures the data is consistent and comparable, allowing you to see true changes rather than differences caused by the time of day. If a student thinks it doesn't matter, they fail to understand the concept of \"fair comparison\" in data collection.",
+     "self_check": true
+    },
+    {
+     "q": "If you notice that the temperature drops every time the wind starts blowing from the north, what have you successfully created?",
+     "a": "You have identified a weather pattern. A wrong answer shows the student views the diary as a list of random events rather than a tool for logical connection.",
+     "self_check": true
+    },
+    {
+     "q": "How does keeping a diary over three months change your understanding compared to just looking at the sky for one day?",
+     "a": "A single day shows current conditions, while three months reveal trends and patterns that repeat. A wrong answer suggests the student struggles to distinguish between a snapshot of weather and a series of observations.",
+     "self_check": true
+    },
+    {
+     "q": "If your diary shows it rained every day for a week, is it accurate to say the \"climate\" of your city is rainy? Why or why not?",
+     "a": "No, because climate represents long-term averages (years), whereas a week is just a temporary weather event. A wrong answer indicates confusion between weather (short-term) and climate (long-term).",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you want to know if mornings are usually windier than afternoons; how would you design your diary entry to test this?",
+     "a": "The student should propose recording wind observations at two specific times (morning and afternoon) consistently for several days. A poor answer fails to incorporate the \"consistency\" or \"time-variable\" needed for a fair comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

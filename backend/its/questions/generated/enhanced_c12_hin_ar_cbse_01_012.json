@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_01_012",
+   "title": "c12_hin_ar_cbse_01_012",
+   "questions": [
+    {
+     "q": "Define the difference between a literal comprehension question and an inferential comprehension question in one sentence each.",
+     "a": "A literal question asks for information explicitly written in the text (e.g., \"What does the poet want to become?\"), while an inferential question asks for meaning derived by combining textual evidence with reasoning (e.g., \"Why does the poet reject temple rituals?\"). A wrong answer that swaps these definitions reveals the student cannot identify the cognitive demand of the question, leading to either over-quoting for inferential questions or offering opinions for literal ones.",
+     "self_check": true
+    },
+    {
+     "q": "Read this line from the poem: \"eSa tx&thou dk Hkkj fy, fiQjrk gw¡] fiQj Hkh thou esa I;kj fy, fiQjrk gw¡\". A student writes: \"The poet wants to be a support for life and death.\" Is this a literal or inferential response? Justify.",
+     "a": "This is a literal response because it directly paraphrases the explicit statement in the line without adding interpretation, context, or implied meaning. A wrong answer labeling it \"inferential\" shows the student confuses paraphrasing with inference — a critical error because board exams award 1 mark for literal retrieval but 2-3 marks for developed inference, so misclassification loses marks on both question types.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question using the PEEL structure: \"According to stanza 3, what two specific roles does the poet want to play in 'volkn' (celebrations) and 'jkx' (sorrows)?\" Provide the exact Hindi phrases.",
+     "a": "**Point:** The poet explicitly states two roles in stanza 3. **Evidence:** \"mUeknksa esa volkn fy, fiQjrk gw¡\" and \"'khry ok.kh esa vkx fy, fiQjrk gw¡\". **Explanation:** These are direct quotes showing the poet's desire to be the joy in celebrations and the strength in sorrows. **Link:** This literal retrieval establishes the poet's humanistic scope before inferential analysis. A wrong answer that summarizes (\"he wants to be happy and sad\") loses the 1-mark precision required for literal questions in CBSE marking schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer the inferential question: \"Why does the poet say 'I never gave the message of renunciation'?\"  \nStudent A: \"Because he likes worldly life.\"  \nStudent B: \"Because he rejects escapist spirituality that ignores human suffering, as shown by his desire to share both joy ('volkn') and pain ('vkx') in stanza 3.\"  \nAnalyze which answer demonstrates valid textual inference and why.",
+     "a": "Student B's answer is valid because it anchors the inference in specific textual evidence (stanza 3 roles) and connects to the poem's central theme of engaged humanism. Student A's answer is an unsupported opinion — a common trap where students substitute personal assumption for textual reasoning. In board exams, Student B would earn full marks (2-3) for evidence-based inference; Student A would get 0 for lack of textual grounding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's inferential answer: \"The poet rejects God because he is an atheist.\" The poem includes: \"eSa Lusg&lqjk dk iku fd;k djrk gw¡] eSa dHkh u tx dk è;ku fd;k djrk gw¡\". Is the answer acceptable? Defend your judgment.",
+     "a": "Unacceptable. The answer imposes an external label (\"atheist\") not supported by the text. The poem shows the poet rejecting *ritualistic* divinity (\"tx dk è;ku\") while embracing a divine presence in human connection (\"tx iwN jgk mudks] tks tx dh xkrs] eSa vius eu dk xku fd;k djrk gw¡\"). A valid inference must distinguish between rejecting institutional religion and affirming immanent divinity. This error — conflating textual nuance with external categories — is a top mark-loser in CUET/Humanities entrance exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on stanza 4 (\"eSa fut jksnu esa jkx fy, fiQjrk gw¡...\"). Provide a model inferential answer using PEEL.",
+     "a": "**Literal:** \"What does the poet want to become in 'jksnu' (battle) and 'ok.kh' (hardship)?\"  \n**Inferential:** \"How does the imagery of 'jkx' (flame) in battle and 'vkx' (coolness) in hardship reveal the poet's concept of courage?\"  \n**Model Answer:** **Point:** The contrasting metaphors redefine courage as sustained empathy, not violent heroism. **Evidence:** \"jksnu esa jkx\" (flame in battle) suggests inspiring resistance, while \"'khry ok.kh esa vkx\" (coolness in hardship) implies soothing endurance. **Explanation:** Fire destroys; coolness heals. The poet embraces both roles — mobilizing against injustice and comforting its victims. **Link:** This duality reflects the poem's core: divinity resides in active human solidarity, not abstract worship. A poor answer would list metaphors without explaining their thematic function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

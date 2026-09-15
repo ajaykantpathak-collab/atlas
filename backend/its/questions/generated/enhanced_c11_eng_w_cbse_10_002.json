@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_002",
+   "title": "c11_eng_w_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme of a Shakespearean sonnet, and how many lines does it contain?",
+     "a": "A Shakespearean sonnet has 14 lines with the rhyme scheme abab cdcd efef gg. A wrong answer (e.g., \"abba abba cde cde\" or \"12 lines\") reveals confusion with the Petrarchan sonnet form or a lack of recall of the basic structural definition.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the first quatrain defines love by saying what it is *not*. Why does the poet choose this negative definition strategy instead of a positive one?",
+     "a": "The negative definition (\"Love is not love which alters...\") establishes the absolute constancy of true love by excluding all changeability; it forces the reader to conceive of love as an unchanging essence rather than a list of variable attributes. A wrong answer (e.g., \"to make the poem sound sad\") shows the student misses the logical function of negation in building an argument.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the volta in this sonnet. At which line does it occur, and what shift in the argument does it mark?",
+     "a": "The volta occurs at line 9 (\"O no, it is an ever-fixed mark\"), shifting from defining love by negation (what it is not) to a positive affirmation using extended metaphors (the fixed mark, the star). A wrong answer (e.g., placing the volta at the couplet) indicates the student does not recognize that the turn in a Shakespearean sonnet often begins the third quatrain, not the couplet.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metaphor of the \"ever-fixed mark\" (line 5) with the metaphor of the \"star\" (line 7). How do they work together to develop the poem's central argument in the second quatrain?",
+     "a": "The \"ever-fixed mark\" (a sea-mark/beacon) suggests stability amid storms, while the \"star\" (Polaris) suggests guidance for lost ships (\"wandering bark\"); together they portray love as both an unshakeable anchor and an active guide, deepening the definition from mere endurance to purposeful direction. A wrong answer that treats them as separate, unrelated images shows failure to synthesize the metaphorical cluster.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the final couplet (\"If this be error...\") as a conclusion. Does it strengthen or undermine the poem's authority? Justify your view.",
+     "a": "The couplet strengthens the poem's authority by staking the poet's entire reputation on the truth of the argument: if the definition is wrong, then no poetry exists and no one has ever loved — an impossible condition that rhetorically proves the definition's certainty. A wrong answer calling it \"arrogant\" or \"weak\" misses the rhetorical device of *reductio ad absurdum* that closes the logical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza (quatrain) in iambic pentameter that continues the poem's argument by describing what true love does *not* do in the face of human mortality, using the same negative definition strategy as the first quatrain.",
+     "a": "A strong response will maintain iambic pentameter (da-DUM da-DUM da-DUM da-DUM da-DUM), use an abab rhyme scheme, and employ negative statements (e.g., \"Love does not fade when breath departs the frame, / Nor counts the dust that covers beauty's name...\"). A poor answer ignores meter, rhyme, or the negative strategy, revealing gaps in both structural awareness and poetic technique.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

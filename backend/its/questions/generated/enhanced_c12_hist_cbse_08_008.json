@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_008",
+   "title": "c12_hist_cbse_08_008",
+   "questions": [
+    {
+     "q": "What was the primary form of payment for the majority of mansabdars under the Mughal Empire, and what was the key condition attached to it?",
+     "a": "The majority of mansabdars were paid through revenue assignments called jagirs, not cash (naqdi). The key condition was periodic transfer — jagirs were reassigned every few years to prevent mansabdars from developing hereditary control over territory or building local power bases. A wrong answer (e.g., \"mansabdars were paid fixed cash salaries\" or \"jagirs were hereditary\") reveals confusion between the Mughal system and later feudal/colonial revenue arrangements, and misses the central tension between imperial control and officer incentives.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state insist on transferring jagirdars periodically, and what unintended consequence did this have on agricultural production in the assigned territories?",
+     "a": "Transfers prevented jagirdars from entrenching locally, converting revenue assignments into hereditary estates, or building independent military followings — a lesson learned from the Delhi Sultanate's iqta system. The unintended consequence: jagirdars had no incentive to invest in long-term agricultural improvement (wells, canals, forest clearance) since they would not reap the benefits; they maximized short-term extraction, often through harsh revenue farming (ijara), damaging peasant welfare and long-term revenue potential. A wrong answer focusing only on \"corruption\" or \"administrative efficiency\" misses the structural political economy logic and the peasantry's experience.",
+     "self_check": true
+    },
+    {
+     "q": "A mansabdar holds a jagir yielding 1 crore dams annually in assessed revenue (jama). Actual collection (hasil) is typically 70–80% of jama due to local resistance, crop failure, and zamindar non-cooperation. The mansabdar's salary claim is 80 lakh dams. Explain the financial pressure this creates and how the mansabdar typically responds, using the concept of revenue farming (ijara).",
+     "a": "With jama = 1 crore, expected hasil ≈ 70–80 lakh, but salary claim = 80 lakh. The mansabdar faces a deficit. To bridge it, he auctions the collection rights to a revenue farmer (ijaradar) for a guaranteed sum (e.g., 85 lakh), transferring collection risk. The ijaradar then extracts maximum possible from peasants, often exceeding state demand. This shifts the burden to cultivators and creates a layer of intermediaries. A wrong answer ignoring the jama-hasil gap or the role of ijaradars fails to see how the transfer system incentivized predatory extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mughal jagirdari transfer policy with the Delhi Sultanate's iqta system. Identify two key similarities and two critical differences in how each system managed the tension between central control and local military-feudal power.",
+     "a": "Similarities: both assigned revenue territories to military officers in lieu of salary; both sought to prevent hereditary control. Differences: (1) Mughal transfers were more systematic and frequent (every 3–4 years vs. Sultanate's longer tenures); (2) Mughal jagirdars had no administrative/judicial duties in their jagirs (separate faujdar/amil), while iqta holders often combined revenue and governance; (3) Mughal mansabdars were graded by zat/sawar ranks tied to central pay scales, Sultanate iqta holders negotiated individually. A wrong answer conflating the two systems misses Akbar's deliberate institutional innovation to solve the Sultanate's chronic noble revolts.",
+     "self_check": true
+    },
+    {
+     "q": "By the 1680s, Aurangzeb faced a severe bejagiri (shortage of jagirs) crisis. Evaluate the argument: \"The jagirdari crisis was primarily caused by the Deccan wars expanding the mansabdar corps without a proportional increase in productive jagir land.\" Support or refute with three specific pieces of evidence from the period.",
+     "a": "Support with evidence: (1) Mansabdar numbers doubled from ~1,600 (Akbar) to ~3,200 (Aurangzeb late reign) while measured land (zamin-i paimuda) grew marginally; (2) Deccan conquests yielded low-revenue, conflict-ridden jagirs (malzamin) often uncollectible; (3) Ain data shows jagir assignments increasingly exceeded available jama — mansabdars waited years for assignments (bejagiri), leading to factionalism. Counter-point: revenue farming (ijara) and inflation (silver influx) also eroded real jagir value. A wrong answer blaming only \"corruption\" or \"Aurangzeb's bigotry\" ignores the structural demographic-fiscal mismatch documented in the Ain's mulk-abadi tables.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The jagirdari system's collapse was not a failure of design but a success of its own logic.\" Use the concepts of transfer policy, revenue farming, and the mansabdari-jagirdari linkage to explain how the system worked exactly as intended until the empire's territorial expansion broke its parameters.",
+     "a": "The system successfully prevented feudal fragmentation for 150 years — transfers worked, no jagirdar dynasty emerged. Revenue farming was a rational adaptation to transfer risk. The \"collapse\" occurred when territorial expansion (Deccan) increased mansabdar demand faster than revenue survey (zabt) could create new productive jagirs. The logic held: fixed transfer intervals + fixed salary ranks + expanding officer corps = inevitable bejagiri. A poor answer treats the crisis as administrative incompetence rather than a mathematical consequence of successful imperial expansion under unchanged institutional parameters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

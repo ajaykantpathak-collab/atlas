@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_3",
+   "title": "c9_eco_ch2_3",
+   "questions": [
+    {
+     "q": "Define the demand curve and state the direction of its slope. What does the slope indicate about the relationship between price and quantity demanded?",
+     "a": "The demand curve is a graph plotting price (vertical axis) against quantity demanded (horizontal axis) assuming ceteris paribus; it slopes downward from left to right, indicating an inverse relationship: as price falls, quantity demanded rises, and vice versa. A wrong answer (e.g., \"upward slope\" or \"shows direct relationship\") reveals the student has not internalised the law of demand or confuses demand with supply, which slopes upward.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand curve slopes downward. Use the concepts of income effect and substitution effect in your answer, and give a concrete example using a good like rice or smartphones.",
+     "a": "The downward slope occurs because a lower price increases the consumer's real purchasing power (income effect — they can buy more with the same money) and makes the good relatively cheaper compared to substitutes (substitution effect — they switch from substitutes to this good). For example, if smartphone prices fall from ₹20,000 to ₹15,000, a student's ₹15,000 budget now affords a phone (income effect), and the phone becomes more attractive than a second-hand laptop (substitution effect). A wrong answer that only states \"people buy more when price is low\" without naming the two effects shows superficial understanding; confusing the two effects (e.g., saying substitution effect is about income) reveals conceptual confusion.",
+     "self_check": true
+    },
+    {
+     "q": "The table below shows the demand schedule for wheat flour (atta) in a Kolkata household:\n\n| Price (₹/kg) | Quantity Demanded (kg/month) |\n|--------------|------------------------------|\n| 40           | 10                           |\n| 35           | 12                           |\n| 30           | 15                           |\n| 25           | 19                           |\n| 20           | 24                           |\n\n(a) Plot the demand curve on graph paper. (b) If the price falls from ₹35 to ₹25, show the change on your graph and state whether this is a movement along the curve or a shift of the curve. (c) Calculate the change in quantity demanded.",
+     "a": "(a) Plot points (10,40), (12,35), (15,30), (19,25), (24,20) with quantity on X-axis, price on Y-axis; connect to form a downward-sloping curve. (b) The fall from ₹35 to ₹25 moves the point from (12,35) to (19,25) — this is a movement ALONG the same demand curve because only the good's own price changed. (c) Quantity demanded increases by 7 kg (from 12 to 19 kg). A wrong answer calling this a \"shift of the demand curve\" reveals the critical misconception: confusing change in quantity demanded (movement along) with change in demand (shift of curve).",
+     "self_check": true
+    },
+    {
+     "q": "Consider two scenarios for the same household's demand for wheat flour:\nScenario A: Price of rice (a substitute) falls from ₹50/kg to ₹40/kg.\nScenario B: Price of wheat flour itself falls from ₹35/kg to ₹25/kg.\nCompare the effect of each scenario on the demand CURVE for wheat flour. Draw a rough sketch for each and label the change.",
+     "a": "Scenario A (rice price falls): Wheat flour becomes relatively more expensive; consumers substitute rice for wheat flour. The entire demand curve for wheat flour shifts LEFT (decrease in demand) — at every price of wheat flour, less is demanded. Scenario B (wheat flour price falls): This is a movement DOWN along the existing wheat flour demand curve — quantity demanded increases, but the curve itself does not move. A wrong answer that draws both as movements along the curve, or both as shifts, shows the student cannot distinguish own-price changes (movement) from other determinants (shift).",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper headline reads: \"As onion prices crashed from ₹60 to ₹20 per kg, demand for onions increased sharply.\" Evaluate this statement using correct economic terminology. Is the headline accurate? If not, rewrite it correctly.",
+     "a": "The headline is economically inaccurate. \"Demand\" refers to the entire curve (the relationship between price and quantity demanded at all prices); it does not change when the good's own price changes. What increased is \"quantity demanded\" — a movement along the fixed demand curve. Correct headline: \"As onion prices crashed from ₹60 to ₹20 per kg, quantity demanded of onions increased sharply.\" A student who says the headline is correct reveals the pervasive misconception of using \"demand\" and \"quantity demanded\" interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "Create a demand schedule for a product of your choice (e.g., notebooks, metro rides, mobile data) with at least 5 price-quantity pairs that obey the law of demand. Plot the curve. Then, invent a realistic non-price change (e.g., rise in student stipend, fall in price of a substitute) and draw the new demand curve on the same graph, labelling the shift direction. Explain the economic reason for the shift.",
+     "a": "Example: Metro rides. Schedule: (₹10, 50 rides), (₹15, 40 rides), (₹20, 30 rides), (₹25, 20 rides), (₹30, 12 rides) — downward slope. Non-price change: Student monthly stipend increases from ₹1,000 to ₹1,500. Metro rides are a normal good; higher income increases demand at every price. New curve shifts RIGHT (e.g., at ₹20, quantity becomes 40 rides). A poor answer shows an upward-sloping schedule (violating law of demand), shifts the curve in the wrong direction for a normal good, or cannot articulate the income effect as the cause.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_007",
+   "title": "c12_hs_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 Recommended Dietary Allowance (RDA) for energy (kcal/day) and protein (g/day) for a 4-year-old preschool child.",
+     "a": "Energy: 1350 kcal/day; Protein: 22 g/day (ICMR 2020, moderate activity). A wrong answer (e.g., quoting adult RDA or 2010 values) reveals the student has not updated to the latest ICMR revision or confuses age categories — a frequent board exam error where marks are lost for outdated data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why cow’s milk is not recommended as a main drink for infants under 12 months, but can be introduced after 12 months in a preschooler’s diet.",
+     "a": "Cow’s milk has high renal solute load (protein, sodium, potassium) that strains immature kidneys, low iron with poor bioavailability causing micro-bleeds, and lacks essential fatty acids and vitamin E — making it unsuitable as a main drink before 12 months. After 12 months, the kidney matures, dietary diversity increases, and cow’s milk becomes a valuable calcium/protein source. A wrong answer focusing only on \"allergy\" or \"digestion\" misses the physiological renal solute load and iron bioavailability arguments that examiners expect.",
+     "self_check": true
+    },
+    {
+     "q": "A 9-month-old infant weighs 8 kg. Using the ICMR 2020 RDA for energy (92 kcal/kg/day for 6–12 months), calculate the total daily energy requirement. If breast milk provides ~550 kcal/day, how many kcal must come from complementary foods? Show steps.",
+     "a": "Step 1: Total energy = 8 kg × 92 kcal/kg = 736 kcal/day. Step 2: Complementary food energy = 736 – 550 = 186 kcal/day. A student who forgets to subtract breast milk contribution or uses the 0–6 month RDA (108 kcal/kg) will overestimate complementary food needs — a classic error in numerical board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complementary feeding progression for a 6-month-old versus a 10-month-old infant in terms of (a) consistency, (b) frequency, (c) food diversity, and (d) feeding method.",
+     "a": "6 months: (a) thick porridge/puree, (b) 2–3 meals/day, (c) 1–2 food groups per meal (cereal + pulse), (d) spoon-fed by caregiver. 10 months: (a) mashed/lumpy + soft finger foods, (b) 3–4 meals + 1–2 snacks, (c) 3–4 food groups per meal (add vegetable, fruit, egg/meat), (d) encourages self-feeding with hands/spoon. A wrong answer that keeps consistency or frequency same for both ages shows the student has not internalised the developmental progression — a common case-study trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following one-day menu for a 3-year-old preschooler against ICMR balanced diet principles. Identify two major gaps and suggest specific food substitutions.\nBreakfast: Milk 150 ml + 2 biscuits\nMid-morning: Banana 1 small\nLunch: Rice ½ cup + Dal ¼ cup + Potato sabzi ¼ cup\nEvening: Bread 1 slice + Butter 5 g\nDinner: Chapati 1 + Dal ¼ cup + Carrot peas ¼ cup",
+     "a": "Gap 1: Inadequate vegetable diversity — only potato and carrot/peas (both starchy/root); no green leafy vegetable (GLV) for iron, folate, vitamin A. Substitution: Add 25 g spinach/amaranth in dal or as separate sabzi at lunch. Gap 2: Low milk quantity — only 150 ml milk provides ~180 mg calcium vs RDA 600 mg. Substitution: Increase milk to 300 ml (split across breakfast and bedtime) or add 30 g curd/paneer. A student who only counts \"number of food groups\" without checking portion sizes against RDA misses the quantitative adequacy check.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day complementary feeding menu for an 8-month-old infant (weight 7.5 kg) who is breastfed on demand. Include: (a) two main complementary meals, (b) one snack, (c) finger food, (d) approximate household measures, (e) food groups covered per meal. Ensure the menu meets ~200 kcal from complementary foods.",
+     "a": "Sample answer:\nMeal 1 (10 am): Ragi porridge 4 tbsp (30 g flour) cooked in 100 ml water + 1 tsp ghee + 1 tbsp mashed steamed apple — Cereal, Fat, Fruit.\nMeal 2 (2 pm): Khichdi (rice 2 tbsp + moong dal 1 tbsp + carrot/spinach 1 tbsp) mashed + 1 tsp ghee — Cereal, Pulse, Vegetable, Fat.\nSnack (5 pm): Steamed carrot stick (finger food) + 2 tbsp thick curd — Vegetable, Milk.\nBreastfeeds: On demand (≈550 kcal).\nTotal complementary kcal ≈ 210 kcal. Food groups: all 7 groups covered across day. A poor answer gives only porridge twice, omits finger food, or uses adult spices/salt — showing lack of practical meal-planning skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

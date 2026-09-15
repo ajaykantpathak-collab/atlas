@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_013",
+   "title": "c11_phy_cbse_03_013",
+   "questions": [
+    {
+     "q": "A projectile is launched with speed 20 m/s at an angle of 30° with the horizontal. What is the maximum height reached by the projectile? (Take g = 10 m/s²)",
+     "a": "Correct answer: 5 m. Steps: u = 20 m/s, θ = 30°, sin30° = 0.5. H = (u² sin²θ)/(2g) = (400 × 0.25)/(20) = 100/20 = 5 m. A wrong answer (e.g., 10 m or 2.5 m) reveals the student either forgot the factor of 2 in the denominator, used sinθ instead of sin²θ, or confused the range formula with the height formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two projectiles are launched with the same initial speed u. Projectile A is launched at angle θ, and Projectile B at angle (90° - θ). Without calculating, explain why both have the same horizontal range. What happens to their maximum heights?",
+     "a": "Correct answer: Range formula R = (u² sin2θ)/g depends on sin2θ. For complementary angles, 2(90°-θ) = 180°-2θ, and sin(180°-2θ) = sin2θ, so ranges are equal. Maximum heights are H_A = (u² sin²θ)/(2g) and H_B = (u² cos²θ)/(2g), which are different unless θ = 45°. A wrong answer reveals the student memorizes \"complementary angles give same range\" without understanding the trigonometric reason, or thinks heights are also equal.",
+     "self_check": true
+    },
+    {
+     "q": "A stone is projected from ground level with speed 25 m/s at an angle of 37° (sin37° = 0.6, cos37° = 0.8). Calculate: (a) maximum height, (b) horizontal range, (c) time of flight. (g = 10 m/s²)",
+     "a": "(a) H = (u² sin²θ)/(2g) = (625 × 0.36)/20 = 225/20 = 11.25 m\n(b) R = (u² sin2θ)/g = (625 × 2 × 0.6 × 0.8)/10 = (625 × 0.96)/10 = 600/10 = 60 m\n(c) T = 2u sinθ/g = (2 × 25 × 0.6)/10 = 30/10 = 3 s\nA wrong answer reveals unit inconsistency (e.g., forgetting to square u), using sinθ instead of sin2θ for range, or confusing time of flight with time to max height.",
+     "self_check": true
+    },
+    {
+     "q": "A projectile has a maximum range of 100 m on level ground. What is the maximum height it can reach when launched at 45°? If the same projectile is launched at 30°, what will be its range? (g = 10 m/s²)",
+     "a": "At 45°, R_max = u²/g = 100 m → u² = 1000 m²/s². H_max at 45° = (u² sin²45°)/(2g) = (1000 × 0.5)/20 = 25 m. At 30°, R = (u² sin60°)/g = (1000 × √3/2)/10 = 50√3 ≈ 86.6 m. A wrong answer (e.g., H = 50 m or R = 50 m) reveals the student doesn't connect R_max to u²/g, or uses sin30° instead of sin60° in the range formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the launch speed, the maximum height becomes double, and the range also becomes double.\" Evaluate this claim using the formulas. Provide a counterexample with numbers.",
+     "a": "Claim is FALSE. H ∝ u² and R ∝ u², so doubling speed quadruples both height and range. Counterexample: u = 10 m/s, θ = 30°, g = 10 m/s² → H = 1.25 m, R = 5√3 ≈ 8.66 m. Double speed to 20 m/s → H = 5 m (4×), R = 20√3 ≈ 34.64 m (4×). A wrong evaluation reveals the student thinks formulas are linear in u, not quadratic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a water hose and a measuring tape to verify that the maximum range of a water jet occurs at 45° projection angle. What measurements would you take, and how would you account for the height of the hose nozzle above ground?",
+     "a": "Good answer: Fix water pressure constant. Measure horizontal distance where water hits ground for angles 15°, 30°, 45°, 60°, 75°. Plot range vs angle; peak should be near 45°. Account for nozzle height h by using R = (u cosθ/g)[u sinθ + √(u²sin²θ + 2gh)] instead of level-ground formula. Poor answer ignores nozzle height or assumes speed is same at all angles without verifying constant pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

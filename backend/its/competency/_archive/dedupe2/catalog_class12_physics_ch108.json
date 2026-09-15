@@ -1,0 +1,641 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 108,
+ "chapter_title": "Electromagnetic Waves",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph108.txt",
+ "concepts": [
+  {
+   "id": "leph.108.1",
+   "title": "Displacement Current from Rate of Change of Electric Flux",
+   "section": "8.2",
+   "definition": "The effective electric current inside dielectric media or free space resulting from time-varying electric flux, restoring logical consistency to Ampere circuital law.",
+   "formula": "displacement_current = eps0 * dphi_dt",
+   "key_idea": "A changing electric field produces a magnetic field in the same manner as a conventional electric current.",
+   "textbook_ref": "leph108.txt lines 70-110",
+   "question_patterns": [
+    "calculate the displacement current given the rate of change of electric flux",
+    "find the displacement current when the electric flux changes at a rate of ...",
+    "determine the magnitude of displacement current produced by time-varying electric flux",
+    "what is the displacement current if electric flux changes with time as ...",
+    "compute the displacement current inside a capacitor given rate of change of electric flux"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply permittivity of free space by rate of change of electric flux",
+     "explain": "displacement current equals vacuum permittivity multiplied by time derivative of electric flux",
+     "compute": "displacement_current = eps0 * dphi_dt"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.2",
+   "title": "Wavelength of Electromagnetic Wave in Free Space",
+   "section": "8.3.2",
+   "definition": "The physical spatial length of one complete wave cycle of an electromagnetic wave moving through free space at light speed.",
+   "formula": "wavelength = speed_of_light / frequency",
+   "key_idea": "Wavelength varies inversely with frequency for electromagnetic radiation in vacuum.",
+   "textbook_ref": "leph108.txt lines 160-180",
+   "question_patterns": [
+    "find the wavelength of an electromagnetic wave given its frequency in vacuum",
+    "calculate the wavelength of a wave propagating with frequency ...",
+    "determine the wavelength of electromagnetic radiation having frequency ...",
+    "what is the wavelength of a plane electromagnetic wave of frequency ...",
+    "compute the wavelength in vacuum for an electromagnetic wave of frequency ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wave frequency",
+     "explain": "wavelength is calculated by dividing speed of light in vacuum by frequency",
+     "compute": "wavelength = speed_of_light / frequency"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.3",
+   "title": "Frequency of Electromagnetic Wave in Free Space",
+   "section": "8.3.2",
+   "definition": "The temporal repetition rate of electric and magnetic field oscillations in an electromagnetic wave travelling through vacuum.",
+   "formula": "frequency = speed_of_light / wavelength",
+   "key_idea": "Frequency is inversely proportional to wavelength as speed of propagation in vacuum is constant.",
+   "textbook_ref": "leph108.txt lines 160-180",
+   "question_patterns": [
+    "calculate the frequency of an electromagnetic wave given its wavelength",
+    "find the frequency corresponding to a wavelength of ...",
+    "determine the frequency of an electromagnetic wave with wavelength ...",
+    "what is the frequency of light having wavelength ...",
+    "compute the oscillation frequency of an electromagnetic wave of wavelength ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wavelength",
+     "explain": "frequency is determined by dividing light speed in vacuum by wavelength",
+     "compute": "frequency = speed_of_light / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.4",
+   "title": "Electric Field Amplitude from Magnetic Field Amplitude",
+   "section": "8.3.2",
+   "definition": "The peak amplitude of the oscillating electric field vector in an electromagnetic wave, derived from magnetic field amplitude.",
+   "formula": "electric_amplitude = magnetic_amplitude * speed_of_light",
+   "key_idea": "Electric field amplitude is scaled from magnetic field amplitude by speed of light.",
+   "textbook_ref": "leph108.txt lines 175-190",
+   "question_patterns": [
+    "calculate the electric field amplitude given magnetic field amplitude",
+    "find the peak electric field when the magnetic field amplitude is ...",
+    "determine the magnitude of electric field vector in an em wave with magnetic amplitude ...",
+    "what is the electric field amplitude of a wave whose magnetic field amplitude is ...",
+    "compute electric field amplitude from magnetic field amplitude in vacuum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply magnetic field amplitude by speed of light",
+     "explain": "electric field peak equals magnetic field peak multiplied by propagation speed",
+     "compute": "electric_amplitude = magnetic_amplitude * speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.5",
+   "title": "Magnetic Field Amplitude from Electric Field Amplitude",
+   "section": "8.3.2",
+   "definition": "The peak amplitude of the oscillating magnetic field vector in an electromagnetic wave, derived from electric field amplitude.",
+   "formula": "magnetic_amplitude = electric_amplitude / speed_of_light",
+   "key_idea": "Magnetic field amplitude is electric field amplitude divided by light speed.",
+   "textbook_ref": "leph108.txt lines 175-190",
+   "question_patterns": [
+    "calculate the magnetic field amplitude given electric field amplitude",
+    "find the amplitude of oscillating magnetic field for electric field amplitude ...",
+    "determine the magnetic field vector magnitude given peak electric field ...",
+    "what is the magnetic field amplitude when electric field amplitude is ...",
+    "compute magnetic field amplitude from electric field amplitude in free space"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide electric field amplitude by speed of light",
+     "explain": "magnetic field peak equals electric field peak divided by propagation speed",
+     "compute": "magnetic_amplitude = electric_amplitude / speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.6",
+   "title": "Wave Vector and Spatial Frequency of EM Wave",
+   "section": "8.3.2",
+   "definition": "The propagation constant representing phase change per unit distance along wave propagation vector.",
+   "formula": "propagation_constant = 2 * pi / wavelength",
+   "key_idea": "Wave vector magnitude describes spatial variation rate of electromagnetic wave phase.",
+   "textbook_ref": "leph108.txt lines 150-170",
+   "question_patterns": [
+    "calculate wave vector magnitude k from wavelength",
+    "find the propagation constant k for an em wave with wavelength ...",
+    "determine wave vector value for a wave of wavelength ...",
+    "what is the value of k for wavelength ...",
+    "compute wave propagation constant given wavelength"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide two pi by wavelength",
+     "explain": "wave vector magnitude k is two pi divided by wavelength",
+     "compute": "propagation_constant = 2 * pi / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.7",
+   "title": "Speed of Light in Material Medium",
+   "section": "8.3.2",
+   "definition": "The propagation velocity of electromagnetic disturbance within a physical medium defined by medium permeability and permittivity.",
+   "formula": "speed = 1 / sqrt(permeability * permittivity)",
+   "key_idea": "Electromagnetic wave speed decreases inside material media based on electrical and magnetic properties.",
+   "textbook_ref": "leph108.txt lines 185-200",
+   "question_patterns": [
+    "calculate the speed of light in a material medium with given permeability and permittivity",
+    "find the wave velocity in a medium having permeability ... and permittivity ...",
+    "determine the propagation speed of em wave in a medium of known electric and magnetic parameters",
+    "what is the velocity of electromagnetic wave in a medium where permittivity is ... and permeability is ...",
+    "compute electromagnetic wave speed in a medium given magnetic permeability and electric permittivity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply permeability and permittivity",
+     "explain": "multiply magnetic permeability by electric permittivity of medium",
+     "compute": "prod = permeability * permittivity"
+    },
+    {
+     "step": 2,
+     "action": "take reciprocal of square root of product",
+     "explain": "wave velocity equals inverse square root of medium property product",
+     "compute": "speed = 1 / sqrt(prod)"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.8",
+   "title": "Maxwell Equations in Free Space",
+   "section": "8.1",
+   "definition": "The set of four mathematical relationships coupling electric charges, currents, and time-varying field distributions.",
+   "formula": "Gauss_E, Gauss_B, Faraday_Law, Ampere_Maxwell_Law",
+   "key_idea": "Complete unification of electrostatics, magnetism, and wave optics.",
+   "textbook_ref": "leph108.txt lines 115-130",
+   "question_patterns": [
+    "list Maxwell equations in free space",
+    "explain the role of Maxwell equations in predicting electromagnetic waves",
+    "state Faraday law and Ampere Maxwell law in field form",
+    "what are the four fundamental equations of electromagnetism",
+    "verify how Maxwell equations establish symmetry between electric and magnetic fields"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state Gauss law for electricity",
+     "explain": "surface integral of electric field over closed boundary equals enclosed charge divided by free space permittivity"
+    },
+    {
+     "step": 2,
+     "action": "state Gauss law for magnetism",
+     "explain": "surface integral of magnetic field over any closed surface is zero reflecting lack of magnetic monopoles"
+    },
+    {
+     "step": 3,
+     "action": "state Faraday law of induction",
+     "explain": "line integral of electric field along closed contour equals negative rate of change of magnetic flux"
+    },
+    {
+     "step": 4,
+     "action": "state Ampere Maxwell law",
+     "explain": "line integral of magnetic field depends on both conduction current and displacement current"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.9",
+   "title": "Sources and Transverse Nature of Electromagnetic Waves",
+   "section": "8.3.1",
+   "definition": "The origin of radiated electromagnetic energy from accelerated charges and mutually orthogonal orientations of field oscillations.",
+   "formula": "E_x = E0 * sin(k*z - omega*t), B_y = B0 * sin(k*z - omega*t)",
+   "key_idea": "Accelerating charges radiate waves where electric field, magnetic field, and wave vector are mutually perpendicular.",
+   "textbook_ref": "leph108.txt lines 135-170",
+   "question_patterns": [
+    "explain how accelerated charges radiate electromagnetic waves",
+    "describe the orientation of electric field magnetic field and propagation vector in em waves",
+    "why are stationary charges unable to produce electromagnetic waves",
+    "show that electric and magnetic field vectors are mutually perpendicular in em waves",
+    "verify the transverse nature of plane electromagnetic waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify charge condition for radiation",
+     "explain": "static charges create electrostatic fields and constant currents create steady magnetic fields, but accelerating charges generate self-sustaining propagating field waves"
+    },
+    {
+     "step": 2,
+     "action": "analyze mutual field orthogonalities",
+     "explain": "electric field vector and magnetic field vector oscillate perpendicular to each other and perpendicular to wave propagation direction"
+    }
+   ]
+  },
+  {
+   "id": "leph.108.10",
+   "title": "Electromagnetic Spectrum Regions and Applications",
+   "section": "8.4",
+   "definition": "The continuous distribution of electromagnetic waves grouped into distinct frequency and wavelength bands.",
+   "formula": "E = h * nu",
+   "key_idea": "Electromagnetic spectral regions differ in production mechanisms, detection instruments, and practical applications.",
+   "textbook_ref": "leph108.txt lines 205-260",
+   "question_patterns": [
+    "classify different bands of the electromagnetic spectrum",
+    "state production and detection methods for microwaves and infrared waves",
+    "explain applications of ultraviolet radiation and X rays",
+    "what are the main bands of the electromagnetic spectrum in order of increasing frequency",
+    "compare radio waves microwaves and gamma rays by wavelength and generation mechanism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order spectrum bands by wavelength",
+     "explain": "radio waves have longest wavelengths, followed by microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays"
+    },
+    {
+     "step": 2,
+     "action": "identify generation and detection mechanism",
+     "explain": "radio waves are generated by accelerating electrons in aerials and detected by aerials, whereas gamma rays are produced in nuclear reactions"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex8.1.1",
+   "source_ref": "Section 8.2 Equation 8.4",
+   "concept": "leph.108.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the displacement current when the rate of change of electric flux is {dphi_dt} V m / s.",
+   "extracted_variables": {
+    "eps0": 8.854e-12,
+    "dphi_dt": 100000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply permittivity of free space by rate of change of electric flux",
+     "explain": "displacement current equals vacuum permittivity multiplied by time derivative of electric flux",
+     "compute": "displacement_current = eps0 * dphi_dt"
+    }
+   ]
+  },
+  {
+   "id": "ex8.1.2",
+   "source_ref": "Section 8.2 Equation 8.4",
+   "concept": "leph.108.1",
+   "question_type": "compute",
+   "question_pattern": "Find the displacement current between parallel plates if electric flux varies at {dphi_dt} V m / s.",
+   "extracted_variables": {
+    "eps0": 8.854e-12,
+    "dphi_dt": 250000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply permittivity of free space by rate of change of electric flux",
+     "explain": "displacement current equals vacuum permittivity multiplied by time derivative of electric flux",
+     "compute": "displacement_current = eps0 * dphi_dt"
+    }
+   ]
+  },
+  {
+   "id": "ex8.2.1",
+   "source_ref": "Example 8.1",
+   "concept": "leph.108.2",
+   "question_type": "compute",
+   "question_pattern": "A plane electromagnetic wave of frequency {frequency} Hz travels in free space. What is its wavelength?",
+   "extracted_variables": {
+    "speed_of_light": 300000000.0,
+    "frequency": 25000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wave frequency",
+     "explain": "wavelength is calculated by dividing speed of light in vacuum by frequency",
+     "compute": "wavelength = speed_of_light / frequency"
+    }
+   ]
+  },
+  {
+   "id": "ex8.2.2",
+   "source_ref": "Exercise 8.4",
+   "concept": "leph.108.2",
+   "question_type": "compute",
+   "question_pattern": "If the frequency of an electromagnetic wave is {frequency} Hz, calculate its wavelength in vacuum.",
+   "extracted_variables": {
+    "speed_of_light": 300000000.0,
+    "frequency": 30000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wave frequency",
+     "explain": "wavelength is calculated by dividing speed of light in vacuum by frequency",
+     "compute": "wavelength = speed_of_light / frequency"
+    }
+   ]
+  },
+  {
+   "id": "ex8.3.1",
+   "source_ref": "Exercise 8.3",
+   "concept": "leph.108.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the frequency of radiowaves having a wavelength of {wavelength} m.",
+   "extracted_variables": {
+    "speed_of_light": 300000000.0,
+    "wavelength": 500.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wavelength",
+     "explain": "frequency is determined by dividing light speed in vacuum by wavelength",
+     "compute": "frequency = speed_of_light / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "ex8.3.2",
+   "source_ref": "Exercise 8.10",
+   "concept": "leph.108.3",
+   "question_type": "compute",
+   "question_pattern": "Find the frequency of electromagnetic radiation whose wavelength is {wavelength} m.",
+   "extracted_variables": {
+    "speed_of_light": 300000000.0,
+    "wavelength": 0.015
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide speed of light by wavelength",
+     "explain": "frequency is determined by dividing light speed in vacuum by wavelength",
+     "compute": "frequency = speed_of_light / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "ex8.4.1",
+   "source_ref": "Exercise 8.7",
+   "concept": "leph.108.4",
+   "question_type": "compute",
+   "question_pattern": "The amplitude of the magnetic field part of a harmonic electromagnetic wave in vacuum is {magnetic_amplitude} T. What is the electric field amplitude?",
+   "extracted_variables": {
+    "magnetic_amplitude": 5.1e-07,
+    "speed_of_light": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply magnetic field amplitude by speed of light",
+     "explain": "electric field peak equals magnetic field peak multiplied by propagation speed",
+     "compute": "electric_amplitude = magnetic_amplitude * speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "ex8.4.2",
+   "source_ref": "Example 8.2",
+   "concept": "leph.108.4",
+   "question_type": "compute",
+   "question_pattern": "Find the electric field amplitude if magnetic field amplitude of an em wave is {magnetic_amplitude} T.",
+   "extracted_variables": {
+    "magnetic_amplitude": 2e-07,
+    "speed_of_light": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply magnetic field amplitude by speed of light",
+     "explain": "electric field peak equals magnetic field peak multiplied by propagation speed",
+     "compute": "electric_amplitude = magnetic_amplitude * speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "ex8.5.1",
+   "source_ref": "Example 8.1",
+   "concept": "leph.108.5",
+   "question_type": "compute",
+   "question_pattern": "At a particular point, the electric field amplitude is {electric_amplitude} V/m. What is the magnetic field amplitude?",
+   "extracted_variables": {
+    "electric_amplitude": 6.3,
+    "speed_of_light": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide electric field amplitude by speed of light",
+     "explain": "magnetic field peak equals electric field peak divided by propagation speed",
+     "compute": "magnetic_amplitude = electric_amplitude / speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "ex8.5.2",
+   "source_ref": "Exercise 8.8",
+   "concept": "leph.108.5",
+   "question_type": "compute",
+   "question_pattern": "Suppose the electric field amplitude of an electromagnetic wave is {electric_amplitude} N/C. Determine the magnetic field amplitude.",
+   "extracted_variables": {
+    "electric_amplitude": 120.0,
+    "speed_of_light": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide electric field amplitude by speed of light",
+     "explain": "magnetic field peak equals electric field peak divided by propagation speed",
+     "compute": "magnetic_amplitude = electric_amplitude / speed_of_light"
+    }
+   ]
+  },
+  {
+   "id": "ex8.6.1",
+   "source_ref": "Example 8.2",
+   "concept": "leph.108.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the wave propagation constant k for an electromagnetic wave with wavelength {wavelength} m.",
+   "extracted_variables": {
+    "pi": 3.1415926535,
+    "wavelength": 0.01256637
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide two pi by wavelength",
+     "explain": "wave vector magnitude k is two pi divided by wavelength",
+     "compute": "propagation_constant = 2 * pi / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "ex8.6.2",
+   "source_ref": "Exercise 8.8",
+   "concept": "leph.108.6",
+   "question_type": "compute",
+   "question_pattern": "Find the propagation vector magnitude k for a wave having wavelength {wavelength} m.",
+   "extracted_variables": {
+    "pi": 3.1415926535,
+    "wavelength": 6.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide two pi by wavelength",
+     "explain": "wave vector magnitude k is two pi divided by wavelength",
+     "compute": "propagation_constant = 2 * pi / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "ex8.7.1",
+   "source_ref": "Section 8.3.2 Equation 8.11",
+   "concept": "leph.108.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate light speed in a medium with permeability {permeability} H/m and permittivity {permittivity} F/m.",
+   "extracted_variables": {
+    "permeability": 1.2566e-06,
+    "permittivity": 1.7708e-11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply permeability and permittivity",
+     "explain": "multiply magnetic permeability by electric permittivity of medium",
+     "compute": "prod = permeability * permittivity"
+    },
+    {
+     "step": 2,
+     "action": "take reciprocal of square root of product",
+     "explain": "wave velocity equals inverse square root of medium property product",
+     "compute": "speed = 1 / sqrt(prod)"
+    }
+   ]
+  },
+  {
+   "id": "ex8.7.2",
+   "source_ref": "Section 8.3.2 Equation 8.11",
+   "concept": "leph.108.7",
+   "question_type": "compute",
+   "question_pattern": "Determine the speed of an electromagnetic wave in vacuum where permeability is {permeability} H/m and permittivity is {permittivity} F/m.",
+   "extracted_variables": {
+    "permeability": 1.2566e-06,
+    "permittivity": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply permeability and permittivity",
+     "explain": "multiply magnetic permeability by electric permittivity of medium",
+     "compute": "prod = permeability * permittivity"
+    },
+    {
+     "step": 2,
+     "action": "take reciprocal of square root of product",
+     "explain": "wave velocity equals inverse square root of medium property product",
+     "compute": "speed = 1 / sqrt(prod)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "Exercise 8.1",
+   "questions": [
+    "A parallel plate capacitor made of circular plates of radius 12 cm and separation 5.0 cm is charged by constant current 0.15 A. Calculate capacitance, rate of change of potential difference, and displacement current across the plates."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "Exercise 8.2",
+   "questions": [
+    "A parallel plate capacitor with circular plates of radius 6.0 cm has capacitance 100 pF connected to a 230 V ac supply with angular frequency 300 rad/s. Find rms conduction current, check equality with displacement current, and determine magnetic field amplitude between plates."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "Exercise 8.3",
+   "questions": [
+    "What physical quantity is the same for X-rays of wavelength 10^-10 m, red light of wavelength 6800 Angstrom, and radiowaves of wavelength 500 m?"
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "Exercise 8.4",
+   "questions": [
+    "A plane electromagnetic wave travels in vacuum along z-direction. What can you say about directions of electric and magnetic field vectors? If frequency is 30 MHz, find wavelength."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "Exercise 8.5",
+   "questions": [
+    "A radio can tune in to any station in the 7.5 MHz to 12 MHz band. What is the corresponding wavelength band?"
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "Exercise 8.6",
+   "questions": [
+    "A charged particle oscillates about its mean equilibrium position with a frequency of 10^9 Hz. What is the frequency of the electromagnetic waves produced by the oscillator?"
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "Exercise 8.7",
+   "questions": [
+    "The amplitude of the magnetic field part of a harmonic electromagnetic wave in vacuum is B0 = 510 nT. What is the amplitude of the electric field part of the wave?"
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "Exercise 8.8",
+   "questions": [
+    "Electric field amplitude of an electromagnetic wave is E0 = 120 N/C and frequency is nu = 50.0 MHz. Determine B0, omega, k, and lambda."
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "Exercise 8.9",
+   "questions": [
+    "Use formula E = h * nu to obtain photon energy in eV for different parts of the electromagnetic spectrum."
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "Exercise 8.10",
+   "questions": [
+    "In a plane electromagnetic wave, electric field oscillates sinusoidally at frequency 2.0x10^10 Hz and amplitude 48 V/m. Calculate wavelength, magnetic field amplitude, and show average energy density equality."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_10",
+   "title": "c9_math_ch7_10",
+   "questions": [
+    {
+     "q": "What is the probability of getting \"Head then Tail\" when a fair coin is tossed twice, using a tree diagram? Write the multiplication expression shown by the branches.",
+     "a": "The probability is (1/2) × (1/2) = 1/4. A wrong answer like 1/2 or 1/3 reveals the student either does not multiply along branches (perhaps adding probabilities) or does not understand independence (thinking the second toss depends on the first).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we multiply probabilities along the branches of a tree diagram instead of adding them. Use the example of drawing two cards from a deck without replacement.",
+     "a": "We multiply because we want the probability that BOTH events happen in sequence (first event AND second event). For dependent events like drawing cards without replacement, the second probability is conditional on the first; the multiplication rule P(A and B) = P(A) × P(B|A) captures this. Adding would give the probability of either event happening (union), not the joint occurrence. A wrong explanation like \"we multiply because the branches go sideways\" shows a procedural misunderstanding without conceptual grasp.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 green and 6 yellow marbles. Two marbles are drawn one after the other WITHOUT replacement. Draw a tree diagram (describe the branches and probabilities) and calculate the probability that exactly one marble is green.",
+     "a": "First draw: Green (4/10), Yellow (6/10). If first Green, second: Green (3/9), Yellow (6/9). If first Yellow, second: Green (4/9), Yellow (5/9). Paths for exactly one green: (Green, Yellow) = (4/10)×(6/9)=24/90; (Yellow, Green) = (6/10)×(4/9)=24/90. Total = 48/90 = 8/15. A wrong answer like 48/100 (using 10 for both denominators) reveals the student forgot to adjust the denominator for the second draw (treating as independent with replacement).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tree diagrams for \"tossing a coin twice\" and \"drawing two balls without replacement from a bag with 1 red and 1 blue ball\". Identify the structural similarity and the key numerical difference in branch probabilities.",
+     "a": "Both have two stages with two branches at each stage (four paths total). Similarity: each stage branches into two outcomes. Difference: coin toss has constant probabilities (1/2, 1/2) at both stages (independent); ball drawing has first stage (1/2, 1/2) but second stage probabilities become (0, 1) or (1, 0) because the first ball is not replaced (dependent, conditional probabilities). A student who says \"they are identical\" misses the dependence concept.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a tree diagram for \"rolling a die twice\" and writes the probability of each first-roll outcome as 1/6, but for the second roll writes 1/5, 1/5, 1/5, 1/5, 1/5, 1/5 on every branch. Evaluate this diagram: is it correct? Explain the error.",
+     "a": "The diagram is incorrect. Rolling a die twice are independent events; the outcome of the first roll does not affect the second roll. The second roll should also have six branches each with probability 1/6. Writing 1/5 suggests the student thinks one outcome is removed (like without replacement), confusing independent trials with dependent sampling. This error shows a fundamental confusion between independent and dependent experiments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires a two-stage tree diagram with dependent events (without replacement). Provide the problem statement, the tree diagram description, and the question to be answered.",
+     "a": "Example: \"A box contains 5 packets of Maggi (3 Masala, 2 Chicken). Rahul picks two packets at random without replacement. Draw a tree diagram and find the probability he gets one of each flavour.\" A good answer includes correct branching with adjusted denominators (5 then 4) and correct multiplication/addition. A poor problem might use replacement or independent events, showing the student cannot distinguish dependent scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

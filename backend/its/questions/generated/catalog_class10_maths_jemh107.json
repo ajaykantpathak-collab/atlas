@@ -1,0 +1,116 @@
+{
+ "catalog": "catalog_class10_maths_jemh107.json",
+ "concepts": [
+  {
+   "id": "jemh.107.7.1",
+   "title": "Distance Formula",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (3, 5) and (15, 21).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (8, 6) from the origin.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (8, -1) and (4, -1).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (4, 0) internally in the ratio 1 : 3. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (0, -4), (4, 6) and (3, 0) (two decimal places).",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-4, 4), (2, 4) and (3, -2).",
+     "a": "0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.107.7.2",
+   "title": "Section Formula",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (5, -5) and (8, -1).",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-9, 2) from the origin.",
+     "a": "9.22",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (2, -1) and (-5, 6).",
+     "a": "-1.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 4 : 1. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (4, 5), (-2, 3) and (-1, 0) (two decimal places).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (0, 4), (-4, 4) and (-3, 2).",
+     "a": "-2.33333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.107.7.3",
+   "title": "Area of a Triangle from Its Vertices",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 21 cm by 9 cm.",
+     "a": "189",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 21 m.",
+     "a": "441",
+     "self_check": false
+    },
+    {
+     "q": "A 12 m x 11 m garden has a 8 m x 7 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 84 sq cm and length 6 cm. Find its breadth.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 5 m x 18 m floor.",
+     "a": "1350",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 18 m x 12 m hall?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

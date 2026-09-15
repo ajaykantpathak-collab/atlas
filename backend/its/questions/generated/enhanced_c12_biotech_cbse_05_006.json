@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_006",
+   "title": "c12_biotech_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the fundamental biochemical principle that allows Sanger sequencing to determine the DNA sequence?",
+     "a": "Sanger sequencing uses dideoxynucleotides (ddNTPs) which lack a 3'-OH group on the deoxyribose sugar. When a ddNTP is incorporated by DNA polymerase during primer extension, chain termination occurs because no phosphodiester bond can form with the next incoming nucleotide. This generates a population of fragments terminating at every position of the target base. The fragments are separated by size via capillary electrophoresis, and a fluorescence detector reads the terminal base label. A wrong answer (e.g., \"Sanger uses reversible terminators\" or \"Sanger sequences by synthesis without termination\") reveals confusion with Illumina NGS chemistry, which uses reversible terminators and does not permanently stop synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "In Illumina sequencing, why are DNA fragments attached to a flow cell and amplified via bridge PCR before sequencing?",
+     "a": "Bridge PCR creates dense clusters of identical DNA fragments (clonal amplification) at fixed coordinates on the flow cell. This serves two purposes: (1) It amplifies the signal — a single molecule's fluorescence is too weak to detect, but a cluster of ~1000 copies produces a strong, measurable signal; (2) It spatially immobilises each unique fragment so that millions of different fragments can be sequenced in parallel while keeping track of which base belongs to which original fragment. A wrong answer (e.g., \"to increase read length\" or \"to remove adapters\") reveals misunderstanding of the signal-to-noise requirement and the massively parallel nature of NGS.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to sequence a 3 kb plasmid to verify a site-directed mutation. She has access to Sanger sequencing (read length 800 bp) and Illumina MiSeq (read length 2 × 300 bp paired-end). Which technology should she choose, and how many Sanger reactions or Illumina reads would be minimally required to cover the entire plasmid with at least 2× coverage? Assume perfect reads and no overlaps needed beyond coverage.",
+     "a": "**Sanger**: Plasmid = 3000 bp. Read length = 800 bp. Minimum reactions = ceil(3000 / 800) = 4 reactions (using 4 primers spaced ~800 bp apart). For 2× coverage, she needs 8 reactions (forward + reverse for each region, or 4 forward + 4 reverse). **Illumina**: Paired-end 2 × 300 bp = 600 bp per fragment. For 2× coverage of 3000 bp, total bases needed = 6000 bp. Minimum fragments = ceil(6000 / 600) = 10 fragments (clusters). But since Illumina sequences millions in parallel, she would simply prepare a library and run it; the instrument generates far more reads than needed. **Choice**: Sanger is more practical — cheaper, faster turnaround for a single plasmid, and 800 bp reads easily span the mutation site with flanking context. A wrong answer choosing Illumina for a single plasmid reveals failure to consider cost, turnaround time, and the \"overkill\" of NGS for small targets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the error profiles of Illumina and Oxford Nanopore sequencing. How do these error profiles influence the choice of technology for (a) SNP calling in a human genome, and (b) de novo assembly of a highly repetitive plant genome?",
+     "a": "**Illumina**: Low error rate (~0.1–1%), predominantly substitution errors. High accuracy per base due to high depth of coverage (30–50×). Ideal for (a) SNP calling — high per-base accuracy and short reads map uniquely to a reference genome, enabling precise variant detection. **Nanopore**: Higher raw error rate (~5–15%), predominantly indel errors in homopolymer regions. But produces ultra-long reads (>100 kb, up to Mb). Ideal for (b) de novo assembly of repetitive genomes — long reads span entire repetitive elements (transposons, centromeres), resolving structure that short reads cannot. A wrong answer (e.g., \"Nanopore is better for SNPs because it's newer\" or \"Illumina is better for assembly because it's more accurate\") reveals failure to match error profile and read length to the specific biological problem.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Third-generation nanopore sequencing has made second-generation Illumina sequencing obsolete for all applications.\" Defend your position with three specific technical arguments.",
+     "a": "The claim is **false**. Three arguments: (1) **Accuracy-critical applications**: Clinical diagnostics (e.g., non-invasive prenatal testing, cancer panel sequencing) require >99.9% per-base accuracy. Illumina's Q30+ (0.1% error) outperforms raw Nanopore (~95% accuracy); Nanopore requires high coverage or hybrid polishing to match. (2) **Cost-per-base for high-throughput projects**: Population genomics (e.g., 100,000 genomes) benefits from Illumina's massive throughput (6000 Gb/run on NovaSeq X) and lower reagent cost per Gb. Nanopore PromethION is competitive but not universally cheaper. (3) **Short-read mapping efficiency**: For variant calling against a high-quality reference genome, short reads map uniquely with minimal ambiguity. Long reads are unnecessary and computationally heavier. A wrong answer agreeing with the claim reveals \"newer = better\" bias and ignorance of the accuracy-throughput-cost trade-off space.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sequencing strategy to identify a novel structural variant (a 15 kb inversion) in a patient's genome that is missed by standard short-read sequencing. Specify the technology, library preparation consideration, and bioinformatics approach. Justify each choice.",
+     "a": "**Technology**: Oxford Nanopore (or PacBio HiFi) — long reads (>15 kb) can span the entire inversion breakpoint in a single read. **Library prep**: Use high-molecular-weight DNA extraction (gentle lysis, no vortexing) to preserve fragments >50 kb. Avoid PCR amplification (which introduces bias and chimeras); use PCR-free ligation or rapid sequencing kit. **Bioinformatics**: Map long reads to reference genome with minimap2; detect split-read alignments or discordant read-pair signatures at inversion breakpoints; use Sniffles or cuteSV for structural variant calling; validate with PCR across breakpoint and Sanger sequencing. **Justification**: Short reads (150 bp) cannot span the 15 kb inverted region; they map normally to both orientations, missing the variant. Long reads physically cover the junction. A poor answer (e.g., \"use Illumina with higher coverage\" or \"use RNA-seq\") reveals inability to match read length to variant size and ignorance of library prep impact on structural variant detection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

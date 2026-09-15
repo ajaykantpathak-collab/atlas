@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_001",
+   "title": "c11_phy_cbse_13_001",
+   "questions": [
+    {
+     "q": "A student claims that the motion of the Earth around the Sun is oscillatory because it repeats every year. Is the student correct? Justify your answer using the definitions of periodic and oscillatory motion.",
+     "a": "No, the student is incorrect. The Earth's orbital motion is periodic (repeats after a fixed interval of 1 year) but not oscillatory because the Earth does not move to and fro about an equilibrium position; it undergoes circular/elliptical motion without a restoring force directed toward a fixed mean position. A wrong answer reveals the misconception that all periodic motions are oscillatory.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle in an oscillatory system is given by x(t) = 0.05 cos(10πt) where x is in meters and t in seconds. What is the physical meaning of the number 0.05 and the term 10π? Explain why this displacement function represents an oscillatory motion.",
+     "a": "0.05 m is the amplitude (maximum displacement from equilibrium). 10π rad/s is the angular frequency ω, related to period by T = 2π/ω = 0.2 s. The cosine function varies between -1 and +1, so x(t) moves symmetrically about zero (equilibrium), confirming to-and-fro motion. A wrong answer indicates the student cannot link the mathematical form to the physical concepts of amplitude, equilibrium, and periodic repetition.",
+     "self_check": true
+    },
+    {
+     "q": "A quartz crystal in a digital watch vibrates with a frequency of 32,768 Hz. Calculate its period of vibration in microseconds (μs). Show unit conversion steps.",
+     "a": "Given ν = 32,768 Hz = 32,768 s⁻¹. Period T = 1/ν = 1/32,768 s ≈ 3.0518 × 10⁻⁵ s. Convert to μs: 1 s = 10⁶ μs, so T = 3.0518 × 10⁻⁵ × 10⁶ μs = 30.518 μs ≈ 30.5 μs. A wrong answer (e.g., forgetting unit conversion or misplacing decimal) reveals difficulty with reciprocal relationship and metric prefixes.",
+     "self_check": true
+    },
+    {
+     "q": "Figure shows four x-t graphs. Graph A: straight line with positive slope. Graph B: parabola opening upward. Graph C: repeating sinusoidal curve. Graph D: repeating sawtooth pattern (sharp peaks). Which graphs represent periodic motion? For the periodic ones, which represent oscillatory motion? Explain your reasoning.",
+     "a": "Graphs C and D are periodic (repeat after a fixed interval). Graph C is oscillatory (sinusoidal, symmetric about an equilibrium position, implying a restoring force). Graph D is periodic but not oscillatory (the motion is not symmetric to-and-fro about a mean position; it resembles a particle moving with constant velocity and instantly reversing, which requires infinite force). A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion based on symmetry and physical plausibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the displacement of an oscillating simple pendulum as θ(t) = 0.2 sin(5t) where θ is in degrees and t in seconds. Evaluate the correctness of this equation. If incorrect, provide the correct form with proper units.",
+     "a": "The equation is incorrect because the argument of a trigonometric function must be in radians (dimensionless). 5t has units of rad/s × s = rad, but 0.2 is in degrees. The amplitude should be in radians: 0.2° = 0.2 × π/180 ≈ 0.00349 rad. Correct form: θ(t) = 0.00349 sin(5t) rad. A wrong evaluation indicates the student overlooks the radian requirement for angular arguments in calculus-based physics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the difference between periodic motion that is oscillatory and periodic motion that is not oscillatory. List materials, procedure, and the observations that distinguish the two.",
+     "a": "Materials: a thread with a small stone (pendulum), a rotating stool or a bicycle wheel mounted on an axle. Procedure: (1) Displace the pendulum slightly and release; observe to-and-fro motion about the lowest point. (2) Spin the bicycle wheel; observe continuous rotation. Observations: The pendulum moves back and forth about an equilibrium position (oscillatory). The wheel repeats its orientation after each full turn but does not have an equilibrium position it returns to after displacement; it is periodic but not oscillatory. A poor answer fails to identify the equilibrium position or the restoring force as the distinguishing feature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

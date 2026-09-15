@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_007",
+   "title": "c12_geo_cbse_19_007",
+   "questions": [
+    {
+     "q": "Define quartile deviation and state its formula for ungrouped data.",
+     "a": "Quartile deviation (QD) is half the difference between the third quartile (Q3) and first quartile (Q1): QD = (Q3 - Q1)/2. A wrong answer (e.g., QD = Q3 - Q1) reveals the student confuses quartile deviation with interquartile range, missing the 'semi' aspect. This error leads to overestimation of dispersion by a factor of 2.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mean deviation about the median is preferred over mean deviation about the mean for skewed geographical distributions like district-wise population density.",
+     "a": "For skewed distributions, the median is a more representative central value because it is not pulled by extreme values. Mean deviation about the median minimises the sum of absolute deviations (property of median), giving a more stable measure of dispersion. A wrong answer that says \"mean deviation about mean is always better\" shows the student does not understand the effect of skewness on central tendency and dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following ungrouped data of annual rainfall (in mm) for 7 districts in Rajasthan: 450, 520, 380, 610, 490, 550, 420. Calculate the quartile deviation.",
+     "a": "Steps: 1) Arrange in ascending order: 380, 420, 450, 490, 520, 550, 610. 2) N=7. Q1 position = (N+1)/4 = 2nd value = 420. Q3 position = 3(N+1)/4 = 6th value = 550. 3) QD = (550-420)/2 = 65 mm. A wrong answer (e.g., using N/4 positions) indicates incorrect quartile location method, a common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the quartile deviation and mean deviation for the same dataset: which is more affected by an extreme value like 1200 mm added to the Rajasthan rainfall data? Justify.",
+     "a": "Mean deviation is more affected because it uses all observations, so adding an extreme value changes the mean and increases absolute deviations. Quartile deviation only uses Q1 and Q3 (positions 2 and 6 in ordered data), so it is resistant to extremes. A wrong answer stating both are equally affected shows misunderstanding of resistant vs non-resistant measures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of quartile deviation vs mean deviation for analysing the variability of crop yield (tonnes/hectare) across Indian states where data is grouped into classes (e.g., 0-1, 1-2, 2-3, 3-4). Which would you recommend and why?",
+     "a": "For grouped data, quartile deviation is easier to compute (using cumulative frequency to locate quartile classes) and is less affected by open-ended classes. Mean deviation requires midpoints and frequencies, and is sensitive to class interval assumptions. Recommend quartile deviation for grouped geographical data with possible outliers. A wrong answer recommending mean deviation without considering open-ended classes shows lack of practical geographical data awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical investigation to compare the dispersion of literacy rates across districts of two Indian states (e.g., Kerala and Bihar) using quartile deviation and mean deviation. Outline the steps and the expected interpretation.",
+     "a": "Steps: 1) Collect district-wise literacy rates for both states. 2) Compute Q1, Q3, QD and mean deviation about median for each state. 3) Compare QD values: higher QD indicates greater spread in middle 50%. 4) Compare MD: higher MD indicates greater average deviation. 5) Interpret: Kerala likely has lower QD and MD (more uniform), Bihar higher (more disparity). A poor answer would just compute without geographical interpretation, missing the purpose of dispersion analysis in regional planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

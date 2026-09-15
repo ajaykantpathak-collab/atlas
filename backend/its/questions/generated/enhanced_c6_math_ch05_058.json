@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_058",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_058",
+   "title": "c6_math_ch05_058",
+   "questions": [
+    {
+     "q": "What is the first step when you see a word problem asking for an unknown number?",
+     "a": "The first step is to assign a variable (like 'x') to the unknown quantity. A wrong answer like \"adding the numbers in the problem\" suggests the student is guessing operations without understanding the relationship between quantities.",
+     "self_check": true
+    },
+    {
+     "q": "If a pen costs 'x' rupees and a notebook costs 'x + 10' rupees, what does the expression 'x + (x + 10)' represent?",
+     "a": "It represents the total cost of one pen and one notebook combined. If a student says it represents the cost of one item, they are failing to recognize how the grouping of terms works in an equation.",
+     "self_check": true
+    },
+    {
+     "q": "A basket has apples and oranges. There are 4 more apples than oranges. If there are 12 oranges, how do you express the number of apples using 'x' if 'x' is the number of oranges?",
+     "a": "The number of apples is x + 4. Substituting 12 for x, we get 12 + 4 = 16 apples. If a student answers \"x - 4\", they are confusing \"more than\" with \"less than.\"",
+     "self_check": true
+    },
+    {
+     "q": "If 3 times a number increased by 5 equals 20, how do you write this as an equation?",
+     "a": "3x + 5 = 20. If a student writes 3(x + 5) = 20, they have misunderstood the order of operations, thinking the \"times\" applies to the whole sum rather than just the number.",
+     "self_check": true
+    },
+    {
+     "q": "Is it always better to let 'x' be the larger number in a word problem? Why or why not?",
+     "a": "It is not always better; it is usually easier to let 'x' be the smaller quantity to avoid subtraction. If a student says \"yes\" without justification, they lack the strategic thinking needed to simplify their own algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Create a simple word problem that results in the equation 2x + 10 = 30.",
+     "a": "Example: \"A box has 30 marbles. There are two identical bags of marbles and 10 loose marbles. How many marbles are in one bag?\" A poor answer would be a random sentence that doesn't logically connect to the numbers provided.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

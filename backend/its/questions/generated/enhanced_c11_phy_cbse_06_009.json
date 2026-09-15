@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_009",
+   "title": "c11_phy_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the Parallel Axis Theorem formula and name each variable with its SI unit.",
+     "a": "The formula is \\(I = I_{\\text{cm}} + M d^2\\), where \\(I\\) is the moment of inertia about the given axis (\\(\\text{kg}\\,\\text{m}^2\\)), \\(I_{\\text{cm}}\\) is the moment of inertia about a parallel axis through the centre of mass (\\(\\text{kg}\\,\\text{m}^2\\)), \\(M\\) is the total mass of the body (\\(\\text{kg}\\)), and \\(d\\) is the perpendicular distance between the two parallel axes (\\(\\text{m}\\)). A wrong answer (e.g., missing \\(I_{\\text{cm}}\\) or using \\(d\\) instead of \\(d^2\\)) reveals that the student has memorised the formula incorrectly or does not understand the physical meaning of each term.",
+     "self_check": true
+    },
+    {
+     "q": "Why must one of the two parallel axes pass through the centre of mass for the Parallel Axis Theorem to hold? Explain using the derivation step where the cross-term vanishes.",
+     "a": "In the derivation, we write the distance from the new axis as \\(r_i = \\sqrt{(r_{i,\\text{cm}} + d)^2}\\) (for perpendicular displacement). Expanding \\(I = \\sum m_i (r_{i,\\text{cm}}^2 + d^2 + 2 \\vec{r}_{i,\\text{cm}} \\cdot \\vec{d})\\) gives a cross-term \\(2 \\vec{d} \\cdot \\sum m_i \\vec{r}_{i,\\text{cm}}\\). This sum is zero **only** when the origin is the centre of mass, by definition \\(\\sum m_i \\vec{r}_{i,\\text{cm}} = 0\\). If the reference axis is not through the CM, the cross-term does not vanish and the simple formula \\(I = I_{\\text{cm}} + M d^2\\) fails. A wrong answer indicates the student does not grasp the mathematical necessity of the CM condition.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform thin rod of mass \\(2.0\\,\\text{kg}\\) and length \\(1.0\\,\\text{m}\\) has a moment of inertia \\(I_{\\text{cm}} = \\frac{1}{12}ML^2\\) about an axis through its centre perpendicular to its length. Use the Parallel Axis Theorem to find its moment of inertia about a parallel axis through one end. Show all steps with units.",
+     "a": "**Step 1:** Identify given: \\(M = 2.0\\,\\text{kg}\\), \\(L = 1.0\\,\\text{m}\\), \\(I_{\\text{cm}} = \\frac{1}{12}ML^2\\).  \n**Step 2:** Distance between axes \\(d = L/2 = 0.50\\,\\text{m}\\) (from centre to end).  \n**Step 3:** Formula: \\(I = I_{\\text{cm}} + M d^2\\).  \n**Step 4:** Substitute:  \n\\(I_{\\text{cm}} = \\frac{1}{12} \\times 2.0 \\times (1.0)^2 = \\frac{2.0}{12} = 0.1667\\,\\text{kg}\\,\\text{m}^2\\).  \n\\(M d^2 = 2.0 \\times (0.50)^2 = 2.0 \\times 0.25 = 0.50\\,\\text{kg}\\,\\text{m}^2\\).  \n**Step 5:** \\(I = 0.1667 + 0.50 = 0.6667\\,\\text{kg}\\,\\text{m}^2 \\approx 0.67\\,\\text{kg}\\,\\text{m}^2\\).  \nA wrong answer (e.g., using \\(d = L\\) or forgetting to square \\(d\\)) shows the student cannot identify the correct perpendicular distance or mishandles units.",
+     "self_check": true
+    },
+    {
+     "q": "A solid disc of mass \\(M\\) and radius \\(R\\) has \\(I_{\\text{cm}} = \\frac{1}{2}MR^2\\) about its central perpendicular axis. A student claims the moment of inertia about a parallel axis tangent to the rim (touching the edge) is \\(I = \\frac{1}{2}MR^2 + M(2R)^2\\). Is the student correct? Justify your answer.",
+     "a": "The student is **incorrect**. The perpendicular distance \\(d\\) between the central axis and a parallel axis tangent to the rim is exactly the radius \\(R\\), not the diameter \\(2R\\). The tangent axis touches the circle at one point; the shortest distance between the two parallel lines (axes) is \\(R\\). The correct formula is \\(I = \\frac{1}{2}MR^2 + M R^2 = \\frac{3}{2}MR^2\\). A wrong answer reveals the student confuses the diameter with the perpendicular distance between parallel axes.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular lamina of mass \\(M\\) has moment of inertia \\(I_{\\text{cm}}\\) about an axis through its centre perpendicular to its plane. A second axis is parallel to the first but passes through one corner of the rectangle. The distance between the axes is \\(d\\). If the lamina is cut into two identical halves along a line parallel to the axes, and one half is removed, how does the moment of inertia of the remaining half about the corner axis change? Explain without calculation.",
+     "a": "The moment of inertia of the remaining half about the corner axis will be **less than half** of the original \\(I\\) about that axis. Reason: The Parallel Axis Theorem applies to the whole body. For the half-lamina, its own centre of mass shifts, and its mass becomes \\(M/2\\). The new \\(I' = I'_{\\text{cm}} + (M/2)d'^2\\). Since mass is halved and the distribution is no longer symmetric about the original centre, \\(I'_{\\text{cm}}\\) is not simply \\(I_{\\text{cm}}/2\\), and \\(d'\\) (distance from new CM to corner axis) is different from \\(d\\). The student must recognise that the theorem must be reapplied to the new body with its new CM and mass; one cannot just halve the original total \\(I\\). A wrong answer (e.g., \"it becomes exactly half\") shows the student treats the theorem as a linear scaling rule without considering the shift in centre of mass.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale (uniform rod) and a stopwatch to verify the Parallel Axis Theorem. Describe the setup, measurements, and how you would compare experimental and theoretical values.",
+     "a": "**Setup:** Suspend the metre scale horizontally by a thin string at its centre (CM) and set it into small torsional oscillations; measure period \\(T_{\\text{cm}}\\). Then suspend it at a distance \\(d\\) from the centre (e.g., at the 20 cm mark) and measure period \\(T_d\\).  \n**Theory:** For a torsional pendulum, \\(T = 2\\pi \\sqrt{I/\\kappa}\\), where \\(\\kappa\\) is the torsion constant of the string. Thus \\(I \\propto T^2\\).  \n**Verification:** Calculate \\(I_{\\text{cm}} = \\frac{1}{12}ML^2\\). Predict \\(I_d = I_{\\text{cm}} + M d^2\\). Experimentally, \\(I_d / I_{\\text{cm}} = (T_d / T_{\\text{cm}})^2\\). Compare the ratio.  \n**Good answer criteria:** Identifies torsional oscillation method, correctly relates period to moment of inertia, uses the same string (constant \\(\\kappa\\)), and compares ratios. A poor answer (e.g., using a simple pendulum formula or ignoring the torsion constant) reveals confusion between translational and rotational oscillation physics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_001",
+   "title": "c11_cs_cbse_08_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a function in Python, and how does it differ from writing the same code inline every time it is needed?",
+     "a": "A function encapsulates a specific task into a named, reusable block that can be invoked multiple times, whereas inline code repeats the same statements at each call site, leading to redundancy and maintenance issues. A wrong answer that merely says \"functions make code shorter\" reveals the student misses the deeper advantages of modularity, abstraction, and single-point modification; they are focusing on a symptom (fewer lines) rather than the structural benefit.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a 200-line program without any functions, then copies a 15-line block of code to five different places. When a bug is found in that block, they must fix it in five places. Which TWO advantages of functions does this scenario violate, and why?",
+     "a": "This violates **reusability** (the code is duplicated instead of being written once and called) and **maintainability/debugging ease** (a bug fix must be applied in multiple locations, increasing error risk). A wrong answer that cites only \"readability\" or \"modularity\" without explaining the *consequence* (multiple fix points) shows the student can name advantages but cannot connect them to concrete failure modes in real code.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following two code snippets, which one demonstrates the use of a user-defined function and which uses a built-in function? Explain how you can tell the difference.\n\nSnippet A:\n```python\nresult = len(\"Hello World\")\n```\n\nSnippet B:\n```python\ndef greet(name):\n    return \"Hello \" + name\nresult = greet(\"Aarav\")\n```",
+     "a": "Snippet A uses the built-in function `len()`—provided by Python's standard library, callable without definition. Snippet B defines a user-defined function `greet()` using the `def` keyword, then calls it. A wrong answer that identifies both as \"functions\" without distinguishing their origin shows the student cannot differentiate between language-provided and programmer-created functions, a critical distinction for understanding scope, import mechanics, and documentation lookup.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the following two approaches for calculating the area of a circle for three different radii (5, 7, 10). Which approach better embodies the principle of abstraction, and why?\n\nApproach 1:\n```python\nr1 = 5; area1 = 3.14 * r1 * r1\nr2 = 7; area2 = 3.14 * r2 * r2\nr3 = 10; area3 = 3.14 * r3 * r3\n```\n\nApproach 2:\n```python\ndef circle_area(radius):\n    return 3.14 * radius * radius\narea1 = circle_area(5)\narea2 = circle_area(7)\narea3 = circle_area(10)\n```",
+     "a": "Approach 2 better embodies abstraction because it hides the implementation detail (the formula `3.14 * radius * radius`) behind a meaningful name `circle_area`, allowing the caller to think in terms of *what* is needed (area for a radius) rather than *how* to compute it. Approach 1 exposes the formula at every use site. A wrong answer that says \"Approach 2 is shorter\" misses the conceptual point: abstraction is about separating interface from implementation, not line count.",
+     "self_check": true
+    },
+    {
+     "q": "A team of three students is building a library management system. Student A writes a function `issue_book(book_id, student_id)`, Student B writes `return_book(book_id)`, and Student C writes `calculate_fine(days_overdue)`. During integration, they discover `issue_book` and `return_book` both need to check if a book exists in the database. Evaluate whether they should create a shared helper function `book_exists(book_id)` or duplicate the check in each function. Justify your answer using at least two function advantages.",
+     "a": "They should create a shared helper function `book_exists(book_id)`. This leverages **reusability** (the existence check is written once and called from both places) and **maintainability** (if the database schema changes, the check is updated in one place). Duplicating the check violates both advantages and introduces inconsistency risk. A wrong answer that prefers duplication \"to keep functions independent\" misunderstands that functions *should* depend on well-defined helpers; independence applies to high-level responsibilities, not low-level utility logic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a function would be essential, and write a pseudocode function signature (name, parameters, return type) for it. Explain which two advantages are most critical in your scenario.",
+     "a": "Scenario: A railway ticketing system calculates fare based on distance, class (sleeper/AC), and passenger category (senior citizen, student, general). Pseudocode:\n```\nfunction calculate_fare(distance_km: int, travel_class: str, category: str) -> float\n```\nCritical advantages: **abstraction** (complex fare rules with concessions are hidden behind one call) and **maintainability** (when railway revises concession percentages, only this function is updated). A poor answer that picks a trivial scenario (e.g., \"add two numbers\") or names generic advantages without tying them to the scenario's specifics shows inability to map concepts to realistic domain problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_08_011",
+   "title": "c11_eng_h_cbse_08_011",
+   "questions": [
+    {
+     "q": "Identify the tense and voice of the verb phrase \"had been travelling\" in a narrative context. What time relationship does it establish?",
+     "a": "Correct: Past perfect continuous, active voice. It establishes an action that started before another past event and continued up to that point (e.g., \"We *had been travelling* for hours when the tyre burst\"). A wrong answer (e.g., \"past continuous\") reveals the student cannot distinguish between ongoing past action and past-before-past duration, leading to confusion in sequencing travel events.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The road, *winding through the valley*, disappeared into the mist,\" identify the grammatical form of the underlined phrase and explain its function compared to a relative clause (\"which wound through the valley\").",
+     "a": "Correct: Present participle phrase (non-finite clause) functioning as a post-modifier of \"road.\" It compresses description into a single flow, avoiding the pause of a relative clause, mimicking the continuous motion of the journey. A wrong answer (e.g., \"continuous tense\") reveals the student confuses finite verb forms with non-finite phrases, missing how Middleton creates cinematic continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following two sentences from the text into one using a non-finite clause, preserving the chronological order: \"We reached the pass. The wind howled fiercely.\"",
+     "a": "Correct: \"Reaching the pass, we heard the wind howling fiercely\" or \"Having reached the pass, we encountered fiercely howling wind.\" Steps: 1) Identify shared subject (we). 2) First action (reach) -> perfect participle \"Having reached\" for prior completion. 3) Second action (wind howled) -> main verb or object participle. A wrong answer using \"Reaching the pass, the wind howled\" reveals a dangling participle error — the student fails to ensure the participle's implied subject matches the main clause subject.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why Middleton uses passive voice in \"Prayer flags *are tied* to the poles\" instead of active \"People tie prayer flags...\" in a descriptive paragraph about a monastery.",
+     "a": "Correct: Passive shifts focus to the flags (cultural object) and the resultant state, not the unknown/generic agents. It creates timeless, objective description typical of travel writing. A wrong answer (e.g., \"to make it formal\") reveals the student knows passive *form* but not its *discourse function* — they miss how grammar encodes perspective (observer vs. participant).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Middleton uses only simple past tense because it's a past journey.\" Provide a counter-example from the text structure (you may invent a plausible sentence) and explain the effect of the tense shift.",
+     "a": "Correct: The claim is false. Counter-example: \"The mountain *rises* majestically\" (present simple for permanent geographical fact) or \"By next season, the glacier *will have retreated*\" (future perfect for prediction). Shifts mark the author's dual role: narrator (past) and informed commentator (present/future). A wrong answer accepting the claim reveals the student reads for plot only, not the text's layered temporal perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence descriptive paragraph about a Himalayan scene using: (a) one past perfect continuous, (b) one present participle phrase modifying the subject, (c) one passive construction. Label each.",
+     "a": "Good answer: \"We *had been climbing* for three hours (a) when the summit appeared. *Exhausted but exhilarated*, we paused (b). Colourful prayer flags *were fluttering* in the wind (c).\" A poor answer using all simple past (\"We climbed. We were exhausted. Flags fluttered\") reveals the student cannot *produce* the grammatical variety they are asked to analyze — they lack syntactic repertoire for descriptive writing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

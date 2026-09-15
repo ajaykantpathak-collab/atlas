@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_001",
+   "title": "c12_math_cbse_09_001",
+   "questions": [
+    {
+     "q": "Which of the following equations is a differential equation?  \n(A) \\( x^2 - 5x + 6 = 0 \\)  \n(B) \\( \\sin x + \\cos x = 1 \\)  \n(C) \\( \\frac{dy}{dx} + 2y = e^x \\)  \n(D) \\( 3x + 4y = 12 \\)",
+     "a": "**Correct answer: (C)**  \nEquation (C) contains the derivative \\( \\frac{dy}{dx} \\), making it a differential equation. Equations (A), (B), and (D) involve only variables and constants, not derivatives. A common error is to select (A) or (D) because they are \"equations\", but they lack any derivative term. If a student chooses (A) or (D), they have not yet internalised that a differential equation **must** contain at least one derivative of the dependent variable.",
+     "self_check": true
+    },
+    {
+     "q": "The equation \\( \\frac{d^3y}{dx^3} + x\\left(\\frac{dy}{dx}\\right)^2 - y = 0 \\) is given. A student claims its order is 2 because the term \\( \\left(\\frac{dy}{dx}\\right)^2 \\) has power 2. Explain why this reasoning is incorrect and state the correct order.",
+     "a": "**Correct order: 3**  \nThe order is determined by the **highest derivative** that appears, not by the power (exponent) of any derivative. Here the derivatives present are \\( \\frac{d^3y}{dx^3} \\) (third order) and \\( \\frac{dy}{dx} \\) (first order). The highest is third order, so the order is 3. The student confused **order** (which derivative) with **degree** (power of the highest derivative, when the equation is polynomial in derivatives). This misconception is extremely common and must be corrected before moving to the degree concept in the next node.",
+     "self_check": true
+    },
+    {
+     "q": "Find the order of the differential equation:  \n\\( \\left(\\frac{d^2y}{dx^2}\\right)^3 + \\left(\\frac{dy}{dx}\\right)^4 + y^5 = 0 \\)",
+     "a": "**Order = 2**  \nStep 1: Identify all derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative) and \\( \\frac{dy}{dx} \\) (first derivative).  \nStep 2: The highest order derivative is \\( \\frac{d^2y}{dx^2} \\).  \nStep 3: The powers (3 and 4) do not affect the order.  \nStep 4: Therefore, order = 2.  \nA wrong answer of 3 or 4 reveals the student is using the exponent of the highest derivative term instead of the derivative's order. A wrong answer of 1 reveals they only saw \\( \\frac{dy}{dx} \\) and missed the second derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the two equations:  \n(I) \\( \\frac{d^2y}{dx^2} + 3\\frac{dy}{dx} + 2y = \\sin x \\)  \n(II) \\( \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0 \\)  \nClassify each as ordinary or partial differential equation and state the order of each.",
+     "a": "**Equation (I):** Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\).  \n**Equation (II):** Partial differential equation (PDE), order = 2. Two independent variables \\( x \\) and \\( y \\); highest derivatives are second-order partial derivatives.  \nIf a student labels (II) as an ODE, they have not noticed the partial derivative symbols \\( \\partial \\) and multiple independent variables. NCERT Class 12 focuses only on ODEs, but recognising the distinction is a board-expectation competency.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The order of the differential equation \\( y''' + 2y'' + y' = 0 \\) is 3 because there are three terms.\" Evaluate this statement and correct it if necessary.",
+     "a": "**The statement is incorrect.** The order is 3, but the reason is wrong. The order is 3 because the highest derivative present is \\( y''' \\) (third derivative), not because there are three terms. The number of terms is irrelevant; an equation like \\( y''' = 0 \\) has one term but order 3. If the student had written \"order is 3 because the highest derivative is the third derivative\", that would be correct. This diagnostic checks whether the student understands the **definition** versus a superficial pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a differential equation of order 2 that models the following situation: \"The acceleration of a particle moving along a straight line is proportional to its displacement from the origin, but in the opposite direction.\" Use \\( x \\) for displacement and \\( t \\) for time.",
+     "a": "**Expected answer:** \\( \\frac{d^2x}{dt^2} = -k x \\) (where \\( k > 0 \\) is a constant).  \n**Reasoning:** Acceleration is the second derivative of displacement with respect to time: \\( a = \\frac{d^2x}{dt^2} \\). \"Proportional to displacement\" gives \\( \\frac{d^2x}{dt^2} \\propto x \\); \"opposite direction\" gives the negative sign. The highest derivative is second order, so the differential equation is of order 2.  \nA poor answer might write \\( \\frac{dx}{dt} = -k x \\) (order 1, confusing velocity with acceleration) or omit the negative sign. This reveals whether the student can translate a physical description into the correct derivative order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

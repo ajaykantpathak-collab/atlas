@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_003",
+   "title": "c12_acc_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the primary purpose of preparing a Realisation Account in the dissolution of a partnership firm?",
+     "a": "The primary purpose is to ascertain the profit or loss on the realization of assets and payment of liabilities by comparing their book values with the actual amounts realized/paid. A wrong answer (e.g., \"to distribute cash among partners\") reveals the student confuses Realisation Account with the final cash distribution or partners' capital accounts.",
+     "self_check": true
+    },
+    {
+     "q": "In the Realisation Account, where are the book values of assets (other than cash/bank) and external liabilities recorded initially?",
+     "a": "Assets are debited and external liabilities are credited at their book values. If a student says assets are credited or liabilities are debited, they have reversed the fundamental rule: we debit what we are giving up (assets) and credit what we are relieved of (liabilities).",
+     "self_check": true
+    },
+    {
+     "q": "A firm dissolves. Building (book value ₹5,00,000) is sold for ₹6,20,000. Creditors (book value ₹1,20,000) are paid ₹1,15,000. Realisation expenses ₹10,000 are paid by the firm. Prepare the Realisation Account and find the profit/loss on realization.",
+     "a": "**Realisation Account**  \nDr. | Cr.  \n---|---  \nTo Building (book value) | 5,00,000 | By Creditors (book value) | 1,20,000  \nTo Creditors (paid) | 1,15,000 | By Building (sale) | 6,20,000  \nTo Realisation Expenses | 10,000 |  \nTo Profit on Realisation (transferred to partners) | 1,15,000 |  \nTotal | 7,40,000 | Total | 7,40,000  \nProfit = ₹1,15,000. A wrong answer (e.g., profit ₹1,05,000) indicates the student missed netting the discount received from creditors (₹5,000) against the building profit (₹1,20,000) or mis-recorded expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Realisation Account with a Revaluation Account (prepared at admission/retirement). Identify two fundamental differences in purpose and timing.",
+     "a": "1. **Purpose**: Realisation Account determines profit/loss on *closing* the business (assets sold, liabilities paid off). Revaluation Account records changes in asset/liability values *without* closing the business.  \n2. **Timing**: Realisation Account is prepared *only at dissolution*; Revaluation Account is prepared at admission, retirement, death, or change in profit-sharing ratio. A student who says \"both are same\" fails to distinguish between winding up vs. continuing the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a partner takes over an asset at an agreed value, the Realisation Account is credited with that agreed value and the partner's capital account is debited.\" Is this correct? Justify.",
+     "a": "The statement is **correct**. When a partner takes over an asset, the firm 'realizes' that asset at the agreed value: credit Realisation Account (inflow) and debit Partner's Capital Account (partner's liability to firm increases). A student who says \"debit Realisation Account\" confuses the direction: the asset is leaving the firm, so Realisation Account receives the credit for the realization value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a dissolution scenario with at least three assets and two liabilities where the Realisation Account shows a loss. Provide the full Realisation Account and the journal entry to transfer the loss to partners A and B (profit-sharing ratio 3:2).",
+     "a": "**Scenario**: Assets: Machinery ₹2,00,000 (sold ₹1,50,000), Stock ₹80,000 (sold ₹60,000), Debtors ₹50,000 (realized ₹45,000). Liabilities: Creditors ₹60,000 (paid ₹60,000), Bank Loan ₹40,000 (paid ₹40,000). Expenses ₹5,000.  \n**Realisation Account**:  \nDr. | Cr.  \n---|---  \nTo Machinery | 2,00,000 | By Creditors | 60,000  \nTo Stock | 80,000 | By Bank Loan | 40,000  \nTo Debtors | 50,000 | By Machinery | 1,50,000  \nTo Creditors (paid) | 60,000 | By Stock | 60,000  \nTo Bank Loan (paid) | 40,000 | By Debtors | 45,000  \nTo Realisation Expenses | 5,000 | By Loss on Realisation | 80,000  \nTotal | 4,35,000 | Total | 4,35,000  \n**Journal**:  \nA's Capital A/c Dr. 48,000  \nB's Capital A/c Dr. 32,000  \nTo Realisation A/c 80,000  \nA poor answer (e.g., loss ₹75,000) shows arithmetic error or missing expense.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

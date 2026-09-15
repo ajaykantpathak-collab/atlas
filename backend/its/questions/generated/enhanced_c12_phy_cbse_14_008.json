@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_008",
+   "title": "c12_phy_cbse_14_008",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Draw the circuit symbols for n-p-n and p-n-p transistors. Label the three terminals (E, B, C) and indicate the direction of the arrow on the emitter lead for each. What does the arrow direction represent physically?",
+     "a": "**n-p-n:** Arrow on emitter points **outward** (from base to emitter). **p-n-p:** Arrow on emitter points **inward** (from emitter to base). The arrow represents the direction of **conventional current flow** (hole flow) at the emitter-base junction under forward bias. A wrong arrow direction (e.g., arrow inward for n-p-n) reveals confusion between electron flow and conventional current, or inability to associate arrow with the p-type region (arrow points from p to n).",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** In an n-p-n transistor, the emitter is heavily doped n-type, the base is lightly doped p-type, and the collector is moderately doped n-type. Explain **why** the base is made (a) very thin and (b) lightly doped, while the emitter is heavily doped. What would happen to the collector current if the base were thick and heavily doped?",
+     "a": "(a) Thin base ensures most electrons injected from emitter **diffuse across** to the collector before recombining with holes in the base. (b) Light doping in base reduces hole concentration, minimizing electron-hole recombination in the base. Heavy emitter doping ensures high electron injection efficiency into the base. If base were thick and heavily doped: most emitter electrons would recombine with abundant holes in the base → base current would increase drastically, collector current would drop sharply, and transistor action (amplification) would cease. A student who says \"base is thin to reduce resistance\" confuses base resistance (a parasitic effect) with the fundamental requirement for carrier transport.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** An n-p-n transistor is connected in active mode: V_EB = 0.7 V (forward bias), V_CB = 5 V (reverse bias). The emitter injects 10 mA of electrons into the base. Due to recombination, 0.2 mA of holes flow out of the base terminal. Calculate the collector current I_C and the emitter current I_E. State the current directions for conventional current.",
+     "a": "**Given:** I_e_injected = 10 mA (electrons from E to B), I_B = 0.2 mA (holes leaving base terminal, conventional current **into** base).  \n**Step 1:** Emitter current I_E = electron current entering base + hole current from base to emitter (negligible due to heavy emitter doping) ≈ 10 mA. Conventional I_E flows **out of** emitter.  \n**Step 2:** Base current I_B = 0.2 mA (conventional current **into** base).  \n**Step 3:** Kirchhoff’s current law at transistor: I_E = I_B + I_C → I_C = I_E - I_B = 10 - 0.2 = **9.8 mA**.  \n**Step 4:** Conventional I_C flows **into** collector (electrons flow from collector to external circuit).  \n**Answer:** I_E = 10 mA (out of emitter), I_B = 0.2 mA (into base), I_C = 9.8 mA (into collector).  \nA wrong answer like I_C = 10.2 mA reveals sign error in KCL; I_C = 0.2 mA reveals confusion between base and collector current roles.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the energy band diagrams of an n-p-n transistor under active mode biasing and a p-n-p transistor under active mode biasing. Sketch the conduction band (E_C) and valence band (E_V) across E, B, C regions for both. Indicate the direction of electron flow in n-p-n and hole flow in p-n-p. How does the band bending at the two junctions differ between the two types?",
+     "a": "**n-p-n:** E (n+) → B (p) → C (n). E-B junction forward biased: bands bend **down** from E to B (lower barrier for electrons). C-B junction reverse biased: bands bend **up** from B to C (higher barrier for electrons, but electrons injected from E see a downhill slope into C). Electrons flow E → B → C.  \n**p-n-p:** E (p+) → B (n) → C (p). E-B forward biased: bands bend **up** from E to B (lower barrier for holes). C-B reverse biased: bands bend **down** from B to C. Holes flow E → B → C.  \nKey difference: In n-p-n, conduction band forms a \"valley\" at B and \"hill\" at C-B; in p-n-p, valence band forms a \"hill\" at B and \"valley\" at C-B. A student drawing identical band bending for both types fails to account for the opposite doping polarities.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A student claims: \"In a p-n-p transistor, the emitter injects holes into the base. Since holes are majority carriers in the p-type emitter, the emitter current is entirely due to holes. Therefore, the base current is zero because no electrons are injected from base to emitter.\" Identify the error in this statement and explain the correct physics.",
+     "a": "**Error:** The statement ignores **minority carrier injection** across the forward-biased E-B junction. In a p-n-p transistor, the forward-biased E-B junction injects holes from emitter (p+) into base (n) **and** electrons from base (n) into emitter (p+). The base current has two components: (1) holes recombining in the base (which requires electrons to flow out of base terminal to replenish), and (2) electrons injected from base into emitter (which flow out of base terminal). Both contribute to base current. Base current is small but **non-zero**. A student who thinks base current is zero confuses \"ideal transistor\" (α=1) with real device physics. The correct physics: emitter efficiency γ = I_holes / (I_holes + I_electrons) < 1.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a simple experiment using a multimeter (diode test mode) to identify whether an unknown three-terminal transistor is n-p-n or p-n-p, and to identify its E, B, C leads. Write the step-by-step procedure and the expected multimeter readings for each case.",
+     "a": "**Procedure:**  \n1. Set multimeter to **diode test mode** (measures forward voltage drop ~0.7 V for Si).  \n2. Pick any two leads, measure both polarities. Repeat for all three pairs (6 measurements).  \n3. **Find the base:** The lead that shows **two forward-biased junctions** (low voltage drop ~0.7 V) with the other two leads (one polarity each) is the **base**.  \n   - For n-p-n: Base shows 0.7 V when **red (positive) on base**, black on each of the other two.  \n   - For p-n-p: Base shows 0.7 V when **black (negative) on base**, red on each of the other two.  \n4. **Distinguish E vs C:** The junction with **lower forward voltage drop** (higher doping) is the **emitter-base** junction. The other is collector-base.  \n**Expected readings for n-p-n:** Red on B, Black on E → 0.7 V; Red on B, Black on C → 0.7 V; all other combinations → OL (open loop). E-B drop slightly < C-B drop.  \nA poor answer that only checks one polarity per pair cannot distinguish n-p-n from p-n-p or identify base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

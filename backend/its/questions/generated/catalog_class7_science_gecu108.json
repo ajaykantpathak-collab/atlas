@@ -1,0 +1,153 @@
+{
+ "catalog": "catalog_class7_science_gecu108.json",
+ "concepts": [
+  {
+   "id": "gecu.8.1",
+   "title": "Measurement of Time",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two ancient devices used to measure time.",
+     "a": "Sundial (shadow clock) and water clock (also sand clock/hourglass).",
+     "self_check": true
+    },
+    {
+     "q": "Why did people look for steady repeating events to measure time?",
+     "a": "Only regular events - like a swinging pendulum - give equal units of time.",
+     "self_check": true
+    },
+    {
+     "q": "What device do we use today to measure time accurately?",
+     "a": "Clocks and watches (quartz and atomic clocks are the most accurate).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.2",
+   "title": "Slow or Fast: Comparing Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "When do we say an object is slow or fast?",
+     "a": "By comparing the distance covered in the same time - more distance means faster.",
+     "self_check": true
+    },
+    {
+     "q": "What do we need to compare the motion of two objects?",
+     "a": "The distance each covers and the time taken - that is, their speeds.",
+     "self_check": true
+    },
+    {
+     "q": "Which is faster: 60 km in 2 h or 45 km in 1 h?",
+     "a": "45 km in 1 h (45 km/h beats 30 km/h).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.3",
+   "title": "Speed and Its Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "speed",
+     "expr": "distance / time",
+     "explain": "speed = distance covered divided by time taken"
+    },
+    {
+     "step": 2,
+     "name": "half_speed",
+     "expr": "speed / 2",
+     "explain": "speed if the time doubled"
+    },
+    {
+     "step": 3,
+     "name": "speed_m_per_s",
+     "expr": "speed * 1000 / 3600",
+     "explain": "converted to metres per second"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A school bus covers 12 km in 0.5 h. Find its speed in km/h and m/s.",
+     "vals": {
+      "distance": 12,
+      "time": 0.5
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "6.66667 km/h",
+     "self_check": false
+    },
+    {
+     "q": "An athlete runs 400 m in 50 s. Calculate the speed in m/s.",
+     "vals": {
+      "distance": 400,
+      "time": 50
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "2.22222 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A plane flies 1500 km in 2 h. What is its speed?",
+     "vals": {
+      "distance": 1500,
+      "time": 2
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "208.333 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A cyclist covers 6 km in 24 min (0.4 h). Find the speed.",
+     "vals": {
+      "distance": 6,
+      "time": 0.4
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "4.16667 km/h",
+     "self_check": false
+    },
+    {
+     "q": "A rickshaw moves 3 km in 18 min (0.3 h). Compute its speed in km/h.",
+     "vals": {
+      "distance": 3,
+      "time": 0.3
+     },
+     "unit": "km/h",
+     "steps": null,
+     "a": "2.77778 km/h",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.4",
+   "title": "Uniform and Non-uniform Linear Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is uniform linear motion?",
+     "a": "Motion in a straight line with steady speed - equal distances in equal times.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example of non-uniform motion.",
+     "a": "A bus in city traffic, speeding up and stopping (or a falling leaf).",
+     "self_check": true
+    },
+    {
+     "q": "What does the slope of a distance-time graph tell us?",
+     "a": "The speed - steeper slope means higher speed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

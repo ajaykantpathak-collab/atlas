@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_004",
+   "title": "c11_psy_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define independent variable and dependent variable. Give one example of each from a memory experiment.",
+     "a": "Independent variable (IV) is the factor manipulated by the researcher (e.g., type of rehearsal: maintenance vs elaborative). Dependent variable (DV) is the measurable outcome (e.g., number of words recalled). A wrong answer that swaps IV and DV reveals the student confuses \"what the researcher changes\" with \"what is measured.\" A wrong answer that gives \"time of day\" as IV in a memory experiment shows inability to distinguish manipulated variables from controlled variables.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher tests whether background music improves reading comprehension. She gives Group A a passage with classical music and Group B the same passage in silence. Group A scores higher. She concludes music improves comprehension. Explain why this conclusion is flawed using the concept of extraneous variables.",
+     "a": "The conclusion is flawed because Group A and Group B may differ on extraneous variables (e.g., prior reading ability, interest in the passage, noise sensitivity) that also affect comprehension. Without random assignment or matching, we cannot isolate music as the cause. A wrong answer that says \"the sample size is too small\" misses the core issue of confounding variables. A wrong answer that says \"music might be distracting\" states a hypothesis but doesn't explain the design flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test if writing notes by hand leads to better retention than typing. Specify: (a) IV and its levels, (b) DV and how to measure it, (c) one extraneous variable to control, and (d) how to assign participants to conditions.",
+     "a": "(a) IV: Note-taking method with two levels (handwriting vs typing). (b) DV: Retention score measured by a 20-item recall test after 24 hours. (c) Extraneous variable: Prior knowledge of the topic — control by pre-testing and matching or random assignment. (d) Random assignment: Use a random number generator to allocate 40 students to two groups of 20. A wrong answer that lets students choose their preferred method introduces selection bias. A wrong answer that measures DV immediately after note-taking tests working memory, not retention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast laboratory experiments, field experiments, and quasi-experiments on three dimensions: control over extraneous variables, ecological validity, and ability to establish causation.",
+     "a": "Laboratory experiments: high control, low ecological validity, strong causation. Field experiments: moderate control (natural setting but researcher manipulates IV), higher ecological validity, moderate causation (less control than lab). Quasi-experiments: low control (IV not manipulated, groups pre-existing), high ecological validity, weakest causation (no random assignment). A wrong answer that says field experiments have \"no control\" confuses them with naturalistic observation. A wrong answer that says quasi-experiments \"cannot suggest causation\" is too absolute — they suggest but cannot confirm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Random assignment eliminates all extraneous variables.\" Is this true or false? Justify your answer with reference to organismic and situational variables.",
+     "a": "False. Random assignment only equalizes the *probability* that extraneous variables are distributed equally across groups; it does not eliminate them. Organismic variables (e.g., intelligence, anxiety) and situational variables (e.g., noise, temperature) still exist and may by chance differ between groups, especially with small samples. Random assignment controls for *systematic* bias, not the variables themselves. A wrong answer that says \"true\" confuses random assignment with experimental control techniques like elimination or holding constant.",
+     "self_check": true
+    },
+    {
+     "q": "Create a research scenario where a quasi-experiment is the ONLY feasible design. Explain why laboratory and field experiments are impossible or unethical in this case.",
+     "a": "Scenario: Studying the effect of parental divorce on adolescent self-esteem. Quasi-experiment: Compare adolescents from divorced families (experimental group) with matched adolescents from intact families (control group). Laboratory experiment impossible: Cannot ethically assign children to divorce. Field experiment impossible: Cannot manipulate divorce in real life. A poor answer that suggests \"just observe them\" describes correlational research, not quasi-experiment. A poor answer that chooses a topic like \"effect of sleep on memory\" ignores that sleep can be manipulated in lab/field.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

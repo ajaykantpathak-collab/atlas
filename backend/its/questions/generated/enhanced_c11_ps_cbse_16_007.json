@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_007",
+   "title": "c11_ps_cbse_16_007",
+   "questions": [
+    {
+     "q": "What is the exact constitutional provision that grants residuary legislative powers to the Union Parliament in India? Cite the Article number and the corresponding entry in the Seventh Schedule.",
+     "a": "**Correct Answer:** Article 248 vests residuary legislative powers in Parliament. Entry 97 of the Union List (List I, Seventh Schedule) explicitly includes \"any other matter not enumerated in List II or List III including any tax not mentioned in either of those Lists.\"  \n**Misconception Revealed:** If a student cites Article 246 (which distributes legislative powers generally) or Article 249 (Parliament's power to legislate on State List matters in national interest), they confuse the **general distribution scheme** with the **specific residuary clause**. Article 248 is the *exclusive* source of residuary power; Article 246 merely operationalizes the three lists.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the framers of the Indian Constitution assign residuary powers to the Union (Centre) instead of the States — unlike the United States Constitution? Explain using two reasons rooted in the historical context of 1947–1950.",
+     "a": "**Correct Answer:** (1) **Partition and unity concerns**: The trauma of Partition made the framers prioritize a strong Centre to prevent secessionist tendencies and maintain territorial integrity. (2) **Princely States integration**: Over 500 princely states had to be integrated; a Centre with residuary powers could legislate on unforeseen issues arising from this complex merger without constitutional amendments.  \n**Misconception Revealed:** If a student says \"because India is a unitary state\" or \"because the Centre is more efficient,\" they miss the **historical contingency** — the decision was not about administrative efficiency but about **political survival of the Union** in 1947–50. The US model (residuary powers to states) was rejected *despite* India adopting a federal structure.",
+     "self_check": true
+    },
+    {
+     "q": "A new technology — **quantum computing for military encryption** — emerges in 2025. The subject is not mentioned in any of the three lists. The State of Tamil Nadu passes a law regulating its civilian use. The Union challenges it. Apply Article 248 and Entry 97 to determine which legislature has competence. Explain your reasoning in 4 steps.",
+     "a": "**Correct Answer & Reasoning:**  \nStep 1: Identify the subject — \"quantum computing for military encryption\" — is **not enumerated** in List I, II, or III.  \nStep 2: Recall Article 248: Parliament has **exclusive power** to make laws on any matter not in the State or Concurrent Lists.  \nStep 3: Entry 97, Union List explicitly covers \"any other matter not enumerated in List II or List III including any tax not mentioned in those Lists.\"  \nStep 4: Since the subject is residuary, **only Parliament can legislate**; Tamil Nadu's law is **ultra vires** (beyond its competence).  \n**Misconception Revealed:** If a student argues the State can regulate \"civilian use\" under \"public order\" (State List, Entry 1) or \"education\" (Concurrent List, Entry 25), they misunderstand that **residuary power covers the entire subject** — the Centre can choose to delegate or not, but the *primary legislative competence* lies with Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the residuary power arrangement in India (Article 248) with that in the United States (10th Amendment). Analyze how this difference affects the **flexibility of the federal system** to respond to unforeseen crises (e.g., a pandemic, cyberwarfare). Use the concept of \"legislative vacuum\" in your answer.",
+     "a": "**Correct Answer:**  \n- **India (Article 248)**: Residuary powers → **Union**. No legislative vacuum: Parliament can *immediately* legislate on any new subject (e.g., Disaster Management Act 2005, IT Act 2000 for cybercrime).  \n- **USA (10th Amendment)**: Residuary powers → **States**. Legislative vacuum *can* occur: Congress cannot act unless the subject falls under an enumerated power (e.g., Commerce Clause). During COVID-19, the US federal government relied on spending power, not direct public health legislation.  \n**Impact**: India's model ensures **rapid national response** but risks Centre overreach; the US model protects state autonomy but creates **coordination gaps** in crises.  \n**Misconception Revealed:** If a student claims \"both systems work the same way because courts interpret lists broadly,\" they ignore the **structural default**: in India, the Centre *presumes* competence; in the US, the Centre must *prove* an enumerated power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"Article 248 makes Indian federalism 'quasi-federal' because it allows the Union to encroach on State autonomy whenever a new subject emerges.\"* Support your evaluation with one argument **for** and one argument **against**, using the concept of **cooperative federalism** (c11_ps_cbse_16_005).",
+     "a": "**Correct Answer:**  \n**For (supports quasi-federal label)**: Article 248 creates a **structural asymmetry** — the Union can legislate on *any* emerging subject (e.g., data protection, space mining) without State consent, reducing States to implementers. This \"legislative monopoly\" on the unknown tilts the balance toward unitary control.  \n**Against (challenges quasi-federal label)**: The Union *often* exercises residuary power **cooperatively** — e.g., the GST Council (Article 279A) was created via residuary power but functions through **consensus of States**. Also, Parliament can delegate residuary subjects to States (Article 252). The *practice* of federalism depends on political culture, not just Article 248.  \n**Misconception Revealed:** If a student treats \"quasi-federal\" as a fixed constitutional category rather than a **dynamic political outcome**, they miss that Article 248 is a *tool* — its centralizing effect depends on *how* the Union uses it (e.g., IT Act 2000 vs. Farm Laws 2020).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **hypothetical constitutional amendment** (2–3 clauses) that would modify Article 248 to create a **joint residuary list** — where both Parliament and State Legislatures can legislate on new subjects, but Union law prevails in conflict. Explain how this would change the federal balance.",
+     "a": "**Expected Answer Criteria:**  \nA good amendment draft would:  \n(1) Insert a new **List IV (Residuary List)** in the Seventh Schedule.  \n(2) Provide that **both Parliament and State Legislatures** have concurrent power over List IV subjects.  \n(3) Retain **Article 254(1)**-style supremacy: Union law prevails over State law in case of repugnancy.  \n(4) Require **Inter-State Council consultation** before Parliament legislates on List IV.  \n\n**Federal Balance Change:**  \n- **Reduces legislative vacuum** without monopolizing competence at the Centre.  \n- **Empowers States** to innovate (e.g., a State could pilot AI regulation before national law).  \n- **Risk**: Increases litigation over repugnancy; may fragment national standards (e.g., 28 different drone laws).  \n**Poor Answer Reveals:** If the student merely says \"give States residuary powers\" without addressing **conflict resolution** (Union vs. State law), they ignore the core problem: **dual legislation on the same subject requires a supremacy rule** — otherwise the system becomes incoherent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_007",
+   "title": "c11_cs_cbse_05_007",
+   "questions": [
+    {
+     "q": "What are the three essential components that must be present in every well-formed loop to ensure it terminates correctly?",
+     "a": "The three essential components are: (1) Initialization — setting up the loop control variable before the loop starts; (2) Condition — a Boolean expression tested before each iteration that determines whether the loop continues; (3) Update — a statement inside the loop body that modifies the loop control variable so the condition eventually becomes false. A wrong answer (e.g., listing only \"condition and body\") reveals the student thinks the loop condition alone guarantees termination, ignoring that without initialization the variable is undefined and without update the condition never changes, leading to infinite loops.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following pseudocode would cause an infinite loop, and state which essential component is missing:\n```\ncount = 1\nwhile count <= 5:\n    print(count)\n```",
+     "a": "The loop prints `1` endlessly because the variable `count` is initialized to 1 and the condition `count <= 5` is true, but there is no update statement (like `count = count + 1`) inside the loop body. Therefore, `count` remains 1 forever, the condition never becomes false, and the loop never terminates. The missing component is the **update** step. A wrong answer (e.g., \"the condition is wrong\") shows the student does not recognize that the condition is correct initially but becomes perpetually true due to the absent update.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to calculate the sum of the first 10 even numbers (2 + 4 + 6 + ... + 20) using a loop. Write the initialization, condition, and update for a loop that uses a counter variable `i` starting at 1 and adds `2*i` to a running total in each iteration. How many times will the loop body execute?",
+     "a": "Initialization: `i = 1`, `total = 0`. Condition: `i <= 10`. Update: `i = i + 1` (placed after `total = total + 2*i`). The loop body executes exactly 10 times (for i = 1,2,...,10). A wrong answer (e.g., 9 or 11 times) reveals an off-by-one error in reasoning about the condition boundary, a classic mistake when translating \"first n\" into loop limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast definite iteration (e.g., `for i in range(5):`) and indefinite iteration (e.g., `while user_input != 'quit':`). Give one real-world scenario where each is the natural choice, and explain why the other would be awkward.",
+     "a": "Definite iteration is used when the number of repetitions is known beforehand (e.g., printing a multiplication table for 5 — exactly 10 rows). Indefinite iteration is used when repetitions depend on a runtime condition not known in advance (e.g., reading sensor data until a threshold is crossed). Using a `for` loop for the sensor task would require guessing a maximum number of readings and breaking early, which is awkward. Using a `while` loop for the multiplication table requires manual counter management, increasing error risk. A wrong answer that swaps the scenarios shows the student confuses \"known count\" with \"known condition\" and cannot match loop type to problem structure.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"Any `for` loop can be rewritten as a `while` loop, but not every `while` loop can be rewritten as a `for` loop.\" Evaluate this statement. Is it true or false? Justify your answer with a concrete example of a `while` loop that cannot be directly expressed as a `for` loop using a simple range.",
+     "a": "The statement is **true**. A `for` loop in Python iterates over a predefined sequence (definite iteration), so it can always be simulated by a `while` loop that manually manages an index. However, a `while` loop whose termination depends on a complex, non-counting condition — e.g., `while abs(x - y) > 0.001: x = (x + y)/2; y = 2*x*y/(x+y)` (computing arithmetic-geometric mean) — has no predetermined iteration count and cannot be directly expressed as a `for` loop over a simple `range`. A wrong answer (claiming false) indicates the student believes all loops are fundamentally counting loops and does not grasp that `while` handles data-driven termination.",
+     "self_check": true
+    },
+    {
+     "q": "Design a loop algorithm (in plain English or pseudocode) to solve this problem: \"A ball is dropped from a height of 100 metres. After each bounce, it rises to 60% of its previous height. Calculate the total distance travelled by the ball until it rises less than 1 metre.\" Identify the initialization, condition, update, and body. Explain why this problem requires a loop rather than a formula.",
+     "a": "Algorithm:\n1. Initialize `height = 100`, `total_distance = 100` (first drop).\n2. Condition: `while height * 0.6 >= 1:`.\n3. Body: `height = height * 0.6`; `total_distance = total_distance + 2 * height` (up and down).\n4. Update is embedded in the body (`height` changes).\n5. After loop, print `total_distance`.\nThis requires a loop because the number of bounces is not known in advance — it depends on the dynamic condition `height * 0.6 >= 1`. A closed-form formula would require solving `100 * (0.6)^n < 1` for integer n, which is possible but more complex; the loop directly models the physical process. A poor answer that writes a fixed `for` loop (e.g., `for i in range(10)`) shows the student forces definite iteration on an inherently indefinite problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

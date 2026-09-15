@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_010",
+   "title": "c11_phy_cbse_03_010",
+   "questions": [
+    {
+     "q": "A stone is thrown horizontally with a speed of 10 m/s from a cliff 80 m high. What is the horizontal component of its velocity 2 seconds after projection? (Take g = 10 m/s²)",
+     "a": "10 m/s. The horizontal component of velocity remains constant throughout the motion because there is no horizontal acceleration (aₓ = 0). A wrong answer (e.g., 0 m/s or 20 m/s) reveals the student incorrectly thinks gravity affects horizontal motion or that horizontal velocity changes with time.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a horizontally projected object follow a parabolic path even though its horizontal velocity is constant?",
+     "a": "The horizontal displacement x is proportional to time (x = v₀t), while vertical displacement y is proportional to t² (y = -½gt²). Eliminating t gives y = -(g/2v₀²)x², which is a quadratic in x - a parabola. A wrong answer (e.g., \"because gravity curves the path\") shows the student cannot connect the mathematical independence of x and y motions to the shape of the trajectory.",
+     "self_check": true
+    },
+    {
+     "q": "A ball is thrown horizontally from a height of 45 m with a speed of 20 m/s. Calculate (a) the time taken to reach the ground, (b) the horizontal range, and (c) the speed at impact. (g = 10 m/s²)",
+     "a": "(a) Time of flight: y = -½gt² → -45 = -5t² → t = 3 s.\n(b) Range: R = v₀t = 20 × 3 = 60 m.\n(c) Impact speed: vₓ = 20 m/s, vᵧ = -gt = -30 m/s → v = √(20² + 30²) = √1300 ≈ 36.1 m/s.\nA wrong answer in (a) (e.g., using v₀ in vertical equation) reveals confusion between horizontal and vertical initial conditions. A wrong answer in (c) (e.g., 50 m/s) reveals the student adds velocities scalarly instead of vectorially.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balls are projected horizontally from the same height. Ball A has initial speed 10 m/s, Ball B has initial speed 20 m/s. Compare their (i) time of flight, (ii) vertical velocity at impact, (iii) horizontal range.",
+     "a": "(i) Time of flight is SAME for both (depends only on height and g). (ii) Vertical velocity at impact is SAME for both (vᵧ = -√(2gh)). (iii) Horizontal range of B is DOUBLE that of A (R = v₀√(2h/g) ∝ v₀). A wrong answer (e.g., \"B takes less time because it's faster\") reveals the persistent misconception that horizontal speed affects vertical fall time.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a horizontal projection problem and writes: \"Time of flight t = √(2h/g). Range R = v₀t. Then they calculate R = v₀√(2h/g). But they claim the angle of impact with the horizontal is 45° for any v₀ and h.\" Evaluate this claim.",
+     "a": "The claim is FALSE. The impact angle θ satisfies tan θ = |vᵧ/vₓ| = √(2gh)/v₀. This equals 1 (45°) only when v₀ = √(2gh). The student incorrectly assumes the angle is always 45°, confusing horizontal projection with the special case where horizontal and vertical speed components are equal at impact. This reveals a lack of understanding that the impact angle depends on the ratio of initial horizontal speed to the height.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a ramp, a steel ball, carbon paper, and a meter scale to verify that the horizontal range of a horizontally projected ball is proportional to its initial horizontal speed.",
+     "a": "Roll the ball from different heights on the ramp to vary its launch speed v₀ (measure v₀ using a photogate or time over a fixed distance at the ramp end). Let it fall from a fixed table height h onto carbon paper on the floor. Measure range R for each v₀. Plot R vs v₀ - it should be a straight line through origin with slope √(2h/g). A poor answer (e.g., \"drop from different heights\") reveals the student doesn't understand how to vary v₀ independently of h or how to isolate the horizontal projection condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

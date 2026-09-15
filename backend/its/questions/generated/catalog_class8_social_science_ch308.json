@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class8_social_science_ch308",
+ "concepts": [
+  {
+   "id": "hess.308.1",
+   "title": "Market Laws and Protection of Minimum Wages",
+   "questions": [
+    {
+     "q": "Calculate the total earnings under minimum wage law for a worker receiving daily wage of daily_wage over days_worked days. Use the method 'Market Laws and Protection of Minimum Wages'. Work with: daily_wage = 100, days_worked = 200. Carry the chain through step by step and give the final value of total_wages.",
+     "a": "20000 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the minimum legal earnings for daily_wage rupees per day across days_worked days in Class 8 social science. Use the method 'Market Laws and Protection of Minimum Wages'. Work with: daily_wage = 50, days_worked = 15. Carry the chain through step by step and give the final value of total_wages.",
+     "a": "750 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Market Laws and Protection of Minimum Wages' refers to.",
+     "a": "Legislative mandates setting wage floors ensure that workers receive fair compensation and protect vulnerable market participants from economic exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Laws and Protection of Minimum Wages'.",
+     "a": "Minimum wage legislation protects low-bargaining workers from exploitative underpayment by profit-seeking employers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Laws and Protection of Minimum Wages', in plain ASCII form.",
+     "a": "total_wages = daily_wage * days_worked",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.2",
+   "title": "Implementation and Enforcement of Social Laws",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Implementation and Enforcement of Social Laws' refers to.",
+     "a": "The government obligation to actively inspect workplaces, impose penalties, and monitor compliance so statutory protections translate into actual benefits for marginalized groups.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Implementation and Enforcement of Social Laws'.",
+     "a": "Passage of legislation is insufficient without state-led workplace monitoring and strict penalty enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Implementation and Enforcement of Social Laws' taught, and from which source text?",
+     "a": "Enforcement of Laws (source: hess308.txt lines 102-103)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.3",
+   "title": "Child Labour Laws and Penalties",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Child Labour Laws and Penalties' refers to.",
+     "a": "Legal prohibitions banning economic employment of children below 14 years across all sectors and adolescents in hazardous industries, backed by penal consequences.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Child Labour Laws and Penalties'.",
+     "a": "Constitutional provisions and 2016 statutory amendments classify child employment as a cognizable offense with mandatory jail terms and monetary fines.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Child Labour Laws and Penalties' taught, and from which source text?",
+     "a": "Child Labour Regulations (source: hess308.txt lines 103-104)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.4",
+   "title": "The Bhopal Gas Tragedy and Corporate Liability",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Bhopal Gas Tragedy and Corporate Liability' refers to.",
+     "a": "A catastrophic toxic chemical release resulting from corporate negligence, highlighting issues of enterprise liability, disaster compensation, and environmental clean-up.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Bhopal Gas Tragedy and Corporate Liability'.",
+     "a": "Industrial safety shortcuts and delayed remediation demonstrate the necessity of strict accountability for hazardous chemical operations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Bhopal Gas Tragedy and Corporate Liability' taught, and from which source text?",
+     "a": "Bhopal Gas Tragedy (source: hess308.txt lines 104-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.5",
+   "title": "Evaluation of Worker Worth and Safety Disparities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Evaluation of Worker Worth and Safety Disparities' refers to.",
+     "a": "Economic conditions of high labor supply and low wages that lead multinational corporations to reduce safety budgets and treat domestic workers as easily replaceable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Evaluation of Worker Worth and Safety Disparities'.",
+     "a": "Labor market surplus enables commercial firms to impose hazardous working conditions and lower compensation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Evaluation of Worker Worth and Safety Disparities' taught, and from which source text?",
+     "a": "What is a Worker's Worth? (source: hess308.txt lines 106-107)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.6",
+   "title": "Government Role in Safety Law Enforcement and Article 21",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Government Role in Safety Law Enforcement and Article 21' refers to.",
+     "a": "The constitutional mandate directing regulatory agencies to enforce factory safety norms to protect citizen rights to life under Article 21.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Role in Safety Law Enforcement and Article 21'.",
+     "a": "Failure to enforce safety regulations violates fundamental constitutional rights to physical safety and life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Government Role in Safety Law Enforcement and Article 21' taught, and from which source text?",
+     "a": "Enforcement of Safety Laws (source: hess308.txt lines 107-108)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.7",
+   "title": "Environment as a Public Right and Polluter Accountability",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Environment as a Public Right and Polluter Accountability' refers to.",
+     "a": "Legal principles establishing pollution-free air and water as part of Article 21 rights and holding environmental polluters financially liable for damages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Environment as a Public Right and Polluter Accountability'.",
+     "a": "Judicial rulings established environmental quality as an intrinsic public right, shifting pollution responsibility onto industrial polluters.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Environment as a Public Right and Polluter Accountability' taught, and from which source text?",
+     "a": "New Laws to Protect the Environment (source: hess308.txt lines 108-109)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.8",
+   "title": "Balancing Environmental Protection with Worker Livelihoods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Balancing Environmental Protection with Worker Livelihoods' refers to.",
+     "a": "Policy challenges involved in enforcing environmental standards without causing unemployment or displacing marginalized populations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balancing Environmental Protection with Worker Livelihoods'.",
+     "a": "Environmental regulations must integrate clean technologies while safeguarding worker employment and equitable urban growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Balancing Environmental Protection with Worker Livelihoods' taught, and from which source text?",
+     "a": "Environment as a Public Facility (source: hess308.txt lines 109-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.9",
+   "title": "Relocation of Hazardous and Toxic Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Relocation of Hazardous and Toxic Industries' refers to.",
+     "a": "The practice of transferring high-risk production processes and toxic recycling activities from high-regulation countries to developing regions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relocation of Hazardous and Toxic Industries'.",
+     "a": "Weaker regulatory oversight drives the global migration of hazardous industries like ship-breaking to South Asia.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Relocation of Hazardous and Toxic Industries' taught, and from which source text?",
+     "a": "Relocation of Hazardous Industries (source: hess308.txt lines 110-111)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.308.10",
+   "title": "Constitution as a Living Ideal and Article 21 Expansion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Constitution as a Living Ideal and Article 21 Expansion' refers to.",
+     "a": "The adaptive capacity of constitutional frameworks to continuously expand fundamental guarantees to meet modern human dignity demands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Constitution as a Living Ideal and Article 21 Expansion'.",
+     "a": "Judicial interpretations continually expand Article 21 rights to embrace health, livelihood, education, shelter, and clean environments.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Constitution as a Living Ideal and Article 21 Expansion' taught, and from which source text?",
+     "a": "The Constitution as a Living Ideal (source: hess308.txt lines 112-113)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

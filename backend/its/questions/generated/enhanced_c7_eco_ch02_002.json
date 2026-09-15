@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_002",
+   "title": "c7_eco_ch02_002",
+   "questions": [
+    {
+     "q": "What is the primary role of a buyer in a market exchange?",
+     "a": "The primary role of a buyer is to provide money in exchange for goods and services to satisfy their wants or needs. A student who answers that a buyer produces goods is confusing the roles of buyers and sellers, failing to recognize that buyers demand products while sellers supply them.",
+     "self_check": true
+    },
+    {
+     "q": "Why is money necessary to complete most modern market exchanges compared to the older barter system?",
+     "a": "Money acts as a universally accepted medium of exchange that eliminates the need for a double coincidence of wants, making transactions faster and more efficient. A student who claims money has intrinsic value rather than agreed-upon exchange value misunderstands that currency's power comes from trust and government backing, not the physical material it is made of.",
+     "self_check": true
+    },
+    {
+     "q": "A local fruit vendor sells apples at ₹100 per kilogram. If a customer buys 3 kilograms of apples and pays with a ₹500 note, how much change should the seller return to the buyer?",
+     "a": "Step 1: Identify the price per unit (₹100 per kg) and the quantity purchased (3 kg).\nStep 2: Calculate the total cost by multiplying price by quantity: ₹100 × 3 = ₹300.\nStep 3: Identify the amount paid by the buyer (₹500).\nStep 4: Calculate the change by subtracting total cost from amount paid: ₹500 - ₹300 = ₹200.\nThe seller should return ₹200. A student who answers ₹400 has subtracted the quantity from the money instead of calculating the total cost first.",
+     "self_check": true
+    },
+    {
+     "q": "How does a disagreement over price between a buyer and a seller typically get resolved in an open market?",
+     "a": "Through a process of negotiation and bargaining where the buyer offers a lower price and the seller counters until they reach an equilibrium price acceptable to both. A student who believes the government fixes every single price in a local market ignores how decentralized market forces operate through buyer-seller interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A market exchange can successfully occur even if only a seller is present.\" Is this correct, and why?",
+     "a": "This statement is incorrect because a market exchange requires a bilateral transaction—both a willing buyer and a willing seller. Without a buyer to demand the good and provide payment, a seller alone cannot complete an exchange, no matter how much stock they possess. A student who agrees with the statement fails to understand that exchange is inherently a two-way social and economic interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple transaction record for a school stationery shop where 2 items are sold to a student, showing the calculation of total revenue for the seller and total expenditure for the buyer.",
+     "a": "A valid response should list Item 1 (e.g., 2 Notebooks at ₹40 each = ₹80) and Item 2 (e.g., 3 Pens at ₹10 each = ₹30), sum them up to show Total Exchange Value = ₹110, and identify the buyer's expenditure as ₹110 and the seller's revenue as ₹110. A poor answer lists items without quantities or prices, or fails to show the mathematical link between units sold and total money transferred.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_009",
+   "title": "c10_chem_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define corrosion and write the chemical formula of rust. State the two essential conditions required for rusting of iron.",
+     "a": "Corrosion is the gradual destruction of metals by electrochemical reaction with environment. Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O. Essential conditions: presence of oxygen (air) and water (moisture). A wrong answer (e.g., \"rust is Fe₂O₃ only\" or \"only air is needed\") reveals the student has not grasped the hydrated nature of rust or the electrochemical requirement of an aqueous electrolyte for ion migration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rusting is classified as an oxidation reaction. Why does an iron nail rust faster in salt water than in pure water?",
+     "a": "Rusting is oxidation because iron loses electrons (Fe → Fe²⁺ + 2e⁻). Salt water accelerates rusting because dissolved ions (Na⁺, Cl⁻) increase the electrical conductivity of the water, facilitating faster electron flow between anodic and cathodic areas on the iron surface. A wrong answer (e.g., \"salt reacts with iron\" or \"rusting is not redox\") shows the student cannot link electrolyte conductivity to redox reaction rate.",
+     "self_check": true
+    },
+    {
+     "q": "An iron nail is placed in three test tubes: (A) tap water, (B) boiled distilled water with a layer of oil, (C) dry air with anhydrous CaCl₂. In which tube(s) will rusting occur? Write the balanced chemical equation for the rust formation in that tube.",
+     "a": "Rusting occurs only in tube (A) where both oxygen (dissolved in tap water) and water are present. Tube (B) lacks dissolved O₂ (boiling removes it, oil blocks re-entry). Tube (C) lacks water (CaCl₂ absorbs moisture). Balanced equation: 4Fe(s) + 3O₂(g) + 6H₂O(l) → 4Fe(OH)₃(s) → 2Fe₂O₃·3H₂O(s). A wrong prediction (e.g., \"rusting in B\") or unbalanced equation reveals misunderstanding of the two necessary conditions or inability to balance redox equations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the corrosion products and protection mechanisms for: (i) iron rusting, (ii) copper turning green, (iii) aluminium forming a white coating. Why is aluminium's corrosion protective while iron's is destructive?",
+     "a": "(i) Iron: Fe₂O₃·xH₂O (porous, flaky, non-protective). (ii) Copper: CuCO₃·Cu(OH)₂ (green patina, adherent, slows further corrosion). (iii) Aluminium: Al₂O₃ (thin, transparent, adherent, highly protective). Aluminium's oxide layer is non-porous and strongly bonded, blocking further O₂/H₂O contact; iron's rust is porous and voluminous, cracking and exposing fresh metal. A wrong comparison (e.g., \"all oxides are protective\") shows inability to link oxide structure to corrosion behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Galvanization protects iron even if the zinc coating is scratched.\" Is this statement true? Justify using the reactivity series and electrochemical principle.",
+     "a": "True. Zinc is more reactive than iron (higher in reactivity series). At a scratch, zinc acts as the anode (Zn → Zn²⁺ + 2e⁻) and iron becomes the cathode (O₂ + 2H₂O + 4e⁻ → 4OH⁻). Zinc sacrificially oxidizes, protecting iron. This is cathodic protection. A wrong evaluation (e.g., \"scratch exposes iron so it rusts\") reveals ignorance of sacrificial anode principle and reactivity series application.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using three iron nails, three test tubes, water, oil, and anhydrous calcium chloride to prove that both air and water are necessary for rusting. Draw labeled diagrams and state expected observations after 3 days.",
+     "a": "Tube 1: Nail in tap water (air + water) → rust forms (reddish-brown deposit). Tube 2: Nail in boiled water + oil layer (water but no air) → no rust. Tube 3: Nail in dry air with CaCl₂ (air but no water) → no rust. Diagram must show oil layer sealing boiled water, CaCl₂ at bottom of dry tube. Poor answer (missing control, wrong prediction, no diagram) shows inability to design controlled experiments or isolate variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

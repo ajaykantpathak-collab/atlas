@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_007",
+   "title": "c10_phy_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the SI unit of the physical quantity that determines the heat produced in a fuse wire according to Joule's law of heating. Write the formula relating heat, current, resistance, and time.",
+     "a": "The SI unit of heat energy is joule (J). Formula: H = I²Rt, where H is heat in joules, I is current in amperes, R is resistance in ohms, t is time in seconds. A wrong answer (e.g., giving unit as watt or calorie) reveals the student confuses heat energy with power or uses non-SI units, which loses marks in board exams where SI units are mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "A fuse wire is rated 5 A. Explain why it will NOT blow when a 100 W bulb (220 V) is switched on, but WILL blow if the live and neutral wires touch directly behind the socket. Use the heating effect formula in your reasoning.",
+     "a": "For the bulb: I = P/V = 100/220 ≈ 0.45 A < 5 A, so heat produced (H = I²Rt) is small, fuse stays intact. For short circuit: resistance becomes nearly zero, current is limited only by source internal resistance → extremely high I (hundreds of amperes) → I² term makes heat enormous → fuse melts instantly. A wrong answer that says \"short circuit has high resistance\" or \"bulb draws more current than fuse rating\" shows fundamental confusion between load resistance and fault condition.",
+     "self_check": true
+    },
+    {
+     "q": "An electric geyser rated 2000 W, 220 V is connected to a domestic circuit. Calculate the minimum fuse rating (in whole amperes) that should be used. Show all steps with units.",
+     "a": "Step 1: Given P = 2000 W, V = 220 V. Find working current I = P/V = 2000/220 = 9.09 A.\nStep 2: Fuse rating must be > 9.09 A but as close as possible. Standard ratings: 5A, 10A, 15A.\nStep 3: 5A is too low (would blow during normal use). 10A is the next standard rating > 9.09 A.\nStep 4: Answer: 10 A fuse.\nA wrong answer of 5A shows the student doesn't understand fuse must carry normal current; 15A shows they don't know to choose the nearest higher standard rating.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the current-time graph for a fuse blowing under (a) short circuit and (b) sustained overloading (e.g., too many heaters on one circuit). Sketch and label the key differences in the shape of the curve and the time taken to blow.",
+     "a": "Short circuit: current rises almost vertically to a very high value (hundreds of amperes) → fuse blows in milliseconds (sharp vertical line then drop to zero). Overloading: current rises gradually to a value moderately above rating (e.g., 15 A on a 10 A fuse) → heat builds up over seconds/minutes → fuse blows after a delay (sloped line then drop). A wrong answer showing identical graphs reveals the student doesn't grasp that I² dependence makes melting time extremely sensitive to current magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student replaces a blown 5 A fuse with a 15 A fuse \"because it's stronger and won't blow again.\" Evaluate this action. Is it safe? What specific hazard does it create? Refer to the current-carrying capacity of household wiring.",
+     "a": "Unsafe. Household wiring (typically 1.5 mm² copper) is rated for ~15-20 A maximum. A 15 A fuse allows up to 15 A continuously. If a fault draws 18 A, the fuse won't blow but the wiring will overheat, melt insulation, and cause fire. The fuse rating must protect the *weakest link* (wiring), not just the appliance. A wrong answer saying \"it's fine because the appliance only draws 5A\" ignores that faults can occur anywhere in the circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a battery, a thin strand of steel wool (as fuse wire), and a variable resistor to demonstrate fuse action. List materials, procedure, and the observation that proves the fuse wire melts due to I²R heating.",
+     "a": "Materials: 9V battery, steel wool strand (thin), variable resistor (rheostat), connecting wires, switch. Procedure: Connect in series. Start with high resistance (low current) — steel wool glows but doesn't break. Gradually decrease resistance → current increases → steel wool glows brighter, then melts at a specific current. Observation: The melting occurs at a predictable current value; repeating with thicker steel wool requires higher current. A poor answer that uses a thick wire that doesn't melt or doesn't vary current shows lack of understanding of the I²R threshold concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

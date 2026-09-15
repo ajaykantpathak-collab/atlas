@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_006",
+   "title": "c11_hs_cbse_09_006",
+   "questions": [
+    {
+     "q": "A mother buys a 100% wool sweater for her 3-year-old because it is \"warm and natural.\" According to NCERT guidelines, what is the primary reason this choice may be unsuitable for daily wear?",
+     "a": "Wool requires special care (often dry cleaning or hand washing), may irritate delicate skin when worn next to the body, and is not easy to launder frequently—violating the easy-care and skin-comfort criteria. A wrong answer (e.g., \"wool is too heavy\") reveals the student is focusing on weight rather than the specific NCERT concerns: care difficulty, skin irritation, and lack of absorbency for perspiration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why printed fabrics, corduroy, and textured fabrics are recommended for children's clothing in the textbook, linking each to a specific easy-care advantage.",
+     "a": "Printed fabrics hide stains and soil visually; corduroy's pile structure masks wrinkles and minor soiling; textured fabrics (like seersucker) have inherent crimp that reduces apparent wrinkling, eliminating ironing. A wrong answer that only says \"they look nice\" misses the functional easy-care rationale: visual camouflage of soil and wrinkle resistance, which directly reduces laundering and ironing frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A preschool's uniform policy requires shirts with \"flat seams\" and \"reinforced elbows.\" A supplier offers two samples: Sample A has plain seams and single-layer elbow fabric; Sample B has flat-felled seams and double-layer elbow patches. Which sample meets the policy, and why does the NCERT emphasize these two features for children's clothing?",
+     "a": "Sample B meets the policy. Flat-felled seams are stronger and lie flat, reducing chafing and seam failure during active play; reinforced elbows (double layer) withstand abrasion from crawling and floor play, extending garment life. A wrong answer choosing Sample A shows the student cannot distinguish seam types or connect reinforcement to specific high-stress zones (knees, elbows, pocket corners) identified in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a 100% polyester track pant and a 65/35 cotton-polyester blend track pant for a 7-year-old's daily school wear in a humid Indian climate. Analyze both on absorbency, wrinkle resistance, skin comfort, and easy-care balance. Which is better and why?",
+     "a": "The cotton-polyester blend is better. Pure polyester has low absorbency (traps sweat, causes discomfort), high wrinkle resistance, and easy care but poor skin comfort in humidity. The blend retains polyester's wrinkle resistance and easy care while cotton adds absorbency and skin comfort. A wrong answer selecting pure polyester ignores the NCERT statement that \"a blend of cotton and polyester is often more comfortable for a child than pure polyester, as it is more absorbent,\" showing failure to weigh trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For easy care, all children's clothes should be made from synthetic fabrics like nylon and acrylic because they never need ironing.\" Use at least three NCERT criteria to support your evaluation.",
+     "a": "The statement is flawed. (1) NCERT says synthetics \"wear well and are cared for easily\" BUT (2) cotton is \"most widely used... easily washable and comfortable\" and (3) blends are preferred over pure synthetics for absorbency. Also, (4) wool/silk blends are suggested for winter instead of pure synthetics. A wrong answer agreeing with the statement reveals overgeneralization from one property (no ironing) while ignoring skin comfort, absorbency, and the textbook's explicit preference for cotton and blends.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"care-label decision matrix\" for a parent buying clothes for a 2-year-old. The matrix must have four fabric-type rows (cotton, cotton-polyester blend, wool, acrylic) and three criterion columns (wash method, ironing need, skin safety). Fill each cell with the NCERT-based recommendation.",
+     "a": "| Fabric | Wash Method | Ironing Need | Skin Safety |\n|--------|-------------|--------------|-------------|\n| Cotton | Machine wash, hot water OK | Medium (wrinkles) | Excellent (soft, absorbent) |\n| Cotton-poly blend | Machine wash, warm water | Low (wrinkle resistant) | Good (absorbent + durable) |\n| Wool | Hand wash / dry clean only | Low (resilient) | Poor next to skin (irritating) |\n| Acrylic | Machine wash, cool water | Very low | Good (soft, non-irritating) |\nA poor answer leaves cells blank or gives generic advice, showing inability to synthesize the scattered textbook statements into a usable decision tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

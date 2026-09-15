@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_009",
+   "title": "c11_math_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the formal definition of the union of two sets A and B using set-builder notation.",
+     "a": "The union of A and B is A ∪ B = { x : x ∈ A or x ∈ B }. A wrong answer like { x : x ∈ A and x ∈ B } reveals the student is confusing union with intersection. A wrong answer that omits the set-builder braces or the condition shows the student has not memorized the precise symbolic definition required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the idempotent law A ∪ A = A holds true for every set A, using the definition of union.",
+     "a": "By definition, A ∪ A = { x : x ∈ A or x ∈ A }. The condition \"x ∈ A or x ∈ A\" is logically equivalent to just \"x ∈ A\". Therefore the set of all such x is exactly A. If a student says \"because they are the same set\" without referencing the 'or' condition, they are relying on intuition rather than the definition, which will fail when proving more complex identities.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = { x ∈ ℕ : x is a multiple of 3 and x < 15 } and B = { x ∈ ℕ : x is a multiple of 5 and x < 15 }. Find A ∪ B and verify the commutative law by explicitly computing B ∪ A.",
+     "a": "Step 1: List elements of A. Multiples of 3 < 15: A = {3, 6, 9, 12}.\nStep 2: List elements of B. Multiples of 5 < 15: B = {5, 10}.\nStep 3: Compute A ∪ B = {3, 5, 6, 9, 10, 12}.\nStep 4: Compute B ∪ A = {5, 10} ∪ {3, 6, 9, 12} = {3, 5, 6, 9, 10, 12}.\nStep 5: Since A ∪ B = B ∪ A, the commutative law is verified.\nA wrong answer like {3, 6, 9, 12, 5, 10, 15} (including 15) shows the student ignored the condition x < 15. A wrong answer that lists 15 in either set reveals a boundary-condition error common with set-builder descriptions.",
+     "self_check": true
+    },
+    {
+     "q": "If A and B are sets such that A ∪ B = A, what relationship must exist between A and B? Prove your claim using the definition of subset.",
+     "a": "The condition A ∪ B = A implies B ⊂ A. Proof: Let x ∈ B. Then x ∈ A ∪ B (by definition of union). Since A ∪ B = A, we have x ∈ A. Thus every element of B is in A, so B ⊂ A. Conversely, if B ⊂ A, then A ∪ B = A. A student who answers \"A is bigger than B\" or \"B is inside A\" without the formal subset argument shows they cannot translate the set equality into an element-wise proof, a skill required for higher-order problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"For any sets A, B, C, we have (A ∪ B) ∪ C = A ∪ (B ∪ C). This is true because brackets don't matter in union.\" Evaluate this statement. Is the reasoning sufficient for a board exam proof?",
+     "a": "The statement is true (associative law holds), but the reasoning is insufficient. A board exam proof requires showing that an element x belongs to the left-hand side if and only if it belongs to the right-hand side, using the definition of union and the associativity of the logical 'or'. The student's claim \"brackets don't matter\" is an observation, not a proof. If a student thinks this reasoning is enough, they lack the rigor to write formal set-theory proofs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two distinct finite sets A and B such that:\n- n(A) = 4, n(B) = 5,\n- n(A ∪ B) = 7,\n- n(A ∩ B) = 2.\nWrite the sets in roster form and draw a Venn diagram to illustrate.",
+     "a": "One possible answer: A = {1, 2, 3, 4}, B = {3, 4, 5, 6, 7}. Then A ∩ B = {3, 4} (2 elements), A ∪ B = {1, 2, 3, 4, 5, 6, 7} (7 elements). The Venn diagram shows two overlapping circles with 2 in the intersection, 2 in A-only, 3 in B-only. A student who cannot satisfy all three cardinality conditions simultaneously (e.g., produces sets with n(A ∪ B) = 9) does not understand the inclusion-exclusion principle n(A ∪ B) = n(A) + n(B) - n(A ∩ B), which is implicitly tested here.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

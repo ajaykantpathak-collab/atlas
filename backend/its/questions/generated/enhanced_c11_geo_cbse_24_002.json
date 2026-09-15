@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_002",
+   "title": "c11_geo_cbse_24_002",
+   "questions": [
+    {
+     "q": "What is the contour interval, and where is it typically indicated on a Survey of India 1:50,000 topographical map?",
+     "a": "The contour interval is the fixed vertical distance (in metres) between successive contour lines; on SOI 1:50,000 maps it is usually printed in the margin below the scale bar as \"Contour Interval 20 Metres\" or similar. A wrong answer (e.g., \"distance between contours on the map in cm\" or \"found in the legend\") reveals confusion between vertical ground distance and horizontal map distance, or inability to locate map metadata.",
+     "self_check": true
+    },
+    {
+     "q": "Why do contour lines never cross or intersect each other on a topographical map?",
+     "a": "Each contour represents a unique elevation; a single point on the ground cannot have two different elevations simultaneously. If contours crossed, the intersection point would imply two elevations, which is impossible. A wrong answer (e.g., \"because the map would become messy\" or \"contours only cross at cliffs\") indicates the student memorised the rule without understanding the one-to-one relationship between ground points and elevation values.",
+     "self_check": true
+    },
+    {
+     "q": "On a 1:50,000 toposheet with CI = 20 m, you see two index contours labelled 600 and 640. How many intermediate contours lie between them, and what are their elevations?",
+     "a": "Index contours appear at every 5th contour (100 m vertical interval). Between 600 and 640 there are three intermediate contours at 620 m (600+20, 620+20, 640). Steps: (1) Identify CI = 20 m. (2) Note index contours are 40 m apart vertically (600 to 640). (3) Number of intervals = 40/20 = 2 intervals → 1 intermediate contour? Wait: 600 to 640 is 40 m difference, so intervals = 40/20 = 2 intervals, meaning ONE intermediate contour at 620. But index contours are every 5th contour (100 m). So 600 and 640 are NOT consecutive index contours; they are two contours apart? Actually, index contours are every 100 m (5×20). So 600 and 700 would be index contours. The question says \"index contours labelled 600 and 640\" — this is a trick: 640 is not an index contour if CI=20 and index interval=100. So the premise is flawed. A correct answer would identify that 640 cannot be an index contour if CI=20; index contours would be 600, 700, etc. A wrong answer that calculates 620 as intermediate without questioning the index contour labels shows lack of critical checking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contour pattern of a conical hill and a conical depression (like a volcanic crater). How can you distinguish them on a map if both show closed concentric contours?",
+     "a": "Both show closed concentric contours, but on a hill the elevation increases toward the centre (inner contours have higher values), while in a depression the elevation decreases toward the centre (inner contours have lower values). Depressions are often marked with hachures (short inward-pointing lines) on the lower side of the contour. A wrong answer (e.g., \"depressions have wider spacing\" or \"hills have V-shapes\") reveals confusion between plan form and elevation trend, or missing the hachure convention.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Closer contours always mean steeper slope, so if I see contours spaced 2 mm apart on a 1:50,000 map, the slope is steeper than where they are 5 mm apart.\" Evaluate this statement.",
+     "a": "The statement is correct in principle: closer contours indicate steeper slope because horizontal equivalent (HE) is smaller. On 1:50,000, 2 mm = 100 m ground distance, 5 mm = 250 m. For CI=20 m, gradients are 20/100 = 1:5 (20%) vs 20/250 = 1:12.5 (8%). However, the student must also consider that contour spacing can vary due to generalisation or map errors. A wrong evaluation (e.g., \"false because slope depends on CI only\" or \"true always without exception\") shows inability to link map measurement to ground gradient or to recognise cartographic limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a contour map representation for a terraced paddy field on a hillside in Kerala, showing how you would depict the flat terraces and the steep risers between them using standard contour conventions.",
+     "a": "A good answer: Terraces appear as closely spaced contour lines at the risers (steep slope) and widely spaced or absent contours on the flat treads (since elevation change is minimal). Each terrace tread may be shown by a single contour if the tread is wide enough, or by a gap between contour clusters. Risers are shown by a tight cluster of contours (e.g., 3-4 contours within 1-2 mm). The answer should mention that contour values increase uphill. A poor answer (e.g., drawing uniform spacing or using hachures for terraces) reveals misunderstanding of how contours represent abrupt vs. gradual elevation change and the convention that flat areas have fewer contours.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

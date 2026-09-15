@@ -1,0 +1,734 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Orienting Yourself: The Use of Coordinates",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh101.txt",
+ "concepts": [
+  {
+   "id": "iemh.101.1",
+   "title": "The Cartesian Coordinate System",
+   "section": "1.3",
+   "definition": "A reference frame for the flat plane, built from one horizontal number line (the x-axis) and one vertical number line (the y-axis), held at 90 degrees from one another. Every location gets fixed by an ordered pair of numbers, one taken from each line.",
+   "formula": "Axes: x and y",
+   "key_idea": "Two number lines crossed at 90 degrees give every point in the plane an address.",
+   "textbook_ref": "iemh101.txt lines 92-104",
+   "question_patterns": [
+    "Explain how the two coordinate axes are used to describe positions in a plane.",
+    "Define the x-axis and the y-axis in your own words.",
+    "Draw and label the parts of the coordinate plane, including both axes.",
+    "What makes the two axes of a coordinate frame perpendicular to each other?",
+    "State why a single number line is not enough to fix a position on a flat sheet."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify axes",
+     "explain": "The horizontal line is the x-axis and the vertical line is the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Read positions as pairs",
+     "explain": "Each location in the plane is named by one number from each axis."
+    },
+    {
+     "step": 3,
+     "action": "Confirm perpendicularity",
+     "explain": "The two axes meet at 90 degrees, which is what allows every point to have a unique ordered-pair address."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.2",
+   "title": "The Origin",
+   "section": "1.3",
+   "definition": "Both axes meet in one special spot labelled O. It acts as the zero mark for each axis, and its ordered pair has zero in both positions.",
+   "formula": "O = (0, 0)",
+   "key_idea": "Counting starts here; both entries of this ordered pair are zero.",
+   "textbook_ref": "iemh101.txt lines 99-104",
+   "question_patterns": [
+    "What are the coordinates of the origin?",
+    "Locate and mark the origin on a graph paper grid.",
+    "Why is the spot where the two axes cross a good place to start counting?",
+    "Identify the ordered pair that represents the point where both axes meet.",
+    "State the distance of the origin from each of the two axes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate intersection",
+     "explain": "The origin is the point (0,0) where the axes intersect."
+    },
+    {
+     "step": 2,
+     "action": "Confirm both entries are zero",
+     "explain": "Since O is the zero mark for each axis, its ordered pair has zero in both positions."
+    },
+    {
+     "step": 3,
+     "action": "State distance from each axis",
+     "explain": "The origin is zero units from both the x-axis and the y-axis, making it the natural starting point for counting."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.3",
+   "title": "Coordinates of a Point",
+   "section": "1.3",
+   "definition": "A location P is written as an ordered pair (x, y). Entry one gives the sideways gap of P to the y-axis; entry two gives the up-or-down gap of P to the x-axis.",
+   "formula": "P = (x, y); x = gap from y-axis, y = gap from x-axis",
+   "key_idea": "An address pair: sideways offset first, then up-or-down offset.",
+   "textbook_ref": "iemh101.txt lines 192-197",
+   "question_patterns": [
+    "Read off the coordinates of a point marked on a grid.",
+    "For the point (6, -2), state how far it sits from each of the two axes.",
+    "Explain what the two entries of an ordered pair (x, y) tell you about a point.",
+    "If a point sits 4 units from the y-axis and 3 units from the x-axis, write its coordinates.",
+    "Distinguish between the x-coordinate and the y-coordinate of a marked point."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Read the first entry",
+     "explain": "The first number is the sideways offset from the vertical axis."
+    },
+    {
+     "step": 2,
+     "action": "Read the second entry",
+     "explain": "The second number is the vertical offset from the horizontal axis."
+    },
+    {
+     "step": 3,
+     "action": "Combine into an ordered pair",
+     "explain": "Writing the two entries as (x, y) gives the complete address of the point, with the sideways offset first and the up-or-down offset second."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.4",
+   "title": "Quadrants of the Plane",
+   "section": "1.3",
+   "definition": "The two axes split the whole flat surface into four open regions; numbering them I through IV starts at the top-right region and runs anticlockwise.",
+   "formula": "Q1:(+,+), Q2:(-,+), Q3:(-,-), Q4:(+,-)",
+   "key_idea": "Sign pattern of the ordered pair picks the region: (+,+), (-,+), (-,-), (+,-).",
+   "textbook_ref": "iemh101.txt lines 181-191",
+   "question_patterns": [
+    "In which quadrant does the point (-3, 5) lie?",
+    "Name the quadrant containing a point whose x-entry is positive and y-entry is negative.",
+    "Which quadrant holds points with both entries negative?",
+    "Predict the quadrant of (7, -2) before plotting it.",
+    "List the sign pattern of the coordinates in each of the four regions.",
+    "Justify why no point can lie in two quadrants at once."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check signs of x and y",
+     "explain": "If x > 0 and y > 0, Quadrant I; if x < 0 and y > 0, Quadrant II; if x < 0 and y < 0, Quadrant III; if x > 0 and y < 0, Quadrant IV."
+    },
+    {
+     "step": 2,
+     "action": "Match sign pattern to quadrant",
+     "explain": "The four sign patterns (+,+), (-,+), (-,-), (+,-) correspond to quadrants I through IV, numbered starting from the top-right and going anticlockwise."
+    },
+    {
+     "step": 3,
+     "action": "Exclude boundary cases",
+     "explain": "If either entry is zero, the point lies on an axis rather than inside any quadrant, so no quadrant assignment is made."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.5",
+   "title": "Points on the Axes",
+   "section": "1.3",
+   "definition": "On the x-axis, every point has second entry zero; on the y-axis, every point has first entry zero.",
+   "formula": "x-axis: (x, 0); y-axis: (0, y)",
+   "key_idea": "Points lying directly on the boundary lines of the quadrants.",
+   "textbook_ref": "iemh101.txt lines 142-149",
+   "question_patterns": [
+    "What is the y-coordinate of any point on the x-axis?",
+    "Write the coordinates of a point 5 units to the left of the origin on the x-axis.",
+    "Where does the point (0, -4) lie?",
+    "Decide whether the point (7, 0) sits on the x-axis or the y-axis, and say why.",
+    "Give the general form of the coordinates of a point on the y-axis."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for zero entry",
+     "explain": "If y is 0, the point is on the x-axis. If x is 0, the point is on the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Write the general form",
+     "explain": "A point on the x-axis has the form (x, 0) and a point on the y-axis has the form (0, y), reflecting which coordinate is always zero."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the point is not in a quadrant",
+     "explain": "Since one entry is zero, the point lies on a boundary line between quadrants rather than inside any single quadrant."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.6",
+   "title": "Distance Between Two Points",
+   "section": "1.4",
+   "definition": "For a slanting segment, the length comes from the right-triangle result credited to Baudhayana: square each coordinate gap between the endpoints, add the squares, and take the square root.",
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2)",
+   "key_idea": "Treat the gap between the endpoints as the two legs of a right triangle; the segment is its hypotenuse.",
+   "textbook_ref": "iemh101.txt lines 301-308, 408-426",
+   "question_patterns": [
+    "Calculate the distance between (x1, y1) and (x2, y2).",
+    "Find the length of the segment joining A(3, 4) and D(7, 1).",
+    "Compute how far apart M(9, 6) and D(7, 1) are.",
+    "Use the right-triangle result to find a side length of a triangle drawn on a grid.",
+    "Check whether the segment between (-2, 3) and (1, 7) has integer length."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find horizontal difference",
+     "explain": "Subtract the x-coordinates.",
+     "compute": "x_diff = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Find vertical difference",
+     "explain": "Subtract the y-coordinates.",
+     "compute": "y_diff = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "Apply Pythagoras theorem",
+     "explain": "Square the differences, sum them, and take the square root.",
+     "compute": "distance = sqrt(x_diff**2 + y_diff**2)"
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.7",
+   "title": "Midpoint of a Segment",
+   "section": "End-of-Chapter Exercises",
+   "definition": "For endpoints S(x1, y1) and T(x2, y2), the halfway location M has entries that average each pair of matching endpoint entries.",
+   "formula": "M = ((x1 + x2)/2, (y1 + y2)/2)",
+   "key_idea": "Each entry of the halfway point is the mean of the matching endpoint entries.",
+   "textbook_ref": "iemh101.txt lines 587-622 (EOC problems 9-11)",
+   "question_patterns": [
+    "How do you test whether M is the midpoint of segment ST?",
+    "State the connection between the coordinates of S, T and their halfway point.",
+    "Given one endpoint S(3, -4) and the halfway point M(-7, 1), predict the other endpoint.",
+    "Explain why averaging the two x-entries gives the x-entry of the halfway point.",
+    "Use the midpoint idea to locate the centre of a segment on a grid."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Average the x-entries",
+     "explain": "Add x1 and x2, then halve the sum."
+    },
+    {
+     "step": 2,
+     "action": "Average the y-entries",
+     "explain": "Add y1 and y2, then halve the sum."
+    },
+    {
+     "step": 3,
+     "action": "Combine into the midpoint",
+     "explain": "The two averages form the ordered pair M = ((x1 + x2)/2, (y1 + y2)/2), which is the halfway point of the segment."
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.8",
+   "title": "Distance between points on a line parallel to axes",
+   "section": "1.4 / Chapter Summary",
+   "definition": "When two endpoints share their y-entry, subtract the x-entries and drop the sign; when they share their x-entry, do the same with the y-entries.",
+   "formula": "same y: dist = abs(x2 - x1); same x: dist = abs(y2 - y1)",
+   "key_idea": "Simplified distance calculation for horizontal or vertical segments.",
+   "textbook_ref": "iemh101.txt lines 302-304, 706-710",
+   "question_patterns": [
+    "Points P(3, 5) and Q(8, 5) share the same y-coordinate; find the distance PQ.",
+    "How far apart are (2, -1) and (2, 7), which sit on one vertical line?",
+    "Calculate the length of the horizontal segment joining A(0, -2) and M(-5, -2).",
+    "What is the length of side MP with M(-5, -2) and P(-5, 2)?",
+    "Without plotting, state which coordinate entries to compare when both points share the same y-value."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify changing coordinate",
+     "explain": "If y1 = y2, use x-difference. If x1 = x2, use y-difference.",
+     "compute": "dist = abs(x2 - x1) + abs(y2 - y1)"
+    },
+    {
+     "step": 2,
+     "action": "Take the absolute difference",
+     "explain": "Subtract the matching coordinate entries and drop the sign, since length is always non-negative.",
+     "compute": "dist = abs(changing_coord_2 - changing_coord_1)"
+    },
+    {
+     "step": 3,
+     "action": "State the segment length",
+     "explain": "The absolute difference gives the length of the horizontal or vertical segment directly, with no need for the full distance formula.",
+     "compute": "length = dist"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh101.txt lines 331-355 (A(3,4), D(7,1), AD = 5)",
+   "concept": "iemh.101.6",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between A({x1}, {y1}) and D({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": "3",
+    "y1": "4",
+    "x2": "7",
+    "y2": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find horizontal difference",
+     "compute": "x_diff = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Find vertical difference",
+     "compute": "y_diff = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "Calculate distance",
+     "compute": "distance = sqrt(x_diff**2 + y_diff**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh101.txt lines 594-615 (EOC problem 9, row 1: S(-3,0), M(0,0), T(3,0))",
+   "concept": "iemh.101.7",
+   "question_type": "verify_property",
+   "question_pattern": "Is M({mx}, {my}) the midpoint of S({x1}, {y1}) and T({x2}, {y2})? Justify.",
+   "extracted_variables": {
+    "x1": "-3",
+    "y1": "0",
+    "x2": "3",
+    "y2": "0",
+    "mx": "0",
+    "my": "0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Average the x-entries",
+     "explain": "(x1 + x2) / 2 should equal mx.",
+     "compute": "mid_x = (x1 + x2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Average the y-entries",
+     "explain": "(y1 + y2) / 2 should equal my.",
+     "compute": "mid_y = (y1 + y2) / 2"
+    },
+    {
+     "step": 3,
+     "action": "Compare with M",
+     "explain": "Both averages match the entries of M, so M is the midpoint."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh101.txt lines 385-407 (DM = sqrt(2^2 + 5^2) = sqrt(29) units)",
+   "concept": "iemh.101.6",
+   "question_type": "compute",
+   "question_pattern": "Compute how far apart D({x1}, {y1}) and M({x2}, {y2}) are.",
+   "extracted_variables": {
+    "x1": "7",
+    "y1": "1",
+    "x2": "9",
+    "y2": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find horizontal difference",
+     "compute": "x_diff = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Find vertical difference",
+     "compute": "y_diff = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "Calculate distance",
+     "compute": "distance = sqrt(x_diff**2 + y_diff**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh101.txt lines 627-631 (EOC exercise 3: A(0,-2), M(-5,-2), P(-5,2))",
+   "concept": "iemh.101.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the length of side AM joining A({x1}, {y1}) and M({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": "0",
+    "y1": "-2",
+    "x2": "-5",
+    "y2": "-2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify changing coordinate",
+     "explain": "Both points share y = -2, so compare the x-entries.",
+     "compute": "dist = abs(x2 - x1) + abs(y2 - y1)"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh101.txt lines 627-631 (EOC exercise 3: M(-5,-2), P(-5,2))",
+   "concept": "iemh.101.8",
+   "question_type": "compute",
+   "question_pattern": "What is the length of side MP with M({x1}, {y1}) and P({x2}, {y2})?",
+   "extracted_variables": {
+    "x1": "-5",
+    "y1": "-2",
+    "x2": "-5",
+    "y2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify changing coordinate",
+     "explain": "Both points share x = -5, so compare the y-entries.",
+     "compute": "dist = abs(x2 - x1) + abs(y2 - y1)"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how the two coordinate axes are used to describe positions in a plane.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify axes",
+     "explain": "The horizontal line is the x-axis and the vertical line is the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Read positions as pairs",
+     "explain": "Each location in the plane is named by one number from each axis."
+    },
+    {
+     "step": 3,
+     "action": "Confirm perpendicularity",
+     "explain": "The two axes meet at 90 degrees, which is what allows every point to have a unique ordered-pair address."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "Define the x-axis and the y-axis in your own words.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify axes",
+     "explain": "The horizontal line is the x-axis and the vertical line is the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Read positions as pairs",
+     "explain": "Each location in the plane is named by one number from each axis."
+    },
+    {
+     "step": 3,
+     "action": "Confirm perpendicularity",
+     "explain": "The two axes meet at 90 degrees, which is what allows every point to have a unique ordered-pair address."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.2",
+   "question_type": "verify_property",
+   "question_pattern": "What are the coordinates of the origin?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate intersection",
+     "explain": "The origin is the point (0,0) where the axes intersect."
+    },
+    {
+     "step": 2,
+     "action": "Confirm both entries are zero",
+     "explain": "Since O is the zero mark for each axis, its ordered pair has zero in both positions."
+    },
+    {
+     "step": 3,
+     "action": "State distance from each axis",
+     "explain": "The origin is zero units from both the x-axis and the y-axis, making it the natural starting point for counting."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.2",
+   "question_type": "verify_property",
+   "question_pattern": "Locate and mark the origin on a graph paper grid.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate intersection",
+     "explain": "The origin is the point (0,0) where the axes intersect."
+    },
+    {
+     "step": 2,
+     "action": "Confirm both entries are zero",
+     "explain": "Since O is the zero mark for each axis, its ordered pair has zero in both positions."
+    },
+    {
+     "step": 3,
+     "action": "State distance from each axis",
+     "explain": "The origin is zero units from both the x-axis and the y-axis, making it the natural starting point for counting."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.3",
+   "question_type": "verify_property",
+   "question_pattern": "Read off the coordinates of a point marked on a grid.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the first entry",
+     "explain": "The first number is the sideways offset from the vertical axis."
+    },
+    {
+     "step": 2,
+     "action": "Read the second entry",
+     "explain": "The second number is the vertical offset from the horizontal axis."
+    },
+    {
+     "step": 3,
+     "action": "Combine into an ordered pair",
+     "explain": "Writing the two entries as (x, y) gives the complete address of the point, with the sideways offset first and the up-or-down offset second."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.3",
+   "question_type": "verify_property",
+   "question_pattern": "For the point (6, -2), state how far it sits from each of the two axes.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the first entry",
+     "explain": "The first number is the sideways offset from the vertical axis."
+    },
+    {
+     "step": 2,
+     "action": "Read the second entry",
+     "explain": "The second number is the vertical offset from the horizontal axis."
+    },
+    {
+     "step": 3,
+     "action": "Combine into an ordered pair",
+     "explain": "Writing the two entries as (x, y) gives the complete address of the point, with the sideways offset first and the up-or-down offset second."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.4",
+   "question_type": "verify_property",
+   "question_pattern": "In which quadrant does the point (-3, 5) lie?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check signs of x and y",
+     "explain": "If x > 0 and y > 0, Quadrant I; if x < 0 and y > 0, Quadrant II; if x < 0 and y < 0, Quadrant III; if x > 0 and y < 0, Quadrant IV."
+    },
+    {
+     "step": 2,
+     "action": "Match sign pattern to quadrant",
+     "explain": "The four sign patterns (+,+), (-,+), (-,-), (+,-) correspond to quadrants I through IV, numbered starting from the top-right and going anticlockwise."
+    },
+    {
+     "step": 3,
+     "action": "Exclude boundary cases",
+     "explain": "If either entry is zero, the point lies on an axis rather than inside any quadrant, so no quadrant assignment is made."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.4",
+   "question_type": "verify_property",
+   "question_pattern": "Name the quadrant containing a point whose x-entry is positive and y-entry is negative.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check signs of x and y",
+     "explain": "If x > 0 and y > 0, Quadrant I; if x < 0 and y > 0, Quadrant II; if x < 0 and y < 0, Quadrant III; if x > 0 and y < 0, Quadrant IV."
+    },
+    {
+     "step": 2,
+     "action": "Match sign pattern to quadrant",
+     "explain": "The four sign patterns (+,+), (-,+), (-,-), (+,-) correspond to quadrants I through IV, numbered starting from the top-right and going anticlockwise."
+    },
+    {
+     "step": 3,
+     "action": "Exclude boundary cases",
+     "explain": "If either entry is zero, the point lies on an axis rather than inside any quadrant, so no quadrant assignment is made."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.5",
+   "question_type": "verify_property",
+   "question_pattern": "What is the y-coordinate of any point on the x-axis?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for zero entry",
+     "explain": "If y is 0, the point is on the x-axis. If x is 0, the point is on the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Write the general form",
+     "explain": "A point on the x-axis has the form (x, 0) and a point on the y-axis has the form (0, y), reflecting which coordinate is always zero."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the point is not in a quadrant",
+     "explain": "Since one entry is zero, the point lies on a boundary line between quadrants rather than inside any single quadrant."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.5",
+   "question_type": "verify_property",
+   "question_pattern": "Write the coordinates of a point 5 units to the left of the origin on the x-axis.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for zero entry",
+     "explain": "If y is 0, the point is on the x-axis. If x is 0, the point is on the y-axis."
+    },
+    {
+     "step": 2,
+     "action": "Write the general form",
+     "explain": "A point on the x-axis has the form (x, 0) and a point on the y-axis has the form (0, y), reflecting which coordinate is always zero."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the point is not in a quadrant",
+     "explain": "Since one entry is zero, the point lies on a boundary line between quadrants rather than inside any single quadrant."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.101.7",
+   "question_type": "verify_property",
+   "question_pattern": "Given one endpoint S(3, -4) and the halfway point M(-7, 1), predict the other endpoint.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Average the x-entries",
+     "explain": "Add x1 and x2, then halve the sum."
+    },
+    {
+     "step": 2,
+     "action": "Average the y-entries",
+     "explain": "Add y1 and y2, then halve the sum."
+    },
+    {
+     "step": 3,
+     "action": "Combine into the midpoint",
+     "explain": "The two averages form the ordered pair M = ((x1 + x2)/2, (y1 + y2)/2), which is the halfway point of the segment."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iemh101.txt lines 153-174 (Exercise Set 1.1, Fig. 1.3)",
+   "questions": [
+    "How far is the door D1R1 from the left wall (y-axis)?",
+    "What are the coordinates of D1?",
+    "If R1 is (11.5, 0), how wide is the door?",
+    "Is the bathroom door B1(0, 1.5) to B2(0, 4) wider than the room door?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "iemh101.txt lines 250-300 (Exercise Set 1.2)",
+   "questions": [
+    "Find the fourth foot of a table with feet at (8, 9), (11, 9), and (11, 7).",
+    "What are the coordinates of the corners O, F, R, and P of the bathroom?",
+    "Sketch a dining room of length 18 ft and width 15 ft starting from P to A.",
+    "Place a 5x3 dining table in the centre of the dining room and find its feet coordinates."
+   ]
+  },
+  {
+   "id": "exEOC",
+   "source_ref": "iemh101.txt lines 545-668 (End-of-Chapter Exercises)",
+   "questions": [
+    "What is the point of intersection of the two axes?",
+    "Predict quadrants for point H on a line through W(-5, y) parallel to y-axis.",
+    "Are points M(-3, -4), A(0, 0) and G(6, 8) collinear?",
+    "Check if A(1, -8), B(-4, 7) and C(-7, -4) lie on a circle centered at origin.",
+    "Find coordinates of A, B, C given midpoints of sides are (5, 1), (6, 5), and (0, 3)."
+   ]
+  }
+ ]
+}

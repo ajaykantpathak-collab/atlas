@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_008",
+   "title": "c11_biotech_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the defining characteristic that distinguishes apoptosis from necrosis in terms of the cell's energy requirement and control?",
+     "a": "Apoptosis is an energy-dependent (ATP-requiring), genetically controlled process, whereas necrosis is passive, unregulated, and occurs due to acute injury without ATP requirement. A wrong answer (e.g., \"both are energy-independent\" or \"apoptosis is uncontrolled\") reveals the student confuses the active, programmed nature of apoptosis with the passive, accidental nature of necrosis, a fundamental misconception at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why DNA fragmentation in apoptosis produces a characteristic 'ladder' pattern on gel electrophoresis, while necrosis produces a smear.",
+     "a": "In apoptosis, caspase-activated DNase (CAD) cleaves DNA at internucleosomal linker regions (~180 bp intervals), generating fragments that are multiples of nucleosome length (ladder). In necrosis, random degradation by lysosomal and cytoplasmic nucleases (due to loss of compartmentalization) produces heterogeneous fragment sizes (smear). A wrong answer indicates the student doesn't understand the ordered, enzyme-specific cleavage in apoptosis versus the chaotic degradation in necrosis.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cells with a pan-caspase inhibitor (z-VAD-fmk) and then induces apoptosis via the intrinsic pathway using staurosporine. Predict the effect on: (a) cytochrome c release from mitochondria, (b) caspase-3 activation, and (c) apoptotic body formation. Justify each prediction.",
+     "a": "(a) Cytochrome c release will still occur (it is upstream of caspase activation, regulated by Bcl-2 family proteins). (b) Caspase-3 activation will be blocked (caspase-3 is an effector caspase directly inhibited by z-VAD-fmk). (c) Apoptotic body formation will be blocked (requires caspase-mediated cleavage of cytoskeletal proteins like ROCK1). A wrong answer (e.g., cytochrome c release blocked) reveals misunderstanding of pathway hierarchy: caspases are executioners, not regulators of mitochondrial outer membrane permeabilization (MOMP).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the intrinsic and extrinsic apoptosis pathways in terms of: (i) initiating signal, (ii) key adaptor protein complex, (iii) initiator caspase, and (iv) convergence point. Present as a structured comparison.",
+     "a": "Intrinsic: (i) Internal stress (DNA damage, ER stress, oxidative stress), (ii) Apoptosome (cytochrome c + Apaf-1 + procaspase-9), (iii) Caspase-9, (iv) Effector caspases (caspase-3/7). Extrinsic: (i) Death ligands (FasL, TNF-α, TRAIL) binding death receptors (Fas, TNFR1, DR4/5), (ii) DISC (FADD + procaspase-8/10), (iii) Caspase-8/10, (iv) Effector caspases (caspase-3/7). Both pathways converge on effector caspases; extrinsic can amplify via Bid cleavage (tBid) engaging mitochondria. A wrong answer shows inability to distinguish upstream initiators, adaptors, and the point of convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since apoptosis eliminates damaged cells, a drug that globally enhances apoptosis would be an ideal universal cancer therapy.\" Provide three specific counterarguments with molecular reasoning.",
+     "a": "The statement is flawed. Counterarguments: (1) Excessive apoptosis causes neurodegenerative diseases (e.g., Alzheimer's, Parkinson's) where neurons are lost; global enhancement would exacerbate this. (2) Many cancers already have defective apoptosis (e.g., Bcl-2 overexpression, p53 mutation, caspase-8 silencing); enhancing upstream signals may not overcome these blocks. (3) Immune homeostasis requires balanced apoptosis; global enhancement could cause immunodeficiency (loss of lymphocytes) or autoimmunity (defective clearance of apoptotic bodies). A wrong answer (agreeing) reveals lack of critical thinking about tissue-specific consequences, cancer heterogeneity, and system-level homeostasis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow cytometry experiment using two fluorescent dyes to quantitatively distinguish early apoptotic, late apoptotic, necrotic, and viable cells in a mixed population. Specify the dyes, their targets, and the expected quadrant plot pattern for each population.",
+     "a": "Use Annexin V-FITC (binds phosphatidylserine exposed on outer membrane leaflet) and Propidium Iodide (PI, intercalates DNA but only enters membrane-compromised cells). Quadrant plot (Annexin V x-axis, PI y-axis): Viable = Annexin V-/PI- (lower left); Early apoptotic = Annexin V+/PI- (lower right); Late apoptotic/secondary necrotic = Annexin V+/PI+ (upper right); Primary necrotic = Annexin V-/PI+ (upper left). A poor answer (using only one dye or wrong dye targets) shows inability to design a controlled assay distinguishing membrane asymmetry loss from membrane rupture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_002",
+   "title": "c11_hs_cbse_07_002",
+   "questions": [
+    {
+     "q": "A student states: \"Primary Health Care is only about treating minor illnesses like cold and fever.\" Is this statement correct? Explain why or why not using the NCERT definition.",
+     "a": "The statement is incorrect. NCERT defines Primary Health Care as \"the first level of contact between individuals with the health care system\" – it includes preventive, promotive, and therapeutic care, not just curative treatment of minor ailments. PHC encompasses immunisation, maternal-child health, health education, sanitation, and disease surveillance. A wrong answer reveals the student equates \"primary\" with \"simple treatment\" rather than \"first contact point for comprehensive care.\"",
+     "self_check": true
+    },
+    {
+     "q": "A pregnant woman in a remote village receives iron-folic acid tablets and antenatal check-ups from an ANM at the Sub-Centre. At 36 weeks, she develops severe anaemia (Hb 7 g/dL) and is sent to the Community Health Centre (CHC) for IV iron therapy. Classify the care received at Sub-Centre and CHC into primary/secondary/tertiary levels and justify each classification.",
+     "a": "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment – IV iron requires medical officer/specialist and facility infrastructure not available at Sub-Centre). A wrong answer (e.g., calling CHC \"tertiary\") reveals confusion between \"specialised\" (secondary) and \"super-specialised/intensive\" (tertiary) – CHCs lack ICU, ventilators, and super-specialists that define tertiary care.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old farmer suffers a heart attack. His family rushes him directly to a medical college hospital 80 km away, bypassing the PHC and district hospital. He dies en route. Using the three-level framework, analyse TWO system failures illustrated by this scenario.",
+     "a": "Failure 1: Bypassing primary care – PHC could have given aspirin, oxygen, and arranged ambulance with ECG monitoring during transfer (the \"golden hour\" principle). Failure 2: Absence of functional referral linkage – no established protocol for emergency referral from PHC → CHC → tertiary with pre-notification. A wrong answer focusing only on \"distance\" or \"poverty\" misses the structural failure: the system design assumes stepwise referral, but communities lack trust/awareness of primary level emergency capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the gatekeeping function of Primary Health Care in India's public system versus a hypothetical system where patients can directly access tertiary hospitals without referral. Use the concepts of resource allocation, equity, and clinical appropriateness.",
+     "a": "With gatekeeping: Resources (specialists, MRI, ICU beds) concentrate on complex cases; equity improves as rural poor access first-contact care locally; clinical appropriateness ensures simple conditions don't block super-specialised slots. Without gatekeeping: Tertiary hospitals overload with minor ailments (studies show 60-70% OPD cases at AIIMS are primary-care treatable); rural patients incur catastrophic travel/opportunity costs; specialists spend time on UTIs instead of transplants. A weak answer lists only \"crowding\" without linking to equity or clinical triage logic.",
+     "self_check": true
+    },
+    {
+     "q": "\"India should convert all Primary Health Centres into mini-hospitals with X-ray, lab, and specialist doctors to reduce referral burden.\" Evaluate this proposal against the Alma-Ata principles of Primary Health Care and the NCERT definition of three-tier care.",
+     "a": "The proposal violates Alma-Ata's core principle: PHC must be \"universally accessible, affordable, and community-participatory\" – adding high-tech diagnostics shifts focus from preventive/promotive to curative, escalates costs, and creates \"mini-hospitals\" that drain resources from community outreach. NCERT's three-tier model explicitly defines secondary care as the level for \"specialised hospital like district hospitals\" – upgrading PHCs blurs the referral boundary, causing duplication (two levels doing same work) and leaving tertiary centres without a filtered referral stream. A poor answer supports the proposal citing \"better facilities\" without addressing system-level consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart for a 10-year-old child in a tribal village who develops fever → rash → joint pain → suspected rheumatic heart disease. Show the referral pathway across all three levels, specifying at each level: (a) cadre of provider, (b) key diagnostic/therapeutic action, (c) referral trigger to next level.",
+     "a": "Level 1 (Primary – Sub-Centre/PHC): Provider = ANM/MPW/MO; Action = Clinical diagnosis (Jones criteria), throat swab, inj. penicillin prophylaxis; Trigger = Heart murmur detected / echo needed. Level 2 (Secondary – CHC/District Hospital): Provider = Paediatrician/Physician; Action = Echo confirmation, ASD/VSD ruling out, long-acting penicillin, heart failure management; Trigger = Valve damage needing surgery / complex arrhythmia. Level 3 (Tertiary – Medical College): Provider = Paediatric Cardiologist/CTVS; Action = Valve repair/replacement, catheter intervention, lifelong anticoagulation management. A poor answer lists only institutions without specifying cadres, actions, or triggers – showing memorisation without clinical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

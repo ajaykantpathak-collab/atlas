@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_14_008",
+   "title": "c11_eng_w_cbse_14_008",
+   "questions": [
+    {
+     "q": "Define \"extended metaphor\" and give the two primary tenor-vehicle pairs in \"Mother Tongue\" without quoting the poem.",
+     "a": "An extended metaphor sustains a single comparison across multiple lines or stanzas, developing the vehicle's attributes to deepen understanding of the tenor. In this poem: (1) Tenor = Dogri language; Vehicle = Shahni (noblewoman). (2) Tenor = Sharade script; Vehicle = quill cut from the reed's hand. A wrong answer that only identifies \"quill = pen\" misses the abstraction (script vs. physical object) and reveals the student cannot distinguish literal from metaphorical levels.",
+     "self_check": true
+    },
+    {
+     "q": "The poem opens with \"I approached a stem / Swinging on a reed.\" Explain why the poet chooses \"stem\" and \"swinging\" instead of \"plant\" and \"growing,\" and what sensory effect this creates.",
+     "a": "\"Stem\" isolates a single, slender, manipulable part (tactile precision) rather than the whole plant; \"swinging\" adds kinesthetic motion — the reed is alive, responsive, almost human in its gesture. This creates a haptic and dynamic image that prepares the reader for the reed's later personified action (cutting off its hand). A wrong answer focusing only on \"visual picture\" misses the tactile-kinesthetic layer and shows the student equates imagery solely with sight.",
+     "self_check": true
+    },
+    {
+     "q": "In a new context, a student writes: \"The constitution is the spine of democracy.\" Identify the tenor, vehicle, and the specific quality transferred. Then rewrite the sentence as a simile without losing the transferred quality.",
+     "a": "Tenor = Constitution; Vehicle = spine; Transferred quality = structural support that keeps the body upright and enables movement. Simile rewrite: \"The constitution supports democracy like a spine supports a body, keeping it upright and allowing it to move.\" A wrong answer that says \"vehicle = democracy\" or transfers \"hardness\" reveals confusion about directionality (tenor receives qualities from vehicle) and inability to isolate the precise semantic feature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the imagery of the \"accountant / With some Shah / Writing account books\" (lines 7–9) with the imagery of the reed \"cut off its hand / Gave it to me\" (lines 15–16). What does the contrast reveal about the poet's view of language?",
+     "a": "The accountant image is clinical, transactional, repetitive (visual: rows of numbers; tactile: mechanical pen-scratching) — language as bureaucratic tool. The reed's self-amputation is visceral, sacrificial, organic (tactile: severing living tissue; kinesthetic: offering) — language as living entity demanding devotion. The contrast reveals the poet sees her mother tongue not as a utility but as a being worthy of bodily sacrifice. A wrong answer that merely lists images without linking to the poet's stance shows surface-level analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student claim: \"The metaphor 'Shahni = mother tongue' fails because a Shahni is a feudal aristocrat, but a mother tongue belongs equally to all speakers.\" Use evidence from the poem.",
+     "a": "The claim misreads the metaphor's function: the Shahni's \"kindness,\" \"wealth,\" and \"many servants\" map onto the language's nurturing capacity, rich expressive resources, and community of poets — not feudal oppression. The poet explicitly says \"I am not the only one / Working for her,\" emphasizing collective service. A wrong answer that agrees with the claim reveals a literalist reading that cannot separate vehicle's cultural connotations from the poet's selective mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Write four lines of free verse that extend the \"quill = script\" metaphor to a modern context (e.g., digital fonts, Unicode, keyboard), maintaining the poem's tone of urgent devotion.",
+     "a": "Example criteria: (1) Clear tenor (digital script/encoding) and vehicle (keyboard/Unicode/font). (2) At least two sensory images (e.g., \"glowing glyphs,\" \"fingertips burning on keys\"). (3) Urgency conveyed through imperative or time-pressure diction. (4) Metaphor sustained across all four lines. A poor answer that writes a literal description of typing or uses simile (\"like a quill\") shows inability to transfer the device creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

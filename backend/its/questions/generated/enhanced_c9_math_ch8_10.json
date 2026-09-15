@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_10",
+   "title": "c9_math_ch8_10",
+   "questions": [
+    {
+     "q": "Define a fractal and explain the concept of self-similarity.",
+     "a": "A fractal is a shape that exhibits self-similarity — it looks the same (or similar) at every scale, meaning a small part of the fractal contains a copy of the whole. Self-similarity means that zooming in on a portion of the fractal reveals a pattern that resembles the entire fractal. Example: The Sierpinski triangle — any small triangle within it is a smaller copy of the whole triangle. A wrong answer (e.g., \"a fractal is a complicated shape\") describes appearance without the defining property of self-similarity.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the recursive construction rule for the Sierpinski triangle and calculate the number of triangles at Stage 4.",
+     "a": "Recursive rule: At each stage, connect the midpoints of each triangle's sides to form 4 smaller triangles, then remove the middle one, leaving 3. Starting with 1 triangle (Stage 0): Stage 1 = 3, Stage 2 = 9, Stage 3 = 27, Stage 4 = 81. The number of triangles follows N_n = 3^n. A wrong answer (e.g., Stage 4 = 12) does not recognize the geometric sequence — each stage triples the count, so Stage 4 = 3^4 = 81.",
+     "self_check": true
+    },
+    {
+     "q": "Write the recursive and explicit rules for the number of triangles in the Sierpinski triangle at stage n.",
+     "a": "Recursive: N_n = 3 * N_{n-1}, with N_0 = 1. Explicit: N_n = 3^n. Both give the same sequence: 1, 3, 9, 27, 81, 243, ... A wrong answer (e.g., N_n = 3n) uses arithmetic instead of geometric — the count triples at each stage (geometric, r=3), not adds 3 (arithmetic, d=3).",
+     "self_check": true
+    },
+    {
+     "q": "Describe the recursive construction rule for the Koch snowflake and explain why its perimeter grows without bound.",
+     "a": "Koch snowflake rule: Start with an equilateral triangle (Stage 0). At each stage, divide every line segment into thirds, and replace the middle third with two sides of an equilateral triangle pointing outward. This adds a \"bump\" to every segment. The number of segments at each stage: Stage 0 = 3, Stage 1 = 12 (each of 3 segments becomes 4), Stage 2 = 48, Stage 3 = 192. Recursive: N_n = 4 * N_{n-1}, N_0 = 3. Explicit: N_n = 3 * 4^n. The perimeter grows because each segment is replaced by 4 segments of length 1/3 the original, so the perimeter multiplies by 4/3 at each stage. After n stages, perimeter = 3s * (4/3)^n, which grows without bound as n increases. A wrong answer (e.g., \"the perimeter stays the same\") misses that the 4/3 factor makes the perimeter grow geometrically.",
+     "self_check": true
+    },
+    {
+     "q": "Identify two fractal patterns in nature and explain how each shows self-similarity.",
+     "a": "(1) Ferns: Each frond (leaf) of a fern looks like a smaller copy of the whole fern. Zoom in on a frond, and its sub-fronds look like the whole frond. This is self-similarity — the part contains the pattern of the whole. (2) Coastlines: A coastline viewed from space has bays and peninsulas. Zoom in on a bay, and it has smaller bays and peninsulas. Zoom in again, and those have even smaller ones. The coastline looks similar at every scale. A wrong answer (e.g., \"trees are fractals because they have branches\") is too vague — it must explain the self-similarity (each branch branches again, like the whole tree).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Fractals are just complicated geometric shapes.\" Evaluate this statement and explain what makes fractals mathematically distinct from ordinary shapes.",
+     "a": "The statement is incorrect. Fractals are not just \"complicated shapes\" — they are mathematically distinct because of self-similarity: a small part of a fractal contains a copy of the whole. Ordinary shapes (squares, circles) do not have this property — a small piece of a circle is an arc, not a smaller circle. Fractals are defined by a recursive construction rule that produces self-similarity at every scale, and their element counts follow geometric sequences. Additionally, fractals often have non-integer (fractional) dimension, which ordinary shapes do not. The defining features are: (1) recursive construction, (2) self-similarity, (3) geometric sequence of elements. A wrong evaluation (agreeing with the statement) misses the mathematical properties that distinguish fractals from ordinary shapes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

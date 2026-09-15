@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_111",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_111",
+   "title": "c6_math_ch10_111",
+   "questions": [
+    {
+     "q": "What is the primary rule that a pattern must follow to be called a tessellation?",
+     "a": "The pattern must cover a flat surface completely with no gaps and no overlaps. A student who says \"it just needs to be a pattern\" misses the core requirement of \"fitting together\" perfectly.",
+     "self_check": true
+    },
+    {
+     "q": "If you try to tile a floor with regular pentagons, you will see gaps. Why does this happen?",
+     "a": "Regular pentagons cannot tessellate because their interior angles do not add up to 360 degrees when they meet at a point. If a student says \"because they are round,\" they are confusing pentagons with circles, failing to understand the relationship between interior angles and tiling.",
+     "self_check": true
+    },
+    {
+     "q": "Can an irregular triangle always tessellate? If so, how would you prove it?",
+     "a": "Yes, any triangle can tessellate. You can prove it by placing two identical triangles together to form a parallelogram, which is a shape known to tile easily. A wrong answer suggests the student thinks only \"perfect\" or regular shapes can form patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Look at a honeycomb. Why is it a perfect example of a tessellation in nature?",
+     "a": "It is composed of regular hexagons that fit together without any gaps to maximize space for honey storage. A student who misses this is likely focusing on the color or material rather than the geometry of the repeating unit.",
+     "self_check": true
+    },
+    {
+     "q": "If a shape has curved edges, like a circle, can it form a standard tessellation? Why or why not?",
+     "a": "No, because curved edges cannot meet to fill the space between them; they will always leave gaps. A student who thinks circles can tessellate is ignoring the \"no gaps\" rule of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple tessellation on a piece of grid paper using two different colors to show the repeating unit. What happens if you rotate every second tile?",
+     "a": "The expected response describes how the pattern shifts or changes orientation while maintaining the \"no gap\" rule. A poor answer fails to acknowledge that the \"no gap\" rule must be preserved regardless of rotation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

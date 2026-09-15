@@ -1,0 +1,367 @@
+{
+ "catalog": "catalog_class12_accountancy_leac201",
+ "concepts": [
+  {
+   "id": "leac.201.1.1",
+   "title": "Features of a Company",
+   "questions": [
+    {
+     "q": "Using the method 'Features of a Company', work with: common_seal = 80, limited_liability = 8000, perpetual_succession = 200, separate_legal_entity = 8. Carry the chain through step by step and give the final value of company_character.",
+     "a": "8288 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Features of a Company' and work with: common_seal = 500, limited_liability = 50000, perpetual_succession = 12, separate_legal_entity = 5. Carry the chain through step by step and give the final value of company_character.",
+     "a": "50517 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Features of a Company' refers to.",
+     "a": "A joint stock company is a body brought into existence by law, owned in fractions by shareholders and run day to day by a board they elect; it owns property, contracts and holds bank accounts in its own name.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Features of a Company'.",
+     "a": "Members may join, exit, die or turn insolvent, yet the company lives on until the law itself winds it up.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Features of a Company', in plain ASCII form.",
+     "a": "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.2.1",
+   "title": "Kinds of Companies",
+   "questions": [
+    {
+     "q": "Using the method 'Kinds of Companies', work with: liability_basis = 500, membership_basis = 8192. Carry the chain through step by step and give the final value of company_type.",
+     "a": "8692 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Kinds of Companies' and work with: liability_basis = 5000, membership_basis = 256. Carry the chain through step by step and give the final value of company_type.",
+     "a": "5256 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Kinds of Companies' refers to.",
+     "a": "Companies divide by how far members must pay (limited by shares, limited by guarantee, or unlimited) and by who may own them: a private company needs at least 2 and at most 200 members, while a public company starts at 7 with no upper cap.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kinds of Companies'.",
+     "a": "The liability clause answers how much a member can lose; the membership clause answers who is allowed to hold the company.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Kinds of Companies', in plain ASCII form.",
+     "a": "company_type = liability_basis + membership_basis",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.3.1",
+   "title": "Categories of Share Capital",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Categories of Share Capital' refers to.",
+     "a": "Share capital appears in nested layers: the Memorandum fixes the authorised amount, the company offers part of it as issued capital, applicants take up part of that as subscribed capital, directors call up part of the subscribed amount, and shareholders actually pay part of the called amount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Categories of Share Capital'.",
+     "a": "Each layer can only be a slice of the one above it, and uncalled capital kept aside solely for winding up is the reserve capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Categories of Share Capital', in plain ASCII form.",
+     "a": "paid_up_capital <= called_up_capital <= subscribed_capital <= issued_capital <= authorised_capital",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.3.2",
+   "title": "Paid-up Capital after Calls in Arrears",
+   "questions": [
+    {
+     "q": "Calculate the paid up capital after some shareholders miss a call. Use the method 'Paid-up Capital after Calls in Arrears'. Work with: amount_called_per_share = 100, shares_in_default = 8, shares_subscribed = 40, unpaid_per_share = 10. Carry the chain through step by step and give the final value of paid_up_capital.",
+     "a": "3920 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much subscribed capital is fully paid in the balance sheet? Use the method 'Paid-up Capital after Calls in Arrears'. Work with: amount_called_per_share = 12, shares_in_default = 50, shares_subscribed = 75, unpaid_per_share = 10. Carry the chain through step by step and give the final value of paid_up_capital.",
+     "a": "400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Paid-up Capital after Calls in Arrears' refers to.",
+     "a": "Reported paid-up capital equals what was demanded on all subscribed shares minus what defaulting shareholders still owe on the calls already made.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Paid-up Capital after Calls in Arrears'.",
+     "a": "The note to accounts shows the deduction line by line so the reader can see both the demand and the default.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Paid-up Capital after Calls in Arrears', in plain ASCII form.",
+     "a": "paid_up_capital = called_up_capital - calls_in_arrears",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.4.1",
+   "title": "Preference and Equity Shares",
+   "questions": [
+    {
+     "q": "Using the method 'Preference and Equity Shares', work with: distributable_profit = 50000, preference_dividend = 150. Carry the chain through step by step and give the final value of equity_dividend.",
+     "a": "49850 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Preference and Equity Shares' and work with: distributable_profit = 50000, preference_dividend = 400. Carry the chain through step by step and give the final value of equity_dividend.",
+     "a": "49600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Preference and Equity Shares' refers to.",
+     "a": "The Companies Act recognises two classes: preference shares hold a fixed-rate first claim on dividends and first repayment of capital at winding up, while equity (ordinary) shares vote, take the residual profit, and rank behind the preference holders.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Preference and Equity Shares'.",
+     "a": "Preference means priority in pay-out but usually no vote; equity means the vote and whatever profit survives the preference claim.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Preference and Equity Shares', in plain ASCII form.",
+     "a": "equity_dividend = distributable_profit - preference_dividend",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.5.1",
+   "title": "Minimum Subscription Rule",
+   "questions": [
+    {
+     "q": "Using the method 'Minimum Subscription Rule', work with: issued_amount = 2500. Carry the chain through step by step and give the final value of minimum_subscription.",
+     "a": "2250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Minimum Subscription Rule' and work with: issued_amount = 120000. Carry the chain through step by step and give the final value of minimum_subscription.",
+     "a": "108000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Minimum Subscription Rule' refers to.",
+     "a": "Directors must judge, before allotting, that enough money has been raised to cover property bought, issue expenses, borrowed repayments and working capital; SEBI keeps the floor at ninety percent of the issued amount within the prescribed window, failing which everything received is refunded.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Minimum Subscription Rule'.",
+     "a": "No allotment without the floor; a late refund carries interest from the day after the subscription list closes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Minimum Subscription Rule', in plain ASCII form.",
+     "a": "minimum_subscription = issued_amount * 0.9",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.6.1",
+   "title": "Instalment Schedule and Call Amount Due",
+   "questions": [
+    {
+     "q": "Find the amount due on the second and final call of an issue. Use the method 'Instalment Schedule and Call Amount Due'. Work with: allotment_per_share = 10, application_per_share = 10, face_value_per_share = 50, first_call_per_share = 10, shares_allotted = 400. Carry the chain through step by step and give the final value of amount_due_on_call.",
+     "a": "8000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much call money becomes due when a company calls the unpaid balance? Use the method 'Instalment Schedule and Call Amount Due'. Work with: allotment_per_share = 20, application_per_share = 25, face_value_per_share = 100, first_call_per_share = 10, shares_allotted = 150. Carry the chain through step by step and give the final value of amount_due_on_call.",
+     "a": "6750 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Instalment Schedule and Call Amount Due' refers to.",
+     "a": "A share's price is collected in stages -- application, allotment, then calls -- and whatever the earlier stages did not collect becomes the per-share amount of the closing call, multiplied by the shares allotted to give the money due on that call.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Instalment Schedule and Call Amount Due'.",
+     "a": "No single call may cross a quarter of the face value, calls need a month's gap and fourteen days' notice, and the last call is labelled final.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Instalment Schedule and Call Amount Due', in plain ASCII form.",
+     "a": "amount_due_on_call = shares_allotted * balance_call_per_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.6.2",
+   "title": "Pro-rata Adjustment of Excess Application Money",
+   "questions": [
+    {
+     "q": "Compute the allotment money still to be received after pro-rata adjustment. Use the method 'Pro-rata Adjustment of Excess Application Money'. Work with: allotment_money_per_share = 20, application_money_per_share = 10, shares_allotted = 80, shares_applied = 120. Carry the chain through step by step and give the final value of cash_due_on_allotment.",
+     "a": "1200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much of the application money is adjusted towards allotment in an oversubscribed issue? Use the method 'Pro-rata Adjustment of Excess Application Money'. Work with: allotment_money_per_share = 5, application_money_per_share = 50, shares_allotted = 150, shares_applied = 6. Carry the chain through step by step and give the final value of cash_due_on_allotment.",
+     "a": "7950 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pro-rata Adjustment of Excess Application Money' refers to.",
+     "a": "When an issue is oversubscribed and shares are allotted in proportion, the application money beyond what the allotted shares need is kept and squared off against the allotment money due; only the leftover, if any, is refunded or parked as calls in advance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pro-rata Adjustment of Excess Application Money'.",
+     "a": "Rejected applicants get full refunds; pro-rata applicants get their surplus applied against allotment, so the bank receipt on allotment day shrinks by the adjusted amount.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pro-rata Adjustment of Excess Application Money', in plain ASCII form.",
+     "a": "cash_due_on_allotment = shares_allotted * allotment_money_per_share - excess_application_money",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.6.3",
+   "title": "Calls in Arrears and Interest Thereon",
+   "questions": [
+    {
+     "q": "Compute interest on calls in arrears at ten percent per annum. Use the method 'Calls in Arrears and Interest Thereon'. Work with: interest_rate = 18, months_late = 25, shares_in_default = 5, unpaid_per_share = 100. Carry the chain through step by step and give the final value of interest_on_calls_in_arrears.",
+     "a": "18750 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much call money is in arrears for the defaulting shares? Use the method 'Calls in Arrears and Interest Thereon'. Work with: interest_rate = 15, months_late = 15, shares_in_default = 150, unpaid_per_share = 50. Carry the chain through step by step and give the final value of interest_on_calls_in_arrears.",
+     "a": "140625 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calls in Arrears and Interest Thereon' refers to.",
+     "a": "Money a shareholder fails to pay on the allotment or on a call by the due date sits as calls in arrears; the articles (or Table F by default) let the company charge interest on it, capped at ten percent per annum for the days it stays unpaid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calls in Arrears and Interest Thereon'.",
+     "a": "Arrears reduce paid-up capital in the note; interest is income credited to the interest account when it is actually received.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calls in Arrears and Interest Thereon', in plain ASCII form.",
+     "a": "interest_on_calls_in_arrears = calls_in_arrears * interest_rate * months_late / 12",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.6.4",
+   "title": "Calls in Advance",
+   "questions": [
+    {
+     "q": "Using the method 'Calls in Advance', work with: advance_amount = 1200, interest_rate = 8, months_held = 300. Carry the chain through step by step and give the final value of interest_on_calls_in_advance.",
+     "a": "240000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Calls in Advance' and work with: advance_amount = 50000, interest_rate = 25, months_held = 25. Carry the chain through step by step and give the final value of interest_on_calls_in_advance.",
+     "a": "2604166.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calls in Advance' refers to.",
+     "a": "Money taken from shareholders before the matching call is made is a liability, not capital: it rests in a calls in advance account under current liabilities and is transferred to the call account only when that call actually falls due.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calls in Advance'.",
+     "a": "Advance money never counts as paid-up capital; Table F caps the compensating interest at twelve percent per annum from receipt until the call is due.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calls in Advance', in plain ASCII form.",
+     "a": "interest_on_calls_in_advance = advance_amount * interest_rate * months_held / 12",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.7.1",
+   "title": "Forfeiture of Shares",
+   "questions": [
+    {
+     "q": "Calculate the amount credited to share forfeiture when shares are forfeited. Use the method 'Forfeiture of Shares'. Work with: amount_called_per_share = 12, shares_forfeited = 10, unpaid_per_share = 5. Carry the chain through step by step and give the final value of amount_forfeited.",
+     "a": "70 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much is debited to share capital on forfeiture of defaulting shares? Use the method 'Forfeiture of Shares'. Work with: amount_called_per_share = 100, shares_forfeited = 12, unpaid_per_share = 50. Carry the chain through step by step and give the final value of amount_forfeited.",
+     "a": "600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Forfeiture of Shares' refers to.",
+     "a": "For non-payment of allotment or call money the company can cancel a shareholder's shares: it debits share capital with the called-up amount on those shares, credits the unpaid amounts to the arrears or call accounts, and parks whatever was actually received in a share forfeiture account.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forfeiture of Shares'.",
+     "a": "Reverse everything except an already-received premium: if premium was never collected, securities premium is debited too at the time of forfeiture.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Forfeiture of Shares', in plain ASCII form.",
+     "a": "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.201.7.2",
+   "title": "Reissue of Forfeited Shares and Capital Reserve",
+   "questions": [
+    {
+     "q": "Compute the capital reserve on reissue of forfeited shares. Use the method 'Reissue of Forfeited Shares and Capital Reserve'. Work with: amount_paid_per_share = 20, face_value_per_share = 5, reissue_price_per_share = 12, shares_reissued = 60. Carry the chain through step by step and give the final value of capital_reserve.",
+     "a": "1620 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much of the share forfeiture balance goes to capital reserve when only part of the shares are reissued? Use the method 'Reissue of Forfeited Shares and Capital Reserve'. Work with: amount_paid_per_share = 25, face_value_per_share = 50, reissue_price_per_share = 100, shares_reissued = 25. Carry the chain through step by step and give the final value of capital_reserve.",
+     "a": "1875 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reissue of Forfeited Shares and Capital Reserve' refers to.",
+     "a": "Forfeited shares may be reissued at par, premium or a discount, but the discount on reissue can never outstrip the amount already collected on those very shares at forfeiture; whatever survives of the forfeiture credit for the reissued shares is a capital profit moved to capital reserve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reissue of Forfeited Shares and Capital Reserve'.",
+     "a": "Only the slice of forfeiture credit belonging to reissued shares reaches capital reserve; the credit for shares still unreissued stays in the forfeiture account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reissue of Forfeited Shares and Capital Reserve', in plain ASCII form.",
+     "a": "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_10",
+   "title": "c8_geo_ch1_10",
+   "questions": [
+    {
+     "q": "What geological source material transformed over millions of years to create petroleum and natural gas deposits?",
+     "a": "Microscopic marine organisms (plankton and algae) that settled on ancient seabed floors and were buried under sediments. A wrong answer stating \"terrestrial trees and swamp plants\" reveals confusion between the formation of coal (land-based vegetation) and petroleum/natural gas (marine-based organic matter).",
+     "self_check": true
+    },
+    {
+     "q": "Why is coal classified as a non-renewable resource even though natural forces continue to bury plant matter in marshes today?",
+     "a": "Because the rate of formation takes millions of years under specific geological pressure and heat, whereas human consumption depletes these reserves in hundreds of years; the rate of replenishment is effectively zero relative to human timeframes. A wrong answer stating \"nature stopped producing coal after the dinosaur era\" reveals the misconception that the physical process itself has ended, rather than recognizing a mismatch in timescales.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power station in West Bengal consumes 15,000 tonnes of Gondwana coal per day. A nearby geological survey identifies a local reserve of 54.75 million tonnes. Assuming no other consumers and uniform daily consumption, calculate the lifespan of this coal reserve in years (take 1 year = 365 days).",
+     "a": "Working:\n- Step 1: Calculate annual consumption = 15,000 tonnes/day × 365 days = 5,475,000 tonnes/year (5.475 million tonnes/year).\n- Step 2: Divide total reserve by annual consumption = 54,750,000 tonnes / 5,475,000 tonnes/year = 10 years.\nThe coal reserve will last exactly 10 years. A wrong answer reveals errors in unit conversion from daily to annual consumption or misunderstanding reserve-to-production calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why petroleum deposits and natural gas reserves are frequently found together in the same geological structural traps (such as anticlines or salt domes) under impermeable cap rock.",
+     "a": "Both share the same marine organic origin and maturation conditions; during underground heating, lighter hydrocarbons turn to vapor (natural gas) and rise to the top of the porous reservoir rock, while heavier liquid hydrocarbons (petroleum) settle below it, both trapped from escaping to the surface by an overlying layer of impermeable non-porous rock. A wrong answer reveals a failure to apply concepts of density differentiation and structural geology trapping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the geographical and economic consequence if an industrial region depends 100% on imported petroleum for its transport and thermal energy needs.",
+     "a": "The region suffers extreme vulnerability to international price shocks, supply chain disruptions, foreign currency drain, and severe environmental degradation, making its energy system unsustainable without diversifying into local renewable resources. A wrong answer focusing only on cost without evaluating long-term resource security or physical vulnerability shows incomplete geographical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a spatial transition plan for an Indian industrial district currently running entirely on coal from the Raniganj basin to systematically reduce non-renewable depletion over a 20-year period.",
+     "a": "A valid plan includes: (1) Mapping rooftop and wasteland solar potential across the district to substitute day-time industrial electricity; (2) Transitioning heavy boilers from coal to compressed natural gas (as a cleaner bridging fossil fuel) while building grid capacity; (3) Introducing biomass co-firing from local agricultural waste; (4) Phasing out coal-fired captive plants with wind/solar power purchase agreements. A weak answer merely suggests \"stop using coal tomorrow\" without addressing realistic infrastructural transition phases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

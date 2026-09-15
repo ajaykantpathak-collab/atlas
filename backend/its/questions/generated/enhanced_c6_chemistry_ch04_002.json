@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_002",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_002",
+   "title": "c6_chemistry_ch04_002",
+   "questions": [
+    {
+     "q": "What do we call a material that has a shiny surface when light falls on it?",
+     "a": "Such a material is called lustrous. A wrong answer like \"hard\" reveals the student is confusing the property of appearance with the property of texture or resistance to touch.",
+     "self_check": true
+    },
+    {
+     "q": "If you can easily press a material with your fingers, how would you describe its hardness?",
+     "a": "The material is described as soft. If the student says it is \"non-lustrous,\" they are confusing the physical property of hardness with the property of light reflection.",
+     "self_check": true
+    },
+    {
+     "q": "You have a glass of water. You add a spoonful of sand to it and stir. Will the sand disappear? Why or why not?",
+     "a": "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a piece of iron and a piece of rubber. Which one is harder, and how do you know?",
+     "a": "Iron is harder than rubber because it is more difficult to scratch or compress. A student saying they are \"equal\" fails to understand that hardness is a relative property that can be tested through physical resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend wants to make a boat out of paper, but you want to make one out of metal. Which material is more suitable for staying in water for a long time? Justify your answer.",
+     "a": "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate. A wrong answer suggests the student hasn't considered how solubility and material strength affect object durability.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a new material that is opaque, very hard, and insoluble in water. Suggest one object you could make with it.",
+     "a": "An example would be a construction brick or a heavy-duty hammer head. A poor answer would be a \"drinking straw,\" which ignores the requirement for hardness or potentially the need for transparency/flexibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

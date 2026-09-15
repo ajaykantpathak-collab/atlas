@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 203,
+ "chapter_title": "Environment and Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy203.1.1",
+   "title": "Ecology and Society: A Two-Way Relationship",
+   "section": "1.1",
+   "definition": "Ecology studies how living beings relate to their habitat, and human society is deeply ecological: it draws materials from nature and returns wastes to it. The relationship runs both ways -- environments shape what societies can do, while societies transform environments, increasingly at planetary scale.",
+   "formula": "",
+   "key_idea": "Society lives inside an ecosystem -- taking, transforming and returning -- and both sides reshape the other.",
+   "textbook_ref": "kesy203.txt lines 15-130 (introduction, ecology defined, interdependence of organisms and habitat, society and environment relationship)",
+   "question_patterns": [
+    "what is ecology and how does it relate to society",
+    "in class 11 environment and society: explain the two way relationship between society and environment",
+    "how does the habitat shape a society's way of life",
+    "give examples of societies transforming their environments",
+    "why is the environment said to set limits on growth",
+    "distinguish the natural and the built environment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the ecological frame",
+     "explain": "Ecology maps the give-and-take between organisms -- humans included -- and their surroundings."
+    },
+    {
+     "step": 2,
+     "action": "read nature's constraints",
+     "explain": "Climate, soil, water and forests set the menu from which societies build their livelihoods and cultures."
+    },
+    {
+     "step": 3,
+     "action": "read society's pressure",
+     "explain": "Agriculture, industry and cities rework landscapes and atmospheres, feeding consequences back onto society itself."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which study examines how living beings relate to their habitat?",
+     "a": "ecology"
+    }
+   ]
+  },
+  {
+   "id": "kesy203.1.2",
+   "title": "Major Environmental Problems and Their Social Roots",
+   "section": "1.2",
+   "definition": "Today's ecological troubles -- resource depletion, pollution, loss of species, and climate change -- are not accidents of nature alone: they flow from how societies produce, consume and distribute. Their severity tracks scale of extraction and inequality of exposure, since the poor usually suffer environmental damage first and worst.",
+   "formula": "",
+   "key_idea": "Ecological crisis has a social address -- production systems and unequal power produce both the damage and its victims.",
+   "textbook_ref": "kesy203.txt lines 130-280 (resource depletion, pollution, declining biodiversity, climate change, social causes and unequal impacts)",
+   "question_patterns": [
+    "list the major environmental problems facing the world today",
+    "in class 11 environment and society: how are environmental problems rooted in social arrangements",
+    "why do the poor suffer environmental damage disproportionately",
+    "explain how consumption patterns drive resource depletion",
+    "what is climate change and how does society contribute to it",
+    "connect loss of biodiversity to economic development patterns"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "catalogue the damages",
+     "explain": "Depletion of water, soil and forests; polluted air and water; shrinking species; a warming climate -- the standard list."
+    },
+    {
+     "step": 2,
+     "action": "trace the social engines",
+     "explain": "Industrial production, energy-hungry consumption and export-oriented extraction drive the pressures."
+    },
+    {
+     "step": 3,
+     "action": "trace the unequal losses",
+     "explain": "Poor communities live beside dumps, depend directly on nature, and lack buffers -- so they absorb the first and worst impacts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which ecological trouble involves rising average temperatures: climate change or species loss?",
+     "a": "climate change"
+    }
+   ]
+  },
+  {
+   "id": "kesy203.1.3",
+   "title": "Voices from the Margins: Environmental Movements in India",
+   "section": "1.3",
+   "definition": "Indian environmentalism has grown from livelihood struggles, not leisure concerns. Movements like the Chipko defence of forests, struggles against large dams such as the Narmada campaign, and fishworkers' protests defend access to nature for the poor and question a development model that counts dams and factories but not displaced lives.",
+   "formula": "",
+   "key_idea": "For the poor, environment is livelihood -- India's green movements are struggles over forests, water and home.",
+   "textbook_ref": "kesy203.txt lines 280-400 (environmental movements in india, chipko movement, narmada bachao andolan, Appiko, fishworkers movements, critique of development)",
+   "question_patterns": [
+    "describe the chipko movement and its significance",
+    "in class 11 environment and society: why are environmental movements in india led by the poor",
+    "what issues does the narmada bachao andolan raise",
+    "how do tribal communities relate to forests",
+    "compare environmental concerns of the rich and the poor",
+    "what does the fishworkers movement tell us about ecology and livelihood"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the stake",
+     "explain": "For forest, fishing and river communities, nature is the direct source of subsistence, so ecological damage is immediate loss of livelihood."
+    },
+    {
+     "step": 2,
+     "action": "recall the movements",
+     "explain": "Chipko hugged trees against contractors; Narmada questioned displacement by big dams; fishworkers opposed trawlers -- each defending subsistence against extraction."
+    },
+    {
+     "step": 3,
+     "action": "state the critique",
+     "explain": "These movements ask whose development, whose displacement and whose costs -- putting justice at the centre of environmental policy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Indian movement hugged trees to stop contractors felling them: Chipko or Narmada?",
+     "a": "Chipko"
+    }
+   ]
+  },
+  {
+   "id": "kesy203.1.4",
+   "title": "Environment and Development: Security for Whom",
+   "section": "1.4",
+   "definition": "Sociology reframes environmental debate as a question of distribution: growth models that promise national wealth may transfer nature's costs to villages, tribes and future generations. Sustainable pathways therefore demand not just technology but changed institutions -- who decides, who pays, who is heard.",
+   "formula": "",
+   "key_idea": "Environmental protection is a question of justice -- deciding who bears the costs of growth and who counts in the decision.",
+   "textbook_ref": "kesy203.txt lines 400-500 (development versus environment, sustainability, distribution of environmental costs, policy and people's participation)",
+   "question_patterns": [
+    "how does sociology view the conflict between development and environment",
+    "in class 11 environment and society: what is meant by sustainable development",
+    "who bears the costs of large development projects",
+    "why must local communities participate in environmental decisions",
+    "can growth and environmental protection be reconciled",
+    "explain intergenerational justice with reference to resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expose the transfer",
+     "explain": "Identify where a project's ecological costs land -- displaced villages, polluted rivers, exhausted aquifers."
+    },
+    {
+     "step": 2,
+     "action": "apply the sustainability test",
+     "explain": "Ask whether present consumption forecloses future generations' ability to meet their needs."
+    },
+    {
+     "step": 3,
+     "action": "reform the institutions",
+     "explain": "Participation of affected people, fair compensation and ecological accounting rebalance development toward justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sociology reframes environmental debate as a question of what: distribution or astronomy?",
+     "a": "distribution"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy203.txt lines 280-400 (chipko movement)",
+   "concept": "kesy203.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Village women in a Himalayan forest embrace trees to stop contractors from felling them. Explain what this movement reveals about environment and society.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the stake",
+     "explain": "The forest supplies fuel, fodder and soil protection; felling for timber strips the village's daily subsistence."
+    },
+    {
+     "step": 2,
+     "action": "read the protest",
+     "explain": "Chipko's tree-hugging made women's livelihood dependence visible, converting ecology into embodied resistance."
+    },
+    {
+     "step": 3,
+     "action": "draw the lesson",
+     "explain": "Environmental questions are social questions -- of who uses nature and for whom -- not merely technical ones."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy203.txt lines 400-500 (development and distribution)",
+   "concept": "kesy203.1.4",
+   "question_type": "verify_property",
+   "question_pattern": "A proposed dam will generate electricity for cities but submerge twelve villages. Frame the sociological questions a fair assessment must ask.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "map the benefits and costs",
+     "explain": "Power flows to distant consumers while land, homes and graves of villagers go underwater -- benefits and costs land on different people."
+    },
+    {
+     "step": 2,
+     "action": "ask the participation question",
+     "explain": "Were the displaced consulted, informed and offered genuine resettlement and livelihood?"
+    },
+    {
+     "step": 3,
+     "action": "ask the intergenerational question",
+     "explain": "Sustainability asks whether submerged ecosystems and lost communities are being traded away without reckoning -- justice across people and generations."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy203.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Explain the relationship between ecology and society with examples.",
+    "Describe the major environmental problems of our times and their social causes.",
+    "Why do the poor often suffer the most from environmental degradation?",
+    "Discuss the Chipko and Narmada movements as environmental struggles of the marginalised.",
+    "What does sustainable development require beyond new technology?",
+    "How do questions of justice enter environmental policy?"
+   ]
+  }
+ ]
+}

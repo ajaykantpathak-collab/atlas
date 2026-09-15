@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_012",
+   "title": "c11_cs_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the time complexity of `deque.popleft()` and why is it more efficient than `list.pop(0)` for queue dequeue operations?",
+     "a": "`deque.popleft()` operates in O(1) time because deque is implemented as a doubly-linked list of fixed-size blocks, allowing removal from the front without shifting remaining elements. `list.pop(0)` is O(n) because Python lists are dynamic arrays requiring all subsequent elements to be shifted left by one position. A wrong answer (e.g., claiming both are O(1)) reveals the student doesn't understand the underlying memory layout difference between contiguous arrays (list) and block-linked structures (deque).",
+     "self_check": true
+    },
+    {
+     "q": "Given `from collections import deque; q = deque([10, 20, 30])`, what does `q.append(40)` followed by `q.popleft()` return, and what is the final state of `q`?",
+     "a": "`q.append(40)` adds 40 to the rear, making deque `[10, 20, 30, 40]`. `q.popleft()` removes and returns the front element `10`, leaving final state `deque([20, 30, 40])`. A wrong answer (e.g., returning 40 or final state `[10, 20, 30]`) reveals confusion about which end is front/rear: students often think `append` adds to front (like stack push) or `popleft` removes from rear, misunderstanding FIFO mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `process_queue_operations(operations)` that takes a list of strings like `[\"ENQUEUE 5\", \"ENQUEUE 10\", \"DEQUEUE\", \"PEEK\"]` and returns a list of outputs for each operation using `deque`. Handle empty queue cases appropriately.",
+     "a": "```python\nfrom collections import deque\ndef process_queue_operations(operations):\n    q = deque()\n    outputs = []\n    for op in operations:\n        parts = op.split()\n        if parts[0] == \"ENQUEUE\":\n            q.append(int(parts[1]))\n            outputs.append(None)  # or \"OK\"\n        elif parts[0] == \"DEQUEUE\":\n            outputs.append(q.popleft() if q else \"QUEUE_EMPTY\")\n        elif parts[0] == \"PEEK\":\n            outputs.append(q[0] if q else \"QUEUE_EMPTY\")\n    return outputs\n```\nA wrong answer (e.g., using `pop()` instead of `popleft()`, or `appendleft()` for ENQUEUE) reveals the student cannot map queue semantics to deque methods correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory overhead and cache performance of `deque` vs `list` for a queue holding 10,000 integers. When would you choose list despite its O(n) dequeue?",
+     "a": "`deque` has higher memory overhead per element (pointers to prev/next blocks) and poorer cache locality due to non-contiguous memory blocks. `list` stores integers contiguously in a single array, giving better cache performance and lower memory overhead. Choose `list` when: (1) queue size is small (<100 elements) where O(n) shift is negligible, (2) memory is constrained, (3) frequent iteration/access by index is needed (deque indexing is O(1) but slower due to indirection), or (4) the queue is mostly used as a stack (LIFO) where `list.append/pop` are optimal. A wrong answer ignoring cache effects or memory overhead shows superficial understanding of data structure trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A student implements a queue using `deque` but uses `q.appendleft(item)` for enqueue and `q.pop()` for dequeue. Does this violate FIFO? Explain with a trace of operations: ENQUEUE 1, ENQUEUE 2, DEQUEUE, ENQUEUE 3, DEQUEUE.",
+     "a": "This implementation **still maintains FIFO** but reverses the physical orientation: `appendleft` adds to front (making it the logical rear), `pop` removes from rear (making it the logical front). Trace: start `[]`; ENQUEUE 1 → `appendleft(1)` → `[1]`; ENQUEUE 2 → `appendleft(2)` → `[2, 1]`; DEQUEUE → `pop()` returns `1` (correct, first-in-first-out); ENQUEUE 3 → `appendleft(3)` → `[3, 2]`; DEQUEUE → `pop()` returns `2` (correct). The queue works but is unconventional. A wrong answer claiming FIFO violation reveals the student thinks FIFO depends on physical left/right orientation rather than logical insertion/removal order.",
+     "self_check": true
+    },
+    {
+     "q": "Design a `BoundedQueue` class using `deque` with a fixed `max_size`. The `enqueue` method should raise a custom `QueueFullException` when full, and `dequeue` should raise `QueueEmptyException` when empty. Include a `capacity()` method returning remaining slots.",
+     "a": "```python\nfrom collections import deque\n\nclass QueueFullException(Exception): pass\nclass QueueEmptyException(Exception): pass\n\nclass BoundedQueue:\n    def __init__(self, max_size):\n        self._q = deque()\n        self._max = max_size\n    \n    def enqueue(self, item):\n        if len(self._q) >= self._max:\n            raise QueueFullException(\"Queue is full\")\n        self._q.append(item)\n    \n    def dequeue(self):\n        if not self._q:\n            raise QueueEmptyException(\"Queue is empty\")\n        return self._q.popleft()\n    \n    def peek(self):\n        if not self._q:\n            raise QueueEmptyException(\"Queue is empty\")\n        return self._q[0]\n    \n    def is_empty(self):\n        return len(self._q) == 0\n    \n    def capacity(self):\n        return self._max - len(self._q)\n    \n    def size(self):\n        return len(self._q)\n```\nA poor answer (missing custom exceptions, using `print` instead of `raise`, or not checking bounds before `append`) reveals inability to combine deque with encapsulation and error handling — a key board exam skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

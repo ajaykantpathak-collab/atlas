@@ -1,0 +1,444 @@
+{
+ "catalog": "catalog_class10_science_ch104.json",
+ "concepts": [
+  {
+   "id": "jesc.4.1.1",
+   "title": "Covalent Bonding and Tetravalency of Carbon",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does carbon form covalent bonds rather than ions?",
+     "a": "Carbon has 4 valence electrons; gaining or losing four is too energy-costly, so it shares electrons to complete its octet.",
+     "self_check": true
+    },
+    {
+     "q": "What is tetravalency of carbon?",
+     "a": "The ability of each carbon atom to form four covalent bonds with other atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Why are covalent compounds usually poor conductors and low melting?",
+     "a": "They have no charged particles to carry current, and weak forces between molecules need little heat to separate.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.1.2",
+   "title": "Allotropes of Carbon",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the allotropes of carbon and one use of each.",
+     "a": "Diamond (cutting, jewellery), graphite (pencil leads, electrodes), fullerenes (research, drug carriers).",
+     "self_check": true
+    },
+    {
+     "q": "Why can graphite conduct electricity but diamond cannot?",
+     "a": "Graphite has free delocalised electrons between its layers; in diamond all electrons are locked in bonds.",
+     "self_check": true
+    },
+    {
+     "q": "What makes diamond the hardest natural substance?",
+     "a": "Each carbon is bonded tetrahedrally to four others forming a rigid three-dimensional network.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.1",
+   "title": "Versatile Nature of Carbon: Catenation and Tetravalency",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is carbon said to show catenation?",
+     "a": "Carbon atoms link with one another in chains, branches and rings because the C-C bond is very strong and stable.",
+     "self_check": true
+    },
+    {
+     "q": "What is tetravalency of carbon and how does it help build many compounds?",
+     "a": "Each carbon forms four bonds, so it can attach to hydrogens, oxygens, nitrogen and other carbons in countless patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Do silicon and sulphur show catenation like carbon?",
+     "a": "Only weakly - their self-links are much weaker, which is why carbon alone builds millions of compounds.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.2",
+   "title": "Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "hydrogen_count",
+     "expr": "2 * n + 2",
+     "explain": "an alkane CnH2n+2 carries 2n+2 hydrogens"
+    },
+    {
+     "step": 2,
+     "name": "molecular_mass",
+     "expr": "12 * n + 1 * hydrogen_count",
+     "explain": "12 u per carbon plus 1 u per hydrogen"
+    },
+    {
+     "step": 3,
+     "name": "sample_mass",
+     "expr": "moles * molecular_mass",
+     "explain": "mass of the given number of moles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For the alkane with n = 1 (methane), find its molecular mass and the mass of 0.5 mol of the gas.",
+     "vals": {
+      "n": 1,
+      "moles": 0.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "8 g",
+     "self_check": false
+    },
+    {
+     "q": "Ethane has n = 2. Compute its molecular mass and the mass of 2 mol of ethane.",
+     "vals": {
+      "n": 2,
+      "moles": 2
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "60 g",
+     "self_check": false
+    },
+    {
+     "q": "Propane has n = 3. What is its molecular mass, and what does 0.25 mol of it weigh?",
+     "vals": {
+      "n": 3,
+      "moles": 0.25
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "11 g",
+     "self_check": false
+    },
+    {
+     "q": "Butane has n = 4. Find its molecular mass and the mass of a 0.5 mol cylinder fill.",
+     "vals": {
+      "n": 4,
+      "moles": 0.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "29 g",
+     "self_check": false
+    },
+    {
+     "q": "Pentane has n = 5. Calculate its molecular mass and the mass of exactly 1 mol.",
+     "vals": {
+      "n": 5,
+      "moles": 1
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "72 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.3",
+   "title": "Molecular Formula of Unsaturated Hydrocarbons (Alkenes and Alkynes)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "h_alkene",
+     "expr": "2 * n",
+     "explain": "an alkene CnH2n carries 2n hydrogens"
+    },
+    {
+     "step": 2,
+     "name": "h_alkyne",
+     "expr": "2 * n - 2",
+     "explain": "an alkyne CnH2n-2 carries two fewer hydrogens"
+    },
+    {
+     "step": 3,
+     "name": "total_atoms",
+     "expr": "n + h_alkyne",
+     "explain": "add carbons and hydrogens of the alkyne"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For n = 2, how many hydrogen atoms does the alkyne (ethyne) have, and how many atoms in total are in one of its molecules?",
+     "vals": {
+      "n": 2
+     },
+     "unit": "atoms",
+     "steps": null,
+     "a": "4 atoms",
+     "self_check": false
+    },
+    {
+     "q": "For n = 3 (propyne), count the hydrogens in the alkyne and the total atoms in one molecule.",
+     "vals": {
+      "n": 3
+     },
+     "unit": "atoms",
+     "steps": null,
+     "a": "7 atoms",
+     "self_check": false
+    },
+    {
+     "q": "For n = 4 (butyne), find the hydrogen count of the alkyne and the total number of atoms per molecule.",
+     "vals": {
+      "n": 4
+     },
+     "unit": "atoms",
+     "steps": null,
+     "a": "10 atoms",
+     "self_check": false
+    },
+    {
+     "q": "For n = 5 (pentyne), how many hydrogens does the alkyne carry and how many atoms has one molecule altogether?",
+     "vals": {
+      "n": 5
+     },
+     "unit": "atoms",
+     "steps": null,
+     "a": "13 atoms",
+     "self_check": false
+    },
+    {
+     "q": "For n = 6 (hexyne), give the alkyne hydrogen count and the total atoms in one molecule.",
+     "vals": {
+      "n": 6
+     },
+     "unit": "atoms",
+     "steps": null,
+     "a": "16 atoms",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.4",
+   "title": "Structural Isomerism in Hydrocarbons",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are structural isomers?",
+     "a": "Compounds with the same molecular formula but different arrangements (structures) of atoms, like butane and isobutane.",
+     "self_check": true
+    },
+    {
+     "q": "How many structural isomers can butane (C4H10) show?",
+     "a": "Two: n-butane (straight chain) and isobutane (branched chain).",
+     "self_check": true
+    },
+    {
+     "q": "Do isomers have identical properties?",
+     "a": "Their molecular formula is the same but physical and some chemical properties differ because of the different structure.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.5",
+   "title": "Homologous Series and Molecular Mass Gradation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_a",
+     "expr": "14 * n_a + 2",
+     "explain": "alkane mass = 12n + (2n+2) = 14n + 2"
+    },
+    {
+     "step": 2,
+     "name": "mass_b",
+     "expr": "14 * n_b + 2",
+     "explain": "mass of the higher alkane"
+    },
+    {
+     "step": 3,
+     "name": "mass_diff",
+     "expr": "mass_b - mass_a",
+     "explain": "successive members differ by CH2 = 14 u per step"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Methane (n = 1) and ethane (n = 2) are neighbouring alkanes. Compute both molecular masses and their difference.",
+     "vals": {
+      "n_a": 1,
+      "n_b": 2
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "14 u",
+     "self_check": false
+    },
+    {
+     "q": "Compare propane (n = 3) with methane (n = 1): find both masses and by how much they differ.",
+     "vals": {
+      "n_a": 1,
+      "n_b": 3
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "28 u",
+     "self_check": false
+    },
+    {
+     "q": "Ethane (n = 2) and pentane (n = 5): what is each molecular mass and the gap between them?",
+     "vals": {
+      "n_a": 2,
+      "n_b": 5
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "42 u",
+     "self_check": false
+    },
+    {
+     "q": "Propane (n = 3) and hexane (n = 6): calculate both molecular masses and their difference.",
+     "vals": {
+      "n_a": 3,
+      "n_b": 6
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "42 u",
+     "self_check": false
+    },
+    {
+     "q": "Butane (n = 4) and hexane (n = 6): find each mass and how much heavier the second one is.",
+     "vals": {
+      "n_a": 4,
+      "n_b": 6
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "28 u",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.6",
+   "title": "IUPAC Nomenclature and Functional Groups",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does the suffix '-ol' in an IUPAC name indicate?",
+     "a": "That the compound carries an alcohol (hydroxyl) functional group.",
+     "self_check": true
+    },
+    {
+     "q": "Name the parts of an IUPAC name of an organic compound.",
+     "a": "A root word for the carbon chain, a primary suffix for the bond type (ane/ene/yne) and a secondary suffix or prefix for the functional group.",
+     "self_check": true
+    },
+    {
+     "q": "What functional group does 'ethanoic acid' contain?",
+     "a": "The carboxylic acid group (-COOH) attached to a two-carbon chain.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.3.1",
+   "title": "Combustion, Oxidation, Addition, and Substitution Reactions",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a combustion reaction of carbon compounds?",
+     "a": "Burning in air giving carbon dioxide, water, heat and light - all carbon compounds burn to CO2 and H2O.",
+     "self_check": true
+    },
+    {
+     "q": "What is an addition reaction? Give an industrial use.",
+     "a": "Unsaturated molecules add atoms across the double bond, e.g. hydrogenating vegetable oil with hydrogen over nickel to make ghee (vanaspati).",
+     "self_check": true
+    },
+    {
+     "q": "What is a substitution reaction? Which hydrocarbons show it?",
+     "a": "One atom (usually hydrogen) is replaced by another, e.g. methane chlorinated in sunlight to chloromethane; saturated hydrocarbons (alkanes) show it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.4.1",
+   "title": "Properties and Reactions of Ethanol",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when ethanol reacts with sodium metal?",
+     "a": "Hydrogen gas bubbles out and sodium ethoxide forms.",
+     "self_check": true
+    },
+    {
+     "q": "What is formed when ethanol is heated with concentrated sulphuric acid at 443 K?",
+     "a": "Ethene (an unsaturated hydrocarbon) plus water; concentrated H2SO4 acts as a dehydrating agent.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a mixture of ethanol and water called a 'tincture' when iodine is added?",
+     "a": "Ethanol dissolves iodine forming tincture iodine, a common antiseptic.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.4.2",
+   "title": "Properties and Reactions of Ethanoic Acid",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is ethanoic acid called a weak acid?",
+     "a": "It ionises only partly in water, so it gives few hydronium ions compared with strong acids like HCl.",
+     "self_check": true
+    },
+    {
+     "q": "What is an esterification reaction?",
+     "a": "An acid (like ethanoic acid) reacts with an alcohol (like ethanol) in the presence of a little concentrated H2SO4 to form a sweet-smelling ester plus water.",
+     "self_check": true
+    },
+    {
+     "q": "What is observed when ethanoic acid reacts with sodium hydrogencarbonate?",
+     "a": "Brisk effervescence of carbon dioxide, salt (sodium ethanoate) and water form.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.5.1",
+   "title": "Cleansing Action of Soaps and Detergents",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a soap molecule clean oily dirt?",
+     "a": "Its hydrophobic tail sticks into oil while the hydrophilic head stays in water; micelles lift oil away so rinsing removes it.",
+     "self_check": true
+    },
+    {
+     "q": "Why does soap not work in hard water?",
+     "a": "Calcium and magnesium ions of hard water react with soap forming an insoluble scum that wastes soap.",
+     "self_check": true
+    },
+    {
+     "q": "Why do detergents work better than soaps in hard water?",
+     "a": "Detergent molecules do not form insoluble scum with Ca2+/Mg2+ ions, so they lather and clean even in hard water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

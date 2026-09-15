@@ -1,0 +1,236 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Fractions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.7.1",
+   "title": "Fractions: Sharing Equally",
+   "section": "Fractions",
+   "definition": "When a whole number of things is shared equally, fractions tell how much each share is: a fraction names equal parts of a whole, written with a numerator above a denominator.",
+   "formula": "",
+   "key_idea": "A fraction is a share: the denominator counts the equal parts, the numerator counts the parts taken.",
+   "textbook_ref": "fegp107.txt, Fractions",
+   "question_patterns": [
+    "what does the denominator of a fraction tell",
+    "what fraction is each share when 3 rotis are shared by 4 children",
+    "shade 3/5 of the given figure",
+    "write the fraction shown by the coloured part of the picture",
+    "which is bigger 2/3 or 1/3 why",
+    "give two examples of fractions from your day"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.2",
+   "title": "Equivalent Fractions",
+   "section": "Equivalent fractions",
+   "definition": "Multiplying or dividing both numerator and denominator by the same number gives an equivalent fraction: 2/3, 4/6 and 6/9 are all the same share drawn with more parts.",
+   "formula": "new_num = num * k; new_den = den * k",
+   "key_idea": "Same share, more pieces: multiplying top and bottom by the same number changes the picture, not the value.",
+   "textbook_ref": "fegp107.txt, Equivalent fractions",
+   "question_patterns": [
+    "write two fractions equivalent to 2/3",
+    "how do you get an equivalent fraction of any fraction",
+    "is 4/6 equal to 2/3 justify",
+    "fill the blank to make equivalent fractions 3/5 = ?/20",
+    "why must we multiply both parts by the same number",
+    "reduce 6/9 to its simplest form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the numerator",
+     "explain": "Multiply the top by the chosen number.",
+     "compute": "new_num = num * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply the denominator",
+     "explain": "Multiply the bottom by the same number so the share stays equal.",
+     "compute": "new_den = den * k"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.3",
+   "title": "Adding Fractions with the Same Denominator",
+   "section": "Addition and subtraction of fractions",
+   "definition": "Fractions with the same denominator add by adding their numerators while the denominator stays: 2/7 + 3/7 = 5/7, since adding shares of the same size just counts more such shares.",
+   "formula": "sum_num = a_num + b_num",
+   "key_idea": "Equal pieces add piecewise: count the sevenths, and the denominator simply repeats.",
+   "textbook_ref": "fegp107.txt, Addition and subtraction of fractions",
+   "question_patterns": [
+    "add 2/7 and 3/7 and give the answer",
+    "how do we add fractions with the same denominator",
+    "subtract 1/9 from 5/9",
+    "why does the denominator not change while adding like fractions",
+    "add 3/11 and 4/11 and reduce if needed",
+    "solve a word problem using addition of like fractions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the denominators match",
+     "explain": "Like fractions measure the same piece size, so the bottoms are equal.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the numerators",
+     "explain": "Add the tops and keep the common denominator.",
+     "compute": "sum_num = a_num + b_num"
+    }
+   ]
+  },
+  {
+   "id": "fegp.7.4",
+   "title": "Mixed Numbers and Improper Fractions",
+   "section": "Mixed numbers",
+   "definition": "A mixed number pairs a whole with a fraction, like 2 1/3, while an improper fraction, like 7/3, keeps a numerator bigger than or equal to the denominator; the two forms describe the same amount and convert into each other.",
+   "formula": "",
+   "key_idea": "Whole and parts are interchangeable: 2 wholes and a third is the very same amount as 7 thirds.",
+   "textbook_ref": "fegp107.txt, Mixed numbers",
+   "question_patterns": [
+    "write 7/3 as a mixed number",
+    "convert 2 1/3 into an improper fraction",
+    "what is an improper fraction give an example",
+    "which is bigger 5/4 or 1 1/4",
+    "draw a picture to show 1 1/2",
+    "when would you prefer a mixed number to an improper fraction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp107.txt",
+   "concept": "fegp.7.2",
+   "question_type": "compute",
+   "question_pattern": "Write a fraction equivalent to 2/3 by multiplying numerator and denominator by 2.",
+   "extracted_variables": {
+    "num": "numerator",
+    "den": "denominator",
+    "k": "the multiplier"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the numerator",
+     "explain": "Multiply the top of the fraction by the chosen number.",
+     "compute": "new_num = num * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply the denominator",
+     "explain": "Multiply the bottom by the same number to keep the fraction equal.",
+     "compute": "new_den = den * k"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp107.txt",
+   "concept": "fegp.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find a fraction equivalent to 1/4 by multiplying numerator and denominator by 3.",
+   "extracted_variables": {
+    "num": "numerator",
+    "den": "denominator",
+    "k": "the multiplier"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the numerator",
+     "explain": "The top becomes 1 times 3.",
+     "compute": "new_num = num * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply the denominator",
+     "explain": "The bottom becomes 4 times 3, keeping the value unchanged.",
+     "compute": "new_den = den * k"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp107.txt",
+   "concept": "fegp.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "add 2/7 and 3/7.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp107.txt, Figure it Out",
+   "questions": [
+    "Write two fractions equivalent to 2/3.",
+    "Add 2/7 and 3/7.",
+    "Write 7/3 as a mixed number.",
+    "What does the denominator of a fraction tell?",
+    "Reduce 6/9 to its simplest form."
+   ]
+  }
+ ]
+}

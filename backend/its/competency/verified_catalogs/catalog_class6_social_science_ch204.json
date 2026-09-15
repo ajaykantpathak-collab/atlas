@@ -1,0 +1,124 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 204,
+ "chapter_title": "MAPS",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fess204.txt",
+ "concepts": [
+  {
+   "id": "fess.204.1",
+   "title": "Map Scale Calculation",
+   "section": "DISTANCE",
+   "definition": "The map scale defines the fixed ratio between the measurement on a drawing and the actual physical distance on the ground.",
+   "formula": "actual_distance = map_distance * scale_factor",
+   "key_idea": "Scale translates paper measurements into real-world distances.",
+   "textbook_ref": "fess204.txt lines 65-85",
+   "question_patterns": [
+    "calculate the actual distance if the map distance is",
+    "find the real ground distance using the scale",
+    "how many kilometers does the map distance represent",
+    "determine the actual length given the map scale",
+    "what is the ground distance for a map measurement of"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply map distance by scale factor",
+     "explain": "The actual distance is found by scaling up the map measurement.",
+     "compute": "actual_distance = map_distance * scale_factor"
+    }
+   ]
+  },
+  {
+   "id": "fess.204.2",
+   "title": "Types of Maps",
+   "section": "PHYSICAL, POLITICAL, THEMATIC MAPS",
+   "definition": "Maps are categorized by their purpose: physical maps show natural terrain, political maps show administrative borders, and thematic maps focus on specific data like climate or industry.",
+   "formula": "none",
+   "key_idea": "Maps serve different functions based on the information they highlight.",
+   "textbook_ref": "fess204.txt lines 35-50",
+   "question_patterns": [
+    "identify the type of map showing natural features",
+    "which map displays state and country boundaries",
+    "classify a map showing forest distribution",
+    "what kind of map focuses on specific information",
+    "distinguish between physical and thematic maps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": []
+  },
+  {
+   "id": "fess.204.3",
+   "title": "Components of Maps",
+   "section": "DISTANCE, DIRECTION, SYMBOL",
+   "definition": "Every map relies on three fundamental elements: distance for scale, direction for orientation, and symbols for representing real-world objects.",
+   "formula": "none",
+   "key_idea": "Distance, direction, and symbols are the essential building blocks of cartography.",
+   "textbook_ref": "fess204.txt lines 55-60",
+   "question_patterns": [
+    "list the three main components of a map",
+    "what are the essential elements used to read a map",
+    "explain the role of symbols in map reading",
+    "how do we determine direction on a map",
+    "why is distance important in map making"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": []
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess204.txt lines 75-80",
+   "concept": "fess.204.1",
+   "question_type": "compute",
+   "question_pattern": "If the scale is 1cm = 5km, find the actual distance for a map distance of {map_distance} cm.",
+   "extracted_variables": {
+    "map_distance": 2,
+    "scale_factor": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ground distance",
+     "explain": "Multiply the map measurement by the scale factor.",
+     "compute": "actual_distance = map_distance * scale_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess204.txt lines 80-85",
+   "concept": "fess.204.1",
+   "question_type": "compute",
+   "question_pattern": "On a small scale map where 5cm represents {scale_factor} km, find the ground distance for 10cm on the map.",
+   "extracted_variables": {
+    "map_distance": 10,
+    "scale_factor": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ground distance",
+     "explain": "Multiply the map distance by the ratio of ground to map.",
+     "compute": "actual_distance = map_distance * scale_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess204.txt lines 150-160",
+   "questions": [
+    "What are the three components of a map?",
+    "What are the four cardinal directions?",
+    "Distinguish between a map and a plan.",
+    "How do symbols help in reading maps?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

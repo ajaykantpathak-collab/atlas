@@ -1,0 +1,331 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 6,
+  "chapter_title": "Counting: Permutations and Combinations",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_006_permutations_combinations.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_006.1",
+      "title": "Factorial Notation and Ratios of Factorials",
+      "section": "6.2",
+      "definition": "The factorial of a whole number multiplies every counting number up to it, with zero factorial fixed at one; a ratio of two factorials cancels the shared tail, leaving only a short product of the leading factors.",
+      "formula": "ratio = n * (n - 1) * (n - 2)",
+      "key_idea": "Expand only the excess factors on top; the common tail cancels without computing.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.2, examples 11!/9! = 110 and 13!/(2! 11!) = 78",
+      "question_patterns": [
+        "evaluate 5 factorial and 7 factorial",
+        "simplify 11 factorial divided by 9 factorial",
+        "compute 13 factorial over 2 factorial times 11 factorial",
+        "evaluate 7 factorial minus 5 factorial",
+        "find the lcm of 5 factorial, 6 factorial and 7 factorial",
+        "if 1/9 factorial plus 1/10 factorial equals x/11 factorial, find x"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the leading excess factors", "explain": "the tail of the bigger factorial cancels the smaller one", "compute": "head = n * (n - 1) * (n - 2)"},
+        {"step": 2, "action": "fold in the leftover factorial on the bottom", "explain": "divide out the extra factor named in the problem", "compute": "ratio = head / extra"}
+      ]
+    },
+    {
+      "id": "am11_006.2",
+      "title": "Rule of Sum for Exclusive Alternatives",
+      "section": "6.3",
+      "definition": "When a job is done through mutually exclusive channels, the total count is the sum of the counts of the separate channels, since no choice can belong to two channels at once.",
+      "formula": "total_ways = indian + foreign",
+      "key_idea": "Either-or means add; check the channels never overlap.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.3 rule of sum, library 13 plus 7 books, surgery options 5 + 3 + 1",
+      "question_patterns": [
+        "a library holds 13 Indian and 7 foreign books on a subject; in how many ways can one book be borrowed",
+        "a teacher picks either a boy or a girl from 20 boys and 15 girls; how many choices exist",
+        "an investor picks one entity from 3 companies, 5 mutual funds or 2 banks; how many options",
+        "a patient may visit 5 private hospitals, 3 government hospitals or go abroad; count the options",
+        "state the fundamental principle of addition for two exclusive events"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "add the tallies of the first two channels", "explain": "exclusive alternatives combine by addition", "compute": "pair = indian + foreign"},
+        {"step": 2, "action": "add any further exclusive channel", "explain": "each extra channel still overlaps none of the others", "compute": "total_ways = pair + abroad"}
+      ]
+    },
+    {
+      "id": "am11_006.3",
+      "title": "Rule of Product for Successive Choices",
+      "section": "6.3",
+      "definition": "When a job breaks into successive independent stages, each stage multiplies its own count of options onto the running total, because every option of one stage pairs with every option of the next.",
+      "formula": "total_ways = m * n",
+      "key_idea": "Stage after stage means multiply; lock fixed slots to one option first.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.3 rule of product, stadium gates 3 x 2, license plates 1 x 26 x 26 x 10^4",
+      "question_patterns": [
+        "how many ways can a leading couple of one boy and one girl be cast from 6 boys and 5 girls",
+        "a mixed doubles team is formed from 8 boys and 11 girls; in how many ways",
+        "how many license plates start with the letter D followed by two letters and four nonzero digits",
+        "chairs are labelled with a letter and a number up to 10; how many chairs can be labelled",
+        "find the number of three digit numbers formed from 0, 1, 3, 5, 8 when repetition is allowed",
+        "a question paper picks one question from exercises with 7, 12, 6, 10 and 3 questions; how many papers"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the options of the first two stages", "explain": "every pairing counts once", "compute": "pair = m * n"},
+        {"step": 2, "action": "extend to the remaining stages", "explain": "a fixed slot contributes a single option", "compute": "total_ways = pair * more"}
+      ]
+    },
+    {
+      "id": "am11_006.4",
+      "title": "Permutations of n Distinct Objects Taken r at a Time",
+      "section": "6.4",
+      "definition": "An arrangement in definite order of r objects chosen from n distinct ones counts as a permutation; filling r slots in turn gives a falling product that stops after r factors.",
+      "formula": "npr = n * (n - 1) * (n - 2) * (n - 3)",
+      "key_idea": "Each filled slot removes one candidate for the next slot.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.4 theorem 1, 9P4 = 3024, 8P8 = 40320",
+      "question_patterns": [
+        "how many 4 digit numbers can be formed using digits 1 to 9 with no digit repeated",
+        "evaluate 9P4",
+        "in how many ways can a president, secretary and treasurer be appointed from a board of 10",
+        "how many words with or without meaning use all letters of the word EQUATION once each",
+        "find n if nP4 equals 20 times nP2",
+        "in how many ways can 3 men occupy 5 vacant seats in a row"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "start the falling product", "explain": "first slot has n options", "compute": "p2 = n * (n - 1)"},
+        {"step": 2, "action": "multiply the third factor", "explain": "third slot drops another candidate", "compute": "p3 = p2 * (n - 2)"},
+        {"step": 3, "action": "multiply the fourth factor", "explain": "four slots filled gives 4 factors", "compute": "npr = p3 * (n - 3)"}
+      ]
+    },
+    {
+      "id": "am11_006.5",
+      "title": "Permutations with Repetition Allowed",
+      "section": "6.4",
+      "definition": "When a chosen object may be reused at every slot, each of the r slots keeps the full n options, so the count is n raised to the power r; a restricted first slot simply multiplies by its own smaller option count.",
+      "formula": "ways = n**slots",
+      "key_idea": "Repetition frees every slot to keep the full choice set.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.4 theorem 2, 4 x 5 x 5 x 5 = 500 even-digit numbers",
+      "question_patterns": [
+        "how many 4 digit numbers with all digits even can be formed if digits may repeat",
+        "in how many ways can 6 multiple choice questions be answered if each has 4 choices",
+        "a coin is tossed 4 times and outcomes are recorded; how many outcome strings exist",
+        "how many 3 letter codes can be made from the first 10 letters when letters may repeat",
+        "how many 3 digit even numbers can be formed from 1, 2, 3, 4, 5 with repetition"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "raise the option count to the number of slots", "explain": "every slot independently picks from the full set", "compute": "ways = n**slots"},
+        {"step": 2, "action": "apply a restricted leading slot if any", "explain": "for example zero cannot lead, so multiply by one less option", "compute": "adjusted = lead * ways"}
+      ]
+    },
+    {
+      "id": "am11_006.6",
+      "title": "Arrangements with Repeated Letters",
+      "section": "6.4",
+      "definition": "Arranging all letters of a word where some letters repeat divides the total linear order by the product of factorials of each repetition count, since swapping identical letters creates no new word.",
+      "formula": "arrangements = n_factorial / (p_factorial * q_factorial)",
+      "key_idea": "Full factorial on top, one factorial on the bottom per repeated letter type.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, theorem on n!/(p1! p2! ...), COMMERCE 8!/(2!2!2!) = 5040, MATHEMATICS, ENGINEERING",
+      "question_patterns": [
+        "find the number of arrangements of the letters of the word COMMERCE",
+        "how many distinct arrangements does the word MATHEMATICS have",
+        "find the number of permutations of the letters of the word ENGINEERING",
+        "in how many ways can the letters of the word ASSASSINATION be arranged",
+        "how many paths of 5 upward and 6 rightward steps exist from one grid point to another",
+        "arrange the letters of the word MASSASAUGA and count the distinct words"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "form the full factorial count", "explain": "pretend every letter is distinct first", "compute": "big = 8 * 7 * 6 * 5 * 4 * 3 * 2"},
+        {"step": 2, "action": "divide by each repetition factorial", "explain": "one division of 2 per doubled letter", "compute": "halved = big / twin"},
+        {"step": 3, "action": "finish the remaining divisions", "explain": "each repeated type divides once more", "compute": "arrangements = halved / twin2"}
+      ]
+    },
+    {
+      "id": "am11_006.7",
+      "title": "Circular Permutations and Necklaces",
+      "section": "6.5",
+      "definition": "Arranging objects around a circle fixes no starting point, so one object anchors the ring and the rest permute, giving one less than the linear count; when mirror images count as one, the answer halves again.",
+      "formula": "ring_ways = (n - 1)_factorial",
+      "key_idea": "Anchor one seat to kill the rotation, halve for reflections on a garland.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.5 circular permutation theorems, 7 students in a circle = 720, necklace 7!/2",
+      "question_patterns": [
+        "in how many ways can 7 students sit around a circular table",
+        "in how many ways can 9 people be seated at a round table if two insist on sitting together",
+        "find the number of necklaces formed from 8 different beads",
+        "how many seating plans exist for 4 men and 4 women at a round table when all women sit together",
+        "17 persons and a host dine at a round table with the host chair fixed; count the seatings",
+        "how many garlands can be made from 20 beads of which 8 are blue, 5 green, 5 yellow and 2 red"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "drop one from the count for the anchor", "explain": "rotations are one arrangement, not many", "compute": "seating = 7 * 6 * 5 * 4 * 3 * 2"},
+        {"step": 2, "action": "double for a bonded pair if required", "explain": "a pair treated as one unit still flips internally", "compute": "doubled = seating * 2"},
+        {"step": 3, "action": "halve when mirror images match", "explain": "necklaces read the same both ways", "compute": "necklace = seating / mirror"}
+      ]
+    },
+    {
+      "id": "am11_006.8",
+      "title": "Combinations of n Objects Taken r at a Time",
+      "section": "6.6",
+      "definition": "A combination is a selection where order carries no weight; it equals the permutation count divided by the factorial of the selection size, and each combination expands as a falling product over the rising factorial of r.",
+      "formula": "ncr = n * (n - 1) * (n - 2) / (3 * 2)",
+      "key_idea": "Select first, arrange never; divide the permutation count by r factorial.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.6 nCr theorem, 5C2 = 10, 52C4 = 270725",
+      "question_patterns": [
+        "in how many ways can a subcommittee of 3 be chosen from a committee of 8",
+        "evaluate 52C4 for choosing 4 cards from a deck",
+        "how many chords can be drawn through 17 points on a circle",
+        "a team of 11 is picked from 15 players; how many teams exist",
+        "find n if nC4 equals nC7",
+        "in how many ways can a student pick 5 courses from 10 when 2 are compulsory"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the falling factors", "explain": "r factors starting at n", "compute": "top = n * (n - 1) * (n - 2)"},
+        {"step": 2, "action": "divide by the rising factors", "explain": "the product 3 times 2 undoes the ordering", "compute": "ncr = top / (3 * 2)"}
+      ]
+    },
+    {
+      "id": "am11_006.9",
+      "title": "Committee Selections with At Least Conditions",
+      "section": "6.6",
+      "definition": "An at least requirement splits into exhaustive disjoint cases by exact composition; each case multiplies independent group choices, and the case counts add to the final total.",
+      "formula": "total_ways = case1 + case2 + case3",
+      "key_idea": "List every allowed mix, multiply within a case, add across cases.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.6, committee of 5 from 6 gentlemen and 5 ladies, 17 players with 7 bowlers",
+      "question_patterns": [
+        "a committee of 5 from 6 gentlemen and 5 ladies must hold at least one of each; how many committees",
+        "a cricket eleven from 17 players with exactly 5 of the 7 bowlers; how many teams",
+        "a committee of 5 from 4 teachers and 6 students needs at least 2 students; how many",
+        "a team of 4 from 5 senior and 7 junior officers with at least 2 seniors; count the teams",
+        "9 tour members from 20 with 3 friends all joining or all refusing; how many selections"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "count the first allowed composition", "explain": "one gentleman with four ladies", "compute": "case1 = 6 * 5"},
+        {"step": 2, "action": "count the balanced compositions", "explain": "two-one splits computed by product of pair counts", "compute": "case2 = 15 * 10"},
+        {"step": 3, "action": "count the remaining compositions", "explain": "three-one and four-one mixes", "compute": "case34 = 200 + 75"},
+        {"step": 4, "action": "add the disjoint cases", "explain": "no committee belongs to two cases", "compute": "total_ways = case1 + case2 + case34"}
+      ]
+    },
+    {
+      "id": "am11_006.10",
+      "title": "Counting Lines and Triangles with Collinear Points",
+      "section": "6.6",
+      "definition": "Joining points on a plane counts pairs or triples, but a blocked set of collinear points ruins its own selections: subtract the selections inside the blocked set, and for lines add back the single line they share.",
+      "formula": "lines = total_pairs - collinear_pairs + 1",
+      "key_idea": "Bad selections collapse; triangles vanish entirely while collinear points still make one line.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.6 example 48, 9 points with 5 collinear give 27 lines and 74 triangles",
+      "question_patterns": [
+        "9 points lie in a plane with 5 collinear; how many straight lines can be formed",
+        "9 points lie in a plane with 5 collinear; how many triangles can be formed",
+        "how many triangles are determined by 20 points in space with no four coplanar",
+        "find the number of diagonals of a convex hexagon",
+        "the diagonals of a polygon are twice its sides; find the number of sides",
+        "7 points lie on a circle; how many chords and quadrilaterals can be drawn"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "pair every point with every other", "explain": "pairs of points make candidate lines", "compute": "total_pairs = 9 * 8 / 2"},
+        {"step": 2, "action": "pair the blocked set internally", "explain": "collinear pairs contribute one shared line", "compute": "collinear_pairs = 5 * 4 / 2"},
+        {"step": 3, "action": "subtract and restore the single shared line", "explain": "the blocked set still draws one line among themselves", "compute": "lines = total_pairs - collinear_pairs + 1"},
+        {"step": 4, "action": "count triangles the same way without restoring", "explain": "three collinear points form no triangle at all", "compute": "triangles = total_pairs * (n - 2) / 3 - collinear_pairs * (m - 2) / 3"}
+      ]
+    },
+    {
+      "id": "am11_006.11",
+      "title": "Combinations with Repetition",
+      "section": "6.7",
+      "definition": "Selecting r items from n types when each type may repeat as often as needed equals choosing r from a stretched set of size n plus r minus one, since the multiset can be reordered into a standard selection.",
+      "formula": "repeat_ways = (n + r - 1) * (n + r - 2) / 2",
+      "key_idea": "Stretch n by r minus one, then take an ordinary combination.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.7 theorem n+r-1Cr, canteen 7C5 = 21, vouchers 6C3 = 20",
+      "question_patterns": [
+        "5 friends each pick a burger, cold coffee or noodles; how many different purchases exist",
+        "select 3 gift vouchers from 4 denominations where order does not matter and types may repeat",
+        "a shop sells 5 kinds of cookies; in how many ways can 6 cookies be chosen",
+        "a shop offers 20 kinds of donuts; how many ways can a dozen be selected",
+        "state the formula for combinations of r objects from n types with repetition allowed"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "stretch the type count", "explain": "n plus r minus one replaces n", "compute": "stretched = n + r - 1"},
+        {"step": 2, "action": "take the falling product of two factors", "explain": "the top of the combination", "compute": "top = stretched * (stretched - 1)"},
+        {"step": 3, "action": "divide by two", "explain": "removes ordering of the pair of slots", "compute": "repeat_ways = top / 2"}
+      ]
+    },
+    {
+      "id": "am11_006.12",
+      "title": "At Least One via Total Minus Excluded",
+      "section": "6.4",
+      "definition": "Counting strings that contain at least one member of a required class subtracts the strings drawn purely from the remaining classes from the unrestricted total, a complement shortcut that avoids casework.",
+      "formula": "valid = total - restricted",
+      "key_idea": "Everything minus the purely forbidden set leaves exactly the required set.",
+      "textbook_ref": "am11_006_permutations_combinations.txt, section 6.3 exercise, passwords of 8 characters with at least one digit: 36^8 - 26^8",
+      "question_patterns": [
+        "an eight character password uses upper case letters or digits and must contain at least one digit; how many passwords exist",
+        "how many 4 letter codes from the alphabet contain at least one vowel",
+        "a coin is tossed 4 times; how many outcome strings show at least one head",
+        "how many 3 digit numbers contain at least one digit 7",
+        "find the number of 5 true false answer strings with at least one true answer"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "count all unrestricted strings", "explain": "full alphabet of characters per slot", "compute": "total = alphabet**length"},
+        {"step": 2, "action": "count strings missing the required class", "explain": "letters only, heads never, seven never", "compute": "restricted = letters**length"},
+        {"step": 3, "action": "subtract the missing ones", "explain": "the leftover contains at least one required character", "compute": "valid = total - restricted"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_006.we1",
+      "source_ref": "am11_006 section 6.4 example 22",
+      "concept": "am11_006.4",
+      "question_type": "compute",
+      "question_pattern": "arrange the letters of SUNDAY; how many begin with S but do not end with Y",
+      "extracted_variables": {"n": 6},
+      "solution_template": [
+        {"step": 1, "action": "arrangements starting with S", "explain": "fix S, permute five remaining letters", "compute": "with_s = 5 * 4 * 3 * 2"},
+        {"step": 2, "action": "arrangements starting with S and ending with Y", "explain": "fix both endpoints, permute four middle letters", "compute": "with_sy = 4 * 3 * 2"},
+        {"step": 3, "action": "subtract the double counted ones", "explain": "starts with S minus starts with S and ends with Y", "compute": "answer = with_s - with_sy"}
+      ]
+    },
+    {
+      "id": "am11_006.we2",
+      "source_ref": "am11_006 section 6.6 example 49",
+      "concept": "am11_006.8",
+      "question_type": "compute",
+      "question_pattern": "choose 4 cards from a 52 card deck; how many picks give four cards of one suit",
+      "extracted_variables": {"n": 13, "r": 4},
+      "solution_template": [
+        {"step": 1, "action": "choose four cards within one suit", "explain": "13 cards per suit, order free", "compute": "one_suit = 13 * 12 * 11 * 10 / (4 * 3 * 2)"},
+        {"step": 2, "action": "repeat across the four suits", "explain": "same count for each suit, added", "compute": "all_suits = 4 * one_suit"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_006.ex1",
+      "source_ref": "am11_006 exercises 1.1 and 1.2",
+      "questions": [
+        "Evaluate 20 factorial over 18 factorial.",
+        "Is 4 factorial plus 5 factorial equal to 9 factorial?",
+        "Find n if (n + 1) factorial equals 20 times (n - 1) factorial.",
+        "How many 4 letter words from the letters of HONEST use no letter twice?",
+        "How many three digit even positive integers exist?",
+        "How many numbers between 100 and 1000 have 7 in the units place?"
+      ]
+    },
+    {
+      "id": "am11_006.ex2",
+      "source_ref": "am11_006 exercises 1.4 and miscellaneous 1.5",
+      "questions": [
+        "If 18Cr equals 18C(r+2), find rC5.",
+        "A box holds 6 red and 7 white balls; in how many ways can 4 red and 3 white balls be selected?",
+        "How many chords pass through 17 points on a circle?",
+        "A committee of 5 from 4 teachers and 6 students must include at least 2 students; count the committees.",
+        "How many ways can 15 different children sit on a merry-go-round relative to one another?",
+        "How many ways can 7 plus signs and 5 minus signs be arranged so that no two minus signs are adjacent?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_008",
+   "title": "c11_geo_cbse_20_008",
+   "questions": [
+    {
+     "q": "What were the three specific industries that remained reserved for the public sector after the 1991 Industrial Policy reforms, and which constitutional schedule originally defined the public sector's dominant role in the 1956 policy?",
+     "a": "The three industries reserved for the public sector post-1991 were atomic energy, railways (transport), and defence equipment. The 1956 Industrial Policy Resolution's Schedule A originally listed 17 industries for exclusive public sector development. A wrong answer (e.g., listing coal, iron & steel, or telecommunications) reveals confusion between the 1991 reforms and later disinvestment waves, or misunderstanding that the 1956 resolution's Schedule A was the statutory basis for public sector monopoly, not the Constitution's Seventh Schedule.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the abolition of the MRTP Act's asset threshold (₹100 crore) in 1991 was geographically significant for industrial location patterns in India, particularly for large private conglomerates like Tata, Birla, and Reliance.",
+     "a": "The MRTP Act required firms with assets above ₹100 crore to seek government approval for expansion, new locations, or mergers — effectively forcing large houses to locate where bureaucratic clearance was easiest (often near Delhi/metros). Its removal allowed these conglomerates to make location decisions purely on economic geography: proximity to ports (Gujarat, Maharashtra), mineral belts (Odisha, Jharkhand), or emerging corridors (Chennai-Bengaluru). A wrong answer focusing only on \"ease of doing business\" without linking to spatial decision-making misses the geographical core: the reform decoupled corporate strategy from administrative geography.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of \"agglomeration economies,\" analyse why FDI inflows after 1991 concentrated in Maharashtra, Gujarat, Tamil Nadu, and Karnataka rather than dispersing to resource-rich but infrastructure-poor states like Odisha, Jharkhand, or Chhattisgarh. Support your answer with two specific locational advantages these four states offered.",
+     "a": "Post-1991 FDI sought agglomeration economies: (1) pre-existing industrial ecosystems (supplier networks, skilled labour, R&D institutions) in Mumbai-Pune, Ahmedabad-Vadodara, Chennai-Sriperumbudur, Bengaluru-Hosur; (2) port-proximate logistics (JNPT, Mundra, Chennai, Ennore) enabling just-in-time export manufacturing. Resource-rich states lacked these \"thick\" markets — minerals alone don't attract footloose FDI without complementary infrastructure. A wrong answer citing \"government incentives\" as the primary driver ignores that all states offered incentives; the differentiating factor was self-reinforcing agglomeration, a core geographical concept from c11_geo_cbse_20_005.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional impact of the 1991 delicensing of the electronics and software industries with the continued licensing (until 2001) of the alcohol and hazardous chemicals industries. How did this policy asymmetry shape the spatial divergence between India's \"knowledge economy\" hubs and traditional industrial belts?",
+     "a": "Delicensing of electronics/software (zero pollution, footloose, skill-intensive) allowed immediate clustering around educational institutions and airports — birthing Bengaluru, Hyderabad, Pune, Noida as knowledge hubs. Simultaneously, alcohol/hazardous chemicals remained licensed, tethering them to existing industrial estates with environmental clearances (e.g., Ankleshwar, Vapi, Dombivli). This policy asymmetry created a dual geography: new-age industries leapfrogged to \"greenfield\" locations with talent, while pollution-intensive industries remained locked in \"brownfield\" clusters. A wrong answer treating all delicensing as uniform misses how selective liberalisation actively produced India's bifurcated industrial geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The 1991 liberalisation reduced regional industrial disparities in India by allowing market forces to guide investment to backward areas.\" Use FDI equity inflow data (2000-2020) and the concept of \"cumulative causation\" to justify your position.",
+     "a": "The claim is false. FDI data (2000-2020) shows Maharashtra, Delhi, Karnataka, Gujarat, and Tamil Nadu consistently captured >70% of inflows, while Bihar, Odisha, Jharkhand, and Northeastern states received <2% combined. Myrdal's cumulative causation explains this: initial advantages (ports, airports, universities, governance) attract capital, which builds more infrastructure, attracting more capital — a self-reinforcing cycle that widens, not narrows, disparities. Liberalisation removed policy barriers but couldn't create the \"first nature\" (geography) and \"second nature\" (built infrastructure) advantages that drive location decisions. A wrong answer citing \"Special Economic Zones in backward areas\" as evidence of dispersal confuses policy intent with actual investment outcomes — most SEZs are in already-developed corridors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy framework for a hypothetical \"Industrial Policy 2030\" that addresses the geographical imbalances created by the 1991 reforms. Your framework must include: (a) a spatial targeting mechanism using infrastructure corridors, (b) a fiscal instrument differentiated by regional development index, and (c) a governance innovation to overcome state-level implementation variance. Justify each component with geographical reasoning.",
+     "a": "(a) Spatial targeting: Extend the Delhi-Mumbai Industrial Corridor (DMIC) logic to two new corridors — \"Eastern Mineral-Energy Corridor\" (Kolkata-Ranchi-Raipur-Vizag) linking coal/iron ore to ports, and \"North-East Bamboo-Organic Corridor\" (Guwahati-Imphal-Agartala) leveraging unique bio-resources. Reasoning: corridors convert linear infrastructure into 2D agglomeration zones, overcoming \"last-mile\" connectivity gaps that deter footloose capital. (b) Fiscal instrument: Graduated tax holiday — 10 years for aspirational districts (NITI Aayog index), 7 years for backward districts, 3 years for developed. Reasoning: compensates for higher transaction costs in lagging regions (poor logistics, skill gaps) without distorting location efficiency in advanced regions. (c) Governance innovation: \"Corridor Development Authorities\" with Central-state joint mandate, overriding state-level land/labour/environment clearances via deemed approval timelines. Reasoning: solves the \"fragmented sovereignty\" problem where industrial projects stall at state-level approvals despite Central incentives — a geographical implementation gap the 1991 reforms didn't anticipate. A poor answer proposes generic \"subsidies for backward areas\" without spatial logic or governance design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

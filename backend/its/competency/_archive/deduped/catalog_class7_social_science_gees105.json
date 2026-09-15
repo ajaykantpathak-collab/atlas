@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "The Rise of Empires",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.5.1",
+   "title": "From Kingdom to Empire",
+   "section": "Introduction",
+   "definition": "An empire joins many kingdoms and peoples under one ruler; the Mauryan empire, built from Magadha, was the first to stitch most of the subcontinent into one political fabric.",
+   "formula": "",
+   "key_idea": "An empire is scale: what a king does for one land, an emperor must do for many lands at once.",
+   "textbook_ref": "gees105.txt, Introduction",
+   "question_patterns": [
+    "what is the difference between a kingdom and an empire",
+    "which was the first great empire of india",
+    "how did the rulers of magadha begin the empire",
+    "why do empires need strong administration",
+    "what did kautilya say about a country and its people",
+    "name the lands the mauryan empire covered"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees.5.2",
+   "title": "Chandragupta Maurya and Kautilya",
+   "section": "The Mauryas",
+   "definition": "Chandragupta Maurya, guided by the minister Kautilya, overthrew the Nandas and built the Mauryan empire; the Arthashastra, attributed to Kautilya, remains a manual of statecraft from that age.",
+   "formula": "",
+   "key_idea": "A ruler and a strategist together: the throne of Magadha plus the science of governance made an empire.",
+   "textbook_ref": "gees105.txt, The Mauryas",
+   "question_patterns": [
+    "who founded the mauryan empire and with whose guidance",
+    "what is the arthashastra and what does it teach",
+    "how did kautilya help chandragupta",
+    "from which power did chandragupta seize magadha",
+    "what duties of a ruler does the arthashastra list",
+    "why is the arthashastra studied even today"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.5.3",
+   "title": "Ashoka and the Kalinga War",
+   "section": "Ashoka",
+   "definition": "Ashoka's victorious Kalinga war filled him with remorse at the suffering of war; he turned to dhamma, righteous conduct, and spread his message through edicts carved on rocks and pillars across the empire.",
+   "formula": "",
+   "key_idea": "The mightiest conqueror became the preacher of peace: Ashoka measured greatness in welfare, not in victories.",
+   "textbook_ref": "gees105.txt, Ashoka",
+   "question_patterns": [
+    "why did the kalinga war change ashoka's heart",
+    "what is dhamma as taught by ashoka",
+    "where did ashoka inscribe his edicts",
+    "what message do ashoka's pillar edicts carry",
+    "how did ashoka serve his people after the war",
+    "why is ashoka called one of india's greatest rulers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.5.4",
+   "title": "Running an Empire: Administration",
+   "section": "Mauryan administration",
+   "definition": "The empire ran through provinces and districts, graded officials, spies and a standing army, taxes on land and trade, and roads and rest houses that bound distant parts to the capital at Pataliputra.",
+   "formula": "",
+   "key_idea": "Administration is the empire's skeleton: officials, taxes and roads carried the ruler's word to the villages.",
+   "textbook_ref": "gees105.txt, Mauryan administration",
+   "question_patterns": [
+    "how was the mauryan empire divided for administration",
+    "what taxes supported the mauryan state",
+    "what role did officials and spies play",
+    "why were roads important to the empire",
+    "what do sources tell us about mauryan officials",
+    "describe the path of an order from pataliputra to a village"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees105.txt",
+   "concept": "gees.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is Ashoka's edict series counted among India's precious sources?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the stones",
+     "explain": "Rocks and pillars across the land carry Ashoka's own words in his own time."
+    },
+    {
+     "step": 2,
+     "action": "value the voice",
+     "explain": "No later retelling can match a ruler's direct message carved for his people to read."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees105.txt",
+   "concept": "gees.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "how did the mauryan empire rise from magadha?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees105.txt, Let us explore",
+   "questions": [
+    "What did Kautilya say about a country without people?",
+    "How did the Mauryan empire rise from Magadha?",
+    "What changed in Ashoka's rule after the Kalinga war?",
+    "Mark the extent of the Mauryan empire on an outline map.",
+    "Write a pillar edict of your own for your school."
+   ]
+  }
+ ]
+}

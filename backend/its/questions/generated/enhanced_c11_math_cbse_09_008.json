@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_008",
+   "title": "c11_math_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the geometric mean of the numbers 8 and 18. Explain why we do not consider the negative square root.",
+     "a": "The geometric mean is \\(\\sqrt{8 \\times 18} = \\sqrt{144} = 12\\). We take only the positive root because a geometric progression with positive terms must have a positive common ratio; if \\(G = -12\\), the sequence \\(8, -12, 18\\) would have ratios \\(-12/8 = -1.5\\) and \\(18/(-12) = -1.5\\), which is a valid GP but with alternating signs. However, by convention in Class 11 NCERT, geometric mean is defined for positive numbers and taken as positive to maintain a GP of positive terms. A wrong answer like \\(\\pm 12\\) reveals the student does not understand the positivity condition for GP terms in this context.",
+     "self_check": true
+    },
+    {
+     "q": "If three geometric means are inserted between 2 and 162, what is the common ratio of the resulting GP? Show how you obtain it.",
+     "a": "The sequence is \\(2, G_1, G_2, G_3, 162\\) with 5 terms total. The common ratio \\(r\\) satisfies \\(2 \\cdot r^4 = 162\\), so \\(r^4 = 81\\) and \\(r = 3\\) (positive root). A student who writes \\(r = \\pm 3\\) or uses \\(k=3\\) in the exponent as \\(r^3\\) reveals confusion between number of means and number of intervals. The correct reasoning: \\(k\\) means create \\(k+1\\) intervals, so exponent is \\(k+1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Find the geometric mean of the numbers 3, 6, and 24. Then verify that the product of the three numbers equals the cube of the geometric mean.",
+     "a": "\\(G = \\sqrt[3]{3 \\times 6 \\times 24} = \\sqrt[3]{432} = \\sqrt[3]{216 \\times 2} = 6\\sqrt[3]{2}\\). Verification: \\(G^3 = (6\\sqrt[3]{2})^3 = 216 \\times 2 = 432 = 3 \\times 6 \\times 24\\). A student who computes \\(G = \\sqrt{3 \\times 6 \\times 24} = \\sqrt{432}\\) is incorrectly using the square root instead of the cube root for three numbers, showing they haven't generalised the definition to \\(n\\) numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of inserting 2 arithmetic means between 5 and 20 with inserting 2 geometric means between the same numbers. How do the common difference and common ratio differ in their calculation?",
+     "a": "For AMs: sequence \\(5, A_1, A_2, 20\\) is AP with 4 terms, common difference \\(d = \\frac{20-5}{3} = 5\\). For GMs: sequence \\(5, G_1, G_2, 20\\) is GP with 4 terms, common ratio \\(r = \\left(\\frac{20}{5}\\right)^{1/3} = 4^{1/3} = \\sqrt[3]{4}\\). The AP uses additive spacing (subtract then divide by number of intervals), while GP uses multiplicative spacing (divide then take root of number of intervals). A student who computes \\(r = \\frac{20-5}{3} = 5\\) is applying AP logic to GP, a common cross-concept error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the geometric mean of \\(-4\\) and \\(-9\\) is \\(\\sqrt{(-4)(-9)} = \\sqrt{36} = 6\\), and that the sequence \\(-4, 6, -9\\) is a GP. Evaluate this claim and explain whether it fits the Class 11 definition.",
+     "a": "The claim is mathematically valid as a GP with ratio \\(-1.5\\), but it violates the Class 11 NCERT convention that geometric mean is defined for **positive** numbers only, yielding a positive mean. The textbook explicitly states \"positive numbers\" to avoid sign ambiguities and to keep the GP terms positive. A student who accepts the claim without noting the positivity restriction shows they haven't internalised the domain condition in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, litres, etc.) that requires inserting two geometric means between two given quantities. State the problem clearly and solve it.",
+     "a": "Example problem: \"A bacteria culture grows geometrically. On Day 1 there are 100 bacteria, and on Day 4 there are 2700 bacteria. Assuming constant daily growth ratio, find the counts on Day 2 and Day 3.\" Solution: Insert 2 GMs between 100 and 2700. \\(r = (2700/100)^{1/3} = 27^{1/3} = 3\\). Counts: Day 2 = 300, Day 3 = 900. A good answer includes correct setup, identification of \\(k=2\\) means over 3 intervals, and positive ratio. A poor answer might use arithmetic growth or miscalculate intervals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

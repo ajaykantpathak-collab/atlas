@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_12",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_12",
+   "title": "c8_chem_ch3_12",
+   "questions": [
+    {
+     "q": "What is the chemical formula of carbon dioxide, and what is the ratio of carbon atoms to oxygen atoms in a single molecule of it?",
+     "a": "The chemical formula of carbon dioxide is $CO_2$, and the ratio of carbon atoms to oxygen atoms is 1:2. A student who answers that the ratio is 2:1 is confusing the formula with water ($H_2O$) or reversing the subscripts. This reveals a failure to interpret the numerical subscripts written after chemical symbols in a molecular formula.",
+     "self_check": true
+    },
+    {
+     "q": "Why does solid carbon dioxide (dry ice) turn directly into a gas at room temperature without melting into a liquid first?",
+     "a": "Solid carbon dioxide undergoes sublimation because its intermolecular forces are weak, and at atmospheric pressure, it transitions straight from the solid phase to the gas phase without passing through the liquid phase. A student who says it melts into a liquid first is incorrectly assuming all substances follow the standard solid-liquid-gas sequence under all conditions. This reveals a lack of understanding of phase changes unique to certain molecular compounds like $CO_2$.",
+     "self_check": true
+    },
+    {
+     "q": "When anhydrous copper sulfate powder ($CuSO_4$) is exposed to water droplets, it turns from white to blue. Calculate or state the reason for this color change and identify what type of compound property is being tested.",
+     "a": "Steps: 1. Identify the starting substance as white anhydrous copper sulfate ($CuSO_4$). 2. Recognize that water ($H_2O$) acts as a reactant/hydrating agent. 3. Observe the formation of hydrated copper sulfate ($CuSO_4 \\cdot 5H_2O$), which is blue. 4. Conclude that this color change is a chemical property test used to detect the presence of moisture (water). The correct answer is that water chemically coordinates with copper sulfate to form hydrated crystals, changing its color. A student who claims this is just a physical dissolving process misses that a chemical hydration reaction with a color shift has occurred.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens when carbon dioxide gas is bubbled through limewater ($Ca(OH)_2$) for a short duration versus an extended duration. How do the chemical equations differ?",
+     "a": "For a short duration, carbon dioxide reacts with limewater to form an insoluble white precipitate of calcium carbonate, turning the solution milky: $Ca(OH)_2(aq) + CO_2(g) \\rightarrow CaCO_3(s)\\downarrow + H_2O(l)$. If bubbled for an extended duration, the insoluble calcium carbonate reacts with excess carbon dioxide and water to form soluble calcium hydrogen carbonate, making the solution clear again: $CaCO_3(s) + H_2O(l) + CO_2(g) \\rightarrow Ca(HCO_3)_2(aq)$. A student who thinks the milky appearance remains forever fails to analyze the secondary reaction that occurs with excess gas.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because water and carbon dioxide both contain oxygen atoms, they should have similar chemical reactivities and physical states at room temperature.\" Is this statement scientifically valid? Justify your answer.",
+     "a": "The statement is completely invalid. Chemical properties and physical states depend on the entire molecular structure and the nature of all constituent elements bonded together, not just the presence of a single common element like oxygen. Water ($H_2O$) is a hydrogen-bonded polar liquid at room temperature, whereas carbon dioxide ($CO_2$) is a non-polar linear gas. A student who agrees with the statement is incorrectly equating the properties of a compound to the isolated properties of just one of its component elements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between two unlabeled glass jars, one filled with pure oxygen gas and the other filled with carbon dioxide gas, using a single burning splinter.",
+     "a": "To distinguish them, insert a glowing or burning splinter into each jar. In the jar containing oxygen, the splinter will reignite or burn much more brightly because oxygen supports combustion. In the jar containing carbon dioxide, the splinter will immediately extinguish because carbon dioxide does not support combustion and is heavier than air, blanketing the flame. A poor answer would suggest using limewater for both without realizing limewater tests specifically for $CO_2$, or failing to specify the behavior of the burning splinter in oxygen versus carbon dioxide.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

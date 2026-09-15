@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_013",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_013",
+   "title": "c11_chem_cbse_01_013",
+   "questions": [
+    {
+     "q": "Define molarity and state its SI unit. Why is molarity considered a temperature-dependent concentration term?",
+     "a": "Molarity (M) = moles of solute per litre of solution (mol L⁻¹). It is temperature-dependent because solution volume expands or contracts with temperature while moles of solute remain constant, changing the ratio n/V. A wrong answer (e.g., \"moles per kg solvent\" or \"temperature-independent\") reveals confusion with molality or misunderstanding that volume changes with temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares 500 mL of 0.2 M NaOH solution by dissolving 4.0 g NaOH in 500 mL water. Is this procedure correct? Explain why or why not.",
+     "a": "Incorrect. Molarity is defined per litre of SOLUTION, not per litre of solvent. The student should dissolve 4.0 g NaOH in some water, then dilute to exactly 500 mL total solution volume in a volumetric flask. Adding solute to 500 mL water gives a final volume > 500 mL, resulting in lower molarity. This error reveals the common misconception that \"solution volume = solvent volume.\"",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molarity of a solution prepared by dissolving 15.0 g of oxalic acid dihydrate [(COOH)₂·2H₂O, molar mass = 126.07 g mol⁻¹] in water and making the volume up to 250.0 mL in a volumetric flask.",
+     "a": "Step 1: Moles of oxalic acid dihydrate = 15.0 g / 126.07 g mol⁻¹ = 0.1190 mol. Step 2: Volume = 250.0 mL = 0.2500 L. Step 3: Molarity = 0.1190 mol / 0.2500 L = 0.476 M. A wrong answer (e.g., using anhydrous molar mass 90.03 g mol⁻¹ giving 0.666 M, or forgetting to convert mL to L giving 0.000476 M) reveals errors in molar mass of hydrate or unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "You have 100 mL of 0.5 M HCl. How much water must you add to make it 0.1 M? If you instead take 20 mL of 0.5 M HCl and dilute to 100 mL, do you get the same final molarity? Explain.",
+     "a": "Using M₁V₁ = M₂V₂: (0.5 M)(100 mL) = (0.1 M)(V₂) → V₂ = 500 mL. Water to add = 500 - 100 = 400 mL. Second case: (0.5 M)(20 mL) = M₂(100 mL) → M₂ = 0.1 M. Yes, same molarity because moles of HCl are identical (0.005 mol) in both final solutions. A wrong answer reveals misunderstanding that dilution depends only on initial and final moles/volume ratio, not the absolute amount of stock taken.",
+     "self_check": true
+    },
+    {
+     "q": "A 3.0 M NaCl solution has density 1.25 g mL⁻¹. Calculate its molality. (Molar mass NaCl = 58.44 g mol⁻¹)",
+     "a": "Step 1: 1 L solution contains 3.0 mol NaCl = 3.0 × 58.44 = 175.3 g NaCl. Step 2: Mass of 1 L solution = 1000 mL × 1.25 g mL⁻¹ = 1250 g. Step 3: Mass of water = 1250 - 175.3 = 1074.7 g = 1.0747 kg. Step 4: Molality = 3.0 mol / 1.0747 kg = 2.79 m. A wrong answer (e.g., 3.0 m, or using solution mass as solvent mass) reveals failure to distinguish solution mass from solvent mass, or confusing molarity with molality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to prepare 100 mL of 0.05 M KMnO₄ solution from solid KMnO₄ (molar mass = 158.04 g mol⁻¹). Include all glassware, steps, and safety precautions. Why should KMnO₄ solutions be standardized before use in titrations?",
+     "a": "Mass needed = 0.05 mol/L × 0.100 L × 158.04 g/mol = 0.790 g. Weigh 0.790 g KMnO₄ on analytical balance → transfer to beaker → dissolve in ~50 mL distilled water → transfer quantitatively to 100 mL volumetric flask → rinse beaker 3× into flask → dilute to mark → mix thoroughly. Safety: KMnO₄ is a strong oxidizer; avoid skin contact, clean spills immediately. Standardization needed because KMnO₄ decomposes slowly in light/heat and may contain MnO₂ impurity, so exact concentration drifts. A poor answer omits quantitative transfer, rinsing, or safety, or doesn't know KMnO₄ is a primary standard only after standardization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

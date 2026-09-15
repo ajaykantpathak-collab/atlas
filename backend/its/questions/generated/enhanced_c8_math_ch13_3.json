@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_3",
+   "title": "c8_math_ch13_3",
+   "questions": [
+    {
+     "q": "State the exact rule for finding the value of a block in a number pyramid (except the bottom row). Use the words \"below\", \"adjacent\", and \"sum\" in your answer.",
+     "a": "Correct answer: \"Each block (except those in the bottom row) equals the sum of the two adjacent blocks directly below it.\"  \nA wrong answer like \"add the two numbers above it\" or \"add the two numbers next to it in the same row\" reveals the student has not internalised the directional nature of the rule (building upward from the base) and is confusing spatial relationships.",
+     "self_check": true
+    },
+    {
+     "q": "In a 3-row number pyramid with base numbers \\(a, b, c\\) (left to right), the top number is \\(a + 2b + c\\). Explain WHY the coefficient of \\(b\\) is 2 while \\(a\\) and \\(c\\) have coefficient 1. Draw a small pyramid to support your explanation.",
+     "a": "Correct explanation: The middle base number \\(b\\) contributes to both blocks in the second row (left block \\(a+b\\) and right block \\(b+c\\)). When these are added for the top, \\(b\\) appears twice: \\((a+b) + (b+c) = a + 2b + c\\). The edge numbers \\(a\\) and \\(c\\) each contribute to only one second-row block, so they appear once.  \nA wrong answer that just states \"because of the pattern\" or \"Pascal's Triangle\" without tracing the contributions shows the student sees the pattern but does not understand the mechanistic reason — the double-counting of the middle base element.",
+     "self_check": true
+    },
+    {
+     "q": "Build a 4-row number pyramid with the base row: \\(3,\\; -2,\\; 5,\\; 1\\). Find the top number. Show all rows.",
+     "a": "Row 4 (base): \\(3,\\; -2,\\; 5,\\; 1\\)  \nRow 3: \\(3+(-2)=1,\\; -2+5=3,\\; 5+1=6\\) → \\(1,\\; 3,\\; 6\\)  \nRow 2: \\(1+3=4,\\; 3+6=9\\) → \\(4,\\; 9\\)  \nRow 1 (top): \\(4+9 = 13\\)  \nTop number = 13.  \nA wrong answer often comes from sign errors in Row 3 (e.g., \\(3+(-2)=5\\) instead of 1) or misaligning the pairs (adding non-adjacent numbers). This reveals shaky integer addition or not understanding \"adjacent\" means immediate neighbours.",
+     "self_check": true
+    },
+    {
+     "q": "Two students build 4-row pyramids with the same base numbers \\(p, q, r, s\\). Student A uses the rule \"add the two below\". Student B mistakenly uses \"add the two above\" (starting from the top). Will they get the same pyramid? Explain why or why not, and describe what Student B's pyramid would look like if the top is \\(T\\).",
+     "a": "No, they will not get the same pyramid. The rule \"add the two below\" is deterministic upward: base uniquely determines the top. The rule \"add the two above\" is deterministic downward: the top and one base number would determine the rest, but with only the top given, there are infinitely many solutions. Student B's pyramid would have the top \\(T\\), then the second row would be two numbers that sum to \\(T\\) (e.g., \\(x, T-x\\)), the third row would depend on further choices, and the base would not necessarily be \\(p, q, r, s\\).  \nA wrong answer saying \"yes, addition is commutative\" shows the student confuses the commutativity of addition with the directionality of the recursive construction. The pyramid structure imposes a strict causal direction.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi claims: \"In any 3-row number pyramid with integer base numbers, the top number is always even.\" Is Ravi correct? Justify your answer with a counterexample or proof.",
+     "a": "Ravi is incorrect. Counterexample: base \\(1, 1, 1\\) → second row \\(2, 2\\) → top \\(4\\) (even). But base \\(1, 2, 1\\) → second row \\(3, 3\\) → top \\(6\\) (even). Wait, try base \\(1, 1, 2\\) → top \\(1 + 2(1) + 2 = 5\\) (odd). Since \\(a + 2b + c\\) has the parity of \\(a + c\\) (because \\(2b\\) is always even), the top is even only when \\(a\\) and \\(c\\) have the same parity.  \nA wrong answer agreeing with Ravi reveals the student thinks \\(2b\\) makes the whole sum even, ignoring that \\(a+c\\) could be odd. This is a parity reasoning gap from c7_math_ch06_003.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-row number pyramid where the base numbers are three consecutive multiples of 5, and the top number is 60. Write the base numbers and show the full pyramid. (Hint: Let the numbers be \\(5n, 5n+5, 5n+10\\).)",
+     "a": "Let base = \\(5n, 5n+5, 5n+10\\). Top = \\(5n + 2(5n+5) + (5n+10) = 5n + 10n+10 + 5n+10 = 20n + 20\\).  \nSet \\(20n + 20 = 60 \\Rightarrow 20n = 40 \\Rightarrow n = 2\\).  \nBase = \\(10, 15, 20\\).  \nPyramid:  \nRow 3: \\(10,\\; 15,\\; 20\\)  \nRow 2: \\(25,\\; 35\\)  \nRow 1: \\(60\\)  \nA poor answer that guesses numbers without algebra shows the student cannot translate the \"consecutive multiples\" condition into an algebraic expression and solve — a gap in forming expressions (c7_math_ch04_004) and solving linear equations (c7_math_ch15_003).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

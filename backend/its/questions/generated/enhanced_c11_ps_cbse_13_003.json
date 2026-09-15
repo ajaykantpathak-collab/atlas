@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_003",
+   "title": "c11_ps_cbse_13_003",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the tenure and service conditions of the permanent executive (civil services) in India, and how does it differ from the political executive's tenure?",
+     "a": "The permanent executive's tenure and service conditions are governed by Articles 308-314 (Services under the Union and States), with security of tenure under Article 310 (tenure during pleasure of President/Governor) and safeguards under Article 311 (dismissal/removal/reduction in rank only after inquiry). The political executive (Ministers) holds office during the pleasure of the President but *effectively* depends on Lok Sabha confidence (Article 75(3)). A wrong answer (e.g., \"both serve fixed 5-year terms\") reveals confusion between electoral mandate and merit-based appointment, and ignorance of the \"pleasure doctrine\" distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide for a permanent bureaucracy rather than allowing the political executive to appoint all administrators afresh after each election?",
+     "a": "The permanent bureaucracy ensures administrative continuity, institutional memory, and neutral expertise across government changes — critical for long-term policy implementation (e.g., census, tax administration, infrastructure projects). It also upholds the rule of law by preventing partisan capture of administration. A wrong answer (e.g., \"to give jobs to qualified people\") misses the constitutional design principle: separation of *political responsiveness* (political executive) from *administrative neutrality* (permanent executive), a lesson from colonial-era politicized civil services.",
+     "self_check": true
+    },
+    {
+     "q": "A newly elected Chief Minister orders the state's Home Secretary (an IAS officer) to transfer five district Superintendents of Police overnight, citing \"administrative exigency.\" The Home Secretary refuses, citing the Police Act and transfer guidelines. Analyze the constitutional positions of both actors and identify the correct legal-constitutional outcome.",
+     "a": "The Chief Minister (political executive) has policy authority over policing priorities but *not* unfettered transfer power. The Home Secretary (permanent executive) implements transfers per established rules (Police Act, state transfer policy) and Supreme Court directives (Prakash Singh case: fixed tenure, establishment boards). The CM can direct *policy* (e.g., \"focus on cybercrime\") but cannot bypass procedural safeguards for individual transfers. A wrong answer (e.g., \"CM's order is final because they are elected\") reveals the misconception that political executive authority overrides statutory/service rules — confusing democratic mandate with administrative absolutism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanisms for the political executive and permanent executive. Why is the political executive accountable to the legislature while the permanent executive is accountable to the political executive *and* constitutional safeguards?",
+     "a": "Political executive: collective responsibility to Lok Sabha (Article 75(3)), no-confidence motions, Question Hour, parliamentary committees — direct democratic accountability. Permanent executive: accountable to Minister for policy implementation (vertical), but protected by Article 311 (procedural safeguards), Central Civil Services Conduct Rules, and CAT/Courts for service matters — *not* subject to parliamentary confidence. This dual accountability (to Minister for work, to Constitution for tenure) prevents both politicization and bureaucratic unaccountability. A wrong answer (e.g., \"both are accountable to Parliament\") conflates the distinct accountability chains designed to balance responsiveness with neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since the political executive has the democratic mandate, the permanent executive should have no discretion and must blindly implement all ministerial orders.\" Use the concept of 'constitutional morality' and administrative law principles.",
+     "a": "The argument is constitutionally flawed. The permanent executive takes an oath to the Constitution (Article 310), not to the Minister. Administrative law (e.g., Wednesbury unreasonableness, natural justice) and constitutional morality (Navtej Singh Johar, 2018) require civil servants to refuse *illegal/unconstitutional* orders. Blind implementation would violate Article 14 (arbitrariness), Article 21 (procedural fairness), and the civil servant's duty to uphold the Constitution. The Minister's mandate is *policy direction within constitutional bounds* — not a license for illegality. A wrong answer (e.g., \"Minister is boss, bureaucrat must obey\") reveals a fundamental misunderstanding of the rule of law and the civil servant's independent constitutional obligation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-clause \"Minister-Civil Servant Collaboration Protocol\" for a hypothetical ministry that operationalizes the constitutional relationship: (1) policy initiation, (2) implementation discretion, (3) dispute resolution. Each clause must cite a constitutional article or Supreme Court principle.",
+     "a": "Expected clauses: (1) *Policy Initiation*: Minister sets policy goals per Article 74/163 (aid and advice to President/Governor) — civil servant provides evidence-based options, not political preferences. (2) *Implementation Discretion*: Civil servant exercises statutory discretion per governing Act/Rules (Article 309), applying Wednesbury reasonableness and natural justice — Minister may direct *policy priority* but not *case-specific outcomes* (Prakash Singh principle). (3) *Dispute Resolution*: Differences on legality/constitutionality referred to Law Ministry/Attorney General; service matters to CAT/Courts (Article 323A); policy disagreements resolved via Cabinet/Cabinet Committee (collective responsibility, Article 75(3)). Poor answer: vague clauses without constitutional anchors, or granting Minister veto over individual administrative decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

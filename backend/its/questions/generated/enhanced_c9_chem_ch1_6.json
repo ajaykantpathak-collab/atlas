@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_6",
+   "title": "c9_chem_ch1_6",
+   "questions": [
+    {
+     "q": "Define the term 'Rf value' in chromatography and state its formula.",
+     "a": "Rf (Retardation factor) = distance travelled by the solute spot from the origin / distance travelled by the solvent front from the origin. It is a unitless ratio between 0 and 1. A wrong answer (e.g., swapping numerator and denominator, or saying it has units) reveals the student confuses the reference distances or treats Rf as a physical quantity with dimensions rather than a relative mobility index.",
+     "self_check": true
+    },
+    {
+     "q": "A student spots a mixture of two dyes on chromatography paper. After development, dye A is 3 cm from the origin and dye B is 6 cm from the origin. The solvent front is at 9 cm. Which dye has a higher affinity for the stationary phase? Explain.",
+     "a": "Dye A (Rf = 3/9 = 0.33) has higher affinity for the stationary phase than dye B (Rf = 6/9 = 0.67). Lower Rf means the component spends more time adsorbed on the stationary phase and less dissolved in the mobile phase, so it moves slower. A wrong answer (choosing dye B) reveals the misconception that \"farther = stronger attraction\" — confusing mobility with adsorption strength.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a chromatogram of an unknown ink sample developed in water. The solvent front moved 8.0 cm. Three spots are visible at 1.6 cm, 4.0 cm, and 6.4 cm from the origin. Calculate the Rf values for each component and state how many distinct dyes are present.",
+     "a": "Rf₁ = 1.6/8.0 = 0.20; Rf₂ = 4.0/8.0 = 0.50; Rf₃ = 6.4/8.0 = 0.80. Three distinct dyes are present because each spot corresponds to a different Rf value. A wrong calculation (e.g., using spot-to-spot distances) or stating \"two dyes\" reveals inability to measure from the origin or misunderstanding that each resolved spot = one component.",
+     "self_check": true
+    },
+    {
+     "q": "Compare paper chromatography and thin-layer chromatography (TLC) in terms of stationary phase, speed of separation, and suitability for colorless compounds. Which would you choose to separate amino acids and why?",
+     "a": "Paper chromatography: stationary phase = water trapped in cellulose fibers; slower; colorless compounds need locating agents (ninhydrin). TLC: stationary phase = silica gel/alumina on glass/plate; faster; better resolution for colorless compounds with UV fluorescence or staining. For amino acids, TLC is preferred because silica gel gives sharper spots, faster runs, and ninhydrin staining works well on TLC plates. A wrong choice (paper) with vague reasoning shows lack of understanding of stationary phase chemistry and practical detection needs.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs a chromatogram of a green plant pigment extract using acetone as solvent. Only one green spot appears at Rf = 0.45. The student concludes the extract contains only one pigment. Evaluate this conclusion.",
+     "a": "The conclusion is invalid. A single spot may mean: (1) only one pigment is present, OR (2) multiple pigments have identical Rf values in this solvent system (co-elution). To verify, the student should re-run with a different solvent (e.g., petroleum ether:acetone) — if the spot splits, multiple pigments were co-eluted. A student who accepts the conclusion without questioning co-elution reveals a critical gap: they treat Rf as an absolute identifier rather than a solvent-dependent relative measure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple paper chromatography experiment to determine which of three different black pens (A, B, C) was used to write a ransom note. List materials, procedure, and how you will interpret results.",
+     "a": "Materials: three pens, ransom note paper strip, chromatography paper, beaker, water/ethanol solvent, pencil, ruler. Procedure: (1) Cut paper strips, draw pencil origin line 2 cm from bottom. (2) Spot ink from each pen and note on separate strips (or same strip side-by-side). (3) Develop in solvent until front nears top. (4) Dry, measure distances, calculate Rf for each dye component. (5) Compare Rf patterns: matching Rf values and color sequence for all resolved dyes indicate same pen. Good answer includes control spots, same solvent/tank, and pattern matching — not just \"same color\". Poor answer (e.g., \"compare colors\") reveals inability to translate theory into controlled experimental design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 105,
+ "chapter_title": "Rural Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec105.txt",
+ "concepts": [
+  {
+   "id": "keec.105.1.1",
+   "title": "Credit and Micro Finance in Rural Areas",
+   "section": "Rural credit",
+   "definition": "Rural development requires an adequate credit system because farmers need money for inputs before harvest; sources range from moneylenders and traders in the informal sector to banks and cooperatives in the formal sector, and self help groups with bank linkage provide micro credit to the rural poor, especially women.",
+   "formula": "",
+   "key_idea": "Self help groups pool small savings, lend among members and then borrow from banks, giving the poor credit without collateral.",
+   "textbook_ref": "keec105.txt credit and micro finance sections",
+   "question_patterns": [
+    "why is credit needed for rural development",
+    "compare formal and informal sources of rural credit",
+    "what are self help groups and how do they work",
+    "how do shgs help women in rural areas",
+    "state the problems of rural credit in india",
+    "define micro credit and its role for the poor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the credit source",
+     "explain": "Separate informal moneylenders from formal banks and SHGs."
+    },
+    {
+     "step": 2,
+     "action": "check the terms",
+     "explain": "Note collateral, interest and repayment conditions."
+    },
+    {
+     "step": 3,
+     "action": "assess the fit",
+     "explain": "State why the source suits or hurts the rural borrower."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.2.1",
+   "title": "Agricultural Market System and Diversification",
+   "section": "Agricultural market system",
+   "definition": "The agricultural market system requires regulated markets, minimum support price, buffer stocks and public distribution system to protect farmers and consumers, while agricultural diversification into allied activities of livestock, fisheries, horticulture and organic farming raises rural incomes and sustainability.",
+   "formula": "",
+   "key_idea": "Diversification spreads risk beyond crop failures and adds value through allied activities like dairy, poultry and fish production.",
+   "textbook_ref": "keec105.txt market system and diversification sections",
+   "question_patterns": [
+    "describe the measures to improve the agricultural market system",
+    "what is minimum support price and buffer stock",
+    "explain the public distribution system",
+    "define agricultural diversification with examples",
+    "what are the benefits of organic farming",
+    "how do allied activities like dairy and fishery raise rural income"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the market instrument",
+     "explain": "Recall MSP, buffer stock or PDS in the case."
+    },
+    {
+     "step": 2,
+     "action": "classify the diversification",
+     "explain": "Place the activity in livestock, fishery, horticulture or organic farming."
+    },
+    {
+     "step": 3,
+     "action": "state the benefit",
+     "explain": "Note the income or sustainability gain."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.3.1",
+   "title": "Organic Farming, Sustainable Development and Rural Employment",
+   "section": "Organic farming and employment",
+   "definition": "Organic farming uses organic manure and biopesticides instead of chemical inputs, offering sustainable incomes, healthier food and export prospects though with lower yields initially, while rural employment programmes like MGNREGA provide wage employment and food security to the rural poor.",
+   "formula": "",
+   "key_idea": "Organic farming promotes sustainable development by protecting soil fertility and avoiding chemical pollution.",
+   "textbook_ref": "keec105.txt organic farming and employment sections",
+   "question_patterns": [
+    "define organic farming and its advantages and limitations",
+    "how does organic farming promote sustainable development",
+    "what is mgnrega and what does it provide",
+    "explain food security for the rural poor",
+    "state the challenges of organic farming in india",
+    "how does rural employment reduce poverty"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the practice",
+     "explain": "Check for organic inputs or wage employment scheme."
+    },
+    {
+     "step": 2,
+     "action": "assess the outcome",
+     "explain": "Trace sustainability, income or food security effects."
+    },
+    {
+     "step": 3,
+     "action": "name the programme or method",
+     "explain": "State MGNREGA or organic farming as the route."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec105.txt exercises",
+   "questions": [
+    "Explain the role of self help groups in rural credit.",
+    "Distinguish between Green Revolution and Organic Farming.",
+    "What is agricultural diversification? Explain its importance.",
+    "Describe the measures to improve agricultural marketing.",
+    "Explain the importance of MGNREGA in rural employment."
+   ]
+  }
+ ]
+}

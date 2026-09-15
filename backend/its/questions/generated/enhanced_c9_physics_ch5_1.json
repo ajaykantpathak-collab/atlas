@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_1",
+   "title": "c9_physics_ch5_1",
+   "questions": [
+    {
+     "q": "State the necessary condition for an object to become a source of sound.",
+     "a": "The object must vibrate (oscillate about a mean position). A wrong answer like \"the object must be made of metal\" or \"the object must be hit hard\" reveals the student thinks material or force magnitude alone creates sound, ignoring the essential vibratory motion.",
+     "self_check": true
+    },
+    {
+     "q": "A student plucks a rubber band stretched between two pencils and hears a sound. When they damp the rubber band with their hand, the sound stops even though the band is still stretched. Explain why the sound stops using the concept of vibration.",
+     "a": "Damping stops the vibration of the rubber band; without vibration, no compressions/rarefactions are created in the air, so no sound is produced. A wrong answer focusing on \"tension is gone\" or \"air is blocked\" shows confusion between the static condition (stretch) and the dynamic requirement (oscillatory motion).",
+     "self_check": true
+    },
+    {
+     "q": "Classify each source below by the *type of vibrator*: (a) Veena string, (b) Shehnai air column, (c) Mridangam membrane, (d) Temple bell plate. Write the vibrator type for each.",
+     "a": "(a) Vibrating string, (b) Vibrating air column, (c) Vibrating membrane, (d) Vibrating solid plate. A wrong classification (e.g., calling the shehnai a string) reveals the student memorises instrument names without linking them to the physical vibrating component.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical tuning forks are struck with different forces: one gently, one hard. Both produce the same pitch but different loudness. Analyse why the *pitch* remains unchanged while *loudness* changes, linking to the vibration characteristics.",
+     "a": "Pitch depends on vibration frequency (determined by fork's mass and stiffness), which is unchanged; loudness depends on vibration amplitude, which increases with striking force. A wrong answer claiming pitch changes with force confuses frequency (intrinsic property) with amplitude (energy-dependent).",
+     "self_check": true
+    },
+    {
+     "q": "A diagram shows a metal ruler clamped at one end on a table, with the free end pulled down and released. The ruler vibrates but the sound is very faint. Evaluate whether adding a sounding board (like a wooden box) underneath the ruler would increase the loudness, and justify your reasoning.",
+     "a": "Yes, a sounding board increases loudness. The ruler's small surface area moves little air; the board's larger area couples with more air particles, producing larger pressure variations. A \"no\" answer ignores impedance matching and thinks loudness depends only on the primary vibrator's amplitude.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a metal spoon, a thread, and a table edge to demonstrate that sound is produced by vibration and travels through solids better than air. List steps and the observation that proves vibration is the cause.",
+     "a": "Tie the spoon at the midpoint of a 1 m thread, wrap thread ends around index fingers, press fingers gently against ears, lean forward so spoon hangs freely, tap spoon against table edge. Observation: A clear, bell-like sound is heard through the thread (solid) but almost nothing through air when fingers are removed. A poor design omits the ear-contact step, failing to show solid conduction and the vibrational origin.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

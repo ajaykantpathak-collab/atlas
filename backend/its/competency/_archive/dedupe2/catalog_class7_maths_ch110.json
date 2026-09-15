@@ -1,0 +1,434 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Algebraic Expressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh110.txt",
+ "concepts": [
+  {
+   "id": "gemh.110.1",
+   "title": "Formation of Algebraic Expressions",
+   "section": "10.2",
+   "definition": "The process of constructing mathematical expressions by combining variables and constants using arithmetic operations.",
+   "formula": "expression = terms_sum",
+   "key_idea": "Variables and constants are linked by operations like addition, subtraction, multiplication, and division.",
+   "textbook_ref": "gemh110.txt lines 30-75",
+   "question_patterns": [
+    "describe how the expression is obtained",
+    "how is the expression formed from variables and constants",
+    "write the algebraic expression for the statement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the variables and constants in the statement",
+     "explain": "Determine which letters represent the changing quantities and which numbers are fixed."
+    },
+    {
+     "step": 2,
+     "action": "Apply the specified arithmetic operations in order",
+     "explain": "Translate phrases like 'product', 'sum', 'subtracted from' into mathematical operators."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.2",
+   "title": "Terms of an Expression",
+   "section": "10.3",
+   "definition": "The individual parts of an algebraic expression that are generated independently and then added together.",
+   "formula": "expression = term_1 + term_2 + ... + term_n",
+   "key_idea": "Terms are separated by addition, with negative signs included as part of the term.",
+   "textbook_ref": "gemh110.txt lines 76-110",
+   "question_patterns": [
+    "identify the terms in the expression",
+    "what are the terms of",
+    "find the terms of the algebraic expression"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the addition and subtraction operators in the expression",
+     "explain": "Treat subtraction as adding a negative term to divide the expression into parts."
+    },
+    {
+     "step": 2,
+     "action": "List each separate part as a term",
+     "explain": "Write down each component along with its preceding sign."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.3",
+   "title": "Factors of a Term",
+   "section": "10.3",
+   "definition": "The quantities (numbers or variables) that are multiplied together to produce a specific term of an expression.",
+   "formula": "term = factor_1 * factor_2 * ... * factor_k",
+   "key_idea": "A term is the product of its irreducible numerical and algebraic factors.",
+   "textbook_ref": "gemh110.txt lines 111-135",
+   "question_patterns": [
+    "identify the factors of the term",
+    "what are the factors of the term",
+    "draw a tree diagram to show the factors of"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Deconstruct the term into its multiplied components",
+     "explain": "Separate the numerical constant from the variables and split powers into repeated variables."
+    },
+    {
+     "step": 2,
+     "action": "List the individual irreducible factors",
+     "explain": "Write out the numbers and variables that cannot be factored further."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.4",
+   "title": "Numerical Coefficient of a Term",
+   "section": "10.3",
+   "definition": "The constant numerical factor of a term that multiplies the variable part.",
+   "formula": "coefficient = term / variable_part",
+   "key_idea": "The number multiplying the algebraic variables in a term, including its sign.",
+   "textbook_ref": "gemh110.txt lines 136-180",
+   "question_patterns": [
+    "identify the numerical coefficient of",
+    "what is the coefficient of the term",
+    "give the numerical coefficient of the term containing x"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Isolate the term of interest from the expression",
+     "explain": "Find the specific term containing the requested variable or the term to be analyzed."
+    },
+    {
+     "step": 2,
+     "action": "Extract the numerical multiplier",
+     "explain": "Identify the constant number multiplying the variables, noting that an omitted coefficient is 1 or -1."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.5",
+   "title": "Like and Unlike Terms",
+   "section": "10.4",
+   "definition": "Terms that have identical variable factors with matching exponents, regardless of their numerical coefficients.",
+   "formula": "algebraic_factors_1 == algebraic_factors_2",
+   "key_idea": "Only the variable parts and their powers determine if terms are like.",
+   "textbook_ref": "gemh110.txt lines 181-205",
+   "question_patterns": [
+    "state whether the pair of terms is like or unlike",
+    "identify like terms in the following",
+    "group the like terms together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Ignore the numerical coefficients of the terms",
+     "explain": "Focus solely on the variable parts of each term."
+    },
+    {
+     "step": 2,
+     "action": "Compare the variables and their exponents",
+     "explain": "If the variables and their powers are identical, they are like terms; otherwise, they are unlike."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.6",
+   "title": "Monomials, Binomials, Trinomials, and Polynomials",
+   "section": "10.5",
+   "definition": "Classification of algebraic expressions based on the number of non-like terms they contain.",
+   "formula": "num_terms = count(distinct_terms)",
+   "key_idea": "Monomials have one term, binomials have two, trinomials have three, and polynomials have one or more.",
+   "textbook_ref": "gemh110.txt lines 206-235",
+   "question_patterns": [
+    "classify the expression as a monomial, binomial, or trinomial",
+    "is the expression a monomial, binomial, or trinomial",
+    "categorize the following algebraic expressions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Simplify the expression by combining any like terms",
+     "explain": "Ensure all terms are unlike before counting."
+    },
+    {
+     "step": 2,
+     "action": "Count the number of remaining terms",
+     "explain": "One term is a monomial, two is a binomial, three is a trinomial, and any number of terms is a polynomial."
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.7",
+   "title": "Evaluating a Linear Expression",
+   "section": "10.6",
+   "definition": "Finding the value of a first-degree single-variable expression by substituting a given number for the variable.",
+   "formula": "value = coeff * x + constant",
+   "key_idea": "Substitute the variable value and perform multiplication followed by addition or subtraction.",
+   "textbook_ref": "gemh110.txt lines 280-310",
+   "question_patterns": [
+    "find the value of the expression {coeff}x + {constant} when x = {x}",
+    "evaluate {coeff}m - {constant} for m = {m}",
+    "what is the value of {coeff}p + {constant} if p = {p}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the coefficient by the variable's value",
+     "explain": "Substitute the value of the variable into the linear term and multiply.",
+     "compute": "prod = coeff * x"
+    },
+    {
+     "step": 2,
+     "action": "Add the constant to the product",
+     "explain": "Combine the product with the constant term to get the final value.",
+     "compute": "value = prod + constant"
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.8",
+   "title": "Evaluating a Quadratic Expression",
+   "section": "10.6",
+   "definition": "Finding the value of a second-degree single-variable expression by substituting a given number for the variable.",
+   "formula": "value = coeff2 * x**2 + coeff1 * x + constant",
+   "key_idea": "Substitute the variable value, compute the squared term, the linear term, and then sum them with the constant.",
+   "textbook_ref": "gemh110.txt lines 311-335",
+   "question_patterns": [
+    "find the value of {coeff2}x^2 + {coeff1}x + {constant} for x = {x}",
+    "evaluate {coeff2}n^2 + {coeff1}n + {constant} when n = {n}",
+    "calculate the value of the expression {coeff2}y^2 + {coeff1}y + {constant} at y = {y}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the squared term",
+     "explain": "Square the variable value and multiply it by the coefficient of the squared term.",
+     "compute": "term2 = coeff2 * x**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the linear term",
+     "explain": "Multiply the variable value by the coefficient of the linear term.",
+     "compute": "term1 = coeff1 * x"
+    },
+    {
+     "step": 3,
+     "action": "Sum the terms and the constant",
+     "explain": "Add the squared term, the linear term, and the constant term together.",
+     "compute": "value = term2 + term1 + constant"
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.9",
+   "title": "Evaluating Sum of Squares of Two Variables",
+   "section": "10.6",
+   "definition": "Finding the value of the expression a^2 + b^2 for given values of variables a and b.",
+   "formula": "value = a**2 + b**2",
+   "key_idea": "Square both variables separately and then add the results.",
+   "textbook_ref": "gemh110.txt lines 336-360",
+   "question_patterns": [
+    "find the value of a^2 + b^2 when a = {a} and b = {b}",
+    "evaluate a^2 + b^2 for a = {a}, b = {b}",
+    "calculate the sum of squares of a and b when a = {a} and b = {b}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the first variable",
+     "explain": "Multiply the value of variable a by itself.",
+     "compute": "sq_a = a**2"
+    },
+    {
+     "step": 2,
+     "action": "Square the second variable",
+     "explain": "Multiply the value of variable b by itself.",
+     "compute": "sq_b = b**2"
+    },
+    {
+     "step": 3,
+     "action": "Add the two squared values",
+     "explain": "Sum the squares of both variables to get the final answer.",
+     "compute": "value = sq_a + sq_b"
+    }
+   ]
+  },
+  {
+   "id": "gemh.110.10",
+   "title": "Evaluating Linear Combination of Two Variables",
+   "section": "10.6",
+   "definition": "Finding the value of an expression of the form coeff_a * a + coeff_b * b for given values of a and b.",
+   "formula": "value = coeff_a * a + coeff_b * b",
+   "key_idea": "Multiply each variable by its respective coefficient and add the products.",
+   "textbook_ref": "gemh110.txt lines 336-360",
+   "question_patterns": [
+    "find the value of {coeff_a}a + {coeff_b}b when a = {a} and b = {b}",
+    "evaluate {coeff_a}x + {coeff_b}y for x = {x}, y = {y}",
+    "calculate the value of {coeff_a}a + {coeff_b}b"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the first variable by its coefficient",
+     "explain": "Multiply the value of variable a by coeff_a.",
+     "compute": "term_a = coeff_a * a"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the second variable by its coefficient",
+     "explain": "Multiply the value of variable b by coeff_b.",
+     "compute": "term_b = coeff_b * b"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two terms",
+     "explain": "Add the two products together to find the overall value.",
+     "compute": "value = term_a + term_b"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh110.txt lines 290-300",
+   "concept": "gemh.110.7",
+   "question_type": "compute",
+   "question_pattern": "Find the value of the expression {coeff}x + {constant} when x = {x}",
+   "extracted_variables": {
+    "coeff": 4,
+    "x": 2,
+    "constant": -3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the coefficient by the variable's value",
+     "explain": "Multiply 4 by 2 to get the first term.",
+     "compute": "prod = coeff * x"
+    },
+    {
+     "step": 2,
+     "action": "Add the constant to the product",
+     "explain": "Add -3 to the product 8.",
+     "compute": "value = prod + constant"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh110.txt lines 315-330",
+   "concept": "gemh.110.8",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {coeff2}x^2 + {coeff1}x + {constant} for x = {x}",
+   "extracted_variables": {
+    "coeff2": 5,
+    "coeff1": 5,
+    "constant": -2,
+    "x": -2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the squared term",
+     "explain": "Square the variable x and multiply by coeff2.",
+     "compute": "term2 = coeff2 * x**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the linear term",
+     "explain": "Multiply the variable x by coeff1.",
+     "compute": "term1 = coeff1 * x"
+    },
+    {
+     "step": 3,
+     "action": "Sum the terms and the constant",
+     "explain": "Add the squared term, linear term, and constant.",
+     "compute": "value = term2 + term1 + constant"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gemh110.txt lines 340-350",
+   "concept": "gemh.110.10",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {coeff_a}a + {coeff_b}b when a = {a} and b = {b}",
+   "extracted_variables": {
+    "coeff_a": 7,
+    "coeff_b": -4,
+    "a": 3,
+    "b": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the first variable by its coefficient",
+     "explain": "Multiply 7 by 3.",
+     "compute": "term_a = coeff_a * a"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the second variable by its coefficient",
+     "explain": "Multiply -4 by 2.",
+     "compute": "term_b = coeff_b * b"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two terms",
+     "explain": "Add the two products together.",
+     "compute": "value = term_a + term_b"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "gemh110.txt lines 240-278",
+   "questions": [
+    "Get the algebraic expressions in the following cases using variables, constants and arithmetic operations: (i) Subtraction of z from y. (ii) One-half of the sum of numbers x and y. (iii) The number z multiplied by itself. (iv) One-fourth of the product of numbers p and q. (v) Numbers x and y both squared and added. (vi) Number 5 added to three times the product of numbers m and n. (vii) Product of numbers y and z subtracted from 10. (viii) Sum of numbers a and b subtracted from their product.",
+    "Identify the terms and their factors in the following expressions. Show the terms and factors by tree diagrams: (a) x - 3 (b) 1 + x + x^2 (c) y - y^3 (d) 5xy^2 + 7x^2y (e) - ab + 2b^2 - 3a^2",
+    "Identify terms and factors in the expressions given below: (a) - 4x + 5 (b) - 4x + 5y (c) 5y + 3y^2 (d) xy + 2x^2y^2 (e) pq + q (f) 1.2 ab - 2.4 b + 3.6 a (g) 3/4 x + 1/4 (h) 0.1 p^2 + 0.2 q^2",
+    "Identify the numerical coefficients of terms (other than constants) in the following expressions: (i) 5 - 3t^2 (ii) 1 + t + t^2 + t^3 (iii) x + 2xy + 3y (iv) 100m + 1000n (v) - p^2q^2 + 7pq (vi) 1.2 a + 0.8 b (vii) 3.14 r^2 (viii) 2 (l + b) (ix) 0.1 y + 0.01 y^2",
+    "Identify terms which contain x and give the coefficient of x: (i) y^2x + y (ii) 13y^2 - 8yx (iii) x + y + 2 (iv) 5 + z + zx (v) 1 + x + xy (vi) 12xy^2 + 25 (vii) 7x + xy^2",
+    "Identify terms which contain y^2 and give the coefficient of y^2: (i) 8 - xy^2 (ii) 5y^2 + 7x (iii) 2x^2y - 15xy^2 + 7y^2",
+    "Classify into monomials, binomials and trinomials: (i) 4y - 7z (ii) y^2 (iii) x + y - xy (iv) 100 (v) ab - a - b (vi) 5 - 3t (vii) 4p^2q - 4pq^2 (viii) 7mn (ix) z^2 - 3z + 8 (x) a^2 + b^2 (xi) z^2 + z (xii) 1 + x + x^2",
+    "State whether a given pair of terms is of like or unlike terms: (i) 1, 100 (ii) -7x, 5/2 x (iii) - 29x, - 29y (iv) 14xy, 42yx (v) 4m^2p, 4mp^2 (vi) 12xz, 12x^2z^2",
+    "Identify like terms in the following: (a) - xy^2, - 4yx^2, 8x^2, 2xy^2, 7y, - 11x^2, - 100x, - 11yx, 20x^2y, - 6x^2, y, 2xy, 3x (b) 10pq, 7p, 8q, - p^2q^2, - 7qp, - 100q, - 23, 12q^2p^2, - 5p^2, 41, 2405p, 78qp, 13p^2q, qp^2, 701p^2"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "gemh110.txt lines 361-395",
+   "questions": [
+    "If m = 2, find the value of: (i) m - 2 (ii) 3m - 5 (iii) 9 - 5m (iv) 3m^2 - 2m - 7 (v) 5m/2 - 4",
+    "If p = - 2, find the value of: (i) 4p + 7 (ii) - 3p^2 + 4p + 7 (iii) - 2p^3 - 3p^2 + 4p + 7",
+    "Find the value of the following expressions, when x = -1: (i) 2x - 7 (ii) - x + 2 (iii) x^2 + 2x + 1 (iv) 2x^2 - x - 2",
+    "If a = 2, b = - 2, find the value of: (i) a^2 + b^2 (ii) a^2 + ab + b^2 (iii) a^2 - b^2",
+    "When a = 0, b = - 1, find the value of the given expressions: (i) 2a + 2b (ii) 2a^2 + b^2 + 1 (iii) 2a^2b + 2ab^2 + ab (iv) a^2 + ab + 2",
+    "Simplify the expressions and find the value if x is equal to 2: (i) x + 7 + 4 (x - 5) (ii) 3 (x + 2) + 5x - 7 (iii) 6x + 5 (x - 2) (iv) 4(2x - 1) + 3x + 11",
+    "Simplify these expressions and find their values if x = 3, a = - 1, b = - 2: (i) 3x - 5 - x + 9 (ii) 2 - 8x + 4x + 4 (iii) 3a + 5 - 8a + 1 (iv) 10 - 3b - 4 - 5b (v) 2a - 2b - 4 - 5 + a",
+    "If z = 10, find the value of z^3 - 3(z - 10). If p = - 10, find the value of p^2 - 2p - 100",
+    "What should be the value of a if the value of 2x^2 + x - a equals to 5, when x = 0?",
+    "Simplify the expression and find its value when a = 5 and b = - 3: 2(a^2 + ab) + 3 - ab"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

@@ -1,0 +1,409 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 106,
+ "chapter_title": "Trial Balance and Rectification of Errors",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac106.txt",
+ "concepts": [
+  {
+   "id": "keac.106.1",
+   "title": "Trial Balance Agreement Check",
+   "section": "6.1",
+   "definition": "A verification procedure that compares the total of all debit balances against the total of all credit balances to ensure arithmetical consistency.",
+   "formula": "difference = abs(total_debits - total_credits)",
+   "key_idea": "In double-entry bookkeeping, total debits must equal total credits.",
+   "textbook_ref": "keac106.txt lines 180-189",
+   "question_patterns": [
+    "calculate the difference in trial balance",
+    "find the trial balance discrepancy",
+    "what is the difference between total debits and total credits",
+    "compute the trial balance difference given debits and credits",
+    "calculate trial balance agreement check for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the absolute difference between total debits and total credits",
+     "explain": "The discrepancy is the positive difference between the sum of debit balances and the sum of credit balances.",
+     "compute": "difference = abs(total_debits - total_credits)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.106.1_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.106.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "total_credits": "10",
+      "total_debits": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "Calculate the absolute difference between total debits and total credits",
+       "explain": "The discrepancy is the positive difference between the sum of debit balances and the sum of credit balances.",
+       "compute": "difference = abs(total_debits - total_credits)"
+      }
+     ],
+     "question_pattern": "calculate the difference in trial balance (given {total_credits}, {total_debits})"
+    },
+    {
+     "id": "ex_re_keac.106.1_2",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.106.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "total_credits": "10",
+      "total_debits": "2"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "Calculate the absolute difference between total debits and total credits",
+       "explain": "The discrepancy is the positive difference between the sum of debit balances and the sum of credit balances.",
+       "compute": "difference = abs(total_debits - total_credits)"
+      }
+     ],
+     "question_pattern": "calculate the difference in trial balance (given {total_credits}, {total_debits})"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.2",
+   "title": "Wrong Side Posting Detection",
+   "section": "6.5",
+   "definition": "A technique to identify if a transaction was posted to the opposite side of an account by checking if the trial balance difference is divisible by two.",
+   "formula": "potential_wrong_posting_amount = difference / 2",
+   "key_idea": "Posting an entry to the wrong side doubles the error amount, creating a trial balance difference equal to twice the transaction value.",
+   "textbook_ref": "keac106.txt lines 191-192",
+   "question_patterns": [
+    "find the potential wrong side posting amount if the trial balance difference is",
+    "calculate the amount posted to the wrong side of an account",
+    "what is the value of the transaction posted to the wrong side",
+    "calculate wrong side posting detection for the given values",
+    "find wrong side posting detection in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the trial balance difference by two",
+     "explain": "Since posting to the wrong side doubles the error, dividing the total difference by two yields the original transaction amount.",
+     "compute": "potential_wrong_posting_amount = difference / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the potential wrong side posting amount if the trial balance difference is (take difference = 10)",
+     "solution": "Applying the concept's compute chain with difference = 10 gives 5.0.",
+     "answer": "5.0"
+    },
+    {
+     "question": "find the potential wrong side posting amount if the trial balance difference is (take difference = 2)",
+     "solution": "Applying the concept's compute chain with difference = 2 gives 1.0.",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.3",
+   "title": "Transposition Error Check",
+   "section": "6.5",
+   "definition": "A diagnostic check where a trial balance discrepancy divisible by nine indicates a possible transposition of digits or a misplaced decimal point.",
+   "formula": "is_transposition = (difference % 9 == 0)",
+   "key_idea": "The mathematical difference between any number and its transposed counterpart is always divisible by nine.",
+   "textbook_ref": "keac106.txt lines 191-192",
+   "question_patterns": [
+    "verify if the trial balance difference of ... is a transposition error",
+    "check if the discrepancy ... could be due to transposed figures",
+    "is the difference ... divisible by 9",
+    "explain transposition error check",
+    "what do you mean by transposition error check"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the difference is divisible by 9",
+     "explain": "If the difference divided by 9 has a remainder of 0, it is highly likely that a transposition error occurred."
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4",
+   "title": "Rectification of Short Amount Posting",
+   "section": "6.6.1",
+   "definition": "Correcting an error where a transaction is posted to the correct side of an account but with a lower amount than required.",
+   "formula": "rectification_amount = correct_amount - recorded_amount",
+   "key_idea": "Add the difference to the same side of the account to bring it to the correct balance.",
+   "textbook_ref": "keac106.txt lines 192-194",
+   "question_patterns": [
+    "calculate the rectification amount for short debit",
+    "find the amount needed to correct a short credit of ... instead of ...",
+    "how much additional debit is required if ... was recorded as ...",
+    "calculate rectification of short amount posting for the given values",
+    "find rectification of short amount posting in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the recorded amount from the correct amount",
+     "explain": "The difference represents the shortfall that must be posted to the same side of the account.",
+     "compute": "rectification_amount = correct_amount - recorded_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the rectification amount for short debit (take correct_amount = 10, recorded_amount = 10)",
+     "solution": "Applying the concept's compute chain with correct_amount = 10, recorded_amount = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5",
+   "title": "Rectification of Excess Amount Posting",
+   "section": "6.6.1",
+   "definition": "Correcting an error where a transaction is posted to the correct side of an account but with a higher amount than required.",
+   "formula": "rectification_amount = recorded_amount - correct_amount",
+   "key_idea": "Reverse the excess amount by posting it to the opposite side of the same account.",
+   "textbook_ref": "keac106.txt lines 192-194",
+   "question_patterns": [
+    "calculate the rectification amount for excess debit",
+    "find the amount needed to correct an over-recorded credit of ... instead of ...",
+    "how much reverse entry is required if ... was recorded as ...",
+    "calculate rectification of excess amount posting for the given values",
+    "find rectification of excess amount posting in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the correct amount from the recorded amount",
+     "explain": "The difference represents the excess that must be reversed by posting to the opposite side.",
+     "compute": "rectification_amount = recorded_amount - correct_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the rectification amount for excess debit (take correct_amount = 10, recorded_amount = 10)",
+     "solution": "Applying the concept's compute chain with correct_amount = 10, recorded_amount = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.6",
+   "title": "Rectification of Wrong Side Posting",
+   "section": "6.6.2",
+   "definition": "Correcting an error where an entry is posted to the wrong side of an account with the correct amount.",
+   "formula": "rectification_amount = 2 * correct_amount",
+   "key_idea": "To rectify a wrong side posting, double the correct amount is posted to the opposite side.",
+   "textbook_ref": "keac106.txt lines 204-206",
+   "question_patterns": [
+    "calculate the rectification amount when a debit of ... is wrongly credited",
+    "find the adjustment amount for posting ... to the wrong side of the account",
+    "what is the rectification entry value for wrong side posting of ...",
+    "calculate rectification of wrong side posting for the given values",
+    "find rectification of wrong side posting in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the correct transaction amount by two",
+     "explain": "One portion cancels the wrong entry, and the other portion establishes the correct balance on the proper side.",
+     "compute": "rectification_amount = 2 * correct_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the rectification amount when a debit of ... is wrongly credited (take correct_amount = 10)",
+     "solution": "Applying the concept's compute chain with correct_amount = 10 gives 20.0.",
+     "answer": "20.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.7",
+   "title": "Rectification of Wrong Side and Wrong Amount",
+   "section": "6.6.2",
+   "definition": "Correcting an error where an entry is posted to the wrong side of an account with an incorrect amount.",
+   "formula": "rectification_amount = correct_amount + wrong_amount",
+   "key_idea": "The rectification amount is the sum of the wrong amount (to cancel it) and the correct amount (to record it).",
+   "textbook_ref": "keac106.txt lines 204-206",
+   "question_patterns": [
+    "calculate the rectification amount when a debit of ... is wrongly credited as ...",
+    "find the adjustment amount for posting ... to the wrong side as ...",
+    "what is the rectification entry value when ... is posted to the wrong side as ...",
+    "calculate rectification of wrong side and wrong amount for the given values",
+    "find rectification of wrong side and wrong amount in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the correct amount and the wrong amount",
+     "explain": "Adding both amounts cancels the incorrect entry and establishes the correct entry on the right side.",
+     "compute": "rectification_amount = correct_amount + wrong_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the rectification amount when a debit of ... is wrongly credited as ... (take correct_amount = 10, wrong_amount = 10)",
+     "solution": "Applying the concept's compute chain with correct_amount = 10, wrong_amount = 10 gives 20.0.",
+     "answer": "20.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.8",
+   "title": "Suspense Account Balance Determination",
+   "section": "6.6.2",
+   "definition": "Determining the initial or remaining balance of the suspense account needed to temporarily balance the trial balance.",
+   "formula": "suspense_balance = total_debits - total_credits",
+   "key_idea": "The suspense account absorbs the difference between debits and credits until all errors are located.",
+   "textbook_ref": "keac106.txt lines 197-201",
+   "question_patterns": [
+    "calculate the initial balance of suspense account",
+    "find the difference to be put in suspense account",
+    "what is the suspense account balance given total debits of ... and total credits of ...",
+    "calculate suspense account balance determination for the given values",
+    "find suspense account balance determination in the given problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the difference between total debits and total credits",
+     "explain": "The difference is placed in the suspense account to temporarily force the trial balance to agree.",
+     "compute": "suspense_balance = total_debits - total_credits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the initial balance of suspense account (take total_credits = 10, total_debits = 10)",
+     "solution": "Applying the concept's compute chain with total_credits = 10, total_debits = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate the initial balance of suspense account (take total_credits = 10, total_debits = 2)",
+     "solution": "Applying the concept's compute chain with total_credits = 10, total_debits = 2 gives -8.0.",
+     "answer": "-8.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac106.txt lines 204-205",
+   "concept": "keac.106.4",
+   "question_type": "compute",
+   "question_pattern": "Credit purchases from Raghu {correct_amount} were recorded as {recorded_amount}. Rectify the error.",
+   "extracted_variables": {
+    "correct_amount": "The actual amount of credit purchases",
+    "recorded_amount": "The wrong lower amount recorded"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the recorded amount from the correct amount",
+     "explain": "The difference represents the shortfall that must be posted to the same side of the account.",
+     "compute": "rectification_amount = correct_amount - recorded_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac106.txt lines 204-205",
+   "concept": "keac.106.5",
+   "question_type": "compute",
+   "question_pattern": "Credit purchases from Raghu {correct_amount} were recorded as {recorded_amount} where recorded_amount is higher.",
+   "extracted_variables": {
+    "correct_amount": "The actual amount of credit purchases",
+    "recorded_amount": "The wrong higher amount recorded"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the correct amount from the recorded amount",
+     "explain": "The difference represents the excess that must be reversed by posting to the opposite side.",
+     "compute": "rectification_amount = recorded_amount - correct_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac106.txt lines 205",
+   "concept": "keac.106.6",
+   "question_type": "compute",
+   "question_pattern": "Credit purchases from Raghu {correct_amount} were posted to the debit of Raghu's account. Rectify the error.",
+   "extracted_variables": {
+    "correct_amount": "The actual amount of credit purchases"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the correct transaction amount by two",
+     "explain": "One portion cancels the wrong entry, and the other portion establishes the correct balance on the proper side.",
+     "compute": "rectification_amount = 2 * correct_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac106.txt lines 205",
+   "concept": "keac.106.7",
+   "question_type": "compute",
+   "question_pattern": "Credit purchases from Raghu {correct_amount} were posted to the debit of Raghav as {wrong_amount}. Rectify the error.",
+   "extracted_variables": {
+    "correct_amount": "The actual amount of credit purchases",
+    "wrong_amount": "The wrong amount posted to the wrong side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the correct amount and the wrong amount",
+     "explain": "Adding both amounts cancels the incorrect entry and establishes the correct entry on the right side.",
+     "compute": "rectification_amount = correct_amount + wrong_amount"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "keac106.txt lines 217-218",
+   "questions": [
+    "Rectify the following errors: (i) Credit sales to Mohan ` 7,000 were not recorded. (ii) Credit purchases from Rohan ` 9,000 were not recorded. (iii) Goods returned to Rakesh ` 4,000 were not recorded. (iv) Goods returned from Mahesh ` 1,000 were not recorded."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "keac106.txt lines 217-218",
+   "questions": [
+    "Rectify the following errors: (i) Credit sales to Mohan ` 7,000 were recorded as ` 700. (ii) Credit purchases from Rohan ` 9,000 were recorded as ` 900. (iii) Goods returned to Rakesh ` 4,000 were recorded as ` 400. (iv) Goods returned from Mahesh ` 1,000 were recorded as ` 100."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "keac106.txt lines 217-218",
+   "questions": [
+    "Rectify the following errors: (i) Credit sales to Mohan ` 7,000 were recorded as ` 7,200. (ii) Credit purchases from Rohan ` 9,000 were recorded as ` 9,900. (iii) Goods returned to Rakesh ` 4,000 were recorded as ` 4,040. (iv) Goods returned from Mahesh ` 1,000 were recorded as ` 1,600."
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "keac106.txt lines 218",
+   "questions": [
+    "Rectify the following errors: (a) Salary paid ` 5,000 was debited to employee's personal account. (b) Rent Paid ` 4,000 was posted to landlord's personal account. (c) Goods withdrawn by proprietor for personal use ` 1,000 were debited to sundry expenses account."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

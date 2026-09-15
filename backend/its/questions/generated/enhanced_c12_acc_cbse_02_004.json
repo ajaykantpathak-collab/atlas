@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_004",
+   "title": "c12_acc_cbse_02_004",
+   "questions": [
+    {
+     "q": "A firm's average profit is ₹3,00,000, capital employed is ₹20,00,000, and normal rate of return is 12%. What is the goodwill under Capitalisation of Average Profits method?",
+     "a": "Correct answer: Goodwill = (₹3,00,000 × 100/12) − ₹20,00,000 = ₹25,00,000 − ₹20,00,000 = ₹5,00,000. A wrong answer of ₹2,50,000 reveals the student forgot to subtract capital employed and only computed capitalised value. A wrong answer of ₹3,60,000 (₹3,00,000 × 12/100) shows confusion between capitalisation multiplier and normal profit calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Capitalisation of Average Profits and Capitalisation of Super Profits always produce the same goodwill figure when applied to the same data.",
+     "a": "Correct explanation: Capitalised Average Profits = Average Profits × 100/NRR. Normal Profits = Capital Employed × NRR/100. Super Profits = Average Profits − Normal Profits. Capitalised Super Profits = Super Profits × 100/NRR = (Average Profits − Capital Employed × NRR/100) × 100/NRR = Average Profits × 100/NRR − Capital Employed = Capitalised Average Profits − Capital Employed. Both reduce to the same expression. A student who says \"they are different methods so answers differ\" misunderstands the algebraic identity linking them.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has profits for three years: ₹4,00,000, ₹5,00,000, ₹6,00,000. Capital employed is ₹30,00,000. NRR is 10%. Partners' remuneration is ₹1,00,000 p.a. not yet charged. Compute goodwill by Capitalisation of Super Profits method.",
+     "a": "Step 1: Average Profit = (₹4,00,000 + ₹5,00,000 + ₹6,00,000)/3 = ₹5,00,000. Step 2: Adjust for partners' remuneration: Maintainable Profit = ₹5,00,000 − ₹1,00,000 = ₹4,00,000. Step 3: Normal Profit = ₹30,00,000 × 10% = ₹3,00,000. Step 4: Super Profit = ₹4,00,000 − ₹3,00,000 = ₹1,00,000. Step 5: Goodwill = ₹1,00,000 × 100/10 = ₹10,00,000. A wrong answer of ₹15,00,000 indicates the student forgot to deduct partners' remuneration before computing super profit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Capitalisation of Average Profits method with the Simple Average Profit method (Number of Years' Purchase). Under what condition will both give identical goodwill? Provide a numerical example.",
+     "a": "Capitalisation of Average Profits: Goodwill = (Avg Profit × 100/NRR) − Capital Employed. Simple Average Profit: Goodwill = Avg Profit × No. of Years' Purchase. They match only when Years' Purchase = 100/NRR AND Capital Employed = 0 (impossible) OR when the capital employed exactly equals the capitalised value of normal profits such that the difference equals the simple method's result. Actually, they are conceptually different: capitalisation methods use NRR and capital employed; simple method uses arbitrary years' purchase. They yield identical results only by coincidence for specific numbers. A student claiming they always match when Years' Purchase = 100/NRR ignores the capital employed deduction in capitalisation method.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In Capitalisation of Super Profits, if super profit is negative, goodwill is negative, meaning the firm has 'badwill'.\" Evaluate this statement and explain the correct treatment.",
+     "a": "The statement is partially correct in computation but wrong in interpretation. Negative super profit (Average Profit < Normal Profit) implies the firm earns less than the normal return on capital employed. Goodwill cannot be negative in accounting; it is either zero or not recognised. The firm may have \"badwill\" economically, but accounting standards do not record negative goodwill as an asset. Instead, goodwill is taken as nil. A student who says \"goodwill = negative value\" confuses economic concept with accounting recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where the Capitalisation of Average Profits method requires adjusting for a non-trading asset (e.g., investments yielding 8% when NRR is 12%) and an abnormal loss. Provide the data and solve for goodwill.",
+     "a": "Sample problem: Profits: Year 1 ₹6,00,000 (includes abnormal loss ₹50,000), Year 2 ₹7,00,000, Year 3 ₹8,00,000. Capital Employed ₹50,00,000 (includes ₹10,00,000 investments earning 8%). NRR 12%. Solution: Step 1: Adjust profits: Year 1 = ₹6,50,000 (add back abnormal loss). Average = (₹6,50,000+₹7,00,000+₹8,00,000)/3 = ₹7,16,667. Step 2: Remove non-trading income: Investment income = ₹10,00,000 × 8% = ₹80,000. Maintainable Profit = ₹7,16,667 − ₹80,000 = ₹6,36,667. Step 3: Capital Employed for business = ₹50,00,000 − ₹10,00,000 = ₹40,00,000. Step 4: Capitalised Value = ₹6,36,667 × 100/12 = ₹53,05,558. Step 5: Goodwill = ₹53,05,558 − ₹40,00,000 = ₹13,05,558. A poor answer ignores either adjustment or uses total capital employed including investments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

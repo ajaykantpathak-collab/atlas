@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_002",
+   "title": "c11_cs_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define the three components of the IPO model and give one example of each for the problem: \"Compute the area of a rectangle given its length and breadth.\"",
+     "a": "**Correct answer:** Input – length and breadth (numeric values provided by user). Process – multiplication of length × breadth (arithmetic operation). Output – area (numeric result displayed to user).  \n**What a wrong answer reveals:** If a student lists \"formula\" as input or \"calculation\" as output, they confuse the static data with the dynamic transformation. This shows they have not internalised that Input = *what you start with*, Process = *what you do*, Output = *what you get*.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following IPO for \"Find the average of three numbers\":  \nInput: Three numbers  \nProcess: Add the three numbers  \nOutput: Average  \nExplain why this IPO is incomplete and correct it.",
+     "a": "**Correct answer:** The process step misses the division by 3. The average requires (sum of three numbers) / 3. The student confused \"sum\" with \"average\". This reveals a common misconception: treating the final arithmetic operation as optional or assuming the process is a single step. At Class 11 level, every arithmetic operation must be explicitly listed in Process.",
+     "self_check": true
+    },
+    {
+     "q": "For the problem: \"A shopkeeper gives 10% discount on purchases above ₹1000. Calculate the net amount payable for a given purchase amount.\" Construct the complete IPO table including data types and the conditional process.",
+     "a": "**Correct answer:**  \nInput: purchase_amount (float, ₹)  \nProcess:  \n1. Read purchase_amount  \n2. If purchase_amount > 1000 then discount = purchase_amount × 0.10 else discount = 0  \n3. net_amount = purchase_amount – discount  \nOutput: net_amount (float, ₹) displayed as \"Net Payable: ₹XXX.XX\"  \n**What a wrong answer reveals:** Omitting the conditional check or writing discount = 10% directly shows inability to translate business rules into algorithmic steps. Students often forget that Process must include *decision logic*, not just arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IPO models for these two problems:  \n(A) \"Convert temperature from Celsius to Fahrenheit\"  \n(B) \"Convert temperature from Celsius to Fahrenheit AND display whether it is above boiling point (100°C)\"  \nIdentify the additional input, process, and output components in (B) that are absent in (A).",
+     "a": "**Correct answer:**  \n(A) Input: celsius (float); Process: fahrenheit = (celsius × 9/5) + 32; Output: fahrenheit (float).  \n(B) Adds: Process step – comparison (celsius > 100); Output – boolean/text message \"Above boiling point\" or \"Not above boiling point\". No new input.  \n**What a wrong answer reveals:** If a student adds \"boiling point\" as an input, they misunderstand that constants (100°C) are part of the process logic, not external inputs. This confusion between *parameters* and *inputs* is a senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this IPO for \"Calculate simple interest\":  \nInput: Principal (P), Rate (R), Time (T)  \nProcess: SI = P * R * T / 100  \nOutput: Simple Interest  \nIs this IPO sufficient for a board-exam answer? Justify your evaluation with two specific criteria from the marking scheme.",
+     "a": "**Correct answer:** No, it is insufficient. Two missing criteria: (1) Data types and units for each variable (e.g., P in ₹, R in % per annum, T in years). (2) Explicit output formatting: \"Simple Interest = ₹XXX.XX\". Board marking scheme allocates marks for \"proper identification of variables with data types\" and \"clear output description\".  \n**What a wrong answer reveals:** A student who says \"yes, it's correct\" treats IPO as a mental checklist rather than a formal specification. They miss that Class 11 requires *exam-ready* documentation, not just conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-world problem (Indian context, involving at least two different data types and one conditional process) that requires a non-trivial IPO analysis. Write the complete IPO table for your problem.",
+     "a": "**Expected answer criteria:** Problem must be original (not textbook), e.g., \"Calculate electricity bill: first 100 units at ₹5/unit, next 200 at ₹7/unit, above 300 at ₹10/unit; add 18% GST; output bill with consumer name.\" IPO table must show: Input – consumer_name (string), units_consumed (int); Process – slab-wise calculation with conditionals, GST computation; Output – formatted bill with name, units, slab amounts, GST, total.  \n**What a poor answer reveals:** Copying a textbook problem or using only one data type shows inability to *synthesize* a new scenario. Missing conditionals in process indicates they cannot design multi-step logic – a prerequisite for c11_cs_cbse_03_008 (branching).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

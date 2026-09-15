@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch04_021",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch04_021",
+   "title": "c6_geography_ch04_021",
+   "questions": [
+    {
+     "q": "What is the primary goal of a farmer practicing subsistence farming?",
+     "a": "The primary goal is to produce enough food to meet the needs of the farmer's own family. A wrong answer suggests the student confuses \"self-sufficiency\" with \"profit-making,\" revealing a failure to distinguish between survival and business goals.",
+     "self_check": true
+    },
+    {
+     "q": "Why do farmers practicing subsistence farming usually grow a \"mix\" of crops rather than just one?",
+     "a": "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year. A wrong answer shows the student hasn't grasped that subsistence is about household security, not just market efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer sells their small \"surplus\" of wheat at the local market, does this change their farming type to commercial? Why or why not?",
+     "a": "No, it remains subsistence farming because the main goal was still family consumption, and the sale of surplus is secondary. A wrong answer reveals the misconception that *any* sale of produce makes a farm \"commercial.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land size usually associated with subsistence farming versus commercial farming.",
+     "a": "Subsistence farming is typically done on small landholdings (often one or two acres), while commercial farming requires large tracts of land for high-volume production. A wrong answer indicates the student doesn't understand the relationship between land scale and the purpose of farming.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a commercial farmer to also consume some of the crops they produce? Explain.",
+     "a": "Yes, but the *primary* purpose of their farming activity is to generate profit, not family self-sufficiency. A wrong answer reveals a rigid, binary thinking that fails to account for the primary business motivation in commercial models.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple table or chart that would help a farmer decide whether to switch a small portion of their land to commercial crops. What factors should they include?",
+     "a": "A good answer would include columns for \"Daily Food Needs\" (subsistence) and \"Market Demand/Profit\" (commercial). A poor answer ignores the family's basic survival needs, indicating a failure to prioritize household security in the subsistence model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

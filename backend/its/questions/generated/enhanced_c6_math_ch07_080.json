@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_080",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_080",
+   "title": "c6_math_ch07_080",
+   "questions": [
+    {
+     "q": "What are the three types of measurements required to construct a triangle according to our chapter syllabus?",
+     "a": "The required measurements are three sides (SSS), two sides and the included angle (SAS), or two angles and the included side (ASA). A wrong answer suggests the student has not yet memorized the basic criteria for triangle construction.",
+     "self_check": true
+    },
+    {
+     "q": "If you are asked to construct a triangle with sides 3 cm, 4 cm, and 10 cm, will your arcs ever meet? Why or why not?",
+     "a": "No, they will not meet because the sum of any two sides must be greater than the third side (3+4 is less than 10). If the student says \"Yes,\" they are ignoring the fundamental property of triangle inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the step-by-step process to mark the third vertex of a triangle when you are given only the lengths of three sides (SSS).",
+     "a": "1. Draw the base line segment. 2. Set your compass to the length of the second side and draw an arc from one endpoint. 3. Set your compass to the third side and draw an arc from the other endpoint. 4. The point where the arcs intersect is the third vertex. A wrong answer shows a lack of understanding of the compass as a tool for measuring fixed distances.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use a compass instead of just a ruler to find the third vertex of a triangle?",
+     "a": "A compass maintains a constant, precise distance from a center point, allowing us to find all possible locations at a specific distance, whereas a ruler can only measure one point at a time. Failing to understand this reveals that the student views the compass as a drawing tool rather than a measurement tool.",
+     "self_check": true
+    },
+    {
+     "q": "If two students construct a triangle with the same measurements (SSS), will their triangles be identical in shape and size? Justify your answer.",
+     "a": "Yes, because the SSS criteria uniquely defines a triangle; if the three sides are fixed, the angles are also fixed. A wrong answer suggests the student thinks triangles can \"change shape\" even when side lengths are restricted.",
+     "self_check": true
+    },
+    {
+     "q": "Create a plan for a friend who has never used a compass to construct a triangle with two sides of 5 cm and an angle of 60 degrees between them.",
+     "a": "The plan should include: 1. Draw a 5 cm line. 2. Use a protractor to mark a 60-degree angle from one end. 3. Draw a ray from that point. 4. Use a ruler to mark 5 cm on that ray. 5. Connect the ends. A poor answer ignores the need for a protractor for the angle or fails to define the \"included\" nature of the angle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

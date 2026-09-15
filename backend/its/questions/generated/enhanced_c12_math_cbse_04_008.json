@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_008",
+   "title": "c12_math_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the condition for a system of linear equations \\(AX = B\\) to have a unique solution using the matrix method?",
+     "a": "The condition is \\(|A| \\neq 0\\) (i.e., the coefficient matrix \\(A\\) must be non-singular). A wrong answer such as \"\\(|A| = 0\\)\" or \"\\(A\\) is singular\" reveals the student confuses the condition for existence of inverse with the condition for unique solution. This is a critical conceptual error because if \\(|A| = 0\\), \\(A^{-1}\\) does not exist and the matrix method fails.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the system \\(3x - 2y = 7, \\; 5x + 4y = 1\\) as \\(AX = B\\) with \\(A = \\begin{bmatrix}3 & -2\\\\5 & 4\\end{bmatrix}\\), \\(X = \\begin{bmatrix}x\\\\y\\end{bmatrix}\\), \\(B = \\begin{bmatrix}7\\\\1\\end{bmatrix}\\). They compute \\(A^{-1} = \\frac{1}{22}\\begin{bmatrix}4 & 2\\\\-5 & 3\\end{bmatrix}\\) and then \\(X = A^{-1}B\\). They get \\(x = \\frac{15}{11}, y = \\frac{-16}{11}\\). Is their \\(A^{-1}\\) correct? Explain why or why not.",
+     "a": "The adjoint of \\(A\\) should be \\(\\begin{bmatrix}4 & 2\\\\-5 & 3\\end{bmatrix}\\)? Let's check: For \\(A = \\begin{bmatrix}3 & -2\\\\5 & 4\\end{bmatrix}\\), cofactors: \\(A_{11}=4, A_{12}=-5, A_{21}=2, A_{22}=3\\). So \\(\\text{adj } A = \\begin{bmatrix}4 & 2\\\\-5 & 3\\end{bmatrix}^T = \\begin{bmatrix}4 & -5\\\\2 & 3\\end{bmatrix}\\). The student forgot to transpose the cofactor matrix. Their \\(A^{-1}\\) is wrong. A wrong answer that says \"yes it's correct\" reveals the student does not understand that adjoint is the transpose of the cofactor matrix, a very common error in Class 12.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the system using the matrix method:\n\\(x + 2y = 5\\)\n\\(3x - y = 4\\)\nShow all steps including finding \\(A^{-1}\\).",
+     "a": "Step 1: \\(A = \\begin{bmatrix}1 & 2\\\\3 & -1\\end{bmatrix}, X = \\begin{bmatrix}x\\\\y\\end{bmatrix}, B = \\begin{bmatrix}5\\\\4\\end{bmatrix}\\).\nStep 2: \\(|A| = (1)(-1) - (2)(3) = -1 - 6 = -7 \\neq 0\\).\nStep 3: Cofactors: \\(A_{11} = -1, A_{12} = -3, A_{21} = -2, A_{22} = 1\\). \\(\\text{adj } A = \\begin{bmatrix}-1 & -2\\\\-3 & 1\\end{bmatrix}^T = \\begin{bmatrix}-1 & -3\\\\-2 & 1\\end{bmatrix}\\).\nStep 4: \\(A^{-1} = \\frac{1}{-7}\\begin{bmatrix}-1 & -3\\\\-2 & 1\\end{bmatrix} = \\begin{bmatrix}1/7 & 3/7\\\\2/7 & -1/7\\end{bmatrix}\\).\nStep 5: \\(X = A^{-1}B = \\begin{bmatrix}1/7 & 3/7\\\\2/7 & -1/7\\end{bmatrix}\\begin{bmatrix}5\\\\4\\end{bmatrix} = \\begin{bmatrix}(5+12)/7\\\\ (10-4)/7\\end{bmatrix} = \\begin{bmatrix}17/7\\\\ 6/7\\end{bmatrix}\\).\nSo \\(x = 17/7, y = 6/7\\). A wrong answer often comes from sign errors in cofactors or forgetting to divide by \\(|A|\\). If a student gets \\(x=1, y=2\\) they likely solved by substitution and didn't use the matrix method correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the matrix method and Cramer's rule for solving a 3×3 system. Which method is more efficient when you only need the value of one variable (say \\(z\\))? Justify your answer.",
+     "a": "Cramer's rule is more efficient when only one variable is needed because you only compute two determinants: \\(|A|\\) and the determinant with the constant column replacing the \\(z\\)-column. The matrix method requires computing the full inverse (all 9 cofactors, adjoint, division by \\(|A|\\)) and then multiplying by \\(B\\), which is more work. A wrong answer claiming matrix method is faster reveals the student doesn't understand the computational load of finding the inverse versus a single determinant replacement. This is a frequent JEE trap where they ask \"find \\(z\\) only\" to test method selection.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(AX = B\\) with \\(A = \\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 4\\\\5 & 6 & 0\\end{bmatrix}\\) and finds \\(|A| = 0\\). They then compute \\((\\text{adj } A)B\\) and get a non-zero matrix. They conclude the system has infinitely many solutions. Is this conclusion correct? Explain.",
+     "a": "No, the conclusion is incorrect. If \\(|A| = 0\\) and \\((\\text{adj } A)B \\neq O\\), the system is **inconsistent** (no solution). Infinitely many solutions occur only when \\(|A| = 0\\) **and** \\((\\text{adj } A)B = O\\). The student confused the two subcases. This is a classic board exam error: mixing up the conditions for inconsistency vs. infinite solutions. A wrong answer here costs full marks in a 4-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that leads to a system of three linear equations in three variables. The system must have a unique solution. Write the problem, form the matrix equation, and solve it using the matrix method. Ensure the numbers are realistic (e.g., prices in rupees, quantities in kg).",
+     "a": "Example problem: \"A fruit vendor sells apples, bananas, and oranges. 2 kg apples, 1 kg bananas, and 3 kg oranges cost ₹210. 1 kg apples, 2 kg bananas, and 1 kg oranges cost ₹130. 3 kg apples, 1 kg bananas, and 2 kg oranges cost ₹220. Find the cost per kg of each fruit.\"\nMatrix: \\(A = \\begin{bmatrix}2 & 1 & 3\\\\1 & 2 & 1\\\\3 & 1 & 2\\end{bmatrix}, B = \\begin{bmatrix}210\\\\130\\\\220\\end{bmatrix}\\).\n\\(|A| = 2(4-1) -1(2-3) +3(1-6) = 6 +1 -15 = -8 \\neq 0\\).\nCofactors and adjoint computed correctly yield \\(A^{-1} = \\frac{1}{-8}\\begin{bmatrix}3 & 1 & -5\\\\1 & -5 & 1\\\\-5 & 1 & 3\\end{bmatrix}\\).\n\\(X = A^{-1}B = \\frac{1}{-8}\\begin{bmatrix}3 & 1 & -5\\\\1 & -5 & 1\\\\-5 & 1 & 3\\end{bmatrix}\\begin{bmatrix}210\\\\130\\\\220\\end{bmatrix} = \\frac{1}{-8}\\begin{bmatrix}630+130-1100\\\\ 210-650+220\\\\ -1050+130+660\\end{bmatrix} = \\frac{1}{-8}\\begin{bmatrix}-340\\\\ -220\\\\ -260\\end{bmatrix} = \\begin{bmatrix}42.5\\\\ 27.5\\\\ 32.5\\end{bmatrix}\\).\nCosts: apple ₹42.5/kg, banana ₹27.5/kg, orange ₹32.5/kg. A poor answer would use trivial numbers (like all 1s) or fail to set up the matrix correctly, showing inability to translate words to mathematics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

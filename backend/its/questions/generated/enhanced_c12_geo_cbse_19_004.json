@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_004",
+   "title": "c12_geo_cbse_19_004",
+   "questions": [
+    {
+     "q": "Define the term 'mean' in the context of geographical data analysis and state its formula for ungrouped data using the direct method.",
+     "a": "The mean is the arithmetic average obtained by summing all observed values and dividing by the number of observations. For ungrouped data, the direct method formula is: Mean (X̄) = Σx / N, where Σx is the sum of all raw scores and N is the total number of observations. A wrong answer (e.g., confusing mean with median or using frequency weights for ungrouped data) reveals the student cannot distinguish between the three measures of central tendency or misapplies the grouped-data formula to ungrouped data.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the median considered a better measure of central tendency than the mean for a dataset of landholding sizes in a village where a few large farms dominate the total area?",
+     "a": "The median is a positional average based on the middle-ranked value in an ordered series, so it is unaffected by extreme values (outliers). In a village with many small farms and a few very large ones, the mean would be pulled upward by the large farms, misrepresenting the typical farm size. The median correctly identifies the size at which half the farms are smaller and half are larger. A student who says \"mean is always better\" or \"median is the most frequent value\" confuses the measures and fails to understand the impact of skewness on central tendency.",
+     "self_check": true
+    },
+    {
+     "q": "The following table shows the wage rates (Rs./day) of 99 factory workers grouped into classes. Compute the mean wage rate using the indirect (assumed mean) method. Show all steps.\n\n| Wage Rate (Rs./day) | Number of Workers (f) |\n|---------------------|----------------------|\n| 50 – 70             | 10                   |\n| 70 – 90             | 20                   |\n| 90 – 110            | 25                   |\n| 110 – 130           | 35                   |\n| 130 – 150           | 9                    |",
+     "a": "**Step 1:** Find midpoints (x) of each class: 60, 80, 100, 120, 140.  \n**Step 2:** Choose assumed mean A = 100 (midpoint of 90–110 class, near centre). Class interval i = 20.  \n**Step 3:** Compute coded deviations u = (x – A)/i: –2, –1, 0, 1, 2.  \n**Step 4:** Multiply each u by frequency f to get fu: –20, –20, 0, 35, 18. Σfu = 13. Σf = N = 99.  \n**Step 5:** Apply formula: X̄ = A + (Σfu / N) × i = 100 + (13/99) × 20 = 100 + 2.626 = **102.63 Rs./day**.  \nA wrong answer (e.g., using direct method formula with midpoints but forgetting to divide by N, or using deviations d instead of coded u without adjusting for i) shows the student cannot execute the indirect method algorithm correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A geography student computes the median for the following grouped data and gets 82.5. Verify if this is correct and identify the median class.\n\n| Class | Frequency |\n|-------|-----------|\n| 50–60 | 3         |\n| 60–70 | 7         |\n| 70–80 | 11        |\n| 80–90 | 16        |\n| 90–100| 8         |\n| 100–110| 5        |",
+     "a": "**Step 1:** N = Σf = 50. Median position = N/2 = 25.  \n**Step 2:** Cumulative frequencies: 3, 10, 21, 37, 45, 50.  \n**Step 3:** The class where cumulative frequency first exceeds 25 is 80–90 (cf = 37). This is the median class.  \n**Step 4:** l = 80, i = 10, f = 16, c = 21 (cf of pre-median class 70–80).  \n**Step 5:** M = l + i/f × (N/2 – c) = 80 + 10/16 × (25 – 21) = 80 + 2.5 = **82.5**. The student's answer is correct. A wrong answer (e.g., identifying 70–80 as median class because its frequency 11 is closest to N/2, or using c = 37) reveals misunderstanding of cumulative frequency and the median class identification rule.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a perfectly symmetrical distribution of annual rainfall across 30 meteorological stations in Rajasthan, the mean, median, and mode will be identical. Therefore, any one of them can be used interchangeably for planning irrigation projects.\" Support your evaluation with geographical reasoning.",
+     "a": "The statement is **partially correct but geographically incomplete**. In a perfectly symmetrical (normal) distribution, mean = median = mode mathematically. However, for irrigation planning, the **mean** is preferred because it incorporates every station's value and is algebraically amenable for further calculations (e.g., total water budget = mean × number of stations). The median and mode, while numerically equal here, do not weight all observations equally. Moreover, real rainfall data in Rajasthan is often positively skewed (many low values, few extreme highs), making the median more representative of \"typical\" rainfall. A student who agrees fully without noting the skewness of real rainfall data or the algebraic utility of the mean shows lack of applied geographical judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small geographical investigation for your district: choose one variable (e.g., temperature, crop yield, population density), decide whether to collect ungrouped or grouped data, and justify which measure of central tendency (mean, median, or mode) would be most appropriate for your research question. Outline the steps you would take to compute it.",
+     "a": "**Example investigation:** \"Modal soil type in my district for crop suitability mapping.\"  \n**Variable:** Soil type (categorical: alluvial, black, red, laterite, etc.) — grouped by category, not numerical classes.  \n**Measure:** **Mode** — because soil type is nominal data; mean and median are meaningless for categories. The mode identifies the most widespread soil, guiding crop recommendations.  \n**Steps:** (1) Obtain soil survey map of district. (2) Count frequency of each soil type across grid cells or villages. (3) Identify the type with highest frequency. (4) Map its spatial extent. (5) Cross-reference with crop suitability charts.  \nA poor answer (e.g., choosing mean for soil type, or mode for continuous temperature data without binning) reveals inability to match data type and research question to the appropriate measure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

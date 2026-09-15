@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_003",
+   "title": "c11_ip_cbse_07_003",
+   "questions": [
+    {
+     "q": "In the GUARDIAN relation (GUID, GName, GPhone, GAddress), the textbook states GUID and GPhone are candidate keys. What two properties must an attribute (or set of attributes) satisfy to be a candidate key?",
+     "a": "A candidate key must satisfy **uniqueness** (no two tuples have the same value for the key attributes) and **minimality** (no proper subset of the key attributes also satisfies uniqueness). A wrong answer — e.g., saying \"it must be unique\" but omitting minimality — reveals the student confuses candidate keys with superkeys (any set of attributes containing a candidate key). For instance, {GUID, GName} is unique but not minimal, so it is a superkey, not a candidate key.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the ATTENDANCE relation with attributes (AttendanceDate, RollNumber, AttendanceStatus). The textbook declares {AttendanceDate, RollNumber} as the composite primary key. A student argues: \"RollNumber alone is unique for each student, so it should be the primary key.\" Explain why this reasoning is incorrect in the context of the ATTENDANCE relation.",
+     "a": "In the ATTENDANCE relation, a single student (RollNumber) appears once *per date*. Therefore RollNumber values repeat across different dates, violating uniqueness. The composite key {AttendanceDate, RollNumber} is needed because the combination is unique for each tuple (a student is marked at most once per day). A student who says RollNumber alone is the primary key fails to understand that primary key uniqueness is evaluated **within the relation**, not across the real-world entity. This misconception arises from confusing the entity (Student) with the relation (Attendance).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following instance of a relation COURSE_ENROLLMENT (StudentID, CourseCode, Semester, Grade), identify which of the following attribute sets are candidate keys, and justify each:\n(a) {StudentID, CourseCode}\n(b) {StudentID, CourseCode, Semester}\n(c) {StudentID}\n(d) {CourseCode, Semester}",
+     "a": "(a) **Candidate key** if a student can enroll in a course at most once across all semesters (unique and minimal).  \n(b) **Not minimal** — it contains (a) as a subset, so it is a superkey, not a candidate key.  \n(c) **Not a candidate key** — a student takes multiple courses, so StudentID repeats.  \n(d) **Not a candidate key** — multiple students can enroll in the same course in the same semester.  \nA wrong answer for (b) (calling it a candidate key) shows the student misses the **minimality** requirement. A wrong answer for (a) (rejecting it) shows the student doesn't test uniqueness against the actual data semantics.",
+     "self_check": true
+    },
+    {
+     "q": "In the STUDENTATTENDANCE database, the STUDENT relation has a foreign key GUID referencing GUARDIAN(GUID). The textbook notes: \"Foreign key can take NULL value if it is not part of the primary key of the foreign table.\" Construct a concrete scenario where a STUDENT tuple has GUID = NULL, and explain whether this violates referential integrity.",
+     "a": "**Scenario:** A newly admitted student whose guardian details have not yet been collected. The STUDENT tuple is inserted with GUID = NULL.  \n**Referential integrity:** **Not violated**. Referential integrity requires that *every non-NULL foreign key value* must match a primary key value in the referenced table. NULL means \"value unknown/not applicable,\" not \"value missing from parent.\" A student who claims this violates referential integrity misunderstands the SQL standard's treatment of NULL in foreign keys — a critical distinction for board exam questions on constraint behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A database designer proposes using GPhone as the primary key for the GUARDIAN relation instead of GUID, arguing \"phone numbers are already unique and we save a column.\" Evaluate this proposal. List two practical risks that make GUID a safer choice, referencing the textbook's note on phone numbers.",
+     "a": "**Evaluation:** While GPhone is a candidate key (unique), it is a **poor primary key choice** because:  \n1. **Volatility:** Phone numbers change (portability, relocation); primary keys should be immutable to avoid cascading updates across all referencing tables (ATTENDANCE, STUDENT, etc.).  \n2. **Reuse/Recycling:** Telecom providers reassign numbers; a new guardian could get an old number, breaking historical referential integrity.  \nThe textbook explicitly warns: \"phone number can change, and therefore may not truly distinguish guardian.\" A student who endorses the proposal ignores **surrogate key** best practices and the stability requirement for primary keys.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal relational schema for a \"School Transport\" system where:  \n- Each bus has a unique registration number and a driver.  \n- Each driver has a unique employee ID and can drive multiple buses (on different shifts).  \n- Each student uses exactly one bus route.  \n- A bus route is served by exactly one bus at a time.  \nDraw the relation schemas, underline primary keys, mark foreign keys with arrows (→), and list all candidate keys for each relation.",
+     "a": "**Expected schema (one valid solution):**  \n**BUS**(RegNo, Capacity, **DriverID** → DRIVER.EmpID)  \n&nbsp;&nbsp;Candidate keys: {RegNo}  \n**DRIVER**(EmpID, Name, LicenseNo)  \n&nbsp;&nbsp;Candidate keys: {EmpID}, {LicenseNo} → Primary key: EmpID, Alternate key: LicenseNo  \n**ROUTE**(RouteID, StartPoint, EndPoint, **BusRegNo** → BUS.RegNo)  \n&nbsp;&nbsp;Candidate keys: {RouteID}  \n**STUDENT_TRANSPORT**(AdmNo, **RouteID** → ROUTE.RouteID)  \n&nbsp;&nbsp;Candidate keys: {AdmNo}  \nA poor answer omits foreign keys, uses composite keys unnecessarily, or fails to list alternate keys (e.g., LicenseNo in DRIVER). This reveals the student cannot synthesise a schema from requirements — a core board exam skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

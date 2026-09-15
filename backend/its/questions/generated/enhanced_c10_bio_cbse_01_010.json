@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_010",
+   "title": "c10_bio_cbse_01_010",
+   "questions": [
+    {
+     "q": "Name the iron-containing pigment in red blood cells that binds reversibly with oxygen, and state the average lifespan of a human RBC in circulation.",
+     "a": "Correct answer: Hemoglobin (or haemoglobin); average lifespan is 120 days. A wrong answer like \"hemocyanin\" (copper-based, found in molluscs) reveals confusion between vertebrate and invertebrate respiratory pigments. Writing \"lifespan = 30 days\" or \"indefinite\" shows the student hasn't memorized the specific turnover rate, which is critical for understanding anemia and jaundice (breakdown products).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mature human RBCs lack a nucleus and mitochondria, and how this structural adaptation directly supports their primary function.",
+     "a": "Correct answer: Absence of nucleus and mitochondria maximizes internal space for hemoglobin packing (more O2 carried per cell) and prevents the cell from consuming the oxygen it transports (no aerobic respiration). A wrong answer such as \"RBCs are dead cells\" or \"they don't need energy\" reveals a misconception: RBCs are living, metabolically active cells (they perform glycolysis for ATP) but have sacrificed organelles for specialized function. This confusion often leads to errors in explaining why RBCs cannot divide or repair themselves.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a platelet count of 40,000/µL (normal: 150,000–450,000/µL). Predict the most likely clinical manifestation and explain the physiological mechanism linking low platelets to that symptom.",
+     "a": "Correct answer: Spontaneous bleeding (petechiae, nosebleeds, prolonged bleeding from minor cuts). Mechanism: Platelets adhere to damaged endothelium, aggregate to form a plug, and release clotting factors (e.g., thromboplastin) that initiate the coagulation cascade. Low count → insufficient plug formation and delayed clotting. A wrong answer like \"increased susceptibility to bacterial infections\" confuses platelets with WBCs (neutrophils/lymphocytes). This is a classic board exam trap: mixing up thrombocytopenia with leukopenia.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin and fate of RBCs and platelets in the human body. Include the specific bone marrow sites (in adults) and the organs responsible for their removal.",
+     "a": "Correct answer: Both originate from hematopoietic stem cells in red bone marrow (adults: flat bones — sternum, ribs, pelvis, vertebrae). RBCs mature in marrow, circulate ~120 days, then are phagocytosed by macrophages in spleen and liver (Kupffer cells); hemoglobin breakdown yields bilirubin. Platelets are cytoplasmic fragments of megakaryocytes, survive 7–10 days, removed mainly by spleen. A wrong answer stating \"RBCs made in spleen\" or \"platelets live for months\" indicates failure to integrate Class 9 tissue knowledge (c9_bio_ch2_6) with Class 10 circulation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Plasma is just water with dissolved salts; removing it and replacing with saline (0.9% NaCl) during transfusion has no effect on bodily functions.\" Justify your evaluation with at least three specific plasma components and their roles.",
+     "a": "Correct evaluation: Statement is false. Plasma contains (1) proteins — albumin (maintains osmotic pressure, prevents edema), globulins (antibodies, transport), fibrinogen (clotting); (2) nutrients (glucose, amino acids); (3) hormones; (4) waste (urea); (5) dissolved gases (CO2 as bicarbonate). Saline replaces only water and electrolytes, not proteins or other solutes. A student who agrees reveals they view plasma as passive water, not a dynamic protein-rich medium. Board exams often test \"functions of plasma proteins\" — missing albumin's osmotic role loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using only a microscope, slides, and a drop of blood (from a willing volunteer) to distinguish between a neutrophil and a lymphocyte. Describe the key morphological features you would observe and record.",
+     "a": "Expected answer: Prepare a thin blood smear, stain with Leishman/Giemsa (if available) or even methylene blue. Under high power (400x): Neutrophil — multi-lobed nucleus (3–5 lobes connected by thin threads), pale pink cytoplasm with fine granules. Lymphocyte — large, round, dark-staining nucleus occupying most of cell, scanty clear cytoplasm. Record nucleus shape, cytoplasm amount, granulation. Poor answer: \"Neutrophils are bigger\" (size overlap) or \"lymphocytes have no nucleus\" (false). This tests practical skill (CBSE practical syllabus) and ability to link morphology to function (phagocytosis vs. antibody production).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

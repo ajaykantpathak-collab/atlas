@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_002",
+   "title": "c11_ps_cbse_05_002",
+   "questions": [
+    {
+     "q": "A student says: \"The right to clean air is a Fundamental Right under Article 21 because the Supreme Court said so in Subhash Kumar v. State of Bihar (1991). Therefore, it is a legal right, not a moral right.\" Is the student correct that it is *only* a legal right and not a moral right? Answer in 1-2 sentences.",
+     "a": "No, the student is incorrect. The right to clean air originates as a moral claim grounded in human dignity and the right to life (a moral right), which the Supreme Court *interpreted* into Article 21, thereby granting it legal status. A right can be both moral and legal simultaneously; legal recognition does not erase its moral foundation. A wrong answer reveals the misconception that legal and moral rights are mutually exclusive categories rather than overlapping dimensions of the same claim.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the framers of the Indian Constitution include Directive Principles of State Policy (Part IV) as non-justiciable moral claims instead of making them legally enforceable Fundamental Rights? Explain the distinction this reflects between moral and legal rights.",
+     "a": "The framers distinguished between claims that require immediate legal enforcement (Fundamental Rights — legal rights) and aspirational moral claims (Directive Principles — moral rights) that depend on state resources and progressive realization. This reflects that moral rights express ethical obligations of the state, while legal rights create justiciable duties. A wrong answer reveals confusion about justiciability or the belief that all moral claims must be legally enforceable to be \"real\" rights.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal community in a Schedule V area claims a \"moral right\" to protect their sacred forest from mining, citing their cultural identity and the Forest Rights Act, 2006. The state grants a mining lease, arguing the Act only provides \"legal rights\" to individual forest dwellers, not community cultural rights. Analyze whether the community's claim remains a moral right, a legal right, or both, and what remedy they can seek.",
+     "a": "The community's claim is both a moral right (grounded in cultural dignity, self-determination, and international norms like UNDRIP) and a legal right (under Section 3(1)(i) of the Forest Rights Act recognizing community forest resource rights). They can seek legal remedy through the High Court under Article 226 for violation of statutory rights, while simultaneously mobilizing moral pressure. A wrong answer reveals inability to see how a single claim operates on both moral and legal planes, or ignorance of the Forest Rights Act's community rights provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"right to internet access\" declared by the Kerala High Court (Faheema Shirin v. State of Kerala, 2019) as part of the right to privacy and education under Article 21 with the UN Human Rights Council's 2016 resolution declaring internet access a human right. How do the *sources* and *enforceability* of this right differ between the Indian legal context and the international moral framework?",
+     "a": "The Kerala High Court judgment derives the right from the Constitution (Article 21), making it a legally enforceable right within Indian jurisdiction with judicial remedies. The UN resolution expresses a moral/political consensus (soft law) without direct enforceability in domestic courts unless incorporated into national law. The source differs: constitutional interpretation vs. international moral declaration. A wrong answer reveals conflation of international soft law with domestic hard law, or failure to distinguish justiciable constitutional rights from aspirational UN declarations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Legal rights are superior to moral rights because only legal rights can be enforced by courts.\" Consider the role of moral rights in shaping legislation, judicial interpretation, and social movements in India (e.g., right to food campaign, decriminalization of homosexuality).",
+     "a": "The statement is flawed. Moral rights are not inferior; they are the *source* of many legal rights. The right to food (moral claim) drove the National Food Security Act, 2013 (legal right). The moral claim of LGBTQ+ dignity preceded Navtej Singh Johar (2018), where the Supreme Court read down Section 377. Moral rights operate through democratic deliberation, social movements, and judicial conscience — they constrain and guide the creation of legal rights. A wrong answer reveals a positivist fallacy that only state-enacted rights matter, ignoring the dynamic interplay where moral claims *become* legal rights.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument that a student could use in a school debate to justify why \"the right to dissent\" should be recognized as both a moral right (grounded in human dignity and autonomy) and a legal right (protected under Article 19(1)(a) with reasonable restrictions under 19(2)), and explain how the two dimensions strengthen each other.",
+     "a": "A strong answer will: (1) Define moral right to dissent using Kantian dignity — humans as ends-in-themselves require freedom to question authority; (2) Cite Article 19(1)(a) as legal recognition with Article 19(2) restrictions; (3) Explain synergy: moral foundation prevents narrow legal interpretation (e.g., Romesh Thappar v. State of Madras), while legal protection gives teeth to moral claim against state suppression. A poor answer treats them as separate, ignores reasonable restrictions, or fails to cite constitutional provisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

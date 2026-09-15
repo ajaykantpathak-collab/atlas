@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_003",
+   "title": "c11_bio_cbse_06_003",
+   "questions": [
+    {
+     "q": "List the four components of xylem and identify which component is the principal water-conducting element in flowering plants (angiosperms).",
+     "a": "The four components are tracheids, vessels, xylem parenchyma, and xylem fibres. In angiosperms, **vessels** are the principal water-conducting elements. A wrong answer stating \"tracheids are the main conductors in angiosperms\" reveals confusion with gymnosperms (which lack vessels) or failure to distinguish evolutionary advancement in xylem conduction efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Sieve tube elements are living at maturity but lack a nucleus, while companion cells have dense cytoplasm and a prominent nucleus. Explain why this structural difference is functionally essential for phloem transport.",
+     "a": "Sieve tube elements lose their nucleus and most organelles to form an open, low-resistance channel for bulk flow of photosynthates. Companion cells retain full metabolic machinery to perform ATP-dependent loading/unloading of sucrose, synthesize proteins/enzymes for sieve tubes, and maintain the osmotic gradient driving pressure flow. A wrong answer claiming \"both are dead like xylem vessels\" indicates a fundamental misconception that all conducting cells are dead, ignoring the active energy requirement of phloem translocation.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a plant stem shows vascular bundles arranged in a ring. Each bundle has xylem on the inner side, phloem on the outer side, and a distinct layer of cambium between them. Identify the vascular bundle type and predict whether this stem will increase in girth over time.",
+     "a": "This is a **conjoint open vascular bundle** (xylem and phloem on same radius with cambium). Because cambium (a lateral meristem) is present, it will produce secondary xylem inward and secondary phloem outward, causing **secondary growth (increase in girth)**. A wrong answer identifying it as \"closed\" or predicting no girth increase reveals inability to link cambium presence to secondary growth capacity, a critical distinction between dicots and monocots.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations of tracheids and vessels for water conduction. Why do angiosperms retain both types despite vessels being more efficient?",
+     "a": "**Vessels**: Shorter, wider, with perforated end walls (simple or scalariform plates) → low resistance, high-volume flow (efficiency). **Tracheids**: Longer, narrower, tapering end walls with pits only → higher resistance but greater structural strength and resistance to cavitation/embolism (safety). Angiosperms retain both because vessels maximize hydraulic efficiency under favorable conditions, while tracheids provide a fail-safe conduction pathway during water stress (cavitation resistance) and contribute disproportionately to mechanical support due to their length and wall thickness. A wrong answer stating \"vessels replaced tracheids completely\" ignores the safety-efficiency trade-off central to plant hydraulic architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since xylem vessels are dead at maturity, plants have no physiological control over the rate of water transport through xylem.\"",
+     "a": "**False.** While the xylem conduits themselves are dead and cannot actively regulate flow, plants exert control at multiple living interfaces: (1) **Stomatal aperture** (guard cells) regulates transpiration pull, the primary driver of xylem flow; (2) **Root hydraulic conductivity** is modulated by aquaporin activity and suberization of endodermis (Casparian strip); (3) **Cavitation/embolism formation and repair** (via adjacent living parenchyma) dynamically alters functional xylem conductivity. A wrong answer agreeing with the statement confuses the *conduit* (dead) with the *regulatory system* (living), a classic error in distinguishing structure from physiological control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a potted herbaceous plant (e.g., *Coleus* or *Balsam*) and a water-soluble dye (e.g., eosin) to demonstrate that xylem, not phloem, conducts water. Specify the control, procedure, observation, and conclusion.",
+     "a": "**Procedure**: (1) Cut the stem underwater to avoid air entry. (2) Place one plant in water with eosin dye (treatment) and another in plain water (control). (3) After 2-3 hours, cut transverse sections of stem and leaves. **Observation**: In treatment, xylem vessels/tracheids (and leaf veins) are stained red; phloem remains unstained. Control shows no staining. **Conclusion**: Water (with dye) moves exclusively through xylem. A poor answer that suggests \"check phloem for dye\" or \"use radioactive carbon for water transport\" reveals confusion between xylem/phloem functions and appropriate tracers (dyes for apoplastic water flow, radioisotopes for symplastic phloem transport).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

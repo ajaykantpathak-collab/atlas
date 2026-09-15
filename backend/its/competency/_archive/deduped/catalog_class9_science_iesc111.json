@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Reproduction: How Life Continues",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.111.11.1",
+   "title": "Why Organisms Reproduce",
+   "section": "11",
+   "definition": "Reproduction is the life process by which organisms produce more of their own kind, ensuring the continuation of species generation after generation; it can create identical copies or varied offspring, shaping both survival and evolution.",
+   "formula": "-",
+   "key_idea": "No reproduction, no future: the process carries life across generations.",
+   "textbook_ref": "iesc111.txt opening sections on reproduction and its importance",
+   "question_patterns": [
+    "why is reproduction important for a species",
+    "define reproduction in your own words",
+    "how does reproduction help in the continuity of life",
+    "what is passed from parents to offspring during reproduction",
+    "compare the offspring of identical-copy and varied reproduction",
+    "which life process continues a species - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the purpose",
+     "explain": "Reproduction produces new individuals of the same kind."},
+    {"step": 2, "action": "note the information transfer",
+     "explain": "Genetic material passes to the next generation."},
+    {"step": 3, "action": "link to survival",
+     "explain": "Continuation plus variation keeps species alive through change."}
+   ]
+  },
+  {
+   "id": "iesc.111.11.2",
+   "title": "Asexual Reproduction",
+   "section": "11",
+   "definition": "Asexual reproduction needs one parent and gives offspring identical to it: bacteria split by fission, yeast buds, planaria regenerates from fragments, and plants multiply through runners, cuttings or spores - fast, but without variety.",
+   "formula": "-",
+   "key_idea": "One parent, identical copies: fission, budding, regeneration and spores cover the modes.",
+   "textbook_ref": "iesc111.txt sections on asexual reproduction modes",
+   "question_patterns": [
+    "define asexual reproduction with two examples",
+    "how does yeast reproduce - explain budding",
+    "describe binary fission in amoeba",
+    "what is regeneration - give an example organism",
+    "how do plants reproduce through vegetative propagation",
+    "why do asexually produced offspring show no variation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the single parent",
+     "explain": "No gametes or partners are involved."},
+    {"step": 2, "action": "identify the mode",
+     "explain": "Fission, budding, fragmentation, regeneration or spore formation."},
+    {"step": 3, "action": "check the offspring",
+     "explain": "Genetically identical clones result from the division."}
+   ]
+  },
+  {
+   "id": "iesc.111.11.3",
+   "title": "Sexual Reproduction in Plants and Animals",
+   "section": "11",
+   "definition": "Sexual reproduction involves two parents and specialised sex cells or gametes: in flowering plants pollen carries male gametes to the ovule for fertilisation, forming seeds, while in animals including humans male and female gametes fuse to form a zygote that grows into a new individual - mixing heredity to create variation.",
+   "formula": "-",
+   "key_idea": "Two gametes, one zygote: sexual reproduction mixes heredity and breeds variety.",
+   "textbook_ref": "iesc111.txt sections on sexual reproduction in plants and animals",
+   "question_patterns": [
+    "define sexual reproduction and name the gametes involved",
+    "describe pollination and fertilisation in a flower",
+    "what is a zygote and how does it form",
+    "compare asexual and sexual reproduction in a table",
+    "why does sexual reproduction create variation - explain",
+    "label the parts of a flower involved in reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the gametes",
+     "explain": "Male and female gametes carry half the genetic load each."},
+    {"step": 2, "action": "follow fertilisation",
+     "explain": "The gametes fuse into a zygote with mixed heredity."},
+    {"step": 3, "action": "trace development",
+     "explain": "Seed or embryo grows into the new individual."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "iesc111.txt exercises",
+   "questions": [
+     "Compare asexual and sexual reproduction with examples.",
+     "Describe the modes of asexual reproduction you have studied.",
+     "Explain fertilisation in flowering plants with a diagram."
+   ]
+  }
+ ]
+}

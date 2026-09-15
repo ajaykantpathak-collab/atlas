@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 12,
+ "chapter_title": "Grassroots Democracy, Part 3",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.12.1",
+   "title": "Urban Local Bodies",
+   "section": "Introduction",
+   "definition": "Cities and towns are run by urban local bodies, elected municipal councils and corporations that provide services like water, roads, waste removal and street lights for millions of residents.",
+   "formula": "",
+   "key_idea": "A city's needs are too many for any one office: elected local bodies divide the work ward by ward.",
+   "textbook_ref": "fees112.txt, Introduction",
+   "question_patterns": [
+    "what are urban local bodies and what do they do",
+    "which services does a municipal corporation provide",
+    "why do cities need complex governance systems",
+    "how is urban governance different from rural governance",
+    "name the urban local body of a big city you know",
+    "when was the municipal corporation of greater mumbai created"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.12.2",
+   "title": "Municipal Corporations and Municipal Councils",
+   "section": "Types of urban bodies",
+   "definition": "Big cities are governed by municipal corporations, smaller towns by municipal councils and nagar panchayats; each is elected, raises local taxes and keeps records for its area.",
+   "formula": "",
+   "key_idea": "The size of the settlement decides the shape of its body: corporations for metropolises, councils for towns.",
+   "textbook_ref": "fees112.txt, Types of urban bodies",
+   "question_patterns": [
+    "what is the difference between a municipal corporation and a municipal council",
+    "which type of urban body governs a big city",
+    "what is a nagar panchayat",
+    "how do municipal bodies raise money",
+    "who heads a municipal corporation",
+    "why were urban local bodies created so early in mumbai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.12.3",
+   "title": "Wards and Councillors in a City",
+   "section": "Wards",
+   "definition": "Each city is divided into wards, and every ward elects a councillor; councillors together form the municipal body, decide budgets and bye-laws, and answer to the ward's residents.",
+   "formula": "",
+   "key_idea": "Wards shrink a huge city to a human scale: every locality gets one voice in the civic body.",
+   "textbook_ref": "fees112.txt, Wards",
+   "question_patterns": [
+    "what is a ward and who represents it",
+    "what work does a councillor do",
+    "how are decisions taken in a municipal corporation",
+    "how can residents raise problems with their councillor",
+    "why is a city divided into wards",
+    "how does a ward committee serve its locality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.12.4",
+   "title": "Participatory Democracy in Cities",
+   "section": "Conclusion",
+   "definition": "Urban governance aims at participatory democracy: citizens, not just officials, take part in city functioning through elections, ward meetings and feedback, so that administration stays answerable to residents.",
+   "formula": "",
+   "key_idea": "Good city governance empowers citizens to participate, not merely to receive services.",
+   "textbook_ref": "fees112.txt, Conclusion",
+   "question_patterns": [
+    "what is participatory democracy in the urban context",
+    "how can citizens take part in city governance",
+    "why should city residents attend ward meetings",
+    "how does citizen feedback improve municipal services",
+    "what did the constituent assembly member say about local bodies",
+    "how does a school student participate in city life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees112.txt",
+   "concept": "fees.12.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does urban governance need to be more complex than rural?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the residents",
+     "explain": "Cities gather lakhs of people of many languages, trades and neighbourhoods."
+    },
+    {
+     "step": 2,
+     "action": "draw the result",
+     "explain": "Water, traffic, waste and housing at that scale need layered bodies, from wards to corporations."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees112.txt",
+   "concept": "fees.12.2",
+   "question_type": "verify_property",
+   "question_pattern": "How is a ward like a constituency in miniature?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "mark the area",
+     "explain": "A ward is a small slice of the city with clear boundaries."
+    },
+    {
+     "step": 2,
+     "action": "see the link",
+     "explain": "Its elected councillor carries local problems to the civic body, just as an MLA carries a constituency's voice to the assembly."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees112.txt, Let us explore",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "What does the quotation about local bodies desire for citizens to learn?",
+    "Why is a big city more complex and diverse than a village?",
+    "List the diverse communities residing in a city you know.",
+    "Compare the services of your town or city with those described in the chapter."
+   ]
+  }
+ ]
+}

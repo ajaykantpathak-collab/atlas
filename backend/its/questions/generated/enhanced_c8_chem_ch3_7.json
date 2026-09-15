@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_7",
+   "title": "c8_chem_ch3_7",
+   "questions": [
+    {
+     "q": "Which physical property of a substance allows it to be separated from a mixture using a bar magnet?",
+     "a": "The substance must be magnetic (such as iron, nickel, or cobalt). A wrong answer reveals a misconception that all metals are magnetic, whereas non-magnetic metals like copper, aluminum, and gold will not respond to a magnet.",
+     "self_check": true
+    },
+    {
+     "q": "Why is hand picking considered suitable only for solid-solid mixtures with large particle sizes, rather than fine powders?",
+     "a": "Hand picking requires components to be large enough to be easily seen and grasped by hand, and it is impractical for fine powders or large quantities because it is too slow and inefficient. A wrong answer shows that the student does not understand the practical limitations of manual labor and particle scale in physical separation.",
+     "self_check": true
+    },
+    {
+     "q": "A mixture contains iron filings, sulfur powder, and fine sand. Design a two-step physical method to isolate pure iron filings from this dry mixture.",
+     "a": "Step 1: Wrap a bar magnet in paper or plastic wrap and move it through the dry mixture so the iron filings are attracted to the magnet. Step 2: Lift the magnet away from the mixture and unwrap the paper to collect the pure iron filings, leaving the sand and sulfur behind. A wrong answer indicates confusion between magnetic properties and solubility or the failure to isolate the magnetic phase first.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why a mixture of iron nails and wooden sawdust cannot be separated effectively by hand picking alone, but can be separated efficiently using a combination of magnetic separation and hand picking.",
+     "a": "Iron nails are sharp and mixed with fine sawdust, making hand picking tedious, dangerous, and time-consuming. Magnetic separation quickly extracts all iron nails cleanly, leaving behind only the sawdust, which demonstrates that combining complementary physical properties optimizes separation efficiency. A wrong answer shows an over-reliance on a single technique without considering safety, speed, and physical properties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Magnetic separation can successfully separate a mixture of iron filings and copper turnings because both are metals.\" Is this statement scientifically valid?",
+     "a": "The statement is scientifically invalid because while both are metals, only iron is ferromagnetic and gets attracted to a magnet, whereas copper is non-magnetic. A wrong answer reveals a failure to distinguish between general metallic properties and specific ferromagnetic properties like magnetism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a protocol for a recycling plant sorting a municipal waste mixture containing steel bottle caps, stones, plastic wrappers, and sand. Specify which separation technique applies to each component.",
+     "a": "A good protocol should use magnetic separation first with an overhead electromagnet to pull out steel bottle caps, followed by hand picking for large plastic wrappers, and sieving or washing for stones and sand. A poor answer fails to order the steps logically or applies manual picking to microscopic particles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

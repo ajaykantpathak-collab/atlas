@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_010",
+   "title": "c11_hs_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define \"Recommended Dietary Allowance (RDA)\" as per ICMR and explain how it differs from \"nutrient requirement\" for an adolescent girl aged 14 years.",
+     "a": "RDA = nutrient requirement + margin of safety (typically 2 SD above mean requirement) to cover 97.5% of healthy individuals. For a 14-year-old girl (moderate activity), ICMR RDA 2020 for iron is 28 mg/day, while her physiological requirement may be ~18 mg/day; the extra 10 mg accounts for variability in absorption, growth spurts, and menstrual losses. A wrong answer that equates RDA with requirement reveals the student misses the \"safety margin\" concept critical for planning diets that prevent deficiency in diverse populations.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old vegetarian boy consumes 3 chapatis (90g wheat), 1 cup cooked dal (30g raw), 1 cup curd (200g), 100g spinach, and 10g oil daily. He eats no fruits, no other vegetables, and no nuts/seeds. Using the five food group guidelines, identify which groups are underrepresented and predict the two most likely micronutrient deficiencies.",
+     "a": "Underrepresented groups: Fruits (0 servings vs. 2–3 recommended) and Fats/Sugars (only 10g oil vs. 25–30g visible fat allowance; also missing essential fatty acids from nuts/seeds). Most likely deficiencies: Vitamin C (no fruit, spinach loses >50% on cooking) and Vitamin B12 (no animal foods except curd – 200g provides ~0.6 µg, RDA 2.2 µg). A wrong answer focusing only on \"protein deficiency\" shows the student overlooks that cereal-pulse combination meets protein quality, but misses the protective micronutrients from fruits and essential fats.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the total energy (kcal) and protein (g) provided by the following adolescent breakfast: 2 aloo parathas (each: 50g wheat flour + 30g potato + 5g oil), 200ml whole milk, 1 banana (80g). Use: wheat flour 340 kcal/100g, 12g protein; potato 97 kcal/100g, 1.6g protein; oil 900 kcal/100g; whole milk 61 kcal/100ml, 3.2g protein; banana 89 kcal/100g, 1.1g protein. Show steps.",
+     "a": "Step 1: Calculate per paratha: wheat 50g → 170 kcal, 6g protein; potato 30g → 29.1 kcal, 0.48g protein; oil 5g → 45 kcal. Two parathas: 488.2 kcal, 12.96g protein. Step 2: Milk 200ml → 122 kcal, 6.4g protein. Step 3: Banana 80g → 71.2 kcal, 0.88g protein. Step 4: Total = 681.4 kcal, 20.24g protein. Step 5: Compare to breakfast share of RDA (≈1/3 of 2750 kcal = 917 kcal for 13–15 yr boy): provides 74% energy, adequate protein. Wrong answer (e.g., forgetting oil energy) shows inability to account for invisible fats in cooked foods – a common error in diet evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why adolescent girls in urban India show higher prevalence of iron deficiency anemia (56% per NFHS-3) than boys (30%), despite similar RDA for iron (28 mg/day for 13–15 yr). Integrate physiological, dietary, and sociocultural factors from the NCERT text.",
+     "a": "Physiological: Menarche adds ~0.5–1 mg/day iron loss; growth spurt peaks earlier (10–14 yr) increasing blood volume expansion. Dietary: Girls more likely to skip breakfast (pursuit of thinness), avoid heme iron sources (meat), and consume tea with meals (tannins inhibit non-heme absorption). Sociocultural: Gendered food allocation (girls served last/less), early marriage pressure, limited access to iron-fortified foods. A wrong answer citing only \"menstruation\" ignores the multiplicative effect of dietary patterns and social norms – a reductionist view that fails to design effective interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Fast food can be part of a balanced adolescent diet if consumed judiciously.\" Use the nutritional limitations in Table 2 (NCERT) and the concept of \"empty calories\" to justify your position.",
+     "a": "Judicious consumption means ≤1 fast-food meal/week, choosing options with milk (calcium/riboflavin), salad (fiber/folate), grilled not fried (lower fat), and water not soda (lower sodium/energy). Even then, a typical burger meal provides 800–1000 kcal, 40–50g fat, 1000mg sodium – 30–40% of daily RDA in one meal, displacing nutrient-dense foods. The statement is conditionally true only if the *overall* weekly diet compensates with extra fruits, vegetables, whole grains, and dairy on other days. A wrong answer that says \"fast food is always unhealthy\" shows inability to apply the \"moderation and balance\" principle central to the food guide pyramid.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day meal plan for a 14-year-old rural girl (heavy activity: farming chores, fetching water) from a low-income family. Use only locally available, inexpensive foods (millets, seasonal vegetables, pulses, jaggery, groundnut chutney). Ensure it meets ≥80% RDA for energy (2330 kcal), protein (46g), iron (28mg), calcium (800mg). List foods with approximate quantities and food groups.",
+     "a": "Sample plan: Breakfast – 2 ragi rotis (100g ragi flour), 50g horse gram chutney, 100g amaranth leaves stir-fry, 10g jaggery; Lunch – 150g cooked rice, 50g raw toor dal, 100g drumstick leaves sambar, 50g raw mango pickle; Snack – 30g roasted chana + 20g peanuts; Dinner – 2 jowar bhakris (80g jowar flour), 50g raw moong dal, 100g cluster beans, 10g groundnut oil. Food groups: Cereals (ragi, rice, jowar), Pulses (horse gram, toor, moong, chana), Vegetables (amaranth, drumstick leaves, cluster beans, mango), Fats (oil, peanuts), Sugars (jaggery). Provides ~2400 kcal, 55g protein, 32mg iron (enhanced by vitamin C from amaranth/mango), 900mg calcium (ragi, amaranth, drumstick leaves). A poor answer using only rice-wheat-potato shows failure to leverage nutrient-dense, low-cost traditional foods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

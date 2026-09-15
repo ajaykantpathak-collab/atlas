@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_8",
+   "title": "c8_physics_ch5_8",
+   "questions": [
+    {
+     "q": "What is the scientific reason water is called a \"universal solvent\"?",
+     "a": "Water's polar covalent bonds give it partial positive charges on hydrogen atoms and a partial negative charge on oxygen, allowing it to attract and surround both positive and negative ions as well as other polar molecules. A wrong answer like \"water is everywhere\" or \"water dissolves everything\" reveals the student confuses the term \"universal\" (meaning wide range) with \"all substances\" and misses the molecular polarity explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does table salt (NaCl) dissolve in water but cooking oil does not?",
+     "a": "Salt is ionic – water's polar molecules pull Na⁺ and Cl⁻ ions apart and surround them (hydration). Oil is non‑polar; its molecules have no charge separation, so water's poles cannot attract them, and oil forms a separate layer. If a student says \"salt is solid, oil is liquid\" they are focusing on physical state instead of molecular polarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds 20 g of copper sulfate crystals to 100 mL of water at 25°C and stirs. After 5 minutes, 5 g of crystals remain at the bottom. Explain what this observation tells you about the solubility of copper sulfate in water at that temperature.",
+     "a": "The solution has reached saturation: 15 g dissolved in 100 mL, so the solubility is 15 g/100 mL at 25°C. The remaining 5 g cannot dissolve because the water molecules are already fully occupied hydrating the dissolved ions. A wrong answer like \"the student didn't stir enough\" shows confusion between rate of dissolving (kinetics) and maximum amount that can dissolve (equilibrium solubility).",
+     "self_check": true
+    },
+    {
+     "q": "Compare how water dissolves oxygen gas (O₂) from the air versus how it dissolves hydrogen chloride gas (HCl). What property of water allows both, and what is the key difference in the interaction?",
+     "a": "Water's polarity allows it to dissolve both. For O₂ (non‑polar), weak temporary dipoles induce slight attraction – physical dissolution. For HCl (polar covalent), water's poles strongly attract H⁺ and Cl⁻, causing ionization into H₃O⁺ and Cl⁻ – chemical reaction. A student who says \"both just mix\" misses the distinction between physical dissolution and ionization.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"Since water is a universal solvent, it should dissolve all the plastic waste in the oceans.\" Evaluate this statement and explain why it is incorrect.",
+     "a": "The claim is false. \"Universal solvent\" means water dissolves *many* substances, not *all*. Plastics are long non‑polar polymer chains; water's polar molecules cannot overcome the strong covalent bonds within the polymer or the hydrophobic interactions between chains. A student who agrees reveals the misconception that \"universal\" means \"everything\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to test whether three unknown white powders (A, B, C) are ionic, polar covalent, or non‑polar based only on their behaviour in water. List the steps and what you would observe for each type.",
+     "a": "Good answer: 1) Add equal amounts of each powder to separate cups of water. 2) Stir for 2 minutes. 3) Observe: Powder that disappears completely (forms clear solution) and conducts electricity (test with a simple LED circuit) → ionic. Powder that disappears but solution does not conduct → polar covalent (e.g., sugar). Powder that does not dissolve (floats/sinks) → non‑polar. A poor answer that only says \"see which dissolves\" misses the conductivity test to distinguish ionic from polar covalent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

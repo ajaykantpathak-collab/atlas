@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_1",
+   "title": "c9_hist_ch1_1",
+   "questions": [
+    {
+     "q": "What are the four core disciplines of Social Science as taught in the Class 9 curriculum, and what is the distinct focus of each?",
+     "a": "The four core disciplines are: History (study of human societies in time/change over time), Geography (study of human-environment interaction in space), Political Science (study of power, governance, and the state), and Economics (study of production, distribution, and consumption of scarce resources). A wrong answer that lists \"Civics\" instead of Political Science or omits Economics reveals confusion between school subject names and disciplinary definitions; listing \"Sociology\" or \"Psychology\" shows the student conflates social science disciplines with specialised sub-fields not in the Class 9 scope.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a historian not use the laboratory experimental method the way a chemist does? Explain using the nature of historical evidence.",
+     "a": "Historical events are unique, non-repeatable, and already completed; the historian cannot manipulate variables or recreate the Battle of Panipat in a lab. Evidence consists of fragmentary traces (documents, artefacts) that survive by chance, not data generated under controlled conditions. A wrong answer claiming \"history has no evidence\" or \"history is just stories\" reveals the misconception that interpretive disciplines lack rigour; the correct distinction is *observational/interpretive* vs *experimental* rigour, not absence of evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Geography is just about memorising capitals and rivers; it's not really a social science.\" Using the definition of Geography as a social science discipline, explain why this statement is incorrect.",
+     "a": "Geography as a social science studies the *relationship* between humans and their environment — how physical features shape settlement, agriculture, trade routes, and cultural patterns, and how human activity modifies landscapes. Memorising capitals is factual recall; the disciplinary core is analysing spatial patterns and human-environment interaction (e.g., why Harappan cities arose on the Indus floodplain). A wrong answer that equates Geography with map-labelling misses the analytical dimension and the conceptual bridge to History (c9_hist_ch1_2) where geography explains historical outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the way an economist and a historian would analyse the same event: the introduction of the Permanent Settlement in Bengal (1793). What questions would each ask, and what evidence would each prioritise?",
+     "a": "The economist would ask: \"What incentives did the revenue system create for zamindars and peasants? How did it affect agricultural investment, surplus extraction, and long-term productivity?\" prioritising quantitative data (revenue records, price series, landholding patterns). The historian would ask: \"How did this policy emerge from British imperial ideology and local power structures? How did different groups experience and resist it?\" prioritising qualitative sources (official correspondence, peasant petitions, travel accounts). A wrong answer that gives identical questions for both reveals failure to grasp disciplinary lenses; the distinction is *analytical framework*, not just topic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Social Science is less scientific than Physics because it cannot make precise predictions.\" Use the concepts of complexity, human agency, and the role of interpretation in your answer.",
+     "a": "The claim confuses *predictive precision* with *scientific validity*. Human societies involve conscious agents who interpret their world, respond to expectations, and change behaviour when studied (reflexivity); this makes deterministic prediction impossible but not understanding impossible. Social Science achieves scientific status through systematic evidence collection, logical inference, peer critique, and falsifiable explanations — e.g., demographic transition theory explains population patterns without predicting exact dates. A wrong answer agreeing that \"Social Science is not really science\" reveals a positivist misconception that only experimental prediction counts as science.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a one-paragraph definition of \"Social Science\" that a Class 9 student could use in a board exam answer, incorporating: (a) subject matter, (b) method, (c) disciplines, and (d) goal.",
+     "a": "Expected answer: \"Social Science is the systematic study of human societies and their interactions across time (History), space (Geography), power (Political Science), and resource allocation (Economics). Unlike natural sciences, it uses interpretive methods — analysing fragmentary evidence, understanding meanings actors assign to actions, and building contextual explanations — because its subject matter involves conscious, reflexive agents. Its goal is not universal laws but patterned understanding that helps us make sense of social complexity and inform democratic deliberation.\" A poor answer that omits interpretation or lists disciplines without linking to subject matter shows the student hasn't synthesised the disciplinary scope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

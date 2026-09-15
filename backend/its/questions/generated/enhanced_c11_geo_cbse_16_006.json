@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_006",
+   "title": "c11_geo_cbse_16_006",
+   "questions": [
+    {
+     "q": "Name the four classical stages of Demographic Transition Theory in correct sequence, and state the typical crude birth rate (CBR) and crude death rate (CDR) range (per 1000) for Stage 2.",
+     "a": "Stage 1: High Stationary (CBR ~35–40, CDR ~35–40); Stage 2: Early Expanding (CBR ~35–40, CDR falls to ~15–20); Stage 3: Late Expanding (CBR falls to ~15–20, CDR ~10–15); Stage 4: Low Stationary (CBR ~10–15, CDR ~10–15). A wrong answer—such as swapping Stages 2 and 3 or stating CBR falls before CDR—reveals the student misunderstands the fundamental lag between mortality and fertility decline that drives the population explosion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India's death rate began declining sharply after 1921 while the birth rate remained high until the 1970s, linking this to specific public health interventions and socio-cultural factors.",
+     "a": "Post-1921, mortality fell due to control of famines (improved rail transport, famine codes), epidemic control (malaria eradication, smallpox vaccination), and expanded medical facilities; birth rates stayed high because of universal early marriage, low female literacy, son preference, and lack of contraception access. A wrong answer attributing death-rate decline solely to \"economic growth\" or birth-rate decline to \"urbanization alone\" shows the student cannot distinguish between necessary and sufficient conditions for each transition.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below for two Indian states (2019 SRS), identify the DTT stage for each and calculate the natural increase rate (NIR).\nState A: CBR = 14.2, CDR = 6.8\nState B: CBR = 26.4, CDR = 5.8",
+     "a": "State A: NIR = 14.2 – 6.8 = 7.4 per 1000 → Stage 4 (Low Stationary). State B: NIR = 26.4 – 5.8 = 20.6 per 1000 → Stage 3 (Late Expanding). A student who misclassifies State B as Stage 2 (by ignoring that CDR is already low) or calculates NIR incorrectly (e.g., subtracting CBR from CDR) reveals confusion between death-rate level and birth-rate level as stage determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kerala and Bihar on three DTT indicators (CBR, CDR, female literacy) using NFHS-5 data, and analyze why Kerala reached Stage 4 three decades before Bihar despite both being in India.",
+     "a": "Kerala (CBR ~14, CDR ~7, female literacy ~96%) is Stage 4; Bihar (CBR ~27, CDR ~6, female literacy ~55%) is Stage 3. Kerala's early transition stems from historical matrilineal traditions, early missionary education, land reforms reducing poverty, and high female workforce participation—factors that lowered the \"cost\" of children and raised women's autonomy. Bihar's persistent high fertility reflects patriarchal norms, low female education, high child marriage, and limited non-farm employment. A student citing only \"economic development\" misses the critical role of social development (gender equity) as an independent driver.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India has completed its demographic transition and will soon achieve zero population growth.\" Use the concepts of demographic momentum, youth bulge, and replacement-level fertility (TFR = 2.1) in your judgment.",
+     "a": "The claim is false. India's TFR reached 2.0 in NFHS-5 (2019–21), below replacement level, but population will continue growing for 3–4 decades due to demographic momentum: a large youth cohort (aged 15–29) entering reproductive age creates a \"population bulge\" even with two-child norms. Zero growth requires TFR to stay below replacement for ~70 years (one lifespan). A student answering \"true\" because TFR < 2.1 confuses period fertility with cohort momentum and ignores the age-structure lag central to DTT Stage 4 dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level policy brief (200 words) for a hypothetical Stage 3 state (CBR 24, CDR 6, TFR 2.8, female literacy 62%) to accelerate transition to Stage 4 within 15 years, integrating education, health, and employment interventions with measurable targets.",
+     "a": "A strong brief sets: (1) Female secondary enrollment target 90% by 2030 (conditional cash transfers); (2) Contraceptive prevalence rate (CPR) from 55% to 75% via ASHA worker expansion; (3) Age at marriage >20 years via enforcement of Prohibition of Child Marriage Act; (4) Non-farm job creation for women (MGNREGA convergence, textile parks); (5) Annual monitoring via HMIS/SRS. A weak brief focusing only on sterilization camps or \"awareness campaigns\" reveals a top-down, supply-side mindset ignoring demand-side determinants (women's agency, opportunity cost of children) central to modern DTT understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

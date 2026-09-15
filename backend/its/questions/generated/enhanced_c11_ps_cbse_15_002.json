@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_002",
+   "title": "c11_ps_cbse_15_002",
+   "questions": [
+    {
+     "q": "Which constitutional article prescribes the appointment of Supreme Court judges and what is the role of the Chief Justice of India in that process?",
+     "a": "Article 124(2) states that the President appoints Supreme Court judges after consultation with such judges of the Supreme Court and High Courts as the President may deem necessary; the Chief Justice of India must always be consulted for appointments other than the CJI. A wrong answer (e.g., saying the Prime Minister appoints or that CJI has no role) reveals confusion between executive appointment power and the judicial primacy established by the collegium system.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution fix the retirement age of Supreme Court judges at 65 and High Court judges at 62, and why can this age not be changed by a simple legislative act?",
+     "a": "Fixed retirement ages (Articles 124(2) and 217(1)) prevent the executive from extending or curtailing a judge's tenure as a tool of reward or punishment; changing the age requires a constitutional amendment under Article 368, not ordinary legislation, because it alters a core independence safeguard. A wrong answer (e.g., \"Parliament can change it by passing a law\") shows misunderstanding of the rigidity of tenure protections and the distinction between constitutional provisions and ordinary statutes.",
+     "self_check": true
+    },
+    {
+     "q": "A High Court judge delivers a judgment against the state government in a politically sensitive case. The Chief Minister writes to the President requesting the judge's transfer to another High Court. Can the President order such a transfer? Explain the constitutional provisions involved.",
+     "a": "Under Article 222, the President may transfer a High Court judge after consulting the Chief Justice of India. The Supreme Court has held that such consultation requires the concurrence of the collegium, and transfers cannot be used as punitive measures. A wrong answer (e.g., \"Yes, the President can transfer on the CM's advice\") ignores the judicial primacy in transfers and the safeguard against executive pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the removal process of a Supreme Court judge with that of a member of a constitutional body like the Election Commissioner. What does this comparison reveal about the degree of judicial independence?",
+     "a": "A Supreme Court judge can only be removed by an impeachment motion passed by a special majority in both Houses of Parliament on grounds of proved misbehavior or incapacity (Article 124(4)), whereas an Election Commissioner can be removed by the President on the recommendation of the Chief Election Commissioner (or by a similar process but with lower threshold). The higher threshold for judges reflects the Constitution's intent to make the judiciary the most insulated branch. A wrong answer (e.g., \"Both can be removed by the President on advice of the Council of Ministers\") conflates the removal procedures and misses the gradation of independence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The collegium system gives the judiciary excessive power to appoint its own members without any executive or legislative oversight, violating the principle of checks and balances.\"",
+     "a": "The collegium system (evolved from the Second and Third Judges Cases) ensures judicial primacy in appointments to protect independence, but it is not absolute: the President formally appoints, the government can seek reconsideration, and the NJAC Act (though struck down) showed legislative attempt to introduce oversight. The current system balances independence with accountability through transparency measures (e.g., collegium resolutions published). A weak evaluation (e.g., \"It is undemocratic because judges appoint judges\") fails to weigh the counter-majoritarian role of the judiciary and the historical context of executive interference.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a new safeguard that would further strengthen judicial independence without undermining accountability. Explain how your provision interacts with Articles 124 and 217.",
+     "a": "A good answer might propose: \"A mandatory cooling-off period of two years after retirement before a judge can accept any government post, to prevent post-retirement expectations from influencing judgments.\" This interacts with Articles 124/217 by adding a post-tenure restriction, similar to the bar on practice before the same court (Article 124(7)), and would require a constitutional amendment. A poor answer (e.g., \"Let the Prime Minister appoint judges\") ignores the core principle of judicial primacy and the separation of powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

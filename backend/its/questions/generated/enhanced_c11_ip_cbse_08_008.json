@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_008",
+   "title": "c11_ip_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a computer virus and a worm in terms of propagation mechanism?",
+     "a": "A virus requires a host program and human action (e.g., executing an infected file) to replicate and spread, whereas a worm is a standalone program that self-replicates and spreads automatically across networks without user intervention. A wrong answer (e.g., \"both spread automatically\") reveals confusion about the **user interaction requirement** – the core taxonomic distinction in the CBSE syllabus.",
+     "self_check": true
+    },
+    {
+     "q": "A student receives an email with an attachment labeled \"Project_Report.pdf.exe\". They open it, and their webcam activates secretly, recording video. The malware does not spread to other computers. Classify this malware and explain why it is NOT a virus or worm.",
+     "a": "This is a **Trojan** (specifically a Remote Access Trojan/RAT). It is not a virus because it does not attach to or infect other files; it is not a worm because it lacks self-replication capability and does not spread automatically. A wrong classification (e.g., calling it a virus) reveals the misconception that **any malicious executable is a virus**, ignoring the defining characteristics of host-dependency and replication.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the definitions: A company's network is infected when an employee plugs in a USB drive found in the parking lot. The malware encrypts all .docx and .xlsx files on the network share and displays a ransom note. It does not replicate to other USB drives. Identify the malware type and justify using two defining properties.",
+     "a": "This is **Ransomware** (likely delivered via a Trojan dropper on the USB). Justification: (1) Payload = data encryption for extortion (defining property of ransomware), (2) No self-replication (it did not copy itself to other USBs or systems), distinguishing it from viruses/worms. A wrong answer focusing only on \"USB spread\" reveals failure to separate **delivery vector** (Trojan) from **malware category** (Ransomware).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship: \"All worms are malware, but not all malware are worms.\" Create a Venn diagram description showing the set relationships among Virus, Worm, Trojan, Ransomware, and Spyware. Can a single malware specimen belong to multiple categories? Give an example.",
+     "a": "The five categories are overlapping sets, not mutually exclusive. A Venn diagram would show five intersecting circles within a universal \"Malware\" set. Yes, a single specimen can belong to multiple categories: e.g., **WannaCry** is both a **Worm** (self-propagates via SMB vulnerability) and **Ransomware** (encrypts files for ransom). A wrong answer claiming categories are mutually exclusive reveals inability to analyze **hybrid malware** – a critical board-exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Spyware is the most dangerous malware because it steals passwords and banking details.\" Defend or refute with three comparative arguments considering impact, detectability, and remediation.",
+     "a": "**Refute.** While spyware causes severe privacy/financial loss, \"most dangerous\" is context-dependent. Arguments: (1) **Impact**: Ransomware causes immediate operational paralysis and data loss (often irreversible without backups), potentially destroying organizations; spyware is often silent and long-term. (2) **Detectability**: Spyware is designed to be stealthy (harder to detect); ransomware announces itself. (3) **Remediation**: Spyware removal restores privacy; ransomware encryption may be mathematically irreversible without decryption key. A one-sided answer reveals lack of **multi-dimensional evaluation** required for competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-world scenario (2-3 sentences) involving a malware attack on a school's online exam system. The scenario must allow identification of **exactly two** malware categories from the five. Provide the scenario and the two categories with justification.",
+     "a": "**Scenario:** \"During an online exam, students' screens suddenly show a message: 'Your answers have been uploaded to our server. Pay ₹10,000 to prevent public release.' Investigation reveals the malware entered via a fake 'browser update' popup clicked by a teacher, and it spreads to other exam computers via the local network without further clicks.\"  \n**Categories:** **Trojan** (disguised as browser update, requires user click) + **Worm** (self-propagates on LAN). **Not** ransomware (threatens data exposure, not encryption), not virus (no file infection), not spyware (no silent monitoring). A poor scenario (e.g., only one identifiable category) reveals inability to **engineer distinguishing features** into a narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

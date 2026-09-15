@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_003",
+   "title": "c12_geo_cbse_17_003",
+   "questions": [
+    {
+     "q": "Name the three major categories of human activities that cause water pollution in India, as per NCERT Class 12 Geography Chapter 9.",
+     "a": "The three major categories are industrial activities, agricultural activities, and cultural activities. A wrong answer (e.g., listing \"urban run-off\" as a separate category instead of a source under industrial/agricultural) reveals the student is confusing the *classification of activities* with the *specific sources* listed in Table 9.1. The NCERT explicitly groups human activities into these three broad categories; urban run-off is a source within industrial/urban settlements, not a separate activity category.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why agricultural run-off is considered a non-point source of pollution, while industrial discharge is a point source. Use the terms \"diffuse\" and \"identifiable location\" in your answer.",
+     "a": "Agricultural run-off is a non-point source because pollutants (fertilizers, pesticides) enter water bodies from diffuse, widespread areas (entire cultivated fields) during rainfall, with no single identifiable discharge location. Industrial discharge is a point source because effluents are released from a specific, identifiable location (a pipe or outlet from a factory). A wrong answer that swaps these definitions shows the student does not grasp the spatial distinction critical for pollution control strategies — point sources can be regulated by targeting specific outlets, while non-point sources require watershed-level management.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab applies 150 kg/ha of nitrogen fertilizer. If 30% leaches into groundwater and the remaining 70% runs off into a nearby drain that joins the Sutlej River, calculate the amount of nitrogen (in kg/ha) entering the river system via surface run-off. Assume no other losses.",
+     "a": "Step 1: Total nitrogen applied = 150 kg/ha.  \nStep 2: Fraction running off = 70% = 0.70.  \nStep 3: Nitrogen entering river via run-off = 150 × 0.70 = 105 kg/ha.  \nAnswer: 105 kg/ha of nitrogen enters the Sutlej through surface run-off.  \nA wrong answer (e.g., using 30% instead of 70%) reveals the student confused leaching (groundwater pathway) with surface run-off (river pathway). This distinction is geographically significant because leaching contaminates aquifers (long-term, hard to remediate), while run-off causes immediate river eutrophication.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pollution profile of the Ganga (Uttar Pradesh stretch) and the Yamuna (Delhi stretch) using Table 9.2. Identify two similarities and one key difference in the *dominant* pollution sources.",
+     "a": "Similarities: (1) Both receive large volumes of domestic sewage from major urban centres (Kanpur, Prayagraj, Varanasi, Patna, Kolkata for Ganga; Delhi for Yamuna). (2) Both suffer from industrial effluents (Kanpur’s leather/tanneries for Ganga; Delhi’s industries for Yamuna).  \nKey difference: The Yamuna’s pollution is heavily exacerbated by *water extraction* for irrigation by Haryana and Uttar Pradesh, which reduces dilution capacity — a factor not listed for the Ganga in Table 9.2. A wrong answer that misses the extraction factor shows the student overlooks the role of *hydrological modification* (reduced flow) in concentrating pollutants, a core geographical concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Namami Gange Programme will succeed in cleaning the Ganga if it focuses only on building sewage treatment plants (STPs).\" Use at least three pollution sources from the chapter to justify your evaluation.",
+     "a": "The statement is flawed. STPs address only *domestic sewage* (point source). They do not tackle: (1) *Industrial effluents* — toxic chemicals, heavy metals from tanneries, pulp & paper, textile units require separate effluent treatment plants (ETPs) and stricter enforcement; (2) *Agricultural run-off* — nitrates, pesticides from fields are non-point sources needing watershed management, not STPs; (3) *Cultural pollution* — carcass dumping, mass bathing, idol immersion during festivals require behavioural change and regulation, not infrastructure alone. A student who agrees reveals a narrow \"end-of-pipe\" mindset, ignoring the multi-source, basin-scale nature of river pollution that geography emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based action plan for a village on the banks of a polluted river (like Daurala in the case study) that addresses *both* groundwater contamination and surface water pollution. Your plan must include: (a) one technical intervention, (b) one governance mechanism, and (c) one behavioural change component.",
+     "a": "A strong answer includes: (a) Technical: Install rainwater harvesting structures to recharge aquifers with clean water, diluting heavy metal contamination (as done in Daurala). (b) Governance: Form a village water monitoring committee with representation from industry, panchayat, and NGOs to enforce \"polluter pays\" and monitor effluent discharge. (c) Behavioural: Launch a campaign to stop open defecation and dumping of ritual waste into the river, linking it to health data (diarrhoea, hepatitis). A weak answer focuses only on one aspect (e.g., only building a water tank) and misses the integrated approach that the Daurala case study demonstrates — combining technology, collective action, and social norms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

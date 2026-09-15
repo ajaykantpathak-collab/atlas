@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_006",
+   "title": "c12_chem_cbse_10_006",
+   "questions": [
+    {
+     "q": "Define the primary structure of a protein and state the type of covalent bond that links amino acids in this structure.",
+     "a": "Primary structure is the specific linear sequence of amino acids in a polypeptide chain, linked by peptide bonds (–CO–NH–) formed between the carboxyl group of one amino acid and the amino group of the next with elimination of water. A wrong answer (e.g., \"hydrogen bonds\" or \"disulfide bonds\") reveals confusion between primary covalent backbone and higher-order non-covalent/disulfide stabilization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the α-helix is described as a right-handed screw and identify the specific hydrogen-bonding pattern that stabilizes it.",
+     "a": "The α-helix is right-handed because the polypeptide backbone twists in a clockwise direction when viewed along the helix axis; each carbonyl oxygen (C=O) of residue *i* forms a hydrogen bond with the amide hydrogen (N–H) of residue *i+4*, creating a regular 3.6 residues per turn. A wrong answer (e.g., \"H-bonds between adjacent residues\" or \"left-handed\") shows lack of understanding of the *i* to *i+4* pattern and helical handedness.",
+     "self_check": true
+    },
+    {
+     "q": "A polypeptide segment has the sequence: –Ala–Gly–Val–Ser–Thr–. If this segment forms an α-helix, which amino acid's carbonyl oxygen will hydrogen-bond to the amide hydrogen of Threonine (Thr)?",
+     "a": "In an α-helix, the carbonyl oxygen of residue *i* H-bonds to the amide hydrogen of residue *i+4*. For Thr at position 5, *i+4* = 5 → *i* = 1, so the carbonyl oxygen of Alanine (position 1) H-bonds to Thr's amide hydrogen. A wrong answer (e.g., Ser or Val) indicates misunderstanding of the *i* → *i+4* registry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the stabilizing forces in tertiary structure of a fibrous protein (e.g., keratin) versus a globular protein (e.g., insulin). Why are fibrous proteins generally insoluble in water while globular proteins are soluble?",
+     "a": "Keratin (fibrous): stabilized mainly by hydrogen bonds between parallel polypeptide chains and numerous disulfide (–S–S–) cross-links; hydrophobic side chains are buried but the extended structure exposes limited polar surface → insoluble. Insulin (globular): stabilized by hydrogen bonds, disulfide bonds (intra-chain and inter-chain), van der Waals, and electrostatic interactions; folding buries hydrophobic residues inside and exposes hydrophilic residues outside → soluble. A wrong answer that lists only \"hydrogen bonds\" for both misses the critical role of disulfide cross-links in fibrous proteins and hydrophobic core burial in globular proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Haemoglobin has a quaternary structure consisting of two α-subunits and two β-subunits. A mutation replaces a single glutamic acid (hydrophilic) with valine (hydrophobic) on the surface of the β-subunit. Evaluate how this change could affect (a) the tertiary structure of the β-subunit, (b) the quaternary assembly, and (c) the protein's function.",
+     "a": "(a) Tertiary structure may be locally perturbed because a surface hydrophilic residue is replaced by a hydrophobic one, potentially causing misfolding or exposure of hydrophobic patches. (b) Quaternary assembly may be disrupted if the mutation lies at the α-β subunit interface, weakening subunit interactions. (c) Function (oxygen binding/cooperativity) is impaired — this is exactly sickle-cell anaemia (HbS). A wrong answer that says \"no effect because it's only one amino acid\" fails to recognize that a single surface mutation can alter subunit interactions and cause disease.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only chemicals available in a school lab (dilute acid, base, heat, ethanol, copper sulfate, sodium hydroxide) to demonstrate that a protein's secondary and tertiary structures are disrupted while its primary structure remains intact. Explain the observation at each structural level.",
+     "a": "Take egg white (albumin) in a test tube. (1) Add dilute NaOH and CuSO₄ (Biuret test) → violet color confirms peptide bonds (primary structure intact). (2) Heat the tube → egg white coagulates (opaque precipitate) due to denaturation: secondary (α-helix/β-sheet H-bonds broken) and tertiary (disulfide, hydrophobic interactions disrupted) structures lost. (3) Cool and re-test with Biuret → violet color persists, proving primary structure (peptide bonds) unaffected by heat. A poor answer that suggests hydrolysis (strong acid/heat for long time) would break peptide bonds, confusing denaturation with degradation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

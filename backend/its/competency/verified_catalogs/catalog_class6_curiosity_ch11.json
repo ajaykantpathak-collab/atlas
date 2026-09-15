@@ -1,0 +1,691 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Nature's Treasures",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu111.txt",
+ "concepts": [
+  {
+   "id": "c6cu.11.1",
+   "title": "Natural Resources",
+   "section": "11.1",
+   "definition": "Natural resources are materials and components supplied by nature that living things use to survive, such as air, water, soil, minerals, and sunlight.",
+   "formula": "",
+   "key_idea": "Everything we need to live -- air, water, food, shelter -- comes from resources that nature provides freely.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are natural resources?",
+    "Give three examples of natural resources.",
+    "Why are natural resources important for living things?",
+    "How do humans depend on natural resources?",
+    "Name one natural resource you used today."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the resource",
+     "explain": "Look at what nature provides freely, such as air, water, soil, or minerals."
+    },
+    {
+     "step": 2,
+     "action": "Check its use",
+     "explain": "Determine how living things use that resource to survive or meet a need."
+    },
+    {
+     "step": 3,
+     "action": "Classify as natural",
+     "explain": "Confirm that the resource comes from nature and is not made by humans, so it is a natural resource."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are natural resources?",
+     "solution": "Natural resources are materials supplied by nature that living things use, such as air, water, soil, and minerals.",
+     "answer": "Materials from nature that living things use to survive.",
+     "_n": 1
+    },
+    {
+     "question": "Give three examples of natural resources.",
+     "solution": "Air, water, and soil are three natural resources we use every day.",
+     "answer": "Air, water, soil.",
+     "_n": 2
+    },
+    {
+     "question": "Name one natural resource you used today.",
+     "solution": "I drank water this morning, so water is a natural resource I used today.",
+     "answer": "Water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four natural resources.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are natural resources important for living things?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a natural resource used in building a house.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.2",
+   "title": "Renewable and Non-renewable Resources",
+   "section": "11.2",
+   "definition": "Renewable resources can be replaced naturally in a short time, while non-renewable resources take millions of years to form and cannot be quickly replaced once used.",
+   "formula": "",
+   "key_idea": "Renewable resources replenish quickly; non-renewable resources get used up and cannot be replaced in our lifetime.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between renewable and non-renewable resources?",
+    "Give two examples of renewable resources.",
+    "Give two examples of non-renewable resources.",
+    "Why is coal a non-renewable resource?",
+    "Is sunlight a renewable or non-renewable resource?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the resource",
+     "explain": "Name the resource and where it comes from."
+    },
+    {
+     "step": 2,
+     "action": "Check replacement time",
+     "explain": "Decide whether nature can replace it quickly or whether it takes millions of years."
+    },
+    {
+     "step": 3,
+     "action": "Classify",
+     "explain": "If it replaces quickly it is renewable; if it cannot be replaced soon it is non-renewable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give two examples of renewable resources.",
+     "solution": "Sunlight and wind are renewable because they keep coming and do not get used up.",
+     "answer": "Sunlight and wind."
+    },
+    {
+     "question": "Why is coal a non-renewable resource?",
+     "solution": "Coal forms from dead plants buried millions of years ago, so it cannot be replaced quickly once mined.",
+     "answer": "Coal takes millions of years to form, so it is non-renewable."
+    },
+    {
+     "question": "Is water renewable or non-renewable?",
+     "solution": "Water is renewable because the water cycle keeps replacing it, though we must not waste it.",
+     "answer": "Water is renewable."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify petroleum as renewable or non-renewable and explain why.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one renewable resource used to make electricity.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should we use non-renewable resources carefully?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.3",
+   "title": "Air and its Importance",
+   "section": "11.3",
+   "definition": "Air is a mixture of gases surrounding the Earth, mainly nitrogen and oxygen, that all living things need to breathe and survive.",
+   "formula": "",
+   "key_idea": "Air contains oxygen for breathing and carbon dioxide for plants; without air, life cannot survive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is air important for living things?",
+    "Which two gases are most abundant in air?",
+    "How do plants use air?",
+    "What would happen if there were no air?",
+    "Give one example of air being used in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the gases in air",
+     "explain": "Air is mostly nitrogen and oxygen, with small amounts of other gases."
+    },
+    {
+     "step": 2,
+     "action": "Explain its use by living things",
+     "explain": "Animals breathe oxygen from air, and plants use carbon dioxide from air to make food."
+    },
+    {
+     "step": 3,
+     "action": "State the consequence of no air",
+     "explain": "Without air, living things cannot breathe and cannot survive."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which two gases are most abundant in air?",
+     "solution": "Nitrogen is the most abundant gas, and oxygen is the second most abundant.",
+     "answer": "Nitrogen and oxygen."
+    },
+    {
+     "question": "How do plants use air?",
+     "solution": "Plants take in carbon dioxide from air to make food by photosynthesis and release oxygen.",
+     "answer": "Plants use carbon dioxide from air to make food."
+    },
+    {
+     "question": "Why is air important for living things?",
+     "solution": "Air has oxygen that animals breathe and carbon dioxide that plants use, so all life depends on it.",
+     "answer": "Air provides oxygen to breathe and carbon dioxide for plants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What would happen to animals if there were no air?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name the gas that humans need from air.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of air being used in daily life.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.4",
+   "title": "Water as a Resource",
+   "section": "11.4",
+   "definition": "Water is a vital natural resource that all living things need for drinking, cooking, cleaning, farming, and industry, and it cycles through nature as the water cycle.",
+   "formula": "",
+   "key_idea": "Although water covers most of Earth, only a small fraction is fresh water fit for use, so it must be used wisely.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is water called a precious resource?",
+    "How much of Earth's water is fresh water?",
+    "Name three uses of water in daily life.",
+    "How does the water cycle renew water?",
+    "Why should we avoid wasting water?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the uses of water",
+     "explain": "Water is used for drinking, cooking, farming, and industry."
+    },
+    {
+     "step": 2,
+     "action": "Note the limited fresh water",
+     "explain": "Most water on Earth is salty; only a small part is fresh water we can use."
+    },
+    {
+     "step": 3,
+     "action": "Explain why it is precious",
+     "explain": "Because usable fresh water is limited, water is a precious resource that must not be wasted."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is water called a precious resource?",
+     "solution": "Only a small fraction of Earth's water is fresh and usable, yet all life needs it, so it is precious.",
+     "answer": "Usable fresh water is limited and all life needs it."
+    },
+    {
+     "question": "Name three uses of water in daily life.",
+     "solution": "We use water for drinking, cooking, and cleaning.",
+     "answer": "Drinking, cooking, cleaning."
+    },
+    {
+     "question": "How does the water cycle renew water?",
+     "solution": "Water evaporates, forms clouds, falls as rain, and flows back to rivers and seas, renewing the supply.",
+     "answer": "Evaporation, cloud formation, and rain renew water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How much of Earth's water is fresh water?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give two ways to save water at home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is water important for farming?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.5",
+   "title": "Soil as a Resource",
+   "section": "11.5",
+   "definition": "Soil is the upper layer of Earth's surface made of weathered rock particles and humus that supports plant growth and provides a home for many organisms.",
+   "formula": "",
+   "key_idea": "Soil forms slowly from rocks and organic matter and supports nearly all food production, so it must be protected from erosion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is soil made of?",
+    "Why is soil important for plants?",
+    "How is soil formed?",
+    "What is soil erosion?",
+    "Give one way to prevent soil erosion."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of soil",
+     "explain": "Soil is made of weathered rock particles, minerals, water, air, and humus."
+    },
+    {
+     "step": 2,
+     "action": "Explain its role for plants",
+     "explain": "Soil holds roots, supplies nutrients and water, and lets plants grow."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need to protect soil",
+     "explain": "Soil forms very slowly, so erosion by wind and water must be prevented to keep it fertile."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is soil made of?",
+     "solution": "Soil is made of weathered rock particles, minerals, water, air, and humus from dead matter.",
+     "answer": "Rock particles, minerals, water, air, and humus."
+    },
+    {
+     "question": "Why is soil important for plants?",
+     "solution": "Soil holds the roots, gives nutrients and water, and lets plants stand upright and grow.",
+     "answer": "Soil gives nutrients, water, and support to plants."
+    },
+    {
+     "question": "Give one way to prevent soil erosion.",
+     "solution": "Planting trees holds the soil with roots and stops wind and water from carrying it away.",
+     "answer": "Planting trees prevents soil erosion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is soil formed from rocks?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is soil erosion?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one organism that lives in soil.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.6",
+   "title": "Forests and their Importance",
+   "section": "11.6",
+   "definition": "A forest is a large area covered chiefly with trees and undergrowth that provides oxygen, food, shelter, and medicines, and maintains the balance of nature.",
+   "formula": "",
+   "key_idea": "Forests are called the green lungs of the Earth because they give oxygen, hold soil, bring rain, and shelter wildlife.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are forests called the green lungs of the Earth?",
+    "Name three things forests provide.",
+    "How do forests help in bringing rain?",
+    "Why is it important to conserve forests?",
+    "Give one example of a product we get from forests."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify what forests provide",
+     "explain": "Forests give oxygen, food, wood, medicines, rubber, and shelter for wildlife."
+    },
+    {
+     "step": 2,
+     "action": "Explain their environmental role",
+     "explain": "Trees release water vapour that helps form clouds and rain, and roots hold the soil."
+    },
+    {
+     "step": 3,
+     "action": "State why we must conserve them",
+     "explain": "Cutting forests harms wildlife, reduces rain, and causes soil loss, so forests must be conserved."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are forests called the green lungs of the Earth?",
+     "solution": "Forests release oxygen through photosynthesis, which all living things breathe, so they act like lungs.",
+     "answer": "Forests release oxygen that living things need to breathe."
+    },
+    {
+     "question": "Name three things forests provide.",
+     "solution": "Forests provide wood, medicines, and food such as fruits and honey.",
+     "answer": "Wood, medicines, and food."
+    },
+    {
+     "question": "How do forests help in bringing rain?",
+     "solution": "Trees release water vapour into the air, which forms clouds and brings rain.",
+     "answer": "Trees release water vapour that forms clouds and rain."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is it important to conserve forests?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a medicine obtained from forests.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do forests protect soil?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.7",
+   "title": "Fossil Fuels -- Coal and Petroleum",
+   "section": "11.7",
+   "definition": "Fossil fuels such as coal and petroleum are non-renewable fuels formed from the remains of dead plants and animals buried under high pressure over millions of years.",
+   "formula": "",
+   "key_idea": "Coal and petroleum store energy from ancient sunlight and are limited, so they must be used carefully.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are fossil fuels?",
+    "How was coal formed?",
+    "Why are petroleum and coal called non-renewable?",
+    "Name two products obtained from petroleum.",
+    "Why should we reduce the use of fossil fuels?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fossil fuels",
+     "explain": "Coal and petroleum are the main fossil fuels formed from ancient remains."
+    },
+    {
+     "step": 2,
+     "action": "Explain their formation",
+     "explain": "Dead plants and animals were buried under high pressure and heat for millions of years to form these fuels."
+    },
+    {
+     "step": 3,
+     "action": "Explain why they are limited",
+     "explain": "They take millions of years to form and cannot be replaced quickly, so they are non-renewable and must be used wisely."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are fossil fuels?",
+     "solution": "Fossil fuels are fuels like coal and petroleum formed from the remains of dead organisms over millions of years.",
+     "answer": "Coal and petroleum formed from ancient dead remains."
+    },
+    {
+     "question": "How was coal formed?",
+     "solution": "Swamp forests were buried under mud and pressure for millions of years, slowly turning into coal.",
+     "answer": "Buried plant remains under pressure turned into coal."
+    },
+    {
+     "question": "Name two products obtained from petroleum.",
+     "solution": "Petrol and diesel are two products obtained by refining petroleum.",
+     "answer": "Petrol and diesel."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are coal and petroleum called non-renewable?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one product made from petroleum used in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should we reduce the use of fossil fuels?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.8",
+   "title": "Solar Energy",
+   "section": "11.8",
+   "definition": "Solar energy is the light and heat energy given out by the Sun, which is a renewable resource used for cooking, heating, and generating electricity.",
+   "formula": "",
+   "key_idea": "The Sun is an endless source of clean energy that can be used with solar panels and cookers instead of fossil fuels.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is solar energy?",
+    "Why is solar energy called a renewable resource?",
+    "Give two uses of solar energy.",
+    "How does a solar cooker work?",
+    "Why is solar energy better than fossil fuels?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Solar energy comes from the light and heat of the Sun."
+    },
+    {
+     "step": 2,
+     "action": "Explain its uses",
+     "explain": "It is used for cooking, heating water, drying, and making electricity with solar panels."
+    },
+    {
+     "step": 3,
+     "action": "Explain why it is renewable",
+     "explain": "The Sun will keep shining for billions of years, so solar energy will not run out and is renewable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is solar energy?",
+     "solution": "Solar energy is the light and heat energy given out by the Sun.",
+     "answer": "Light and heat energy from the Sun."
+    },
+    {
+     "question": "Give two uses of solar energy.",
+     "solution": "Solar energy is used to heat water and to make electricity with solar panels.",
+     "answer": "Heating water and making electricity."
+    },
+    {
+     "question": "Why is solar energy better than fossil fuels?",
+     "solution": "Solar energy is renewable, clean, and does not pollute, while fossil fuels are limited and cause pollution.",
+     "answer": "Solar energy is renewable and clean."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is solar energy called a renewable resource?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a solar cooker use sunlight?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one device that uses solar energy at home.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.9",
+   "title": "Conservation of Natural Resources",
+   "section": "11.9",
+   "definition": "Conservation means using natural resources carefully and wisely so they last longer and are available for future generations.",
+   "formula": "",
+   "key_idea": "The three R's -- Reduce, Reuse, and Recycle -- help us conserve resources and protect the Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is conservation of natural resources?",
+    "What are the three R's of conservation?",
+    "Give one way to save water at home.",
+    "Why should we recycle paper and plastic?",
+    "How can students help in conserving resources?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the need for conservation",
+     "explain": "Many resources are limited, so we must use them carefully to make them last."
+    },
+    {
+     "step": 2,
+     "action": "Apply the three R's",
+     "explain": "Reduce means use less, reuse means use again, and recycle means turn waste into new products."
+    },
+    {
+     "step": 3,
+     "action": "Give an everyday action",
+     "explain": "Turning off taps, using both sides of paper, and recycling plastic are ways to conserve resources daily."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is conservation of natural resources?",
+     "solution": "Conservation means using resources carefully and wisely so they last for future generations.",
+     "answer": "Using resources carefully so they last longer."
+    },
+    {
+     "question": "What are the three R's of conservation?",
+     "solution": "The three R's are Reduce, Reuse, and Recycle.",
+     "answer": "Reduce, Reuse, Recycle."
+    },
+    {
+     "question": "Give one way to save water at home.",
+     "solution": "Turning off the tap while brushing teeth saves water.",
+     "answer": "Turn off the tap while brushing teeth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give two ways to conserve electricity at home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should we recycle paper and plastic?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can students help in conserving resources?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.11.10",
+   "title": "Saving Water by Calculation",
+   "section": "11.9",
+   "definition": "We can measure how much water we save by counting the water saved per action and multiplying by how often the action happens.",
+   "formula": "total_saved = saved_per_action x number_of_actions",
+   "key_idea": "Small daily savings add up to a large amount of water over time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How much water is saved if a tap leaks 2 litres per day for 30 days?",
+    "If you save 5 litres per day by fixing a tap, how much is saved in a year?",
+    "Calculate the water saved by turning off the tap while brushing.",
+    "How much water is wasted by 10 dripping taps each wasting 3 litres a day?",
+    "Find the total water saved per week if each shower is shortened by 4 litres."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find water saved per action",
+     "explain": "Identify how much water is saved or wasted in one action.",
+     "compute": "per_action = given_value"
+    },
+    {
+     "step": 2,
+     "action": "Count the number of actions",
+     "explain": "Find how many times the action happens in the period.",
+     "compute": "count = given_number"
+    },
+    {
+     "step": 3,
+     "action": "Multiply to get total",
+     "explain": "Multiply the per-action amount by the number of actions.",
+     "compute": "total = per_action * count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If a tap wastes 2 litres per day, how much is wasted in 30 days?",
+     "solution": "Multiply the daily waste by the number of days: 2 x 30 = 60 litres.",
+     "answer": "60 litres."
+    },
+    {
+     "question": "You save 5 litres per day by fixing a leak. How much is saved in 7 days?",
+     "solution": "Multiply the daily saving by 7 days: 5 x 7 = 35 litres.",
+     "answer": "35 litres."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A tap wastes 3 litres per day. How much is wasted in 10 days?",
+     "type": "compute"
+    },
+    {
+     "question": "If you save 4 litres per shower and shower once a day, how much do you save in a week?",
+     "type": "compute"
+    },
+    {
+     "question": "Why does saving a little water each day matter over a year?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu111.txt",
+   "concept": "c6cu.11.1",
+   "question_type": "short_answer",
+   "question_pattern": "What are natural resources?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Natural resources are materials supplied",
+     "explain": "Natural resources are materials supplied by nature that living things use, such as air, water, soil, and minerals."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu111.txt",
+   "concept": "c6cu.11.1",
+   "question_type": "short_answer",
+   "question_pattern": "Give three examples of natural resources.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Air, water, and soil are",
+     "explain": "Air, water, and soil are three natural resources we use every day."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

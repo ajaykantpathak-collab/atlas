@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_004",
+   "title": "c11_acc_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the formula for calculating annual depreciation under the Straight Line Method and define each variable used in the formula.",
+     "a": "Annual Depreciation = (Cost of Asset - Estimated Net Residual Value) / Estimated Useful Life of the Asset. Cost of Asset = Invoice price + all expenses to bring asset to working condition (freight, installation, transit insurance). Net Residual Value = Estimated sale value at end of useful life less disposal expenses. Useful Life = Estimated economic/commercial life in years (not physical life). A wrong answer reveals the student confuses \"cost\" with only purchase price (ignoring installation/freight), uses market value instead of residual value, or uses physical life instead of useful life.",
+     "self_check": true
+    },
+    {
+     "q": "A machine is purchased for ₹2,00,000 on 1st July 2023. Installation costs ₹20,000. Estimated useful life is 10 years and scrap value ₹20,000. The firm closes books on 31st March. Explain why the depreciation for the first year (2023-24) is NOT simply 10% of ₹2,20,000.",
+     "a": "The asset was used only for 9 months (July to March) in the first accounting year, so depreciation must be proportionate: Annual Depreciation = (2,20,000 - 20,000)/10 = ₹20,000. First year depreciation = ₹20,000 × 9/12 = ₹15,000. A wrong answer (₹20,000 or ₹22,000) reveals the student ignores part-year depreciation, treats the full year as chargeable regardless of acquisition date, or applies percentage on cost without deducting scrap value first.",
+     "self_check": true
+    },
+    {
+     "q": "M/s Gupta Enterprises purchased a machine for ₹3,00,000 on 1st April 2022 (installation ₹30,000). Useful life 5 years, scrap ₹30,000. They maintain Provision for Depreciation Account. Show the journal entries for 2022-23 and 2023-24, and the ledger accounts for both years.",
+     "a": "**Journal Entries:**\n2022-23: \n- Machine A/c Dr. 3,30,000 → Bank/Vendor 3,30,000\n- Depreciation A/c Dr. 60,000 → Provision for Depreciation A/c 60,000\n- P&L A/c Dr. 60,000 → Depreciation A/c 60,000\n2023-24: Same depreciation entries (₹60,000 each year).\n\n**Machine Account** shows ₹3,30,000 balance b/d both years (original cost unchanged).\n**Provision for Depreciation Account**: 2022-23 Cr. ₹60,000; 2023-24 Cr. ₹1,20,000 (cumulative).\nA wrong answer reveals: (a) crediting Machine Account instead of Provision Account; (b) showing machine at written down value in Balance Sheet; (c) forgetting to transfer depreciation to P&L; (d) miscalculating depreciable cost as ₹3,00,000 instead of ₹3,30,000.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total charge against Profit & Loss (Depreciation + Repairs) over 5 years for an asset under SLM vs WDV, assuming repairs increase each year. Why does SLM create an increasing total burden while WDV creates a roughly uniform burden?",
+     "a": "Under SLM: Depreciation constant (e.g., ₹20,000/year). Repairs: Year 1 ₹5,000, Year 2 ₹8,000, Year 3 ₹12,000, Year 4 ₹18,000, Year 5 ₹25,000. Total charge: Year 1 ₹25,000 → Year 5 ₹45,000 (increasing). Under WDV: Depreciation decreases (e.g., ₹40,000, ₹32,000, ₹25,600, ₹20,480, ₹16,384). Total charge: Year 1 ₹45,000, Year 2 ₹40,000, Year 3 ₹37,600, Year 4 ₹38,480, Year 5 ₹41,384 (roughly stable). A wrong answer reveals the student doesn't grasp that SLM's constant depreciation + rising repairs = rising total, while WDV's falling depreciation offsets rising repairs.",
+     "self_check": true
+    },
+    {
+     "q": "\"Straight Line Method is suitable for assets where repair charges are low and obsolescence is low.\" Evaluate this statement with reference to leasehold buildings and patents. Would you recommend SLM for a delivery truck? Justify.",
+     "a": "**Leasehold buildings**: Yes, SLM suitable. Legal life fixed (lease period), repairs minimal, no technological obsolescence. Depreciation = Cost / Lease period. **Patents**: Yes, SLM suitable. Legal life fixed (e.g., 20 years), no physical wear, no repairs. **Delivery truck**: No, SLM NOT suitable. High repairs in later years, technological obsolescence (emission norms, fuel efficiency), heavy usage variation. WDV better as higher early depreciation matches higher early utility and offsets later repair burden. A wrong recommendation reveals the student memorizes \"SLM for buildings\" without understanding the underlying principle: match depreciation pattern to benefit pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: A company buys a specialized packaging machine on 1st January 2024 for ₹8,00,000 (including ₹50,000 installation). Expected life 6 years, scrap ₹80,000. The company follows calendar year. On 1st July 2025, they spend ₹1,20,000 on a major modification that extends useful life by 2 years (total remaining life becomes 5 years from July 2025). Calculate depreciation for 2024, 2025, 2026. Show your work.",
+     "a": "**2024 (Jan-Dec)**: Cost = ₹8,00,000. Depreciable = 8,00,000 - 80,000 = 7,20,000. Annual = 7,20,000/6 = ₹1,20,000. Full year = ₹1,20,000.\n**2025 (Jan-Jun)**: Same rate, 6 months = ₹60,000. WDV on 1st July = 8,00,000 - 1,20,000 - 60,000 = ₹6,20,000.\n**Modification**: Capitalised ₹1,20,000. New book value = 6,20,000 + 1,20,000 = ₹7,40,000. Remaining life = 5 years. Scrap still ₹80,000. New depreciable = 7,40,000 - 80,000 = 6,60,000. New annual = 6,60,000/5 = ₹1,32,000.\n**2025 (Jul-Dec)**: 6 months × 1,32,000 = ₹66,000.\n**2026 (full year)**: ₹1,32,000.\nA poor answer reveals inability to handle mid-year capitalisation with life extension: forgetting to recalculate depreciable base using new WDV + addition, not adjusting remaining life, or continuing old rate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

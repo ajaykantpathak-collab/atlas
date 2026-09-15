@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_010",
+   "title": "c11_ps_cbse_04_010",
+   "questions": [
+    {
+     "q": "Which constitutional article empowers the President to specify the castes deemed to be Scheduled Castes in a state?",
+     "a": "Article 341(1) authorises the President to notify the list of Scheduled Castes for each state after consulting the Governor. A wrong answer (e.g., Article 330 or 15(4)) reveals confusion between legislative reservation (Article 330), enabling provision for special provisions (Article 15(4)), and the actual identification mechanism (Article 341).",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constituent Assembly provide reservations for SCs and STs in legislatures (Articles 330, 332) but not for OBCs at that time?",
+     "a": "SCs and STs were identified as historically subjected to untouchability and geographical isolation respectively, making their political exclusion explicit and severe; OBCs were recognised later (via Article 340 commissions) as socially and educationally backward but not subjected to the same degree of political disability. A wrong answer (e.g., \"OBCs were not backward then\") shows ignorance of the historical-political distinction the framers drew between untouchability/isolated tribes and general backwardness.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a 10% quota for economically weaker sections (EWS) among forward castes without exceeding the 50% ceiling. Using the Indra Sawhney (1992) framework, analyse whether this violates the basic structure.",
+     "a": "Indra Sawhney held that the 50% ceiling is a rule of prudence, not an absolute bar, and that economic criteria alone cannot be the sole basis for reservation under Article 16(4). However, the 103rd Amendment (2019) inserted Articles 15(6) and 16(6) explicitly permitting EWS quotas, which the Supreme Court upheld in Janhit Abhiyan (2022) as not violating basic structure because it operates outside the 50% limit for socially backward classes. A wrong answer (e.g., \"it violates 50% limit\") misses the constitutional amendment route and the distinction between social and economic backwardness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mandal Commission's criteria for identifying OBCs with the Sachar Committee's approach for Muslims. What does the difference reveal about the Constitution's treatment of caste vs. religion?",
+     "a": "Mandal used eleven social, educational, and economic indicators centred on caste hierarchy (e.g., stigmatised occupations, low female literacy), while Sachar documented developmental deficits (education, employment, credit access) without treating Muslims as a monolithic \"backward class\" under Article 16(4). This reveals the Constitution permits caste-based classification for reservations (Article 15(4)/16(4)) but prohibits religion-only classification (Article 15(1)); Muslims can benefit as OBCs if they meet caste-like criteria, not merely by religious identity. A wrong answer (e.g., \"both use religion\") conflates the constitutional categories.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Reservations for SC/ST/OBC in promotions (Article 16(4A)) undermine administrative efficiency and violate the principle of merit.\"",
+     "a": "The argument assumes merit is purely individual test scores, ignoring that merit itself is socially constructed and that diverse representation enhances decision-making legitimacy. The Supreme Court in M. Nagaraj (2006) and Jarnail Singh (2018) upheld 16(4A) subject to quantifiable data on backwardness, inadequacy of representation, and administrative efficiency—balancing compensatory justice with institutional competence. A weak evaluation either dismisses reservations as anti-merit or ignores the Court's evidence-based safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy brief for a Chief Minister arguing whether the state should sub-categorise OBCs into \"More Backward\" and \"Backward\" for quota allocation, citing constitutional and empirical grounds.",
+     "a": "A strong brief will: (1) cite Article 16(4) permitting classification among backward classes; (2) reference the Rohini Commission's finding that a few dominant OBCs capture most benefits; (3) note Supreme Court approval of sub-classification in State of Punjab v. Davinder Singh (2020); (4) propose a data-driven formula using population share and representation indices; (5) address creamy layer exclusion. A poor brief relies on political expediency without constitutional or empirical anchoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

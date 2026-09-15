@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_003",
+   "title": "c12_bs_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define 'economic environment of business in India' as per NCERT, listing any four macro-level factors that constitute it.",
+     "a": "The economic environment in India consists of various macro-level factors related to the means of production and distribution of wealth which have an impact on business and industry. Four factors: (1) Stage of economic development, (2) Mixed economy structure recognising public and private sectors, (3) Economic policies of the Government (industrial, monetary, fiscal), (4) Economic indices like national income, GNP growth, per capita income, savings/investment rates, exports/imports, balance of payments. A wrong answer that lists only micro factors (e.g., firm's own costs, competitor pricing) reveals confusion between specific and general environment forces — a classic board exam error where students fail to distinguish firm-level from economy-wide variables.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pre-1991 Indian economic model, despite achieving self-reliance in heavy industry, led to a balance of payments crisis by 1991. Use at least three specific indicators from the crisis data.",
+     "a": "The pre-1991 model prioritised heavy industry under public sector via import substitution, but neglected export competitiveness and fiscal discipline. Three crisis indicators: (1) Fiscal deficit hit 6.6% of GDP (1990-91), with interest payments consuming 39% of central revenue; (2) Forex reserves fell to barely 3 weeks of import cover, forcing gold pledges (20 tonnes to SBI, 47 tonnes to Bank of England); (3) GNP growth collapsed to 1.4% from 10.5% peak, with agriculture (-2.8%), foodgrains (-5.3%), industry (-0.1%) all contracting. A wrong answer that blames only \"corruption\" or \"population\" misses the structural policy failures — import controls stifled export orientation, and public sector monopolies bred inefficiency. This misconception costs marks in long-answer questions requiring policy-economy linkage.",
+     "self_check": true
+    },
+    {
+     "q": "A domestic automobile component manufacturer in 1990 needed government approval to increase production capacity by 25%. After the 1991 Industrial Policy, the same firm in 1995 faces no such restriction but sees foreign competitors entering its market. Identify which specific liberalisation measure removed the capacity restriction, and which globalisation measure allowed foreign entry. Explain the net impact on the firm's pricing power.",
+     "a": "Liberalisation measure: Amendment of the MRTP Act (1991) eliminated the need for prior Central Government approval for capacity expansion, diversification, and mergers by large companies. Globalisation measure: Import licensing for capital goods, raw materials, intermediates, and components was eliminated; tariff rationalisation and tradeable import entitlements (Exim scrips) replaced quantitative restrictions. Net impact: The firm gained freedom to scale (reducing unit costs via economies of scale) but lost pricing power as foreign competitors brought superior technology and lower costs — forcing quality upgrades and cost compression. A wrong answer that says \"licensing was removed for all industries\" is factually incorrect (18 strategic/environmental industries retained licensing) and shows lack of precision in policy detail — a common trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of privatisation via disinvestment (post-1991) versus the pre-1991 public sector dominance on: (a) budgetary support to public sector, (b) efficiency of resource allocation, (c) employment security in public enterprises. Use the concept of 'loss of budgetary support to the public sector' from the NCERT summary of policy change impacts.",
+     "a": "(a) Pre-1991: Public sector received substantial budgetary support (plan outlays, subsidies, soft loans). Post-1991: Disinvestment diluted government equity; loss-making units referred to BIFR — budgetary support sharply declined as profit/loss accountability shifted to market. (b) Pre-1991: Resource allocation driven by plan priorities, not market signals — led to over-investment in low-return heavy industry. Post-1991: Private sector entry in 9 core areas (earlier reserved) introduced competition, forcing efficiency. (c) Pre-1991: Employment security high (permanent jobs, assured wages). Post-1991: Voluntary retirement schemes (VRS), contractualisation, and closure of sick units reduced security — a trade-off for fiscal sustainability. A wrong answer claiming \"privatisation solved all inefficiencies\" ignores the social cost of job losses and the incomplete nature of disinvestment (many PSUs remain government-controlled). This oversimplification fails in 'evaluate' type questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Demonetisation (November 2016) was primarily a monetary policy tool to curb black money, and its impact on business environment was uniformly negative due to liquidity crunch.\" Use at least three specific impact dimensions from the Economic Survey 2016-17 data provided in NCERT.",
+     "a": "The statement is partially correct on intent but incorrect on uniform negativity. Three impact dimensions from Economic Survey 2016-17: (1) Money/Interest rates: Cash transactions declined, bank deposits surged, financial savings increased — positive for formal credit flow and interest rate transmission. (2) Private wealth: Declined as some high-denomination notes were not returned and real estate prices fell — negative for wealth holders but positive for affordability. (3) Digitisation: Digital transactions among new users (RuPay/AEPS) increased significantly — structural positive for financial inclusion and tax base. (4) Tax collection: Rise in income tax collection due to increased disclosure — fiscal positive. The liquidity crunch was transient (Q3 FY17); the structural shift to formal, digital, tax-compliant economy is the lasting business environment change. A wrong answer calling it \"complete failure\" or \"masterstroke\" without data reveals ideological bias over analytical evaluation — fatal in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic 2024 business scenario where a startup founder must analyse India's current economic environment (post-COVID, post-GST, digital public infrastructure) to decide between two strategies: (A) Export-oriented SaaS product targeting US SMEs, or (B) Domestic B2C fintech app for tier-2/3 cities. Identify four economic environment factors that would differentially affect these strategies, and justify which strategy is more aligned with current policy direction.",
+     "a": "Four differential factors: (1) **Foreign exchange regime**: Strategy A benefits from liberalised FDI/FPI, full current account convertibility, and rupee stability — Strategy B faces only domestic rupee operations. (2) **Digital public infrastructure (UPI, Aadhaar, Account Aggregator)**: Strategy B leverages India Stack for low-cost KYC, payments, credit scoring — Strategy A gains less directly. (3) **GST and logistics**: Strategy B navigates inter-state GST compliance, e-way bills — Strategy A enjoys zero-rated exports (refunds) but faces international tax treaties. (4) **Policy incentives**: Production Linked Incentive (PLI) schemes favour manufacturing, not SaaS; but Software Technology Parks (STPI) and SEZ benefits support exports. Current policy direction (Digital India, Make in India, export promotion) aligns slightly better with **Strategy A** for scalable forex earnings, but **Strategy B** captures demographic dividend (rising per capita income in tier-2/3, financial inclusion push). A strong answer weighs trade-offs rather than declaring one \"better\" — showing the relativity and complexity of economic environment analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 301,
+ "chapter_title": "The Indian Constitution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees110.txt",
+ "concepts": [
+  {
+   "id": "hess.301.1.1",
+   "title": "Constitutive Rules",
+   "section": "1.1",
+   "definition": "Fundamental principles or regulations that define the nature of a system, such as a game or a society, and distinguish it from others.",
+   "formula": "system_identity = sum(constitutive_rules)",
+   "key_idea": "Rules define the essence of a social or political structure.",
+   "textbook_ref": "hess301.txt lines 65-85",
+   "question_patterns": [
+    "define constitutive rules",
+    "why are constitutive rules important",
+    "how do rules define a game",
+    "explain the role of constitutive rules in society",
+    "give an example of a constitutive rule"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify core rules",
+     "explain": "List the fundamental regulations governing the entity.",
+     "compute": "rules = 1"
+    },
+    {
+     "step": 2,
+     "action": "verify identity",
+     "explain": "Confirm if changing the rule alters the system's nature.",
+     "compute": "identity = rules * 1"
+    }
+   ]
+  },
+  {
+   "id": "hess.301.2.1",
+   "title": "Federalism Tiers",
+   "section": "2.1",
+   "definition": "A system of government where authority is distributed across multiple levels, such as central, state, and local tiers, to ensure decentralized decision-making.",
+   "formula": "total_governance = central_tier + state_tier + local_tier",
+   "key_idea": "Multiple levels of government prevent centralized power concentration.",
+   "textbook_ref": "hess301.txt lines 350-375",
+   "question_patterns": [
+    "calculate the total tiers of government in India",
+    "how many levels of governance are there",
+    "what is the sum of government tiers",
+    "determine the number of administrative levels",
+    "find the total count of government tiers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the government levels",
+     "explain": "Sum the tiers: central, state, and local (Panchayati Raj).",
+     "compute": "total_governance = 1 + 1 + 1"
+    }
+   ]
+  },
+  {
+   "id": "hess.301.3.1",
+   "title": "Separation of Powers",
+   "section": "3.1",
+   "definition": "The division of government authority into three distinct branches to ensure checks and balances and prevent the abuse of power.",
+   "formula": "government_organs = legislature + executive + judiciary",
+   "key_idea": "Dividing power ensures no single branch becomes absolute.",
+   "textbook_ref": "hess301.txt lines 415-430",
+   "question_patterns": [
+    "how many organs of government are there",
+    "what is the total number of government branches",
+    "calculate the sum of government organs",
+    "determine the count of power-sharing branches",
+    "find the total number of constitutional organs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the branches",
+     "explain": "The three organs are legislature, executive, and judiciary.",
+     "compute": "government_organs = 1 + 1 + 1"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess301.txt lines 350-360",
+   "concept": "hess.301.2.1",
+   "question_type": "compute",
+   "question_pattern": "if a country has {central} central, {state} state, and {local} local tiers, find the total",
+   "extracted_variables": {
+    "central": 1,
+    "state": 1,
+    "local": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add tiers",
+     "explain": "Summing all levels of government.",
+     "compute": "total_governance = central + state + local"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess301.txt lines 415-420",
+   "concept": "hess.301.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the total number of government organs if there are {l} legislature, {e} executive, and {j} judiciary",
+   "extracted_variables": {
+    "l": 1,
+    "e": 1,
+    "j": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum organs",
+     "explain": "Adding the three branches of government.",
+     "compute": "government_organs = l + e + j"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.301.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "define constitutive rules",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify core rules",
+     "explain": "List the fundamental regulations governing the entity."
+    },
+    {
+     "step": 2,
+     "action": "verify identity",
+     "explain": "Confirm if changing the rule alters the system's nature."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.301.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "why are constitutive rules important",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify core rules",
+     "explain": "List the fundamental regulations governing the entity."
+    },
+    {
+     "step": 2,
+     "action": "verify identity",
+     "explain": "Confirm if changing the rule alters the system's nature."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.301.2.1",
+   "question_type": "compute",
+   "question_pattern": "what is the sum of government tiers",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the government levels",
+     "explain": "Sum the tiers: central, state, and local (Panchayati Raj).",
+     "compute": "total_governance = 1 + 1 + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.301.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the sum of government organs",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the branches",
+     "explain": "The three organs are legislature, executive, and judiciary.",
+     "compute": "government_organs = 1 + 1 + 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hess301.txt lines 550-560",
+   "questions": [
+    "Why does a democratic country need a Constitution?",
+    "What would happen if there were no restrictions on the power of elected representatives?",
+    "Identify the minority in a school with 30 teachers where 20 are male.",
+    "Explain the significance of Federalism in your own words.",
+    "Describe the role of the judiciary in the separation of powers."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

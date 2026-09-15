@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_001",
+   "title": "c11_biotech_cbse_11_001",
+   "questions": [
+    {
+     "q": "List the four major challenges of high-throughput biological data mentioned in the NCERT text that make manual analysis impossible.",
+     "a": "The four challenges are: storage, visualisation, transfer, and analysis/interpretation of massive datasets. A wrong answer (e.g., \"sequencing cost, sample preparation, ethics, publishing\") reveals the student has not distinguished between *wet-lab* bottlenecks and *computational* bottlenecks—the core premise of why programming entered biology.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Python is used in bioinformatics only because it is free and open-source.\" Explain why this statement is incomplete, citing two specific technical features of Python highlighted in the textbook that make it suitable for biological data.",
+     "a": "The textbook states Python is popular because: (i) clear syntax/readability (expressivity), (ii) alignment with object-oriented programming, and (iii) vast third-party libraries/toolkits (e.g., Biopython). A wrong answer focusing only on cost or popularity shows the student confuses *adoption drivers* with *technical fitness*—a critical distinction when justifying tool choice in a methods section.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher has 200 RNA-seq samples (each 5 GB) and needs to perform differential expression analysis followed by pathway enrichment visualization. Based on the textbook's description, which language (Python or R) is *more* appropriate for the *statistical analysis and visualization* step, and why?",
+     "a": "R is more appropriate. The textbook explicitly states R is \"ideal for high volume analysis, visualisation and simulation of biological data\" and \"provides facilities of statistical tools.\" Choosing Python here indicates the student missed the textbook's deliberate division of labor: Python for general-purpose/sequence-structure work, R for heavy statistics/visualization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of \"minimum information standards,\" \"XML-based file formats,\" and \"ontologies (GO, SBO)\" in systems biology data management. How do they collectively solve the *interoperability* problem between different labs' datasets?",
+     "a": "Minimum information defines *what* metadata must accompany data (e.g., MIAME for microarrays). XML provides a *machine-readable, standardized structure* for storing that data. Ontologies (GO, SBO) supply *controlled vocabularies* so \"kinase activity\" means the same thing across databases. Together, they ensure Dataset A from Lab 1 can be automatically integrated with Dataset B from Lab 2 without human curation. A wrong answer treating them as interchangeable \"formats\" misses the layered metadata→syntax→semantics hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since GUI tools like BLAST and ClustalW exist, biologists do not need to learn programming.\" Use the textbook's perspective on high-throughput data and systems biology to justify your evaluation.",
+     "a": "The statement is flawed. GUI tools handle *single* analyses; high-throughput data (thousands of sequences, time-series expression) requires *batch automation, pipelining, and custom statistical modeling*—impossible via point-and-click. Systems biology (Section 11.2) explicitly requires \"data-management, optimisation of network development parameters, performance analysis\" via computational workflows (KNIME, Galaxy, Taverna) that are *programmed*. A student agreeing with the statement fails to grasp the scale shift from *candidate-gene* to *genome-wide* biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 4-step computational workflow for a systems biology study of a metabolic pathway in *E. coli*, indicating at which steps programming (Python/R) is indispensable and why. Use terms from the textbook: \"network inference,\" \"simulation,\" \"parameter optimization,\" \"SBML.\"",
+     "a": "Example workflow: (1) Data collection: RNA-seq + metabolomics → *Programming essential for parsing/normalizing heterogeneous formats (XML/SBML).* (2) Network inference: Build gene-reaction network → *R/Python for statistical inference (BANJO, MATLAB).* (3) Parameter optimization: Fit kinetic constants → *Python (SciPy) or MATLAB for solving PDEs via FEM.* (4) Simulation & validation: Predict flux under knockout → *Python/R for ODE/PDE simulation (COPASI, JSim) and sensitivity analysis (SBML-SAT).* A poor answer lists only wet-lab steps or omits the *automation/integration* role of code.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

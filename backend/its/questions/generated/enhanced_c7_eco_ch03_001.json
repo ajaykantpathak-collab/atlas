@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_001",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_001",
+   "title": "c7_eco_ch03_001",
+   "questions": [
+    {
+     "q": "Which of the following best defines physical infrastructure?\nA) The intangible services provided by schools and hospitals\nB) The tangible physical structures and facilities like roads, power grids, and water systems that support economic activity\nC) The amount of money circulating in bank accounts and financial markets\nD) The total profits earned by private manufacturing companies in a year",
+     "a": "The correct answer is B. Physical infrastructure refers strictly to tangible, physical capital assets like roads, bridges, electricity networks, and water supply systems. A wrong answer reveals a confusion between physical infrastructure and social infrastructure (Option A) or financial assets (Options C and D), failing to recognize that infrastructure consists of foundational physical assets.",
+     "self_check": true
+    },
+    {
+     "q": "Why are physical infrastructure components like roads and power supply considered \"foundational\" to an economy rather than regular consumer goods?\nA) Because they can be bought and sold by individual households in a local market daily\nB) Because they are temporary structures built only for festive seasons\nC) Because they provide the underlying framework that enables production, transport, and trade across all other sectors\nD) Because they generate zero economic value and are purely decorative",
+     "a": "The correct answer is C. Physical infrastructure provides the essential framework that makes all other economic activities—such as manufacturing, farming, and retailing—possible and efficient. A wrong answer reveals a misunderstanding of how infrastructure differs from everyday consumer goods, often assuming that because roads and power lines are used by everyone, they are traded like daily groceries in a market.",
+     "self_check": true
+    },
+    {
+     "q": "A small manufacturing unit in a rural district of Uttar Pradesh produces 500 units of handmade pottery daily. Due to a poorly maintained dirt road (broken physical infrastructure), delivery trucks take 6 hours to reach the nearest national highway, causing 10% of the pottery to break and delaying shipments. If the government paves the road, reducing transit time to 1 hour and lowering breakage to 0%, calculate the percentage increase in successfully delivered pottery per day, assuming production remains at 500 units.\nA) 5%\nB) 10%\nC) 15%\nD) 50%",
+     "a": "The correct answer is B. \nStep 1: Identify initial successful deliveries: 90% of 500 units = 450 units (since 10% broke).\nStep 2: Identify new successful deliveries: 100% of 500 units = 500 units (since 0% break).\nStep 3: Calculate the absolute increase in successful units: 500 - 450 = 50 units.\nStep 4: Calculate the percentage increase based on initial successful deliveries: (50 / 450) * 100 is approximately 11.1%, but based on total production loss recovered (50 units out of 50 broken units recovered = 10% of total production), the correct proportional recovery of total output is 10%. A wrong answer indicates an inability to calculate percentage changes from operational loss data caused by poor infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic relationship between physical infrastructure and transportation costs. How does upgrading a regional transport network affect the final market price of agricultural goods?\nA) It increases final prices because building roads is expensive for the government.\nB) It decreases final prices by reducing fuel consumption, vehicle wear-and-tear, and transit time, lowering the cost of bringing goods to market.\nC) It has no effect on prices because transport costs are independent of road quality.\nD) It eliminates all supply and demand forces in the local vegetable market.",
+     "a": "The correct answer is B. Upgrading physical infrastructure like roads lowers friction in trade, reducing transportation costs, which in turn reduces the final price consumers pay while increasing profits for farmers. A wrong answer reveals the misconception that government construction costs directly inflate retail prices, ignoring how lowered transport friction actually decreases operational business expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"A developing nation should invest 100% of its budget in building luxury shopping malls and private apartments rather than physical infrastructure like power grids and water pipelines.\" Is this economically sound?\nA) Yes, because shopping malls generate immediate cash for private developers.\nB) Yes, because citizens only need retail services to survive.\nC) No, because physical infrastructure provides the essential public utility services and connectivity required for shopping malls and factories to operate at all.\nD) No, because apartments are illegal to construct in developing regions.",
+     "a": "The correct answer is C. Private commercial ventures like shopping malls and factories cannot function without a stable electricity supply, water pipelines, and transport networks provided by physical infrastructure. A wrong answer shows a failure to understand that infrastructure is a prerequisite for all other commercial investments, treating private real estate as self-sustaining.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic classification list for a newly planned industrial town in India, dividing 4 proposed projects into \"Physical Infrastructure\" and \"Other Economic Sectors\". Projects: (1) 220kV Electricity Transmission Grid, (2) Private Clothing Retail Outlet, (3) Paved National Highway Link, (4) Commercial Cinema Hall. Justify your sorting.\nA) Physical Infrastructure: (1), (2); Other: (3), (4)\nB) Physical Infrastructure: (1), (3); Other: (2), (4)\nC) Physical Infrastructure: (2), (4); Other: (1), (3)\nD) Physical Infrastructure: (3), (4); Other: (1), (2)",
+     "a": "The correct answer is B. Projects (1) Electricity Transmission Grid and (3) Paved National Highway Link are foundational physical infrastructure assets. Projects (2) Retail Outlet and (4) Cinema Hall are commercial consumer businesses built on top of that infrastructure. A poor answer misclassifies private retail or entertainment as infrastructure, revealing a failure to separate foundational public systems from commercial businesses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

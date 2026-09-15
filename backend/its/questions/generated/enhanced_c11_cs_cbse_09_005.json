@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_005",
+   "title": "c11_cs_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the return value of `file.write('Hello')` when the file is opened in text mode?",
+     "a": "The method returns the number of characters written, which is 5. A wrong answer (e.g., `None` or `True`) reveals that the student confuses `write()` with methods like `list.append()` that return `None`, or thinks `write()` returns a success boolean.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code does not produce separate lines in the output file:\n```python\nlines = ['First', 'Second', 'Third']\nwith open('out.txt', 'w') as f:\n    f.writelines(lines)\n```",
+     "a": "`writelines()` writes each string in the iterable consecutively without adding any newline characters. The file will contain `FirstSecondThird`. A wrong explanation (e.g., \"it adds newlines automatically\") shows the common misconception that `writelines()` behaves like `print()` or that it inserts separators.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python statement that opens `data.txt` in append mode and writes the string `'New entry\\n'` using `write()`.",
+     "a": "`with open('data.txt', 'a') as f: f.write('New entry\\n')`. A wrong answer might omit the newline, use `'w'` mode (which truncates), or call `writelines()` with a single string (which would write each character on a separate line if iterated).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of `f.write('abc')` and `f.writelines(['a', 'b', 'c'])` on the file content and file pointer position. Assume the file is newly opened in `'w'` mode.",
+     "a": "Both result in the file containing `abc` and the file pointer at position 3. `write()` takes a single string; `writelines()` takes an iterable of strings and writes them in order. A wrong answer might claim `writelines()` adds newlines or that the pointer positions differ, indicating confusion about the methods' low-level behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to save a dictionary `marks = {'Physics': 85, 'Chemistry': 90}` to a file as `Physics:85\\nChemistry:90\\n`. They write:\n```python\nwith open('marks.txt', 'w') as f:\n    f.writelines(marks)\n```\nEvaluate this approach and suggest a correction.",
+     "a": "Iterating a dictionary yields its keys, so `writelines(marks)` writes `'PhysicsChemistry'` (no newlines, no values). The correct approach is to build a list of formatted strings: `f.writelines(f'{k}:{v}\\n' for k, v in marks.items())`. A wrong evaluation might think `writelines()` handles key-value pairs automatically, showing misunderstanding of dictionary iteration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small program that reads a list of temperatures in Celsius from the user (one per line, empty line to stop), converts each to Fahrenheit, and writes both values to `temps.txt` in the format `C: 25 -> F: 77.0`. Use `writelines()` for the final output.",
+     "a": "A good answer collects formatted strings in a list, then calls `f.writelines(list)`. A poor answer writes inside the input loop using `write()` (which works but doesn't demonstrate `writelines()`), or forgets to convert numbers to strings, or omits newlines in the formatted strings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

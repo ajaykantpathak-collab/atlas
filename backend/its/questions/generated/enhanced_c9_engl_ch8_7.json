@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch8_7",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch8_7",
+   "title": "c9_engl_ch8_7",
+   "questions": [
+    {
+     "q": "Define metaphor and personal anecdote. Give one example of each from everyday conversation (not from the textbook).",
+     "a": "Metaphor: direct comparison without \"like/as\" (e.g., \"This classroom is a furnace\"). Anecdote: short personal story illustrating a point (e.g., \"When I failed Class 6 math, I...\"). A wrong answer (e.g., giving a simile for metaphor or a general opinion for anecdote) reveals confusion between comparison types or between narrative evidence and abstract advice.",
+     "self_check": true
+    },
+    {
+     "q": "In the mother's letter, she writes: \"I planted a mango sapling the year you were born; it gave fruit only after twelve summers.\" Is this a metaphor, an anecdote, or both? Explain your reasoning in two sentences.",
+     "a": "It is primarily a personal anecdote (a specific past event narrated in first person) that functions as an extended metaphor where the sapling = dream and twelve summers = long gestation. A wrong answer (labeling it only metaphor or only anecdote) shows inability to see how devices overlap: the anecdote *is* the vehicle for the metaphorical meaning.",
+     "self_check": true
+    },
+    {
+     "q": "The mother writes: \"Dreams are not fireworks; they are hearth fires.\" Identify the tenor and vehicle. Then rewrite this as a simile and explain what persuasive effect is lost in the conversion.",
+     "a": "Tenor: dreams. Vehicle: hearth fires (contrasted with fireworks). Simile: \"Dreams are like hearth fires, not like fireworks.\" The metaphor's direct equation (\"are\") asserts identity and permanence; the simile's \"like\" creates distance and optionality, weakening the mother's insistence on sustained, quiet effort over spectacle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of the \"mango sapling\" anecdote with the \"hearth fire\" metaphor. How does each serve the mother's argument about \"effort and long-term commitment\" (Theme node c9_engl_ch8_4) differently? Answer in 3-4 sentences.",
+     "a": "The anecdote provides biographical proof: the mother *lived* the twelve-year wait, establishing ethos. The metaphor provides a conceptual model: it redefines \"dream\" from event to process, shaping how the daughter should *think* about all dreams. A wrong answer treating them as interchangeable \"examples\" misses the distinction between empirical evidence (anecdote) and conceptual framing (metaphor).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The personal anecdotes in the letter are more persuasive than the metaphors because they are true.\" Defend or challenge using specific textual reasoning.",
+     "a": "Challenge: Anecdotes establish credibility (ethos), but metaphors restructure the daughter's mental framework (logos/pathos). The \"hearth fire\" metaphor redefines the *nature* of dreaming, which no single anecdote can do. A wrong answer agreeing reveals over-reliance on \"truth\" as persuasion, ignoring how metaphor creates new cognitive categories essential for long-term mindset shift.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line letter excerpt from a father to son about career choices that uses ONE extended metaphor and ONE personal anecdote (2 lines each). The metaphor must not use \"like/as\".",
+     "a": "\"Son, a career is a river, not a reservoir — it must flow to stay alive. / In '98 I left a safe bank job to teach; the current was scary but the water stayed sweet. / Don't dam yourself in security. / Let your work find its own sea.\" A poor answer uses simile, omits anecdote, or writes generic advice without device integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

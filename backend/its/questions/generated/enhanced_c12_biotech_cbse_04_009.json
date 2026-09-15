@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_009",
+   "title": "c12_biotech_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define ex vivo gene therapy and name the first human disease successfully treated using this approach.",
+     "a": "Ex vivo gene therapy: target cells are removed from the patient, genetically modified in culture, and re-infused. The first successful human trial (1990) treated a 4-year-old girl with ADA-deficient SCID. A wrong answer (e.g., \"injecting virus directly into patient\") reveals confusion between ex vivo and in vivo delivery routes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ex vivo gene therapy is technically simpler than in vivo gene therapy for hematopoietic disorders like SCID.",
+     "a": "Ex vivo allows precise manipulation of isolated cells (e.g., T lymphocytes) under controlled conditions, efficient gene transfer using retroviral vectors, and selection of successfully modified cells before re-infusion. In vivo would require targeting hematopoietic stem cells inside bone marrow, which is inaccessible and risks off-target effects. A wrong answer (e.g., \"ex vivo uses smaller vectors\") shows misunderstanding of the procedural control advantage.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to treat cystic fibrosis (CF) caused by CFTR mutation in lung epithelial cells. Choose ex vivo or in vivo strategy and justify your choice with two reasons.",
+     "a": "In vivo is preferred. Reason 1: Lung epithelial cells are not easily removable, cultureable, and re-implantable like blood cells. Reason 2: Aerosol or intranasal delivery of viral (AAV) or non-viral vectors can directly target airway epithelium. Choosing ex vivo would be impractical because lung tissue cannot be extracted, cultured, and re-engrafted efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the immune response risks of ex vivo vs. in vivo gene therapy when using adenoviral vectors. Which strategy poses higher risk of systemic inflammatory response and why?",
+     "a": "In vivo poses higher risk. Direct intravenous or intra-tissue injection of adenoviral vectors exposes the entire immune system to high viral loads, triggering strong innate and adaptive immune responses (e.g., cytokine storm). Ex vivo limits vector exposure to isolated cells; the vector is washed away before re-infusion, reducing systemic immune activation. A wrong answer (e.g., \"both are equal\") ignores the pharmacokinetics of vector exposure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ex vivo gene therapy is always safer than in vivo gene therapy.\" Provide two counterarguments with specific examples.",
+     "a": "The statement is false. Counterargument 1: Ex vivo using integrating retroviruses caused insertional oncogenesis in SCID-X1 trials (leukemia due to LMO2 activation). Counterargument 2: In vivo with AAV vectors has shown long-term safety in hemophilia B (FIX expression >10 years) without insertional mutagenesis because AAV mostly remains episomal. Safety depends on vector biology, not just delivery route.",
+     "self_check": true
+    },
+    {
+     "q": "Design a gene therapy strategy for a hypothetical monogenic disorder affecting hepatocytes (liver cells) where the defective protein is secreted into blood. Specify: (a) ex vivo or in vivo, (b) vector type, (c) delivery route, (d) one major challenge and how to mitigate it.",
+     "a": "(a) In vivo (hepatocytes cannot be easily removed and re-engrafted). (b) AAV8 or AAV9 (hepatotropic serotypes). (c) Intravenous infusion. (d) Challenge: Pre-existing neutralizing antibodies against AAV capsid. Mitigation: Use engineered capsids, plasmapheresis, or immunosuppression. A poor answer would suggest ex vivo hepatocyte transplant without addressing engraftment failure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

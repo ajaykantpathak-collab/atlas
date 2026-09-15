@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_sociology_lesy104",
+ "concepts": [
+  {
+   "id": "lesy104.1",
+   "title": "Sociological versus Economic Perspectives on Markets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sociological versus Economic Perspectives on Markets' refers to.",
+     "a": "Economics, born as eighteenth-century political economy with Adam Smith's Wealth of Nations, treats the market as a separate sphere following its own laws, where millions of self-interested exchanges automatically build an ordered system - the famous invisible hand. Sociology answers that markets are culturally specific social institutions, controlled by particular groups and tied to other structures, a position captured by saying economies are socially embedded.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sociological versus Economic Perspectives on Markets'.",
+     "a": "Smith's individuals never intended to build a system, yet their transactions produce one; sociologists insist that same system cannot be understood apart from caste, kinship and community.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sociological versus Economic Perspectives on Markets', in plain ASCII form.",
+     "a": "economic_view = market as separate self_lawed sphere ; sociological_view = economies socially embedded in culture_and_groups",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.2",
+   "title": "The Weekly Tribal Haat and Periodic Markets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Weekly Tribal Haat and Periodic Markets' refers to.",
+     "a": "In agrarian societies the periodic market is a central institution: the weekly haat gathers villagers to sell agricultural and forest produce, buy salt, implements and trinkets, and just as importantly to meet kin, arrange marriages and exchange gossip. In the Bastar study, buyers are mostly adivasis and sellers mainly caste Hindus, forest officials transact with tribal labourers, and colonial opening-up of tribal areas brought traders and moneylenders whose entry impoverished many adivasis who lost their land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Weekly Tribal Haat and Periodic Markets'.",
+     "a": "The haat links village, regional and national economies, but incorporation into wider markets after colonial pacification often ran against local people.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Weekly Tribal Haat and Periodic Markets', in plain ASCII form.",
+     "a": "haat_roles = selling_produce + buying_essentials + social_intercourse ; bastar_pattern = adivasi_buyers + hindu_seller_traders + forest_officials",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.3",
+   "title": "Caste-based Trading Networks, Hundi and Business Communities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Caste-based Trading Networks, Hundi and Business Communities' refers to.",
+     "a": "Pre-colonial India was already extensively monetised with sophisticated trading networks, indigenous merchant groups and banking systems; the hundi, a bill of exchange honoured by merchants of the same caste-kin network in distant places, enabled long-distance trade. The Nakarattars of Tamil Nadu ran a caste-based banking system resting on shared reputation and reserve deposits, and traditional business communities include Vaisya-claiming groups like banias as well as Parsis, Sindhis, Bohras and Jains, while the marginalised Banjara tribals once controlled the salt trade. Because businessmen trust their own community or kin, caste monopoly arises in particular trades.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste-based Trading Networks, Hundi and Business Communities'.",
+     "a": "Trust, not a government central bank, kept Nakarattar banking sound - reputation within caste-defined exchange spheres did that work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Caste-based Trading Networks, Hundi and Business Communities', in plain ASCII form.",
+     "a": "network_credit = hundi honoured within caste_kin_network ; business_trust = own_community_networks -> caste_monopoly_in_trade",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.4",
+   "title": "Colonialism and the Emergence of New Markets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colonialism and the Emergence of New Markets' refers to.",
+     "a": "Colonialism disrupted production, trade and agriculture - the handloom industry died under cheap manufactured textiles from England - and turned India from a major exporter of manufactures into a supplier of raw materials and a consumer of finished goods for industrialising England. Yet the expanding market also gave openings that some communities seized: the Marwaris, absent from prominence before, rose in colonial cities like Calcutta through trade and moneylending built on extensive social networks, then transformed into modern industrialists, and today control more of India's industry than any other community.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonialism and the Emergence of New Markets'.",
+     "a": "New communities like the Marwaris, represented by families such as the Birlas, show how the social context of trust and networks shapes economic opportunity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colonialism and the Emergence of New Markets', in plain ASCII form.",
+     "a": "colonial_shift = exporter_of_manufactures -> raw_material_supplier + consumer_of_goods ; marwari_path = migrant_traders -> merchant_bankers -> industrialists",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.5",
+   "title": "Capitalism, Wage Labour and Surplus Value",
+   "questions": [
+    {
+     "q": "Using the method 'Capitalism, Wage Labour and Surplus Value', work with: value_produced_by_workers = 1200, wage_bill_paid = 1000. Carry the chain through step by step and give the final value of surplus_rate.",
+     "a": "16.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Capitalism, Wage Labour and Surplus Value' and work with: value_produced_by_workers = 25000, wage_bill_paid = 100. Carry the chain through step by step and give the final value of surplus_rate.",
+     "a": "99.6 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capitalism, Wage Labour and Surplus Value' refers to.",
+     "a": "Karl Marx, a founder of sociology and critic of capitalism, read it as commodity production for the market through wage labour; every mode of production carries relations of production that generate a class structure, so capitalism creates capitalists who own the means of production and workers who must sell their labour power. Because wages fall short of the value workers actually produce, the capitalist extracts surplus value - proof for Marx that the economy is not things in markets but relations between people connected through production.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capitalism, Wage Labour and Surplus Value'.",
+     "a": "Labour itself becomes a commodity in capitalism, and profit is the gap between what labour produces and what labour is paid.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capitalism, Wage Labour and Surplus Value', in plain ASCII form.",
+     "a": "surplus_value = value_produced_by_workers - wage_bill_paid ; classes = capitalists_owners + workers_sellers_of_labour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.6",
+   "title": "Commodification, Consumption and Status Symbols",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Commodification, Consumption and Status Symbols' refers to.",
+     "a": "Commodification occurs when things once outside trade become commodities - labour and skills, bottled water barely fifteen years old, education in private schools and coaching classes, matchmaking through marriage bureaus and websites, even kidneys sold by the poor. In capitalist society consumption also carries symbolic meaning: Weber coined status symbol for the close tie between the goods people buy - the phone brand or car model of the Indian middle class - and their social standing, and companies sell by attaching status and cultural meanings to products.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Commodification, Consumption and Status Symbols'.",
+     "a": "A commodity need not be a thing - services and skills count too - and consumption communicates socio-economic status and cultural preference.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Commodification, Consumption and Status Symbols', in plain ASCII form.",
+     "a": "commodification = non_market_things -> commodities ; status_symbol = weber's tie between goods_bought and social_standing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.7",
+   "title": "Globalisation: Interlinked Markets and Culture as Commodity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Globalisation: Interlinked Markets and Culture as Commodity' refers to.",
+     "a": "Since the late 1980s globalisation has interlinked economies, cultures and politics through rising international movement of commodities, money, information and people, carried by new technology in computers, telecom and transport. Integrated markets transmit shocks worldwide - a US slump can hit Indian software and BPO jobs, as after 9/11 - and even culture enters trade: yoga and ayurveda are marketed in the West, and the Pushkar camel fair, still a local social and economic event drawing about 200,000 people and some 50,000 camels and cattle, is itself sold internationally as a tourist product timed to Kartik Purnima.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Globalisation: Interlinked Markets and Culture as Commodity'.",
+     "a": "When the Pushkar fair becomes a product in the tourism market, a market itself turns into a commodity - spirituality, tradition and images included.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Globalisation: Interlinked Markets and Culture as Commodity', in plain ASCII form.",
+     "a": "globalisation_trends = movement_of_commodities_money_information_people + technology ; market_integration -> distant_shocks_transmitted",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy104.8",
+   "title": "Liberalisation: Support Prices, Subsidies and Farmer Income",
+   "questions": [
+    {
+     "q": "Using the method 'Liberalisation: Support Prices, Subsidies and Farmer Income', work with: harvest_quintals = 150, market_price = 20000, support_price = 120000. Carry the chain through step by step and give the final value of income_gap.",
+     "a": "15000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Liberalisation: Support Prices, Subsidies and Farmer Income' and work with: harvest_quintals = 6, market_price = 1200, support_price = 120000. Carry the chain through step by step and give the final value of income_gap.",
+     "a": "712800 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Liberalisation: Support Prices, Subsidies and Farmer Income' refers to.",
+     "a": "Liberalisation, begun in the late 1980s, covers privatisation of public sector firms, loosened regulation of capital, labour and trade, lower tariffs and import duties, and easier entry for foreign companies - in one word, marketisation. Earlier, support prices at which the government agreed to buy farm produce guaranteed a minimum income, and subsidies on inputs like fertiliser and diesel lowered farming costs; liberalisation reduces or withdraws both, exposing Indian farmers and small manufacturers to global competition, shifting jobs from organised to unorganised sectors, and leaving the net impact of reform hotly debated.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liberalisation: Support Prices, Subsidies and Farmer Income'.",
+     "a": "Support prices ensure a minimum income because the government buys at them; withdraw them, and the gap between guaranteed and open-market earnings falls on the farmer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Liberalisation: Support Prices, Subsidies and Farmer Income', in plain ASCII form.",
+     "a": "protected_income = harvest_quintals * support_price ; income_gap = protected_income - open_market_income",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

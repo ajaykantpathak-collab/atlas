@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_1",
+   "title": "c8_math_ch9_1",
+   "questions": [
+    {
+     "q": "What is the side length of a square whose area is double that of a square with side 5 cm, according to Baudhayana's Sulba-Sutra method?",
+     "a": "The side length is the diagonal of the original 5 cm square, which is 5√2 cm (approximately 7.07 cm). A wrong answer of 10 cm reveals the student thinks doubling the side doubles the area (confusing linear and quadratic scaling). An answer of 7 cm without √2 suggests they measured but don't grasp the exact geometric relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why using the diagonal of a square as the side of a new square exactly doubles the area, without using the formula a² + b² = c².",
+     "a": "The original square of side *a* can be split along its diagonal into two congruent right isosceles triangles. Four such triangles (two squares' worth) arrange perfectly around the diagonal to form a larger square whose side is the diagonal. Thus the new square comprises 4 triangles = 2 original squares. A wrong answer citing \"Pythagoras theorem\" shows reliance on later algebraic formalism instead of the Sulba-Sutra's visual area reasoning. An answer saying \"diagonal is longer\" without the triangle rearrangement misses the area-equivalence logic.",
+     "self_check": true
+    },
+    {
+     "q": "A square courtyard has side 12 m. Using the Sulba-Sutra method, what is the area of the square constructed on its diagonal? Show your steps.",
+     "a": "Step 1: Original square side = 12 m, area = 12² = 144 m².  \nStep 2: Diagonal of original square becomes side of new square.  \nStep 3: New square area = 2 × original area = 2 × 144 = 288 m².  \n(Alternatively: diagonal = 12√2 m, new area = (12√2)² = 144 × 2 = 288 m².)  \nA wrong answer of 576 m² (12² × 4) means the student doubled the side instead of the area. An answer of 144√2 m² confuses side length with area (forgetting to square the √2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sulba-Sutra's \"doubling a square\" method with the modern formula for the diagonal of a square (d = a√2). What is the same and what is different in the underlying reasoning?",
+     "a": "Same: both recognise the diagonal as √2 times the side. Different: Sulba-Sutra uses constructive geometry (rope, area rearrangement) to *produce* the double-area square without ever computing √2 numerically; modern formula computes the diagonal length algebraically. A wrong answer saying \"they are the same thing\" misses the distinction between geometric construction (exact, operational) and algebraic computation (numerical approximation). An answer focusing only on √2 being irrational ignores the area-doubling purpose of the Sulba-Sutra.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To double a square's area, just multiply the side by 1.5 because 1.5² = 2.25 which is close to 2.\" Evaluate this claim and explain why the Sulba-Sutra method is superior for exact construction.",
+     "a": "The claim is incorrect: 1.5² = 2.25 gives 12.5% excess area, not exact doubling. The Sulba-Sutra method using the diagonal gives *exact* doubling because (a√2)² = 2a² by geometric necessity — no approximation. A wrong evaluation accepting \"close enough\" reveals misunderstanding of the Sulba-Sutra's purpose: precise altar construction for rituals demanded exactness, not approximation. An answer saying \"√2 ≈ 1.414 so 1.5 is wrong\" uses decimal approximation rather than the exact geometric proof.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rope-and-stake procedure (like the Sulba-Sutra) to construct a square of area 50 m² starting from a square of area 25 m². Describe each step clearly so another student could follow it on a field.",
+     "a": "1. Mark a square ABCD of side 5 m (area 25 m²) using stakes and rope.  \n2. Stretch rope from A to C — this is the diagonal.  \n3. With rope length AC fixed, mark point E such that AE = AC and ∠CAE = 90° (use 3-4-5 triangle or perpendicular bisector method).  \n4. Similarly mark F, G to complete square AEFG with side = AC.  \n5. Square AEFG has area 50 m².  \nA poor answer that says \"measure 7.07 m\" uses decimal measurement, violating the Sulba-Sutra's exact constructive approach. An answer omitting the 90° angle construction misses the key geometric operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

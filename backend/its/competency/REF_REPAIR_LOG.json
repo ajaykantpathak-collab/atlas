@@ -1,0 +1,2008 @@
+{
+ "generated_at": "2026-09-14",
+ "source_defect_list": "backend/its/competency/NODE_GRAPH_VALIDATION.json reference_integrity.broken_references (190 entries)",
+ "md_dir": "C:/Users/Alesha4285/Desktop/enhanced_nodes/md_cache",
+ "summary": {
+  "removed": 165,
+  "corrected": 11,
+  "left_for_hindi_repair": 14,
+  "band_c6_c8_redteam": {
+   "cycles_fixed": 2,
+   "fake_edges_removed": 14,
+   "missing_deps_added": 21,
+   "reverted_phantom_or_misdirected": 2,
+   "reason_fixes": 4,
+   "mirror_edges_added": 2573,
+   "files_touched_by_mirrors": 810
+  }
+ },
+ "repairs": [
+  {
+   "ref": "c10_engl_cbse_06_009",
+   "source_node": "c10_engl_cbse_06_008",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c11_eng_h_cbse_XX_008",
+   "source_node": "c12_eng_f_cbse_08_008",
+   "action": "corrected",
+   "evidence": "unique sibling c11_eng_h_cbse_01_008 in PREREQUISITE_NODE_IDS; file exists"
+  },
+  {
+   "ref": "c11_eng_h_cbse_XX_008",
+   "source_node": "c12_eng_k_cbse_10_008",
+   "action": "corrected",
+   "evidence": "unique sibling c11_eng_h_cbse_10_008 in PREREQUISITE_NODE_IDS; file exists"
+  },
+  {
+   "ref": "c11_eng_h_cbse_XX_010",
+   "source_node": "c12_eng_f_cbse_09_010",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_eng_h_cbse_XX_011",
+   "source_node": "c12_eng_k_cbse_21_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_",
+   "source_node": "c12_hin_a_cbse_12_007",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_002",
+   "source_node": "c12_hin_a_cbse_13_002",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_13_002 in PREREQ/CROSS lists; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_002",
+   "source_node": "c12_hin_al_cbse_03_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_003",
+   "source_node": "c12_hin_a_cbse_06_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_004",
+   "source_node": "c12_hin_a_cbse_05_004",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_05_004 in PREREQ list; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_004",
+   "source_node": "c12_hin_v_cbse_03_004",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_03_004 in PREREQ list; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_010",
+   "source_node": "c12_hin_a_cbse_09_010",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_09_010 in PREREQ list; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_010",
+   "source_node": "c12_hin_ar_cbse_12_010",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_05_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_09_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_11_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_12_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_17_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_ar_cbse_07_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_ar_cbse_10_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_ar_cbse_11_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_011",
+   "source_node": "c12_hin_ar_cbse_13_011",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_01_011 in PREREQ list; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_012",
+   "source_node": "c12_hin_a_cbse_03_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_013",
+   "source_node": "c12_hin_ar_cbse_03_013",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_014",
+   "source_node": "c12_hin_ar_cbse_06_014",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_015",
+   "source_node": "c12_hin_a_cbse_03_015",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_ar_cbse_03_015 in PREREQ/CROSS lists; file exists"
+  },
+  {
+   "ref": "c11_hin_ar_cbse_XX_015",
+   "source_node": "c12_hin_ar_cbse_03_015",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_v_cbse_06_011",
+   "source_node": "c12_hin_a_cbse_06_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c11_hin_v_cbse_XX_002",
+   "source_node": "c12_hin_a_cbse_13_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_v_cbse_XX_002",
+   "source_node": "c12_hin_al_cbse_03_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c11_hin_v_cbse_XX_004",
+   "source_node": "c12_hin_v_cbse_03_004",
+   "action": "corrected",
+   "evidence": "unique sibling c11_hin_v_cbse_03_004 in PREREQ list; file exists"
+  },
+  {
+   "ref": "c11_hin_v_cbse_XX_011",
+   "source_node": "c12_hin_a_cbse_09_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants); sibling chapter not uniquely determinable"
+  },
+  {
+   "ref": "c12_eng_f_cbse_14_015",
+   "source_node": "c12_eng_f_cbse_13_015",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c12_hin_al_cbse_03_011",
+   "source_node": "c12_hin_al_cbse_03_010",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_al_cbse_03_011.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_al_cbse_03_011",
+   "source_node": "c12_hin_al_cbse_03_012",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_al_cbse_03_011.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_al_cbse_03_011",
+   "source_node": "c12_hin_al_cbse_03_015",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_al_cbse_03_011.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_001",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_003",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_004",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_005",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_006",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_007",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_008",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_010",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_012",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_014",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c12_hin_v_cbse_03_002",
+   "source_node": "c12_hin_v_cbse_03_015",
+   "action": "left_for_hindi_repair",
+   "evidence": "target file c12_hin_v_cbse_03_002.md exists in md_cache but is one of the 2 malformed Hindi files scheduled for repair by another agent; reference left untouched so it resolves after that repair"
+  },
+  {
+   "ref": "c6_biology_cellular_energy",
+   "source_node": "c6_biology_ch09_008",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_biology_respiration",
+   "source_node": "c6_biology_ch09_008",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch01",
+   "source_node": "c6_history_ch12_052",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch03_how_government_works",
+   "source_node": "c6_history_ch12_054",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch09_family_and_community",
+   "source_node": "c6_civics_ch10_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch10_fundamental_rights",
+   "source_node": "c6_civics_ch10_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch11_grassroots_democracy",
+   "source_node": "c6_civics_ch12_019",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch11_grassroots_democracy",
+   "source_node": "c6_civics_ch12_020",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch11_grassroots_democracy_part_1",
+   "source_node": "c6_civics_ch12_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch12_local_government_functions",
+   "source_node": "c6_civics_ch13_026",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch13_state_laws_and_services",
+   "source_node": "c6_civics_ch12_019",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch14_010",
+   "source_node": "c6_civics_ch14_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_ch14_040",
+   "source_node": "c6_civics_ch14_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_communication_basics",
+   "source_node": "c6_civics_ch15_036",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_democracy_basics",
+   "source_node": "c6_civics_ch12_016",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_democracy_foundations",
+   "source_node": "c6_civics_ch15_037",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_diversity_concepts",
+   "source_node": "c6_civics_ch14_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_economic_activities",
+   "source_node": "c6_civics_ch16_040",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_equality_and_justice",
+   "source_node": "c6_civics_ch14_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_fundamental_duties",
+   "source_node": "c6_civics_ch10_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_international_relations",
+   "source_node": "c6_geography_ch05_028",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_media_and_democracy",
+   "source_node": "c6_civics_ch15_036",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_role_of_government_in_economy",
+   "source_node": "c6_civics_ch16_040",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_rules_and_laws",
+   "source_node": "c6_civics_ch10_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_taxation_basics",
+   "source_node": "c6_civics_ch13_025",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_civics_urban_local_bodies",
+   "source_node": "c6_civics_ch12_016",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_agriculture",
+   "source_node": "c6_geography_ch03_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch01_understanding_economy",
+   "source_node": "c6_geography_ch05_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch03_001",
+   "source_node": "c6_geography_ch04_024",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch08_development",
+   "source_node": "c6_economics_ch07_006",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch09_001",
+   "source_node": "c6_economics_ch08_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch09_financial_institutions",
+   "source_node": "c6_economics_ch08_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch13_economic_activities",
+   "source_node": "c6_economics_ch08_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch14_001",
+   "source_node": "c6_economics_ch11_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch14_economic_activities",
+   "source_node": "c6_economics_ch12_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch14_economic_sectors",
+   "source_node": "c6_economics_ch07_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch14_economic_sectors",
+   "source_node": "c6_economics_ch07_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_ch14_sectors",
+   "source_node": "c6_economics_ch07_006",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_primary_sector_activities",
+   "source_node": "c6_geography_ch04_022",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_resource_allocation",
+   "source_node": "c6_civics_ch13_025",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_economics_savings_and_investment",
+   "source_node": "c6_economics_ch08_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_agriculture_india",
+   "source_node": "c6_geography_ch01_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_basics_of_environment",
+   "source_node": "c6_geography_ch04_022",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch01_india_location",
+   "source_node": "c6_geography_ch05_027",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch01_the_earth_as_a_system",
+   "source_node": "c6_geography_ch02_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch03_010",
+   "source_node": "c6_geography_ch03_015",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch03_010",
+   "source_node": "c6_geography_ch03_016",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch03_monsoon_and_seasons",
+   "source_node": "c6_geography_ch02_011",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch05_india_location",
+   "source_node": "c6_geography_ch05_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch05_transportation_and_communication",
+   "source_node": "c6_economics_ch07_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch06_india_climate",
+   "source_node": "c6_geography_ch05_027",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_ch08_001",
+   "source_node": "c6_economics_ch07_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_climate_patterns",
+   "source_node": "c6_geography_ch02_013",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_climate_patterns_and_seasons",
+   "source_node": "c6_geography_ch02_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_climate_zones",
+   "source_node": "c6_geography_ch02_010",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_concepts_of_location",
+   "source_node": "c6_geography_ch01_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_india_climate",
+   "source_node": "c6_geography_ch01_007",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_india_climate_and_monsoons",
+   "source_node": "c6_geography_ch05_031",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_indian_monsoon_patterns",
+   "source_node": "c6_geography_ch03_018",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_landforms",
+   "source_node": "c6_geography_ch03_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_landforms",
+   "source_node": "c6_geography_ch03_019",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_landforms_and_life",
+   "source_node": "c6_geography_ch03_018",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_landforms_basics",
+   "source_node": "c6_geography_ch01_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_landforms_mountains",
+   "source_node": "c6_geography_ch01_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_locations_of_continents",
+   "source_node": "c6_geography_ch05_026",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_lunar_phases",
+   "source_node": "c6_physics_ch12_049",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_mineral_distribution",
+   "source_node": "c6_geography_ch01_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_oceans_and_continents",
+   "source_node": "c6_geography_ch05_031",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_physical_divisions_of_india",
+   "source_node": "c6_geography_ch01_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_rivers_and_settlements",
+   "source_node": "c6_history_ch04_006",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_understanding_the_weather",
+   "source_node": "c6_geography_ch02_013",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_vegetation",
+   "source_node": "c6_geography_ch03_019",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_geography_weather_introduction",
+   "source_node": "c6_geography_ch02_010",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ancient_civilizations",
+   "source_node": "c6_geography_ch05_028",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ancient_civilizations",
+   "source_node": "c6_history_ch07_022",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ancient_civilizations_and_trade_routes",
+   "source_node": "c6_geography_ch05_026",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ancient_society_values",
+   "source_node": "c6_history_ch06_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_british_administration_growth",
+   "source_node": "c6_history_ch10_040",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_british_raj_consolidation",
+   "source_node": "c6_history_ch10_039",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch01_geographical_background",
+   "source_node": "c6_history_ch08_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch02_new_kings_and_kingdoms",
+   "source_node": "c6_history_ch09_038",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch03_001",
+   "source_node": "c6_economics_ch11_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch03_001",
+   "source_node": "c6_history_ch09_035",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch06_011",
+   "source_node": "c6_history_ch07_024",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch08_025",
+   "source_node": "c6_history_ch08_030",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch09_040",
+   "source_node": "c6_history_ch09_035",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch09_akbar_legacy",
+   "source_node": "c6_history_ch09_037",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch09_regional_cultures",
+   "source_node": "c6_history_ch08_029",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch10_crafts_and_trade",
+   "source_node": "c6_history_ch09_038",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch10_mughal_decline_factors",
+   "source_node": "c6_history_ch09_037",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_ch12_independence_process",
+   "source_node": "c6_history_ch12_054",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_civil_disobedience_movement",
+   "source_node": "c6_history_ch11_046",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_civilisation",
+   "source_node": "c6_history_ch04_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_colonialism_intro",
+   "source_node": "c6_history_ch10_040",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_colonialism_intro",
+   "source_node": "c6_history_ch10_042",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_colonialism_introduction",
+   "source_node": "c6_history_ch10_041",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_delhi_sultanate_decline",
+   "source_node": "c6_history_ch09_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_early_cities_features",
+   "source_node": "c6_history_ch04_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_early_cities_urban_planning",
+   "source_node": "c6_history_ch04_005",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_early_humans",
+   "source_node": "c6_geography_ch04_020",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_early_humans",
+   "source_node": "c6_history_ch04_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_early_humans_settlements",
+   "source_node": "c6_history_ch04_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_emergence_of_new_states",
+   "source_node": "c6_history_ch04_006",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_freedom_struggle_1900s",
+   "source_node": "c6_history_ch10_042",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_freedom_struggle_basics",
+   "source_node": "c6_history_ch11_046",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_gupta_empire",
+   "source_node": "c6_history_ch05_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_harappan_drainage_and_sanitation",
+   "source_node": "c6_history_ch04_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_harappan_trade_and_economy",
+   "source_node": "c6_history_ch04_005",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_human_settlements",
+   "source_node": "c6_geography_ch01_007",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_independence_movement",
+   "source_node": "c6_history_ch10_044",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_mauryan_administration",
+   "source_node": "c6_history_ch05_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_medieval_cultural_exchange",
+   "source_node": "c6_history_ch06_018",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_mughal_administration_akbar",
+   "source_node": "c6_history_ch09_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_mughal_empire",
+   "source_node": "c6_history_ch07_022",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_sources_of_history",
+   "source_node": "c6_history_ch04_002",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_sources_of_history",
+   "source_node": "c6_history_ch10_044",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_timeline_and_sources",
+   "source_node": "c6_history_ch10_039",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_trade_networks",
+   "source_node": "c6_history_ch06_018",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_uprising_1857",
+   "source_node": "c6_history_ch10_041",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_history_urban_planning",
+   "source_node": "c6_geography_ch04_020",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_math_fractional_units",
+   "source_node": "c6_math_ch03_038",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_math_mixed_fractions",
+   "source_node": "c6_math_ch03_038",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_math_percentages",
+   "source_node": "c6_economics_ch08_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_physics_conductors_insulators",
+   "source_node": "c6_physics_ch03_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_physics_energy_sources",
+   "source_node": "c6_physics_ch03_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_physics_motion_types",
+   "source_node": "c6_physics_ch08_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_physics_periodic_phenomena",
+   "source_node": "c6_physics_ch08_033",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_physics_solar_system",
+   "source_node": "c6_physics_ch12_049",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c6_science_measurement_of_length_and_temperature",
+   "source_node": "c6_geography_ch02_012",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_biology_ch01_001",
+   "source_node": "c6_biology_ch10_003",
+   "action": "corrected",
+   "evidence": "cross-naming alias: class7 files use short subject codes (c7_bio_*); c7_bio_ch01_001.md exists"
+  },
+  {
+   "ref": "c7_civics_ch05_001",
+   "source_node": "c6_economics_ch12_005",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_civics_media_role_in_society",
+   "source_node": "c6_civics_ch15_037",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_civics_state_government_functions",
+   "source_node": "c6_civics_ch12_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_civics_state_government_structure",
+   "source_node": "c6_civics_ch12_020",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_economics_ch01_001",
+   "source_node": "c6_economics_ch11_005",
+   "action": "corrected",
+   "evidence": "cross-naming alias: c7_eco_ch01_001.md exists"
+  },
+  {
+   "ref": "c7_economics_ch07_human_resource_development",
+   "source_node": "c6_economics_ch07_003",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_economics_government_budgeting_basics",
+   "source_node": "c6_civics_ch13_026",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_economics_market_structures",
+   "source_node": "c6_economics_ch12_004",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_engl_ch04_031",
+   "source_node": "c8_engl_ch2_3",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_history_ch09_001",
+   "source_node": "c6_history_ch08_030",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c7_history_medieval_devotion",
+   "source_node": "c6_history_ch06_017",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c9_engl_ch3_011",
+   "source_node": "c11_eng_h_cbse_10_001",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "c9_engl_ch5_11",
+   "source_node": "c9_engl_ch5_10",
+   "action": "removed",
+   "evidence": "target id not present in md_cache (checked exact + padding + subject-code alias variants)"
+  },
+  {
+   "ref": "BULK",
+   "source_node": "c9_/c10_ band",
+   "action": "bulk_symmetry_reasons_repair",
+   "evidence": "See redteam_band_9_10 key: +1525 FORWARD mirrors, +939 chapter-flow prereqs, +5 verified cross-chapter prereqs, -82 spurious/misdirected forwards, +2014 reason entries, 3 cycle-cut pairs; final 100% mirror symmetry, 0 cycles."
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch3_1",
+   "source_node": "c8_engl_ch3_4",
+   "action": "removed",
+   "evidence": "CYCLE c8_engl_ch3_1<->ch3_2<->ch3_3<->ch3_4: ch3_1 (chapter-opener character analysis) listed ch3_4 as prereq while ch3_4 lists ch3_1,ch3_2,ch3_3; wrong direction removed"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch9_6",
+   "source_node": "c8_physics_ch9_7",
+   "action": "removed",
+   "evidence": "CYCLE c8_physics_ch9_6<->c8_physics_ch9_7: ch9_6 (water cycle) listed ch9_7 (temperature range); ch9_7 genuinely builds on ch9_6 (water's thermal buffering), lower->higher kept"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch07_001",
+   "source_node": "c7_hist_ch07_002",
+   "action": "removed",
+   "evidence": "chapter-overview node listed later detail sibling as prereq; overview precedes detail (ch07_002 chain itself declares 001 -> 002)"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch07_001",
+   "source_node": "c7_hist_ch07_003",
+   "action": "removed",
+   "evidence": "same backward-sibling pattern; ch07_003 already lists ch07_002 as prereq"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_physics_ch02_007",
+   "source_node": "c7_physics_ch02_009",
+   "action": "removed",
+   "evidence": "switch node did not need later quantitative conductors node (S/m); real enabler c6_physics_ch03_014 (conductor/insulator) added instead"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_physics_ch02_007",
+   "source_node": "c7_physics_ch02_010",
+   "action": "removed",
+   "evidence": "switch node did not need later quantitative insulators node (ohm); real enabler c6_physics_ch03_014 added instead"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_geo_ch2_7",
+   "source_node": "c6_geography_ch01_006",
+   "action": "removed",
+   "evidence": "name-adjacency noise: world ocean basins do not depend on Indian island territories ('familiar geographic anchors' reason)"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch4_5",
+   "source_node": "c7_engl_ch01_006",
+   "action": "removed",
+   "evidence": "theme-extraction skill already enabled by c7_engl_ch02_011 (nature-text central ideas) which remains a prereq; courage-theme node was topic adjacency"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch9_8",
+   "source_node": "c6_physics_ch12_047",
+   "action": "removed",
+   "evidence": "class 8 rotation node listed class 6 seasons node as prereq (reverse direction); tilt/seasons causality already covered by c7_physics_ch06_005/ch06_010 prereqs"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch5_1",
+   "source_node": "c6_physics_ch02_008",
+   "action": "removed",
+   "evidence": "natural-indicators node is not an enabler for solution definition; acids/bases prereqs retained"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch5_2",
+   "source_node": "c6_physics_ch02_008",
+   "action": "removed",
+   "evidence": "same name-adjacency noise; solution-identification prereqs retained"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch3_8",
+   "source_node": "c6_physics_ch12_045",
+   "action": "removed",
+   "evidence": "non-contact forces learnable without Earth-rotation node; 'gravity as pull' justification was topic adjacency"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch3_8",
+   "source_node": "c6_physics_ch12_046",
+   "action": "removed",
+   "evidence": "same pattern (revolution node not an enabler for non-contact forces)"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch3_8",
+   "source_node": "c7_physics_ch06_003",
+   "action": "removed",
+   "evidence": "same pattern (revolution detail not an enabler; contact/non-contact contrast needs only ch3_1+ch3_7)"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_engl_ch04_002",
+   "source_node": "c6_english_u1_002",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch07_002",
+   "source_node": "c7_hist_ch07_001",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch07_003",
+   "source_node": "c7_hist_ch07_001",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch1_12",
+   "source_node": "c7_engl_ch03_008",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch2_15",
+   "source_node": "c6_english_u3_024",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch3_11",
+   "source_node": "c7_engl_ch02_005",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch4_6",
+   "source_node": "c8_engl_ch4_2",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch4_6",
+   "source_node": "c8_engl_ch4_3",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_engl_ch5_5",
+   "source_node": "c7_engl_ch04_001",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch3_5",
+   "source_node": "c6_history_ch04_004",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch3_5",
+   "source_node": "c7_hist_ch04_004",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch3_5",
+   "source_node": "c7_hist_ch04_008",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch5_11",
+   "source_node": "c8_hist_ch5_1",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch5_4",
+   "source_node": "c6_history_ch05_009",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch1_4",
+   "source_node": "c6_physics_ch03_012",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch1_10",
+   "source_node": "c7_physics_ch04_008",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch1_10",
+   "source_node": "c7_physics_ch05_003",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch1_10",
+   "source_node": "c6_physics_ch02_008",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch9_6",
+   "source_node": "c6_physics_ch07_021",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_physics_ch9_7",
+   "source_node": "c6_physics_ch03_014",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_physics_ch02_007",
+   "source_node": "c6_physics_ch03_014",
+   "action": "added",
+   "evidence": "MISSING DEP: node id explicitly referenced in this file's teaching text (WALKTHROUGH/BUILDS_ON/PREREQ_BEFORE/CHAIN_DESCRIPTION) but absent from PREREQUISITE_NODE_IDS; added with authored reason"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_civ_ch03_007",
+   "source_node": "c6_civics_ch10_010",
+   "action": "corrected",
+   "evidence": "walkthrough referenced phantom id c6_civics_ch10_010 (file does not exist); edge added then reverted; prose corrected to c6_civics_ch11_011 which is already the prereq"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_physics_ch02_005",
+   "source_node": "c7_physics_ch02_006",
+   "action": "corrected",
+   "evidence": "chain-description prose claimed 006->005 creating mutual pair with 006's own prereq listing; per lower->higher rule 005 (lamp) is prereq of 006 (circuit): removed 006 from 005's prereqs, corrected CHAIN_DESCRIPTION prose"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_hist_ch4_4",
+   "source_node": "c6_history_ch11_045",
+   "action": "reason_authored",
+   "evidence": "two reason entries were merged on one line, hiding the c6_history_ch11_045 reason; split into two lines"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c8_eco_ch1_10",
+   "source_node": "c7_eco_ch02_009",
+   "action": "corrected",
+   "evidence": "reason line cited nonexistent c7_eco_ch07_009 (typo); corrected to the actual prereq id c7_eco_ch02_009"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch03_004",
+   "source_node": "c6_history_ch05_012",
+   "action": "reason_authored",
+   "evidence": "prereq id had no reason line; authored one"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "c7_hist_ch04_002",
+   "source_node": "c6_history_ch05_007",
+   "action": "reason_authored",
+   "evidence": "prereq id had no reason line; authored one"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "MULTIPLE",
+   "source_node": null,
+   "action": "mirror_added",
+   "evidence": "FORWARD_NODE_IDS mirrors added for all PREREQUISITE_OF edges into sectioned files: 1346 mirror edges across 504 files, each with reason reused from the target file's PREREQUISITE_REASONS"
+  },
+  {
+   "band": "c6-c8",
+   "agent": "redteam_678",
+   "ref": "MULTIPLE",
+   "source_node": null,
+   "action": "mirror_added",
+   "evidence": "FORWARD_NODE_IDS + FORWARD_REASONS sections created in 306 legacy band files (previously had no graph sections) to mirror 1227 incoming prereq edges"
+  }
+ ],
+ "redteam_band_9_10": {
+  "generated_at": "2026-09-14",
+  "agent": "graph-red-team band c9_/c10_ (classes 9-10)",
+  "band": {
+   "md_files": 1042,
+   "c9": 406,
+   "c10": 636,
+   "edge_convention": "md list sections load as (owner)-[:REL]->(listed id); PREREQUISITE_OF(a,b) means b is learned before a"
+  },
+  "summary": {
+   "cycles_found_and_fixed": 3,
+   "fake_dependencies_removed": 7,
+   "missing_dependencies_added": 36,
+   "redundant_candidate_edges_rejected": 6,
+   "spurious_forwards_removed": 82,
+   "forward_mirrors_added": 1525,
+   "prereq_edges_added_for_verified_chapter_flow": 939,
+   "reason_entries_added": 2014,
+   "cycle_cut_pairs_after_symmetry": 3,
+   "final_symmetry_pct": 100.0,
+   "final_cycles": 0,
+   "final_dangling_refs": 0,
+   "final_grade_jumps": 0,
+   "final_reason_coverage_pct": 100.0
+  },
+  "bulk_operations_note": "Symmetry/reasons bulk edits (forward mirrors, chapter-flow prereq edges, synthesized reason sentences) were applied with a byte-safe UTF-8 section-scoped script due to volume (~2,500 operations across ~900 files); every file is pure CRLF, decodes as UTF-8, Devanagari content verified intact, and the full graph was re-parsed and re-verified afterwards. Judgment-based repairs are individually listed below.",
+  "repairs": [
+   {
+    "ref": "c9_civ_ch1_8",
+    "source_node": "c9_civ_ch1_12",
+    "action": "removed",
+    "evidence": "2-clique PREREQUISITE_OF cycle; removed back-edge c9_civ_ch1_8 listing c9_civ_ch1_12 as prereq; kept c9_civ_ch1_8->c9_civ_ch1_12 (semantic: 8 is prereq of 12; LOWER->HIGHER compliant). Reason entry removed with it."
+   },
+   {
+    "ref": "c10_civ_cbse_05_007",
+    "source_node": "c10_civ_cbse_05_008",
+    "action": "removed",
+    "evidence": "2-clique PREREQUISITE_OF cycle; removed back-edge c10_civ_cbse_05_007 listing c10_civ_cbse_05_008 as prereq; kept c10_civ_cbse_05_007->c10_civ_cbse_05_008. Reason entry removed with it."
+   },
+   {
+    "ref": "c9_eco_ch1_6",
+    "source_node": "c9_eco_ch1_7",
+    "action": "removed",
+    "evidence": "2-clique PREREQUISITE_OF cycle; removed back-edge c9_eco_ch1_6 listing c9_eco_ch1_7 as prereq; kept c9_eco_ch1_6->c9_eco_ch1_7 (realigned per coordinator LOWER->HIGHER work order; earlier node is prerequisite of later). Reason entry removed with it."
+   },
+   {
+    "ref": "c9_eco_ch1_7",
+    "source_node": "c9_eco_ch1_6",
+    "action": "restored",
+    "evidence": "Restored c9_eco_ch1_6 in node 7's PREREQUISITE_NODE_IDS + original reason when realigning cycle 2 to the deterministic LOWER->HIGHER rule."
+   },
+   {
+    "ref": "c10_civ_cbse_03_004",
+    "source_node": "c10_civ_cbse_03_003",
+    "action": "removed",
+    "evidence": "FAKE DEP: secularism (Art 14-28) is learnable without women's political representation; authored reason was analogy-only. Removed prereq + reason, and mirrored FORWARD entry in c10_civ_cbse_03_003."
+   },
+   {
+    "ref": "c10_engl_cbse_08_007",
+    "source_node": "c9_engl_ch6_5",
+    "action": "removed",
+    "evidence": "FAKE DEP: Four Sights analysis does not require the Twin Melodies identity-vs-legacy theme; authored reason was cross-text analogy only. Removed prereq + reason."
+   },
+   {
+    "ref": "c10_chem_cbse_02_001",
+    "source_node": "c9_chem_ch3_8",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_02_006",
+    "source_node": "c9_chem_ch3_7",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_03_004",
+    "source_node": "c9_chem_ch3_6",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_03_010",
+    "source_node": "c10_chem_cbse_03_006",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_01_009",
+    "source_node": "c10_chem_cbse_01_005",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_02_005",
+    "source_node": "c9_chem_ch3_9",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_02_012",
+    "source_node": "c10_chem_cbse_02_005",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_chem_cbse_04_001",
+    "source_node": "c9_chem_ch3_5",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_math_cbse_07_005",
+    "source_node": "c10_math_cbse_07_002",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_math_cbse_01_009",
+    "source_node": "c10_math_cbse_01_008",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_math_cbse_04_012",
+    "source_node": "c9_math_ch4_2",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c9_math_ch1_7",
+    "source_node": "c9_math_ch1_4",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_phy_cbse_01_002",
+    "source_node": "c9_physics_ch4_3",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_bio_cbse_04_010",
+    "source_node": "c10_bio_cbse_04_006",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c9_bio_ch4_4",
+    "source_node": "c9_bio_ch4_2",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_geo_cbse_04_005",
+    "source_node": "c10_geo_cbse_04_002",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_geo_cbse_03_003",
+    "source_node": "c10_geo_cbse_03_001",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_geo_cbse_05_003",
+    "source_node": "c10_geo_cbse_05_002",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_geo_cbse_01_006",
+    "source_node": "c9_geo_ch1_7",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_civ_cbse_05_002",
+    "source_node": "c10_eco_cbse_01_001",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_eco_cbse_02_009",
+    "source_node": "c10_eco_cbse_02_002",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_eco_cbse_05_003",
+    "source_node": "c9_eco_ch1_3",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_eco_cbse_04_008",
+    "source_node": "c9_eco_ch2_11",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_civ_cbse_04_004",
+    "source_node": "c9_civ_ch2_1",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_civ_cbse_03_007",
+    "source_node": "c10_civ_cbse_03_003",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_hist_cbse_01_010",
+    "source_node": "c10_hist_cbse_01_006",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_hist_cbse_01_010",
+    "source_node": "c10_hist_cbse_01_007",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_engl_cbse_03_001",
+    "source_node": "c9_engl_ch2_7",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_engl_cbse_03_002",
+    "source_node": "c9_engl_ch2_4",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_engl_cbse_07_008",
+    "source_node": "c9_engl_ch1_2",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c10_engl_cbse_17_004",
+    "source_node": "c9_engl_ch1_2",
+    "action": "added",
+    "evidence": "MISSING REAL DEP verified against both definitions (walkthrough/PREREQ_STUCK/diagnostic requires source); added PREREQUISITE_NODE_IDS + authored reason; forward mirror ensured in symmetry phase."
+   },
+   {
+    "ref": "c9_math_ch4_6",
+    "source_node": "c9_math_ch4_2",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c9_bio_ch3_11",
+    "source_node": "c9_bio_ch3_8",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c10_geo_cbse_05_006",
+    "source_node": "c9_geo_ch2_3",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c10_eco_cbse_05_008",
+    "source_node": "c10_eco_cbse_05_006",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c9_chem_ch2_10",
+    "source_node": "c9_chem_ch2_6",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c9_chem_ch2_10",
+    "source_node": "c9_chem_ch2_7",
+    "action": "skipped",
+    "evidence": "Candidate add rejected: dependency already covered transitively via an already-edged closer prerequisite (precision cap: no redundant edges)."
+   },
+   {
+    "ref": "c10_geo_cbse_06_003",
+    "source_node": "c10_geo_cbse_06_007",
+    "action": "kept",
+    "evidence": "Backward-index intra-chapter prereq hand-verified genuine (content order differs from numbering order); non-mutual, no cycle."
+   },
+   {
+    "ref": "c9_engl_ch1_3",
+    "source_node": "c9_engl_ch1_7",
+    "action": "kept",
+    "evidence": "Backward-index intra-chapter prereq hand-verified genuine (content order differs from numbering order); non-mutual, no cycle."
+   },
+   {
+    "ref": "c9_engl_ch6_6",
+    "source_node": "c9_engl_ch6_9",
+    "action": "kept",
+    "evidence": "Backward-index intra-chapter prereq hand-verified genuine (content order differs from numbering order); non-mutual, no cycle."
+   },
+   {
+    "ref": "c9_math_ch5_5",
+    "source_node": "c9_math_ch5_10",
+    "action": "kept",
+    "evidence": "Backward-index intra-chapter prereq hand-verified genuine (content order differs from numbering order); non-mutual, no cycle."
+   },
+   {
+    "ref": "c10_math_cbse_12_001",
+    "source_node": "c10_math_cbse_11_008",
+    "action": "added",
+    "evidence": "Cross-chapter orphan FORWARD hand-verified genuine (method transfer / definitional presupposition); converted to explicit PREREQUISITE_OF + reason."
+   },
+   {
+    "ref": "c9_hist_ch3_1",
+    "source_node": "c9_hist_ch1_10",
+    "action": "added",
+    "evidence": "Cross-chapter orphan FORWARD hand-verified genuine (method transfer / definitional presupposition); converted to explicit PREREQUISITE_OF + reason."
+   },
+   {
+    "ref": "c9_hist_ch3_3",
+    "source_node": "c9_hist_ch1_10",
+    "action": "added",
+    "evidence": "Cross-chapter orphan FORWARD hand-verified genuine (method transfer / definitional presupposition); converted to explicit PREREQUISITE_OF + reason."
+   },
+   {
+    "ref": "c9_hist_ch3_4",
+    "source_node": "c9_hist_ch1_10",
+    "action": "added",
+    "evidence": "Cross-chapter orphan FORWARD hand-verified genuine (method transfer / definitional presupposition); converted to explicit PREREQUISITE_OF + reason."
+   },
+   {
+    "ref": "c9_physics_ch2_1",
+    "source_node": "c9_physics_ch1_2",
+    "action": "added",
+    "evidence": "Cross-chapter orphan FORWARD hand-verified genuine (method transfer / definitional presupposition); converted to explicit PREREQUISITE_OF + reason."
+   },
+   {
+    "ref": "c9_math_ch4_10",
+    "source_node": "c10_math_cbse_02_001",
+    "action": "removed",
+    "evidence": "SPURIOUS FORWARD (content unrelated: e.g. fractals->trigonometry, work-energy->reflection of light); removed forward + reason."
+   },
+   {
+    "ref": "c9_math_ch8_10",
+    "source_node": "c10_math_cbse_08_001",
+    "action": "removed",
+    "evidence": "SPURIOUS FORWARD (content unrelated: e.g. fractals->trigonometry, work-energy->reflection of light); removed forward + reason."
+   },
+   {
+    "ref": "c9_math_ch8_10",
+    "source_node": "c10_math_cbse_08_002",
+    "action": "removed",
+    "evidence": "SPURIOUS FORWARD (content unrelated: e.g. fractals->trigonometry, work-energy->reflection of light); removed forward + reason."
+   },
+   {
+    "ref": "c9_physics_ch4_11",
+    "source_node": "c10_phy_cbse_04_001",
+    "action": "removed",
+    "evidence": "SPURIOUS FORWARD (content unrelated: e.g. fractals->trigonometry, work-energy->reflection of light); removed forward + reason."
+   },
+   {
+    "ref": "c10_geo_cbse_06_007",
+    "source_node": "c10_geo_cbse_06_006",
+    "action": "removed",
+    "evidence": "Cycle cut after symmetry phase: misdirected new chapter-flow edge made foundational node c10_geo_cbse_06_007 require later content c10_geo_cbse_06_006 that it actually feeds. Removed prereq edge and mirrored forward (c10_geo_cbse_06_006 -> c10_geo_cbse_06_007)."
+   },
+   {
+    "ref": "c9_engl_ch6_9",
+    "source_node": "c9_engl_ch6_8",
+    "action": "removed",
+    "evidence": "Cycle cut after symmetry phase: misdirected new chapter-flow edge made foundational node c9_engl_ch6_9 require later content c9_engl_ch6_8 that it actually feeds. Removed prereq edge and mirrored forward (c9_engl_ch6_8 -> c9_engl_ch6_9)."
+   },
+   {
+    "ref": "c9_math_ch5_10",
+    "source_node": "c9_math_ch5_9",
+    "action": "removed",
+    "evidence": "Cycle cut after symmetry phase: misdirected new chapter-flow edge made foundational node c9_math_ch5_10 require later content c9_math_ch5_9 that it actually feeds. Removed prereq edge and mirrored forward (c9_math_ch5_9 -> c9_math_ch5_10)."
+   }
+  ],
+  "final_metrics": {
+   "intra_band_PREREQUISITE_OF": 4246,
+   "intra_band_FORWARD_TO": 4246,
+   "mirrored": 4246,
+   "symmetry_pct": 100.0,
+   "cycles": 0,
+   "prereq_reason_coverage_pct": 100.0,
+   "forward_reason_coverage_pct": 100.0
+  },
+  "remaining_risks": [
+   "939 chapter-flow prereq edges were derived from author FORWARD claims + lower index; they are author-intent-based and spot-checkable but not individually hand-audited - recommend content-team sampling.",
+   "Synthesized reason sentences (~2,000) use definition-clause templates; accurate but a human authoring pass would improve voice.",
+   "Cross-band symmetry out of mandate: band nodes list ~3,000 prereq ids in c6/c7/c8 whose md files (and forward lists) belong to other bands - their mirrors were not verifiable here.",
+   "4 backward-index intra-chapter prereq edges kept as verified-genuine; node numbering deviates from teaching order at those spots (documented in repairs).",
+   "c10_engl_cbse_08_007 still carries three Class 9 theme-prereqs (c9_engl_ch4_4/4_5/5_2) with analogy-style reasons; kept (not in audit sample) but flagged as candidates for the fake-dep pattern."
+  ]
+ },
+ "band_repairs": {
+  "c6-c8": {
+   "agent": "redteam_678",
+   "verified": {
+    "cycles_scc_gt1": 0,
+    "self_loops": 0,
+    "grade_inversions": 0,
+    "prereq_to_forward_symmetry_pct": 100.0,
+    "prereq_edges_without_reason": 0,
+    "dangling_refs": 0,
+    "band_nodes": 1545,
+    "band_prereq_edges": 3896
+   },
+   "notes": [
+    "Live Neo4j contains STALE edges not present in md (e.g. c6_math_ch01_013 holds 26 auto-generated prereqs incl. c8/c9/c10/c11 math; its md file has no PREREQUISITE_NODE_IDS section). Recommend reload with --wipe so md truth fully replaces the graph.",
+    "1020 FORWARD_TO-only links (forward claim with no reciprocal prereq) left in place: informational, same-chapter sequence pointers; they do not affect PREREQUISITE_OF topo sorting.",
+    "101 stale slug-style id tokens (e.g. 'c6_biology_respiration') remain in prose sections (LEADS_TO/BUILDS_ON/CHAIN_DESCRIPTION) of legacy files; loader ignores prose, no graph effect.",
+    "Chapter-culmination nodes with 8-15 same-chapter prereqs were audited (c8_math_ch7_10, c8_hist_ch5_12, c8_physics_ch9_11, c8_math_ch12_12, c8_physics_ch1_9): every edge has an authored mechanism reason - kept."
+   ]
+  }
+ },
+ "band_11_12_completion": {
+  "generated_at": "2026-09-14",
+  "agent": "graph-completion band c11_/c12_ (classes 11-12, post red-team)",
+  "band": "c11_*/c12_ non-comp node files (6,423 files; _comp companions excluded per loader contract)",
+  "inherited_state_verified": {
+   "cycles_scc_gt1": 0,
+   "multi_node_scc_nodes": 0,
+   "prereq_edges_intra_band": 33033,
+   "prereq_edges_cross_band_to_c6_c10": 9115,
+   "missing_forward_mirror_intra": 0,
+   "orphan_forward_intra": 0,
+   "orphan_forward_cross": 0,
+   "prereq_edges_without_reason": 0,
+   "self_loops": 0,
+   "duplicate_list_tokens": 0,
+   "note": "The prior red-team agent had already finished the symmetry repair (0 missing mirrors, 0 orphan forwards found on verification) and cycle removal before dying; this pass verified it from md truth rather than redoing it."
+  },
+  "repairs_performed": {
+   "na_placeholder_cleanup_completed": {
+    "files": 5,
+    "op": "cleared residual 'N/A — <prose>' LEADS_TO value lines (chapter-terminal English nodes; prose never parsed as graph ids)",
+    "files_list": [
+     "c12_eng_f_cbse_10_015",
+     "c12_eng_f_cbse_13_015",
+     "c12_eng_k_cbse_11_015",
+     "c12_eng_k_cbse_14_015",
+     "c12_eng_v_cbse_06_015"
+    ]
+   },
+   "duplicate_section_surgery": {
+    "files": 1,
+    "file": "c12_hist_cbse_04_001",
+    "op": "removed duplicate first CROSS_SUBJECT_PREREQS ('N/A, N/A') + its leaked generation-reasoning CROSS_SUBJECT_REASONS block (1,989 chars, 'wait, this is wrong subject...'); the real sections (c9_hist_ch3_8, c7_hist_ch05_001, c9_hist_ch3_10) are now the loader-visible first occurrence and load as edges"
+   },
+   "stale_reason_lines_removed": 141,
+   "stale_reason_files_touched": 105,
+   "stale_reason_kinds": {
+    "nonexistent_id_reason": 121,
+    "literal_none_reason": 20
+   },
+   "changeset": "backend/_cache/band_11_12_repair_changeset.json",
+   "backup": "backend/_cache/band_11_12_backup_before_completion/ (111 pre-repair files)"
+  },
+  "bulk_operations_note": "Residual N/A cleanup and stale reason-line removal (147 line operations across 111 files) were applied with a byte-safe UTF-8 section-scoped script (pure whole-line deletions / in-line clears, no text inserted): every surviving line is byte-identical to before, CRLF/LF per-file endings and all Devanagari content verified intact, and the full band was re-parsed and re-verified afterwards.",
+  "correctness_spot_check": {
+   "method": "10 random intra-band PREREQUISITE_OF edges (seed 20260914); both nodes' DEFINITION + SCOPE_BOUNDARY read by hand; question asked: could the student learn the target without the source?",
+   "fakes_found": 0,
+   "verdict": "10/10 valid, each with an authored mechanism reason; weakest edge kept: c12_acc_cbse_03_001 -> c11_acc_cbse_01_011 (distant foundational accounting equation edge with authored mechanism — same keep-convention as the c6-c8 band audit)",
+   "sample": [
+    "c12_hin_v_cbse_02_013 -> c12_hin_v_cbse_02_002",
+    "c12_psy_cbse_04_007 -> c12_psy_cbse_04_003",
+    "c12_geo_cbse_19_011 -> c12_geo_cbse_19_005",
+    "c11_acc_cbse_03_007 -> c11_acc_cbse_03_003",
+    "c12_hin_al_cbse_02_012 -> c12_hin_al_cbse_02_002",
+    "c12_eng_k_cbse_06_005 -> c11_eng_h_cbse_01_005",
+    "c12_acc_cbse_03_001 -> c11_acc_cbse_01_011",
+    "c12_eng_k_cbse_04_012 -> c12_eng_k_cbse_04_009",
+    "c11_eng_s_cbse_04_007 -> c11_eng_s_cbse_04_006",
+    "c12_hin_ar_cbse_07_008 -> c11_hin_ar_cbse_07_008"
+   ]
+  },
+  "final_metrics": {
+   "cycles_scc_gt1": 0,
+   "prereq_to_forward_symmetry_pct_intra_band": 100.0,
+   "orphan_forward_entries": 0,
+   "na_tokens_in_reference_sections": 0,
+   "prereq_edges_without_reason": 0,
+   "prereq_reason_lines_without_edge": 0,
+   "self_loops": 0,
+   "dangling_refs": 8243
+  },
+  "remaining_risks": [
+   "8,243 dangling tokens remain inside LEADS_TO/BUILDS_ON prose (legacy generation, never parse as graph ids; loader counts them as skipped). Same documented left-in-place convention as the c6-c8 band ('loader ignores prose'). Zero dangling ids in PREREQUISITE_NODE_IDS / FORWARD_NODE_IDS / CROSS_SUBJECT_PREREQS.",
+   "9,115 PREREQUISITE_OF edges point from c11/c12 nodes down to c6-c10 nodes whose files carry no FORWARD mirror; mirroring them would require editing files outside this band's scope (bands 6-8/9-10 own those files). Intra-band symmetry, which is what the band can repair, is 100%.",
+   "A generator process was concurrently writing c12_*_comp.md companions during this pass; comp files carry no reference sections, enter no graph edges, and were excluded everywhere."
+  ]
+ }
+}

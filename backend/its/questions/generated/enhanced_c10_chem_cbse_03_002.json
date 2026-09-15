@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_002",
+   "title": "c10_chem_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the general physical properties of non-metals with respect to: (a) lustre, (b) hardness, (c) electrical conductivity, (d) melting and boiling points, and (e) sonority.",
+     "a": "Non-metals are generally non-lustrous (dull), brittle (not malleable/ductile), poor conductors of electricity, have low melting and boiling points, and are non-sonorous. A wrong answer (e.g., stating non-metals are lustrous or good conductors) reveals confusion with metallic properties, indicating the student has not distinguished the two classes of elements at a fundamental level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why graphite conducts electricity while diamond, also made of carbon, does not. Use the concept of electron delocalisation in your answer.",
+     "a": "In graphite, each carbon atom is bonded to three others in hexagonal layers, leaving one valence electron delocalised and free to move between layers, allowing conduction. In diamond, each carbon forms four strong covalent bonds in a rigid tetrahedral network, locking all electrons and preventing conduction. A wrong answer that only mentions \"different structure\" without electron delocalisation shows superficial memorisation without understanding the electronic origin of conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests four samples: (A) sulphur powder, (B) graphite rod, (C) iodine crystals, (D) mercury. She records: Sample B conducts electricity; Sample C is shiny; Sample D is liquid at 25°C. Identify which samples are non-metals and which are metals, justifying each with one property.",
+     "a": "Non-metals: A (sulphur — powdery, non-conducting), B (graphite — conducts but is a non-metal exception), C (iodine — lustrous non-metal exception). Metal: D (mercury — liquid metal exception). If the student classifies mercury as a non-metal because it is liquid, they are using state at room temperature as the defining criterion instead of electronic structure and bonding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the melting points of diamond (≈3550°C) and graphite (≈3650°C sublimation) with those of typical non-metals like sulphur (115°C) and phosphorus (44°C). Explain this anomaly in terms of bonding type and structure.",
+     "a": "Diamond and graphite are giant covalent network solids where breaking the structure requires breaking strong covalent bonds throughout the lattice, giving extremely high melting/sublimation points. Typical non-metals exist as small discrete molecules (S₈, P₄) held by weak van der Waals forces, requiring little energy to separate. A wrong answer attributing high melting points to \"strong intermolecular forces\" confuses covalent network bonding with intermolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All non-metals are gases or brittle solids at room temperature.\" Is this statement correct? If not, provide a counterexample and explain why it is an exception.",
+     "a": "The statement is incorrect. Bromine is a non-metal that is a liquid at room temperature (melting point –7°C, boiling point 59°C). It exists as diatomic Br₂ molecules with weak intermolecular forces, similar to iodine but with a lower melting point. A student who says \"no exception\" has not learned the full range of non-metal states; a student who gives mercury as a counterexample incorrectly classifies mercury as a non-metal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, LED, wires, and crocodile clips to distinguish between graphite, sulphur, and iodine based on electrical conductivity. Write the procedure and expected observations in a table.",
+     "a": "Procedure: Build an open circuit with battery, LED, and two clips. Place each sample between the clips to close the circuit. Observations: Graphite — LED glows (conducts); Sulphur — LED does not glow (insulator); Iodine — LED does not glow (insulator, though lustrous). A poor answer omits the control (open circuit) or fails to note that iodine's lustre does not imply conductivity, showing inability to design a controlled investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

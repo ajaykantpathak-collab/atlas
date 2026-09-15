@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class12_biology_lebo113",
+ "concepts": [
+  {
+   "id": "lebo.113.1",
+   "title": "Levels and Global Patterns of Biodiversity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels and Global Patterns of Biodiversity' refers to.",
+     "a": "Biodiversity is expressed at three levels: genetic diversity (like more than a thousand rice varieties in India), species diversity (over 1.5 million plant and animal species described so far) and ecological diversity (from deserts to mangroves), with the Amazonian rainforest holding the greatest biodiversity on earth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels and Global Patterns of Biodiversity'.",
+     "a": "For every 10 square kilometres of Amazonian forest there are probably more kinds of plants and animals than in the whole of Europe, which is why conserving forest area matters more than raw species counts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Levels and Global Patterns of Biodiversity' taught, and from which source text?",
+     "a": "Biodiversity and its Conservation (source: lebo113.txt genetic-species-ecological diversity sections and Amazon estimate)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.2",
+   "title": "Species-Area Relationship",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Species-Area Relationship' refers to.",
+     "a": "Species richness S rises with explored area A and on a log scale is a straight line, log S = log C + Z log A; the regression slope Z lies in the range 0.1 to 0.2 for ordinary regional analyses but steepens to 0.6 to 1.2 when whole continents are compared.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Species-Area Relationship'.",
+     "a": "The gap between the shallow regional slopes and the steep continental slopes shows that species accumulation accelerates with scale, which is why conserving large continuous habitats matters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Species-Area Relationship', in plain ASCII form.",
+     "a": "z_gap = steep_z_low - shallow_z_high",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.3",
+   "title": "Importance and the Rivet Popper Hypothesis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance and the Rivet Popper Hypothesis' refers to.",
+     "a": "Ecologists ask why we should save species; the rivet popper hypothesis of Paul Ehrlich compares an ecosystem to an aeroplane where popping rivets (extinctions) may seem harmless until a critical rivet fails and the plane (ecosystem function) crashes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance and the Rivet Popper Hypothesis'.",
+     "a": "Species diversity is insurance for ecosystem services: every lost rivet raises the chance that the next extinction is the fatal one.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Importance and the Rivet Popper Hypothesis' taught, and from which source text?",
+     "a": "Importance of Species Diversity (source: lebo113.txt rivet popper hypothesis passage)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.4",
+   "title": "In-situ and Ex-situ Conservation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'In-situ and Ex-situ Conservation' refers to.",
+     "a": "Conservation strategies split into in-situ protection in natural habitats (biodiversity hotspots, sacred groves, biosphere reserves, national parks and sanctuaries) and ex-situ preservation off-site (zoological parks, tissue culture and seed banks), with hotspots defined by high endemism and exceptional threat.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'In-situ and Ex-situ Conservation'.",
+     "a": "India counts three biodiversity hotspots - the Western Ghats-Sri Lanka, Indo-Burma and the Eastern Himalaya - and sacred groves show how culture protected forests before statutes did.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'In-situ and Ex-situ Conservation' taught, and from which source text?",
+     "a": "Conservation of Biodiversity (source: lebo113.txt hotspot criteria, sacred groves and ex-situ techniques sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

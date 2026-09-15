@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_005",
+   "title": "c11_stat_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a histogram and a bar diagram in terms of what the width of the bars/rectangles represents?",
+     "a": "In a histogram, the width of each rectangle represents the class interval size (a quantitative measure), making area proportional to frequency; in a bar diagram, bar width is arbitrary and only height represents magnitude. A wrong answer (e.g., \"both represent categories\") reveals the student confuses qualitative vs quantitative classification and does not grasp that histogram width carries mathematical meaning tied to the continuous variable's scale.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a histogram for the data: Class 0–10 (f=5), 10–20 (f=8), 20–30 (f=12), 30–40 (f=7), 40–50 (f=3) by making all rectangles of equal width and height equal to frequency. They then claim the area of the 20–30 rectangle is 12 sq units. Is this correct? Explain why or why not.",
+     "a": "Yes, it is correct because class intervals are equal (width = 10), so area = height × width = frequency × 10. However, if the student thinks \"area = frequency\" without the width factor, they misunderstand that area is frequency only when width = 1 unit. A wrong answer reveals confusion between \"height represents frequency\" (true for equal widths) and \"area represents frequency\" (always true by definition). The student must recognise that equal width is a special case where height ∝ frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Given the frequency distribution: Daily earnings (₹) 45–49 (2), 50–54 (3), 55–59 (5), 60–64 (3), 65–69 (6), 70–74 (7), 75–79 (12), 80–84 (13), 85–89 (9), 90–94 (7), 95–99 (6), 100–104 (4), 105–109 (2), 110–114 (3), 115–119 (3). The class intervals are inclusive. What adjustment must be made before drawing the histogram, and what will be the true class boundaries for the first interval?",
+     "a": "Since intervals are inclusive (e.g., 45–49, 50–54), there is a gap of 1 between upper limit of one class and lower limit of the next. The adjustment factor = (50 − 49)/2 = 0.5. Subtract 0.5 from all lower limits and add 0.5 to all upper limits. True boundaries for first interval: 44.5–49.5. A wrong answer (e.g., \"no adjustment needed\" or using 45–50) reveals the student does not understand that inclusive classes for continuous variables require conversion to exclusive boundaries to ensure rectangles touch without gaps.",
+     "self_check": true
+    },
+    {
+     "q": "For the data: Marks 0–20 (6 students), 20–50 (10 students), 50–70 (14 students), 70–100 (10 students). A student draws rectangles with heights 6, 10, 14, 10 respectively. Why is this histogram misleading? Calculate the correct heights.",
+     "a": "Class widths are unequal: 20, 30, 20, 30. Height must be frequency density = frequency ÷ class width. Correct heights: 0–20: 6/20 = 0.3; 20–50: 10/30 ≈ 0.333; 50–70: 14/20 = 0.7; 70–100: 10/30 ≈ 0.333. The student's version makes the 50–70 rectangle appear only 1.4× taller than 0–20, but its density is actually 2.33× higher. A wrong answer shows the student applies equal-interval method to unequal intervals, violating the area-proportional-to-frequency principle.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher presents a histogram of household incomes with class intervals: ₹0–5000 (f=20), ₹5000–10000 (f=35), ₹10000–20000 (f=30), ₹20000–50000 (f=15). They argue the modal class is ₹5000–10000 because it has the highest frequency (35). Critique this claim.",
+     "a": "The claim is incorrect. For unequal class intervals, mode is determined by the highest rectangle in the histogram, which corresponds to the highest frequency density, not absolute frequency. Densities: 0–5000: 20/5000 = 0.004; 5000–10000: 35/5000 = 0.007; 10000–20000: 30/10000 = 0.003; 20000–50000: 15/30000 = 0.0005. The modal class is actually ₹5000–10000 (density 0.007), but the reasoning was flawed — it happened to be correct by coincidence. A wrong defence reveals the student confuses frequency with frequency density for mode identification in unequal intervals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a frequency distribution with 5 classes where the class intervals are deliberately unequal, such that the class with the second-highest frequency becomes the modal class when the histogram is correctly drawn. Provide the full table and explain why this happens.",
+     "a": "Example: Class 0–10 (f=8, width=10, density=0.8), 10–15 (f=6, width=5, density=1.2), 15–25 (f=12, width=10, density=1.2), 25–40 (f=10, width=15, density≈0.67), 40–50 (f=5, width=10, density=0.5). Here 15–25 has highest frequency (12) but 10–15 and 15–25 tie for highest density (1.2). To make second-highest frequency (10 in 25–40) become modal, adjust: 0–10 (f=5, d=0.5), 10–15 (f=8, d=1.6), 15–25 (f=12, d=1.2), 25–30 (f=10, d=2.0), 30–50 (f=6, d=0.3). Now 25–30 (f=10, 2nd highest freq) has highest density (2.0) → modal class. A poor answer uses equal widths or fails to show density > frequency ranking reversal, indicating the student cannot manipulate the width-frequency relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

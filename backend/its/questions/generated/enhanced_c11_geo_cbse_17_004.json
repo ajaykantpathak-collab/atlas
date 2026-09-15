@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_004",
+   "title": "c11_geo_cbse_17_004",
+   "questions": [
+    {
+     "q": "Define \"urbanisation level\" and state its value for India according to Census 2011.",
+     "a": "Urbanisation level = (Urban Population / Total Population) × 100. For India, Census 2011: 377.1 million urban / 1210.8 million total = 31.1%. A wrong answer (e.g., \"urban growth rate\" or \"31.1 million\") reveals confusion between *level* (stock, percentage) and *rate* (flow, % per annum), or between absolute numbers and proportions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the decade 1941-1951 showed a sharp decline in urban growth rate despite Partition-related migration.",
+     "a": "The 1941-51 decade saw negative urban growth (-0.37%) because the Census definition of \"urban\" changed: many towns were declassified due to stringent criteria (population >5,000, density >400/km², 75% male non-agricultural workers). Partition migration increased urban numbers, but declassification reduced the *count* of towns. A wrong answer attributing it solely to \"Partition violence\" misses the definitional artifact — a classic senior-secondary error of ignoring methodological changes in data.",
+     "self_check": true
+    },
+    {
+     "q": "Using the formula for annual exponential growth rate, calculate the urban growth rate for 2001-2011 given: Urban population 2001 = 286.1 million, 2011 = 377.1 million.",
+     "a": "Step 1: Formula r = (1/t) × ln(Pt/P0) × 100. Step 2: t = 10 years. Step 3: Pt/P0 = 377.1/286.1 = 1.318. Step 4: ln(1.318) = 0.276. Step 5: r = (0.276/10) × 100 = 2.76% per annum. A wrong answer using simple growth ((377.1-286.1)/286.1 × 100 / 10 = 3.17%) ignores compounding — a critical error for demographic projections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the push factors driving migration from Bihar's Kosi belt to Delhi with pull factors attracting migrants to Surat's textile sector. How do they differ in permanence?",
+     "a": "Kosi belt: Push = recurrent floods, landlessness, caste oppression — distress-driven, often circular/seasonal migration. Surat: Pull = powerloom jobs, higher wages, established migrant networks — opportunity-driven, more permanent settlement. A wrong answer listing \"poverty\" for both misses the *structural* difference: push creates floating populations in slums; pull enables integration. This distinction is vital for policy (portable welfare vs. housing investment).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's urban problems are solely due to rapid population growth in cities.\"",
+     "a": "Incorrect. Urban problems stem from *unplanned* growth, not growth per se. Evidence: (1) 2011 Census: 31% urban but contributes 63% GDP — cities are productive, not parasitic. (2) Slums arise from land-use regulations (e.g., Delhi's Master Plan 2021 FAR limits) pushing poor to informal settlements. (3) Water scarcity reflects leaky infrastructure (40% non-revenue water) not absolute shortage. A wrong answer blaming \"too many people\" ignores governance and planning failures — a Malthusian misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard to monitor urbanisation quality (not just quantity) for a state government. Justify each indicator.",
+     "a": "Good answer: (1) *Slum household %* (Census/NFHS) — captures housing deprivation. (2) *Per capita water supply (lpcd) vs. 135 lpcd norm* — captures service delivery. (3) *PM2.5 annual mean* — captures environmental sustainability. Justification: These reflect SDG 11 (sustainable cities). Poor answer: \"urbanisation level, growth rate, number of towns\" — only measures quantity, repeating the error in Q5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

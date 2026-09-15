@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch12_001",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch12_001",
+   "title": "c6_economics_ch12_001",
+   "questions": [
+    {
+     "q": "What are the three essential components that make a market?",
+     "a": "The three components are the buyer, the seller, and the exchange of goods or services. A wrong answer here shows the student is confusing the \"place\" (like a building) with the \"process\" (the economic activity).",
+     "self_check": true
+    },
+    {
+     "q": "Is a mobile app where you order groceries a \"market\"? Why or why not?",
+     "a": "Yes, it is a market because it functions as a mechanism where buyers and sellers connect to exchange goods for money, even without a physical location. A wrong answer suggests the student thinks a market must have four walls and a roof.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer gives wheat to a neighbor in exchange for labor, is this a market transaction? Explain.",
+     "a": "Yes, it is a market transaction because there is an exchange of a good (wheat) for a service (labor) between two parties. If the student says \"no\" because \"no money changed hands,\" they are missing the concept that markets are about the *exchange of value*, not just cash.",
+     "self_check": true
+    },
+    {
+     "q": "How do the roles of the buyer and seller differ in a village vegetable market compared to a large online shopping website?",
+     "a": "The roles remain the same: the buyer seeks a product and the seller provides it for a price; only the \"mechanism\" of the exchange changes. If the student focuses on the *tool* (phone vs. basket) instead of the *role*, they have not yet generalized the concept of a market.",
+     "self_check": true
+    },
+    {
+     "q": "Can a market exist if the seller has goods but there are no buyers?",
+     "a": "No, a market requires the interaction of both parties; without a buyer, there is no exchange, and therefore no market activity. This tests the student's understanding that a market is a two-way relationship, not just a storehouse for goods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple imaginary market for your classroom. Who are the buyers, who are the sellers, and what is being exchanged?",
+     "a": "A good answer identifies students as both buyers and sellers, specifies a product (e.g., bookmarks, notes), and defines the currency or trade item. A poor answer fails to define the \"exchange\" part of the process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

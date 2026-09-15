@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_010",
+   "title": "c12_geo_cbse_21_010",
+   "questions": [
+    {
+     "q": "What is the fundamental physical principle that allows a sensor on a satellite to distinguish between a healthy wheat crop and a water-stressed wheat crop without touching either?",
+     "a": "Healthy vegetation reflects strongly in near-infrared (NIR) due to leaf cell structure and absorbs strongly in red for photosynthesis; water-stressed vegetation shows reduced NIR reflectance and increased red reflectance. The sensor detects these contrasting spectral signatures in specific wavelength bands. A wrong answer (e.g., \"satellite takes a photograph like a camera\") reveals the student confuses passive optical sensing with simple photography and does not grasp wavelength-dependent interaction of EMR with surface materials.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"RISAT-1 uses C-band synthetic aperture radar (SAR) so it can see through clouds and operate at night, making it better than Cartosat-2 for all mapping purposes.\" Evaluate this statement.",
+     "a": "The statement is partially correct but overgeneralized. RISAT-1's active microwave sensor (C-band SAR) indeed penetrates cloud cover and operates day/night, crucial for flood mapping during monsoon. However, Cartosat-2's panchromatic camera provides sub-meter spatial resolution (0.8 m) ideal for urban cadastral mapping, which SAR cannot match due to speckle noise and geometric distortion. A wrong answer (\"RISAT is always better\") reveals the student does not understand trade-offs between sensor types: active vs passive, microwave vs optical, and that \"better\" depends on application (cloud penetration vs geometric detail).",
+     "self_check": true
+    },
+    {
+     "q": "You are given a Resourcesat-2 LISS-IV image (spatial resolution 5.8 m, 3 spectral bands: green, red, NIR) of a 10 km × 10 km agricultural region. Calculate the approximate number of pixels in the image and explain why spectral resolution matters for distinguishing rice from sugarcane in the same season.",
+     "a": "**Steps**: 1) Area = 10 km × 10 km = 100 km² = 100 × 10⁶ m². 2) Pixel area = 5.8 m × 5.8 m = 33.64 m². 3) Number of pixels = 100 × 10⁶ / 33.64 ≈ 2.97 million pixels per band. 4) Rice and sugarcane have similar green/red reflectance but different NIR reflectance due to canopy structure and water content; 3 bands (especially NIR) allow vegetation indices (NDVI) to separate them. A wrong answer (e.g., \"more pixels = better\") reveals confusion between spatial resolution (pixel size) and spectral resolution (number/width of bands) — both are independent resolution types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the temporal resolution of Cartosat-2 (revisit 4-5 days) and a geostationary satellite like INSAT-3D (revisit 15-30 minutes). Which is more suitable for (a) monitoring rapid flood inundation in Assam during monsoon, (b) updating urban land use maps for a master plan? Justify.",
+     "a": "(a) INSAT-3D: high temporal resolution (15-30 min) captures rapid flood dynamics, cloud permitting. (b) Cartosat-2: high spatial resolution (0.8 m) needed for parcel-level urban features; 4-5 day revisit is sufficient for slow-changing land use. A wrong answer (e.g., \"Cartosat for floods because it's Indian\") reveals the student cannot match sensor characteristics (temporal vs spatial resolution) to the temporal scale of the geographical process (rapid flood vs slow urban change).",
+     "self_check": true
+    },
+    {
+     "q": "Assess the suitability of using only the panchromatic band (0.5-0.75 µm, 0.8 m resolution) of Cartosat-2 for estimating crop health over a large region. What critical limitation would arise, and which additional data would you integrate?",
+     "a": "Panchromatic band lacks spectral resolution — it integrates green, red, and NIR into one broad band, losing the ability to compute vegetation indices (NDVI = (NIR-Red)/(NIR+Red)) which require separate red and NIR bands. Crop health assessment needs spectral contrast between red absorption and NIR reflection. Must integrate with a multispectral sensor (e.g., Resourcesat-2 LISS-IV or Sentinel-2) that provides red and NIR bands, even at coarser spatial resolution. A wrong answer (\"panchromatic is high resolution so it's best\") reveals the student prioritizes spatial resolution over spectral resolution for an application that fundamentally requires spectral discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "Design a remote sensing based monitoring plan for detecting illegal mining in a forested district of Jharkhand. Specify: (i) satellite/sensor combination, (ii) temporal frequency, (iii) key spectral bands/indices, (iv) one GIS operation to quantify change.",
+     "a": "Good answer: (i) Sentinel-2 (10 m multispectral, 5-day revisit) or Resourcesat-2A LISS-IV (5.8 m, 5-day) for balance of spatial/temporal resolution; (ii) fortnightly during dry season (Nov-Apr) when canopy is open; (iii) SWIR bands (2190 nm) for exposed soil/mineral detection, NDVI for vegetation loss, NDBI for built-up/barren land; (iv) GIS overlay analysis (post-classification change detection) between two dates to quantify new barren patches within forest boundary. Poor answer (e.g., \"use Google Earth daily\") reveals lack of understanding of systematic, repeatable, spectral-based monitoring vs ad-hoc visual interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

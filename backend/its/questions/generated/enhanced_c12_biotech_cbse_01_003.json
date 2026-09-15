@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_003",
+   "title": "c12_biotech_cbse_01_003",
+   "questions": [
+    {
+     "q": "Name the two most commonly used auxotrophic selection markers in S. cerevisiae cloning vectors and the corresponding biosynthetic pathways they complement.",
+     "a": "Correct answer: URA3 (orotidine-5'-phosphate decarboxylase, pyrimidine biosynthesis) and LEU2 (isopropylmalate isomerase, leucine biosynthesis). Other common pairs: HIS3 (imidazoleglycerol-phosphate dehydratase, histidine) and TRP1 (phosphoribosylanthranilate isomerase, tryptophan). A wrong answer (e.g., \"ampicillin resistance\" or \"lacZ\") reveals the student is conflating bacterial antibiotic-selection with yeast auxotrophic complementation — a fundamental host-system confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a human glycoprotein produced in wild-type S. cerevisiae often triggers immune reactions when administered to patients, whereas the same protein from CHO cells does not.",
+     "a": "Correct answer: Wild-type yeast performs hypermannosylation — adding >50 mannose residues in α-1,3 and α-1,6 linkages — creating epitopes recognized by human mannose-binding lectin and antibodies. CHO cells produce complex, sialylated N-glycans with terminal galactose and sialic acid, mimicking human patterns. A wrong answer focusing only on \"yeast glycosylates differently\" without specifying α-1,3-mannose linkages or immunogenicity mechanism shows superficial understanding; the student must link structure to immune recognition.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to secrete a 45 kDa human cytokine into the culture medium using S. cerevisiae. They clone the gene into a YEp vector under the GAL1 promoter with the native human signal peptide. After galactose induction, the protein accumulates intracellularly as inclusion bodies. Propose two specific modifications to the expression construct and explain the mechanistic rationale for each.",
+     "a": "Correct answer: (1) Replace human signal peptide with yeast α-factor prepro-leader (MFα1) — yeast SRP/Sec61 translocon recognizes yeast signal sequences efficiently; human signals are often poorly cleaved by yeast signal peptidase. (2) Co-express protein disulfide isomerase (PDI) and Ero1p — cytokine folding requires disulfide bonds; yeast ER oxidative folding capacity is limiting. Wrong answers like \"increase temperature\" or \"use stronger promoter\" ignore the translocation and folding bottlenecks specific to eukaryotic secretion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare YEp (yeast episomal plasmid), YIp (yeast integrating plasmid), and YCp (yeast centromeric plasmid) vectors across three dimensions: copy number stability, maximum insert size, and suitability for industrial protein production. Present as a table.",
+     "a": "Correct answer:\n| Vector | Copy Number | Stability | Max Insert | Industrial Use |\n|---|---|---|---|---|\n| YEp (2µ-based) | 20-50 | Low (segregational loss) | ~10 kb | Poor — plasmid loss without selection |\n| YIp (integrating) | 1 (genomic) | High (stable) | ~10 kb | Good — stable, but low gene dosage |\n| YCp (CEN/ARS) | 1-2 | Moderate | ~15 kb | Best — stable low-copy, mimics chromosome |\n\nA wrong answer that claims YEp is \"best for industry because high copy\" misses the critical instability without continuous antibiotic/auxotrophic pressure — unacceptable in large-scale fermenters where selection is costly and plasmid-free cells outgrow producers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For producing a non-glycosylated human enzyme requiring only disulfide bonds, S. cerevisiae is always superior to E. coli because it is eukaryotic.\" Defend or refute with three specific arguments.",
+     "a": "Correct evaluation: Refute. (1) E. coli cytoplasm is reducing (thioredoxin/glutaredoxin systems) — disulfide bonds don't form; but periplasmic expression (via pelB/ompA signal) or trxB/gor mutant strains (Origami, SHuffle) enable disulfide bonds in prokaryotes. (2) Yeast hyperglycosylates even non-glycosylated proteins at cryptic Asn-X-Ser/Thr sites, potentially altering activity. (3) Yeast codon usage bias (CUG→Ser, not Leu) and tRNA scarcity can cause translational errors/frameshifts; E. coli codon optimization is simpler. A student who agrees reveals the \"eukaryote = better\" heuristic without considering engineering workarounds in E. coli.",
+     "self_check": true
+    },
+    {
+     "q": "Design a yeast expression strategy for a human monoclonal antibody (IgG, ~150 kDa, multiple disulfide bonds, N-glycosylation at Asn297) to maximize functional yield in a 10,000 L fed-batch bioreactor. Specify: host strain (genotype), vector system, promoter, signal sequences for heavy/light chains, selection, and one glyco-engineering modification. Justify each choice in one sentence.",
+     "a": "Expected answer:\n- Host: Glyco-engineered S. cerevisiae (e.g., Δoch1, +GnT1, +GalT, +ST6Gal1) — produces human-like complex sialylated glycans.\n- Vector: Two YCp vectors (CEN/ARS) or single YEp with bidirectional promoter — stable low-copy for balanced H/L chain ratio.\n- Promoter: TEF1 (constitutive strong) or PGK1 — avoids galactose induction cost/complexity at 10kL scale.\n- Signal: α-factor prepro-leader for both chains — efficient Sec61 translocation and Kex2/Ste13 cleavage.\n- Selection: auxotrophic (ura3/leu2) + metabolic (glutamine synthetase) — dual selection maintains plasmid in non-selective fermentation.\n- Glyco-engineering: Express human β-1,4-galactosyltransferase and α-2,6-sialyltransferase with CMP-sialic acid transporter — adds terminal Gal and sialic acid to reduce immunogenicity.\nPoor answer: uses wild-type yeast, GAL1 promoter, ampicillin selection, no glyco-engineering — shows ignorance of industrial constraints (cost, stability, product quality).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

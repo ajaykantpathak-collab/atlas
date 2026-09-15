@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_8",
+   "title": "c9_physics_ch5_8",
+   "questions": [
+    {
+     "q": "State the audible range of the human ear.",
+     "a": "The human audible range is approximately 20 Hz to 20,000 Hz (20 kHz). Sounds within this range can be detected by the human ear. A wrong answer (e.g., \"0 to infinity\") ignores the physical limits of the ear — there are specific lower and upper bounds.",
+     "self_check": true
+    },
+    {
+     "q": "Define infrasound and ultrasound with their frequency ranges.",
+     "a": "Infrasound: sound with frequency below 20 Hz — inaudible to humans, often felt as vibration (e.g., earthquakes, elephant communication). Ultrasound: sound with frequency above 20,000 Hz — inaudible to humans, used in medical imaging, industrial cleaning, and animal echolocation (bats, dolphins). A wrong answer (e.g., \"infrasound is low volume\") confuses frequency with amplitude — infrasound is low frequency, not low volume.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the upper limit of hearing decrease with age?",
+     "a": "The hair cells in the inner ear that detect high frequencies are more fragile and degrade with age. As these cells are lost, the ability to hear high frequencies decreases. A young person might hear up to 20,000 Hz, while a 60-year-old might only hear up to 12,000 Hz. This is called presbycusis (age-related hearing loss). A wrong answer (e.g., \"the ear gets tired\") is incorrect — it is a physical degradation of hair cells, not fatigue.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of infrasound and ultrasound in nature or technology.",
+     "a": "Infrasound: Elephants communicate using infrasound (below 20 Hz) over long distances. Earthquakes produce infrasound. Ultrasound: Bats use ultrasound (above 20,000 Hz) for echolocation to navigate and hunt. Medical ultrasound imaging uses frequencies of 2-15 MHz to visualize internal organs. A wrong answer (e.g., \"infrasound is used in hospitals\") confuses infrasound with ultrasound — medical imaging uses ultrasound, not infrasound.",
+     "self_check": true
+    },
+    {
+     "q": "A \"mosquito ringtone\" has frequency 17,000 Hz. Can a 15-year-old and a 50-year-old hear it? Explain.",
+     "a": "The 15-year-old can likely hear it — 17,000 Hz is within the audible range of young people (up to 20,000 Hz). The 50-year-old likely cannot — the upper limit decreases with age, and a 50-year-old might only hear up to 15,000 Hz or lower. This is why mosquito ringtones are used by students to receive phone calls without teachers hearing. A wrong answer (e.g., \"both can hear it\") ignores the age-related decline in high-frequency hearing.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If a sound is very loud, it must be within the audible range.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Loudness (amplitude) and audibility (frequency range) are independent. An infrasound wave (below 20 Hz) can be very loud (high amplitude) but still inaudible — you might feel it as vibration but not hear it. An ultrasound wave (above 20,000 Hz) can be very loud but inaudible. Loudness does not determine whether a sound is audible — frequency does. A sound must be within 20-20,000 Hz to be audible, regardless of its loudness. A wrong evaluation (agreeing with the student) confuses amplitude (loudness) with frequency (audibility).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

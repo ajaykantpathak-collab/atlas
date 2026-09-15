@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_007",
+   "title": "c11_bs_cbse_07_007",
+   "questions": [
+    {
+     "q": "What is the minimum subscription requirement for a public issue as per SEBI guidelines, and what happens if it is not achieved?",
+     "a": "The minimum subscription is 90% of the issue size. If applications are received for less than 90%, the allotment cannot be made and the entire application money must be refunded to applicants within the prescribed time. A wrong answer (e.g., stating 50% or saying the company can proceed with allotment) reveals the student does not know the specific SEBI threshold or the mandatory refund consequence, confusing it with the old Companies Act provision or private placement rules.",
+     "self_check": true
+    },
+    {
+     "q": "A public company files a prospectus and receives applications for 85% of the issue size. The directors want to proceed with allotment to those applicants and use the funds. Explain why this is not permitted under the Companies Act and SEBI guidelines.",
+     "a": "The 90% minimum subscription rule is a statutory protection for investors — it ensures the company has adequate capital to commence operations. Allotting at 85% violates Section 39 of the Companies Act, 2013 and SEBI ICDR Regulations. The application money must be kept in a separate bank account and refunded within the prescribed period (usually 8 days after the issue closes). A student who says \"the company can allot proportionately\" misunderstands that minimum subscription is a condition precedent to any allotment, not a proportionate allocation trigger.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenTech Ltd.\" issues a prospectus for 10 lakh equity shares of ₹10 each at par. Applications are received for 9.2 lakh shares. The company has appointed underwriters for the full issue. Calculate the minimum subscription amount in rupees and determine if allotment can proceed. Show your reasoning.",
+     "a": "Issue size = 10,00,000 shares × ₹10 = ₹1,00,00,000. Minimum subscription = 90% of ₹1,00,00,000 = ₹90,00,000 (equivalent to 9,00,000 shares). Applications received = 9,20,000 shares = ₹92,00,000. Since ₹92,00,000 > ₹90,00,000, minimum subscription is achieved and allotment can proceed. A student who calculates 90% of shares applied for (9.2 lakh × 90%) instead of 90% of issue size confuses the base — the threshold is on the issue size, not on applications received.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the capital subscription requirements for a public company versus a private company. Why does the law impose stricter requirements on public companies?",
+     "a": "Public companies must issue a prospectus, obtain SEBI approval, achieve 90% minimum subscription, get stock exchange listing, and file return of allotment. Private companies cannot invite the public, so they file a \"statement in lieu of prospectus\" at least 3 days before allotment and have no minimum subscription or listing requirement. The stricter regime for public companies exists because they raise funds from a large, dispersed public who cannot individually verify the company's prospects — the law substitutes collective protection (SEBI, prospectus disclosure, minimum subscription, listing) for individual due diligence. A student who says \"private companies also need prospectus\" confuses the two categories and misses the fundamental policy rationale: investor protection scales with the breadth of the investor base.",
+     "self_check": true
+    },
+    {
+     "q": "A company receives applications for 95% of its issue size but fails to obtain stock exchange listing permission within 10 weeks of closure of the subscription list. The directors argue that since minimum subscription is achieved, they can allot shares and start business. Evaluate this argument with reference to the Companies Act and SEBI guidelines.",
+     "a": "The argument is invalid. Stock exchange listing permission is an independent statutory condition under Section 40 of the Companies Act, 2013. If listing permission is not granted within 10 weeks (or such extended period), the allotment becomes void ab initio and all money must be refunded within 8 days. Minimum subscription and listing are two separate conditions precedent — both must be satisfied. A student who thinks minimum subscription alone suffices fails to recognize that listing provides the essential exit route (liquidity) for public investors, which is a core investor protection pillar.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compliance checklist for the Board of Directors of a newly incorporated public company planning a ₹200 crore IPO. Include every statutory step from SEBI approval to filing return of allotment, with the specific legal provision or regulation for each step.",
+     "a": "A good checklist includes: (1) SEBI approval under ICDR Regulations — file DRHP/RHP; (2) File prospectus with ROC under Section 26; (3) Appoint merchant bankers, registrars, bankers, underwriters (if opted); (4) Open subscription list — keep application money in separate escrow account (Section 40); (5) Verify minimum 90% subscription (SEBI ICDR Reg. 14); (6) Apply for listing on at least one stock exchange (Section 40); (7) If both conditions met, allot shares within prescribed time; (8) File Return of Allotment (Form PAS-3) with ROC within 30 days (Section 39); (9) Issue allotment letters/refund orders. A poor answer misses the escrow account requirement, the 30-day filing deadline, or treats underwriter appointment as mandatory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

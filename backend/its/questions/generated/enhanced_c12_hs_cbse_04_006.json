@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_006",
+   "title": "c12_hs_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define \"twist multiplier\" and state its unit in the indirect system. Why is it preferred over \"turns per inch\" for comparing yarns of different counts?",
+     "a": "Twist multiplier (TM) = Twist per inch (TPI) × √Count (Ne). Its unit is \"turns per inch × √Ne\" (often written as TPI/√Ne). TM is preferred because it normalizes twist for yarn thickness: two yarns with the same TM have similar fibre surface angles and therefore similar mechanical behaviour (strength, liveliness) regardless of count. A wrong answer (e.g., \"TM is just TPI\") reveals the student does not understand that twist level must be scaled with yarn thickness to be meaningful across counts.",
+     "self_check": true
+    },
+    {
+     "q": "A yarn has a count of 40 Ne. If the twist multiplier is 4.5, calculate the turns per inch (TPI). If the same yarn is plied into a 2-ply yarn with the same TM, what will be the TPI of the 2-ply yarn? Explain why the TPI changes.",
+     "a": "For single yarn: TPI = TM × √Ne = 4.5 × √40 = 4.5 × 6.3249 ≈ 28.46 TPI. For 2-ply yarn, resultant count = 40/2 = 20 Ne (indirect system). TPI_ply = TM × √(resultant count) = 4.5 × √20 = 4.5 × 4.4721 ≈ 20.12 TPI. TPI decreases because the ply yarn is thicker (lower count) and the same TM requires fewer turns per inch to maintain the same fibre helix angle. A wrong answer (e.g., same TPI for ply) shows confusion between constant TM and constant TPI.",
+     "self_check": true
+    },
+    {
+     "q": "Convert a yarn count of 30 Tex to English Cotton Count (Ne) and Denier. Show all steps and state the formulas used.",
+     "a": "Given: Tex = 30 g/km.  \n1) Ne = 590.5 / Tex = 590.5 / 30 ≈ 19.68 Ne.  \n2) Denier = 9 × Tex = 9 × 30 = 270 Denier.  \nFormulas: Ne = 590.5 / Tex (for cotton); Denier = 9 × Tex. A wrong answer (e.g., using 590.5 for Denier) reveals the student memorizes constants without understanding the definition: Tex = mass in grams of 1000 m, Denier = mass in grams of 9000 m, Ne = number of 840-yard hanks per pound.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a single yarn of 30 Ne with a 2-ply yarn of 30 Ne (i.e., each component is 60 Ne). Analyse which yarn will have: (a) higher strength, (b) better evenness, (c) more lustre, (d) higher cost. Justify each.",
+     "a": "(a) Strength: 2-ply > single (plying doubles fibres in cross-section and adds twist cohesion).  \n(b) Evenness: 2-ply > single (irregularities in components average out during plying).  \n(c) Lustre: Single > 2-ply (single yarn has more parallel fibres on surface; plying creates a more compact, less reflective surface).  \n(d) Cost: 2-ply > single (extra spinning, plying, and twisting operations). A wrong answer (e.g., single has higher strength) shows misunderstanding of plying benefits and fibre alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a given fibre, increasing twist always increases yarn strength.\" Provide a counterexample and explain the mechanism.",
+     "a": "The statement is false. Strength increases with twist up to an optimum (optimum twist), then decreases due to oblique fibre orientation reducing axial load-bearing capacity. Counterexample: A cotton yarn with TM 5.0 may be stronger than the same yarn at TM 3.0, but at TM 7.0 it becomes weaker because fibres are tilted too far from the yarn axis. A wrong answer (e.g., \"always increases\") indicates the student has not studied the twist-strength curve and ignores the trade-off between fibre cohesion and fibre alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novelty yarn for a decorative upholstery fabric that requires high bulk, irregular texture, and good abrasion resistance. Specify: (a) base yarn count and fibre, (b) type of novelty effect (slub, loop, Chenille, etc.), (c) twist levels for core/effect/binder, (d) expected fabric properties. Justify each choice.",
+     "a": "(a) Base: 2/20 Ne cotton core (ply for strength) + 10 Ne polyester effect (for bulk) + 30 Ne nylon binder (for abrasion resistance).  \n(b) Slub effect: thick/thin sections at 5 cm intervals.  \n(c) Core twist: 800 TPM Z; Effect twist: low (200 TPM S) to create slubs; Binder twist: 1200 TPM Z to lock effect.  \n(d) Fabric: High bulk from slubs, irregular texture, good abrasion from nylon binder. A poor answer (e.g., only chooses fibre without twist specs) shows inability to integrate count, twist, and structure for functional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

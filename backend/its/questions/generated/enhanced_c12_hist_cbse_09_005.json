@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_005",
+   "title": "c12_hist_cbse_09_005",
+   "questions": [
+    {
+     "q": "In which year was the Damin-i-Koh region demarcated for Santhal settlement, and what was the specific cultivation condition attached to the land grant?",
+     "a": "Damin-i-Koh was demarcated in 1832 with the condition that at least one-tenth of the area must be cleared and cultivated within the first ten years. A wrong answer (e.g., 1855 or no condition) reveals the student confuses the rebellion date with the settlement policy date, missing the Company's deliberate revenue-driven colonization strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the British prefer Santhals over Paharias for settling the Rajmahal hills, and how did this preference reflect colonial economic priorities?",
+     "a": "The British preferred Santhals because they willingly adopted plough agriculture, cleared forests, and generated land revenue, whereas Paharias resisted settled cultivation and continued shifting cultivation (hoe) which produced little revenue. A wrong answer focusing only on \"Santhals were peaceful\" misses the core colonial logic: revenue maximization through sedentary agriculture. The student hasn't connected ecological practice to fiscal policy.",
+     "self_check": true
+    },
+    {
+     "q": "A Santhal cultivator in 1850 borrows Rs 100 from a dikus at 50% annual interest compounded annually. After 3 years, unable to repay, he signs a new bond for the accumulated amount at the same rate. Calculate the debt after 6 years and explain how this mirrors the \"deed of hire\" trap described in the Deccan Riots Commission evidence.",
+     "a": "After 3 years: Rs 100 × (1.5)³ = Rs 337.50. New bond principal = Rs 337.50. After another 3 years: Rs 337.50 × (1.5)³ = Rs 1,139.06. This mirrors the Deccan \"deed of hire\" where unpaid interest becomes principal for a new bond, creating exponential debt. A student who calculates simple interest or misses the compounding reveals they haven't grasped the structural similarity between Santhal and Deccan indebtedness mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ecological impact of Paharia shifting cultivation (hoe) versus Santhal plough agriculture on the Rajmahal hills between 1780-1855. How did this ecological shift alter the power balance between hill and plain communities?",
+     "a": "Paharia shifting cultivation maintained forest cover and soil fertility through fallow cycles; Santhal plough agriculture permanently cleared forests, converted pastures to fields, and pushed Paharias to barren upper hills. This shifted resource control: Santhals accessed fertile valleys and trade networks, while Paharias lost hunting grounds and shifting plots. A student who only describes \"deforestation\" without linking it to Paharia impoverishment and Santhal commercial crop production misses the relational power shift central to the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "The Fifth Report (1813) exaggerated zamindari collapse in Bengal. Similarly, colonial officials initially portrayed Santhal settlements as \"peaceful and idyllic\" (Fig 9.10) but after 1855 depicted them as \"violent and savage\" (Fig 9.12). Evaluate why colonial representations of rural groups changed before and after resistance, using both cases.",
+     "a": "Pre-resistance portrayals justified colonial intervention as \"civilizing\" (Paharias as savage, Santhals as ideal settlers); post-resistance portrayals justified repression as \"restoring order.\" The Fifth Report exaggerated zamindari collapse to critique Company rule and push for parliamentary control; Santhal images shifted to legitimize military crushing. A student who treats these as neutral observations misses the political work of colonial knowledge production — a key historiographical skill for board source-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline with 6 annotated entries showing the causal chain from the Permanent Settlement (1793) to the Santhal Rebellion (1855), including at least two ecological, two economic, and two political/administrative turning points.",
+     "a": "A strong timeline: 1793 Permanent Settlement → high revenue demand → zamindars expand cultivation into forests (ecological) → 1800s Santhals recruited to clear Rajmahal hills (demographic) → 1832 Damin-i-Koh demarcated with 1/10 cultivation clause (administrative) → 1838-51 Santhal villages grow 40→1,473, population 3k→82k (economic/ecological) → 1850s heavy taxes + dikus + zamindar encroachment (economic/political) → 1855 rebellion. Weak timelines list events without causal links or miss the revenue-forest clearance connection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

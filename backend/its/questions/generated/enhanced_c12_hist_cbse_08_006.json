@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_006",
+   "title": "c12_hist_cbse_08_006",
+   "questions": [
+    {
+     "q": "What specific military resources did the Ain-i Akbari record as being under the combined command of zamindars in Mughal India?",
+     "a": "The Ain-i Akbari records: 384,558 cavalry, 4,277,057 infantry, 1,863 elephants, 4,260 cannons, and 4,500 boats. A wrong answer (e.g., \"only cavalry and infantry\" or \"mansabdari troops\") reveals the student confuses zamindar militias with the imperial mansabdari army, missing the scale of decentralized military power.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state tolerate zamindars maintaining forts (qilachas) and large armed contingents when these could challenge imperial authority?",
+     "a": "The state tolerated zamindar military power because zamindars performed essential services (khidmat): revenue collection, agricultural colonisation, and local order maintenance. Imperial confirmation (sanad) legitimised their arms. A wrong answer (\"the state was too weak to stop them\") ignores the symbiotic design — the state *needed* zamindars to extend control into difficult terrain, and the sanad system regulated rather than prohibited their military capacity.",
+     "self_check": true
+    },
+    {
+     "q": "A 17th-century revenue official reports that a zamindar in Bengal has built a new qilacha and recruited 500 cavalry. The official recommends demolition. Using the Ain's framework, argue why the emperor might instead confirm the zamindar's position.",
+     "a": "The emperor would weigh: (1) the zamindar's revenue contribution (jama), (2) his role in settling cultivators on wasteland, (3) his caste/lineage legitimacy (Rajput, Sadgop, etc.), and (4) whether his fort secures a frontier or trade route. The Ain's tables link zamindar castes, troops, and assessed revenue — confirming a militarised zamindar often maximised state revenue. A wrong answer focusing only on \"rebellion risk\" misses the fiscal-military calculus central to Mughal governance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the military composition of a typical zamindar contingent (per the Ain) with a mansabdari contingent. What does the difference reveal about their distinct roles in the Mughal polity?",
+     "a": "Zamindar forces: overwhelmingly infantry (4.27M vs 384K cavalry), plus elephants, cannons, boats — suited for static defence of territory, riverine control, and peasant mobilisation. Mansabdari forces: cavalry-heavy, mobile, transferable, centrally paid — designed for imperial campaigns. The difference reveals zamindars as *territorial* lords with rooted populations, while mansabdars were *imperial* officers with no local base. A wrong answer listing similar troop types misses this structural divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Zamindar military power was purely exploitative — peasants supported zamindars in uprisings only under coercion.\"",
+     "a": "The claim is flawed. Evidence: (1) Bhakti saints criticised state revenue officials, not zamindars, as oppressors. (2) In 17th-century uprisings (e.g., Jat, Satnami), peasants *voluntarily* joined zamindar-led revolts against excessive state demand. (3) Zamindars provided loans, seeds, and protection (paternalism). Reciprocity, not just coercion, explains peasant-zamindar alignment. A wrong answer accepting the claim ignores the NCERT's explicit \"element of reciprocity, paternalism and patronage\" and the saintly/peasant perspectives.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The qilacha was more a symbol of negotiated authority than a tool of rebellion.\" Use three pieces of evidence from the Mughal period.",
+     "a": "Strong argument uses: (1) Sanad requirement — forts built *with* imperial permission, not against it. (2) Ain's tabulation of qilachas alongside revenue data (column 2 in mulk-abadi tables) — forts as administrative nodes. (3) Zamindar-led colonisation — forts anchored new settlements, expanding the revenue base. Weak arguments cite only rebellions (e.g., 1660s Jat revolt) without the normative framework of sanad and revenue partnership.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

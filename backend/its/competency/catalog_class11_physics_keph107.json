@@ -1,0 +1,379 @@
+{
+  "class": 11,
+  "subject": "physics",
+  "chapter": 107,
+  "chapter_title": "Gravitation",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keph107.7.2.1",
+      "title": "Kepler's Laws of Planetary Motion",
+      "section": "7.2",
+      "definition": "Planets obey three empirical rules: each moves on an ellipse with the Sun at one focus; the line from Sun to planet sweeps equal areas in equal times; and the square of the orbital period grows with the cube of the semi-major axis across all planets of the Sun.",
+      "formula": "",
+      "key_idea": "Equal areas in equal times is the fingerprint of a central force -- and the period law fixed the inverse-square form of gravity.",
+      "textbook_ref": "keph107.txt lines 40-140 (section 7.2 Kepler's laws, ellipse with sun at focus, area law, period squared versus semi-major axis cubed)",
+      "question_patterns": [
+        "state Kepler's three laws of planetary motion",
+        "in class 11 gravitation: what does the law of areas imply about a planet's speed",
+        "how does the orbital period depend on the size of the orbit",
+        "where does the sun sit in a planet's orbit according to Kepler",
+        "why does a planet move faster at perihelion than at aphelion",
+        "which Kepler law guided Newton toward the inverse square law"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the orbit law",
+          "explain": "Every planet travels an ellipse with the Sun at one focus -- circles are just special ellipses."
+        },
+        {
+          "step": 2,
+          "action": "state the area law",
+          "explain": "The Sun-planet line sweeps equal areas in equal intervals, so the planet speeds up near the Sun and slows far away."
+        },
+        {
+          "step": 3,
+          "action": "state the period law",
+          "explain": "Across the planets, the square of the period is proportional to the cube of the semi-major axis, a relation Newton later derived from his law of gravitation."
+        }
+      ]
+    },
+    {
+      "id": "keph107.7.3.1",
+      "title": "Newton's Universal Law of Gravitation",
+      "section": "7.3, 7.4",
+      "definition": "Every pair of masses attracts along the line joining them with a force proportional to the product of the masses and inversely proportional to the square of their separation. The fixed proportionality constant is the universal gravitational constant G, the same for any two bodies anywhere in the universe.",
+      "formula": "f_grav = big_g * mass1 * mass2 / separation_sq",
+      "key_idea": "One formula, one constant, everything from falling apples to orbiting moons -- attraction scales with masses and dies with distance squared.",
+      "textbook_ref": "keph107.txt lines 141-260 (sections 7.3 universal law of gravitation, 7.4 gravitational constant G, inverse square rule, vector form)",
+      "question_patterns": [
+        "state Newton's law of gravitation and define G",
+        "in class 11 gravitation: find the gravitational force between two given masses at the given separation",
+        "how does the force change when the distance between masses doubles",
+        "why is the gravitational constant called universal",
+        "compute the attraction between the earth and a body on its surface",
+        "what happens to the force if one mass is halved and the distance is halved"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "square the separation",
+          "explain": "The inverse square rule needs the distance squared in the denominator.",
+          "compute": "separation_sq = distance ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the attraction formula",
+          "explain": "Multiply G by both masses and divide by the squared separation.",
+          "compute": "f_grav = big_g * mass1 * mass2 / separation_sq"
+        }
+      ]
+    },
+    {
+      "id": "keph107.7.5.1",
+      "title": "Acceleration Due to Gravity and Its Variation",
+      "section": "7.5, 7.6",
+      "definition": "Gravity's pull at a planet's surface sets g = G M over R squared. Moving up reduces g by the factor (1 + h/R) squared, while descending into mines reduces it in proportion to depth because only the mass below you still attracts. Thus g weakens both on mountains and underground, though differently.",
+      "formula": "g_height = g_surface * (1 - 2 * altitude / planet_radius)",
+      "key_idea": "g shrinks with altitude through the inverse square and with depth through the shrinking enclosed mass -- height costs faster.",
+      "textbook_ref": "keph107.txt lines 261-380 (sections 7.5 acceleration due to gravity above the earth, 7.6 below the earth, variation with height and depth)",
+      "question_patterns": [
+        "find the value of g at a height above the earth's surface",
+        "in class 11 gravitation: how does g change with depth inside the earth",
+        "derive the relation between g at the surface and G M over R squared",
+        "at what height does gravity become half its surface value",
+        "compare the decrease of g with height and with depth",
+        "why does g stay nearly constant for ordinary heights"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "scale by the height factor",
+          "explain": "For small heights the surface gravity shrinks by about (1 - 2h/R).",
+          "compute": "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+        }
+      ]
+    },
+    {
+      "id": "keph107.7.8.1",
+      "title": "Escape Speed from a Planet",
+      "section": "7.8",
+      "definition": "To break free of a planet's gravity starting from its surface, a body needs a launch speed that makes its kinetic energy just pay off the gravitational debt: v equals the square root of twice G M over R, which also reads as the square root of twice g R. For earth this is about 11.2 km per second, independent of the projectile's mass.",
+      "formula": "v_escape = sqrt(2 * gravity * planet_radius)",
+      "key_idea": "Escape speed equals the speed gained by falling from infinity -- about 11.2 km/s from earth, mass never enters.",
+      "textbook_ref": "keph107.txt lines 381-460 (section 7.8 escape speed, energy argument, escape speed from the earth 11.2 km/s)",
+      "question_patterns": [
+        "find the escape speed from the surface of the given planet",
+        "in class 11 gravitation: derive the expression for escape speed using energy conservation",
+        "why does escape speed not depend on the mass of the escaping body",
+        "the escape speed of earth is about how many km per second",
+        "compare escape speeds of a planet with larger radius and same surface gravity",
+        "why does the moon hold no atmosphere using the escape speed idea"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "double g times radius",
+          "explain": "The energy balance squares the escape speed to twice g R.",
+          "compute": "v_sq = 2 * gravity * planet_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "The root is the escape speed.",
+          "compute": "v_escape = sqrt(v_sq)"
+        }
+      ]
+    },
+    {
+      "id": "keph107.7.9.1",
+      "title": "Earth Satellites: Orbital Speed, Period and Weightlessness",
+      "section": "7.9, 7.10",
+      "definition": "A satellite in circular orbit rides gravity as its centripetal force, giving orbital speed as the square root of G M over orbit radius and a period that grows with orbit size. An astronaut falls with the spacecraft at the same rate, so no contact force presses on her -- the sensation of weightlessness.",
+      "formula": "v_orbit = sqrt(orbital_gm / orbit_radius)",
+      "key_idea": "Orbiting is perpetual free fall -- gravity bends the path into a circle while the satellite feels no floor.",
+      "textbook_ref": "keph107.txt lines 461-580 (sections 7.9 earth satellites, orbital velocity and period, 7.10 energy of an orbiting satellite, weightlessness)",
+      "question_patterns": [
+        "find the orbital speed of a satellite at the given orbit radius",
+        "in class 11 gravitation: why do astronauts feel weightless in orbit",
+        "how does the time period of a satellite depend on the orbit radius",
+        "what provides the centripetal force for an orbiting satellite",
+        "find the total energy of a satellite in a circular orbit",
+        "compare the orbital speed for a low orbit and a high orbit"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "divide GM by the orbit radius",
+          "explain": "The ratio G M over orbit radius equals the square of the orbital speed.",
+          "compute": "orbital_ratio = orbital_gm / orbit_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "The root is the orbital speed.",
+          "compute": "v_orbit = sqrt(orbital_ratio)"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keph107.txt lines 141-260 (universal law of gravitation)",
+      "concept": "keph107.7.3.1",
+      "question_type": "compute",
+      "question_pattern": "Two {mass1} kg and {mass2} kg spheres sit {distance} m apart (G = {big_g}); find the attraction between them.",
+      "extracted_variables": {
+        "mass1": 100,
+        "mass2": 100,
+        "distance": 1,
+        "big_g": 6.67e-11
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the separation",
+          "explain": "separation_sq = 1 squared = 1.",
+          "compute": "separation_sq = distance ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the attraction formula",
+          "explain": "f_grav = 6.67e-11 * 100 * 100 / 1 = 6.67e-7 N.",
+          "compute": "f_grav = big_g * mass1 * mass2 / separation_sq"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keph107.txt lines 141-260 (universal law of gravitation)",
+      "concept": "keph107.7.3.1",
+      "question_type": "compute",
+      "question_pattern": "Find the force on a {mass2} kg body at earth's surface: M = {mass1} kg, R = {distance} m, G = {big_g}.",
+      "extracted_variables": {
+        "mass1": 5.98e+24,
+        "mass2": 1,
+        "distance": 6370000.0,
+        "big_g": 6.67e-11
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the separation",
+          "explain": "separation_sq = (6.37e6)^2, about 4.06e13.",
+          "compute": "separation_sq = distance ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the attraction formula",
+          "explain": "f_grav = 6.67e-11 * 5.98e24 * 1 / 4.06e13, about 9.8 N -- one kilogram weighs one g.",
+          "compute": "f_grav = big_g * mass1 * mass2 / separation_sq"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "keph107.txt lines 261-380 (variation of g with height)",
+      "concept": "keph107.7.5.1",
+      "question_type": "compute",
+      "question_pattern": "Estimate g at altitude {altitude} m given surface g = {g_surface} and R = {planet_radius} m.",
+      "extracted_variables": {
+        "altitude": 1600000,
+        "g_surface": 9.8,
+        "planet_radius": 6400000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "scale by the height factor",
+          "explain": "g_height = 9.8 * (1 - 2 * 1600000 / 6400000) = 9.8 * 0.5 = 4.9 m/s^2.",
+          "compute": "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+        }
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "keph107.txt lines 381-460 (escape speed)",
+      "concept": "keph107.7.8.1",
+      "question_type": "compute",
+      "question_pattern": "Find the escape speed from a planet with surface gravity {gravity} and radius {planet_radius}.",
+      "extracted_variables": {
+        "gravity": 9.8,
+        "planet_radius": 6400000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "double g times radius",
+          "explain": "v_sq = 2 * 9.8 * 6400000 = 1.2544e8.",
+          "compute": "v_sq = 2 * gravity * planet_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "v_escape = sqrt(1.2544e8), about 11200 m/s, the familiar 11.2 km/s.",
+          "compute": "v_escape = sqrt(v_sq)"
+        }
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "keph107.txt lines 461-580 (earth satellites)",
+      "concept": "keph107.7.9.1",
+      "question_type": "compute",
+      "question_pattern": "A satellite circles at radius {orbit_radius} m around a planet with GM = {orbital_gm}; find the orbital speed.",
+      "extracted_variables": {
+        "orbit_radius": 6400000,
+        "orbital_gm": 400000000000000.0
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "divide GM by the orbit radius",
+          "explain": "orbital_ratio = 4.0e14 / 6.4e6 = 6.25e7.",
+          "compute": "orbital_ratio = orbital_gm / orbit_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "v_orbit = sqrt(6.25e7), about 7906 m/s.",
+          "compute": "v_orbit = sqrt(orbital_ratio)"
+        }
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "keph107.txt lines 261-380 (variation of g with height)",
+      "concept": "keph107.7.5.1",
+      "question_type": "compute",
+      "question_pattern": "Estimate g at an altitude of {altitude} m using surface g = {g_surface} and R = {planet_radius} m.",
+      "extracted_variables": {
+        "altitude": 320000,
+        "g_surface": 9.8,
+        "planet_radius": 6400000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "scale by the height factor",
+          "explain": "g_height = 9.8 * (1 - 2 * 320000 / 6400000) = 9.8 * 0.9 = 8.82 m/s^2.",
+          "compute": "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+        }
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "keph107.txt lines 381-460 (escape speed)",
+      "concept": "keph107.7.8.1",
+      "question_type": "compute",
+      "question_pattern": "A planet has surface gravity {gravity} and radius {planet_radius}; find the speed needed to escape it.",
+      "extracted_variables": {
+        "gravity": 10,
+        "planet_radius": 1600000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "double g times radius",
+          "explain": "v_sq = 2 * 10 * 1600000 = 3.2e7.",
+          "compute": "v_sq = 2 * gravity * planet_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "v_escape = sqrt(3.2e7), about 5657 m/s.",
+          "compute": "v_escape = sqrt(v_sq)"
+        }
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "keph107.txt lines 461-580 (earth satellites)",
+      "concept": "keph107.7.9.1",
+      "question_type": "compute",
+      "question_pattern": "A satellite orbits a planet with GM = {orbital_gm} at radius {orbit_radius} m; compute its orbital speed.",
+      "extracted_variables": {
+        "orbit_radius": 10000000,
+        "orbital_gm": 400000000000000.0
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "divide GM by the orbit radius",
+          "explain": "orbital_ratio = 4.0e14 / 1.0e7 = 4.0e7.",
+          "compute": "orbital_ratio = orbital_gm / orbit_radius"
+        },
+        {
+          "step": 2,
+          "action": "take the square root",
+          "explain": "v_orbit = sqrt(4.0e7), about 6325 m/s.",
+          "compute": "v_orbit = sqrt(orbital_ratio)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keph107.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Answer the given questions: why does the earth not travel toward the falling moon, and where is g greatest.",
+        "State the direction of the net force on a comet moving in an elliptical orbit.",
+        "A planet has the same surface gravity as earth but twice the radius; find its escape speed.",
+        "Find the height above earth's surface where g drops to one fourth of its surface value.",
+        "A satellite orbits just above the surface; find its speed and period using given data.",
+        "Two heavy spheres of given masses hang at a given separation; find the force between them.",
+        "Using Kepler's third law, compare the periods of two planets with given orbital radii.",
+        "Explain why an astronaut in an orbiting station experiences weightlessness."
+      ]
+    }
+  ]
+}

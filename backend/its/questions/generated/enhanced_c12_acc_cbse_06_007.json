@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_007",
+   "title": "c12_acc_cbse_06_007",
+   "questions": [
+    {
+     "q": "A company issued 10,000, 8% debentures of ₹100 each redeemable at par after 5 years. At redemption, which account is debited for the principal amount?",
+     "a": "**Correct answer:** 8% Debentures Account is debited.  \n**Why wrong answers reveal misunderstanding:** If a student says \"Debentureholders Account\" is debited for principal, they confuse the settlement step (Debentureholders A/c Dr. → Bank) with the derecognition of the liability. The debenture liability is removed by debiting the Debentures Account; Debentureholders Account is only a temporary payable used for the payment process.",
+     "self_check": true
+    },
+    {
+     "q": "In the draw of lots method, debentures are selected for redemption by lottery. A student argues: \"Since the selection is random, the company should debit Debentures Account only for the nominal value of debentures actually drawn, and the remaining debentures continue at full value.\" Is this correct? Explain.",
+     "a": "**Correct answer:** Yes, the student is correct. In draw of lots, only the debentures selected are redeemed; the Debentures Account is debited only for the nominal value of those drawn. The balance continues for undrawn debentures.  \n**Why wrong answers reveal misunderstanding:** If a student thinks the entire Debentures Account is debited at once, they are applying lump sum logic to draw of lots. This error leads to overstating redemption expense and misstating the outstanding liability in the balance sheet.",
+     "self_check": true
+    },
+    {
+     "q": "*Apply level:*  \nXYZ Ltd. redeemed 2,000, 10% debentures of ₹100 each by draw of lots at a premium of 5%. The company had already created DRR of ₹2,00,000. Pass the journal entry for redemption (ignore DRR transfer back to General Reserve).",
+     "a": "**Correct entry:**  \n10% Debentures A/c Dr. 2,00,000  \nPremium on Redemption of Debentures A/c Dr. 10,000  \n    To Debentureholders A/c 2,10,000  \nDebentureholders A/c Dr. 2,10,000  \n    To Bank A/c 2,10,000  \n**Why wrong answers reveal misunderstanding:**  \n- Omitting Premium on Redemption A/c debit → ignores the premium payable, understating liability.  \n- Crediting Bank directly from Debentures A/c → bypasses Debentureholders A/c, violating the temporary payable step required for clarity.  \n- Forgetting to debit Premium on Redemption → fails to recognize the additional cost of redemption.",
+     "self_check": true
+    },
+    {
+     "q": "*Analyze level:*  \nCompare the cash flow impact and DRR requirement for a company redeeming ₹10 crore debentures: (a) lump sum after 5 years, (b) draw of lots ₹2 crore annually for 5 years. Which method imposes a heavier DRR burden in the early years? Justify.",
+     "a": "**Correct analysis:**  \n- **Lump sum:** DRR must be built up to 25% of debenture value (₹2.5 cr) *before* redemption (typically over the 5 years). Heavy appropriation in later years.  \n- **Draw of lots:** DRR of 25% of *each year's redemption* (₹0.5 cr) is needed *before* that year's draw. DRR appropriation is spread evenly.  \n**Heavier early burden:** Lump sum requires larger cumulative DRR earlier because the full 25% of ₹10 cr (₹2.5 cr) must be accumulated by year 5, whereas draw of lots only needs ₹0.5 cr by year 1, ₹1 cr by year 2, etc.  \n**Why wrong answers reveal misunderstanding:** Students often think draw of lots requires 25% of total issue upfront. The rule is 25% of *amount to be redeemed in the current year* for draw of lots, not 25% of total issue.",
+     "self_check": true
+    },
+    {
+     "q": "*Evaluate level:*  \n\"Creating Debenture Redemption Investment (DRI) of 15% of the amount to be redeemed in the next financial year is mandatory for all companies.\" Critically evaluate this statement with reference to the Companies Act, 2013.",
+     "a": "**Correct evaluation:** The statement is **false**. DRI (investment in specified securities) is mandatory **only for listed companies and unlisted public companies** (not for private companies). Also, DRI must be created *on or before 30th April* of the financial year in which redemption occurs, for 15% of the amount *to be redeemed during that year*.  \n**Why wrong answers reveal misunderstanding:** Students often memorize \"15% DRI\" without the company-type condition or the timing nuance. This leads to incorrect journal entries for private companies and wrong balance sheet classification.",
+     "self_check": true
+    },
+    {
+     "q": "*Create level:*  \nDesign a redemption plan for a company that issued ₹20 crore, 9% debentures on 1st April 2020, redeemable at par. The company wants to use draw of lots over 4 years starting 31st March 2023. Specify: (a) annual redemption amount, (b) DRR appropriation each year, (c) DRI requirement each year (assume listed company), and (d) journal entry for the first redemption.",
+     "a": "**Expected answer criteria:**  \n(a) ₹5 crore per year (₹20 cr / 4).  \n(b) DRR: 25% of ₹5 cr = ₹1.25 cr appropriated *before* each redemption (by 31st March 2022 for first draw).  \n(c) DRI: 15% of ₹5 cr = ₹75 lakh invested by 30th April of each redemption year (e.g., by 30th April 2022 for first draw).  \n(d) First redemption entry:  \n9% Debentures A/c Dr. 5,00,00,000  \n    To Debentureholders A/c 5,00,00,000  \nDebentureholders A/c Dr. 5,00,00,000  \n    To Bank A/c 5,00,00,000  \n**Why poor answers reveal misunderstanding:** Missing DRR/DRI timing, wrong percentages, or combining all four years' entries into one.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

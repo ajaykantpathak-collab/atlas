@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_010",
+   "title": "c12_geo_cbse_08_010",
+   "questions": [
+    {
+     "q": "Define \"last-mile connectivity\" in the context of India's digital communication networks and name the two primary technologies used to achieve it in rural areas.",
+     "a": "Last-mile connectivity is the final leg of the network that delivers internet from the local exchange or tower to the end user's premises. In rural India, the two primary technologies are wireless (4G/5G mobile broadband) and fiber-to-the-home (FTTH) under BharatNet. A wrong answer (e.g., \"satellite only\" or \"optical fiber only\") reveals the student overlooks the hybrid reality: fiber provides backhaul, but wireless often covers the last kilometer due to terrain and cost.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Delhi-Mumbai industrial corridor (DMIC) has significantly higher international bandwidth capacity per capita than the Bastar region of Chhattisgarh, despite both being in India.",
+     "a": "DMIC hosts multiple submarine cable landing stations (Mumbai, Chennai), dense fiber backbones along transport corridors, and concentrated data centers — attracting investment due to high demand from industries and services. Bastar lacks cable landings, has difficult terrain for fiber deployment, lower population density reducing commercial viability, and historical infrastructure deficits. A wrong answer attributing it solely to \"government neglect\" misses the geographical logic of agglomeration economies and physical constraints (terrain, distance from coast).",
+     "self_check": true
+    },
+    {
+     "q": "A village in Arunachal Pradesh at 2,500 m elevation has no fiber optic cable. The district headquarters 40 km away has a BharatNet point-of-presence. Calculate the approximate latency (in milliseconds) for a signal to travel via a geostationary satellite (altitude 35,786 km) versus a hypothetical direct fiber link (speed of light in fiber ≈ 200,000 km/s). Which is lower?",
+     "a": "Satellite: round-trip distance = 2 × 35,786 km = 71,572 km. Time = 71,572 / 300,000 km/s (speed of light in vacuum) ≈ 0.238 s = 238 ms. Fiber: round-trip = 80 km. Time = 80 / 200,000 = 0.0004 s = 0.4 ms. Fiber latency is ~600× lower. A student who chooses satellite reveals misunderstanding of geostationary altitude and the speed-of-light constraint — a common trap in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial pattern of India's 5G rollout (2022-2024) with the 4G rollout (2016-2019). Identify two geographical continuities and one significant shift.",
+     "a": "Continuities: (1) Both launched first in metro circles (Delhi, Mumbai, Bangalore) due to high ARPU and density. (2) Both followed national highway and rail corridors for backhaul. Shift: 5G deployed faster in tier-2/3 cities (e.g., Indore, Coimbatore) because existing fiber backhaul from 4G/BharatNet reduced need for new trenching, whereas 4G required massive greenfield fiber builds. A wrong answer claiming \"5G reached villages first\" ignores the economic logic of network externality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The PM-WANI (Public Wi-Fi Access Network Interface) framework will bridge India's digital divide more effectively than BharatNet because it leverages existing retail infrastructure (kirana shops) rather than building new fiber.\" Provide two arguments for and one against.",
+     "a": "For: (1) PM-WANI uses unlicensed spectrum and low-cost Wi-Fi routers, enabling rapid deployment without right-of-way delays that plague BharatNet. (2) Kirana shops are ubiquitous — even in villages without fiber, a shopkeeper with 4G backhaul can become a PDO (Public Data Office), creating micro-access points. Against: PM-WANI depends on underlying mobile/fiber backhaul; if the village has no 4G or fiber, the PDO's hotspot is a \"wireless island\" with no internet. A weak evaluation treats them as substitutes rather than complementary layers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a digital connectivity plan for a tribal block in Odisha's Koraput district (hilly, forested, 60% ST population, 30% villages without mobile coverage). Specify: (a) primary backhaul technology, (b) last-mile technology, (c) power solution, (d) one institutional mechanism for sustainability.",
+     "a": "(a) Backhaul: LEO satellite (e.g., OneWeb/Starlink) or microwave link to nearest BharatNet PoP — fiber trenching is ecologically destructive and landslide-prone. (b) Last-mile: Wi-Fi mesh network from a central tower (solar-powered) to hamlets — avoids per-household cabling. (c) Power: Solar + battery hybrid (grid unreliable). (d) Sustainability: Train local youth as \"Digital Gram Sevaks\" under USOF (Universal Service Obligation Fund) to maintain equipment and run digital literacy camps. A poor plan proposes only \"lay fiber everywhere\" ignoring terrain, forest clearance laws, and maintenance capacity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

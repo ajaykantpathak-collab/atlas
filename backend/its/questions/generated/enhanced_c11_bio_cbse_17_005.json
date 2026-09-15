@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_005",
+   "title": "c11_bio_cbse_17_005",
+   "questions": [
+    {
+     "q": "Name the two occipital condyles and state their articulation. How many cervical vertebrae are present in humans, and which two are uniquely named?",
+     "a": "The two occipital condyles articulate with the superior articular facets of the atlas (C1), forming the atlanto-occipital joint (dicondylic skull). Humans have 7 cervical vertebrae; the first is the atlas (no body, no spinous process) and the second is the axis (with the odontoid process/dens). A wrong answer (e.g., \"single condyle\" or \"monocondylic\") reveals confusion with reptilian skulls; forgetting atlas/axis names indicates lack of attention to specialized vertebral modifications for skull movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the 8th, 9th, and 10th rib pairs called vertebrochondral (false) ribs, while the 11th and 12th are floating ribs? Explain the structural difference in their ventral attachment.",
+     "a": "Vertebrochondral ribs (8th–10th) do not attach directly to the sternum; instead, their costal cartilages join the 7th rib's cartilage, forming the costal margin. Floating ribs (11th–12th) have no ventral attachment at all — their anterior ends lie free in the abdominal musculature. A wrong answer (e.g., \"false ribs attach to sternum directly\") shows misunderstanding of the indirect cartilage chain; confusing floating with false ribs indicates failure to distinguish \"indirect attachment\" from \"no attachment.\"",
+     "self_check": true
+    },
+    {
+     "q": "A patient presents with a fractured clavicle after a fall on an outstretched hand. Explain why the clavicle is the most commonly fractured bone in the pectoral girdle, relating its structure and force transmission role.",
+     "a": "The clavicle is a slender, S-shaped bone that acts as a strut holding the upper limb away from the thorax. It transmits compressive forces from the hand/arm directly to the axial skeleton (via sternoclavicular joint). A fall on an outstretched hand directs massive axial force along the humerus → scapula → clavicle → sternum. The clavicle's midshaft (thinnest part, no muscle coverage) fails first. A wrong answer focusing only on \"it's thin\" misses the biomechanical role as a force-transmitting strut; ignoring the S-shape overlooks its dual curvature that creates weak points.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pectoral and pelvic girdles in terms of (a) bone composition, (b) socket depth and mobility, (c) weight-bearing adaptation, and (d) sexual dimorphism.",
+     "a": "(a) Pectoral: clavicle + scapula (two separate bones per side); Pelvic: two coxal bones (each fused ilium, ischium, pubis). (b) Pectoral: shallow glenoid cavity → high mobility (shoulder); Pelvic: deep acetabulum → stability (hip). (c) Pectoral: non-weight-bearing, light; Pelvic: massive, weight-bearing, transmits body weight to femora. (d) Pelvic girdle shows marked sexual dimorphism (wider, shallower in females for childbirth); pectoral girdle minimal dimorphism. A wrong answer (e.g., \"both have deep sockets\") reveals failure to link structure to function: mobility vs. stability trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The human vertebral column has 33 vertebrae, but we say 26 in adults. This is a contradiction.\" Justify your evaluation with the developmental process involved.",
+     "a": "The statement is false — not a contradiction but a developmental fact. At birth: 7 cervical + 12 thoracic + 5 lumbar + 5 sacral (separate) + 4 coccygeal (separate) = 33. In adults: sacral vertebrae fuse into 1 sacrum; coccygeal fuse into 1 coccyx. Count becomes 7+12+5+1+1 = 26. The number of vertebral *units* reduces by fusion, not loss. A wrong answer accepting the \"contradiction\" shows ignorance of sacral/coccygeal fusion; saying \"bones are lost\" reveals confusion between fusion and resorption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple identification key (dichotomous or tabular) that allows a student to distinguish an isolated human bone as belonging to: (i) axial vs. appendicular skeleton, (ii) specific region (e.g., cervical vertebra vs. lumbar vertebra, rib vs. clavicle, femur vs. humerus). Include at least 4 distinguishing features.",
+     "a": "**Key:**\n1. Does the bone articulate directly with the vertebral column or skull? → Yes: Axial (vertebra, rib, sternum, skull bone). No: Appendicular (limb bone, girdle bone).\n2. If axial: Is it a vertebra? → Yes: Check foramen transversarium (cervical), long spinous process (thoracic), massive body (lumbar), fused (sacrum/coccyx). No: Is it flat and curved? → Rib (bicephalic head, costal groove). Is it flat and dagger-shaped? → Sternum.\n3. If appendicular: Is it a girdle bone? → Flat triangular with glenoid cavity = scapula; S-shaped slender = clavicle; Fused ilium/ischium/pubis with acetabulum = coxal bone.\n4. If limb bone: Long bone with hemispherical head = femur (medial condyles, linea aspera) or humerus (deltoid tuberosity, olecranon fossa). Forearm: radius (radial tuberosity, distal styloid) vs. ulna (olecranon process, trochlear notch). A poor key uses only size/length, ignoring diagnostic features like foramina, fossae, and articulation surfaces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

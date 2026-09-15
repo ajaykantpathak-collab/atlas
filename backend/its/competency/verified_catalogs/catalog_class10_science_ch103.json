@@ -1,0 +1,414 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 103,
+ "chapter_title": "Metals and Non-metals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc103.txt",
+ "concepts": [
+  {
+   "id": "jesc.3.1.1",
+   "title": "Physical Properties of Metals",
+   "section": "3.1.1",
+   "definition": "Metals are elements characterized by their ability to shine, be hammered into sheets, drawn into wires, and conduct both heat and electricity.",
+   "formula": "Conductivity = 1 / Resistance",
+   "key_idea": "Metals are generally hard, lustrous, malleable, ductile, and sonorous solids.",
+   "textbook_ref": "jesc103.txt lines 15-85",
+   "question_patterns": [
+    "What are the physical properties of metals?",
+    "Define malleability and ductility in metals.",
+    "Why are metals used to make bells?",
+    "Which metal is a liquid at room temperature?",
+    "Explain why copper is used for electrical wiring."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the property",
+     "explain": "Check if the substance is lustrous, malleable, or ductile."
+    },
+    {
+     "step": 2,
+     "action": "Verify state and conductivity",
+     "explain": "Confirm if it is solid at room temperature and conducts electricity."
+    },
+    {
+     "step": 3,
+     "action": "Classify as metal or non-metal",
+     "explain": "If the substance shows lustre, malleability, ductility, and conductivity, classify it as a metal; exceptions like mercury (liquid) must be noted."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.1",
+   "title": "Amphoteric Oxides",
+   "section": "3.2.1",
+   "definition": "Metal oxides that exhibit both acidic and basic behavior by reacting with both acids and bases to yield salt and water.",
+   "formula": "Al2O3 + 6HCl -> 2AlCl3 + 3H2O",
+   "key_idea": "Dual-nature oxides like aluminium both oxide and zinc oxide react with both H+ and OH- ions.",
+   "textbook_ref": "jesc103.txt lines 115-130",
+   "question_patterns": [
+    "What are amphoteric oxides?",
+    "Give two examples of amphoteric oxides.",
+    "Show how aluminium oxide reacts with sodium hydroxide.",
+    "Explain the dual nature of zinc oxide.",
+    "describe amphoteric oxides with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "React with acid",
+     "explain": "The oxide reacts with HCl to form a metal chloride and water."
+    },
+    {
+     "step": 2,
+     "action": "React with base",
+     "explain": "The oxide reacts with NaOH to form a salt (like sodium aluminate) and water."
+    },
+    {
+     "step": 3,
+     "action": "Confirm amphoteric nature",
+     "explain": "Since the oxide reacts with both acid and base to produce salt and water, it is confirmed as an amphoteric oxide."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.2",
+   "title": "Metal Reactivity with Water",
+   "section": "3.2.2",
+   "definition": "The process where metals react with water to produce metal oxides or hydroxides and release hydrogen gas.",
+   "formula": "Metal + Water -> Metal Hydroxide + Hydrogen",
+   "key_idea": "Reactivity varies from violent (sodium) to no reaction (gold) based on the metal's position in the series.",
+   "textbook_ref": "jesc103.txt lines 155-195",
+   "question_patterns": [
+    "How does sodium react with cold water?",
+    "Why does calcium float on water during a reaction?",
+    "Which metals react only with steam?",
+    "Write the equation for iron reacting with steam.",
+    "explain metal reactivity with water in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify water temperature",
+     "explain": "Determine if the metal reacts with cold water, hot water, or steam."
+    },
+    {
+     "step": 2,
+     "action": "Determine products",
+     "explain": "Highly reactive metals form hydroxides; moderately reactive ones form oxides."
+    },
+    {
+     "step": 3,
+     "action": "Write the balanced equation",
+     "explain": "Balance the reaction between the metal and water, ensuring hydrogen gas is shown as a product for confirmation."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.5",
+   "title": "The Reactivity Series",
+   "section": "3.2.5",
+   "definition": "A ranking of metals in descending order of their chemical activity, primarily based on displacement reactions.",
+   "formula": "A + BC -> AC + B (if A is more reactive than B)",
+   "key_idea": "More reactive metals displace less reactive ones from their salt solutions.",
+   "textbook_ref": "jesc103.txt lines 235-265",
+   "question_patterns": [
+    "What is the reactivity series?",
+    "Predict if zinc will displace iron from iron sulphate.",
+    "Arrange Mg, Al, Zn, and Fe in decreasing order of reactivity.",
+    "Why is gold found in its native state?",
+    "how does the reactivity series work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare positions",
+     "explain": "Check the relative positions of the two metals in the activity series."
+    },
+    {
+     "step": 2,
+     "action": "Predict displacement",
+     "explain": "If the standalone metal is higher in the series, displacement occurs."
+    },
+    {
+     "step": 3,
+     "action": "State the reaction outcome",
+     "explain": "The more reactive metal displaces the less reactive metal from its salt solution, forming a new compound and depositing the displaced metal."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.3.1",
+   "title": "Properties of Ionic Compounds",
+   "section": "3.3.1",
+   "definition": "Compounds formed by the electrostatic attraction between oppositely charged ions created through electron transfer.",
+   "formula": "Force = k * (q1 * q2) / r**2",
+   "key_idea": "Ionic compounds have indeed high melting points and conduct electricity when molten or dissolved.",
+   "textbook_ref": "jesc103.txt lines 315-355",
+   "question_patterns": [
+    "Why do ionic compounds have high melting points?",
+    "Explain the electrical conductivity of NaCl in water.",
+    "Describe the physical nature of electrovalent compounds.",
+    "Why don't ionic solids conduct electricity?",
+    "short note on properties of ionic compounds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze bonding",
+     "explain": "Identify the strong electrostatic forces between cations and anions."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate state changes",
+     "explain": "High energy is needed to break the lattice, leading to high melting points."
+    },
+    {
+     "step": 3,
+     "action": "Assess conductivity in different states",
+     "explain": "Ionic solids do not conduct because ions are fixed, but in molten or aqueous state the ions are free to move and carry current."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.4.4",
+   "title": "Roasting and Calcination",
+   "section": "3.4.4",
+   "definition": "Thermal processes to convert ores into metal oxides: roasting involves excess air for sulphides, while calcination uses limited air for carbonates.",
+   "formula": "2ZnS + 3O2 -> 2ZnO + 2SO2",
+   "key_idea": "Oxides are easier to reduce to pure metals than sulphides or carbonates.",
+   "textbook_ref": "jesc103.txt lines 405-425",
+   "question_patterns": [
+    "Distinguish between roasting and calcination.",
+    "How is zinc extracted from its carbonate ore?",
+    "Write the reaction for roasting of cinnabar.",
+    "Why are ores converted to oxides before reduction?",
+    "why is roasting and calcination important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify ore type",
+     "explain": "Check if the ore is a sulphide or a carbonate."
+    },
+    {
+     "step": 2,
+     "action": "Apply thermal process",
+     "explain": "Apply roasting for sulphides (with O2) or calcination for carbonates (limited O2)."
+    },
+    {
+     "step": 3,
+     "action": "Obtain metal oxide for reduction",
+     "explain": "The resulting metal oxide is then reduced to the pure metal using a suitable reducing agent such as carbon or coke."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.4.6",
+   "title": "Electrolytic Refining",
+   "section": "3.4.6",
+   "definition": "A method of purifying metals using electrolysis where the impure metal is indeed the anode and pure metal is the cathode.",
+   "formula": "Cu(anode) -> Cu2+ + 2e-",
+   "key_idea": "Pure metal transfers from the anode to the cathode through an electrolyte solution.",
+   "textbook_ref": "jesc103.txt lines 455-480",
+   "question_patterns": [
+    "Describe the electrolytic refining of copper.",
+    "What is anode mud?",
+    "In refining, which electrode is made of pure metal?",
+    "What electrolyte is used for refining zinc?",
+    "why is electrolytic refining important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Setup electrodes",
+     "explain": "Place impure metal at the anode and pure strip at the cathode."
+    },
+    {
+     "step": 2,
+     "action": "Pass current",
+     "explain": "Metal ions dissolve from anode and deposit on cathode."
+    },
+    {
+     "step": 3,
+     "action": "Collect pure metal and anode mud",
+     "explain": "Soluble impurities stay in the electrolyte while insoluble impurities settle as anode mud at the bottom of the tank."
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.1",
+   "title": "Gold Content and Carat Rating",
+   "section": "3.5.1",
+   "definition": "Calculating the percentage of pure gold in an alloy using its carat rating, where 24 carats represents 100% purity.",
+   "formula": "purity_percent = (carat / 24) * 100",
+   "key_idea": "Carat measures the parts of gold out of 24 total parts of the alloy.",
+   "textbook_ref": "jesc103.txt lines 510-520",
+   "question_patterns": [
+    "Calculate the percentage of gold in 22 carat gold.",
+    "What is the purity of 18 carat gold?",
+    "How much alloy is present in 20 carat gold?",
+    "Find the gold content in a 24 carat sample.",
+    "calculate gold purity calculation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine ratio",
+     "explain": "Divide the given carat value by the standard 24 carats.",
+     "compute": "ratio = carat / 24"
+    },
+    {
+     "step": 2,
+     "action": "Convert to percentage",
+     "explain": "Multiply the ratio by 100 to get the purity percentage.",
+     "compute": "purity_percent = ratio * 100"
+    },
+    {
+     "step": 3,
+     "action": "Calculate impurity percentage",
+     "explain": "Subtract the purity percentage from 100 to find the percentage of other metals in the alloy.",
+     "compute": "impurity_percent = 100 - purity_percent"
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.2",
+   "title": "Alloying and Amalgams",
+   "section": "3.5.1",
+   "definition": "Creating a homogeneous mixture of a metal with other elements to enhance properties like hardness or corrosion resistance.",
+   "formula": "Alloy = Base_Metal + Solute_Elements",
+   "key_idea": "Alloying changes pure metal properties; amalgams specifically contain mercury.",
+   "textbook_ref": "jesc103.txt lines 505-545",
+   "question_patterns": [
+    "What is an alloy?",
+    "Define an amalgam.",
+    "What are the constituents of stainless steel?",
+    "Why is pure iron not used for construction?",
+    "Name the components of brass and bronze."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify components",
+     "explain": "List the primary metal and the added elements."
+    },
+    {
+     "step": 2,
+     "action": "Check for mercury",
+     "explain": "If mercury is present, classify the alloy as an amalgam."
+    },
+    {
+     "step": 3,
+     "action": "Relate composition to enhanced properties",
+     "explain": "The added elements alter hardness, corrosion resistance, or other properties of the base metal, making the alloy suitable for specific applications."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc103.txt lines 240-250",
+   "concept": "jesc.3.2.5",
+   "question_type": "verify_property",
+   "question_pattern": "Predict the reaction when an iron nail is placed in {solution}.",
+   "extracted_variables": {
+    "solution": "copper sulphate solution"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compare reactivity",
+     "explain": "Iron is higher than copper in the reactivity series."
+    },
+    {
+     "step": 2,
+     "action": "State observation",
+     "explain": "Iron displaces copper, forming iron sulphate and a brown copper coating."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc103.txt lines 510-515",
+   "concept": "jesc.3.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the percentage of pure gold in {carat} carat gold.",
+   "extracted_variables": {
+    "carat": "22"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine ratio",
+     "explain": "Ratio of gold is 22 parts out of 24.",
+     "compute": "ratio = carat / 24"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage",
+     "explain": "Purity is ratio times 100.",
+     "compute": "purity_percent = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc103.txt lines 510-520",
+   "concept": "jesc.3.5.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute gold purity calculation step by step",
+   "extracted_variables": {
+    "carat": "value of carat"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine ratio",
+     "explain": "Divide the given carat value by the standard 24 carats.",
+     "compute": "ratio = carat / 24"
+    },
+    {
+     "step": 2,
+     "action": "Convert to percentage",
+     "explain": "Multiply the ratio by 100 to get the purity percentage.",
+     "compute": "purity_percent = ratio * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jesc103.txt lines 570-580",
+   "questions": [
+    "Which of the following pairs will give displacement reactions? (a) NaCl and Cu (b) MgCl2 and Al (c) FeSO4 and Ag (d) AgNO3 and Cu",
+    "Which method is suitable for preventing an iron frying pan from rusting?",
+    "An element reacts with oxygen to give a compound with a high melting point that is water soluble. Identify the element.",
+    "Food cans are coated with tin and not zinc because zinc is more reactive."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "jesc103.txt lines 590-610",
+   "questions": [
+    "What are amphoteric oxides? Give two examples.",
+    "Name two metals which will displace hydrogen from dilute acids and two which will not.",
+    "State two ways to prevent the rusting of iron.",
+    "What type of oxides are formed when non-metals combine with oxygen?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

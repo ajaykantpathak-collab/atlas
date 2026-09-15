@@ -1,0 +1,460 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 17,
+ "chapter_title": "Outcomes of Democracy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess405.txt",
+ "concepts": [
+  {
+   "id": "c10ss.17.1",
+   "title": "Democratic vs Non-Democratic Outcomes",
+   "section": "17.1",
+   "definition": "Democracies differ from non-democratic regimes in how they produce outcomes: democracies are based on political competition, free elections and accountability, while non-democratic regimes concentrate power and lack such mechanisms.",
+   "formula": "",
+   "key_idea": "The difference between democracy and non-democracy is best judged by examining the actual outcomes each produces for the people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do democratic outcomes differ from non-democratic outcomes?",
+    "Why is democracy considered a better form of government than non-democracy?",
+    "What are the main features that distinguish a democracy from a non-democracy?",
+    "Can a non-democratic government produce better outcomes than a democracy? Explain.",
+    "List three outcomes that are unique to democratic governments."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define democratic and non-democratic regimes",
+     "explain": "A democracy is ruled by elected representatives accountable to the people; a non-democracy concentrates power without free elections or accountability."
+    },
+    {
+     "step": 2,
+     "action": "Compare the mechanisms each uses",
+     "explain": "Democracies use political competition, free press and rule of law, while non-democracies rely on coercion and unchecked authority."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the outcomes produced",
+     "explain": "Democracies tend to produce more accountable, transparent and rights-respecting outcomes, even if they may be slower in decision-making."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do democratic outcomes differ from non-democratic outcomes?",
+     "solution": "Democratic outcomes are shaped by accountability, free elections and rule of law, while non-democratic outcomes are shaped by concentrated power without checks.",
+     "answer": "Democracies produce accountable and transparent outcomes; non-democracies do not."
+    },
+    {
+     "question": "Why is democracy considered a better form of government than non-democracy?",
+     "solution": "Democracy allows people to correct mistakes, protects dignity and freedom, and makes rulers accountable to citizens.",
+     "answer": "Because it is accountable, transparent and protects citizens' rights."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three outcomes that are unique to democratic governments.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Can a non-democratic government produce better outcomes than a democracy? Explain.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.2",
+   "title": "Accountability and Transparency in Democracy",
+   "section": "17.2",
+   "definition": "Accountability means that elected rulers are answerable to the people for their actions and decisions, while transparency means that the processes of decision-making are open to public scrutiny.",
+   "formula": "",
+   "key_idea": "Democracy ensures that decision-makers are accountable to the people and that decision-making is transparent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is accountability in a democracy?",
+    "What is transparency in government decision-making?",
+    "How does democracy ensure accountability of rulers?",
+    "Why is transparency important for democracy?",
+    "Explain the relationship between accountability and transparency."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define accountability",
+     "explain": "Accountability means rulers must explain and justify their actions to the people who elected them."
+    },
+    {
+     "step": 2,
+     "action": "Define transparency",
+     "explain": "Transparency means citizens can see how and why decisions are made, through free press and open institutions."
+    },
+    {
+     "step": 3,
+     "action": "Explain how democracy ensures both",
+     "explain": "Regular elections, a free press, and independent institutions force democratic rulers to be accountable and transparent."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is accountability in a democracy?",
+     "solution": "Accountability means elected rulers are answerable to the people for their decisions and actions.",
+     "answer": "Rulers must answer to the people for their actions."
+    },
+    {
+     "question": "How does democracy ensure accountability of rulers?",
+     "solution": "Through regular elections, a free press, opposition parties and independent institutions that scrutinise government actions.",
+     "answer": "Through elections, free press and independent institutions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is transparency important for democracy?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the relationship between accountability and transparency.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.3",
+   "title": "Economic Growth and Development under Democracy",
+   "section": "17.3",
+   "definition": "Economic growth refers to the increase in a country's total income and output over time. Democracies have not been consistently better at economic growth compared to dictatorships, as decisions are often delayed by consultation and negotiation.",
+   "formula": "",
+   "key_idea": "Democracy may be slower in economic decision-making, so its record on economic growth is mixed when compared with non-democratic regimes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does democracy affect economic growth?",
+    "Is democracy better than dictatorship for economic growth? Explain.",
+    "Why are democratic decisions on economic growth often slower?",
+    "What is the difference between economic growth and economic development?",
+    "Give an example showing democracies are not always better at economic growth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define economic growth",
+     "explain": "Economic growth is the rise in the total income and output of a country over a period of time."
+    },
+    {
+     "step": 2,
+     "action": "Compare democracy and dictatorship on growth",
+     "explain": "Dictatorships can take quick decisions, but democracies must consult many groups, which slows decision-making."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the evidence",
+     "explain": "Evidence shows that democracies are not consistently better at economic growth; the difference is not very large."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does democracy affect economic growth?",
+     "solution": "Democracy can slow economic decision-making due to consultation, so its record on growth is mixed compared to dictatorships.",
+     "answer": "Democracy's effect on growth is mixed; it is not consistently better than dictatorship."
+    },
+    {
+     "question": "Why are democratic decisions on economic growth often slower?",
+     "solution": "Because democracies must consult various groups and reach consensus before taking major economic decisions.",
+     "answer": "Because consultation and consensus-building take time."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the difference between economic growth and economic development?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give an example showing democracies are not always better at economic growth.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.4",
+   "title": "Economic Equality under Democracy",
+   "section": "17.4",
+   "definition": "Economic inequality refers to the gap in income and wealth between the rich and the poor. Democracies are based on political equality but have not been very successful in reducing economic inequalities.",
+   "formula": "",
+   "key_idea": "Democracy provides political equality (one person, one vote) but has a mixed record on reducing economic inequality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How far does democracy reduce economic inequality?",
+    "What is the difference between political equality and economic equality?",
+    "Why have democracies not been very successful in reducing economic inequalities?",
+    "Explain why a democracy may have political equality but economic inequality.",
+    "What can a democratic government do to reduce economic inequality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish political and economic equality",
+     "explain": "Political equality means every citizen has one vote; economic equality means a fair distribution of income and wealth."
+    },
+    {
+     "step": 2,
+     "action": "Assess democracy's record on economic equality",
+     "explain": "Democracies guarantee political equality but have not been very successful in reducing economic inequalities."
+    },
+    {
+     "step": 3,
+     "action": "Explain the reasons",
+     "explain": "The poor are often unable to influence economic policy, and the rich can use resources to protect their interests."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How far does democracy reduce economic inequality?",
+     "solution": "Democracy guarantees political equality but has a mixed record on reducing economic inequality, as the rich often influence policy more than the poor.",
+     "answer": "Democracy reduces political inequality but not economic inequality significantly."
+    },
+    {
+     "question": "Explain why a democracy may have political equality but economic inequality.",
+     "solution": "Every citizen has one vote (political equality), but income and wealth remain unevenly distributed (economic inequality).",
+     "answer": "Political equality is guaranteed by voting; economic equality is not."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why have democracies not been very successful in reducing economic inequalities?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What can a democratic government do to reduce economic inequality?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.5",
+   "title": "Dignity and Freedom of Citizens",
+   "section": "17.5",
+   "definition": "Democracy stands much superior to any non-democratic regime in promoting the dignity and freedom of the individual, including the freedom of women and disadvantaged groups.",
+   "formula": "",
+   "key_idea": "Democracy enhances the dignity and freedom of citizens, especially of women and marginalised groups.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does democracy promote the dignity and freedom of citizens?",
+    "Why is democracy superior to non-democracy in protecting individual freedom?",
+    "How has democracy improved the dignity of women?",
+    "Explain how democracy strengthens the claims of disadvantaged groups.",
+    "What is the relationship between democracy and individual dignity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the principle of dignity and freedom",
+     "explain": "Democracy treats every citizen as equal and protects their freedom and dignity."
+    },
+    {
+     "step": 2,
+     "action": "Explain the advantage over non-democracy",
+     "explain": "Non-democratic regimes often suppress individual freedom, while democracies protect it through rights and the rule of law."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of progress",
+     "explain": "Democracy has strengthened women's claims to equal inheritance and the dignity of disadvantaged groups like Dalits and Adivasis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does democracy promote the dignity and freedom of citizens?",
+     "solution": "Democracy protects individual rights, treats citizens as equals, and allows disadvantaged groups to demand dignity and freedom.",
+     "answer": "By protecting rights and treating all citizens as equal."
+    },
+    {
+     "question": "How has democracy improved the dignity of women?",
+     "solution": "Democracy has strengthened women's claims to equal inheritance, education and participation in public life.",
+     "answer": "By strengthening women's claims to equal rights and participation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how democracy strengthens the claims of disadvantaged groups.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is democracy superior to non-democracy in protecting individual freedom?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.6",
+   "title": "Reduction of Inequality and Discrimination",
+   "section": "17.6",
+   "definition": "Democracy helps reduce discrimination and inequality by giving every citizen an equal vote and by allowing disadvantaged groups to organise and demand their rights.",
+   "formula": "",
+   "key_idea": "Democracy provides a platform for disadvantaged groups to fight discrimination and demand equality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does democracy help reduce discrimination?",
+    "What role does democracy play in reducing caste-based inequality?",
+    "How does the equal vote strengthen disadvantaged groups?",
+    "Explain how democracy provides a platform for fighting inequality.",
+    "Why is the principle of one person, one vote important for equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the equal vote",
+     "explain": "The principle of one person, one vote gives every citizen, rich or poor, an equal political voice."
+    },
+    {
+     "step": 2,
+     "action": "Explain the platform for organisation",
+     "explain": "Democracy allows disadvantaged groups to form organisations, protest peacefully and demand their rights."
+    },
+    {
+     "step": 3,
+     "action": "Assess the outcome",
+     "explain": "While discrimination is not fully eliminated, democracy gives disadvantaged groups the tools to fight it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does democracy help reduce discrimination?",
+     "solution": "Democracy gives every citizen an equal vote and allows disadvantaged groups to organise and demand their rights.",
+     "answer": "By giving equal votes and a platform to demand rights."
+    },
+    {
+     "question": "Why is the principle of one person, one vote important for equality?",
+     "solution": "It ensures that the poor and disadvantaged have the same political weight as the rich, making their concerns matter in elections.",
+     "answer": "It gives every citizen equal political weight."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What role does democracy play in reducing caste-based inequality?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how democracy provides a platform for fighting inequality.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.7",
+   "title": "Comparison of Democracies",
+   "section": "17.7",
+   "definition": "When we compare democracies with non-democracies on various outcomes, democracy is better on accountability, dignity and freedom, but its record on economic growth and equality is mixed.",
+   "formula": "",
+   "key_idea": "Democracy is not a guarantee of economic success, but it is clearly better on political and social outcomes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare democracies and non-democracies on economic outcomes.",
+    "On which outcomes is democracy clearly better than non-democracy?",
+    "On which outcomes is democracy's record mixed?",
+    "Why is democracy valued even if its economic record is mixed?",
+    "Summarise the overall comparison of democracies and non-democracies."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List outcomes where democracy is better",
+     "explain": "Democracy is clearly better on accountability, transparency, dignity and freedom of citizens."
+    },
+    {
+     "step": 2,
+     "action": "List outcomes where democracy's record is mixed",
+     "explain": "Democracy's record on economic growth and economic equality is mixed compared to non-democracies."
+    },
+    {
+     "step": 3,
+     "action": "Draw the overall conclusion",
+     "explain": "Despite mixed economic results, democracy is valued because it protects rights, dignity and freedom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On which outcomes is democracy clearly better than non-democracy?",
+     "solution": "Democracy is clearly better on accountability, transparency, dignity and freedom of citizens.",
+     "answer": "Accountability, transparency, dignity and freedom."
+    },
+    {
+     "question": "On which outcomes is democracy's record mixed?",
+     "solution": "Democracy's record on economic growth and economic equality is mixed compared to non-democracies.",
+     "answer": "Economic growth and economic equality."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is democracy valued even if its economic record is mixed?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Summarise the overall comparison of democracies and non-democracies.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.17.8",
+   "title": "Quality of Democracy",
+   "section": "17.8",
+   "definition": "The quality of a democracy depends on the participation of citizens, the openness of decision-making, and the extent to which it delivers on the expectations of the people. A good democracy is one that is accountable, transparent and responsive.",
+   "formula": "",
+   "key_idea": "A high-quality democracy is one where citizens participate actively and the government is accountable, transparent and responsive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What determines the quality of a democracy?",
+    "How can citizens improve the quality of democracy?",
+    "What is meant by a responsive democracy?",
+    "Explain the role of participation in improving democracy.",
+    "List three features of a good-quality democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the indicators of democratic quality",
+     "explain": "The quality of democracy depends on participation, openness, accountability and responsiveness."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of citizens",
+     "explain": "Active citizen participation -- voting, debate and protest -- improves the quality of democracy."
+    },
+    {
+     "step": 3,
+     "action": "Define a good democracy",
+     "explain": "A good democracy is accountable, transparent and responsive to the needs and expectations of the people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What determines the quality of a democracy?",
+     "solution": "The quality of democracy depends on citizen participation, openness, accountability and responsiveness.",
+     "answer": "Participation, openness, accountability and responsiveness."
+    },
+    {
+     "question": "How can citizens improve the quality of democracy?",
+     "solution": "Citizens can improve democracy by voting, debating, joining organisations and holding the government accountable.",
+     "answer": "By active participation and holding government accountable."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by a responsive democracy?",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three features of a good-quality democracy.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

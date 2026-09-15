@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_006",
+   "title": "c11_phy_cbse_11_006",
+   "questions": [
+    {
+     "q": "State the SI units of molar specific heat capacity at constant volume (Cᵥ) and constant pressure (Cₚ). Write the defining equation for each in terms of heat supplied (ΔQ), number of moles (μ), and temperature change (ΔT).",
+     "a": "Cᵥ and Cₚ both have SI units of J mol⁻¹ K⁻¹. Cᵥ = (1/μ)(ΔQ/ΔT)ᵥ and Cₚ = (1/μ)(ΔQ/ΔT)ₚ. A wrong answer (e.g., J kg⁻¹ K⁻¹) reveals confusion between specific heat capacity (per unit mass) and molar specific heat capacity (per mole). Missing the subscript v or p indicates the student does not grasp that the path/process matters for heat capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Cₚ is greater than Cᵥ for any ideal gas, using the First Law of Thermodynamics. Do not just state the formula Cₚ − Cᵥ = R.",
+     "a": "At constant volume, ΔW = 0, so ΔQᵥ = ΔU. At constant pressure, ΔQₚ = ΔU + PΔV. For the same ΔT, the increase in internal energy ΔU is identical (since U depends only on T for an ideal gas). At constant pressure, extra heat PΔV = μRΔT is needed to do expansion work. Hence ΔQₚ > ΔQᵥ, so Cₚ > Cᵥ. A wrong answer that only quotes the formula without the physical reasoning shows a lack of conceptual understanding of the First Law and the role of work.",
+     "self_check": true
+    },
+    {
+     "q": "Two moles of an ideal gas are heated at constant volume from 300 K to 340 K. The heat supplied is measured as 2500 J. Calculate Cᵥ and Cₚ for this gas. (R = 8.31 J mol⁻¹ K⁻¹)",
+     "a": "Step 1: Given μ = 2 mol, ΔT = 40 K, ΔQ = 2500 J. Step 2: Cᵥ = ΔQ/(μΔT) = 2500 / (2 × 40) = 31.25 J mol⁻¹ K⁻¹. Step 3: Cₚ = Cᵥ + R = 31.25 + 8.31 = 39.56 J mol⁻¹ K⁻¹. Step 4: Check units: J/(mol·K) correct. Step 5: Values are physically reasonable (Cₚ > Cᵥ). A common error is forgetting to divide by μ, giving Cᵥ = 62.5 J mol⁻¹ K⁻¹, or using R = 8.31 J g⁻¹ K⁻¹ incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs two experiments on the same ideal gas: (i) supplies 500 J heat at constant volume, temperature rises by 20 K; (ii) supplies 500 J heat at constant pressure, temperature rises by 14 K. The gas amount is 0.5 mol in both. Calculate Cᵥ and Cₚ from each experiment and verify Mayer's relation.",
+     "a": "Exp (i): Cᵥ = 500 / (0.5 × 20) = 50 J mol⁻¹ K⁻¹. Exp (ii): Cₚ = 500 / (0.5 × 14) ≈ 71.43 J mol⁻¹ K⁻¹. Difference = 21.43 J mol⁻¹ K⁻¹. Mayer's relation predicts R = 8.31 J mol⁻¹ K⁻¹. The discrepancy indicates either the gas is not ideal, or measurements have errors, or the gas is not the same in both experiments. A student who simply says \"Mayer's relation holds\" without checking the numbers fails to evaluate experimental consistency.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"For an ideal gas, Cₚ − Cᵥ = R.\" A student argues: \"Since R is constant, Cₚ and Cᵥ must also be constants for a given ideal gas.\" Evaluate this argument.",
+     "a": "The argument is incorrect. Mayer's relation Cₚ − Cᵥ = R holds for any ideal gas, but Cₚ and Cᵥ individually can vary with temperature (e.g., for diatomic gases, they increase with T due to vibrational modes becoming active). Only their difference is constant (equal to R). A student who agrees shows a misunderstanding of the distinction between a constant difference and constant individual values.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using a syringe (sealed at the tip) and a heat source to demonstrate that more heat is required to raise the temperature of a gas by the same amount at constant pressure than at constant volume. List the measurements you would take.",
+     "a": "Seal a syringe with a known amount of gas (e.g., 0.01 mol air). Experiment A: Keep plunger fixed (constant volume). Supply heat Qᵥ, measure ΔT. Experiment B: Allow plunger to move freely against atmospheric pressure (constant pressure). Supply heat Qₚ to achieve the same ΔT. Measure Qᵥ and Qₚ. Expect Qₚ > Qᵥ. Calculate Cᵥ = Qᵥ/(μΔT), Cₚ = Qₚ/(μΔT). A poor answer omits controlling μ and ΔT, or ignores atmospheric pressure work, or suggests measuring pressure instead of heat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

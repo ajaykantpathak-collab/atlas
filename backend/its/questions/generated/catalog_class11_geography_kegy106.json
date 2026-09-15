@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy106",
+  "concepts": [
+    {
+      "id": "kegy.106.1.1",
+      "questions": [
+        {"q": "What giant sea wave follows a strong undersea earthquake? (one word)", "a": "tsunami"},
+        {"q": "Which two Indian seas breed tropical cyclones? (two words)", "a": "Bay of Bengal, Arabian Sea"},
+        {"q": "Which hazard follows rainfall variability in some years and its opposite in others? (one word)", "a": "floods"},
+        {"q": "On which mountain hazards do slides of rock and soil occur? (one word)", "a": "landslides"},
+        {"q": "Which natural hazard strikes along seismic zones with sudden shaking? (one word)", "a": "earthquakes"},
+        {"q": "Which coast of India is more cyclone-prone: the east or the west? (one word)", "a": "east"},
+        {"q": "How many natural hazards are listed in this concept? (number)", "a": "5"}
+      ]
+    },
+    {
+      "id": "kegy.106.2.1",
+      "questions": [
+        {"q": "How many stages does disaster management pass through (prevention to recovery)? (number)", "a": "5"},
+        {"q": "Which stage of disaster management comes first? (one word)", "a": "prevention"},
+        {"q": "Which structures shelter coastal people before a cyclone strikes? (two words)", "a": "cyclone shelters"},
+        {"q": "What kind of systems warn people before disaster strikes? (two words)", "a": "early warning"},
+        {"q": "Which stage of disaster management aids and rebuilds after the event? (one word)", "a": "recovery"},
+        {"q": "Which regulatory tool guides safe construction in hazard zones? (two words)", "a": "land use"},
+        {"q": "What follows response in the disaster management cycle? (one word)", "a": "recovery"}
+      ]
+    },
+    {
+      "id": "kegy.106.3.1",
+      "questions": [
+        {"q": "Which belt of India lies in the most severe seismic zone? (one word)", "a": "Himalayan"},
+        {"q": "Which hazard zone covers the flood plains of the Ganga and Brahmaputra? (one word)", "a": "flood"},
+        {"q": "Which arid tracts of India are drought-prone? (one word)", "a": "arid"},
+        {"q": "What mapping of areas by hazard risk guides preparedness? (two words)", "a": "vulnerability zoning"},
+        {"q": "Which form of local readiness reduces disaster losses most cheaply? (two words)", "a": "community preparedness"},
+        {"q": "Which hazard threatens India's east coast most? (one word)", "a": "cyclones"},
+        {"q": "Name the river pair whose plains face the greatest flood risk. (two words)", "a": "Ganga, Brahmaputra"}
+      ]
+    }
+  ]
+}

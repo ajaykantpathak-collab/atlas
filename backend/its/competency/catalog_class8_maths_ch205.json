@@ -1,0 +1,628 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 205,
+ "chapter_title": "Tales by Dots and Lines: The Balancing Act",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp205.txt",
+ "concepts": [
+  {
+   "id": "hegp.205.5.1.1",
+   "title": "Balance Point Property of Mean",
+   "section": "5.1",
+   "definition": "The arithmetic mean acts as the central fulcrum of a numerical dataset where the sum of deviation distances for values below the mean equals the sum of deviation distances for values above it.",
+   "formula": "sum_left_distances = sum_right_distances",
+   "key_idea": "Mean balances total deviation distances of observations on either side.",
+   "textbook_ref": "hegp205.txt lines 10-50",
+   "question_patterns": [
+    "verify if the mean balances distances on both sides in Grade 8 statistics",
+    "check the balance of distances on the left and right of the mean",
+    "explain how the mean represents the centre of a dot plot",
+    "determine if a given number is the balance point mean of a dataset",
+    "show that the sum of distances below the mean equals those above"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate left distances",
+     "explain": "sum the differences between the mean and every observation smaller than the mean"
+    },
+    {
+     "step": 2,
+     "action": "calculate right distances",
+     "explain": "sum the differences between every observation greater than the mean and the mean"
+    },
+    {
+     "step": 3,
+     "action": "compare distance sums",
+     "explain": "verify that total left distance equals total right distance"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.2",
+   "title": "Mean Transformation by Addition or Subtraction",
+   "section": "5.1",
+   "definition": "When a constant value is added to or subtracted from every item in a dataset, the mean shifts by that exact same constant value.",
+   "formula": "new_mean = old_mean + shift",
+   "key_idea": "Adding or subtracting a fixed value to all entries alters the mean by that same value.",
+   "textbook_ref": "hegp205.txt lines 65-95",
+   "question_patterns": [
+    "find the new mean when every value is increased by a constant in Class 8 data",
+    "calculate the modified mean if all data entries are decreased by a fixed number",
+    "what is the new average when a shift is added to each observation",
+    "determine the correct average after subtracting shoe height from all student measurements",
+    "compute the updated mean after adding a fixed value to every entry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the shift to the original mean",
+     "explain": "shifting every value by a constant shifts the mean by the same constant",
+     "compute": "new_mean = old_mean + shift"
+    },
+    {
+     "step": 2,
+     "action": "verify the shift direction",
+     "explain": "a positive shift increases the mean while a negative shift decreases it by the same magnitude"
+    },
+    {
+     "step": 3,
+     "action": "state the final transformed mean",
+     "explain": "the new mean equals the original mean plus the constant shift applied uniformly to all entries",
+     "compute": "final_mean = old_mean + shift"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.3",
+   "title": "Mean Transformation by Multiplication",
+   "section": "5.1",
+   "definition": "When every element in a dataset is scaled by multiplying with a fixed constant factor, the arithmetic mean of the dataset is multiplied by that same factor.",
+   "formula": "new_mean = old_mean * factor",
+   "key_idea": "Scaling all data entries by a constant factor scales the mean proportionally.",
+   "textbook_ref": "hegp205.txt lines 96-125",
+   "question_patterns": [
+    "find the new mean when all values in a dataset are doubled",
+    "calculate the scaled average after multiplying every entry by a factor",
+    "what is the new mean if each observation is scaled by a constant",
+    "determine the average when every data point is multiplied by a fixed number",
+    "compute the modified mean after scaling all scores"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the original mean by the scaling factor",
+     "explain": "scaling every observation by a factor scales the overall mean by the same factor",
+     "compute": "new_mean = old_mean * factor"
+    },
+    {
+     "step": 2,
+     "action": "verify the scaling effect",
+     "explain": "a factor greater than 1 enlarges the mean, a factor between 0 and 1 shrinks it, and a negative factor reverses its sign"
+    },
+    {
+     "step": 3,
+     "action": "state the final scaled mean",
+     "explain": "the new mean equals the original mean multiplied by the constant factor applied to all entries",
+     "compute": "final_mean = old_mean * factor"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.4",
+   "title": "Finding a Missing Value from the Mean",
+   "section": "5.1",
+   "definition": "An unknown observation in a dataset is found by computing the required total sum from the given mean and count, then subtracting the sum of all known observations.",
+   "formula": "missing_value = (mean * count) - known_sum",
+   "key_idea": "Subtract the sum of known entries from the total product of mean and count.",
+   "textbook_ref": "hegp205.txt lines 130-155",
+   "question_patterns": [
+    "find the missing value in a dataset given the overall mean and count",
+    "calculate the smudged weight when average weight and other entries are known",
+    "what is the unknown observation if the mean of n numbers is given",
+    "determine the missing score given average score and sum of remaining scores",
+    "compute the unknown value y given the dataset mean and other entries"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the target total sum",
+     "explain": "multiply mean by count to find required total sum",
+     "compute": "total_sum = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "subtract known sum from total sum",
+     "explain": "the difference gives the missing value",
+     "compute": "missing_value = total_sum - known_sum"
+    },
+    {
+     "step": 3,
+     "action": "verify the missing value is consistent",
+     "explain": "check that adding the missing value to the known sum reproduces the target total sum, confirming correctness",
+     "compute": "check = known_sum + missing_value"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.5",
+   "title": "Correcting Mean for Erroneous Data Entries",
+   "section": "5.1",
+   "definition": "To rectify a mean calculated with an error, obtain the initial sum, adjust for the difference between incorrect and actual entries, and divide by total item count.",
+   "formula": "correct_mean = (initial_mean * count - excess_error) / count",
+   "key_idea": "Adjust initial aggregate total for observational errors and re-divide by count.",
+   "textbook_ref": "hegp205.txt lines 156-180",
+   "question_patterns": [
+    "find the correct average when one observation was recorded incorrectly",
+    "calculate the rectified mean after subtracting an overcount error",
+    "what is the true mean when a data entry was misread by a given amount",
+    "determine the adjusted average harvest when one count was wrong",
+    "compute the correct mean after fixing a measurement mistake"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find initial total sum",
+     "explain": "multiply initial mean by count",
+     "compute": "initial_sum = initial_mean * count"
+    },
+    {
+     "step": 2,
+     "action": "calculate correct total sum",
+     "explain": "subtract the excess error amount from initial sum",
+     "compute": "correct_sum = initial_sum - excess_error"
+    },
+    {
+     "step": 3,
+     "action": "divide correct total sum by count",
+     "explain": "find rectified mean",
+     "compute": "correct_mean = correct_sum / count"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.6",
+   "title": "Mean of Frequency Distribution Data",
+   "section": "5.1",
+   "definition": "The mean of tabular frequency data is computed by dividing the total sum of value-frequency products by the aggregate frequency count.",
+   "formula": "mean = total_product_sum / total_frequency",
+   "key_idea": "Divide the aggregate value product sum by the total number of entries.",
+   "textbook_ref": "hegp205.txt lines 181-205",
+   "question_patterns": [
+    "find the average family size from a frequency distribution table",
+    "calculate the mean from a frequency table of given values and frequencies",
+    "what is the average score when observations have specified frequencies",
+    "determine the mean of grouped frequency data in Class 8 statistics",
+    "compute the mean using sum of frequency products over total frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total product sum by total frequency",
+     "explain": "divide aggregate sum of all values by total number of items",
+     "compute": "mean = total_product_sum / total_frequency"
+    },
+    {
+     "step": 2,
+     "action": "verify the product sum was computed correctly",
+     "explain": "ensure each value was multiplied by its frequency and the products were summed across all categories"
+    },
+    {
+     "step": 3,
+     "action": "state the final mean of the frequency distribution",
+     "explain": "the ratio of total product sum to total frequency gives the average value of the grouped data",
+     "compute": "final_mean = total_product_sum / total_frequency"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.7",
+   "title": "Median of Frequency Distribution Data",
+   "section": "5.1",
+   "definition": "The median in a frequency table is identified by finding running cumulative frequencies to determine the entry positioned at the exact midpoint of the ordered dataset.",
+   "formula": "median = central_observation_value",
+   "key_idea": "Locate the middle data position using cumulative sum of frequencies.",
+   "textbook_ref": "hegp205.txt lines 206-225",
+   "question_patterns": [
+    "find the median family size from a given frequency table",
+    "determine the median value using cumulative frequencies",
+    "calculate the median position and value for a frequency distribution",
+    "what is the median of data presented in a frequency distribution",
+    "how to locate the central value in a frequency table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find total frequency N",
+     "explain": "sum all frequencies in the table"
+    },
+    {
+     "step": 2,
+     "action": "determine middle position",
+     "explain": "find N/2 position for even total or (N+1)/2 for odd total"
+    },
+    {
+     "step": 3,
+     "action": "find median value",
+     "explain": "cumulate frequencies from smallest value up to locate the category matching the central position"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.1.8",
+   "title": "Spreadsheet Formulas SUM and AVERAGE",
+   "section": "5.1",
+   "definition": "Spreadsheet software uses cell range expressions like SUM(Start:End) and AVERAGE(Start:End) to automatically calculate total sums and arithmetic averages across rows or columns.",
+   "formula": "formula = SUM(start_cell:end_cell)",
+   "key_idea": "Cell range syntax with colon notation evaluates aggregate sum or mean.",
+   "textbook_ref": "hegp205.txt lines 226-285",
+   "question_patterns": [
+    "write the spreadsheet formula to calculate the total marks in a row",
+    "what cell formula computes the average score across a subject column",
+    "determine the spreadsheet syntax to sum cells B3 to G3",
+    "find the correct formula for average of cells B7 through D7",
+    "identify the spreadsheet formula for row totals and column averages"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify row or column cell range",
+     "explain": "determine starting and ending cell coordinates"
+    },
+    {
+     "step": 2,
+     "action": "apply SUM or AVERAGE function",
+     "explain": "format formula starting with equals sign, function name, and cell range in parentheses"
+    },
+    {
+     "step": 3,
+     "action": "verify the formula output",
+     "explain": "confirm the computed result matches the expected total or average by checking the highlighted cell value"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.2.1",
+   "title": "Line Graph Interpretation and Trend Analysis",
+   "section": "5.2",
+   "definition": "Line graphs plot sequential data points connected by line segments to depict variations, comparative trends, and rates of change over continuous time intervals.",
+   "formula": "trend = line_segment_steepness",
+   "key_idea": "Line segment slopes highlight temporal changes and multi-series comparisons.",
+   "textbook_ref": "hegp205.txt lines 286-360",
+   "question_patterns": [
+    "interpret maximum temperature trends over months using a line graph",
+    "compare space object launches across different years using line plots",
+    "identify peak rainfall months from a line graph of multiple cities",
+    "what information does a line graph convey about time series data",
+    "analyze trends and rate of increase in line graph representations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify horizontal and vertical axes",
+     "explain": "determine time interval on x-axis and measured physical quantity on y-axis"
+    },
+    {
+     "step": 2,
+     "action": "read data points and line steepness",
+     "explain": "analyze rising, falling, or flat line segments to infer overall trends and maximum or minimum values"
+    },
+    {
+     "step": 3,
+     "action": "compare multiple series and summarize the trend",
+     "explain": "when several lines are plotted together, contrast their slopes and peaks to draw comparative conclusions about the data over time"
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.2.2",
+   "title": "Infographics and Activity Time Strips",
+   "section": "5.2",
+   "definition": "Infographics and activity strips map categorical data, regional preference scales, or daily time allocations visually through proportional color-coded segments.",
+   "formula": "duration = block_count * time_per_block",
+   "key_idea": "Color-coded visual strips represent duration and categorical distributions.",
+   "textbook_ref": "hegp205.txt lines 361-430",
+   "question_patterns": [
+    "analyze an activity strip to estimate time spent on daily tasks",
+    "interpret preference maps and infographics comparing regional data",
+    "what does a colored time strip represent in 30 minute blocks",
+    "determine daily routine duration from color coded activity strips",
+    "extract qualitative insights from geographical infographics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read color legend and block scale",
+     "explain": "match each color shade to its activity or geographical index value"
+    },
+    {
+     "step": 2,
+     "action": "count blocks to compute duration",
+     "explain": "multiply number of unit blocks by time per block to compute total activity time"
+    },
+    {
+     "step": 3,
+     "action": "summarize the categorical distribution",
+     "explain": "combine the per-category durations to describe how time or preference is distributed across the visual strip"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp205.txt line 114 Figure it Out Q3",
+   "concept": "hegp.205.5.1.2",
+   "question_type": "compute",
+   "question_pattern": "The average height of 24 students was measured as {old_mean} cm. If each student's height was overmeasured by {shift} cm due to shoes, find the correct average height.",
+   "extracted_variables": {
+    "old_mean": 150.2,
+    "shift": -1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the shift to the original mean",
+     "explain": "subtracting 1 cm from every height reduces the mean by 1 cm",
+     "compute": "new_mean = old_mean + shift"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp205.txt line 107 Relatively Unchanged",
+   "concept": "hegp.205.5.1.2",
+   "question_type": "compute",
+   "question_pattern": "A dataset has an initial mean of {old_mean}. If every value in the dataset is increased by {shift}, calculate the new mean.",
+   "extracted_variables": {
+    "old_mean": 7.18,
+    "shift": 10.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the shift to the original mean",
+     "explain": "increasing every value by a constant increases the mean by the same constant",
+     "compute": "new_mean = old_mean + shift"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp205.txt line 108 Doubling data",
+   "concept": "hegp.205.5.1.3",
+   "question_type": "compute",
+   "question_pattern": "The mean of a dataset is {old_mean}. If every observation in the set is multiplied by {factor}, find the new average.",
+   "extracted_variables": {
+    "old_mean": 7.18,
+    "factor": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the original mean by the scaling factor",
+     "explain": "doubling every data entry doubles the overall mean",
+     "compute": "new_mean = old_mean * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp205.txt line 108 Scaling by 5",
+   "concept": "hegp.205.5.1.3",
+   "question_type": "compute",
+   "question_pattern": "A data collection has an initial mean of {old_mean}. Calculate the new average when each number is multiplied by {factor}.",
+   "extracted_variables": {
+    "old_mean": 12.0,
+    "factor": 5.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the original mean by the scaling factor",
+     "explain": "multiplying each value by 5 scales the average by 5",
+     "compute": "new_mean = old_mean * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp205.txt line 130 Coach Balwan",
+   "concept": "hegp.205.5.1.4",
+   "question_type": "compute",
+   "question_pattern": "The average weight of {count} players is {mean} kg. Nine recorded weights sum to {known_sum} kg. Find the missing weight.",
+   "extracted_variables": {
+    "mean": 39.2,
+    "count": 10,
+    "known_sum": 349
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total sum",
+     "explain": "multiply average weight by number of players",
+     "compute": "total_sum = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "subtract known sum from total sum",
+     "explain": "the difference gives the smudged weight",
+     "compute": "missing_value = total_sum - known_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp205.txt line 116 Figure it Out Q7",
+   "concept": "hegp.205.5.1.4",
+   "question_type": "compute",
+   "question_pattern": "The mean of {count} numbers is {mean}. If seven of the numbers sum to {known_sum}, calculate the value of the eighth number y.",
+   "extracted_variables": {
+    "mean": 10.375,
+    "count": 8,
+    "known_sum": 70
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total sum",
+     "explain": "multiply mean by number of values",
+     "compute": "total_sum = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "subtract known sum from total sum",
+     "explain": "subtract sum of known 7 numbers to find y",
+     "compute": "missing_value = total_sum - known_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp205.txt line 156 Venkayya harvest",
+   "concept": "hegp.205.5.1.5",
+   "question_type": "compute",
+   "question_pattern": "The initial average harvest of {count} coconut trees was calculated as {initial_mean}. Later it was found that one tree's count was recorded {excess_error} more than actual. Find the correct average.",
+   "extracted_variables": {
+    "initial_mean": 25.6,
+    "count": 15,
+    "excess_error": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find initial total sum",
+     "explain": "multiply initial average by tree count",
+     "compute": "initial_sum = initial_mean * count"
+    },
+    {
+     "step": 2,
+     "action": "calculate correct total sum",
+     "explain": "deduct the excess overcount of 3",
+     "compute": "correct_sum = initial_sum - excess_error"
+    },
+    {
+     "step": 3,
+     "action": "divide correct total sum by count",
+     "explain": "divide actual harvest by number of trees",
+     "compute": "correct_mean = correct_sum / count"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp205.txt line 156 Erroneous mark",
+   "concept": "hegp.205.5.1.5",
+   "question_type": "compute",
+   "question_pattern": "The mean score of {count} students was {initial_mean}. If one student's mark was accidentally entered as {excess_error} extra marks above their actual score, calculate the correct mean.",
+   "extracted_variables": {
+    "initial_mean": 50.0,
+    "count": 20,
+    "excess_error": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find initial total sum",
+     "explain": "multiply initial average by student count",
+     "compute": "initial_sum = initial_mean * count"
+    },
+    {
+     "step": 2,
+     "action": "calculate correct total sum",
+     "explain": "subtract the extra marks added by error",
+     "compute": "correct_sum = initial_sum - excess_error"
+    },
+    {
+     "step": 3,
+     "action": "divide correct total sum by count",
+     "explain": "find actual average mark",
+     "compute": "correct_mean = correct_sum / count"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp205.txt line 181 Family size table",
+   "concept": "hegp.205.5.1.6",
+   "question_type": "compute",
+   "question_pattern": "In a class of {total_frequency} students, the aggregate sum of family sizes calculated as sum of frequency products is {total_product_sum}. Calculate the average family size.",
+   "extracted_variables": {
+    "total_product_sum": 188,
+    "total_frequency": 36
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total product sum by total frequency",
+     "explain": "divide total sum of all values by number of students",
+     "compute": "mean = total_product_sum / total_frequency"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp205.txt line 117 Figure it Out Q11",
+   "concept": "hegp.205.5.1.6",
+   "question_type": "compute",
+   "question_pattern": "A dart competition recorded trial counts with a total weighted sum of {total_product_sum} across {total_frequency} participating students. Find the mean number of trials.",
+   "extracted_variables": {
+    "total_product_sum": 480,
+    "total_frequency": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total product sum by total frequency",
+     "explain": "divide overall trial sum by total participants",
+     "compute": "mean = total_product_sum / total_frequency"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hegp205.txt lines 114-117 Figure it Out Part 1",
+   "questions": [
+    "Find the mean of the first 50 natural numbers, the first 50 odd numbers, and the first 50 multiples of 4.",
+    "A dot plot with mean 9 has one missing value. Determine the missing dot position.",
+    "The height average of 24 students is 150.2 cm. If uniform shoes add 1 cm to each student, find the correct average height without shoes.",
+    "Find the median of the 16 numbers given: 8, 10, 19, 23, 26, 34, 40, 41, 41, 48, 51, 55, 70, 84, 91, 92.",
+    "The mean of 8, 13, 10, 4, 5, 20, y, 10 is 10.375. Find the value of y.",
+    "The mean of a dataset with 15 values is 134. Find the sum of the dataset.",
+    "Calculate the mean and median from the cycle riding frequency dot plot.",
+    "Describe the dart competition trial distribution using min, max, mean, and median."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hegp205.txt lines 123-133 Figure it Out Part 2",
+   "questions": [
+    "Plot visiting and purchasing customer averages across week days on a line graph.",
+    "Graph the monthly rainfall days for Mangaluru, Port Blair, and Rameswaram and answer trend questions.",
+    "Interpret the monthly birth count line graph for India from 2017 to 2020.",
+    "Fill a 3x3 grid with distinct numbers so that row, column, and diagonal averages all equal 10.",
+    "Provide examples of datasets satisfying specific mean and median inequality conditions.",
+    "Evaluate the effect on class average height when two new students join.",
+    "Analyze month-over-month weight changes when one person loses 2 kg and two gain 1 kg.",
+    "Plot 10-year iodised salt price trends for 3 states using line graphs and compare variations."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

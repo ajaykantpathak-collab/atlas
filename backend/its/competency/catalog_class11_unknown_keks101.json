@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 101,
+  "chapter_title": "Language and Its Study in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks101.1.1",
+      "title": "Language as the Signature of Humanity",
+      "section": "1.1",
+      "definition": "Language is what lets human minds be understood and remembered -- the most creative minds have adored it, and it orders the rhythm of life itself. India's traditions gave language a central place, naming it bhasha in Sanskrit and treating speech as worthy of scientific study.",
+      "formula": "",
+      "key_idea": "Language is humanity's signature -- the tool by which minds meet and memory outlives speakers.",
+      "textbook_ref": "keks101.txt opening sections (language closest to living beings, bhasha in sanskrit, creative minds adored language)",
+      "question_patterns": [
+        "why is language called a beautiful and intriguing phenomenon",
+        "in class 11 language chapter: what does the sanskrit word bhasha denote",
+        "how does language fulfil the wish to be understood and remembered",
+        "why did creative minds adore language",
+        "what place does language hold in indian traditions",
+        "explain language as the rhythm of life"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the human claim",
+          "explain": "Only language lets inner thought pass wholly between minds and across generations."
+        },
+        {
+          "step": 2,
+          "action": "cite the indian framing",
+          "explain": "Indian tradition names language bhasha and honours it as an object of study, not mere habit."
+        },
+        {
+          "step": 3,
+          "action": "draw the significance",
+          "explain": "To study language is to study memory, identity and knowledge itself."
+        }
+      ]
+    },
+    {
+      "id": "keks101.1.2",
+      "title": "Sanskrit, Language Families and Panini's Grammar",
+      "section": "1.2",
+      "definition": "The chapter places Sanskrit in the Indo-European family of languages and celebrates India's grammatical science: Panini and other Indian grammarians analysed speech with astonishing rigour, producing descriptive grammar centuries before such methods appeared elsewhere.",
+      "formula": "",
+      "key_idea": "Panini turned speech into science -- Indian grammar analysed language systematically ages ahead of its time.",
+      "textbook_ref": "keks101.txt grammar sections (works of panini, sanskrit indo european group, indian grammarians, grammar traditions)",
+      "question_patterns": [
+        "to which language family does sanskrit belong",
+        "in class 11 language chapter: who was panini and why is he remembered",
+        "what did indian grammarians achieve in the study of language",
+        "why is sanskrit grammar called scientific",
+        "distinguish descriptive grammar from prescriptive rules",
+        "explain the contribution of sanskrit to linguistics"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "place the language",
+          "explain": "Sanskrit sits within the Indo-European family, related to tongues far beyond India."
+        },
+        {
+          "step": 2,
+          "action": "praise the grammar",
+          "explain": "Panini's systematic rules describe how the language actually works -- an ancient feat of linguistic analysis."
+        },
+        {
+          "step": 3,
+          "action": "state the legacy",
+          "explain": "Indian grammar traditions shaped how languages everywhere came to be studied."
+        }
+      ]
+    },
+    {
+      "id": "keks101.1.3",
+      "title": "The Diversity of Indian Languages",
+      "section": "1.3",
+      "definition": "India's linguistic landscape is a mosaic of families and scripts, each carrying its own literature and world-view. The chapter treats this diversity as a shared heritage: many languages, one civilisational conversation, with translation and shared vocabulary binding the traditions together.",
+      "formula": "",
+      "key_idea": "Many tongues, one conversation -- India's language diversity is heritage, not division.",
+      "textbook_ref": "keks101.txt diversity sections (languages of india, scripts, literatures in regional languages, mutual borrowing among languages)",
+      "question_patterns": [
+        "describe the diversity of languages in india",
+        "in class 11 language chapter: how do indian languages enrich one another",
+        "why is linguistic diversity called a heritage",
+        "what role do translations play among indian languages",
+        "give examples of words shared across indian languages",
+        "how do scripts carry the same ideas differently"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "map the mosaic",
+          "explain": "Different families, scripts and literatures cover the subcontinent, each with its own genius."
+        },
+        {
+          "step": 2,
+          "action": "show the exchange",
+          "explain": "Borrowed words, shared stories and translations reveal a long conversation among the languages."
+        },
+        {
+          "step": 3,
+          "action": "draw the value",
+          "explain": "Respecting this diversity keeps the whole civilisational library open to every generation."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks101.txt grammar sections",
+      "concept": "keks101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why is Panini's work cited as proof that language study was scientific in ancient India?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "describe the work",
+          "explain": "Panini analysed Sanskrit into systematic rules covering sounds, word formation and sentences."
+        },
+        {
+          "step": 2,
+          "action": "note the method",
+          "explain": "The rules describe the language as spoken -- descriptive rigour, not scattered opinion."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Such systematic analysis is science of language, produced centuries before comparable work elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks101.txt diversity sections",
+      "concept": "keks101.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Two neighbouring states speak different languages yet share folk tales and many words. Explain this through the chapter's idea of diversity as heritage.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the distinctness",
+          "explain": "Different languages mean different scripts and literatures -- real diversity."
+        },
+        {
+          "step": 2,
+          "action": "name the exchange",
+          "explain": "Shared tales and vocabulary show centuries of borrowing and translation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Diversity with exchange is the chapter's picture of India's linguistic heritage."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why is language central to human civilisation according to the chapter?",
+        "What is the significance of the word bhasha in Sanskrit?",
+        "Describe the achievement of Panini and other Indian grammarians.",
+        "Which language family does Sanskrit belong to and what does this show?",
+        "Discuss linguistic diversity in India as a shared heritage.",
+        "How does the study of language connect with the study of culture?"
+      ]
+    }
+  ]
+}

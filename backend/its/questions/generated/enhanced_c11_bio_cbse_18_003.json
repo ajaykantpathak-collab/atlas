@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_003",
+   "title": "c11_bio_cbse_18_003",
+   "questions": [
+    {
+     "q": "Name the two types of synapses classified by the mechanism of impulse transmission and state the key structural difference between them.",
+     "a": "The two types are electrical synapses and chemical synapses. In electrical synapses, the pre- and post-synaptic membranes are in very close proximity (gap junctions) allowing direct ion flow; in chemical synapses, they are separated by a fluid-filled synaptic cleft (~20 nm) and transmission occurs via neurotransmitters. A wrong answer (e.g., \"both use neurotransmitters\" or \"electrical synapses have a cleft\") reveals confusion between the physical structure and the transmission mechanism, indicating the student has not distinguished the fundamental architectural difference that dictates speed and modulation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an action potential arriving at the pre-synaptic terminal of a chemical synapse does not directly depolarize the post-synaptic membrane, unlike in an electrical synapse.",
+     "a": "In a chemical synapse, the synaptic cleft physically separates the two membranes, preventing direct ion current flow. The electrical signal (action potential) must be converted into a chemical signal (neurotransmitter release) which diffuses across the cleft and binds to receptors that then open ion channels to initiate a new electrical signal in the post-synaptic neuron. A wrong answer (e.g., \"the action potential jumps the cleft\" or \"neurotransmitters carry electrical charge\") shows the student thinks the electrical impulse crosses the gap unchanged, missing the essential transduction step that allows synaptic integration and modulation.",
+     "self_check": true
+    },
+    {
+     "q": "A neurotoxin blocks voltage-gated Ca²⁺ channels in the pre-synaptic terminal. Predict the effect on synaptic transmission at a chemical synapse and explain the reasoning step by step.",
+     "a": "Synaptic transmission will be completely blocked. Step 1: Action potential arrives at the terminal → normally opens voltage-gated Ca²⁺ channels. Step 2: Toxin prevents Ca²⁺ influx. Step 3: Without Ca²⁺, synaptic vesicles cannot fuse with the pre-synaptic membrane (Ca²⁺ is essential for vesicle docking/fusion). Step 4: Neurotransmitters are not released into the cleft. Step 5: No neurotransmitter binds to post-synaptic receptors → no ion channel opening → no postsynaptic potential. A wrong answer (e.g., \"transmission slows down\" or \"action potential crosses anyway\") indicates the student does not grasp the absolute dependence of vesicle exocytosis on Ca²⁺ entry, a key regulatory checkpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the speed and modifiability of signal transmission at electrical vs chemical synapses. Why are chemical synapses the predominant type in the human nervous system despite being slower?",
+     "a": "Electrical synapses are faster (near-instantaneous) because current flows directly through gap junctions; chemical synapses are slower (0.5–1 ms delay) due to neurotransmitter release, diffusion, and receptor binding. However, chemical synapses allow modulation (excitation/inhibition, summation, plasticity, drug action) because the chemical step introduces multiple control points (vesicle release probability, receptor subtype, neurotransmitter reuptake). Electrical synapses are essentially fixed resistors. A wrong answer (e.g., \"chemical synapses are faster\" or \"both are equally modifiable\") reveals a failure to link the structural difference (cleft vs gap junction) to functional consequences for neural processing and adaptability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At a chemical synapse, the neurotransmitter binds to the receptor and the receptor itself becomes an ion channel that opens.\" Evaluate this statement and correct any inaccuracy.",
+     "a": "The statement is partially correct but imprecise. The receptor *is* often an ion channel (ionotropic receptor) – binding causes a conformational change that opens the channel. However, some receptors are metabotropic (G-protein coupled) and act indirectly via second messengers. The student’s phrasing \"the receptor itself becomes an ion channel\" could imply the receptor transforms into a channel, rather than *being* a ligand-gated channel. A better statement: \"Neurotransmitter binding to its specific receptor (which may be a ligand-gated ion channel or a G-protein-coupled receptor) leads to the opening of ion channels.\" A wrong evaluation (e.g., \"the statement is fully correct\") shows the student is unaware of metabotropic signaling, a key concept for understanding slow synaptic modulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment (using a frog sciatic nerve-gastrocnemius muscle preparation) to demonstrate that synaptic transmission at the neuromuscular junction is chemical and not electrical. Specify the key observation that would support chemical transmission.",
+     "a": "Stimulate the motor nerve electrically and record muscle contraction. Then apply a solution containing a competitive antagonist of the acetylcholine receptor (e.g., curare) to the neuromuscular junction. Observation: Muscle contraction stops despite the nerve action potential arriving normally (verified by recording from the nerve). Wash out curare → contraction returns. This shows transmission depends on a diffusible chemical (ACh) that can be blocked competitively, not on direct electrical coupling. A poor design (e.g., \"measure voltage across the junction\") fails to isolate the chemical step or uses an inappropriate preparation, indicating the student cannot translate the concept into a testable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

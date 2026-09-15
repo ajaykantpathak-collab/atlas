@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_007",
+   "title": "c12_bio_cbse_11_007",
+   "questions": [
+    {
+     "q": "Name the four essential process parameters that are continuously monitored and controlled in a standard stirred‑tank bioreactor for bacterial protein production.",
+     "a": "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level. A wrong answer (e.g., listing “nutrient concentration” or “cell density” as continuously controlled) reveals that the student confuses parameters that are *monitored online* (via probes) with those that are *fed intermittently* (nutrients) or *measured offline* (cell density).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a sparger ring is placed directly below the impeller in a stirred‑tank bioreactor, and what would happen if the sparger were moved to the side wall.",
+     "a": "The sparger ring below the impeller ensures that air bubbles are immediately broken into smaller bubbles by the impeller shear, maximizing gas‑liquid interfacial area and oxygen transfer rate (OTR). If moved to the side wall, large bubbles would rise quickly without adequate breakup, drastically reducing OTR and creating oxygen‑limited zones. A wrong answer indicates the student does not link hydrodynamics (bubble size, residence time) to the biological need for high dissolved oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "A process engineer wants to scale up a recombinant protein process from a 10 L to a 10,000 L stirred‑tank bioreactor while keeping the impeller tip speed constant. Predict the effect on mixing time and oxygen transfer coefficient (kLa), and justify whether constant tip speed is a good scale‑up criterion for this aerobic process.",
+     "a": "Constant tip speed keeps shear stress similar, but mixing time increases (∝ tank diameter) and kLa decreases because power input per unit volume (P/V) drops. For an aerobic process, oxygen demand scales with volume, so decreasing kLa will cause oxygen limitation. Therefore, constant tip speed is *not* a good criterion; constant P/V or constant kLa is preferred. A wrong answer shows the student cannot integrate engineering scaling laws with microbial oxygen requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of a stirred‑tank bioreactor versus an air‑lift bioreactor for (a) shear‑sensitive mammalian cell culture and (b) high‑density *E. coli* fermentation. Provide one structural reason for each.",
+     "a": "(a) Air‑lift is better for mammalian cells because it lacks a mechanical impeller, generating very low shear. (b) Stirred‑tank is better for *E. coli* because the impeller provides high kLa needed for high oxygen demand, and *E. coli* tolerates shear. A wrong answer (e.g., choosing stirred‑tank for mammalian cells) reveals confusion between shear sensitivity and oxygen demand.",
+     "self_check": true
+    },
+    {
+     "q": "A bioreactor run shows a sudden drop in dissolved oxygen (DO) from 30 % to 5 % saturation, while agitation and airflow are at maximum. The feed pump is running normally. Evaluate the three most likely causes and propose an immediate corrective action for each.",
+     "a": "1. **Probe fouling** – clean/recalibrate DO probe. 2. **Sudden metabolic shift** (e.g., diauxic growth) – check off‑gas CO₂/O₂; adjust feed strategy. 3. **Contamination** (foreign microbe consuming O₂) – check microscopy, Gram stain; if confirmed, terminate run. A wrong answer that only lists “increase agitation” shows the student cannot diagnose root causes beyond the obvious control knob.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal bioreactor control strategy for a recombinant yeast process that produces a secreted enzyme. List the online sensors, the actuators they control, and the set‑point logic for pH and dissolved oxygen (include cascade control for DO).",
+     "a": "Online sensors: pH probe, DO probe, temperature probe, foam probe, level sensor. Actuators: acid/base pumps (pH), agitation speed & air/oxygen flow valves (DO cascade: first increase agitation to max, then enrich inlet gas with O₂), heating/cooling jacket (temp), antifoam pump (foam). Set‑point logic: pH 5.0 ± 0.1 via PID; DO 30 % saturation cascade: agitation 200–1000 rpm, then O₂ enrichment 21–100 %. A poor answer omits cascade control or antifoam, indicating the student treats each parameter in isolation rather than as an integrated system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

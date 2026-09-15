@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_007",
+   "title": "c10_chem_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the general formula for the homologous series of alkenes and write the molecular formula of the third member of this series.",
+     "a": "General formula: CₙH₂ₙ. Third member (n=3): C₃H₆ (propene). A wrong answer like CₙH₂ₙ₊₂ (alkane formula) or C₃H₈ reveals confusion between alkane and alkene general formulas. Writing C₃H₄ (alkyne) shows inability to substitute n=3 correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the boiling points of alkanes increase steadily as we go down the homologous series from methane to decane, even though their chemical properties remain similar.",
+     "a": "Boiling points increase because each added –CH₂– unit increases molecular mass and surface area, strengthening London dispersion forces (van der Waals forces) between molecules. More energy is needed to overcome these forces. Chemical properties stay similar because the functional group (C–C and C–H bonds only) is unchanged. A wrong answer citing \"stronger covalent bonds\" or \"change in functional group\" reveals a fundamental misunderstanding of intermolecular vs intramolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "The first member of the alcohol homologous series is methanol (CH₃OH). Write the molecular formulas of the next three homologues and calculate the molecular mass difference between each successive pair. (Atomic masses: C=12, H=1, O=16)",
+     "a": "Step 1: General formula for alcohols = CₙH₂ₙ₊₁OH. Step 2: Methanol is CH₃OH (n=1). Next homologues: Ethanol C₂H₅OH (n=2), Propanol C₃H₇OH (n=3), Butanol C₄H₉OH (n=4). Step 3: Molecular masses: CH₃OH = 32, C₂H₅OH = 46, C₃H₇OH = 60, C₄H₉OH = 74. Step 4: Differences: 46–32=14, 60–46=14, 74–60=14 g/mol. Step 5: Each step adds CH₂ (12+2=14). A wrong difference (e.g., 16 or 12) shows the student is not adding CH₂ correctly or miscalculating atomic masses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trend in solubility in water for the first four members of the alcohol series (methanol, ethanol, propanol, butanol) with the trend for the alkane series (methane, ethane, propane, butane). Explain the difference in trends using the concept of hydrophilic/hydrophobic parts.",
+     "a": "Alcohols: Methanol, ethanol, propanol are miscible in water; butanol is slightly soluble (7.9 g/100 mL). Solubility decreases as the hydrophobic alkyl chain (–CH₂–) length increases, overpowering the hydrophilic –OH group. Alkanes: All four are essentially insoluble in water (non-polar). No hydrophilic group exists. A wrong answer claiming alkanes become more soluble down the series or that alcohol solubility increases reveals confusion about the role of the functional group vs the hydrocarbon chain.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Pentane (C₅H₁₂) and pentene (C₅H₁₀) belong to the same homologous series because they both have 5 carbon atoms.\" Evaluate this statement and correct the error.",
+     "a": "The statement is false. Homologous series require the SAME functional group and a general formula differing by CH₂. Pentane (alkane, CₙH₂ₙ₊₂) has only C–C/C–H single bonds; pentene (alkene, CₙH₂ₙ) has a C=C double bond (functional group). They belong to different series. A student agreeing reveals the misconception that \"same number of carbons = same series\", ignoring the defining role of the functional group.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory activity to demonstrate the gradation in boiling points of the first four liquid alkanes (pentane, hexane, heptane, octane) using only a water bath, test tubes, thermometers, and a hot plate. List the safety precautions needed for handling these flammable liquids.",
+     "a": "Place 2 mL of each alkane in separate test tubes immersed in a water bath. Heat gradually, record temperature when each liquid boils (steady bubbles). Plot boiling point vs carbon number. Safety: No open flame (use hot plate), work in fume hood/well-ventilated area, wear goggles/gloves, keep fire extinguisher nearby. A poor answer using direct flame or ignoring flammability shows lack of lab safety awareness and inability to translate concept into experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

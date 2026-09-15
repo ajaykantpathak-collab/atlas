@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_1",
+   "title": "c9_physics_ch6_1",
+   "questions": [
+    {
+     "q": "Define the term \"solar constant\" and state its approximate value in SI units. What does it represent physically?",
+     "a": "The solar constant is the amount of solar radiation energy received per unit time per unit area on a surface perpendicular to the Sun's rays at the top of Earth's atmosphere at the mean Earth-Sun distance. Its approximate value is 1361 W/m². A wrong answer (e.g., giving a value in W/m or J/m²) reveals confusion between power flux and energy, or misunderstanding that it is measured perpendicular to rays at the top of atmosphere, not at the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a beam of sunlight spreading over 1 m² at the equator spreads over approximately 2 m² at 60° latitude, using a diagram or geometric reasoning. How does this affect the heating rate?",
+     "a": "At 60° latitude, the solar rays strike the surface at a 60° angle from the vertical (30° from horizontal). The same cross-sectional beam area covers a surface area larger by factor 1/cos(60°) = 2. Since the same energy is distributed over twice the area, the heating rate (power per unit area) is halved. A wrong answer claiming the angle is 30° from vertical or that area scales with sin instead of cos reveals confusion between solar zenith angle and solar elevation angle.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate insolation (W/m²) at the top of the atmosphere at 45° latitude at noon during equinox, given solar constant = 1361 W/m². Assume clear sky and no atmospheric absorption.",
+     "a": "Step 1: At equinox, subsolar point is at equator. At 45° latitude, solar zenith angle = 45°.\nStep 2: Insolation = Solar constant × cos(zenith angle) = 1361 × cos(45°).\nStep 3: cos(45°) = 1/√2 ≈ 0.707.\nStep 4: 1361 × 0.707 ≈ 962 W/m².\nStep 5: Units check: W/m² × dimensionless = W/m². Answer is physically reasonable (less than solar constant).\nA wrong answer of 1361 W/m² ignores the cosine factor; an answer of 680 W/m² uses cos(60°) instead of cos(45°), confusing latitude with zenith angle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the daily total solar energy received per unit area at the equator versus 60°N on the June solstice. Which receives more, and why? Consider both the instantaneous insolation and the day length.",
+     "a": "On June solstice, 60°N receives more total daily energy. At equator: zenith angle ≈ 23.5°, insolation ≈ 1361×cos(23.5°) ≈ 1247 W/m² for 12 hours → ~54 MJ/m²/day. At 60°N: zenith angle ≈ 36.5°, insolation ≈ 1361×cos(36.5°) ≈ 1093 W/m² but daylight lasts ~18.5 hours → ~73 MJ/m²/day. The longer day outweighs the lower instantaneous intensity. A wrong answer picking the equator ignores the day-length factor, a common error when students focus only on the cosine law.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the Earth is closest to the Sun in January (perihelion), the Northern Hemisphere should have warmer winters than the Southern Hemisphere.\" Evaluate this claim using the concept of uneven heating.",
+     "a": "The claim is incorrect. While Earth is at perihelion in early January (receiving ~7% more solar constant), the Northern Hemisphere is tilted away from the Sun (winter). The dominant factor for seasonal temperature is the angle of incidence and day length (axial tilt), not the 3.4% variation in Earth-Sun distance. Southern Hemisphere summers are actually slightly more intense due to perihelion coincidence, but ocean thermal inertia moderates this. A wrong agreement reveals the misconception that distance variation drives seasons more than axial tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a flashlight, a graph paper, and a protractor to demonstrate how the angle of incidence affects the intensity of light on a surface. Describe the procedure, measurements, and how you would analyze the data to verify the cosine law.",
+     "a": "Procedure: Fix flashlight at constant distance. Shine beam vertically onto graph paper — count illuminated squares (area A₀). Tilt paper by known angles θ (0°, 30°, 45°, 60°) using protractor. At each angle, count illuminated squares A_θ. Measure light intensity with a lux meter or use a solar cell + multimeter to measure current (proportional to intensity). Plot intensity vs cos(θ) — should be linear through origin. Analysis: Intensity ∝ 1/A_θ ∝ cos(θ). A poor design keeps flashlight distance constant but doesn't ensure beam fully covers paper at large angles, or measures brightness subjectively instead of quantitatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

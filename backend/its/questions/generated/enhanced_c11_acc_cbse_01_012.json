@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_012",
+   "title": "c11_acc_cbse_01_012",
+   "questions": [
+    {
+     "q": "State any four limitations of financial accounting as per the CBSE Class 11 curriculum.",
+     "a": "The four core limitations are: (1) Historical nature—records past transactions only, not future potential; (2) Monetary measurement—excludes non-financial factors like employee morale, brand reputation, environmental impact; (3) Based on estimates and personal judgments—depreciation methods, provision for doubtful debts, inventory valuation involve subjectivity; (4) Ignores price level changes—assets recorded at historical cost, not current replacement cost during inflation. A wrong answer listing \"does not record non-monetary transactions\" as separate from monetary measurement reveals confusion between the measurement constraint and the exclusion of qualitative factors—they are two sides of the same limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"historical cost principle\" creates a limitation for users comparing financial statements across time periods during high inflation.",
+     "a": "Historical cost records assets at original purchase price. During high inflation, a machine bought 10 years ago for ₹10 lakh may cost ₹50 lakh to replace today, but the balance sheet still shows ₹10 lakh (less depreciation). This makes profit appear higher (lower depreciation charge) and asset base appear stronger than economic reality, misleading investors comparing current performance with past periods or across companies with different asset ages. A wrong answer focusing only on \"depreciation is wrong\" misses the core issue: the limitation is about comparability and relevance for decision-making, not just calculation accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "A company changes its depreciation method from straight-line to written-down value in Year 3 to reduce tax liability. Profit increases by ₹12 lakh. Identify which TWO limitations this exploits and explain how each is violated.",
+     "a": "This exploits: (1) Based on estimates and personal judgments—depreciation method is a management choice, not a factual measurement; changing it alters reported profit without any real economic change. (2) Not free from bias—management selected the method to achieve a desired outcome (lower tax), violating neutrality. The ₹12 lakh \"profit increase\" is purely an accounting artifact. A wrong answer citing \"window dressing\" confuses intentional misrepresentation (window dressing) with legitimate but biased policy choice—both are limitations but window dressing implies deception beyond policy selection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the limitation \"exclusion of qualitative factors\" affects a bank lending decision versus an investor's equity valuation decision. Use a concrete scenario.",
+     "a": "Scenario: A pharma company has strong financials (high profit, low debt) but faces a major patent expiry next year and FDA investigation for quality violations. For the bank (creditor): The limitation is less critical—banks focus on collateral, cash flow coverage, and legal claims; qualitative risks are assessed via separate due diligence. For the equity investor: The limitation is critical—patent expiry and FDA risk destroy future cash flows, but accounting shows only current assets/liabilities. The investor relying solely on financial statements would overvalue the company. A wrong answer treating both users identically fails to recognize that creditors have contractual protections and priority claims, while equity investors bear residual risk fully exposed to qualitative factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If accounting standards eliminate all alternative treatments (e.g., mandate only one depreciation method), the limitation 'based on estimates and personal judgments' would be completely removed.\"",
+     "a": "The statement is false. Even with a single mandated method, estimates remain: useful life, residual value, pattern of benefit consumption (straight-line vs. usage-based) still require judgment. For example, mandating straight-line still requires estimating whether a machine lasts 8 or 10 years—this changes annual depreciation by 25%. Standards reduce but cannot eliminate judgment because economic reality is inherently uncertain. A wrong answer agreeing with the statement confuses \"reducing subjectivity\" with \"eliminating estimation\"—the limitation stems from the nature of economic events, not just policy choices.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) where ALL of the following limitations simultaneously mislead a user: historical cost, monetary measurement, price level changes, and exclusion of qualitative factors. Specify the user and the wrong decision they might make.",
+     "a": "Example: \"Reliance Textiles shows ₹200 crore net worth (land bought 1995 at ₹5 crore, now worth ₹500 crore; machinery at historical cost ₹50 crore, replacement cost ₹300 crore). The MD's leadership and R&D capability (qualitative) drove a new sustainable fabric line. An investor sees low ROE (profit/₹200 crore) and rejects the stock, missing the ₹800 crore real asset base and growth pipeline.\" A poor answer lists limitations separately without showing their compounding effect—the key insight is that limitations interact multiplicatively, not additively, to distort the complete picture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

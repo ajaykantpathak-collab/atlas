@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_010",
+   "title": "c12_chem_cbse_07_010",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the Williamson synthesis of ethyl methyl ether starting from ethanol and methyl bromide. Include the reagents needed to generate the alkoxide.",
+     "a": "**Correct answer:**  \nStep 1: CH₃CH₂OH + Na → CH₃CH₂O⁻Na⁺ + ½H₂↑ (formation of sodium ethoxide)  \nStep 2: CH₃CH₂O⁻Na⁺ + CH₃Br → CH₃CH₂–O–CH₃ + NaBr (SN2 substitution)  \nOverall: CH₃CH₂OH + Na + CH₃Br → CH₃CH₂OCH₃ + NaBr + ½H₂  \n\n**What a wrong answer reveals:** If a student writes CH₃CH₂OH + CH₃Br → CH₃CH₂OCH₃ + HBr (direct reaction without base), they misunderstand that alcohols are poor nucleophiles and the reaction requires alkoxide generation. If they omit Na/NaH, they miss the essential deprotonation step. If they use CH₃CH₂Br + CH₃ONa, they've swapped the alkyl halide/alkoxide roles but the product is the same — this is acceptable but shows they don't recognise the symmetry of the target ether.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prepare tert-butyl ethyl ether by reacting sodium ethoxide with tert-butyl bromide. Predict the major organic product and explain why the desired ether is not formed.",
+     "a": "**Correct answer:** The major product is 2-methylprop-1-ene (isobutylene).  \n**Reason:** Tertiary alkyl halides like (CH₃)₃C–Br cannot undergo SN2 due to steric hindrance around the α-carbon. Sodium ethoxide (EtO⁻) is both a strong nucleophile and a strong base. With tertiary halides, E2 elimination dominates: EtO⁻ abstracts a β-hydrogen, the C–Br bond breaks, and the alkene forms. No ether is obtained.\n\n**What a wrong answer reveals:** If the student predicts tert-butyl ethyl ether as the product, they have not internalised the steric blocking of SN2 at tertiary centres. If they suggest a mixture but can't explain why elimination wins, they lack the conceptual link between alkoxide basicity and β-hydrogen acidity. If they say \"SN1 occurs\", they confuse solvolysis conditions (weak nucleophile, polar protic solvent) with Williamson conditions (strong nucleophile/base, aprotic solvent).",
+     "self_check": true
+    },
+    {
+     "q": "Design a Williamson synthesis for 1-methoxy-4-nitrobenzene (p-nitroanisole). Specify the two starting materials (phenol derivative + alkyl halide), the base used, and explain why this combination works while the reverse combination fails.",
+     "a": "**Correct answer:**  \nStarting materials: 4-nitrophenol (p-nitrophenol) + methyl bromide (or methyl iodide)  \nBase: NaOH (or NaH) to generate the phenoxide  \nReaction:  \n4-NO₂–C₆H₄–OH + NaOH → 4-NO₂–C₆H₄–O⁻Na⁺ + H₂O  \n4-NO₂–C₆H₄–O⁻Na⁺ + CH₃Br → 4-NO₂–C₆H₄–O–CH₃ + NaBr  \n\n**Why reverse fails:** If we used sodium methoxide (CH₃O⁻Na⁺) + 4-nitrochlorobenzene, the reaction would not proceed. Aryl halides (Ar–X) do not undergo SN2 because the sp²-hybridised carbon of the ring is sterically inaccessible and the C–X bond has partial double-bond character due to resonance. The phenoxide route works because the nucleophile is the phenoxide (sp² O attacks sp³ C of CH₃Br).\n\n**What a wrong answer reveals:** If the student chooses 4-nitrochlorobenzene + CH₃ONa, they confuse aryl halides with alkyl halides. If they suggest Na/NaH for phenoxide formation but don't mention NaOH works (phenol is acidic enough), they overestimate the base strength needed. If they don't explain the sp² vs sp³ distinction, they lack the mechanistic understanding of SN2 limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cleavage of ethyl methyl ether (CH₃CH₂–O–CH₃) and tert-butyl methyl ether ((CH₃)₃C–O–CH₃) with excess hot HI. Predict the organic products in each case and explain the mechanistic difference.",
+     "a": "**Correct answer:**  \n**Ethyl methyl ether (both primary):**  \nCH₃CH₂–O–CH₃ + HI → CH₃CH₂I + CH₃OH (step 1, SN2 at less hindered carbon)  \nCH₃OH + HI → CH₃I + H₂O (step 2, excess HI)  \nFinal products: CH₃CH₂I + CH₃I  \n\n**tert-Butyl methyl ether (one tertiary, one primary):**  \n(CH₃)₃C–O–CH₃ + HI → (CH₃)₃C–OH + CH₃I (step 1, SN2 at primary methyl carbon)  \nBut wait — actually: Protonation gives (CH₃)₃C–O⁺H–CH₃. I⁻ attacks the less hindered methyl carbon (SN2) → CH₃I + (CH₃)₃C–OH.  \nWith excess HI: (CH₃)₃C–OH + HI → (CH₃)₃C–I + H₂O (SN1 via stable tert-butyl carbocation)  \nFinal products: CH₃I + (CH₃)₃C–I  \n\n**Mechanistic difference:** In ethyl methyl ether, both carbons are primary/secondary → SN2 at both steps. In tert-butyl methyl ether, the first cleavage is SN2 at the primary methyl carbon. The second step (tert-butanol + HI) proceeds via SN1 because the tert-butyl carbocation is highly stable.\n\n**What a wrong answer reveals:** If the student says both give the same products, they miss the SN1/SN2 switch. If they claim I⁻ attacks the tert-butyl carbon in step 1, they violate SN2 sterics. If they don't mention the second step with excess HI, they confuse stoichiometric vs excess conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following reaction for Williamson synthesis of diethyl ether:  \n2 CH₃CH₂OH + H₂SO₄ (conc.) → CH₃CH₂–O–CH₂CH₃ + H₂O  \nIdentify the error and explain why this is NOT Williamson synthesis. Under what conditions does this reaction actually give ether vs alkene?",
+     "a": "**Correct answer:**  \n**Error:** The student has written the **acid-catalysed dehydration of ethanol** (intermolecular dehydration), not Williamson synthesis. Williamson synthesis requires an alkoxide + alkyl halide (SN2). This reaction uses conc. H₂SO₄ at 413 K (140°C) — it's a bimolecular nucleophilic substitution (SN2) of ethanol on protonated ethanol, but it's **not** Williamson synthesis.\n\n**Conditions for ether vs alkene:**  \n- 413 K (140°C), excess ethanol, conc. H₂SO₄ → diethyl ether (SN2 on protonated alcohol)  \n- 443 K (170°C), conc. H₂SO₄ → ethene (E1 elimination via carbocation)  \nThe temperature controls the pathway: lower T favours substitution (ether), higher T favours elimination (alkene).\n\n**What a wrong answer reveals:** If the student thinks this IS Williamson synthesis, they conflate two distinct ether preparation methods (dehydration vs Williamson). If they don't know the temperature distinction, they miss a classic board exam trap. If they say \"H₂SO₄ is a catalyst in both\", they miss that Williamson uses no acid catalyst — it's a base-mediated SN2.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a two-step synthesis of phenetole (ethoxybenzene, C₆H₅–O–CH₂CH₃) starting from benzene. You may use any inorganic reagents. Write all reactions with conditions.",
+     "a": "**Expected answer (one valid route):**  \n**Step 1: Nitration of benzene**  \nC₆H₆ + conc. HNO₃ + conc. H₂SO₄ (50–60°C) → C₆H₅NO₂ (nitrobenzene) + H₂O  \n\n**Step 2: Reduction of nitrobenzene to aniline**  \nC₆H₅NO₂ + 3H₂ (Ni/Pt, heat) or Sn/HCl → C₆H₅NH₂ (aniline) + 2H₂O  \n\n**Step 3: Diazotisation**  \nC₆H₅NH₂ + NaNO₂ + 2HCl (273–278 K) → C₆H₅N₂⁺Cl⁻ (benzenediazonium chloride) + 2H₂O  \n\n**Step 4: Hydrolysis to phenol**  \nC₆H₅N₂⁺Cl⁻ + H₂O (warm) → C₆H₅OH (phenol) + N₂↑ + HCl  \n\n**Step 5: Williamson synthesis**  \nC₆H₅OH + NaOH → C₆H₅O⁻Na⁺ + H₂O  \nC₆H₅O⁻Na⁺ + CH₃CH₂Br → C₆H₅–O–CH₂CH₃ (phenetole) + NaBr  \n\n**Alternative shorter route (if cumene process allowed):**  \nBenzene + propene (H₃PO₄, heat) → cumene → (air, then dil. H₂SO₄) → phenol + acetone → then Williamson with EtBr.\n\n**Criteria for good answer:** Must show phenol formation (via diazonium or cumene) followed by phenoxide + ethyl halide. Must not use direct ethylation of benzene (Friedel-Crafts gives ethylbenzene, not ether). Must use primary alkyl halide (EtBr/EtI).\n\n**What a poor answer reveals:** Direct Friedel-Crafts alkylation of benzene with EtCl/AlCl₃ → ethylbenzene (wrong product). Using phenol + ethanol/H₂SO₄ (dehydration conditions fail for phenols — they give polymerisation/tar). Using ethyl bromide + benzene/AlCl₃ (gives ethylbenzene). Not recognising phenols need conversion to phenoxide for Williamson.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

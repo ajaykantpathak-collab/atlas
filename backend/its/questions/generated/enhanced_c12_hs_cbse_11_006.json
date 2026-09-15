@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_006",
+   "title": "c12_hs_cbse_11_006",
+   "questions": [
+    {
+     "q": "What are the three types of family income according to Home Science classification, and give one example of each?",
+     "a": "The three types are: (1) Money Income — actual cash inflow like salary, wages, pension; (2) Real Income — goods and services available to the family without direct cash payment, e.g., owner-occupied housing, home-grown vegetables; (3) Psychic Income — intangible satisfaction derived from using money and real income, e.g., peace of mind from a secure home. A wrong answer that omits real or psychic income reveals a narrow view of income as only cash, ignoring the full resource base a family commands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a family budget must be flexible and how a rigid budget can lead to financial stress, using the concept of variable and discretionary expenses.",
+     "a": "A flexible budget allows adjustments when actual variable expenses (e.g., medical emergency, festival spending) deviate from estimates, preventing the need to borrow or cut essential spending. A rigid budget forces the family to either default on payments or sacrifice necessities when unexpected costs arise, causing stress. If a student says a budget should be strictly followed without changes, they misunderstand that budgets are planning tools, not unchangeable rules, and that life’s unpredictability requires adaptability.",
+     "self_check": true
+    },
+    {
+     "q": "A family has a monthly money income of ₹60,000. Their fixed expenses are ₹25,000 (rent ₹15,000, EMI ₹10,000), variable expenses average ₹20,000 (groceries ₹12,000, utilities ₹5,000, transport ₹3,000), and they want to save at least ₹10,000. How much can they allocate to discretionary expenses without running a deficit? Show steps.",
+     "a": "Step 1: Total income = ₹60,000.\nStep 2: Total committed expenses = Fixed (₹25,000) + Variable (₹20,000) = ₹45,000.\nStep 3: Desired savings = ₹10,000.\nStep 4: Amount available for discretionary = Income – (Committed + Savings) = ₹60,000 – (₹45,000 + ₹10,000) = ₹5,000.\nStep 5: Check: ₹25,000 + ₹20,000 + ₹10,000 + ₹5,000 = ₹60,000. Balanced budget.\nA wrong answer that forgets to subtract savings first or adds incorrectly shows inability to prioritize savings as a non-negotiable outflow, a common error in budget construction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a surplus budget, a balanced budget, and a deficit budget in terms of their impact on family savings and debt. Which type should a family aim for, and why might a temporary deficit be acceptable?",
+     "a": "Surplus budget: Income > Expenditure → increases savings, reduces debt. Balanced budget: Income = Expenditure → maintains current savings/debt level. Deficit budget: Expenditure > Income → depletes savings or increases debt. A family should aim for a surplus budget to build financial security. A temporary deficit may be acceptable for investment in education, health, or asset acquisition that yields future returns, provided there is a plan to return to surplus. If a student says deficit is always bad, they miss the strategic use of borrowing for asset creation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following budgeting approach: \"Our family doesn't make a written budget; we just spend carefully and save whatever is left at month-end.\" Evaluate its effectiveness for long-term financial goals.",
+     "a": "This approach (residual saving) is ineffective for long-term goals because it treats savings as an afterthought, making it vulnerable to lifestyle inflation and unexpected expenses. Without a written plan, there is no accountability, no visibility into spending patterns, and no mechanism to ensure savings targets are met. A written budget enforces \"pay yourself first,\" allocates resources to priorities, and enables tracking. A student who defends this approach likely undervalues the discipline and foresight that formal budgeting provides.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weekly expense tracking sheet for a family of four that captures date, category (fixed/variable/discretionary), amount, payment mode (cash/UPI/card), and a notes column for unusual items. Explain how this sheet feeds into the monthly budget evaluation process.",
+     "a": "A good answer will present a table with columns: Date | Category (F/V/D) | Description | Amount (₹) | Mode | Notes. It should explain that at month-end, expenses are summed by category, compared to budgeted amounts, variances are calculated, and reasons for variances (from notes) are analyzed to adjust next month's budget or spending behavior. A poor answer that omits categorization or notes fails to link tracking to the control and evaluation steps of the management process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

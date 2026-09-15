@@ -1,0 +1,298 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 105,
+ "chapter_title": "Bank Reconciliation Statement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac105.txt",
+ "concepts": [
+  {
+   "id": "keac.105.1.1",
+   "title": "Need for Reconciliation of Cash Book and Pass Book",
+   "section": "5.1 Need for Reconciliation",
+   "definition": "The balance of the bank column of the cash book rarely agrees with the pass book balance because the bank records transactions at its own time, so a reconciliation is prepared to explain and verify the difference.",
+   "formula": "",
+   "key_idea": "Reconciliation detects timing differences and errors, and confirms the accuracy of both the cash book and the pass book.",
+   "textbook_ref": "keac105.txt section 5.1",
+   "question_patterns": [
+    "why does the cash book balance differ from the pass book balance",
+    "what is the need for preparing a bank reconciliation statement",
+    "what is a pass book and who prepares it",
+    "how does reconciliation help in locating errors",
+    "state the causes of difference between cash book and pass book",
+    "when is reconciliation of bank balance necessary"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the two balances",
+     "explain": "Note the cash book bank balance and the pass book balance on the same date."
+    },
+    {
+     "step": 2,
+     "action": "list the causes",
+     "explain": "Separate timing differences from errors of the bank or the firm."
+    },
+    {
+     "step": 3,
+     "action": "verify the reconciliation",
+     "explain": "Check that the statement explains the full difference and arrives at the adjusted balance."
+    }
+   ]
+  },
+  {
+   "id": "keac.105.2.1",
+   "title": "Timing Differences and Errors",
+   "section": "5.1.1 Timing Differences",
+   "definition": "Timing differences arise when transactions are recorded in one book earlier than the other, as with cheques issued but not yet presented, cheques deposited but not yet credited, and bank charges, interest or direct debits known to the bank only.",
+   "formula": "",
+   "key_idea": "Cheques issued reduce the cash book at once but the pass book later, while deposits in transit do the reverse, so the two balances drift apart until the bank acts.",
+   "textbook_ref": "keac105.txt sections 5.1.1, 5.1.2",
+   "question_patterns": [
+    "explain timing differences with examples",
+    "what happens to cheques issued but not yet presented",
+    "how do cheques deposited but not credited affect the balances",
+    "why do bank charges appear only in the pass book",
+    "how do errors cause differences between the two books",
+    "classify the causes of difference between cash book and pass book"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the item",
+     "explain": "Note whether the item is a cheque in transit, a direct debit or a bank charge."
+    },
+    {
+     "step": 2,
+     "action": "decide the book affected first",
+     "explain": "Determine which book records it first and which records it later."
+    },
+    {
+     "step": 3,
+     "action": "state the effect",
+     "explain": "State whether the pass book balance is higher or lower than the cash book balance."
+    }
+   ]
+  },
+  {
+   "id": "keac.105.3.1",
+   "title": "Bank Reconciliation Statement from Cash Book Balance",
+   "section": "5.2 Preparation of Bank Reconciliation Statement",
+   "definition": "Starting with the debit balance of the cash book, add cheques issued but not presented and credits recorded by the bank directly, and deduct cheques deposited but not credited and bank charges, to arrive at the pass book balance.",
+   "formula": "pass_book_balance = cash_book_balance + cheques_issued_not_presented - cheques_deposited_not_credited",
+   "key_idea": "Each adjustment reverses the timing difference so that the adjusted figure equals the balance shown by the bank.",
+   "textbook_ref": "keac105.txt section 5.2",
+   "question_patterns": [
+    "prepare a bank reconciliation statement from the cash book balance",
+    "how are cheques issued but not presented treated in the statement",
+    "calculate the pass book balance from the cash book balance",
+    "where are bank charges shown in a bank reconciliation statement",
+    "find the adjusted bank balance after the given adjustments",
+    "why are deposits in transit deducted from cash book balance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "adjust for unpresented cheques",
+     "explain": "Add cheques issued but not yet presented to the cash book balance",
+     "compute": "adjusted_balance = cash_book_balance + cheques_issued_not_presented"
+    },
+    {
+     "step": 2,
+     "action": "adjust for uncredited deposits",
+     "explain": "Deduct cheques deposited but not yet credited to arrive at the pass book balance",
+     "compute": "pass_book_balance = adjusted_balance - cheques_deposited_not_credited"
+    }
+   ]
+  },
+  {
+   "id": "keac.105.4.1",
+   "title": "Reconciliation Starting from an Overdraft",
+   "section": "5.2 Preparation of Bank Reconciliation Statement",
+   "definition": "When the cash book shows a credit bank balance, the firm enjoys an overdraft, and the reconciliation statement starts with the minus overdraft and applies the opposite adjustments to arrive at the overdraft as per the pass book.",
+   "formula": "",
+   "key_idea": "An overdraft is a liability of the firm to the bank, so its treatment in the statement is the reverse of a favourable balance.",
+   "textbook_ref": "keac105.txt overdraft discussion in section 5.2",
+   "question_patterns": [
+    "how is an overdraft treated in a bank reconciliation statement",
+    "distinguish favourable balance from overdraft balance",
+    "prepare a reconciliation statement starting with an overdraft",
+    "why is the overdraft shown on the credit side of the cash book",
+    "calculate the overdraft as per pass book from the given items",
+    "when does a firm's bank account become an overdraft"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recognise the overdraft",
+     "explain": "Start the statement with the minus overdraft as per the cash book."
+    },
+    {
+     "step": 2,
+     "action": "reverse the adjustments",
+     "explain": "Apply adjustments opposite to the favourable balance case."
+    },
+    {
+     "step": 3,
+     "action": "verify the pass book figure",
+     "explain": "Confirm the closing figure equals the overdraft as per the pass book."
+    }
+   ]
+  },
+  {
+   "id": "keac.105.5.1",
+   "title": "Adjusted Cash Book Balance after Bank Items",
+   "section": "5.2 Preparation of Bank Reconciliation Statement",
+   "definition": "Items known only from the pass book, such as bank charges, interest credited or direct collections by the bank, first adjust the cash book, and the remaining timing differences then explain the rest of the difference.",
+   "formula": "adjusted_cash_book_balance = cash_book_balance + interest_credited - bank_charges",
+   "key_idea": "The corrected cash book balance after bank items is the true bank balance, and the leftover unpresented and uncredited cheques complete the reconciliation.",
+   "textbook_ref": "keac105.txt section 5.2",
+   "question_patterns": [
+    "calculate the adjusted cash book balance after bank charges and interest",
+    "why must the cash book be corrected before reconciliation",
+    "how are direct deposits by customers treated",
+    "find the true bank balance from the given bank items",
+    "which items adjust the cash book and which adjust the statement",
+    "compute the amended balance after interest credited by the bank"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add interest credited by the bank",
+     "explain": "Add interest credited by the bank to the cash book balance",
+     "compute": "intermediate_balance = cash_book_balance + interest_credited"
+    },
+    {
+     "step": 2,
+     "action": "deduct bank charges",
+     "explain": "Deduct bank charges debited by the bank to get the adjusted cash book balance",
+     "compute": "adjusted_cash_book_balance = intermediate_balance - bank_charges"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac105.txt section 5.2",
+   "concept": "keac.105.3.1",
+   "question_type": "compute_pass_book_balance",
+   "question_pattern": "The cash book shows a bank balance of {cash_book_balance} rupees. Cheques of {cheques_issued_not_presented} rupees issued are not yet presented and deposits of {cheques_deposited_not_credited} rupees are not yet credited. Calculate the balance as per the pass book.",
+   "extracted_variables": {
+    "cash_book_balance": 54000,
+    "cheques_issued_not_presented": 12000,
+    "cheques_deposited_not_credited": 8000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adjust for unpresented cheques",
+     "explain": "Add cheques issued but not yet presented to the cash book balance",
+     "compute": "adjusted_balance = cash_book_balance + cheques_issued_not_presented"
+    },
+    {
+     "step": 2,
+     "action": "adjust for uncredited deposits",
+     "explain": "Deduct cheques deposited but not yet credited to arrive at the pass book balance",
+     "compute": "pass_book_balance = adjusted_balance - cheques_deposited_not_credited"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac105.txt section 5.2",
+   "concept": "keac.105.3.1",
+   "question_type": "compute_pass_book_balance",
+   "question_pattern": "From a favourable cash book balance of {cash_book_balance} rupees, unpresented cheques of {cheques_issued_not_presented} rupees and uncredited deposits of {cheques_deposited_not_credited} rupees, find the pass book balance.",
+   "extracted_variables": {
+    "cash_book_balance": 38000,
+    "cheques_issued_not_presented": 6500,
+    "cheques_deposited_not_credited": 9200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adjust for unpresented cheques",
+     "explain": "Add cheques issued but not yet presented to the cash book balance",
+     "compute": "adjusted_balance = cash_book_balance + cheques_issued_not_presented"
+    },
+    {
+     "step": 2,
+     "action": "adjust for uncredited deposits",
+     "explain": "Deduct cheques deposited but not yet credited to arrive at the pass book balance",
+     "compute": "pass_book_balance = adjusted_balance - cheques_deposited_not_credited"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac105.txt section 5.2",
+   "concept": "keac.105.5.1",
+   "question_type": "compute_adjusted_balance",
+   "question_pattern": "The cash book balance is {cash_book_balance} rupees. The bank has credited interest of {interest_credited} rupees and debited charges of {bank_charges} rupees. Calculate the adjusted cash book balance.",
+   "extracted_variables": {
+    "cash_book_balance": 62000,
+    "interest_credited": 1500,
+    "bank_charges": 400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add interest credited by the bank",
+     "explain": "Add interest credited by the bank to the cash book balance",
+     "compute": "intermediate_balance = cash_book_balance + interest_credited"
+    },
+    {
+     "step": 2,
+     "action": "deduct bank charges",
+     "explain": "Deduct bank charges debited by the bank to get the adjusted cash book balance",
+     "compute": "adjusted_cash_book_balance = intermediate_balance - bank_charges"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac105.txt section 5.2",
+   "concept": "keac.105.5.1",
+   "question_type": "compute_adjusted_balance",
+   "question_pattern": "A cash book balance of {cash_book_balance} rupees stands unadjusted for {interest_credited} rupees of interest allowed and {bank_charges} rupees of bank charges. Work out the adjusted balance.",
+   "extracted_variables": {
+    "cash_book_balance": 27500,
+    "interest_credited": 900,
+    "bank_charges": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add interest credited by the bank",
+     "explain": "Add interest credited by the bank to the cash book balance",
+     "compute": "intermediate_balance = cash_book_balance + interest_credited"
+    },
+    {
+     "step": 2,
+     "action": "deduct bank charges",
+     "explain": "Deduct bank charges debited by the bank to get the adjusted cash book balance",
+     "compute": "adjusted_cash_book_balance = intermediate_balance - bank_charges"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keac105.txt exercises section",
+   "questions": [
+    "State the need for the preparation of bank reconciliation statement.",
+    "Explain the term cheques in transit with examples.",
+    "Prepare a bank reconciliation statement from the following cash book and pass book balances.",
+    "Calculate the balance as per pass book after the given adjustments.",
+    "How is an overdraft shown in the bank reconciliation statement?",
+    "Distinguish between timing differences and errors causing differences."
+   ]
+  }
+ ]
+}

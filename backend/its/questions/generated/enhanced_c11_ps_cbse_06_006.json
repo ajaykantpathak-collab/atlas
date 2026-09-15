@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_006",
+   "title": "c11_ps_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define jus soli and jus sanguinis in one sentence each.",
+     "a": "Jus soli: citizenship acquired by virtue of birth within the territory of a state. Jus sanguinis: citizenship acquired by virtue of descent from a parent who is a citizen of that state. A wrong answer (e.g., swapping the definitions or saying both depend on parents) reveals the student has not internalised the territorial vs. genealogical distinction that underpins all citizenship laws.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the German citizenship law of 1913 rely heavily on jus sanguinis, while the United States adopted jus soli in the Fourteenth Amendment?",
+     "a": "Germany, as a late‑unifying ethnic nation‑state, used descent to define the \"German people\" across fragmented territories; the US, as a settler society integrating diverse immigrants, used birth on soil to forge a civic national identity. A wrong answer that treats the choice as arbitrary misses the historical‑political logic linking nation‑building strategies to citizenship rules.",
+     "self_check": true
+    },
+    {
+     "q": "A child is born in Mumbai in 2024 to parents who entered India illegally from Bangladesh in 2010. Under the Citizenship Act, 1955 (as amended in 2003), is this child an Indian citizen by birth? Explain the steps.",
+     "a": "No. Step 1: Identify the applicable provision – Section 3(1) of the Citizenship Act, 1955 as amended in 2003. Step 2: Note the condition – a person born in India on or after 3 Dec 2004 is a citizen by birth only if both parents are Indian citizens, or one parent is a citizen and the other is not an illegal migrant. Step 3: Apply facts – parents are illegal migrants, so the condition fails. Step 4: Conclude the child is not a citizen by birth. A wrong answer (e.g., \"yes, because born in India\") shows the student overlooks the 2003 restriction that converted India's jus soli into a conditional jus soli.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 2000 German reform (granting citizenship to children of long‑term legal residents born in Germany) with India's 2003 amendment (denying citizenship to children of illegal migrants). What does each reveal about the state's conception of membership?",
+     "a": "Germany's reform signals a shift from ethnic (jus sanguinis) toward civic (territorial) inclusion, recognising social integration as a basis for membership. India's amendment signals a move toward exclusionary control, privileging legal status of parents over the child's birthplace. A wrong answer that sees both as \"restrictive\" or both as \"liberal\" fails to analyse the direction of change: Germany expanded jus soli elements; India contracted them.",
+     "self_check": true
+    },
+    {
+     "q": "\"Jus soli is more democratic than jus sanguinis because it prevents intergenerational statelessness.\" Evaluate this claim with reference to the Indian context.",
+     "a": "Partially valid. Pure jus soli (pre‑1986 India) ensured no child born on soil was stateless, aligning with democratic inclusion. However, unrestricted jus soli can incentivise irregular migration and create \"birth tourism\" tensions, as seen in debates over the 2003 amendment. A balanced view: democratic citizenship requires safeguards against statelessness (e.g., granting citizenship to foundlings, children of stateless parents) while managing borders. A wrong answer that uncritically praises or condemns either principle ignores the policy trade‑offs democratic legislatures must negotiate.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a citizenship clause for a hypothetical diverse democracy that aims to (a) prevent childhood statelessness, (b) maintain a connection to the national community, and (c) avoid incentivising irregular migration. Explain each element.",
+     "a": "Sample clause: \"Every child born in the territory acquires citizenship at birth if at least one parent is a citizen or a legal permanent resident; otherwise, the child may acquire citizenship by declaration upon reaching majority after five years' continuous residence.\" Element (a) covers foundlings/stateless parents via the declaration route; (b) ties initial automatic acquisition to parental legal status (connection); (c) the residence requirement for non‑automatic cases discourages birth‑tourism/irregular entry. A poor answer copies existing laws without justifying how each element meets the three goals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

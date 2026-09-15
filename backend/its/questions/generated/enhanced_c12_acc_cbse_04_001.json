@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_001",
+   "title": "c12_acc_cbse_04_001",
+   "questions": [
+    {
+     "q": "State whether the following is dissolution of partnership or dissolution of partnership firm: \"A partner retires and the remaining partners continue the business with a new profit-sharing ratio.\"",
+     "a": "This is **dissolution of partnership** because the firm continues to exist with a reconstituted partnership agreement. A wrong answer (dissolution of firm) reveals the student incorrectly equates any change in partners with the firm’s closure, not grasping that the firm’s legal entity survives.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the death of a partner leads to dissolution of partnership but not necessarily dissolution of the firm.",
+     "a": "The death of a partner dissolves the existing partnership agreement (dissolution of partnership), but the firm may continue if the remaining partners decide to carry on the business, possibly admitting the deceased partner’s heir or a new partner. A wrong answer (saying the firm always dissolves) shows the student confuses the legal end of the agreement with the end of the business entity.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has three partners. They mutually agree to close the business, sell all assets, pay liabilities, and distribute the surplus. Identify the type of dissolution and state whether a Realisation Account will be prepared.",
+     "a": "This is **dissolution of partnership firm** because the business is being closed entirely. **Yes, a Realisation Account will be prepared** to record the realization of assets and payment of liabilities. A wrong answer (dissolution of partnership or no Realisation Account) indicates the student does not link firm closure with the mandatory preparation of Realisation Account.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of assets and liabilities in dissolution of partnership versus dissolution of partnership firm. Why is a Realisation Account opened only in the latter?",
+     "a": "In dissolution of partnership, assets and liabilities are **revalued** (via Revaluation Account) and the firm continues with revised values; no Realisation Account is opened because the firm is not selling off assets. In dissolution of firm, assets are **sold/realized** and liabilities **paid off**, so a Realisation Account is opened to track the profit/loss on realization. A wrong answer (saying Realisation Account is used in both) shows the student does not distinguish between revaluation (continuing firm) and realization (closing firm).",
+     "self_check": true
+    },
+    {
+     "q": "\"Every dissolution of partnership firm involves dissolution of partnership, but the reverse is not true.\" Evaluate this statement with reasons.",
+     "a": "**True.** When a firm is dissolved, the partnership agreement automatically ends (so partnership is dissolved). However, dissolution of partnership (e.g., admission, retirement) does not require the firm to close — it can continue. A wrong evaluation (saying both are same or reverse is true) reveals the student misses the hierarchical relationship: firm dissolution ⊃ partnership dissolution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (2-3 sentences) where a partnership firm undergoes dissolution of partnership **twice** within a year but never reaches dissolution of firm.",
+     "a": "Example: \"In January, Partner A retires and Partner D is admitted — first dissolution of partnership. In August, Partner B dies and his heir Partner E joins — second dissolution of partnership. The firm continues throughout.\" A poor answer (describing firm closure or only one event) shows the student cannot conceive of multiple reconstitutions without firm termination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

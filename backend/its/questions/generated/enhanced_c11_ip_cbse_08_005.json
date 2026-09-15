@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_005",
+   "title": "c11_ip_cbse_08_005",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a scatter plot in data visualisation, and how does it differ from a line chart created with `plt.plot()`?",
+     "a": "A scatter plot displays the relationship between two continuous variables by plotting individual data points without connecting them, revealing correlation patterns, clusters, and outliers. A line chart connects points sequentially, implying continuity or time-series progression. A wrong answer (e.g., \"both show trends\") reveals confusion between discrete bivariate analysis and continuous/trend visualisation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `plt.scatter([1,2,3], [4,5,6])` produces three distinct points while `plt.plot([1,2,3], [4,5,6])` produces a connected line, even though both receive identical x and y lists.",
+     "a": "`plt.scatter()` treats each (x,y) pair as an independent observation and plots markers at those coordinates without joining them. `plt.plot()` assumes sequential ordering and draws line segments between consecutive points. A wrong answer (e.g., \"they do the same thing\") reveals misunderstanding of the semantic difference: scatter = relationship exploration, plot = sequence/trend display.",
+     "self_check": true
+    },
+    {
+     "q": "Given `x = [10, 20, 30, 40, 50]` and `y = [5, 15, 25, 35, 45]`, write the complete Python code to create a scatter plot with red triangular markers of size 100, labelled axes, and a title. Execute mentally and describe the expected pattern.",
+     "a": "```python\nimport matplotlib.pyplot as plt\nx = [10, 20, 30, 40, 50]\ny = [5, 15, 25, 35, 45]\nplt.scatter(x, y, color='red', marker='^', s=100)\nplt.xlabel('X Values')\nplt.ylabel('Y Values')\nplt.title('Positive Linear Relationship')\nplt.show()\n```\nExpected pattern: points form a straight line ascending from bottom-left to top-right, indicating perfect positive correlation (y = x - 5). Wrong code (missing import, wrong parameter names like `c` instead of `color`) reveals syntax gaps; wrong pattern description reveals inability to interpret coordinate geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scatter plots: Plot A shows points tightly clustered along a diagonal from bottom-left to top-right. Plot B shows points widely scattered with no discernible pattern. What does each reveal about the relationship between the variables, and how would you quantify the difference statistically?",
+     "a": "Plot A indicates strong positive linear correlation (as one variable increases, the other increases consistently). Plot B indicates no linear correlation (variables are independent or non-linearly related). Statistically, Plot A would have Pearson's r close to +1; Plot B would have r close to 0. A wrong answer (e.g., \"both show correlation\") reveals inability to distinguish correlation strength visually and connect visual patterns to statistical measures.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a scatter plot of `height_cm` vs `weight_kg` for 50 students but uses `plt.scatter(weight_kg, height_cm)` by mistake. The plot shows a positive trend. Evaluate: does the swapped axes change the correlation interpretation? Justify your answer.",
+     "a": "No, the correlation direction remains positive because the relationship is symmetric — if height increases with weight, weight also increases with height. However, the axes labels and interpretation context become incorrect: the x-axis now represents weight (independent variable convention violated) and y-axis height. A wrong answer (\"correlation becomes negative\" or \"no change at all\") reveals confusion between mathematical symmetry of correlation and conventional axis assignment (independent variable on x-axis).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where a scatter plot would be misleading if created without proper scaling or context. Provide the variable names, sample data characteristics, and explain the specific misinterpretation risk.",
+     "a": "Scenario: Plotting `advertising_spend_lakhs` (range 1-100) vs `sales_crores` (range 10-1000) for 20 companies. Without scaling, points compress horizontally, making the relationship appear weaker than it is. A third variable `company_size` (small/medium/large) could create clusters mistaken for outliers. Risk: concluding \"advertising has little impact\" when actually large companies dominate both spend and sales. Poor answer (generic \"scaling issues\") reveals lack of domain-specific critical thinking about visualisation pitfalls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_007",
+   "title": "c7_bio_ch02_007",
+   "questions": [
+    {
+     "q": "What is the primary substance absorbed by the large intestine from undigested food residue?",
+     "a": "The large intestine primarily absorbs water and essential mineral salts. A wrong answer—such as stating that proteins or carbohydrates are absorbed here—reveals a fundamental confusion with the small intestine, where nutrient digestion and absorption take place.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the large intestine shorter in length than the small intestine, yet referred to as \"large\"?",
+     "a": "The large intestine is called \"large\" because of its significantly wider diameter compared to the narrow, winding small intestine, even though its length (about 1.5 meters) is much shorter. A wrong answer suggests the student is confusing length with diameter or has not visualized the anatomical proportions of the alimentary canal.",
+     "self_check": true
+    },
+    {
+     "q": "If a person suffers from severe bacterial infection in the large intestine that prevents normal water absorption, what immediate physical symptom occurs, and why?",
+     "a": "Steps: 1. Identify that the large intestine's main job is water reabsorption. 2. Recognize that an infection disrupts this absorptive function. 3. Conclude that excess water remains in the waste residue. 4. Predict the symptom: watery stool or diarrhoea, leading to rapid dehydration. A wrong answer indicates the student does not link the physical structure's function to systemic health outcomes like water balance.",
+     "self_check": true
+    },
+    {
+     "q": "How does the structure of the inner lining of the large intestine support its function of absorbing water compared to the villi-rich lining of the small intestine?",
+     "a": "The large intestine lacks villi because it does not absorb digested food molecules (like amino acids or glucose); its inner lining is smoother with numerous goblet cells that secrete mucus to lubricate compacted faecal matter, while specialized cells absorb remaining water. A wrong answer shows the student assumes all parts of the gut perform identical absorptive tasks using the exact same structural adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that \"excretion\" and \"egestion\" mean the exact same thing because both involve removing waste from the human body. Evaluate this claim using biological reasoning.",
+     "a": "The claim is false. Egestion is the removal of undigested food waste (faeces) that was never truly inside the body's cells, passing out through the anus. Excretion is the removal of metabolic waste products (such as urea, carbon dioxide, and excess salts) produced by chemical reactions inside living cells. A wrong answer reveals a failure to distinguish between unabsorbed food residue passing through a tube and cellular waste filtered from the bloodstream.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using common household items to demonstrate the difference between the absorption function of the small intestine and the water-reclaiming function of the large intestine.",
+     "a": "A good response describes using a fine mesh strainer or cheesecloth: pouring a thick liquid mixture of flour and water simulates the small intestine passing fine dissolved nutrients through, while squeezing out the remaining damp pulp in a cloth simulates the large intestine extracting final moisture to leave a solid mass. A poor answer fails to differentiate the two stages of processing or uses incorrect analogies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

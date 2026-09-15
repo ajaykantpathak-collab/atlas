@@ -1,0 +1,544 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "India's Cultural Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees107.txt",
+ "concepts": [
+  {
+   "id": "c6ss.7.1",
+   "title": "Vedic Traditions and Their Influence",
+   "section": "The Vedic Tradition",
+   "definition": "The Vedic tradition is the body of hymns, rituals and philosophical ideas recorded in the four Vedas -- Rigveda, Samaveda, Yajurveda and Atharvaveda -- composed by ancient seers and transmitted orally across generations.",
+   "formula": "",
+   "key_idea": "The Vedas form the earliest layer of Indian thought and shaped later religion, society and philosophy through their emphasis on duty, sacrifice and the search for truth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the four Vedas and what does each contain?",
+    "How were the Vedic hymns preserved before they were written down?",
+    "Explain the influence of Vedic traditions on later Indian society.",
+    "What is the role of yajna (sacrifice) in Vedic thought?",
+    "Why is the Vedic tradition considered a root of Indian culture?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four Vedas and their content",
+     "explain": "The Rigveda holds hymns of praise, the Samaveda holds musical chants, the Yajurveda holds sacrificial formulas and the Atharvaveda holds spells and everyday wisdom."
+    },
+    {
+     "step": 2,
+     "action": "Explain oral preservation",
+     "explain": "The hymns were memorised word-for-word by trained priests and passed from teacher to student, keeping the text remarkably unchanged for centuries."
+    },
+    {
+     "step": 3,
+     "action": "Trace the influence on later culture",
+     "explain": "Vedic ideas of duty (dharma), sacrifice and the search for truth shaped later Hindu practice, social structure and the philosophical schools of ancient India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the four Vedas in order and state what each is mainly concerned with.",
+     "solution": "Rigveda (hymns of praise), Samaveda (musical chants), Yajurveda (sacrificial formulas) and Atharvaveda (spells and daily wisdom).",
+     "answer": "Rigveda, Samaveda, Yajurveda, Atharvaveda."
+    },
+    {
+     "question": "How did the Vedic people ensure their hymns survived accurately without writing?",
+     "solution": "Trained priests memorised the hymns and recited them in exact sequence, passing them orally from teacher to student so the wording stayed unchanged.",
+     "answer": "Through careful oral memorisation and teacher-to-student transmission."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the four Vedas and one feature of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the Vedic tradition called a root of Indian culture?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the Vedas were preserved before writing.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.2",
+   "title": "Jainism -- Origins, Teachings and Spread",
+   "section": "Jainism",
+   "definition": "Jainism is a religious tradition founded by Mahavira in the 6th century BCE that teaches non-violence (ahimsa), truth, non-possession and the path to liberation through self-discipline.",
+   "formula": "",
+   "key_idea": "Jainism emphasises strict non-violence and self-control as the means to free the soul from the cycle of rebirth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who founded Jainism and when?",
+    "What are the main teachings of Mahavira?",
+    "Explain the principle of ahimsa in Jainism.",
+    "How did Jainism spread across India?",
+    "What is the role of the five vows in Jain practice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founder and time",
+     "explain": "Mahavira, the 24th Tirthankara, systematised Jainism in the 6th century BCE in north India."
+    },
+    {
+     "step": 2,
+     "action": "State the core teachings",
+     "explain": "The five vows -- ahimsa (non-violence), satya (truth), asteya (not stealing), brahmacharya (chastity) and aparigraha (non-possession) -- guide a Jain's conduct."
+    },
+    {
+     "step": 3,
+     "action": "Trace the spread of Jainism",
+     "explain": "Through royal support and monks travelling across India, Jainism spread to regions like Karnataka, Gujarat and Rajasthan, where it still has a strong presence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the five main vows a Jain follower is expected to keep?",
+     "solution": "Ahimsa (non-violence), satya (truth), asteya (not stealing), brahmacharya (chastity) and aparigraha (non-possession).",
+     "answer": "Ahimsa, satya, asteya, brahmacharya, aparigraha."
+    },
+    {
+     "question": "Why is ahimsa so important in Jainism?",
+     "solution": "Jainism teaches that every living being has a soul; causing harm binds the soul with karma and delays liberation, so non-violence is the highest duty.",
+     "answer": "Ahimsa prevents harm to all living beings and aids the soul's path to liberation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Who was Mahavira and what was his contribution to Jainism?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the five vows of Jainism.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how Jainism spread to different parts of India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.3",
+   "title": "Buddhism -- Origins, Teachings and Spread",
+   "section": "Buddhism",
+   "definition": "Buddhism is a tradition founded by Gautama Buddha in the 6th century BCE that teaches the Four Noble Truths and the Eightfold Path as the way to overcome suffering.",
+   "formula": "",
+   "key_idea": "Buddha taught that suffering arises from desire and can be ended by following the Middle Way of the Eightfold Path.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who was Gautama Buddha and what did he teach?",
+    "Explain the Four Noble Truths of Buddhism.",
+    "What is the Eightfold Path and why is it called the Middle Way?",
+    "How did Buddhism spread within and beyond India?",
+    "Why did Buddhism appeal to many people in ancient India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founder and setting",
+     "explain": "Gautama Buddha, a prince who renounced his life, attained enlightenment under the bodhi tree at Bodh Gaya in the 6th century BCE."
+    },
+    {
+     "step": 2,
+     "action": "State the core teachings",
+     "explain": "The Four Noble Truths identify suffering, its cause (desire), its end (nirvana) and the path (the Eightfold Path) leading to that end."
+    },
+    {
+     "step": 3,
+     "action": "Trace the spread of Buddhism",
+     "explain": "Through Buddha's disciples and later the support of Emperor Ashoka, Buddhism spread across India and to Sri Lanka, Central Asia and East Asia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "State the Four Noble Truths in brief.",
+     "solution": "1) Life has suffering; 2) suffering is caused by desire; 3) suffering can end by ending desire (nirvana); 4) the Eightfold Path leads to that end.",
+     "answer": "Suffering exists, desire causes it, it can end, the Eightfold Path ends it."
+    },
+    {
+     "question": "Why is the Eightfold Path called the Middle Way?",
+     "solution": "It avoids both extreme luxury and severe self-denial, offering a balanced path of right understanding, action and concentration.",
+     "answer": "It avoids extremes of indulgence and self-torture."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Who founded Buddhism and where did he attain enlightenment?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the Four Noble Truths.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did Emperor Ashoka help spread Buddhism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.5",
+   "title": "Indian Philosophy and Its Schools",
+   "section": "Indian Philosophy",
+   "definition": "Indian philosophy is a group of schools of thought -- six orthodox (astika) and several heterodox -- that explore questions of reality, knowledge, self and liberation.",
+   "formula": "",
+   "key_idea": "Indian philosophical schools use reasoning and debate to understand the nature of reality and the path to liberation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by Indian philosophy?",
+    "Name the six orthodox schools of Indian philosophy.",
+    "How does Indian philosophy differ from mere religious belief?",
+    "What is the goal of most Indian philosophical schools?",
+    "Explain the contribution of any one school of Indian philosophy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Indian philosophy",
+     "explain": "It is the systematic study of reality, knowledge and the self through reasoning, debate and meditation, not just belief."
+    },
+    {
+     "step": 2,
+     "action": "List the six orthodox schools",
+     "explain": "The six orthodox (astika) schools are Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa and Vedanta, each with its own texts and methods."
+    },
+    {
+     "step": 3,
+     "action": "State the common goal",
+     "explain": "Most schools seek liberation (moksha) from suffering and rebirth through right knowledge, action or meditation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the six orthodox schools of Indian philosophy.",
+     "solution": "Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa and Vedanta.",
+     "answer": "Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta."
+    },
+    {
+     "question": "What common goal do most Indian philosophical schools share?",
+     "solution": "They seek liberation (moksha) from the cycle of suffering and rebirth through knowledge, action or meditation.",
+     "answer": "Liberation (moksha) from suffering and rebirth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is Indian philosophy concerned with?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any four of the six orthodox schools.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how Indian philosophy uses reasoning alongside belief.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.6",
+   "title": "Cultural Traditions in Art and Architecture",
+   "section": "Art and Architecture",
+   "definition": "Ancient Indian art and architecture include stupas, temples, rock-cut caves and sculptures that reflect religious ideas and skilled craftsmanship.",
+   "formula": "",
+   "key_idea": "Indian architecture blended religious purpose with fine art, producing monuments like stupas, temples and rock-cut caves across the subcontinent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a stupa and what does it contain?",
+    "Describe the main features of an early Indian temple.",
+    "What are rock-cut caves and name two examples.",
+    "How did religion influence Indian architecture?",
+    "What do the sculptures at Sanchi tell us about ancient India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the monument type",
+     "explain": "Stupas hold relics, temples house images of deities and rock-cut caves like Ajanta and Ellora serve as monasteries and shrines."
+    },
+    {
+     "step": 2,
+     "action": "Relate form to religious purpose",
+     "explain": "The shape of a stupa represents the cosmos, the temple represents a sacred mountain and caves provide quiet spaces for meditation."
+    },
+    {
+     "step": 3,
+     "action": "Connect art to craftsmanship and ideas",
+     "explain": "Carvings, gateways (toranas) and pillars display stories and symbols, showing both religious belief and the high skill of Indian artisans."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Great Stupa at Sanchi and what is it used for?",
+     "solution": "It is a hemispherical Buddhist monument built over sacred relics, with carved gateways showing scenes from Buddha's life; it is a place of worship and circumambulation.",
+     "answer": "A relic shrine at Sanchi used for Buddhist worship."
+    },
+    {
+     "question": "Name two rock-cut cave sites in India and what they are known for.",
+     "solution": "Ajanta is known for its paintings and sculptures of Buddha; Ellora has Hindu, Buddhist and Jain temples carved from rock.",
+     "answer": "Ajanta (paintings) and Ellora (rock-cut temples)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a stupa and what does it contain?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did religion shape early Indian temple design?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two rock-cut cave sites and one feature of each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.7",
+   "title": "Literature and Languages of Ancient India",
+   "section": "Literature and Languages",
+   "definition": "Ancient India produced a rich literature in Sanskrit, Prakrit and Tamil, ranging from the Vedas and epics to grammar, poetry and treatises on many subjects.",
+   "formula": "",
+   "key_idea": "Sanskrit served as a learned language while Prakrit and Tamil nourished regional literature, together forming a vast literary heritage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main languages of ancient Indian literature?",
+    "Name two great epics of ancient India.",
+    "What is the contribution of Panini to Sanskrit?",
+    "Why is Tamil literature important in ancient India?",
+    "What subjects did ancient Indian texts cover besides religion?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the main languages",
+     "explain": "Sanskrit was the language of learning, Prakrit was used by Jain and Buddhist texts, and Tamil had its own rich Sangam literature in the south."
+    },
+    {
+     "step": 2,
+     "action": "Identify major works",
+     "explain": "The Ramayana and Mahabharata are the two great epics; Panini wrote the Ashtadhyayi, a foundational grammar of Sanskrit."
+    },
+    {
+     "step": 3,
+     "action": "State the range of subjects",
+     "explain": "Besides religion, ancient texts covered grammar, mathematics, medicine, astronomy, politics and poetry, showing a broad intellectual culture."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the two great epics of ancient India and one idea each teaches.",
+     "solution": "The Ramayana teaches duty and devotion through Rama's life; the Mahabharata explores dharma and human conflict through the Kurukshetra war.",
+     "answer": "Ramayana (duty/devotion) and Mahabharata (dharma)."
+    },
+    {
+     "question": "What did Panini contribute to the Sanskrit language?",
+     "solution": "Panini composed the Ashtadhyayi, a systematic grammar that codified Sanskrit rules so precisely that it shaped the language for centuries.",
+     "answer": "The Ashtadhyayi, a systematic Sanskrit grammar."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What were the main languages used in ancient Indian literature?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the two great epics of ancient India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the Sangam Tamil literature important?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.8",
+   "title": "Science and Mathematics in Ancient India",
+   "section": "Science and Mathematics",
+   "definition": "Ancient Indian scholars made advances in mathematics, astronomy, medicine and metallurgy, including the decimal place-value system and the concept of zero.",
+   "formula": "",
+   "key_idea": "Indian mathematicians and scientists developed the decimal system, zero, Ayurveda and precise astronomy, influencing world knowledge.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Indian contribution to the number system?",
+    "Who was Aryabhata and what did he achieve?",
+    "What is Ayurveda and how did it develop?",
+    "How did ancient Indian astronomy help society?",
+    "Name two scientific fields in which ancient India excelled."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mathematical contribution",
+     "explain": "Indian mathematicians developed the decimal place-value system and the symbol for zero, which made large calculations simple."
+    },
+    {
+     "step": 2,
+     "action": "Identify key scholars and fields",
+     "explain": "Aryabhata worked on astronomy and mathematics; Sushruta and Charaka developed surgical and medical knowledge in Ayurveda."
+    },
+    {
+     "step": 3,
+     "action": "Explain the wider impact",
+     "explain": "These ideas spread to other regions and formed the basis of modern arithmetic, astronomy and medicine, showing India's influence on world science."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What two mathematical ideas did ancient India give to the world?",
+     "solution": "The decimal place-value system and the concept and symbol for zero, which together made written calculation far easier.",
+     "answer": "The decimal place-value system and zero."
+    },
+    {
+     "question": "Who was Aryabhata and name one of his contributions.",
+     "solution": "Aryabhata was a 5th-century mathematician-astronomer who stated that the Earth rotates on its axis and calculated the value of pi.",
+     "answer": "Aryabhata -- stated Earth's rotation and worked on pi."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the significance of zero in the Indian number system?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name one ancient Indian scientist and one contribution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is Ayurveda and who were its early exponents?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.7.9",
+   "title": "Influence of Indian Culture on the World",
+   "section": "India and the World",
+   "definition": "Indian culture spread through trade, travel and religion to Central, Southeast and East Asia, carrying ideas of art, language, science and spirituality.",
+   "formula": "",
+   "key_idea": "Through trade routes and monks, India shared its art, scripts, mathematics and religions, deeply shaping neighbouring cultures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Indian culture spread to Southeast Asia?",
+    "What aspects of Indian culture influenced other countries?",
+    "Name two regions where Indian art and religion had an impact.",
+    "What role did trade play in spreading Indian culture?",
+    "How did Buddhism carry Indian ideas abroad?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the channels of spread",
+     "explain": "Merchants on trade routes and Buddhist monks travelling abroad carried Indian goods, scripts, art and religious ideas."
+    },
+    {
+     "step": 2,
+     "action": "Identify the regions influenced",
+     "explain": "Indian culture strongly influenced Central Asia, Southeast Asia (such as Cambodia and Indonesia) and East Asia (China, Japan, Korea)."
+    },
+    {
+     "step": 3,
+     "action": "State the elements shared",
+     "explain": "Regions adopted Indian scripts, temple styles, the decimal system, Sanskrit terms and Buddhist or Hindu practices, showing a broad cultural influence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two Southeast Asian countries where Indian culture had a strong influence.",
+     "solution": "Cambodia, whose Angkor Wat temple reflects Indian design, and Indonesia, where Indian epics shaped art and performance.",
+     "answer": "Cambodia and Indonesia."
+    },
+    {
+     "question": "How did trade help spread Indian culture abroad?",
+     "solution": "Indian merchants traded spices, textiles and gems, and along with goods they carried scripts, stories and religious ideas that local people adopted.",
+     "answer": "Trade carried goods and, with them, Indian scripts, stories and religion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did Indian culture reach Southeast Asia?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two elements of Indian culture adopted by other regions.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of Buddhist monks in spreading Indian ideas.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.7.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain vedic traditions and their influence with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the four Vedas and their content",
+     "explain": "The Rigveda holds hymns of praise, the Samaveda holds musical chants, the Yajurveda holds sacrificial formulas and the Atharvaveda holds spells and everyday wisdom."
+    },
+    {
+     "step": 2,
+     "action": "Explain oral preservation",
+     "explain": "The hymns were memorised word-for-word by trained priests and passed from teacher to student, keeping the text remarkably unchanged for centuries."
+    },
+    {
+     "step": 3,
+     "action": "Trace the influence on later culture",
+     "explain": "Vedic ideas of duty (dharma), sacrifice and the search for truth shaped later Hindu practice, social structure and the philosophical schools of ancient India."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.7.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain jainism -- origins, teachings and spread with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the founder and time",
+     "explain": "Mahavira, the 24th Tirthankara, systematised Jainism in the 6th century BCE in north India."
+    },
+    {
+     "step": 2,
+     "action": "State the core teachings",
+     "explain": "The five vows -- ahimsa (non-violence), satya (truth), asteya (not stealing), brahmacharya (chastity) and aparigraha (non-possession) -- guide a Jain's conduct."
+    },
+    {
+     "step": 3,
+     "action": "Trace the spread of Jainism",
+     "explain": "Through royal support and monks travelling across India, Jainism spread to regions like Karnataka, Gujarat and Rajasthan, where it still has a strong presence."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

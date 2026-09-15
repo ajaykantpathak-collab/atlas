@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip104",
+ "concepts": [
+  {
+   "id": "keip104.1",
+   "title": "List Indexing Positive and Negative",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'List Indexing Positive and Negative' refers to.",
+     "a": "Every element of a list sits at a numbered position called an index, counted from 0 at the front. Python also counts backwards: index -1 reaches the last element, -2 the one before it, and so on, so the same element has a positive and a negative address differing by the list length.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'List Indexing Positive and Negative'.",
+     "a": "The last element lives at count minus one going forward, and at minus one going backward; an index past either end raises IndexError.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'List Indexing Positive and Negative', in plain ASCII form.",
+     "a": "neg_index = last_index - element_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.2",
+   "title": "List Slicing With a Step Value",
+   "questions": [
+    {
+     "q": "Using the method 'List Slicing With a Step Value', work with: start_index = 10, step_value = 20000, stop_index = 3. Carry the chain through step by step and give the final value of slice_count.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'List Slicing With a Step Value' and work with: start_index = 6, step_value = 8000, stop_index = 400. Carry the chain through step by step and give the final value of slice_count.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'List Slicing With a Step Value' refers to.",
+     "a": "Slicing copies a stretch of a list as list1[start:stop:step], where the stop position is excluded. A missing start means the beginning, a missing stop means the end, and a step greater than one skips elements; a negative step even walks the list backwards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'List Slicing With a Step Value'.",
+     "a": "Count the picked elements by rounding the span upward against the step; stop is never included.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'List Slicing With a Step Value', in plain ASCII form.",
+     "a": "slice_count = (span + step_value - 1) // step_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.3",
+   "title": "Concatenation and Repetition Operators",
+   "questions": [
+    {
+     "q": "How many elements does (list1 + list2) contain if list1 has 5 and list2 has 5 elements? Use the method 'Concatenation and Repetition Operators'. Work with: first_len = 60, repeat_count = 18, second_len = 12. Carry the chain through step by step and give the final value of repeated_len.",
+     "a": "1296 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the length of (list1 + list2) * 2 for two 5-element lists. Use the method 'Concatenation and Repetition Operators'. Work with: first_len = 120, repeat_count = 80, second_len = 30. Carry the chain through step by step and give the final value of repeated_len.",
+     "a": "12000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Concatenation and Repetition Operators' refers to.",
+     "a": "The + operator glues two lists end to end into a fresh list without touching the originals, and it refuses to mix a list with a non-list operand (TypeError). The * operator repeats a whole list a whole number of times, so a joined list repeated three times grows to triple its length.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concatenation and Repetition Operators'.",
+     "a": "Joining adds the two lengths; repetition multiplies the length by the repeat factor; originals stay unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Concatenation and Repetition Operators', in plain ASCII form.",
+     "a": "repeated_len = joined_len * repeat_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.4",
+   "title": "Built-in Functions on Lists: sum, min, max",
+   "questions": [
+    {
+     "q": "Using the method 'Built-in Functions on Lists: sum, min, max', work with: mark_five = 5, mark_four = 240, mark_one = 30, mark_three = 30, mark_two = 240, student_count = 75. Carry the chain through step by step and give the final value of class_average.",
+     "a": "7.2667 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Built-in Functions on Lists: sum, min, max' and work with: mark_five = 6, mark_four = 24, mark_one = 45, mark_three = 15, mark_two = 10, student_count = 50. Carry the chain through step by step and give the final value of class_average.",
+     "a": "2 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Built-in Functions on Lists: sum, min, max' refers to.",
+     "a": "Python ships ready-made helpers for numeric lists: sum() totals the elements, min() and max() report the smallest and largest, and dividing the total by the element count gives the mean. These functions read the list but never alter it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Built-in Functions on Lists: sum, min, max'.",
+     "a": "Total the marks, then divide by how many students there are; the smallest and largest come straight from min and max.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Built-in Functions on Lists: sum, min, max', in plain ASCII form.",
+     "a": "class_average = marks_total / student_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.5",
+   "title": "List Methods: append, extend, insert",
+   "questions": [
+    {
+     "q": "Using the method 'List Methods: append, extend, insert', work with: base_count = 400, incoming_count = 240. Carry the chain through step by step and give the final value of extended_len.",
+     "a": "640 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'List Methods: append, extend, insert' and work with: base_count = 18, incoming_count = 100. Carry the chain through step by step and give the final value of extended_len.",
+     "a": "118 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'List Methods: append, extend, insert' refers to.",
+     "a": "Growing methods differ in what counts as one addition: append() puts a single item at the end, even if that item is itself a whole list nested as one element; extend() unpacks its argument and appends each element separately; insert(pos, item) slots an item at a chosen position and pushes the rest sideways.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'List Methods: append, extend, insert'.",
+     "a": "append grows the list by exactly one no matter what it adds, extend grows it by the argument's length.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'List Methods: append, extend, insert', in plain ASCII form.",
+     "a": "extended_len = base_count + incoming_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.6",
+   "title": "Traversing a List with a Loop",
+   "questions": [
+    {
+     "q": "Using the method 'Traversing a List with a Loop', work with: range_len_mapping = 8. Carry the chain through step by step and give the final value of visited_elements.",
+     "a": "8 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Traversing a List with a Loop' and work with: range_len_mapping = 30. Carry the chain through step by step and give the final value of visited_elements.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Traversing a List with a Loop' refers to.",
+     "a": "Walking through a list one element at a time is called traversal. A for loop can visit the elements directly, or pair range() with len() to visit them by position; a while loop does the same with a manual counter that must be advanced each round.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Traversing a List with a Loop'.",
+     "a": "for item in list1 gives values, while range(len(list1)) gives positions you can also overwrite.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Traversing a List with a Loop', in plain ASCII form.",
+     "a": "visited_elements = range_len_mapping",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.7",
+   "title": "Dictionary Keys, Values and Membership",
+   "questions": [
+    {
+     "q": "Using the method 'Dictionary Keys, Values and Membership', work with: value_for_that_key = 20000. Carry the chain through step by step and give the final value of key_lookup_result.",
+     "a": "20000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dictionary Keys, Values and Membership' and work with: value_for_that_key = 50000. Carry the chain through step by step and give the final value of key_lookup_result.",
+     "a": "50000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dictionary Keys, Values and Membership' refers to.",
+     "a": "A dictionary stores items as key-value pairs inside curly braces, each key joined to its value by a colon. Keys must be unique and immutable and work like labels; a missing key raises KeyError, while the in operator checks whether a key exists without fetching anything.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dictionary Keys, Values and Membership'.",
+     "a": "Keys are looked up, not positions: the same key always maps to the same value wherever the item sits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dictionary Keys, Values and Membership', in plain ASCII form.",
+     "a": "key_lookup_result = value_for_that_key",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip104.8",
+   "title": "Dictionary Methods: len, update, del",
+   "questions": [
+    {
+     "q": "Using the method 'Dictionary Methods: len, update, del', work with: base_pairs = 120, new_pairs = 360, removed_pairs = 4. Carry the chain through step by step and give the final value of after_delete.",
+     "a": "476 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dictionary Methods: len, update, del' and work with: base_pairs = 500, new_pairs = 40, removed_pairs = 12. Carry the chain through step by step and give the final value of after_delete.",
+     "a": "528 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dictionary Methods: len, update, del' refers to.",
+     "a": "Dictionary upkeep uses len() to count pairs, update() to merge another dictionary's pairs in, get() to fetch a value or None for a missing key, and del to remove one pair by key or the whole dictionary from memory. Merging first and deleting later leaves a size that can be tracked arithmetically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dictionary Methods: len, update, del'.",
+     "a": "Each merged pair raises the pair count by one; each deleted key lowers it by one; len() always reports the current total.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dictionary Methods: len, update, del', in plain ASCII form.",
+     "a": "after_delete = after_update - removed_pairs",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

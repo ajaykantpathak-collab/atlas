@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_003",
+   "title": "c11_phy_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the number of significant figures in each of the following measurements: (a) 0.00450 kg, (b) 6.02 × 10²³ mol⁻¹, (c) 1500 m, (d) 1.500 × 10³ m.",
+     "a": "(a) 3 significant figures (the zeros before 45 are not significant; the trailing zero after 5 is significant because there is a decimal point). (b) 3 significant figures (all digits in the coefficient of scientific notation are significant). (c) Ambiguous: could be 2, 3, or 4 significant figures depending on whether the trailing zeros are placeholders or measured. (d) 4 significant figures (scientific notation removes ambiguity; all digits in 1.500 are significant). A wrong answer reveals the student does not distinguish between leading zeros (never significant), trailing zeros without a decimal (ambiguous), and trailing zeros with a decimal or in scientific notation (always significant).",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the diameter of a wire using a screw gauge and records it as 0.00250 cm. Another student says this has 5 significant figures because there are five digits. Explain why the second student is incorrect and state the correct number of significant figures.",
+     "a": "The second student incorrectly counts the leading zeros (0.00) as significant. Leading zeros after the decimal point only locate the decimal place and are never significant. The significant figures are 2, 5, and the trailing zero (because the number has a decimal point), giving 3 significant figures. A wrong answer indicates the student confuses \"number of digits\" with \"significant figures\" and has not internalized the rule that zeros to the left of the first non-zero digit in a number less than 1 are not significant.",
+     "self_check": true
+    },
+    {
+     "q": "The mass of a chemical sample is measured as 12.450 g on a digital balance. Express this measurement in scientific notation to clearly show its significant figures. Then, convert it to kilograms and write the result in scientific notation with the same number of significant figures.",
+     "a": "12.450 g has 5 significant figures (trailing zero after decimal is significant). In scientific notation: 1.2450 × 10¹ g. Converting to kg: 12.450 g = 0.012450 kg = 1.2450 × 10⁻² kg. The coefficient 1.2450 retains 5 significant figures. A wrong answer (e.g., 1.245 × 10⁻² kg or 0.01245 kg) shows the student does not preserve the trailing zero's significance during unit conversion or does not understand that scientific notation's coefficient must keep all significant digits.",
+     "self_check": true
+    },
+    {
+     "q": "Two students measure the length of a rod. Student A uses a metre scale (least count 0.1 cm) and records 12.3 cm. Student B uses a vernier caliper (least count 0.01 cm) and records 12.30 cm. Compare the precision implied by these two measurements and explain why the number of significant figures differs even though the numerical value is similar.",
+     "a": "Student A's measurement (12.3 cm) has 3 significant figures, implying uncertainty in the tenths place (±0.1 cm). Student B's measurement (12.30 cm) has 4 significant figures, implying uncertainty in the hundredths place (±0.01 cm). The extra significant figure in Student B's reading comes from the vernier caliper's finer least count, allowing an extra estimated digit. A wrong answer suggests the student thinks significant figures are only about the numerical value and not about the instrument's precision, or that trailing zeros after a decimal are optional.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"The speed of light in vacuum is 3.00 × 10⁸ m/s.\" A student argues that writing it as 300,000,000 m/s is equivalent and has the same number of significant figures. Evaluate this claim.",
+     "a": "The claim is false. 3.00 × 10⁸ m/s has 3 significant figures (the two trailing zeros in the coefficient are significant). Writing it as 300,000,000 m/s makes the trailing zeros ambiguous; without a decimal point, they are typically considered not significant, implying only 1 significant figure (3). Scientific notation is necessary to preserve the precision. A wrong answer reveals the student does not understand the ambiguity of trailing zeros in numbers without a decimal point and the purpose of scientific notation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale and a vernier caliper to demonstrate that the number of significant figures in a measurement depends on the measuring instrument's least count. Describe the steps and the expected recordings.",
+     "a": "Steps: (1) Measure the diameter of a cylindrical object (e.g., a pencil) with a metre scale (least count 0.1 cm). Record the reading (e.g., 0.7 cm). (2) Measure the same diameter with a vernier caliper (least count 0.01 cm). Record the reading (e.g., 0.72 cm). (3) Note that the metre scale gives 1 significant figure (0.7 cm has 1 SF because leading zero is not significant) while the vernier caliper gives 2 significant figures (0.72 cm has 2 SF). The experiment shows that a finer least count allows more certain digits and an extra estimated digit, increasing significant figures. A poor answer would not link the least count to the number of reliable digits or would confuse the role of leading zeros.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

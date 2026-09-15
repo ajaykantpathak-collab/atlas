@@ -1,0 +1,748 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 205,
+ "chapter_title": "Three Dimensional Geometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh205.txt",
+ "concepts": [
+  {
+   "id": "lemh.11.1",
+   "title": "Direction Cosines of a Line",
+   "section": "11.2",
+   "definition": "The cosines of the angles that a directed line makes with the positive x, y, and z axes are its direction cosines.",
+   "formula": "l^2 + m^2 + n^2 = 1",
+   "key_idea": "A unique set of three values representing the orientation of a line in 3D space.",
+   "textbook_ref": "lemh205.txt lines 40-60",
+   "question_patterns": [
+    "find the direction cosines if angles are given",
+    "calculate the direction cosines for a line making angles ... with axes",
+    "what are the direction cosines of the x-axis",
+    "verify if the given values are direction cosines",
+    "Explain the method of Direction Cosines of a Line."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify angles",
+     "explain": "Identify the angles alpha, beta, and gamma made with the x, y, and z axes."
+    },
+    {
+     "step": 2,
+     "action": "Compute cosines",
+     "explain": "Calculate l = cos(alpha), m = cos(beta), and n = cos(gamma)."
+    },
+    {
+     "step": 3,
+     "action": "Verify normalization",
+     "explain": "Confirm that l^2 + m^2 + n^2 = 1 to ensure the cosines form a valid direction cosine set."
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.2",
+   "title": "Direction Cosines from Direction Ratios",
+   "section": "11.2",
+   "definition": "Direction ratios are any three numbers proportional to the direction cosines; they can be converted to cosines by normalizing with the magnitude.",
+   "formula": "l = a / sqrt(a^2 + b^2 + c^2)",
+   "key_idea": "Normalization of direction ratios yields the direction cosines.",
+   "textbook_ref": "lemh205.txt lines 70-85",
+   "question_patterns": [
+    "find direction cosines from direction ratios",
+    "given direction ratios a, b, c find l, m, n",
+    "convert direction numbers to direction cosines",
+    "Explain the method of Direction Cosines from Direction Ratios.",
+    "Describe the approach of Direction Cosines from Direction Ratios."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate sum of squares",
+     "explain": "Square each direction ratio and sum them up.",
+     "compute": "sq_sum = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitude",
+     "explain": "Find the square root of the sum of squares.",
+     "compute": "magnitude = sqrt(sq_sum)"
+    },
+    {
+     "step": 3,
+     "action": "Divide ratios by magnitude",
+     "explain": "The direction cosine l is the ratio a divided by the magnitude.",
+     "compute": "l = a / magnitude"
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.3",
+   "title": "Direction Cosines of Line Joining Two Points",
+   "section": "11.2.1",
+   "definition": "The direction cosines of a line segment connecting two points are found by dividing the coordinate differences by the distance between the points.",
+   "formula": "l = (x2 - x1) / PQ",
+   "key_idea": "Vector subtraction followed by normalization.",
+   "textbook_ref": "lemh205.txt lines 95-110",
+   "question_patterns": [
+    "find direction cosines of the line passing through points P and Q",
+    "calculate DCs for a line segment joining two coordinates",
+    "what are the direction ratios of the line through (x1,y1,z1) and (x2,y2,z2)",
+    "Explain the method of Direction Cosines of Line Joining Two Points.",
+    "Describe the approach of Direction Cosines of Line Joining Two Points."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate coordinate differences",
+     "explain": "Subtract the coordinates of the first point from the second.",
+     "compute": "diff_x = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate distance",
+     "explain": "Find the Euclidean distance between the two points.",
+     "compute": "dist = sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate l",
+     "explain": "Divide the x-difference by the distance.",
+     "compute": "l = diff_x / dist"
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.4",
+   "title": "Cartesian Equation of a Line",
+   "section": "11.3.1",
+   "definition": "A line in 3D space can be expressed as a set of ratios involving a fixed point and its direction ratios.",
+   "formula": "(x - x1)/a = (y - y1)/b = (z - z1)/c",
+   "key_idea": "Every point on the line satisfies the proportionality of its relative coordinates to the direction ratios.",
+   "textbook_ref": "lemh205.txt lines 170-185",
+   "question_patterns": [
+    "find the cartesian equation of the line passing through point ... and parallel to vector ...",
+    "write the equation of a line with direction ratios a, b, c",
+    "convert vector equation to cartesian form",
+    "Explain the method of Cartesian Equation of a Line.",
+    "Describe the approach of Cartesian Equation of a Line."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify point",
+     "explain": "Identify the fixed point (x1, y1, z1) the line passes through."
+    },
+    {
+     "step": 2,
+     "action": "Write proportional ratios",
+     "explain": "Set up the proportion (x - x1)/a = (y - y1)/b = (z - z1)/c using the point and direction ratios."
+    },
+    {
+     "step": 3,
+     "action": "Identify direction ratios",
+     "explain": "Identify the direction ratios a, b, c from the parallel vector or given data."
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.5",
+   "title": "Angle Between Two Lines",
+   "section": "11.4",
+   "definition": "The angle between two lines is the angle between their respective direction vectors, calculated using the dot product formula.",
+   "formula": "cos(theta) = |a1*a2 + b1*b2 + c1*c2| / (sqrt(a1^2+b1^2+c1^2) * sqrt(a2^2+b2^2+c2^2))",
+   "key_idea": "The cosine of the angle is the absolute dot product of normalized direction vectors.",
+   "textbook_ref": "lemh205.txt lines 210-230",
+   "question_patterns": [
+    "find the angle between the pair of lines",
+    "calculate the acute angle between lines with direction ratios ...",
+    "what is the angle between lines given in cartesian form",
+    "Explain the method of Angle Between Two Lines.",
+    "Describe the approach of Angle Between Two Lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate dot product",
+     "explain": "Multiply corresponding direction ratios and sum them.",
+     "compute": "dot_val = a1*a2 + b1*b2 + c1*c2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitudes",
+     "explain": "Find the magnitude of each direction vector.",
+     "compute": "mag_prod = sqrt(a1**2 + b1**2 + c1**2) * sqrt(a2**2 + b2**2 + c2**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate cosine",
+     "explain": "Divide the absolute dot product by the product of magnitudes.",
+     "compute": "cos_theta = abs(dot_val) / mag_prod"
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.6",
+   "title": "Condition for Perpendicular Lines",
+   "section": "11.4",
+   "definition": "Two lines are perpendicular if the sum of the products of their corresponding direction ratios is zero.",
+   "formula": "a1*a2 + b1*b2 + c1*c2 = 0",
+   "key_idea": "Orthogonality in 3D is equivalent to a zero dot product of direction vectors.",
+   "textbook_ref": "lemh205.txt lines 235-240",
+   "question_patterns": [
+    "show that the lines are perpendicular",
+    "find p such that the lines are at right angles",
+    "verify if two lines intersect at 90 degrees",
+    "Explain the method of Condition for Perpendicular Lines.",
+    "Describe the approach of Condition for Perpendicular Lines."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Extract direction ratios",
+     "explain": "Get (a1, b1, c1) and (a2, b2, c2) from the line equations."
+    },
+    {
+     "step": 2,
+     "action": "Check dot product",
+     "explain": "Verify if a1*a2 + b1*b2 + c1*c2 equals zero."
+    },
+    {
+     "step": 3,
+     "action": "Conclude perpendicularity",
+     "explain": "If the dot product is zero, the lines are perpendicular; otherwise, they are not at right angles."
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.7",
+   "title": "Shortest Distance Between Skew Lines",
+   "section": "11.5.1",
+   "definition": "The shortest distance between two non-parallel, non-intersecting lines is the length of the common perpendicular segment.",
+   "formula": "d = |(b1 x b2) . (a2 - a1)| / |b1 x b2|",
+   "key_idea": "Projection of the vector joining two points on the lines onto the common perpendicular vector.",
+   "textbook_ref": "lemh205.txt lines 280-300",
+   "question_patterns": [
+    "find the shortest distance between skew lines",
+    "calculate distance between lines r = a1 + lb1 and r = a2 + mb2",
+    "what is the shortest distance between the given lines",
+    "Explain the method of Shortest Distance Between Skew Lines.",
+    "Describe the approach of Shortest Distance Between Skew Lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cross product components",
+     "explain": "Calculate the components of the cross product of direction vectors b1 and b2.",
+     "compute": "cx = b1y*b2z - b1z*b2y"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Find the magnitude of the cross product vector.",
+     "compute": "c_mag = sqrt((b1y*b2z - b1z*b2y)**2 + (b1z*b2x - b1x*b2z)**2 + (b1x*b2y - b1y*b2x)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Dot product with point difference",
+     "explain": "Calculate the dot product of the cross product and the difference of position vectors.",
+     "compute": "dot_diff = (b1y*b2z - b1z*b2y)*(x2-x1) + (b1z*b2x - b1x*b2z)*(y2-y1) + (b1x*b2y - b1y*b2x)*(z2-z1)"
+    },
+    {
+     "step": 4,
+     "action": "Final distance",
+     "explain": "Divide the absolute dot product by the cross product magnitude.",
+     "compute": "dist = abs(dot_diff) / c_mag"
+    }
+   ]
+  },
+  {
+   "id": "lemh.11.8",
+   "title": "Distance Between Parallel Lines",
+   "section": "11.5.2",
+   "definition": "The distance between two parallel lines is the perpendicular distance from any point on one line to the other line.",
+   "formula": "d = |b x (a2 - a1)| / |b|",
+   "key_idea": "Magnitude of the cross product of the direction vector and the point-difference vector, normalized by the direction vector's length.",
+   "textbook_ref": "lemh205.txt lines 315-330",
+   "question_patterns": [
+    "find the distance between parallel lines",
+    "calculate the distance between r = a1 + lb and r = a2 + mb",
+    "how far apart are the parallel lines",
+    "Explain the method of Distance Between Parallel Lines.",
+    "Describe the approach of Distance Between Parallel Lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Point difference",
+     "explain": "Subtract coordinates of point on line 1 from point on line 2.",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Calculate magnitude of cross product of b and (a2-a1).",
+     "compute": "num = sqrt((by*(z2-z1) - bz*(y2-y1))**2 + (bz*(x2-x1) - bx*(z2-z1))**2 + (bx*(y2-y1) - by*(x2-x1))**2)"
+    },
+    {
+     "step": 3,
+     "action": "Direction magnitude",
+     "explain": "Calculate magnitude of the common direction vector b.",
+     "compute": "den = sqrt(bx**2 + by**2 + bz**2)"
+    },
+    {
+     "step": 4,
+     "action": "Distance",
+     "explain": "Divide numerator by denominator.",
+     "compute": "dist = num / den"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2",
+   "source_ref": "lemh205.txt line 125",
+   "concept": "lemh.11.2",
+   "question_type": "compute",
+   "question_pattern": "If a line has direction ratios {a}, {b}, {c}, determine its direction cosines.",
+   "extracted_variables": {
+    "a": "first direction ratio",
+    "b": "second direction ratio",
+    "c": "third direction ratio"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate sum of squares",
+     "explain": "Square each direction ratio and sum them up.",
+     "compute": "sq_sum = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitude",
+     "explain": "Find the square root of the sum of squares.",
+     "compute": "magnitude = sqrt(sq_sum)"
+    },
+    {
+     "step": 3,
+     "action": "Divide ratios by magnitude",
+     "explain": "The direction cosine l is the ratio a divided by the magnitude.",
+     "compute": "l = a / magnitude"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lemh205.txt line 250",
+   "concept": "lemh.11.5",
+   "question_type": "compute",
+   "question_pattern": "Find the angle between the pair of lines with direction ratios ({a1}, {b1}, {c1}) and ({a2}, {b2}, {c2}).",
+   "extracted_variables": {
+    "a1": "DR x of line 1",
+    "b1": "DR y of line 1",
+    "c1": "DR z of line 1",
+    "a2": "DR x of line 2",
+    "b2": "DR y of line 2",
+    "c2": "DR z of line 2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate dot product",
+     "explain": "Multiply corresponding direction ratios and sum them.",
+     "compute": "dot_val = a1*a2 + b1*b2 + c1*c2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitudes",
+     "explain": "Find the magnitude of each direction vector.",
+     "compute": "mag_prod = sqrt(a1**2 + b1**2 + c1**2) * sqrt(a2**2 + b2**2 + c2**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate cosine",
+     "explain": "Divide the absolute dot product by the product of magnitudes.",
+     "compute": "cos_theta = abs(dot_val) / mag_prod"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Direction Cosines from Direction Ratios chain with c = 2, a = 3, b = 5, sqrt = 4, sq_sum = 7, magnitude = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "c": "2",
+    "a": "3",
+    "b": "5",
+    "sqrt": "4",
+    "sq_sum": "7",
+    "magnitude": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate sum of squares",
+     "explain": "Square each direction ratio and sum them up.",
+     "compute": "sq_sum = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitude",
+     "explain": "Find the square root of the sum of squares.",
+     "compute": "magnitude = sqrt(sq_sum)"
+    },
+    {
+     "step": 3,
+     "action": "Divide ratios by magnitude",
+     "explain": "The direction cosine l is the ratio a divided by the magnitude.",
+     "compute": "l = a / magnitude"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Direction Cosines of Line Joining Two Points chain with x2 = 2, x1 = 3, sqrt = 5, z2 = 4, z1 = 7, y2 = 1.5, y1 = 6, diff_x = 8, dist = 2. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "sqrt": "5",
+    "z2": "4",
+    "z1": "7",
+    "y2": "1.5",
+    "y1": "6",
+    "diff_x": "8",
+    "dist": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate coordinate differences",
+     "explain": "Subtract the coordinates of the first point from the second.",
+     "compute": "diff_x = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate distance",
+     "explain": "Find the Euclidean distance between the two points.",
+     "compute": "dist = sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate l",
+     "explain": "Divide the x-difference by the distance.",
+     "compute": "l = diff_x / dist"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Direction Cosines of Line Joining Two Points chain with x2 = 2, x1 = 3, sqrt = 5, z2 = 4, z1 = 7, y2 = 1.5, y1 = 6, diff_x = 8, dist = 2. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "sqrt": "5",
+    "z2": "4",
+    "z1": "7",
+    "y2": "1.5",
+    "y1": "6",
+    "diff_x": "8",
+    "dist": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate coordinate differences",
+     "explain": "Subtract the coordinates of the first point from the second.",
+     "compute": "diff_x = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate distance",
+     "explain": "Find the Euclidean distance between the two points.",
+     "compute": "dist = sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate l",
+     "explain": "Divide the x-difference by the distance.",
+     "compute": "l = diff_x / dist"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Angle Between Two Lines chain with c1 = 2, c2 = 3, a1 = 5, a2 = 4, b1 = 7, b2 = 1.5, sqrt = 6, mag_prod = 8, abs = 2, dot_val = 3. What value does it produce?",
+   "extracted_variables": {
+    "c1": "2",
+    "c2": "3",
+    "a1": "5",
+    "a2": "4",
+    "b1": "7",
+    "b2": "1.5",
+    "sqrt": "6",
+    "mag_prod": "8",
+    "abs": "2",
+    "dot_val": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate dot product",
+     "explain": "Multiply corresponding direction ratios and sum them.",
+     "compute": "dot_val = a1*a2 + b1*b2 + c1*c2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate magnitudes",
+     "explain": "Find the magnitude of each direction vector.",
+     "compute": "mag_prod = sqrt(a1**2 + b1**2 + c1**2) * sqrt(a2**2 + b2**2 + c2**2)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate cosine",
+     "explain": "Divide the absolute dot product by the product of magnitudes.",
+     "compute": "cos_theta = abs(dot_val) / mag_prod"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Shortest Distance Between Skew Lines chain with b1y = 2, b2z = 3, b1z = 5, b2y = 4, sqrt = 7, b1x = 1.5, b2x = 6, z2 = 8, z1 = 2, x2 = 3, x1 = 5, y2 = 4, y1 = 7, c_mag = 1.5, abs = 6, dot_diff = 8. What value does it produce?",
+   "extracted_variables": {
+    "b1y": "2",
+    "b2z": "3",
+    "b1z": "5",
+    "b2y": "4",
+    "sqrt": "7",
+    "b1x": "1.5",
+    "b2x": "6",
+    "z2": "8",
+    "z1": "2",
+    "x2": "3",
+    "x1": "5",
+    "y2": "4",
+    "y1": "7",
+    "c_mag": "1.5",
+    "abs": "6",
+    "dot_diff": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cross product components",
+     "explain": "Calculate the components of the cross product of direction vectors b1 and b2.",
+     "compute": "cx = b1y*b2z - b1z*b2y"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Find the magnitude of the cross product vector.",
+     "compute": "c_mag = sqrt((b1y*b2z - b1z*b2y)**2 + (b1z*b2x - b1x*b2z)**2 + (b1x*b2y - b1y*b2x)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Dot product with point difference",
+     "explain": "Calculate the dot product of the cross product and the difference of position vectors.",
+     "compute": "dot_diff = (b1y*b2z - b1z*b2y)*(x2-x1) + (b1z*b2x - b1x*b2z)*(y2-y1) + (b1x*b2y - b1y*b2x)*(z2-z1)"
+    },
+    {
+     "step": 4,
+     "action": "Final distance",
+     "explain": "Divide the absolute dot product by the cross product magnitude.",
+     "compute": "dist = abs(dot_diff) / c_mag"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Shortest Distance Between Skew Lines chain with b1y = 2, b2z = 3, b1z = 5, b2y = 4, sqrt = 7, b1x = 1.5, b2x = 6, z2 = 8, z1 = 2, x2 = 3, x1 = 5, y2 = 4, y1 = 7, c_mag = 1.5, abs = 6, dot_diff = 8. What value does it produce?",
+   "extracted_variables": {
+    "b1y": "2",
+    "b2z": "3",
+    "b1z": "5",
+    "b2y": "4",
+    "sqrt": "7",
+    "b1x": "1.5",
+    "b2x": "6",
+    "z2": "8",
+    "z1": "2",
+    "x2": "3",
+    "x1": "5",
+    "y2": "4",
+    "y1": "7",
+    "c_mag": "1.5",
+    "abs": "6",
+    "dot_diff": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cross product components",
+     "explain": "Calculate the components of the cross product of direction vectors b1 and b2.",
+     "compute": "cx = b1y*b2z - b1z*b2y"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Find the magnitude of the cross product vector.",
+     "compute": "c_mag = sqrt((b1y*b2z - b1z*b2y)**2 + (b1z*b2x - b1x*b2z)**2 + (b1x*b2y - b1y*b2x)**2)"
+    },
+    {
+     "step": 3,
+     "action": "Dot product with point difference",
+     "explain": "Calculate the dot product of the cross product and the difference of position vectors.",
+     "compute": "dot_diff = (b1y*b2z - b1z*b2y)*(x2-x1) + (b1z*b2x - b1x*b2z)*(y2-y1) + (b1x*b2y - b1y*b2x)*(z2-z1)"
+    },
+    {
+     "step": 4,
+     "action": "Final distance",
+     "explain": "Divide the absolute dot product by the cross product magnitude.",
+     "compute": "dist = abs(dot_diff) / c_mag"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Distance Between Parallel Lines chain with x2 = 2, x1 = 3, sqrt = 5, bx = 4, by = 7, bz = 1.5, y2 = 6, y1 = 8, z2 = 2, z1 = 3, num = 5, den = 4. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "sqrt": "5",
+    "bx": "4",
+    "by": "7",
+    "bz": "1.5",
+    "y2": "6",
+    "y1": "8",
+    "z2": "2",
+    "z1": "3",
+    "num": "5",
+    "den": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Point difference",
+     "explain": "Subtract coordinates of point on line 1 from point on line 2.",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Calculate magnitude of cross product of b and (a2-a1).",
+     "compute": "num = sqrt((by*(z2-z1) - bz*(y2-y1))**2 + (bz*(x2-x1) - bx*(z2-z1))**2 + (bx*(y2-y1) - by*(x2-x1))**2)"
+    },
+    {
+     "step": 3,
+     "action": "Direction magnitude",
+     "explain": "Calculate magnitude of the common direction vector b.",
+     "compute": "den = sqrt(bx**2 + by**2 + bz**2)"
+    },
+    {
+     "step": 4,
+     "action": "Distance",
+     "explain": "Divide numerator by denominator.",
+     "compute": "dist = num / den"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.11.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Distance Between Parallel Lines chain with x2 = 2, x1 = 3, sqrt = 5, bx = 4, by = 7, bz = 1.5, y2 = 6, y1 = 8, z2 = 2, z1 = 3, num = 5, den = 4. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "sqrt": "5",
+    "bx": "4",
+    "by": "7",
+    "bz": "1.5",
+    "y2": "6",
+    "y1": "8",
+    "z2": "2",
+    "z1": "3",
+    "num": "5",
+    "den": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Point difference",
+     "explain": "Subtract coordinates of point on line 1 from point on line 2.",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Cross product magnitude",
+     "explain": "Calculate magnitude of cross product of b and (a2-a1).",
+     "compute": "num = sqrt((by*(z2-z1) - bz*(y2-y1))**2 + (bz*(x2-x1) - bx*(z2-z1))**2 + (bx*(y2-y1) - by*(x2-x1))**2)"
+    },
+    {
+     "step": 3,
+     "action": "Direction magnitude",
+     "explain": "Calculate magnitude of the common direction vector b.",
+     "compute": "den = sqrt(bx**2 + by**2 + bz**2)"
+    },
+    {
+     "step": 4,
+     "action": "Distance",
+     "explain": "Divide numerator by denominator.",
+     "compute": "dist = num / den"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "11.1",
+   "source_ref": "lemh205.txt lines 145-155",
+   "questions": [
+    "If a line makes angles 90, 135, 45 with the x, y and z-axes respectively, find its direction cosines.",
+    "Find the direction cosines of a line which makes equal angles with the coordinate axes.",
+    "If a line has the direction ratios -18, 12, -4, then what are its direction cosines?",
+    "Show that the points (2, 3, 4), (-1, -2, 1), (5, 8, 7) are collinear.",
+    "Find the direction cosines of the sides of the triangle whose vertices are (3, 5, -4), (-1, 1, 2) and (-5, -5, -2)."
+   ]
+  },
+  {
+   "id": "11.2",
+   "source_ref": "lemh205.txt lines 340-370",
+   "questions": [
+    "Find the equation of the line which passes through the point (1, 2, 3) and is parallel to the vector 3i + 2j - 2k.",
+    "Find the cartesian equation of the line which passes through the point (-2, 4, -5) and parallel to the line given by (x+3)/3 = (y-4)/5 = (z+8)/6.",
+    "Find the angle between the pair of lines: r = 2i-5j+k + l(3i+2j+6k) and r = 7i-6k + m(i+2j+2k).",
+    "Find the shortest distance between the lines r = (i+2j+k) + l(i-j+k) and r = 2i-j-k + m(2i+j+2k)."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

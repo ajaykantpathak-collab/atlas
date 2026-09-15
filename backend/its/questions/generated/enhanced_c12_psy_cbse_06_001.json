@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_001",
+   "title": "c12_psy_cbse_06_001",
+   "questions": [
+    {
+     "q": "A student says, \"My attitude toward junk food is negative because I know it's unhealthy.\" Which component of the A-B-C model is this student describing, and which two components are missing from this statement?",
+     "a": "The student describes only the **cognitive component** (belief/knowledge that junk food is unhealthy). The **affective component** (e.g., feeling disgusted or guilty when eating junk food) and **behavioural component** (e.g., avoiding junk food or intending to avoid it) are missing. A wrong answer (e.g., saying this describes all three components) reveals the misconception that *knowing* something automatically means the attitude is fully formed — ignoring that attitudes require emotional and behavioural readiness.",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT \"Green Environment\" example (Box 6.1), a person has a strong cognitive component (knows tree plantation helps the environment) but a weak behavioural component (does not participate in the campaign). Explain why this inconsistency does NOT mean the person lacks an attitude toward the environment.",
+     "a": "Attitudes are **latent constructs** — they exist as mental states with three components that can vary independently in strength. The person *has* an attitude (positive cognitive, positive affective, neutral/weak behavioural); the inconsistency simply shows the components are not perfectly aligned. A wrong answer (e.g., \"they don't have an attitude because they don't act\") reveals the misconception that *attitude = behaviour*, ignoring that attitudes are internal predispositions that may not translate to action due to situational constraints, lack of opportunity, or weak behavioural intention.",
+     "self_check": true
+    },
+    {
+     "q": "Riya believes \"exercise is essential for health\" (cognitive), feels \"energised and happy\" after exercising (affective), but rarely exercises because of a busy schedule (behavioural). Using the A-B-C model, identify the component that is **inconsistent** with the other two and propose one realistic way to strengthen that component.",
+     "a": "The **behavioural component** is inconsistent (weak) relative to the strong cognitive and affective components. To strengthen it: Riya could start with a **specific, small behavioural intention** (e.g., \"I will walk for 10 minutes after dinner 3 times a week\") — this uses the *principle of gradual commitment* to align behaviour with existing cognition and affect. A wrong answer (e.g., \"change her belief to match behaviour\") reveals the misconception that *attitude change must always start with cognition* — whereas behaviour can be modified directly to restore consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **attitudes**, **beliefs**, and **values** using the A-B-C framework. Why does the textbook say \"values are difficult to change\"?",
+     "a": "- **Beliefs** = primarily the *cognitive component* of an attitude (e.g., \"Democracy ensures freedom\").\n- **Attitudes** = all three A-B-C components toward an object (e.g., positive thoughts, pride, voting behaviour toward democracy).\n- **Values** = attitudes/beliefs with a **moral \"ought\" quality** that become central to one's self-concept (e.g., \"One *ought* to defend democracy\").\nValues are difficult to change because they are **high in centrality** (core to the attitude system) and linked to identity — changing a value requires restructuring the entire attitude system, not just one component. A wrong answer (e.g., \"values are just strong beliefs\") misses the *normative/prescriptive* nature of values and their systemic centrality.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher wants to foster a positive attitude toward reading in students. She considers two strategies:  \n(A) Give a lecture on the cognitive benefits of reading (strengthening cognitive component).  \n(B) Create a \"reading corner\" with comfortable seating and let students choose books freely (targeting affective and behavioural components).  \nEvaluate which strategy is more likely to produce a **durable, consistent attitude** and justify using the A-B-C model.",
+     "a": "**Strategy (B) is more effective.** The A-B-C model shows attitudes are strongest when all three components are developed *together*. Strategy (A) only targets cognition — knowledge alone rarely creates lasting attitudes (weak affective/behavioural links). Strategy (B) simultaneously engages **affect** (pleasure, comfort) and **behaviour** (choosing, reading) which then reinforces cognition (\"I enjoy this, so it must be good\"). This *experiential* approach builds **consonance** across components, making the attitude more resistant to counter-persuasion. A wrong answer choosing (A) reveals the \"information deficit\" fallacy — assuming attitudes change mainly through facts.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own \"A-B-C Attitude Profile\" for an attitude object of your choice (e.g., social media, school uniforms, a sport). Write one sentence for each component. Then explain: *Which component is strongest for you? Which is weakest? What would need to happen for all three to become highly consistent?*",
+     "a": "*Example for \"Social Media\":*  \nCognitive: \"I believe social media connects people but also spreads misinformation.\"  \nAffective: \"I feel anxious when I see curated perfect lives, but happy when messaging friends.\"  \nBehavioural: \"I check it 20+ times daily but rarely post original content.\"  \n*Analysis:* Strongest = Behavioural (high frequency). Weakest = Cognitive (ambivalent beliefs). Consistency would require *either* reducing usage (align behaviour with negative affect/cognition) *or* curating feed to match positive beliefs (align cognition/affect with behaviour). A poor answer (vague sentences, no analysis) reveals inability to *deconstruct* an attitude into components — a prerequisite for understanding attitude change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

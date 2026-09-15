@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_003",
+   "title": "c12_phy_cbse_04_003",
+   "questions": [
+    {
+     "q": "A proton moves perpendicular to a uniform magnetic field of 0.5 T with a speed of \\( 2 \\times 10^6 \\) m/s. What is the radius of its circular path? (Given: \\( m_p = 1.67 \\times 10^{-27} \\) kg, \\( e = 1.6 \\times 10^{-19} \\) C)",
+     "a": "Radius \\( r = \\frac{mv}{qB} = \\frac{(1.67 \\times 10^{-27})(2 \\times 10^6)}{(1.6 \\times 10^{-19})(0.5)} = 0.04175 \\) m ≈ 4.18 cm. A wrong answer like 41.8 cm indicates a unit conversion error (e.g., forgetting to convert cm to m) or misplacing a power of 10. If the student uses \\( r = \\frac{mv^2}{qB} \\), they confuse centripetal force formula with magnetic force.",
+     "self_check": true
+    },
+    {
+     "q": "An electron and a proton enter the same uniform magnetic field with the same velocity perpendicular to B. Compare the radii of their paths and their directions of rotation. Explain why the radii differ even though the magnetic force magnitude is the same for both.",
+     "a": "The proton’s radius is larger because \\( r \\propto m \\) and \\( m_p \\approx 1836 m_e \\). The electron rotates clockwise (if B is into page) while the proton rotates anticlockwise because force direction reverses for opposite charge. A wrong answer stating same radius reveals the misconception that magnetic force alone determines radius, ignoring mass. Saying both rotate same way shows ignorance of the right-hand rule for negative charges.",
+     "self_check": true
+    },
+    {
+     "q": "A particle of charge \\( 3.2 \\times 10^{-19} \\) C and mass \\( 6.64 \\times 10^{-27} \\) kg moves in a helix in a magnetic field of 0.2 T. Its velocity has components \\( v_\\perp = 4 \\times 10^5 \\) m/s and \\( v_\\parallel = 3 \\times 10^5 \\) m/s. Calculate the pitch of the helix.",
+     "a": "Time period \\( T = \\frac{2\\pi m}{qB} = \\frac{2\\pi (6.64 \\times 10^{-27})}{(3.2 \\times 10^{-19})(0.2)} = 6.51 \\times 10^{-7} \\) s. Pitch \\( p = v_\\parallel T = (3 \\times 10^5)(6.51 \\times 10^{-7}) = 0.195 \\) m. A wrong answer like 0.195 cm indicates forgetting to convert units or using \\( v_\\perp \\) instead of \\( v_\\parallel \\). Using \\( T = \\frac{2\\pi r}{v_\\perp} \\) with wrong r also leads to error.",
+     "self_check": true
+    },
+    {
+     "q": "A charged particle moves in a uniform magnetic field along a circular path of radius R. If the magnetic field is doubled and the particle’s kinetic energy is halved, what happens to the radius? Justify using the formula.",
+     "a": "Original \\( r = \\frac{mv}{qB} \\). Kinetic energy \\( K = \\frac{1}{2}mv^2 \\), so \\( v = \\sqrt{2K/m} \\). Then \\( r = \\frac{\\sqrt{2mK}}{qB} \\). If B → 2B and K → K/2, new radius \\( r' = \\frac{\\sqrt{2m(K/2)}}{q(2B)} = \\frac{\\sqrt{mK}}{2qB} = \\frac{1}{2\\sqrt{2}} r \\). A wrong answer like \"radius halves\" or \"unchanged\" shows inability to combine the two changes algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a uniform magnetic field, a charged particle’s speed increases because the magnetic force accelerates it.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. Magnetic force is always perpendicular to velocity, so work done \\( W = \\vec{F} \\cdot \\vec{d} = 0 \\). By work-energy theorem, kinetic energy and speed remain constant. The force only changes direction, causing centripetal acceleration. A student who agrees confuses acceleration (change in velocity vector) with increase in speed (magnitude of velocity).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a cathode-ray tube (or a simulated applet) to verify that the radius of an electron’s path in a magnetic field is proportional to its speed. List the measurements you would take and how you would plot the data.",
+     "a": "Vary the accelerating voltage V to change electron speed \\( v = \\sqrt{2eV/m} \\). Apply a constant magnetic field B perpendicular to the beam. Measure the radius r of the circular spot on the screen (or from the applet). Plot r vs \\( \\sqrt{V} \\); a straight line through origin confirms \\( r \\propto v \\). A poor answer might suggest plotting r vs V directly, not recognizing the square-root relationship, or forgetting to keep B constant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

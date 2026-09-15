@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_08_014",
+   "title": "c12_hin_ar_cbse_08_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorized a mnemonic without understanding its functional components — they cannot map each letter to the actual writing step it represents, so they cannot self-check if their paragraph has all four moves.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Nagarjun shows poor children's life is hard. The poem says they sleep hungry and work. This is sad.\" Identify which PEEL component is missing and why the answer would lose marks in a 6-mark board question.",
+     "a": "The answer has a Point and weak Evidence (paraphrased, no specific imagery), but lacks Explanation (how the evidence shows hardship) and Link (connecting back to the poet's purpose). Board marking schemes allocate marks for \"analysis\" and \"critical appreciation\" — without Explanation and Link, the answer remains at narrative summary level, scoring 2/6 at best.",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL structure, write a single paragraph (4-5 sentences) answering: \"How does the poet use the image of the 'bud' (f[kykSuk) to represent childhood?\" Use evidence from stanza 1 or 2.",
+     "a": "**Point:** Nagarjun uses the bud as a metaphor for the natural, delicate unfolding of childhood. **Evidence:** In stanza 1, the bud is described as \"f[kykSuk\" (playful, smiling) opening gently with the morning dew. **Explanation:** The words \"f[kykSuk\" and the dew imagery suggest innocence, freshness, and a nurturing environment — nature provides exactly what the bud needs to bloom. **Link:** This ideal image of childhood is then shattered by the reality of the poor child in later stanzas, making the bud a symbol of what childhood *should* be. A wrong answer would quote lines without explaining the connotation of \"f[kykSuk\" or fail to contrast with the child's reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of these two topic sentences for the question \"Discuss the use of folk language (yksdHkk\"kk) in the poem\": (A) \"Nagarjun uses folk language.\" (B) \"Nagarjun's deliberate use of Braj and folk diction roots the poem in the lived reality of rural children, making their suffering tangible.\" Which is better and why?",
+     "a": "(B) is better because it makes an analytical claim (deliberate use, roots in lived reality, makes suffering tangible) that guides the rest of the paragraph. (A) is a factual statement that leads to a list of examples without analysis. Board exams reward \"critical appreciation\" — sentence (B) sets up an argument; (A) sets up a summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The last stanza (LoPNan) breaks the rhyme scheme because the poet got tired of rhyming.\" Evaluate this interpretation using evidence from the poem's structure and theme.",
+     "a": "The interpretation is weak. The shift to free verse in the fourth stanza is a deliberate structural choice: the first three stanzas (rhyme: dkfI+kQ;k) mirror the rhythmic, almost lullaby-like world of the bud/nature, while the unrhymed final stanza mirrors the harsh, broken, patternless reality of the child's life. The form enacts the content. The student's \"tired poet\" theory ignores the thematic function of form — a common error when students treat structure as decoration rather than meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a new 4-line stanza in free verse that could follow the poem, maintaining its tone and extending its central concern (the gap between nature's care and society's neglect). Use at least one image from the poem.",
+     "a": "A strong response might be:\n\"The dew still falls on the marigold,\nbut the child's plate stays empty.\nThe bud opens — no one watches.\nThe child closes his eyes — everyone looks away.\"\nCriteria: maintains ironic contrast, uses poem's images (dew, bud, child), free verse, extends theme. A poor answer would rhyme forcibly, lose the ironic tone, or introduce unrelated ideas (e.g., \"the sun rises, hope comes\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

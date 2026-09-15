@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_003",
+   "title": "c11_chem_cbse_07_003",
+   "questions": [
+    {
+     "q": "Write the Kc expression for the equilibrium: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). State the units of Kc for this reaction.",
+     "a": "Kc = [SO₃]² / ([SO₂]²[O₂]); Units = (mol L⁻¹)² / ((mol L⁻¹)²(mol L⁻¹)) = L mol⁻¹ or M⁻¹. A wrong answer like Kc = [SO₂]²[O₂]/[SO₃]² reveals confusion about products vs reactants placement. Missing units or writing \"no units\" reveals ignorance of dimensional analysis - Kc has units unless Δn = 0.",
+     "self_check": true
+    },
+    {
+     "q": "For the equilibrium PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), a student writes Kc = [PCl₃][Cl₂]/[PCl₅] and says \"Kc has no units because it's an equilibrium constant.\" Explain why the student is partially correct about the expression but wrong about the units.",
+     "a": "The expression is correct: products over reactants with coefficients as exponents. However, units = (mol L⁻¹)(mol L⁻¹)/(mol L⁻¹) = mol L⁻¹ = M. The student incorrectly assumes all Kc are dimensionless. Kc is dimensionless ONLY when Δn = 0 (same moles of gas on both sides). Here Δn = 2 - 1 = 1, so Kc has units of concentration. This misconception arises from confusing Kc with thermodynamic K (which uses activities).",
+     "self_check": true
+    },
+    {
+     "q": "At 500 K, the equilibrium concentrations for N₂(g) + 3H₂(g) ⇌ 2NH₃(g) are: [N₂] = 0.50 M, [H₂] = 1.50 M, [NH₃] = 0.20 M. Calculate Kc. If the volume of the container is doubled at constant temperature, what happens to the value of Kc?",
+     "a": "Kc = (0.20)² / (0.50 × 1.50³) = 0.04 / (0.50 × 3.375) = 0.04 / 1.6875 = 0.0237 M⁻². When volume doubles, all concentrations halve, but Kc remains 0.0237 M⁻² because Kc depends ONLY on temperature. A student who recalculates Kc with new concentrations and gets a different value doesn't understand that Kc is temperature-dependent only. A student who says \"Kc changes because concentrations change\" confuses Kc with reaction quotient Q.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Kc expressions for these two equilibria at the same temperature:\n(1) 2NO₂(g) ⇌ N₂O₄(g)\n(2) NO₂(g) ⇌ ½N₂O₄(g)\nIf Kc₁ = 4.0 M⁻¹ for reaction (1), what is Kc₂ for reaction (2)? Explain the mathematical relationship.",
+     "a": "Kc₁ = [N₂O₄]/[NO₂]² = 4.0 M⁻¹. Kc₂ = [N₂O₄]^(1/2)/[NO₂] = √([N₂O₄]/[NO₂]²) = √Kc₁ = √4.0 = 2.0 M^(-1/2). When a reaction is multiplied by factor n, Kc_new = (Kc_original)^n. Here reaction (2) is reaction (1) multiplied by ½, so Kc₂ = (Kc₁)^(1/2). A student giving Kc₂ = 2.0 without units or Kc₂ = 4.0 doesn't grasp the exponent relationship. This tests understanding of how stoichiometric scaling affects Kc.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the heterogeneous equilibrium CaCO₃(s) ⇌ CaO(s) + CO₂(g), Kc = [CaO][CO₂]/[CaCO₃]. Since solids have constant concentrations, we can include them.\" Evaluate this statement and write the correct Kc expression.",
+     "a": "The student is wrong. Pure solids (and pure liquids) are EXCLUDED from Kc expressions because their \"concentrations\" (density/molar mass) are constant at constant temperature and are incorporated into the equilibrium constant itself. Correct Kc = [CO₂] only. Including solids leads to a constant that varies with amount of solid, violating the definition of equilibrium constant. A student who writes Kc = [CO₂] but says \"solids have concentration 1\" shows partial understanding - the activity of pure solids is 1, not concentration. This is a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g) at 448°C with Kc = 50.0. Starting with ONLY HI at 1.0 M in a 1 L vessel, predict whether the reaction proceeds forward or reverse to reach equilibrium. Justify without calculating Q (since Q is next topic). What would be the equilibrium concentration of HI?",
+     "a": "Starting with only product (HI), the reaction MUST proceed in reverse (toward reactants) to reach equilibrium because initially [H₂] = [I₂] = 0, so the product/reactant ratio is effectively infinite, far exceeding Kc = 50. At equilibrium, let x = [H₂] = [I₂], then [HI] = 1.0 - 2x. Kc = (1.0 - 2x)²/x² = 50. Solving: (1.0 - 2x)/x = √50 ≈ 7.07 → 1.0 - 2x = 7.07x → 1.0 = 9.07x → x ≈ 0.11 M. [HI]_eq = 1.0 - 0.22 = 0.78 M. A student who says \"forward because Kc > 1\" confuses Kc magnitude with reaction direction. A student who cannot set up the ICE table needs practice with stoichiometric relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

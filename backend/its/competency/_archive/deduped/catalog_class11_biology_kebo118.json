@@ -1,0 +1,195 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 118,
+ "chapter_title": "Neural Control and Coordination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo118.txt",
+ "concepts": [
+  {
+   "id": "kebo.118.1.1",
+   "title": "Neuron Structure and Resting Membrane Potential",
+   "section": "18.1 Neural System, 18.2 Human Neural System, 18.3.1 Generation and Conduction of Nerve Impulse",
+   "definition": "A neuron has a cell body with cytoplasm and nucleus, dendrites carrying impulses toward the cell, and a long axon ending in synaptic knobs; the resting nerve membrane maintains a resting potential through the sodium potassium pump, keeping the outside positive and the inside negative.",
+   "formula": "",
+   "key_idea": "The polarised resting membrane is maintained by active transport of three sodium ions out for two potassium ions in, making the axonal membrane more permeable to potassium ions at rest.",
+   "textbook_ref": "kebo118.txt sections 18.1-18.3.1",
+   "question_patterns": [
+    "describe the structure of a neuron with its parts",
+    "how is the resting potential of a nerve fibre maintained",
+    "what is the role of the sodium potassium pump in neurons",
+    "differentiate dendrites and axon",
+    "why is the resting membrane called polarised",
+    "name the types of neurons based on the number of axons and dendrites"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the parts",
+     "explain": "Mark cell body, dendrites, axon and synaptic terminals."
+    },
+    {
+     "step": 2,
+     "action": "explain the ionic basis",
+     "explain": "Recall sodium and potassium gradients across the resting membrane."
+    },
+    {
+     "step": 3,
+     "action": "confirm the polarity",
+     "explain": "State that the outside stays positive relative to the inside at rest."
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.2.1",
+   "title": "Action Potential Generation and Its Voltage Change",
+   "section": "18.3.1 Generation and Conduction of Nerve Impulse",
+   "definition": "When a stimulus depolarises the membrane beyond threshold, sodium channels open and the membrane potential reverses to the peak of the action potential or nerve impulse; the change in voltage equals the peak action potential minus the resting potential, and conduction proceeds as depolarisation spreads along the axon with repolarisation following behind.",
+   "formula": "voltage_swing = action_potential - resting_potential",
+   "key_idea": "The impulse is an all or none self-propagating reversal of membrane polarity, and repolarisation restores the resting state as potassium ions flow outward.",
+   "textbook_ref": "kebo118.txt section 18.3.1",
+   "question_patterns": [
+    "explain how an action potential is generated in a nerve fibre",
+    "calculate the voltage change during a nerve impulse from the two potentials",
+    "what is depolarisation and repolarisation of the membrane",
+    "why is the nerve impulse called all or none",
+    "how does the impulse travel along an unmyelinated axon",
+    "what is saltatory conduction in myelinated fibres"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the resting potential",
+     "explain": "Deduct the resting potential from the peak action potential to get the voltage swing of the impulse",
+     "compute": "voltage_swing = action_potential - resting_potential"
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.3.1",
+   "title": "Synapse and Synaptic Transmission",
+   "section": "18.3.2 Synapse",
+   "definition": "At a synapse the axon terminal of one neuron meets the dendrite of another across a synaptic cleft; in chemical synapses calcium entry releases neurotransmitters like acetylcholine from synaptic vesicles that bind receptors on the post-synaptic membrane, while electrical synapses pass current directly at gap junctions.",
+   "formula": "",
+   "key_idea": "Chemical synapses are far more common, and neurotransmitter binding generates a new potential in the post-synaptic neuron, allowing one-way conduction across the cleft.",
+   "textbook_ref": "kebo118.txt section 18.3.2",
+   "question_patterns": [
+    "differentiate chemical and electrical synapses",
+    "explain the role of neurotransmitters in synaptic transmission",
+    "what happens when an impulse reaches the axon terminal",
+    "why is conduction across a chemical synapse one way",
+    "name the common neurotransmitter at neuromuscular junctions",
+    "define synaptic cleft and synaptic vesicles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the synapse",
+     "explain": "Check whether transmission is chemical or electrical."
+    },
+    {
+     "step": 2,
+     "action": "trace the events",
+     "explain": "Follow calcium entry, vesicle fusion and transmitter release."
+    },
+    {
+     "step": 3,
+     "action": "note the outcome",
+     "explain": "State the new potential generated in the post-synaptic cell."
+    }
+   ]
+  },
+  {
+   "id": "kebo.118.4.1",
+   "title": "Human Brain, Reflex Action and Reflex Arc",
+   "section": "18.4 Central Neural System, 18.5 Reflex Action and Reflex Arc",
+   "definition": "The human brain divides into forebrain with cerebrum and limbic structures, midbrain and hindbrain with pons, cerebellum and medulla controlling involuntary functions; a reflex action such as the knee jerk travels through a reflex arc of receptor, sensory neuron, CNS centre, motor neuron and effector muscle, with the spinal cord as its centre.",
+   "formula": "",
+   "key_idea": "The medulla controls vital involuntary functions like breathing and heart rate, while the cerebellum keeps posture and balance, and reflex arcs protect the body before conscious processing.",
+   "textbook_ref": "kebo118.txt sections 18.4, 18.5",
+   "question_patterns": [
+    "describe the parts of the human brain and their functions",
+    "define reflex action and draw the reflex arc",
+    "which parts of the brain control posture and balance",
+    "what are the functions of the medulla oblongata",
+    "differentiate the forebrain midbrain and hindbrain",
+    "why is the spinal cord the centre of simple reflexes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the brain divisions",
+     "explain": "Assign forebrain, midbrain and hindbrain their structures."
+    },
+    {
+     "step": 2,
+     "action": "match functions to regions",
+     "explain": "Link memory, balance, breathing and vision centres to their parts."
+    },
+    {
+     "step": 3,
+     "action": "trace the reflex arc",
+     "explain": "Follow receptor to effector through the spinal centre."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo118.txt section 18.3.1",
+   "concept": "kebo.118.2.1",
+   "question_type": "compute_voltage_change",
+   "question_pattern": "A nerve fibre has a resting potential of {resting_potential} millivolts and its action potential peaks at {action_potential} millivolts. Calculate the voltage change across the membrane during the impulse.",
+   "extracted_variables": {
+    "resting_potential": 70,
+    "action_potential": 130
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the resting potential",
+     "explain": "Deduct the resting potential from the peak action potential to get the voltage swing of the impulse",
+     "compute": "voltage_swing = action_potential - resting_potential"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo118.txt section 18.3.1",
+   "concept": "kebo.118.2.1",
+   "question_type": "compute_voltage_change",
+   "question_pattern": "In an experiment the membrane potential moves from a resting value of {resting_potential} millivolts to an action peak of {action_potential} millivolts. Work out the total change in membrane voltage.",
+   "extracted_variables": {
+    "resting_potential": 65,
+    "action_potential": 125
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the resting potential",
+     "explain": "Deduct the resting potential from the peak action potential to get the voltage swing of the impulse",
+     "compute": "voltage_swing = action_potential - resting_potential"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo118.txt exercises section",
+   "questions": [
+    "Briefly describe the structure of the brain.",
+    "Compare the following: central neural system and peripheral neural system.",
+    "Distinguish between resting potential and action potential.",
+    "Draw the diagram of a neuron and name its parts.",
+    "How is a nerve impulse conducted along an axon?",
+    "What is the difference between a chemical and an electrical synapse?",
+    "Explain reflex action with the help of a reflex arc."
+   ]
+  }
+ ]
+}

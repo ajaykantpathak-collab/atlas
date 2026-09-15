@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_004",
+   "title": "c12_biotech_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the typical size range of the meristem explant used for virus elimination, and why is this size critical?",
+     "a": "The typical size is 0.1–1.0 mm (often 0.2–0.5 mm). This size is critical because it usually contains only the apical dome and 1–2 leaf primordia, which lack vascular tissue through which viruses move systemically; larger explants risk including vascular tissue and thus virus particles. A wrong answer (e.g., \"2–5 mm\" or \"any size works\") reveals the student does not understand the relationship between meristem anatomy, virus distribution, and the trade-off between regeneration capacity and virus-free probability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Meristem culture works because the meristem cells divide so fast that viruses cannot replicate in them.\" Is this correct? Explain why or why not.",
+     "a": "The claim is incorrect. Virus exclusion from meristems is primarily due to (1) absence of vascular tissue (phloem) required for systemic virus movement, (2) high RNA silencing activity in meristematic cells, and (3) low metabolic activity of some viruses in undifferentiated cells — not because of rapid cell division outpacing viral replication. A wrong answer indicates the student confuses meristem culture with thermotherapy (where high temperature inhibits virus replication) or misunderstands the anatomical basis of virus distribution.",
+     "self_check": true
+    },
+    {
+     "q": "You are tasked with producing virus-free potato plants from a cultivar infected with Potato virus Y (PVY). Design a meristem culture protocol including: (a) explant size, (b) culture medium composition (key hormones), (c) number of subculture cycles before virus indexing, and (d) one molecular method for virus detection. Justify each choice.",
+     "a": "(a) Explant size: 0.2–0.3 mm (apical dome + 1 leaf primordium) — small enough to exclude vascular tissue but large enough for reasonable survival. (b) Medium: MS basal salts + 30 g/L sucrose + 2–4 mg/L BAP (cytokinin) for shoot proliferation; later 0.5–1 mg/L NAA/IBA for rooting. (c) 2–3 subculture cycles (4–6 weeks each) to eliminate any residual virus and ensure stable shoot lines before indexing. (d) RT-PCR or ELISA for PVY detection. A poor answer omits hormone rationale, suggests only one subculture, or names an inappropriate detection method (e.g., \"microscopy\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare meristem culture and thermotherapy for virus elimination in terms of: (i) mechanism, (ii) effect on plant genotype, (iii) suitability for different virus types, and (iv) commercial feasibility for banana. Which method would you recommend for a banana plantation and why?",
+     "a": "(i) Meristem culture exploits anatomical virus-free zones; thermotherapy uses high temperature (35–40°C) to inhibit virus replication. (ii) Meristem culture preserves genotype (no somaclonal variation if done correctly); thermotherapy can cause heat-induced mutations. (iii) Thermotherapy works better for some phloem-limited viruses that invade meristems; meristem culture is broadly effective for most systemic viruses. (iv) For banana, meristem culture is commercially preferred because it integrates with micropropagation pipelines, produces large numbers of uniform plantlets, and avoids heat damage to sensitive cultivars. A weak answer fails to link genotype stability to commercial micropropagation or misstates thermotherapy's mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Meristem culture always produces 100% virus-free plants, so virus indexing after regeneration is unnecessary.\" Provide at least three reasons why this is false.",
+     "a": "The statement is false because: (1) Some viruses (e.g., certain nepoviruses) can invade the meristem, especially if explant is >0.5 mm. (2) Contamination during culture or incomplete excision can reintroduce virus. (3) Chimeric plants may arise where only some sectors are virus-free. (4) Somaclonal variation or epigenetic changes can occur, requiring phenotypic verification. Indexing (ELISA, PCR) is mandatory for certification. A poor answer gives only one reason or confuses indexing with screening.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a novel combined protocol that uses meristem culture followed by a second technique to increase virus-free recovery rate for a recalcitrant crop where meristem culture alone gives <20% virus-free plants. Explain the rationale and potential drawbacks.",
+     "a": "Combine meristem culture with thermotherapy: grow mother plants at 35–38°C for 3–4 weeks before meristem excision. Heat stress reduces virus titer in the meristem region, increasing the probability that a 0.3 mm tip is virus-free. Drawbacks: heat may reduce mother plant vigor, cause phenotypic changes, or induce somaclonal variation; also adds time and infrastructure. A good answer specifies temperature/duration, explains synergy, and acknowledges trade-offs. A weak answer suggests random combinations without mechanistic justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

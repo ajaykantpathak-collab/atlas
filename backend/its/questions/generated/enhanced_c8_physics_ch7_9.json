@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_9",
+   "title": "c8_physics_ch7_9",
+   "questions": [
+    {
+     "q": "What is the exact alignment of the Sun, Earth, and Moon during a lunar eclipse, and during which lunar phase does it occur?",
+     "a": "During a lunar eclipse, the Sun, Earth, and Moon align in a straight line with Earth in the middle (Sun–Earth–Moon). This occurs only during the Full Moon phase. A wrong answer (e.g., \"Moon between Sun and Earth\" or \"New Moon\") reveals the student confuses lunar eclipse geometry with solar eclipse or does not link the phase to the alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon turn reddish-orange during a total lunar eclipse instead of becoming completely dark?",
+     "a": "Earth's atmosphere refracts (bends) sunlight around the planet's edges into the umbra. Shorter wavelengths (blue) are scattered away (Rayleigh scattering), while longer wavelengths (red/orange) pass through and illuminate the Moon. A wrong answer like \"The Moon reflects Earth's red light\" or \"The Sun's light turns red\" shows the student does not understand atmospheric filtering and refraction.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a diagram showing the Moon's orbit as a perfect circle in the same plane as Earth's orbit around the Sun. They claim a lunar eclipse should happen every Full Moon (every 29.5 days). Identify the error in this model.",
+     "a": "The Moon's orbit is inclined ~5° to the ecliptic (Earth's orbital plane). Eclipses only occur when the Full Moon is near one of the two nodes where the orbits intersect. The student's model ignores orbital inclination, a critical geometric constraint. This error reveals a 2D mental model instead of 3D spatial reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the maximum duration of totality for a lunar eclipse (~107 minutes) and a solar eclipse (~7.5 minutes). Using the relative sizes of Earth's umbra at the Moon's distance and the Moon's umbra on Earth, explain this difference.",
+     "a": "Earth's umbra at the Moon's distance (≈3.84×10⁵ km) is ~9200 km wide (2.6× Moon's diameter), so the Moon takes hours to cross it. The Moon's umbra on Earth is at most ~270 km wide (tiny dot), and Earth's rotation plus the Moon's orbital motion sweeps it across the surface in minutes. A wrong answer focusing only on orbital speeds without comparing shadow sizes shows incomplete analysis of the geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A penumbral lunar eclipse is just a less impressive version of a partial lunar eclipse; both involve the Moon entering Earth's umbra.\"",
+     "a": "The statement is false. In a penumbral eclipse, the Moon passes only through Earth's penumbra (outer shadow) — no part enters the umbra. In a partial eclipse, a portion of the Moon enters the umbra. The student conflates the two shadow regions. This reveals confusion between the definitions of umbra (full shadow) and penumbra (partial shadow).",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost classroom demonstration using a single light source, a globe, and a small ball to show why lunar eclipses are visible from the entire night side of Earth, while solar eclipses are visible only from a narrow path.",
+     "a": "A good answer: Place the light (Sun) several meters away. The globe (Earth) casts a long shadow cone. The small ball (Moon) enters this cone — the entire night side of the globe sees the ball in shadow simultaneously. For solar eclipse, swap roles: the small ball casts a tiny shadow on the globe — only a small region experiences totality. A poor answer uses the same geometry for both or does not address the shadow size difference, indicating failure to scale the model correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

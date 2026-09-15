@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_008",
+   "title": "c12_bio_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define Single Cell Protein (SCP) and name any two microorganisms commonly used for its commercial production.",
+     "a": "Single Cell Protein (SCP) is the dried microbial biomass used as a protein supplement. Common production organisms: *Spirulina* (cyanobacterium/blue-green algae), *Methylophilus methylotrophus* (bacterium), *Candida* or *Saccharomyces* (yeast), *Fusarium* (fungus). A wrong answer like \"SCP is a protein extracted from single cells\" reveals confusion between extracted protein and whole-cell biomass; or naming only bacteria ignores the diversity of algal/fungal sources used industrially.",
+     "self_check": true
+    },
+    {
+     "q": "Why are agricultural wastes like straw, molasses, and whey preferred as substrates for SCP production over pure glucose? Explain with two reasons.",
+     "a": "Agricultural wastes are preferred because: (1) they drastically reduce production cost (substrate is 60-70% of total cost), and (2) they simultaneously address waste disposal/pollution problems (e.g., whey from cheese industry has high BOD). A student answering \"because they contain glucose\" misses the economic and environmental drivers; pure glucose is expensive and defeats the purpose of low-cost protein production.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company plans to produce SCP using *Methylophilus methylotrophus* on methanol derived from natural gas. Identify the critical nutritional supplement that MUST be added to the fermentation medium and explain why.",
+     "a": "Ammonia (or ammonium salts) must be added as the nitrogen source. Methanol provides only carbon and energy; microorganisms require nitrogen for amino acid/nucleic acid synthesis. *M. methylotrophus* cannot fix atmospheric N₂. A wrong answer like \"vitamins\" or \"phosphate\" ignores the C:N balance — methanol has zero nitrogen, so external N is non-negotiable for protein synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land and water footprint of SCP production (using bacteria on methanol) versus soybean cultivation for equivalent protein output. What does this imply for food security in arid regions?",
+     "a": "Bacterial SCP on methanol requires ~0.01% of the land and ~1% of the water needed for soybean per tonne of protein. This implies SCP can decouple protein production from arable land and rainfall, enabling food security in deserts, urban vertical farms, or space missions. A student stating \"SCP uses less land but more energy\" correctly identifies the trade-off but must quantify: the energy input (methanol from gas) is the cost, not water/land.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"SCP from *Spirulina* is nutritionally superior to SCP from bacteria because it contains vitamin B₁₂ and phycocyanin.\" Is this a valid generalization for all human nutrition contexts? Justify.",
+     "a": "Not universally valid. *Spirulina*'s B₁₂ is largely pseudo-B₁₂ (inactive in humans), and phycocyanin is a pigment, not an essential nutrient. Bacterial SCP (e.g., *Methylophilus*) has higher protein content (70-80% vs 60%) and better methionine levels. Superiority depends on target population: *Spirulina* suits whole-food supplement markets; bacterial SCP suits formulated feed where amino acid profile is balanced. A blanket \"superior\" claim ignores bioavailability and processing context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-tech SCP production system for a rural Indian dairy cooperative using whey waste. Specify: (a) microorganism, (b) substrate pretreatment, (c) harvesting method without centrifuge, (d) one quality test before feeding to cattle.",
+     "a": "(a) *Kluyveromyces marxianus* (lactose-fermenting yeast). (b) Whey pasteurization (72°C/15 sec) + pH adjustment to 5.0 + nutrient supplementation (NH₄Cl, KH₂PO₄, MgSO₄). (c) Flocculation with food-grade chitosan followed by sedimentation and solar drying on raised platforms. (d) Test for absence of *Salmonella* and aflatoxins (HPLC or lateral flow strip). A poor design uses *S. cerevisiae* (cannot ferment lactose) or skips pasteurization (contamination risk) or suggests spray drying (capital-intensive).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

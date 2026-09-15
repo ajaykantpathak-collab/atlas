@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_9",
+   "title": "c9_bio_ch3_9",
+   "questions": [
+    {
+     "q": "Name the primary sex organ in human males and state its two main functions.",
+     "a": "The primary sex organ in human males is the testis. Its two main functions are: (1) production of sperm (spermatogenesis) in the seminiferous tubules, and (2) secretion of the hormone testosterone by Leydig cells. A wrong answer (e.g., naming penis or prostate) reveals the student confuses primary sex organs (gonads) with accessory reproductive structures. A student who only states one function has incomplete understanding of the dual role of gonads as both gamete producers and endocrine glands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the testes are located outside the abdominal cavity in the scrotum, and what would happen if they remained inside the body.",
+     "a": "The testes are located in the scrotum because spermatogenesis requires a temperature 2-3°C lower than core body temperature (37°C). If testes remained in the abdomen, the higher temperature would denature enzymes involved in meiosis and impair sperm production, leading to infertility. A wrong answer (e.g., \"for protection\" or \"to make space\") reveals the student does not understand the temperature sensitivity of meiosis. This is a classic board-level misconception - students often memorize the location without linking it to the biochemical requirement of spermatogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old boy notices his voice deepening and facial hair growing. Trace the hormonal pathway from the brain that triggers these changes, naming all hormones and their source glands in sequence.",
+     "a": "Hypothalamus releases GnRH → stimulates anterior pituitary to release LH and FSH → LH acts on Leydig cells in testes to secrete testosterone → testosterone causes secondary sexual characteristics (voice deepening, facial hair). FSH acts on Sertoli cells to support spermatogenesis. A wrong answer that skips GnRH or confuses LH/FSH roles shows the student hasn't integrated the hypothalamic-pituitary-gonadal axis. Many students recall \"testosterone causes changes\" but cannot explain the upstream regulation - a critical board exam gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pathway and fate of a sperm cell and an ovum from their production site to the site of fertilization. Identify two structural adaptations in the female tract that assist the ovum but not the sperm.",
+     "a": "Sperm path: seminiferous tubules → epididymis (maturation/storage) → vas deferens → urethra → deposited in vagina → swims through cervix, uterus, into fallopian tube. Ovum path: ovary (ovulation) → captured by fimbriae of fallopian tube → moved by ciliary action and peristalsis toward uterus → fertilization occurs in ampulla of fallopian tube. Two female tract adaptations for ovum: (1) fimbriae with cilia to capture and sweep ovum into tube, (2) ciliated epithelium and muscular peristalsis in fallopian tube to transport the large, non-motile ovum. Sperm are motile and swim; ovum is large and non-motile. A wrong answer that says \"both swim\" or \"ovum moves by muscle only\" reveals confusion between active sperm motility and passive ovum transport.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The uterus is where the baby grows, so it must be the most important organ in the female reproductive system.\" Evaluate this statement using biological reasoning about the roles of ovary, fallopian tube, and uterus.",
+     "a": "The statement is biologically incomplete. While the uterus is essential for implantation and fetal development, the ovary is equally critical as it produces the ovum (genetic contribution) and hormones (estrogen/progesterone) that prepare the uterus. The fallopian tube is the site of fertilization and early cleavage - without it, the zygote never reaches the uterus. All three organs are interdependent; no single organ is \"most important.\" A wrong answer that agrees with the student shows inability to evaluate system-level interdependence - a higher-order skill required for board exam \"justify\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart showing how a disruption at any one step (choose one: GnRH deficiency, blocked vas deferens, blocked fallopian tube, ovarian failure) would affect the entire reproductive process. Explain your reasoning.",
+     "a": "Example for blocked fallopian tube: Ovary releases ovum → ovum cannot enter tube → sperm cannot reach ovum → fertilization fails → no zygote forms → no implantation in uterus → pregnancy cannot occur. Hormone production by ovary continues normally, so menstrual cycles persist. A good answer identifies the specific step blocked, traces consequences forward, and notes which functions remain unaffected. A poor answer (e.g., \"no periods\") reveals confusion between ovulation/menstruation and fertilization/pregnancy - a common error where students think blocked tubes stop menstruation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

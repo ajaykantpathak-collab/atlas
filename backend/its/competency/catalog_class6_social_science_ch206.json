@@ -1,0 +1,390 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 206,
+ "chapter_title": "Major Landforms of the Earth",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees103.txt",
+ "section_coverage_check": {
+  "covered_sections": [
+   "Introduction",
+   "MOUNTAINS",
+   "PLATEAUS",
+   "PLAINS",
+   "LANDFORMS AND THE PEOPLE"
+  ],
+  "skipped_sections": []
+ },
+ "concepts": [
+  {
+   "id": "fess.206.1.1",
+   "title": "Internal and External Processes",
+   "section": "Introduction",
+   "definition": "The earth's surface is continuously shaped by two distinct forces: internal processes causing vertical crustal movements, and external processes that erode and deposit surface materials.",
+   "formula": "",
+   "key_idea": "Internal forces elevate or depress the crust, while external forces reshape the surface.",
+   "textbook_ref": "fess206.txt lines 12-35",
+   "question_patterns": [
+    "Explain how internal and external processes shape the earth's surface.",
+    "What is the difference between internal and external geological processes?",
+    "How does the earth's surface get uplifted or lowered?",
+    "Describe the two main processes responsible for the creation of landforms.",
+    "Identify the forces that continuously change the face of the earth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two processes",
+     "explain": "The two processes are internal (within the earth) and external (on the surface)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the internal process",
+     "explain": "The internal process leads to the upliftment and sinking of the earth's surface."
+    },
+    {
+     "step": 3,
+     "action": "Describe the external process",
+     "explain": "The external process is the continuous wearing down and rebuilding of the land surface."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.1.2",
+   "title": "Erosion and Deposition",
+   "section": "Introduction",
+   "definition": "Erosion refers to the natural degradation of the ground surface, whereas deposition involves the accumulation of transported sediments to form new land.",
+   "formula": "",
+   "key_idea": "Erosion lowers the land surface, while deposition rebuilds it using agents like water, wind, and ice.",
+   "textbook_ref": "fess206.txt lines 36-48",
+   "question_patterns": [
+    "Define the terms erosion and deposition.",
+    "How do running water, wind, and ice contribute to shaping landforms?",
+    "What is the difference between wearing away and rebuilding of land?",
+    "Explain how the earth's surface is lowered and rebuilt.",
+    "Identify the agents responsible for erosion and deposition."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define erosion",
+     "explain": "Erosion is the wearing away of the earth's surface by agents like water, wind, and ice."
+    },
+    {
+     "step": 2,
+     "action": "Define deposition",
+     "explain": "Deposition is the rebuilding of the lowered surface by depositing the eroded material."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.1",
+   "title": "Mountains and Glaciers",
+   "section": "MOUNTAINS",
+   "definition": "A mountain represents a prominent high-altitude landform with a narrow peak and wide foundation, sometimes hosting slow-moving ice bodies termed glaciers.",
+   "formula": "",
+   "key_idea": "High elevation landforms with steep slopes, cold climates, and glaciers.",
+   "textbook_ref": "fess206.txt lines 49-65",
+   "question_patterns": [
+    "What is a mountain and how is it characterized?",
+    "Define glaciers and explain where they are found.",
+    "Why do fewer people live in mountainous regions?",
+    "Describe the climate and agricultural limitations of mountain areas.",
+    "What are the main physical features of a mountain?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a mountain",
+     "explain": "A mountain is a natural elevation of the earth's surface, significantly higher than surrounding areas, with a small summit and broad base."
+    },
+    {
+     "step": 2,
+     "action": "Define glaciers",
+     "explain": "Glaciers are permanently frozen rivers of ice found in some high-altitude mountains."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.2",
+   "title": "Elevation Difference of Landforms",
+   "section": "MOUNTAINS",
+   "definition": "The vertical distance or height difference calculated between two distinct geographical elevations.",
+   "formula": "elevation_difference = height_1 - height_2",
+   "key_idea": "Subtract the lower height from the higher height to find the difference in elevation.",
+   "textbook_ref": "fess206.txt lines 25-30, 105-110",
+   "question_patterns": [
+    "What is the difference in height between a mountain of height {height_1} meters and a plateau of height {height_2} meters?",
+    "Calculate the elevation difference between Mauna Kea at {height_1} meters and Mount Everest at {height_2} meters.",
+    "Find the height difference between two peaks measuring {height_1} meters and {height_2} meters.",
+    "How much higher is a peak of {height_1} meters compared to a hill of {height_2} meters?",
+    "Determine the vertical distance between an elevation of {height_1} meters and {height_2} meters."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the lower elevation from the higher elevation",
+     "explain": "To find the difference in elevation, subtract height_2 from height_1.",
+     "compute": "elevation_difference = height_1 - height_2"
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.3",
+   "title": "Fold Mountains",
+   "section": "MOUNTAINS",
+   "definition": "These features arise when tectonic compression buckles the crust, creating elevated structures with highly uneven terrain and pointed summits.",
+   "formula": "",
+   "key_idea": "Compressive forces fold crustal layers, creating young fold mountains like the Himalayas or old ones like the Aravalis.",
+   "textbook_ref": "fess206.txt lines 75-95",
+   "question_patterns": [
+    "What are fold mountains and how are they formed?",
+    "Distinguish between young fold mountains and old fold mountains.",
+    "Give examples of young and old fold mountain ranges.",
+    "How does the Aravali range differ from the Himalayas?",
+    "Describe the physical characteristics of fold mountains."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the formation of fold mountains",
+     "explain": "Fold mountains are formed when tectonic plates push against each other, folding the crust."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate young and old fold mountains",
+     "explain": "Young fold mountains have rugged relief and high conical peaks (e.g., Himalayas, Alps). Old fold mountains have rounded features and low elevation due to erosion (e.g., Aravali, Ural)."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.4",
+   "title": "Block Mountains",
+   "section": "MOUNTAINS",
+   "definition": "These structures form when extensive crustal segments fracture and shift vertically, leaving raised sections known as horsts and sunken areas known as graben.",
+   "formula": "",
+   "key_idea": "Faulting and vertical displacement create horsts and graben.",
+   "textbook_ref": "fess206.txt lines 96-105",
+   "question_patterns": [
+    "How are block mountains formed?",
+    "What is the difference between horsts and graben?",
+    "Explain the process of vertical displacement in mountain building.",
+    "Give examples of block mountain systems in the world.",
+    "Describe the structure of a block mountain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain block mountain formation",
+     "explain": "Block mountains are formed when large areas are broken and displaced vertically due to faulting."
+    },
+    {
+     "step": 2,
+     "action": "Define horsts and graben",
+     "explain": "The uplifted blocks are called horsts, and the lowered blocks are called graben."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.5",
+   "title": "Volcanic Mountains",
+   "section": "MOUNTAINS",
+   "definition": "Elevations constructed from the accumulation of molten rock, ash, and pyroclastic debris erupted from beneath the crust.",
+   "formula": "",
+   "key_idea": "Volcanic activity deposits lava and ash, building up mountains like Mt. Kilimanjaro and Mt. Fujiyama.",
+   "textbook_ref": "fess206.txt lines 106-112",
+   "question_patterns": [
+    "What are volcanic mountains and how do they form?",
+    "Name two examples of volcanic mountains in the world.",
+    "Describe the process of volcanic mountain building.",
+    "Which geological activity is responsible for the formation of Mt. Fujiyama?",
+    "Explain how lava accumulation leads to mountain formation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain volcanic activity",
+     "explain": "Volcanic activity erupts molten magma, ash, and gases from the earth's interior."
+    },
+    {
+     "step": 2,
+     "action": "Describe mountain building",
+     "explain": "The erupted materials accumulate around the vent, cool down, and solidify to form volcanic mountains."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.3.1",
+   "title": "Plateaus",
+   "section": "PLATEAUS",
+   "definition": "An upland landform characterized by a relatively level summit area that rises abruptly above adjacent lowlands on at least one side.",
+   "formula": "",
+   "key_idea": "Flat-topped elevated landforms rich in mineral resources like coal, iron, and gold.",
+   "textbook_ref": "fess206.txt lines 125-145",
+   "question_patterns": [
+    "What is a plateau and how does it differ from a mountain?",
+    "Why are plateaus highly valuable for mining activities?",
+    "Name some major plateaus of the world and their mineral riches.",
+    "Describe the physical features of a plateau.",
+    "Explain why waterfalls are common in plateau regions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a plateau",
+     "explain": "A plateau is an elevated flat land, resembling a flat-topped tableland standing above the surrounding area."
+    },
+    {
+     "step": 2,
+     "action": "Explain mineral richness",
+     "explain": "Plateaus are rich in mineral deposits, making them major mining centers (e.g., African plateau for gold/diamonds, Chhotanagpur for iron/coal)."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.4.1",
+   "title": "Plains",
+   "section": "PLAINS",
+   "definition": "Extensive low-elevation flatlands, typically under two hundred meters in altitude, created through the accumulation of alluvial sediments from rivers.",
+   "formula": "",
+   "key_idea": "Fertile, flat plains formed by river deposition, supporting high population densities.",
+   "textbook_ref": "fess206.txt lines 150-175",
+   "question_patterns": [
+    "How are plains formed by rivers?",
+    "Why are river plains so thickly populated?",
+    "What are the main characteristics of plains?",
+    "Explain why plains are highly productive for agriculture.",
+    "Name major river plains in Asia and North America."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain plain formation",
+     "explain": "Rivers flowing down mountains erode material and deposit silt, sand, and stones in valleys, forming plains."
+    },
+    {
+     "step": 2,
+     "action": "Explain high population density",
+     "explain": "Plains are fertile, easy to cultivate, and highly accessible for building transport networks and houses."
+    }
+   ]
+  },
+  {
+   "id": "fess.206.5.1",
+   "title": "Landforms and Human Habitation",
+   "section": "LANDFORMS AND THE PEOPLE",
+   "definition": "The study of how diverse terrains dictate human settlement patterns, agricultural productivity, and the ecological necessity of conserving natural resources.",
+   "formula": "",
+   "key_idea": "Human activities are heavily influenced by landforms, requiring responsible and sustainable resource use.",
+   "textbook_ref": "fess206.txt lines 180-205",
+   "question_patterns": [
+    "How do landforms influence the lifestyle of people living on them?",
+    "Why is life more difficult in mountainous areas compared to plains?",
+    "What are the consequences of using land and water in a wasteful manner?",
+    "How can we lower the risks associated with natural calamities?",
+    "What is the objective of the Swachh Bharat Mission mentioned in the chapter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare life on mountains and plains",
+     "explain": "Plains provide better conditions for farming, building houses, and roads, whereas mountains have steep slopes and harsh climates."
+    },
+    {
+     "step": 2,
+     "action": "Explain environmental responsibility",
+     "explain": "We must avoid wasteful land use (like building on fertile land) and pollution, preserving the earth for future generations."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex206.1",
+   "source_ref": "fess206.txt lines 105-110",
+   "concept": "fess.206.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the difference in height between Mauna Kea which is {height_1} meters high and Mount Everest which is {height_2} meters high.",
+   "extracted_variables": {
+    "height_1": 10205,
+    "height_2": 8848
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the lower elevation from the higher elevation",
+     "explain": "To find the difference in elevation, subtract height_2 from height_1.",
+     "compute": "elevation_difference = height_1 - height_2"
+    }
+   ]
+  },
+  {
+   "id": "ex206.2",
+   "source_ref": "fess206.txt lines 125-135",
+   "concept": "fess.206.2.2",
+   "question_type": "compute",
+   "question_pattern": "What is the elevation difference between a mountain peak at {height_1} meters and a plateau at {height_2} meters?",
+   "extracted_variables": {
+    "height_1": 6000,
+    "height_2": 4000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the lower elevation from the higher elevation",
+     "explain": "To find the difference in elevation, subtract height_2 from height_1.",
+     "compute": "elevation_difference = height_1 - height_2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fess206.txt lines 210-230",
+   "questions": [
+    "What are the major landforms?",
+    "What is the difference between a mountain and a plateau?",
+    "What are the different types of mountains?",
+    "How are mountains useful to man?",
+    "How are plains formed?",
+    "Why are the river plains thickly populated?",
+    "Why are mountains thinly populated?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess206.txt lines 231-245",
+   "questions": [
+    "The mountains differ from the hills in terms of (i) elevation (ii) slope (iii) aspect",
+    "Glaciers are found in (i) the mountains (ii) the plains (iii) the plateaus",
+    "The Deccan Plateau is located in (i) Kenya (ii) Australia (iii) India",
+    "The river Yangtze flows in (i) South America (ii) Australia (iii) China",
+    "An important mountain range of Europe is (i) the Andes (ii) the Alps (iii) the Rockies"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fess206.txt lines 246-255",
+   "questions": [
+    "A ___________ is an unbroken flat or a low-level land.",
+    "The Himalayas and the Alps are examples of _______________types of mountains.",
+    "_____________ areas are rich in mineral deposits.",
+    "The _________________ is a line of mountains.",
+    "The ____________areas are most productive for farming."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

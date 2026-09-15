@@ -1,0 +1,316 @@
+{
+ "catalog": "catalog_class8_social_science_ch202",
+ "concepts": [
+  {
+   "id": "hess.202.1",
+   "title": "Mercantile Trade and the Royal Charter of 1600",
+   "questions": [
+    {
+     "q": "Using the method 'Mercantile Trade and the Royal Charter of 1600', work with: cost_of_goods = 12000, revenue_from_sales = 20000. Carry the chain through step by step and give the final value of profit.",
+     "a": "8000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mercantile Trade and the Royal Charter of 1600' and work with: cost_of_goods = 20000, revenue_from_sales = 1200. Carry the chain through step by step and give the final value of profit.",
+     "a": "-18800 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mercantile Trade and the Royal Charter of 1600' refers to.",
+     "a": "A commercial system where an enterprise secures exclusive trading privileges to purchase commodities at minimal rates and resell them in distant markets at substantial profit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mercantile Trade and the Royal Charter of 1600'.",
+     "a": "Monopoly charters eliminated domestic competition while driving armed rivalry against other European trading companies.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mercantile Trade and the Royal Charter of 1600', in plain ASCII form.",
+     "a": "profit = revenue_from_sales - cost_of_goods",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.2",
+   "title": "Establishment of Trade in Bengal and Farman Abuse",
+   "questions": [
+    {
+     "q": "Using the method 'Establishment of Trade in Bengal and Farman Abuse', work with: unpaid_customs_duty_on_private_trade = 50. Carry the chain through step by step and give the final value of revenue_loss.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Establishment of Trade in Bengal and Farman Abuse' and work with: unpaid_customs_duty_on_private_trade = 60. Carry the chain through step by step and give the final value of revenue_loss.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Establishment of Trade in Bengal and Farman Abuse' refers to.",
+     "a": "The expansion of British fortified settlements around Calcutta and the misuse of Mughal royal trade exemptions by Company servants for private enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Establishment of Trade in Bengal and Farman Abuse'.",
+     "a": "Private trade duty evasion severely depleted Bengal treasury revenues and caused sharp political friction with the Nawabs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Establishment of Trade in Bengal and Farman Abuse', in plain ASCII form.",
+     "a": "revenue_loss = unpaid_customs_duty_on_private_trade",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.3",
+   "title": "The Battle of Plassey (1757)",
+   "questions": [
+    {
+     "q": "Using the method 'The Battle of Plassey (1757)', work with: local_treason = 200, military_victory = 75. Carry the chain through step by step and give the final value of political_dominance.",
+     "a": "275 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Battle of Plassey (1757)' and work with: local_treason = 75, military_victory = 120. Carry the chain through step by step and give the final value of political_dominance.",
+     "a": "195 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Battle of Plassey (1757)' refers to.",
+     "a": "The decisive confrontation in 1757 where the Company led by Robert Clive overthrew Nawab Sirajuddaulah through military action and internal conspiracy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Battle of Plassey (1757)'.",
+     "a": "Plassey marked the first major territorial and political triumph of the British in the Indian subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Battle of Plassey (1757)', in plain ASCII form.",
+     "a": "political_dominance = military_victory + local_treason",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.4",
+   "title": "Battle of Buxar and the Grant of Diwani (1765)",
+   "questions": [
+    {
+     "q": "Using the method 'Battle of Buxar and the Grant of Diwani (1765)', work with: administrative_expenses = 20000, provincial_land_taxes = 10. Carry the chain through step by step and give the final value of net_revenue.",
+     "a": "-19990 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Battle of Buxar and the Grant of Diwani (1765)' and work with: administrative_expenses = 8000, provincial_land_taxes = 25. Carry the chain through step by step and give the final value of net_revenue.",
+     "a": "-7975 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Battle of Buxar and the Grant of Diwani (1765)' refers to.",
+     "a": "The formal transfer of fiscal administration rights of Bengal, Bihar, and Orissa to the Company by the Mughal Emperor following the Battle of Buxar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Battle of Buxar and the Grant of Diwani (1765)'.",
+     "a": "Assumption of Diwani allowed Bengal revenues to fund military conquests and trade purchases without importing bullion from Britain.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Battle of Buxar and the Grant of Diwani (1765)', in plain ASCII form.",
+     "a": "net_revenue = provincial_land_taxes - administrative_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.5",
+   "title": "The System of Subsidiary Alliance",
+   "questions": [
+    {
+     "q": "Using the method 'The System of Subsidiary Alliance', work with: penalty_for_unpaid_subsidiary_troops = 120. Carry the chain through step by step and give the final value of territory_ceded.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The System of Subsidiary Alliance' and work with: penalty_for_unpaid_subsidiary_troops = 120. Carry the chain through step by step and give the final value of territory_ceded.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The System of Subsidiary Alliance' refers to.",
+     "a": "A treaty framework compelling native rulers to disband independent armies, house Company troops at local expense, and surrender territory if payments defaulted.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The System of Subsidiary Alliance'.",
+     "a": "Residents acted as virtual rulers within allied states while the alliance mechanism progressively annexed princely dominions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The System of Subsidiary Alliance', in plain ASCII form.",
+     "a": "territory_ceded = penalty_for_unpaid_subsidiary_troops",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.6",
+   "title": "Anglo-Mysore Wars and Tipu Sultan",
+   "questions": [
+    {
+     "q": "Using the method 'Anglo-Mysore Wars and Tipu Sultan', work with: artillery = 5, foreign_alliances = 25, modernized_infantry = 100. Carry the chain through step by step and give the final value of resistance_capability.",
+     "a": "130 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Anglo-Mysore Wars and Tipu Sultan' and work with: artillery = 120, foreign_alliances = 120, modernized_infantry = 400. Carry the chain through step by step and give the final value of resistance_capability.",
+     "a": "640 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Anglo-Mysore Wars and Tipu Sultan' refers to.",
+     "a": "Four major military conflicts between the Kingdom of Mysore and the British, culminating in the death of Tipu Sultan in 1799 at Shrirangapatnam.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anglo-Mysore Wars and Tipu Sultan'.",
+     "a": "Mysore's control of spice trade and modern alliance with the French made it the most formidable southern adversary to British expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Anglo-Mysore Wars and Tipu Sultan', in plain ASCII form.",
+     "a": "resistance_capability = modernized_infantry + artillery + foreign_alliances",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.7",
+   "title": "Subjugation of the Marathas",
+   "questions": [
+    {
+     "q": "Using the method 'Subjugation of the Marathas', work with: unity_of_sardars_under_peshwa = 75. Carry the chain through step by step and give the final value of confederacy_strength.",
+     "a": "75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Subjugation of the Marathas' and work with: unity_of_sardars_under_peshwa = 15. Carry the chain through step by step and give the final value of confederacy_strength.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Subjugation of the Marathas' refers to.",
+     "a": "The series of three Anglo-Maratha wars that dismantled the Maratha confederacy and established British supremacy south of the Vindhyas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Subjugation of the Marathas'.",
+     "a": "Internal divisions among Maratha sardars allowed the Company to dismantle their power between 1775 and 1819.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Subjugation of the Marathas', in plain ASCII form.",
+     "a": "confederacy_strength = unity_of_sardars_under_peshwa",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.8",
+   "title": "Policy of Paramountcy and Regional Resistance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Policy of Paramountcy and Regional Resistance' refers to.",
+     "a": "The doctrine initiated under Lord Hastings asserting that British authority was supreme over all Indian states, justifying direct intervention and territorial seizure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Policy of Paramountcy and Regional Resistance'.",
+     "a": "Paramountcy justified aggressive expansionism but sparked armed anti-colonial resistance across various local territories.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Policy of Paramountcy and Regional Resistance', in plain ASCII form.",
+     "a": "paramount_authority > sovereignty_of_princely_states",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.9",
+   "title": "The Doctrine of Lapse",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Doctrine of Lapse' refers to.",
+     "a": "An annexation policy introduced by Lord Dalhousie decreeing that any dependent princely state lacking a natural male heir would automatically lapse to British control.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Doctrine of Lapse'.",
+     "a": "The policy barred adopted heirs from inheriting sovereignty, leading to widespread dispossession of historic dynasties.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Doctrine of Lapse', in plain ASCII form.",
+     "a": "state_status = annexed_if(natural_male_heir == false)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.10",
+   "title": "Colonial Administrative and Judicial System",
+   "questions": [
+    {
+     "q": "Using the method 'Colonial Administrative and Judicial System', work with: law_and_order_supervision = 120, revenue_collection = 1200. Carry the chain through step by step and give the final value of district_administration.",
+     "a": "1320 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Colonial Administrative and Judicial System' and work with: law_and_order_supervision = 200, revenue_collection = 80000. Carry the chain through step by step and give the final value of district_administration.",
+     "a": "80200 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Colonial Administrative and Judicial System' refers to.",
+     "a": "The administrative framework dividing British possessions into Presidencies and establishing dual district courts (civil and criminal) under European District Collectors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonial Administrative and Judicial System'.",
+     "a": "Standardized digests of Hindu and Muslim laws centralized legal authority under British judicial oversight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colonial Administrative and Judicial System', in plain ASCII form.",
+     "a": "district_administration = revenue_collection + law_and_order_supervision",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.202.11",
+   "title": "Structure and Evolution of the Sepoy Army",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structure and Evolution of the Sepoy Army' refers to.",
+     "a": "The transformation of the British military apparatus from traditional cavalry-dominant units to disciplined, musket-bearing infantry recruited from local peasantries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structure and Evolution of the Sepoy Army'.",
+     "a": "European military drill created professional discipline but disregarded deep-seated caste and religious identities of sepoys.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structure and Evolution of the Sepoy Army', in plain ASCII form.",
+     "a": "infantry_firepower > traditional_cavalry_charges",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_086",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_086",
+   "title": "c6_math_ch08_086",
+   "questions": [
+    {
+     "q": "If you have a square with a side length of 3 cm, what is its area and what is the unit used to express it?",
+     "a": "The area is 9 cm². A student who says \"12 cm\" is confusing area with perimeter (adding sides instead of multiplying), and one who says \"9 cm\" has forgotten that area units must be \"square\" (cm²).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why we use \"square units\" instead of just \"units\" to measure area.",
+     "a": "We use square units because we are counting how many 1x1 unit squares fit inside the shape. A student who says \"because it is standard\" doesn't understand the geometry behind the measurement.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular floor is 6 meters long and 4 meters wide. How many square-meter tiles are needed to cover the entire floor?",
+     "a": "6 m × 4 m = 24 square meters. If the student adds 6 + 4, they are incorrectly calculating the perimeter instead of the area.",
+     "self_check": true
+    },
+    {
+     "q": "If you double the length of a rectangle while keeping the width the same, what happens to the area?",
+     "a": "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w).",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two different rectangles to have the same area but different perimeters? Give an example.",
+     "a": "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this. A student saying \"no\" fails to realize that dimensions can change while their product remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where you have to calculate the \"leftover\" area of a garden after placing a swimming pool inside it. What information would you need?",
+     "a": "To solve this, I need the dimensions of the garden and the dimensions of the pool. A good answer includes a plan to subtract the pool's area from the total garden area; a poor answer ignores the need for both sets of dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

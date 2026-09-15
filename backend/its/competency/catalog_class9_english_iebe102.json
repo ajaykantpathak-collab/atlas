@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 2,
+ "chapter_title": "The Pot Maker",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.102.2.1",
+   "title": "Summary of the Story",
+   "section": "2",
+   "definition": "Sentila, a young Naga girl, dreams of becoming a pot maker like her mother Arenla and grandmother, but her mother wants her to become a weaver; whenever she can, Sentila secretly approaches expert potters to learn the clay craft and pursues her calling.",
+   "formula": "-",
+   "key_idea": "A daughter's dream of the potter's wheel clashes with a mother's plan of weaving.",
+   "textbook_ref": "iebe102.txt story sections (Sentila, Arenla, learning the craft)",
+   "question_patterns": [
+    "summarise the story in your own words",
+    "what was Sentila's dream and why",
+    "why did Arenla want Sentila to become a weaver",
+    "how did Sentila try to learn pottery",
+    "what does the story show about learning a traditional craft",
+    "how does the conflict between mother and daughter develop"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the dream",
+     "explain": "Sentila wishes to follow her mother's and grandmother's pottery tradition."},
+    {"step": 2, "action": "identify the conflict",
+     "explain": "Arenla prefers weaving for her daughter's future."},
+    {"step": 3, "action": "follow the effort",
+     "explain": "Sentila seeks out expert potters and practices quietly."}
+   ]
+  },
+  {
+   "id": "iebe.102.2.2",
+   "title": "Character Sketches - Sentila and Arenla",
+   "section": "2",
+   "definition": "Sentila is passionate, patient and quietly determined, while Arenla is a loving but firm mother shaped by practical concerns; their differences are of dreams, not of love.",
+   "formula": "-",
+   "key_idea": "Two strong wills, one bond: Sentila's passion meets Arenla's practicality.",
+   "textbook_ref": "iebe102.txt passages on Sentila and Arenla",
+   "question_patterns": [
+    "draw a character sketch of Sentila",
+    "what kind of mother is Arenla - justify with incidents",
+    "compare the dreams of Sentila and Arenla",
+    "why does Arenla oppose Sentila's choice - give reasons",
+    "which qualities help Sentila pursue her dream",
+    "do you sympathise with Arenla - give reasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list Sentila's qualities",
+     "explain": "Determination, curiosity and love for the clay craft."},
+    {"step": 2, "action": "list Arenla's qualities",
+     "explain": "Hard work, practicality and deep motherly care."},
+    {"step": 3, "action": "weigh both views",
+     "explain": "Both mother and daughter act out of love and concern."}
+   ]
+  },
+  {
+   "id": "iebe.102.2.3",
+   "title": "Theme - Tradition, Craft and Individual Choice",
+   "section": "2",
+   "definition": "The story celebrates traditional crafts like pottery and weaving while asking whether tradition should dictate an individual's calling; it honours heritage and personal choice together.",
+   "formula": "-",
+   "key_idea": "Traditions live through learners, but each learner owns the choice of craft.",
+   "textbook_ref": "iebe102.txt thematic passages",
+   "question_patterns": [
+    "what is the theme of the story - explain",
+    "how does the story honour traditional crafts",
+    "should parents decide a child's vocation - discuss with the story",
+    "what does the potter's wheel symbolise in the story",
+    "relate the story to crafts of your own region",
+    "how can traditional crafts survive in modern times - suggest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the theme",
+     "explain": "Respect for craft heritage alongside personal choice."},
+    {"step": 2, "action": "support from the text",
+     "explain": "Sentila's persistence and Arenla's mastery both honour craft."},
+    {"step": 3, "action": "apply today",
+     "explain": "Connect to vanishing crafts and young learners around you."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iebe102.txt exercises",
+   "questions": [
+     "Why did Sentila want to become a pot maker?",
+     "How did Sentila learn pottery despite her mother's wish?",
+     "Do you think Sentila was right - give reasons."
+   ]
+  }
+ ]
+}

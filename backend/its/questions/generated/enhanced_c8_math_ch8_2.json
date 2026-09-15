@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_2",
+   "title": "c8_math_ch8_2",
+   "questions": [
+    {
+     "q": "Write the formula to convert a fraction \\(\\frac{a}{b}\\) into a percentage.",
+     "a": "The formula is \\(\\frac{a}{b} \\times 100\\%\\). A wrong answer (e.g., \\(\\frac{a}{b} \\times 10\\) or \\(\\frac{a \\times 100}{b}\\) without the % sign) reveals the student has not memorized the exact conversion rule or confuses it with decimal conversion (where you multiply by 10, 100, etc., based on decimal places).",
+     "self_check": true
+    },
+    {
+     "q": "Why do we multiply a fraction by 100 to convert it to a percentage? Explain using the meaning of \"per cent\".",
+     "a": "\"Per cent\" means \"per hundred\". A percentage expresses a number as parts out of 100. Multiplying the fraction by 100 scales it to an equivalent fraction with denominator 100, directly giving the \"parts per hundred\". A wrong answer (e.g., \"because the formula says so\" or \"to make the number bigger\") shows the student lacks conceptual understanding of the definition of percentage and is relying on rote memorization.",
+     "self_check": true
+    },
+    {
+     "q": "Convert \\(\\frac{3}{8}\\) to a percentage.",
+     "a": "Step 1: Write the fraction \\(\\frac{3}{8}\\). Step 2: Multiply by 100: \\(\\frac{3}{8} \\times 100 = \\frac{300}{8}\\). Step 3: Divide 300 by 8: \\(300 \\div 8 = 37.5\\). Step 4: Add % sign: 37.5%. A wrong answer like 3.75% reveals the student divided by 100 instead of multiplying, or misplaced the decimal. An answer of 37% reveals they truncated instead of completing the division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the percentages: \\(\\frac{5}{6}\\) and \\(\\frac{7}{8}\\). Which is larger? Explain without calculating the exact percentages.",
+     "a": "\\(\\frac{7}{8}\\) is larger. Reasoning: Both fractions are close to 1. \\(\\frac{5}{6}\\) is \\(\\frac{1}{6}\\) away from 1, while \\(\\frac{7}{8}\\) is \\(\\frac{1}{8}\\) away from 1. Since \\(\\frac{1}{8} < \\frac{1}{6}\\), \\(\\frac{7}{8}\\) is closer to 1 (i.e., closer to 100%). A wrong answer choosing \\(\\frac{5}{6}\\) or saying they are equal reveals the student cannot reason about fraction magnitudes relative to the whole and relies solely on computation.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts \\(\\frac{2}{5}\\) to a percentage by writing \\(\\frac{2}{5} = \\frac{40}{100} = 40\\%\\). Is this method correct? If yes, explain why it works. If not, correct it.",
+     "a": "Yes, the method is correct. The student found an equivalent fraction with denominator 100 by multiplying numerator and denominator by 20. Since a percentage is a fraction with denominator 100, \\(\\frac{40}{100}\\) directly reads as 40%. This is equivalent to multiplying by 100 because \\(\\frac{2}{5} \\times 100 = \\frac{2}{5} \\times \\frac{100}{1} = \\frac{200}{5} = 40\\). A wrong answer saying it's incorrect reveals the student does not recognize that the equivalent-fraction method is mathematically identical to the multiplication method.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation where you need to convert a mixed fraction to a percentage. Write the problem and solve it.",
+     "a": "Example problem: \"A recipe requires \\(1 \\frac{1}{2}\\) cups of sugar. You have a 2-cup measuring cup. What percentage of the measuring cup will be filled?\" Solution: \\(1 \\frac{1}{2} = \\frac{3}{2}\\). \\(\\frac{3}{2} \\times 100 = 150\\%\\). A poor answer (e.g., using a proper fraction only, or solving incorrectly) reveals the student cannot apply the concept to mixed numbers or real-world contexts, indicating a procedural-only understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Squares and Square Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.105.5.1",
+   "title": "Properties of Square Numbers",
+   "section": "5.2",
+   "definition": "Square numbers end only in 0, 1, 4, 5, 6 or 9 at the units place, never in 2, 3, 7 or 8; they carry an odd number of factors, sit between consecutive squares in growing gaps of odd numbers, and squares of even numbers are even.",
+   "formula": "-",
+   "key_idea": "The units digit can reject a square instantly but can never confirm one.",
+   "textbook_ref": "hemh105.txt section 5.2 (properties of square numbers)",
+   "question_patterns": [
+    "which of the given numbers are perfect squares by units digit test",
+    "can a square number end in 8 - justify",
+    "write five numbers that are not square numbers by their ending digit",
+    "how many numbers lie between the squares of 12 and 13",
+    "what is the parity of the square of an odd number",
+    "check whether 1057 is a perfect square"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "inspect the units digit",
+     "explain": "Digits 2, 3, 7, 8 immediately disqualify a number."},
+    {"step": 2, "action": "test by odd subtraction",
+     "explain": "Subtract 1, 3, 5 ... ; reaching exactly 0 proves a perfect square."},
+    {"step": 3, "action": "confirm by factors",
+     "explain": "Pairing prime factors into equal pairs confirms the square."}
+   ]
+  },
+  {
+   "id": "hemh.105.5.2",
+   "title": "Pythagorean Triplets",
+   "section": "5.4",
+   "definition": "For any odd natural number m, the three numbers m, half of m squared minus 1, and half of m squared plus 1 form a Pythagorean triplet - taking m = 3 gives the classic 3, 4, 5 satisfying the square-sum relation.",
+   "formula": "leg = (m * m - 1) / 2",
+   "key_idea": "Pick an odd m, then (m*m - 1)/2 and (m*m + 1)/2 complete the triplet.",
+   "textbook_ref": "hemh105.txt section 5.4.2 (Pythagorean triplets)",
+   "question_patterns": [
+    "find a Pythagorean triplet whose one member is 7",
+    "write a Pythagorean triplet using m = 9",
+    "check whether 8, 15, 17 form a Pythagorean triplet",
+    "generate a triplet for the given odd number",
+    "verify the square-sum relation for the given triplet",
+    "which member is the hypotenuse in a generated triplet"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the odd seed",
+     "explain": "Compute m squared.",
+     "compute": "sq = m * m"},
+    {"step": 2, "action": "form the two legs",
+     "explain": "Half of sq minus 1 and half of sq plus 1 give the other members.",
+     "compute": "leg = (sq - 1) / 2"}
+   ]
+  },
+  {
+   "id": "hemh.105.5.3",
+   "title": "Squares as Sum of Successive Odd Numbers",
+   "section": "5.3",
+   "definition": "Each square equals the sum of the first so-many odd numbers - 1, 4 = 1 + 3, 9 = 1 + 3 + 5 - so adding the next odd number hops from one square to the next, and successive subtraction of odd numbers tests whether a number is a square.",
+   "formula": "next_odd = 2 * n - 1",
+   "key_idea": "The nth odd number is 2n - 1, and squares grow by exactly that much.",
+   "textbook_ref": "hemh105.txt section 5.3 (some more interesting patterns)",
+   "question_patterns": [
+    "express 49 as the sum of successive odd numbers",
+    "find 36 squared given 35 squared using the odd number pattern",
+    "what is the 20th odd number",
+    "test whether 55 is a perfect square by repeated subtraction",
+    "how many odd numbers sum to the given square",
+    "state the pattern connecting squares and odd numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the nth odd number",
+     "explain": "The nth odd number equals 2n - 1.",
+     "compute": "next_odd = 2 * n - 1"},
+    {"step": 2, "action": "add to the previous square",
+     "explain": "Each square exceeds the previous one by the nth odd number.",
+     "compute": "next_square = prev_square + next_odd"}
+   ]
+  },
+  {
+   "id": "hemh.105.5.4",
+   "title": "Finding the Square of a Number",
+   "section": "5.4",
+   "definition": "Squares of awkward numbers come easy after splitting: write the number as a convenient sum like 43 = 40 + 3 and expand (a + b) squared into a squared + 2ab + b squared, computing each easy piece separately.",
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "key_idea": "Split, square the parts, double the cross product: 43 squared from 40 and 3.",
+   "textbook_ref": "hemh105.txt section 5.4 (finding the square of a number, other patterns)",
+   "question_patterns": [
+    "find 43 squared by the split method",
+    "calculate 96 squared using (100 - 4)",
+    "find the square of 105 using patterns",
+    "compute the square of the given two-digit number easily",
+    "expand (a + b) squared for the given split",
+    "use the identity to square 55"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the two parts",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the cross product",
+     "explain": "The identity completes the square of the sum.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "hemh.105.5.5",
+   "title": "Square Roots",
+   "section": "5.5",
+   "definition": "The square root undoes squaring: the root of 625 is 25 because 25 squared makes 625; roots are found by repeated subtraction of odd numbers, by pairing prime factors, or by the long division method, and decimals root the same way.",
+   "formula": "root = sqrt(number)",
+   "key_idea": "Root asks: which number squared gives this? Pairing factors answers it.",
+   "textbook_ref": "hemh105.txt section 5.5 (square roots, finding square roots, division method)",
+   "question_patterns": [
+    "find the square root of 625 by prime factorisation",
+    "find the square root of the given perfect square",
+    "find the square root of 7.29",
+    "how many digits will the square root of the given number have",
+    "find the smallest number by which the given number must be multiplied to get a perfect square",
+    "check the square root by multiplying back"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the square root",
+     "explain": "The root is the number whose square gives the original.",
+     "compute": "root = sqrt(number)"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh105.txt section 5.4.2 triplet example",
+   "concept": "hemh.105.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find a Pythagorean triplet whose smallest member is {m}.",
+   "extracted_variables": {
+    "m": "the given odd member of the triplet"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the seed",
+     "explain": "Compute m squared.",
+     "compute": "sq = m * m"},
+    {"step": 2, "action": "form the smaller leg",
+     "explain": "Half of sq minus 1.",
+     "compute": "leg = (sq - 1) / 2"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh105.txt triplet practice",
+   "concept": "hemh.105.5.2",
+   "question_type": "compute",
+   "question_pattern": "Write the Pythagorean triplet generated by the odd number {m}.",
+   "extracted_variables": {
+    "m": "odd seed of the triplet"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the seed",
+     "explain": "m squared drives the formula.",
+     "compute": "sq = m * m"},
+    {"step": 2, "action": "form the smaller leg",
+     "explain": "Half of the square minus one.",
+     "compute": "leg = (sq - 1) / 2"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh105.txt section 5.4 square of 43 example",
+   "concept": "hemh.105.5.4",
+   "question_type": "compute",
+   "question_pattern": "Find {whole} squared by writing it as {a} + {b} and using the identity.",
+   "extracted_variables": {
+    "whole": "the number to square",
+    "a": "the larger convenient part",
+    "b": "the smaller part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "2ab completes the square of the sum.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh105.txt section 5.4 practice",
+   "concept": "hemh.105.5.4",
+   "question_type": "compute",
+   "question_pattern": "Compute {whole} squared by the split method with a = {a} and b = {b}.",
+   "extracted_variables": {
+    "whole": "number to square",
+    "a": "convenient larger part",
+    "b": "remaining part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "Easy squares of a and b.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "Double the cross product joins them.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh105.txt section 5.3 odd number pattern",
+   "concept": "hemh.105.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the square that follows {prev_square} by adding the nth odd number for n = {n}.",
+   "extracted_variables": {
+    "n": "position of the odd number",
+    "prev_square": "square of n minus 1"
+   },
+   "solution_template": [
+    {"step": 1, "action": "write the nth odd number",
+     "explain": "2n minus 1 is the nth odd number.",
+     "compute": "next_odd = 2 * n - 1"},
+    {"step": 2, "action": "add to the previous square",
+     "explain": "The sum is the next square.",
+     "compute": "next_square = prev_square + next_odd"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh105.txt section 5.3 practice",
+   "concept": "hemh.105.5.3",
+   "question_type": "compute",
+   "question_pattern": "Given that {prev_square} is a square, use the odd number rule with n = {n} to find the next square.",
+   "extracted_variables": {
+    "n": "odd number position",
+    "prev_square": "known earlier square"
+   },
+   "solution_template": [
+    {"step": 1, "action": "write the nth odd number",
+     "explain": "Compute 2n minus 1.",
+     "compute": "next_odd = 2 * n - 1"},
+    {"step": 2, "action": "add to the previous square",
+     "explain": "The next square follows.",
+     "compute": "next_square = prev_square + next_odd"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh105.txt section 5.5 square root examples",
+   "concept": "hemh.105.5.5",
+   "question_type": "compute",
+   "question_pattern": "Find the square root of {number}.",
+   "extracted_variables": {
+    "number": "the perfect square given"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the square root",
+     "explain": "The root is the side whose square rebuilds the number.",
+     "compute": "root = sqrt(number)"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh105.txt section 5.5 practice",
+   "concept": "hemh.105.5.5",
+   "question_type": "compute",
+   "question_pattern": "The area of a square is {number} sq units. Find its side by taking the square root.",
+   "extracted_variables": {
+    "number": "area of the square"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the square root",
+     "explain": "The side is the root of the area.",
+     "compute": "root = sqrt(number)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hemh105.txt EXERCISE 5.1-5.2",
+   "questions": [
+     "What will be the unit digit of the squares of the given numbers?",
+     "Observe the pattern and find the missing square numbers.",
+     "How many numbers lie between the squares of the given pairs?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hemh105.txt EXERCISE 5.3-5.4",
+   "questions": [
+     "Find the square of the given numbers without actual multiplication.",
+     "Write a Pythagorean triplet whose one member is 15.",
+     "Express 81 as the sum of successive odd numbers."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hemh105.txt EXERCISE 5.5",
+   "questions": [
+     "Find the square root of each of the given numbers by division method.",
+     "Find the smallest number by which 3645 must be divided to get a perfect square."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_007",
+   "title": "c7_math_ch10_007",
+   "questions": [
+    {
+     "q": "Which of the following mathematical statements correctly demonstrates the commutative property of multiplication for integers $-8$ and $4$?\nA) $(-8) + 4 = 4 + (-8)$\nB) $(-8) \\times 4 = 4 \\times (-8)$\nC) $(-8) \\div 4 = 4 \\div (-8)$\nD) $(-8) - 4 = 4 - (-8)$",
+     "a": "The correct answer is B. Option B correctly uses the multiplication operation to show that flipping the order of $-8$ and $4$ maintains equality: $(-8) \\times 4 = -32$ and $4 \\times (-8) = -32$. Choosing Option A shows a confusion between the commutative property of *addition* and multiplication. Choosing options C or D indicates that the student does not recognize that commutativity applies specifically to multiplication (and addition), but not to division or subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims that $(-5) \\times (-6)$ is not equal to $(-6) \\times (-5)$ because the negative signs shift positions when you rewrite the expression. Is Rahul correct, and why?\nA) Yes, because switching the order of negative numbers changes the sign of the product.\nB) No, because the commutative property applies to integers regardless of their signs.\nC) Yes, because multiplication is only commutative for positive whole numbers.\nD) No, but only because the product becomes positive, which cancels out the shift.",
+     "a": "The correct answer is B. Rahul is incorrect because the commutative property of multiplication holds true for all integers, whether positive, negative, or zero. Both expressions evaluate to $+30$ ($(-5) \\times (-6) = 30$ and $(-6) \\times (-5) = 30$). Choosing Option A or C reveals a misconception that negative integers break fundamental arithmetic properties or that commutativity is restricted to natural numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $14 \\times (-9)$ using the commutative property of multiplication by first rewriting the expression with (-9) as the first multiplier. What is the final product?",
+     "a": "The correct answer is $-126$. \nSteps:\n1. Rewrite using commutativity: $(-9) \\times 14$.\n2. Identify the sign rules: negative integer $\\times$ positive integer = negative product.\n3. Multiply the absolute values: $9 \\times 14 = 126$.\n4. Apply the negative sign: $-126$.\nA student who answers $+126$ has made a sign error, forgetting that multiplying a negative integer by a positive integer yields a negative product.",
+     "self_check": true
+    },
+    {
+     "q": "Examine the following chain of multiplications: $A = [(-2) \\times 7] \\times (-5)$ and $B = (-2) \\times [7 \\times (-5)]$. How does the commutative property relate to rewriting these expressions?",
+     "a": "The correct answer is that while both $A$ and $B$ evaluate to $+70$, transitioning between them requires both the *associative* property (moving brackets) and the *commutative* property (swapping inner terms). A student who confuses commutativity with associativity will state that swapping brackets is an example of the commutative property. Commutativity strictly refers to changing the order (position) of factors, whereas associativity refers to changing their grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student working below for the expression $(-12) \\times (-3) = (-3) \\times (-12)$:\nStep 1: $(-12) \\times (-3) = +36$\nStep 2: $(-3) \\times (-12) = -36$\nStep 3: Therefore, the commutative property does not hold for negative integers.\nIdentify the error in the student's work.",
+     "a": "The correct answer is that the error is in Step 2, where the student incorrectly computed $(-3) \\times (-12)$ as $-36$. The correct product of two negative integers is positive, so $(-3) \\times (-12)$ equals $+36$. A student who agrees with the faulty conclusion does not understand the sign rule for multiplying two negative integers (negative $\\times$ negative = positive) and falsely believes negative numbers violate the commutative property.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic or numerical expression involving three different integers (one positive, one negative, and zero) and show how applying the commutative property to two of the factors leaves the overall product unchanged.",
+     "a": "A good answer will present an expression such as $5 \\times (-4) \\times 0$, apply commutativity to rewrite it as $(-4) \\times 5 \\times 0$, and show that both evaluate to $0$. A poor answer uses only positive numbers, omits zero, or fails to demonstrate an actual change in the order of the factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

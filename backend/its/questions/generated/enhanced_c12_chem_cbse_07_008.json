@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_008",
+   "title": "c12_chem_cbse_07_008",
+   "questions": [
+    {
+     "q": "Write the structures of the two main products formed when phenol is treated with dilute nitric acid at 298 K, and explain why they can be separated by steam distillation.",
+     "a": "The products are o-nitrophenol (intramolecular H-bonding, steam volatile) and p-nitrophenol (intermolecular H-bonding, less volatile). A wrong answer that draws m-nitrophenol reveals the student does not understand the ortho/para directing effect of –OH. Writing both products but giving incorrect reasoning for steam distillation (e.g., \"o-nitrophenol has higher boiling point\") shows confusion between intra- vs intermolecular hydrogen bonding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why phenol reacts with bromine water to give a white precipitate of 2,4,6-tribromophenol without any Lewis acid catalyst, whereas benzene requires FeBr₃ for bromination.",
+     "a": "The –OH group donates electron density into the ring via resonance, making the ring highly electron-rich and activating it toward electrophilic attack. The phenoxide ion formed in water is even more activated. A wrong answer stating \"–OH is electron-withdrawing\" or \"bromine water is a stronger electrophile\" reveals fundamental misunderstanding of activating groups and the role of catalysts in electrophilic aromatic substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major product when 3-methylphenol (m-cresol) undergoes mononitration. Draw the structure and justify the position of substitution using resonance structures.",
+     "a": "Major product: 2-methyl-4-nitrophenol (nitro group para to –OH, ortho to –CH₃). The –OH is strongly activating and ortho/para directing; –CH₃ is weakly activating and ortho/para directing. Positions ortho to both groups (C-2 and C-6) are most activated, but C-6 is sterically hindered by –CH₃, so substitution occurs at C-4 (para to –OH). A wrong answer placing nitro at C-6 (ignoring sterics) or C-5 (meta to –OH) shows inability to weigh directing effects and steric factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactivity of phenol, phenoxide ion, and anisole (methoxybenzene) toward electrophilic aromatic substitution. Rank them in increasing order of reactivity and explain using resonance structures.",
+     "a": "Order: anisole < phenol < phenoxide ion. Anisole: –OCH₃ donates by resonance but inductive withdrawal reduces net donation. Phenol: –OH donates by resonance, no inductive withdrawal from alkyl group. Phenoxide: negative charge on oxygen enhances resonance donation dramatically. A wrong ranking (e.g., phenol < anisole) reveals confusion between inductive and resonance effects of alkoxy vs hydroxy groups.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following equation for Kolbe's reaction: C₆H₅OH + CO₂ + NaOH → o-HOC₆H₄COONa. Identify two errors in this equation and write the correct balanced equation with proper reaction conditions.",
+     "a": "Errors: (1) Phenol must first be converted to sodium phenoxide with NaOH before reacting with CO₂; the equation shows direct reaction of phenol. (2) The reaction requires heating under pressure (400 K, 4-7 atm), not room conditions. Correct: C₆H₅ONa + CO₂ → (400 K, 4-7 atm) → o-HOC₆H₄COONa. A student missing the phenoxide step shows they don't understand the reaction proceeds via the more nucleophilic phenoxide ion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step sequence to convert phenol to 2,4-dihydroxybenzaldehyde using reactions covered in this chapter. Specify reagents and conditions for each step.",
+     "a": "Step 1: Kolbe's reaction — phenol + NaOH → sodium phenoxide, then CO₂ (400 K, 4-7 atm) → salicylic acid (2-hydroxybenzoic acid) after acidification. Step 2: Reimer–Tiemann reaction on salicylic acid — CHCl₃ + NaOH → 2,4-dihydroxybenzaldehyde (formylation ortho to –OH, para to –COOH). A poor answer attempting direct Reimer–Tiemann on phenol gives only salicylaldehyde (2-hydroxybenzaldehyde), missing the second –OH introduction. This reveals inability to plan multi-step synthesis using directing effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

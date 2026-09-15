@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_007",
+   "title": "c10_math_cbse_12_007",
+   "questions": [
+    {
+     "q": "Write the formula for the total surface area of a frustum of a cone with radii \\(r_1\\) and \\(r_2\\) and slant height \\(l\\). Explain what each term represents.",
+     "a": "The total surface area is \\(\\pi(r_1 + r_2)l + \\pi r_1^2 + \\pi r_2^2\\). The first term \\(\\pi(r_1 + r_2)l\\) is the curved surface area; \\(\\pi r_1^2\\) is the area of the larger circular base; \\(\\pi r_2^2\\) is the area of the smaller circular top. A wrong answer (e.g., missing one circular area or using \\(r_1 - r_2\\) instead of \\(r_1 + r_2\\)) reveals the student does not understand that TSA includes both flat ends or confuses the CSA formula with the volume formula.",
+     "self_check": true
+    },
+    {
+     "q": "A frustum has radii 10 cm and 6 cm, and vertical height 8 cm. A student computes the slant height as \\(l = \\sqrt{8^2 + (10+6)^2} = \\sqrt{64+256} = \\sqrt{320}\\). Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The correct slant height is \\(l = \\sqrt{h^2 + (r_1 - r_2)^2} = \\sqrt{8^2 + (10-6)^2} = \\sqrt{64+16} = \\sqrt{80}\\). The student used \\((r_1 + r_2)\\) instead of \\((r_1 - r_2)\\). This misconception arises from confusing the formula for CSA (which uses sum of radii) with the Pythagorean relation for slant height (which uses the difference of radii because the slant height forms the hypotenuse of a right triangle with legs \\(h\\) and \\(r_1 - r_2\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Find the curved surface area of a frustum with radii 9 cm and 4 cm, and slant height 13 cm. Use \\(\\pi = \\frac{22}{7}\\).",
+     "a": "Step 1: Identify \\(r_1 = 9\\), \\(r_2 = 4\\), \\(l = 13\\).\nStep 2: Use formula \\(\\text{CSA} = \\pi(r_1 + r_2)l\\).\nStep 3: Substitute: \\(\\text{CSA} = \\frac{22}{7} \\times (9+4) \\times 13 = \\frac{22}{7} \\times 13 \\times 13\\).\nStep 4: Compute: \\(\\frac{22 \\times 169}{7} = \\frac{3718}{7} = 531.14\\) cm² (approx).\nA wrong answer (e.g., 530 cm² or using \\(r_1 - r_2\\)) indicates substitution error or confusion between CSA and slant height formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two frustums have the same slant height and same sum of radii (\\(r_1 + r_2\\)). Frustum A has radii 12 cm and 8 cm; Frustum B has radii 15 cm and 5 cm. Compare their curved surface areas. Are they equal? Justify.",
+     "a": "Yes, they are equal. CSA depends only on \\(\\pi(r_1 + r_2)l\\). For A: \\(r_1+r_2 = 20\\); for B: \\(r_1+r_2 = 20\\). Since \\(l\\) is same, CSA is identical. A student who says they are different because radii are different does not understand that CSA formula uses the sum, not individual radii. This tests whether the student recognizes the functional dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Frustum with \\(r_1=20\\) cm, \\(r_2=12\\) cm, \\(h=15\\) cm. Find TSA.\" The student writes: \\(l = \\sqrt{15^2 + (20-12)^2} = \\sqrt{225+64} = \\sqrt{289} = 17\\) cm. Then \\(\\text{TSA} = \\pi(20+12)(17) = 32\\pi \\times 17 = 544\\pi\\) cm². Is the solution complete? If not, what is missing?",
+     "a": "The solution is incomplete. The student computed only the curved surface area (\\(544\\pi\\) cm²) but forgot to add the areas of the two circular ends: \\(\\pi r_1^2 + \\pi r_2^2 = \\pi(400 + 144) = 544\\pi\\) cm². Total TSA = \\(544\\pi + 544\\pi = 1088\\pi\\) cm². This error is extremely common in board exams: students confuse CSA with TSA. The student must be reminded that \"total surface area\" means all exposed surfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where a frustum-shaped object's surface area needs to be calculated, and the problem requires finding the slant height first. Provide the problem statement and the given values.",
+     "a": "Example: \"A bucket in the shape of a frustum of a cone is made of a metal sheet. Its depth is 24 cm, and the diameters of the top and bottom are 30 cm and 10 cm respectively. Find the cost of the metal sheet used at the rate of ₹10 per 100 cm².\" Given: \\(h = 24\\) cm, \\(r_1 = 15\\) cm, \\(r_2 = 5\\) cm. A poor answer would give a problem that directly provides slant height or asks only for volume, showing the student cannot design a problem requiring the Pythagorean step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

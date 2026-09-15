@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_005",
+   "title": "c11_eco_cbse_05_005",
+   "questions": [
+    {
+     "q": "Define a Self-Help Group (SHG) in the context of rural microcredit and state the typical size, composition, and primary financial activity it undertakes before linking with a bank.",
+     "a": "An SHG is an informal group of 10–20 (usually women) from similar socio-economic backgrounds who voluntarily pool savings regularly and use the corpus for internal lending to members at mutually decided interest rates. Before bank linkage, the primary activity is thrift and internal credit—members borrow from group savings for consumption or small productive needs. A wrong answer (e.g., \"SHG is a bank branch\" or \"SHG requires collateral\") reveals confusion between formal banking and the social-collateral model, or ignorance of the sequential logic: savings first, credit later, bank linkage last.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the SHG-Bank Linkage Programme uses the group’s savings as a basis for determining bank loan eligibility, and describe the typical leverage ratio observed in India.",
+     "a": "Banks lend to SHGs as a multiple of their accumulated savings (corpus), typically 1:4 to 1:10 initially, rising to 1:20 or higher for mature groups with good repayment records. The savings corpus demonstrates financial discipline, repayment capacity, and reduces the bank’s monitoring cost—acting as a proxy for collateral. A wrong answer (e.g., \"banks lend based on land collateral\" or \"leverage is fixed at 1:1\") shows the student misses the innovation: social collateral and graduated credit access replace physical collateral, which is the central theoretical shift from traditional rural banking.",
+     "self_check": true
+    },
+    {
+     "q": "An SHG with 12 members has been saving ₹150 per member per month for 18 months. It has lent internally at 2% per month (simple interest) and earned ₹8,640 in interest income. The group now approaches a bank under the SHG-Bank Linkage Programme. If the bank sanctions a loan at 4 times the total savings corpus (principal savings only, excluding interest), calculate the bank loan amount. Show all steps.",
+     "a": "Step 1: Monthly savings = 12 members × ₹150 = ₹1,800.\nStep 2: Savings over 18 months (principal corpus) = ₹1,800 × 18 = ₹32,400.\nStep 3: Bank loan = 4 × ₹32,400 = ₹1,29,600.\n(Interest income of ₹8,640 is part of the corpus but typically excluded from the base for leverage calculation in early linkage stages.) A wrong answer (e.g., using total corpus including interest, or multiplying monthly savings by 4) reveals inability to distinguish stock (accumulated savings) from flow (monthly savings) and misunderstanding of what constitutes the \"net owned funds\" base for leverage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interest rate structure in the three-tier microcredit flow: (a) bank to SHG, (b) SHG to member, (c) moneylender to borrower. Using the concept of interest rate arbitrage, explain how the SHG builds its corpus and why this may create a tension between group sustainability and member welfare.",
+     "a": "Typical rates: (a) bank to SHG ~9–11% p.a.; (b) SHG to member ~24–36% p.a. (2–3% per month); (c) moneylender ~60–120% p.a. The spread between (b) and (a) allows the SHG to accumulate surplus, strengthening its corpus and repayment capacity—this is the arbitrage. However, if the internal rate is too high, it mimics moneylender exploitation, burdening the poorest members and diverting loans from productive investment to high-cost debt servicing. A wrong answer (e.g., \"SHG charges lower than bank\" or \"no tension exists\") shows failure to grasp the dual role of SHG as both a financial intermediary and a mutual-aid institution, and the policy dilemma of capping internal rates vs. ensuring group viability.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Microcredit through SHGs has empowered rural women economically.\" Use evidence on loan utilisation patterns (consumption vs. productive), decision-making autonomy, and income generation to support your judgment.",
+     "a": "The statement is partially true but overstated. Evidence: (1) NABARD data shows 70–80% of SHG loans fund consumption (health, education, marriage) and debt repayment, not asset creation. (2) Women gain voice in household decisions and mobility, but control over loan use often rests with male relatives. (3) Income gains are modest and variable; many groups remain dependent on revolving fund cycles without graduating to enterprise-scale borrowing. True empowerment requires productive asset ownership, market linkages, and skill upgradation—microcredit alone is necessary but insufficient. A wrong answer (uncritical acceptance or blanket rejection) reveals inability to weigh multi-dimensional outcomes and confusion between access to credit and effective use of credit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a microcredit intervention for a village where 40 landless women currently borrow from a moneylender at 5% per month for consumption needs. Specify: (i) SHG formation criteria, (ii) savings discipline, (iii) internal lending rules, (iv) bank linkage timeline, and (v) two measurable indicators to track whether loans shift from consumption to productive use within 24 months.",
+     "a": "(i) Form 2–3 SHGs of 12–15 women each, homogeneous in occupation (e.g., agricultural labour), within 1 km radius, with no default history. (ii) Compulsory weekly savings of ₹50 per member, deposited in group bank account. (iii) Internal loans only after 6 months of savings; max loan = 3× member’s savings; interest 1.5% per month; purpose-coded (consumption/productive); repayment in weekly instalments. (iv) Bank linkage application at month 9 if 90% repayment rate and corpus > ₹50,000; target 1:4 leverage initially. (v) Indicators: (a) % of loan amount coded \"productive\" (target >50% by month 24); (b) average incremental monthly income per borrowing household (target >₹1,500). A poor answer (vague rules, no timeline, indicators not measurable) shows inability to translate theory into operational design with accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

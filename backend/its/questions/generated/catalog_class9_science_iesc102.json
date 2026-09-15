@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc102.json",
+ "concepts": [
+  {
+   "id": "iesc.102.2.1",
+   "title": "The Cell as the Unit of Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the cell called the basic unit of life?",
+     "a": "All living things are made of cells, and every life function happens inside cells.",
+     "self_check": true
+    },
+    {
+     "q": "Who discovered the cell and how?",
+     "a": "Robert Hooke, in 1665, seeing box-like rooms in cork under his microscope.",
+     "self_check": true
+    },
+    {
+     "q": "What did Schleiden and Schwann propose?",
+     "a": "The cell theory - all living things are made of cells, and the cell is life's basic unit.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.2.2",
+   "title": "Cell Structure: Membrane, Nucleus and Organelles",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name three parts of a typical cell.",
+     "a": "Cell membrane, cytoplasm and nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "What does the nucleus do?",
+     "a": "It holds chromosomes (DNA) and controls all the cell's activities.",
+     "self_check": true
+    },
+    {
+     "q": "Which cell part releases energy from food?",
+     "a": "Mitochondria - the powerhouse of the cell.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.2.3",
+   "title": "Observing Cells with Microscopes and Scales",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Who invented the microscope and what did it reveal?",
+     "a": "Anton van Leeuwenhoek improved microscopes and revealed tiny living 'animalcules' (microbes).",
+     "self_check": true
+    },
+    {
+     "q": "What is the use of a compound microscope in cell study?",
+     "a": "It magnifies cells hundreds of times so their parts can be seen.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we stain cells before observing them?",
+     "a": "Stains colour the thin transparent parts, making nucleus and structures clearly visible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

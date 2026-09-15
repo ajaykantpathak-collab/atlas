@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_005",
+   "title": "c11_geo_cbse_14_005",
+   "questions": [
+    {
+     "q": "A student states: \"The tree line in the Himalayas is at 4000 m everywhere because temperature drops uniformly with altitude.\" Identify the specific error in this statement and name two factors other than altitude that cause the tree line to vary spatially.",
+     "a": "The statement incorrectly assumes uniform lapse rate application ignores local factors. The tree line varies from ~3800 m in western Himalayas to ~4500 m in eastern Himalayas due to: (1) aspect – south-facing slopes receive more insolation, raising the tree line; (2) precipitation regime – eastern Himalayas receive higher monsoon rainfall supporting forests at higher elevations. A wrong answer reveals the student treats lapse rate as a rigid rule rather than a baseline modified by radiation, moisture, and slope orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Using the normal lapse rate of 6.5°C per 1000 m, calculate the expected temperature at 2500 m if the temperature at 500 m (foothill station) is 30°C. Then explain why the actual temperature at a north-facing slope at 2500 m might be 2–3°C lower than your calculated value.",
+     "a": "Step 1: Altitude difference = 2500 – 500 = 2000 m. Step 2: Temperature drop = 2000/1000 × 6.5 = 13°C. Step 3: Expected temperature = 30 – 13 = 17°C. Actual temperature on north-facing slope is lower because: (1) reduced solar insolation due to slope orientation away from sun, (2) longer snow retention delaying spring warming, (3) cold air drainage from higher elevations pooling on shaded slopes. A wrong answer shows inability to apply lapse rate arithmetic or confusion between macro-scale lapse rate and micro-scale topoclimatic effects.",
+     "self_check": true
+    },
+    {
+     "q": "A cross-section from Pathankot (330 m) to Leh (3500 m) shows: Pathankot – Shorea robusta (sal); 1200 m – Quercus leucotrichophora (banj oak); 2200 m – Cedrus deodara (deodar); 3300 m – Betula utilis (bhojpatra); 3600 m – alpine meadow. Identify which zone is MISSING from this sequence according to CBSE classification and at what altitude it should appear.",
+     "a": "Missing zone: Temperate coniferous forest (Pinus roxburghii – chir pine) between 1000–2000 m. The sequence jumps from banj oak (wet temperate, 1500–2500 m) directly to deodar (temperate coniferous, 1500–3200 m), skipping the chir pine belt (1000–2000 m) which dominates drier western Himalayan slopes. Should appear at ~1000–1800 m on south-facing dry slopes. A wrong answer indicates the student memorizes species lists but doesn't understand the moisture gradient (wet temperate vs. dry temperate) that separates oak and pine zones at similar altitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the altitudinal range of Abies pindrow (silver fir) in western Himalayas (2200–3300 m) vs. eastern Himalayas (2800–3800 m). Analyze why the entire zone shifts upward by ~600 m in the east despite similar latitudes.",
+     "a": "The upward shift in eastern Himalayas is caused by: (1) Higher precipitation (2000–4000 mm vs. 1000–2000 mm) reducing moisture stress, allowing species to tolerate cooler temperatures at higher elevations; (2) Cloud cover reducing radiative cooling at night, effectively raising the thermal regime; (3) Monsoon warmth extending growing season at altitude. Western Himalayas have colder winters, lower humidity, and stronger continentality, depressing the thermal envelope. A wrong answer reveals confusion between latitude-driven and moisture-driven zonation shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Climate change will cause all Himalayan forest belts to shift upward uniformly by 500 m by 2100.\" Assess its validity considering species migration rates, soil development, and human land use.",
+     "a": "The statement is invalid. Three constraints prevent uniform shift: (1) Migration lag – tree species migrate 10–100 m/decade naturally, but required shift is ~50 m/decade; many cannot keep pace. (2) Soil inertia – alpine soils are thin, nutrient-poor, and take centuries to develop; forest species cannot establish on bare rock. (3) Human barriers – agriculture, settlements, and fragmentation above 2500 m block migration corridors. Result: \"mountaintop extinction\" where alpine zone compresses and disappears. A wrong answer shows failure to integrate ecological, pedological, and anthropogeographical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field transect protocol for a Class 11 project to verify the wet temperate to alpine transition on a south-facing slope in Uttarakhand. Specify: (a) altitude intervals, (b) three quantitative measurements per plot, (c) how to distinguish anthropogenic from natural treeline.",
+     "a": "(a) Altitude intervals: 200 m bands from 1500 m to 3800 m (12 plots). (b) Per 10×10 m plot: (i) canopy cover % (densitometer), (ii) basal area of dominant species (DBH tape), (iii) soil temperature at 10 cm depth (thermoprobe). (c) Anthropogenic treeline indicators: abrupt boundary with cropland/grazing, coppiced stumps, absence of seedlings above line, charcoal in soil. Natural treeline: gradual density decline, krummholz formation, seedlings present but stunted, soil development continuous. A poor answer uses only species lists without quantitative structure or ignores human disturbance signatures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

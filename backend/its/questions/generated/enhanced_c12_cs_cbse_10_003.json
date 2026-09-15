@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_003",
+   "title": "c12_cs_cbse_10_003",
+   "questions": [
+    {
+     "q": "What does `file_obj.read()` return when called on a text file opened in `'r'` mode, assuming the file contains the text `Hello\\nWorld` and the file pointer is at the beginning?",
+     "a": "Correct answer: `'Hello\\nWorld'` (a single string containing the entire file content including the newline character).  \nA wrong answer like `['Hello', 'World']` reveals the student confuses `read()` with `readlines()`. An answer like `'Hello'` (without the rest) reveals the student thinks `read()` stops at the first newline — confusing it with `readline()`. An answer of `'Hello\\nWorld\\n'` (extra trailing newline) reveals the student mistakenly believes `read()` appends a newline.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `f = open('data.txt', 'r'); line1 = f.readline(); line2 = f.readline(); f.close()`. The file `data.txt` contains exactly two lines: `Apple\\nBanana\\n`. What are the values of `line1` and `line2`? Explain why `line2` is not an empty string.",
+     "a": "Correct answer: `line1 = 'Apple\\n'`, `line2 = 'Banana\\n'`.  \n`readline()` reads **one line at a time including the trailing newline** and advances the file pointer to the start of the next line. After the first call, the pointer is at `B` of `Banana`. The second call reads from there up to and including the next `\\n`.  \nA wrong answer like `line1 = 'Apple'`, `line2 = 'Banana'` (missing `\\n`) reveals the student thinks `readline()` strips the newline — it does not; that is what `strip()` or `rstrip()` does. An answer `line2 = ''` reveals the student believes the file pointer jumps to EOF after the first `readline()`, confusing it with `read()`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that opens `log.txt` in read mode, uses `readlines()` to get all lines, and then prints only the lines that contain the word `ERROR` (case-sensitive). Assume the file is small enough to fit in memory.",
+     "a": "Correct code:\n```python\nf = open('log.txt', 'r')\nlines = f.readlines()\nf.close()\nfor line in lines:\n    if 'ERROR' in line:\n        print(line, end='')\n```\nKey points: `readlines()` returns a list of strings, each ending with `\\n`. The `for` loop iterates over that list. `print(line, end='')` avoids double newlines because `line` already has one.  \nA wrong answer using `read()` and then `split('\\n')` works but misses the point of the question — it tests whether the student knows `readlines()` directly gives a list. A wrong answer forgetting `end=''` prints blank lines between outputs, revealing the student doesn't track that each list element retains its newline.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory usage and file pointer position after these two sequences on a 10-line file `test.txt` (each line ends with `\\n`):  \nSequence A: `f = open('test.txt', 'r'); data = f.read(); f.close()`  \nSequence B: `f = open('test.txt', 'r'); lines = f.readlines(); f.close()`  \nWhich sequence leaves the file pointer at EOF? Which loads the entire file into memory as a single string vs a list of strings?",
+     "a": "Correct answer: Both sequences leave the file pointer at EOF (end of file). Sequence A loads the entire file as **one single string** (newlines included). Sequence B loads the entire file as a **list of 10 strings**, each string being one line with its trailing `\\n`.  \nA wrong answer claiming Sequence B leaves the pointer at the start of the last line reveals the student thinks `readlines()` stops before the last newline. A wrong answer saying Sequence A uses less memory than B reveals the student doesn't realize a single string with embedded newlines and a list of strings have comparable memory overhead for the same data — both load the whole file into RAM.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 GB log file `server.log` must be scanned for lines containing `CRITICAL`. The machine has 4 GB RAM. Evaluate this proposed solution:\n```python\nf = open('server.log', 'r')\nall_lines = f.readlines()\nf.close()\nfor line in all_lines:\n    if 'CRITICAL' in line:\n        print(line)\n```\nIs this solution acceptable? Justify your answer with memory calculations.",
+     "a": "Correct answer: **Unacceptable.** `readlines()` loads the entire 2 GB file into a list of strings. Each string object in Python has ~49 bytes overhead plus the character data (1 byte per char in UTF-8 for ASCII). The list itself has 8 bytes per reference. For 2 GB of text, the list + string objects will consume **well over 2 GB**, likely exceeding available RAM when combined with OS and Python interpreter overhead, causing `MemoryError` or swapping.  \n**Correct approach:** Use `readline()` in a loop:\n```python\nwith open('server.log', 'r') as f:\n    for line in f:          # iteration uses readline() internally, one line at a time\n        if 'CRITICAL' in line:\n            print(line, end='')\n```\nThis keeps only one line in memory at a time.  \nA wrong answer saying \"it works because 2 GB < 4 GB\" reveals the student ignores Python object overhead and the fact that the OS and interpreter also need RAM. This is a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new file-reading scenario where `read(n)` with a specific integer argument `n` is the **only** appropriate method among `read()`, `readline()`, and `readlines()`. Describe the file format, the processing goal, and explain why the other two methods fail or are unsuitable.",
+     "a": "Expected answer (example):  \n**Scenario:** A fixed-width binary-like text file `records.dat` where each record is exactly 50 characters (no newlines). You need to extract the 3rd record (characters 100–149).  \n**Code:** `f = open('records.dat', 'r'); f.read(100); record3 = f.read(50); f.close()`  \n**Why others fail:** `read()` loads everything — wastes memory and doesn't let you skip directly to byte 100 without reading first 100 chars anyway (but `read(100)` does that cleanly). `readline()` looks for `\\n` — there are none, so it reads the whole 2 GB file as one \"line\". `readlines()` same problem — returns a one-element list of the entire file.  \nA poor answer using a CSV or newline-delimited file shows the student doesn't understand that `read(n)` is for **fixed-length, delimiter-free** records. This tests deep understanding of when character-count-based reading is essential.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

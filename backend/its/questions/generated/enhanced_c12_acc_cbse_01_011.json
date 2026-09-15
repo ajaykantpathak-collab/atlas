@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_011",
+   "title": "c12_acc_cbse_01_011",
+   "questions": [
+    {
+     "q": "A partnership firm follows the Fixed Capital Method. Partner A withdraws ₹50,000 cash for personal use. Which account is debited and which is credited?",
+     "a": "**Correct:** Debit Partner A's Current Account ₹50,000; Credit Cash/Bank Account ₹50,000.  \n**Why wrong answers reveal misunderstanding:** If a student debits Capital Account, they confuse Fixed vs Fluctuating methods — under Fixed Capital, drawings never touch the Capital Account. If they credit Drawings Account (a nominal account), they forget drawings are a reduction of equity, not an expense.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why interest on capital is credited to the Current Account (Fixed Method) but debited to the Profit & Loss Appropriation Account.",
+     "a": "**Correct:** Interest on capital is an appropriation of profit (not a charge against profit), so it is debited to P&L Appropriation. It increases the partner's equity, so under Fixed Capital Method it is credited to the Current Account (which accumulates all recurring earnings/charges), leaving the Capital Account untouched unless additional capital is introduced.  \n**Why wrong answers reveal misunderstanding:** Students often think interest on capital is an expense (debited to P&L) or that it increases the Capital Account directly. This shows confusion between appropriation vs charge and between Fixed/Fluctuating account structures.",
+     "self_check": true
+    },
+    {
+     "q": "Partner B's Capital Account (Fluctuating Method) had an opening credit balance of ₹3,00,000. During the year: additional capital introduced ₹1,00,000; drawings ₹60,000; interest on drawings ₹4,000; salary ₹36,000; share of profit ₹80,000. Prepare the Capital Account and show the closing balance.",
+     "a": "**Correct Account:**\n| Dr. | | | | Cr. | | | |\n|---|---|---|---|---|---|---|---|\n| Date | Particulars | J.F. | Amt (₹) | Date | Particulars | J.F. | Amt (₹) |\n| | Drawings A/c | | 60,000 | | Balance b/d | | 3,00,000 |\n| | Interest on Drawings A/c | | 4,000 | | Bank A/c (Addl. Capital) | | 1,00,000 |\n| | Balance c/d | | 4,52,000 | | Salary A/c | | 36,000 |\n| | | | | | P&L Appropriation (Profit) | | 80,000 |\n| | **Total** | | **5,16,000** | | **Total** | | **5,16,000** |\n**Closing Balance:** ₹4,52,000 (Credit).  \n**Why wrong answers reveal misunderstanding:** Common errors: (a) putting additional capital on debit side; (b) omitting interest on drawings; (c) treating salary as debit; (d) not balancing correctly. Each reveals a specific gap: (a) confusion on capital introduction vs withdrawal; (b) forgetting drawings interest is a charge against partner; (c) misclassifying salary as expense; (d) arithmetic/mechanical error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Fixed Capital Method and Fluctuating Capital Method on these three dimensions: (i) Number of accounts per partner, (ii) Items appearing in Capital Account, (iii) Closing balance of Capital Account over years. Which method provides better information for a new investor reading the Balance Sheet?",
+     "a": "**Correct Comparison:**\n| Dimension | Fixed Capital Method | Fluctuating Capital Method |\n|---|---|---|\n| (i) Accounts per partner | Two: Capital A/c + Current A/c | One: Capital A/c only |\n| (ii) Capital A/c items | Only permanent changes: opening balance, additional capital, permanent withdrawal of capital | All items: opening balance, additional capital, drawings, interest on capital/drawings, salary, commission, profit/loss share |\n| (iii) Capital A/c closing balance | Remains constant year-to-year unless capital is permanently added/withdrawn | Fluctuates every year with all transactions |\n**Better for investor:** Fixed Capital Method — the Capital Account directly shows each partner's permanent stake, while Current Account shows current year's performance. In Fluctuating Method, the mixed balance obscures how much is permanent capital vs accumulated profits.  \n**Why wrong answers reveal misunderstanding:** Students often say \"Fluctuating is simpler so better\" — missing the analytical purpose of financial statements. Or they claim both give same info, ignoring that Fixed Method separates 'invested capital' from 'retained earnings equivalent'.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership deed provides for interest on capital @ 12% p.a. but is silent on interest on drawings. Partner C's capital (Fixed Method) is ₹5,00,000 throughout the year. Current Account opening balance: ₹40,000 (Cr). Drawings: ₹1,20,000 evenly throughout the year. Profit before appropriations: ₹2,00,000. Evaluate whether C's Current Account will show a debit or credit closing balance, and by how much. Justify.",
+     "a": "**Correct Evaluation:**\n1. Interest on Capital = 12% × ₹5,00,000 = ₹60,000 (Credit Current A/c)\n2. Interest on Drawings: Since deed silent, **no interest on drawings** charged (Partnership Act 1932). (If student assumes 6% avg, they err.)\n3. Profit available for distribution = ₹2,00,000 – ₹60,000 (Int on Cap) = ₹1,40,000. Assume equal sharing or given ratio? Not given → assume equal? Actually, need profit sharing ratio. Since not given, we cannot compute share of profit. **But the question tests: student must recognise missing data.**  \n**Better approach:** The question is evaluative — the student must state: \"Cannot determine closing balance without profit sharing ratio. However, we can compute net effect of known items: Opening Cr ₹40,000 + Int on Cap ₹60,000 – Drawings ₹1,20,000 = –₹20,000 (Dr) before profit share. If profit share > ₹20,000, closing Cr; else Dr.\"  \n**Why wrong answers reveal misunderstanding:** Students who compute a final number without noting missing ratio show they mechanically apply formulas without analysing sufficiency of data. Those who charge interest on drawings despite deed silence show they confuse default rules (Partnership Act gives no interest on drawings unless deed provides).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (different from textbook illustrations) where a partner's Capital Account (Fixed Method) remains unchanged all year, but their Current Account moves from a credit balance to a debit balance. Specify all transactions with amounts and explain the commercial reason this might happen.",
+     "a": "**Good Answer Criteria:**\n- Scenario includes: Fixed capital (e.g., ₹10,00,000), opening Current A/c Cr balance (e.g., ₹50,000).\n- Transactions: Drawings exceed (Interest on Capital + Salary/Commission + Profit Share).\n- Example: Drawings ₹3,00,000; Interest on Capital ₹1,20,000; Salary ₹60,000; Profit Share ₹50,000 → Net debit ₹70,000 → Closing Current A/c Dr ₹20,000.\n- Commercial reason: Partner over-drew anticipating higher profits, or firm had a bad year.\n- Capital Account untouched (no additional capital/permanent withdrawal).\n**Why poor answers reveal misunderstanding:** If student includes items in Capital Account, they don't grasp Fixed Method separation. If they omit interest on drawings (when deed provides), they miss a charge. If they say \"Current Account can't go debit\", they don't know it represents a recoverable advance (like a loan to partner).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

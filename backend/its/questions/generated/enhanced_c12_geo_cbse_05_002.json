@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_002",
+   "title": "c12_geo_cbse_05_002",
+   "questions": [
+    {
+     "q": "Name any two regions in the world where hunting and gathering is still practiced today.",
+     "a": "Correct answer: Arctic region (Inuit), Kalahari Desert (San Bushmen), Amazon/Congo basins (Pygmies, Yanomami). A wrong answer like “Punjab plains” or “Gangetic valley” reveals the student confuses hunting-gathering with settled agriculture and does not understand that this activity survives only in marginal, ecologically extreme areas where farming is difficult.",
+     "self_check": true
+    },
+    {
+     "q": "Why do hunting and gathering societies typically have very low population densities (often less than 1 person per sq km)?",
+     "a": "Correct answer: Because wild resources are dispersed and unpredictable; a large area is needed to support even a small group. A wrong answer such as “they choose to have few children” shows the student misses the environmental determinism aspect — carrying capacity of the land limits population, not cultural preference alone.",
+     "self_check": true
+    },
+    {
+     "q": "A map shows three marked areas: (A) Siberian tundra, (B) Indo-Gangetic plain, (C) Central Australian desert. Which area would most likely support a hunting-gathering community today? Justify using two geographical factors.",
+     "a": "Correct answer: (A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and sparse wild resources that favour nomadic hunting-gathering. The Indo-Gangetic plain (B) has fertile alluvial soil and reliable water, supporting intensive agriculture. A student picking (B) fails to link environmental constraints (climate, soil, water) to the viability of primary activities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tool kit of a hunter-gatherer group with that of a shifting cultivator. What does the difference tell you about the intensity of environmental modification?",
+     "a": "Correct answer: Hunter-gatherers use simple, portable tools (digging sticks, spears, bows) that leave almost no permanent alteration of the landscape, while shifting cultivators use axes, machetes, and fire to clear forest patches — indicating a higher degree of environmental modification. A student who says “both use similar tools” overlooks the fundamental distinction between extraction without alteration (hunting-gathering) and extensive but temporary alteration (shifting cultivation).",
+     "self_check": true
+    },
+    {
+     "q": "“Hunting and gathering is an obsolete way of life that will disappear completely within a decade.” Evaluate this statement with two arguments for and two against, using geographical reasoning.",
+     "a": "Correct evaluation: For disappearance — encroachment of commercial logging/mining, government settlement policies, climate change reducing wild resources. Against disappearance — cultural resilience, legal recognition of indigenous territories (e.g., Indigenous reserves in Brazil), and the fact that some marginal lands (high Arctic, deep rainforests) are unsuitable for any other economic activity. A one-sided answer shows inability to weigh competing geographical forces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field-survey questionnaire (5 questions) that a researcher could use to distinguish a hunting-gathering camp from a pastoralist camp in a remote area.",
+     "a": "Good answer includes questions about: (1) primary source of protein (wild game vs. herd animals), (2) presence of domesticated animals, (3) mobility pattern (following game vs. following pasture), (4) use of fire for landscape management, (5) storage practices (immediate consumption vs. dairy/meat preservation). A poor questionnaire that only asks “Do you hunt?” fails to differentiate because pastoralists may also hunt occasionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

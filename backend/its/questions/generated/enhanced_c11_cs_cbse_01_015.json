@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_015",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_015",
+   "title": "c11_cs_cbse_01_015",
+   "questions": [
+    {
+     "q": "Draw the standard logic symbol for a two-input NAND gate and write its truth table.",
+     "a": "The NAND gate symbol is an AND gate (D-shaped) with a small circle (inversion bubble) at its output. Truth table: A=0,B=0 → Y=1; A=0,B=1 → Y=1; A=1,B=0 → Y=1; A=1,B=1 → Y=0. A wrong answer (e.g., drawing an AND symbol without the bubble, or writing Y=1 only when both inputs are 1) reveals the student confuses NAND with AND or does not understand the inversion bubble represents NOT.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the XOR gate is called \"exclusive\" OR, and give a real-life example where XOR logic is naturally used.",
+     "a": "XOR is \"exclusive\" because the output is 1 only when the inputs are different (one 0, one 1), excluding the case where both are 1. A real-life example: a corridor light controlled by two switches at either end – toggling either switch changes the light state (ON/OFF), which is exactly XOR behavior. If a student says \"XOR is the same as OR\" or gives an example like \"both switches must be ON\", they have not grasped the exclusivity condition.",
+     "self_check": true
+    },
+    {
+     "q": "A safety system uses two sensors A and B. The alarm (output Y) should sound if sensor A is active (1) AND sensor B is inactive (0). Write the Boolean expression for Y and draw the logic circuit using only AND and NOT gates.",
+     "a": "Expression: Y = A · B' (where B' is NOT B). Circuit: B goes into a NOT gate, its output and A go into an AND gate, output is Y. Steps: 1) Identify condition: A=1 and B=0 → Y=1. 2) Write B' for \"B inactive\". 3) AND them: A · B'. 4) Draw NOT gate for B, then AND gate. A wrong expression like Y = A + B' or Y = A ⊕ B shows the student cannot translate \"AND\" and \"inactive\" into correct Boolean operators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of NOR and XOR gates. For which input combinations do they produce the same output? What does this imply about using one gate to replace the other in a circuit?",
+     "a": "NOR truth table: (0,0)→1, (0,1)→0, (1,0)→0, (1,1)→0. XOR truth table: (0,0)→0, (0,1)→1, (1,0)→1, (1,1)→0. They match only for input (1,1) where both output 0. For all other combinations they differ. Therefore, NOR cannot replace XOR (or vice versa) in any non-trivial circuit; they implement fundamentally different functions. A student who says \"they are the same for three rows\" or \"NOR is just inverted XOR\" is misreading the truth tables or confusing NOR with XNOR.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since NAND is a universal gate, any circuit made of AND, OR, NOT can be built using only NAND gates. Therefore, we should always use only NAND gates in practice to reduce component count.\" Evaluate this claim.",
+     "a": "The claim is partially correct but misleading. While NAND is functionally universal (any Boolean function can be implemented with only NAND gates), the resulting circuit often requires more gates than a mixed implementation (e.g., AND+OR+NOT), increasing propagation delay and power consumption. Modern IC design uses a mix of gate types optimized for speed, area, and power. A student who agrees without qualification misses the engineering trade-offs; a student who says \"NAND cannot make OR\" misses the universality proof.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new logic gate symbol and truth table for a three-input \"majority\" gate (output 1 if at least two inputs are 1). Then show how to build it using only two-input AND and OR gates.",
+     "a": "Majority gate truth table (A,B,C): 000→0, 001→0, 010→0, 011→1, 100→0, 101→1, 110→1, 111→1. Boolean expression: Y = AB + BC + AC. Circuit: three AND gates (AB, BC, AC) feeding a three-input OR gate (or two two-input OR gates cascaded). A poor answer might draw a single gate with three inputs and no internal structure, or write Y = A+B+C, showing inability to decompose a multi-input function into two-input primitives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

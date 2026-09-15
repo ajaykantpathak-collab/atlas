@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_008",
+   "title": "c11_hs_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define 'Receiver' in the SMCRE model and state the one condition that increases chances of successful communication according to the NCERT textbook.",
+     "a": "**Correct answer:** The Receiver is the intended audience or target of the communication function (individual/group, rural/urban, etc.). Successful communication chances increase when the receiver group is **more homogeneous** (similar in language, culture, education, needs).  \n**What a wrong answer reveals:** If a student defines receiver as \"anyone who hears the message\" or says \"larger audience = better communication,\" they confuse *reach* with *reception* and miss the textbook's emphasis on homogeneity reducing decoding variance.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher explains a concept in English to a mixed class of Hindi and English medium students. Using the SMCRE model, explain why feedback from this group may be misleading for the teacher.",
+     "a": "**Correct answer:** The receiver group is **heterogeneous** in language proficiency. Hindi-medium students may decode incorrectly but stay silent (no feedback) or give false-positive nods. The teacher receives feedback only from English-comfortable students, creating a **sampling bias** — the feedback loop reflects a non-representative subset, so the teacher wrongly assumes the message was understood by all.  \n**What a wrong answer reveals:** If a student says \"feedback will be delayed\" or \"students won't understand,\" they describe symptoms but miss the structural cause: **heterogeneity breaks the assumption that feedback represents the whole receiver group**, which is the core SMCRE insight.",
+     "self_check": true
+    },
+    {
+     "q": "A rural health worker uses a poster (visual channel) to teach ORS preparation to illiterate mothers. The mothers watch attentively but later prepare ORS with wrong salt-sugar ratio. Identify the receiver-level barrier and the feedback failure in this SMCRE cycle.",
+     "a": "**Correct answer:**  \n**Receiver barrier:** Low literacy + reliance on visual symbols without verbal reinforcement → **decoding error** (mothers misinterpret poster symbols).  \n**Feedback failure:** The health worker assumed **attention = comprehension** (no verification feedback loop). No immediate feedback mechanism (e.g., \"show me the measure\") was built in. The cycle terminated prematurely without the **effect/feedback** step confirming correct decoding.  \n**What a wrong answer reveals:** If a student blames the \"poster design\" or \"channel choice,\" they locate the fault in the *message/channel* (SMC elements) rather than the *receiver-decoding-feedback* gap (R-E). This misses the node's focus: receiver homogeneity and feedback verification are distinct from channel quality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the feedback characteristics in these two scenarios using SMCRE terminology:  \n(A) A radio farmer-programme gets 50 letters next week from listeners.  \n(B) A WhatsApp group of 20 farmers gets 18 replies within 1 hour to the same advisory.  \nWhich scenario better supports the communication cycle's \"recast if needed\" function? Justify.",
+     "a": "**Correct answer:**  \n| Feature | Scenario A (Radio + Letters) | Scenario B (WhatsApp Group) |  \n|---------|------------------------------|-----------------------------|  \n| **Feedback speed** | Delayed (cumulative, slow) | Immediate (instantaneous) |  \n| **Feedback directness** | Indirect (mediated by post) | Direct (source sees replies) |  \n| **Receiver homogeneity** | Heterogeneous (anonymous mass) | Homogeneous (known peer group) |  \n| **Recast feasibility** | Low — cycle too slow for timely correction | High — source can clarify/recast within same crop cycle |  \n\n**Scenario B better supports recast** because immediate, direct feedback from a homogeneous group lets the source detect decoding errors and re-transmit before the action window (e.g., pesticide spray timing) closes.  \n**What a wrong answer reveals:** If a student says \"WhatsApp is better because it's modern,\" they cite technology, not SMCRE structure. The correct analysis must link **feedback latency + receiver homogeneity + cycle timing** to the *recast decision* — the textbook's core logic for why mass communication has \"slow, cumulative, expensive, delayed feedback.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In the SMCRE model, feedback is only the final step — if the receiver understands, the cycle ends; if not, the source just sends a new message.\" Is this an accurate representation of the textbook's description? Defend your evaluation.",
+     "a": "**Correct evaluation:** The claim is **inaccurate** on two counts:  \n1. **Feedback is also the *initiating* step** — the textbook states: \"It is the initiating step as well as the terminating element.\" Prior feedback (e.g., needs assessment) shapes the *next* message design.  \n2. **Recasting is not \"sending a new message\"** — it involves *rethinking and recasting* the *same* message (adjusting language, channel, timing) based on feedback analysis, not abandoning it. The cycle repeats *with modifications*, not a fresh start.  \n**What a wrong answer reveals:** If a student agrees with the claim, they treat communication as linear (S→M→C→R→E) rather than **cyclic and iterative**. They miss the textbook's explicit \"initiating step\" phrasing and the nuance that recasting preserves the communication *objective* while altering the *encoding*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step feedback mechanism for a school's new mid-day menu announcement (sent via WhatsApp to parents) that ensures: (i) receipt confirmation, (ii) comprehension check, and (iii) preference input — all within the SMCRE cycle. Specify the receiver action and source response at each step.",
+     "a": "**Expected answer (sample):**  \n| Step | Receiver Action (Feedback) | Source Response (Recast/Terminate) | SMCRE Link |  \n|------|----------------------------|-----------------------------------|------------|  \n| 1. Receipt | Parent replies \"Received\" (emoji/click) | Logs delivery; if <90% receipt in 2 hrs, resends via SMS (channel recast) | **Effect → Source** (channel check) |  \n| 2. Comprehension | Parent answers 1 MCQ: \"Which day has egg?\" | If >20% wrong, sends visual menu chart (message recast: simpler encoding) | **Effect → Source** (decoding check) |  \n| 3. Preference | Parent votes: \"Keep egg / Replace with paneer\" | Compiles data; if >60% want change, revises menu (message + objective recast) | **Effect → Source** (objective alignment) |  \n\n**Criteria for good answer:** Must show **three distinct feedback types** (receipt, comprehension, preference), each triggering a **specific source decision** (channel/message/objective recast), and explicitly map to the SMCRE cycle's \"effect → source\" loop.  \n**What a poor answer reveals:** A single \"reply with suggestions\" step conflates all feedback types, missing that the textbook treats feedback as **multi-layered** (TRPs = reach, letters = comprehension, ratings = preference) — each layer informs a different recast level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_008",
+   "title": "c11_chem_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define equivalent weight of an oxidising agent in a redox reaction and state its formula in terms of molar mass and n-factor.",
+     "a": "Equivalent weight of an oxidising agent = Molar mass / n-factor, where n-factor is the number of electrons gained per formula unit of the oxidising agent in the balanced half-reaction. A wrong answer (e.g., using molar mass directly or confusing n-factor with oxidation state change of the whole molecule) reveals the student does not distinguish between moles of substance and moles of electrons transferred, a critical gap for titration calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why acidified KMnO₄ can oxidise Fe²⁺ to Fe³⁺ but cannot oxidise Cl⁻ to Cl₂ under standard conditions, using the electrochemical series concept.",
+     "a": "In the electrochemical series, MnO₄⁻/Mn²⁺ (+1.51 V) has a higher reduction potential than Fe³⁺/Fe²⁺ (+0.77 V), so MnO₄⁻ oxidises Fe²⁺ spontaneously. However, Cl₂/Cl⁻ (+1.36 V) has a higher reduction potential than MnO₄⁻/Mn²⁺ would need to oxidise Cl⁻, making the reverse reaction favourable. A wrong answer (e.g., \"KMnO₄ is a strong oxidising agent so it oxidises everything\") shows the student treats oxidising strength as absolute rather than relative to the specific redox couple.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the volume of 0.02 M K₂Cr₂O₇ required to oxidise 25.0 mL of 0.1 M FeSO₄ in acidic medium. (Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O; Fe²⁺ → Fe³⁺ + e⁻)",
+     "a": "Step 1: n-factor of K₂Cr₂O₇ = 6 (6 e⁻ gained per Cr₂O₇²⁻). Step 2: Equivalents of Fe²⁺ = M × V × n-factor = 0.1 mol/L × 0.025 L × 1 = 0.0025 eq. Step 3: Equivalents of K₂Cr₂O₇ = equivalents of Fe²⁺ = 0.0025 eq. Step 4: Moles of K₂Cr₂O₇ = eq / n-factor = 0.0025 / 6 = 4.167×10⁻⁴ mol. Step 5: Volume = moles / M = 4.167×10⁻⁴ / 0.02 = 0.02083 L = 20.83 mL. A wrong answer (e.g., 125 mL using mole ratio 1:6 without n-factor) reveals confusion between mole stoichiometry and equivalent stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thermodynamic feasibility of extracting iron from Fe₂O₃ using carbon (coke) versus aluminium (thermite process) at high temperatures, using Ellingham diagram principles.",
+     "a": "Carbon reduction: Fe₂O₃ + 3C → 2Fe + 3CO; ΔG becomes negative above ~700°C because CO formation has a steep negative slope on Ellingham diagram. Aluminium reduction: Fe₂O₃ + 2Al → 2Fe + Al₂O₃; ΔG is highly negative at all temperatures because Al₂O₃ line lies far below Fe₂O₃ line. Carbon is cheaper and used in blast furnaces; Al is used for welding (thermite) where high purity/localised heat is needed. A wrong answer (e.g., \"Al is more reactive so it always works better\") ignores the temperature dependence of ΔG for carbon reduction.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs a redox titration of H₂O₂ with 0.02 M KMnO₄ in acidic medium. The titre value is 22.4 mL. The student calculates the H₂O₂ concentration as 0.0896 M using the mole ratio 2:5. Evaluate whether this calculation is correct and identify the error if any.",
+     "a": "The calculation is incorrect. Correct approach: n-factor of KMnO₄ in acidic medium = 5; n-factor of H₂O₂ (oxidised to O₂) = 2. Equivalents of KMnO₄ = 0.02 × 0.0224 × 5 = 0.00224 eq. Equivalents of H₂O₂ = 0.00224 eq. Moles of H₂O₂ = 0.00224 / 2 = 0.00112 mol. Concentration = 0.00112 / 0.025 = 0.0448 M (assuming 25 mL H₂O₂). The student's error: used mole ratio 2MnO₄⁻ : 5H₂O₂ but forgot to divide by n-factors properly, or used molarity directly without equivalent concept. This reveals a fundamental misunderstanding of equivalent-based stoichiometry vs mole-based stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a redox-based method to determine the purity of a commercial hydrogen peroxide (H₂O₂) sample labelled \"6% w/v\" using standard KMnO₄ solution. List the reagents, procedure outline, and the calculation formula.",
+     "a": "Reagents: Standard 0.1 M KMnO₄, dilute H₂SO₄, distilled water. Procedure: (1) Pipette 10.0 mL of H₂O₂ solution into a conical flask. (2) Add 20 mL dilute H₂SO₄. (3) Titrate with KMnO₄ until permanent pale pink. (4) Repeat for concordant titres. Calculation: Moles KMnO₄ = M_KMnO₄ × V_KMnO₄(L). Moles H₂O₂ = (2/5) × moles KMnO₄ (from 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O). Mass H₂O₂ = moles × 34 g/mol. % w/v = (mass H₂O₂ in g / 10 mL) × 100. A poor answer (e.g., \"titrate with KMnO₄ and compare colour\") shows inability to translate redox stoichiometry into a quantitative analytical protocol.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 121,
+  "chapter_title": "Ode to a Nightingale",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww121.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww121.1.1",
+      "title": "Heartache and Hemlock: Entering the Nightingale's World",
+      "section": "1",
+      "definition": "Keats opens with a heartache and drowsy numbness, as though of hemlock drunk or some opiate drained -- not envy of the nightingale's happiness but a shared too-much-happiness in its song. The bird sings of summer in full-throated ease among beeches and shadowy forest, and the poet longs to follow.",
+      "formula": "",
+      "key_idea": "Pain and happiness fused -- the nightingale's song produces a numbness that is half sorrow, half intoxication.",
+      "textbook_ref": "keww121.txt opening stanzas (heart aches, drowsy numbness, hemlock, opiate, dryad sung beeches, summer in full throated ease)",
+      "question_patterns": [
+        "how does keats describe his state at the start of the ode",
+        "in class 11 ode to a nightingale: why does the poet compare his feeling to hemlock",
+        "what is the nightingale doing when the poem opens",
+        "explain the phrase summer in full throated ease",
+        "why does the poet say he is not envious of the nightingale",
+        "what role does the beechen green play in the opening"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the physical onset",
+          "explain": "The heart aches into numbness, figured as hemlock or opiate -- song experienced as intoxication."
+        },
+        {
+          "step": 2,
+          "action": "clarify the emotion",
+          "explain": "Keats denies envy: the ache is happiness too great for his dying-frame world to hold."
+        },
+        {
+          "step": 3,
+          "action": "hear the bird",
+          "explain": "The nightingale, a dryad of the trees, sings of unpicked summer among beech greens."
+        }
+      ]
+    },
+    {
+      "id": "keww121.1.2",
+      "title": "Wine, the Nightingale and the Fade Far Away Wish",
+      "section": "1",
+      "definition": "The poet longs for a draught of vintage -- cool aching wine tasted of Flora and country green -- to leave the world unseen and fade away with the nightingale into the dim forest. He names the world where men sit and hear each other groan, where palsy shakes a few sad last grey hairs, where youth grows pale and dies -- the human realm of weariness, fever and fret.",
+      "formula": "",
+      "key_idea": "To fade with the bird -- escape imagined first as wine, then named as flight from a world of groans and grey hairs.",
+      "textbook_ref": "keww121.txt middle stanzas (draught of vintage, flora and country green, fade far away, dissolve and quite forget, men sit and hear each other groan, palsy, youth grows pale, weariness fever and fret)",
+      "question_patterns": [
+        "why does keats wish for a draught of wine in the ode",
+        "in class 11 ode to a nightingale: describe the world the poet wants to forget",
+        "explain the phrase fade far away dissolve and quite forget",
+        "what pictures of human suffering does the poem give",
+        "how does wine promise escape and why is it insufficient",
+        "what is meant by weariness the fever and the fret"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the wish for wine",
+          "explain": "A beaker of southern vintage -- tasting of Flora, dance and song -- seems the easy escape route."
+        },
+        {
+          "step": 2,
+          "action": "trace the escape sought",
+          "explain": "He would fade with the nightingale into the forest dim, forgetting what the nightingale has never known."
+        },
+        {
+          "step": 3,
+          "action": "catalogue the world fled",
+          "explain": "Groaning men, shaking palsy, pale dying youth, leaden-eyed despairs -- the fever and fret of mortal life."
+        }
+      ]
+    },
+    {
+      "id": "keww121.1.3",
+      "title": "The Word Forlorn and the Return to the Sole Self",
+      "section": "1",
+      "definition": "At the climax the poet bids the bird farewells, wondering if this waking dream is vision or waking dream, unable to say whether he wakes or sleeps. The word 'forlorn' tolls him back to his sole self; the nightingale's song fades past the next valley, and the poem ends in the question -- do I wake or sleep?",
+      "formula": "",
+      "key_idea": "The bell that rings him home -- fancy cannot cheat so well, and the ode ends suspended between waking and sleep.",
+      "textbook_ref": "keww121.txt closing stanzas (forlorn tolls back to the sole self, fancy cannot cheat so well, adieu, embalmed darkness, fading music past meadows and valley, do i wake or sleep)",
+      "question_patterns": [
+        "why does the word forlorn toll the poet back to his sole self",
+        "in class 11 ode to a nightingale: what does the poet mean by fancy cannot cheat so well",
+        "how does the nightingale's song fade in the final stanzas",
+        "explain the question do i wake or sleep that ends the ode",
+        "describe the images of darkness and fragrance in the ode",
+        "is the ode an escape or a failed escape discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "hear the tolling word",
+          "explain": "'Forlorn' rings like a bell, dragging the imagination back from the bird's world to the solitary human one."
+        },
+        {
+          "step": 2,
+          "action": "watch the song depart",
+          "explain": "The music passes over meadows, up stream and hill, until it is plaintive only -- then gone."
+        },
+        {
+          "step": 3,
+          "action": "end suspended",
+          "explain": "Left asking whether he wakes or sleeps, the poet concedes fancy's cheat -- the immortal song outlasts the mortal listener."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww121.txt middle stanzas",
+      "concept": "keww121.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Catalogue the human sufferings Keats lists as the world he wants to forget. What do they have in common?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "list the images",
+          "explain": "Men groaning over their last grey hairs, youth growing pale and spectre-thin, beauty unable to keep her lustrous eyes."
+        },
+        {
+          "step": 2,
+          "action": "find the common thread",
+          "explain": "Each is a face of ageing, illness and despair -- mortality wearing different masks."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Against the nightingale's effortless song, the stanza sets mortality's whole wardrobe -- hence the longing to fade away."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww121.txt closing stanzas",
+      "concept": "keww121.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the phrase 'fancy cannot cheat so well as she is famed to do'.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "define fancy",
+          "explain": "Fancy is the imagining power that built the whole forest escape."
+        },
+        {
+          "step": 2,
+          "action": "state the failure",
+          "explain": "The word 'forlorn' proves imagination's escape incomplete -- the self returns despite it."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Keats admits art's limits: it cheats wonderfully, but mortality reclaims the cheat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww121.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why does Keats compare his feelings to the effects of hemlock?",
+        "What does the nightingale symbolise in the ode?",
+        "Describe the world of suffering the poet wishes to escape.",
+        "Explain the phrase 'fancy cannot cheat so well'.",
+        "How does the ode end and what does the ending suggest?",
+        "Discuss the contrast between the bird's immortality and human mortality in the poem."
+      ]
+    }
+  ]
+}

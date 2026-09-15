@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_12_011",
+   "title": "c12_eng_k_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is the grammatical term for a group of words that lacks a main verb and cannot stand alone as a complete sentence, such as \"eyeless, silent\" in the poem's second stanza?",
+     "a": "The term is **sentence fragment** (or simply **fragment**). A wrong answer (e.g., \"phrase\", \"clause\", \"run-on sentence\") reveals confusion between structural categories: a phrase is a component *within* a sentence, a clause has a subject-verb pair, and a run-on joins independent clauses incorrectly. The student misses that poets deliberately use fragments as complete poetic lines to create specific effects.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening lines, \"Or listen to the clocktowers / of any old well-managed city / beating their gongs round the clock\", identify the grammatical form of \"beating\" and explain its syntactic function.",
+     "a": "\"Beating\" is a **present participle** heading a **participial phrase** (\"beating their gongs round the clock\") that modifies \"clocktowers\". A wrong answer (e.g., \"gerund\", \"main verb\", \"adjective\") shows inability to distinguish non-finite verb forms. The student must recognize that the participle creates a sense of continuous, ongoing action — essential to the poem's depiction of time as perpetual motion — rather than a completed event.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the fragment \"each slightly off the others' time\" as a grammatically complete sentence. Then explain how the original fragment contributes to the poem's rhythm and thematic portrayal of the clocks' discordance.",
+     "a": "Complete sentence: \"Each **is** slightly off the others' time.\" The fragment omits the verb \"is\", creating a clipped, staccato rhythm that mimics the clocks' irregular, out-of-sync striking. A wrong answer that only provides the rewrite without the rhythmic analysis misses the point: the grammatical incompleteness *enacts* the thematic discordance — the clocks don't align, and neither does the syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure of the first stanza (one long, complex periodic sentence spanning 14 lines) with the second stanza (short, fragmented, paratactic units). What does this syntactic shift suggest about the poem's movement from description to event?",
+     "a": "The first stanza's **periodic sentence** (main clause delayed until \"commemorating a donor's whim\") layers subordinate clauses to mirror the dense, interwoven, cyclical chiming of clocks and the complex, ongoing negotiations of communal coexistence. The second stanza shifts to **parataxis** and fragments (\"One day you look up and see one of them / eyeless, silent\") — short, coordinate, verb-less units that enact sudden rupture, violence, and silence. A wrong answer that merely notes \"sentences get shorter\" without linking structure to theme (cyclical time vs. historical rupture) treats grammar as decoration rather than meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "The poet describes a lightning strike as \"a precise act / Of nature in a night of lightnings\". Evaluate how the **enjambment** (line break after \"act\") and the **noun phrase structure** (\"a precise act of nature\") work together to reinforce or undermine the idea of precision.",
+     "a": "The enjambment isolates \"a precise act\" momentarily, forcing the reader to process \"precision\" as a standalone concept before the qualifying \"of nature in a night of lightnings\" follows. This syntactic pause *mimics* the split-second exactness of a lightning strike — the form performs the content. A wrong answer that ignores the line break (treating it as prose) or calls the phrase \"passive\" misses how the noun phrase's definiteness (\"a precise act\") combined with the line break creates a moment of grammatical and thematic exactitude, contrasting with the chaos of \"feuds\" and \"riot\".",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza about a clock tower in your city that uses: (a) at least two different sentence types (declarative, interrogative, imperative, exclamatory), (b) one participial phrase, and (c) one deliberate fragment. The stanza should convey a sense of time, history, or neglect.",
+     "a": "**Example:**  \nThe tower stands, its hands frozen at noon. *(declarative, with participial phrase \"frozen at noon\")*  \nWhy does it still chime? *(interrogative)*  \nListen to its bronze voice. *(imperative)*  \nEchoing centuries, shaking the dust. *(fragment — participial phrase only)*  \n\nA poor answer uses only one sentence type, misses the participial phrase, or writes four complete sentences without a fragment, showing inability to manipulate grammatical forms for poetic effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

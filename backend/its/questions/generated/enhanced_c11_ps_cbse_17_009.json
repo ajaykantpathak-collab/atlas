@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_009",
+   "title": "c11_ps_cbse_17_009",
+   "questions": [
+    {
+     "q": "Which constitutional articles establish the State Election Commission and State Finance Commission for panchayats?",
+     "a": "The State Election Commission for panchayats is established under Article 243K, and the State Finance Commission for panchayats is established under Article 243I. A wrong answer (e.g., citing Article 324 or Article 280) reveals confusion between state-level bodies for local governments and national-level bodies for union/state elections and finances.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 73rd and 74th Amendments create separate State Election Commissions instead of assigning local body elections to the Election Commission of India?",
+     "a": "The amendments created separate SECs to ensure that local elections are conducted independently of state government influence and to reduce the burden on the Election Commission of India, which already manages massive national and state elections. A wrong answer suggesting the Election Commission of India could easily handle local elections misses the point about institutional autonomy and the sheer scale of local elections (over 2.5 lakh panchayats and thousands of urban bodies).",
+     "self_check": true
+    },
+    {
+     "q": "A state government delays constituting the State Finance Commission for three years beyond the mandatory five-year interval. Which constitutional principle is violated, and what is the consequence for local bodies?",
+     "a": "Article 243I mandates the Governor to constitute an SFC within one year of the 73rd Amendment's commencement and thereafter every five years. Delay violates the constitutional mandate for periodic fiscal review, leading to outdated devolution formulas, erosion of local bodies' financial autonomy, and inability to plan development works. A wrong answer that treats SFC as a discretionary advisory body reveals misunderstanding of its constitutional binding nature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the removal process of the State Election Commissioner with that of a High Court judge. What does this similarity indicate about the intended independence of the SEC?",
+     "a": "Under Article 243K(2), the State Election Commissioner can be removed only in the same manner and on the same grounds as a High Court judge (i.e., by the President on grounds of proven misbehaviour or incapacity after an address by the state legislature). This parity with High Court judges signals the Constitution's intent to insulate the SEC from political pressure by the state executive. A wrong answer stating the Governor can remove the SEC at will shows confusion with the removal of state ministers or bureaucrats.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of State Finance Commissions in improving local body finances given that their recommendations are not binding on state governments.",
+     "a": "While SFC recommendations are not legally binding (unlike Union Finance Commission recommendations which are generally accepted), they carry strong moral and political weight because the Governor must lay the report before the state legislature with an explanatory memorandum. In practice, most states accept major recommendations, but implementation gaps remain. A student who claims SFCs are toothless because recommendations are non-binding overlooks the constitutional design of legislative accountability; a student who claims they are fully effective ignores widespread non-implementation of grant recommendations.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a constitutional amendment to strengthen the State Finance Commission, addressing the issue of non-implementation of its recommendations.",
+     "a": "A strong proposal would suggest making SFC recommendations binding unless rejected by a two-thirds majority of the state legislature, and requiring the state government to present an action-taken report within six months. It might also propose a fixed timeline for constitution of the SFC and disqualification for the state finance minister if the SFC is not constituted on time. A poor proposal would merely ask for \"more powers\" without a specific mechanism or would suggest merging SFC with the Union Finance Commission, violating federal principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

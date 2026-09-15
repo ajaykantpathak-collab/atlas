@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_04_012",
+   "title": "c12_hin_a_cbse_04_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"कविता 'चुजल' में 'ल्बज ल्क¡>' वाक्यांश का शाब्दिक अर्थ क्या है?\"",
+     "a": "This is a **literal comprehension question** because it asks for the direct, dictionary meaning of a specific phrase (\"lbZ lk¡>\") used in the poem. The answer can be found by looking up the phrase or understanding its explicit definition in the text's vocabulary section. A wrong answer (classifying it as inferential) reveals the student confuses \"meaning of a phrase\" with \"implied significance\" — they think any question about poetic language requires interpretation, not realizing some questions only test vocabulary recall.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet repeats \"èkhjs&èkhjs\" (step by step) multiple times in the poem \"cukjl\". What does this repetition suggest about the village life?",
+     "a": "The repetition of \"èkhjs&èkhjs\" is an **inferential question** because the poem never explicitly states \"repetition suggests monotony.\" The student must infer from the accumulating images (people walking step by step, children playing step by step, evenings falling step by step) that village life follows a slow, cyclical, unchanging rhythm. A wrong answer (quoting the lines without explaining the effect) shows the student treats inference as quotation — they locate the words but miss the analytical leap: repetition as a device to convey timelessness and lack of dramatic change.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY the PEEL structure to answer this inferential question: \"कविता 'फँक' में कवि 'वकèkk' (nature) को 'वकèkk ugha' (not nature) क्यों कहता है? पाठ्य साक्ष्य देकर समझाइए।\"",
+     "a": "**Step 1 (Point):** The poet calls nature \"not nature\" to challenge the reader's superficial perception of the natural world.  \n**Step 2 (Evidence):** In stanza 2, the lines \"tks gS og [kM+k gS fcuk fdlh LraHk osQ / tks ugha gS mls Fkkes gS\" contrast what appears solid (\"[kM+k\") with what is absent but felt (\"Fkkes\").  \n**Step 3 (Explanation):** The paradox \"vkèkk gS / vkèkk ugha gS\" forces the reader to look beyond physical forms (trees, rivers) to the invisible life-force (\"vkèkk 'ko esa\", \"vkèkk uhan esa\") that sustains them.  \n**Step 4 (Link):** This reflects the poem's central theme: true nature is not the visible landscape but the unseen vitality (\"vkneh osQ mBs gq, gkFkksa\") that modern humans ignore.  \nA wrong answer (merely listing the lines without the paradox explanation) reveals the student cannot move from evidence to interpretation — they treat PEEL as a checklist, not a reasoning chain.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE the difference in answering strategy between these two questions from the same poem \"fn'kk\":\n(a) \"बच्चे ने 'मेकज-मेकज' क्यों कहा?\"  \n(b) \"बच्चे के 'मेकज-मेकज' कहने से कवि को कौन-सा अहसास होता है?\"  \nExplain how the textual evidence required differs for each.",
+     "a": "**Question (a) is literal**: The answer is explicitly in the text — \"ftèkj mldh iarx Hkkxh tk jgh Fkh\" (because his wings were being clipped). Evidence = direct quote of the child's stated reason.  \n**Question (b) is inferential**: The poet's feeling (\"Lohdkj\" — wonder/astonishment) is stated, but *why* he feels it requires inference: the child's innocent acceptance of death (\"eSa Lohdkj d:¡\") contrasts with adult fear, revealing life's fragility. Evidence = the child's words (\"eSa Lohdkj d:¡\") + poet's reaction (\"eSaus igyh ckj tkuk fgeky; fdèkj gS!\") + the irony of a dying child teaching the poet about death.  \nA wrong answer (giving the same evidence for both) shows the student cannot distinguish \"what happened\" from \"what it means to the narrator\" — they conflate plot detail with emotional impact.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE this student's answer to an inferential question:  \n**Question:** \"कविता 'चुजल' में 'वकèkk' (nature) की कौन-सी छवि उभरती है?\"  \n**Student's Answer:** \"कविता में प्रकृति सुंदर और शांत दिखाई देती है क्योंकि कवि ने 'ल्बज ल्क¡>', 'वपुकव [कkyhiu' जैसे शब्दों का प्रयोग किया है।\"  \nIs this answer sufficient for a 3-mark CBSE board question? Justify your evaluation.",
+     "a": "**No, this answer is insufficient for 3 marks.** It identifies *positive* imagery (\"lbZ lk¡>\", \"fupkV [kkyhiu\") but ignores the poem's **dual portrayal** of nature: beauty (\"vkèkk ty esa\") AND harshness (\"vkèkk 'ka[k esa\", \"vkèkk mBs gq, gkFkksa\"). A 3-mark answer must: (1) acknowledge both aspects, (2) cite evidence for each (e.g., \"vkèkk iwQy esa\" for nurturing, \"vkneh osQ mBs gq, gkFkksa\" for raw power), and (3) explain the *significance* — nature as a complete, indifferent reality, not just a pretty backdrop. The student's answer reflects a common error: **cherry-picking evidence that supports a simplistic \"nature is beautiful\" reading**, missing the poem's philosophical depth. This costs marks because CBSE marking schemes reward nuanced, textually comprehensive responses.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE a new inferential question based on the last stanza of \"fn'kk\" (\"eSaus igyh ckj tkuk fgeky; fdèkj gS!\") that requires the examinee to connect the poet's realization to the poem's central theme. Provide the ideal answer outline.",
+     "a": "**Created Question:** \"कविता 'फँक' की अंतिम पंक्ति 'eSaus igyh ckj tkuk fgeky; fdèkj gS!' में कवि के 'पहली बार' जानने का क्या अभिप्राय है? यह अहसास कविता के केंद्रीय विषय से कैसे जुड़ता है?\"  \n**Ideal Answer Outline:**  \n1. **Point:** \"First time\" signifies the poet's awakening to mortality through a child's innocent acceptance, contrasting adult denial of death.  \n2. **Evidence:** Child says \"eSa Lohdkj d:¡\" (I am not afraid) while the poet, an adult, is shaken (\"eSaus igyh ckj tkuk...\").  \n3. **Explanation:** The child embodies *living in the present* (\"fn'kk\" = moment), unafraid of the inevitable, while adults intellectualize death. The poet learns *from* the child — role reversal.  \n4. **Link to Theme:** Central theme = life's fragility and the wisdom of accepting impermanence (\"ge cPpksa ls oqQN&u&oqQN lh[k ldrs gSa\"). The \"first time\" marks the poet's shift from fear to understanding.  \nA poor created question (e.g., \"What does the poet feel?\") would be too vague, testing only recall of \"Lohdkj\", not the thematic connection. This reveals the student doesn't grasp that inferential questions must target *implicit relationships*, not explicit statements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

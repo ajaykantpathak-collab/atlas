@@ -1,0 +1,277 @@
+{
+ "catalog": "catalog_class12_home_science_lehe204",
+ "concepts": [
+  {
+   "id": "lehe204.1",
+   "title": "Hospitality and the Guest",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hospitality and the Guest' refers to.",
+     "a": "Hospitality is the warm, generous bond between host and guest -- shelter, food, entertainment and courteous service -- owed to every traveller; Indian tradition holds the guest as divine, and modern trade has turned that duty into a fast growing industry promising a home away from home.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hospitality and the Guest'.",
+     "a": "A tourist is anyone who travels and stays temporarily elsewhere, and repeat visits depend on comfort, safety and hygiene.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hospitality and the Guest', in plain ASCII form.",
+     "a": "hospitality = welcome plus stay plus food plus entertainment plus courteous service",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.2",
+   "title": "Types of Hospitality Establishments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Hospitality Establishments' refers to.",
+     "a": "Establishments range from the hotel with lodging, meals and services, through the motel with doorstep parking, the lodge offering only sleeping space, the leisure rich resort, to furnished apartments and camps for hikers and adventure seekers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Hospitality Establishments'.",
+     "a": "What separates the types is the bundle offered: rooms only, rooms plus parking, or a full vacation experience.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Hospitality Establishments', in plain ASCII form.",
+     "a": "establishment ladder -- lodge plus motel plus hotel plus resort plus apartments plus camps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.3",
+   "title": "Guest Cycle and Industry Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Guest Cycle and Industry Sectors' refers to.",
+     "a": "The guest cycle tracks one stay through four stages -- pre arrival quoting and reserving, arrival with registration, occupancy with services and security aimed at winning loyalty, and departure with check out, occupancy records and guest history -- while the industry itself divides into front office, food and beverage, meetings and events, entertainment and tourism sectors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Guest Cycle and Industry Sectors'.",
+     "a": "Guest history and feedback recorded at departure feed the next pre arrival, closing the loop.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Guest Cycle and Industry Sectors', in plain ASCII form.",
+     "a": "cycle stages -- pre arrival plus arrival plus occupancy plus departure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.4",
+   "title": "Front Office: Services and Staff",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Front Office: Services and Staff' refers to.",
+     "a": "The front office is a hotel's focal point where the guest first meets the organisation -- welcoming, reserving, registering and rooming guests, holding keys, relaying messages, settling bills -- run round the clock by a manager, assistant manager, shift supervisors, cashier, telephone operator, lobby manager, receptionists, bell captain, bellboys and the doorman.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Front Office: Services and Staff'.",
+     "a": "Cold, indifferent service at the desk can undo the work of every other department; the desk runs twenty four hours on rotating shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Front Office: Services and Staff', in plain ASCII form.",
+     "a": "front office value = first impression plus records plus billing plus coordination",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.5",
+   "title": "Housekeeping: Functions and Sections",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Housekeeping: Functions and Sections' refers to.",
+     "a": "Housekeeping guards cleanliness, hygiene and the looks of the whole establishment -- guest rooms, public areas, linen and uniform exchange, flowers and gardens, pest control and inter department coordination -- through seven sections from the control desk to the lost and found.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Housekeeping: Functions and Sections'.",
+     "a": "Contract housekeeping has become a business avenue of its own, serving offices and organisations that outsource cleaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Housekeeping: Functions and Sections', in plain ASCII form.",
+     "a": "sections -- control desk plus management plus guestroom brigade plus public area brigade plus linen room plus horticulture plus lost and found",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.6",
+   "title": "Housekeeping Staffing and Duties",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Housekeeping Staffing and Duties' refers to.",
+     "a": "The department runs on an executive housekeeper steering manpower, money and time, an assistant per shift, a desk control supervisor who trades room status with the front office around the clock, floor supervisors per floor, room attendants and housemen on cleaning, a public area supervisor, florist and linen room supervisor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Housekeeping Staffing and Duties'.",
+     "a": "The desk control supervisor must be reachable twenty four hours because departures, cleaning and handovers never stop.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Housekeeping Staffing and Duties', in plain ASCII form.",
+     "a": "hierarchy -- executive plus assistant plus desk control plus floor supervisors plus attendants plus housemen plus specialists",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.7",
+   "title": "Cleaning Practices, Equipment and Agents",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cleaning Practices, Equipment and Agents' refers to.",
+     "a": "Cleaning runs on daily, weekly, monthly and seasonal rounds with matching tools -- vacuum cleaners, brushes, brooms, mops, trolleys -- and agents from water, soap and vinegar to ammonia, washing soda, abrasives and polishes, chosen carefully since strong agents can ruin surfaces like wood, marble, granite or vinyl.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cleaning Practices, Equipment and Agents'.",
+     "a": "Eco friendly practice now guides the trade: organic cotton sheets, chemical free laundering, biodegradable agents, towel reuse cards and efficient bulbs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cleaning Practices, Equipment and Agents', in plain ASCII form.",
+     "a": "cleaning choice = surface material plus suitable agent plus right tool and schedule",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.8",
+   "title": "Food and Beverage Department",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food and Beverage Department' refers to.",
+     "a": "The food and beverage department sells food and drink through kitchens, banquets, restaurants, room service, stewarding and bars; large kitchens split into butchery, bakery, confectionery, vegetable work, soups, pantry and hot range under an executive chef, deputies and section chefs, while kitchen stewarding guards the cutlery, crockery and glassware and restaurant staff serve the guest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food and Beverage Department'.",
+     "a": "The chef de cuisine plans and controls kitchen operations; chef de parties supervise sections; stewards wash pots and issue service equipment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food and Beverage Department', in plain ASCII form.",
+     "a": "outlets -- kitchen plus banquets plus restaurants plus room service plus stewarding plus bars",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.9",
+   "title": "Support Departments and Management Functions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Support Departments and Management Functions' refers to.",
+     "a": "Back office departments -- finance and accounts, engineering, human resources, sales and marketing -- hold the hotel up, while management itself runs through planning, organising, coordinating, staffing, directing, controlling and evaluating resources against the institution's goals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Support Departments and Management Functions'.",
+     "a": "Smooth functioning means managing man, material and other resources across departments with complex relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Support Departments and Management Functions', in plain ASCII form.",
+     "a": "management functions -- planning plus organising plus coordinating plus staffing plus directing plus controlling plus evaluating",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.10",
+   "title": "Careers and Competencies in Hospitality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Careers and Competencies in Hospitality' refers to.",
+     "a": "The industry hires from operations staff up through supervisors and junior, middle and top management, favouring energetic, educated youth; personal competencies count -- grooming, hygiene, courtesy, fitness, communication, confidence and languages -- and certificate to degree courses in hotel management open housekeeping, front office and event specialisation careers plus entrepreneurship.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Careers and Competencies in Hospitality'.",
+     "a": "Front office staff must look their best at all times because their appearance projects the establishment's image.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Careers and Competencies in Hospitality', in plain ASCII form.",
+     "a": "career ladder -- operations plus supervisor plus junior plus middle plus top management",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.11",
+   "title": "Shift Rotation Arithmetic",
+   "questions": [
+    {
+     "q": "Find the number of daily shifts from the operating hours and the shift length. Use the method 'Shift Rotation Arithmetic'. Work with: operating_hours = 360, shift_hours = 5. Carry the chain through step by step and give the final value of shifts_per_day.",
+     "a": "72 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the daily shift count for a post that must never be left unattended. Use the method 'Shift Rotation Arithmetic'. Work with: operating_hours = 15, shift_hours = 240. Carry the chain through step by step and give the final value of shifts_per_day.",
+     "a": "0.0625 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Shift Rotation Arithmetic' refers to.",
+     "a": "A hotel that never closes divides its twenty four working hours into equal duty shifts, so the number of shift rotations each post needs per day is the operating hours divided by the shift length.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shift Rotation Arithmetic'.",
+     "a": "With eight hour shifts, every front office and desk control post needs three staff rotations daily.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Shift Rotation Arithmetic', in plain ASCII form.",
+     "a": "shifts_per_day = operating_hours / shift_hours",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe204.12",
+   "title": "Cleaning Schedule Frequency",
+   "questions": [
+    {
+     "q": "Calculate the yearly count of a cleaning round from its weekly frequency. Use the method 'Cleaning Schedule Frequency'. Work with: cleanings_per_week = 50, weeks_per_year = 10. Carry the chain through step by step and give the final value of rounds_per_year.",
+     "a": "500 years",
+     "self_check": false
+    },
+    {
+     "q": "How many times a year does a monthly schedule run compared with a weekly one? Use the method 'Cleaning Schedule Frequency'. Work with: cleanings_per_week = 300, weeks_per_year = 200. Carry the chain through step by step and give the final value of rounds_per_year.",
+     "a": "60000 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cleaning Schedule Frequency' refers to.",
+     "a": "Cleaning rounds repeat on a schedule, so the yearly count of any round is its frequency per week multiplied by the weeks in a year -- the arithmetic that shows daily chores tower over seasonal ones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cleaning Schedule Frequency'.",
+     "a": "A once a week deep clean means 52 rounds a year, while seasonal spring cleaning may touch a room only a few times.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cleaning Schedule Frequency', in plain ASCII form.",
+     "a": "rounds_per_year = cleanings_per_week * weeks_per_year",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

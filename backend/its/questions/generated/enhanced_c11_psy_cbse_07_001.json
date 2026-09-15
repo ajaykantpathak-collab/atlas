@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_001",
+   "title": "c11_psy_cbse_07_001",
+   "questions": [
+    {
+     "q": "A student says, \"I was thinking about my friend's birthday party yesterday.\" According to the NCERT definition, is this an example of thinking? Justify your answer in two sentences using the terms 'goal-directed' and 'manipulation of information'.",
+     "a": "No, merely recalling a past event is remembering, not thinking. Thinking requires *active manipulation* of information toward a *goal* (e.g., planning a better party next time), not passive retrieval. A wrong answer reveals the student confuses 'thinking' with any mental activity, missing the NCERT emphasis on *organised, goal-directed transformation* of information.",
+     "self_check": true
+    },
+    {
+     "q": "\"In psychology, thinking and perceiving are the same because both involve processing sensory input.\" Identify the error in this statement and explain the distinction using the NCERT concepts of 'mental representation' and 'going beyond the given information'.",
+     "a": "The error is equating perception (direct sensory registration) with thinking (indirect, representational manipulation). Perception stops at \"this is a painting with blue strokes\"; thinking *goes beyond* to interpret meaning, relate to knowledge, and create new understanding. A wrong answer shows the student misses that thinking uses *mental representations* (images/concepts) as intermediaries, whereas perception is relatively direct.",
+     "self_check": true
+    },
+    {
+     "q": "A chess player considers three possible moves, mentally simulates the opponent's responses for each, and selects the move that leads to checkmate in four steps. Map each phase of this scenario to the NCERT characteristics: (a) goal-directed, (b) internal mental process, (c) inference from behaviour, (d) manipulation of mental representations.",
+     "a": "(a) Goal-directed: the aim is checkmate. (b) Internal: the simulation occurs mentally, not on the board. (c) Inference: we deduce the simulation from the final move chosen. (d) Manipulation: the player transforms mental representations of board positions. A wrong answer (e.g., calling the simulation 'perception') reveals failure to grasp that thinking operates on *representations*, not the physical pieces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the NCERT view of thinking (\"manipulation and analysis of acquired information\") with the behaviourist view (thinking as covert speech/subvocalisation). Which characteristic of thinking — *internal*, *goal-directed*, or *inferential* — poses the strongest challenge to behaviourism? Explain in three steps.",
+     "a": "Step 1: Behaviourism reduces thinking to observable (covert) responses, but NCERT calls it *internal* — not directly observable even in principle. Step 2: The *inferential* nature means we reconstruct thinking from behaviour, not equate them. Step 3: *Goal-directed* manipulation of *representations* (not muscle movements) explains novel solutions (e.g., insight) that behaviourism cannot. The strongest challenge is *internal* + *representational*: thinking manipulates abstract entities (concepts/images) that have no behavioural correlate until output. A wrong answer focusing only on 'goal-directed' misses the representational core.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this board-exam answer: \"Thinking is a mental process where we use our brain to solve problems. It is internal and we cannot see it.\" Award marks out of 3 (1 for definition, 1 for characteristics, 1 for precision) and justify each mark deduction using NCERT terminology.",
+     "a": "Marks: 1/3. Deduction 1 (definition): \"uses brain\" is biological, not psychological; NCERT defines thinking as *manipulation/analysis of information via mental representations*. Deduction 2 (characteristics): lists only 'internal', omits *goal-directed, organised, inferential from behaviour*. Deduction 3 (precision): \"cannot see it\" confuses 'internal' with 'invisible'; NCERT says we *infer* it from behaviour. A poor answer treats thinking as a 'black box' rather than a *structured, representational process*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, real-life scenario (Indian context, 3-4 sentences) that demonstrates *all four* NCERT characteristics of thinking simultaneously: (1) internal mental process, (2) goal-directed, (3) organised, (4) inferred from behaviour. Do not use chess, math, or cooking examples.",
+     "a": "Scenario: A Delhi Metro commuter sees the usual Yellow Line platform crowded, *internally* simulates alternative routes (Blue Line → Rajiv Chowk → Yellow Line vs. Violet Line → Central Secretariat → Yellow Line), *organises* the comparison by time/crowd/cost, selects the Violet Line route (*goal-directed*: reach office by 9 AM), and *behaviourally* walks toward Gate 3 — we infer the mental comparison from the gate choice. A poor answer describes a habitual action (no simulation) or omits the *organised comparison* step, showing misunderstanding of 'manipulation of representations'.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

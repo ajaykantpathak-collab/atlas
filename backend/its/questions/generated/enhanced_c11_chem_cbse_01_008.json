@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_008",
+   "title": "c11_chem_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define molar mass and state its SI unit. How is it numerically related to the molecular mass of a substance?",
+     "a": "Molar mass is the mass of one mole of a substance expressed in g mol⁻¹; its SI unit is kg mol⁻¹ but g mol⁻¹ is conventionally used in chemistry. The numerical value of molar mass in g mol⁻¹ is exactly equal to the molecular (or formula) mass in unified atomic mass units (u). A wrong answer (e.g., stating the unit as g or mol, or saying molar mass is the mass of one molecule) reveals confusion between macroscopic and microscopic scales and between amount of substance and mass.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the molar mass of sodium chloride (NaCl) is calculated using the formula mass (58.5 g mol⁻¹) rather than a molecular mass, even though both are expressed in g mol⁻¹.",
+     "a": "Sodium chloride is an ionic compound that exists as a crystal lattice of Na⁺ and Cl⁻ ions, not as discrete NaCl molecules; therefore its formula mass (sum of atomic masses of Na and Cl) is used, and the term \"molar mass\" applies to the formula unit. A wrong answer (e.g., \"NaCl is a molecule so molecular mass is used\") reveals the persistent misconception that all compounds exist as molecules, ignoring the distinction between covalent and ionic bonding introduced in Class 9.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the number of moles and the number of molecules in 4.50 g of glucose (C₆H₁₂O₆). (Atomic masses: C = 12.01 u, H = 1.008 u, O = 16.00 u)",
+     "a": "Step 1: Molar mass of glucose = 6(12.01) + 12(1.008) + 6(16.00) = 180.16 g mol⁻¹. Step 2: Moles = mass / molar mass = 4.50 g / 180.16 g mol⁻¹ = 0.02498 mol ≈ 0.0250 mol. Step 3: Number of molecules = moles × Nₐ = 0.02498 mol × 6.022 × 10²³ mol⁻¹ = 1.50 × 10²² molecules. A wrong answer (e.g., forgetting to multiply by Avogadro's number, or using atomic mass instead of molar mass) reveals procedural gaps in the mass → mole → number of entities conversion chain.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures 2.00 g of hydrogen gas (H₂) and 32.0 g of oxygen gas (O₂). Compare the number of molecules in each sample and explain which sample contains more atoms.",
+     "a": "Moles of H₂ = 2.00 g / 2.016 g mol⁻¹ = 0.992 mol; molecules of H₂ = 0.992 × Nₐ. Moles of O₂ = 32.0 g / 32.00 g mol⁻¹ = 1.00 mol; molecules of O₂ = 1.00 × Nₐ. Oxygen sample has slightly more molecules. However, H₂ has 2 atoms per molecule → total H atoms = 2 × 0.992 Nₐ = 1.984 Nₐ; O₂ has 2 atoms per molecule → total O atoms = 2 × 1.00 Nₐ = 2.00 Nₐ. Oxygen sample has more atoms. A wrong answer (e.g., saying hydrogen has more atoms because it has more moles of atoms) reveals failure to account for diatomic nature and to distinguish between moles of molecules and moles of atoms.",
+     "self_check": true
+    },
+    {
+     "q": "A sample of calcium carbonate (CaCO₃) contains 0.500 mol of carbonate ions (CO₃²⁻). Determine the mass of the CaCO₃ sample and the number of calcium ions present.",
+     "a": "In CaCO₃, 1 formula unit contains 1 Ca²⁺ and 1 CO₃²⁻. Moles of CaCO₃ = moles of CO₃²⁻ = 0.500 mol. Molar mass of CaCO₃ = 40.08 + 12.01 + 3(16.00) = 100.09 g mol⁻¹. Mass = 0.500 mol × 100.09 g mol⁻¹ = 50.0 g. Number of Ca²⁺ ions = 0.500 mol × 6.022 × 10²³ mol⁻¹ = 3.01 × 10²³ ions. A wrong answer (e.g., using molar mass of CaO or forgetting the 1:1 stoichiometry) reveals inability to connect formula stoichiometry to ion counting, a skill essential for later ionic stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to determine the molar mass of an unknown volatile liquid using only a balance, a graduated cylinder, a thermometer, a barometer, and the ideal gas law (PV = nRT). Outline the measurements, calculations, and assumptions.",
+     "a": "Vaporize a known mass (m) of the liquid in a flask of known volume (V) at temperature (T) and pressure (P). Measure m, V, T, P. Calculate n = PV/RT. Molar mass = m/n. Assumptions: gas behaves ideally, vapor fills the flask completely, no air remains, temperature and pressure are uniform. A poor answer (e.g., measuring liquid volume instead of vapor volume, ignoring temperature/pressure) reveals lack of integration between gas laws and molar mass concept, a common gap in applying molar mass to physical methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

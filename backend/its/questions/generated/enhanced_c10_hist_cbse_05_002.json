@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_05_002",
+   "title": "c10_hist_cbse_05_002",
+   "questions": [
+    {
+     "q": "In which European city did Johannes Gutenberg establish his printing press, and approximately in which year did he perfect the movable metal type system?",
+     "a": "Mainz, Germany, around 1448. A wrong answer (e.g., Venice 1450 or Paris 1460) reveals the student confuses the *origin* with the *rapid spread* — many presses appeared in Venice and Paris shortly after, but Gutenberg's workshop was in Mainz. This error shows they memorised a list of early printing centres without anchoring the invention to its specific time and place.",
+     "self_check": true
+    },
+    {
+     "q": "Why was oil-based ink a necessary innovation for Gutenberg's metal type, and what problem would water-based ink (used in woodblock printing) have caused?",
+     "a": "Water-based ink does not adhere well to non-porous metal surfaces; it would bead up and produce faint, uneven impressions. Oil-based ink, made from linseed oil and soot, sticks to metal type and transfers cleanly under pressure. A wrong answer (e.g., \"oil-based ink dried faster\") shows the student misses the material-science link: the ink had to match the *surface properties* of the new metal type, not just be a different recipe.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 1470 printed book from Nuremberg with the same page layout as a 1455 Gutenberg Bible but with different typefaces. Using your knowledge of Gutenberg's system, explain how this similarity and difference could both occur.",
+     "a": "Similarity: Gutenberg's press design (screw mechanism, two-pull operation) and the concept of justified columns were copied by other printers. Difference: Each printer cast their own metal type using punches and matrices, so letterforms varied. A wrong answer (e.g., \"they used Gutenberg's actual type\") reveals the student thinks the *physical type* was shared, not the *method*. This misses the crucial point that movable type allowed *local* casting — a key reason printing spread so fast.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the production process of a 15th-century manuscript (hand-copied by a scribe) and a Gutenberg-press book. Identify *three* specific stages where the press introduced a qualitative change in *reproducibility*, not just speed.",
+     "a": "1. **Composition**: Manuscript — each letter formed by hand each time; Press — pre-cast identical letters assembled into a page. 2. **Inking**: Manuscript — ink applied by quill per stroke; Press — uniform roller/dauber coats entire forme at once. 3. **Impression**: Manuscript — pressure varies per letter; Press — screw press applies even, high pressure across whole page. A wrong answer listing only \"faster\" or \"cheaper\" shows the student cannot isolate the *mechanistic* changes that made identical copies possible — a board-exam requirement for \"analyse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Some scholars argue that the printing press was the *primary* cause of the Protestant Reformation. Evaluate this claim using evidence from the *technological capabilities* of Gutenberg's press alone (not later developments).",
+     "a": "The press enabled mass production of identical texts (e.g., Luther's 95 Theses printed and distributed widely within weeks), but the *technology itself* did not determine *content* or *reception*. Manuscript networks already spread ideas; the press amplified speed and uniformity. A strong answer distinguishes *necessary condition* (press made mass dissemination feasible) from *sufficient cause* (theological, political, economic factors). A wrong answer equating \"press caused Reformation\" shows deterministic thinking — a common board-exam trap where students confuse facilitation with causation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a labelled diagram (described in words) showing the workflow of Gutenberg's workshop from blank paper to finished quire, including the roles of the compositor, inkers, pressman, and corrector. Highlight one stage where *human error* could still introduce variations between copies.",
+     "a": "Workflow: 1. Punch-cutting (master letter) → 2. Matrix (copper mould) → 3. Casting type (molten alloy) → 4. Compositor sets type in composing stick → 5. Forme locked in chase → 6. Inkers apply oil-based ink → 7. Pressman pulls bar (two pulls per sheet) → 8. Corrector checks proofs → 9. Sheets dried, folded into quires. Human error stage: **Compositor's setting** — a misplaced letter or upside-down sort creates a variant that repeats in every copy of that forme until corrected. A poor answer omits the corrector or treats the process as fully automated, missing that early print still relied on skilled labour at every step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

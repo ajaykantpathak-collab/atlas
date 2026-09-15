@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_005",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_005",
+   "title": "c7_eco_ch04_005",
+   "questions": [
+    {
+     "q": "Which type of bank account is primarily designed for business owners who make multiple transactions every single day and require overdraft facilities?",
+     "a": "A Current Account. A wrong answer shows confusion with a Savings Account, which is meant for individuals with limited monthly transactions and has restrictions on the number of withdrawals to discourage commercial use.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a Fixed Deposit account offer a higher rate of interest compared to a regular Savings account?",
+     "a": "A Fixed Deposit locks the money in the bank for a predetermined period, allowing the bank to lend that stable pool of funds out for longer terms without fear of sudden withdrawal. A wrong answer reveals the misconception that banks give higher interest just to be generous, ignoring that interest rewards the depositor for giving up immediate access to their liquidity.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan deposits ₹10,000 into a Fixed Deposit for 1 year at an annual simple interest rate of 6%. How much total money will Rohan receive when he closes the account at the end of the year?",
+     "a": "Steps: 1. Identify principal amount ($P = ₹10,000$), rate ($R = 6\\%$), and time ($T = 1\\text{ year}$). 2. Use simple interest formula: $\\text{Interest} = \\frac{P \\times R \\times T}{100}$. 3. Calculate interest: $\\frac{10000 \\times 6 \\times 1}{100} = ₹600$. 4. Calculate total maturity amount: $\\text{Principal} + \\text{Interest} = 10000 + 600 = ₹10,600$. Answer: ₹10,600. A wrong answer indicates an error in calculating percentages or forgetting to add the interest back to the principal.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the impact if a businessman running a grocery wholesale shop tries to use a standard Savings Account instead of a Current Account for his daily operations.",
+     "a": "The businessman will likely exceed the bank's monthly limit on free transactions and deposits, attracting heavy penalty fees, and he will be denied business-specific features like overdraft facilities. A wrong answer shows a failure to recognize that personal and business financial needs operate under completely different rules and bank regulations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a retired person living on a fixed monthly pension should keep all their life savings in a Current Account to ensure they can withdraw cash anytime.",
+     "a": "This is an inefficient financial choice because a Current Account offers zero interest, meaning inflation will erode the purchasing power of their life savings over time. A better choice would be a combination of a Savings Account for daily expenses and Fixed Deposits or senior citizen schemes for earning steady interest. A wrong answer reveals a misunderstanding of the trade-off between absolute liquidity and earning returns to beat inflation.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a financial plan for a 14-year-old student who receives ₹2,000 as a birthday gift and wants to save it for a school laptop purchase two years later, while earning some extra money on it.",
+     "a": "The student should open a minor Savings Account or a short-term Fixed Deposit/Recurring Deposit tailored for youth to safely store the funds and earn interest over the two-year horizon. A poor answer suggests keeping the cash in a piggy bank at home, ignoring the safety benefits and interest-earning potential of banking infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

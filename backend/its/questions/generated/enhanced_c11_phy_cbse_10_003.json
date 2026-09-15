@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_003",
+   "title": "c11_phy_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the SI unit of coefficient of linear expansion αₗ and write its defining formula in terms of Δl, l, and ΔT.",
+     "a": "SI unit: K⁻¹ (or °C⁻¹, since temperature intervals are identical). Formula: αₗ = (Δl/l)/ΔT = Δl/(l ΔT). A wrong unit like m/K reveals confusion between αₗ and the expansion Δl itself; a formula like αₗ = Δl/ΔT (missing division by l) shows the student doesn't grasp that αₗ is an intensive material property independent of sample size.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical copper rods, one 10 cm long and the other 1 m long, are heated through the same temperature rise ΔT. Which rod experiences a larger fractional increase in length (Δl/l)? Explain why the absolute expansion Δl differs but the fractional expansion is the same.",
+     "a": "Both rods have the same fractional increase Δl/l = αₗ ΔT because αₗ is a material constant. The 1 m rod expands 10× more in absolute terms (Δl = αₗ l ΔT) because its original length l is 10× larger. If a student says the longer rod has larger fractional expansion, they are confusing absolute and fractional change — a fundamental error in understanding intensive vs extensive quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A steel rail of length 12.0 m is laid at 20.0°C. The coefficient of linear expansion of steel is 1.20×10⁻⁵ K⁻¹. Calculate the gap that must be left between adjacent rails so that they just touch at 45.0°C. Express your answer in mm.",
+     "a": "Given: l = 12.0 m, ΔT = 45.0 - 20.0 = 25.0°C = 25.0 K, αₗ = 1.20×10⁻⁵ K⁻¹.\nStep 1: Δl = αₗ l ΔT = (1.20×10⁻⁵ K⁻¹)(12.0 m)(25.0 K) = 3.60×10⁻³ m.\nStep 2: Convert to mm: 3.60×10⁻³ m × 1000 mm/m = 3.60 mm.\nAnswer: 3.60 mm gap required.\nA wrong answer of 0.36 mm indicates a decimal error (forgetting 1000 mm/m); 36 mm indicates using ΔT = 250 K instead of 25 K.",
+     "self_check": true
+    },
+    {
+     "q": "A brass rod (αₗ = 2.0×10⁻⁵ K⁻¹) and a steel rod (αₗ = 1.2×10⁻⁵ K⁻¹) have the same length at 0°C. They are heated to 100°C. Plot a qualitative graph of length vs temperature for both rods on the same axes. Which rod's line has a steeper slope? What does the slope represent physically?",
+     "a": "Both lines are straight (linear expansion) passing through the same point at 0°C. Brass line has steeper slope because its αₗ is larger. The slope of l vs T graph is dl/dT = αₗ l₀, which is the rate of change of length with temperature. If a student draws curved lines, they incorrectly think expansion is non-linear; if they draw parallel lines, they miss that slope depends on αₗ.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the thermal stress in a steel rod (Y = 2.0×10¹¹ Pa, αₗ = 1.2×10⁻⁵ K⁻¹) fixed between rigid supports when heated by 30°C. They write: σ = Y αₗ ΔT = (2.0×10¹¹)(1.2×10⁻⁵)(30) = 7.2×10⁷ Pa. Is this correct? Identify any error in the calculation or reasoning.",
+     "a": "The calculation is numerically correct: σ = 7.2×10⁷ Pa. However, the student must recognize this is compressive stress (rod wants to expand but is constrained). A common error is omitting the negative sign for compressive stress or confusing stress with force (F = σA). If the student used ΔT = 303 K (converting to Kelvin), they'd get 7.3×10⁷ Pa — wrong because αₗ uses temperature intervals, where 1 K = 1°C.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that different metals expand by different amounts for the same temperature rise. Specify the materials, measurements, and how you would calculate αₗ from your data.",
+     "a": "Use a metal ruler (steel) and a brass curtain rod of same initial length (measure at room temperature with a tape measure). Heat both uniformly in an oven at 100°C for 10 minutes. Quickly measure their lengths (using the same tape). Calculate αₗ = Δl/(l₀ ΔT) for each. Expected: brass expands ~1.7× more than steel. A poor answer uses only one metal, measures length while hot (thermal contraction during measurement), or forgets to measure initial length at room temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

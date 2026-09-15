@@ -1,0 +1,2054 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 101,
+ "chapter_title": "Electric Charges and Fields",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph101.txt",
+ "concepts": [
+  {
+   "id": "leph.101.1.2",
+   "title": "Electrification and Polarity of Charge",
+   "section": "1.2",
+   "definition": "Bodies develop electric charge through friction or contact with another material, exhibiting either positive or negative polarity.",
+   "formula": "neutral_body + electron_transfer -> charged_body",
+   "key_idea": "Frictional contact transfers light charged particles without creating net new charge.",
+   "textbook_ref": "leph101.txt lines 30-80",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics explain electrification by friction",
+    "describe how glass rod gets positively charged when rubbed with silk",
+    "what is polarity of electric charge acquired during contact",
+    "why do unlike charges attract and like charges repel",
+    "explain how gold-leaf electroscope detects electric charge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify charge transfer mechanism",
+     "explain": "electrons shift from glass to silk during friction causing positive charge on glass"
+    },
+    {
+     "step": 2,
+     "action": "determine polarity of each body",
+     "explain": "body losing electrons becomes positively charged while body gaining electrons becomes negatively charged"
+    },
+    {
+     "step": 3,
+     "action": "verify attraction or repulsion behavior",
+     "explain": "unlike charges attract and like charges repel confirming polarity assignment"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.3",
+   "title": "Conductors and Insulators",
+   "section": "1.3",
+   "definition": "Conductors permit free flow of electric charges across their volume, whereas insulators restrict charge movement to localized regions.",
+   "formula": "conductor_charge -> surface_distribution",
+   "key_idea": "Mobile charges in conductors distribute over the entire surface while remaining fixed on insulators.",
+   "textbook_ref": "leph101.txt lines 85-125",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics distinguish conductors from insulators",
+    "explain why metal spoon held in hand cannot be charged by rubbing",
+    "how does excess charge distribute on a conducting surface",
+    "what is the role of grounding in discharging conductors",
+    "why does plastic comb get electrified when combed through dry hair"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze charge mobility",
+     "explain": "free electrons in metals allow charge to leak through human body to earth"
+    },
+    {
+     "step": 2,
+     "action": "classify material as conductor or insulator",
+     "explain": "conductors have free charge carriers that redistribute across the surface while insulators localize charge at the point of contact"
+    },
+    {
+     "step": 3,
+     "action": "verify charge retention or leakage",
+     "explain": "insulators retain transferred charge because electrons cannot flow freely whereas conductors discharge through any grounding path"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.4.1",
+   "title": "Additivity of Electric Charges",
+   "section": "1.4.1",
+   "definition": "The total charge of a discrete multi-particle system is equal to the scalar sum of individual charges taking algebraic signs into account.",
+   "formula": "Q_total = q_1 + q_2 + ... + q_n",
+   "key_idea": "Electric charge is a scalar quantity requiring proper positive and negative signs during summation.",
+   "textbook_ref": "leph101.txt lines 135-155",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics state additivity of electric charge",
+    "calculate net charge of system containing discrete point charges",
+    "find total charge for system of point charges with positive and negative signs",
+    "how do charges add algebraically in a isolated system",
+    "determine combined charge when multiple point charges are brought together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum charges algebraically",
+     "explain": "add magnitudes taking positive and negative signs into account"
+    },
+    {
+     "step": 2,
+     "action": "assign signs to each charge",
+     "explain": "positive charges contribute positively and negative charges contribute negatively to the total"
+    },
+    {
+     "step": 3,
+     "action": "verify the net charge result",
+     "explain": "the scalar sum with proper signs gives the total charge of the system"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.4.2",
+   "title": "Conservation of Electric Charge",
+   "section": "1.4.2",
+   "definition": "The total algebraic sum of charges in an isolated system remains constant regardless of internal processes or particle transformations.",
+   "formula": "Q_initial = Q_final",
+   "key_idea": "Net electric charge cannot be created or destroyed in any physical process.",
+   "textbook_ref": "leph101.txt lines 156-175",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics state law of conservation of charge",
+    "explain charge conservation during decay of neutron into proton and electron",
+    "verify charge conservation during frictional electrification",
+    "why is total charge of an isolated system invariant",
+    "describe pair production in relation to charge conservation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify initial and final net charges",
+     "explain": "net charge before reaction equals net charge after reaction"
+    },
+    {
+     "step": 2,
+     "action": "list all charges before the process",
+     "explain": "sum the algebraic charge of every particle in the isolated system at the start"
+    },
+    {
+     "step": 3,
+     "action": "confirm equality of initial and final totals",
+     "explain": "charge conservation requires the total algebraic charge to remain unchanged through any internal process"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.4.3",
+   "title": "Quantisation of Charge Accumulation",
+   "section": "1.4.3",
+   "definition": "Electric charge carried by any physical object occurs in integral multiples of the fundamental unit of electronic charge e.",
+   "formula": "q = n * e",
+   "key_idea": "Microscopic electric charge exists in discrete quanta equal to elementary charge e.",
+   "textbook_ref": "leph101.txt lines 176-240",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics find time required to collect target charge given electron transfer rate",
+    "calculate time taken to accumulate charge C when electrons leave body per second",
+    "determine duration needed to accumulate target charge from rate of electron loss",
+    "compute time to accumulate target electric charge",
+    "evaluate time required for electron flow rate to build target charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate charge transferred per second",
+     "explain": "multiply electron emission rate by electronic charge e",
+     "compute": "charge_rate = n_rate * e"
+    },
+    {
+     "step": 2,
+     "action": "compute time required in seconds",
+     "explain": "divide target total charge by charge accumulated per second",
+     "compute": "time_sec = target_charge / charge_rate"
+    },
+    {
+     "step": 3,
+     "action": "verify time result is positive and finite",
+     "explain": "a valid accumulation time must be a positive real number consistent with the electron transfer rate"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.5.1",
+   "title": "Coulomb's Law Force",
+   "section": "1.5",
+   "definition": "Electrostatic interaction force between two stationary point charges is proportional to product of charge magnitudes and inversely proportional to square of separation distance.",
+   "formula": "F = k * q1 * q2 / (r ** 2)",
+   "key_idea": "Point charges exert equal and opposite central electrostatic forces obeying inverse square dependence.",
+   "textbook_ref": "leph101.txt lines 245-320",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate Coulomb force between two point charges",
+    "find electrostatic force between charges separated by distance r",
+    "determine force of interaction between two point charges in free space",
+    "compute magnitude of electric force using Coulomb law",
+    "evaluate repulsive or attractive Coulomb force for given pair of charges"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply magnitudes of the two charges",
+     "explain": "compute product of charge values q1 and q2",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square the separation distance",
+     "explain": "multiply separation distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute Coulomb electrostatic force",
+     "explain": "multiply Coulomb constant k by charge product and divide by distance squared",
+     "compute": "force = k * q_prod / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.5.2",
+   "title": "Ratio of Electrostatic to Gravitational Force",
+   "section": "1.5",
+   "definition": "The relative strength comparison between electrostatic attraction or repulsion and universal gravitational attraction for a pair of charged particles.",
+   "formula": "ratio = (k * q1 * q2) / (G * m1 * m2)",
+   "key_idea": "Electrostatic forces dominate gravitational forces by many orders of magnitude for subatomic particles.",
+   "textbook_ref": "leph101.txt lines 321-360",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics compute ratio of electric force to gravitational force for two particles",
+    "calculate ratio of electrostatic force to gravitational attraction between electron and proton",
+    "find relative strength of Coulomb force compared to gravitational force for two protons",
+    "determine ratio of electrostatic interaction force to gravitational interaction force",
+    "evaluate how many times electric force exceeds gravitational force between two masses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator force constant product",
+     "explain": "multiply electrostatic constant k by charge magnitudes q1 and q2",
+     "compute": "fe_num = k * q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator mass constant product",
+     "explain": "multiply gravitational constant G by particle masses m1 and m2",
+     "compute": "fg_den = grav_const * m1 * m2"
+    },
+    {
+     "step": 3,
+     "action": "compute ratio of electrostatic force to gravitational force",
+     "explain": "divide electric force numerator product by gravitational denominator product",
+     "compute": "ratio = fe_num / fg_den"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.6",
+   "title": "Superposition Principle for Electrostatic Forces",
+   "section": "1.6",
+   "definition": "The resultant electrostatic force on a target charge within a multi-charge system equals vector sum of forces exerted individually by all other charges.",
+   "formula": "F_total = F_12 + F_13 + ... + F_1n",
+   "key_idea": "Individual pairwise Coulomb forces remain unaffected by the presence of surrounding charges.",
+   "textbook_ref": "leph101.txt lines 365-420",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics state principle of superposition for electric forces",
+    "find net electrostatic force on a charge at centroid of equilateral triangle",
+    "calculate total force on a charge due to system of multiple charges",
+    "how to perform vector addition of Coulomb forces for multiple point charges",
+    "explain why pairwise forces are unaltered by surrounding charges"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply vector addition",
+     "explain": "sum individual Coulomb force vectors acting on target charge"
+    },
+    {
+     "step": 2,
+     "action": "compute each pairwise force independently",
+     "explain": "calculate the Coulomb force between the target charge and every other charge using the inverse square law"
+    },
+    {
+     "step": 3,
+     "action": "resolve components and find resultant",
+     "explain": "decompose each force vector into components then sum component-wise to obtain the net force vector"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.7.1",
+   "title": "Electric Field of a Point Charge",
+   "section": "1.7",
+   "definition": "The electric field intensity at a spatial location equals force experienced per unit positive test charge placed at that location.",
+   "formula": "E = k * q / (r ** 2)",
+   "key_idea": "Source charge produces radial electric field decreasing inversely with square of distance.",
+   "textbook_ref": "leph101.txt lines 430-510",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate electric field magnitude at distance r from point charge",
+    "find electric field intensity generated by point charge q at distance r",
+    "determine magnitude of electric field produced by source charge",
+    "compute electric field strength at distance r from charge",
+    "evaluate electrostatic field magnitude due to single point charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the radial distance",
+     "explain": "multiply distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute electric field strength",
+     "explain": "multiply Coulomb constant k by charge q and divide by distance squared",
+     "compute": "field = k * q / r_sq"
+    },
+    {
+     "step": 3,
+     "action": "verify field direction and magnitude",
+     "explain": "field points radially outward for positive q and inward for negative q with magnitude decreasing as inverse square of distance"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.7.2",
+   "title": "Particle Acceleration in Uniform Electric Field",
+   "section": "1.7",
+   "definition": "Acceleration undergone by a charged particle moving through an electric field equals ratio of electric force to particle mass.",
+   "formula": "a = e * E / m",
+   "key_idea": "Electric force accelerates charged particles proportional to field magnitude and inversely to mass.",
+   "textbook_ref": "leph101.txt lines 515-570",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate acceleration of charged particle in uniform electric field",
+    "find acceleration experienced by electron or proton in field intensity E",
+    "determine acceleration of particle with charge e and mass m in field E",
+    "compute acceleration of electron in uniform electric field",
+    "evaluate rate of velocity change for proton in electric field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate electric force on particle",
+     "explain": "multiply charge magnitude e by electric field strength E",
+     "compute": "force = e * e_field"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration of particle",
+     "explain": "divide electric force by particle mass m",
+     "compute": "accel = force / m"
+    },
+    {
+     "step": 3,
+     "action": "verify acceleration direction and magnitude",
+     "explain": "acceleration is parallel to field for positive charge and antiparallel for negative charge with magnitude inversely proportional to mass"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.8",
+   "title": "Properties of Electric Field Lines",
+   "section": "1.8",
+   "definition": "Imaginary continuous curves visualising electric field orientation whose tangent at any point gives net field direction.",
+   "formula": "E_direction = tangent_to_field_line",
+   "key_idea": "Field lines originate on positive charges, terminate on negative charges, and never intersect.",
+   "textbook_ref": "leph101.txt lines 580-660",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics list key properties of electric field lines",
+    "why can two electric field lines never cross each other",
+    "explain why electrostatic field lines do not form closed loops",
+    "how does relative density of field lines indicate field strength",
+    "draw electric field lines for pair of equal positive charges"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check field line rules",
+     "explain": "intersection implies two field directions at one point which is physically impossible"
+    },
+    {
+     "step": 2,
+     "action": "verify origin and termination of field lines",
+     "explain": "field lines start on positive charges and end on negative charges or extend to infinity never forming closed loops in electrostatics"
+    },
+    {
+     "step": 3,
+     "action": "confirm line density indicates field strength",
+     "explain": "regions where field lines are closely packed correspond to stronger electric field and sparse regions correspond to weaker field"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.9",
+   "title": "Electric Flux through a Surface",
+   "section": "1.9",
+   "definition": "Measure of total electric field lines passing normally through a given area element.",
+   "formula": "flux = E * A * cos_theta",
+   "key_idea": "Flux depends on electric field strength, area magnitude, and inclination angle with area normal.",
+   "textbook_ref": "leph101.txt lines 665-740",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate electric flux through planar area",
+    "find electric flux passing through surface area A tilted at angle theta",
+    "determine flux of electric field vector across planar surface",
+    "compute electric flux when electric field makes angle theta with normal",
+    "evaluate total flux through flat face of area A in uniform electric field E"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute surface electric flux",
+     "explain": "multiply electric field magnitude E by area A and cosine of angle theta",
+     "compute": "flux = e_field * a * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "identify the angle between field and area normal",
+     "explain": "theta is measured between the electric field vector and the outward normal to the surface area element"
+    },
+    {
+     "step": 3,
+     "action": "verify flux sign and magnitude",
+     "explain": "positive flux means field exits the surface while zero flux occurs when field is parallel to the surface plane"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.10.1",
+   "title": "Electric Field on Dipole Axis",
+   "section": "1.10.1",
+   "definition": "Electric field produced by a pair of equal and opposite charges at a point lying along the line joining them.",
+   "formula": "E_axial = 2 * k * p / (r ** 3)",
+   "key_idea": "Axial dipole field decreases inversely with cube of distance and points along dipole moment.",
+   "textbook_ref": "leph101.txt lines 745-810",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate axial electric field of dipole at distance r",
+    "find electric field intensity on axis of electric dipole at distance r",
+    "determine electric field magnitude at point on dipole axis far from centre",
+    "compute axial field produced by dipole moment p at distance r",
+    "evaluate axial field strength of short electric dipole"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator product",
+     "explain": "multiply 2 by Coulomb constant k and dipole moment p",
+     "compute": "num = 2 * k * p"
+    },
+    {
+     "step": 2,
+     "action": "cube the axial distance",
+     "explain": "raise axial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 3,
+     "action": "compute axial electric field",
+     "explain": "divide numerator product by distance cubed",
+     "compute": "field_axial = num / r_cube"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.10.2",
+   "title": "Electric Field on Dipole Equatorial Line",
+   "section": "1.10.2",
+   "definition": "Electric field produced by an electric dipole at a point on its perpendicular bisector plane.",
+   "formula": "E_equatorial = k * p / (r ** 3)",
+   "key_idea": "Equatorial dipole field is half the axial field magnitude at same distance and points antiparallel to dipole moment.",
+   "textbook_ref": "leph101.txt lines 811-850",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate equatorial electric field of dipole at distance r",
+    "find electric field intensity on normal bisector of dipole at distance r",
+    "determine electric field at broadside-on position of electric dipole",
+    "compute equatorial field produced by dipole moment p at distance r",
+    "evaluate field magnitude on equatorial plane of short electric dipole"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the equatorial distance",
+     "explain": "raise equatorial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 2,
+     "action": "compute equatorial electric field",
+     "explain": "multiply Coulomb constant k by dipole moment p and divide by distance cubed",
+     "compute": "field_eq = k * p / r_cube"
+    },
+    {
+     "step": 3,
+     "action": "verify field direction relative to dipole moment",
+     "explain": "equatorial field points antiparallel to the dipole moment and is half the axial field magnitude at the same distance"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.11",
+   "title": "Torque on Electric Dipole in Uniform Field",
+   "section": "1.11",
+   "definition": "Rotational couple experienced by an electric dipole in a uniform external field seeking to align dipole moment with field direction.",
+   "formula": "torque = p * E * sin_theta",
+   "key_idea": "Uniform electric field exerts zero net force but non-zero torque on an inclined electric dipole.",
+   "textbook_ref": "leph101.txt lines 855-910",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics derive torque on electric dipole in uniform field",
+    "what is net translational force on dipole placed in uniform electric field",
+    "find orientation of dipole for maximum torque in electric field",
+    "explain how non-uniform field exerts net attraction on polarized paper",
+    "describe behavior of electric dipole in uniform external field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate net force and couple",
+     "explain": "equal opposite forces qE and -qE create net torque pE sin(theta) while net force is zero"
+    },
+    {
+     "step": 2,
+     "action": "determine torque magnitude from dipole moment and field",
+     "explain": "torque equals dipole moment p times electric field E times sine of the angle between them"
+    },
+    {
+     "step": 3,
+     "action": "verify equilibrium orientation of the dipole",
+     "explain": "torque is maximum when dipole is perpendicular to field and zero when dipole aligns parallel or antiparallel to the field"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.13",
+   "title": "Enclosed Charge from Gauss's Law",
+   "section": "1.13",
+   "definition": "Fundamental theorem stating net electric flux through any closed Gaussian surface equals enclosed charge divided by permittivity of free space.",
+   "formula": "q_enclosed = flux * epsilon_0",
+   "key_idea": "Total electric flux across closed boundary depends strictly on total interior charge.",
+   "textbook_ref": "leph101.txt lines 960-1040",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate enclosed charge from electric flux using Gauss law",
+    "find total charge inside closed Gaussian surface given net electric flux",
+    "determine charge contained within cylinder or cube from total outward flux",
+    "compute net interior charge using Gauss law flux relation",
+    "evaluate charge enclosed by surface given total electric flux"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net enclosed charge",
+     "explain": "multiply net electric flux by vacuum permittivity constant epsilon_0",
+     "compute": "q_enclosed = flux * epsilon_0"
+    },
+    {
+     "step": 2,
+     "action": "identify the Gaussian surface boundary",
+     "explain": "select a closed surface enclosing the charge distribution so that flux is calculable using symmetry"
+    },
+    {
+     "step": 3,
+     "action": "verify consistency with Gauss law",
+     "explain": "the computed enclosed charge must match the algebraic sum of all charges inside the closed Gaussian surface"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.14.1",
+   "title": "Electric Field of Charged Infinite Wire",
+   "section": "1.14.1",
+   "definition": "Radial electric field generated by an infinitely long straight conductor bearing uniform linear charge density.",
+   "formula": "E = lambda / (2 * pi * epsilon_0 * r)",
+   "key_idea": "Line charge creates cylindrical radial electric field decreasing inversely with radial distance r.",
+   "textbook_ref": "leph101.txt lines 1045-1100",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate electric field at distance r from infinite long charged wire",
+    "find electric field intensity due to long straight wire with linear charge density",
+    "determine field produced by infinite line charge at distance r",
+    "compute radial electric field around long uniformly charged wire",
+    "evaluate electric field strength created by wire of linear charge density lambda"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate denominator factor",
+     "explain": "multiply 2, pi, vacuum permittivity epsilon_0, and radial distance r",
+     "compute": "denom = 2 * pi * epsilon_0 * r"
+    },
+    {
+     "step": 2,
+     "action": "compute radial electric field",
+     "explain": "divide linear charge density lambda_charge by denominator factor",
+     "compute": "field = lambda_charge / denom"
+    },
+    {
+     "step": 3,
+     "action": "verify field direction and distance dependence",
+     "explain": "field points radially outward for positive line charge and decreases inversely with perpendicular distance r from the wire"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.14.2",
+   "title": "Electric Field of Infinite Charged Sheet",
+   "section": "1.14.2",
+   "definition": "Uniform electric field produced normal to an infinite flat plane carrying uniform surface charge density.",
+   "formula": "E = sigma / (2 * epsilon_0)",
+   "key_idea": "Infinite charged sheet produces uniform electric field independent of distance from plane.",
+   "textbook_ref": "leph101.txt lines 1105-1145",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics calculate electric field near infinite uniformly charged plane sheet",
+    "find electric field strength due to infinite planar surface charge density",
+    "determine electric field intensity produced by large flat charged sheet",
+    "compute field near infinite charged plate using surface charge density sigma",
+    "evaluate uniform electric field created by planar surface charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute electric field magnitude",
+     "explain": "divide surface charge density sigma by twice the permittivity of free space epsilon_0",
+     "compute": "field = sigma / (2 * epsilon_0)"
+    },
+    {
+     "step": 2,
+     "action": "identify field direction relative to the sheet",
+     "explain": "field is perpendicular to the sheet pointing away for positive sigma and toward the sheet for negative sigma"
+    },
+    {
+     "step": 3,
+     "action": "verify field is uniform and independent of distance",
+     "explain": "the infinite sheet produces a constant magnitude field on both sides that does not vary with distance from the plane"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1.14.3",
+   "title": "Electric Field of Thin Spherical Shell",
+   "section": "1.14.3",
+   "definition": "Electric field created by uniformly charged spherical shell, behaving as point charge externally and vanishing internally.",
+   "formula": "E_outside = k * q / (r ** 2)",
+   "key_idea": "Inside a uniformly charged hollow spherical shell, electrostatic field vanishes everywhere.",
+   "textbook_ref": "leph101.txt lines 1150-1210",
+   "question_patterns": [
+    "in Class 12 Physics electrostatics state electric field inside uniformly charged thin spherical shell",
+    "derive electric field outside charged spherical shell using Gauss law",
+    "how does electric field vary with distance for thin charged spherical shell",
+    "explain why electrostatic field inside hollow conductor is zero",
+    "apply Gauss law to determine field inside and outside spherical shell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply Gauss law inside shell",
+     "explain": "Gaussian surface inside encloses zero charge hence electric field equals zero"
+    },
+    {
+     "step": 2,
+     "action": "apply Gauss law outside the shell",
+     "explain": "for a Gaussian surface outside the shell the enclosed charge equals total shell charge giving field identical to a point charge at the centre"
+    },
+    {
+     "step": 3,
+     "action": "verify field discontinuity at the shell surface",
+     "explain": "field jumps from zero inside to k*q/R^2 just outside confirming charge resides on the surface of the conductor"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.1",
+   "title": "Quantization of Electric Charge",
+   "section": "Summary - 4",
+   "definition": "The total electric charge on any macroscopic or microscopic entity is an integer scalar multiple of the elementary unit charge.",
+   "formula": "q = n * e_charge",
+   "key_idea": "Net electric charge comes in discrete integral bundles equal to the fundamental electronic charge.",
+   "textbook_ref": "leph101.txt lines 18-28",
+   "question_patterns": [
+    "calculate the number of electrons transferred to produce charge {q}",
+    "find the total charge when {n} electrons are transferred",
+    "determine the total electric charge corresponding to {n} excess electrons",
+    "what is the magnitude of net charge given {n} electronic charges",
+    "evaluate the number of excess electrons on a body with total charge {q}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total charge by unit electronic charge",
+     "explain": "quantization relates total charge q to electron count n via q = n * e_charge",
+     "compute": "n = q / e_charge"
+    },
+    {
+     "step": 2,
+     "action": "verify n is an integer",
+     "explain": "charge quantization requires the number of elementary charges to be a whole number with no fractional remainder"
+    },
+    {
+     "step": 3,
+     "action": "determine sign of transferred charge",
+     "explain": "a positive n indicates electron deficit or positive charge while a negative n indicates electron excess or negative charge"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.2",
+   "title": "Coulomb's Law of Electrostatic Force",
+   "section": "Summary - 5",
+   "definition": "The magnitude of interaction force between two stationary point charges is directly proportional to their product and inversely proportional to the square of their distance.",
+   "formula": "force = (k * q1 * q2) / (r ** 2)",
+   "key_idea": "Electrostatic interaction obeys an inverse-square distance dependence along the central line connecting charges.",
+   "textbook_ref": "leph101.txt lines 31-45",
+   "question_patterns": [
+    "find the electrostatic force between two point charges {q1} and {q2} separated by distance {r}",
+    "calculate the magnitude of electrostatic repulsion between charges {q1} and {q2} at distance {r}",
+    "determine the force acting between point charges {q1} and {q2} placed {r} meters apart",
+    "what is the mutual electrostatic force between charges {q1} and {q2} separated by {r}",
+    "evaluate the magnitude of electric force between two charges {q1} and {q2} at separation {r}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate charge product",
+     "explain": "multiply the magnitude of both interacting charges",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square separation distance",
+     "explain": "coulomb force depends on inverse square of separation distance",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute electrostatic force",
+     "explain": "multiply electrostatic constant k with charge product and divide by squared distance",
+     "compute": "force = (k * q_prod) / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.3",
+   "title": "Torque on an Electric Dipole in Uniform Field",
+   "section": "Summary - 13",
+   "definition": "A pair of equal and opposite charges separated by a fixed distance experiences a net turning moment when oriented at an angle in a uniform electric field.",
+   "formula": "tau = p * E * sin_theta",
+   "key_idea": "Uniform external electric field produces zero net translational force but a restoring rotational torque on an electric dipole.",
+   "textbook_ref": "leph101.txt lines 71-73",
+   "question_patterns": [
+    "calculate the torque on an electric dipole with moment {p} placed in electric field {E} at orientation sine {sin_theta}",
+    "find the magnitude of torque acting on dipole {p} in external electric field {E} with angle sine {sin_theta}",
+    "determine the turning moment experienced by dipole {p} in electric field {E} where sine of angle is {sin_theta}",
+    "what is the torque on electric dipole moment {p} in uniform field {E} at angle sine {sin_theta}",
+    "evaluate the magnitude of rotational torque on dipole {p} in field {E} with sine angle {sin_theta}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply dipole moment by electric field",
+     "explain": "calculate maximum possible torque magnitude p times E",
+     "compute": "pe = p * e_field"
+    },
+    {
+     "step": 2,
+     "action": "calculate torque with angular orientation",
+     "explain": "scale product by sine of orientation angle",
+     "compute": "tau = pe * sin_theta"
+    },
+    {
+     "step": 3,
+     "action": "verify torque direction and equilibrium condition",
+     "explain": "torque acts to align the dipole moment with the field and vanishes when the dipole is parallel or antiparallel to the field"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.4",
+   "title": "Electric Flux and Gauss's Law",
+   "section": "Summary - 14, 15",
+   "definition": "The total electric field flux passing through an enclosed Gaussian surface equals net enclosed charge divided by permittivity of free space.",
+   "formula": "phi = q_enclosed / epsilon_0",
+   "key_idea": "Net electric flux through any arbitrary closed boundary depends exclusively on the total net charge enclosed within.",
+   "textbook_ref": "leph101.txt lines 74-85",
+   "question_patterns": [
+    "calculate the net electric flux through a closed surface enclosing charge {q_enclosed}",
+    "find the electric flux exiting a closed volume containing charge {q_enclosed}",
+    "determine the electric flux through a surface enclosing net charge {q_enclosed}",
+    "what is the net outward electric flux from a region containing net charge {q_enclosed}",
+    "evaluate total electric flux across Gaussian surface enclosing total charge {q_enclosed}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide enclosed charge by permittivity of free space",
+     "explain": "apply Gauss's law formula phi = q_enclosed / epsilon_0",
+     "compute": "phi = q_enclosed / epsilon_0"
+    },
+    {
+     "step": 2,
+     "action": "identify the closed Gaussian surface",
+     "explain": "choose a closed surface that encloses the net charge so total outward flux depends only on interior charge"
+    },
+    {
+     "step": 3,
+     "action": "verify flux sign matches enclosed charge sign",
+     "explain": "positive enclosed charge gives outward positive flux and negative enclosed charge gives inward negative flux"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.5",
+   "title": "Electric Field of an Infinite Line Charge",
+   "section": "Summary - 15(i)",
+   "definition": "An infinitely extended straight line with uniform charge per unit length produces a radially directed electric field inversely proportional to distance.",
+   "formula": "E = (2 * k * lambda_val) / r",
+   "key_idea": "The electric field around an infinite linear charge distribution scales inversely with perpendicular distance.",
+   "textbook_ref": "leph101.txt lines 86-91",
+   "question_patterns": [
+    "calculate the electric field at distance {r} from an infinite line charge of density {lambda_val}",
+    "find the electric field produced by a long straight wire with linear charge density {lambda_val} at distance {r}",
+    "determine the electric field strength at distance {r} from line charge density {lambda_val}",
+    "what is the electric field generated by uniform linear charge density {lambda_val} at radial distance {r}",
+    "evaluate the electric field magnitude at distance {r} from infinite linear charge {lambda_val}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the electrostatic constant",
+     "explain": "compute factor 2 * k for simplified line charge formula",
+     "compute": "two_k = 2 * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply by linear charge density",
+     "explain": "scale by charge per unit length lambda",
+     "compute": "num = two_k * lambda_val"
+    },
+    {
+     "step": 3,
+     "action": "divide by radial distance",
+     "explain": "electric field magnitude decreases linearly with radial distance r",
+     "compute": "E = num / r"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.6",
+   "title": "Electric Field of an Infinite Plane Sheet",
+   "section": "Summary - 15(ii)",
+   "definition": "A flat infinite plane sheet with uniform surface charge distribution creates a uniform electric field independent of distance on either side.",
+   "formula": "E = sigma / (2 * epsilon_0)",
+   "key_idea": "Electric field created by a uniformly charged infinite plane sheet is constant in magnitude throughout space.",
+   "textbook_ref": "leph101.txt lines 92-96",
+   "question_patterns": [
+    "calculate the electric field near an infinite sheet with surface charge density {sigma}",
+    "find the electric field intensity produced by plane sheet of surface charge density {sigma}",
+    "determine the electric field generated by thin infinite sheet carrying uniform surface density {sigma}",
+    "what is the electric field magnitude near a large charged sheet of density {sigma}",
+    "evaluate the electric field strength near uniform surface charge density {sigma}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double permittivity constant",
+     "explain": "calculate denominator 2 * epsilon_0",
+     "compute": "denom = 2 * epsilon_0"
+    },
+    {
+     "step": 2,
+     "action": "divide surface charge density by denominator",
+     "explain": "calculate field E = sigma / (2 * epsilon_0)",
+     "compute": "E = sigma / denom"
+    },
+    {
+     "step": 3,
+     "action": "verify field is uniform and direction is normal to sheet",
+     "explain": "the infinite sheet produces a constant field on both sides pointing away for positive sigma and toward the sheet for negative sigma"
+    }
+   ]
+  },
+  {
+   "id": "leph.101.7",
+   "title": "Total Charge and Field of a Spherical Shell",
+   "section": "Summary - 15(iii)",
+   "definition": "A thin uniformly charged spherical surface holds a total charge equal to surface density multiplied by spherical surface area.",
+   "formula": "q = sigma * 4 * pi * (R ** 2)",
+   "key_idea": "Total charge on a spherical conductor shell distributes uniformly across its exterior surface area.",
+   "textbook_ref": "leph101.txt lines 97-105",
+   "question_patterns": [
+    "find the total charge on a spherical conductor of radius {R} with surface charge density {sigma}",
+    "calculate total charge of a conducting sphere with radius {R} and surface density {sigma}",
+    "determine the charge accumulated on spherical shell of radius {R} with density {sigma}",
+    "what is the total net charge on a sphere of radius {R} having surface charge density {sigma}",
+    "evaluate total charge on spherical surface of radius {R} with uniform charge density {sigma}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square radius of sphere",
+     "explain": "compute R squared for surface area calculation",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute spherical surface area",
+     "explain": "multiply 4 * pi * r_sq to obtain surface area",
+     "compute": "area = 4 * pi * r_sq"
+    },
+    {
+     "step": 3,
+     "action": "calculate total charge",
+     "explain": "multiply surface charge density sigma by total surface area",
+     "compute": "q = sigma * area"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1_1",
+   "source_ref": "leph101.txt lines 210-230",
+   "concept": "leph.101.1.4.3",
+   "question_type": "compute_time_from_transfer_rate",
+   "question_pattern": "If {n_rate} electrons move out of a body every second, how much time is required to collect a total charge of {target_charge} C on another body?",
+   "extracted_variables": {
+    "n_rate": 1000000000,
+    "target_charge": 1.0,
+    "e": 1.6e-19
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate charge transferred per second",
+     "explain": "multiply electron emission rate by electronic charge e",
+     "compute": "charge_rate = n_rate * e"
+    },
+    {
+     "step": 2,
+     "action": "compute time required in seconds",
+     "explain": "divide target total charge by charge accumulated per second",
+     "compute": "time_sec = target_charge / charge_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex1_1_variant",
+   "source_ref": "leph101.txt lines 210-230",
+   "concept": "leph.101.1.4.3",
+   "question_type": "compute_time_from_transfer_rate",
+   "question_pattern": "If {n_rate} electrons leave a metallic sphere per second, calculate time in seconds to accumulate a total charge of {target_charge} C.",
+   "extracted_variables": {
+    "n_rate": 10000000000,
+    "target_charge": 2.0,
+    "e": 1.6e-19
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate charge transferred per second",
+     "explain": "multiply electron emission rate by electronic charge e",
+     "compute": "charge_rate = n_rate * e"
+    },
+    {
+     "step": 2,
+     "action": "compute time required in seconds",
+     "explain": "divide target total charge by charge accumulated per second",
+     "compute": "time_sec = target_charge / charge_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex1_3_force",
+   "source_ref": "leph101.txt lines 321-345",
+   "concept": "leph.101.1.5.1",
+   "question_type": "compute_coulomb_force",
+   "question_pattern": "Calculate magnitude of electric force between electron and proton separated by distance {r} m.",
+   "extracted_variables": {
+    "q1": 1.6e-19,
+    "q2": 1.6e-19,
+    "r": 1e-10,
+    "k": 8987500000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply magnitudes of the two charges",
+     "explain": "compute product of charge values q1 and q2",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square the separation distance",
+     "explain": "multiply separation distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute Coulomb electrostatic force",
+     "explain": "multiply Coulomb constant k by charge product and divide by distance squared",
+     "compute": "force = k * q_prod / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex1_4_force",
+   "source_ref": "leph101.txt lines 346-360",
+   "concept": "leph.101.1.5.1",
+   "question_type": "compute_coulomb_force",
+   "question_pattern": "Find electrostatic force between two point charges {q1} C and {q2} C separated by {r} m.",
+   "extracted_variables": {
+    "q1": 2e-07,
+    "q2": 3e-07,
+    "r": 0.1,
+    "k": 9000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply magnitudes of the two charges",
+     "explain": "compute product of charge values q1 and q2",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square the separation distance",
+     "explain": "multiply separation distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute Coulomb electrostatic force",
+     "explain": "multiply Coulomb constant k by charge product and divide by distance squared",
+     "compute": "force = k * q_prod / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex1_3_ratio_ep",
+   "source_ref": "leph101.txt lines 321-340",
+   "concept": "leph.101.1.5.2",
+   "question_type": "compute_force_ratio",
+   "question_pattern": "Determine ratio of electrostatic force to gravitational force for electron and proton.",
+   "extracted_variables": {
+    "q1": 1.6e-19,
+    "q2": 1.6e-19,
+    "m1": 1.67e-27,
+    "m2": 9.11e-31,
+    "k": 8987500000.0,
+    "G": 6.67e-11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator force constant product",
+     "explain": "multiply electrostatic constant k by charge magnitudes q1 and q2",
+     "compute": "fe_num = k * q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator mass constant product",
+     "explain": "multiply gravitational constant G by particle masses m1 and m2",
+     "compute": "fg_den = grav_const * m1 * m2"
+    },
+    {
+     "step": 3,
+     "action": "compute ratio of electrostatic force to gravitational force",
+     "explain": "divide electric force numerator product by gravitational denominator product",
+     "compute": "ratio = fe_num / fg_den"
+    }
+   ]
+  },
+  {
+   "id": "ex1_3_ratio_pp",
+   "source_ref": "leph101.txt lines 341-355",
+   "concept": "leph.101.1.5.2",
+   "question_type": "compute_force_ratio",
+   "question_pattern": "Determine ratio of electrostatic force to gravitational force for two protons.",
+   "extracted_variables": {
+    "q1": 1.6e-19,
+    "q2": 1.6e-19,
+    "m1": 1.67e-27,
+    "m2": 1.67e-27,
+    "k": 8987500000.0,
+    "G": 6.67e-11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator force constant product",
+     "explain": "multiply electrostatic constant k by charge magnitudes q1 and q2",
+     "compute": "fe_num = k * q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator mass constant product",
+     "explain": "multiply gravitational constant G by particle masses m1 and m2",
+     "compute": "fg_den = grav_const * m1 * m2"
+    },
+    {
+     "step": 3,
+     "action": "compute ratio of electrostatic force to gravitational force",
+     "explain": "divide electric force numerator product by gravitational denominator product",
+     "compute": "ratio = fe_num / fg_den"
+    }
+   ]
+  },
+  {
+   "id": "ex1_8_point_a",
+   "source_ref": "leph101.txt lines 550-575",
+   "concept": "leph.101.1.7.1",
+   "question_type": "compute_point_electric_field",
+   "question_pattern": "Find magnitude of electric field at distance {r} m from charge of {q} C.",
+   "extracted_variables": {
+    "k": 9000000000.0,
+    "q": 1e-08,
+    "r": 0.05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the radial distance",
+     "explain": "multiply distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute electric field strength",
+     "explain": "multiply Coulomb constant k by charge q and divide by distance squared",
+     "compute": "field = k * q / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex1_8_point_b",
+   "source_ref": "leph101.txt lines 576-590",
+   "concept": "leph.101.1.7.1",
+   "question_type": "compute_point_electric_field",
+   "question_pattern": "Calculate electric field intensity at point {r} m away from point charge {q} C.",
+   "extracted_variables": {
+    "k": 9000000000.0,
+    "q": 1e-08,
+    "r": 0.15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the radial distance",
+     "explain": "multiply distance r by itself",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute electric field strength",
+     "explain": "multiply Coulomb constant k by charge q and divide by distance squared",
+     "compute": "field = k * q / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex1_7_acc_e",
+   "source_ref": "leph101.txt lines 515-540",
+   "concept": "leph.101.1.7.2",
+   "question_type": "compute_particle_acceleration",
+   "question_pattern": "Compute acceleration of electron in uniform electric field of magnitude {E} N/C.",
+   "extracted_variables": {
+    "e": 1.6e-19,
+    "E": 20000.0,
+    "m": 9.11e-31
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric force on particle",
+     "explain": "multiply charge magnitude e by electric field strength E",
+     "compute": "force = e * e_field"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration of particle",
+     "explain": "divide electric force by particle mass m",
+     "compute": "accel = force / m"
+    }
+   ]
+  },
+  {
+   "id": "ex1_7_acc_p",
+   "source_ref": "leph101.txt lines 541-560",
+   "concept": "leph.101.1.7.2",
+   "question_type": "compute_particle_acceleration",
+   "question_pattern": "Compute acceleration of proton in uniform electric field of magnitude {E} N/C.",
+   "extracted_variables": {
+    "e": 1.6e-19,
+    "E": 20000.0,
+    "m": 1.67e-27
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric force on particle",
+     "explain": "multiply charge magnitude e by electric field strength E",
+     "compute": "force = e * e_field"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration of particle",
+     "explain": "divide electric force by particle mass m",
+     "compute": "accel = force / m"
+    }
+   ]
+  },
+  {
+   "id": "ex1_11_flux_flat",
+   "source_ref": "leph101.txt lines 990-1015",
+   "concept": "leph.101.1.9",
+   "question_type": "compute_surface_flux",
+   "question_pattern": "Calculate flux of field {E} N/C through circular face of area {A} m^2 parallel to field.",
+   "extracted_variables": {
+    "E": 200.0,
+    "A": 0.00785398,
+    "cos_theta": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute surface electric flux",
+     "explain": "multiply electric field magnitude E by area A and cosine of angle theta",
+     "compute": "flux = e_field * a * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex1_11_flux_side",
+   "source_ref": "leph101.txt lines 1016-1030",
+   "concept": "leph.101.1.9",
+   "question_type": "compute_surface_flux",
+   "question_pattern": "Calculate flux through side face of area {A} m^2 perpendicular to field {E} N/C.",
+   "extracted_variables": {
+    "E": 200.0,
+    "A": 0.0314,
+    "cos_theta": 0.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute surface electric flux",
+     "explain": "multiply electric field magnitude E by area A and cosine of angle theta",
+     "compute": "flux = e_field * a * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex1_9_ax_1",
+   "source_ref": "leph101.txt lines 780-805",
+   "concept": "leph.101.1.10.1",
+   "question_type": "compute_axial_dipole_field",
+   "question_pattern": "Calculate axial electric field of dipole moment {p} C m at distance {r} m.",
+   "extracted_variables": {
+    "k": 8987500000.0,
+    "p": 5e-08,
+    "r": 0.15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator product",
+     "explain": "multiply 2 by Coulomb constant k and dipole moment p",
+     "compute": "num = 2 * k * p"
+    },
+    {
+     "step": 2,
+     "action": "cube the axial distance",
+     "explain": "raise axial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 3,
+     "action": "compute axial electric field",
+     "explain": "divide numerator product by distance cubed",
+     "compute": "field_axial = num / r_cube"
+    }
+   ]
+  },
+  {
+   "id": "ex1_9_ax_2",
+   "source_ref": "leph101.txt lines 806-820",
+   "concept": "leph.101.1.10.1",
+   "question_type": "compute_axial_dipole_field",
+   "question_pattern": "Find axial electric field strength for electric dipole moment {p} C m at radial distance {r} m.",
+   "extracted_variables": {
+    "k": 8987500000.0,
+    "p": 1e-07,
+    "r": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator product",
+     "explain": "multiply 2 by Coulomb constant k and dipole moment p",
+     "compute": "num = 2 * k * p"
+    },
+    {
+     "step": 2,
+     "action": "cube the axial distance",
+     "explain": "raise axial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 3,
+     "action": "compute axial electric field",
+     "explain": "divide numerator product by distance cubed",
+     "compute": "field_axial = num / r_cube"
+    }
+   ]
+  },
+  {
+   "id": "ex1_9_eq_1",
+   "source_ref": "leph101.txt lines 821-840",
+   "concept": "leph.101.1.10.2",
+   "question_type": "compute_equatorial_dipole_field",
+   "question_pattern": "Calculate equatorial electric field of dipole moment {p} C m at distance {r} m.",
+   "extracted_variables": {
+    "k": 8987500000.0,
+    "p": 5e-08,
+    "r": 0.15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the equatorial distance",
+     "explain": "raise equatorial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 2,
+     "action": "compute equatorial electric field",
+     "explain": "multiply Coulomb constant k by dipole moment p and divide by distance cubed",
+     "compute": "field_eq = k * p / r_cube"
+    }
+   ]
+  },
+  {
+   "id": "ex1_9_eq_2",
+   "source_ref": "leph101.txt lines 841-855",
+   "concept": "leph.101.1.10.2",
+   "question_type": "compute_equatorial_dipole_field",
+   "question_pattern": "Find field intensity on normal bisector of dipole moment {p} C m at distance {r} m.",
+   "extracted_variables": {
+    "k": 8987500000.0,
+    "p": 1e-07,
+    "r": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the equatorial distance",
+     "explain": "raise equatorial distance r to power 3",
+     "compute": "r_cube = r ** 3"
+    },
+    {
+     "step": 2,
+     "action": "compute equatorial electric field",
+     "explain": "multiply Coulomb constant k by dipole moment p and divide by distance cubed",
+     "compute": "field_eq = k * p / r_cube"
+    }
+   ]
+  },
+  {
+   "id": "ex1_10_chg",
+   "source_ref": "leph101.txt lines 965-985",
+   "concept": "leph.101.1.13",
+   "question_type": "compute_enclosed_charge",
+   "question_pattern": "Calculate charge within cube when net outward electric flux is {flux} N m^2 / C.",
+   "extracted_variables": {
+    "flux": 1.05,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute net enclosed charge",
+     "explain": "multiply net electric flux by vacuum permittivity constant epsilon_0",
+     "compute": "q_enclosed = flux * epsilon_0"
+    }
+   ]
+  },
+  {
+   "id": "ex1_11_chg",
+   "source_ref": "leph101.txt lines 1025-1040",
+   "concept": "leph.101.1.13",
+   "question_type": "compute_enclosed_charge",
+   "question_pattern": "Calculate charge within cylinder given net outward electric flux of {flux} N m^2 / C.",
+   "extracted_variables": {
+    "flux": 3.14,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute net enclosed charge",
+     "explain": "multiply net electric flux by vacuum permittivity constant epsilon_0",
+     "compute": "q_enclosed = flux * epsilon_0"
+    }
+   ]
+  },
+  {
+   "id": "ex1_14_1_a",
+   "source_ref": "leph101.txt lines 1070-1090",
+   "concept": "leph.101.1.14.1",
+   "question_type": "compute_line_charge_field",
+   "question_pattern": "Find electric field at distance {r} m from long charged wire with linear density {lambda_charge} C/m.",
+   "extracted_variables": {
+    "lambda_charge": 1e-08,
+    "epsilon_0": 8.854e-12,
+    "r": 0.02,
+    "pi": 3.14159265
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate denominator factor",
+     "explain": "multiply 2, pi, vacuum permittivity epsilon_0, and radial distance r",
+     "compute": "denom = 2 * pi * epsilon_0 * r"
+    },
+    {
+     "step": 2,
+     "action": "compute radial electric field",
+     "explain": "divide linear charge density lambda_charge by denominator factor",
+     "compute": "field = lambda_charge / denom"
+    }
+   ]
+  },
+  {
+   "id": "ex1_14_1_b",
+   "source_ref": "leph101.txt lines 1091-1100",
+   "concept": "leph.101.1.14.1",
+   "question_type": "compute_line_charge_field",
+   "question_pattern": "Calculate electric field intensity at distance {r} m from wire of linear charge density {lambda_charge} C/m.",
+   "extracted_variables": {
+    "lambda_charge": 2e-08,
+    "epsilon_0": 8.854e-12,
+    "r": 0.05,
+    "pi": 3.14159265
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate denominator factor",
+     "explain": "multiply 2, pi, vacuum permittivity epsilon_0, and radial distance r",
+     "compute": "denom = 2 * pi * epsilon_0 * r"
+    },
+    {
+     "step": 2,
+     "action": "compute radial electric field",
+     "explain": "divide linear charge density lambda_charge by denominator factor",
+     "compute": "field = lambda_charge / denom"
+    }
+   ]
+  },
+  {
+   "id": "ex1_14_2_a",
+   "source_ref": "leph101.txt lines 1120-1135",
+   "concept": "leph.101.1.14.2",
+   "question_type": "compute_sheet_electric_field",
+   "question_pattern": "Find electric field near infinite plane sheet with surface charge density {sigma} C/m^2.",
+   "extracted_variables": {
+    "sigma": 8.854e-12,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute electric field magnitude",
+     "explain": "divide surface charge density sigma by twice the permittivity of free space epsilon_0",
+     "compute": "field = sigma / (2 * epsilon_0)"
+    }
+   ]
+  },
+  {
+   "id": "ex1_14_2_b",
+   "source_ref": "leph101.txt lines 1136-1145",
+   "concept": "leph.101.1.14.2",
+   "question_type": "compute_sheet_electric_field",
+   "question_pattern": "Calculate uniform electric field created by plane sheet having surface density {sigma} C/m^2.",
+   "extracted_variables": {
+    "sigma": 1.7708e-11,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute electric field magnitude",
+     "explain": "divide surface charge density sigma by twice the permittivity of free space epsilon_0",
+     "compute": "field = sigma / (2 * epsilon_0)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "Exercise 1.11",
+   "concept": "leph.101.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the number of electrons transferred to produce charge {q}",
+   "extracted_variables": {
+    "q": 3e-07,
+    "e_charge": 1.6e-19
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total charge by unit electronic charge",
+     "explain": "quantization relates total charge q to electron count n via q = n * e_charge",
+     "compute": "n = q / e_charge"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "Exercise 1.4",
+   "concept": "leph.101.1",
+   "question_type": "compute",
+   "question_pattern": "find the total charge when {n} electrons are transferred",
+   "extracted_variables": {
+    "q": 1.6e-06,
+    "e_charge": 1.6e-19
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total charge by unit electronic charge",
+     "explain": "quantization relates total charge q to electron count n via q = n * e_charge",
+     "compute": "n = q / e_charge"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "Exercise 1.1",
+   "concept": "leph.101.2",
+   "question_type": "compute",
+   "question_pattern": "find the electrostatic force between two point charges {q1} and {q2} separated by distance {r}",
+   "extracted_variables": {
+    "q1": 2e-07,
+    "q2": 3e-07,
+    "r": 0.3,
+    "k": 9000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate charge product",
+     "explain": "multiply the magnitude of both interacting charges",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square separation distance",
+     "explain": "coulomb force depends on inverse square of separation distance",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute electrostatic force",
+     "explain": "multiply electrostatic constant k with charge product and divide by squared distance",
+     "compute": "force = (k * q_prod) / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "Exercise 1.12a",
+   "concept": "leph.101.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the magnitude of electrostatic repulsion between charges {q1} and {q2} at distance {r}",
+   "extracted_variables": {
+    "q1": 6.5e-07,
+    "q2": 6.5e-07,
+    "r": 0.5,
+    "k": 9000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate charge product",
+     "explain": "multiply the magnitude of both interacting charges",
+     "compute": "q_prod = q1 * q2"
+    },
+    {
+     "step": 2,
+     "action": "square separation distance",
+     "explain": "coulomb force depends on inverse square of separation distance",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute electrostatic force",
+     "explain": "multiply electrostatic constant k with charge product and divide by squared distance",
+     "compute": "force = (k * q_prod) / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex5",
+   "source_ref": "Exercise 1.10",
+   "concept": "leph.101.3",
+   "question_type": "compute",
+   "question_pattern": "calculate the torque on an electric dipole with moment {p} placed in electric field {E} at orientation sine {sin_theta}",
+   "extracted_variables": {
+    "p": 4e-09,
+    "E": 50000.0,
+    "sin_theta": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply dipole moment by electric field",
+     "explain": "calculate maximum possible torque magnitude p times E",
+     "compute": "pe = p * e_field"
+    },
+    {
+     "step": 2,
+     "action": "calculate torque with angular orientation",
+     "explain": "scale product by sine of orientation angle",
+     "compute": "tau = pe * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex6",
+   "source_ref": "Exercise 1.10 variant",
+   "concept": "leph.101.3",
+   "question_type": "compute",
+   "question_pattern": "find the magnitude of torque acting on dipole {p} in external electric field {E} with angle sine {sin_theta}",
+   "extracted_variables": {
+    "p": 2e-09,
+    "E": 100000.0,
+    "sin_theta": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply dipole moment by electric field",
+     "explain": "calculate maximum possible torque magnitude p times E",
+     "compute": "pe = p * e_field"
+    },
+    {
+     "step": 2,
+     "action": "calculate torque with angular orientation",
+     "explain": "scale product by sine of orientation angle",
+     "compute": "tau = pe * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex7",
+   "source_ref": "Exercise 1.18",
+   "concept": "leph.101.4",
+   "question_type": "compute",
+   "question_pattern": "calculate the net electric flux through a closed surface enclosing charge {q_enclosed}",
+   "extracted_variables": {
+    "q_enclosed": 2e-06,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide enclosed charge by permittivity of free space",
+     "explain": "apply Gauss's law formula phi = q_enclosed / epsilon_0",
+     "compute": "phi = q_enclosed / epsilon_0"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex8",
+   "source_ref": "Exercise 1.16a",
+   "concept": "leph.101.4",
+   "question_type": "compute",
+   "question_pattern": "find the electric flux exiting a closed volume containing charge {q_enclosed}",
+   "extracted_variables": {
+    "q_enclosed": 7.083e-08,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide enclosed charge by permittivity of free space",
+     "explain": "apply Gauss's law formula phi = q_enclosed / epsilon_0",
+     "compute": "phi = q_enclosed / epsilon_0"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex9",
+   "source_ref": "Exercise 1.22",
+   "concept": "leph.101.5",
+   "question_type": "compute",
+   "question_pattern": "calculate the electric field at distance {r} from an infinite line charge of density {lambda_val}",
+   "extracted_variables": {
+    "lambda_val": 1e-07,
+    "r": 0.02,
+    "k": 9000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the electrostatic constant",
+     "explain": "compute factor 2 * k for simplified line charge formula",
+     "compute": "two_k = 2 * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply by linear charge density",
+     "explain": "scale by charge per unit length lambda",
+     "compute": "num = two_k * lambda_val"
+    },
+    {
+     "step": 3,
+     "action": "divide by radial distance",
+     "explain": "electric field magnitude decreases linearly with radial distance r",
+     "compute": "E = num / r"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "Exercise 1.22 variant",
+   "concept": "leph.101.5",
+   "question_type": "compute",
+   "question_pattern": "find the electric field produced by a long straight wire with linear charge density {lambda_val} at distance {r}",
+   "extracted_variables": {
+    "lambda_val": 2e-07,
+    "r": 0.04,
+    "k": 9000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the electrostatic constant",
+     "explain": "compute factor 2 * k for simplified line charge formula",
+     "compute": "two_k = 2 * k"
+    },
+    {
+     "step": 2,
+     "action": "multiply by linear charge density",
+     "explain": "scale by charge per unit length lambda",
+     "compute": "num = two_k * lambda_val"
+    },
+    {
+     "step": 3,
+     "action": "divide by radial distance",
+     "explain": "electric field magnitude decreases linearly with radial distance r",
+     "compute": "E = num / r"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex11",
+   "source_ref": "Exercise 1.23",
+   "concept": "leph.101.6",
+   "question_type": "compute",
+   "question_pattern": "calculate the electric field near an infinite sheet with surface charge density {sigma}",
+   "extracted_variables": {
+    "sigma": 1.7e-21,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double permittivity constant",
+     "explain": "calculate denominator 2 * epsilon_0",
+     "compute": "denom = 2 * epsilon_0"
+    },
+    {
+     "step": 2,
+     "action": "divide surface charge density by denominator",
+     "explain": "calculate field E = sigma / (2 * epsilon_0)",
+     "compute": "E = sigma / denom"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex12",
+   "source_ref": "Exercise 1.23 variant",
+   "concept": "leph.101.6",
+   "question_type": "compute",
+   "question_pattern": "find the electric field intensity produced by plane sheet of surface charge density {sigma}",
+   "extracted_variables": {
+    "sigma": 3.54e-11,
+    "epsilon_0": 8.854e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double permittivity constant",
+     "explain": "calculate denominator 2 * epsilon_0",
+     "compute": "denom = 2 * epsilon_0"
+    },
+    {
+     "step": 2,
+     "action": "divide surface charge density by denominator",
+     "explain": "calculate field E = sigma / (2 * epsilon_0)",
+     "compute": "E = sigma / denom"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex13",
+   "source_ref": "Exercise 1.21a",
+   "concept": "leph.101.7",
+   "question_type": "compute",
+   "question_pattern": "find the total charge on a spherical conductor of radius {R} with surface charge density {sigma}",
+   "extracted_variables": {
+    "R": 1.2,
+    "sigma": 8e-05,
+    "pi": 3.14159
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square radius of sphere",
+     "explain": "compute R squared for surface area calculation",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute spherical surface area",
+     "explain": "multiply 4 * pi * r_sq to obtain surface area",
+     "compute": "area = 4 * pi * r_sq"
+    },
+    {
+     "step": 3,
+     "action": "calculate total charge",
+     "explain": "multiply surface charge density sigma by total surface area",
+     "compute": "q = sigma * area"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex14",
+   "source_ref": "Exercise 1.21a variant",
+   "concept": "leph.101.7",
+   "question_type": "compute",
+   "question_pattern": "calculate total charge of a conducting sphere with radius {R} and surface density {sigma}",
+   "extracted_variables": {
+    "R": 0.5,
+    "sigma": 0.0001,
+    "pi": 3.14159
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square radius of sphere",
+     "explain": "compute R squared for surface area calculation",
+     "compute": "r_sq = r ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute spherical surface area",
+     "explain": "multiply 4 * pi * r_sq to obtain surface area",
+     "compute": "area = 4 * pi * r_sq"
+    },
+    {
+     "step": 3,
+     "action": "calculate total charge",
+     "explain": "multiply surface charge density sigma by total surface area",
+     "compute": "q = sigma * area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "p2_ex1.1",
+   "source_ref": "leph101.txt lines 112-114",
+   "questions": [
+    "What is the force between two small charged spheres having charges of 2 x 10^-7 C and 3 x 10^-7 C placed 30 cm apart in air?"
+   ]
+  },
+  {
+   "id": "p2_ex1.2",
+   "source_ref": "leph101.txt lines 115-118",
+   "questions": [
+    "The electrostatic force on a small sphere of charge 0.4 uC due to another small sphere of charge -0.8 uC in air is 0.2 N. (a) What is the distance between the two spheres? (b) What is the force on the second sphere due to the first?"
+   ]
+  },
+  {
+   "id": "p2_ex1.3",
+   "source_ref": "leph101.txt lines 119-122",
+   "questions": [
+    "Check that the ratio k e^2 / (G me mp) is dimensionless. Look up a Table of Physical Constants and determine the value of this ratio. What does the ratio signify?"
+   ]
+  },
+  {
+   "id": "p2_ex1.4",
+   "source_ref": "leph101.txt lines 123-126",
+   "questions": [
+    "(a) Explain the meaning of the statement 'electric charge of a body is quantised'. (b) Why can one ignore quantisation of electric charge when dealing with macroscopic i.e., large scale charges?"
+   ]
+  },
+  {
+   "id": "p2_ex1.5",
+   "source_ref": "leph101.txt lines 127-130",
+   "questions": [
+    "When a glass rod is rubbed with a silk cloth, charges appear on both. A similar phenomenon is observed with many other pairs of bodies. Explain how this observation is consistent with the law of conservation of charge."
+   ]
+  },
+  {
+   "id": "p2_ex1.6",
+   "source_ref": "leph101.txt lines 131-134",
+   "questions": [
+    "Four point charges qA = 2 uC, qB = -5 uC, qC = 2 uC, and qD = -5 uC are located at the corners of a square ABCD of side 10 cm. What is the force on a charge of 1 uC placed at the centre of the square?"
+   ]
+  },
+  {
+   "id": "p2_ex1.7",
+   "source_ref": "leph101.txt lines 135-138",
+   "questions": [
+    "(a) An electrostatic field line is a continuous curve. That is, a field line cannot have sudden breaks. Why not? (b) Explain why two field lines never cross each other at any point?"
+   ]
+  },
+  {
+   "id": "p2_ex1.8",
+   "source_ref": "leph101.txt lines 139-144",
+   "questions": [
+    "Two point charges qA = 3 uC and qB = -3 uC are located 20 cm apart in vacuum. (a) What is the electric field at the midpoint O of the line AB joining the two charges? (b) If a negative test charge of magnitude 1.5 x 10^-9 C is placed at this point, what is the force experienced by the test charge?"
+   ]
+  },
+  {
+   "id": "p2_ex1.9",
+   "source_ref": "leph101.txt lines 145-148",
+   "questions": [
+    "A system has two charges qA = 2.5 x 10^-7 C and qB = -2.5 x 10^-7 C located at points A: (0, 0, -15 cm) and B: (0, 0, +15 cm), respectively. What are the total charge and electric dipole moment of the system?"
+   ]
+  },
+  {
+   "id": "p2_ex1.10",
+   "source_ref": "leph101.txt lines 149-152",
+   "questions": [
+    "An electric dipole with dipole moment 4 x 10^-9 C m is aligned at 30 deg with the direction of a uniform electric field of magnitude 5 x 10^4 N/C. Calculate the magnitude of the torque acting on the dipole."
+   ]
+  },
+  {
+   "id": "p2_ex1.11",
+   "source_ref": "leph101.txt lines 153-157",
+   "questions": [
+    "A polythene piece rubbed with wool is found to have a negative charge of 3 x 10^-7 C. (a) Estimate the number of electrons transferred (from which to which?) (b) Is there a transfer of mass from wool to polythene?"
+   ]
+  },
+  {
+   "id": "p2_ex1.12",
+   "source_ref": "leph101.txt lines 158-164",
+   "questions": [
+    "(a) Two insulated charged copper spheres A and B have their centres separated by a distance of 50 cm. What is the mutual force of electrostatic repulsion if the charge on each is 6.5 x 10^-7 C? The radii of A and B are negligible compared to the distance of separation. (b) What is the force of repulsion if each sphere is charged double the above amount, and the distance between them is halved?"
+   ]
+  },
+  {
+   "id": "p2_ex1.13",
+   "source_ref": "leph101.txt lines 165-168",
+   "questions": [
+    "Figure 1.30 shows tracks of three charged particles in a uniform electrostatic field. Give the signs of the three charges. Which particle has the highest charge to mass ratio?"
+   ]
+  },
+  {
+   "id": "p2_ex1.14",
+   "source_ref": "leph101.txt lines 171-175",
+   "questions": [
+    "Consider a uniform electric field E = 3 x 10^3 i N/C. (a) What is the flux of this field through a square of 10 cm on a side whose plane is parallel to the yz plane? (b) What is the flux through the same square if the normal to its plane makes a 60 deg angle with the x-axis?"
+   ]
+  },
+  {
+   "id": "p2_ex1.15",
+   "source_ref": "leph101.txt lines 176-179",
+   "questions": [
+    "What is the net flux of the uniform electric field of Exercise 1.14 through a cube of side 20 cm oriented so that its faces are parallel to the coordinate planes?"
+   ]
+  },
+  {
+   "id": "p2_ex1.16",
+   "source_ref": "leph101.txt lines 180-184",
+   "questions": [
+    "Careful measurement of the electric field at the surface of a black box indicates that the net outward flux through the surface of the box is 8.0 x 10^3 N m^2/C. (a) What is the net charge inside the box? (b) If the net outward flux through the surface of the box were zero, could you conclude that there were no charges inside the box? Why or Why not?"
+   ]
+  },
+  {
+   "id": "p2_ex1.17",
+   "source_ref": "leph101.txt lines 185-189",
+   "questions": [
+    "A point charge +10 uC is a distance 5 cm directly above the centre of a square of side 10 cm. What is the magnitude of the electric flux through the square?"
+   ]
+  },
+  {
+   "id": "p2_ex1.18",
+   "source_ref": "leph101.txt lines 191-193",
+   "questions": [
+    "A point charge of 2.0 uC is at the centre of a cubic Gaussian surface 9.0 cm on edge. What is the net electric flux through the surface?"
+   ]
+  },
+  {
+   "id": "p2_ex1.19",
+   "source_ref": "leph101.txt lines 194-198",
+   "questions": [
+    "A point charge causes an electric flux of -1.0 x 10^3 N m^2/C to pass through a spherical Gaussian surface of 10.0 cm radius centred on the charge. (a) If the radius of the Gaussian surface were doubled, how much flux would pass through the surface? (b) What is the value of the point charge?"
+   ]
+  },
+  {
+   "id": "p2_ex1.20",
+   "source_ref": "leph101.txt lines 199-202",
+   "questions": [
+    "A conducting sphere of radius 10 cm has an unknown charge. If the electric field 20 cm from the centre of the sphere is 1.5 x 10^3 N/C and points radially inward, what is the net charge on the sphere?"
+   ]
+  },
+  {
+   "id": "p2_ex1.21",
+   "source_ref": "leph101.txt lines 203-206",
+   "questions": [
+    "A uniformly charged conducting sphere of 2.4 m diameter has a surface charge density of 80.0 uC/m^2. (a) Find the charge on the sphere. (b) What is the total electric flux leaving the surface of the sphere?"
+   ]
+  },
+  {
+   "id": "p2_ex1.22",
+   "source_ref": "leph101.txt lines 207-209",
+   "questions": [
+    "An infinite line charge produces a field of 9 x 10^4 N/C at a distance of 2 cm. Calculate the linear charge density."
+   ]
+  },
+  {
+   "id": "p2_ex1.23",
+   "source_ref": "leph101.txt lines 210-214",
+   "questions": [
+    "Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of opposite signs and of magnitude 17.0 x 10^-22 C/m^2. What is E: (a) in the outer region of the first plate, (b) in the outer region of the second plate, and (c) between the plates?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "leph.101.1.5.2: bad compute 'G * m1 * m2' (unknown symbol: G)",
+  "leph.101.1.7.2: bad compute 'e * E' (unknown symbol: E)",
+  "leph.101.1.9: bad compute 'E * A * cos_theta' (unknown symbol: E)",
+  "leph.101.3: bad compute 'p * E' (unknown symbol: E)",
+  "leph.101.3: bad compute 'pE * sin_theta' (unknown symbol: pE)",
+  "leph.101.7: bad compute 'R ** 2' (unknown symbol: R)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

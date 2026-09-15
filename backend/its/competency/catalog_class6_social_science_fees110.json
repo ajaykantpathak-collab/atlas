@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 10,
+ "chapter_title": "Grassroots Democracy, Part 1",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.10.1",
+   "title": "Governance and the Need for Rules",
+   "section": "Introduction",
+   "definition": "Where many people live together, disagreements and disorder follow unless there are rules; governance is the process of making and applying such rules so that society keeps order and harmony.",
+   "formula": "",
+   "key_idea": "Rules at home, school and nation scale up into governance: someone must decide, and decisions must apply to all.",
+   "textbook_ref": "fees110.txt, Introduction",
+   "question_patterns": [
+    "what is governance and why is it needed",
+    "what rules do you follow at home and at school",
+    "what happens in a society without rules",
+    "who makes rules for the whole country",
+    "how are rules different from laws",
+    "why does the chapter begin with rules of daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.10.2",
+   "title": "Democracy: Government by the People",
+   "section": "Democracy",
+   "definition": "Democracy is a system where the people hold power: they choose their rulers through elections, rulers remain answerable to them, and every adult has a vote and a voice.",
+   "formula": "",
+   "key_idea": "In democracy, power flows upward from citizens, not downward from a ruler.",
+   "textbook_ref": "fees110.txt, Democracy",
+   "question_patterns": [
+    "what is the meaning of democracy and why is it important",
+    "how do people choose their government in a democracy",
+    "what does it mean that rulers are accountable to the people",
+    "which quote of abraham lincoln about democracy is famous",
+    "why is the vote of every citizen important",
+    "how is democracy different from rule by a king"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.10.3",
+   "title": "Values of Democracy",
+   "section": "Values",
+   "definition": "Democracy rests on values: justice, liberty, equality and fraternity, respect for every culture's identity and dignity; without equality there is no justice, and without justice there is no peace, as Rigoberta Menchu Tum says.",
+   "formula": "",
+   "key_idea": "Elections alone are not democracy: the values of dignity and equality give elections their meaning.",
+   "textbook_ref": "fees110.txt, Values",
+   "question_patterns": [
+    "which values support democracy according to the chapter",
+    "why does rigoberta menchu link peace with justice and equality",
+    "what does dignity of cultures mean in a democracy",
+    "how is equality connected to development",
+    "what does fraternity mean in daily life",
+    "why do democracies protect minority voices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.10.4",
+   "title": "Dharma Protects: An Ancient Insight",
+   "section": "Opening quotation",
+   "definition": "The Mahabharata verse says the ruler protects dharma and dharma, in turn, protects those who protect it; power exists to uphold right order, and a ruler who upholds dharma is himself safeguarded.",
+   "formula": "",
+   "key_idea": "Ancient India already tied ruling to duty: government is legitimate only while it protects the right.",
+   "textbook_ref": "fees110.txt, Opening quotation",
+   "question_patterns": [
+    "what does the mahabharata verse about dharma and the ruler mean",
+    "who protects whom according to the quotation",
+    "why should a ruler uphold dharma",
+    "how is dharma related to modern governance",
+    "what thoughts of gandhi are meditated on in the chapter",
+    "what does the lockdown project ask you to recall"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees110.txt",
+   "concept": "fees.10.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why do people need a government at all?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "start from living together",
+     "explain": "Large numbers of people living together meet disagreements and disorder."
+    },
+    {
+     "step": 2,
+     "action": "reach the need",
+     "explain": "Rules made and applied fairly, that is governance, keep harmony so that everyone can live and work."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees110.txt",
+   "concept": "fees.10.2",
+   "question_type": "verify_property",
+   "question_pattern": "How is dharma protecting the ruler still true today?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the old verse",
+     "explain": "The ruler who protects dharma is himself protected by dharma."
+    },
+    {
+     "step": 2,
+     "action": "translate it",
+     "explain": "A government that acts justly earns citizens' trust, and that trust is its real shield."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees110.txt, Let us meditate",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "Read the quotation by Rigoberta Menchu Tum and explain its chain of ideas.",
+    "What does the Mahabharata verse quoted at the start say?",
+    "Write which democratic value matters most to you and why.",
+    "Recall the lockdown project: how did communities help each other?"
+   ]
+  }
+ ]
+}

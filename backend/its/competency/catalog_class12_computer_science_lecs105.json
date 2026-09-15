@@ -1,0 +1,309 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 5,
+ "chapter_title": "Sorting",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs105.1",
+   "title": "Passes and Comparisons in Bubble Sort",
+   "section": "5.2 and Figure 5.1",
+   "definition": "Bubble sort repeatedly compares adjacent pairs and swaps unordered ones, needing n minus 1 passes for n elements; the pass number i makes n minus i minus 1 comparisons, so the whole sort spends n times n minus 1 over 2 comparisons.",
+   "formula": "comparisons = (n - 1) * n / 2",
+   "key_idea": "Each pass bubbles the largest remaining element to the end, so later passes shrink by one comparison.",
+   "textbook_ref": "lecs105.txt, section 5.2, Algorithm 5.1 and Figure 5.1",
+   "question_patterns": [
+    "How many passes and how many comparisons does bubble sort make on a 6-element list?",
+    "A list holds 10 elements. Compute the total comparisons bubble sort performs.",
+    "Why does the inner loop of bubble sort run only n - i - 1 times in pass i?",
+    "In Figure 5.1 the list sorted during pass 4 yet pass 5 still ran. Why is that pass redundant?",
+    "Show the positions of the list [8, 7, 6, 5, 4] after each bubble sort pass, and name the pass where the last swap happens."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the passes",
+     "explain": "A list of n elements needs n minus 1 passes.",
+     "compute": "passes = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "total the comparisons",
+     "explain": "Pass lengths n, n-1, ..., 1 sum to passes times n over 2.",
+     "compute": "comparisons = passes * n / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Bubble sorting 6 elements needs how many passes?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.2",
+   "title": "Percentile Index from Sorted Marks",
+   "section": "Exercise 5",
+   "definition": "An xth percentile answers the question 'better than what share of the class': after sorting the marks, multiply x percent by the number of students, round to a whole index, and read the mark stored there.",
+   "formula": "index = percent / 100 * total_values",
+   "key_idea": "The 90th percentile of 120 students sits at index 108 because 0.90 times 120 equals 108.",
+   "textbook_ref": "lecs105.txt, Exercise 5 with its steps I to IV",
+   "question_patterns": [
+    "Find the index of the 90th percentile for a class of 120 students.",
+    "A test has 40 participants. Which index holds the 25th percentile mark?",
+    "Why must the marks be sorted before the percentile index is used?",
+    "The 50th percentile of 60 values falls on which index, and what does that value mean?",
+    "Compute the index for the 75th percentile of a list of 8 marks."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert percent to a fraction",
+     "explain": "Divide the percentile by 100.",
+     "compute": "fraction = percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "scale by the class size",
+     "explain": "Multiply by the number of values to land on the index.",
+     "compute": "index = fraction * total_values"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The 90th percentile of 120 students sits at which index?",
+     "a": "108"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.3",
+   "title": "Median of an Even List",
+   "section": "Exercise 4",
+   "definition": "After a list is sorted, its median is the middle value; when the count is even, the two central values are added and halved, which is the value a bubble-sorted list hands to the median function.",
+   "formula": "median = (low_mid + high_mid) / 2",
+   "key_idea": "Sorting first is what makes the two middle positions meaningful for the median.",
+   "textbook_ref": "lecs105.txt, Exercise 4 hint",
+   "question_patterns": [
+    "A sorted six-element list has 4 and 7 in the middle. Compute its median.",
+    "Write a program that sorts a list with bubble sort and returns the median for an even count of terms.",
+    "Why does the median of an even-length list need two middle terms?",
+    "The marks 55, 60, 62 and 70 are sorted. Find the median.",
+    "How would the median differ from the mean for the list -9, 1, 4, 7, 8, 13?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two middle terms",
+     "explain": "Both central values participate in an even-length median.",
+     "compute": "pair_sum = low_mid + high_mid"
+    },
+    {
+     "step": 2,
+     "action": "halve the pair",
+     "explain": "The median is the average of the pair.",
+     "compute": "median = pair_sum / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A sorted even-length list has middle values 70 and 80. What is its median?",
+     "a": "75"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.4",
+   "title": "Quadratic Time of Nested Loops",
+   "section": "5.5",
+   "definition": "Loop-free algorithms run in constant time, a single loop costs linear time, and a loop inside a loop costs quadratic time; since all three sorts of this chapter nest one loop in another, each runs in order n squared.",
+   "formula": "quad_ops = size ** 2",
+   "key_idea": "When a nested loop and a single loop coexist, the nested loop alone fixes the complexity class.",
+   "textbook_ref": "lecs105.txt, section 5.5",
+   "question_patterns": [
+    "What is the time complexity of bubble sort, selection sort and insertion sort, and why?",
+    "A nested-loop algorithm handles 100 elements. Roughly how many basic operations does it need?",
+    "Classify as constant, linear or quadratic: an algorithm with one loop; one with a loop inside a loop; one with no loop.",
+    "Why does doubling the input size quadruple the work of a quadratic algorithm?",
+    "How does complexity analysis guide the choice of an algorithm for a huge dataset?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the linear workload",
+     "explain": "A single pass touches each element once.",
+     "compute": "linear_ops = size"
+    },
+    {
+     "step": 2,
+     "action": "square for the nested loop",
+     "explain": "An inner loop over every element for every element gives the square.",
+     "compute": "quad_ops = size ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A loop nested inside a loop over n elements costs order n to which power?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.5",
+   "title": "Bubble Sort Pass by Pass",
+   "section": "5.2",
+   "definition": "Working left to right, bubble sort compares each pair of neighbours and swaps them when the left one is larger, so after pass 1 of [8, 7, 13, 1, -9, 4] the 13 sits at the end, and the list finishes as -9, 1, 4, 7, 8, 13.",
+   "formula": "if list1[j] > list1[j+1] then swap the pair",
+   "key_idea": "A full pass with no swap proves the list is already sorted, so the algorithm may stop early.",
+   "textbook_ref": "lecs105.txt, section 5.2, Program 5-1 and Figure 5.1",
+   "question_patterns": [
+    "Show the list [8, 7, 13, 1, -9, 4] after each of the first three bubble sort passes.",
+    "What does the list look like after pass 1, and which element has reached its final place?",
+    "How can bubble sort detect that the list is sorted before all passes finish?",
+    "Trace the swaps of pass 2 for the list of Figure 5.1.",
+    "Modify Algorithm 5.1 to sort a list in descending order."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the comparisons of each pass",
+     "explain": "Compare neighbours from index 0, swap when the left value is bigger, and observe the largest remaining element settle at the right end after every pass."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In bubble sort, a pair is swapped when the left element is what relative to the right one?",
+     "a": "larger"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.6",
+   "title": "Selection Sort Minimum Swaps",
+   "section": "5.3",
+   "definition": "Selection sort splits the list into a sorted left part and an unsorted right part, scans the unsorted part for its smallest element, and swaps that minimum with the leftmost unsorted slot, so at most one swap happens per pass for n minus 1 passes.",
+   "formula": "swaps <= n - 1",
+   "key_idea": "After four passes on [7, 11, 3, 10, 17, 23, 1, 4, 21, 5] the four smallest values 1, 3, 4 and 5 already lead the list.",
+   "textbook_ref": "lecs105.txt, section 5.3, Program 5-2 and Figure 5.2",
+   "question_patterns": [
+    "How many swaps at most does selection sort make while sorting n elements?",
+    "Determine the partially sorted list after four passes of selection sort on randList = [7, 11, 3, 10, 17, 23, 1, 4, 21, 5].",
+    "Why does selection sort usually make fewer swaps than bubble sort for the same list?",
+    "What do the variables min and flag do in Algorithm 5.2?",
+    "Sort the list 63, 42, 21, 9 with selection sort and count the swaps."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "select then swap",
+     "explain": "Each pass finds the minimum of the unsorted region and swaps it into the boundary slot, growing the sorted prefix by exactly one element."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At most how many swaps happen in one selection-sort pass?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "lecs105.7",
+   "title": "Insertion Sort Shifting",
+   "section": "5.4",
+   "definition": "Insertion sort keeps a sorted prefix and pulls the first unsorted element aside in temp; it walks the prefix backwards shifting larger elements one place right, then drops temp into the gap, much like arranging playing cards in hand.",
+   "formula": "while j >= 0 and temp < list3[j]: shift right, then insert",
+   "key_idea": "Already-sorted input makes insertion sort cheapest, since no shifting is needed at all.",
+   "textbook_ref": "lecs105.txt, section 5.4, Program 5-3 and Figure 5.3",
+   "question_patterns": [
+    "Show the list after each of the first three passes of insertion sort on [7, 11, 3, 10, 17, 23, 1, 4, 21, 5].",
+    "Why does insertion sort compare the new element with the sorted part from the backward direction?",
+    "Which of List 1 [2, 3, 5, 7, 11] and List 2 [11, 7, 5, 3, 2] needs fewer comparisons in insertion sort, and why?",
+    "What role does the variable temp play in Algorithm 5.3?",
+    "During admission, names are inserted in ascending order as they arrive. Which sorting technique is this?",
+    "Trace the shifts made when 1 is inserted into the sorted prefix 7, 11, 13."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "shift then insert",
+     "explain": "Each pass lifts one unsorted element, slides every larger sorted element right by one, and settles the lifted element into the vacancy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which sort keeps a sorted prefix and pulls the first unsorted element aside in temp?",
+     "a": "insertion sort"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs105.we1",
+   "title": "Workload of bubble sort on six elements",
+   "concept_id": "lecs105.1",
+   "problem": "numList has 6 elements. Compute the number of passes and the total comparisons bubble sort makes.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count the passes",
+     "explain": "Six elements need 6 minus 1 passes.",
+     "compute": "passes = 6 - 1"
+    },
+    {
+     "step": 2,
+     "action": "total the comparisons",
+     "explain": "Passes of lengths 5, 4, 3, 2 and 1 sum to 5 times 6 over 2.",
+     "compute": "comparisons = passes * 6 / 2"
+    }
+   ],
+   "answer_note": "Bubble sort runs 5 passes with 15 comparisons in total for the six-element list."
+  },
+  {
+   "id": "lecs105.we2",
+   "title": "Index of the 90th percentile",
+   "concept_id": "lecs105.2",
+   "problem": "For 120 students, find the index that holds the 90th percentile mark.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "percent to fraction",
+     "explain": "90 divided by 100 gives the share.",
+     "compute": "fraction = 90 / 100"
+    },
+    {
+     "step": 2,
+     "action": "scale to the class",
+     "explain": "Multiplying by 120 lands on index 108.",
+     "compute": "index = fraction * 120"
+    }
+   ],
+   "answer_note": "The 90th percentile sits at index 108 of the sorted marks, meaning 90 percent scored at or below that mark."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs105.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 5 Exercise (items reworded)",
+   "questions": [
+    "Display the partially sorted list after three complete bubble sort passes on numList = [7, 11, 3, 10, 17, 23, 1, 4, 21, 5].",
+    "Count the swaps needed to sort 63, 42, 21, 9 by selection sort and by bubble sort, and say which technique makes fewer comparisons.",
+    "For List 1 [2, 3, 5, 7, 11] and List 2 [11, 7, 5, 3, 2], decide which needs fewer comparisons under insertion sort and justify with a diagram.",
+    "Write a user defined function that sorts an accepted list with bubble sort and returns its median.",
+    "Write a function that computes the xth percentile of a marks list using the four steps of Exercise 5.",
+    "Admission names are kept sorted as each one arrives. Identify the sorting technique and write the insertion function.",
+    "Determine the partially sorted list after three complete insertion sort passes on the same ten-element list.",
+    "State the time complexity class of each of the three sorts and the rule that decides it."
+   ]
+  }
+ ]
+}

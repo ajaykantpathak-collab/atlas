@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_008",
+   "title": "c12_geo_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define \"urban area\" as per the Census of India 2011. How does it differ from the UN definition used for global comparisons?",
+     "a": "Census of India 2011 defines urban area as: (a) all statutory towns with municipality/corporation/cantonment board, (b) census towns satisfying three criteria: population ≥5,000, ≥75% male main workers in non-agricultural activities, density ≥400 persons/sq km. UN definition varies by country but generally uses administrative boundaries or population thresholds (often ≥2,000 or ≥5,000) without the workforce criterion. A wrong answer (e.g., \"any place with >5,000 people is urban\") reveals confusion between population size alone and the multi-criteria Indian definition, leading to misclassification of large villages as urban in international comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Kerala have a much narrower rural-urban literacy gap (rural 93%, urban 95%) compared to Bihar (rural 60%, urban 78%) despite both states having similar urbanization levels (~30-35%)?",
+     "a": "Kerala's historical investment in universal primary education since the 19th century (missionary schools, princely state policies) created high baseline literacy across rural areas before rapid urbanization. Bihar's education expansion came later and concentrated in urban centers, leaving rural areas with poor school infrastructure, high teacher absenteeism, and caste/gender barriers. A wrong answer attributing the gap solely to \"urbanization level\" misses the path-dependence of human capital formation — literacy spreads through deliberate policy, not automatically with urban growth.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the urbanization rate and effective literacy rate for a hypothetical country with: Total population = 50 million, Urban population = 18 million, Literate population aged 7+ = 28 million, Population aged 7+ = 40 million. Show steps.",
+     "a": "Step 1: Urbanization rate = (Urban population / Total population) × 100 = (18/50) × 100 = 36%.\nStep 2: Effective literacy rate = (Literate population aged 7+ / Population aged 7+) × 100 = (28/40) × 100 = 70%.\nStep 3: Interpretation: This country is in early Stage 3 of demographic transition (moderate urbanization, literacy above 2/3). A wrong answer using total population as denominator for literacy (28/50 = 56%) confuses crude literacy with effective literacy — a common error that underestimates human capital by including children under 7 who are not yet expected to be literate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rural-urban literacy gender gap in two regions: Region A (Rural Male 80%, Rural Female 55%, Urban Male 90%, Urban Female 82%) and Region B (Rural Male 75%, Rural Female 70%, Urban Male 88%, Urban Female 85%). Which region shows stronger gender equity in human capital formation? Explain using the concept of \"gender parity index\".",
+     "a": "Region B shows stronger gender equity. Gender Parity Index (GPI) = Female literacy rate / Male literacy rate.\nRegion A: Rural GPI = 55/80 = 0.69, Urban GPI = 82/90 = 0.91 → large rural-urban disparity in equity.\nRegion B: Rural GPI = 70/75 = 0.93, Urban GPI = 85/88 = 0.97 → high and consistent equity across both sectors.\nRegion B's near-parity in rural areas suggests effective gender-inclusive schooling (e.g., Tamil Nadu model), while Region A's wide rural gap indicates persistent socio-cultural barriers (e.g., parts of North India). A wrong answer focusing only on overall literacy averages masks the spatial inequality in gender outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rapid urbanization in developing countries automatically improves national literacy rates because cities have better schools.\" Use evidence from Sub-Saharan Africa and South Asia (2000-2020) to support your judgment.",
+     "a": "The statement is false. Evidence: (1) Sub-Saharan Africa's urbanization rate rose from 32% to 41% (2000-2020) but adult literacy only increased from 58% to 67% — slum proliferation outpaced school construction, leaving millions of urban children out of school. (2) India's urban literacy grew from 80% to 87% while urbanization rose 28%→35%, but the gain was driven by rural-to-urban migration of already-literate youth, not urban school quality. (3) In both regions, urban literacy gains are concentrated in formal settlements; informal settlements show literacy rates barely above rural averages. A correct evaluation must distinguish between compositional effects (migration of literates) and transformative effects (urban schooling improving literacy) — the latter requires sustained public investment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend for showing \"District-level Female Literacy Rate in India (Census 2011)\" that effectively highlights both the national pattern and the critical threshold for demographic dividend (female literacy ≥ 60%). Specify class intervals, color scheme, and why your choices are geographically meaningful.",
+     "a": "Legend design: 5 classes using natural breaks (Jenks) to reflect India's bimodal distribution: (1) <40% (dark red) — \"Critical deficit\" (e.g., Rajasthan, Bihar hinterland), (2) 40-55% (orange) — \"Low\", (3) 55-65% (yellow) — \"Transition zone crossing 60% threshold\", (4) 65-80% (light green) — \"Moderate\", (5) >80% (dark green) — \"High\" (Kerala, Mizoram, Lakshadweep). Color scheme: diverging red-yellow-green centered at 60% to visually flag districts below/above the demographic dividend threshold. Class 3 (55-65%) is narrow to emphasize the policy-critical boundary. A poor answer uses equal intervals (e.g., 0-20, 20-40...) which obscures the threshold and clusters most districts in middle classes, hiding the sharp North-South divide.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

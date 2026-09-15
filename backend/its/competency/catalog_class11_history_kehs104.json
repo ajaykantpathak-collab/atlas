@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "history",
+ "chapter": 104,
+ "chapter_title": "The Three Orders",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehs104.txt",
+ "concepts": [
+  {
+   "id": "kehs.104.1.1",
+   "title": "The Three Orders: Clergy, Nobility and Peasants",
+   "section": "",
+   "definition": "Medieval European society was divided into three orders: the first order of clergy who prayed, the second of nobility who fought, and the third of peasants who worked the land, each seen as appointed by God with distinct rights and duties.",
+   "formula": "",
+   "key_idea": "The clergy and nobility were privileged tax-free orders, while the third order of peasants bore the burden of cultivating land and supporting the other two.",
+   "textbook_ref": "kehs104.txt three orders sections",
+   "question_patterns": [
+    "describe the three orders of medieval society",
+    "what privileges did the clergy and nobility enjoy",
+    "why were peasants the third order of society",
+    "how did the church justify the division of society",
+    "distinguish serfs and free peasants",
+    "what were the duties of each order"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.104.2.1",
+   "title": "Feudalism: England, France and the Monasteries",
+   "section": "",
+   "definition": "Feudalism organised land as fiefs held from lords in return for military service, with monasteries as centres of prayer and learning, and France and England show how feudal relations, manors and knight service knitted society from king to peasant.",
+   "formula": "",
+   "key_idea": "The manor was the economic unit where the lord's demesne and peasant holdings interlocked through labour obligations and dues.",
+   "textbook_ref": "kehs104.txt feudalism sections",
+   "question_patterns": [
+    "define feudalism and the feudal order of medieval europe",
+    "what was a fief and what duties came with it",
+    "describe the working of a manor",
+    "what role did monasteries play in medieval life",
+    "explain the relation between lord and serf",
+    "how did feudalism develop in england and france"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.104.3.1",
+   "title": "Changes: Towns, Cathedrals and the Crisis of the Fourteenth Century",
+   "section": "",
+   "definition": "From the eleventh century towns grew with trade, cathedrals rose in Gothic style, and the fourteenth century brought plague, war and famine that thinned the population, loosened serfdom and shifted power towards kings and money economy.",
+   "formula": "",
+   "key_idea": "The Black Death killed a large share of Europe's people, labour grew scarce and wages rose, so the feudal order of the three orders slowly gave way.",
+   "textbook_ref": "kehs104.txt changes and crisis sections",
+   "question_patterns": [
+    "how did towns change medieval european society",
+    "what were the effects of the black death on feudalism",
+    "why did gothic cathedrals rise in this period",
+    "how did wars and plague weaken the feudal order",
+    "explain the decline of serfdom in western europe",
+    "what is meant by the crisis of the fourteenth century"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kehs104.txt exercises",
+   "questions": [
+    "Describe the three orders of medieval society.",
+    "What was feudalism? Explain its features.",
+    "Discuss the role of monasteries in medieval Europe.",
+    "What changes came in the fourteenth century?",
+    "Explain the life of serfs and their obligations."
+   ]
+  }
+ ]
+}

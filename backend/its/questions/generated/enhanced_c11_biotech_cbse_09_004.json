@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_004",
+   "title": "c11_biotech_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the primary difference between the data stored in GenBank (a sequence database) and the Protein Data Bank (PDB)?",
+     "a": "GenBank stores nucleotide sequences (primary 1D data) submitted by researchers, while PDB stores experimentally determined 3D atomic coordinates of macromolecules (tertiary/quaternary structure data). A wrong answer (e.g., \"both store protein sequences\") reveals the student conflates sequence and structure databases, not grasping that PDB entries are derived from structural biology experiments (X-ray, NMR, cryo-EM) and contain spatial coordinates, not just linear sequences.",
+     "self_check": true
+    },
+    {
+     "q": "A student downloads a PDB file for a protein and sees \"REMARK 2 RESOLUTION. 2.50 ANGSTROMS\" in the header. They conclude the structure is low quality because 2.50 is a small number. Explain why this reasoning is flawed.",
+     "a": "In crystallography, resolution is the minimum distance between two distinguishable points; a lower value (e.g., 1.5 Å) indicates higher quality, while 2.5 Å is moderate. The student incorrectly assumes \"smaller number = worse\". This misconception stems from not understanding the physical meaning of resolution in diffraction experiments. A correct interpretation: 2.5 Å resolution allows tracing the polypeptide chain and side chains but may not resolve individual atoms clearly.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a PDB ID \"4HHB\" (human hemoglobin). Describe the step-by-step procedure to identify the number of polypeptide chains and the presence of any bound ligands (like heme) using the RCSB PDB website.",
+     "a": "Steps: 1) Go to rcsb.org and enter \"4HHB\" in the search bar. 2) Open the entry page; under \"Macromolecules\" see 4 chains (2 alpha, 2 beta). 3) Click \"Ligands\" or \"Chemical Components\" to list non-polymer entities; you will find HEME (heme group) with 4 instances. 4) Verify by viewing the 3D structure (e.g., using the embedded NGL viewer) and selecting \"HEME\". A wrong answer (e.g., \"download the file and count lines\") shows inability to use database interfaces for biological insight.",
+     "self_check": true
+    },
+    {
+     "q": "Compare PDB and MMDB: Why might a researcher choose MMDB over PDB for a comparative study of protein domains across many structures?",
+     "a": "MMDB (NCBI) provides pre-computed structural domains (CDD), explicit chemical connectivity, and direct links to PubMed, Gene, and Conserved Domain Database, enabling large-scale domain-level comparisons without manual parsing. PDB provides raw coordinate files but lacks integrated domain annotations and cross-links. Choosing PDB for this task would require downloading thousands of files and running domain assignment tools (like Pfam) locally, which is inefficient. A wrong answer indicates the student does not appreciate value-added databases for high-throughput analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A colleague claims: \"Since MMDB is derived from PDB, it is redundant and we should only use PDB.\" Evaluate this statement and justify your position.",
+     "a": "The statement is false. MMDB adds value: (1) it converts PDB's legacy format into ASN.1 (structured data model) with explicit bond orders and hydrogen atoms; (2) it computes and stores structural domains (via CDD) and secondary structure assignments; (3) it integrates with Entrez for cross-database queries (e.g., find all structures of a protein family linked to a disease). Using only PDB would lose these annotations and require re-computation. A poor evaluation treats databases as mere file repositories rather than knowledge bases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project for a Class 11 student to explore the relationship between protein structure and function using PDB. Specify the research question, database queries, and expected output.",
+     "a": "Example project: \"How does the active site of serine proteases differ across species?\" Steps: 1) Search PDB for \"serine protease\" with taxonomy filters (human, mouse, bacteria). 2) Download 5 structures (e.g., 1TRY, 1SGT, 1C1Y, 2PKA, 1TPO). 3) Use PyMOL to align structures and visualize the catalytic triad (Ser, His, Asp). 4) Measure distances between triad residues. 5) Create a table comparing distances and note conservation. Output: a report with aligned images and a conclusion on structural conservation. A weak project would only list PDB IDs without analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

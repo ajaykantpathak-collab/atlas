@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_001",
+   "title": "c11_hs_cbse_11_001",
+   "questions": [
+    {
+     "q": "What are the five main aspects of care and maintenance of fabrics as outlined in the NCERT Class 11 Home Science curriculum?",
+     "a": "The five main aspects are: (1) Mending (repairing tears, replacing fasteners), (2) Laundry (stain removal, washing, finishing, ironing), (3) Stain Removal (identification and treatment using specific reagents), (4) Finishing (blueing/optical brighteners, starching/stiffening), and (5) Storage (cleaning, drying, packing in low humidity, pest prevention). A wrong answer that lists only 'washing and ironing' reveals the student equates fabric care solely with laundering, ignoring preventive mending, targeted stain treatment, aesthetic finishing, and long-term storage hygiene — a reductionist view that leads to premature fabric failure.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Since cotton is strong when wet, I can use any strong detergent, hot water, and vigorous scrubbing for all my cotton clothes, including coloured prints.\" Explain why this reasoning is flawed using two distinct fibre properties of cotton from the care table.",
+     "a": "Cotton is indeed stronger when wet and resists alkalis, but (1) acidic substances weaken cotton fibres, so reagents must be rinsed and neutralised, and (2) cotton gets crushed easily and requires damp ironing to remove wrinkles without scorching. Additionally, coloured prints may bleed — the student ignores colour fastness and finish sensitivity. A wrong answer focusing only on strength shows the student treats fibre properties in isolation, not as an integrated profile where one property (alkali resistance) does not override another (acid sensitivity, wrinkling, colour loss).",
+     "self_check": true
+    },
+    {
+     "q": "You have a white cotton tablecloth with an old turmeric-oil stain (curry) and a coloured silk scarf with a fresh blood stain. Select the correct first-step treatment for each from the options below, justifying your choice based on stain classification and fibre sensitivity.\nOptions: (A) Hot water soak, (B) Cold water soak, (C) Grease solvent (petrol), (D) Alkaline reagent (ammonia), (E) Acidic reagent (lemon juice).",
+     "a": "Cotton tablecloth (curry = vegetable dye + oil): First step — (C) Grease solvent (petrol) to dissolve the oil component, then alkaline treatment for turmeric. Silk scarf (blood = animal/protein stain): First step — (B) Cold water soak only; hot water coagulates protein, and silk is damaged by alkalis/acids. A wrong answer choosing hot water for blood or alkaline reagent for silk reveals the student cannot cross-reference stain class (protein vs. vegetable/oil) with fibre vulnerability (silk's alkali sensitivity, protein coagulation heat).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the care requirements of wool and nylon using three fibre properties from Table 2. Explain how each property dictates a specific difference in washing, drying, or ironing practice.",
+     "a": "1. Wet strength: Wool weakens when wet → hand knead in cold water, no agitation; Nylon retains strength → machine washable. 2. Alkali/acid sensitivity: Wool damaged by alkalis → mild detergent only; Nylon resistant to alkalis but destroyed by acids → rinse well if acidic stain removers used. 3. Heat/sunlight response: Wool has resilience, no direct ironing (steam press); Nylon loses strength in sunlight → dry indoors, low-temperature iron. A wrong answer listing properties without linking to a specific care action (e.g., \"wool is weak when wet so be careful\") shows descriptive recall without analytical application to care decisions.",
+     "self_check": true
+    },
+    {
+     "q": "A care label shows: a tub with 40°C, a triangle with 'CL' crossed out, a square with a circle and one dot, and an iron with two dots. Evaluate whether this garment can be: (a) washed in hot water (60°C), (b) bleached with sodium hypochlorite, (c) tumble dried at high heat, (d) ironed at 180°C. Justify each.",
+     "a": "(a) No — tub says 40°C max. (b) No — triangle with 'CL' crossed means no chlorine bleach (sodium hypochlorite is chlorine-based). (c) No — one dot in tumble dry symbol = low heat only. (d) Yes — two dots on iron = 150–180°C (moderate to hot), so 180°C is within range. A wrong answer permitting hot wash or chlorine bleach reveals the student misreads the temperature limit or confuses 'CL' (chlorine) with 'do not bleach' entirely, risking irreversible fibre damage and colour loss.",
+     "self_check": true
+    },
+    {
+     "q": "Design a care routine for a blended fabric: 60% polyester / 40% cotton, dyed dark blue, with a soft finish. Specify: wash temperature, detergent type, drying method, ironing temperature, and one precaution for colour retention. Explain how the blend creates a conflict and how you resolve it.",
+     "a": "Wash: 40°C (cotton tolerates hot, polyester shrinks above 60°C — choose lower). Detergent: Mild synthetic detergent (cotton resists alkalis, polyester resists most, but avoid strong alkali to protect dye). Dry: Line dry in shade (cotton can sun-bleach, polyester yellows irreversibly in sun). Iron: 150°C (two dots — polyester melts at high heat, cotton needs heat for wrinkles; compromise at moderate). Precaution: Wash inside out, add salt/vinegar in first wash to set dye. Conflict: Cotton wants hot water/iron, polyester wants cool. Resolution: Prioritise the more heat-sensitive fibre (polyester) for temperature limits, but use cotton's alkali tolerance for effective cleaning. A poor answer that picks 'hot wash and hot iron' ignores polyester's thermal limits, causing shrinkage and glazing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

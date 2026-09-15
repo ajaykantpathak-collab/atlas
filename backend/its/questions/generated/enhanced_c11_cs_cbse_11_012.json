@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_012",
+   "title": "c11_cs_cbse_11_012",
+   "questions": [
+    {
+     "q": "Define phishing and give one characteristic that distinguishes a phishing email from a legitimate email from your bank.",
+     "a": "Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity. A distinguishing characteristic: phishing emails often use urgency (\"account closes in 2 hours\"), generic greetings (\"Dear Customer\"), and mismatched URLs (link text shows bank name but actual URL is different domain). A wrong answer like \"phishing emails have spelling errors\" reveals over-reliance on superficial cues — sophisticated attacks now use perfect grammar and copied logos.",
+     "self_check": true
+    },
+    {
+     "q": "A student receives a WhatsApp message: \"Congratulations! You've won ₹50,000 in KBC lottery. Send your Aadhaar and bank details to claim.\" The student thinks it's safe because \"KBC is a real show.\" Explain why this reasoning is flawed and identify the specific cyber threat.",
+     "a": "This is phishing (specifically smishing — SMS/WhatsApp phishing). The flaw: legitimacy of the brand (KBC) doesn't guarantee legitimacy of the message. Attackers exploit trusted brands. Official lotteries never ask for Aadhaar/bank details via WhatsApp. A wrong answer like \"it's safe because KBC exists\" reveals confusion between brand authenticity and message authenticity — a critical gap in verifying source before sharing data.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend's Instagram account posts embarrassing photos of a classmate with cruel captions. The friend claims \"it's just a joke.\" Using the three criteria for cyberbullying, analyze whether this qualifies and what action the victim should take.",
+     "a": "Yes, it's cyberbullying: (1) Repetition — multiple posts/captions, (2) Power imbalance — public platform amplifies harm, (3) Intent to harm — cruel captions show deliberate humiliation. Victim should: screenshot evidence, report via Instagram's tools, block the account, inform a trusted adult/school counselor, and file a cybercrime complaint (IT Act Section 66A/67). A wrong answer like \"it's not bullying because they're friends\" reveals misunderstanding that relationship doesn't negate bullying — intent and impact matter more.",
+     "self_check": true
+    },
+    {
+     "q": "Compare financial identity theft and criminal identity theft. Give one specific scenario for each where the victim faces different consequences.",
+     "a": "Financial identity theft: thief uses stolen PAN/Aadhaar to take a loan — victim gets debt notices, CIBIL score drops. Criminal identity thief: thief gives victim's details during police arrest — victim gets criminal record, arrest warrants. Different consequences: financial = monetary/credit damage; criminal = legal/liberty risk. A wrong answer conflating them (\"both cause money loss\") reveals failure to distinguish consequence domains — critical for reporting to correct authorities (bank vs police).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If I delete a bullying post from my social media, it's gone forever and can't be used as evidence.\" Justify using digital footprint concepts.",
+     "a": "False. Deletion doesn't erase digital footprints: (1) Platform servers retain backups, (2) Screenshots/shares by others create copies, (3) Metadata (IP, timestamp) logs persist. IT Act allows authorities to retrieve deleted data from intermediaries. A wrong answer agreeing reveals dangerous misconception that deletion = safety — this discourages evidence preservation and enables bullies to destroy proof.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-step verification checklist a Class 11 student can use when receiving any message asking for personal information (Aadhaar, OTP, password). Make it practical for Indian context.",
+     "a": "Good checklist: (1) Source Check — Is sender using official domain (e.g., @sbi.co.in not @sbi-services.xyz)? Call official helpline (1800-xxx-xxxx) to verify. (2) Request Check — Legitimate orgs NEVER ask for OTP/password/Aadhaar via email/SMS. (3) Urgency Check — \"Act now or lose access\" is a red flag; take 10 minutes to verify. Poor answer like \"check spelling\" shows focus on superficial cues — misses structural verification needed for sophisticated attacks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

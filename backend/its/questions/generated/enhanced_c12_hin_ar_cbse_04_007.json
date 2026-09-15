@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_04_007",
+   "title": "c12_hin_ar_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the definition of a secondary theme in literary analysis, and how does it differ from the primary theme?",
+     "a": "A secondary theme is a recurring idea that supports, contrasts, or complicates the primary theme without being the central message. The primary theme is the author's main argument (e.g., \"collective nation-building\"); a secondary theme is a parallel concern (e.g., \"social inequality persists despite collective rhetoric\"). A wrong answer that equates secondary themes with \"less important topics\" reveals the student thinks importance = frequency, not structural function. A wrong answer that lists plot events reveals confusion between theme and narrative content.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"देश में चाँद विकृत,\" the line \"ge nwjn'kZu ij cksysaxs / ge leFkZ 'kfDroku\" (हम नवनिर्माण पर चलेंगे / हम लेकज 'कफड़ोकु') appears alongside \"ge ,d nqcZy dks yk,¡xs / ,d can dejs esa\" (हम एक नच्जय को लाएँगे / एक चाँद देश में). Explain how the image of the \"distorted moon\" (can vikfgt) functions as a secondary theme distinct from the primary theme of nation-building.",
+     "a": "The distorted moon symbolizes the gap between aspirational rhetoric (\"नवनिर्माण\") and lived reality — the moon *should* be a shared, beautiful symbol for all citizens, but in the country it appears broken/distorted, revealing that the nation's promise is not equally experienced. This is a secondary theme because it critiques the *condition* of the nation while the primary theme urges *building* it. A wrong answer that says \"the moon represents hope\" misses the adjective \"विकृत\" (distorted) and confuses symbol with theme. A wrong answer that calls it \"imagery\" confuses device with theme.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of secondary themes to the prose passage about the pilot (आईयू/पायलट) who emergency-landed a fighter jet in 2006. Identify one secondary theme in this passage and cite two specific textual details that support it.",
+     "a": "Secondary theme: **Individual heroism within institutional neglect**. Evidence 1: The pilot flew a fighter jet (\"फोड्याक्स\") from Makdun area at 8:40 AM, faced engine failure, and still managed to land on a highway (\"काहन लेखद\") after 15 minutes — showing exceptional skill. Evidence 2: The jet was maintained poorly (\"आईयू का लुक मम्हलक के सीकदक जैसा दिखता था\"), implying systemic maintenance failure, yet the pilot saved three children (\"एमईएचएन लॉवी के तीन बच्चों के साथ\") and the plane. A wrong answer that says \"bravery is the theme\" states a character trait, not a theme. A wrong answer citing only the landing without the maintenance context misses the *contrast* that makes it a theme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the secondary theme of \"social inequality\" as it appears in the poem's stanza \"vki vkSj og nksuksa / (oSQejk cl djks ugha gqvk jgus nks ijn ij oDr dh dher gS)\" (आप और वे दोनों... जनसंख्या पर भार है) with the prose passage's depiction of the pilot's background (middle-class, trained, institutional support). How does the text use this contrast to deepen the primary theme?",
+     "a": "The poem presents inequality as structural: the powerful (\"नवाब\") and powerless (\"फकीर\") are both called \"burden on population\" by the system, yet only the poor suffer consequences. The prose passage shows a privileged individual (pilot, trained, state-funded machine) whose heroism is enabled by the same system that neglects the poem's \"फकीर.\" This contrast deepens the primary theme of nation-building by asking: *whose nation is being built?* The secondary theme of inequality exposes the primary theme's blind spot. A wrong answer that merely lists \"inequality in poem, privilege in prose\" without linking to nation-building fails the \"analyze\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The secondary theme of bureaucratic apathy (कामचोरी/दफ्तरी सुस्ती) in the poem is more effectively conveyed than the secondary theme of institutional neglect in the prose passage.\" Defend your judgment with textual evidence.",
+     "a": "The poem conveys bureaucratic apathy more effectively because it uses *dialogue* and *irony* (\"ge iwN&iwNdj mldks jQyk nsaxs / bar\"kkj djrs gSa vki Hkh mlosQ jks iM+us dk\") to show systemic complicity — everyone knows the work is fake (\"कामचोर\") but participates. The prose passage states neglect descriptively (\"आईयू का लुक मम्हलक के सीकदक जैसा दिखता था\") without dramatizing the bureaucratic chain. However, the prose's *real-world consequence* (a pilot risking life due to poor maintenance) gives institutional neglect visceral weight the poem's satire lacks. A balanced evaluation acknowledges both: poem = satirical depth, prose = consequential reality. A wrong answer that picks one without comparing *mode of conveyance* (satire vs. reportage) shows surface-level reading.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-stanza poem (4 lines each) that introduces a secondary theme to the primary theme of \"digital India progress.\" Your secondary theme must critique the primary theme from a marginalized perspective (e.g., elderly, rural poor, disabled). Use one metaphor and one instance of irony.",
+     "a": "*Stanza 1 (Primary theme voice):*  \n\"फाइबर के तार बिछते हर गाँव में,  \nडिजिटल सपना साकार हुआ रे।  \nआधार से जुड़ा हर हाथ अब,  \nभारत नया बन रहा है सवेरे।\"  \n\n*Stanza 2 (Secondary theme — elderly marginalization):*  \n\"दादी की पेंशन अटकी 'ओटीपी' में,  \nअंगूठा घिस गया, न स्क्रीन चमके रे।  \n'डिजिटल' का चाँद चमकता सबके लिए,  \nपर उसकी रोशनी बूढ़ी आँख न तके रे।\"  \n\n**Metaphor:** \"डिजिटल का चाँद\" (digital moon) = primary theme's promise.  \n**Irony:** The moon \"चमकता सबके लिए\" (shines for all) but \"बूढ़ी आँख न तके\" (old eyes can't see it) — the universal claim excludes the vulnerable.  \nA poor answer would write a general poem about technology without linking the secondary theme *structurally* to the primary theme (e.g., just complaining about phones). The secondary theme must *respond to* the primary theme's language.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

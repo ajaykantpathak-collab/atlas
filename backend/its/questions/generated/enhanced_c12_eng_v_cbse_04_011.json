@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_04_011",
+   "title": "c12_eng_v_cbse_04_011",
+   "questions": [
+    {
+     "q": "Identify the tense used in the sentence: \"He had been sent at twenty-two to America to learn all that could be learned of surgery and medicine.\" Name the tense and its form.",
+     "a": "Past perfect passive: \"had been sent\". It indicates an action completed before another past time (his return at thirty). A wrong answer (e.g., past simple passive \"was sent\") shows the student cannot distinguish between a simple past event and an event prior to the narrative's past reference point.",
+     "self_check": true
+    },
+    {
+     "q": "In the text, Sadao says: \"If we sheltered a white man in our house we should be arrested.\" Explain why the author uses \"should\" instead of \"would\" here, and what the conditional structure implies about Sadao's certainty.",
+     "a": "This is a second conditional (hypothetical present/future) with \"should\" expressing a logical consequence or duty, typical of formal/older English. \"Should\" here indicates a strong expectation based on law, not just possibility. A wrong answer (e.g., \"it's just a synonym for would\") misses the nuance of obligation/inevitability in the context of wartime law.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following direct speech from the text into reported speech: Hana said, \"I cannot bear for you to touch him.\" Then explain the changes in tense, pronoun, and time/place references.",
+     "a": "Hana said that she could not bear for him to touch him. Changes: \"I\" -> \"she\", \"cannot\" -> \"could not\", \"you\" -> \"him\" (referring to Sadao). A wrong answer might keep \"cannot\" or misassign pronouns, showing lack of backshifting rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of participle clauses in these two sentences from the text:\n1. \"Supporting himself on his bare feet, as he had seen men do in the South Seas...\"\n2. \"Having operated on him with such success...\"\nExplain how each clause relates to the main clause in terms of time and subject.",
+     "a": "1. Present participle clause (Supporting...) indicates simultaneous action; subject is \"he\" (Sadao as a boy). 2. Perfect participle clause (Having operated...) indicates prior completed action; subject is \"I\" (Sadao). A wrong answer might confuse the time relationship or miss that the subject of the participle clause must match the main clause subject.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"The best thing that we could do would be to put him back in the sea.\" Critique the modal choice: why \"could\" and \"would\" instead of \"can\" and \"will\"? Does this reflect Sadao's internal conflict?",
+     "a": "\"Could\" and \"would\" create a hypothetical, distanced tone, showing Sadao is reasoning theoretically, not committing to action. It reflects his moral hesitation. Using \"can/will\" would imply immediate intention. A wrong answer that says \"they are just past tense forms\" misses the modal nuance of tentativeness.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short paragraph (5-6 lines) from the perspective of the American soldier (Tom) after he is saved, using at least two conditionals (second or third) and one participle clause to express his thoughts about his captivity and gratitude.",
+     "a": "Sample: \"Had I not been washed ashore, I would have died on that rock. If the doctor had handed me over, I would be dead now. Lying here, healing under his care, I wonder if I will ever see home again.\" Criteria: correct conditional forms, participle clause with matching subject, appropriate voice. Poor answer: mismatched tenses, missing structures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

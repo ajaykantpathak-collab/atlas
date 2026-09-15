@@ -1,0 +1,304 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 110,
+ "chapter_title": "Internal Trade",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebs110.txt",
+ "concepts": [
+  {
+   "id": "kebs.110.1",
+   "title": "Meaning of Internal Trade",
+   "section": "10.2",
+   "definition": "The exchange of products and services that occurs strictly within the political and geographical limits of one country.",
+   "formula": "total_trade = wholesale_volume + retail_volume",
+   "key_idea": "Domestic commerce involving no cross-border customs duties.",
+   "textbook_ref": "kebs110.txt lines 45-70",
+   "question_patterns": [
+    "define internal trade",
+    "what are the characteristics of domestic trade",
+    "identify the trade type occurring within national boundaries",
+    "explain the scope of internal commerce"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check geographical boundary",
+     "explain": "Verify if the buyer and seller are located within the same country."
+    },
+    {
+     "step": 2,
+     "action": "verify tax implications",
+     "explain": "Confirm that no import or custom duties are applicable to the transaction."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.2",
+   "title": "Wholesale Trade",
+   "section": "10.3",
+   "definition": "The business of purchasing goods in bulk from producers to sell them in smaller lots to retailers rather than final consumers.",
+   "formula": "bulk_purchase_price = unit_cost * large_quantity",
+   "key_idea": "Acting as a middleman link between manufacturers and retail outlets.",
+   "textbook_ref": "kebs110.txt lines 75-110",
+   "question_patterns": [
+    "what is wholesale trade",
+    "describe the role of a wholesaler",
+    "how do wholesalers assist manufacturers",
+    "calculate the total value of a wholesale order"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify bulk quantity",
+     "explain": "Determine the total number of units purchased from the manufacturer.",
+     "compute": "total_value = unit_cost * quantity"
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.3",
+   "title": "Retail Trade",
+   "section": "10.4",
+   "definition": "The final stage of distribution where goods are sold in small quantities directly to the end users for personal use.",
+   "formula": "retail_margin = selling_price - cost_price",
+   "key_idea": "Direct interaction with the ultimate consumer at the end of the supply chain.",
+   "textbook_ref": "kebs110.txt lines 145-180",
+   "question_patterns": [
+    "define retailing",
+    "what services do retailers provide to consumers",
+    "calculate the profit margin for a retailer",
+    "how does a retailer help in distribution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate price difference",
+     "explain": "Subtract the purchase cost from the final sales price to the consumer.",
+     "compute": "retail_margin = selling_price - cost_price"
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.4",
+   "title": "Itinerant Retailers",
+   "section": "10.5.1",
+   "definition": "Mobile traders who do not operate from a permanent physical location and move between places to find customers.",
+   "formula": "n/a",
+   "key_idea": "Providing doorstep service with low capital investment.",
+   "textbook_ref": "kebs110.txt lines 245-280",
+   "question_patterns": [
+    "who are itinerant retailers",
+    "list types of mobile traders",
+    "describe the features of hawkers and peddlers",
+    "how do market traders operate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check business location",
+     "explain": "Determine if the trader has a fixed shop or moves from place to place."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.5",
+   "title": "Departmental Stores",
+   "section": "10.5.2",
+   "definition": "Large-scale retail establishments that house multiple product categories in distinct sections under a single roof.",
+   "formula": "n/a",
+   "key_idea": "One-stop shopping experience for diverse consumer needs.",
+   "textbook_ref": "kebs110.txt lines 350-400",
+   "question_patterns": [
+    "features of a departmental store",
+    "advantages of shopping at a departmental store",
+    "how is a departmental store managed",
+    "identify a store selling everything from a pin to an elephant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify product variety",
+     "explain": "Check if multiple product lines are sold in different departments within one building."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.6",
+   "title": "Chain Stores or Multiple Shops",
+   "section": "10.5.2",
+   "definition": "A network of retail outlets owned by a single firm, selling standardized goods with uniform pricing and appearance.",
+   "formula": "n/a",
+   "key_idea": "Centralized procurement with decentralized sales across various localities.",
+   "textbook_ref": "kebs110.txt lines 410-460",
+   "question_patterns": [
+    "what are multiple shops",
+    "explain the features of chain stores",
+    "how do chain stores eliminate middlemen",
+    "distinguish between departmental stores and chain stores"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check ownership and branding",
+     "explain": "Verify if multiple branches are owned by the same organization and look identical."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.7",
+   "title": "Mail Order Houses",
+   "section": "10.5.2",
+   "definition": "Retail businesses that manage sales through postal communication without any face-to-face contact between buyer and seller.",
+   "formula": "n/a",
+   "key_idea": "Shopping via catalogs and advertisements with delivery by post.",
+   "textbook_ref": "kebs110.txt lines 490-530",
+   "question_patterns": [
+    "how do mail order houses work",
+    "what products are suitable for mail order",
+    "limitations of mail order business",
+    "explain the role of VPP in mail order"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify transaction mode",
+     "explain": "Check if orders are placed and goods are delivered through postal services."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.8",
+   "title": "Consumer Cooperative Stores",
+   "section": "10.5.2",
+   "definition": "Retail outlets established and managed by a group of consumers to procure goods directly from sources and eliminate middlemen.",
+   "formula": "n/a",
+   "key_idea": "Mutual benefit and democratic control by members.",
+   "textbook_ref": "kebs110.txt lines 540-580",
+   "question_patterns": [
+    "what is a consumer cooperative store",
+    "how is a cooperative store formed",
+    "advantages of consumer cooperatives",
+    "explain the management of cooperative societies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check ownership structure",
+     "explain": "Verify if the store is owned and controlled by the consumers themselves."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.9",
+   "title": "Super Markets",
+   "section": "10.5.2",
+   "definition": "Large self-service retail units that focus on high-volume sales of food and household items at competitive prices.",
+   "formula": "n/a",
+   "key_idea": "Self-service model with low profit margins and high turnover.",
+   "textbook_ref": "kebs110.txt lines 590-630",
+   "question_patterns": [
+    "features of super markets",
+    "how do super markets differ from departmental stores",
+    "explain the self-service concept",
+    "why are super markets located centrally"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify service model",
+     "explain": "Check if the store operates primarily on a self-service basis."
+    }
+   ]
+  },
+  {
+   "id": "kebs.110.10",
+   "title": "Goods and Services Tax (GST)",
+   "section": "GST",
+   "definition": "A unified, destination-based indirect tax implemented to create a single national market by subsuming various local and central taxes.",
+   "formula": "gst_payable = output_tax - input_tax_credit",
+   "key_idea": "Tax on value addition at each stage of the supply chain.",
+   "textbook_ref": "kebs110.txt lines 650-720",
+   "question_patterns": [
+    "what is GST",
+    "calculate the net GST payable",
+    "explain the concept of input tax credit",
+    "what are the tax slabs under GST"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate output tax",
+     "explain": "Multiply the sales value by the applicable GST rate percentage.",
+     "compute": "output_tax = sales * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract input credit",
+     "explain": "Deduct the tax already paid on purchases from the output tax liability.",
+     "compute": "gst_payable = output_tax - input_tax_credit"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs110.txt lines 710-720",
+   "concept": "kebs.110.10",
+   "question_type": "compute",
+   "question_pattern": "A trader sold goods worth {sales} at a GST rate of {rate}%. If the trader has an input tax credit of {input_tax_credit}, calculate the net GST payable.",
+   "extracted_variables": {
+    "sales": "total value of goods sold",
+    "rate": "GST percentage slab",
+    "input_tax_credit": "tax already paid on inputs"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate output tax",
+     "explain": "Find the total tax collected on sales.",
+     "compute": "output_tax = sales * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute net payable",
+     "explain": "Subtract the credit from the output tax.",
+     "compute": "gst_payable = output_tax - input_tax_credit"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "kebs110.txt lines 840-860",
+   "questions": [
+    "What is meant by internal trade?",
+    "Specify the characteristics of fixed shop retailers.",
+    "How does the wholesaler help the manufacturer in availing the economies of scale?",
+    "Distinguish between single line stores and speciality stores."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "kebs110.txt lines 865-880",
+   "questions": [
+    "Discuss the features of a departmental store and how they differ from chain stores.",
+    "Explain the usefulness of mail order houses and the types of products they handle.",
+    "Why are consumer cooperative stores considered to be less expensive?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

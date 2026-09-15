@@ -1,0 +1,499 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 114,
+ "chapter_title": "Poetry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lekl114.txt",
+ "concepts": [
+  {
+   "id": "lekl.114.1",
+   "title": "Metaphysical Conceit and Love in Donne's 'A Lecture Upon the Shadow'",
+   "section": "1",
+   "definition": "The philosophical exploration of mutual love using the progressive movement of walking shadows from morning to noon and dusk as an intellectual metaphor for clarity, deceit, and decay.",
+   "formula": "Metaphysical Conceit: noon = pure transparency, declining shadows = self-deception",
+   "key_idea": "Genuine romantic perfection demands total transparency, as any decline after noon breeds blinding internal disguises.",
+   "textbook_ref": "lekl114.txt lines 25-105",
+   "question_patterns": [
+    "explain how the shadows before noon differ from those after noon in Donne's poem",
+    "analyze the metaphysical conceit of light and shadow in A Lecture Upon the Shadow",
+    "what message does Donne convey to his beloved regarding the zenith of love",
+    "why does Donne describe shadows falling in the afternoon as working upon ourselves",
+    "evaluate the significance of the title A Lecture Upon the Shadow"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the morning shadows",
+     "explain": "Morning shadows represent outer pretences and disguises created to conceal nascent love from onlookers."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the noon state",
+     "explain": "At noon, the sun is directly overhead, eliminating shadows and signifying complete mutual honesty and maximal clarity."
+    },
+    {
+     "step": 3,
+     "action": "analyze the afternoon decline",
+     "explain": "Afternoon shadows lengthen in reverse, symbolizing internal hypocrisy and self-deceit that eventually blind the lovers themselves if devotion wanes."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.2",
+   "title": "Temporal Transience versus Divine Eternity in Milton's 'On Time'",
+   "section": "2.1",
+   "definition": "The thematic contrast between the destructive, earthly passage of time and the supreme permanence of heavenly eternity achieved after mortal shedding of physical dross.",
+   "formula": "Mortal Dross consumed by Time -> Heavenly Ascent into Eternal Truth, Peace, and Love",
+   "key_idea": "Time consumes only temporal falsehoods, ultimately destroying itself while guiding virtuous souls into immortal bliss.",
+   "textbook_ref": "lekl114.txt lines 135-185",
+   "question_patterns": [
+    "why does Milton address time as envious in On Time",
+    "distinguish between things associated with the temporal and the eternal in Milton's poem",
+    "how does human mortality triumph over death and time according to Milton",
+    "explain the mechanical imagery of leaden-stepping hours and heavy plummets pace",
+    "what spiritual transformation occurs when the earthly grossness is quit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the temporal domain",
+     "explain": "Mortal time governs heavy, slow mechanisms that feed exclusively on vain, corruptible, and earthly matters."
+    },
+    {
+     "step": 2,
+     "action": "assess the self-exhaustion of time",
+     "explain": "Once temporal evils and mortality are consumed, time exhausts itself, having caused minimal spiritual loss to humanity."
+    },
+    {
+     "step": 3,
+     "action": "establish eternal triumph",
+     "explain": "Purified human souls ascend beyond earthly decay to be welcomed by eternal divine values of truth, peace, and love."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.3",
+   "title": "The Living Monument of Art in Milton's 'On Shakespear'",
+   "section": "2.2",
+   "definition": "The celebration of literary genius whose true, everlasting monument is constructed within the awe and imagination of readers rather than through physical stone sepulchres.",
+   "formula": "True Monument = Reader Astonishment + Immortal Words > Stone Pyramids",
+   "key_idea": "Artistic immortality surpasses physical architecture by transforming receptive readers into living memorials of poetic wonder.",
+   "textbook_ref": "lekl114.txt lines 190-235",
+   "question_patterns": [
+    "why does Milton deem stone monuments unnecessary for Shakespeare",
+    "what does the phrase weak witness of thy name signify in Milton's tribute",
+    "how does Shakespeare's effortless poetic flow leave readers astonished",
+    "explain the metaphor of readers becoming marble with conceiving",
+    "why would kings wish to die for a tomb like Shakespeare's"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "critique material monuments",
+     "explain": "Physical stone pyramids and piled marble are weak, perishable relics incapable of honouring transcendent artistic genius."
+    },
+    {
+     "step": 2,
+     "action": "examine reader reception",
+     "explain": "Shakespeare's flowing verses capture the reader's imagination, freezing them in silent, reverent wonder akin to marble statues."
+    },
+    {
+     "step": 3,
+     "action": "deduce immortal resting place",
+     "explain": "By residing eternally in human memory and intellectual adoration, the poet enjoys a burial more majestic than regal tombs."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.4",
+   "title": "Divine Humanism in Blake's 'The Divine Image'",
+   "section": "3.1",
+   "definition": "The theological vision from Songs of Innocence asserting that core divine virtues exist intrinsically in human form, equating universal love for humanity with worship of God.",
+   "formula": "Divine Essence = Mercy + Pity + Peace + Love = Human Embodiment",
+   "key_idea": "God and humanity share identical spiritual essence through four universal virtues, making every human sacred irrespective of background.",
+   "textbook_ref": "lekl114.txt lines 255-305",
+   "question_patterns": [
+    "how does Blake connect divine virtues with human physical and emotional forms",
+    "explain the four cardinal virtues in The Divine Image",
+    "why must every human form be loved regardless of religious or ethnic identity",
+    "what reflects the state of innocence in Blake's portrayal of humanity and divinity",
+    "describe the poetic metre and structure of The Divine Image"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the four divine virtues",
+     "explain": "Mercy, Pity, Peace, and Love are defined both as attributes of God and essential traits of humankind."
+    },
+    {
+     "step": 2,
+     "action": "map virtues to human incarnation",
+     "explain": "Mercy is the human heart, Pity the human face, Love the divine human form, and Peace the encompassing dress."
+    },
+    {
+     "step": 3,
+     "action": "affirm universal equality",
+     "explain": "Because these divine qualities inhabit all persons without distinction, genuine piety requires revering all human beings."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.5",
+   "title": "Institutional Hypocrisy in Blake's 'The Human Abstract'",
+   "section": "3.2",
+   "definition": "The satirical deconstruction in Songs of Experience revealing how societal virtues are manufactured by human selfishness, exploitation, fear, and intellectual deceit.",
+   "formula": "Poverty & Misery -> Conditional Pity/Mercy -> Fear -> Deceitful Tree in Human Brain",
+   "key_idea": "Societal virtues often depend on sustaining inequality, as pity requires poverty and cruelty flourishes under institutional mystery.",
+   "textbook_ref": "lekl114.txt lines 310-370",
+   "question_patterns": [
+    "how does The Human Abstract invert the concepts presented in The Divine Image",
+    "why does Blake state that pity would be no more if poverty did not exist",
+    "explain the growth of the tree of Mystery in the human brain",
+    "what do the caterpillar, fly, and raven represent in the poem",
+    "analyze Blake's critique of religious and rationalist hypocrisy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expose the premise of conditional virtue",
+     "explain": "Pity and Mercy exist in fallen experience only because societies create poverty and suffering to feel self-righteous."
+    },
+    {
+     "step": 2,
+     "action": "trace the genealogy of institutional repression",
+     "explain": "Mutual fear creates false peace, breeding cruelty, fake humility, and the oppressive canopy of religious mystery."
+    },
+    {
+     "step": 3,
+     "action": "locate the source of evil",
+     "explain": "Nature contains no such corrupting entity; the destructive tree of deceit is entirely fabricated within the human brain."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.6",
+   "title": "Romantic Vision and Ecstasy in Coleridge's 'Kubla Khan'",
+   "section": "4",
+   "definition": "The romantic exploration of aesthetic creation, visionary subconscious landscapes, and the exhilarating danger of poetic inspiration through juxtaposed images of order and chaos.",
+   "formula": "Synthesized Art = Sunny Pleasure Dome + Subterranean Caves of Ice",
+   "key_idea": "Supreme artistic creation reconciles diametrically opposed forces of ordered harmony and untamed demonic energy.",
+   "textbook_ref": "lekl114.txt lines 415-515",
+   "question_patterns": [
+    "how does Coleridge juxtapose sunny domes with icy caverns in Kubla Khan",
+    "describe the movement of the sacred river Alph from spring to ocean",
+    "what is the symbolic role of the Abyssinian maid and her dulcimer",
+    "why do onlookers cry Beware at the figure of the inspired poet",
+    "explain the interplay between conscious architectural decree and subconscious natural turmoil"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze the landscape of Xanadu",
+     "explain": "The manicured pleasure-gardens exist above measureless caverns and a tumultuous chasm where Alph bursts into life."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the reconciliation of opposites",
+     "explain": "The floating dome represents miraculous art combining sunny warmth with subterranean frozen caves."
+    },
+    {
+     "step": 3,
+     "action": "interpret the poetic frenzy",
+     "explain": "The inspired poet, nourished on paradise, commands awe and holy dread as an ecstatic visionary capable of rebuilding ideal forms in air."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.7",
+   "title": "Miniaturist Nature Imagery in Dickinson's 'Trees'",
+   "section": "5",
+   "definition": "The idiosyncratic poetic recording of summer nature, employing vibrant kinetic metaphors, unconventional punctuation, and personification to surpass conventional pictorial art.",
+   "formula": "Nature's Summer Dynamic > Static Artistic Delineation",
+   "key_idea": "The transient vitality and spontaneous auditory rhythms of living nature elude static artistic imitation.",
+   "textbook_ref": "lekl114.txt lines 545-600",
+   "question_patterns": [
+    "what imagery does Dickinson use to delineate a summer day",
+    "explain the phrase Psalteries of Summer in the poem",
+    "how does Dickinson personify the sun, birds, and flowers",
+    "interpret the metaphor of blooming flowers as hindered flags sweet hoisted",
+    "why does Dickinson contrast nature with Vandyke's delineation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify sensory natural details",
+     "explain": "Dickinson captures trees swinging like tassels, minuscule creatures creating music, and gossiping birds on fences."
+    },
+    {
+     "step": 2,
+     "action": "analyze floral and solar personification",
+     "explain": "The sun behaves like a whimsical landowner hiding behind cloud estates, while opening flower calyxes resemble unfurling banners."
+    },
+    {
+     "step": 3,
+     "action": "evaluate artistic supremacy of nature",
+     "explain": "The vibrant reality of a living summer afternoon renders even the finest paintings by Vandyke pale and insufficient."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.8",
+   "title": "Aging, Permanence, and Change in Yeats's 'The Wild Swans at Coole'",
+   "section": "6",
+   "definition": "The melancholic meditation on personal aging and historical decline contrasted with the enduring vitality, passion, and companionship of wild swans in an autumn landscape.",
+   "formula": "Human Condition (Aging + Weariness) vs Swan Essence (Unwearied Passion + Ageless Vitality)",
+   "key_idea": "While individual human life suffers physical decay and lost lightness, nature retains perpetual vigor and mysterious beauty.",
+   "textbook_ref": "lekl114.txt lines 615-680",
+   "question_patterns": [
+    "how do the autumn landscape and October twilight mirror the poet's state of mind",
+    "contrast the poet's sore heart with the unwearied state of the swans",
+    "what is signified by the nineteen years that have passed since the first swan count",
+    "explain the significance of the swans flying away to build among other rushes",
+    "analyze the rhyme scheme and tonal progression of the poem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the temporal and physical backdrop",
+     "explain": "Autumn beauty, twilight water, and dry paths reflect the poet's advancing years and emotional exhaustion."
+    },
+    {
+     "step": 2,
+     "action": "highlight the contrast with swans",
+     "explain": "Unlike human beings burdened with sorrow and change, the swans remain unwearied, passionate, and united in flight."
+    },
+    {
+     "step": 3,
+     "action": "confront impending loss",
+     "explain": "The poem concludes with poignant acceptance that these immortal symbols of beauty will eventually depart for other waters."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.9",
+   "title": "Urban Discord and Sudden Rupture in Ramanujan's 'Time and Time Again'",
+   "section": "7",
+   "definition": "The modernist depiction of municipal clocktowers whose asynchronous chimes symbolize communal divisions, fragile civil peace, and sudden interruptions caused by riots or lightning.",
+   "formula": "Disparate Clock Chimes = Communal Fractures -> Shattered Clockworks (Human Riot / Nature's Fury)",
+   "key_idea": "Superficial communal coexistence and synchronized urban routines are constantly precarious, susceptible to sudden societal or natural violence.",
+   "textbook_ref": "lekl114.txt lines 695-745",
+   "question_patterns": [
+    "what causes the slight differences in timekeeping among urban clocktowers",
+    "how do the clocktowers reflect the tensions among religious communities",
+    "what makes the act of nature described as precise in Ramanujan's poem",
+    "how does the poet represent communal discord and urban violence",
+    "explain the visual image of an eyeless, silent clocktower revealing a zigzag sky"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "interpret clock discrepancies",
+     "explain": "Differences in alloy, foundry mechanics, donor eccentricities, and religious traditions make every tower chime slightly out of sync."
+    },
+    {
+     "step": 2,
+     "action": "identify social and communal fractures",
+     "explain": "The alternating harmonies and conflicts of Hindu, Christian, and Muslim communities mirror these fragile, asynchronous rhythms."
+    },
+    {
+     "step": 3,
+     "action": "examine violent disruptions",
+     "explain": "Riots, bombs, or natural lightning instantly shatter the clock faces, exposing an empty sky through broken mechanisms."
+    }
+   ]
+  },
+  {
+   "id": "lekl.114.10",
+   "title": "Aristocratic Heritage and Guilt in Kamala Das's 'Blood'",
+   "section": "8",
+   "definition": "The confessional narrative portraying the physical disintegration of a 300-year-old ancestral house alongside the poet's guilt over failing to preserve her aristocratic lineage.",
+   "formula": "Ancestral Noble Blood vs Post-Feudal Poverty + Inability to Restore Ancient House",
+   "key_idea": "The inevitable collapse of feudal grandeur creates a sharp conscience conflict between nostalgic pride and modern helplessness.",
+   "textbook_ref": "lekl114.txt lines 760-880",
+   "question_patterns": [
+    "how does the decaying three-hundred-year-old house mirror the decline of feudal lineage",
+    "what distinction does the great-grandmother draw between noble blood and that of the new-rich",
+    "why does the poet feel she has let down her ancestral home and family",
+    "how does Kamala Das combine filial reverence with rebellion against feudal arrogance",
+    "interpret the metaphor of plucking the grandmother's soul like a fruit pip"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "depict ancestral decay",
+     "explain": "The ancestral house crumbles with cracked walls, whining windows, overgrown snake shrines, and encroaching white ants."
+    },
+    {
+     "step": 2,
+     "action": "recount the myth of pure blood",
+     "explain": "The great-grandmother proudly asserts the purity of their aristocratic blood against the thick, muddy blood of the common rich."
+    },
+    {
+     "step": 3,
+     "action": "articulate personal guilt and modern defeat",
+     "explain": "Unable to amass the wealth needed to rebuild the estate, the speaker leaves the ruins behind, carrying an unresolved sense of betrayal."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl114.txt lines 110-120",
+   "concept": "lekl.114.1",
+   "question_type": "thematic_analysis",
+   "question_pattern": "Analyze how John Donne uses morning and afternoon shadows to illustrate stages of romantic love.",
+   "extracted_variables": {
+    "text_focus": "metaphor of shadows in Donne's poem",
+    "theme": "growth and decay of love"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the morning shadows",
+     "explain": "Morning shadows signify the early phases of love where disguises and falsehoods are maintained before the outside world."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the noon state",
+     "explain": "Noon represents the zenith of love where shadows disappear and complete honesty prevails between lovers."
+    },
+    {
+     "step": 3,
+     "action": "analyze the afternoon decline",
+     "explain": "Afternoon shadows represent self-deception and internal distrust that destroy love if mutual transparency is not preserved."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl114.txt lines 375-395",
+   "concept": "lekl.114.5",
+   "question_type": "comparative_analysis",
+   "question_pattern": "Explain how William Blake contrasts 'The Divine Image' with 'The Human Abstract'.",
+   "extracted_variables": {
+    "poems": "The Divine Image and The Human Abstract",
+    "focus": "innocence vs experience"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine the innocent vision",
+     "explain": "The Divine Image celebrates Mercy, Pity, Peace, and Love as genuine divine and human realities."
+    },
+    {
+     "step": 2,
+     "action": "uncover the experienced inversion",
+     "explain": "The Human Abstract critiques how these virtues are weaponized when pity requires poverty and peace relies on mutual terror."
+    },
+    {
+     "step": 3,
+     "action": "locate the origin of corruption",
+     "explain": "Blake demonstrates that this corruption is not natural but an artificial construct of the institutionalized human intellect."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex114.1",
+   "source_ref": "lekl114.txt lines 106-118",
+   "questions": [
+    "How do the shadows before noon differ from the shadows after noon? What do the two kinds of shadow represent?",
+    "Love is described as light. What makes the poet talk about shadows?",
+    "Comment on the use of the image of the shadows for the idea that the poet wants to convey.",
+    "The poet seems to be addressing his beloved in the poem. What is the message he wishes to convey to her?",
+    "Instead of 'A Lecture Upon Love' the poet calls the poem 'A Lecture Upon the Shadow'. What is the effect that this has on our reading of the poem?"
+   ]
+  },
+  {
+   "id": "ex114.2",
+   "source_ref": "lekl114.txt lines 186-235",
+   "questions": [
+    "Why has the poet pitted the flight of Time against the 'lazy leaden-stepping hours' and 'the heavy Plummets pace'?",
+    "What are the things associated with the temporal and what are associated with the eternal?",
+    "What guides human souls towards divinity? Who is the final winner in the race against Time?",
+    "Why does Milton feel it is not necessary to put up a monument in stone for Shakespeare?",
+    "What does the 'weak witness of thy name' refer to?",
+    "How does Milton describe Shakespeare as the source of inspiration for all succeeding generations of poets?"
+   ]
+  },
+  {
+   "id": "ex114.3",
+   "source_ref": "lekl114.txt lines 375-395",
+   "questions": [
+    "How are these two matched poems related to each other in content? How is the human being depicted in the Song of Innocence and how is he/she depicted in the Song of Experience?",
+    "How would you explain the lines: 'For Mercy has a human heart, / Pity a human face, / And Love, the human form divine, / And Peace, the human dress.'?",
+    "How do Mercy, Pity, Peace and Love get distorted in the human brain?",
+    "Blake's poetry expresses one aspect of his multi-dimensional view of human experience—of mankind once whole and happy, now fallen into discord and tyranny. Explain with reference to these two poems."
+   ]
+  },
+  {
+   "id": "ex114.4",
+   "source_ref": "lekl114.txt lines 520-540",
+   "questions": [
+    "Does the poem have a real geographical location? How does the poet mix up the real and the imaginary to give a sense of the surreal?",
+    "Pick out contrasting images that are juxtaposed throughout the poem Kubla Khan.",
+    "What is the discordant note heard at the end of the third stanza? Can we relate this to the grandeur and turmoil of an emperor's life?",
+    "What is poetic ecstasy likened to?",
+    "The poem is a fragment. What do you think has made it a lasting literary piece?"
+   ]
+  },
+  {
+   "id": "ex114.5",
+   "source_ref": "lekl114.txt lines 602-614",
+   "questions": [
+    "What imagery does the poet use to delineate Summer's day more picturesquely than any painter could?",
+    "What do you understand by 'Psalteries of Summer'?",
+    "In which lines are creatures attributed with human qualities? How does this add to the beauty of the Summer's day?",
+    "How would you explain the image of the 'Hindered Flags'?",
+    "Why are the pronouns referring to the Sun capitalised?"
+   ]
+  },
+  {
+   "id": "ex114.6",
+   "source_ref": "lekl114.txt lines 685-694",
+   "questions": [
+    "How do the 'trees in their autumn beauty', 'dry woodland paths', 'October twilight', and 'still sky' connect to the poet's own life?",
+    "What do 'the light tread' and 'the sore heart' refer to?",
+    "What is the contrast between the liveliness of the swans and human life?",
+    "What contributes to the beauty and mystery of the swans' lives?"
+   ]
+  },
+  {
+   "id": "ex114.7",
+   "source_ref": "lekl114.txt lines 748-758",
+   "questions": [
+    "What did you think the poem was about when you read the first few lines?",
+    "From which line does the import of the title strike the reader?",
+    "What makes for the differences between the timekeeping of the various clocks? What is the implicit comparison?",
+    "Why is the act of nature described as 'precise'?",
+    "Which attitude reflects the poet towards communal disharmony: critical condemnation, helpless acceptance, or wistful lament?"
+   ]
+  },
+  {
+   "id": "ex114.8",
+   "source_ref": "lekl114.txt lines 885-905",
+   "questions": [
+    "What makes the depiction of a crumbling village house so authentic in the poem?",
+    "What aspects of Indian society and history get highlighted in the poem?",
+    "Does the poem bring out the contrast between tradition and modernity?",
+    "Identify lines where the poet revolts against her grandmother's sentiments of royal grandeur.",
+    "Which lines reveal the poet's criticism of class distinctions?",
+    "What do you understand of the conflict in the poet's conscience?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

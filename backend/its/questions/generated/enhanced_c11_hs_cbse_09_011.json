@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_011",
+   "title": "c11_hs_cbse_09_011",
+   "questions": [
+    {
+     "q": "A 13-year-old girl has grown 8 cm in height over 6 months. Her mother buys her three expensive formal dresses for a wedding season. Two months later, the dresses are tight at the shoulders and short at the hem. What is the PRIMARY clothing principle violated here, specific to adolescence?",
+     "a": "The primary principle violated is **minimal wardrobe planning due to rapid, asynchronous growth**. Adolescents outgrow clothes quickly, especially in length and shoulder width, so investing in multiple expensive, non-adjustable formal garments is impractical. A wrong answer (e.g., \"wrong fabric choice\" or \"poor stitching\") reveals the student is applying general clothing criteria (durability, quality) instead of the developmental principle: *anticipate rapid obsolescence and prioritize adjustable, minimal, replaceable items*.",
+     "self_check": true
+    },
+    {
+     "q": "Two Class 11 students argue: Student A says \"Adolescents should wear only cotton because it absorbs sweat.\" Student B says \"Polyester blends are fine because they're trendy and durable.\" Using the concept of *physiological needs vs. psychosocial needs*, explain why BOTH are incomplete.",
+     "a": "Student A ignores psychosocial needs: peer acceptance and identity expression often require non-cotton fabrics (denim, blends, synthetics) that signal group belonging. Student B ignores physiological needs: synthetic blends trap heat and sweat, causing skin irritation, fungal infections, and odor during a phase of hyperactive sudoriferous glands. A complete answer must integrate *both* — e.g., \"cotton-rich blends for base layers, trendy synthetics for outer layers worn briefly.\" A wrong answer focusing only on fabric properties or only on fashion shows failure to analyze the *interaction* of biology and social context.",
+     "self_check": true
+    },
+    {
+     "q": "A school mandates polyester-blazer uniforms for winter. Students complain of overheating in heated classrooms and sweat rashes. Design a 3-layer clothing strategy (base, mid, outer) that satisfies: (a) school uniform rule, (b) thermoregulation, (c) adolescent skin sensitivity. Specify fabric for each layer.",
+     "a": "**Base layer (next to skin):** 100% cotton or cotton-modal blend — high absorbency, wicks sweat, prevents rashes.  \n**Mid layer (insulation):** Lightweight merino wool or fleece — traps air, breathable, removable in heated rooms.  \n**Outer layer (uniform compliance):** The mandated polyester blazer — worn only during assembly/transit, removed indoors.  \n*Reasoning:* This applies the \"onion layering\" principle from outdoor physiology to a constrained uniform context. A wrong answer (e.g., \"wear cotton under the blazer\" without a removable mid-layer) fails to address *variable thermal environments* (cold outdoors → hot classroom) and shows inability to adapt technical layering to institutional constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the clothing decision-making process for a 9-year-old (elementary) vs. a 15-year-old (adolescence) across these dimensions: (i) who selects, (ii) primary criterion, (iii) role of fashion, (iv) growth allowance strategy. Present as a 2×4 comparison table.",
+     "a": "| Dimension | 9-year-old (Elementary) | 15-year-old (Adolescence) |\n|-----------|--------------------------|----------------------------|\n| (i) Who selects | Parent/guardian | Self (with peer validation) |\n| (ii) Primary criterion | Comfort, safety, durability, easy care | **Fit and style** (fabric quality secondary) |\n| (iii) Role of fashion | Minimal; parent filters trends | **Central**; follows fads, imitates role models, creates identity |\n| (iv) Growth allowance | Built-in (tucks, adjustable straps, raglan sleeves) | **Minimal wardrobe**; frequent replacement expected; no growth features |\n\nA wrong answer that lists \"comfort\" as primary for the 15-year-old reveals confusion between *childhood needs* (comfort/safety) and *adolescent priorities* (social signaling via fit/style). The shift from parent-mediated to peer-mediated selection is the critical developmental marker.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this wardrobe plan for a 16-year-old boy in Delhi (extreme summers, cold winters):  \n- 5 synthetic tracksuits (daily wear)  \n- 2 cotton shirts (formal)  \n- 1 heavy wool sweater (winter)  \n- No sports-specific shoes  \nIdentify 3 specific gaps with physiological/social justification.",
+     "a": "**Gap 1: Synthetic tracksuits for daily summer wear** — Polyester traps heat/sweat → heat rash, odor, fungal risk in Delhi's 40°C+ summers. *Physiological justification:* Adolescent apocrine glands are hyperactive; non-breathable fabrics disrupt thermoregulation.  \n**Gap 2: Only 1 heavy wool sweater for winter** — No layering flexibility for Delhi's diurnal range (5°C morning → 20°C afternoon). *Physiological justification:* Asynchronous growth means torso/arm length change; a single bulky item becomes unwearable fast.  \n**Gap 3: No sports-specific shoes** — Tracksuits imply physical activity; wrong footwear → blisters, shin splints, poor gait. *Social justification:* Peer sports participation is high at 16; inadequate gear signals exclusion.  \nA weak answer listing \"not enough clothes\" misses the *specific mismatch* between garment properties and adolescent physiology/social context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Clothing Decision Checklist\" for an adolescent (11-18) to use *independently* when buying clothes. It must have 5 items, each linking a developmental need (physical, social, psychological) to a verifiable garment feature. Format as: \"Need → Check Feature → Why It Matters.\"",
+     "a": "Example checklist (student's version may vary but must cover 5 distinct needs):  \n1. **Thermoregulation (Physical)** → Fabric label: ≥60% natural fiber (cotton/linen/viscose) → *Prevents sweat trapping during growth-spurt hypermetabolism.*  \n2. **Peer Acceptance (Social)** → Silhouette matches current peer norm (e.g., oversized fit, specific length) → *Reduces social anxiety; clothing as belonging signal.*  \n3. **Rapid Growth Adaptability (Physical)** → Adjustable waist (drawstring/elastic), hem allowance ≥3 cm, raglan/kimono sleeve → *Extends wearable life 3-6 months despite asymmetric growth.*  \n4. **Self-Expression/Identity (Psychological)** → Allows personalization (pins, patches, layering) without permanent alteration → *Supports autonomy; avoids parent-child conflict over \"permanent\" choices.*  \n5. **Hygiene Maintenance (Physical)** → Machine washable, quick-dry, no dry-clean-only → *Enables independent laundry; critical for acne-prone, odor-sensitive skin.*  \nA poor checklist lists generic features (\"comfortable,\" \"stylish\") without linking to *adolescent-specific developmental mechanisms*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_009",
+   "title": "c12_phy_cbse_09_009",
+   "questions": [
+    {
+     "q": "What is the magnifying power of a simple microscope when the final image is formed at the near point (D = 25 cm) in terms of its focal length f?",
+     "a": "m = 1 + D/f. A wrong answer of m = D/f reveals confusion with the image-at-infinity case. A wrong answer of m = f/D reveals inversion of the formula. The correct formula shows magnification increases as focal length decreases.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a simple microscope provide angular magnification even though the angular size of the object equals the angular size of the image (as stated in NCERT Points to Ponder 5)?",
+     "a": "The lens allows the object to be placed much closer than 25 cm, so it subtends a larger angle at the eye than it would at the near point without the lens. The virtual image is formed at 25 cm (or infinity) which is comfortable to view. A student who says \"it magnifies the angle directly\" misses the crucial role of bringing the object closer.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses a convex lens of focal length 5 cm as a simple microscope. Calculate the magnifying power when (a) the image is at the near point (25 cm) and (b) the image is at infinity.",
+     "a": "(a) m = 1 + 25/5 = 6. (b) m = 25/5 = 5. Steps: substitute D = 25 cm, f = 5 cm into respective formulas. A student who gets 5 for both parts forgot the \"+1\" in the near-point formula. A student who gets 1.2 used f/D instead of D/f.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnifying power of two simple microscopes: one with f = 2 cm and another with f = 10 cm, both used with the final image at the near point. Which gives higher magnification and why? Discuss the practical limitation of very short focal lengths.",
+     "a": "f = 2 cm gives m = 1 + 25/2 = 13.5; f = 10 cm gives m = 1 + 25/10 = 3.5. Shorter focal length gives higher magnification because the object can be placed closer to the lens, subtending a larger angle. Practical limitation: very short focal length lenses are difficult to manufacture with low aberrations, have extremely small working distance (object almost touching the lens), and very narrow field of view.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if they use a simple microscope with f = 4 cm and place the object at 3 cm from the lens, the magnifying power will be m = v/u (linear magnification). Evaluate this claim.",
+     "a": "The claim is incorrect. Magnifying power of a simple microscope is *angular magnification*, defined relative to the object at the near point (25 cm). For u = -3 cm, f = +4 cm, lens formula gives v = -12 cm. Linear magnification = v/u = 4. But angular magnification = (angle with instrument)/(angle without instrument at near point) = (h'/12)/(h/25) = (v/u) × (25/12) = 4 × 25/12 ≈ 8.33. The standard formula m = 1 + D/f = 7.25 assumes the image is *at* the near point (v = -25 cm), which requires u = -20/6 ≈ -3.33 cm, not -3 cm. The student confused linear magnification with angular magnification and used the wrong image position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a ruler, and a printed text to determine the focal length of the lens by using it as a simple microscope and measuring the magnifying power when the image is at the near point.",
+     "a": "Place the lens close to the text and adjust the lens-to-text distance until the virtual image appears sharply at the near point (25 cm from the eye). Measure the object distance u. Use the lens formula 1/v - 1/u = 1/f with v = -25 cm (assuming eye at lens) to compute f. Alternatively, measure the apparent size of a known letter (e.g., 2 mm) when viewed through the lens at near point, compute linear magnification m_lin = apparent size / actual size, then use m_lin = 1 + D/f to find f. A good answer includes the setup, measurements, and calculation. A poor answer just says \"measure f directly with a distant object\" which doesn't use the microscope principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

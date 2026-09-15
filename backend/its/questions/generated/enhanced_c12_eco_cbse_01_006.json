@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_006",
+   "title": "c12_eco_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define microeconomics and macroeconomics in one sentence each, as per the NCERT textbook.",
+     "a": "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination. Macroeconomics is the study of the economy as a whole, dealing with aggregate variables like total output, employment, and the general price level. A wrong answer (e.g., \"microeconomics studies small firms, macro studies large firms\") reveals confusion between the unit of analysis and the scope of variables — the distinction is about *aggregation level*, not firm size.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Great Depression of 1929 led to the birth of macroeconomics as a separate branch of economics.",
+     "a": "The Great Depression showed that the classical belief — that markets always clear and full employment prevails — was false: massive involuntary unemployment and unsold output persisted for years. Keynes argued the economy could be in equilibrium at less than full employment, requiring analysis of *aggregate* demand and supply as a whole, not just individual markets. A wrong answer (e.g., \"because the stock market crashed\") misses the theoretical shift: the need to explain persistent involuntary unemployment and the role of aggregate demand deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as a microeconomic or macroeconomic issue: (a) A farmer in Punjab deciding how much wheat to plant. (b) The Reserve Bank of India changing the repo rate. (c) The unemployment rate in India rising to 8%. (d) The price of smartphones falling due to new technology.",
+     "a": "(a) Microeconomic – individual producer's decision. (b) Macroeconomic – monetary policy targets economy-wide variables. (c) Macroeconomic – aggregate unemployment rate. (d) Microeconomic – specific market (smartphones) price determination. A wrong classification (e.g., calling (b) micro because it's a single bank's decision) shows failure to recognise that central bank policy targets *aggregate* variables (inflation, growth) affecting all sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decision-makers in microeconomics vs. macroeconomics. Why does the NCERT text say macroeconomic agents \"have goals defined by law or the Constitution\" and are \"not those of individual economic agents maximising their private profit or welfare\"?",
+     "a": "Microeconomic decision-makers are households (maximising utility) and firms (maximising profit). Macroeconomic decision-makers are the State (Government) and statutory bodies (RBI, SEBI) which pursue public goals (full employment, price stability, equitable growth) defined by law/Constitution. A wrong answer (e.g., \"macro agents are just big firms\") confuses the institutional nature of macro policy with the size of private agents — even a large corporation like Tata Motors is a *micro* agent because it maximises shareholder profit, not national welfare.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Macroeconomics is just the sum of microeconomics; if we understand all individual markets, we don't need a separate macroeconomics.\" Use the NCERT discussion on the \"representative good\" simplification and its limitations.",
+     "a": "The statement is false. While macroeconomics has microfoundations, NCERT highlights two reasons for a separate discipline: (1) Aggregation simplification — using a representative good works when variables move together, but (2) Sectoral interdependencies — the economy has distinct sectors (agriculture vs industry, households vs government) whose interactions (fiscal policy, monetary policy, distributional conflicts) cannot be captured by simply summing individual markets. Also, macro deals with policies that *modify* market outcomes for social goals. A weak evaluation ignores the role of aggregation problems and policy objectives beyond individual optimisation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world example from the Indian economy that illustrates the interaction between the household sector and the government sector in a macroeconomic context. Explain the flow of money and goods/services involved.",
+     "a": "Example: The government launches MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act). Households (rural workers) supply labour to government-funded projects, earning wages (money flow from government to households). Households spend wages on goods/services (money flow to firms). Government collects taxes (money flow from households/firms to government) to fund the scheme. A poor answer would describe only a micro transaction (e.g., a worker buying food) without showing the sectoral circular flow and policy intent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

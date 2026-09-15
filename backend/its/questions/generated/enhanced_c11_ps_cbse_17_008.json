@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_008",
+   "title": "c11_ps_cbse_17_008",
+   "questions": [
+    {
+     "q": "A Gram Panchayat has 17 wards. The SC population is 22% and ST population is 8% as per the latest Census. How many wards must be reserved for SCs and STs respectively under Article 243D?",
+     "a": "SC: 4 wards (22% of 17 = 3.74, rounded to nearest whole number = 4). ST: 1 ward (8% of 17 = 1.36, rounded = 1). A wrong answer (e.g., 3 SC and 1 ST) reveals the student does not understand that reservation is calculated proportionally on total seats and rounded, not truncated, and that SC/ST reservation is independent of women's reservation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution mandate that women's reservation (not less than one-third) applies to the TOTAL number of seats including those already reserved for SCs and STs, rather than only to the general category seats?",
+     "a": "Because SC/ST women face intersectional discrimination; if women's quota applied only to general seats, SC/ST women would have no guaranteed representation. The Constitution ensures that within the SC/ST reserved seats, at least one-third go to SC/ST women. A wrong answer (e.g., \"to keep calculation simple\") reveals the student misses the substantive equality rationale and thinks of reservation as arithmetic rather than justice.",
+     "self_check": true
+    },
+    {
+     "q": "In a Municipal Corporation with 60 wards, 12 wards are reserved for SCs and 3 for STs. The State Government notifies that 20 wards (including SC/ST wards) are reserved for women. Is this notification constitutionally valid? Explain your reasoning step by step.",
+     "a": "Total seats = 60. Minimum women's reservation = 1/3 of 60 = 20 seats. The notification reserves exactly 20 wards for women, including SC/ST wards. This meets the \"not less than one-third\" threshold. Valid. A wrong answer (e.g., \"invalid because SC/ST wards are separate\") reveals the student treats women's reservation as additive rather than overlapping, misunderstanding the nested quota design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reservation formula for Chairpersons (Adhyakshas/Mayors) under Articles 243D(4) and 243T(4) with the formula for member seats. How does the Chairperson reservation differ in its impact on political power distribution?",
+     "a": "Member seats: proportional to population for SC/ST; not less than 1/3 for women across all categories. Chairperson seats: reserved for SC/ST in proportion to their population across the State (not per body); not less than 1/3 for women. This means a district may have zero SC Chairpersons if its SC population is low, even if it has SC members. A wrong answer (e.g., \"same formula\") reveals the student conflates member and leadership reservation, missing how Chairperson reservation operates at a higher aggregation level (district/state) affecting executive power concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Rotation of reserved constituencies every election undermines accountability because representatives cannot build a long-term constituency base.\" Use constitutional design principles and empirical evidence from Panchayati Raj.",
+     "a": "Rotation prevents \"pocket boroughs\" where dominant castes capture reserved seats through proxy candidates, but it weakens accountability as incumbents lack re-election incentive. The Constitution (Article 243D/E) mandates rotation by law; States determine cycle (usually 2 terms). Evidence shows rotation increases descriptive representation but reduces developmental continuity. A balanced evaluation acknowledges both. A wrong answer (e.g., \"rotation is good/bad\" without trade-off analysis) reveals binary thinking, not constitutional evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a model State Panchayati Raj Act provision for rotation of reserved seats that satisfies Article 243D while preventing the same constituency from being reserved for more than two consecutive terms. Specify the authority, timeline, and transparency mechanism.",
+     "a": "Provision: \"The State Election Commission shall, before each general election, notify reserved constituencies by lottery from the pool of non-reserved constituencies in the previous two terms. Notification published 6 months prior; objections heard within 30 days. Final list binding.\" Good answer includes: independent authority (SEC), randomization, cooling-off period, public notice, grievance redressal. Poor answer misses transparency or gives power to State Government (political capture risk).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

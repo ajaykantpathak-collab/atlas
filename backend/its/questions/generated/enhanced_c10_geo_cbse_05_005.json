@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_005",
+   "title": "c10_geo_cbse_05_005",
+   "questions": [
+    {
+     "q": "Name the two main geological periods of coal formation in India and state which one accounts for over 98% of India's coal reserves.",
+     "a": "The two main geological periods are Gondwana (Permian, ~250 million years ago) and Tertiary (Eocene, ~50 million years ago). Gondwana coal accounts for over 98% of India's reserves. A wrong answer (e.g., \"Carboniferous\" or \"Cretaceous\") reveals the student is confusing Indian coal geology with European/US coal periods or has not memorised the specific Indian geological timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why petroleum and natural gas are found in sedimentary basins like Mumbai High and Assam-Arakan, but coal is concentrated in the Damodar Valley and Chota Nagpur Plateau.",
+     "a": "Petroleum and natural gas originate from marine microorganisms deposited in ancient shallow seas (sedimentary basins) and migrate into structural traps like anticlines and fault traps. Coal forms from terrestrial plant matter in swampy river deltas and floodplains — the Gondwana basins were vast river systems draining the Peninsular Plateau. A wrong answer that says \"both form the same way\" or \"petroleum comes from dinosaurs\" reveals fundamental misunderstanding of organic source material and depositional environments.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Jharkhand burns bituminous coal with 75% carbon content. If the plant consumes 5,000 tonnes of coal per day and the calorific value is 24 MJ/kg, calculate the total energy input per day in terajoules (TJ). Show all steps.",
+     "a": "Step 1: Convert tonnes to kg: 5,000 tonnes = 5,000 × 1,000 = 5,000,000 kg.\nStep 2: Energy per kg = 24 MJ = 24 × 10^6 J.\nStep 3: Total energy = 5,000,000 kg × 24 × 10^6 J/kg = 120 × 10^12 J.\nStep 4: Convert to terajoules: 120 × 10^12 J = 120 TJ.\nAnswer: 120 TJ per day. A wrong answer (e.g., forgetting to convert tonnes to kg, or misplacing decimal in MJ to J) reveals weakness in unit conversion — a common board exam error in numerical geography questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of mining coal in the Jharia coalfield (underground fires, subsidence) with offshore petroleum extraction at Mumbai High (oil spills, marine ecosystem disruption). Which poses a greater long-term threat to local livelihoods and why?",
+     "a": "Jharia's underground fires (burning since 1916) cause irreversible land subsidence, toxic gas emissions, and displacement of entire communities — the damage is permanent and directly affects dense human settlements. Mumbai High spills are episodic; marine ecosystems can recover over decades if managed. Jharia poses greater long-term threat because the damage is continuous, land-based, and directly undermines habitation and agriculture. A wrong answer focusing only on \"oil spills are worse because oceans are big\" reveals inability to weigh spatial scale, permanence, and human vulnerability in environmental assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India should stop all coal mining immediately to meet its net-zero by 2070 target.\" Consider energy security, employment, and technological readiness.",
+     "a": "The statement is not feasible. Coal provides ~55% of India's commercial energy and ~70% of electricity. Immediate cessation would collapse power supply, industries, and railways. Millions depend on coal-sector jobs (mining, transport, power plants). Renewable capacity (solar/wind) lacks storage for baseload power; battery technology and green hydrogen are not yet commercially scalable. A just transition requires phased reduction, not abrupt stop. A wrong answer (\"yes, stop immediately for climate\") reveals inability to balance environmental goals with socio-economic realities — a key competency in board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conservation strategy for a district heavily dependent on coal mining (e.g., Dhanbad) that addresses: (a) reducing wastage in mining and transport, (b) alternative livelihoods for displaced workers, and (c) land reclamation of mined-out areas. Present as a 3-point action plan with geographical justification for each.",
+     "a": "(a) Introduce mechanised selective mining and covered conveyor belts to reduce coal loss and dust — justified by high wastage (15-20%) in current open-cast operations.\n(b) Set up solar panel manufacturing and eco-tourism on reclaimed land — justified by high solar insolation in Chota Nagpur Plateau and existing industrial workforce.\n(c) Mandate backfilling and afforestation with native species (sal, mahua) during mine closure — justified by the region's tropical deciduous forest biome and need for soil stability. A poor answer listing generic \"plant trees\" or \"give jobs\" without linking to local geography reveals lack of spatial thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

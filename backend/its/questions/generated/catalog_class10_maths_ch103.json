@@ -1,0 +1,304 @@
+{
+ "catalog": "catalog_class10_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "jemh.3.1.1",
+   "title": "Formulation of Linear Equations in Two Variables",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
+     "compute": "val = 3 * 3 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 9 when x = 3.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4x^2 + 3x + 5 when x = 3.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 3x - 4x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (9 + 6) equals 2 x 9 + 2 x 6. Compute it.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6 + 2 x 6 (respect the order of operations).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4 + 7) x 9.",
+     "a": "99",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.2.1",
+   "title": "Consistency and Graphical Behavior via Coefficient Ratios",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 8 / 4 gives 2",
+     "compute": "t1 = 8 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 8 : 48 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 660 is divided between two friends in the ratio 5 : 6. Find the smaller share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 9 : 6 = 36 : ?  (give the fourth term).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 9 : 6 :: 36 : 24 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 30, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "180",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.2.2",
+   "title": "Graphical Solution of a Pair of Linear Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular hexagon?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.1",
+   "title": "Substitution Method for Solving Linear Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (16 - 8) / 2 gives 4",
+     "compute": "x = (16 - 8) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 8 = 16.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 12 = 54.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 53 = 3.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - -2 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 4 = 2x + 8.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5(x + 1) = 20.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.2",
+   "title": "Elimination Method for Solving Linear Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (23 - 5) / 9 gives 2",
+     "compute": "x = (23 - 5) / 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 9x + 5 = 23.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 1 = 62.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x + 4 = 8.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 19 = 5.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 5 = 2x + 35.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 2) = 16.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.3",
+   "title": "Evaluating Slope Parameter in Linear Equation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 3x + 13 = 22.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 8 = 82.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 10 = 5.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 12 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x + 5 = 2x + 47.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 2) = 9.",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.4",
+   "title": "Calculating Total Cost from Fixed and Variable Rates",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 4 when x = 5.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 8x + 5 when x = 6.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 6x + 9x - 3x and give the coefficient of x.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 8 x (4 + 4) equals 8 x 4 + 8 x 4. Compute it.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5 + 3 x 9 (respect the order of operations).",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 4) x 4.",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

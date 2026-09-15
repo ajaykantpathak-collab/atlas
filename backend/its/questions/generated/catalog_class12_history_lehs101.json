@@ -1,0 +1,65 @@
+{
+  "catalog": "catalog_class12_history_lehs101",
+  "concepts": [
+    {
+      "id": "lehs.101.1",
+      "questions": [
+        {"q": "At Mature Harappan cities such as Mohenjodaro, in which compass direction did the citadel normally lie relative to the lower town? (one word)", "a": "west"},
+        {"q": "Which street feature carried waste water from Harappan houses to points outside the settlement? (short phrase, two words)", "a": "covered drains"},
+        {"q": "Were Harappan building bricks sun-dried mud or kiln-fired? (one word)", "a": "baked"},
+        {"q": "Which division of a Mature Harappan city stood on a raised, fortified mound? (one word)", "a": "citadel"},
+        {"q": "How many principal divisions did a Mature Harappan city plan have? (number)", "a": "2"},
+        {"q": "In standardised Harappan bricks, the length and breadth were fixed as exact what of the height? (one word)", "a": "multiples"},
+        {"q": "In which direction did the lower town normally lie relative to the citadel? (one word)", "a": "east"}
+      ]
+    },
+    {
+      "id": "lehs.101.2",
+      "questions": [
+        {"q": "Which soft stone was most commonly carved into Harappan seals? (one word)", "a": "steatite"},
+        {"q": "Is the script pressed on Harappan seals deciphered or still undeciphered? (one word)", "a": "undeciphered"},
+        {"q": "Which red gemstone did Harappan bead-makers favour? (one word)", "a": "carnelian"},
+        {"q": "Cubical weights recovered from Harappan sites were made of which grey banded stone? (one word)", "a": "chert"},
+        {"q": "Harappan weights combined two counting bases. Give both bases of this system. (two words)", "a": "binary, decimal"},
+        {"q": "Which artificial glazed material, besides carnelian, did Harappan artisans shape into beads? (one word)", "a": "faience"},
+        {"q": "How many counting bases underpinned the Harappan weight system? (number)", "a": "2"}
+      ]
+    },
+    {
+      "id": "lehs.101.3",
+      "questions": [
+        {"q": "From which Gulf region did the Harappans obtain copper, according to provenance studies and Mesopotamian records? (one word)", "a": "Oman"},
+        {"q": "Which name in Mesopotamian texts most likely refers to the Harappan land? (one word)", "a": "Meluhha"},
+        {"q": "From which southern Indian region did Harappan communities source gold? (one word)", "a": "Karnataka"},
+        {"q": "In which modern country does Shortughai, the Harappan source of lapis lazuli, lie? (one word)", "a": "Afghanistan"},
+        {"q": "How many overseas trading places named in Mesopotamian sources (Dilmun, Magan, Meluhha) are tied to Harappan exchange? (number)", "a": "3"},
+        {"q": "Which staple cereal, grown alongside barley and millets, fed Harappan cities? (one word)", "a": "wheat"},
+        {"q": "Besides sheep and goats, which large domestic animal did the Harappans keep? (one word)", "a": "cattle"}
+      ]
+    },
+    {
+      "id": "lehs.101.4",
+      "questions": [
+        {"q": "In about which year BCE were most Mature Harappan settlements abandoned? (give the year)", "a": "1900"},
+        {"q": "Which long-term climatic process heads most scholars' list of proposed causes of Harappan decline? (two words)", "a": "climate change"},
+        {"q": "Name the human activity of cutting trees that is proposed as a cause of the Harappan collapse. (one word)", "a": "deforestation"},
+        {"q": "Which natural hazard involving overflowing rivers is proposed as a cause of Harappan abandonment? (two words)", "a": "excessive floods"},
+        {"q": "Do scholars favour a single cause or multiple overlapping causes for the end of the Harappan cities? (one word)", "a": "multiple"},
+        {"q": "Which hallmark craft object, once pressed on consignments, disappears from the archaeological record around 1900 BCE? (one word)", "a": "seals"},
+        {"q": "Name the economic breakdown, alongside climatic stress, proposed for the fall of Harappan cities. (three words)", "a": "breakdown of trade"}
+      ]
+    },
+    {
+      "id": "lehs.101.5",
+      "questions": [
+        {"q": "In about which year BCE did the Mature Harappan urban phase begin? (give the year)", "a": "2600"},
+        {"q": "In about which year BCE did the Mature Harappan urban phase end? (give the year)", "a": "1900"},
+        {"q": "How many years did the Mature Harappan urban phase last, from about 2600 BCE to about 1900 BCE? (number of years)", "a": "700"},
+        {"q": "A site's Mature Harappan occupation is dated 2500 BCE to 1900 BCE. How many years did it last? (number of years)", "a": "600"},
+        {"q": "The Mature Harappan phase began around 2600 BCE. How many years before 2000 BCE is that starting date? (number of years)", "a": "600"},
+        {"q": "A settlement founded at 2400 BCE flourished as a Mature Harappan town for 500 years. In which year BCE did it fade? (give the year)", "a": "1900"},
+        {"q": "Half of the Mature Harappan span from 2600 BCE to 1900 BCE is how many years? (number of years)", "a": "350"}
+      ]
+    }
+  ]
+}

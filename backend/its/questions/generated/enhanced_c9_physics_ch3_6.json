@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_6",
+   "title": "c9_physics_ch3_6",
+   "questions": [
+    {
+     "q": "State the definition of linear momentum, its formula, and its SI unit.",
+     "a": "Linear momentum (p) is the product of mass (m) and velocity (v): p = mv. Its SI unit is kilogram metre per second (kg·m/s). A wrong answer (e.g., giving unit as N or kg·m/s²) reveals confusion between momentum and force (Newton's second law), or forgetting the vector nature (direction) of momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why momentum is considered a vector quantity while kinetic energy is a scalar, even though both depend on mass and velocity.",
+     "a": "Momentum is a vector because it is the product of mass (scalar) and velocity (vector), inheriting velocity's direction. Kinetic energy is a scalar because it depends on speed squared (v²), which removes directional information. A wrong answer (e.g., \"both are vectors\" or \"momentum is scalar\") reveals a misunderstanding of how vector multiplication works or confusion between momentum and energy.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 kg car moving at 20 m/s east collides with a stationary 1000 kg truck. After collision, the car moves at 5 m/s east. Calculate the velocity of the truck after collision. Assume no external forces.",
+     "a": "**Given:** m₁ = 1500 kg, u₁ = 20 m/s east; m₂ = 1000 kg, u₂ = 0 m/s; v₁ = 5 m/s east. Find v₂.\n**Step 1:** Choose east as positive. Initial total momentum = m₁u₁ + m₂u₂ = (1500 × 20) + (1000 × 0) = 30,000 kg·m/s.\n**Step 2:** Final total momentum = m₁v₁ + m₂v₂ = (1500 × 5) + (1000 × v₂) = 7500 + 1000v₂.\n**Step 3:** Conservation: 30,000 = 7500 + 1000v₂ → 1000v₂ = 22,500 → v₂ = 22.5 m/s east.\n**Answer:** 22.5 m/s east. A wrong sign or magnitude reveals failure to assign direction signs or algebraic error in solving for v₂.",
+     "self_check": true
+    },
+    {
+     "q": "Two ice skaters (m₁ = 60 kg, m₂ = 80 kg) stand at rest on frictionless ice. They push each other apart. Skater 1 moves at 2 m/s north. Determine skater 2's velocity and explain why momentum is conserved here but not when a single skater pushes off the ground.",
+     "a": "**Initial momentum = 0** (both at rest). Final: m₁v₁ + m₂v₂ = 0 → (60 × 2) + (80 × v₂) = 0 → v₂ = -1.5 m/s (south). Momentum is conserved for the two-skater system because the push forces are internal (action-reaction pair). When a single skater pushes the ground, the ground exerts an external force on the skater, so the skater's momentum alone is not conserved (the Earth-skater system would be). A wrong answer (e.g., v₂ = 1.5 m/s north) reveals sign error or ignoring vector nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a perfectly inelastic collision where two objects stick together, momentum is conserved but kinetic energy is not. Therefore, momentum can be converted into kinetic energy.\" Evaluate this statement.",
+     "a": "The statement is **incorrect**. Momentum and kinetic energy are distinct physical quantities with different dimensions; one cannot \"convert\" into the other. In an inelastic collision, total momentum is conserved (vector sum), but some kinetic energy transforms into internal energy (heat, sound, deformation). The student confuses conservation of a quantity with conversion between different quantities. A wrong evaluation reveals a fundamental misconception about the nature of conserved quantities vs. energy transformations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a balloon and a straw to demonstrate conservation of momentum. Describe the setup, what you measure, and how you would verify the principle.",
+     "a": "**Setup:** Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release. **Measurement:** Measure the balloon's mass (with tape/straw) and its recoil velocity (using video analysis or timing over a known distance). The escaping air has mass and velocity backward; the balloon moves forward. **Verification:** Estimate air mass flow rate and exit velocity (or use a second balloon as control). Show total momentum (balloon forward + air backward) ≈ 0 initially. A poor answer (e.g., \"just watch it move\") reveals inability to identify the system, isolate variables, or connect observation to quantitative principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

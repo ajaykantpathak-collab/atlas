@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Geographical Diversity of India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.1.1",
+   "title": "Physical Divisions of India",
+   "section": "Physical features",
+   "definition": "India's land falls into broad physical divisions: the Himalayas in the north, the northern plains watered by great rivers, the peninsular plateau, the deserts, the coastal strips and the island groups.",
+   "formula": "",
+   "key_idea": "Each division has its own land, climate and life, and together they make India's geography rich and distinct.",
+   "textbook_ref": "gees101.txt, Physical features",
+   "question_patterns": [
+    "name the major physical divisions of india",
+    "how do the himalayas influence the indian subcontinent",
+    "why are the northern plains densely populated",
+    "what makes the peninsular plateau different from the plains",
+    "where are the coastal plains and the islands of india",
+    "how does geography give india a national character"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.1.2",
+   "title": "Rivers of India",
+   "section": "River systems",
+   "definition": "Great rivers give India its shape of life: the Indus, Ganga and Brahmaputra flow from the Himalayas, while the Narmada, Tapi, Godavari, Krishna and Kaveri drain the peninsula.",
+   "formula": "",
+   "key_idea": "Rivers water the fields, carry trade and draw pilgrims, so civilisations bloom along their banks.",
+   "textbook_ref": "gees101.txt, River systems",
+   "question_patterns": [
+    "name the main rivers of the himalayan system",
+    "which rivers drain the peninsular plateau",
+    "why did settlements grow along river banks",
+    "where do the ganga and brahmaputra meet the sea",
+    "how do rivers support farming and festivals",
+    "which river is called the sorrow of a region and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.1.3",
+   "title": "Reading the Physical Map of India",
+   "section": "Map work",
+   "definition": "A physical map shows mountains, plateaus, plains, rivers and seas through colour and signs; reading it lets you trace journeys from the peaks to the islands and see how the land rises and falls.",
+   "formula": "",
+   "key_idea": "Maps turn a whole subcontinent into one page you can read at a glance.",
+   "textbook_ref": "gees101.txt, Map work",
+   "question_patterns": [
+    "how does a physical map show height of land",
+    "which colours mark mountains and plains on a physical map",
+    "trace the journey from the himalayas to the islands on the map",
+    "how do you find a river's direction of flow on a map",
+    "which seas border india on the physical map",
+    "why do we mark directions on a map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.1.4",
+   "title": "Diversity and the Character of the Land",
+   "section": "Opening quotation and conclusion",
+   "definition": "The chapter opens with the thought that India's very geography gives it a national character; from Himalayan snow to Kanyakumari's seas, the varied land is one home whose diversity knits the people together.",
+   "formula": "",
+   "key_idea": "Geographical diversity is not a barrier but a bond: different lands, one country.",
+   "textbook_ref": "gees101.txt, Opening quotation and conclusion",
+   "question_patterns": [
+    "how does india's geography give it a national character",
+    "describe the journey from the himalayas to the islands of india",
+    "why is india called a country of geographical diversity",
+    "how do different regions depend on one another",
+    "what unites the people of different geographical regions",
+    "which region of india would you like to visit and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees101.txt",
+   "concept": "gees.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why do the Himalayas matter to the whole of India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look north",
+     "explain": "The Himalayas wall the subcontinent and give birth to its great rivers."
+    },
+    {
+     "step": 2,
+     "action": "follow the water",
+     "explain": "Those rivers spread fertile plains where most Indians farm and live, so the mountains feed the nation."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees101.txt",
+   "concept": "gees.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "why does the chapter call india geographically diverse?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees101.txt, Let us discuss",
+   "questions": [
+    "Journey from the Himalayas to the islands and name the regions you cross.",
+    "Why does the chapter call India geographically diverse?",
+    "Which rivers are shown on the map of India?",
+    "Mark your own state on the physical map and name its physical division.",
+    "Group-discuss: which physical division would you choose to live in and why?"
+   ]
+  }
+ ]
+}

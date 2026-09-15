@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_1",
+   "title": "c8_math_ch5_1",
+   "questions": [
+    {
+     "q": "What is the sum of three consecutive numbers starting from 14? State the sum and explain what property this sum will always have, regardless of the starting number.",
+     "a": "The sum is 14+15+16 = 45. The sum of any three consecutive numbers is always a multiple of 3. If a student gives the correct sum but says the property is \"odd\" or \"even\", they are confusing the pattern for two consecutive numbers (which is always odd) with the pattern for three consecutive numbers. This reveals they have memorised isolated facts without understanding the structural reason: three consecutive numbers can be written as (n-1)+n+(n+1)=3n.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The sum of four consecutive numbers is always a multiple of 4 because there are four numbers.\" Is this claim correct? Explain why or why not using an example.",
+     "a": "The claim is incorrect. Example: 1+2+3+4 = 10, which is not a multiple of 4. The sum of four consecutive numbers is always even but never a multiple of 4 (it leaves remainder 2 when divided by 4). If a student agrees with the claim, they are overgeneralising the pattern from three consecutive numbers (where the sum is a multiple of 3) without testing it. This reveals a lack of analytical checking and confusion between \"number of terms\" and \"divisibility by that number\".",
+     "self_check": true
+    },
+    {
+     "q": "Find the smallest positive integer that can be expressed as the sum of two consecutive numbers in two different ways. Show your working.",
+     "a": "Let the two consecutive numbers be n and n+1. Sum = 2n+1 (always odd). We need an odd number that can be written as 2n+1 for two different n. The sums of two consecutive numbers are: 1+2=3, 2+3=5, 3+4=7, 4+5=9, 5+6=11, 6+7=13, 7+8=15, 8+9=17, 9+10=19, 10+11=21... Wait, each odd number appears exactly once as a sum of two consecutive positive integers because 2n+1 is strictly increasing with n. So there is NO positive integer that can be expressed in two different ways as a sum of two consecutive positive integers. If a student answers a number like 15 (7+8 and 4+5+6), they are confusing \"two consecutive numbers\" with \"consecutive numbers\" (any length). This reveals they did not restrict the problem to exactly two terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sums of these two sets: (a) 10+11+12 and (b) 11+12+13. Without calculating the full sums, explain how much larger the second sum is than the first, and why this difference is always the same for any three consecutive numbers shifted by 1.",
+     "a": "The second sum is larger by 3. Because each term in the second set is exactly 1 more than the corresponding term in the first set (11 vs 10, 12 vs 11, 13 vs 12), and there are 3 terms, so the total increases by 3×1 = 3. If a student says the difference is 1 or 2, they are only looking at the starting number change and not accounting for all three terms shifting. This reveals they haven't generalised the additive effect across all terms in the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says: \"If I add five consecutive numbers, the sum will always be a multiple of 5.\" Priya says: \"That's only true if the middle number is a multiple of 5.\" Evaluate both statements and decide who is correct. Justify your answer.",
+     "a": "Ravi is correct. Let the five consecutive numbers be n-2, n-1, n, n+1, n+2. Their sum = 5n, which is always a multiple of 5 regardless of n. Priya's statement is wrong because the sum is 5 times the middle number, so it's always a multiple of 5 (since 5 times any integer is a multiple of 5). If a student sides with Priya, they are confusing \"multiple of 5\" with \"multiple of 25\" or misunderstanding that 5n is divisible by 5 for any integer n. This reveals a gap in understanding the distributive property and the definition of multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new pattern rule for the sum of six consecutive numbers. Write the rule in your own words, give two examples that follow it, and explain why it works using the concept of pairing numbers.",
+     "a": "Rule: The sum of six consecutive numbers is always an odd multiple of 3 (i.e., divisible by 3 but not by 2). Examples: 1+2+3+4+5+6 = 21 (21÷3=7, odd); 4+5+6+7+8+9 = 39 (39÷3=13, odd). Why: Pair the first and last (sum=2n+5), second and second-last (sum=2n+5), third and third-last (sum=2n+5). Three pairs each summing to an odd number (2n+5 is odd). Sum of three odd numbers is odd. Also each pair sum is same, so total = 3×(odd) = odd multiple of 3. A poor answer might state only \"it's odd\" or \"it's a multiple of 3\" without combining both, showing incomplete pattern recognition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

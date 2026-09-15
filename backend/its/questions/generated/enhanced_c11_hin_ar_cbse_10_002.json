@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_10_002",
+   "title": "c11_hin_ar_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the primary difference between analyzing plot in a short story and analyzing narrative structure in a lyric poem like Meera's pad?",
+     "a": "In a short story, plot follows external events with clear cause-effect chains (exposition → rising action → climax → falling action → resolution). In a lyric poem, narrative structure tracks the speaker's internal emotional or spiritual progression, often through associative leaps, imagery clusters, and tonal shifts rather than chronological events. A wrong answer (e.g., \"poems don't have plots\") reveals the student hasn't grasped that narrative structure in poetry operates on psychological/spiritual time, not clock time.",
+     "self_check": true
+    },
+    {
+     "q": "In Meera's poem, the speaker addresses her \"sakhi\" (friend) in the opening line. How does this direct address function structurally in the poem's narrative?",
+     "a": "The address to the sakhi establishes the dramatic situation (exposition): it frames the poem as a confidential confession, creating intimacy and justifying the speaker's vulnerability. It also sets up the conflict — the world (represented by the sakhi) expects conventional behavior, while the speaker has already crossed into divine madness. A wrong answer (e.g., \"it's just a poetic convention\") misses how the addressee shapes the poem's argumentative structure — the entire poem is a persuasive speech *to* the sakhi, not merely a description.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"rising action\" to Meera's poem: identify the specific images in the middle stanza that escalate the speaker's renunciation of worldly life, and explain how they build toward the climax.",
+     "a": "The middle stanza progresses from internal state to external markers: \"valqou ty lhafp&lhafp\" (eyes rolling in trance) → \"izse&csfy cks;h\" (love's fever) → \"nwèk dh eFkfu;k¡ cM+s izse ls foyks;h\" (body wasting from intense love) → \"nfèk efFk ?k`r dkf<+ fy;ks\" (discarding ornaments/jewelry). Each image strips away another layer of social identity (body, beauty, adornment), escalating toward the climax where she rejects all worldly inquiry. A wrong answer that lists images without showing *progression* (e.g., \"she looks sick and removes jewelry\") fails to see structural escalation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative function of the refrain \"nkfl ehjka yky fxjèkj! rkjks vc eksgh\" (O Meera's Lord Giridhar, now what can I do?) with the final line's direct command to the sakhi. How does this structural contrast resolve the poem's tension?",
+     "a": "The refrain (repeated or implied as a structural anchor) is an inward cry to the Divine — helpless surrender. The final line (\"vc r csfy iSQfy xbZ] vk.kan&iQy gks;h\" — now love has awakened, I have become indifferent to the world) turns outward, addressing the human world with authority. The structure moves from *petitioning God* to *commanding the world*, resolving the tension by showing the devotee's power comes from submission. A wrong answer treating both as \"emotional expressions\" misses the strategic reversal of power dynamics encoded in the structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Meera's poem has no real narrative because nothing happens — she just says she loves Krishna.\" Is this a valid critique of the poem's narrative structure? Justify your answer.",
+     "a": "Invalid critique. The poem enacts a complete spiritual narrative: the *event* is the speaker's irreversible transformation from a socially embedded woman (with ornaments, family, body) to a singular devotee. The \"action\" is internal and symbolic — discarding jewelry, wasting body, rejecting social speech — each a narrative beat. The structure *is* the enactment of renunciation. A student making this claim confuses \"external plot events\" with \"narrative structure of consciousness,\" a category error at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza in Hindi (or English) that mimics Meera's narrative structure: establish a speaker-addressee relationship, show escalating renunciation through three concrete images, and end with a decisive rejection of the addressee's worldview.",
+     "a": "Example (Hindi):\n\"Sakhi, mann mera shyam sang laga, tu samjhe na koi baat,\nPehen ke maal ke haath, chhoda ghar-bar ki saari raat,\nTan ghal ghal ke kanchan jaisa, naina bhae bawre,\nAb na puchh mere dard ki dawa, main toh ho gayi tumse nyare.\"\nA poor answer would lack addressee, show no image progression, or end weakly. This tests whether the student can *operationalize* the structural pattern creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_006",
+   "title": "c10_civ_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the official language of the Union of India as per Article 343 of the Constitution?",
+     "a": "The official language of the Union is Hindi in Devanagari script; English continues to be used for all official purposes of the Union until Parliament decides otherwise. A wrong answer (e.g., “Hindi is the national language”) reveals the student confuses ‘official language of the Union’ with ‘national language’ — a distinction the Constitution deliberately avoids.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution allow each State legislature to adopt its own official language(s) under Article 345 instead of imposing a single language for all States?",
+     "a": "Because India is a ‘holding together’ federation where linguistic diversity is a core feature of its federal design; forcing one language would undermine State autonomy and threaten unity. A wrong answer (e.g., “States can choose because the Centre is busy”) shows the student misses the constitutional intent to accommodate diversity as a federal principle, not as administrative convenience.",
+     "self_check": true
+    },
+    {
+     "q": "The Government of Maharashtra issues a circular that all communication from the State to the Union Home Ministry must be in Hindi. The State’s official language is Marathi. Which constitutional article governs the language of communication between a State and the Union, and what does it say?",
+     "a": "Article 346: The language authorised for Union official purposes (Hindi/English) shall be the language for communication between a State and the Union. However, if two or more States agree, they may use Hindi for communication between themselves. A wrong answer (e.g., “Article 345 applies”) shows the student cannot distinguish between a State’s internal official language (Art. 345) and inter-governmental communication (Art. 346).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language policy at the Union level (Art. 343) and the State level (Art. 345). How does this comparison illustrate the ‘holding together’ nature of Indian federalism?",
+     "a": "At the Union level, the Constitution specifies Hindi and English; at the State level, it grants the legislature full freedom to choose any language(s). This asymmetry — fixed at the Centre, flexible at the States — shows the Centre holds the union together while allowing States to preserve linguistic identity. A wrong answer (e.g., “Both levels have the same rule”) indicates the student sees federalism as uniform rather than asymmetric accommodation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Three-Language Formula (TLF) in promoting national integration while respecting State autonomy. Cite one strength and one limitation.",
+     "a": "Strength: TLF exposes students to a modern Indian language beyond their mother tongue and the Union official languages, fostering linguistic empathy. Limitation: Implementation is uneven — many Hindi-speaking States teach Sanskrit instead of a non-Hindi modern Indian language, diluting the integrative intent. A wrong answer (e.g., “TLF is a central law that all States must follow”) reveals the student thinks TLF is a statutory mandate rather than a consensus-based educational policy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional-style provision for a newly created State with two major linguistic groups (Group A: 55%, Group B: 40%) that ensures both groups’ languages are used in official work and primary education, drawing on Articles 345, 347, and 350A.",
+     "a": "A good answer will: (1) Use Art. 345 to declare both languages as official languages of the State; (2) Invoke Art. 347 to provide for President’s recognition of the minority language if demanded; (3) Apply Art. 350A to mandate primary-stage instruction in mother tongue for both groups. A poor answer that picks only one language shows the student treats language policy as majoritarian rather than a federal accommodation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

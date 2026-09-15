@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_005",
+   "title": "c11_psy_cbse_03_005",
+   "questions": [
+    {
+     "q": "A 5-year-old watches as a researcher rolls a ball of clay into a long snake shape. When asked which has more clay, the child points to the snake \"because it's longer.\" Which Piagetian concept does this response illustrate, and in which stage does it typically occur?",
+     "a": "The response illustrates **centration**—the tendency to focus on a single salient dimension (length) while ignoring others (width, mass)—and occurs in the **preoperational stage (2–7 years)**. A wrong answer (e.g., \"conservation error in concrete operational stage\") reveals the student confuses the *limitation* (centration) with the *achievement* (conservation) and misplaces the stage boundary; conservation is mastered *after* centration is overcome, typically around age 7.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a child in the sensorimotor stage (0–2 years) fails to search for a toy hidden under a blanket, while an 8-month-old *begins* to retrieve a *partially* hidden toy. Use the terms \"object permanence\" and \"means-end coordination\" in your explanation.",
+     "a": "In early sensorimotor substages, the infant lacks **object permanence**—the schema that objects exist independently of perception—so \"out of sight\" literally means \"out of mind.\" By 8 months, the infant develops **means-end coordination** (intentional action to achieve a goal) *and* incipient object permanence, allowing retrieval of a *partially* hidden object because the visible portion sustains the mental representation. A wrong answer that treats object permanence as an all-or-nothing milestone (e.g., \"it appears at 8 months\") misses Piaget's emphasis on *gradual construction* through circular reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher presents a 10-year-old with the following problem: \"All blue birds have two hearts. Tweety is a blue bird. How many hearts does Tweety have?\" The child answers \"Two.\" Now the researcher asks: \"But what if Tweety is a robot bird?\" The child hesitates and says, \"Then... maybe zero?\" Classify the child's reasoning in the first and second responses using Piaget's framework.",
+     "a": "First response: **concrete operational reasoning**—the child applies logical deduction to a *concrete* premise (even if hypothetical in content) because the structure is a familiar syllogism grounded in real-world categories. Second response: **emerging formal operational thought**—the child begins to treat the premise as a *variable* (\"what if?\") and reasons hypothetically, but inconsistently. A wrong answer labelling both as \"formal operational\" fails to distinguish reasoning *on* concrete content from reasoning *about* abstract propositions; the latter requires the formal operational schema of **hypothetical-deductive reasoning**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cognitive demands of the **conservation of liquid** task (two identical beakers → pour one into tall/thin beaker) and the **conservation of volume** task (displacement of water by a clay ball vs. clay sausage). Why does volume conservation typically emerge 2–3 years *after* liquid conservation, even though both require decentration and reversibility?",
+     "a": "Liquid conservation requires coordinating *two* dimensions (height × width) of a *single* substance. Volume conservation requires coordinating *three* dimensions (height × width × depth) of *two* substances (clay + water) and understanding **displacement as a relational invariant**—the clay's volume equals the water displaced, regardless of shape. This **second-order relational reasoning** exceeds the concrete operational child's capacity to hold multiple mental operations simultaneously; it awaits formal operational **combinatorial reasoning**. A wrong answer attributing the lag to \"task difficulty\" misses the structural difference: liquid conservation is a *unary* operation (reversing one transformation), volume conservation is a *binary* relational operation (equating two transformations).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Piaget's stages are universal and invariant in sequence, so a 12-year-old in a remote village with no schooling *must* be in the formal operational stage.\" Use evidence from cross-cultural research and the concept of **décalage** to support your evaluation.",
+     "a": "The claim is **false**. While *sequence* is invariant (sensorimotor → preoperational → concrete → formal), *rate* and *attainment* of formal operations are not universal. Cross-cultural studies (e.g., Dasen, 1977; Gladwin, 1970) show formal operational reasoning is **domain-specific** and **culturally scaffolded**: unschooled adolescents may solve concrete spatial tasks (e.g., navigation) formally but fail abstract syllogisms. **Horizontal décalage**—uneven mastery across tasks *within* a stage—means a 12-year-old may conserve liquid but not volume, or reason hypothetically about farming but not physics. A wrong answer treating stages as rigid age-locked boxes ignores Piaget's own emphasis on **constructivist variability**: stages describe *structures*, not chronological certainties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute observational task to distinguish whether a 6-year-old is in the **preoperational** or **early concrete operational** stage. Specify: (a) materials, (b) procedure, (c) the critical behavioural marker you would code, and (d) how you would interpret each outcome.",
+     "a": "**Task: Conservation of Number with Transformation**  \n(a) **Materials**: Two parallel rows of 6 identical counters (buttons), spaced equally.  \n(b) **Procedure**: 1. Ask child: \"Are there the same number in each row?\" (Baseline). 2. Spread one row visibly longer. 3. Ask: \"Now, are there the same number, or does one have more?\" 4. *Critical*: Ask \"How do you know?\"  \n(c) **Marker**: **Justification type**—perceptual (\"This row is longer\") vs. operational (\"You didn't add any, you just moved them\" / \"If you push them back, they match\").  \n(d) **Interpretation**: Perceptual justification → **preoperational** (centration on length, irreversibility). Operational justification (reversibility or compensation) → **early concrete operational**. A poor answer codes only the yes/no response, missing Piaget's insistence that *the reasoning process*, not the outcome, reveals the stage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

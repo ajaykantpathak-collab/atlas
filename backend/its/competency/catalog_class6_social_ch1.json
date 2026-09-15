@@ -1,0 +1,531 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Locating Places on the Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees101.txt",
+ "concepts": [
+  {
+   "id": "c6ss.1.1",
+   "title": "Globe and Latitudes",
+   "section": "1.1",
+   "definition": "A globe is a spherical model of the Earth; latitudes are imaginary horizontal lines running east-west, parallel to the equator.",
+   "formula": "",
+   "key_idea": "Latitudes measure distance north or south of the equator and help locate places on Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain latitudes on a globe",
+    "describe the key features of latitudes on a globe",
+    "what are the main characteristics of latitudes on a globe",
+    "why is latitudes on a globe important",
+    "give examples of latitudes on a globe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the equator",
+     "explain": "The equator is the 0 degree latitude line that divides Earth into northern and southern hemispheres."
+    },
+    {
+     "step": 2,
+     "action": "List major latitudes",
+     "explain": "Major latitudes include Tropic of Cancer (23.5N), Tropic of Capricorn (23.5S), Arctic Circle (66.5N) and Antarctic Circle (66.5S)."
+    },
+    {
+     "step": 3,
+     "action": "Explain measurement",
+     "explain": "Latitudes are measured in degrees from 0 at the equator to 90 at the poles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the equator and what is its latitude?",
+     "solution": "The equator is the imaginary line at 0 degrees latitude dividing Earth into two hemispheres.",
+     "answer": "0 degrees latitude"
+    },
+    {
+     "question": "Name two important latitudes besides the equator.",
+     "solution": "Tropic of Cancer at 23.5N and Tropic of Capricorn at 23.5S.",
+     "answer": "Tropic of Cancer, Tropic of Capricorn"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define latitude and state its range.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the four major latitudes.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.2",
+   "title": "Longitudes and Time Zones",
+   "section": "1.2",
+   "definition": "Longitudes are imaginary vertical lines running from pole to pole; they determine time zones.",
+   "formula": "",
+   "key_idea": "Longitudes measure distance east or west of the Prime Meridian and are used to calculate time differences.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain longitudes and time zones",
+    "describe the key features of longitudes and time zones",
+    "what are the main characteristics of longitudes and time zones",
+    "why is longitudes and time zones important",
+    "give examples of longitudes and time zones"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Prime Meridian",
+     "explain": "The Prime Meridian at 0 degrees longitude passes through Greenwich, England.",
+     "compute": "prime_meridian = 0"
+    },
+    {
+     "step": 2,
+     "action": "Calculate time difference",
+     "explain": "Earth rotates 360 degrees in 24 hours, so 1 degree = 4 minutes of time difference.",
+     "compute": "time_diff = longitude_diff * 4 / 60"
+    },
+    {
+     "step": 3,
+     "action": "Determine time zone",
+     "explain": "Time zones are based on 15-degree intervals, each representing 1 hour.",
+     "compute": "timezone = longitude // 15"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If it is noon at Greenwich, what time is it at 90 degrees east?",
+     "solution": "90 degrees east means 90*4=360 minutes=6 hours ahead, so 6 PM.",
+     "answer": "6 PM"
+    },
+    {
+     "question": "What is the time difference between 30E and 30W?",
+     "solution": "Total difference is 60 degrees, 60*4=240 minutes=4 hours.",
+     "answer": "4 hours"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the time at 45E when it is 10 AM at Greenwich.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how longitudes help determine time.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.3",
+   "title": "Map Reading and Symbols",
+   "section": "1.3",
+   "definition": "A map is a representation of the Earth's surface or part of it on a flat surface using symbols.",
+   "formula": "",
+   "key_idea": "Maps use conventional symbols to represent features like roads, rivers, railways and buildings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain map symbols and reading",
+    "describe the key features of map symbols and reading",
+    "what are the main characteristics of map symbols and reading",
+    "why is map symbols and reading important",
+    "give examples of map symbols and reading"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify map components",
+     "explain": "A map has a title, scale, direction indicator (north arrow), and legend or key."
+    },
+    {
+     "step": 2,
+     "action": "Read conventional symbols",
+     "explain": "Symbols in the legend represent real features -- blue for water, black for roads, etc."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the map",
+     "explain": "Use the scale to measure distances and the direction arrow to orient the map."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main components of a map?",
+     "solution": "Title, scale, direction, and legend/key.",
+     "answer": "Title, scale, direction, legend"
+    },
+    {
+     "question": "What does a blue line on a map usually represent?",
+     "solution": "A river or stream.",
+     "answer": "River or stream"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the four main components of a map.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the purpose of a map legend.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.4",
+   "title": "Directions and Compass",
+   "section": "1.4",
+   "definition": "Directions are determined using a compass; cardinal directions are North, South, East, and West.",
+   "formula": "",
+   "key_idea": "A compass needle points to magnetic north, helping find all four cardinal and four intermediate directions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain directions and compass use",
+    "describe the key features of directions and compass use",
+    "what are the main characteristics of directions and compass use",
+    "why is directions and compass use important",
+    "give examples of directions and compass use"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify cardinal directions",
+     "explain": "North, South, East, and West are the four main directions."
+    },
+    {
+     "step": 2,
+     "action": "Identify intermediate directions",
+     "explain": "Northeast, Northwest, Southeast, and Southwest are intermediate directions."
+    },
+    {
+     "step": 3,
+     "action": "Use a compass",
+     "explain": "A compass needle always points north-south, helping orient oneself."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the four cardinal directions.",
+     "solution": "North, South, East, West.",
+     "answer": "N, S, E, W"
+    },
+    {
+     "question": "What direction is between North and East?",
+     "solution": "Northeast (NE).",
+     "answer": "Northeast"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List all eight directions.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does a compass help in finding directions?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.5",
+   "title": "Scale of a Map",
+   "section": "1.5",
+   "definition": "Scale is the ratio between distance on a map and actual distance on the ground.",
+   "formula": "",
+   "key_idea": "Map scale allows conversion between map distances and real-world distances.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain map scale",
+    "describe the key features of map scale",
+    "what are the main characteristics of map scale",
+    "why is map scale important",
+    "give examples of map scale"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Read the scale",
+     "explain": "Scale may be stated as a ratio (1:100000), a statement (1 cm = 1 km), or a linear scale bar.",
+     "compute": "scale_ratio = map_distance / ground_distance"
+    },
+    {
+     "step": 2,
+     "action": "Measure map distance",
+     "explain": "Use a ruler to measure the distance between two points on the map."
+    },
+    {
+     "step": 3,
+     "action": "Calculate ground distance",
+     "explain": "Multiply map distance by the scale factor.",
+     "compute": "ground_dist = map_dist * scale_factor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On a map with scale 1 cm = 5 km, two cities are 4 cm apart. What is the actual distance?",
+     "solution": "4 cm * 5 km/cm = 20 km.",
+     "answer": "20 km"
+    },
+    {
+     "question": "A map scale is 1:100000. If two points are 3 cm apart on the map, what is the ground distance?",
+     "solution": "3 cm * 100000 = 300000 cm = 3 km.",
+     "answer": "3 km"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "On a 1:50000 map, 2 cm represents how many km?",
+     "type": "compute"
+    },
+    {
+     "question": "Explain three ways of expressing map scale.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.6",
+   "title": "Kinds of Maps",
+   "section": "1.6",
+   "definition": "Maps are classified as physical, political, and thematic based on the information they show.",
+   "formula": "",
+   "key_idea": "Different map types serve different purposes -- physical maps show natural features, political maps show boundaries, thematic maps show specific data.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain types of maps",
+    "describe the key features of types of maps",
+    "what are the main characteristics of types of maps",
+    "why is types of maps important",
+    "give examples of types of maps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify physical maps",
+     "explain": "Physical maps show natural features like mountains, rivers, and plains."
+    },
+    {
+     "step": 2,
+     "action": "Identify political maps",
+     "explain": "Political maps show boundaries of countries, states, and cities."
+    },
+    {
+     "step": 3,
+     "action": "Identify thematic maps",
+     "explain": "Thematic maps show specific information like rainfall, population, or crops."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which type of map shows mountains and rivers?",
+     "solution": "Physical map.",
+     "answer": "Physical map"
+    },
+    {
+     "question": "What does a political map show?",
+     "solution": "Boundaries of countries, states, and cities.",
+     "answer": "Boundaries of countries and states"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three types of maps and what each shows.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example of a thematic map.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.7",
+   "title": "Hemispheres of Earth",
+   "section": "1.7",
+   "definition": "The Earth is divided into hemispheres by the equator (northern/southern) and the Prime Meridian (eastern/western).",
+   "formula": "",
+   "key_idea": "Hemispheres help divide Earth into halves for geographical study.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain hemispheres of earth",
+    "describe the key features of hemispheres of earth",
+    "what are the main characteristics of hemispheres of earth",
+    "why is hemispheres of earth important",
+    "give examples of hemispheres of earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify equatorial division",
+     "explain": "The equator divides Earth into Northern and Southern Hemispheres."
+    },
+    {
+     "step": 2,
+     "action": "Identify meridional division",
+     "explain": "The Prime Meridian divides Earth into Eastern and Western Hemispheres."
+    },
+    {
+     "step": 3,
+     "action": "Locate India",
+     "explain": "India lies in the Northern and Eastern Hemispheres."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which hemisphere does India lie in?",
+     "solution": "Northern and Eastern Hemispheres.",
+     "answer": "Northern and Eastern"
+    },
+    {
+     "question": "What divides Earth into northern and southern hemispheres?",
+     "solution": "The equator.",
+     "answer": "The equator"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the four hemispheres of Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "In which hemispheres does India lie?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.8",
+   "title": "Finding Locations Using Coordinates",
+   "section": "1.8",
+   "definition": "The exact location of any place on Earth can be found using its latitude and longitude coordinates.",
+   "formula": "",
+   "key_idea": "Latitude and longitude together form a grid that uniquely identifies any point on Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain finding locations using coordinates",
+    "describe the key features of finding locations using coordinates",
+    "what are the main characteristics of finding locations using coordinates",
+    "why is finding locations using coordinates important",
+    "give examples of finding locations using coordinates"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify latitude",
+     "explain": "Read the latitude value (north or south of equator)."
+    },
+    {
+     "step": 2,
+     "action": "Identify longitude",
+     "explain": "Read the longitude value (east or west of Prime Meridian)."
+    },
+    {
+     "step": 3,
+     "action": "Locate on map/globe",
+     "explain": "Find the intersection of the latitude and longitude lines.",
+     "compute": "location = (lat, lon)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the coordinates of a place at 28N, 77E?",
+     "solution": "Latitude 28 degrees North, Longitude 77 degrees East -- this is near New Delhi.",
+     "answer": "28N, 77E -- near New Delhi"
+    },
+    {
+     "question": "How do latitude and longitude together locate a place?",
+     "solution": "They form a grid; the intersection of a latitude line and longitude line gives the exact position.",
+     "answer": "Intersection of lat and lon lines"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the approximate coordinates of your city.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how coordinates help locate places.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.1.2",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {longitude_diff} = 6, {longitude} = 9, compute the longitudes and time zones step by step.",
+   "extracted_variables": {
+    "longitude_diff": "6",
+    "longitude": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the Prime Meridian",
+     "explain": "The Prime Meridian at 0 degrees longitude passes through Greenwich, England.",
+     "compute": "prime_meridian = 0"
+    },
+    {
+     "step": 2,
+     "action": "Calculate time difference",
+     "explain": "Earth rotates 360 degrees in 24 hours, so 1 degree = 4 minutes of time difference.",
+     "compute": "time_diff = longitude_diff * 4 / 60"
+    },
+    {
+     "step": 3,
+     "action": "Determine time zone",
+     "explain": "Time zones are based on 15-degree intervals, each representing 1 hour.",
+     "compute": "timezone = longitude // 15"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.1.5",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {map_distance} = 6, {ground_distance} = 9, {map_dist} = 12, {scale_factor} = 4, compute the scale of a map step by step.",
+   "extracted_variables": {
+    "map_distance": "6",
+    "ground_distance": "9",
+    "map_dist": "12",
+    "scale_factor": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the scale",
+     "explain": "Scale may be stated as a ratio (1:100000), a statement (1 cm = 1 km), or a linear scale bar.",
+     "compute": "scale_ratio = map_distance / ground_distance"
+    },
+    {
+     "step": 2,
+     "action": "Measure map distance",
+     "explain": "Use a ruler to measure the distance between two points on the map."
+    },
+    {
+     "step": 3,
+     "action": "Calculate ground distance",
+     "explain": "Multiply map distance by the scale factor.",
+     "compute": "ground_dist = map_dist * scale_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

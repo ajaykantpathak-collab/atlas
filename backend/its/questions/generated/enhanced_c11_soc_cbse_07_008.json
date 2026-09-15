@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_008",
+   "title": "c11_soc_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is the sociological definition of a 'dominant caste' according to M.N. Srinivas?",
+     "a": "A dominant caste is a landowning intermediate caste that is numerically preponderant in a region and consequently enjoys decisive political and economic power. A wrong answer that equates dominant caste with the highest ritual caste (Brahmin) or with any wealthy caste reveals a confusion between ritual hierarchy (varna) and structural dominance (class-caste nexus). Srinivas explicitly argued that dominance is secular and based on land, numbers, and political access, not ritual purity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first phase of land reforms (abolition of zamindari) in the 1950s often strengthened intermediate castes rather than benefiting landless laborers.",
+     "a": "The first phase transferred proprietary rights from absentee landlords (zamindars) to the 'actual cultivators' — who were often occupancy tenants or superior tenants belonging to intermediate castes (e.g., Jats, Reddys, Patidars). These groups already managed cultivation and had local influence; gaining legal title converted their de facto control into de jure ownership, increasing their economic surplus and political clout. Landless laborers, who had no tenancy rights, were excluded. A wrong answer suggesting reforms directly gave land to the poorest shows a misunderstanding of the legal definition of 'cultivator' in the legislation and the pre-existing agrarian hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "In a village where the dominant caste controls the panchayat, the cooperative credit society, and the irrigation water distribution, a new state law mandates 50% reservation for women in panchayats. Predict how the dominant caste might respond to maintain control, using the concept of 'forced cooperation' from Chapter 1.",
+     "a": "The dominant caste will likely field women from their own families (wives, daughters-in-law) as proxy candidates, ensuring that formal representation does not translate into substantive autonomy. They will use their control over credit and water to coerce dependent castes into voting for their candidates, and use social sanctions (boycott, denial of labor) against dissenters. This maintains the 'forced cooperation' where subordinate groups appear to consent but actually comply under threat of material deprivation. A wrong answer assuming the law automatically empowers marginalized women ignores the structural power of dominant castes over material resources that makes resistance costly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the Green Revolution (1960s-70s) on agrarian relations in Punjab versus a rain-fed region like Bundelkhand. Focus on changes in labor demand, tenancy, and caste power dynamics.",
+     "a": "In Punjab, Green Revolution technology (HYV seeds, irrigation, mechanization) increased labor demand initially, attracting migrant labor, but later mechanization displaced tenants and small peasants, consolidating land among Jat Sikhs who became the dominant caste. Tenancy became informal and insecure. In Bundelkhand, lack of irrigation meant no Green Revolution; traditional patron-client ties persisted, landlords (often Thakurs/Brahmins) retained power, and out-migration of labor increased. The key difference: technology + irrigation shifted bargaining power to cultivating castes in Punjab, while its absence froze older hierarchies in Bundelkhand. A wrong answer treating Green Revolution as uniformly beneficial or uniformly displacing misses the regional variation mediated by ecology and pre-existing caste-class alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Land reforms in India failed because they did not eliminate landlessness.\" Use the distinction between 'intended outcomes' and 'structural consequences' in your evaluation.",
+     "a": "The statement is partially true but sociologically incomplete. While land reforms did not achieve the radical redistribution to landless laborers (intended outcome), they successfully dismantled the zamindari system, created a class of proprietor-cultivators from intermediate castes, and altered the rural power structure — enabling the rise of dominant castes who later drove the Green Revolution and captured democratic institutions (structural consequence). Judging reforms solely by the metric of landlessness ignores their role in transforming agrarian relations from feudal to capitalist and in reshaping the political landscape. A wrong answer that labels reforms a total failure overlooks the dialectic between policy design and structural transformation; a wrong answer calling them a success ignores the persistent exclusion of Dalits and Adivasis from land ownership.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question and a two-step methodology to investigate whether the dominant caste in a specific village has lost power over the last two decades due to out-migration of youth and the rise of Dalit assertion movements.",
+     "a": "Research question: \"How have demographic shifts (youth out-migration) and political mobilization (Dalit assertion) altered the economic and political dominance of the [specific dominant caste] in [village name] since 2000?\" Methodology: Step 1 — Quantitative: Compare landholding records, panchayat election results, and occupational data from 2000 and 2020 to measure changes in land concentration, electoral victories, and non-farm employment by caste. Step 2 — Qualitative: Conduct life-history interviews with three generations of dominant caste and Dalit households to trace subjective experiences of power, resistance, and negotiation. A poor answer would propose only a survey or only interviews, missing the need to correlate structural data with lived experience, or would fail to specify caste-disaggregated variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

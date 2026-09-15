@@ -1,0 +1,852 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 402,
+ "chapter_title": "Constitutional Design",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess404.txt",
+ "concepts": [
+  {
+   "id": "iess.402.1.1",
+   "title": "Apartheid and Racial Discrimination in South Africa",
+   "section": "3.1",
+   "definition": "An institutionalised framework of racial hierarchy and territorial segregation enforced by the minority European settler administration against indigenous non-white populations.",
+   "formula": "apartheid = institutional_segregation + denial_of_political_rights",
+   "key_idea": "Institutional segregation divided individuals by racial identity and denied equal citizenship to non-white groups.",
+   "textbook_ref": "iess402.txt lines 41-110",
+   "question_patterns": [
+    "What was the system of apartheid in South Africa?",
+    "Explain how racial segregation operated in South African daily life.",
+    "Describe the restrictions imposed on the black population under apartheid.",
+    "How were non-whites discriminated against in South Africa before 1994?",
+    "State the main features of the apartheid regime."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify racial classification",
+     "explain": "Examine how the population was categorised into distinct groups such as whites, blacks, coloured, and migrated Indians."
+    },
+    {
+     "step": 2,
+     "action": "Examine discriminatory restrictions",
+     "explain": "Verify the prohibition of non-whites from voting, owning property in reserved areas, and using common public facilities."
+    },
+    {
+     "step": 3,
+     "action": "Conclude institutional nature",
+     "explain": "Confirm that state power enforced segregated public transport, healthcare, schooling, and living spaces."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.1.2",
+   "title": "Democratic Transition and Constitution Making in South Africa",
+   "section": "3.1",
+   "definition": "The historical shift from minority racist governance to a multi-racial democratic order achieved through negotiation, forgiveness, and power-sharing agreements.",
+   "formula": "democratic_transition = mass_resistance + negotiated_settlement + inclusive_rights",
+   "key_idea": "Mutual compromise between former adversaries produced an inclusive constitution safeguarding majority rule alongside minority rights.",
+   "textbook_ref": "iess402.txt lines 111-200",
+   "question_patterns": [
+    "How did South Africa transition from apartheid to a multi-racial democracy?",
+    "What role did Nelson Mandela and the ANC play in ending apartheid?",
+    "Explain the compromises agreed upon by whites and blacks during South African constitution drafting.",
+    "Why is the South African constitution considered a model for democratic transitions?",
+    "Discuss the significance of 26 April 1994 in South African history."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess the role of organized resistance",
+     "explain": "Trace how strikes and campaigns by the African National Congress made continued minority suppression unviable."
+    },
+    {
+     "step": 2,
+     "action": "Identify key compromises in negotiation",
+     "explain": "Verify that majority rule and universal suffrage were balanced against guarantees for minority property and basic welfare."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the resulting constitutional framework",
+     "explain": "Check that the final charter guaranteed comprehensive basic rights and rejected racial vengeance."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.2.1",
+   "title": "Purpose and Core Functions of a Constitution",
+   "section": "3.2",
+   "definition": "The supreme foundational legal code of a sovereign territory establishing state structure, defining official authority, and securing civic protections.",
+   "formula": "constitution = governance_rules + boundary_on_power + citizen_rights + public_aspirations",
+   "key_idea": "A constitution generates trust among diverse groups by setting unalterable ground rules for government power and citizen entitlements.",
+   "textbook_ref": "iess402.txt lines 201-280",
+   "question_patterns": [
+    "Why does a democratic nation require a written constitution?",
+    "State four principal functions performed by a constitution.",
+    "How does a constitution build mutual confidence among citizens in a diverse society?",
+    "Explain how a constitution sets limits on governmental power.",
+    "What is the connection between democracy and having a supreme body of law?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify trust generation",
+     "explain": "Confirm whether clear written rules facilitate coexistence and coordination among diverse communities."
+    },
+    {
+     "step": 2,
+     "action": "Verify institutional specification",
+     "explain": "Check how power allocation, decision procedures, and state structures are codified."
+    },
+    {
+     "step": 3,
+     "action": "Verify rights and limitations",
+     "explain": "Assess boundaries placed on executive authority to prevent tyranny and safeguard personal liberties."
+    },
+    {
+     "step": 4,
+     "action": "Verify reflection of collective aspirations",
+     "explain": "Evaluate how societal visions for justice and welfare are articulated."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.3.1",
+   "title": "Historical Precedents of the Indian Constitution",
+   "section": "3.3",
+   "definition": "The progressive emergence of national constitutional principles through colonial-era reform bills, early freedom struggle drafts, and international democratic ideals.",
+   "formula": "consensus = 1928_motilal_nehru_draft + 1931_karachi_resolution + colonial_legislative_experience + global_democratic_principles",
+   "key_idea": "Core democratic commitments such as adult franchise, equality, and minority protections were established well before the Constituent Assembly gathered.",
+   "textbook_ref": "iess402.txt lines 281-370",
+   "question_patterns": [
+    "Which historical factors aided consensus-building among makers of the Indian Constitution?",
+    "What principles were established in the 1928 draft and the 1931 Karachi resolution?",
+    "How did institutional experience under the Government of India Act 1935 influence the Constitution?",
+    "Name the global democratic sources that inspired the framers of India's Constitution.",
+    "Explain how the Indian national movement contributed to the institutional design of free India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify early indigenous draft charters",
+     "explain": "Review early resolutions committing the national movement to adult suffrage, basic rights, and minority safeguards."
+    },
+    {
+     "step": 2,
+     "action": "Assess colonial legislative familiarity",
+     "explain": "Evaluate practical administrative procedures adapted from provincial governance statutes like the 1935 Act."
+    },
+    {
+     "step": 3,
+     "action": "Identify adapted foreign democratic elements",
+     "explain": "Verify critical adoption of British parliamentary practice, French revolutionary values, American rights bill, and Russian socio-economic ideals."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.3.2",
+   "title": "Formation and Working of the Constituent Assembly",
+   "section": "3.3",
+   "definition": "The representative deliberative assembly formed in 1946 to negotiate, formulate, debate, and adopt the sovereign Constitution of India.",
+   "formula": "constituent_assembly = representative_composition + drafting_committee + open_clause_by_clause_deliberation",
+   "key_idea": "The Indian Constitution commands enduring legitimacy because of its diverse representative character and exhaustive clause-by-clause scrutiny.",
+   "textbook_ref": "iess402.txt lines 371-460",
+   "question_patterns": [
+    "Describe the composition and election of the Indian Constituent Assembly.",
+    "How did the Constituent Assembly work to ensure a consensual document?",
+    "Why is the Indian Constitution widely accepted even decades after its adoption?",
+    "What was the role of Dr. B.R. Ambedkar as Chairman of the Drafting Committee?",
+    "Explain what Constituent Assembly Debates are and why they matter."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine representative composition",
+     "explain": "Check indirect election by provincial legislators representing geographical regions, communities, and diverse political ideologies."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the deliberative drafting procedure",
+     "explain": "Track the sequence from basic principles to Drafting Committee outputs and 114 days of clause-by-clause review."
+    },
+    {
+     "step": 3,
+     "action": "Verify preservation of institutional debates",
+     "explain": "Confirm the recording of 12 volumes of debates serving as the definitive interpretive guide for constitutional provisions."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.1",
+   "title": "Founding Visions of the Constitution Makers",
+   "section": "3.4",
+   "definition": "The philosophical perspectives expressed by prominent national architects regarding political, social, and economic equality in post-colonial India.",
+   "formula": "constitutional_vision = eradication_of_poverty + social_equality + political_democracy",
+   "key_idea": "While leaders shared the goal of an egalitarian society, they articulated varying viewpoints on resolving structural economic and social disparities.",
+   "textbook_ref": "iess402.txt lines 461-550",
+   "question_patterns": [
+    "Contrast the visions of Mahatma Gandhi and Dr. B.R. Ambedkar on eliminating inequality.",
+    "What anxiety did Dr. Ambedkar express regarding political equality versus socio-economic inequality?",
+    "Explain the core message of Jawaharlal Nehru's 'Tryst with Destiny' speech.",
+    "What did Mahatma Gandhi write in 'Young India' regarding his vision for the Constitution?",
+    "Identify the shared themes across the major speeches of India's constitutional founders."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Gandhi's vision in Young India",
+     "explain": "Note the commitment to giving the poor an effective voice, ending untouchability, and ensuring equal rights for women."
+    },
+    {
+     "step": 2,
+     "action": "Identify Ambedkar's caution on contradictory life",
+     "explain": "Assess the warning that political equality (one vote one value) without socio-economic equality imperils democracy."
+    },
+    {
+     "step": 3,
+     "action": "Identify Nehru's call to continuous service",
+     "explain": "Evaluate the dedication to end poverty, ignorance, and suffering articulated at independence."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.2",
+   "title": "Preamble: Nature of the Indian Sovereign Republic",
+   "section": "3.4",
+   "definition": "The opening declaration defining the source of authority and describing the essential political character of the Indian state.",
+   "formula": "republic_character = sovereign + socialist + secular + democratic + republic",
+   "key_idea": "The Preamble asserts that ultimate authority stems from the people and defines the republic as sovereign, socialist, secular, and democratic.",
+   "textbook_ref": "iess402.txt lines 551-620",
+   "question_patterns": [
+    "Explain the terms 'Sovereign', 'Socialist', and 'Secular' as used in the Indian Preamble.",
+    "What does the phrase 'We, the People of India' signify in the Preamble?",
+    "Define what makes a country a 'Republic' according to the Constitution.",
+    "How does the Preamble act as the guiding philosophy of the Indian Constitution?",
+    "Differentiate between a democratic state and a republic."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze popular sovereignty",
+     "explain": "Verify that power derives from the citizens directly through their chosen representatives, not any external authority."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate socio-economic orientation",
+     "explain": "Check the principles of state regulation for wealth distribution and equal status for all religious faiths."
+    },
+    {
+     "step": 3,
+     "action": "Verify republican head of state",
+     "explain": "Confirm that the top executive office is elected rather than hereditary."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.3",
+   "title": "Preamble: Fundamental Objectives and Values",
+   "section": "3.4",
+   "definition": "The core constitutional promises made to every citizen securing social fairness, individual freedoms, non-discrimination, and civic brotherhood.",
+   "formula": "citizenship_ideals = justice + liberty + equality + fraternity",
+   "key_idea": "Justice, liberty, equality, and fraternity provide an ethical standard to evaluate every law and governmental action.",
+   "textbook_ref": "iess402.txt lines 621-680",
+   "question_patterns": [
+    "Define the four key ideals promised in the Preamble: Justice, Liberty, Equality, and Fraternity.",
+    "How does the Constitution define Justice in social, economic, and political domains?",
+    "Explain what Fraternity means in the context of Indian national unity.",
+    "Why is the Preamble referred to as the standard to judge government actions?",
+    "Match the Preamble values with their correct meanings."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify Justice",
+     "explain": "Check absence of caste, religious, and gender discrimination, alongside state welfare for disadvantaged groups."
+    },
+    {
+     "step": 2,
+     "action": "Verify Liberty and Equality",
+     "explain": "Check freedom of thought, expression, and belief combined with equality before law and equal opportunity."
+    },
+    {
+     "step": 3,
+     "action": "Verify Fraternity and Human Dignity",
+     "explain": "Check the promotion of common brotherhood and mutual respect ensuring the dignity of every individual."
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.4",
+   "title": "Institutional Design and Constitutional Amendments",
+   "section": "3.4",
+   "definition": "The structured allocation of public authority among organs of state and the formal legal procedure for updating provisions over time.",
+   "formula": "institutional_design = power_distribution + checks_and_balances + amendment_mechanism",
+   "key_idea": "The Constitution is a living, adaptable legal framework that incorporates amendments to reflect evolving social realities and aspirations.",
+   "textbook_ref": "iess402.txt lines 681-740",
+   "question_patterns": [
+    "What is meant by institutional design in the context of the Constitution?",
+    "Why is regular constitutional amendment necessary in a democracy?",
+    "How does the Constitution prevent any single institution from exercising absolute power?",
+    "Why did the framers not treat the Constitution as an unalterable sacred law?",
+    "Explain the role of constitutional provisions in defining limits on state action."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine power allocation mechanism",
+     "explain": "Verify how institutional arrangements determine who holds authority to enact legislation, administer, and adjudicate."
+    },
+    {
+     "step": 2,
+     "action": "Identify citizen boundary guarantees",
+     "explain": "Review structural guarantees that place fundamental limits on the powers of state agencies."
+    },
+    {
+     "step": 3,
+     "action": "Analyze amendment procedure",
+     "explain": "Check the legal provisions permitting legislative modifications to keep the charter aligned with changing public needs."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess402.txt lines 201-260",
+   "concept": "iess.402.2.1",
+   "question_type": "conceptual_verification",
+   "question_pattern": "Explain why a country with diverse social groups requires a written constitution.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify problem of diversity and conflicting interests",
+     "explain": "Recognise that different social segments possess differing aspirations, rights claims, and mutual anxieties."
+    },
+    {
+     "step": 2,
+     "action": "Demonstrate the necessity of binding ground rules",
+     "explain": "Show that written supreme rules specify how governments are formed and define limits that winners cannot arbitrarily alter."
+    },
+    {
+     "step": 3,
+     "action": "Establish trust and coordination as outcomes",
+     "explain": "Conclude that a constitution provides the legal certainty needed for diverse groups to coexist in harmony."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess402.txt lines 551-650",
+   "concept": "iess.402.4.2",
+   "question_type": "term_matching_verification",
+   "question_pattern": "Verify whether a country where the head of state is a hereditary monarch can be termed a Republic.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Republic under constitutional theory",
+     "explain": "A Republic is a political entity where the head of state is chosen through election for a fixed term, not inherited."
+    },
+    {
+     "step": 2,
+     "action": "Compare against the hereditary monarch condition",
+     "explain": "A hereditary monarchy passes head of state status by birth lineage rather than civic election."
+    },
+    {
+     "step": 3,
+     "action": "Conclude status",
+     "explain": "Therefore, a system with a hereditary ruler fails the criterion of a Republic even if it possesses democratic elections."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What was the system of apartheid in South Africa?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify racial classification",
+     "explain": "Examine how the population was categorised into distinct groups such as whites, blacks, coloured, and migrated Indians."
+    },
+    {
+     "step": 2,
+     "action": "Examine discriminatory restrictions",
+     "explain": "Verify the prohibition of non-whites from voting, owning property in reserved areas, and using common public facilities."
+    },
+    {
+     "step": 3,
+     "action": "Conclude institutional nature",
+     "explain": "Confirm that state power enforced segregated public transport, healthcare, schooling, and living spaces."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how racial segregation operated in South African daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify racial classification",
+     "explain": "Examine how the population was categorised into distinct groups such as whites, blacks, coloured, and migrated Indians."
+    },
+    {
+     "step": 2,
+     "action": "Examine discriminatory restrictions",
+     "explain": "Verify the prohibition of non-whites from voting, owning property in reserved areas, and using common public facilities."
+    },
+    {
+     "step": 3,
+     "action": "Conclude institutional nature",
+     "explain": "Confirm that state power enforced segregated public transport, healthcare, schooling, and living spaces."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "How did South Africa transition from apartheid to a multi-racial democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assess the role of organized resistance",
+     "explain": "Trace how strikes and campaigns by the African National Congress made continued minority suppression unviable."
+    },
+    {
+     "step": 2,
+     "action": "Identify key compromises in negotiation",
+     "explain": "Verify that majority rule and universal suffrage were balanced against guarantees for minority property and basic welfare."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the resulting constitutional framework",
+     "explain": "Check that the final charter guaranteed comprehensive basic rights and rejected racial vengeance."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "What role did Nelson Mandela and the ANC play in ending apartheid?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assess the role of organized resistance",
+     "explain": "Trace how strikes and campaigns by the African National Congress made continued minority suppression unviable."
+    },
+    {
+     "step": 2,
+     "action": "Identify key compromises in negotiation",
+     "explain": "Verify that majority rule and universal suffrage were balanced against guarantees for minority property and basic welfare."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the resulting constitutional framework",
+     "explain": "Check that the final charter guaranteed comprehensive basic rights and rejected racial vengeance."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "How does a constitution build mutual confidence among citizens in a diverse society?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify trust generation",
+     "explain": "Confirm whether clear written rules facilitate coexistence and coordination among diverse communities."
+    },
+    {
+     "step": 2,
+     "action": "Verify institutional specification",
+     "explain": "Check how power allocation, decision procedures, and state structures are codified."
+    },
+    {
+     "step": 3,
+     "action": "Verify rights and limitations",
+     "explain": "Assess boundaries placed on executive authority to prevent tyranny and safeguard personal liberties."
+    },
+    {
+     "step": 4,
+     "action": "Verify reflection of collective aspirations",
+     "explain": "Evaluate how societal visions for justice and welfare are articulated."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Which historical factors aided consensus-building among makers of the Indian Constitution?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify early indigenous draft charters",
+     "explain": "Review early resolutions committing the national movement to adult suffrage, basic rights, and minority safeguards."
+    },
+    {
+     "step": 2,
+     "action": "Assess colonial legislative familiarity",
+     "explain": "Evaluate practical administrative procedures adapted from provincial governance statutes like the 1935 Act."
+    },
+    {
+     "step": 3,
+     "action": "Identify adapted foreign democratic elements",
+     "explain": "Verify critical adoption of British parliamentary practice, French revolutionary values, American rights bill, and Russian socio-economic ideals."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "What principles were established in the 1928 draft and the 1931 Karachi resolution?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify early indigenous draft charters",
+     "explain": "Review early resolutions committing the national movement to adult suffrage, basic rights, and minority safeguards."
+    },
+    {
+     "step": 2,
+     "action": "Assess colonial legislative familiarity",
+     "explain": "Evaluate practical administrative procedures adapted from provincial governance statutes like the 1935 Act."
+    },
+    {
+     "step": 3,
+     "action": "Identify adapted foreign democratic elements",
+     "explain": "Verify critical adoption of British parliamentary practice, French revolutionary values, American rights bill, and Russian socio-economic ideals."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the composition and election of the Indian Constituent Assembly.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine representative composition",
+     "explain": "Check indirect election by provincial legislators representing geographical regions, communities, and diverse political ideologies."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the deliberative drafting procedure",
+     "explain": "Track the sequence from basic principles to Drafting Committee outputs and 114 days of clause-by-clause review."
+    },
+    {
+     "step": 3,
+     "action": "Verify preservation of institutional debates",
+     "explain": "Confirm the recording of 12 volumes of debates serving as the definitive interpretive guide for constitutional provisions."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "How did the Constituent Assembly work to ensure a consensual document?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine representative composition",
+     "explain": "Check indirect election by provincial legislators representing geographical regions, communities, and diverse political ideologies."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the deliberative drafting procedure",
+     "explain": "Track the sequence from basic principles to Drafting Committee outputs and 114 days of clause-by-clause review."
+    },
+    {
+     "step": 3,
+     "action": "Verify preservation of institutional debates",
+     "explain": "Confirm the recording of 12 volumes of debates serving as the definitive interpretive guide for constitutional provisions."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Contrast the visions of Mahatma Gandhi and Dr. B.R. Ambedkar on eliminating inequality.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify Gandhi's vision in Young India",
+     "explain": "Note the commitment to giving the poor an effective voice, ending untouchability, and ensuring equal rights for women."
+    },
+    {
+     "step": 2,
+     "action": "Identify Ambedkar's caution on contradictory life",
+     "explain": "Assess the warning that political equality (one vote one value) without socio-economic equality imperils democracy."
+    },
+    {
+     "step": 3,
+     "action": "Identify Nehru's call to continuous service",
+     "explain": "Evaluate the dedication to end poverty, ignorance, and suffering articulated at independence."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "What anxiety did Dr. Ambedkar express regarding political equality versus socio-economic inequality?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify Gandhi's vision in Young India",
+     "explain": "Note the commitment to giving the poor an effective voice, ending untouchability, and ensuring equal rights for women."
+    },
+    {
+     "step": 2,
+     "action": "Identify Ambedkar's caution on contradictory life",
+     "explain": "Assess the warning that political equality (one vote one value) without socio-economic equality imperils democracy."
+    },
+    {
+     "step": 3,
+     "action": "Identify Nehru's call to continuous service",
+     "explain": "Evaluate the dedication to end poverty, ignorance, and suffering articulated at independence."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "Define what makes a country a 'Republic' according to the Constitution.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze popular sovereignty",
+     "explain": "Verify that power derives from the citizens directly through their chosen representatives, not any external authority."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate socio-economic orientation",
+     "explain": "Check the principles of state regulation for wealth distribution and equal status for all religious faiths."
+    },
+    {
+     "step": 3,
+     "action": "Verify republican head of state",
+     "explain": "Confirm that the top executive office is elected rather than hereditary."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "Define the four key ideals promised in the Preamble: Justice, Liberty, Equality, and Fraternity.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify Justice",
+     "explain": "Check absence of caste, religious, and gender discrimination, alongside state welfare for disadvantaged groups."
+    },
+    {
+     "step": 2,
+     "action": "Verify Liberty and Equality",
+     "explain": "Check freedom of thought, expression, and belief combined with equality before law and equal opportunity."
+    },
+    {
+     "step": 3,
+     "action": "Verify Fraternity and Human Dignity",
+     "explain": "Check the promotion of common brotherhood and mutual respect ensuring the dignity of every individual."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "How does the Constitution define Justice in social, economic, and political domains?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify Justice",
+     "explain": "Check absence of caste, religious, and gender discrimination, alongside state welfare for disadvantaged groups."
+    },
+    {
+     "step": 2,
+     "action": "Verify Liberty and Equality",
+     "explain": "Check freedom of thought, expression, and belief combined with equality before law and equal opportunity."
+    },
+    {
+     "step": 3,
+     "action": "Verify Fraternity and Human Dignity",
+     "explain": "Check the promotion of common brotherhood and mutual respect ensuring the dignity of every individual."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "What is meant by institutional design in the context of the Constitution?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine power allocation mechanism",
+     "explain": "Verify how institutional arrangements determine who holds authority to enact legislation, administer, and adjudicate."
+    },
+    {
+     "step": 2,
+     "action": "Identify citizen boundary guarantees",
+     "explain": "Review structural guarantees that place fundamental limits on the powers of state agencies."
+    },
+    {
+     "step": 3,
+     "action": "Analyze amendment procedure",
+     "explain": "Check the legal provisions permitting legislative modifications to keep the charter aligned with changing public needs."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.402.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "Why is regular constitutional amendment necessary in a democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine power allocation mechanism",
+     "explain": "Verify how institutional arrangements determine who holds authority to enact legislation, administer, and adjudicate."
+    },
+    {
+     "step": 2,
+     "action": "Identify citizen boundary guarantees",
+     "explain": "Review structural guarantees that place fundamental limits on the powers of state agencies."
+    },
+    {
+     "step": 3,
+     "action": "Analyze amendment procedure",
+     "explain": "Check the legal provisions permitting legislative modifications to keep the charter aligned with changing public needs."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex402.1",
+   "source_ref": "iess402.txt lines 760-780",
+   "questions": [
+    "Here are some false statements. Identify the mistake in each case and rewrite these correctly based on what you have read in this chapter: (a) Leaders of the freedom movement had an open mind about whether the country should be democratic or not after independence. (b) Members of the Constituent Assembly of India held the same views on all provisions of the Constitution. (c) A country that has a constitution must be a democracy. (d) Constitution cannot be amended because it is the supreme law of a country."
+   ]
+  },
+  {
+   "id": "ex402.2",
+   "source_ref": "iess402.txt lines 781-790",
+   "questions": [
+    "Which of these was the most salient underlying conflict in the making of a democratic constitution in South Africa: (a) Between South Africa and its neighbours, (b) Between men and women, (c) Between the white majority and the black minority, (d) Between the coloured minority and the black majority."
+   ]
+  },
+  {
+   "id": "ex402.3",
+   "source_ref": "iess402.txt lines 791-800",
+   "questions": [
+    "Which of these is a provision that a democratic constitution does not have? (a) Powers of the head of the state, (b) Name of the head of the state, (c) Powers of the legislature, (d) Name of the country."
+   ]
+  },
+  {
+   "id": "ex402.4",
+   "source_ref": "iess402.txt lines 801-815",
+   "questions": [
+    "Match the following leaders with their roles in the making of the Constitution: (a) Motilal Nehru - (i) President of the Constituent Assembly, (b) B.R. Ambedkar - (ii) Member of the Constituent Assembly, (c) Rajendra Prasad - (iii) Chairman of the Drafting Committee, (d) Sarojini Naidu - (iv) Prepared a Constitution for India in 1928."
+   ]
+  },
+  {
+   "id": "ex402.5",
+   "source_ref": "iess402.txt lines 816-830",
+   "questions": [
+    "Read again the extracts from Nehru's speech 'Tryst with Destiny' and answer the following: (a) Why did Nehru use the expression 'not wholly or in full measure' in the first sentence? (b) What pledge did he want the makers of the Indian Constitution to take? (c) 'The ambition of the greatest man of our generation has been to wipe every tear from every eye.' Who was he referring to?"
+   ]
+  },
+  {
+   "id": "ex402.6",
+   "source_ref": "iess402.txt lines 831-845",
+   "questions": [
+    "Here are some of the guiding values of the Constitution and their meaning. Rewrite them by matching them correctly: (a) Sovereign - (i) Government will not favour any religion, (b) Republic - (ii) People have the supreme right to make decisions, (c) Fraternity - (iii) Head of the state is an elected person, (d) Secular - (iv) People should live like brothers and sisters."
+   ]
+  },
+  {
+   "id": "ex402.7",
+   "source_ref": "iess402.txt lines 846-855",
+   "questions": [
+    "A friend from Nepal has written you a letter describing the political situation there. Many political parties are opposing the rule of the king. Some of them say that the existing constitution given by the monarch can be amended to allow more powers to elected representatives. Others are demanding a new Constituent Assembly to write a republican constitution. Reply to your friend giving your opinions on the subject."
+   ]
+  },
+  {
+   "id": "ex402.8",
+   "source_ref": "iess402.txt lines 856-870",
+   "questions": [
+    "Here are different opinions about what made India a democracy. How much importance would you give to each of these factors? (a) Democracy in India is a gift of the British rulers. We received training to work with representative legislative institutions under the British rule. (b) Freedom Struggle challenged the colonial exploitation and denial of different freedoms to Indians. Free India could not be anything but democratic. (c) We were lucky to have leaders who had democratic convictions. The denial of democracy in several other newly independent countries shows the important role of these leaders."
+   ]
+  },
+  {
+   "id": "ex402.9",
+   "source_ref": "iess402.txt lines 871-885",
+   "questions": [
+    "Read the following extract from a conduct book for 'married women', published in 1912: 'God has made the female species delicate and fragile both physically and emotionally, pitiably incapable of self-defence. They are destined thus by God to remain in male protection of father, husband and son all their lives. Women should, therefore, not despair, but feel obliged that they can dedicate themselves to the service of men'. Do you think the values expressed in this para reflected the values underlying our constitution? Or does this go against the constitutional values?"
+   ]
+  },
+  {
+   "id": "ex402.10",
+   "source_ref": "iess402.txt lines 886-905",
+   "questions": [
+    "Read the following statements about a constitution. Give reasons why each of these is true or not true: (a) The authority of the rules of the constitution is the same as that of any other law. (b) Constitution lays down how different organs of the government will be formed. (c) Rights of citizens and limits on the power of the government are laid down in the constitution. (d) A constitution is about institutions, not about values."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

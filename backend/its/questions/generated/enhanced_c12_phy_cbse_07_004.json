@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_004",
+   "title": "c12_phy_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the SI unit of capacitive reactance, and how does it change if the frequency of the AC source is doubled while capacitance remains constant?",
+     "a": "The SI unit of capacitive reactance is ohm (Ω). Since X_C = 1/(2πfC), doubling the frequency halves the reactance (X_C ∝ 1/f). A wrong answer (e.g., “ohm but increases with frequency”) reveals confusion with inductive reactance (X_L = ωL) or misunderstanding the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "In a pure capacitive AC circuit, the current leads the voltage by 90°. Explain physically why this phase lead occurs, using the concept of charging and discharging of the capacitor.",
+     "a": "Current is the rate of change of charge (i = dq/dt). The capacitor voltage is proportional to charge (v = q/C). When the AC voltage is zero but increasing (at t=0), the charge is zero but its rate of change is maximum, so current is maximum. Thus current reaches its peak before the voltage does — it leads by 90°. A wrong answer like “voltage leads current” confuses capacitor with inductor behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A 20 µF capacitor is connected to a 240 V (rms), 50 Hz AC supply. Calculate: (a) the capacitive reactance, (b) the rms current, and (c) the peak current.",
+     "a": "(a) X_C = 1/(2πfC) = 1/(2 × 3.14 × 50 × 20 × 10⁻⁶) = 159.2 Ω.  \n(b) I_rms = V_rms / X_C = 240 / 159.2 = 1.51 A.  \n(c) I_peak = √2 × I_rms = 1.414 × 1.51 = 2.13 A.  \nA wrong answer (e.g., using V_peak in (b) or forgetting √2 in (c)) shows confusion between rms and peak values or incorrect formula substitution.",
+     "self_check": true
+    },
+    {
+     "q": "The graph below shows voltage v(t) and current i(t) for a pure capacitive circuit. Identify which curve is voltage and which is current, and justify using the phase relationship.\n\n![Graph: two sinusoidal waves of same frequency, one shifted left by 1/4 cycle relative to the other]",
+     "a": "The curve that reaches its maximum earlier (shifted left) is the current; the other is voltage. In a capacitor, current leads voltage by π/2 (1/4 cycle). A student who swaps them has the phase relationship reversed (inductor behavior).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Since a capacitor blocks DC, it should also block AC, so the current in a pure capacitive AC circuit must be zero.” Evaluate this statement and explain the error.",
+     "a": "The statement is false. A capacitor blocks DC only after it is fully charged (steady state). In AC, the voltage continuously changes, so the capacitor continuously charges and discharges, allowing a sustained alternating current. The reactance X_C = 1/(ωC) is finite for f > 0. The error is applying DC steady-state reasoning to a time-varying AC situation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a capacitor, a variable-frequency AC source (e.g., a function generator), an ammeter, and a voltmeter to verify that capacitive reactance is inversely proportional to frequency. Describe the procedure, measurements, and how you would analyze the data.",
+     "a": "Connect the capacitor in series with the ammeter across the function generator; connect the voltmeter in parallel with the capacitor. Set the generator to a fixed voltage amplitude (e.g., 5 V peak). Vary frequency (e.g., 100 Hz, 200 Hz, 500 Hz, 1 kHz, 2 kHz) and record rms current at each frequency. Calculate X_C = V_rms / I_rms for each f. Plot X_C vs 1/f; a straight line through origin confirms X_C ∝ 1/f. A poor answer would omit controlling voltage amplitude or not plotting to verify proportionality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

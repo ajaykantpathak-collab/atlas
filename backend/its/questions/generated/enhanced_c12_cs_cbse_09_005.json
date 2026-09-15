@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_005",
+   "title": "c12_cs_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nx = 10\ndef outer():\n    x = 20\n    def inner():\n        print(x)\n    inner()\nouter()\n```",
+     "a": "Output: `20`. The `inner` function has no local `x`, so Python looks in the enclosing scope (`outer`) and finds `x = 20`. A common wrong answer is `10` (thinking it uses the global `x`) or an error (thinking `x` is undefined). This reveals the student does not yet grasp that enclosing scope is checked before global scope.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code raises `UnboundLocalError`:\n```python\ncount = 0\ndef increment():\n    count = count + 1\nincrement()\n```",
+     "a": "Because `count` appears on the left side of an assignment inside `increment`, Python treats it as a local variable for the entire function. When the right-hand side `count + 1` is evaluated, the local `count` has not yet been assigned, causing `UnboundLocalError`. A student who says “it should print 1” thinks assignment does not affect scope classification; they confuse reading a global with writing to it.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `make_counter()` that returns a nested function `counter()`. Each call to `counter()` should return the next integer (1, 2, 3, …). Use `nonlocal` correctly.",
+     "a": "```python\ndef make_counter():\n    n = 0\n    def counter():\n        nonlocal n\n        n += 1\n        return n\n    return counter\n```\nSteps: 1) Create `n` in `make_counter`'s local scope. 2) Declare `nonlocal n` in `counter` so assignment updates the enclosing `n`. 3) Increment and return. A wrong answer omits `nonlocal` (causing `UnboundLocalError`) or uses a global variable (breaking encapsulation).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two snippets below. Why does the first print `10` while the second prints `20`?\n```python",
+     "a": "In Snippet A, `x` is never assigned inside `f`, so it is a free variable resolved via LEGB to the global `x = 10`. In Snippet B, the assignment `x = 20` makes `x` a local variable of `g`; the `print` therefore uses the local `x = 20`. A student who claims both print `10` thinks assignment does not create a new local binding; they have not internalised that *any* assignment (including `+=`) creates a local variable unless declared `global`/`nonlocal`.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following design: a module uses a global list `logs = []`; multiple functions `log_error(msg)` and `log_info(msg)` append to it. Is this good practice? Justify using scope principles.",
+     "a": "It works because lists are mutable — functions can call `logs.append(...)` without rebinding `logs`, so no `global` declaration is needed. However, it violates encapsulation: any code can mutate `logs`, making debugging hard. Better: wrap `logs` in a class or pass a logger object. A student who says “it’s fine because it works” misses the software-engineering perspective that scope rules exist to limit visibility, not just to avoid errors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you *must* use `nonlocal` (not `global`) to solve a problem. Provide the code and explain why `global` would be wrong.",
+     "a": "Scenario: a closure that counts how many times a specific function is called, without polluting the module namespace.\n```python\ndef call_counter(func):\n    count = 0\n    def wrapper(*args, **kwargs):\n        nonlocal count\n        count += 1\n        return func(*args, **kwargs)\n    wrapper.call_count = lambda: count\n    return wrapper\n```\n`global` would share one counter across all decorated functions — wrong. `nonlocal` gives each decorated function its own private `count`. A poor answer uses a global dictionary keyed by function name; that works but misses the point of `nonlocal` for encapsulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

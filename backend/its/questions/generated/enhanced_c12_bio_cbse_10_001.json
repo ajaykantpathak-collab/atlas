@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_001",
+   "title": "c12_bio_cbse_10_001",
+   "questions": [
+    {
+     "q": "Name the genus of bacteria primarily responsible for converting milk into curd and state the key metabolic product that causes milk coagulation.",
+     "a": "**Correct answer:** *Lactobacillus* (lactic acid bacteria); the key metabolic product is **lactic acid**.  \n**What a wrong answer reveals:** If a student names *Rhizobium* or *Azotobacter*, they confuse nitrogen-fixing bacteria (Class 11 biofertilizers) with fermentative bacteria. If they say \"alcohol\" or \"CO₂\", they confuse lactic acid fermentation with alcoholic fermentation (yeast). This shows they haven't distinguished between fermentation types — a critical Class 12 board distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does curd form only when a small amount of already-set curd (starter) is added to warm milk, but not when milk is simply left at room temperature without a starter?",
+     "a": "**Correct answer:** The starter provides a high initial population of *Lactobacillus* that rapidly outcompetes spoilage microbes and drops pH to ~4.5 via lactic acid production, coagulating casein. Without starter, natural contaminants (putrefactive bacteria, molds) dominate, causing spoilage (off-odors, gas) instead of clean fermentation.  \n**What a wrong answer reveals:** If a student says \"milk has natural bacteria that make curd\", they ignore microbial competition and the need for a selected inoculum — a common error in board answers where students omit the *starter culture* concept. If they say \"temperature alone causes curdling\", they confuse thermal denaturation (boiling) with microbial fermentation.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets curd at 15°C and another at 35°C using identical starter and milk. After 8 hours, the 35°C sample is firm and tangy; the 15°C sample is still liquid. Explain this using microbial growth kinetics.",
+     "a": "**Correct answer:** *Lactobacillus* is mesophilic (optimum 30–40°C). At 35°C, its generation time is ~20–30 min, so the population reaches the threshold for rapid lactic acid production within 8 hours. At 15°C, generation time extends to several hours; the population remains too low to produce enough lactic acid for coagulation in the same time.  \n**What a wrong answer reveals:** If a student says \"bacteria die at 15°C\", they confuse suboptimal growth with death (psychrotrophs grow slowly at 15°C). If they say \"enzymes don't work at low temperature\", they miss that microbial *growth* (population increase) is the rate-limiting step, not just enzyme activity. This tests application of Class 11 microbial growth concepts (c11_bio_cbse_10_001) to a real process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microbial basis of hole formation in Swiss cheese versus the blue veins in Roquefort cheese. Include the genus/species and the metabolic activity responsible.",
+     "a": "**Correct answer:**  \n- **Swiss cheese:** *Propionibacterium freudenreichii* subsp. *shermanii* ferments lactate (from prior lactic acid fermentation) to **propionic acid, acetic acid, and CO₂**. The CO₂ gets trapped in the elastic curd, forming **holes (eyes)**.  \n- **Roquefort cheese:** *Penicillium roqueforti* (a mold) grows in air channels, producing **lipases and proteases** that break down fats and proteins, creating **blue-green veins and sharp flavor**.  \n**What a wrong answer reveals:** If a student attributes holes to yeast or \"gas from bacteria\" without naming *Propionibacterium* and its specific substrate (lactate), they lack the precise microbe-metabolite link boards expect. If they say Roquefort veins are from bacteria, they confuse fungal (mold) vs. bacterial ripening — a frequent 1-mark error in CBSE papers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Adding more yeast to bread dough will always make the bread rise faster and higher.\" Identify two biological constraints that limit this relationship.",
+     "a": "**Correct answer:** The claim is **false**. Two constraints:  \n1. **Substrate limitation:** Yeast (*Saccharomyces cerevisiae*) ferments available sugars (maltose, glucose from flour amylases). Excess yeast depletes sugar faster, but total CO₂ produced is capped by total fermentable sugar — not yeast count.  \n2. **Ethanol toxicity & pH drop:** High yeast density accelerates ethanol accumulation and organic acid production, lowering pH. *S. cerevisiae* tolerates ~12–15% ethanol; beyond this, fermentation slows/stops. Over-pitching yeast can cause premature collapse (over-proofing) as gluten weakens from acid proteolysis.  \n**What a wrong answer reveals:** If a student only says \"yeast dies at high temperature\", they miss the *intrinsic* biochemical limits (substrate, product inhibition) that operate even at optimal temperature. This tests evaluation of a real baking scenario — a NEET-style application question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to demonstrate that the gas produced during bread dough rising is CO₂ and not oxygen or nitrogen. List materials, procedure, and the confirmatory test.",
+     "a": "**Expected answer:**  \n**Materials:** Fresh bread dough (flour, water, yeast), small bottle, balloon, lime water (Ca(OH)₂), matchstick.  \n**Procedure:** (1) Place dough in bottle, stretch balloon over neck. (2) Keep at 30°C for 1 hr — balloon inflates. (3) Remove balloon, bubble gas through lime water. (4) Insert burning matchstick into bottle neck.  \n**Confirmatory test:** Lime water turns **milky** (CaCO₃ precipitate) → confirms CO₂. Matchstick **extinguishes** → confirms absence of O₂ (and non-support of combustion).  \n**What a poor answer reveals:** If a student uses \"smell\" or \"balloon size\" as proof, they rely on qualitative guesswork, not chemical identification. If they suggest glowing splint test (for O₂), they confuse gas tests. This assesses ability to design a controlled bio-chemical test — a CBSE practical/board competency skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

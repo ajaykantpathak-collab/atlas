@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_001",
+   "title": "c12_geo_cbse_11_001",
+   "questions": [
+    {
+     "q": "Define \"reporting area\" and explain how it differs from \"geographical area\" in the context of Indian land use statistics.",
+     "a": "Reporting area is the total area for which land use data is available from land revenue records; it changes with updated surveys and estimates. Geographical area is the fixed physical area measured by Survey of India and does not change. A wrong answer (e.g., \"they are the same\") reveals confusion between administrative data availability and physical measurement — a classic board exam trap where students lose 1 mark for not distinguishing the two.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT state that \"increase in share under forest can be accounted for by increase in the demarcated area under forest rather than an actual increase in forest cover\"?",
+     "a": "Forest category in land revenue records refers to area *notified/demarcated* for forest growth by government, not actual tree cover. Satellite data (FSI) shows actual cover; revenue records show legal classification. A wrong answer (e.g., \"afforestation increased cover\") confuses legal status with ecological reality — this distinction is explicitly tested in CBSE 2020 Q3(i) and CUET geography.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 3.1, calculate the actual increase and rate of increase (simple growth rate) for Net Area Sown between 1950–51 and 2019–20. Show steps.",
+     "a": "Step 1: Identify values — NSA 1950–51 = 41.7%, NSA 2019–20 = 45.6% (as % of reporting area).  \nStep 2: Actual increase = 45.6 – 41.7 = 3.9 percentage points.  \nStep 3: Rate of increase = (3.9 / 41.7) × 100 = 9.35%.  \nStep 4: Interpret — NSA share rose but total cultivable land fell (59.5% → 57.7%), meaning intensification on existing land. A wrong calculation (e.g., using 70.0 and 79.0 which are % of cultivable land) reveals misunderstanding of denominator — a frequent error in JEE-style data interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trends of \"Culturable Wasteland\" and \"Fallow other than Current Fallow\" between 1950–51 and 2019–20. Explain the common driver for their decline.",
+     "a": "Both declined: Culturable Wasteland 8.0% → 3.9%; Fallow other than Current Fallow 6.1% → 3.7%. Common driver: increasing pressure from agricultural and non-agricultural sectors brings marginal lands into use. A wrong answer citing \"climate change\" or \"soil erosion\" misses the economic driver (population + sectoral shift) emphasized in NCERT para 3 — this tests ability to link human geography to land use change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Increasing cropping intensity is the only viable strategy for India to raise agricultural output given limited scope for expanding net sown area.\" Use evidence from the chapter.",
+     "a": "Partially true but incomplete. NCERT states scope for expanding NSA is limited (Table 3.1: total cultivable land fell 59.5% → 57.7%), so cropping intensity (GCA/NSA × 100) and yield-raising technologies are needed. However, \"only viable\" ignores: (a) land-saving tech like vertical farming, (b) converting culturable wasteland (still 3.9%), (c) improving irrigation efficiency (only 33% irrigated). A good evaluation balances intensification with sustainable extensification — this tests higher-order thinking for 150-word board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land use plan for a hypothetical 1000-ha village in semi-arid Rajasthan (annual rainfall 60 cm) that maximizes livelihood security for landless households while maintaining ecological sustainability. Specify allocation across at least 5 land use categories.",
+     "a": "Good answer allocates: (1) 200 ha permanent pasture (CPR for livestock/fodder — supports landless), (2) 150 ha culturable wasteland reclaimed for dryland farming (bajra, guar), (3) 300 ha net sown area (kharif: bajra/moong; rabi: gram/mustard with protective irrigation), (4) 100 ha current fallow (rotational rest), (5) 50 ha non-agricultural (settlement, school, water harvesting structures), (6) 50 ha barren/wasteland left for groundwater recharge. Poor answer ignores CPRs or proposes water-intensive crops (rice/sugarcane) — reveals misunderstanding of dryland farming (NCERT: <75 cm rainfall = dryland) and CPR significance for equity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

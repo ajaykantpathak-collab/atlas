@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_009",
+   "title": "c12_math_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the Second Fundamental Theorem of Calculus precisely, including the conditions on \\( f \\) and \\( F \\).",
+     "a": "The theorem: If \\( f \\) is continuous on \\([a, b]\\) and \\( F \\) is an antiderivative of \\( f \\) (i.e., \\( F'(x) = f(x) \\)), then \\( \\int_a^b f(x) \\, dx = F(b) - F(a) \\). A wrong answer (e.g., omitting continuity, confusing with the first theorem, or writing \\( F(a) - F(b) \\)) reveals the student does not recall the exact hypotheses or the order of subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the constant of integration \\( C \\) cancels out when using the Second Fundamental Theorem to evaluate a definite integral.",
+     "a": "If \\( F(x) \\) is an antiderivative, then \\( F(x) + C \\) is also an antiderivative. Evaluating \\( [F(x) + C]_a^b = (F(b)+C) - (F(a)+C) = F(b) - F(a) \\). The constant cancels. A wrong answer (e.g., \"we ignore C because it's arbitrary\") shows the student does not understand the algebraic reason and may mistakenly keep \\( C \\) in the final answer.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\( \\int_1^3 (2x^3 - 4x + 5) \\, dx \\) using the Second Fundamental Theorem. Show all steps.",
+     "a": "Antiderivative: \\( \\frac{2x^4}{4} - \\frac{4x^2}{2} + 5x = \\frac{x^4}{2} - 2x^2 + 5x \\). Evaluate at 3: \\( \\frac{81}{2} - 18 + 15 = 40.5 - 3 = 37.5 \\). Evaluate at 1: \\( \\frac{1}{2} - 2 + 5 = 3.5 \\). Difference: \\( 37.5 - 3.5 = 34 \\). A wrong answer (e.g., 34.5 or 33) typically comes from arithmetic errors in powers or sign mistakes when substituting the lower limit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two statements: (i) \\( \\frac{d}{dx} \\int_a^x f(t) \\, dt = f(x) \\) and (ii) \\( \\int_a^b f(x) \\, dx = F(b) - F(a) \\). Which is the First Fundamental Theorem and which is the Second? What is the key difference in their roles?",
+     "a": "(i) is the First Fundamental Theorem (derivative of area function gives integrand). (ii) is the Second Fundamental Theorem (evaluation of definite integral using antiderivative). The first connects differentiation and integration as inverse processes; the second provides a computational tool. A wrong answer confuses the two, indicating the student does not grasp the distinct purposes: one theoretical, one practical.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\( \\int_0^2 \\frac{1}{x-1} \\, dx \\) by finding antiderivative \\( \\ln|x-1| \\) and computing \\( \\ln|1| - \\ln|-1| = 0 \\). Is this correct? Justify your answer.",
+     "a": "Incorrect. The integrand \\( \\frac{1}{x-1} \\) is not continuous on \\([0, 2]\\) (it has a vertical asymptote at \\( x=1 \\)). The Second Fundamental Theorem requires continuity on the closed interval. The integral is improper and diverges. A wrong answer that accepts the computation reveals the student ignores the continuity condition, a critical competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (e.g., from physics or economics) that requires evaluating a definite integral using the Second Fundamental Theorem. Specify the integrand, limits, and the meaning of the result.",
+     "a": "Example: The marginal cost function for producing \\( x \\) units is \\( C'(x) = 0.02x + 5 \\) rupees/unit. Find the total cost of increasing production from 100 to 200 units. Integrand: \\( 0.02x + 5 \\), limits: 100 to 200. Result: \\( \\int_{100}^{200} (0.02x+5) \\, dx = [0.01x^2 + 5x]_{100}^{200} = (400+1000) - (100+500) = 800 \\) rupees. A poor answer uses an integrand that is not a derivative of a meaningful quantity or misinterprets the result.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

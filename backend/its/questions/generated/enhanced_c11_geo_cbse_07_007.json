@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_007",
+   "title": "c11_geo_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define a sea cliff and state the two primary wave erosion processes responsible for its vertical profile.",
+     "a": "A sea cliff is a steep, near-vertical rock face formed where wave erosion undercuts the base of a coastal slope, causing mass wasting of the overlying material. The two primary processes are **hydraulic action** (air compressed in joints exerts pressure up to 30 tonnes/m², widening fractures) and **abrasion** (rock fragments hurled against the cliff face act as cutting tools). A wrong answer (e.g., \"waves crash and break rocks\") reveals the student lacks process-specific terminology and does not distinguish between the pressure-based and tool-based mechanisms — a senior secondary error that leads to vague explanations in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Why do sea caves preferentially form on headlands rather than in bays, and what structural feature of the rock controls their inland penetration?",
+     "a": "Headlands refract waves, concentrating energy on their sides where joints and faults are exposed; caves form where wave quarrying exploits these lines of weakness. The inland penetration is controlled by **joint spacing and orientation** — closely spaced, landward-dipping joints allow deeper cave development. A wrong answer (e.g., \"headlands stick out so waves hit them harder\") shows the student understands energy concentration but misses the structural control (joints/faults) that determines *where* and *how far* erosion penetrates — a common Class 11 omission that loses marks in \"explain the formation\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, a student marks a series of linear sand ridges parallel to the coast, separated by lagoons, along the Kerala coast. Identify the landform and explain the two conditions necessary for its formation.",
+     "a": "The landform is a **barrier beach / bar** (specifically the *kayals* of Kerala). Conditions: (1) **Abundant sediment supply** from rivers (e.g., Periyar, Pamba) and (2) **Low to moderate wave energy** allowing onshore movement of sand but not destroying the ridge, combined with a gently sloping shoreface. Working: Identify landform from description (parallel ridges + lagoons) → Recall depositional landform classification → Apply to Kerala context (low gradient, high sediment). A wrong answer (e.g., \"spit\") reveals confusion between a spit (attached at one end, projecting across a bay) and a bar (parallel, often disconnected from mainland) — a map interpretation error frequent in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dominant coastal landforms on the western coast (Konkan/Malabar) versus the eastern coast (Coromandel/Northern Circars) of India and explain the geological and oceanographic reasons for the contrast.",
+     "a": "**Western coast:** Rocky, cliffed, with headlands, caves, stacks (e.g., Varkala cliffs, St. Mary's Islands stacks) — due to **basaltic/deccan trap geology**, narrow shelf, high wave energy from Arabian Sea swell, and tectonic uplift. **Eastern coast:** Depositional, with wide beaches (Marina, Chandipur), spits (Point Calimere), bars, lagoons (Pulicat, Chilika) — due to **sediment supply from large east-flowing rivers** (Mahanadi, Godavari, Krishna, Kaveri), wider continental shelf, lower wave energy (Bay of Bengal), and subsidence/deltaic progradation. A wrong answer listing only \"rocky vs sandy\" without linking to lithology, river sediment load, and wave climate shows superficial regional knowledge, not process-based analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Constructing a sea wall at Puducherry has solved coastal erosion but created a new problem.\" Identify the new problem and explain the sediment transport mechanism causing it.",
+     "a": "The new problem is **accelerated erosion downdrift (north) of the sea wall** and **loss of the recreational beach** fronting the wall. Mechanism: The sea wall reflects wave energy, causing scour at its base (deepening nearshore profile) and preventing the natural landward translation of the beach profile during storms. Crucially, it **interrupts longshore drift** (predominantly northward along Coromandel coast), starving downdrift sectors of sediment. The wall \"solves\" local cliff retreat but transfers erosion elsewhere — a classic \"hard engineering\" trade-off. A wrong answer focusing only on \"beach disappears\" without explaining the *longshore drift interruption* and *downdrift starvation* fails to demonstrate systems thinking required for evaluation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable coastal management plan for a 10 km stretch of the Odisha coast experiencing cyclic erosion (monsoon) and accretion (post-monsoon), incorporating both soft and hard engineering, and justify each measure using sediment budget principles.",
+     "a": "A good plan includes: (1) **Beach nourishment** using dredged sand from river mouths (adds to sediment budget), (2) **Artificial reefs / submerged breakwaters** offshore (reduce wave energy without blocking longshore drift), (3) **Sand bypassing system** at river mouths / harbours (maintains continuity of longshore transport), (4) **Dune restoration with native vegetation** (increases sediment storage capacity), (5) **Managed retreat zoning** for infrastructure (avoids future protection costs). Justification must reference **sediment cells**: identify the cell boundaries, quantify net longshore drift (e.g., 0.5 M m³/yr northward), and show measures maintain cell equilibrium. A poor answer proposes only a sea wall or only plantation, ignoring the sediment budget concept and the need to work *with* longshore drift.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

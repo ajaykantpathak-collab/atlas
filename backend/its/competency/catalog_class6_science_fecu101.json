@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 1,
+ "chapter_title": "The Wonderful World of Science",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.1.1",
+   "title": "Science Begins with Curiosity",
+   "section": "Introduction",
+   "definition": "Science grows from the questions children naturally ask about their surroundings; the subject called Science organises this curiosity into careful observation, questioning and testing.",
+   "formula": "",
+   "key_idea": "Curiosity is the raw material of science: every 'why' is the first step of an investigation.",
+   "textbook_ref": "fecu101.txt, Introduction",
+   "question_patterns": [
+    "why is science said to begin with curiosity",
+    "what kinds of questions does science ask",
+    "how is science different from guessing",
+    "what did you explore in the preparatory stage",
+    "why do we observe our surroundings carefully",
+    "what makes a question a scientific question"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.2",
+   "title": "The Scientific Method",
+   "section": "Activity 1.1 to 1.3",
+   "definition": "The method of science runs step by step: observe something, ask a question, guess a possible answer, test the guess with an activity, and draw a conclusion that others can check.",
+   "formula": "method = observe + question + guess + test + conclude",
+   "key_idea": "A test decides between guesses: the answer that survives checking becomes scientific knowledge.",
+   "textbook_ref": "fecu101.txt, Activity 1.1 to 1.3",
+   "question_patterns": [
+    "list the steps of the scientific method",
+    "why do scientists test their guesses",
+    "what is a hypothesis in simple words",
+    "why should a conclusion be checkable by others",
+    "what do we do after an experiment fails",
+    "how does an activity settle a question"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.3",
+   "title": "Science in Everyday Life: The Bicycle",
+   "section": "Activity 1.2, bicycle repair",
+   "definition": "Even repairing a bicycle uses scientific thinking: observe what is wrong, guess the cause of the noise or the flat tyre, try the fix, and see if it works, exactly like a scientist at work.",
+   "formula": "",
+   "key_idea": "Everyday fixing and scientific research share one method: trial, observation, conclusion.",
+   "textbook_ref": "fecu101.txt, Activity 1.2, bicycle repair",
+   "question_patterns": [
+    "how is repairing a bicycle like doing science",
+    "what steps would you follow to find why a cycle squeaks",
+    "give one example of science at work in your home",
+    "how does a guess help in repairing things",
+    "why do we test only one change at a time",
+    "where else do you use the scientific method unknowingly"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.4",
+   "title": "The Journey through Grade 6 Science",
+   "section": "Overview",
+   "definition": "The chapter previews the middle-stage journey: the diversity of life, food and health, magnets, measurement, materials, temperature, water, separation methods, living creatures, nature's treasures and the sky beyond earth.",
+   "formula": "",
+   "key_idea": "Science threads every theme together: one habit of careful questioning unlocks each new world.",
+   "textbook_ref": "fecu101.txt, Overview",
+   "question_patterns": [
+    "what topics will you study in grade 6 science",
+    "which chapter of this book interests you the most and why",
+    "how are the themes of the book connected",
+    "why is science called a wonderful world",
+    "what skills will you gain by studying science",
+    "how does science connect different subjects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu101.txt",
+   "concept": "fecu.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "what is science and how does it begin?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu101.txt",
+   "concept": "fecu.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "repair of a bicycle uses which scientific steps?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu101.txt, Let us enhance our learning",
+   "questions": [
+    "What is science and how does it begin?",
+    "Repair of a bicycle uses which scientific steps?",
+    "Name the themes you will study in this book.",
+    "Keep a list of five questions about your surroundings for a week.",
+    "Design a small activity to test why a ball bounces higher on some floors."
+   ]
+  }
+ ]
+}

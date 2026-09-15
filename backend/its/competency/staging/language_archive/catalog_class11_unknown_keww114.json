@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 114,
+  "chapter_title": "Telephone Conversation",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww114.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww114.1.1",
+      "title": "The Reasonable Price and the Fatal Question",
+      "section": "1",
+      "definition": "Wole Soyinka's dramatic monologue opens with an African applicant finding a flat at a reasonable price, location indifferent, landlady off premises. The negotiation proceeds until he confesses, honestly, that he is African -- and the line falls silent before her careful, accentless voice returns with the fatal question: HOW DARK?",
+      "formula": "",
+      "key_idea": "One honest word -- African -- stops the civil transaction and starts the comedy of prejudice.",
+      "textbook_ref": "keww114.txt opening lines (price seemed reasonable, landlady swore she lived off premises, confession of being african, silence, how dark)",
+      "question_patterns": [
+        "what changes the tone of the telephone conversation",
+        "in class 11 telephone conversation: why does the narrator confess he is african",
+        "how does the landlady react to the word african",
+        "explain the significance of the silence on the telephone",
+        "what does the phrase location indifferent suggest about the narrator",
+        "why does the narrator say he hates a wasted journey"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "set the civil scene",
+          "explain": "Price agreed, location acceptable, everything businesslike -- the ritual of renting runs smoothly."
+        },
+        {
+          "step": 2,
+          "action": "drop the truth",
+          "explain": "The narrator chooses honesty, announcing his African identity before wasting either party's journey."
+        },
+        {
+          "step": 3,
+          "action": "hear the silence",
+          "explain": "The polite machinery seizes; her voice returns spelled out in cold capital letters: HOW DARK?"
+        }
+      ]
+    },
+    {
+      "id": "keww114.1.2",
+      "title": "HOW DARK? -- The Telephone Inquisition",
+      "section": "1",
+      "definition": "The landlady presses: are you light or very dark? Clause by clause the narrator catalogues her question's absurdity -- is darkness a matter of 'down' in his person? He offers sarcastic measurements --Button B, Breast pocket, rcta -- treating skin as a telephone feature, exposing the indecency of the question by literalising it.",
+      "formula": "",
+      "key_idea": "Answering prejudice with satire -- the applicant measures his skin like a telephone part, and the question stands naked.",
+      "textbook_ref": "keww114.txt central stanzas (light or very dark, button b breast pocket, rcta, peroxide blonde, spectroscopic measurement of colour)",
+      "question_patterns": [
+        "what question does the landlady ask repeatedly and why",
+        "in class 11 telephone conversation: explain the narrator's sarcastic replies about button b and breast pocket",
+        "how does the narrator satirise the idea of measuring skin colour",
+        "what is meant by peroxide blonde and fringe in the poem",
+        "describe the landlady's voice as the poem portrays it",
+        "why does the narrator mention sepia, milk chocolate and brunette"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "repeat her question",
+          "explain": "HOW DARK? -- ARE YOU LIGHT OR VERY DARK? -- the poem's central refrain of prejudice."
+        },
+        {
+          "step": 2,
+          "action": "parody the meter",
+          "explain": "The narrator offers to read his colour off the phone's Button B or breast pocket, mocking the demand for measurement."
+        },
+        {
+          "step": 3,
+          "action": "offer the spectrum",
+          "explain": "He lists absurd shades -- sepia, milk chocolate, brunette -- or offers to sit spectroscopically, turning science against silliness."
+        }
+      ]
+    },
+    {
+      "id": "keww114.1.3",
+      "title": "Madam, Wasn't It -- the Ending's Polite Fury",
+      "section": "1",
+      "definition": "The landlady, weakened, still clings to her manners: she invites him over if he is willing, backing it with her 'aren't you sure?' The narrator, holding the burning wire, answers with courteous venom: 'Madam, wasn't it my choosing / your choice of address' -- finishing the humiliation before slamming the receiver on her 'monstrous' politeness.",
+      "formula": "",
+      "key_idea": "Courtesy as a weapon -- the last polite exchange detonates the landlady's refined racism.",
+      "textbook_ref": "keww114.txt closing lines (would you come, arent you sure, madam wasnt it my choosing, slamming the receiver, monstrous politeness)",
+      "question_patterns": [
+        "what does the landlady offer at the end of the conversation",
+        "in class 11 telephone conversation: explain the narrator's final words to the landlady",
+        "why does the narrator thank the landlady sarcastically",
+        "how does the poem end and what does the ending suggest",
+        "who is dehumanised in the poem and how",
+        "is the landlady polite or monstrous discuss the contradiction"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note her retreat",
+          "explain": "Pressed by his mockery, the landlady falls back on etiquette -- do come, if you're sure."
+        },
+        {
+          "step": 2,
+          "action": "deliver the riposte",
+          "explain": "He thanks her 'madam' for her 'monstrous' politeness and reverses the choosing: wasn't it his choice that decided?"
+        },
+        {
+          "step": 3,
+          "action": "hang up the judgement",
+          "explain": "He slams the receiver on her 'suffocating' civility -- the poem's anger sealed in courtesy."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww114.txt central stanzas",
+      "concept": "keww114.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the satire in the narrator's offer to 'sit down spectroscopically' for the landlady.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall her demand",
+          "explain": "The landlady wants a precise shade -- light or very dark -- before consenting."
+        },
+        {
+          "step": 2,
+          "action": "read his reply",
+          "explain": "He offers a scientific demonstration of colour, as if skin were a specimen."
+        },
+        {
+          "step": 3,
+          "action": "draw the satire",
+          "explain": "By over-obeying her absurd request, he exposes its absurdity -- racism measured is racism ridiculed."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww114.txt opening lines",
+      "concept": "keww114.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the narrator say 'I hate a wasted journey -- I am African'?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the practical motive",
+          "explain": "He chooses to disclose his identity before travelling, sparing himself a pointless trip."
+        },
+        {
+          "step": 2,
+          "action": "note the moral motive",
+          "explain": "Honesty up front also puts the landlady's prejudice to the test immediately."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The single sentence is both practical caution and principled self-declaration -- the hinge of the poem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww114.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the telephone conversation between the narrator and the landlady.",
+        "How does Soyinka present racial prejudice through the landlady's questions?",
+        "Explain the humour and irony in the narrator's replies.",
+        "Comment on the significance of the title.",
+        "How is the landlady's voice and person described?",
+        "What is the effect of the poem's ending?"
+      ]
+    }
+  ]
+}

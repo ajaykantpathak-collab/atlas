@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_08_005",
+   "title": "c12_math_cbse_08_005",
+   "questions": [
+    {
+     "q": "Write the definite integral (with limits) that gives the area of the circle \\(x^2 + y^2 = 9\\) using vertical strips and symmetry. Do not evaluate.",
+     "a": "The correct integral is \\(A = 4\\int_0^3 \\sqrt{9 - x^2}\\,dx\\). A wrong answer like \\(\\int_{-3}^3 \\sqrt{9 - x^2}\\,dx\\) (missing factor 2) or \\(2\\int_0^3 \\sqrt{9 - x^2}\\,dx\\) (only half the circle) reveals that the student does not fully grasp how symmetry factors work: the integral of the upper half from \\(-a\\) to \\(a\\) gives half the area, so multiplying by 2 gives the full area; using the first quadrant only requires multiplying by 4.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when finding the area of the ellipse \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\) using vertical strips, we use \\(y = \\frac{b}{a}\\sqrt{a^2 - x^2}\\) instead of \\(y = \\sqrt{b^2 - \\frac{b^2}{a^2}x^2}\\). Are they equivalent?",
+     "a": "Yes, they are algebraically equivalent: \\(\\frac{b}{a}\\sqrt{a^2 - x^2} = \\sqrt{\\frac{b^2}{a^2}(a^2 - x^2)} = \\sqrt{b^2 - \\frac{b^2}{a^2}x^2}\\). The form \\(\\frac{b}{a}\\sqrt{a^2 - x^2}\\) is preferred because it directly shows the scaling factor \\(\\frac{b}{a}\\) applied to the circle’s upper half \\(y = \\sqrt{a^2 - x^2}\\), making the integral \\( \\frac{b}{a} \\int \\sqrt{a^2 - x^2}\\,dx \\) and the final area \\(\\frac{b}{a} \\cdot \\pi a^2 = \\pi ab\\). A student who does not recognise the equivalence may make algebraic errors when substituting or simplifying.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the region bounded by the ellipse \\(\\frac{x^2}{16} + \\frac{y^2}{9} = 1\\) and the lines \\(x = 0\\), \\(y = 0\\) (i.e., the first quadrant only). Show all steps.",
+     "a": "**Solution:**  \nEllipse: \\(a = 4\\), \\(b = 3\\). In first quadrant, \\(y = \\frac{3}{4}\\sqrt{16 - x^2}\\), \\(x \\in [0, 4]\\).  \nArea \\(A = \\int_0^4 \\frac{3}{4}\\sqrt{16 - x^2}\\,dx\\).  \nLet \\(x = 4\\sin\\theta\\), \\(dx = 4\\cos\\theta\\,d\\theta\\). When \\(x=0\\), \\(\\theta=0\\); when \\(x=4\\), \\(\\theta=\\frac{\\pi}{2}\\).  \n\\(A = \\frac{3}{4}\\int_0^{\\pi/2} \\sqrt{16 - 16\\sin^2\\theta} \\cdot 4\\cos\\theta\\,d\\theta = \\frac{3}{4}\\int_0^{\\pi/2} 4\\cos\\theta \\cdot 4\\cos\\theta\\,d\\theta = 12\\int_0^{\\pi/2} \\cos^2\\theta\\,d\\theta\\).  \n\\(\\int_0^{\\pi/2} \\cos^2\\theta\\,d\\theta = \\frac{\\pi}{4}\\).  \n\\(A = 12 \\cdot \\frac{\\pi}{4} = 3\\pi\\) square units.  \nA wrong answer like \\(12\\pi\\) (full ellipse area) indicates the student forgot to restrict to the first quadrant. An answer of \\(\\frac{3\\pi}{2}\\) suggests they used symmetry factor 2 instead of integrating only the first quadrant.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals for the area of the circle \\(x^2 + y^2 = a^2\\) using vertical strips and horizontal strips. Are they equal? Why must they be equal?",
+     "a": "Vertical strips: \\(A = 4\\int_0^a \\sqrt{a^2 - x^2}\\,dx\\).  \nHorizontal strips: \\(A = 4\\int_0^a \\sqrt{a^2 - y^2}\\,dy\\).  \nThey are equal because the circle is symmetric about the line \\(y = x\\); swapping \\(x\\) and \\(y\\) does not change the region. The integrals are identical in form, just with a dummy variable change. A student who thinks they are different may not understand that the choice of variable of integration does not affect the area, or may incorrectly set up the horizontal strip integral as \\(\\int_0^a x\\,dy\\) without solving for \\(x\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates the area of the ellipse \\(\\frac{x^2}{25} + \\frac{y^2}{4} = 1\\) as follows:  \n\\(A = 4\\int_0^5 \\sqrt{4 - \\frac{4}{25}x^2}\\,dx = 4\\int_0^5 2\\sqrt{1 - \\frac{x^2}{25}}\\,dx = 8\\int_0^5 \\sqrt{1 - \\frac{x^2}{25}}\\,dx\\).  \nThey then substitute \\(x = 5\\sin\\theta\\) and get \\(A = 8\\int_0^{\\pi/2} \\cos\\theta \\cdot 5\\cos\\theta\\,d\\theta = 40\\int_0^{\\pi/2} \\cos^2\\theta\\,d\\theta = 40 \\cdot \\frac{\\pi}{4} = 10\\pi\\).  \nIs this correct? If not, identify the error.",
+     "a": "The student’s final answer \\(10\\pi\\) is correct (\\(\\pi ab = \\pi \\cdot 5 \\cdot 2 = 10\\pi\\)), but there is a subtle algebraic error in the first step: \\(\\sqrt{4 - \\frac{4}{25}x^2} = \\sqrt{4(1 - \\frac{x^2}{25})} = 2\\sqrt{1 - \\frac{x^2}{25}}\\), which is correct. However, the integral should be \\(4\\int_0^5 \\frac{2}{5}\\sqrt{25 - x^2}\\,dx\\) if using the standard substitution \\(x = 5\\sin\\theta\\) directly on \\(\\sqrt{25 - x^2}\\). The student’s method works because they effectively used \\(x = 5\\sin\\theta\\) on \\(\\sqrt{1 - \\frac{x^2}{25}}\\), but they must adjust \\(dx\\): if \\(x = 5\\sin\\theta\\), then \\(dx = 5\\cos\\theta\\,d\\theta\\), and \\(\\sqrt{1 - \\frac{x^2}{25}} = \\cos\\theta\\). The integral becomes \\(8\\int_0^{\\pi/2} \\cos\\theta \\cdot 5\\cos\\theta\\,d\\theta = 40\\int_0^{\\pi/2} \\cos^2\\theta\\,d\\theta\\), which is correct. A common error is to forget the factor 5 from \\(dx\\), leading to \\(8\\int_0^{\\pi/2} \\cos^2\\theta\\,d\\theta = 2\\pi\\), which is wrong. The student here did it correctly, but many forget the \\(dx\\) substitution factor.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where the area of a circle is found using horizontal strips, but the region is only the part of the circle \\(x^2 + y^2 = 16\\) that lies above the line \\(y = 2\\). Set up the integral (do not evaluate).",
+     "a": "The circle radius is 4. The line \\(y = 2\\) cuts the circle at \\(x = \\pm\\sqrt{16 - 4} = \\pm\\sqrt{12} = \\pm 2\\sqrt{3}\\). The region above \\(y = 2\\) is symmetric about the y-axis. Using horizontal strips, for a given \\(y\\), \\(x\\) runs from \\(-\\sqrt{16 - y^2}\\) to \\(\\sqrt{16 - y^2}\\). The width is \\(2\\sqrt{16 - y^2}\\). \\(y\\) runs from 2 to 4.  \nArea \\(A = \\int_2^4 2\\sqrt{16 - y^2}\\,dy\\).  \nA good answer shows the correct limits (2 to 4), the correct width \\(2\\sqrt{16 - y^2}\\), and recognises the symmetry. A poor answer might use limits 0 to 4 (full upper half) or forget the factor 2 for the width.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

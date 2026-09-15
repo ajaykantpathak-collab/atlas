@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_004",
+   "title": "c12_math_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the order of the differential equation formed from the general solution \\(y = C_1 e^{2x} + C_2 e^{-3x} + C_3\\), where \\(C_1, C_2, C_3\\) are arbitrary constants?",
+     "a": "The order is 3. A wrong answer of 2 reveals the student incorrectly assumes the constant term \\(C_3\\) is not essential (it is, because it cannot be absorbed into the other terms). A wrong answer of 1 reveals the student thinks the order equals the number of distinct exponential functions, ignoring the additive constant.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we differentiate the general solution exactly as many times as the number of essential arbitrary constants? Explain what happens if we differentiate fewer times or more times.",
+     "a": "Differentiating \\(n\\) times (where \\(n\\) is the number of essential constants) yields \\(n+1\\) equations (the original plus \\(n\\) derivatives) which can be solved to eliminate the \\(n\\) constants, leaving one relation among \\(y, y', \\dots, y^{(n)}\\) — the differential equation of order \\(n\\). Differentiating fewer times leaves constants uneliminated; differentiating more times introduces higher derivatives unnecessarily but the equation remains valid (just not minimal order). A student who says \"differentiate until constants disappear\" without linking to the count shows procedural mimicry without conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Form the differential equation for the family of curves \\(y = A \\sin x + B \\cos x\\), where \\(A\\) and \\(B\\) are arbitrary constants.",
+     "a": "**Steps:**\n1. Two constants → differentiate twice.\n2. \\(y = A \\sin x + B \\cos x\\)\n3. \\(y' = A \\cos x - B \\sin x\\)\n4. \\(y'' = -A \\sin x - B \\cos x = -y\\)\n5. Rearrange: \\(y'' + y = 0\\).\n**Answer:** \\(y'' + y = 0\\).\nA wrong answer like \\(y' = A \\cos x - B \\sin x\\) (stopping at first derivative) shows the student didn't eliminate constants. A wrong answer \\(y'' - y = 0\\) shows a sign error in differentiating \\(\\cos x\\) or \\(\\sin x\\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the differential equations formed from (i) \\(y = A e^{x} + B e^{2x}\\) and (ii) \\(y = A e^{x} + B x e^{x}\\). Both have two arbitrary constants. How do their differential equations differ, and what does this difference reveal about the nature of the constants in each family?",
+     "a": "(i) gives \\(y'' - 3y' + 2y = 0\\) (distinct roots 1, 2). (ii) gives \\(y'' - 2y' + y = 0\\) (repeated root 1). The difference in the differential equations (specifically the coefficients) reveals that in (i) the two independent solutions are \\(e^x\\) and \\(e^{2x}\\), while in (ii) the second solution \\(x e^x\\) arises from a repeated root. A student who claims both yield the same DE fails to recognize that linear independence of the solution basis depends on the structure of the constants, not just their count.",
+     "self_check": true
+    },
+    {
+     "q": "A student forms the differential equation for \\(y = C_1 x^2 + C_2 x + C_3\\) and obtains \\(y''' = 0\\). They argue that since the original equation is a polynomial of degree 2, the differential equation should be of order 2. Evaluate the student's argument and correct the misconception.",
+     "a": "The student is wrong. The order is determined by the number of **essential** arbitrary constants, not the polynomial degree. Here \\(C_1, C_2, C_3\\) are three independent constants (the family is all quadratics), so three differentiations are needed to eliminate them, yielding order 3. The polynomial degree being 2 means \\(y''' = 0\\) is the DE, which is order 3. The student confuses \"degree of polynomial\" with \"order of differential equation\". A correct evaluation identifies that \\(y'' = 2C_1\\) still contains a constant, so one more differentiation is required.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a general solution with exactly two essential arbitrary constants that yields the differential equation \\(y'' + 4y = 0\\). Explain your reasoning.",
+     "a": "The characteristic equation is \\(r^2 + 4 = 0 \\Rightarrow r = \\pm 2i\\). The general solution is \\(y = A \\cos 2x + B \\sin 2x\\). Any linear combination of \\(\\cos 2x\\) and \\(\\sin 2x\\) with two independent constants works. A poor answer like \\(y = A \\cos 2x\\) (one constant) or \\(y = A \\cos 2x + B \\sin 2x + C\\) (three constants) shows the student doesn't connect the order of the DE to the number of essential constants in the general solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

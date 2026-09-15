@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_007",
+   "title": "c10_chem_cbse_05_007",
+   "questions": [
+    {
+     "q": "State the trend in atomic radius down a group in the Modern Periodic Table and give the reason in one sentence.",
+     "a": "Atomic radius increases down a group because a new electron shell is added at each successive element, increasing the distance between the nucleus and the outermost electrons despite the increase in nuclear charge. A wrong answer (e.g., \"atomic radius decreases because nuclear charge increases\") reveals the student is applying the across-period trend incorrectly and ignores the dominant shell-addition effect.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the metallic character of elements increases down Group 14 (Carbon to Lead) even though they all have 4 valence electrons.",
+     "a": "Metallic character increases because the increasing atomic size and shielding effect down the group reduce the effective nuclear pull on the valence electrons, making them easier to lose (a metallic property). Carbon is a non-metal, Si/Ge are metalloids, Sn/Pb are metals. A wrong answer (e.g., \"metallic character decreases because atomic number increases\") shows confusion between nuclear charge and effective nuclear charge, and failure to link electron loss tendency to metallic character.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reaction of potassium (K) with cold water. Compare the vigour of this reaction with that of lithium (Li) and explain the difference using the trend down Group 1.",
+     "a": "2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g) + heat. Potassium reacts more vigorously than lithium (which reacts gently) because K has a larger atomic radius and lower ionization energy, so its single valence electron is lost more easily to form K⁺. A wrong answer (e.g., unbalanced equation, or saying Li is more reactive) indicates inability to write alkali metal-water reactions or misunderstanding that reactivity increases down Group 1.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following displacement reactions and predict which halogen will displace which:\n(i) Cl₂ + 2NaBr → 2NaCl + Br₂\n(ii) Br₂ + 2NaI → 2NaBr + I₂\n(iii) I₂ + 2NaCl → No reaction\nState the trend in oxidizing power down Group 17 and justify using atomic size.",
+     "a": "Chlorine displaces bromine; bromine displaces iodine; iodine cannot displace chlorine. Oxidizing power decreases down Group 17 (Cl₂ > Br₂ > I₂). As atomic size increases down the group, the nucleus holds the valence electrons less tightly, reducing the tendency to gain an electron (oxidizing ability). A wrong answer (e.g., I₂ displacing Cl₂) shows the student thinks reactivity increases down all groups, confusing metal (Group 1) and non-metal (Group 17) trends.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Down Group 2, the first ionization energy increases because the nuclear charge increases.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. First ionization energy decreases down Group 2. Although nuclear charge increases, the addition of a new shell and increased shielding effect dominate, making the valence electrons easier to remove. The student has ignored the shielding/shell effect and applied only the nuclear charge argument (which is valid across a period, not down a group). This error reveals a failure to distinguish between period and group trend drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using common laboratory chemicals to demonstrate that reactivity of halogens decreases down Group 17. List the chemicals, procedure, observations, and conclusion.",
+     "a": "Chemicals: Chlorine water (Cl₂), bromine water (Br₂), iodine solution (I₂), potassium bromide (KBr), potassium iodide (KI), potassium chloride (KCl), test tubes. Procedure: Add Cl₂ water to KBr and KI solutions separately; add Br₂ water to KI and KCl; add I₂ solution to KCl and KBr. Observations: Cl₂ displaces Br₂ (orange color) and I₂ (brown color); Br₂ displaces I₂ but not Cl₂; I₂ displaces neither. Conclusion: Displacement ability decreases down the group, proving oxidizing power/reactivity decreases. A poor answer (e.g., no control tests, wrong predictions) shows inability to design a controlled displacement experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_007",
+   "title": "c11_math_cbse_11_007",
+   "questions": [
+    {
+     "q": "State the formula for eccentricity of an ellipse \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\) with \\(a > b\\), and give the coordinates of its foci.",
+     "a": "Eccentricity \\(e = \\frac{\\sqrt{a^2 - b^2}}{a}\\), foci are \\((\\pm \\sqrt{a^2 - b^2}, 0)\\). A wrong answer like \\(e = \\frac{\\sqrt{b^2 - a^2}}{a}\\) or foci at \\((0, \\pm c)\\) reveals confusion about which axis is major and the condition \\(a > b\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the eccentricity of an ellipse is always less than 1, using the relationship \\(c^2 = a^2 - b^2\\).",
+     "a": "Since \\(a > b > 0\\), \\(c = \\sqrt{a^2 - b^2} < a\\), so \\(e = c/a < 1\\). If a student says \\(e > 1\\) or uses \\(c = \\sqrt{a^2 + b^2}\\), they are confusing ellipse with hyperbola or misapplying the Pythagorean relation.",
+     "self_check": true
+    },
+    {
+     "q": "Find the eccentricity, foci, and directrices of the ellipse \\(4x^2 + 9y^2 = 36\\).",
+     "a": "Divide by 36: \\(\\frac{x^2}{9} + \\frac{y^2}{4} = 1\\). Here \\(a^2 = 9, b^2 = 4 \\Rightarrow a=3, b=2\\). \\(c = \\sqrt{9-4} = \\sqrt{5}\\). \\(e = \\frac{\\sqrt{5}}{3}\\). Foci: \\((\\pm \\sqrt{5}, 0)\\). Directrices: \\(x = \\pm \\frac{3}{\\sqrt{5}/3} = \\pm \\frac{9}{\\sqrt{5}}\\). A wrong answer with \\(a=2, b=3\\) shows inability to identify the larger denominator as \\(a^2\\).",
+     "self_check": true
+    },
+    {
+     "q": "An ellipse has foci at \\((\\pm 4, 0)\\) and eccentricity \\(e = \\frac{2}{3}\\). Find its equation and directrices.",
+     "a": "Given \\(c = 4\\), \\(e = c/a = 2/3 \\Rightarrow a = 6\\). Then \\(b^2 = a^2 - c^2 = 36 - 16 = 20\\). Equation: \\(\\frac{x^2}{36} + \\frac{y^2}{20} = 1\\). Directrices: \\(x = \\pm a/e = \\pm 6/(2/3) = \\pm 9\\). If a student uses \\(b\\) instead of \\(a\\) in \\(e = c/a\\), they will get incorrect \\(a\\) and \\(b\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for the ellipse \\(\\frac{x^2}{16} + \\frac{y^2}{25} = 1\\), the foci are \\((\\pm 3, 0)\\) and directrices are \\(x = \\pm \\frac{16}{3}\\). Evaluate this claim.",
+     "a": "The claim is false. Here \\(b^2 = 25 > a^2 = 16\\), so major axis is y-axis. \\(c = \\sqrt{25-16} = 3\\). Foci: \\((0, \\pm 3)\\). \\(e = c/b = 3/5\\). Directrices: \\(y = \\pm b/e = \\pm 25/3\\). The student incorrectly assumed major axis along x-axis.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem where an elliptical arch of a bridge has a span of 20 m and height 8 m at the center. Ask for the distance from the center to the foci and the equations of the directrices.",
+     "a": "Span = 20 m \\(\\Rightarrow\\) semi-major axis \\(a = 10\\) m (horizontal). Height = 8 m \\(\\Rightarrow\\) semi-minor axis \\(b = 8\\) m. \\(c = \\sqrt{100-64} = 6\\) m. Foci at \\((\\pm 6, 0)\\). \\(e = 6/10 = 0.6\\). Directrices: \\(x = \\pm a/e = \\pm 10/0.6 = \\pm 50/3\\) m. A poor answer would use \\(a=8, b=10\\) or forget to halve the span.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

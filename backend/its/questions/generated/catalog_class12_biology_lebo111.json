@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_biology_lebo111",
+ "concepts": [
+  {
+   "id": "lebo.111.1",
+   "title": "Habitat and Abiotic Factors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Habitat and Abiotic Factors' refers to.",
+     "a": "Every organism lives in a habitat that supplies food, shelter and mates, and the habitat is shaped by four major abiotic components: temperature, water, light and soil, together with the physico-chemical features of the substratum and atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Habitat and Abiotic Factors'.",
+     "a": "Ecology at the organism level is basically the study of how an organism meets the stresses these abiotic factors impose.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Habitat and Abiotic Factors' taught, and from which source text?",
+     "a": "Organism and Its Environment (source: lebo111.txt unit introduction, habitat definition and abiotic factor sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.2",
+   "title": "Responses to Abiotic Stress",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Responses to Abiotic Stress' refers to.",
+     "a": "Organisms cope with unfavourable temperature and water conditions in four ways: regulate internal conditions (homeostasis like mammals and birds), simply conform to the ambient conditions, migrate temporarily to more suitable habitats, or suspend activity (diapause, hibernation, aestivation).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Responses to Abiotic Stress'.",
+     "a": "Only a small fraction of animals are true regulators; most are conformers because thermoregulation is energetically expensive.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Responses to Abiotic Stress' taught, and from which source text?",
+     "a": "Responses to Abiotic Factors (source: lebo111.txt regulate-conform-migrate-suspend section and desert lizard example)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.3",
+   "title": "Population Growth Models",
+   "questions": [
+    {
+     "q": "Using the method 'Population Growth Models', work with: k_cap = 8, n_pop = 120, r_rate = 15. Carry the chain through step by step and give the final value of instantaneous_growth.",
+     "a": "1800 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Population Growth Models' and work with: k_cap = 45, n_pop = 200, r_rate = 8. Carry the chain through step by step and give the final value of instantaneous_growth.",
+     "a": "1600 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Population Growth Models' refers to.",
+     "a": "Population density changes through natality, mortality, immigration and emigration; under unlimited resources growth is exponential (dN/dt = rN) while under the carrying capacity K of real habitats growth is logistic (dN/dt = rN(K-N)/K), giving a sigmoid curve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Growth Models'.",
+     "a": "The term (K-N)/K weights growth down as N approaches carrying capacity, so computing it tells how much room a population still has to grow.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Growth Models', in plain ASCII form.",
+     "a": "logistic_fraction = (k_cap - n_pop) / k_cap",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.4",
+   "title": "Population Interactions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Population Interactions' refers to.",
+     "a": "Populations of different species interact as mutualism (both benefit), competition (both harmed), predation and parasitism (one benefits, other harmed), commensalism (one benefits, other unaffected) and amensalism (one harmed, other unaffected).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Interactions'.",
+     "a": "Competition is best defined as a minus-minus interaction and its outcome may be competitive exclusion or resource partitioning (like the five closely related species of warblers on a single tree).",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Population Interactions' taught, and from which source text?",
+     "a": "Population Interactions (source: lebo111.txt interaction table and warbler resource-partitioning example)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

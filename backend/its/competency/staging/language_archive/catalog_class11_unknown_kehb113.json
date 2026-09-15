@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 113,
+  "chapter_title": "Sub-titling",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb113.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb113.1.1",
+      "title": "Purpose of Sub-titling a Long Text",
+      "section": "3",
+      "definition": "Sub-titles break a long piece of writing into signposted sections, each heading naming the idea of its block. They let a reader see at a glance the map of the whole argument and locate any sub-topic without rereading.",
+      "formula": "",
+      "key_idea": "Sub-titles are signposts -- each one names the stretch of road the reader is on.",
+      "textbook_ref": "kehb113.txt opening (purpose of sub titling, main idea or theme of each section, help the reader at a glance, break monotony)",
+      "question_patterns": [
+        "what is the purpose of sub titling",
+        "in class 11 sub titling: how do sub titles help readers of a long text",
+        "when should a text be divided for sub titling",
+        "what makes a sub title effective",
+        "give suitable sub titles for the sections of a given passage",
+        "how do sub titles differ from a summary title"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "find the natural joints", "explain": "Read for the points where the text moves to a new sub-topic -- those are section boundaries."},
+        {"step": 2, "action": "name each block", "explain": "Summarise each section's single governing idea in a short heading."},
+        {"step": 3, "action": "check the map", "explain": "Read the sub-titles in sequence: they should trace the whole argument like chapter titles."}
+      ]
+    },
+    {
+      "id": "kehb113.1.2",
+      "title": "Qualities of a Good Sub-title",
+      "section": "3",
+      "definition": "A good sub-title is brief, striking and faithful: short enough to scan, memorable enough to stick, and true to the section's content -- never wider or narrower than the block it heads. Parallel phrasing across sub-titles adds polish.",
+      "formula": "",
+      "key_idea": "Short, sharp and exact -- a sub-title must fit its section like a label on a jar.",
+      "textbook_ref": "kehb113.txt qualities sections (brief, striking, apt headings, wording of sub titles, consistency)",
+      "question_patterns": [
+        "what qualities should a good sub title have",
+        "in class 11 sub titling: why must a sub title be neither too wide nor too narrow",
+        "suggest striking sub titles for given sections",
+        "how does parallel phrasing improve a set of sub titles",
+        "compare two possible sub titles and pick the better one",
+        "why must sub titles be brief"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "test brevity", "explain": "Trim each candidate to its leanest accurate form -- usually a phrase, not a sentence."},
+        {"step": 2, "action": "test fit", "explain": "Confirm the heading covers exactly the section's content, no more and no less."},
+        {"step": 3, "action": "test the set", "explain": "Line up all sub-titles for consistent style and non-overlapping coverage."}
+      ]
+    },
+    {
+      "id": "kehb113.1.3",
+      "title": "Sub-titling as a Study and Writing Tool",
+      "section": "3",
+      "definition": "Beyond reading aid, sub-titling trains writers to structure their own compositions: deciding section boundaries and naming them before drafting imposes a clear plan. It also doubles as a comprehension exercise -- a set of accurate sub-titles proves the reader has grasped each section's point.",
+      "formula": "",
+      "key_idea": "Name the blocks before you build them -- sub-titling is planning made visible.",
+      "textbook_ref": "kehb113.txt application sections (sub titling as comprehension exercise, use in own writing, planning long answers)",
+      "question_patterns": [
+        "how does sub titling test comprehension of a passage",
+        "in class 11 sub titling: how can sub titles help in planning your own essay",
+        "use sub titles to organise a long answer in an exam",
+        "what do accurate sub titles prove about a reader",
+        "practice dividing a passage and framing sub titles",
+        "relate sub titling to note making and summarising"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "use for reading", "explain": "Framing sub-titles for an unbroken text forces section-by-section comprehension."},
+        {"step": 2, "action": "use for writing", "explain": "Fixing headings first gives an essay a skeleton that paragraphs can flesh out."},
+        {"step": 3, "action": "link the skills", "explain": "Sub-titling sits between note-making's compression and summarising's fidelity -- all three discipline reading."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb113.txt purpose sections",
+      "concept": "kehb113.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A passage on the benefits of exercise has three unmarked blocks: physical gains, mental gains, and how to begin. Frame suitable sub-titles.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "read for joints", "explain": "Shifts from body to mind to method mark the three section boundaries."},
+        {"step": 2, "action": "frame headings", "explain": "Suggested sub-titles: Fitness for the Body; Fitness for the Mind; Taking the First Step."},
+        {"step": 3, "action": "check the set", "explain": "Each title is brief, parallel and exactly as wide as its block."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb113.txt qualities sections",
+      "concept": "kehb113.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "For a section that discusses only the cost of solar panels, choose between 'Solar Energy' and 'The Price Question' as sub-title, and justify.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "test width", "explain": "'Solar Energy' covers everything about solar power -- too wide for a cost-only section."},
+        {"step": 2, "action": "test fit", "explain": "'The Price Question' names exactly the section's concern."},
+        {"step": 3, "action": "conclude", "explain": "The narrower, apter heading obeys the fit rule; wide titles blur the text's map."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb113.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Divide a given passage into sections and give each a sub-title.",
+        "Evaluate and improve a set of weak sub-titles.",
+        "Explain how sub-titles aid a reader of a long article.",
+        "Frame sub-titles for the paragraphs of a chapter you have studied.",
+        "State the qualities of a good sub-title with examples.",
+        "How is sub-titling different from giving a passage a single title?"
+      ]
+    }
+  ]
+}

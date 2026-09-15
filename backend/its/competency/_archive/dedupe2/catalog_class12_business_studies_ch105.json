@@ -1,0 +1,348 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 105,
+ "chapter_title": "Organising",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs105.txt",
+ "concepts": [
+  {
+   "id": "lebs.105.1",
+   "title": "Concept of Organising",
+   "section": "Meaning",
+   "definition": "A managerial function of establishing relationships, grouping activities, and assembling resources to execute plans systematically.",
+   "formula": "",
+   "key_idea": "Translating strategic plans into structured collective action.",
+   "textbook_ref": "lebs105.txt lines 110-150",
+   "question_patterns": [
+    "explain the concept of organising",
+    "what is meant by the organising function of management",
+    "define organising in business administration",
+    "how does organising translate plans into action"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core objectives and resources of the enterprise",
+     "explain": "Organising begins with understanding what needs to be achieved and what resources are available."
+    },
+    {
+     "step": 2,
+     "action": "Group activities and establish relationships",
+     "explain": "Create departments and define who reports to whom to ensure smooth execution."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.2",
+   "title": "Steps in the Process of Organising",
+   "section": "Steps in the process of organising",
+   "definition": "The sequential procedure of dividing work, grouping similar tasks, assigning duties, and establishing reporting lines.",
+   "formula": "",
+   "key_idea": "Systematic progression from individual tasks to a coordinated hierarchy.",
+   "textbook_ref": "lebs105.txt lines 151-210",
+   "question_patterns": [
+    "what are the steps in the process of organising",
+    "explain the sequence of activities in organising",
+    "describe the organising process in an enterprise",
+    "how is work divided and assigned in the organising process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify and divide the work",
+     "explain": "Break down total work into manageable activities to avoid duplication."
+    },
+    {
+     "step": 2,
+     "action": "Group similar activities into departments",
+     "explain": "Perform departmentalisation based on territory, product, or function."
+    },
+    {
+     "step": 3,
+     "action": "Assign duties to personnel",
+     "explain": "Allocate specific roles to individuals based on their skills and competencies."
+    },
+    {
+     "step": 4,
+     "action": "Establish reporting relationships",
+     "explain": "Define clear lines of authority so everyone knows who to report to."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.3",
+   "title": "Importance of Organising",
+   "section": "Importance of Organising",
+   "definition": "The organizational benefits derived from structured coordination, including specialization, clarity, resource optimization, and growth.",
+   "formula": "",
+   "key_idea": "Creating order out of chaos to enhance administrative efficiency and personnel development.",
+   "textbook_ref": "lebs105.txt lines 211-260",
+   "question_patterns": [
+    "why is organising considered important",
+    "explain the significance of the organising function",
+    "how does organising benefit an enterprise",
+    "what role does organising play in adaptation to change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze benefits of specialization and clarity",
+     "explain": "Organising reduces workloads and clarifies lines of communication."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate resource utilization and growth potential",
+     "explain": "Proper job allocation prevents duplication and allows the firm to expand smoothly."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.4",
+   "title": "Span of Management",
+   "section": "Organisation Structure",
+   "definition": "The quantitative limit on the number of subordinates that a single manager can effectively supervise.",
+   "formula": "superiors = subordinates / span",
+   "key_idea": "Determines the vertical levels and shape of the organizational hierarchy.",
+   "textbook_ref": "lebs105.txt lines 261-300",
+   "question_patterns": [
+    "calculate the number of superiors needed for a given number of subordinates and span",
+    "find the required supervisors if there are subordinates and a specific span",
+    "how many managers are required to supervise subordinates with a span of",
+    "determine the supervisor count given span and total workforce"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the total number of subordinates by the span of management to find the required number of superiors.",
+     "explain": "The formula for required superiors is total subordinates divided by the span of management.",
+     "compute": "superiors = subordinates / span"
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.5",
+   "title": "Functional Structure",
+   "section": "Types of Organisation Structures",
+   "definition": "An organizational design that groups jobs based on similar functions or areas of specialization, such as marketing or finance.",
+   "formula": "",
+   "key_idea": "Promotes occupational specialization and functional efficiency under a single coordinating head.",
+   "textbook_ref": "lebs105.txt lines 301-360",
+   "question_patterns": [
+    "what is a functional structure",
+    "explain the advantages and disadvantages of functional structure",
+    "when is functional structure suitable for an organization",
+    "describe the functional design of an enterprise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group jobs of a similar nature",
+     "explain": "Classify activities into major functional departments like production, marketing, and finance."
+    },
+    {
+     "step": 2,
+     "action": "Establish a coordinating head",
+     "explain": "Ensure all functional departments report to a single coordinating manager."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.6",
+   "title": "Divisional Structure",
+   "section": "Types of Organisation Structures",
+   "definition": "An organizational framework where activities are grouped around distinct product lines, territories, or business units.",
+   "formula": "",
+   "key_idea": "Each division operates as an autonomous profit center with its own functional departments.",
+   "textbook_ref": "lebs105.txt lines 361-420",
+   "question_patterns": [
+    "explain the divisional structure of organisation",
+    "what are the benefits and limitations of divisional structure",
+    "distinguish between functional and divisional structures",
+    "when should a company adopt a divisional structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group activities based on product lines",
+     "explain": "Create separate autonomous units for each product category or territory."
+    },
+    {
+     "step": 2,
+     "action": "Appoint divisional heads with multi-functional authority",
+     "explain": "Each division houses its own production, sales, and finance teams under a single head."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.7",
+   "title": "Formal Organisation",
+   "section": "Formal and Informal Organisation",
+   "definition": "The officially designated structure of well-defined jobs, authority-responsibility relationships, and rules created by management.",
+   "formula": "",
+   "key_idea": "Deliberately designed to ensure systematic coordination and goal achievement.",
+   "textbook_ref": "lebs105.txt lines 421-480",
+   "question_patterns": [
+    "what is meant by formal organisation",
+    "explain the features of a formal organisation",
+    "state the advantages of formal organisational structure",
+    "what are the limitations of formal organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define official roles and procedures",
+     "explain": "Establish clear boundaries of authority, responsibility, and communication channels."
+    },
+    {
+     "step": 2,
+     "action": "Align structure with organizational goals",
+     "explain": "Ensure the formal setup is designed deliberately by top management to achieve plans."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.8",
+   "title": "Informal Organisation",
+   "section": "Formal and Informal Organisation",
+   "definition": "A spontaneous network of personal and social relationships that develops among employees beyond official roles.",
+   "formula": "",
+   "key_idea": "Arises naturally from human interaction to satisfy social and emotional needs.",
+   "textbook_ref": "lebs105.txt lines 481-540",
+   "question_patterns": [
+    "explain the concept of informal organisation",
+    "how does informal organisation arise",
+    "what are the merits and demerits of informal organisation",
+    "how does informal organisation support the formal structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe spontaneous social interactions",
+     "explain": "Identify personal networks and friendships that emerge naturally among employees."
+    },
+    {
+     "step": 2,
+     "action": "Utilize informal channels for feedback",
+     "explain": "Leverage the informal network to gauge employee reactions and speed up communication."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.9",
+   "title": "Delegation of Authority",
+   "section": "Delegation",
+   "definition": "The downward transfer of authority from a manager to a subordinate, along with the creation of responsibility and accountability.",
+   "formula": "",
+   "key_idea": "Enables managers to share workload while remaining ultimately answerable for results.",
+   "textbook_ref": "lebs105.txt lines 541-620",
+   "question_patterns": [
+    "what is delegation of authority",
+    "explain the elements of delegation",
+    "why is delegation essential for effective organizing",
+    "distinguish between authority responsibility and accountability"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assign responsibility to a subordinate",
+     "explain": "Entrust a specific task or duty to be performed by the subordinate."
+    },
+    {
+     "step": 2,
+     "action": "Grant necessary authority",
+     "explain": "Provide the subordinate with the decision-making power required to complete the task."
+    },
+    {
+     "step": 3,
+     "action": "Create accountability",
+     "explain": "Ensure the subordinate is answerable to the superior for the final outcome."
+    }
+   ]
+  },
+  {
+   "id": "lebs.105.10",
+   "title": "Decentralisation",
+   "section": "Decentralisation",
+   "definition": "The systematic delegation of decision-making authority across all hierarchical levels of an organization.",
+   "formula": "",
+   "key_idea": "Pushes authority down to the point of action, promoting autonomy and quick decisions.",
+   "textbook_ref": "lebs105.txt lines 621-700",
+   "question_patterns": [
+    "explain the concept of decentralisation",
+    "what is the importance of decentralisation",
+    "distinguish between delegation and decentralisation",
+    "why would an organisation choose to be decentralised"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Disperse decision-making authority systematically",
+     "explain": "Push authority down to lower levels of the organizational hierarchy close to the point of action."
+    },
+    {
+     "step": 2,
+     "action": "Establish control and feedback mechanisms",
+     "explain": "Use performance measurement systems to monitor outcomes while maintaining divisional autonomy."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs105.txt lines 261-300",
+   "concept": "lebs.105.4",
+   "question_type": "compute",
+   "question_pattern": "If an organization has {subordinates} subordinates and the span of management is {span}, how many superiors are needed?",
+   "extracted_variables": {
+    "subordinates": "total number of subordinates to be managed",
+    "span": "maximum number of subordinates managed by one superior"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the total number of subordinates by the span of management to find the required number of superiors.",
+     "explain": "The formula for required superiors is total subordinates divided by the span of management.",
+     "compute": "superiors = subordinates / span"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs105.txt lines 800-850",
+   "questions": [
+    "Identify the network of social relationships which arises spontaneously due to interaction at work.",
+    "What does the term 'Span of management' refer to?",
+    "State any two circumstances under which the functional structure will prove to be an appropriate choice.",
+    "A company has its registered office in Delhi, manufacturing unit at Gurgaon and marketing and sales department at Faridabad. The company manufactures the consumer products. Which type of organisational structure should it adopt to achieve its target?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs105.txt lines 851-890",
+   "questions": [
+    "What are the steps in the process of organising?",
+    "Discuss the elements of delegation.",
+    "How does informal organisation support the formal organisation?",
+    "Can a large sized organisation be totally centralised or decentralised? Give your opinion.",
+    "Decentralisation is extending delegation to the lowest level. Comment.",
+    "Neha runs a factory wherein she manufactures shoes. The business has been doing well and she intends to expand by diversifying into leather bags as well as western formal wear thereby making her company a complete provider of corporate wear. Which type of structure would you recommend for her expanded organisation and why?",
+    "The production manager asked the foreman to achieve a target production of 200 units per day, but he doesn't give him the authority to requisition tools and materials from the stores department. Can the production manager blame the foreman if he is not able to achieve the desired target? Give reasons."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

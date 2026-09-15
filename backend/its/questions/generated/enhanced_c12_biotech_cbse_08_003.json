@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_003",
+   "title": "c12_biotech_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a finite cell line and a continuous cell line in terms of their proliferative lifespan?",
+     "a": "A finite cell line has a limited number of population doublings (typically 20–50) before entering senescence, whereas a continuous cell line can proliferate indefinitely due to transformation. A wrong answer (e.g., \"finite lines are from cancer, continuous from normal tissue\") reveals confusion about the origin: finite lines come from normal tissue, continuous lines arise from transformation of finite lines or directly from tumors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"HeLa cells are a finite cell line because they were derived from a human cervical tumor.\" Explain why this statement is incorrect.",
+     "a": "HeLa cells are a continuous (immortalized) cell line. Although derived from a tumor, they have undergone transformation that allows unlimited division; finite lines come from normal tissues and senesce. The error shows the student conflates \"tumor-derived\" with \"finite\" — actually, tumor-derived lines are typically continuous because cancer cells have already bypassed senescence.",
+     "self_check": true
+    },
+    {
+     "q": "You are given two unidentified cell lines: Line A stops growing after 30 passages, shows contact inhibition, and requires serum for attachment. Line B has been passaged 100 times, grows to high density in suspension, and forms tumors in immunocompromised mice. Classify each as finite or continuous and justify your classification with two phenotypic traits per line.",
+     "a": "Line A is finite: limited passages (30), contact inhibition, serum-dependent attachment. Line B is continuous: >100 passages, anchorage-independent suspension growth, tumorigenicity. A wrong classification (e.g., swapping them) indicates failure to link phenotypic markers (contact inhibition, anchorage dependence, tumorigenicity) to the underlying biology of senescence vs. transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic stability and karyotype of finite vs. continuous cell lines. Why are continuous lines more prone to chromosomal abnormalities?",
+     "a": "Finite lines maintain a stable, diploid karyotype close to the donor tissue; continuous lines often exhibit aneuploidy, translocations, and heterogeneous karyotypes because transformation disrupts cell-cycle checkpoints (e.g., p53 loss) that normally prevent propagation of damaged DNA. An answer missing the role of checkpoint loss shows incomplete understanding of why immortalization correlates with genomic instability.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company needs a cell line to produce a recombinant glycoprotein for clinical trials. They consider using a finite human diploid line (e.g., MRC-5) or a continuous line (e.g., CHO). Evaluate which is more suitable, considering scalability, consistency, and regulatory acceptance.",
+     "a": "CHO (continuous) is preferred: it scales easily in suspension, gives consistent high yields, and has a long regulatory track record for biologics. MRC-5 (finite) would senesce, require frequent re-isolation, grow only as adherent monolayers, and introduce batch variability. Choosing MRC-5 ignores the practical demands of GMP manufacturing — finite lines are used for vaccine production where limited passages are acceptable, not for large-scale recombinant protein.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment to prove that a newly derived cell line is continuous (immortalized) rather than finite. Specify the assays, timepoints, and criteria you would use.",
+     "a": "Passage the line serially for >60 population doublings while monitoring: (1) growth curves at passages 10, 30, 50, 70 — continuous lines maintain exponential growth; (2) karyotyping at early and late passages — continuous lines show evolving abnormalities; (3) soft-agar colony formation assay — continuous lines form colonies (anchorage independence); (4) tumorigenicity test in nude mice. A line that meets all four criteria is continuous. An answer lacking quantitative passage thresholds or functional assays (soft agar, tumorigenicity) shows superficial grasp of validation standards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

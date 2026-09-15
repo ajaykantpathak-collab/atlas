@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_011",
+   "title": "c12_biotech_cbse_09_011",
+   "questions": [
+    {
+     "q": "What is the primary ethical concern specific to embryonic stem cell research that does not apply to adult stem cell research?",
+     "a": "The primary ethical concern is the destruction of a human blastocyst (early embryo) to obtain the inner cell mass, which raises questions about the moral status of the embryo. Adult stem cells are obtained from consenting donors (bone marrow, umbilical cord) without destroying a potential human life. A wrong answer (e.g., \"both involve consent issues\") reveals the student cannot distinguish the unique moral dilemma of embryo destruction from generic research ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the destruction of a blastocyst for stem cell derivation is considered an ethical dilemma, referencing the concept of moral status.",
+     "a": "The dilemma arises because the blastocyst has the *potential* to develop into a full human being (moral status as a person-in-the-making), yet it is also a cluster of ~150 cells with no nervous system, consciousness, or sentience. Destroying it for research treats it as mere biological material (instrumental value), while protecting it prioritizes its symbolic moral value over the concrete suffering of patients who might benefit. A wrong answer (e.g., \"it's just a bunch of cells, no dilemma\") reveals a failure to engage with the nuanced concept of *potentiality* and the symbolic value societies attach to early human life.",
+     "self_check": true
+    },
+    {
+     "q": "A research proposal seeks to use surplus IVF embryos (with donor consent) to create new hESC lines for spinal cord injury research. Identify two ethical principles that support this and one that opposes it.",
+     "a": "Support: **Beneficence** (potential to develop therapies for paralyzed patients) and **Autonomy** (donors' right to decide the fate of their surplus embryos). Oppose: **Non-maleficence** (destruction of the blastocyst, viewed by some as harming a potential human life). A wrong answer (e.g., \"Justice supports it because it helps the poor\") reveals confusion between principles; justice actually concerns fair distribution of benefits/burdens, not the act of derivation itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical issues of embryonic stem cell research with those of somatic cell nuclear transfer (SCNT) for therapeutic cloning. How does the creation of a cloned embryo change the ethical landscape?",
+     "a": "Both involve embryo destruction, but SCNT adds: (1) **Intentional creation** of an embryo solely for research (vs. using surplus IVF embryos), which many view as instrumentalization of human life; (2) **Genetic identity** concerns — the cloned embryo is a genetic near-copy of the donor, raising issues of reproductive cloning if implanted; (3) **Egg donation risks** — SCNT requires oocytes, exposing women to hormonal stimulation risks. The ethical landscape shifts from \"using what would be discarded\" to \"creating to destroy,\" which violates the Kantian imperative against treating persons merely as means. A wrong answer (e.g., \"SCNT is fine because it uses the patient's own DNA\") reveals ignorance of the egg requirement and the creation-for-destruction distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"The potential to cure millions justifies the destruction of a few hundred blastocysts.\" Critique this utilitarian argument using the principle of human dignity.",
+     "a": "Utilitarianism maximizes aggregate welfare, but the principle of human dignity (enshrined in the Universal Declaration of Human Rights and India's Constitution) holds that human life has intrinsic worth that cannot be traded off for collective benefit. If accepted, this logic could justify sacrificing any vulnerable group for the greater good. The counter-argument: blastocysts lack personhood attributes (consciousness, autonomy), so dignity applies only to *persons*, not potential persons. A strong critique acknowledges both sides but concludes that *societal consensus* (via democratic regulation like ICMR guidelines), not pure utilitarian calculus, should set boundaries. A wrong answer (e.g., \"Yes, because saving lives is paramount\") reveals uncritical utilitarianism and failure to recognize rights-based constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy framework for embryonic stem cell research in India that addresses: (a) embryo source, (b) consent, (c) oversight, (d) commercialization. Justify each component.",
+     "a": "A good answer includes: (a) **Source**: Only surplus IVF embryos (≤14 days/pre-primitive streak); prohibit creation for research, SCNT, parthenogenesis. *Justification*: respects donors' reproductive autonomy, avoids instrumentalization. (b) **Consent**: Written, informed, voluntary, no financial inducement; separate consent for IVF treatment vs. research donation; right to withdraw before derivation. *Justification*: protects autonomy, prevents coercion. (c) **Oversight**: Three-tier — Institutional Committee for Stem Cell Research (IC-SCR) + Ethics Committee (IEC) for all projects; National Apex Committee (NAC-SCR) for restrictive categories (new line derivation, clinical trials). *Justification*: ensures scientific merit, ethical compliance, public accountability. (d) **Commercialization**: Prohibit sale of embryos/hESC lines; allow reasonable cost-recovery for processing; mandate benefit-sharing for commercial products. *Justification*: prevents commodification of human tissue, ensures equitable access. A poor answer (e.g., \"allow all research with consent\") reveals ignorance of India's actual regulatory tiers and the commodification risk.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

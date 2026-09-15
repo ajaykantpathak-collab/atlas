@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_006",
+   "title": "c12_eco_cbse_09_006",
+   "questions": [
+    {
+     "q": "What is the statutory basis for CRR and SLR in India, and which authority maintains the reserves in each case?",
+     "a": "CRR is mandated under Section 42 of the RBI Act, 1934, and reserves are maintained as interest-free balances with the RBI. SLR is mandated under Section 24 of the Banking Regulation Act, 1949, and reserves are held by banks themselves in the form of approved assets (government securities, cash, gold). A wrong answer (e.g., saying both are kept with RBI) reveals confusion about the custodian and the form of reserves — a common error in board exams where students conflate the two ratios.",
+     "self_check": true
+    },
+    {
+     "q": "If a bank's NDTL is ₹500 crore, CRR is 4.5%, and SLR is 18%, calculate the amount the bank must hold as CRR reserves with RBI and as SLR assets. How much of the NDTL remains available for lending?",
+     "a": "CRR reserve = 4.5% of ₹500 crore = ₹22.5 crore (held with RBI, interest-free). SLR holding = 18% of ₹500 crore = ₹90 crore (held by bank in govt securities/cash/gold). Total reserves = ₹112.5 crore. Lendable funds = ₹500 crore - ₹112.5 crore = ₹387.5 crore. A wrong answer (e.g., subtracting only one ratio or adding them incorrectly) reveals misunderstanding of the additive nature of reserve requirements and the fact that both apply simultaneously on the same NDTL base.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI reduces CRR from 4.5% to 4.0% while keeping SLR unchanged at 18%. Using the simple money multiplier formula (1/rr), where rr = CRR + SLR, calculate the percentage change in the theoretical maximum money multiplier. Explain why the actual multiplier in India is lower than this theoretical value.",
+     "a": "Old rr = 0.045 + 0.18 = 0.225 → Old multiplier = 1/0.225 = 4.44. New rr = 0.04 + 0.18 = 0.22 → New multiplier = 1/0.22 = 4.545. Percentage increase = (4.545 - 4.44)/4.44 × 100 ≈ 2.36%. The actual multiplier is lower due to currency drain (public holds cash), excess reserves (banks hold more than required), and the fact that SLR assets earn interest and are not fully \"frozen\" — a nuance often missed in competitive exams where students assume the simple formula applies perfectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a 1% increase in CRR versus a 1% increase in SLR on: (a) bank profitability, (b) government borrowing cost, and (c) transmission to lending rates. Which tool is more potent for liquidity management and why?",
+     "a": "(a) CRR increase reduces profitability more sharply because reserves earn zero interest; SLR increase forces investment in government securities which earn market-linked interest, partially offsetting the cost. (b) SLR increase directly boosts demand for government bonds, lowering yields (borrowing cost); CRR has no direct effect on bond yields. (c) Both transmit to lending rates by reducing lendable funds, but CRR acts faster as it immediately impounds cash. CRR is more potent for liquidity management because it directly drains high-powered money (reserves) from the system, whereas SLR only changes asset composition. A wrong answer (e.g., saying both affect profitability equally) ignores the interest differential — a key distinction in JEE/NEET-style applied questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"RBI can use CRR and SLR simultaneously to achieve both price stability and financial stability.\" Evaluate this statement with reference to the trade-offs involved when both ratios are raised together during high inflation.",
+     "a": "Raising both ratios contracts money supply, curbing inflation (price stability). However, it also reduces bank profits (CRR earns zero, SLR yields may be below lending rates), increases risk of non-performing assets if credit crunch hurts borrowers, and may crowd out private investment if SLR forces excessive government bond holding (financial stability risk). The statement is partially true but overlooks the adverse impact on bank balance sheets and growth. A weak evaluation treats the tools as free lunches; a strong one acknowledges the policy trilemma (inflation, growth, financial stability) and cites the 2010-11 tightening cycle where successive CRR/SLR hikes contributed to a credit slowdown.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where the RBI keeps CRR constant but raises SLR by 2 percentage points to manage a sudden surge in capital inflows. Explain the mechanism, the expected impact on the rupee exchange rate, and one unintended consequence for the corporate bond market.",
+     "a": "Scenario: Large FII inflows appreciate the rupee, hurting exports. RBI raises SLR from 18% to 20%, forcing banks to buy more government bonds. This absorbs rupee liquidity, easing appreciation pressure. Impact: Rupee depreciates/stabilizes as liquidity tightens. Unintended consequence: Banks sell corporate bonds to meet higher SLR, pushing up corporate bond yields and raising borrowing costs for firms — a \"crowding out\" effect within the private sector. A poor answer misses the portfolio rebalancing channel or assumes SLR only affects government bonds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

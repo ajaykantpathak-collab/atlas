@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u3_025",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u3_025",
+   "title": "c6_english_u3_025",
+   "questions": [
+    {
+     "q": "What do we call it when a poet repeats the same starting sound in words placed close together?",
+     "a": "This is called alliteration. If a student answers \"rhyme,\" they are confusing the sound of the *start* of the word with the sound of the *end* of the word.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence, \"The angry wind howled at the window,\" why is this an example of personification?",
+     "a": "It is personification because the wind is given the human action of \"howling\" and \"being angry.\" A wrong answer suggests the student thinks it is just a literal description of weather, missing the human comparison.",
+     "self_check": true
+    },
+    {
+     "q": "This is symbolism. The student must identify that the dove is a literal bird but stands for the abstract idea of peace. A wrong answer shows the student is taking the image only at face value.",
+     "a": "[Correct answer] The poetic device being used is **symbolism**, where a concrete object (the white dove) is used to represent an abstract idea (peace). By assigning a deeper meaning beyond its literal definition, the poet uses the dove as a universal signifier for tranquility.\n\nA wrong answer reveals that the student likely confuses **symbolism** with **metaphor** or **personification**. If they choose \"metaphor,\" they may not understand that a metaphor makes a direct comparison between two unlike things (e.g., \"The snow is a white blanket\"), whereas symbolism relies on cultural or universal associations to represent a concept.",
+     "self_check": true
+    },
+    {
+     "q": "Read the phrase: \"Seven silver stars shimmered.\" Analyze why this is alliteration and how it affects the reader.",
+     "a": "It is alliteration because the 's' sound repeats at the start of every word. It creates a soft, hissing, musical rhythm that makes the reader imagine the stars moving or sparkling.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Personification is only used to make poems funny.\" Is this true or false, and why?",
+     "a": "It is false. While it can be funny, personification is often used to make nature feel alive, sad, or powerful, helping the reader connect emotionally to non-human things like trees or clouds.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-line sentence using alliteration about a cat, then add a touch of personification to it.",
+     "a": "Example: \"The clever cat crept cautiously, whispering secrets to the moon.\" A poor answer would lack the repeated initial sounds or fail to give the cat a human-like action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

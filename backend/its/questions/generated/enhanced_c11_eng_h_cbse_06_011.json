@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_06_011",
+   "title": "c11_eng_h_cbse_06_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the underlined structure in this sentence from the text: \"Tsetan sized me up as we clambered into his car.\"",
+     "a": "The underlined structure \"as we clambered into his car\" is a **subordinate adverbial clause of time** introduced by the subordinating conjunction \"as.\" A wrong answer (e.g., calling it a phrase or main clause) reveals the student cannot distinguish finite clauses from non-finite phrases or identify clause function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the author writes \"I'd grown accustomed to these nocturnal disturbances\" (past perfect) instead of \"I grew accustomed\" (simple past) in the context of the narrative timeline.",
+     "a": "Past perfect (\"had grown\") marks an action completed **before** another past moment (the night in Darchen). Simple past would collapse the timeline, losing the sense that the acclimatisation happened over previous nights at Ravu. A wrong answer shows the student treats tense as interchangeable rather than as a timeline-mapping tool.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from the text in the passive voice, then explain why the active version is stylistically superior for a travelogue: \"A swathe of the white stuff lay across the track.\"",
+     "a": "Passive: \"The track was lain across by a swathe of the white stuff.\" (Note: \"lay\" is intransitive — cannot be passivised; the attempt produces ungrammatical/awkward result.) The active intransitive verb \"lay\" keeps the snow as grammatical subject, matching the visual focus of the scene. A student who produces a passive version reveals they don't recognise intransitive verbs or the stylistic principle that travelogues favour agentive, sensory subjects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two reported-speech constructions: (i) \"I told her, through Daniel, that I was heading towards Mount Kailash\" and (ii) \"It's a cold,\" he said finally through Tsetan. Analyse how the prepositional phrase \"through Daniel/Tsetan\" shifts the grammatical role of the interpreter.",
+     "a": "In (i), \"through Daniel\" is an **adverbial of means** modifying \"told\" — Daniel is the channel. In (ii), \"through Tsetan\" modifies \"said\" but the doctor's utterance is filtered: Tsetan becomes the **mediator of the speech act itself**, not just the channel. A wrong answer treats both as identical, missing how prepositional placement alters semantic agency in mediated communication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The predominance of active voice in 'Silk Road' is merely a consequence of the first-person narrative, not a deliberate stylistic choice.\"",
+     "a": "The claim is **false**. First-person narratives can still use passive voice extensively (e.g., \"I was driven,\" \"I was given\"). Middleton actively chooses agentive constructions (\"Tsetan negotiated them,\" \"We careered down\") to foreground human agency against a vast landscape. A student who agrees confuses narrative perspective with voice selection, overlooking that voice is an independent stylistic variable.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-sentence paragraph continuing the narrative from \"I slept very soundly. Like a log, not a dead man.\" Use at least one participial phrase, one past-perfect verb, and one fronted adverbial.",
+     "a": "Sample: \"Refreshed by the Tibetan medicine, I woke before dawn. The guest house had fallen silent hours earlier. Outside, the Himalayas gleamed against a pale sky.\" A poor answer lacks the required structures or uses them mechanically without narrative cohesion, revealing the student cannot deploy grammatical forms purposefully.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

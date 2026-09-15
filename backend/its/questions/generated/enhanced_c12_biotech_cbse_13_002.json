@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_002",
+   "title": "c12_biotech_cbse_13_002",
+   "questions": [
+    {
+     "q": "Define \"Genetically Modified Organism\" precisely, distinguishing it from organisms developed through conventional breeding or mutagenesis. Use the term \"recombinant DNA technology\" in your definition.",
+     "a": "A GMO is an organism whose genome has been altered by inserting a specific gene or genes from another organism (same or different species) using recombinant DNA technology in the laboratory, creating a combination of genetic material that would not occur naturally through mating or natural recombination. WRONG ANSWER REVEALS: If student says \"any organism with changed DNA\" or includes mutagenesis/breeding, they conflate all genetic change with transgenic technology — a critical error because regulations, labeling, and biosafety assessments apply specifically to rDNA-derived organisms.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bt cotton produces its own pesticide, so it's dangerous for humans to wear cotton clothes made from it.\" Explain why this claim is scientifically incorrect, referencing the mode of action of Cry proteins and the concept of receptor specificity.",
+     "a": "Cry (crystal) proteins from Bacillus thuringiensis are activated only in the alkaline pH (7.5-9.0) of specific insect midguts (Lepidoptera, Coleoptera, Diptera) where they bind to specific cadherin-like receptors on midgut epithelial cells, causing pore formation and cell lysis. Human stomach pH is acidic (1.5-3.5), humans lack these specific receptors, and Cry proteins are rapidly degraded by human digestive proteases. Cotton fiber is almost pure cellulose from seed trichomes — it contains no Cry protein. WRONG ANSWER REVEALS: Student confuses \"pesticide\" in colloquial sense (toxic chemical) with biological mechanism; fails to understand receptor-mediated specificity and pH-dependent activation — a classic JEE/NEET trap testing molecular mechanism understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Golden Rice 2 contains two transgenes: phytoene synthase (psy) from maize and bacterial phytoene desaturase (crtI) from Erwinia uredovora. Explain stepwise how these two enzymes complete the β-carotene biosynthesis pathway in rice endosperm, which is otherwise blocked. Why was the bacterial crtI preferred over the plant desaturase?",
+     "a": "Rice endosperm naturally produces geranylgeranyl diphosphate (GGPP) but lacks phytoene synthase (PSY) to convert GGPP → phytoene, and lacks phytoene desaturase to convert phytoene → lycopene. Maize PSY catalyzes GGPP → phytoene. Bacterial crtI is a single enzyme that performs the four desaturation steps (phytoene → phytofluene → ζ-carotene → neurosporene → lycopene) that in plants require two separate enzymes (PDS and ZDS). crtI was used because it bypasses the need for multiple plant desaturases and their complex regulation, giving higher flux. WRONG ANSWER REVEALS: Student doesn't know the pathway steps, thinks crtI is \"more efficient\" without explaining the enzymatic difference, or confuses lycopene with β-carotene (which requires downstream cyclases already present in rice).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental risk of gene flow from herbicide-tolerant (HT) canola to wild relatives versus Bt cotton to wild relatives in India. Analyze using three factors: (a) presence of sexually compatible wild relatives, (b) fitness effect of the transgene in the wild, (c) agricultural practice context.",
+     "a": "HT canola (Brassica napus) has wild relatives (B. rapa, B. juncea, wild mustard) in Canada/Europe — gene flow documented, HT trait confers fitness advantage ONLY when herbicide is applied (no advantage in wild). Bt cotton (Gossypium hirsutum) in India: no sexually compatible wild Gossypium species in cultivated areas (wild diploid species geographically isolated); Bt trait reduces herbivory but cotton is non-shattering, non-dormant, poorly competitive — low weediness potential. Agricultural context: HT canola volunteers become weeds in rotational crops; Bt cotton is hybrid, farmers buy fresh seed annually, no volunteer persistence. WRONG ANSWER REVEALS: Student generalizes \"gene flow is always bad\" without analyzing fitness context; doesn't know India lacks wild cotton relatives; conflates HT and Bt risk profiles — a board exam case-based question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since GM crops reduce pesticide use, they are unambiguously better for biodiversity than conventional farming.\" Use evidence from Bt cotton (target and non-target effects) and HT crops (weed management changes) to support your evaluation.",
+     "a": "The statement is an oversimplification. Bt cotton: Reduces broad-spectrum insecticide sprays → benefits non-target arthropods (predators, parasitoids) — meta-analyses show higher abundance in Bt vs sprayed conventional. BUT: Secondary pest outbreaks (e.g., mirids in China, mealybugs in India) due to reduced spraying can increase insecticide use later. Resistance evolution in target pests (pink bollworm in India) requires refuge strategy. HT crops: Enable no-till farming → soil biodiversity benefits. BUT: Glyphosate-dominated weed control selects for glyphosate-resistant weeds (38+ species globally), leading to more toxic herbicide cocktails (2,4-D, dicamba) and drift damage to non-target plants. Net biodiversity impact depends on deployment context, resistance management, and landscape heterogeneity — not the GM trait alone. WRONG ANSWER REVEALS: Binary thinking (GM = good/bad); ignores resistance evolution, secondary pests, herbicide regime shifts; fails to distinguish trait-specific effects from system-level management — exactly what competency questions test.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scientifically rigorous 5-year monitoring study to detect unintended effects of a newly approved drought-tolerant GM maize (expressing a bacterial RNA chaperone protein) on soil microbiome diversity and function. Specify: (a) experimental design with controls, (b) three molecular/biochemical endpoints, (c) statistical approach for distinguishing GM effect from site/year variation.",
+     "a": "(a) Randomized complete block design across 5 agro-ecological zones, 4 replicates per zone. Treatments: GM maize, near-isogenic non-GM maize, conventional maize variety, bare soil. Same agronomic practices. (b) Endpoints: 16S/ITS amplicon sequencing for bacterial/fungal α- and β-diversity; qPCR for functional genes (nifH, amoA, dsrB); extracellular enzyme assays (β-glucosidase, phosphatase, arylsulfatase) for C/N/P/S cycling. (c) Linear mixed-effects model: response ~ treatment + (1|zone) + (1|year) + (1|zone:year); treatment × year interaction tests for accumulating effects; PERMANOVA on Bray-Curtis distances for community composition; FDR correction for multiple endpoints. WRONG ANSWER REVEALS: No proper controls (only GM vs non-GM), ignores spatial/temporal replication, uses only taxonomic diversity not function, proposes t-tests ignoring nested design — shows inability to design rigorous ecological risk assessment, a NEET-level experimental design question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

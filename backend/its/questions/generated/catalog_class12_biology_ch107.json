@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_biology_ch107",
+ "concepts": [
+  {
+   "id": "jebh.9.1",
+   "title": "Animal Husbandry: Dairy, Poultry, and Fisheries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Animal Husbandry: Dairy, Poultry, and Fisheries' refers to.",
+     "a": "The agricultural practice of breeding and raising livestock including cattle for dairy, birds for poultry, and aquatic organisms for fisheries to meet the growing demand for food of animal origin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Animal Husbandry: Dairy, Poultry, and Fisheries'.",
+     "a": "Animal husbandry encompasses dairy farming, poultry management, and fisheries to enhance production of milk, eggs, meat, and fish for human consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Animal Husbandry: Dairy, Poultry, and Fisheries'.",
+     "a": "define animal husbandry and list its major branches",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.3",
+   "title": "Animal Breeding: Inbreeding and Outbreeding",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Animal Breeding: Inbreeding and Outbreeding' refers to.",
+     "a": "The systematic mating of animals to increase yield and develop desirable traits, encompassing inbreeding (mating of related animals) and outbreeding (mating of unrelated animals).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Animal Breeding: Inbreeding and Outbreeding'.",
+     "a": "Inbreeding increases homozygosity and can cause inbreeding depression, while outbreeding including crossbreeding introduces hybrid vigour and improves productivity.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Animal Breeding: Inbreeding and Outbreeding'.",
+     "a": "differentiate between inbreeding and outbreeding in animal breeding",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.4",
+   "title": "Bee-Keeping (Apiculture)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bee-Keeping (Apiculture)' refers to.",
+     "a": "The practice of rearing honey bees for the production of honey and beeswax, requiring knowledge of bee behaviour, colony structure, and suitable pasturage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bee-Keeping (Apiculture)'.",
+     "a": "Apiculture yields honey, a highly nutritious food, and beeswax, while requiring suitable bee species, pasturage, and colony management.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Bee-Keeping (Apiculture)'.",
+     "a": "what is apiculture and why is it important",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.5",
+   "title": "Plant Breeding: Steps and Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plant Breeding: Steps and Methods' refers to.",
+     "a": "The purposeful manipulation of plant species to create improved crop varieties with higher yield, better quality, and resistance to diseases through a defined sequence of steps.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plant Breeding: Steps and Methods'.",
+     "a": "Plant breeding follows four steps: collection of variability, evaluation and selection of parents, cross hybridisation of selected parents, and testing and commercial release of new cultivars.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Plant Breeding: Steps and Methods'.",
+     "a": "list the main steps of plant breeding",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.6",
+   "title": "Tissue Culture and Micropropagation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tissue Culture and Micropropagation' refers to.",
+     "a": "The technique of regenerating whole plants from explant tissues or single cells grown on nutrient medium under aseptic conditions, exploiting the totipotency of plant cells.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tissue Culture and Micropropagation'.",
+     "a": "Micropropagation allows rapid production of disease-free, genetically identical plants, while somaclonal variation generates useful genetic diversity in culture.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Tissue Culture and Micropropagation'.",
+     "a": "what is tissue culture and on what property of cells is it based",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.7",
+   "title": "Single Cell Protein (SCP)",
+   "questions": [
+    {
+     "q": "Using the method 'Single Cell Protein (SCP)', work with: conversion_efficiency = 10, protein_content_percent = 20, substrate_mass = 12. Carry the chain through step by step and give the final value of protein_yield.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Single Cell Protein (SCP)' and work with: conversion_efficiency = 25, protein_content_percent = 25, substrate_mass = 8. Carry the chain through step by step and give the final value of protein_yield.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Single Cell Protein (SCP)' refers to.",
+     "a": "The production of protein-rich biomass from unicellular microorganisms such as algae, fungi, bacteria, and yeast grown on inexpensive substrates for use as food or feed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Single Cell Protein (SCP)'.",
+     "a": "Single cell protein provides an alternative protein source by cultivating microbes on waste materials, reducing pressure on conventional agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Single Cell Protein (SCP)', in plain ASCII form.",
+     "a": "protein_yield = microbial_biomass * protein_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.8",
+   "title": "Biofortification: Enhancing Nutritional Quality",
+   "questions": [
+    {
+     "q": "Using the method 'Biofortification: Enhancing Nutritional Quality', work with: fortified_level = 360, original_level = 120. Carry the chain through step by step and give the final value of nutrient_increase_percent.",
+     "a": "200 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Biofortification: Enhancing Nutritional Quality' and work with: fortified_level = 100, original_level = 8. Carry the chain through step by step and give the final value of nutrient_increase_percent.",
+     "a": "1150 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Biofortification: Enhancing Nutritional Quality' refers to.",
+     "a": "The breeding strategy of developing crop varieties with higher levels of vitamins, minerals, and proteins to improve the nutritional quality of food.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biofortification: Enhancing Nutritional Quality'.",
+     "a": "Biofortification enriches crops with micronutrients and essential amino acids, addressing hidden hunger caused by nutrient-deficient diets.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Biofortification: Enhancing Nutritional Quality', in plain ASCII form.",
+     "a": "nutrient_increase_percent = ((fortified_level - original_level) / original_level) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.9.9",
+   "title": "Green Revolution and Plant Breeding",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Green Revolution and Plant Breeding' refers to.",
+     "a": "The dramatic increase in crop production achieved through the development and adoption of high-yielding, disease-resistant semi-dwarf varieties of wheat and rice during the mid-twentieth century.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Green Revolution and Plant Breeding'.",
+     "a": "The Green Revolution relied on plant breeding to produce semi-dwarf varieties of wheat and rice that responded to fertilizers and reduced lodging, dramatically increasing food grain production.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Green Revolution and Plant Breeding'.",
+     "a": "what was the green revolution and which crops were involved",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

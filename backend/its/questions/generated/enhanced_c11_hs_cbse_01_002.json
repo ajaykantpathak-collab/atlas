@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_01_002",
+   "title": "c11_hs_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define the term \"ecology\" as used in biological science.",
+     "a": "Correct answer: Ecology is the branch of biology that studies the interactions between living organisms and their physical environment, including energy flow, nutrient cycling, and population dynamics. A wrong answer (e.g., \"ecology is the study of nature\" or \"ecology is about saving trees\") reveals the student is conflating the scientific discipline with environmental activism or a vague notion of \"nature,\" missing the precise organism-environment interaction focus.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the term \"Human Ecology\" adds the prefix \"Human\" to \"Ecology.\" What fundamental shift in focus does this represent?",
+     "a": "Correct answer: In biology, ecology studies all organisms (plants, animals, microbes) primarily driven by instinct and natural selection. Adding \"Human\" shifts the focus to Homo sapiens as the central organism, whose interactions are mediated by culture, technology, conscious choice, economic systems, and family structures — dimensions absent in non-human ecology. A wrong answer (e.g., \"Human Ecology is just ecology applied to humans\" or \"it studies how humans harm the environment\") reveals the student has not grasped the expansion of \"environment\" to include socio-economic-psychological layers and the role of human agency.",
+     "self_check": true
+    },
+    {
+     "q": "A family in a coastal village decides to rebuild their house on stilts after repeated flooding. Identify one factor from each of the four human ecology environments (physical, economic, social, psychological) that influenced this decision.",
+     "a": "Correct answer: Physical — frequency of floods and soil stability; Economic — cost of stilts vs. repeated repair, access to government subsidy; Social — community norm of elevated houses, family safety expectations; Psychological — fear of future floods, desire for security. A wrong answer that lists only physical factors (e.g., \"floods, water level, wind\") shows the student is still thinking in biological ecology terms and cannot operationalize the four-dimension framework for human decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"biological ecology\" and \"human ecology\" by completing this analogy: \"Biological ecology is to natural selection as human ecology is to ________.\" Justify your answer.",
+     "a": "Correct answer: \"cultural adaptation\" or \"learned behavioral adaptation.\" Biological ecology explains how organisms adapt over generations via genetic change (natural selection). Human ecology explains how humans adapt within a lifetime via culture, technology, economic planning, and social innovation — transmitted through learning, not genes. A wrong answer like \"human evolution\" or \"survival of the fittest\" reveals the student conflates timescales and mechanisms, missing the unique role of culture and intentionality in human ecology.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Human Ecology is simply the application of biological ecology principles to human populations.\" Provide two distinct reasons why this is incomplete.",
+     "a": "Correct answer: (1) Biological ecology assumes organisms respond instinctively to environmental pressures; human ecology recognizes humans consciously perceive, evaluate, and redesign their environments (e.g., building dams, creating welfare systems). (2) Biological ecology's \"environment\" is largely physical/biotic; human ecology explicitly includes constructed environments — economic markets, legal systems, family norms, and psychological landscapes — which have no parallel in non-human ecology. A wrong answer that agrees with the statement or offers only one reason shows the student has not internalized the paradigm shift from passive adaptation to active niche construction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a concept map (describe in words) with \"Adolescent's Choice of Career\" at the center, showing four branches for the four environments. For each branch, give two specific factors an Indian Class 11 student might face.",
+     "a": "Expected answer: Central node: \"Adolescent's Career Choice.\" Branch 1 (Physical): proximity to educational institutions, health constraints. Branch 2 (Economic): family income, tuition fees, expected salary, scholarship availability. Branch 3 (Social): parental expectations, gender norms, peer influence, caste/community occupational traditions. Branch 4 (Psychological): personal interest, aptitude, self-efficacy, anxiety about future. A poor answer that lists only \"parents, money, interest, location\" without categorizing into the four environments or giving context-specific factors reveals the student cannot yet use the framework as an analytical tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

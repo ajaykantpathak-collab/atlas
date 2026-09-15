@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_008",
+   "title": "c12_hist_cbse_05_008",
+   "questions": [
+    {
+     "q": "What were the two distinct types of postal systems Ibn Battuta described in India, and what were their local names?",
+     "a": "The two systems were the horse-post called **uluq** (horses every 4 miles) and the foot-post called **dawa** (runners every 1/3 mile). A wrong answer (e.g., \"only horse-post\" or confusing *dawa* with *barid*) reveals the student missed the dual-structure — a specific competitive-exam trap where examiners ask \"Which was faster?\" and students incorrectly choose uluq because horses seem faster.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Ibn Battuta explicitly state that the foot-post (dawa) was quicker than the horse-post (uluq), despite horses being faster than humans over short distances?",
+     "a": "The dawa used **fresh runners at every 1/3 mile** sprinting at top speed with a bell-ringing rod, while uluq horses covered 4 miles per change — requiring rest, feeding, and saddle adjustment. The relay frequency (3 stations/mile vs 1 station/4 miles) minimized fatigue downtime. A wrong answer (\"horses are always faster\") shows the student cannot apply the *relay principle* — a common JEE/NEET-style logic trap testing operational reasoning over intuition.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant in Delhi wants to send a consignment of Khurasani grapes (highly perishable) to the Sultan in Daulatabad (approx. 40 days by caravan). Which postal system would Ibn Battuta recommend, and what specific operational detail from his account supports this choice?",
+     "a": "The **foot-post (dawa)** — Ibn Battuta writes: *\"often it is used to transport the fruits of Khurasan which are much desired in India.\"* The dawa's high-frequency relay (every 600m) allowed continuous, rapid movement of light, perishable loads. A wrong answer choosing uluq reveals the student missed the explicit textual evidence linking dawa to perishable-fruit transport — a board-exam source-based question pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sultanate's postal infrastructure (uluq/dawa) with the Mauryan *dhamma-mahamatta* and royal road system (Class 6, c6_history_ch05_010). Identify two structural similarities and one key difference in *state purpose*.",
+     "a": "**Similarities:** (1) State-funded relay stations at fixed intervals; (2) Dedicated personnel (runners/horsemen) for official communication. **Difference:** Mauryan system prioritized *moral/administrative orders* (Ashoka's edicts) and *surveillance* via *dhamma-mahamattas*; Sultanate system explicitly served *dual purpose* — state intelligence (spies' reports in 5 days vs 50) **and** merchant commerce (credit, goods). A wrong answer claiming \"both only for spies\" ignores Ibn Battuta's merchant-use evidence — a comparative-history error costing marks in CUET/source-analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ibn Battuta's amazement at the postal system proves it was unique to the Delhi Sultanate and had no precedents in India.\" Use evidence from prior travellers or indigenous systems.",
+     "a": "**False.** Ibn Battuta's amazement reflects *his* unfamiliarity (Moroccan context), not Indian novelty. The Mauryas had *rajjukas* and royal roads (Class 6); the *Arthashastra* (Kautilya, Class 7 c7_hist_ch01_005) details a messenger network with *charanas* (runners) and *dutas* (envoys). The Sultanate *refined* an indigenous relay tradition — adding the dual uluq/dawa tier and bell-rod signaling. A wrong answer accepting the claim shows inability to distinguish *traveller's perspective* from *historical continuity* — a critical competency for \"Perceptions of Society\" theme.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a flowchart showing the complete dawa relay cycle from departure at Delhi's city gate to arrival at the next dawa station (1/3 mile away). Include: personnel, equipment, signal, handover, and the condition for the next runner to start.",
+     "a": "**Flowchart:**\n1. **Departure:** Courier leaves city gate holding **letter (one hand)** + **rod with copper bells (other hand)**.\n2. **Run:** Sprints **1/3 mile** to next village's **three pavilions**.\n3. **Signal:** Bells ring → **three girded runners** in pavilions **get ready**.\n4. **Handover:** Arriving courier **passes letter** to one waiting runner.\n5. **Next leg:** New runner **sprints shaking rod** → next dawa station.\n6. **Cycle repeats** until destination.\n**Key condition:** Next runner starts **only on hearing bells** — ensuring zero idle time. A poor answer omits the *bell-trigger* or *three-runner redundancy* — missing the engineering brilliance examiners reward in \"analyze\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_011",
+   "title": "c12_cs_cbse_10_011",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between `pickle.dump(obj, file)` and `pickle.dumps(obj)`?",
+     "a": "`pickle.dump(obj, file)` writes the pickled byte stream directly to an already opened binary file object, while `pickle.dumps(obj)` returns the pickled byte stream as a `bytes` object that you can then write manually or transmit over a network. A wrong answer (e.g., \"both write to a file\") reveals confusion between file‑oriented and in‑memory serialization.",
+     "self_check": true
+    },
+    {
+     "q": "Why must files be opened in binary mode (`'wb'` for writing, `'rb'` for reading) when using `pickle`?",
+     "a": "`pickle` produces a binary byte stream that may contain null bytes, non‑ASCII bytes, and byte sequences that are not valid text encodings. Opening the file in text mode (default) would cause Python to perform encoding/decoding and newline translation, corrupting the byte stream and raising `pickle.UnpicklingError` on load. A wrong answer (e.g., \"text mode works fine\") shows a misunderstanding of the binary nature of pickled data.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python snippet that pickles a list of dictionaries `students = [{'name': 'Asha', 'marks': 92}, {'name': 'Rohan', 'marks': 85}]` to a file `students.dat` and then loads it back into a variable `loaded_students`. Include proper file handling and exception handling.",
+     "a": "```python\nimport pickle\n\nstudents = [{'name': 'Asha', 'marks': 92}, {'name': 'Rohan', 'marks': 85}]",
+     "self_check": true
+    },
+    {
+     "q": "Compare `pickle` and `json` for serializing a Python object that contains a `tuple`, a `set`, and a custom class instance. Which would you choose and why?",
+     "a": "`json` cannot natively serialize `tuple` (becomes list), `set` (not supported), or custom class instances (requires custom encoder). `pickle` handles all three natively and restores exact types. Choose `pickle` when the data stays within Python and you need fidelity; choose `json` for cross‑language interchange, human readability, or security. A wrong answer that claims `json` can handle everything or that `pickle` is always better shows lack of awareness of `json`’s type limitations and `pickle`’s security/portability issues.",
+     "self_check": true
+    },
+    {
+     "q": "A student pickles an instance of class `Player` (with attributes `name`, `level`). Later they modify the class definition (add a new attribute `score` with a default value) and try to unpickle the old file. What happens? How can this be mitigated?",
+     "a": "Unpickling will succeed but the restored object will **not** have the new `score` attribute (it retains the old `__dict__`). If the class change removes or renames an attribute, unpickling may raise `AttributeError` or produce an inconsistent object. Mitigation strategies: (1) implement `__setstate__` to set defaults for missing attributes, (2) use versioning via `__getstate__`/`__setstate__`, (3) avoid pickling classes that change frequently. A wrong answer claiming the new attribute appears automatically or that unpickling always fails reveals ignorance of Python’s pickling protocol and object versioning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal class structure for a \"Student Record System\" that stores a list of `Student` objects (each with `roll_no`, `name`, `marks_dict`) in a binary file using `pickle`. Provide the class definitions and the two functions `save_records(records, filename)` and `load_records(filename)` with proper error handling.",
+     "a": "```python\nimport pickle\n\nclass Student:\n    def __init__(self, roll_no, name, marks_dict):\n        self.roll_no = roll_no\n        self.name = name\n        self.marks_dict = marks_dict  # e.g., {'Math': 90, 'CS': 95}\n\n    def __repr__(self):\n        return f\"Student({self.roll_no}, {self.name}, {self.marks_dict})\"\n\ndef save_records(records, filename):\n    try:\n        with open(filename, 'wb') as f:\n            pickle.dump(records, f)\n        print(\"Records saved successfully.\")\n    except (IOError, pickle.PickleError) as e:\n        print(f\"Save failed: {e}\")\n\ndef load_records(filename):\n    try:\n        with open(filename, 'rb') as f:\n            return pickle.load(f)\n    except (IOError, pickle.UnpicklingError, EOFError) as e:\n        print(f\"Load failed: {e}\")\n        return []\n```\nA poor answer that uses text mode, omits `try‑except`, or defines `Student` without `__init__` shows incomplete grasp of binary file handling, exception safety, or class design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

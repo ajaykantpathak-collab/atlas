@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_009",
+   "title": "c11_eco_cbse_01_009",
+   "questions": [
+    {
+     "q": "What is the precise definition of \"home charges\" in the context of Dadabhai Naoroji's Drain of Wealth theory, and which specific expenditures did they include?",
+     "a": "Home charges refer to the administrative and financial obligations of the Government of India that were payable in sterling (British pounds) in London, including: (1) interest on public debt raised in London, (2) salaries and pensions of British officials serving in India (Secretary of State, Governor-General, civil and military officers), (3) expenses of the India Office in London, (4) cost of military stores purchased in Britain, and (5) guaranteed interest payments to railway companies. A wrong answer revealing only \"expenses in Britain\" without listing specific components shows the student memorised the term but not its operational composition — a critical gap because each component had different economic implications for the drain's magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Naoroji argue that India's persistent export surplus did not indicate economic prosperity, contrary to classical trade theory which treats export surplus as a sign of competitive advantage?",
+     "a": "Naoroji demonstrated that the export surplus was not voluntary or market-driven but forcibly extracted through: (a) land revenue demands payable only in cash, forcing peasants to sell produce at low prices; (b) discriminatory tariffs favouring British manufactures; (c) the Council Bills mechanism that converted rupee revenue into sterling for home charges. The surplus represented a transfer of real resources (goods) without corresponding claims on British goods — the sterling earned never returned as investment. A wrong answer citing \"unfavourable terms of trade\" alone misses the structural coercion: the surplus was a *mechanism* of drain, not its *result*. This confusion between symptom and mechanism is the most common senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Using Naoroji's 1880 estimate that India's annual drain was £30-40 million against a national income of approximately £500 million, calculate the drain as a percentage of national income. Then explain why V.K.R.V. Rao's later estimate (1930s) of 8-10% drain/GDP is considered methodologically superior.",
+     "a": "Step 1: Naoroji's range: £30m/£500m = 6%; £40m/£500m = 8%. Drain = 6-8% of national income.\nStep 2: Rao's superiority: (a) Used national income accounting framework (net domestic product) rather than rough aggregates; (b) Separated factor payments from transfer payments; (c) Accounted for \"invisible\" items like shipping, insurance, banking profits remitted abroad; (d) Adjusted for price level changes using index numbers. A wrong answer giving only the percentage without Rao's methodological improvements shows inability to evaluate historical economic estimates — a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the \"Council Bills\" mechanism operated to convert India's export surplus into sterling for home charges, and why this mechanism meant that Indian taxpayers effectively paid for British administrative costs twice.",
+     "a": "Mechanism: (1) British importers bought Council Bills from London (denominated in sterling) to pay Indian exporters; (2) Indian exporters encashed bills in rupees from Government treasuries; (3) Government used this rupee revenue (from land tax) to meet domestic expenses; (4) Sterling from bill sales in London funded home charges. Double payment: Indian taxpayers paid land revenue in rupees (first payment), which was then used to buy back the sterling that had originally come from British importers — effectively financing British expenditures from Indian taxes. A wrong answer describing Council Bills as \"normal trade finance\" misses that the *Government* was the counterparty, making it a fiscal transfer disguised as commercial transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that railway construction in India (guaranteed 5% return to British investors) represented \"development investment\" rather than drain. Use Naoroji's distinction between \"productive\" and \"unproductive\" expenditure.",
+     "a": "Naoroji conceded railways had productive potential but argued the *guarantee system* converted them into drain: (1) Guaranteed 5% return was payable in sterling regardless of profitability — a transfer from Indian taxpayers to British shareholders; (2) Capital equipment (rails, locomotives) was imported from Britain, so investment leakage was near 100%; (3) Freight rates favoured raw material export over internal trade, reinforcing colonial structure. True productive investment would have: (a) retained surplus in India for reinvestment, (b) developed capital goods industry, (c) linked production centres to consumption centres. A wrong answer accepting \"railways = development\" uncritically fails to distinguish between *physical infrastructure* and *economic surplus retention* — the core of Naoroji's critique.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simplified balance-of-payments style account for colonial India (c. 1900) showing: merchandise exports, merchandise imports, invisible debits (home charges, interest, profits), invisible credits, and net drain. Use hypothetical but historically plausible figures (in £ millions) and ensure the account balances.",
+     "a": "Sample account (all £ millions):\nMerchandise Exports: 180\nMerchandise Imports: 100\nMerchandise Trade Balance: +80\nInvisible Credits (shipping, insurance, banking fees earned): 5\nInvisible Debits: Home Charges 20, Interest on Debt 15, Railway Guarantees 10, Military Stores 8, Profit Remittances 12 = 65\nNet Invisible Balance: -60\nCurrent Account Balance: +20\nCapital Account (net inflow for railway construction, etc.): +20\nNet Drain (Current Account Surplus - Capital Inflow for productive investment): 80 - 20 = 60 (or directly: Invisible Debits - Invisible Credits = 60)\nA poor answer shows imbalance or omits profit remittances, revealing misunderstanding that drain operated *through* the trade surplus, not alongside it. The key insight: the £80 merchandise surplus financed the £60 invisible debit — the \"surplus\" was the drain's vehicle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

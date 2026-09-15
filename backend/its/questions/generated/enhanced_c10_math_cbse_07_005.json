@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_005",
+   "title": "c10_math_cbse_07_005",
+   "questions": [
+    {
+     "q": "State the midpoint formula for the line segment joining points P(x₁, y₁) and Q(x₂, y₂). Explain in one sentence what the formula calculates.",
+     "a": "The midpoint formula is M = ((x₁ + x₂)/2, (y₁ + y₂)/2). It calculates the coordinates of the point that divides the segment PQ internally in the ratio 1:1, i.e., the point equidistant from P and Q. A wrong answer (e.g., writing (x₂ - x₁)/2 or (x₁ + x₂, y₁ + y₂) without division) reveals the student confuses the midpoint formula with the distance formula or does not understand the concept of averaging coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "The midpoint of segment AB is M(4, -2). If A has coordinates (6, 0), a student calculates B as (2, -4) by doing (6 - 4, 0 - (-2)). Is this correct? Explain why or why not.",
+     "a": "No, the student's method is incorrect. The midpoint formula gives M = ((x_A + x_B)/2, (y_A + y_B)/2). To find B, we must solve: (6 + x_B)/2 = 4 → x_B = 2; (0 + y_B)/2 = -2 → y_B = -4. The student's answer (2, -4) is actually numerically correct for this specific case, but the method (subtracting coordinates) is wrong and will fail if the midpoint is not the average. The correct method is to set up equations using the formula. A wrong explanation reveals the student does not understand the reverse application of the midpoint formula and relies on a coincidental pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Find the midpoint of the line segment joining the points A(-3, 5) and B(7, -9). Show all steps.",
+     "a": "Step 1: Identify coordinates: x₁ = -3, y₁ = 5; x₂ = 7, y₂ = -9.\nStep 2: Write midpoint formula: x = (x₁ + x₂)/2, y = (y₁ + y₂)/2.\nStep 3: Substitute: x = (-3 + 7)/2 = 4/2 = 2; y = (5 + (-9))/2 = (-4)/2 = -2.\nStep 4: Midpoint M = (2, -2).\nA wrong answer (e.g., (5, -2) by adding without dividing, or (-5, 7) by subtracting) reveals sign errors with negative numbers or confusion between sum and average.",
+     "self_check": true
+    },
+    {
+     "q": "Points A(2, 3), B(6, 7), C(8, 3), and D(4, -1) form a quadrilateral. Without plotting, determine if the quadrilateral is a parallelogram using the midpoint property of diagonals. Explain your reasoning.",
+     "a": "Find midpoints of diagonals AC and BD.\nMidpoint of AC: ((2+8)/2, (3+3)/2) = (5, 3).\nMidpoint of BD: ((6+4)/2, (7+(-1))/2) = (5, 3).\nSince the midpoints coincide, the diagonals bisect each other, so ABCD is a parallelogram.\nA wrong answer (e.g., only checking one diagonal, or using distance formula for sides) reveals the student does not connect the midpoint concept to the geometric property \"diagonals of a parallelogram bisect each other\" — a common board exam application.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the point on the x-axis equidistant from A(2, -5) and B(-2, 9).\" They write: \"Let point be P(x, 0). Using distance formula, PA = PB → (x-2)² + (0+5)² = (x+2)² + (0-9)² → solving gives x = 7. So P(7,0).\" Evaluate if this is correct. If not, what is the correct method and answer?",
+     "a": "The student's answer is incorrect. The point on the x-axis equidistant from A and B is NOT the midpoint of AB (midpoint would be (0, 2), which is not on the x-axis). The student correctly set up the distance equality but made an algebraic error. Correct working:\n(x-2)² + 25 = (x+2)² + 81 → x² -4x+4+25 = x²+4x+4+81 → -4x+29 = 4x+85 → 8x = -56 → x = -7.\nCorrect answer: P(-7, 0).\nA wrong evaluation reveals the student confuses \"equidistant point on an axis\" with \"midpoint\" and cannot identify algebraic errors in distance formula expansions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where the midpoint formula is used to find a location that is NOT the centre of a rectangle or circle. Provide the problem statement, coordinates, and the solution.",
+     "a": "Example problem: \"Two friends, Rahul and Priya, live at coordinates R(1, 4) and P(7, 10) on a city map (units in km). They want to meet at a metro station exactly halfway between their homes. Find the coordinates of the meeting point.\" Solution: Midpoint = ((1+7)/2, (4+10)/2) = (4, 7). A poor answer would give a trivial rectangle centre problem or fail to set up coordinates properly, revealing inability to translate a word problem into coordinate geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

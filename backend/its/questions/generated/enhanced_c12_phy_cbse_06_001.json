@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_001",
+   "title": "c12_phy_cbse_06_001",
+   "questions": [
+    {
+     "q": "A circular coil of radius 5 cm has 100 turns and is placed perpendicular to a uniform magnetic field of 0.2 T. What is the magnetic flux linked with the coil? State the SI unit of magnetic flux.",
+     "a": "Magnetic flux Φ = NBA cosθ = 100 × 0.2 T × π(0.05 m)² × cos0° = 100 × 0.2 × π × 0.0025 = 0.157 Wb. SI unit: weber (Wb) = T·m². A wrong answer (e.g., forgetting N, using diameter instead of radius, or omitting cosθ) reveals the student confuses flux through one turn vs total flux linkage, or misapplies the area formula.",
+     "self_check": true
+    },
+    {
+     "q": "In Faraday's Experiment 6.3 (two stationary coils, one connected to battery via tapping key), the galvanometer shows a momentary deflection when the key is pressed and released, but zero deflection when held pressed. Explain WHY this happens using the concept of magnetic flux and its rate of change.",
+     "a": "When key is pressed, current in coil C2 rises from 0 to maximum → magnetic field builds up → flux through coil C1 *changes* (dΦ/dt ≠ 0) → emf induced. When key held pressed, current is constant → magnetic field constant → flux constant (dΦ/dt = 0) → no emf. When key released, current falls to 0 → flux decreases (dΦ/dt ≠ 0) → emf induced in opposite direction. A wrong answer (e.g., \"current in C2 induces current in C1 directly\") reveals the student thinks steady current induces emf, missing the crucial role of *changing* flux.",
+     "self_check": true
+    },
+    {
+     "q": "A square loop of side 20 cm and resistance 2 Ω is placed with its plane perpendicular to a uniform magnetic field of 0.5 T. The field is reduced to zero uniformly in 0.4 s. Calculate the magnitude of induced emf and the induced current in the loop.",
+     "a": "Given: side = 0.2 m → A = 0.04 m²; B_initial = 0.5 T, B_final = 0; Δt = 0.4 s; N = 1; θ = 0°.\nInitial flux Φ_i = BA = 0.5 × 0.04 = 0.02 Wb. Final flux Φ_f = 0.\n|ΔΦ| = 0.02 Wb. |ε| = |ΔΦ/Δt| = 0.02 / 0.4 = 0.05 V = 50 mV.\nInduced current I = |ε|/R = 0.05 / 2 = 0.025 A = 25 mA.\nA wrong answer (e.g., using B instead of ΔB, forgetting area, or wrong Δt) reveals unit confusion (Wb vs T) or misunderstanding that emf depends on *rate of change* of flux, not flux itself.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical coils A and B are placed coaxially. Coil A carries a steady current I. Coil B is moved slowly towards coil A. Compare the induced emf in coil B when: (i) it is moved with constant velocity v, (ii) it is moved with constant acceleration a. Explain the physical reason for the difference.",
+     "a": "(i) Constant v → flux through B increases at constant rate (dΦ/dt = constant) → induced emf is constant. (ii) Constant a → velocity increases → rate of flux change increases (dΦ/dt increases) → induced emf increases with time. The difference arises because emf depends on *rate of change* of flux, which is proportional to relative velocity. A wrong answer (e.g., \"emf is same in both cases\") reveals the student thinks emf depends only on flux magnitude, not its time derivative.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves Example 6.2 from NCERT but writes: \"Initial flux = BA = 0.1 × 0.01 = 0.001 Wb\" (using side 10 cm = 0.1 m, area = 0.01 m², but forgetting cos45°). They get ε = 1.43 mV instead of 1.0 mV. Identify the error and explain why the angle between area vector and magnetic field matters.",
+     "a": "The student used θ = 0° (cosθ = 1) but the problem states the field is in the north-east direction while the loop is in the east-west plane → angle between area vector (normal to plane) and B is 45°. Correct flux = BA cos45° = 0.1 × 0.01 × 1/√2 = 7.07×10⁻⁴ Wb. The error shows the student treats flux as scalar BA instead of dot product B·A. Flux depends on the *component* of B normal to the surface; only the perpendicular component contributes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate that induced emf depends on the *rate* of change of magnetic flux, not just the total change. Specify materials, procedure, and what observations would confirm Faraday's law.",
+     "a": "Materials: Strong bar magnet, coil (50+ turns), galvanometer (or LED + resistor), stopwatch. Procedure: (1) Move magnet toward coil slowly (2 s) — note max deflection. (2) Move same magnet same distance quickly (0.5 s) — note larger max deflection. (3) Move magnet same speed but use coil with more turns — note larger deflection. Observations: Faster motion → larger emf (dΦ/dt larger); more turns → larger emf (N times). This confirms ε ∝ N|dΦ/dt|. A poor answer (e.g., \"use stronger magnet\") tests flux magnitude, not rate of change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

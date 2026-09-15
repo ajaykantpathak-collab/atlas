@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_007",
+   "title": "c12_bs_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the primary difference between administration and management according to the American view (Oliver Sheldon, Florence, Tead).",
+     "a": "Correct: Administration is the higher-level function of determining objectives and policies (top level: owners, board); Management is the lower-level function of implementing policies and plans (middle and lower levels). A wrong answer that swaps the levels (e.g., \"management is top, administration is lower\") reveals confusion with the British view or a misunderstanding of the hierarchy. A vague answer like \"administration is bigger\" shows lack of precise conceptual grasp.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the British view (Breyer, Kimball) reverses the American hierarchy, placing management above administration.",
+     "a": "Correct: The British view treats management as the generic term for the entire process (including top-level policy-making), while administration is seen as a part of management concerned with routine execution of policies at lower levels. A wrong answer that says \"British view is just the opposite\" without explaining the reasoning (management as comprehensive, administration as operational) shows rote memorisation without understanding the semantic logic behind each school of thought.",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder decides the company's mission, raises seed capital, and hires a CEO. The CEO then designs the organisational structure, sets quarterly targets, and monitors departmental KPIs. Classify each person's primary role as administrative or managerial (American view) and justify.",
+     "a": "Founder: Administration (determines mission, policies, broad strategy — top level). CEO: Management (implements strategy, organises resources, controls operations — middle/top management executing policy). A wrong classification (e.g., calling the CEO an administrator because they are \"top\") reveals the student is confusing organisational rank with the theoretical function. The key is *what* they do: policy formulation vs. policy execution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of administration and management in a government department vs. a private manufacturing firm. How does the distinction blur in each?",
+     "a": "In government, administration (IAS officers, secretaries) frames rules and policies; management (section officers, clerks) executes them — distinction is sharp due to rigid hierarchy. In a private firm, the MD/CEO both formulates strategy (admin) and oversees daily operations (management) — roles merge. A poor answer treats both contexts identically, missing that organisational structure and ownership pattern affect the separation. This tests analytical ability to apply the concept contextually.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The distinction between management and administration is academic; in practice, every manager performs both functions.\" Support your view with two arguments.",
+     "a": "Valid evaluation: Agree — modern organisations (especially flat structures) require the same individual to set team goals (admin) and allocate tasks (management). Also, the terms are used interchangeably in job titles (e.g., \"Office Administrator\" does managerial work). Disagree — in large MNCs and government, the separation remains legally and functionally real (Board vs. CEO). A weak answer only gives one side or uses generic phrases like \"it depends\" without concrete organisational examples.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3x3 matrix (rows: Level — Top, Middle, Lower; columns: View — American, British, Modern) showing whether administration or management dominates at each level under each view. Fill any two cells and explain your entries.",
+     "a": "Example fill: American-Top = Administration (policy); British-Top = Management (comprehensive); Modern-Top = Both (interchangeable). A correct matrix shows the student can synthesise all three perspectives. A poor matrix repeats the same term everywhere or misaligns levels, indicating failure to grasp that the *same* organisational level is labelled differently across views.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

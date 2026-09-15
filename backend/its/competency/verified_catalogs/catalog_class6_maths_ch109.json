@@ -1,0 +1,490 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Symmetry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp109.txt",
+ "concepts": [
+  {
+   "id": "fegp.9.0.1",
+   "title": "Definition of Symmetry",
+   "section": "9",
+   "definition": "When one part of a figure repeats another part in a regular, predictable way, that repetition is one of the figure's symmetries.",
+   "formula": "none",
+   "key_idea": "Repetition with a rule: the figure carries a copy of itself inside its own outline.",
+   "textbook_ref": "fegp109.txt lines 1-115",
+   "question_patterns": [
+    "what is symmetry",
+    "identify if the figure is symmetrical",
+    "explain why a figure is considered symmetrical",
+    "is this pattern symmetrical",
+    "What makes a pattern count as symmetrical?",
+    "Point out the repeated part in the given design."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the figure",
+     "explain": "look for parts that repeat in a definite pattern"
+    },
+    {
+     "step": 2,
+     "action": "check for overlap",
+     "explain": "determine if parts coincide when moved or folded"
+    },
+    {
+     "step": 3,
+     "action": "state the symmetry rule",
+     "explain": "describe the repetition rule that makes the figure symmetrical"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.1.1",
+   "title": "Line of Symmetry",
+   "section": "9.1",
+   "definition": "Fold the figure along a straight path; if the two sides land exactly on each other, that fold path is a symmetry line.",
+   "formula": "none",
+   "key_idea": "Folding along this line creates two identical mirror halves.",
+   "textbook_ref": "fegp109.txt lines 120-145",
+   "question_patterns": [
+    "how many lines of symmetry does this shape have",
+    "find the line of symmetry",
+    "identify the axis of symmetry",
+    "draw the line of symmetry for the triangle",
+    "Fold the letter M -- how many working fold paths does it show?",
+    "Does every figure carry at least one fold path?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify potential fold line",
+     "explain": "locate a line that divides the shape into two equal parts"
+    },
+    {
+     "step": 2,
+     "action": "verify overlap",
+     "explain": "check if the left half exactly fits over the right half when folded"
+    },
+    {
+     "step": 3,
+     "action": "confirm the line of symmetry",
+     "explain": "if the halves match exactly, the fold path is a valid line of symmetry"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.1.2",
+   "title": "Multiple Lines of Symmetry",
+   "section": "9.1",
+   "definition": "One figure can carry several fold paths at once -- upright, lying flat, or slanted corner to corner.",
+   "formula": "total_lines = sum(vertical, horizontal, diagonal)",
+   "key_idea": "Regular shapes often possess multiple axes of symmetry.",
+   "textbook_ref": "fegp109.txt lines 155-200",
+   "question_patterns": [
+    "how many lines of symmetry does a square have",
+    "find all lines of symmetry for the rectangle",
+    "calculate the number of lines of symmetry in a regular hexagon",
+    "identify multiple axes of symmetry",
+    "Count the working fold paths of a square.",
+    "Which familiar figure has exactly two fold paths?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count vertical and horizontal lines",
+     "explain": "check for symmetry through the center horizontally and vertically",
+     "compute": "straight_lines = vertical + horizontal"
+    },
+    {
+     "step": 2,
+     "action": "count diagonal lines",
+     "explain": "check for symmetry across corners",
+     "compute": "total_lines = straight_lines + diagonal"
+    },
+    {
+     "step": 3,
+     "action": "sum all fold paths",
+     "explain": "add vertical, horizontal, and diagonal lines to get the total number of lines of symmetry",
+     "compute": "total_lines = vertical + horizontal + diagonal"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.1.3",
+   "title": "Reflection Symmetry",
+   "section": "9.1",
+   "definition": "If a fold path lays one side of a figure precisely over the other, the figure shows mirror (reflection) symmetry.",
+   "formula": "none",
+   "key_idea": "Each point hops to its twin on the far side of the fold, at the same distance.",
+   "textbook_ref": "fegp109.txt lines 215-240",
+   "question_patterns": [
+    "what is reflection symmetry",
+    "where do points go after reflection",
+    "complete the figure using reflection symmetry",
+    "identify the reflected position of point A",
+    "Where does point A land after folding along the path shown?",
+    "Finish the half-drawn butterfly using its mirror half."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the line of symmetry",
+     "explain": "this acts as the mirror line"
+    },
+    {
+     "step": 2,
+     "action": "map points",
+     "explain": "move points to the opposite side at the same perpendicular distance"
+    },
+    {
+     "step": 3,
+     "action": "draw the reflected half",
+     "explain": "connect the mapped points to complete the mirror image of the figure"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.2.1",
+   "title": "Rotational Symmetry",
+   "section": "9.2",
+   "definition": "Spin the figure about its middle; if some spin less than a full circle makes it look untouched, it has turn symmetry.",
+   "formula": "none",
+   "key_idea": "The shape overlaps with itself before a full 360 degree turn.",
+   "textbook_ref": "fegp109.txt lines 445-470",
+   "question_patterns": [
+    "does this figure have rotational symmetry",
+    "find the rotational symmetry of the windmill",
+    "identify shapes with rotational symmetry",
+    "explain rotational symmetry",
+    "Does a plus sign look untouched after a quarter spin?",
+    "Name an everyday object with turn symmetry."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the centre of rotation",
+     "explain": "find the fixed point around which the object turns"
+    },
+    {
+     "step": 2,
+     "action": "rotate the figure",
+     "explain": "check if the figure looks identical at any angle between 0 and 360 degrees"
+    },
+    {
+     "step": 3,
+     "action": "confirm rotational symmetry",
+     "explain": "if the figure matches itself before a full 360 degree turn, it has rotational symmetry"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.2.2",
+   "title": "Smallest Angle of Symmetry",
+   "section": "9.2",
+   "definition": "The tiniest spin that leaves the figure looking untouched.",
+   "formula": "smallest_angle = 360 / n",
+   "key_idea": "With n identical repeating arms, the tiniest safe spin is one n-th of a circle: 360 / n.",
+   "textbook_ref": "fegp109.txt lines 525-560",
+   "question_patterns": [
+    "calculate the smallest angle of symmetry",
+    "find the angle of rotation for 3 radial arms",
+    "what is the smallest angle for a figure with 5 angles of symmetry",
+    "determine the angle of symmetry",
+    "Find the tiniest working spin for a 3-arm fan.",
+    "What is the tiniest spin for a regular 5-point star?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the number of repeating positions",
+     "explain": "count how many times the figure overlaps in a full turn",
+     "compute": "n = count"
+    },
+    {
+     "step": 2,
+     "action": "divide full turn by count",
+     "explain": "the smallest angle is 360 divided by the number of positions",
+     "compute": "smallest_angle = 360 / n"
+    },
+    {
+     "step": 3,
+     "action": "verify the result",
+     "explain": "confirm the remainder is zero -- rotating by the smallest rotation angle makes the figure overlap itself",
+     "compute": "remainder = 360 % n"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.2.3",
+   "title": "Angles of Symmetry Multiples",
+   "section": "9.2",
+   "definition": "Every spin that works is a whole-number multiple of that tiniest one.",
+   "formula": "angle_k = k * smallest_angle",
+   "key_idea": "Tiny spin 90 gives 90, 180, 270 and 360 -- double, triple, and the full circle.",
+   "textbook_ref": "fegp109.txt lines 580-600",
+   "question_patterns": [
+    "find all angles of symmetry",
+    "if the smallest angle is 60, what are the others",
+    "list the angles of symmetry for a square",
+    "what are the multiples of the smallest angle",
+    "List every working spin when the tiniest one is 120.",
+    "How many working spins does a figure with tiny spin 60 have?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the smallest angle",
+     "explain": "identify the first rotation that results in overlap",
+     "compute": "base = smallest_angle"
+    },
+    {
+     "step": 2,
+     "action": "calculate subsequent multiples",
+     "explain": "multiply the base angle by integers until 360 is reached",
+     "compute": "next_angle = base * 2"
+    },
+    {
+     "step": 3,
+     "action": "list all working angles",
+     "explain": "continue multiplying until the full 360 degree turn is reached, then stop",
+     "compute": "angle_k = k * smallest_angle"
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.2.4",
+   "title": "Symmetry of a Circle",
+   "section": "9.2",
+   "definition": "In a circle every straight corner-to-corner path through the middle is a fold path, and every tiny spin is a working spin.",
+   "formula": "none",
+   "key_idea": "Infinitely many fold paths and spins -- the round shape is the symmetric champion.",
+   "textbook_ref": "fegp109.txt lines 615-635",
+   "question_patterns": [
+    "how many lines of symmetry does a circle have",
+    "what are the angles of symmetry for a circle",
+    "is every diameter a line of symmetry",
+    "discuss the symmetry of a circle",
+    "How many working fold paths does a circle carry?",
+    "What spin angles work on a circle?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check diameters",
+     "explain": "any line passing through the center is a line of symmetry"
+    },
+    {
+     "step": 2,
+     "action": "check rotation",
+     "explain": "any rotation about the center leaves the circle looking the same"
+    },
+    {
+     "step": 3,
+     "action": "conclude infinite symmetry",
+     "explain": "since every diameter is a fold path and every spin works, the circle has infinitely many lines and angles of symmetry"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp109.txt lines 155-180",
+   "concept": "fegp.9.1.2",
+   "question_type": "compute",
+   "question_pattern": "How many lines of symmetry does a square shape have?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count vertical and horizontal folds",
+     "explain": "a square can be folded in half vertically and horizontally",
+     "compute": "straight = 2"
+    },
+    {
+     "step": 2,
+     "action": "count diagonal folds",
+     "explain": "a square can be folded along both diagonals",
+     "compute": "diagonals = 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate total",
+     "explain": "sum of all folding lines",
+     "compute": "total_lines = straight + diagonals"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp109.txt lines 545-560",
+   "concept": "fegp.9.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the angle of symmetry for a figure with {n} radial arms equally distributed.",
+   "extracted_variables": {
+    "n": "number of arms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide full turn by number of arms",
+     "explain": "the angle between adjacent arms is 360 divided by n",
+     "compute": "smallest_angle = 360 / n"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp109.txt lines 655-660",
+   "concept": "fegp.9.2.3",
+   "question_type": "compute",
+   "question_pattern": "In a figure, {smallest} is the smallest angle of symmetry. What are the other angles of symmetry?",
+   "extracted_variables": {
+    "smallest": "the first angle of symmetry"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate second angle",
+     "explain": "multiply smallest angle by 2",
+     "compute": "angle2 = smallest * 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate third angle",
+     "explain": "multiply smallest angle by 3",
+     "compute": "angle3 = smallest * 3"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.9.1.2",
+   "question_pattern": "How many working fold paths does a square have?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "test the directions",
+     "explain": "4: upright, flat, two slanted",
+     "compute": "total_lines = 4"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.9.2.2",
+   "question_pattern": "Find the tiniest working spin for a figure with {n} identical arms.",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split a full circle",
+     "explain": "360 / 3 = 120",
+     "compute": "smallest_angle = 360 / n"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.9.2.2",
+   "question_pattern": "A regular figure has {n} sides -- find its tiniest working spin.",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split a full circle",
+     "explain": "360 / 5 = 72",
+     "compute": "smallest_angle = 360 / n"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.9.2.3",
+   "question_pattern": "The tiniest working spin is {s} -- list the next two multiples.",
+   "extracted_variables": {
+    "s": "90"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double it",
+     "explain": "2 x 90 = 180",
+     "compute": "second = k * smallest_angle"
+    },
+    {
+     "step": 2,
+     "action": "triple it",
+     "explain": "3 x 90 = 270",
+     "compute": "third = k * smallest_angle"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "fegp109.txt lines 140-150",
+   "questions": [
+    "For each of the following figures, identify the line(s) of symmetry if it exists."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "fegp109.txt lines 285-300",
+   "questions": [
+    "Identify the line along which the paper was folded in the punching game.",
+    "Given the line(s) of symmetry, find the other hole(s)."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "fegp109.txt lines 340-360",
+   "questions": [
+    "How many lines of symmetry do these shapes have: a triangle with equal sides, a hexagon with equal sides?",
+    "Draw a triangle with exactly one line of symmetry.",
+    "Is it possible to draw a triangle with exactly two lines of symmetry?"
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "fegp109.txt lines 570-585",
+   "questions": [
+    "Find the angles of symmetry for the given figures about the point marked.",
+    "Which of the following figures have more than one angle of symmetry?",
+    "Give the order of rotational symmetry for each figure."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "fegp109.txt lines 640-675",
+   "questions": [
+    "Draw a triangle with at least two lines of symmetry and at least two angles of symmetry.",
+    "Can we have a figure with rotational symmetry whose smallest angle of symmetry is 17 degrees?",
+    "How many lines of symmetry and angles of symmetry does Ashoka Chakra have?"
+   ]
+  }
+ ]
+}

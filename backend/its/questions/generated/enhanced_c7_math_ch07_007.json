@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_007",
+   "title": "c7_math_ch07_007",
+   "questions": [
+    {
+     "q": "What is the sum of the three interior angles of any triangle?",
+     "a": "The sum of the three interior angles of any triangle is $180^\\circ$. A student who answers $360^\\circ$ is confusing the interior angle sum of a triangle with that of a quadrilateral or a full circle, while a student who answers $90^\\circ$ is confusing it with a right angle or the complementary angle property.",
+     "self_check": true
+    },
+    {
+     "q": "Can a triangle have two obtuse angles (angles greater than $90^\\circ$)? Explain why or why not using the angle sum property.",
+     "a": "No, a triangle cannot have two obtuse angles. If a triangle had two obtuse angles, say $95^\\circ$ and $90^\\circ$, their sum would already be $185^\\circ$, which exceeds the total allowable angle sum of $180^\\circ$ for a triangle before even adding the third angle. A student who says \"yes\" fails to comprehend that the total sum is strictly fixed at $180^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle PQR$, angle $\\angle P = 55^\\circ$ and angle $\\angle Q = 65^\\circ$. What is the measure of angle $\\angle R$?",
+     "a": "The measure of angle $\\angle R$ is $60^\\circ$. Working steps: 1) State the formula: $\\angle P + \\angle Q + \\angle R = 180^\\circ$. 2) Substitute known values: $55^\\circ + 65^\\circ + \\angle R = 180^\\circ$. 3) Combine like terms: $120^\\circ + \\angle R = 180^\\circ$. 4) Subtract $120^\\circ$ from both sides: $\\angle R = 180^\\circ - 120^\\circ = 60^\\circ$. A student who answers $120^\\circ$ stopped after adding the two given angles and forgot to subtract that sum from $180^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "If the three angles of a triangle are in the ratio $2:3:4$, what is the measure of the largest angle?",
+     "a": "The measure of the largest angle is $80^\\circ$. Working steps: 1) Let the angles be $2x$, $3x$, and $4x$. 2) Set up the equation using the angle sum property: $2x + 3x + 4x = 180^\\circ$. 3) Simplify the expression: $9x = 180^\\circ$. 4) Solve for $x$: $x = 180^\\circ / 9 = 20^\\circ$. 5) Calculate the largest angle: $4 \\times 20^\\circ = 80^\\circ$. A student who answers $4$ forgot to assign a variable multiplier $x$ to the ratio parts and treated them as absolute angle degrees.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the unknown angles of a triangle where the angles are given as $x$, $2x$, and $3x$. They write the equation $x + 2x + 3x = 90^\\circ$ and conclude that $x = 15^\\circ$. Identify the error in their reasoning and find the correct value of $x$.",
+     "a": "The student's error was setting the sum of the angles equal to $90^\\circ$ instead of $180^\\circ$. The correct equation is $x + 2x + 3x = 180^\\circ$, which simplifies to $6x = 180^\\circ$, yielding $x = 30^\\circ$. A student who agrees with the original working does not remember that the angle sum of a triangle is $180^\\circ$, confusing it with complementary angles ($90^\\circ$).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem about a triangular garden plot in a school courtyard where two angles are known algebraically in terms of $x$, and the third angle is a fixed number of degrees, requiring an equation to find all three angles.",
+     "a": "A good problem looks like this: \"Rahul's school has a triangular flower bed. Angle $A$ is $x^\\circ$, angle $B$ is $(2x - 10)^\\circ$, and angle $C$ is $50^\\circ$. Find the measure of angles $A$ and $B$.\" Expected solution: $x + (2x - 10) + 50 = 180 \\Rightarrow 3x + 40 = 180 \\Rightarrow 3x = 140 \\Rightarrow x = 46.67^\\circ$. A poor response provides random numbers that do not allow a logical algebraic setup or forgets to include units and context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

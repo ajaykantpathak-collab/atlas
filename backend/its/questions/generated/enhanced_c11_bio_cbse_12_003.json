@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_003",
+   "title": "c11_bio_cbse_12_003",
+   "questions": [
+    {
+     "q": "Name the two enzymes that catalyze the conversion of pyruvic acid to ethanol in alcoholic fermentation, and state the cofactor required by the first enzyme.",
+     "a": "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant). A wrong answer (e.g., naming lactate dehydrogenase or omitting TPP) reveals the student confuses the two fermentation types or doesn't know enzyme-cofactor specificity, which is critical for understanding why yeast cannot perform lactic acid fermentation and vice versa.",
+     "self_check": true
+    },
+    {
+     "q": "Why does glycolysis stop in the absence of fermentation when oxygen is unavailable, even though glycolysis itself does not use oxygen directly?",
+     "a": "Glycolysis requires NAD⁺ as electron acceptor at the glyceraldehyde-3-phosphate dehydrogenase step. Without oxygen, NADH+H⁺ cannot be reoxidized via ETS. Fermentation regenerates NAD⁺ by reducing pyruvate to lactate or ethanol. If fermentation is blocked, NAD⁺ pool depletes, glycolysis halts at the G3P dehydrogenase step, and no ATP is produced. A wrong answer (e.g., \"glycolysis needs oxygen\") reveals the classic misconception that glycolysis is aerobic, missing the crucial role of NAD⁺/NADH redox balance.",
+     "self_check": true
+    },
+    {
+     "q": "A marathon runner experiences muscle cramps during the final kilometers. Blood tests show elevated lactate. Explain the biochemical sequence from glucose to lactate in the muscle fiber, including the specific step where NAD⁺ is regenerated, and calculate the net ATP yield per glucose molecule.",
+     "a": "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺. Net: 2 ATP/glucose. Steps: 1) Glucose phosphorylation (hexokinase, -1 ATP), 2) Fructose-6-P phosphorylation (PFK-1, -1 ATP), 3) Cleavage to G3P/DHAP, 4) G3P oxidation (G3P dehydrogenase, +2 NADH+H⁺), 5) Substrate-level phosphorylations (+4 ATP), 6) Pyruvate reduction to lactate (LDH, regenerates 2 NAD⁺). Wrong answer (e.g., 38 ATP or mentioning mitochondria) reveals confusion between anaerobic and aerobic ATP yields or compartmentalization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of the carbon atoms of glucose in alcoholic fermentation versus lactic acid fermentation. Why is CO₂ evolved in one but not the other, and what does this imply about the carbon balance?",
+     "a": "Alcoholic fermentation: Glucose (6C) → 2 Pyruvate (3C each) → 2 Acetaldehyde (2C) + 2 CO₂ → 2 Ethanol (2C). Carbon balance: 6C in → 4C in ethanol + 2C in CO₂. Lactic acid fermentation: Glucose (6C) → 2 Pyruvate (3C) → 2 Lactate (3C). No decarboxylation step; all 6 carbons retained in lactate. CO₂ evolution only in alcoholic fermentation due to pyruvic acid decarboxylase (TPP-dependent). Wrong answer (e.g., \"CO₂ from Krebs cycle\") reveals failure to recognize fermentation bypasses mitochondria entirely and that decarboxylation occurs at pyruvate→acetaldehyde, not in TCA.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Fermentation is an inefficient waste of glucose because it yields only 2 ATP compared to 38 ATP in aerobic respiration; therefore, organisms that ferment are evolutionarily primitive and less fit.\" Provide biochemical and ecological reasoning.",
+     "a": "The statement is flawed. Biochemically: Fermentation allows ATP production when O₂ is absent (e.g., waterlogged soils, deep tissues, fermented foods). The 2 ATP from glycolysis is vital for survival. Ecologically: Fermenters (yeast, lactobacilli) dominate niches where O₂ is limiting; they produce antimicrobial byproducts (ethanol, lactate) that inhibit competitors. Many \"higher\" organisms (human muscle, germinating seeds) use fermentation facultatively. Evolutionarily: Fermentation pathways are ancient (pre-oxygen atmosphere) but not \"primitive\" - they are highly conserved and essential. Wrong evaluation (agreeing without qualification) reveals teleological thinking and ignorance of metabolic flexibility and niche adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate that CO₂ is produced during alcoholic fermentation but not during lactic acid fermentation. Specify controls, measurements, and how you would distinguish the two processes.",
+     "a": "Setup: Two anaerobic bottles with glucose solution. Bottle A: Add baker's yeast (Saccharomyces). Bottle B: Add curd/whey (lactobacilli). Seal with one-way gas outlet into lime water (Ca(OH)₂) or inverted graduated cylinder over water. Control: Bottle C (glucose only, no inoculum). Measure: Gas volume over 24h; lime water turbidity (CO₂ test); pH drop (both produce acid). Expected: Bottle A → gas evolution, lime water turns milky, pH drops, ethanol smell. Bottle B → no gas, lime water clear, pH drops, sour smell. Distinguishes decarboxylation (alcoholic) vs. non-decarboxylating (lactic) pathways. Poor design (no anaerobic seal, no control, measuring only pH) reveals misunderstanding of gaseous vs. non-gaseous products and need for anaerobic conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

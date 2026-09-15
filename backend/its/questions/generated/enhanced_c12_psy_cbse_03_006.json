@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_006",
+   "title": "c12_psy_cbse_03_006",
+   "questions": [
+    {
+     "q": "What are the three main types of white blood cells (leucocytes) mentioned in the NCERT textbook that constitute the immune system's cellular defence, and what is the specific function of natural killer (NK) cells?",
+     "a": "The three main types are T cells, B cells, and natural killer (NK) cells. T cells destroy invaders directly; T-helper cells amplify immunological activity. B cells produce antibodies. NK cells are involved in fighting both viruses and tumours through cytotoxic activity — they recognise and kill virus-infected cells and cancer cells without prior sensitisation. A wrong answer (e.g., \"NK cells produce antibodies\" or \"NK cells are a type of T cell\") reveals confusion between humoral (B cell) and cell-mediated (T/NK) immunity, or failure to distinguish NK cells' innate, non-specific cytotoxicity from adaptive T-cell responses.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Stress cannot weaken the immune system because stress releases adrenaline, and adrenaline prepares the body for fight-or-flight, which should make immunity stronger.\" Using the PNI pathway from the textbook, explain why this reasoning is flawed.",
+     "a": "The student confuses acute fight-or-flight (sympathetic-adrenal-medullary axis, seconds-minutes) with chronic stress (HPA axis, hours-days). Acute adrenaline mobilises immune cells transiently, but prolonged cortisol from sustained HPA activation down-regulates NK cell cytotoxicity, suppresses T-helper cell proliferation, and inhibits cytokine production (e.g., IL-2, interferon-gamma). The textbook explicitly states: \"Reduced levels of natural killer cell cytotoxicity have been found in people who are highly stressed, including students facing important examinations.\" A wrong answer indicates the student hasn't distinguished acute vs. chronic stress pathways or the immunosuppressive role of cortisol.",
+     "self_check": true
+    },
+    {
+     "q": "Rohit has been caring for his terminally ill mother for 8 months. He reports frequent colds, slow wound healing, and a recent shingles outbreak. His blood test shows low NK cell activity. Trace the PNI pathway from his chronic caregiving stress to the shingles reactivation, naming the specific hormones and immune cells involved at each step.",
+     "a": "Step 1: Chronic stressor (caregiving) → cognitive appraisal as uncontrollable threat → persistent negative emotions (helplessness, grief). Step 2: Hypothalamus → CRH → anterior pituitary → ACTH → adrenal cortex → sustained cortisol secretion (plus catecholamines from adrenal medulla via SAM axis). Step 3: Cortisol binds glucocorticoid receptors on NK cells and T-helper cells → inhibits perforin/granzyme expression in NK cells → reduces NK cytotoxicity; suppresses T-helper proliferation and IL-2 production. Step 4: Impaired immune surveillance → failure to contain latent varicella-zoster virus → viral reactivation as shingles. A wrong answer (e.g., blaming only \"low immunity\" without the hormonal pathway) shows inability to integrate neuroendocrine-immune crosstalk.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the immune outcomes of two students facing the same board exam stressor: Student A has high social support (parents, friends, teacher mentorship) and views exams as a challenge; Student B is socially isolated and appraises exams as a threat. Use the textbook's Figure 3.4 sequence (negative emotions → stress hormones → weakened immune system → illness) to explain the divergence.",
+     "a": "Student A: Challenge appraisal → lower negative affect → attenuated HPA/SAM activation → moderate, transient cortisol → preserved NK cytotoxicity and T-helper function → effective immune surveillance → minimal illness. Student B: Threat appraisal → intense negative emotions (anxiety, hopelessness) → prolonged HPA/SAM activation → chronic high cortisol + catecholamines → suppressed NK cell cytotoxicity, reduced T-helper activity, impaired antibody response → weakened immune system → higher infection risk, slower recovery. Social support buffers Student A by providing emotional regulation (reducing negative emotions) and tangible resources (study help), directly interrupting the Figure 3.4 cascade at the \"negative emotions\" and \"stress hormones\" steps. A wrong answer that treats both students identically misses the moderating role of appraisal and social support central to the textbook's model.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since stress suppresses NK cells, eliminating all stress would maximise immune function and prevent cancer.\" Consider the Yerkes-Dodson principle (eustress), the GAS model, and the textbook's discussion of stress as a transactional process.",
+     "a": "The statement is flawed because: (1) Eustress (optimal arousal) enhances immune readiness — acute stress can transiently increase NK cell circulation and cytotoxicity via catecholamines. (2) GAS alarm reaction mobilises defences; only prolonged exhaustion stage causes immunosuppression. (3) Stress is not a stimulus but a transaction — eliminating all challenges removes growth opportunities and resilience-building (hardiness). (4) Complete stress absence (boredom, underload) correlates with low motivation and poor health behaviours (sedentary, poor diet). The textbook states: \"Not all stress is inherently bad... Eustress is the level of stress that is good for you... one of a person's best assets for achieving peak performance.\" A wrong answer treating stress as uniformly toxic ignores the inverted-U relationship and the cognitive appraisal mediation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week intervention study for Class 12 students during board exams to test whether a combined \"cognitive reappraisal + social support + sleep hygiene\" program preserves NK cell function better than a control group. Specify: (a) the measurable NK cell parameter, (b) the three intervention components with one concrete daily activity each, (c) the control condition, and (d) the expected outcome pattern if the PNI model holds.",
+     "a": "(a) Measurable parameter: NK cell cytotoxicity assay (% lysis of K562 target cells at 10:1 effector:target ratio) from peripheral blood drawn pre-exam (Week 1) and post-exam (Week 4). (b) Intervention components: Cognitive reappraisal — daily 10-min guided journaling reframing \"threat\" thoughts (\"I'll fail\") to \"challenge\" thoughts (\"This tests my preparation, I can handle it\"); Social support — daily 15-min structured peer check-in (study buddy call) + weekly teacher mentorship; Sleep hygiene — fixed 22:30 lights-out, no screens 30 min prior, 7.5-hour target. (c) Control: Waitlist — receives general exam tips handout only. (d) Expected outcome: Intervention group shows <10% decline in NK cytotoxicity from Week 1 to 4; control shows >25% decline (mirroring textbook's \"students facing important examinations\" finding). A poor design (e.g., no baseline, subjective stress-only measures) reveals failure to operationalise the biological endpoint central to PNI.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

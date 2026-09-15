@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_6",
+   "title": "c9_eco_ch2_6",
+   "questions": [
+    {
+     "q": "Define \"normal good\" and \"inferior good\" in terms of the income-demand relationship.",
+     "a": "A normal good is one for which demand increases when consumer income rises (positive income elasticity), while an inferior good is one for which demand decreases when income rises (negative income elasticity). A wrong answer—such as \"inferior goods are low-quality goods\"—reveals confusion between economic terminology and everyday language; students often think \"inferior\" means bad quality rather than an inverse income-demand relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a change in consumer taste cause a shift of the demand curve rather than a movement along it?",
+     "a": "Taste is a non-price determinant; when preferences change, the quantity demanded alters at every possible price, so the entire curve shifts. A wrong answer—\"because taste affects price\"—confuses the independent variable (taste) with the dependent variable (price) and shows the student hasn't internalised the c9_eco_ch2_3 distinction between shift factors and own-price changes.",
+     "self_check": true
+    },
+    {
+     "q": "In a survey, 100 families in Delhi were asked their monthly demand for bus tickets at ₹10 per ticket. When average family income rose from ₹25,000 to ₹35,000, demand fell from 60 to 40 tickets. Calculate the income elasticity of demand and classify the good.",
+     "a": "Step 1: % change in quantity = (40-60)/60 × 100 = -33.33%. Step 2: % change in income = (35,000-25,000)/25,000 × 100 = 40%. Step 3: Income elasticity = -33.33% / 40% = -0.83. Step 4: Negative elasticity → inferior good. A wrong positive elasticity reveals the student used absolute changes instead of percentages or reversed the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of \"expectations of higher future prices\" on current demand for (a) durable goods like refrigerators and (b) perishable goods like milk. Explain any difference.",
+     "a": "For durables, expectations of higher future prices cause a large rightward shift in current demand as consumers advance purchases (inter-temporal substitution). For perishables, the shift is minimal because milk cannot be stored; consumers cannot easily advance consumption. A wrong answer claiming equal shifts ignores storability—a key concept linking to c8_eco_ch1_10 (types of goods).",
+     "self_check": true
+    },
+    {
+     "q": "The government announces a permanent 10% income-tax cut effective next year. Evaluate the likely immediate impact on current demand for normal goods, considering both the income effect and the expectation effect.",
+     "a": "Immediate demand for normal goods may rise slightly due to expectations of higher future disposable income (expectation effect), but the full income effect occurs only when the tax cut materialises. A wrong answer predicting a large immediate surge overlooks the timing distinction between expected and actual income changes—a nuance required for board-level policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life Indian example showing how seasonality and taste interact to shift demand for a single product. Draw a labelled diagram describing the shift.",
+     "a": "Example: Mangoes in India. Summer (seasonality) increases demand; additionally, summer festivals like \"Mango Festival\" enhance taste for mangoes. The demand curve shifts rightward twice—once for season, once for taste—resulting in a larger total shift. A poor answer treats them as a single shift or draws a movement along the curve, showing inability to separate simultaneous determinants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

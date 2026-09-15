@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "A Journey through States of Water",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.8.1",
+   "title": "The Three States of Water",
+   "section": "Ice, water and vapour",
+   "definition": "The same substance, water, appears as solid ice, liquid water and gaseous water vapour; changing between these states needs cooling or heating, and the substance itself stays water throughout.",
+   "formula": "water states = solid ice + liquid water + gas vapour",
+   "key_idea": "State is a costume, not an identity: heat or cool water and it changes costume without changing itself.",
+   "textbook_ref": "fecu108.txt, Ice, water and vapour",
+   "question_patterns": [
+    "name the three states of water",
+    "how does ice change into water",
+    "what happens to water when it is boiled",
+    "is steam a different substance from water",
+    "where do you see all three states of water together",
+    "why does ice float on water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.2",
+   "title": "Evaporation and Condensation",
+   "section": "Evaporation and condensation",
+   "definition": "Water escapes quietly into air as vapour from wet clothes, open vessels and even leaves, called evaporation; when that vapour meets a cool surface it turns back to drops, called condensation.",
+   "formula": "liquid + heat = vapour; vapour - heat = liquid",
+   "key_idea": "Evaporation spreads water into air, condensation gathers it back: the two steps run the world's water traffic.",
+   "textbook_ref": "fecu108.txt, Evaporation and condensation",
+   "question_patterns": [
+    "what is evaporation and give examples",
+    "what is condensation and where have you seen it",
+    "why do wet clothes dry in the sun",
+    "where do water drops on a cold glass come from",
+    "how does evaporation help in daily life",
+    "why does steam condense on a mirror"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.3",
+   "title": "Cooling Effect of Evaporation",
+   "section": "Cooling effect",
+   "definition": "Evaporation takes away heat: as sweat or water evaporates from skin, it draws heat from the body, which is why we sweat in summer and why water kept in an earthen pot turns cool.",
+   "formula": "",
+   "key_idea": "Every evaporating drop carries heat away: nature's own air conditioner runs on this effect.",
+   "textbook_ref": "fecu108.txt, Cooling effect",
+   "question_patterns": [
+    "why do we sweat in summer",
+    "how does an earthen pot cool water",
+    "why does spraying water cool a room",
+    "why do we feel cold after a bath",
+    "what makes evaporation faster",
+    "how does sweating protect the body"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.4",
+   "title": "The Water Cycle",
+   "section": "Water cycle",
+   "definition": "Sunlight evaporates water from seas, lakes and fields; the vapour rises, cools and condenses into clouds, falls as rain or snow, and flows back to the sea, completing the water cycle that renews the earth's fresh water.",
+   "formula": "cycle = evaporation + condensation + rain + flow back",
+   "key_idea": "The water cycle is nature's round trip: the same water has travelled the loop for ages without loss.",
+   "textbook_ref": "fecu108.txt, Water cycle",
+   "question_patterns": [
+    "explain the water cycle with a diagram",
+    "how do clouds form",
+    "from where does rain water come",
+    "why does the earth not run out of water",
+    "what is the role of the sun in the water cycle",
+    "trace a drop of sea water through the water cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu108.txt",
+   "concept": "fecu.8.1",
+   "question_type": "verify_property",
+   "question_pattern": "what did the ice in the lemonade make aavi and thirav wonder?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu108.txt",
+   "concept": "fecu.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "how can water be evaporated faster?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu108.txt, Let us enhance our learning",
+   "questions": [
+    "What did the ice in the lemonade make Aavi and Thirav wonder?",
+    "How can water be evaporated faster?",
+    "Draw and explain the stages of the water cycle.",
+    "Observe a cold glass of water and explain the drops on its outside.",
+    "Keep equal water in two places and record which evaporates faster."
+   ]
+  }
+ ]
+}

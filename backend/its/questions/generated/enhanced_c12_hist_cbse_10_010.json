@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_10_010",
+   "title": "c12_hist_cbse_10_010",
+   "questions": [
+    {
+     "q": "In which month and year did the British finally recapture Delhi after the 1857 Revolt began?",
+     "a": "The British recaptured Delhi in late September 1857, nearly five months after the mutiny began at Meerut on 10 May 1857. A wrong answer (e.g., \"June 1857\" or \"1858\") reveals the student confuses the start of British counter-offensives with the actual fall of Delhi, or conflates the end of the revolt in Awadh (March 1858) with the capture of the symbolic capital. This signals a chronological gap — the student cannot sequence the major military turning points, which is essential for analysing why the revolt failed (Delhi's fall broke the rebellion's symbolic centre).",
+     "self_check": true
+    },
+    {
+     "q": "The Azamgarh Proclamation promised light revenue demands for zamindars, free trade for merchants, and high salaries for public servants. Why did these promises fail to create a lasting united front against the British?",
+     "a": "The proclamation articulated a vision of unity but lacked an enforcement mechanism: it was a declarative document issued by a nominal leader (Bahadur Shah) with no administrative machinery to collect revenue, pay salaries, or protect trade routes. The British, by contrast, had a functioning bureaucracy, telegraph, and army to deliver on their promises (e.g., restoring taluqdar estates in return for loyalty). A wrong answer that says \"the promises were unrealistic\" or \"people didn't trust Bahadur Shah\" misses the structural point — the rebels had no STATE CAPACITY to implement their vision, while the British did. This confusion between ideological appeal and organisational capacity is a core misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The rebels lost because they lacked modern weapons like the Enfield rifle.\" Using evidence from the NCERT chapter, explain why this explanation is incomplete and identify the MORE decisive technological asymmetry.",
+     "a": "The Enfield rifle was indeed a British advantage, but the NCERT text emphasizes COMMUNICATION and LOGISTICS as the decisive asymmetry: the telegraph allowed British commanders to coordinate attacks from Calcutta and Punjab simultaneously (Map 2), while rebels relied on chapattis, emissaries, and drumbeats. Railways moved British reinforcements and artillery rapidly; rebels moved on foot or horseback. The student's focus on battlefield weapons ignores the operational-level advantage — the British could concentrate force at the right place and time because they had a nervous system (telegraph) and circulatory system (railways) the rebels lacked. A wrong answer fixates on tactical firepower, missing the strategic dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the British strategy in Awadh (as described in the NCERT section \"Repression\") with the rebel strategy in the same region. What does this comparison reveal about the difference in their organisational capacity?",
+     "a": "In Awadh, the British used a COMBINATION of military force and political diplomacy: they passed special laws (martial law, death penalty for rebellion), moved troops village-by-village, AND crucially, \"tried to break up the unity by promising to give back to the big landholders their estates\" — rewarding loyal taluqdars and dispossessing rebels. The rebels, by contrast, relied on the personal loyalty of taluqdars to the Nawab and peasant solidarity, but had no institutional means to reward loyalty or punish defection beyond revolutionary justice (panchayats). The comparison reveals the British possessed a STATE with legal, fiscal, and coercive tools; the rebels had a MOVEMENT with moral authority but no administrative infrastructure. A weak answer describes only the fighting, missing the political-economic dimension of British counter-insurgency.",
+     "self_check": true
+    },
+    {
+     "q": "Historian Eric Stokes argues the 1857 Revolt was \"a traditionalist movement that failed because it looked backward to a vanished world.\" Evaluate this interpretation using the NCERT's discussion of the rebels' \"search for alternative power\" and the British use of modern communication.",
+     "a": "Stokes' interpretation is PARTIALLY valid but incomplete. The NCERT confirms rebels \"harked back to the eighteenth-century Mughal world\" — restoring court culture, revenue farming, and pre-British hierarchies (Azamgarh Proclamation Sections I–V). This backward-looking vision limited their appeal to modern classes (e.g., Western-educated Indians, new merchants) and offered no blueprint for a modern state. However, the NCERT also shows rebels WERE innovative: they used panchayats for collective decision-making, emissaries for inter-cantonment coordination, and chapattis for mass mobilisation — adaptive, not purely traditional. The decisive failure was not ideology but ASYMMETRY: the British combined traditional diplomacy (winning over princes) with MODERN logistics (telegraph, rail, steamships). A strong evaluation balances both: the revolt's political imagination was pre-modern, but its military failure was caused by the British monopoly over modern communication and resource mobilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The 1857 Revolt failed not because Indians did not want freedom, but because they lacked the INFRASTRUCTURE of a modern nation-state.\" Support your argument with three specific pieces of evidence from the NCERT chapter.",
+     "a": "A strong argument uses: (1) The Azamgarh Proclamation's failure to create a functioning administration — it promised \"light Jumas\" and \"absolute rule\" to zamindars but had no revenue department to collect or courts to enforce; (2) The communication gap — British telegraph vs. rebel chapattis/emissaries (Source 2: tahsildar's coded conversation shows oral, personal networks only); (3) The military logistics gap — British moved troops from Punjab and Calcutta via rail/river (Map 2), while Shah Mal's men \"dug up metalled roads\" to SLOW British movement, proving rebels lacked their own transport infrastructure. A weak answer lists \"lack of unity\" vaguely without linking it to the ABSENCE of state institutions (bureaucracy, communication, logistics) that a nation-state requires.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

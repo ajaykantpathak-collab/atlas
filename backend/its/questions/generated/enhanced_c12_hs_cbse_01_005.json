@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_01_005",
+   "title": "c12_hs_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define aptitude, interest, and personality in the context of career choice. How does each differ from the others in terms of stability and measurability?",
+     "a": "Aptitude is a measurable potential for skill acquisition (e.g., mechanical reasoning, verbal ability) assessed via standardised tests; it is relatively stable after adolescence. Interest is a motivational orientation toward activities, measured through inventories like the Strong Interest Inventory; it can shift with exposure and experience. Personality is a trait-like pattern of behaviour (e.g., Big Five traits) measured via questionnaires; it is the most stable across the lifespan. A wrong answer that treats all three as \"what you like\" or \"what you are good at\" interchangeably reveals confusion between potential (aptitude), motivation (interest), and behavioural style (personality) — leading to career choices based on only one dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"I have a high interest in medicine, so I should become a doctor.\" Using the three-factor framework, explain why this reasoning is incomplete and what two additional pieces of information are essential before confirming this career choice.",
+     "a": "Interest alone is insufficient because: (1) Aptitude determines whether the student can acquire the rigorous scientific knowledge and clinical skills required — without adequate biological reasoning, spatial ability, and memory capacity, the student may fail academically or struggle in practice. (2) Personality determines fit with the daily realities — medicine demands high conscientiousness, emotional stability, empathy, and tolerance for shift work and life-death decisions; a mismatch leads to burnout. The essential missing information: validated aptitude test scores (especially scientific/abstract reasoning) and a personality profile (particularly conscientiousness, emotional stability, agreeableness). A wrong answer that only mentions \"hard work\" or \"marks\" misses the psychological distinction between acquired knowledge and innate potential, and between motivation and temperament.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan has high mechanical aptitude (90th percentile), strong realistic interest (enjoys hands-on tool work), but scores very low on conscientiousness (10th percentile) and high on impulsivity. He wants to become an aircraft maintenance engineer. Analyse the fit using the three-factor model and predict the specific career risk.",
+     "a": "Aptitude-interest fit is excellent — Rohan has the potential and motivation for the technical work. However, low conscientiousness and high impulsivity create a critical personality-environment mismatch: aircraft maintenance requires meticulous adherence to protocols, systematic documentation, sustained attention to detail, and low error tolerance. The specific risk is not inability to learn (aptitude is high) or dislike of work (interest is high), but procedural non-compliance leading to safety incidents, regulatory violations, and likely dismissal. A wrong answer that recommends the career because \"he is good at it and likes it\" ignores that personality governs consistent behavioural execution in high-stakes environments — a fatal oversight in safety-critical careers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how a career counsellor would use (a) a differential aptitude battery, (b) a vocational interest inventory, and (c) a personality questionnaire for a student undecided between commercial pilot and chartered accountancy. What unique decision-relevant information does each tool provide that the others cannot?",
+     "a": "(a) Differential aptitude battery (e.g., DAT) reveals: spatial orientation and psychomotor coordination (critical for piloting) vs. numerical reasoning and perceptual speed (critical for accountancy) — identifies which career the student has the *capacity* to master. (b) Vocational interest inventory (e.g., RIASEC-based) reveals: Realistic/Investigative interests (flying, navigation systems) vs. Conventional/Enterprising interests (financial systems, regulatory compliance) — identifies which career the student will *sustain motivation* for. (c) Personality questionnaire (e.g., Big Five) reveals: emotional stability, conscientiousness, extraversion (pilot: high stability, high conscientiousness, moderate extraversion; accountant: high conscientiousness, low neuroticism, introversion acceptable) — identifies which career's *daily behavioural demands* match the student's natural style. A wrong answer that lists only \"strengths and weaknesses\" without mapping specific traits to specific occupational demands shows inability to operationalise the three-factor model for differential diagnosis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Personality tests should be the primary filter in career counselling because personality is the most stable trait, while interests change and aptitudes can be developed.\" Defend or refute with evidence from career development theory.",
+     "a": "Refute. While personality is relatively stable, using it as a *primary filter* commits the \"personality determinism\" error. Evidence: (1) Holland's theory shows interest congruence predicts satisfaction better than personality congruence alone. (2) Aptitude thresholds are non-negotiable in many fields (e.g., colour vision for pilots, mathematical reasoning for actuaries) — no personality profile compensates for absent aptitude. (3) Interest development interventions (exposure, mentorship) can expand viable options, whereas personality-based filtering prematurely narrows them. (4) The \"person-job fit\" meta-analyses (Kristof-Brown et al.) show *supplementary fit* (interests, values) and *complementary fit* (aptitudes meeting demands) both contribute uniquely to outcomes beyond personality. A wrong answer that agrees reveals over-reliance on trait stability while ignoring threshold effects and the multiplicative nature of the three-factor interaction (Person × Environment fit requires all three).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step career exploration activity for a Class 11 student that integrates self-assessment of aptitude, interest, and personality without using formal psychometric tests. The activity must produce a shortlist of 3-5 career options with explicit reasoning linking each factor to each option.",
+     "a": "Step 1: **Aptitude Proxy Mapping** — Student lists 8-10 school subjects/activities they performed well in *without excessive effort* (e.g., \"grasped physics concepts quickly,\" \"wrote coherent essays in 20 mins\"). For each, note the underlying aptitude (abstract reasoning, verbal fluency, etc.). Cluster into 2-3 dominant aptitude domains. Step 2: **Interest Reconstruction** — Student records all activities they voluntarily spent >5 hours/week on in the past year (hobbies, projects, reading, videos). Code each using RIASEC initials (R/I/A/S/E/C). Identify top 2 interest codes. Step 3: **Personality Behavioural Recall** — Student describes 3 recent situations where they felt \"in flow\" vs. \"drained\" at school/home. Extract behavioural patterns (e.g., \"energised leading group project\" → extraversion; \"stressed by vague deadlines\" → high conscientiousness need). Final Integration: Cross-reference the three outputs against a career database (e.g., NCS portal) to generate 3-5 options where all three factors align. A poor answer produces a list based only on \"what I like\" or \"what I'm good at\" without the three-column evidence trail, revealing failure to operationalise the triad.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

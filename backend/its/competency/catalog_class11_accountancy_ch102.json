@@ -1,0 +1,524 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 102,
+ "chapter_title": "Theory Base of Accounting",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac102.txt",
+ "concepts": [
+  {
+   "id": "keac.102.1",
+   "title": "Generally Accepted Accounting Principles (GAAP)",
+   "section": "2.1",
+   "definition": "Standardised directives and regulatory conventions developed over time to bring uniform presentation and comparability across financial records.",
+   "formula": "GAAP = Accounting Concepts + Accounting Conventions",
+   "key_idea": "Standard rules ensuring comparability and reliability across financial statements.",
+   "textbook_ref": "keac102.txt lines 26-60",
+   "question_patterns": [
+    "what is meant by Generally Accepted Accounting Principles in Class 11 accountancy",
+    "explain the necessity of GAAP for financial statement comparability",
+    "how do accounting conventions and concepts form the foundation of GAAP",
+    "describe the evolving nature of GAAP in response to economic changes",
+    "state the primary objective of implementing uniform accounting principles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the regulatory framework",
+     "explain": "GAAP provides universal standards for financial reporting across business entities."
+    },
+    {
+     "step": 2,
+     "action": "verify uniform applicability",
+     "explain": "Standard accounting policies allow intra-firm and inter-firm comparison."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.1",
+   "title": "Business Entity Concept",
+   "section": "2.2.1",
+   "definition": "The principle treating an enterprise as a distinct legal and operational entity separate from its owners for accounting record-keeping.",
+   "formula": "capital = liability_of_business_to_owner",
+   "key_idea": "Business affairs and personal finances of the owner are maintained in isolation.",
+   "textbook_ref": "keac102.txt lines 65-90",
+   "question_patterns": [
+    "explain the business entity concept with an example",
+    "why is capital treated as a liability in the books of business",
+    "how are drawings accounted for under the business entity assumption",
+    "distinguish between business transactions and personal expenses of the owner",
+    "what is the significance of treating proprietor and business as separate entities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish business unit from owner",
+     "explain": "Transactions are logged strictly from the viewpoint of the enterprise."
+    },
+    {
+     "step": 2,
+     "action": "treat owner contributions as claims",
+     "explain": "Capital supplied by the owner creates an internal liability for the enterprise."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.2",
+   "title": "Money Measurement Concept",
+   "section": "2.2.2",
+   "definition": "The convention that only financial events quantifiable in monetary currency are eligible for recording in accounting books.",
+   "formula": "recorded_value = quantity * monetary_unit_price",
+   "key_idea": "Non-monetary qualitative factors are excluded from financial books.",
+   "textbook_ref": "keac102.txt lines 91-125",
+   "question_patterns": [
+    "what is the money measurement concept in financial accounting",
+    "why cannot employee capabilities or manager efficiency be recorded in accounts",
+    "explain the limitation of money measurement due to purchasing power fluctuations",
+    "how does expressing physical units in currency enable aggregation of assets",
+    "identify transactions excluded under the money measurement postulate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "filter quantifiable financial transactions",
+     "explain": "Verify whether an event can be stated in monetary terms."
+    },
+    {
+     "step": 2,
+     "action": "convert physical quantities to common monetary metrics",
+     "explain": "Express heterogeneous physical assets using standard currency units."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.3",
+   "title": "Going Concern Concept",
+   "section": "2.2.3",
+   "definition": "The foundational assumption that a business will operate indefinitely without the intention or necessity of liquidation in the foreseeable future.",
+   "formula": "annual_depreciation_charge = total_asset_cost / estimated_service_years",
+   "key_idea": "Assets are amortised over operational life rather than fully expensed immediately.",
+   "textbook_ref": "keac102.txt lines 126-150",
+   "question_patterns": [
+    "explain the going concern assumption in asset valuation",
+    "why are long term assets not written off completely in the year of purchase",
+    "how does going concern concept justify allocation of depreciation over asset lifespan",
+    "what happens to financial accounting if going concern assumption is invalidated",
+    "state the accounting rationale for carrying forward unexpired cost of assets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assume perpetual operational continuity",
+     "explain": "The enterprise is expected to operate across future accounting cycles."
+    },
+    {
+     "step": 2,
+     "action": "allocate asset expenditures over useful life",
+     "explain": "Capital outlays are divided into annual revenue charges and carryover values."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.5",
+   "title": "Historical Cost Concept and Asset Valuation",
+   "section": "2.2.5",
+   "definition": "The rule requiring assets to be entered in account books at their full acquisition cost including all incidental spending to make them ready for operational use.",
+   "formula": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge",
+   "key_idea": "Assets are recorded at verifiable historical acquisition cost rather than fluctuating market value.",
+   "textbook_ref": "keac102.txt lines 180-210",
+   "question_patterns": [
+    "calculate total capitalised cost of plant under the cost concept",
+    "find the recorded value of machinery including installation and freight charges",
+    "what is historical cost principle in asset recording",
+    "compute the entry value of an asset given purchase price and setup expenses",
+    "how are incidental purchase expenses treated under historical cost concept"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total initial asset cost",
+     "explain": "Sum the acquisition outlay along with transport, setup, and initial repair expenses.",
+     "compute": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge"
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.6",
+   "title": "Dual Aspect Concept and Accounting Equation",
+   "section": "2.2.6",
+   "definition": "The fundamental postulate that every financial transaction exerts a balanced two-sided impact across accounts, maintaining structural equality between assets and claims.",
+   "formula": "capital = total_assets - total_liabilities",
+   "key_idea": "Total resources owned by a firm equal the combined claims of owners and creditors.",
+   "textbook_ref": "keac102.txt lines 211-250",
+   "question_patterns": [
+    "calculate capital using the basic accounting equation",
+    "find total capital when assets and external liabilities are given",
+    "determine missing financial element in the equality total assets equal liabilities plus capital",
+    "compute equity of owners from business asset values and outsider claims",
+    "apply dual aspect concept to derive total capital of a firm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "derive net capital from assets and liabilities",
+     "explain": "Subtract external liabilities from total assets to find owner equity.",
+     "compute": "capital = total_assets - total_liabilities"
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.7",
+   "title": "Revenue Recognition and Matching Concepts",
+   "section": "2.2.7",
+   "definition": "Principles dictating that earning is acknowledged when legal right to income accrues and related operational expenses are offset against revenues of the same period.",
+   "formula": "net_profit = period_realised_revenue - period_matched_expenses",
+   "key_idea": "Revenues and directly linked generating expenses must fall within identical accounting timeframes.",
+   "textbook_ref": "keac102.txt lines 251-320",
+   "question_patterns": [
+    "when is revenue legally considered realised in sales transactions",
+    "explain the matching principle in profit computation",
+    "why are credit sales recognised as revenue prior to cash collection",
+    "how does inventory valuation reflect the matching principle",
+    "distinguish between cash receipt and accrual of revenue under realisation principle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine revenue accrual event",
+     "explain": "Revenue is recognized when ownership or right to receive payment originates."
+    },
+    {
+     "step": 2,
+     "action": "align costs to period revenue",
+     "explain": "Match costs incurred specifically to generate revenues of that accounting period."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.11",
+   "title": "Prudence, Full Disclosure, and Consistency Principles",
+   "section": "2.2.11",
+   "definition": "Accounting principles mandating conservative income reporting, complete financial disclosures, and uniform procedural application across periods.",
+   "formula": "inventory_valuation = min(cost_price, net_realisable_market_value)",
+   "key_idea": "Anticipate all prospective losses while ignoring unearned gains, maintaining full disclosure and consistent methods.",
+   "textbook_ref": "keac102.txt lines 321-410",
+   "question_patterns": [
+    "explain the prudence concept in valuing inventory at lower of cost or market value",
+    "why must businesses disclose all material facts in financial footnotes",
+    "how does consistency concept enhance inter-period financial comparison",
+    "what is the principle behind creating provisions for bad debts",
+    "describe the materiality concept in accounting disclosures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply conservative loss provisioning",
+     "explain": "Recognize potential liabilities and prospective losses immediately while postponing unearned gains."
+    },
+    {
+     "step": 2,
+     "action": "ensure full and consistent disclosures",
+     "explain": "Maintain method uniformity across years and report all significant user-relevant facts."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.3",
+   "title": "Systems and Bases of Accounting",
+   "section": "2.3",
+   "definition": "Frameworks for transaction recording (double entry vs single entry) and timing choices for financial entry (cash basis vs accrual basis).",
+   "formula": "accrual_profit = earned_revenues - incurred_expenses",
+   "key_idea": "Double entry accrual accounting provides complete, accurate matching of financial performance.",
+   "textbook_ref": "keac102.txt lines 411-480",
+   "question_patterns": [
+    "compare cash basis of accounting with accrual basis of accounting",
+    "why is double entry system considered complete and reliable",
+    "explain the deficiencies of single entry system of accounting",
+    "which basis of accounting aligns with the matching principle",
+    "state the main differences between single and double entry recording"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify accounting entry system",
+     "explain": "Double entry logs equal debit and credit impacts for every transaction."
+    },
+    {
+     "step": 2,
+     "action": "determine temporal basis of record",
+     "explain": "Accrual logs transactions upon occurrence rather than upon liquid cash exchange."
+    }
+   ]
+  },
+  {
+   "id": "keac.102.5.1",
+   "title": "Intra-State Goods and Services Tax Calculation",
+   "section": "2.5",
+   "definition": "Computation of Central GST and State GST payable on commercial transactions occurring within a single state boundary.",
+   "formula": "total_gst = (invoice_amount * cgst_rate / 100) + (invoice_amount * sgst_rate / 100)",
+   "key_idea": "Intra-state supplies attract equal splits of CGST and SGST.",
+   "textbook_ref": "keac102.txt lines 481-540",
+   "question_patterns": [
+    "calculate CGST and SGST on local sale of goods",
+    "find total tax payable on intra-state transaction given CGST and SGST rates",
+    "compute central and state tax components for sales within the same state",
+    "determine total GST liability for an intra-state supply of services",
+    "how much CGST and SGST are levied on an invoice amount"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate CGST portion",
+     "explain": "Multiply invoice value by CGST percentage rate.",
+     "compute": "cgst_amount = invoice_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate SGST portion",
+     "explain": "Multiply invoice value by SGST percentage rate.",
+     "compute": "sgst_amount = invoice_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "sum total intra-state tax",
+     "explain": "Add CGST and SGST to obtain total tax levied.",
+     "compute": "total_gst = cgst_amount + sgst_amount"
+    }
+   ]
+  },
+  {
+   "id": "keac.102.5.2",
+   "title": "Inter-State Goods and Services Tax Calculation",
+   "section": "2.5",
+   "definition": "Computation of Integrated GST charged on commercial movement of goods or services between different states.",
+   "formula": "igst_amount = transaction_value * igst_rate / 100",
+   "key_idea": "Inter-state supply attracts IGST collected centrally for distribution.",
+   "textbook_ref": "keac102.txt lines 541-600",
+   "question_patterns": [
+    "calculate IGST on inter-state sale of goods",
+    "find integrated tax amount on transfer of goods between two states",
+    "compute tax payable when dealer sells items outside state jurisdiction",
+    "determine IGST charged on an inter-state invoice",
+    "how much IGST is collected on cross-border state trade"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate IGST amount",
+     "explain": "Multiply transaction value by applicable IGST percentage rate.",
+     "compute": "igst_amount = transaction_value * igst_rate / 100"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac102.txt lines 185-200",
+   "concept": "keac.102.2.5",
+   "question_type": "compute",
+   "question_pattern": "Shiva Enterprise bought an old plant for Rs {purchase_price}. It paid Rs {freight_charge} for freight, Rs {repair_charge} for initial repairs, and Rs {installation_charge} for setup. Calculate total recorded plant cost.",
+   "extracted_variables": {
+    "purchase_price": 5000000,
+    "freight_charge": 10000,
+    "repair_charge": 15000,
+    "installation_charge": 25000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total initial asset cost",
+     "explain": "Sum purchase price, transport, repair, and installation outlays.",
+     "compute": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac102.txt lines 180-210",
+   "concept": "keac.102.2.5",
+   "question_type": "compute",
+   "question_pattern": "A business bought machinery for Rs {purchase_price}, paid Rs {freight_charge} in carriage, Rs {repair_charge} in overhauling, and Rs {installation_charge} for installation. Find the cost recorded in books.",
+   "extracted_variables": {
+    "purchase_price": 200000,
+    "freight_charge": 5000,
+    "repair_charge": 0,
+    "installation_charge": 10000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total initial asset cost",
+     "explain": "Sum purchase price, freight, repair, and installation costs.",
+     "compute": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac102.txt lines 220-240",
+   "concept": "keac.102.2.6",
+   "question_type": "compute",
+   "question_pattern": "An enterprise possesses total assets worth Rs {total_assets} and external liabilities amounting to Rs {total_liabilities}. Calculate capital using the accounting equation.",
+   "extracted_variables": {
+    "total_assets": 5000000,
+    "total_liabilities": 1500000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "derive net capital from assets and liabilities",
+     "explain": "Subtract liabilities from assets to obtain capital.",
+     "compute": "capital = total_assets - total_liabilities"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac102.txt lines 230-250",
+   "concept": "keac.102.2.6",
+   "question_type": "compute",
+   "question_pattern": "Find capital when total business assets are Rs {total_assets} and total creditor claims are Rs {total_liabilities}.",
+   "extracted_variables": {
+    "total_assets": 800000,
+    "total_liabilities": 300000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "derive net capital from assets and liabilities",
+     "explain": "Deduct liabilities from total asset claims.",
+     "compute": "capital = total_assets - total_liabilities"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keac102.txt lines 490-515",
+   "concept": "keac.102.5.1",
+   "question_type": "compute",
+   "question_pattern": "Ramesh in Punjab sells goods worth Rs {invoice_amount} to Seema in Punjab. Applicable CGST is {cgst_rate}% and SGST is {sgst_rate}%. Calculate total tax payable.",
+   "extracted_variables": {
+    "invoice_amount": 10000,
+    "cgst_rate": 9,
+    "sgst_rate": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate CGST portion",
+     "explain": "Compute CGST tax value.",
+     "compute": "cgst_amount = invoice_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate SGST portion",
+     "explain": "Compute SGST tax value.",
+     "compute": "sgst_amount = invoice_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "sum total intra-state tax",
+     "explain": "Add CGST and SGST to determine total tax liability.",
+     "compute": "total_gst = cgst_amount + sgst_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keac102.txt lines 495-520",
+   "concept": "keac.102.5.1",
+   "question_type": "compute",
+   "question_pattern": "Dealer A sells goods valued at Rs {invoice_amount} within Gujarat. CGST rate is {cgst_rate}% and SGST rate is {sgst_rate}%. Calculate total GST collected.",
+   "extracted_variables": {
+    "invoice_amount": 25000,
+    "cgst_rate": 6,
+    "sgst_rate": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate CGST portion",
+     "explain": "Compute CGST.",
+     "compute": "cgst_amount = invoice_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate SGST portion",
+     "explain": "Compute SGST.",
+     "compute": "sgst_amount = invoice_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "sum total intra-state tax",
+     "explain": "Sum CGST and SGST.",
+     "compute": "total_gst = cgst_amount + sgst_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keac102.txt lines 525-545",
+   "concept": "keac.102.5.2",
+   "question_type": "compute",
+   "question_pattern": "Ramesh in Madhya Pradesh sells goods worth Rs {transaction_value} to Anand in Rajasthan. If IGST rate is {igst_rate}%, calculate the total IGST charged.",
+   "extracted_variables": {
+    "transaction_value": 100000,
+    "igst_rate": 18
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate IGST amount",
+     "explain": "Multiply transaction value by IGST rate.",
+     "compute": "igst_amount = transaction_value * igst_rate / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keac102.txt lines 530-550",
+   "concept": "keac.102.5.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate IGST on an inter-state sale of Rs {transaction_value} with an applicable tax rate of {igst_rate}%.",
+   "extracted_variables": {
+    "transaction_value": 50000,
+    "igst_rate": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate IGST amount",
+     "explain": "Compute total integrated tax.",
+     "compute": "igst_amount = transaction_value * igst_rate / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "keac102.txt lines 610-630",
+   "questions": [
+    "Why is it necessary for accountants to assume that business entity will remain a going concern?",
+    "When should revenue be recognised? Are there exceptions to the general rule?",
+    "What is the basic accounting equation?",
+    "Discuss the concept based on the premise do not anticipate profits but provide for all losses.",
+    "What is matching concept? Why should a business concern follow this concept? Discuss.",
+    "What is the money measurement concept? Which one factor can make it difficult to compare the monetary values of one year with another year?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

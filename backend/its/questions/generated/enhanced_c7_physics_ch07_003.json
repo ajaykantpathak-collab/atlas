@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_003",
+   "title": "c7_physics_ch07_003",
+   "questions": [
+    {
+     "q": "What color does a yellow turmeric paste turn when it comes into contact with a basic substance like washing powder solution?",
+     "a": "Turmeric turns reddish-brown in a basic solution. A student who answers \"yellow\" or \"green\" has confused turmeric's behavior with other indicators or assumes it does not react with bases. Turmeric remains yellow in acids and neutral substances but is a specific detector for basic substances by shifting to reddish-brown.",
+     "self_check": true
+    },
+    {
+     "q": "Why does adding lemon juice (an acid) to a pink China rose extract solution cause it to change color to a dark magenta or bright pink, whereas adding soap solution turns it green?",
+     "a": "China rose extract contains natural pigments that react to different chemical environments by changing their light-absorption properties. Acidic solutions increase the concentration of hydrogen ions, shifting the pigment to a dark pink/magenta shade, while basic solutions provide a medium that shifts the pigment to green. A student who thinks China rose only changes to one color across all substances does not understand that indicators have a spectrum of color responses based on acidity and basicity.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a red rose petal extract which is initially red. When 5 mL of clear vinegar is added to 10 mL of this extract, the color shifts to a bright reddish-pink. When 5 mL of lime water is added to a fresh 10 mL sample of the same extract, the color shifts to a dull green-yellow. What does this tell us about vinegar and lime water?",
+     "a": "Step 1: Identify the initial indicator state (red rose extract is red). Step 2: Observe the reaction with vinegar (shifts to bright reddish-pink), which indicates the presence of an acid. Step 3: Observe the reaction with lime water (shifts to dull green-yellow), which indicates the presence of a base. Step 4: Conclude that vinegar is acidic and lime water is basic based on their distinct color-change signatures with red rose extract. A student who mixes up the color directions might incorrectly label lime water as acidic.",
+     "self_check": true
+    },
+    {
+     "q": "If you drop red rose extract onto a marble floor (which contains calcium carbonate, a basic substance), how would you expect the color of the extract on the floor to change, and what does this indicate about the floor's chemical nature?",
+     "a": "The red rose extract will shift toward a greenish or yellowish hue because calcium carbonate exhibits basic properties. A student who thinks the color will remain unaffected or turn bright pink fails to recognize that solid household surfaces can also react chemically with liquid indicators if they possess acidic or basic chemical traits.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims that because turmeric turns reddish-brown in soap, it can be used to test any strong acid just as effectively as litmus paper. Evaluate this claim and judge whether it is entirely correct.",
+     "a": "The claim is partially incorrect because while turmeric successfully indicates bases by turning reddish-brown, it remains yellow in both neutral and acidic substances, meaning it cannot distinguish between an acid and a neutral substance. A student who says the claim is completely true forgets that an ideal indicator must show distinct color changes for both acids and bases, whereas turmeric only provides a clear visual cue on the basic side.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment using turmeric powder, water, cotton cloth, lemon juice, and soap solution to create a secret message that only appears when a specific chemical is sprayed on it.",
+     "a": "Criteria for a good answer: The student should describe painting or writing on a white cloth with turmeric paste (making it yellow), drying it, and then using a cotton bud dipped in soap solution (base) to write words that turn reddish-brown, or spraying lemon juice to keep parts yellow. A poor answer fails to specify which substance creates the color change or confuses the roles of the acid and base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

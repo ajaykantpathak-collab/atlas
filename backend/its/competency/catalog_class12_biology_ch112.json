@@ -1,0 +1,601 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 12,
+ "chapter_title": "Ecosystem",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo112.txt",
+ "concepts": [
+  {
+   "id": "jebh.14.1",
+   "title": "Ecosystem Structure: Biotic and Abiotic Components",
+   "section": "Ecosystem - Components",
+   "definition": "An ecosystem consists of biotic components (producers, consumers, decomposers) and abiotic components (light, temperature, water, soil, inorganic and organic substances) that interact as a functional unit.",
+   "formula": "",
+   "key_idea": "Ecosystem structure is defined by the interaction between living (biotic) and non-living (abiotic) components, where producers synthesize food, consumers depend on it, and decomposers recycle nutrients.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Identify the biotic and abiotic components of a given ecosystem.",
+    "Classify a list of organisms into producers, consumers, and decomposers.",
+    "Explain the role of decomposers in an ecosystem.",
+    "Differentiate between a standing crop and standing state.",
+    "Describe how abiotic factors influence the biotic community of an ecosystem."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ecosystem type and list its components.",
+     "explain": "Determine whether the ecosystem is terrestrial or aquatic, then enumerate the biotic (producers, consumers, decomposers) and abiotic (light, water, soil, temperature) factors present."
+    },
+    {
+     "step": 2,
+     "action": "Classify each component as biotic or abiotic.",
+     "explain": "Living organisms such as plants, animals, and microbes are biotic; physical and chemical factors such as sunlight, water, minerals, and temperature are abiotic."
+    },
+    {
+     "step": 3,
+     "action": "Verify the functional interaction between components.",
+     "explain": "Confirm that producers capture energy, consumers transfer it, and decomposers recycle nutrients, thereby establishing the ecosystem as a functional unit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a pond ecosystem, identify the biotic and abiotic components.",
+     "solution": "Biotic components include phytoplankton (producers), zooplankton and fish (consumers), and bacteria/fungi (decomposers). Abiotic components include water, dissolved oxygen, sunlight, temperature, and inorganic nutrients like nitrates and phosphates.",
+     "answer": "Biotic: phytoplankton, zooplankton, fish, bacteria; Abiotic: water, sunlight, dissolved O2, temperature, nutrients."
+    },
+    {
+     "question": "Why are decomposers considered an essential component of an ecosystem?",
+     "solution": "Decomposers break down dead organic matter and waste, releasing inorganic nutrients back into the soil/water. This nutrient recycling sustains producers and maintains the continuity of nutrient cycling in the ecosystem.",
+     "answer": "Decomposers recycle nutrients by decomposing dead matter, making essential elements available to producers again."
+    },
+    {
+     "question": "Differentiate between standing crop and standing state in an ecosystem.",
+     "solution": "Standing crop refers to the total biomass or number of living organisms in an ecosystem at any given time. Standing state refers to the amount of inorganic nutrients (like nitrogen, phosphorus) present in the soil or water at a given time.",
+     "answer": "Standing crop = total living biomass at a time; Standing state = total inorganic nutrients in the environment at a time."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the four most important abiotic factors that determine the structure of a terrestrial ecosystem.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the following into producers, consumers, and decomposers: grass, lion, bacteria, algae, fungi, deer.",
+     "type": "classification"
+    },
+    {
+     "question": "Explain how the abiotic component 'sunlight' influences the biotic community in a forest ecosystem.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.2",
+   "title": "Productivity: Primary, Secondary, Gross, and Net",
+   "section": "Productivity",
+   "definition": "Productivity is the rate of biomass production per unit area over a time period. Gross Primary Productivity (GPP) is the total rate of photosynthesis; Net Primary Productivity (NPP) = GPP - R (respiration losses). Secondary productivity is the rate of biomass formation by consumers.",
+   "formula": "NPP = GPP - R",
+   "key_idea": "Primary productivity measures the rate at which producers capture solar energy as biomass; net primary productivity is what remains after accounting for respiration, and it supports all consumer biomass (secondary productivity).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate NPP given GPP and respiration values.",
+    "Calculate GPP given NPP and respiration values.",
+    "Differentiate between gross and net primary productivity.",
+    "Explain why NPP is a better measure of energy available to consumers than GPP.",
+    "Compare primary and secondary productivity with examples."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given values for GPP, NPP, or respiration (R).",
+     "explain": "Extract the known quantities from the problem. Recognize which variable is unknown so the correct formula can be applied."
+    },
+    {
+     "step": 2,
+     "action": "Apply the formula NPP = GPP - R (or rearrange as needed).",
+     "explain": "Use the relationship between gross primary productivity, net primary productivity, and respiration losses to find the unknown.",
+     "compute": "npp = gpp - r"
+    },
+    {
+     "step": 3,
+     "action": "Compute the result and state it with correct units.",
+     "explain": "Perform the arithmetic and express the answer in standard productivity units (e.g., kJ/m^2/yr or g/m^2/yr).",
+     "compute": "result = npp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The gross primary productivity of an ecosystem is 2000 kJ/m^2/yr and the respiration loss is 400 kJ/m^2/yr. Calculate the net primary productivity.",
+     "solution": "Using NPP = GPP - R = 2000 - 400 = 1600 kJ/m^2/yr.",
+     "answer": "NPP = 1600 kJ/m^2/yr"
+    },
+    {
+     "question": "An ecosystem has an NPP of 1200 g/m^2/yr and respiration losses of 300 g/m^2/yr. Find the gross primary productivity.",
+     "solution": "Rearranging NPP = GPP - R gives GPP = NPP + R = 1200 + 300 = 1500 g/m^2/yr.",
+     "answer": "GPP = 1500 g/m^2/yr"
+    },
+    {
+     "question": "If GPP of a grassland is 1000 kJ/m^2/yr and 20% is lost in respiration, what is the NPP?",
+     "solution": "Respiration loss R = 20% of 1000 = 200 kJ/m^2/yr. NPP = GPP - R = 1000 - 200 = 800 kJ/m^2/yr.",
+     "answer": "NPP = 800 kJ/m^2/yr"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate NPP when GPP = 2500 kJ/m^2/yr and R = 500 kJ/m^2/yr.",
+     "type": "numerical"
+    },
+    {
+     "question": "Distinguish between primary productivity and secondary productivity with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the net primary productivity of oceans much lower than that of terrestrial ecosystems despite oceans covering more area?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.3",
+   "title": "Decomposition",
+   "section": "Decomposition",
+   "definition": "Decomposition is the breakdown of complex organic matter into simpler inorganic substances (CO2, water, and nutrients) by decomposers (bacteria and fungi), involving steps of fragmentation, leaching, catabolism, humification, and mineralization.",
+   "formula": "",
+   "key_idea": "Decomposition recycles nutrients back to the ecosystem. The rate depends on oxygen availability, temperature, and the chemical composition of detritus; warm, aerobic, and nutrient-rich detritus decomposes fastest.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List and describe the five steps of decomposition.",
+    "Explain how temperature and oxygen affect the rate of decomposition.",
+    "Differentiate between humification and mineralization.",
+    "Explain why decomposition is faster in tropical than in polar regions.",
+    "Describe the role of detritivores in fragmentation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the detritus and environmental conditions.",
+     "explain": "Determine the type of organic matter being decomposed and the environmental factors (temperature, oxygen, moisture) that influence the decomposition rate."
+    },
+    {
+     "step": 2,
+     "action": "Trace the five steps of decomposition in order.",
+     "explain": "Follow the sequence: fragmentation (breaking detritus into smaller particles), leaching (water-soluble nutrients seep into soil), catabolism (enzymatic breakdown), humification (formation of humus), and mineralization (release of inorganic nutrients)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the nutrient release and its availability to producers.",
+     "explain": "Confirm that mineralization returns inorganic nutrients to the soil, completing the cycle and making nutrients available for producer uptake."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the five steps of decomposition in the correct sequence.",
+     "solution": "The steps are: (1) Fragmentation, (2) Leaching, (3) Catabolism, (4) Humification, and (5) Mineralization.",
+     "answer": "Fragmentation -> Leaching -> Catabolism -> Humification -> Mineralization"
+    },
+    {
+     "question": "Why does decomposition occur faster in tropical rainforests than in tundra ecosystems?",
+     "solution": "Tropical rainforests have warm temperatures and high moisture, which accelerate decomposer activity. Tundra has extremely low temperatures and frozen conditions that slow microbial metabolism, drastically reducing decomposition rates.",
+     "answer": "Warm, moist tropical conditions speed up decomposer activity; cold, frozen tundra conditions slow it down."
+    },
+    {
+     "question": "Distinguish between humification and mineralization.",
+     "solution": "Humification leads to the formation of humus, a dark, amorphous substance rich in lignin and cellulose, which is resistant to microbial action. Mineralization is the further degradation of humus that releases inorganic nutrients into the soil.",
+     "answer": "Humification forms humus; mineralization releases inorganic nutrients from humus."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of oxygen and temperature in regulating the rate of decomposition.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is detritus? Name two organisms that contribute to fragmentation of detritus.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Arrange the steps of decomposition in order: mineralization, catabolism, fragmentation, humification, leaching.",
+     "type": "ordering"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.4",
+   "title": "Energy Flow: Food Chain, Food Web, and Trophic Levels",
+   "section": "Energy Flow",
+   "definition": "Energy flow in an ecosystem is unidirectional, passing through trophic levels via food chains and food webs. Only about 10% of energy at one trophic level is transferred to the next (Ten Percent Law), with the rest lost as heat during respiration.",
+   "formula": "E_next = E_current * 0.10",
+   "key_idea": "Energy captured by producers flows through consumers along food chains and webs. The unidirectional flow follows the 10% law, meaning higher trophic levels have progressively less energy available, limiting the number of trophic levels.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the energy available at a given trophic level using the 10% law.",
+    "Construct a food chain or food web from a list of organisms.",
+    "Explain why energy flow is unidirectional in an ecosystem.",
+    "Determine the number of trophic levels possible given energy at the producer level.",
+    "Differentiate between a food chain and a food web."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the energy at the base (producer) trophic level and the target trophic level.",
+     "explain": "Locate the starting energy value and count how many trophic level transfers are needed to reach the target level."
+    },
+    {
+     "step": 2,
+     "action": "Apply the 10% law for each trophic transfer.",
+     "explain": "Each transfer retains only 10% of the energy from the previous level, so multiply by 0.10 for each step up the chain.",
+     "compute": "level_2_energy = producer_energy * 0.10"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the energy at the target trophic level.",
+     "explain": "After applying the 10% law for each transfer, report the final energy value with appropriate units.",
+     "compute": "level_3_energy = level_2_energy * 0.10"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If producers in a food chain have 20000 kJ of energy, how much energy is available at the third trophic level?",
+     "solution": "Level 1 (producers) = 20000 kJ. Level 2 (primary consumers) = 20000 * 0.10 = 2000 kJ. Level 3 (secondary consumers) = 2000 * 0.10 = 200 kJ.",
+     "answer": "200 kJ at the third trophic level"
+    },
+    {
+     "question": "Construct a grazing food chain from the following: snake, grass, frog, grasshopper.",
+     "solution": "Grass (producer) -> Grasshopper (primary consumer) -> Frog (secondary consumer) -> Snake (tertiary consumer).",
+     "answer": "Grass -> Grasshopper -> Frog -> Snake"
+    },
+    {
+     "question": "Why is energy flow said to be unidirectional in an ecosystem?",
+     "solution": "Energy from the sun is captured by producers and flows to consumers in one direction through trophic levels. It is not returned to the sun; instead, it is dissipated as heat. Hence, energy flow is unidirectional.",
+     "answer": "Energy flows from sun to producers to consumers and is lost as heat; it never returns to its source, making flow unidirectional."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the energy available at the 4th trophic level if producers have 50000 kJ of energy.",
+     "type": "numerical"
+    },
+    {
+     "question": "Differentiate between a food chain and a food web with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the number of trophic levels in a food chain is usually limited to 4-5.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.5",
+   "title": "Ecological Pyramids: Numbers, Biomass, and Energy",
+   "section": "Ecological Pyramids",
+   "definition": "Ecological pyramids are graphical representations showing the relationship between producers and consumers at successive trophic levels in terms of numbers, biomass, or energy. The base represents producers and the apex represents top carnivores.",
+   "formula": "",
+   "key_idea": "Pyramids of numbers and biomass can be upright, inverted, or spindle-shaped depending on the ecosystem, but the pyramid of energy is always upright because energy decreases at each trophic level following the 10% law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Identify the type of ecological pyramid (numbers, biomass, energy) from a description.",
+    "Explain why the pyramid of energy is always upright.",
+    "Describe a situation where the pyramid of biomass is inverted.",
+    "Compare upright and inverted pyramids of numbers with examples.",
+    "Explain the limitations of ecological pyramids."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of pyramid being analyzed (numbers, biomass, or energy).",
+     "explain": "Determine whether the pyramid represents the count of individuals, the total biomass, or the energy content at each trophic level."
+    },
+    {
+     "step": 2,
+     "action": "Examine the shape (upright, inverted, or spindle) across trophic levels.",
+     "explain": "Compare the base (producers) to the apex (top carnivores). An upright pyramid has a wide base and narrow apex; an inverted pyramid has a narrow base and wider apex."
+    },
+    {
+     "step": 3,
+     "action": "Verify the shape against known ecological principles.",
+     "explain": "Confirm that energy pyramids are always upright due to the 10% law, while numbers and biomass pyramids may vary with ecosystem type (e.g., inverted biomass in aquatic ecosystems)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the pyramid of energy always upright?",
+     "solution": "Energy decreases at each successive trophic level because only about 10% is transferred to the next level and the rest is lost as heat. Therefore, the base (producers) has the most energy and the apex (top carnivores) the least, making the pyramid always upright.",
+     "answer": "Energy decreases at each trophic level due to the 10% law, so the energy pyramid is always upright."
+    },
+    {
+     "question": "Give an example of an inverted pyramid of biomass and explain why it occurs.",
+     "solution": "In aquatic ecosystems like oceans, the pyramid of biomass is inverted because phytoplankton (producers) have very low standing biomass but high turnover rate, supporting a larger biomass of zooplankton (consumers) at a given time.",
+     "answer": "Inverted biomass pyramid in oceans: phytoplankton biomass < zooplankton biomass due to high turnover of producers."
+    },
+    {
+     "question": "What are the limitations of ecological pyramids?",
+     "solution": "Ecological pyramids do not account for the same species belonging to two or more trophic levels, they assume simple food chains (ignoring food webs), and they do not accommodate decomposers despite their vital role in ecosystems.",
+     "answer": "Limitations: ignores multi-level species, assumes simple food chains, and excludes decomposers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw and label a pyramid of numbers for a grassland ecosystem.",
+     "type": "diagram"
+    },
+    {
+     "question": "Explain why the pyramid of numbers can be spindle-shaped in a forest ecosystem.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Compare the pyramids of biomass in a terrestrial ecosystem and an aquatic ecosystem.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.6",
+   "title": "Ecological Succession: Primary and Secondary",
+   "section": "Ecological Succession",
+   "definition": "Ecological succession is the sequential, directional, and predictable change in the species composition of an ecosystem over time. Primary succession begins on bare, lifeless areas, while secondary succession occurs where an existing community has been disturbed but soil remains.",
+   "formula": "",
+   "key_idea": "Succession leads to a relatively stable climax community. Primary succession is slow (starting from bare rock) because soil must form first, while secondary succession is faster because soil and some organisms already exist.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between primary and secondary succession.",
+    "Describe the stages of primary succession on bare rock (xerarch).",
+    "Describe the stages of succession in a water body (hydrarch).",
+    "Explain the concept of a climax community.",
+    "Identify pioneer species in a given succession type."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of succession (primary or secondary) based on the starting condition.",
+     "explain": "Primary succession starts on a bare, lifeless substrate with no soil; secondary succession starts where soil and some biotic components remain after a disturbance."
+    },
+    {
+     "step": 2,
+     "action": "Trace the sequence of seral stages and pioneer species.",
+     "explain": "Follow the orderly replacement of communities: pioneer species colonize first, followed by intermediate seral communities, each modifying the environment for the next stage."
+    },
+    {
+     "step": 3,
+     "action": "Verify the progression toward the climax community.",
+     "explain": "Confirm that the sequence leads to a stable, self-sustaining climax community that is in equilibrium with the environment and does not get replaced further."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between primary and secondary succession.",
+     "solution": "Primary succession occurs on a previously uninhabited, barren area (e.g., bare rock, newly cooled lava) where soil has not yet formed, and it is very slow. Secondary succession occurs in an area where an existing community was disturbed (e.g., by fire, flood) but soil and some organisms remain, and it is faster.",
+     "answer": "Primary: starts on bare, lifeless substrate, slow; Secondary: starts after disturbance with soil present, faster."
+    },
+    {
+     "question": "Describe the stages of primary succession on bare rock (xerarch).",
+     "solution": "The stages are: (1) Pioneer stage with crustose lichens, (2) Foliose lichens stage, (3) Moss stage, (4) Herb stage, (5) Shrub stage, (6) Forest (climax) stage. Each stage modifies the substrate, adding organic matter and improving soil for the next stage.",
+     "answer": "Crustose lichens -> Foliose lichens -> Mosses -> Herbs -> Shrubs -> Forest (climax)."
+    },
+    {
+     "question": "What is a climax community?",
+     "solution": "A climax community is the final, stable community in ecological succession that is in equilibrium with the environment. It is self-perpetuating and does not undergo further significant change unless the environment changes.",
+     "answer": "The stable, self-sustaining final community in equilibrium with the environment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the pioneer species in primary succession on bare rock and in a pond.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why secondary succession is faster than primary succession.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the hydrarch succession stages in a water body.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.7",
+   "title": "Nutrient Cycling: Carbon, Nitrogen, and Phosphorus Cycles",
+   "section": "Nutrient Cycling",
+   "definition": "Nutrient cycling (biogeochemical cycling) is the movement of nutrient elements through biotic and abiotic components of the ecosystem. The carbon cycle involves CO2 exchange via photosynthesis and respiration; the nitrogen cycle involves fixation, nitrification, denitrification, and ammonification; the phosphorus cycle is sedimentary and lacks a gaseous phase.",
+   "formula": "",
+   "key_idea": "Nutrients are recycled within ecosystems. Carbon and nitrogen cycles have atmospheric (gaseous) phases, while the phosphorus cycle is largely sedimentary, making phosphorus a limiting nutrient in many ecosystems.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the steps of the carbon cycle.",
+    "Describe the steps of the nitrogen cycle including fixation, nitrification, and denitrification.",
+    "Explain why the phosphorus cycle is called a sedimentary cycle.",
+    "Differentiate between gaseous and sedimentary nutrient cycles.",
+    "Explain the role of bacteria in the nitrogen cycle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nutrient cycle being analyzed (carbon, nitrogen, or phosphorus).",
+     "explain": "Determine which biogeochemical cycle is in question and whether it has a gaseous (atmospheric) or sedimentary (rock-based) reservoir."
+    },
+    {
+     "step": 2,
+     "action": "Trace the key processes and reservoirs of the cycle.",
+     "explain": "For carbon: photosynthesis, respiration, decomposition, burning. For nitrogen: fixation, ammonification, nitrification, denitrification. For phosphorus: weathering of rocks, uptake by plants, return via decomposition."
+    },
+    {
+     "step": 3,
+     "action": "Verify the return of nutrients to the reservoir, completing the cycle.",
+     "explain": "Confirm that the nutrient returns to its reservoir (atmosphere for carbon/nitrogen; sediments/rocks for phosphorus), ensuring the cycle is self-sustaining."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the main steps of the nitrogen cycle.",
+     "solution": "The nitrogen cycle involves: (1) Nitrogen fixation - conversion of N2 to ammonia by bacteria (Rhizobium) or lightning; (2) Ammonification - conversion of organic nitrogen to ammonia by decomposers; (3) Nitrification - oxidation of ammonia to nitrites and nitrates by Nitrosomonas and Nitrobacter; (4) Denitrification - conversion of nitrates back to N2 by Pseudomonas.",
+     "answer": "Fixation -> Ammonification -> Nitrification -> Denitrification."
+    },
+    {
+     "question": "Why is the phosphorus cycle called a sedimentary cycle?",
+     "solution": "The phosphorus cycle does not have a gaseous phase. Phosphorus is found mainly in rocks as phosphates, which are released by weathering, taken up by plants, passed through food chains, and returned via decomposition to the soil, eventually becoming part of sediments again.",
+     "answer": "Phosphorus cycles through rocks and sediments with no gaseous phase, hence 'sedimentary'."
+    },
+    {
+     "question": "How does carbon re-enter the atmosphere in the carbon cycle?",
+     "solution": "Carbon returns to the atmosphere as CO2 through respiration by living organisms, decomposition of dead organic matter by decomposers, and combustion of fossil fuels and biomass.",
+     "answer": "Carbon re-enters the atmosphere as CO2 via respiration, decomposition, and combustion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the bacteria involved in nitrification and denitrification.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the reservoir in a biogeochemical cycle with reference to the carbon cycle.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between gaseous and sedimentary nutrient cycles with one example each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.8",
+   "title": "Ecosystem Services: Carbon Fixation, Pollination, and Soil Formation",
+   "section": "Ecosystem Services",
+   "definition": "Ecosystem services are the benefits humans derive from ecosystems, including carbon fixation (regulating climate), pollination (enabling crop production), soil formation (supporting agriculture), oxygen release, nutrient cycling, and flood control. The 2005 Millennium Ecosystem Assessment valued these services globally.",
+   "formula": "",
+   "key_idea": "Ecosystems provide essential services free of cost. Forest ecosystems are major carbon sinks fixing atmospheric CO2, pollinators sustain agricultural productivity, and soil-forming processes maintain the foundation for terrestrial life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List and describe the major ecosystem services provided by forests.",
+    "Explain the role of ecosystems in carbon fixation and climate regulation.",
+    "Describe the importance of pollination as an ecosystem service.",
+    "Explain how ecosystems contribute to soil formation.",
+    "Discuss the economic value of ecosystem services."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ecosystem service in question (provisioning, regulating, supporting, or cultural).",
+     "explain": "Classify the service: carbon fixation is a regulating service, pollination is a supporting/regulating service, soil formation is a supporting service."
+    },
+    {
+     "step": 2,
+     "action": "Describe the mechanism by which the ecosystem provides the service.",
+     "explain": "Explain the process: photosynthesis fixes carbon, pollinators transfer pollen enabling fertilization, and weathering plus biological activity forms soil."
+    },
+    {
+     "step": 3,
+     "action": "Verify the benefit to humans and the ecosystem's sustainability.",
+     "explain": "Confirm that the service supports human well-being (food, climate stability, agriculture) and that maintaining ecosystem health is essential for continued service provision."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain how forests act as carbon sinks.",
+     "solution": "Forest plants absorb atmospheric CO2 during photosynthesis and store carbon in their biomass (trunks, roots, leaves) and in the soil. This removes CO2 from the atmosphere, helping regulate global climate and making forests important carbon sinks.",
+     "answer": "Forests absorb CO2 via photosynthesis and store carbon in biomass and soil, acting as carbon sinks."
+    },
+    {
+     "question": "Why is pollination considered a vital ecosystem service?",
+     "solution": "Pollination by bees, butterflies, and other agents enables fertilization in flowering plants, including many crops. Without pollination, fruit and seed production would decline drastically, threatening food security and biodiversity.",
+     "answer": "Pollination enables crop and wild plant reproduction, sustaining food production and biodiversity."
+    },
+    {
+     "question": "How do ecosystems contribute to soil formation?",
+     "solution": "Soil forms through the weathering of rocks combined with the activity of lichens, mosses, and decomposers that add organic matter. Over time, this process creates fertile soil that supports plant growth and agriculture.",
+     "answer": "Weathering of rocks plus biological activity (lichens, decomposers) creates fertile soil over time."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four ecosystem services and classify each as provisioning, regulating, supporting, or cultural.",
+     "type": "classification"
+    },
+    {
+     "question": "Explain the economic significance of ecosystem services as highlighted by Robert Constanza's study.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How would the loss of pollinators affect agricultural productivity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.9",
+   "title": "Types of Ecosystems: Terrestrial and Aquatic",
+   "section": "Types of Ecosystems",
+   "definition": "Ecosystems are broadly classified as terrestrial (forest, grassland, desert) and aquatic (pond, lake, ocean, estuary). Terrestrial ecosystems are dominated by land-based producers, while aquatic ecosystems are dominated by phytoplankton and have distinct vertical zones based on light penetration.",
+   "formula": "",
+   "key_idea": "Ecosystem types differ in their abiotic factors, dominant producers, and productivity. Terrestrial ecosystems like forests have high biomass and NPP, while aquatic ecosystems like oceans have low NPP per unit area despite covering a large surface.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare terrestrial and aquatic ecosystems in terms of productivity.",
+    "Describe the zones of a pond or lake ecosystem.",
+    "Explain why oceans have low NPP despite covering most of Earth.",
+    "Differentiate between a forest and a grassland ecosystem.",
+    "Describe the characteristics of an estuary ecosystem."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ecosystem type (terrestrial or aquatic) and its sub-type.",
+     "explain": "Determine whether the ecosystem is land-based (forest, grassland, desert) or water-based (pond, lake, ocean, estuary) to apply the correct characteristics."
+    },
+    {
+     "step": 2,
+     "action": "Describe the abiotic factors, dominant producers, and productivity.",
+     "explain": "For terrestrial ecosystems, note soil, light, and dominant vegetation. For aquatic ecosystems, note light penetration zones (limnetic, profundal, benthic), phytoplankton dominance, and nutrient availability."
+    },
+    {
+     "step": 3,
+     "action": "Verify the ecosystem's distinctive features and productivity level.",
+     "explain": "Confirm the key features: forests have high biomass/NPP, deserts have low productivity, oceans have low NPP per area due to nutrient limitation, and estuaries are highly productive transition zones."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compare the net primary productivity of a forest ecosystem with that of an ocean ecosystem.",
+     "solution": "Forest ecosystems have high NPP (approximately 1000-2500 g/m^2/yr) due to abundant sunlight, soil nutrients, and dense vegetation. Oceans have low NPP (approximately 50-150 g/m^2/yr) because of nutrient limitation, despite their large area, making total ocean productivity lower than expected.",
+     "answer": "Forest NPP (1000-2500 g/m^2/yr) >> Ocean NPP (50-150 g/m^2/yr) due to nutrient limitation in oceans."
+    },
+    {
+     "question": "Describe the zones of a deep lake ecosystem.",
+     "solution": "A lake has: (1) Littoral zone - shallow shore area with rooted plants; (2) Limnetic zone - open water with light penetration supporting phytoplankton; (3) Profundal zone - deep, dark zone with no light; (4) Benthic zone - bottom sediment layer with decomposers.",
+     "answer": "Littoral -> Limnetic -> Profundal -> Benthic zones."
+    },
+    {
+     "question": "Why are estuaries considered among the most productive ecosystems?",
+     "solution": "Estuaries receive nutrient inputs from both rivers and tides, creating nutrient-rich conditions. The mixing of fresh and salt water supports diverse flora and fauna, making estuaries highly productive ecosystems.",
+     "answer": "Estuaries are highly productive due to nutrient inputs from rivers and tides and mixing of fresh and marine water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three terrestrial and three aquatic ecosystems with one distinguishing feature of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why oceans have low NPP per unit area despite covering about 70% of Earth's surface.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between the limnetic and profundal zones of a lake.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

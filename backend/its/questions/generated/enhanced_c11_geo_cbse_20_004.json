@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_004",
+   "title": "c11_geo_cbse_20_004",
+   "questions": [
+    {
+     "q": "State the weight-loss ratio for aluminium production from bauxite to finished metal and explain why this makes bauxite proximity less critical than electricity cost for smelter location.",
+     "a": "Bauxite to alumina loses ~50% weight (4-5t bauxite → 2t alumina); alumina to aluminium loses ~50% again (2t alumina → 1t Al). Total ~75-80% weight loss. However, alumina is an intermediate product that can be transported; the electrolytic smelting step consumes 13,000-15,000 kWh/tonne, making electricity the dominant locational factor (often 30-40% of production cost). A wrong answer focusing only on bauxite proximity reveals the student hasn't distinguished between the two stages (refining vs smelting) and their different cost structures.",
+     "self_check": true
+    },
+    {
+     "q": "Why are cement plants concentrated in the Vindhyan and Satpura ranges (Satna, Maihar, Chanderia, Katni) despite major markets being in the Indo-Gangetic plain?",
+     "a": "Cement is a weight-losing industry: ~1.5 tonnes limestone + 0.4 tonnes coal/gypsum → 1 tonne cement. Limestone is low-value, high-volume; transporting it to distant markets is uneconomical. Plants locate at limestone deposits (Vindhyan/Satpura formations) and ship finished cement by rail to markets. A student citing \"market access\" as primary factor misunderstands the weight-loss principle and confuses cement with market-oriented industries like automobiles.",
+     "self_check": true
+    },
+    {
+     "q": "An aluminium smelter requires 14,500 kWh per tonne of aluminium. If the plant produces 300,000 tonnes annually and the industrial electricity tariff is ₹6.50/kWh, calculate the annual power cost. If hydroelectric power at ₹3.20/kWh is available 800 km away, should the smelter relocate? Assume transmission loss of 8% and transmission cost of ₹0.50/kWh.",
+     "a": "Annual power consumption = 300,000 × 14,500 = 4.35 × 10⁹ kWh. Current cost = 4.35 × 10⁹ × 6.50 = ₹28,275 crore. Hydro cost delivered = 3.20 / (1-0.08) + 0.50 = 3.478 + 0.50 = ₹3.978/kWh. New cost = 4.35 × 10⁹ × 3.978 = ₹17,304 crore. Annual saving = ₹10,971 crore. Relocation is economically justified if capital cost of relocation < PV of savings. A student ignoring transmission losses or treating electricity as uniform cost reveals inability to apply locational analysis quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational determinants of the fertiliser industry (urea) with those of the cement industry. Why do fertiliser plants cluster near gas pipelines (Hazira, Jagdishpur, Panipat) while cement plants cluster near limestone hills?",
+     "a": "Urea synthesis: CH₄ (natural gas) + N₂ → NH₃ → CO(NH₂)₂. Natural gas is both feedstock (70-80% of cost) and fuel; it is non-transportable without pipelines, so plants locate on gas grid (HVJ, DVPL pipelines). Cement: limestone is the dominant heavy raw material (1.5t/tonne cement), widely distributed but immobile; coal/gypsum are smaller inputs. Cement plants minimise limestone transport; fertiliser plants minimise gas transport. A student citing \"market access\" for both misses the feedstock vs raw material distinction and the pipeline infrastructure constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the environmental sustainability of India's aluminium-smelting cluster in Odisha (NALCO Angul, Vedanta Jharsuguda, Hindalco Hirakud) given the region's coal-based power, bauxite mining in forest areas, and red mud disposal challenges.",
+     "a": "Unsustainable in current form: (1) Coal-based captive power plants emit ~12-14 t CO₂/tonne Al vs ~4 t for hydro; (2) Bauxite mining in Gandhamardan/Mali hills fragments elephant corridors and tribal livelihoods; (3) Red mud (1.5-2t/tonne Al) stored in ponds risks alkali leaching into Mahanadi tributaries. Sustainability requires: shift to renewable PPAs, dry-stacking red mud with recovery of scandium/rare earths, and FPIC-compliant mining. A student listing only \"pollution\" without quantifying carbon intensity or linking to specific ecological zones (Eastern Ghats, Mahanadi basin) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational strategy for a new 1 MTPA greenfield cement plant in Maharashtra using the following data: limestone deposits at Chandrapur (grade 48% CaO), coal at Chandrapur (GCV 4200 kcal/kg), gypsum from Rajasthan (rail distance 950 km), market in Mumbai-Pune corridor (rail distance 850 km), and port access at JNPT (road 900 km). Justify your site choice with a weighted locational index.",
+     "a": "Optimal site: Chandrapur (near limestone + coal). Weighted index: Limestone (weight 1.5, distance 5 km) = 7.5; Coal (weight 0.25, distance 5 km) = 1.25; Gypsum (weight 0.05, distance 950 km) = 47.5; Market (weight 1.0, distance 850 km) = 850; Export (weight 0.2, distance 900 km) = 180. Total = 1086.25. Alternative Mumbai site: Limestone 1.5×850=1275, Coal 0.25×850=212.5, Gypsum 0.05×950=47.5, Market 0, Export 0.2×50=10 → Total 1545. Chandrapur wins by 30%. A student choosing Mumbai for \"market access\" fails to weight inputs by volume and ignores that cement is weight-losing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

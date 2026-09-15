@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_001",
+   "title": "c12_hist_cbse_09_001",
+   "questions": [
+    {
+     "q": "In which year was the Permanent Settlement introduced in Bengal, and who was the Governor-General at the time?",
+     "a": "The Permanent Settlement was introduced in 1793 under Governor-General Lord Cornwallis. A wrong answer (e.g., 1765 or Warren Hastings) reveals confusion between the grant of Diwani (1765) and the revenue settlement, or between different Governor-Generals' tenures.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the East India Company fix the revenue demand permanently high at the time of the Permanent Settlement?",
+     "a": "The Company set the demand high to capture future increases in agricultural produce and prices, fearing it would lose a share of enhanced income if the demand were fixed at a lower rate. A wrong answer (e.g., \"to help zamindars\" or \"because of current high prices\") shows misunderstanding of the Company's fiscal anxiety and the depressed agricultural prices of the 1790s.",
+     "self_check": true
+    },
+    {
+     "q": "A zamindar in 1797 fails to pay the revenue by sunset on the due date. Under the Sunset Law, what happens to his estate, and why did this law make revenue collection particularly oppressive?",
+     "a": "The estate is liable to be auctioned immediately. This was oppressive because revenue had to be paid regardless of harvest failure, low prices, or ryots' inability to pay rent, and the short deadline gave no flexibility. A wrong answer (e.g., \"the zamindar gets a warning\" or \"the Company waives the demand\") reveals ignorance of the coercive nature of the Settlement and the Sunset Law's role in forcing auctions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the power of zamindars and jotedars in early 19th century Bengal villages. Why were jotedars more effective in controlling the countryside?",
+     "a": "Jotedars lived in villages, controlled local trade and moneylending, cultivated land through sharecroppers, and directly mobilized ryots. Zamindars often lived in cities, had lost judicial/police powers to the Collector, and faced resistance from jotedars who delayed payments and bought auctioned estates. A wrong answer that equates their power or sees zamindars as dominant misses the shift in local authority documented by Buchanan.",
+     "self_check": true
+    },
+    {
+     "q": "The Fifth Report (1813) claimed widespread collapse of zamindari power. How do modern historians evaluate this claim, and what evidence do they use to challenge it?",
+     "a": "Historians argue the Fifth Report exaggerated zamindari collapse to criticize Company misrule. They use zamindari archives and district records showing zamindars used fictitious (benami) sales, transferred property to women, and resisted displacement to retain control. A wrong answer that accepts the Fifth Report uncritically reveals inability to evaluate colonial sources for bias and purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain showing how the Permanent Settlement's high fixed revenue demand led to the rise of jotedars and the weakening of zamindari authority by 1810.",
+     "a": "High fixed demand → zamindars pressured ryots for rent → ryots defaulted due to low prices/harvests → zamindars lost revenue → estates auctioned → jotedars (rich peasants) bought estates or expanded land control → jotedars used moneylending and sharecropping to dominate villages → zamindars lost local authority. A poor answer lists events without causal links or omits the role of market conditions and the Sunset Law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

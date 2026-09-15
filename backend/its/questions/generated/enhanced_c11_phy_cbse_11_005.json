@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_005",
+   "title": "c11_phy_cbse_11_005",
+   "questions": [
+    {
+     "q": "State the condition for a process to be adiabatic and write the expression for work done by an ideal gas in a quasi-static adiabatic process in terms of initial and final pressures and volumes. Define γ.",
+     "a": "An adiabatic process occurs when no heat is exchanged between the system and surroundings (Q = 0). The work done by the gas is \\( W = \\frac{P_1V_1 - P_2V_2}{\\gamma - 1} \\), where \\( \\gamma = \\frac{C_p}{C_v} \\) is the ratio of molar specific heat capacities at constant pressure and constant volume. A wrong answer (e.g., stating Q = constant or using the isothermal formula W = nRT ln(V2/V1)) reveals confusion between adiabatic and isothermal processes, or a misunderstanding that \"adiabatic\" means constant temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A gas is compressed adiabatically from volume V1 to V2 (V2 < V1). Will the work done *by* the gas be positive, negative, or zero? Will the final temperature T2 be greater than, less than, or equal to T1? Explain using the First Law.",
+     "a": "Work done *by* the gas is negative (work is done *on* the gas). The final temperature T2 > T1. From the First Law: ΔU = Q - W. For adiabatic, Q = 0, so ΔU = -W. Since work is done on the gas, W (by gas) < 0, so ΔU > 0. For an ideal gas, internal energy increases with temperature, so T2 > T1. A wrong answer (e.g., saying temperature stays constant) indicates the student is applying isothermal logic to an adiabatic process, or confusing the sign convention for W.",
+     "self_check": true
+    },
+    {
+     "q": "One mole of a diatomic ideal gas (γ = 7/5) at 300 K and 1.0 × 10^5 Pa is compressed adiabatically until its pressure reaches 5.0 × 10^5 Pa. Calculate the work done *on* the gas. (R = 8.31 J mol⁻¹ K⁻¹)",
+     "a": "**Step 1:** Identify given: n = 1 mol, T1 = 300 K, P1 = 1.0 × 10^5 Pa, P2 = 5.0 × 10^5 Pa, γ = 1.4, R = 8.31 J/mol·K. Find W_on (work done on gas).\n**Step 2:** Use adiabatic relation \\( P_1^{1-\\gamma} T_1^\\gamma = P_2^{1-\\gamma} T_2^\\gamma \\) → \\( T_2 = T_1 \\left(\\frac{P_2}{P_1}\\right)^{\\frac{\\gamma-1}{\\gamma}} \\).\n**Step 3:** Compute exponent: (γ-1)/γ = 0.4/1.4 = 2/7 ≈ 0.2857. Pressure ratio = 5.\n\\( T_2 = 300 \\times 5^{2/7} \\approx 300 \\times 1.584 = 475.2 \\text{ K} \\).\n**Step 4:** Work done *by* gas: \\( W_{by} = \\frac{nR(T_1 - T_2)}{\\gamma - 1} = \\frac{1 \\times 8.31 \\times (300 - 475.2)}{0.4} = \\frac{8.31 \\times (-175.2)}{0.4} = -3642 \\text{ J} \\).\n**Step 5:** Work done *on* gas = -W_by = +3642 J ≈ 3.64 kJ.\n**Units check:** R in J/mol·K, ΔT in K, γ dimensionless → J. Answer is physically reasonable (compression requires positive work input). A wrong answer often results from using the isothermal formula, sign errors (reporting -3642 J as work done *on* gas), or miscalculating the exponent.",
+     "self_check": true
+    },
+    {
+     "q": "On a P-V diagram, an adiabatic curve and an isothermal curve start at the same initial point (P1, V1). Both expand to the same final volume V2 > V1. Which curve has a steeper slope? Which process does more work? Justify using the equations PV = constant (isothermal) and PV^γ = constant (adiabatic).",
+     "a": "The adiabatic curve is steeper. For isothermal: slope = dP/dV = -P/V. For adiabatic: slope = dP/dV = -γP/V. Since γ > 1, the adiabatic slope magnitude is γ times larger. The isothermal process does more work. Work is the area under the P-V curve. Since the adiabatic curve drops faster (pressure falls more rapidly due to cooling), the area under the isothermal curve (which stays higher because heat flows in to maintain temperature) is larger. A wrong answer (e.g., adiabatic does more work) suggests the student thinks \"steeper curve = more area\" without realizing the adiabatic curve lies *below* the isothermal curve during expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In an adiabatic compression, the work done on the gas is stored entirely as potential energy of the gas molecules.\" Evaluate this statement. Is it correct? If not, correct it.",
+     "a": "The statement is **incorrect**. In an ideal gas, intermolecular forces are negligible, so there is no potential energy component in the internal energy. The work done on the gas increases the *kinetic energy* of the molecules (translational, rotational, vibrational), which manifests as a rise in temperature. The correct statement: \"In an adiabatic compression of an ideal gas, the work done on the gas increases its internal energy, which is purely kinetic, causing the temperature to rise.\" A wrong evaluation reveals the misconception that internal energy of an ideal gas includes potential energy (true for real gases/liquids, but not for the ideal gas model used in Class 11).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration to show that adiabatic compression increases temperature. Use only household/school lab items (e.g., a syringe, cotton wool, matchstick). Describe the procedure, the observation, and the physics principle.",
+     "a": "**Procedure:** Place a small piece of cotton wool at the bottom of a transparent plastic syringe (10-20 mL). Remove the needle, seal the nozzle tightly with a rubber cap or finger. Pull the plunger out fully, then push it in **rapidly** and forcefully.\n**Observation:** The cotton wool ignites (glows/smokes) due to the sudden temperature rise.\n**Principle:** Rapid compression is nearly adiabatic (Q ≈ 0). Work done on the gas increases its internal energy (ΔU = -W > 0), raising temperature above the ignition point of cotton (~200°C).\n**Criteria for good answer:** Must emphasize *rapid* compression (to approximate Q=0), sealing (closed system), and link ignition to temperature rise from work done. A poor answer suggests slow compression (isothermal) or attributes ignition to friction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

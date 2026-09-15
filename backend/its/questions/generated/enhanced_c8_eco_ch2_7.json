@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_7",
+   "title": "c8_eco_ch2_7",
+   "questions": [
+    {
+     "q": "What is the economic definition of 'Net Migration' and what formula is used to calculate it?",
+     "a": "Net migration is the net difference between the total number of people entering a region (in-migrants or immigrants) and the total number of people leaving that region (out-migrants or emigrants) over a specified time period. The formula is: Net Migration = In-migrants - Out-migrants. \nA wrong answer stating that net migration is just the total number of people leaving shows that the student confuses total out-migration with the net balance between incoming and outgoing streams.",
+     "self_check": true
+    },
+    {
+     "q": "A agricultural village experiences an outflow of young adults moving to nearby manufacturing towns. Explain why low agricultural earnings act as a 'push factor' while city employment acts as a 'pull factor'.",
+     "a": "Low agricultural earnings act as a 'push factor' because unfavorable economic conditions at the origin drive people away to seek livelihood security. Higher urban wages act as a 'pull factor' because attractive economic opportunities at the destination pull individuals toward that location.\nA wrong answer confusing push and pull factors indicates that the student cannot differentiate between origin-driven pressures and destination-driven economic incentives.",
+     "self_check": true
+    },
+    {
+     "q": "At the beginning of 2023, District A had a population of 200,000. Over the year, the district recorded 4,500 births, 1,800 deaths, 3,200 in-migrants, and 5,100 out-migrants. Calculate the net migration and the total population of District A at the end of 2023.",
+     "a": "Step 1: Calculate Net Migration = In-migrants - Out-migrants = 3,200 - 5,100 = -1,900 persons.\nStep 2: Calculate Natural Increase = Births - Deaths = 4,500 - 1,800 = +2,700 persons.\nStep 3: Calculate Total Population Change = Natural Increase + Net Migration = +2,700 + (-1,900) = +800 persons.\nStep 4: Calculate Final Population = Initial Population + Total Population Change = 200,000 + 800 = 200,800 persons.\nA wrong answer showing a total population of 202,700 reveals that the student omitted net migration entirely or failed to handle negative migration values correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how remittances sent by rural-to-urban migrants alter the economic spending pattern of households in origin villages.",
+     "a": "Remittances provide rural households with additional disposable income beyond subsistence agriculture. This extra capital is typically reallocated toward human capital investments (children's education, healthcare), improved housing construction, debt repayment, and agricultural modernizations (pumpsets, high-yield seeds). This injects capital into the local rural economy, boosting demand for local goods and services.\nA wrong answer claiming remittances only cause inflation without economic benefit reveals a failure to recognize remittances as a major capital flow driving rural household human capital development and demand.",
+     "self_check": true
+    },
+    {
+     "q": "A city council claims that stopping all rural migration into the city will completely eliminate urban poverty and traffic congestion. Evaluate this claim using economic reasoning.",
+     "a": "The claim is economically unsound. Banning migration ignores the key role migrant labor plays in supplying low-cost labor for urban construction, sanitation, transportation, manufacturing, and informal services that keep city operating costs low. Eliminating migration would cause labor shortages, rising wages for basic services, and higher costs for businesses. Urban congestion and poverty are solved through efficient infrastructure planning, affordable housing, and urban management, not by shutting off labor supply.\nA wrong answer agreeing with the city council reveals that the student views migration purely as a burden rather than recognizing migrants as essential productive factors of production.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a comprehensive economic strategy for a state government to reduce distress migration from backward rural districts without restricting freedom of movement.",
+     "a": "A robust policy strategy should include: 1) Investing in rural physical and social infrastructure (all-weather roads, cold storage, reliable power, secondary schools) to improve local living standards. 2) Promoting rural non-farm employment through micro-enterprise credit and agro-processing industries. 3) Establishing vocational training centers aligned with market demand so rural youth gain marketable skills locally. 4) Ensuring guaranteed public employment schemes (like MGNREGA) function efficiently during off-peak agricultural seasons.\nA poor answer suggesting movement restrictions or direct cash hand-outs without developing local employment infrastructure reveals a lack of understanding of structural economic drivers of migration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

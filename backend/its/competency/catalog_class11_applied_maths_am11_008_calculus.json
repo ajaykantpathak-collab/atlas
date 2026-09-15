@@ -1,0 +1,264 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 8,
+  "chapter_title": "Calculus",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_008_calculus.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_008.1",
+      "title": "Functions and Their Evaluation",
+      "section": "8.2",
+      "definition": "A function pairs every admissible input with exactly one output through a stated rule; combining two functions pointwise gives new functions for sum, difference, product and quotient, each evaluated by substituting the same input into both rules.",
+      "formula": "out = x * x + 1",
+      "key_idea": "One input, one output; a vertical line may cross the graph only once.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.2, f(x) = x^2 + 1 at x = 0 and -1, (f+g)(x) example",
+      "question_patterns": [
+        "find f(0) and f(-1) for the function f(x) = x^2 + 1",
+        "if f(x) = 2x + 3 and g(x) = x^2 + 3 find (f + g)(2)",
+        "state whether the table with input 1 mapped to both 0 and 5 represents a function",
+        "for f(x) = x + 1 and g(x) = x^2 - 2x + 5 compute (f + g)(x) and evaluate it at x = 3",
+        "evaluate f(4) when f(x) = 3x + 2",
+        "how does the vertical line test decide whether a curve is a function"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "square the input", "explain": "the leading term of the rule", "compute": "sq = x * x"},
+        {"step": 2, "action": "add the constant term", "explain": "completes the rule", "compute": "out = sq + 1"},
+        {"step": 3, "action": "combine two functions at the same input", "explain": "pointwise addition of outputs", "compute": "fg_sum = f_x + g_x"}
+      ]
+    },
+    {
+      "id": "am11_008.2",
+      "title": "Domain and Range of a Function",
+      "section": "8.4",
+      "definition": "The domain lists every input a function accepts, either stated openly or implied by the rule, while the range collects every output the rule can actually produce; a square root rejects inputs below its cut-off and never returns a negative value.",
+      "formula": "domain = inputs where the rule makes sense",
+      "key_idea": "Refuse inputs that break the rule; the outputs never leave the range set.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.4, domain of sqrt(x + 4) is x >= -4 and range y >= 0",
+      "question_patterns": [
+        "state the domain of g(x) = 1/x",
+        "find the domain of f(x) = sqrt(x + 4)",
+        "state the range of f(x) = sqrt(x + 4)",
+        "what is the range of y = sin x",
+        "why is x = 0 excluded from the domain of the reciprocal function",
+        "state the domain of f(x) = x^2 over the reals"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "scan the rule for forbidden operations", "explain": "division by zero or roots of negatives cut the domain"},
+        {"step": 2, "action": "list the accepted inputs", "explain": "this interval or set is the domain"},
+        {"step": 3, "action": "track the outputs the rule can reach", "explain": "this set is the range"}
+      ]
+    },
+    {
+      "id": "am11_008.3",
+      "title": "Types of Functions",
+      "section": "8.5",
+      "definition": "Familiar function families include polynomials ranked by their highest power, quotients of polynomials, exponentials with a fixed base, logarithms as their inverses, the step-like greatest integer map, the absolute value map and the three-valued sign map.",
+      "formula": "degree = highest power of x",
+      "key_idea": "Name the family from the shape of the rule; degree reads off the top power.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.5, polynomial, rational, exponential, logarithmic, greatest integer, modulus, signum",
+      "question_patterns": [
+        "is f(x) = x^(3/2) + 2x + 1 a polynomial function, give a reason",
+        "find the degree of the polynomial f(x) = x^3 - x^2 + 2x + 3",
+        "classify sgn(x) and state its three output values",
+        "what is the value of the greatest integer function at x = 2.7",
+        "is f(x) = (2x^3 + x + 5)/(x^2 - 3x) a rational function and where is it undefined",
+        "for which bases is the exponential function strictly increasing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "check that powers of x are whole numbers", "explain": "fractional powers break the polynomial family"},
+        {"step": 2, "action": "read the top power for the degree", "explain": "degree one is linear, degree zero constant"},
+        {"step": 3, "action": "match special maps by their outputs", "explain": "floor drops to the integer below, modulus strips the sign, signum keeps only direction"}
+      ]
+    },
+    {
+      "id": "am11_008.4",
+      "title": "Limits by Substitution and Cancellation",
+      "section": "8.6",
+      "definition": "The limit of a function at a point records the output the rule approaches; well-behaved rules settle by direct substitution, while a zero-over-zero form is first simplified by cancelling the vanishing factor and then substituted.",
+      "formula": "poly = c + b * x + a * sq",
+      "key_idea": "Substitute when it works; cancel the common factor when it does not.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.6, lim (x^2-1)/(x-1) = 2, algebra of limits, check progress lim (8 - 3x + 12x^2) at x = 2",
+      "question_patterns": [
+        "evaluate lim (8 - 3x + 12x^2) as x approaches 2",
+        "find the limit of (x^2 - 1)/(x - 1) as x approaches 1",
+        "evaluate lim (6x^2 - 7x)/x as x approaches 0",
+        "find the limit of 4x as x approaches 3",
+        "state the algebra of limits for the product of two functions",
+        "after cancelling, evaluate lim (x^2 - 9)/(x - 3) as x approaches 3"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "square the input", "explain": "prepares the quadratic term", "compute": "sq = x * x"},
+        {"step": 2, "action": "substitute into the polynomial", "explain": "constant, linear and quadratic contributions add", "compute": "poly = c + b * x + a * sq"},
+        {"step": 3, "action": "cancel a vanishing factor when both parts vanish", "explain": "the reduced rule is then substituted at the point", "compute": "reduced = x + 3"}
+      ]
+    },
+    {
+      "id": "am11_008.5",
+      "title": "Continuity of a Function at a Point",
+      "section": "8.7",
+      "definition": "A function is continuous at a point when the approach from the left, the approach from the right and the actual value all agree there; a mismatch between the two one-sided approaches breaks the limit and marks a jump.",
+      "formula": "lhl = rhl = f_a",
+      "key_idea": "Three numbers must match: left approach, right approach, actual value.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.7, left and right limits at x = 2 giving 2 and 1, continuity checklist",
+      "question_patterns": [
+        "the left hand limit at x = 2 is 2 and the right hand limit is 1; is the function continuous there",
+        "state the condition for a function to be continuous at x = a",
+        "what do the minus and plus signs on a limit mean",
+        "is a polynomial function continuous on the reals",
+        "the limit from the left at x = 3 is 2 and from the right is 2, but f(3) is undefined; comment on continuity",
+        "why is f(x) = (x^2 - 1)/(x - 1) not continuous at x = 1 even though the limit is 2"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "compute the left hand approach", "explain": "values from below the point"},
+        {"step": 2, "action": "compute the right hand approach", "explain": "values from above the point"},
+        {"step": 3, "action": "compare with the actual value", "explain": "continuity holds only when all three coincide"}
+      ]
+    },
+    {
+      "id": "am11_008.6",
+      "title": "Average and Instantaneous Rate of Change",
+      "section": "8.8",
+      "definition": "Dividing a change in one quantity by the change in another gives an average rate, while shrinking the interval to a point yields the instantaneous rate; for a volume growing like a square of time, that instantaneous rate itself grows linearly with time.",
+      "formula": "rate = 2 * coef * t",
+      "key_idea": "Average rate uses a real interval; instantaneous rate is its limiting slope.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.8, s = 22t slope, V(t) = 0.2 t^2 with rate 0.4t, 2 L/s at t = 5",
+      "question_patterns": [
+        "a tank fills with volume V(t) = 0.2 t^2; find the rate of change of volume at t = 5",
+        "a particle covers 220 m in 10 s at constant speed; find the average velocity",
+        "for V(t) = 0.2 t^2 how fast is the volume changing at t = 10",
+        "define instantaneous velocity as a limit of a difference quotient",
+        "why is the rate of change of a linear volume function constant"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "double the square-law coefficient", "explain": "the derivative of coef times t squared is twice coef times t", "compute": "k = 2 * coef"},
+        {"step": 2, "action": "scale by the elapsed time", "explain": "instantaneous rate at that moment", "compute": "rate = k * t"}
+      ]
+    },
+    {
+      "id": "am11_008.7",
+      "title": "Derivative of a Polynomial by the Power Rule",
+      "section": "8.9",
+      "definition": "Differentiation measures how fast a function changes; the power rule drops each exponent by one and uses the old exponent as a multiplier, and a sum of terms differentiates term by term.",
+      "formula": "slope = 3 * sq + 6 * a",
+      "key_idea": "x^n turns into n x^(n-1); constants die and lines keep their slope.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.9 rules table, derivative of x^3 + 3x^2 + 1 is 3x^2 + 6x",
+      "question_patterns": [
+        "find the derivative of f(x) = x^3 + 3x^2 + 1",
+        "evaluate the slope of f(x) = x^3 + 3x^2 + 1 at x = -3",
+        "differentiate y = 2x^2 + 3x using first principles",
+        "find the derivative of a constant function and of a line ax",
+        "use the power rule on x^4",
+        "show that the derivative of x^2 is 2x"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "square the evaluation point", "explain": "the quadratic term of the derivative needs a squared input", "compute": "sq = a * a"},
+        {"step": 2, "action": "combine the scaled terms", "explain": "3 from the cube term and 6 from the square term", "compute": "slope = 3 * sq + 6 * a"}
+      ]
+    },
+    {
+      "id": "am11_008.8",
+      "title": "Chain Rule for Composite Functions",
+      "section": "8.9",
+      "definition": "A composite function wraps one rule inside another; its derivative multiplies the outer derivative, taken at the inner value, by the inner derivative, so a shifted cube like a linear term cubed differentiates to fifteen times the square of the inner expression.",
+      "formula": "slope = 15 * inner * inner",
+      "key_idea": "Differentiate outside, keep inside untouched, then multiply by the inside derivative.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.9 chain rule, derivative of (5x - 2)^3 = 15 (5x - 2)^2",
+      "question_patterns": [
+        "differentiate (5x - 2)^3 using the chain rule",
+        "find the slope of (5x - 2)^3 at x = 1",
+        "state the chain rule for f(g(x))",
+        "identify the inner and outer functions in (5x - 2)^3",
+        "use the chain rule to differentiate (3x + 1)^2 and evaluate it at x = 2"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "evaluate the inner expression", "explain": "the linear rule inside the power", "compute": "inner = m * a - c"},
+        {"step": 2, "action": "multiply the assembled constants and the square of the inner value", "explain": "outer factor fifteen times inner squared", "compute": "slope = 15 * inner * inner"}
+      ]
+    },
+    {
+      "id": "am11_008.9",
+      "title": "Tangent Line to a Curve",
+      "section": "8.10",
+      "definition": "The tangent at a point of a curve touches it there with slope equal to the derivative; evaluating the rule at the contact point gives the height, and the point-slope form assembles the tangent equation.",
+      "formula": "y_at = m * (x0 - a) + b",
+      "key_idea": "Slope from the derivative, height from the rule, then point-slope does the rest.",
+      "textbook_ref": "am11_008_calculus.txt, section 8.10, tangent to x^3 + 3x^2 + 1 at x = -3 gives y = 9(x + 3) + 1",
+      "question_patterns": [
+        "find the equation of the tangent to f(x) = x^3 + 3x^2 + 1 at x = -3",
+        "find the tangent line to y = x^3 - 2x^2 + x - 3 at the point x = 1",
+        "state the steps for finding the tangent line to a curve at x = a",
+        "what is the slope of the tangent to a curve at a point in terms of the derivative",
+        "find the y coordinate of the contact point of the tangent to x^3 + 3x^2 + 1 at x = -3"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "evaluate the curve at the contact point", "explain": "cube, square and constant contributions", "compute": "b = a * a * a + 3 * a * a + 1"},
+        {"step": 2, "action": "scale the slope by the horizontal offset", "explain": "point-slope contribution", "compute": "rise = m * (x0 - a)"},
+        {"step": 3, "action": "add the contact height", "explain": "the tangent line value at x0", "compute": "y_at = rise + b"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_008.we1",
+      "source_ref": "am11_008 section 8.6 check your progress 5a",
+      "concept": "am11_008.4",
+      "question_type": "compute",
+      "question_pattern": "evaluate lim (8 - 3x + 12x^2) as x approaches 2",
+      "extracted_variables": {"x": 2, "a": 12, "b": -3, "c": 8},
+      "solution_template": [
+        {"step": 1, "action": "square the input", "compute": "sq = x * x"},
+        {"step": 2, "action": "substitute into the polynomial", "compute": "poly = c + b * x + a * sq"}
+      ]
+    },
+    {
+      "id": "am11_008.we2",
+      "source_ref": "am11_008 section 8.10 case 1",
+      "concept": "am11_008.9",
+      "question_type": "compute",
+      "question_pattern": "find the tangent line to f(x) = x^3 + 3x^2 + 1 at x = -3",
+      "extracted_variables": {"a": -3, "m": 9, "x0": -2},
+      "solution_template": [
+        {"step": 1, "action": "evaluate the curve at the contact point", "compute": "b = a * a * a + 3 * a * a + 1"},
+        {"step": 2, "action": "scale the slope by the offset to any x0", "compute": "rise = m * (x0 - a)"},
+        {"step": 3, "action": "add the contact height", "compute": "y_at = rise + b"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_008.ex1",
+      "source_ref": "am11_008 check your progress 5, 7 and 9",
+      "questions": [
+        "Evaluate lim (2z^2 + 17z - 8)/(z - 8) as z approaches 8 after cancelling the common factor.",
+        "Find the derivative of a constant and show that the derivative of ax is a.",
+        "Find the rate of change of the area of a circle with respect to its radius when r = 5.",
+        "Find the equation of the tangent to y = x^3 - 2x^2 + x - 3 at x = 1.",
+        "Draw the tangent to f(x) = x^3 + 3x^2 + 1 at x = -2 and x = 1 and compare slopes.",
+        "State whether y is a function of x when one input maps to two different outputs."
+      ]
+    },
+    {
+      "id": "am11_008.ex2",
+      "source_ref": "am11_008 sections 8.2 to 8.5",
+      "questions": [
+        "For f(x) = x + 1 and g(x) = x^2 - 2x + 5, find (f + g)(x) and evaluate it at x = 3.",
+        "State the domain and range of f(x) = sqrt(x + 4).",
+        "Classify the functions x^(3/2) + 2x + 1, 7x^0, (2x^3 + x + 5)/(x^2 - 3x).",
+        "Give the value of the greatest integer function at 2.7 and at -2.7.",
+        "Check the continuity of a function whose left limit is 2, right limit is 1 at x = 2.",
+        "A tank fills with V(t) = 0.2 t^2; find the filling rate at t = 5 seconds."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_003",
+   "title": "c11_bs_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the four major arguments against social responsibility as listed in the NCERT textbook for Class 11 Business Studies Chapter 6.",
+     "a": "The four arguments are: (1) Violation of profit maximisation objective, (2) Burden on consumers, (3) Lack of social skills, (4) Lack of broad public support. A wrong answer that lists arguments *for* social responsibility (e.g., 'long-term interest of the firm') reveals confusion between the two opposing sets of arguments. A wrong answer that invents new arguments (e.g., 'reduces competition') reveals lack of textbook fidelity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the 'burden on consumers' argument claims that social responsibility is unfair to the general public.",
+     "a": "The argument states that pollution control and other social responsibilities require huge financial investment; businesses will pass these costs to consumers through higher prices, effectively making consumers pay for social goals they did not choose. A wrong answer that says 'businesses absorb the cost' misses the central claim of cost-shifting. A wrong answer that focuses on 'business profits falling' misses the consumer-centric unfairness claim.",
+     "self_check": true
+    },
+    {
+     "q": "A chemical company installs expensive effluent treatment plants to reduce river pollution. It then increases product prices by 12% to recover the cost. Which argument against social responsibility does this scenario illustrate? Justify your choice in two sentences.",
+     "a": "This illustrates the 'Burden on consumers' argument. The company undertook a social responsibility (pollution control) but shifted the financial burden to consumers via higher prices, which the argument claims is unfair because consumers are taxed for social goals without democratic consent. A wrong answer choosing 'Violation of profit maximisation' ignores that the company *did* act responsibly; the objection is about *who pays*, not whether profit fell.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'Lack of social skills' argument with the 'Availability of resources with business' argument (from Arguments For). Identify the fundamental disagreement about business capability.",
+     "a": "The 'Lack of social skills' argument claims businessmen lack the understanding and training to solve social problems, which require specialised agencies. The opposing 'Availability of resources' argument claims business has managerial talent, capital, and organising experience to tackle social problems effectively. The fundamental disagreement is whether business expertise is transferable to social domains. A wrong answer that only describes one side fails to compare. A wrong answer that says 'both agree business has money' misses the competence vs. resource distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the 'Violation of profit maximisation' argument using the concept of 'long-term interest of the firm' (from Arguments For). Which view better explains why Tata Group companies actively pursue social projects while remaining profitable? Justify.",
+     "a": "The 'Violation of profit maximisation' argument assumes a zero-sum trade-off: every rupee spent on society reduces owner wealth. The 'Long-term interest' argument posits that social responsibility builds reputation, worker loyalty, and consumer trust, which *enhance* long-term profits. Tata Group's sustained profitability alongside deep social investment supports the latter view: social spending functions as strategic investment, not charity. A wrong answer that simply says 'Tata is ethical' without linking to the theoretical mechanism (reputation → long-term profit) fails to critique the argument analytically.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 100-word position statement for a debate: \"Business should not assume social responsibilities because it lacks broad public support.\" Your statement must incorporate the counter-argument that consumer consciousness has *increased* public demand for responsible business.",
+     "a": "A strong answer acknowledges the argument's historical basis (public suspicion of business motives) but refutes its current validity: modern consumers actively reward responsible brands (e.g., preferring eco-friendly products), investors demand ESG compliance, and social media amplifies accountability. The 'lack of public support' argument describes a past reality; today, public pressure *compels* social responsibility. A poor answer merely repeats the argument without engaging the counter-evidence or fails to mention the shift in consumer consciousness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

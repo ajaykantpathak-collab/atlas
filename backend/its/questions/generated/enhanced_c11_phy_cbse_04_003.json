@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_003",
+   "title": "c11_phy_cbse_04_003",
+   "questions": [
+    {
+     "q": "State Newton's Second Law in its original momentum form and give the SI unit of force. Why is the constant of proportionality chosen as 1 in SI?",
+     "a": "**Answer:** Newton's Second Law: The rate of change of momentum of a body is directly proportional to the applied net force and takes place in the direction of the force. Mathematically, F = k(dp/dt). In SI, k = 1 by definition, so F = dp/dt. Unit of force: newton (N) = kg·m·s⁻². The constant k = 1 is a *choice* that defines the unit of force — one newton is the force that gives 1 kg an acceleration of 1 m·s⁻².  \n**Wrong answer reveals:** If student writes only \"F = ma\" without mentioning momentum or the proportionality constant, they have memorized the simplified form without understanding the fundamental definition. If they cannot explain why k = 1, they don't grasp how SI units are defined.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg block rests on a smooth horizontal table. A horizontal force of 10 N acts on it for 3 seconds. The force is then removed. Describe the motion of the block *during* the 3 seconds and *after* the force is removed. Use F = ma and F = dp/dt in your explanation.",
+     "a": "**Answer:** During 0–3 s: F = 10 N, m = 2 kg → a = F/m = 5 m·s⁻² (constant). Velocity increases linearly: v = 5t. Momentum p = mv = 10t kg·m·s⁻¹. dp/dt = 10 N = F. At t = 3 s, v = 15 m·s⁻¹, p = 30 kg·m·s⁻¹. After 3 s: F = 0 → a = 0 (First Law). Velocity remains constant at 15 m·s⁻¹. Momentum remains constant at 30 kg·m·s⁻¹. dp/dt = 0 = F.  \n**Wrong answer reveals:** If student says \"the block stops after the force is removed,\" they hold the Aristotelian misconception (force needed to maintain motion). If they cannot connect F = ma and F = dp/dt, they don't see the equivalence for constant mass.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.05 kg ball moving at 20 m·s⁻¹ strikes a wall and rebounds at 15 m·s⁻¹. The contact time is 0.01 s. Calculate the average force exerted by the wall on the ball. Take the initial direction as positive.",
+     "a": "**Answer:**  \nStep 1: Given: m = 0.05 kg, u = +20 m·s⁻¹, v = -15 m·s⁻¹ (rebound reverses direction), Δt = 0.01 s.  \nStep 2: Use impulse-momentum theorem: F_avg Δt = Δp = m(v - u).  \nStep 3: Δp = 0.05 × (-15 - 20) = 0.05 × (-35) = -1.75 kg·m·s⁻¹.  \nStep 4: F_avg = Δp / Δt = -1.75 / 0.01 = -175 N.  \nStep 5: Magnitude = 175 N. Direction = opposite to initial motion (negative sign).  \n**Wrong answer reveals:** If student uses v = 15 (positive), they ignore vector nature of momentum. If they forget to convert mass to kg or time to seconds, they have unit errors. If they calculate acceleration first (a = Δv/Δt) then F = ma, that's valid but must use vector Δv.",
+     "self_check": true
+    },
+    {
+     "q": "Two blocks of masses 3 kg and 5 kg are connected by a light inextensible string passing over a smooth pulley. The system is released from rest. Find the acceleration of the system and the tension in the string. (g = 10 m·s⁻²)",
+     "a": "**Answer:**  \nStep 1: System: 3 kg and 5 kg blocks + string. External forces: weights (3g, 5g) and pulley reaction. Internal: tension T.  \nStep 2: For 5 kg (descending): 5g - T = 5a. For 3 kg (ascending): T - 3g = 3a.  \nStep 3: Add equations: 5g - 3g = 8a → 2g = 8a → a = g/4 = 2.5 m·s⁻².  \nStep 4: Substitute: T = 3g + 3a = 30 + 7.5 = 37.5 N. (Check: 5g - T = 50 - 37.5 = 12.5 = 5×2.5 ✓)  \nStep 5: Acceleration = 2.5 m·s⁻² (5 kg down, 3 kg up). Tension = 37.5 N.  \n**Wrong answer reveals:** If student writes T = 3g or T = 5g, they treat tension as weight. If they get a = g = 10 m·s⁻², they forgot the 3 kg mass resists. If they don't draw separate free-body diagrams, they miss that tension is internal to the system but external to each block.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 10 kg box on a rough horizontal floor (μ = 0.2) is pushed with a force of 30 N at 30° above horizontal. Find acceleration.\" Their working: F_x = 30 cos30° = 26 N. F_y = 30 sin30° = 15 N. N = mg = 100 N. f = μN = 20 N. a = (26 - 20)/10 = 0.6 m·s⁻². Identify the error and give the correct answer.",
+     "a": "**Answer:** Error: Normal force N ≠ mg because the applied force has an upward component. Vertical equilibrium: N + F sin30° = mg → N = mg - F sin30° = 100 - 15 = 85 N. Then f = μN = 0.2 × 85 = 17 N. Net horizontal force = F cos30° - f = 26 - 17 = 9 N. Correct a = 9/10 = 0.9 m·s⁻².  \n**Wrong answer reveals:** The student assumes N = mg always, ignoring vertical components of applied forces. This is a very common error — they don't realize normal force is a *self-adjusting* contact force that balances *net* vertical force, not just weight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone, a small toy car, and a rubber band to verify F = ma. Explain how you would measure force, mass, and acceleration, and how you would handle friction.",
+     "a": "**Answer:**  \n**Setup:** Toy car on smooth track. Rubber band stretched to fixed extension provides repeatable force F (calibrate using known masses hanging vertically: F = mg). Smartphone on car records acceleration via accelerometer app (or video analysis of position vs time). Vary mass by adding known weights to car.  \n**Procedure:** (1) Calibrate rubber band force: hang masses, measure extension. (2) For each mass m, stretch band to calibrated extension, release car, record a. (3) Plot F vs a — slope should be m. (4) Repeat for different m — slope changes. (5) To handle friction: measure deceleration when car coasts freely (a_fric = -μg). Add this to measured a_net to get a_applied.  \n**Good answer criteria:** Mentions calibration, repeated trials, friction correction, graphical verification (F ∝ a).  \n**Poor answer reveals:** If they ignore friction or calibration, or think \"push harder = more acceleration\" without quantification, they lack experimental rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

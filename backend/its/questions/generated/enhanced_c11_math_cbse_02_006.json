@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_006",
+   "title": "c11_math_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the domain and range of the identity function f: ℝ → ℝ defined by f(x) = x and the constant function g: ℝ → ℝ defined by g(x) = 7. Write your answer in set notation.",
+     "a": "Domain of f = ℝ, Range of f = ℝ; Domain of g = ℝ, Range of g = {7}. A wrong answer like Range of f = {x} or Range of g = ℝ reveals the student confuses the variable x with the set of all outputs, or thinks a constant function can take multiple values. This confusion stems from not internalising that range is the set of all actual outputs, not the rule itself.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the graph of the identity function f(x) = x passes through the origin and has slope 1, while the graph of the constant function g(x) = c (c ≠ 0) is a horizontal line that does not pass through the origin. Use the definition of slope and intercepts in your reasoning.",
+     "a": "For f(x)=x: when x=0, f(0)=0 so (0,0) lies on the graph → passes through origin. Slope = (change in y)/(change in x) = (x₂−x₁)/(x₂−x₁)=1. For g(x)=c: when x=0, g(0)=c so (0,c) is the y-intercept; since c≠0, it does not pass through origin. Slope = (c−c)/(x₂−x₁)=0 → horizontal line. A wrong answer claiming both pass through origin or both have slope 1 shows the student is memorising graph shapes without connecting to the algebraic rule f(x)=x vs f(x)=c.",
+     "self_check": true
+    },
+    {
+     "q": "Let f(x) = x (identity) and g(x) = 3 (constant). Compute (f+g)(x), (f−g)(x), (f·g)(x), and (f/g)(x). State the domain of each resulting function.",
+     "a": "(f+g)(x) = x+3, domain ℝ; (f−g)(x) = x−3, domain ℝ; (f·g)(x) = 3x, domain ℝ; (f/g)(x) = x/3, domain ℝ (since g(x)=3≠0 ∀x). A wrong answer giving domain of (f/g) as ℝ\\{0} or omitting domain entirely reveals the student applies the quotient domain rule \"denominator ≠ 0\" mechanically without checking that the constant function 3 is never zero. This is a senior-secondary error: confusing the variable x with the constant function value.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function h: ℝ → ℝ defined by h(x) = f(x) + g(x) where f is the identity function and g is the constant function 5. Is h one-one? Is h onto? Justify your answers using the definitions of one-one and onto functions.",
+     "a": "h(x) = x+5. One-one: if h(x₁)=h(x₂) ⇒ x₁+5=x₂+5 ⇒ x₁=x₂, so h is one-one. Onto: for any y∈ℝ, choose x=y−5 ∈ ℝ; then h(x)=(y−5)+5=y, so h is onto. A wrong answer claiming h is not onto because \"it's shifted up\" or not one-one because \"it's not the identity\" reveals the student doesn't apply the formal definitions but relies on visual intuition about the graph y=x+5. At Class 11, algebraic justification using definitions is required.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The function f(x) = x² is an identity function because when x=1, f(1)=1, and when x=0, f(0)=0, so it returns the same value.\" Evaluate this statement. Is the student correct? Explain why or why not, and provide a counterexample.",
+     "a": "The student is incorrect. The identity function requires f(x)=x for ALL x∈ℝ, not just for some values. Counterexample: for x=2, f(2)=4 ≠ 2. The student's error is generalising from a few coincident points (fixed points of f(x)=x²) to the entire domain. This is a classic senior-secondary misconception: confusing \"f(x)=x for some x\" (fixed points) with \"f(x)=x for all x\" (identity function). The definition demands universal quantification over the domain.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-valued function h: ℝ → ℝ that is neither the identity nor a constant function, but satisfies h(0)=0 and h(1)=1. Write its rule, sketch its graph roughly, and explain why it is not the identity function.",
+     "a": "Example: h(x)=x². Rule: h(x)=x² for all x∈ℝ. Graph: parabola opening upward, vertex at (0,0), passing through (1,1) and (−1,1). Not identity because h(2)=4 ≠ 2, so h(x)≠x for all x. Another valid example: h(x)=x³ or h(x)=|x|. A poor answer giving h(x)=x (identity) or h(x)=0 (constant) shows the student cannot construct a counterexample meeting the constraints, indicating they don't grasp the \"for all x\" quantifier in the definition of identity function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

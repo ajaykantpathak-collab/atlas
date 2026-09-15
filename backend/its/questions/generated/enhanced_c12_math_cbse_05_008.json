@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_008",
+   "title": "c12_math_cbse_05_008",
+   "questions": [
+    {
+     "q": "Write the derivative of \\( \\cos^{-1}x \\) with respect to \\( x \\) and state its domain.",
+     "a": "The derivative is \\( \\frac{d}{dx}(\\cos^{-1}x) = -\\frac{1}{\\sqrt{1-x^2}} \\) for \\( x \\in (-1, 1) \\). A wrong answer \\( +\\frac{1}{\\sqrt{1-x^2}} \\) reveals the student forgot the negative sign from \\( \\frac{d}{dx}(\\cos y) = -\\sin y \\) and/or confused it with \\( \\sin^{-1}x \\). Writing domain as \\( [-1, 1] \\) instead of \\( (-1, 1) \\) shows they don't realize the derivative is undefined at endpoints where \\( \\sqrt{1-x^2} = 0 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( \\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}} \\) uses the positive square root, not \\( \\pm \\frac{1}{\\sqrt{1-x^2}} \\).",
+     "a": "Because \\( y = \\sin^{-1}x \\) has range \\( [-\\pi/2, \\pi/2] \\) (principal value branch), \\( \\cos y \\ge 0 \\) in this interval, so \\( \\cos y = +\\sqrt{1-\\sin^2 y} = +\\sqrt{1-x^2} \\). A student who writes \\( \\pm \\) doesn't understand that the derivative must be a single-valued function, and the principal branch fixes the sign of \\( \\cos y \\).",
+     "self_check": true
+    },
+    {
+     "q": "Find \\( \\frac{dy}{dx} \\) if \\( y = \\sin^{-1}(2x\\sqrt{1-x^2}) \\) for \\( x \\in [-1/\\sqrt{2}, 1/\\sqrt{2}] \\).",
+     "a": "Let \\( x = \\sin \\theta \\), then \\( y = \\sin^{-1}(2\\sin\\theta\\cos\\theta) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\sin^{-1}x \\). So \\( dy/dx = 2/\\sqrt{1-x^2} \\). A student who directly applies chain rule without substitution gets \\( \\frac{2\\sqrt{1-x^2} - 2x^2/\\sqrt{1-x^2}}{\\sqrt{1-4x^2(1-x^2)}} \\) and fails to simplify the denominator to \\( |1-2x^2| \\), missing the domain restriction that makes it \\( 1-2x^2 \\) (positive in given domain).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivatives of \\( \\tan^{-1}x \\) and \\( \\cot^{-1}x \\). What is their sum? What does this imply about the relationship between the functions?",
+     "a": "\\( \\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2} \\), \\( \\frac{d}{dx}(\\cot^{-1}x) = -\\frac{1}{1+x^2} \\). Their sum is 0, so \\( \\tan^{-1}x + \\cot^{-1}x = \\text{constant} = \\pi/2 \\) (for \\( x > 0 \\)). A student who says the sum is \\( \\pi/2 \\) for all \\( x \\) misses that for \\( x < 0 \\), the principal values give \\( \\tan^{-1}x + \\cot^{-1}x = -\\pi/2 \\), revealing ignorance of principal value branches of \\( \\cot^{-1}x \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \\( \\frac{d}{dx}(\\sec^{-1}x) = \\frac{1}{x\\sqrt{x^2-1}} \\) for \\( |x| > 1 \\). Is this correct? If not, correct it.",
+     "a": "Incorrect. The correct formula is \\( \\frac{d}{dx}(\\sec^{-1}x) = \\frac{1}{|x|\\sqrt{x^2-1}} \\) for \\( |x| > 1 \\). The student missed the absolute value on \\( x \\). This matters because for \\( x < -1 \\), the principal value branch of \\( \\sec^{-1}x \\) is in \\( (\\pi/2, \\pi] \\) where \\( \\tan y < 0 \\), but \\( \\sqrt{x^2-1} > 0 \\), so the derivative must be negative. Without \\( |x| \\), the formula gives positive derivative for negative \\( x \\), contradicting the decreasing nature of \\( \\sec^{-1}x \\) on \\( (-\\infty, -1] \\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f(x) \\) involving an inverse trigonometric function such that \\( f'(x) = \\frac{1}{\\sqrt{1-x^2}} + \\frac{2x}{1+x^2} \\). Justify your answer.",
+     "a": "\\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) + C \\) works because \\( \\frac{d}{dx}\\sin^{-1}x = \\frac{1}{\\sqrt{1-x^2}} \\) and \\( \\frac{d}{dx}\\tan^{-1}(x^2) = \\frac{2x}{1+x^4} \\) — wait, that gives \\( x^4 \\). Correct construction: \\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) \\) is wrong. The correct one is \\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) \\) doesn't match. Actually \\( \\frac{d}{dx}\\tan^{-1}(x^2) = \\frac{2x}{1+x^4} \\). To get \\( \\frac{2x}{1+x^2} \\), use \\( \\tan^{-1}(x^2) \\) no. Use \\( \\log(1+x^2) \\) derivative is \\( \\frac{2x}{1+x^2} \\). So \\( f(x) = \\sin^{-1}x + \\log(1+x^2) \\). But the question asks for inverse trig only. Then it's impossible with only inverse trig functions because \\( \\frac{2x}{1+x^2} \\) is not the derivative of any single inverse trig function. A good answer recognises this impossibility and explains why.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

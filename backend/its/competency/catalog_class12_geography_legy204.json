@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Water Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.204.1",
+   "title": "India's Water Endowment",
+   "section": "Water Resources of India",
+   "definition": "India accounts for about 2.45 per cent of the world's surface area, 4 per cent of its water resources and about 17 per cent of its population, so the per capita water availability is far below the world average and declining with population growth.",
+   "formula": "pressure_index = population_share / water_share",
+   "key_idea": "Dividing India's population share by its water share shows how many times harder the population presses on each unit of water than the world average.",
+   "textbook_ref": "legy204.txt India water endowment passage (2.45 per cent area, 4 per cent water, 17 per cent population)",
+   "question_patterns": [
+    "state India's shares of world area, water and population",
+    "compute the pressure index of population on water",
+    "why is per capita water availability falling",
+    "which are the major river basins with surplus water",
+    "define water scarcity: physical and economic",
+    "how does rainfall variability affect water stress"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the shares",
+     "explain": "population share 17, water share 4",
+     "compute": "population_share = 17"
+    },
+    {
+     "step": 2,
+     "action": "divide population share by water share",
+     "explain": "the quotient measures relative pressure",
+     "compute": "pressure_index = population_share / water_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.204.2",
+   "title": "Water Demand and Conflicts",
+   "section": "The Water Demand and Conflicts",
+   "definition": "Water demand divides among agriculture, domestic use, industries and power; rising demand creates inter-state river disputes and sectoral conflicts, making allocation, pricing and conservation politically charged issues.",
+   "formula": "",
+   "key_idea": "Irrigation takes the largest share, so farm efficiency measures free water for cities and industry.",
+   "textbook_ref": "legy204.txt water demand sections and inter-state conflicts",
+   "question_patterns": [
+    "name the sectors competing for water in India",
+    "why does irrigation dominate water demand",
+    "give examples of inter-state water disputes",
+    "how can demand management ease conflicts",
+    "relate groundwater overuse to falling water tables",
+    "explain the conflict between domestic and industrial users"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rank the users",
+     "explain": "irrigation leads, then domestic, industrial and power uses"
+    },
+    {
+     "step": 2,
+     "action": "cite the conflicts",
+     "explain": "inter-state river disputes illustrate political scarcity"
+    },
+    {
+     "step": 3,
+     "action": "close with efficiency",
+     "explain": "drip and sprinkler systems cut farm demand sharply"
+    }
+   ]
+  },
+  {
+   "id": "legy.204.3",
+   "title": "Watershed Management and Rainwater Harvesting",
+   "section": "Watershed Management and Rainwater Harvesting",
+   "definition": "Watershed management treats a drainage basin as a unit for soil and water conservation through check dams, contour bunds and vegetation, while rainwater harvesting captures rooftop and surface runoff; both revive local water security as shown by community efforts like Tarun Bharat Sangh's work and Tamil Nadu's rooftop laws.",
+   "formula": "",
+   "key_idea": "Local capture of rain recharges wells and revives streams, reducing dependence on distant reservoirs.",
+   "textbook_ref": "legy204.txt watershed management and rainwater harvesting cases",
+   "question_patterns": [
+    "define watershed management and its techniques",
+    "what does rainwater harvesting include",
+    "how did community efforts revive rivers in Alwar district",
+    "explain rooftop harvesting with a city example",
+    "relate check dams to groundwater recharge",
+    "evaluate watershed programmes against large dams"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the unit",
+     "explain": "the watershed organises conservation around natural drainage"
+    },
+    {
+     "step": 2,
+     "action": "list the structures",
+     "explain": "check dams, contour bunds and vegetation slow and store runoff"
+    },
+    {
+     "step": 3,
+     "action": "close with cases",
+     "explain": "Alwar's johads and rooftop laws show state and society acting together"
+    }
+   ]
+  },
+  {
+   "id": "legy.204.4",
+   "title": "Recycling and Conservation of Water",
+   "section": "Recycling and Conservation of Water",
+   "definition": "Water conservation extends to recycling industrial effluents, treating sewage for reuse, pricing water to curb waste and reviving traditional structures; every saved unit of demand is cheaper than a new supply project.",
+   "formula": "",
+   "key_idea": "Demand-side conservation - meters, tariffs, recycling - is the cheapest new source of water.",
+   "textbook_ref": "legy204.txt recycling and conservation measures sections",
+   "question_patterns": [
+    "list conservation measures for industries and homes",
+    "how does pricing affect water use",
+    "explain sewage treatment as a water source",
+    "relate crop choice to water conservation",
+    "what are the gains of recycling effluents",
+    "compare supply-side and demand-side strategies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the measures",
+     "explain": "recycling, pricing, metering and crop choice all cut demand"
+    },
+    {
+     "step": 2,
+     "action": "weigh the costs",
+     "explain": "treating and reusing water costs less than damming new rivers"
+    },
+    {
+     "step": 3,
+     "action": "close with practice",
+     "explain": "conservation turns scarcity into management"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy204_1",
+   "source_ref": "legy204.txt water endowment passage",
+   "concept": "legy.204.1",
+   "question_type": "compute",
+   "question_pattern": "India has about 17 per cent of world population and 4 per cent of world water resources. Compute the population pressure index on water.",
+   "extracted_variables": {
+    "population_share": 17,
+    "water_share": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the shares",
+     "explain": "population 17 per cent, water 4 per cent",
+     "compute": "population_share = 17"
+    },
+    {
+     "step": 2,
+     "action": "divide",
+     "explain": "17 divided by 4 gives about 4.25 times world-average pressure",
+     "compute": "pressure_index = population_share / water_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy204_2",
+   "source_ref": "legy204.txt watershed case",
+   "concept": "legy.204.3",
+   "question_type": "short_answer",
+   "question_pattern": "How did johads change the water scenario of Alwar district villages?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the structure",
+     "explain": "villagers revived small earthen check dams called johads"
+    },
+    {
+     "step": 2,
+     "action": "recharge follows",
+     "explain": "monsoon runoff slowed and seeped, raising groundwater"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "dried rivers began flowing again, showing community power over scarcity"
+    }
+   ]
+  },
+  {
+   "id": "we_legy204_3",
+   "source_ref": "legy204.txt conflicts section",
+   "concept": "legy.204.2",
+   "question_type": "short_answer",
+   "question_pattern": "Suggest two measures to reduce inter-state river water disputes.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "share data",
+     "explain": "joint gauging and transparent flow data reduce suspicion"
+    },
+    {
+     "step": 2,
+     "action": "cap demand",
+     "explain": "efficient irrigation lowers each state's claimed share"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "tribunals plus efficiency make settlements durable"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy204_1",
+   "source_ref": "legy204.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "state India's shares of world area, water and population",
+    "compute the population pressure index on water resources",
+    "describe watershed management techniques",
+    "explain rainwater harvesting with examples",
+    "discuss inter-state water conflicts and remedies"
+   ]
+  },
+  {
+   "id": "ex_legy204_2",
+   "source_ref": "legy204.txt applied questions, reworded",
+   "questions": [
+    "argue for demand-side water management",
+    "evaluate rooftop harvesting laws of Tamil Nadu",
+    "relate irrigation efficiency to water availability",
+    "plan a village water budget for a dry district",
+    "compare large dams with local harvesting"
+   ]
+  }
+ ]
+}

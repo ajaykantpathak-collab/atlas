@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc108.json",
+ "concepts": [
+  {
+   "id": "jesc.108.8.1",
+   "title": "Mendel's Experiments and the Rules of Inheritance",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Describe Mendel's monohybrid cross result.",
+     "a": "Crossing tall and dwarf pea plants: F1 all tall, F2 shows 3 tall : 1 dwarf, proving traits are carried by discrete factors.",
+     "self_check": true
+    },
+    {
+     "q": "What did Mendel conclude from F2 ratios?",
+     "a": "Traits exist as pairs of factors; a recessive factor can be masked in F1 but reappear in F2.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mendel choose pea plants?",
+     "a": "Clear contrasting traits, self and cross-pollination are easy, and short life cycle with many offspring.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.108.8.2",
+   "title": "How Traits Are Expressed - Genes and DNA",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Where are genes located?",
+     "a": "On chromosomes inside the nucleus of every cell.",
+     "self_check": true
+    },
+    {
+     "q": "How does a gene express itself as a trait?",
+     "a": "It directs production of a protein or enzyme, which then brings about the visible trait.",
+     "self_check": true
+    },
+    {
+     "q": "Why are fathers not responsible for the sex of a child?",
+     "a": "Fathers contribute either X or Y chromosome; the mother always contributes X, so the father's gamete decides the sex.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.108.8.3",
+   "title": "Sex Determination in Humans",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What chromosomes do human males and females carry?",
+     "a": "Males XY, females XX.",
+     "self_check": true
+    },
+    {
+     "q": "How is the sex of a baby determined?",
+     "a": "If the father's sperm carries X, the child is a girl (XX); if Y, a boy (XY).",
+     "self_check": true
+    },
+    {
+     "q": "In some animals like turtles, what decides sex?",
+     "a": "Incubation temperature of the eggs, not chromosomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

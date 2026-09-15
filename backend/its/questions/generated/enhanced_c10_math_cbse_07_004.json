@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_004",
+   "title": "c10_math_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the section formula for internal division of a line segment joining A(x₁, y₁) and B(x₂, y₂) in the ratio m:n.",
+     "a": "The coordinates of the point P dividing AB internally in ratio m:n are P( (mx₂ + nx₁)/(m+n) , (my₂ + ny₁)/(m+n) ). A wrong answer like swapping m and n (i.e., x = (mx₁ + nx₂)/(m+n)) reveals the student does not understand that the weight for x₂ is m (the part opposite to A) and for x₁ is n (the part opposite to B). This confusion leads to incorrect coordinates in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A point P divides the segment joining A(4, 6) and B(10, 12) internally in the ratio 1:2. Without calculating, explain whether P is closer to A or to B, and how the formula reflects this.",
+     "a": "Since the ratio is 1:2 (m=1, n=2), AP:PB = 1:2, so P is closer to A. In the formula x = (1·x₂ + 2·x₁)/3, the weight of x₁ (from A) is 2 and weight of x₂ (from B) is 1, so the x-coordinate is pulled more toward A's x-coordinate. A student who says P is closer to B because m=1 is smaller shows they incorrectly associate the first ratio number with the first point without understanding the weighted average concept.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point which divides the line segment joining A(−3, 5) and B(9, −1) internally in the ratio 2:3.",
+     "a": "Given A(−3,5), B(9,−1), m=2, n=3.\nStep 1: x = (2·9 + 3·(−3))/(2+3) = (18 − 9)/5 = 9/5 = 1.8\nStep 2: y = (2·(−1) + 3·5)/(2+3) = (−2 + 15)/5 = 13/5 = 2.6\nAnswer: P(1.8, 2.6) or P(9/5, 13/5).\nA wrong answer like (3, 3) comes from using m=3, n=2 (swapping ratio order). Another common error: forgetting negative signs in substitution, e.g., x = (2·9 + 3·3)/5 = 27/5.",
+     "self_check": true
+    },
+    {
+     "q": "The point P(4, 7) divides the segment joining A(1, 3) and B(x, y) internally in the ratio 3:2. Find the coordinates of B.",
+     "a": "We have P(4,7), A(1,3), m=3, n=2. Using formula:\n4 = (3x + 2·1)/5 → 20 = 3x + 2 → 3x = 18 → x = 6\n7 = (3y + 2·3)/5 → 35 = 3y + 6 → 3y = 29 → y = 29/3\nSo B(6, 29/3).\nA wrong answer like B(6, 9) comes from incorrectly setting up the equation as 7 = (3y + 3·2)/5 (swapping m and n weights) or from solving 7 = (3y+6)/5 as 35=3y+6 → 3y=29 → y=9.66 but writing 9. This tests ability to reverse the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the point dividing A(2, 4) and B(8, 10) in ratio 1:3\" and writes:\nx = (1·2 + 3·8)/4 = (2+24)/4 = 26/4 = 6.5\ny = (1·4 + 3·10)/4 = (4+30)/4 = 34/4 = 8.5\nIs this correct? If not, identify the error and give the correct answer.",
+     "a": "The student's answer is incorrect. The error is swapping the weights: for internal division in ratio m:n = 1:3, the formula is x = (mx₂ + nx₁)/(m+n). Here m=1 (for B), n=3 (for A). The student used m=1 for A and n=3 for B. Correct calculation:\nx = (1·8 + 3·2)/4 = (8+6)/4 = 14/4 = 3.5\ny = (1·10 + 3·4)/4 = (10+12)/4 = 22/4 = 5.5\nCorrect point is (3.5, 5.5). A student who misses this error does not understand that the weight for the second point is the first ratio number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires the internal section formula to solve. The problem must involve finding either the dividing point or the ratio.",
+     "a": "Example problem: \"Two water tanks A and B are located at coordinates (100 m, 200 m) and (400 m, 500 m) on a farm map. A pipe junction P is to be placed on the straight line connecting them such that the distance from A to P is 1/4 of the total distance from A to B. Find the coordinates of P.\" \nSolution: AP:PB = 1:3, so m=1, n=3. P = ((1·400+3·100)/4, (1·500+3·200)/4) = (700/4, 1100/4) = (175 m, 275 m). \nA poor answer would be a problem that doesn't specify internal division clearly, or uses external division, or doesn't require the formula (e.g., just midpoint). This tests if the student can distinguish internal division scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

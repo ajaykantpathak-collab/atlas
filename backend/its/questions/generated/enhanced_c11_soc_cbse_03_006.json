@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_006",
+   "title": "c11_soc_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define \"universalistic values\" in the context of modern education as described by Durkheim and the NCERT textbook. How do they differ from \"particularistic values\"?",
+     "a": "Universalistic values are abstract, impersonal standards (e.g., punctuality, merit, rule-following) applied equally to all students regardless of background; particularistic values are based on ascribed status like caste, kinship, or family connections. A wrong answer that equates universalistic values with \"secular values\" or \"modern values\" reveals confusion between value content and value application — the distinction is about *how* standards are applied (uniformly vs. differentially), not *what* the standards are.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the functionalist perspective sees education as \"an important mechanism for the selection and allocation of individuals in their future roles in society.\" What assumption about society does this rest on?",
+     "a": "Functionalists argue education objectively assesses talent and effort through examinations and credentials, placing the most capable in the most important roles (e.g., doctors, engineers), which benefits society by ensuring competence. This rests on the assumption that society is a meritocracy where structural barriers (caste, class, gender) do not systematically distort access or outcomes. A wrong answer that says \"functionalists think education helps everyone get good jobs\" misses the structural allocation logic — functionalists focus on *system needs*, not individual benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the conflict perspective to this scenario: A prestigious Delhi university announces 50% weightage for Class 12 board marks and 50% for an entrance test. Coaching centres for the entrance test cost ₹1.5 lakh/year. A student from a low-income SC family in a government school scores 92% in boards but cannot afford coaching. How does this admission policy function as a stratifying agent?",
+     "a": "Step 1: Identify the policy's manifest criterion — \"merit\" measured by boards + entrance test. Step 2: Recognize the latent barrier — entrance test preparation requires expensive coaching, inaccessible to low-income students. Step 3: Note the structural overlap — SC students are disproportionately in government schools with fewer resources and in low-income families. Step 4: Conclude: the policy *appears* neutral but *functions* to filter out disadvantaged students, converting economic/caste capital into educational credentials. A wrong answer focusing only on \"the student should study harder\" ignores how the policy structure itself creates unequal opportunity — this is the core conflict insight.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the \"hidden curriculum\" (implicit lessons like obedience, competition, gendered expectations) and social stratification. Use the textbook's kindergarten study (Apple 1979) and the Pratichi report on SC/ST girls' attendance to show how hidden curriculum operates differently across social groups.",
+     "a": "The hidden curriculum teaches middle-class children that \"work is compulsory, teacher-directed activity\" (Apple), preparing them for bureaucratic/professional roles requiring self-regulation. For SC/ST girls, the hidden curriculum intersects with material reality: seasonal labour demands (Pratichi) make attendance irregular, so they internalize \"school is not for me\" while middle-class peers internalize \"I succeed through effort.\" The same institution delivers different hidden lessons based on students' structural position. A wrong answer listing hidden curriculum elements (uniforms, punctuality) without linking them to *differential class/caste/gender outcomes* treats hidden curriculum as uniform rather than stratifying.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Education in India is the great equalizer because the Constitution guarantees Right to Education (RTE) and reservations in higher education.\" Use both functionalist and conflict perspectives in your judgment.",
+     "a": "Functionalist evaluation: RTE and reservations expand the talent pool and improve role allocation — partial support for \"equalizer\" claim. Conflict evaluation: RTE's 25% quota in private schools is poorly implemented; reservations apply only at entry, not retention (dropout rates remain high for SC/ST); coaching industries and elite schools (e.g., KVs vs. village schools) create a tiered system where credentials reflect parental capital more than merit. Judgment: The claim is *ideologically* true (education *should* equalize) but *empirically* false — education reproduces stratification *through* the very mechanisms (exams, credentials) that claim to measure merit. A wrong answer that says \"reservations prove it's equalizing\" or \"corruption proves it's not\" misses the sociological nuance: institutions can *simultaneously* provide mobility for some and reproduce inequality structurally.",
+     "self_check": true
+    },
+    {
+     "q": "Create a research design to study how \"school choice\" (private vs. government, English vs. vernacular medium) in your city reproduces or challenges class and caste stratification. Specify: (a) one measurable indicator of stratification, (b) one qualitative method to capture lived experience, (c) how you would compare functionalist vs. conflict interpretations of your findings.",
+     "a": "(a) Indicator: Ratio of SC/ST/OBC students in top-decile private schools vs. government schools, tracked over 5 years. (b) Method: In-depth interviews with 20 parents (10 from elite private, 10 from government schools) about aspirations, sacrifices, and perceived fairness. (c) Comparison: If data shows increasing segregation by caste/class despite RTE, functionalists would argue \"market forces improve quality\" while conflict theorists would argue \"credential inflation preserves elite monopoly.\" A strong design explicitly links *method* to *theoretical test*. A poor answer proposes a survey of \"student satisfaction\" without connecting it to stratification theory — it measures opinion, not structural reproduction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

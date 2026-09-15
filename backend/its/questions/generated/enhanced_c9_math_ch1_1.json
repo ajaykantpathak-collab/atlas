@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_1",
+   "title": "c9_math_ch1_1",
+   "questions": [
+    {
+     "q": "What are the coordinates of the origin in the Cartesian plane, and why are both numbers zero?",
+     "a": "The coordinates of the origin are (0, 0). Both numbers are zero because the origin lies on both axes, so its distance from the y-axis (x-coordinate) is 0 and its distance from the x-axis (y-coordinate) is 0. A wrong answer like (1,1) or (0,1) reveals the student does not understand that coordinates represent signed distances from the axes, or that the origin is the intersection of the axes.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"The point (3, 5) is the same as (5, 3) because both have the numbers 3 and 5.\" Explain why this is incorrect using the concept of axes.",
+     "a": "The ordered pair (3, 5) means 3 units from the y-axis (horizontal) and 5 units from the x-axis (vertical). Swapping gives (5, 3) which is 5 units horizontally and 3 units vertically – a different location unless the point lies on the line y=x. A wrong answer indicates the student treats coordinates as an unordered set rather than an ordered pair with specific meaning for first and second positions.",
+     "self_check": true
+    },
+    {
+     "q": "Point A lies on the x-axis and is 4 units to the left of the origin. Point B lies on the y-axis and is 6 units above the origin. Write the coordinates of A and B.",
+     "a": "Point A: (-4, 0). Point B: (0, 6). Step 1: On x-axis, y-coordinate is 0. Left of origin means negative x, so x = -4. Step 2: On y-axis, x-coordinate is 0. Above origin means positive y, so y = 6. A wrong answer like (4,0) for A shows confusion about left/right sign convention; (0, -6) for B shows confusion about up/down sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number line (one dimension) and the Cartesian plane (two dimensions). What additional information does the Cartesian plane provide that a single number line cannot?",
+     "a": "A number line locates points using one coordinate (signed distance from zero). The Cartesian plane uses two perpendicular number lines, allowing location of points that are not on a single line – it adds a second independent direction (vertical) so we can describe positions in a plane, not just along a line. A wrong answer that only says \"it has two axes\" without explaining the independence of directions or the ability to locate points off the axes shows lack of conceptual depth.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the x-axis vertically and the y-axis horizontally, labels the origin, and plots (2, 3) as 2 units up and 3 units right. Is this acceptable? Justify your answer.",
+     "a": "No, it is not acceptable by standard convention. The Cartesian plane has a fixed convention: x-axis horizontal, y-axis vertical. The ordered pair (x, y) always means (horizontal distance, vertical distance). Swapping axes changes the meaning of coordinates and leads to miscommunication. A wrong answer that says \"it's fine as long as you're consistent\" shows the student does not appreciate the importance of universal mathematical conventions for coordinate geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) where using a Cartesian coordinate system with two perpendicular reference lines is necessary, and explain why a single number line would be insufficient.",
+     "a": "Example: Locating a house in a city grid like Chandigarh where roads run North-South and East-West. You need both the sector number (e.g., Sector 17) and the house number within the sector, or distance from two main roads. A single number line can only give distance along one road, not the exact intersection. A poor answer gives a one-dimensional example (e.g., temperature over time) or fails to explain why two independent measurements are needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt106",
+ "concepts": [
+  {
+   "id": "kebt106.1",
+   "title": "Monohybrid Cross Ratios and the Test Cross",
+   "questions": [
+    {
+     "q": "Using the method 'Monohybrid Cross Ratios and the Test Cross', work with: offspring_total = 120. Carry the chain through step by step and give the final value of recessive_count.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Monohybrid Cross Ratios and the Test Cross' and work with: offspring_total = 100. Carry the chain through step by step and give the final value of recessive_count.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Monohybrid Cross Ratios and the Test Cross' refers to.",
+     "a": "Crossing pure tall with pure dwarf peas hides the dwarf allele in an all-tall F1 of heterozygotes, and selfing that F1 re-reveals the hidden trait in a three-to-one phenotypic split with a one-two-one genotypic split; mating a dominant-looking plant to a recessive one - the test cross - then betrays its genotype, since half-and-half progeny unmask a heterozygote while all-tall progeny prove homozygosity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monohybrid Cross Ratios and the Test Cross'.",
+     "a": "Expect three quarters dominant in F2, and read an unknown genotype by crossing to the recessive parent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Monohybrid Cross Ratios and the Test Cross', in plain ASCII form.",
+     "a": "tall_share = offspring_total * 3 / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.2",
+   "title": "Incomplete Dominance and Codominance in Flowers",
+   "questions": [
+    {
+     "q": "Using the method 'Incomplete Dominance and Codominance in Flowers', work with: f2_total = 8. Carry the chain through step by step and give the final value of white_count.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Incomplete Dominance and Codominance in Flowers' and work with: f2_total = 6. Carry the chain through step by step and give the final value of white_count.",
+     "a": "1.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Incomplete Dominance and Codominance in Flowers' refers to.",
+     "a": "Not every allele pair obeys boss-and-hidden rules: in the four-o'clock plant red crossed with white gives pink F1 hybrids and a one-two-one red-pink-white F2, because each allele is only partly expressed, while in cattle coats and the MN blood group both alleles speak at once - roan animals and MN red cells - which is codominance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Incomplete Dominance and Codominance in Flowers'.",
+     "a": "Half of the F2 is the blend class under incomplete dominance, and half of that is the pure recessive class.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Incomplete Dominance and Codominance in Flowers', in plain ASCII form.",
+     "a": "pink_count = f2_total / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.3",
+   "title": "Dihybrid Cross and Independent Assortment",
+   "questions": [
+    {
+     "q": "Using the method 'Dihybrid Cross and Independent Assortment', work with: f2_total = 60. Carry the chain through step by step and give the final value of wrinkled_green.",
+     "a": "3.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dihybrid Cross and Independent Assortment' and work with: f2_total = 5. Carry the chain through step by step and give the final value of wrinkled_green.",
+     "a": "0.3125 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dihybrid Cross and Independent Assortment' refers to.",
+     "a": "Following two traits at once - round versus wrinkled seeds, yellow versus green - Mendel saw all round-yellow F1 plants and, on selfing, a nine-three-three-one F2 spread across sixteen genotypic squares, with fresh trait pairings appearing; this independence of allele pairs became his law of independent assortment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dihybrid Cross and Independent Assortment'.",
+     "a": "Nine sixteenths carry both dominants, three sixteenths carry exactly one, and one sixteenth carries both recessives.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dihybrid Cross and Independent Assortment', in plain ASCII form.",
+     "a": "round_yellow = f2_total * 9 / 16",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.4",
+   "title": "Linkage, Crossing Over and Map Distance",
+   "questions": [
+    {
+     "q": "Using the method 'Linkage, Crossing Over and Map Distance', work with: class_a_pct = 3, class_d_pct = 20. Carry the chain through step by step and give the final value of recombinant_pct.",
+     "a": "77 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Linkage, Crossing Over and Map Distance' and work with: class_a_pct = 10, class_d_pct = 6. Carry the chain through step by step and give the final value of recombinant_pct.",
+     "a": "84 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Linkage, Crossing Over and Map Distance' refers to.",
+     "a": "Genes seated on one chromosome travel together as a linkage group, so Bateson and Punnett's sweet pea and Morgan's flies broke the 9:3:3:1 expectation; only an exchange of segments between non-sister chromatids - crossing over - lets parental combinations loosen, and the recombinant share of progeny doubles as the chromosome map distance, one percent of recombinants marking one centimorgan.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Linkage, Crossing Over and Map Distance'.",
+     "a": "Add the parental classes, subtract from a hundred, and the remainder prices the recombination and the map distance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Linkage, Crossing Over and Map Distance', in plain ASCII form.",
+     "a": "recombinant_pct = 100 - parental_pct",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.5",
+   "title": "Sex-linked Inheritance in Drosophila",
+   "questions": [
+    {
+     "q": "Using the method 'Sex-linked Inheritance in Drosophila', work with: offspring_total = 45. Carry the chain through step by step and give the final value of affected_sons.",
+     "a": "11.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sex-linked Inheritance in Drosophila' and work with: offspring_total = 50. Carry the chain through step by step and give the final value of affected_sons.",
+     "a": "12.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sex-linked Inheritance in Drosophila' refers to.",
+     "a": "Morgan's stray white-eyed male revealed that eye colour rides the X chromosome: red-to-white crosses hide the trait in red F1 flies, yet F2 white eyes appear only in males, because a male's single X carries no partner to mask the recessive; colour blindness and haemophilia follow the same X-linked route in humans.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sex-linked Inheritance in Drosophila'.",
+     "a": "Half the sons of a carrier mother inherit the affected X, so the disorder lands on half of the male progeny.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sex-linked Inheritance in Drosophila', in plain ASCII form.",
+     "a": "affected_sons = sons_total / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.6",
+   "title": "Extrachromosomal Maternal Inheritance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Extrachromosomal Maternal Inheritance' refers to.",
+     "a": "Plastids and mitochondria carry their own DNA, and because the sperm sheds its cytoplasm at fertilisation, these organellar genomes pass down the maternal line alone; the white, green and variegated leaves of the four-o'clock plant demonstrated that cytoplasmic traits follow the mother's phenotype rather than Mendel's rules.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Extrachromosomal Maternal Inheritance'.",
+     "a": "No paternal contribution reaches plastids or mitochondria, so offspring mirror the mother's cytoplasmic genotype.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Extrachromosomal Maternal Inheritance' taught, and from which source text?",
+     "a": "6.5 (source: kebt106.txt section 6.5, Fig. 6.13)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.7",
+   "title": "Polyploidy Levels and Chromosome Sets",
+   "questions": [
+    {
+     "q": "Using the method 'Polyploidy Levels and Chromosome Sets', work with: base_number = 4096, ploidy_level = 150. Carry the chain through step by step and give the final value of gamete_half.",
+     "a": "307200 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Polyploidy Levels and Chromosome Sets' and work with: base_number = 8192, ploidy_level = 5. Carry the chain through step by step and give the final value of gamete_half.",
+     "a": "20480 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Polyploidy Levels and Chromosome Sets' refers to.",
+     "a": "Ploidy counts complete chromosome sets: rice with two sets, peanuts and cotton with four, bread wheat with six and strawberry or sugarcane with eight; multiply the chromosomes of one set by the ploidy level to get the somatic total, and over thirty percent of plant species exploit such polyploidy for larger organs and tougher field performance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Polyploidy Levels and Chromosome Sets'.",
+     "a": "One set times the ploidy level sizes the genome; halving the total gives what a gamete must carry.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Polyploidy Levels and Chromosome Sets', in plain ASCII form.",
+     "a": "total_chromosomes = base_number * ploidy_level",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt106.8",
+   "title": "Forward and Reverse Genetics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Forward and Reverse Genetics' refers to.",
+     "a": "Two research directions bracket the gene: forward genetics starts from visible or molecular phenotypic variation and hunts for the DNA behind it, while reverse genetics begins with a sequenced gene or protein of unknown job, silences or disrupts it - say by RNA interference - and reads the resulting phenotype to deduce its function.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forward and Reverse Genetics'.",
+     "a": "Phenotype-to-gene is forward; gene-to-phenotype is reverse, with RNAi or targeted disruption as the probe.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Forward and Reverse Genetics' taught, and from which source text?",
+     "a": "6.7 (source: kebt106.txt section 6.7, Fig. 6.15)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_006",
+   "title": "c11_cs_cbse_09_006",
+   "questions": [
+    {
+     "q": "What is the exact syntax to close a file object named `f` in Python, and what happens to unwritten data in the buffer when this method executes?",
+     "a": "The syntax is `f.close()`. When executed, Python flushes the internal write buffer (forcing all buffered data to be written to the physical disk), releases the file descriptor back to the operating system, and invalidates the file object `f` for further I/O operations. A wrong answer like \"it just closes the file\" or \"data is saved automatically\" reveals the student doesn't understand buffer flushing or resource management — they think the OS handles everything magically, missing the critical role of explicit flushing for data integrity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `f = open(\"data.txt\", \"w\"); f.write(\"Important data\");` and claims the file is saved because \"Python closes files automatically when the program ends.\" Explain why this reasoning is dangerous in a real-world application like a banking transaction log.",
+     "a": "While CPython's garbage collector *may* eventually close the file when `f` goes out of scope, this is not guaranteed by the language specification — it's an implementation detail. In a banking log, if power fails or the process crashes before garbage collection runs, the OS buffer containing \"Important data\" is lost forever because `close()` was never called to force a flush. The student's reasoning confuses \"eventual cleanup\" with \"deterministic durability.\" A wrong answer shows they don't distinguish between language guarantees and implementation behaviors, risking data corruption in production systems.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python code snippet that opens `marks.csv` in append mode, writes a new line `\"Rahul,85,90,78\\n\"`, and ensures the file is properly closed even if the write operation raises an exception (without using `with` statement).",
+     "a": "```python\nf = None\ntry:\n    f = open(\"marks.csv\", \"a\")\n    f.write(\"Rahul,85,90,78\\n\")\nfinally:\n    if f is not None:\n        f.close()\n```\nSteps: (1) Initialize `f = None` so `finally` can check if open succeeded. (2) Open file in `try` block. (3) Write data. (4) In `finally`, close only if `f` was successfully assigned. A wrong answer that omits `try-finally` or checks `f.closed` instead of `f is not None` reveals the student doesn't grasp that exceptions skip normal flow — they think linear code executes sequentially regardless of errors, missing the core purpose of `finally` for guaranteed cleanup.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource behavior of these two code fragments:\n(A) `f = open(\"log.txt\", \"w\"); f.write(\"x\"); f.close()`\n(B) `f = open(\"log.txt\", \"w\"); f.write(\"x\");` (no close)\nAnalyze what happens to the file descriptor table entry and disk buffers in each case after the code runs but before the Python process exits.",
+     "a": "In (A): `close()` triggers `flush()` → OS writes buffer to disk → file descriptor entry removed from process table → file unlocked. In (B): Buffer stays in user-space memory (not on disk), file descriptor remains allocated in kernel table, file stays locked (exclusive on Windows, advisory on Linux). If the process runs 1000 iterations of (B), it exhausts the per-process file descriptor limit (typically 1024), causing `OSError: [Errno 24] Too many open files`. A wrong answer that claims \"both write to disk eventually\" ignores that (B) has no flush guarantee and leaks kernel resources — the student confuses user-space buffering with kernel persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Calling `close()` on a file opened in read mode (`'r'`) is unnecessary because no data is being written, so there are no buffers to flush.\" Defend or refute with technical reasoning.",
+     "a": "Refute. Even in read mode, `close()` releases the file descriptor (a scarce kernel resource) and any read-ahead buffers allocated by the OS. On Windows, an unclosed read handle prevents other processes from deleting or renaming the file (mandatory locking). On Linux, it leaks a file descriptor count toward the per-process limit. Additionally, some filesystems (NFS, FUSE) require explicit close to release server-side locks. A wrong answer accepting the claim shows the student thinks `close()` is only about write buffers — they miss that file descriptors are bidirectional resources representing the *connection* itself, not just write state.",
+     "self_check": true
+    },
+    {
+     "q": "Design a reusable function `safe_write(filename, data_lines)` that writes a list of strings to a file, guarantees closure on success or failure, and returns `True` if all lines were written and closed successfully, `False` otherwise. Do not use `with`.",
+     "a": "```python\ndef safe_write(filename, data_lines):\n    f = None\n    try:\n        f = open(filename, \"w\")\n        for line in data_lines:\n            f.write(line + \"\\n\")\n        return True\n    except OSError:\n        return False\n    finally:\n        if f is not None:\n            try:\n                f.close()\n            except OSError:\n                pass  # Close failed, but we already returned False\n```\nA poor answer that returns inside `try` without `finally`, or closes before returning, reveals the student doesn't understand that `return` exits the function immediately — they treat `finally` as optional decoration rather than the *only* construct that executes after `return`. This is the exact pattern needed for board exam \"write a function to safely handle files\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

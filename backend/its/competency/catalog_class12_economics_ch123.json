@@ -1,0 +1,328 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 123,
+ "chapter_title": "Film-making",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl123.txt",
+ "concepts": [
+  {
+   "id": "lekl.123.1",
+   "title": "Darkness Ratio in Cinematography",
+   "section": "Childhood Foretells Future",
+   "definition": "The proportion of total film screening time that consists of complete darkness between individual projected frames due to the mechanics of cinematography.",
+   "formula": "darkness_time = running_time * 0.45",
+   "key_idea": "Cinematography relies on optical deception where nearly half of the viewing time is spent in darkness.",
+   "textbook_ref": "lekl123.txt lines 100-120",
+   "question_patterns": [
+    "If a film runs for {running_time} hours, how many minutes of darkness does the audience experience?",
+    "Calculate the total duration of darkness for a movie with a running time of {running_time} minutes.",
+    "What is the total blankness time in a film of length {running_time}?",
+    "How much darkness does a viewer sit through during a {running_time} minute film?",
+    "Numerical: apply Darkness Ratio in Cinematography and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the darkness duration based on the 45 percent ratio",
+     "explain": "Bergman calculates that 27 minutes out of every 60 minutes (45%) of film projection is complete darkness.",
+     "compute": "darkness_time = running_time * 0.45"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Darkness Ratio in Cinematography, compute the result for running_time = 3.",
+     "solution": "Step 1: Calculate the darkness duration based on the 45 percent ratio: darkness_time = running_time * 0.45 = 1.35 Final result: 1.35",
+     "answer": "1.35"
+    },
+    {
+     "question": "Using Darkness Ratio in Cinematography, compute the result for running_time = 4.",
+     "solution": "Step 1: Calculate the darkness duration based on the 45 percent ratio: darkness_time = running_time * 0.45 = 1.8 Final result: 1.8",
+     "answer": "1.8"
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.2",
+   "title": "The Embryonic Nucleus of a Film",
+   "section": "Split Second Impressions",
+   "definition": "The initial vague, sensory stimulus—such as a phrase, a light beam, or a musical bar—that serves as the starting point for a film's creation.",
+   "formula": "nucleus = stimulus + mental_state",
+   "key_idea": "Films originate from fleeting, non-narrative sensory impressions that grow into structured sequences.",
+   "textbook_ref": "lekl123.txt lines 140-165",
+   "question_patterns": [
+    "Explain the concept of the embryonic nucleus of a film according to Bergman.",
+    "What are the split-second impressions that initiate a film?",
+    "How does a film begin to take shape from a vague impression?",
+    "Describe how a film-maker transforms a mental state into a screenplay.",
+    "Explain The Embryonic Nucleus of a Film with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the initial sensory trigger or impression",
+     "explain": "The process begins with a fleeting impression like a bar of music or a shaft of light."
+    },
+    {
+     "step": 2,
+     "action": "Describe how this trigger establishes a mental state with associations",
+     "explain": "This impression leaves behind a mood and a mental state rich in associations rather than a concrete story."
+    },
+    {
+     "step": 3,
+     "action": "Explain the development of these rhythms into a structured sequence",
+     "explain": "The nucleus expands as the director carefully follows the thread of the unconscious, turning rhythms into visual sequences."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.3",
+   "title": "Film Rhythm and Montage",
+   "section": "The Rhythm of a Film",
+   "definition": "The essential structural dimension of cinema created by the pacing, editing, and relationship between consecutive shots, giving life to the film.",
+   "formula": "film_vitality = montage + rhythm + shot_relationship",
+   "key_idea": "Rhythm and montage act as the heartbeat of a film, directly engaging the viewer's emotions.",
+   "textbook_ref": "lekl123.txt lines 190-215",
+   "question_patterns": [
+    "Why does Bergman consider rhythm and montage to be the essentials of film?",
+    "What is the vital third dimension of film-making?",
+    "How does rhythm determine the relationship between picture sequences?",
+    "Explain why a film without rhythm is merely a dead product from a factory.",
+    "Explain Film Rhythm and Montage with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define montage as the relationship of one picture to another",
+     "explain": "Montage is the sequencing of images that creates a continuous, breathing flow."
+    },
+    {
+     "step": 2,
+     "action": "Explain how rhythm dictates the tempo and breathing of the film",
+     "explain": "Rhythm determines how the film pulsates and inhales/exhales, which cannot be written down like a musical score."
+    },
+    {
+     "step": 3,
+     "action": "Contrast this dynamic structure with a static, factory-made product",
+     "explain": "Without this rhythmic dimension, a film remains a dead, mechanical assembly of shots."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.4",
+   "title": "Film vs. Written Literature",
+   "section": "The Rhythm of a Film",
+   "definition": "The fundamental distinction between the intellectual assimilation of written words and the direct emotional impact of moving images.",
+   "formula": "receptive_process_film != receptive_process_literature",
+   "key_idea": "Literature requires conscious intellectual effort, whereas film bypasses the intellect to play directly on the imagination and emotions.",
+   "textbook_ref": "lekl123.txt lines 220-250",
+   "question_patterns": [
+    "Compare the receptive processes of the mind for film and literature.",
+    "Why does Bergman argue that film has nothing to do with literature?",
+    "How do books and movies differ in their impact on human emotions?",
+    "Why are books often difficult to translate successfully into films?",
+    "Explain Film vs. Written Literature with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain that literature is processed through a conscious act of will and intellect",
+     "explain": "Reading requires active mental processing to gradually evoke imagination and emotion."
+    },
+    {
+     "step": 2,
+     "action": "Explain that film plays directly on feelings, bypassing conscious intellect",
+     "explain": "The sequence of pictures in a film acts directly on our emotions, similar to how music works."
+    },
+    {
+     "step": 3,
+     "action": "Conclude why translating books into films is often unsuccessful",
+     "explain": "The intellectual and irrational dimensions of literature are often untranslatable into visual terms without destroying the essence of both."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.5",
+   "title": "The Imperfect Nature of the Screenplay",
+   "section": "The Rhythm of a Film",
+   "definition": "The limitation of a written script as a technical blueprint, which cannot fully capture the visual rhythms, tempos, and atmospheres of the final film.",
+   "formula": "script_limitations = omitted_tempo + omitted_atmosphere + omitted_subtext",
+   "key_idea": "A screenplay is an imperfect guide because critical elements like timing and subtext cannot be written down.",
+   "textbook_ref": "lekl123.txt lines 170-195",
+   "question_patterns": [
+    "Why is the script considered a very imperfect technical basis for a film?",
+    "What are the limitations of written dialogue in a screenplay?",
+    "How does Bergman describe the difficulty of translating film rhythms into words?",
+    "Why can a detailed script become unreadable for practical reasons?",
+    "Explain The Imperfect Nature of the Screenplay with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify that only dialogue can be satisfactorily written, but even dialogue lacks performance context",
+     "explain": "Written dialogue is like a musical score; it does not explicitly show how it should be delivered."
+    },
+    {
+     "step": 2,
+     "action": "Explain that tempo, rhythm, and what happens between lines must be omitted to keep the script readable",
+     "explain": "Including every detail of atmosphere and timing would make a script practically unreadable."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the lack of explicit notation for visual and atmospheric nuances",
+     "explain": "Unlike music, there is no standardized notation to record the inner visual structure of a film on paper."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.6",
+   "title": "The Cathedral-Building Metaphor",
+   "section": "Cathedral-building",
+   "definition": "The artistic philosophy of collective, anonymous creation for a higher purpose, contrasting with modern individualistic and ego-driven art.",
+   "formula": "collective_art = collaboration + anonymity + common_purpose",
+   "key_idea": "True artistic satisfaction comes from contributing to a collective masterpiece rather than celebrating individual ego.",
+   "textbook_ref": "lekl123.txt lines 340-380",
+   "question_patterns": [
+    "What is the story of the cathedral of Chartres and its relevance to film-making?",
+    "How does Bergman contrast collective art with modern individualism?",
+    "What does Bergman mean by wanting to be an artist in the cathedral on the plain?",
+    "How did the separation of art from worship affect its creative drive?",
+    "Explain The Cathedral-Building Metaphor with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recount the story of the anonymous rebuilding of the Chartres cathedral",
+     "explain": "People from all walks of life rebuilt the cathedral together, remaining entirely anonymous."
+    },
+    {
+     "step": 2,
+     "action": "Explain how modern art has suffered by separating from worship and focusing on individual ego",
+     "explain": "Modern artists isolate themselves and examine their own egos under a microscope, losing natural humility."
+    },
+    {
+     "step": 3,
+     "action": "State Bergman's desire to play a small, anonymous part in a larger collective creation",
+     "explain": "Bergman wishes to be one of the builders on the plain, creating a small piece of a grander collective work."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.7",
+   "title": "Umberto Eco's Club Sandwich Theory",
+   "section": "Interview with Umberto Eco",
+   "definition": "The concept that a rich novel contains multiple layers of meaning (theological, historical, metaphysical) which a film adaptation cannot fully capture simultaneously.",
+   "formula": "film_adaptation_layers < novel_layers",
+   "key_idea": "A film adaptation must simplify a multi-layered novel, selecting only a few elements to project.",
+   "textbook_ref": "lekl123.txt lines 410-440",
+   "question_patterns": [
+    "What is Umberto Eco's club sandwich analogy for his novel?",
+    "Why was Umberto Eco unhappy with the film adaptation of his book?",
+    "How do the layers of a novel get simplified in a movie adaptation?",
+    "Why did Umberto Eco decide not to sell the film rights of his novels anymore?",
+    "Explain Umberto Eco's Club Sandwich Theory with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the 'club sandwich' metaphor representing different layers of meaning in a novel",
+     "explain": "Eco's novel contains layers of theology, metaphysics, history, and a detective yarn."
+    },
+    {
+     "step": 2,
+     "action": "Describe how a film is forced to select only specific layers",
+     "explain": "A film cannot show all layers and must choose to focus on just one or two (like just the ham or cheese)."
+    },
+    {
+     "step": 3,
+     "action": "Discuss the impact on readers who visualize characters based on the film",
+     "explain": "It is painful for a novelist when a movie pre-determines how readers should imagine characters and interpret the story."
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.8",
+   "title": "Grammatical Analysis of a Sentence",
+   "section": "Grammar",
+   "definition": "The division of a basic sentence into a subject (the entity being discussed) and a predicate (the action or description starting with a verb).",
+   "formula": "sentence = subject + predicate",
+   "key_idea": "Every complete sentence contains a subject and a predicate that describes the subject's action or state.",
+   "textbook_ref": "lekl123.txt lines 480-515",
+   "question_patterns": [
+    "Identify the subject and predicate in the sentence",
+    "Analyse the grammatical components of the sentence",
+    "What is the subject and what is the predicate of",
+    "Break down the sentence into subject, verb, and object",
+    "Explain Grammatical Analysis of a Sentence with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the main noun or pronoun performing the action (the subject)",
+     "explain": "The subject answers the question 'who' or 'what' before the verb."
+    },
+    {
+     "step": 2,
+     "action": "Locate the verb and everything following it (the predicate)",
+     "explain": "The predicate begins with a verb and describes what the subject is or does."
+    },
+    {
+     "step": 3,
+     "action": "Identify any additional components like objects or prepositional adjuncts",
+     "explain": "Objects answer 'what' after the verb, while prepositional phrases act as adjuncts providing extra details."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl123.txt lines 100-120",
+   "concept": "lekl.123.1",
+   "question_type": "compute",
+   "question_pattern": "If a film has a running time of {running_time} minutes, calculate the total duration of darkness experienced by the audience.",
+   "extracted_variables": {
+    "running_time": "The total duration of the film in minutes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the darkness duration based on the 45 percent ratio",
+     "explain": "Using Bergman's ratio where 27 minutes of every 60 minutes is darkness, we multiply the total running time by 0.45.",
+     "compute": "darkness_time = running_time * 0.45"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl123.txt lines 450-470",
+   "questions": [
+    "Pick out examples from the text that show Bergman’s sensitivity to sensory impressions which have made him a great film-maker.",
+    "What do you understand of the complexity of the little invisible steps that go into the making of a good film?",
+    "What are some of the risks that film-making involves?",
+    "What misgivings does Bergman have about the contemporary film industry?",
+    "Compare Bergman’s views about making films out of books with that of Umberto Eco’s."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl123.txt lines 471-480",
+   "questions": [
+    "According to the author, split-second impressions form a 'mental state, not an actual story, but one abounding in fertile associations and images'. Compare this with Virginia Woolf’s experiment with the stream of consciousness technique in 'The Mark on the Wall'.",
+    "Bergman talks about the various influences in his life including his parents and his religious upbringing. To what extent are an individual’s achievements dependent on the kind of influences he or she has had in life? Discuss."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

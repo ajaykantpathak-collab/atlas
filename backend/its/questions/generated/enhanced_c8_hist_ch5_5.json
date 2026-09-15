@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_5",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_5",
+   "title": "c8_hist_ch5_5",
+   "questions": [
+    {
+     "q": "Name the two main classical styles of Hindu temple architecture in India and the broad geographical region associated with each style.",
+     "a": "The two main styles are Nagara (North India) and Dravida (South India). A wrong answer like \"Indo-Islamic and Rajput\" reveals the student is confusing later medieval periods with the classical temple architecture period (6th-12th centuries). If they name \"Vesara\" as a main style instead of a regional variant, they misunderstand the primary binary classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the shikhara of a Nagara temple curves upward while the vimana of a Dravida temple rises in stepped tiers, connecting this to the structural principles of each style.",
+     "a": "The Nagara shikhara uses corbelling (each stone layer projects slightly inward) creating a smooth curve that distributes weight downward to the thick walls, while the Dravida vimana uses horizontal storeys with diminishing square/rectangular tiers that transfer load through a rigid pyramidal geometry. A student who says \"Nagara is curved for beauty, Dravida is stepped for strength\" misses the engineering logic: both are structural solutions to building tall stone towers without mortar, adapted to different regional building traditions.",
+     "self_check": true
+    },
+    {
+     "q": "Given a photograph of an unidentified temple showing a curvilinear tower with an amalaka (ribbed disc) and kalasha (pot finial) at the top, a cruciform plan, and no enclosing wall or gopuram, identify the style and justify your answer using three specific architectural features.",
+     "a": "This is a Nagara style temple. Evidence: (1) curvilinear shikhara with amalaka and kalasha - hallmark of North Indian temples; (2) cruciform (cross-shaped) ground plan typical of Nagara; (3) absence of prakara (enclosing wall) and gopuram (gateway tower) which are essential to Dravida complexes. A wrong answer identifying it as Dravida because \"it has a tower\" shows inability to distinguish tower morphology (shikhara vs vimana) and complex layout.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the Chandela dynasty at Khajuraho (Nagara) and the Chola dynasty at Thanjavur (Dravida) used temple architecture to legitimize their rule, analyzing differences in scale, sculptural program, and relationship to urban planning.",
+     "a": "Chandela temples at Khajuraho form a clustered group on a high platform with erotic and divine sculptures expressing Tantric theology and royal patronage of multiple sects, integrated into a sacred landscape. Chola Brihadiswara is a single colossal vimana (66m) dominating a vast rectangular complex with gopurams, its scale and inscriptions proclaiming Rajaraja I as \"Chakravartin\" (universal ruler). A student focusing only on \"both built big temples\" misses how Khajuraho's multiple temples reflect decentralized clan patronage while Thanjavur's monolithic scale reflects centralized imperial authority.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Dravida style is more advanced than the Nagara style because it developed larger temple complexes with gopurams.\" Provide historical evidence to support or refute this.",
+     "a": "The claim is false - it imposes a linear \"progress\" narrative on distinct regional traditions. Nagara temples achieved sophisticated engineering (e.g., Kandariya Mahadeva's 31m shikhara with perfect load distribution) and complex iconographic programs without gopurams. Dravida gopurams emerged later (Pallava to Chola to Vijayanagara) as urban gateways, not as \"advancement.\" A student agreeing reveals presentist bias; a strong answer notes both styles evolved in parallel, responding to different ritual needs: Nagara emphasized the vertical axis (mountain-meru), Dravida the horizontal sacred enclosure (tirtha).",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative analysis framework that a historian could use to trace the evolution from early Gupta-period temples (like Deogarh) to mature Nagara and Dravida forms, specifying which architectural elements to track and why.",
+     "a": "A strong framework tracks: (1) sanctuary plan (square to cruciform/stellate) showing ritual elaboration; (2) tower evolution (flat roof → curvilinear shikhara / stepped vimana) showing structural innovation; (3) mandapa development (open porch → closed hall → multiple mandapas) showing liturgical expansion; (4) sculptural placement (niche icons → full surface coverage) showing theological articulation. A poor answer lists features without explaining what each reveals about changing religious practice, patronage, or technology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

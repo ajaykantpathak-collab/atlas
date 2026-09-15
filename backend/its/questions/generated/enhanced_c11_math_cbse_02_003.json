@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_003",
+   "title": "c11_math_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define a relation from set A = {1, 2, 3} to set B = {4, 5} using the rule \"x is less than y\". Write the relation in roster form.",
+     "a": "R = {(1,4), (1,5), (2,4), (2,5), (3,4), (3,5)}. A wrong answer like {(1,4), (2,5)} reveals the student incorrectly assumes a relation must pair each element of A with exactly one element of B (confusing it with a function) or does not understand that \"x < y\" generates multiple pairs for the same x.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the set R = {(a,1), (b,2), (c,3)} is a relation from A = {a, b, c} to B = {1, 2, 3, 4}, but R = {(a,5), (b,2)} is NOT a relation from A to B.",
+     "a": "The first R is a subset of A × B because all its ordered pairs have first elements from A and second elements from B. The second R is not a relation from A to B because (a,5) has second element 5 ∉ B, so it is not a subset of A × B. A wrong answer focusing only on the first elements shows the student ignores the requirement that BOTH elements of every ordered pair must belong to the respective sets.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {–2, –1, 0, 1, 2} and B = {0, 1, 4}. Define relation R from A to B by R = {(x, y) : y = x², x ∈ A, y ∈ B}. Write R in roster form and find its domain and range.",
+     "a": "R = {(–2,4), (–1,1), (0,0), (1,1), (2,4)}. Domain = {–2, –1, 0, 1, 2}, Range = {0, 1, 4}. A wrong answer like R = {(–2,4), (2,4)} (missing –1,0,1) reveals the student only considered positive x values or forgot to check all x ∈ A. Missing 0 in range reveals they forgot 0² = 0 ∈ B.",
+     "self_check": true
+    },
+    {
+     "q": "Two relations are defined from A = {1, 2, 3} to B = {1, 2, 3, 4}: R₁ = {(x, y) : y = x + 1} and R₂ = {(x, y) : y = 2x}. Compare R₁ and R₂. Are they equal? Is one a subset of the other? Justify.",
+     "a": "R₁ = {(1,2), (2,3), (3,4)}. R₂ = {(1,2), (2,4)}. They are not equal because (2,3) ∈ R₁ but ∉ R₂, and (2,4) ∈ R₂ but ∉ R₁. Neither is a subset of the other. A wrong answer claiming R₂ ⊂ R₁ because both have (1,2) shows the student does not check all elements for subset condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The relation R = {(1,2), (2,3), (3,4)} from A = {1,2,3} to B = {2,3,4} has domain {1,2,3}, codomain {2,3,4}, and range {1,2,3}.\" Identify and correct the error.",
+     "a": "The range is incorrect. The range is the set of second elements: {2,3,4}. The student mistakenly used the first elements (domain) as the range. This reveals confusion between domain (first elements) and range (second elements).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario involving two sets (e.g., students and clubs, cities and languages) where a relation is defined by a specific rule. Write the relation in all three representations (roster, set-builder, arrow diagram) and state its domain and range.",
+     "a": "Example: A = {Delhi, Mumbai, Chennai}, B = {Hindi, Marathi, Tamil}. Relation R: \"city is the capital of the state where language is official\". Roster: {(Delhi, Hindi), (Mumbai, Marathi), (Chennai, Tamil)}. Set-builder: {(c, l) : c is capital of state with official language l}. Arrow diagram: arrows from each city to its language. Domain = {Delhi, Mumbai, Chennai}, Range = {Hindi, Marathi, Tamil}. A poor answer uses a rule that does not produce a clear subset (e.g., \"city is near language\") or mixes up domain/range in the diagram.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

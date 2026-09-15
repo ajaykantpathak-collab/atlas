@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_009",
+   "title": "c12_bs_cbse_06_009",
+   "questions": [
+    {
+     "q": "A manufacturing company installs a new CNC machine costing ₹2 crores. They want to train 10 operators before the machine goes into production. Which off-the-job training method is MOST appropriate and why?",
+     "a": "Vestibule Training is most appropriate. It creates a replica of the actual work environment with the same equipment (or identical CNC machines) away from the production floor. This allows operators to practice on the actual machinery without risking damage to the expensive new asset or disrupting production. A wrong answer like \"Classroom Lectures\" reveals the student confuses knowledge transfer with skill practice — lectures cannot develop motor skills or machine familiarity. A wrong answer like \"Case Study\" reveals confusion between analytical problem-solving and hands-on technical skill acquisition.",
+     "self_check": true
+    },
+    {
+     "q": "\"Case Study method and Programmed Instruction both involve self-paced learning by the trainee.\" Evaluate this statement. Is it true or false? Explain the fundamental difference in the learning process between these two methods.",
+     "a": "False. Case Study is a group-based, discussion-driven method where trainees analyse real organisational problems, identify alternatives, and defend decisions — learning occurs through social interaction, debate, and facilitator guidance. Programmed Instruction is an individualised, linear self-paced method where information is broken into small frames, the trainee responds to each frame, and immediate feedback is provided — learning occurs through structured reinforcement, not discussion. A student saying \"both are self-paced\" misses that Case Study's pace is set by group dynamics and facilitator, while Programmed Instruction's pace is entirely learner-controlled. This confusion stems from focusing on \"trainee activity\" while ignoring the instructional design logic.",
+     "self_check": true
+    },
+    {
+     "q": "A bank wants to train 200 new customer service representatives on: (a) new banking software, (b) complaint handling procedures, and (c) regulatory compliance rules. For EACH training need, recommend ONE off-the-job method and justify why it fits better than the other five methods.",
+     "a": "(a) Banking software → Vestibule Training: Requires hands-on practice on actual software in a simulated environment (test server) where errors don't affect real customer accounts.\n(b) Complaint handling → Case Study: Involves judgement, empathy, and decision-making in ambiguous situations — best learned by analysing real scenarios and discussing alternative responses.\n(c) Regulatory compliance → Classroom Lectures/Conferences: Involves large-volume factual knowledge (rules, sections, penalties) that must be uniformly communicated to all 200 trainees efficiently.\nA student recommending \"Films for software training\" confuses demonstration with practice — watching a film doesn't build muscle memory. A student recommending \"Programmed Instruction for complaint handling\" misses that soft skills require human interaction and feedback, not just correct/incorrect responses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Vestibule Training and Computer Modelling on these dimensions: (i) Physical fidelity to real workplace, (ii) Cost of setup, (iii) Types of skills best developed, (iv) Risk if trainee makes errors. Create a 2×4 comparison table.",
+     "a": "| Dimension | Vestibule Training | Computer Modelling |\n|-----------|-------------------|-------------------|\n| Physical fidelity | High — uses actual equipment, materials, files | Low-Medium — virtual simulation, no physical feedback |\n| Setup cost | Very high — duplicate equipment, dedicated space | High initial software development, low marginal cost per trainee |\n| Best skills | Psychomotor, equipment operation, procedural | Cognitive, decision-making, system-level thinking, emergency response |\n| Error consequence | Equipment damage possible, but no production loss | Zero physical risk, only virtual consequences |\n\nA student who says \"Computer Modelling has higher fidelity\" confuses visual realism with physical fidelity — a flight simulator looks real but lacks G-forces and vibration. A student who says \"Vestibule has zero risk\" misses that actual equipment can still be damaged.",
+     "self_check": true
+    },
+    {
+     "q": "\"Films as a training method are obsolete in the age of YouTube and VR simulations.\" Critique this statement from the perspective of NCERT's classification of training methods. What unique pedagogical value does the Films method offer that pure video content does not?",
+     "a": "The statement is flawed. NCERT defines Films as a method \"used in conjunction with conference discussions\" — the pedagogical value lies in the structured debrief, not the video itself. A film provides a shared, standardised stimulus (explicit demonstration of skills, emotional scenarios, or hazardous situations) that all trainees experience simultaneously, enabling the facilitator to guide focused discussion, highlight key moments, and correct misconceptions in real-time. YouTube lacks this facilitated sense-making; VR lacks the low-cost scalability for large groups. A student agreeing with the statement treats \"film\" as passive content delivery rather than an anchored discussion trigger — a classic confusion between medium and method.",
+     "self_check": true
+    },
+    {
+     "q": "Design a blended off-the-job training program for 30 newly hired marketing executives in an FMCG company. The program must cover: product knowledge (50 SKUs), sales negotiation skills, and market data analysis using Excel. Use at least THREE different off-the-job methods. Specify: method for each topic, duration, sequence, and integration logic.",
+     "a": "**Program Design:**\n1. **Product Knowledge (50 SKUs)** → Programmed Instruction (2 days): Self-paced modules with spaced repetition, immediate feedback, mastery checks. Efficient for large factual base; trainees progress at own speed.\n2. **Sales Negotiation Skills** → Case Study + Films (3 days): Day 1 — Film showing model negotiations (good/poor), followed by facilitated debrief. Days 2-3 — Case studies of real FMCG negotiation scenarios (shelf space, pricing, promotions), small-group analysis, role-play, facilitator feedback.\n3. **Market Data Analysis (Excel)** → Vestibule Training (2 days): Computer lab with actual sales datasets, guided exercises on pivot tables, forecasting, dashboard creation. Hands-on practice with real tools and data.\n**Sequence Logic:** Knowledge first (Programmed Instruction) → Application/Analysis (Case Study) → Technical Skill (Vestibule). Integration: Case studies reference product knowledge from Module 1; Excel exercises use negotiation outcome data from Module 2.\nA poor answer lists methods without sequence logic or integration — revealing the student sees methods as isolated tools, not components of a learning architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

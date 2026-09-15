@@ -1,0 +1,189 @@
+{
+ "catalog": "catalog_class6_maths_fegp105.json",
+ "concepts": [
+  {
+   "id": "fegp.5.1",
+   "title": "Prime Factorisation: Breaking Numbers into Primes",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 10 and 40 have HCF 10 with coprime multipliers 1 and 4. Verify by computing hcf = 10 x 1; then find the HCF value.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 10 and 40 given their HCF is 10 and HCF x LCM = product of the numbers.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 10 and 40 is 40. Use HCF x LCM = a x b to find their HCF.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 10 cm and 40 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 10 minutes and 40 minutes. After how many minutes will they next ring together?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 90?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.2",
+   "title": "Primes, Composites and the Idli-Vada Game",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.3",
+   "title": "Divisibility Tests",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
+     "compute": "hcf = 7 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 14 and 28 have HCF 7 with coprime multipliers 2 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 14 and 28 given their HCF is 7 and HCF x LCM = product of the numbers.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 14 and 28 is 56. Use HCF x LCM = a x b to find their HCF.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 14 cm and 28 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 14 minutes and 28 minutes. After how many minutes will they next ring together?",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 30 are there up to 90?",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.4",
+   "title": "Perfect Numbers and the Prime Hunt",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

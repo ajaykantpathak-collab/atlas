@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_9",
+   "title": "c9_eco_ch2_9",
+   "questions": [
+    {
+     "q": "Define \"determinants of supply\" and name the three determinants covered in this topic.",
+     "a": "Determinants of supply are non-price factors that shift the entire supply curve. The three determinants are: (1) Technology — the production methods available, (2) Number of sellers — how many firms operate in the market, (3) Expectations — sellers' beliefs about future prices. A wrong answer that lists \"price of the good\" as a determinant reveals the student confuses movement along the curve (quantity supplied) with a shift of the curve (supply). A wrong answer listing \"income of buyers\" reveals confusion between demand determinants and supply determinants.",
+     "self_check": true
+    },
+    {
+     "q": "A smartphone manufacturer installs AI-driven robots that reduce assembly time by 40%. Explain why this shifts the supply curve and in which direction. Why is this NOT a movement along the supply curve?",
+     "a": "The AI robots lower the marginal cost of producing each smartphone. At any given market price, the firm is now willing to supply more units because each unit costs less to make. This shifts the supply curve rightward (increase in supply). It is not a movement along the curve because the price of smartphones has not changed — the change comes from a non-price factor (technology). A student who says \"supply increases because price falls\" confuses cause and effect: technology reduces cost, which increases supply, which may later lower equilibrium price. A student who says \"quantity supplied increases\" instead of \"supply increases\" fails to distinguish curve shift from point movement.",
+     "self_check": true
+    },
+    {
+     "q": "In a local vegetable market, 5 new vendors start selling tomatoes this season. The market price of tomatoes is ₹30/kg. Before the new vendors arrived, total market supply at ₹30/kg was 200 kg/day. After they arrive, total market supply at ₹30/kg becomes 320 kg/day. Calculate the change in market supply and explain which determinant caused it. Draw a rough sketch description of the supply curve shift.",
+     "a": "Change in market supply = 320 kg - 200 kg = 120 kg increase at the same price (₹30/kg). The determinant is \"number of sellers\" — more firms entered the market. Each individual vendor's supply curve hasn't changed, but the horizontal summation (market supply) shifts rightward because there are more individual curves to add. Sketch: original market supply curve S1, new market supply curve S2 to the right of S1, both passing through price ₹30 but S2 at higher quantity. A wrong answer calculating percentage change (60%) instead of absolute change misses that supply shifts are measured in quantity units at a given price. A wrong answer saying \"supply curve shifts left\" reverses the direction — more sellers means more supply, not less.",
+     "self_check": true
+    },
+    {
+     "q": "A rice farmer in Punjab expects the government to announce a higher Minimum Support Price (MSP) next month. The current market price is ₹2,200/quintal. The farmer has 500 quintals stored. Explain the farmer's supply decision today using the \"expectations\" determinant. How does this affect the current market supply curve for rice?",
+     "a": "The farmer expects a higher future price (new MSP), so they will withhold some stock from the current market to sell later at the higher price. This reduces the quantity supplied at today's price (₹2,200/quintal), shifting the current market supply curve leftward (decrease in supply). The farmer's individual supply curve shifts left; aggregated across many farmers expecting higher MSP, the market supply curve shifts left. A wrong answer saying \"supply increases because farmer wants to sell more\" ignores that rational sellers delay sales when expecting higher future prices. A wrong answer saying \"the supply curve doesn't shift, only quantity supplied changes\" misses that the price hasn't changed — the shift is caused by changed expectations, a non-price determinant.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"When a new technology reduces production costs, firms will always pass the full cost saving to consumers through lower prices.\" Use the supply curve shift framework to justify your answer.",
+     "a": "The statement is false. A cost-reducing technology shifts the supply curve rightward. The new equilibrium price depends on the demand curve's elasticity. If demand is perfectly inelastic (vertical), the entire cost saving goes to consumers as lower price. If demand is perfectly elastic (horizontal), price doesn't change — firms keep the full saving as higher profit. In most real cases (downward sloping demand), the price falls but by less than the full cost reduction — the benefit is shared between consumers (lower price) and producers (higher margin). A wrong answer saying \"yes, competition forces them to lower prices\" ignores that market structure and demand elasticity determine pass-through. A wrong answer focusing only on the supply shift without mentioning demand interaction shows incomplete equilibrium reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving an Indian dairy farmer where TWO supply determinants change simultaneously (e.g., technology AND expectations). Describe the scenario, identify both determinants, and predict the net effect on the supply curve. Explain why the net effect might be ambiguous.",
+     "a": "Scenario: A dairy farmer in Gujarat installs an automatic milking machine (technology improvement → shifts supply right) but hears the cooperative will raise procurement prices next month (expectations of higher future price → shifts supply left today). Technology lowers cost, encouraging more supply now; expectations encourage withholding supply now. Net effect is ambiguous — depends on which effect is stronger. If the machine doubles daily output but the farmer only withholds 10%, net supply increases (right shift dominates). If the farmer withholds 80% anticipating a large price hike, net supply decreases (left shift dominates). A poor answer picks only one determinant or assumes they always reinforce. A good answer recognises opposing forces and explains ambiguity requires magnitude comparison — a key analytical skill for board exam case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

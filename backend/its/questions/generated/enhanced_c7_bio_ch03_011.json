@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_011",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_011",
+   "title": "c7_bio_ch03_011",
+   "questions": [
+    {
+     "q": "What is the term for the single factor that a researcher deliberately changes or manipulates in a plant growth experiment?",
+     "a": "The correct answer is the independent variable. A student who answers \"dependent variable\" or \"controlled variable\" confuses the factor being deliberately tested with the factor being measured as a result or the factors being kept constant.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to keep the volume of water, type of soil, and pot size identical for all test plants when you are investigating the effect of sunlight on plant growth?",
+     "a": "The correct answer is that keeping these factors identical ensures they are controlled variables, preventing them from altering plant growth and making sure any observed change is caused *only* by the difference in sunlight. A student who thinks it is just to make the pots look neat does not understand experimental fairness and variable isolation.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to test if adding a specific nitrogen-rich fertilizer helps tomato seedlings grow taller. She places one group of seedlings in a sunny window with fertilizer, and a second group of seedlings in a dark cupboard without fertilizer. Is this a well-designed fair test? Explain why or why not.",
+     "a": "The correct answer is no, it is not a fair test because she has changed two independent variables at the same time: both fertilizer presence and sunlight exposure. To fix this, both groups must receive the exact same amount of sunlight while only one receives the fertilizer. A student who says it is a good test fails to understand that multiple changing variables make it impossible to know which factor caused the difference in growth.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following experimental setup: Four identical bean plants are given 50 mL of water daily and kept at 25°C. Plant A gets 0 hours of sunlight, Plant B gets 4 hours, Plant C gets 8 hours, and Plant D gets 12 hours of sunlight. Identify the independent and dependent variables, and state what plant growth measurement would serve as the best indicator.",
+     "a": "The independent variable is the duration of sunlight exposure (0, 4, 8, 12 hours), and the dependent variable is plant growth. The best indicators of growth would be an increase in stem height measured with a ruler or change in fresh biomass weighed on a balance. A student who confuses the water volume or temperature with the independent variable cannot distinguish between controlled conditions and manipulated test factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate a classmate's conclusion: \"My experiment showed that plant growth depends entirely on water because my watered plant grew 5 cm while my unwatered plant died, so sunlight and air do not matter.\" Is this conclusion scientifically valid?",
+     "a": "The conclusion is not valid because the student only tested the presence versus absence of water, while assuming sunlight and air had no effect without testing them. A valid conclusion can only state that water is *essential* for the survival and growth of that specific plant, not that other factors are irrelevant. A student who accepts the classmate's conclusion does not grasp that an experiment only proves the specific relationship tested by its variables.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, controlled experiment using moong (green gram) sprouts to test whether the presence of air (specifically oxygen) is necessary for seed germination and early seedling growth. State your independent variable, controlled variables, and expected observation.",
+     "a": "A well-designed experiment places equal numbers of moong seeds in two jars with damp cotton. Jar A is left open to normal room air, while Jar B is sealed tightly or submerged completely under boiled, cooled water covered with a thin layer of oil to block fresh air. The independent variable is the availability of air (oxygen), while controlled variables include water moisture, temperature, and seed batch. The expected observation is that seeds in Jar A germinate and grow shoots, whereas seeds in Jar B fail to grow due to lack of oxygen. A poor answer fails to isolate air or forgets to keep moisture and temperature constant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

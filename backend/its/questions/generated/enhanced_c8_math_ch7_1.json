@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_1",
+   "title": "c8_math_ch7_1",
+   "questions": [
+    {
+     "q": "State the fundamental difference between a multiplicative change and an additive change applied to two quantities that are in a ratio.",
+     "a": "A multiplicative change multiplies both quantities by the same factor (e.g., ×3), preserving their ratio. An additive change adds the same amount to both quantities (e.g., +5), which changes their ratio unless the quantities were equal initially. A wrong answer (e.g., \"both preserve the ratio\") reveals the student confuses absolute and relative change, a core misconception in proportional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangle has length 12 cm and breadth 8 cm. Student A increases both dimensions by 4 cm. Student B multiplies both dimensions by 1.5. Which student produces a rectangle similar to the original? Explain why the other method fails.",
+     "a": "Student B produces a similar rectangle (18 cm × 12 cm, ratio 3:2 same as 12:8). Student A's rectangle becomes 16 cm × 12 cm (ratio 4:3), which is not similar. A wrong answer indicates the student believes adding the same amount preserves shape, confusing additive equality with multiplicative proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "A map scale is 1 cm : 5 km. Two cities are 3 cm apart on the map. If the map is photocopied at 150% enlargement, what is the new map distance between the cities, and does the scale remain 1 cm : 5 km? Show your work.",
+     "a": "New map distance = 3 cm × 1.5 = 4.5 cm. The scale does NOT remain 1 cm : 5 km; it becomes 1 cm : (5/1.5) km ≈ 1 cm : 3.33 km. Steps: 1) Identify multiplicative factor 1.5 (150%). 2) Apply to map distance: 3 × 1.5 = 4.5 cm. 3) Real distance unchanged: 3 cm × 5 km/cm = 15 km. 4) New scale = 4.5 cm : 15 km = 1 cm : 3.33 km. A wrong answer (e.g., scale unchanged) shows the student thinks enlargement is additive or doesn't connect scaling to ratio change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two situations: (i) A shirt price increases from ₹400 to ₹500. (ii) A shirt price increases by 25%. Are these the same change? If the original price was ₹600 instead, would a ₹100 increase still be a 25% increase? Analyze what this shows about additive vs multiplicative changes.",
+     "a": "For ₹400, ₹100 increase = 25% increase (same). For ₹600, ₹100 increase = 16.67%, not 25%. Additive change (fixed ₹100) gives different multiplicative effects depending on the base. Multiplicative change (25%) gives different absolute increases (₹100 vs ₹150). This shows additive changes are not proportional across different starting values, while multiplicative changes are. A wrong answer reveals the student treats percentage as a fixed amount rather than a relative factor.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says: \"To make a larger version of a 3:5 ratio, I can add 2 to both parts to get 5:7. The ratio increased, so it's proportional.\" Evaluate Ravi's claim. Is 5:7 equivalent to 3:5? What error in thinking does this show?",
+     "a": "5:7 is NOT equivalent to 3:5 (3/5 = 0.6, 5/7 ≈ 0.714). Ravi incorrectly assumes adding the same number preserves proportion. This shows \"additive reasoning\" misconception: treating ratios as absolute differences rather than relative comparisons. The correct method is multiplying both parts by the same factor (e.g., ×2 gives 6:10). A wrong evaluation indicates the student cannot distinguish equivalence from mere increase.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where using additive change instead of multiplicative change leads to a visibly wrong outcome. Describe the scenario, the correct multiplicative approach, the incorrect additive approach, and why the additive result fails.",
+     "a": "Example: Scaling a *sharbat* recipe. Original: 1 part syrup to 4 parts water (1:5 total). For 10 glasses, multiplicative: 2 parts syrup + 8 parts water. Additive (wrong): add 1 part syrup and 4 parts water repeatedly? Actually additive error: \"add 1 glass syrup and 1 glass water\" → 2:6 = 1:3, too sweet. A good answer clearly shows the ratio distortion. A poor answer uses trivial numbers or doesn't explain the sensory/functional failure (taste, consistency, map accuracy).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

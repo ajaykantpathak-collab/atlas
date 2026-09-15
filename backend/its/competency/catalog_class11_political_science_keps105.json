@@ -1,0 +1,167 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 105,
+  "chapter_title": "Rights",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps105.1.1",
+      "title": "What Are Rights? Claims Backed by Society and Law",
+      "section": "1.1",
+      "definition": "A right is a claim that a person is entitled to make on society -- to speak, to practise a faith, to move freely -- which the community and its laws recognise and are bound to respect. Rights supply what one cannot secure alone: a social guarantee that one's vital interests will be honoured.",
+      "formula": "",
+      "key_idea": "Rights are entitlements, not favours -- claims others are obliged to honour.",
+      "textbook_ref": "keps105.txt lines 1-90 (introduction, definition of rights as claims, rights as necessary conditions for a dignified life)",
+      "question_patterns": [
+        "define rights and explain their essential features",
+        "in class 11 rights chapter: how does a claim become a right",
+        "why are rights described as claims on society",
+        "distinguish a right from a privilege or a favour",
+        "what makes rights necessary for a dignified life",
+        "give an example of a right and the duty it imposes on others"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the claim", "explain": "Spot what the person demands -- a liberty, a service, non-interference -- and whether it serves a basic interest."},
+        {"step": 2, "action": "find the recognition", "explain": "A claim becomes a right when law and social practice acknowledge it and assign matching duties to others."},
+        {"step": 3, "action": "note the protection", "explain": "Because rights are enforceable, their holders can appeal to courts and public opinion when they are denied."}
+      ]
+    },
+    {
+      "id": "keps105.1.2",
+      "title": "Where Rights Come From: Natural, Historical and Legal Bases",
+      "section": "1.2",
+      "definition": "Thinkers ground rights differently: as natural rights inhering in human beings before any state; as historical gains won through long struggles, from Magna Carta to freedom movements; or as legal rights created and listed by constitutions. Most modern theorists blend these -- rights are human claims given shape by history and guaranteed by law.",
+      "formula": "",
+      "key_idea": "Born as moral claims, hardened by struggle, sealed by law -- rights carry all three ancestries.",
+      "textbook_ref": "keps105.txt lines 90-170 (natural rights, historical evolution of rights, legal rights and constitutional guarantees)",
+      "question_patterns": [
+        "what are natural rights and who proposed this view",
+        "in class 11 rights chapter: how did historical struggles shape rights",
+        "distinguish natural legal and moral rights",
+        "why do rights need constitutional recognition",
+        "trace the historical development of the idea of rights",
+        "can a right exist before the law recognises it"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the natural basis", "explain": "Lockean thought treats life, liberty and property as prior claims no government may cancel."},
+        {"step": 2, "action": "add the historical record", "explain": "Rights like the vote were won through struggle, expanding from property-owning men to all adults."},
+        {"step": 3, "action": "complete with legal form", "explain": "Constitutions convert moral and historical claims into enforceable legal rights."}
+      ]
+    },
+    {
+      "id": "keps105.1.3",
+      "title": "Rights and Duties: The Two Sides of One Claim",
+      "section": "1.3",
+      "definition": "Every right implies duties: my freedom of speech obliges others to tolerate my expression, while my rights survive only inside a society where I too perform my obligations -- respecting others' identical rights, obeying just laws, contributing to common resources.",
+      "formula": "",
+      "key_idea": "A right on one side is a duty on the other -- claim and obligation are one relation seen twice.",
+      "textbook_ref": "keps105.txt lines 170-240 (rights and duties, why duties accompany rights, mutual respect among right holders)",
+      "question_patterns": [
+        "explain the relationship between rights and duties",
+        "in class 11 rights chapter: what duties follow from my right to speak freely",
+        "can a person enjoy rights while ignoring all duties",
+        "whose duty corresponds to a child's right to education",
+        "why must right holders respect the rights of others",
+        "give one right and list the duties it creates for the state and citizens"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "pair claim with obligation", "explain": "For every right, ask who must do or refrain from what -- that duty is the right's other face."},
+        {"step": 2, "action": "extend to the system", "explain": "Rights work only within a law-abiding community, so each holder also owes general duties of cooperation."},
+        {"step": 3, "action": "test the balance", "explain": "A society of pure claimants collapses; duties keep the system of rights stable and fair."}
+      ]
+    },
+    {
+      "id": "keps105.1.4",
+      "title": "Rights in a Democracy and Their Political Importance",
+      "section": "1.4",
+      "definition": "Rights make democracy real for each person: they protect dissent between elections, secure the free information votes depend on, and shield minorities from majority whims. A democracy without enforceable rights can be majoritarian pressure dressed as rule by the people.",
+      "formula": "",
+      "key_idea": "Elections choose rulers; rights keep them civilised between elections.",
+      "textbook_ref": "keps105.txt lines 240-320 (rights in a democracy, why rights are needed for democratic participation, protection of minorities and dissent)",
+      "question_patterns": [
+        "why are rights essential for the working of democracy",
+        "in class 11 rights chapter: how do rights protect minorities from the majority",
+        "what would elections look like without freedom of expression",
+        "how do rights keep power accountable between elections",
+        "explain the link between rights and political participation",
+        "can a democracy survive if rights of dissenters are crushed"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "protect the preconditions", "explain": "Speech, association and movement are the inputs democracy runs on; rights guarantee them against suppression."},
+        {"step": 2, "action": "shield the dissenters", "explain": "Constitutional rights bind majorities too, so losing a vote never means losing one's standing as a citizen."},
+        {"step": 3, "action": "sustain accountability", "explain": "Free press and protest expose misrule continuously, keeping elected power answerable."}
+      ]
+    },
+    {
+      "id": "keps105.1.5",
+      "title": "Rights of the Accused, and the Right to Resist",
+      "section": "1.5",
+      "definition": "Rights extend even to those suspected of crimes: fair trial, legal defence and protection from torture mark a civilised system, for guilt must be proved, not presumed. And when a state turns systematically tyrannical, political theory recognises a residual right to resist -- the warrant behind struggles against colonial and dictatorial rule.",
+      "formula": "",
+      "key_idea": "Justice is measured at its margins -- by the rights of the accused and by when resistance becomes legitimate.",
+      "textbook_ref": "keps105.txt lines 320-400 (rights of accused and arrested persons, right against torture, right to constitutional remedies, right to resist tyranny)",
+      "question_patterns": [
+        "which rights protect a person accused of a crime",
+        "in class 11 rights chapter: why is the right against torture non-negotiable",
+        "when does a right to resist unjust rule arise",
+        "why must guilt be proved in a court rather than assumed",
+        "explain the right to constitutional remedies",
+        "how do fair trial rights protect society as a whole"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the accused's shields", "explain": "Presumption of innocence, fair and speedy trial, counsel of choice and freedom from torture guard the suspect."},
+        {"step": 2, "action": "see the systemic stake", "explain": "These protections keep the state honest; punishing the unproven corrupts every citizen's security."},
+        {"step": 3, "action": "mark the last resort", "explain": "When legal channels are destroyed by tyranny, theory concedes a right of resistance, exercised as a last resort."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps105.txt lines 170-240 (rights and duties)",
+      "concept": "keps105.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A citizen demands freedom of speech but heckles every meeting he disagrees with. Analyse the inconsistency using the rights-duties framework.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state his right", "explain": "He may speak and publish -- a right others must respect."},
+        {"step": 2, "action": "identify the matching duty", "explain": "The same right obliges him to leave others' speech unmolested; heckling denies them what he claims."},
+        {"step": 3, "action": "resolve", "explain": "Rights are reciprocal; he may protest outside the hall, but silencing speakers breaks the duty attached to his own right."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps105.txt lines 320-400 (rights of the accused)",
+      "concept": "keps105.1.5",
+      "question_type": "verify_property",
+      "question_pattern": "A mob catches a suspected thief and wants instant punishment without trial. Explain which rights are at stake and why the state insists on a trial.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "name the threatened rights", "explain": "The suspect's rights to fair trial, counsel and protection from violence are all in danger from mob punishment."},
+        {"step": 2, "action": "explain the rule of proof", "explain": "Accusation is not proof; only a court testing evidence can establish guilt."},
+        {"step": 3, "action": "draw the wider lesson", "explain": "Trial rights protect everyone, since any citizen could one day face a false accusation."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps105.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "What are rights and why are they called claims on society?",
+        "Compare natural, historical and constitutional bases of rights.",
+        "Explain with examples how every right carries corresponding duties.",
+        "Why are rights indispensable for democracy?",
+        "Which rights protect arrested persons and why are they important?",
+        "Under what conditions, if any, do people acquire a right to resist the state?"
+      ]
+    }
+  ]
+}

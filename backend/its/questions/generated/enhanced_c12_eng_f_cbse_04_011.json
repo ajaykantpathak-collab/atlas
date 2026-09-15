@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_04_011",
+   "title": "c12_eng_f_cbse_04_011",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Define a reflexive pronoun and give one example from \"The Rattrap\" where it is used reflexively (action reflects back on the subject).",
+     "a": "A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object of a verb are the same entity. In the text, \"He raised himself\" — *himself* is reflexive because the peddler performs the action on his own body.  \n**Wrong-answer insight:** If a student cites \"He made them himself at odd moments,\" they are confusing emphatic use (emphasis on *he*) with reflexive use. This shows they cannot distinguish the two functions.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** In the sentence \"He had let himself be fooled by a bait,\" *himself* is reflexive. In \"a day may come when you yourself may want to get a big piece of pork,\" *yourself* is emphatic. Explain in your own words the difference in grammatical function between these two occurrences.",
+     "a": "In the first, *himself* is the object of the verb phrase \"let be fooled\" and refers back to the subject *he* — the action circles back. In the second, *yourself* is in apposition to the subject *you* and adds emphasis; removing it (\"you may want...\") leaves the core meaning intact.  \n**Wrong-answer insight:** A student who says both \"refer back to the subject\" misses that emphatic pronouns are syntactically optional intensifiers, not required objects. This confusion leads to errors in board \"identify the function\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** Read the following invented sentence: \"The blacksmith himself nodded a haughty consent, but the tramp did not bother to introduce himself.\" Identify each reflexive pronoun and classify its use (emphatic/reflexive). Justify each classification in one phrase.",
+     "a": "1. *himself* after \"blacksmith\" — emphatic (emphasizes the blacksmith personally performed the action; removable without grammatical damage).  \n2. *himself* after \"introduce\" — reflexive (object of \"introduce\"; the tramp would introduce his own person; not removable).  \n**Wrong-answer insight:** Swapping the labels reveals the student relies on position (after noun vs. after verb) rather than syntactic role. Competitive exams often place emphatic pronouns after verbs (\"He himself did it\") to trap such students.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the two textbook sentences: (a) \"He made them himself at odd moments.\" (b) \"He raised himself.\" How does the choice of reflexive/emphatic pronoun in each sentence shape the reader's perception of the peddler's agency and physical state?",
+     "a": "In (a), *himself* (emphatic) highlights the peddler's solitary, self-reliant craftsmanship — he is the sole agent, reinforcing his independence despite poverty. In (b), *himself* (reflexive) focuses on the physical effort of lifting his own exhausted body, underscoring his vulnerability. The shift from emphatic to reflexive mirrors his journey from autonomous maker to trapped victim.  \n**Wrong-answer insight:** A student who only labels the pronouns without linking to characterization treats grammar as isolated mechanics, missing the board's \"language in context\" requirement and CUET's stylistic-analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** The NCERT \"Thinking about language\" exercise asks students to pick out ironworks-specific phrases (e.g., \"maw of the furnace,\" \"charcoal crates,\" \"pig iron\"). Argue whether replacing these with generic terms (\"furnace opening,\" \"coal boxes,\" \"raw iron\") would weaken the story. Support your judgment with two textual reasons.",
+     "a": "Yes, it would weaken the story. (1) Precision: \"Maw\" personifies the furnace as a hungry beast, foreshadowing the peddler's later feeling of being swallowed by the forest \"impenetrable prison.\" Generic \"opening\" loses this metaphorical link. (2) Sensory authenticity: \"Charcoal crates\" and \"pig iron\" convey the gritty, industrial texture of Ramsjö; generic substitutes flatten the setting into a vague workshop, reducing the contrast between the cold forge and the warm manor house.  \n**Wrong-answer insight:** A student who says \"no difference, meaning is same\" treats vocabulary as interchangeable labels, ignoring connotation and atmosphere — a frequent error in board \"word choice\" questions and CUET close-reading tasks.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Write a 60-word paragraph describing a visit to a pottery kiln. Use at least three domain-specific terms (e.g., *glaze, bisque, saggar, pyrometer*) and two reflexive pronouns — one emphatic, one reflexive. Underline the reflexive pronouns and label each (E/R).",
+     "a": "Sample answer: \"I **myself** (E) peered into the roaring kiln where rows of **bisque** pots waited for their **glaze** firing. The **pyrometer** climbed past 1200°C. The potter **himself** (E) adjusted the **saggar** lids, then wiped sweat from his brow. Heat **itself** (R) seemed to breathe, and I **found myself** (R) stepping back, humbled by the fire's alive fury.\"  \n**Poor-answer insight:** Missing domain terms or mislabeling pronouns shows the student cannot transfer the skill to a new context — exactly what competency-based questions demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

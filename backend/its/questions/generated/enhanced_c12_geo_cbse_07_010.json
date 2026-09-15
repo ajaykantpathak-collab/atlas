@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_010",
+   "title": "c12_geo_cbse_07_010",
+   "questions": [
+    {
+     "q": "What are the typical educational qualifications and skill sets of workers engaged in quaternary activities?",
+     "a": "Quaternary workers typically hold advanced degrees (master's, PhD) in specialized fields like computer science, biotechnology, finance, or law, and possess analytical, problem-solving, and digital literacy skills. A wrong answer (e.g., \"only basic computer skills\") reveals confusion with tertiary sector clerical jobs and underestimates the knowledge-intensive nature of quaternary work.",
+     "self_check": true
+    },
+    {
+     "q": "Why are quaternary and quinary activities concentrated in a few metropolitan centers globally?",
+     "a": "Concentration occurs due to agglomeration economies: access to world-class universities, research institutes, venture capital, high-speed digital infrastructure, and a pool of skilled labor. A wrong answer attributing it solely to \"government policy\" misses the self-reinforcing cluster dynamics and the role of global connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map showing the percentage of workforce in quaternary activities across Indian states, identify the top three states and explain the geographical reasons for their lead.",
+     "a": "Top states: Karnataka, Maharashtra, Telangana. Reasons: presence of major IT hubs (Bengaluru, Pune, Hyderabad), premier educational institutions (IISc, IITs), proactive state policies, and historical investment in science parks. A wrong answer listing only \"high literacy\" without linking to specific infrastructure and policy fails to apply spatial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of the quaternary workforce in a developed country (e.g., USA) versus a developing country (e.g., India). What does the difference reveal about the stage of knowledge economy development?",
+     "a": "In the USA, quaternary workforce is diverse across R&D, finance, healthcare, education; in India, it is heavily skewed towards IT services and business process outsourcing. This reveals India's current role as a service provider rather than a core innovator, though this is shifting with rising R&D centers. A wrong answer claiming \"no difference\" ignores the value-chain position and the nature of knowledge work.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Quinary activities are limited to a tiny elite and therefore have negligible impact on national employment statistics.\"",
+     "a": "The statement is misleading: though quinary workers are few, their decisions shape economic policy, corporate strategy, and research directions, indirectly affecting millions of jobs. A wrong answer agreeing with the statement confuses numerical insignificance with functional insignificance, missing the multiplier effect of top-level decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy proposal for a state government to attract quaternary activities to a tier-2 city, specifying the necessary infrastructure, educational partnerships, and incentives.",
+     "a": "A good proposal includes: (1) high-speed broadband and reliable power, (2) collaboration with nearby universities for tailored curricula, (3) tax breaks for R&D centers, (4) quality of life amenities (housing, schools) to retain talent. A poor proposal focuses only on tax incentives without addressing the talent pipeline and digital infrastructure, showing a lack of systems thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

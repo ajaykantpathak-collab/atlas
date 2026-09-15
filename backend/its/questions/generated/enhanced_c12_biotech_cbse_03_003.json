@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_003",
+   "title": "c12_biotech_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the immediate product of reverse transcriptase acting on an mRNA template with an oligo-dT primer?",
+     "a": "The immediate product is a single-stranded cDNA (first strand) hybridized to the mRNA template, forming an RNA-DNA hybrid. A wrong answer (e.g., \"double-stranded cDNA\" or \"DNA-RNA hybrid with DNA as template\") reveals the student does not understand that reverse transcriptase synthesizes DNA on an RNA template and that the first product is single-stranded DNA still bound to its RNA template.",
+     "self_check": true
+    },
+    {
+     "q": "Why is RNase H treatment necessary after first-strand cDNA synthesis, and why can't we simply heat-denature the RNA-DNA hybrid like in PCR?",
+     "a": "RNase H specifically degrades the RNA strand in an RNA-DNA hybrid, leaving the single-stranded cDNA intact for second-strand synthesis. Heat denaturation (95°C) would also denature the RNA, but it would simultaneously inactivate heat-labile enzymes needed for subsequent steps (like DNA polymerase I) and could cause secondary structure formation in the single-stranded cDNA that blocks priming. A student who says \"heat denaturation works fine\" misunderstands the enzymatic sensitivity and structural fragility of long cDNA strands.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher constructs a cDNA library from human liver mRNA using oligo-dT priming. The resulting library contains clones for albumin and cytochrome P450 genes, but no clones for the insulin gene. Explain why.",
+     "a": "Insulin is expressed only in pancreatic beta cells, not in liver. cDNA libraries represent only the mRNA population of the source tissue at the time of isolation. Since liver does not transcribe the insulin gene, its mRNA is absent, so no insulin cDNA can be synthesized. A student who says \"the insulin gene is missing from the genome\" confuses genomic DNA with tissue-specific expression. A student who says \"oligo-dT didn't bind\" misunderstands that insulin mRNA has a poly-A tail but isn't present in the sample.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the representation of a typical eukaryotic gene (with 3 exons and 2 introns) in a genomic library versus a cDNA library from the same tissue where the gene is expressed. What will be the difference in the cloned insert sequence?",
+     "a": "In the genomic library, the insert will contain exons AND introns (plus flanking regulatory sequences if the fragment is large enough). In the cDNA library, the insert will contain only the spliced exons joined together — no introns, no promoter, no enhancers. A student who says \"both have introns\" fails to grasp that cDNA is copied from mature, spliced mRNA. A student who says \"cDNA has promoter\" confuses transcriptional regulation with post-transcriptional product.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A cDNA library made from brain tissue can be used to identify the promoter sequence of a neuron-specific gene.\" Justify your answer.",
+     "a": "False. cDNA libraries lack promoter sequences because they are derived from mature mRNA, which starts at the transcription start site (after the promoter) and undergoes 5' capping. The promoter is upstream of the transcription start site and is not transcribed into mRNA. To find promoters, you need a genomic library or techniques like 5' RACE/ChIP-seq. A student who says \"true\" confuses the 5' end of cDNA (which corresponds to the capped 5' end of mRNA) with the promoter region in genomic DNA.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to construct a cDNA library that is enriched for full-length cDNAs (containing the complete 5' end of the mRNA). Specify the key modification to standard oligo-dT priming and the enzyme property required.",
+     "a": "Use a modified oligo-dT primer with an adapter sequence at its 5' end, combined with a reverse transcriptase that has terminal transferase activity (e.g., Moloney murine leukemia virus RT with added template-switching capability). When RT reaches the 5' cap of the mRNA, it adds a few non-templated nucleotides (usually dC) to the 3' end of the cDNA. A \"template-switching oligo\" (TSO) with a complementary rG stretch at its 3' end anneals to this tail, allowing RT to continue copying the TSO sequence. This incorporates a known adapter at the 5' end of the first-strand cDNA, enabling PCR amplification of only full-length cDNAs. A poor answer (e.g., \"use longer oligo-dT\") shows ignorance of the 5' cap barrier and RT's terminal transferase activity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

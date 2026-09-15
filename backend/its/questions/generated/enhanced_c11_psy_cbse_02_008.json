@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_008",
+   "title": "c11_psy_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define the case study method in psychology and name two types of \"cases\" that can be studied using this method, as per NCERT Class 11.",
+     "a": "The case study method is an in-depth investigation of a single case (individual, small group, institution, or specific event) using multiple data sources like interviews, observations, and psychological tests to understand complex psychological phenomena. Two types of cases: (1) an individual with distinguishing characteristics (e.g., a patient with a rare psychological disorder), and (2) a specific event (e.g., children exposed to a tsunami). A wrong answer that only says \"studying one person\" reveals the student misses the breadth of case types (groups, institutions, events) and the multi-method data collection requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Case studies are useless because you cannot generalize from one person to the whole population.\" Explain why this statement is an oversimplification, using the concept of *ecological validity* and *hypothesis generation*.",
+     "a": "The statement oversimplifies because case studies prioritize *ecological validity* — they capture behavior in natural, uncontrolled contexts where real life unfolds, unlike lab experiments that sacrifice realism for control. They excel at *hypothesis generation* for rare or novel phenomena (e.g., Freud's cases generating psychoanalytic theory; Piaget's observations of his three children founding cognitive development theory). A wrong answer that agrees with the student reveals confusion between *statistical generalization* (population inference) and *theoretical generalization* (building/testable theories), and ignores that some phenomena (rare disorders, unique historical events) *cannot* be studied experimentally.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the long-term psychological impact of the 2013 Uttarakhand floods on children who lost their families. She plans to use the case study method. Design a data collection protocol that addresses the NCERT-recommended validity safeguards: (a) triangulation, (b) multiple investigators, (c) chain of evidence. Specify at least two concrete data sources for each.",
+     "a": "(a) Triangulation: (1) Semi-structured interviews with the child, caregivers, and teachers; (2) Behavioral observations in school and home settings; (3) Psychological tests (e.g., Children's Depression Inventory, PTSD screening); (4) School/medical records review. (b) Multiple investigators: Two trained clinical psychologists independently conduct interviews and observations, then compare coding of transcripts and field notes weekly to resolve discrepancies. (c) Chain of evidence: All raw data (audio recordings, field notes, test protocols) stored in labeled, timestamped digital folders; a master log links each data fragment to research questions; identifiers replaced with codes; code key kept separately and destroyed post-study. A wrong answer that lists only one data source per safeguard reveals failure to grasp that *convergence* across sources/investigators is the core validity mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the case study method and the experimental method on three dimensions: (i) control over extraneous variables, (ii) ability to establish cause-effect relationships, (iii) ecological validity. Use a concrete example (e.g., studying exam anxiety) to illustrate each dimension.",
+     "a": "(i) Control: Experimental method high (random assignment, lab control); case study low (natural setting, no manipulation). Example: In an experiment on exam anxiety, you manipulate \"study technique\" (IV) in a quiet lab; in a case study, you observe a student's actual exam preparation at home with all real-life distractions. (ii) Causality: Experimental method strong (IV manipulation + control group); case study weak (no manipulation, retrospective). Example: Experiment can test *if* a new study technique *reduces* anxiety; case study can only describe *how* one anxious student prepares. (iii) Ecological validity: Case study high (real context); experiment low (artificial setting). Example: Case study captures the student's anxiety during actual board exams with family pressure, peer comparison, time pressure — impossible to fully replicate in a lab. A wrong answer that says \"case studies have no control\" without qualifying *naturalistic context* misses that low control is a *feature* for ecological validity, not just a flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this research claim: \"A case study of a 16-year-old prodigy who practices piano 6 hours daily proves that deliberate practice alone causes exceptional expertise.\" Identify two specific limitations of the case study method that invalidate this causal claim, and suggest one complementary method that could test the claim.",
+     "a": "Two limitations: (1) *No control over extraneous variables* — the prodigy's genetics, family support, teaching quality, motivation, and socioeconomic resources are confounded with practice hours; the case study cannot isolate practice as the *sole* cause. (2) *Retrospective/self-report bias* — the \"6 hours daily\" may be inflated by the prodigy/parents; no objective verification (e.g., practice logs, video) is inherent to the method. Complementary method: *Longitudinal correlational study* tracking a large sample of young musicians' practice hours, aptitude tests, and expertise outcomes over years, controlling for confounders statistically. A wrong answer that says \"case studies can't prove causation\" without naming *specific confounds* or *measurement bias* shows surface-level understanding of the \"no causality\" limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, ethically sound case study proposal (150 words max) for a phenomenon relevant to Indian adolescents that: (a) justifies why case study is the *best* method (not just feasible), (b) specifies the \"case\" type (individual/group/institution/event), (c) names two triangulation strategies, and (d) addresses one ethical risk unique to case studies.",
+     "a": "**Proposal:** *Case:* A government residential school (Navodaya Vidyalaya) in a tribal district where 90% students are first-generation learners — an *institution* case. *Phenomenon:* How collective identity formation interacts with academic resilience in a marginalized community. *Why case study best:* The phenomenon is embedded in a unique cultural-institutional ecosystem; surveys would miss tacit norms, experiments would disrupt the natural social fabric. *Triangulation:* (1) Participant observation in classrooms, dormitories, and cultural events over 6 months; (2) Focus group discussions with students, teachers, wardens, and parents analyzed via thematic coding by two independent researchers. *Ethical risk:* The institution's uniqueness makes anonymity impossible — even coded reports could identify the school. *Mitigation:* Co-create the final narrative with school stakeholders; obtain *institutional consent* alongside individual assent; share draft findings for member-checking before publication. A poor answer that picks a generic \"student with anxiety\" case fails (a) because surveys/experiments *can* study anxiety well, and (d) because individual anonymity is easier than institutional anonymity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

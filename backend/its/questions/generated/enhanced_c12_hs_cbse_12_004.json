@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_004",
+   "title": "c12_hs_cbse_12_004",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the three categories of extension teaching methods based on audience size and interaction level, and give one example of each.",
+     "a": "Correct answer: The three categories are (1) Individual methods — e.g., farm/home visit; (2) Group methods — e.g., method demonstration; (3) Mass methods — e.g., radio broadcast. A wrong answer that lists \"lecture, demonstration, discussion\" without categorising by audience size reveals the student is confusing teaching techniques with the classification framework based on reach and interaction. Another error: listing \"TV, newspaper, poster\" as three separate categories instead of recognising they all fall under mass methods.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why a method demonstration is classified as a group method while a farm visit is an individual method, even though both involve face-to-face interaction.",
+     "a": "Correct answer: Classification depends on audience size and interaction pattern, not just face-to-face contact. A method demonstration involves one extension worker teaching a skill to a small group (typically 15-30 learners) simultaneously with peer interaction, while a farm visit is one-to-one contact tailored to a single farmer's specific context. A wrong answer focusing only on \"both are face-to-face\" misses the critical distinction: group methods leverage peer learning and economies of scale; individual methods provide customised advice. Students often confuse \"personal contact\" with \"individual method\" — a group discussion has personal contact but is a group method.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: You are an extension worker introducing kitchen gardening to 200 women across 5 villages. Design a teaching strategy using all three method categories, specifying which method you would use at the awareness, interest, and adoption stages, and justify each choice.",
+     "a": "Correct answer with steps:\nStep 1: Awareness stage — Use mass method (radio spots + wall posters in each village) to reach all 200 women quickly with basic information about kitchen gardening benefits.\nStep 2: Interest stage — Use group method (method demonstration in each village showing seed sowing, bed preparation) for 30-40 women per session to build skills through observation and peer discussion.\nStep 3: Adoption stage — Use individual method (home visits to 20-30 early adopters) to troubleshoot specific problems (pest, soil, water) and reinforce practice.\nJustification: Mass for wide reach at low cost; group for skill-building with peer support; individual for customised problem-solving. A wrong answer using only one method throughout (e.g., only home visits) reveals failure to match method to adoption stage and audience scale.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the cost-effectiveness of individual, group, and mass methods for reaching 1,000 farm families with a new composting technique. Consider time, cost per contact, depth of learning, and follow-up potential.",
+     "a": "Correct answer: Mass methods (radio, TV) — lowest cost per contact (₹2-5), minimal time, but shallow learning and no follow-up. Group methods (demonstrations, meetings) — moderate cost (₹50-100 per contact), 2-3 hours per session, deeper learning through practice and peer interaction, moderate follow-up via group cohesion. Individual methods (home visits) — highest cost (₹200-500 per contact), 30-60 minutes per family, deepest learning with customised advice, strongest follow-up through relationship. Optimal strategy: mass for awareness (1,000 families), group for skill training (10 groups of 30), individual for adopters (50 families). A wrong answer claiming \"individual is best because learning is deepest\" ignores resource constraints and fails to analyse the trade-off triangle: reach vs. depth vs. cost.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A state agriculture department plans to use only WhatsApp video messages (mass method) to teach 50,000 farmers integrated pest management (IPM). Critique this plan using extension teaching principles. What two method categories are missing and why are they essential for IPM adoption?",
+     "a": "Correct answer: The plan is flawed because IPM is a complex, knowledge-intensive practice requiring: (1) Group methods (method demonstrations, field days) — farmers need to see pest identification, trap installation, and threshold-based decision-making in real field conditions with peer discussion; (2) Individual methods (farm visits, plant clinics) — IPM decisions are context-specific (crop stage, pest density, weather), requiring customised diagnosis. WhatsApp alone cannot build observational skills or address field variability. A wrong answer saying \"WhatsApp is good because everyone has phones\" reveals confusion between information dissemination and skill/attitude change — a common competitive exam trap where technology access is mistaken for learning effectiveness.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a 3-month extension teaching calendar for promoting millet cultivation in a tribal block of 15 villages (2,000 farm families). Integrate at least two methods from each category (individual, group, mass) with specific timing, target audience, and learning objective for each activity.",
+     "a": "Expected answer criteria: Calendar must show phased approach: Month 1 (Awareness) — Mass: Radio jingles (all families), Wall paintings at panchayat offices; Group: Village-level awareness meetings (15 villages × 50 farmers); Month 2 (Skill-building) — Group: Method demonstrations on seed treatment & line sowing (5 clusters × 30 farmers); Field day at demo plot; Individual: Farm visits to 100 early adopters for layout marking; Month 3 (Adoption support) — Individual: Fortnightly visits to 100 adopters for weed/fertigation advice; Group: Farmers' group meetings for experience sharing; Mass: Success story posters + WhatsApp video testimonials. A poor answer lists activities randomly without phase alignment or repeats only one method category, showing inability to sequence methods according to the innovation-decision process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 101,
+  "chapter_title": "Equality",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps101.1.1",
+      "title": "Equality as a Foundational Ideal of Political Theory",
+      "section": "1.1",
+      "definition": "Equality does not claim that all people are identical in talent or taste; it claims that every person deserves the same consideration and respect simply as a human being. Because humans alone can reason about their actions and speak for their interests, political theory treats equal moral worth as the starting point of justice.",
+      "formula": "",
+      "key_idea": "Difference in ability is not a licence for difference in dignity -- equal consideration is owed to every person.",
+      "textbook_ref": "keps101.txt lines 1-90 (introduction, human uniqueness of reason and language, equality as basic premise of political theory)",
+      "question_patterns": [
+        "what does equality mean in political theory",
+        "in class 11 political theory: why is equality called a foundational ideal",
+        "does equality claim that all people are identical",
+        "how do reason and language support the claim of equal worth",
+        "why should differences in talent not decide differences in respect",
+        "explain equality of consideration with an example"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "separate identity from worth", "explain": "People differ in skills, tastes and achievements, but the ideal of equality concerns their moral worth, not their sameness."},
+        {"step": 2, "action": "ground worth in human capacities", "explain": "The capacities to reason and to communicate make every person a subject of respect rather than an object of use."},
+        {"step": 3, "action": "draw the political conclusion", "explain": "Institutions should give each person equal consideration -- one vote, equal legal protection, equal opportunity -- regardless of birth or wealth."}
+      ]
+    },
+    {
+      "id": "keps101.1.2",
+      "title": "Natural and Social Inequalities",
+      "section": "1.2",
+      "definition": "Some inequalities arise from inborn differences of strength, intelligence or talent -- natural inequalities -- while others are manufactured by society through unequal access to wealth, education and power -- social inequalities. Political theory worries mainly about the second kind, since they are humanly created and can therefore be humanly removed.",
+      "formula": "",
+      "key_idea": "Born differences need not become social hierarchies -- the arrangements we build decide whether they do.",
+      "textbook_ref": "keps101.txt lines 90-170 (distinction between natural and social inequalities, examples of caste and gender hierarchy, whether inequalities are inevitable)",
+      "question_patterns": [
+        "distinguish natural inequalities from social inequalities",
+        "in class 11 equality chapter: why are social inequalities considered unjust",
+        "are inequalities inevitable in any society",
+        "how does caste illustrate socially created inequality",
+        "can natural differences justify political dominance",
+        "give examples of inequalities produced by unequal access to education"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "sort the sources", "explain": "Ask whether a given gap in life chances comes from bodily or mental differences among people or from the way institutions distribute resources."},
+        {"step": 2, "action": "test for human responsibility", "explain": "Social inequalities trace back to laws, customs and economic arrangements that people made and can remake."},
+        {"step": 3, "action": "judge the justice", "explain": "Because societies can redesign their arrangements, social inequality is a matter of justice rather than fate."}
+      ]
+    },
+    {
+      "id": "keps101.1.3",
+      "title": "Three Dimensions of Equality: Political, Social and Economic",
+      "section": "1.3",
+      "definition": "Equality operates on three linked fronts. Political equality grants each adult an equal vote and equal right to hold office; social equality rejects status hierarchies of caste, religion and gender in everyday life; economic equality asks that wealth differences not be so extreme that they swallow the other two.",
+      "formula": "",
+      "key_idea": "One vote and one law mean little if caste still stigmatises or wealth still commands -- the three equalities need each other.",
+      "textbook_ref": "keps101.txt lines 170-260 (dimensions of equality, political social and economic equality, why formal equality alone is insufficient)",
+      "question_patterns": [
+        "explain the three dimensions of equality with examples",
+        "in class 11 equality chapter: how are political and economic equality connected",
+        "why is social equality necessary for meaningful political equality",
+        "what does economic equality demand and how much",
+        "give an example where formal equality fails without economic equality",
+        "which dimension does universal adult franchise realise"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the political layer", "explain": "Universal adult franchise, equal candidacy and equal legal standing realise political equality."},
+        {"step": 2, "action": "identify the social layer", "explain": "Access to temples, wells, schools and public spaces without discrimination realises social equality."},
+        {"step": 3, "action": "identify the economic layer", "explain": "Some levelling of wealth and income is needed so that the political and social rights of the poor are not hollow."},
+        {"step": 4, "action": "connect the layers", "explain": "Each dimension reinforces the others; weakness in one leaks into and undermines the rest."}
+      ]
+    },
+    {
+      "id": "keps101.1.4",
+      "title": "Equality of Opportunity and Natural Rights",
+      "section": "1.4",
+      "definition": "Equality of opportunity demands that positions and prizes go to effort and talent rather than birth, which requires at least a fair starting line for all. The related liberal claim of natural rights holds that every person possesses certain rights -- life, liberty and the like -- before and above any government, which no ruler may cancel.",
+      "formula": "",
+      "key_idea": "Fair competition needs fair starting points, and rights that precede the state protect the competitor.",
+      "textbook_ref": "keps101.txt lines 260-350 (equality of opportunity, affirmative action debate, natural rights and their role in liberal thought)",
+      "question_patterns": [
+        "what does equality of opportunity require in practice",
+        "in class 11 equality chapter: how do natural rights support equality",
+        "why is a level starting field part of equal opportunity",
+        "do natural rights exist before the state is formed",
+        "how can unequal help for disadvantaged groups serve equal opportunity",
+        "distinguish equality of opportunity from equality of outcome"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "define the open positions", "explain": "Jobs, offices and honours must be open to all comers and decided by relevant merit, not by birth or patronage."},
+        {"step": 2, "action": "level the starting line", "explain": "Minimum education, health and livelihood conditions must be secured, or the race is lost before it begins."},
+        {"step": 3, "action": "shield contestants with rights", "explain": "Natural rights to life, liberty and free expression protect the arena in which equal opportunity can operate."}
+      ]
+    },
+    {
+      "id": "keps101.1.5",
+      "title": "Equality in the Indian Constitution",
+      "section": "1.5",
+      "definition": "The Indian Constitution weaves equality through its fabric: Articles 14 to 18 promise equality before law, ban untouchability and titles, and guarantee equal public access; Article 15 and 16 permit special provisions for disadvantaged groups; and directive principles push toward reducing economic concentration.",
+      "formula": "",
+      "key_idea": "Formal equality plus enabling provisions for the disadvantaged -- the Constitution treats equality as a project, not just a rule.",
+      "textbook_ref": "keps101.txt lines 350-430 (equality provisions of the Indian constitution, Articles 14 to 18, provisions for disadvantaged groups and reservations)",
+      "question_patterns": [
+        "which articles of the Indian constitution deal with equality",
+        "in class 11 equality chapter: how does the constitution balance equality with special provisions",
+        "what does equality before law mean under Article 14",
+        "why did the constitution abolish untouchability and titles",
+        "how do reservations reconcile with the ideal of equality",
+        "which directive principles aim at economic equality"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read the fundamental rights", "explain": "Articles 14 to 18 install equality before law, ban discrimination, outlaw untouchability and abolish titles."},
+        {"step": 2, "action": "note the enabling clauses", "explain": "Special provisions, including reservations, are allowed for socially and educationally backward groups as instruments of real equality."},
+        {"step": 3, "action": "add the directive push", "explain": "Directive principles direct the state to spread resources and reduce concentration of wealth, carrying equality into the economy."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps101.txt lines 90-170 (natural vs social inequality)",
+      "concept": "keps101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student says that because some people are naturally stronger, rule by the strong is justified. Evaluate the argument using the natural and social inequality distinction.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the claimed source", "explain": "The argument treats a natural difference in strength as a title to political power."},
+        {"step": 2, "action": "separate fact from arrangement", "explain": "Even granting bodily differences, turning them into rulership is a social arrangement, chosen and changeable."},
+        {"step": 3, "action": "deliver the verdict", "explain": "Equal moral worth bars converting any natural advantage into permanent dominance; political equality remains the defensible position."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps101.txt lines 350-430 (constitutional equality provisions)",
+      "concept": "keps101.1.5",
+      "question_type": "verify_property",
+      "question_pattern": "Two villages deny a Dalit family access to the public well. Which constitutional provisions are violated and how does the state respond?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "cite the equality articles", "explain": "Equal access to public wells, roads and bathing places is guaranteed, and untouchability in any form is abolished."},
+        {"step": 2, "action": "name the violation", "explain": "Denying well access on caste grounds violates both the equality articles and the abolition of untouchability."},
+        {"step": 3, "action": "state the remedy", "explain": "Law punishes such practices and protective provisions empower the state to act for the excluded group."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps101.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Explain the difference between natural and social inequalities with two examples each.",
+        "Some people argue that inequality is natural and inevitable; how would a defender of equality respond?",
+        "Match the three dimensions of equality with one concrete measure each in the Indian context.",
+        "Why is equality of opportunity sometimes defended through unequal treatment of the disadvantaged?",
+        "What are natural rights and why do liberals treat them as prior to the state?",
+        "Describe how the Indian Constitution converts the ideal of equality into enforceable provisions."
+      ]
+    }
+  ]
+}

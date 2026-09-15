@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_005",
+   "title": "c12_geo_cbse_18_005",
+   "questions": [
+    {
+     "q": "Define quantitative data and qualitative data in geography. Give one example of each from Indian physical geography.",
+     "a": "Quantitative data: numerical measurements that can be counted or measured (e.g., annual rainfall of 1200 mm in Mumbai). Qualitative data: descriptive attributes categorizing qualities (e.g., soil type \"Laterite\" in Western Ghats). A wrong answer (e.g., calling \"Laterite\" quantitative because it can be coded as 1,2,3) reveals confusion between numerical coding and inherent measurement — coding categories with numbers does not make them quantitative; the numbers are just labels, not measurements.",
+     "self_check": true
+    },
+    {
+     "q": "A student records the following during a field survey in a Rajasthan village: \"Number of households: 150\", \"Dominant caste group: Meena\", \"Average landholding size: 2.5 hectares\", \"Main crop: Bajra\". Classify each as quantitative or qualitative and explain why \"Dominant caste group\" cannot be treated as quantitative even if assigned a code number.",
+     "a": "Quantitative: Number of households (150), Average landholding size (2.5 ha). Qualitative: Dominant caste group (Meena), Main crop (Bajra). \"Dominant caste group\" is qualitative because it represents a nominal category — assigning code numbers (e.g., Meena=1, Bhil=2) creates labels, not measurable quantities; arithmetic on codes (e.g., average caste code) is meaningless. A wrong answer treating coded categories as quantitative reveals misunderstanding of measurement scales (nominal vs. ratio).",
+     "self_check": true
+    },
+    {
+     "q": "You are given a dataset from the Census of India for a district: Total Population (1,250,000), Literacy Rate (72.4%), Sex Ratio (945 females/1000 males), Predominant Religion (Hindu), Major Language (Marathi). Identify which variables are quantitative and which are qualitative. Then calculate the number of literate persons using the quantitative data provided. Show steps.",
+     "a": "Quantitative: Total Population, Literacy Rate, Sex Ratio (all numerical measurements). Qualitative: Predominant Religion, Major Language (categories). Calculation: Literate persons = Total Population × (Literacy Rate / 100) = 1,250,000 × 0.724 = 905,000. Steps: 1) Identify quantitative variables. 2) Recall literacy rate formula. 3) Convert percentage to decimal. 4) Multiply. 5) Interpret result. A wrong answer (e.g., using sex ratio in calculation) reveals inability to select relevant quantitative variables for a specific computation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the utility of quantitative and qualitative data in studying the \"crop diversification index\" of a region. Why would a geographer need both types to construct a meaningful index? Use the example of Punjab's shift from wheat-paddy rotation to include maize, cotton, and vegetables.",
+     "a": "Quantitative data provides measurable inputs: area under each crop (hectares), yield (tonnes/ha), irrigation percentage, fertilizer use (kg/ha) — these allow calculation of diversification indices (e.g., Herfindahl index, entropy index). Qualitative data provides context: crop types (categories), cropping system names (e.g., \"maize-wheat\"), farmer perceptions, soil suitability classes, policy categories (e.g., \"MSP-supported crops\"). Both are needed because the index formula requires quantitative areas, but the interpretation of what the index means for sustainability requires qualitative understanding of crop ecology, market forces, and policy. A wrong answer stating \"only quantitative data is needed for an index\" reveals reductionist thinking that ignores the geographical context that gives numbers meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Qualitative data is less scientific than quantitative data in geographical research.\" Provide a reasoned judgment with two specific examples from Indian geography where qualitative data is indispensable for valid conclusions.",
+     "a": "The statement is false. Scientific rigour depends on appropriateness of data to the research question, not data type. Example 1: Studying \"sacred groves conservation in Western Ghats\" — qualitative data on cultural beliefs, taboo species, community rules is essential; quantitative tree counts alone miss the causal mechanism. Example 2: Analyzing \"urban slum vulnerability in Mumbai\" — qualitative data on tenure insecurity, social networks, access to informal credit explains resilience differences that income data (quantitative) cannot capture. A wrong answer agreeing with the statement reveals positivist bias and ignorance of mixed-methods geography practiced in NCERT and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field data collection plan for a geographical study of \"changing land use in your district over 20 years\". Specify: (a) two quantitative variables you would measure, (b) two qualitative variables you would record, (c) one primary and one secondary source for each type, and (d) how you would integrate both types in your analysis.",
+     "a": "(a) Quantitative: 1) Net sown area (hectares) from revenue records, 2) Built-up area (sq km) from satellite imagery. (b) Qualitative: 1) Dominant land use category (e.g., \"irrigated agriculture\", \"industrial\", \"residential\") from field observation, 2) Farmer perception of soil fertility change (\"improved\", \"declined\", \"same\") from interviews. (c) Primary quantitative: GPS-based field measurement of plot sizes; Secondary quantitative: District statistical handbook time series. Primary qualitative: Focus group discussions with elders; Secondary qualitative: Historical gazetteers, previous master plans. (d) Integration: Use quantitative trends to identify hotspots of change, then use qualitative data to explain drivers (e.g., policy, market, water scarcity) in those hotspots. A poor answer listing only quantitative variables or vague sources reveals inability to design mixed-methods geographical inquiry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

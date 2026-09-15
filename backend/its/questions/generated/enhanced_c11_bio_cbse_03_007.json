@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_007",
+   "title": "c11_bio_cbse_03_007",
+   "questions": [
+    {
+     "q": "Name the two classes of angiosperms and state one fundamental difference in their seed structure that is used as a primary classification criterion.",
+     "a": "The two classes are Dicotyledonae (dicots) and Monocotyledonae (monocots). The fundamental seed difference: dicot seeds have two cotyledons (e.g., bean, gram), while monocot seeds have one cotyledon called scutellum (e.g., maize, wheat). A wrong answer (e.g., \"dicots have tap roots, monocots have fibrous roots\") reveals confusion between vegetative and reproductive classification criteria — the primary taxonomic character is cotyledon number, not root type.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the term \"double fertilization\" is used in angiosperms and describe the ploidy of each product formed, relating it to the chromosome number (2n) of the parent plant.",
+     "a": "Double fertilization involves two simultaneous fusion events in the embryo sac: (1) one male gamete fuses with the egg cell (n) to form a diploid zygote (2n), and (2) the second male gamete fuses with the two polar nuclei (n + n) to form a triploid primary endosperm nucleus (3n). The term \"double\" refers to these two distinct fertilizations. A wrong answer stating \"both fusions produce diploid cells\" or \"endosperm is diploid\" reveals misunderstanding of polar nuclei ploidy — students often forget that the central cell contains two haploid nuclei before fusion.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a plant with parallel leaf venation, floral parts in multiples of three, and a fibrous root system. Predict whether its pollen grains will be monocolpate or tricolpate, and justify your prediction using evolutionary developmental biology principles.",
+     "a": "The plant is a monocot (parallel venation, trimerous flowers, fibrous roots). Monocot pollen is typically monocolpate (single aperture), while dicot pollen is typically tricolpate (three apertures). This reflects the basal angiosperm condition: monocolpate is ancestral, tricolpate is derived in eudicots. A wrong prediction (tricolpate) reveals reliance on memorized lists without understanding the evolutionary correlation between pollen aperture type and major angiosperm lineages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the post-fertilization development of the ovule in a gymnosperm (e.g., Pinus) and an angiosperm (e.g., Pisum sativum). Analyze how the presence or absence of an ovary wall alters the fate of the integuments, nucellus, and megagametophyte tissue.",
+     "a": "In Pinus (gymnosperm): ovule is naked on megasporophyll; integuments form seed coat; nucellus is consumed; megagametophyte (haploid) persists as nutritive tissue (female gametophyte). In Pisum (angiosperm): ovule enclosed in ovary; integuments form testa; nucellus usually consumed; megagametophyte (embryo sac) degenerates after fertilization; triploid endosperm (new tissue) becomes nutritive. The ovary wall develops into fruit (pericarp). A wrong comparison stating \"both have endosperm\" reveals confusion between haploid female gametophyte tissue (gymnosperms) and triploid endosperm (angiosperms) — a critical evolutionary innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All monocots have scattered vascular bundles in the stem and all dicots have vascular bundles in a ring.\" Identify the error and provide two specific counterexamples with scientific names.",
+     "a": "The statement is an overgeneralization. Counterexamples: (1) Some monocots like Dracaena, Yucca, and Aloe show anomalous secondary growth with vascular bundles in a ring (monocots with ring arrangement). (2) Some dicots like Piper, Peperomia, and Nymphaea have scattered vascular bundles (dicots with scattered arrangement). The error: confusing a common pattern with a defining taxonomic character. Vascular bundle arrangement is a consequence of cambial activity, not a primary classification criterion — cotyledon number is.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation protocol to distinguish between a dicot and monocot seedling at the 2-leaf stage without uprooting the plant, using only visible morphological features. List the steps and the decision criteria.",
+     "a": "Protocol: (1) Observe cotyledon number — two broad cotyledons = dicot; one narrow, sheathing cotyledon (scutellum) often hidden = monocot. (2) Observe leaf venation on first true leaves — reticulate = dicot; parallel = monocot. (3) Observe root system by gently exposing base — taproot with laterals = dicot; fibrous adventitious roots = monocot. Decision: majority rule across three criteria. A poor protocol relying only on \"leaf shape\" reveals inability to identify diagnostic characters that persist across developmental stages — cotyledon number is the only definitive embryonic character.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

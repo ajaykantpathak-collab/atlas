@@ -1,0 +1,80 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 9,
+  "chapter_title": "Practical and Project Work",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_009_practical_project.txt",
+  "concepts": [
+    {
+      "id": "am12_009.1",
+      "title": "Assessment Plan Internal and External",
+      "definition": "The Applied Mathematics course is assessed out of 100 marks: an external three-hour pen-and-paper examination carries 80 marks and internal assessment carries 20 marks, spread across projects and Excel-based practicals chosen from the suggested activity list during the academic year.",
+      "formula": "-",
+      "key_idea": "Internal assessment rewards continuous, activity-based work: projects and spreadsheet practicals accumulate through the semester instead of resting on one sitting.",
+      "question_patterns": [
+        "How many marks does the external examination carry in Applied Mathematics?",
+        "What are the components of internal assessment in this course?",
+        "State the duration of the external pen-and-paper examination.",
+        "Out of how many marks is the Applied Mathematics course assessed overall?",
+        "Who chooses the practical activities for internal assessment?"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_009.2",
+      "title": "Spreadsheet Graphs and Matrix Operations",
+      "definition": "The practical syllabus uses a spreadsheet to plot graphs of functions and to perform matrix operations: entry-wise addition and subtraction, scalar multiplication, matrix product and the determinant of small matrices, all by cell formulas instead of by hand.",
+      "formula": "-",
+      "key_idea": "Spreadsheet formulas mirror the algebra: a cell range holds each matrix, a formula fills each entry of the result, and changing one input cell updates the whole computation - which is what makes simulation practical.",
+      "question_patterns": [
+        "Which spreadsheet formula computes the determinant of a 2 x 2 matrix stored in cells A1:B2?",
+        "Describe how to plot y = x^2 for x from {x1} to {x2} on a spreadsheet.",
+        "How would you multiply two 2 x 2 matrices cell by cell in a spreadsheet?",
+        "Name the matrix operations suggested for Excel-based practicals.",
+        "Why do spreadsheets suit simulation exercises?"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_009.3",
+      "title": "Simulation and Business Decision Inference",
+      "definition": "Simulation repeats a randomised model many times to study the spread of outcomes before a decision is taken, and data analysis turns recorded results into inferences for business decisions: comparing scenarios, spotting trends and quantifying risk before committing resources.",
+      "formula": "-",
+      "key_idea": "A single forecast gives one number; a simulation gives a distribution. Decision-making uses that spread to weigh the downside as well as the average, which is the practical payoff of the analytical methods in this course.",
+      "question_patterns": [
+        "How does simulation support business decision-making compared with a single estimate?",
+        "What is meant by data visualisation in project work?",
+        "Give one example of a demand-supply situation a project could simulate.",
+        "State the steps of analysing data for a meaningful inference.",
+        "Why is the spread of simulated outcomes important for a decision?"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "A student must plot y = 2x + 1 for x = 0 to 5 on a spreadsheet and read where y = 11. Describe the workflow.",
+      "a": "Fill column A with 0..5, put the formula =2*A1+1 in B1 and drag down to get y = 1, 3, 5, 7, 9, 11. Insert a scatter chart with straight lines. Reading the pair x = 5, y = 11 answers the question, and the table itself verifies the line."
+    },
+    {
+      "q": "In a simulation of daily demand, 40 trials give average demand 52 units with values from 38 to 70. Why is this more useful for stock decisions than one estimate of 52?",
+      "a": "The range shows the risk: stocking 52 units would run short whenever demand exceeds it, which happened in several of the 40 trials. The distribution tells the manager to weigh the cost of extra stock against the cost of shortages, rather than trusting the average alone."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "State the internal and external mark split for the course.",
+        "Write the spreadsheet steps to multiply a 2 x 2 matrix by a scalar 3.",
+        "Design a mini project that simulates queue length at a canteen counter.",
+        "Name two chart types suited to time-series data and say why.",
+        "Explain how a project converts data into a decision inference.",
+        "Give one activity each for matrix operations and for demand-supply analysis."
+      ]
+    }
+  ]
+}

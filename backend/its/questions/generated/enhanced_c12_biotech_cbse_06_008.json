@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_008",
+   "title": "c12_biotech_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define organogenesis in the context of plant tissue culture and distinguish it from somatic embryogenesis based on the origin of the regenerated structure.",
+     "a": "Organogenesis is the de novo formation of organs (shoots/roots) directly from meristematic cells or via an intermediate callus phase, where the vascular connection to the parent tissue is established *after* organ initiation. In somatic embryogenesis, a bipolar embryo with pre-formed shoot and root poles arises from a single cell or group of cells *without* vascular connection to the parent tissue until germination. A wrong answer (e.g., \"both form whole plants so they are the same\") reveals the student confuses the *developmental origin* and *polarity establishment* — a critical distinction for protocol design because somatic embryos can be encapsulated as synthetic seeds while organogenic shoots cannot.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares MS medium with 2 mg/L NAA (auxin) and 0.5 mg/L BAP (cytokinin) for shoot induction from tobacco leaf callus. After 4 weeks, only callus proliferation occurs with no shoots. Explain why this happened using the Skoog-Miller concept.",
+     "a": "The auxin:cytokinin ratio is 4:1 (high auxin), which promotes root formation or callus maintenance, not shoot induction. Shoot induction requires a *high cytokinin-to-auxin ratio* (typically ≥ 10:1, e.g., 2 mg/L BAP : 0.1 mg/L NAA). The student reversed the ratio. A wrong answer (e.g., \"NAA is needed for shoots\") reveals the student memorized \"auxin for roots, cytokinin for shoots\" but fails to apply the *quantitative ratio principle* — the core predictive tool in organogenesis. This error leads to failed protocols in exams and labs.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a new medicinal plant species. Preliminary tests show its leaf explants form callus on MS + 2,4-D (2 mg/L) but fail to regenerate shoots on MS + BAP (2 mg/L) + NAA (0.1 mg/L). Propose a systematic 3-step experimental strategy to optimize shoot regeneration, justifying each step.",
+     "a": "Step 1: Test a cytokinin titration (BAP 0.5–5 mg/L) with fixed low auxin (NAA 0.05 mg/L) — because cytokinin type/concentration is species-specific; BAP may be suboptimal vs. kinetin or TDZ. Step 2: If no shoots, switch to *direct organogenesis* by eliminating the callus phase — culture explants directly on shoot-induction medium — because prolonged 2,4-D exposure causes epigenetic silencing of morphogenic competence. Step 3: Add antioxidants (ascorbic acid 50 mg/L, PVP 1 g/L) and test dark/light regimes — because phenolic oxidation from medicinal plant metabolites often kills meristematic zones. A poor answer (e.g., \"increase BAP\") shows inability to diagnose *multiple interacting constraints* (hormone type, callus history, oxidative stress) — a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast *direct organogenesis* and *indirect organogenesis* in terms of: (a) genetic fidelity of regenerants, (b) time to plantlet formation, (c) utility for genetic transformation, and (d) risk of somaclonal variation.",
+     "a": "(a) Direct: high fidelity (meristematic cells retain epigenetic memory); Indirect: lower fidelity (callus phase involves dedifferentiation/redifferentiation cycles). (b) Direct: faster (skips callus induction + 2–3 subcultures); Indirect: slower (4–8 weeks extra). (c) Direct: preferred for transformation (single-cell origin of transgenic sectors reduces chimeras); Indirect: higher chimera risk but easier Agrobacterium infiltration of friable callus. (d) Direct: minimal somaclonal variation; Indirect: high risk (callus accumulates chromosomal rearrangements, DNA methylation changes). A wrong answer (e.g., \"indirect is better for transformation because more cells\") reveals misunderstanding of *chimera formation* and *somaclonal variation mechanisms* — both heavily tested in JEE/NEET application questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For commercial micropropagation, indirect organogenesis via callus is preferred over direct organogenesis because it produces higher multiplication rates.\" Support your evaluation with two specific arguments.",
+     "a": "The statement is **false**. Argument 1: Indirect organogenesis carries unacceptable somaclonal variation risk for commercial clones — varietal integrity is paramount in horticulture/forestry; direct organogenesis from axillary buds/nodal segments maintains true-to-type fidelity. Argument 2: Indirect protocols are *longer* (callus induction → shoot induction → rooting → hardening) and *less predictable* (genotype-dependent callus competence); direct nodal cultures achieve 5–10× multiplication per 4-week cycle with minimal labor. A wrong evaluation (e.g., \"true because callus gives more shoots\") shows the student prioritizes *theoretical shoot number* over *commercial reality* (fidelity, time, cost, regulatory compliance) — a classic board exam \"application\" trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete two-stage organogenesis protocol (shoot induction → root induction) for *Withania somnifera* (ashwagandha) nodal explants, specifying: basal medium, PGRs with concentrations (mg/L), carbon source, gelling agent, pH, and culture conditions for each stage. Justify each choice in one sentence.",
+     "a": "**Stage 1 (Shoot Induction):** MS medium + 30 g/L sucrose + 8 g/L agar + 2 mg/L BAP + 0.5 mg/L kinetin + 0.1 mg/L NAA, pH 5.7; 16-h photoperiod (25±2°C, 40 μmol/m²/s). *Justification:* BAP+kinetin synergy breaks apical dominance in woody perennials; low NAA prevents basal callusing; MS salts support high metabolic demand. **Stage 2 (Root Induction):** ½ MS + 20 g/L sucrose + 8 g/L agar + 1 mg/L IBA + 0.5 mg/L NAA, pH 5.7; dark 48 h → 16-h photoperiod. *Justification:* ½ MS reduces salt stress for root elongation; IBA is stable/non-polar for better uptake; brief dark mimics soil conditions for root initiation. A poor design (e.g., \"same medium for both stages\") reveals inability to *stage-specific optimize* hormonal and nutritional needs — the hallmark of a competent tissue culturist.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

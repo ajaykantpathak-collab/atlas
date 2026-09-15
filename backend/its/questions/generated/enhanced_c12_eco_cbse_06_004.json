@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_004",
+   "title": "c12_eco_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define deadweight loss in the context of monopoly. What two curves bound the deadweight loss triangle?",
+     "a": "Deadweight loss is the loss of total surplus (consumer surplus + producer surplus) due to monopoly restricting output below the socially efficient level. It is bounded by the demand curve (marginal benefit) and the marginal cost curve, between the monopoly quantity and the competitive quantity (where P = MC). A wrong answer (e.g., saying it's bounded by MR and MC) reveals confusion between the profit-maximizing condition and the efficiency condition.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a monopoly create deadweight loss while a perfectly competitive market does not? Explain using the relationship between price, marginal cost, and marginal benefit.",
+     "a": "In perfect competition, firms produce where P = MC, so the marginal benefit to consumers (price) equals the marginal cost of production, maximizing total surplus. A monopoly produces where MR = MC, and since demand is downward sloping, P > MR, so at the monopoly quantity P > MC. This means consumers value additional units more than they cost to produce, but the monopoly withholds them to keep price high, creating deadweight loss. A wrong answer that says monopoly also produces at P = MC reveals a misunderstanding of monopoly pricing.",
+     "self_check": true
+    },
+    {
+     "q": "A monopoly faces demand P = 100 - Q and has constant marginal cost MC = 20. Calculate the monopoly quantity, price, competitive quantity, and the deadweight loss (show steps).",
+     "a": "Steps:\n1. Monopoly: MR = 100 - 2Q. Set MR = MC => 100 - 2Q = 20 => Q_m = 40. Price P_m = 100 - 40 = 60.\n2. Competitive: P = MC => 100 - Q = 20 => Q_c = 80.\n3. Deadweight loss = 0.5 * (Q_c - Q_m) * (P_m - MC) = 0.5 * (80 - 40) * (60 - 20) = 0.5 * 40 * 40 = 800.\nA wrong answer might use the wrong height (e.g., P_m - P_c) or wrong base, revealing misunderstanding of the DWL triangle dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deadweight loss of a monopoly with constant MC = 20 and linear demand P = 100 - Q to a monopoly with the same demand but increasing marginal cost MC = 10 + 0.5Q. Which monopoly creates larger deadweight loss? Explain intuitively.",
+     "a": "With increasing MC, the competitive quantity is lower (since MC rises, intersection with demand occurs at lower Q). The monopoly quantity will also be lower. Compute both:\n- Constant MC: DWL = 800 (as above).\n- Increasing MC: MR = 100 - 2Q, MC = 10 + 0.5Q. MR = MC => 100 - 2Q = 10 + 0.5Q => 90 = 2.5Q => Q_m = 36. P_m = 64. Competitive: P = MC => 100 - Q = 10 + 0.5Q => 90 = 1.5Q => Q_c = 60. MC at Q_m = 10 + 18 = 28. DWL = 0.5 * (60 - 36) * (64 - 28) = 0.5 * 24 * 36 = 432.\nConstant MC monopoly has larger DWL. A wrong answer might assume increasing MC always increases DWL without calculation, missing that competitive quantity also shrinks.",
+     "self_check": true
+    },
+    {
+     "q": "\"Government should always break up monopolies because they create deadweight loss.\" Evaluate this statement considering natural monopolies and economies of scale.",
+     "a": "While monopolies create allocative inefficiency (deadweight loss), breaking them up may not always improve welfare. In natural monopolies (e.g., utilities), economies of scale mean a single firm can produce at lower average cost than multiple firms. Breaking up could raise costs and prices, potentially increasing deadweight loss. Regulation (price caps, average cost pricing) may be better. A wrong answer that says \"always break up\" ignores the trade-off between allocative efficiency and productive efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple policy intervention (e.g., a per-unit subsidy) that could eliminate the deadweight loss in a monopoly with constant MC. Explain how it works and any practical challenges.",
+     "a": "A per-unit subsidy can shift the monopoly's effective marginal cost down so that it chooses the competitive quantity. For the example in Q3 (MC = 20, demand P = 100 - Q), competitive Q = 80. At Q = 80, MR = 100 - 2*80 = -60. We need MR = MC - s => -60 = 20 - s => s = 80. A subsidy of ₹80 per unit would make the monopoly produce 80 units. However, the monopoly would then earn huge profits, and the government must fund the subsidy via distortionary taxes, creating other deadweight losses. Practical challenges: determining the correct subsidy, funding it, and potential for rent-seeking. A poor answer might suggest a price ceiling without addressing the monopoly's incentive to reduce quality or exit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

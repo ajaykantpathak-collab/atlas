@@ -1,0 +1,253 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip107",
+ "concepts": [
+  {
+   "id": "keip107.1",
+   "title": "Manual Attendance Register Volume",
+   "questions": [
+    {
+     "q": "How many manual entries pile up over a 10-month session for the 50-student class? Use the method 'Manual Attendance Register Volume'. Work with: month_count = 15, student_count = 24, working_days = 50. Carry the chain through step by step and give the final value of session_entries.",
+     "a": "18000 units",
+     "self_check": false
+    },
+    {
+     "q": "How many marks are written per day for a class of 50 students? Use the method 'Manual Attendance Register Volume'. Work with: month_count = 200, student_count = 6, working_days = 400. Carry the chain through step by step and give the final value of session_entries.",
+     "a": "480000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Manual Attendance Register Volume' refers to.",
+     "a": "Marking attendance by hand multiplies fast: one mark per student per working day means the class teacher writes student-count times working-days entries every month, and the school year multiplies that again. The sheer volume explains why pen-and-paper registers invite skipped rows, wrong names and tiring totals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Manual Attendance Register Volume'.",
+     "a": "Multiply students by working days for one month's marks, then by the number of months for the whole session's workload.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Manual Attendance Register Volume', in plain ASCII form.",
+     "a": "monthly_entries = student_count * working_days",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.2",
+   "title": "File System Limitations",
+   "questions": [
+    {
+     "q": "Using the method 'File System Limitations', work with: access = 8, dependence = 45, isolation = 60, redundancy = 240. Carry the chain through step by step and give the final value of file_system_drawbacks.",
+     "a": "353 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'File System Limitations' and work with: access = 80, dependence = 150, isolation = 4, redundancy = 4. Carry the chain through step by step and give the final value of file_system_drawbacks.",
+     "a": "238 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'File System Limitations' refers to.",
+     "a": "Storing school records as separate files brings six recurring troubles: data can be reached only by writing programs, the same facts get duplicated in many files, duplicated copies drift out of agreement, related files have no link between them, programs break when a file's layout changes, and fine-grained read-only access is hard to enforce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'File System Limitations'.",
+     "a": "Files alone cannot retrieve, link, de-duplicate or police data; programs must do everything, and they break on format changes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'File System Limitations', in plain ASCII form.",
+     "a": "file_system_drawbacks = access + redundancy + isolation + dependence",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.3",
+   "title": "Removing Redundancy by Splitting Tables",
+   "questions": [
+    {
+     "q": "Using the method 'Removing Redundancy by Splitting Tables', work with: attendance_tuples = 75, new_column_count = 4, old_column_count = 200. Carry the chain through step by step and give the final value of cells_saved.",
+     "a": "14700 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Removing Redundancy by Splitting Tables' and work with: attendance_tuples = 20, new_column_count = 24, old_column_count = 200. Carry the chain through step by step and give the final value of cells_saved.",
+     "a": "3520 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Removing Redundancy by Splitting Tables' refers to.",
+     "a": "Moving from files to a database trims duplicated storage. Dropping the student-name column from the attendance table removes one copied value from every attendance row, and housing guardian facts once in their own table (reached through a GUID) removes the repeated guardian details for siblings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Removing Redundancy by Splitting Tables'.",
+     "a": "Each dropped duplicated column saves one stored value per row; multiplying rows by dropped columns quantifies the saving.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Removing Redundancy by Splitting Tables', in plain ASCII form.",
+     "a": "cells_saved = cells_before - cells_after",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.4",
+   "title": "Degree and Cardinality of a Relation",
+   "questions": [
+    {
+     "q": "Using the method 'Degree and Cardinality of a Relation', work with: attribute_count = 5, cardinality_count = 18. Carry the chain through step by step and give the final value of values_stored.",
+     "a": "108 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Degree and Cardinality of a Relation' and work with: attribute_count = 5, cardinality_count = 15. Carry the chain through step by step and give the final value of values_stored.",
+     "a": "90 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Degree and Cardinality of a Relation' refers to.",
+     "a": "For any relation, the degree is a column count and the cardinality is a row count: GUARDIAN with its four columns and five guardian rows is a degree-4, cardinality-5 relation. Adding one more column raises the degree by one, and the grid of stored values is the degree multiplied by the cardinality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Degree and Cardinality of a Relation'.",
+     "a": "Columns give the degree, rows give the cardinality, and their product counts every stored value in the relation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Degree and Cardinality of a Relation', in plain ASCII form.",
+     "a": "values_stored = degree_count * cardinality_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.5",
+   "title": "Attendance Status P and A Tally",
+   "questions": [
+    {
+     "q": "Using the method 'Attendance Status P and A Tally', work with: absent_count = 20, working_days = 40. Carry the chain through step by step and give the final value of attendance_percent.",
+     "a": "50 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Attendance Status P and A Tally' and work with: absent_count = 20, working_days = 50. Carry the chain through step by step and give the final value of attendance_percent.",
+     "a": "60 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Attendance Status P and A Tally' refers to.",
+     "a": "The attendance table stores one letter per student per day, P for present or A for absent. A student's attendance figure for a period is the working days minus the absences, expressed as a percentage of the working days, and roll numbers link each status row back to the STUDENT table.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attendance Status P and A Tally'.",
+     "a": "Subtract the A-rows from the working days to get attended days, then scale by 100 for the percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attendance Status P and A Tally', in plain ASCII form.",
+     "a": "attendance_percent = attended_days / working_days * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.6",
+   "title": "DBMS Terms: Schema, Instance, Metadata",
+   "questions": [
+    {
+     "q": "Using the method 'DBMS Terms: Schema, Instance, Metadata', work with: instance = 500. Carry the chain through step by step and give the final value of database_state_snapshot.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DBMS Terms: Schema, Instance, Metadata' and work with: instance = 150. Carry the chain through step by step and give the final value of database_state_snapshot.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DBMS Terms: Schema, Instance, Metadata' refers to.",
+     "a": "A DBMS manages related data through a small vocabulary: the schema is the skeleton design of tables, columns and constraints; the instance is the snapshot of actual contents at a moment; metadata (the data dictionary or catalog) records the schema itself; a query asks for information; and insertion, deletion and update are the three data manipulation operations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DBMS Terms: Schema, Instance, Metadata'.",
+     "a": "Schema is the design, instance is the current contents, metadata describes the design, queries read, manipulation writes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DBMS Terms: Schema, Instance, Metadata', in plain ASCII form.",
+     "a": "database_state_snapshot = instance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.7",
+   "title": "Relational Model: Attribute, Tuple, Domain",
+   "questions": [
+    {
+     "q": "Using the method 'Relational Model: Attribute, Tuple, Domain', work with: attributes_by_tuples = 12. Carry the chain through step by step and give the final value of relation_grid.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Relational Model: Attribute, Tuple, Domain' and work with: attributes_by_tuples = 24. Carry the chain through step by step and give the final value of relation_grid.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Relational Model: Attribute, Tuple, Domain' refers to.",
+     "a": "In the relational data model a table is a relation: its columns are attributes, each row is a tuple, and every attribute draws values from one domain (its permitted set, usually fixed by a data type). Three properties hold: attribute names are unique and their order is immaterial, tuples are distinct and unordered, and every value is atomic, single-valued and domain-conforming, with NULL marking the unknown.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relational Model: Attribute, Tuple, Domain'.",
+     "a": "Columns are named attributes over fixed domains, rows are distinct unordered tuples, and every cell holds one atomic value or NULL.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Relational Model: Attribute, Tuple, Domain', in plain ASCII form.",
+     "a": "relation_grid = attributes_by_tuples",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip107.8",
+   "title": "Keys: Candidate, Primary, Composite, Foreign",
+   "questions": [
+    {
+     "q": "Using the method 'Keys: Candidate, Primary, Composite, Foreign', work with: rollnumber_plus_attendancedate = 512. Carry the chain through step by step and give the final value of composite_key_parts.",
+     "a": "512 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Keys: Candidate, Primary, Composite, Foreign' and work with: rollnumber_plus_attendancedate = 2048. Carry the chain through step by step and give the final value of composite_key_parts.",
+     "a": "2048 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Keys: Candidate, Primary, Composite, Foreign' refers to.",
+     "a": "Keys police uniqueness and relationships. Attributes that never repeat are candidate keys; the designer picks one as the primary key and the rest become alternate keys; when no single attribute suffices, two or more join into a composite primary key such as {RollNumber, AttendanceDate}; and an attribute pointing at another table's primary key is a foreign key, which may stay NULL when it is not part of its own table's key.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Keys: Candidate, Primary, Composite, Foreign'.",
+     "a": "Candidate keys are the options, the chosen one is primary, leftovers are alternate, combined ones are composite, and cross-table pointers are foreign.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Keys: Candidate, Primary, Composite, Foreign', in plain ASCII form.",
+     "a": "composite_key_parts = rollnumber_plus_attendancedate",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

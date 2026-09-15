@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_011",
+   "title": "c12_geo_cbse_21_011",
+   "questions": [
+    {
+     "q": "What is the minimum number of GPS satellites a receiver must track to determine a three-dimensional position (latitude, longitude, altitude) and why?",
+     "a": "A receiver needs signals from at least four satellites. Three satellites would give three equations for three unknowns (x, y, z), but the receiver clock has an unknown bias relative to the highly accurate satellite atomic clocks, adding a fourth unknown (receiver clock offset). Four satellites provide four equations to solve for x, y, z, and clock bias.  \nA wrong answer of \"three satellites\" reveals the student overlooks the receiver clock error and assumes perfect synchronization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why GPS signals are transmitted on two carrier frequencies (L1 = 1575.42 MHz and L2 = 1227.60 MHz) and how this helps reduce ionospheric error.",
+     "a": "The ionosphere delays GPS signals proportionally to 1/f². By transmitting on two frequencies, the receiver can measure the differential delay between L1 and L2 and compute the ionospheric correction, effectively removing the first-order ionospheric error. A wrong answer that says \"for redundancy\" or \"to increase bandwidth\" misses the physics of frequency-dependent dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "A GPS receiver in Mumbai measures pseudoranges of 20,200 km, 20,450 km, 20,100 km, and 20,600 km from four satellites. If the receiver clock bias is estimated as +1.2 ms, calculate the corrected geometric ranges. (Speed of light c = 299,792.458 km/s)",
+     "a": "Clock bias distance = bias × c = 0.0012 s × 299,792.458 km/s ≈ 359.75 km.  \nCorrected ranges = pseudorange – clock bias distance:  \n20,200 – 359.75 = 19,840.25 km  \n20,450 – 359.75 = 20,090.25 km  \n20,100 – 359.75 = 19,740.25 km  \n20,600 – 359.75 = 20,240.25 km.  \nA student who forgets to convert ms to s or subtracts instead of adds reveals confusion about pseudorange vs. true geometric range.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial accuracy of standalone GPS (~5–10 m) with DGPS (~1 m) and RTK-GPS (~1–2 cm). Identify the key error sources each technique mitigates.",
+     "a": "Standalone GPS suffers from satellite clock/orbit errors, ionospheric/tropospheric delays, and multipath. DGPS uses a fixed base station to transmit corrections for spatially correlated errors (satellite clock, orbit, atmosphere) reducing error to ~1 m. RTK adds carrier-phase measurements and integer ambiguity resolution to achieve cm-level accuracy, but requires short baselines (<10–20 km) and continuous lock. A wrong answer that attributes cm accuracy to DGPS or ignores baseline limits shows misunderstanding of error correlation distance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of GPS for mapping a dense urban canyon (e.g., Old Delhi) versus an open agricultural field (e.g., Punjab plains). Discuss multipath and satellite visibility.",
+     "a": "In urban canyons, tall buildings block low-elevation satellites and cause severe multipath (reflected signals), degrading accuracy to >20 m or causing loss of fix. In open fields, sky visibility is near-hemispheric, multipath minimal, and accuracy approaches 5 m. GPS is unsuitable for high-precision urban mapping without augmentation (e.g., RTK with choke-ring antennas, or integration with total station). A student who says \"GPS works equally well everywhere\" ignores geometry (GDOP) and multipath physics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a GPS-based field survey plan to map the boundary of a 50-ha village pond in West Bengal during monsoon. Specify equipment, observation strategy, and quality checks.",
+     "a": "Equipment: Dual-frequency RTK-GPS (base + rover), choke-ring antenna, pole, controller. Strategy: Set base on known benchmark (or establish via PPP), occupy rover at 20–30 m intervals along pond edge, log 30-second epochs at each point. Quality checks: (1) PDOP < 4, (2) ≥5 satellites, (3) fixed integer solution, (4) repeat 10% points for closure, (5) compare with high-resolution satellite imagery. A poor plan uses single-frequency handheld GPS, ignores monsoon cloud cover (irrelevant for GPS but affects imagery), or omits redundancy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

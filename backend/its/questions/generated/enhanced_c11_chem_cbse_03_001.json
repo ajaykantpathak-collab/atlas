@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_001",
+   "title": "c11_chem_cbse_03_001",
+   "questions": [
+    {
+     "q": "State Mendeleev's Periodic Law in your own words, and give one example of how he applied it to correct the atomic weight of an element.",
+     "a": "Mendeleev's Periodic Law: The physical and chemical properties of elements are periodic functions of their atomic weights. Example: Mendeleev placed tellurium (atomic weight 127.6) before iodine (atomic weight 126.9) because tellurium's properties matched Group VI (forms TeO₂, H₂Te) while iodine matched Group VII (forms HI, I₂O₅). A wrong answer (e.g., \"properties are periodic functions of atomic numbers\") reveals confusion with the modern periodic law; a wrong example (e.g., \"he corrected beryllium's atomic weight from 13.5 to 9\") indicates the student hasn't studied the specific historical corrections Mendeleev made.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mendeleev leave gaps in his periodic table and assign temporary names like eka-aluminium and eka-silicon? Explain the reasoning he used to predict the properties of these missing elements.",
+     "a": "Mendeleev left gaps because his arrangement showed regular intervals where no known element fit the expected properties; he predicted that undiscovered elements would eventually fill those gaps. He used the properties of surrounding elements (especially the formulae of their oxides, chlorides, and hydrides) and interpolation of atomic weights, densities, melting points, etc., to forecast the missing elements' characteristics. A wrong answer (e.g., \"he left gaps for aesthetic symmetry\" or \"he used atomic number to predict\") shows the student misses the core idea: chemical periodicity allowed prediction before discovery, and atomic weight (not atomic number) was the ordering parameter.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for four elements A, B, C, D, arrange them in a Mendeleev-style group and predict the formula of the chloride of the missing element between B and C.\n\n| Element | Atomic Weight | Oxide Formula | Chloride Formula |\n|---------|---------------|---------------|------------------|\n| A       | 27            | A₂O₃          | ACl₃             |\n| B       | 70            | B₂O₃          | BCl₃             |\n| C       | 180           | C₂O₃          | CCl₃             |\n| D       | 207           | D₂O₃          | DCl₃             |",
+     "a": "Step 1: All elements form M₂O₃ and MCl₃, indicating valency 3 → same group.  \nStep 2: Order by atomic weight: A (27), B (70), [gap], C (180), D (207).  \nStep 3: The gap between B (70) and C (180) suggests a missing element X with atomic weight ~125 (midway).  \nStep 4: Since the group valency is 3, the chloride formula is XCl₃.  \nStep 5: The oxide would be X₂O₃.  \nA wrong answer (e.g., XCl₂ or XCl₄) reveals the student cannot infer valency from given compound formulae; a wrong ordering (e.g., placing C before B) shows inability to use atomic weight as the primary sequencing parameter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mendeleev's periodic table with Newlands' law of octaves. Identify two specific reasons why Mendeleev's table was more successful in accommodating known elements and predicting new ones.",
+     "a": "Reason 1: Mendeleev used a broader range of physical and chemical properties (especially compound formulae like oxides and chlorides) to group elements, whereas Newlands relied mainly on atomic weight order and musical analogy, which forced elements into rigid octaves that failed beyond calcium.  \nReason 2: Mendeleev intentionally left gaps for undiscovered elements and predicted their properties, while Newlands' table had no provision for missing elements and even placed two elements in the same slot (e.g., Co and Ni).  \nA wrong answer (e.g., \"Mendeleev used atomic number\") confuses the historical sequence; an answer that only says \"Mendeleev's table was longer\" misses the conceptual superiority of property-based grouping over rigid numerical patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Mendeleev's prediction of eka-aluminium (gallium) was 100% accurate in all properties.\" Use the data from Table 3.3 (NCERT) to support your judgment.",
+     "a": "The statement is false. From Table 3.3: predicted atomic weight 68 vs actual 70 (error ~2.9%), predicted density 5.9 g/cm³ vs actual 5.94 (error <1%), predicted melting point \"low\" vs actual 302.93 K (qualitative match), predicted oxide E₂O₃ matches Ga₂O₃, predicted chloride ECl₃ matches GaCl₃. While most predictions were remarkably close, the atomic weight and density had small deviations. A student who says \"100% accurate\" overlooks the quantitative discrepancies; a student who says \"completely wrong\" fails to appreciate the unprecedented predictive power. The correct evaluation acknowledges near-accuracy with minor errors due to experimental limitations of the era.",
+     "self_check": true
+    },
+    {
+     "q": "Design a card-sorting activity for Class 11 students to simulate Mendeleev's method of classifying elements. Specify what information each card should carry, the sorting rules, and how the activity demonstrates the need to sometimes invert atomic weight order.",
+     "a": "Each card: element symbol, atomic weight (as known in 1869), formulae of oxide and chloride, physical state, metal/non-metal character. Sorting rules: (1) Arrange cards in increasing atomic weight. (2) Group cards with similar oxide/chloride formulae into vertical columns. (3) If an element's properties fit a group better at a slightly different atomic weight position, move it there (inversion). (4) Leave blank cards for gaps where expected properties are missing. The activity shows that chemical behaviour (valency, compound stoichiometry) is the primary classifier; atomic weight order is secondary and can be violated (e.g., Te/I, Ar/K). A poor design would omit compound formulae or forbid inversions, missing the essence of Mendeleev's insight.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_002",
+   "title": "c11_stat_cbse_03_002",
+   "questions": [
+    {
+     "q": "A researcher has collected data on the literacy rate (%) of all Indian states for the year 2021. If the researcher arranges this data in a table listing states alphabetically, what is the basis of classification? Is it Chronological, Geographical, Qualitative, or Quantitative?",
+     "a": "The basis is **Geographical** because the data is grouped by spatial location (states). A wrong answer of \"Quantitative\" reveals the student is confusing the *nature of the variable* (literacy rate is quantitative) with the *basis of classification* (the grouping criterion is state/location). A wrong answer of \"Chronological\" reveals the student thinks any tabular arrangement is time-based.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the same raw dataset (e.g., Census 2011 data on individuals) can be classified using different bases. Give one example where Qualitative classification would be more useful than Quantitative classification for the same variable \"education level\".",
+     "a": "Classification basis depends on the *analytical objective*, not the data itself. For \"education level\", Qualitative classification (illiterate, primary, secondary, graduate) is more useful when studying social mobility patterns because it preserves the categorical nature of educational attainment. Quantitative classification (years of schooling: 0, 5, 10, 15) would be better for regression analysis. A wrong answer that says \"Quantitative is always better because numbers are more precise\" reveals the misconception that numerical classification is superior, ignoring that qualitative categories capture meaningful social boundaries that numbers obscure.",
+     "self_check": true
+    },
+    {
+     "q": "You are given the following raw data: \"Annual rainfall (mm) in Mumbai for 2010-2020\". Construct a Chronological classification table. Then, explain why this same data *cannot* be meaningfully classified using a Geographical basis.",
+     "a": "**Chronological table:**\n| Year | Rainfall (mm) |\n|------|---------------|\n| 2010 | 2200 |\n| 2011 | 1950 |\n| ...  | ...  |\n| 2020 | 2400 |\n\n**Reason:** Geographical classification requires *multiple locations* (e.g., rainfall in Mumbai, Delhi, Chennai). With only one location (Mumbai), there is no spatial variation to classify. A wrong answer that creates a table with \"Mumbai\" as a row and years as columns reveals the student doesn't understand that classification requires *variation in the grouping criterion* — you cannot classify by geography if there's only one geographical unit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Qualitative and Quantitative classification using the variable \"occupation\" from a household survey. Specifically: (a) How would you create classes for each? (b) What analytical purpose does each serve? (c) Why does Quantitative classification of occupation require an artificial coding scheme?",
+     "a": "(a) **Qualitative:** Classes = Farmer, Teacher, Doctor, Engineer, Unemployed (based on nature of work). **Quantitative:** Classes = Occupation codes 1-10 (e.g., 1=Agriculture, 2=Manufacturing, ...) or income brackets of occupations. (b) Qualitative reveals sectoral workforce composition; Quantitative enables statistical correlation (e.g., occupation code vs. income). (c) Occupation is inherently qualitative — there is no natural numerical ordering. Quantification requires *imposing* an arbitrary coding system (like NIC codes), which may not reflect true distances between categories. A wrong answer that says \"Quantitative classification of occupation is just grouping by salary\" reveals confusion between the variable *occupation* and the variable *income*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For studying the trend of India's GDP growth rate from 1950-2020, Qualitative classification (High Growth, Moderate Growth, Low Growth) is better than Chronological classification because it simplifies the data.\"",
+     "a": "The statement is **flawed**. Chronological classification (year-by-year GDP growth rates) is *essential* for trend analysis because it preserves the time sequence — you can see acceleration, deceleration, cyclical patterns, and structural breaks. Qualitative classification into \"High/Moderate/Low\" *destroys* the temporal information and the magnitude of changes. It might be useful for a *summary report* for policymakers, but not for *trend analysis*. A student who agrees reveals the misconception that \"simplification\" is always good, ignoring that classification must serve the analytical purpose — oversimplification loses critical information.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where you would need to use **all four bases of classification simultaneously** on the same raw dataset. Describe the dataset, the four classifications, and the specific policy question each classification would help answer.",
+     "a": "**Dataset:** National Sample Survey (NSS) 2022-23 unit-level data on households: state, survey year, social group (SC/ST/OBC/General), monthly per capita expenditure (MPCE).\n\n**Four classifications & policy questions:**\n1. **Chronological** (by survey round/year): \"Has poverty declined over the last decade?\"\n2. **Geographical** (by state/region): \"Which states have the highest inequality?\"\n3. **Qualitative** (by social group): \"Is the expenditure gap between SC/ST and General category narrowing?\"\n4. **Quantitative** (by MPCE fractile classes: bottom 20%, middle 60%, top 20%): \"What is the consumption share of the top 20% vs bottom 20%?\"\n\nA poor answer that uses four different datasets for each basis reveals the student hasn't grasped that *one dataset* can be *re-classified* in multiple ways for different questions — the essence of flexible data organisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

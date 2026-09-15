@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_09_010",
+   "title": "c11_hin_ar_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define \"denotation\" and \"connotation\" in your own words, then give one example from everyday Hindi usage where a word's connotation significantly differs from its denotation (not from the textbook).",
+     "a": "Denotation is the literal, dictionary definition of a word — its neutral, context-free meaning. Connotation is the set of emotional, cultural, and associative meanings that a word carries beyond its literal definition. Example: the Hindi word \"तांत्रिक\" (tantrik) denotes \"related to systems/techniques\" but connotes mystery, occult power, and fear in popular usage. A wrong answer that defines connotation as \"another meaning of the word\" (treating it as a secondary denotation rather than an associative field) reveals the student has not grasped that connotation is *cultural and emotional*, not definitional — it lives in the reader's associations, not in the dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the author uses a specific word to describe a key action or state. Identify one word whose connotation shifts depending on its context within the chapter — a word that means something different early in the text versus later. Explain how the surrounding textual environment changes the word's connotative weight.",
+     "a": "A strong answer identifies a word that the author uses in two different passages where the surrounding context alters its connotation. For example, if the author uses a word associated with \"movement\" early in the chapter in a context of freedom or journey, and later uses the same word in a context of displacement or compulsion, the denotation (physical movement) remains constant but the connotation shifts from liberation to loss. The textual environment — the verbs, adjectives, and images surrounding the word — determines which connotation is activated. A wrong answer that treats the word as having a fixed connotation regardless of context reveals the student does not understand that connotation is *contextually activated* — the same word can carry opposite emotional charges in different textual environments.",
+     "self_check": true
+    },
+    {
+     "q": "Identify a semantic field (a cluster of related words) that runs through the chapter — for example, words related to light/darkness, movement/stillness, sound/silence, or growth/decay. List at least four words from this field and explain how the field as a whole constructs one of the chapter's central themes.",
+     "a": "A strong answer identifies a consistent semantic field (e.g., words of constraint: \"बंधन\" [bond], \"कैद\" [imprisonment], \"रस्सी\" [rope], \"दीवार\" [wall]) and explains that the repeated use of this field constructs the theme of confinement — not through a single statement but through the *accumulation* of related words that build an atmospheric sense of being trapped. The theme emerges from the *pattern* of word choices, not from any single word. A wrong answer that lists four words but cannot explain how they *collectively* construct a theme (treating each word as independently meaningful rather than as nodes in a semantic network) reveals the student can identify vocabulary but cannot perform *semantic field analysis* — the senior-secondary skill of reading words as an interconnected system rather than as isolated units.",
+     "self_check": true
+    },
+    {
+     "q": "Take one key word from the chapter and replace it with a close synonym. Write both the original sentence and the revised sentence. Then explain precisely what is gained and what is lost in the replacement — how the synonym changes the tone, connotation, or thematic implication of the passage.",
+     "a": "A strong answer selects a word with a rich connotative field and a synonym that shares the denotation but differs in connotation. For example, replacing \"घुटन\" [choking/suffocation, connoting slow, internal, emotional suppression] with \"रुकन\" [stopping, connoting mechanical, external, neutral interruption] in a sentence about emotional experience. The original word carries the connotation of *internal, bodily, suffocating* emotion; the synonym carries only the denotation of *cessation of flow*. What is lost: the bodily, visceral quality of the experience. What is gained: clarity and neutrality — but at the cost of the emotional depth that the original word provided. A wrong answer that claims \"the meaning is the same, just a different word\" reveals the student treats synonyms as interchangeable — missing that in literary texts, *no synonym is truly equivalent* because each carries a unique connotative charge that shapes the reader's experience.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the author's use of register (formality level) in the chapter. Identify one passage where the register shifts — from formal to colloquial, or from elevated to plain — and explain how this shift serves a thematic or rhetorical purpose. Why does the author break the register at that specific point?",
+     "a": "A strong answer identifies a register shift and explains its function. For example, if the author uses formal, literary Hindi throughout a passage of reflection and then shifts to colloquial, direct speech in a moment of emotional outburst, the register shift enacts the *breakdown of composure* — the formal register represents controlled, distanced narration, and the colloquial shift represents raw, unfiltered emotion breaking through. The shift is not arbitrary but *dramatizes* the emotional turning point: the author uses register as a *structural device* to mark the moment where the narrator's controlled surface cracks. A wrong answer that identifies a register shift but explains it as \"the author's style\" or \"for variety\" reveals the student sees register as decorative rather than *functional* — missing that register shifts are deliberate rhetorical acts that serve specific thematic purposes at specific narrative moments.",
+     "self_check": true
+    },
+    {
+     "q": "Select a key word from the chapter that you believe is the single most important word for understanding the chapter's central theme. Write a 4-5 sentence justification arguing why *this* word — and not a synonym or related word — is the key that unlocks the chapter's meaning. Address denotation, connotation, semantic field membership, and the consequence of its replacement.",
+     "a": "A strong answer selects a word that is both thematically central and connotatively rich, and justifies its centrality through multiple analytical lenses. For example: \"The word 'याद' [memory/remembrance] is the chapter's key because its denotation (the act of recalling) names the chapter's central action; its connotation (longing, loss, the ache of distance) names the chapter's central emotion; its semantic field (connecting to 'धुंध' [haze], 'बीता' [past], 'निशानी' [trace]) constructs the chapter's atmosphere of fading presence; and replacing it with 'स्मरण' [formal recollection] would strip the word of its emotional, bodily charge, reducing the chapter from an experience of longing to a clinical act of remembering.\" A poor answer that selects a word but justifies it only by its denotation (\"it means X and X is the theme\") reveals the student cannot perform multi-layered vocabulary analysis — the senior-secondary skill of reading a single word through denotation, connotation, semantic field, and replacement consequence simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_008",
+   "title": "c12_cs_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the default sort order when you write `ORDER BY column_name` without specifying ASC or DESC?",
+     "a": "The default sort order is ASC (ascending). A wrong answer (e.g., \"DESC\" or \"random\") reveals the student has not memorized the SQL standard default and may assume the database \"guesses\" or uses insertion order — a dangerous misconception because exam questions often test default behavior explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a table `SALES(Region, Product, Qty)`. A student writes:\n```sql\nSELECT Region, SUM(Qty) FROM SALES GROUP BY Region, Product;\n```\nThey claim this gives \"total quantity per region\". Explain why this is incorrect and what the query actually returns.",
+     "a": "The query returns total quantity per **Region-Product combination** (one row for each unique pair), not per region alone. Including `Product` in GROUP BY splits each region's data into multiple groups. A wrong explanation (e.g., \"it still gives per region because Region is first\") shows the student thinks GROUP BY columns are hierarchical rather than jointly defining the grouping key — a critical error for multi-column grouping questions in boards.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display each department's name and the number of employees earning more than ₹50,000, but only for departments having more than 5 such employees. Tables: `EMP(EmpID, Name, Salary, DeptID)`, `DEPT(DeptID, DeptName)`.",
+     "a": "```sql\nSELECT D.DeptName, COUNT(*) AS HighEarners\nFROM EMP E JOIN DEPT D ON E.DeptID = D.DeptID\nWHERE E.Salary > 50000\nGROUP BY D.DeptName\nHAVING COUNT(*) > 5;\n```\nA wrong answer that puts `Salary > 50000` in HAVING or omits the JOIN reveals confusion between row-level filtering (WHERE) and group-level filtering (HAVING), and inability to handle multi-table grouping — both frequent in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Two queries are given:\n```sql\n-- Query A\nSELECT DeptID, AVG(Salary) FROM EMP GROUP BY DeptID ORDER BY AVG(Salary) DESC;\n\n-- Query B\nSELECT DeptID, AVG(Salary) FROM EMP GROUP BY DeptID ORDER BY 2 DESC;\n```\nAre they equivalent? Justify your answer and explain which form is safer when the SELECT list changes.",
+     "a": "Yes, they are equivalent — `ORDER BY 2` refers to the second column in the SELECT list (AVG(Salary)). However, Query A is safer because if the SELECT list changes (e.g., adding a column at position 1), `ORDER BY 2` would silently sort by the wrong column, while `ORDER BY AVG(Salary)` remains explicit. A student who says \"they are identical and positional is better\" misses the maintenance risk — a concept tested in JEE-style \"which is better practice\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since ORDER BY executes after SELECT, I can use column aliases in ORDER BY but not in GROUP BY. Therefore, I should always use aliases in ORDER BY for readability.\" Evaluate this claim with an example where using an alias in ORDER BY causes a subtle bug.",
+     "a": "The claim is partially correct — aliases *can* be used in ORDER BY (standard SQL) but not in GROUP BY (in most dialects including MySQL). However, consider:\n```sql\nSELECT DeptID, AVG(Salary) AS AvgSal FROM EMP GROUP BY DeptID ORDER BY AvgSal;\n```\nIf later the query changes to `SELECT DeptID, AVG(Salary) AS AvgSal, MAX(Salary) AS MaxSal ... ORDER BY AvgSal`, it still works. But if the alias is reused: `SELECT DeptID, AVG(Salary) AS Sal, MAX(Salary) AS Sal ... ORDER BY Sal` — MySQL allows duplicate aliases and ORDER BY Sal becomes ambiguous (may pick first or throw error). Using `ORDER BY AVG(Salary)` avoids this. A student who doesn't see the alias collision risk writes fragile queries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you need GROUP BY on three columns, HAVING with two aggregate conditions, and ORDER BY on a computed column not in the SELECT list. Write the full query.",
+     "a": "Scenario: A grocery chain `STOCK(StoreID, Category, Product, Qty, UnitPrice)` wants: \"For each store-category-product, show total stock value (Qty*UnitPrice) only where total quantity > 100 AND total value > ₹50,000, sorted by total value descending.\"\n```sql\nSELECT StoreID, Category, Product, SUM(Qty*UnitPrice) AS TotalValue\nFROM STOCK\nGROUP BY StoreID, Category, Product\nHAVING SUM(Qty) > 100 AND SUM(Qty*UnitPrice) > 50000\nORDER BY TotalValue DESC;\n```\nA poor answer uses only one GROUP BY column, puts HAVING conditions in WHERE, or orders by a column not in SELECT without realizing MySQL allows it (but standard SQL does not). This tests synthesis of all clause interactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

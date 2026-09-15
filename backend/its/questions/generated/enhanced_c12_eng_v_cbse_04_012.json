@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_04_012",
+   "title": "c12_eng_v_cbse_04_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the nationality of the wounded man washed ashore?\" Explain your classification in one sentence.",
+     "a": "This is a LITERAL question. The text explicitly states: \"A white man!\" and \"A sailor... from an American warship... U.S. Navy.\" The answer is directly retrievable without interpretation. A wrong classification (calling it inferential) reveals the student confuses \"finding details\" with \"interpreting details\" — they may overthink explicit facts, wasting exam time searching for hidden meaning where none exists.",
+     "self_check": true
+    },
+    {
+     "q": "Classify this question and justify: \"Why did the old gardener say, 'If the master heals what the gun did and what the sea did they will take revenge on us'?\" What does this reveal about the gardener's worldview?",
+     "a": "This is an INFERENTIAL question. The gardener's words are explicit, but the question asks for the *reason behind his belief* — his superstitious worldview that nature/punishment follows moral transgression, and his conflation of medical ethics with betrayal. A literal answer would merely quote his dialogue. A wrong answer treats it as literal, missing the thematic link to \"prejudice masquerading as tradition\" — a key Board exam inference trap.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY the 3-step inference framework (Evidence → Reasoning → Conclusion) to answer: \"What does Sadao's unfinished police report in the secret drawer reveal about his internal conflict?\" Use exactly two textual evidences.",
+     "a": "Step 1 Evidence: \"On the twenty-first day of February an escaped prisoner was washed up on the shore in front of my house.\" (Explicit fact)\nStep 2 Evidence: \"So far he typed and then he opened a secret drawer of his desk and put the unfinished report into it.\" (Explicit action)\nStep 3 Reasoning: Writing the report fulfills legal duty; hiding it protects the patient. The physical act of locking it away mirrors his psychological compartmentalization.\nConclusion: Sadao is torn between civic obligation and medical conscience — he performs the *form* of patriotism but subverts its *substance*. A weak answer lists evidences without the \"Reasoning\" bridge, failing to show *how* the drawer symbolizes conflict.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE the difference in inferential depth between these two questions on the same scene (Sadao operating):\nA) \"What instrument did Sadao use to locate the bullet?\"\nB) \"Why does the narrator describe Sadao's 'purest pleasure' when his instrument strikes the bullet?\"\nExplain which requires higher-order inference and why.",
+     "a": "Question A is LITERAL (answer: \"exploring instrument\" / probe). Question B is DEEP INFERENTIAL — it asks for authorial purpose behind a paradoxical word choice (\"pleasure\" during enemy surgery). Higher-order because it requires: (1) recognizing irony — a doctor's professional satisfaction vs. human empathy, (2) linking to the anatomy professor's maxim (\"Ignorance... is murder\"), (3) connecting to the theme of skill transcending nationalism. Students who answer B with \"he was happy to find the bullet\" commit a literalisation error — they reduce psychological complexity to plot event.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE this student's inferential answer: \"Hana helps Sadao because she loves him.\" Is this a valid inference for \"What made Hana sympathetic to the enemy soldier despite servant defiance?\" (CBSE 2023, 3 marks). Justify your evaluation.",
+     "a": "INVALID — incomplete and reductive. The answer ignores textual counter-evidence: Hana's own fear (\"Don't try to save him! What if he should live?\"), her prejudice (\"He was the first she had seen since she left America... now he seemed to have nothing to do with those whom she had known there\"), and her agency (she washes him *herself* after Yumi refuses). A valid inference synthesizes: (1) wifely duty conditioned by Japanese gender norms, (2) American education creating cognitive dissonance with nationalist propaganda, (3) moral awakening when confronting raw suffering. The student's answer scores 0/3 — it substitutes a cliché for text-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE a new inferential question on the General's character that requires synthesizing his Princeton degree, his offer of assassins, and his final admission \"I forgot my promise.\" Write the question and a model 3-sentence answer.",
+     "a": "Question: \"How does the General's American education paradoxically enable his moral corruption in the matter of the enemy soldier?\"\nModel Answer: His Princeton degree makes him value Sadao's surgical skill over patriotism, leading him to prioritize personal survival over national duty. The offer of assassins reveals he treats state violence as a transactional tool, not a sacred obligation. His forgotten promise exposes self-absorption masquerading as aristocratic detachment — the ultimate critique of elite complicity. A poor question would be factual (\"Where did the General study?\"). A poor answer would describe plot without the \"paradox\" synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

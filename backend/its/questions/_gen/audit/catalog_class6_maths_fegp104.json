@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class6_maths_fegp104.json",
+ "concepts": [
+  {
+   "id": "fegp.4.1",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 + 2 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 7 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 60 / 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 3 * 50"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 55 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 60 / 240 * 360"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 6 + 2 + 6"
+   ]
+  },
+  {
+   "id": "fegp.4.2",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 2 + 5 + 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 30 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 8 * 50"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 70 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 50 / 200 * 360"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 2 + 5 + 2"
+   ]
+  },
+  {
+   "id": "fegp.4.3",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 + 7 + 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 7 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 55 / 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 2 * 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 20 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 60 / 240 * 360"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.4.4",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 + 8 + 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 7 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 70 / 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 10 * 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 100 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 75 / 300 * 360"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 5 + 8 + 5"
+   ]
+  }
+ ]
+}

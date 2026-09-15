@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_005",
+   "title": "c10_math_cbse_11_005",
+   "questions": [
+    {
+     "q": "Write the formula for the length of an arc of a sector with radius \\( r \\) and central angle \\( \\theta \\) (in degrees). State the meaning of each symbol.",
+     "a": "The formula is \\( L = \\frac{\\theta}{360^\\circ} \\times 2\\pi r \\), where \\( L \\) = arc length, \\( \\theta \\) = central angle in degrees, \\( r \\) = radius of the circle. If a student writes \\( L = \\frac{\\theta}{360^\\circ} \\times \\pi r^2 \\), they are confusing arc length with sector area — a very common error because both formulas use the same fraction \\( \\frac{\\theta}{360^\\circ} \\). If they omit the factor 2 or write \\( \\pi d \\) instead of \\( 2\\pi r \\), they have not fully internalised the circumference formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the arc length formula uses the fraction \\( \\frac{\\theta}{360^\\circ} \\) multiplied by \\( 2\\pi r \\). A student argues that for a 90° sector, the arc length should be \\( \\frac{1}{4} \\times \\pi r \\). Is the student correct? Justify your answer.",
+     "a": "The fraction \\( \\frac{\\theta}{360^\\circ} \\) represents the proportion of the full circle that the sector occupies. Since the full circumference is \\( 2\\pi r \\), the arc length is that same proportion of the circumference. The student is incorrect: \\( \\frac{1}{4} \\times \\pi r \\) uses the area formula's \\( \\pi r \\) (missing the square and the factor 2) instead of the circumference \\( 2\\pi r \\). The correct arc length for 90° is \\( \\frac{1}{4} \\times 2\\pi r = \\frac{\\pi r}{2} \\). This misconception reveals the student is mixing up the linear measure (circumference) with the quadratic measure (area).",
+     "self_check": true
+    },
+    {
+     "q": "A sector of a circle has radius 14 cm and central angle 45°. Calculate the length of the arc. Use \\( \\pi = \\frac{22}{7} \\). Show all steps.",
+     "a": "Given: \\( r = 14 \\) cm, \\( \\theta = 45^\\circ \\), \\( \\pi = \\frac{22}{7} \\).\nStep 1: Write formula: \\( L = \\frac{\\theta}{360^\\circ} \\times 2\\pi r \\).\nStep 2: Substitute: \\( L = \\frac{45}{360} \\times 2 \\times \\frac{22}{7} \\times 14 \\).\nStep 3: Simplify fraction: \\( \\frac{45}{360} = \\frac{1}{8} \\).\nStep 4: Cancel 14 and 7: \\( 2 \\times \\frac{22}{7} \\times 14 = 2 \\times 22 \\times 2 = 88 \\).\nStep 5: Multiply: \\( L = \\frac{1}{8} \\times 88 = 11 \\) cm.\nIf a student gets 5.5 cm, they likely used \\( \\pi r \\) instead of \\( 2\\pi r \\). If they get 22 cm, they forgot to divide by 8 (i.e., used \\( \\frac{45}{360} = \\frac{1}{4} \\) incorrectly). If they leave \\( \\pi \\) in the answer without substituting \\( \\frac{22}{7} \\), they haven't followed the instruction to use the given approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Two sectors have the same arc length. Sector A has radius 10 cm and angle 72°. Sector B has radius 15 cm. Find the angle of Sector B. What does this tell you about the relationship between radius and angle for a fixed arc length?",
+     "a": "Arc length of Sector A: \\( L = \\frac{72}{360} \\times 2\\pi \\times 10 = \\frac{1}{5} \\times 20\\pi = 4\\pi \\) cm.\nFor Sector B: \\( 4\\pi = \\frac{\\theta_B}{360} \\times 2\\pi \\times 15 \\).\nCancel \\( \\pi \\): \\( 4 = \\frac{\\theta_B}{360} \\times 30 \\).\n\\( \\frac{\\theta_B}{360} = \\frac{4}{30} = \\frac{2}{15} \\).\n\\( \\theta_B = \\frac{2}{15} \\times 360 = 48^\\circ \\).\nRelationship: For a fixed arc length, radius and angle are inversely proportional (\\( r \\propto \\frac{1}{\\theta} \\)). If a student assumes the angle is the same (72°), they are ignoring the change in radius. If they set up \\( \\frac{72}{360} \\times 10 = \\frac{\\theta_B}{360} \\times 15 \\) but forget the \\( 2\\pi \\) factor (which cancels anyway), they might still get the right answer by luck — but the correct reasoning must show the cancellation explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the radius of a sector with arc length 22 cm and angle 60°.\" Their working:\n\\( 22 = \\frac{60}{360} \\times 2 \\times \\frac{22}{7} \\times r \\)\n\\( 22 = \\frac{1}{6} \\times \\frac{44}{7} \\times r \\)\n\\( 22 = \\frac{44}{42} \\times r \\)\n\\( r = 22 \\times \\frac{42}{44} = 21 \\) cm.\nIs the student's answer correct? If not, identify the exact step where the error occurs and correct it.",
+     "a": "The student's final answer (21 cm) is correct, but the step \\( 22 = \\frac{44}{42} \\times r \\) contains an arithmetic error: \\( \\frac{1}{6} \\times \\frac{44}{7} = \\frac{44}{42} \\) is correct, but they should simplify \\( \\frac{44}{42} = \\frac{22}{21} \\) before solving. Then \\( 22 = \\frac{22}{21} \\times r \\) gives \\( r = 21 \\) directly. The student's multiplication \\( 22 \\times \\frac{42}{44} \\) works but is unnecessarily complicated and prone to cancellation mistakes. A better approach: simplify \\( \\frac{44}{42} \\) to \\( \\frac{22}{21} \\) first. If a student writes \\( r = 22 \\times \\frac{42}{44} = 21 \\) without simplifying, they may lose marks for not showing simplification in CBSE marking scheme. The error is not conceptual but procedural — missing the simplification step that makes the calculation transparent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires finding the arc length of a sector where the angle is NOT a standard angle (like 30°, 45°, 60°, 90°). The problem must involve a practical situation (e.g., fencing, piping, track). Provide the problem statement and solve it completely.",
+     "a": "Problem: A circular irrigation sprinkler covers a sector of a field with radius 20 metres. The sprinkler rotates through an angle of 135° to water a specific crop patch. Find the length of the curved boundary that gets watered. Use \\( \\pi = \\frac{22}{7} \\).\nSolution: \\( L = \\frac{135}{360} \\times 2 \\times \\frac{22}{7} \\times 20 = \\frac{3}{8} \\times \\frac{44}{7} \\times 20 = \\frac{3 \\times 44 \\times 20}{8 \\times 7} = \\frac{2640}{56} = \\frac{330}{7} = 47\\frac{1}{7} \\) m.\nA good answer includes: correct formula, proper substitution, simplification of \\( \\frac{135}{360} = \\frac{3}{8} \\), step-by-step arithmetic, and final answer in mixed fraction or decimal with units. A poor answer might use 135/360 without simplifying, leading to messy arithmetic, or forget to multiply by 2, or use radius as diameter. The problem tests whether the student can handle non-standard angles and simplify fractions before multiplying.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

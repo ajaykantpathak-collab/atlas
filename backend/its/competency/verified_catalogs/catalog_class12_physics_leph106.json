@@ -1,0 +1,535 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 106,
+ "chapter_title": "Electromagnetic Induction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph106.6.3.1",
+   "title": "Flux Linking a Tilted Coil",
+   "section": "6.3",
+   "definition": "The field-catch of a loop equals the field strength times its area times the cosine of the angle between the field and the area normal; for patchy fields the patch contributions are summed, and the weber is the unit.",
+   "formula": "mag_flux = mag_field * area * cos_tilt",
+   "key_idea": "Any of the three factors - field, area, orientation - can be varied to create the flux change that drives induction.",
+   "textbook_ref": "leph106.txt section 6.3 (Eqs. 6.1-6.2, Example 6.2 flux at 45 degrees)",
+   "question_patterns": [
+    "compute the flux through a square loop in a field at 45 degrees to its normal",
+    "find BA cos(theta) for a coil sitting in a uniform field",
+    "a loop of side 10 cm lies in a 0.10 T field; what flux threads it",
+    "how is flux through a curved surface in a non-uniform field handled",
+    "what are the unit and scalar nature of magnetic flux",
+    "name three ways to change the flux linked with a circuit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the loop area",
+     "explain": "a square of side s encloses s squared; a circle pi R squared",
+     "compute": "loop_area = side_len ** 2"
+    },
+    {
+     "step": 2,
+     "action": "project against the field",
+     "explain": "only the area component facing the field counts, giving BA cos(theta)",
+     "compute": "mag_flux = mag_field * loop_area * cos_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.4.1",
+   "title": "Induced Emf from Faraday Law",
+   "section": "6.4",
+   "definition": "A coil develops an emf whenever the flux threading it changes, with size equal to the turn count times how fast the flux changes per second; the minus sign only carries direction information.",
+   "formula": "emf_ind = turns * flux_change / time_gap",
+   "key_idea": "Steady flux gives no emf no matter how strong the field; only the rate of change matters, so faster motion or quicker switching yields larger emf.",
+   "textbook_ref": "leph106.txt section 6.4 (Eqs. 6.3-6.4, Examples 6.2-6.3)",
+   "question_patterns": [
+    "find the emf induced in a coil when its flux drops to zero in a given time",
+    "apply faraday law to get N times the flux change over the time taken",
+    "a 500-turn coil flips in the earth's field in 0.25 s; estimate the emf",
+    "why does holding the circuit key down stop the galvanometer deflection",
+    "compute the average emf during a steady flux decay",
+    "what emf appears while a solenoid current ramps at a steady rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the flux swing",
+     "explain": "the change is final flux minus initial flux",
+     "compute": "flux_change = flux_final - flux_start"
+    },
+    {
+     "step": 2,
+     "action": "rate per turn, scaled by turns",
+     "explain": "every turn contributes, so emf = N times flux change over time",
+     "compute": "emf_ind = turns * flux_change / time_gap"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.4.2",
+   "title": "Induced Current in a Closed Loop",
+   "section": "6.4",
+   "definition": "Once a loop offers resistance R, the induced emf drives a current of emf over R through it, and that current is what a galvanometer actually registers.",
+   "formula": "loop_current = emf_ind / loop_resist",
+   "key_idea": "Same emf, smaller resistance, bigger current; the emf itself appears even in an open circuit with no current at all.",
+   "textbook_ref": "leph106.txt section 6.4 (Example 6.2 current 2 mA, Example 6.3 current 1.9 mA)",
+   "question_patterns": [
+    "a loop of resistance 0.5 ohm sees a 1 mV emf; what current flows",
+    "divide the induced emf by the circuit resistance to get the current",
+    "find the induced current for the emf and resistance data",
+    "does an open cut loop still develop an emf when flux changes",
+    "compute I = emf over R for the given induction setup",
+    "how does the galvanometer reading relate to flux change and resistance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ohm law on the induced drive",
+     "explain": "the emf acts like a battery of value emf_ind",
+     "compute": "loop_current = emf_ind / loop_resist"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.5.1",
+   "title": "Lenz Law Direction Rule",
+   "section": "6.5",
+   "definition": "The induced current always picks the sense that fights the flux change causing it - pushing back on an approaching magnet and grabbing a departing one - which is exactly what energy conservation demands.",
+   "formula": "induced effect opposes the flux change that made it",
+   "key_idea": "The work you do against the opposing push becomes the Joule heat of the induced current, so a perpetual-motion shortcut is impossible.",
+   "textbook_ref": "leph106.txt section 6.5 (Lenz law statement, Fig. 6.6, Examples 6.4-6.5, Exercise 6.1-6.2)",
+   "question_patterns": [
+    "which way does the induced current circulate as a north pole approaches the coil",
+    "use lenz law to find the current direction in a loop leaving a field region",
+    "why does the induced current oppose the change in flux",
+    "how does lenz law follow from conservation of energy",
+    "a loop is squeezed in a steady field; what current direction follows",
+    "predict the galvanometer kick direction when the key is released"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the flux trend",
+     "explain": "decide whether flux through the loop is rising or falling"
+    },
+    {
+     "step": 2,
+     "action": "choose the opposing sense",
+     "explain": "the current's own field must point against a rise or support a fall"
+    },
+    {
+     "step": 3,
+     "action": "cross-check with energy",
+     "explain": "the chosen sense must make the motion harder, never easier, or energy would appear from nowhere"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.6.1",
+   "title": "Motional Emf of a Moving Rod",
+   "section": "6.6",
+   "definition": "Slide a rod of length l across a field B at speed v and its ends develop Blv: the swept area changes, and the Lorentz force herds the free charges along the rod.",
+   "formula": "motional_emf = mag_field * rod_len * speed",
+   "key_idea": "Two routes, one answer - the flux sweep of the growing loop and qvB work per charge both give the same Blv.",
+   "textbook_ref": "leph106.txt section 6.6 (Eq. 6.5-6.6, rail-and-rod circuit, Exercise 6.4, 6.6)",
+   "question_patterns": [
+    "a 1 m wire falls at 5 m/s across the earth's horizontal field component; find the emf",
+    "compute the motional emf Blv for a rod crossing a uniform field",
+    "what emf appears across a loop side exiting a 0.3 T field region at 1 cm/s",
+    "explain the origin of motional emf using the lorentz force on carriers",
+    "a horizontal wire drops through the earth field; which end sits at higher potential",
+    "how long does the emf last while a rectangular loop leaves a field patch"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sweep rate of the area",
+     "explain": "the rod wipes out a strip l times v of area each second",
+     "compute": "sweep_rate = rod_len * speed"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the field",
+     "explain": "emf equals B times the area sweep rate, Blv",
+     "compute": "motional_emf = mag_field * sweep_rate"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.6.2",
+   "title": "Emf of a Rotating Conductor",
+   "section": "6.6",
+   "definition": "Spin a rod about one end in an axial field and each slice dr of the rod contributes B v dr; integrating with v = omega r gives a centre-to-tip emf of half B omega R squared.",
+   "formula": "emf_rot = 0.5 * mag_field * omega * radius ** 2",
+   "key_idea": "Spokes act in parallel, so a wheel with many spokes gives the same emf as one rod; only the rim speed profile matters.",
+   "textbook_ref": "leph106.txt section 6.6 (Examples 6.6-6.7, 157 V rod, spoke wheel emf)",
+   "question_patterns": [
+    "a 1 m rod spins at 50 rev/s in a 1 T axial field; find the centre-to-rim emf",
+    "compute half B omega R squared for a rotating spoke",
+    "a 10-spoke wheel turns at 120 rev/min in a 0.4 G horizontal field; what emf joins axle and rim",
+    "why does the spoke count not change the emf of a rotating wheel",
+    "a rod hinged at one end rotates in a uniform field; derive its emf",
+    "find the emf of a rod swung at 400 rad/s in a 0.5 T field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert spin rate",
+     "explain": "omega equals 2 pi times the revolutions per second",
+     "compute": "omega = 2 * pi * rev_freq"
+    },
+    {
+     "step": 2,
+     "action": "integrate along the rod",
+     "explain": "summing B omega r dr from 0 to R gives half B omega R squared",
+     "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.1",
+   "title": "Inductance as Flux Linkage per Current",
+   "section": "6.7",
+   "definition": "For any fixed coil geometry the flux linkage N phi runs proportional to the current that makes it, and the ratio defines the inductance, a geometry-only scalar measured in henry.",
+   "formula": "inductance = flux_link / current",
+   "key_idea": "Inductance is the electromagnetic cousin of capacitance: set by shape and core material, not by how much current flows.",
+   "textbook_ref": "leph106.txt section 6.7 (flux linkage N phi proportional to I, henry unit, dimensions)",
+   "question_patterns": [
+    "define inductance of a coil in terms of flux linkage and current",
+    "what are the unit and dimensions of inductance",
+    "why does inductance depend only on geometry and core material",
+    "compute N phi over I for a given coil data",
+    "how is flux linkage defined for a closely wound coil",
+    "compare the role of inductance in a circuit with capacitance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "link the fluxes of all turns",
+     "explain": "for N tight turns each carrying the same flux, linkage equals N phi"
+    },
+    {
+     "step": 2,
+     "action": "divide by the driving current",
+     "explain": "the constant ratio is the inductance in henry"
+    },
+    {
+     "step": 3,
+     "action": "note the geometry lock",
+     "explain": "shape and core set L; the current value cancels out"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.2",
+   "title": "Mutual Inductance Between Two Coils",
+   "section": "6.7.1",
+   "definition": "A current changing in one coil at rate dI/dt drops an emf of M times that rate in its neighbour; the pairing constant M is symmetric (M12 = M21) and for coaxial solenoids equals mu0 n1 n2 pi r1 squared l.",
+   "formula": "emf_two = mutual_ind * current_rate",
+   "key_idea": "Symmetry of M lets you compute the easy direction: a small inner coil inside a big one feels a uniform field, so M follows at once.",
+   "textbook_ref": "leph106.txt section 6.7.1 (Eqs. 6.7-6.12, Example 6.8 concentric coils, Exercise 6.8)",
+   "question_patterns": [
+    "coils with mutual inductance 1.5 H see one current ramp 0 to 20 A in 0.5 s; what flux linkage changes in the other",
+    "find the emf induced in coil one when coil two's current changes at a steady rate",
+    "compute M for two long coaxial solenoids from turns per metre and radius",
+    "why is M12 equal to M21 for any coil pair",
+    "obtain the mutual inductance of a small coil centred inside a large one",
+    "how does an iron core change the mutual inductance of a solenoid pair"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rate of the driving current",
+     "explain": "the change per second drives the neighbour",
+     "compute": "current_rate = current_change / time_gap"
+    },
+    {
+     "step": 2,
+     "action": "couple through M",
+     "explain": "the neighbour's emf is M times that rate",
+     "compute": "emf_two = mutual_ind * current_rate"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.3",
+   "title": "Self Inductance and the Back Emf",
+   "section": "6.7.2",
+   "definition": "A coil fighting its own current change generates a back emf of L dI/dt opposite to the change, acting like electrical inertia against both growth and decay of current.",
+   "formula": "back_emf = self_ind * current_rate",
+   "key_idea": "Estimate L from a measured shutdown: L equals the average emf times the decay time over the current dropped.",
+   "textbook_ref": "leph106.txt section 6.7.2 (Eqs. 6.13-6.14, back emf as inertia, Exercise 6.7)",
+   "question_patterns": [
+    "a circuit drops from 5 A to zero in 0.1 s with a 200 V average emf; estimate L",
+    "why is the self-induced emf called a back emf",
+    "compute L dI over dt for a given current decay",
+    "what does self inductance measure about a coil",
+    "find the emf while a coil's own current ramps steadily",
+    "explain the analogy between inductance and mass in mechanics"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rate of current change",
+     "explain": "the coil sees its own dI/dt",
+     "compute": "current_rate = current_change / time_gap"
+    },
+    {
+     "step": 2,
+     "action": "scale by L",
+     "explain": "the magnitude of the back emf is L times the rate",
+     "compute": "back_emf = self_ind * current_rate"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.4",
+   "title": "Solenoid Self Inductance",
+   "section": "6.7.2",
+   "definition": "For a long solenoid the linkage works out to mu0 n squared A l times the current, so its inductance is mu0 n squared A l - and an iron core of relative permeability mur multiplies that again.",
+   "formula": "sol_ind = mu0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
+   "key_idea": "Inductance grows with the square of the turn density, so winding more turns into the same length is the fastest way to raise L.",
+   "textbook_ref": "leph106.txt section 6.7.2 (Eqs. 6.15-6.16 solenoid L derivation)",
+   "question_patterns": [
+    "derive L = mu0 n squared A l for a long solenoid",
+    "compute the self inductance of a solenoid from turn density, area and length",
+    "what happens to a solenoid's L when a soft iron core is inserted",
+    "how does doubling the turns per unit length change the inductance",
+    "evaluate mu0 mur n squared A l for the given solenoid data",
+    "why does the n squared factor appear in the solenoid inductance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the turn density",
+     "explain": "one factor of n comes from making the field, the other from linking the turns",
+     "compute": "turn_sq = turns_per_len ** 2"
+    },
+    {
+     "step": 2,
+     "action": "assemble L",
+     "explain": "L = mu0 mur n squared times the volume A l",
+     "compute": "sol_ind = mu0 * perm_rel * turn_sq * area * solenoid_len"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.5",
+   "title": "Energy Stored in an Inductor",
+   "section": "6.7.2",
+   "definition": "Building a current against the back emf banks work in the coil's field; the store equals half L I squared, the exact analogue of kinetic energy with L standing in for mass.",
+   "formula": "stored_energy = 0.5 * self_ind * current ** 2",
+   "key_idea": "The work rate is emf times current; integrating L I dI/dt over the buildup collects half L I squared in the magnetic field.",
+   "textbook_ref": "leph106.txt section 6.7.2 (Eq. 6.17, Example 6.9 magnetic energy of a solenoid)",
+   "question_patterns": [
+    "how much energy does a coil of inductance L carry at current I",
+    "compute half L I squared for the given inductor data",
+    "where does the work done against the back emf end up",
+    "show the analogy between inductor energy and kinetic energy",
+    "derive the energy expression by integrating L I dI",
+    "a current is built in a solenoid of known L; find the energy banked"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the current",
+     "explain": "energy scales with the square of the final current",
+     "compute": "current_sq = current ** 2"
+    },
+    {
+     "step": 2,
+     "action": "apply the half-L factor",
+     "explain": "the stored energy is half L times current squared",
+     "compute": "stored_energy = 0.5 * self_ind * current_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.6",
+   "title": "Magnetic Energy Density in a Field",
+   "section": "6.7.2",
+   "definition": "Dividing an inductor's stored energy by its volume leaves B squared over 2 mu0 per unit volume - a universal price tag for magnetic field, matching epsilon0 E squared over 2 on the electric side.",
+   "formula": "energy_density = mag_field ** 2 / (2 * mu0)",
+   "key_idea": "Energy lives in the field itself, not the wires: any region holding field B carries this density, whether or not a coil is around.",
+   "textbook_ref": "leph106.txt section 6.7.2 (Eq. 6.18, Example 6.9 part b comparison)",
+   "question_patterns": [
+    "find the energy per unit volume stored where the field is B",
+    "compute B squared over 2 mu0 for a stated field strength",
+    "compare magnetic and electric energy density formulas",
+    "show that solenoid energy divided by its volume gives B squared over 2 mu0",
+    "where is the energy of a current circuit physically located",
+    "evaluate the field energy density inside a strong electromagnet"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the field",
+     "explain": "density grows with the square of B",
+     "compute": "field_sq = mag_field ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by twice mu0",
+     "explain": "u = B squared over 2 mu0 is the stored density",
+     "compute": "energy_density = field_sq / (2 * mu0)"
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.8.1",
+   "title": "Peak Emf of an AC Generator",
+   "section": "6.8",
+   "definition": "Rotating a coil at constant rate makes its flux swing as BA cos(omega t), so the emf alternates sinusoidally with peak value NBA omega, delivered to the circuit through slip rings and brushes.",
+   "formula": "peak_emf = turns * mag_field * area * omega",
+   "key_idea": "Mechanical rotation becomes alternating electricity; the extrema land where the flux changes fastest, at coil edges parallel to the field.",
+   "textbook_ref": "leph106.txt section 6.8 (Eqs. 6.19-6.21, Example 6.10 bicycle generator 0.314 V)",
+   "question_patterns": [
+    "a 100-turn coil of area 0.10 m2 spins at half a revolution per second in a 0.01 T field; find the peak voltage",
+    "compute NBA omega for a generator coil",
+    "why does the generator emf reverse sign periodically",
+    "derive e = e0 sin(omega t) for a coil rotating in a uniform field",
+    "at what coil orientation does the generator emf peak",
+    "convert generator speed in rev/s into the peak emf produced"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "angular speed from rev/s",
+     "explain": "omega is 2 pi times the rotations per second",
+     "compute": "omega = 2 * pi * rev_freq"
+    },
+    {
+     "step": 2,
+     "action": "assemble the peak",
+     "explain": "the amplitude of NBA omega sin(omega t) is NBA omega",
+     "compute": "peak_emf = turns * mag_field * area * omega"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph106_1",
+   "source_ref": "leph106.txt Example 6.2 (square loop, 0.10 T at 45 degrees, decay in 0.70 s)",
+   "concept": "leph106.6.4.1",
+   "question_type": "flux_decay_emf_current",
+   "question_pattern": "A square loop of side {side_len} m and resistance {loop_resist} ohm sits at {tilt_deg} degrees to a {mag_field} T field that falls steadily to zero in {time_gap} s. Find the induced emf and current.",
+   "extracted_variables": {"side_len": 0.1, "mag_field": 0.1, "cos_tilt": 0.7071, "time_gap": 0.7, "loop_resist": 0.5, "turns": 1.0},
+   "solution_template": [
+    {"step": 1, "action": "loop area", "explain": "square area is side squared", "compute": "loop_area = side_len ** 2"},
+    {"step": 2, "action": "initial flux", "explain": "BA cos(theta) with the 45-degree cosine", "compute": "flux_start = mag_field * loop_area * cos_tilt"},
+    {"step": 3, "action": "average emf", "explain": "the full flux vanishes, so the change equals flux_start", "compute": "emf_ind = turns * flux_start / time_gap"},
+    {"step": 4, "action": "induced current", "explain": "I = emf over R", "compute": "loop_current = emf_ind / loop_resist"}
+   ]
+  },
+  {
+   "id": "we_leph106_2",
+   "source_ref": "leph106.txt Example 6.3 (500-turn coil flipped in earth field, 0.25 s)",
+   "concept": "leph106.6.4.2",
+   "question_type": "flipped_coil_emf",
+   "question_pattern": "A coil of {turns} turns, radius {radius} m and resistance {loop_resist} ohm is flipped 180 degrees in a {mag_field} T field in {time_gap} s. Estimate the emf and current.",
+   "extracted_variables": {"turns": 500.0, "radius": 0.1, "mag_field": 3.0e-05, "time_gap": 0.25, "loop_resist": 2.0, "cos_start": 1.0, "cos_final": -1.0},
+   "solution_template": [
+    {"step": 1, "action": "coil area", "explain": "circle of given radius", "compute": "loop_area = pi * radius ** 2"},
+    {"step": 2, "action": "starting flux", "explain": "cos 0 gives the full flux", "compute": "flux_start = mag_field * loop_area * cos_start"},
+    {"step": 3, "action": "ending flux", "explain": "after 180 degrees the cosine is -1", "compute": "flux_final = mag_field * loop_area * cos_final"},
+    {"step": 4, "action": "flux swing", "explain": "final minus start doubles the flux", "compute": "flux_change = flux_final - flux_start"},
+    {"step": 5, "action": "average emf", "explain": "N times swing over time", "compute": "emf_ind = turns * flux_change / time_gap"},
+    {"step": 6, "action": "current", "explain": "emf over resistance", "compute": "loop_current = emf_ind / loop_resist"}
+   ]
+  },
+  {
+   "id": "we_leph106_3",
+   "source_ref": "leph106.txt Example 6.6 (1 m rod at 50 rev/s in 1 T)",
+   "concept": "leph106.6.6.2",
+   "question_type": "rotating_rod_emf",
+   "question_pattern": "A rod of {radius} m spins about one end at {rev_freq} rev/s inside a {mag_field} T axial field. What emf joins centre and rim?",
+   "extracted_variables": {"radius": 1.0, "rev_freq": 50.0, "mag_field": 1.0},
+   "solution_template": [
+    {"step": 1, "action": "angular speed", "explain": "omega = 2 pi n", "compute": "omega = 2 * pi * rev_freq"},
+    {"step": 2, "action": "centre-to-rim emf", "explain": "half B omega R squared", "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"}
+   ]
+  },
+  {
+   "id": "we_leph106_4",
+   "source_ref": "leph106.txt Exercise 6.7 (current 5.0 A to 0 in 0.1 s, 200 V emf)",
+   "concept": "leph106.6.7.3",
+   "question_type": "self_inductance_estimate",
+   "question_pattern": "A circuit's current falls by {current_change} A in {time_gap} s, inducing an average {emf_ind} V. Estimate the circuit's self inductance.",
+   "extracted_variables": {"current_change": 5.0, "time_gap": 0.1, "emf_ind": 200.0},
+   "solution_template": [
+    {"step": 1, "action": "decay rate", "explain": "change per second", "compute": "current_rate = current_change / time_gap"},
+    {"step": 2, "action": "solve for L", "explain": "L is emf divided by the rate", "compute": "self_ind = emf_ind / current_rate"}
+   ]
+  },
+  {
+   "id": "we_leph106_5",
+   "source_ref": "leph106.txt Exercise 6.8 (M = 1.5 H, 0 to 20 A in 0.5 s)",
+   "concept": "leph106.6.7.2",
+   "question_type": "flux_linkage_change",
+   "question_pattern": "Adjacent coils share mutual inductance {mutual_ind} H. If the current in one climbs by {current_change} A in {time_gap} s, what flux-linkage change hits the other, and what emf appears?",
+   "extracted_variables": {"mutual_ind": 1.5, "current_change": 20.0, "time_gap": 0.5},
+   "solution_template": [
+    {"step": 1, "action": "linkage change", "explain": "N phi change equals M times the current change", "compute": "flux_link = mutual_ind * current_change"},
+    {"step": 2, "action": "ramp rate", "explain": "change per second", "compute": "current_rate = current_change / time_gap"},
+    {"step": 3, "action": "induced emf", "explain": "M times the rate", "compute": "emf_two = mutual_ind * current_rate"}
+   ]
+  },
+  {
+   "id": "we_leph106_6",
+   "source_ref": "leph106.txt Example 6.10 (100-turn coil, 0.10 m2, 0.5 rev/s, 0.01 T)",
+   "concept": "leph106.6.8.1",
+   "question_type": "generator_peak_voltage",
+   "question_pattern": "A {turns}-turn coil of area {area} m2 turns at {rev_freq} rev/s inside a {mag_field} T field. What peak voltage does the generator deliver?",
+   "extracted_variables": {"turns": 100.0, "area": 0.1, "rev_freq": 0.5, "mag_field": 0.01},
+   "solution_template": [
+    {"step": 1, "action": "angular speed", "explain": "omega = 2 pi n", "compute": "omega = 2 * pi * rev_freq"},
+    {"step": 2, "action": "peak emf", "explain": "NBA omega", "compute": "peak_emf = turns * mag_field * area * omega"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph106_6_1_to_6_2",
+   "source_ref": "leph106.txt end-of-chapter exercises 6.1-6.2",
+   "questions": [
+    "Predict the induced current direction for each of the loop-and-magnet situations shown in the chapter figures.",
+    "Use Lenz law to fix the current direction when (a) an irregular loop reshapes into a circle and (b) a circular loop collapses into a narrow straight wire."
+   ]
+  },
+  {
+   "id": "ex_leph106_6_3_to_6_5",
+   "source_ref": "leph106.txt end-of-chapter exercises 6.3-6.5",
+   "questions": [
+    "A solenoid wound at 15 turns per cm holds a 2.0 cm2 loop normal to its axis; the solenoid current climbs steadily from 2.0 A to 4.0 A in 0.1 s - what emf appears in the loop?",
+    "An 8 cm by 2 cm cut loop slides out of a 0.3 T field at 1 cm/s; find the emf across the cut when the velocity is normal to (a) the longer and (b) the shorter side, and how long each emf lasts.",
+    "A 1.0 m rod pivoted at one end spins at 400 rad/s in a 0.5 T axial field; compute the centre-to-ring emf."
+   ]
+  },
+  {
+   "id": "ex_leph106_6_6_to_6_8",
+   "source_ref": "leph106.txt end-of-chapter exercises 6.6-6.8",
+   "questions": [
+    "A 10 m east-west wire drops at 5.0 m/s across the earth's horizontal field of 0.30e-4 T: find the instantaneous emf, its direction, and which end sits at higher potential.",
+    "A current falls from 5.0 A to zero in 0.1 s while a 200 V average emf is induced; estimate the self inductance of the circuit.",
+    "Adjacent coils have mutual inductance 1.5 H; the current in one grows from 0 to 20 A in 0.5 s - what is the change of flux linkage with the other coil?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_006",
+   "title": "c12_chem_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the three distinct factors that give transition metals their catalytic activity, as per NCERT Class 12.",
+     "a": "The three factors are: (1) ability to adopt multiple oxidation states, (2) ability to form complexes with reactants, and (3) surface adsorption using (n-1)d and ns electrons (for heterogeneous catalysis). A wrong answer that lists only \"variable oxidation states\" reveals the student has overlooked the equally important roles of complex formation and surface bonding. A wrong answer mentioning \"high melting point\" or \"metallic lustre\" shows confusion between physical properties and catalytic function.",
+     "self_check": true
+    },
+    {
+     "q": "In the Contact Process, V₂O₅ catalyzes the oxidation of SO₂ to SO₃. Explain why V₂O₅ is effective, specifically describing the oxidation state changes of vanadium during the catalytic cycle.",
+     "a": "V₂O₅ works because vanadium can shift between +5 and +4 oxidation states. The cycle: V₂O₅ (+5) + SO₂ → V₂O₄ (+4) + SO₃; then V₂O₄ (+4) + ½O₂ → V₂O₅ (+5). The catalyst is regenerated. A wrong answer that says \"V₂O₅ provides a surface for adsorption only\" misses the crucial redox cycling. A wrong answer stating \"vanadium goes from +5 to +3\" shows incorrect oxidation state assignment.",
+     "self_check": true
+    },
+    {
+     "q": "The reaction 2I⁻ + S₂O₈²⁻ → I₂ + 2SO₄²⁻ is catalyzed by Fe³⁺ ions. Write the two-step catalytic cycle showing how Fe³⁺ is regenerated, and identify the oxidation state changes of iron in each step.",
+     "a": "Step 1: 2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂ (Fe³⁺ reduced to Fe²⁺). Step 2: 2Fe²⁺ + S₂O₈²⁻ → 2Fe³⁺ + 2SO₄²⁻ (Fe²⁺ oxidized back to Fe³⁺). Net: Fe³⁺ is regenerated. A wrong answer that writes Fe³⁺ → Fe⁰ or Fe⁴⁺ shows misunderstanding of common iron oxidation states. A wrong answer that omits the regeneration step fails to show the catalytic cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the catalytic action of finely divided iron in the Haber Process (N₂ + 3H₂ ⇌ 2NH₃) with that of nickel in the hydrogenation of ethene (C₂H₄ + H₂ → C₂H₆). How are the roles of the metal surfaces similar and different?",
+     "a": "Similarity: Both use surface adsorption — reactants (N₂/H₂ or C₂H₄/H₂) bind to the metal surface via (n-1)d/ns electrons, weakening bonds (N≡N, H-H, C=C) and increasing local concentration. Difference: Haber Process involves dissociative adsorption of N₂ (strong triple bond) requiring high temperature/pressure; hydrogenation involves π-complex formation with ethene and H₂ dissociation at milder conditions. A wrong answer that says \"both work by changing oxidation state\" is incorrect — these are heterogeneous catalysts where the metal remains in zero oxidation state; redox cycling is not the primary mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Zn²⁺ should be a good homogeneous catalyst because it's a d-block element.\" Evaluate this claim using the definition of transition metals and catalytic requirements.",
+     "a": "The claim is false. Zn has a completely filled d¹⁰ configuration in both atomic and common +2 oxidation state, so it is not a transition metal (per IUPAC). It cannot exhibit variable oxidation states, nor can it form complexes with the same lability as transition metals. Its d-orbitals are not available for bonding in the same way. A wrong answer that says \"Zn is a transition metal so it should work\" reveals the student hasn't mastered the transition metal definition (c12_chem_cbse_04_001). A wrong answer focusing only on \"Zn²⁺ is colourless\" misses the structural reason.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to demonstrate the catalytic effect of Cu²⁺ ions on the reaction between sodium thiosulphate and iodine (I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻). Specify what you would measure, the control, and how you would confirm catalysis.",
+     "a": "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature). Control: reaction without Cu²⁺. Catalysis confirmed if time decreases significantly and Cu²⁺ concentration remains unchanged (test by adding excess NH₃ to form deep blue [Cu(NH₃)₄]²⁺ after reaction). A poor answer that only says \"observe faster decolorization\" without a control or regeneration check shows lack of experimental design understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

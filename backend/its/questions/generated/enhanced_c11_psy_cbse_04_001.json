@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_001",
+   "title": "c11_psy_cbse_04_001",
+   "questions": [
+    {
+     "q": "A student states: \"Sensation is when I see a red apple; perception is when I recognise it as an apple.\" Identify the error in this statement and rewrite it correctly using the terms 'bottom-up' and 'top-down'.",
+     "a": "Correct statement: \"Sensation is the bottom-up registration of 'red', 'round', 'smooth' by visual receptors; perception is the top-down interpretation of those features as 'apple' using memory and concept knowledge.\" A wrong answer reveals the student conflates the *content* of experience (seeing an apple) with the *process* (detection vs. interpretation), failing to grasp that sensation deals with elementary attributes, not whole objects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same physical stimulus — a 440 Hz tone at 60 dB — can result in different perceptual experiences for a trained musician versus a novice listener. Use the terms 'sensation' and 'perception' in your explanation.",
+     "a": "Both individuals receive identical sensory input (same frequency, intensity → same auditory sensation of pitch/loudness). The musician's perception includes \"A4, tuning reference, slightly flat\" due to top-down schema; the novice perceives only \"a musical note.\" A wrong answer suggests the sensation differs, confusing sensory fidelity with perceptual enrichment, or claims perception is \"just more sensation.\"",
+     "self_check": true
+    },
+    {
+     "q": "While walking in a familiar park at dusk, you see a dark shape on the path. Initially you perceive a stray dog; seconds later you realise it is a folded garment. Trace the sequence from stimulus to corrected perception, labelling each stage as sensation or perception and identifying the top-down factor that caused the initial error.",
+     "a": "1. Light reflects off object → retinal image (sensation). 2. Low light + familiarity with dogs in park → perceptual hypothesis \"dog\" (perception, top-down: expectancy/set). 3. Closer inspection → detailed features (sensation). 4. Features mismatch dog schema → perceptual restructuring \"garment\" (perception, top-down: feature analysis). Wrong answers skip the hypothesis-generation step or treat correction as new sensation rather than perceptual reinterpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of 'absolute threshold' (AL) and 'difference threshold' (DL) in sensation versus their relevance (or irrelevance) in perception. Why can two stimuli be above AL yet produce identical perceptions?",
+     "a": "AL/DL are sensory limits: AL determines *if* a stimulus is detected; DL determines *if* a change is detected. Perception operates *above* these thresholds — once detected, stimuli are categorised, so two physically different but supra-threshold stimuli (e.g., two shades of blue within same DL) can yield identical perceptions (\"blue\"). Wrong answers treat thresholds as perceptual boundaries or claim perception \"sees\" differences below DL.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Perception is simply the sum of all sensations received at a given moment.\" Use the Gestalt principle 'the whole is different from the sum of its parts' and the concept of perceptual constancy to support your argument.",
+     "a": "The claim is false. Gestalt: we perceive a melody, not individual notes; a face, not isolated features — organisation creates emergent properties absent in parts. Constancy: retinal image size changes with distance (sensation varies), but perceived size remains stable (perception compensates). Perception actively constructs; it does not passively sum. Wrong answers agree with the claim or cite only one counter-example without the theoretical principle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only a whiteboard and marker) that allows Class 11 students to experience the distinction between sensation and perception in under two minutes. Describe the procedure, the expected sensation, the expected perception, and the top-down factor you are manipulating.",
+     "a": "Procedure: Draw \"13\" in ambiguous style (vertical strokes identical). Phase 1: Surround with \"12 13 14\" → students perceive \"13\" (top-down: numerical context). Phase 2: Replace with \"A 13 C\" → students perceive \"B\" (top-down: alphabetical context). Sensation (retinal image of middle figure) is identical; perception flips. Top-down factor: perceptual set/expectancy. Poor demonstrations confuse attention shifts with perceptual change or use stimuli where sensation actually differs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

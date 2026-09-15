@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_003",
+   "title": "c12_chem_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define mole fraction of a component in a binary solution. Write the mathematical expression and state the sum of mole fractions of all components.",
+     "a": "Mole fraction of component A, x_A = n_A / (n_A + n_B), where n_A and n_B are moles of A and B. Sum of mole fractions of all components in a solution is always 1. A wrong answer (e.g., using masses instead of moles, or forgetting the sum = 1) reveals confusion between mass-based and mole-based concentration terms — a critical error for colligative property calculations later.",
+     "self_check": true
+    },
+    {
+     "q": "A solution is 20% (w/w) glucose (C₆H₁₂O₆, molar mass 180 g mol⁻¹) in water. Without calculating, explain whether the mole fraction of glucose will be greater than, less than, or equal to 0.20. Justify using molar masses.",
+     "a": "Mole fraction of glucose will be less than 0.20. In 100 g solution: 20 g glucose (0.111 mol) and 80 g water (4.44 mol). x_glucose = 0.111/(0.111+4.44) ≈ 0.024. Since water has a much smaller molar mass (18 g mol⁻¹) than glucose (180 g mol⁻¹), the same mass of water corresponds to many more moles, making x_glucose much smaller than mass fraction. A student answering \"greater than\" or \"equal to\" is incorrectly assuming mass fraction ≈ mole fraction, ignoring molar mass differences.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molarity of a solution containing 5.00 g of NaOH (molar mass 40.0 g mol⁻¹) dissolved in enough water to make 250.0 mL of solution. Show all steps with units.",
+     "a": "Step 1: Moles of NaOH = mass / molar mass = 5.00 g / 40.0 g mol⁻¹ = 0.125 mol.\nStep 2: Volume in litres = 250.0 mL × (1 L / 1000 mL) = 0.2500 L.\nStep 3: Molarity = moles / volume(L) = 0.125 mol / 0.2500 L = 0.500 M.\nCommon error: forgetting to convert mL to L (giving 0.0005 M) or using mass of solution instead of volume of solution. Both reveal a fundamental misunderstanding of the definition of molarity.",
+     "self_check": true
+    },
+    {
+     "q": "A 10% (w/w) NaCl solution has density 1.07 g mL⁻¹ at 298 K. Compare its molarity and molality qualitatively (which is larger?) and explain why the difference arises. (Molar mass NaCl = 58.5 g mol⁻¹)",
+     "a": "For dilute aqueous solutions, density ≈ 1 g mL⁻¹, so 1 kg solution ≈ 1 L solution, and molarity ≈ molality. Here density = 1.07 g mL⁻¹ > 1, so 1 L solution has mass 1070 g. In 1 L: mass of NaCl = 10% of 1070 g = 107 g → moles = 107/58.5 ≈ 1.83 mol → M ≈ 1.83 M. Mass of water = 1070 - 107 = 963 g = 0.963 kg → m = 1.83/0.963 ≈ 1.90 m. Thus molality > molarity because the solution volume (1 L) contains less than 1 kg of solvent (water) due to added solute mass increasing density. A student saying \"molarity > molality\" ignores the density > 1 effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares 500 mL of 0.2 M KMnO₄ solution by dissolving 15.8 g of KMnO₄ (molar mass 158 g mol⁻¹) in 500 mL of water. Identify the error in this procedure and state the correct procedure.",
+     "a": "Error: The student added solute to 500 mL of *water*, not *solution*. The final volume will exceed 500 mL, so concentration will be < 0.2 M. Correct procedure: Dissolve 15.8 g KMnO₄ in a smaller volume of water (e.g., 200 mL), then transfer to a 500 mL volumetric flask and dilute to the mark. This tests understanding that molarity is defined per litre of *solution*, not per litre of solvent. A student who misses this will consistently prepare solutions of wrong concentration in lab.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to determine the molar mass of an unknown non-volatile solute using only a balance, a volumetric flask, and the freezing point depression method. List the measurements needed and the formula connecting them. (K_f for water = 1.86 K kg mol⁻¹)",
+     "a": "Procedure: (1) Weigh ~10 g unknown solute (w₂). (2) Weigh ~100 g water (w₁) in a container. (3) Dissolve solute in water. (4) Measure freezing point depression ΔT_f. (5) Use M₂ = (K_f × w₂ × 1000) / (ΔT_f × w₁). Measurements: w₂, w₁, ΔT_f. Formula derived from ΔT_f = K_f × m and m = (w₂/M₂) / (w₁/1000). A poor answer omits the 1000 factor (unit conversion g→kg) or uses molarity instead of molality, revealing confusion between volume-based and mass-based concentration terms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

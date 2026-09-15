@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_001",
+   "title": "c11_bio_cbse_06_001",
+   "questions": [
+    {
+     "q": "Name the three types of meristematic tissues classified on the basis of their location in the plant body.",
+     "a": "The three types are **apical meristem** (at root and shoot tips), **lateral meristem** (along the sides of stems and roots, e.g., vascular cambium and cork cambium), and **intercalary meristem** (at the base of nodes or internodes in grasses). A wrong answer that lists parenchyma, collenchyma, or sclerenchyma reveals confusion between meristematic and permanent tissue categories.",
+     "self_check": true
+    },
+    {
+     "q": "Why do meristematic cells typically have dense cytoplasm, a prominent nucleus, thin cellulosic walls, and lack large vacuoles?",
+     "a": "These features support rapid cell division: dense cytoplasm and a large nucleus provide the metabolic machinery and genetic material for mitosis; thin walls allow easy expansion after division; absence of large vacuoles prevents mechanical hindrance to chromosome segregation. A wrong answer citing \"storage of food\" or \"mechanical support\" indicates the student is attributing permanent tissue functions to meristematic cells.",
+     "self_check": true
+    },
+    {
+     "q": "A student examines a transverse section of a young stem under a microscope and observes vascular bundles arranged in a distinct ring. The bundles are conjoint, open, and show endarch protoxylem. Identify the plant group (monocot/dicot) and justify your answer using tissue organization.",
+     "a": "The stem is **dicotyledonous**. Reasoning: (1) Ring arrangement of vascular bundles is a hallmark of dicot stems. (2) Conjoint, open bundles with cambium allow secondary growth, typical of dicots. (3) Endarch protoxylem (maturing from centre to periphery) is characteristic of dicot stems. A wrong answer of \"monocot\" shows inability to link bundle arrangement and cambium presence to the correct plant group.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional roles of intercalary meristem in grasses with apical meristem in a dicot herb. How does their location relate to the plant's response to grazing or pruning?",
+     "a": "Apical meristem at the shoot tip drives primary elongation; if removed (pruning), the main stem stops lengthening but axillary buds may grow. Intercalary meristem at the base of nodes/internodes in grasses allows rapid regrowth of cut leaves and stems because the meristem remains below the grazing height. A wrong answer that states both are at the tips fails to recognize the adaptive significance of intercalary meristem location in monocots.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All permanent tissues in plants are dead at maturity and provide only mechanical support.\"",
+     "a": "**False.** While sclerenchyma (fibres and sclereids) are dead at maturity and provide mechanical support, **parenchyma** remains living, thin-walled, and performs photosynthesis, storage, secretion, and wound healing. Collenchyma is also living and provides flexible support. A student who agrees with the statement has overgeneralized from sclerenchyma to all permanent tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a germinating bean seed to demonstrate that root elongation occurs only in the region just behind the root tip (zone of elongation) and not uniformly along the root.",
+     "a": "Mark the radicle of a germinating bean seed with waterproof ink at 1 mm intervals. Allow it to grow for 24 hours. Measure the distance between marks: marks near the tip will have moved apart (elongation zone), while marks higher up remain unchanged. A good answer includes a control (unmarked seed) and notes that the meristematic zone itself (first 0.5–1 mm) shows little elongation. A poor answer merely states \"measure root length daily\" without spatial resolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

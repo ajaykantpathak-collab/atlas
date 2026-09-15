@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_010",
+   "title": "c12_eng_k_cbse_06_010",
+   "questions": [
+    {
+     "q": "List three words from the poem that end with an extra *-e* in Donne’s spelling but not in modern English.",
+     "a": "Correct: *houres, shadowes, Sunne, noone, clearnesse, behinde, doe, onely, sunnes* (any three). A wrong answer (e.g., *love, make, blind*) reveals the student cannot distinguish archaic orthography from modern spelling — they are scanning for any *-e* ending rather than recognizing the historical convention of a silent final *-e* that was later dropped.",
+     "self_check": true
+    },
+    {
+     "q": "The poem writes *loves philosophy* without an apostrophe. Explain why this is not a grammatical error in Donne’s time.",
+     "a": "Correct: In early 17th-century English, the possessive *-s* was often written without an apostrophe; the apostrophe became standard only later. A wrong answer (e.g., “Donne forgot the apostrophe” or “It’s a typo”) shows the student imposes modern punctuation rules on a historical text, missing the Language Work note that explicitly states “the apostrophe is not used for indicating the possessive form.”",
+     "self_check": true
+    },
+    {
+     "q": "Convert the archaic word *hearde* (not in the poem but from the same period) to modern spelling and use it in a sentence that shows its meaning.",
+     "a": "Correct: Modern spelling *heard*; sentence: “I *heard* the bell ring at noon.” A wrong answer (e.g., keeping *hearde* or writing *hear*) indicates the student hasn’t internalized the rule that final *-e* after a consonant was typically silent and later dropped — they are guessing rather than applying the pattern observed in *houres → hours, shadowes → shadows*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the meaning of *infant* in isolation versus in the phrase *infant loves* (line 7). How does the context change the interpretation?",
+     "a": "Correct: In isolation, *infant* means “a very young child.” In *infant loves*, it functions metaphorically as an adjective meaning “new, immature, in its earliest stage,” describing the lovers’ love as young and undeveloped. A wrong answer (e.g., “it means the lovers are babies”) shows literalism — the student fails to see the transferred epithet where *infant* modifies the abstract noun *loves*, not the people.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Do the archaic spellings (*houres, Sunne, clearnesse*) enhance or hinder a modern reader’s understanding of the poem’s central argument about love’s stages? Justify your view.",
+     "a": "Correct: They enhance by signalling the poem’s historical distance and reinforcing the “lecture” tone — the archaic forms act like a period costume, preparing the reader for Donne’s intellectual play. However, they can hinder if the reader stumbles on *clearnesse* and misses the contrast with *shadowes*. A balanced evaluation acknowledging both effects is required. A wrong answer (“They just make it hard to read”) reveals a surface-level frustration without analytical depth; the student hasn’t linked form to meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write two original lines of poetry that imitate Donne’s orthography: use at least three words with an added final *-e* and one possessive without an apostrophe.",
+     "a": "Example: “The *sunne* doth rise, the *shadowes* fle, / *Times* winged chariot *hurries* me.” (Archaic: *sunne, shadowes, Times* [for *Time’s*], *hurries* → *hurriese* if forced). A poor answer uses modern spelling throughout or adds *-e* randomly (e.g., *lovee*), showing the student treats the task as decoration rather than a rule-governed historical system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

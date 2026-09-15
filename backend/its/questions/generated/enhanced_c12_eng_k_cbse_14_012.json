@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_14_012",
+   "title": "c12_eng_k_cbse_14_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"According to Shaw, what fraction of our lifetime do we spend sleeping?\"",
+     "a": "Literal. The answer (\"one third\") is explicitly stated in the opening paragraph of Shaw's essay. A wrong answer (e.g., \"inferential\") reveals the student cannot distinguish between directly retrievable facts and conclusions requiring reasoning. This confusion leads to wasting time searching for \"hidden meaning\" where none exists, or worse, missing explicit answers in exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why does Krishnamurti say discipline destroys sensitivity?\" by writing: \"Because he says 'sensitivity is destroyed when one is disciplined.'\" Explain why this answer, though it uses a direct quote, fails as an inferential response.",
+     "a": "The answer merely repeats the claim without explaining the REASONING Krishnamurti provides (discipline builds walls of \"do's and don'ts,\" creates fear of tradition/authority, encloses the mind in self-concern). A student who does this treats inferential questions as \"find a matching sentence\" tasks. They miss that inference requires unpacking the LOGICAL CHAIN: discipline → fear/conformity → self-enclosure → loss of outward awareness → insensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this new question on Shaw's text: \"What does Shaw mean when he writes 'Nature is kind to her slaves'?\" Provide a one-sentence inference supported by two textual details.",
+     "a": "Shaw means natural necessities (eating, sleeping, reproduction) are biologically pleasurable, unlike man-made slavery which is hateful. Evidence 1: \"If she forces you to eat and drink, she makes eating and drinking so pleasant that when we can afford it we eat and drink too much.\" Evidence 2: \"Sleep is so pleasant that we have great difficulty in getting up in the morning.\" A wrong answer would either quote without explaining the contrast (literal retrieval masquerading as inference) or offer a vague claim like \"Nature treats us well\" without textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between these two \"Stop and Think\" questions from Shaw's essay: (1) \"What are the links between natural jobs, labour and slavery?\" (2) \"What ought to be the object of all governments, and what do we actually find it to be?\" Explain how answering the first is a prerequisite for answering the second.",
+     "a": "Question 1 establishes the mechanism: natural jobs → labour → producible goods → theft of labour → slavery of man to man. Question 2 evaluates the political consequence: governments SHOULD prevent this theft (object) but ACTUALLY enforce it (reality). Without the causal chain from Q1, Q2's critique of government as enforcer of \"wage slavery\" lacks foundation. A student who answers Q2 in isolation produces a disconnected opinion; the analytical thinker sees Q1 as the premise, Q2 as the systemic implication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Krishnamurti's rhetorical questions (e.g., 'Do you have any feeling for them?') are just a stylistic flourish; the same ideas could be stated directly without loss.\" Defend or refute using evidence from the text's structure and purpose.",
+     "a": "Refute. The rhetorical questions FUNCTION as the argument's engine: they force the reader to self-interrogate, mirroring Krishnamurti's core thesis that freedom requires \"alert perception, constant inquiry\" — not passive acceptance. Stating \"You are insensitive to villagers\" would induce defensiveness; asking \"Do you have any feeling for them?\" creates the very \"inward struggle\" he describes. The form ENACTS the content. A student calling it \"flourish\" misses the pedagogical strategy: the questions ARE the method.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about Krishnamurti's text that requires synthesizing his views on tradition, fear, and intelligence. Provide the question and a model answer outline with three evidence points.",
+     "a": "Question: \"How does Krishnamurti link the acceptance of tradition to the destruction of intelligence, and what role does fear play in this process?\" Model outline: (1) Tradition provides ready-made values → acceptance = conformity → \"thoughtless entity\" (para 4). (2) Fear of parents/teachers/tradition → \"gradually destroys sensitivity\" (para 7) → mind enclosed in self-concern. (3) Intelligence requires \"freedom to question, free to think out and discover\" (para 5) — impossible within tradition's walls. A weak created question would be literal (\"What does Krishnamurti say about fear?\") or unanswerable from the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

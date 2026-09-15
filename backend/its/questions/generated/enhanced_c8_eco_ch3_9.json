@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_9",
+   "title": "c8_eco_ch3_9",
+   "questions": [
+    {
+     "q": "What is the primary economic defining characteristic of an informal settlement or slum in an urban area?",
+     "a": "An informal settlement is primarily characterized by housing built without legal land tenure or formal building approvals, accompanied by severe deficits in public municipal infrastructure (like piped water and sewers) and low housing construction costs suitable for low-income households.\n*If a student answers that slums are defined by unemployed residents or criminal activity, it reveals the misconception that slums are social failure zones rather than economic housing adaptations to high formal urban land prices.*",
+     "self_check": true
+    },
+    {
+     "q": "Why do low-income migrant workers in Indian cities often choose to live in informal settlements close to city centers rather than low-cost formal housing on the far outskirts of the city?",
+     "a": "Low-income workers choose central informal settlements to minimize daily transportation expenses and transit time to their workplaces (like households, markets, and construction sites). Living on the city outskirts would incur high commuting costs and travel times that cancel out any rent savings, making central informal living economically rational.\n*If a student answers that workers are unaware of outlying formal housing or prefer poor living conditions, it reveals a failure to analyze urban land use and travel cost trade-offs in household economics.*",
+     "self_check": true
+    },
+    {
+     "q": "In a Mumbai informal settlement, family A spends ₹120 per day buying 80 liters of drinking water from private vendors. In a nearby formal residential complex, family B pays a municipal flat rate of ₹240 per month for 300 liters of piped tap water daily. Calculate the monthly expense on water for family A (30 days) and determine how many times more expensive family A's water is per liter compared to family B's water.",
+     "a": "1. Family A's monthly water expense = ₹120/day × 30 days = ₹3,600 per month. Total volume consumed = 80 liters/day × 30 days = 2,400 liters per month.\n2. Family A's price per liter = ₹3,600 / 2,400 liters = ₹1.50 per liter.\n3. Family B's monthly water expense = ₹240 per month. Total volume consumed = 300 liters/day × 30 days = 9,000 liters per month.\n4. Family B's price per liter = ₹240 / 9,000 liters = ₹0.0267 per liter.\n5. Ratio of prices = ₹1.50 / ₹0.0267 = 56.18 times higher for family A.\n*If a student incorrectly computes the ratio or forgets to convert daily usage into monthly volume, it reveals difficulty in computing comparative unit prices to measure economic disparity.*",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how granting official legal land tenure (land titles or long-term leases) to slum residents impacts both private housing investment and municipal revenue generation.",
+     "a": "Granting legal tenure eliminates the risk of sudden eviction, which encourages slum residents to invest their personal savings into upgrading their homes (using brick, concrete, and proper roofs). Simultaneously, it allows the municipal corporation to integrate the settlement into the property tax net and user-charge system, generating recurring public revenue to fund piped water and sanitation infrastructure.\n*If a student states that land tenure leads to total economic loss for cities, it shows they do not recognize how tenure security unlocks private investment and expands the formal urban revenue base.*",
+     "self_check": true
+    },
+    {
+     "q": "A city council plans to demolish a central informal settlement and move 1,000 families to a new housing project 25 kilometers outside the city. Evaluate the potential socio-economic impact of this policy on the residents' employment levels and household net income.",
+     "a": "This resettlement policy will likely reduce household net income and increase unemployment. The increased distance will force workers to spend a large portion of their daily earnings (e.g., ₹80–₹120) on bus/train fares or lose their informal jobs altogether due to long commute times. Although physical housing quality may improve, the disruption to employment networks and high transport overheads will deepen economic poverty.\n*If a student evaluates this policy as purely positive because new houses are built, it reveals a narrow structural view that ignores economic geographic factors like job proximity and transportation costs.*",
+     "self_check": true
+    },
+    {
+     "q": "Propose a multi-pronged urban policy intervention combining infrastructure supply, credit access, and employment considerations that a municipal corporation could implement to upgrade an informal settlement without displacing its residents.",
+     "a": "A good response must include three clear pillars: (1) **In-situ infrastructure development**—laying underground sewers, shared community water taps, and paving internal lanes using municipal funds; (2) **Micro-finance and tenure security**—issuing long-term occupancy certificates so residents can access bank micro-loans to reinforce their dwellings; and (3) **Local economic zoning**—permitting home-based small enterprises (like tailoring, electronics repair, or food preparation) so residents maintain their livelihoods while living in improved sanitary conditions.\n*A weak response that suggests merely clearing the area or giving free formal apartments reveals an unfeasible economic approach that ignores urban budget constraints and livelihood dependencies.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

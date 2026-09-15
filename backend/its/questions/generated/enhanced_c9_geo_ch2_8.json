@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_8",
+   "title": "c9_geo_ch2_8",
+   "questions": [
+    {
+     "q": "Define \"weather\" and \"climate\" in one sentence each, explicitly stating the time scale that separates them.",
+     "a": "Weather: the condition of the atmosphere at a particular place and time (hours to days). Climate: the average weather conditions over a long period (typically 30 years or more) at a place or region. A wrong answer that swaps the time scales (e.g., \"weather is long-term\") reveals the student still conflates the two concepts and hasn't internalized the temporal boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Why do meteorologists use a 30-year period to define climate normals instead of a 10-year or 50-year period? Explain the trade-off.",
+     "a": "A 30-year period is long enough to smooth out year-to-year natural variability (like El Niño cycles) but short enough to remain relevant for current planning; 10 years is too noisy, 50 years may include outdated climate states. If a student says \"because it's a rule\" without explaining variability vs relevance, they lack understanding of statistical representation in climatology.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station in Bhopal records the following daily maximum temperatures (°C) for June 1–5: 42, 44, 41, 45, 43. The 30-year normal for June 1–5 is 40°C. Calculate the mean deviation of these five days from the normal and state whether this week represents weather or climate.",
+     "a": "Step 1: Find deviations: +2, +4, +1, +5, +3. Step 2: Mean deviation = (2+4+1+5+3)/5 = 3°C. Step 3: This is a 5-day sample → weather. A wrong answer that calls it \"climate\" because the mean is above normal shows the student cannot apply the time-scale criterion to real data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the elements used to describe weather and climate. Are they identical? If yes, why do climate tables include \"extreme values\" (record high/low) while daily weather reports do not?",
+     "a": "Yes, the elements are identical (temperature, pressure, wind, humidity, precipitation). Climate tables include extremes because climate is a statistical distribution — extremes define the range and risk (e.g., for agriculture, infrastructure). Daily weather reports focus on expected conditions. If a student says \"climate has more elements,\" they misunderstand that climate is derived from the same elements, just aggregated differently.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra says, \"The monsoon has failed this year, so the climate of our region is changing.\" Evaluate this statement using the weather–climate distinction.",
+     "a": "The statement confuses a single-year weather anomaly (monsoon failure) with a long-term climatic trend. One dry year is weather variability; climate change requires a persistent shift over decades. A student who agrees with the farmer fails to evaluate the time-scale mismatch and cannot distinguish variability from trend.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple 30-year climate normals table for your school's nearest city using only temperature and rainfall. List the columns you would include and explain why each column is necessary for a farmer planning crops.",
+     "a": "Columns: Month, Mean Max Temp, Mean Min Temp, Mean Rainfall, Highest Recorded Temp, Lowest Recorded Temp, Highest 24-hr Rainfall. Means guide planting/harvesting windows; extremes guide risk management (frost, heat stress, floods). A poor answer omits extremes or includes irrelevant elements (e.g., wind speed), showing the student cannot link climatic data to agricultural decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

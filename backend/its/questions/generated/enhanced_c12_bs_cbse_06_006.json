@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_006",
+   "title": "c12_bs_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the first step in the selection process after applications have been received?",
+     "a": "Preliminary screening is the first step. It involves reviewing application forms to eliminate candidates who do not meet basic eligibility criteria (education, experience, age, etc.) before investing in further assessment. A wrong answer (e.g., \"employment interview\" or \"selection tests\") reveals the student confuses the sequence — they think deep evaluation happens before basic filtering, which would waste organizational resources on unqualified candidates.",
+     "self_check": true
+    },
+    {
+     "q": "Why is preliminary screening conducted before selection tests, even though tests provide more detailed information about candidates?",
+     "a": "Preliminary screening is a low-cost, high-volume filter that eliminates clearly unqualified candidates using only application data. Selection tests are expensive to administer and score (time, materials, invigilation). Conducting tests on all applicants would waste resources on candidates who could have been rejected in 2 minutes by checking their application. A wrong answer (e.g., \"tests are more accurate so should come first\") reveals the student ignores cost-efficiency logic and the funnel principle of selection design.",
+     "self_check": true
+    },
+    {
+     "q": "A company hiring for a senior accountant position receives 200 applications. After preliminary screening, 40 candidates remain. The HR manager administers an accounting knowledge test and a personality inventory. Which step of the selection process is being performed, and what specific characteristic does each test measure?",
+     "a": "Step: Selection Tests. The accounting knowledge test is a Trade Test (measures existing skills/proficiency). The personality inventory is a Personality Test (measures emotional stability, value system, maturity). A wrong answer (e.g., calling both \"aptitude tests\" or swapping their purposes) reveals the student cannot distinguish between test types — a critical error because using the wrong test type (e.g., aptitude test for a role requiring immediate proficiency) leads to invalid selection decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Employment Interview and Reference & Background Checks as sources of information about a candidate. Why are both needed even though both assess \"suitability\"?",
+     "a": "Interview provides direct, real-time assessment of communication, motivation, and situational judgment through interaction. Reference checks provide third-party, historical verification of past behavior, integrity, and performance from independent sources. Both are needed because interviews are subject to candidate impression management (faking), while references may be biased or superficial. Together they provide convergent validity. A wrong answer (e.g., \"interview is enough\" or \"references are outdated\") reveals the student doesn't understand triangulation of evidence in selection — a concept critical for reducing accept/reject errors.",
+     "self_check": true
+    },
+    {
+     "q": "\"Medical examination should be conducted before the selection decision to avoid hiring unhealthy candidates.\" Evaluate this statement with reference to the correct sequence and legal/ethical considerations.",
+     "a": "The statement is incorrect. Medical examination comes AFTER the selection decision (step vi after step v). Conducting it before the decision could violate anti-discrimination laws (e.g., Rights of Persons with Disabilities Act, 2016) by allowing health status to influence the merit-based decision. The selection decision must be based solely on job-related criteria. Medical fitness is a condition of employment offer, not a selection criterion. A wrong answer supporting the statement reveals the student confuses \"condition of employment\" with \"selection criterion\" — a legal/compliance error that could expose the organization to litigation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step selection process for a small NGO hiring a field coordinator (remote rural work, high autonomy, low budget). Justify each step's inclusion and the omission of the three standard steps you excluded.",
+     "a": "A strong answer would propose: (1) Preliminary Screening (essential, low cost), (2) Written Test on domain knowledge (low cost, objective), (3) Structured Telephonic/Video Interview (assesses communication, motivation, no travel cost), (4) Reference Checks (critical for trust in remote role), (5) Job Offer with Probationary Contract (substitutes medical exam and formal contract due to budget). Omitted: Selection Tests (expensive to administer in rural areas), In-person Interview (travel cost), Medical Examination (deferred to post-joining with local doctor). A poor answer would keep all 8 steps without adaptation, revealing inability to apply contingency thinking — a key competency for competitive exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

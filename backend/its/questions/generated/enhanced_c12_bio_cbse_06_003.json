@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_003",
+   "title": "c12_bio_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the composition of a nucleosome core particle, and how many base pairs of DNA does it typically contain?",
+     "a": "A nucleosome core particle consists of a histone octamer (two copies each of H2A, H2B, H3, H4) around which ~147 base pairs of DNA are wrapped in 1.75 superhelical turns. Linker histone H1 binds at the entry/exit points but is not part of the core particle. A wrong answer (e.g., \"DNA wrapped around a single histone protein\" or \"200 bp including linker\") reveals confusion between the core particle and the chromatosome (core + H1 + linker DNA), or failure to recall the specific histone stoichiometry and DNA length — both are standard board exam facts.",
+     "self_check": true
+    },
+    {
+     "q": "Why are histone proteins rich in lysine and arginine residues, and what would happen to chromatin structure if histones were mutated to be rich in acidic amino acids instead?",
+     "a": "Lysine and arginine are positively charged at physiological pH, allowing electrostatic attraction to the negatively charged DNA phosphate backbone — this drives nucleosome assembly. If histones were acidic (negative charge), DNA-histone repulsion would prevent nucleosome formation, leaving DNA unpackaged and vulnerable to damage; the nucleus could not achieve the compaction needed to fit the genome. A wrong answer (e.g., \"histones are positive to repel DNA\" or \"charge doesn't matter, it's hydrophobic interactions\") reveals a fundamental misunderstanding of the electrostatic basis of chromatin assembly — a common error when students memorize \"histones are basic\" without linking charge to function.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats isolated chromatin with micrococcal nuclease (MNase) for a short time, then runs the DNA on a gel. She sees a ladder of bands at ~200 bp, ~400 bp, ~600 bp intervals. Explain this result and predict what happens with longer MNase digestion.",
+     "a": "MNase digests linker DNA between nucleosomes but cannot access DNA tightly wrapped around the histone core. Short digestion yields mono-nucleosomes (~200 bp including linker), di-nucleosomes (~400 bp), tri-nucleosomes (~600 bp) — the ladder reflects integer multiples of the nucleosome repeat length. Longer digestion chews away linker DNA completely, leaving only the protected ~147 bp core particle DNA as a single sharp band. A wrong answer (e.g., \"bands are random degradation\" or \"longer digestion gives more bands\") shows failure to understand MNase as a probe for nucleosome positioning and the concept of nuclease-resistant core particles — a classic experiment tested in both boards and NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 10 nm \"beads-on-a-string\" fiber and the 30 nm solenoid fiber in terms of: (a) histone composition, (b) compaction ratio, and (c) transcriptional accessibility.",
+     "a": "(a) Both contain core histones; the 30 nm fiber additionally requires linker histone H1 to stabilize the helical stacking of nucleosomes. (b) 10 nm fiber achieves ~6-fold compaction (DNA length / fiber length); 30 nm fiber achieves ~40-fold compaction. (c) 10 nm fiber is relatively accessible — transcription factors and RNA polymerase can bind exposed linker DNA and nucleosomal DNA with remodeling; 30 nm fiber is more compact and generally transcriptionally repressive unless actively remodeled. A wrong answer (e.g., \"30 nm fiber has different core histones\" or \"both are equally accessible\") confuses structural hierarchy with compositional change, and misses that H1 is the key architectural protein for the 30 nm transition — a distinction NCERT emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Heterochromatin is permanently transcriptionally inactive because its DNA is too tightly packed for RNA polymerase to access.\" Is this fully correct? Justify.",
+     "a": "The statement is partially correct but incomplete. Constitutive heterochromatin (centromeres, telomeres) is permanently condensed and gene-poor — largely inactive. However, facultative heterochromatin (e.g., inactivated X chromosome, developmentally silenced genes) is reversibly condensed; its inactivity is due to specific histone modifications (H3K27me3, H3K9me3) and associated proteins (HP1, Polycomb) that recruit remodeling complexes — not merely physical blockage. RNA polymerase CAN access heterochromatin if remodeling occurs (e.g., during differentiation). A wrong evaluation (e.g., \"fully correct\" or \"heterochromatin is always active\") misses the crucial distinction between constitutive and facultative heterochromatin and the role of epigenetic marks — a nuance tested in competency-based board questions and NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using fluorescent microscopy to demonstrate that nucleosomes are dynamic and can be repositioned on DNA in living cells.",
+     "a": "A strong answer: Tag histone H2B with GFP (green fluorescent protein) and express in cultured human cells. Photobleach a small nuclear region (FRAP — Fluorescence Recovery After Photobleaching). If nucleosomes were static, fluorescence would not recover. Recovery occurs because unbleached H2B-GFP from neighboring nucleosomes exchanges into the bleached region, or entire nucleosomes slide — proving dynamics. Alternatively, use a LacO/LacI system: integrate LacO repeats at a specific locus, express LacI-GFP, and track locus movement before/after inducing chromatin remodelers. A poor answer (e.g., \"just stain DNA with DAPI and watch\") fails to distinguish nucleosome dynamics from whole-chromosome movement and lacks a specific molecular probe — revealing inability to design a targeted cell biology experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

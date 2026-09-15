@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_09_012",
+   "title": "c12_eng_k_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the difference between a literal comprehension question and an inferential comprehension question? Give one example of each type based on the poem \"Kubla Khan\".",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What is the name of the sacred river in the poem?\" Answer: Alph). An inferential question requires the reader to deduce meaning from clues (e.g., \"Why is the chasm described as both 'savage' and 'holy'?\" Answer: It reflects the dual nature of creative inspiration — wild and sacred). A wrong answer that swaps the definitions or gives two literal examples reveals the student cannot distinguish explicit facts from implied meanings — a fundamental gap that leads to answering inferential questions with mere plot summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The poem says Kubla Khan heard ancestral voices prophesying war, so the discordant note is the sound of war.\" Why is this answer incomplete for an inferential question in a board exam?",
+     "a": "The answer identifies the literal source ('ancestral voices prophesying war') but fails to *explain* why that constitutes a 'discordant note' in the context of the pleasure-dome's harmony. Board exams require the inference to be articulated: the voices disrupt the dome's peaceful beauty, symbolizing how imperial power is haunted by inevitable conflict. A student who stops at the literal quote shows they can locate text but cannot move to analysis — the core skill this node builds.",
+     "self_check": true
+    },
+    {
+     "q": "Using the poem, answer this inferential question in two PEEL paragraphs: \"How does Coleridge contrast the cultivated gardens with the wild chasm to suggest the relationship between human order and natural forces?\" Provide the first paragraph only.",
+     "a": "Point: Coleridge juxtaposes the ordered, walled gardens with the untamed, romantic chasm to show human order as fragile against nature's raw power. Evidence: The poem describes 'gardens bright with sinuous rills' and 'forests ancient as the hills' enclosed by walls, while the chasm is 'savage', 'holy and enchanted', with a 'mighty fountain' forcing up 'huge fragments'. Explanation: The gardens represent Kubla's controlled paradise — measured, fertile, bounded. The chasm, by contrast, is a force that cannot be contained; its fountain bursts through, flinging rocks and feeding the sacred river that eventually escapes human control. Link: This contrast foreshadows the poem's final vision where the poet's own 'dome in air' is built not by decree but by inspired frenzy. A weak answer would only list the two settings without explaining the thematic tension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the movement of water in the first half of the poem (the river Alph through gardens and caverns) with its movement in the fountain scene. What does this shift from measured flow to violent eruption suggest about the creative process?",
+     "a": "The first half shows water moving 'with a mazy motion' through 'wood and dale' — a controlled, meandering journey reflecting deliberate artistic craft. The fountain scene, however, depicts water forced up 'with ceaseless turmoil seething', 'vaulted like rebounding hail', an explosive, uncontrollable energy. This shift mirrors Coleridge's own poetic theory: the initial vision (the dream) is wild and subconscious (the fountain), while the poem's structure (the gardens/dome) attempts to impose order. A student who only describes the two water movements without linking them to creativity misses the inferential leap — they treat the poem as a travelogue rather than a metaphor for inspiration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The final stanza is just Coleridge describing his dream of the Abyssinian maid; it has nothing to do with the Kubla Khan story.\" Defend or refute using textual evidence.",
+     "a": "Refute. The final stanza is integrally connected: the speaker wishes to 'revive within me / Her symphony and song' to rebuild 'that dome in air' — the same 'sunny pleasure-dome with caves of ice' from Kubla's decree. The maid's music becomes the creative force that could reconstruct the vision, making the poet a rival to Kubla. The warning 'Beware! Beware! / His flashing eyes, his floating hair!' echoes the 'ancestral voices prophesying war', linking poetic ecstasy to dangerous power. A student who accepts the claim fails to see the poem's self-referential structure — the frame narrative *is* the poem's meaning. This error stems from treating stanzas as isolated scenes rather than a unified symbolic progression.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question about the poem's use of sound imagery (words that strike the ear) and write a model answer in PEEL format. The question must not be from the textbook exercises.",
+     "a": "Question: \"How do the contrasting sounds of the 'mingled measure' from the fountain and caves reflect the poem's tension between harmony and chaos?\" Model answer: Point: The 'mingled measure' blends the fountain's roar with the caves' echoes, symbolizing the fragile balance between creative inspiration and destructive force. Evidence: The fountain produces 'ceaseless turmoil seething' and 'half-intermitted burst', while the caves contribute 'tumult' where the river 'sank in tumult to a lifeless ocean'. Explanation: 'Measure' suggests musical order, but the ingredients are 'tumult' and 'turmoil' — the harmony is built on chaotic raw material. This mirrors Coleridge's opium-induced vision: beautiful but born of fragmentation. Link: The poet's own art (the poem we read) attempts a similar 'mingled measure' — ordering dream fragments into verse. A poor answer would list sound words without interpreting their thematic function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

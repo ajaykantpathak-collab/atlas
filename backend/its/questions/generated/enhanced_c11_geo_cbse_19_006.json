@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_006",
+   "title": "c11_geo_cbse_19_006",
+   "questions": [
+    {
+     "q": "Name the four essential geological components of a petroleum system and identify which Indian sedimentary basin hosts the Digboi oil field.",
+     "a": "The four components are: (1) Source rock (organic-rich shale), (2) Reservoir rock (porous sandstone/limestone), (3) Cap rock (impermeable shale/salt), (4) Trap (structural/stratigraphic). Digboi is in the Assam-Arakan basin (Upper Assam shelf). A wrong answer (e.g., listing \"coal\" as source rock or placing Digboi in Gujarat) reveals the student confuses petroleum geology with coal geology or cannot link specific fields to their tectonic basins.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mumbai Offshore basin (Bombay High) produces significantly more petroleum than the onshore Cambay basin, despite both being rift-related basins of similar age.",
+     "a": "Mumbai Offshore benefits from: (1) thicker sedimentary column (>6 km vs ~3 km in Cambay) allowing greater hydrocarbon generation, (2) excellent reservoir quality in Paleocene-Eocene limestones (Lakshmi Formation) with high porosity from karstification, (3) large structural traps (anticlinal highs) sealed by regional shales, and (4) lower exploration drilling density initially leaving larger accumulations intact. A wrong answer attributing it solely to \"offshore location\" or \"newer technology\" misses the geological controls of sediment thickness, reservoir quality, and trap size.",
+     "self_check": true
+    },
+    {
+     "q": "Given: India's proven crude oil reserves = 600 million tonnes (approx.), annual production = 30 million tonnes. Calculate the Reserve-to-Production (R/P) ratio. If consumption is 220 million tonnes/year, what percentage of demand is met by domestic production? Interpret the energy security implication.",
+     "a": "R/P ratio = 600 / 30 = 20 years. Domestic production meets (30/220)×100 = 13.6% of demand; import dependence = 86.4%. This low R/P ratio (global avg ~50 years) and extreme import dependence mean India's oil security is highly vulnerable to geopolitical shocks and price volatility. A wrong calculation (e.g., using reserves in barrels without unit conversion) or interpreting 20 years as \"comfortable\" reveals inability to contextualize reserve metrics with consumption reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tectonic origin and hydrocarbon potential of the Rajasthan basin (Barmer sub-basin) with the Assam-Arakan basin. Why has Rajasthan emerged as a major new oil province only in the 2000s despite known sedimentary sequences?",
+     "a": "Rajasthan basin: Late Jurassic-Early Cretaceous rift basin formed during India-Seychelles separation; source rocks are syn-rift shales; reservoirs are fluvial-deltaic sandstones (Fatehgarh Formation) and carbonates; traps are tilted fault blocks. Assam-Arakan: Foreland basin from Himalayan collision; source rocks are Oligocene shales (Barail Group); reservoirs are Miocene sandstones (Tipam, Girujan); traps are compressional anticlines. Rajasthan's delayed success: (1) deeper targets (>3 km) required advanced seismic and drilling tech, (2) waxy crude (high pour point) needed heated pipeline technology, (3) earlier exploration focused on shallow gas. A generic answer like \"technology improved\" without specifying *which* technologies (3D seismic, horizontal drilling, thermal recovery) misses the basin-specific technical challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India should prioritize exploring the deep-water Krishna-Godavari (KG) basin over enhancing recovery from mature fields like Bombay High because deep-water reserves are larger.\" Consider geological risk, economic viability, and strategic timing.",
+     "a": "The statement is flawed. KG deep-water (e.g., KG-DWN-98/3) has high *resource potential* but: (1) Geological risk: complex tectonics, uncertain reservoir quality in deep-water fans, high H2S/CO2 content. (2) Economic viability: CAPEX >$100/barrel breakeven vs $30-40 for Bombay High EOR (Enhanced Oil Recovery). (3) Strategic timing: EOR in mature fields yields production in 2-3 years; deep-water development takes 7-10 years. India needs *both*: near-term production from EOR (water/gas injection, thermal recovery in Bombay High, Ahmedabad) to reduce import bill *now*, plus deep-water for long-term reserve replacement. A student agreeing without qualification ignores the time-value of energy security and economic thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual map annotation exercise for a Class 11 student to demonstrate understanding of the petroleum system in the Cambay basin. Specify: (a) three map layers to include, (b) two cross-section elements to draw, (c) one quantitative data point to label per major field (Ankleshwar, Kalol, Navagam).",
+     "a": "(a) Map layers: 1) Basin outline with major faults, 2) Surface geology (Deccan Traps cover vs exposed Mesozoic), 3) Oil/gas field locations with pipeline network. (b) Cross-section: 1) West-east profile showing Deccan Traps unconformably overlying Mesozoic rift fill, 2) Close-up of Kalol field showing faulted anticlinal trap with Eocene limestone reservoir sealed by shale. (c) Quantitative labels: Ankleshwar — cumulative production >50 MMT; Kalol — reservoir depth ~1800m, API gravity 35°; Navagam — gas-oil ratio 200 m³/t. A poor answer uses generic symbols without basin-specific stratigraphy (e.g., missing Deccan Traps cover) or omits quantitative field data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

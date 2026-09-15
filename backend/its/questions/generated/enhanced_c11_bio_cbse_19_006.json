@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_006",
+   "title": "c11_bio_cbse_19_006",
+   "questions": [
+    {
+     "q": "Name the hormone secreted by the atrial wall of the heart and state its primary effect on blood pressure.",
+     "a": "Atrial natriuretic factor (ANF) is secreted by the atrial wall; it decreases blood pressure by causing vasodilation and promoting natriuresis (sodium excretion) and diuresis. A wrong answer (e.g., \"adrenaline increases blood pressure\" or \"ANF increases blood pressure\") reveals confusion between cardiac endocrine function and adrenal medulla function, or misunderstanding of the physiological response to increased atrial stretch.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why erythropoietin is secreted by the kidney rather than by the bone marrow where red blood cells are actually produced.",
+     "a": "The kidney acts as an oxygen sensor: juxtaglomerular cells detect low oxygen tension (hypoxia) in renal blood flow and secrete erythropoietin, which then travels via blood to bone marrow to stimulate erythropoiesis. This separation allows systemic oxygen status to regulate RBC production. A wrong answer (e.g., \"bone marrow secretes it\" or \"kidney makes RBCs\") reveals failure to understand the endocrine signaling paradigm - hormone source and target are distinct, and the kidney's role as a sensor for systemic hypoxia.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has chronic kidney disease with significantly reduced functional nephrons. Predict the hematological consequence and explain the hormonal mechanism.",
+     "a": "The patient will develop anemia (low RBC count) because damaged juxtaglomerular cells produce insufficient erythropoietin, reducing stimulation of erythropoiesis in bone marrow. Steps: (1) CKD → loss of functional JG cells; (2) ↓ erythropoietin secretion; (3) ↓ stimulation of erythroid progenitors in bone marrow; (4) ↓ RBC production → anemia. A wrong answer (e.g., \"iron deficiency\" or \"blood loss\") reveals inability to link kidney endocrine function to hematopoiesis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the actions of secretin and cholecystokinin (CCK) on the pancreas and gall bladder. Why are both needed for efficient digestion?",
+     "a": "Secretin stimulates pancreatic duct cells to secrete water and bicarbonate (neutralizing acidic chyme), while CCK stimulates pancreatic acinar cells to secrete digestive enzymes and contracts the gall bladder to release bile. Both are needed because secretin creates the optimal pH for pancreatic enzymes (which CCK releases) to function, and bile (released by CCK) emulsifies fats for lipase action. A wrong answer (e.g., \"both do the same thing\" or \"secretin releases bile\") reveals failure to distinguish ductal vs acinar pancreatic secretion and the coordinated pH-enzyme partnership.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Gastrin and GIP have opposite effects on gastric secretion, so they cancel each other out and serve no net purpose.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Gastrin (stimulated by peptides/distension) initiates and amplifies gastric secretion during the gastric phase, while GIP (stimulated by fat/glucose in duodenum) inhibits gastric secretion and motility during the intestinal phase - this is sequential regulation, not cancellation. GIP prevents overloading the small intestine by slowing gastric emptying when nutrients are detected distally. A wrong evaluation (e.g., \"they cancel out\") reveals misunderstanding of phased digestive control (cephalic → gastric → intestinal) and the purpose of feedback inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a frog or rat model to demonstrate that the heart secretes a blood pressure-lowering factor. Describe the setup, control, and expected observation.",
+     "a": "Setup: Isolate a beating frog heart with intact atria, perfuse with Ringer's solution, collect coronary effluent, and infuse it into a second preparation (denervated blood vessel or whole animal). Control: Perfusate from ventricle-only preparation or Ringer's alone. Expected: Effluent from atrial preparation causes vasodilation/blood pressure drop; control does not. This demonstrates a humoral factor (ANF) from atria. A poor design (e.g., \"measure heart rate only\" or no control) reveals inability to isolate endocrine vs neural effects and design a bioassay.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

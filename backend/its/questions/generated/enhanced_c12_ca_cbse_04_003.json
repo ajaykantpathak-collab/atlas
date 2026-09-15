@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_04_003",
+   "title": "c12_ca_cbse_04_003",
+   "questions": [
+    {
+     "q": "**REMEMBER:** List the three advantages of using graphs/charts as per NCERT Section 4.3, and give a one-line business context for each.",
+     "a": "**Correct answer:**  \n1. **Help to Explore** — e.g., plotting GNP vs infant mortality to discover a negative correlation.  \n2. **Help to Present** — e.g., Economic Times using a bar chart to show quarterly GDP growth in a news article.  \n3. **Help to Convince** — e.g., a startup pitch deck using a hockey-stick revenue projection chart to persuade investors.  \n\n**What a wrong answer reveals:** If a student lists \"beautification\", \"saving paper\", or \"making reports longer\", they confuse *aesthetic* or *administrative* benefits with the *analytical* advantages NCERT emphasizes. If they merge \"explore\" and \"present\" into \"show data\", they miss the distinction between *discovering* patterns (explore) and *communicating* known patterns (present).",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A marketing manager says: \"I don't need charts; my pivot table already shows region-wise sales totals.\" Explain why this statement reflects a misunderstanding of the **exploration** advantage. Use the terms \"cognitive load\" and \"pattern recognition\" in your answer.",
+     "a": "**Correct answer:** A pivot table forces the brain to **serially scan** numbers (high cognitive load) to spot patterns like \"North region declining while South rising\". A line chart with two series (North, South) enables **parallel pattern recognition** — the eye instantly sees diverging trends. Exploration *requires* low-cognitive-load visual encoding to *discover* relationships the analyst didn't know existed; pivot tables only *display* what you already asked for.\n\n**What a wrong answer reveals:** If the student says \"charts are prettier\" or \"pivot tables are enough for experts\", they miss that exploration is about *unanticipated* discovery, not just reporting. They also fail to distinguish between *directed query* (pivot) and *open-ended scanning* (chart).",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** You are an accounts intern at a Delhi-based NBFC. Your manager hands you a spreadsheet of 12 months of loan disbursement amounts and NPA (non-performing asset) percentages. She asks: \"Create a chart that lets me *explore* whether higher disbursement correlates with higher NPA %.\"  \n**Step 1:** Which chart type would you choose?  \n**Step 2:** Which variable goes on X-axis, which on Y-axis?  \n**Step 3:** What specific visual pattern would signal a positive correlation?  \n**Step 4:** If the chart shows a scattered cloud with no trend, what business conclusion follows?",
+     "a": "**Correct answer with steps:**  \n1. **Scatter chart (XY chart)** — only chart designed for two *continuous* variables to explore correlation.  \n2. **X-axis = Monthly disbursement amount (independent); Y-axis = NPA % (dependent).**  \n3. **Points clustering along an upward-sloping diagonal** from bottom-left to top-right.  \n4. **No correlation** → disbursement volume does not drive NPA risk; management should investigate other factors (credit appraisal, sectoral exposure, macro shocks).  \n\n**What a wrong answer reveals:** Choosing a line chart (implies time-series) or bar chart (implies categorical X) shows confusion between *correlation exploration* and *trend presentation*. Putting NPA on X-axis reverses causality assumption. Saying \"no trend means disbursement is safe\" commits the *absence of evidence ≠ evidence of absence* fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the **presentation** advantage of a *pie chart* vs a *stacked 100% bar chart* for showing \"Product-wise revenue share % for FY 2023-24\" in a board report. Evaluate on: (a) readability when >5 products, (b) ability to compare shares across two years side-by-side, (c) risk of misleading perception.",
+     "a": "**Correct answer:**  \n| Criterion | Pie Chart | Stacked 100% Bar Chart |  \n|-----------|-----------|------------------------|  \n| (a) >5 products | Poor — thin slices, hard to label | Good — horizontal bars accommodate many categories |  \n| (b) Cross-year comparison | Requires two separate pies (mental rotation needed) | Excellent — two bars side-by-side, aligned baseline |  \n| (c) Misleading risk | High — angle/area perception bias (e.g., 3D pie exaggerates front slices) | Low — length comparison is most accurate visual channel |  \n\n**Conclusion:** Stacked 100% bar is superior for presentation in board reports; pie charts should be restricted to ≤5 categories with clear labels.\n\n**What a wrong answer reveals:** Claiming \"pie charts are better for percentages\" ignores Cleveland & McGill's graphical perception research. Suggesting \"use two pies for two years\" misses the *comparison* requirement. Not mentioning 3D distortion shows lack of critical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A startup founder includes a **3D exploded pie chart** in an investor pitch deck to show market share: \"We have 12% of a ₹500 Cr market — see how big our slice is!\" The chart uses 3D perspective, explosion, and places the startup's slice at the front.  \n**Critique this chart on the *persuasion* advantage:** Is it ethically persuasive or manipulative? Reference specific visual tricks used.",
+     "a": "**Correct answer with justification:** **Manipulative, not persuasive.**  \n- **3D perspective** tilts the pie, making the front slice (startup's) appear larger in area than its true 12%.  \n- **Explosion** physically separates the slice, drawing disproportionate visual attention.  \n- **Front placement** exploits the \"foreground bias\" — viewers overestimate size of nearest objects.  \nEthical persuasion uses *accurate* visual encoding (e.g., a simple 2D pie with data labels, or a bar chart with a highlighted bar) to let the *data* convince. This chart uses *design tricks* to distort perception — violating the \"Help to Convince\" principle that graphs should make information \"easily used to persuade\" *truthfully*.\n\n**What a wrong answer reveals:** Calling it \"smart marketing\" or \"effective persuasion\" confuses *manipulation* with *persuasion*. Not identifying the 3D/explosion/front-placement triad shows inability to deconstruct visual rhetoric.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a **one-slide visual** (describe in words) for a **GST Officer** presenting to a **small-trader association** on \"Why file GSTR-1 on time?\" The slide must use *all three advantages* sequentially: explore → present → convince. Specify chart types, data variables, and the logical flow.",
+     "a": "**Expected answer (criteria for a good response):**  \n1. **Explore (top-left):** Scatter chart — X: \"Days late filing GSTR-1\", Y: \"Penalty + interest paid (₹)\". Each dot = one trader. *Pattern:* upward curve showing exponential cost of delay.  \n2. **Present (top-right):** Horizontal bar chart — \"Avg. penalty by turnover slab\" (micro, small, medium). Shows small traders pay disproportionately higher % of turnover as penalty.  \n3. **Convince (bottom):** Waterfall chart — \"Cash flow impact of timely vs late filing\" for a ₹50L turnover trader. Bars: Revenue → GST liability → Input credit → Penalty (if late) → Net cash. Late-filing penalty bar visibly shrinks net cash.  \n**Flow:** \"See the pattern (explore) → See your segment's burden (present) → See your money saved (convince).\"  \n\n**What a poor answer reveals:** Using only one chart type, missing the sequential logic, or choosing charts unsuited to variables (e.g., pie for time-series) shows failure to *synthesize* the three advantages into a coherent communication strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

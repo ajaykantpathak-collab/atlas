@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_006",
+   "title": "c10_geo_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define 'net sown area' and state how it differs from 'gross cropped area'.",
+     "a": "Net sown area is the total area sown with crops in a year, counted only once even if multiple crops are taken. Gross cropped area counts the same land multiple times if it is cropped more than once in a year. A wrong answer (e.g., confusing the two) reveals the student does not understand cropping intensity, a key concept for analyzing agricultural pressure on land.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the percentage of forest area in India (about 23%) still below the desired 33% as per the National Forest Policy, despite afforestation efforts?",
+     "a": "The gap persists because diversion of forest land for non-forest purposes (mining, dams, highways, agriculture) often outpaces afforestation; also, many afforested areas are monoculture plantations that do not fully compensate for natural forest loss. A wrong answer (e.g., blaming only population growth) misses the policy-implementation gap and the distinction between forest cover and forest area.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: India's total geographical area = 328.73 million ha; net sown area = 140.1 million ha; area sown more than once = 55.3 million ha. Calculate the gross cropped area and cropping intensity.",
+     "a": "Step 1: Gross cropped area = Net sown area + Area sown more than once = 140.1 + 55.3 = 195.4 million ha. Step 2: Cropping intensity = (Gross cropped area / Net sown area) × 100 = (195.4 / 140.1) × 100 ≈ 139.5%. A wrong calculation (e.g., using total geographical area) shows the student cannot apply the formulas to real data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land use pattern of Punjab (high net sown area, low forest cover) with that of Arunachal Pradesh (high forest cover, low net sown area). Explain the physical and human factors responsible for this contrast.",
+     "a": "Punjab: flat alluvial plains, fertile soil, assured irrigation (canals/tubewells), high population density → intensive agriculture dominates. Arunachal Pradesh: mountainous terrain, dense forests, heavy rainfall, low population density, tribal shifting cultivation → forest cover dominates. A wrong answer that only mentions climate or only mentions population fails to analyze the interaction of physical and human factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of converting culturable waste land into net sown area in a semi-arid region like Rajasthan, considering groundwater depletion and soil salinity risks.",
+     "a": "Conversion may increase food production short-term but is unsustainable if it relies on overexploited groundwater (tube wells) and leads to secondary salinization due to poor drainage. Sustainable conversion requires drip irrigation, salt-tolerant crops, and strict groundwater regulation. A wrong answer that calls it purely good or purely bad without weighing trade-offs shows lack of evaluative judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land use plan for a hypothetical 1000-ha village in the Deccan Plateau with 30% forest, 40% net sown area, 15% fallow, 10% culturable waste, 5% non-agricultural uses. Propose changes to improve livelihoods while conserving land, justifying each change.",
+     "a": "A good plan might: (1) convert 5% culturable waste to agroforestry (fruit trees + crops) to reduce fallow and enhance income; (2) adopt watershed management on fallow land to recharge groundwater and bring 5% under protective irrigation; (3) keep forest at 30% but promote joint forest management for NTFP collection; (4) cluster non-agricultural uses to minimize fragmentation. A poor answer proposes converting forest to agriculture or ignores water constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

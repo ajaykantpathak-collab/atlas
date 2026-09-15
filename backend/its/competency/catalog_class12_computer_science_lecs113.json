@@ -1,0 +1,276 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 13,
+ "chapter_title": "Project Based Learning",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs113.1",
+   "title": "Billing an Order at the Restaurant",
+   "section": "13.4 Project Title 1",
+   "definition": "The restaurant automation project asks for a kiosk that takes item codes and quantities, computes each line's cost as unit price times quantity, adds the lines into a bill amount, and stamps every bill with a unique order number that restarts at 1 each day.",
+   "formula": "bill_amount = price1 * qty1 + price2 * qty2",
+   "key_idea": "Combining the date with the per-day order number makes every saved bill uniquely identifiable.",
+   "textbook_ref": "lecs113.txt, section 13.4, Project Title 1",
+   "question_patterns": [
+    "A customer orders 3 plates at 120 each and 2 juices at 60 each. Compute the bill amount.",
+    "Why should the order number restart from 1 every day, and how does the bill stay unique?",
+    "Which two login types does the restaurant application provide, and for whom?",
+    "Write the steps your program follows to turn item codes and quantities into a printed bill.",
+    "Which reports should the manager login be able to generate in the order processing project?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cost the first item",
+     "explain": "Unit price times quantity for the first line.",
+     "compute": "cost1 = price1 * qty1"
+    },
+    {
+     "step": 2,
+     "action": "cost the second item",
+     "explain": "The same multiplication for the second line.",
+     "compute": "cost2 = price2 * qty2"
+    },
+    {
+     "step": 3,
+     "action": "total the bill",
+     "explain": "The bill amount adds every line's cost.",
+     "compute": "bill_amount = cost1 + cost2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A kiosk bills price 120 with quantity 3, and price 60 with quantity 2. What is the bill amount in rupees?",
+     "a": "480"
+    }
+   ]
+  },
+  {
+   "id": "lecs113.2",
+   "title": "Time Frame for Project Modules",
+   "section": "13.2 step 3",
+   "definition": "Every project needs a time frame: estimate each module's duration, multiply by the number of modules, and add the integration and review time so the plan stays structured yet flexible.",
+   "formula": "total_days = modules * days_per_module + integration_days",
+   "key_idea": "A plan without a time frame cannot be monitored, so fixing durations is part of defining the plan.",
+   "textbook_ref": "lecs113.txt, section 13.2, step (3)",
+   "question_patterns": [
+    "A project has 4 modules of 6 days each plus 4 days of integration. Compute the total duration.",
+    "Why must a project fix a time frame before processing begins?",
+    "Three modules take 5 days each and testing takes 3 days. How long does the project run?",
+    "Who monitors the project, and from where can a stuck team seek guidance?",
+    "What happens to the schedule if one module overruns its estimated days?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "time all modules",
+     "explain": "Module count times days per module.",
+     "compute": "module_time = modules * days_per_module"
+    },
+    {
+     "step": 2,
+     "action": "add the integration time",
+     "explain": "Joining the module outputs also consumes days.",
+     "compute": "total_days = module_time + integration_days"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four modules take 5 days each and integration needs 4 more days. What is the total project time in days?",
+     "a": "24"
+    }
+   ]
+  },
+  {
+   "id": "lecs113.3",
+   "title": "Steps in Project Based Learning",
+   "section": "13.1 and 13.2, Figure 13.1",
+   "definition": "Project based learning moves through five steps shown in Figure 13.1: identify the project from a real-life situation, define a plan with roles for the leader and members, fix a time frame and process, take guidance and monitoring from the teacher, and finally study the single or multiple outcomes, refining them from peer feedback.",
+   "formula": "identify -> plan -> time frame -> guide and monitor -> outcome",
+   "key_idea": "Each module gets a well-defined task with its own inputs and outputs before integration.",
+   "textbook_ref": "lecs113.txt, sections 13.1, 13.2 and Figure 13.1",
+   "question_patterns": [
+    "List the steps involved in project based learning in the correct order.",
+    "Why should a project idea come from a real-life situation?",
+    "What roles do the project leader and the guide teacher play during monitoring?",
+    "How does peer review improve the outcome of a project?",
+    "Why are interdisciplinary projects encouraged?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the five stages",
+     "explain": "Identify the idea, plan roles and tools, fix the schedule, keep gathering guidance while monitoring progress, and evaluate the outcome against feedback."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the first step of project based learning: identify the project or integrate modules?",
+     "a": "identify the project"
+    }
+   ]
+  },
+  {
+   "id": "lecs113.4",
+   "title": "Modular, Top Down and Bottom Up Approaches",
+   "section": "13.2",
+   "definition": "A structured or modular approach cuts a project into manageable modules, each with a defined task, inputs and outputs, whose integration produces the final result; a top down approach starts from the whole and splits downwards, while a bottom up approach builds from small parts upwards.",
+   "formula": "project -> modules -> integrate -> outcome",
+   "key_idea": "Well-defined module boundaries let different members work independently before integration.",
+   "textbook_ref": "lecs113.txt, section 13.2",
+   "question_patterns": [
+    "What does a modular approach to a project mean?",
+    "Differentiate the top down approach from the bottom up approach.",
+    "Why does every module need its own set of inputs and defined outputs?",
+    "How does dividing a problem into small modules help a team?",
+    "Which approach starts coding from the smallest helpers and builds upward?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the direction of decomposition",
+     "explain": "Splitting the whole into parts is top down, assembling parts into the whole is bottom up, and both rely on modular boundaries with clear inputs and outputs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which approach starts from the whole and splits downwards?",
+     "a": "top down"
+    }
+   ]
+  },
+  {
+   "id": "lecs113.5",
+   "title": "Components of Teamwork",
+   "section": "13.3 and 13.3.1",
+   "definition": "Teamwork is the collective effort of individuals to accomplish a task; its components are communicating with others, listening to others, sharing expertise and tools, respecting every member's views, helping others, and participating actively in discussions.",
+   "formula": "teamwork = communicate + listen + share + respect + help + participate",
+   "key_idea": "A cricket win needs batting, bowling and fielding together, exactly like project members sharing one goal.",
+   "textbook_ref": "lecs113.txt, sections 13.3 and 13.3.1(A) to (F)",
+   "question_patterns": [
+    "Define teamwork and list its components.",
+    "Why must the views of every member be respected in group meetings?",
+    "How does sharing expertise help the team finish within the time frame?",
+    "Give a sports example that shows why collective effort matters.",
+    "Which channels can team members use to communicate with each other?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "audit the six behaviours",
+     "explain": "A team works when members talk, listen, share, respect, help and participate; missing any one weakens the collective outcome."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many components does the chapter list for teamwork: communicating, listening, sharing, respecting, helping and participating?",
+     "a": "6"
+    }
+   ]
+  },
+  {
+   "id": "lecs113.6",
+   "title": "Project Ideas: Puzzle and Educational Games",
+   "section": "13.4 Project Titles 2 and 3",
+   "definition": "Two sample projects exercise the learned ideas: a grid puzzle where the player clears cells around hidden bombs using number clues on a fixed 6x6 board with 6 bombs, and an edutainment game where a list of 15 cells slides digits rightwards and removes digits that sum to 10.",
+   "formula": "clear cells using clue = count of bombs in adjacent cells",
+   "key_idea": "New digits enter at the right end and push the existing digits one cell left, so the list behaves like a shifting window.",
+   "textbook_ref": "lecs113.txt, section 13.4, Project Titles 2 and 3",
+   "question_patterns": [
+    "Describe the clue a cleared cell shows in the bomb puzzle, and how the player uses it.",
+    "What grid size and bomb count does the chapter suggest to keep the puzzle simple?",
+    "In the Match the Sum game, what happens to the digits when a pair summing to 10 is removed?",
+    "Why should both games handle exceptions while the user plays?",
+    "How do digits move through the list of cells as new ones are generated?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "translate the game rule into logic",
+     "explain": "For the puzzle, count bombs around each clicked cell for its clue; for the sum game, scan the sliding cells for two or three digits adding to 10 and delete them, shifting the rest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The sample puzzle runs on a fixed board of which size: 6x6 or 9x9?",
+     "a": "6x6"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs113.we1",
+   "title": "Bill for a two-item order",
+   "concept_id": "lecs113.1",
+   "problem": "At the Stay Healthy kiosk a customer orders 3 plates at 120 each and 2 juices at 60 each. Compute the bill the program prints.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "cost the first line",
+     "explain": "3 plates times 120 each.",
+     "compute": "cost1 = 120 * 3"
+    },
+    {
+     "step": 2,
+     "action": "cost the second line",
+     "explain": "2 juices times 60 each.",
+     "compute": "cost2 = 60 * 2"
+    },
+    {
+     "step": 3,
+     "action": "total the bill",
+     "explain": "Add the two line costs.",
+     "compute": "bill_amount = cost1 + cost2"
+    }
+   ],
+   "answer_note": "The bill shows 360 plus 120, that is 480, stamped with the day's order number."
+  },
+  {
+   "id": "lecs113.we2",
+   "title": "Scheduling a four-module project",
+   "concept_id": "lecs113.2",
+   "problem": "A team plans 4 modules needing 6 days each, plus 4 days to integrate and test. Compute the project's total duration.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "time the modules",
+     "explain": "4 modules times 6 days each.",
+     "compute": "module_time = 4 * 6"
+    },
+    {
+     "step": 2,
+     "action": "add the integration window",
+     "explain": "Integration and testing take 4 more days.",
+     "compute": "total_days = module_time + 4"
+    }
+   ],
+   "answer_note": "The team should plan for 28 working days in total."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs113.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 13 (in-text activities reworded)",
+   "questions": [
+    "List the five steps of project based learning shown in Figure 13.1 and explain any two.",
+    "Explain the modular approach and contrast it with the bottom up approach.",
+    "Name the six components of teamwork and describe how sharing helps meet the time frame.",
+    "For the restaurant project, design the bill's unique identification and explain why the order number resets daily.",
+    "For the bomb puzzle on a 6x6 grid with 6 bombs, describe the clue shown when a safe cell is opened.",
+    "For the Match the Sum game, state the rule that removes digits and the condition that ends the game.",
+    "Compute the duration of a 5-module project with 4 days per module and 5 days of integration.",
+    "A kiosk order has 2 burgers at 90 each and 1 salad at 75. Compute the bill amount."
+   ]
+  }
+ ]
+}

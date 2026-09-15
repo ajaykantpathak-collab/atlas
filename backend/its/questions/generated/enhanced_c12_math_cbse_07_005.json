@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_005",
+   "title": "c12_math_cbse_07_005",
+   "questions": [
+    {
+     "q": "Write the indefinite integral of sec x tan x with respect to x, including the constant of integration.",
+     "a": "∫ sec x tan x dx = sec x + C. A wrong answer like \"sec²x + C\" or \"tan x + C\" reveals that the student has confused the derivative of sec x (which is sec x tan x) with the derivative of tan x (which is sec²x) or has simply memorised the wrong pair. This confusion is fatal in board exams where both integrals appear frequently.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ∫ tan x dx = log |sec x| + C and also = –log |cos x| + C. Are both forms equally correct? Justify your answer mathematically.",
+     "a": "Yes, both are correct because log |sec x| = log |1/cos x| = –log |cos x|. The two expressions differ by a constant (zero), so they represent the same family of antiderivatives. A student who says they are different has not understood the logarithmic property log(1/u) = –log u or the fact that antiderivatives are defined up to an additive constant. This misunderstanding leads to marking errors when the answer key uses one form and the student writes the other.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate ∫ sin(3x – π/4) dx. Show all steps, including the handling of the linear argument.",
+     "a": "Let I = ∫ sin(3x – π/4) dx. Use the formula ∫ sin(ax+b) dx = –(1/a) cos(ax+b) + C. Here a = 3, b = –π/4. So I = –(1/3) cos(3x – π/4) + C. A common error is to write –cos(3x – π/4) + C (forgetting the factor 1/3) or to write –(1/3) sin(3x – π/4) + C (confusing the integral of sin with the integral of cos). The factor 1/a comes from the chain rule reversal and is a frequent source of lost marks in both board and JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals ∫ sin²x dx and ∫ cos²x dx. Without evaluating them fully, explain how their results are related and why the relationship holds.",
+     "a": "Using the identity sin²x = (1 – cos 2x)/2 and cos²x = (1 + cos 2x)/2, we see that ∫ sin²x dx = x/2 – (sin 2x)/4 + C and ∫ cos²x dx = x/2 + (sin 2x)/4 + C. Their sum is ∫ (sin²x + cos²x) dx = ∫ 1 dx = x + C. A student who cannot see this connection likely treats each integral as an isolated memorisation task rather than recognising the underlying Pythagorean identity. This analytical gap makes it harder to tackle integrals like ∫ sin⁴x dx later.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: ∫ cot x dx = log |cosec x – cot x| + C. Is this correct? If not, identify the error and give the correct formula.",
+     "a": "The student's formula is incorrect; it is actually the integral of cosec x. The correct integral is ∫ cot x dx = log |sin x| + C. The error arises from confusing the standard forms: ∫ cosec x dx = log |cosec x – cot x| + C and ∫ cot x dx = log |sin x| + C. This specific mix-up is extremely common because both integrands involve reciprocal trigonometric functions and both results involve logarithms. In competitive exams, such a sign/function error costs the entire question.",
+     "self_check": true
+    },
+    {
+     "q": "Create a trigonometric integrand that requires using the identity 1 + tan²x = sec²x before integration, and then evaluate it. Explain your choice of identity.",
+     "a": "Consider ∫ tan²x dx. Using 1 + tan²x = sec²x, we rewrite tan²x = sec²x – 1. Then ∫ tan²x dx = ∫ (sec²x – 1) dx = tan x – x + C. A good answer shows the identity substitution explicitly. A poor answer might try to integrate tan²x directly as (tan³x)/3 or attempt a substitution without simplifying, revealing a lack of strategy for reducing powers of trigonometric functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

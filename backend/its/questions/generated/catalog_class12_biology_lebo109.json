@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class12_biology_lebo109",
+ "concepts": [
+  {
+   "id": "lebo109.9.1.1",
+   "title": "Principles of Biotechnology: Genetic Engineering and Bioprocesses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Principles of Biotechnology: Genetic Engineering and Bioprocesses' refers to.",
+     "a": "Biotechnology uses living organisms or their enzymes to make products and processes people need -- curd and wine in the old sense, genetically modified organisms at scale in the modern sense; its two core techniques are genetic engineering, which rewrites the chemistry of dna or rna and installs it in a host to change the host's phenotype, and bioprocess engineering, which keeps a sterile, contamination-free environment so only the chosen cells multiply for making antibiotics, vaccines and enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Principles of Biotechnology: Genetic Engineering and Bioprocesses'.",
+     "a": "Traditional hybridisation drags undesirable genes along with wanted ones -- recombinant dna, gene cloning and gene transfer let you carry only the desired gene across.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Principles of Biotechnology: Genetic Engineering and Bioprocesses' taught, and from which source text?",
+     "a": "9.1 (source: lebo109.txt lines 49-125 (EFB definition, two core techniques, hybridisation limitation, ori and cloning idea))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.1.2",
+   "title": "Three Basic Steps of Genetically Modifying an Organism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Three Basic Steps of Genetically Modifying an Organism' refers to.",
+     "a": "Every genetic-modification project runs the same three-step play: identify the dna carrying the desirable gene, introduce that dna into the host, and keep it maintained there so it passes to the host's progeny; each stage has its own toolkit, from restriction cutting and ligation through vector delivery to selection of transformed cells.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Three Basic Steps of Genetically Modifying an Organism'.",
+     "a": "Identify, introduce, maintain -- the entire chapter is these three verbs elaborated with enzymes, vectors and hosts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Three Basic Steps of Genetically Modifying an Organism' taught, and from which source text?",
+     "a": "9.1, 9.3 (source: lebo109.txt lines 153-161 (the three basic steps) and 420-427 (process sequence))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.1",
+   "title": "Restriction Enzymes: Palindromes and Sticky Ends",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Restriction Enzymes: Palindromes and Sticky Ends' refers to.",
+     "a": "Restriction endonucleases are the molecular scissors of genetic engineering -- hind ii was the first found to cut one specific six-base-pair recognition sequence, and over 900 such enzymes now come from more than 230 bacterial strains; each scans for a palindromic site that reads identically on both strands in the 5'-to-3' direction and cuts a little off-centre, leaving overhanging sticky ends that hydrogen-bond to their complements and invite dna ligase to seal the joint.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Restriction Enzymes: Palindromes and Sticky Ends'.",
+     "a": "Cut vector and insert with the same enzyme and their sticky ends match -- that single rule makes recombinant dna construction reproducible.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Restriction Enzymes: Palindromes and Sticky Ends' taught, and from which source text?",
+     "a": "9.2.1 (source: lebo109.txt lines 168-231 (Hind II, EcoRI naming, nucleases, palindrome GAATTC, sticky ends, recombinant formation))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.2",
+   "title": "Gel Electrophoresis and Elution of DNA Fragments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gel Electrophoresis and Elution of DNA Fragments' refers to.",
+     "a": "Because dna carries negative charge, an electric field drags restriction fragments through an agarose gel toward the anode, and the gel's sieve effect sorts them by size -- the smallest travel farthest; staining with ethidium bromide and viewing under uv light reveals bright orange bands, which are then cut out of the gel and eluted for use in constructing recombinant dna.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gel Electrophoresis and Elution of DNA Fragments'.",
+     "a": "Size decides the distance -- the gel is a molecular sieve, and the sample well must sit at the cathode end so fragments run toward the anode.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gel Electrophoresis and Elution of DNA Fragments' taught, and from which source text?",
+     "a": "9.2.1 (separation) (source: lebo109.txt lines 242-269 (electrophoresis principle, agarose, ethidium bromide, UV, elution))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.3",
+   "title": "Cloning Vectors: ori, Selectable Marker and Cloning Sites",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cloning Vectors: ori, Selectable Marker and Cloning Sites' refers to.",
+     "a": "A cloning vector -- plasmid or bacteriophage dna that replicates autonomously in bacteria -- needs three essentials: an origin of replication that also sets the copy number, a selectable marker such as antibiotic-resistance genes that lets transformants outgrow non-transformants, and very few (ideally single) recognition sites for ligating alien dna; in pbr322 inserting at the bamh i site of the tetracycline gene knocks that resistance out, and chromogenic-substrate systems flag recombinants by losing colour through insertional inactivation of beta-galactosidase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cloning Vectors: ori, Selectable Marker and Cloning Sites'.",
+     "a": "One resistance gene selects transformants, the other reports the insert -- two antibiotic plates, or one colour test, settle which colonies are recombinant.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cloning Vectors: ori, Selectable Marker and Cloning Sites' taught, and from which source text?",
+     "a": "9.2.2 (source: lebo109.txt lines 270-371 (copy numbers, ori, selectable markers, pBR322 BamHI/tetR, insertional inactivation))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.4",
+   "title": "Vectors for Plants and Animals: Ti Plasmid and Retroviruses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Vectors for Plants and Animals: Ti Plasmid and Retroviruses' refers to.",
+     "a": "Nature's own gene-deliverers became biotech's vectors: agrobacterium tumifaciens naturally injects t-dna into dicot plant cells to make tumors, so its tumor-inducing (ti) plasmid was disarmed into a harmless delivery vehicle for genes of interest, and retroviruses, which normally transform animal cells cancerous, were similarly neutered to ferry desirable genes into animal cells.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Vectors for Plants and Animals: Ti Plasmid and Retroviruses'.",
+     "a": "Disarm the pathogen, keep the delivery machinery -- the trick that converted plant tumors and animal cancers into genetic-engineering tools.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Vectors for Plants and Animals: Ti Plasmid and Retroviruses' taught, and from which source text?",
+     "a": "9.2.2 (iv) (source: lebo109.txt lines 373-393 (Agrobacterium T-DNA, Ti plasmid modified, retroviruses disarmed))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.5",
+   "title": "Making the Host Competent and Routes of DNA Entry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Making the Host Competent and Routes of DNA Entry' refers to.",
+     "a": "Hydrophilic dna cannot cross a cell membrane on its own, so bacteria are made competent by soaking them in a divalent cation such as calcium, which widens efficiency through wall pores; recombinant dna then goes in with an ice-42 degree-ice heat shock, while animal cells can receive dna by micro-injection into the nucleus, plant cells by gene-gun bombardment with gold or tungsten microparticles, and both by disarmed-pathogen vectors that infect and deliver.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Making the Host Competent and Routes of DNA Entry'.",
+     "a": "Four delivery routes, one goal -- get dna through a membrane that chemistry says it cannot cross.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Making the Host Competent and Routes of DNA Entry' taught, and from which source text?",
+     "a": "9.2.3 (source: lebo109.txt lines 394-417 (calcium competence, heat shock, micro-injection, biolistics/gene gun, disarmed pathogens))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.3.1",
+   "title": "Isolating and Cutting the Genetic Material",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Isolating and Cutting the Genetic Material' refers to.",
+     "a": "Pure dna is the starting material, so cells are burst open with lysozyme for bacteria, cellulase for plant cells and chitinase for fungi; ribonuclease strips rna, protease removes proteins such as histones, and chilled ethanol precipitates the cleaned dna as fine spoolable threads, after which restriction digestion -- checked on an agarose gel -- cuts both the source dna and the vector at matching sites for ligation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Isolating and Cutting the Genetic Material'.",
+     "a": "Each contaminant has its own enzyme -- rna for ribonuclease, protein for protease, cell walls for lysozyme, cellulase or chitinase -- leaving dna alone.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Isolating and Cutting the Genetic Material' taught, and from which source text?",
+     "a": "9.3.1, 9.3.2 (source: lebo109.txt lines 428-464 (enzyme lysis, RNase, protease, chilled ethanol spooling, digestion and gel check))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.3.2",
+   "title": "PCR Amplification of the Gene of Interest",
+   "questions": [
+    {
+     "q": "Using the method 'PCR Amplification of the Gene of Interest', work with: cycles = 10. Carry the chain through step by step and give the final value of copy_count.",
+     "a": "1024 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'PCR Amplification of the Gene of Interest' and work with: cycles = 25. Carry the chain through step by step and give the final value of copy_count.",
+     "a": "33554432 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'PCR Amplification of the Gene of Interest' refers to.",
+     "a": "The polymerase chain reaction synthesises multiple copies of a chosen dna segment in vitro using two primer sets -- short synthetic oligonucleotides complementary to the target's flanks -- plus a dna polymerase; every cycle of denaturation, primer annealing and extension doubles the copies, and the thermostable polymerase from thermus aquaticus survives the heat that separates the strands, so about thirty cycles build roughly a billion-fold amplification.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PCR Amplification of the Gene of Interest'.",
+     "a": "Doubling per cycle is the whole arithmetic -- a thermostable polymerase is what lets the doubling repeat dozens of times without fresh enzyme.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PCR Amplification of the Gene of Interest', in plain ASCII form.",
+     "a": "copy_count = 2 ** cycles",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.3.3",
+   "title": "Bioreactors and Downstream Processing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bioreactors and Downstream Processing' refers to.",
+     "a": "Transformed hosts are grown at scale in stirred-tank bioreactors handling 100-1000 litres, equipped with agitators, oxygen delivery, foam, temperature and ph controls and sampling ports so cells stay in their most productive exponential phase; afterwards downstream processing separates and purifies the product, formulates it with preservatives and puts it through clinical trials and strict quality control before marketing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bioreactors and Downstream Processing'.",
+     "a": "A small flask culture never yields useful quantities -- scale-up in a bioreactor, then purification and quality control, turn a cloned gene into a sellable product.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Bioreactors and Downstream Processing' taught, and from which source text?",
+     "a": "9.3.4, 9.3.5, 9.3.6 (source: lebo109.txt lines 487-603 (selection on ampicillin, recombinant protein, continuous culture, stirred-tank bioreactor, downstream processing))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

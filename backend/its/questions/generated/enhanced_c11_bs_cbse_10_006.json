@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_006",
+   "title": "c11_bs_cbse_10_006",
+   "questions": [
+    {
+     "q": "Define a departmental store in exactly two sentences using only terminology from the NCERT textbook (e.g., 'joint stock company', 'centralised purchasing', 'decentralised sales').",
+     "a": "A departmental store is a large retail establishment formed as a joint stock company managed by a board of directors, offering a wide variety of products classified into well-defined departments under one roof. It combines retailing and warehousing functions with centralised purchasing through a purchase department and decentralised sales across departments.  \nA wrong answer reveals if the student confuses it with a chain store (multiple locations) or supermarket (self-service, limited services). Missing \"joint stock company\" or \"centralised purchasing/decentralised sales\" indicates superficial reading.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a departmental store's central location is both a merit (attracts customers) and a limitation (inconvenient for urgent needs) — use the concept of 'catchment area' and 'impulse vs. planned purchase'.",
+     "a": "Central location in a city's commercial heart maximises the catchment area, drawing planned shoppers from across the city (merit). However, for urgent, low-value needs (e.g., medicine, milk), customers prefer neighbourhood stores; travelling to a central location involves high time and transport cost, making it inconvenient for impulse or emergency purchases (limitation).  \nA wrong answer treats location as only good or only bad, missing the dual nature. It shows inability to analyse trade-offs — a core board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "A departmental store in Delhi has annual sales of ₹50 crore. Its operating cost is 22% of sales. A neighbouring chain store has sales of ₹30 crore with operating cost of 14%. Calculate the absolute operating cost difference. Then explain why the departmental store's higher percentage is structurally inevitable given its features.",
+     "a": "Departmental store operating cost = 22% × ₹50 crore = ₹11 crore. Chain store operating cost = 14% × ₹30 crore = ₹4.2 crore. Difference = ₹6.8 crore.  \nStructural reasons: Departmental stores provide services (restrooms, restaurants, home delivery, credit) and maintain large premises with high rent — features absent in chain stores. These are fixed costs that raise the operating cost ratio.  \nA wrong calculation or missing structural explanation shows inability to link quantitative data to qualitative features — a common case-study error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare departmental stores and chain stores on 'pricing policy' and 'credit facilities'. For each basis, state the departmental store's approach, the chain store's approach, and the underlying reason for the difference.",
+     "a": "Pricing: Departmental stores — no uniform policy; offer discounts to clear stock (reason: wide variety, fashion risk, decentralised sales). Chain stores — fixed, uniform prices across all branches (reason: centralised pricing, standardised products, cash-only policy).  \nCredit: Departmental stores — may offer credit to regular customers (reason: service orientation, high-income clientele). Chain stores — strictly cash sales (reason: centralised control, no bad debts policy).  \nA wrong answer swaps the approaches or gives generic reasons (\"chain stores are bigger\") instead of linking to centralised vs. decentralised control.",
+     "self_check": true
+    },
+    {
+     "q": "\"Departmental stores are obsolete in the age of e-commerce.\" Evaluate this statement using three merits and two limitations from the textbook. Conclude with a justified judgment.",
+     "a": "Merits supporting relevance: (1) Physical inspection of varied products (clothing fit, electronics demo) — impossible online; (2) Immediate possession — no delivery wait; (3) Services (restaurants, trial rooms, personal assistance) enhance experience.  \nLimitations supporting obsolescence: (1) High operating cost → higher prices vs. online discounts; (2) Inconvenient location vs. doorstep delivery.  \nJudgment: Not obsolete but niche — they survive for categories needing touch-feel (apparel, cosmetics) and experiential shopping, while losing commodity categories (books, electronics) to e-commerce.  \nA one-sided answer or missing textbook-specific points shows poor evaluation skill — board exams require balanced analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new departmental store concept for a Tier-2 Indian city (population ~10 lakh). Specify: (a) 5 departments you would include and exclude, with reasoning; (b) Two services you would offer and two you would drop to control costs; (c) Pricing strategy — uniform or flexible? Justify each choice using textbook features/limitations.",
+     "a": "(a) Include: Apparel, Home Furnishings, Cosmetics, Electronics, Grocery (high footfall, touch-feel needed). Exclude: Luxury watches, Premium furniture, Automobiles (low turnover, high space cost).  \n(b) Offer: Trial rooms, Basic home delivery (essential for conversion). Drop: Restaurant, Travel bureau (high cost, low usage in Tier-2).  \n(c) Flexible pricing with seasonal discounts (clear fashion stock) but everyday low pricing on groceries (compete with supermarkets).  \nA generic list without textbook-linked justification shows inability to apply concepts to new contexts — the highest Bloom level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

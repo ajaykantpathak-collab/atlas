@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_009",
+   "title": "c11_math_cbse_08_009",
+   "questions": [
+    {
+     "q": "State the condition on \\( x \\) for the infinite binomial expansion \\( (1+x)^n = \\sum_{r=0}^\\infty \\binom{n}{r} x^r \\) to be valid, where \\( n \\) is any real number.",
+     "a": "The condition is \\( |x| < 1 \\). A wrong answer like \\( x < 1 \\) or \\( x \\neq 1 \\) reveals the student does not understand that the series converges only when the absolute value of \\( x \\) is less than 1, and that the expansion is not a polynomial but an infinite series requiring convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the binomial expansion for \\( (1+x)^{-1} \\) gives the infinite geometric series \\( 1 - x + x^2 - x^3 + \\cdots \\) and why this series cannot be used for \\( x = 2 \\).",
+     "a": "For \\( n = -1 \\), the general term is \\( \\frac{(-1)(-2)\\cdots(-r)}{r!} x^r = (-1)^r x^r \\), producing the alternating geometric series. The series converges only for \\( |x| < 1 \\); at \\( x = 2 \\) the terms grow in magnitude and the series diverges. A wrong answer indicates the student cannot connect the general binomial coefficient formula to the specific pattern for negative integer indices or does not grasp the convergence condition.",
+     "self_check": true
+    },
+    {
+     "q": "Find the first four terms in the expansion of \\( (1 - 2x)^{1/3} \\) in ascending powers of \\( x \\), and state the range of \\( x \\) for which the expansion is valid.",
+     "a": "Expansion: \\( (1 - 2x)^{1/3} = 1 + \\frac{1}{3}(-2x) + \\frac{\\frac{1}{3}(-\\frac{2}{3})}{2!}(-2x)^2 + \\frac{\\frac{1}{3}(-\\frac{2}{3})(-\\frac{5}{3})}{3!}(-2x)^3 + \\cdots = 1 - \\frac{2}{3}x - \\frac{4}{9}x^2 - \\frac{40}{81}x^3 + \\cdots \\). Valid for \\( |-2x| < 1 \\Rightarrow |x| < \\frac{1}{2} \\). A wrong answer shows errors in handling the negative sign inside the bracket, miscalculating the binomial coefficients for fractional index, or forgetting to apply the condition to the whole expression \\( -2x \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expansions of \\( (1+x)^{-2} \\) and \\( (1-x)^{-2} \\). How are their general terms related? Use this to find the coefficient of \\( x^5 \\) in \\( (1-x)^{-2} \\) without writing the full expansion.",
+     "a": "\\( (1+x)^{-2} = \\sum_{r=0}^\\infty (-1)^r (r+1) x^r \\). Replacing \\( x \\) by \\( -x \\) gives \\( (1-x)^{-2} = \\sum_{r=0}^\\infty (r+1) x^r \\). The coefficient of \\( x^5 \\) is \\( 6 \\). A wrong answer reveals the student cannot manipulate the series by substitution or does not recognize the pattern \\( \\binom{-2}{r} = (-1)^r (r+1) \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes \\( \\sqrt{1+0.1} \\approx 1 + \\frac{1}{2}(0.1) + \\frac{\\frac{1}{2}(-\\frac{1}{2})}{2!}(0.1)^2 = 1.04875 \\). Evaluate whether this approximation is valid and estimate the error if the next term is included.",
+     "a": "The expansion is valid because \\( |0.1| < 1 \\). The next term is \\( \\frac{\\frac{1}{2}(-\\frac{1}{2})(-\\frac{3}{2})}{3!}(0.1)^3 = \\frac{3}{16} \\times 0.001 = 0.0001875 \\). Adding it gives \\( 1.0489375 \\). The error after three terms is roughly the magnitude of the next term, about \\( 1.875 \\times 10^{-4} \\). A wrong evaluation suggests the student does not understand alternating series error bounds or the condition for convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem where the binomial expansion for a fractional index is used to approximate a physical quantity (e.g., period of a pendulum, relativistic kinetic energy). Write the problem statement and outline the steps to solve it using the expansion.",
+     "a": "Example: The period of a simple pendulum for small amplitude \\( \\theta_0 \\) is \\( T = 2\\pi\\sqrt{\\frac{L}{g}} \\left(1 + \\frac{1}{4}\\sin^2\\frac{\\theta_0}{2} + \\cdots\\right) \\). Using \\( (1+x)^{1/2} \\) with \\( x = \\frac{1}{4}\\sin^2\\frac{\\theta_0}{2} \\), approximate \\( T \\) for \\( \\theta_0 = 0.2 \\) rad. Steps: identify \\( n=1/2 \\), compute \\( x \\), expand to required terms, substitute. A poor answer indicates inability to map a physical formula to the binomial form or to choose an appropriate number of terms for desired accuracy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_009",
+   "title": "c12_geo_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define dairy farming as a primary activity and state its two most distinguishing characteristics compared to nomadic pastoralism.",
+     "a": "Dairy farming is a sedentary, capital-intensive, market-oriented primary activity focused on commercial milk production using high-yield breeds. Its two distinguishing characteristics vs. nomadic pastoralism are: (1) fixed location with permanent infrastructure (sheds, milking parlors, fodder storage) vs. seasonal migration, and (2) production for distant urban markets via cold chains vs. subsistence or local barter. A wrong answer describing dairy as \"moving with herds\" or \"subsistence-only\" reveals confusion between pastoralism and commercial dairying.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the major dairy regions of the world (NW Europe, NE USA, SE Australia, New Zealand) all lie in temperate latitudes between 40°–60° N/S? Explain the climatic and vegetation link.",
+     "a": "Temperate latitudes provide: (a) cool, moist climate ideal for high-yield exotic breeds (Holstein-Friesian, Jersey) which suffer heat stress above 25°C; (b) natural growth of nutritious grasses (ryegrass, clover) and fodder crops (maize, alfalfa) without irrigation; (c) even rainfall distribution supporting year-round grazing and silage making. A wrong answer citing \"tropical climate\" or \"monsoon rains\" reveals failure to link breed physiology and fodder ecology to latitude.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline world map, mark and label the four major dairy farming regions. For each, name one representative country and the dominant breed used there.",
+     "a": "1. North-West Europe: Netherlands — Holstein-Friesian; 2. North-Eastern USA: USA (Wisconsin, New York) — Holstein-Friesian; 3. South-Eastern Australia: Australia (Victoria, Tasmania) — Jersey/Holstein cross; 4. New Zealand: New Zealand — Jersey/Friesian cross; 5. India (emerging): India (Gujarat, Punjab) — Buffalo (Murrah) + crossbred cattle. Steps: Identify temperate coastal zones → match with high urbanization → recall breed adaptation. A wrong map placing dairy in Sahel or Amazon reveals misunderstanding of climate-breed-market triad.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of dairy farming in the Netherlands vs. India's Gujarat. How do market access, transport, and cooperative organization create similar outcomes from different starting conditions?",
+     "a": "Netherlands: Small landholdings, high population density, excellent roads/ports, EU market access → intensive stall-feeding, high tech, corporate/cooperative processing. Gujarat: Semi-arid, scattered villages, milk shed villages → village cooperatives (Amul model) collect twice daily, chilling centers, rail/road tankers to urban metros. Both achieve low transport-cost-per-litre via different institutional innovations. A wrong answer treating them as identical \"cooperatives\" misses the Dutch corporate-cooperative hybrid and India's unique three-tier federation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dairy farming is the most transport-sensitive of all agricultural activities.\" Use the concept of weight-loss ratio and perishability to justify your answer.",
+     "a": "True. Milk has ~87% water (weight-loss ratio 0.87 if processed to powder, but transported as liquid), high perishability (spoils in 4 hrs at 30°C), and daily production requiring daily collection. Unlike grain (storable, low weight-loss) or livestock-on-hoof (self-transport), milk demands cold chain (4°C) from farm to factory to retail — adding 30–40% to final cost. A wrong answer citing \"sugarcane\" or \"vegetables\" ignores milk's unique combination of daily frequency, bulk, and zero shelf-life without energy-intensive cooling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dairy development plan for a hypothetical district in central India (Madhya Pradesh) with 5000 crossbred cows, 50 km from a tier-2 city, poor roads, and erratic electricity. Specify: (a) collection model, (b) chilling infrastructure, (c) breed strategy, (d) market linkage.",
+     "a": "(a) Village-level Dairy Cooperative Societies (DCS) with electronic milk testers (fat/SNF) — transparent, reduces spoilage risk. (b) Solar-powered bulk milk coolers (BMC) at 2–3 cluster points (5000 L capacity) — bypasses grid dependency. (c) Jersey × Sahiwal cross for heat tolerance + 15–20 L/day yield; AI services via mobile veterinary units. (d) Refrigerated tanker to city processing plant (50 km) + direct UHT/pasteurized pouch branding for urban retail. A poor answer proposing \"large automated farm\" ignores smallholder reality and capital constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_002",
+   "title": "c12_geo_cbse_19_002",
+   "questions": [
+    {
+     "q": "A student has collected the following data for 5 villages in a block: Village name, Population (2011), Dominant crop (wheat/rice/millet), and Average annual rainfall (mm). Which classification type would be MOST appropriate for analyzing the relationship between dominant crop and rainfall? Justify in one sentence.",
+     "a": "Correct answer: Qualitative classification for dominant crop (nominal categories: wheat, rice, millet) combined with quantitative classification for rainfall (numerical values grouped into intervals like low/medium/high). A wrong answer (e.g., \"chronological\") reveals the student confuses classification basis (attribute vs time) and cannot match data type to analytical purpose — a critical error for later correlation analysis (node 19_009).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why classifying the same district-level literacy rate data (percentage) into \"High (>80%), Medium (60-80%), Low (<60%)\" is quantitative classification, while classifying districts as \"Urban, Rural, Tribal\" is qualitative — even though both produce three categories.",
+     "a": "Correct answer: Quantitative classification uses numerical magnitude with ordered intervals (literacy % has measurable magnitude and natural ordering); qualitative classification uses non-numerical attributes with no inherent order (urban/rural/tribal are nominal labels). A wrong answer (e.g., \"both are qualitative because they have categories\") reveals the student misses the fundamental distinction: quantitative classes derive from a continuous numerical scale with mathematical properties (interval width, midpoints), essential for later mean/median calculation (node 19_004).",
+     "self_check": true
+    },
+    {
+     "q": "Given the decadal population data for Maharashtra (1951: 3.2 Cr, 1961: 3.9 Cr, 1971: 5.0 Cr, 1981: 6.3 Cr, 1991: 7.9 Cr, 2001: 9.7 Cr, 2011: 11.2 Cr), construct a chronological classification table showing decade, population, and decadal growth rate (%). Show all calculation steps.",
+     "a": "Correct steps: (1) List decades chronologically: 1951-61, 1961-71, ..., 2001-11. (2) For each decade, compute growth rate = ((Pop_end - Pop_start)/Pop_start) × 100. Example 1951-61: ((3.9-3.2)/3.2)×100 = 21.88%. (3) Tabulate with columns: Decade, Start Pop (Cr), End Pop (Cr), Growth Rate (%). A wrong answer (e.g., missing growth rate calculation, or misordering decades) reveals inability to handle time-series geographical data — a prerequisite for trend analysis in population geography (Class 12 Ch.16).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of spatial vs. chronological classification for analyzing: (a) shifting cultivation patterns in Northeast India over 20 years, (b) groundwater depletion across 50 blocks of Punjab in 2023. Which classification would you choose for each and why?",
+     "a": "Correct answer: (a) Chronological primary (time-series of cultivation area per year) with spatial secondary (district-wise) — because the process evolves over time. (b) Spatial primary (block-wise depletion levels) — because the snapshot is cross-sectional. A wrong answer (e.g., using only spatial for (a)) reveals failure to recognize that geographical processes have both spatial and temporal dimensions, and classification must prioritize the dimension of the research question — a key concept for spatio-temporal analysis in remote sensing (node c11_geo_cbse_26_007).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this classification: A student groups 30 Indian cities' annual PM2.5 levels (µg/m³) into \"Low, Medium, High\" using equal class intervals of 20 µg/m³ (0-20, 20-40, 40-60). The data ranges from 12 to 180 µg/m³. What is the flaw, and how would you fix it for meaningful geographical interpretation?",
+     "a": "Correct answer: Flaw — equal intervals ignore data distribution; most cities cluster at low end (12-60), leaving 40-180 empty or sparse, losing discrimination where it matters (health impact thresholds). Fix — use quantile classification (equal frequency) or natural breaks (Jenks) aligned with WHO guidelines (e.g., <10, 10-25, 25-50, >50). A wrong answer (e.g., \"equal intervals are always fine\") reveals lack of critical thinking about classification purpose — a board exam trap where \"method appropriateness\" is tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classification scheme for a geographical study on \"Crop Diversification in Punjab (2000-2020)\" using district-level data on: area under wheat, rice, cotton, maize, pulses (hectares), and year. Specify: (i) primary classification type, (ii) secondary type, (iii) class intervals for quantitative variables, (iv) how you'd handle qualitative crop types. Justify each choice.",
+     "a": "Expected answer: (i) Chronological primary (years 2000-2020) to track change over time. (ii) Spatial secondary (districts) for regional comparison. (iii) For area (ha): use natural breaks or standard intervals (e.g., 0-50k, 50k-1L, 1L-2L, >2L) based on data spread — NOT equal intervals if skewed. (iv) Crop types: qualitative nominal classification (wheat, rice, cotton, maize, pulses) — no ordering. Justification: Crop diversification is a spatio-temporal process; chronological primary captures policy impacts (e.g., crop diversification schemes), spatial secondary reveals regional disparities. Poor answer uses only spatial or only chronological, missing the dual dimension — a common error in board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

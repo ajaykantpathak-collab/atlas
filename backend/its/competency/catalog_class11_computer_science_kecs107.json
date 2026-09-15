@@ -1,0 +1,421 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 7,
+ "chapter_title": "Functions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs107.1",
+   "title": "Canvas Area of a Cylindrical-Conical Tent",
+   "section": "7.1 and Programs 7-1, 7-2",
+   "definition": "A tent made of a cylinder topped by a cone needs canvas equal to the curved surface of both parts: pi times radius times slant height for the cone, plus 2 pi times radius times height for the cylinder.",
+   "formula": "canvas_area = 3.14 * r * l + 2 * 3.14 * r * h",
+   "key_idea": "Splitting the tent bill into small functions such as cyl(h,r) and con(l,r) keeps each area formula in one reusable place.",
+   "textbook_ref": "kecs107.txt, Programs 7-1 and 7-2",
+   "question_patterns": [
+    "Compute the canvas area of a tent with cylinder height 5 m, radius 2 m and conical slant height 3 m.",
+    "Why is the curved surface formula of the cone different from that of the cylinder?",
+    "Rewrite the tent program using two user defined functions cyl and con and state what each returns.",
+    "A tent has radius 7 m, cylinder height 10 m and slant height 5 m. Find the total canvas used.",
+    "Which parts of the tent program change if the conical top is replaced by a taller cone of the same radius?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "area of the conical top",
+     "explain": "Curved surface of a cone is pi times radius times slant height.",
+     "compute": "conical = 3.14 * r * l"
+    },
+    {
+     "step": 2,
+     "action": "area of the cylindrical base",
+     "explain": "Curved surface of a cylinder is 2 pi times radius times height.",
+     "compute": "cylindrical = 2 * 3.14 * r * h"
+    },
+    {
+     "step": 3,
+     "action": "add both surfaces",
+     "explain": "The canvas covers both parts.",
+     "compute": "canvas_area = conical + cylindrical"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Using pi = 3.14, what is the curved area of a cylindrical canvas wall of radius 3 m and height 5 m?",
+     "a": "94.2"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.2",
+   "title": "Post-Tax Net Price Function",
+   "section": "Programs 7-1 and 7-2",
+   "definition": "The payable amount for the tent adds 18 percent tax to the canvas cost; wrapping this in a function post_tax_price(cost) lets any product reuse the same tax step.",
+   "formula": "net_price = cost + 0.18 * cost",
+   "key_idea": "A tax of 18 percent multiplies the cost by 0.18, and the customer pays cost plus that tax.",
+   "textbook_ref": "kecs107.txt, Program 7-2, function post_tax_price",
+   "question_patterns": [
+    "A canvas costing 28574 rupees attracts 18 percent tax. What is the net amount payable?",
+    "Write the function post_tax_price that returns the payable amount for a given cost.",
+    "Why is the post_tax_price function reusable for products other than tents?",
+    "The net payable for a tent is 11800 rupees including 18 percent tax. Estimate the pre-tax cost.",
+    "What value does post_tax_price return when the cost argument is 1000?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the tax",
+     "explain": "18 percent of the cost is 0.18 times it.",
+     "compute": "tax = 0.18 * cost"
+    },
+    {
+     "step": 2,
+     "action": "add tax to the cost",
+     "explain": "The net price is cost plus tax.",
+     "compute": "net_price = cost + tax"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A canvas costs Rs 2000 before tax. With 18 percent tax added, what is the payable amount in rupees?",
+     "a": "2360"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.3",
+   "title": "The pow Function with a Modulus Argument",
+   "section": "7.5.1 and Table 7.1",
+   "definition": "The built-in pow(x, y) raises x to the power y, and a third argument makes it return the remainder of that power on division by the modulus; other built-ins such as abs, max, min, sum and len inspect or aggregate values.",
+   "formula": "pow(x, y, z) = x ** y % z",
+   "key_idea": "pow(5, 2, 4) first squares 5 to get 25, then keeps only the remainder on division by 4.",
+   "textbook_ref": "kecs107.txt, Table 7.1 rows pow and sum",
+   "question_patterns": [
+    "What does pow(5, 2, 4) return, and in what order are the two operations applied?",
+    "Differentiate the built-in pow() from math.pow() with one example.",
+    "Evaluate divmod(7, 2) and name the two parts of its result.",
+    "What does sum([2, 4, 7, 3], 3) return, and why?",
+    "Which built-in counts the elements of a list, and what does len('Patience') give?",
+    "Compute abs(-5.7) and max(23, 4, 56)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise the base to the exponent",
+     "explain": "The power is formed first.",
+     "compute": "squared = base ** exponent"
+    },
+    {
+     "step": 2,
+     "action": "reduce by the modulus",
+     "explain": "The remainder on division by z is the final result.",
+     "compute": "reduced = squared % modulus"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does pow(5, 2, 4) return in Python?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.4",
+   "title": "Mean of Floating Values in a List",
+   "section": "Program 7-6",
+   "definition": "A user defined function can walk a list with a for loop, folding every element into a running total while counting the elements, and the mean is the total divided by that count.",
+   "formula": "mean = total / count",
+   "key_idea": "The loop does two jobs at once: accumulating the sum and counting how many values entered it.",
+   "textbook_ref": "kecs107.txt, Program 7-6 (myMean)",
+   "question_patterns": [
+    "For the list [1.3, 2.4, 3.5, 6.9], what mean does myMean print?",
+    "Write a function myMean(myList) that computes the mean of the values stored in a list.",
+    "Why must the counter be incremented inside the same loop that adds the elements?",
+    "Four readings 2.0, 3.5, 4.0 and 6.5 are averaged. What mean results?",
+    "What happens to the mean if the counter is left at zero?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "accumulate the elements",
+     "explain": "Each pass adds one element into the total.",
+     "compute": "total = v1 + v2 + v3 + v4"
+    },
+    {
+     "step": 2,
+     "action": "divide by the element count",
+     "explain": "Four elements entered the list, so divide by 4.",
+     "compute": "mean = total / 4"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four values sum to 88. What is their mean?",
+     "a": "22"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.5",
+   "title": "Mixed Fraction from an Improper Fraction",
+   "section": "Program 7-9 and Default Parameters",
+   "definition": "The function mixedFraction(num, deno = 1) converts an improper fraction into a whole part plus a proper remainder: floor division gives the whole part, the modulus gives the leftover numerator, and deno falls back to its default value 1 when no argument is supplied.",
+   "formula": "mixed_value = num // deno + (num % deno) / deno",
+   "key_idea": "A default parameter must trail in the header, so def mixedFraction(num, deno = 1) is legal but placing the default first is not.",
+   "textbook_ref": "kecs107.txt, Program 7-9 and the default-parameter note",
+   "question_patterns": [
+    "Convert the improper fraction 17 / 2 into a mixed fraction the way mixedFraction does.",
+    "What does mixedFraction(9) print, and why does deno become 1?",
+    "Why is def calcInterest(principal = 1000, rate, time = 5) rejected as a header?",
+    "A fraction 22 / 5 is passed to the function. Give the whole part and the remainder shown.",
+    "When does mixedFraction report that the fraction evaluates to a whole number?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the whole part",
+     "explain": "Floor division counts how many times deno fits into num.",
+     "compute": "whole = num // deno"
+    },
+    {
+     "step": 2,
+     "action": "find the leftover numerator",
+     "explain": "The modulus keeps what cannot form another whole unit.",
+     "compute": "rem = num % deno"
+    },
+    {
+     "step": 3,
+     "action": "express as a single value",
+     "explain": "Whole part plus the fractional share gives the mixed value.",
+     "compute": "mixed_value = whole + rem / deno"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In mixedFraction(22, 5), what whole part does floor division give?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.6",
+   "title": "Compound Interest via a User Defined Function",
+   "section": "Suggested Lab Exercise 5",
+   "definition": "Compound interest grows the principal by the factor (1 + r/n) raised to n times t, where r is the yearly rate, n the compounding count per year and t the years; the interest is the grown amount minus the principal.",
+   "formula": "interest = principal * (1 + rate / periods) ** (periods * years) - principal",
+   "key_idea": "Compounding more often per year multiplies the growth factor more times, so the interest rises.",
+   "textbook_ref": "kecs107.txt, Suggested Lab Exercise 5",
+   "question_patterns": [
+    "Compute the compound interest on 5000 rupees at 8 percent compounded quarterly for 2 years.",
+    "Write a function that accepts principal, rate, time and the number of compounding periods, and returns the compound interest.",
+    "Why does the exponent use periods times years rather than just years?",
+    "Which earns more after 2 years on the same principal: 8 percent yearly or 8 percent half-yearly? Justify.",
+    "State the growth factor applied in each compounding period when the yearly rate is 10 percent and compounding is monthly."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the per-period growth factor",
+     "explain": "Divide the yearly rate across the periods and add 1.",
+     "compute": "growth = 1 + rate / periods"
+    },
+    {
+     "step": 2,
+     "action": "raise it to the period count",
+     "explain": "The factor compounds once per period over all years.",
+     "compute": "factor = growth ** (periods * years)"
+    },
+    {
+     "step": 3,
+     "action": "grow the principal",
+     "explain": "Multiply the principal by the compounded factor.",
+     "compute": "amount = principal * factor"
+    },
+    {
+     "step": 4,
+     "action": "subtract the principal",
+     "explain": "Interest is the gain over the original sum.",
+     "compute": "interest = amount - principal"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Rs 1000 grows at 10 percent per year compounded yearly. What is the amount after 2 years, in rupees?",
+     "a": "1210"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.7",
+   "title": "Determinant of a Quadratic Expression",
+   "section": "Suggested Lab Exercise 3",
+   "definition": "For a quadratic with coefficients a, b and c, the determinant b squared minus 4ac decides the nature of roots: positive signals two real roots, zero a repeated root, and negative no real root.",
+   "formula": "determinant = b ** 2 - 4 * a * c",
+   "key_idea": "The sign test on the determinant is the condition the function checks before reporting its verdict.",
+   "textbook_ref": "kecs107.txt, Suggested Lab Exercise 3",
+   "question_patterns": [
+    "Calculate the determinant for a = 1, b = 5, c = 6 and state the nature of the roots.",
+    "Write a function that accepts three coefficients and returns the value b squared minus 4ac.",
+    "What root nature does a determinant of exactly zero indicate?",
+    "For a = 2, b = 4, c = 5, evaluate the determinant and report the result.",
+    "Which condition should the function test to print that real roots do not exist?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the middle coefficient",
+     "explain": "The term b squared comes first.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "form the four-ac product",
+     "explain": "Multiply the outer coefficients and scale by 4.",
+     "compute": "product_ac = 4 * a * c"
+    },
+    {
+     "step": 3,
+     "action": "subtract to get the determinant",
+     "explain": "Determinant equals b squared minus 4ac.",
+     "compute": "determinant = square_b - product_ac"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "For a = 1, b = 5 and c = 6, what is the determinant b^2 - 4ac?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "kecs107.8",
+   "title": "Global and Local Scope of Variables",
+   "section": "7.4 and Programs 7-14, 7-15",
+   "definition": "A variable created outside every function is global and reachable anywhere, while one created inside a function is local and vanishes when the function ends; assigning to a global name inside a function without the global keyword would silently create a local twin instead.",
+   "formula": "scope = global (outside all functions) or local (inside one)",
+   "key_idea": "Printing a local variable after its function has ended raises NameError, as Program 7-14 shows.",
+   "textbook_ref": "kecs107.txt, section 7.4",
+   "question_patterns": [
+    "Why does accessing the variable y after myFunc1 ends raise a NameError?",
+    "Differentiate a global variable from a local variable with one example of each.",
+    "What does prefixing the global keyword to num inside a function change about assignment?",
+    "A function defines local_variable = 5 while a global of the same name exists. Which one does the function see?",
+    "How long does a local variable survive in memory?",
+    "In Program 7-15, why does the printed num outside the function show 10 rather than 5?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the assignment site",
+     "explain": "Assignments at module level create globals usable everywhere; assignments inside a function create locals that disappear at return unless declared global."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A variable created outside every function has what scope?",
+     "a": "global"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs107.we1",
+   "title": "Full bill for a tent",
+   "concept_id": "kecs107.1",
+   "problem": "A tent has cylinder height 5 m, radius 2 m and conical slant height 3 m. Canvas costs 350 rupees per square metre. Find the canvas area, the cost, and the net payable after 18 percent tax.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "conical area",
+     "explain": "3.14 times radius times slant height.",
+     "compute": "conical = 3.14 * 2 * 3"
+    },
+    {
+     "step": 2,
+     "action": "cylindrical area",
+     "explain": "2 times 3.14 times radius times height.",
+     "compute": "cylindrical = 2 * 3.14 * 2 * 5"
+    },
+    {
+     "step": 3,
+     "action": "canvas area",
+     "explain": "Add both curved surfaces.",
+     "compute": "canvas_area = conical + cylindrical"
+    },
+    {
+     "step": 4,
+     "action": "canvas cost",
+     "explain": "Multiply area by the unit price.",
+     "compute": "total_cost = 350 * canvas_area"
+    },
+    {
+     "step": 5,
+     "action": "net payable",
+     "explain": "Add 18 percent tax through post_tax_price.",
+     "compute": "net_price = total_cost + 0.18 * total_cost"
+    }
+   ],
+   "answer_note": "The canvas measures 81.64 square metres, costing 28574 rupees, and the customer pays 33717.32 rupees with tax."
+  },
+  {
+   "id": "kecs107.we2",
+   "title": "Quarterly compound interest on savings",
+   "concept_id": "kecs107.6",
+   "problem": "A deposit of 5000 rupees earns 8 percent per annum compounded quarterly for 2 years. Compute the compound interest.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "per-period rate",
+     "explain": "8 percent split over 4 quarters is 2 percent per period.",
+     "compute": "growth = 1 + 8 / 400"
+    },
+    {
+     "step": 2,
+     "action": "count the periods",
+     "explain": "4 quarters per year for 2 years.",
+     "compute": "periods_total = 4 * 2"
+    },
+    {
+     "step": 3,
+     "action": "compound the factor",
+     "explain": "Raise the growth factor to the period count.",
+     "compute": "factor = growth ** periods_total"
+    },
+    {
+     "step": 4,
+     "action": "grown amount and interest",
+     "explain": "Apply the factor, then remove the principal.",
+     "compute": "interest = 5000 * factor - 5000"
+    }
+   ],
+   "answer_note": "The factor is about 1.171659, so the interest is about 858.30 rupees."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs107.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 7 Exercise (items reworded)",
+   "questions": [
+    "Identify and explain the error in: def create(text, freq): for i in range(1, freq): print text, called as create(5).",
+    "How is math.ceil(89.7) different from math.floor(89.7)?",
+    "Out of random() and randint(), which generates a random integer between 1 and 5? Justify.",
+    "Show with an example how a Python function can return multiple values.",
+    "Differentiate argument and parameter, and global and local variable, with examples.",
+    "Does a function always return a value? Explain with an example.",
+    "Why does calling helloPython() above its definition produce NameError even though the definition exists in the file?",
+    "A login function should block the account after three wrong attempts and accept only uid ADMIN with password St0rE@1. Draft its logic."
+   ]
+  }
+ ]
+}

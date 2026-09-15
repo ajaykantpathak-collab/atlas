@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_008",
+   "title": "c12_bio_cbse_13_008",
+   "questions": [
+    {
+     "q": "Define mutualism and give one classic example from the Indian subcontinent.",
+     "a": "Mutualism is a +/+ interaction where both species benefit. Example: fig–fig wasp pollination mutualism (Ficus religiosa and its specific wasp pollinator). A wrong answer (e.g., \"mutualism is any symbiotic relationship\") reveals confusion between symbiosis (close physical association) and mutualism (net benefit to both). Symbiosis includes parasitism and commensalism; mutualism is a subset.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tapeworm in the human intestine is classified as parasitism (+/-) while an epiphytic orchid on a tree branch is commensalism (+/0). What specific biological criterion distinguishes them?",
+     "a": "The tapeworm absorbs host nutrients, reducing host fitness (growth, reproduction, survival) — a clear cost (-). The epiphytic orchid uses the tree only for physical support and access to light; it does not tap into the tree's vascular tissue, so the tree's fitness is unchanged (0). The distinguishing criterion is whether the host/partner experiences a measurable change in per-capita population growth rate (fitness). A wrong answer (e.g., \"both live on another organism, so both are parasites\") shows failure to differentiate harm from mere association.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer plants marigold (Tagetes erecta) around a tomato field. Marigold roots release thiophenes that repel root-knot nematodes. Tomato plants provide shade that reduces heat stress on marigold. Classify the marigold–tomato interaction and the marigold–nematode interaction.",
+     "a": "Marigold–tomato: mutualism (+/+) — each provides a service (pest defense, shade) that enhances the other's fitness. Marigold–nematode: amensalism (0/-) — marigold is unaffected by nematodes (nematodes don't attack marigold), but nematodes are harmed by the chemical. A wrong answer (e.g., \"marigold–nematode is parasitism because nematodes are harmed\") confuses amensalism (one harmed, other unaffected) with parasitism (parasite benefits). Here marigold does not benefit from harming nematodes directly; the benefit is indirect via tomato.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population-level consequences of a highly virulent parasite (kills host quickly) versus a mutualism where both species are obligate (cannot survive without each other). How does density dependence differ?",
+     "a": "A highly virulent parasite drives host density down, which in turn crashes parasite density (strong negative density dependence for both). Obligate mutualism creates positive density dependence: each species' growth rate increases with the other's density, leading to potential Allee effects — if one density falls too low, both go extinct. A wrong answer (e.g., \"both show negative density dependence\") misses the fundamental difference: parasitism generates negative feedback, mutualism generates positive feedback (until limited by other factors).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Commensalism is rare in nature because the unaffected species always experiences a hidden cost or benefit.\" Use the cattle egret–livestock interaction as a test case.",
+     "a": "The statement is largely true. Cattle egrets eat insects flushed by grazing cattle — cattle appear unaffected (0). But careful studies show cattle may benefit slightly (reduced insect harassment) or suffer slightly (egret droppings on feed). True 0/0 is hard to prove; most \"commensalisms\" are weak mutualisms or parasitisms. A wrong answer (e.g., \"commensalism is common and stable\") ignores the evolutionary instability of a perfectly neutral interaction — selection would favor the \"unaffected\" species evolving a response to the interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field experiment to determine whether the interaction between a native ant species and a plant with extrafloral nectaries is mutualistic, parasitic, or commensal. Specify the control, treatment, and measurable fitness proxies.",
+     "a": "Treatment: exclude ants from half the plants (e.g., sticky barrier). Control: allow ants on the other half. Measure: plant fitness proxies (seed set, herbivore damage, growth rate) and ant colony growth (worker number, brood) after one season. If both increase with ants present → mutualism. If plant fitness decreases but ant colony grows → parasitism. If ant colony grows but plant fitness unchanged → commensalism. A poor design (e.g., no control, only observing natural variation) reveals inability to isolate the interaction effect from confounding environmental factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

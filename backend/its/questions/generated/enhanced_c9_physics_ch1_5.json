@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_5",
+   "title": "c9_physics_ch1_5",
+   "questions": [
+    {
+     "q": "State the SI base unit and its symbol for each of the following quantities: (a) length, (b) mass, (c) time, (d) electric current, (e) thermodynamic temperature.",
+     "a": "(a) metre (m), (b) kilogram (kg), (c) second (s), (d) ampere (A), (e) kelvin (K). A wrong answer like \"gram\" for mass or \"degree Celsius\" for temperature reveals the student confuses base units with common metric units or non-SI temperature scales. It also shows they haven't memorised the exact seven base units required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the kilogram the only SI base unit that contains a prefix (kilo-) in its name, and why is it still considered a base unit rather than a derived unit?",
+     "a": "Historically, the kilogram was defined as the mass of one litre of water, making it a practical standard. The prefix \"kilo-\" remains because the gram was too small for a reliable physical artefact (the International Prototype Kilogram). It is a base unit because the SI system defines mass independently; the gram is actually the derived unit (1 g = 10⁻³ kg). A student who says \"gram is the base unit\" or \"kilogram is derived from gram\" misunderstands the historical and practical basis of the SI definition.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels at 72 km/h. Convert this speed into m/s. Show all steps including unit cancellation.",
+     "a": "Step 1: Write given value with units: 72 km/h.\nStep 2: Convert km to m (1 km = 1000 m) and h to s (1 h = 3600 s).\nStep 3: Multiply by conversion factors: 72 km/h × (1000 m / 1 km) × (1 h / 3600 s).\nStep 4: Cancel units: km cancels km, h cancels h, leaving m/s.\nStep 5: Calculate: 72 × 1000 / 3600 = 72000 / 3600 = 20 m/s.\nA wrong answer like 72/3.6 = 20 without showing unit cancellation indicates the student memorised the \"divide by 3.6\" trick but doesn't understand the dimensional analysis, which fails when converting less common units.",
+     "self_check": true
+    },
+    {
+     "q": "The formula for pressure is P = F/A. If force is measured in newtons (N) and area in square metres (m²), what is the SI unit of pressure? Express it in terms of base SI units (kg, m, s) only.",
+     "a": "Pressure = Force / Area = N / m². Since 1 N = 1 kg·m/s², then 1 Pa = 1 (kg·m/s²) / m² = 1 kg·m⁻¹·s⁻². A student who answers \"N/m²\" or \"pascal\" without breaking it down to base units shows they can recall the derived unit name but cannot perform dimensional analysis to verify consistency in equations—a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the unit of acceleration as \"m/s/s\". Another writes \"m/s²\". A third writes \"ms⁻²\". Evaluate which representation(s) are acceptable in a board exam answer and why.",
+     "a": "All three are dimensionally equivalent and scientifically correct, but \"m/s²\" or \"ms⁻²\" are the standard accepted forms in board exams. \"m/s/s\" is ambiguous (could be misread as m/(s/s) = m) and not recommended. A student who rejects \"ms⁻²\" as wrong reveals a misconception that negative exponents are only for \"inverse\" quantities, not understanding that s⁻² is the standard notation for per second squared.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to verify that the period of a simple pendulum depends only on its length and acceleration due to gravity, not on the mass of the bob. List the measurements you would take, the instruments needed, and how you would use SI units throughout.",
+     "a": "A good answer: Use a metre scale (length in m), a stopwatch (time in s), and bobs of different masses (kg) but same size. Measure length L from pivot to centre of bob. Time 20 oscillations, calculate period T = t/20. Repeat for different L, plot T² vs L; slope gives 4π²/g. All measurements in SI: L in m, t in s, m in kg. A poor answer that uses cm for length or doesn't specify timing multiple oscillations shows lack of understanding of SI consistency and experimental technique to reduce error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

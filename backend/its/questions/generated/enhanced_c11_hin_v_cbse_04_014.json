@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_04_014",
+   "title": "c11_hin_v_cbse_04_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for answer writing and state its four components in the correct order.",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. Point = the main claim or topic sentence. Evidence = textual reference (quote or paraphrase). Explanation = analysis of how evidence supports the point. Link = concluding sentence connecting back to the question/theme. A wrong answer (e.g., listing components out of order or confusing Evidence with Explanation) reveals the student lacks a procedural framework for constructing analytical paragraphs, leading to disorganized, narrative-style answers that lose marks for coherence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Folk paintings are old and classical paintings are also old. Both use natural colors. Folk paintings are on walls, classical on paper.\" Identify two specific weaknesses in this answer relative to board exam expectations.",
+     "a": "Weakness 1: The answer lists isolated facts without a comparative *argument* — no Point framing the comparison (e.g., \"While both traditions are ancient, their patronage systems differed fundamentally\"). Weakness 2: Evidence is vague (\"old\", \"natural colors\") rather than text-specific (e.g., \"Bhimbetka cave paintings vs. Mughal miniatures under royal ateliers\"). A student making this error treats the question as a recall task rather than an analytical synthesis task, missing the \"analyze/evaluate\" command words in board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Using the chapter content, construct a PEEL paragraph answering: \"How does the text establish the connection between geography and the evolution of folk painting styles?\" Provide the complete paragraph with labeled PEEL components.",
+     "a": "**Point:** Folk painting styles in India evolved directly from regional geographical materials and occupational rhythms. **Evidence:** The text states that rock paintings at Bhimbetka used natural pigments, while Mithila paintings originated on mud walls during rituals, and Rajasthani phad paintings used cloth scrolls suited to mobile communities. **Explanation:** These examples show that pigment availability (mineral colors in caves, vegetable dyes in plains), surface constraints (rock, wall, cloth), and lifestyle (settled agriculture vs. pastoral mobility) shaped distinct visual languages — not aesthetic choice alone. **Link:** Thus, geography acts as both canvas and co-author of folk art, a pattern the chapter reinforces across painting, music, and dance forms. A weak answer would list examples without the causal \"shaped by\" logic in the Explanation step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the chapter treats the *transmission* of classical music versus folk dance. Identify one structural similarity and one structural difference in their developmental trajectories as presented in the text.",
+     "a": "Similarity: Both follow an oral guru-shishya parampara (teacher-disciple tradition) for transmission — classical music through formal gharanas, folk dance through community participation. Difference: Classical music underwent early codification into written treatises (Natya Shastra, Sangeet Ratnakar) creating fixed frameworks, while folk dance remained fluid, adapting to seasonal/ritual cycles without textual standardization. A wrong answer conflating \"both are oral\" as the *only* point misses the critical divergence: codification vs. flexibility — a comparative nuance the chapter explicitly develops.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim using chapter evidence: \"The distinction between folk and classical arts in India is rigid and absolute.\" Defend or refute in 3-4 sentences with textual support.",
+     "a": "Refute. The text explicitly states: \"'kkL=kh; vkSj yksddykvksa osQ chp dHkh u •Re gksus okyk laokn gh budh rkdr gS\" (the unbroken dialogue between classical and folk is their beauty). Evidence: Classical dance (Bharatanatyam) draws from folk forms like Sadir; classical ragas incorporate folk tunes; miniature paintings depict folk festivals. The chapter frames the relationship as a continuum where classical forms *emerge from* and *return to* folk roots. A student agreeing with the claim misreads the central thesis of mutual nourishment (\"laokn\") that the author builds across all three art forms.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word museum placard for an exhibit titled \"From Cave to Court: The Journey of Indian Painting\" using exactly three chapter references and the PEEL structure implicitly (without labels).",
+     "a": "A strong placard opens with a clear thesis (Point): \"Indian painting traces a continuum from Bhimbetka's prehistoric rock shelters to Mughal ateliers and Mithila's ritual walls.\" It embeds Evidence: \"Natural mineral pigments on sandstone (Bhimbetka), vegetable dyes on mud (Madhubani), and Persian-influenced miniatures on paper (Mughal courts).\" The Explanation weaves these: \"Each shift reflects changing patrons — community rituals, royal courts, temple traditions — yet all retain the narrative impulse to record life.\" The Link closes: \"This exhibit reveals not replacement, but layering: folk roots sustaining classical branches.\" Weak answers list styles chronologically without the \"continuum\" argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_002",
+   "title": "c11_ip_cbse_03_002",
+   "questions": [
+    {
+     "q": "What is the result of the expression `'Apple' < 'Banana'` in Python, and why does Python give this result?",
+     "a": "The result is `True`. Python compares strings lexicographically using Unicode code points of characters. 'A' (code point 65) comes before 'B' (code point 66), so 'Apple' < 'Banana' evaluates to True. A wrong answer (e.g., False or error) reveals the student thinks string comparison uses length or alphabetical order without understanding Unicode-based character-by-character comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the expression `10 > 5 and 3 < 2 or 4 == 4` evaluates to `True`, showing the order of operations.",
+     "a": "First, relational operators evaluate: `10 > 5` is True, `3 < 2` is False, `4 == 4` is True. Then logical operators apply precedence: `and` before `or`. So `True and False` becomes False. Then `False or True` becomes True. A wrong answer (e.g., evaluating left-to-right without precedence) reveals the student doesn't know `and` has higher precedence than `or`, a critical Class 11 concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the expression: `not (5 >= 5) and (3 != 3 or 7 <= 7)`. Show each step.",
+     "a": "Step 1: Parentheses first. `(5 >= 5)` → True. `(3 != 3)` → False. `(7 <= 7)` → True.\nStep 2: `not True` → False.\nStep 3: `False or True` → True.\nStep 4: `False and True` → False.\nFinal answer: False. A wrong answer reveals confusion about `not` precedence (highest) or misunderstanding that `and`/`or` operate on Boolean results, not numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions `5 > 3 > 1` and `(5 > 3) > 1`. Are they equivalent in Python? Why or why not?",
+     "a": "No, they are not equivalent. `5 > 3 > 1` uses chained comparison: evaluates as `5 > 3 and 3 > 1` → True and True → True. `(5 > 3) > 1` evaluates `5 > 3` first → True, then `True > 1`. In Python, True == 1, so `True > 1` is `1 > 1` → False. A wrong answer reveals the student doesn't know Python's chained comparison feature (unique to Python) or that Booleans are subtypes of integers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `if marks >= 33 and marks <= 100:` to check valid marks. Another writes `if 33 <= marks <= 100:`. Which is better? Justify your evaluation.",
+     "a": "The second (`33 <= marks <= 100`) is better. It uses Python's chained comparison, which is more readable, evaluates `marks` only once (important if `marks` is a function call with side effects), and matches mathematical notation. Both are functionally correct for simple variables, but the chained form is idiomatic Python. A wrong answer (e.g., \"both same\") reveals lack of awareness of chained comparison semantics and evaluation order nuances.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a Boolean expression with at least two relational and two logical operators is needed. Write the Python expression and explain the precedence.",
+     "a": "Scenario: Railway senior citizen concession. Eligible if (age ≥ 60 AND gender == 'F') OR (age ≥ 65 AND gender == 'M'). Expression: `(age >= 60 and gender == 'F') or (age >= 65 and gender == 'M')`. Precedence: relational (`>=`, `==`) first, then `and`, then `or`. Parentheses clarify grouping but are not strictly needed due to precedence. A poor answer uses incorrect operators (e.g., `=` for equality) or misses parentheses where needed, showing inability to translate real-world logic to code.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

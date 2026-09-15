@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_009",
+   "title": "c11_bs_cbse_08_009",
+   "questions": [
+    {
+     "q": "A student writes: \"Commercial banks only give short-term loans for less than one year.\" Is this statement correct? Explain your answer with reference to the types of credit provided by commercial banks.",
+     "a": "The statement is incorrect. Commercial banks provide funds for short-term AND medium-term periods. Beyond short-term cash credit and overdraft, they offer term loans (typically 3-7 years) for equipment and vehicles, and bill discounting for trade receivables. The NCERT text explicitly states: \"Though banks have started extending loans for longer periods, generally such loans are used for medium to short periods.\" A wrong answer reveals the student has oversimplified bank credit to only working capital facilities, ignoring term lending functions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Financial institutions are just like commercial banks but owned by the government.\" Explain why this understanding is incomplete. What specific developmental role do financial institutions play that commercial banks typically do not?",
+     "a": "Financial institutions (development banks) differ fundamentally in mandate: they are established to promote industrial development, not just lend money. Unlike commercial banks, they provide: (1) Long-term risk capital (equity/preference shares) besides loans; (2) Technical, managerial, and financial consultancy; (3) Market surveys and project appraisal; (4) Finance for backward regions and priority sectors. Commercial banks focus on creditworthiness and security; development banks focus on project viability and economic impact. A wrong answer shows the student conflates ownership with function, missing the promotional/developmental mandate.",
+     "self_check": true
+    },
+    {
+     "q": "A textile manufacturer needs ₹15 lakh to purchase raw cotton for the seasonal harvest (3-month cycle) and ₹50 lakh for a new weaving machine (useful life 10 years). Recommend the specific type of bank credit for each need and justify why other types would be unsuitable.",
+     "a": "For raw cotton (seasonal, 3-month): Cash Credit is ideal - it allows drawing up to a limit against hypothecated stock, interest only on utilised amount, suits fluctuating seasonal needs. Overdraft is less suitable as it's typically against current account operations, not specific inventory. For weaving machine (10-year asset): Term Loan (5-7 year tenure) matches asset life, repayable in installments from profits. Cash credit/overdraft would be unsuitable due to short tenure and high rollover risk; bill discounting requires receivables, not applicable here. A wrong answer reveals inability to match credit instrument to asset life and cash flow pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"security/charge\" requirement and \"restrictive conditions\" imposed by commercial banks versus financial institutions. How do these differences affect a borrowing company's operational freedom and future borrowing capacity?",
+     "a": "Commercial banks: Require primary security (hypothecation of stocks/book debts for working capital; mortgage of specific asset for term loans) and often personal guarantees. Restrictive conditions may include: maintaining current ratio, restrictions on further borrowings, dividend caps, asset sale restrictions. Financial institutions: Require mortgage of fixed assets (first charge), often take board representation (nominee directors), impose strict covenants (debt-equity ratio, dividend policy, asset disposal). Impact: Bank conditions are operational/monitoring; FI conditions are strategic/governance. FIs reduce future borrowing capacity more severely due to first charge on prime assets and board oversight. A wrong answer shows superficial comparison without linking charge type to operational vs strategic control.",
+     "self_check": true
+    },
+    {
+     "q": "\"Interest paid on bank loans is tax-deductible, making bank finance always cheaper than equity finance.\" Evaluate this statement considering the total cost of funds, risk, and flexibility for a company with fluctuating earnings.",
+     "a": "The statement is flawed. While interest tax shield reduces effective cost (e.g., 10% interest → 7% post-tax at 30% tax), total cost includes: processing fees, commitment charges, penal interest, opportunity cost of collateral, and financial risk. For a company with fluctuating earnings: (1) Fixed interest burden increases insolvency risk during low earnings; (2) Bank credit is repayable on demand/short notice (cash credit/overdraft) or fixed schedule (term loan) regardless of profits; (3) Equity has no repayment obligation and dividends are discretionary. Bank finance is cheaper only when earnings are stable and sufficient to cover debt service. A wrong answer ignores risk-adjusted cost and treats tax shield as the sole determinant.",
+     "self_check": true
+    },
+    {
+     "q": "Design a financing plan for a new eco-tourism resort requiring ₹10 crore (₹7 crore for land/construction - 15 year life, ₹2 crore for equipment - 8 year life, ₹1 crore working capital). Specify the source (commercial bank or financial institution), instrument, tenure, and security for each component. Justify why a single source cannot optimally meet all three needs.",
+     "a": "Land/construction (₹7 cr, 15 yr): Financial Institution (e.g., TFCI - Tourism Finance Corp) → Term Loan/Equity, 12-15 yr, mortgage of land/building. Equipment (₹2 cr, 8 yr): Commercial Bank → Term Loan, 7-8 yr, hypothecation of equipment. Working capital (₹1 cr): Commercial Bank → Cash Credit, 1 yr renewable, hypothecation of stocks/receivables. Single source fails because: FIs don't typically fund working capital; banks avoid 15-year project loans due to asset-liability mismatch and regulatory limits; combining sources optimizes cost (FI for long-term, bank for medium/short), risk (diversified lenders), and flexibility (separate security pools). A poor answer treats all needs uniformly or ignores tenure-security-instrument alignment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

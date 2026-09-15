@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_009",
+   "title": "c12_bio_cbse_05_009",
+   "questions": [
+    {
+     "q": "A karyotype shows 47 chromosomes with three copies of chromosome 21. What is the correct karyotype notation for this condition?",
+     "a": "Correct answer: 47,XX,+21 or 47,XY,+21 (depending on sex). A wrong answer like \"47,XX,21\" or \"Trisomy 21\" without the proper notation reveals the student does not know the standard ISCN karyotype format, which is required for board exam answers and for communicating cytogenetic results precisely.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with 47,XXY (Klinefelter syndrome) is phenotypically male despite having two X chromosomes.",
+     "a": "Correct answer: The presence of the Y chromosome (specifically the SRY gene) directs testis development; the extra X is inactivated (one Barr body = number of inactive X = n-1 = 1). A wrong answer such as \"because they have a Y chromosome\" without mentioning X-inactivation shows incomplete understanding of dosage compensation and the mechanism of sex determination (c12_bio_cbse_05_006).",
+     "self_check": true
+    },
+    {
+     "q": "A couple has a child with Down syndrome due to standard trisomy 21 (not translocation). The mother is 38 years old. What is the approximate recurrence risk for their next pregnancy, and why is it higher than the general population risk?",
+     "a": "Correct answer: Recurrence risk ~1% (or 1 in 100) until age 40, then rises with maternal age. It is higher than the general population risk because maternal age is an independent risk factor for nondisjunction in oogenesis; the previous affected child indicates the mother's oocytes are susceptible to meiotic error. A wrong answer quoting the general population risk (1 in 800) ignores the maternal age effect and the conditional probability given a prior trisomy 21 conception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the meiotic origin of 47,XXY (Klinefelter) and 45,X (Turner). Which parental meiosis (maternal vs paternal) and which division (Meiosis I vs II) is most likely for each? Justify.",
+     "a": "Correct answer: 47,XXY arises from nondisjunction of sex chromosomes in either parent: if maternal, Meiosis I error gives XX egg + Y sperm; if paternal, Meiosis I error gives XY sperm + X egg. 45,X arises predominantly from paternal Meiosis I nondisjunction producing a nullisomic (no sex chromosome) sperm fertilizing a normal X egg. A wrong answer that assigns both to maternal meiosis or confuses Meiosis I/II shows failure to apply the mechanics of sex chromosome segregation (c11_bio_cbse_10_006, c11_bio_cbse_10_007).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Turner syndrome (45,X) is less severe than Down syndrome (47,XX,+21) because missing one chromosome is better than having an extra one.\" Evaluate this statement.",
+     "a": "Correct evaluation: The statement is false. Severity depends on gene content and dosage sensitivity, not merely on gain vs loss. Chromosome 21 is gene-poor; the X chromosome carries hundreds of essential genes. Monosomy X causes lethality in ~99% of conceptions (most 45,X embryos miscarry), whereas Trisomy 21 is viable. A wrong answer that agrees reveals a fundamental misunderstanding of gene dosage and chromosome biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple pedigree-based screening question for a genetic counseling session that could distinguish between a familial Robertsonian translocation Down syndrome and a standard trisomy 21 case. Describe the expected pedigree pattern for each.",
+     "a": "Good answer: Ask about multiple miscarriages, affected siblings, or a parent with a balanced translocation (45 chromosomes). For standard trisomy 21: no family history, advanced maternal age, recurrence risk ~1%. For Robertsonian translocation (e.g., 14;21): parent is a balanced carrier (45,XX,rob(14;21)), pedigree shows multiple miscarriages and/or affected relatives, recurrence risk up to 10-15% if mother is carrier. A poor answer that only mentions maternal age fails to distinguish the two mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

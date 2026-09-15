@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_007",
+   "title": "c10_eco_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the exact legal guarantee provided to a rural household under MGNREGA 2005 in terms of days of employment and the nature of work.",
+     "a": "Correct answer: MGNREGA guarantees **at least 100 days of wage employment in a financial year** to every rural household whose adult members volunteer to do **unskilled manual work**. A wrong answer (e.g., \"100 days of any work\" or \"guaranteed employment for one member only\") reveals the student misses two critical qualifiers: the work must be **unskilled manual** (not clerical or skilled) and the guarantee is **per household** (not per person), which is the basis for calculating entitlement in board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Act mandate that **at least one-third of the beneficiaries must be women** who are paid **equal wages**? Explain the economic and social rationale.",
+     "a": "Correct answer: The provision addresses **gender-based wage discrimination** prevalent in rural casual labour markets where women are often paid less than men for the same unskilled work. By mandating equal wages and a minimum quota, MGNREGA raises the **reservation wage** for women, increases their bargaining power, and brings them into the formal workforce — directly linking to **human capital formation** (c8_eco_ch1_7) and **reduction of gender disparity in labour force participation**. A wrong answer focusing only on \"women empowerment\" without mentioning **wage equality** or **labour market distortion correction** shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A rural household in Rajasthan worked 45 days under MGNREGA in 2023-24 at the notified wage rate of ₹231/day. The state government delayed wage payment by 25 days beyond the mandated 15-day period. Calculate the total wage due and the compensation the household can claim under the Delayed Payment Compensation provision (0.05% of unpaid wages per day of delay beyond 16th day).",
+     "a": "Step 1: Total wage due = 45 days × ₹231 = **₹10,395**.  \nStep 2: Delay beyond 16th day = 25 − 15 = **10 days** (compensation starts from day 16).  \nStep 3: Compensation per day = 0.05% of ₹10,395 = ₹5.1975 ≈ ₹5.20.  \nStep 4: Total compensation = 10 × ₹5.20 = **₹52**.  \nStep 5: Total claim = ₹10,395 + ₹52 = **₹10,447**.  \nA wrong answer (e.g., calculating compensation on daily wage instead of total unpaid wages, or using 25 days instead of 10) reveals confusion between **stock (total dues)** and **flow (daily wage)** variables and ignorance of the **16th-day trigger** — a frequent trap in CBSE competency-based numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of MGNREGA works on **land productivity** versus **labour productivity** in a village where most works are water conservation structures (check dams, farm ponds). Use the concepts of **disguised unemployment** (c10_eco_cbse_02_008) and **capital formation** (c8_eco_ch1_5).",
+     "a": "Correct analysis: MGNREGA water-conservation assets **raise land productivity** (more output per hectare due to assured irrigation) enabling double-cropping. Simultaneously, they **absorb surplus family labour** (disguised unemployment) during lean seasons, putting zero-marginal-productivity workers to work creating **physical capital** (the pond/dam). This shifts the village production possibility frontier outward. A wrong answer that says \"MGNREGA increases labour productivity\" confuses **labour productivity** (output per worker) with **employment generation**; the Act explicitly uses **unskilled manual labour** (low productivity per hour) to build assets that *later* raise productivity — a distinction critical for board exam \"analyse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"MGNREGA is a fiscal burden with no long-term growth impact because it only creates temporary employment.\" Use evidence on asset durability, migration reduction, and agricultural wage spillovers.",
+     "a": "Correct evaluation: The statement is **false**. Empirical studies (e.g., NCAER, 2016) show: (1) Over 60% of MGNREGA assets are **durable** (water conservation, rural connectivity) lasting 5–10 years, raising farm yields — **capital formation**. (2) It reduces **distress migration** by providing local lean-season work, stabilising rural labour supply for kharif sowing. (3) It creates a **wage floor** — private agricultural wages rise because MGNREGA becomes the outside option, improving rural terms of trade. A wrong answer that agrees with the statement ignores the **asset-creation mandate** (Schedule I of Act) and the **general equilibrium effect on rural wages** — a classic board exam trap where students confuse *short-run fiscal cost* with *long-run productive capacity*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-work MGNREGA project plan for a Gram Panchayat with 200 job-card households, ensuring: (a) at least 33% women person-days, (b) 60:40 labour:material ratio, (c) convergence with PM-KSY (water conservation), and (d) social audit readiness. List the works, estimated person-days, and one measurable output indicator per work.",
+     "a": "Sample answer (criteria for full marks):  \n1. **Farm pond (50 nos.)** – 15,000 person-days – Output: 50 ponds storing 500 m³ each.  \n2. **Check dam (3 nos.)** – 12,000 person-days – Output: 3 dams recharging 200 ha.  \n3. **Land levelling (SC/ST fields, 40 ha)** – 8,000 person-days – Output: 40 ha levelled for paddy.  \n4. **Rural road (2 km gravel)** – 6,000 person-days – Output: 2 km all-weather connectivity.  \n5. **Anganwadi centre (1 building)** – 4,000 person-days – Output: 1 functional centre.  \n**Total: 45,000 person-days** (avg. 225 days/household, but capped at 100 per HH → serves 450 HH demand). Women person-days = 15,000 (33.3%). Labour cost share = 60% (material = cement, pipes for dams/ponds). Each work has a **measurable physical output** for social audit verification. A poor answer lists vague works (\"water works\", \"roads\") without **quantifiable outputs**, ignores the **60:40 ratio**, or omits **women person-day targeting** — missing the implementation architecture tested in CBSE case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_005",
+   "title": "c10_eco_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the full form of ISI mark and which organisation currently issues it in India?",
+     "a": "ISI stands for Indian Standards Institute; it is now issued by the Bureau of Indian Standards (BIS). A wrong answer (e.g., \"International Standards Institute\" or \"issued by ISO\") reveals confusion between national and international standardisation bodies and ignorance of the 2017 BIS Act transition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Agmark specifically used for agricultural products like honey, spices, and wheat flour, while ISI mark is used for electrical appliances and cement?",
+     "a": "Agmark certifies quality and purity of agricultural produce under the Agricultural Produce (Grading and Marking) Act, 1937, focusing on grade standards for farm products; ISI/BIS certifies manufactured industrial goods against safety and performance standards. A wrong answer (e.g., \"both are same\") shows failure to distinguish between agricultural grading and industrial product certification, leading to incorrect product-mark matching in exams.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys a 22-carat gold necklace without a Hallmark. The jeweller claims it is pure. Under the Consumer Protection Act, 2019, which right is violated and what legal remedy can the consumer seek?",
+     "a": "The Right to Safety and Right to Information are violated. The consumer can file a complaint in the District Consumer Disputes Redressal Commission seeking replacement, refund, and compensation. A wrong answer (e.g., citing only \"Right to Choose\") misses the specific safety and information dimensions of hallmarking, indicating poor linkage between standardisation marks and consumer rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consequences of buying a non-ISI marked pressure cooker versus a non-Agmark branded honey bottle. Which poses a greater immediate physical risk and why?",
+     "a": "Non-ISI pressure cooker poses greater immediate physical risk (explosion, burns) because it involves pressure vessel safety; non-Agmark honey risks adulteration (health hazard over time). A wrong answer equating both risks shows inability to differentiate between mechanical safety failure and food quality adulteration, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"Making all standardisation marks mandatory for every product would eliminate consumer exploitation.\" Evaluate this statement with two arguments for and two against.",
+     "a": "For: Ensures baseline quality, reduces information asymmetry, strengthens legal recourse. Against: Increases compliance cost for small producers, may raise prices, enforcement challenges in informal sector, one-size-fits-all standards may not suit local products. A wrong answer giving only one side shows lack of balanced evaluation skill required for competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a checklist for a consumer to verify standardisation marks while shopping for: (a) electrical iron, (b) packaged turmeric powder, (c) gold earrings, (d) fruit jam. Include the mark to look for, issuing authority, and one quality parameter each.",
+     "a": "(a) Electrical iron: ISI/BIS mark, Bureau of Indian Standards, safety against electric shock. (b) Turmeric powder: Agmark, Directorate of Marketing & Inspection, purity/adulteration-free. (c) Gold earrings: Hallmark, BIS, caratage purity. (d) Fruit jam: FPO mark, Ministry of Food Processing Industries, fruit content percentage. A poor answer missing issuing authority or parameter shows rote memorisation without application to real shopping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

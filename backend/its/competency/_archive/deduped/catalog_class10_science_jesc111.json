@@ -1,0 +1,279 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Electricity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.111.11.1",
+   "title": "Electric Current and Potential Difference",
+   "section": "11.1",
+   "definition": "Electric current is the rate of flow of charge through a conductor, measured in amperes by an ammeter connected in series; charges flow because a potential difference set up by a battery pushes them, and a voltmeter connected in parallel measures this difference in volts.",
+   "formula": "current = charge / time",
+   "key_idea": "Charge per second is current; the potential difference is its push.",
+   "textbook_ref": "jesc111.txt sections 11.1-11.2 (electric current and circuit, potential difference)",
+   "question_patterns": [
+    "a charge of 100 C flows in 25 s - find the current",
+    "define electric current and state its unit",
+    "what is potential difference and how is it measured",
+    "why is the ammeter connected in series and the voltmeter in parallel",
+    "calculate the charge flown when current and time are given",
+    "name the instrument to measure potential difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide charge by time",
+     "explain": "Coulombs per second give amperes.",
+     "compute": "current = charge / time"
+    }
+   ]
+  },
+  {
+   "id": "jesc.111.11.2",
+   "title": "Ohm's Law - Current, Voltage and Resistance",
+   "section": "11.4",
+   "definition": "Ohm's law states that at constant temperature the current through a conductor is proportional to the potential difference across it: V = I times R, where R is the resistance; resistors that obey it are ohmic, and resistance depends on the material, length, area and temperature.",
+   "formula": "potential = current * resistance",
+   "key_idea": "V equals I times R: double the push and the flow doubles, if temperature stays put.",
+   "textbook_ref": "jemh111 ohm's law sections of jesc111",
+   "question_patterns": [
+    "find the current through a resistor of the given ohms at the given voltage",
+    "state Ohm's law with its conditions",
+    "calculate the resistance from the given voltage and current",
+    "find the potential difference needed to drive the given current",
+    "why does the resistance of a metal increase with temperature - explain",
+    "draw the V-I graph for an ohmic conductor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply current by resistance",
+     "explain": "Ohm's law gives the potential difference.",
+     "compute": "potential = current * resistance"
+    }
+   ]
+  },
+  {
+   "id": "jesc.111.11.3",
+   "title": "Series and Parallel Circuits",
+   "section": "11.5",
+   "definition": "Resistors in series add directly and carry the same current, sharing the voltage; resistors in parallel share the same voltage and their reciprocals add, so the equivalent resistance drops below the smallest - two ways to wire a circuit with opposite effects.",
+   "formula": "series_res = r1 + r2",
+   "key_idea": "Series adds resistance, parallel adds conductance: wiring decides the total.",
+   "textbook_ref": "jemh111 sections on resistors in series and parallel",
+   "question_patterns": [
+    "find the equivalent resistance of the given resistors in series",
+    "find the equivalent resistance of the given resistors in parallel",
+    "why is parallel wiring preferred in household circuits - explain",
+    "compare the current through resistors in series and in parallel",
+    "a combination of series and parallel resistors is given - reduce it",
+    "why does one fused bulb not affect others in parallel wiring"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the series resistances",
+     "explain": "Series resistors simply add.",
+     "compute": "series_res = r1 + r2"
+    }
+   ]
+  },
+  {
+   "id": "jesc.111.11.4",
+   "title": "Heating Effect and Electric Power",
+   "section": "11.6",
+   "definition": "Electric power is the rate of doing electrical work, P equals V times I, measured in watts; the energy dissipated as heat in time t is I squared R t - the heating effect behind toasters and fuses, billed commercially as kilowatt-hours.",
+   "formula": "power = potential * current",
+   "key_idea": "V times I is power; I squared R t is the heat that warms the toaster.",
+   "textbook_ref": "jemh111 sections on heating effect and electric power",
+   "question_patterns": [
+    "find the power of the appliance operating at the given voltage and current",
+    "calculate the heat produced in a resistor in the given time",
+    "an electric bulb is rated 60 W, 220 V - find its resistance",
+    "why does a fuse melt on excess current - explain the heating effect",
+    "compute the energy consumed in kilowatt hours for the given usage",
+    "compare the power ratings of two given bulbs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply potential difference by current",
+     "explain": "Power equals V times I in watts.",
+     "compute": "power = potential * current"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc111.txt Ohm's law example",
+   "concept": "jesc.111.11.2",
+   "question_type": "compute",
+   "question_pattern": "Find the current through a {resistance} ohm resistor connected to a {potential} volt battery.",
+   "extracted_variables": {
+    "resistance": "resistance in ohms",
+    "potential": "potential difference in volts"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply Ohm's law",
+     "explain": "I equals V over R.",
+     "compute": "current = potential / resistance"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc111.txt Ohm's law practice",
+   "concept": "jesc.111.11.2",
+   "question_type": "compute",
+   "question_pattern": "A current of {current} A flows through {resistance} ohms. Find the potential difference.",
+   "extracted_variables": {
+    "current": "current in amperes",
+    "resistance": "resistance in ohms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply current by resistance",
+     "explain": "V equals I times R.",
+     "compute": "potential = current * resistance"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jesc111.txt power example",
+   "concept": "jesc.111.11.4",
+   "question_type": "compute",
+   "question_pattern": "An appliance draws {current} A at {potential} V. Find its power.",
+   "extracted_variables": {
+    "current": "current in amperes",
+    "potential": "voltage in volts"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply V by I",
+     "explain": "Power equals potential times current.",
+     "compute": "power = potential * current"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jesc111.txt power practice",
+   "concept": "jesc.111.11.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the power consumed at {potential} V by a device carrying {current} A.",
+   "extracted_variables": {
+    "potential": "voltage in volts",
+    "current": "current in amperes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply V by I",
+     "explain": "The product gives the power in watts.",
+     "compute": "power = potential * current"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jesc111.txt current-charge example",
+   "concept": "jesc.111.11.1",
+   "question_type": "compute",
+   "question_pattern": "A charge of {charge} C flows through a wire in {time} s. Find the current in the wire.",
+   "extracted_variables": {
+    "charge": "charge in coulombs",
+    "time": "time in seconds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide charge by time",
+     "explain": "Coulombs per second give amperes.",
+     "compute": "current = charge / time"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jesc111.txt current practice",
+   "concept": "jesc.111.11.1",
+   "question_type": "compute",
+   "question_pattern": "If {charge} coulombs pass a point in {time} seconds, calculate the electric current.",
+   "extracted_variables": {
+    "charge": "charge in coulombs",
+    "time": "time in seconds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide charge by time",
+     "explain": "Current is charge per unit time.",
+     "compute": "current = charge / time"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jesc111.txt series combination practice",
+   "concept": "jesc.111.11.3",
+   "question_type": "compute",
+   "question_pattern": "Two resistors of {r1} ohm and {r2} ohm are connected in series. Find the equivalent resistance.",
+   "extracted_variables": {
+    "r1": "first resistance in ohms",
+    "r2": "second resistance in ohms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the resistances",
+     "explain": "Series resistors add directly.",
+     "compute": "series_res = r1 + r2"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jesc111.txt series combination example",
+   "concept": "jesc.111.11.3",
+   "question_type": "compute",
+   "question_pattern": "Find the total resistance when {r1} ohm and {r2} ohm resistors are joined in series.",
+   "extracted_variables": {
+    "r1": "first resistor in ohms",
+    "r2": "second resistor in ohms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two values",
+     "explain": "Series connection sums resistance.",
+     "compute": "series_res = r1 + r2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "jesc111.txt exercises",
+   "questions": [
+    "Solve the given Ohm's law numericals.",
+    "Find the equivalent resistance of the given circuits.",
+    "Compute the power ratings and energy consumption asked."
+   ]
+  }
+ ]
+}

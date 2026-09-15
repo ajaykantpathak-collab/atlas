@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_1",
+   "title": "c9_eco_ch2_1",
+   "questions": [
+    {
+     "q": "Define \"demand\" in economics. How is it different from \"desire\" or \"want\"?",
+     "a": "Demand is the quantity of a good a consumer is willing **and able** to buy at a given price in a given time period. Desire or want lacks the \"ability to pay\" component — a student may desire a ₹50,000 smartphone but cannot demand it without purchasing power. A wrong answer that equates demand with mere desire reveals the student misses the crucial \"ability to pay\" criterion, which is foundational for distinguishing effective demand from notional want in market analysis.",
+     "self_check": true
+    },
+    {
+     "q": "State the Law of Demand. Why must we say \"ceteris paribus\" (other things being equal) when stating this law?",
+     "a": "The Law of Demand: ceteris paribus, price and quantity demanded are inversely related. \"Ceteris paribus\" is essential because the law isolates the effect of price *alone*; if income, tastes, or prices of related goods change simultaneously, quantity demanded might not fall when price rises (e.g., if income rises sharply, a consumer might buy more even at a higher price). A wrong answer that omits ceteris paribus or says \"it's just a rule\" shows the student does not understand that economic laws are conditional relationships, not absolute predictions.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi buys 5 litres of milk per week at ₹60 per litre. When the price falls to ₹50 per litre, he buys 7 litres. When the price rises to ₹70 per litre, he buys 3 litres. Construct Ravi's demand schedule and state whether it obeys the Law of Demand.",
+     "a": "Demand Schedule:\nPrice (₹/litre) | Quantity Demanded (litres/week)\n60 | 5\n50 | 7\n70 | 3\nAs price falls from 60 to 50, Qd rises from 5 to 7. As price rises from 60 to 70, Qd falls from 5 to 3. Inverse relationship holds → obeys Law of Demand. A wrong schedule (e.g., Qd falling when price falls) or a \"no\" conclusion reveals the student cannot map price-quantity pairs to the inverse relationship or misreads the direction of change.",
+     "self_check": true
+    },
+    {
+     "q": "The price of petrol in Mumbai rises from ₹100 to ₹110 per litre. Arjun reduces his petrol consumption from 40 litres to 35 litres per month. His friend says: \"Arjun's demand for petrol has decreased.\" Is the friend correct? Explain using the distinction between demand and quantity demanded.",
+     "a": "The friend is incorrect. Arjun's **quantity demanded** decreased (movement along the same demand curve) because the price of petrol changed, ceteris paribus. His **demand** (the entire curve) would decrease only if a non-price factor changed, e.g., his income fell or he switched to an electric scooter. A wrong answer saying \"yes, demand decreased\" reveals the classic confusion between a movement along the curve (change in quantity demanded) and a shift of the curve (change in demand) — a critical board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"During Diwali, the price of sweets increases, and people buy more sweets. This violates the Law of Demand.\" Evaluate this statement.",
+     "a": "The statement is false. The Law of Demand assumes ceteris paribus. During Diwali, **tastes/preferences shift** (festive demand) and **income may rise** (bonuses), so the demand curve shifts rightward. At the higher price, quantity demanded is higher *than it would have been without the shift*, but along the new curve, if price alone changed, quantity demanded would still fall. The observation is a shift in demand, not a violation. A wrong answer saying \"yes, it violates\" shows the student cannot apply ceteris paribus to real-world seasonal shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life example (Indian context) of a good that follows the Law of Demand. Draw a hypothetical demand schedule (4 price-quantity pairs) and sketch the demand curve. Label axes correctly.",
+     "a": "Example: Monthly mobile data packs. Schedule: ₹199 → 1.5 GB/day; ₹249 → 1 GB/day; ₹299 → 0.5 GB/day; ₹349 → 0 GB/day. Curve: Price on vertical axis (₹), Quantity on horizontal axis (GB/day), downward sloping from left to right. A poor answer uses an upward-sloping curve, mislabels axes (e.g., quantity on vertical), or chooses a Giffen good (like coarse grain for very poor households) without explaining the exception, revealing inability to translate the law into a correct graphical representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

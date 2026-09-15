@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch3_9",
+   "title": "c9_hist_ch3_9",
+   "questions": [
+    {
+     "q": "What are the four varnas mentioned in the *Purusha Sukta* (Rig Veda 10.90), and which part of the cosmic being is each said to have originated from?",
+     "a": "The four varnas are Brahmana (mouth), Kshatriya (arms), Vaishya (thighs), and Shudra (feet). A wrong answer—such as listing \"untouchables\" as a fifth varna or swapping the body parts—reveals the student is conflating the later five-fold division (including *antayaja*) with the original four-fold Vedic schema, or memorising the list without the symbolic body-metaphor that justified ritual hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the number of jatis expand dramatically between the Later Vedic period (c. 1000–500 BCE) and the Gupta period (c. 300–550 CE), even though the varna framework remained fixed at four?",
+     "a": "Jati expansion resulted from three interlocking processes: (1) tribal groups being absorbed into Brahminical society as distinct jatis rather than fitting neatly into varnas; (2) occupational specialisation in expanding urban/agrarian economies creating new endogamous craft groups (e.g., oil-pressers, potters, weavers); (3) the *dharmashastra* strategy of explaining new groups through *varna-sankara* (mixed varna) formulas, which multiplied categories without altering the four-varna ideal. A wrong answer focusing only on \"caste becoming rigid\" misses the generative mechanism: the system *produced* new jatis to incorporate diverse populations while preserving the varna rhetoric.",
+     "self_check": true
+    },
+    {
+     "q": "A 5th-century CE Gupta-era copper-plate inscription records a land grant to a Brahmin donee, specifying that the village includes \"sharecroppers (*ardhikas*), cattle-herders (*gopas*), and *chandalas* living outside the village boundary.\" Using the varna-jati framework, explain the likely varna status of each group and what the spatial segregation of *chandalas* implies about the practice of untouchability.",
+     "a": "*Ardhikas* and *gopas* are likely Vaishya or Shudra jatis engaged in agriculture/pastoralism—productive but ritually lower. *Chandalas* are *antayaja* (outside the four varnas), explicitly placed beyond the village boundary, confirming that untouchability was spatially enforced by the Gupta period. A wrong answer assigning *chandalas* to Shudra varna misses the critical *varna/avarna* boundary: Shudras are *within* the varna system (entitled to *seva*, service); *chandalas* are *avarna*, denied even that ritual place, a distinction the *Manusmriti* (c. 200 CE) codifies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mauryan state's approach to social order (as seen in Ashoka's edicts and the *Arthashastra*) with the Gupta state's approach (as seen in land grants and *dharmashastra* patronage). How did each state's political economy shape the varna-jati system differently?",
+     "a": "The Mauryan state (centralised, revenue-maximising) used the *Arthashastra* to regulate varna *duties* (e.g., Brahmin teachers, Kshatriya soldiers, Vaishya traders, Shudra labourers) but Ashoka's edicts emphasised *dhamma*—social harmony across sects—over ritual hierarchy. The Gupta state (decentralised, land-grant economy) empowered Brahmins as donees, making varna hierarchy *land-based*: Brahmin donees became local lords, Shudras/avarnas became tied cultivators. A wrong answer treating both as \"upholding caste\" misses the shift from *bureaucratic regulation* (Maurya) to *feudal legitimisation* (Gupta), where land grants hardens jati boundaries by linking them to hereditary land rights.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Sanskritization was the only route to upward social mobility in early India.\" Use evidence from the Satavahana, Gupta, and early medieval periods to support or refute.",
+     "a": "The claim is false. Sanskritization (adopting Brahminical rituals to claim higher varna) was *one* route, but not the only one. The Satavahanas (Kshatriya claimants of Brahminical gotras) used *matronymics* and *marriage alliances* to legitimise power. Guilds (*shrenis*) of merchants and artisans (e.g., *vanik*, *kulika*) gained wealth and political influence without changing varna. Early medieval *rajput* clans emerged from tribal chiefs through *kshatriyaisation*—military service and genealogical fabrication—distinct from ritual sanskritization. A wrong answer equating all mobility with sanskritization ignores *political* and *economic* pathways that operated alongside, and sometimes bypassed, Brahminical ritualism.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 500-word historical argument answering: \"Was the varna-jati system in early India primarily a religious ideology or a material structure of labour control?\" Use at least three pieces of evidence from different periods (Vedic, Mauryan, Gupta, early medieval).",
+     "a": "A strong answer will argue it was *both*, dialectically linked: the Vedic *Purusha Sukta* provided religious sanction for labour division (ideology); the *Arthashastra* regulated wages and movement of Shudra labourers for state revenue (material control); Gupta land grants tied cultivators (often Shudra/avarna jatis) to donated villages, making ritual status enforceable through land tenure (fusion of ideology and materiality). A poor answer picks one side only—e.g., \"it was just religious because the Vedas say so\"—and fails to show how *each period* reconfigured the ideology-materiality nexus, or treats \"religion\" and \"economy\" as separate spheres rather than co-constitutive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

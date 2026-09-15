@@ -1,0 +1,249 @@
+{
+ "catalog": "catalog_class8_maths_hegp205.json",
+ "concepts": [
+  {
+   "id": "hegp.205.5.1",
+   "title": "Mean as the Balance Centre",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 7x + 12 = 61.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 6 = 9.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 65 = 7.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 3 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 8 = 2x + 26.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 1) = 28.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.2",
+   "title": "Finding a Missing Value from the Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 30, 6, 40, 3, 17.",
+     "a": "19.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 16, 24, 36, 47 (already in increasing order).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 14, 18. A seventh value 45 is added, making 7 values. Find the median of the 7 values.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 30 and 31. Find the median.",
+     "a": "30.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 2 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 35, 29, 27, 56.",
+     "a": "29",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.3",
+   "title": "Correcting the Mean After an Error",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 36, 23, 2, 18, 10.",
+     "a": "17.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 22, 26, 37, 38, 45 (already in increasing order).",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 21, 38. A seventh value 43 is added, making 7 values. Find the median of the 7 values.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 14 and 53. Find the median.",
+     "a": "33.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 3 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 54, 10, 26, 18.",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.4",
+   "title": "Median and the Effect of New Values",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((17, 10, 22, 11, 10)) gives 70",
+     "compute": "total = sum((17, 10, 22, 11, 10))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 14",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 17, 10, 22, 11, 10.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 8, 16, 19, 22, 31 (already in increasing order).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 11, 21. A seventh value 58 is added, making 7 values. Find the median of the 7 values.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 14 and 56. Find the median.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 3 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 12, 47, 60, 20.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.5",
+   "title": "Mean with Frequencies",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 22, 19, 20, 3, 14.",
+     "a": "15.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 8, 10, 17, 38, 44 (already in increasing order).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 32, 38. A seventh value 45 is added, making 7 values. Find the median of the 7 values.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 29 and 31. Find the median.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 43, 14, 31, 18.",
+     "a": "29",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.205.5.6",
+   "title": "Line Graphs and Interpreting Data",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 5 + 5 + 6 gives 16",
+     "compute": "total = 5 + 5 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 5, 5 and 6. Find the total frequency.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 10 units. If a row shows 9 symbols, what value does it represent?",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 10 units, how many symbols represent 90 units?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 5 units tall. How many books does it show?",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 45 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

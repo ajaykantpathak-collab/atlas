@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_12_012",
+   "title": "c12_eng_k_cbse_12_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question when reading a poem?",
+     "a": "A literal question asks for information directly stated in the poem (e.g., “What are the clock towers doing?”), while an inferential question asks you to deduce meaning not explicitly written (e.g., “Why is the act of nature described as ‘precise’?”). A wrong answer that says “Both need you to guess” reveals the student thinks comprehension is about speculation rather than evidence-based reading.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line “each slightly off the others’ time, deeper or lighter in its bronze” appears. If a question asks, “Why are the clock towers’ times different?”, is this literal or inferential? Explain your reasoning.",
+     "a": "This is a literal question because the poem explicitly lists the reasons: “accidents of alloy, a maker’s shaking hand… mutual distances / commemorating a donor’s whim.” A student who calls it inferential may not recognize that the text directly provides the answer, leading them to overthink and invent unsupported reasons.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential strategy to a new stanza: “One day you look up and see one of them / eyeless, silent, a zigzag sky showing / through the knocked-out clockwork, after a riot, / a peace-march time bomb, or a precise act / Of nature in a night of lightnings.” \nWrite one literal question and one inferential question based on these lines.",
+     "a": "Literal: “What three events can destroy a clock tower according to the stanza?” (Answer: a riot, a peace-march time bomb, a precise act of nature like lightning.) Inferential: “Why does the poet call the lightning strike a ‘precise act’?” (Answer: It contrasts nature’s exact, inevitable timing with the chaotic, human-made violence of riots and bombs.) A wrong literal question might ask “How does the poet feel?” which is not directly stated; a wrong inferential question might ask “What is the color of the sky?” which is literal.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following student answer to Question 5 (poet’s attitude towards communal disharmony): “The poet critically condemns communal disharmony because he shows the clocks fighting.” Identify the flaw and rewrite the answer correctly using textual evidence.",
+     "a": "The flaw: the student misreads “perennial feuds and seasonal alliance / of Hindu, Christian, and Muslim” as the clocks fighting, but the clocks only mark time; the feuds are human. The poet’s attitude is wistful lament (option iii), seen in the passive observation “cut off sometimes by a change of wind / a change of mind, or a siren.” Correct answer: The poet wistfully laments communal disharmony, as shown by the clocks’ harmonious timekeeping being disrupted by human conflicts (“perennial feuds… cut off… by a change of mind”). A wrong answer that picks “critical condemnation” misses the tone of resignation in “cut off sometimes.”",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: “The title ‘Time and Time Again’ only refers to the clock towers striking the hours repeatedly.” Defend or refute using evidence from the whole poem.",
+     "a": "Refute. The title operates on multiple levels: (1) literal – clocks strike half-hours repeatedly; (2) metaphorical – communal riots and natural disasters recur “time and time again” (the destroyed clock tower happens “one day” but implies a cycle); (3) thematic – the poem suggests history repeats: “perennial feuds” and “precise act / Of nature” both disrupt peace repeatedly. A student who agrees with the claim misses the poem’s deeper commentary on cyclical violence and nature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for this poem that requires connecting the clock towers’ differing times to the theme of communal harmony. Provide a model answer.",
+     "a": "Question: “How does the poet use the image of clocks keeping different times to comment on India’s communal harmony?” Model answer: The clocks’ slight differences (“each slightly off the others’ time”) mirror the diverse communities (Hindu, Christian, Muslim) coexisting with minor friction (“perennial feuds and seasonal alliance”). Their timekeeping is disrupted by external forces (“change of wind, a change of mind, or a siren”), just as communal harmony is fragile. A poor answer would only describe the clocks without linking to communities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

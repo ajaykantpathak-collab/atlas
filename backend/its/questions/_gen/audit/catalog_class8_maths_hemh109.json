@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class8_maths_hemh109.json",
+ "concepts": [
+  {
+   "id": "hemh.109.9.1",
+   "family": "area_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 5 * 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 26 * 6 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 14 * (6 + 31) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 32 * (4 + 8) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 12 * 8 / 2",
+      "alt2 = area / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area = 6 * 12"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.109.9.2",
+   "family": "area_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 4 * 24"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 30 * 6 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 12 * (10 + 26) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 16 * (6 + 10) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 20 * 8 / 2",
+      "alt2 = area / 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area = 8 * 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 4 * 24"
+   ]
+  },
+  {
+   "id": "hemh.109.9.3",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 8 * 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 8 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 15 * 7",
+      "bed = 11 * 3",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 72 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 11 * 13",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 6 * 10 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.109.9.4",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 6 * 10 * 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (9 * 3 + 3 * 7 + 7 * 9)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 3 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 9 * 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 70 * 70 * 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 35 * 20"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.109.9.5",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 12 * 11 * 11"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (5 * 4 + 4 * 6 + 6 * 5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 3 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 21 * 21 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 63 * 19"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

@@ -1,0 +1,460 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "The Age of Industrialisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess304.txt",
+ "concepts": [
+  {
+   "id": "c10ss.4.1",
+   "title": "Proto-Industrialisation",
+   "section": "Before the Factory",
+   "definition": "Proto-industrialisation refers to the phase before factories, when production was carried out in the countryside through networks of merchant-capitalists who supplied raw materials to rural households.",
+   "formula": "",
+   "key_idea": "Even before factories, a system of rural, household-based production for distant markets existed, laying the groundwork for factories.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is proto-industrialisation?",
+    "Explain the relationship between merchants and rural producers.",
+    "Why did production shift to the countryside before factories?",
+    "How did proto-industrialisation prepare the ground for factories?",
+    "What were the features of the putting-out system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define proto-industrialisation",
+     "explain": "Identify it as rural, household production financed by merchants for distant markets."
+    },
+    {
+     "step": 2,
+     "action": "Explain the merchant-producer relationship",
+     "explain": "Merchants supplied raw materials and advanced payments; peasants produced goods at home."
+    },
+    {
+     "step": 3,
+     "action": "Assess its role as a precursor to factories",
+     "explain": "It built networks of capital, labour and markets that factories later used."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was proto-industrialisation?",
+     "solution": "It was the system of production in the countryside before factories, where merchants supplied raw materials to rural households who produced goods for distant markets.",
+     "answer": "Rural, household-based production financed by merchants for distant markets."
+    },
+    {
+     "question": "Why did merchants turn to the countryside for production?",
+     "solution": "Town guilds restricted production and trade, so merchants moved production to villages where labour was cheaper and free from guild rules.",
+     "answer": "To bypass guild restrictions and use cheaper rural labour."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and significance of proto-industrialisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did merchants prefer the countryside over towns for production?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.2",
+   "title": "The Coming Up of the Factory",
+   "section": "The Coming Up of the Factory",
+   "definition": "Factories emerged in the late eighteenth century as a new form of production where workers and machinery were concentrated under one roof, allowing closer supervision and control over labour.",
+   "formula": "",
+   "key_idea": "The factory concentrated production and labour under one roof, increasing control, efficiency and output.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did factories differ from earlier forms of production?",
+    "Why did merchants and producers want to concentrate production in factories?",
+    "Explain the advantages of the factory system for employers.",
+    "What role did machinery play in the factory system?",
+    "How did the factory change the relationship between worker and employer?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the factory",
+     "explain": "Identify it as a site where workers and machines are concentrated under one roof."
+    },
+    {
+     "step": 2,
+     "action": "Explain the advantages for employers",
+     "explain": "Factories allowed supervision, quality control and use of costly machinery."
+    },
+    {
+     "step": 3,
+     "action": "Assess the change in labour relations",
+     "explain": "Workers became wage labourers working under strict discipline and time rules."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was production organised in the factory?",
+     "solution": "All steps of production were brought together under one roof and supervised by a manager, with each worker specialising in one task.",
+     "answer": "Production was concentrated, supervised and specialised under one roof."
+    },
+    {
+     "question": "Why did costly machinery require a factory?",
+     "solution": "Expensive machines needed careful handling and continuous supervision, which was possible only when workers and machines were gathered in one place.",
+     "answer": "Costly machines required a controlled, centralised workplace."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how the coming up of the factory changed production.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two reasons why employers preferred the factory system.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.3",
+   "title": "The Pace of Industrial Change",
+   "section": "The Pace of Industrial Change",
+   "definition": "Industrialisation was gradual; new technology spread slowly, and traditional forms of production coexisted with factories for a long time because old methods remained profitable and flexible.",
+   "formula": "",
+   "key_idea": "Industrialisation was not rapid or uniform; new and old technologies coexisted because old methods still served many markets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why was the pace of industrial change slow in Britain?",
+    "How did traditional and modern production coexist?",
+    "Explain why new technology was not always adopted quickly.",
+    "What factors determined the use of new technology?",
+    "How did demand influence the pace of mechanisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the slow spread of technology",
+     "explain": "New machines were adopted gradually, not everywhere at once."
+    },
+    {
+     "step": 2,
+     "action": "Explain the coexistence of old and new",
+     "explain": "Traditional methods remained profitable for many products and markets."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of demand",
+     "explain": "Demand for varied goods kept older, flexible methods alive alongside factories."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did new technology not spread quickly across industries?",
+     "solution": "Merchants feared unemployment from machines, technology was expensive, and demand for hand-made goods remained strong in many markets.",
+     "answer": "High costs, fear of unemployment and continued demand for hand-made goods slowed adoption."
+    },
+    {
+     "question": "How did the rich influence the pace of technological change?",
+     "solution": "The rich preferred hand-made products for their exclusivity, keeping traditional artisans and methods in business even as factories grew.",
+     "answer": "Demand from the rich for hand-made goods sustained traditional production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the pace of industrial change was slow and uneven.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two reasons why old technology survived alongside factories.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.4",
+   "title": "Life of the Workers",
+   "section": "Life of the Workers",
+   "definition": "Workers' lives were marked by uncertain employment, low wages, long hours and periods of unemployment; labour was abundant and fear of job loss kept wages low.",
+   "formula": "",
+   "key_idea": "The abundance of labour and fear of unemployment gave workers little bargaining power, making their lives insecure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the life of workers in the early industrial period.",
+    "Why were wages low in the early factories?",
+    "How did seasons affect employment for workers?",
+    "Explain the relationship between labour supply and wages.",
+    "What was the effect of fear of unemployment on workers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the conditions of work",
+     "explain": "Recognise long hours, low wages and uncertain employment."
+    },
+    {
+     "step": 2,
+     "action": "Explain the abundance of labour",
+     "explain": "Large numbers of migrants and rural poor kept labour supply high."
+    },
+    {
+     "step": 3,
+     "action": "Assess the effect on bargaining power",
+     "explain": "Fear of job loss reduced workers' ability to demand better wages."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was employment in the early industrial period often uncertain?",
+     "solution": "Demand for goods varied with seasons, and workers were hired when needed and dismissed when demand fell, making jobs insecure.",
+     "answer": "Seasonal demand made employment irregular and insecure."
+    },
+    {
+     "question": "How did the abundance of labour affect wages?",
+     "solution": "Because there were many workers seeking jobs, employers could pay low wages, and the fear of unemployment prevented workers from demanding more.",
+     "answer": "Abundant labour kept wages low and bargaining power weak."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the conditions of life of workers in the age of industrialisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did workers have little bargaining power?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.5",
+   "title": "Industrialisation in the Colonies",
+   "section": "Industrialisation in the Colonies",
+   "definition": "In colonies like India, industrialisation was shaped by colonial rule: British policies favoured the import of British manufactures and the export of Indian raw materials, while Indian businessmen later set up their own factories.",
+   "formula": "",
+   "key_idea": "Colonial industrialisation was constrained by British economic policies, but Indian entrepreneurs eventually established factories.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did colonial rule affect Indian industries?",
+    "Explain the rise of Indian-owned factories in the late nineteenth century.",
+    "What was the role of Bombay and Ahmedabad in Indian industrialisation?",
+    "How did British policies shape the pattern of industrialisation in India?",
+    "Why did the first Indian factories come up in specific regions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify colonial economic policies",
+     "explain": "Recognise British promotion of raw material exports and manufactured imports."
+    },
+    {
+     "step": 2,
+     "action": "Trace the rise of Indian factories",
+     "explain": "Indian entrepreneurs set up cotton and jute mills in Bombay, Ahmedabad and Calcutta."
+    },
+    {
+     "step": 3,
+     "action": "Assess the limits of colonial industrialisation",
+     "explain": "Colonial policies restricted growth and kept Indian industry dependent."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where were the first cotton mills set up in India?",
+     "solution": "The first cotton mills were established in Bombay in the 1850s and 1860s by Indian businessmen, followed by mills in Ahmedabad.",
+     "answer": "In Bombay in the 1850s, then Ahmedabad."
+    },
+    {
+     "question": "How did colonial rule affect Indian weavers?",
+     "solution": "British policies encouraged the import of cheap British cloth and the export of Indian cotton, reducing demand for Indian handloom cloth and hurting weavers.",
+     "answer": "Indian weavers suffered due to cheap British imports and raw cotton exports."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how industrialisation developed in the colonies under British rule.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two cities where early Indian factories were set up.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.6",
+   "title": "The Market for Goods",
+   "section": "The Market for Goods",
+   "definition": "Creating a market for manufactured goods required advertising, branding and persuasion; consumers had to be convinced to buy factory-made products over hand-made ones.",
+   "formula": "",
+   "key_idea": "Demand for factory goods had to be actively created through marketing, brands and advertising.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did manufacturers create a market for their goods?",
+    "Explain the role of advertising in the industrial age.",
+    "Why was branding important for selling manufactured goods?",
+    "How did shops and markets change with industrialisation?",
+    "What strategies did producers use to expand demand?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the challenge of creating demand",
+     "explain": "Recognise that consumers had to be persuaded to buy factory goods."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of advertising and branding",
+     "explain": "Labels, brands and advertisements built trust and desire."
+    },
+    {
+     "step": 3,
+     "action": "Assess the expansion of markets",
+     "explain": "Shops, exhibitions and new retail methods spread goods to wider audiences."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did manufacturers try to create a market for their goods?",
+     "solution": "They used labels, advertisements, brands and images to make products attractive and familiar, persuading consumers to choose factory-made goods.",
+     "answer": "Through advertising, branding and attractive packaging."
+    },
+    {
+     "question": "Why were labels important on cloth bundles?",
+     "solution": "Labels carried images and names that assured buyers of quality and helped identify the manufacturer, building trust in the product.",
+     "answer": "Labels assured quality and identified the manufacturer."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how a market for manufactured goods was created in the industrial age.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two methods manufacturers used to advertise their goods.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.7",
+   "title": "Workers' Struggles",
+   "section": "Workers' Struggles",
+   "definition": "Workers organised strikes and protests to demand better wages, shorter hours and safer conditions; over time, laws were passed to regulate working conditions and limit employers' power.",
+   "formula": "",
+   "key_idea": "Collective action by workers gradually forced improvements in wages, hours and working conditions through legislation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did workers respond to poor working conditions?",
+    "Explain the role of strikes in improving workers' lives.",
+    "What demands did workers make in the nineteenth century?",
+    "How did governments respond to workers' struggles?",
+    "Why was collective action important for workers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify workers' demands",
+     "explain": "Recognise demands for higher wages, shorter hours and safer conditions."
+    },
+    {
+     "step": 2,
+     "action": "Explain collective action",
+     "explain": "Strikes and unions pressured employers and governments."
+    },
+    {
+     "step": 3,
+     "action": "Assess the outcomes",
+     "explain": "Legislation gradually limited working hours and improved conditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What methods did workers use to press their demands?",
+     "solution": "Workers formed unions, held strikes and protested to demand better wages, shorter working hours and safer conditions.",
+     "answer": "Through unions, strikes and protests."
+    },
+    {
+     "question": "How did the government respond to workers' struggles over time?",
+     "solution": "Governments passed laws to limit working hours, regulate child labour and improve safety, partly to prevent unrest.",
+     "answer": "Through labour laws regulating hours and conditions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the struggles of workers and their outcomes in the industrial age.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List two demands made by workers in the nineteenth century.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.4.8",
+   "title": "Handloom and the Factory",
+   "section": "The Pace of Industrial Change",
+   "definition": "Handloom weaving did not disappear with factories; it survived and even expanded in some regions by adapting to new demands, using improved technology and specialising in fine cloth.",
+   "formula": "",
+   "key_idea": "Handloom production coexisted with factories by adapting, specialising and meeting demand for fine and varied cloth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why did handloom weaving survive alongside factories?",
+    "How did handloom weavers adapt to competition from factories?",
+    "Explain the relationship between handloom and factory production.",
+    "What technological changes helped handloom weavers?",
+    "Why did some types of cloth remain in demand despite factories?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the survival of handlooms",
+     "explain": "Recognise that handloom weaving continued alongside factories."
+    },
+    {
+     "step": 2,
+     "action": "Explain the reasons for survival",
+     "explain": "Handlooms met demand for fine cloth and adapted with improved tools."
+    },
+    {
+     "step": 3,
+     "action": "Assess the interaction with factories",
+     "explain": "Factories and handlooms served different segments of the market."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did handloom weaving not die out after factories appeared?",
+     "solution": "Handloom weavers produced fine and specialised cloth that factories could not easily make, and they adapted by using improved looms.",
+     "answer": "Handlooms survived by specialising in fine cloth and using improved technology."
+    },
+    {
+     "question": "How did the fly-shuttle help weavers?",
+     "solution": "The fly-shuttle increased the speed and productivity of handloom weaving, helping weavers compete with factories for some types of cloth.",
+     "answer": "It increased weaving speed and productivity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why handloom production survived alongside factory production.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one technological improvement that helped handloom weavers.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

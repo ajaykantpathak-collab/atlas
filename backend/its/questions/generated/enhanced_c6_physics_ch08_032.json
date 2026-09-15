@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_032",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_032",
+   "title": "c6_physics_ch08_032",
+   "questions": [
+    {
+     "q": "What is the simple formula used to calculate the speed of a moving object?",
+     "a": "Speed = Distance / Time. A student who answers \"Distance times Time\" is confusing the concept of rate with total accumulation, showing they haven't grasped that speed is a division of distance into time intervals.",
+     "self_check": true
+    },
+    {
+     "q": "If two cars travel the same distance, but Car A takes 10 minutes and Car B takes 20 minutes, which car is faster and why?",
+     "a": "Car A is faster because it covered the same distance in less time. A student who says \"they are the same\" likely ignores the role of time in the definition of speed, focusing only on the fact that the distance travelled was identical.",
+     "self_check": true
+    },
+    {
+     "q": "A student walks a 20-metre corridor in 5 seconds. Calculate the speed of the student.",
+     "a": "Speed = 20 m / 5 s = 4 m/s. A student who performs 20 x 5 = 100 or 5 / 20 = 0.25 m/s has not correctly applied the division order of the speed formula.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say that speed tells us about the \"rate\" of motion?",
+     "a": "It describes how distance changes for every one unit of time (like a second or an hour). A student who simply says \"it shows how fast\" lacks the analytical link between the variable of distance and the variable of time.",
+     "self_check": true
+    },
+    {
+     "q": "If a cyclist travels at a constant speed, does that mean they have stopped moving? Justify your answer.",
+     "a": "No, constant speed means they are covering the same amount of distance in every equal interval of time. A student who believes constant speed means \"at rest\" is confusing a steady motion with a zero-motion state.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where you would need to measure speed in your daily life.",
+     "a": "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds.\" A poor answer would be vague, like \"measuring a car,\" without explaining the need for both distance and time measurements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

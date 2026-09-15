@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 107,
+  "chapter_title": "Nationalism",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps107.1.1",
+      "title": "Nation and Nationalism: Defining the Political Community",
+      "section": "1.1",
+      "definition": "A nation is a community of people who feel bound to one another by shared identity -- history, culture, territory, or aspirations -- and who believe they should govern themselves together. Nationalism is the sentiment and the political doctrine that this collective self-rule matters, demanding that nation and state coincide.",
+      "formula": "",
+      "key_idea": "Nations are made, not found -- a shared sense of peoplehood built on memory, culture and common aspirations.",
+      "textbook_ref": "keps107.txt lines 1-90 (overview and introduction, meaning of nation and nationalism, nation as community with shared identity and aspirations)",
+      "question_patterns": [
+        "define nation and nationalism in political theory",
+        "in class 11 nationalism chapter: is a nation the same as a state or a country",
+        "what bonds hold a national community together",
+        "why does nationalism demand political self-rule",
+        "distinguish a nation from a mere population of a territory",
+        "how do shared history and culture create national identity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "separate state from nation", "explain": "A state is a legal-political apparatus; a nation is a felt community of belonging that may or may not have its own state."},
+        {"step": 2, "action": "list the bonds", "explain": "Shared territory, common history, language, culture and collective aspirations supply the glue of national identity."},
+        {"step": 3, "action": "state the political claim", "explain": "Nationalism insists that this community deserves self-government -- that the nation should rule itself."}
+      ]
+    },
+    {
+      "id": "keps107.1.2",
+      "title": "Assumptions of Nationalism: Shared Beliefs and Collective Identity",
+      "section": "1.2",
+      "definition": "National self-rule rests on shared beliefs: that history is one common story, that territory is one collective home, that political ideals and cultural traits bind members, and that the community's destiny matters more than internal differences. Nationalists read a single past and project a single future for the whole people.",
+      "formula": "",
+      "key_idea": "One land, one story, one future -- these shared beliefs manufacture the collective 'we'.",
+      "textbook_ref": "keps107.txt lines 90-170 (shared beliefs underlying nationalism, common history, territory, shared political ideals, common culture)",
+      "question_patterns": [
+        "what shared beliefs sustain a national community",
+        "in class 11 nationalism chapter: how does common history build nationalism",
+        "why is a shared territory important for national identity",
+        "can nations exist without a common language or religion",
+        "how do shared political ideals unify a diverse nation",
+        "explain the role of collective memory in nationalism"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read the history as one story", "explain": "Nationalist narratives knit regionally diverse events into a single shared past, remembered collectively."},
+        {"step": 2, "action": "claim the land", "explain": "The territory is imagined as a common homeland that deserves the community's care and sacrifice."},
+        {"step": 3, "action": "affirm shared values", "explain": "Common political ideals and cultural practices supply everyday markers that turn residents into compatriots."}
+      ]
+    },
+    {
+      "id": "keps107.1.3",
+      "title": "Self-Determination and National Movements",
+      "section": "1.3",
+      "definition": "Nationalism claims the right of every nation to decide its own political fate -- self-determination. This principle fuelled anti-colonial movements, redrew European maps, and still drives stateless nations seeking statehood, raising hard questions about where one nation's freedom ends and another's begins.",
+      "formula": "",
+      "key_idea": "Every people its own master -- the powerful, dangerous simplicity of self-determination.",
+      "textbook_ref": "keps107.txt lines 170-260 (national self-determination, nineteenth century Europe, anti-colonial movements, first and second world war context)",
+      "question_patterns": [
+        "what is the principle of national self-determination",
+        "in class 11 nationalism chapter: how did self-determination shape anti-colonial struggles",
+        "why did the world wars reshape the map of Europe along national lines",
+        "when does a community qualify as a nation deserving statehood",
+        "can self-determination justify secession from an existing state",
+        "how did nationalism unify and divide peoples"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the principle", "explain": "Each nation is entitled to govern itself, free from alien rule -- sovereignty belongs to the people-as-nation."},
+        {"step": 2, "action": "trace its impact", "explain": "It legitimised liberation from empires and colonies, and after the world wars justified new states carved on national lines."},
+        {"step": 3, "action": "note the friction", "explain": "Territories hold many communities, so drawing state lines around one nation can create new minorities and fresh conflicts."}
+      ]
+    },
+    {
+      "id": "keps107.1.4",
+      "title": "Nationalism: Inclusive and Exclusive Faces",
+      "section": "1.4",
+      "definition": "Nationalism can bind citizens across caste and creed in solidarity and inspire democratic self-rule, yet it can also harden into suspicion of outsiders and suppression of internal diversity. Whether it unites or persecutes depends on whether national identity stays open to pluralism or demands uniformity.",
+      "formula": "",
+      "key_idea": "Same force, two faces -- nationalism builds solidarity when plural, turns exclusionary when uniform.",
+      "textbook_ref": "keps107.txt lines 260-350 (positive and negative dimensions of nationalism, pluralism, cultural diversity, dangers of aggressive nationalism)",
+      "question_patterns": [
+        "how can nationalism be a force for democracy and unity",
+        "in class 11 nationalism chapter: when does nationalism become dangerous",
+        "distinguish inclusive nationalism from aggressive exclusivist nationalism",
+        "how should a nation treat its internal cultural diversity",
+        "what led the two world wars to be linked to nationalism",
+        "can national pride coexist with respect for other nations"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "credit the achievements", "explain": "National movements mobilised ordinary people for democracy, welfare and freedom from empire."},
+        {"step": 2, "action": "note the pathologies", "explain": "Turned inward, nationalism vilifies minorities, glorifies war and crushes dissent in the name of unity."},
+        {"step": 3, "action": "state the test", "explain": "A nationalism that accepts pluralism and equal membership passes; one demanding sameness fails."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps107.txt lines 90-170 (shared beliefs)",
+      "concept": "keps107.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "India holds hundreds of languages and many religions. On what shared beliefs, then, can Indian national identity rest? Explain with the chapter's categories.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "apply the shared-history test", "explain": "The freedom struggle and centuries of interlinked life supply a common historical narrative cutting across languages."},
+        {"step": 2, "action": "apply the shared-ideals test", "explain": "Commitment to democracy, secularism and equal citizenship provides political ideals that unite religiously diverse citizens."},
+        {"step": 3, "action": "conclude", "explain": "Nations need not share one language or faith; a shared homeland, story and civic creed can carry national identity."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps107.txt lines 260-350 (inclusive vs exclusive nationalism)",
+      "concept": "keps107.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A group demands that all citizens adopt one single national language and culture in the name of unity. Evaluate the demand using the two faces of nationalism.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the face", "explain": "Enforced uniformity marks the exclusive face of nationalism, which treats diversity as a threat."},
+        {"step": 2, "action": "weigh the costs", "explain": "Suppressing minority languages and cultures alienates citizens and corrodes the equal membership democracy needs."},
+        {"step": 3, "action": "state the alternative", "explain": "Inclusive nationalism achieves cohesion through shared civic ideals while protecting plural identities."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps107.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "How is a nation different from a state and from a country?",
+        "Explain the shared beliefs on which nationalism builds collective identity.",
+        "What is national self-determination and what problems arise in applying it?",
+        "Describe how nationalism contributed to anti-colonial struggles.",
+        "When does nationalism turn from a unifying to a destructive force?",
+        "Can a multireligious, multilingual society sustain a common national identity? Discuss."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs102",
+ "concepts": [
+  {
+   "id": "kecs102.1",
+   "title": "Character Capacity of ASCII and ISCII Codes",
+   "questions": [
+    {
+     "q": "Using the method 'Character Capacity of ASCII and ISCII Codes', work with: code_bits = 25. Carry the chain through step by step and give the final value of ascii_share.",
+     "a": "16777216 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Character Capacity of ASCII and ISCII Codes' and work with: code_bits = 8. Carry the chain through step by step and give the final value of ascii_share.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Character Capacity of ASCII and ISCII Codes' refers to.",
+     "a": "Keyboard characters reach a computer as numeric codes: ASCII assigns 7-bit values covering 128 English characters, while the 8-bit ISCII scheme keeps those 128 codes and adds another 128 slots for Indian script symbols.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Character Capacity of ASCII and ISCII Codes'.",
+     "a": "A code of n bits can label exactly 2 raised to n different characters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Character Capacity of ASCII and ISCII Codes', in plain ASCII form.",
+     "a": "total_codes = 2 ** code_bits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.2",
+   "title": "Positional Value in a Number System",
+   "questions": [
+    {
+     "q": "Using the method 'Positional Value in a Number System', work with: base = 40, position = 4, symbol = 512. Carry the chain through step by step and give the final value of digit_share.",
+     "a": "1310720000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Positional Value in a Number System' and work with: base = 60, position = 3, symbol = 512. Carry the chain through step by step and give the final value of digit_share.",
+     "a": "110592000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Positional Value in a Number System' refers to.",
+     "a": "Every number system has a base equal to its count of distinct symbols, and each symbol's worth depends on its slot: the positional worth is the base raised to the slot number, counted from zero at the right of the integer part.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Positional Value in a Number System'.",
+     "a": "Slot zero sits at the right of the integer part, and each step left raises the power of the base by one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Positional Value in a Number System', in plain ASCII form.",
+     "a": "pos_value = base ** position",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.3",
+   "title": "Binary to Decimal Conversion",
+   "questions": [
+    {
+     "q": "Using the method 'Binary to Decimal Conversion', work with: d0 = 80, d1 = 4, d2 = 300, d3 = 15. Carry the chain through step by step and give the final value of dec_val.",
+     "a": "1408 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Binary to Decimal Conversion' and work with: d0 = 45, d1 = 150, d2 = 80, d3 = 400. Carry the chain through step by step and give the final value of dec_val.",
+     "a": "3865 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Binary to Decimal Conversion' refers to.",
+     "a": "A binary string names a decimal value: weight each bit by the matching power of two, counting from 1 at the rightmost bit, and add all the weighted shares together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Binary to Decimal Conversion'.",
+     "a": "Powers of two double from right to left, so each bit position is worth twice the one after it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Binary to Decimal Conversion', in plain ASCII form.",
+     "a": "dec_val = d2 * 4 + d1 * 2 + d0",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.4",
+   "title": "Decimal to Binary by Repeated Division",
+   "questions": [
+    {
+     "q": "Using the method 'Decimal to Binary by Repeated Division', work with: dec = 80. Carry the chain through step by step and give the final value of digits.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Decimal to Binary by Repeated Division' and work with: dec = 240. Carry the chain through step by step and give the final value of digits.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Decimal to Binary by Repeated Division' refers to.",
+     "a": "To rewrite a decimal number in binary, divide it by 2 over and over, jot down each remainder, stop when the quotient reaches zero, and then read the remainders from last to first.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Decimal to Binary by Repeated Division'.",
+     "a": "Remainders appear least-significant bit first, which is why the collected column is read upside down.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Decimal to Binary by Repeated Division', in plain ASCII form.",
+     "a": "remainder = quotient % 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.5",
+   "title": "Binary Grouping into Octal and Hexadecimal",
+   "questions": [
+    {
+     "q": "Using the method 'Binary Grouping into Octal and Hexadecimal', work with: b0 = 24, b1 = 50, b2 = 12, b3 = 360, b4 = 500, b5 = 6. Carry the chain through step by step and give the final value of octal_digits.",
+     "a": "14012 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Binary Grouping into Octal and Hexadecimal' and work with: b0 = 25, b1 = 10, b2 = 240, b3 = 6, b4 = 18, b5 = 3. Carry the chain through step by step and give the final value of octal_digits.",
+     "a": "1545 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Binary Grouping into Octal and Hexadecimal' refers to.",
+     "a": "Because 8 and 16 are powers of two, a binary string converts to octal or hexadecimal by cutting it into chunks of 3 or 4 bits from the right and swapping each chunk for its single digit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Binary Grouping into Octal and Hexadecimal'.",
+     "a": "Three bits make one octal digit and four bits make one hexadecimal symbol, so long bit strings shrink sharply.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Binary Grouping into Octal and Hexadecimal', in plain ASCII form.",
+     "a": "oct_digit = b2 * 4 + b1 * 2 + b0",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.6",
+   "title": "Hexadecimal Colour Codes for Web Pages",
+   "questions": [
+    {
+     "q": "Using the method 'Hexadecimal Colour Codes for Web Pages', work with: components = 4. Carry the chain through step by step and give the final value of palette.",
+     "a": "4294967296 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Hexadecimal Colour Codes for Web Pages' and work with: components = 4. Carry the chain through step by step and give the final value of palette.",
+     "a": "4294967296 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hexadecimal Colour Codes for Web Pages' refers to.",
+     "a": "A screen colour mixes red, green and blue, each stored as one byte, so a colour needs 24 bits; writing each byte as a two-symbol hexadecimal pair gives compact codes such as FF0000 for pure red.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hexadecimal Colour Codes for Web Pages'.",
+     "a": "One byte per channel means 24 bits per colour, which folds into six hexadecimal symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hexadecimal Colour Codes for Web Pages', in plain ASCII form.",
+     "a": "total_bits = components * 8",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.7",
+   "title": "Fractional Binary to Decimal",
+   "questions": [
+    {
+     "q": "Using the method 'Fractional Binary to Decimal', work with: f1 = 4, f2 = 500, f3 = 200. Carry the chain through step by step and give the final value of frac_val.",
+     "a": "152 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Fractional Binary to Decimal' and work with: f1 = 3, f2 = 240, f3 = 25. Carry the chain through step by step and give the final value of frac_val.",
+     "a": "64.625 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Fractional Binary to Decimal' refers to.",
+     "a": "Bits after the binary point carry negative powers of two: the first is one half, the next one quarter, then one eighth, and the decimal value is the sum of these fractional shares.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fractional Binary to Decimal'.",
+     "a": "Left of the point the powers of two grow; right of it they halve from one half downwards.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fractional Binary to Decimal', in plain ASCII form.",
+     "a": "frac_val = d1 * 2 ** -1 + d2 * 2 ** -2 + d3 * 2 ** -3",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs102.8",
+   "title": "Unicode and UTF Encodings",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Unicode and UTF Encodings' refers to.",
+     "a": "Unicode assigns one number to every character of every written language, so text survives across devices and programs; its UTF-8, UTF-16 and UTF-32 forms differ in how many bits each character occupies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Unicode and UTF Encodings'.",
+     "a": "Codes 0 to 128 agree with ASCII, which keeps ordinary English text unchanged under Unicode.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Unicode and UTF Encodings', in plain ASCII form.",
+     "a": "utf_32_size = 4 * utf_8_size (for a fixed character)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

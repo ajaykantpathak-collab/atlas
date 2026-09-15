@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_006",
+   "title": "c12_bs_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define 'Objectives' as a type of standing plan according to NCERT, and state two characteristics that differentiate them from Strategies.",
+     "a": "Objectives are the desired future positions management aims to reach — measurable end-results expressed in quantitative terms within a given time period. They differ from Strategies in two ways: (1) Objectives are end-points (what to achieve), while Strategies are comprehensive action plans (how to achieve); (2) Objectives are typically set by top management for the whole organisation, whereas Strategies involve resource allocation and environmental analysis across three dimensions. A wrong answer that calls Objectives \"general guidelines\" confuses them with Policies; an answer missing \"measurable/quantitative\" misses the NCERT requirement for specificity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Strategy is just a long-term plan.\" Explain why this definition is incomplete per NCERT, and state the three specific dimensions a Strategy must include.",
+     "a": "The definition is incomplete because NCERT defines Strategy as a comprehensive plan with three explicit dimensions: (i) determining long-term objectives, (ii) adopting a particular course of action, and (iii) allocating resources necessary to achieve the objective. Merely calling it a \"long-term plan\" omits the resource-allocation and course-of-action dimensions, and ignores that Strategy must consider the business environment (economic, political, social, legal, technological). A student who cannot list all three dimensions has memorised a vague definition and will fail case-based questions asking to \"identify the strategic dimensions in the following scenario.\"",
+     "self_check": true
+    },
+    {
+     "q": "Rama Stationery Mart decides: \"All payments will be made only via e-transfers.\" Identify the type of plan this represents. Then, modify the statement to make it a Policy instead of a Rule, and explain the difference in managerial discretion.",
+     "a": "The original statement is a Rule — it allows zero discretion (\"only via e-transfers\"). To make it a Policy: \"The company encourages digital payments; e-transfers are preferred for all transactions above ₹5,000, but cash/cheque may be used in exceptional cases with manager approval.\" Policies provide broad parameters and allow managerial discretion in interpretation/application; Rules are rigid, specific statements with no flexibility. A student who cannot convert Rule→Policy or explain discretion confuses standing plan types — a common 1-mark board error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) How Objectives guide Strategy formulation, and (b) How Policies guide Strategy implementation. Use a concrete business example (e.g., a smartphone manufacturer) to illustrate both relationships.",
+     "a": "(a) Objectives → Strategy: The Objective \"Capture 15% premium smartphone market share in 2 years\" dictates the Strategy's three dimensions — long-term objective (premium segment), course of action (R&D for camera innovation, exclusive retail), resource allocation (₹200 cr to imaging lab). Without the Objective, Strategy lacks direction. (b) Policies → Implementation: The Strategy requires premium positioning; Policies operationalise it — Pricing Policy: \"No discount >5% on flagship models\"; Procurement Policy: \"Only Tier-1 sensor suppliers\"; Marketing Policy: \"Influencer partnerships only with tech reviewers >1M subscribers.\" Policies channel daily decisions toward the Strategy. A weak answer treats both relationships as identical or gives generic statements without the three Strategy dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since Policies are general statements, they are less important than Objectives and Strategies in achieving organisational goals.\" Defend or refute using NCERT logic and a real-world consequence of poor Policy design.",
+     "a": "Refute. NCERT states Policies \"provide a basis for interpreting strategy\" and \"guide managerial action and decisions in the implementation of strategy.\" Without Policies, Strategy remains abstract — e.g., a bank's Strategy \"Expand rural credit\" fails if Credit Policy doesn't define: \"Max loan ₹2 lakh without collateral; interest rate 9%; repayment linked to crop cycle.\" Poor Policy design leads to inconsistent decisions (branch managers approving/rejecting arbitrarily), regulatory penalties, and strategy failure. Policies are the bridge between Strategy (top-level) and Procedures/Rules (operational). A student who agrees with the statement misunderstands the planning hierarchy and the implementation gap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (4-5 sentences) for a fictional Indian EV startup. Include: one Objective (quantitative, time-bound), one Strategy (with all three dimensions), and two Policies that would operationalise the Strategy. Label each element clearly.",
+     "a": "**Mini-case:** \"VoltDrive India aims to sell 50,000 electric two-wheelers in FY2026 (Objective). Its Strategy: (i) Long-term objective — become top-3 EV 2W brand by 2028; (ii) Course of action — develop swappable-battery tech, partner with petrol pumps for swap stations; (iii) Resource allocation — ₹300 cr to battery R&D, ₹150 cr to swap-network rollout. Policies: (1) Battery Procurement Policy — only cells with ≥2000 cycle life from BIS-certified vendors; (2) Dealer Partnership Policy — exclusive territories, minimum 5 swap stations per dealer within 6 months.\" A good answer has all labels, quantitative Objective, three Strategy dimensions, and Policies that clearly link to Strategy execution. A poor answer merges Strategy dimensions or writes Policies as Rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

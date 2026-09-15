@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 104,
+ "chapter_title": "Business Services",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs104.txt",
+ "concepts": [
+  {
+   "id": "kebs.104.1.1",
+   "title": "Nature of Services: Intangibility and Inseparability",
+   "section": "Business services",
+   "definition": "Services are intangible activities that cannot be stored, touched or separated from their provider, differ from goods on intangibility, inconsistency, inseparability, inventory loss and customer involvement, and banking, insurance, transport, warehousing and communication are the major business services.",
+   "formula": "",
+   "key_idea": "A service is performed rather than produced, its quality varies by provider and situation, and it cannot be inventoried for later sale.",
+   "textbook_ref": "kebs104.txt nature of services section",
+   "question_patterns": [
+    "distinguish services from goods with examples",
+    "explain intangibility and inseparability of services",
+    "why can services not be stored in inventory",
+    "state the five features that differentiate services from goods",
+    "name the major types of business services",
+    "how does customer involvement affect service quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test intangibility",
+     "explain": "Check whether the offering can be seen or touched."
+    },
+    {
+     "step": 2,
+     "action": "compare with goods",
+     "explain": "Apply the five distinguishing features one by one."
+    },
+    {
+     "step": 3,
+     "action": "place the service",
+     "explain": "Classify the activity as banking, insurance, transport or warehousing."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.2.1",
+   "title": "Banking: Types of Banks and Types of Accounts",
+   "section": "Bank",
+   "definition": "A bank accepts deposits repayable on demand and lends the money, and its types include commercial banks, cooperative banks, central bank and specialised banks, while depositors may hold savings, current, fixed or recurring deposit accounts.",
+   "formula": "",
+   "key_idea": "Banks create credit through lending, act as agents for collection and payment, and the Reserve Bank of India supervises them as the central bank.",
+   "textbook_ref": "kebs104.txt banking section",
+   "question_patterns": [
+    "define a bank and state its functions",
+    "differentiate savings account and current account",
+    "what is a fixed deposit and a recurring deposit",
+    "name the types of banks in India",
+    "explain the credit creation function of commercial banks",
+    "what services does a bank provide as an agent"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the account type",
+     "explain": "Match deposit needs with savings, current, fixed or recurring accounts."
+    },
+    {
+     "step": 2,
+     "action": "note the bank functions",
+     "explain": "Separate accepting deposits from lending and agency services."
+    },
+    {
+     "step": 3,
+     "action": "verify supervision",
+     "explain": "Recall the role of the central bank over commercial banks."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.3.1",
+   "title": "Insurance: Principles and Types",
+   "section": "Insurance",
+   "definition": "Insurance is a contract in which the insurer indemnifies the insured against a specified loss in return for premium, resting on principles of utmost good faith, insurable interest, indemnity, contribution, subrogation, mitigation and cause proxima.",
+   "formula": "",
+   "key_idea": "Life insurance, fire insurance and marine insurance differ in the nature of risk covered, and the premium is the consideration paid by the insured for the cover.",
+   "textbook_ref": "kebs104.txt insurance section",
+   "question_patterns": [
+    "define insurance and state its principles",
+    "explain the principle of utmost good faith with example",
+    "differentiate life fire and marine insurance",
+    "what is meant by indemnity and subrogation",
+    "what is a premium in an insurance contract",
+    "how does the principle of insurable interest apply"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the contract",
+     "explain": "Confirm premium, insurer, insured and the covered risk."
+    },
+    {
+     "step": 2,
+     "action": "apply the principles",
+     "explain": "Test utmost good faith, insurable interest and indemnity in the case."
+    },
+    {
+     "step": 3,
+     "action": "classify the policy",
+     "explain": "Place the cover under life, fire or marine insurance."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.4.1",
+   "title": "Transport, Warehousing, Communication and Postal Services",
+   "section": "Transport and warehousing",
+   "definition": "Transport removes the hindrance of place by carrying goods by road, rail, air or waterways, warehousing removes the hindrance of time by storing goods till demand arises, and communication and postal services link buyers and sellers by moving information.",
+   "formula": "",
+   "key_idea": "Warehouses may be private, public, bonded or government, and bonded warehouses let importers store goods until customs duty is paid.",
+   "textbook_ref": "kebs104.txt transport and warehousing sections",
+   "question_patterns": [
+    "how does transport remove the hindrance of place",
+    "define warehousing and name its types",
+    "what is a bonded warehouse",
+    "state the role of communication in business",
+    "compare road rail air and water transport",
+    "explain postal and telecom services for business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the hindrance removed",
+     "explain": "Identify place, time or knowledge as the obstacle."
+    },
+    {
+     "step": 2,
+     "action": "match the service",
+     "explain": "Pair the obstacle with transport, warehousing or communication."
+    },
+    {
+     "step": 3,
+     "action": "verify the type",
+     "explain": "Classify the warehouse or transport mode used."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs104.txt exercises",
+   "questions": [
+    "Explain the characteristics of services.",
+    "Define insurance. Describe the principles of insurance.",
+    "Describe the various types of insurance and their sub types.",
+    "Explain the functions of commercial banks with examples.",
+    "What is warehousing? State its types and functions."
+   ]
+  }
+ ]
+}

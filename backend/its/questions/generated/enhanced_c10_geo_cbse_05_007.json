@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_007",
+   "title": "c10_geo_cbse_05_007",
+   "questions": [
+    {
+     "q": "Name the two experimental geothermal energy projects in India and the states where they are located.",
+     "a": "Correct: Manikaran (Himachal Pradesh) and Puga Valley (Ladakh). A wrong answer (e.g., \"Manikaran in Uttarakhand\" or \"Tattapani in Chhattisgarh\") reveals the student has not memorised the specific NCERT-listed sites and confuses other hot springs with the two pilot projects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why biogas is considered a \"dual-benefit\" energy source for rural India, referencing both the fuel and the by-product.",
+     "a": "Biogas yields methane for cooking/lighting and the spent slurry is nitrogen-rich organic manure that improves soil fertility. A student who only mentions \"gas for cooking\" misses the nutrient-recycling loop taught in Class 8 sustainable farming (c8_geo_ch1_11) and cannot score the second mark in a 2-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 50 cattle. Each cow produces 10 kg dung/day. If 1 kg dung yields 0.04 m³ biogas, calculate the daily biogas potential. Is it sufficient for 20 households needing 2 m³/day each? Show steps.",
+     "a": "Step 1: Total dung = 50 × 10 = 500 kg/day. Step 2: Biogas = 500 × 0.04 = 20 m³/day. Step 3: Demand = 20 × 2 = 40 m³/day. Step 4: 20 < 40 → insufficient. A wrong answer (e.g., forgetting to multiply by number of households) shows inability to apply per-capita demand to resource assessment — a common board exam trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical distribution of geothermal and nuclear energy sites in India. Why are they located where they are?",
+     "a": "Geothermal sites (Manikaran, Puga) lie on tectonically active zones (Himalayan convergent boundary, Ladakh rift) where magma is close to surface. Nuclear plants (Tarapur, Rawatbhata, Kalpakkam, Narora, Kakrapar, Kaiga) are sited near water sources for cooling, away from dense populations, and on stable geological shields. A student who says \"nuclear plants are near uranium mines\" confuses fuel transport with siting criteria — uranium is imported; water and safety drive location.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Nuclear energy is non-conventional because it does not emit CO₂ during electricity generation.\" Is this justification sufficient for Class 10 board exam?",
+     "a": "Insufficient. While operational emissions are near-zero, nuclear waste (radioactive, long half-life), high capital cost, limited uranium reserves, and accident risk make sustainability debatable. Board exam expects balanced evaluation: low carbon but high ecological risk. A student agreeing fully misses the \"critical appraisal\" competency and loses marks in 3-mark evaluate questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated sketch map of India showing: (a) the two geothermal pilot projects, (b) any four nuclear power stations, (c) a biogas-suitable region (shade the Indo-Gangetic plain). Include a legend and one-sentence reason for each location.",
+     "a": "A good answer places Manikaran (HP) and Puga (Ladakh) correctly, marks four nuclear stations near coasts/rivers (e.g., Tarapur-Maharashtra, Kalpakkam-Tamil Nadu, Narora-UP, Kakrapar-Gujarat), shades the alluvial plain for abundant cattle dung, and writes reasons like \"tectonic activity\" for geothermal, \"cooling water\" for nuclear, \"livestock density\" for biogas. A poor map misplaces sites or omits reasons, revealing weak spatial synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

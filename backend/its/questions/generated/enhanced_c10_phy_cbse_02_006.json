@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_006",
+   "title": "c10_phy_cbse_02_006",
+   "questions": [
+    {
+     "q": "Name the three wires in a domestic electric circuit, give their standard colour codes (as per the new Indian convention), and state the potential of each wire with respect to the ground.",
+     "a": "Live wire – brown (old: red), at 220 V AC relative to ground; Neutral wire – blue (old: black), at near 0 V (ground potential); Earth wire – green/yellow (old: green), at 0 V (ground potential). A wrong answer (e.g., swapping live/neutral colours or stating neutral is at 220 V) reveals confusion between the current‑carrying conductors and the safety conductor, and indicates the student cannot identify which wire is dangerous to touch.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the fuse and the main switch are always connected in the live wire and never in the neutral wire in household wiring.",
+     "a": "The fuse must break the high‑potential (220 V) line so that when it blows, the appliance and the downstream wiring are completely isolated from the dangerous live potential. If the fuse were in the neutral wire, the appliance would remain at live potential even after the fuse blows, posing a shock hazard. A student who says \"it doesn't matter\" or \"neutral also carries current\" misunderstands that safety requires disconnecting the source of high voltage, not just interrupting current flow.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 W electric geyser is connected to the 220 V mains. Calculate the current drawn by the geyser. If the house wiring uses a 10 A fuse in the live wire, will the fuse blow? Show your working with units.",
+     "a": "Given: Power P = 1500 W, Voltage V = 220 V. Using P = VI → I = P/V = 1500 W / 220 V = 6.82 A. The fuse rating is 10 A. Since 6.82 A < 10 A, the fuse will **not** blow under normal operation. A wrong answer (e.g., I = 1500/220 = 6.82 A but then saying the fuse blows because 6.82 > 10, or miscalculating I = 220/1500) shows inability to apply the power formula and compare current with fuse rating.",
+     "self_check": true
+    },
+    {
+     "q": "In a house, the earth wire is connected to a metal rod buried in the ground. During a fault, the live wire touches the metal casing of a washing machine. Describe the path of the fault current and explain why the fuse blows, protecting the user.",
+     "a": "Fault current flows: Live wire → metal casing (via contact) → earth wire → earth rod → ground → back to the transformer neutral (which is earthed at the substation). This creates a very low‑resistance path, causing a large current (much larger than the appliance's normal current) to flow through the live wire. The fuse in the live wire melts due to this excess current (heating effect), disconnecting the supply. A student who says \"current flows through the user to ground\" or \"the earth wire carries normal operating current\" confuses fault current with normal current and misses the role of the fuse.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the neutral wire is at zero potential, it is safe to touch. Therefore, we can put the switch in the neutral wire to save cost.\" Evaluate this statement and give two reasons why it is incorrect for domestic wiring.",
+     "a": "The statement is **incorrect**. Reason 1: Even though neutral is near ground potential at the socket, a break in the neutral wire elsewhere (e.g., at the distribution board) can make the neutral wire at the appliance rise to live potential (220 V) because the appliance's load connects live to neutral. Touching it then gives a shock. Reason 2: If the switch is in the neutral, the appliance's internal wiring remains at live potential even when switched off; a fault (e.g., insulation failure) can make the casing live without any current flowing through the fuse, so the fuse won't blow. A student who agrees with the statement fails to appreciate that \"zero potential\" is not guaranteed under fault conditions and that safety requires isolating the live source.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, two LEDs, a switch, and connecting wires to demonstrate why appliances in a house are connected in parallel and not in series. Sketch the circuit diagram and explain what you would observe.",
+     "a": "**Circuit:** Battery → Switch → two parallel branches, each with an LED (with series resistor). Close the switch: both LEDs glow brightly. Open one LED's branch (remove its wire): the other LED continues to glow with same brightness. **Series comparison:** If the same LEDs were in series, both would glow dimly (shared voltage), and removing one would turn off both. **Observation:** Parallel connection gives each appliance the full supply voltage (220 V) and independent operation. A poor answer (e.g., drawing a series circuit, or saying \"parallel uses less wire\") shows the student cannot translate the household parallel wiring principle to a simple DC model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

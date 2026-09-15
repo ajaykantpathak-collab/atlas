@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_011",
+   "title": "c11_ip_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the hexadecimal equivalent of the binary number `11010110`? Show the grouping steps.",
+     "a": "Correct answer: `D6`. Group `11010110` into `1101` (13 → D) and `0110` (6 → 6). A wrong answer like `1D6` reveals the student grouped from the left instead of the right (LSB), or forgot to pad with leading zeros for incomplete groups. This indicates a misunderstanding of positional grouping alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the repeated-division-by-2 method for decimal-to-binary conversion produces the correct binary digits in reverse order (LSB first).",
+     "a": "Correct explanation: Each division by 2 yields a remainder of 0 or 1, which is exactly the coefficient of \\( 2^0 \\) in the current quotient's representation. The quotient then represents the remaining higher powers. Reading remainders bottom-up reconstructs the number from MSB to LSB. A wrong answer that says \"it's just a rule\" or \"we divide by 2 because binary is base 2\" without linking to positional weights shows procedural memorisation without conceptual understanding of the division algorithm's connection to polynomial expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the decimal number 45.6875 to binary. Show all steps for both integer and fractional parts.",
+     "a": "Integer part (45): 45÷2=22 r1, 22÷2=11 r0, 11÷2=5 r1, 5÷2=2 r1, 2÷2=1 r0, 1÷2=0 r1 → `101101`. Fractional part (0.6875): 0.6875×2=1.375 →1, 0.375×2=0.75 →0, 0.75×2=1.5 →1, 0.5×2=1.0 →1 → `.1011`. Combined: `101101.1011`. A wrong answer that stops fractional multiplication early (e.g., `.101`) or misorders integer remainders (e.g., `101101` read top-down) reveals confusion between the two algorithms' directionality.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts octal `73.4` to binary by writing each octal digit as a 3-bit group: `111 011 . 100` → `111011.100`. Another student converts the same octal number to decimal first (7×8+3=59, 4/8=0.5 → 59.5) then to binary (`111011.1`). Are both results equivalent? Justify.",
+     "a": "Yes, both are equivalent: `111011.100` = `111011.1` because trailing zeros after the binary point do not change the value. The first method (direct grouping) is faster and exact; the second (via decimal) risks rounding errors for non-terminating fractions. A student who says \"they are different because one has three fractional bits and the other has one\" fails to recognise that `0.100₂ = 0.1₂ = 0.5₁₀`, indicating a gap in understanding fractional positional equivalence across bases.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following conversion: \"To convert hexadecimal `2F` to octal, I convert each hex digit to 3 binary bits: `2`→`010`, `F`→`111`, giving `010111`, then group into 3-bit octal groups: `010 111` → `27` octal.\" Is this method valid? Why or why not?",
+     "a": "The method is invalid because hexadecimal digits require 4 binary bits each (since \\( 16 = 2^4 \\)), not 3. The correct binary for `2F` is `0010 1111`. Grouping `00101111` into 3-bit groups from right: `00 101 111` → pad left group → `000 101 111` → octal `057` or `57`. The student's error stems from confusing the grouping size for octal (3 bits) with the expansion size for hex (4 bits). This reveals a misconception that all base conversions use the same group size.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step algorithm (in plain English) that converts any positive decimal integer to hexadecimal directly without using binary as an intermediate. Then apply it to convert 1000₁₀ to hex.",
+     "a": "Algorithm: (1) Divide the decimal number by 16. (2) Record the remainder (0-15, using 0-9, A-F). (3) Replace the number with the quotient. (4) Repeat until quotient is 0. (5) Read remainders from last to first. Application: 1000÷16=62 r8, 62÷16=3 r14(E), 3÷16=0 r3 → `3E8`. A poor answer that uses binary intermediate or misorders remainders shows inability to generalise the division algorithm to arbitrary bases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

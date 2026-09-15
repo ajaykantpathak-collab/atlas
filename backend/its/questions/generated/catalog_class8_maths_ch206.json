@@ -1,0 +1,301 @@
+{
+ "catalog": "catalog_class8_maths_ch206.json",
+ "concepts": [
+  {
+   "id": "hegp.6.2.1",
+   "title": "Date Trick Decoding",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 9, 7, 2, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "6993",
+     "self_check": false
+    },
+    {
+     "q": "The number 9528 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 9528.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 9528 (= 24) is divided by 9.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 90, reverse its digits to get 9, and find the positive difference (a Kaprekar-style step).",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 90 (digits 9 and 0), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "81",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.3.1",
+   "title": "Three-Row Number Pyramid Top Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 2, 9, 6, 3 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "7263",
+     "self_check": false
+    },
+    {
+     "q": "The number 3095 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 3095.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 3095 (= 17) is divided by 9.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 50, reverse its digits to get 5, and find the positive difference (a Kaprekar-style step).",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 50 (digits 5 and 0), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.3.2",
+   "title": "Four-Row Number Pyramid Top Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 6, 6, 1, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "5445",
+     "self_check": false
+    },
+    {
+     "q": "The number 9379 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 9379.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 9379 (= 28) is divided by 9.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 17, reverse its digits to get 71, and find the positive difference (a Kaprekar-style step).",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 17 (digits 1 and 7), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "54",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.4.1",
+   "title": "Calendar 2x2 Grid Analysis",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 4, 4, 6, 8 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "4176",
+     "self_check": false
+    },
+    {
+     "q": "The number 7753 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 7753.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 7753 (= 22) is divided by 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 21, reverse its digits to get 12, and find the positive difference (a Kaprekar-style step).",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 21 (digits 2 and 1), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.5.1",
+   "title": "Maximizing Product of 2-Digit by 1-Digit Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 91 are swapped to make 19. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 91.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 7, 7, 1 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1665",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 33 x 7, the units digit of the answer is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 808 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 91 and 19, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.1",
+   "title": "Difference of Reversed Two-Digit Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 23 are swapped to make 32. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 23.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 3, 1, 9 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1443",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 43 x 7, the units digit of the answer is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 932 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 56 and 65, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.2",
+   "title": "Sum of Reversed Two-Digit Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 38 are swapped to make 83. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 38.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 4, 7, 2 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1443",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 65 x 7, the units digit of the answer is what?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 997 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 17 and 71, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.3",
+   "title": "Cyclic Sum of Three-Digit Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 95 are swapped to make 59. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 95.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 3, 6, 6 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1665",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 94 x 7, the units digit of the answer is what?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 565 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 93 and 39, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

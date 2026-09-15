@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_005",
+   "title": "c12_phy_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the physical quantity that the Davisson-Germer experiment directly measures to confirm the wave nature of electrons? State the SI unit of this quantity.",
+     "a": "The experiment directly measures the **scattering angle \\(\\theta\\)** (in radians or degrees) at which the intensity of scattered electrons is maximum. The SI unit of angle is radian (rad), though degrees are commonly used. A wrong answer (e.g., \"it measures wavelength directly\") reveals the misconception that wavelength is a direct measurement rather than an inference from the diffraction angle via Bragg's law.",
+     "self_check": true
+    },
+    {
+     "q": "In the Davisson-Germer experiment, the nickel crystal acts as a three-dimensional diffraction grating. Explain why the condition for constructive interference is given by Bragg's law \\(n\\lambda = 2d \\sin\\theta\\) and not by the double-slit formula \\(d \\sin\\theta = n\\lambda\\). What does the factor of 2 represent physically?",
+     "a": "Bragg's law arises from reflection off successive crystal planes. The path difference between waves reflected from adjacent planes is \\(2d \\sin\\theta\\) (factor 2 because the wave travels down to the lower plane and back up). The double-slit formula \\(d \\sin\\theta = n\\lambda\\) assumes transmission through two slits with path difference \\(d \\sin\\theta\\). A wrong answer (e.g., \"the factor 2 is because there are two slits\") shows confusion between reflection from parallel planes and transmission through two apertures.",
+     "self_check": true
+    },
+    {
+     "q": "An electron is accelerated through a potential difference of 54 V in a Davisson-Germer type experiment. The nickel crystal has an interplanar spacing \\(d = 0.91 \\, \\text{Å}\\). Calculate the de Broglie wavelength of the electron and the angle \\(\\theta\\) for the first-order (\\(n=1\\)) diffraction maximum. Use \\(h = 6.63 \\times 10^{-34} \\, \\text{J·s}\\), \\(m_e = 9.11 \\times 10^{-31} \\, \\text{kg}\\), \\(e = 1.60 \\times 10^{-19} \\, \\text{C}\\).",
+     "a": "**Step 1:** de Broglie wavelength \\(\\lambda = h/\\sqrt{2meV}\\).  \n\\(2meV = 2 \\times 9.11\\times10^{-31} \\times 1.60\\times10^{-19} \\times 54 = 1.573 \\times 10^{-47} \\, \\text{kg·J}\\).  \n\\(\\sqrt{2meV} = \\sqrt{1.573 \\times 10^{-47}} = 3.966 \\times 10^{-24} \\, \\text{kg·m/s}\\).  \n\\(\\lambda = 6.63\\times10^{-34} / 3.966\\times10^{-24} = 1.67 \\times 10^{-10} \\, \\text{m} = 1.67 \\, \\text{Å}\\).  \n**Step 2:** Bragg's law for \\(n=1\\): \\(\\lambda = 2d \\sin\\theta\\).  \n\\(d = 0.91 \\, \\text{Å} = 0.91 \\times 10^{-10} \\, \\text{m}\\).  \n\\(\\sin\\theta = \\lambda/(2d) = 1.67 / (2 \\times 0.91) = 0.9176\\).  \n\\(\\theta = \\sin^{-1}(0.9176) \\approx 66.5^\\circ\\).  \nA wrong answer (e.g., using \\(d \\sin\\theta = n\\lambda\\) or forgetting to convert Å to m) reveals unit inconsistency or formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "The Davisson-Germer experiment originally used a polycrystalline nickel target, but after an accidental heating (which created a single large crystal), they observed sharp diffraction peaks. Analyze why a polycrystalline target would not show sharp peaks, and how the single crystal produces well-defined maxima. Relate this to the concept of coherent scattering.",
+     "a": "A polycrystalline target consists of many randomly oriented microcrystals. Each microcrystal diffracts at its own set of angles, smearing the pattern into a broad ring (like a powder X-ray pattern). A single crystal has all planes parallel, so scattered waves from all planes add coherently at the Bragg angle, giving sharp peaks. A wrong answer (e.g., \"polycrystalline has no planes\") shows misunderstanding of polycrystalline structure and coherence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Davisson-Germer experiment proves that electrons are waves because the diffraction pattern looks exactly like X-ray diffraction.\" Evaluate this claim. Is the reasoning sufficient? What additional quantitative check is necessary to confirm de Broglie's hypothesis specifically?",
+     "a": "The claim is partially correct but incomplete. A diffraction pattern alone only shows wave-like behaviour; it does not prove the wavelength is given by \\(\\lambda = h/p\\). The crucial quantitative check is that the measured wavelength (from Bragg's law using the known \\(d\\) and \\(\\theta\\)) matches the de Broglie wavelength calculated from the accelerating voltage \\(V\\). Without this numerical agreement, the pattern could be explained by some other wavelength. A wrong evaluation (e.g., \"the pattern is enough\") misses the quantitative verification that is the heart of the experiment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could vary the accelerating voltage continuously in a Davisson-Germer setup and plot the intensity of scattered electrons at a fixed angle \\(\\theta = 50^\\circ\\) versus voltage \\(V\\), what would the graph look like? Explain the physical origin of the peaks and their spacing. (Assume \\(d = 0.91 \\, \\text{Å}\\), \\(n=1\\).)",
+     "a": "The graph would show sharp peaks at voltages satisfying \\(h/\\sqrt{2meV} = 2d \\sin\\theta\\). As \\(V\\) increases, \\(\\lambda\\) decreases, so the Bragg condition is met at discrete voltages. Peaks occur when \\(\\sqrt{V} \\propto 1/\\lambda \\propto n\\), so \\(V \\propto 1/n^2\\). The peaks get closer at higher \\(V\\). A poor answer (e.g., \"a straight line\") reveals failure to connect the voltage-wavelength relationship to the Bragg condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

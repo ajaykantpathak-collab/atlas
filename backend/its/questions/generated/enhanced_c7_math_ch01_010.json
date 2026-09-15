@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_010",
+   "title": "c7_math_ch01_010",
+   "questions": [
+    {
+     "q": "What is the primary rule for setting up an addition or subtraction problem involving large 7-digit or 8-digit numbers before performing any calculation?",
+     "a": "The correct approach is to align the digits strictly by their place value columns (ones under ones, tens under tens, up to crores under crores) starting from the right. If a student says to align numbers from the left or line them up by their right edge regardless of place value, it reveals a fundamental confusion with place value structure, treating numbers like text rather than mathematical quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we must move from right to left (ones to crores) when adding or subtracting large numbers, rather than starting from the largest place value (crores).",
+     "a": "We move from right to left because addition and subtraction often require carrying over or borrowing between adjacent place value columns. If you started at the crores place and had to borrow from a neighbor later, you would be forced to constantly erase and change leading digits. A student who believes starting from the left is easier does not understand how regrouping propagates from smaller place values to larger ones.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the sum: $4,58,32,104 + 3,45,67,896$.",
+     "a": "Step 1: Align columns: Ones under ones, tens under tens, up to crores.\nStep 2: Add ones: $4 + 6 = 10$ (write $0$, carry $1$ to tens).\nStep 3: Add tens: $0 + 9 + 1 = 10$ (write $0$, carry $1$ to hundreds).\nStep 4: Continue across all columns with carries: hundreds ($1+8+1=10$), thousands ($2+7+1=10$), ten-thousands ($3+6+1=10$), lakhs ($8+5+1=14$, write $4$, carry $1$), ten-lakhs ($5+4+1=10$, write $0$, carry $1$), crores ($4+3+1=8$).\nStep 5: Final sum is $8,04,00,000$. If a student gets $8,03,99,998$, it indicates they failed to correctly propagate the carries across columns where sums hit exactly $10$.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following subtraction: $7,00,00,000 - 3,45,67,891$. Explain how borrowing must cascade across multiple zeros.",
+     "a": "To subtract across zeros, the $7$ in the crores place must borrow, turning into a $6$ while the ten-lakhs place becomes $9$ (after passing through all intermediate zeros which also become $9$, and the final ones place becomes $10$). \n$10 - 1 = 9$ (ones); $9 - 9 = 0$ (tens); $9 - 8 = 1$ (hundreds); $9 - 7 = 2$ (thousands); $9 - 6 = 3$ (ten-thousands); $9 - 5 = 4$ (lakhs); $9 - 4 = 5$ (ten-lakhs); $6 - 3 = 3$ (crores). Final answer: $3,54,32,109$. A student who simply subtracts bottom from top when the top is zero (e.g., getting $0-1=1$) does not understand the borrowing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's work: To find the difference between $8,20,40,105$ and $3,15,22,040$, the student writes the problem and subtracts column by column, but forgets to reduce the neighbor's value when borrowing from the tens place to the ones place. Is the student's final answer too high or too low, and why?",
+     "a": "The student's final answer will be too high. When borrowing, if you add $10$ to a digit but fail to decrease the neighboring digit you borrowed from by $1$, you are artificially adding value to the minuend rather than just redistributing it. A student who thinks failing to reduce the neighbor does not change the final value lacks conceptual understanding of place value conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a subtraction problem involving two 8-digit numbers where every single column requires borrowing, and state the exact difference.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

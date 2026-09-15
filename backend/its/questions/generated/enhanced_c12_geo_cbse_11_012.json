@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_012",
+   "title": "c12_geo_cbse_11_012",
+   "questions": [
+    {
+     "q": "What are the three components of food security as defined by the World Food Summit and adopted in India's policy framework?",
+     "a": "The three components are: (1) Availability — sufficient quantities of food of appropriate quality, supplied through domestic production or imports; (2) Access — individuals having adequate resources (entitlements) to acquire appropriate foods for a nutritious diet; (3) Utilization — biological use of food through adequate diet, clean water, sanitation, and health care to reach nutritional well-being. A wrong answer that lists only \"production and distribution\" misses the critical access (entitlement) and utilization (nutrition/health) dimensions, revealing a production-centric misunderstanding common in early Green Revolution thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Why did India shift from a Universal PDS to a Targeted PDS (TPDS) in 1997, and what geographical criterion was used for initial targeting?",
+     "a": "The shift aimed to reduce the fiscal burden of food subsidies and ensure grains reached the truly needy. Initial targeting used a poverty-line-based geographical criterion: the Planning Commission's state-wise poverty estimates (Lakdawala methodology) determined the number of Below Poverty Line (BPL) families in each state, and allocations were made proportionally. A wrong answer citing \"corruption reduction\" as the primary driver confuses a symptom with the policy motive; the 1997 shift was explicitly budget-driven (subsidy containment), though leakage reduction was a stated co-objective.",
+     "self_check": true
+    },
+    {
+     "q": "A household in a rural area of Uttar Pradesh holds an Antyodaya Anna Yojana (AAY) ration card. Under NFSA 2013, what is their monthly food grain entitlement, at what issue prices, and how does this differ from a Priority Household (PHH) cardholder in the same village?",
+     "a": "Step 1: Recall NFSA entitlements — AAY households (poorest of the poor) get 35 kg per household per month; PHH households get 5 kg per person per month.\nStep 2: Issue prices under NFSA Schedule I — Rice: ₹3/kg, Wheat: ₹2/kg, Coarse grains: ₹1/kg (same for both categories).\nStep 3: Calculate for a 5-member PHH family: 5 kg × 5 persons = 25 kg/month.\nStep 4: Compare — AAY gets 35 kg flat (higher absolute quantity, no per-person scaling), PHH gets 25 kg for a 5-member family. AAY also includes destitute, elderly, disabled without support.\nA wrong answer giving 35 kg per person for AAY or 35 kg for PHH reveals confusion between household vs. per-capita entitlement — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the spatial mismatch between India's food grain procurement (heavily concentrated in Punjab, Haryana, western UP) and consumption (nationwide). How does this shape the PDS logistics and what are two geographical consequences?",
+     "a": "Procurement is concentrated in the northwestern wheat-rice belt (Green Revolution legacy), while consumption is pan-India. This requires massive inter-state rail/road movement (FCI's \"movement plan\") from surplus to deficit states. Consequence 1: High transportation and handling costs — the \"economic cost\" of wheat/rice to FCI includes freight, making PDS grains expensive for the exchequer. Consequence 2: Storage congestion in procurement states (gluts in Punjab godowns) while deficit states face timely supply risks; this also leads to open storage (CAP) and higher damage/losses. A wrong answer focusing only on \"corruption in transport\" misses the structural geographical imbalance that makes logistics inherently costly and complex.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Switching to Direct Benefit Transfer (DBT) of food subsidy cash into beneficiaries' bank accounts would solve PDS leakage and storage problems more effectively than physical grain distribution.\"",
+     "a": "Arguments for DBT: Eliminates physical supply chain (procurement, storage, transport, fair price shop), reduces leakage (ghost cards, diversion), gives choice to beneficiaries, lowers fiscal cost (no economic cost of FCI operations). Arguments against (geographical/developmental): In remote/tribal areas, markets are thin — cash may not buy grains if private traders don't stock them; price volatility in open market hurts poor; women's intra-household bargaining power may weaken if cash goes to male head; nutritional security (utilization dimension) requires assured grain access, not just purchasing power. Evaluation: DBT pilots (e.g., Chandigarh, Puducherry) work in urban/well-connected areas but risk failure in food-insecure geographies with poor market integration. A balanced answer must weigh spatial market access. A wrong answer that uncritically endorses DBT ignores the geographical reality of market failure in backward regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified \"last-mile\" monitoring mechanism for a Fair Price Shop (FPS) in a tribal block of Odisha that addresses both leakage (diversion) and exclusion (eligible households not getting rations). Specify two technological and two social accountability tools.",
+     "a": "Technological: (1) e-PoS with biometric (Aadhaar) authentication + SMS alert to beneficiary on dispensing; (2) GPS-tagged FPS location + real-time stock visibility on state portal (like \"Annavitran\" or \"ePDS\" dashboards). Social: (1) Vigilance Committee (mandated under NFSA Sec 29) with 50% women members, meeting monthly, recording minutes; (2) Social audit by Gram Sabha — public reading of stock register, distribution list, and beneficiary testimonials, with findings sent to District Grievance Redressal Officer. A poor answer lists only \"CCTV cameras\" or \"more inspections\" — these are top-down, not empowering community monitoring which NFSA envisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

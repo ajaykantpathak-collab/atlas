@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_biology_kebo115",
+ "concepts": [
+  {
+   "id": "kebo.115.1.1",
+   "title": "Blood: Plasma and Formed Elements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Blood: Plasma and Formed Elements' refers to.",
+     "a": "Blood is a connective tissue of plasma with water, proteins and minerals, and formed elements of erythrocytes carrying haemoglobin, leucocytes of granulocytes and agranulocytes for immunity, and cell fragments called blood platelets for coagulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blood: Plasma and Formed Elements'.",
+     "a": "Plasma proteins like fibrinogen, globulins and albumins serve clotting, immunity and osmotic balance, while erythrocytes lack a nucleus in mammals and carry about 12-16 g of haemoglobin per 100 ml in a healthy adult.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Blood: Plasma and Formed Elements' taught, and from which source text?",
+     "a": "15.1.1 Blood (source: kebo115.txt section 15.1.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.2.1",
+   "title": "Blood Groups, Rh Factor and Coagulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Blood Groups, Rh Factor and Coagulation' refers to.",
+     "a": "ABO blood grouping depends on antigens on RBCs and antibodies in plasma, the Rh factor distinguishes Rh positive from Rh negative persons and matters in erythroblastosis fetalis, and coagulation converts fibrinogen to fibrin through thrombin with platelets and calcium ions at the injury site.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blood Groups, Rh Factor and Coagulation'.",
+     "a": "Universal donor blood of group O and universal recipient blood of group AB follow from the antigen-antibody matching, and heparin acts as an anticoagulant in the body.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Blood Groups, Rh Factor and Coagulation' taught, and from which source text?",
+     "a": "15.1.2 Blood Groups, 15.1.3 Coagulation of Blood (source: kebo115.txt sections 15.1.2, 15.1.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.3.1",
+   "title": "Human Heart, Cardiac Cycle and Cardiac Output",
+   "questions": [
+    {
+     "q": "Using the method 'Human Heart, Cardiac Cycle and Cardiac Output', work with: heart_rate = 20, stroke_volume = 300. Carry the chain through step by step and give the final value of cardiac_output.",
+     "a": "6000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Human Heart, Cardiac Cycle and Cardiac Output' and work with: heart_rate = 15, stroke_volume = 18. Carry the chain through step by step and give the final value of cardiac_output.",
+     "a": "270 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Human Heart, Cardiac Cycle and Cardiac Output' refers to.",
+     "a": "The human heart is a four chambered myogenic pump with nodal tissue of SA node and AV node; the cardiac cycle of joint diastole, atrial systole and ventricular systole lasts about 0.8 seconds, and cardiac output equals stroke volume of about 70 ml multiplied by heart rate of about 72 beats per minute, giving nearly 5 litres per minute.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Heart, Cardiac Cycle and Cardiac Output'.",
+     "a": "The sounds lub and dub mark closure of the tricuspid and bicuspid valves and the semilunar valves respectively, and the heart beats about 100000 times a day.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Heart, Cardiac Cycle and Cardiac Output', in plain ASCII form.",
+     "a": "cardiac_output = stroke_volume * heart_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.4.1",
+   "title": "ECG, Double Circulation and Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'ECG, Double Circulation and Disorders' refers to.",
+     "a": "An electrocardiogram records the P wave of atrial depolarisation, the QRS complex of ventricular depolarisation and the T wave of ventricular repolarisation; humans show double circulation with pulmonary and systemic circuits separately, and circulatory disorders include hypertension, coronary artery disease, angina and heart failure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ECG, Double Circulation and Disorders'.",
+     "a": "Blood pressure of a healthy person is measured as systolic over diastolic pressure of 120 over 80 mm Hg, and persistent 140 over 90 or higher counts as hypertension.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'ECG, Double Circulation and Disorders' taught, and from which source text?",
+     "a": "15.5 Electrocardiograph, 15.2 Lymph, 15.6 Double Circulation, 15.7 Disorders (source: kebo115.txt sections 15.5-15.7)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_13_011",
+   "title": "c12_hin_ar_cbse_13_011",
+   "questions": [
+    {
+     "q": "Identify the term used in the NCERT textbook for words that are specific to a particular topic, region, or occasion (e.g., words related to agriculture, festivals, or local geography).",
+     "a": "The term is **fof'k\"V 'kCn** (विशिष्ट शब्दावली / specialized vocabulary). A wrong answer like \"tatpurush samas\" or \"kriya visheshan\" reveals the student is confusing general grammar terminology with the text-specific classification used in the chapter's exercise section.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author uses onomatopoeic expressions like \"पँ–इक्क, फँ–इक्क\" and \"पकड़–पकड़\" instead of simply writing \"the flute played melodiously\" or \"he ran quickly\".",
+     "a": "Onomatopoeia creates **auditory imagery** that allows the reader to \"hear\" the flute's specific timbre and the character's frantic movement, transforming abstract description into sensory experience. It also mirrors Igyok's identity as a musician — his perception of the world is sound-first. A wrong answer focusing only on \"decoration\" or \"beauty\" misses the functional role: these sounds structure the narrative rhythm and characterize Igyok's consciousness.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"फकीर की तरह वीणा बजाते हुए वह गलियों में घूमता\" (Like a fakir playing the veena, he wandered the lanes), identify the grammatical construction used for comparison and rewrite the sentence using a different comparative structure (e.g., using \"जैसा\" or \"सा\") without changing the meaning.",
+     "a": "The construction is **upama alankar (simile) using the postposition \"की तरह\"**. Rewrite: \"फकीर जैसा वीणा बजाते हुए वह गलियों में घूमता\" or \"फकीर सा वीणा बजाते हुए वह गलियों में घूमता\". A student who cannot rewrite it likely misunderstands the syntactic flexibility of Hindi comparatives and the nuance shift: \"की तरह\" = exact resemblance in action; \"जैसा\" = similarity in manner; \"सा\" = qualitative resemblance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language of the village elder (Mukhiya) and the new government officer (B.D.O.) in the confrontation scene. What syntactic and lexical differences reveal their power dynamics and cultural positions?",
+     "a": "The Mukhiya uses **rustic, elliptical, imperative-heavy dialect** (\"न चल सरकार\", \"भागो\") reflecting oral tradition and communal authority. The B.D.O. uses **formal, bureaucratic, passive-voice Hindi** (\"आपको सूचित किया जाता है\", \"कार्रवाई की जाएगी\") reflecting institutional power. The clash is linguistic: one speaks *from* the soil, the other *at* the soil. A wrong answer listing only vocabulary differences (\"one uses 'bafur', the other uses 'karravai'\") misses the syntactic dimension — sentence type, voice, and politeness markers are equally revealing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The heavy use of Araria dialect in 'Igyok ki Siddh' makes the story inaccessible to non-regional readers and therefore weakens its national literary value.\"",
+     "a": "**Disagree.** The dialect is **strategically mediated**: key dialogues are either contextually transparent (supported by narrative gloss) or emotionally universal (grief, joy, fear). Moreover, the dialect *is* the story's subject — the erosion of a way of life. Removing it would sanitize the very reality the story defends. National literature gains strength *through* authentic regional voices, not despite them. A student agreeing with the claim likely equates \"accessibility\" with \"standardization\" and misses the political-aesthetic choice of *bhasha* over *manak Hindi*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short paragraph (5-6 sentences) describing a village festival scene using **at least two onomatopoeic words**, **one local idiom/proverb** (invented but plausible), and **one syntactic feature typical of rural speech** (e.g., elliptical construction, honorific plural for intimacy). Do not use standard literary Hindi throughout.",
+     "a": "Example: \"ढोलक की ढम–ढम और शहनाई की पी–पी सुनकर पूरा टोला जुट गया। बुढ़िया काकी बोलीं, 'अरे, नाच न जाने आँगन टेढ़ा' — पर यहाँ तो पाँव खुद ब खुद थिरकत हैं। लइका सब गुलाल उड़ावत, बूढ़ा सब आशीष देत। का कहें भैया, एही त असली जिनगी बा!\"  \nA poor answer uses only standard Hindi (\"ढोलक बज रही थी\", \"बच्चे खेल रहे थे\") — revealing the student cannot *produce* the linguistic registers they are asked to analyze.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

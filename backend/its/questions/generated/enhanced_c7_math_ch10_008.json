@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_008",
+   "title": "c7_math_ch10_008",
+   "questions": [
+    {
+     "q": "What is the value of $(-48) \\div (-6)$?",
+     "a": "The correct answer is $+8$ (or simply $8$). When you divide a negative integer by another negative integer, the negative signs cancel out, resulting in a positive quotient because like signs yield a positive result. A student who answers $-8$ has applied the whole number division correctly but failed to apply the negative-divided-by-negative sign rule, treating it as if it were a multiplication or addition involving a single negative sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student says that because $5 \\times (-4) = -20$, therefore $(-20) \\div 5$ must be $+4$. Is this statement correct, and why or why not?",
+     "a": "The statement is incorrect. The correct answer is $-4$, because the product $-20$ divided by the positive factor $+5$ must yield a negative factor when multiplying back: $(-4) \\times (+5) = -20$. A student who thinks the answer is $+4$ misunderstands the relationship between multiplication and division of integers, forgetting that an unlike sign division (negative divided by positive) always results in a negative quotient.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the quotient for the integer expression: $[(-72) \\div 9] \\div (-2)$.",
+     "a": "The correct answer is $+4$. Step 1: Evaluate the inner bracket by dividing the negative integer by the positive integer: $(-72) \\div 9 = -8$. Step 2: Substitute this back into the expression: $(-8) \\div (-2)$. Step 3: Divide the two negative integers, yielding a positive result: $(-8) \\div (-2) = +4$. A student who gets $-4$ likely made an error in the second division step by ignoring the negative sign of the divisor $(-2)$ and mistakenly keeping the quotient negative.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two division expressions: $A = (-36) \\div (-4)$ and $B = 36 \\div (-4)$. Without calculating the exact final numerical values to begin with, analyze how their signs differ and explain why expression $A$ is greater than expression $B$.",
+     "a": "Expression $A$ evaluates to $+9$ because a negative divided by a negative gives a positive. Expression $B$ evaluates to $-9$ because a positive divided by a negative gives a negative. Since any positive number is strictly greater than any negative number, $A > B$. A student who believes they are equal or that $B$ is greater is confusing the absolute value magnitude with the actual value of signed numbers on the number line.",
+     "self_check": true
+    },
+    {
+     "q": "Examine the following student work for solving $(-56) \\div (-8)$:\nStep 1: Ignore the negative signs to get $56 \\div 8$.\nStep 2: Calculate $56 \\div 8 = 7$.\nStep 3: Since there were two negative signs, attach a negative sign to the result.\nStep 4: Final Answer is $-7$.\nIdentify the error in this work and provide the correct reasoning.",
+     "a": "The error occurs in Step 3, where the student attaches a negative sign despite having two negative signs in the original expression. The correct rule states that like signs (two negatives) yield a positive result when dividing, so the correct final answer should be $+7$. A student who agrees with the worked example does not understand the fundamental sign rule for division of like-signed integers.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a division problem using two integers where the dividend is a negative two-digit number, the divisor is a negative single-digit number, and the final quotient is exactly $+7$. Show your check using multiplication.",
+     "a": "An example of a correct construction is $(-63) \\div (-9) = +7$. Checking via multiplication: $+7 \\times (-9) = -63$, which matches the original dividend. A poor response would use numbers that do not divide evenly, or use incorrect signs resulting in a negative quotient like $-7$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

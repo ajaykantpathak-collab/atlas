@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_001",
+   "title": "c7_physics_ch01_001",
+   "questions": [
+    {
+     "q": "What is the very first step in the scientific process when encountering an unfamiliar natural phenomenon?",
+     "a": "Asking a curious question based on observation. A wrong answer like \"memorizing a textbook definition\" reveals that the student views science as static facts rather than an active process of inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Why is recording observations carefully during an exploration just as important as performing the exploration itself?",
+     "a": "Careful recording provides reliable, objective data that prevents bias and allows others to verify or build upon the findings. A wrong answer like \"so you can make your notebook look neat\" shows a failure to grasp that data is the core evidence used to build scientific conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to test if a toy car rolls faster on a smooth marble floor or a rough carpet. If the car travels 3 meters on the marble floor in 6 seconds, what is its average speed?",
+     "a": "Steps: 1. Identify given values: Distance ($d$) = 3 m, Time ($t$) = 6 s. 2. Recall speed formula: Speed = Distance / Time. 3. Substitute values: Speed = 3 m / 6 s. 4. Compute: Speed = 0.5 m/s. 5. Verify: 0.5 m/s is a reasonable speed for a toy car rolling across a room. A wrong answer like 2 m/s usually stems from dividing time by distance instead of distance by time.",
+     "self_check": true
+    },
+    {
+     "q": "How does asking a question and exploring differ from simply guessing an answer when trying to understand why a ceiling fan spins slower when voltage drops?",
+     "a": "Asking and exploring involves gathering systematic evidence, testing variables, and linking cause-and-effect logically, whereas guessing relies on unverified assumptions without proof. A wrong answer indicates that the student does not understand the difference between opinion-based guessing and evidence-based scientific inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"An experiment is a failure if it does not prove your initial guess (hypothesis) to be correct.\" Is this true or false in the scientific process?",
+     "a": "This statement is false. An experiment that disproves a hypothesis is still a success because it rules out an incorrect explanation and guides scientists toward asking new, better questions. A wrong answer reveals a misconception that science is only about being \"right\" rather than discovering how nature actually works.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple exploratory question and a 2-step method to investigate how sunlight affects the rate at which water evaporates from a small container.",
+     "a": "Question: \"Does water evaporate faster in direct sunlight or in a dark cupboard?\" Method: 1. Pour equal amounts of water (e.g., 50 ml) into two identical bowls. 2. Place one bowl in direct sunlight and the other in a dark cupboard, measuring the remaining water after 24 hours. A poor answer lacks a controlled variable (like using different amounts of water or different containers) or fails to state how measurement is done.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

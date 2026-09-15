@@ -1,0 +1,796 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 206,
+ "chapter_title": "Algebra Play",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp206.txt",
+ "concepts": [
+  {
+   "id": "hegp.6.2.1",
+   "title": "Date Trick Decoding",
+   "section": "6.2",
+   "definition": "A mathematical trick where operations on a month and day produce an encoded numerical output from which the original month and day can be retrieved algebraically.",
+   "formula": "code = answer - 165, month = code // 100, day = code % 100",
+   "key_idea": "Take away 165 and the month pops out in the hundreds place, the day in the last two digits.",
+   "textbook_ref": "hegp206.txt lines 30-65",
+   "question_patterns": [
+    "find the date if the final answer is ...",
+    "what date corresponds to the answer ...",
+    "calculate the starting month and day for answer ...",
+    "decode the date from the trick result ...",
+    "The trick lands on 1390 -- which date?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract 165 from final answer",
+     "explain": "subtracting 165 undoes the constant offset in the date trick formula",
+     "compute": "code = answer - 165"
+    },
+    {
+     "step": 2,
+     "action": "determine the month",
+     "explain": "the quotient when divided by 100 gives the month number",
+     "compute": "month = code // 100"
+    },
+    {
+     "step": 3,
+     "action": "determine the day",
+     "explain": "the remainder when divided by 100 gives the day of the month",
+     "compute": "day = code % 100"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.3.1",
+   "title": "Three-Row Number Pyramid Top Value",
+   "section": "6.3",
+   "definition": "In a number pyramid where each entry is the sum of two adjacent entries directly below it, the top value of a three-row pyramid is determined by combining the base numbers.",
+   "formula": "top = a + 2*b + c",
+   "key_idea": "The central base number contributes twice to the apex value, while the end base numbers contribute once.",
+   "textbook_ref": "hegp206.txt lines 70-125",
+   "question_patterns": [
+    "Frame a topmost task like the chapter exercise and solve it with every step shown.",
+    "calculate the apex of a three row pyramid with base ...",
+    "what is the top value for bottom row ...",
+    "determine the top number of a 3 row pyramid ...",
+    "Base 5,1,2 -- what sits on top?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute top value from bottom row entries",
+     "explain": "apply the formula a + 2b + c using the three base values a, b, and c",
+     "compute": "top = a + 2 * b + c"
+    },
+    {
+     "step": 2,
+     "action": "verify the middle-row sums",
+     "explain": "the second row holds a + b and b + c, confirming each entry is the sum of the two adjacent entries below it",
+     "compute": "left_mid = a + b"
+    },
+    {
+     "step": 3,
+     "action": "confirm the apex by adding the middle row",
+     "explain": "adding the two middle-row entries reproduces the apex value, validating the pyramid addition rule",
+     "compute": "check_top = left_mid + (b + c)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.3.2",
+   "title": "Four-Row Number Pyramid Top Value",
+   "section": "6.3",
+   "definition": "In a four-row number pyramid following the standard addition rule, the apex number is obtained as a weighted sum of the four base entries.",
+   "formula": "top = a + 3*b + 3*c + d",
+   "key_idea": "The binomial coefficients 1, 3, 3, 1 determine the contribution of each base number to the top of a 4-row pyramid.",
+   "textbook_ref": "hegp206.txt lines 126-155",
+   "question_patterns": [
+    "find the topmost row of a 4 row pyramid with base ...",
+    "calculate the peak number for a four level pyramid ...",
+    "what is the apex value for a four row pyramid given base ...",
+    "compute the top number of a 4 row number pyramid ...",
+    "Base 1,2,3,4 -- find the apex."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the apex from four base numbers",
+     "explain": "multiply inner base values by 3 and add outer base values",
+     "compute": "top = a + 3 * b + 3 * c + d"
+    },
+    {
+     "step": 2,
+     "action": "verify the binomial weights",
+     "explain": "the coefficients 1, 3, 3, 1 come from two layers of pairwise addition, so each base value reaches the apex with weight equal to its row-3 binomial coefficient"
+    },
+    {
+     "step": 3,
+     "action": "confirm the apex by summing the third row",
+     "explain": "the third row entries are a + 3b + 3c + d split across two cells; adding them reproduces the apex value",
+     "compute": "check_top = (a + 3 * b) + (3 * c + d)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.4.1",
+   "title": "Calendar 2x2 Grid Analysis",
+   "section": "6.4",
+   "definition": "The sum of four dates forming a 2 by 2 square on a monthly calendar page is equal to four times the top-left date plus sixteen.",
+   "formula": "top_left = (grid_sum - 16) / 4",
+   "key_idea": "Because adjacent calendar cells differ by 1 horizontally and 7 vertically, grid sums simplify to linear equations.",
+   "textbook_ref": "hegp206.txt lines 160-200",
+   "question_patterns": [
+    "find the 4 numbers in the grid if the sum is ...",
+    "determine the top left date when 2x2 grid sum is ...",
+    "calculate the dates in a calendar grid with total sum ...",
+    "what are the four calendar dates given their sum ...",
+    "A 2x2 grid sums to 52 -- which dates?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "solve for top-left date",
+     "explain": "subtract 16 from grid sum and divide by 4 to get top-left date a",
+     "compute": "top_left = (grid_sum - 16) / 4"
+    },
+    {
+     "step": 2,
+     "action": "derive the remaining three dates",
+     "explain": "the cell to the right is a + 1, the cell below is a + 7, and the diagonally opposite cell is a + 8"
+    },
+    {
+     "step": 3,
+     "action": "verify the grid sum matches",
+     "explain": "adding all four derived dates should reproduce the original grid sum, confirming the solution",
+     "compute": "check_sum = 4 * top_left + 16"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.5.1",
+   "title": "Maximizing Product of 2-Digit by 1-Digit Number",
+   "section": "6.5",
+   "definition": "Let the biggest digit do the multiplying; the other two descend into the two-digit factor.",
+   "formula": "max_product = (10 * q + p) * r",
+   "key_idea": "Given ordered digits p < q < r, the maximum product is formed by placing r as multiplier and q p as multiplicand.",
+   "textbook_ref": "hegp206.txt lines 210-260",
+   "question_patterns": [
+    "fill the digits ... to make the largest product possible",
+    "calculate the maximum product using three digits ...",
+    "what is the largest product of a 2 digit and 1 digit number using digits ...",
+    "find the greatest product formed by digits ...",
+    "Digits 3,7,2 -- build the biggest product."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form multiplicand",
+     "explain": "combine second largest digit q (tens) and smallest digit p (ones)",
+     "compute": "multiplicand = 10 * q + p"
+    },
+    {
+     "step": 2,
+     "action": "multiply by largest digit",
+     "explain": "multiply multiplicand by largest digit r",
+     "compute": "max_product = multiplicand * r"
+    },
+    {
+     "step": 3,
+     "action": "verify no larger arrangement exists",
+     "explain": "placing the largest digit in the multiplier position and the next largest in the tens place of the multiplicand yields the maximum possible product for the three given digits",
+     "compute": "check_max = (10 * q + p) * r"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.1",
+   "title": "Difference of Reversed Two-Digit Numbers",
+   "section": "6.6",
+   "definition": "A two-digit number minus its flip lands on 9 times the gap between the digits.",
+   "formula": "diff = 9 * abs(b - a), quotient = abs(b - a)",
+   "key_idea": "That flip-difference never misses a 9 in its times table.",
+   "textbook_ref": "hegp206.txt lines 265-295",
+   "question_patterns": [
+    "find the difference when a 2 digit number is reversed",
+    "calculate the quotient when the difference of reversed digits is divided by 9",
+    "what is the result of subtracting reversed 2 digit number from original",
+    "determine the quotient after dividing digit reversal difference by 9",
+    "Reverse 72 and subtract -- what do you get?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find digit difference",
+     "explain": "compute absolute difference between tens digit a and units digit b",
+     "compute": "digit_diff = abs(b - a)"
+    },
+    {
+     "step": 2,
+     "action": "calculate difference of numbers",
+     "explain": "multiply digit difference by 9",
+     "compute": "diff = 9 * digit_diff"
+    },
+    {
+     "step": 3,
+     "action": "calculate quotient when divided by 9",
+     "explain": "the quotient upon dividing by 9 is simply the digit difference",
+     "compute": "quotient = digit_diff"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.2",
+   "title": "Sum of Reversed Two-Digit Numbers",
+   "section": "6.6",
+   "definition": "Adding a two-digit number to its digit reversal always results in a multiple of 11 equal to 11 times the sum of its digits.",
+   "formula": "sum_val = 11 * (a + b)",
+   "key_idea": "Summing a 2-digit number and its reverse yields eleven times the sum of individual digits.",
+   "textbook_ref": "hegp206.txt lines 296-310",
+   "question_patterns": [
+    "find the sum when a 2 digit number is added to its reverse",
+    "calculate the result of adding 2 digit number and its reversed form",
+    "what is the sum of digits quotient when dividing reverse sum by 11",
+    "determine the sum of a number and its digit reversal",
+    "Add 43 to its flip."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find digit sum",
+     "explain": "add tens digit a and units digit b",
+     "compute": "digit_sum = a + b"
+    },
+    {
+     "step": 2,
+     "action": "calculate sum of reversed numbers",
+     "explain": "multiply digit sum by 11",
+     "compute": "sum_val = 11 * digit_sum"
+    },
+    {
+     "step": 3,
+     "action": "verify the result is a multiple of 11",
+     "explain": "dividing the sum by 11 should return the digit sum, confirming the reversal-addition rule",
+     "compute": "quotient = sum_val / 11"
+    }
+   ]
+  },
+  {
+   "id": "hegp.6.6.3",
+   "title": "Cyclic Sum of Three-Digit Numbers",
+   "section": "6.6",
+   "definition": "Forming three 3-digit numbers by cyclically shifting digits a, b, c and adding them yields 111 times the sum of the three digits, which is divisible by 37 and 3.",
+   "formula": "cyclic_sum = 111 * (a + b + c)",
+   "key_idea": "The sum abc + bca + cab equals 111*(a + b + c) and is always a multiple of 37 and 3.",
+   "textbook_ref": "hegp206.txt lines 311-325",
+   "question_patterns": [
+    "find the cyclic sum of 3 digit numbers generated by digits",
+    "calculate the sum of abc bca and cab",
+    "what is the total of all cyclic permutations of a 3 digit number",
+    "determine the sum when digits of a 3 digit number are rotated",
+    "Add the cyclic shuffles of 123."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find sum of the three digits",
+     "explain": "add digits a, b, and c",
+     "compute": "digit_sum = a + b + c"
+    },
+    {
+     "step": 2,
+     "action": "calculate cyclic sum",
+     "explain": "multiply digit sum by 111",
+     "compute": "cyclic_sum = 111 * digit_sum"
+    },
+    {
+     "step": 3,
+     "action": "verify divisibility by 37 and 3",
+     "explain": "since 111 = 3 x 37, the cyclic sum is always divisible by both 37 and 3, confirming the algebraic identity",
+     "compute": "check_37 = cyclic_sum / 37"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp206.txt lines 45-60",
+   "concept": "hegp.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the date if the final answer is {answer}",
+   "extracted_variables": {
+    "answer": "reported result from date trick"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract 165 from final answer",
+     "explain": "subtracting 165 undoes the constant offset in the date trick formula",
+     "compute": "code = answer - 165"
+    },
+    {
+     "step": 2,
+     "action": "determine the month",
+     "explain": "the quotient when divided by 100 gives the month number",
+     "compute": "month = code // 100"
+    },
+    {
+     "step": 3,
+     "action": "determine the day",
+     "explain": "the remainder when divided by 100 gives the day of the month",
+     "compute": "day = code % 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp206.txt lines 100-125",
+   "concept": "hegp.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the top value of a 3 row pyramid given bottom row entries {a}, {b}, {c}",
+   "extracted_variables": {
+    "a": "first base number",
+    "b": "second base number",
+    "c": "third base number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute top value from bottom row entries",
+     "explain": "apply the formula a + 2b + c using the three base values a, b, and c",
+     "compute": "top = a + 2 * b + c"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp206.txt lines 170-195",
+   "concept": "hegp.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the 4 numbers in a 2x2 grid if the total sum is {grid_sum}",
+   "extracted_variables": {
+    "grid_sum": "sum of 4 calendar grid numbers"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "solve for top-left date",
+     "explain": "subtract 16 from grid sum and divide by 4 to get top-left date a",
+     "compute": "top_left = (grid_sum - 16) / 4"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp206.txt lines 215-245",
+   "concept": "hegp.6.5.1",
+   "question_type": "compute",
+   "question_pattern": "Fill digits {p}, {q}, and {r} in _ _ * _ to make the largest product possible",
+   "extracted_variables": {
+    "p": "smallest digit",
+    "q": "middle digit",
+    "r": "largest digit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form multiplicand",
+     "explain": "combine second largest digit q (tens) and smallest digit p (ones)",
+     "compute": "multiplicand = 10 * q + p"
+    },
+    {
+     "step": 2,
+     "action": "multiply by largest digit",
+     "explain": "multiply multiplicand by largest digit r",
+     "compute": "max_product = multiplicand * r"
+    }
+   ]
+  },
+  {
+   "concept": "hegp.6.2.1",
+   "question_pattern": "The trick lands on {answer} -- which date?",
+   "extracted_variables": {
+    "answer": "1390"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "strip the constant",
+     "explain": "1390 - 165 = 1225",
+     "compute": "code = answer - 165"
+    },
+    {
+     "step": 2,
+     "action": "split the code",
+     "explain": "month 12, day 25",
+     "compute": "month = code // 100"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.2.1",
+   "question_pattern": "Decode the result {answer} back into month and day.",
+   "extracted_variables": {
+    "answer": "417"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "strip the constant",
+     "explain": "417 - 165 = 252",
+     "compute": "code = answer - 165"
+    },
+    {
+     "step": 2,
+     "action": "split the code",
+     "explain": "month 2, day 52",
+     "compute": "month = code // 100"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.3.1",
+   "question_pattern": "Base {a}, {b}, {c} -- what sits on top?",
+   "extracted_variables": {
+    "a": "5",
+    "b": "1",
+    "c": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pairwise sums climbing",
+     "explain": "6 and 3, then 9",
+     "compute": "left = a + b"
+    },
+    {
+     "step": 2,
+     "action": "top entry",
+     "explain": "9",
+     "compute": "top = a + 2 * b + c"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.3.2",
+   "question_pattern": "Base {a}, {b}, {c}, {d} -- find the apex.",
+   "extracted_variables": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weights 1, 3, 3, 1",
+     "explain": "1 + 6 + 9 + 4",
+     "compute": "weighted = 3 * b + 3 * c"
+    },
+    {
+     "step": 2,
+     "action": "top entry",
+     "explain": "20",
+     "compute": "top = a + 3 * b + 3 * c + d"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.4.1",
+   "question_pattern": "A 2x2 grid sums to {s} -- which dates?",
+   "extracted_variables": {
+    "s": "52"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "undo the pattern",
+     "explain": "(52 - 16)/4 = 9",
+     "compute": "top_left = (grid_sum - 16) / 4"
+    },
+    {
+     "step": 2,
+     "action": "read the rest",
+     "explain": "9, 10, 16, 17",
+     "compute": "next_day = top_left + 1"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.4.1",
+   "question_pattern": "Four calendar dates total {s} -- find the top-left one.",
+   "extracted_variables": {
+    "s": "80"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "undo the pattern",
+     "explain": "(80 - 16)/4 = 16",
+     "compute": "top_left = (grid_sum - 16) / 4"
+    },
+    {
+     "step": 2,
+     "action": "read the rest",
+     "explain": "16, 17, 23, 24",
+     "compute": "next_day = top_left + 1"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.5.1",
+   "question_pattern": "Digits {p}, {q}, {r} -- build the biggest 2-digit x 1-digit product.",
+   "extracted_variables": {
+    "p": "2",
+    "q": "3",
+    "r": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "biggest digit multiplies",
+     "explain": "32 x 7",
+     "compute": "factor = 10 * q + p"
+    },
+    {
+     "step": 2,
+     "action": "read the product",
+     "explain": "224",
+     "compute": "max_product = (10 * q + p) * r"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.1",
+   "question_pattern": "Subtract the flip of {tens}{ones} from itself.",
+   "extracted_variables": {
+    "tens": "7",
+    "ones": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip and subtract",
+     "explain": "72 - 27 = 45",
+     "compute": "diff = 9 * abs(b - a)"
+    },
+    {
+     "step": 2,
+     "action": "divide by 9",
+     "explain": "the digit gap is 5",
+     "compute": "quotient = abs(b - a)"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.1",
+   "question_pattern": "Reverse {tens}{ones} and subtract -- what remains?",
+   "extracted_variables": {
+    "tens": "9",
+    "ones": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip and subtract",
+     "explain": "94 - 49 = 45",
+     "compute": "diff = 9 * abs(b - a)"
+    },
+    {
+     "step": 2,
+     "action": "divide by 9",
+     "explain": "the digit gap is 5",
+     "compute": "quotient = abs(b - a)"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.2",
+   "question_pattern": "Add {tens}{ones} to its flip.",
+   "extracted_variables": {
+    "tens": "4",
+    "ones": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip and add",
+     "explain": "43 + 34 = 77",
+     "compute": "sum_val = 11 * (a + b)"
+    },
+    {
+     "step": 2,
+     "action": "read the rule",
+     "explain": "11 x the digit sum",
+     "compute": "digit_sum = a + b"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.2",
+   "question_pattern": "A number and its flip total {sum_val} -- check the 11 rule.",
+   "extracted_variables": {
+    "sum_val": "121",
+    "tens": "5",
+    "ones": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip and add",
+     "explain": "56 + 65 = 121",
+     "compute": "sum_val = 11 * (a + b)"
+    },
+    {
+     "step": 2,
+     "action": "divide by 11",
+     "explain": "the digit sum is 11",
+     "compute": "digit_sum = a + b"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.3",
+   "question_pattern": "Add the cyclic shuffles of {a}{b}{c}.",
+   "extracted_variables": {
+    "a": "1",
+    "b": "2",
+    "c": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write all three",
+     "explain": "123 + 231 + 312",
+     "compute": "all_three = a * 100 + b * 10 + c"
+    },
+    {
+     "step": 2,
+     "action": "total",
+     "explain": "111 x 6 = 666",
+     "compute": "cyclic_sum = 111 * (a + b + c)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.6.3",
+   "question_pattern": "Cyclic sum of the shuffles of {a}{b}{c}?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "5",
+    "c": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write all three",
+     "explain": "251 + 512 + 125",
+     "compute": "all_three = a * 100 + b * 10 + c"
+    },
+    {
+     "step": 2,
+     "action": "total",
+     "explain": "111 x 8 = 888",
+     "compute": "cyclic_sum = 111 * (a + b + c)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.6.3.2",
+   "question_pattern": "A 4-row pyramid has base {a}, {b}, {c}, {d} -- what sits at the top?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "1",
+    "c": "4",
+    "d": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weights 1, 3, 3, 1",
+     "explain": "2 + 3 + 12 + 3",
+     "compute": "weighted = 3 * b + 3 * c"
+    },
+    {
+     "step": 2,
+     "action": "top entry",
+     "explain": "20",
+     "compute": "top = a + 3 * b + 3 * c + d"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.2",
+   "source_ref": "hegp206.txt lines 50-60",
+   "questions": [
+    "Find the dates if the final answers are: (i) 1269 (ii) 394 (iii) 296"
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "hegp206.txt lines 135-155",
+   "questions": [
+    "Without building the entire pyramid, find the number in the topmost row given the bottom row in each case: [8, 13, 4], [11, 3, 7], [14, 25, 10]",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about expression.",
+    "Without building the entire pyramid, find the number in the topmost row given the bottom row in each case: [21, 8, 19, 13], [19, 7, 18, 6], [5, 9, 7, 11]"
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "hegp206.txt lines 250-260",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about possible.",
+    "Answer the exercise task on possible using your own phrasing."
+   ]
+  },
+  {
+   "id": "ex6.6",
+   "source_ref": "hegp206.txt lines 290-345",
+   "questions": [
+    "In the digit reversal trick, what is the quotient when you divide the difference by 9?",
+    "Instead of finding the difference of two 2-digit numbers, find their sum. What will happen? Justify using algebra.",
+    "Consider any 3-digit number abc. Make two other numbers bca and cab. Prove using algebra that their sum is divisible by 37.",
+    "Consider any 3-digit number abc. Make a 6-digit number abcabc. Divide by 7, then by 11, and finally by 13. What do you get?",
+    "Three shrines with magical ponds double the number of flowers. If equal flowers are placed at each shrine, find the initial flowers.",
+    "A farm has 55 heads and 150 legs of horses and hens. How many horses and hens are on the farm?",
+    "A mother is 5 times her daughter's age. In 6 years, she will be 3 times her daughter's age. Find the daughter's current age."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

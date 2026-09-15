@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_10",
+   "title": "c8_chem_ch3_10",
+   "questions": [
+    {
+     "q": "State two key differences between a physical mixture of iron filings and sulphur powder, and the chemical compound iron sulphide ($\\text{FeS}$), in terms of their magnetic property and appearance under a magnifying glass.",
+     "a": "In a mixture of iron and sulphur, you can see distinct yellow sulphur particles and grey iron particles separately under a magnifying glass, and the iron filings can be pulled out using a magnet. In the compound iron sulphide ($\\text{FeS}$), the substance appears as a uniform, black, homogeneous solid, and it is completely non-magnetic.\n\n*What a wrong answer reveals:* If a student thinks the compound iron sulphide is still magnetic because \"it contains iron,\" they do not understand that elements completely lose their individual physical properties (like magnetism) when they chemically react to form a compound.",
+     "self_check": true
+    },
+    {
+     "q": "Why does dissolving carbon dioxide gas ($\\text{CO}_2$) in water to make club soda represent a physical mixture, while burning charcoal (carbon) in oxygen to produce carbon dioxide gas represents the formation of a compound?",
+     "a": "Dissolving $\\text{CO}_2$ in water is a physical process where no new chemical bonds are formed; the carbon dioxide molecules simply slip between water molecules and can easily escape as gas when the bottle is opened (reversible by physical pressure release). Burning charcoal ($C + O_2 \\rightarrow CO_2$) is a chemical reaction where carbon and oxygen atoms form strong chemical bonds to create a new substance ($\\text{CO}_2$) with entirely different properties, accompanied by the release of heat and light energy.\n\n*What a wrong answer reveals:* If a student thinks both are chemical changes because \"bubbles or gases are involved,\" they are confusing the physical process of gas dissolution (solubility) with a chemical synthesis reaction.",
+     "self_check": true
+    },
+    {
+     "q": "You are given two jars. Jar A contains a mixture of Hydrogen gas and Oxygen gas in a $2:1$ volume ratio. Jar B contains water vapour ($\\text{H}_2\\text{O}$). Predict what will happen when a burning wooden splinter is introduced into each jar, and use this to classify them.",
+     "a": "- **Step 1:** Analyze Jar A (mixture). Hydrogen is highly flammable and oxygen supports combustion. Because they are in a mixture, they retain their individual properties.\n- **Step 2:** Predict Jar A's reaction. The burning splinter will ignite the free hydrogen gas, causing a loud, explosive \"pop\" sound.\n- **Step 3:** Analyze Jar B (compound). Water ($\\text{H}_2\\text{O}$) is a compound where hydrogen and oxygen have chemically combined. The compound has entirely new properties: it neither burns nor supports burning.\n- **Step 4:** Predict Jar B's reaction. The burning splinter will immediately be extinguished.\n- **Step 5:** Conclusion. Jar A is a mixture because the gases behave independently; Jar B is a compound because the elements have lost their original properties to form a fire-extinguishing substance.\n\n*What a wrong answer reveals:* If a student predicts that Jar B will also explode because \"it contains hydrogen,\" they fail to understand that the chemical combination of elements in a compound alters their reactivity entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Two samples of water are analyzed. Sample 1 is muddy water collected from a pond in West Bengal, containing dissolved minerals and suspended clay. Sample 2 is pure distilled water ($\\text{H}_2\\text{O}$) prepared in a school lab. Explain how the ratio of Hydrogen to Oxygen by mass behaves in both samples.",
+     "a": "In Sample 2 (pure distilled water), which is a pure compound, the ratio of Hydrogen to Oxygen is strictly fixed at $1:8$ by mass, according to the Law of Constant Proportions. In Sample 1 (muddy water), which is a mixture of water, clay, and minerals, the overall composition is variable depending on how much mud is mixed in. However, the water molecules *within* that mud still maintain the exact $1:8$ mass ratio of H to O.\n\n*What a wrong answer reveals:* If a student thinks the H:O ratio of the water molecules changes because of the mud, they do not realize that adding impurities to a compound forms a mixture, which does not alter the internal chemical bonds of the compound's molecules.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since brass (an alloy of copper and zinc) has a uniform golden colour throughout and cannot be separated into copper and zinc by simple filtration, it must be a chemical compound.\" Evaluate this claim and provide two reasons to support or refute it.",
+     "a": "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because:\n1. **Variable Composition:** The ratio of copper to zinc in brass can be varied continuously (e.g., $60\\%$ copper and $40\\%$ zinc, or $70\\%$ copper and $30\\%$ zinc) to change its properties, whereas a compound must have a strictly fixed chemical formula.\n2. **Retention of Properties:** Copper and zinc in brass retain their individual properties, such as high electrical and thermal conductivity. No chemical reaction (heat or light exchange) occurs when they are melted together to form brass.\n\n*What a wrong answer reveals:* The student is over-relying on \"uniform appearance\" (homogeneity) and \"difficulty of mechanical separation\" as proof of a compound, failing to recognize that alloys are homogeneous mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experimental procedure using common laboratory chemicals to prove that a black powder is a physical mixture of Charcoal (Carbon) and Copper(II) Oxide ($\\text{CuO}$), and not a single chemical compound containing carbon and copper.",
+     "a": "- **Test 1 (Physical Separation):** Add the black powder to water. Light charcoal particles will float on the surface, while dense copper oxide particles will sink to the bottom. This physical separation proves it is a mixture.\n- **Test 2 (Chemical Reaction):** Add dilute hydrochloric acid ($\\text{HCl}$) to the black powder. The copper oxide ($\\text{CuO}$) will react with the acid to form a blue-green solution of copper chloride ($\\text{CuCl}_2$), leaving the black charcoal completely unreacted and floating in the liquid. \n$$\\text{CuO} (s) + 2\\text{HCl} (aq) \\rightarrow \\text{CuCl}_2 (aq) + \\text{H}_2\\text{O} (l)$$\nIf it were a single compound, the entire powder would react uniformly, and we would not see carbon separating out unaffected.\n\n*What a poor answer reveals:* A poor answer might suggest heating it to melt it, which is physically difficult in a middle school lab and does not exploit the differences in the chemical solubilities or reactivities of the individual components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

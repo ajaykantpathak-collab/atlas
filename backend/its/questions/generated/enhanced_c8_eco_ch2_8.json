@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_8",
+   "title": "c8_eco_ch2_8",
+   "questions": [
+    {
+     "q": "What historical year in Indian census history is known as the \"Year of the Great Divide\", after which India entered a phase of continuous population growth?",
+     "a": "The year 1921 is known as the \"Year of the Great Divide\" in Indian demographic history. A wrong answer (such as guessing 1947 or 1951) indicates that the student cannot recall pivotal historical turning points in Indian population trends and confuses political independence with demographic shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Why did world population growth remain extremely slow for thousands of years before accelerating sharply after the 18th century Industrial Revolution?",
+     "a": "Before the Industrial Revolution, high birth rates were offset by equally high death rates caused by frequent famines, lack of medical knowledge, poor sanitation, and epidemics. A wrong answer claiming that people in earlier centuries simply had fewer children reveals a fundamental misconception that population growth is solely determined by birth rates, ignoring the critical role of high mortality rates in keeping early population growth low.",
+     "self_check": true
+    },
+    {
+     "q": "In 1901, India's population was approximately 238 million, and by 1921 it was 251 million (having dipped in 1911-1921 due to epidemics). If India's population reached 361 million by 1951, calculate the total population increase and the percentage growth in India's population between 1921 and 1951.",
+     "a": "Step 1: Identify initial population (1921) = 251 million.\nStep 2: Identify final population (1951) = 361 million.\nStep 3: Calculate absolute increase = 361 million - 251 million = 110 million people.\nStep 4: Calculate percentage growth = (110 / 251) * 100 ≈ 43.82%.\nA wrong answer showing a simple subtraction without converting to percentage growth reveals that the student struggles to apply mathematical proportion tools to compare economic and demographic trends across time periods.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the demographic shift in India between Phase II (1921–1951: steady growth) and Phase III (1951–1981: rapid high growth). What primary economic and medical development drove the massive increase in growth rate during 1951–1981?",
+     "a": "During 1951–1981, major public health drives, vaccination programs, controlling of major diseases like smallpox and malaria, and improved food transport dramatically reduced the Death Rate, while the Birth Rate remained very high, causing a natural growth explosion. A wrong answer suggesting that the growth surge was caused by a sudden dramatic increase in birth rates shows a failure to analyze the separate trajectories of birth rates and death rates.",
+     "self_check": true
+    },
+    {
+     "q": "A policy analyst argues: \"To lower total population size immediately, a developing country should focus exclusively on controlling migration, because migration is the main cause of long-term national historical population growth.\" Evaluate this argument based on historical trends.",
+     "a": "The argument is flawed because historically, natural growth (the difference between birth rates and death rates) has been the dominant driver of long-term national population growth in large countries like India, not international migration. Effective long-term population planning relies on healthcare, education, and family welfare rather than border control alone. A student agreeing with the analyst fails to evaluate the relative weight of demographic drivers in national historical trends.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a multi-sector historical action plan showing how an early 20th-century government could have prevented extreme population fluctuations caused by famines and epidemics without restricting family size.",
+     "a": "A strong response proposes: (1) Setting up public healthcare and vaccination networks to reduce epidemic deaths; (2) Building irrigation infrastructure and grain transport networks (railways/roads) to prevent localized famine mortality; (3) Improving clean drinking water supply and sanitation. A poor answer focuses only on modern contraceptive policies or ignores mortality controls, showing a lack of understanding of historical crisis drivers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_001",
+   "title": "c10_math_cbse_05_001",
+   "questions": [
+    {
+     "q": "Is the sequence 2, 5, 8, 11, 14 an arithmetic progression? If yes, state the first term and the common difference.",
+     "a": "Yes, it is an AP. First term *a* = 2, common difference *d* = 3. A wrong answer (e.g., saying *d* = 2 or *d* = 5, or saying it is not an AP) reveals the student cannot compute consecutive differences correctly or does not understand that *d* must be the same for *every* pair of consecutive terms.",
+     "self_check": true
+    },
+    {
+     "q": "The sequence 7, 10, 13, 16, 19 has common difference 3. A student writes the next three terms as 22, 26, 30. Explain why this is incorrect and write the correct next three terms.",
+     "a": "The student added 3 to 19 to get 22 (correct), but then added 4 to get 26 and 4 to get 30 instead of consistently adding 3. The correct next three terms are 22, 25, 28. A wrong answer reveals the student treats the common difference as a one-time operation rather than a fixed number added repeatedly to *each* term to get the next.",
+     "self_check": true
+    },
+    {
+     "q": "Find the common difference of the AP whose 3rd term is 14 and 7th term is 30.",
+     "a": "Let the AP be *a*, *a*+*d*, *a*+2*d*, *a*+3*d*, *a*+4*d*, *a*+5*d*, *a*+6*d*, …  \n3rd term = *a* + 2*d* = 14  \n7th term = *a* + 6*d* = 30  \nSubtract: (*a* + 6*d*) - (*a* + 2*d*) = 30 - 14 → 4*d* = 16 → *d* = 4.  \nA wrong answer (e.g., *d* = 16/3 or *d* = 4 but with incorrect subtraction) reveals the student cannot set up the term expressions or makes algebraic errors in eliminating *a*.",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same common difference. The first term of the first AP is 5 and the first term of the second AP is 12. What is the difference between their 10th terms? Explain your reasoning without computing the 10th terms explicitly.",
+     "a": "The difference between their 10th terms is 12 - 5 = 7. Since both APs have the same *d*, the *n*th terms are *a*₁ + (*n*-1)*d* and *a*₂ + (*n*-1)*d*. Their difference is (*a*₂ - *a*₁) + (*n*-1)*d* - (*n*-1)*d* = *a*₂ - *a*₁, independent of *n*. A wrong answer (e.g., computing both 10th terms separately or saying the difference depends on *d*) reveals the student does not recognise that the common difference cancels out when comparing corresponding terms of two APs with the same *d*.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the sequence 5, 10, 20, 40, 80 is an AP because \"each term increases.\" Evaluate this claim and identify the exact misconception.",
+     "a": "The claim is false. The sequence is not an AP because the differences are not constant: 10-5=5, 20-10=10, 40-20=20, 80-40=40. The misconception is confusing \"increasing sequence\" with \"arithmetic progression\" — an AP requires a *fixed* common difference, not just any increase. A student who agrees with the claim does not understand the defining property of constant difference.",
+     "self_check": true
+    },
+    {
+     "q": "Create an AP with first term -3 and common difference 1/2. Write the first 6 terms. Then create a different AP that has the same 4th term as your first AP but a different common difference. State both APs clearly.",
+     "a": "First AP: -3, -2.5, -2, -1.5, -1, -0.5 (4th term = -1.5).  \nSecond AP example: first term 0, common difference -0.5 → 0, -0.5, -1, -1.5, -2, -2.5 (4th term = -1.5).  \nA poor answer (e.g., unable to generate terms with fractional *d*, or second AP not matching the 4th term) reveals difficulty with negative/fractional common differences and inability to work backwards from a term to construct an AP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

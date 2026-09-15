@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_003",
+   "title": "c11_phy_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define instantaneous velocity and state its SI unit. How does it differ from average velocity in terms of the time interval considered?",
+     "a": "Instantaneous velocity is the limit of average velocity as the time interval \\( \\Delta t \\) approaches zero: \\( v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta x}{\\Delta t} = \\frac{dx}{dt} \\). Its SI unit is m/s. Average velocity uses a finite \\( \\Delta t \\) (e.g., 5 s), giving the overall rate over that interval, while instantaneous velocity gives the rate at a specific instant \\( t \\). A wrong answer (e.g., \"instantaneous velocity is velocity at an instant\" without the limiting process or calculus definition) reveals the student memorised a phrase but does not grasp the mathematical foundation — the concept of a limit — which is essential for deriving kinematic equations later.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves along the x-axis with position given by \\( x(t) = 4t^2 - 3t + 2 \\) (x in metres, t in seconds). Explain why the instantaneous speed at \\( t = 2 \\) s is equal to the magnitude of instantaneous velocity at that instant, but the average speed over \\( t = 0 \\) to \\( 2 \\) s may not equal the magnitude of average velocity over the same interval.",
+     "a": "At any instant, instantaneous speed \\( = |v(t)| \\) by definition, since speed is the magnitude of the velocity vector. In 1D, velocity has only one component, so \\( |v| \\) is simply the absolute value. For the given function, \\( v(t) = 8t - 3 \\); at \\( t = 2 \\) s, \\( v = 13 \\) m/s, speed \\( = 13 \\) m/s — they are equal. However, average velocity \\( = \\frac{x(2)-x(0)}{2-0} = \\frac{12-2}{2} = 5 \\) m/s. The particle moves forward, stops momentarily (if velocity changes sign), or reverses; total path length \\( \\geq |\\text{displacement}| \\), so average speed \\( \\geq |\\text{average velocity}| \\). A wrong answer (e.g., claiming they are always equal) shows the student confuses the *instantaneous* equality (which holds because direction doesn't change in an infinitesimal interval) with the *average* case where direction changes over a finite interval.",
+     "self_check": true
+    },
+    {
+     "q": "The position of a car moving on a straight road is given by \\( x(t) = 2t^3 - 15t^2 + 36t + 10 \\) (x in metres, t in seconds). Calculate the instantaneous velocity and instantaneous speed at \\( t = 3 \\) s. Show all steps with units.",
+     "a": "**Step 1:** Identify given: \\( x(t) = 2t^3 - 15t^2 + 36t + 10 \\) m, \\( t = 3 \\) s. Find \\( v(3) \\) and speed at \\( t = 3 \\) s.\n**Step 2:** Formula: \\( v(t) = \\frac{dx}{dt} \\). Differentiate each term: \\( \\frac{d}{dt}(2t^3) = 6t^2 \\), \\( \\frac{d}{dt}(-15t^2) = -30t \\), \\( \\frac{d}{dt}(36t) = 36 \\), \\( \\frac{d}{dt}(10) = 0 \\). So \\( v(t) = 6t^2 - 30t + 36 \\) m/s.\n**Step 3:** Substitute \\( t = 3 \\) s: \\( v(3) = 6(9) - 30(3) + 36 = 54 - 90 + 36 = 0 \\) m/s.\n**Step 4:** Instantaneous speed \\( = |v(3)| = |0| = 0 \\) m/s.\n**Step 5:** Physical check: At \\( t = 3 \\) s, the car momentarily stops (velocity zero) before reversing direction. Speed is zero, consistent.\n**Answer:** Instantaneous velocity = 0 m/s, instantaneous speed = 0 m/s.\nA wrong answer (e.g., forgetting to differentiate, or giving speed as -0 m/s) reveals the student either doesn't know differentiation rules for polynomials or doesn't understand that speed is a magnitude (non-negative).",
+     "self_check": true
+    },
+    {
+     "q": "The x-t graph of a particle in rectilinear motion is a parabola opening upward. At \\( t = 2 \\) s, the tangent to the curve makes an angle of \\( 30^\\circ \\) with the positive time axis. At \\( t = 5 \\) s, the tangent makes an angle of \\( 120^\\circ \\) with the positive time axis. Determine the instantaneous velocity at both instants and explain the physical meaning of the sign difference.",
+     "a": "The slope of the tangent on an x-t graph gives instantaneous velocity: \\( v = \\tan\\theta \\), where \\( \\theta \\) is the angle with the positive t-axis.\nAt \\( t = 2 \\) s: \\( \\theta = 30^\\circ \\), \\( v = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}} \\approx 0.577 \\) m/s (positive).\nAt \\( t = 5 \\) s: \\( \\theta = 120^\\circ \\), \\( v = \\tan 120^\\circ = \\tan(180^\\circ - 60^\\circ) = -\\tan 60^\\circ = -\\sqrt{3} \\approx -1.732 \\) m/s (negative).\nPositive velocity means the particle moves in the +x direction (increasing x); negative velocity means it moves in the -x direction (decreasing x). The parabola opening upward implies the particle first slows down in +x direction, momentarily stops at the vertex, then speeds up in -x direction. A wrong answer (e.g., taking \\( \\tan 120^\\circ \\) as positive) shows the student doesn't understand that angles > 90° on an x-t graph correspond to negative slopes (velocity in negative x direction), a critical skill for interpreting motion graphs in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a particle moving in a straight line, if the instantaneous velocity is zero at some instant, the instantaneous acceleration must also be zero at that instant.\" Evaluate this statement. Is it true or false? Justify with a concrete example from free fall.",
+     "a": "**False.** Instantaneous velocity and instantaneous acceleration are independent at a given instant. Velocity is the rate of change of position; acceleration is the rate of change of velocity. A particle can be momentarily at rest (\\( v = 0 \\)) while its velocity is *changing* (non-zero acceleration).\n**Example:** A ball thrown vertically upward with \\( u = 20 \\) m/s. At the highest point, \\( v = 0 \\) m/s. But acceleration \\( a = -g = -9.8 \\) m/s² (downward). The ball is momentarily at rest but accelerating downward — it immediately starts moving down.\nA student who says \"true\" confuses \"zero velocity\" with \"constant velocity\" (which would imply zero acceleration). This is a classic Class 11 misconception addressed in NCERT Points to Ponder #4. The error stems from thinking \"if it's not moving, no force acts\" — confusing velocity with acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a metre scale to measure the instantaneous speed of a toy car at a specific point on a ramp. Describe the procedure, the data you would collect, and how you would calculate the instantaneous speed from your data. (Hint: Use the concept of shrinking time intervals.)",
+     "a": "**Procedure:** Place a metre scale along a ramp. Mark a point P (e.g., 50 cm from start). Use a smartphone's slow-motion video (240 fps or 480 fps) to record the toy car rolling down from rest. In the video, note the time stamps when the car's front crosses positions \\( x_1 = 48 \\) cm, \\( x_2 = 49 \\) cm, \\( x_3 = 50 \\) cm (point P), \\( x_4 = 51 \\) cm, \\( x_5 = 52 \\) cm.\n**Data:** Frame numbers or time stamps for each position. Convert to time \\( t \\) using frame rate.\n**Calculation:** Compute average velocities over shrinking intervals centred at P:\n\\( v_{avg1} = \\frac{x_5 - x_1}{t_5 - t_1} \\) (interval 4 cm),\n\\( v_{avg2} = \\frac{x_4 - x_2}{t_4 - t_2} \\) (interval 2 cm),\n\\( v_{avg3} = \\frac{x_3 - x_3}{t_3 - t_3} \\) — wait, use symmetric intervals: \\( \\frac{x_4 - x_2}{t_4 - t_2} \\), then \\( \\frac{x_3.5 - x_2.5}{t_3.5 - t_2.5} \\) if interpolating.\nAs interval \\( \\Delta x \\to 0 \\), \\( v_{avg} \\to \\) instantaneous speed at P.\n**Good answer criteria:** Uses symmetric intervals around P, mentions limiting process, acknowledges smartphone frame rate limits \\( \\Delta t \\) resolution.\n**Poor answer:** Just measures total time over total distance (gives average speed), or uses only two points far apart. Reveals the student doesn't grasp the *limiting process* central to the definition of instantaneous velocity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

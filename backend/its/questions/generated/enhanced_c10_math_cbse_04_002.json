@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_002",
+   "title": "c10_math_cbse_04_002",
+   "questions": [
+    {
+     "q": "A rectangular plot has length 5 m more than its breadth. If the area is 150 m², which of the following represents the correct quadratic equation in standard form if breadth = \\(x\\) m?\nA) \\(x^2 + 5x = 150\\)\nB) \\(x^2 + 5x - 150 = 0\\)\nC) \\(x^2 - 5x - 150 = 0\\)\nD) \\(x^2 + 5x + 150 = 0\\)",
+     "a": "Correct answer: **B** \\(x^2 + 5x - 150 = 0\\).\nA wrong answer reveals the student's misunderstanding: choosing A means they forgot to bring all terms to one side (standard form requires RHS = 0). Choosing C means they incorrectly set length = \\(x - 5\\) (subtraction instead of addition). Choosing D means they added 150 instead of subtracting, showing confusion about transposing terms. The error is specifically in the final rearrangement step to \\(ax^2+bx+c=0\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student forms the equation \\(x(x-4) = 77\\) for the problem: \"Find two numbers that differ by 4 and have product 77.\" They write the standard form as \\(x^2 - 4x + 77 = 0\\). Is this correct? Explain why or why not.",
+     "a": "The student's equation \\(x^2 - 4x + 77 = 0\\) is **incorrect**. The correct standard form is \\(x^2 - 4x - 77 = 0\\). The error is in the sign of the constant term: when transposing 77 from RHS to LHS, it becomes \\(-77\\), not \\(+77\\). A wrong answer here reveals the student does not understand that moving a term across the equality sign changes its sign (transposition rule from linear equations, c7_math_ch15_003). They are treating the equation as \\(x^2 - 4x = -77\\) and then incorrectly writing \\(+77\\) on LHS.",
+     "self_check": true
+    },
+    {
+     "q": "The product of two consecutive positive integers is 306. Form the quadratic equation in standard form taking the smaller integer as \\(x\\). Solve the equation by factorisation to find the integers. (Show all steps)",
+     "a": "**Step 1:** Let smaller integer = \\(x\\). Then next consecutive integer = \\(x + 1\\).\n**Step 2:** Product = \\(x(x+1) = 306\\).\n**Step 3:** Expand: \\(x^2 + x = 306\\).\n**Step 4:** Transpose 306: \\(x^2 + x - 306 = 0\\). (Standard form)\n**Step 5:** Factorise: Find two numbers with product \\(-306\\) and sum \\(+1\\). These are \\(+18\\) and \\(-17\\).\n**Step 6:** Split middle term: \\(x^2 + 18x - 17x - 306 = 0\\).\n**Step 7:** Group: \\(x(x+18) - 17(x+18) = 0 \\Rightarrow (x+18)(x-17) = 0\\).\n**Step 8:** Roots: \\(x = -18\\) or \\(x = 17\\). Since integers are positive, \\(x = 17\\).\n**Step 9:** Integers are 17 and 18. Verification: \\(17 \\times 18 = 306\\). ✓\nA wrong answer (e.g., \\(x^2 + x + 306 = 0\\) or roots 18 and -17) reveals either sign error in transposition or failure to reject the negative root based on the \"positive integers\" condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two situations:\nSituation A: \"A number added to its square gives 30.\"\nSituation B: \"A number multiplied by its successor gives 30.\"\nForm the quadratic equation for each. Are they the same equation? Explain the relationship between the two situations mathematically.",
+     "a": "Situation A: \\(x + x^2 = 30 \\Rightarrow x^2 + x - 30 = 0\\).\nSituation B: \\(x(x+1) = 30 \\Rightarrow x^2 + x - 30 = 0\\).\n**Yes, they yield the exact same quadratic equation.** Mathematically, \"a number added to its square\" is \\(x^2 + x\\), and \"a number multiplied by its successor\" is \\(x(x+1) = x^2 + x\\). The expressions are algebraically identical by the distributive property. A wrong answer (saying they are different) reveals the student does not recognise the equivalence of \\(x^2 + x\\) and \\(x(x+1)\\), indicating a gap in algebraic manipulation (c8_math_ch6_1) and factorisation/expansion fluency.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"The hypotenuse of a right triangle is 13 cm. The difference between the other two sides is 7 cm. Find the sides.\" They let the shorter side be \\(x\\), so the longer side is \\(x+7\\). They write: \\(x^2 + (x+7)^2 = 13\\) and then \\(x^2 + x^2 + 49 = 13\\). Identify the two major errors in this working and write the correct equation.",
+     "a": "**Error 1:** The student wrote \\(13\\) instead of \\(13^2\\) on the RHS. Pythagoras theorem states \\((\\text{hypotenuse})^2 = (\\text{side}_1)^2 + (\\text{side}_2)^2\\). The hypotenuse is 13 cm, so its square is 169.\n**Error 2:** The expansion \\((x+7)^2 = x^2 + 49\\) is wrong. The correct expansion using \\((a+b)^2 = a^2 + 2ab + b^2\\) (c8_math_ch6_7) is \\(x^2 + 14x + 49\\).\n**Correct equation:** \\(x^2 + (x^2 + 14x + 49) = 169 \\Rightarrow 2x^2 + 14x + 49 - 169 = 0 \\Rightarrow 2x^2 + 14x - 120 = 0\\). Divide by 2: \\(x^2 + 7x - 60 = 0\\).\nA wrong answer reveals confusion between side length and its square, and a fundamental algebraic identity error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context: rupees, metres, litres, etc.) that leads to the quadratic equation \\(2x^2 - 5x - 300 = 0\\). State what \\(x\\) represents. Ensure the problem has a valid positive solution.",
+     "a": "**Sample problem:** \"A rectangular field has length \\(2x - 5\\) metres and breadth \\(x\\) metres. Its area is 300 m². Find the breadth \\(x\\).\"\n**Reasoning:** Area = length × breadth = \\(x(2x - 5) = 2x^2 - 5x\\). Set equal to 300: \\(2x^2 - 5x = 300 \\Rightarrow 2x^2 - 5x - 300 = 0\\).\n**Validity check:** Discriminant \\(D = (-5)^2 - 4(2)(-300) = 25 + 2400 = 2425 > 0\\). Roots: \\(x = \\frac{5 \\pm \\sqrt{2425}}{4}\\). Positive root ≈ 13.8 m (valid). Negative root rejected.\nA poor answer (e.g., problem yielding negative dimensions, or equation not matching) reveals inability to reverse-engineer the formation process, i.e., not understanding how coefficients relate to the situation's parameters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

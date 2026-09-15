@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_002",
+   "title": "c11_ps_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the constitutional significance of Article 12's definition of \"State\" for the enforcement of fundamental rights?",
+     "a": "Article 12 defines \"State\" to include the Government and Parliament of India, Government and Legislature of each State, all local authorities (municipalities, panchayats), and \"other authorities\" under government control (e.g., LIC, ONGC, statutory corporations). This expansive definition ensures fundamental rights bind not just legislatures but all entities exercising governmental power, enabling citizens to challenge actions of public sector undertakings, regulatory bodies, and local governments in court. A wrong answer (e.g., \"State means only central government\") reveals the student misunderstands vertical application – they think rights only apply against Parliament, not against a municipal corporation demolishing a house or a university denying admission.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constituent Assembly include Article 13(2) stating that \"the State shall not make any law which takes away or abridges the rights conferred by this Part\" when Article 13(1) already voids pre-constitutional laws inconsistent with fundamental rights?",
+     "a": "Article 13(1) operates retrospectively (voiding pre-1950 laws inconsistent with fundamental rights), while Article 13(2) operates prospectively – it prohibits future legislatures from enacting laws that abridge fundamental rights, establishing constitutional supremacy over parliamentary sovereignty. A wrong answer (e.g., \"both do the same thing\") reveals the student misses the temporal distinction and the critical point: Article 13(2) makes fundamental rights a permanent constraint on legislative power, not just a one-time cleanup of colonial laws. This is the textual basis for judicial review of post-constitutional legislation.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law requiring all private unaided schools to reserve 25% seats for economically weaker sections. The schools challenge this under Article 19(1)(g) (freedom of occupation). Which Article 12 entity is the \"State\" here, and which Article 13 provision makes this challenge justiciable?",
+     "a": "The \"State\" is the state legislature (Article 12 includes \"Government and Legislature of each State\"). Article 13(2) makes the challenge justiciable because the law is a post-constitutional enactment that allegedly abridges a fundamental right. The court will test whether the law imposes \"reasonable restrictions\" under Article 19(6). A wrong answer (e.g., \"the school is the State\" or \"Article 13(1) applies\") reveals confusion: private schools are not \"State\" under Article 12 (they don't perform governmental functions), and Article 13(1) only covers pre-constitutional laws. The student must identify the correct state actor and the correct temporal limb of Article 13.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of \"State\" under Article 12 with the scope of \"law\" under Article 13(3). How does the interaction between these two definitions determine whether a citizen can challenge (a) a municipal corporation's bye-law, (b) a High Court judicial order, and (c) a private company's employment policy?",
+     "a": "Article 12's \"State\" includes local authorities (municipal corporations) and \"other authorities\" (government-controlled bodies); Article 13(3)'s \"law\" includes ordinances, orders, bye-laws, rules, regulations, notifications, and customs having force of law. (a) Municipal bye-law: challengeable – municipal corporation is \"local authority\" under Article 12, bye-law is \"law\" under Article 13(3). (b) High Court judicial order: NOT challengeable under Article 13 – judiciary is not \"State\" under Article 12 (separation of powers), and judicial orders are not \"law\" under Article 13(3) (Rupa Ashok Hurra case). (c) Private company policy: NOT challengeable – private company is not \"State\" unless it performs sovereign/functions (Pradeep Kumar Biswas test). A wrong answer reveals the student cannot map the two definitions onto real-world actors and misses the judiciary/private distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Article 33 (power to modify fundamental rights for armed forces) and Article 34 (restriction during martial law) undermine the basic structure doctrine because they allow Parliament to curtail fundamental rights without judicial review.\"",
+     "a": "The argument is flawed. Article 33 empowers Parliament to restrict rights of armed forces etc. \"to ensure proper discharge of duties and maintenance of discipline\" – this is a tailored, purpose-bound exception subject to judicial review for proportionality (not a blank cheque). Article 34 only indemnifies acts done during martial law; it doesn't authorize suspension of rights (unlike Article 359 emergency suspension). Both are express constitutional exceptions, not amendments violating basic structure. The basic structure doctrine (Kesavananda Bharati) applies to constitutional amendments under Article 368, not to original constitutional provisions like Articles 33-34. A wrong answer (agreeing with the argument) reveals confusion between constitutional exceptions and amendatory power, and between martial law indemnity and emergency suspension.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical \"Article 35A\" that would allow Parliament to prescribe residence requirements for public employment in specific backward regions, while remaining consistent with Article 16 (equality of opportunity) and the basic structure doctrine. Explain your drafting choices.",
+     "a": "A strong answer: \"Notwithstanding anything in Article 16, Parliament may by law prescribe residence requirements for appointment to public posts in any State or region specified in the Schedule, provided such law is enacted by a two-thirds majority of each House and is reviewed every ten years for continued necessity.\" Drafting choices: (1) \"Notwithstanding Article 16\" – express override like actual Article 35 (which lets Parliament make laws for Article 16(3) residence requirements); (2) \"Specified in Schedule\" – limits scope, prevents arbitrary expansion; (3) \"Two-thirds majority\" – higher threshold than ordinary law, respects basic structure; (4) \"Review every ten years\" – sunset clause prevents permanence. A poor answer omits safeguards, grants unlimited power, or confuses this with Article 35 (which already exists for Article 16(3)) – revealing the student doesn't know Article 35 empowers Parliament (not state legislatures) to legislate on residence requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

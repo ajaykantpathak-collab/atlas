@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_03_001",
+   "title": "c11_hist_cbse_03_001",
+   "questions": [
+    {
+     "q": "What was the immediate trigger for the Crisis of the Third Century in 235 CE?",
+     "a": "The assassination of Emperor Severus Alexander by his own troops, which began a 50-year period where generals were proclaimed emperor by their armies, often ruling only months before being murdered. A wrong answer (e.g., \"the Gothic invasion of 251 CE\") reveals the student confuses a major symptom (foreign invasion) with the initial political rupture that started the cycle of military anarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Roman silver currency (denarius) collapse during the third century, and how did this worsen the military crisis?",
+     "a": "Emperors debased the denarius to pay armies whose loyalty had to be bought repeatedly; by 270 CE the coin contained <5% silver, causing hyperinflation, destroying tax revenue in real terms, and forcing the state to requisition goods directly (annona militaris), which further alienated the population. A wrong answer (e.g., \"trade deficit with India\") shows the student misses the fiscal-military feedback loop: debasement → inflation → higher army pay demands → more debasement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Roman response to the Crisis of the Third Century with the Gupta response to the Huna invasions in the 5th century (c7_hist_ch04_011). Identify one structural similarity and one key difference in imperial recovery.",
+     "a": "Similarity: both empires faced simultaneous frontier pressures and internal fragmentation, leading to regional power centres (Roman Gallic/Palmyrene empires; Gupta feudatories). Difference: Diocletian recentralized through a new bureaucratic-military system (tetrarchy, dioceses, tax-in-kind), while the Guptas never fully reasserted central control, leading to permanent political fragmentation. A wrong answer that claims \"both restored unity permanently\" reveals ignorance of the Gupta trajectory.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Sassanid Persian threat (c11_hist_cbse_03_007) differed from earlier Parthian conflicts and why it intensified the third-century crisis.",
+     "a": "The Sassanids (from 224 CE) were a centralized, expansionist state with a standing army and siege engineering, unlike the feudal Parthians. They captured Emperor Valerian (260 CE), a psychological blow that encouraged usurpers in the West. This forced Rome to maintain massive eastern armies, diverting resources from the Danube/Rhine. A wrong answer focusing only on \"Persians were always enemies\" misses the qualitative escalation in Sassanid military capacity and its direct role in the 260 CE catastrophe.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Diocletian's Tetrarchy solved the succession problem that caused the Crisis of the Third Century.\"",
+     "a": "Partially true: the Tetrarchy (two Augusti, two Caesares) provided a clear succession mechanism and multiple command points, ending the 50-year chaos. However, it relied on the personal cooperation of four ambitious men; after Diocletian's retirement (305 CE), the system collapsed into civil wars until Constantine emerged. The structural flaw was the lack of a hereditary or legal principle beyond imperial will. A wrong answer calling it a \"permanent solution\" ignores the civil wars of 306–324 CE.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-tier causal diagram (structural → proximate → trigger) for the Crisis of the Third Century, using at least one factor from each: economy, military, politics, external pressure.",
+     "a": "Structural: Augustan system made army the ultimate power broker (politics) + fixed frontiers required static defence (military) + slave-based economy lacked productivity growth (economy). Proximate: Severan pay raises + debasement cycle (economy/military) + Sassanid rise (external). Trigger: Murder of Severus Alexander (235 CE). A poor diagram lists events without causal arrows or mixes tiers (e.g., putting \"Valerian's capture\" as structural).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

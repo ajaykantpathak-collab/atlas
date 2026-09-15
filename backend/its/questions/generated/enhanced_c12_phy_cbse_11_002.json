@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_002",
+   "title": "c12_phy_cbse_11_002",
+   "questions": [
+    {
+     "q": "State Einstein's photoelectric equation in terms of stopping potential \\(V_0\\), frequency \\(\\nu\\), Planck's constant \\(h\\), electronic charge \\(e\\), and work function \\(\\phi_0\\). What is the SI unit of each quantity?",
+     "a": "\\(eV_0 = h\\nu - \\phi_0\\). SI units: \\(e\\) in coulomb (C), \\(V_0\\) in volt (V), \\(h\\) in joule-second (J s), \\(\\nu\\) in hertz (Hz = s⁻¹), \\(\\phi_0\\) in joule (J). A common wrong answer writes \\(\\phi_0\\) in eV without converting to joules, or omits \\(e\\) on the left side writing \\(V_0 = h\\nu - \\phi_0\\) — this reveals confusion between energy (joule) and potential (volt), and ignorance that \\(eV_0\\) is the kinetic energy in joules.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the intensity of light, the stopping potential should double because more energy hits the surface.\" Using Einstein's equation, explain why this reasoning is wrong and what actually happens to the stopping potential when intensity is doubled at fixed frequency.",
+     "a": "Einstein's equation \\(eV_0 = h\\nu - \\phi_0\\) contains no intensity term. Stopping potential depends only on frequency \\(\\nu\\) and work function \\(\\phi_0\\), not on intensity. Doubling intensity doubles the number of photons per second, which doubles the photocurrent (number of photoelectrons), but each photon still has energy \\(h\\nu\\), so \\(K_{\\text{max}}\\) and hence \\(V_0\\) remain unchanged. The student's error comes from applying wave-theory thinking (energy ∝ intensity) to a particle (photon) process where energy per photon is fixed by frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Light of wavelength 400 nm is incident on a caesium surface (work function \\(\\phi_0 = 2.14 \\text{ eV}\\)). Calculate: (a) the energy of each photon in eV, (b) the maximum kinetic energy of photoelectrons in eV, (c) the stopping potential in volts. Use \\(h = 6.63 \\times 10^{-34} \\text{ J s}\\), \\(c = 3.00 \\times 10^8 \\text{ m/s}\\), \\(1 \\text{ eV} = 1.60 \\times 10^{-19} \\text{ J}\\).",
+     "a": "(a) Photon energy \\(E = \\frac{hc}{\\lambda} = \\frac{(6.63 \\times 10^{-34})(3.00 \\times 10^8)}{400 \\times 10^{-9}} = 4.97 \\times 10^{-19} \\text{ J} = \\frac{4.97 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 3.11 \\text{ eV}\\).  \n(b) \\(K_{\\text{max}} = E - \\phi_0 = 3.11 - 2.14 = 0.97 \\text{ eV}\\).  \n(c) \\(eV_0 = K_{\\text{max}} \\Rightarrow V_0 = 0.97 \\text{ V}\\).  \nUnit tracking: J → eV conversion uses \\(1 \\text{ eV} = 1.60 \\times 10^{-19} \\text{ J}\\). A wrong answer often forgets to convert \\(\\lambda\\) to metres (uses 400 instead of \\(400 \\times 10^{-9}\\)), or uses \\(h\\) in eV·s incorrectly, or omits the \\(e\\) in \\(eV_0\\) and writes \\(V_0 = 0.97 \\text{ eV}\\) — confusing potential with energy.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of stopping potential \\(V_0\\) versus frequency \\(\\nu\\) for two metals A and B are straight lines with the same slope but different intercepts on the frequency axis. Metal A has intercept \\(\\nu_{0A} = 5.0 \\times 10^{14} \\text{ Hz}\\), metal B has \\(\\nu_{0B} = 8.0 \\times 10^{14} \\text{ Hz}\\). (a) Which metal has the larger work function? (b) If light of frequency \\(7.0 \\times 10^{14} \\text{ Hz}\\) is incident on both, which metal will emit photoelectrons? (c) What is the ratio of their work functions \\(\\phi_{0B}/\\phi_{0A}\\)?",
+     "a": "(a) From \\(eV_0 = h\\nu - \\phi_0\\) or \\(V_0 = \\frac{h}{e}\\nu - \\frac{\\phi_0}{e}\\), the frequency intercept is \\(\\nu_0 = \\phi_0/h\\). Since \\(\\nu_{0B} > \\nu_{0A}\\), metal B has larger work function.  \n(b) For metal A: \\(\\nu = 7.0 \\times 10^{14} > \\nu_{0A}\\) → emission occurs. For metal B: \\(\\nu = 7.0 \\times 10^{14} < \\nu_{0B}\\) → no emission.  \n(c) \\(\\phi_{0B}/\\phi_{0A} = (h\\nu_{0B})/(h\\nu_{0A}) = \\nu_{0B}/\\nu_{0A} = 8.0/5.0 = 1.6\\).  \nA wrong answer often confuses the intercept on the \\(V_0\\)-axis (which is \\(-\\phi_0/e\\)) with the \\(\\nu\\)-intercept, or thinks higher threshold frequency means easier emission.",
+     "self_check": true
+    },
+    {
+     "q": "In a photoelectric experiment, a student plots \\(V_0\\) vs \\(\\nu\\) and obtains a straight line with slope \\(4.12 \\times 10^{-15} \\text{ V s}\\) and \\(\\nu\\)-intercept \\(5.0 \\times 10^{14} \\text{ Hz}\\). The student calculates Planck's constant as \\(h = \\text{slope} \\times e = (4.12 \\times 10^{-15})(1.6 \\times 10^{-19}) = 6.59 \\times 10^{-34} \\text{ J s}\\). Is this calculation correct? If not, identify the error and give the correct value.",
+     "a": "The calculation is **incorrect**. The slope of the \\(V_0\\) vs \\(\\nu\\) graph is \\(h/e\\), so \\(h = \\text{slope} \\times e\\). The student multiplied slope by \\(e\\) correctly but used wrong units: slope is in V·s, \\(e\\) is in C, so \\(h\\) should be in J·s. The numerical multiplication is correct: \\((4.12 \\times 10^{-15})(1.60 \\times 10^{-19}) = 6.59 \\times 10^{-34} \\text{ J s}\\). Wait — the multiplication is actually correct! The error is conceptual: the student might think slope is \\(h\\) directly (common mistake), but here they did multiply by \\(e\\). The real trap: many students forget that slope = \\(h/e\\) and write \\(h = \\text{slope}\\) giving \\(4.12 \\times 10^{-15} \\text{ J s}\\) — which is wrong by factor of \\(e\\). The given calculation is numerically correct but the student must explicitly state \\(h = e \\times \\text{slope}\\). The work function is \\(\\phi_0 = h\\nu_0 = (6.59 \\times 10^{-34})(5.0 \\times 10^{14}) = 3.30 \\times 10^{-19} \\text{ J} = 2.06 \\text{ eV}\\).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether the photoelectric effect depends on the *rate* of energy delivery (intensity) or the *energy per photon* (frequency). Describe the setup, what you would vary, what you would measure, and the expected outcome that would confirm Einstein's photon picture over the wave picture.",
+     "a": "Setup: Use a monochromatic light source (e.g., laser) with variable intensity (via neutral density filters) and a second source of different frequency. Keep frequency constant, vary intensity over a wide range (e.g., 1 mW/m² to 1000 W/m²). Measure stopping potential \\(V_0\\) and saturation current \\(I_s\\). Then repeat with a different frequency above threshold. Expected outcome: \\(V_0\\) remains constant as intensity changes (confirming \\(K_{\\text{max}}\\) independent of intensity), while \\(I_s \\propto\\) intensity. For the second frequency, \\(V_0\\) shifts according to \\(eV_0 = h\\nu - \\phi_0\\). Wave theory predicts \\(V_0\\) should increase with intensity and no sharp threshold frequency. A good answer explicitly contrasts the two predictions and identifies the instantaneous emission as a third test (wave theory predicts time lag at low intensity).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

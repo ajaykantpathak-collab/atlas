@@ -1,0 +1,562 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 101,
+ "chapter_title": "India - Size and Location",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess107.txt",
+ "concepts": [
+  {
+   "id": "iess.101.1",
+   "title": "Geographical Location and Latitudinal-Longitudinal Extent",
+   "section": "LOCATION",
+   "definition": "The geographical placement of mainland India across the Northern and Eastern Hemispheres, bounded by specific parallels and meridians.",
+   "formula": "latitudes: 8.4 N to 37.6 N, longitudes: 68.7 E to 97.4 E",
+   "key_idea": "India lies entirely in the northern hemisphere with its central region bisected by the Tropic of Cancer.",
+   "textbook_ref": "iess101.txt lines 10-35",
+   "question_patterns": [
+    "What is the latitudinal and longitudinal extent of mainland India?",
+    "Which parallel of latitude divides India into nearly equal halves?",
+    "Identify the hemispheres in which India is situated.",
+    "Specify the location of Andaman and Lakshadweep island groups.",
+    "Name the southernmost point of the Indian Union and its status."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify latitudes",
+     "explain": "Mainland extends from 8 degrees 4 minutes North to 37 degrees 6 minutes North."
+    },
+    {
+     "step": 2,
+     "action": "identify longitudes",
+     "explain": "Mainland spans longitudes from 68 degrees 7 minutes East to 97 degrees 25 minutes East."
+    },
+    {
+     "step": 3,
+     "action": "locate dividing line",
+     "explain": "Tropic of Cancer at 23 degrees 30 minutes North splits the country into equal upper and lower parts."
+    }
+   ]
+  },
+  {
+   "id": "iess.101.2",
+   "title": "Calculation of Land Area relative to World Total",
+   "section": "SIZE",
+   "definition": "Determining the total land mass area of a territory given the global geographical area and percentage contribution.",
+   "formula": "india_area = (world_area * area_percentage) / 100",
+   "key_idea": "India occupies 3.28 million square kilometers, constituting 2.4 percent of total global land mass.",
+   "textbook_ref": "iess101.txt lines 36-60",
+   "question_patterns": [
+    "Calculate India's land area given total global land area and percentage share.",
+    "Find the national geographical extent from world land mass data.",
+    "Compute the land mass area of India using percentage proportion.",
+    "Determine the square kilometers of Indian territory relative to global total.",
+    "What is the geographical surface area of India based on world total?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate national area from global total",
+     "explain": "Multiply world area by the percentage share and divide by 100 to calculate country area.",
+     "compute": "india_area = (world_area * area_percentage) / 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.101.3",
+   "title": "Calculation of Local Time Lag from Longitudinal Difference",
+   "section": "SIZE",
+   "definition": "Computing time differences across regions based on longitudinal separation, taking 4 minutes per degree of rotation.",
+   "formula": "time_lag_hours = (longitudinal_diff * 4) / 60",
+   "key_idea": "Every 1 degree of longitudinal movement creates a 4-minute shift in local solar time.",
+   "textbook_ref": "iess101.txt lines 61-80",
+   "question_patterns": [
+    "Calculate the time difference between eastern and western extremities of India.",
+    "Compute the time lag between Gujarat and Arunachal Pradesh based on longitudinal difference.",
+    "Determine the time gap in hours across a given longitudinal span.",
+    "Find how many hours of time lag occur across 30 degrees longitude.",
+    "How much time difference exists between two points with a given longitudinal difference?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert longitudinal degrees to time in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "total_minutes = longitudinal_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide total minutes by 60 to calculate time difference in hours.",
+     "compute": "time_lag_hours = total_minutes / 60"
+    }
+   ]
+  },
+  {
+   "id": "iess.101.4",
+   "title": "Calculation of Reduced Distance via Suez Canal",
+   "section": "INDIA AND THE WORLD",
+   "definition": "Calculating remaining maritime transport distance following shortcut trade route openings.",
+   "formula": "new_distance = original_distance - distance_saved",
+   "key_idea": "Opening of the artificial waterway reduced the sea transit route length between Europe and India.",
+   "textbook_ref": "iess101.txt lines 90-115",
+   "question_patterns": [
+    "Calculate the new sea route distance to Europe after the opening of Suez Canal.",
+    "Find the remaining distance between India and Europe given distance saved.",
+    "Compute the reduced maritime distance following canal opening.",
+    "Determine the updated journey distance when 7000 km is saved.",
+    "How much is the revised shipping distance between India and European ports?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract distance saved from original distance",
+     "explain": "Subtract saved route distance from total historical route length.",
+     "compute": "new_distance = original_distance - distance_saved"
+    }
+   ]
+  },
+  {
+   "id": "iess.101.5",
+   "title": "Strategic Location and Cultural Exchange in World Trade",
+   "section": "INDIA AND THE WORLD",
+   "definition": "The ocean-centric positioning of the Indian landmass that connects east-west maritime trade and historical overland routes.",
+   "formula": "strategic_position = central_head_of_indian_ocean",
+   "key_idea": "Central location in South Asia enabled merchant ships and overland travellers to spread Indian culture and goods globally.",
+   "textbook_ref": "iess101.txt lines 81-125",
+   "question_patterns": [
+    "Explain the significance of India's central location at the head of the Indian Ocean.",
+    "How did mountain passes contribute to ancient trade and cultural exchanges?",
+    "Which Indian ideas and goods spread to other countries through ancient land routes?",
+    "Analyze the impact of West Asian architecture and Greek art on Indian culture.",
+    "Why is the Indian Ocean named after India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze maritime trade placement",
+     "explain": "Deccan peninsula projects into the ocean, linking western coasts with West Asia/Europe and eastern coasts with Southeast Asia."
+    },
+    {
+     "step": 2,
+     "action": "analyze overland exchange routes",
+     "explain": "Passes through northern mountains facilitated movement of goods, numerical systems, and literary epics."
+    }
+   ]
+  },
+  {
+   "id": "iess.101.6",
+   "title": "Political Division and Land Frontiers with Neighboring States",
+   "section": "INDIA'S NEIGHBOURS",
+   "definition": "The political categorization of the nation into internal federated units and land border shares with surrounding countries.",
+   "formula": "total_units = states + union_territories",
+   "key_idea": "India features 28 states and 8 union territories, sharing overland boundaries with seven adjacent nations.",
+   "textbook_ref": "iess101.txt lines 126-160",
+   "question_patterns": [
+    "List the countries that share land borders with India in different directions.",
+    "Which Indian states share frontiers with Pakistan, China, Nepal, Bhutan, and Bangladesh?",
+    "Identify the total number of states and Union Territories in modern India.",
+    "Distinguish between provinces and princely states prior to 1947.",
+    "Name the landlocked states that do not share international borders or coastlines."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify border nations",
+     "explain": "Land borders are shared with Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh."
+    },
+    {
+     "step": 2,
+     "action": "identify internal divisions",
+     "explain": "India consists of 28 states and 8 Union Territories."
+    }
+   ]
+  },
+  {
+   "id": "iess.101.7",
+   "title": "Maritime Neighbors and Strait Separations",
+   "section": "INDIA'S NEIGHBOURS",
+   "definition": "Island nations situated across southern seas and narrow marine channels separating them from India.",
+   "formula": "sea_separator = Palk_Strait + Gulf_of_Mannar",
+   "key_idea": "Sri Lanka and Maldives are island neighbors, separated by defined straits and gulf waters.",
+   "textbook_ref": "iess101.txt lines 161-180",
+   "question_patterns": [
+    "Name the southern island neighbors of India across the ocean.",
+    "Which body of water separates Sri Lanka from India?",
+    "Where are the Maldives Islands situated relative to Lakshadweep?",
+    "Identify the strait and gulf forming a narrow sea channel between India and Sri Lanka.",
+    "Describe India's oceanic borders to the south."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify island neighbours",
+     "explain": "Sri Lanka and Maldives lie to the south in the Indian Ocean."
+    },
+    {
+     "step": 2,
+     "action": "identify channel boundaries",
+     "explain": "Palk Strait and Gulf of Mannar separate Sri Lanka from India."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess101.txt line 36",
+   "concept": "iess.101.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate India's land area when total global land area is {world_area} million sq km and share is {area_percentage} percent.",
+   "extracted_variables": {
+    "world_area": 136.67,
+    "area_percentage": 2.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate national area from global total",
+     "explain": "Multiply world area by the percentage share and divide by 100 to calculate country area.",
+     "compute": "india_area = (world_area * area_percentage) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess101.txt line 36",
+   "concept": "iess.101.2",
+   "question_type": "compute",
+   "question_pattern": "Compute the area of India given total global surface area is {world_area} million sq km and India occupies {area_percentage} percent.",
+   "extracted_variables": {
+    "world_area": 150.0,
+    "area_percentage": 2.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate national area from global total",
+     "explain": "Multiply world area by the percentage share and divide by 100 to calculate country area.",
+     "compute": "india_area = (world_area * area_percentage) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess101.txt line 61",
+   "concept": "iess.101.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the time difference between two places with a longitudinal difference of {longitudinal_diff} degrees.",
+   "extracted_variables": {
+    "longitudinal_diff": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert longitudinal degrees to time in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "total_minutes = longitudinal_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide total minutes by 60 to calculate time difference in hours.",
+     "compute": "time_lag_hours = total_minutes / 60"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess101.txt line 61",
+   "concept": "iess.101.3",
+   "question_type": "compute",
+   "question_pattern": "Find the hours of time lag across a longitudinal span of {longitudinal_diff} degrees.",
+   "extracted_variables": {
+    "longitudinal_diff": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert longitudinal degrees to time in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "total_minutes = longitudinal_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide total minutes by 60 to calculate time difference in hours.",
+     "compute": "time_lag_hours = total_minutes / 60"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iess101.txt line 110",
+   "concept": "iess.101.4",
+   "question_type": "compute",
+   "question_pattern": "Compute the new sea distance to Europe if original distance was {original_distance} km and distance saved is {distance_saved} km.",
+   "extracted_variables": {
+    "original_distance": 19800,
+    "distance_saved": 7000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract distance saved from original distance",
+     "explain": "Subtract saved route distance from total historical route length.",
+     "compute": "new_distance = original_distance - distance_saved"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iess101.txt line 110",
+   "concept": "iess.101.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate updated route distance from initial distance {original_distance} km with a reduction of {distance_saved} km.",
+   "extracted_variables": {
+    "original_distance": 16500,
+    "distance_saved": 7000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract distance saved from original distance",
+     "explain": "Subtract saved route distance from total historical route length.",
+     "compute": "new_distance = original_distance - distance_saved"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is the latitudinal and longitudinal extent of mainland India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify latitudes",
+     "explain": "Mainland extends from 8 degrees 4 minutes North to 37 degrees 6 minutes North."
+    },
+    {
+     "step": 2,
+     "action": "identify longitudes",
+     "explain": "Mainland spans longitudes from 68 degrees 7 minutes East to 97 degrees 25 minutes East."
+    },
+    {
+     "step": 3,
+     "action": "locate dividing line",
+     "explain": "Tropic of Cancer at 23 degrees 30 minutes North splits the country into equal upper and lower parts."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "Which parallel of latitude divides India into nearly equal halves?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify latitudes",
+     "explain": "Mainland extends from 8 degrees 4 minutes North to 37 degrees 6 minutes North."
+    },
+    {
+     "step": 2,
+     "action": "identify longitudes",
+     "explain": "Mainland spans longitudes from 68 degrees 7 minutes East to 97 degrees 25 minutes East."
+    },
+    {
+     "step": 3,
+     "action": "locate dividing line",
+     "explain": "Tropic of Cancer at 23 degrees 30 minutes North splits the country into equal upper and lower parts."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the significance of India's central location at the head of the Indian Ocean.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze maritime trade placement",
+     "explain": "Deccan peninsula projects into the ocean, linking western coasts with West Asia/Europe and eastern coasts with Southeast Asia."
+    },
+    {
+     "step": 2,
+     "action": "analyze overland exchange routes",
+     "explain": "Passes through northern mountains facilitated movement of goods, numerical systems, and literary epics."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.5",
+   "question_type": "verify_property",
+   "question_pattern": "How did mountain passes contribute to ancient trade and cultural exchanges?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze maritime trade placement",
+     "explain": "Deccan peninsula projects into the ocean, linking western coasts with West Asia/Europe and eastern coasts with Southeast Asia."
+    },
+    {
+     "step": 2,
+     "action": "analyze overland exchange routes",
+     "explain": "Passes through northern mountains facilitated movement of goods, numerical systems, and literary epics."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.6",
+   "question_type": "verify_property",
+   "question_pattern": "List the countries that share land borders with India in different directions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify border nations",
+     "explain": "Land borders are shared with Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh."
+    },
+    {
+     "step": 2,
+     "action": "identify internal divisions",
+     "explain": "India consists of 28 states and 8 Union Territories."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.6",
+   "question_type": "verify_property",
+   "question_pattern": "Which Indian states share frontiers with Pakistan, China, Nepal, Bhutan, and Bangladesh?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify border nations",
+     "explain": "Land borders are shared with Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh."
+    },
+    {
+     "step": 2,
+     "action": "identify internal divisions",
+     "explain": "India consists of 28 states and 8 Union Territories."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.7",
+   "question_type": "verify_property",
+   "question_pattern": "Name the southern island neighbors of India across the ocean.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify island neighbours",
+     "explain": "Sri Lanka and Maldives lie to the south in the Indian Ocean."
+    },
+    {
+     "step": 2,
+     "action": "identify channel boundaries",
+     "explain": "Palk Strait and Gulf of Mannar separate Sri Lanka from India."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.101.7",
+   "question_type": "verify_property",
+   "question_pattern": "Which body of water separates Sri Lanka from India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify island neighbours",
+     "explain": "Sri Lanka and Maldives lie to the south in the Indian Ocean."
+    },
+    {
+     "step": 2,
+     "action": "identify channel boundaries",
+     "explain": "Palk Strait and Gulf of Mannar separate Sri Lanka from India."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iess101.txt exercise 1",
+   "questions": [
+    "The Tropic of Cancer does not pass through (a) Rajasthan (b) Odisha (c) Chhattisgarh (d) Tripura",
+    "The easternmost longitude of India is (a) 97 degrees 25 minutes E (b) 68 degrees 7 minutes E (c) 77 degrees 6 minutes E (d) 82 degrees 32 minutes E",
+    "Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim have common frontiers with (a) China (b) Bhutan (c) Nepal (d) Myanmar",
+    "If you intend to visit Kavaratti during your summer vacations, which one of the following Union Territories of India you will be going to (a) Puducherry (b) Lakshadweep (c) Andaman and Nicobar (d) Daman and Diu",
+    "My friend hails from a country which does not share land boundary with India. Identify the country. (a) Bhutan (b) Tajikistan (c) Bangladesh (d) Nepal"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "iess101.txt exercise 2",
+   "questions": [
+    "Name the group of islands lying in the Arabian Sea.",
+    "Name the countries which are larger than India.",
+    "Which island group of India lies to its south-east?",
+    "Which island countries are our southern neighbours?"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "iess101.txt exercise 3",
+   "questions": [
+    "The sun rises two hours earlier in Arunachal Pradesh as compared to Gujarat in the west but the watches show the same time. How does this happen?"
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "iess101.txt exercise 4",
+   "questions": [
+    "The central location of India at the head of the Indian Ocean is considered of great significance. Why?"
+   ]
+  },
+  {
+   "id": "ex1.map_skills",
+   "source_ref": "iess101.txt exercise MAP SKILLS",
+   "questions": [
+    "Identify the island groups of India lying in the Arabian Sea and the Bay of Bengal.",
+    "Identify the countries constituting Indian subcontinent.",
+    "Identify the States through which the Tropic of Cancer passes.",
+    "Identify the northernmost latitude in degrees.",
+    "Identify the southernmost latitude of the Indian mainland in degrees.",
+    "Identify the eastern and the western-most longitude in degrees.",
+    "Identify the place situated on the three seas.",
+    "Identify the strait separating Sri Lanka from India.",
+    "Identify the Union Territories of India."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

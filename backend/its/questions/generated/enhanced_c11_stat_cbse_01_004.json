@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_004",
+   "title": "c11_stat_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the fundamental limitation of statistics highlighted by the river-crossing story in the NCERT textbook?",
+     "a": "The story illustrates that statistical averages (mean depth, mean height) do not reflect the variation within the data; relying solely on averages ignores the distribution and can lead to dangerous conclusions. A wrong answer (e.g., \"statistics is useless\") reveals the student thinks the method itself is flawed rather than its misapplication.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper reports: \"The average salary in Company X is ₹1,00,000 per month, so all employees are well paid.\" Explain why this statement may be a misuse of statistics.",
+     "a": "The average (mean) can be skewed by a few very high salaries (e.g., top management), while most employees earn far less. The statement misuses the average by ignoring the distribution (spread) of salaries. A wrong answer that says \"the average is wrong\" shows the student doesn't understand that the average is correctly calculated but inappropriately interpreted.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the average marks of two classes: Class A (30 students, average 75) and Class B (20 students, average 80). She then says the overall average is 77.5. Is this correct? If not, what is the correct overall average and why is her method wrong?",
+     "a": "Her method is wrong because she averaged the two averages without weighting by class size. Correct overall average = (30*75 + 20*80) / (30+20) = (2250+1600)/50 = 3850/50 = 77. A wrong answer of 77.5 reveals the student doesn't understand that averages of groups of different sizes must be weighted.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which limitation of statistics each illustrates:\n(i) \"Statistics shows that 60% of voters support Policy P, so the policy is good for the country.\"\n(ii) \"A study finds a positive correlation between ice cream sales and drowning deaths. Therefore, ice cream causes drowning.\"",
+     "a": "(i) illustrates the limitation that statistics deals with quantitative data and cannot judge qualitative value (good/bad) without a value judgment. (ii) illustrates the misuse of confusing correlation with causation, ignoring a third variable (hot weather). A wrong answer that says both are correct uses of statistics shows the student cannot distinguish statistical facts from interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since statistical methods can be misused, we should not trust any statistical data presented in the media.\" Provide a reasoned argument.",
+     "a": "The claim is an overgeneralization. While misuse is possible, statistics is essential for informed decisions. The solution is critical evaluation (checking source, methodology, context) not rejection. A wrong answer that agrees reveals the student thinks statistics is inherently unreliable rather than a tool that requires proper use.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world example (Indian context) where using the mean as a representative value is misleading, and suggest a better statistical measure. Explain why your suggested measure is more appropriate.",
+     "a": "Example: In a village, 9 farmers earn ₹50,000/year and 1 landlord earns ₹5,00,000/year. Mean income = ₹95,000, but 90% earn far less. Median = ₹50,000 better represents typical income. A poor answer might give an example without explaining why median is better (e.g., \"use median because it's middle\") showing lack of understanding of robustness to outliers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

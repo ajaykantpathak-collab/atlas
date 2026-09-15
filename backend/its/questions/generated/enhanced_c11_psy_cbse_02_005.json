@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_005",
+   "title": "c11_psy_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the range of the correlation coefficient (r) and what do the extreme values +1.0 and -1.0 indicate?",
+     "a": "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally). A value of -1.0 indicates a perfect negative linear relationship (as X increases, Y decreases proportionally). A wrong answer (e.g., \"0 to 1\" or \"extremes mean causation\") reveals the student confuses correlation with causation or misremembers the bidirectional range.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a positive correlation and a negative correlation. Give one real-life example of each.",
+     "a": "Positive correlation: both variables move in the *same* direction (e.g., height and weight — taller people tend to weigh more). Negative correlation: variables move in *opposite* directions (e.g., hours of sleep and daytime sleepiness — more sleep, less sleepiness). A wrong answer that swaps the definitions or gives causation examples (e.g., \"studying causes marks, so positive\") shows the student hasn't grasped the *co-variation* concept distinct from cause-effect.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher computes r = -0.82 between \"daily social media usage (hours)\" and \"academic percentile\" for 200 Class 11 students. Identify the two variables, state the direction and strength, and explain what prediction a teacher could make.",
+     "a": "Variables: X = daily social media usage (hours), Y = academic percentile. Direction: negative (as usage ↑, percentile ↓). Strength: strong (|0.82| > 0.7). Prediction: a student reporting 4 hours daily usage would likely have a lower percentile than one reporting 1 hour. A wrong answer that says \"social media causes low grades\" reveals the causation misconception; one that calls 0.82 \"weak\" reveals poor strength classification.",
+     "self_check": true
+    },
+    {
+     "q": "Two studies report: Study A: r = +0.45 between variable P and Q. Study B: r = -0.78 between variable M and N. Which study shows a stronger relationship? Justify using absolute values.",
+     "a": "Study B shows a stronger relationship because |-0.78| = 0.78 > |+0.45| = 0.45. Strength depends on *absolute magnitude*, not sign. A wrong answer choosing Study A because \"positive is stronger\" or \"0.78 is negative so weaker\" reveals the student confuses direction with strength.",
+     "self_check": true
+    },
+    {
+     "q": "A news headline reads: \"Research proves eating breakfast causes higher IQ in children (r = +0.65).\" Critique this claim using principles of correlational research.",
+     "a": "The claim is invalid. Correlational research *cannot* prove causation. The +0.65 only shows that breakfast-eating and IQ co-vary positively. Third variables (e.g., socioeconomic status, parental education, home routine) could explain both. An experiment manipulating breakfast (random assignment to breakfast/no-breakfast) would be needed for causation. A wrong answer accepting the headline shows failure to apply the core limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini correlational study: choose two measurable psychological/behavioural variables relevant to Class 11 students, state your expected correlation (sign and rough magnitude), and describe how you would collect paired data from 30 students.",
+     "a": "Example: X = \"hours of self-study per week\", Y = \"monthly test average (%)\". Expect moderate positive correlation (r ≈ +0.50). Collect via anonymous Google Form: two numerical questions, one week recall. Good answer shows: both variables are continuous/measurable, hypothesis is directional, sample size stated, method yields paired scores. Poor answer uses categorical variables (e.g., \"favourite subject\") or expects r = +1.0, revealing misunderstanding of variable types or real-world variability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

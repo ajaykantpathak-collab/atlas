@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_010",
+   "title": "c11_ps_cbse_16_010",
+   "questions": [
+    {
+     "q": "What is the constitutional article that establishes the Finance Commission, and what is the mandatory periodicity of its constitution?",
+     "a": "Article 280 establishes the Finance Commission; the President must constitute it every five years or earlier. A wrong answer (e.g., Article 275, Article 282, or \"annually\") reveals confusion between the Finance Commission's tax devolution role and grants-in-aid provisions (Article 275), discretionary grants (Article 282), or the annual Budget cycle — indicating the student cannot distinguish permanent constitutional architecture from routine financial operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution mandate an independent Finance Commission rather than letting the Union Ministry of Finance decide tax-sharing ratios directly?",
+     "a": "The Finance Commission's independence prevents the Centre from acting as \"judge in its own cause\" — if the Union Finance Ministry decided devolution, it could politically favour aligned States or penalise Opposition-ruled States, violating federal equilibrium. A wrong answer focusing only on \"expertise\" or \"technical calculation\" misses the constitutional politics: the Commission is a federal safeguard, not just a calculator. This misconception shows the student views fiscal federalism as administrative efficiency rather than power distribution.",
+     "self_check": true
+    },
+    {
+     "q": "The 15th Finance Commission (2020-25) used \"income distance\" as the highest-weighted criterion (45%) for horizontal devolution. A student argues: \"This rewards poorer States like Bihar and penalises richer States like Gujarat — it's unfair.\" Apply the concept of fiscal equalisation to evaluate this argument.",
+     "a": "The argument misunderstands fiscal equalisation: income distance measures per capita GSDP gap from the highest-income State; higher weight ensures citizens in poorer States receive comparable public services (health, education) without excessive tax burden. This is horizontal equity — equal treatment of equals across State boundaries. A wrong answer agreeing with the student reveals a \"vertical equity\" confusion (rich pay more) applied incorrectly to inter-State distribution, ignoring that the Constitution mandates \"balanced regional development\" (Article 38) and the Commission's Terms of Reference explicitly include equity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 14th Finance Commission's vertical devolution share (42%) with the 15th Finance Commission's share (41%). Analyse why the 15th FC reduced the share despite States' demands for increase, considering the abolition of Planning Commission and introduction of GST.",
+     "a": "The 15th FC reduced vertical share by 1% because: (a) GST subsumed multiple State taxes (VAT, entry tax, luxury tax) into a shared pool where States already get 50% of CGST + full SGST/IGST settlement, altering the revenue base; (b) Centrally Sponsored Schemes were restructured, giving States more untied funds; (c) debt servicing and defence commitments constrained the Centre's divisible pool. A wrong answer attributing it solely to \"Centre's greed\" or \"politics\" ignores the structural fiscal architecture changes post-2014 — the student fails to connect GST (node c11_ps_cbse_16_006 Concurrent List entry) and Planning Commission abolition to the divisible pool mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess: \"The Finance Commission's recommendations are only advisory; the President can reject them, so States have no guarantee of receiving their due share.\" Evaluate this statement's constitutional accuracy and political reality.",
+     "a": "Constitutionally accurate but politically misleading: Article 280(3) says the President \"shall\" lay recommendations before Parliament with an explanatory memorandum — no explicit power to reject. In practice, every Union government has accepted recommendations fully (except minor modifications with Commission's consent). The \"advisory\" label applies to the President's formal role; the political convention makes them binding. A wrong answer claiming \"President can reject\" or \"States can sue\" reveals ignorance of the difference between justiciability (courts cannot enforce FC awards) and constitutional convention — the student confuses legal enforceability with political obligation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph Terms of Reference for a hypothetical 16th Finance Commission that addresses the emerging challenge of climate-vulnerable States (coastal, Himalayan) needing adaptation finance, while maintaining the existing equity-efficiency balance. Justify each inclusion.",
+     "a": "A strong answer includes: (1) \"Climate vulnerability index\" as a new horizontal criterion (weight 5-10%) using NDMA/IMD data — justifies by Article 280(3)(bb) \"any other matter\" and emerging fiscal risk; (2) explicit mandate to assess States' disaster resilience expenditure needs — links to Article 275 grants for calamity relief; (3) review of GST compensation cess sunset (2026) impact on State finances — connects to GST Council decisions; (4) incentive for green tax effort (carbon tax, EV incentives) — aligns efficiency with equity. A poor answer merely adds \"climate change\" without criteria design or constitutional anchoring, showing inability to operationalise principles into Commission architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

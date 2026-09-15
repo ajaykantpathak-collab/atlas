@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_008",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_008",
+   "title": "c6_english_u1_008",
+   "questions": [
+    {
+     "q": "What is the difference between a noun and a pronoun?",
+     "a": "A noun names a specific person, place, or thing, while a pronoun takes the place of that noun. A wrong answer suggests the student confuses nouns with action words or adjectives, indicating they need to revisit naming words first.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence, \"Madhumati worked hard, and Madhumati sold the fruits,\" why is it better to use a pronoun?",
+     "a": "It is better because it avoids repeating the name 'Madhumati', making the sentence less repetitive. A wrong answer shows the student does not yet understand the purpose of pronouns in improving writing flow.",
+     "self_check": true
+    },
+    {
+     "q": "Replace the underlined noun with a pronoun: \"The sage Mahipati smiled. <u>The sage Mahipati</u> muttered magic words.\"",
+     "a": "The correct answer is \"He\". The steps are: 1. Identify the noun to replace (The sage Mahipati). 2. Determine if it is singular/plural and gender (singular, male). 3. Choose the matching pronoun (He). A wrong answer suggests the student is choosing pronouns without considering the gender or number of the noun.",
+     "self_check": true
+    },
+    {
+     "q": "'Dream' is an abstract noun (an idea), and 'thing' is a concrete noun (if referring to a physical object). A wrong answer reveals the student struggles to distinguish between physical objects and concepts.",
+     "a": "[Correct Answer]\nIn the sentence \"A dream is a beautiful thing,\" the noun \"dream\" is abstract because it represents an idea or experience that cannot be physically touched, while \"thing\" is a concrete noun because it functions as a general label for a physical object. \n\n[Explanation of Misconception]\nA wrong answer, such as labeling \"dream\" as concrete, reveals that the student is confusing the *vividness* of an experience with its *physicality*; they likely believe that because they can \"see\" a dream in their mind, it must be tangible. Alternatively, if a student fails to identify \"thing\" as a noun, it reveals they are struggling to recognize abstract placeholder nouns that function as objects in a sentence structure.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rama Natha wanted gold. Rama Natha was foolish.\" Is 'Rama Natha' a proper or common noun, and why?",
+     "a": "It is a proper noun because it names a specific individual. A wrong answer reveals the student does not recognize that names of specific people must be capitalized and are distinct from general categories like 'man' or 'landlord'.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short sentence about a 'banana' using both a noun and a pronoun.",
+     "a": "Example: \"The banana is yellow; it tastes sweet.\" A good answer must correctly use 'banana' as the noun and 'it' as the pronoun. A poor answer might lack one of the two parts or use them incorrectly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

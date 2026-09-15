@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_007",
+   "title": "c12_acc_cbse_03_007",
+   "questions": [
+    {
+     "q": "A firm has a Joint Life Policy of ₹20 lakh. The surrender value is ₹3 lakh. The policy is maintained at surrender value in the books. Partner X retires. What is the correct journal entry to record the surrender value received from the insurance company?",
+     "a": "Bank A/c Dr. ₹3,00,000\nTo Joint Life Policy A/c ₹3,00,000\n(Being surrender value received on JLP)\nThen: Joint Life Policy A/c Dr. ₹3,00,000\nTo All Partners' Capital A/c (in profit-sharing ratio) ₹3,00,000\n(Being surrender value distributed among partners)\nA wrong answer (e.g., crediting only continuing partners, or debiting P&L) reveals the student doesn't understand that surrender value is an asset belonging to ALL partners, not an income. The policy asset is realised and distributed like any other asset on reconstitution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the premium paid on a Joint Life Policy is debited to Profit and Loss Account, but the surrender value received is credited to the Partners' Capital Accounts (not to P&L).",
+     "a": "Premium is a revenue expense — it's the cost of maintaining the insurance cover for the current period, so it reduces profit via P&L. Surrender value is the accumulated savings component of the policy — it represents capital contributed by the firm over the years from profits already earned. When received, it's a return of capital, not new income. Hence it increases the policy asset (if maintained at surrender value) and ultimately gets distributed to partners' capital accounts as part of their accumulated equity. A student who says \"both go to P&L\" or \"surrender value is profit\" confuses revenue vs capital nature.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm (A, B, C sharing 3:2:1) has an Individual Life Policy on A's life for ₹10 lakh (sum assured). Annual premium ₹50,000. Surrender value ₹1,20,000. The policy is maintained at surrender value. A dies. The insurance company pays the full sum assured ₹10 lakh. Pass journal entries for: (a) premium paid during the year, (b) surrender value adjustment at year-end, (c) claim received on A's death.",
+     "a": "(a) Premium paid:\nProfit & Loss A/c Dr. ₹50,000\nTo Bank A/c ₹50,000\n(b) Year-end surrender value adjustment (increase from previous year's SV):\nJoint Life Policy A/c (A's policy) Dr. [Increase amount]\nTo Profit & Loss A/c [Increase amount]\n(c) On death — claim received:\nBank A/c Dr. ₹10,00,000\nTo Individual Life Policy A/c (A's policy) ₹1,20,000 (surrender value carried)\nTo A's Capital A/c ₹8,80,000 (profit on policy — excess of claim over SV)\nThen: A's Capital A/c Dr. ₹1,20,000 (SV portion)\nTo A's Executor/Loan A/c ₹1,20,000\nAnd profit ₹8,80,000 is shared by ALL partners (including A) in 3:2:1:\nProfit & Loss Suspense / A's Capital gets 3/6, B 2/6, C 1/6 of ₹8,80,000.\nA wrong entry (e.g., crediting full ₹10 lakh to A's capital, or not sharing profit) shows confusion between JLP (shared by all) and ILP (claim belongs to that partner's estate, but profit on policy is shared).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the accounting treatment of Joint Life Policy and Individual Life Policy when a partner retires. Focus on: (a) who receives the policy proceeds, (b) how the profit/loss on policy is shared, (c) the ledger accounts used.",
+     "a": "(a) JLP: Proceeds (surrender value or claim) are distributed among ALL partners (including retiring) in profit-sharing ratio. ILP: Surrender value of retiring partner's policy goes to that partner; other partners' policies continue.\n(b) JLP: Any profit (claim > surrender value) or loss (claim < surrender value) on realisation is shared by ALL partners in profit-sharing ratio. ILP: Profit/loss on the retiring partner's policy is shared by ALL partners; continuing partners' policies are unaffected.\n(c) JLP: One \"Joint Life Policy Account\" for all partners. ILP: Separate \"Individual Life Policy Account\" for each partner (e.g., \"ILP - A A/c\", \"ILP - B A/c\").\nA student who says \"JLP proceeds go only to continuing partners\" or \"ILP profit goes only to that partner\" misses the fundamental principle: policies are firm's assets, and any gain/loss on firm's assets is shared by all partners.",
+     "self_check": true
+    },
+    {
+     "q": "A firm maintains its Joint Life Policy at full sum assured (₹50 lakh) by creating a \"Joint Life Policy Reserve\". Annual premium ₹2 lakh. Surrender value ₹5 lakh. At year-end, the reserve is ₹10 lakh. A partner retires. The firm decides to surrender the policy and take a new one. Evaluate: Is maintaining at sum assured with reserve better than maintaining at surrender value? Justify with accounting impact.",
+     "a": "Maintaining at sum assured with reserve:\n- Premium: P&L Dr. ₹2 lakh → JLP Reserve Cr. ₹2 lakh (appropriation of profit)\n- Year-end: JLP Reserve Dr. ₹(2 lakh - increase in SV) → P&L Cr. (if SV increase < premium) or P&L Dr. → JLP Reserve Cr. (if SV increase > premium)\n- Policy shown at ₹50 lakh (sum assured) on asset side, Reserve ₹10 lakh on liability side.\n- Net asset = ₹40 lakh (same as surrender value method net).\nOn surrender: Bank Dr. ₹5 lakh → JLP A/c Cr. ₹5 lakh; JLP A/c Dr. ₹50 lakh → JLP Reserve Dr. ₹10 lakh, Partners' Capital Cr. ₹40 lakh (loss).\nMaintaining at surrender value is simpler: Policy at ₹5 lakh, no reserve. Premium → P&L. SV increase → Policy Dr. → P&L Cr. On surrender: Bank Dr. ₹5 lakh → Policy Cr. ₹5 lakh; Policy Dr. ₹5 lakh → Partners' Capital Cr. ₹5 lakh.\nSum assured method overstates assets and creates a reserve (appropriation), which may mislead outsiders. Surrender value method shows true realisable value. For board exams, surrender value method is more common. A student who says \"sum assured method shows higher profit\" confuses appropriation with profit.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: A firm of 3 partners (P, Q, R = 2:2:1) has a JLP of ₹30 lakh (SV ₹4 lakh, maintained at SV). Q retires. The firm does NOT surrender the policy but continues it for P and R. The insurance company allows continuation with reduced sum assured ₹20 lakh (SV ₹2.5 lakh). Draft the journal entries for: (a) adjusting the policy to new SV, (b) settling Q's share.",
+     "a": "(a) Policy reduction:\nJoint Life Policy A/c Dr. ₹1,50,000 (4,00,000 - 2,50,000)\nTo P's Capital A/c ₹60,000 (2/5)\nTo Q's Capital A/c ₹60,000 (2/5)\nTo R's Capital A/c ₹30,000 (1/5)\n(Loss on reduction shared in old ratio 2:2:1)\n(b) Q's share settled:\nQ's Capital A/c Dr. ₹60,000\nTo Q's Loan A/c ₹60,000\n(Q's share of policy loss transferred to his loan)\nAlternative if policy surrendered and new one taken: Bank Dr. ₹4,00,000 → JLP Cr. ₹4,00,000; JLP Dr. ₹4,00,000 → Partners' Capital Cr. ₹4,00,000 (old ratio); then new premium paid → P&L Dr.\nA good answer shows understanding that policy value change is a gain/loss shared by ALL partners in old ratio, even if policy continues. A poor answer ignores the loss on reduction or shares it in new ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

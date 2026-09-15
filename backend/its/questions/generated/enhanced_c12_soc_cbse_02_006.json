@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_006",
+   "title": "c12_soc_cbse_02_006",
+   "questions": [
+    {
+     "q": "Calculate the sex ratio for a district that has 2,45,000 males and 2,28,000 females. Show your work.",
+     "a": "Sex ratio = (Number of females / Number of males) × 1000 = (2,28,000 / 2,45,000) × 1000 = 930.6 ≈ 931 females per 1000 males. A wrong answer like 1075 (inverting the ratio) reveals confusion about the definition's numerator-denominator order. An answer of 0.93 without multiplying by 1000 shows the student knows the proportion but not the standard demographic expression per 1000 males.",
+     "self_check": true
+    },
+    {
+     "q": "The overall sex ratio in India improved from 927 (1991) to 943 (2011), but the child sex ratio fell from 945 to 919 in the same period. Explain in your own words why these two trends can move in opposite directions.",
+     "a": "The overall sex ratio reflects the cumulative gender balance across all age groups, influenced by historical mortality patterns and migration. The child sex ratio (0–6 years) captures only recent births and early childhood survival. A rise in overall ratio can occur due to declining maternal mortality and female longevity gains, while the child sex ratio falls due to intensified sex-selective abortion and neglect of girl infants in the same period. A wrong answer attributing both to the same cause (e.g., \"female infanticide increased\") misses the temporal and age-specific distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A state has a child sex ratio of 850. If 1,20,000 male children (0–6 years) are recorded in the census, how many female children (0–6 years) would be expected? Round to the nearest whole number.",
+     "a": "Child sex ratio = (Female children 0–6 / Male children 0–6) × 1000. Rearranging: Female children = (Child sex ratio / 1000) × Male children = (850 / 1000) × 1,20,000 = 0.85 × 1,20,000 = 1,02,000 female children. A wrong answer of 1,41,176 (using 1000/850) inverts the ratio. An answer of 1,02,000 without units or context shows mechanical calculation without demographic interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional pattern of child sex ratios in the 2011 Census: Haryana (793), Punjab (846), Kerala (964), Arunachal Pradesh (972). Analyze why the most economically prosperous states (Haryana, Punjab) have the lowest child sex ratios while less prosperous states (Arunachal Pradesh, Kerala) have higher ratios. Use at least two sociological concepts from the chapter.",
+     "a": "The prosperity paradox arises because: (1) Son preference is strong in patriarchal agrarian societies (Haryana, Punjab) where sons are seen as old-age security and lineage carriers; rising income enables access to sex-determination technology (ultrasound) for sex-selective abortion. (2) In Kerala, high female literacy, matrilineal traditions, and better healthcare reduce son preference. In Arunachal Pradesh, tribal societies with weaker patriarchal norms value daughters. Concepts: \"son preference\" (cultural norm) and \"technology misuse\" (ultrasound for sex selection). A wrong answer citing \"poverty causes female infanticide\" contradicts the data — the worst ratios are in rich states.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Pre-Natal Diagnostic Techniques (PNDT) Act, 1994 (amended 2003) has failed to improve the child sex ratio because the 2011 Census shows a further decline to 919.\" Provide a balanced assessment using evidence from the text.",
+     "a": "The statement is partially true but incomplete. The PNDT Act banned sex determination and imposed penalties, but enforcement has been weak due to collusion between medical providers and families, lack of monitoring, and deep-rooted son preference. However, without the Act, the decline might have been steeper. The Beti Bachao Beti Padhao scheme (2015) addresses demand-side norms. Evaluation: Laws alone cannot change cultural preferences; they must be paired with gender-equitable socialisation, women's economic autonomy, and strict enforcement. A wrong answer declaring \"the law failed completely\" ignores the counterfactual and the multi-causal nature of demographic behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level intervention to improve the child sex ratio in a district with a current ratio of 830. Your proposal must address both supply-side (technology misuse) and demand-side (son preference) factors, and include one measurable indicator to track progress over 5 years.",
+     "a": "Intervention: (1) Supply-side: Mandatory online registration of all ultrasound machines with real-time audit trails; surprise inspections; fast-track courts for PNDT violations. (2) Demand-side: Community dialogues with religious leaders and panchayats on gender equality; conditional cash transfers for families with girl children (linked to birth registration, immunisation, school enrolment); media campaigns celebrating daughters. Measurable indicator: Annual child sex ratio at birth (from civil registration system) — target: increase from 830 to 900 in 5 years. A poor answer focuses only on \"awareness campaigns\" without enforcement mechanisms or measurable targets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

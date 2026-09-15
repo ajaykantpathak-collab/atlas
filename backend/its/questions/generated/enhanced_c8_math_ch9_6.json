@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_6",
+   "title": "c8_math_ch9_6",
+   "questions": [
+    {
+     "q": "State the relationship between the areas of the three squares in the visual proof of the Pythagoras theorem.",
+     "a": "The area of the square on the hypotenuse (c²) equals the sum of the areas of the squares on the other two sides (a² + b²). A wrong answer (e.g., saying the areas are equal or subtracting) reveals the student has not grasped the core area-conservation principle of the proof.",
+     "self_check": true
+    },
+    {
+     "q": "In the classic square-within-a-square proof, why must the four triangles used in both arrangements be congruent?",
+     "a": "The four triangles are congruent because they are all right triangles with legs a and b (same shape and size). Congruence ensures they have equal area, so subtracting their total area from the large square (a+b)² leaves a consistent comparison. If a student says \"they look similar\" or \"they are all right triangles\" without specifying equal legs, they miss the precise condition for equal area subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "A right triangle has legs of length 6 cm and 8 cm. Using the visual proof idea, what is the area of the square on the hypotenuse? Show the steps by computing the areas of the two smaller squares and adding them.",
+     "a": "Step 1: Area of square on side 6 cm = 6² = 36 cm².\nStep 2: Area of square on side 8 cm = 8² = 64 cm².\nStep 3: Sum of areas = 36 + 64 = 100 cm².\nStep 4: By the theorem, this equals the area of the square on the hypotenuse, so c² = 100 cm².\nA wrong answer (e.g., 14 cm² or 48 cm²) shows the student is adding side lengths instead of areas, or multiplying legs instead of squaring.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the square-within-a-square proof and the rearrangement proof (where triangles are moved to form two rectangles). What is the common geometric principle that makes both proofs valid?",
+     "a": "Both proofs rely on the principle of area conservation: when shapes are dissected and rearranged without overlap or gaps, the total area remains unchanged. A student who only describes the visual differences without naming area conservation is focusing on appearance rather than the underlying mathematical invariant.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the visual proof only works for the 3-4-5 triangle because the squares have integer sides. Evaluate this claim and explain why it is correct or incorrect.",
+     "a": "The claim is incorrect. The visual proof uses arbitrary lengths a and b; the dissection works for any positive real numbers because congruence and area addition hold generally, not just for integers. If a student agrees with the claim, they confuse a specific numerical example with a general geometric proof.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own visual proof idea for the Pythagoras theorem using a different large shape (not a square of side a+b). Sketch the concept and describe the area equivalence in words.",
+     "a": "A good answer might use a rectangle of dimensions (a+b) by c, or a trapezoid, showing that the total area can be expressed in two ways leading to a²+b²=c². The key is a clear description of two area decompositions of the same shape. A poor answer simply redraws the standard square proof or fails to show two distinct area expressions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

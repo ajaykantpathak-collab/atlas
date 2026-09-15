@@ -1,0 +1,548 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 205,
+ "chapter_title": "Chapter Thirteen: Nuclei",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph205.13.2.1",
+   "title": "Isotope Mixtures and Average Atomic Mass",
+   "section": "13.2",
+   "definition": "One atomic mass unit is a twelfth of a neutral carbon-12 atom's mass, about 1.6605e-27 kg. Because most elements occur as a blend of isotopes, the listed atomic mass is the abundance-weighted mean of the isotope masses, which is why chlorine lands near 35.5 u instead of a whole number.",
+   "formula": "avg_mass_u = (pct_1 * mass_iso_1 + pct_2 * mass_iso_2) / 100",
+   "key_idea": "Non-integer atomic masses signal an isotope mixture, not a measurement error.",
+   "textbook_ref": "leph205.txt section 13.2 (definition of u, chlorine 34.98/36.98 u with 75.4/24.6 percent)",
+   "question_patterns": [
+    "chlorine has isotopes of mass 34.98 u and 36.98 u with abundances 75.4 and 24.6 percent; find the average atomic mass",
+    "calculate the weighted atomic mass of an element from its isotope masses and percentage abundances",
+    "why is the atomic mass of chlorine not a whole number",
+    "how is one atomic mass unit defined in terms of the carbon 12 atom",
+    "determine the mean mass of an atom of an element that occurs as two isotopes",
+    "compute the abundance-weighted average mass for a mixture of known isotopes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weight each isotope by its share",
+     "explain": "multiply every isotope mass by its abundance percentage and add",
+     "compute": "weighted_sum = abundance_1 * mass_isotope_1 + abundance_2 * mass_isotope_2"
+    },
+    {
+     "step": 2,
+     "action": "convert from percent to fraction",
+     "explain": "divide the weighted total by 100 to get the mean atomic mass",
+     "compute": "avg_mass_u = weighted_sum / 100.0"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.2.2",
+   "title": "Nuclide Composition: Protons, Neutrons, Mass Number",
+   "section": "13.2",
+   "definition": "A nuclide is labelled with its proton count Z and mass number A, the total of protons plus neutrons. Species sharing Z but not N are isotopes, those sharing A are isobars, and those sharing N are isotones.",
+   "formula": "nucleon_count_a = protons_z + neutrons_n",
+   "key_idea": "Chemical behaviour follows Z alone, which is why isotopes sit in one periodic-table slot.",
+   "textbook_ref": "leph205.txt section 13.2 (Z, N, A notation, isotope/isobar/isotone examples like H-3 and He-3)",
+   "question_patterns": [
+    "a nuclide has 79 protons and 118 neutrons; find its mass number",
+    "how many neutrons does a nucleus with mass number A and atomic number Z contain",
+    "classify two nuclides as isotopes, isobars or isotones from their Z and N values",
+    "what do the superscript and subscript on a nuclear symbol tell you",
+    "explain why isotopes of an element show identical chemical behaviour",
+    "state how the mass number and atomic number of a nucleus are related"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the counts off the symbol",
+     "explain": "the lower index gives protons Z, the upper index gives nucleons A"
+    },
+    {
+     "step": 2,
+     "action": "subtract for neutrons",
+     "explain": "the neutron count is A minus Z"
+    },
+    {
+     "step": 3,
+     "action": "compare across nuclides",
+     "explain": "equal Z means isotopes, equal A means isobars, equal N means isotones"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.3.1",
+   "title": "Nuclear Radius From Mass Number",
+   "section": "13.3",
+   "definition": "Fast-electron scattering shows that a nucleus of mass number A has radius R equal to 1.2 femtometre times the cube root of A. Bigger nuclei pack in more nucleons without growing much in radius.",
+   "formula": "radius_m = 1.2e-15 * (mass_a ** (1.0/3.0))",
+   "key_idea": "Because R goes as the cube root of A, radius ratios come from cube roots of mass-number ratios.",
+   "textbook_ref": "leph205.txt section 13.3 (R = R0 A^(1/3), R0 = 1.2 fm, Exercise 13.4)",
+   "question_patterns": [
+    "estimate the radius of a nucleus with mass number 197",
+    "find the ratio of nuclear radii of the gold isotope A = 197 and the silver isotope A = 107",
+    "calculate how the radius of a nucleus changes when the mass number rises eightfold",
+    "what does electron scattering reveal about nuclear size",
+    "determine the radius of an iron nucleus with A = 56 in femtometres",
+    "compute the nuclear radius from the cube-root mass number rule"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the cube root of A",
+     "explain": "the radius grows only with the cube root of the mass number",
+     "compute": "cube_root_a = mass_a ** (1.0 / 3.0)"
+    },
+    {
+     "step": 2,
+     "action": "scale by 1.2 femtometre",
+     "explain": "multiply the cube root by 1.2e-15 metre to get the radius",
+     "compute": "radius_m = 1.2e-15 * cube_root_a"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.3.2",
+   "title": "Nuclear Density Is a Universal Constant",
+   "section": "13.3",
+   "definition": "Since volume grows in step with A while mass does too, every nucleus has roughly the same density, near 2.3e17 kg per cubic metre -- about a hundred trillion times denser than water and comparable to neutron-star matter.",
+   "formula": "nuclear_density = nucleus_mass_kg / ((4.0/3.0) * pi * radius_m ** 3)",
+   "key_idea": "Constant nuclear density means nuclei behave like incompressible liquid drops.",
+   "textbook_ref": "leph205.txt section 13.3 and Example 13.1 (iron density 2.29e17 kg/m3)",
+   "question_patterns": [
+    "given the mass of an iron nucleus as 55.85 u and A = 56, find the nuclear density",
+    "show that the density of nuclear matter hardly depends on the mass number",
+    "calculate how the density inside a nucleus compares with that of water",
+    "why can a nucleus be pictured as a liquid drop of fixed density",
+    "determine the mass divided by volume for a nucleus of known A and nuclear mass",
+    "compute the packing density of nucleons inside a nucleus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the nuclear mass to kilograms",
+     "explain": "one atomic mass unit equals 1.6605e-27 kg",
+     "compute": "nucleus_mass_kg = mass_u * 1.6605e-27"
+    },
+    {
+     "step": 2,
+     "action": "cube root of the mass number",
+     "explain": "the radius needs A^(1/3)",
+     "compute": "cube_root_a = mass_a ** (1.0 / 3.0)"
+    },
+    {
+     "step": 3,
+     "action": "nuclear radius in metres",
+     "explain": "1.2e-15 m times the cube root of A",
+     "compute": "radius_m = 1.2e-15 * cube_root_a"
+    },
+    {
+     "step": 4,
+     "action": "sphere volume",
+     "explain": "treat the nucleus as a sphere of the radius just found",
+     "compute": "radius_cu_m = (4.0 / 3.0) * pi * radius_m ** 3"
+    },
+    {
+     "step": 5,
+     "action": "divide mass by volume",
+     "explain": "the quotient is the nuclear density, about 2.3e17 kg per cubic metre for any A",
+     "compute": "nuclear_density = nucleus_mass_kg / radius_cu_m"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.4.1",
+   "title": "Mass-Energy Equivalence",
+   "section": "13.4.1",
+   "definition": "Relativity treats mass as a stored form of energy: a mass m carries an equivalent energy of m times the square of the speed of light. Converting even one gram of matter completely to energy releases about 9e13 joule.",
+   "formula": "energy_joule = mass_kg * (3.0e8 ** 2)",
+   "key_idea": "The factor c squared is enormous, so tiny masses correspond to huge energies.",
+   "textbook_ref": "leph205.txt section 13.4.1 (E = mc^2, Example 13.2 with 1 g of substance)",
+   "question_patterns": [
+    "calculate the energy equivalent of 1 gram of matter",
+    "how much energy does complete conversion of a given mass release",
+    "state and apply the mass-energy equivalence relation",
+    "find the energy stored in a given mass in kilograms via relativity",
+    "why do nuclear processes release far more energy than chemical ones",
+    "compute the rest energy of a stated mass using the speed of light squared"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the speed of light",
+     "explain": "c is about 3e8 metre per second, giving a factor of 9e16",
+     "compute": "light_sq = (3.0e8 ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the mass",
+     "explain": "mass in kilograms times the squared speed gives the equivalent energy in joules",
+     "compute": "energy_joule = mass_kg * light_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.4.2",
+   "title": "Mass Defect and Nuclear Binding Energy",
+   "section": "13.4.2",
+   "definition": "A bound nucleus weighs less than its separate protons and neutrons. That shortfall, the mass defect, converts into the binding energy through 1 u = 931.5 MeV, the energy you must supply to pull the nucleus completely apart.",
+   "formula": "binding_mev = 931.5 * ((protons_z * 1.007825 + (mass_a - protons_z) * 1.008665) - atom_mass_u)",
+   "key_idea": "Hydrogen-atom and neutron masses let atomic masses be used directly since electron masses cancel.",
+   "textbook_ref": "leph205.txt section 13.4.2 (Eq. 13.7-13.8, Example 13.3, Exercises 13.1-13.3)",
+   "question_patterns": [
+    "obtain the binding energy in MeV of a nitrogen 14 nucleus of atomic mass 14.00307 u",
+    "calculate the mass defect of a nucleus from the masses of its protons and neutrons",
+    "how much energy is needed to separate a nucleus into free nucleons",
+    "find the binding energy of an iron 56 nucleus given its atomic mass",
+    "convert a mass defect in atomic mass units into MeV",
+    "determine the energy that holds a stated nucleus together"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mass the separated nucleons",
+     "explain": "Z hydrogen-atom masses plus A - Z neutron masses; electrons cancel against the atomic mass",
+     "compute": "bound_mass_u = protons_z * 1.007825 + (mass_a - protons_z) * 1.008665"
+    },
+    {
+     "step": 2,
+     "action": "subtract the actual nuclear mass",
+     "explain": "the difference is the mass defect in atomic mass units",
+     "compute": "defect_u = bound_mass_u - atom_mass_u"
+    },
+    {
+     "step": 3,
+     "action": "convert defect to energy",
+     "explain": "each atomic mass unit carries 931.5 MeV of energy",
+     "compute": "binding_mev = defect_u * 931.5"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.4.3",
+   "title": "Binding Energy Per Nucleon",
+   "section": "13.4.2",
+   "definition": "Dividing a nucleus's total binding energy by its nucleon count gives the average energy that holds one nucleon in, the standard yardstick for how tightly different nuclei are bound.",
+   "formula": "ebn_mev = binding_mev / mass_a",
+   "key_idea": "Stability tracks Ebn, not total binding energy: mid-mass nuclei top the table near 8.75 MeV.",
+   "textbook_ref": "leph205.txt section 13.4.2 (Eq. 13.9, Fig. 13.1 discussion)",
+   "question_patterns": [
+    "find the binding energy per nucleon of an iron 56 nucleus with binding energy 493 MeV",
+    "calculate the average binding energy shared by each nucleon of a nucleus",
+    "which is more tightly bound: a nucleus of larger total binding energy or larger binding energy per nucleon",
+    "determine Ebn for a nucleus from its total binding energy and mass number",
+    "compare the tightness of two nuclei using binding energy per nucleon",
+    "compute the per-nucleon binding figure for a stated nuclide"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "share the binding energy out",
+     "explain": "divide the total binding energy by the nucleon count A",
+     "compute": "ebn_mev = binding_mev / mass_a"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.4.4",
+   "title": "Reading the Binding Energy Curve",
+   "section": "13.4.2",
+   "definition": "The plot of binding energy per nucleon against mass number rises steeply for light nuclei, stays near 8 MeV from A about 30 to 170, peaks at 8.75 MeV for A = 56, then sags for the heaviest nuclei. Both fission and fusion pay out because products move up this curve.",
+   "formula": "ebn_peak = 8.75 mev at mass_a = 56",
+   "key_idea": "Energy is released by any change, splitting heavy or merging light, that climbs toward the curve's flat summit.",
+   "textbook_ref": "leph205.txt section 13.4.2 conclusions (i)-(iv) and section 13.7 opening",
+   "question_patterns": [
+    "draw the binding energy per nucleon curve and label its main features",
+    "why does splitting a heavy nucleus release energy",
+    "why does joining two light nuclei also release energy",
+    "which mass number region has the most tightly bound nuclei",
+    "explain the link between the binding energy curve and nuclear energy release",
+    "what does the flat middle of the binding energy curve reveal about the nuclear force"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the curve",
+     "explain": "steep climb below A = 30, plateau near 8 MeV across 30 to 170, slow fall beyond"
+    },
+    {
+     "step": 2,
+     "action": "locate the summit",
+     "explain": "the maximum of 8.75 MeV per nucleon sits at A = 56, the iron region"
+    },
+    {
+     "step": 3,
+     "action": "read energy release off the curve",
+     "explain": "fission of A near 240 fragments and fusion of A below 10 both end higher on the curve, so both liberate energy"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.5.1",
+   "title": "Properties of the Nuclear Force",
+   "section": "13.5",
+   "definition": "The strong attraction gluing nucleons beats the Coulomb repulsion between protons, cuts off beyond a few femtometres, and treats protons and neutrons alike -- it is charge blind. Its potential well bottoms out near 0.8 fm, repulsive below that and attractive beyond.",
+   "formula": "nuclear force: strongest known, short range near a few fm, charge independent",
+   "key_idea": "Short range explains saturation, hence the constancy of binding energy per nucleon in mid-mass nuclei.",
+   "textbook_ref": "leph205.txt section 13.5 (three listed properties, Fig. 13.2 potential minimum at 0.8 fm)",
+   "question_patterns": [
+    "list the chief properties of the nuclear force",
+    "why does the nuclear force not depend on electric charge",
+    "how does the short range of the nuclear force explain saturation of binding energy",
+    "compare the strengths of nuclear, coulomb and gravitational forces inside a nucleus",
+    "what happens to the nuclear force when two nucleons are pulled beyond a few femtometres apart",
+    "describe how the nucleon-nucleon potential behaves below and above 0.8 fm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rank the forces",
+     "explain": "nuclear attraction beats Coulomb repulsion between protons; gravity is negligible"
+    },
+    {
+     "step": 2,
+     "action": "note the reach",
+     "explain": "the force dies away within a few femtometres, so each nucleon only senses neighbours"
+    },
+    {
+     "step": 3,
+     "action": "check charge blindness",
+     "explain": "proton-proton, neutron-proton and neutron-neutron attractions are nearly identical"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.6.1",
+   "title": "Three Modes of Radioactive Decay",
+   "section": "13.6",
+   "definition": "An unstable nucleus sheds excess energy by emitting an alpha particle (a helium-4 nucleus), a beta particle (an electron or positron), or gamma photons of high energy. Becquerel's fogged photographic plate was the first clue that some nuclei decay spontaneously.",
+   "formula": "alpha decay = he-4 out; beta decay = electron or positron out; gamma decay = photon out",
+   "key_idea": "Radioactivity originates in the nucleus, not in the electron shells, and changes one nuclide into another.",
+   "textbook_ref": "leph205.txt section 13.6 (Becquerel's discovery, alpha/beta/gamma listing)",
+   "question_patterns": [
+    "name the three types of radioactive decay and what each emits",
+    "which decay emits a helium nucleus",
+    "distinguish alpha, beta and gamma radiation by their nature",
+    "how did Becquerel stumble on radioactivity",
+    "what kind of radiation carries photons of hundreds of keV or more from a nucleus",
+    "explain why radioactivity is a nuclear rather than an atomic phenomenon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the emission",
+     "explain": "alpha is a helium-4 nucleus, beta is an electron or positron, gamma is a high-energy photon"
+    },
+    {
+     "step": 2,
+     "action": "track the nuclide change",
+     "explain": "alpha and beta transmute the nucleus into a different element; gamma only lowers excitation"
+    },
+    {
+     "step": 3,
+     "action": "trace the origin",
+     "explain": "all three arise from the nucleus itself, which is why shielding and chemistry do not stop them"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.7.1",
+   "title": "Q Value and Energy Balance",
+   "section": "13.7",
+   "definition": "The Q value of a reaction is the kinetic energy gained, equal to the initial minus the final rest mass expressed in energy. A positive Q marks an exothermic reaction, a negative Q an endothermic one that needs imported energy.",
+   "formula": "q_value_mev = (mass_initial_u - mass_final_u) * 931.5",
+   "key_idea": "Nucleon counts stay balanced across any nuclear equation; the mass difference alone decides Q.",
+   "textbook_ref": "leph205.txt section 13.7 (Q value estimate) and Exercise 13.5 formula, summary item 9",
+   "question_patterns": [
+    "determine the q value of a nuclear reaction from the rest masses of reactants and products",
+    "is the reaction between two deuterons forming a triton and a proton exothermic",
+    "calculate whether a stated nuclear reaction absorbs or releases energy",
+    "find the energy released when given atomic masses for both sides of a reaction",
+    "what does a negative q value signify for a nuclear process",
+    "compute q in MeV for a reaction using the 931.5 conversion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weigh both sides",
+     "explain": "add the reactant masses and subtract the product masses, all in atomic mass units",
+     "compute": "mass_lost_u = mass_initial_u - mass_final_u"
+    },
+    {
+     "step": 2,
+     "action": "convert to MeV",
+     "explain": "multiply by 931.5; a positive result means the reaction liberates energy",
+     "compute": "q_value_mev = mass_lost_u * 931.5"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.7.2",
+   "title": "Fission Energy From Fuel Mass",
+   "section": "13.7.1",
+   "definition": "In fission a heavy nucleus such as uranium-235 absorbs a neutron and splits into two mid-weight fragments plus spare neutrons, releasing about 200 MeV each time. Counting the atoms in a fuel sample turns that per-fission figure into a total energy yield.",
+   "formula": "energy_joule = (sample_g / mass_a) * 6.023e23 * mev_per_fission * 1.6e-13",
+   "key_idea": "Roughly 10^14 joule per kilogram makes fission a million-fold richer than burning coal.",
+   "textbook_ref": "leph205.txt section 13.7.1 (Eqs. 13.10-13.12, 200 MeV estimate, Exercises 13.6-13.8)",
+   "question_patterns": [
+    "how much energy is released if all atoms in 1 kg of a fissile isotope undergo fission",
+    "calculate the total energy from fission of a given fuel mass with 180 MeV per fission",
+    "find the number of fissions needed to run a lamp of given power for a day",
+    "compare the energy of fissioning 1 kg of uranium with burning 1 kg of coal",
+    "determine how long a 100 watt lamp glows on the fusion or fission energy of a fuel sample",
+    "estimate the fission yield in joules for a stated number of nuclei"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the moles of fuel",
+     "explain": "divide the sample mass in grams by the gram-per-mole figure set by A",
+     "compute": "mole_count = sample_g / mass_a"
+    },
+    {
+     "step": 2,
+     "action": "nuclei times energy per fission",
+     "explain": "moles times 6.023e23 nuclei per mole, times the MeV per fission, times 1.6e-13 joule per MeV -- one kilogram of fissile fuel pays out around 1e14 joule",
+     "compute": "energy_joule = mole_count * 6.023e23 * mev_per_fission * 1.6e-13"
+    }
+   ]
+  },
+  {
+   "id": "leph205.13.7.3",
+   "title": "Thermonuclear Fusion in Stars",
+   "section": "13.7.2",
+   "definition": "Light nuclei fuse once they punch through the Coulomb barrier, roughly 400 keV for two protons, which demands temperatures near 10^9 kelvin -- thermonuclear fusion. Inside the sun the proton-proton cycle burns four hydrogens into one helium, paying out 26.7 MeV.",
+   "formula": "4 h-1 -> he-4 + 2 e+ + 26.7 mev (proton-proton cycle)",
+   "key_idea": "Fusion needs crushing temperature to beat electrostatic repulsion, yet the sun gets by with high-energy protons from its distribution.",
+   "textbook_ref": "leph205.txt section 13.7.2 (Eqs. 13.13-13.15, barrier ~400 keV, T ~ 3e9 K, sun core 1.5e7 K)",
+   "question_patterns": [
+    "why does nuclear fusion require such high temperatures",
+    "how much energy does the proton-proton cycle deliver per helium nucleus formed",
+    "estimate the temperature at which two protons can overcome the coulomb barrier",
+    "what fuels the energy output of the sun and other stars",
+    "explain thermonuclear fusion and where it occurs naturally",
+    "why can fusion of elements beyond the iron peak not power a star"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "clear the barrier",
+     "explain": "both nuclei are positive, so thermal kinetic energy of order hundreds of keV is needed to touch"
+    },
+    {
+     "step": 2,
+     "action": "run the cycle",
+     "explain": "two protons fuse to a deuteron, deuterons build helium-3, two helium-3 nuclei yield helium-4"
+    },
+    {
+     "step": 3,
+     "action": "balance the books",
+     "explain": "the net conversion of four protons into helium-4 releases 26.7 MeV, the star's income"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph205_1",
+   "source_ref": "leph205.txt section 13.2 (chlorine isotope mixture)",
+   "concept": "leph205.13.2.1",
+   "question_type": "weighted_average_mass",
+   "question_pattern": "Chlorine occurs as isotopes of mass {mass_isotope_1} u and {mass_isotope_2} u with abundances {abundance_1} percent and {abundance_2} percent. Find the average atomic mass of chlorine.",
+   "extracted_variables": {"mass_isotope_1": 34.98, "abundance_1": 75.4, "mass_isotope_2": 36.98, "abundance_2": 24.6},
+   "solution_template": [
+    {"step": 1, "action": "weight each isotope", "explain": "75.4 * 34.98 + 24.6 * 36.98 = 3547.2", "compute": "weighted_sum = abundance_1 * mass_isotope_1 + abundance_2 * mass_isotope_2"},
+    {"step": 2, "action": "divide by 100", "explain": "3547.2 / 100 gives the mean mass", "compute": "avg_mass_u = weighted_sum / 100.0"}
+   ]
+  },
+  {
+   "id": "we_leph205_2",
+   "source_ref": "leph205.txt Example 13.1",
+   "concept": "leph205.13.3.2",
+   "question_type": "nuclear_density",
+   "question_pattern": "The mass of an iron nucleus is {mass_u} u and its mass number is {mass_a}. Find the nuclear density.",
+   "extracted_variables": {"mass_u": 55.85, "mass_a": 56},
+   "solution_template": [
+    {"step": 1, "action": "mass in kilograms", "explain": "55.85 u * 1.6605e-27 kg = 9.27e-26 kg", "compute": "nucleus_mass_kg = mass_u * 1.6605e-27"},
+    {"step": 2, "action": "radius", "explain": "1.2e-15 * 56^(1/3) = 4.59e-15 m", "compute": "radius_m = 1.2e-15 * (mass_a ** (1.0 / 3.0))"},
+    {"step": 3, "action": "sphere volume", "explain": "(4/3) pi r^3 = 4.05e-43 cubic metre", "compute": "radius_cu_m = (4.0 / 3.0) * pi * radius_m ** 3"},
+    {"step": 4, "action": "divide", "explain": "9.27e-26 / 4.05e-43 = 2.29e17 kg per cubic metre", "compute": "nuclear_density = nucleus_mass_kg / radius_cu_m"}
+   ]
+  },
+  {
+   "id": "we_leph205_3",
+   "source_ref": "leph205.txt Exercise 13.1",
+   "concept": "leph205.13.4.2",
+   "question_type": "binding_energy",
+   "question_pattern": "Find the binding energy in MeV of a nitrogen-14 nucleus whose atomic mass is {atom_mass_u} u (Z = {protons_z}, A = {mass_a}).",
+   "extracted_variables": {"protons_z": 7, "mass_a": 14, "atom_mass_u": 14.00307},
+   "solution_template": [
+    {"step": 1, "action": "mass the free nucleons", "explain": "7 * 1.007825 + 7 * 1.008665 = 14.11543 u", "compute": "bound_mass_u = protons_z * 1.007825 + (mass_a - protons_z) * 1.008665"},
+    {"step": 2, "action": "mass defect", "explain": "14.11543 - 14.00307 = 0.11236 u", "compute": "defect_u = bound_mass_u - atom_mass_u"},
+    {"step": 3, "action": "to MeV", "explain": "0.11236 * 931.5 = 104.7 MeV", "compute": "binding_mev = defect_u * 931.5"}
+   ]
+  },
+  {
+   "id": "we_leph205_4",
+   "source_ref": "leph205.txt Exercise 13.5 (i)",
+   "concept": "leph205.13.7.1",
+   "question_type": "q_value",
+   "question_pattern": "Two deuterons of mass {mass_d_u} u each react to give a triton of mass {mass_t_u} u and a proton of mass {mass_p_u} u. Determine the Q value and say whether the reaction is exothermic.",
+   "extracted_variables": {"mass_d_u": 2.014102, "mass_t_u": 3.016049, "mass_p_u": 1.007825},
+   "solution_template": [
+    {"step": 1, "action": "total masses of both sides", "explain": "reactants 2 * 2.014102 = 4.028204 u; products 3.016049 + 1.007825 = 4.023874 u", "compute": "mass_lost_u = (2.0 * mass_d_u) - (mass_t_u + mass_p_u)"},
+    {"step": 2, "action": "convert to MeV", "explain": "0.00433 u * 931.5 = 4.03 MeV, positive so exothermic", "compute": "q_value_mev = mass_lost_u * 931.5"}
+   ]
+  },
+  {
+   "id": "we_leph205_5",
+   "source_ref": "leph205.txt Exercise 13.7",
+   "concept": "leph205.13.7.2",
+   "question_type": "fission_yield",
+   "question_pattern": "Fission of one plutonium-239 nucleus releases {mev_per_fission} MeV. How much energy in joules is set free when all atoms in {sample_g} g of pure plutonium undergo fission?",
+   "extracted_variables": {"mev_per_fission": 180.0, "sample_g": 1000.0, "mass_a": 239},
+   "solution_template": [
+    {"step": 1, "action": "moles of fuel", "explain": "1000 g / 239 = 4.18 mol", "compute": "mole_count = sample_g / mass_a"},
+    {"step": 2, "action": "energy in joules", "explain": "2.52e24 nuclei at 180 MeV each is 4.54e26 MeV, and times 1.6e-13 J per MeV gives 7.3e13 J", "compute": "energy_joule = mole_count * 6.023e23 * mev_per_fission * 1.6e-13"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph205_13_1_to_13_5",
+   "source_ref": "leph205.txt end-of-chapter exercises 13.1-13.5",
+   "questions": [
+    "Find the binding energy in MeV of a nitrogen-14 nucleus given its atomic mass as 14.00307 u.",
+    "Work out the binding energies of iron-56 (55.934939 u) and bismuth-209 (208.980388 u) in MeV.",
+    "A 3.0 g coin is pure copper-63 (atomic mass 62.92960 u). How much nuclear energy would pull all its protons and neutrons apart?",
+    "Estimate the ratio of nuclear radii of the gold isotope with A = 197 to the silver isotope with A = 107.",
+    "Using given atomic masses, find the Q values of two stated reactions and label each exothermic or endothermic."
+   ]
+  },
+  {
+   "id": "ex_leph205_13_6_to_13_10",
+   "source_ref": "leph205.txt end-of-chapter exercises 13.6-13.10",
+   "questions": [
+    "Could an iron-56 nucleus split into two equal aluminium-28 fragments? Decide by computing the Q value from the given masses.",
+    "Each fission of plutonium-239 frees 180 MeV. Find the total MeV released when 1 kg of the isotope fissions completely.",
+    "For how long can a 100 W lamp run on the 3.27 MeV per reaction released by fusing 2.0 kg of deuterium?",
+    "Treat two deuterons as hard spheres of radius 2.0 fm and calculate the Coulomb barrier height for a head-on collision.",
+    "Starting from R = R0 A^(1/3), argue that the density of nuclear matter is essentially the same for every nucleus."
+   ]
+  }
+ ]
+}

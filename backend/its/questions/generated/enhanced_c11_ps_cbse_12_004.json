@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_004",
+   "title": "c11_ps_cbse_12_004",
+   "questions": [
+    {
+     "q": "Define FPTP and state the exact winning condition for a candidate in a single-member constituency under this system.",
+     "a": "FPTP (First Past the Post) is a plurality electoral system where the candidate with the highest number of votes in a single-member constituency wins, regardless of whether they secure an absolute majority (50%+1). A wrong answer (e.g., \"candidate needs 50%+1 votes\") reveals confusion between plurality and majority systems, indicating the student conflates FPTP with run-off or alternative vote systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a political party securing 30% of the national popular vote can win a comfortable majority (over 50%) of seats in the Lok Sabha under FPTP.",
+     "a": "FPTP operates constituency-by-constituency, not nationally. A party's votes may be geographically concentrated, allowing it to win many constituencies with modest margins (e.g., 35-40%), while its opponents' votes are either concentrated in fewer constituencies (wasted as huge majorities) or dispersed (coming second everywhere). The \"winner-takes-all\" per constituency severs the link between national vote share and seat share. A wrong answer focusing only on \"low turnout\" or \"many parties\" misses the structural mechanical effect of single-member districts and plurality rule.",
+     "self_check": true
+    },
+    {
+     "q": "In a constituency with 1,00,000 registered voters and 65% turnout, four candidates receive: A: 26,000; B: 22,000; C: 18,000; D: 14,000 votes. Determine the winner, calculate the winner's vote share of total votes cast, and calculate the percentage of voters who voted for losing candidates.",
+     "a": "Total votes cast = 65,000. Winner: Candidate A (26,000 votes, plurality). Winner's vote share = 26,000/65,000 = 40%. Votes for losing candidates = 39,000 (60%). A wrong answer calculating winner's share against registered voters (26%) or claiming a majority is needed reveals misunderstanding of the denominator (votes cast vs. electorate) and the plurality vs. majority distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare FPTP and Proportional Representation (PR) on how each system treats a party with 15% national vote share that is evenly dispersed across all constituencies versus a party with 15% vote share concentrated in one region.",
+     "a": "Under FPTP, the dispersed party wins zero seats (comes second everywhere), while the concentrated party wins multiple seats in its region. Under PR (national list), both get ~15% seats regardless of geography. FPTP rewards geographic concentration; PR rewards vote share irrespective of location. A wrong answer claiming FPTP gives the dispersed party some seats ignores the \"winner-takes-all\" mechanical exclusion of runners-up in every single constituency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that FPTP produces \"manufactured majorities\" where a party wins a legislative majority without a popular majority. Use the 2014 and 2019 Indian general election outcomes (BJP: ~31% and ~37% vote share → 52% and 56% seats) to support your judgment.",
+     "a": "The criticism is valid. FPTP's mechanical effect (cube law) amplifies the leading party's seat share far beyond its vote share when opposition votes are fragmented. In 2014, BJP's 31% vote yielded 52% seats (282/543); in 2019, 37% vote yielded 56% seats (303/543). This occurs because BJP won many seats with 40-45% votes while opposition votes split among multiple runners-up. A wrong answer dismissing this as \"normal democracy\" fails to recognize the systemic disproportionality inherent in plurality rule in multi-party systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom simulation for 30 students to demonstrate FPTP's disproportionality. Specify: number of constituencies, party options, vote distribution, and the expected seat-vote gap to be revealed.",
+     "a": "Divide class into 5 constituencies of 6 voters each. 3 parties: X, Y, Z. Distribute votes: Constituency 1-3: X=3, Y=2, Z=1; Constituency 4-5: X=1, Y=3, Z=2. Total votes: X=11, Y=12, Z=7 (30 votes). FPTP result: X wins 3 seats (60%), Y wins 2 seats (40%), Z wins 0. Vote share: X=37%, Y=40%, Z=23%. Disproportionality: X gets 60% seats with 37% votes; Z gets 0 seats with 23% votes. A poor simulation uses one big constituency (which would be PR) or ignores geographic distribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

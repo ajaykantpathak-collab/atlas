@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_002",
+   "title": "c11_acc_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the fundamental difference between the Totals Method and the Balances Method of preparing a Trial Balance in terms of what figures are taken from the ledger accounts.",
+     "a": "The Totals Method uses the **sum of debit entries** and **sum of credit entries** for each account (gross totals), while the Balances Method uses only the **net balance** (debit total minus credit total or vice versa) of each account. A wrong answer—such as saying both methods use net balances—reveals the student confuses the *output format* of the trial balance with the *source data* extracted from the ledger.",
+     "self_check": true
+    },
+    {
+     "q": "In the Totals Method, the total of the Debit Total column and the total of the Credit Total column in the Trial Balance are always equal. Explain why this equality holds even though individual accounts may have different debit and credit totals.",
+     "a": "Because every transaction is recorded with equal debits and credits in the ledger (double-entry principle), the sum of *all* debit entries across all accounts must equal the sum of *all* credit entries across all accounts. The Totals Method simply aggregates these totals column-wise, preserving the equality. A student who says \"because the trial balance tallies\" is reasoning circularly—they must articulate the *cause* (double-entry recording) not the *effect* (tallying).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following ledger account for \"Rohan\", prepare the row for Rohan in a Trial Balance using (a) Totals Method and (b) Balances Method.\nRohan's Account:\nDr. Side: Jan 1 Balance b/d ₹10,000 | Dec 31 Purchases ₹50,000\nCr. Side: Dec 31 Cash ₹40,000 | Dec 31 Balance c/d ₹20,000",
+     "a": "(a) Totals Method: Debit Total = ₹60,000 (10,000 + 50,000), Credit Total = ₹60,000 (40,000 + 20,000).\n(b) Balances Method: Debit Balance = ₹20,000 (60,000 − 40,000). Since debit total > credit total, it's a debit balance of ₹20,000.\nA wrong answer (e.g., showing credit balance ₹20,000 in Balances Method) reveals the student cannot determine the *side* of the balance—this is a critical skill for financial statement preparation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Totals Method and Balances Method trial balances for the same set of ledger accounts. The grand totals of the Totals Method will be **larger** than the grand totals of the Balances Method. Explain why this is always true (assuming at least one account has entries on both sides).",
+     "a": "In the Totals Method, both debit and credit *entries* are summed, so an account with ₹50,000 debit entries and ₹30,000 credit entries contributes ₹50,000 + ₹30,000 = ₹80,000 to the combined grand total. In the Balances Method, only the net ₹20,000 balance appears. Since every account with entries on both sides has gross totals > net balance, the aggregate is always larger. A student who says \"because Totals Method has four columns\" confuses format with arithmetic magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Balances Method is better because it shows the net position of each account. Therefore, the Totals Method is useless and should never be taught.\" Evaluate this claim with reference to the NCERT textbook's stated purpose of each method.",
+     "a": "The claim is **partially correct but incomplete**. The NCERT explicitly states the Totals Method \"does not help in assuming accuracy of balances of various accounts and preparation of the financial statements,\" which supports the student's view. However, the Totals Method serves a pedagogical and audit purpose: it verifies that *both sides* of every account have been correctly totalled before balancing, acting as a cross-check on the ledger totals themselves. A student who dismisses it entirely misses its role in error localisation (e.g., detecting totalling errors in subsidiary books).",
+     "self_check": true
+    },
+    {
+     "q": "Design a ledger account for \"Machinery\" with at least four transactions (mix of debit and credit entries) such that: (i) the Debit Total in the Totals Method is ₹45,000, (ii) the Credit Total is ₹15,000, and (iii) the Balances Method shows a Debit Balance of ₹30,000. Write the full account in T-format.",
+     "a": "**Machinery Account**\nDr. | Cr.\n--- | ---\nDate | Particulars | J.F. | Amount (₹) | Date | Particulars | J.F. | Amount (₹)\nApr 1 | Balance b/d | | 25,000 | Oct 15 | Depreciation | | 10,000\nJul 10 | Bank (purchase) | | 20,000 | Dec 31 | Balance c/d | | 30,000\n| | | **45,000** | | | | **15,000** + **30,000** = 45,000\nApr 1 (Next yr) | Balance b/d | | 30,000 | | | | \n*Verification*: Debit Total = 45,000; Credit Total (entries only) = 15,000; Balance = 45,000 − 15,000 = 30,000 (Dr). A poor answer would omit the opening/closing balance entries or miscalculate the credit total, showing the student cannot *construct* data to meet given constraints—a key reverse-engineering skill for exam problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

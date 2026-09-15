@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_010",
+   "title": "c12_cs_cbse_09_010",
+   "questions": [
+    {
+     "q": "What is the exact filename extension required for a Python user-defined module, and what name is used to import it?",
+     "a": "The file must have a `.py` extension (e.g., `utils.py`). The import name is the filename without the extension (`import utils`). A wrong answer like \"`.pyc`\" or \"the folder name\" reveals the student confuses compiled bytecode files or packages with modules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when Python executes `import mymodule` for the first time versus the second time in the same program.",
+     "a": "First import: Python searches `sys.path`, finds `mymodule.py`, executes its top-level code (creating functions, classes, variables), and stores the module object in `sys.modules['mymodule']`. Subsequent imports: Python finds the module already in `sys.modules` and simply binds the existing module object to the name `mymodule` in the current namespace — the module's code is NOT re-executed. A wrong answer like \"it runs the code every time\" shows the student doesn't understand module caching, leading to bugs if the module has side effects (e.g., printing, modifying global state).",
+     "self_check": true
+    },
+    {
+     "q": "You have a file `math_tools.py` containing `def add(a, b): return a + b`. In another file, you write `from math_tools import add` and then `result = add(10, 5)`. What is the value of `result`, and what would happen if you instead wrote `import math_tools` and then `result = add(10, 5)`?",
+     "a": "With `from math_tools import add`, `add` is bound directly in the current namespace, so `result = add(10, 5)` works and `result` is `15`. With `import math_tools`, `add` is NOT in the current namespace; you must call `math_tools.add(10, 5)`. Writing `add(10, 5)` after `import math_tools` raises `NameError: name 'add' is not defined`. A wrong answer indicates the student doesn't distinguish between importing a name into the local namespace versus accessing it through the module namespace.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two import styles for a module `geometry` that contains `def area_circle(r): return 3.14 * r * r`:\nStyle A: `import geometry` then `a = geometry.area_circle(5)`\nStyle B: `from geometry import area_circle` then `a = area_circle(5)`\nWhich style is better for avoiding name clashes in a large project, and why?",
+     "a": "Style A is better for large projects because `geometry.area_circle` keeps the function inside the `geometry` namespace. If another module also defines `area_circle`, Style B would overwrite the first imported name, causing silent bugs. Style A makes the origin explicit (`geometry.area_circle` vs `other.area_circle`). A student who says \"Style B is shorter so it's better\" misses the critical namespace management aspect.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates `tools.py` with:\n```python\ndef helper():\n    print(\"helper called\")\nprint(\"Module loaded\")\nif __name__ == \"__main__\":\n    print(\"Running as script\")\n```\nThey then run `python tools.py` and separately run another script that does `import tools`. Describe the exact output in both cases and explain why.",
+     "a": "Running `python tools.py` prints:\n```\nModule loaded\nRunning as script\n```\nImporting `tools` in another script prints only:\n```\nModule loaded\n```\nBecause when a file is run directly, `__name__` is set to `\"__main__\"`, so the `if` block executes. When imported, `__name__` is the module name (`\"tools\"`), so the block is skipped. A student who thinks both outputs are identical doesn't understand the purpose of the guard — it prevents test code from running during imports.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python project structure for a \"Student Grade Calculator\" that uses at least two user-defined modules. Describe the files, their responsibilities, and how they import each other. Include a `main.py` that uses the modules.",
+     "a": "Example structure:\n- `grade_calculator.py`: contains `calculate_average(marks_list)`, `assign_grade(average)`.\n- `data_utils.py`: contains `read_marks_from_csv(filename)`, `write_report_to_txt(student, grade)`.\n- `main.py`: imports both: `import grade_calculator, data_utils`. Uses `data_utils.read_marks_from_csv`, passes data to `grade_calculator.calculate_average`, then `grade_calculator.assign_grade`, finally `data_utils.write_report_to_txt`.\nA good answer shows clear separation of concerns (calculation vs I/O), correct import syntax, and no circular imports. A poor answer puts everything in one file or creates circular dependencies, indicating the student hasn't grasped modular design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

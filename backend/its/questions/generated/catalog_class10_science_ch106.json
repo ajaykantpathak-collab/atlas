@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class10_science_ch106.json",
+ "concepts": [
+  {
+   "id": "jesc.6.1.1",
+   "title": "Structure of a Neuron and Nerve Impulse Transmission",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the parts of a neuron.",
+     "a": "Cell body with nucleus, branching dendrites that receive signals, and a long axon ending in axon terminals.",
+     "self_check": true
+    },
+    {
+     "q": "How does a nerve impulse travel within a neuron?",
+     "a": "As an electrical signal: dendrites pick it up, it runs along the axon, and chemicals pass it to the next cell at the synapse.",
+     "self_check": true
+    },
+    {
+     "q": "What happens at a synapse?",
+     "a": "On reaching the axon end, chemicals are released that cross the gap and start a fresh electrical impulse in the next neuron.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.2",
+   "title": "Reflex Action and Reflex Arc",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a reflex action? Give two examples.",
+     "a": "A quick, automatic response to a stimulus without thinking - e.g. jerking the hand from a hot object, or blinking at sudden light.",
+     "self_check": true
+    },
+    {
+     "q": "What is a reflex arc?",
+     "a": "The shortest path of the impulse: receptor -> sensory neuron -> spinal cord -> motor neuron -> effector muscle.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the reflex arc bypass the brain?",
+     "a": "For speed: the spinal cord handles the response at once while the brain is informed later - thinking would be too slow.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.3",
+   "title": "Regions and Functions of the Human Brain",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three main regions of the brain and one job of each.",
+     "a": "Forebrain (thinking, memory), midbrain (involuntary reflexes of eye/head), hindbrain with medulla (heartbeat, breathing, balance).",
+     "self_check": true
+    },
+    {
+     "q": "Which part of the brain maintains posture and balance?",
+     "a": "The cerebellum in the hindbrain.",
+     "self_check": true
+    },
+    {
+     "q": "Which activities does the medulla control?",
+     "a": "Involuntary vital actions like heartbeat, breathing, blood pressure, vomiting and salivation.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.4",
+   "title": "Protection of the Central Nervous System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is the brain protected in the body?",
+     "a": "It sits in a bony skull and is wrapped in three membranes (meninges) with cerebrospinal fluid cushioning shocks.",
+     "self_check": true
+    },
+    {
+     "q": "How is the spinal cord protected?",
+     "a": "It runs inside the vertebral column (backbone), which guards it like the skull guards the brain.",
+     "self_check": true
+    },
+    {
+     "q": "Why is cerebrospinal fluid important?",
+     "a": "It acts as a shock absorber between the delicate CNS tissue and the bone, and also nourishes it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.5",
+   "title": "Cellular Mechanism of Muscle Contraction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a muscle move a bone?",
+     "a": "A nerve impulse makes the muscle fibres shorten; the muscle pulls (never pushes) the bone at its joint.",
+     "self_check": true
+    },
+    {
+     "q": "Why must muscles work in pairs, like the biceps and triceps?",
+     "a": "Muscles can only pull; one muscle bends the joint while its partner straightens it back.",
+     "self_check": true
+    },
+    {
+     "q": "What triggers the chemical change that shortens a muscle fibre?",
+     "a": "A nerve impulse arriving at the muscle cell sets off chemical changes that make the fibre contract.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.1",
+   "title": "Immediate Growth-Independent Movements in Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the immediate response of a plant to touch, as in mimosa?",
+     "a": "Cells of the leaf base change shape by losing/gaining water, so the leaf droops at once - no growth involved.",
+     "self_check": true
+    },
+    {
+     "q": "Why is touch response in plants not a reflex-like nerve action?",
+     "a": "Plants have no nerve cells; the signal spreads cell to cell as a chemical that changes cell water content.",
+     "self_check": true
+    },
+    {
+     "q": "Do immediate plant movements involve growth? Why?",
+     "a": "No - they are quick shape changes of existing cells, unlike growth movements which take days.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.2",
+   "title": "Directional Growth Movements (Tropisms)",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is phototropism? Which hormone causes it?",
+     "a": "Growth of a shoot towards light, caused by auxin collecting on the shaded side making that side elongate more.",
+     "self_check": true
+    },
+    {
+     "q": "Name the plant movements called geotropism and hydrotropism.",
+     "a": "Roots growing downward in response to gravity (geotropism) and toward water (hydrotropism).",
+     "self_check": true
+    },
+    {
+     "q": "How does a tendril coil around a support?",
+     "a": "Touch makes auxin gather on the far side, so that side grows faster and the tendril curls around the support.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.3",
+   "title": "Functions of Phytohormones",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name any three plant hormones and one function each.",
+     "a": "Auxin (cell elongation), gibberellin (stem growth, fruiting), cytokinin (cell division), abscisic acid (wilting, dormancy).",
+     "self_check": true
+    },
+    {
+     "q": "Which plant hormone promotes wilting and dormancy?",
+     "a": "Abscisic acid - it inhibits growth and helps the plant face stress.",
+     "self_check": true
+    },
+    {
+     "q": "Which hormone would you spray to make fruits ripen or drop leaves?",
+     "a": "Ethylene speeds fruit ripening; abscisic acid promotes leaf fall.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.3.1",
+   "title": "Endocrine Glands and Animal Hormones",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are endocrine glands?",
+     "a": "Ductless glands that pour hormones straight into blood, e.g. thyroid, pituitary, adrenal, pancreas (islets).",
+     "self_check": true
+    },
+    {
+     "q": "How do hormones reach their target organs?",
+     "a": "They are carried by blood to all body parts but only the target organs with matching receptors respond.",
+     "self_check": true
+    },
+    {
+     "q": "Name the hormone that lowers blood sugar and its gland.",
+     "a": "Insulin, secreted by the pancreas.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.3.2",
+   "title": "Feedback Control of Hormone Secretion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is thyroid hormone secretion kept in check?",
+     "a": "Feedback: low blood thyroxine signals the pituitary to release TSH; once thyroxine is enough, TSH release stops.",
+     "self_check": true
+    },
+    {
+     "q": "What disease follows iodine deficiency and why?",
+     "a": "Goitre - without iodine the thyroid cannot make thyroxine, so it swells trying to.",
+     "self_check": true
+    },
+    {
+     "q": "Why is adrenaline called the emergency hormone?",
+     "a": "In fear or stress the adrenal glands release adrenaline that speeds heartbeat and breathing, readying the body for action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

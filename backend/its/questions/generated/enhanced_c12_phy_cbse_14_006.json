@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_006",
+   "title": "c12_phy_cbse_14_006",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the output frequency of a center-tap full-wave rectifier if the input AC frequency is 50 Hz. Write the formula relating output frequency to input frequency.",
+     "a": "Output frequency = 100 Hz. Formula: f_out = 2 × f_in. A wrong answer (e.g., 50 Hz) reveals the student thinks the rectifier still passes only one half-cycle per input cycle, confusing it with the half-wave rectifier.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: In the center-tap full-wave rectifier circuit, the center tap of the transformer secondary is connected to one end of the load resistor. The other end of the load goes to the common cathodes of the two diodes. Explain why the center tap **must** be the common reference (ground) for the output voltage, and what would happen if the load were connected between the two secondary ends A and B instead.",
+     "a": "The center tap provides the zero-voltage reference mid-point. The voltages at A and B are equal in magnitude but 180° out of phase. Connecting the load between A and B would place the load across the **entire** secondary winding; the two diodes would then be in series across the load, and the circuit would not rectify — it would behave as a single diode with double the PIV requirement, conducting only during one half-cycle. A wrong answer shows the student does not grasp the phase relationship between the two half-secondaries and the need for a common return path.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A center-tap transformer has a secondary rating of 12-0-12 V (RMS) at 50 Hz. The load resistance is 1 kΩ. Assume ideal diodes (zero forward drop, zero reverse current). Calculate: (a) peak voltage across each half-secondary, (b) peak inverse voltage (PIV) across each diode, (c) DC output voltage across the load, (d) output frequency.",
+     "a": "(a) V_m = V_rms × √2 = 12 × 1.414 = 16.97 V.  \n(b) PIV = 2 × V_m = 33.94 V (when one diode conducts, the other sees the full secondary voltage plus its own peak).  \n(c) V_dc = 2V_m/π = (2 × 16.97)/3.1416 = 10.80 V.  \n(d) f_out = 2 × 50 = 100 Hz.  \nA wrong PIV (e.g., 16.97 V) indicates the student uses the half-wave PIV formula. A wrong V_dc (e.g., 5.4 V) indicates using the half-wave average formula V_m/π.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare the output waveforms of a half-wave rectifier and a center-tap full-wave rectifier for the same input amplitude and frequency. Sketch both waveforms on the same time axis (qualitative). From the waveforms, deduce why the ripple factor of the full-wave rectifier is lower (≈0.48) than that of the half-wave rectifier (≈1.21).",
+     "a": "The half-wave output has pulses separated by the full input period (20 ms for 50 Hz); the full-wave output has pulses every half-period (10 ms). The capacitor filter (if added) has less time to discharge between pulses, so the ripple voltage is smaller. The ripple factor γ = V_ac,rms / V_dc. For full-wave, V_dc is doubled while the AC ripple component is reduced because the fundamental ripple frequency is 2f. A wrong answer that only states \"full-wave is better\" without referencing the doubled pulse frequency and reduced discharge time shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: A student claims: \"In a center-tap full-wave rectifier, both diodes conduct simultaneously during the crossover when the input voltage passes through zero.\" Is this statement correct? Justify using the voltage waveforms at A and B with respect to the center tap.",
+     "a": "The statement is **incorrect**. At the zero-crossing instant, the voltage at A and B with respect to center tap is zero. Both diodes are at zero bias (neither forward nor reverse). They do not conduct simultaneously; conduction transfers from one diode to the other. If both conducted, the secondary would be shorted through the two forward-biased diodes, causing excessive current. A student who agrees likely confuses \"crossover\" with \"overlap\" in bridge rectifiers with inductive loads, or misunderstands that the diodes are never forward-biased together in a resistive-load center-tap circuit.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a simple lab experiment to verify that the output frequency of a center-tap full-wave rectifier is twice the input frequency. List the apparatus, the circuit connections, the measurements to be taken on a CRO, and the expected observation.",
+     "a": "Apparatus: Center-tap transformer (6-0-6 V), two diodes (1N4007), load resistor (1 kΩ), CRO, connecting wires.  \nCircuit: Connect as per standard diagram. Feed transformer primary from 50 Hz mains. Connect CRO Channel 1 across the full secondary (A-B) to see input (100 Hz? No, A-B is the full secondary, so input to rectifier is 50 Hz at each half). Better: Channel 1 across one half-secondary (A-CT) to see 50 Hz sine. Channel 2 across load to see rectified output.  \nMeasure: Time period of Channel 1 (T_in = 20 ms). Time period of Channel 2 pulses (T_out = 10 ms).  \nExpected: T_out = T_in / 2, confirming f_out = 2f_in. A poor answer omits the dual-trace comparison or measures only DC voltage, missing the frequency verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

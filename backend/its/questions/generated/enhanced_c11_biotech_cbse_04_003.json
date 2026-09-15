@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_003",
+   "title": "c11_biotech_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the fundamental difference between the lock-and-key model and the induced fit model regarding the conformation of the enzyme's active site before substrate binding.",
+     "a": "Correct answer: In the lock-and-key model, the active site is pre-shaped and rigid, complementary to the substrate in the free enzyme state. In the induced fit model, the active site is flexible and only attains its fully complementary conformation *after* substrate binding induces a conformational change. A wrong answer (e.g., \"both models say the active site changes shape\") reveals the student has not grasped that the lock-and-key model explicitly assumes a static, pre-formed active site — a critical distinction for understanding why induced fit explains broad substrate specificity and catalytic power.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The induced fit model means the enzyme changes shape randomly until the substrate fits.\" Explain why this statement is incorrect and describe what actually drives the conformational change.",
+     "a": "Correct answer: The conformational change is not random; it is *directed* and *specific* — triggered by the binding energy and specific interactions (hydrogen bonds, hydrophobic interactions, electrostatic forces) between the substrate and the enzyme's active site residues. The substrate acts as a \"mould\" that stabilizes a particular catalytically competent conformation from an ensemble of accessible states. A wrong answer (e.g., \"the enzyme flexes randomly\") reveals a misconception that induced fit implies non-specific flexibility, missing the thermodynamic principle that substrate binding energy pays for the conformational change and selects the productive conformation.",
+     "self_check": true
+    },
+    {
+     "q": "Hexokinase undergoes a large conformational change (domain closure) when glucose binds, but not when water binds. Using the induced fit model, explain how this prevents wasteful ATP hydrolysis.",
+     "a": "Correct answer: Glucose binding induces the catalytically competent \"closed\" conformation that aligns ATP and glucose for phosphoryl transfer and excludes water from the active site. Water, being small and lacking the specific hydroxyl groups and hydrophobic interactions of glucose, cannot trigger the domain closure. Thus, the enzyme remains in an \"open\" inactive conformation when only water is present, preventing ATP hydrolysis. A wrong answer (e.g., \"water is too small to fit\") misses the key point: induced fit uses *specific binding interactions* as a selectivity filter — only the correct substrate pays the \"energy cost\" of the conformational change that creates the active catalytic site.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the induced fit model and the lock-and-key model in their ability to explain: (a) why some enzymes show broad substrate specificity (group specificity), and (b) why the transition state binds more tightly than the substrate.",
+     "a": "Correct answer: (a) Induced fit explains group specificity because the flexible active site can adjust its conformation to accommodate structurally similar substrates, each inducing a slightly different but catalytically productive fit. Lock-and-key cannot explain this because a single rigid cavity cannot be complementary to multiple different shapes. (b) Induced fit explains tighter transition state binding because the enzyme's conformational change is driven by substrate binding energy, straining the substrate toward the transition state geometry; the active site becomes *most* complementary to the transition state. Lock-and-key implies maximal complementarity to the ground-state substrate, not the transition state. A wrong answer reveals inability to link conformational flexibility to both specificity breadth and catalytic mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The induced fit model proves that enzymes are not specific because they change shape for different substrates.\" Provide a biochemical argument using the concept of binding energy.",
+     "a": "Correct answer: The statement confuses *flexibility* with *lack of specificity*. Induced fit *enhances* specificity: only substrates with sufficient binding energy (correct shape, charge, hydrophobicity) can induce the productive conformational change. Non-substrates either don't bind or bind without triggering the catalytic conformation. Binding energy is used both for specificity (discrimination) and catalysis (conformational change). A wrong answer (e.g., agreeing with the statement) reveals a fundamental misunderstanding that conformational flexibility equals promiscuity, ignoring the energy landscape where only the correct substrate stabilizes the high-energy catalytically active conformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using site-directed mutagenesis to test whether a specific hinge region in an enzyme is essential for the induced fit conformational change. Describe the mutants you would make, the assays you would run, and the expected results if the hinge is critical.",
+     "a": "Correct answer: Mutate conserved glycine/alanine residues in the predicted hinge region to bulky prolines (restricts flexibility) or delete the hinge loop. Assay: (1) Measure kinetics (Km, Vmax) for wild-type vs mutants. (2) Use fluorescence spectroscopy or crystallography to detect conformational change upon substrate binding. Expected: Mutants show drastically reduced Vmax (impaired catalysis) but similar Km (binding intact), and no spectroscopic/structural evidence of domain closure. A poor answer (e.g., \"mutate the active site\") reveals inability to distinguish between residues involved in *binding* vs *conformational dynamics* — a key experimental design skill in enzymology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

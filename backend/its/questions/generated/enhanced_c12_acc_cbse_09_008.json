@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_008",
+   "title": "c12_acc_cbse_09_008",
+   "questions": [
+    {
+     "q": "According to AS-3, how should cash flows arising from taxes on income be classified if they cannot be specifically identified with financing or investing activities?",
+     "a": "They must be classified as cash flows from operating activities. A wrong answer (e.g., \"financing\" or \"investing\") reveals the student has not internalised the default classification rule in AS-3 paragraph 33 and is likely guessing based on the word \"tax\" rather than the source of the income.",
+     "self_check": true
+    },
+    {
+     "q": "A company pays ₹50 lakh as dividend distribution tax (DDT) on dividends declared. The accountant classifies this as an operating cash outflow because \"tax is always operating.\" Explain why this classification is incorrect under AS-3 and state the correct classification with reasoning.",
+     "a": "DDT is a financing cash outflow because it is directly linked to the distribution of profits to owners (dividend paid), which is a financing activity. Classifying it as operating misstates the cash generated from core operations and violates AS-3's specific identification rule. A student who says \"operating\" is applying a blanket rule without reading the exception for financing/investing identification.",
+     "self_check": true
+    },
+    {
+     "q": "From the following data, calculate the Income Tax Paid during the year and show how it will be presented in the Cash Flow Statement (indirect method):\n- Provision for Taxation (Opening): ₹80,000\n- Provision for Taxation (Closing): ₹95,000\n- Statement of Profit and Loss shows Provision for Taxation made during the year: ₹95,000\n- The tax paid includes ₹15,000 for Dividend Distribution Tax.",
+     "a": "Step 1: Prepare Provision for Taxation Account. Dr side: Bank (Tax Paid - balancing figure), Cr side: Balance b/d ₹80,000, Profit & Loss ₹95,000. Total Cr = ₹1,75,000. Balance c/d ₹95,000. So Bank (Tax Paid) = ₹1,75,000 - ₹95,000 = ₹80,000.\nStep 2: Separate DDT ₹15,000 (financing) from Income Tax Paid ₹65,000 (operating).\nStep 3: In Cash Flow Statement: Operating Activities: Cash Generated from Operations → Less: Income Tax Paid ₹65,000. Financing Activities: Dividend Paid → Dividend Distribution Tax Paid ₹15,000.\nA wrong answer that shows ₹80,000 as operating tax paid reveals the student cannot separate the financing component and does not know how to use a ledger account to derive cash paid.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Loss due to earthquake\" (extraordinary item) and \"Loss on sale of machinery\" (ordinary item) in the indirect method cash flow statement. Why does AS-3 require separate disclosure of the extraordinary item after tax?",
+     "a": "Loss on sale of machinery is deducted from net profit (or added back if it's a loss) in \"Operating Profit before Working Capital Changes\" because it is a non-operating item included in profit. Loss due to earthquake is an extraordinary item; it is shown separately *after* \"Income Tax Paid\" and *before* \"Net Cash from Operating Activities\" with a descriptive label. Separate disclosure allows users to assess the impact of rare events on cash flows and predict future cash flows without the distortion of one-off events. A student who puts both in the same adjustment line fails to understand the purpose of extraordinary item disclosure: transparency and comparability.",
+     "self_check": true
+    },
+    {
+     "q": "A company sells a building (book value ₹2 crore) for ₹3 crore and pays ₹20 lakh capital gains tax on the profit. The CFO argues the entire ₹3 crore proceeds minus ₹20 lakh tax = ₹2.8 crore should be shown as a single investing inflow. Evaluate this argument.",
+     "a": "The argument is incorrect. AS-3 requires gross cash flows to be disclosed separately. The cash inflow from sale of building is ₹3 crore (investing inflow). The capital gains tax paid of ₹20 lakh is an investing outflow (because it arises from an investing transaction). Netting them off violates the gross disclosure principle and hides the tax cost of the investment decision. A student who agrees with the CFO is confusing net presentation (allowed in some frameworks) with AS-3's mandatory gross classification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case study (3-4 transactions) involving at least one tax payment and one extraordinary item where a student must prepare the \"Cash Flows from Operating Activities\" section (indirect method) starting from Net Profit before Tax and Extraordinary Items. Provide the solution with the correct proforma.",
+     "a": "A good answer will include: (1) Net Profit before Tax & Extraordinary Items, (2) Adjustments for non-cash/non-operating items, (3) Operating Profit before WC changes, (4) WC adjustments, (5) Cash Generated from Operations, (6) Less: Income Tax Paid (operating portion only), (7) Cash Flow before Extraordinary Items, (8) ± Extraordinary Item (e.g., Insurance claim received for flood loss), (9) Net Cash from Operating Activities. The case must explicitly separate DDT (financing) and capital gains tax (investing) from the tax provision. A poor answer will lump all taxes together or omit the extraordinary item line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

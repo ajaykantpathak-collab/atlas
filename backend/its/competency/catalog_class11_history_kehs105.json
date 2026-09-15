@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "history",
+ "chapter": 105,
+ "chapter_title": "Changing Cultural Traditions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehs105.txt",
+ "concepts": [
+  {
+   "id": "kehs.105.1.1",
+   "title": "The Italian Renaissance and Humanism",
+   "section": "",
+   "definition": "The Renaissance began in the Italian towns of the fourteenth century where educated urban elites turned to classical Greek and Roman learning, and humanism celebrated human beings and their capacities rather than only religious concerns, with figures like Petrarch leading the revival.",
+   "formula": "",
+   "key_idea": "Humanists studied the humanities of grammar, rhetoric, poetry and history, seeing history in periods of ancient, medieval and their own modern age.",
+   "textbook_ref": "kehs105.txt renaissance and humanism sections",
+   "question_patterns": [
+    "define humanism and its main features",
+    "why did the renaissance begin in the italian towns",
+    "who was petrarch and why is he called the father of humanism",
+    "what subjects did the humanists study",
+    "explain the humanist view of history",
+    "state the role of the fall of constantinople in the renaissance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.105.2.1",
+   "title": "Artists, Patrons and the Sciences",
+   "section": "",
+   "definition": "Artists like Leonardo da Vinci, Michelangelo and Raphael worked under the patronage of merchants, dukes and popes, developing perspective and anatomy in art, while the scientific spirit of observation appeared in astronomy, anatomy and natural studies before the Scientific Revolution.",
+   "formula": "",
+   "key_idea": "Patronage turned artists from anonymous craftsmen into celebrated individuals, and the same urban wealth financed voyages and new scientific inquiry.",
+   "textbook_ref": "kehs105.txt artists and science sections",
+   "question_patterns": [
+    "name the great artists of the renaissance and their works",
+    "what was the role of patronage in renaissance art",
+    "how did renaissance art use perspective and anatomy",
+    "describe the scientific interests of the age",
+    "who financed renaissance artists and why",
+    "explain the connection between art and science in the renaissance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.105.3.1",
+   "title": "Printing, Reformation and the Wider World",
+   "section": "",
+   "definition": "Gutenberg's printing press spread books cheaply, Martin Luther's challenge to the Church in 1517 launched the Reformation dividing western Christianity, and explorers like Columbus opened the Americas, together carrying Europe into the early modern world of print, reform and global exchange.",
+   "formula": "",
+   "key_idea": "Print multiplied religious and humanist texts, letting Luther's ideas travel faster than the Church could answer, while voyages redrew Europe's economic map.",
+   "textbook_ref": "kehs105.txt printing reformation sections",
+   "question_patterns": [
+    "what was the contribution of gutenberg's printing press",
+    "describe luther's role in the reformation",
+    "how did the reformation divide europe",
+    "explain the voyages of exploration of the fifteenth and sixteenth centuries",
+    "why is the renaissance called a changing cultural tradition",
+    "connect print reformation and exploration as changes of the age"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kehs105.txt exercises",
+   "questions": [
+    "Compare the italian renaissance with the northern renaissance.",
+    "Describe the themes of renaissance art.",
+    "What was humanism? How did it change learning?",
+    "Explain the causes of the reformation.",
+    "Discuss the importance of the printing press in cultural change."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_003",
+   "title": "c11_geo_cbse_01_003",
+   "questions": [
+    {
+     "q": "Which of the following studies exemplifies the systematic approach: (a) A monograph on the economy, culture, and physical setting of the Chotanagpur Plateau, (b) A global analysis of the distribution and formation of laterite soils, (c) A district-level planning report for Bastar integrating agriculture, minerals, and tribal livelihoods, (d) A case study of urban sprawl in the Delhi-NCR region?",
+     "a": "Correct answer: (b) A global analysis of the distribution and formation of laterite soils. This studies a single phenomenon (laterite soils) across the world to establish general principles. Options (a), (c), and (d) are regional because they integrate multiple phenomena within a specific bounded area. A wrong answer reveals the student confuses 'detailed study of a place' with 'study of one theme across places'.",
+     "self_check": true
+    },
+    {
+     "q": "Alexander von Humboldt is associated with the systematic approach and Carl Ritter with the regional approach. Explain why Humboldt's work on isotherms and vegetation zones represents systematic geography, while Ritter's 'Erdkunde' organized by continents represents regional geography.",
+     "a": "Humboldt sought universal laws: he compared temperature patterns (isotherms) and plant distributions across continents to derive general principles linking latitude, altitude, and vegetation — a single theme globally. Ritter described each continent as a unique 'organism' integrating its physical geography, history, and human adaptations — all themes in one region. A wrong answer indicates the student memorizes names but cannot link methodology to the core distinction: one theme worldwide vs. all themes in one area.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to understand why the Deccan Traps region has black cotton soil, specific cropping patterns, and a concentration of cotton textile industries. Should they use a systematic or regional approach? Justify your choice and outline the first three steps they would take.",
+     "a": "Regional approach — the question demands integration of geology (Deccan Traps), pedology (black soil), agriculture (cotton/jowar), and industry (textile mills) within one bounded region. Steps: 1) Delineate the Deccan Trap region using geological maps. 2) Map the spatial coincidence of black soil, cotton cultivation, and textile mills within that boundary. 3) Analyze causal linkages: basalt weathering → vertisols → cotton suitability → industrial location. A wrong answer (systematic) shows inability to recognize multi-theme integration in a defined area.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the systematic and regional approaches in studying the Indian Monsoon. How would a systematic climatologist and a regional geographer of Kerala differ in their research questions, data, and spatial scale?",
+     "a": "Systematic climatologist: Research question — \"What global pressure gradients drive monsoon onset?\" Data — global pressure belts, ITCZ movement, sea surface temperatures. Scale — planetary to continental. Regional geographer of Kerala: Research question — \"How does the monsoon shape Kerala's paddy cultivation, landslide risk, and tourism seasonality?\" Data — district rainfall, crop calendars, disaster records, tourist arrivals. Scale — state/district. A weak answer treats both as 'studying monsoon' without distinguishing scale, theme integration, and research intent.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Systematic geography is scientific because it seeks laws; regional geography is merely descriptive and lacks theoretical rigor.\" Use the concept of 'regional synthesis' to support your evaluation.",
+     "a": "The statement is a senior-secondary misconception. Regional geography is not descriptive inventory; it involves theoretical regional synthesis — identifying functional linkages (e.g., how Chotanagpur's coal, iron ore, and transport create an industrial complex) and testing hypotheses about regional coherence. Both approaches are scientific: systematic seeks nomothetic (law-like) generalizations; regional seeks idiographic (place-based) understanding. A wrong answer repeats the outdated 'systematic = scientific, regional = descriptive' dichotomy without engaging with Hartshorne's or Chorley's epistemological defense of regional geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical investigation for your school's atlas project that combines both approaches: choose one systematic theme and one Indian region, and explain how you would integrate them in a 5-page report.",
+     "a": "Example: Systematic theme — 'Groundwater depletion in India' (studied nationwide using CGWB data). Region — 'Punjab-Haryana Plains' (studied for cropping intensity, tubewell density, canal network, and policy). Integration: Pages 1-2: Systematic map of groundwater stages across India. Pages 3-4: Regional analysis of Punjab-Haryana showing rice-wheat cycle → tubewell proliferation → water table decline. Page 5: Synthesis — how the regional case illustrates the national systematic pattern and where it deviates (e.g., canal commands). A poor answer treats them as separate chapters without analytical linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

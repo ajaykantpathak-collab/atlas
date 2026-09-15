@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class8_social_science_ch206",
+ "concepts": [
+  {
+   "id": "hess.206.1",
+   "title": "The Tradition of Orientalism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Tradition of Orientalism' refers to.",
+     "a": "A scholarly approach by British officials like William Jones who respected ancient Indian heritage and promoted the study of Sanskrit and Persian.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Tradition of Orientalism'.",
+     "a": "Respecting and reviving ancient Indian texts to understand and govern the country.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Tradition of Orientalism' taught, and from which source text?",
+     "a": "The tradition of Orientalism (source: hess206.txt lines 20-50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.2",
+   "title": "Early Orientalist Institutions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Early Orientalist Institutions' refers to.",
+     "a": "Educational centers established by the British to encourage traditional Indian learning in Arabic, Persian, and Sanskrit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Early Orientalist Institutions'.",
+     "a": "Setting up colleges to win the hearts of subjects by teaching familiar subjects.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Early Orientalist Institutions' taught, and from which source text?",
+     "a": "The tradition of Orientalism (source: hess206.txt lines 60-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.3",
+   "title": "Anglicist Critique of Orientalism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Anglicist Critique of Orientalism' refers to.",
+     "a": "The viewpoint held by officials like James Mill and Thomas Macaulay who dismissed Eastern knowledge as unscientific and non-serious.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anglicist Critique of Orientalism'.",
+     "a": "Promoting useful and practical Western knowledge over Eastern literature.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Anglicist Critique of Orientalism' taught, and from which source text?",
+     "a": "Grave errors of the East (source: hess206.txt lines 85-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.4",
+   "title": "English Education Act of 1835",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'English Education Act of 1835' refers to.",
+     "a": "A legislative decision to make English the medium of instruction for higher education in India and stop promoting Oriental institutions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'English Education Act of 1835'.",
+     "a": "Institutionalizing English as the primary language for Indian education.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'English Education Act of 1835' taught, and from which source text?",
+     "a": "Grave errors of the East (source: hess206.txt lines 125-135)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.5",
+   "title": "Wood's Despatch of 1854",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Wood's Despatch of 1854' refers to.",
+     "a": "An educational policy document sent by Charles Wood that emphasized the economic and moral benefits of European learning.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wood's Despatch of 1854'.",
+     "a": "Aligning Indian education with British commercial interests and administrative needs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Wood's Despatch of 1854' taught, and from which source text?",
+     "a": "Education for commerce (source: hess206.txt lines 140-170)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.6",
+   "title": "Pathshala Student Estimation",
+   "questions": [
+    {
+     "q": "Calculate the total number of children in pathshalas if there are 100000 schools with 20 students each.. Use the method 'Pathshala Student Estimation'. Work with: school_count = 10, students_per_school = 60. Carry the chain through step by step and give the final value of total_students.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "How many students were being taught in Bengal and Bihar according to Adam's report? Use the method 'Pathshala Student Estimation'. Work with: school_count = 30, students_per_school = 8. Carry the chain through step by step and give the final value of total_students.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pathshala Student Estimation' refers to.",
+     "a": "A calculation of the total student population in Bengal and Bihar based on the number of local schools and average attendance reported by William Adam.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pathshala Student Estimation'.",
+     "a": "Quantifying the reach of the flexible vernacular education system in the 1830s.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pathshala Student Estimation', in plain ASCII form.",
+     "a": "total_students = school_count * students_per_school",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.7",
+   "title": "Pre-British Vernacular Education",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pre-British Vernacular Education' refers to.",
+     "a": "The flexible system of pathshalas characterized by oral teaching, lack of fixed infrastructure, and schedules adapted to the harvest cycle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pre-British Vernacular Education'.",
+     "a": "A decentralized education system tailored to the needs of the local community and peasant families.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pre-British Vernacular Education' taught, and from which source text?",
+     "a": "The report of William Adam (source: hess206.txt lines 225-250)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.8",
+   "title": "Post-1854 Pathshala Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Post-1854 Pathshala Reforms' refers to.",
+     "a": "The imposition of government control over vernacular schools through regular inspections, textbooks, and standardized examinations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Post-1854 Pathshala Reforms'.",
+     "a": "Transforming flexible local schools into a disciplined, state-regulated system.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Post-1854 Pathshala Reforms' taught, and from which source text?",
+     "a": "New routines, new rules (source: hess206.txt lines 260-290)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.9",
+   "title": "Mahatma Gandhi's Educational Philosophy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mahatma Gandhi's Educational Philosophy' refers to.",
+     "a": "A vision of education that rejected English as the medium, focusing instead on dignity, self-respect, and the development of the mind through handicrafts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mahatma Gandhi's Educational Philosophy'.",
+     "a": "Education should be in the mother tongue and focus on practical skills and character building.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mahatma Gandhi's Educational Philosophy' taught, and from which source text?",
+     "a": "English education has enslaved us (source: hess206.txt lines 310-350)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.206.10",
+   "title": "Tagore's Santiniketan",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tagore's Santiniketan' refers to.",
+     "a": "An educational institution founded by Rabindranath Tagore to foster creative learning in a natural environment, free from rigid discipline.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tagore's Santiniketan'.",
+     "a": "Combining the best of Indian tradition with Western science in a natural setting.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tagore's Santiniketan' taught, and from which source text?",
+     "a": "Tagore's abode of peace (source: hess206.txt lines 360-400)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

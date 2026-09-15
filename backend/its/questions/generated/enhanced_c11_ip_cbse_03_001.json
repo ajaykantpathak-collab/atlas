@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_001",
+   "title": "c11_ip_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the default control flow mechanism in a Python program when no conditional or looping statements are used?",
+     "a": "The default control flow is **sequential execution**: statements are executed one after another in the exact order they appear in the source code, from top to bottom. A wrong answer (e.g., \"random order\" or \"alphabetical order\") reveals that the student has not internalized the fundamental concept that a program is a sequence of instructions executed linearly unless explicitly directed otherwise.",
+     "self_check": true
+    },
+    {
+     "q": "In the following code snippet, which statements belong to the *same block*? Explain how you determined this.\n```python\nx = 10\nif x > 5:\n    print(\"Greater\")\n    y = x * 2\nprint(\"Done\")\nz = y + 1\n```",
+     "a": "The statements `print(\"Greater\")` and `y = x * 2` belong to the same block (the `if` block) because they share the same indentation level (one level deeper than the `if` line). The statements `x = 10`, `print(\"Done\")`, and `z = y + 1` are at the top-level (zero indentation) and belong to the global/main block. A wrong answer that groups `print(\"Done\")` with the `if` block reveals the misconception that a blank line or a comment ends a block, rather than dedentation.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following pseudocode into valid Python code, paying careful attention to block structure. The logic: \"Set score to 75. If score is at least 50, print 'Pass' and set grade to 'C'. Otherwise, print 'Fail' and set grade to 'F'. Finally, print the grade.\"",
+     "a": "```python\nscore = 75\nif score >= 50:\n    print(\"Pass\")\n    grade = 'C'\nelse:\n    print(\"Fail\")\n    grade = 'F'\nprint(grade)\n```\nSteps: (1) Assign 75 to `score`. (2) Write `if` condition with colon. (3) Indent the two statements for the true branch. (4) Write `else:` at same indentation as `if`. (5) Indent the two statements for the false branch. (6) Dedent the final `print(grade)` so it runs regardless. A wrong answer with incorrect indentation (e.g., `grade = 'C'` not indented) shows the student does not understand that indentation *is* the block delimiter in Python.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the block structure of Python with a language like C++ or Java that uses curly braces `{}`. What is the *semantic* consequence of Python's indentation-based blocks for nested structures?",
+     "a": "In brace-delimited languages, whitespace is insignificant; blocks are explicitly marked by `{` and `}`. In Python, indentation is syntactically significant: it *defines* the block. For nested structures, this forces the programmer to maintain consistent visual alignment, making the code's logical structure directly visible. A wrong answer claiming \"indentation is just for readability\" reveals the dangerous misconception that Python ignores whitespace, leading to `IndentationError` or silent logical bugs when blocks are misaligned.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to calculate the factorial of 5 using a loop. They claim the output will be 120. Evaluate their claim by tracing the control flow and block membership.\n```python\nn = 5\nfact = 1\nfor i in range(1, n+1):\n    fact = fact * i\nprint(fact)\n```\nIs the student correct? Justify by explaining which statement(s) are inside the loop block and which are outside.",
+     "a": "The student is **correct**. The loop block consists only of `fact = fact * i` (indented under `for`). The `print(fact)` is *outside* the loop block (dedented), so it executes once after the loop completes. Trace: i=1→fact=1; i=2→fact=2; i=3→fact=6; i=4→fact=24; i=5→fact=120; loop ends; print(120). A wrong answer claiming the output is 1, 2, 6, 24, 120 (each on new line) reveals the misconception that `print(fact)` is inside the loop block — a classic indentation error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python program (5-7 lines) that uses **all three** fundamental control flows: sequential, conditional, and iterative. The program should simulate a simple \"login attempt\" system: allow up to 3 attempts; if correct password entered, print \"Access granted\" and stop; if all 3 attempts fail, print \"Account locked\". Use a `for` loop with `range`, an `if-else`, and a `break` statement. Explain the control flow path for both success on 2nd attempt and failure on all 3.",
+     "a": "```python\ncorrect_pass = \"ip123\"\nfor attempt in range(3):          # iterative flow\n    pwd = input(\"Enter password: \") # sequential inside loop\n    if pwd == correct_pass:       # conditional flow\n        print(\"Access granted\")\n        break                     # exits loop early\n    else:\n        print(\"Wrong password\")\nelse:                             # executes only if loop NOT broken\n    print(\"Account locked\")\n```\n**Success on 2nd attempt**: Iteration 1 → input → condition false → else block → print \"Wrong\" → loop continues. Iteration 2 → input → condition true → print \"Access granted\" → `break` → jump out of loop → `else` block of loop skipped → program ends. **Failure all 3**: Loop runs 3 times, `break` never hit → after 3rd iteration, loop `else` block executes → \"Account locked\". A poor answer that puts `print(\"Account locked\")` outside the loop at same indentation as `for` (without `else`) shows misunderstanding of the `for-else` construct and block association.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_008",
+   "title": "c12_bs_cbse_07_008",
+   "questions": [
+    {
+     "q": "A company offers its employees: (i) annual bonus of 10% of basic salary, (ii) \"Employee of the Month\" certificate displayed on the office wall, (iii) company shares at discounted price under ESOP, (iv) flexible work-from-home policy. Classify each as financial or non-financial incentive.",
+     "a": "Correct classification: (i) Financial — direct monetary reward; (ii) Non-financial — psychological recognition, no monetary value; (iii) Financial — shares have monetary value and are measurable in money terms; (iv) Non-financial — provides autonomy and work-life balance, psychological satisfaction. A wrong answer (e.g., classifying ESOP as non-financial because \"shares are not cash\") reveals the student confuses \"non-monetary form\" with \"non-financial incentive.\" NCERT explicitly states financial incentives include those \"measurable in monetary term\" — shares have market value. The misconception: students think financial incentive = cash only.",
+     "self_check": true
+    },
+    {
+     "q": "\"Promotion is a financial incentive because it comes with a salary hike.\" Evaluate this statement using NCERT's distinction between financial and non-financial incentives.",
+     "a": "The statement is incorrect. NCERT classifies promotion as a non-financial incentive. While promotion *involves* a monetary aspect (higher pay), the *emphasis* is on psychological satisfaction: elevation in status, increase in authority, challenge in the job, and fulfilment of esteem/self-actualisation needs. The monetary aspect is secondary. A wrong answer reveals the student focuses on the incidental monetary consequence rather than the primary motivational mechanism. This is a classic board exam trap — CBSE often asks \"Promotion is a financial/non-financial incentive?\" and the correct answer is non-financial with the justification \"non-monetary aspects over-ride monetary aspects.\"",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm introduces a \"Productivity-Linked Wage Incentive Plan\" where workers get ₹50 extra per unit produced above the standard 100 units/day. After 3 months, output increases 15% but defect rate doubles. Using the concept of financial incentives, explain why this happened and suggest one non-financial incentive to complement the plan.",
+     "a": "The financial incentive (piece-rate bonus) motivated *quantity* but ignored *quality* — workers rushed to maximize units, neglecting standards. This is a known limitation of pure financial incentives: they narrow focus to the measured metric. A complementary non-financial incentive: \"Quality Champion\" recognition — monthly award for zero-defect shifts, with the winner's photo on the \"Wall of Excellence\" and a mentoring role for new hires. This addresses esteem and belonging needs, encouraging pride in craftsmanship. A wrong answer (e.g., \"increase the bonus for good quality\") shows the student thinks only financial levers work, missing the NCERT point that non-financial incentives satisfy psychological needs money cannot.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Profit Sharing\" and \"Employee Participation in Decision Making\" as incentives. Which addresses higher-level needs in Maslow's hierarchy? Justify with two distinct need-levels for each.",
+     "a": "Profit Sharing → Financial incentive → addresses Safety/Security needs (stable additional income) and Esteem needs (tangible reward for contribution). Employee Participation → Non-financial incentive → addresses Esteem needs (voice valued, respect) and Self-Actualisation needs (autonomy, influence, growth). Participation addresses *higher* needs because it fulfils the desire to use one's capabilities fully and be part of something meaningful. A wrong answer (e.g., \"both address same needs\") reveals the student hasn't internalised the Maslow-incentive mapping. NCERT links financial incentives to \"physical needs... social position and power\" (lower/middle) and non-financial to \"psychological, social and emotional factors\" (higher).",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder says: \"We can't afford high salaries, so we'll give everyone stock options (ESOP). That's the best financial incentive — it aligns everyone with company growth.\" Critique this view. Is ESOP sufficient as the *only* financial incentive? What non-financial incentives must accompany it for early-stage employees?",
+     "a": "Critique: ESOP is a *long-term* financial incentive (value realises only on exit/IPO). Early-stage employees have immediate physiological/safety needs (rent, EMIs) — ESOP doesn't meet these. Relying solely on ESOP risks losing talent to competitors offering cash salaries. Non-financial incentives needed: (1) Job Enrichment — autonomy to choose tech stack, own features end-to-end (self-actualisation); (2) Career Advancement — clear \"Founding Engineer → Tech Lead → CTO\" track with mentorship (esteem/growth); (3) Recognition — \"Shipped It\" weekly demo days where builders present to whole team (esteem/belonging). A wrong answer (e.g., \"ESOP is enough because they'll get rich\") shows the student ignores need hierarchy and liquidity reality — a common competitive exam trap where \"alignment\" is confused with \"motivation for daily effort.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a balanced incentive package for a 50-person sales team in a B2B SaaS company. The team has: 10 top performers (consistently exceed quota), 30 core performers (meet quota), 10 struggling performers (below quota 3+ months). Your package must include exactly 3 financial and 3 non-financial incentives, each targeted at a specific sub-group and linked to a Maslow need. Present as a table.",
+     "a": "A strong answer will show a table like:\n| Sub-group | Financial Incentive | Maslow Need | Non-Financial Incentive | Maslow Need |\n|---|---|---|---|---|\n| Top 10 | Accelerated commission (2x above quota) + ESOP grant | Esteem (recognition of excellence) + Self-Actualisation (ownership) | \"Rainmaker Club\" — quarterly offsite with CEO, input on product roadmap | Self-Actualisation (influence), Belonging (elite peer group) |\n| Core 30 | Quarterly bonus at 100% quota + SPIFF for new logo acquisition | Safety (income stability) + Esteem (achievement) | Skill-building budget (₹50k/yr for courses/certs) + Mentor a junior | Self-Actualisation (growth), Esteem (status as mentor) |\n| Struggling 10 | Guaranteed minimum draw (recoverable) + structured improvement bonus | Physiological/Safety (income floor) | Job Enrichment: shadow top performer, co-sell on 2 deals/week + weekly coaching (not evaluation) | Belonging (support), Esteem (confidence building) |\n\nA poor answer gives generic incentives without sub-group targeting or Maslow linkage, revealing the student treats incentives as \"one-size-fits-all\" — a major board exam error where case-based questions demand contextual application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_010",
+   "title": "c11_stat_cbse_03_010",
+   "questions": [
+    {
+     "q": "List the seven standard parts of a statistical table in the order they typically appear from top to bottom.",
+     "a": "The seven parts in top-to-bottom order: (1) Table Number, (2) Title, (3) Captions (Column Heads), (4) Stubs (Row Heads), (5) Body (Cells with data), (6) Footnotes, (7) Source Note. A wrong answer (e.g., missing footnotes or source, or swapping captions and stubs) reveals the student memorises parts as a set but doesn't understand their spatial hierarchy and functional flow—top parts identify the table, middle parts organise dimensions, bottom parts provide credibility and context.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a table showing \"Monthly Expenditure of 50 Households on Food\" with columns: Household ID, Expenditure (Rs). They forget to write \"Expenditure (Rs)\" as a column head and instead write just \"Expenditure\". The teacher says the table is incomplete. Explain why the unit in the caption is necessary even if the title mentions \"in Rupees\".",
+     "a": "The caption \"Expenditure (Rs)\" is necessary because: (1) A table must be self-contained—a user should not need to read the title to understand the column; (2) Titles can be separated from the table in reports; (3) Different columns may have different units (e.g., Quantity in kg, Expenditure in Rs), so each caption must carry its own unit. A wrong answer (e.g., \"title already says rupees\") reveals the misconception that titles substitute for column-level metadata, violating the principle of self-explanatory tables.",
+     "self_check": true
+    },
+    {
+     "q": "Given raw data: 30 students' heights in cm (150, 152, 155, 158, 160, 162, 165, 168, 170, 172, 175, 178, 180, 151, 153, 156, 159, 161, 163, 166, 169, 171, 173, 176, 179, 181, 154, 157, 164, 167). Construct a one-way frequency table with class intervals of 5 cm starting at 150. Include ALL seven parts of a statistical table. Show the completed table.",
+     "a": "**Table 1: Frequency Distribution of Heights of 30 Students**\n\n| Height (cm) | Tally Marks | Frequency |\n|-------------|-------------|-----------|\n| 150–154     | //// /      | 6         |\n| 155–159     | ////        | 5         |\n| 160–164     | ////        | 5         |\n| 165–169     | ////        | 5         |\n| 170–174     | ////        | 5         |\n| 175–179     | ////        | 5         |\n| 180–184     | //          | 2         |\n| **Total**   |             | **30**    |\n\n**Footnotes:** Class intervals are inclusive of lower limit and exclusive of upper limit (e.g., 150–154 includes 150.0 to 154.9).  \n**Source:** Class XI Student Health Records, 2024.\n\nA wrong answer (missing table number, no unit in caption, no footnote on class interval type, no source) reveals the student treats tabulation as only filling the body, ignoring the metadata that makes the table interpretable and verifiable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two tables showing the same data: Table A has a title \"Production of Wheat\" and Table B has title \"Production of Wheat in Major Indian States (in Million Tonnes), 2020–21 to 2022–23\". Analyse which title is better and why, referencing at least three criteria for a good statistical title.",
+     "a": "Table B is better because: (1) **What**: Specifies the variable (Production of Wheat); (2) **Where**: Defines the spatial coverage (Major Indian States); (3) **When**: States the time period (2020–21 to 2022–23); (4) **Unit**: Includes the unit (Million Tonnes). Table A fails on where, when, and unit. A wrong answer (e.g., \"both are fine\" or \"Table B is too long\") reveals the student doesn't apply the \"What, Where, When, Unit\" criteria for titles, treating titles as decorative rather than informative metadata.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher publishes a table on \"Literacy Rates by State\" with a footnote: \"Data for Jammu & Kashmir is for 2011; all other states are for 2021.\" Evaluate whether this footnote is sufficient. What additional information should the source note provide to make the table fully credible?",
+     "a": "The footnote is necessary but not sufficient. It correctly flags a data comparability issue (different years). However, the source note must additionally provide: (1) **Exact source name** (e.g., \"Census of India 2011 and 2021, Office of Registrar General\"); (2) **Publication year** of the source document; (3) **Table number/page** in the source for verification; (4) **Any adjustments made** (e.g., \"Literacy rate calculated for population aged 7+\"). A wrong answer (e.g., \"footnote is enough\" or \"source note just needs website\") reveals the student confuses footnotes (explanations of specific cells/rows) with source notes (provenance of the entire dataset), and underestimates the verification standard in official statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a statistical table template (empty structure with all seven parts labelled) for presenting \"Quarterly GDP Growth Rate (%) of India, 2020–21 to 2023–24\". The table should allow comparison across quarters and years. Draw the template with placeholders.",
+     "a": "**Table 2: Quarterly GDP Growth Rate (%) of India, 2020–21 to 2023–24**\n\n| Year / Quarter | Q1 (Apr–Jun) | Q2 (Jul–Sep) | Q3 (Oct–Dec) | Q4 (Jan–Mar) | Annual Average |\n|----------------|--------------|--------------|--------------|--------------|----------------|\n| 2020–21        |              |              |              |              |                |\n| 2021–22        |              |              |              |              |                |\n| 2022–23        |              |              |              |              |                |\n| 2023–24        |              |              |              |              |                |\n\n**Footnotes:** Growth rates are year-on-year (YoY) at constant (2011–12) prices.  \n**Source:** National Statistical Office (NSO), Ministry of Statistics and Programme Implementation, Government of India, Quarterly GDP Estimates, various press releases.\n\nA poor answer (missing stub header \"Year / Quarter\", no unit in caption row, no footnote on YoY/constant prices, no specific source) reveals the student cannot anticipate the metadata needs of a two-way table (time × quarter) and treats the template as just a grid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

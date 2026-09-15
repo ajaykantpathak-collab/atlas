@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_001",
+   "title": "c12_hist_cbse_05_001",
+   "questions": [
+    {
+     "q": "In which year did Sultan Mahmud invade Khwarizm and take Al-Biruni to Ghazni, and what was Al-Biruni’s status upon arrival?",
+     "a": "1017 CE; Al-Biruni arrived as a hostage/scholar taken captive along with other poets and scholars. A wrong answer (e.g., “he came voluntarily as a courtier” or “1025 CE”) reveals confusion between Al-Biruni’s forced relocation and the voluntary travels of Ibn Battuta or Bernier, and misplaces the Ghaznavid conquest chronology.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Al-Biruni choose to write the *Kitab-ul-Hind* in Arabic rather than Persian or Sanskrit, and for whom did he intend it?",
+     "a": "Arabic was the lingua franca of scholarship across the Islamic world; Al-Biruni wrote for peoples living along the frontiers of the subcontinent who knew Arabic but not Sanskrit. A wrong answer (e.g., “for the Mughal emperor” or “in Persian because it was the court language”) shows ignorance of the 11th-century linguistic landscape and conflates Al-Biruni’s context with later Persianate courts.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Biruni adopted a distinctive three-part structure in most chapters of the *Kitab-ul-Hind*. Identify the three parts and explain how his mathematical orientation influenced this structure.",
+     "a": "(1) A question, (2) description based on Sanskritic traditions, (3) comparison with other cultures. His mathematical training made him value precision, predictability, and a “geometric” logical flow — each chapter proceeds like a proof: premise → evidence → comparative corollary. A wrong answer (e.g., “narrative storytelling” or “chronological order”) misses the analytical, almost axiomatic method that distinguishes Al-Biruni from later travelogue writers.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the three “barriers” Al-Biruni explicitly acknowledged as obstructing his understanding of India, and explain which barrier he considered the most fundamental.",
+     "a": "(1) Language — Sanskrit’s enormous range and structural difference from Arabic/Persian; (2) Religious beliefs and practices; (3) Self-absorption and insularity of the local population. Language is the first and most fundamental barrier because without linguistic access, the other two cannot be bridged. A wrong answer that omits “self-absorption” or ranks religion first reveals a superficial reading of the NCERT text (p. 124).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “Al-Biruni’s dependence on Brahmanical texts makes the *Kitab-ul-Hind* an unreliable source for understanding actual social practices in 11th-century India.”",
+     "a": "The claim is partially valid but incomplete. Al-Biruni *did* rely heavily on normative texts (Vedas, Puranas, Manusmriti) which prescribe ideal rules, not lived reality — e.g., his varna description reflects Brahmanical theory, not the fluid *jati* reality. However, his comparative method and critical remarks (e.g., rejecting the notion of pollution as “contrary to laws of nature”) show analytical distance. A one-sided answer (“fully reliable” or “fully unreliable”) fails to weigh textual dependence against critical intellect.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline entry for Al-Biruni, Ibn Battuta, and Bernier showing: (a) century of travel, (b) place of origin, (c) language of writing, (d) primary motive, and (e) one key structural feature of their work.",
+     "a": "| Traveller | Century | Origin | Language | Motive | Structural Feature |\n|-----------|---------|--------|----------|--------|-------------------|\n| Al-Biruni | 11th | Khwarizm (Uzbekistan) | Arabic | Scholarly understanding / translation | Question–Description–Comparison (geometric) |\n| Ibn Battuta | 14th | Tangier (Morocco) | Arabic | Pilgrimage, curiosity, employment | Chronological narrative + “curiosities” |\n| Bernier | 17th | France | French (translated) | Service, comparison with Europe | Binary opposition (India vs. Europe) |\nA poor answer mixes up centuries, languages, or motives (e.g., placing Bernier in the 14th century), indicating failure to synthesize the chapter’s comparative framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

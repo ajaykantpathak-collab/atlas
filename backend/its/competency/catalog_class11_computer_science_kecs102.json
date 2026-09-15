@@ -1,0 +1,447 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 2,
+ "chapter_title": "Encoding Schemes and Number System",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs102.1",
+   "title": "Character Capacity of ASCII and ISCII Codes",
+   "section": "2.1.1",
+   "definition": "Keyboard characters reach a computer as numeric codes: ASCII assigns 7-bit values covering 128 English characters, while the 8-bit ISCII scheme keeps those 128 codes and adds another 128 slots for Indian script symbols.",
+   "formula": "total_codes = 2 ** code_bits",
+   "key_idea": "A code of n bits can label exactly 2 raised to n different characters.",
+   "textbook_ref": "kecs102.txt, sections 2.1.1 and 2.1.2",
+   "question_patterns": [
+    "How many different characters can a 7-bit ASCII code represent?",
+    "ISCII uses 8 bits. How many codes does it offer in total, and how many of them are reserved for Indian script characters beyond ASCII?",
+    "Why was ASCII designed with 7 bits, and what count follows from that choice?",
+    "A new scheme uses 9 bits per character. Find how many symbols it can encode.",
+    "State the full form of ASCII and ISCII.",
+    "Letter A carries the code 65. Convert that code value into 7-bit binary."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise 2 to the code width",
+     "explain": "Each bit doubles the number of available codes.",
+     "compute": "total_codes = 2 ** code_bits"
+    },
+    {
+     "step": "2",
+     "action": "split off the ASCII region",
+     "explain": "Half of an 8-bit scheme covers the retained ASCII range.",
+     "compute": "ascii_share = total_codes // 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "ASCII codes characters with 7 bits. How many distinct characters can it label?",
+     "a": "128"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.2",
+   "title": "Positional Value in a Number System",
+   "section": "2.2",
+   "definition": "Every number system has a base equal to its count of distinct symbols, and each symbol's worth depends on its slot: the positional worth is the base raised to the slot number, counted from zero at the right of the integer part.",
+   "formula": "pos_value = base ** position",
+   "key_idea": "Slot zero sits at the right of the integer part, and each step left raises the power of the base by one.",
+   "textbook_ref": "kecs102.txt, section 2.2 and Figure 2.3",
+   "question_patterns": [
+    "Write the base values of the binary, octal and hexadecimal systems.",
+    "A number system uses B distinct symbols. What is its base?",
+    "Find the positional worth of the digit sitting at position 3 in a base-10 number.",
+    "In the octal number (257), what power of 8 weights the leftmost digit?",
+    "Why is a number system called positional? Explain with the digits of 123.45."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise the base to the slot number",
+     "explain": "Slot numbers start at 0 on the right, so the worth is a power of the base.",
+     "compute": "pos_value = base ** position"
+    },
+    {
+     "step": 2,
+     "action": "weigh the symbol",
+     "explain": "Multiplying the symbol by its positional worth gives its share of the number.",
+     "compute": "digit_share = symbol * pos_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In base 10, what is the positional worth of the third slot to the left of the decimal point?",
+     "a": "100"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.3",
+   "title": "Binary to Decimal Conversion",
+   "section": "2.3.2",
+   "definition": "A binary string names a decimal value: weight each bit by the matching power of two, counting from 1 at the rightmost bit, and add all the weighted shares together.",
+   "formula": "dec_val = d2 * 4 + d1 * 2 + d0",
+   "key_idea": "Powers of two double from right to left, so each bit position is worth twice the one after it.",
+   "textbook_ref": "kecs102.txt, section 2.3.2(A) and Example 2.6",
+   "question_patterns": [
+    "Convert (1101) into its decimal equivalent.",
+    "Express (11001010) as a base-10 number.",
+    "Find the decimal value of (1010111).",
+    "A register holds the bits 1001011. What number does a human read from it?",
+    "Add up the powers of two for the binary string 1000001 and confirm which character code it matches."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weigh the lower two bits",
+     "explain": "The rightmost bit counts 1 and the next counts 2.",
+     "compute": "low_part = d1 * 2 + d0"
+    },
+    {
+     "step": 2,
+     "action": "add the higher bits",
+     "explain": "Remaining bits carry 4, 8, 16 and so on, doubling leftwards.",
+     "compute": "dec_val = d3 * 8 + d2 * 4 + low_part"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Convert the binary number 1011 to decimal.",
+     "a": "11"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.4",
+   "title": "Decimal to Binary by Repeated Division",
+   "section": "2.3.1",
+   "definition": "To rewrite a decimal number in binary, divide it by 2 over and over, jot down each remainder, stop when the quotient reaches zero, and then read the remainders from last to first.",
+   "formula": "remainder = quotient % 2",
+   "key_idea": "Remainders appear least-significant bit first, which is why the collected column is read upside down.",
+   "textbook_ref": "kecs102.txt, section 2.3.1(A) and Figure 2.5",
+   "question_patterns": [
+    "Convert (54) into binary using repeated division by 2.",
+    "Show the division steps that turn (122) into its binary form.",
+    "Convert (120) to binary and list the remainders in the order you collect them.",
+    "Why are the remainders written in reverse order at the end of a decimal-to-binary conversion?",
+    "Turn (65) into binary and verify the result by expanding powers of two."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "peel off the lowest bit",
+     "explain": "Dividing by 2 leaves a remainder that is the rightmost binary digit.",
+     "compute": "r0 = dec % 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the number",
+     "explain": "The quotient carries the remaining bits.",
+     "compute": "q1 = dec // 2"
+    },
+    {
+     "step": 3,
+     "action": "peel the next bit",
+     "explain": "The remainder of the halved value is the second binary digit.",
+     "compute": "r1 = q1 % 2"
+    },
+    {
+     "step": 4,
+     "action": "halve again",
+     "explain": "Continue while the quotient is still positive.",
+     "compute": "q2 = q1 // 2"
+    },
+    {
+     "step": 5,
+     "action": "peel the third bit",
+     "explain": "Remainders keep surfacing least-significant first.",
+     "compute": "r2 = q2 % 2"
+    },
+    {
+     "step": 6,
+     "action": "halve once more",
+     "explain": "Repeated halving walks through every bit.",
+     "compute": "q3 = q2 // 2"
+    },
+    {
+     "step": 7,
+     "action": "peel the fourth bit",
+     "explain": "Collect one remainder per division.",
+     "compute": "r3 = q3 % 2"
+    },
+    {
+     "step": 8,
+     "action": "read the digits in reverse",
+     "explain": "The remainders from last to first spell the binary numeral, here kept as a digit string.",
+     "compute": "digits = r3 * 1000 + r2 * 100 + r1 * 10 + r0"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Convert decimal 13 to binary.",
+     "a": "1101"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.5",
+   "title": "Binary Grouping into Octal and Hexadecimal",
+   "section": "2.3.3",
+   "definition": "Because 8 and 16 are powers of two, a binary string converts to octal or hexadecimal by cutting it into chunks of 3 or 4 bits from the right and swapping each chunk for its single digit.",
+   "formula": "oct_digit = b2 * 4 + b1 * 2 + b0",
+   "key_idea": "Three bits make one octal digit and four bits make one hexadecimal symbol, so long bit strings shrink sharply.",
+   "textbook_ref": "kecs102.txt, sections 2.2.3, 2.2.4 and 2.3.3",
+   "question_patterns": [
+    "Convert (10101100) into octal by grouping bits three at a time.",
+    "Rewrite (0110101100) as a hexadecimal number.",
+    "Why do three binary digits exactly cover one octal digit?",
+    "Write the binary equivalent of the octal number (705).",
+    "Express (23D) in binary.",
+    "Convert (1110001000) into both octal and hexadecimal."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the low 3-bit group",
+     "explain": "Weights 4, 2 and 1 turn three bits into one octal digit.",
+     "compute": "low_group = b2 * 4 + b1 * 2 + b0"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the high 3-bit group",
+     "explain": "The next three bits carry the same weights in their own slot.",
+     "compute": "high_group = b5 * 4 + b4 * 2 + b3"
+    },
+    {
+     "step": 3,
+     "action": "join the two digits",
+     "explain": "Shifting the high digit one decimal place appends the low digit.",
+     "compute": "octal_digits = high_group * 10 + low_group"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bits are grouped to form one hexadecimal digit?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.6",
+   "title": "Hexadecimal Colour Codes for Web Pages",
+   "section": "2.2.5",
+   "definition": "A screen colour mixes red, green and blue, each stored as one byte, so a colour needs 24 bits; writing each byte as a two-symbol hexadecimal pair gives compact codes such as FF0000 for pure red.",
+   "formula": "total_bits = components * 8",
+   "key_idea": "One byte per channel means 24 bits per colour, which folds into six hexadecimal symbols.",
+   "textbook_ref": "kecs102.txt, section 2.2.5 and Table 2.7",
+   "question_patterns": [
+    "How many bits does a web colour need, and why?",
+    "The colour white stores 255 in each channel. Write its hexadecimal code.",
+    "A palette holds every 24-bit colour. How many colours is that?",
+    "Convert the red channel value 128 into its two hexadecimal symbols.",
+    "Why are 24-bit colour codes written in hexadecimal rather than binary?",
+    "State the hexadecimal triplet for black and justify each pair."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the bits in the colour",
+     "explain": "Each of the three channels takes one byte of 8 bits.",
+     "compute": "total_bits = components * 8"
+    },
+    {
+     "step": 2,
+     "action": "count the possible colours",
+     "explain": "Every bit doubles the palette, so raise 2 to the bit count.",
+     "compute": "palette = 2 ** total_bits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An RGB colour stores one byte each for red, green and blue. How many bits does one colour need in total?",
+     "a": "24 bits"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.7",
+   "title": "Fractional Binary to Decimal",
+   "section": "2.3.4",
+   "definition": "Bits after the binary point carry negative powers of two: the first is one half, the next one quarter, then one eighth, and the decimal value is the sum of these fractional shares.",
+   "formula": "frac_val = d1 * 2 ** -1 + d2 * 2 ** -2 + d3 * 2 ** -3",
+   "key_idea": "Left of the point the powers of two grow; right of it they halve from one half downwards.",
+   "textbook_ref": "kecs102.txt, section 2.3.4(B) and Example 2.17",
+   "question_patterns": [
+    "Convert (0.101) to a decimal fraction.",
+    "Find the decimal value of (100101.101).",
+    "What weight does the third bit after the binary point carry?",
+    "Express the binary fraction 0.01 as a decimal number.",
+    "Add the fractional shares of 0.111 and give the decimal total."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weigh the halves bit",
+     "explain": "The first fractional bit counts one half.",
+     "compute": "halves = f1 * 2 ** -1"
+    },
+    {
+     "step": 2,
+     "action": "weigh the quarters bit",
+     "explain": "The second fractional bit counts one quarter.",
+     "compute": "quarters = f2 * 2 ** -2"
+    },
+    {
+     "step": 3,
+     "action": "weigh the eighths bit",
+     "explain": "The third fractional bit counts one eighth.",
+     "compute": "eighths = f3 * 2 ** -3"
+    },
+    {
+     "step": 4,
+     "action": "add the shares",
+     "explain": "The fractional decimal value is the total of all weighed shares.",
+     "compute": "frac_val = halves + quarters + eighths"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In fractional binary, what decimal value does the first bit after the binary point carry?",
+     "a": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "kecs102.8",
+   "title": "Unicode and UTF Encodings",
+   "section": "2.1.3",
+   "definition": "Unicode assigns one number to every character of every written language, so text survives across devices and programs; its UTF-8, UTF-16 and UTF-32 forms differ in how many bits each character occupies.",
+   "formula": "utf_32_size = 4 * utf_8_size (for a fixed character)",
+   "key_idea": "Codes 0 to 128 agree with ASCII, which keeps ordinary English text unchanged under Unicode.",
+   "textbook_ref": "kecs102.txt, section 2.1.3 and Table 2.3",
+   "question_patterns": [
+    "Why does one character in UTF-32 need more storage than the same character in UTF-8?",
+    "What advantage does Unicode offer when preparing digital content in an Indian language?",
+    "How does Unicode treat the first 128 codes compared with ASCII?",
+    "Name the three commonly used Unicode encoding forms.",
+    "A Devanagari letter carries the code 0905 in hexadecimal. Why can every device display it identically?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the encoding widths",
+     "explain": "UTF-8 uses the fewest bits for common characters, UTF-16 doubles that for many scripts, and UTF-32 always spends four bytes, so wider forms trade storage for uniformity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Unicode encoding stores every character in a fixed 4 bytes?",
+     "a": "UTF-32"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs102.we1",
+   "title": "Hexadecimal (3A5) to decimal",
+   "concept_id": "kecs102.3",
+   "problem": "Convert the hexadecimal number 3A5 into its decimal value.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "square the base",
+     "explain": "The leftmost slot of a three-symbol hexadecimal number weighs 16 squared.",
+     "compute": "sq = 16 ** 2"
+    },
+    {
+     "step": 2,
+     "action": "weigh the leading symbol",
+     "explain": "The digit 3 sits in the 256s slot.",
+     "compute": "part_a = 3 * sq"
+    },
+    {
+     "step": 3,
+     "action": "weigh the middle symbol",
+     "explain": "A stands for 10, sitting in the 16s slot.",
+     "compute": "part_b = 10 * 16"
+    },
+    {
+     "step": 4,
+     "action": "total the shares",
+     "explain": "Add the weighted shares of all three symbols.",
+     "compute": "dec_val = part_a + part_b + 5"
+    }
+   ],
+   "answer_note": "The hexadecimal 3A5 evaluates to 933 in decimal."
+  },
+  {
+   "id": "kecs102.we2",
+   "title": "Binary (10101100) to octal",
+   "concept_id": "kecs102.5",
+   "problem": "Convert the binary number 10101100 into octal.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "pad to a multiple of three",
+     "explain": "One leading zero gives groups 010 101 100.",
+     "compute": "padded_bits = 11 + 1"
+    },
+    {
+     "step": 2,
+     "action": "decode the first group",
+     "explain": "010 weighs 0 x 4 + 1 x 2 + 0.",
+     "compute": "g1 = 0 * 4 + 1 * 2 + 0"
+    },
+    {
+     "step": 3,
+     "action": "decode the second group",
+     "explain": "101 weighs 1 x 4 + 0 x 2 + 1.",
+     "compute": "g2 = 1 * 4 + 0 * 2 + 1"
+    },
+    {
+     "step": 4,
+     "action": "decode the third group",
+     "explain": "100 weighs 1 x 4 + 0 x 2 + 0.",
+     "compute": "g3 = 1 * 4 + 0 * 2 + 0"
+    },
+    {
+     "step": 5,
+     "action": "join the octal digits",
+     "explain": "Concatenate the three decoded digits left to right.",
+     "compute": "octal_digits = g1 * 100 + g2 * 10 + g3"
+    }
+   ],
+   "answer_note": "The groups 010 101 100 decode to 2, 5 and 4, so the octal form is 254."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs102.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 2 Exercise (items reworded)",
+   "questions": [
+    "Write the base values of the binary, octal and hexadecimal systems.",
+    "Convert (514) in base 8 into its decimal equivalent.",
+    "Convert (4D9) in base 16 into its decimal equivalent.",
+    "Express (54) in base 10 as a binary number.",
+    "Express (789) in base 10 as a hexadecimal number.",
+    "Convert the binary number 1110001000 into octal and into hexadecimal.",
+    "Write the binary form of the octal number 2306.",
+    "Encode the word COMPUTER in ASCII and give the 7-bit binary code of each letter.",
+    "A number system has B symbols. State its base and the count of distinct 2-symbol codes it offers."
+   ]
+  }
+ ]
+}

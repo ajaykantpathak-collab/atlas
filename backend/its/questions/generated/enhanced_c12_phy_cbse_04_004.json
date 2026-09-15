@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_004",
+   "title": "c12_phy_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the Biot-Savart law in vector form for a current element I dl at position r from the observation point. Include the value and units of the proportionality constant in SI.",
+     "a": "dB = (µ₀/4π) I (dl × r̂)/r², where µ₀ = 4π × 10⁻⁷ T·m/A. A wrong answer (e.g., missing the cross product, using r instead of r̂, or wrong constant) shows the student has not memorized the exact vector structure or the defined value of µ₀.",
+     "self_check": true
+    },
+    {
+     "q": "A current element I dl is along the +x direction at the origin. The observation point P is on the +y axis. Using the right-hand screw rule, what is the direction of the magnetic field dB at P? Explain why the field is zero at any point on the +x axis.",
+     "a": "dB is along the +z direction (dl × r points from +x to +y, which is +z). On the +x axis, dl and r are parallel, so sinθ = 0 and dB = 0. A wrong direction (e.g., -z) reveals confusion in the right-hand rule; saying field is non-zero on the axis shows misunderstanding of the sinθ factor.",
+     "self_check": true
+    },
+    {
+     "q": "A straight wire carries a current of 5.0 A. Find the magnitude of the magnetic field at a point 10 cm from the wire due to a 2.0 cm long element of the wire, if the line from the element to the point is perpendicular to the wire. Use µ₀/4π = 10⁻⁷ T·m/A.",
+     "a": "Given: I = 5.0 A, dl = 0.02 m, r = 0.10 m, θ = 90° → sinθ = 1. dB = (10⁻⁷) × (5.0 × 0.02 × 1) / (0.10)² = (10⁻⁷ × 0.1) / 0.01 = 10⁻⁶ T = 1.0 µT. A wrong answer (e.g., 10⁻⁵ T) usually comes from forgetting to square r or mishandling powers of 10.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Biot-Savart law for magnetic field with Coulomb's law for electric field. List two similarities and two differences.",
+     "a": "Similarities: (1) Both are inverse-square laws (∝ 1/r²). (2) Both obey superposition principle. Differences: (1) Source in Coulomb's law is scalar charge q; source in Biot-Savart is vector current element I dl. (2) Electric field is along r̂ (radial); magnetic field is perpendicular to both dl and r (axial). Missing the vector vs scalar source distinction is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the magnetic field on the axis of a circular loop of radius R carrying current I as B = (µ₀ I R²) / [2 (R² + x²)]. Is this correct? If not, identify the error and give the correct expression.",
+     "a": "Incorrect. The denominator should be (R² + x²)^(3/2), not (R² + x²). The correct expression is B = (µ₀ I R²) / [2 (R² + x²)^(3/2)]. The error arises from forgetting that the axial component introduces an extra factor of cosθ = R/√(R²+x²), making the power 3/2 instead of 1.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a long straight wire, a compass, and a ruler to verify the inverse-square dependence of magnetic field on distance from a long straight wire. Describe the procedure and what you would plot.",
+     "a": "Place the wire vertically, compass at a known horizontal distance r. Pass a steady current I. Note the deflection θ of the compass needle (tanθ ∝ B). Repeat for several r. Plot B (or tanθ) vs 1/r². A straight line through origin confirms B ∝ 1/r². A poor answer would not mention keeping current constant, using the tangent law, or plotting the correct variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

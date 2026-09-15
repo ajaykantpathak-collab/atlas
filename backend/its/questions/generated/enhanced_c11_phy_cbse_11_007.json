@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_007",
+   "title": "c11_phy_cbse_11_007",
+   "questions": [
+    {
+     "q": "State Mayer's formula for an ideal gas and give the SI units of each term.",
+     "a": "Mayer's formula: Cp – Cv = R, where Cp and Cv are molar specific heat capacities at constant pressure and constant volume respectively (units: J mol⁻¹ K⁻¹), and R is the universal gas constant (units: J mol⁻¹ K⁻¹). A wrong answer (e.g., Cp – Cv = 0 or Cp/Cv = R) reveals confusion between the difference and ratio of specific heats, or ignorance that R has the same units as specific heat capacities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Cp is greater than Cv for an ideal gas, using the first law of thermodynamics.",
+     "a": "At constant pressure, heat supplied (ΔQ_p) increases internal energy (ΔU) and does work (PΔV). At constant volume, ΔQ_v = ΔU (since ΔW = 0). For the same temperature rise, ΔU is identical in both processes because U depends only on T for an ideal gas. Therefore, ΔQ_p = ΔU + PΔV > ΔU = ΔQ_v, so Cp > Cv. A wrong answer that says \"because pressure is higher\" or \"molecules move faster\" shows misunderstanding of the work term in the first law.",
+     "self_check": true
+    },
+    {
+     "q": "One mole of an ideal gas has Cv = 20.8 J mol⁻¹ K⁻¹. Calculate Cp and the ratio γ = Cp/Cv.",
+     "a": "Given: Cv = 20.8 J mol⁻¹ K⁻¹, R = 8.31 J mol⁻¹ K⁻¹.\nStep 1: Cp = Cv + R = 20.8 + 8.31 = 29.11 J mol⁻¹ K⁻¹.\nStep 2: γ = Cp/Cv = 29.11 / 20.8 ≈ 1.40.\nUnits: J mol⁻¹ K⁻¹ for Cp and Cv; γ is dimensionless.\nA wrong answer (e.g., Cp = 20.8 - 8.31) reveals sign error in applying Mayer's formula or forgetting to add R.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for a diatomic gas at room temperature, Cp – Cv = 5R/2. Is this correct? Justify using degrees of freedom.",
+     "a": "No, the claim is incorrect. For any ideal gas, Mayer's formula Cp – Cv = R holds universally, independent of degrees of freedom. For a diatomic gas at room temperature, degrees of freedom f = 5, so Cv = (f/2)R = (5/2)R and Cp = Cv + R = (7/2)R. The difference is R, not 5R/2. A wrong answer indicates confusion between the value of Cv (or Cp) and the difference Cp – Cv.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment, 2 moles of an ideal gas are heated at constant pressure from 300 K to 350 K. The heat supplied is measured as 4155 J. The student calculates Cv = 20.8 J mol⁻¹ K⁻¹. Is this value consistent with Mayer's formula? Show your reasoning.",
+     "a": "Step 1: Cp = Q / (n ΔT) = 4155 J / (2 mol × 50 K) = 41.55 J mol⁻¹ K⁻¹.\nStep 2: Using Mayer's formula, Cv = Cp – R = 41.55 – 8.31 = 33.24 J mol⁻¹ K⁻¹.\nThe student's value (20.8 J mol⁻¹ K⁻¹) is not consistent; it would correspond to Cp = 29.11 J mol⁻¹ K⁻¹. The discrepancy suggests experimental error or that the gas is not ideal. A wrong answer that does not compute Cp from the data shows inability to apply the formula in reverse.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment to verify Mayer's formula using a gas in a cylinder with a movable piston and a fixed piston, assuming you can measure heat supplied and temperature change.",
+     "a": "Take 1 mole of ideal gas in two identical cylinders: Cylinder A has a fixed piston (constant volume), Cylinder B has a frictionless movable piston exposed to atmospheric pressure (constant pressure). Supply the same amount of heat Q to both and measure temperature rises ΔT_v and ΔT_p. Then Cv = Q/ΔT_v, Cp = Q/ΔT_p. Compute Cp – Cv and compare with R. A good answer includes controlling initial T, P, V and using the same gas. A poor answer omits the need for equal moles or same initial conditions, or suggests measuring work directly without using the first law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

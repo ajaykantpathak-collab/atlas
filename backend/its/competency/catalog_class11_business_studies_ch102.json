@@ -1,0 +1,458 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 102,
+ "chapter_title": "Forms of Business Organisation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs102.txt",
+ "concepts": [
+  {
+   "id": "kebs.2.2.1",
+   "title": "Sole Proprietorship and Personal Liability",
+   "section": "2.2",
+   "definition": "A commercial setup owned, managed, and controlled entirely by a single person who bears full risk and reaps all rewards.",
+   "formula": "personal_liability = max(0, total_liabilities - business_assets)",
+   "key_idea": "The sole owner carries unlimited liability, meaning personal assets can be liquidated if business assets fall short of debts.",
+   "textbook_ref": "kebs102.txt lines 35-95",
+   "question_patterns": [
+    "find the personal liability of the sole proprietor",
+    "calculate the amount the owner must contribute from personal assets to clear debts",
+    "what is the personal financial obligation of the proprietor upon business dissolution",
+    "how much must the sole trader bring from personal funds",
+    "Explain sole proprietorship and personal liability in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine the deficit between business debts and business assets",
+     "explain": "subtract total business assets from total liabilities",
+     "compute": "total_liabilities - business_assets"
+    },
+    {
+     "step": 2,
+     "action": "calculate the personal liability of the owner",
+     "explain": "the proprietor must pay the deficit amount up to the shortfall, bounded at zero if assets exceed liabilities",
+     "compute": "(0, deficit)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving sole proprietorship and personal liability.",
+     "solution": "Step 1: determine the deficit between business debts and business assets. Step 2: calculate the personal liability of the owner. Working: total_liabilities - business_assets, (0, deficit).",
+     "answer": "Sole Proprietorship and Personal Liability applied step by step gives the required result."
+    },
+    {
+     "question": "Apply sole proprietorship and personal liability to a fresh example and interpret the result.",
+     "solution": "Step 1: determine the deficit between business debts and business assets. Step 2: calculate the personal liability of the owner. Working: total_liabilities - business_assets, (0, deficit).",
+     "answer": "The method of sole proprietorship and personal liability leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.3.1",
+   "title": "Joint Hindu Family Business Structure and Governance",
+   "section": "2.3",
+   "definition": "A unique traditional Indian business enterprise owned jointly by coparceners of an undivided Hindu family and administered by the eldest member.",
+   "formula": "coparcener_liability = capital_share, karta_liability = unlimited",
+   "key_idea": "Membership is acquired by birth; coparceners enjoy limited liability whereas the Karta bears unlimited personal liability.",
+   "textbook_ref": "kebs102.txt lines 135-185",
+   "question_patterns": [
+    "identify the liability difference between Karta and coparceners",
+    "verify whether a minor becomes a member in Joint Hindu Family business by birth",
+    "explain the governing law and continuity of a Hindu Undivided Family business",
+    "assess the rights and obligations of coparceners upon Karta's demise",
+    "Explain joint hindu family business structure and governance in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify governing law and membership basis",
+     "explain": "The business operates under the Hindu Succession Act, where membership arises automatically by birth in the family."
+    },
+    {
+     "step": 2,
+     "action": "differentiate control and liability structure",
+     "explain": "Management is exclusively vested in the Karta who has unlimited liability, while coparceners have liability restricted to their coparcenary share."
+    },
+    {
+     "step": 3,
+     "action": "verify business continuity",
+     "explain": "The death of the Karta does not dissolve the enterprise; the next senior-most member automatically succeeds as the new Karta."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.1",
+   "title": "Partnership Essentials and Mutual Agency",
+   "section": "2.4",
+   "definition": "An association of two or more individuals who have agreed to pool resources to operate a lawful business and distribute profits and losses.",
+   "formula": "profit_share = total_profit * partner_ratio",
+   "key_idea": "Every partner acts simultaneously as an agent capable of binding others and as a principal bound by the acts of co-partners.",
+   "textbook_ref": "kebs102.txt lines 190-265",
+   "question_patterns": [
+    "explain the principle of mutual agency in partnership",
+    "verify the statutory limits on the minimum and maximum number of partners",
+    "what are the essential features of a partnership under the Indian Partnership Act",
+    "determine whether joint and several liability applies to partners",
+    "Explain partnership essentials and mutual agency in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check contractual agreement and legal capacity",
+     "explain": "A partnership originates from an agreement between two or more competent persons to run a lawful profit-making enterprise."
+    },
+    {
+     "step": 2,
+     "action": "verify the mutual agency relationship",
+     "explain": "Each partner is an agent representing the firm and a principal bound by other partners' business decisions."
+    },
+    {
+     "step": 3,
+     "action": "verify the nature of liability",
+     "explain": "All partners share unlimited, joint, and several liability toward third-party claims."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.2",
+   "title": "Classification and Liabilities of Partners",
+   "section": "2.4.1",
+   "definition": "The categorization of partners based on capital contribution, operational management, profit sharing, and exposure to liability.",
+   "formula": "liability_status = unlimited (except admitted minors)",
+   "key_idea": "Partners by estoppel, holding out, and nominal partners do not contribute capital or manage, yet carry unlimited liability to third parties.",
+   "textbook_ref": "kebs102.txt lines 270-365",
+   "question_patterns": [
+    "distinguish between a partner by estoppel and a partner by holding out",
+    "what are the rights and liabilities of a minor admitted to the benefits of a firm",
+    "compare active, sleeping, and nominal partners",
+    "verify whether a secret partner has limited or unlimited liability",
+    "Explain classification and liabilities of partners in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the type of partner based on actions and representations",
+     "explain": "Active, sleeping, and secret partners contribute capital and share profits, whereas nominal and estoppel partners only lend their credit/name."
+    },
+    {
+     "step": 2,
+     "action": "assess management participation and profit entitlement",
+     "explain": "Active and secret partners participate in management, while sleeping, nominal, estoppel, and holding-out partners do not."
+    },
+    {
+     "step": 3,
+     "action": "determine the extent of third-party liability",
+     "explain": "All full partners (including secret, nominal, and estoppel) bear unlimited liability; only minors have liability confined to their invested share."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.4.3",
+   "title": "Consequences of Non-Registration of Partnership",
+   "section": "2.4.4",
+   "definition": "The legal disabilities imposed on an unregistered partnership firm under the Indian Partnership Act, 1932.",
+   "formula": "legal_disability = suit_against_third_party + suit_against_copartners",
+   "key_idea": "Although registration is optional, non-registered firms lose the right to enforce contractual claims in a court of law against partners or external parties.",
+   "textbook_ref": "kebs102.txt lines 415-460",
+   "question_patterns": [
+    "what are the consequences of non-registration of a partnership firm",
+    "can an unregistered firm file a lawsuit against third parties",
+    "why is registration advisable despite being optional for partnership firms",
+    "explain the procedure and benefits of partnership registration",
+    "Explain consequences of non-registration of partnership in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the optional nature of partnership registration",
+     "explain": "Registration with the Registrar of Firms is voluntary and can be executed at the time of formation or anytime thereafter."
+    },
+    {
+     "step": 2,
+     "action": "verify legal disabilities resulting from non-registration",
+     "explain": "An unregistered firm cannot sue third parties, and its partners cannot file lawsuits against each other or the firm to enforce contractual rights."
+    },
+    {
+     "step": 3,
+     "action": "assess third-party rights against an unregistered firm",
+     "explain": "Third parties retain the unconditional right to file suits against an unregistered firm to recover their lawful claims."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.5.1",
+   "title": "Cooperative Society Principles and Characteristics",
+   "section": "2.5",
+   "definition": "A voluntary organization established by individuals of limited financial resources to promote mutual economic welfare based on self-help and democratic governance.",
+   "formula": "voting_power = 1_member_1_vote",
+   "key_idea": "Democratic control operates on the rule of 'one man, one vote' irrespective of the capital contributed by an individual member.",
+   "textbook_ref": "kebs102.txt lines 465-545",
+   "question_patterns": [
+    "how does a cooperative society demonstrate democratic functioning",
+    "explain the principle of 'one man, one vote' in a cooperative organization",
+    "what are the merits and limitations of a cooperative society",
+    "verify the legal status and member liability in a registered cooperative society",
+    "Explain cooperative society principles and characteristics in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify registration and legal identity",
+     "explain": "Compulsory registration confers a separate legal identity, limited member liability, and perpetual succession."
+    },
+    {
+     "step": 2,
+     "action": "examine democratic governance and voting rights",
+     "explain": "Control rests with an elected managing committee governed strictly by the democratic rule of 'one man, one vote'."
+    },
+    {
+     "step": 3,
+     "action": "assess the primary operating objective",
+     "explain": "The dominant motivation is mutual service, elimination of middlemen, and member welfare rather than maximizing profit."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.5.2",
+   "title": "Types of Cooperative Societies",
+   "section": "2.5.1",
+   "definition": "Classification of cooperative societies based on their specific functional objectives such as consumer protection, producer aid, marketing, farming, credit, or housing.",
+   "formula": "surplus_distribution = based_on_patronage_or_capital",
+   "key_idea": "Different cooperative types target distinct economic challenges of specific groups like small farmers, artisans, borrowers, or consumers.",
+   "textbook_ref": "kebs102.txt lines 550-630",
+   "question_patterns": [
+    "differentiate between consumer cooperatives and producer cooperatives",
+    "what is the primary objective of a marketing cooperative society",
+    "explain how credit cooperative societies protect borrowers from exploitation",
+    "identify the type of cooperative society needed for building affordable residential homes",
+    "Explain types of cooperative societies in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify target member group and economic objective",
+     "explain": "Societies are grouped into consumer, producer, marketing, farmer, credit, or housing based on member needs."
+    },
+    {
+     "step": 2,
+     "action": "determine operational methodology",
+     "explain": "They procure goods directly in bulk, pool agricultural produce, provide low-interest loans, or construct affordable residential units."
+    },
+    {
+     "step": 3,
+     "action": "evaluate profit/surplus distribution",
+     "explain": "Operating profits are distributed among members either proportionally to their purchases, outputs contributed, or as capped dividends."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.6.1",
+   "title": "Joint Stock Company and Shareholder Liability",
+   "section": "2.6",
+   "definition": "An incorporated artificial legal entity with perpetual succession, a separate legal personality, and capital divisible into transferable shares.",
+   "formula": "unpaid_liability = num_shares * (face_value - paid_amount)",
+   "key_idea": "A shareholder's liability is strictly limited to the unpaid portion of the nominal value of the shares held.",
+   "textbook_ref": "kebs102.txt lines 635-715",
+   "question_patterns": [
+    "calculate the maximum liability of a shareholder in a joint stock company",
+    "find the remaining financial obligation of a shareholder on partly paid shares",
+    "how much can the creditors claim from a shareholder holding unpaid shares",
+    "determine the total unpaid amount payable by a member on company liquidation",
+    "Explain joint stock company and shareholder liability in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the unpaid amount per share",
+     "explain": "deduct the paid-up amount per share from the nominal face value per share",
+     "compute": "face_value - paid_amount"
+    },
+    {
+     "step": 2,
+     "action": "compute the total maximum liability of the shareholder",
+     "explain": "multiply the number of shares held by the unpaid amount per share",
+     "compute": "num_shares * unpaid_per_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving joint stock company and shareholder liability.",
+     "solution": "Step 1: calculate the unpaid amount per share. Step 2: compute the total maximum liability of the shareholder. Working: face_value - paid_amount, num_shares * unpaid_per_share.",
+     "answer": "Joint Stock Company and Shareholder Liability applied step by step gives the required result."
+    },
+    {
+     "question": "Apply joint stock company and shareholder liability to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the unpaid amount per share. Step 2: compute the total maximum liability of the shareholder. Working: face_value - paid_amount, num_shares * unpaid_per_share.",
+     "answer": "The method of joint stock company and shareholder liability leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.6.2",
+   "title": "Distinction Between Private and Public Companies",
+   "section": "2.6.1",
+   "definition": "The statutory differentiation of corporate entities under the Companies Act based on share transferability, public invitations, and membership thresholds.",
+   "formula": "public_min_members = 7, private_min_members = 2",
+   "key_idea": "A private company restricts share transfers and public subscriptions with a 200-member ceiling, whereas a public company has free share transferability and no maximum member limit.",
+   "textbook_ref": "kebs102.txt lines 750-815",
+   "question_patterns": [
+    "distinguish between a private company and a public company",
+    "state the privileges of a private limited company over a public company",
+    "verify the minimum and maximum membership limits for private and public companies",
+    "can a private company invite the general public to subscribe to its securities",
+    "Explain distinction between private and public companies in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare membership thresholds",
+     "explain": "A private company requires a minimum of 2 and allows a maximum of 200 members, while a public company requires at least 7 with no upper limit."
+    },
+    {
+     "step": 2,
+     "action": "evaluate transferability of shares and public subscription",
+     "explain": "Private companies restrict share transfer and cannot invite the public to subscribe, whereas public companies allow free share transfer and public issues."
+    },
+    {
+     "step": 3,
+     "action": "compare managerial and procedural requirements",
+     "explain": "Private companies require a minimum of 2 directors and can commence business without issuing a prospectus, whereas public companies need at least 3 directors."
+    }
+   ]
+  },
+  {
+   "id": "kebs.2.7.1",
+   "title": "Factors Determining Choice of Business Organisation",
+   "section": "2.7",
+   "definition": "The strategic evaluation of organizational forms across capital needs, liability tolerance, regulatory compliance, managerial complexity, and operational continuity.",
+   "formula": "choice_suitability = f(capital, liability, continuity, management, control)",
+   "key_idea": "Higher capital and expansion requirements favor corporate forms, while personal customer touch, quick decisions, and minimal capital favor sole proprietorship.",
+   "textbook_ref": "kebs102.txt lines 820-915",
+   "question_patterns": [
+    "what factors determine the choice of an appropriate form of business organisation",
+    "why is a company form preferred for large-scale operations requiring extensive capital",
+    "evaluate the trade-off between formation cost and personal liability in business choice",
+    "suggest a suitable form of organisation for professional consultancy services",
+    "Explain factors determining choice of business organisation in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess capital requirements and scale of operations",
+     "explain": "Large-scale ventures requiring massive funds favor joint stock companies, whereas small-scale local shops favor sole proprietorships."
+    },
+    {
+     "step": 2,
+     "action": "evaluate liability risk and business continuity needs",
+     "explain": "When owners seek to avoid personal asset risk and ensure perpetual existence, company or cooperative structures are ideal."
+    },
+    {
+     "step": 3,
+     "action": "weigh control preferences against managerial complexity and regulatory burdens",
+     "explain": "If direct unshared control and minimal legal compliance are preferred, sole proprietorship or partnership is chosen over heavily regulated corporate entities."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs102.txt lines 70-85",
+   "concept": "kebs.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "XYZ dry cleaner, a sole proprietorship firm, has total outside liabilities of Rs. {total_liabilities} at the time of dissolution, but its assets are only Rs. {business_assets}. Calculate the amount the proprietor must bring from personal sources.",
+   "extracted_variables": {
+    "total_liabilities": "total external liabilities of the firm",
+    "business_assets": "realizable assets owned by the business"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine the deficit between business debts and business assets",
+     "explain": "subtract total business assets from total liabilities",
+     "compute": "deficit = total_liabilities - business_assets"
+    },
+    {
+     "step": 2,
+     "action": "calculate the personal liability of the owner",
+     "explain": "the proprietor must pay the deficit amount up to the shortfall, bounded at zero if assets exceed liabilities",
+     "compute": "personal_liability = max(0, deficit)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs102.txt lines 705-715",
+   "concept": "kebs.2.6.1",
+   "question_type": "compute",
+   "question_pattern": "Akshay is a shareholder in a company holding {num_shares} shares of Rs. {face_value} each on which he has already paid Rs. {paid_amount} per share. In the event of losses or company's failure to pay debts, calculate his maximum remaining liability.",
+   "extracted_variables": {
+    "num_shares": "number of shares held by the shareholder",
+    "face_value": "nominal face value per share",
+    "paid_amount": "amount already paid per share"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the unpaid amount per share",
+     "explain": "deduct the paid-up amount per share from the nominal face value per share",
+     "compute": "unpaid_per_share = face_value - paid_amount"
+    },
+    {
+     "step": 2,
+     "action": "compute the total maximum liability of the shareholder",
+     "explain": "multiply the number of shares held by the unpaid amount per share",
+     "compute": "total_liability = num_shares * unpaid_per_share"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "kebs102.txt lines 960-975",
+   "questions": [
+    "Compare the status of a minor in a Joint Hindu family business with that in a partnership firm.",
+    "If registration is optional, why do partnership firms willingly go through this legal formality and get themselves registered? Explain.",
+    "State the important privileges available to a private company.",
+    "How does a cooperative society exemplify democracy and secularism? Explain.",
+    "What is meant by 'partner by estoppel'? Explain.",
+    "Briefly explain the following terms: (a) Perpetual succession (b) Common seal (c) Karta (d) Artificial person."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "kebs102.txt lines 976-995",
+   "questions": [
+    "What do you understand by a sole proprietorship firm? Explain its merits and limitations.",
+    "Why is partnership considered by some to be a relatively unpopular form of business ownership? Explain the merits and limitations of partnership.",
+    "Why is it important to choose an appropriate form of organisation? Discuss the factors that determine the choice of form of organisation.",
+    "Discuss the characteristics, merits and limitations of cooperative form of organisation. Also describe briefly different types of cooperative societies.",
+    "Distinguish between a Joint Hindu family business and partnership.",
+    "Despite limitations of size and resources, many people continue to prefer sole proprietorship over other forms of organisation. Why?"
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "kebs102.txt lines 996-1020",
+   "questions": [
+    "In which form of organisation is a trade agreement made by one owner binding on the others? Give reasons to support your answer.",
+    "The business assets of an organisation amount to Rs. 50,000 but the debts that remain unpaid are Rs. 80,000. What course of action can the creditors take if (a) The organisation is a sole proprietorship firm (b) The organisation is a partnership firm with Anthony and Akbar as partners. Which of the two partners can the creditors approach for repayment of debt? Explain giving reasons.",
+    "Kiran is a sole proprietor. Over the past decade, her business has grown from operating a neighbourhood corner shop selling accessories such as artificial jewellery, bags, hair clips and nail art to a retail chain with three branches in the city. Although she looks after the varied functions in all the branches, she is wondering whether she should form a company to better manage the business. She also has plans to open branches countrywide. (a) Explain two benefits of remaining a sole proprietor (b) Explain two benefits of converting to a joint stock company (c) What role will her decision to go nationwide play in her choice of form of the organisation? (d) What legal formalities will she have to undergo to operate business as a company?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

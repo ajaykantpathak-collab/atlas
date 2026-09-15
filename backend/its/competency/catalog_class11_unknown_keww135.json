@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 135,
+  "chapter_title": "What is a Good Book?",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww135.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww135.1.1",
+      "title": "Books for Information versus Books That Speak",
+      "section": "1",
+      "definition": "John Ruskin separates all books into two classes: books of the moment -- temporary talk, print that informs for a day -- and books of all time, the good books whose voice rises from the grave of their authors to speak to every generation. The question 'what is a good book?' is answered by the test of permanence and voice.",
+      "formula": "",
+      "key_idea": "Books of the moment versus books of all time -- the good book is one whose voice outlives its author.",
+      "textbook_ref": "keww135.txt opening sections (two classes of books, books of the moment, books of all time, voice from the grave of authors)",
+      "question_patterns": [
+        "how does ruskin divide all books into two classes",
+        "in class 11 what is a good book: what are books of the moment",
+        "what does ruskin mean by the voice rising from the grave",
+        "why can newspapers not be called good books in ruskin's sense",
+        "what test decides whether a book belongs to all time",
+        "distinguish useful print from true literature according to ruskin"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "make the division",
+          "explain": "Ruskin splits print into temporary, moment-serving matter and permanent, time-serving literature."
+        },
+        {
+          "step": 2,
+          "action": "describe the good book's voice",
+          "explain": "A good book speaks from the author's grave -- it was written to be true forever, not merely now."
+        },
+        {
+          "step": 3,
+          "action": "apply the test",
+          "explain": "Ask whether the book can still converse with readers centuries on; if yes, it is of all time."
+        }
+      ]
+    },
+    {
+      "id": "keww135.1.2",
+      "title": "The Authorship of the Good Book: Society's Best Work",
+      "section": "1",
+      "definition": "A good book, Ruskin argues, is the work not of one pen but of the best society of the author's age -- the accumulated insight, conscience and style of a nation distilled by one great mind. Words like 'canaille' and 'peerage' and 'national noblesse' mark his scale: a good book is aristocratic in the sense of being the best that a people could think and say.",
+      "formula": "",
+      "key_idea": "Written by one, authored by many -- the good book distils the best of a nation's mind into one voice.",
+      "textbook_ref": "keww135.txt authorship sections (best society of the author's age, canaille, peerage, national noblesse, accumulated insight of a nation)",
+      "question_patterns": [
+        "why does ruskin say a good book is written by a society not a man",
+        "in class 11 what is a good book: explain the terms canaille and national noblesse",
+        "how does the good book carry the best of its age",
+        "what is aristocratic about a good book in ruskin's special sense",
+        "relate the author's life to the book's lasting value",
+        "why does ruskin compare books with the peerage of a nation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "name the real author",
+          "explain": "Behind the writer stands a century of accumulated thought -- the book is a nation's distillation."
+        },
+        {
+          "step": 2,
+          "action": "clarify the aristocracy",
+          "explain": "Good books form a noblesse of intellect: chosen by merit of thought, not birth or rank."
+        },
+        {
+          "step": 3,
+          "action": "accept the demand",
+          "explain": "Only the best a people thinks deserves the name -- hence the rarity and worth of true books."
+        }
+      ]
+    },
+    {
+      "id": "keww135.1.3",
+      "title": "Practical Advice: The Right Book, Read Right",
+      "section": "1",
+      "definition": "Ruskin ends in practical counsel: do not read too many books, but the right ones slowly; examine the border of each page, weigh the author's exact meaning, and refuse to be content with the canaille of current print. Reading a good book is an act of discipline and love, not a pastime to be consumed in heaps.",
+      "formula": "",
+      "key_idea": "Few books, read deep and slow -- Ruskin's reading discipline against the heap of momentary print.",
+      "textbook_ref": "keww135.txt counsel sections (do not read too many, examine the border of the page, weigh the author's meaning, refuse the canaille of print, reading as discipline)",
+      "question_patterns": [
+        "what advice does ruskin give about the number of books to read",
+        "in class 11 what is a good book: what does ruskin mean by examining the border of the page",
+        "why should readers refuse the canaille of current print",
+        "how does slow reading differ from devouring books",
+        "explain reading as an act of discipline in ruskin's terms",
+        "apply ruskin's advice to choosing books in the age of abundance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "limit the number",
+          "explain": "Fewer books, better chosen -- reading heaps of momentary print wastes the attention that makes good books yield."
+        },
+        {
+          "step": 2,
+          "action": "deepen the reading",
+          "explain": "Study the exact wording -- the border of the page -- and weigh what the author precisely meant."
+        },
+        {
+          "step": 3,
+          "action": "keep the company",
+          "explain": "Treat good books as the noblest society available, and give them the love and discipline that company deserves."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww135.txt opening sections",
+      "concept": "keww135.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A friend says a well-researched newspaper report is a good book by Ruskin's standard. Test the claim.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant its merit",
+          "explain": "The report may be true, useful and even admirable for its day."
+        },
+        {
+          "step": 2,
+          "action": "apply the permanence test",
+          "explain": "Ruskin's good book must speak to every generation; the report serves only its own."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "It belongs to the books of the moment -- excellent talk, but not literature of all time."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww135.txt counsel sections",
+      "concept": "keww135.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A student reads forty novels a year but remembers none. What would Ruskin advise?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "diagnose the habit",
+          "explain": "Heaping up momentary print with no examination is exactly the 'read too many' fault."
+        },
+        {
+          "step": 2,
+          "action": "prescribe the discipline",
+          "explain": "Choose fewer, better books; read slowly, weighing the exact meaning of the author."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Depth of company with one good book outweighs a warehouse of consumed ones."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww135.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Into what two classes does Ruskin divide all books?",
+        "Explain the meaning of 'the voice rising from the grave of its author'.",
+        "Why does Ruskin call a good book the work of the best society?",
+        "Explain the terms canaille and national noblesse as used in the essay.",
+        "Summarise Ruskin's practical advice on reading.",
+        "Are Ruskin's standards relevant in the internet age? Discuss."
+      ]
+    }
+  ]
+}

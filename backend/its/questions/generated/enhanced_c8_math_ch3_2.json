@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_2",
+   "title": "c8_math_ch3_2",
+   "questions": [
+    {
+     "q": "A farmer uses 15 stones to track 15 sheep. He places one stone per sheep as they enter the pen. At the end, 2 stones remain in his hand. What does this tell him about the sheep?",
+     "a": "The 2 remaining stones mean 2 sheep are missing; the one-to-one mapping shows the set of stones has 2 more elements than the set of returned sheep. A wrong answer (e.g., \"he has extra stones\") reveals the student does not grasp that the mapping compares cardinalities directly — they focus on the physical stones rather than the unpaired elements indicating a deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we say two sets have the same number of items if we can pair them up one-to-one with nothing left over, even if we don't know the number name?",
+     "a": "Because one-to-one pairing creates a bijection: each element of set A matches exactly one element of set B and vice versa, which is the *definition* of equal cardinality. A wrong answer (e.g., \"because we counted them\") shows the student still relies on counting words as the only way to compare quantities, missing that the mapping *is* the fundamental comparison method.",
+     "self_check": true
+    },
+    {
+     "q": "A child pairs 8 pencils with 8 erasers by placing one eraser beside each pencil. Then she adds 3 more pencils but no erasers. How many pencils now have no eraser partner? Show your reasoning.",
+     "a": "Originally 8 pencils ↔ 8 erasers (perfect pairing). Adding 3 pencils gives 11 pencils total. Erasers remain 8. Pencils without erasers = 11 − 8 = 3. A wrong answer (e.g., 8 or 11) reveals the student cannot track the changing cardinality of one set while the other stays fixed — they lose the one-to-one correspondence logic when sets are modified.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two methods for checking if a bag has exactly 20 marbles: (A) Count the marbles aloud. (B) Have 20 bottle caps; take one marble and one cap out together until one runs out. Which method relies on one-to-one mapping? Which is more reliable if you forget the counting sequence? Explain.",
+     "a": "Method B uses one-to-one mapping (each marble paired with a cap). Method B is more reliable if the counting sequence is forgotten because it only requires physical pairing, not verbal number order. A wrong answer (e.g., \"A is better because counting is exact\") shows the student does not recognize that one-to-one mapping is independent of language and memory of number words — it is a concrete, self-verifying procedure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I have 12 bangles and 12 bindis, I can prove they are equal in number by putting one bindi inside each bangle. But if I have 12 bangles and 10 bindis, I cannot prove which is more using this method.\" Evaluate this claim and correct any error.",
+     "a": "The claim is partially wrong. With 12 bangles and 10 bindis, putting one bindi in each bangle leaves 2 empty bangles — this *proves* bangles are more numerous (by exactly 2). The method works for inequality too: the unpaired items show which set is larger and by how much. A wrong evaluation (agreeing with the student) reveals the misconception that one-to-one mapping only works for equality; in fact, it directly reveals *difference* by the leftovers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-to-one mapping activity for a Class 3 student to check if two piles of tamarind seeds are equal without counting. Use only materials found in a typical Indian kitchen. Describe the steps and how the child interprets the result.",
+     "a": "Example: Use two small bowls. Child moves one seed from pile A and one from pile B into the bowls simultaneously, repeating until one pile is empty. If both empty together → equal. If one has seeds left → that pile had more. A poor answer (e.g., \"count them\") shows the student cannot devise a concrete, non-verbal bijection procedure — they default to counting, missing the core idea of mapping as an alternative to counting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,512 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Pair of Linear Equations in Two Variables",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh103.txt",
+ "concepts": [
+  {
+   "id": "jemh.3.1.1",
+   "title": "Formulation of Linear Equations in Two Variables",
+   "section": "3.1",
+   "definition": "Formulating two linear relationships between two unknown variables to model word problems in standard algebraic representation.",
+   "formula": "a1*x + b1*y + c1 = 0, a2*x + b2*y + c2 = 0",
+   "key_idea": "Convert real-world constraints into a pair of simultaneous linear equations.",
+   "textbook_ref": "jemh103.txt lines 15-45",
+   "question_patterns": [
+    "form pair of linear equations from the given word problem",
+    "represent the given situation algebraically using two variables",
+    "write linear equations in two variables for the given statement",
+    "translate the word problem into a system of two linear equations",
+    "express the given real life situation as linear equations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assign variables to unknown quantities",
+     "explain": "Define variable x for the first unknown quantity and y for the second unknown quantity."
+    },
+    {
+     "step": 2,
+     "action": "Formulate equations from given conditions",
+     "explain": "Translate each statement into an algebraic linear equation relating x and y."
+    },
+    {
+     "step": 3,
+     "action": "Verify the pair of equations captures all constraints",
+     "explain": "Check that both equations together represent every condition stated in the word problem."
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.2.1",
+   "title": "Consistency and Graphical Behavior via Coefficient Ratios",
+   "section": "3.2",
+   "definition": "Comparing ratios of corresponding coefficients of x, y, and constant terms to determine line behavior and number of solutions.",
+   "formula": "a1/a2 != b1/b2 (unique solution); a1/a2 = b1/b2 = c1/c2 (infinitely many); a1/a2 = b1/b2 != c1/c2 (no solution)",
+   "key_idea": "Coefficient ratios reveal if lines intersect uniquely, run parallel with no solution, or coincide infinitely.",
+   "textbook_ref": "jemh103.txt lines 50-95",
+   "question_patterns": [
+    "compare ratios a1/a2, b1/b2, c1/c2 to check consistency",
+    "find whether lines are intersecting, parallel or coincident",
+    "determine if the pair of linear equations is consistent or inconsistent",
+    "check if the system of equations has unique, infinitely many, or no solutions",
+    "examine the ratio of coefficients to classify the pair of lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify coefficients a1, b1, c1 and a2, b2, c2",
+     "explain": "Write both equations in standard form a*x + b*y + c = 0 to read coefficients."
+    },
+    {
+     "step": 2,
+     "action": "Compute and compare ratios a1/a2, b1/b2, and c1/c2",
+     "explain": "If a1/a2 != b1/b2, lines intersect uniquely (consistent). If a1/a2 = b1/b2 = c1/c2, lines coincide (dependent consistent). If a1/a2 = b1/b2 != c1/c2, lines are parallel (inconsistent)."
+    },
+    {
+     "step": 3,
+     "action": "Classify the system as consistent or inconsistent",
+     "explain": "Conclude whether the pair has a unique solution, infinitely many solutions, or no solution based on the ratio comparison."
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.2.2",
+   "title": "Graphical Solution of a Pair of Linear Equations",
+   "section": "3.2",
+   "definition": "Finding common solution values of two linear equations by drawing their graphs on a coordinate grid and locating the point of intersection.",
+   "formula": "point (x, y) where line 1 intersects line 2",
+   "key_idea": "Graph intersection coordinates represent the simultaneous solution to both linear equations.",
+   "textbook_ref": "jemh103.txt lines 100-160",
+   "question_patterns": [
+    "solve the pair of linear equations graphically",
+    "find the solution of linear equations by plotting graph",
+    "determine coordinates of intersection point of two lines graphically",
+    "graph the linear equations and find their common point",
+    "check graphically if the given pair of equations has a solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Obtain solution tables for both linear equations",
+     "explain": "Find at least two (x, y) coordinate pairs for each line."
+    },
+    {
+     "step": 2,
+     "action": "Plot the lines on graph paper and find intersection",
+     "explain": "Draw straight lines through the plotted points and identify coordinate (x, y) where they intersect."
+    },
+    {
+     "step": 3,
+     "action": "Verify the intersection point satisfies both equations",
+     "explain": "Substitute the intersection coordinates back into both original equations to confirm they hold true."
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.1",
+   "title": "Substitution Method for Solving Linear Equations",
+   "section": "3.3.1",
+   "definition": "Solving simultaneous linear equations by isolating one variable from one equation and substituting its expression into the second equation.",
+   "formula": "x = (c1 - b1*y)/a1 substituted into a2*x + b2*y + c2 = 0",
+   "key_idea": "Express one variable in terms of the other to reduce two equations to a single variable linear equation.",
+   "textbook_ref": "jemh103.txt lines 180-240",
+   "question_patterns": [
+    "solve the pair of linear equations by substitution method",
+    "use substitution to find the values of x and y",
+    "find the solution of the system using algebraic substitution",
+    "apply substitution method to solve the equations",
+    "determine x and y by expressing one variable in terms of another"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express one variable in terms of the other from one equation",
+     "explain": "Isolate variable x or y in the convenient linear equation."
+    },
+    {
+     "step": 2,
+     "action": "Substitute this expression into the other equation",
+     "explain": "Replace the isolated variable in the second equation to get an equation in one variable."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the single variable and back-substitute",
+     "explain": "Find value of first variable, then substitute back to find the second variable."
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.2",
+   "title": "Elimination Method for Solving Linear Equations",
+   "section": "3.3.2",
+   "definition": "Solving linear systems by scaling equations to equalize coefficients of one variable and eliminating it through addition or subtraction.",
+   "formula": "m1*(a1*x + b1*y + c1) - m2*(a2*x + b2*y + c2) = 0",
+   "key_idea": "Eliminate a variable by matching its coefficients across equations to simplify solution.",
+   "textbook_ref": "jemh103.txt lines 290-360",
+   "question_patterns": [
+    "solve the pair of linear equations using elimination method",
+    "eliminate one variable to solve the system of linear equations",
+    "find the values of x and y by elimination method",
+    "apply elimination technique to solve the given pair of equations",
+    "use elimination by equating coefficients to solve for variables"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply equations by suitable constants",
+     "explain": "Make the numerical coefficients of one selected variable equal in both equations."
+    },
+    {
+     "step": 2,
+     "action": "Add or subtract equations to eliminate one variable",
+     "explain": "Eliminate the matched variable to get a linear equation in the remaining variable."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the variable and substitute back",
+     "explain": "Calculate value of the remaining variable and substitute into an original equation to find the other."
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.3",
+   "title": "Evaluating Slope Parameter in Linear Equation",
+   "section": "3.3",
+   "definition": "Determining the linear parameter or slope m from a given linear equation relationship after determining variable values.",
+   "formula": "m = (y - c) / x",
+   "key_idea": "Isolate parameter m using arithmetic operations on coordinates and constant offset.",
+   "textbook_ref": "jemh103.txt lines 260-275",
+   "question_patterns": [
+    "find the value of m for which y = mx + c",
+    "calculate parameter m given values of x and y",
+    "determine the constant m in equation y = mx + 3",
+    "compute value of m using solution x and y",
+    "evaluate slope m from given coordinates and constant term"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract constant c from y",
+     "explain": "isolate term m*x",
+     "compute": "diff = y_val - c_val"
+    },
+    {
+     "step": 2,
+     "action": "divide difference by x",
+     "explain": "solve for m",
+     "compute": "m = diff / x_val"
+    },
+    {
+     "step": 3,
+     "action": "verify m satisfies the original equation",
+     "explain": "substitute m back into y = m*x + c to confirm both sides are equal",
+     "compute": "check = m * x_val + c_val"
+    }
+   ]
+  },
+  {
+   "id": "jemh.3.3.4",
+   "title": "Calculating Total Cost from Fixed and Variable Rates",
+   "section": "3.3",
+   "definition": "Calculating overall monetary charge composed of a fixed base fee plus a per-unit variable rate multiplied by quantity.",
+   "formula": "total_cost = fixed_charge + distance * rate_per_km",
+   "key_idea": "Total expenditure equals fixed fee plus variable rate times usage.",
+   "textbook_ref": "jemh103.txt lines 270-285",
+   "question_patterns": [
+    "calculate total charge for travelling a given distance",
+    "find total cost when fixed charge and rate per km are known",
+    "compute total amount payable given fixed fee and per day charge",
+    "determine total bill with base charge and extra usage rate",
+    "evaluate final fare using fixed and variable rates"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply distance by per unit rate",
+     "explain": "calculate variable charge component",
+     "compute": "variable_cost = distance * rate_per_km"
+    },
+    {
+     "step": 2,
+     "action": "add fixed charge to variable cost",
+     "explain": "obtain total cost",
+     "compute": "total_cost = fixed_charge + variable_cost"
+    },
+    {
+     "step": 3,
+     "action": "verify total cost against expected result",
+     "explain": "confirm the computed total matches the sum of fixed and variable charges",
+     "compute": "check = fixed_charge + distance * rate_per_km"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh103.txt lines 110-140",
+   "concept": "jemh.3.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "Check graphically whether the pair of equations x + 3y = 6 and 2x - 3y = 12 is consistent. If so, solve them graphically.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find solution tables for both linear equations",
+     "explain": "For x + 3y = 6, points are (0,2) and (6,0). For 2x - 3y = 12, points are (0,-4) and (3,-2)."
+    },
+    {
+     "step": 2,
+     "action": "Plot lines on graph paper and locate intersection",
+     "explain": "The lines intersect at point B(6, 0), so the system is consistent with solution x = 6, y = 0."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh103.txt lines 141-155",
+   "concept": "jemh.3.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Graphically, find whether the pair of equations 5x - 8y + 1 = 0 and 3x - (24/5)y + (3/5) = 0 has no solution, unique solution or infinitely many solutions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Simplify equation 2 by multiplying by 5/3",
+     "explain": "Multiplying 3x - (24/5)y + (3/5) = 0 by 5/3 yields 5x - 8y + 1 = 0, which is identical to equation 1."
+    },
+    {
+     "step": 2,
+     "action": "Conclude nature of solutions",
+     "explain": "Since both equations are identical, the lines coincide and have infinitely many solutions."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh103.txt lines 180-210",
+   "concept": "jemh.3.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Solve the pair of linear equations 7x - 15y = 2 and x + 2y = 3 by substitution method.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express x in terms of y from equation 2",
+     "explain": "From x + 2y = 3, we obtain x = 3 - 2y."
+    },
+    {
+     "step": 2,
+     "action": "Substitute x into equation 1 and solve for y",
+     "explain": "7(3 - 2y) - 15y = 2 simplifies to 21 - 29y = 2, giving y = 19/29."
+    },
+    {
+     "step": 3,
+     "action": "Calculate value of x",
+     "explain": "Substitute y = 19/29 into x = 3 - 2y to get x = 49/29."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh103.txt lines 290-330",
+   "concept": "jemh.3.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "Solve the pair of equations 9x - 4y = 2000 and 7x - 3y = 2000 using elimination method.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply equations to equate coefficients of y",
+     "explain": "Multiply 9x - 4y = 2000 by 3 to get 27x - 12y = 6000. Multiply 7x - 3y = 2000 by 4 to get 28x - 12y = 8000."
+    },
+    {
+     "step": 2,
+     "action": "Subtract equations to eliminate y",
+     "explain": "(28x - 27x) - (12y - 12y) = 8000 - 6000 gives x = 2000."
+    },
+    {
+     "step": 3,
+     "action": "Substitute x to solve for y",
+     "explain": "9(2000) - 4y = 2000 gives y = 4000."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh103.txt lines 260-265",
+   "concept": "jemh.3.3.3",
+   "question_type": "compute",
+   "question_pattern": "Solve 2x + 3y = 11 and 2x - 4y = -24 and find m in y = m*x + 3 when x = {x_val}, y = {y_val}, and c = {c_val}.",
+   "extracted_variables": {
+    "x_val": -2,
+    "y_val": 5,
+    "c_val": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant c from y",
+     "explain": "isolate term m*x",
+     "compute": "diff = y_val - c_val"
+    },
+    {
+     "step": 2,
+     "action": "divide difference by x",
+     "explain": "solve for m",
+     "compute": "m = diff / x_val"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh103.txt lines 260-265",
+   "concept": "jemh.3.3.3",
+   "question_type": "compute",
+   "question_pattern": "If x = {x_val} and y = {y_val} satisfy y = m*x + {c_val}, calculate the value of parameter m.",
+   "extracted_variables": {
+    "x_val": 2,
+    "y_val": 11,
+    "c_val": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant c from y",
+     "explain": "isolate term m*x",
+     "compute": "diff = y_val - c_val"
+    },
+    {
+     "step": 2,
+     "action": "divide difference by x",
+     "explain": "solve for m",
+     "compute": "m = diff / x_val"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jemh103.txt lines 270-280",
+   "concept": "jemh.3.3.4",
+   "question_type": "compute",
+   "question_pattern": "A taxi service has a fixed charge of {fixed_charge} rupees and a variable charge of {rate_per_km} rupees per km. Calculate the total fare for travelling {distance} km.",
+   "extracted_variables": {
+    "fixed_charge": 10,
+    "rate_per_km": 10,
+    "distance": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply distance by per unit rate",
+     "explain": "calculate variable charge component",
+     "compute": "variable_cost = distance * rate_per_km"
+    },
+    {
+     "step": 2,
+     "action": "add fixed charge to variable cost",
+     "explain": "obtain total cost",
+     "compute": "total_cost = fixed_charge + variable_cost"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jemh103.txt lines 370-380",
+   "concept": "jemh.3.3.4",
+   "question_type": "compute",
+   "question_pattern": "A library charges a fixed charge of {fixed_charge} rupees for 3 days and {rate_per_km} rupees for each extra day. Calculate the total charge for {distance} extra days.",
+   "extracted_variables": {
+    "fixed_charge": 15,
+    "rate_per_km": 3,
+    "distance": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply distance by per unit rate",
+     "explain": "calculate variable charge component",
+     "compute": "variable_cost = distance * rate_per_km"
+    },
+    {
+     "step": 2,
+     "action": "add fixed charge to variable cost",
+     "explain": "obtain total cost",
+     "compute": "total_cost = fixed_charge + variable_cost"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jemh103.txt lines 145-175",
+   "questions": [
+    "1(i) 10 students of Class X took part in a Mathematics quiz. If the number of girls is 4 more than the number of boys, find the number of boys and girls who took part in the quiz.",
+    "1(ii) 5 pencils and 7 pens together cost 50 rupees, whereas 7 pencils and 5 pens together cost 46 rupees. Find the cost of one pencil and that of one pen.",
+    "2(i) Compare ratios a1/a2, b1/b2, c1/c2 for 5x - 4y + 8 = 0 and 7x + 6y - 9 = 0 to find if lines intersect, are parallel or coincident.",
+    "2(ii) Compare ratios for 9x + 3y + 12 = 0 and 18x + 6y + 24 = 0.",
+    "2(iii) Compare ratios for 6x - 3y + 10 = 0 and 2x - y + 9 = 0.",
+    "3(i) Find whether 3x + 2y = 5 and 2x - 3y = 7 are consistent or inconsistent.",
+    "3(ii) Find whether 2x - 3y = 8 and 4x - 6y = 9 are consistent or inconsistent.",
+    "3(iii) Find whether (3/2)x + (5/3)y = 7 and 9x - 10y = 14 are consistent or inconsistent.",
+    "3(iv) Find whether 5x - 3y = 11 and -10x + 6y = -22 are consistent or inconsistent.",
+    "3(v) Find whether (4/3)x + 2y = 8 and 2x + 3y = 12 are consistent or inconsistent.",
+    "4(i) Check consistency of x + y = 5 and 2x + 2y = 10 and solve graphically if consistent.",
+    "4(ii) Check consistency of x - y = 8 and 3x - 3y = 16.",
+    "4(iii) Check consistency of 2x + y - 6 = 0 and 4x - 2y - 4 = 0.",
+    "4(iv) Check consistency of 2x - 2y - 2 = 0 and 4x - 4y - 5 = 0.",
+    "5 Half the perimeter of a rectangular garden, whose length is 4 m more than its width, is 36 m. Find the dimensions of the garden.",
+    "6 Given 2x + 3y - 8 = 0, write another linear equation in two variables such that the pair is (i) intersecting (ii) parallel (iii) coincident.",
+    "7 Draw graphs of x - y + 1 = 0 and 3x + 2y - 12 = 0. Determine vertices of triangle formed by these lines and x-axis, and shade the triangular region."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "jemh103.txt lines 255-285",
+   "questions": [
+    "1(i) Solve x + y = 14 and x - y = 4 by substitution method.",
+    "1(ii) Solve s - t = 3 and s/3 + t/2 = 6 by substitution method.",
+    "1(iii) Solve 3x - y = 3 and 9x - 3y = 9 by substitution method.",
+    "1(iv) Solve 0.2x + 0.3y = 1.3 and 0.4x + 0.5y = 2.3 by substitution method.",
+    "1(v) Solve sqrt(2)x + sqrt(3)y = 0 and sqrt(3)x - sqrt(8)y = 0 by substitution method.",
+    "1(vi) Solve 3x/2 - 5y/3 = -2 and x/3 + y/2 = 13/6 by substitution method.",
+    "2 Solve 2x + 3y = 11 and 2x - 4y = -24 and hence find value of m for which y = mx + 3.",
+    "3(i) Difference between two numbers is 26 and one number is three times the other. Find them.",
+    "3(ii) Larger of two supplementary angles exceeds the smaller by 18 degrees. Find them.",
+    "3(iii) Coach of cricket team buys 7 bats and 6 balls for 3800 rupees. Later she buys 3 bats and 5 balls for 1750 rupees. Find cost of each bat and ball.",
+    "3(iv) Taxi charges consist of fixed charge together with charge for distance. For 10 km charge is 105 rupees and for 15 km charge is 155 rupees. Find fixed charge and charge per km, and total pay for 25 km.",
+    "3(v) A fraction becomes 9/11 if 2 is added to numerator and denominator. If 3 is added to both, it becomes 5/6. Find the fraction.",
+    "3(vi) Five years hence, age of Jacob will be three times that of his son. Five years ago, Jacob age was seven times that of his son. What are present ages?"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "jemh103.txt lines 360-385",
+   "questions": [
+    "1(i) Solve x + y = 5 and 2x - 3y = 4 by elimination method and substitution method.",
+    "1(ii) Solve 3x + 4y = 10 and 2x - 2y = 2 by elimination and substitution.",
+    "1(iii) Solve 3x - 5y - 4 = 0 and 9x = 2y + 7 by elimination and substitution.",
+    "1(iv) Solve x/2 + 2y/3 = -1 and x - y/3 = 3 by elimination and substitution.",
+    "2(i) If 1 is added to numerator and 1 subtracted from denominator, fraction reduces to 1. It becomes 1/2 if we only add 1 to denominator. What is the fraction?",
+    "2(ii) Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are Nuri and Sonu?",
+    "2(iii) Sum of digits of a two-digit number is 9. Also nine times this number is twice the number obtained by reversing order of digits. Find the number.",
+    "2(iv) Meena went to bank to withdraw 2000 rupees. She received 25 notes in total of 50 rupees and 100 rupees. Find number of 50 and 100 rupee notes.",
+    "2(v) Lending library has fixed charge for first three days and additional charge per day thereafter. Saritha paid 27 rupees for 7 days, Susy paid 21 rupees for 5 days. Find fixed charge and charge per extra day."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL"
+}

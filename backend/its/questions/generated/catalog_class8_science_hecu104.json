@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class8_science_hecu104.json",
+ "concepts": [
+  {
+   "id": "hecu.104.4.1",
+   "title": "Magnetic Effect of Electric Current",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the magnetic effect of electric current?",
+     "a": "A current-carrying wire sets up a magnetic field around it, shown by a deflecting compass.",
+     "self_check": true
+    },
+    {
+     "q": "How can you make a current's magnetic effect stronger?",
+     "a": "Increase the current or coil the wire many turns (make an electromagnet).",
+     "self_check": true
+    },
+    {
+     "q": "Who first showed that current produces magnetism?",
+     "a": "Hans Christian Oersted, by deflecting a compass needle with a current.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.104.4.2",
+   "title": "Electromagnets",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electromagnet?",
+     "a": "A soft iron core with a coil around it; current in the coil makes it a strong magnet that can be switched off.",
+     "self_check": true
+    },
+    {
+     "q": "Name two uses of electromagnets.",
+     "a": "Cranes lifting iron scrap, and electric bells, fans and motors.",
+     "self_check": true
+    },
+    {
+     "q": "How can an electromagnet be made weaker or stronger?",
+     "a": "Less or more current, fewer or more turns, or removing the iron core.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.104.4.3",
+   "title": "Heating Effect of Electric Current",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the heating effect of current?",
+     "a": "Current heats the wire it passes through - the basis of heaters, toasters and fuses.",
+     "self_check": true
+    },
+    {
+     "q": "Why is nichrome used in heater coils?",
+     "a": "Nichrome has high resistance, so it heats strongly without melting.",
+     "self_check": true
+    },
+    {
+     "q": "How does a fuse use the heating effect?",
+     "a": "Too much current melts the fuse wire, breaking the circuit and stopping damage.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.104.4.4",
+   "title": "How a Battery Generates Electricity",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a battery generate electricity?",
+     "a": "Chemical reactions inside the cell separate charges, making a potential difference that drives current in a circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Name the two terminals of a cell.",
+     "a": "Positive (metal cap) and negative (metal disc) terminals.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to the chemicals of a dry cell as it works?",
+     "a": "They get used up, so the cell 'runs down' and stops driving current.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

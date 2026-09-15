@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_05_011",
+   "title": "c11_hin_ar_cbse_05_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the word formation process seen in \"dkV&Nk¡Vdj\" (page 56) and \"fdukjs mx\" (page 56) where two verbs combine to express a single complex action.",
+     "a": "The term is **compound verb (saMyukta kriya / dvikriyaka)** – specifically a **conjunctive participle + main verb** structure (absolutive + finite verb) where the first verb (dkV, mx) indicates the manner/means and the second (Nk¡Vdj, vkbZ) completes the action. A wrong answer like \"samasa\" (compound noun) reveals confusion between nominal and verbal compounding; a wrong answer like \"kriya visheshan\" (adverb) shows inability to recognize the verbal nature of the construction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author uses the past habitual tense (cwrs) in the sentence \"lkekU; rkSj ls czkã.k Vksys osQ yksxksa dk f'kYidkj Vksys esa mBuk&cSBuk ugha gksrk Fkk\" (page 63) instead of simple past.",
+     "a": "The past habitual (cwrs) indicates a **repeated/customary social practice** over time – \"used to not be allowed\" – establishing the systemic, long-standing nature of caste segregation. Simple past would denote a single completed event. A wrong answer focusing only on \"past time\" misses the aspectual nuance of *repetition/custom* crucial for depicting social structure. This misunderstanding shows the student treats tense as only time-deictic, not aspectual.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following direct speech from page 66 into correct indirect speech (loZuke), making all necessary changes to pronouns, tense, and reporting verb:\n\"eksgu! FkksM+k ngh rks yk ns ck”kkj lsA\"",
+     "a": "**Steps:**\n1. Identify reporting verb (implied \"dgk\" / said) and reported speech (imperative request).\n2. Change imperative to infinitive construction with \"yksdj\" (requested to) or \"vuqjks/k\" (ordered to) – here mother's tone is affectionate command → \"yksdj\".\n3. Adjust pronouns: \"eksgu\" (vocative) → \"eksgu dks\" (object); \"ck”kkj ls\" (adverb) remains.\n4. Tense: No tense change for imperative→infinitive.\n**Result:** \"firk us eksgu dks FkksM+k ngh yk ns ck”kkj ls yksdjA\" (Mother requested Eksgu to give a little water affectionately.)\nA wrong answer retaining \"yk ns\" (imperative) or failing to add \"dks\" after \"eksgu\" shows incomplete mastery of speech conversion rules for imperative sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the function of the dialectal word \"/kSaduh\" (page 66, defined as \"yqgkj ;k lqukjksa dh vkx ngdkus okyh yksgs ;k ck¡l dh uyh\") in the narrative. Why does the author choose this specific regional term instead of standard Hindi \"bailgadi\" or \"thela\"?",
+     "a": "The word \"/kSaduh\" serves three functions: (1) **Authenticates setting** – grounds the story in the specific rural Uttar Pradesh locale (Avadhi/Bhojpuri belt). (2) **Characterizes speakers** – used by/for villagers (f=kyksd flag, eksgu), marking their identity vs. urban narrator. (3) **Thematic reinforcement** – the slow, animal-drawn vehicle symbolizes the stagnant, tradition-bound social mobility of the lower caste. A wrong answer like \"it's just a synonym\" ignores the sociolinguistic signaling; the student fails to see language as a carrier of caste/geography identity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the author's use of the suffix \"-u\" (as in \"vuqxw¡t\", \"izfr}a}h\", \"lsozsQVsfj;V\") in the vocabulary list (page 67) for building abstract nouns from roots. Does this morphological pattern enhance or obscure meaning for a Class 11 student? Justify.",
+     "a": "**Evaluation: Enhances meaning** – the suffix \"-u\" (taddhita pratyaya forming abstract nouns denoting state/quality/action) creates precise terminology: \"vuqxw¡t\" (state of being unexpected), \"izfr}a}h\" (quality of being responsible), \"lsozsQVsfj;V\" (state of being retired). These are *transparent derivations* – root + suffix = predictable meaning. This aids vocabulary expansion (decoding new words). However, obscure roots like \"lsozsQV\" (from English \"superannuation\") reduce transparency. A student calling it \"obscure\" likely lacks morphological awareness (root+suffix analysis) and treats words as unanalyzable wholes.",
+     "self_check": true
+    },
+    {
+     "q": "Create two new sentences using the compound verb pattern \"Verb1 (absolutive) + Verb2 (finite)\" found in the text (like \"dkV&Nk¡Vdj\", \"mx vkbZ\"), where Verb1 is a body-action verb (hands/feet/eyes) and Verb2 is a motion/completion verb. Translate both to Hindi.",
+     "a": "**Criteria for good answer:**\n- Verb1 must be absolutive form (ending in -kar/-ke or dialectal -dj).\n- Verb2 must be finite (conjugated).\n- Semantic link: V1 = manner/means, V2 = core action.\n**Example 1:** \"She wiped her tears and left.\" → \"oh viuh vfHk;ksa dks iMr dj xbZA\" (iMr = wipe, xbZ = went).\n**Example 2:** \"He grabbed the rope and climbed.\" → \"uls us rjQ ekj dj /kkjsA\" (ekj = grab, /kkjs = climbed).\nA poor answer uses two finite verbs (\"iMrk xbZ\") or wrong aspect (\"iMrus xbZ\"), showing failure to internalize the absolutive+finite template.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

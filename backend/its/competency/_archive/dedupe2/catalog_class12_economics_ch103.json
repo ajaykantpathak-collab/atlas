@@ -1,0 +1,393 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 103,
+ "chapter_title": "Money and Banking",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leec103.txt",
+ "concepts": [
+  {
+   "id": "leec.3.1.1",
+   "title": "Barter System and Double Coincidence of Wants",
+   "section": "3.1",
+   "definition": "An economic framework where goods are traded directly for other goods without a medium of exchange, requiring both parties to have exactly what the other desires.",
+   "formula": "None",
+   "key_idea": "Direct exchange of commodities requires matching mutual needs.",
+   "textbook_ref": "leec103.txt lines 15-25",
+   "question_patterns": [
+    "What is a barter system?",
+    "Explain the concept of double coincidence of wants",
+    "Why is barter exchange difficult in large economies?",
+    "What are the drawbacks of a barter economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exchange mechanism",
+     "explain": "Check if goods are being traded for goods or money."
+    },
+    {
+     "step": 2,
+     "action": "Verify mutual demand",
+     "explain": "Determine if both parties possess the specific good the other wants simultaneously."
+    }
+   ]
+  },
+  {
+   "id": "leec.3.1.2",
+   "title": "Relative Price Calculation",
+   "section": "3.1",
+   "definition": "The value of one commodity expressed in terms of another, derived by comparing their monetary prices.",
+   "formula": "relative_price = price_a / price_b",
+   "key_idea": "Money acts as a unit of account to compare the worth of different goods.",
+   "textbook_ref": "leec103.txt lines 45-55",
+   "question_patterns": [
+    "Calculate the relative price of a pen worth {price_a} in terms of pencils worth {price_b}",
+    "How many units of good B is good A worth?",
+    "Find the exchange value of two goods given their prices"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide price of first good by second",
+     "explain": "The ratio of nominal prices gives the relative value.",
+     "compute": "relative_price = price_a / price_b"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.3.1",
+   "title": "Bank Net Worth",
+   "section": "3.3",
+   "definition": "The residual value of a financial institution calculated by subtracting its total liabilities from its total assets.",
+   "formula": "net_worth = assets - liabilities",
+   "key_idea": "Accounting identity where assets must balance with liabilities and equity.",
+   "textbook_ref": "leec103.txt lines 185-195",
+   "question_patterns": [
+    "Calculate the net worth of a bank with assets {assets} and liabilities {liabilities}",
+    "Find the equity of a firm given its balance sheet totals",
+    "What is the net worth if a bank has loans and reserves totaling {assets}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract liabilities from assets",
+     "explain": "Net worth is the difference between what the bank owns and what it owes.",
+     "compute": "net_worth = assets - liabilities"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.3.2",
+   "title": "Money Multiplier",
+   "section": "3.3.2",
+   "definition": "The ratio that determines the maximum amount of broad money the banking system generates with each unit of reserves.",
+   "formula": "multiplier = 1 / reserve_ratio",
+   "key_idea": "The inverse of the reserve requirement dictates credit expansion capacity.",
+   "textbook_ref": "leec103.txt lines 245-255",
+   "question_patterns": [
+    "What is the money multiplier if the CRR is {reserve_ratio}?",
+    "Calculate the credit multiplier for a reserve ratio of {reserve_ratio}",
+    "How much can the money supply expand given a reserve requirement?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide 1 by the reserve ratio",
+     "explain": "The multiplier is the reciprocal of the cash reserve ratio.",
+     "compute": "multiplier = 1 / reserve_ratio"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.3.3",
+   "title": "Total Credit Creation",
+   "section": "3.3.2",
+   "definition": "The total volume of deposits created by the banking system starting from an initial primary deposit.",
+   "formula": "total_deposits = initial_deposit / reserve_ratio",
+   "key_idea": "Initial deposits lead to multiple rounds of lending limited by reserves.",
+   "textbook_ref": "leec103.txt lines 210-240",
+   "question_patterns": [
+    "Find the total deposits created from an initial deposit of {initial_deposit} with CRR {reserve_ratio}",
+    "Calculate the total money supply increase from a new deposit",
+    "How much total credit can a bank create with {initial_deposit} reserves?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide initial deposit by reserve ratio",
+     "explain": "Total expansion is the initial injection times the multiplier.",
+     "compute": "total_deposits = initial_deposit / reserve_ratio"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.5.1",
+   "title": "Narrow Money (M1)",
+   "section": "3.5",
+   "definition": "The most liquid measure of money supply, including physical currency and demand deposits available for immediate transactions.",
+   "formula": "m1 = currency + demand_deposits",
+   "key_idea": "Sum of cash with public and net demand deposits in banks.",
+   "textbook_ref": "leec103.txt lines 460-470",
+   "question_patterns": [
+    "Calculate M1 if currency is {currency} and demand deposits are {demand_deposits}",
+    "Find the narrow money supply",
+    "What is the value of M1 given the components?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add currency and demand deposits",
+     "explain": "M1 consists of currency held by public and net demand deposits.",
+     "compute": "m1 = currency + demand_deposits"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.5.2",
+   "title": "Broad Money (M3)",
+   "section": "3.5",
+   "definition": "A comprehensive measure of money supply that adds time deposits to the narrow money (M1) base.",
+   "formula": "m3 = m1 + time_deposits",
+   "key_idea": "Includes both highly liquid and less liquid bank deposits.",
+   "textbook_ref": "leec103.txt lines 465-475",
+   "question_patterns": [
+    "Calculate M3 given M1 is {m1} and time deposits are {time_deposits}",
+    "Find the broad money supply in the economy",
+    "What is the total aggregate monetary resource?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add M1 and net time deposits",
+     "explain": "M3 is the sum of narrow money and commercial bank time deposits.",
+     "compute": "m3 = m1 + time_deposits"
+    }
+   ]
+  },
+  {
+   "id": "leec.BOX.3.1.1",
+   "title": "Average Transaction Demand for Money",
+   "section": "Box 3.1",
+   "definition": "The mean amount of cash an individual holds over a period to facilitate regular spending, typically half of the periodic income.",
+   "formula": "avg_cash = income / 2",
+   "key_idea": "Cash balances fluctuate from full income to zero between pay periods.",
+   "textbook_ref": "leec103.txt lines 315-325",
+   "question_patterns": [
+    "If a person earns {income} monthly and spends it evenly, what is the average cash holding?",
+    "Calculate the transaction demand for an individual with monthly salary {income}",
+    "What is the mean money balance for a worker earning {income}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide income by 2",
+     "explain": "Average holding is the midpoint between initial receipt and final expenditure.",
+     "compute": "avg_cash = income / 2"
+    }
+   ]
+  },
+  {
+   "id": "leec.BOX.3.1.2",
+   "title": "Velocity of Circulation",
+   "section": "Box 3.1",
+   "definition": "The frequency with which a single unit of currency is exchanged for goods and services within a specific timeframe.",
+   "formula": "velocity = transactions / money_demand",
+   "key_idea": "The speed at which money moves through the economy.",
+   "textbook_ref": "leec103.txt lines 345-355",
+   "question_patterns": [
+    "Find the velocity of money if transactions are {transactions} and money stock is {money_demand}",
+    "Calculate how many times money changes hands",
+    "What is the velocity of circulation in this economy?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total transactions by money demand",
+     "explain": "Velocity is the ratio of total flow of transactions to the stock of money.",
+     "compute": "velocity = transactions / money_demand"
+    }
+   ]
+  },
+  {
+   "id": "leec.BOX.3.1.3",
+   "title": "Present Value of a Two-Period Bond",
+   "section": "Box 3.1",
+   "definition": "The current market price of a bond determined by discounting its future interest payments and principal repayment.",
+   "formula": "pv = (coupon / (1 + rate)) + ((coupon + principal) / (1 + rate)**2)",
+   "key_idea": "Bond prices move inversely to market interest rates.",
+   "textbook_ref": "leec103.txt lines 385-405",
+   "question_patterns": [
+    "Calculate the PV of a bond with coupon {coupon}, principal {principal}, and rate {rate}",
+    "Find the market price of a 2-year bond",
+    "What is the present value of a bond given its returns and interest rate?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Discount the first year coupon",
+     "explain": "Divide the first year return by (1 + r).",
+     "compute": "term1 = coupon / (1 + rate)"
+    },
+    {
+     "step": 2,
+     "action": "Discount the second year total return",
+     "explain": "Divide the sum of coupon and principal by (1 + r) squared.",
+     "compute": "term2 = (coupon + principal) / (1 + rate)**2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the discounted values",
+     "explain": "The total present value is the sum of all discounted future cash flows.",
+     "compute": "pv = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "leec.BOX.3.1.4",
+   "title": "Speculative Demand for Money",
+   "section": "Box 3.1",
+   "definition": "The desire to hold cash instead of interest-bearing assets based on expectations of future interest rate changes.",
+   "formula": "md_s = (r_max - r) / (r - r_min)",
+   "key_idea": "Money demand increases as interest rates approach their expected lower bound.",
+   "textbook_ref": "leec103.txt lines 425-435",
+   "question_patterns": [
+    "Calculate speculative money demand given r={r}, r_max={r_max}, and r_min={r_min}",
+    "Find the demand for money for speculative purposes",
+    "What is the speculative demand at interest rate {r}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the numerator",
+     "explain": "Subtract current rate from maximum expected rate.",
+     "compute": "numerator = r_max - r"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the denominator",
+     "explain": "Subtract minimum expected rate from current rate.",
+     "compute": "denominator = r - r_min"
+    },
+    {
+     "step": 3,
+     "action": "Divide numerator by denominator",
+     "explain": "The ratio represents the speculative demand function.",
+     "compute": "md_s = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "leec.3.4.1",
+   "title": "Central Bank Policy Tools",
+   "section": "3.4",
+   "definition": "Instruments used by the Reserve Bank to regulate the volume of money and credit in the economy.",
+   "formula": "None",
+   "key_idea": "Quantitative (CRR, Bank Rate) and Qualitative (Moral Suasion) tools control liquidity.",
+   "textbook_ref": "leec103.txt lines 260-285",
+   "question_patterns": [
+    "What are the instruments of monetary policy?",
+    "Explain Open Market Operations",
+    "How does the Bank Rate influence money supply?",
+    "Define Repo Rate and Reverse Repo Rate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the tool type",
+     "explain": "Determine if the tool is quantitative (affects volume) or qualitative (affects direction)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact",
+     "explain": "Increasing rates or selling bonds typically reduces money supply."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leec103.txt lines 210-240",
+   "concept": "leec.3.3.3",
+   "question_type": "compute",
+   "question_pattern": "A bank receives an initial deposit of {initial_deposit}. If the reserve ratio is {reserve_ratio}, what is the total amount of deposits the bank can create?",
+   "extracted_variables": {
+    "initial_deposit": "100",
+    "reserve_ratio": "0.2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide initial deposit by reserve ratio",
+     "explain": "Total expansion is the initial injection times the multiplier.",
+     "compute": "total_deposits = initial_deposit / reserve_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leec103.txt lines 385-405",
+   "concept": "leec.BOX.3.1.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the present value of a bond with a face value of {principal}, annual coupon of {coupon}, and a market interest rate of {rate} for 2 years.",
+   "extracted_variables": {
+    "principal": "100",
+    "coupon": "10",
+    "rate": "0.05"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Discount the first year coupon",
+     "explain": "Divide the first year return by (1 + r).",
+     "compute": "term1 = coupon / (1 + rate)"
+    },
+    {
+     "step": 2,
+     "action": "Discount the second year total return",
+     "explain": "Divide the sum of coupon and principal by (1 + r) squared.",
+     "compute": "term2 = (coupon + principal) / (1 + rate)**2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the discounted values",
+     "explain": "The total present value is the sum of all discounted future cash flows.",
+     "compute": "pv = term1 + term2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "leec103.txt lines 510-530",
+   "questions": [
+    "What is a barter system? What are its drawbacks?",
+    "What are the main functions of money? How does money overcome the shortcomings of a barter system?",
+    "What is transaction demand for money? How is it related to the value of transactions over a specified period of time?",
+    "What are the alternative definitions of money supply in India?",
+    "What is a 'legal tender'? What is 'fiat money'?",
+    "What is High Powered Money?",
+    "Explain the functions of a commercial bank.",
+    "What is money multiplier? What determines the value of this multiplier?",
+    "What are the instruments of monetary policy of RBI?",
+    "Do you consider a commercial bank 'creator of money' in the economy?",
+    "What role of RBI is known as 'lender of last resort'?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

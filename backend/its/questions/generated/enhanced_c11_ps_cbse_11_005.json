@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_005",
+   "title": "c11_ps_cbse_11_005",
+   "questions": [
+    {
+     "q": "List the six freedoms guaranteed under Article 19(1) and identify the specific clause (19(2) through 19(6)) that permits reasonable restrictions on each.",
+     "a": "Article 19(1) guarantees: (a) speech and expression [restricted by 19(2)]; (b) peaceful assembly [19(3)]; (c) associations/unions [19(4)]; (d) movement throughout India [19(5)]; (e) residence and settlement [19(5)]; (f) profession/occupation/trade/business [19(6)]. A wrong answer—such as listing \"freedom of religion\" under Article 19 or missing that movement and residence share clause 19(5)—reveals confusion between Article 19 freedoms and Article 25-28 religious freedoms, or failure to memorize the precise restriction mapping essential for exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in *Maneka Gandhi v. Union of India* (1978) held that \"procedure established by law\" in Article 21 must be \"fair, just, and reasonable,\" and how this transformed Article 21 from a procedural to a substantive guarantee.",
+     "a": "Pre-*Maneka Gandhi*, *A.K. Gopalan* (1950) read Article 21 literally: any law enacting a procedure satisfied Article 21, however arbitrary. *Maneka Gandhi* ruled that Article 21 must be read with Articles 14 and 19—the procedure must not be arbitrary, fanciful, or oppressive, effectively importing \"due process\" substance. A wrong answer citing only \"procedure established by law\" without the *Maneka Gandhi* triad (fairness, non-arbitrariness, reasonableness) shows the student hasn't grasped the doctrinal pivot that made Article 21 the source of privacy, dignity, health, shelter, and environmental rights.",
+     "self_check": true
+    },
+    {
+     "q": "A journalist publishes an article alleging corruption by a sitting Minister. The government blocks the article under Section 69A of the IT Act, citing \"sovereignty and integrity of India.\" Analyze whether this restriction on Article 19(1)(a) is constitutionally valid using the *Shreya Singhal* (2015) test.",
+     "a": "*Shreya Singhal* struck down Section 66A for vagueness and overbreadth, establishing that restrictions under 19(2) must be: (i) narrowly tailored to a listed ground (sovereignty, security, public order, etc.); (ii) not vague or overbroad; (iii) proportionate—least restrictive means. Blocking a corruption exposé under \"sovereignty\" is likely invalid: corruption allegations don't threaten sovereignty, the ground is misapplied, and less restrictive remedies (defamation suit) exist. A wrong answer accepting \"sovereignty\" as a blanket justification reveals failure to apply the proportionality and narrow-tailoring tests required for 19(2) analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the safeguards for an ordinary arrested person under Article 22(1)-(2) with those for a preventively detained person under Article 22(4)-(7). Identify three critical differences and explain why the Constitution permits weaker safeguards for preventive detention.",
+     "a": "Differences: (1) Ordinary arrest: right to be informed of grounds *immediately*, consult lawyer *of choice*, produced before magistrate within 24 hours. Preventive detention: grounds communicated \"as soon as may be,\" no right to lawyer during advisory board hearing, no 24-hour magistrate production—detention up to 3 months without board review. (2) Ordinary arrest: judicial scrutiny immediate. Preventive detention: executive detention reviewed by advisory board (executive-heavy). (3) Ordinary arrest: bail possible. Preventive detention: no bail. Constitution permits weaker safeguards (Art. 22(7)) because preventive detention targets *future* threats (national security, public order) where evidence may be intelligence-based and disclosure risks sources. A wrong answer claiming \"same safeguards apply\" ignores the textual distinction in Article 22 itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Article 21A (Right to Education) made education a fundamental right, but the State's obligation remains aspirational because the RTE Act allows 25% reservation in private schools only for disadvantaged groups, not universal access.\" Use *Society for Unaided Private Schools v. Union of India* (2012) in your reasoning.",
+     "a": "The statement is partially flawed. *Society for Unaided Private Schools* upheld Article 21A and the RTE Act's 25% quota (Section 12(1)(c)) as a reasonable restriction on Article 19(1)(g) of private schools, affirming the State's *primary* obligation to provide free compulsory education in neighbourhood schools (Section 6). The 25% quota supplements—not replaces—State duty. The Court recognized education as a positive right requiring State action, not merely non-interference. A wrong answer calling Article 21A \"aspirational\" confuses Directive Principles (Art. 41, 45) with the now-justiciable fundamental right under Article 21A, missing that the State can be sued for failing to build schools or appoint teachers.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a new \"Right to Digital Access\" as an implied freedom under Article 19(1)(a) or 21, specifying: (a) the core entitlement, (b) two legitimate restriction grounds, and (c) a procedural safeguard against arbitrary internet shutdowns. Justify each element using existing jurisprudence.",
+     "a": "**Proposed Article 19(1)(g)/21A-Digital**: \"(a) Every citizen shall have the right to affordable, non-discriminatory access to the internet for expression, information, education, and livelihood. (b) Restrictions only on grounds of: (i) national security requiring *specific, documented threat* (not generic 'law and order'); (ii) public order under *Anuradha Bhasin* (2020) proportionality test—necessary, least restrictive, time-bound. (c) Any shutdown order must be: published, reasoned, reviewed by independent committee within 24 hours, subject to judicial appeal within 72 hours.\" Justification: *Anuradha Bhasin* read internet access into 19(1)(a) and 19(1)(g); *K.S. Puttaswamy* (privacy) and *Maneka Gandhi* (fair procedure) require reasoned, reviewable orders. A poor answer omits proportionality or judicial review, treating shutdowns as routine administrative acts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

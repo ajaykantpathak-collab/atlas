@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_024",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_024",
+   "title": "c6_math_ch02_024",
+   "questions": [
+    {
+     "q": "What does the commutative property state about the addition of two integers, 'a' and 'b'?",
+     "a": "The commutative property states that a + b = b + a. A wrong answer usually indicates the student confuses the property with the associative property or fails to realize that the order of addition is interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "If you have the expression (2 + 3) + 4, how can you rewrite it using the associative property?",
+     "a": "It can be rewritten as 2 + (3 + 4). A wrong answer suggests the student does not understand that associativity allows for changing the grouping of terms without changing the total sum.",
+     "self_check": true
+    },
+    {
+     "q": "Use the distributive property to evaluate 5 x (10 + (-2)).",
+     "a": "5 x (10 + (-2)) = (5 x 10) + (5 x -2) = 50 + (-10) = 40. A wrong answer often shows the student is not multiplying the outside number by both terms inside the brackets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions ((-3) x 2) x 4 and (-3) x (2 x 4). Will they result in the same value? Why?",
+     "a": "Yes, they will result in the same value because of the associative property of multiplication, which states that the grouping of factors does not change the product. An incorrect answer here shows a failure to recognize that multiplication follows the same associative rules as addition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following: Is the expression 10 - (5 + 2) equal to (10 - 5) + 2? Justify your answer.",
+     "a": "No, 10 - 7 = 3, while 5 + 2 = 7. The subtraction operation is not associative, and a wrong answer reveals the misconception that all operations possess the same properties as addition and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a numerical example using three different integers that demonstrates the distributive property.",
+     "a": "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a misunderstanding of how the multiplier distributes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

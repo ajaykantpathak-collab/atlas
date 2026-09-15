@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_039",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_039",
+   "title": "c6_math_ch03_039",
+   "questions": [
+    {
+     "q": "In the fraction 3/4, which number tells us how many equal pieces the whole was divided into?",
+     "a": "The number 4. If a student answers 3, they have confused the numerator (the part we have) with the denominator (the total number of parts).",
+     "self_check": true
+    },
+    {
+     "q": "If you share a chocolate bar equally between 2 friends, each gets 1/2. If you share that same bar equally among 4 friends, each gets 1/4. Which piece is bigger, and why?",
+     "a": "The 1/2 piece is bigger. A wrong answer (thinking 1/4 is bigger because 4 > 2) reveals the student is looking at the numbers as whole integers rather than understanding that a larger denominator means the same whole is being split into more, smaller pieces.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a rectangle and shade 3/5 of it. How many equal parts should you divide the rectangle into?",
+     "a": "You must divide it into 5 equal parts and shade 3. If the student divides it into a different number, they do not understand that the denominator represents the total number of equal divisions required to define the \"whole.\"",
+     "self_check": true
+    },
+    {
+     "q": "If a pizza is cut into 8 equal slices and you eat 2, what fraction of the pizza did you eat? If you then cut those 8 slices into 16 smaller slices, how many of those new smaller slices would represent the same amount of pizza?",
+     "a": "You ate 2/8 (or 1/4). You would need to eat 4 of the new smaller slices (4/16). A wrong answer suggests the student struggles to see that different fractions can represent the same physical amount (equivalent parts).",
+     "self_check": true
+    },
+    {
+     "q": "A friend says, \"I have 1/10 of a cake, and you have 1/5 of a cake, so I have more because 10 is bigger than 5.\" Is this reasoning correct?",
+     "a": "No, the reasoning is incorrect. 1/5 is larger than 1/10 because if you split a cake into only 5 pieces, each piece is much larger than if you split it into 10 pieces. The student likely ignored the \"part of a whole\" concept and treated the denominator as a simple counting number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario using everyday objects (like pencils or apples) where you would use a fraction. Explain why you used those specific numbers.",
+     "a": "A good answer would involve a clear \"whole\" (e.g., a packet of 6 pencils) and a \"part\" (e.g., taking 2 pencils out). A poor answer fails to ensure the parts are \"equal\" or misidentifies the total as the numerator.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

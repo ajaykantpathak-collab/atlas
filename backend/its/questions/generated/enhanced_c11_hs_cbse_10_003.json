@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_003",
+   "title": "c11_hs_cbse_10_003",
+   "questions": [
+    {
+     "q": "Define Money Income, Real Income, and Psychic Income in exactly one sentence each, using terminology from the NCERT Class 11 textbook.",
+     "a": "Money Income: Purchasing power in rupees and paisa received from wages, salary, bonus, commission, rent, dividends, interest, retirement benefits, royalties, and allowances. Real Income: Flow of commodities and services available for want-satisfaction over a period, comprising Direct (without money exchange) and Indirect (after money exchange, enhanced by skills) types. Psychic Income: Subjective satisfaction derived from ownership and utilisation of goods/services (real income), intangible and non-quantifiable in rupees. A wrong answer that conflates Real Income with \"income adjusted for inflation\" (an Economics definition) reveals the student is importing a cross-disciplinary concept instead of using the Home Science framework where Real Income explicitly includes non-monetary goods/services.",
+     "self_check": true
+    },
+    {
+     "q": "A family receives ₹50,000 monthly salary, grows herbs on their balcony, and the mother stitches school uniforms for the children. The father spends Sundays repairing furniture. The family feels proud and satisfied when guests praise their home-cooked meals. Classify each element into Money Income, Direct Real Income, Indirect Real Income, or Psychic Income. Explain why the mother's stitching is Direct Real Income but buying fabric for it using salary is Indirect Real Income.",
+     "a": "₹50,000 salary = Money Income. Balcony herbs = Direct Real Income (goods without money exchange). Mother's stitching = Direct Real Income (service without money exchange). Father's furniture repair = Direct Real Income (service without money exchange). Satisfaction from guests' praise = Psychic Income. Fabric purchased with salary = Indirect Real Income because money (Money Income) was exchanged to acquire the good, but the *skill* of selecting quality fabric transforms it into enhanced Real Income. A wrong answer classifying stitching as Indirect Real Income reveals the misconception that any activity involving purchased inputs becomes Indirect — whereas NCERT defines Direct Real Income by the *absence of monetary exchange for the final good/service itself*, not the inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Two families have identical Money Income of ₹80,000/month. Family A lives in a rented flat, buys all meals, hires domestic help, and reports high stress. Family B owns their home (mortgage-free), cooks at home, maintains a kitchen garden, does DIY repairs, and reports high life satisfaction. Using the three income types, explain why Family B enjoys higher quality of living despite equal Money Income. Quantify the difference in Real Income where possible.",
+     "a": "Family B converts Money Income into assets (owned home) generating Direct Real Income (imputed rent ≈ ₹25,000/month saved). Kitchen garden yields Direct Real Income (vegetables worth ₹3,000/month). Home cooking and DIY repairs are Direct Real Income (services worth ₹15,000/month if outsourced). Family A's Money Income flows out as rent, food bills, help salaries — converting to Indirect Real Income only, with no Direct Real Income buffer. Family B's Total Real Income = Money Income purchases + ₹43,000 Direct Real Income; Family A's = Money Income purchases only. Psychic Income is higher for B due to autonomy, skill utilisation, and security. A wrong answer focusing only on \"savings\" misses that Direct Real Income *is* Real Income — not a monetary saving — and that Psychic Income derives from the *process* of self-provisioning, not just the outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse this statement: \"Psychic Income is the most important type of income for quality of living, yet it cannot be measured in rupees. Therefore, financial planning should maximise Psychic Income per unit of Money Income.\" Use the concepts of Direct/Indirect Real Income to explain the mechanism by which Money Income translates (or fails to translate) into Psychic Income.",
+     "a": "Money Income → (exchange) → Goods/Services (Real Income) → (utilisation/satisfaction) → Psychic Income. The conversion efficiency depends on: (1) Proportion of Real Income that is Direct (self-provided via skills, assets, community) vs Indirect (purchased). Direct Real Income often yields higher Psychic Income per rupee because it embodies autonomy, skill expression, and relationality (e.g., cooking for family vs ordering food). (2) Alignment of Real Income with family values/goals — purchased luxury goods (Indirect) may yield low Psychic Income if they don't match genuine needs. (3) Time/energy trade-offs: high Money Income jobs may deplete the human resources (time, energy, skill) needed to generate Direct Real Income, lowering Psychic Income. A wrong answer treating this as a simple \"money doesn't buy happiness\" platitude fails to use the Home Science framework's specific mechanism: Money Income → Real Income (Direct/Indirect) → Psychic Income, where the *composition* of Real Income determines Psychic yield.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"A family with zero Money Income but substantial Direct Real Income (owned land, community support, diverse household skills) can have higher Psychic Income than a high-Money-Income family with no Direct Real Income.\" Defend or refute using the textbook's definition of Psychic Income as \"satisfaction derived from real income\" and the concept of want-satisfaction.",
+     "a": "Defensible with conditions. Psychic Income = satisfaction from Real Income utilisation. If the zero-Money-Income family's Direct Real Income (food from land, housing, community services, household labour) fully satisfies their *defined* wants/needs, and they derive satisfaction from self-reliance, community bonds, and skill use, their Psychic Income can exceed a high-Money-Income family whose Indirect Real Income (purchased goods/services) fails to satisfy deeper wants (autonomy, meaning, relationships) or creates dissatisfaction (debt, time poverty, alienation). However, if basic physiological/safety needs are unmet due to zero Money Income (healthcare, education, emergencies), Psychic Income collapses. The textbook's \"quality of living\" depends on *satisfaction of human wants and needs* — not all wants are purchasable. A wrong answer absolutising either side ignores the textbook's nuanced view: Psychic Income is subjective and depends on the *match* between Real Income composition and the family's specific want-hierarchy, which varies across families and life stages.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel classification scheme for a family's monthly inflows that integrates Money Income, Real Income (Direct/Indirect), and Psychic Income into a single \"Family Well-Being Dashboard\" with 5 measurable indicators. Explain how each indicator captures a different aspect of the income-satisfaction chain.",
+     "a": "Example dashboard: (1) Money Income Coverage Ratio = (Assured Money Income / Total Essential Expenditure) — measures financial security baseline. (2) Direct Real Income Share = (Imputed value of Direct Real Income / Total Real Income consumed) — measures self-reliance and skill utilisation. (3) Skill-Enhanced Indirect Ratio = (Value of Indirect Real Income where family skill improved quality/cost / Total Indirect Real Income) — captures competence in converting money to value. (4) Psychic Income Proxy = Weighted satisfaction score (1-5) across 5 domains (nutrition, housing, relationships, autonomy, security) from family self-assessment — operationalises the unquantifiable. (5) Conversion Efficiency Index = Psychic Income Proxy / (Money Income + Imputed Direct Real Income) — measures well-being per total resource unit. A poor answer lists generic \"happiness metrics\" without anchoring each indicator to the specific Money→Real→Psychic transformation chain defined in the textbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

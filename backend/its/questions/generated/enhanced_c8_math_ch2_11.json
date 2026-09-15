@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_11",
+   "title": "c8_math_ch2_11",
+   "questions": [
+    {
+     "q": "What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.",
+     "a": "Positive. The exponent 12 is even, so the negative base raised to an even power yields a positive result. A wrong answer (e.g., \"negative\") reveals the student has not internalized the parity rule and may be guessing or applying a flawed rule like \"negative base always gives negative result.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between \\((-5)^4\\) and \\(-5^4\\). Evaluate both expressions to demonstrate the difference.",
+     "a": "\\((-5)^4 = (-5) \\times (-5) \\times (-5) \\times (-5) = 625\\) (positive because the base \\(-5\\) is raised to the 4th power). \\(-5^4 = -(5^4) = -(5 \\times 5 \\times 5 \\times 5) = -625\\) (negative because the exponent applies only to 5, then the negative sign is applied). A wrong answer (e.g., saying both are 625 or both are -625) reveals the student does not understand the critical role of parentheses in exponent notation and treats the negative sign as part of the base in both cases.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify \\((-3)^5 \\times (-3)^2\\) using the law of exponents for multiplying powers with the same base. State the sign of the final answer and its value.",
+     "a": "\\((-3)^5 \\times (-3)^2 = (-3)^{5+2} = (-3)^7\\). Since the exponent 7 is odd, the result is negative. Value: \\((-3)^7 = -2187\\). A wrong answer (e.g., \\((-3)^{10}\\) or positive 2187) reveals the student either added exponents incorrectly (multiplying instead of adding) or determined the sign incorrectly by not checking the parity of the final exponent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the values of \\((-2)^6\\) and \\((-2)^5\\). Which is greater? Justify your answer without calculating the exact values.",
+     "a": "\\((-2)^6\\) is greater. \\((-2)^6\\) is positive (even exponent) and \\((-2)^5\\) is negative (odd exponent). Any positive number is greater than any negative number. A wrong answer (e.g., saying \\((-2)^5\\) is greater because 5 > 6 or because the magnitude 32 > 64) reveals the student is comparing magnitudes or exponents directly without considering the sign change, a common error when absolute value intuition overrides sign analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"\\((-4)^3 = -12\\) because you multiply the base by the exponent: \\(-4 \\times 3 = -12\\).\" Identify the error and explain the correct method to evaluate \\((-4)^3\\).",
+     "a": "The error is confusing exponentiation with multiplication. The exponent indicates repeated multiplication of the base, not multiplication of the base by the exponent. Correct method: \\((-4)^3 = (-4) \\times (-4) \\times (-4) = 16 \\times (-4) = -64\\). A wrong answer (e.g., accepting -12 or saying \"the student forgot the negative sign\") reveals the student does not understand the definition of exponentiation as repeated multiplication and falls back on a linear \"base × exponent\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, temperature, or distance) where the solution requires evaluating a power with a negative base and an odd exponent, and another with an even exponent. Write the problem and the expressions needed.",
+     "a": "Example: \"The temperature in Leh drops by 3°C every hour for 4 hours. If the initial drop is represented as \\(-3\\)°C per hour, the total change after 4 hours can be modeled by \\((-3)^4\\)? Actually, that's not a good model. Better: A debt of ₹500 doubles every month for 3 months. If we represent the debt as a negative amount, the debt after 3 months is \\((-500) \\times 2^3\\)? Hmm. Let's use a game: In a board game, landing on a red square multiplies your score by \\(-2\\). If you land on red squares 3 times in a row, your score multiplier is \\((-2)^3 = -8\\). If you land 4 times, it's \\((-2)^4 = 16\\).\" A poor answer (e.g., using positive bases only, or not distinguishing odd/even exponents) reveals the student cannot contextualize the abstract sign rule, indicating a lack of deep conceptual transfer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

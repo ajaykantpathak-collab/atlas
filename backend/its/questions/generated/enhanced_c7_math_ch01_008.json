@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_008",
+   "title": "c7_math_ch01_008",
+   "questions": [
+    {
+     "q": "What is the product of $111 \\times 111$ based on the pattern where $1 \\times 1 = 1$, $11 \\times 11 = 121$, and $1111 \\times 1111 = 12321$?",
+     "a": "The correct answer is $12321$. Students who answer incorrectly (such as writing $111321$ or $333$) are likely just adding the numbers or failing to recognize the palindromic symmetry of repunit squares where the middle digit matches the count of ones.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product of $9 \\times 12345679$ gives $111111111$ without actually setting up a standard vertical multiplication grid.",
+     "a": "The correct answer is that $12345679$ multiplied by $9$ is equivalent to multiplying by $(10 - 1)$, which shifts the digits and subtracts the original number, creating a repeating string of nines that simplifies to all ones when divided or by recognizing that $9 \\times 9 = 81$ family patterns scale proportionally. Students who think it is a coincidence miss the fundamental distributive property and place value alignment linking $9$ and the magical constant $12345679$.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the product of $9999 \\times 9999$ by expressing one factor as $(10000 - 1)$ and applying algebraic expansion.",
+     "a": "The correct answer is $99980001$. Working steps: \n1. Write the expression as $9999 \\times (10000 - 1)$. \n2. Expand using distribution: $(9999 \\times 10000) - (9999 \\times 1)$. \n3. Compute the first term: $99990000$. \n4. Subtract the second term: $99990000 - 9999 = 99980001$. \nStudents who make computation errors often misalign zeros during the subtraction step, forgetting how borrowing across multiple zeros works with large numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the pattern: $1 \\times 9 + 2 = 11$, $12 \\times 9 + 3 = 111$, $123 \\times 9 + 4 = 1111$. Predict the 5th line of this pattern and verify its correctness.",
+     "a": "The correct answer is $12345 \\times 9 + 6 = 111111$. Working steps: \n1. Observe the first number increases its digits by 1 each time ($1, 12, 123$). \n2. The added number increases sequentially ($2, 3, 4$). \n3. The result consists of ones whose count equals the added number ($11$ for $+2$, $111$ for $+3$). \n4. Therefore, for the 5th line, the multiplier sequence gives $12345 \\times 9 + 6 = 111111$. Students who fail this cannot track how the sequence increments across multiple changing components simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student claim: \"When multiplying any number by 11, you just write the number twice side-by-side, so $45 \\times 11 = 4545$.\" Is this correct, and how can number patterns disprove it?",
+     "a": "The claim is false. The correct product of $45 \\times 11$ is $495$. We can disprove the claim using place value expansion: $45 \\times 11 = 45 \\times (10 + 1) = 450 + 45 = 495$, which shows that the middle digit is actually the sum of the outer digits ($4+5=9$), not a direct concatenation. Students who agree with the claim confuse string concatenation with proper algebraic multiplication distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 3-step number pattern sequence starting with multiples of 111 that results in a predictable escalating palindrome, and explain the rule governing it.",
+     "a": "An acceptable response should show a sequence like: \nLine 1: $1 \\times 111 = 111$ \nLine 2: $11 \\times 111 = 12321$ (Wait, $11 \\times 11 = 121$, $11 \\times 111 = 1221$). \nLet's use repunits: $1 \\times 11 = 11$, $11 \\times 11 = 121$, $111 \\times 11 = 1221$. \nCriteria for a good answer: Must feature a clear multiplier rule where rows expand systematically and results exhibit symmetry or predictable arithmetic growth. Poor answers show random numbers without a governing algebraic rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

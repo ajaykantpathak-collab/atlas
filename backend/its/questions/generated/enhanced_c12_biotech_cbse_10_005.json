@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_005",
+   "title": "c12_biotech_cbse_10_005",
+   "questions": [
+    {
+     "q": "A student writes: \"Monoclonal antibodies are produced by fusing T-cells with myeloma cells because T-cells produce antibodies.\" Identify the TWO fundamental errors in this statement.",
+     "a": "Correct answer: (1) B-lymphocytes (plasma cells), not T-cells, produce antibodies; T-cells mediate cell-mediated immunity. (2) The fusion partner is a B-cell (from immunized mouse spleen) with an immortal myeloma cell line (cancerous plasma cell), not T-cell + myeloma. A wrong answer reveals confusion between humoral vs. cell-mediated immunity (Class 11 immunology basics) and misidentification of the antibody-secreting cell type.",
+     "self_check": true
+    },
+    {
+     "q": "Why is HAT medium (hypoxanthine-aminopterin-thymidine) used for hybridoma selection? Explain the biochemical basis using salvage vs. de novo nucleotide synthesis pathways.",
+     "a": "Correct answer: Aminopterin blocks dihydrofolate reductase (DHFR), shutting down the de novo purine/pyrimidine synthesis pathway. Unfused myeloma cells (HGPRT-deficient) cannot use the salvage pathway → die. Unfused spleen B-cells are mortal → die in culture. Only fused hybrids inherit HGPRT from B-cells (functional salvage pathway) AND immortality from myeloma → survive in HAT. A wrong answer (e.g., \"HAT kills only myeloma cells\") reveals lack of understanding of nucleotide metabolism and the dual selection principle.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher develops a murine mAb (suffix -omab) against human EGFR for cancer therapy. After Phase I trials, patients develop HAMA (human anti-mouse antibody) response. Propose the NEXT engineering step to reduce immunogenicity and name the resulting antibody class with its INN suffix.",
+     "a": "Correct answer: Humanize the antibody by grafting only the complementarity-determining regions (CDRs) from the murine variable domain onto a human IgG framework → humanized mAb, INN suffix -zumab (e.g., trastuzumab). If the student says \"make it chimeric (-ximab)\", that is a partial step (variable domains murine, constant domains human) but still retains ~30% murine sequence; humanization retains <10% murine sequence. Wrong answer reveals confusion between chimeric vs. humanized engineering strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanisms of action of rituximab (anti-CD20) and trastuzumab (anti-HER2) in cancer therapy. Both are naked mAbs — how do their PRIMARY effector mechanisms differ?",
+     "a": "Correct answer: Rituximab (anti-CD20 on B-cells) primarily mediates B-cell depletion via ADCC (NK cell FcγRIIIa binding) and CDC (complement activation), plus direct apoptosis signaling. Trastuzumab (anti-HER2) primarily blocks HER2 dimerization and downstream PI3K/Akt and MAPK proliferative signaling, inhibits HER2 ectodomain cleavage, and mediates ADCC. A wrong answer conflating both as \"just ADCC\" misses the critical distinction: rituximab = depletion therapy; trastuzumab = signal blockade + ADCC.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Bevacizumab (anti-VEGF) is a monoclonal antibody that directly kills tumor cells.\" Defend or refute with mechanism-based reasoning.",
+     "a": "Correct answer: Refute. Bevacizumab binds soluble VEGF-A, preventing VEGF-VEGFR interaction on endothelial cells → inhibits angiogenesis (tumor vasculature formation) → starves tumor of nutrients/oxygen. It does NOT bind tumor cells directly and has no direct cytotoxic effect. A student who agrees reveals the misconception that all therapeutic mAbs act by direct tumor cell binding/killing, ignoring anti-angiogenic and immune-checkpoint mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a bispecific antibody format for redirecting T-cells to a tumor antigen (e.g., CD19 on B-cell malignancies). Specify: (a) the two binding specificities, (b) the structural format (e.g., BiTE, IgG-scFv, etc.), and (c) the mechanism of T-cell activation independent of MHC.",
+     "a": "Expected answer: (a) One arm: anti-CD3ε (T-cell receptor complex); other arm: anti-CD19 (tumor antigen). (b) BiTE (Bispecific T-cell Engager) format: two scFvs linked by a flexible peptide linker (~55 kDa, small, renal clearance). (c) Simultaneous binding cross-links CD3 and CD19 → forms immunological synapse → T-cell activation, proliferation, perforin/granzyme release → tumor lysis, WITHOUT MHC restriction. A poor answer omits the MHC-independence or proposes full IgG format (too large for solid tumor penetration).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

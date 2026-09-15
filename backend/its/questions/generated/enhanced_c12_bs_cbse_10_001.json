@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_001",
+   "title": "c12_bs_cbse_10_001",
+   "questions": [
+    {
+     "q": "State the definition of a financial market and name its two primary participant categories.",
+     "a": "A financial market is a marketplace where financial assets are traded, enabling transfer of funds from savers (surplus units) to investors/borrowers (deficit units). The two primary participant categories are surplus units (households, firms with excess funds) and deficit units (businesses, government needing funds). A wrong answer that omits \"financial assets\" or \"fund transfer\" reveals the student views it as a physical marketplace like a vegetable market. If they name \"buyers and sellers\" without specifying surplus/deficit units, they miss the economic role distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"price discovery\" is considered a core function of financial markets. Use the example of a newly listed company's shares to illustrate.",
+     "a": "Price discovery is the process by which the market determines the fair value of a financial asset through the interaction of supply and demand. For a newly listed company, initial share price is set via IPO, but once trading starts, continuous buying/selling by thousands of investors with different information and expectations causes the price to adjust to reflect the company's true perceived value. A wrong answer that says \"price discovery means the company sets the price\" confuses primary market issuance with secondary market trading. If they say \"price discovery helps the company raise more capital,\" they conflate the function with a benefit to the issuer rather than the market's informational role.",
+     "self_check": true
+    },
+    {
+     "q": "A company needs ₹2 crore for 6 months to finance seasonal inventory. It considers two options: (a) issue commercial paper, (b) issue equity shares. Which market (money or capital) does each option belong to? Justify your answer using the maturity criterion.",
+     "a": "Commercial paper (option a) is a money market instrument because its maturity is less than 1 year (typically 15 days to 1 year). Equity shares (option b) are capital market instruments because they have no maturity date — they represent permanent capital. The company should choose commercial paper for this short-term need. A wrong answer that classifies both as capital market because \"companies use both for finance\" ignores the fundamental maturity distinction. If they say commercial paper is capital market because \"it's issued by a company,\" they confuse issuer type with instrument maturity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the risk-sharing function of financial markets with the risk-sharing function of insurance companies. How are they similar and how do they differ?",
+     "a": "Similarity: Both transfer risk from an entity that wants to reduce exposure to entities willing to bear it. Difference: Financial markets share risk by dividing ownership (e.g., thousands of shareholders each bear a tiny fraction of a company's business risk) and through derivatives (hedging). Insurance companies pool premiums from many policyholders to pay losses of a few — risk is pooled, not traded. Financial market risk-sharing is voluntary, continuous, and price-driven; insurance is contractual, periodic, and premium-driven. A wrong answer that says \"both are the same because they reduce risk\" misses the structural difference: markets create tradable risk pieces; insurance creates indemnity contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A developed financial market is a necessary condition for rapid economic growth.\" Provide two arguments supporting and one argument challenging this view.",
+     "a": "Supporting: (1) Efficient financial markets lower the cost of capital by improving allocation — funds flow to highest-return projects, boosting productivity. (2) They enable risk diversification, encouraging entrepreneurship and innovation. Challenging: Some economies (e.g., early-stage East Asian tigers) grew rapidly with bank-dominated systems and underdeveloped markets, suggesting banks can substitute for markets in early development. A weak answer that only gives supporting arguments shows inability to critically evaluate. An answer citing \"stock market crashes hurt growth\" as a challenge confuses market volatility with market development level.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional scenario where a financial market fails to perform its liquidity provision function. Describe the consequences for three different stakeholders.",
+     "a": "Scenario: A corporate bond market with only 5 institutional holders, no secondary exchange, and no market makers. An investor needs to sell ₹10 lakh bonds urgently for a medical emergency. Consequences: (1) Investor: forced to sell at 40% discount, losing ₹4 lakh. (2) Issuer: future bond issues face higher yield demands as investors price in illiquidity risk. (3) Regulator: pressure to mandate market-making or exchange listing. A poor answer that describes a stock market crash instead of structural illiquidity misses the function-specific failure. If consequences don't differentiate stakeholders, the student hasn't grasped the systemic nature of liquidity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

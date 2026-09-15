@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_009",
+   "title": "c12_hs_cbse_11_009",
+   "questions": [
+    {
+     "q": "List four site-related factors that must be checked before finalising a house purchase.",
+     "a": "Correct answer: (1) Soil bearing capacity and drainage, (2) Orientation relative to sun path and prevailing wind, (3) Proximity to essential services (water supply, sewage, electricity, transport), (4) Legal clearance (clear title, approved building plan, compliance with local bye-laws).  \nA wrong answer that only lists \"location, price, size, neighbours\" reveals the student is confusing site selection with general buying preferences and misses the technical/legal criteria that cause costly post-purchase problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the orientation of a house matters for natural lighting and ventilation in the Indian context.",
+     "a": "Correct answer: In India, the sun traverses the southern sky; a north-south oriented longer facade receives diffused light without harsh glare, while east-west orientation invites intense morning/afternoon heat. Prevailing winds (often south-west in summer) can be channelled through cross-ventilation if windows are placed on opposite walls aligned with wind direction. Proper orientation reduces dependence on artificial lighting and cooling, directly linking to energy management (c12_hs_cbse_11_008).  \nA wrong answer that says \"orientation doesn't matter because we have AC and lights\" shows the student ignores the resource-management perspective and the health impacts of stale air and glare.",
+     "self_check": true
+    },
+    {
+     "q": "Given a 2BHK floor plan (describe: entrance opens into living room; kitchen accessible only through living room; two bedrooms on opposite sides of living room; common bath near entrance; no dedicated dining area), identify the zoning error and suggest one modification to improve circulation.",
+     "a": "Correct answer: The kitchen is in the service zone but accessed through the living (social) zone, forcing cooking traffic through guest space — a zoning violation. Modification: provide a separate service entry to the kitchen from the common corridor or add a back door, creating a distinct service circulation path.  \nA wrong answer that only says \"move the kitchen\" without specifying how circulation improves shows the student cannot translate the principle into a concrete layout change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two house plans for a family of four: Plan A has a long central corridor connecting all rooms; Plan B uses a central living area as the circulation hub with rooms opening off it. Analyse which plan better satisfies the principles of circulation efficiency and flexibility, and why.",
+     "a": "Correct answer: Plan B is superior. A central corridor (Plan A) wastes 8–10% of floor area on non-habitable space and creates rigid, single-load circulation. Plan B’s hub-and-spoke layout uses the living area as multi-functional circulation, saving space and allowing furniture reconfiguration for future needs (e.g., converting a bedroom to home office). Flexibility is higher because zone boundaries are not fixed by a corridor.  \nA wrong answer that prefers Plan A because \"corridors provide privacy\" misses that privacy is achieved by door placement and acoustic treatment, not by dedicating space to movement alone.",
+     "self_check": true
+    },
+    {
+     "q": "A builder advertises a flat with \"100% space utilisation — no wasted corridors!\" The floor plan shows the main door opening directly into the master bedroom, which then leads to the living room, then kitchen, then second bedroom. Evaluate this claim using space planning principles.",
+     "a": "Correct answer: The claim is misleading. Eliminating corridors by stringing rooms in series (enfilade) destroys privacy (bedroom becomes a thoroughfare), disrupts zoning (sleeping zone invaded by social/service traffic), and reduces flexibility (no independent access). True space utilisation optimises net usable area while respecting functional separation.  \nA wrong answer that praises the design for \"saving space\" shows the student equates circulation area with waste, ignoring the hierarchical organisation of zones.",
+     "self_check": true
+    },
+    {
+     "q": "Design a space plan for a 45 m² studio apartment for a young professional who works from home, cooks daily, and entertains occasionally. Sketch a rough zoning diagram (text description acceptable) and justify how each principle is addressed.",
+     "a": "Expected answer: Zone 1 (Sleeping/Private) — alcove with bed, separated by a sliding screen/bookshelf for visual/acoustic privacy. Zone 2 (Work) — desk along window wall for daylight, adjacent to sleeping but screened. Zone 3 (Living/Entertaining) — sofa and foldable dining table near entrance. Zone 4 (Service) — compact kitchen counter along one wall with under-counter fridge; bathroom accessible from entrance lobby. Circulation: a clear 900 mm path from entrance to all zones without crossing work/sleep areas. Flexibility: foldable dining table, murphy bed or sofa-cum-bed. Storage: overhead cabinets above kitchen/work, under-bed drawers. Aesthetics: consistent colour palette, mirror to expand space.  \nA poor answer that simply lists furniture without zoning or circulation logic reveals the student cannot synthesise principles into a coherent layout.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

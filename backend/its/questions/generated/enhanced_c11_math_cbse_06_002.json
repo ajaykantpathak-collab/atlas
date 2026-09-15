@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_002",
+   "title": "c11_math_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the three fundamental rules for transforming a linear inequality into an equivalent inequality. For each rule, specify whether the inequality symbol changes direction or stays the same.",
+     "a": "The three rules: (1) Add/subtract same number to both sides — symbol stays same. (2) Multiply/divide by positive number — symbol stays same. (3) Multiply/divide by negative number — symbol reverses (≤↔≥, <↔>). A wrong answer reveals the student either omits the sign-reversal rule entirely, or incorrectly thinks adding/subtracting a negative number flips the sign (it does not — only multiplication/division by negative does).",
+     "self_check": true
+    },
+    {
+     "q": "Explain WHY multiplying both sides of an inequality by -1 reverses the inequality direction, using the number line and the example 3 < 7.",
+     "a": "On the number line, 3 is left of 7, so 3 < 7. Multiplying by -1 reflects both points across 0: -3 is right of -7, so -3 > -7. The order reverses because negative numbers increase leftward. A wrong answer reveals the student treats inequalities like equations (where multiplying by -1 gives -3 = -7, which is false anyway) or memorizes the rule without understanding the geometric meaning — they cannot explain why -2x < 6 becomes x > -3.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the inequality step by step: (2x - 7)/3 ≥ (x + 5)/2 - 1. Show every transformation and state the final solution set in interval notation.",
+     "a": "Step 1: Clear denominators by multiplying both sides by LCM(3,2)=6 (positive, sign stays): 6·(2x-7)/3 ≥ 6·(x+5)/2 - 6·1 → 2(2x-7) ≥ 3(x+5) - 6.\nStep 2: Expand: 4x - 14 ≥ 3x + 15 - 6 → 4x - 14 ≥ 3x + 9.\nStep 3: Subtract 3x from both sides: x - 14 ≥ 9.\nStep 4: Add 14: x ≥ 23.\nSolution set: [23, ∞). A wrong answer (e.g., x ≤ 23) reveals sign-reversal error when multiplying by negative — but here all multipliers were positive, so the error would be algebraic (incorrect expansion or transposition).",
+     "self_check": true
+    },
+    {
+     "q": "Compare solving 5 - 2x > 11 and 5 - 2x < 11. At which step does the solution process diverge, and why do the final solution sets differ in a way that is NOT just \"opposite inequalities\"?",
+     "a": "Both start: subtract 5 → -2x > 6 and -2x < 6. The divergence occurs when dividing by -2: first becomes x < -3, second becomes x > -3. The solution sets are (-∞, -3) and (-3, ∞) — they are complementary intervals partitioning the real line (excluding -3). A wrong answer treats them as symmetric opposites without recognizing they are complements, or misses that the boundary point -3 is excluded in both because the original inequalities are strict.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves -4x + 12 ≤ 20 as follows: -4x ≤ 8 → x ≤ -2. Identify the error, explain why it is wrong, and give the correct solution.",
+     "a": "Error: Dividing by -4 did not reverse the inequality sign. Correct: -4x ≤ 8 → x ≥ -2 (since dividing by negative flips ≤ to ≥). Solution set: [-2, ∞). The student's answer x ≤ -2 gives (-∞, -2], which is the opposite ray. This reveals the most common Class 11 error: forgetting sign reversal when the coefficient of x is negative after transposition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: rupees, metres, kg) that leads to a linear inequality requiring division by a negative number to solve. Write the inequality, solve it, and interpret the answer in context.",
+     "a": "Example: A Delhi Metro train has capacity 300 passengers. At a station, x passengers board and 40 alight. The train must not exceed capacity. If 280 passengers were on board before the station, find maximum x. Inequality: 280 + x - 40 ≤ 300 → x ≤ 60. This does NOT require negative division. To force negative division: \"A cold storage at -5°C warms at 2°C per hour after power failure. Vaccines spoil above 8°C. How many hours until spoilage?\" Inequality: -5 + 2t ≤ 8 → 2t ≤ 13 → t ≤ 6.5. Still positive. Better: \"A submarine at -200m ascends at 15m/min. It must stay below -50m to avoid detection. For how long can it ascend?\" Inequality: -200 + 15t < -50 → 15t < 150 → t < 10. Still positive. To require negative division, the variable must have negative coefficient: \"A company's profit P = 5000 - 200x where x is defective units. Profit must exceed ₹1000. Find max defective units.\" 5000 - 200x > 1000 → -200x > -4000 → x < 20. Correct interpretation: fewer than 20 defective units. A poor answer creates a problem solvable without sign reversal, showing the student doesn't recognize when the rule is actually needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

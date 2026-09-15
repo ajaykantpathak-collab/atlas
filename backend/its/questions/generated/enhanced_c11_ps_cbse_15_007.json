@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_007",
+   "title": "c11_ps_cbse_15_007",
+   "questions": [
+    {
+     "q": "What is the exact constitutional article that empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights, and what is the corresponding article for High Courts?",
+     "a": "Article 32 empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights. Article 226 empowers High Courts to issue writs for the enforcement of Fundamental Rights and \"for any other purpose\" (i.e., statutory or other legal rights). A wrong answer (e.g., citing Article 136 or Article 143) reveals confusion between writ jurisdiction and appellate/advisory jurisdiction, indicating the student cannot distinguish the original remedial power of the court from its review or advisory functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a High Court can issue a writ of Mandamus against a private corporation performing a public duty, but the Supreme Court under Article 32 may not entertain the same petition if no Fundamental Right is involved.",
+     "a": "Article 226 grants High Courts wider jurisdiction (\"for any other purpose\") beyond Fundamental Rights, allowing them to enforce statutory duties against any \"person or authority\" including private bodies discharging public functions. Article 32 is limited to Fundamental Rights enforcement only; the Supreme Court cannot use it to enforce purely statutory duties against private entities unless a Fundamental Right is implicated. A wrong answer (e.g., \"both have same power\") reveals a fundamental misunderstanding of the hierarchical and jurisdictional difference between the two articles — a classic senior secondary error where students conflate the \"Right to Constitutional Remedies\" (Art. 32) with the general supervisory jurisdiction of High Courts (Art. 226).",
+     "self_check": true
+    },
+    {
+     "q": "A State Government passes an order banning all student protests in university campuses. A student files a writ petition in the High Court challenging the order. Which writ is most appropriate, and why?",
+     "a": "The most appropriate writ is **Certiorari** (or Prohibition if the order is not yet implemented). The order is a quasi-judicial/administrative decision affecting rights. Certiorari reviews decisions already made by bodies exercising judicial/quasi-judicial functions for errors of jurisdiction or law. If the ban is not yet enforced, Prohibition prevents the authority from acting *ultra vires*. A wrong answer choosing Habeas Corpus (liberty not directly restrained) or Mandamus (not a failure to perform a duty but an illegal positive act) reveals inability to classify the nature of state action (legislative vs. quasi-judicial vs. administrative) and match it to the correct writ's function — a critical analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the writs of Prohibition and Certiorari in terms of the stage of proceedings at which they are issued and the nature of the body against which they lie.",
+     "a": "**Prohibition** is issued *during* the pendency of proceedings (preventive) to stop a lower court/tribunal/quasi-judicial body from exceeding its jurisdiction or violating natural justice. **Certiorari** is issued *after* a decision is rendered (curative) to review and quash a decision already made by such a body for jurisdictional error, error of law on the face of record, or violation of natural justice. Both lie only against bodies exercising judicial or quasi-judicial functions, not purely administrative or legislative bodies. A wrong answer stating Prohibition lies against administrative bodies or that Certiorari can be issued before a decision reveals confusion between preventive vs. curative remedies and the strict classification of state functions — a nuanced distinction tested in 4-6 mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The writ of Quo Warranto is the most effective tool for ensuring accountability in public appointments because it can be filed by any citizen regardless of personal aggrievement.\"",
+     "a": "The statement is **partially correct but overstated**. Quo Warranto (\"by what authority\") *can* be filed by any citizen (no *locus standi* requirement of personal injury) to challenge a person's right to hold a substantive public office created by statute/constitution. This makes it a powerful tool for public accountability. However, it is **not available** against: (1) purely private offices, (2) ministerial offices (held at pleasure), (3) offices not created by law, or (4) where the appointment process is still ongoing. Its effectiveness is thus limited to *substantive statutory public offices*. A wrong answer agreeing fully without qualifications reveals a lack of precision on the *scope limitations* of Quo Warranto — a common error where students memorize the \"any citizen can file\" rule but forget the jurisdictional prerequisites (public office, substantive, statutory).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where *two different writs* could potentially be filed against the *same authority* for the *same underlying action*, explaining why each writ would lie and which one the court would likely prefer.",
+     "a": "**Scenario:** A District Consumer Forum (quasi-judicial body) hears a complaint beyond its pecuniary jurisdiction (e.g., claim value ₹2 crore, limit ₹1 crore) and passes an order.\n- **Prohibition:** Filed *during* the hearing, arguing the Forum lacks jurisdiction. Court would issue Prohibition to *stop* proceedings.\n- **Certiorari:** Filed *after* the order, arguing the order is *coram non judice* (without jurisdiction). Court would quash the order.\n**Preference:** Courts prefer **Prohibition** (preventive) over Certiorari (curative) because it avoids wasted litigation and protects parties from the ordeal of an invalid proceeding. A poor answer (e.g., suggesting Habeas Corpus or Mandamus) reveals inability to map the *same jurisdictional defect* to the *correct temporal remedy* — a sophisticated analytical gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_002",
+   "title": "c11_geo_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the estimated age of the universe according to the Big Bang Theory and name the satellite mission that provided the most precise measurement of this age through Cosmic Microwave Background Radiation anisotropy.",
+     "a": "The universe is approximately 13.8 billion years old. The Planck satellite (2009–2013) provided the most precise measurement: 13.787 ± 0.020 billion years. A wrong answer (e.g., 4.6 billion years) reveals confusion between the age of the universe and the age of the Earth/Solar System — a common category error where students conflate planetary formation with cosmic origin.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Cosmic Microwave Background Radiation (CMBR) is considered the \"afterglow\" of the Big Bang, and why its near-perfect blackbody spectrum at 2.725 K supports the hot dense origin model over the Steady State Theory.",
+     "a": "CMBR is relic radiation from the recombination epoch (~380,000 years after Big Bang) when the universe cooled enough for electrons and protons to form neutral hydrogen, making photons decouple and travel freely. Its blackbody spectrum matches a 2.725 K thermal radiator — impossible in Steady State Theory which predicts no such remnant radiation. A wrong answer citing \"background noise from stars\" reveals failure to distinguish between integrated starlight (non-thermal) and primordial blackbody radiation.",
+     "self_check": true
+    },
+    {
+     "q": "A galaxy cluster has a redshift z = 0.05. Using Hubble's Law (v = H₀ × d) with H₀ = 70 km/s/Mpc, calculate its distance in megaparsecs and light-years. (1 pc = 3.26 ly; c = 3 × 10⁵ km/s)",
+     "a": "Step 1: Recession velocity v = z × c = 0.05 × 3 × 10⁵ = 15,000 km/s.\nStep 2: Distance d = v / H₀ = 15,000 / 70 ≈ 214.3 Mpc.\nStep 3: Convert to light-years: 214.3 × 10⁶ pc × 3.26 ly/pc ≈ 698.6 million light-years.\nA wrong answer using v = z × c without Hubble's Law reveals misunderstanding that redshift directly gives distance — it gives velocity; distance requires the Hubble constant. Confusing Mpc with pc yields answers off by 10⁶.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the timeline of nucleosynthesis in the Big Bang (first 20 minutes) with stellar nucleosynthesis. Why does Big Bang Nucleosynthesis (BBN) produce only light elements (H, He, Li) while heavier elements require stars?",
+     "a": "BBN occurred when universe was 3–20 minutes old, temperature ~10⁹ K, density dropping rapidly. Only light nuclei formed because: (1) no stable mass-5 or mass-8 nuclei exist (bottleneck), (2) expansion cooled universe below fusion threshold before heavier elements could form. Stellar nucleosynthesis overcomes this via high density/core temperatures sustained for millions of years, enabling triple-alpha process. A wrong answer claiming \"BBN made all elements\" ignores the mass-5/8 instability gap — a specific nuclear physics constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Big Bang was an explosion in space that threw matter outward from a central point.\" Identify three specific misconceptions and correct each using cosmological principles.",
+     "a": "Misconception 1: \"Explosion in space\" — Correction: Big Bang was expansion OF space itself, not into pre-existing space. Misconception 2: \"Central point\" — Correction: No centre; expansion is homogeneous and isotropic (Cosmological Principle). Every observer sees themselves as centre. Misconception 3: \"Threw matter outward\" — Correction: Matter/energy density decreased due to volume increase; galaxies recede because space stretches. A wrong critique focusing only on \"explosion\" misses the geometric nature of metric expansion — a fundamental GR concept.",
+     "self_check": true
+    },
+    {
+     "q": "Design a concept map linking the following: Planck Era, Inflation, Recombination, CMBR, Dark Ages, Reionization, First Stars, Galaxy Formation, Present Universe. Annotate each transition with the dominant physical process and approximate time/redshift.",
+     "a": "A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) → Quark/Hadron/Lepton Eras → Nucleosynthesis (3–20 min, fusion) → Recombination (z ≈ 1100, 380 kyr, CMBR release) → Dark Ages (neutral H, no stars) → Reionization (z ≈ 6–10, first stars ionize H) → Galaxy Assembly (z ≈ 1–3) → Stelliferous Era (present, z = 0). Poor maps list eras linearly without causal arrows (e.g., inflation solves horizon/flatness problems enabling later structure formation) or omit redshift/time anchors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

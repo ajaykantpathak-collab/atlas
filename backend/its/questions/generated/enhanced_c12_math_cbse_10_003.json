@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_10_003",
+   "title": "c12_math_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the triangle law of vector addition in your own words and draw a labelled diagram showing vectors \\(\\vec{a}\\), \\(\\vec{b}\\), and their resultant \\(\\vec{a}+\\vec{b}\\).",
+     "a": "The triangle law: if \\(\\vec{a}\\) and \\(\\vec{b}\\) are represented by two sides of a triangle taken in order (tail of \\(\\vec{b}\\) at head of \\(\\vec{a}\\)), then the third side taken in the reverse order (from tail of \\(\\vec{a}\\) to head of \\(\\vec{b}\\)) represents \\(\\vec{a}+\\vec{b}\\). A wrong answer where the student draws \\(\\vec{b}\\) starting from the tail of \\(\\vec{a}\\) (tail-to-tail) reveals confusion between triangle law and parallelogram law. If they draw the resultant from head of \\(\\vec{a}\\) to tail of \\(\\vec{b}\\), they have reversed the order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the triangle law and parallelogram law of vector addition always give the same resultant vector. Use a diagram in your explanation.",
+     "a": "In the parallelogram construction, the diagonal from the common point O to the opposite vertex is exactly the third side of the triangle formed by \\(\\vec{a}\\) and \\(\\vec{b}\\) placed head-to-tail (since opposite sides of a parallelogram are equal and parallel). A wrong answer that merely states “they are equivalent” without referencing the geometric construction (e.g., \\(\\vec{b}\\) in parallelogram is parallel to \\(\\vec{b}\\) in triangle) shows the student has memorized the fact but not understood the proof. If they claim the other diagonal is the resultant, they confuse the direction of the sum.",
+     "self_check": true
+    },
+    {
+     "q": "Two forces \\(\\vec{F_1}\\) and \\(\\vec{F_2}\\) of magnitudes 6 N and 8 N act at a point with an angle of 60° between them. Find the magnitude of the resultant force using the parallelogram law formula.",
+     "a": "Magnitude \\(R = \\sqrt{6^2+8^2+2\\cdot6\\cdot8\\cos60°} = \\sqrt{36+64+48} = \\sqrt{148} = 2\\sqrt{37} \\approx 12.17\\) N. A common error: using \\(\\cos60°=0.5\\) but forgetting the factor 2, giving \\(\\sqrt{36+64+24}=\\sqrt{124}\\) (wrong). Another error: using \\(\\sin60°\\) instead of \\(\\cos60°\\), which would be the formula for the magnitude of the cross product, not the sum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnitude and direction of the resultant when two vectors of fixed magnitudes \\(a\\) and \\(b\\) are added at angles \\(\\theta = 0°, 90°, 180°\\). What pattern do you observe?",
+     "a": "At \\(\\theta=0°\\): \\(R = a+b\\) (max), direction same as both. At \\(\\theta=90°\\): \\(R = \\sqrt{a^2+b^2}\\), direction at \\(\\tan\\phi = b/a\\). At \\(\\theta=180°\\): \\(R = |a-b|\\) (min), direction of the larger vector. The pattern: \\(R\\) decreases monotonically from \\(a+b\\) to \\(|a-b|\\) as \\(\\theta\\) goes from 0 to \\(\\pi\\). A wrong answer that says \\(R\\) is constant or increases with \\(\\theta\\) reveals a fundamental misunderstanding of the cosine term’s effect. If they say direction is always the angle bisector, they incorrectly assume equal magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds two vectors of magnitudes 5 m and 12 m by simply writing “5 + 12 = 17 m” as the resultant magnitude. Identify the error and give the correct range of possible resultant magnitudes.",
+     "a": "The error is treating vectors as scalars; vector addition depends on the angle \\(\\theta\\). The resultant magnitude can range from \\(|12-5|=7\\) m (opposite directions) to \\(12+5=17\\) m (same direction). A wrong answer that says the resultant is always 17 m shows the student ignores direction entirely. If they say the range is 0 to 17 m, they forget vectors cannot cancel completely unless magnitudes are equal.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) involving addition of two vectors where the angle between them is not 0° or 90°. Provide the full solution using both triangle and parallelogram laws.",
+     "a": "Example: A cyclist rides 3 km east, then turns 30° north of east and rides 4 km. Find the displacement from start. Solution: Use triangle law: draw 3 km east, then 4 km at 30° from east. Resultant magnitude \\(R = \\sqrt{3^2+4^2+2\\cdot3\\cdot4\\cos30°} = \\sqrt{9+16+12\\sqrt{3}} \\approx 6.77\\) km. Direction \\(\\tan\\phi = \\frac{4\\sin30°}{3+4\\cos30°} = \\frac{2}{3+2\\sqrt{3}} \\approx 0.309\\), \\(\\phi \\approx 17.2°\\) north of east. Parallelogram law gives the same. A poor answer would omit the diagram, use wrong angle, or add magnitudes directly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

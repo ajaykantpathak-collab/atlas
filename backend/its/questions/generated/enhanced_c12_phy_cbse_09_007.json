@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_007",
+   "title": "c12_phy_cbse_09_007",
+   "questions": [
+    {
+     "q": "State the formula for the effective focal length \\(F\\) of three thin lenses of focal lengths \\(f_1, f_2, f_3\\) placed in contact. What is the SI unit of the power of this combination?",
+     "a": "\\(\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} + \\frac{1}{f_3}\\); the SI unit of power is dioptre (D), where \\(1\\,\\text{D} = 1\\,\\text{m}^{-1}\\). A wrong answer (e.g., \\(F = f_1 + f_2 + f_3\\) or unit = watt) reveals confusion between adding focal lengths vs. adding reciprocals, or mixing up power of a lens with electrical power.",
+     "self_check": true
+    },
+    {
+     "q": "A convex lens of power +4.0 D and a concave lens of power –2.5 D are placed in contact. A student claims the combination is diverging because \"one lens is concave\". Explain why this reasoning is incorrect and state the nature of the combination.",
+     "a": "The net power is \\(P = +4.0 + (-2.5) = +1.5\\,\\text{D}\\), which is positive, so the combination is converging. The student's error is assuming the nature is determined by the presence of a concave lens rather than by the algebraic sum of powers. This reveals a misunderstanding that powers add with signs, not that \"concave always dominates\".",
+     "self_check": true
+    },
+    {
+     "q": "Two thin lenses of focal lengths +20 cm and –30 cm are placed in contact. An object is placed 40 cm from the combination. Find the position and nature of the final image. (Use Cartesian sign convention: \\(u = -40\\,\\text{cm}\\).)",
+     "a": "\\(f_1 = +20\\,\\text{cm}, f_2 = -30\\,\\text{cm}\\). \\(\\frac{1}{F} = \\frac{1}{20} + \\frac{1}{-30} = \\frac{3-2}{60} = \\frac{1}{60}\\) ⇒ \\(F = +60\\,\\text{cm}\\). Lens formula: \\(\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{F}\\) ⇒ \\(\\frac{1}{v} = \\frac{1}{60} + \\frac{1}{-40} = \\frac{2-3}{120} = -\\frac{1}{120}\\) ⇒ \\(v = -120\\,\\text{cm}\\). Image is virtual, erect, on same side as object. A wrong sign in \\(u\\) or \\(F\\) leads to a real image at +120 cm — a common sign-convention error.",
+     "self_check": true
+    },
+    {
+     "q": "Two combinations are made: (A) a convex lens of focal length 10 cm and a concave lens of focal length 20 cm; (B) two convex lenses each of focal length 20 cm. Compare the effective focal lengths and powers. Which combination has greater converging ability?",
+     "a": "(A) \\(1/F_A = 1/10 + 1/(-20) = 1/20\\) ⇒ \\(F_A = +20\\,\\text{cm}, P_A = +5\\,\\text{D}\\). (B) \\(1/F_B = 1/20 + 1/20 = 1/10\\) ⇒ \\(F_B = +10\\,\\text{cm}, P_B = +10\\,\\text{D}\\). Combination B has greater converging ability (shorter focal length, higher power). A student who says A is stronger because it has a \"stronger convex lens\" ignores the cancelling effect of the concave lens.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Two lenses of powers +3 D and –1 D are in contact. Find the focal length of the combination.\" Their working: \\(P = 3 + 1 = 4\\,\\text{D}, F = 1/4 = 0.25\\,\\text{m}\\). Identify the error and give the correct answer.",
+     "a": "The student added the magnitudes instead of the signed powers. Correct: \\(P = +3 + (-1) = +2\\,\\text{D}\\), so \\(F = 1/2 = 0.5\\,\\text{m} = 50\\,\\text{cm}\\). The error reveals a failure to treat concave lens power as negative — a sign-convention slip that costs marks in both board and JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Design a combination of two thin lenses in contact that has an effective power of +2.5 D. One lens must be concave. Specify the focal lengths (in cm) of both lenses. (Multiple answers possible; give one valid pair.)",
+     "a": "Let convex lens power \\(P_1 = +5\\,\\text{D}\\) (\\(f_1 = +20\\,\\text{cm}\\)), concave lens power \\(P_2 = -2.5\\,\\text{D}\\) (\\(f_2 = -40\\,\\text{cm}\\)). Then \\(P = +5 - 2.5 = +2.5\\,\\text{D}\\). Any pair with \\(P_1 + P_2 = +2.5\\) and \\(P_2 < 0\\) works. A poor answer gives both focal lengths positive or ignores the concave requirement, showing inability to work backwards from net power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

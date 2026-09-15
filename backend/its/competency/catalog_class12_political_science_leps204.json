@@ -1,0 +1,201 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 4,
+ "chapter_title": "India's External Relations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.204.1.1",
+   "title": "Objectives and Constitutional Basis of Indian Foreign Policy",
+   "section": "Nehru's role",
+   "definition": "Foreign policy grew out of the freedom movement's ideals and the international setting of the Cold War: Nehru, holding the Prime Minister and Foreign Minister posts together from 1946 to 1964, aimed at three goals -- preserving hard-won sovereignty, protecting territorial integrity and promoting rapid economic development -- with Article 51 of the Constitution directing the State to promote international peace, honourable relations between nations, respect for international law and settlement of disputes by arbitration.",
+   "formula": "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development",
+   "key_idea": "For Nehru, the true test of independence was holding foreign relations in one's own hands; everything else was only local autonomy.",
+   "textbook_ref": "leps204.txt The Constitutional principles, Nehru's role (lines 55-166)",
+   "question_patterns": [
+    "state the three major objectives of nehru's foreign policy",
+    "which directive principle deals with promotion of international peace and security",
+    "why does foreign policy reflect both domestic and international factors",
+    "why did nehru regard foreign relations as the test of independence",
+    "how did the freedom struggle shape india's external relations",
+    "which parties wanted a pro us tilt and why did nehru keep leeway"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the objectives", "explain": "sovereignty, territorial integrity and rapid economic development are named as the three goals Nehru pursued through non-alignment"},
+    {"step": 2, "action": "verify the constitutional anchor", "explain": "Article 51 instructs the State to promote peace and security, maintain just and honourable relations between nations, respect international law and encourage arbitration"},
+    {"step": 3, "action": "verify the leadership context", "explain": "developing states with limited resources pursue modest goals shaped by dependence on powerful donors, and Nehru as his own foreign minister dominated policy until 1964 despite pro-US voices like Ambedkar and the Jan Sangh"}
+   ]
+  },
+  {
+   "id": "leps.204.2.1",
+   "title": "Policy of Non-Alignment and Distance from the Two Camps",
+   "section": "The Policy of non-alignment",
+   "definition": "Non-alignment meant refusing to join the US-led NATO or the Soviet-led Warsaw Pact while staying friendly with both sides: India led world protest when Britain attacked Egypt over the Suez Canal in 1956 yet stayed silent when the USSR invaded Hungary, drew aid from both blocs, and irritated Washington by its independent line even as Pakistan joined US-led military alliances.",
+   "formula": "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs",
+   "key_idea": "The balancing act was never perfect, but it kept India out of power-bloc entanglement and let it take independent positions on world issues.",
+   "textbook_ref": "leps204.txt Distance from two camps (lines 167-228)",
+   "question_patterns": [
+    "why did india refuse to join either cold war camp",
+    "explain non alignment as the ideal foreign policy approach",
+    "how did india respond to the suez invasion and the hungary invasion of 1956",
+    "why was there unease in indo us relations during the 1950s",
+    "what did nehru mean by being friendly to both blocs yet joining neither",
+    "how did import substitution limit india's economic interaction with the world"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the refusal of alliances", "explain": "India kept away from NATO and the Warsaw Pact and urged other developing countries to avoid entanglement in bloc politics"},
+    {"step": 2, "action": "verify the independent record", "explain": "world protest against the Anglo-French attack on Egypt over the Suez Canal, no public condemnation of the Soviet invasion of Hungary, and UN peacekeeping contributions"},
+    {"step": 3, "action": "verify the costs and gains", "explain": "the US resented the line and Pakistan's alliance choice deepened the divide, yet India obtained assistance from members of both blocs"}
+   ]
+  },
+  {
+   "id": "leps.204.3.1",
+   "title": "Afro-Asian Unity and the Founding of NAM",
+   "section": "Afro-Asian unity",
+   "definition": "Nehru envisaged a major role for India in Asian and world affairs: convening the Asian Relations Conference of March 1947, an international conference in 1949 for Indonesia's freedom from Dutch rule, opposition to apartheid in South Africa, and the Bandung Conference of 1955 -- the zenith of Afro-Asian engagement -- which paved the way for the Non-Aligned Movement whose first summit met at Belgrade in September 1961 with Nehru as co-founder.",
+   "formula": "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit",
+   "key_idea": "Decolonised Asia and Africa found a collective voice, and India used its moral standing to convene and lead it.",
+   "textbook_ref": "leps204.txt Afro-Asian unity (lines 229-247)",
+   "question_patterns": [
+    "how did india promote asian unity before and after independence",
+    "what was the significance of the bandung conference of 1955",
+    "where and when was the first nam summit held",
+    "how did india support indonesia's freedom struggle",
+    "trace the steps from bandung to the non aligned movement",
+    "why did nehru oppose apartheid in south africa"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the early initiatives", "explain": "the Asian Relations Conference was convened in Delhi in March 1947, five months before Independence, and a 1949 conference backed Indonesia's independence"},
+    {"step": 2, "action": "verify the anti-colonial stance", "explain": "India supported decolonisation and firmly opposed racism, especially apartheid in South Africa"},
+    {"step": 3, "action": "verify the NAM link", "explain": "the 1955 Bandung Conference in Indonesia marked the height of Afro-Asian engagement and led to NAM, whose first summit at Belgrade in September 1961 Nehru co-founded"}
+   ]
+  },
+  {
+   "id": "leps.204.4.1",
+   "title": "From Panchsheel to the China War of 1962",
+   "section": "Peace and conflict with China",
+   "definition": "India's China friendship began warmly -- early recognition of the communist government after 1949 and the joint Panchsheel declaration of the five principles of peaceful coexistence on 29 April 1954 -- then soured over Tibet, annexed by China in 1950 and followed by the Dalai Lama's 1959 asylum in India, and over a boundary dispute in which China occupied Aksai Chin in Ladakh and claimed NEFA, launching an invasion in October 1962 that ended with a unilateral ceasefire but dented Nehru's stature.",
+   "formula": "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962",
+   "key_idea": "A buffer lost in Tibet and an unsettled boundary converted brotherhood into battle within eight years of Panchsheel.",
+   "textbook_ref": "leps204.txt Peace and conflict with China, The Chinese invasion 1962 (lines 248-423)",
+   "question_patterns": [
+    "what is panchsheel and when was it signed",
+    "how did the tibet issue strain india china relations",
+    "which areas were disputed on the india china border",
+    "describe the chinese invasion of india in october 1962",
+    "what were the consequences of the 1962 defeat for indian politics",
+    "why did china object to the dalai lama being given asylum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the friendly start", "explain": "India recognised the People's Republic early, helped it in international fora, and signed Panchsheel with Zhou Enlai in 1954 despite Patel's warnings about Chinese aggression"},
+    {"step": 2, "action": "verify the sources of strain", "explain": "the 1950 annexation of Tibet removed the buffer, the 1959 uprising and Dalai Lama's asylum angered Beijing, and China occupied Aksai Chin between 1957 and 1959 building a strategic road"},
+    {"step": 3, "action": "verify the war and its fallout", "explain": "the October-November 1962 attacks in both sectors ended in a unilateral Chinese ceasefire; Defence Minister V. K. Krishna Menon resigned, a first no-confidence motion was moved, and Nehru was criticised for weak preparedness"}
+   ]
+  },
+  {
+   "id": "leps.204.5.1",
+   "title": "Wars and Peace with Pakistan, 1947 to 1972",
+   "section": "Wars and Peace with Pakistan",
+   "definition": "Conflict with Pakistan began with the 1947-48 proxy war over Jammu and Kashmir referred to the UN, coexisted with cooperation such as the Indus Waters Treaty of 1960 mediated by the World Bank, and then escalated through the 1965 war ended by the Soviet-brokered Tashkent Agreement of January 1966, and the 1971 Bangladesh war in which about 80 lakh refugees entered India, a 20-year Treaty of Peace and Friendship with the USSR countered the US-Pakistan-China axis, about 90,000 Pakistani troops surrendered at Dhaka, and the Shimla Agreement of 3 July 1972 restored peace.",
+   "formula": "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla",
+   "key_idea": "Even amid wars the two neighbours could settle river waters by treaty, yet Kashmir and great-power alignments kept the rivalry alive.",
+   "textbook_ref": "leps204.txt Wars and Peace with Pakistan, Bangladesh war 1971, Kargil box (lines 528-630)",
+   "question_patterns": [
+    "how was the indus waters treaty reached and why has it endured",
+    "trace the course of the 1965 war and its settlement",
+    "what internal crisis in pakistan led to the 1971 war",
+    "why did india sign a treaty of peace and friendship with the soviet union in 1971",
+    "describe the outcome of the bangladesh war of 1971",
+    "what does the shimla agreement of july 1972 mark"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the early phase", "explain": "the 1947 proxy war in Kashmir went to the UN, yet abducted women were restored jointly and river-water sharing was settled through the World Bank-mediated Indus Waters Treaty signed by Nehru and Ayub Khan in 1960"},
+    {"step": 2, "action": "verify the 1965 war", "explain": "Pakistan's April 1965 moves in the Rann of Kutch and the August-September Kashmir offensive failed when Shastri's Punjab counter-offensive neared Lahore; UN mediation and the Soviet-brokered Tashkent Agreement of January 1966 ended hostilities"},
+    {"step": 3, "action": "verify the 1971 war and peace", "explain": "after East Pakistan's Awami League won the 1970 election and was suppressed, 80 lakh refugees fled to India, the August 1971 Soviet treaty assured support against the US-Pakistan-China axis, Dhaka fell in ten days with about 90,000 surrenders, and the Shimla Agreement of 3 July 1972 between Indira Gandhi and Bhutto formalised peace"}
+   ]
+  },
+  {
+   "id": "leps.204.6.1",
+   "title": "Nuclear Policy and the Cost of Wars for Development",
+   "section": "India's nuclear policy",
+   "definition": "The nuclear programme begun under Homi J. Bhabha in the late 1940s served peaceful purposes in Nehru's vision, and India called its first explosion of May 1974 a peaceful explosion while rejecting the NPT of 1968 and later the CTBT as discriminatory; meanwhile three wars in a decade diverted scarce resources to defence -- defence production and supplies departments rose in 1962 and 1965, the Third Plan faltered, three annual plans followed, and the Fourth Plan could start only in 1969.",
+   "formula": "war_cost = defence_expenditure_rise + derailed_five_year_plans",
+   "key_idea": "A broad party consensus covered national interest in external affairs even as wars pushed guns ahead of the plans and the bomb question stayed unresolved.",
+   "textbook_ref": "leps204.txt India's nuclear policy, defence expenditure, India's Nuclear Programme box (lines 647-731)",
+   "question_patterns": [
+    "why did india refuse to sign the nuclear non proliferation treaty",
+    "why was the 1974 nuclear test called a peaceful explosion",
+    "how did wars with neighbours affect india's five year plans",
+    "state india's nuclear doctrine of credible minimum deterrence",
+    "which bodies were created to step up defence production and when",
+    "why is there broad agreement among parties on foreign policy questions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the peaceful-use lineage", "explain": "Nehru trusted science for a modern India, backed Bhabha's atomic energy programme, pleaded for comprehensive disarmament and opposed nuclear weapons"},
+    {"step": 2, "action": "verify the treaty position", "explain": "after China's 1964 test the five weapon powers pushed the NPT of 1968, which India rejected as discriminatory, later opposing the 1995 indefinite extension and refusing the CTBT, then testing in May 1998 under a doctrine of no first use"},
+    {"step": 3, "action": "verify the development cost", "explain": "defence spending rose sharply after 1962, the Department of Defence Production and Defence Supplies were created in 1962 and 1965, and planning slipped into annual plans before the Fourth Plan of 1969"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps204_1",
+   "source_ref": "leps204.txt Nehru letter to K.P.S. Menon, January 1947",
+   "concept": "leps.204.2.1",
+   "question_type": "conceptual",
+   "question_pattern": "Nehru writes that India must be friendly to both the Russian and the Anglo-American blocs yet join neither, and that suspicion from each side cannot be helped. Which policy does this define and what difficulty did it create?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "name the policy", "explain": "avoiding entanglement in the power politics of either bloc is the policy of non-alignment"},
+    {"step": 2, "action": "state the difficulty", "explain": "each superpower suspected India of leaning toward the other, so the path of independent stances was inherently hard"},
+    {"step": 3, "action": "give the evidence it worked", "explain": "by and large India took independent positions and still received aid from members of both blocs"}
+   ]
+  },
+  {
+   "id": "we_leps204_2",
+   "source_ref": "leps204.txt Bangladesh war, 1971",
+   "concept": "leps.204.5.1",
+   "question_type": "conceptual",
+   "question_pattern": "A neighbour's election produces a split verdict, its army arrests the winning leader, and 80 lakh refugees pour across your border. What course did India follow in 1971?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "identify the crisis", "explain": "Pakistan's 1970 election gave the Awami League of Sheikh Mujib-ur Rahman its East Pakistan mandate, which the West Pakistani rulers refused to accept, arresting Mujib and unleashing terror"},
+    {"step": 2, "action": "state India's responses", "explain": "India bore the refugee burden, gave moral and material support to the Bangladesh liberation struggle, and signed the 20-year Treaty of Peace and Friendship with the USSR to counter the US-Pakistan-China axis"},
+    {"step": 3, "action": "state the result", "explain": "the December 1971 war ended with about 90,000 Pakistani troops surrendering at Dhaka, Bangladesh's independence, and a unilateral Indian ceasefire later formalised by the Shimla Agreement"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps204.txt EXERCISES Q1-Q2",
+   "questions": [
+    "did non alignment allow india to gain assistance from both the usa and the ussr",
+    "was india's relationship with its neighbours strained from the beginning",
+    "did the cold war affect relations between india and pakistan",
+    "was the treaty of peace and friendship of 1971 the result of india's closeness to the usa",
+    "match panchsheel, the bandung conference and the dalai lama with their descriptions"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps204.txt EXERCISES Q3-Q10",
+   "questions": [
+    "why did nehru regard the conduct of foreign relations as an essential indicator of independence",
+    "show with a 1960s example that foreign affairs result from domestic compulsions and the international climate",
+    "write short notes on india's nuclear policy and consensus in foreign policy",
+    "did three wars in ten years mean the failure of india's foreign policy built on peace",
+    "does the indo soviet friendship treaty violate the principle of non alignment, argue",
+    "how does political leadership affect a nation's foreign policy"
+   ]
+  }
+ ]
+}

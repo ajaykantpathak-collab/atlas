@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_004",
+   "title": "c11_eco_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three major land revenue systems introduced by the British in India and the region where each was primarily implemented.",
+     "a": "The three systems are: (1) Zamindari System — Bengal Presidency (Bengal, Bihar, Orissa, parts of UP); (2) Ryotwari System — Madras Presidency, Bombay Presidency, Assam, and parts of Central Provinces; (3) Mahalwari System — North-Western Provinces, Punjab, parts of Central India. A wrong answer (e.g., confusing Ryotwari with Mahalwari regions) reveals the student has not memorized the basic geographic mapping, which is essential for analyzing regional variations in agrarian distress.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Zamindari system led to \"absentee landlordism\" and how the revenue settlement terms forced zamindars to prioritize revenue collection over agricultural improvement.",
+     "a": "Under the Permanent Settlement (1793), the zamindar was recognised as the proprietor of land and required to pay a fixed revenue to the British government on a specific date; failure meant auction of the zamindari. This created a powerful incentive for zamindars to extract maximum rent from cultivators (often through intermediaries) while investing nothing in land improvement, because any productivity gain would not reduce their fixed revenue obligation. The zamindar often lived in cities (absentee landlordism), leaving collection to agents. A wrong answer that claims zamindars improved agriculture because they owned the land shows a misunderstanding of the fixed revenue incentive structure.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot in the Madras Presidency holds 5 hectares of land. The revenue demand is fixed at 50% of the estimated gross produce value. In a normal year, the gross produce value is ₹40,000 per hectare. In a drought year, yield falls by 40% but the revenue demand remains unchanged. Calculate the ryot's net income (gross produce value minus revenue) in both years and explain the economic vulnerability this reveals.",
+     "a": "Normal year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000. Drought year: Gross value = ₹2,00,000 × 0.6 = ₹1,20,000. Revenue unchanged = ₹1,00,000. Net income = ₹20,000. The ryot's net income falls by 80% while revenue burden stays fixed, showing how the Ryotwari system transferred all production risk to the cultivator. A wrong calculation (e.g., reducing revenue proportionally) indicates the student misses the critical feature of rigid, non-flexible revenue demand in Ryotwari settlements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mahalwari system with the Zamindari system on the basis of (a) unit of revenue settlement, (b) ownership rights, and (c) incentive for collective action among cultivators.",
+     "a": "(a) Zamindari: settlement with individual zamindar (landlord); Mahalwari: settlement with village community (mahal) represented by headman/lambardar. (b) Zamindari: zamindar recognised as proprietor; Mahalwari: cultivators recognised as co-proprietors of village land, with joint liability. (c) Mahalwari created a stronger incentive for collective action (e.g., maintaining irrigation, preventing default) because the entire village was jointly liable for revenue; Zamindari had no such collective mechanism — each cultivator dealt individually with the zamindar's agent. A wrong answer that says Mahalwari gave individual ownership to each cultivator confuses it with Ryotwari and misses the communal liability feature.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Ryotwari system was more beneficial to the cultivator than the Zamindari system because it eliminated the intermediary zamindar.\" Provide two arguments for and two against.",
+     "a": "For: (1) Direct settlement with state removed the exploitative zamindar layer; (2) Cultivator recognised as proprietor, giving stronger tenure security. Against: (1) Revenue demand was often higher (up to 50-60% of gross produce) and periodically revised upward, unlike the fixed Permanent Settlement; (2) No protection against crop failure — revenue had to be paid even in famine, leading to widespread indebtedness and land alienation. A one-sided answer shows the student cannot weigh trade-offs between intermediary exploitation and state extraction intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative table (mental or written) that a British revenue official in 1850 might have used to decide which system to extend to a newly annexed territory (e.g., Punjab). Include columns for: System, Revenue Certainty for State, Administrative Cost, Peasant Incentive to Improve Land, and Political Risk of Revolt. Fill in with qualitative assessments (High/Medium/Low) and justify each rating in one sentence.",
+     "a": "Example table:\n- Zamindari: Revenue Certainty = High (fixed forever), Admin Cost = Low (few intermediaries), Peasant Incentive = Low (no ownership), Political Risk = Medium (zamindars loyal but peasants restless).\n- Ryotwari: Revenue Certainty = Medium (periodic revision), Admin Cost = High (direct measurement of each field), Peasant Incentive = Medium (proprietorship but high demand), Political Risk = High (direct state-peasant friction).\n- Mahalwari: Revenue Certainty = Medium (revision every 20-30 years), Admin Cost = Medium (village-level negotiation), Peasant Incentive = Medium-High (joint proprietorship), Political Risk = Low (village solidarity co-opted).\nA poor answer with unsupported ratings reveals the student cannot adopt the colonial administrator's perspective to understand why different systems were chosen for different regions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

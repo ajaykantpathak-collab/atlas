@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_007",
+   "title": "c11_ps_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the exact constitutional provision that guarantees freedom of speech and expression in India, and the clause that permits reasonable restrictions.",
+     "a": "Article 19(1)(a) guarantees the right to freedom of speech and expression. Article 19(2) permits the State to impose reasonable restrictions on this right in the interests of sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, or incitement to an offence. A wrong answer (e.g., citing Article 21 or Article 19(1)(g)) reveals the student has not memorized the specific article-clause mapping for this fundamental right, which is essential for any board-exam answer on free speech.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why J.S. Mill argues that even a completely false opinion should not be suppressed. Use the phrase \"dead dogma\" in your explanation.",
+     "a": "Mill argues that if a true opinion is never contested, it risks becoming a \"dead dogma\" — held mechanically without understanding its rational grounds. The collision with error keeps the truth alive and meaningful. Even a false opinion may contain a fragment of overlooked truth. Suppressing it assumes infallibility of the censor. A wrong answer that says \"false ideas have no value\" or \"society should only allow truth\" reveals a fundamental misunderstanding of Mill's epistemological humility and the dynamic, process-oriented nature of his defense of free discussion.",
+     "self_check": true
+    },
+    {
+     "q": "A state government bans a documentary film on the grounds that it \"portrays the state's police force in a negative light and may lower public morale.\" Applying Article 19(2), identify which ground(s) the government might cite, and explain why this restriction would likely fail the \"reasonable restriction\" test.",
+     "a": "The government might cite \"public order\" or \"security of the State\" under Article 19(2). However, mere criticism of police conduct — without incitement to violence or threat to public order — does not meet the threshold of a reasonable restriction. The Supreme Court has held that criticism of government agencies is not a ground for restriction unless it incites imminent lawless action. A wrong answer that accepts \"lowering morale\" as a valid ground reveals the student conflates *government embarrassment* with *public order*, ignoring the requirement that restrictions must be narrowly tailored to a legitimate aim and not merely protect officials from accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mill's \"harm principle\" (only other-regarding actions causing serious harm justify interference) with the eight grounds in Article 19(2). Identify two grounds in Article 19(2) that go beyond Mill's principle and explain why the Indian Constitution includes them.",
+     "a": "\"Decency or morality\" and \"contempt of court\" are grounds that restrict speech based on social norms or institutional dignity rather than direct, serious harm to specific individuals. The Indian Constitution includes them because the framers recognized that a newly independent, diverse society required protection for communal harmony and institutional legitimacy — concerns Mill's individualistic framework did not prioritize. A wrong answer that claims \"all Article 19(2) grounds fit Mill's principle\" reveals the student has not analyzed the distinction between *harm to others* (Mill) and *social cohesion/institutional protection* (Constitution), a key comparative point in political theory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"A law that requires all news channels to allocate equal airtime to government and opposition views is a reasonable restriction on media freedom under Article 19(2) because it ensures fairness.\" Provide a reasoned judgment.",
+     "a": "This is *not* a reasonable restriction. Article 19(2) does not include \"fairness\" or \"balance\" as a ground. Compelling editorial content violates the media's freedom to determine its own content (a core aspect of Article 19(1)(a)) and constitutes state control over speech, not a reasonable restriction. The Supreme Court has struck down similar mandates (e.g., in the *News Broadcasters Association* case). A wrong answer that supports the law reveals the student confuses *positive liberty* (state enabling fair discourse) with *negative liberty* (freedom from state interference in editorial choices), and fails to see that the restriction lacks a legitimate Article 19(2) ground.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a three-point \"Student Expression Charter\" for your school that defines (a) protected student speech, (b) speech that can be reasonably restricted, and (c) the procedure before any restriction is imposed. Base it on Article 19(1)(a)/19(2) and Mill's harm principle.",
+     "a": "A good charter would: (a) Protect political views, artistic expression, criticism of school policies, and identity-based expression unless they meet (b); (b) Allow restrictions only for speech that incites violence, constitutes targeted harassment, plagiarism, or obscenity (narrowly defined) — each mapped to an Article 19(2) ground; (c) Require written notice, a hearing with student representation, and appeal to an independent committee before any penalty. A poor charter that bans \"offensive,\" \"disrespectful,\" or \"controversial\" speech without precise definitions reveals the student has not internalized the *vagueness doctrine* and the requirement that restrictions be \"reasonable\" (clear, proportionate, and grounded in law).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

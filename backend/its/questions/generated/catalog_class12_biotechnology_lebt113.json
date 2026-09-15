@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt113",
+ "concepts": [
+  {
+   "id": "lebt113.1",
+   "title": "Entrepreneur Roles and Qualities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Entrepreneur Roles and Qualities' refers to.",
+     "a": "From the French enterprendre, to undertake, the entrepreneur plays three parts at once - innovator bringing new products, organiser assembling the factors of production, and risk bearer shouldering every uncertainty - and does so with initiative, industry knowledge, calculated risk-taking, adaptability, self-confidence and a wealth-creating drive that turns ideas into employment and capital.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Entrepreneur Roles and Qualities'.",
+     "a": "Innovate, organise, and carry the risk - backed by initiative, adaptability and self-belief, these are the entrepreneur's job description.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Entrepreneur Roles and Qualities' taught, and from which source text?",
+     "a": "13.1 (source: lebt113.txt sections 13.1-13.1.3, Boxes 1-2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.2",
+   "title": "Startup Recognition Eligibility Criteria",
+   "questions": [
+    {
+     "q": "Using the method 'Startup Recognition Eligibility Criteria', work with: check_year = 50, incorporation_year = 50. Carry the chain through step by step and give the final value of years_left.",
+     "a": "10 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Startup Recognition Eligibility Criteria' and work with: check_year = 25, incorporation_year = 500. Carry the chain through step by step and give the final value of years_left.",
+     "a": "485 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Startup Recognition Eligibility Criteria' refers to.",
+     "a": "Startup India recognises a venture only while it is young and small: incorporated as a private limited company, partnership or LLP, turnover below one hundred crore rupees in any previous financial year, and no older than ten years from incorporation, working on innovation or improvement rather than being a split-off of an old business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Startup Recognition Eligibility Criteria'.",
+     "a": "Subtract the incorporation year from the check year - past ten years or past a hundred crore turnover, the startup tag lapses.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Startup Recognition Eligibility Criteria', in plain ASCII form.",
+     "a": "startup_age = check_year - incorporation_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.3",
+   "title": "Sources of Funds for New Ventures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of Funds for New Ventures' refers to.",
+     "a": "A new venture can be fuelled six ways: the entrepreneur's own personal investment that proves commitment, venture capital chasing high-growth technology plays for equity, angel investors - wealthy field leaders - backing early stages with money and mentorship, business incubators or accelerators that host startups for about two years, government grants and subsidies, and bank loans that demand a solid business plan plus personal guarantee.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of Funds for New Ventures'.",
+     "a": "Seed money follows conviction - personal funds first, angels and incubators early, venture capital and banks once the plan is proven.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sources of Funds for New Ventures' taught, and from which source text?",
+     "a": "13.2 Box 3 (source: lebt113.txt section 13.2 Box 3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.4",
+   "title": "Biotech versus General Entrepreneur",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biotech versus General Entrepreneur' refers to.",
+     "a": "Bio-entrepreneurship weds science to commerce, and the union is demanding: long gestation periods, high capital needs, inherent scientific uncertainty layered on business risk, very high academic qualification and a heavy regulatory framework - the points where a biotech entrepreneur parts ways with the general entrepreneur who shares only competitiveness, teamwork and perseverance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biotech versus General Entrepreneur'.",
+     "a": "Same grit as any founder, plus a laboratory's timeline, budget, regulators and degrees - that is the biotech premium.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biotech versus General Entrepreneur' taught, and from which source text?",
+     "a": "13.3 (source: lebt113.txt sections 13.3-13.3.2, Table 13.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.5",
+   "title": "Bharat Biotech Case Study",
+   "questions": [
+    {
+     "q": "Using the method 'Bharat Biotech Case Study', work with: countries = 4, founding_year = 50, product_year = 25, total_doses = 25. Carry the chain through step by step and give the final value of doses_per_country.",
+     "a": "6.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bharat Biotech Case Study' and work with: countries = 240, founding_year = 2600, product_year = 10, total_doses = 15. Carry the chain through step by step and give the final value of doses_per_country.",
+     "a": "0.0625 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bharat Biotech Case Study' refers to.",
+     "a": "Dr Krishna Ella's Bharat Biotech, seeded in Hyderabad in 1997 with angel funds, has shipped over four billion vaccine doses to more than a hundred and twenty developing countries, and its seventeenth vaccine - the inactivated whole-virus COVAXIN - went from bench to India's first indigenous COVID-19 shot in a record eight months, winning WHO emergency use listing since December 2020.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bharat Biotech Case Study'.",
+     "a": "Subtract the founding year from the product year to time a company's journey; divide total doses by countries to gauge its reach.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bharat Biotech Case Study', in plain ASCII form.",
+     "a": "years_to_product = product_year - founding_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.6",
+   "title": "IPR and Patent Criteria in Biotechnology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'IPR and Patent Criteria in Biotechnology' refers to.",
+     "a": "Intellectual property rights guard biotech innovation under the TRIPS framework: Indian patents rest on the Patents Act 1970, whose Section 5 was deleted by the 2005 amendment to admit product patents in biotechnology, chemicals and pharmaceuticals, and a grant demands novelty, an inventive step that is non-obvious, and utility - never landing in Section 3's negative list or offending public order, with discoveries left unpatentable while inventions qualify.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'IPR and Patent Criteria in Biotechnology'.",
+     "a": "Novel, non-obvious, useful - and an invention, not a discovery - is the four-point test every biotech patent must pass.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'IPR and Patent Criteria in Biotechnology' taught, and from which source text?",
+     "a": "13.4 (source: lebt113.txt sections 13.4-13.4.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.7",
+   "title": "Plant Breeder Rights Protection Years",
+   "questions": [
+    {
+     "q": "Using the method 'Plant Breeder Rights Protection Years', work with: granted_years = 1500, max_years = 10, min_years = 150, years_elapsed = 100. Carry the chain through step by step and give the final value of years_remaining.",
+     "a": "1400 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Plant Breeder Rights Protection Years' and work with: granted_years = 200, max_years = 2600, min_years = 10, years_elapsed = 150. Carry the chain through step by step and give the final value of years_remaining.",
+     "a": "50 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Plant Breeder Rights Protection Years' refers to.",
+     "a": "Plant breeder's rights hand a new variety's exclusive commercial market for roughly twenty to twenty-five years - provided the variety is novel, distinct, uniform and stable - blocking unauthorised growing or selling of the variety or its reproductive material while sparing research use and the farmer's saved seed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plant Breeder Rights Protection Years'.",
+     "a": "Average the protection window's ends for a typical term, then subtract elapsed years to see what remains.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plant Breeder Rights Protection Years', in plain ASCII form.",
+     "a": "mid_years = (min_years + max_years) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt113.8",
+   "title": "Biopiracy Cases and Traditional Knowledge",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biopiracy Cases and Traditional Knowledge' refers to.",
+     "a": "Biopiracy is the commercial grab of naturally occurring biochemicals or genetic material riding on indigenous knowledge - the neem pesticide patent W R Grace and the USDA took in the 1990s until the EPO revoked it in 2000, the 1995 University of Mississippi turmeric wound-healing patent the CSIR toppled in 1997, and RiceTec's 1997 Basmati claims partly struck down - with India's Traditional Knowledge Digital Library now standing guard at international patent offices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biopiracy Cases and Traditional Knowledge'.",
+     "a": "Old knowledge cannot be a new invention - documented traditional use, TKDL and geographical indications are the shields.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biopiracy Cases and Traditional Knowledge' taught, and from which source text?",
+     "a": "13.5 (source: lebt113.txt section 13.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

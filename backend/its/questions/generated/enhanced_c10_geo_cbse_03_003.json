@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_003",
+   "title": "c10_geo_cbse_03_003",
+   "questions": [
+    {
+     "q": "Name two social problems and two environmental problems caused by the construction of large dams in India.",
+     "a": "Social problems: (1) Displacement of local communities (tribal and rural populations) leading to loss of homes and cultural heritage; (2) Inadequate rehabilitation and compensation, resulting in loss of livelihoods and impoverishment. Environmental problems: (1) Submergence of forests and biodiversity habitats; (2) Disruption of river ecosystems — blocking fish migration, reducing sediment flow to deltas, causing waterlogging and salinity in command areas. A wrong answer that only lists \"pollution\" or \"cost overruns\" reveals the student confuses general project issues with specific socio-environmental impacts of dams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why large dams often lead to waterlogging and salinity in the surrounding agricultural lands, using the concept of raised water table and capillary action.",
+     "a": "When a large dam stores water, it raises the groundwater table in adjacent areas through seepage. In irrigated command areas, excessive irrigation without proper drainage causes the water table to rise further. When the water table reaches within 2-3 meters of the surface, capillary action draws saline groundwater upward; evaporation leaves salts on the soil surface, making it saline and unproductive. A wrong answer that blames \"too much rain\" or \"poor soil quality\" shows the student does not understand the hydrological link between dam storage, irrigation practices, and capillary rise.",
+     "self_check": true
+    },
+    {
+     "q": "The Tehri Dam on the Bhagirathi River submerged the old Tehri town and 100+ villages. If the reservoir capacity is 2.6 km³ and the average annual sediment inflow is 5 million tonnes, calculate the approximate number of years before the reservoir loses 10% of its capacity, assuming sediment density of 1.5 t/m³ and no sediment management. Show steps.",
+     "a": "Step 1: Convert reservoir capacity to m³: 2.6 km³ = 2.6 × 10⁹ m³. Step 2: 10% loss = 0.26 × 10⁹ m³ = 2.6 × 10⁸ m³. Step 3: Annual sediment volume = mass/density = 5 × 10⁶ tonnes / 1.5 t/m³ = 3.33 × 10⁶ m³/year. Step 4: Years to lose 10% = (2.6 × 10⁸ m³) / (3.33 × 10⁶ m³/year) ≈ 78 years. Step 5: Interpretation — sedimentation reduces live storage, affecting irrigation and power; this is an environmental problem of dams. A wrong answer that forgets to convert km³ to m³ or uses wrong density reveals weak unit conversion and inability to apply sediment dynamics to dam longevity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social impacts of the Sardar Sarovar Dam (Narmada) and the Hirakud Dam (Mahanadi) on displaced communities. Why did the Narmada Bachao Andolan gain more national attention than protests against Hirakud?",
+     "a": "Both dams displaced thousands (Sardar Sarovar: ~250,000; Hirakud: ~150,000) and caused loss of forest land and livelihoods. However, Narmada Bachao Andolan gained more attention because: (1) It involved tribal communities with distinct cultural rights; (2) Legal battles reached the Supreme Court on rehabilitation policy; (3) It became a symbol of the larger debate on development vs. human rights in post-liberalization India. Hirakud protests (1950s) occurred when environmental awareness and media reach were limited. A wrong answer that says \"Hirakud was smaller\" or \"Narmada had more water\" shows inability to analyze historical, political, and media factors shaping social movements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Large dams are essential for India's water security, so their social and environmental costs are justified.\" Provide a balanced geographical judgment with two arguments for and two against.",
+     "a": "For: (1) Dams provide assured irrigation to drought-prone areas (e.g., Indira Gandhi Canal from Bhakra Dam), boosting food security. (2) Hydropower is a low-carbon energy source, reducing fossil fuel dependence. Against: (1) Displacement disproportionately affects marginalized tribes and poor farmers who rarely receive fair rehabilitation, violating equity. (2) Environmental costs — loss of forests, fisheries, delta erosion (e.g., Krishna-Godavari delta) — undermine long-term ecological security. Judgment: While dams contribute to water security, the \"costs are justified\" only if rigorous social impact assessment, fair rehabilitation, and environmental flow releases are legally enforced — which often fails in practice. A wrong answer that takes an extreme \"all good\" or \"all bad\" stance without nuance reveals inability to evaluate trade-offs geographically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rehabilitation plan for a village of 500 families displaced by a new dam project. Your plan must address: (a) land-for-land compensation, (b) livelihood restoration, (c) cultural preservation, and (d) participation in decision-making. List four concrete actions.",
+     "a": "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence. (b) Provide skill training (e.g., fisheries in reservoir, agro-processing) and credit access for non-farm livelihoods. (c) Relocate community temples, graveyards, and common property resources together; support cultural festivals. (d) Form a village rehabilitation committee with elected representatives to negotiate with project authorities and monitor implementation. A poor answer that only offers cash compensation or ignores cultural aspects shows the student views rehabilitation as a financial transaction, not a socio-geographical process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_001",
+   "title": "c12_biotech_cbse_11_001",
+   "questions": [
+    {
+     "q": "Name the two principal gene transfer methods used for creating transgenic plants and state the biological basis of each method in one sentence.",
+     "a": "Correct answer: (1) *Agrobacterium tumefaciens*-mediated transformation — utilizes the natural ability of this soil bacterium to transfer a defined segment (T-DNA) of its Ti plasmid into the plant genome at wound sites. (2) Biolistics/gene gun — uses high-velocity microprojectiles (gold/tungsten) coated with DNA to physically penetrate the cell wall and deliver DNA into the nucleus. A wrong answer (e.g., \"electroporation and microinjection\") reveals the student confuses plant transformation with animal cell transfection methods and does not know the two standard plant-specific methods taught in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why *Agrobacterium*-mediated transformation is generally preferred for dicotyledonous plants while biolistics is often the method of choice for monocots like rice and wheat.",
+     "a": "Correct answer: *Agrobacterium* naturally infects dicots at wound sites via phenolic compounds (acetosyringone) that induce *vir* gene expression; monocots are poor hosts because they lack efficient wound response/acetosyringone production and *Agrobacterium* attachment is limited. Biolistics bypasses biological host-range limitations by physically delivering DNA, making it genotype-independent. A wrong answer (e.g., \"because monocots have thicker cell walls\") reveals a surface-level misconception — the real barrier is biological compatibility (vir gene induction, T-DNA integration machinery), not just physical wall thickness.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to transform soybean (a dicot) with a herbicide-resistance gene. She constructs a binary vector with the gene under a constitutive promoter, a selectable marker, and left/right T-DNA borders. After co-cultivation with *Agrobacterium*, she plates explants on selection medium. Only 2% of explants produce resistant calli. List three specific modifications she could make to the protocol to improve transformation efficiency, justifying each with the underlying biology.",
+     "a": "Correct answer (any three with justification): (1) Add acetosyringone (100–200 µM) to co-cultivation medium — induces *vir* gene expression, enhancing T-DNA processing/transfer. (2) Use a hypervirulent *Agrobacterium* strain (e.g., EHA105, AGL1) — carries additional *vir* genes or mutated *virG* for higher T-DNA transfer rates. (3) Optimize explant type/age (e.g., use cotyledonary nodes from 5–7 day seedlings) — meristematic tissues are more competent for T-DNA integration and regeneration. (4) Include a surfactant (e.g., Silwet L-77) during inoculation — improves bacterial attachment to plant tissue. (5) Extend co-cultivation to 2–3 days with periodic vacuum infiltration — increases T-DNA delivery window. A wrong answer listing generic \"increase temperature\" or \"use more DNA\" without biological justification shows lack of mechanistic understanding of the *Agrobacterium*-plant interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical transgene integration patterns (copy number, arrangement, integrity) resulting from *Agrobacterium*-mediated transformation versus biolistics. How do these patterns affect transgene expression stability and regulatory approval?",
+     "a": "Correct answer: *Agrobacterium* typically yields low-copy (1–3), intact T-DNA inserts with defined borders, often at a single locus — leading to stable Mendelian inheritance, predictable expression, and simpler regulatory dossiers. Biolistics frequently produces high-copy (5–50+), fragmented, rearranged inserts with vector backbone sequences, often at multiple loci — causing transgene silencing (via homology-dependent methylation), segregation instability, and complex regulatory scrutiny. A wrong answer stating \"both give single-copy inserts\" or \"biolistics gives cleaner inserts\" reveals a critical misconception about the physical shearing of DNA during particle bombardment and the precision of T-DNA border-defined transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"For commercial transgenic crop development, *Agrobacterium* transformation should always be used because it gives single-copy inserts and avoids transgene silencing.\" Provide a balanced evaluation with at least two counterarguments.",
+     "a": "Correct evaluation: The statement is an oversimplification. Counterargument 1: Many elite monocot varieties (e.g., wheat, maize) remain recalcitrant to *Agrobacterium* despite *vir* gene modifications and acetosyringone optimization — biolistics (or newer methods like *Agrobacterium*-mediated transformation of embryogenic callus with morphology regulators) may be the only viable route. Counterargument 2: *Agrobacterium* can still produce multi-copy inserts, partial T-DNA transfers, or vector backbone integration; moreover, single-copy inserts can silence if inserted near heterochromatin. Counterargument 3: Biolistics has generated commercially approved events (e.g., MON810 maize, RR soybean early events) — regulatory approval depends on molecular characterization data, not method per se. A wrong answer that simply agrees without nuance shows inability to evaluate trade-offs between biological constraints, technical feasibility, and regulatory reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal binary vector map (describe components in order) for *Agrobacterium*-mediated transformation of tomato with a fruit-specific promoter driving a polygalacturonase-inhibiting gene for extended shelf life. Include all essential elements for selection in planta and bacterial propagation.",
+     "a": "Expected answer (components in order on T-DNA): Left Border (LB) — Fruit-specific promoter (e.g., E8 or 2A11) — Polygalacturonase-inhibiting gene (coding sequence) — Terminator (e.g., NOS terminator) — Plant selectable marker cassette (e.g., 35S promoter::nptII::NOS terminator for kanamycin resistance) — Right Border (RB). Outside T-DNA on vector backbone: *oriV* (broad-host-range replication origin for *Agrobacterium*), *oriT* (conjugative transfer origin), bacterial selectable marker (e.g., spectinomycin/streptomycin resistance), *rop* (repressor of primer for copy number control). A poor answer omits LB/RB borders, uses a constitutive promoter for a fruit-specific trait, forgets bacterial selection/origin, or places the selectable marker outside T-DNA — revealing gaps in vector architecture understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

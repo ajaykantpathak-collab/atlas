@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_004",
+   "title": "c11_math_cbse_13_004",
+   "questions": [
+    {
+     "q": "What is \\(\\lim_{x \\to 3} (2x^2 - 5x + 7)\\)?",
+     "a": "The limit is \\(2(3)^2 - 5(3) + 7 = 18 - 15 + 7 = 10\\). A wrong answer (e.g., 22 or 4) reveals the student either misapplied the power (computing \\(2 \\times 3^2\\) as 36 instead of 18) or forgot to substitute \\(x = 3\\) into every term, indicating they don't fully grasp that polynomial limits equal the function value at that point.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we evaluate \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\) by cancelling \\((x-2)\\) even though the original function is undefined at \\(x = 2\\)?",
+     "a": "The limit depends on values of \\(x\\) *near* 2, not *at* 2. For all \\(x \\neq 2\\), \\(\\frac{x^2 - 4}{x - 2} = \\frac{(x-2)(x+2)}{x-2} = x+2\\). Since the simplified expression \\(x+2\\) is continuous at \\(x=2\\), the limit equals \\(2+2=4\\). A wrong answer (e.g., \"the limit doesn't exist because division by zero\") reveals the student confuses the function's value at a point with its limit, not understanding that limits ignore the point itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\lim_{x \\to -1} \\frac{x^3 + 1}{x + 1}\\).",
+     "a": "Direct substitution gives \\(\\frac{0}{0}\\). Factorise numerator using sum of cubes: \\(x^3 + 1 = (x+1)(x^2 - x + 1)\\). Cancel \\((x+1)\\): limit \\(= \\lim_{x \\to -1} (x^2 - x + 1) = (-1)^2 - (-1) + 1 = 1 + 1 + 1 = 3\\). A wrong answer (e.g., 1 or \"does not exist\") reveals the student either cannot factorise \\(x^3 + 1\\) correctly or fails to recognise the 0/0 form as a signal to factorise.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the methods for evaluating \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}\\) and \\(\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 3}\\). What fundamental difference determines the approach?",
+     "a": "For the first, direct substitution gives 0/0 (indeterminate), requiring factorisation and cancellation. For the second, direct substitution gives \\(\\frac{0}{-1} = 0\\) (determinate), so the limit is 0 immediately. The difference is whether the denominator vanishes at the limit point. A wrong answer (e.g., \"both need factorisation\") reveals the student applies factorisation mechanically without checking if the denominator is actually zero, showing lack of conceptual understanding of when 0/0 occurs.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\(\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}\\) as follows: \"Substitute \\(x = 3\\): \\(\\frac{9 - 9}{3 - 3} = \\frac{0}{0} = 0\\).\" Is this correct? Explain the error.",
+     "a": "Incorrect. \\(\\frac{0}{0}\\) is an **indeterminate form**, not equal to 0. It means the limit cannot be determined by direct substitution alone — further algebraic manipulation (factorisation) is needed. The correct limit is \\(\\lim_{x \\to 3} (x+3) = 6\\). This error reveals the student treats 0/0 as a numerical value rather than a signal that the expression needs simplification, a critical misconception about indeterminate forms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a rational function \\(f(x) = \\frac{p(x)}{q(x)}\\) where \\(p(x)\\) and \\(q(x)\\) are polynomials of degree 2, such that \\(\\lim_{x \\to 2} f(x) = 5\\) but \\(f(2)\\) is undefined.",
+     "a": "Example: \\(f(x) = \\frac{(x-2)(x+3)}{x-2} = \\frac{x^2 + x - 6}{x - 2}\\). For \\(x \\neq 2\\), \\(f(x) = x+3\\), so \\(\\lim_{x \\to 2} f(x) = 5\\), but \\(f(2)\\) is undefined (division by zero). A poor answer (e.g., \\(\\frac{x^2 - 4}{x - 2}\\) giving limit 4) reveals the student cannot reverse-engineer the limit value to construct the numerator, showing they don't fully grasp the relationship between the cancelled factor and the resulting limit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

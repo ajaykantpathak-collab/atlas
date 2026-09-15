@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_004",
+   "title": "c12_cs_cbse_07_004",
+   "questions": [
+    {
+     "q": "How many rows will a truth table have for a Boolean expression with 4 distinct variables, and what is the standard order for listing the input combinations?",
+     "a": "A 4-variable truth table has 2⁴ = 16 rows. The standard order lists input combinations as binary numbers from 0000 to 1111 (i.e., counting up in binary with the leftmost variable as the most significant bit). A wrong answer (e.g., \"8 rows\" or \"alphabetical order\") reveals the student does not grasp the exponential growth of combinations or the conventional binary ordering that prevents omissions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the truth table for A AND (B OR C) but evaluates (A AND B) OR C instead. For the input row A=1, B=0, C=1, what output does the student get, and what is the correct output? Explain why the error occurs.",
+     "a": "Student's wrong evaluation: (1 AND 0) OR 1 = 0 OR 1 = 1. Correct evaluation: 1 AND (0 OR 1) = 1 AND 1 = 1. For this specific row both give 1, so the error is **masked** — a dangerous trap. The error occurs because the student ignores Boolean operator precedence (NOT > AND > OR) and evaluates left-to-right like arithmetic. A wrong answer here reveals the student thinks Boolean operations follow simple left-to-right evaluation without precedence rules.",
+     "self_check": true
+    },
+    {
+     "q": "Construct the truth table for the expression: (A AND B) OR (NOT C). Show all 8 rows with inputs in standard binary order (A as MSB, C as LSB). Provide the output column only.",
+     "a": "Output column (top to bottom for rows 000 to 111): 1, 0, 1, 0, 1, 0, 1, 1.  \nStep-by-step:  \nRow 000: (0∧0)∨(¬0)=0∨1=1  \nRow 001: (0∧0)∨(¬1)=0∨0=0  \nRow 010: (0∧1)∨(¬0)=0∨1=1  \nRow 011: (0∧1)∨(¬1)=0∨0=0  \nRow 100: (1∧0)∨(¬0)=0∨1=1  \nRow 101: (1∧0)∨(¬1)=0∨0=0  \nRow 110: (1∧1)∨(¬0)=1∨1=1  \nRow 111: (1∧1)∨(¬1)=1∨0=1  \nA wrong answer (e.g., missing row, wrong order, or incorrect NOT/AND/OR evaluation) reveals gaps in systematic enumeration or operator mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Two students debate: \"The truth table for A XOR B is the same as (A AND NOT B) OR (NOT A AND B).\" Another says: \"No, it's the same as (A OR B) AND NOT (A AND B).\" Are both correct? Prove your answer using a truth table.",
+     "a": "Yes, both are correct — they are equivalent expressions for XOR. Truth table for A,B (00,01,10,11):  \nExpr1: (A∧¬B)∨(¬A∧B) → 0,1,1,0  \nExpr2: (A∨B)∧¬(A∧B) → 0,1,1,0  \nBoth match XOR (0,1,1,0). A wrong answer (\"only first is correct\" or \"neither\") reveals the student cannot verify equivalence by exhaustive enumeration — a core skill for Boolean simplification later.",
+     "self_check": true
+    },
+    {
+     "q": "A CBSE board question asks: \"Write the truth table for the Boolean expression: (A + B') . (A' + C)\". A student writes 4 rows instead of 8. The teacher deducts full marks. Justify the teacher's decision using the definition of a truth table.",
+     "a": "A truth table **must** enumerate all 2ⁿ combinations for n variables. Here n=3 (A,B,C) → 8 rows are mandatory. Writing 4 rows means the student either treated it as a 2-variable problem (ignoring one variable) or only listed \"relevant\" rows. Both violate the definition of a truth table as an **exhaustive** mapping. The teacher is correct: incomplete enumeration = incomplete answer = 0 marks in board marking scheme. A wrong justification (\"partial credit should be given\") reveals misunderstanding of the non-negotiable exhaustiveness requirement in formal logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario with exactly 3 Boolean conditions (e.g., sensors, rules, eligibility criteria) where the final decision is TRUE only when **exactly two** of the three conditions are TRUE. Write the Boolean expression and its full truth table.",
+     "a": "Scenario: A university scholarship requires **exactly two** of three criteria: (A) CGPA ≥ 8.5, (B) Family income < ₹5 lakh, (C) First-generation learner.  \nExpression: (A∧B∧¬C) ∨ (A∧¬B∧C) ∨ (¬A∧B∧C)  \nTruth table (A,B,C order): 000→0, 001→0, 010→0, 011→1, 100→0, 101→1, 110→1, 111→0.  \nA poor answer (wrong expression, missing rows, or incorrect outputs) reveals inability to translate \"exactly two\" into minterms or to systematically enumerate cases — a direct precursor to canonical forms (next node).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

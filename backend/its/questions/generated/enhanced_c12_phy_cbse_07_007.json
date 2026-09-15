@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_007",
+   "title": "c12_phy_cbse_07_007",
+   "questions": [
+    {
+     "q": "What is the SI unit of power factor, and what is its value for a purely resistive AC circuit?",
+     "a": "Power factor is dimensionless (no SI unit). For a purely resistive circuit, voltage and current are in phase (φ = 0), so power factor = cos 0° = 1. A wrong answer (e.g., stating unit as Watt or value as 0) reveals confusion between power factor and real power, or misunderstanding that resistive circuits have zero phase difference.",
+     "self_check": true
+    },
+    {
+     "q": "In a series LCR circuit, the voltage across the inductor is 120 V, across the capacitor is 80 V, and across the resistor is 60 V (all RMS). The source voltage is 100 V RMS. A student claims the power factor is 0.6 because V_R/V_source = 60/100 = 0.6. Is this reasoning correct? Explain why or why not.",
+     "a": "The reasoning is accidentally correct numerically but conceptually flawed. Power factor = cos φ = R/Z = V_R / V_source ONLY if V_R and V_source are in phase (which they are) AND the phasor sum of voltages gives V_source = √(V_R² + (V_L - V_C)²). Here V_L - V_C = 40 V, so V_source = √(60² + 40²) = √5200 ≈ 72.1 V, contradicting the given 100 V. The data is inconsistent. A student who just divides V_R/V_source without checking phasor consistency reveals a lack of understanding of phasor addition and the impedance triangle.",
+     "self_check": true
+    },
+    {
+     "q": "A series LCR circuit has R = 40 Ω, X_L = 70 Ω, X_C = 30 Ω, and is connected to a 230 V, 50 Hz RMS supply. Calculate: (a) the impedance Z, (b) the RMS current, (c) the power factor, and (d) the average power dissipated.",
+     "a": "(a) Z = √[R² + (X_L - X_C)²] = √[40² + (70-30)²] = √[1600 + 1600] = √3200 = 56.57 Ω.\n(b) I_rms = V_rms / Z = 230 / 56.57 = 4.066 A.\n(c) cos φ = R/Z = 40 / 56.57 = 0.707 (lagging, since X_L > X_C).\n(d) P_avg = V_rms I_rms cos φ = 230 × 4.066 × 0.707 = 661.5 W. Alternatively P = I_rms² R = (4.066)² × 40 = 661.5 W.\nA wrong answer often arises from using peak values instead of RMS, forgetting to square the reactance difference, or using V_rms²/Z for power (which gives apparent power, not real power).",
+     "self_check": true
+    },
+    {
+     "q": "Two circuits are connected to the same 220 V, 50 Hz RMS supply. Circuit A: pure resistance 50 Ω. Circuit B: resistance 30 Ω in series with inductive reactance 40 Ω. Compare the power factor, RMS current, and average power in both circuits. Which circuit draws more current from the supply for the same real power output? Explain the practical implication for transmission lines.",
+     "a": "Circuit A: Z = 50 Ω, cos φ = 1, I_rms = 220/50 = 4.4 A, P = 220×4.4×1 = 968 W.\nCircuit B: Z = √(30²+40²) = 50 Ω, cos φ = 30/50 = 0.6, I_rms = 220/50 = 4.4 A, P = 220×4.4×0.6 = 580.8 W.\nBoth draw the same RMS current (4.4 A) because |Z| is same, but Circuit B delivers less real power due to lower power factor. To deliver 968 W at cos φ = 0.6, Circuit B would need I_rms = P/(V cos φ) = 968/(220×0.6) = 7.33 A — much higher current causing greater I²R transmission losses. A student who says Circuit B draws less current because it has inductance reveals confusion between impedance magnitude and power factor.",
+     "self_check": true
+    },
+    {
+     "q": "A factory operates at 400 V RMS, 50 Hz with an inductive load drawing 100 A RMS at a power factor of 0.7 lagging. The management installs a capacitor bank in parallel to improve the power factor to 0.95 lagging. A student calculates the required capacitive reactance as X_C = V² / (P tan φ) and gets 12.5 Ω. Evaluate this calculation: identify the error and compute the correct X_C.",
+     "a": "The student's formula is for series compensation, but capacitors for power factor correction are connected in PARALLEL. Correct approach:\nOriginal: P = VI cos φ = 400×100×0.7 = 28 kW. Q_L = VI sin φ = 400×100×√(1-0.7²) = 400×100×0.714 = 28.56 kVAR.\nTarget: cos φ' = 0.95 → sin φ' = √(1-0.95²) = 0.312. Q_new = P tan φ' = 28 × (0.312/0.95) = 9.19 kVAR.\nRequired capacitive reactive power Q_C = Q_L - Q_new = 28.56 - 9.19 = 19.37 kVAR.\nFor parallel capacitor: Q_C = V² / X_C → X_C = V² / Q_C = (400)² / 19370 = 160000 / 19370 = 8.26 Ω.\nThe student's 12.5 Ω is wrong because they used series formula. This error reveals misunderstanding of parallel vs series compensation topology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a school physics lab (AC power supply, resistor, inductor, capacitor, multimeter, CRO) to demonstrate that a pure inductor draws current but dissipates zero average power. Describe the measurements, calculations, and how you would verify the wattless nature of the current.",
+     "a": "Connect a pure inductor (e.g., a coil with negligible resistance) to the AC supply. Use multimeter in AC mode to measure V_rms across inductor and I_rms through it. Use CRO to measure phase difference φ between V and I (should be 90°). Calculate apparent power S = V_rms I_rms. Calculate real power P = V_rms I_rms cos φ = S × cos 90° = 0. Verify by checking that the inductor does not heat up (no temperature rise) while a resistor of same current rating would. A poor answer would use DC measurements or assume multimeter measures real power directly (it measures apparent power in AC mode unless it's a true power meter).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

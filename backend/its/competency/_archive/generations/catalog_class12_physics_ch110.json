@@ -1,0 +1,494 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 110,
+ "chapter_title": "Wave Optics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\leph201.txt",
+ "concepts": [
+  {
+   "id": "jeph.10.1",
+   "title": "Huygens Principle",
+   "section": "10.2",
+   "definition": "Huygens principle states that each point on a given wavefront acts as a source of secondary wavelets that spread out in all directions with the speed of light in that medium. The new wavefront at any later time is the tangent (envelope) to all these secondary wavelets.",
+   "formula": "",
+   "key_idea": "A wavefront is the locus of all points in a wave that are in the same phase. Secondary wavelets from each point on the primary wavefront reconstruct the forward-propagating wavefront.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State Huygens principle and explain the construction of a new wavefront.",
+    "Draw the shape of wavefronts for a point source and a distant (plane) source.",
+    "Explain how Huygens principle accounts for propagation of light in a straight line.",
+    "Using Huygens construction, show how a plane wavefront passes through a slit.",
+    "Distinguish between spherical, cylindrical, and plane wavefronts."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given wavefront (spherical, cylindrical, or plane) and the medium.",
+     "explain": "The shape of the wavefront depends on the source: a point source gives spherical wavefronts, a line source gives cylindrical wavefronts, and a distant source gives plane wavefronts."
+    },
+    {
+     "step": 2,
+     "action": "Treat each point on the wavefront as a source of secondary wavelets travelling with speed c/n in the medium.",
+     "explain": "In time t, each secondary wavelet spreads to a radius r = (c/n)*t. The common tangent to all these wavelets gives the new wavefront."
+    },
+    {
+     "step": 3,
+     "action": "Construct the envelope of the secondary wavelets to obtain the new wavefront.",
+     "explain": "The forward envelope reconstructs the propagated wavefront, confirming rectilinear propagation and the laws of reflection/refraction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A point source of light emits light in vacuum. What is the shape of the wavefront at a small distance from the source?",
+     "solution": "A point source emits light uniformly in all directions. By Huygens principle, the locus of points in the same phase at any instant forms a sphere centered on the source.",
+     "answer": "The wavefront is spherical."
+    },
+    {
+     "question": "The sun is very far from the earth. What is the approximate shape of the wavefront of sunlight reaching the earth?",
+     "solution": "Since the sun is effectively at infinite distance, the spherical wavefronts originating from it become essentially planar by the time they reach the earth.",
+     "answer": "The wavefront is approximately plane."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State Huygens principle. Using it, draw the refracted wavefront when a plane wavefront is incident on a denser medium.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Distinguish between a wavefront and a ray of light. How are they related?",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.2",
+   "title": "Refraction and Reflection of Plane Waves using Huygens Principle",
+   "section": "10.3",
+   "definition": "Using Huygens construction, when a plane wavefront is incident on a refracting (or reflecting) surface, the secondary wavelets travel with different speeds in the two media, producing a refracted (or reflected) wavefront that obeys Snell's law (or the law of reflection).",
+   "formula": "n1 * sin(i) = n2 * sin(r)",
+   "key_idea": "The ratio of the sines of the angle of incidence and angle of refraction equals the ratio of wave velocities in the two media, which is the refractive index ratio, giving Snell's law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Derive Snell's law of refraction using Huygens principle.",
+    "Derive the law of reflection using Huygens principle.",
+    "Using Huygens construction, explain why light bends toward the normal when entering a denser medium.",
+    "A plane wavefront is incident at angle i on a surface separating two media of refractive indices n1 and n2; find the angle of refraction.",
+    "Show that Huygens principle reproduces the law of reflection (angle of incidence = angle of reflection)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the refractive indices n1, n2 and the angle of incidence i.",
+     "explain": "The incident plane wavefront makes angle i with the normal. Wave speeds are v1 = c/n1 and v2 = c/n2 in the two media."
+    },
+    {
+     "step": 2,
+     "action": "Apply Snell's law n1*sin(i) = n2*sin(r) to relate the angles.",
+     "explain": "Huygens construction yields sin(i)/sin(r) = v1/v2 = n2/n1, which is Snell's law.",
+     "compute": "sin(r) = (n1/n2) * sin(i)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the angle of refraction r = arcsin(sin(r)).",
+     "explain": "Take the inverse sine of the computed value to obtain the refracted angle.",
+     "compute": "r = arcsin((n1/n2) * sin(i))"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A plane wavefront of light is incident on a glass surface at an angle of incidence 30 degrees. If the refractive index of glass is 1.5, find the angle of refraction.",
+     "solution": "Using Snell's law: n1*sin(i) = n2*sin(r). Here n1 = 1, n2 = 1.5, i = 30 deg. sin(r) = (1/1.5)*sin(30) = (1/1.5)*0.5 = 0.333. r = arcsin(0.333) = 19.47 deg.",
+     "answer": "Angle of refraction r = 19.47 degrees (approximately 19.5 degrees)."
+    },
+    {
+     "question": "Light travels from water (n=1.33) to air (n=1.00) at an incident angle of 30 degrees. Find the angle of refraction.",
+     "solution": "sin(r) = (n1/n2)*sin(i) = (1.33/1.00)*sin(30) = 1.33*0.5 = 0.665. r = arcsin(0.665) = 41.7 deg.",
+     "answer": "Angle of refraction r = 41.7 degrees."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Using Huygens principle, derive Snell's law of refraction at a plane surface separating two media.",
+     "type": "descriptive"
+    },
+    {
+     "question": "A ray of light passes from a medium of refractive index 1.5 to one of refractive index 1.0 at an angle of incidence of 45 degrees. Will it undergo total internal reflection? Justify.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.3",
+   "title": "Coherent and Incoherent Addition of Waves",
+   "section": "10.4",
+   "definition": "Two sources are coherent if they maintain a constant phase difference between them. Incoherent sources have a phase difference that varies randomly with time. Sustained interference is observed only with coherent sources.",
+   "formula": "I = I1 + I2 + 2*sqrt(I1*I2)*cos(phi)",
+   "key_idea": "For two coherent sources of equal intensity, the maximum intensity is 4*I and the minimum is 0; for incoherent sources, intensities simply add to 2*I with no interference pattern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between coherent and incoherent sources of light.",
+    "Two coherent sources have intensities I1 and I2; find the maximum and minimum resultant intensity.",
+    "Explain why two independent light sources cannot produce a sustained interference pattern.",
+    "Two incoherent sources each of intensity I0 are superposed; find the resultant intensity.",
+    "Show that for two coherent sources of equal intensity, the maximum to minimum intensity ratio is (Imax/Imin)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the intensities I1, I2 of the two sources and whether they are coherent.",
+     "explain": "For coherent sources, the phase difference phi is constant; for incoherent sources, the cos(phi) term averages to zero over time."
+    },
+    {
+     "step": 2,
+     "action": "Apply the intensity formula I = I1 + I2 + 2*sqrt(I1*I2)*cos(phi).",
+     "explain": "The interference term 2*sqrt(I1*I2)*cos(phi) is responsible for the variation of intensity. For incoherent sources this term vanishes on average.",
+     "compute": "I = I1 + I2 + 2*sqrt(I1*I2)*cos(phi)"
+    },
+    {
+     "step": 3,
+     "action": "Compute Imax = I1 + I2 + 2*sqrt(I1*I2) (cos phi = 1) and Imin = I1 + I2 - 2*sqrt(I1*I2) (cos phi = -1).",
+     "explain": "Maximum intensity occurs at constructive interference (phi = 0) and minimum at destructive interference (phi = pi).",
+     "compute": "Imax = (sqrt(I1) + sqrt(I2))^2 ; Imin = (sqrt(I1) - sqrt(I2))^2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Two coherent light sources each of intensity I0 are superposed. What are the maximum and minimum resultant intensities?",
+     "solution": "For equal intensities I1 = I2 = I0: Imax = (sqrt(I0)+sqrt(I0))^2 = (2*sqrt(I0))^2 = 4*I0. Imin = (sqrt(I0)-sqrt(I0))^2 = 0.",
+     "answer": "Imax = 4*I0, Imin = 0."
+    },
+    {
+     "question": "Two incoherent sources each of intensity I0 are superposed. What is the resultant intensity?",
+     "solution": "For incoherent sources, the interference term averages to zero. Resultant intensity = I1 + I2 = I0 + I0 = 2*I0.",
+     "answer": "Resultant intensity = 2*I0."
+    },
+    {
+     "question": "Two coherent sources have intensities in the ratio 4:1. Find the ratio of maximum to minimum intensity.",
+     "solution": "Let I1 = 4I, I2 = I. Imax = (sqrt(4I)+sqrt(I))^2 = (2*sqrt(I)+sqrt(I))^2 = (3*sqrt(I))^2 = 9I. Imin = (2*sqrt(I)-sqrt(I))^2 = (sqrt(I))^2 = I. Ratio = 9:1.",
+     "answer": "Imax : Imin = 9 : 1."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why can two independent sodium lamps not produce a sustained interference pattern, whereas two virtual sources derived from a single source can?",
+     "type": "descriptive"
+    },
+    {
+     "question": "Two coherent sources of intensities 9I0 and I0 produce interference. Find the ratio of maximum to minimum intensity.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.4",
+   "title": "Interference of Light Waves (Young's Double Slit Experiment)",
+   "section": "10.5",
+   "definition": "In Young's double slit experiment, a monochromatic source illuminates two closely spaced slits which act as coherent sources. The superposition of waves from the two slits produces alternating bright and dark fringes on a screen, demonstrating the wave nature of light.",
+   "formula": "Path difference = d*sin(theta); Condition for bright fringe: d*sin(theta) = n*lambda; Condition for dark fringe: d*sin(theta) = (n + 1/2)*lambda",
+   "key_idea": "Bright fringes (maxima) occur when the path difference is an integer multiple of wavelength; dark fringes (minima) occur when the path difference is a half-integer multiple of wavelength.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe Young's double slit experiment and the conditions for constructive and destructive interference.",
+    "For path difference equal to n*lambda, determine whether a bright or dark fringe is obtained.",
+    "Find the condition for the nth bright fringe in terms of path difference.",
+    "Explain why the central fringe in Young's experiment is bright.",
+    "Two slits are illuminated by monochromatic light of wavelength lambda; find the path difference at the 3rd dark fringe."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the slit separation d, wavelength lambda, and the fringe order n.",
+     "explain": "The path difference between waves from the two slits at angle theta is d*sin(theta)."
+    },
+    {
+     "step": 2,
+     "action": "Apply the condition for bright or dark fringe: bright if path difference = n*lambda, dark if path difference = (n + 1/2)*lambda.",
+     "explain": "Constructive interference (bright) occurs when the two waves arrive in phase; destructive interference (dark) occurs when they arrive out of phase by pi.",
+     "compute": "path difference = n*lambda (bright) or (n + 1/2)*lambda (dark)"
+    },
+    {
+     "step": 3,
+     "action": "Determine the fringe type and position from the computed path difference.",
+     "explain": "The central fringe (n=0) is bright because the path difference is zero. Counting outward gives alternating bright and dark fringes.",
+     "compute": "fringe order n = (path difference) / lambda"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In Young's double slit experiment, the two slits are 0.2 mm apart and the screen is 1.5 m away. Light of wavelength 600 nm is used. Find the position of the 3rd bright fringe.",
+     "solution": "Fringe width beta = lambda*D/d = (600e-9 * 1.5)/(0.2e-3) = (9e-7)/(2e-4) = 4.5e-3 m = 4.5 mm. Position of 3rd bright fringe = n*beta = 3*4.5 = 13.5 mm.",
+     "answer": "Position of 3rd bright fringe = 13.5 mm from the center."
+    },
+    {
+     "question": "In Young's experiment, what is the path difference at the 2nd dark fringe?",
+     "solution": "For dark fringes, path difference = (n + 1/2)*lambda. For the 2nd dark fringe (n=1, counting from n=0): path difference = (1 + 1/2)*lambda = (3/2)*lambda.",
+     "answer": "Path difference = (3/2)*lambda."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In Young's double slit experiment, what is the path difference at the central bright fringe and at the first dark fringe?",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain the formation of bright and dark fringes in Young's double slit experiment in terms of path difference.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.5",
+   "title": "Fringe Width in Young's Experiment",
+   "section": "10.5",
+   "definition": "The fringe width (beta) is the distance between two consecutive bright (or dark) fringes on the screen in Young's double slit experiment. It is given by beta = lambda*D/d, where lambda is the wavelength, D is the distance from the slits to the screen, and d is the slit separation.",
+   "formula": "beta = lambda * D / d",
+   "key_idea": "The fringe width is directly proportional to the wavelength and the distance to the screen, and inversely proportional to the slit separation. Increasing D or decreasing d widens the fringe pattern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the fringe width given lambda, D, and d.",
+    "Find the angular fringe width given lambda and d.",
+    "How does the fringe width change if the slit separation is doubled?",
+    "How does the fringe width change if the wavelength is increased?",
+    "Find the total number of fringes contained within a given length on the screen."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the wavelength lambda, the distance to the screen D, and the slit separation d.",
+     "explain": "All three quantities must be in consistent units. The wavelength is typically in nm and must be converted to meters."
+    },
+    {
+     "step": 2,
+     "action": "Apply the formula beta = lambda*D/d.",
+     "explain": "The fringe width is the spacing between consecutive bright (or dark) fringes.",
+     "compute": "beta = lambda * D / d"
+    },
+    {
+     "step": 3,
+     "action": "Compute the numerical value and express in appropriate units.",
+     "explain": "The result is typically a small fraction of a millimeter; convert units as needed.",
+     "compute": "beta = lambda * D / d (evaluate numerically)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In Young's double slit experiment, the slits are 0.3 mm apart and the screen is 1.5 m away. If light of wavelength 6000 Angstrom is used, find the fringe width.",
+     "solution": "lambda = 6000 Angstrom = 6000e-10 m = 6e-7 m. D = 1.5 m, d = 0.3 mm = 3e-4 m. beta = lambda*D/d = (6e-7 * 1.5)/(3e-4) = (9e-7)/(3e-4) = 3e-3 m = 3 mm.",
+     "answer": "Fringe width beta = 3 mm."
+    },
+    {
+     "question": "If the fringe width in Young's experiment is 2 mm with wavelength 500 nm and screen distance 1 m, what is the slit separation?",
+     "solution": "From beta = lambda*D/d, d = lambda*D/beta = (500e-9 * 1)/(2e-3) = 500e-9/2e-3 = 2.5e-4 m = 0.25 mm.",
+     "answer": "Slit separation d = 0.25 mm."
+    },
+    {
+     "question": "How will the fringe width change if the entire Young's double slit apparatus is immersed in water (n=1.33)?",
+     "solution": "In water, the wavelength becomes lambda' = lambda/n. Since beta is proportional to lambda, beta' = beta/n = beta/1.33. The fringe width decreases by a factor of 1.33.",
+     "answer": "Fringe width becomes beta/1.33 (decreases by factor of 1.33)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In Young's double slit experiment, the fringe width is found to be 0.2 mm. If the wavelength of light used is 600 nm and the screen is 1.2 m away, find the slit separation.",
+     "type": "numerical"
+    },
+    {
+     "question": "What happens to the fringe width in Young's experiment if the distance between the slits and the screen is halved? Justify your answer.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.6",
+   "title": "Diffraction (Single Slit, Central Maximum Width)",
+   "section": "10.6",
+   "definition": "Diffraction is the bending of light around the edges of an obstacle or aperture. In single slit diffraction, a narrow slit of width a produces a pattern with a broad central maximum and weaker secondary maxima on both sides. The width of the central maximum is twice the width of the secondary maxima.",
+   "formula": "Condition for minima: a*sin(theta) = n*lambda; Width of central maximum: 2*lambda*D/a",
+   "key_idea": "The central maximum extends from the first minimum on one side to the first minimum on the other side. Its angular width is 2*lambda/a and its linear width on a screen at distance D is 2*lambda*D/a.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the angular width of the central maximum in single slit diffraction.",
+    "Find the linear width of the central maximum on a screen at distance D.",
+    "Determine the condition for the nth minimum in single slit diffraction.",
+    "Compare the width of the central maximum with that of secondary maxima.",
+    "How does the central maximum width change if the slit width is halved?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the slit width a, wavelength lambda, and screen distance D.",
+     "explain": "The first minimum occurs at a*sin(theta) = lambda. The central maximum lies between the first minima on either side."
+    },
+    {
+     "step": 2,
+     "action": "Apply the condition for the first minimum: a*sin(theta) = lambda, giving sin(theta) = lambda/a.",
+     "explain": "For small angles, sin(theta) is approximately theta, so the angular half-width of the central maximum is theta = lambda/a.",
+     "compute": "theta = lambda / a"
+    },
+    {
+     "step": 3,
+     "action": "Compute the linear width of the central maximum: 2*lambda*D/a.",
+     "explain": "The full angular width is 2*theta = 2*lambda/a, and the linear width on a screen at distance D is 2*lambda*D/a.",
+     "compute": "central maximum width = 2 * lambda * D / a"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Light of wavelength 500 nm is incident on a narrow slit of width 0.2 mm. Find the angular width of the central maximum.",
+     "solution": "sin(theta) = lambda/a = (500e-9)/(0.2e-3) = 500e-9/2e-4 = 2.5e-3. For small angle, theta = 2.5e-3 rad. Angular width = 2*theta = 5e-3 rad.",
+     "answer": "Angular width of central maximum = 5e-3 rad (approximately 0.005 rad)."
+    },
+    {
+     "question": "A single slit of width 0.1 mm is illuminated by light of wavelength 600 nm. The screen is placed 2 m away. Find the width of the central maximum.",
+     "solution": "Width = 2*lambda*D/a = 2*(600e-9)*(2)/(0.1e-3) = 2*600e-9*2/1e-4 = (2.4e-6)/(1e-4) = 2.4e-2 m = 24 mm.",
+     "answer": "Width of central maximum = 24 mm."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In single slit diffraction, what is the ratio of the width of the central maximum to the width of a secondary maximum?",
+     "type": "numerical"
+    },
+    {
+     "question": "A slit of width d is illuminated by light of wavelength lambda. Find the angular position of the first secondary minimum.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.7",
+   "title": "Polarization (Malus's Law)",
+   "section": "10.7",
+   "definition": "Polarization is the process by which the vibrations of light are restricted to a single plane. When polarized light of intensity I0 passes through a polarizer whose transmission axis makes an angle theta with the direction of polarization, the transmitted intensity is given by Malus's law.",
+   "formula": "I = I0 * cos^2(theta)",
+   "key_idea": "The transmitted intensity through a polarizer depends on the square of the cosine of the angle between the polarization direction and the transmission axis of the polarizer.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Apply Malus's law to find the transmitted intensity through a polarizer.",
+    "Find the angle at which the transmitted intensity is half the incident intensity.",
+    "Two polarizers are placed with their axes at an angle; find the final transmitted intensity.",
+    "Unpolarized light of intensity I0 passes through a polarizer; find the transmitted intensity.",
+    "Three polarizers are arranged with given angles between successive axes; find the final intensity."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the incident intensity I0 and the angle theta between the polarization direction and the polarizer axis.",
+     "explain": "For unpolarized light passing through a polarizer, the transmitted intensity is I0/2 regardless of the axis orientation."
+    },
+    {
+     "step": 2,
+     "action": "Apply Malus's law: I = I0*cos^2(theta).",
+     "explain": "The component of the electric field along the transmission axis is E0*cos(theta), so intensity (proportional to E^2) becomes I0*cos^2(theta).",
+     "compute": "I = I0 * (cos(theta))^2"
+    },
+    {
+     "step": 3,
+     "action": "Compute the numerical value of the transmitted intensity.",
+     "explain": "Evaluate cos(theta), square it, and multiply by I0. For multiple polarizers, apply Malus's law successively.",
+     "compute": "I = I0 * cos^2(theta) (evaluate numerically)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Polarized light of intensity I0 is incident on a polarizer whose axis makes an angle of 60 degrees with the direction of polarization. Find the transmitted intensity.",
+     "solution": "By Malus's law: I = I0*cos^2(60 deg) = I0*(0.5)^2 = I0*0.25 = I0/4.",
+     "answer": "Transmitted intensity = I0/4 = 0.25*I0."
+    },
+    {
+     "question": "Unpolarized light of intensity I0 passes through two polarizers whose axes are at 45 degrees to each other. Find the final transmitted intensity.",
+     "solution": "After the first polarizer, intensity = I0/2 (unpolarized light). After the second polarizer at 45 deg: I = (I0/2)*cos^2(45) = (I0/2)*(1/2) = I0/4.",
+     "answer": "Final transmitted intensity = I0/4."
+    },
+    {
+     "question": "At what angle should the transmission axis of a polarizer be placed so that the transmitted intensity is one-fourth of the incident polarized intensity?",
+     "solution": "I = I0/4 = I0*cos^2(theta). So cos^2(theta) = 1/4, cos(theta) = 1/2, theta = 60 degrees.",
+     "answer": "The angle theta = 60 degrees."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two polarizers are placed with their transmission axes at 30 degrees to each other. If unpolarized light of intensity I0 is incident, find the transmitted intensity.",
+     "type": "numerical"
+    },
+    {
+     "question": "The transmitted intensity through a polarizer is one-eighth of the incident polarized intensity. Find the angle between the polarization direction and the polarizer axis.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.10.8",
+   "title": "Polarization by Reflection (Brewster's Law)",
+   "section": "10.8",
+   "definition": "When unpolarized light is reflected from a transparent surface, the reflected light is partially polarized. At a particular angle of incidence called Brewster's angle (or the polarizing angle), the reflected light is completely polarized with its electric vector perpendicular to the plane of incidence.",
+   "formula": "tan(ip) = n (Brewster's law), where ip is the polarizing angle and n is the refractive index of the reflecting surface",
+   "key_idea": "At Brewster's angle, the reflected and refracted rays are perpendicular to each other, and the reflected ray is completely plane polarized. Brewster's law relates the polarizing angle to the refractive index: tan(ip) = n.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find Brewster's angle given the refractive index of the medium.",
+    "Determine the refractive index given the polarizing angle.",
+    "Show that at Brewster's angle, the reflected and refracted rays are perpendicular.",
+    "Explain why reflected light from a surface is partially polarized at ordinary angles and fully polarized at Brewster's angle.",
+    "Calculate the angle between the reflected and refracted rays at Brewster's angle."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the refractive index n of the reflecting medium (or the polarizing angle ip).",
+     "explain": "Brewster's law connects the polarizing angle to the refractive index of the medium relative to the incident medium."
+    },
+    {
+     "step": 2,
+     "action": "Apply Brewster's law: tan(ip) = n.",
+     "explain": "The polarizing angle ip is the angle of incidence at which reflected light is completely plane polarized.",
+     "compute": "ip = arctan(n)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the polarizing angle (or refractive index) and verify that reflected and refracted rays are perpendicular.",
+     "explain": "At Brewster's angle, ip + r = 90 degrees, so the reflected and refracted rays are at right angles to each other.",
+     "compute": "ip = arctan(n); verify ip + r = 90 deg"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the polarizing angle for light reflected from a glass surface of refractive index 1.5.",
+     "solution": "By Brewster's law: tan(ip) = n = 1.5. ip = arctan(1.5) = 56.31 degrees.",
+     "answer": "Polarizing angle ip = 56.31 degrees."
+    },
+    {
+     "question": "The polarizing angle for a material is 57 degrees. Find the refractive index of the material.",
+     "solution": "By Brewster's law: n = tan(ip) = tan(57 deg) = 1.54.",
+     "answer": "Refractive index n = 1.54."
+    },
+    {
+     "question": "Show that at Brewster's angle, the angle between the reflected and refracted rays is 90 degrees.",
+     "solution": "At Brewster's angle, tan(ip) = n. Also, by Snell's law, sin(ip) = n*sin(r). Since tan(ip) = sin(ip)/cos(ip) = n, we get sin(ip) = n*cos(ip). Comparing with Snell's law: n*sin(r) = n*cos(ip), so sin(r) = cos(ip), hence r = 90 - ip. Therefore ip + r = 90 degrees, and the reflected ray (at angle ip from normal) and refracted ray (at angle r from normal) are perpendicular.",
+     "answer": "At Brewster's angle, reflected and refracted rays are perpendicular (ip + r = 90 degrees)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate Brewster's angle for a transparent material of refractive index 1.33 (water).",
+     "type": "numerical"
+    },
+    {
+     "question": "What is meant by polarization by reflection? State Brewster's law and explain its significance.",
+     "type": "descriptive"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

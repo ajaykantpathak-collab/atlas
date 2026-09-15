@@ -1,0 +1,212 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Human Settlements",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.202.1",
+   "title": "Rural Settlement Types",
+   "section": "Rural Settlements",
+   "definition": "Rural settlements take clustered, semi-clustered, hamleted and dispersed forms; water availability, farmland pattern, defence needs and social structure decide whether houses huddle around a pond or scatter across fields.",
+   "formula": "",
+   "key_idea": "Each form solves a local problem: clustered villages share wells and defence, dispersed hamlets sit close to scattered plots.",
+   "textbook_ref": "legy202.txt rural settlement types and their factors",
+   "question_patterns": [
+    "name the major types of rural settlements",
+    "what factors decide the form of a rural settlement",
+    "why do dispersed settlements appear in hilly and forest areas",
+    "how does water availability shape clustered villages",
+    "define a hamleted settlement",
+    "relate social structure to settlement pattern"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the forms",
+     "explain": "clustered, semi-clustered, hamleted and dispersed are the chapter's types"
+    },
+    {
+     "step": 2,
+     "action": "match factor to form",
+     "explain": "scarce water clusters settlements along tanks and wells; rough terrain disperses them"
+    },
+    {
+     "step": 3,
+     "action": "close with society",
+     "explain": "caste-based streets and defence walls imprint social structure on plans"
+    }
+   ]
+  },
+  {
+   "id": "legy.202.2",
+   "title": "Urban Settlements and Urbanisation",
+   "section": "Urban Settlements",
+   "definition": "Urban settlements are functionally tied to secondary and tertiary activities; India's urban population share rose to about 31.16 per cent by 2011, so roughly 69 per cent of Indians still live in rural settlements, making the country one of the least urbanised large economies.",
+   "formula": "rural_share = 100 - urban_share",
+   "key_idea": "Subtracting the urban percentage from 100 gives the rural share of population.",
+   "textbook_ref": "legy202.txt urbanisation trends table (31.16 per cent urban in 2011)",
+   "question_patterns": [
+    "what was India's urban population share in 2011",
+    "compute the rural population share from the urban share",
+    "define a town as per the census criteria",
+    "differentiate rural and urban economies",
+    "why is urbanisation considered low in India",
+    "list problems of rapid urban growth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the urban share",
+     "explain": "the 2011 census reports 31.16 per cent urban population",
+     "compute": "urban_share = 31.16"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the remainder is the rural share",
+     "compute": "rural_share = 100 - urban_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.202.3",
+   "title": "Functional Classification of Towns",
+   "section": "Functional Classification of Towns",
+   "definition": "Towns are classified by their dominant functions - administrative, defence, industrial, transport, cultural and recreational - and the census separates them into statutory towns, census towns and urban agglomerations.",
+   "formula": "",
+   "key_idea": "Function gives the town its identity, though most large cities are multi-functional with one dominant call.",
+   "textbook_ref": "legy202.txt functional classification and census town categories",
+   "question_patterns": [
+    "name the functional types of Indian towns with examples",
+    "differentiate statutory towns from census towns",
+    "what is an urban agglomeration",
+    "give an example each of an administrative and industrial town",
+    "how does function affect town size and growth",
+    "why are large cities called multi-functional"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the functions",
+     "explain": "administrative, defence, industrial, transport, cultural and recreational functions classify towns"
+    },
+    {
+     "step": 2,
+     "action": "note the census terms",
+     "explain": "statutory towns, census towns and urban agglomerations are official categories"
+    },
+    {
+     "step": 3,
+     "action": "close with dominance",
+     "explain": "one function usually dominates even in diversified cities"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy202_1",
+   "source_ref": "legy202.txt urbanisation table",
+   "concept": "legy.202.2",
+   "question_type": "compute",
+   "question_pattern": "The 2011 census reports 31.16 per cent urban population. Compute India's rural share.",
+   "extracted_variables": {
+    "urban_share": 31.16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the urban share",
+     "explain": "31.16 per cent is urban",
+     "compute": "urban_share = 31.16"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 31.16 leaves the rural share",
+     "compute": "rural_share = 100 - urban_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy202_2",
+   "source_ref": "legy202.txt settlement types",
+   "concept": "legy.202.1",
+   "question_type": "short_answer",
+   "question_pattern": "Explain why hilly forested tracts favour dispersed settlements.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "terrain splits land",
+     "explain": " cultivable patches lie scattered between slopes and streams"
+    },
+    {
+     "step": 2,
+     "action": "farm access",
+     "explain": "homes sit near plots to save daily travel"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "dispersal follows the geometry of usable land"
+    }
+   ]
+  },
+  {
+   "id": "we_legy202_3",
+   "source_ref": "legy202.txt functional classification",
+   "concept": "legy.202.3",
+   "question_type": "short_answer",
+   "question_pattern": "Classify New Delhi, Jamshedpur and Amritsar by dominant function.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "administrative",
+     "explain": "New Delhi is dominated by government functions"
+    },
+    {
+     "step": 2,
+     "action": "industrial",
+     "explain": "Jamshedpur grew around iron and steel plants"
+    },
+    {
+     "step": 3,
+     "action": "trade-cultural",
+     "explain": "Amritsar's function rests on trade and religious-cultural importance"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy202_1",
+   "source_ref": "legy202.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the types of rural settlements with Indian examples",
+    "compute the rural share from the 2011 urban percentage",
+    "explain the functional classification of towns",
+    "differentiate statutory towns, census towns and urban agglomerations",
+    "discuss the problems of urbanisation in India"
+   ]
+  },
+  {
+   "id": "ex_legy202_2",
+   "source_ref": "legy202.txt applied questions, reworded",
+   "questions": [
+    "argue why India urbanises slowly despite economic growth",
+    "evaluate the census definition of urban areas",
+    "relate water scarcity to settlement clustering",
+    "map the major urban agglomerations of India",
+    "explain how defence needs shaped historic settlements"
+   ]
+  }
+ ]
+}

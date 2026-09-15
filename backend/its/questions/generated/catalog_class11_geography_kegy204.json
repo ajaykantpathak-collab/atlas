@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy204",
+  "concepts": [
+    {
+      "id": "kegy.204.1.1",
+      "questions": [
+        {"q": "Who proposed the continental drift theory? (one word)", "a": "Wegener"},
+        {"q": "What was the single supercontinent of Wegener's theory called? (one word)", "a": "Pangaea"},
+        {"q": "What was the all-surrounding ocean of Pangaea called? (one word)", "a": "Panthalassa"},
+        {"q": "Pangaea split into Laurasia and which southern landmass? (one word)", "a": "Gondwanaland"},
+        {"q": "Which matching coastlines gave the first clue of drift? (two words)", "a": "jigsaw fit"},
+        {"q": "Which glacial deposit found across southern lands supports drift? (one word)", "a": "tillite"},
+        {"q": "Which deposits of heavy minerals on coasts were cited as drift evidence? (one word)", "a": "placer"}
+      ]
+    },
+    {
+      "id": "kegy.204.2.1",
+      "questions": [
+        {"q": "Who proposed the sea floor spreading hypothesis? (two words)", "a": "Harry Hess"},
+        {"q": "At which ocean features is new crust born? (two words)", "a": "mid-ocean ridges"},
+        {"q": "At which features does old ocean crust sink back into the mantle? (one word)", "a": "trenches"},
+        {"q": "How many major plates does plate tectonics recognise? (number)", "a": "7"},
+        {"q": "Over which soft layer do the plates move? (one word)", "a": "asthenosphere"},
+        {"q": "Name one boundary type besides divergent and convergent. (one word)", "a": "transform"},
+        {"q": "Which boundary type builds mid-ocean ridges by pulling apart? (one word)", "a": "divergent"}
+      ]
+    },
+    {
+      "id": "kegy.204.3.1",
+      "questions": [
+        {"q": "Oceans cover about what per cent of the earth's surface? (give the per cent)", "a": "71"},
+        {"q": "Continents cover about what per cent of the earth's surface? (give the per cent)", "a": "29"},
+        {"q": "From which ancient landmass did the Indian plate break away? (one word)", "a": "Gondwanaland"},
+        {"q": "The Indian plate's northward drift keeps which mountains rising? (one word)", "a": "Himalayas"},
+        {"q": "Which direction has the Indian plate drifted since splitting from Gondwanaland? (one word)", "a": "north"},
+        {"q": "India's seismic activity reflects which ongoing plate process? (one word)", "a": "drift"},
+        {"q": "If oceans cover 71 per cent of the globe, land plus oceans together total what per cent? (give the per cent)", "a": "100"}
+      ]
+    }
+  ]
+}

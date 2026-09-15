@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_008",
+   "title": "c12_geo_cbse_19_008",
+   "questions": [
+    {
+     "q": "Define the first quartile (Q1) in a geographical dataset arranged in ascending order. What percentage of observations lie below Q1?",
+     "a": "Q1 is the value below which 25% of the observations fall when data is arranged in ascending order. It marks the lower boundary of the middle 50% of the distribution. A wrong answer (e.g., \"50% lie below Q1\") reveals confusion between Q1 and the median (Q2), indicating the student hasn't grasped that quartiles divide data into four equal parts, not two.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the interquartile range (IQR = Q3 – Q1) a more robust measure of rainfall variability across districts than the range (max – min) for agricultural planning in the Marathwada region?",
+     "a": "IQR uses the middle 50% of data, ignoring extreme outliers (e.g., one exceptionally wet year due to a cyclone) that distort the range. In Marathwada, where a single extreme rainfall event can inflate the range, IQR gives a stable measure of typical variability for crop planning. A wrong answer focusing only on \"range is easier to calculate\" shows the student misses the geographical purpose: robustness against outliers in skewed climatic data.",
+     "self_check": true
+    },
+    {
+     "q": "Given the ungrouped elevation data (in meters) of 11 peaks in the Western Ghats: 850, 920, 1050, 1100, 1180, 1250, 1300, 1350, 1420, 1500, 1600. Calculate Q1, Q2, and Q3 using the positional formula. Show all steps.",
+     "a": "N=11. Q1 position = (N+1)/4 = 3rd value = 1050 m. Q2 position = (N+1)/2 = 6th value = 1250 m. Q3 position = 3(N+1)/4 = 9th value = 1420 m. Steps: 1) Arrange ascending (already done). 2) Apply positional formulas. 3) Read values at those positions. 4) Interpret: 25% peaks ≤1050m, 50% ≤1250m, 75% ≤1420m. A wrong answer using N/4 (2.75) without interpolation reveals misunderstanding of discrete vs continuous positional formulas — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A grouped frequency distribution of population density (persons/km²) for 60 tehsils in Uttar Pradesh has median class 400–500 with cumulative frequency before median class = 25, frequency of median class = 15, class width = 100. The lower quartile class is 200–300 with cf before = 10, f = 12. Calculate Q1 and median. Compare their positions relative to the distribution.",
+     "a": "Median = l + [(N/2 – cf)/f] × i = 400 + [(30–25)/15] × 100 = 400 + 33.33 = 433.33 persons/km². Q1 = 200 + [(15–10)/12] × 100 = 200 + 41.67 = 241.67 persons/km². Median (433) > Q1 (242), confirming positive skew — most tehsils have lower density, few have very high density. A wrong answer swapping cf and f, or using N/4 instead of N/2 for median, shows mechanical formula application without understanding cumulative frequency logic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 90th percentile of monsoon rainfall in Kerala is 3000 mm, so designing drainage for 3000 mm is sufficient for 90% of years.\" Consider geographical and statistical limitations.",
+     "a": "The statement is statistically correct but geographically risky. The 90th percentile means 10% of years exceed 3000 mm — those are extreme flood years. Drainage designed only for P90 will fail in 1 in 10 years, which is unacceptable for critical infrastructure. Also, percentile is based on historical data; climate change may shift the distribution. A student who agrees without qualification misses the \"design for worst-case\" principle in geographical engineering and the non-stationarity of climate data.",
+     "self_check": true
+    },
+    {
+     "q": "Create a percentile-based classification scheme for groundwater depth (in meters) across 100 wells in Punjab to identify \"critical depletion zones\" (worst 20%), \"stress zones\" (next 30%), and \"safe zones\" (remaining 50%). Specify which percentiles form the boundaries and explain the geographical rationale.",
+     "a": "Boundaries: P80 (critical depletion: deepest 20%), P50 (stress: next 30% between P50–P80), below P50 (safe: shallowest 50%). Rationale: Groundwater depth increases with depletion, so higher values = worse condition. Using percentiles adapts to the actual distribution without arbitrary thresholds. A poor answer uses equal intervals (e.g., 0–10m, 10–20m) ignoring the data's skew, or reverses the percentile direction (thinking P20 is worst), showing lack of geographical reasoning about what the variable represents.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

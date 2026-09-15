@@ -1,0 +1,335 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 8,
+ "chapter_title": "Database Concepts",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs108.1",
+   "title": "Degree and Cardinality of a Relation",
+   "section": "8.4 and Figure 8.4",
+   "definition": "In a relation, the degree counts its attributes (columns) and the cardinality counts its tuples (rows); multiplying the two gives the number of data values the relation state holds, of which one column per row is usually the key.",
+   "formula": "cells = attrs * tuples",
+   "key_idea": "The GUARDIAN relation of Figure 8.4 has degree 4 and cardinality 5, so it stores 20 values.",
+   "textbook_ref": "lecs108.txt, section 8.4 and Figure 8.4",
+   "question_patterns": [
+    "State the degree and cardinality of the GUARDIAN relation shown in Figure 8.4.",
+    "A relation has 6 attributes and 12 tuples. How many data values does it hold, and how many belong to non-key columns?",
+    "How many tuples must be added to a relation of cardinality 5 to reach cardinality 9, and what happens to its degree?",
+    "Differentiate degree from cardinality of a relation.",
+    "The ATTENDANCE relation stores 2 dates for 6 students. Compute its cardinality and the total values stored."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply rows by columns",
+     "explain": "Every tuple carries one value per attribute.",
+     "compute": "cells = attrs * tuples"
+    },
+    {
+     "step": 2,
+     "action": "set aside the key column",
+     "explain": "One attribute per row is the identifying key, leaving the rest.",
+     "compute": "nonkey_cells = cells - tuples"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A relation has degree 4 and cardinality 5. How many data values does it store?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.2",
+   "title": "Attendance Percentage from Working Days",
+   "section": "8.1 and Table 8.6",
+   "definition": "A school consolidates attendance by dividing the days a student was marked present by the total working days and scaling to percent, which is the calculation done manually in registers but reliably by software.",
+   "formula": "percent = present_days / working_days * 100",
+   "key_idea": "In the ATTENDANCE snapshot, roll number 3 is absent on both dates, so the percentage is 0.",
+   "textbook_ref": "lecs108.txt, section 8.1 and Table 8.6",
+   "question_patterns": [
+    "A student is present on 18 of 24 working days. Compute the attendance percentage.",
+    "From Table 8.6, what attendance percentage does roll number 3 have over the two dates shown?",
+    "A class of 50 students works 26 days a month. How many attendance entries arise monthly?",
+    "Why does manual consolidation of attendance lead to errors?",
+    "A student needs 75 percent attendance. How many of 24 working days must be attended at least?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "share of present days",
+     "explain": "Divide present days by the working days.",
+     "compute": "present_share = present_days / working_days"
+    },
+    {
+     "step": 2,
+     "action": "scale to percent",
+     "explain": "Multiply the share by 100.",
+     "compute": "percent = present_share * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A student attended 45 of 50 working days. What is the attendance percentage?",
+     "a": "90 percent"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.3",
+   "title": "Manual Register Record Count",
+   "section": "8.1",
+   "definition": "The chapter opens by counting the burden of paper registers: a class of 50 students over 26 working days needs 50 times 26 entries every month, and the yearly total shows why manual entry becomes tedious.",
+   "formula": "yearly_entries = students * days * 12",
+   "key_idea": "Fifty students across 26 working days produce 1300 attendance records in one month.",
+   "textbook_ref": "lecs108.txt, section 8.1",
+   "question_patterns": [
+    "How many attendance records must a teacher write each month for a class of 50 over 26 working days?",
+    "Compute the yearly attendance entries for the same class.",
+    "Why does growing data volume make manual record keeping tedious?",
+    "A school has 4 such classes. How many monthly entries arise in total?",
+    "List two limitations of manual record keeping mentioned in the chapter."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply class by days",
+     "explain": "One entry per student per working day.",
+     "compute": "monthly_entries = students * days"
+    },
+    {
+     "step": 2,
+     "action": "extend to the year",
+     "explain": "Twelve months repeat the monthly load.",
+     "compute": "yearly_entries = monthly_entries * 12"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fifty students across 26 working days produce how many attendance entries per month?",
+     "a": "1300"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.4",
+   "title": "Limitations of the File System",
+   "section": "8.2.1",
+   "definition": "Storing data in separate files brings trouble: access needs custom programs, the same data get duplicated (redundancy), duplicated copies drift apart (inconsistency), related files stay unlinked (isolation), format changes break programs (dependence), and fine-grained sharing is hard to enforce.",
+   "formula": "redundancy -> inconsistency -> extra storage and errors",
+   "key_idea": "Student names appear in both STUDENT and ATTENDANCE files, so a spelling change must be made twice or the files disagree.",
+   "textbook_ref": "lecs108.txt, section 8.2.1",
+   "question_patterns": [
+    "Explain data redundancy with the STUDENT and ATTENDANCE files of the chapter.",
+    "How does redundancy lead to data inconsistency?",
+    "What is data isolation, and why do two related files suffer from it?",
+    "Why does changing a file's structure force changes in every program using it?",
+    "Why is controlled data sharing difficult in a file system?",
+    "Compared to a file system, how does a DBMS avoid redundancy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "audit the stored copies",
+     "explain": "Find each fact stored in more than one file; every extra copy risks divergence, isolation and dependence problems that a single relational repository removes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Storing the same data in two separate files is called what?",
+     "a": "redundancy"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.5",
+   "title": "Database Management System Basics",
+   "section": "8.3 and 8.3.2",
+   "definition": "A DBMS is software that creates and manages databases, serving as the interface between users and stored data; its key terms are schema (the design), constraints, metadata or data dictionary, instance (a snapshot of the state), query, data manipulation and the database engine.",
+   "formula": "query -> DBMS -> database -> query result",
+   "key_idea": "The DBMS keeps one centralised repository that the teacher and office staff can query at the same time.",
+   "textbook_ref": "lecs108.txt, sections 8.3, 8.3.1, 8.3.2 and Figure 8.2",
+   "question_patterns": [
+    "Name the software used to create, manipulate and maintain a relational database.",
+    "Differentiate database state from database schema.",
+    "What is stored in the database catalog or data dictionary?",
+    "Define query and give one example against the STUDENTATTENDANCE database.",
+    "Name the three data manipulation operations a DBMS supports.",
+    "Which component of a DBMS actually processes queries for retrieval?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place each term in the flow",
+     "explain": "The schema fixes the design, constraints guard the values, the instance is a snapshot, queries ask for data, and the engine executes them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is software that creates and manages databases called?",
+     "a": "DBMS"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.6",
+   "title": "Attribute, Tuple and Domain",
+   "section": "8.4 and Figure 8.4",
+   "definition": "Relational vocabulary: a column of a relation is an attribute (also called field), a row is a tuple representing one entity's facts, and the domain is the set of permitted values for an attribute, such as integers for RollNumber or strings for SName.",
+   "formula": "relation = attributes (columns) x tuples (rows), values from domains",
+   "key_idea": "GUID, GName, GPhone and GAddress are the four attributes of relation GUARDIAN.",
+   "textbook_ref": "lecs108.txt, section 8.4 points i to iii and Figure 8.4",
+   "question_patterns": [
+    "Define attribute, tuple and domain with examples from the GUARDIAN relation.",
+    "What is the domain of the RollNumber attribute in the STUDENT relation?",
+    "Which term describes a row of a relation, and which describes a column?",
+    "Why must every value under one attribute come from the same domain?",
+    "Give the relation schema of the GUARDIAN table and name its attributes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map table parts to terms",
+     "explain": "Columns are attributes, rows are tuples, and each column draws its values from a declared domain or data type."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a column of a relation called?",
+     "a": "attribute"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.7",
+   "title": "Candidate, Primary, Composite and Foreign Keys",
+   "section": "8.5",
+   "definition": "Keys enforce tuple uniqueness and relationships: attributes that can uniquely identify tuples are candidate keys; the designer's chosen candidate becomes the primary key and the rest are alternate keys; two or more attributes can form a composite primary key; and a foreign key in one relation refers to the primary key of another to link them.",
+   "formula": "{RollNumber, AttendanceDate} -> composite primary key of ATTENDANCE",
+   "key_idea": "In GUARDIAN, GUID and GPhone are candidate keys; choosing GUID as primary makes GPhone the alternate key.",
+   "textbook_ref": "lecs108.txt, sections 8.5.1 to 8.5.4 and Figure 8.5",
+   "question_patterns": [
+    "Which attributes of GUARDIAN are candidate keys, and which becomes the alternate key once GUID is primary?",
+    "Why must ATTENDANCE use {RollNumber, AttendanceDate} as a composite primary key?",
+    "How does a foreign key represent the relationship between two relations?",
+    "Why are foreign keys allowed to hold NULL values? Give an example.",
+    "Differentiate primary key from foreign key.",
+    "Name the attribute that links ATTENDANCE to STUDENT and state its role."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test uniqueness then the link",
+     "explain": "Any attribute with distinct non-null values is a candidate; the chosen one is primary, combinations form composite keys, and attributes referencing another relation's primary key are foreign keys."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which key is the designer's chosen unique identifier of a relation?",
+     "a": "primary key"
+    }
+   ]
+  },
+  {
+   "id": "lecs108.8",
+   "title": "Properties of a Relation and NULL",
+   "section": "8.4.1",
+   "definition": "A relation differs from a plain table by three properties: attribute names are unique and their order immaterial, every tuple is distinct and unordered, and each value is atomic, from one domain, single-valued, with NULL marking unknown or inapplicable values.",
+   "formula": "no duplicate tuples; atomic single-domain values; NULL = unknown",
+   "key_idea": "A guardian who withholds a phone number gets NULL under GPhone rather than a fake number.",
+   "textbook_ref": "lecs108.txt, section 8.4.1 and Exercise 6",
+   "question_patterns": [
+    "State the three properties that make a relation different from an ordinary table.",
+    "Roll number 17 appears twice in a Sports Preferences table with different sports. Which property is violated, and which key can check it?",
+    "Can a student's sports preference hold NULL, and what does that value mean here?",
+    "Can a tuple with a sport chosen by nobody exist in the relation? Justify.",
+    "Why must GPhone hold exactly one ten-digit value rather than a list of numbers?",
+    "Are two relations with different column orders but the same rows equivalent in state?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three property groups",
+     "explain": "Inspect attribute names and order, tuple uniqueness and order, and value atomicity with single-domain values and NULL only for the unknown."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What marks an unknown or inapplicable value in a relation?",
+     "a": "NULL"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs108.we1",
+   "title": "Data values inside GUARDIAN",
+   "concept_id": "lecs108.1",
+   "problem": "The GUARDIAN relation has 4 attributes and holds 5 tuples. How many data values does its state contain, and how many of them are non-key values?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply rows by columns",
+     "explain": "Five tuples times four attributes.",
+     "compute": "cells = 4 * 5"
+    },
+    {
+     "step": 2,
+     "action": "exclude the key column",
+     "explain": "GUID alone identifies tuples, leaving three value columns per row.",
+     "compute": "nonkey_cells = cells - 5"
+    }
+   ],
+   "answer_note": "The relation stores 20 values, of which 15 are non-key values."
+  },
+  {
+   "id": "lecs108.we2",
+   "title": "Attendance percentage of a student",
+   "concept_id": "lecs108.2",
+   "problem": "A student attends 18 of the 24 working days of a term. Compute the attendance percentage.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "share of days present",
+     "explain": "18 divided by 24.",
+     "compute": "present_share = 18 / 24"
+    },
+    {
+     "step": 2,
+     "action": "scale to percent",
+     "explain": "Multiply by 100.",
+     "compute": "percent = present_share * 100"
+    }
+   ],
+   "answer_note": "The attendance percentage is 75."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs108.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 8 Exercise (items reworded)",
+   "questions": [
+    "Give the terms: collection of logically related records; the DBMS file describing stored data; an attribute that uniquely identifies tuples; the special value for unknown data; an alternate unique identifier; software that maintains a relational database.",
+    "Why are foreign keys allowed to have NULL values? Explain with an example.",
+    "Differentiate: database state and database schema; primary key and foreign key; degree and cardinality of a relation.",
+    "Compared to a file system, how does a DBMS avoid data redundancy?",
+    "For the Sports Preferences table of Exercise 6, decide whether NULL preferences, duplicate preferences for one roll number, and an unchosen sport can exist, citing properties and keys.",
+    "Are the two differently-arranged Sports Preferences tables of Exercise 7 in equivalent states? Justify.",
+    "Design the canteen database: the items relation with a uniqueness restriction, and the billing relation with a suitable primary and foreign key.",
+    "For the MOVIE and AUDI relations, judge whether Movie_ID and AudiNo work as primary keys and identify any foreign key."
+   ]
+  }
+ ]
+}

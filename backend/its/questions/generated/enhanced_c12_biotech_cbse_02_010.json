@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_010",
+   "title": "c12_biotech_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of treating bacterial cells with cold calcium chloride (CaCl₂) before heat shock in chemical transformation?",
+     "a": "The cold CaCl₂ treatment neutralizes the negative charges on both the DNA phosphate backbone and the cell membrane phospholipids, reducing electrostatic repulsion and allowing DNA to adhere to the cell surface. A wrong answer (e.g., 'CaCl₂ degrades the cell wall' or 'CaCl₂ activates DNA ligase') reveals that the student confuses the chemical role of Ca²⁺ ions with enzymatic or lytic functions, indicating a lack of understanding of the charge-shielding mechanism that is essential for DNA-membrane association.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs CaCl₂ transformation but forgets the 42°C heat shock step and instead keeps the cells on ice. They observe zero colonies on the antibiotic plate. Explain why the heat shock is indispensable and what specific biophysical event it triggers.",
+     "a": "The 42°C heat shock creates a transient thermal imbalance across the membrane, inducing a local fluidity change that allows the adsorbed DNA to pass through the lipid bilayer and enter the cytoplasm. Without this step, DNA remains bound to the outside of the cell and is eventually degraded or lost during washing. A wrong answer (e.g., 'heat shock kills non-transformed cells' or 'heat shock activates the antibiotic resistance gene') shows the student misattributes the heat shock to selection or gene expression rather than its actual role in membrane translocation.",
+     "self_check": true
+    },
+    {
+     "q": "You have 50 µL of a ligation mixture containing 20 ng of recombinant plasmid. You transform 100 µL of competent *E. coli* (efficiency rated at 1 × 10⁸ cfu/µg DNA) using 2 µL of the ligation mix. After recovery, you plate 100 µL of the 1 mL culture onto an antibiotic plate and obtain 150 colonies. Calculate the actual transformation efficiency (cfu/µg) achieved in this experiment.",
+     "a": "Step 1: Determine amount of DNA used in the transformation = (20 ng / 50 µL) × 2 µL = 0.8 ng = 0.0008 µg.\nStep 2: Determine the fraction of total culture plated = 100 µL / 1000 µL = 0.1.\nStep 3: Total transformants in the entire culture = 150 colonies / 0.1 = 1500 transformants.\nStep 4: Transformation efficiency = Total transformants / DNA amount (µg) = 1500 / 0.0008 = 1.875 × 10⁶ cfu/µg.\nA wrong answer (e.g., forgetting the dilution factor or misplacing decimal in ng→µg conversion) reveals a common unit-conversion error that costs marks in board practicals and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast chemical transformation (CaCl₂/heat shock) and electroporation in terms of (a) mechanism of DNA entry, (b) typical efficiency range, (c) suitability for large plasmids (>15 kb) and ligation mixtures with low DNA concentration.",
+     "a": "(a) Chemical transformation relies on charge neutralization by Ca²⁺ and a thermal gradient to drive DNA through membrane; electroporation uses a high-voltage pulse to create transient nanopores (electroporation) in the membrane. (b) Chemical: 10⁶–10⁸ cfu/µg; Electroporation: 10⁹–10¹⁰ cfu/µg (10–100× higher). (c) Electroporation is superior for large plasmids and low-concentration DNA because it does not depend on DNA adsorption to the cell surface and can drive larger molecules through pores; chemical transformation efficiency drops sharply with plasmid size and low DNA amounts. A wrong answer that swaps the efficiency ranges or claims chemical transformation is better for large plasmids indicates a failure to analyze the physical constraints of each method.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to transform a 40 kb cosmid library into *E. coli*. They have two options: (i) chemically competent cells rated at 1 × 10⁸ cfu/µg, or (ii) electrocompetent cells rated at 2 × 10¹⁰ cfu/µg. The cosmid DNA is precious (only 5 ng available). Evaluate which option maximizes the chance of obtaining a representative library and justify your choice with quantitative reasoning.",
+     "a": "Electrocompetent cells (option ii) should be chosen. With 5 ng (0.005 µg) DNA, chemical transformation would yield ≈ (1 × 10⁸) × 0.005 = 5 × 10⁵ transformants, while electroporation would yield ≈ (2 × 10¹⁰) × 0.005 = 1 × 10⁸ transformants. A library of 40 kb cosmids requires >10⁶ independent clones for 99% genome coverage; only electroporation provides sufficient transformants from the limited DNA. Choosing chemical transformation would risk an incomplete library. A wrong choice reveals an inability to evaluate efficiency in the context of library complexity and DNA limitation — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transformation protocol for a plant cell line that has a rigid cell wall and is not amenable to *Agrobacterium* infection. Specify the method, key parameters (e.g., particle size, pressure, target tissue), and two critical controls needed to validate the experiment.",
+     "a": "Use biolistics (particle bombardment). Key parameters: 0.6–1.0 µm gold/tungsten particles coated with plasmid DNA (precipitated with CaCl₂/spermidine), helium pressure 1100–1500 psi, target tissue: embryogenic callus or immature embryos placed at optimal distance (6–9 cm) from the stopping screen. Critical controls: (1) Bombardment with empty vector (no insert) to check for background expression/selection escape; (2) Non-bombarded tissue on selection medium to confirm antibiotic/herbicide stringency. A poor answer that omits particle size, pressure, or controls shows the student cannot create a complete experimental design, a skill tested in board case-study questions and NEET application problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

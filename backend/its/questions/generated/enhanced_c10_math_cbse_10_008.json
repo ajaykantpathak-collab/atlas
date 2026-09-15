@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_008",
+   "title": "c10_math_cbse_10_008",
+   "questions": [
+    {
+     "q": "State the two key tangent properties used to find unknown lengths in problems involving an external point and a circle.",
+     "a": "The two key properties are: (1) The tangent at any point of a circle is perpendicular to the radius through the point of contact. (2) The lengths of tangents drawn from an external point to a circle are equal. A wrong answer (e.g., mentioning \"tangent is parallel to radius\" or \"tangents from external point are perpendicular\") reveals confusion between tangent and secant properties or misremembering the perpendicular relationship.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, PA and PB are tangents from external point P to a circle with centre O. If ∠APB = 70°, find ∠AOB. Explain why your method works.",
+     "a": "∠AOB = 110°. Since PA and PB are tangents, OA ⟂ PA and OB ⟂ PB, so ∠OAP = ∠OBP = 90°. In quadrilateral OAPB, sum of angles = 360° ⇒ ∠AOB + 90° + 90° + 70° = 360° ⇒ ∠AOB = 110°. A wrong answer (e.g., 70° or 250°) shows the student either forgot the perpendicular property or misapplied the quadrilateral angle sum, indicating they treat the figure as a triangle or ignore the right angles.",
+     "self_check": true
+    },
+    {
+     "q": "From an external point P, two tangents PA and PB are drawn to a circle of radius 6 cm. If PA = 8 cm, find the distance OP from P to the centre O.",
+     "a": "Given: radius OA = 6 cm, tangent PA = 8 cm. Since tangent ⟂ radius, ∠OAP = 90°. In right triangle OAP, OP² = OA² + PA² = 6² + 8² = 36 + 64 = 100 ⇒ OP = 10 cm. A wrong answer (e.g., 14 cm by adding, or 2 cm by subtracting) reveals the student either does not recognize the right triangle or misapplies Pythagoras theorem (adding legs instead of squaring, or using the wrong side as hypotenuse).",
+     "self_check": true
+    },
+    {
+     "q": "Two circles touch externally at point T. A common tangent touches them at A and B. If the radii are 4 cm and 9 cm, find the length of AB. Compare this with the case where circles touch internally.",
+     "a": "For external touch: Draw radii OA = 4 cm, O'B = 9 cm. Draw O'C ∥ AB meeting OA extended at C. Then O'C = AB, OC = 9 - 4 = 5 cm, OO' = 4 + 9 = 13 cm. In right triangle OCO', O'C² = OO'² - OC² = 169 - 25 = 144 ⇒ O'C = 12 cm = AB. For internal touch, OO' = 9 - 4 = 5 cm, OC = 9 + 4 = 13 cm (impossible as hypotenuse < leg), so no common external tangent exists. A wrong answer (e.g., AB = 13 cm or 5 cm) shows the student cannot construct the auxiliary rectangle/trapezoid or confuses the distance between centres for external vs internal touch.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"From point P, tangents PA and PB to a circle with centre O. ∠APB = 80°. Find ∠AOB.\" Their working: \"∠AOB = 180° - 80° = 100° (angles in a cyclic quadrilateral).\" Is this correct? Justify.",
+     "a": "The answer 100° is correct, but the reasoning is wrong. OAPB is not cyclic because ∠OAP + ∠OBP = 90° + 90° = 180°, so it IS cyclic! Actually, a quadrilateral with opposite angles supplementary is cyclic. Here ∠OAP = ∠OBP = 90°, so sum = 180°, hence OAPB is cyclic. Then ∠AOB + ∠APB = 180° ⇒ ∠AOB = 100°. The student's statement \"angles in a cyclic quadrilateral\" is vague; the correct property is \"opposite angles of a cyclic quadrilateral are supplementary\". A wrong evaluation (saying the student is fully correct or fully incorrect) reveals the evaluator does not check the cyclic condition or confuses the angle sum property.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires using both the equal-tangent-lengths property and the Pythagoras theorem to find an unknown distance. Provide a diagram description and the solution steps.",
+     "a": "Example: A circular well of radius 2 m has a rope tied to a point on its edge. The rope goes taut to a point 5 m above the ground on a nearby wall. If the point of contact is at ground level, find the rope length. Diagram: Circle (well) centre O, radius 2 m. Tangent from point P on wall (5 m above ground) touches at T. OT ⟂ PT. OT = 2 m, horizontal distance from wall to well centre = 3 m (say). Then OP² = 3² + 5² = 34, PT² = OP² - OT² = 34 - 4 = 30, PT = √30 m. A poor answer gives a trivial problem (e.g., direct Pythagoras without tangent) or omits the equal-tangent property, showing inability to synthesize a multi-concept scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

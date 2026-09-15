@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_013",
+   "title": "c11_cs_cbse_10_013",
+   "questions": [
+    {
+     "q": "What is the primary advantage of a circular queue over a linear queue implemented with a fixed-size array?",
+     "a": "A circular queue reuses memory locations that become free after dequeue operations, allowing continuous insertion until the queue is truly full (all slots occupied). A linear queue wastes memory because once rear reaches the last index, no more insertions are possible even if front has moved forward. WRONG ANSWER REVEALS: If student says \"circular queue is faster\" or \"uses less memory\", they confuse time complexity (both O(1)) with space utilization. The advantage is specifically about avoiding \"false full\" condition in fixed arrays.",
+     "self_check": true
+    },
+    {
+     "q": "In a circular queue of capacity 5 implemented with array indices 0-4, if front=3 and rear=1, how many elements are currently in the queue? Explain your reasoning.",
+     "a": "4 elements. Reasoning: The queue wraps around. Elements occupy indices 3,4,0,1 (front=3 to rear=1 inclusive). Formula: (rear - front + capacity) % capacity + 1 = (1-3+5)%5 + 1 = 3%5 + 1 = 3+1=4. WRONG ANSWER REVEALS: If student says 2 (1-3+1) or 5, they don't understand wrap-around counting. If they say \"cannot determine without count variable\", they haven't learned the index formula but know the ambiguity - this is partially correct but not the expected analytical answer.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the following operations on a circular queue of capacity 4 (indices 0-3) initially empty with front=0, rear=-1, using the \"sacrifice one slot\" method (full when (rear+1)%4 == front):\nenqueue(10), enqueue(20), enqueue(30), dequeue(), enqueue(40), enqueue(50), enqueue(60)\nShow the array state, front, rear after each step.",
+     "a": "Step-by-step:\n1. enqueue(10): rear=( -1+1)%4=0, arr[0]=10 → front=0, rear=0, arr=[10,_,_,_]\n2. enqueue(20): rear=(0+1)%4=1, arr[1]=20 → front=0, rear=1, arr=[10,20,_,_]\n3. enqueue(30): rear=(1+1)%4=2, arr[2]=30 → front=0, rear=2, arr=[10,20,30,_]\n4. dequeue(): val=arr[0]=10, front=(0+1)%4=1 → front=1, rear=2, arr=[10,20,30,_] (logical: 20,30)\n5. enqueue(40): rear=(2+1)%4=3, arr[3]=40 → front=1, rear=3, arr=[10,20,30,40]\n6. enqueue(50): check full? (3+1)%4=0 != front(1) → rear=0, arr[0]=50 → front=1, rear=0, arr=[50,20,30,40]\n7. enqueue(60): check full? (0+1)%4=1 == front(1) → QUEUE FULL, cannot insert.\nWRONG ANSWER REVEALS: If student inserts 60 at step 7, they forgot the full condition check. If they get different indices, they misapply modulo arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods for distinguishing full vs empty in circular queue: (a) using a count variable, (b) sacrificing one slot. Analyze trade-offs in terms of memory usage, code complexity, and performance.",
+     "a": "(a) Count variable: Uses all N slots, needs extra integer variable and increment/decrement on each op. Full when count==N, empty when count==0. Slightly more code but cleaner logic.\n(b) Sacrifice one slot: Uses only N-1 slots, no extra variable. Full when (rear+1)%N == front, empty when front==rear. Simpler code but wastes one slot.\nTrade-off: For small N, wasting one slot is significant (e.g., N=4 → 25% waste). For large N, negligible. Count method is preferred in modern systems where memory is cheap and clarity matters. WRONG ANSWER REVEALS: If student says \"both use same memory\" or \"sacrifice method is always better\", they miss the capacity trade-off. If they think count variable makes operations slower, they overestimate overhead of integer increment.",
+     "self_check": true
+    },
+    {
+     "q": "A student implements circular queue enqueue as:\n```\ndef enqueue(self, item):\n    if self.rear == self.capacity - 1:\n        self.rear = 0\n    else:\n        self.rear += 1\n    self.arr[self.rear] = item\n```\nEvaluate this code. What critical error does it contain? Provide a test case that fails.",
+     "a": "The code completely ignores the full condition and front pointer! It will overwrite elements when queue is full, and doesn't check if (rear+1)%capacity == front. Test case: capacity=3, enqueue(1), enqueue(2), enqueue(3) → queue full (front=0, rear=2). Now enqueue(4): rear becomes 0, overwrites arr[0] which is 1 (front element). Data loss occurs. WRONG ANSWER REVEALS: If student says \"it works for first few insertions\", they only test empty/partial queue. The error is missing boundary condition - classic senior secondary mistake of testing only happy path.",
+     "self_check": true
+    },
+    {
+     "q": "Design a circular queue variation that supports O(1) time for getFront(), getRear(), and getSize() operations while maintaining standard enqueue/dequeue. Specify what additional variables you need and how each operation updates them.",
+     "a": "Add: size variable (initialized 0). \nenqueue: if not full → rear=(rear+1)%capacity, arr[rear]=item, size+=1\ndequeue: if not empty → item=arr[front], front=(front+1)%capacity, size-=1, return item\ngetFront(): return arr[front] if size>0 else error\ngetRear(): return arr[rear] if size>0 else error\ngetSize(): return size\nAll O(1). WRONG ANSWER REVEALS: If student suggests traversing array for size, they don't understand auxiliary variable technique. If they forget to update size in both operations, they show incomplete understanding of state maintenance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

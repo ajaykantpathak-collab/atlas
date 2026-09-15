@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_002",
+   "title": "c12_cs_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the full form of LIFO and write the one-line definition of a stack as per the NCERT Class 12 Computer Science textbook.",
+     "a": "LIFO stands for Last-In-First-Out. A stack is a linear data structure in which insertion and deletion of elements take place at the same end, called the top of the stack. A wrong answer (e.g., \"First-In-First-Out\" or \"insertion at rear, deletion at front\") reveals confusion between stack and queue, which is the most common mix-up at this stage.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In a stack, I can remove the third element from the top if I really want to, because it's just a list in memory.\" Explain why this statement violates the stack ADT, using the terms 'top', 'push', and 'pop'.",
+     "a": "The stack ADT only permits access to the element at the top. Removing the third element would require popping the top two elements first, which changes the state of the stack and loses the LIFO guarantee. The statement treats the stack as an array with random access, ignoring the abstraction barrier. If a student defends the statement, they have not internalised that ADT restrictions are intentional design choices, not implementation limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the state of an initially empty stack after the following sequence of operations: push(10), push(20), pop(), push(30), push(40), pop(), pop(). Show the top element after each step.",
+     "a": "Step-by-step:\n1. push(10) → [10] (top=10)\n2. push(20) → [10, 20] (top=20)\n3. pop() → removes 20 → [10] (top=10)\n4. push(30) → [10, 30] (top=30)\n5. push(40) → [10, 30, 40] (top=40)\n6. pop() → removes 40 → [10, 30] (top=30)\n7. pop() → removes 30 → [10] (top=10)\nFinal stack: [10] with top=10. A wrong final state (e.g., [10, 20] or missing an element) indicates the student is not tracking the top pointer correctly or is applying FIFO by mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of a stack and a queue when the same input sequence 5, 10, 15 is inserted and then all elements are removed. Show the output order for each and explain which real-world situation each models.",
+     "a": "Stack (LIFO): push 5, push 10, push 15 → pop gives 15, 10, 5. Models a pile of books or browser back-button history. Queue (FIFO): enqueue 5, 10, 15 → dequeue gives 5, 10, 15. Models a line at a ticket counter. If the student swaps the orders, they have the two principles reversed. If they say both give the same output, they have not grasped that the access restriction (one end vs two ends) fundamentally changes the retrieval order.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer implements a stack using a Python list but allows `pop(0)` (removing from the front) in addition to `append()` and `pop()`. Evaluate whether this still qualifies as a stack ADT. Justify your answer.",
+     "a": "No, it does not qualify as a stack ADT. The stack ADT requires that deletion occurs only at the top (the most recently inserted element). Allowing `pop(0)` introduces FIFO behaviour, making it a hybrid structure that violates the LIFO contract. Code that relies on pure LIFO semantics (e.g., recursive call simulation) would break. A student who says \"it's still a stack because the list is the same\" confuses implementation with abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (different from plates, books, or browser history) that strictly follows LIFO. Describe the \"push\" and \"pop\" actions in your scenario and explain what would go wrong if FIFO were used instead.",
+     "a": "Example: A ladder being climbed by a single person. Push = step up onto the next rung; Pop = step down from the current rung. You must step down from the rung you last stepped onto (LIFO). If FIFO were used (step down from the bottom rung first), the person would be suspended in mid-air — physically impossible. A good answer identifies a scenario where reversal is inherent and explains the consequence of violating it. A weak answer gives a scenario that could work with FIFO (e.g., a queue of people) or fails to articulate the \"what goes wrong\" part.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

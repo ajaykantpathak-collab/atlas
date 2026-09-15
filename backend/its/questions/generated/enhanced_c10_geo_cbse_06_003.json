@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_003",
+   "title": "c10_geo_cbse_06_003",
+   "questions": [
+    {
+     "q": "Name the three primary raw materials required for the iron and steel industry and state the approximate ratio in which they are used in a blast furnace.",
+     "a": "The three primary raw materials are iron ore (hematite/magnetite), coking coal, and limestone. The approximate ratio is 1.5–2 tonnes of iron ore : 0.8–1 tonne of coking coal : 0.3–0.5 tonne of limestone per tonne of pig iron. A wrong answer (e.g., listing \"coal\" without specifying \"coking coal\" or giving a 1:1:1 ratio) reveals the student does not understand the chemical role of each material: iron ore provides Fe, coking coal provides carbon and heat, limestone acts as flux to remove silica as slag.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the iron and steel industry called a \"weight-losing industry\" and how does this determine its location in India? Explain using the concept of raw material index.",
+     "a": "It is a weight-losing industry because 2–3 tonnes of raw materials yield only 1 tonne of pig iron (significant weight loss during smelting). The raw material index (weight of localized raw materials / weight of product) is high (>2). Therefore, to minimize transport cost, plants locate near raw material sources (iron ore + coal) rather than near markets. A wrong answer focusing only on \"near iron ore\" misses the critical role of coking coal — both must be proximate, which is why the Damodar Valley (Jharia coal + Singhbhum/Keonjhar iron ore) is ideal. Students often forget limestone is ubiquitous and not a locational pull.",
+     "self_check": true
+    },
+    {
+     "q": "Given: A proposed integrated steel plant needs 10 million tonnes per annum (MTPA) of crude steel. Using the standard ratio (iron ore 1.6 t, coking coal 0.9 t, limestone 0.4 t per tonne of pig iron; pig iron to crude steel yield ~0.9), calculate the annual requirement of each raw material in million tonnes. Show steps.",
+     "a": "Step 1: Crude steel target = 10 MTPA. Pig iron needed = 10 / 0.9 = 11.11 MTPA.\nStep 2: Iron ore = 11.11 × 1.6 = 17.78 MTPA.\nStep 3: Coking coal = 11.11 × 0.9 = 10.00 MTPA.\nStep 4: Limestone = 11.11 × 0.4 = 4.44 MTPA.\nStep 5: Verify: Total raw material = 32.22 MTPA for 10 MTPA steel → weight loss ~69%.\nWrong calculation (e.g., applying ratios directly to 10 MTPA steel) shows the student misses the intermediate pig iron stage and yield loss — a common board exam trap in numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational advantages of Bhilai (Chhattisgarh) and Visakhapatnam (Andhra Pradesh) steel plants. Why is Bhilai raw-material-oriented while Visakhapatnam is port-based? Use a map mental model.",
+     "a": "Bhilai: Located in the Chotanagpur plateau fringe — gets iron ore from Dalli-Rajhara (22 km) and coking coal from Korba/Kargali (200 km). Low transport cost for heavy inputs. Visakhapatnam (RINL): Coastal location — imports coking coal (Australia) and exports steel; uses high-grade iron ore from Bailadila (Kirandul) brought via slurry pipeline (670 km) — a modern adaptation. Bhilai follows classical Weberian least-cost (raw material weight loss); Visakhapatnam follows export-orientation and imported coal economics. A wrong answer that says \"both are near iron ore\" ignores the coal source difference — Bhilai uses domestic coal, Vizag imports coal.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's per capita steel consumption is low (≈75 kg) compared to the world average (≈230 kg), so expanding integrated steel capacity in the Chotanagpur region alone will solve the deficit.\" Consider raw material logistics, infrastructure, and environmental constraints.",
+     "a": "The statement is flawed. Expanding only in Chotanagpur faces: (1) coking coal shortage — India imports 85% of coking coal; (2) railway congestion on Howrah-Delhi main line for ore/coal movement; (3) environmental clearance delays in forest-rich areas; (4) water scarcity in summer. New capacity must be coastal (like Vizag, Kalinganagar) to use imported coal and serve export markets. A good evaluation weighs raw material security vs. infrastructure bottlenecks. A wrong answer that agrees ignores the coking coal import dependency and the National Steel Policy's push for 300 MT capacity by 2030 with coastal clusters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new 5 MTPA integrated steel plant in India. Choose four criteria (with weights), score two candidate sites (one inland near ore/coal, one coastal), and justify your final choice in 3 sentences.",
+     "a": "Criteria & weights: Raw material access (30%), Infrastructure (rail/port/power) (25%), Market access (20%), Environmental compliance ease (15%), Land cost (10%).\nSite A (Inland, e.g., Latehar, Jharkhand): Ore/coal proximity = 9, Infra = 5, Market = 6, Env = 4, Land = 8 → Weighted = 6.55.\nSite B (Coastal, e.g., Dhamra, Odisha): Ore/coal proximity = 6 (pipeline/rail), Infra = 9 (port), Market = 9 (export), Env = 7, Land = 5 → Weighted = 7.25.\nChoose Site B because coastal location enables imported coking coal, export competitiveness, and better infrastructure — aligning with India's current steel policy direction. A poor answer uses equal weights or ignores imported coal reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

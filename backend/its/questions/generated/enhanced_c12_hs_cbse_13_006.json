@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_006",
+   "title": "c12_hs_cbse_13_006",
+   "questions": [
+    {
+     "q": "A student writes: \"To detect metanil yellow in turmeric, add conc. HCl — if magenta colour appears, metanil yellow is present.\" Is this statement correct? If not, what is the correct reagent and observation?",
+     "a": "The statement is incorrect. Conc. HCl alone does not produce a magenta colour with metanil yellow. The correct test uses **concentrated HCl + a few drops of water** (or simply dilute HCl) — metanil yellow gives a **magenta/pink colour** that disappears on dilution. A common error is confusing this with the **lead chromate test** (for lead chromate adulteration in turmeric) which uses conc. HCl to give a yellow solution of lead chloride. The student likely memorised \"magenta colour\" but missed the reagent condition (dilute vs conc. acid) and confused two different adulterants in turmeric.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Baudouin test (or modified Baudouin test) for adulteration of ghee with vanaspati use **furfural solution (or phloroglucinol in conc. HCl)** and not iodine solution? Explain the chemical basis.",
+     "a": "Iodine solution detects **unsaturation** (double bonds) via addition reaction, but both pure ghee (contains some unsaturated fats) and vanaspati (hydrogenated, but not fully saturated) react with iodine, giving false positives. The Baudouin test uses **furfural in conc. HCl** (or phloroglucinol in conc. HCl) which specifically detects **sesquiterpene lactones** (like cholesterol derivatives) present in **animal fats (ghee/butter)** but absent in vegetable fats (vanaspati). A **pink/red colour** develops only with pure ghee; vanaspati shows no colour. Students often confuse \"Baudouin test for vanaspati\" — it is actually a test for **purity of ghee** (presence of animal fat), not a direct test for vanaspati. The correct interpretation: **colour = pure ghee; no colour = adulterated with vanaspati**.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a sample of mustard oil suspected to be adulterated with argemone oil. You have BaCl₂ solution, conc. H₂SO₄, conc. HCl, and nitric acid. Design a 4-step test sequence to confirm argemone oil, stating the reagent, observation, and chemical reason at each step.",
+     "a": "Step 1: Take 1 mL oil sample in a test tube. Add 1 mL **conc. HNO₃**. Heat gently. **Observation**: Brown/orange fumes (NO₂) evolve. **Reason**: Nitration of sanguinarine (alkaloid in argemone oil) — characteristic of argemone. Step 2: Cool. Add 1 mL **conc. HCl**. **Observation**: Yellow precipitate forms. **Reason**: Sanguinarine hydrochloride is insoluble in conc. HCl. Step 3: Filter the yellow ppt. Dissolve in minimal **conc. H₂SO₄**. **Observation**: Blood-red colour appears. **Reason**: Formation of sanguinarine sulphate (red). Step 4: To the original oil sample (fresh), add **BaCl₂ solution**. **Observation**: Yellow precipitate. **Reason**: Barium sanguinarinate formation — confirmatory for argemone oil. Students often skip the nitric acid nitration step or use BaCl₂ directly without conc. HCl pre-treatment, missing the specificity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the detection of **kesari dal (Lathyrus sativus) in besan** vs **metanil yellow in turmeric**. Both use acid-based tests. What is the fundamental difference in the chemical principle, and why can't the same reagent be used for both?",
+     "a": "Kesari dal detection uses **conc. HCl + simmering** → **pink/red colour** due to **β-N-oxalyl-L-α,β-diaminopropionic acid (β-ODAP)**, a neurotoxic amino acid that forms a coloured complex under acidic hydrolysis. Metanil yellow detection uses **dilute HCl** → **magenta colour** due to **azo dye structure (pH-sensitive chromophore)** that protonates in acid. The difference: kesari dal test relies on **hydrolysis of a specific toxin** requiring conc. acid and heat, while metanil yellow test relies on **pH-dependent colour change of an azo dye** requiring only dilute acid. Using conc. HCl on metanil yellow gives a yellow solution (no magenta); using dilute HCl on kesari dal extract gives no colour (no hydrolysis). Students mistakenly think \"acid test\" works universally — reagent concentration and temperature are specific to the adulterant's chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer forum receives a complaint: \"Milk supplied to our colony tests negative for water (lactometer reading 1.030) but causes stomach upset.\" The milk vendor claims it's pure. As a food safety student, evaluate: (a) Why lactometer reading alone is insufficient, (b) Two specific adulterants that evade lactometer but cause health issues, (c) The tests you would recommend for each.",
+     "a": "(a) Lactometer measures **specific gravity** (density relative to water). Adulterants like **skim milk powder, urea, detergent, starch, or salt** can **increase density** to match pure milk (1.028–1.032), masking water addition or other dilution. (b) **Urea** (added to increase non-protein nitrogen, mimics protein content) and **detergent** (added for foaming/emulsification, mimics fat globules) — both raise specific gravity but cause renal/kidney damage and gastrointestinal corrosion respectively. (c) **Urea test**: Take 1 mL milk + 1 mL paradimethylaminobenzaldehyde (DMAB) in conc. HCl → yellow colour (urea + DMAB → diazo coupling). **Detergent test**: Take 5 mL milk + 5 mL water, shake vigorously → **persistent dense foam** (vs. transient foam in pure milk) OR add 1 mL bromocresol purple → colour change due to pH shift. Students often think \"lactometer = purity test\" — it only detects water, not solids-not-fat manipulation or chemical adulterants.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"adulterant detective\" flowchart for a school lab kit that can test **any one** of these four common adulterants in their respective foods using **only three shared reagents**: (1) conc. HCl, (2) conc. H₂SO₄, (3) BaCl₂ solution. Specify the food-adulterant pair, the test sequence, and how you differentiate between them if two are present in different samples tested sequentially.",
+     "a": "**Flowchart for Argemone Oil in Mustard Oil** (chosen because it uses all three reagents uniquely): \n1. **Sample A (mustard oil)**: Add conc. HNO₃ (not in kit — but if only 3 reagents allowed, use **conc. H₂SO₄** as nitrating agent substitute? No — H₂SO₄ doesn't nitrate. So kit must include HNO₃. *Correction*: With only HCl, H₂SO₄, BaCl₂ — **argemone oil cannot be fully confirmed**. \n**Better pair**: **Metanil yellow in turmeric** + **Lead chromate in turmeric** differentiation using shared reagents: \n- Reagent 1: **Conc. HCl** → Lead chromate dissolves (yellow soln); Metanil yellow → no change. \n- Reagent 2: **Dilute HCl** (made from conc. HCl) → Metanil yellow → magenta; Lead chromate → no change. \n- Reagent 3: **BaCl₂** → Not used here. \n**True 3-reagent kit for 2 adulterants in different foods**: \n**Test 1: Argemone oil in mustard oil** → Needs HNO₃ (not in kit). \n**Test 2: Kesari dal in besan** → Needs conc. HCl + heat (in kit). \n**Test 3: Metanil yellow in turmeric** → Needs dilute HCl (from conc. HCl). \n**Conclusion**: A 3-reagent kit (conc. HCl, conc. H₂SO₄, BaCl₂) **cannot** comprehensively test all major adulterants — **HNO₃ is essential for argemone**, **iodine for starch**, **DMAB for urea**. The student learns that **reagent selection is adulterant-specific**; a universal mini-kit is a myth. Good answer acknowledges this limitation and designs a flowchart for **two adulterants that share reagents** (e.g., kesari dal and metanil yellow both use HCl at different concentrations).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_6",
+   "title": "c9_math_ch4_6",
+   "questions": [
+    {
+     "q": "Factorise by grouping: `ax + ay + bx + by`. Write the final factorised form.",
+     "a": "`(a + b)(x + y)`. A wrong answer like `(a + x)(a + y)` or `a(x + y) + b(x + y)` (partially factorised) reveals the student either does not recognise the common binomial after grouping, or stops at the intermediate step without factoring out the common bracket. They may also incorrectly group as `(ax + bx) + (ay + by)` and then fail to see `(a + b)` as the common factor.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we cannot directly factorise `x³ + x² + x + 1` by taking out a single common factor from all four terms, but grouping works.",
+     "a": "There is no single factor common to all four terms (the last term `1` has no variable factor). Grouping works because we can split into `(x³ + x²) + (x + 1)`, factor `x²` from the first group and `1` from the second, giving `x²(x + 1) + 1(x + 1)`, then factor out the common binomial `(x + 1)`. A wrong explanation like \"we group to make it simpler\" without identifying the absence of a global common factor and the emergence of a common binomial reveals a procedural rather than conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Factorise completely: `2x²y - 2xy² + 3x - 3y`. Show all steps.",
+     "a": "Step 1: Group as `(2x²y - 2xy²) + (3x - 3y)`. Step 2: Factor `2xy` from first group: `2xy(x - y)`. Factor `3` from second group: `3(x - y)`. Step 3: Expression becomes `2xy(x - y) + 3(x - y)`. Step 4: Factor out common binomial `(x - y)`: `(x - y)(2xy + 3)`. A wrong answer like `(x - y)(2xy - 3)` reveals a sign error when factoring `3` from `(3x - 3y)` — the student may write `3(x + y)` instead of `3(x - y)`. Another error: `(2xy + 3)(x + y)` from incorrectly factoring `-2xy²` as `+2xy(y)` instead of `-2xy(y)`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factorisation of `ac + ad + bc + bd` and `ac - ad + bc - bd`. How does the sign pattern affect the grouping and the final factors?",
+     "a": "For `ac + ad + bc + bd`, group as `(ac + ad) + (bc + bd) = a(c + d) + b(c + d) = (a + b)(c + d)`. For `ac - ad + bc - bd`, group as `(ac - ad) + (bc - bd) = a(c - d) + b(c - d) = (a + b)(c - d)`. The sign of the second term in each original pair determines the sign inside the common binomial. A wrong answer that claims both give `(a + b)(c + d)` reveals the student ignores the subtraction signs and treats all operations as addition, a common sign-error pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorises `6x² + 5x - 6` by grouping as follows: `6x² + 9x - 4x - 6 = 3x(2x + 3) - 2(2x + 3) = (2x + 3)(3x - 2)`. Is this correct? Justify your answer.",
+     "a": "Yes, it is correct. The student split the middle term `5x` into `9x - 4x` (since `9 × (-4) = -36 = 6 × (-6)` and `9 + (-4) = 5`), then grouped as `(6x² + 9x) + (-4x - 6)`. Factoring gives `3x(2x + 3) - 2(2x + 3) = (2x + 3)(3x - 2)`. Expanding back: `(2x + 3)(3x - 2) = 6x² - 4x + 9x - 6 = 6x² + 5x - 6`. A wrong judgment like \"incorrect because grouping only works for 4-term expressions given directly\" reveals the student does not recognise that splitting the middle term of a quadratic is a strategic application of grouping, a key bridge to c9_math_ch4_8.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-term polynomial in variables `p` and `q` that factorises to `(2p - 3q)(p + 4q)`. Show how you constructed it.",
+     "a": "Expand the product: `(2p - 3q)(p + 4q) = 2p² + 8pq - 3pq - 12q² = 2p² + 5pq - 12q²`. To make it a 4-term expression suitable for grouping, keep it as `2p² + 8pq - 3pq - 12q²`. Group as `(2p² + 8pq) + (-3pq - 12q²) = 2p(p + 4q) - 3q(p + 4q) = (p + 4q)(2p - 3q)`. A poor answer that just writes `2p² + 5pq - 12q²` (3 terms) or cannot show the grouping steps reveals the student cannot reverse-engineer the process, indicating they only know the forward algorithm by rote.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

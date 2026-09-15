@@ -1,0 +1,187 @@
+{
+ "catalog": "catalog_class9_maths_iemh104.json",
+ "concepts": [
+  {
+   "id": "iemh.104.4.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 33 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 40 * 40"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 8 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 42 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 13 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "iemh.104.4.2",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 28 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 44 * 44"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 7 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 76 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 6 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "iemh.104.4.3",
+   "family": "identities",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 13 * 13 - 2 * 13 * 2 + 2 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 20 * 20 - 6 * 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 * 4 + (2 + 5) * 4 + 2 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 10000 + 2 * 100 * 2 + 2 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 100 * 100 - 2 * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
+   ]
+  },
+  {
+   "id": "iemh.104.4.4",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 5 * 9 + 2 * 6",
+      "den = 6 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -2 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 2 / 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (8 / 2 + 12 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(6 / 3 - 3 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (21 / 15) / (3 / 3)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "num = 5 * 9 + 2 * 6",
+    "den = 6 * 9",
+    "val = num / den"
+   ]
+  }
+ ]
+}

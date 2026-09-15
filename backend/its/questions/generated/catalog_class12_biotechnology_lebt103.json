@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt103",
+ "concepts": [
+  {
+   "id": "lebt103.1",
+   "title": "Isolation of Nucleic Acids from Cells",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Isolation of Nucleic Acids from Cells' refers to.",
+     "a": "Extracting DNA or RNA means rupturing the boundary, shielding the treasure and purifying it: lysozyme digests bacterial walls, SDS or CTAB dissolves membranes while CTAB's ionic strength swaps DNA for polysaccharides, EDTA starves nucleases of divalent ions at mild alkaline pH, chloroform-isoamyl deproteinisation splits phases, and chilled ethanol drops the nucleic acid out of solution - with GITC-phenol-chloroform preferentially pulling RNA into the aqueous phase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Isolation of Nucleic Acids from Cells'.",
+     "a": "Break the wall, block the nucleases, split the phases and precipitate - four moves that free intact nucleic acid from any cell.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Isolation of Nucleic Acids from Cells' taught, and from which source text?",
+     "a": "3.2 (source: lebt103.txt section 3.2, Figs. 3.1-3.2, Box 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.2",
+   "title": "Restriction Enzymes Types and Cleavage Distances",
+   "questions": [
+    {
+     "q": "Using the method 'Restriction Enzymes Types and Cleavage Distances', work with: end_site = 10, start_site = 6, type1_distance = 12, type3_distance = 120. Carry the chain through step by step and give the final value of site_span.",
+     "a": "4 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Restriction Enzymes Types and Cleavage Distances' and work with: end_site = 400, start_site = 4, type1_distance = 60, type3_distance = 100. Carry the chain through step by step and give the final value of site_span.",
+     "a": "396 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Restriction Enzymes Types and Cleavage Distances' refers to.",
+     "a": "Restriction endonucleases cut DNA at specific 4-8 bp recognition sites, mostly palindromic, and fall into three classes: Type I cleaves randomly around a thousand bases away with SAM, magnesium and ATP, Type II cuts precisely within the site needing only magnesium - hence its starring role in cloning - and Type III cuts some twenty-four to twenty-six bases away; names encode the source microbe, genus, species, strain and discovery order as in EcoRI or HindIII.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Restriction Enzymes Types and Cleavage Distances'.",
+     "a": "Only Type II cuts inside its recognition site; compare the cut distances of Types I and III to see how far off-target they work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Restriction Enzymes Types and Cleavage Distances', in plain ASCII form.",
+     "a": "distance_ratio = type1_distance / type3_distance",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.3",
+   "title": "Enzyme Toolkit for DNA Manipulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Enzyme Toolkit for DNA Manipulation' refers to.",
+     "a": "Beyond the cutters, cloning borrows a whole enzyme bench: DNA ligase seals 5-phosphate to 3-hydroxyl using ATP or NAD, DNA polymerase extends only from a primer's free 3-OH end, alkaline phosphatase strips terminal phosphates while polynucleotide kinase restores them, terminal transferase adds template-free homopolymer tails, reverse transcriptase copies RNA into cDNA, and poly-A polymerase adenylates RNA ends.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Toolkit for DNA Manipulation'.",
+     "a": "Every joining, filling, tailing and copying job has a dedicated enzyme - match the chemistry to the tool.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Enzyme Toolkit for DNA Manipulation' taught, and from which source text?",
+     "a": "3.3 (source: lebt103.txt section 3.3 (iii)-(ix), Figs. 3.5-3.8)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.4",
+   "title": "Modes of DNA Transfer into Hosts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modes of DNA Transfer into Hosts' refers to.",
+     "a": "Nature moves DNA three ways - transformation by direct uptake, transduction by hitchhiking phage, and conjugation through an F-pilus bridging donor to recipient - and the laboratory extends the menu with calcium chloride heat shock, electric-pulse electroporation, liposome fusion, direct microinjection into the nucleus and gene-gun bombardment of DNA-coated gold particles.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modes of DNA Transfer into Hosts'.",
+     "a": "Pick the delivery route by the host - chemical cocktails for bacteria, pores or bullets for stubborn walls and membranes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Modes of DNA Transfer into Hosts' taught, and from which source text?",
+     "a": "3.4 (source: lebt103.txt section 3.4, Figs. 3.9-3.12)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.5",
+   "title": "Screening Recombinants by Insertional Inactivation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Screening Recombinants by Insertional Inactivation' refers to.",
+     "a": "Because only a lucky few cells receive the right construct, screening exploits lost functions: direct selection keeps antibiotic-resistant transformants alive, insertional inactivation knocks out a marker gene when the insert lands inside it - tetracycline plates keep all transformants while ampicillin replica plates expose those whose ampR was wrecked - and blue-white screening reads lacZ, where intact enzyme turns X-gal blue and disrupted lacZ leaves recombinant colonies white; GFP offers a fluorescent variant.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Screening Recombinants by Insertional Inactivation'.",
+     "a": "Whichever marker the insert breaks tells you which plate or colour hides the recombinant colony.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Screening Recombinants by Insertional Inactivation' taught, and from which source text?",
+     "a": "3.5 (source: lebt103.txt section 3.5, Figs. 3.13-3.14)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.6",
+   "title": "Blotting Techniques Southern Northern Western",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Blotting Techniques Southern Northern Western' refers to.",
+     "a": "Blotting pins molecules onto nitrocellulose, nylon or PVDF membranes for probing: Edwin Southern's capillary transfer finds DNA sequences with labelled probes; northern blotting of 1977 does the same for RNA on charged nylon with formamide buffer; and Burnette's 1981 western runs SDS-PAGE proteins onto membrane and flags the target with a specific antibody - together tracing a gene, its transcript and its protein, with the eastern blot spotting post-translational modifications.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blotting Techniques Southern Northern Western'.",
+     "a": "Southern asks about DNA, northern about RNA, western about protein - same membrane logic, different probe.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Blotting Techniques Southern Northern Western' taught, and from which source text?",
+     "a": "3.6 (source: lebt103.txt section 3.6, Figs. 3.15-3.17, Box 3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.7",
+   "title": "PCR Amplification Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'PCR Amplification Arithmetic', work with: cycles = 15, template_count = 6. Carry the chain through step by step and give the final value of net_new.",
+     "a": "196602 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'PCR Amplification Arithmetic' and work with: cycles = 10, template_count = 300. Carry the chain through step by step and give the final value of net_new.",
+     "a": "306900 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'PCR Amplification Arithmetic' refers to.",
+     "a": "Kary Mullis's polymerase chain reaction photocopies DNA exponentially through thermal cycling - strands separate near 95 degrees Celsius, primers anneal around 50-55, and Taq polymerase from Thermus aquaticus extends at 72 - so the copy count doubles every cycle toward two raised to the cycle number, with real-time qPCR trading gels for SYBR-green fluorescence and Ct values that fall as template rises.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PCR Amplification Arithmetic'.",
+     "a": "Multiply the starting molecules by two raised to the cycle number; a low Ct betrays abundant template.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PCR Amplification Arithmetic', in plain ASCII form.",
+     "a": "copies = template_count * 2 ** cycles",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt103.8",
+   "title": "Candidate Genes and DNA Libraries",
+   "questions": [
+    {
+     "q": "Using the method 'Candidate Genes and DNA Libraries', work with: gene_bp = 75, genome_bp = 8, haploid_bp = 100. Carry the chain through step by step and give the final value of diploid_bp.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Candidate Genes and DNA Libraries' and work with: gene_bp = 24, genome_bp = 80, haploid_bp = 360. Carry the chain through step by step and give the final value of diploid_bp.",
+     "a": "720 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Candidate Genes and DNA Libraries' refers to.",
+     "a": "Finding one 3000-3500 bp gene inside a 3.2 billion base haploid genome is a needle-in-haystack problem, solved by hunting candidate genes tied to disease or agronomic traits and by banking clones: a genomic library houses every fragment of the genome, while a cDNA library made through reverse transcriptase stores only the intron-free transcripts active in a chosen tissue, ready as probes or expression templates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Candidate Genes and DNA Libraries'.",
+     "a": "Divide genome size by gene size to measure the search problem, then let genomic or cDNA libraries shrink it to a shelf.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Candidate Genes and DNA Libraries', in plain ASCII form.",
+     "a": "genome_fold = genome_bp / gene_bp",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

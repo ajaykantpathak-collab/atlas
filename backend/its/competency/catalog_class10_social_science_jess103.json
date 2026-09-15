@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Water Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jess.103.3.1",
+   "title": "Water Scarcity and the Need for Conservation",
+   "section": "3",
+   "definition": "Though three-fourths of the earth's surface is covered with water, only a small proportion is freshwater fit for use; rising populations, industry and irrigation multiply demand, and even high-rainfall regions like Cherapunji face shortages - making water conservation and management a national necessity.",
+   "formula": "-",
+   "key_idea": "Plenty of water, little of it usable: scarcity is built by demand, waste and uneven supply.",
+   "textbook_ref": "jess103.txt opening sections on water scarcity",
+   "question_patterns": [
+    "why do we face water scarcity when most of the earth is covered with water",
+    "how do population and industry increase water demand",
+    "can a high rainfall area like Cherapunji face water shortage - explain",
+    "what are the causes of water scarcity in India - list them",
+    "why is conservation of water necessary - discuss",
+    "suggest ways your locality can save water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "separate salt from fresh",
+     "explain": "Only a tiny share of all water is usable freshwater."},
+    {"step": 2, "action": "grow the demand",
+     "explain": "Population, farming, industry and cities multiply consumption."},
+    {"step": 3, "action": "see the mismatch",
+     "explain": "Uneven rainfall and wasteful use turn even wet regions dry."}
+   ]
+  },
+  {
+   "id": "jess.103.3.2",
+   "title": "Multipurpose River Projects and Water Disputes",
+   "section": "3",
+   "definition": "Independent India built dams as temples of modern progress - Bhakra-Nangal, Hirakud and Nagarjuna Sagar - serving irrigation, power, flood control and water supply; but large projects also displaced people, submerged forests and sparked river water disputes between states.",
+   "formula": "-",
+   "key_idea": "Dams serve many purposes but carry many costs: benefits and displacements must be weighed together.",
+   "textbook_ref": "jess103.txt sections on multipurpose river projects and water disputes",
+   "question_patterns": [
+    "why were multipurpose river projects launched after independence",
+    "name the benefits of large dams with examples",
+    "what are the criticisms against multipurpose projects - discuss",
+    "explain the Narmada Bachao Andolan and its concerns",
+    "why do river water disputes arise between states - give examples",
+    "how do dams change the natural flow of rivers - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the purposes",
+     "explain": "Irrigation, electricity, flood control and drinking water top the aims."},
+    {"step": 2, "action": "list the costs",
+     "explain": "Displacement, deforestation and disrupted river ecology follow."},
+    {"step": 3, "action": "balance the view",
+     "explain": "Projects need fair rehabilitation and sharing of river waters."}
+   ]
+  },
+  {
+   "id": "jess.103.3.3",
+   "title": "Rainwater Harvesting and Traditional Systems",
+   "section": "3",
+   "definition": "Long before pipes and dams, India harvested rain: khadins and johads in Rajasthan, rooftop tankas, bamboo drip irrigation in the northeast and inundation channels in flood plains; modern rooftop rainwater harvesting revives this wisdom, turning every roof into a catchment and every home into a water bank.",
+   "formula": "-",
+   "key_idea": "Catch rain where it falls: rooftop harvesting and traditional structures store our own water.",
+   "textbook_ref": "jess103.txt sections on rainwater harvesting and traditional methods",
+   "question_patterns": [
+    "what is rainwater harvesting - explain rooftop harvesting",
+    "name the traditional water harvesting systems of different regions",
+    "what are khadins and johads - where are they used",
+    "how does bamboo drip irrigation work in the northeast",
+    "why is rainwater harvesting compulsory in some cities - discuss",
+    "design a rainwater harvesting plan for your school"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "catch the rain",
+     "explain": "Rooftops and slopes act as catchments channeling rainwater."},
+    {"step": 2, "action": "store or soak it",
+     "explain": "Tankas, ponds and recharge pits hold water or return it underground."},
+    {"step": 3, "action": "reuse wisely",
+     "explain": "Stored rain meets dry-season needs and recharges wells."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jess103.txt exercises",
+   "questions": [
+     "Explain why water is a renewable but finite resource.",
+     "Discuss the advantages and criticisms of multipurpose river projects.",
+     "Describe traditional rainwater harvesting systems with examples."
+   ]
+  }
+ ]
+}

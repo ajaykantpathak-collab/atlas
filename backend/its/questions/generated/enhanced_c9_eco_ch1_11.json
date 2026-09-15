@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_11",
+   "title": "c9_eco_ch1_11",
+   "questions": [
+    {
+     "q": "What was the level of India's foreign exchange reserves in June 1991, and why did this trigger the economic reforms?",
+     "a": "India's foreign exchange reserves stood at approximately $1.2 billion in June 1991, sufficient for only about two weeks of imports. This critically low level meant India could not pay for essential imports like oil and fertiliser, risking sovereign default. The crisis forced the government to seek IMF assistance, which came with conditionality requiring structural reforms. A wrong answer (e.g., \"$5 billion\" or \"reserves were comfortable\") reveals the student does not grasp the severity of the 1991 balance-of-payments crisis as the immediate trigger for reforms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the abolition of industrial licensing for most industries (except 18 specified sectors) in the 1991 Industrial Policy Statement represented a fundamental shift from the pre-1991 regime.",
+     "a": "Pre-1991, the Industries (Development and Regulation) Act, 1951 required private firms to obtain government licences for capacity expansion, new products, or location changes — giving bureaucrats discretion over investment decisions. The 1991 policy removed licensing for all but 18 industries (later reduced further), shifting investment decisions to entrepreneurs responding to market demand. A wrong answer focusing only on \"more freedom\" without contrasting bureaucratic discretion vs. market signals shows the student misses the institutional shift from administrative allocation to price-based allocation of capital.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the compound annual growth rate (CAGR) of India's merchandise exports from 1990-91 to 1999-2000 and interpret what this indicates about trade liberalisation impact.\nData: Exports 1990-91 = $18.1 billion; Exports 1999-2000 = $44.5 billion.",
+     "a": "Step 1: Identify formula: CAGR = (Ending Value / Beginning Value)^(1/n) - 1, where n = 9 years.\nStep 2: Ratio = 44.5 / 18.1 = 2.4586.\nStep 3: 2.4586^(1/9) = 1.105 (approx).\nStep 4: CAGR = 10.5% per annum.\nStep 5: Interpretation: Exports grew at over 10% annually during the 1990s, significantly faster than the 1980s average (~7%), reflecting tariff reductions (peak rate from 300% to 50%), removal of quantitative restrictions, and exchange rate depreciation making Indian goods competitive. A wrong calculation (e.g., simple average 14.6%) or missing interpretation reveals inability to work with time-series trade data and connect policy to outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-1991 FDI policy (maximum 40% equity cap, case-by-case approval via FIPB/FERA) with the post-1991 automatic approval route for 51% equity in 34 high-priority industries. What does this shift imply about the government's view of foreign capital?",
+     "a": "Pre-1991, foreign capital was viewed with suspicion — FERA (1973) treated foreign firms as potential exploiters, requiring case-by-case clearance with 40% equity ceiling. Post-1991, the automatic route for 51% in 34 industries (capital goods, metallurgy, electrical equipment, etc.) signalled foreign capital as a source of technology, management practices, and export market access — not just finance. The shift from \"control\" to \"facilitation\" reflects a strategic choice to integrate into global production chains. A wrong answer treating both regimes as \"FDI allowed\" misses the qualitative regime change from restrictive gatekeeping to competitive invitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 1991 financial sector reforms (interest rate deregulation, CRR/SLR reduction, entry of private banks) were less important than industrial and trade reforms for India's growth acceleration in the 1990s.\"",
+     "a": "The statement is incorrect. Financial sector reforms were complementary and essential: Narasimham Committee (1991, 1998) recommendations cut SLR from 38.5% to 25% and CRR from 15% to 5.5% by 2000, freeing bank funds for private lending. Interest rate deregulation allowed banks to price risk, while new private banks (HDFC, ICICI, UTI) introduced competition and technology. Without credit allocation efficiency, industrial delicensing would not have translated into actual investment — firms need finance to expand. A wrong evaluation treating reforms in isolation reveals inability to see interdependence: real sector liberalisation requires financial sector deepening to function.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a policy brief (150 words) for a state government in 1995 arguing why it should align its state-level industrial policies with the central government's liberalisation framework, using two specific central reforms as evidence.",
+     "a": "A strong brief cites: (1) Industrial delicensing — states no longer need to clear capacity expansions for non-listed industries, so state single-window clearance should focus only on the 18 reserved sectors (e.g., alcohol, cigars, hazardous chemicals). (2) FDI automatic route — states should create investment promotion boards that fast-track projects in the 34 priority industries without referring to FIPB, since central approval is automatic up to 51%. Evidence: Maharashtra and Gujarat attracted disproportionate FDI in 1990s by aligning early. A poor brief repeats generic \"liberalisation is good\" without naming specific central reforms (delicensing list, automatic route sectors) or explaining state-level administrative changes needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

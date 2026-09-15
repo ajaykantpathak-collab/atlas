@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_9",
+   "title": "c9_chem_ch3_9",
+   "questions": [
+    {
+     "q": "What is the molecular mass of carbon dioxide (CO₂) if atomic mass of C = 12 u and O = 16 u?",
+     "a": "44 u. Calculation: (1 × 12) + (2 × 16) = 12 + 32 = 44 u. A wrong answer like 28 u reveals the student forgot to multiply oxygen's atomic mass by its subscript 2, treating CO₂ as CO. An answer of 44 g/mol reveals confusion between molecular mass (unit u) and molar mass (unit g/mol) - a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the molecular mass of water (H₂O) is 18 u but the molecular mass of hydrogen peroxide (H₂O₂) is 34 u, even though both contain only hydrogen and oxygen.",
+     "a": "Water has 2 H atoms (2 × 1 = 2 u) and 1 O atom (16 u) = 18 u. Hydrogen peroxide has 2 H atoms (2 u) and 2 O atoms (32 u) = 34 u. The difference arises from the number of oxygen atoms, not the types of elements. A student saying \"both have H and O so mass should be similar\" reveals the misconception that molecular mass depends only on which elements are present, not their quantities - violating the law of constant proportions (c9_chem_ch3_2).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molecular mass of aluminium sulphate Al₂(SO₄)₃. Atomic masses: Al = 27 u, S = 32 u, O = 16 u.",
+     "a": "342 u. Steps: Al₂ = 2 × 27 = 54 u. Inside bracket: SO₄ = 32 + (4 × 16) = 32 + 64 = 96 u. Three brackets: 3 × 96 = 288 u. Total = 54 + 288 = 342 u. A wrong answer of 150 u (54 + 96) reveals the student ignored the subscript 3 outside the bracket. An answer of 306 u (54 + 3×32 + 12×16 but miscalculating oxygen) reveals arithmetic errors in handling multiple brackets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular masses of ethanol (C₂H₅OH) and dimethyl ether (CH₃OCH₃). Both have formula C₂H₆O. What does this tell you about molecular mass and molecular structure?",
+     "a": "Both have identical molecular mass = (2×12) + (6×1) + 16 = 46 u. This demonstrates that molecular mass depends only on the molecular formula (types and numbers of atoms), not on structural arrangement. A student claiming different masses reveals confusion between constitutional isomers and different compounds - they think connectivity changes atomic composition. This connects to c9_chem_ch3_4 (covalent bonding) where same atoms can bond differently.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates molecular mass of CuSO₄·5H₂O as 160 u (Cu=63.5, S=32, O=16). Identify the error and give the correct value.",
+     "a": "Error: The student calculated only CuSO₄ (63.5 + 32 + 64 = 159.5 ≈ 160 u) but ignored the 5 water molecules (5H₂O). Correct: CuSO₄ = 159.5 u. 5H₂O = 5 × (2+16) = 5 × 18 = 90 u. Total = 249.5 u. This tests evaluation of hydrate formulae - a common board exam pattern. Missing the dot notation reveals the student doesn't understand that \"·5H₂O\" means 5 water molecules are chemically part of the crystal structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a method to verify experimentally that the molecular mass of CO₂ is 44 u using only a balloon, baking soda, vinegar, and a weighing balance. Explain the principle.",
+     "a": "React known mass of NaHCO₃ with excess CH₃COOH in a conical flask fitted with balloon. Capture CO₂ gas in balloon. Mass loss of flask = mass of CO₂ evolved. Measure volume of CO₂ at room conditions. Use density = mass/volume. At STP, 1 mole = 22.4 L. But for Class 9: simpler method - weigh dry ice (solid CO₂) sublimation in closed system. A poor answer suggesting \"weigh the gas directly\" reveals misunderstanding that gases have mass and can be weighed by displacement. Good answer shows comprehension of mass conservation (c9_chem_ch3_1) and gas properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

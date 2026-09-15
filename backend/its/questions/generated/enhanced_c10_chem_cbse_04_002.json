@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_002",
+   "title": "c10_chem_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define catenation and tetravalency of carbon. How are they different from each other?",
+     "a": "Catenation is the ability of an element to bond to itself, forming chains or rings (C–C bonds). Tetravalency is the combining capacity of carbon to form exactly four covalent bonds to satisfy its octet. A wrong answer often confuses the two: e.g., \"tetravalency is the ability to form chains\" or \"catenation means carbon has valency 4\". This reveals the student has memorised terms without understanding the structural implication — tetravalency dictates *how many* bonds, catenation dictates *with whom* (self-linking).",
+     "self_check": true
+    },
+    {
+     "q": "Silicon (Si) is in the same group as carbon (Group 14) and also has 4 valence electrons. Yet silicon forms very few compounds compared to carbon. Explain why silicon shows negligible catenation while carbon shows extensive catenation.",
+     "a": "Carbon's small atomic size allows effective sideways overlap of p-orbitals, forming strong C–C sigma bonds (bond enthalpy ~347 kJ/mol). Silicon is larger (Period 3); its diffuse orbitals overlap poorly, giving weak Si–Si bonds (~226 kJ/mol). Weak Si–Si bonds break easily, so long silicon chains are unstable. A wrong answer might say \"silicon doesn't have 4 valence electrons\" or \"silicon is a metalloid so it doesn't form covalent bonds\". This reveals a misunderstanding of periodic trends and bond strength — the student knows Group 14 elements have 4 valence electrons but fails to apply atomic size/bond energy reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the structural formulas (showing all bonds) for the two structural isomers of C₄H₁₀. Name each isomer. Verify that each carbon atom satisfies tetravalency in your structures.",
+     "a": "Isomer 1 (straight chain): CH₃–CH₂–CH₂–CH₃ (Butane). Each terminal C has 3 C–H + 1 C–C = 4 bonds; each middle C has 2 C–H + 2 C–C = 4 bonds.\nIsomer 2 (branched): CH₃–CH(CH₃)–CH₃ (2-Methylpropane). Central C has 1 C–H + 3 C–C = 4 bonds; three terminal Cs each have 3 C–H + 1 C–C = 4 bonds.\nA wrong answer may draw a structure with a carbon having 5 bonds (e.g., CH₃–C(CH₃)₂–CH₃ with central C having 4 C–C bonds and no H) or forget hydrogens entirely. This reveals the student treats carbon as a \"connector\" without enforcing the tetravalency constraint — a critical error for isomerism questions in boards.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a cyclic hydrocarbon with 5 carbon atoms and writes its molecular formula as C₅H₁₂. Is this correct? If not, give the correct formula and explain the error using the concept of tetravalency and ring closure.",
+     "a": "Incorrect. The correct formula for a cyclopentane (saturated 5-membered ring) is C₅H₁₀. In an open-chain alkane C₅H₁₂, the two terminal carbons are –CH₃ (three H each). When the chain closes to form a ring, those two terminal carbons become –CH₂– (two H each) because each now forms two C–C bonds within the ring. Two hydrogens are lost. A wrong answer keeping C₅H₁₂ shows the student does not visualise how ring closure changes the bonding environment — they count carbons and hydrogens mechanically without applying tetravalency to the new connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Because carbon is tetravalent, every carbon compound must contain exactly four bonds per carbon atom. Therefore, carbon cannot form double or triple bonds.\" Identify the error and correct it with an example.",
+     "a": "The statement is false. Tetravalency means carbon forms *four covalent bonds in total*, not four *single* bonds. A double bond counts as two bonds, a triple bond as three. Example: Ethene (CH₂=CH₂) — each carbon has 2 C–H single bonds + 1 C=C double bond (2 bonds) = 4 bonds total. Ethyne (CH≡CH) — each carbon has 1 C–H + 1 C≡C triple bond (3 bonds) = 4 bonds total. A student who agrees with the statement thinks \"valency = number of single bonds only\". This misconception leads to errors in drawing unsaturated compounds and calculating hydrogen deficiency index.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using matchsticks (for bonds) and clay balls of two colours (carbon = black, hydrogen = white) to demonstrate both tetravalency and catenation. List the steps and the key observation a student must record to prove each property.",
+     "a": "Activity: \n1. Make a methane model: 1 black ball (C) with 4 matchsticks connected to 4 white balls (H). Observation: Carbon uses all 4 matchsticks → tetravalency.\n2. Make ethane: Join two black balls with 1 matchstick (C–C). Add 3 white balls to each black ball. Observation: Each carbon still has 4 matchsticks total (1 C–C + 3 C–H) → tetravalency maintained; C–C bond formed → catenation.\n3. Extend to propane, butane (chains). Then make isobutane (branched): central C connected to 3 other C + 1 H. Observation: Branching possible → catenation includes branches.\n4. Close a chain to form cyclobutane: 4 black balls in a ring, each with 2 white balls. Observation: Ring formation → catenation includes cycles; each C still has 4 bonds (2 C–C + 2 C–H).\nA poor answer only makes straight chains and says \"carbon makes long chains\" — missing branching, rings, and the explicit verification of 4 bonds per carbon in every model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

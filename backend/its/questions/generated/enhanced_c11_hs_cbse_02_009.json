@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_02_009",
+   "title": "c11_hs_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define \"imaginary audience\" and \"personal fable\" as described by David Elkind. How do they differ in their cognitive mechanism?",
+     "a": "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them, stemming from inability to differentiate own self-focus from others' attention. Personal fable: The adolescent's conviction that their experiences, feelings, and destiny are unique and unprecedented, arising from over-differentiation of self from others. Difference: Imaginary audience = \"Everyone sees ME\" (fusion); Personal fable = \"No one is LIKE me\" (separation). A wrong answer conflating them as \"self-centeredness\" reveals failure to grasp the distinct cognitive operations: one is a failure of perspective-taking (assume others share my focus), the other is an exaggeration of self-distinctiveness (deny shared humanity).",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old girl refuses to attend a cousin's wedding because of a small pimple on her forehead, saying \"Everyone will stare at it and judge my family's hygiene.\" Her 10-year-old brother has a similar pimple but doesn't care. Using Piaget and Elkind, explain why the same physical stimulus produces different emotional responses.",
+     "a": "The 14-year-old operates in formal operations: she can construct hypothetical scenarios (\"They will think...\"), engage in recursive perspective-taking (\"They think I think...\"), and abstract a single detail (pimple) into a global social judgment (\"family hygiene\"). The 10-year-old is in concrete operations: she perceives the pimple as a physical fact, not a social symbol, and cannot simulate others' mental states recursively. Elkind's imaginary audience amplifies this: the adolescent *knows* she is self-focused and erroneously projects this focus onto others. A wrong answer citing only \"hormones\" or \"puberty\" misses the cognitive-structural prerequisite: without formal operational thought, the imaginary audience cannot be constructed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item questionnaire to measure \"personal fable\" ideation in Indian adolescents aged 15-17. Each item must be a statement rated on a 5-point Likert scale. Justify why each item captures the construct and not general self-esteem or narcissism.",
+     "a": "Item 1: \"My problems are so unique that no adult—parents, teachers, or counselors—can truly understand them.\" (Captures uniqueness-of-experience belief; self-esteem items reference worth, not epistemic isolation.) Item 2: \"Even if others have faced similar situations, my outcome will be different because I am fundamentally different.\" (Captures invulnerability/special destiny; narcissism items reference superiority, not ontological distinctness.) Item 3: \"Rules that apply to others (e.g., curfew, study hours) shouldn't apply to me because my circumstances are exceptional.\" (Captures exemption-from-norms belief; self-esteem doesn't imply rule exemption.) A poor answer uses items like \"I am special\" or \"I deserve the best\"—these measure grandiosity, not the cognitive distortion of personal fable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how imaginary audience manifests in an urban Indian adolescent (private school, nuclear family, social media active) versus a rural Indian adolescent (government school, joint family, limited internet). Analyze the role of cultural context in shaping the *content* of the imagined audience.",
+     "a": "Urban: Imagined audience = peers on Instagram, college admissions officers, \"modern\" relatives; content = appearance, English fluency, brand choices, romantic desirability. Rural: Imagined audience = village elders, caste/community gatekeepers, marriage-market evaluators; content = modesty, obedience, domestic skills, family reputation. Both experience the *same cognitive structure* (formal operations + perspective-taking error), but cultural scripts supply the *evaluative criteria*. Joint family reduces imaginary audience intensity for rural adolescents because surveillance is real, not imagined—parents/grandparents *actually* monitor. Nuclear family urban adolescents lack real-time surveillance, so they internalize an imagined panopticon. A wrong answer treating imaginary audience as uniform across contexts misses the sociocultural mediation of cognitive universals.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Adolescent mood swings are purely hormonal; cognitive interventions (like CBT) are ineffective until neurobiology stabilizes.\" Use evidence from the NCERT text and developmental science.",
+     "a": "The claim is reductionist and false. NCERT explicitly states mood swings arise from \"trying to make sense of the variety of changes she/he is experiencing at different levels\"—cognitive appraisal is central. Formal operational thought enables *rumination* (recursive negative thinking), which amplifies hormonal signals into sustained mood episodes. CBT works precisely by targeting these cognitive appraisals (e.g., \"Everyone noticed my pimple\" → \"How many people actually looked?\"). Neuroimaging shows prefrontal regulation *improves* with cognitive training during adolescence. A wrong answer accepting the claim ignores the bidirectional hormone-cognition loop: cortisol from social-evaluative threat (imaginary audience) further impairs prefrontal function, creating a cycle that *cognitive* interventions can break.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-minute role-play scenario for a Class 11 life-skills session demonstrating how an adolescent can use hypothetical-deductive reasoning to regulate an emotional spiral triggered by imaginary audience. Provide the script with cognitive strategy labels.",
+     "a": "Scenario: Priya (16) gets a B+ on a test. Spiral: \"Everyone sees my grade → They think I'm stupid → My parents will be ashamed → I'll never get into DU → My life is over.\" Role-play script with strategy labels: (1) **Catch the hypothetical chain**: \"Wait—I'm chaining 5 hypotheticals. Let me test each.\" (2) **Evidence-check imaginary audience**: \"Who actually saw my grade? Only me and the teacher. Did anyone ask? No.\" (3) **Generate alternative hypotheses**: \"Maybe the teacher curves grades. Maybe B+ is the class median.\" (4) **Decatastrophize**: \"Even if parents are disappointed, they've been disappointed before and still love me. One grade ≠ DU rejection.\" (5) **Action planning**: \"I'll review the paper, identify weak topics, ask teacher for help.\" A poor answer shows the character simply \"calming down\" without demonstrating the cognitive restructuring steps—missing the formal operational *tool* being taught.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

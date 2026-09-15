@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_009",
+   "title": "c12_cs_cbse_01_009",
+   "questions": [
+    {
+     "q": "What is the fundamental structural difference between Client-Server and Peer-to-Peer architectures in terms of node roles?",
+     "a": "In Client-Server, roles are strictly separated: servers only provide services, clients only request them. In P2P, every node acts as both client and server (peer), both requesting and providing services. A wrong answer (e.g., \"P2P has a central server but it's hidden\") reveals the misconception that P2P still relies on a central coordinator — confusing it with hybrid models like Napster's original design.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Client-Server architecture is generally easier to secure than a Peer-to-Peer architecture, using the concepts of trust boundaries and attack surface.",
+     "a": "Client-Server has a clear trust boundary: the server is the single trusted authority; security policies (authentication, encryption, access control) are enforced at one point. P2P has no central trust anchor — every peer is a potential attacker, expanding the attack surface to all nodes. A wrong answer (e.g., \"P2P is more secure because it's decentralized\") shows confusion between resilience (availability) and security (confidentiality/integrity) — decentralization helps availability but complicates trust establishment.",
+     "self_check": true
+    },
+    {
+     "q": "A startup wants to build a real-time multiplayer game for 10,000 concurrent players with low latency. They have limited budget for server infrastructure. Which architecture would you recommend and why? Justify with three technical factors.",
+     "a": "Recommend Client-Server with cloud-based auto-scaling game servers. Reasons: (1) Deterministic latency — server acts as authoritative state synchronizer, critical for fair gameplay; (2) Cheat prevention — server validates all actions, whereas P2P trusts peers; (3) Manageable infrastructure — cloud providers (AWS/GCP) offer game server fleets with per-second billing, fitting limited budget. A wrong answer choosing P2P ignores that real-time games require authoritative state and low-latency coordination, which P2P struggles with due to variable peer connections and lack of central arbitration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scalability behavior of Client-Server vs. P2P as the number of users increases from 100 to 1,000,000. Analyze bandwidth cost distribution and single-point-of-failure risk.",
+     "a": "Client-Server: Server bandwidth grows linearly with users (O(n)) — becomes bottleneck; single point of failure. P2P: Total bandwidth grows but is distributed — each peer contributes upload capacity; no single point of failure. However, P2P suffers from churn (peers joining/leaving) and lookup overhead (O(log n) in structured P2P like DHT). A wrong answer claiming \"P2P scales infinitely with no cost\" ignores churn management, NAT traversal, and the fact that asymmetric broadband (low upload) limits peer contribution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Blockchain networks like Bitcoin use a pure Peer-to-Peer architecture, so they have no centralization risks.\" Defend or refute with technical arguments.",
+     "a": "Refute. While Bitcoin's transaction propagation is P2P, centralization risks exist: (1) Mining pool concentration — top 3 pools often control >50% hash rate (de facto centralization); (2) Developer centralization — core protocol changes decided by few maintainers; (3) Exchange/API centralization — most users interact via centralized exchanges (Coinbase, Binance) or Infura-like RPC endpoints. A wrong answer accepting the statement confuses network topology (P2P gossip) with governance and economic centralization — a critical distinction in distributed systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid architecture for a video-on-demand platform that uses Client-Server for metadata/search and P2P for video chunk delivery. Sketch the data flow for a user requesting a movie, labeling components and protocols at each step.",
+     "a": "Expected flow: (1) User (client) → HTTPS request → API Server (metadata: title, chunk hashes, peer list) — Client-Server; (2) Client connects to Tracker/DHT → gets list of peers holding chunks — P2P control plane; (3) Client → direct TCP/uTP connections → multiple peers → downloads video chunks in parallel — P2P data plane; (4) Client simultaneously uploads chunks to other peers — P2P reciprocity; (5) Periodic heartbeat to API server for session/auth — Client-Server. A poor answer omits the metadata server, assumes pure P2P discovery (ignoring bootstrap), or misses that chunk verification requires trusted hashes from the central server.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

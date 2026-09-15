@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_012",
+   "title": "c11_ip_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of an infinite loop in a `while` statement?",
+     "a": "An infinite loop occurs when the loop condition remains true indefinitely because the loop control variable is not updated inside the loop body, or the update does not move the variable toward making the condition false. A wrong answer (e.g., \"it runs for a very long time\") reveals the student confuses long-running loops with truly non-terminating ones and misses the structural cause: absent or ineffective variable update.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `for i in range(1, 10):` prints numbers 1 through 9, not 1 through 10.",
+     "a": "The `range(start, stop)` function generates integers from `start` up to but excluding `stop`. So `range(1, 10)` yields 1,2,...,9 (9 values). A wrong answer (e.g., \"it prints 1 to 10\") reveals the student assumes the stop value is inclusive, a classic off-by-one misconception rooted in confusing human counting (1 to 10 inclusive) with Python's half-open interval convention.",
+     "self_check": true
+    },
+    {
+     "q": "The following code intends to sum the first 5 even numbers (2+4+6+8+10=30). Identify the error and correct it.\n```python\ntotal = 0\nfor num in range(2, 10, 2):\n    total += num\nprint(total)\n```",
+     "a": "The code outputs 20 (2+4+6+8) because `range(2, 10, 2)` stops before 10. To include 10, the stop must be 11 or 12: `range(2, 11, 2)` or `range(2, 12, 2)`. A wrong answer (e.g., changing step to 1) reveals the student does not understand how `range`'s stop parameter interacts with step size, and cannot calculate the correct stop value for a given last term.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two loops. Which has an infinite loop risk and which has an off-by-one error? Explain.\n```python",
+     "a": "Loop A has an infinite loop risk because `i` is never incremented, so `i <= 5` stays true forever. Loop B correctly prints 1 to 5 (no off-by-one). A wrong answer (e.g., saying Loop B misses 5) reveals confusion between `range(n)` giving 0..n-1 and the effect of adding 1 inside the loop. The student fails to trace the control variable's actual values.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this loop to compute factorial of 5 (5! = 120). Evaluate the correctness and suggest a fix if needed.\n```python\nfact = 1\nfor n in range(1, 5):\n    fact *= n\nprint(fact)\n```",
+     "a": "The code computes 1*2*3*4 = 24 (missing factor 5). This is an off-by-one error: `range(1,5)` excludes 5. Fix: `range(1, 6)` or `range(2, 6)` with `fact=1`. A wrong evaluation (e.g., \"it's correct\") shows the student cannot map the mathematical definition of factorial (product 1 to n) to the half-open interval of `range`, indicating a gap between mathematical notation and Python implementation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a `while` loop that prints even numbers from 2 to 20 inclusive. Include a deliberate off-by-one error in the condition, then explain how to fix it.",
+     "a": "Example error: `while num < 20:` with `num=2` and `num+=2` prints up to 18. Fix: change to `while num <= 20:`. A poor answer (e.g., using `for` loop instead, or not explaining why `<` fails) reveals the student cannot deliberately construct and articulate the boundary condition error, meaning they lack metacognitive awareness of the inclusive/exclusive distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

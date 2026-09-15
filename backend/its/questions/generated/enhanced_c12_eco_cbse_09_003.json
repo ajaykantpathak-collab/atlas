@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_003",
+   "title": "c12_eco_cbse_09_003",
+   "questions": [
+    {
+     "q": "Under the Minimum Reserve System, what is the minimum value of gold that RBI must hold as assets against currency issued, and what is the total minimum asset backing required?",
+     "a": "**Correct answer:** RBI must hold gold worth at least ₹115 crore, and total assets (gold + foreign exchange + government securities) worth at least ₹200 crore.\n**What a wrong answer reveals:** If a student says \"gold worth ₹200 crore\" or \"foreign exchange worth ₹115 crore\", they have confused the sub-limit with the total limit. This is a classic board exam trap — the ₹115 crore gold requirement is a *component* of the ₹200 crore total, not the total itself. Students who miss this distinction lose 1 mark in a 3-marker question asking for \"asset backing requirements under MRS.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why does the RBI Act grant the sole right of note issue to RBI, and not to commercial banks or the government directly? Explain the economic reasoning.",
+     "a": "**Correct answer:** Sole note issue prevents over-issue (inflation), ensures uniform currency standard, maintains public confidence, and separates monetary policy (RBI) from fiscal policy (government). If commercial banks issued notes, they'd over-issue for profit; if government printed directly, it would finance deficits by printing money (fiscal dominance).\n**What a wrong answer reveals:** A student saying \"because RBI is the central bank\" gives a circular answer. One saying \"to control inflation\" states the outcome, not the institutional reason. The key is understanding **institutional separation of money creation from spending decisions** — a concept tested in CUET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "The Government of India's account with RBI shows a credit balance of ₹50,000 crore. It issues dated securities worth ₹30,000 crore (purchased by banks) and Treasury Bills worth ₹20,000 crore (purchased by RBI). It also receives ₹10,000 crore as tax revenue. Calculate the new credit balance in the government's account, assuming no expenditures.",
+     "a": "**Step 1:** Initial credit balance = ₹50,000 crore\n**Step 2:** Dated securities sold to banks = ₹30,000 crore → government receives funds → credit balance increases by ₹30,000 crore\n**Step 3:** Treasury Bills sold to RBI = ₹20,000 crore → RBI credits government account → credit balance increases by ₹20,000 crore\n**Step 4:** Tax revenue received = ₹10,000 crore → credit balance increases by ₹10,000 crore\n**Step 5:** New balance = 50,000 + 30,000 + 20,000 + 10,000 = **₹1,10,000 crore**\n**What a wrong answer reveals:** If a student subtracts the T-bill amount (thinking RBI \"pays\" for it) or ignores the dated securities (thinking only RBI transactions matter), they misunderstand that **all government borrowing — whether from market or RBI — credits the government account**. This tests the operational mechanics of public debt management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the currency issue mechanism under the Proportional Reserve System (pre-1957) and the Minimum Reserve System (post-1957). Which system allows greater elasticity in money supply, and why?",
+     "a": "**Correct answer:** Minimum Reserve System allows greater elasticity. Under PRS, RBI had to hold 40% gold/sterling reserves against note issue — rigid link between reserves and currency. Under MRS, only a fixed minimum (₹200 crore total, ₹115 crore gold) is required — once met, RBI can issue any amount of currency without additional reserves, giving full elasticity.\n**What a wrong answer reveals:** A student claiming PRS is more elastic confuses \"reserve backing\" with \"flexibility\". They miss that **MRS was adopted precisely to give RBI flexibility to expand money supply for planned development** — a key historical reasoning question in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Ways and Means Advances (WMA) by RBI to the government are inflationary because they amount to printing money to finance the fiscal deficit.\" Is this statement always true, sometimes true, or never true? Justify.",
+     "a": "**Correct answer:** **Sometimes true.** WMA are temporary overdrafts (normal WMA: up to 90 days; special WMA: against government securities). They are inflationary *only if* (a) the government doesn't repay within the period, forcing RBI to monetize the deficit permanently, or (b) they exceed the agreed limit and become de facto deficit financing. If repaid on time from tax/borrowing receipts, they are just cash management tools with no net money creation.\n**What a wrong answer reveals:** \"Always true\" confuses WMA with monetized deficit (RBI buying dated securities directly). \"Never true\" ignores that repeated rollovers = deficit financing. Board exams test this nuance in 4-6 marker \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where the Government of India needs to bridge a temporary cash mismatch of ₹15,000 crore for 45 days. Specify which RBI facility it would use, the interest rate benchmark, collateral requirement (if any), and the accounting entries in RBI's balance sheet.",
+     "a": "**Expected answer:**\n- **Facility:** Normal Ways and Means Advances (since ≤ 90 days)\n- **Interest rate:** Repo rate (currently linked to policy repo rate)\n- **Collateral:** None for normal WMA (unsecured); Special WMA requires government securities as collateral\n- **RBI Balance Sheet entries:**\n  - Asset side: \"Loans to Government — WMA\" ↑ by ₹15,000 crore\n  - Liability side: \"Government Deposits (Central Govt)\" ↑ by ₹15,000 crore (when credited to govt account)\n  - On repayment: Both reverse\n**What a poor answer reveals:** Missing the dual entry (asset + liability), confusing WMA with OMO (which involves securities), or stating \"bank rate\" instead of \"repo rate\" for WMA interest. This tests operational clarity needed for JEE-style caselets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

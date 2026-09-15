@@ -1,0 +1,352 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 9,
+ "chapter_title": "Lists",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs109.1",
+   "title": "Aggregate Built-ins: sum, min and max",
+   "section": "9.4 and Table 9.1",
+   "definition": "Three ready-made functions read a numeric list in one call: sum() totals the elements, min() returns the smallest and max() the largest, without disturbing the list itself.",
+   "formula": "total = sum(list1)",
+   "key_idea": "For the list [34, 12, 63, 39, 92, 44] the three calls answer 284, 12 and 92.",
+   "textbook_ref": "kecs109.txt, section 9.4, Table 9.1 (min, max, sum rows)",
+   "question_patterns": [
+    "For list1 = [34, 12, 63, 39, 92, 44], what do sum(list1), min(list1) and max(list1) return?",
+    "Write a function that returns the largest element of the list passed as a parameter.",
+    "A list of six prices totals 284 with a smallest entry of 12. What range do the values span from smallest to largest?",
+    "Why do sum(), min() and max() leave the original list unchanged?",
+    "Find the sum of [52, 8, 4, 2] and state which built-in you used."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the first four elements",
+     "explain": "Fold the leading elements into a partial sum.",
+     "compute": "partial = 34 + 12 + 63 + 39"
+    },
+    {
+     "step": 2,
+     "action": "add the remaining elements",
+     "explain": "Appending the last two completes the total.",
+     "compute": "subtotal = partial + 92 + 44"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "For the list [34, 12, 63], what does sum() return?",
+     "a": "109"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.2",
+   "title": "Average Marks with a Function",
+   "section": "9.8 and Program 9-4",
+   "definition": "The function computeAverage(list1, n) walks the collected marks, folds each into a running total, and divides by the number of students to produce the class average.",
+   "formula": "average = total_marks / students",
+   "key_idea": "The list is built with append() inside an input loop before the averaging function ever runs.",
+   "textbook_ref": "kecs109.txt, Program 9-4",
+   "question_patterns": [
+    "Marks 45, 89, 79, 76 and 55 are entered for 5 students. What average does computeAverage print?",
+    "Write a program that reads n marks into a list and reports the average using a function.",
+    "Why must the count n be passed to the function along with the list?",
+    "A class of 4 students scores 70, 65, 80 and 85. Compute the average marks.",
+    "What happens to the average if one student's marks are appended twice by mistake?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the marks",
+     "explain": "Each of the five marks joins the running total.",
+     "compute": "total = m1 + m2 + m3 + m4 + m5"
+    },
+    {
+     "step": 2,
+     "action": "divide by the student count",
+     "explain": "The average spreads the total over n students.",
+     "compute": "average = total / students"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Six students' marks total 420. What average does computeAverage report?",
+     "a": "70"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.3",
+   "title": "Append versus Extend",
+   "section": "9.4 and Exercise 2",
+   "definition": "append() drops its whole argument in as one single new element, even when the argument is itself a list, while extend() unwraps the argument list and attaches each element separately, so the two calls grow a list by different amounts.",
+   "formula": "after_extend = after_append + added_count",
+   "key_idea": "Appending [50, 60] adds one nested element; extending with [80, 90] adds two flat elements.",
+   "textbook_ref": "kecs109.txt, Table 9.1 (append, extend) and Exercise 2",
+   "question_patterns": [
+    "Starting from myList = [10, 20, 30, 40], what does myList look like after append([50, 60]) and then extend([80, 90])?",
+    "How many elements does myList hold after both operations of the previous question?",
+    "Why does append([50, 60]) create a nested element rather than two new numbers?",
+    "Which call would you use to merge a second list into the first, and why?",
+    "What error appears when a list is concatenated with a plain string using +?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "grow by the appended element",
+     "explain": "One nested element joins, whatever its inner size.",
+     "compute": "after_append = base_len + 1"
+    },
+    {
+     "step": 2,
+     "action": "grow by the extended elements",
+     "explain": "Each element of the argument list joins separately.",
+     "compute": "after_extend = after_append + added_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "list1 holds 3 elements. After list1.extend([80, 90]), how many elements does it hold?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.4",
+   "title": "Negative Step Slicing of Lists",
+   "section": "9.2.4",
+   "definition": "Slicing works on lists exactly as on strings: list1[n:m] copies positions n up to m minus 1, and a negative step walks from the end backwards, so list1[::-1] hands back the whole list reversed and list1[::-2] keeps every second element from the right.",
+   "formula": "kept = (abs(span) + step_size - 1) // step_size",
+   "key_idea": "A first index larger than the second yields an empty list, and a runaway second index shrinks to the list end.",
+   "textbook_ref": "kecs109.txt, section 9.2.4",
+   "question_patterns": [
+    "How many elements does list1[::-2] select from the list [1, 2, ..., 10], and which ones?",
+    "For the colour list of section 9.2.4, what do list1[2:6] and list1[-6:-2] return?",
+    "Why does list1[7:2] evaluate to an empty list?",
+    "Predict the output of list1[0:6:2] on the seven-element colour list.",
+    "What single slice expression reverses a list without creating an explicit loop?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the traversal span",
+     "explain": "With both ends defaulted the span equals the list size.",
+     "compute": "span = 0 - size"
+    },
+    {
+     "step": 2,
+     "action": "count the kept elements",
+     "explain": "Round the absolute span up over the step size.",
+     "compute": "kept = (abs(span) + step_size - 1) // step_size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What list does list1[::-1] return for the list [1, 2, 3]?",
+     "a": "[3, 2, 1]"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.5",
+   "title": "Linear Search Position",
+   "section": "9.8 and Program 9-5",
+   "definition": "The function linearSearch(num, list1) compares the target with each element from the front; on a match it returns the zero-based index, which the caller converts to a human-friendly position by adding one, and it returns None when nothing matches.",
+   "formula": "position = zero_based_index + 1",
+   "key_idea": "A target at index i costs i comparisons on elements before it, and the i plus oneth comparison finds it.",
+   "textbook_ref": "kecs109.txt, Program 9-5",
+   "question_patterns": [
+    "In the list 23, 567, 12, 89, 324, at which position is 12 found by linear search?",
+    "Write a function that returns the position of a number in a list, or a suitable message when absent.",
+    "How many comparisons does linear search make before locating the element at index 2?",
+    "Why does Program 9-5 print result + 1 rather than result itself?",
+    "What does linearSearch return when the number never appears, and how does the caller detect it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the elements before the hit",
+     "explain": "Each earlier element costs one failed comparison.",
+     "compute": "before_hit = zero_based_index"
+    },
+    {
+     "step": 2,
+     "action": "convert to a counting position",
+     "explain": "Adding one turns the zero-based index into the printed position.",
+     "compute": "position = before_hit + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Linear search finds 30 at zero-based index 4. What human-friendly position does the caller report?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.6",
+   "title": "Nested List Student Record",
+   "section": "9.5 and Exercise 7",
+   "definition": "A record such as ['Raman', 'A-36', [56, 98, 99, 72, 69], 78.8] nests the five subject marks inside a list, so two indices reach a single mark as stRecord[2][j], and dividing the inner total by five rebuilds the stored percentage.",
+   "formula": "percent = (m1 + m2 + m3 + m4 + m5) / 5",
+   "key_idea": "The first index picks the inner list, the second picks the element inside it.",
+   "textbook_ref": "kecs109.txt, section 9.5 and Exercise 7",
+   "question_patterns": [
+    "Which single statement fetches the fifth subject's marks from stRecord?",
+    "Verify that the stored percentage 78.8 equals the total of the five marks divided by five.",
+    "How would you change the student's name from Raman to Raghav in the record?",
+    "What does stRecord[2][1] return for the given record?",
+    "Write a statement that stores the maximum of the five marks in a variable."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the five subject marks",
+     "explain": "Add every mark stored in the nested list.",
+     "compute": "total = 56 + 98 + 99 + 72 + 69"
+    },
+    {
+     "step": 2,
+     "action": "divide by the subject count",
+     "explain": "Five subjects give the percentage 78.8 stored in the record.",
+     "compute": "percent = total / 5"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the record ['Ria', 'A-1', [56, 98, 99], 78.8], which first index picks the marks list?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.7",
+   "title": "Alias versus Clone of a List",
+   "section": "9.6 and Examples 9.3 to 9.5",
+   "definition": "Assigning list2 = list1 only binds a second name to the same list object, so changes through either name show up in both; a genuine independent copy needs slicing with [:], the list() constructor, or copy.copy().",
+   "formula": "clone = old_list[:] or list(old_list) or copy.copy(old_list)",
+   "key_idea": "After appending 10 through list1, the alias list2 also shows 10, while a clone still holds the old contents.",
+   "textbook_ref": "kecs109.txt, section 9.6",
+   "question_patterns": [
+    "After list2 = list1 and list1.append(10), why does printing list2 also show the appended 10?",
+    "Name the three ways of producing an independent copy of a list.",
+    "How does oldList[:] differ from oldList as the right side of an assignment?",
+    "A clone was made before the original was sorted. Does sorting the original disturb the clone?",
+    "What is an alias in the context of list assignment?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check object identity",
+     "explain": "Plain assignment shares one object id between both names; the three cloning routes create a new object whose later edits stay private."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Does the statement list2 = list1 create a clone or an alias?",
+     "a": "alias"
+    }
+   ]
+  },
+  {
+   "id": "kecs109.8",
+   "title": "Insert, Remove and Pop Shifting",
+   "section": "9.4 and Table 9.1",
+   "definition": "Because a list is mutable and ordered, insert() pushes later elements one place right, remove() deletes only the first match of a value, and pop() extracts the element at a given index (or the last one) while shrinking the list.",
+   "formula": "new_len = old_len - 1 after one pop or remove",
+   "key_idea": "Every insertion or deletion shifts the positions of the elements after the affected index.",
+   "textbook_ref": "kecs109.txt, Table 9.1 (insert, remove, pop)",
+   "question_patterns": [
+    "After list1.insert(2, 25) on [10, 20, 30, 40, 50], where does 25 sit and where does 30 move?",
+    "For [10, 20, 30, 40, 50, 60], what does pop(3) return and what remains in the list?",
+    "Why does remove(30) on [10, 20, 30, 40, 50, 30] leave one 30 behind?",
+    "How many elements remain after one pop() with no argument, and which element left?",
+    "Which exception appears when index() or remove() cannot find the requested element?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the shift rule",
+     "explain": "Insertion at index k moves every element from k onwards one place right; deletion at k moves them one place left, and pop returns the removed element."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which list method inserts an element at a chosen index, shifting later elements right?",
+     "a": "insert()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs109.we1",
+   "title": "Aggregating a marks list",
+   "concept_id": "kecs109.1",
+   "problem": "For list1 = [34, 12, 63, 39, 92, 44], compute the total, the smallest and the largest element.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "total the first four elements",
+     "explain": "34 + 12 + 63 + 39 forms the partial sum.",
+     "compute": "partial = 34 + 12 + 63 + 39"
+    },
+    {
+     "step": 2,
+     "action": "add the last two elements",
+     "explain": "92 and 44 complete the total of 284.",
+     "compute": "subtotal = partial + 92 + 44"
+    }
+   ],
+   "answer_note": "sum(list1) is 284, min(list1) is 12 and max(list1) is 92."
+  },
+  {
+   "id": "kecs109.we2",
+   "title": "Tracking list growth through append and extend",
+   "concept_id": "kecs109.3",
+   "problem": "myList starts as [10, 20, 30, 40]. After myList.append([50, 60]) and then myList.extend([80, 90]), how many elements does it hold?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "apply the append",
+     "explain": "The pair [50, 60] enters as a single nested element.",
+     "compute": "after_append = 4 + 1"
+    },
+    {
+     "step": 2,
+     "action": "apply the extend",
+     "explain": "Two flat elements 80 and 90 join separately.",
+     "compute": "after_extend = after_append + 2"
+    }
+   ],
+   "answer_note": "The list becomes [10, 20, 30, 40, [50, 60], 80, 90] with 7 elements."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs109.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 9 Exercise (items reworded)",
+   "questions": [
+    "Give the output: list1 = [12, 32, 65, 26, 80, 10]; list1.sort(); print(list1).",
+    "Give the output: list1 = [12, 32, 65, 26, 80, 10]; sorted(list1); print(list1), and explain the difference from the previous item.",
+    "Evaluate list1[:3] + list1[3:] and list1[len(list1)-1] for list1 = [1, 2, 3, 4, 5].",
+    "Differentiate append() and extend() with one example of each.",
+    "For list1 = [6, 7, 8, 9], explain the difference between list1 * 2, list1 *= 2 and list1 = list1 * 2.",
+    "Write a program that splits a list of positive and negative integers into two separate lists and prints all three.",
+    "Write a function that returns the second largest number from a list.",
+    "Write a program that removes duplicate elements from a list so each value appears only once."
+   ]
+  }
+ ]
+}

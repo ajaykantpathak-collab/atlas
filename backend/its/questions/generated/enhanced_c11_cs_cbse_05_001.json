@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_001",
+   "title": "c11_cs_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the default flow of execution in a Python program if no control flow statements are used?",
+     "a": "The default flow is **sequential**: statements execute one after another, from top to bottom, exactly once each. A wrong answer (e.g., \"random order\" or \"simultaneous\") reveals the student thinks execution is non-deterministic or parallel, indicating a fundamental gap in understanding how an interpreter processes code line by line.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a program to check if a number is positive, negative, or zero using three separate `if` statements (not `if-elif-else`). They claim it works correctly. Is this always true? Explain why or why not.",
+     "a": "It works **logically** for this specific problem because the three conditions (num > 0, num < 0, num == 0) are mutually exclusive — only one can be true. However, it is **inefficient** because all three conditions are evaluated every time, even after one is found true. A wrong answer (e.g., \"it fails\" or \"it's exactly the same as if-elif-else\") reveals the student doesn't understand that `if-elif-else` stops evaluating after the first true condition, while separate `if` statements do not — a critical distinction for performance and correctness when conditions overlap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet using a `while` loop that prints the numbers 10, 8, 6, 4, 2 (even numbers from 10 down to 2). Initialize a variable `num = 10`.",
+     "a": "```python\nnum = 10\nwhile num >= 2:\n    print(num)\n    num = num - 2\n```\n**Steps**: (1) Initialize `num = 10`; (2) Condition `num >= 2` is true → enter loop; (3) Print `num` (10); (4) Update `num = 8`; (5) Repeat until `num` becomes 0 (condition fails). A wrong answer (e.g., `num = num + 2`, or missing update, or condition `num > 2`) reveals the student cannot design the three parts of a loop: initialization, condition, and update — leading to infinite loops or wrong output.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of **indentation** in Python vs. **curly braces `{}`** in C++/Java for defining blocks in control flow. Why does Python's design make code more readable but also more fragile?",
+     "a": "In Python, indentation **is** the block delimiter — the interpreter uses whitespace level to decide which statements belong to the `if` or `while`. In C++/Java, braces `{}` define blocks; indentation is optional (for humans only). Python's design forces consistent visual structure, making code readable by default. But it is fragile: a single misplaced space (e.g., mixing tabs and spaces) changes the block structure silently, causing logic errors without syntax errors. A wrong answer (e.g., \"Python uses braces too\" or \"indentation doesn't matter\") shows the student hasn't internalized that indentation is syntactic, not cosmetic — a major source of bugs in Class 11 labs.",
+     "self_check": true
+    },
+    {
+     "q": "A program must calculate the sum of all even numbers between 1 and N (inclusive). Two approaches are proposed: (A) `for i in range(2, N+1, 2): total += i` and (B) `for i in range(1, N+1): if i % 2 == 0: total += i`. Evaluate which is better and justify based on **efficiency** and **clarity**.",
+     "a": "Approach (A) is **better**: it iterates only N/2 times (directly over even numbers), while (B) iterates N times and checks a condition each time. Both are O(N) asymptotically, but (A) has half the loop overhead and no branch prediction misses. Clarity: (A) expresses intent directly (\"step by 2\"), while (B) requires reading the modulo check. A wrong answer (e.g., \"both are same\" or \"B is better because it's more general\") reveals the student doesn't think about loop optimization or that `range(start, stop, step)` is designed for this exact pattern — a key skill for board exam \"efficiency\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) that requires **both** a conditional decision inside a loop. Write the pseudocode (not Python code) for it.",
+     "a": "**Scenario**: A Delhi Metro smart card system deducts fare per ride. If balance < minimum fare (₹10), it denies entry and prints \"Insufficient Balance\". Otherwise, it deducts fare based on distance zones (₹10, ₹20, ₹30, ₹40, ₹50). The user takes multiple rides until they choose to stop.\n\n**Pseudocode**:\n```\nbalance = initial_recharge_amount\nwhile user_wants_to_ride:\n    zone = input(\"Enter destination zone (1-5): \")\n    if zone == 1: fare = 10\n    elif zone == 2: fare = 20\n    elif zone == 3: fare = 30\n    elif zone == 4: fare = 40\n    else: fare = 50\n    \n    if balance >= fare:\n        balance = balance - fare\n        print(\"Entry allowed. Remaining balance:\", balance)\n    else:\n        print(\"Insufficient Balance. Please recharge.\")\n    user_wants_to_ride = input(\"Another ride? (yes/no): \")\n```\nA poor answer (e.g., only loop or only condition, no Indian context, vague steps) shows the student cannot synthesize selection + iteration — the core of control flow composition tested in board exam case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

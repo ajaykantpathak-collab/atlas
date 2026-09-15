@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_012",
+   "title": "c10_math_cbse_04_012",
+   "questions": [
+    {
+     "q": "A motorboat whose speed in still water is 18 km/h takes 1 hour more to go 24 km upstream than to return downstream to the same spot. If the speed of the stream is x km/h, which equation correctly represents this situation?",
+     "a": "Correct equation: 24/(18-x) - 24/(18+x) = 1. A wrong answer like 24/(18+x) - 24/(18-x) = 1 reveals the student does not understand that upstream speed is (boat speed - stream speed) and takes more time, so upstream time minus downstream time equals the extra hour. Another common error: writing 24/(x-18) which shows confusion about relative speed direction.",
+     "self_check": true
+    },
+    {
+     "q": "In the equation 30/(x-5) + 30/(x+5) = 9/2 derived from a boat problem, a student multiplies both sides by (x-5)(x+5) and gets 30(x+5) + 30(x-5) = (9/2)(x²-25). They then write 60x = (9/2)x² - 225/2. Is this step correct? Explain why or why not.",
+     "a": "Yes, the step is algebraically correct. The student correctly distributed 30 to get 30x+150+30x-150 = 60x, and (9/2)(x²-25) = (9/2)x² - 225/2. A wrong answer claiming it's incorrect often stems from not recognising that (x-5)(x+5) = x²-25, or from mistakenly thinking the 30 terms don't cancel. This tests understanding of algebraic identities (a+b)(a-b)=a²-b² from c9_math_ch4_2.",
+     "self_check": true
+    },
+    {
+     "q": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey. Form the quadratic equation and find the original speed of the train.",
+     "a": "Let original speed = x km/h. Time = 360/x. New speed = (x+5) km/h, new time = 360/(x+5). Given: 360/x - 360/(x+5) = 1. Multiply by x(x+5): 360(x+5) - 360x = x(x+5) → 1800 = x²+5x → x²+5x-1800=0. Factorise: (x+45)(x-40)=0 → x=40 or x=-45. Speed cannot be negative, so original speed = 40 km/h. A wrong answer like x=45 comes from incorrect factorisation (x+45)(x-40) giving roots -45, 40 but choosing 45 by sign error. Another error: writing 360/(x+5) - 360/x = 1 (reversed time difference) leading to x²+5x+1800=0 with no real roots.",
+     "self_check": true
+    },
+    {
+     "q": "Two problems: (A) A car covers 150 km. If speed increases by 10 km/h, time decreases by 30 minutes. (B) A car covers 150 km. If speed decreases by 10 km/h, time increases by 30 minutes. Compare the quadratic equations formed. Will they have the same positive root? Why or why not?",
+     "a": "For (A): 150/x - 150/(x+10) = 1/2 → x²+10x-3000=0. For (B): 150/(x-10) - 150/x = 1/2 → x²-10x-3000=0. The positive roots are different: (A) gives x=50 km/h, (B) gives x=60 km/h. A student who says \"yes, same root\" fails to see that the equations are not symmetric; the unknown x represents different quantities (original speed in A vs original speed in B). This tests analytical comparison of how the same time difference with opposite speed changes affects the equation structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A boat goes 12 km upstream and 40 km downstream in 8 hours. It goes 16 km upstream and 32 km downstream in 8 hours. Find speed of boat in still water and speed of stream.\" They let upstream speed = u, downstream speed = v, write 12/u + 40/v = 8 and 16/u + 32/v = 8, solve to get u=4, v=8, then say boat speed = (u+v)/2 = 6 km/h, stream speed = (v-u)/2 = 2 km/h. Is this solution fully correct? Identify any missing step.",
+     "a": "The solution is mathematically correct but incomplete for a board exam answer. The student must verify that u=4, v=8 satisfy the original equations (they do: 12/4+40/8=3+5=8; 16/4+32/8=4+4=8). They must also state that u and v are speeds so must be positive (they are). Finally, they must explicitly write: \"Speed of boat in still water = 6 km/h, speed of stream = 2 km/h.\" A student who stops at u=4, v=8 loses marks for not answering the question asked. Also, they should mention that u = boat speed - stream speed, v = boat speed + stream speed, so boat speed = (u+v)/2, stream speed = (v-u)/2.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on speed-time-distance that leads to the quadratic equation x² - 14x - 32 = 0, where x represents the speed of a train in km/h. The problem must involve a journey of 96 km and a time difference of 40 minutes. Write the full problem statement.",
+     "a": "Example problem: \"A train travels 96 km at a uniform speed. If the speed had been 8 km/h less, it would have taken 40 minutes more to cover the same distance. Find the original speed of the train.\" Check: Let speed = x km/h. Time = 96/x. Reduced speed = (x-8) km/h, time = 96/(x-8). Difference = 40 min = 2/3 hour. Equation: 96/(x-8) - 96/x = 2/3 → 96[x - (x-8)] / [x(x-8)] = 2/3 → 768 / (x²-8x) = 2/3 → 2304 = 2x² - 16x → x² - 8x - 1152 = 0. This does NOT match x²-14x-32=0. A correct problem would need different numbers. A valid problem for x²-14x-32=0: \"A train travels 96 km. If its speed were 2 km/h more, it would take 40 minutes less.\" Then: 96/x - 96/(x+2) = 2/3 → 96*2 / (x²+2x) = 2/3 → 192*3 = 2(x²+2x) → 576 = 2x²+4x → x²+2x-288=0. Still not matching. The point is to test if the student can reverse-engineer a problem from a given quadratic, understanding the relationship between coefficients and problem parameters. A poor answer reveals inability to connect the algebraic structure to the physical situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

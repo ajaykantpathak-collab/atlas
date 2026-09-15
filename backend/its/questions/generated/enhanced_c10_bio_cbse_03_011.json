@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_011",
+   "title": "c10_bio_cbse_03_011",
+   "questions": [
+    {
+     "q": "Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.",
+     "a": "Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy (surgical), Rhythm method (natural). A wrong answer reveals the student cannot distinguish between the categories — for example, listing \"copper-T\" as chemical instead of barrier/chemical combination, or confusing natural methods with barrier methods, indicating they memorised names without understanding mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a condom is considered both a contraceptive and a protective method against sexually transmitted infections, while an oral contraceptive pill is only a contraceptive.",
+     "a": "Correct answer: A condom creates a physical barrier that prevents semen from entering the vagina, thereby blocking both sperm (preventing fertilisation) and pathogens (preventing STI transmission). Oral pills contain hormones that suppress ovulation and thicken cervical mucus but do not create a physical barrier, so pathogens can still be exchanged during intercourse. A wrong answer suggests the student thinks pills also prevent STIs (common confusion from Class 9 c9_bio_ch3_11) or cannot articulate the dual function of barrier methods, showing lack of mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A newly married couple wants to delay their first child by two years but plans to have children later. They want a method that is reversible, does not require daily action, and has minimal hormonal side effects. Which contraceptive method would you recommend and why? Justify your choice by comparing it with two other methods.",
+     "a": "Correct answer: Copper-T (intrauterine device) is ideal — it is reversible, effective for 3-5 years without daily action, non-hormonal (copper ions prevent fertilisation by impairing sperm motility and viability), and fertility returns quickly after removal. Compared to oral pills (requires daily intake, hormonal side effects) and condoms (requires action at each intercourse, higher failure rate with typical use). A wrong answer recommending pills or condoms without addressing the \"no daily action\" or \"minimal hormonal side effects\" criteria shows inability to match method features to user needs — a key board exam application skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of surgical methods (vasectomy/tubectomy) versus natural methods (rhythm/withdrawal) in preventing pregnancy. Explain the biological reason for the difference in terms of where each method intervenes in the reproductive sequence.",
+     "a": "Correct answer: Surgical methods are nearly 100% effective because they permanently block gamete transport — vasectomy cuts the vas deferens preventing sperm in semen, tubectomy blocks fallopian tubes preventing egg-sperm meeting. Natural methods have high failure rates (20-25%) because they rely on predicting/avoiding the fertile window; ovulation timing varies, sperm survive 3-5 days, and withdrawal fails due to pre-ejaculate sperm. The biological reason: surgical methods act on anatomy (permanent structural block), natural methods act on behaviour (timing-dependent). A wrong answer stating \"surgical is better because it's permanent\" without explaining the mechanistic difference shows superficial comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Contraception is only needed for population control; if a country has low population density, contraceptive access is not a public health priority.\" Use biological and social reasoning.",
+     "a": "Correct answer: The statement is incorrect. Contraception serves multiple health purposes beyond population control: (1) Maternal health — spacing pregnancies reduces maternal mortality and anaemia (link to c6_biology_ch06_008 nutrition needs); (2) Preventing unsafe abortions — unwanted pregnancies lead to risky procedures; (3) STI prevention — barrier methods protect against infections (link to c10_bio_cbse_03_012); (4) Women's autonomy — reproductive choice enables education/economic participation. Even in low-density areas, these health benefits remain critical. A wrong answer agreeing with the statement reveals a narrow view of reproductive health as only demographic, ignoring the WHO definition of reproductive health as complete well-being.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple awareness activity for Class 10 students to demonstrate the difference in failure rates between contraceptive methods. Describe the materials, procedure, and what biological concept it illustrates.",
+     "a": "Expected answer: Activity — \"Contraception Reliability Simulation\". Materials: 100 beads (representing 100 couples), 4 boxes labelled with methods (Condom, Pill, Copper-T, Rhythm), chits with failure rates (Condom: 13%, Pill: 7%, Copper-T: 0.8%, Rhythm: 24%). Procedure: Students draw beads and place in boxes according to typical-use failure rates; count beads in each box to visualise unintended pregnancies per 100 couples. Concept illustrated: Typical-use failure rates differ due to human error (condom slippage, missed pills) vs method-inherent reliability (Copper-T requires no user action). A poor answer describing only a poster or lecture shows inability to translate biological data into experiential learning — a higher-order skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

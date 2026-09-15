@@ -1,0 +1,5863 @@
+---
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_001
+  name: Avogadro's number
+  latex: Na = 6.022 x 10**23 particles/mol
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - avogadro's-number
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_002
+  name: (STP
+  latex: 0 ^{\circ} C, 1 atm)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (stp
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_003
+  name: molecules
+  latex: n x 6.022 x 10**23
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecules
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_004
+  name: mass
+  latex: n x M
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - mass
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_005
+  name: '% element'
+  latex: (mass of element / molar mass of compound) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - '%-element'
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_006
+  name: Empirical formula
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - empirical-formula
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_007
+  name: 1. Find moles of each element
+  latex: n = mass / atomic mass
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - 1.-find-moles-of-each-element
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_008
+  name: Molecular formula
+  latex: (em\pirical formula)n
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecular-formula
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_009
+  name: VD
+  latex: molecular mass / 2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - vd
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_010
+  name: Molecular mass
+  latex: 2 x VD
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecular-mass
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_011
+  name: (M1 x V1) / n1
+  latex: (M2 x V2) / n2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (m1-x-v1)---n1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_012
+  name: (n
+  latex: stoichiometric coefficient from balanced equation)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (n
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_013
+  name: Titration (1
+  latex: '1 reaction, e.g., HCl + NaOH):'
+  variables:
+  - symbol: e
+    name: e
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: g
+    name: g
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - titration-(1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_014
+  name: M1 x V1
+  latex: M2 x V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - m1-x-v1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_015
+  name: M1 x V1
+  latex: M2 x V2 (moles conserved)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - m1-x-v1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_016
+  name: P1 x V1
+  latex: P2 x V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - p1-x-v1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_017
+  name: V1 / T1
+  latex: V2 / T2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - v1---t1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_018
+  name: (P1 x V1) / T1
+  latex: (P2 x V2) / T2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - (p1-x-v1)---t1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_019
+  name: PV
+  latex: nRT
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - pv
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_020
+  name: deg C
+  latex: K - 273
+  variables:
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - deg-c
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_021
+  name: STP
+  latex: 0 ^{\circ} C (273 K), 1 atm
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - stp
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_022
+  name: pH
+  latex: -log[H+]
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_023
+  name: pOH
+  latex: -log[OH-]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - poh
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_024
+  name: Kw
+  latex: '[H+][OH-] = 10**-14 (at 25 ^{\circ} C)'
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - kw
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_025
+  name: pH + pOH
+  latex: '14'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - ph-+-poh
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_026
+  name: '[H+]'
+  latex: Molarity of acid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - '[h+]'
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_027
+  name: pH
+  latex: -log(M)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_028
+  name: '[H+]'
+  latex: 2 x Molarity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - '[h+]'
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_029
+  name: pH
+  latex: -log(2 x M)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_030
+  name: '[OH-]'
+  latex: Molarity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - '[oh-]'
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_031
+  name: pOH
+  latex: -log(M)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - poh
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_032
+  name: pH
+  latex: 14 - pOH
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 3. ACIDS, BASES, AND pH
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 3.-acids,-bases,-and-ph
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_033
+  name: mass deposited
+  latex: (M x I x t) / (n x F)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: I
+    name: I
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: t
+    name: t
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: F
+    name: F
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - mass-deposited
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_034
+  name: moles e-
+  latex: Q / 96500 = I x t / 96500
+  variables:
+  - symbol: Q
+    name: Q
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: I
+    name: I
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: t
+    name: t
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - moles-e-
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_035
+  name: Na+ -> Na
+  latex: n = 1
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - na+-->-na
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_036
+  name: Cu2+ -> Cu
+  latex: n = 2
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - cu2+-->-cu
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_037
+  name: Al3+ -> Al
+  latex: n = 3
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - al3+-->-al
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_038
+  name: Ag+ -> Ag
+  latex: n = 1
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - ag+-->-ag
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_039
+  name: Cl- -> Cl2
+  latex: n = 1 (per Cl-)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 4. ELECTROLYSIS -- FARADAY'S LAWS
+  subject: chemistry
+  concept_tags:
+  - cl--->-cl2
+  - 4.-electrolysis----faraday's-l
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_040
+  name: No formulas -- these are trends
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - no-formulas----these-are-trend
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_041
+  name: '- Atomic size'
+  latex: decreases across period, increases down group
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --atomic-size
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_042
+  name: '- Ionization energy (IE)'
+  latex: increases across period, decreases down group
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --ionization-energy-(ie)
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_043
+  name: '- Electron affinity (EA)'
+  latex: generally increases across period, decreases down group
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --electron-affinity-(ea)
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_044
+  name: '- Electronegativity (EN)'
+  latex: increases across period, decreases down group
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --electronegativity-(en)
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_045
+  name: '- IE'
+  latex: N > O (N has half-filled 2p3, extra stable)
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: O
+    name: O
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --ie
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_046
+  name: '- IE'
+  latex: Be > B (Be has full 2s2, extra stable)
+  variables:
+  - symbol: B
+    name: B
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --ie
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_047
+  name: '- EA'
+  latex: F < Cl (F is small, electron-electron repulsion)
+  variables:
+  - symbol: F
+    name: F
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 5. PERIODIC PROPERTIES
+  subject: chemistry
+  concept_tags:
+  - --ea
+  - 5.-periodic-properties
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_048
+  name: No calculation formulas -- concepts
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 6. CHEMICAL BONDING
+  subject: chemistry
+  concept_tags:
+  - no-calculation-formulas----con
+  - 6.-chemical-bonding
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_049
+  name: '- Ionic bond'
+  latex: metal transfers electrons to non-metal
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 6. CHEMICAL BONDING
+  subject: chemistry
+  concept_tags:
+  - --ionic-bond
+  - 6.-chemical-bonding
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_050
+  name: '- Covalent bond'
+  latex: non-metals share electrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 6. CHEMICAL BONDING
+  subject: chemistry
+  concept_tags:
+  - --covalent-bond
+  - 6.-chemical-bonding
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_051
+  name: '- Coordinate bond'
+  latex: one atom donates both electrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 6. CHEMICAL BONDING
+  subject: chemistry
+  concept_tags:
+  - --coordinate-bond
+  - 6.-chemical-bonding
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_052
+  name: FC
+  latex: valence electrons - (lone pair electrons + 1/2 bonding electrons)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 6. CHEMICAL BONDING
+  subject: chemistry
+  concept_tags:
+  - fc
+  - 6.-chemical-bonding
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_053
+  name: Alkanes
+  latex: CnH2n+2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - alkanes
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_054
+  name: Alkenes
+  latex: CnH2n
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - alkenes
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_055
+  name: Alkynes
+  latex: CnH2n-2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - alkynes
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_056
+  name: Alcohols
+  latex: CnH2n+1OH (or CnH2n+2O)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - alcohols
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_057
+  name: Carboxylic acids
+  latex: CnH2n+1COOH (or CnH2nO2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - carboxylic-acids
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_058
+  name: DoU
+  latex: (2C + 2 + N - H) / 2
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - dou
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_059
+  name: (C
+  latex: carbons, N = nitrogens, H = hydrogens)
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - (c
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_060
+  name: Each ring or double bond
+  latex: 1 DoU. Triple bond = 2 DoU.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 7. ORGANIC CHEMISTRY
+  subject: chemistry
+  concept_tags:
+  - each-ring-or-double-bond
+  - 7.-organic-chemistry
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_061
+  name: electrons
+  latex: Z (same as protons)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - electrons
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_062
+  name: Cation (positive)
+  latex: electrons = Z - charge
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - cation-(positive)
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_063
+  name: Anion (negative)
+  latex: electrons = Z + |charge|
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - anion-(negative)
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_064
+  name: Shell n
+  latex: 2n**2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - shell-n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_065
+  name: K (n
+  latex: '1): 2'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - k-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_066
+  name: L (n
+  latex: '2): 8 (not 2x4=8, simplified for ICSE)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - l-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_067
+  name: M (n
+  latex: '3): 8 (simplified for ICSE; actual is 18)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - m-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_068
+  name: solubility
+  latex: (mass of solute / mass of solvent) x 100 (in g per 100g water)
+  variables:
+  - symbol: g
+    name: g
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - solubility
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_069
+  name: M1V1
+  latex: M2V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - m1v1
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_070
+  name: '% (w/w)'
+  latex: (mass solute / mass solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(w-w)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_071
+  name: '% (w/v)'
+  latex: (mass solute / volume solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(w-v)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_072
+  name: '% (v/v)'
+  latex: (volume solute / volume solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(v-v)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_073
+  name: '- Free element'
+  latex: '0'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --free-element
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_074
+  name: '- Monoatomic ion'
+  latex: = charge
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --monoatomic-ion
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_075
+  name: '- H'
+  latex: +1 (except -1 in metal hydrides like NaH)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --h
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_076
+  name: '- O'
+  latex: -2 (except -1 in peroxides like H2O2, and +2 in OF2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --o
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_077
+  name: '- F'
+  latex: -1 (always)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --f
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_078
+  name: '- Sum of oxidation numbers'
+  latex: charge on species
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --sum-of-oxidation-numbers
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_079
+  name: Balancing redox (half-reaction method)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - balancing-redox-(half-reaction
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_080
+  name: 1. Split into oxidation and reduction half-reactions
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 1.-split-into-oxidation-and-re
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_081
+  name: 2. Balance atoms (add H2O, H+ if needed)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 2.-balance-atoms-(add-h2o,-h+-
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_082
+  name: 4. Equalize electrons in both half-reactions
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 4.-equalize-electrons-in-both-
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c10_chem_formula_bank_083
+  name: 5. Add half-reactions and simplify
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 5.-add-half-reactions-and-simp
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c10_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_001
+  name: Moles
+  latex: n = mass / M
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - moles
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_002
+  name: Molarity
+  latex: M = n / V(L)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: L
+    name: L
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - molarity
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_003
+  name: Molality
+  latex: m = n / kg solvent
+  variables:
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - molality
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_004
+  name: Mole fraction
+  latex: xA = nA / (nA + nB)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - mole-fraction
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_005
+  name: Normality
+  latex: N = equivalents / V(L) = (mass x 1000) / (equivalent mass x V(mL))
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: L
+    name: L
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - normality
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_006
+  name: Equivalent mass
+  latex: Eq mass = Molar mass / n (n = acidity/basicity/charge)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - equivalent-mass
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_007
+  name: Relation
+  latex: N = M x n (n = factor)
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - relation
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_008
+  name: Dilution
+  latex: N1V1 = N2V2, M1V1 = M2V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 1. SOME BASIC CONCEPTS (C11)
+  subject: chemistry
+  concept_tags:
+  - dilution
+  - 1.-some-basic-concepts-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_009
+  name: Energy of electron (Bohr model)
+  latex: En = -13.6 x Z**2 / n**2 (eV, for H-like species)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - energy-of-electron-(bohr-model
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_010
+  name: Radius of orbit
+  latex: rn = 0.529 x n**2 / Z (Angstrom)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - radius-of-orbit
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_011
+  name: Velocity of electron
+  latex: vn = 2.18 x 10**6 x Z / n (m/s)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: s
+    name: s
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - velocity-of-electron
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_012
+  name: Number of spectral lines
+  latex: n(n-1)/2 (from level n to ground state)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - number-of-spectral-lines
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_013
+  name: de Broglie wavelength
+  latex: \lambda = h / p = h / mv
+  variables:
+  - symbol: h
+    name: h
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: p
+    name: p
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - de-broglie-wavelength
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_014
+  name: Heisenberg uncertainty
+  latex: \Deltax x \Deltap >= h/(4\pi)
+  variables:
+  - symbol: h
+    name: h
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - heisenberg-uncertainty
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_015
+  name: Quantum numbers
+  latex: n (shell), l (0 to n-1), m (-l to +l), s (+/-1/2)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: l
+    name: l
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: s
+    name: s
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - quantum-numbers
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_016
+  name: Max orbitals per shell
+  latex: n**2
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - max-orbitals-per-shell
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_017
+  name: Max electrons per shell
+  latex: 2n**2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 2. ATOMIC STRUCTURE (C11)
+  subject: chemistry
+  concept_tags:
+  - max-electrons-per-shell
+  - 2.-atomic-structure-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_018
+  name: First law
+  latex: \DeltaU = q + w (w = work done ON system)
+  variables:
+  - symbol: q
+    name: q
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: w
+    name: w
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - first-law
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_019
+  name: Enthalpy
+  latex: H = U + PV
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: U
+    name: U
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - enthalpy
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_020
+  name: DeltaH
+  latex: \DeltaU + \DeltanRT (\Deltan = moles gas products - moles gas reactants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_021
+  name: DeltaH at constant pressure
+  latex: qp
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah-at-constant-pressure
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_022
+  name: Hess's law
+  latex: \DeltaH = sum of step \DeltaH values
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - hess's-law
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_023
+  name: DeltaH from bond energies
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah-from-bond-energies
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_024
+  name: DeltaH
+  latex: \Sigma(bonds broken) - \Sigma(bonds formed)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_025
+  name: (bond breaking
+  latex: endothermic, positive)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - (bond-breaking
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_026
+  name: DeltaH from formation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah-from-formation
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_027
+  name: DeltaH
+  latex: \Sigma\DeltaHf(products) - \Sigma\DeltaHf(reactants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltah
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_028
+  name: DeltaS
+  latex: q_rev / T
+  variables:
+  - symbol: T
+    name: T
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltas
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_029
+  name: DeltaS
+  latex: \SigmaS(products) - \SigmaS(reactants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltas
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_030
+  name: DeltaG
+  latex: \DeltaH - T\DeltaS
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_031
+  name: DeltaG < 0
+  latex: spontaneous
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag-<-0
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_032
+  name: DeltaG
+  latex: '0: equilibrium'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_033
+  name: DeltaG > 0
+  latex: non-spontaneous
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag->-0
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_034
+  name: Temperature of equilibrium (where DeltaG
+  latex: '0):'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - temperature-of-equilibrium-(wh
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_035
+  name: DeltaG from formation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag-from-formation
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_036
+  name: DeltaG
+  latex: \Sigma\DeltaGf(products) - \Sigma\DeltaGf(reactants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 3. THERMODYNAMICS (C11)
+  subject: chemistry
+  concept_tags:
+  - deltag
+  - 3.-thermodynamics-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_037
+  name: Kc
+  latex: '[products]**coefficients / [reactants]**coefficients'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 4. CHEMICAL EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - kc
+  - 4.-chemical-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_038
+  name: Kp
+  latex: Kc x (RT)**\Deltan
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 4. CHEMICAL EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - kp
+  - 4.-chemical-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_039
+  name: Deltan
+  latex: moles gas products - moles gas reactants
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 4. CHEMICAL EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - deltan
+  - 4.-chemical-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_040
+  name: alpha
+  latex: (moles dissociated / initial moles) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 4. CHEMICAL EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - alpha
+  - 4.-chemical-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_041
+  name: For 1 mole
+  latex: Kc = (n\alpha)**2 / (1-\alpha) x V (simplified, depends on stoichiometry)
+  variables:
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 4. CHEMICAL EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - for-1-mole
+  - 4.-chemical-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_042
+  name: Kw
+  latex: '[H+][OH-] = 10**-14 (at 25 ^{\circ} C)'
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - kw
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_043
+  name: pH
+  latex: -log[H+]
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_044
+  name: pOH
+  latex: -log[OH-]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - poh
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_045
+  name: pH + pOH
+  latex: 14 (at 25 ^{\circ} C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ph-+-poh
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_046
+  name: pKa
+  latex: -log(Ka), pKb = -log(Kb)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - pka
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_047
+  name: Ka
+  latex: '[H+][A-] / [HA]'
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ka
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_048
+  name: '[H+]'
+  latex: \sqrt(Ka x C) (for weak acid, C = concentration)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - '[h+]'
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_049
+  name: pH
+  latex: 1/2(pKa - log C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_050
+  name: Kb
+  latex: '[BH+][OH-] / [B]'
+  variables:
+  - symbol: B
+    name: B
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - kb
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_051
+  name: '[OH-]'
+  latex: \sqrt(Kb x C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - '[oh-]'
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_052
+  name: pOH
+  latex: 1/2(pKb - log C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - poh
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_053
+  name: Buffer (Henderson-Hasselbalch)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - buffer-(henderson-hasselbalch)
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_054
+  name: pH
+  latex: pKa + log([A-] / [HA])
+  variables:
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ph
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_055
+  name: pOH
+  latex: pKb + log([BH+] / [B])
+  variables:
+  - symbol: B
+    name: B
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - poh
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_056
+  name: Strong acid + weak base
+  latex: pH = 1/2(pKw - pKb - log C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - strong-acid-+-weak-base
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_057
+  name: Weak acid + strong base
+  latex: pH = 1/2(pKw + pKa + log C)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - weak-acid-+-strong-base
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_058
+  name: Weak acid + weak base
+  latex: pH = 1/2(pKw + pKa - pKb)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - weak-acid-+-weak-base
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_059
+  name: Ksp
+  latex: '[cation]**x [anion]**y'
+  variables:
+  - symbol: y
+    name: y
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - ksp
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c11_chem_formula_bank_060
+  name: Solubility (s)
+  latex: for AB type -> Ksp = s**2; for AB2 type -> Ksp = 4s**3; for A2B3 -> Ksp =
+    108s**5
+  variables:
+  - symbol: s
+    name: s
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: 5. IONIC EQUILIBRIUM (C11)
+  subject: chemistry
+  concept_tags:
+  - solubility-(s)
+  - 5.-ionic-equilibrium-(c11)
+  related_formulas: []
+  source: cisce/c11_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_001
+  name: E deg cell
+  latex: E ^{\circ} cathode - E ^{\circ} anode
+  variables:
+  - symbol: E
+    name: E
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - e-deg-cell
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_002
+  name: (Cathode
+  latex: higher E ^{\circ} , reduction. Anode = lower E ^{\circ} , oxidation.)
+  variables:
+  - symbol: E
+    name: E
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - (cathode
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_003
+  name: Ecell
+  latex: E ^{\circ} cell - (0.0591 / n) x log Q
+  variables:
+  - symbol: E
+    name: E
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: Q
+    name: Q
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - ecell
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_004
+  name: At equilibrium
+  latex: Ecell = 0, Q = K
+  variables:
+  - symbol: Q
+    name: Q
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - at-equilibrium
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_005
+  name: E deg cell
+  latex: (0.0591 / n) x log K
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - e-deg-cell
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_006
+  name: DeltaG deg
+  latex: -nFE ^{\circ} cell
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - deltag-deg
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_007
+  name: DeltaG
+  latex: -nFEcell (non-standard)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - deltag
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_008
+  name: DeltaG deg
+  latex: -RT ln K
+  variables:
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - deltag-deg
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_009
+  name: E deg cell
+  latex: (RT / nF) ln K = (0.0591 / n) log K
+  variables:
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - e-deg-cell
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_010
+  name: Lambdam
+  latex: kappa x 1000 / C
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - lambdam
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_011
+  name: (kappa
+  latex: specific conductivity, C in mol/L)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: L
+    name: L
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - (kappa
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_012
+  name: Lambda deg m
+  latex: \lambda ^{\circ} + + \lambda ^{\circ} - (sum of ion conductivities at infinite
+    dilution)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 6. ELECTROCHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - lambda-deg-m
+  - 6.-electrochemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_013
+  name: Rate
+  latex: -d[R]/dt = d[P]/dt
+  variables:
+  - symbol: d
+    name: d
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: R
+    name: R
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: P
+    name: P
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - rate
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_014
+  name: Rate
+  latex: k [reactant]**order
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - rate
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_015
+  name: Rate
+  latex: k[A]**x [B]**y
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: B
+    name: B
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: y
+    name: y
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - rate
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_016
+  name: Order
+  latex: x + y (determined experimentally, NOT from stoichiometry)
+  variables:
+  - symbol: y
+    name: y
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - order
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_017
+  name: '[A]'
+  latex: -kt + [A_0]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - '[a]'
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_018
+  name: t1/2
+  latex: '[A_0] / 2k'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - t1-2
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_019
+  name: (t1/2 depends on initial concentration)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - (t1-2-depends-on-initial-conce
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_020
+  name: ln[A]
+  latex: -kt + ln[A_0]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - ln[a]
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_021
+  name: or
+  latex: k = (2.303/t) log([A_0]/[A])
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: t
+    name: t
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - or
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_022
+  name: t1/2
+  latex: 0.693 / k
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - t1-2
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_023
+  name: (t1/2 independent of concentration)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - (t1-2-independent-of-concentra
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_024
+  name: 1/[A]
+  latex: kt + 1/[A_0]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - 1-[a]
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_025
+  name: t1/2
+  latex: 1 / (k[A_0])
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - t1-2
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_026
+  name: ln k
+  latex: ln A - Ea/(RT)
+  variables:
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - ln-k
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_027
+  name: log(k2/k1)
+  latex: (Ea / 2.303R) x (1/T1 - 1/T2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - log(k2-k1)
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_028
+  name: (R
+  latex: 8.314 J/(molxK))
+  variables:
+  - symbol: J
+    name: J
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - (r
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_029
+  name: slope
+  latex: -Ea / (2.303R) -> Ea = -slope x 2.303 x R
+  variables:
+  - symbol: R
+    name: R
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 7. CHEMICAL KINETICS (C12)
+  subject: chemistry
+  concept_tags:
+  - slope
+  - 7.-chemical-kinetics-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_030
+  name: pA
+  latex: xA x pA ^{\circ}  (partial pressure = mole fraction x pure vapor pressure)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - pa
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_031
+  name: pTotal
+  latex: pA + pB = xA x pA ^{\circ}  + xB x pB ^{\circ}
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - ptotal
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_032
+  name: (p deg  - p) / p deg
+  latex: xB (mole fraction of solute)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - (p-deg----p)---p-deg
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_033
+  name: DeltaTb
+  latex: Kb x m x i
+  variables:
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: i
+    name: i
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - deltatb
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_034
+  name: (Kb
+  latex: molal elevation constant, m = molality, i = van't Hoff factor)
+  variables:
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: i
+    name: i
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: t
+    name: t
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - (kb
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_035
+  name: DeltaTf
+  latex: Kf x m x i
+  variables:
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: i
+    name: i
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - deltatf
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_036
+  name: pi
+  latex: iCRT
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - pi
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_037
+  name: (C
+  latex: molarity, R = 0.0821, T in Kelvin)
+  variables:
+  - symbol: R
+    name: R
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: T
+    name: T
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - (c
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_038
+  name: pi
+  latex: i x (n/V) x RT
+  variables:
+  - symbol: i
+    name: i
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - pi
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_039
+  name: NaCl -> i
+  latex: 2, Na2SO4 -> i = 3, K2SO4 -> i = 3, CaCl2 -> i = 3, glucose -> i = 1
+  variables:
+  - symbol: i
+    name: i
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 8. SOLUTIONS (C12)
+  subject: chemistry
+  concept_tags:
+  - nacl-->-i
+  - 8.-solutions-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_040
+  name: (Z
+  latex: atoms per unit cell, M = molar mass, a = edge length in cm, Na = 6.022x10**23)
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: a
+    name: a
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - (z
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_041
+  name: Simple cubic
+  latex: Z = 1 (8 corners x 1/8)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - simple-cubic
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_042
+  name: BCC
+  latex: Z = 2 (8 corners x 1/8 + 1 center)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - bcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_043
+  name: FCC
+  latex: Z = 4 (8 corners x 1/8 + 6 faces x 1/2)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - fcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_044
+  name: Simple cubic
+  latex: '6'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - simple-cubic
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_045
+  name: BCC
+  latex: '8'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - bcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_046
+  name: FCC (and HCP)
+  latex: '12'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - fcc-(and-hcp)
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_047
+  name: Simple cubic
+  latex: 52.4%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - simple-cubic
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_048
+  name: BCC
+  latex: 68%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - bcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_049
+  name: FCC
+  latex: 74%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - fcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_050
+  name: Simple cubic
+  latex: a = 2r
+  variables:
+  - symbol: a
+    name: a
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - simple-cubic
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_051
+  name: BCC
+  latex: a = 4r / \sqrt3
+  variables:
+  - symbol: a
+    name: a
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - bcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_052
+  name: FCC
+  latex: a = 2\sqrt2 x r
+  variables:
+  - symbol: a
+    name: a
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: r
+    name: r
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 9. SOLID STATE (C12)
+  subject: chemistry
+  concept_tags:
+  - fcc
+  - 9.-solid-state-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_053
+  name: OS
+  latex: charge of complex - sum of ligand charges
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - os
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_054
+  name: (Ligands
+  latex: NH3 = 0, H2O = 0, Cl- = -1, CN- = -1, OH- = -1, CO = 0, en = 0)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - (ligands
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_055
+  name: Coordination number
+  latex: number of donor atoms bonded to metal
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - coordination-number
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_056
+  name: (Monodentate ligands
+  latex: 'CN = number of ligands. Bidentate like en: CN = 2 x number of en ligands)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - (monodentate-ligands
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_057
+  name: EAN
+  latex: Z - (oxidation state) + 2 x (coordination number)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - ean
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_058
+  name: For octahedral
+  latex: CFSE = (-0.4 x n(t2g) + 0.6 x n(eg)) x \Deltao
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - for-octahedral
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_059
+  name: (n
+  latex: number of electrons in each set)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - (n
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_060
+  name: mu
+  latex: \sqrt(n(n+2)) BM (n = unpaired electrons, s\pin-only)
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 10. COORDINATION COMPOUNDS (C12)
+  subject: chemistry
+  concept_tags:
+  - mu
+  - 10.-coordination-compounds-(c1
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_061
+  name: DoU
+  latex: (2C + 2 + N - H - X) / 2
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - dou
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_062
+  name: (C
+  latex: carbons, N = nitrogens, H = hydrogens, X = halogens)
+  variables:
+  - symbol: N
+    name: N
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - (c
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_063
+  name: Isomerism count (no formula -- structural analysis)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - isomerism-count-(no-formula---
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_064
+  name: SN1 rate
+  latex: Rate = k[substrate] (first order, depends on substrate only)
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - sn1-rate
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_065
+  name: SN2 rate
+  latex: Rate = k[substrate][nucleophile] (second order)
+  variables:
+  - symbol: k
+    name: k
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - sn2-rate
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_066
+  name: Markovnikov
+  latex: H adds to C with more H
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - markovnikov
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c12_chem_formula_bank_067
+  name: Anti-Markovnikov (peroxide effect)
+  latex: H adds to C with fewer H (radical mechanism)
+  variables:
+  - symbol: H
+    name: H
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: 11. ORGANIC CHEMISTRY (C12)
+  subject: chemistry
+  concept_tags:
+  - anti-markovnikov-(peroxide-eff
+  - 11.-organic-chemistry-(c12)
+  related_formulas: []
+  source: cisce/c12_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_001
+  name: '- We use water for drinking, cooking, bathing, washing'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --we-use-water-for-drinking,-c
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_002
+  name: '- Rain comes from clouds'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --rain-comes-from-clouds
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_003
+  name: '- Sea water is salty -- we cannot drink it'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --sea-water-is-salty----we-can
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_004
+  name: '- We should save water and not waste it'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --we-should-save-water-and-not
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_005
+  name: '- Water used for washing vegetables can be reused to water plants'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --water-used-for-washing-veget
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c1_chem_formula_bank_006
+  name: '- Rain, rivers, lakes, wells, sea'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: KEY FACTS (NO FORMULAS AT C1)
+  subject: chemistry
+  concept_tags:
+  - --rain,-rivers,-lakes,-wells,-
+  - key-facts-(no-formulas-at-c1)
+  related_formulas: []
+  source: cisce/c1_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_001
+  name: '- Pure water'
+  latex: colourless, odourless, tasteless
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --pure-water
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_002
+  name: '- Melting point of ice'
+  latex: 0 ^{\circ} C
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --melting-point-of-ice
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_003
+  name: '- Boiling point of water'
+  latex: 100 ^{\circ} C (at 1 atm)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --boiling-point-of-water
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_004
+  name: '- Clay pots keep water cool'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --clay-pots-keep-water-cool
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_005
+  name: '- Covered containers keep water clean'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --covered-containers-keep-wate
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c2_chem_formula_bank_006
+  name: '- Different materials'
+  latex: clay, plastic, steel, glass
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: KEY FACTS
+  subject: chemistry
+  concept_tags:
+  - --different-materials
+  - key-facts
+  related_formulas: []
+  source: cisce/c2_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_001
+  name: '- Solid'
+  latex: fixed shape, fixed volume
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATES OF MATTER
+  subject: chemistry
+  concept_tags:
+  - --solid
+  - states-of-matter
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_002
+  name: '- Liquid'
+  latex: takes container shape, fixed volume
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATES OF MATTER
+  subject: chemistry
+  concept_tags:
+  - --liquid
+  - states-of-matter
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_003
+  name: '- Gas'
+  latex: no fixed shape, no fixed volume
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATES OF MATTER
+  subject: chemistry
+  concept_tags:
+  - --gas
+  - states-of-matter
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_004
+  name: '- Melting'
+  latex: solid -> liquid (at melting point)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATE CHANGES
+  subject: chemistry
+  concept_tags:
+  - --melting
+  - state-changes
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_005
+  name: '- Freezing'
+  latex: liquid -> solid (at freezing point)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATE CHANGES
+  subject: chemistry
+  concept_tags:
+  - --freezing
+  - state-changes
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_006
+  name: '- Evaporation'
+  latex: liquid -> gas
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATE CHANGES
+  subject: chemistry
+  concept_tags:
+  - --evaporation
+  - state-changes
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_007
+  name: '- Condensation'
+  latex: gas -> liquid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATE CHANGES
+  subject: chemistry
+  concept_tags:
+  - --condensation
+  - state-changes
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c3_chem_formula_bank_008
+  name: '- Sublimation'
+  latex: solid -> gas directly
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: STATE CHANGES
+  subject: chemistry
+  concept_tags:
+  - --sublimation
+  - state-changes
+  related_formulas: []
+  source: cisce/c3_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_001
+  name: '- Nitrogen'
+  latex: 78%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: AIR COMPOSITION
+  subject: chemistry
+  concept_tags:
+  - --nitrogen
+  - air-composition
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_002
+  name: '- Oxygen'
+  latex: 21%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: AIR COMPOSITION
+  subject: chemistry
+  concept_tags:
+  - --oxygen
+  - air-composition
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_003
+  name: '- Carbon dioxide'
+  latex: 0.04%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: AIR COMPOSITION
+  subject: chemistry
+  concept_tags:
+  - --carbon-dioxide
+  - air-composition
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_004
+  name: '- Other gases (Ar, He, etc.)'
+  latex: ~1%
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: AIR COMPOSITION
+  subject: chemistry
+  concept_tags:
+  - --other-gases-(ar,-he,-etc.)
+  - air-composition
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_005
+  name: '- Water vapour'
+  latex: variable
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: AIR COMPOSITION
+  subject: chemistry
+  concept_tags:
+  - --water-vapour
+  - air-composition
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_006
+  name: '- Hot water dissolves more solute than cold water'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - --hot-water-dissolves-more-sol
+  - solubility
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_007
+  name: '- Saturated'
+  latex: no more solute can dissolve
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - --saturated
+  - solubility
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_008
+  name: '- Unsaturated'
+  latex: more solute can dissolve
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - --unsaturated
+  - solubility
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c4_chem_formula_bank_009
+  name: '- Soluble'
+  latex: 'salt, sugar; Insoluble: sand, oil, chalk powder'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - --soluble
+  - solubility
+  related_formulas: []
+  source: cisce/c4_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_001
+  name: '- Melting'
+  latex: solid -> liquid (0 ^{\circ} C for ice)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: STATE CHANGES (REVIEW)
+  subject: chemistry
+  concept_tags:
+  - --melting
+  - state-changes-(review)
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_002
+  name: '- Freezing'
+  latex: liquid -> solid (0 ^{\circ} C for water)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: STATE CHANGES (REVIEW)
+  subject: chemistry
+  concept_tags:
+  - --freezing
+  - state-changes-(review)
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_003
+  name: '- Evaporation'
+  latex: liquid -> gas
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: STATE CHANGES (REVIEW)
+  subject: chemistry
+  concept_tags:
+  - --evaporation
+  - state-changes-(review)
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_004
+  name: '- Condensation'
+  latex: gas -> liquid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: STATE CHANGES (REVIEW)
+  subject: chemistry
+  concept_tags:
+  - --condensation
+  - state-changes-(review)
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_005
+  name: '- Sublimation'
+  latex: solid -> gas directly (camphor, naphthalene)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: STATE CHANGES (REVIEW)
+  subject: chemistry
+  concept_tags:
+  - --sublimation
+  - state-changes-(review)
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_006
+  name: '- Melting point of ice'
+  latex: 0 ^{\circ} C
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: WATER
+  subject: chemistry
+  concept_tags:
+  - --melting-point-of-ice
+  - water
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_007
+  name: '- Boiling point of water'
+  latex: 100 ^{\circ} C (at 1 atm)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: WATER
+  subject: chemistry
+  concept_tags:
+  - --boiling-point-of-water
+  - water
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_008
+  name: '- Pure water'
+  latex: colourless, odourless, tasteless
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: WATER
+  subject: chemistry
+  concept_tags:
+  - --pure-water
+  - water
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_009
+  name: '- pH of pure water'
+  latex: 7 (neutral)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: WATER
+  subject: chemistry
+  concept_tags:
+  - --ph-of-pure-water
+  - water
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_010
+  name: '- Filtration'
+  latex: separates insoluble solid from liquid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: SEPARATION METHODS
+  subject: chemistry
+  concept_tags:
+  - --filtration
+  - separation-methods
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_011
+  name: '- Evaporation'
+  latex: separates soluble solid from liquid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: SEPARATION METHODS
+  subject: chemistry
+  concept_tags:
+  - --evaporation
+  - separation-methods
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_012
+  name: '- Distillation'
+  latex: collects the liquid (evaporate + condense)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: SEPARATION METHODS
+  subject: chemistry
+  concept_tags:
+  - --distillation
+  - separation-methods
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_013
+  name: '- Magnetic separation'
+  latex: separates iron from other solids
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: SEPARATION METHODS
+  subject: chemistry
+  concept_tags:
+  - --magnetic-separation
+  - separation-methods
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c5_chem_formula_bank_014
+  name: '- Sublimation'
+  latex: separates sublimable from non-sublimable solid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: SEPARATION METHODS
+  subject: chemistry
+  concept_tags:
+  - --sublimation
+  - separation-methods
+  related_formulas: []
+  source: cisce/c5_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_001
+  name: '- Atomic number (Z)'
+  latex: number of protons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - --atomic-number-(z)
+  - atomic-structure
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_002
+  name: '- Mass number (A)'
+  latex: protons + neutrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - --mass-number-(a)
+  - atomic-structure
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_003
+  name: '- Neutrons'
+  latex: A - Z
+  variables:
+  - symbol: A
+    name: A
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - --neutrons
+  - atomic-structure
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_004
+  name: '- Electrons (neutral atom)'
+  latex: Z
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - --electrons-(neutral-atom)
+  - atomic-structure
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_005
+  name: '- K shell'
+  latex: max 2 electrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ELECTRONIC CONFIGURATION
+  subject: chemistry
+  concept_tags:
+  - --k-shell
+  - electronic-configuration
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_006
+  name: '- L shell'
+  latex: max 8 electrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ELECTRONIC CONFIGURATION
+  subject: chemistry
+  concept_tags:
+  - --l-shell
+  - electronic-configuration
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_007
+  name: '- M shell'
+  latex: max 8 electrons (for ICSE level, first 20 elements)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ELECTRONIC CONFIGURATION
+  subject: chemistry
+  concept_tags:
+  - --m-shell
+  - electronic-configuration
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c6_chem_formula_bank_008
+  name: '- N shell'
+  latex: remaining electrons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: ELECTRONIC CONFIGURATION
+  subject: chemistry
+  concept_tags:
+  - --n-shell
+  - electronic-configuration
+  related_formulas: []
+  source: cisce/c6_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_001
+  name: '- If outer shell has 1-3 electrons'
+  latex: valency = outer electrons (metal, loses)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: VALENCY
+  subject: chemistry
+  concept_tags:
+  - --if-outer-shell-has-1-3-elect
+  - valency
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_002
+  name: '- If outer shell has 5-7 electrons'
+  latex: valency = 8 - outer electrons (non-metal, gains)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: VALENCY
+  subject: chemistry
+  concept_tags:
+  - --if-outer-shell-has-5-7-elect
+  - valency
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_003
+  name: '- If outer shell has 4 electrons'
+  latex: valency = 4 (shares)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: VALENCY
+  subject: chemistry
+  concept_tags:
+  - --if-outer-shell-has-4-electro
+  - valency
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_004
+  name: '- If outer shell has 8 electrons'
+  latex: valency = 0 (noble gas, stable)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: VALENCY
+  subject: chemistry
+  concept_tags:
+  - --if-outer-shell-has-8-electro
+  - valency
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_005
+  name: '- Write valencies above symbols'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: FORMULA WRITING (CRISS-CROSS)
+  subject: chemistry
+  concept_tags:
+  - --write-valencies-above-symbol
+  - formula-writing-(criss-cross)
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_006
+  name: '- Cross the numbers down as subscripts'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: FORMULA WRITING (CRISS-CROSS)
+  subject: chemistry
+  concept_tags:
+  - --cross-the-numbers-down-as-su
+  - formula-writing-(criss-cross)
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_007
+  name: '- Simplify if possible'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: FORMULA WRITING (CRISS-CROSS)
+  subject: chemistry
+  concept_tags:
+  - --simplify-if-possible
+  - formula-writing-(criss-cross)
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_008
+  name: '- Examples'
+  latex: Na(1)Cl(1)->NaCl, Mg(2)Cl(1)->MgCl2, Al(3)O(2)->Al2O3
+  variables:
+  - symbol: O
+    name: O
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: FORMULA WRITING (CRISS-CROSS)
+  subject: chemistry
+  concept_tags:
+  - --examples
+  - formula-writing-(criss-cross)
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_009
+  name: '| Element/Radical | Valency |'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: COMMON VALENCIES
+  subject: chemistry
+  concept_tags:
+  - '|-element-radical-|-valency-|'
+  - common-valencies
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c7_chem_formula_bank_010
+  name: '|-----------------|---------|'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: COMMON VALENCIES
+  subject: chemistry
+  concept_tags:
+  - '|-----------------|---------|'
+  - common-valencies
+  related_formulas: []
+  source: cisce/c7_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_001
+  name: '- Melting point of ice'
+  latex: 0 ^{\circ} C = 273 K
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: KEY TEMPERATURES
+  subject: chemistry
+  concept_tags:
+  - --melting-point-of-ice
+  - key-temperatures
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_002
+  name: '- Boiling point of water'
+  latex: 100 ^{\circ} C = 373 K
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: KEY TEMPERATURES
+  subject: chemistry
+  concept_tags:
+  - --boiling-point-of-water
+  - key-temperatures
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_003
+  name: '- Kelvin'
+  latex: K = ^{\circ} C + 273
+  variables:
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: KEY TEMPERATURES
+  subject: chemistry
+  concept_tags:
+  - --kelvin
+  - key-temperatures
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_004
+  name: '- pH < 7'
+  latex: acidic
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: pH SCALE
+  subject: chemistry
+  concept_tags:
+  - --ph-<-7
+  - ph-scale
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_005
+  name: '- pH'
+  latex: '7: neutral'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: pH SCALE
+  subject: chemistry
+  concept_tags:
+  - --ph
+  - ph-scale
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_006
+  name: '- pH > 7'
+  latex: basic
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: pH SCALE
+  subject: chemistry
+  concept_tags:
+  - --ph->-7
+  - ph-scale
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_007
+  name: '- Acids turn blue litmus red'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: pH SCALE
+  subject: chemistry
+  concept_tags:
+  - --acids-turn-blue-litmus-red
+  - ph-scale
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_008
+  name: '- Bases turn red litmus blue'
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: pH SCALE
+  subject: chemistry
+  concept_tags:
+  - --bases-turn-red-litmus-blue
+  - ph-scale
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_009
+  name: '- Boyle''s'
+  latex: P1V1 = P2V2 (constant temperature)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - --boyle's
+  - gas-laws
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c8_chem_formula_bank_010
+  name: '- Charles''s'
+  latex: V1/T1 = V2/T2 (constant pressure, T in Kelvin)
+  variables:
+  - symbol: T
+    name: T
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - --charles's
+  - gas-laws
+  related_formulas: []
+  source: cisce/c8_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_001
+  name: Avogadro's number
+  latex: Na = 6.022 x 10**23 particles/mol
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - avogadro's-number
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_002
+  name: (STP
+  latex: 0 ^{\circ} C, 1 atm)
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (stp
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_003
+  name: molecules
+  latex: n x 6.022 x 10**23
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecules
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_004
+  name: mass
+  latex: n x M
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - mass
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_005
+  name: '% element'
+  latex: (mass of element / molar mass of compound) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - '%-element'
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_006
+  name: Empirical formula
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - empirical-formula
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_007
+  name: 1. Find moles of each element
+  latex: n = mass / atomic mass
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - 1.-find-moles-of-each-element
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_008
+  name: Molecular formula
+  latex: (em\pirical formula)n
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecular-formula
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_009
+  name: VD
+  latex: molecular mass / 2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - vd
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_010
+  name: Molecular mass
+  latex: 2 x VD
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - molecular-mass
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_011
+  name: (M1 x V1) / n1
+  latex: (M2 x V2) / n2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (m1-x-v1)---n1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_012
+  name: (n
+  latex: stoichiometric coefficient from balanced equation)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - (n
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_013
+  name: Titration (1
+  latex: '1 reaction, e.g., HCl + NaOH):'
+  variables:
+  - symbol: e
+    name: e
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: g
+    name: g
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - titration-(1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_014
+  name: M1 x V1
+  latex: M2 x V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - m1-x-v1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_015
+  name: M1 x V1
+  latex: M2 x V2 (moles conserved)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 1. MOLE CONCEPT AND STOICHIOMETRY
+  subject: chemistry
+  concept_tags:
+  - m1-x-v1
+  - 1.-mole-concept-and-stoichiome
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_016
+  name: P1 x V1
+  latex: P2 x V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - p1-x-v1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_017
+  name: V1 / T1
+  latex: V2 / T2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - v1---t1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_018
+  name: (P1 x V1) / T1
+  latex: (P2 x V2) / T2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - (p1-x-v1)---t1
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_019
+  name: PV
+  latex: nRT
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - pv
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_020
+  name: deg C
+  latex: K - 273
+  variables:
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - deg-c
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_021
+  name: STP
+  latex: 0 ^{\circ} C (273 K), 1 atm
+  variables:
+  - symbol: C
+    name: C
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: K
+    name: K
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 2. GAS LAWS
+  subject: chemistry
+  concept_tags:
+  - stp
+  - 2.-gas-laws
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_022
+  name: electrons
+  latex: Z (same as protons)
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - electrons
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_023
+  name: Cation (positive)
+  latex: electrons = Z - charge
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - cation-(positive)
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_024
+  name: Anion (negative)
+  latex: electrons = Z + |charge|
+  variables:
+  - symbol: Z
+    name: Z
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - anion-(negative)
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_025
+  name: Shell n
+  latex: 2n**2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - shell-n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_026
+  name: K (n
+  latex: '1): 2'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - k-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_027
+  name: L (n
+  latex: '2): 8 (not 2x4=8, simplified for ICSE)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - l-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_028
+  name: M (n
+  latex: '3): 8 (simplified for ICSE; actual is 18)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 8. ATOMIC STRUCTURE
+  subject: chemistry
+  concept_tags:
+  - m-(n
+  - 8.-atomic-structure
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_029
+  name: solubility
+  latex: (mass of solute / mass of solvent) x 100 (in g per 100g water)
+  variables:
+  - symbol: g
+    name: g
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - solubility
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_030
+  name: M1V1
+  latex: M2V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - m1v1
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_031
+  name: '% (w/w)'
+  latex: (mass solute / mass solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(w-w)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_032
+  name: '% (w/v)'
+  latex: (mass solute / volume solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(w-v)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_033
+  name: '% (v/v)'
+  latex: (volume solute / volume solution) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 9. SOLUTIONS AND SOLUBILITY
+  subject: chemistry
+  concept_tags:
+  - '%-(v-v)'
+  - 9.-solutions-and-solubility
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_034
+  name: '- Free element'
+  latex: '0'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --free-element
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_035
+  name: '- Monoatomic ion'
+  latex: = charge
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --monoatomic-ion
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_036
+  name: '- H'
+  latex: +1 (except -1 in metal hydrides like NaH)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --h
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_037
+  name: '- O'
+  latex: -2 (except -1 in peroxides like H2O2, and +2 in OF2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --o
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_038
+  name: '- F'
+  latex: -1 (always)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --f
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_039
+  name: '- Sum of oxidation numbers'
+  latex: charge on species
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - --sum-of-oxidation-numbers
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_040
+  name: Balancing redox (half-reaction method)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - balancing-redox-(half-reaction
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_041
+  name: 1. Split into oxidation and reduction half-reactions
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 1.-split-into-oxidation-and-re
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_042
+  name: 2. Balance atoms (add H2O, H+ if needed)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 2.-balance-atoms-(add-h2o,-h+-
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_043
+  name: 4. Equalize electrons in both half-reactions
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 4.-equalize-electrons-in-both-
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_CHEM_c9_chem_formula_bank_044
+  name: 5. Add half-reactions and simplify
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: 10. OXIDATION AND REDUCTION
+  subject: chemistry
+  concept_tags:
+  - 5.-add-half-reactions-and-simp
+  - 10.-oxidation-and-reduction
+  related_formulas: []
+  source: cisce/c9_chem_formula_bank.marker
+  board: CISCE

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_06_012",
+   "title": "c12_hin_a_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"What is the poet's name?\"), while an inferential question requires the reader to deduce the answer by combining textual clues (e.g., \"Why does the poet compare the mother to a shadow?\"). A wrong answer that defines both as \"questions based on the text\" reveals the student cannot distinguish explicit vs. implicit information, leading to vague answers in exams.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"Hajir-Ja ke Ijse\", the line \"Meri maa thi ek chhaya\" does not appear. How would you answer the inferential question: \"Kavi ne maa ko chhaya kyon kaha hai?\" using textual evidence?",
+     "a": "The student must identify metaphors like \"thandi hawa\", \"saya\", \"aanchal\" in the poem that suggest protection and coolness, then infer that \"chhaya\" symbolizes the mother's sheltering love. A wrong answer quoting a non-existent line shows the student confuses inference with direct quotation, a common error where students fabricate textual evidence instead of deriving it.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this literal question from the prose extract: \"Raghuveer Sahay ke pita ka naam kya tha?\" (Refer to the biographical note in the chapter).",
+     "a": "Step 1: Locate the biographical note (first paragraph of the chapter). Step 2: Find the sentence stating his father's name. Step 3: Write: Point — \"Raghuveer Sahay ke pita ka naam Pandit Ramavatar Sharma tha.\" Evidence — \"Pathya-pustak ke anusar, 'Unke pita Pandit Ramavatar Sharma the.'\" Explanation — \"Yeh jaankari lekhak ke jeevan parichay mein spashth roop se di gayi hai.\" Link — \"Isse unke parivarik patachitra ka pata chalta hai.\" A wrong answer without the exact name or citing the wrong paragraph shows inability to locate explicit facts.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following student answer to an inferential question: \"Hajir apni maa ko bhul nahi paata kyunki usne use bahut pyaar kiya.\" Is this a complete inference? What is missing?",
+     "a": "The answer states a conclusion but lacks textual evidence and explanation. A complete inference must cite specific lines (e.g., \"raat bhar jaagta tha\", \"uski god mein soya\") and explain how they prove the bond. The missing PEEL components (Evidence, Explanation) will cost marks in CBSE marking scheme which awards points for each step. A student giving such an answer treats inference as opinion, not text-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For inferential questions in poetry, personal feeling is more important than textual evidence.\" Defend your evaluation with reference to CBSE marking criteria.",
+     "a": "The claim is false. CBSE marking scheme for inferential questions allocates marks: 1 for correct inference, 1 for relevant textual evidence, 1 for logical explanation linking evidence to inference. Personal feeling without textual support earns zero. A student believing this will write subjective responses like \"Mujhe lagta hai maa pyaari hoti hai\" and lose all inference marks. The evaluation must reference the rubric: evidence is mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the poem \"Hajir-Ja ke Ijse\" that requires connecting two separate stanzas, and provide a model answer outline.",
+     "a": "Question: \"Kavi ne maa ki yaad ko 'raat' aur 'sapne' dono se kyun joda hai? Do bandon ke aadhar par bataiye.\" Model outline: Point — \"Maa ki yaad hajir ko raat bhar jagati hai aur sapnon mein bhi aati hai.\" Evidence 1 — Stanza 2: \"raat bhar jaagta tha\". Evidence 2 — Stanza 4: \"sapne mein maa aati thi\". Explanation — \"Raat jagran dikhata hai viyog ki teevrata, sapne dikhate hain avchatan mein bhi maa ki upasthiti.\" Link — \"Yeh milkar maa ke pyaar ki amar taqat dikhate hain.\" A poor question would be answerable from one stanza, not testing cross-stanza synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

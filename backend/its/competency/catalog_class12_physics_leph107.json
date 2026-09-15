@@ -1,0 +1,539 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 107,
+ "chapter_title": "Alternating Current",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph107.7.2.1",
+   "title": "Root Mean Square Values of AC",
+   "section": "7.2",
+   "definition": "Mains ratings quote the root-mean-square value, the steady value that would heat a resistor identically; it equals the peak of the sine wave divided by root two, so a 220 V line actually swings to about 311 V.",
+   "formula": "rms_value = peak_value / sqrt(2)",
+   "key_idea": "RMS exists because heating goes as the square of current, which never averages to zero even though the signed current does.",
+   "textbook_ref": "leph107.txt section 7.2 (Eqs. 7.6-7.9, 220 V line with 311 V peak, Exercise 7.2)",
+   "question_patterns": [
+    "the peak voltage of a supply is 300 V; what is the rms voltage",
+    "an rms current of 10 A flows; what peak current does the sine reach",
+    "convert between peak and rms values of an ac signal",
+    "why do meters read the rms value rather than the average of an ac wave",
+    "how many volts is the peak of a 220 V household line",
+    "compute 0.707 times the amplitude for the given alternating quantity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "root of two",
+     "explain": "the conversion constant is sqrt(2), about 1.414",
+     "compute": "root_two = sqrt(2)"
+    },
+    {
+     "step": 2,
+     "action": "divide the peak",
+     "explain": "the effective value is the amplitude over sqrt(2)",
+     "compute": "rms_value = peak_value / root_two"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.2.2",
+   "title": "Resistance and Power from RMS Ratings",
+   "section": "7.2",
+   "definition": "With rms values the dc toolkit transfers unchanged: a bulb rated P watts on a V volt line has resistance V squared over P, and the mean heating over a cycle reads I squared R or simply P over V for the current.",
+   "formula": "device_resist = rms_voltage ** 2 / power_rated",
+   "key_idea": "Average ac power equals rms current times rms voltage because the oscillating half of the sine squared averages away.",
+   "textbook_ref": "leph107.txt section 7.2 (Eqs. 7.4-7.7, Example 7.1 100 W bulb on 220 V, Exercise 7.1)",
+   "question_patterns": [
+    "a bulb is rated 100 W at 220 V; find its resistance and the rms current through it",
+    "compute the resistance of a heater from its power rating and the line voltage",
+    "what average power does a resistor dissipate when an rms current flows",
+    "find the net energy-per-second delivered over a full ac cycle",
+    "why is the average power nonzero while the average current is zero",
+    "a 100 ohm resistor sits on a 220 V 50 Hz supply; find the rms current and cycle power"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the rated voltage",
+     "explain": "resistance follows from P = V squared over R",
+     "compute": "volt_sq = rms_voltage ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the rating",
+     "explain": "R equals V squared over P for a resistive device",
+     "compute": "device_resist = volt_sq / power_rated"
+    },
+    {
+     "step": 3,
+     "action": "operating current",
+     "explain": "the rms current is the rating over the line voltage",
+     "compute": "i_rms = power_rated / rms_voltage"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.3.1",
+   "title": "Phasor Picture of AC Circuits",
+   "section": "7.3",
+   "definition": "A phasor is an arrow spinning at the source's angular speed whose vertical projection reproduces the sinusoidal voltage or current at each instant; its length is the peak value and the angle between two phasors is their phase gap.",
+   "formula": "instant = amplitude * sin(omega * time)",
+   "key_idea": "Resistor phasors point the same way (in phase); inductor current trails by a quarter turn, capacitor current leads by a quarter turn.",
+   "textbook_ref": "leph107.txt section 7.3 (Fig. 7.4, phasors as rotating vectors)",
+   "question_patterns": [
+    "what does the projection of a phasor on the vertical axis represent",
+    "why can voltage and current phasors point in different directions",
+    "explain how a rotating arrow generates a sine graph",
+    "what does the angle between two phasors tell you",
+    "are phasor quantities true vectors",
+    "sketch the phasors for a resistor circuit and read off the phase difference"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the spinning arrows",
+     "explain": "each phasor rotates counter-clockwise at omega with length equal to the amplitude"
+    },
+    {
+     "step": 2,
+     "action": "project to read values",
+     "explain": "the vertical shadow at time t equals amplitude times sin(omega t)"
+    },
+    {
+     "step": 3,
+     "action": "compare angles for phase",
+     "explain": "the angle between phasors is the lead or lag of one oscillation relative to the other"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.4.1",
+   "title": "Inductive Reactance",
+   "section": "7.4",
+   "definition": "An inductor chokes a changing current in proportion to omega L, a resistance-like quantity in ohms; the current amplitude is the voltage over this reactance and the current peaks a quarter cycle after the voltage.",
+   "formula": "react_l = omega * inductance",
+   "key_idea": "Reactance grows with frequency, and the net energy flow over a cycle is zero - the inductor only borrows and returns it.",
+   "textbook_ref": "leph107.txt section 7.4 (Eqs. 7.12-7.14, Example 7.2 25 mH at 50 Hz, Example 7.5 iron rod)",
+   "question_patterns": [
+    "a 25 mH inductor sits on a 220 V 50 Hz supply; find the reactance and rms current",
+    "compute XL equal to 2 pi nu L for the given inductor",
+    "why does the current in a pure inductor lag the voltage by a quarter cycle",
+    "what happens to a bulb in series with a coil when an iron core slides in",
+    "how does inductive reactance change when the supply frequency rises",
+    "find the average power consumed by a pure inductor over a cycle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega is 2 pi times the line frequency",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "reactance of the coil",
+     "explain": "XL equals omega times the inductance",
+     "compute": "react_l = omega * inductance"
+    },
+    {
+     "step": 3,
+     "action": "current amplitude rule",
+     "explain": "the rms current is voltage over reactance, lagging by pi over 2",
+     "compute": "i_rms = volt_rms / react_l"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.5.1",
+   "title": "Capacitive Reactance",
+   "section": "7.5",
+   "definition": "A capacitor passes alternating charge through repeated charge-discharge with an opposition of 1 over omega C ohms; current amplitude is voltage over this reactance and the current peaks a quarter cycle before the voltage.",
+   "formula": "react_c = 1 / (omega * capacitance)",
+   "key_idea": "Reactance shrinks as frequency or capacitance grows - the opposite trend of an inductor - and a capacitor dissipates nothing per cycle.",
+   "textbook_ref": "leph107.txt section 7.5 (Eqs. 7.16-7.19, Example 7.3 lamp and capacitor, Example 7.4 15 microF)",
+   "question_patterns": [
+    "a 15 microF capacitor joins a 220 V 50 Hz line; find the reactance and the rms and peak currents",
+    "compute 1 over 2 pi nu C for the given capacitor",
+    "what happens to the reactance and current if the frequency doubles",
+    "why does a lamp glow with ac but not dc when a capacitor is in series",
+    "why does capacitor current lead the applied voltage",
+    "how much power does a pure capacitor take over a full cycle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega equals 2 pi times the frequency",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "reactance of the capacitor",
+     "explain": "XC is 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 3,
+     "action": "current from voltage",
+     "explain": "the rms current is voltage over reactance, leading by pi over 2",
+     "compute": "i_rms = volt_rms / react_c"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.6.1",
+   "title": "Impedance of a Series LCR Circuit",
+   "section": "7.6.1",
+   "definition": "Element voltages in a series loop add as phasors, not plain numbers, so the loop's total opposition is Z equal to the square root of R squared plus the squared gap between capacitive and inductive reactance.",
+   "formula": "impedance = sqrt(resist ** 2 + react_gap ** 2)",
+   "key_idea": "Because VR and the LC combination stand at right angles, element voltages can exceed the source voltage individually while the phasor sum still matches it.",
+   "textbook_ref": "leph107.txt section 7.6.1 (Eqs. 7.25-7.26, Example 7.6 RC circuit paradox)",
+   "question_patterns": [
+    "find the impedance of a series combination of resistor, inductor and capacitor",
+    "compute Z from R, XL and XC for the given element values",
+    "why can the resistor and capacitor voltages add to more than the supply voltage",
+    "a 200 ohm resistor and 15 microF capacitor run on 220 V 50 Hz; find the current",
+    "how do you combine element voltages that are a quarter cycle apart",
+    "what replaces simple resistance when a loop mixes R, L and C"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega equals 2 pi times the supply frequency",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "coil opposition",
+     "explain": "XL equals omega L",
+     "compute": "react_l = omega * inductance"
+    },
+    {
+     "step": 3,
+     "action": "capacitor opposition",
+     "explain": "XC equals 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 4,
+     "action": "net reactance",
+     "explain": "the L and C voltages fight each other, leaving XC minus XL",
+     "compute": "react_gap = react_c - react_l"
+    },
+    {
+     "step": 5,
+     "action": "combine at right angles",
+     "explain": "Z is the hypotenuse over R and the reactance gap",
+     "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+    },
+    {
+     "step": 6,
+     "action": "loop current",
+     "explain": "the rms current is the supply voltage over Z",
+     "compute": "i_rms = volt_rms / impedance"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.6.2",
+   "title": "Phase Angle and Lead or Lag",
+   "section": "7.6.1",
+   "definition": "The tilt between source voltage and current obeys tan phi equal to XC minus XL over R: positive phi means a capacitive circuit with current leading, negative means inductive with current lagging, and phi zero means pure resistance.",
+   "formula": "phase sign follows the sign of react_c minus react_l",
+   "key_idea": "The sign of phi settles which way the current tips relative to the voltage, and the phasor method describes the steady state only.",
+   "textbook_ref": "leph107.txt section 7.6.1 (Eq. 7.27, capacitive vs inductive dominance, Example 7.8 part b)",
+   "question_patterns": [
+    "find the sign of the phase angle for given XL and XC values",
+    "does the current lead or lag the source voltage in this loop",
+    "compute tan phi from the reactances and resistance",
+    "when is a series circuit called predominantly capacitive",
+    "what phase angle do you get for R equal 3, XL equal 8, XC equal 4",
+    "why does a negative phase angle mean an inductive circuit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the reactances",
+     "explain": "subtract XL from XC to see which opposition dominates"
+    },
+    {
+     "step": 2,
+     "action": "divide by R",
+     "explain": "tan phi equals the reactance gap over the resistance"
+    },
+    {
+     "step": 3,
+     "action": "read the sign",
+     "explain": "positive phi: current leads (capacitive); negative: current lags (inductive); zero: resistive"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.6.3",
+   "title": "Resonant Frequency of an LCR Circuit",
+   "section": "7.6.2",
+   "definition": "Sweeping the supply frequency makes XL and XC cross where omega nought equals 1 over root LC; there the reactances cancel, the impedance collapses to R and the current peaks - the trick behind radio tuning.",
+   "formula": "omega_zero = 1 / sqrt(inductance * capacitance)",
+   "key_idea": "Resonance needs both L and C so their voltages can cancel; at the peak the current is vm over R and only R dissipates.",
+   "textbook_ref": "leph107.txt section 7.6.2 (Eq. 7.28, Example 7.9 resonance at 35.4 Hz, Example 7.10 metal detector, Exercises 7.6-7.8)",
+   "question_patterns": [
+    "find the angular frequency of free oscillations for a charged capacitor joined to an inductor",
+    "compute the resonant frequency from L and C values",
+    "what is the impedance and current at resonance for the given circuit",
+    "why can a circuit with only L or only C never resonate",
+    "how does radio tuning exploit the resonance peak",
+    "a 30 microF capacitor and 27 mH inductor oscillate freely; find omega nought"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "LC product",
+     "explain": "resonance depends only on the product of inductance and capacitance",
+     "compute": "lc_product = inductance * capacitance"
+    },
+    {
+     "step": 2,
+     "action": "resonant angular frequency",
+     "explain": "omega nought is 1 over its square root",
+     "compute": "omega_zero = 1 / sqrt(lc_product)"
+    },
+    {
+     "step": 3,
+     "action": "convert to hertz",
+     "explain": "the ordinary frequency is omega nought over 2 pi",
+     "compute": "res_freq = omega_zero / (2 * pi)"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.7.1",
+   "title": "Average Power and the Power Factor",
+   "section": "7.7",
+   "definition": "Mean ac power is the product of rms voltage, rms current and cos phi, where phi is the voltage-current phase gap; pure L or C runs at cos phi zero, drawing wattless current that delivers no energy.",
+   "formula": "avg_power = volt_rms * current_rms * power_factor",
+   "key_idea": "Only the resistor burns energy; a low power factor forces extra current for the same delivered power, so transmission lines waste I squared R - capacitors are added to lift cos phi.",
+   "textbook_ref": "leph107.txt section 7.7 (Eqs. 7.29-7.30, cases i-iv, Example 7.7 transmission loss)",
+   "question_patterns": [
+    "find the average power drawn by a circuit from its rms values and power factor",
+    "why is the current in a purely inductive circuit called wattless",
+    "compute VI cos phi for the given circuit data",
+    "how does a poor power factor raise transmission losses",
+    "what is the power dissipated at resonance in a series LCR loop",
+    "which circuit element alone dissipates energy in an ac loop"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "volt-ampere product",
+     "explain": "the apparent power is rms voltage times rms current",
+     "compute": "apparent_power = volt_rms * current_rms"
+    },
+    {
+     "step": 2,
+     "action": "project onto the phase",
+     "explain": "multiplying by cos phi leaves the real, dissipated power",
+     "compute": "avg_power = apparent_power * power_factor"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.8.1",
+   "title": "Transformer Turns Ratio",
+   "section": "7.8",
+   "definition": "Mutual induction across a shared core ties the two windings: voltages scale with turns while currents scale inversely, so stepping the voltage up always steps the current down by the same factor.",
+   "formula": "volt_secondary = volt_primary * turns_ratio",
+   "key_idea": "An ideal transformer conserves power - Vs Is equals Vp Ip - which is exactly why high-voltage transmission keeps line currents small.",
+   "textbook_ref": "leph107.txt section 7.8 (Eqs. 7.33-7.36, 220 V 10 A to 440 V 5 A example)",
+   "question_patterns": [
+    "a transformer has 100 primary and 200 secondary turns with 220 V 10 A input; find the output",
+    "compute the secondary voltage from the turns ratio",
+    "what is a step-up transformer and what happens to its current",
+    "find the secondary current when the voltage is stepped down",
+    "why does stepping up the voltage not violate energy conservation",
+    "determine whether the given winding counts step the voltage up or down"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "turns ratio",
+     "explain": "the ratio is secondary turns over primary turns",
+     "compute": "turns_ratio = turns_s / turns_p"
+    },
+    {
+     "step": 2,
+     "action": "scale the voltage",
+     "explain": "voltages follow the turns ratio directly",
+     "compute": "volt_secondary = volt_primary * turns_ratio"
+    },
+    {
+     "step": 3,
+     "action": "current shrinks in step",
+     "explain": "the ideal power balance divides the current by the same ratio",
+     "compute": "current_secondary = current_primary / turns_ratio"
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.8.2",
+   "title": "Losses in a Real Transformer",
+   "section": "7.8",
+   "definition": "Practical transformers leak flux between windings, waste heat in winding wire, churn eddy currents in the iron core, and pay a hysteresis bill for repeatedly re-magnetising it; laminated cores, thick wire and interleaved windings fight these losses.",
+   "formula": "efficiency = power_out / power_in",
+   "key_idea": "A well-built core still returns over 95 percent of the input power, but each named loss has its own hardware remedy.",
+   "textbook_ref": "leph107.txt section 7.8 (loss list i-iv, transmission and distribution discussion)",
+   "question_patterns": [
+    "list the ways a real transformer wastes energy",
+    "why is a transformer core laminated",
+    "how does flux leakage reduce the secondary output and how is it reduced",
+    "why is thick wire used for low-voltage high-current windings",
+    "what is hysteresis loss and which material choice limits it",
+    "explain why stepping up voltage does not create free energy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the flux",
+     "explain": "stray flux that misses the secondary carries no output power; interleaving the coils confines it"
+    },
+    {
+     "step": 2,
+     "action": "audit the copper",
+     "explain": "winding resistance burns I squared R, so heavy current windings use thick wire"
+    },
+    {
+     "step": 3,
+     "action": "cool the core",
+     "explain": "laminations cut eddy-current heating and low-hysteresis steel cuts reversal loss"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph107_1",
+   "source_ref": "leph107.txt Example 7.1 (100 W bulb on 220 V)",
+   "concept": "leph107.7.2.2",
+   "question_type": "bulb_rating_analysis",
+   "question_pattern": "A bulb is rated {power_rated} W for a {rms_voltage} V supply. Find its resistance, the peak supply voltage, and its rms current.",
+   "extracted_variables": {"power_rated": 100.0, "rms_voltage": 220.0},
+   "solution_template": [
+    {"step": 1, "action": "resistance from the rating", "explain": "R = V squared over P", "compute": "volt_sq = rms_voltage ** 2"},
+    {"step": 2, "action": "finish the resistance", "explain": "divide by the rating", "compute": "device_resist = volt_sq / power_rated"},
+    {"step": 3, "action": "peak of the mains", "explain": "multiply the rms line value by sqrt(2)", "compute": "peak_voltage = rms_voltage * sqrt(2)"},
+    {"step": 4, "action": "operating current", "explain": "rating over line voltage", "compute": "i_rms = power_rated / rms_voltage"}
+   ]
+  },
+  {
+   "id": "we_leph107_2",
+   "source_ref": "leph107.txt Example 7.2 (25.0 mH inductor on 220 V, 50 Hz)",
+   "concept": "leph107.7.4.1",
+   "question_type": "inductor_current",
+   "question_pattern": "A pure inductor of {inductance} H connects to a {volt_rms} V, {freq} Hz source. Find the inductive reactance and the rms current.",
+   "extracted_variables": {"inductance": 0.025, "volt_rms": 220.0, "freq": 50.0},
+   "solution_template": [
+    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
+    {"step": 2, "action": "reactance", "explain": "XL = omega L", "compute": "react_l = omega * inductance"},
+    {"step": 3, "action": "rms current", "explain": "voltage over reactance", "compute": "i_rms = volt_rms / react_l"}
+   ]
+  },
+  {
+   "id": "we_leph107_3",
+   "source_ref": "leph107.txt Example 7.4 (15.0 microF capacitor on 220 V, 50 Hz)",
+   "concept": "leph107.7.5.1",
+   "question_type": "capacitor_current",
+   "question_pattern": "A {capacitance} F capacitor joins a {volt_rms} V, {freq} Hz source. Find the capacitive reactance plus the rms and peak currents.",
+   "extracted_variables": {"capacitance": 1.5e-05, "volt_rms": 220.0, "freq": 50.0},
+   "solution_template": [
+    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
+    {"step": 2, "action": "reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
+    {"step": 3, "action": "rms current", "explain": "voltage over reactance", "compute": "i_rms = volt_rms / react_c"},
+    {"step": 4, "action": "peak current", "explain": "multiply the rms by sqrt(2)", "compute": "peak_current = i_rms * sqrt(2)"}
+   ]
+  },
+  {
+   "id": "we_leph107_4",
+   "source_ref": "leph107.txt Example 7.8 (R = 3 ohm, L = 25.48 mH, C = 796 microF, peak 283 V at 50 Hz)",
+   "concept": "leph107.7.6.1",
+   "question_type": "lcr_impedance_power",
+   "question_pattern": "A series LCR loop has R = {resist} ohm, L = {inductance} H, C = {capacitance} F on a {volt_rms} V, {freq} Hz supply. Find Z, the current, and the power dissipated.",
+   "extracted_variables": {"resist": 3.0, "inductance": 0.02548, "capacitance": 7.96e-04, "volt_rms": 200.0, "freq": 50.0},
+   "solution_template": [
+    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
+    {"step": 2, "action": "coil reactance", "explain": "XL = omega L", "compute": "react_l = omega * inductance"},
+    {"step": 3, "action": "capacitor reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
+    {"step": 4, "action": "reactance gap", "explain": "XC minus XL", "compute": "react_gap = react_c - react_l"},
+    {"step": 5, "action": "impedance", "explain": "hypotenuse of R and the gap", "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"},
+    {"step": 6, "action": "current", "explain": "voltage over impedance", "compute": "i_rms = volt_rms / impedance"},
+    {"step": 7, "action": "dissipated power", "explain": "only R heats, P = I squared R", "compute": "avg_power = i_rms ** 2 * resist"}
+   ]
+  },
+  {
+   "id": "we_leph107_5",
+   "source_ref": "leph107.txt Example 7.9 (resonance of L = 25.48 mH with C = 796 microF)",
+   "concept": "leph107.7.6.3",
+   "question_type": "resonance_frequency",
+   "question_pattern": "A loop holds {inductance} H and {capacitance} F. At what angular frequency and hertz does it resonate?",
+   "extracted_variables": {"inductance": 0.02548, "capacitance": 7.96e-04},
+   "solution_template": [
+    {"step": 1, "action": "LC product", "explain": "the resonance depends on LC only", "compute": "lc_product = inductance * capacitance"},
+    {"step": 2, "action": "angular resonance", "explain": "omega nought = 1 over root of the product", "compute": "omega_zero = 1 / sqrt(lc_product)"},
+    {"step": 3, "action": "ordinary frequency", "explain": "divide by 2 pi", "compute": "res_freq = omega_zero / (2 * pi)"}
+   ]
+  },
+  {
+   "id": "we_leph107_6",
+   "source_ref": "leph107.txt section 7.8 worked ratio (100 to 200 turns, 220 V 10 A input)",
+   "concept": "leph107.7.8.1",
+   "question_type": "transformer_output",
+   "question_pattern": "A transformer with {turns_p} primary and {turns_s} secondary turns takes {volt_primary} V at {current_primary} A. Find the output voltage and current.",
+   "extracted_variables": {"turns_p": 100.0, "turns_s": 200.0, "volt_primary": 220.0, "current_primary": 10.0},
+   "solution_template": [
+    {"step": 1, "action": "turns ratio", "explain": "secondary over primary turns", "compute": "turns_ratio = turns_s / turns_p"},
+    {"step": 2, "action": "output voltage", "explain": "voltage scales with the ratio", "compute": "volt_secondary = volt_primary * turns_ratio"},
+    {"step": 3, "action": "output current", "explain": "current divides by the ratio", "compute": "current_secondary = current_primary / turns_ratio"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph107_7_1_to_7_3",
+   "source_ref": "leph107.txt end-of-chapter exercises 7.1-7.3",
+   "questions": [
+    "A 100 ohm resistor sits on a 220 V, 50 Hz supply: find the rms current and the net power used over a full cycle.",
+    "A supply peaks at 300 V - what is its rms voltage? And what peak corresponds to a 10 A rms current?",
+    "A 44 mH inductor connects to a 220 V, 50 Hz supply; determine the rms current in the circuit."
+   ]
+  },
+  {
+   "id": "ex_leph107_7_4_to_7_6",
+   "source_ref": "leph107.txt end-of-chapter exercises 7.4-7.6",
+   "questions": [
+    "A 60 microF capacitor connects to a 110 V, 60 Hz supply; determine the rms current.",
+    "For the inductor and capacitor circuits above, what net power does each absorb per cycle, and why?",
+    "A charged 30 microF capacitor is joined to a 27 mH inductor; what is the angular frequency of the free oscillations?"
+   ]
+  },
+  {
+   "id": "ex_leph107_7_7_to_7_8",
+   "source_ref": "leph107.txt end-of-chapter exercises 7.7-7.8",
+   "questions": [
+    "A series LCR loop with R = 20 ohm, L = 1.5 H, C = 35 microF runs on a variable 200 V supply tuned to its natural frequency; what average power transfers per cycle?",
+    "For L = 5.0 H, C = 80 microF, R = 40 ohm on a 230 V variable source: find the resonant frequency, the impedance and current amplitude there, and show the LC potential drop vanishes at resonance."
+   ]
+  }
+ ]
+}

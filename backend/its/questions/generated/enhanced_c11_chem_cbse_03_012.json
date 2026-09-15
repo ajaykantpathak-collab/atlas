@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_012",
+   "title": "c11_chem_cbse_03_012",
+   "questions": [
+    {
+     "q": "State the trend in metallic character across a period (left to right) and down a group in the modern periodic table. Give the reason in terms of ionization enthalpy.",
+     "a": "Metallic character decreases across a period (left to right) and increases down a group. Across a period, ionization enthalpy increases due to increasing effective nuclear charge with constant principal quantum number, making electron loss difficult. Down a group, ionization enthalpy decreases due to increased atomic size and shielding, making electron loss easier. A wrong answer (e.g., \"increases across period\") reveals confusion between metallic character and electronegativity/non-metallic character trends.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the metallic character of elements increases down Group 1 but decreases across Period 3, using the concepts of atomic radius and effective nuclear charge.",
+     "a": "Down Group 1, atomic radius increases significantly as a new shell is added; shielding increases more than nuclear charge, so effective nuclear charge on valence electron decreases, lowering IE and increasing metallic character. Across Period 3, atomic radius decreases while nuclear charge increases by +1 per element; shielding by core electrons remains nearly constant, so effective nuclear charge increases sharply, raising IE and decreasing metallic character. A wrong answer that ignores shielding or confuses nuclear charge with effective nuclear charge indicates incomplete understanding of periodic trends.",
+     "self_check": true
+    },
+    {
+     "q": "Given the first ionization enthalpies (kJ mol⁻¹): Na = 496, Mg = 737, Al = 577, Si = 786, P = 1012, S = 1000, Cl = 1251, Ar = 1520. Arrange Na, Mg, Al, Si, P, S, Cl in order of increasing metallic character. Justify using the data.",
+     "a": "Increasing metallic character: Cl < S < P < Si < Al < Mg < Na. Metallic character ∝ 1/IE. Na has lowest IE (496), easiest to lose electron → most metallic. Cl has highest IE (1251) among these → least metallic. Note Al (577) < Mg (737) due to 3p¹ electron being more shielded than 3s². A wrong order (e.g., placing Al after Mg) reveals failure to recognize the s-p shielding anomaly within a period.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxides Na₂O, MgO, Al₂O₃, SiO₂, P₄O₁₀, SO₃, Cl₂O₇. Classify each as basic, amphoteric, or acidic. Explain the trend in oxide nature across Period 3 in terms of metallic/non-metallic character.",
+     "a": "Na₂O (strongly basic), MgO (basic), Al₂O₃ (amphoteric), SiO₂ (weakly acidic), P₄O₁₀ (acidic), SO₃ (acidic), Cl₂O₇ (strongly acidic). Trend: basic → amphoteric → acidic as metallic character decreases and non-metallic character increases. Metals form basic oxides (O²⁻ accepts H⁺), non-metals form acidic oxides (central atom accepts OH⁻/donates H⁺). Al₂O₃ at the boundary shows both. A wrong classification (e.g., calling SiO₂ basic) reveals inability to link oxide acidity to element's electronegativity and oxidation state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Fluorine is the most non-metallic element because it has the highest electron gain enthalpy.\" Is it correct? If not, correct it with the right reasoning.",
+     "a": "The statement is incorrect. Fluorine has the highest electronegativity (4.0) and is the most non-metallic, but its electron gain enthalpy (−328 kJ mol⁻¹) is less negative than chlorine's (−349 kJ mol⁻¹) due to electron-electron repulsion in the compact 2p subshell. Non-metallic character correlates better with electronegativity and ionization enthalpy (both highest for F) than with electron gain enthalpy alone. A student agreeing with the statement confuses electron gain enthalpy trend with electronegativity trend.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only dilute HCl, water, red and blue litmus paper, and samples of Na, Mg, Al, Si, P, S (or their oxides) to demonstrate the transition from metallic to non-metallic character across Period 3. Outline the procedure and expected observations.",
+     "a": "Procedure: (1) React each element/oxide with water, test solution with litmus. (2) For elements not reacting with water, react oxide with water, test. Expected: Na₂O/MgO → basic solution (red→blue); Al₂O₃ → no change (insoluble, amphoteric); SiO₂ → no change (insoluble); P₄O₁₀/SO₃/Cl₂O₇ → acidic solution (blue→red). For direct element reaction: Na, Mg react vigorously with HCl (H₂ gas); Al reacts slowly (oxide layer); Si, P, S do not react. This shows decreasing metallic reactivity. A poor design omits oxide testing or uses only elements, missing the oxide acidity trend which is key chemical evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

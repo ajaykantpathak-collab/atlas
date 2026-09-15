@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_010",
+   "title": "c11_chem_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define a Lewis acid and a Lewis base. Give one example of each that is NOT a Bronsted acid or base.",
+     "a": "A Lewis acid is an electron-pair acceptor (e.g., BF₃, which has an incomplete octet on boron). A Lewis base is an electron-pair donor (e.g., NH₃, which has a lone pair on nitrogen). Neither involves proton transfer. A wrong answer (e.g., \"Lewis acid donates H⁺\") reveals confusion with Bronsted-Lowry theory; the student hasn't grasped that Lewis theory generalizes acid-base behaviour beyond protons.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Fe³⁺(aq) acts as a Lewis acid while OH⁻(aq) acts as a Lewis base. What is the product of their reaction?",
+     "a": "Fe³⁺ has vacant d-orbitals and a high charge density, allowing it to accept electron pairs from OH⁻ (which has three lone pairs). The product is Fe(OH)₃(s), a coordination compound where each OH⁻ donates a lone pair to Fe³⁺. A wrong answer (e.g., \"Fe³⁺ donates electrons\") shows the student reverses the donor-acceptor roles; they likely confuse oxidation state with electron-pair acceptance ability.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction AlCl₃ + Cl⁻ → [AlCl₄]⁻, identify the Lewis acid, Lewis base, and the type of bond formed. Draw the structure of the product showing the coordinate bond.",
+     "a": "AlCl₃ is the Lewis acid (Al has vacant 3p orbital, incomplete octet), Cl⁻ is the Lewis base (donates lone pair). A coordinate (dative) covalent bond forms, shown as Al←Cl with arrow from Cl to Al. The product [AlCl₄]⁻ is tetrahedral. A wrong answer (e.g., \"Cl⁻ is the acid\") reveals the student thinks negative charge means electron-pair acceptor; they miss that anions with lone pairs are typically bases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reaction of BF₃ with NH₃ and the reaction of H⁺ with NH₃. In what way are they similar and different according to Lewis theory?",
+     "a": "Both involve NH₃ donating its lone pair — to BF₃ (forming F₃B←NH₃) and to H⁺ (forming NH₄⁺). Similarity: NH₃ acts as Lewis base in both. Difference: BF₃ is a neutral molecule with incomplete octet; H⁺ is a bare proton with no electrons. Both are Lewis acids. A wrong answer (e.g., \"only H⁺ is an acid\") shows the student restricts acid definition to proton donors, missing the generality of Lewis theory.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"CO₂ cannot be a Lewis acid because carbon already has four bonds.\" Evaluate this claim with reasoning.",
+     "a": "The claim is false. CO₂ has polar C=O bonds; carbon is electron-deficient due to oxygen's electronegativity and can accept electron pairs into its vacant π* antibonding orbitals. CO₂ reacts with OH⁻ (Lewis base) to form HCO₃⁻, where OH⁻ donates to carbon. A wrong answer accepting the claim reveals the student only considers octet completion, not polar double bonds or low-lying antibonding orbitals as electron-pair acceptance sites.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test to distinguish between a Lewis acid and a Bronsted acid using only NH₃(g) and indicator paper. Explain the expected observations.",
+     "a": "Expose both acids to NH₃(g). A Bronsted acid (e.g., HCl) will protonate NH₃ to NH₄⁺, turning moist red litmus blue (NH₃ is basic). A Lewis acid like BF₃ will form adduct F₃B←NH₃ with no proton transfer; moist litmus stays red (no free NH₃ to make solution basic). A poor answer (e.g., \"both turn litmus blue\") shows the student doesn't realize Lewis acid-base adduct formation consumes the base without generating OH⁻ or basic solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

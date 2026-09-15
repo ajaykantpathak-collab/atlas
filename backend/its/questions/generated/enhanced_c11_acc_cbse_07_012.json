@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_012",
+   "title": "c11_acc_cbse_07_012",
+   "questions": [
+    {
+     "q": "Define \"Secret Reserve\" in one sentence using the exact terminology from NCERT Class 11 Accountancy.",
+     "a": "Secret Reserve is a reserve which does not appear in the balance sheet, created by understating assets or overstating liabilities, thereby reducing disclosed profits and tax liability. A wrong answer (e.g., \"a reserve kept secretly by the owner\" or \"a reserve for emergencies\") reveals the student confuses secret reserve with general reserve or thinks it's about physical secrecy rather than non-disclosure in financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why charging depreciation at 20% per annum on a machine with a useful life of 10 years (instead of 10% per annum) creates a secret reserve. Use the terms \"Profit and Loss Account\", \"Asset Account\", and \"Balance Sheet\" in your explanation.",
+     "a": "Charging 20% instead of 10% debits double depreciation to Profit and Loss Account, reducing reported profit. The Asset Account shows a lower book value (original cost minus excessive accumulated depreciation). The Balance Sheet shows understated assets and understated profit, while the difference (excess depreciation) becomes a hidden reserve not shown anywhere. A wrong answer focusing only on \"lower profit\" without tracing the effect through all three statements shows the student cannot connect the accounting entries to the final non-disclosure.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchases inventory for ₹5,00,000. Its net realizable value is ₹5,20,000. The accountant values it at ₹4,00,000 in the balance sheet. Calculate the secret reserve created and show the journal entry that would have been passed if the correct value was recorded.",
+     "a": "Secret reserve created = ₹5,00,000 (cost) - ₹4,00,000 (undervalued) = ₹1,00,000. Correct entry: Inventory A/c Dr. ₹5,00,000 To Trading A/c ₹5,00,000. The undervaluation effectively credits an extra ₹1,00,000 to a hidden reserve by reducing closing stock (asset) and increasing cost of goods sold (reducing profit). A wrong calculation using NRV (₹5,20,000 - ₹4,00,000 = ₹1,20,000) reveals the student doesn't know inventory is valued at lower of cost or NRV (AS-2), so the benchmark for undervaluation is cost, not NRV.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Secret Reserve\" and \"Capital Reserve\" on three bases: (a) Source of creation, (b) Disclosure in Balance Sheet, (c) Availability for dividend distribution. Present as a table.",
+     "a": "| Basis | Secret Reserve | Capital Reserve |\n|-------|----------------|-----------------|\n| Source | Created by accounting manipulation (excessive depreciation, undervaluation, etc.) | Created from capital profits (premium on shares, profit on sale of fixed assets, etc.) |\n| Disclosure | NOT shown in Balance Sheet (hidden) | SHOWN under 'Reserves and Surplus' on Liabilities side |\n| Dividend | Not available (not disclosed, but even if known, it's from revenue manipulation) | Not available for dividend (as per Companies Act, capital reserves cannot be distributed) |\nA wrong answer saying both are not shown or both are from profits reveals confusion between the *nature* of the reserve (revenue vs capital) and the *disclosure* status.",
+     "self_check": true
+    },
+    {
+     "q": "\"Creation of secret reserves within reasonable limits is justifiable on grounds of expediency, prudence and preventing competition.\" Evaluate this statement. Give two arguments FOR and two arguments AGAINST secret reserves from a stakeholder perspective (shareholders, creditors, tax authorities, competitors).",
+     "a": "FOR: (1) Prudence: Conservative valuation protects against future uncertainties (e.g., inventory obsolescence). (2) Competition: Hidden profits prevent competitors from targeting high-margin products. AGAINST: (1) Shareholders: Misled about true profitability, affecting investment decisions. (2) Tax Authorities: Reduced tax liability deprives government revenue. (3) Creditors: Understated assets overstate leverage ratios, affecting credit decisions. A one-sided answer (only FOR or only AGAINST) shows inability to evaluate accounting policies from multiple stakeholder perspectives – a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company uses TWO methods simultaneously to create a secret reserve of ₹15,00,000. Specify the asset/liability involved, the correct accounting treatment, the manipulated treatment, and the journal entries for both. The scenario must be realistic for a manufacturing firm.",
+     "a": "Example: A manufacturing firm buys machinery ₹1 crore (life 10 years, SLM). Correct depreciation: ₹10 lakh/year. Manipulated: ₹15 lakh/year (excess ₹5 lakh). Also, inventory cost ₹50 lakh, NRV ₹52 lakh. Manipulated value: ₹40 lakh (undervaluation ₹10 lakh). Total secret reserve = ₹15 lakh. Journal for correct: Depreciation A/c Dr. 10 To Machinery 10; Closing Stock Dr. 50 To Trading 50. Journal for manipulated: Depreciation A/c Dr. 15 To Machinery 15; Closing Stock Dr. 40 To Trading 40. A poor answer uses vague numbers or ignores the \"correct vs manipulated\" comparison, showing inability to quantify the reserve creation mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_005",
+   "title": "c11_chem_cbse_07_005",
+   "questions": [
+    {
+     "q": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), write the expression for Qc. If initial concentrations are [N₂] = 0.5 M, [H₂] = 1.5 M, [NH₃] = 0.2 M, calculate Qc.",
+     "a": "Qc = [NH₃]² / ([N₂][H₂]³) = (0.2)² / (0.5 × 1.5³) = 0.04 / (0.5 × 3.375) = 0.04 / 1.6875 = 0.0237. A wrong answer typically reveals the student forgot to cube [H₂] or square [NH₃], or inverted the expression (writing reactants over products), showing they don't understand the stoichiometric coefficients become exponents in the equilibrium/quotient expression.",
+     "self_check": true
+    },
+    {
+     "q": "At 500 K, Kc for N₂(g) + 3H₂(g) ⇌ 2NH₃(g) is 0.06. Using the initial concentrations from Question 1 (Qc = 0.0237), predict the direction of reaction. Explain WHY the reaction moves in that direction in terms of the ratio of products to reactants.",
+     "a": "Since Qc (0.0237) < Kc (0.06), the reaction proceeds in the forward direction (toward products). The ratio of product to reactant concentrations is currently too small compared to the equilibrium ratio. To reach equilibrium, the system must increase product concentration and decrease reactant concentrations—meaning net forward reaction. A wrong answer (e.g., saying reverse direction) reveals the student has memorized \"Q < K means forward\" without understanding it means the product side is deficient relative to equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), Kp = 4.0 at a certain temperature. Initial partial pressures are: p(SO₂) = 0.8 atm, p(O₂) = 0.5 atm, p(SO₃) = 2.0 atm. Calculate Qp and determine the reaction direction. Show all steps.",
+     "a": "Qp = (p_SO₃)² / (p_SO₂)²(p_O₂) = (2.0)² / (0.8)²(0.5) = 4.0 / (0.64 × 0.5) = 4.0 / 0.32 = 12.5. Since Qp (12.5) > Kp (4.0), the reaction proceeds in the reverse direction (toward reactants). Common error: forgetting to square p_SO₂, giving Qp = 4.0 / (0.8 × 0.5) = 10, still > Kp but wrong value. This reveals the student treats stoichiometric coefficients as multipliers rather than exponents.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the reaction H₂(g) + I₂(g) ⇌ 2HI(g). At a given temperature, Kc = 50. Two experiments are set up:\nExperiment A: [H₂]₀ = 1 M, [I₂]₀ = 1 M, [HI]₀ = 0 M\nExperiment B: [H₂]₀ = 0.1 M, [I₂]₀ = 0.1 M, [HI]₀ = 10 M\nCompare Qc for both experiments with Kc and predict the direction in each case. What does this tell you about the versatility of Q?",
+     "a": "Experiment A: Qc = 0² / (1 × 1) = 0 < 50 → forward direction.\nExperiment B: Qc = 10² / (0.1 × 0.1) = 100 / 0.01 = 10,000 > 50 → reverse direction.\nThis shows Q works for ANY starting composition—pure reactants, pure products, or mixtures. A student who only tests \"Q < K = forward\" with one example misses that Q is a universal predictor. Wrong answers often come from not calculating Q for Experiment B correctly (e.g., forgetting to square [HI]) or not recognizing that Q can be zero or very large.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If Q > K, the reaction goes forward because there are more products, so they react to make more products.\" Evaluate this statement. Is it correct? If not, correct it and explain the flaw in the student's reasoning.",
+     "a": "The statement is INCORRECT. If Q > K, the reaction proceeds in the REVERSE direction (toward reactants). The flaw: the student thinks \"more products\" means forward reaction, but actually Q > K means the product-to-reactant ratio is HIGHER than at equilibrium. The system must reduce this ratio by consuming products and forming reactants. This misconception reveals the student confuses \"amount of products\" with \"ratio relative to equilibrium\" and doesn't grasp that the reaction shifts to counteract the imbalance (Le Chatelier's principle preview).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have the reaction CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g) with Kc = 1.0 at 1000 K. Propose THREE different sets of initial concentrations that would give Qc < Kc, Qc = Kc, and Qc > Kc respectively. For each set, state the predicted direction.",
+     "a": "Good answer criteria: Three distinct sets showing understanding that Q depends on the ratio, not absolute values.\nExample:\nSet 1 (Qc < Kc): [CO]=1, [H₂O]=1, [CO₂]=0.1, [H₂]=0.1 → Qc=0.01 < 1 → forward\nSet 2 (Qc = Kc): [CO]=1, [H₂O]=1, [CO₂]=1, [H₂]=1 → Qc=1 = 1 → at equilibrium\nSet 3 (Qc > Kc): [CO]=0.1, [H₂O]=0.1, [CO₂]=1, [H₂]=1 → Qc=100 > 1 → reverse\nA poor answer uses only zero concentrations or doesn't vary all species, showing the student doesn't see Q as a continuous function of all concentrations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_003",
+   "title": "c10_math_cbse_09_003",
+   "questions": [
+    {
+     "q": "In the diagram below, an observer at point A on a cliff looks down at a boat at point B. The horizontal line through A is AC. Which angle represents the angle of depression? \n(A) ∠CAB  (B) ∠ABC  (C) ∠ACB  (D) ∠CBA",
+     "a": "Correct answer: (A) ∠CAB. The angle of depression is always measured from the horizontal line (AC) downward to the line of sight (AB). A wrong answer of (B) or (D) reveals the student confuses angle of depression with angle of elevation at the boat's position. A wrong answer of (C) reveals the student incorrectly identifies the angle at the horizontal line's endpoint rather than at the observer's eye.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a diagram for an angle of depression problem and writes: \"∠depression = 30° at the top of the tower.\" The teacher asks: \"Where exactly is this 30° angle located?\" The student points to the angle inside the right triangle at the base of the tower. Is the student correct? Explain why or why not using the alternate interior angles theorem.",
+     "a": "The student is incorrect. The angle of depression is located at the observer's eye (top of the tower), between the horizontal and the line of sight. By the alternate interior angles theorem, this angle equals the angle of elevation at the base of the tower (inside the right triangle), but they are physically at different vertices. A student who points to the base angle confuses the equality of measures with the physical location of the angle. This misconception leads to mislabelled diagrams and incorrect trigonometric ratio selection.",
+     "self_check": true
+    },
+    {
+     "q": "From the top of a 20 m high lighthouse, the angle of depression of a ship is 30°. Draw a labelled diagram showing: (i) the horizontal line through the observer, (ii) the line of sight, (iii) the angle of depression, (iv) the corresponding angle of elevation at the ship, and (v) the right triangle used for calculation. Label all known values.",
+     "a": "[Diagram description: Vertical line LT = 20 m (lighthouse). Horizontal line through T (top) extending right. Line of sight TS to ship S at base. ∠(horizontal, TS) = 30° at T (angle of depression). Horizontal through S parallel to horizontal through T. ∠TS(horizontal) = 30° at S (angle of elevation, alternate interior). Right triangle LTS with right angle at L, TL = 20 m (opposite to 30°), LS = horizontal distance (adjacent).] A student who draws the 30° angle at L (base of lighthouse) instead of at T or S shows they don't understand where the angle of depression is physically located. A student who doesn't draw parallel horizontals misses the geometric justification for angle equality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two statements: \nStatement 1: \"The angle of depression from the top of a tower to a car on the ground is 45°.\"\nStatement 2: \"The angle of elevation from the car to the top of the tower is 45°.\"\nAre both statements always true simultaneously? Under what geometric condition are they equal? Give a counterexample where they would NOT be equal.",
+     "a": "Yes, both statements are true simultaneously when the horizontal line through the observer (top of tower) and the horizontal line through the object (car) are parallel. This holds when the ground is level and the tower is vertical. They would NOT be equal if the ground is sloped (e.g., car on a hillside) making the two horizontal lines non-parallel, or if the tower is leaning (not vertical). A student who says \"always equal\" without mentioning the parallel horizontals condition reveals they memorised the rule without understanding the geometric prerequisite.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 10 student solves this problem: \"From a building 15 m high, the angle of depression of a car is 60°. Find the distance of the car from the building.\" The student writes: \"tan 60° = 15/x, so x = 15/√3 = 5√3 m.\" Identify the error in the student's working and explain the correct trigonometric ratio to use with the angle of depression at the top of the building.",
+     "a": "The error: The student used the angle of depression (60° at the top) directly in the right triangle at the base, but the angle inside the right triangle at the top is the complement (90° - 60° = 30°), not 60°. The correct approach: The angle of depression = 60° at the top → angle of elevation at car = 60° (alternate interior). In right triangle at car: tan 60° = opposite/adjacent = height/distance = 15/x → x = 15/√3 = 5√3 m. OR use the angle at the top of the building inside the triangle: 30° → tan 30° = x/15 → x = 15/√3. The student's answer is numerically correct by coincidence because tan 60° = cot 30°, but the reasoning is flawed. A student who doesn't catch this error reveals they don't understand which angle belongs to which triangle vertex.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving angle of depression that requires the solver to first recognise that the angle of depression equals the angle of elevation, then use the tangent ratio to find an unknown height. The problem must be set in an Indian context (e.g., a temple, a tree, a water tank) and include a diagram description. Provide the complete solution with all steps.",
+     "a": "Sample problem: \"From the top of a 30 m high water tank in a village, the angle of depression of a temple gate is 45°. Find the horizontal distance between the tank and the gate.\" Solution: (1) Draw vertical tank AB = 30 m. (2) Draw horizontal through A. (3) Draw line of sight AC to gate C. (4) Mark ∠(horizontal, AC) = 45° at A (depression). (5) Draw horizontal through C parallel to horizontal through A. (6) ∠AC(horizontal) = 45° at C (elevation, alternate interior). (7) In right triangle ABC, right angle at B, tan 45° = AB/BC = 30/BC. (8) 1 = 30/BC → BC = 30 m. A poor answer uses the wrong angle vertex, omits the parallel line justification, or sets up tan 45° = BC/30.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

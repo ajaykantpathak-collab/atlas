@@ -1,0 +1,863 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 102,
+ "chapter_title": "National Income Accounting",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leec102.txt",
+ "concepts": [
+  {
+   "id": "leec.102.1",
+   "title": "Net Investment and Depreciation",
+   "section": "2.1",
+   "definition": "Net investment measures the real expansion of capital stock after accounting for physical degradation and usage loss of existing capital equipment.",
+   "formula": "net_investment = gross_investment - depreciation",
+   "key_idea": "Capital accumulation increases only when total gross capital formation exceeds asset depreciation.",
+   "textbook_ref": "leec102.txt lines 120-150",
+   "question_patterns": [
+    "find the net investment given gross investment and depreciation",
+    "calculate net capital formation when gross investment and wear and tear are known",
+    "determine net investment from gross investment and depreciation",
+    "compute net investment given gross capital expenditure and depreciation allowance",
+    "what is the value of net investment if gross investment and annual depreciation are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract depreciation from gross investment",
+     "explain": "net capital formation is obtained by subtracting asset wear and tear from gross investment",
+     "compute": "net_investment = gross_investment - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.2",
+   "title": "Gross Value Added Method",
+   "section": "2.2.1",
+   "definition": "Value added measures the fresh contribution made by an enterprise to production by deducting intermediate consumption from total gross production value.",
+   "formula": "gross_value_added = sales + change_in_inventory - intermediate_consumption",
+   "key_idea": "Subtracting intermediate input costs eliminates double counting of goods across successive production stages.",
+   "textbook_ref": "leec102.txt lines 180-230",
+   "question_patterns": [
+    "calculate gross value added given sales intermediate consumption and inventory change",
+    "find the net contribution of a firm using sales stock change and intermediate costs",
+    "determine gross value added from total output value and intermediate goods value",
+    "compute gross value added when sales intermediate consumption and inventory change are provided",
+    "what is the gross value added for a firm given sales and intermediate inputs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate gross value of output",
+     "explain": "gross output value combines total market sales with net inventory change",
+     "compute": "gross_output = sales + change_in_inventory"
+    },
+    {
+     "step": 2,
+     "action": "subtract intermediate consumption",
+     "explain": "gross value added is found by deducting intermediate goods expenditure from gross output",
+     "compute": "gross_value_added = gross_output - intermediate_consumption"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.3",
+   "title": "Expenditure Approach to GDP",
+   "section": "2.2.2",
+   "definition": "The expenditure method measures national output by aggregating total final spending on goods and services by households, business investors, government, and foreign trade.",
+   "formula": "gdp = consumption + investment + govt_expenditure + exports - imports",
+   "key_idea": "Aggregate spending across economic sectors equals total final domestic product.",
+   "textbook_ref": "leec102.txt lines 240-280",
+   "question_patterns": [
+    "calculate gross domestic product using the expenditure method",
+    "find gdp from private consumption investment government spending exports and imports",
+    "determine aggregate expenditure given consumption investment government purchases and net exports",
+    "compute GDP when aggregate consumption investment government spending and net exports are given",
+    "what is the GDP calculated via spending by households firms government and foreign trade"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net exports",
+     "explain": "net exports represent total foreign sales minus foreign purchases",
+     "compute": "net_exports = exports - imports"
+    },
+    {
+     "step": 2,
+     "action": "sum sector expenditures",
+     "explain": "add final consumption, investment, government spending, and net exports to compute GDP",
+     "compute": "gdp = consumption + investment + govt_expenditure + net_exports"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.4",
+   "title": "Income Approach to GDP",
+   "section": "2.2.3",
+   "definition": "The income method sums primary factor rewards earned by households for offering labor, capital, land, and entrepreneurship to production activities.",
+   "formula": "gdp = wages + profits + interest + rent",
+   "key_idea": "Production revenue is entirely distributed to domestic factors of production as factor income payments.",
+   "textbook_ref": "leec102.txt lines 280-320",
+   "question_patterns": [
+    "calculate gross domestic product using the income method",
+    "find GDP from wages profits interest and rent payments",
+    "determine total factor payments from wage bill profit income interest and rental yields",
+    "compute aggregate income given wages profits interest and rent",
+    "what is the GDP evaluated as the sum of all factor incomes in the economy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum factor incomes",
+     "explain": "add wage payments, corporate profits, net interest earnings, and land rents to arrive at GDP",
+     "compute": "gdp = wages + profits + interest + rent"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.5",
+   "title": "GVA and GDP at Factor Cost Basic Prices and Market Prices",
+   "section": "2.2.4",
+   "definition": "Production costs transition to basic prices by adding net production taxes, and further transition to market prices by adding net product taxes.",
+   "formula": "gdp_market_price = gva_factor_cost + production_taxes - production_subsidies + product_taxes - product_subsidies",
+   "key_idea": "Government tax claims and financial subsidies cause differences between output factor costs and final market prices.",
+   "textbook_ref": "leec102.txt lines 320-350",
+   "question_patterns": [
+    "calculate GDP at market prices from GVA at factor cost and net taxes",
+    "find GVA at basic prices given factor cost and net production taxes",
+    "determine market price GDP from basic price GVA and net product taxes",
+    "compute GDP at market price when factor cost net production tax and net product tax are known",
+    "what is the GDP at market prices given GVA at factor cost production taxes subsidies and product taxes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute GVA at basic prices",
+     "explain": "add net production taxes (production taxes minus production subsidies) to factor cost GVA",
+     "compute": "gva_basic = gva_factor_cost + production_taxes - production_subsidies"
+    },
+    {
+     "step": 2,
+     "action": "compute GDP at market price",
+     "explain": "add net product taxes (product taxes minus product subsidies) to GVA at basic prices",
+     "compute": "gdp_market_price = gva_basic + product_taxes - product_subsidies"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.6",
+   "title": "Gross National Product and Net National Product",
+   "section": "2.3",
+   "definition": "Gross National Product accounts for net factor income earned abroad by residents, while Net National Product deducts capital consumption allowances.",
+   "formula": "nnp_market_price = gdp_market_price + net_factor_income_from_abroad - depreciation",
+   "key_idea": "National aggregates measure economic earnings owned by residents, independent of geographical production locations.",
+   "textbook_ref": "leec102.txt lines 350-390",
+   "question_patterns": [
+    "calculate GNP at market price given GDP and net factor income from abroad",
+    "find NNP at market price from GDP net factor income and depreciation",
+    "determine net national product at market prices given gross domestic product foreign income and depreciation",
+    "compute GNP and NNP when GDP net factor income from abroad and depreciation are known",
+    "what is NNP at market price given GDP NFIA and capital consumption"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate GNP at market price",
+     "explain": "add net factor income from abroad to gross domestic product at market price",
+     "compute": "gnp_market_price = gdp_market_price + net_factor_income_from_abroad"
+    },
+    {
+     "step": 2,
+     "action": "calculate NNP at market price",
+     "explain": "deduct annual capital depreciation from gross national product at market price",
+     "compute": "nnp_market_price = gnp_market_price - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.7",
+   "title": "National Income and Personal Income",
+   "section": "2.3",
+   "definition": "National Income is net national product at factor cost, whereas Personal Income captures actual money receipts accruing to private household units.",
+   "formula": "personal_income = national_income - undistributed_profits - corporate_tax - net_interest_paid + transfer_payments",
+   "key_idea": "Personal income modifies national income by subtracting retained corporate earnings and direct business taxes while adding social transfers.",
+   "textbook_ref": "leec102.txt lines 390-430",
+   "question_patterns": [
+    "calculate personal income from national income corporate tax undistributed profits and transfer payments",
+    "find national income from NNP at market price and net indirect taxes",
+    "determine personal income given national income retained profits corporate tax net interest and transfers",
+    "compute personal income when national income corporate tax undistributed profit and transfers are known",
+    "what is personal income calculated from national factor earnings and transfer receipts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate personal income",
+     "explain": "subtract undistributed profits, corporate tax, and net household interest from national income, then add transfer payments",
+     "compute": "personal_income = national_income - undistributed_profits - corporate_tax - net_interest_paid + transfer_payments"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.8",
+   "title": "Personal Disposable Income",
+   "section": "2.3",
+   "definition": "Personal Disposable Income represents net spendable earnings left with households after paying personal income taxes and mandatory government fees.",
+   "formula": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments",
+   "key_idea": "Household consumption and private savings depend directly on personal disposable income.",
+   "textbook_ref": "leec102.txt lines 430-450",
+   "question_patterns": [
+    "calculate personal disposable income given personal income personal tax and non tax payments",
+    "find disposable income of households after direct tax payments and fines",
+    "determine spendable household income from personal income direct taxes and fee payments",
+    "compute personal disposable income when personal income personal taxes and non tax payments are known",
+    "what is personal disposable income if income tax and statutory non tax fees are deducted from personal income"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct personal direct liabilities",
+     "explain": "subtract personal taxes and non-tax administrative fees from personal income to obtain personal disposable income",
+     "compute": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.9",
+   "title": "Nominal GDP Real GDP and GDP Deflator",
+   "section": "2.4",
+   "definition": "The GDP deflator measures broad price inflation by calculating the numerical ratio of current-price nominal GDP to base-price real GDP.",
+   "formula": "gdp_deflator = (nominal_gdp / real_gdp) * 100",
+   "key_idea": "Real GDP isolates physical volume changes, while nominal GDP reflects both output quantity changes and price movements.",
+   "textbook_ref": "leec102.txt lines 450-490",
+   "question_patterns": [
+    "calculate GDP deflator from nominal GDP and real GDP",
+    "find real GDP given nominal GDP and GDP deflator",
+    "determine price index or GDP deflator in percentage terms",
+    "compute GDP deflator when nominal output and real output are given",
+    "what is the implicit price deflator given nominal and real output figures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate GDP deflator ratio",
+     "explain": "divide nominal GDP by real GDP and scale by 100 to obtain the GDP deflator index percentage",
+     "compute": "gdp_deflator = (nominal_gdp / real_gdp) * 100"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.10",
+   "title": "Consumer Price Index Calculation",
+   "section": "2.4",
+   "definition": "The Consumer Price Index evaluates retail cost changes for a fixed consumer basket in the current period relative to a specified base period.",
+   "formula": "cpi = (current_cost / base_cost) * 100",
+   "key_idea": "CPI measures retail price changes impacting household consumption spending using fixed basket weights.",
+   "textbook_ref": "leec102.txt lines 490-530",
+   "question_patterns": [
+    "calculate consumer price index given base year cost and current year cost",
+    "find CPI for current year relative to base year basket expenditure",
+    "determine percentage change in consumer basket cost using CPI",
+    "compute consumer price index when base cost and current cost are given",
+    "what is the CPI given basket costs in base and current periods"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute price ratio relative to base period",
+     "explain": "divide current year basket expenditure by base year basket expenditure and multiply by 100",
+     "compute": "cpi = (current_cost / base_cost) * 100"
+    }
+   ]
+  },
+  {
+   "id": "leec.102.11",
+   "title": "Limitations of GDP as a Welfare Indicator",
+   "section": "2.5",
+   "definition": "Gross Domestic Product fails as a complete index of aggregate human welfare because it ignores income distribution, non-monetary work, and environmental impacts.",
+   "formula": "none",
+   "key_idea": "Higher aggregate production figures do not automatically reflect an improvement in general social welfare.",
+   "textbook_ref": "leec102.txt lines 530-580",
+   "question_patterns": [
+    "explain why GDP may not reflect true economic welfare",
+    "what are the main limitations of using real GDP as a welfare measure",
+    "how do non monetary exchanges affect the estimation of GDP and welfare",
+    "discuss negative externalities and their impact on national welfare measurement",
+    "why does income distribution prevent GDP from serving as an ideal welfare index"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine income distribution equality",
+     "explain": "if increased aggregate income accrues mainly to top earners, overall standard of living for most citizens may fall"
+    },
+    {
+     "step": 2,
+     "action": "account for non-monetary exchanges",
+     "explain": "unpaid domestic labor and barter transactions create unrecorded productive value omitted from official GDP figures"
+    },
+    {
+     "step": 3,
+     "action": "evaluate negative and positive externalities",
+     "explain": "unpriced industrial pollution degrades societal welfare without lowering recorded GDP totals"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Section 2.1 worked example",
+   "concept": "leec.102.1",
+   "question_type": "compute",
+   "question_pattern": "Gross investment in an economy is {gross_investment} while capital depreciation is {depreciation}. Calculate net investment.",
+   "extracted_variables": {
+    "gross_investment": 1200,
+    "depreciation": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract depreciation from gross investment",
+     "explain": "net capital formation is obtained by subtracting asset wear and tear from gross investment",
+     "compute": "net_investment = gross_investment - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Section 2.1 worked example 2",
+   "concept": "leec.102.1",
+   "question_type": "compute",
+   "question_pattern": "If total gross capital formation equals {gross_investment} and wear and tear allowance is {depreciation}, find net investment.",
+   "extracted_variables": {
+    "gross_investment": 850,
+    "depreciation": 110
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract depreciation from gross investment",
+     "explain": "net capital formation is obtained by subtracting asset wear and tear from gross investment",
+     "compute": "net_investment = gross_investment - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Section 2.2.1 Table 2.1 example",
+   "concept": "leec.102.2",
+   "question_type": "compute",
+   "question_pattern": "A firm records sales of {sales}, intermediate consumption of {intermediate_consumption}, and closing stock exceeding opening stock by {change_in_inventory}. Compute gross value added.",
+   "extracted_variables": {
+    "sales": 1000,
+    "change_in_inventory": 200,
+    "intermediate_consumption": 450
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate gross value of output",
+     "explain": "gross output value combines total market sales with net inventory change",
+     "compute": "gross_output = sales + change_in_inventory"
+    },
+    {
+     "step": 2,
+     "action": "subtract intermediate consumption",
+     "explain": "gross value added is found by deducting intermediate goods expenditure from gross output",
+     "compute": "gross_value_added = gross_output - intermediate_consumption"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Section 2.2.1 worked example 2",
+   "concept": "leec.102.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate gross value added for a manufacturer with total sales of {sales}, unsold inventory change of {change_in_inventory}, and raw material expenditure of {intermediate_consumption}.",
+   "extracted_variables": {
+    "sales": 500,
+    "change_in_inventory": -50,
+    "intermediate_consumption": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate gross value of output",
+     "explain": "gross output value combines total market sales with net inventory change",
+     "compute": "gross_output = sales + change_in_inventory"
+    },
+    {
+     "step": 2,
+     "action": "subtract intermediate consumption",
+     "explain": "gross value added is found by deducting intermediate goods expenditure from gross output",
+     "compute": "gross_value_added = gross_output - intermediate_consumption"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Section 2.2.2 worked example",
+   "concept": "leec.102.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate GDP given household consumption {consumption}, private investment {investment}, government expenditure {govt_expenditure}, exports {exports}, and imports {imports}.",
+   "extracted_variables": {
+    "consumption": 5000,
+    "investment": 1500,
+    "govt_expenditure": 2000,
+    "exports": 800,
+    "imports": 600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net exports",
+     "explain": "net exports represent total foreign sales minus foreign purchases",
+     "compute": "net_exports = exports - imports"
+    },
+    {
+     "step": 2,
+     "action": "sum sector expenditures",
+     "explain": "add final consumption, investment, government spending, and net exports to compute GDP",
+     "compute": "gdp = consumption + investment + govt_expenditure + net_exports"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Section 2.2.2 worked example 2",
+   "concept": "leec.102.3",
+   "question_type": "compute",
+   "question_pattern": "Determine GDP by expenditure approach when consumption is {consumption}, gross investment is {investment}, government purchases are {govt_expenditure}, exports are {exports}, and imports are {imports}.",
+   "extracted_variables": {
+    "consumption": 3200,
+    "investment": 900,
+    "govt_expenditure": 1100,
+    "exports": 400,
+    "imports": 450
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net exports",
+     "explain": "net exports represent total foreign sales minus foreign purchases",
+     "compute": "net_exports = exports - imports"
+    },
+    {
+     "step": 2,
+     "action": "sum sector expenditures",
+     "explain": "add final consumption, investment, government spending, and net exports to compute GDP",
+     "compute": "gdp = consumption + investment + govt_expenditure + net_exports"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Section 2.2.3 worked example",
+   "concept": "leec.102.4",
+   "question_type": "compute",
+   "question_pattern": "In a simplified economy, total wages are {wages}, corporate profits are {profits}, interest payments are {interest}, and rent is {rent}. Compute GDP using income method.",
+   "extracted_variables": {
+    "wages": 4000,
+    "profits": 1800,
+    "interest": 600,
+    "rent": 400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum factor incomes",
+     "explain": "add wage payments, corporate profits, net interest earnings, and land rents to arrive at GDP",
+     "compute": "gdp = wages + profits + interest + rent"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Section 2.2.3 worked example 2",
+   "concept": "leec.102.4",
+   "question_type": "compute",
+   "question_pattern": "Find GDP by income method given wage earnings of {wages}, profit income of {profits}, interest revenue of {interest}, and land rent of {rent}.",
+   "extracted_variables": {
+    "wages": 2500,
+    "profits": 1100,
+    "interest": 350,
+    "rent": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum factor incomes",
+     "explain": "add wage payments, corporate profits, net interest earnings, and land rents to arrive at GDP",
+     "compute": "gdp = wages + profits + interest + rent"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Section 2.2.4 worked example",
+   "concept": "leec.102.5",
+   "question_type": "compute",
+   "question_pattern": "Given GVA at factor cost of {gva_factor_cost}, production taxes of {production_taxes}, production subsidies of {production_subsidies}, product taxes of {product_taxes}, and product subsidies of {product_subsidies}, calculate GDP at market prices.",
+   "extracted_variables": {
+    "gva_factor_cost": 10000,
+    "production_taxes": 500,
+    "production_subsidies": 100,
+    "product_taxes": 800,
+    "product_subsidies": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute GVA at basic prices",
+     "explain": "add net production taxes (production taxes minus production subsidies) to factor cost GVA",
+     "compute": "gva_basic = gva_factor_cost + production_taxes - production_subsidies"
+    },
+    {
+     "step": 2,
+     "action": "compute GDP at market price",
+     "explain": "add net product taxes (product taxes minus product subsidies) to GVA at basic prices",
+     "compute": "gdp_market_price = gva_basic + product_taxes - product_subsidies"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Section 2.2.4 worked example 2",
+   "concept": "leec.102.5",
+   "question_type": "compute",
+   "question_pattern": "Compute GDP at market prices when factor cost GVA is {gva_factor_cost}, net production taxes are {production_taxes} with zero subsidies, and net product taxes are {product_taxes} with zero subsidies.",
+   "extracted_variables": {
+    "gva_factor_cost": 6000,
+    "production_taxes": 300,
+    "production_subsidies": 0,
+    "product_taxes": 450,
+    "product_subsidies": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute GVA at basic prices",
+     "explain": "add net production taxes (production taxes minus production subsidies) to factor cost GVA",
+     "compute": "gva_basic = gva_factor_cost + production_taxes - production_subsidies"
+    },
+    {
+     "step": 2,
+     "action": "compute GDP at market price",
+     "explain": "add net product taxes (product taxes minus product subsidies) to GVA at basic prices",
+     "compute": "gdp_market_price = gva_basic + product_taxes - product_subsidies"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Section 2.3 worked example",
+   "concept": "leec.102.6",
+   "question_type": "compute",
+   "question_pattern": "Given GDP at market price of {gdp_market_price}, net factor income from abroad of {net_factor_income_from_abroad}, and capital depreciation of {depreciation}, compute NNP at market price.",
+   "extracted_variables": {
+    "gdp_market_price": 7500,
+    "net_factor_income_from_abroad": 300,
+    "depreciation": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate GNP at market price",
+     "explain": "add net factor income from abroad to gross domestic product at market price",
+     "compute": "gnp_market_price = gdp_market_price + net_factor_income_from_abroad"
+    },
+    {
+     "step": 2,
+     "action": "calculate NNP at market price",
+     "explain": "deduct annual capital depreciation from gross national product at market price",
+     "compute": "nnp_market_price = gnp_market_price - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Section 2.3 worked example 2",
+   "concept": "leec.102.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate GNP at market price and NNP at market price if GDP is {gdp_market_price}, foreign factor income net flow is {net_factor_income_from_abroad}, and capital wear is {depreciation}.",
+   "extracted_variables": {
+    "gdp_market_price": 4200,
+    "net_factor_income_from_abroad": -100,
+    "depreciation": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate GNP at market price",
+     "explain": "add net factor income from abroad to gross domestic product at market price",
+     "compute": "gnp_market_price = gdp_market_price + net_factor_income_from_abroad"
+    },
+    {
+     "step": 2,
+     "action": "calculate NNP at market price",
+     "explain": "deduct annual capital depreciation from gross national product at market price",
+     "compute": "nnp_market_price = gnp_market_price - depreciation"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Section 2.3 worked example 3",
+   "concept": "leec.102.7",
+   "question_type": "compute",
+   "question_pattern": "National income of an economy is {national_income}. Undistributed profits are {undistributed_profits}, corporate taxes are {corporate_tax}, net interest paid by households is {net_interest_paid}, and transfer payments are {transfer_payments}. Find personal income.",
+   "extracted_variables": {
+    "national_income": 8500,
+    "undistributed_profits": 400,
+    "corporate_tax": 300,
+    "net_interest_paid": 150,
+    "transfer_payments": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate personal income",
+     "explain": "subtract undistributed profits, corporate tax, and net household interest from national income, then add transfer payments",
+     "compute": "personal_income = national_income - undistributed_profits - corporate_tax - net_interest_paid + transfer_payments"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Section 2.3 worked example 4",
+   "concept": "leec.102.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate personal income when national income equals {national_income}, retained earnings are {undistributed_profits}, corporate tax payments are {corporate_tax}, net household interest is {net_interest_paid}, and government transfer payments equal {transfer_payments}.",
+   "extracted_variables": {
+    "national_income": 5000,
+    "undistributed_profits": 200,
+    "corporate_tax": 150,
+    "net_interest_paid": 50,
+    "transfer_payments": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate personal income",
+     "explain": "subtract undistributed profits, corporate tax, and net household interest from national income, then add transfer payments",
+     "compute": "personal_income = national_income - undistributed_profits - corporate_tax - net_interest_paid + transfer_payments"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "Section 2.3 worked example 5",
+   "concept": "leec.102.8",
+   "question_type": "compute",
+   "question_pattern": "If personal income in a country is {personal_income}, direct personal taxes are {personal_taxes}, and non-tax administrative fees are {non_tax_payments}, calculate personal disposable income.",
+   "extracted_variables": {
+    "personal_income": 8150,
+    "personal_taxes": 1000,
+    "non_tax_payments": 150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct personal direct liabilities",
+     "explain": "subtract personal taxes and non-tax administrative fees from personal income to obtain personal disposable income",
+     "compute": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "Section 2.3 worked example 6",
+   "concept": "leec.102.8",
+   "question_type": "compute",
+   "question_pattern": "Find personal disposable income when household personal income is {personal_income}, income tax paid is {personal_taxes}, and fines/penalties equal {non_tax_payments}.",
+   "extracted_variables": {
+    "personal_income": 4900,
+    "personal_taxes": 600,
+    "non_tax_payments": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct personal direct liabilities",
+     "explain": "subtract personal taxes and non-tax administrative fees from personal income to obtain personal disposable income",
+     "compute": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "Section 2.4 worked example",
+   "concept": "leec.102.9",
+   "question_type": "compute",
+   "question_pattern": "Nominal GDP of a country in a given year is {nominal_gdp} while real GDP is {real_gdp}. Compute the GDP deflator.",
+   "extracted_variables": {
+    "nominal_gdp": 1650,
+    "real_gdp": 1100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate GDP deflator ratio",
+     "explain": "divide nominal GDP by real GDP and scale by 100 to obtain the GDP deflator index percentage",
+     "compute": "gdp_deflator = (nominal_gdp / real_gdp) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "Section 2.4 worked example 2",
+   "concept": "leec.102.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate GDP deflator if current price nominal GDP is {nominal_gdp} and constant price real GDP is {real_gdp}.",
+   "extracted_variables": {
+    "nominal_gdp": 2500,
+    "real_gdp": 2000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate GDP deflator ratio",
+     "explain": "divide nominal GDP by real GDP and scale by 100 to obtain the GDP deflator index percentage",
+     "compute": "gdp_deflator = (nominal_gdp / real_gdp) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "Section 2.4 CPI example",
+   "concept": "leec.102.10",
+   "question_type": "compute",
+   "question_pattern": "A representative consumer basket cost {base_cost} in the base year 2000 and {current_cost} in the year 2005. Compute the Consumer Price Index for 2005.",
+   "extracted_variables": {
+    "base_cost": 1400,
+    "current_cost": 1950
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute price ratio relative to base period",
+     "explain": "divide current year basket expenditure by base year basket expenditure and multiply by 100",
+     "compute": "cpi = (current_cost / base_cost) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "Section 2.4 CPI example 2",
+   "concept": "leec.102.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate CPI given that base year consumer expenditure was {base_cost} and current year expenditure for the same basket is {current_cost}.",
+   "extracted_variables": {
+    "base_cost": 2000,
+    "current_cost": 2600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute price ratio relative to base period",
+     "explain": "divide current year basket expenditure by base year basket expenditure and multiply by 100",
+     "compute": "cpi = (current_cost / base_cost) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex102.1",
+   "source_ref": "leec102.txt Exercises Q1",
+   "questions": [
+    "What are the four factors of production and what are the remunerations to each of these called?"
+   ]
+  },
+  {
+   "id": "ex102.2",
+   "source_ref": "leec102.txt Exercises Q2",
+   "questions": [
+    "Why should the aggregate final expenditure of an economy be equal to the aggregate factor payments? Explain."
+   ]
+  },
+  {
+   "id": "ex102.3",
+   "source_ref": "leec102.txt Exercises Q3",
+   "questions": [
+    "Distinguish between stock and flow. Between net investment and capital which is a stock and which is a flow? Compare net investment and capital with flow of water into a tank."
+   ]
+  },
+  {
+   "id": "ex102.4",
+   "source_ref": "leec102.txt Exercises Q4",
+   "questions": [
+    "What is the difference between planned and unplanned inventory accumulation? Write down the relation between change in inventories and value added of a firm."
+   ]
+  },
+  {
+   "id": "ex102.5",
+   "source_ref": "leec102.txt Exercises Q5",
+   "questions": [
+    "Write down the three identities of calculating the GDP of a country by the three methods. Also briefly explain why each of these should give us the same value of GDP."
+   ]
+  },
+  {
+   "id": "ex102.6",
+   "source_ref": "leec102.txt Exercises Q6",
+   "questions": [
+    "Define budget deficit and trade deficit. The excess of private investment over saving of a country in a particular year was Rs 2,000 crores. The amount of budget deficit was (-) Rs 1,500 crores. What was the volume of trade deficit of that country?"
+   ]
+  },
+  {
+   "id": "ex102.7",
+   "source_ref": "leec102.txt Exercises Q7",
+   "questions": [
+    "Suppose the GDP at market price of a country in a particular year was Rs 1,100 crores. Net Factor Income from Abroad was Rs 100 crores. The value of Indirect taxes - Subsidies was Rs 150 crores and National Income was Rs 850 crores. Calculate the aggregate value of depreciation."
+   ]
+  },
+  {
+   "id": "ex102.8",
+   "source_ref": "leec102.txt Exercises Q8",
+   "questions": [
+    "Net National Product at Factor Cost of a particular country in a year is Rs 1,900 crores. There are no interest payments made by the households to the firms/government, or by the firms/government to the households. The Personal Disposable Income of the households is Rs 1,200 crores. The personal income taxes paid by them is Rs 600 crores and the value of retained earnings of the firms and government is valued at Rs 200 crores. What is the value of transfer payments made by the government and firms to the households?"
+   ]
+  },
+  {
+   "id": "ex102.9",
+   "source_ref": "leec102.txt Exercises Q9",
+   "questions": [
+    "From the following data, calculate Personal Income and Personal Disposable Income: (a) Net Domestic Product at factor cost 8,000 (b) Net Factor Income from abroad 200 (c) Undisbursed Profit 1,000 (d) Corporate Tax 500 (e) Interest Received by Households 1,500 (f) Interest Paid by Households 1,200 (g) Transfer Income 300 (h) Personal Tax 500"
+   ]
+  },
+  {
+   "id": "ex102.10",
+   "source_ref": "leec102.txt Exercises Q10",
+   "questions": [
+    "In a single day Raju, the barber, collects Rs 500 from haircuts; over this day, his equipment depreciates in value by Rs 50. Of the remaining Rs 450, Raju pays sales tax worth Rs 30, takes home Rs 200 and retains Rs 220 for improvement and buying of new equipment. He further pays Rs 20 as income tax from his income. Based on this information, complete Raju's contribution to the following measures of income (a) Gross Domestic Product (b) NNP at market price (c) NNP at factor cost (d) Personal income (e) Personal disposable income."
+   ]
+  },
+  {
+   "id": "ex102.11",
+   "source_ref": "leec102.txt Exercises Q11",
+   "questions": [
+    "The value of the nominal GNP of an economy was Rs 2,500 crores in a particular year. The value of GNP of that country during the same year, evaluated at the prices of same base year, was Rs 3,000 crores. Calculate the value of the GNP deflator of the year in percentage terms. Has the price level risen between the base year and the year under consideration?"
+   ]
+  },
+  {
+   "id": "ex102.12",
+   "source_ref": "leec102.txt Exercises Q12",
+   "questions": [
+    "Write down some of the limitations of using GDP as an index of welfare of a country."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

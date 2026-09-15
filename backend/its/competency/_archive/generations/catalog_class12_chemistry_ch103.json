@@ -1,0 +1,613 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 103,
+ "chapter_title": "Electrochemistry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\ClassXII_2016-17_SQP Chemistry Class XII 2017.txt",
+ "concepts": [
+  {
+   "id": "jech.3.1",
+   "title": "Electrochemical Cells (Galvanic and Electrolytic)",
+   "section": "3.1",
+   "definition": "An electrochemical cell is a device that converts chemical energy into electrical energy or vice versa. A galvanic (voltaic) cell produces electricity from spontaneous redox reactions, while an electrolytic cell uses external electricity to drive a non-spontaneous reaction.",
+   "formula": "E_cell = E_cathode - E_anode (galvanic); E_ext > E_cell (electrolytic)",
+   "key_idea": "In a galvanic cell, oxidation occurs at the anode (negative terminal) and reduction at the cathode (positive terminal). In an electrolytic cell, the external source reverses the roles: the cathode is negative and the anode is positive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Identify the anode and cathode in a given galvanic cell setup",
+    "Write the half-cell reactions and net cell reaction for a given cell notation",
+    "Determine the direction of electron flow in a galvanic cell",
+    "Distinguish between galvanic and electrolytic cells based on given parameters",
+    "Represent a galvanic cell using standard cell notation (line notation)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two half-cells and their electrode reactions",
+     "explain": "Split the overall redox reaction into oxidation (anode) and reduction (cathode) half-reactions. In a galvanic cell, the species with lower reduction potential is oxidized at the anode."
+    },
+    {
+     "step": 2,
+     "action": "Determine the cell polarity and direction of electron flow",
+     "explain": "Electrons flow from the anode (oxidation, negative terminal in galvanic cell) through the external circuit to the cathode (reduction, positive terminal). In an electrolytic cell, the external source forces the reverse."
+    },
+    {
+     "step": 3,
+     "action": "Write the cell notation and verify spontaneity",
+     "explain": "Express the cell as Anode | Anode electrolyte || Cathode electrolyite | Cathode. The reaction is spontaneous in a galvanic cell if E_cell > 0."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "For the Daniell cell Zn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s), identify the anode, cathode, and write the half-reactions.",
+     "solution": "Anode (oxidation): Zn(s) -> Zn2+(aq) + 2e-. Cathode (reduction): Cu2+(aq) + 2e- -> Cu(s). Zn is the negative terminal; Cu is the positive terminal. Net: Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s).",
+     "answer": "Anode: Zn/Zn2+ (oxidation); Cathode: Cu2+/Cu (reduction); E_cell = 1.10 V"
+    },
+    {
+     "question": "In an electrolytic cell used for electroplating silver, identify which electrode is the cathode and what reaction occurs there.",
+     "solution": "In an electrolytic cell, the cathode is the negative electrode connected to the external source. Reduction occurs at the cathode: Ag+(aq) + e- -> Ag(s). The object to be plated is made the cathode.",
+     "answer": "Cathode is negative; Ag+ + e- -> Ag(s) deposits on the object"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Given the cell notation Mg(s) | Mg2+(aq) || Ag+(aq) | Ag(s), write the half-reactions and identify the anode and cathode.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why the anode in a galvanic cell is negative while the anode in an electrolytic cell is positive.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.2",
+   "title": "Standard Electrode Potential",
+   "section": "3.2",
+   "definition": "Standard electrode potential (E0) is the potential of an electrode measured relative to the standard hydrogen electrode (SHE) under standard conditions (1 M concentration, 1 atm pressure, 298 K). SHE is assigned a potential of 0.00 V.",
+   "formula": "E0_cell = E0_cathode - E0_anode = E0_reduction(cathode) + E0_oxidation(anode)",
+   "key_idea": "A higher (more positive) standard reduction potential means a greater tendency to be reduced (stronger oxidizing agent). A lower (more negative) potential means a greater tendency to be oxidized (stronger reducing agent).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the standard EMF of a cell from given standard electrode potentials",
+    "Determine which species will be oxidized and which reduced given two half-cells",
+    "Predict whether a given redox reaction is spontaneous using standard potentials",
+    "Compare the oxidizing/reducing strength of two species",
+    "Calculate E0_cell from standard reduction potentials of two electrodes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Look up the standard reduction potentials for both half-cells",
+     "explain": "Identify E0(cathode) and E0(anode) from standard reduction potential tables. The species with higher E0 is reduced (cathode).",
+     "compute": "E0_cathode = value from table; E0_anode = value from table"
+    },
+    {
+     "step": 2,
+     "action": "Apply the formula E0_cell = E0_cathode - E0_anode",
+     "explain": "Subtract the anode reduction potential from the cathode reduction potential to get the standard cell EMF.",
+     "compute": "E0_cell = E0_cathode - E0_anode"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the sign of E0_cell",
+     "explain": "If E0_cell > 0, the reaction is spontaneous (galvanic). If E0_cell < 0, the reaction is non-spontaneous under standard conditions.",
+     "compute": "If E0_cell > 0 => spontaneous; If E0_cell < 0 => non-spontaneous"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the standard EMF of the cell: Zn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s). Given E0(Zn2+/Zn) = -0.76 V and E0(Cu2+/Cu) = +0.34 V.",
+     "solution": "Cathode (reduction): Cu2+/Cu, E0 = +0.34 V. Anode (oxidation): Zn2+/Zn, E0 = -0.76 V. E0_cell = E0_cathode - E0_anode = 0.34 - (-0.76) = 0.34 + 0.76 = 1.10 V.",
+     "answer": "E0_cell = +1.10 V (spontaneous)"
+    },
+    {
+     "question": "Predict whether the reaction Fe(s) + Cu2+(aq) -> Fe2+(aq) + Cu(s) is spontaneous. Given E0(Fe2+/Fe) = -0.44 V, E0(Cu2+/Cu) = +0.34 V.",
+     "solution": "Cathode: Cu2+/Cu (E0 = +0.34 V). Anode: Fe2+/Fe (E0 = -0.44 V). E0_cell = 0.34 - (-0.44) = 0.78 V. Since E0_cell > 0, the reaction is spontaneous.",
+     "answer": "E0_cell = +0.78 V, reaction is spontaneous"
+    },
+    {
+     "question": "Calculate E0_cell for the cell Ag(s) | Ag+(aq) || Cu2+(aq) | Cu(s) given E0(Ag+/Ag) = +0.80 V and E0(Cu2+/Cu) = +0.34 V.",
+     "solution": "Ag has higher E0, so Ag+/Ag is the cathode. Cu2+/Cu is the anode. E0_cell = 0.80 - 0.34 = 0.46 V. Wait - in the cell notation, Ag is on the left (anode). E0_cell = E0(cathode) - E0(anode) = 0.34 - 0.80 = -0.46 V. Since E0_cell < 0, the reaction as written is non-spontaneous.",
+     "answer": "E0_cell = -0.46 V (non-spontaneous as written)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the standard EMF of a cell with Ni(s) | Ni2+(aq) || Ag+(aq) | Ag(s). Given E0(Ni2+/Ni) = -0.25 V and E0(Ag+/Ag) = +0.80 V.",
+     "type": "compute"
+    },
+    {
+     "question": "Given E0(Cl2/Cl-) = +1.36 V and E0(Br2/Br-) = +1.07 V, determine whether Cl2 can oxidize Br- under standard conditions.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.3",
+   "title": "Electrochemical Series",
+   "section": "3.2",
+   "definition": "The electrochemical series is an arrangement of elements or their ions in the order of their standard reduction potentials. It ranks species from the strongest reducing agent (most negative E0) at the top to the strongest oxidizing agent (most positive E0) at the bottom.",
+   "formula": "Ordering: E0 values from most negative (top) to most positive (bottom)",
+   "key_idea": "A species higher in the series (more negative E0) can reduce all species below it. A species lower in the series (more positive E0) can oxidize all species above it. The series helps predict the feasibility of redox reactions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Predict whether a given metal can displace another metal from its salt solution",
+    "Arrange given species in order of increasing/decreasing reducing or oxidizing power",
+    "Identify the strongest oxidizing or reducing agent from a list",
+    "Determine if a redox reaction between two species is feasible",
+    "Select a suitable oxidizing or reducing agent for a given transformation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the two species in the electrochemical series using their E0 values",
+     "explain": "Compare the standard reduction potentials. The species with the more negative E0 is higher in the series and is the stronger reducing agent."
+    },
+    {
+     "step": 2,
+     "action": "Determine which species is oxidized and which is reduced",
+     "explain": "The species higher in the series (more negative E0) is oxidized (acts as reducing agent). The species lower in the series (more positive E0) is reduced (acts as oxidizing agent)."
+    },
+    {
+     "step": 3,
+     "action": "Conclude feasibility based on relative positions",
+     "explain": "If the reducing agent is above the oxidizing agent in the series, the reaction is feasible (spontaneous). If not, the reaction is not feasible under standard conditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can zinc metal displace copper from CuSO4 solution? Given E0(Zn2+/Zn) = -0.76 V and E0(Cu2+/Cu) = +0.34 V.",
+     "solution": "Zn has a more negative E0, so it is higher in the electrochemical series than Cu. Zn is the stronger reducing agent and can reduce Cu2+. Therefore, Zn can displace Cu from CuSO4.",
+     "answer": "Yes, Zn can displace Cu from CuSO4 solution"
+    },
+    {
+     "question": "Arrange the following in order of increasing reducing power: Zn, Ag, Na, Cu. Given E0(Zn2+/Zn) = -0.76 V, E0(Ag+/Ag) = +0.80 V, E0(Na+/Na) = -2.71 V, E0(Cu2+/Cu) = +0.34 V.",
+     "solution": "More negative E0 means stronger reducing power. Order of E0: Na (-2.71) < Zn (-0.76) < Cu (+0.34) < Ag (+0.80). So increasing reducing power: Ag < Cu < Zn < Na.",
+     "answer": "Ag < Cu < Zn < Na (increasing reducing power)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Predict whether silver can displace zinc from ZnSO4 solution using E0 values.",
+     "type": "verify_property"
+    },
+    {
+     "question": "From the species F2, Cl2, Br2, I2, identify the strongest and weakest oxidizing agents using the electrochemical series.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.4",
+   "title": "Nernst Equation",
+   "section": "3.3",
+   "definition": "The Nernst equation relates the electrode potential of a half-cell or the EMF of a cell to the concentrations (or activities) of the reacting species and temperature. It accounts for non-standard conditions.",
+   "formula": "E = E0 - (0.0591/n) * log(Q) at 298 K, where Q is the reaction quotient and n is the number of electrons transferred",
+   "key_idea": "The Nernst equation shows that cell potential depends on the concentration of ions involved. As the reaction proceeds and concentrations change, the cell potential decreases until equilibrium is reached (E_cell = 0).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the electrode potential at non-standard concentrations using the Nernst equation",
+    "Calculate the EMF of a cell given non-standard ion concentrations",
+    "Determine the concentration of an ion given the measured cell potential",
+    "Calculate the equilibrium constant from standard cell potential",
+    "Find the pH of a solution using the Nernst equation for a hydrogen electrode"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the cell reaction and identify n (electrons transferred) and Q (reaction quotient)",
+     "explain": "Balance the half-reactions to get the net reaction. n is the number of electrons exchanged. Q = [products]/[reactants] with stoichiometric powers, excluding solids and pure liquids.",
+     "compute": "n = number of electrons; Q = [oxidized species]/[reduced species]"
+    },
+    {
+     "step": 2,
+     "action": "Substitute into the Nernst equation E = E0 - (0.0591/n) * log(Q)",
+     "explain": "Use E0 = E0_cathode - E0_anode. Plug in the concentrations to compute Q, then calculate log(Q) and the full expression.",
+     "compute": "E = E0 - (0.0591/n) * log10(Q)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the final value of E",
+     "explain": "Evaluate the logarithm and perform the arithmetic to get the cell or electrode potential at the given concentrations.",
+     "compute": "E = numerical value in volts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the EMF of the Daniell cell at 298 K when [Zn2+] = 0.1 M and [Cu2+] = 0.01 M. E0_cell = 1.10 V.",
+     "solution": "Cell reaction: Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s). n = 2. Q = [Zn2+]/[Cu2+] = 0.1/0.01 = 10. E = 1.10 - (0.0591/2) * log(10) = 1.10 - (0.02955)(1) = 1.10 - 0.02955 = 1.07045 V.",
+     "answer": "E_cell = 1.07 V (approximately)"
+    },
+    {
+     "question": "Calculate the potential of a hydrogen electrode at pH = 3 (298 K, 1 atm H2).",
+     "solution": "Half-reaction: 2H+(aq) + 2e- -> H2(g). E0 = 0 V. n = 2. Q = P(H2)/[H+]^2 = 1/[H+]^2. E = 0 - (0.0591/2) * log(1/[H+]^2) = -(0.0591/2) * 2 * log(1/[H+]) = -0.0591 * pH = -0.0591 * 3 = -0.1773 V.",
+     "answer": "E = -0.177 V"
+    },
+    {
+     "question": "For the cell reaction Cu(s) + 2Ag+(aq) -> Cu2+(aq) + 2Ag(s), E0_cell = 0.46 V. Calculate E_cell when [Ag+] = 0.1 M and [Cu2+] = 1.0 M.",
+     "solution": "n = 2. Q = [Cu2+]/[Ag+]^2 = 1.0/(0.1)^2 = 1.0/0.01 = 100. E = 0.46 - (0.0591/2) * log(100) = 0.46 - (0.02955)(2) = 0.46 - 0.0591 = 0.4009 V.",
+     "answer": "E_cell = 0.40 V (approximately)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the EMF of the cell Zn(s) | Zn2+(0.001 M) || Cu2+(0.1 M) | Cu(s) at 298 K. E0_cell = 1.10 V.",
+     "type": "compute"
+    },
+    {
+     "question": "The EMF of the cell Mg(s) | Mg2+(0.1 M) || Cu2+(0.01 M) | Cu(s) is 2.67 V. Given E0_cell = 2.71 V, verify if the given concentrations are consistent.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.5",
+   "title": "Gibbs Energy and Cell Potential",
+   "section": "3.4",
+   "definition": "The Gibbs energy change (delta G) of a cell reaction is related to the cell potential by the equation delta G = -nFE_cell. This connects thermodynamics with electrochemistry, allowing prediction of spontaneity.",
+   "formula": "delta G = -nFE_cell; delta G0 = -nFE0_cell = -RT ln K",
+   "key_idea": "A negative delta G (positive E_cell) means the reaction is spontaneous. At equilibrium, E_cell = 0 and delta G = 0. The relationship delta G0 = -nFE0_cell = -RT ln K links standard potential to the equilibrium constant.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate delta G for a cell reaction given E_cell and n",
+    "Calculate the equilibrium constant K from E0_cell",
+    "Determine if a reaction is spontaneous from delta G or E_cell",
+    "Calculate E0_cell from the equilibrium constant K",
+    "Find the maximum useful work obtainable from a galvanic cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify n (electrons transferred) and E_cell (or E0_cell)",
+     "explain": "From the balanced cell reaction, determine n. Use the given or calculated cell potential. F (Faraday constant) = 96500 C/mol.",
+     "compute": "n = electrons; E = given or calculated; F = 96500 C/mol"
+    },
+    {
+     "step": 2,
+     "action": "Apply delta G = -nFE_cell",
+     "explain": "Multiply n, F, and E_cell with a negative sign. The result is in joules (or kJ after dividing by 1000).",
+     "compute": "delta G = -n * F * E_cell (in J/mol)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the sign and, if needed, calculate K using delta G0 = -RT ln K",
+     "explain": "If delta G < 0, the reaction is spontaneous. To find K: ln K = nFE0_cell / (RT), where R = 8.314 J/(mol K), T = 298 K.",
+     "compute": "K = exp(nFE0_cell / (RT)); spontaneity from sign of delta G"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate delta G for the Daniell cell reaction at standard conditions. E0_cell = 1.10 V, n = 2.",
+     "solution": "delta G0 = -nFE0_cell = -2 * 96500 * 1.10 = -212300 J/mol = -212.3 kJ/mol. Since delta G0 < 0, the reaction is spontaneous.",
+     "answer": "delta G0 = -212.3 kJ/mol (spontaneous)"
+    },
+    {
+     "question": "Calculate the equilibrium constant for the cell reaction with E0_cell = 0.46 V and n = 2 at 298 K.",
+     "solution": "ln K = nFE0_cell/(RT) = (2 * 96500 * 0.46)/(8.314 * 298) = 88780/2477.57 = 35.84. K = e^35.84 = 3.6 * 10^15 (approximately).",
+     "answer": "K = 3.6 x 10^15"
+    },
+    {
+     "question": "The standard EMF of a cell is 0.295 V. Calculate delta G0 and the equilibrium constant at 298 K (n = 2).",
+     "solution": "delta G0 = -2 * 96500 * 0.295 = -56935 J/mol = -56.935 kJ/mol. ln K = nFE0/(RT) = (2 * 96500 * 0.295)/(8.314 * 298) = 56935/2477.57 = 22.98. K = e^22.98 = 8.9 * 10^9.",
+     "answer": "delta G0 = -56.9 kJ/mol; K = 8.9 x 10^9"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate delta G0 for a cell reaction with E0_cell = 0.80 V and n = 1. Also determine if the reaction is spontaneous.",
+     "type": "compute"
+    },
+    {
+     "question": "Given E0_cell = 1.02 V and n = 2, calculate the equilibrium constant K at 298 K.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.6",
+   "title": "Conductance of Electrolytic Solutions (Molar Conductivity, Kohlrausch Law)",
+   "section": "3.5",
+   "definition": "Conductance (G) is the reciprocal of resistance. Molar conductivity (lambda_m) is the conducting power of all ions produced by one mole of an electrolyte in solution. Kohlrausch's law states that the molar conductivity at infinite dilution is the sum of the individual contributions of the cation and anion.",
+   "formula": "G = 1/R = kappa * A/l; lambda_m = kappa * 1000 / C; lambda_m0 = nu+ * lambda0+ + nu- * lambda0- (Kohlrausch law)",
+   "key_idea": "Molar conductivity increases with dilution for both strong and weak electrolytes, but approaches a limiting value (lambda_m0) at infinite dilution. Kohlrausch law allows calculation of lambda_m0 for weak electrolytes from those of strong electrolytes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate molar conductivity from conductivity and concentration",
+    "Calculate lambda_m0 of a weak electrolyte using Kohlrausch's law",
+    "Calculate the degree of dissociation from molar conductivity data",
+    "Determine the conductivity of a solution given cell constant and resistance",
+    "Calculate the dissociation constant of a weak acid from conductivity data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify given quantities (kappa, C, R, cell constant, or lambda values)",
+     "explain": "Determine what is given: conductivity (kappa), concentration (C in mol/L), resistance (R), or molar conductivities. Note the relationship between cell constant (G* = l/A), resistance, and conductivity: kappa = G*/R.",
+     "compute": "kappa = (l/A) / R; or use given kappa"
+    },
+    {
+     "step": 2,
+     "action": "Calculate molar conductivity using lambda_m = kappa * 1000 / C or apply Kohlrausch's law",
+     "explain": "For molar conductivity: lambda_m = (kappa * 1000) / C where C is in mol/L. For Kohlrausch's law: lambda_m0 = nu+ * lambda0+ + nu- * lambda0-, where nu+ and nu- are stoichiometric coefficients.",
+     "compute": "lambda_m = (kappa * 1000) / C; or lambda_m0 = nu+ * lambda0+ + nu- * lambda0-"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the desired quantity (degree of dissociation, Ka, or lambda_m0)",
+     "explain": "Degree of dissociation alpha = lambda_m / lambda_m0. For weak acid Ka = C * alpha^2 / (1 - alpha). Substitute and compute.",
+     "compute": "alpha = lambda_m / lambda_m0; Ka = C * alpha^2 / (1 - alpha)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The conductivity of a 0.01 M KCl solution is 1.41 mS/m. Calculate its molar conductivity.",
+     "solution": "kappa = 1.41 mS/m = 1.41 * 10^-3 S/m = 0.141 S/cm (converting: 1.41 mS/m = 0.00141 S/m). C = 0.01 mol/L. lambda_m = (kappa * 1000) / C = (0.00141 * 1000) / 0.01 = 1.41 / 0.01 = 141 S cm^2/mol. (Using kappa in S/cm: 0.00141 S/m = 0.000141 S/cm, lambda_m = (0.000141 * 1000)/0.01 = 14.1 S cm^2/mol.) Let's use consistent units: kappa = 0.00141 S/m, C = 0.01 mol/L = 10 mol/m^3. lambda_m = kappa/C(in mol/m^3) = 0.00141/10 = 0.000141 S m^2/mol = 14.1 S cm^2/mol.",
+     "answer": "lambda_m = 14.1 S cm^2/mol"
+    },
+    {
+     "question": "Calculate lambda_m0 for CH3COOH given lambda_m0(H+) = 349.6 S cm^2/mol and lambda_m0(CH3COO-) = 40.9 S cm^2/mol.",
+     "solution": "By Kohlrausch's law: lambda_m0(CH3COOH) = lambda_m0(H+) + lambda_m0(CH3COO-) = 349.6 + 40.9 = 390.5 S cm^2/mol.",
+     "answer": "lambda_m0(CH3COOH) = 390.5 S cm^2/mol"
+    },
+    {
+     "question": "The molar conductivity of 0.001 M acetic acid is 49.0 S cm^2/mol. Calculate the degree of dissociation and Ka. lambda_m0 = 390.5 S cm^2/mol.",
+     "solution": "alpha = lambda_m / lambda_m0 = 49.0 / 390.5 = 0.1255. Ka = C * alpha^2 / (1 - alpha) = 0.001 * (0.1255)^2 / (1 - 0.1255) = 0.001 * 0.01575 / 0.8745 = 1.801 * 10^-5.",
+     "answer": "alpha = 0.1255 (12.55%); Ka = 1.80 x 10^-5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate lambda_m0 for NaCl using lambda_m0(Na+) = 50.1 S cm^2/mol and lambda_m0(Cl-) = 76.5 S cm^2/mol.",
+     "type": "compute"
+    },
+    {
+     "question": "The resistance of a 0.1 M solution is 50 ohms and the cell constant is 0.5 cm^-1. Calculate the conductivity and molar conductivity.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.7",
+   "title": "Faraday's Laws of Electrolysis",
+   "section": "3.6",
+   "definition": "Faraday's first law states that the amount of substance deposited or liberated at an electrode is directly proportional to the quantity of electricity passed. Faraday's second law states that when the same quantity of electricity is passed through different electrolytes in series, the masses deposited are proportional to their chemical equivalent weights.",
+   "formula": "First law: m = Z * I * t = (M * I * t) / (n * F); Second law: m1/m2 = E1/E2 where E = M/n (equivalent weight)",
+   "key_idea": "One Faraday (96500 C) of electricity deposits one gram equivalent of any substance. The amount deposited depends on the current, time, and the equivalent weight of the substance. Z (electrochemical equivalent) = M/(nF).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the mass of substance deposited given current and time",
+    "Calculate the volume of gas liberated at an electrode during electrolysis",
+    "Determine the time required to deposit a given mass of metal",
+    "Compare the masses deposited at different electrodes using Faraday's second law",
+    "Calculate the current required to deposit a given mass in a specified time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the substance, its molar mass (M), valency (n), current (I), and time (t)",
+     "explain": "Determine the electrode reaction. n is the number of electrons involved per ion. F = 96500 C/mol. Convert time to seconds if needed.",
+     "compute": "Q = I * t (in Coulombs); M and n from the substance"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the charge passed and apply Faraday's first law: m = (M * Q) / (n * F)",
+     "explain": "The total charge Q = I * t. The mass deposited is m = (M * I * t) / (n * F). For gases, use the molar volume at STP (22.4 L/mol) to convert moles to volume.",
+     "compute": "m = (M * I * t) / (n * F) grams"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the final mass (or volume for gases) and verify units",
+     "explain": "For gases: volume = (moles deposited) * 22.4 L at STP. Moles = Q / (nF). For Faraday's second law: m1/m2 = (M1/n1) / (M2/n2).",
+     "compute": "mass in grams; or volume = (Q / (n*F)) * 22.4 L at STP"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the mass of copper deposited when a current of 2 A is passed through CuSO4 solution for 30 minutes. (M(Cu) = 63.5 g/mol, n = 2)",
+     "solution": "Q = I * t = 2 * 30 * 60 = 3600 C. m = (M * Q) / (n * F) = (63.5 * 3600) / (2 * 96500) = 228600 / 193000 = 1.185 g.",
+     "answer": "Mass of Cu deposited = 1.185 g"
+    },
+    {
+     "question": "How long must a current of 5 A be passed to deposit 5.4 g of Al from molten Al2O3? (M(Al) = 27 g/mol, n = 3)",
+     "solution": "m = (M * I * t) / (n * F). 5.4 = (27 * 5 * t) / (3 * 96500). 5.4 = 135t / 289500. t = (5.4 * 289500) / 135 = 1563300 / 135 = 11580 s = 193 min = 3.22 hours.",
+     "answer": "t = 11580 s (approximately 3.22 hours)"
+    },
+    {
+     "question": "When the same current is passed through CuSO4 and AgNO3 in series, 1.08 g of Ag is deposited. What mass of Cu is deposited? (M(Ag) = 108, n = 1; M(Cu) = 63.5, n = 2)",
+     "solution": "By Faraday's second law: m(Cu)/m(Ag) = E(Cu)/E(Ag) = (63.5/2) / (108/1) = 31.75/108. m(Cu) = 1.08 * (31.75/108) = 1.08 * 0.2940 = 0.3175 g.",
+     "answer": "Mass of Cu deposited = 0.3175 g"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the volume of O2 liberated at STP when 0.5 A current is passed through acidified water for 1 hour. (n = 4 for O2 evolution)",
+     "type": "compute"
+    },
+    {
+     "question": "A current of 3 A is passed through molten NaCl for 10 minutes. Calculate the mass of sodium deposited. (M(Na) = 23 g/mol, n = 1)",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.8",
+   "title": "Batteries (Primary and Secondary)",
+   "section": "3.7",
+   "definition": "A battery is a series combination of galvanic cells. Primary batteries are single-use (irreversible), such as the dry cell (Leclanche cell) and mercury cell. Secondary batteries are rechargeable, such as the lead storage battery and nickel-cadmium cell, where the cell reaction can be reversed by applying external current.",
+   "formula": "Primary: not rechargeable; Secondary: rechargeable via reverse electrolysis",
+   "key_idea": "In a primary battery, the cell reaction is irreversible. In a secondary battery, the reaction products remain at the electrodes and can be converted back to reactants by passing current in the reverse direction. The lead-acid battery is the most common secondary battery.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Identify the anode, cathode, and electrolyte in a given battery type",
+    "Write the electrode reactions for a lead-acid battery during discharge",
+    "Distinguish between primary and secondary batteries with examples",
+    "Write the reactions in a dry cell (Leclanche cell)",
+    "Explain the charging and discharging process of a nickel-cadmium cell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of battery (primary or secondary) and its components",
+     "explain": "Determine whether the battery is rechargeable (secondary) or not (primary). Identify the anode, cathode, and electrolyte materials."
+    },
+    {
+     "step": 2,
+     "action": "Write the half-cell reactions during discharge",
+     "explain": "For lead-acid: Anode (Pb): Pb + SO4^2- -> PbSO4 + 2e-. Cathode (PbO2): PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O. For dry cell: Anode (Zn): Zn -> Zn2+ + 2e-. Cathode: 2MnO2 + 2NH4+ + 2e- -> Mn2O3 + 2NH3 + H2O."
+    },
+    {
+     "step": 3,
+     "action": "Write the net reaction and explain recharging (for secondary batteries)",
+     "explain": "For lead-acid net: Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O. During charging, the reverse reaction occurs. The secondary battery can be recharged because products stay on the electrodes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the reactions occurring at the electrodes during discharge of a lead storage battery.",
+     "solution": "Anode (Pb plate): Pb(s) + SO4^2-(aq) -> PbSO4(s) + 2e-. Cathode (PbO2 plate): PbO2(s) + SO4^2-(aq) + 4H+(aq) + 2e- -> PbSO4(s) + 2H2O(l). Net: Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O. E_cell = 2.04 V.",
+     "answer": "Net: Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O, E = 2.04 V"
+    },
+    {
+     "question": "Why is a mercury cell suitable for hearing aids? Write its cell reaction.",
+     "solution": "The mercury cell has a constant potential throughout its life (approximately 1.35 V) because the overall reaction does not involve any ion whose concentration changes. Anode: Zn(Hg) + 2OH- -> ZnO + H2O + 2e-. Cathode: HgO + H2O + 2e- -> Hg + 2OH-. Net: Zn + HgO -> ZnO + Hg.",
+     "answer": "Constant voltage ~1.35 V; Net: Zn + HgO -> ZnO + Hg"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the electrode reactions for a nickel-cadmium (Ni-Cd) battery during discharge and explain why it is rechargeable.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify the following as primary or secondary batteries: (a) Leclanche dry cell, (b) lead-acid battery, (c) mercury cell, (d) Ni-Cd cell.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.9",
+   "title": "Fuel Cells",
+   "section": "3.7",
+   "definition": "A fuel cell is a galvanic cell that converts the chemical energy of a fuel (such as hydrogen, methane, or methanol) and an oxidant (usually oxygen) directly into electrical energy with high efficiency. Unlike batteries, fuel cells operate as long as fuel and oxidant are supplied.",
+   "formula": "H2-O2 fuel cell: Anode: 2H2 + 4OH- -> 4H2O + 4e-; Cathode: O2 + 2H2O + 4e- -> 4OH-; Net: 2H2 + O2 -> 2H2O",
+   "key_idea": "Fuel cells are more efficient than conventional power plants because they convert chemical energy directly to electrical energy without thermal intermediate steps. The H2-O2 fuel cell is the most common, producing only water as a byproduct, making it environmentally clean.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Write the electrode reactions for an H2-O2 fuel cell",
+    "Calculate the efficiency of a fuel cell given delta H and delta G",
+    "Explain the advantages of fuel cells over conventional power sources",
+    "Compare fuel cells with primary and secondary batteries",
+    "Calculate the standard EMF of an H2-O2 fuel cell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fuel, oxidant, and electrolyte used in the fuel cell",
+     "explain": "For the H2-O2 fuel cell, hydrogen is the fuel, oxygen is the oxidant, and the electrolyte is typically concentrated KOH solution. The anode is where fuel is oxidized; the cathode is where oxygen is reduced."
+    },
+    {
+     "step": 2,
+     "action": "Write the half-cell reactions and the net reaction",
+     "explain": "Anode: 2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-. Cathode: O2(g) + 2H2O(l) + 4e- -> 4OH-(aq). Net: 2H2(g) + O2(g) -> 2H2O(l). The cell potential is approximately 1.23 V under standard conditions."
+    },
+    {
+     "step": 3,
+     "action": "Calculate efficiency if required: efficiency = (delta G / delta H) * 100",
+     "explain": "The theoretical efficiency of a fuel cell is the ratio of useful electrical work (delta G) to the enthalpy change (delta H). For H2-O2: delta G0 = -237.2 kJ/mol, delta H0 = -285.8 kJ/mol, so efficiency = (237.2/285.8)*100 = 83%.",
+     "compute": "efficiency = (delta G / delta H) * 100 percent"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the electrode reactions and net reaction for an H2-O2 fuel cell operating in alkaline medium. What is its standard EMF?",
+     "solution": "Anode: 2H2 + 4OH- -> 4H2O + 4e-. Cathode: O2 + 2H2O + 4e- -> 4OH-. Net: 2H2 + O2 -> 2H2O. E0_cell = 1.23 V. The cell produces only water, making it pollution-free.",
+     "answer": "Net: 2H2 + O2 -> 2H2O; E0 = 1.23 V"
+    },
+    {
+     "question": "Calculate the theoretical efficiency of an H2-O2 fuel cell given delta G0 = -237.2 kJ/mol and delta H0 = -285.8 kJ/mol.",
+     "solution": "Efficiency = (|delta G| / |delta H|) * 100 = (237.2 / 285.8) * 100 = 83.0%. This is much higher than the typical 40% efficiency of thermal power plants.",
+     "answer": "Efficiency = 83.0%"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three advantages of fuel cells over conventional thermal power plants.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why the H2-O2 fuel cell is considered environmentally friendly. Write the net cell reaction.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.3.10",
+   "title": "Corrosion",
+   "section": "3.8",
+   "definition": "Corrosion is the gradual destruction of metals by electrochemical reaction with their environment. The most common example is the rusting of iron, which is an electrochemical process where iron is oxidized at anodic sites and oxygen is reduced at cathodic sites in the presence of moisture.",
+   "formula": "Anode: Fe -> Fe2+ + 2e-; Cathode: O2 + 4H+ + 4e- -> 2H2O; Overall: 2Fe + O2 + 4H+ -> 2Fe2+ + 2H2O; Rust: Fe2O3 * xH2O",
+   "key_idea": "Corrosion is an electrochemical process requiring an anode (where metal oxidizes), a cathode (where oxygen reduces), and an electrolyte (moisture). Prevention methods include coating (painting, galvanization), cathodic protection, and using corrosion-resistant alloys.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the electrochemical mechanism of rusting of iron",
+    "Write the anodic and cathodic reactions involved in corrosion",
+    "Describe methods of preventing corrosion",
+    "Explain the principle of galvanization and sacrificial anodes",
+    "Identify the conditions necessary for corrosion to occur"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the anodic and cathodic sites on the metal surface",
+     "explain": "In corrosion, different regions of the same metal surface act as anode and cathode due to impurities, stress, or concentration differences. At the anode, the metal is oxidized: Fe -> Fe2+ + 2e-."
+    },
+    {
+     "step": 2,
+     "action": "Write the cathodic reaction and the overall corrosion reaction",
+     "explain": "At the cathode (often where oxygen is available), reduction occurs: O2 + 4H+ + 4e- -> 2H2O (acidic) or O2 + 2H2O + 4e- -> 4OH- (neutral/basic). Fe2+ further oxidizes and hydrolyzes to form rust (Fe2O3 * xH2O)."
+    },
+    {
+     "step": 3,
+     "action": "Identify prevention methods and explain their mechanism",
+     "explain": "Prevention: (1) Coating (painting, oiling) blocks contact with moisture/oxygen. (2) Galvanization (Zn coating) - Zn is more reactive and acts as a sacrificial anode. (3) Cathodic protection - connecting metal to a more reactive metal (Mg, Zn) that preferentially corrodes. (4) Alloying with corrosion-resistant metals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the electrochemical mechanism of rusting of iron and write the relevant reactions.",
+     "solution": "At anodic sites: Fe(s) -> Fe2+(aq) + 2e-. At cathodic sites: O2(g) + 4H+(aq) + 4e- -> 2H2O(l) (in acidic medium) or O2 + 2H2O + 4e- -> 4OH- (neutral). Fe2+ is further oxidized to Fe3+ which forms hydrated ferric oxide (rust): Fe2O3 * xH2O. The overall process requires both oxygen and moisture.",
+     "answer": "Anode: Fe -> Fe2+ + 2e-; Cathode: O2 + 4H+ + 4e- -> 2H2O; Rust: Fe2O3 * xH2O"
+    },
+    {
+     "question": "Why does galvanization prevent rusting of iron? Explain the role of zinc.",
+     "solution": "In galvanization, iron is coated with a layer of zinc. Zinc has a more negative standard reduction potential (E0 = -0.76 V) than iron (E0 = -0.44 V), so zinc is more easily oxidized. Even if the coating is scratched, zinc acts as a sacrificial anode and corrodes preferentially, protecting the underlying iron (cathodic protection).",
+     "answer": "Zn acts as a sacrificial anode; E0(Zn2+/Zn) < E0(Fe2+/Fe), so Zn corrodes instead of Fe"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three essential conditions for corrosion to occur and describe two methods to prevent it.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how sacrificial anodes (cathodic protection) prevent the corrosion of underground iron pipelines. Give an example of a suitable sacrificial metal.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

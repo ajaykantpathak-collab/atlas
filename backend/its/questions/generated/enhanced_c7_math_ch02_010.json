@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_010",
+   "title": "c7_math_ch02_010",
+   "questions": [
+    {
+     "q": "Which of the following mathematical statements illustrates the associative property of multiplication?\nA) $4 \\times (5 \\times 2) = (4 \\times 5) \\times 2$\nB) $4 \\times (5 + 2) = (4 \\times 5) + (4 \\times 2)$\nC) $4 \\times 5 = 5 \\times 4$\nD) $4 \\times 1 = 4$",
+     "a": "The correct answer is A. Statement A shows that changing the grouping of factors using parentheses does not change the product. A student who chooses B confuses associativity with the distributive property, while a student who chooses C selects commutativity.",
+     "self_check": true
+    },
+    {
+     "q": "Does the associative property hold true for subtraction? Test with the numbers 10, 4, and 2.",
+     "a": "No, subtraction is not associative. Testing this gives $(10 - 4) - 2 = 6 - 2 = 4$, but $10 - (4 - 2) = 10 - 2 = 8$, and since $4 \\neq 8$, the grouping changes the result. A student who says yes likely forgot to compute both sides independently or incorrectly subtracted left-to-right.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of the expression $37 + 48 + 13$ by smartly rearranging the terms using the commutative and associative properties. Show your steps.",
+     "a": "Steps: 1. Rewrite using commutativity to place numbers with compatible units together: $37 + 13 + 48$. 2. Apply associativity to group them: $(37 + 13) + 48$. 3. Compute inside the brackets: $50 + 48$. 4. Final calculation: $98$. A student who computes sequentially without rearranging misses the opportunity to use properties and often makes simple addition errors.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the expression $(24 \\div 4) \\div 2$ does not yield the same result as $24 \\div (4 \\div 2)$. What property is failing here?",
+     "a": "Evaluating the first expression gives $6 \\div 2 = 3$, while the second gives $24 \\div 2 = 12$. Since $3 \\neq 12$, division is not associative. A student who thinks they are equal fails to understand that division depends strictly on the order and grouping of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the validity of the student's claim: \"Since multiplication is commutative, $(a - b) \\times c$ is equal to $(b - a) \\times c$.\" Is this correct or incorrect, and why?",
+     "a": "The claim is incorrect. While multiplication *itself* is commutative, the subtraction term $(a - b)$ is not commutative because $a - b \\neq b - a$ (they differ by a negative sign). A student who agrees with the claim incorrectly assumes that properties of outer operations override the inner components of an expression.",
+     "self_check": true
+    },
+    {
+     "q": "Create an arithmetic expression involving four different integers where using the associative and commutative properties allows you to compute the answer entirely in your head without paper. Write the steps of your mental regrouping.",
+     "a": "An example expression is $16 + 29 + 14 + 21$. Steps: 1. Group complementary numbers: $(16 + 14) + (29 + 21)$. 2. Simplify inside brackets: $30 + 50$. 3. Final answer: $80$. A poor answer would list random numbers that do not form easy pairs or fail to show how properties simplify the work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

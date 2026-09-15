@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_008",
+   "title": "c12_ca_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the Management Information System (MIS) sub-system within an Accounting Information System?",
+     "a": "The MIS sub-system generates and processes customised reports vital for management decision-making — supporting planning, organising, staffing, oversight, control, and strategic/operational/functional decisions. A wrong answer (e.g., \"MIS records daily cash receipts\") reveals the student confuses MIS with the Cash and Bank sub-system, indicating they haven't grasped that MIS is a *consumer* of data from all other sub-systems, not a transaction-recording module.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Inventory sub-system and the Purchase and Accounts Payable sub-system must share data in real time in an integrated AIS.",
+     "a": "When a purchase invoice is entered, the Inventory sub-system needs the quantity and rate to update stock levels and valuation, while the Purchase sub-system records the liability to the supplier. If they don't share data instantly, stock records become outdated (causing stock-outs or over-ordering) and the payable ledger doesn't reflect the true obligation (distorting cash-flow forecasts). A wrong answer that treats them as independent shows the student misses the core AIS principle: *single entry, multiple updates* — a transaction once recorded propagates to every relevant sub-system automatically.",
+     "self_check": true
+    },
+    {
+     "q": "A retail chain uses an AIS. On 15th March, a store manager enters a cash sale of ₹45,000. Identify *all* sub-systems that are automatically updated by this single entry and state what each updates.",
+     "a": "Correct response: (1) Cash and Bank sub-system — cash balance increases by ₹45,000; (2) Sales and Accounts Receivable sub-system — sales revenue rises by ₹45,000 (though no receivable is created for cash sale, the sale is recorded); (3) Inventory sub-system — stock quantity reduces and cost of goods sold is recognised; (4) Expense Accounting sub-system — if the sale triggers sales commission, that expense is recorded; (5) Tax Accounting sub-system — GST output liability (CGST+SGST) is computed and posted; (6) Final Accounts sub-system — revenue and cost figures flow into Trading and Profit & Loss; (7) Costing sub-system — if job/batch costing is used, the sale closes the job and computes profitability; (8) MIS — updated sales, margin, and cash reports become available. Missing any sub-system indicates the student doesn't see the ripple effect of a single transaction across the integrated system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Fixed Assets Accounting sub-system and the Expense Accounting sub-system in terms of (a) nature of items tracked, (b) valuation method, and (c) impact on financial statements.",
+     "a": "(a) Fixed Assets tracks long-term tangible/intangible assets (land, machinery, patents) — capitalised; Expense Accounting tracks revenue expenditures (rent, salaries, depreciation) — expensed. (b) Fixed assets are valued at historical cost less accumulated depreciation (or revaluation model); expenses are recorded at actual incurred amount. (c) Fixed assets appear on Balance Sheet (Non-Current Assets) and depreciation hits P&L; expenses directly reduce profit in P&L. A wrong answer that says both appear in P&L or both are valued at market price shows confusion between capital and revenue expenditure — a fundamental accounting distinction that AIS enforces through separate sub-systems.",
+     "self_check": true
+    },
+    {
+     "q": "A company's CFO argues: \"We don't need a separate Budget sub-system; we can just maintain budgets in Excel and import final figures into AIS at year-end.\" Evaluate this claim from the perspective of AIS design principles.",
+     "a": "The claim violates two core AIS principles: (1) *Integration* — budgets must be compared with actuals *continuously* (monthly/quarterly) for variance analysis and corrective action; year-end import defeats real-time control. (2) *Single source of truth* — maintaining budgets outside AIS creates data silos, version conflicts, and audit-trail gaps. An integrated Budget sub-system allows rolling forecasts, department-wise variance alerts, and drill-down from MIS dashboards. Accepting the CFO's view shows the student undervalues the *control* function of AIS and treats it as a mere recording tool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal AIS sub-system map for a *non-profit charitable hospital* that receives donations, runs a pharmacy, pays doctors on contract, and files annual FCRA returns. List only the sub-systems required, and for each, give one unique transaction it would handle.",
+     "a": "Required sub-systems (8): (1) Cash and Bank — donation receipt via UPI; (2) Sales/Receivables — pharmacy credit sales to patients; (3) Inventory — medicine stock inward/outward; (4) Purchase/Payables — medicine procurement from distributors; (5) Payroll — contract doctor honorarium with TDS deduction; (6) Fixed Assets — MRI machine purchase and depreciation; (7) Expense Accounting — electricity, rent, medical consumables; (8) Tax Accounting — FCRA compliance, TDS returns, GST on pharmacy sales. *Not needed*: Costing (no manufacturing), Budget (optional but good), MIS (still needed for trustees). A poor answer includes all 12 sub-systems indiscriminately, showing inability to tailor AIS to entity type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

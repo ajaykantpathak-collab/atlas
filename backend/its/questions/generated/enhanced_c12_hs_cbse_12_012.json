@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_012",
+   "title": "c12_hs_cbse_12_012",
+   "questions": [
+    {
+     "q": "Define \"consumer\" as per the Consumer Protection Act framework and distinguish it from a \"customer\" who purchases for resale or commercial use.",
+     "a": "A consumer is the final buyer of goods/services for personal/family use, not for resale or commercial purposes. A customer buying raw materials for manufacturing or a retailer buying stock for resale is NOT a consumer under CPA. Wrong answer reveals: student confuses commercial purchasers with end-users, leading to incorrect forum selection (commercial disputes go to civil courts, not consumer commissions).",
+     "self_check": true
+    },
+    {
+     "q": "A packet of turmeric powder bears an AGMARK label but no FSSAI license number. The manufacturer claims AGMARK certification makes FSSAI registration optional. Evaluate this claim.",
+     "a": "The claim is FALSE. AGMARK (under DMI) certifies agricultural produce quality/grade; FSSAI license/registration is MANDATORY under Food Safety and Standards Act 2006 for ALL food business operators. Both serve different purposes: AGMARK = quality grade; FSSAI = safety/hygiene compliance. Wrong answer reveals: student treats standardisation marks as interchangeable rather than complementary with distinct legal mandates.",
+     "self_check": true
+    },
+    {
+     "q": "You purchase a gold necklace hallmarked \"22K\" but later discover it is only 18K purity. The jeweller refuses refund saying \"hallmark is not a guarantee\". List the specific consumer rights violated and the exact redressal steps under CPA 2019.",
+     "a": "Violated rights: (1) Right to Safety (substandard gold may cause skin reactions), (2) Right to be Informed (false purity claim), (3) Right to Choose (misled into buying), (4) Right to Redressal (denied remedy). Steps: 1) Send legal notice to jeweller with hallmark certificate copy; 2) File complaint at District Consumer Commission (value < ₹50 lakh) with receipt, hallmark certificate, assay report; 3) Claim refund + compensation for deficiency in service. Wrong answer reveals: student omits Right to Safety or misidentifies forum (e.g., suggests police/FIR instead of consumer commission).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consumer protection framework under CPA 1986 vs CPA 2019. Identify THREE structural changes in the 2019 Act that strengthen consumer empowerment, and explain WHY each change matters.",
+     "a": "1) Central Consumer Protection Authority (CCPA) — new regulator with suo motu powers to investigate, recall unsafe goods, impose penalties (previously no central enforcement body). 2) E-commerce regulations — explicit liability for platforms, mandatory grievance officer, 48-hour acknowledgement (addresses digital market gaps). 3) Product liability — manufacturer/seller/service provider liable for harm from defective products (shifts burden from consumer to prove negligence). Why matters: CCPA enables systemic action; e-commerce rules cover 40%+ retail; product liability aligns with global standards. Wrong answer reveals: student lists procedural changes (pecuniary jurisdiction limits) without explaining empowerment impact.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Consumer responsibilities are merely moral obligations; only consumer rights are legally enforceable.\" Use specific responsibilities from the NCERT text and CPA provisions to support your evaluation.",
+     "a": "The statement is PARTIALLY INCORRECT. While responsibilities (e.g., reading labels, keeping receipts, honest dealings) are not directly penalised, they are PREREQUISITES for exercising rights effectively. Example: Without receipt (responsibility #7), you cannot prove purchase for redressal (Right to Redressal). Without market survey (responsibility #3), you cannot claim \"unfair price\" convincingly. CPA 2019 Section 2(9) defines \"consumer\" as one who \"buys for consideration\" — implies contractual duty to pay (responsibility #2). Wrong answer reveals: student treats rights and responsibilities as independent silos, missing their operational interdependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a consumer awareness leaflet (tri-fold, 6 panels) for rural women on \"Identifying Adulterated Spices\". Specify: (a) Panel 1 heading, (b) Panel 2-3: two simple home tests for turmeric and chilli powder, (c) Panel 4: standardisation marks to look for, (d) Panel 5: how to file complaint via National Consumer Helpline (1915), (e) Panel 6: local NGO contact. Justify your language and visual choices.",
+     "a": "(a) \"अपने मसालों की शुद्धता जांचें — सुरक्षित रसोई, स्वस्थ परिवार\" (Hindi, action-oriented). (b) Turmeric: add HCl — pink colour = metanil yellow adulterant; Chilli: sprinkle on water — artificial colour dissolves immediately, pure chilli floats. (c) AGMARK (grade/quality), FSSAI license no. (safety), ISI (for packaged spices). (d) \"Dial 1915 या WhatsApp 8800001915 — बिल, फोटो, पैकेट रखें तैयार\". (e) Local: \"ग्राहक सहायता केंद्र, ब्लॉक कार्यालय, फोन: XXXXXXXXXX\". Justification: Local language, pictorial tests (low literacy), toll-free number prominence, trusted local anchor. Poor answer reveals: English-only text, complex chemical tests, missing FSSAI/AGMARK distinction, no actionable helpline steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

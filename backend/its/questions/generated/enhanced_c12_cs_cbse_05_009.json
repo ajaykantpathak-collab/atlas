@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_009",
+   "title": "c12_cs_cbse_05_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the WHERE clause and the HAVING clause in terms of when they are applied during query execution?",
+     "a": "WHERE filters rows before GROUP BY aggregation; HAVING filters groups after aggregation. A wrong answer (e.g., \"both filter rows\") reveals the student does not understand the logical order of SQL execution: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the query `SELECT department, AVG(salary) FROM employees WHERE AVG(salary) > 50000 GROUP BY department;` produces an error, and how to fix it.",
+     "a": "WHERE cannot use aggregate functions because it runs before grouping; the fix is to move the condition to HAVING: `SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000;`. A wrong answer (e.g., \"use WHERE with a subquery\") shows the student hasn't internalised that aggregate functions are only available after GROUP BY.",
+     "self_check": true
+    },
+    {
+     "q": "Given a table `sales(item, category, quantity, price)`, write a query to list categories where the total quantity sold exceeds 100, but only consider sales with `price > 10`.",
+     "a": "```sql\nSELECT category, SUM(quantity) AS total_qty\nFROM sales\nWHERE price > 10\nGROUP BY category\nHAVING SUM(quantity) > 100;\n```\nSteps: 1) Filter rows with WHERE (price > 10). 2) Group by category. 3) Compute SUM(quantity) per group. 4) Filter groups with HAVING. A wrong answer that puts `price > 10` in HAVING or `SUM(quantity) > 100` in WHERE reveals confusion about which clause handles row-level vs group-level conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the result sets of these two queries on the same table:\nQuery A: `SELECT dept, COUNT(*) FROM emp WHERE salary > 30000 GROUP BY dept;`\nQuery B: `SELECT dept, COUNT(*) FROM emp GROUP BY dept HAVING AVG(salary) > 30000;`\nWhat does each query compute, and why are the results different?",
+     "a": "Query A counts employees per department who individually earn >30000. Query B counts all employees in departments where the department's average salary >30000. The difference arises because WHERE filters rows before grouping, HAVING filters groups after aggregation. A wrong answer that says they produce the same result shows the student cannot distinguish row-level vs group-level filtering.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `SELECT product, SUM(qty) FROM orders GROUP BY product HAVING product = 'Pen';` and claims it is more efficient than using WHERE. Evaluate this claim.",
+     "a": "The claim is false. Using HAVING on a non-aggregate column (product) forces the database to form groups for all products then discard all but 'Pen', which is less efficient than filtering rows with WHERE before grouping. The correct efficient query uses `WHERE product = 'Pen'` before GROUP BY. A wrong answer that agrees with the student shows misunderstanding of query optimisation and the purpose of HAVING.",
+     "self_check": true
+    },
+    {
+     "q": "Design a query on a table `exams(student_id, subject, score)` that lists subjects where the maximum score is at least 90 and the minimum score is at most 40, but only for exams conducted in 2024 (assume a column `exam_year`). Use both WHERE and HAVING appropriately.",
+     "a": "```sql\nSELECT subject, MAX(score) AS max_score, MIN(score) AS min_score\nFROM exams\nWHERE exam_year = 2024\nGROUP BY subject\nHAVING MAX(score) >= 90 AND MIN(score) <= 40;\n```\nA good answer correctly places the year filter in WHERE and the aggregate conditions in HAVING. A poor answer puts aggregate conditions in WHERE or the year filter in HAVING, indicating the student cannot map conditions to the correct clause.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

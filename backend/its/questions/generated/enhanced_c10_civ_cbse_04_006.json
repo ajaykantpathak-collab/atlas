@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_006",
+   "title": "c10_civ_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define dynastic succession in the context of Indian political parties. How does it differ from a family member winning an election on their own merit?",
+     "a": "Dynastic succession occurs when party leadership and election tickets are allocated based on family lineage rather than merit, internal elections, or popular support within the party. It differs from a family member winning on merit when the candidate faces a fair internal selection process, has independent political experience, and wins without the party machinery being controlled by the family. A wrong answer (e.g., \"any relative of a politician contesting is dynastic\") reveals the student cannot distinguish between hereditary entitlement and legitimate political inheritance — a critical distinction for board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why money power is considered a challenge to political parties *and* to free and fair elections. Use the concept of 'level playing field' in your answer.",
+     "a": "Money power distorts the level playing field (a core Election Commission mandate under Article 324) by allowing wealthy candidates/parties to dominate campaigns, buy media space, and distribute inducements, making it impossible for ordinary citizens to compete. It also makes parties dependent on corporate donors, compromising policy independence. A wrong answer focusing only on \"corruption\" or \"black money\" misses the structural democratic deficit: the student fails to link money power to the *unequal political voice* it creates, which is the core board exam requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A regional party in State X gives 40% of its tickets to candidates with pending criminal cases. The party president says, \"They are winnable candidates.\" Analyze this statement using the concept of muscle power and its impact on voter choice.",
+     "a": "The statement reveals how muscle power (criminal networks, intimidation capacity) is treated as an electoral asset (\"winnability\") rather than a disqualification. This creates a perverse incentive: parties *seek* muscle power to capture booths and silence opponents, directly violating the voter's right to free choice under Article 19(1)(a) and the EC's Model Code of Conduct. A wrong answer (e.g., \"criminals should not be allowed\") shows the student moralizes but cannot *analyze the party's rational calculation* — a key board exam skill for \"analyze\" level questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of dynastic succession and muscle power on internal party democracy. Which is more damaging to the *long-term* health of a political party? Justify.",
+     "a": "Dynastic succession destroys internal democracy structurally by making leadership hereditary, blocking merit-based rise, and turning the party into a family fiefdom. Muscle power destroys it behaviorally by replacing persuasion with coercion. Dynastic succession is more damaging long-term because it institutionalizes inequality *within* the party, making reform from within nearly impossible (no internal challenger can emerge). Muscle power can be curbed by EC/law; dynasty requires a cultural shift. A wrong answer equating both as \"bad\" shows inability to differentiate structural vs. behavioral damage — a common board exam trap in comparative questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Money power is the root cause of both dynastic succession and muscle power in Indian parties.\" Is this accurate? Support with reasoning.",
+     "a": "Partially accurate but incomplete. Money power *enables* dynasties (funding family-controlled campaigns) and *buys* muscle power (paying goons). However, dynastic succession also stems from *loyalty-based* party structures (not just money), and muscle power often arises from *local social dominance* (caste/clan networks) that pre-exists money. The three challenges are *mutually reinforcing*, not linearly caused. A wrong answer saying \"yes, money causes everything\" shows monocausal thinking — board exams reward multi-factor analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a citizen's checklist (5 points) to identify if a political party in your constituency is affected by dynastic succession, money power, or muscle power. Each point must be observable during an election campaign.",
+     "a": "Good checklist includes: (1) Is the candidate a close relative of a sitting/former leader with no prior party role? (Dynasty) (2) Does campaign spending visibly exceed legal limits (large rallies, freebies, wall-to-wall ads)? (Money) (3) Are voters threatened or offered cash/liquor openly? (Muscle/Money) (4) Does the party refuse to disclose donor lists or candidate assets? (Money) (5) Are booths \"captured\" or polling agents prevented? (Muscle). A poor checklist uses vague terms like \"corruption\" or \"unfairness\" — board exam source-based questions demand *specific, observable indicators*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

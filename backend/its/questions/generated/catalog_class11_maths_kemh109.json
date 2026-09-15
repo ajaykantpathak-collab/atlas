@@ -1,0 +1,357 @@
+{
+ "catalog": "catalog_class11_maths_kemh109.json",
+ "concepts": [
+  {
+   "id": "kemh109.9.2.1",
+   "title": "Slope of a Line Through Two Points",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-2, 7) and (8, 31).",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-5, -8) from the origin.",
+     "a": "9.43",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-4, 8) and (1, -1).",
+     "a": "-1.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 3 : 2. Find the x-coordinate of P.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-3, 5), (5, -4) and (1, 0) (two decimal places).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (5, -1), (0, -3) and (-2, -2).",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.2.2",
+   "title": "Parallel and Perpendicular Conditions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 15 gives 75",
+     "compute": "other = 90 - 15"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 15 degrees, find the other.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 166 degrees, find the other.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 22 degrees; find the other.",
+     "a": "158",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 71 degrees and 174 degrees, find the remaining angle.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 77 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 107 degrees. Find its co-interior partner.",
+     "a": "73",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.2.3",
+   "title": "Angle Between Two Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 27 degrees, find the other.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 122 degrees, find the other.",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 19 degrees; find the other.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 98 degrees and 221 degrees, find the remaining angle.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 72 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 104 degrees. Find its co-interior partner.",
+     "a": "76",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.2.4",
+   "title": "Collinearity of Three Points via Slopes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 2 - -3 gives 5",
+     "compute": "dx = 2 - -3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 13 - 1 gives 12",
+     "compute": "dy = 13 - 1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 13",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-3, 1) and (2, 13).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (3, 6) from the origin.",
+     "a": "6.71",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (7, -8) and (-5, 4).",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 1 : 4. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (3, -4), (2, -3) and (-4, 0) (two decimal places).",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (1, -2), (-4, 2) and (-5, 1).",
+     "a": "-2.66667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.3.1",
+   "title": "Point-Slope, Two-Point and Slope-Intercept Forms",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 4 gives 4",
+     "compute": "lines = 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a square have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular pentagon?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.3.2",
+   "title": "Intercept Form of a Line",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 25 - 5 gives 20",
+     "compute": "dx = 25 - 5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 20 - -1 gives 21",
+     "compute": "dy = 20 - -1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 29",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (5, -1) and (25, 20).",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (3, -8) from the origin.",
+     "a": "8.54",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (0, 0) and (4, 7).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 2 : 3. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-6, 5), (6, 5) and (1, 0) (two decimal places).",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-1, -3), (-1, -1) and (2, -2).",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.4.1",
+   "title": "Distance of a Point from a Line",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh109.9.4.2",
+   "title": "Distance Between Two Parallel Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 24 degrees, find the other.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 46 degrees, find the other.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 56 degrees; find the other.",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 50 degrees and 270 degrees, find the remaining angle.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 84 degrees. Find its co-interior partner.",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 102,
+ "chapter_title": "Acids, Bases and Salts",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc102.txt",
+ "concepts": [
+  {
+   "id": "jesc.2.1.1",
+   "title": "Chemical and Olfactory Indicators",
+   "section": "2.1.1",
+   "definition": "Chemical indicators are natural or synthetic substances that signify the acidic or basic character of a medium through distinct color changes or scent variations.",
+   "formula": "Indicator + Acid_or_Base -> Color_or_Odor_Change",
+   "key_idea": "Both Acidic and basic solutions produce characteristic visual or olfactory transformations in specific indicators.",
+   "textbook_ref": "jesc102.txt lines 15-70",
+   "question_patterns": [
+    "identify the substance using litmus paper",
+    "how do olfactory indicators change in acid and base",
+    "what color does phenolphthalein turn in basic solution",
+    "distinguish between acidic and basic solutions using natural indicators",
+    "describe chemical and olfactory indicators with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the initial state of the indicator",
+     "explain": "Identify whether the indicator is a synthetic dye, natural extract, or olfactory substance."
+    },
+    {
+     "step": 2,
+     "action": "Determine the response to acid or base",
+     "explain": "Match the resulting color or odor change with known indicator behavior to identify solution nature."
+    },
+    {
+     "step": 3,
+     "action": "Classify the solution as acidic or basic",
+     "explain": "Conclude the solution is acidic if the indicator shows the acid-response color and basic if it shows the base-response color or odor."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.2",
+   "title": "Reaction of Metals with Acids and Bases",
+   "section": "2.1.2",
+   "definition": "Active metals react with dilute acids or strong alkalis to liberate hydrogen gas alongside the formation of corresponding metallic salts.",
+   "formula": "Acid + Metal -> Salt + Hydrogen_Gas",
+   "key_idea": "Metals displace hydrogen from acids and strong bases, giving hydrogen gas and a salt.",
+   "textbook_ref": "jesc102.txt lines 71-125",
+   "question_patterns": [
+    "which gas is released when dilute acid reacts with metal",
+    "write the balanced equation for zinc reacting with sodium hydroxide",
+    "how do you confirm the presence of hydrogen gas",
+    "calculate or identify products of metal and acid reactions",
+    "why is reaction of metals with acids and bases important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reacting metal and acid or alkali",
+     "explain": "Determine if the metal is sufficiently reactive to displace hydrogen ions."
+    },
+    {
+     "step": 2,
+     "action": "Formulate products and chemical equation",
+     "explain": "Combine the metal with the acid anion to yield the salt and hydrogen gas."
+    },
+    {
+     "step": 3,
+     "action": "Confirm hydrogen gas liberation",
+     "explain": "Verify hydrogen gas is evolved by observing effervescence and testing with a burning matchstick that burns with a pop sound."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.3",
+   "title": "Reaction of Acids with Carbonates and Hydrogencarbonates",
+   "section": "2.1.3",
+   "definition": "Acids decompose metal both carbonates and hydrogen carbonates to produce a salt, water, and carbon dioxide gas.",
+   "formula": "Metal_Carbonate + Acid -> Salt + Water + Carbon_Dioxide",
+   "key_idea": "Effervescence during acid addition to carbonates indicates carbon dioxide gas evolution.",
+   "textbook_ref": "jesc102.txt lines 126-168",
+   "question_patterns": [
+    "what happens when hydrochloric acid is added to sodium carbonate",
+    "how to test for carbon dioxide gas using lime water",
+    "write the reaction of acid with metal hydrogencarbonate",
+    "explain effervescence formed when crushed egg shells react with acid",
+    "explain reaction of acids with carbonates and hydrogencarbonates in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reactant carbonate or hydrogencarbonate",
+     "explain": "Recognize that carbonate ions react with hydrogen ions to yield carbonic acid derivatives."
+    },
+    {
+     "step": 2,
+     "action": "Balance the reaction equation",
+     "explain": "Write products as salt, liquid water, and carbon dioxide gas."
+    },
+    {
+     "step": 3,
+     "action": "Confirm carbon dioxide evolution",
+     "explain": "Verify the gas produced turns lime water milky, confirming carbon dioxide release from the carbonate-acid reaction."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.4",
+   "title": "Neutralisation Reaction and Volumetric Ratio",
+   "section": "2.1.4",
+   "definition": "A neutralisation reaction occurs when hydrogen ions from an acid react with hydroxide ions from a base to form water and a neutral salt.",
+   "formula": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial",
+   "key_idea": "Both Acidic and basic properties cancel each other out in direct stoichiometric proportion.",
+   "textbook_ref": "jesc102.txt lines 169-195",
+   "question_patterns": [
+    "find the volume of acid required to neutralise a given volume of base",
+    "calculate how much acid is needed if base volume is doubled",
+    "what volume of acid neutralises target volume of base",
+    "determine required neutralizing volume of acid solution",
+    "calculate neutralisation reaction and volumetric ratio for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the volume scaling factor",
+     "explain": "Divide the target base volume by the initial base volume.",
+     "compute": "factor = v_base_target / v_base_initial"
+    },
+    {
+     "step": 2,
+     "action": "Determine the required acid volume",
+     "explain": "Multiply the initial acid volume by the scaling factor.",
+     "compute": "v_acid_needed = factor * v_acid_initial"
+    },
+    {
+     "step": 3,
+     "action": "Verify the neutralisation result",
+     "explain": "Confirm the computed acid volume is in the same stoichiometric ratio as the base volumes, ensuring complete neutralisation.",
+     "compute": "ratio = v_acid_needed / v_base_target"
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.5",
+   "title": "Oxide Reactions and Their Chemical Nature",
+   "section": "2.1.5",
+   "definition": "Metallic oxides act as basic oxides by reacting with acids to form salt and water, while non-metallic oxides act as acidic oxides by reacting with bases.",
+   "formula": "Metal_Oxide + Acid -> Salt + Water",
+   "key_idea": "Metallic oxides display basic character whereas non-metallic oxides display acidic character.",
+   "textbook_ref": "jesc102.txt lines 196-222",
+   "question_patterns": [
+    "why are metallic oxides termed basic oxides",
+    "explain the nature of non-metallic oxides with an example",
+    "what product is formed when copper oxide reacts with hydrochloric acid",
+    "identify the nature of oxide reacting with base to form salt and water",
+    "give one everyday example of oxide reactions and their chemical nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the oxide type",
+     "explain": "Identify whether the oxide element is metallic or non-metallic."
+    },
+    {
+     "step": 2,
+     "action": "Predict reaction behavior",
+     "explain": "Metallic oxides neutralize acids; non-metallic oxides neutralize bases."
+    },
+    {
+     "step": 3,
+     "action": "Confirm products of oxide reaction",
+     "explain": "Verify the reaction yields a salt and water, confirming the basic or acidic nature of the oxide."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.2.1",
+   "title": "Ionization of Acids and Bases in Water",
+   "section": "2.2.1",
+   "definition": "Acids generate hydronium ions (H3O+) and bases generate hydroxide ions (OH-) only in the presence of water, enabling electrical conductivity.",
+   "formula": "Acid + Water -> Hydronium_Ion + Anion",
+   "key_idea": "Water dissociation is mandatory for releasing active hydrogen or hydroxide ions.",
+   "textbook_ref": "jesc102.txt lines 223-310",
+   "question_patterns": [
+    "why does dry HCl gas not change dry litmus paper color",
+    "explain why glucose and alcohol solutions do not conduct electricity",
+    "why must acid be added to water during dilution and not vice versa",
+    "how does dilution affect hydronium ion concentration per unit volume",
+    "what do you understand by ionization of acids and bases in water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze presence of water molecules",
+     "explain": "Determine if solvent facilitates ionic dissociation."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate ionic carrier generation",
+     "explain": "Aqueous dissociation yields free H+ (H3O+) or OH- ions required for acidity and electrical conduction."
+    },
+    {
+     "step": 3,
+     "action": "Confirm conductivity and acidic behavior",
+     "explain": "Verify the solution conducts electricity and shows acidic or basic properties only when water is present, confirming ionization occurred."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.3.1",
+   "title": "pH Scale and Hydrogen Ion Concentration",
+   "section": "2.3.1",
+   "definition": "The pH scale quantifies the acidity or alkalinity of an aqueous solution from 0 to 14 based on hydrogen ion concentration.",
+   "formula": "pH < 7 (Acidic), pH = 7 (Neutral), pH > 7 (Basic)",
+   "key_idea": "Lower pH values denote higher hydronium ion concentrations and stronger acidic properties.",
+   "textbook_ref": "jesc102.txt lines 311-375",
+   "question_patterns": [
+    "compare hydrogen ion concentration of two solutions with given pH values",
+    "which solution is acidic or basic given pH numbers",
+    "arrange solutions in increasing order of hydrogen ion concentration",
+    "what is the pH of a neutral solution",
+    "short note on ph scale and hydrogen ion concentration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare pH value with neutral threshold 7",
+     "explain": "Values below 7 are acidic; values above 7 are basic."
+    },
+    {
+     "step": 2,
+     "action": "Relate pH value inversely to hydrogen ion concentration",
+     "explain": "A lower pH indicates a higher concentration of hydrogen ions."
+    },
+    {
+     "step": 3,
+     "action": "Classify the solution as acidic, neutral, or basic",
+     "explain": "Conclude the solution is acidic if pH < 7, neutral if pH = 7, and basic if pH > 7, using the hydrogen ion concentration comparison."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.3.2",
+   "title": "Importance of pH in Everyday Life",
+   "section": "2.3.2",
+   "definition": "Optimal pH ranges are vital for biological functions, stomach digestion, prevention of tooth decay, plant growth, and self-defense mechanisms.",
+   "formula": "Optimal_Body_pH = 7.0_to_7.8",
+   "key_idea": "Slight deviations in physiological or environmental pH significantly affect biological processes.",
+   "textbook_ref": "jesc102.txt lines 376-435",
+   "question_patterns": [
+    "why does tooth decay start when mouth pH drops below 5.5",
+    "what remedy is applied to treat ant or honey-bee stings",
+    "how do antacids relieve acidity in human stomach",
+    "under what conditions does a farmer treat soil with slaked lime",
+    "list the main features of importance of ph in everyday life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pH environment and cause of imbalance",
+     "explain": "Determine if excess acid causes corrosion, pain, or poor soil fertility."
+    },
+    {
+     "step": 2,
+     "action": "Select appropriate neutralizing mild base or acid",
+     "explain": "Apply mild basic compounds like baking soda or slaked lime to counteract excess acid."
+    },
+    {
+     "step": 3,
+     "action": "Confirm restoration of optimal pH",
+     "explain": "Verify the neutralizing agent brings the pH back to the optimal range, relieving the biological or environmental imbalance."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.1",
+   "title": "Classification and pH Nature of Salts",
+   "section": "2.4.1",
+   "definition": "Salts formed from strong acids and strong bases are neutral, while combinations involving unequal acid-base strengths produce acidic or basic salts.",
+   "formula": "Strong_Acid + Weak_Base -> Acidic_Salt (pH < 7)",
+   "key_idea": "Salt pH depends directly on the relative chemical strengths of parent acid and base.",
+   "textbook_ref": "jesc102.txt lines 436-475",
+   "question_patterns": [
+    "determine whether a salt solution is acidic, basic, or neutral",
+    "identify parent acid and base for given salt compounds",
+    "explain why sodium chloride solution has pH equal to 7",
+    "predict pH nature of ammonium chloride or sodium acetate",
+    "short note on classification and ph nature of salts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify constituent cation and anion of the salt",
+     "explain": "Deduce the corresponding parent base and parent acid."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate relative strength of parent acid and base",
+     "explain": "Strong acid + weak base yields acidic salt; strong base + weak acid yields basic salt."
+    },
+    {
+     "step": 3,
+     "action": "Classify the salt as neutral, acidic, or basic",
+     "explain": "Conclude the salt is neutral if both parents are strong, acidic if the acid is stronger, and basic if the base is stronger."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.3",
+   "title": "Industrial Chemicals Derived from Common Salt",
+   "section": "2.4.3",
+   "definition": "Sodium chloride serves as a primary raw material for industrial production of sodium hydroxide, bleaching powder, baking soda, and washing soda.",
+   "formula": "2NaCl + 2H2O -> 2NaOH + Cl2 + H2",
+   "key_idea": "Electrolysis and chemical treatment of brine yield multiple essential household and industrial chemicals.",
+   "textbook_ref": "jesc102.txt lines 476-565",
+   "question_patterns": [
+    "explain the chlor-alkali process and list its main products",
+    "how is bleaching powder manufactured and what are its uses",
+    "write chemical equations for preparation of baking soda and washing soda",
+    "what reaction occurs when sodium hydrogencarbonate is heated",
+    "how does industrial chemicals derived from common salt work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the industrial compound and starting materials",
+     "explain": "Determine if process uses brine electrolysis or carbonation."
+    },
+    {
+     "step": 2,
+     "action": "Write chemical reaction and describe utility",
+     "explain": "State balanced equation and primary applications in industry or home."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the industrial product identity",
+     "explain": "Verify the product matches the expected industrial chemical (NaOH, bleaching powder, baking soda, or washing soda) from the chlor-alkali or related process."
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.4",
+   "title": "Water of Crystallisation and Plaster of Paris",
+   "section": "2.4.4",
+   "definition": "Water of crystallisation is indeed the definite number of water molecules chemically bonded in one formula unit of a salt crystal.",
+   "formula": "CaSO4.2H2O --(373K)--> CaSO4.0.5H2O + 1.5H2O",
+   "key_idea": "Heating hydrated crystals removes bound water, while re-hydration restores crystalline solid structure.",
+   "textbook_ref": "jesc102.txt lines 566-615",
+   "question_patterns": [
+    "what is water of crystallisation with examples",
+    "write reaction equation between Plaster of Paris and water",
+    "why must Plaster of Paris be stored in moisture-proof containers",
+    "explain color change when copper sulphate crystals are heated",
+    "give one everyday example of water of crystallisation and plaster of paris"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the degree of hydration in the chemical formula",
+     "explain": "Count water molecules associated with each formula unit."
+    },
+    {
+     "step": 2,
+     "action": "Analyze thermal dehydration or rehydration reaction",
+     "explain": "Heating drives off hydration water; adding water converts hemihydrate back to gypsum."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the hydration state change",
+     "explain": "Verify the color change or setting behavior indicates water of crystallisation was removed or restored, confirming the dehydration or rehydration process."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc102.txt Exercises Q3",
+   "concept": "jesc.2.1.4",
+   "question_type": "compute",
+   "question_pattern": "{v_base_initial} mL of a solution of NaOH is found to be completely neutralised by {v_acid_initial} mL of a given solution of HCl. If we take {v_base_target} mL of the same solution of NaOH, what volume of HCl solution will be required to neutralise it?",
+   "extracted_variables": {
+    "v_base_initial": "10",
+    "v_acid_initial": "8",
+    "v_base_target": "20"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the volume scaling factor",
+     "explain": "Divide target base volume by initial base volume.",
+     "compute": "factor = v_base_target / v_base_initial"
+    },
+    {
+     "step": 2,
+     "action": "Determine the required acid volume",
+     "explain": "Multiply initial acid volume by scaling factor.",
+     "compute": "v_acid_needed = factor * v_acid_initial"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc102.txt Section 2.3.1 Q1",
+   "concept": "jesc.2.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "You have two solutions, A and B. The pH of solution A is 6 and pH of solution B is 8. Which solution has more hydrogen ion concentration? Which of this is acidic and which one is basic?",
+   "extracted_variables": {
+    "ph_A": "6",
+    "ph_B": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compare pH values with 7",
+     "explain": "Solution A with pH 6 (< 7) is acidic; Solution B with pH 8 (> 7) is basic."
+    },
+    {
+     "step": 2,
+     "action": "Relate pH to hydrogen ion concentration",
+     "explain": "Lower pH corresponds to higher hydronium ion concentration, so Solution A has higher hydrogen ion concentration."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc102.txt lines 169-195",
+   "concept": "jesc.2.1.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute neutralisation reaction and volumetric ratio step by step",
+   "extracted_variables": {
+    "v_base_target": "value of v_base_target",
+    "v_base_initial": "value of v_base_initial",
+    "v_acid_initial": "value of v_acid_initial"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the volume scaling factor",
+     "explain": "Divide the target base volume by the initial base volume.",
+     "compute": "factor = v_base_target / v_base_initial"
+    },
+    {
+     "step": 2,
+     "action": "Determine the required acid volume",
+     "explain": "Multiply the initial acid volume by the scaling factor.",
+     "compute": "v_acid_needed = factor * v_acid_initial"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "jesc102.txt line 621",
+   "questions": [
+    "A solution turns red litmus blue, its pH is likely to be (a) 1 (b) 4 (c) 5 (d) 10"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "jesc102.txt line 624",
+   "questions": [
+    "A solution reacts with crushed egg-shells to give a gas that turns lime-water milky. The solution contains (a) NaCl (b) HCl (c) LiCl (d) KCl"
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "jesc102.txt line 628",
+   "questions": [
+    "10 mL of a solution of NaOH is found to be completely neutralised by 8 mL of a given solution of HCl. If we take 20 mL of the same solution of NaOH, the amount HCl solution (the same solution as before) required to neutralise it will be (a) 4 mL (b) 8 mL (c) 12 mL (d) 16 mL"
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "jesc102.txt line 634",
+   "questions": [
+    "Which one of the following types of medicines is used for treating indigestion? (a) Antibiotic (b) Analgesic (c) Antacid (d) Antiseptic"
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "jesc102.txt line 640",
+   "questions": [
+    "Write word equations and then balanced equations for the reaction taking place when – (a) dilute sulphuric acid reacts with zinc granules. (b) dilute hydrochloric acid reacts with magnesium ribbon. (c) dilute sulphuric acid reacts with aluminium powder. (d) dilute hydrochloric acid reacts with iron filings."
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "jesc102.txt line 647",
+   "questions": [
+    "Compounds such as alcohols and glucose also contain hydrogen but are not categorised as acids. Describe an Activity to prove it."
+   ]
+  },
+  {
+   "id": "ex2.7",
+   "source_ref": "jesc102.txt line 650",
+   "questions": [
+    "Why does distilled water not conduct electricity, whereas rain water does?"
+   ]
+  },
+  {
+   "id": "ex2.8",
+   "source_ref": "jesc102.txt line 652",
+   "questions": [
+    "Why does dry HCl gas not show acidic behaviour in the absence of water?"
+   ]
+  },
+  {
+   "id": "ex2.9",
+   "source_ref": "jesc102.txt line 654",
+   "questions": [
+    "Five solutions A,B,C,D and E when tested with universal indicator showed pH as 4,1,11,7 and 9, respectively. Which solution is (a) neutral? (b) strongly alkaline? (c) strongly acidic? (d) weakly acidic? (e) weakly alkaline? Arrange the pH in increasing order of hydrogen-ion concentration."
+   ]
+  },
+  {
+   "id": "ex2.10",
+   "source_ref": "jesc102.txt line 662",
+   "questions": [
+    "Equal lengths of magnesium ribbons are taken in test tubes A and B. Hydrochloric acid (HCl) is added to test tube A, while acetic acid (CH3COOH) is added to test tube B. Amount and concentration taken for both the acids are same. In which test tube will the fizzing occur more vigorously and why?"
+   ]
+  },
+  {
+   "id": "ex2.11",
+   "source_ref": "jesc102.txt line 668",
+   "questions": [
+    "Fresh milk has a pH of 6. How do you think the pH will change as it turns into curd? Explain your answer."
+   ]
+  },
+  {
+   "id": "ex2.12",
+   "source_ref": "jesc102.txt line 671",
+   "questions": [
+    "A milkman adds a very small amount of baking soda to fresh milk. (a) Why does he shift the pH of the fresh milk from 6 to slightly alkaline? (b) Why does this milk take a long time to set as curd?"
+   ]
+  },
+  {
+   "id": "ex2.13",
+   "source_ref": "jesc102.txt line 676",
+   "questions": [
+    "Plaster of Paris should be stored in a moisture-proof container. Explain why?"
+   ]
+  },
+  {
+   "id": "ex2.14",
+   "source_ref": "jesc102.txt line 678",
+   "questions": [
+    "What is a neutralisation reaction? Give two examples."
+   ]
+  },
+  {
+   "id": "ex2.15",
+   "source_ref": "jesc102.txt line 680",
+   "questions": [
+    "Give two important uses of washing soda and baking soda."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

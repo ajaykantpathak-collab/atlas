@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu110.json",
+ "concepts": [
+  {
+   "id": "gecu.10.1",
+   "title": "How Do Plants Grow?",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What do plants need to grow?",
+     "a": "Sunlight, water, air (CO2), soil minerals and the right temperature.",
+     "self_check": true
+    },
+    {
+     "q": "From which parts do new plants grow without seeds?",
+     "a": "Roots, stems and leaves - vegetative propagation (e.g. potato eyes, bryophyllum leaves).",
+     "self_check": true
+    },
+    {
+     "q": "Why is a seedling's early growth fast?",
+     "a": "The seed stores food that fuels rapid growth till leaves begin making food.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.2",
+   "title": "Photosynthesis: Making Food from Light",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Write the raw materials and products of photosynthesis.",
+     "a": "Raw: carbon dioxide and water. Products: glucose (food) and oxygen, with sunlight and chlorophyll.",
+     "self_check": true
+    },
+    {
+     "q": "Why are leaves green?",
+     "a": "Chlorophyll, the green pigment that traps sunlight, colours them.",
+     "self_check": true
+    },
+    {
+     "q": "How does photosynthesis help animals too?",
+     "a": "It makes the food and oxygen that animals need to live.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.3",
+   "title": "Transport in Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What carries water up a plant?",
+     "a": "Xylem tubes carry water and minerals from roots to leaves.",
+     "self_check": true
+    },
+    {
+     "q": "What is transpiration?",
+     "a": "Water vapour escaping from leaves, which pulls more water up from the roots.",
+     "self_check": true
+    },
+    {
+     "q": "How does food move in a plant?",
+     "a": "Phloem tubes carry food from leaves to roots, fruits and growing parts.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.4",
+   "title": "Do Plants Respire?",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Do plants respire? How do you know?",
+     "a": "Yes - they take in oxygen and release CO2 all the time, like all living things.",
+     "self_check": true
+    },
+    {
+     "q": "How is respiration different from photosynthesis?",
+     "a": "Respiration burns food for energy (day and night); photosynthesis makes food only in light.",
+     "self_check": true
+    },
+    {
+     "q": "Why do plants still need respiration if they make food?",
+     "a": "Making food is not enough - energy locked in food must be released by respiration for growth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

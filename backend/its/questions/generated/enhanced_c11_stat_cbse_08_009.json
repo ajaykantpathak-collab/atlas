@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_009",
+   "title": "c11_stat_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define Wholesale Price Index (WPI) in one sentence, specifying the stage of transaction and the type of items covered.",
+     "a": "WPI measures the average change in prices of **goods only** (excluding services) at the **wholesale/bulk transaction stage** (between businesses). A wrong answer like \"WPI measures retail price changes for consumers\" reveals confusion with CPI. Another error: \"WPI includes services like transport and banking\" shows ignorance that WPI covers only tangible goods (primary articles, fuel/power, manufactured products).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rise in WPI does not immediately translate into an equal rise in CPI. Use the concepts of supply chain stages and weight differences.",
+     "a": "WPI captures prices at the first commercial transaction (wholesale), while CPI captures final retail prices. The gap includes transportation, retail margins, taxes, and distribution costs, which dampen or delay pass-through. Additionally, WPI weights manufactured goods heavily (~64%), while CPI weights food and services heavily (~45% food, ~28% services). A wrong answer focusing only on \"time lag\" misses the structural weight difference; an answer saying \"WPI includes services\" is factually incorrect.",
+     "self_check": true
+    },
+    {
+     "q": "A textile manufacturer sees that the WPI sub-index for 'Manufactured Textiles' rose from 130 to 143 over a year, while the overall WPI rose from 140 to 147. Calculate the percentage change for both and explain which inflation rate is more relevant for the manufacturer's input cost planning.",
+     "a": "Textiles sub-index change = (143-130)/130 × 100 = **10%**. Overall WPI change = (147-140)/140 × 100 = **5%**. The manufacturer should track the **textiles sub-index (10%)** because it reflects the specific price movement of their output and closely related inputs (yarn, fabric). Using overall WPI (5%) would underestimate their sector-specific cost pressures. A wrong answer using overall WPI shows inability to apply disaggregated index data for decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a 10% rise in WPI versus a 10% rise in CPI on: (a) a steel producer's profit margin, (b) an urban household's real income. Assume no immediate change in nominal wages or steel selling prices.",
+     "a": "(a) Steel producer: WPI rise means **input costs (iron ore, coal, power) increase**, squeezing profit margins if output prices are sticky. CPI rise has no direct effect on their production costs. (b) Urban household: CPI rise **directly erodes real income** because their consumption basket matches CPI weights. WPI rise only affects them indirectly if producers pass on costs later. A wrong answer treating both impacts as identical ignores the different economic agents (producer vs consumer) and the distinct baskets each index represents.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since WPI is published weekly and covers a larger basket of goods, it is a superior measure of inflation for RBI's monetary policy decisions compared to CPI.\"",
+     "a": "The statement is **flawed**. While WPI's weekly frequency (historically) and broad goods coverage are advantages for tracking producer prices, RBI's flexible inflation targeting framework (since 2016) uses **CPI as the nominal anchor** because: (1) CPI reflects the cost of living for the majority of the population, (2) CPI includes services (~28% weight) which constitute >50% of GDP, (3) Monetary policy aims to protect consumers' purchasing power. WPI remains a **supplementary indicator** for supply-side pressures. A wrong answer agreeing with the statement confuses \"statistical convenience\" with \"policy relevance\" and ignores the legal mandate of inflation targeting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal WPI basket for the 'Chemical Fertilizers' sub-group (weight ~1.5% in manufactured products). List 4-5 representative items, justify their inclusion based on production volume and price variability, and explain how you would assign weights among them.",
+     "a": "**Items**: Urea, DAP (Di-ammonium Phosphate), MOP (Muriate of Potash), Complex Fertilizers (NPK), Single Super Phosphate (SSP). **Justification**: These cover the major nutrient types (N, P, K) and account for >90% of fertilizer consumption in India. Urea alone is ~50% of consumption. **Weighting**: Use value of production (ex-factory price × quantity) in the base year. For example, if base year production values are Urea ₹50,000 cr, DAP ₹20,000 cr, MOP ₹10,000 cr, NPK ₹15,000 cr, SSP ₹5,000 cr, weights would be proportional to these values. A poor answer lists random chemicals without volume justification or suggests equal weights, ignoring the index number principle of economic importance weighting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

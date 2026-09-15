@@ -1,0 +1,112 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 3,
+  "chapter_title": "Integration and Its Application",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_003b_integration_applications.txt",
+  "concepts": [
+    {
+      "id": "am12_003b.1",
+      "title": "Indefinite Integral as Antiderivative",
+      "definition": "Integration is the inverse of differentiation: a primitive or antiderivative of f is any function F with F'(x) = f(x). The indefinite integral adds an arbitrary constant C because an infinite family of curves shares the same derivative.",
+      "formula": "-",
+      "key_idea": "Every derivative rule read backwards gives an integral rule: the integral of x^n is x^(n+1) / (n+1) for n not equal to -1, and the constant of integration records the whole family of curves.",
+      "question_patterns": [
+        "Find the indefinite integral of {a}x^2 + {b}x.",
+        "Evaluate the integral of x^n dx for n not equal to -1.",
+        "Why does every indefinite integral carry an arbitrary constant?",
+        "Given f'(x) = {a}x + {b} and f(0) = {c}, find f(x).",
+        "Verify by differentiation that the integral of {a}x^2 is {a}x^3 / 3 + C."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003b.2",
+      "title": "Integration by Substitution and by Parts",
+      "definition": "Substitution rewrites an integral by changing the variable so the integrand collapses to a standard form. Integration by parts follows from the product rule: the integral of u times v dx equals u times the integral of v dx minus the integral of (the derivative of u) times (the integral of v dx). Partial fractions split rational functions into simpler pieces before integrating.",
+      "formula": "-",
+      "key_idea": "Choose by structure: a function and its derivative together suggests substitution, a product of unlike types suggests parts, and a rational function with factorable denominator suggests partial fractions.",
+      "question_patterns": [
+        "Evaluate the integral of 2x({x2}x^2 + {b})^3 dx by substitution.",
+        "Find the integral of x e^x dx using integration by parts.",
+        "Integrate 1/({x2}x^2 - {b}) using partial fractions.",
+        "State the formula for integration by parts and how to choose u.",
+        "Use substitution to find the integral of {b}x ({x2}x^2 + 1)^2 dx."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003b.3",
+      "title": "Definite Integral as Bounded Area",
+      "definition": "The definite integral from a to b of f(x) dx is the area of the region bounded by the curve y = f(x), the x-axis and the ordinates x = a and x = b. Areas below the axis contribute negatively, so the geometric area takes the absolute value.",
+      "formula": "-",
+      "key_idea": "The definite integral is a number, not a family: evaluate the antiderivative at the upper limit minus the lower limit, and the constant of integration cancels.",
+      "question_patterns": [
+        "Find the area bounded by y = {a}x^2, the x-axis and the ordinates x = 0 and x = {b}.",
+        "Evaluate the definite integral of {a}x dx from x = {b} to x = {c}.",
+        "Why is the constant of integration absent from a definite integral?",
+        "Interpret the negative value of a definite integral geometrically.",
+        "Find the area of the region bounded by the line y = {b}x and the x-axis between x = 0 and x = {c}."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003b.4",
+      "title": "Consumer Surplus and Producer Surplus",
+      "definition": "Consumer surplus is the area between the demand curve and the market price line up to the equilibrium quantity: what buyers were willing to pay minus what they paid. Producer surplus is the mirror area between the price line and the supply curve: what sellers received minus the minimum they would have accepted.",
+      "formula": "-",
+      "key_idea": "Both surpluses are definite integrals of straight-line demand or supply curves over the equilibrium quantity, so the triangular areas can also be computed as half base times height.",
+      "question_patterns": [
+        "The demand function is p = {d} - {k}q and the equilibrium price is {p} at quantity {q}; find the consumer surplus.",
+        "Given the supply function p = {k}q + {s} and equilibrium at ({q}, {p}), find the producer surplus.",
+        "Define consumer surplus and sketch it on a demand curve diagram.",
+        "How is producer surplus measured using a definite integral?",
+        "For demand p = {d} - {k}q, find the total willingness to pay for the first {q} units."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003b.5",
+      "title": "Total from Marginal by Integration",
+      "definition": "Integrating a marginal function recovers the total function up to a constant: total cost is the integral of marginal cost with the fixed cost as the constant, and total revenue is the integral of marginal revenue with zero as the constant when nothing is sold.",
+      "formula": "-",
+      "key_idea": "The initial condition pins down the integration constant: total cost at zero output equals the fixed cost, while total revenue at zero output equals zero.",
+      "question_patterns": [
+        "The marginal cost is {mc} per unit and the fixed cost is {f}; find the total cost function.",
+        "Given MR = {mr}, find the total revenue and the demand function.",
+        "If MC = {mc} and C(0) = {f}, find the cost of producing {q} units.",
+        "Why does integrating a marginal cost function need the fixed cost to be complete?",
+        "Find the total revenue function from the marginal revenue {mr} and state the value at zero sales."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "The demand function is p = 100 - 2q and the market settles at q = 20. Find the consumer surplus.",
+      "a": "Equilibrium price p = 100 - 2(20) = 60. Consumers would have paid the area under the demand curve from 0 to 20: integral of (100 - 2q) dq = 100q - q^2 at 20 gives 2000 - 400 = 1600. Amount actually paid = 60 x 20 = 1200. Consumer surplus = 1600 - 1200 = 400 (the triangle half x 20 x 40 = 400 confirms it)."
+    },
+    {
+      "q": "Marginal cost is MC = 3q^2 - 12q + 10 and the fixed cost is 50. Find the total cost of producing 4 units.",
+      "a": "Integrating, TC = q^3 - 6q^2 + 10q + C. At zero output the total cost equals the fixed cost, so C = 50. At q = 4: TC = 64 - 96 + 40 + 50 = 58. The total cost of 4 units is 58, of which 50 is the fixed cost and 8 is the variable cost of the 4 units."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "Integrate 6x^2 - 4x + 5 dx.",
+        "Evaluate the definite integral of 2x dx from 1 to 4 and sketch the region.",
+        "Find the area under y = 9 - x^2 above the x-axis.",
+        "Demand p = 80 - q, equilibrium quantity 30: find the consumer surplus.",
+        "Given MC = 6q + 4 and fixed cost 25, find C(10).",
+        "Integrate x ln x dx using parts."
+      ]
+    }
+  ]
+}

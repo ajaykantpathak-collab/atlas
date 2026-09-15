@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_012",
+   "title": "c11_phy_cbse_10_012",
+   "questions": [
+    {
+     "q": "State the SI unit of thermal conductivity and write the formula for heat current through a uniform rod of length L, cross-sectional area A, thermal conductivity K, with its ends maintained at temperatures T₁ and T₂ (T₁ > T₂).",
+     "a": "SI unit: W m⁻¹ K⁻¹ (or J s⁻¹ m⁻¹ K⁻¹). Formula: H = KA(T₁ - T₂)/L. A wrong unit like W m⁻¹ or J K⁻¹ reveals confusion between thermal conductivity and thermal conductance (KA/L) or heat capacity. Forgetting the area A or length L in the formula shows the student hasn't grasped the geometric dependence of heat flow.",
+     "self_check": true
+    },
+    {
+     "q": "Two rods of identical dimensions but different materials (copper and steel) are joined end-to-end. The free ends are kept at 100°C and 0°C. In steady state, is the heat current through the copper rod greater than, less than, or equal to that through the steel rod? Explain why.",
+     "a": "Equal. In steady state, heat current must be the same through all cross-sections of a series combination; otherwise, energy would accumulate at the junction, violating steady state. A student who says \"greater in copper because it's a better conductor\" is applying the formula H = KAΔT/L to each rod separately but forgetting that ΔT across each rod adjusts so that H is identical. This is the exact thermal analogue of series electric circuits.",
+     "self_check": true
+    },
+    {
+     "q": "A brass rod (K = 109 W m⁻¹ K⁻¹) of length 20 cm and cross-section 2 cm² is joined to a steel rod (K = 50 W m⁻¹ K⁻¹) of length 30 cm and cross-section 3 cm². The free end of brass is at 120°C and the free end of steel is at 20°C. Calculate the heat current through the combination and the temperature at the junction.",
+     "a": "Step 1: Convert units: L₁ = 0.20 m, A₁ = 2×10⁻⁴ m², L₂ = 0.30 m, A₂ = 3×10⁻⁴ m².\nStep 2: Thermal resistances: R₁ = L₁/(K₁A₁) = 0.20/(109×2×10⁻⁴) = 9.17 K/W. R₂ = 0.30/(50×3×10⁻⁴) = 20.0 K/W.\nStep 3: Total R = R₁ + R₂ = 29.17 K/W. ΔT = 100 K.\nStep 4: Heat current H = ΔT/R_total = 100/29.17 = 3.43 W.\nStep 5: Junction temperature T_j = T_hot - H×R₁ = 120 - 3.43×9.17 = 120 - 31.5 = 88.5°C.\nA wrong answer like H = 343 W reveals missing unit conversion (cm² to m²). Getting T_j = 31.5°C means the student subtracted from the cold end instead of the hot end.",
+     "self_check": true
+    },
+    {
+     "q": "In Example 10.7 of NCERT, two rods of equal length and cross-section are joined. The equivalent thermal conductivity is given as K' = 2K₁K₂/(K₁+K₂). Derive this formula from the condition of equal heat current, and explain why it is the harmonic mean (not arithmetic mean) of the two conductivities.",
+     "a": "For equal L and A: H = K₁A(T₁-T₀)/L = K₂A(T₀-T₂)/L → K₁(T₁-T₀) = K₂(T₀-T₂). Solving: T₀ = (K₁T₁+K₂T₂)/(K₁+K₂). Total H = K'A(T₁-T₂)/(2L). Equating: K' = 2K₁K₂/(K₁+K₂). It's the harmonic mean because thermal resistances add in series (R = R₁+R₂), and R ∝ 1/K. The arithmetic mean would apply if conductances added in parallel. A student giving K' = (K₁+K₂)/2 is treating conductivity like a parallel combination.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a composite rod problem and gets a junction temperature of 150°C when the hot end is at 100°C and cold end at 0°C. Without redoing the calculation, how can you immediately identify this as physically impossible? What conceptual error likely led to this?",
+     "a": "The junction temperature must lie between the two end temperatures (0°C < T_j < 100°C) in steady-state conduction without internal heat sources. A value of 150°C violates the second law of thermodynamics (heat cannot flow from cold to hot without external work). The likely error: sign mistake in the heat current equation, e.g., writing K₁(T₀-T₁) = K₂(T₂-T₀) instead of K₁(T₁-T₀) = K₂(T₀-T₂), effectively reversing the temperature gradient direction in one rod.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to compare the thermal conductivities of aluminium, copper, and steel rods of identical dimensions using only hot water, thermometers, and a stopwatch. Describe the procedure, measurements, and how you would calculate K from the data.",
+     "a": "Procedure: Use identical rods (same L, A) with one end in boiling water (100°C) and the other end in contact with a thermometer embedded in a small insulated water bath (known mass m, specific heat c). Measure temperature rise ΔT of the cold bath over time Δt. Heat current H = mcΔT/Δt. Then K = HL/(AΔT_rod) where ΔT_rod ≈ 100°C - T_cold_bath (assuming small ΔT). Repeat for each metal. Best answer includes: insulating the sides, using same Δt for comparison, accounting for heat losses. A poor answer ignores side losses or assumes the cold bath stays at constant temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

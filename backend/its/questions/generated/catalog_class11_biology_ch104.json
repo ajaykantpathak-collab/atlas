@@ -1,0 +1,267 @@
+{
+ "catalog": "catalog_class11_biology_ch104",
+ "concepts": [
+  {
+   "id": "kebo.4.1.1",
+   "title": "Levels of Body Organisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels of Body Organisation' refers to.",
+     "a": "Structural hierarchy in multicellular organisms ranging from simple cellular aggregations to specialized tissues, organs, and integrated organ systems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Body Organisation'.",
+     "a": "Animals exhibit cellular, tissue, organ, or organ-system levels of structural complexity based on functional division of labor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Levels of Body Organisation', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.2",
+   "title": "Body Symmetry in Animals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Body Symmetry in Animals' refers to.",
+     "a": "Geometric arrangement of anatomical structures relative to a central longitudinal axis of the organism.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Body Symmetry in Animals'.",
+     "a": "Animals are categorized as asymmetrical, radially symmetrical, or bilaterally symmetrical.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Body Symmetry in Animals', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.3",
+   "title": "Germinal Layers Organisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Germinal Layers Organisation' refers to.",
+     "a": "Primary embryonic cell layers formed during early development that give rise to all tissues and organs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Germinal Layers Organisation'.",
+     "a": "Diploblastic organisms develop two germ layers, whereas triploblastic organisms possess a third middle layer called mesoderm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Germinal Layers Organisation', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.4",
+   "title": "Body Cavity and Coelom Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Body Cavity and Coelom Types' refers to.",
+     "a": "Fluid-filled internal cavity between the body both wall and gut wall, classified by the presence and nature of its mesodermal lining.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Body Cavity and Coelom Types'.",
+     "a": "Coelomates have mesoderm-lined cavities, pseudocoelomates have scattered mesodermal pouches, and acoelomates lack a body cavity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Body Cavity and Coelom Types', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.5",
+   "title": "Metamerism and Notochord",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Metamerism and Notochord' refers to.",
+     "a": "Structural segmentation showing repeated organ sets along the body, and the embryonic dorsal supporting rod that defines chordates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Metamerism and Notochord'.",
+     "a": "Metamerism is serial body segmentation, while the notochord is a mesodermally derived axial rod.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Metamerism and Notochord', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.1",
+   "title": "Phyla Porifera, Coelenterata, and Ctenophora",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phyla Porifera, Coelenterata, and Ctenophora' refers to.",
+     "a": "Lower aquatic invertebrates characterized by cellular aggregates with water canals, or diploblastic tissue structures with stinging cells or comb plates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phyla Porifera, Coelenterata, and Ctenophora'.",
+     "a": "Porifera feature ostia and choanocytes; Coelenterata possess cnidocytes and metagenesis; Ctenophora feature locomotion via comb plates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phyla Porifera, Coelenterata, and Ctenophora', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.2",
+   "title": "Phyla Platyhelminthes and Aschelminthes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phyla Platyhelminthes and Aschelminthes' refers to.",
+     "a": "Worm phyla comprising acoelomate dorsoventrally flattened flatworms and pseudocoelomate cylindrical roundworms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phyla Platyhelminthes and Aschelminthes'.",
+     "a": "Platyhelminths are acoelomate flatworms with flame cells; Aschelminthes are indeed pseudocoelomate roundworms with a muscular pharynx.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phyla Platyhelminthes and Aschelminthes', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.3",
+   "title": "Higher Non-Chordate Phyla (Annelida to Hemichordata)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Higher Non-Chordate Phyla (Annelida to Hemichordata)' refers to.",
+     "a": "Advanced coelomate invertebrates possessing segmented bodies, chitinous exoskeletons, soft mantle coverings, water vascular systems, or stomochords.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Higher Non-Chordate Phyla (Annelida to Hemichordata)'.",
+     "a": "Includes Annelida (metameres/nephridia), Arthropoda (jointed legs/chitinous skin), Mollusca (shell/mantle/radula), Echinodermata (spiny skin/water vascular system), and Hemichordata (proboscis/stomochord).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Higher Non-Chordate Phyla (Annelida to Hemichordata)', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.7",
+   "title": "Estimation of Arthropod Species Count",
+   "questions": [
+    {
+     "q": "Calculate the number of arthropod species if total named species is .... Use the method 'Estimation of Arthropod Species Count'. Work with: total_species = 100. Carry the chain through step by step and give the final value of proportion.",
+     "a": "0.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "How many arthropod species exist out of ... total animal species? Use the method 'Estimation of Arthropod Species Count'. Work with: total_species = 30. Carry the chain through step by step and give the final value of proportion.",
+     "a": "0.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Estimation of Arthropod Species Count' refers to.",
+     "a": "Quantitative calculation of arthropod abundance using the principle that two-thirds of all named animal species on Earth belong to phylum Arthropoda.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Estimation of Arthropod Species Count'.",
+     "a": "Arthropods account for about two-thirds of all described living animal species.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Estimation of Arthropod Species Count', in plain ASCII form.",
+     "a": "arthropod_species = total_species * 2 / 3",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.4",
+   "title": "Phylum Chordata and Subphyla Division",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phylum Chordata and Subphyla Division' refers to.",
+     "a": "Animals defined by a dorsal notochord, hollow nerve cord, pharyngeal gill slits, and post-anal tail, split into Urochordata, Cephalochordata, and Vertebrata.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phylum Chordata and Subphyla Division'.",
+     "a": "Protochordates are marine non-vertebrate chordates; Vertebrates replace embryonic notochord with a vertebral column.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phylum Chordata and Subphyla Division', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.5",
+   "title": "Classes of Pisces and Jawless Vertebrates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classes of Pisces and Jawless Vertebrates' refers to.",
+     "a": "Aquatic vertebrates with two-chambered hearts, including jawless ectoparasitic cyclostomes and finned fishes (cartilaginous and bony).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classes of Pisces and Jawless Vertebrates'.",
+     "a": "Cyclostomes lack jaws; Chondrichthyes have cartilaginous skeletons and placoid scales; Osteichthyes have bony skeletons and opercula.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classes of Pisces and Jawless Vertebrates', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.6",
+   "title": "Superclass Tetrapoda Classes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Superclass Tetrapoda Classes' refers to.",
+     "a": "Vertebrates with two pairs of limbs, living on land or in water; the group spans amphibians (Amphibia), reptiles (Reptilia), birds (Aves), and mammals (Mammalia).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Superclass Tetrapoda Classes'.",
+     "a": "Both Amphibians and reptiles are cold-blooded; birds have feathers and pneumatic bones; mammals feature epidermal hair and mammary glands.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Superclass Tetrapoda Classes', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

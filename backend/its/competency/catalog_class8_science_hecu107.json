@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Particulate Nature of Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.107.7.1",
+   "title": "Matter Is Made of Particles",
+   "section": "7.1",
+   "definition": "All matter is built from tiny particles far too small to see; dissolving a spoon of salt in water or smelling food from another room shows that substances break into minute pieces that spread through liquids and air.",
+   "formula": "-",
+   "key_idea": "Dissolving and spreading smells are everyday proofs that matter is particulate.",
+   "textbook_ref": "hecu107.txt lines 40-168 (what is matter composed of)",
+   "question_patterns": [
+    "what evidence shows that matter is made of tiny particles",
+    "why does salt disappear when dissolved in water",
+    "how does the smell of food reach us from a distance",
+    "why can particles of matter not be seen with the naked eye",
+    "explain the particulate nature of matter with an activity",
+    "what happens to a crystal of potassium permanganate in water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "observe dissolving",
+     "explain": "Salt or crystals vanish into water yet colour or taste the whole liquid - they have broken into invisible particles."},
+    {"step": 2, "action": "observe spreading",
+     "explain": "Smells travel because particles mix into the air and move freely."},
+    {"step": 3, "action": "conclude the structure",
+     "explain": "All matter consists of minute particles with spaces between them."}
+   ]
+  },
+  {
+   "id": "hecu.107.7.2",
+   "title": "States of Matter and Interparticle Space",
+   "section": "7.2",
+   "definition": "Whether matter is solid, liquid or gas depends on how far its particles sit and how strongly they cling: solids pack particles tightly in fixed positions, liquids keep them close but mobile, and gases spread them far apart with almost no attraction.",
+   "formula": "-",
+   "key_idea": "Spacing and attraction decide the state: tight-fixed, close-mobile, or far-free.",
+   "textbook_ref": "hecu107.txt lines 168-452 (what decides different states of matter)",
+   "question_patterns": [
+    "compare the interparticle spacing in solids, liquids and gases",
+    "why do solids have a fixed shape while gases do not",
+    "what decides the state of a substance",
+    "why can gases be compressed easily but not solids",
+    "arrange solids, liquids and gases by increasing interparticle attraction",
+    "explain the properties of the three states using the particle idea"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "rank the spacing",
+     "explain": "Solid particles touch in fixed spots, liquid particles stay near but slide, gas particles fly far apart."},
+    {"step": 2, "action": "link attraction to behaviour",
+     "explain": "Strong attraction holds shape; weak attraction lets flow and escape."},
+    {"step": 3, "action": "explain properties",
+     "explain": "Fixed shape, flowing liquid and compressible gas all follow from the particle picture."}
+   ]
+  },
+  {
+   "id": "hecu.107.7.3",
+   "title": "Change of State by Heating and Cooling",
+   "section": "7.3",
+   "definition": "Heating pushes particles apart and faster, turning solids into liquids and liquids into gases; cooling reverses the journey - melting, boiling, condensation and freezing are just particles gaining or losing energy and space.",
+   "formula": "-",
+   "key_idea": "Add energy to loosen the particle crowd, remove it to let them settle.",
+   "textbook_ref": "hecu107.txt lines 452-591 (how does interparticle spacing change)",
+   "question_patterns": [
+    "what happens to particles when ice melts",
+    "explain boiling using the particle idea",
+    "how does condensation change the spacing of particles",
+    "name the changes of state with one example each",
+    "why does heating increase interparticle spacing",
+    "how does cooling a gas turn it into liquid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "add heat",
+     "explain": "Particles gain energy, vibrate more and widen their spacing: solid becomes liquid, then gas."},
+    {"step": 2, "action": "remove heat",
+     "explain": "Losing energy slows particles and draws them close: gas condenses, liquid freezes."},
+    {"step": 3, "action": "name each change",
+     "explain": "Melting, boiling, condensation and freezing label the four paths."}
+   ]
+  },
+  {
+   "id": "hecu.107.7.4",
+   "title": "Movement of Particles in Different States",
+   "section": "7.4",
+   "definition": "Particle motion differs by state: solid particles only vibrate about fixed spots, liquid particles slide past one another, and gas particles dart freely in all directions - which is why gases spread fastest and mix by diffusion.",
+   "formula": "-",
+   "key_idea": "Vibrate, slide, fly - the three motion styles explain diffusion and flow.",
+   "textbook_ref": "hecu107.txt lines 591-680 (how particles move in different states)",
+   "question_patterns": [
+    "how do particles move in solids, liquids and gases",
+    "what is diffusion and in which state is it fastest",
+    "why do solid particles only vibrate",
+    "compare the motion of particles in water and in steam",
+    "why does the smell of incense spread through the whole room",
+    "which state of matter shows the maximum particle motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "describe each motion",
+     "explain": "Vibration in solids, gliding in liquids, free flight in gases."},
+    {"step": 2, "action": "link motion to mixing",
+     "explain": "Freely flying gas particles mix fastest - diffusion is quickest in gases."},
+    {"step": 3, "action": "connect to temperature",
+     "explain": "Higher temperature speeds the motion in every state."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hecu107.txt sections 7.1-7.2",
+   "questions": [
+     "Give two activities showing the particulate nature of matter.",
+     "Compare solids, liquids and gases in terms of spacing and attraction.",
+     "Why are gases compressible but solids not?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hecu107.txt sections 7.3-7.4",
+   "questions": [
+     "Explain melting, boiling and condensation using particles.",
+     "In which state does diffusion happen fastest and why?",
+     "How does heating change particle spacing and motion?"
+   ]
+  }
+ ]
+}

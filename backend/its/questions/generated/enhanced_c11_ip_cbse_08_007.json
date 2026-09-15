@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_007",
+   "title": "c11_ip_cbse_08_007",
+   "questions": [
+    {
+     "q": "A student receives an email appearing to be from their school principal asking them to download an attached \"timetable.pdf.exe\" file. Which pillar of the CIA triad is primarily threatened if the student executes this file, and why?",
+     "a": "The primary pillar threatened is **Integrity** — the .exe extension indicates an executable program disguised as a PDF, which could modify, corrupt, or delete files on the student's device. A wrong answer focusing only on Confidentiality (data theft) reveals the student overlooks that malware often destroys or alters data rather than just stealing it. A wrong answer citing Availability (system crash) misses that integrity violation is the direct mechanism; availability loss is a secondary effect.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"shoulder surfing\" (someone watching you type your password) is a cyber threat even though no software, malware, or hacking tools are involved.",
+     "a": "Shoulder surfing violates **Confidentiality** by exposing authentication credentials through physical observation, enabling unauthorized access later. A wrong answer claiming \"it's not a cyber threat because no computer is hacked\" reveals the misconception that cyber threats require technical exploits — in reality, the *human* element is the weakest link, and social engineering attacks like shoulder surfing are explicitly covered in the CBSE curriculum under cyber threats. The student must understand that threat classification depends on the *impact* (unauthorized access), not the *method*.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend shares a Google Form link in a class WhatsApp group asking for \"Name, Class, Roll Number, Aadhaar Number, and Parent's Phone Number\" to \"register for a scholarship.\" Apply the CIA triad to analyse which pillars are at risk and what specific harm could occur.",
+     "a": "**Confidentiality**: Aadhaar and phone numbers are sensitive PII (Personally Identifiable Information) — exposure enables identity theft, SIM swap fraud, or targeted phishing. **Integrity**: An attacker could alter submitted data or inject malicious responses. **Availability**: The form could be used to harvest credentials for credential stuffing attacks on other platforms. A partial answer identifying only one pillar shows incomplete threat modelling; the student must recognise that a single data collection incident cascades across all three pillars.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a computer worm and a phishing email in terms of: (a) propagation mechanism, (b) human interaction required, (c) primary CIA pillar targeted initially. Present your answer as a structured comparison.",
+     "a": "| Aspect | Computer Worm | Phishing Email |\n|--------|---------------|----------------|\n| Propagation | Self-replicating via network vulnerabilities; no user action needed after initial infection | Requires victim to click link/open attachment/enter credentials; spreads via social engineering |\n| Human Interaction | None after initial vector (e.g., unpatched port) | Essential — exploits trust, urgency, or fear |\n| Primary CIA Target | **Availability** (bandwidth consumption, system crash) or **Integrity** (payload modifies files) | **Confidentiality** (credential theft) leading to **Integrity** (unauthorized changes) |\nA wrong answer claiming both require user interaction reveals confusion between malware *delivery* (phishing) and malware *propagation* (worm). The distinction is critical for defence: worms need patching/firewalls; phishing needs awareness training.",
+     "self_check": true
+    },
+    {
+     "q": "A school's IT administrator argues: \"We don't need cyber safety education for students — our firewall and antivirus will block all threats.\" Evaluate this statement using the concept of *attack surface* and the classification of cyber threats covered in this chapter.",
+     "a": "The statement is **false**. Firewalls and antivirus only address *technical* attack vectors (network intrusion, known malware signatures). They cannot prevent: (1) **Social engineering** (phishing, pretexting) — exploits human psychology, not software flaws; (2) **Insider threats** (cyberbullying, credential sharing) — originate from authorised users; (3) **Zero-day exploits** — unknown vulnerabilities with no signature; (4) **Physical threats** (shoulder surfing, device theft). A wrong answer agreeing with the administrator reveals the \"technology-only\" fallacy — cyber safety requires *layered defence*: technical controls + human awareness + policy. The CBSE curriculum explicitly includes social engineering (phishing, identity theft, cyberbullying) as core topics precisely because technical tools cannot mitigate them.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute \"cyber safety micro-lesson\" for Class 9 students that teaches them to recognise *one* specific cyber threat category using a relatable Indian context (e.g., UPI fraud, fake exam result links, gaming scams). Your lesson must include: (a) a hook scenario, (b) the \"red flag\" indicator, (c) the CIA pillar at risk, (d) one actionable defence step.",
+     "a": "**Example Lesson: UPI \"Collect Request\" Scam**\n- **Hook**: \"You're selling your old bicycle on OLX. A buyer messages: 'I'll send ₹5,000 advance via UPI — just approve this collect request for ₹1 to verify your account.'\"\n- **Red Flag**: Legitimate UPI payments *never* require you to approve a \"collect request\" (money going OUT) to receive money. Any request asking for UPI PIN entry is fraudulent.\n- **CIA Pillar**: **Integrity** (unauthorized transaction alters account balance) and **Confidentiality** (UPI PIN exposure enables full account takeover).\n- **Defence Step**: \"Never enter UPI PIN for incoming money. Only scan QR or enter UPI ID to *send* money. Report collect requests from strangers to bank/cybercrime.gov.in.\"\nA poor answer using generic advice (\"don't click links\") without a specific Indian context, red flag, or CIA mapping shows the student cannot translate abstract concepts into teachable, actionable guidance — a key competency for board exam case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

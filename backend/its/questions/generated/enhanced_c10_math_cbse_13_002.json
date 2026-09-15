@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_002",
+   "title": "c10_math_cbse_13_002",
+   "questions": [
+    {
+     "q": "State the formula for the mean of grouped data using the assumed mean method. Define each symbol used.",
+     "a": "The formula is \\(\\bar{x} = A + \\frac{\\sum f_i d_i}{\\sum f_i}\\), where \\(A\\) is the assumed mean (a chosen class mark), \\(x_i\\) are the class marks, \\(d_i = x_i - A\\) are the deviations, and \\(f_i\\) are the frequencies. A wrong answer (e.g., using \\(d_i = A - x_i\\) or omitting the division by \\(\\sum f_i\\)) reveals confusion about the direction of deviation or the weighted average concept.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the assumed mean method give the same result as the direct method? Explain using the relationship between \\(x_i\\), \\(A\\), and \\(d_i\\).",
+     "a": "Because \\(x_i = A + d_i\\), substituting into the direct formula \\(\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}\\) gives \\(\\frac{\\sum f_i (A + d_i)}{\\sum f_i} = \\frac{A\\sum f_i + \\sum f_i d_i}{\\sum f_i} = A + \\frac{\\sum f_i d_i}{\\sum f_i}\\). A wrong answer (e.g., \"it's an approximation\" or \"we ignore the assumed mean\") shows the student does not understand the algebraic equivalence and thinks the method is approximate.",
+     "self_check": true
+    },
+    {
+     "q": "The following frequency distribution shows the daily wages (in ₹) of 30 workers. Find the mean using the assumed mean method with A = 150.\n\n| Daily Wages (₹) | Number of Workers |\n|-----------------|-------------------|\n| 100-120         | 4                 |\n| 120-140         | 6                 |\n| 140-160         | 10                |\n| 160-180         | 7                 |\n| 180-200         | 3                 |",
+     "a": "**Step 1:** Class marks \\(x_i\\): 110, 130, 150, 170, 190.  \n**Step 2:** Choose \\(A = 150\\).  \n**Step 3:** Deviations \\(d_i = x_i - A\\): -40, -20, 0, 20, 40.  \n**Step 4:** \\(f_i d_i\\): 4×(-40) = -160; 6×(-20) = -120; 10×0 = 0; 7×20 = 140; 3×40 = 120.  \n**Step 5:** \\(\\sum f_i = 30\\), \\(\\sum f_i d_i = -160 -120 + 0 + 140 + 120 = -20\\).  \n**Step 6:** Mean = \\(150 + \\frac{-20}{30} = 150 - 0.67 = 149.33\\).  \nAnswer: ₹149.33 (approx).  \nA wrong answer (e.g., using \\(d_i = A - x_i\\) giving +20 and mean 150.67) reveals sign error in deviation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the assumed mean method and the direct method for the data in Diagnostic Question 3. Which method involves smaller numbers? Why might a student still prefer the direct method?",
+     "a": "The assumed mean method uses deviations (-40, -20, 0, 20, 40) which are smaller than class marks (110, 130, 150, 170, 190), so multiplications \\(f_i d_i\\) are smaller. A student might prefer the direct method if they are comfortable with larger numbers and want to avoid the extra step of choosing A and computing deviations, or if they fear sign errors in deviations. A wrong answer (e.g., \"direct method is always easier\") shows lack of analysis of computational load.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated the mean of the data in Diagnostic Question 3 using assumed mean A = 150 but wrote deviations as \\(d_i = A - x_i\\) (i.e., 40, 20, 0, -20, -40). They got \\(\\sum f_i d_i = 20\\) and mean = \\(150 + \\frac{20}{30} = 150.67\\). Is this correct? Identify the error and give the correct mean.",
+     "a": "The student's answer is incorrect. The deviation must be \\(d_i = x_i - A\\), not \\(A - x_i\\). Using \\(A - x_i\\) reverses the sign of every deviation, so \\(\\sum f_i d_i\\) becomes +20 instead of -20. The correct mean is \\(150 + \\frac{-20}{30} = 149.33\\). A wrong answer (e.g., \"both are correct because mean is same\") reveals misunderstanding that the formula requires \\(x_i - A\\); using \\(A - x_i\\) would require subtracting the fraction from A.",
+     "self_check": true
+    },
+    {
+     "q": "Create a frequency distribution with 5 classes where the assumed mean method is clearly more efficient than the direct method. Choose an appropriate assumed mean and explain why it is a good choice.",
+     "a": "Example: Class intervals 1000-1100, 1100-1200, 1200-1300, 1300-1400, 1400-1500 with frequencies 5, 8, 12, 7, 3. Class marks: 1050, 1150, 1250, 1350, 1450. Direct method requires multiplying frequencies by these 4-digit numbers. Choose A = 1250 (middle class mark). Deviations: -200, -100, 0, 100, 200 — much smaller. A good choice of A is a class mark near the centre of the distribution so that deviations are small and positive/negative cancel out, reducing arithmetic. A poor answer (e.g., choosing A = 1050) gives larger deviations and less cancellation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

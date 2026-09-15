@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_007",
+   "title": "c11_cs_cbse_04_007",
+   "questions": [
+    {
+     "q": "What does the assignment statement `x = 10` actually do in Python? Describe the relationship between the name `x` and the value `10` using the correct terminology.",
+     "a": "The statement `x = 10` creates an integer object with value 10 in memory and makes the name `x` a reference (label) pointing to that object. The name `x` is not the value itself — it's a reference to the object. A wrong answer like \"x becomes 10\" or \"x stores 10\" reveals the misconception that variables are containers holding values rather than references to objects. This container metaphor fails when students encounter aliasing (`y = x`) or reassignment to different types.",
+     "self_check": true
+    },
+    {
+     "q": "After executing the following code, what are the values of `a`, `b`, and `c`? Explain why.\n```python\na = 5\nb = a\na = 7\nc = b\n```",
+     "a": "After execution: `a = 7`, `b = 5`, `c = 5`. Step-by-step: `a = 5` makes `a` refer to integer 5. `b = a` makes `b` refer to the SAME object (5). `a = 7` makes `a` refer to a NEW integer object 7 — this does NOT change the object 5 that `b` still references. `c = b` makes `c` refer to the same object as `b` (5). A wrong answer like `b = 7` reveals the misconception that `b = a` creates a permanent link between names rather than both referencing the same immutable object at that moment.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single Python statement that creates three variables `length`, `breadth`, `height` and assigns them the values 10, 20, 30 respectively. Then write a statement that swaps the values of `length` and `breadth` without using a temporary variable.",
+     "a": "Multiple assignment: `length, breadth, height = 10, 20, 30`. Swap: `length, breadth = breadth, length`. This works because the right-hand side is evaluated first as a tuple `(breadth, length)` before assignment. A wrong answer using a temporary variable (`temp = length; length = breadth; breadth = temp`) shows lack of familiarity with Python's tuple unpacking feature. An answer like `length = breadth; breadth = length` (sequential) reveals misunderstanding that assignments execute left-to-right, causing both to end up with the original `breadth` value.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following code and predict the output. Explain the type of each variable after each line.\n```python\nx = 10\ny = 3.5\nz = x + y\nx = \"hello\"\ny = x\nprint(x, y, z, type(x), type(y), type(z))\n```",
+     "a": "Output: `hello hello 13.5 <class 'str'> <class 'str'> <class 'float'>`. Tracing: `x=10` (int), `y=3.5` (float), `z=x+y` → `13.5` (float, implicit conversion). `x=\"hello\"` rebinds `x` to a string object (int 10 is abandoned). `y=x` makes `y` reference the same string object as `x`. `z` remains 13.5 (float) — reassignment of `x` and `y` doesn't affect `z`. A wrong answer showing `z` as int or `y` as float reveals confusion about when type conversion happens and whether variables are linked after assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In Python, `a = b = c = 0` creates three separate integer objects with value 0, each referenced by a different name.\" Is this true or false? Justify your answer with reference to Python's integer interning behavior.",
+     "a": "False. `a = b = c = 0` is chained assignment — it creates ONE integer object 0 and makes all three names reference that same object. Due to Python's integer interning (caching small integers typically -5 to 256), the object 0 is a singleton. Even without interning, chained assignment explicitly binds all names to the single evaluated result. A student claiming \"three separate objects\" confuses chained assignment with multiple assignment (`a, b, c = 0, 0, 0` which also creates one object due to interning but conceptually evaluates three times). The key distinction: chained assignment evaluates the expression ONCE.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a student would need to use chained assignment, multiple assignment, and reassignment with type change in a single program. Write the pseudocode and explain why each assignment pattern is appropriate for that situation.",
+     "a": "Scenario: Railway ticket booking system. Pseudocode:\n```",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

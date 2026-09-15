@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_unknown_kest108",
+ "concepts": [
+  {
+   "id": "kest108.1.1",
+   "title": "Running a Statistical Project: The Full Pipeline",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Running a Statistical Project: The Full Pipeline' refers to.",
+     "a": "This chapter assembles the whole course into a student project: choose a topic, set objectives, design the questionnaire, collect data, organise and present it, apply statistical tools -- percentages, averages, index numbers, correlation -- and end with conclusions and bibliography.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Running a Statistical Project: The Full Pipeline'.",
+     "a": "The project is the course in miniature -- one question carried through every statistical stage to a conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Running a Statistical Project: The Full Pipeline' taught, and from which source text?",
+     "a": "1.1 (source: kest108.txt project sections (steps of a project, choosing a topic or objective, designing questionnaire, conclusion and bibliography))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest108.1.2",
+   "title": "Applying the Tools: Percentages, Averages and Correlation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Applying the Tools: Percentages, Averages and Correlation' refers to.",
+     "a": "On the collected data the student applies the year's toolkit: percentages for composition, mean, median and mode for central tendency, index numbers for change over time and correlation for relationships -- choosing the tool that fits the question rather than using all of them blindly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Applying the Tools: Percentages, Averages and Correlation'.",
+     "a": "Right tool for the right question -- composition asks percentages, centrality asks averages, relationships ask correlation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Applying the Tools: Percentages, Averages and Correlation' taught, and from which source text?",
+     "a": "1.2 (source: kest108.txt application sections (percentage calculations, averages, index numbers, correlation in project analysis, interpretation of results))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest108.1.3",
+   "title": "Organising, Presenting and Interpreting Project Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Organising, Presenting and Interpreting Project Data' refers to.",
+     "a": "Once collected, project data must be classified into a frequency distribution, presented in tables and diagrams, and then interpreted: what the figures mean for the objective, what patterns emerged, and what limitations qualify the conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organising, Presenting and Interpreting Project Data'.",
+     "a": "Collect is only halfway -- classify, display and interpret turn data into a project's findings.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Organising, Presenting and Interpreting Project Data' taught, and from which source text?",
+     "a": "1.3 (source: kest108.txt organisation sections (classification of collected data, tabular and diagrammatic presentation, interpretation of results, limitations of the study))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

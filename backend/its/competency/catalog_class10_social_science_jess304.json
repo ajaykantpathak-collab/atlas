@@ -1,0 +1,436 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 304,
+ "chapter_title": "The Age of Industrialisation: Factories, Workers and Colonies",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess304.txt",
+ "concepts": [
+  {
+   "id": "jess.304.1.1",
+   "title": "Proto-Industrialisation before Factories",
+   "section": "Before the Industrial Revolution",
+   "definition": "Proto-industrialisation was the stage when large-scale production for an international market happened in countryside households with hand tools, not in factories, as merchants supplied rural families with raw material and collected the finished goods.",
+   "formula": "",
+   "key_idea": "Peasants took up manufacturing in spare months because open fields and common lands were closing down, and income from such work supplemented their shrinking farm plots.",
+   "textbook_ref": "jess304.txt lines 69-136",
+   "question_patterns": [
+    "what is meant by proto industrialisation",
+    "why did peasants in the countryside take up proto industrial production",
+    "how did merchants control rural production before factories",
+    "why did part of europe shift production to the countryside",
+    "how was proto industrial production organised",
+    "what is the difference between proto industry and factory industry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the production site",
+     "explain": "Check that goods were made in village homes with hand tools rather than in factories."
+    },
+    {
+     "step": 2,
+     "action": "trace the merchant's role",
+     "explain": "Merchants moved from town to countryside, supplied money and raw material, and bought the finished cloth for export."
+    },
+    {
+     "step": 3,
+     "action": "verify the pull factors",
+     "explain": "Confirm the closing of open fields and the search for supplementary income drew peasant families into manufacturing."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.2",
+   "title": "Cotton Boom, Inventions and the Cotton Mill",
+   "section": "Before the Industrial Revolution",
+   "definition": "Cotton led the industrial era: Britain's raw cotton imports jumped from 2.5 million pounds in 1760 to 22 million pounds in 1787 as inventions in carding, twisting, spinning and rolling raised each worker's output, and Richard Arkwright's cotton mill gathered costly machines under one roof.",
+   "formula": "",
+   "key_idea": "The mill replaced dispersed household cloth production with monitored factory work powered by water and later steam.",
+   "textbook_ref": "jess304.txt lines 137-260",
+   "question_patterns": [
+    "why is cotton called the first symbol of the new era",
+    "how did britain's raw cotton imports change between 1760 and 1787",
+    "which inventions increased the efficacy of the production process",
+    "what did richard arkwright create and why does it matter",
+    "how did the cotton mill change cloth production",
+    "name the steps of cloth production improved by new machines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the boom numbers",
+     "explain": "Cotton imports rose from 2.5 million pounds in 1760 to 22 million pounds by 1787, a near tenfold surge."
+    },
+    {
+     "step": 2,
+     "action": "list the process improvements",
+     "explain": "Inventions speeded carding, twisting, spinning and rolling, giving stronger threads and yarn with more output per worker."
+    },
+    {
+     "step": 3,
+     "action": "verify the mill's significance",
+     "explain": "Arkwright's cotton mill centralised costly machines, supervision and power, replacing dispersed household production."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.3",
+   "title": "Growth of Raw Cotton Imports",
+   "section": "Before the Industrial Revolution",
+   "definition": "The surge in Britain's cotton industry can be measured by the difference between raw cotton imported in an early year and a later year, which shows how quickly the new machines multiplied demand.",
+   "formula": "import_increase = later_import - earlier_import",
+   "key_idea": "Between 1760 and 1787, imports climbed from 2.5 to 22 million pounds, so the added imports capture the scale of the cotton boom.",
+   "textbook_ref": "jess304.txt lines 137-145",
+   "question_patterns": [
+    "calculate the increase in britain's raw cotton imports between two years",
+    "how many extra million pounds of cotton were imported by 1787",
+    "find the rise in imports when the two yearly figures are given",
+    "compute the change in raw cotton imports over a period",
+    "how fast did britain's cotton demand grow in the late eighteenth century"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the earlier import figure",
+     "explain": "Take the later year's import and subtract the earlier year's import to get the increase",
+     "compute": "import_increase = later_import - earlier_import"
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.4",
+   "title": "Slow Adoption of the Steam Engine",
+   "section": "Hand Labour and Steam Power",
+   "definition": "Even the celebrated steam engine spread slowly: James Watt patented his improved engine in 1781, yet at the start of the nineteenth century England had no more than 321 steam engines, with 80 in cotton and nine in wool and the rest in mining, canals and iron works.",
+   "formula": "",
+   "key_idea": "Cheap labour and abundant hand skills kept manufacturers from buying costly machines, so technology's triumph was neither sudden nor universal.",
+   "textbook_ref": "jess304.txt lines 229-260, 261-340",
+   "question_patterns": [
+    "why did manufacturers hesitate to adopt the steam engine",
+    "how many steam engines were there in england at the beginning of the nineteenth century",
+    "where were the earliest steam engines used",
+    "who improved and patented the steam engine and when",
+    "why did hand labour remain preferred over machines",
+    "what does the slow spread of steam power tell us about industrialisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the patent story",
+     "explain": "Watt improved Newcomen's engine, patented it in 1781, and Boulton manufactured the model."
+    },
+    {
+     "step": 2,
+     "action": "count the installed engines",
+     "explain": "Only 321 engines existed in England around 1800: 80 in cotton, 9 in wool, the remainder in mining, canals and iron works."
+    },
+    {
+     "step": 3,
+     "action": "explain the reluctance",
+     "explain": "Machines were costly, needed repair, and offered no big gains where workers were plentiful and wages low."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.5",
+   "title": "Steam Engines outside Cotton and Wool",
+   "section": "Hand Labour and Steam Power",
+   "definition": "Engines not used in the cotton and wool industries went into mining, canal works and iron works, so their number equals the total engines minus those in the two textile trades.",
+   "formula": "other_engines = total_engines - cotton_engines - wool_engines",
+   "key_idea": "Of the 321 early steam engines, subtracting 80 cotton and 9 wool engines shows over two hundred were working in mines, canals and ironworks.",
+   "textbook_ref": "jess304.txt lines 230-240",
+   "question_patterns": [
+    "calculate how many steam engines worked outside the textile industries",
+    "how many engines were used in mining canals and iron works",
+    "find the engines not used in cotton and wool industries",
+    "compute the share of steam engines in non textile sectors",
+    "where were most steam engines deployed in early industrial england"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the textile engines",
+     "explain": "Take the total number of steam engines and subtract those in cotton and those in wool industries",
+     "compute": "other_engines = total_engines - cotton_engines - wool_engines"
+    }
+   ]
+  },
+  {
+   "id": "jess.304.2.1",
+   "title": "Life of Workers and Resistance to Machines",
+   "section": "Life of the Workers",
+   "definition": "Workers streamed into towns on rumours of work, relied on kin and jobbers for jobs, and feared that machines like the Spinning Jenny of 1764 would steal their livelihood, as when colliers' wives marched in 1790 to cut up spinning engines.",
+   "formula": "",
+   "key_idea": "Wages rose over the century, yet work was seasonal and uncertain, and hostility to new machines showed the human cost behind industrial progress.",
+   "textbook_ref": "jess304.txt lines 341-443",
+   "question_patterns": [
+    "why did workers resist the introduction of the spinning jenny",
+    "how did workers find jobs in industrial towns",
+    "what does the 1790 incident of attacking machines show",
+    "who devised the spinning jenny and what did it do",
+    "describe the life of industrial workers in the nineteenth century",
+    "why was employment uncertain for factory workers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the job search",
+     "explain": "Workers depended on friends, relatives and jobbers who promised work in exchange for favours."
+    },
+    {
+     "step": 2,
+     "action": "check the machine fear",
+     "explain": "Hand spinners and woollen workers saw machines like the Spinning Jenny cutting demand for manual labour."
+    },
+    {
+     "step": 3,
+     "action": "verify the protest account",
+     "explain": "Confirm the magistrate's 1790 report of colliers and their wives threatening to cut machines to pieces."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.1",
+   "title": "The Age of Indian Textiles and the Gomastha System",
+   "section": "The Age of Indian Textiles",
+   "definition": "India dominated international textile markets through networks of Armenian and Persian merchants, brokers and supply merchants, until the East India Company tightened control by appointing gomasthas, or paid supervisors, to regulate weavers and cut their ties with other buyers.",
+   "formula": "",
+   "key_idea": "Gomasthas advanced loans to weavers who had to sell only to the company at low prices, and punishments and loss of land turned many weavers into rebels or deserters.",
+   "textbook_ref": "jess304.txt lines 449-566",
+   "question_patterns": [
+    "how did the east india company procure cotton and silk textiles in india",
+    "what was the role of the gomastha",
+    "why did weavers resent the company's system of advances",
+    "describe the network of merchants and brokers in indian textile trade",
+    "how did indian merchants lose control of the textile export trade",
+    "what happened to weavers who tried to refuse company loans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the old trade network",
+     "explain": "Financiers, supply merchants and brokers linked inland weavers to Gulf, Red Sea and Masulipatam ports."
+    },
+    {
+     "step": 2,
+     "action": "verify the gomastha's control",
+     "explain": "Paid company agents advanced cash, monitored weaving, and stopped weavers from selling to rival buyers."
+    },
+    {
+     "step": 3,
+     "action": "check the weaver's plight",
+     "explain": "Loan dependence, price cutting and confiscation of looms drove resistance and migrations."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.2",
+   "title": "Manchester Comes to India and Factories Come Up",
+   "section": "Manchester Comes to India",
+   "definition": "Manchester machine-made cloth flooded Indian markets through the 19th century, crushing handloom exports and pushing Indian merchants to shift capital into factories, where early cotton and jute mills came up in Bombay and Bengal.",
+   "formula": "",
+   "key_idea": "As imports surged, Indian weavers lost distant markets first and local markets next, and merchants' capital found its way into mill industries.",
+   "textbook_ref": "jess304.txt lines 567-800",
+   "question_patterns": [
+    "how did manchester imports affect indian weavers",
+    "why did indian merchants begin to invest in factories",
+    "where did the first cotton and jute mills come up in india",
+    "what changed in the pattern of indian trade in the nineteenth century",
+    "how did the civil war in america help indian cotton exports",
+    "describe the shift from export trade to mill industry in india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the import surge",
+     "explain": "Cheap Manchester cloth captured Indian markets, and tariff policy kept it flowing."
+    },
+    {
+     "step": 2,
+     "action": "follow the merchants' capital",
+     "explain": "Shut out of export trade, merchants moved money into mill ventures in Bombay and Bengal."
+    },
+    {
+     "step": 3,
+     "action": "verify early mill centres",
+     "explain": "Confirm the first mills: cotton in Bombay from the 1850s and jute in Bengal around the same period."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.4.1",
+   "title": "Peculiarities of Indian Industrial Growth and the Jobber",
+   "section": "The Peculiarities of Industrial Growth",
+   "definition": "Indian industrialisation grew unevenly: mill industries concentrated in a few sectors and regions, factory workers were recruited through jobbers who charged for favours, and most workers came from nearby districts and kept village links.",
+   "formula": "",
+   "key_idea": "European managing agencies controlled much of the capital, and Indian entrepreneurs prospered where wartime demand and import gaps opened space.",
+   "textbook_ref": "jess304.txt lines 803-930",
+   "question_patterns": [
+    "what were the peculiarities of indian industrial growth",
+    "who was a jobber and how did he recruit workers",
+    "why is indian industrialisation called uneven",
+    "what was the role of european managing agencies in india",
+    "from where did factory workers in india come",
+    "how did the first world war help indian industries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the sectoral spread",
+     "explain": "Note the concentration in cotton, jute and later iron and steel, with few other industries."
+    },
+    {
+     "step": 2,
+     "action": "verify the recruitment chain",
+     "explain": "Jobbers got trusties from their own villages, often demanding gifts or money for securing jobs."
+    },
+    {
+     "step": 3,
+     "action": "test the wartime boost",
+     "explain": "British mills turned to war needs, letting Indian mills supply home markets and expand during the First World War."
+    }
+   ]
+  },
+  {
+   "id": "jess.304.5.1",
+   "title": "Market for Goods: Advertising and Labels",
+   "section": "Market for Goods",
+   "definition": "Manufacturers sold goods in expanding markets through labels, calendars, newspaper advertisements and images of gods, famous persons and nationalist icons, which built brand recognition among buyers who could not read.",
+   "formula": "",
+   "key_idea": "Figures like Lakshmi on soap packets or images of emperors and nawabs on calendars linked products to respectability, and India-made goods wore the nationalist message of swadeshi.",
+   "textbook_ref": "jess304.txt lines 934-1030",
+   "question_patterns": [
+    "how did manufacturers advertise goods in the age of industrialisation",
+    "why were calendars used to sell products",
+    "what role did images of gods play in advertising",
+    "how did labels help buyers who could not read",
+    "what does the use of nationalist messages in advertisements show",
+    "describe the calendar advertisements of indian mills"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the advertising medium",
+     "explain": "Labels on cloth bundles, street calendars, newspapers and hoardings carried product images to buyers."
+    },
+    {
+     "step": 2,
+     "action": "read the cultural symbols",
+     "explain": "Gods, historic figures and beauties gave products respectability and recognition beyond literacy."
+    },
+    {
+     "step": 3,
+     "action": "verify the swadeshi angle",
+     "explain": "Indian mill cloth used nationalist imagery to urge buyers to choose swadeshi goods over Manchester imports."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess304.txt lines 137-145",
+   "concept": "jess.304.1.3",
+   "question_type": "compute_import_increase",
+   "question_pattern": "Britain imported {earlier_import} million pounds of raw cotton in 1760 and {later_import} million pounds by 1787. Calculate the increase in raw cotton imports in million pounds.",
+   "extracted_variables": {
+    "earlier_import": 2.5,
+    "later_import": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the earlier import figure",
+     "explain": "Take the later year's import and subtract the earlier year's import to get the increase",
+     "compute": "import_increase = later_import - earlier_import"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess304.txt lines 137-145",
+   "concept": "jess.304.1.3",
+   "question_type": "compute_import_increase",
+   "question_pattern": "Raw cotton imports of a country rose from {earlier_import} million pounds in one year to {later_import} million pounds in the next recorded year. Find the increase in imports.",
+   "extracted_variables": {
+    "earlier_import": 4,
+    "later_import": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the earlier import figure",
+     "explain": "Take the later year's import and subtract the earlier year's import to get the increase",
+     "compute": "import_increase = later_import - earlier_import"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess304.txt lines 230-240",
+   "concept": "jess.304.1.5",
+   "question_type": "compute_engine_split",
+   "question_pattern": "At the beginning of the nineteenth century England had {total_engines} steam engines, of which {cotton_engines} served cotton industries and {wool_engines} served wool industries. Calculate how many steam engines worked in mining, canal works and iron works.",
+   "extracted_variables": {
+    "total_engines": 321,
+    "cotton_engines": 80,
+    "wool_engines": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the textile engines",
+     "explain": "Take the total number of steam engines and subtract those in cotton and those in wool industries",
+     "compute": "other_engines = total_engines - cotton_engines - wool_engines"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess304.txt lines 230-240",
+   "concept": "jess.304.1.5",
+   "question_type": "compute_engine_split",
+   "question_pattern": "A survey counts {total_engines} engines in a region, with {cotton_engines} in cotton mills and {wool_engines} in woollen mills. Find the number of engines in other industries.",
+   "extracted_variables": {
+    "total_engines": 240,
+    "cotton_engines": 60,
+    "wool_engines": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the textile engines",
+     "explain": "Take the total number of steam engines and subtract those in cotton and those in wool industries",
+     "compute": "other_engines = total_engines - cotton_engines - wool_engines"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess304.txt lines 1035-1130",
+   "questions": [
+    "Explain what is meant by proto-industrialisation.",
+    "Why did some industrialists in nineteenth century Europe prefer hand labour over machines?",
+    "How did the East India Company procure regular supplies of cotton and silk textiles from Indian weavers?",
+    "Imagine that you have been asked to write a chapter for the history textbook on the Indian cotton mills. What would you say about the jobber's role?",
+    "Why did industrial production in India receive a boost during the First World War?",
+    "How did the cotton industry mark the beginning of the industrial age in Britain?",
+    "Write a note on the life of workers in industrial England.",
+    "What did the Spinning Jenny do and why did workers attack machines?",
+    "How did advertisements help in creating a new consumer culture?"
+   ]
+  }
+ ]
+}

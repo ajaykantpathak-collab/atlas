@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_008",
+   "title": "c10_geo_cbse_03_008",
+   "questions": [
+    {
+     "q": "What are the two main components of a drip irrigation system that distinguish it from sprinkler irrigation?",
+     "a": "The two main distinguishing components are emitters (drippers) that release water drop by drop at the root zone, and lateral pipes that run along crop rows. A wrong answer (e.g., \"sprinkler heads\" or \"pump\") reveals confusion between the two micro-irrigation methods and indicates the student cannot identify the hardware that enables precise water delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Why does drip irrigation reduce water loss due to evaporation compared to flood irrigation?",
+     "a": "Drip irrigation applies water directly to the soil surface or subsurface near plant roots, minimizing the wetted surface area exposed to sun and wind, whereas flood irrigation covers the entire field surface, maximizing evaporation. A wrong answer (e.g., \"because it uses less water\") shows the student confuses the outcome (less water used) with the mechanism (reduced evaporation surface) and does not understand the physical process.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Rajasthan wants to irrigate a 2-hectare wheat field using sprinkler irrigation. The crop water requirement is 5 mm/day. If the sprinkler system has an application efficiency of 75%, calculate the volume of water (in cubic meters) that must be supplied per day.",
+     "a": "Step 1: Convert depth to meters: 5 mm = 0.005 m.\nStep 2: Calculate gross water depth needed accounting for efficiency: 0.005 m / 0.75 = 0.00667 m.\nStep 3: Area = 2 ha = 20,000 m².\nStep 4: Volume = Area × Depth = 20,000 × 0.00667 = 133.4 m³/day.\nA wrong answer (e.g., using 5 mm directly without efficiency correction) reveals the student does not understand that irrigation efficiency accounts for losses and that the supplied volume must be greater than the crop requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of drip and sprinkler irrigation for: (a) closely spaced crops like wheat in the Indo-Gangetic plains, (b) widely spaced orchard crops like mango in the Deccan plateau. Justify with two reasons each.",
+     "a": "(a) Sprinkler is more suitable for wheat because: (i) wheat is closely spaced, so drip's individual emitters per plant are impractical; (ii) the flat plains allow uniform sprinkler coverage. (b) Drip is more suitable for mango because: (i) wide spacing allows one emitter per tree; (ii) the undulating terrain of the Deccan plateau makes sprinkler distribution uneven. A wrong answer (e.g., recommending drip for wheat) shows the student cannot match irrigation method to crop geometry and topography.",
+     "self_check": true
+    },
+    {
+     "q": "The government promotes drip irrigation with 90% subsidy for small farmers in water-scarce regions. Evaluate this policy's long-term sustainability considering groundwater depletion and energy use.",
+     "a": "The policy improves water use efficiency but may not be sustainable if: (i) saved water is used to expand irrigated area (Jevons paradox), negating groundwater savings; (ii) drip systems require pressurized water, increasing electricity/diesel demand, shifting stress to energy resources. A sustainable approach must couple subsidies with water quotas and renewable energy for pumps. A wrong answer (e.g., \"it saves water so it's sustainable\") shows the student evaluates only the immediate water saving, not systemic feedbacks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a micro-irrigation plan for a 1-hectare farm in Tamil Nadu growing cotton (row spacing 90 cm, plant spacing 60 cm) with a borewell yielding 3 m³/hour. Specify: (a) drip or sprinkler, (b) number of laterals, (c) irrigation schedule (hours/day) for peak summer (crop water need 6 mm/day). Assume drip efficiency 90%.",
+     "a": "(a) Drip irrigation (cotton is row crop with wide spacing). (b) 1 ha = 10,000 m². Row spacing 0.9 m → number of rows = 10,000/0.9 ≈ 111 rows. One lateral per row → 111 laterals. (c) Crop water need = 6 mm/day = 0.006 m/day. Gross depth = 0.006/0.9 = 0.00667 m. Volume = 10,000 × 0.00667 = 66.7 m³/day. Borewell yield 3 m³/h → hours = 66.7/3 ≈ 22.2 hours/day. A poor answer (choosing sprinkler, or miscalculating laterals) reveals inability to integrate crop geometry, water source capacity, and efficiency into a practical design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

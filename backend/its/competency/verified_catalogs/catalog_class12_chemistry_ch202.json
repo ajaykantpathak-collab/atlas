@@ -1,0 +1,624 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 202,
+ "chapter_title": "Alcohols, Phenols and Ethers",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech202.txt",
+ "concepts": [
+  {
+   "id": "lech.202.1",
+   "title": "Classification of Alcohols and Phenols",
+   "section": "7.1.1",
+   "definition": "Alcohols carry -OH groups on sp3 carbon while phenols have -OH straight on the ring; both families are sorted by how many -OH groups are present and how substituted that carbon is.",
+   "formula": "R-CH2OH (1 deg), R2-CHOH (2 deg), R3-COH (3 deg)",
+   "key_idea": "Classification varies with whether the -OH is on a primary, secondary, or tertiary carbon.",
+   "textbook_ref": "lech202.txt lines 77-100",
+   "question_patterns": [
+    "classify the following as primary, secondary or tertiary alcohols",
+    "identify if the given alcohol is allylic or benzylic",
+    "how are alcohols categorized based on hydroxyl group count",
+    "is this a monohydric or dihydric alcohol",
+    "determine the degree of the alcohol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the carbon atom",
+     "explain": "Locate the carbon atom directly bonded to the hydroxyl (-OH) group."
+    },
+    {
+     "step": 2,
+     "action": "Count attached carbons",
+     "explain": "Count how many other carbon atoms are directly attached to the hydroxyl-bearing carbon."
+    },
+    {
+     "step": 3,
+     "action": "Assign classification",
+     "explain": "One carbon is primary (1°), two is secondary (2°), and three is tertiary (3°)."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.2",
+   "title": "IUPAC Nomenclature of Alcohols",
+   "section": "7.2",
+   "definition": "A systematic method of naming alcohols by replacing the 'e' of the parent alkane with the suffix 'ol' and indicating the -OH position with the lowest possible locant.",
+   "formula": "Alkan-x-ol",
+   "key_idea": "The parent chain must be indeed the longest carbon chain containing the hydroxyl group.",
+   "textbook_ref": "lech202.txt lines 140-170",
+   "question_patterns": [
+    "give the IUPAC name of the following compound",
+    "write the IUPAC name for",
+    "what is the systematic name of this alcohol",
+    "name the compound according to IUPAC rules",
+    "provide the IUPAC designation for the structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the parent chain",
+     "explain": "Select the longest continuous carbon chain that includes the -OH group."
+    },
+    {
+     "step": 2,
+     "action": "Number the chain",
+     "explain": "Number the carbons starting from the end closer to the -OH group to give it the lowest locant."
+    },
+    {
+     "step": 3,
+     "action": "Identify substituents",
+     "explain": "Name and number any alkyl or functional groups attached to the parent chain."
+    },
+    {
+     "step": 4,
+     "action": "Assemble the name",
+     "explain": "Combine the substituent names (alphabetically) with the parent alkane name, changing the suffix to 'ol'."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.3",
+   "title": "Boiling Point Trends in Alcohols",
+   "section": "7.4.3",
+   "definition": "Alcohols boil well above hydrocarbons of about the same molar mass because their molecules hydrogen-bond to each other.",
+   "formula": "BP proportional to Carbon_Count / Branching",
+   "key_idea": "Hydrogen bonding increases boiling points; branching decreases them by reducing surface area.",
+   "textbook_ref": "lech202.txt lines 240-260",
+   "question_patterns": [
+    "arrange the following in increasing order of boiling points",
+    "why do alcohols have higher boiling points than ethers",
+    "explain the effect of branching on the boiling point of alcohols",
+    "compare the boiling points of ethanol and propane",
+    "which isomer has the highest boiling point"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check molecular mass",
+     "explain": "Compare the number of carbon atoms; more carbons generally mean higher van der Waals forces."
+    },
+    {
+     "step": 2,
+     "action": "Analyze hydrogen bonding",
+     "explain": "Identify the presence of -OH groups which allow for strong intermolecular hydrogen bonds."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate branching",
+     "explain": "For isomers, the more branched the chain, the lower the boiling point due to decreased surface area."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.4",
+   "title": "Acid-Catalysed Hydration of Alkenes",
+   "section": "7.4.1",
+   "definition": "The addition of water to an alkene with an acid catalyst to produce an alcohol, following Markovnikov's rule.",
+   "formula": "C=C + H2O --(H+)--> C(H)-C(OH)",
+   "key_idea": "In Markovnikov addition, the hydroxyl group attaches to the more substituted carbon of the double bond.",
+   "textbook_ref": "lech202.txt lines 215-230",
+   "question_patterns": [
+    "predict the product of acid catalysed hydration of propene",
+    "write the mechanism for the hydration of ethene",
+    "what happens when an alkene reacts with water and acid",
+    "show the synthesis of propan-2-ol from propene",
+    "apply Markovnikov's rule to alkene hydration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Protonation",
+     "explain": "The alkene double bond attacks a hydronium ion to form a stable carbocation."
+    },
+    {
+     "step": 2,
+     "action": "Nucleophilic attack",
+     "explain": "A water molecule attacks the carbocation."
+    },
+    {
+     "step": 3,
+     "action": "Deprotonation",
+     "explain": "A proton is removed from the oxonium ion to yield the final alcohol."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.5",
+   "title": "Hydroboration-Oxidation of Alkenes",
+   "section": "7.4.1",
+   "definition": "A two-step reaction where diborane adds to an alkene followed by oxidation with hydrogen peroxide to yield an anti-Markovnikov alcohol.",
+   "formula": "3(R-CH=CH2) + BH3 -> (R-CH2-CH2)3B --(H2O2/OH-)--> 3(R-CH2-CH2-OH)",
+   "key_idea": "The net result is indeed the addition of water in an anti-Markovnikov fashion.",
+   "textbook_ref": "lech202.txt lines 235-250",
+   "question_patterns": [
+    "explain hydroboration-oxidation with an example",
+    "how to prepare a primary alcohol from an unsymmetrical alkene",
+    "predict the product of propene reacting with BH3 then H2O2/NaOH",
+    "why is hydroboration-oxidation considered anti-Markovnikov",
+    "convert an alkene to an alcohol without carbocation rearrangement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Addition of Borane",
+     "explain": "Boron attaches to the less substituted carbon of the double bond."
+    },
+    {
+     "step": 2,
+     "action": "Oxidation",
+     "explain": "Hydrogen peroxide in basic medium replaces the boron atom with a hydroxyl group."
+    },
+    {
+     "step": 3,
+     "action": "Determine the product",
+     "explain": "The hydroxyl group ends up on the less substituted carbon, giving the anti-Markovnikov alcohol."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.6",
+   "title": "Synthesis of Alcohols using Grignard Reagents",
+   "section": "7.4.1",
+   "definition": "The reaction of an organomagnesium halide with a carbonyl compound (aldehyde or ketone) followed by hydrolysis to form an alcohol.",
+   "formula": "R-MgX + R'COR'' -> R'C(R)(OMgX)R'' --(H2O)--> R'C(R)(OH)R''",
+   "key_idea": "Methanal gives 1° alcohols, other aldehydes give 2° alcohols, and ketones give 3° alcohols.",
+   "textbook_ref": "lech202.txt lines 280-300",
+   "question_patterns": [
+    "how to prepare propan-1-ol using a Grignard reagent",
+    "predict the product of methyl magnesium bromide and propanone",
+    "what alcohol is formed from methanal and ethyl magnesium chloride",
+    "show the reaction of a Grignard reagent with an aldehyde",
+    "synthesize a tertiary alcohol from a ketone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Nucleophilic addition",
+     "explain": "The alkyl group of the Grignard reagent attacks the carbonyl carbon."
+    },
+    {
+     "step": 2,
+     "action": "Adduct formation",
+     "explain": "The oxygen becomes an OMgX group."
+    },
+    {
+     "step": 3,
+     "action": "Hydrolysis",
+     "explain": "Addition of water/acid converts the OMgX group into an OH group."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.7",
+   "title": "Acidity of Phenols",
+   "section": "7.4.4",
+   "definition": "Phenols are acidic because the phenoxide ion they form is stabilised when the negative charge spreads over the benzene ring.",
+   "formula": "C6H5OH + H2O <=> C6H5O- + H3O+",
+   "key_idea": "Phenols are indeed more acidic than alcohols because of resonance stabilization of the phenoxide ion.",
+   "textbook_ref": "lech202.txt lines 350-380",
+   "question_patterns": [
+    "why is phenol more acidic than ethanol",
+    "explain the effect of nitro groups on phenol acidity",
+    "arrange substituted phenols in order of acid strength",
+    "draw resonance structures of phenoxide ion",
+    "compare the acidity of o-nitrophenol and p-nitrophenol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify substituents",
+     "explain": "Check for electron-withdrawing groups (EWG) like -NO2 or electron-donating groups (EDG) like -CH3."
+    },
+    {
+     "step": 2,
+     "action": "Analyze EWG effect",
+     "explain": "EWGs stabilize the negative charge on the phenoxide ion, increasing acidity."
+    },
+    {
+     "step": 3,
+     "action": "Analyze EDG effect",
+     "explain": "EDGs destabilize the phenoxide ion, decreasing acidity."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.8",
+   "title": "Lucas Test for Alcohols",
+   "section": "7.4.4",
+   "definition": "The Lucas test mixes concentrated HCl with anhydrous ZnCl2: a cloudy layer appears at different speeds for primary, secondary or tertiary alcohols, which is how they are told apart.",
+   "formula": "R-OH + HCl --(ZnCl2)--> R-Cl + H2O",
+   "key_idea": "Tertiary alcohols react immediately, secondary after 5 minutes, and primary only on heating.",
+   "textbook_ref": "lech202.txt lines 410-420",
+   "question_patterns": [
+    "how to distinguish between propan-1-ol and propan-2-ol",
+    "what is the Lucas reagent",
+    "describe the observation for a tertiary alcohol in Lucas test",
+    "identify the alcohol class using HCl and ZnCl2",
+    "why do tertiary alcohols react fastest in the Lucas test"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add Lucas reagent",
+     "explain": "Mix the alcohol with concentrated HCl and anhydrous ZnCl2."
+    },
+    {
+     "step": 2,
+     "action": "Observe turbidity",
+     "explain": "Note the time taken for the solution to become cloudy due to alkyl halide formation."
+    },
+    {
+     "step": 3,
+     "action": "Classify the alcohol",
+     "explain": "Immediate turbidity indicates tertiary, within five minutes indicates secondary, and only on heating indicates primary."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.9",
+   "title": "Dehydration of Alcohols to Alkenes",
+   "section": "7.4.4",
+   "definition": "The elimination of a water molecule from an alcohol using a protic acid at high temperatures to form an alkene.",
+   "formula": "R-CH2-CH2-OH --(H2SO4, heat)--> R-CH=CH2 + H2O",
+   "key_idea": "Ease of dehydration follows the order: Tertiary > Secondary > Primary.",
+   "textbook_ref": "lech202.txt lines 430-450",
+   "question_patterns": [
+    "write the mechanism of dehydration of ethanol",
+    "predict the major product of dehydration of butan-2-ol",
+    "what is the order of ease of dehydration of alcohols",
+    "how is ethene prepared from ethanol",
+    "explain the role of acid in alcohol dehydration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Protonation",
+     "explain": "The alcohol oxygen is protonated by the acid catalyst."
+    },
+    {
+     "step": 2,
+     "action": "Carbocation formation",
+     "explain": "A water molecule leaves, forming a carbocation (slowest step)."
+    },
+    {
+     "step": 3,
+     "action": "Elimination",
+     "explain": "A proton is removed from an adjacent carbon to form the double bond."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.10",
+   "title": "Reimer-Tiemann Reaction",
+   "section": "7.4.4",
+   "definition": "The reaction of phenol with chloroform with sodium hydroxide to introduce an aldehyde group at the ortho position.",
+   "formula": "C6H5OH + CHCl3 + NaOH -> o-C6H4(OH)CHO",
+   "key_idea": "Salicylaldehyde is the primary product of this electrophilic substitution.",
+   "textbook_ref": "lech202.txt lines 550-560",
+   "question_patterns": [
+    "write the equation for Reimer-Tiemann reaction",
+    "how is salicylaldehyde prepared from phenol",
+    "what reagents are used in the Reimer-Tiemann reaction",
+    "identify the product of phenol reacting with CHCl3 and NaOH",
+    "explain the synthesis of ortho-hydroxybenzaldehyde"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Intermediate formation",
+     "explain": "Phenol reacts with chloroform and alkali to form a substituted benzal chloride intermediate."
+    },
+    {
+     "step": 2,
+     "action": "Hydrolysis",
+     "explain": "The intermediate is hydrolyzed by the base to form the aldehyde group."
+    },
+    {
+     "step": 3,
+     "action": "Identify the product",
+     "explain": "Salicylaldehyde (o-hydroxybenzaldehyde) is formed as the major product at the ortho position."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.11",
+   "title": "Williamson Ether Synthesis",
+   "section": "7.6.1",
+   "definition": "A laboratory method for preparing both symmetrical and unsymmetrical ethers by reacting an alkyl halide with a sodium alkoxide via an SN2 mechanism.",
+   "formula": "R-X + R'-ONa -> R-O-R' + NaX",
+   "key_idea": "Primary alkyl halides give the best yields; tertiary halides result in elimination (alkenes).",
+   "textbook_ref": "lech202.txt lines 630-650",
+   "question_patterns": [
+    "how to prepare diethyl ether using Williamson synthesis",
+    "predict the product of sodium ethoxide and methyl bromide",
+    "why can't tertiary alkyl halides be used to make ethers in this reaction",
+    "synthesize t-butyl methyl ether correctly",
+    "write the reaction for Williamson synthesis of anisole"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose reactants",
+     "explain": "Select a primary alkyl halide and a sodium alkoxide."
+    },
+    {
+     "step": 2,
+     "action": "Nucleophilic attack",
+     "explain": "The alkoxide ion attacks the alkyl halide carbon, displacing the halide ion."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the ether product",
+     "explain": "The desired ether R-O-R' is formed along with sodium halide (NaX) as a byproduct."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.12",
+   "title": "Cleavage of Ethers by Hydrogen Halides",
+   "section": "7.6.3",
+   "definition": "The chemical breakdown of ethers using concentrated HI or HBr, where the C-O bond is broken to form an alcohol and an alkyl halide.",
+   "formula": "R-O-R' + HX -> R-X + R'-OH",
+   "key_idea": "With mixed ethers, the halide typically forms with the smaller alkyl group via SN2, unless a tertiary group is present (SN1).",
+   "textbook_ref": "lech202.txt lines 700-730",
+   "question_patterns": [
+    "predict the products of reaction of methoxyethane with HI",
+    "what happens when anisole reacts with HI",
+    "explain the mechanism of ether cleavage with HI",
+    "identify products when t-butyl methyl ether reacts with HI",
+    "which bond breaks in alkyl aryl ethers with HX"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Protonation",
+     "explain": "The ether oxygen is protonated by the hydrogen halide."
+    },
+    {
+     "step": 2,
+     "action": "Nucleophilic attack",
+     "explain": "The halide ion attacks the less hindered carbon (SN2) or the carbon forming a stable carbocation (SN1)."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products",
+     "explain": "An alcohol and an alkyl halide are formed; the halide bonds to the smaller alkyl group in mixed ethers."
+    }
+   ]
+  },
+  {
+   "id": "lech.202.13",
+   "title": "Molecular Mass of Alkanols",
+   "section": "7.2",
+   "definition": "Calculating the total molecular weight of a saturated aliphatic monohydric alcohol based on its carbon count.",
+   "formula": "mass = (12 * n) + (1 * (2*n + 2)) + 16",
+   "key_idea": "The general formula for alkanols is CnH2n+1OH.",
+   "textbook_ref": "lech202.txt Table 7.1",
+   "question_patterns": [
+    "calculate the molecular mass of propanol",
+    "what is the molar mass of an alcohol with 4 carbons",
+    "find the weight of one mole of ethanol",
+    "determine the molecular mass of pentan-1-ol",
+    "what is the result in this molecular mass of alkanols problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine carbon count",
+     "explain": "Identify 'n' from the name (e.g., propanol, n=3).",
+     "compute": "n = carbon_count"
+    },
+    {
+     "step": 2,
+     "action": "Calculate hydrogen count",
+     "explain": "Using the formula 2n + 2.",
+     "compute": "h = 2 * n + 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum atomic masses",
+     "explain": "Add masses of C, H, and O (16).",
+     "compute": "mass = (12 * n) + (1 * h) + 16"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Molecular Mass of Alkanols, compute the result for carbon_count = 3.",
+     "solution": "Step 1: Determine carbon count: n = carbon_count = 3.0 Step 2: Calculate hydrogen count: h = 2 * n + 2 = 8.0 Step 3: Sum atomic masses: mass = (12 * n) + (1 * h) + 16 = 60.0 Final result: 60.0",
+     "answer": "60.0"
+    },
+    {
+     "question": "Using Molecular Mass of Alkanols, compute the result for carbon_count = 4.",
+     "solution": "Step 1: Determine carbon count: n = carbon_count = 4.0 Step 2: Calculate hydrogen count: h = 2 * n + 2 = 10.0 Step 3: Sum atomic masses: mass = (12 * n) + (1 * h) + 16 = 74.0 Final result: 74.0",
+     "answer": "74.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex7.1",
+   "source_ref": "lech202.txt lines 185-195",
+   "concept": "lech.202.2",
+   "question_type": "naming",
+   "question_pattern": "Give the IUPAC name of {structure}",
+   "extracted_variables": {
+    "structure": "CH3-CH(CH3)-CH(OH)-CH3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify parent chain",
+     "explain": "Longest chain has 4 carbons (Butane)."
+    },
+    {
+     "step": 2,
+     "action": "Numbering",
+     "explain": "Numbering from right gives -OH at C2."
+    },
+    {
+     "step": 3,
+     "action": "Name",
+     "explain": "3-Methylbutan-2-ol."
+    }
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "lech202.txt lines 265-275",
+   "concept": "lech.202.3",
+   "question_type": "ordering",
+   "question_pattern": "Arrange in increasing order of boiling points: {list}",
+   "extracted_variables": {
+    "list": "Pentan-1-ol, n-butane, pentanal, ethoxyethane"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compare functional groups",
+     "explain": "Alcohols have H-bonding (highest), hydrocarbons have weak van der Waals (lowest)."
+    },
+    {
+     "step": 2,
+     "action": "Order",
+     "explain": "n-Butane < Ethoxyethane < Pentanal < Pentan-1-ol."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lech202.txt Table 7.1",
+   "concept": "lech.202.13",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute molecular mass of alkanols step by step",
+   "extracted_variables": {
+    "carbon_count": "value of carbon_count"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine carbon count",
+     "explain": "Identify 'n' from the name (e.g., propanol, n=3).",
+     "compute": "n = carbon_count"
+    },
+    {
+     "step": 2,
+     "action": "Calculate hydrogen count",
+     "explain": "Using the formula 2n + 2.",
+     "compute": "h = 2 * n + 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum atomic masses",
+     "explain": "Add masses of C, H, and O (16).",
+     "compute": "mass = (12 * n) + (1 * h) + 16"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "lech202.txt Table 7.1",
+   "concept": "lech.202.13",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute molecular mass of alkanols step by step",
+   "extracted_variables": {
+    "carbon_count": "value of carbon_count"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine carbon count",
+     "explain": "Identify 'n' from the name (e.g., propanol, n=3).",
+     "compute": "n = carbon_count"
+    },
+    {
+     "step": 2,
+     "action": "Calculate hydrogen count",
+     "explain": "Using the formula 2n + 2.",
+     "compute": "h = 2 * n + 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum atomic masses",
+     "explain": "Add masses of C, H, and O (16).",
+     "compute": "mass = (12 * n) + (1 * h) + 16"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "7.1",
+   "source_ref": "lech202.txt lines 820-830",
+   "questions": [
+    "Write IUPAC names of: (CH3)3CCH2OH",
+    "Write IUPAC names of: CH3CH(OH)CH2CH(OH)CH(CH3)2"
+   ]
+  },
+  {
+   "id": "7.4",
+   "source_ref": "lech202.txt lines 850-855",
+   "questions": [
+    "Explain why propanol has higher boiling point than that of the hydrocarbon, butane?"
+   ]
+  },
+  {
+   "id": "7.11",
+   "source_ref": "lech202.txt lines 870-875",
+   "questions": [
+    "Write the mechanism of hydration of ethene to yield ethanol."
+   ]
+  },
+  {
+   "id": "7.18",
+   "source_ref": "lech202.txt lines 900-910",
+   "questions": [
+    "Explain Kolbe’s reaction with an example.",
+    "Explain Reimer-Tiemann reaction with an example."
+   ]
+  },
+  {
+   "id": "7.24",
+   "source_ref": "lech202.txt lines 930-940",
+   "questions": [
+    "Write the names of reagents and equations for the preparation of 2-Methoxy-2-methylpropane by Williamson’s synthesis."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

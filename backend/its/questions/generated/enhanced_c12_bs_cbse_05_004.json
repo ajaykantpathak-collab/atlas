@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_004",
+   "title": "c12_bs_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define functional structure and state any two advantages of it as per NCERT.",
+     "a": "Functional structure groups similar jobs into separate departments based on specialised functions (e.g., production, marketing, finance), each reporting to a coordinating head. Two advantages: (a) occupational specialisation leading to efficiency, and (b) minimal duplication of effort resulting in economies of scale. A wrong answer that says \"functional structure groups by products\" reveals confusion with divisional structure. An answer listing \"quick decision-making\" as an advantage reveals confusion with divisional structure's flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why functional structure leads to \"functional empires\" and how this harms organisational objectives.",
+     "a": "Functional empires arise because functional heads prioritise their department's goals (e.g., production minimising costs) over overall organisational objectives (e.g., customer satisfaction requiring flexible production). This happens due to clear vertical authority lines within functions but weak lateral integration across functions. A wrong answer that says \"functional empires mean the department becomes too large\" misses the behavioural aspect — it's about goal displacement, not size. An answer blaming \"poor communication\" without linking to structural separation of functions shows incomplete understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A textile manufacturing company has separate departments for Spinning, Weaving, Dyeing, Marketing, Finance, and HR. The Marketing department promises a client a customised fabric blend with a 2-week delivery, but the Production departments (Spinning, Weaving, Dyeing) follow standardised processes and refuse to disrupt their schedule. Identify the specific disadvantage of functional structure illustrated here and explain the structural cause.",
+     "a": "The disadvantage is \"conflict of interests\" (NCERT: \"A conflict of interests may arise when the interests of two or more departments are not compatible\"). Structural cause: Marketing is evaluated on sales/revenue (customer-facing), while Production departments are evaluated on efficiency/cost adherence (internal-facing). The functional structure creates separate goal hierarchies with no integrating mechanism at the operational level. A wrong answer citing \"coordination problems\" is partially correct but less precise — coordination problems are about information flow; conflict of interests is about goal misalignment. An answer blaming \"poor management\" ignores the structural inevitability of this conflict in functional designs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of functional structure for: (i) a single-product steel plant with 5,000 employees, and (ii) a diversified FMCG company with 50 product lines across 10 countries. Justify using NCERT criteria.",
+     "a": "(i) Highly suitable: large size, homogeneous activity (steel), high specialisation needed in production/quality control — matches NCERT suitability \"size large, diversified activities, high degree of specialisation\" (here 'diversified activities' means variety of functions, not products). (ii) Unsuitable: multiple product lines and geographies require product/geographic focus, fast cross-functional decisions, and profit accountability per product — functional structure causes coordination delays, conflicts, and inflexibility. A wrong answer saying both are suitable because they are large misses the \"nature of activities\" criterion. An answer recommending divisional for the steel plant because it's large ignores that single-product firms benefit from functional depth.",
+     "self_check": true
+    },
+    {
+     "q": "\"Functional structure ensures that different functions get due attention.\" Critically evaluate this advantage in the context of a startup that just crossed 100 employees and is considering formalising its structure.",
+     "a": "For a 100-employee startup, this \"advantage\" can become a disadvantage. Functional structure forces premature departmentalisation, creating silos when the startup needs fluid cross-functional collaboration (e.g., engineers talking directly to sales). \"Due attention\" to each function may mean hiring functional heads who protect turf, slowing the rapid iteration a startup needs. NCERT suitability says functional structure fits \"large size\" and \"high degree of specialisation\" — a 100-person startup typically has neither. A wrong answer uncritically endorsing functional structure for any growing company ignores the contingency perspective. An answer suggesting \"start with divisional\" also misses the point — startups often need a simple flat structure first.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical organisation chart for a hospital using functional structure. Label departments and show reporting lines. Then annotate two places where a specific disadvantage (from NCERT list) would likely manifest.",
+     "a": "Chart: Medical Superintendent (top) → Departments: Clinical (Medicine, Surgery, Pediatrics), Diagnostic (Lab, Radiology), Support (Pharmacy, Nursing, Housekeeping), Administrative (HR, Finance, Purchase, Maintenance). All department heads report to Medical Superintendent. Annotations: (1) Between Clinical and Diagnostic: \"Coordination problem\" — doctors order tests but Lab/Radiology prioritise routine workflow, causing delays (NCERT: \"problems in coordination as information has to be exchanged across functionally differentiated departments\"). (2) Between Nursing and Housekeeping: \"Conflict of interests\" — Nursing wants immediate cleaning for infection control; Housekeeping follows fixed schedules for efficiency (NCERT: \"conflict of interests may arise when interests of two or more departments are not compatible\"). A poor answer draws a divisional chart (by patient type: Inpatient, Outpatient, Emergency) or misses the annotation requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

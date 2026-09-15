@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_11",
+   "title": "c8_bio_ch1_11",
+   "questions": [
+    {
+     "q": "What type of microorganism is yeast, and to which biological group does it belong?",
+     "a": "Yeast is a single-celled microorganism belonging to the fungus kingdom. A wrong answer usually confuses yeast with bacteria or plants; confusing it with bacteria reveals a misunderstanding of cellular complexity, as yeast is a eukaryote with a well-defined nucleus, whereas bacteria are prokaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a baker add sugar to the flour and yeast mixture when preparing bread dough?",
+     "a": "Sugar acts as food (a source of carbohydrates) for the yeast, which it breaks down during fermentation to release energy, carbon dioxide, and alcohol. A student who answers that sugar is only added for sweetness misses the biological function of yeast as a living organism that requires a nutrient substrate to carry out cellular respiration and produce the gas needed to make dough rise.",
+     "self_check": true
+    },
+    {
+     "q": "If a dough mixture with active yeast is kept inside a refrigerator at 4°C, it fails to rise significantly compared to dough kept in a warm kitchen. Using your knowledge of cellular activity, explain why this happens.",
+     "a": "Steps: 1) Identify that yeast is a living organism whose metabolic processes are driven by enzymes. 2) Recall that enzyme activity is temperature-dependent and drops significantly at low temperatures. 3) Apply this to the refrigerator environment: at 4°C, yeast cells become dormant or their metabolic rate slows drastically. 4) Conclude that little to no carbon dioxide is produced, so the dough does not rise. A wrong answer claiming that yeast freezes and dies completely shows a misconception about the difference between dormancy at low temperatures and cell death.",
+     "self_check": true
+    },
+    {
+     "q": "Compare aerobic respiration in human muscle cells during heavy exercise with anaerobic fermentation in yeast cells. What is one major similarity and one major difference in their products?",
+     "a": "Both processes extract energy from glucose without needing oxygen (or begin with glycolysis), but human muscle cells produce lactic acid as a byproduct during anaerobic exertion, whereas yeast produces ethanol (alcohol) and carbon dioxide gas. A student who states that humans produce carbon dioxide during anaerobic muscle fatigue confuses animal anaerobic respiration with plant or fungal alcoholic fermentation.",
+     "self_check": true
+    },
+    {
+     "q": "The claim is partially incorrect for finished, baked bread because, although alcohol is produced during fermentation, the high temperatures of the baking oven evaporate the alcohol and kill the yeast cells. A student who believes the bread remains alcoholic fails to account for the effect of thermal energy during baking, which volatilizes and removes the ethanol from the loaf.",
+     "a": "The claim is partially correct for the fermentation stage but incorrect for the finished product. During fermentation, yeast does produce both CO2 (which makes the dough rise) and alcohol (ethanol) as by-products of anaerobic respiration. However, during baking at 200+ degrees Celsius, the alcohol evaporates (boiling point 78 degrees Celsius) and the yeast is killed by the heat. The finished bread contains negligible alcohol. A wrong answer that says \"the claim is fully correct\" reveals the student does not understand that baking changes the chemical composition of the dough.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using easily available kitchen ingredients (such as yeast, sugar, warm water, a plastic bottle, and a balloon) to prove that carbon dioxide gas is produced during yeast fermentation.",
+     "a": "A valid design should include dissolving sugar and active dry yeast in warm water inside a bottle, stretching an uninflated balloon over the mouth of the bottle, and placing it in a warm spot. Over time, the student should observe the balloon inflating as carbon dioxide gas fills it. A poor answer lacks a control, fails to mention temperature conditions, or does not connect the balloon's inflation to the gas released by yeast metabolism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

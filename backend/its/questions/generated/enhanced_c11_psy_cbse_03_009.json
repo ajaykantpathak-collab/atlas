@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_009",
+   "title": "c11_psy_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define \"sex\" and \"gender\" as used in psychology. Give one example of a sex difference and one example of a gender difference.",
+     "a": "Sex refers to the biological and physiological characteristics that define males and females (e.g., chromosomal pattern XX/XY, reproductive anatomy, hormonal profiles). Gender refers to the socially constructed roles, behaviours, expressions, and identities that a given culture considers appropriate for men and women. Example of sex difference: only females can menstruate and give birth. Example of gender difference: in many Indian families, girls are expected to help with domestic chores while boys are encouraged to play outdoors. A wrong answer (e.g., \"sex and gender are the same thing\" or \"gender is determined by chromosomes\") reveals the student conflates biological determinism with social construction, a fundamental category error that prevents understanding socialisation.",
+     "self_check": true
+    },
+    {
+     "q": "A 5-year-old girl says, \"I'm a girl, so I can't be a pilot when I grow up.\" Using the concept of gender typing, explain how she might have reached this conclusion even if no adult explicitly told her \"girls can't be pilots.\"",
+     "a": "Gender typing is the process by which children actively organise information along gender lines once they have achieved gender constancy. The girl has likely observed: (1) media portrayals showing mostly male pilots; (2) absence of female pilots in her environment; (3) subtle cues like pilot toys marketed to boys; (4) adults' assumptions (\"Look at the pilot, he's flying the plane\"). She internally constructs a rule \"pilot = male\" and applies it to herself. A wrong answer focusing only on direct instruction (\"her father told her\") misses the active, self-socialisation aspect central to cognitive theories of gender development and underestimates the child's agency in internalising stereotypes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity for Class 6 students to help them recognize gender stereotypes in Indian television advertisements. Specify the steps, materials needed, and the specific gender socialisation concept each step targets.",
+     "a": "Activity: \"Ad Detective\". Steps: 1. Show 4 ads (2 mins): a detergent ad with a mother, a bike ad with a father, a fairness cream ad with a girl, a bank loan ad with a man. 2. Silent observation (1 min): students note who does what, colours used, voiceovers. 3. Group analysis (4 mins): each group gets one ad; they answer: \"What gender is shown? What activity? What trait is valued (strength, beauty, care)?\" 4. Whole-class sharing (3 mins): teacher records patterns on board (women=domestic/beauty; men=public/authority). Concepts targeted: Step 1-2 = media as agent of socialisation; Step 3 = gender stereotypes in symbolic representation; Step 4 = gender typing and internalisation of cultural standards. A poor answer would just list \"watch ads and discuss\" without linking steps to specific socialisation mechanisms (modelling, symbolic annihilation, reinforcement).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of parents versus peers in gender socialisation during middle childhood (ages 7-11). How do their mechanisms of influence differ, and why might they sometimes conflict?",
+     "a": "Parents operate primarily through direct instruction, differential reinforcement (rewarding gender-typical play), and provision of gendered resources (toys, clothes) – this is \"dependence training\" for girls, \"independence training\" for boys (as per NCERT). Peers operate through peer policing (\"That's a girl's game\"), modelling, and exclusion – enforcing conformity through social acceptance/rejection. Conflict arises when peer norms diverge from parental norms (e.g., parents encourage doll play for nurturance, peers mock it as \"babyish\"). In middle childhood, peer influence escalates as children spend more time in school; peers become the primary enforcers of gender boundaries, especially for boys. A wrong answer treating both agents as identical (\"both teach gender roles\") fails to analyse the shift from vertical (adult-child) to horizontal (child-child) transmission and the different psychological mechanisms (authority vs. social acceptance).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Research shows males are more aggressive than females, therefore aggression is a biologically determined male trait.\" Use evidence from gender socialisation research to support your evaluation.",
+     "a": "The statement commits the biological determinism fallacy. While meta-analyses show a moderate sex difference in physical aggression (d ≈ 0.50), gender socialisation research demonstrates: (1) Parents rough-house more with infant boys; (2) Boys' aggressive acts are more often ignored or laughed at, girls' are punished; (3) Media models male aggression as heroic; (4) Peer groups reinforce aggression in boys as status-enhancing. Cross-cultural variation (e.g., Margaret Mead's Arapesh vs. Mundugumor) shows aggression levels change with cultural norms. The difference is not \"purely biological\" – biology may set a range, but socialisation determines the expression. A wrong answer accepting the statement uncritically ignores the interactionist perspective central to developmental psychology and the NCERT's emphasis on \"interaction of heredity and environment.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional diary entry of a 12-year-old Indian adolescent (specify gender, urban/rural, family type) that illustrates at least three distinct gender socialisation influences (family, school, media, peers, religion) operating simultaneously. The entry must show the adolescent's awareness of conflicting messages.",
+     "a": "A strong entry would be from a 12-year-old urban girl in a nuclear family: \"Diary, today Maa said I must learn to make round rotis before high school because 'a girl's first kitchen is her exam.' But in science class, Mr. Sharma picked Rahul to lead the robotics project – 'boys have better spatial skills.' Then I saw the new iPhone ad: the boy codes the app, the girl takes selfies. Even my best friend Priya said, 'Don't be so loud, girls don't shout.' I want to be a pilot, but everyone – Maa, teacher, TV, Priya – seems to agree the sky isn't for me. Why does being a girl come with a rulebook I never signed?\" This illustrates family (direct instruction), school (teacher expectation/stereotype threat), media (symbolic representation), peers (policing) – and the adolescent's critical awareness. A poor entry would list influences without showing internal conflict or the simultaneous operation of multiple agents.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "catalog": "catalog_class6_science_ch112.json",
+ "concepts": [
+  {
+   "id": "fesc.12.1.1",
+   "title": "Electric Cell Terminals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the two terminals of an electric cell.",
+     "a": "Positive terminal (metal cap) and negative terminal (metal disc).",
+     "self_check": true
+    },
+    {
+     "q": "Where does current flow from and to in a cell?",
+     "a": "Conventionally from the positive terminal through the circuit back to the negative terminal.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a cell stop working after long use?",
+     "a": "The chemicals inside get used up and can no longer push current.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.2.1",
+   "title": "Bulb Structure and Filament",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the parts of an electric bulb.",
+     "a": "Glass bulb, thin filament, and two terminals (metal case at the side and metal tip at the base).",
+     "self_check": true
+    },
+    {
+     "q": "What is the filament of a bulb?",
+     "a": "A very thin wire (usually of tungsten) that glows when current passes through it.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a bulb fuse?",
+     "a": "The filament burns out (breaks) after long use or too much current, stopping the circuit.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.3.1",
+   "title": "Electric Circuit Path",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electric circuit?",
+     "a": "The complete path from one terminal of a cell through wires and a bulb back to the other terminal.",
+     "self_check": true
+    },
+    {
+     "q": "When does the bulb in a circuit glow?",
+     "a": "When the circuit is closed (complete) - current flows through the filament.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when the circuit breaks anywhere?",
+     "a": "Current stops and the bulb goes off - an open circuit.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.4.1",
+   "title": "Electric Switch Function",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electric switch?",
+     "a": "A device that opens (stops current) or closes (allows current) a circuit conveniently.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of switches at home.",
+     "a": "Light switches on walls and the push button of a torch.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a switch useful?",
+     "a": "It turns devices on and off safely without disconnecting wires.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.5.1",
+   "title": "Conductors and Insulators",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are conductors and insulators of electricity?",
+     "a": "Conductors let current pass (metals, graphite); insulators block it (plastic, rubber, wood).",
+     "self_check": true
+    },
+    {
+     "q": "Name the material used for electric wires and its cover.",
+     "a": "Copper wire (conductor) covered with plastic (insulator).",
+     "self_check": true
+    },
+    {
+     "q": "Why should we never touch a switch with wet hands?",
+     "a": "Water (with dissolved salts) conducts; current can pass through the wet skin and shock us.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

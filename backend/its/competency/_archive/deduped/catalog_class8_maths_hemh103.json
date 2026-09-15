@@ -1,0 +1,200 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Understanding Quadrilaterals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.103.3.1",
+   "title": "Classification of Polygons",
+   "section": "3.2",
+   "definition": "A polygon is a closed figure made of line segments meeting only at endpoints; polygons are classified by their number of sides - triangle, quadrilateral, pentagon, hexagon - and by shape regularity, with regular polygons having all sides and angles equal.",
+   "formula": "-",
+   "key_idea": "Count the sides to name the polygon; equal sides and angles make it regular.",
+   "textbook_ref": "hemh103.txt section 3.2 (classification of polygons)",
+   "question_patterns": [
+    "classify the given polygons by their number of sides",
+    "what is a regular polygon - define with examples",
+    "is a rhombus a regular quadrilateral - justify",
+    "name a polygon with eight sides",
+    "distinguish convex and concave polygons",
+    "which polygon has all sides and angles equal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the sides",
+     "explain": "Match the side count to the polygon's name."},
+    {"step": 2, "action": "test regularity",
+     "explain": "Check whether all sides and all angles are equal."},
+    {"step": 3, "action": "note the convexity",
+     "explain": "Convex polygons keep every interior angle under 180 degrees."}
+   ]
+  },
+  {
+   "id": "hemh.103.3.2",
+   "title": "Sum of the Measures of Exterior Angles of a Polygon",
+   "section": "3.2",
+   "definition": "Walking around any polygon and turning at every vertex makes one full revolution, so the exterior angles of every polygon total 360 degrees no matter how many sides it has; each exterior angle of a regular polygon is 360 divided by the number of sides.",
+   "formula": "exterior_angle = 360 / n_sides",
+   "key_idea": "One full turn of 360 degrees: exterior angles of any polygon always total 360.",
+   "textbook_ref": "hemh103.txt section 3.2 (sum of the measures of the exterior angles of a polygon)",
+   "question_patterns": [
+    "find the measure of each exterior angle of a regular hexagon",
+    "what is the sum of exterior angles of any polygon",
+    "how many sides does a regular polygon have if each exterior angle is 40 degrees",
+    "calculate each exterior angle of a regular polygon of nine sides",
+    "can an exterior angle of a regular polygon be 22 degrees - justify",
+    "use the exterior angle sum to find the number of sides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide 360 by the side count",
+     "explain": "Each exterior angle of a regular polygon gets an equal share of 360 degrees.",
+     "compute": "exterior_angle = 360 / n_sides"}
+   ]
+  },
+  {
+   "id": "hemh.103.3.3",
+   "title": "Sum of Interior Angles of a Polygon",
+   "section": "3.2",
+   "definition": "Diagonals from one vertex split an n-sided polygon into n minus 2 triangles, so the interior angles of any polygon sum to (n minus 2) times 180 degrees - 360 for quadrilaterals, 540 for pentagons and so on.",
+   "formula": "angle_sum = (n_sides - 2) * 180",
+   "key_idea": "Triangles inside carry the sum: n minus 2 of them times 180 degrees each.",
+   "textbook_ref": "hemh103.txt section 3.2 (sum of the measures of the interior angles of a polygon)",
+   "question_patterns": [
+    "find the sum of interior angles of a heptagon",
+    "how many triangles are formed by diagonals of an octagon from one vertex",
+    "calculate the angle sum of a polygon with ten sides",
+    "what is the sum of the interior angles of a pentagon",
+    "find the missing angle of the given polygon",
+    "how does the angle sum formula follow from triangles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the triangles",
+     "explain": "The polygon splits into n minus 2 triangles.",
+     "compute": "triangles = n_sides - 2"},
+    {"step": 2, "action": "multiply by 180",
+     "explain": "Each triangle contributes 180 degrees.",
+     "compute": "angle_sum = triangles * 180"}
+   ]
+  },
+  {
+   "id": "hemh.103.3.4",
+   "title": "Parallelogram Properties",
+   "section": "3.3",
+   "definition": "A parallelogram has parallel opposite sides and shows matched properties: opposite sides equal, opposite angles equal, and diagonals bisect each other; adjacent angles are supplementary, and a rectangle, rhombus and square are special parallelograms.",
+   "formula": "-",
+   "key_idea": "Parallel sides force equal opposites and bisecting diagonals - the parallelogram package.",
+   "textbook_ref": "hemh103.txt section 3.3 (parallelogram and its properties)",
+   "question_patterns": [
+    "state the properties of a parallelogram",
+    "can a quadrilateral be a parallelogram with only one pair of equal sides - justify",
+    "two adjacent angles of a parallelogram are equal - what type is it",
+    "why do the diagonals of a parallelogram bisect each other",
+    "the perimeter of a parallelogram is given with one side - find the other",
+    "how does a rhombus differ from a rectangle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the parallel pairs",
+     "explain": "Opposite sides must run parallel - the defining property."},
+    {"step": 2, "action": "check the matching parts",
+     "explain": "Opposite sides and opposite angles come out equal; diagonals cut each other in half."},
+    {"step": 3, "action": "place the special cases",
+     "explain": "Right angles give a rectangle, equal sides a rhombus, both a square."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh103.txt exterior angle section examples",
+   "concept": "hemh.103.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find the measure of each exterior angle of a regular polygon of {n_sides} sides.",
+   "extracted_variables": {
+    "n_sides": "number of sides of the regular polygon"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide 360 by the number of sides",
+     "explain": "The exterior angles share 360 degrees equally in a regular polygon.",
+     "compute": "exterior_angle = 360 / n_sides"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh103.txt exterior angle practice",
+   "concept": "hemh.103.3.2",
+   "question_type": "compute",
+   "question_pattern": "Each exterior angle of a regular polygon measures {exterior_angle} degrees. Find the number of sides.",
+   "extracted_variables": {
+    "exterior_angle": "measure of one exterior angle in degrees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide 360 by the exterior angle",
+     "explain": "The total turn 360 split by one angle gives the side count.",
+     "compute": "n_sides = 360 / exterior_angle"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh103.txt interior angle sum section",
+   "concept": "hemh.103.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the interior angles of a polygon with {n_sides} sides.",
+   "extracted_variables": {
+    "n_sides": "number of sides"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the triangles",
+     "explain": "Diagonals from one vertex form n minus 2 triangles.",
+     "compute": "triangles = n_sides - 2"},
+    {"step": 2, "action": "multiply by 180",
+     "explain": "Total angle sum is triangles times 180 degrees.",
+     "compute": "angle_sum = triangles * 180"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh103.txt angle sum practice",
+   "concept": "hemh.103.3.3",
+   "question_type": "compute",
+   "question_pattern": "Use the angle sum formula to find the total of interior angles for an {n_sides}-sided polygon.",
+   "extracted_variables": {
+    "n_sides": "number of sides of the polygon"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the triangles",
+     "explain": "Subtract 2 from the side count.",
+     "compute": "triangles = n_sides - 2"},
+    {"step": 2, "action": "multiply by 180",
+     "explain": "Multiply by the triangle angle sum.",
+     "compute": "angle_sum = triangles * 180"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hemh103.txt EXERCISE 3.1-3.2",
+   "questions": [
+     "Find the measure of each exterior angle of a regular polygon of 9 sides.",
+     "How many sides does a regular polygon have if each exterior angle measures 45 degrees?",
+     "Find the angle sum of a polygon with 11 sides.",
+     "What is a regular polygon? State its properties."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hemh103.txt EXERCISE 3.3",
+   "questions": [
+     "State whether True or False: all rhombuses are parallelograms.",
+     "Two adjacent angles of a parallelogram have equal measure - find the angles.",
+     "The angles of a quadrilateral are in ratio 3:5:9:13 - find all the angles."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 106,
+  "chapter_title": "Silk Road",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb106.1.1",
+      "title": "The Journey into Tibet: Road, Companions and Car",
+      "section": "1",
+      "definition": "Nick Middleton's travelogue follows him hitching a ride with a Swiss couple across the Tibetan plateau toward Mount Kailash, with the capable Tsetan driving and Daniel accompanying part of the way. The route runs through dusty roads, hairpin descents and high passes -- a modern crossing of an ancient trade corridor.",
+      "formula": "",
+      "key_idea": "Old road, new wheels -- the Silk Road chapter rides the ancient route in a battered four-wheel drive.",
+      "textbook_ref": "kehb106.txt opening sections (tsetan driver, daniel, swiss couple, road to mount kailash, tibetan plateau journey)",
+      "question_patterns": [
+        "who were the author's companions on the silk road journey",
+        "in class 11 silk road: describe the road from the town towards mount kailash",
+        "what role did tsetan play in the journey",
+        "why was the author travelling to mount kailash",
+        "describe the landscape of the tibetan plateau in the chapter",
+        "what difficulties appeared on the road at the start of the journey"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "assemble the party",
+          "explain": "The narrator travels with Tsetan the driver, Daniel for part of the route, and two Swiss passengers bound like him for pilgrimage."
+        },
+        {
+          "step": 2,
+          "action": "follow the road",
+          "explain": "The track climbs through barren stretches, winding hairpins and long slopes toward the great passes."
+        },
+        {
+          "step": 3,
+          "action": "read the landscape",
+          "explain": "Vast skies, nomad tents, gazelle-like wildlife and cairns of rocks render the plateau's austere beauty."
+        }
+      ]
+    },
+    {
+      "id": "kehb106.1.2",
+      "title": "Obstacles: Salty Lakes, Snow and Passes",
+      "section": "1",
+      "definition": "The way tests travellers with obstacles: a salt lake whose shallows may trap the car, passes blocked by fresh snow where Tsetan takes detours, and altitudes that make every breath rationed. Each obstacle is met with practical mountain sense -- probing tyres, tyre chains, butter-tea stops and prayer-flag hopes.",
+      "formula": "",
+      "key_idea": "Mountain travel is problem-solving at altitude -- one obstacle at a time, with skill and patience.",
+      "textbook_ref": "kehb106.txt obstacle sections (salt flats, lake, snow on pass, detour, altitude breathlessness, cairn of rocks and prayer flags)",
+      "question_patterns": [
+        "what problems did the salt lake pose for the journey",
+        "in class 11 silk road: how did tsetan deal with the snow on the pass",
+        "why did the author suffer from breathlessness at high altitude",
+        "describe the cairns of stones seen on the way",
+        "what precautions were taken while crossing the difficult stretches",
+        "how did the weather affect the journey through the passes"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "cross the salt flats",
+          "explain": "Tsetan tests the crusted edge of the briny lake before easing the car across the treacherous salt flats."
+        },
+        {
+          "step": 2,
+          "action": "route around snow",
+          "explain": "Fresh snowfall on the direct pass forces a detour over another pass where prayer flags flutter on cairns."
+        },
+        {
+          "step": 3,
+          "action": "manage the altitude",
+          "explain": "Thin air slows every movement; sips of water and rests mark the body's negotiation with height."
+        }
+      ]
+    },
+    {
+      "id": "kehb106.1.3",
+      "title": "Hor and Darchen: Encounters and Destinations",
+      "section": "1",
+      "definition": "The author waits at Hor, a grimy lakeside settlement on the shore of the holy Mansarovar, unimpressed by its garbage and rubble, then reaches Darchen, the village below Kailash, where he recovers from a cold and awaits the kailash kora season. Human encounters -- a doctor's clinic, a fellow pilgrim -- texture the loneliness of the high plateau.",
+      "formula": "",
+      "key_idea": "Between holy lake and holy mountain lie the unglamorous towns -- Hor and Darchen, where journey becomes waiting.",
+      "textbook_ref": "kehb106.txt later sections (hor settlement, mansarovar lake, darchen village, cold and medical help, kora around kailash, tibetan pilgrims)",
+      "question_patterns": [
+        "how does the author describe hor in the silk road",
+        "in class 11 silk road: what is the significance of lake mansarovar",
+        "why did the author stay at darchen and what did he do there",
+        "describe the author's illness and how he was treated",
+        "what is the kora and why do pilgrims undertake it",
+        "contrast hor and darchen as places in the journey"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note Hor's reality",
+          "explain": "Despite its holy lakefront, Hor appears unkempt and wind-scoured -- a lesson that sanctity and squalor coexist."
+        },
+        {
+          "step": 2,
+          "action": "settle at Darchen",
+          "explain": "The base village beneath Kailash hosts the narrator's recovery and his wait for companions for the circumambulation."
+        },
+        {
+          "step": 3,
+          "action": "watch the pilgrims",
+          "explain": "Devout Tibetans prostrating along the kora display the road's older purpose -- pilgrimage -- beside the modern traveller's tourism."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb106.txt obstacle sections (salt lake and pass)",
+      "concept": "kehb106.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Reconstruct the sequence of obstacles the party overcame between the town and the high passes.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "first obstacle",
+          "explain": "The salty lake crossing, negotiated by testing the salt crust before driving over."
+        },
+        {
+          "step": 2,
+          "action": "second obstacle",
+          "explain": "Snow-blocked pass, answered by a detour to another pass cairned with prayer flags."
+        },
+        {
+          "step": 3,
+          "action": "constant companion",
+          "explain": "Throughout, the altitude taxes breathing and movement, requiring slow pace and frequent stops."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb106.txt later sections (Hor and Darchen)",
+      "concept": "kehb106.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Compare the author's impressions of Hor and Darchen as stopping places on the journey.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "take Hor first",
+          "explain": "Hor disappoints -- littered, bleak, windswept -- despite its sacred lakefront."
+        },
+        {
+          "step": 2,
+          "action": "take Darchen next",
+          "explain": "Darchen proves restful and practical: lodging, a clinic for his cold, and pilgrims bound for the kora."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The two towns bookend the plateau's mix of grandeur and grime that Middleton records without romance."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the landscape the author crosses on the way to Mount Kailash.",
+        "What obstacles did Tsetan handle on the road and how?",
+        "Why is the chapter called 'Silk Road'? Connect it with the historic route.",
+        "Give the author's impressions of Hor and explain their fairness.",
+        "What do the pilgrims' practices reveal about the region's culture?",
+        "How does the author cope with high altitude during the journey?"
+      ]
+    }
+  ]
+}

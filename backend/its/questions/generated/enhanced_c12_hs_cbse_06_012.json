@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_012",
+   "title": "c12_hs_cbse_06_012",
+   "questions": [
+    {
+     "q": "Define \"Application of Communication and Extension in Home Science Programmes\" in one sentence, naming at least three distinct components that must be integrated.",
+     "a": "Correct answer: It is the systematic integration of communication models (e.g., SMCRE), extension principles (participatory, need-based), teaching methods (individual/group/mass), audio-visual aids, community appraisal tools (PRA/RRA), and programme planning–monitoring–evaluation cycles to design, implement, and assess context-specific Home Science interventions.  \nA wrong answer that lists only \"teaching methods\" or \"audio-visual aids\" reveals the student sees application as a single tool rather than a multi-component system. This misconception leads to programmes that rely solely on lectures or posters without needs assessment or evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a home science programme that uses only the lecture method and printed pamphlets to promote exclusive breastfeeding in a low-literacy rural community is likely to fail, referencing at least two extension principles and one communication model element.",
+     "a": "Correct answer: The programme violates the extension principles of \"participation\" and \"need-based approach\" because it does not involve mothers in identifying barriers (e.g., cultural myths, work constraints) and uses a one-way channel (lecture) that ignores the Receiver's literacy level and cultural context in the SMCRE model. The Message is not encoded in local dialect or oral tradition, and Feedback is absent.  \nA wrong answer that blames only \"illiteracy\" misses the systemic design failure: the student thinks changing the medium (e.g., adding pictures) fixes it, without realizing the entire top-down approach contradicts participatory extension philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a Home Science extension programme on \"Safe Drinking Water Practices\" for a flood-prone village. Using the programme planning steps, list the first four concrete actions you would take, specifying the tool/method for each.",
+     "a": "Correct answer:  \n1. **Situation analysis** – Conduct PRA (transect walk, seasonal calendar, focus groups) to map water sources, contamination points, and local purification practices.  \n2. **Objective setting** – Formulate SMART objectives with community: e.g., \"100% households use chlorination/boiling within 3 months.\"  \n3. **Method selection** – Choose demonstration of chlorination at tube wells + folk theatre on water-borne diseases (group method + local art).  \n4. **Resource planning** – Identify local volunteers (ASHAs, SHG members) as extension workers; procure chlorine tablets and pictorial flipcharts.  \nA wrong answer that starts with \"prepare pamphlets\" or \"arrange a meeting\" shows the student skips participatory diagnosis and jumps to implementation — a classic top-down error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the monitoring indicators for a nutrition education programme (Process vs. Outcome vs. Impact) and explain why tracking only \"number of sessions held\" is insufficient for decision-making.",
+     "a": "Correct answer:  \n- **Process indicator**: Number of cooking demonstrations conducted, attendance of target mothers.  \n- **Outcome indicator**: % of mothers correctly preparing the demonstrated recipe at home; % adopting promoted food combinations.  \n- **Impact indicator**: Reduction in moderate/severe malnutrition rates in children 6–24 months after 12 months.  \nTracking only sessions held (process) tells you *activity* but not *change*; you cannot know if behaviours shifted or nutrition improved. Decision-making requires outcome/impact data to modify content, methods, or targeting.  \nA wrong answer that equates \"sessions held\" with \"success\" reveals confusion between output and outcome — a frequent board exam trap where students list activities as achievements.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For a Home Science programme on menstrual hygiene management in schools, the best communication strategy is to show a standardized video to all girls aged 10–16 because it ensures uniform message delivery.\" Use concepts of audience segmentation, two-way communication, and cultural sensitivity.",
+     "a": "Correct answer: The statement is flawed.  \n- **Audience segmentation**: Girls aged 10–16 have vastly different cognitive maturity, menstrual status, and information needs; a single video cannot address both menarche preparation and ongoing management.  \n- **Two-way communication**: Video is one-way; it offers no space for questions, myth clarification, or emotional support — critical for a taboo topic.  \n- **Cultural sensitivity**: A standardized video may use language, visuals, or practices (e.g., disposal methods) irrelevant or offensive to local norms.  \nBetter strategy: Segmented interactive sessions (peer educators for older girls, games for younger), with anonymous question boxes and locally validated materials.  \nA wrong answer that defends the video for \"consistency\" shows the student prioritizes administrative convenience over communication effectiveness and learner-centeredness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, low-cost audio-visual aid for teaching \"Food Group Diversity\" to semi-literate women in a tribal community, using only locally available materials. Describe the aid, how it embodies the \"experiential learning\" principle of ECCE, and how you would use it in a group session.",
+     "a": "Expected answer criteria:  \n- **Aid description**: e.g., a \"Food Group Mat\" made from coloured cloth patches (green for vegetables, yellow for cereals, red for pulses, white for milk, brown for meat/egg) sewn onto a jute sack, with real food samples (dried leaves, grains, lentils) attached in small pouches.  \n- **Experiential learning link**: Women handle, sort, and match real foods to colour patches — engaging touch, sight, and prior knowledge; they construct the \"balanced plate\" themselves rather than memorizing a chart.  \n- **Group session use**: Facilitator asks each woman to pick foods from a central basket and place on the mat; group discusses \"Which colour is missing from your plate yesterday?\" — triggering reflection and peer learning.  \nA poor answer that suggests a printed poster or PowerPoint shows the student cannot translate \"low-cost, local, experiential\" into practice — a gap between theory and field reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

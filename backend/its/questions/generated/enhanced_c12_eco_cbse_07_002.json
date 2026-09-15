@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_002",
+   "title": "c12_eco_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define microeconomics and macroeconomics in one sentence each, using the terms \"individual economic agents\" and \"aggregate measures\".",
+     "a": "Microeconomics studies the behaviour of individual economic agents (households, firms) in specific markets to determine prices and quantities. Macroeconomics studies the economy as a whole by focusing on aggregate measures such as total output, employment, and the aggregate price level. A wrong answer that swaps the definitions or omits \"individual\" vs \"aggregate\" reveals the student has memorised labels without grasping the unit of analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why understanding individual markets (microeconomics) is not sufficient to explain economy-wide phenomena like unemployment or inflation. Use the concept of \"fallacy of composition\" in your answer.",
+     "a": "Even if every individual market clears (demand equals supply), the economy as a whole can still have unemployed resources because aggregate demand may fall short of aggregate supply at the economy-wide level. The fallacy of composition means what is true for a part (one market) is not necessarily true for the whole (all markets together). A student who says \"if each market clears, the whole economy clears\" has missed the core distinction and the possibility of coordination failures.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as a microeconomic or macroeconomic issue: (a) A farmer in Punjab decides to switch from wheat to cotton. (b) The Reserve Bank of India raises the repo rate. (c) The price of smartphones falls due to new technology. (d) India's unemployment rate rises to 8%. (e) A firm hires 50 new workers. (f) The government announces a fiscal stimulus of ₹10 lakh crore.",
+     "a": "(a) Micro — individual producer's decision. (b) Macro — central bank policy affects aggregate interest rates and money supply. (c) Micro — price determination in a single market. (d) Macro — economy-wide unemployment rate. (e) Micro — individual firm's hiring decision. (f) Macro — government budgetary policy impacting aggregate demand. A wrong classification (e.g., calling (b) micro) shows the student cannot distinguish policy instruments targeting aggregates from decisions of single agents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a microeconomist and a macroeconomist would analyse the problem of rising food prices. What different questions would they ask, and what different tools would they use?",
+     "a": "A microeconomist would study the supply and demand for specific food items (onions, wheat), shifts in their curves, and price elasticity. A macroeconomist would examine the aggregate price level (CPI/WPI), money supply, aggregate demand, and supply shocks affecting the whole economy. The micro tool is partial equilibrium analysis of a single market; the macro tool is aggregate demand-aggregate supply (AD-AS) model. A student who gives the same answer for both has not grasped the difference in analytical framework.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Macroeconomics is just the sum of microeconomics; if we understand every individual market perfectly, we automatically understand the whole economy.\" Provide a concrete counterexample.",
+     "a": "The statement is false due to the fallacy of composition. Counterexample: Paradox of thrift. If every household individually decides to save more (micro-rational), aggregate demand falls, leading to lower total output and income, so total savings may not rise (macro outcome). Another example: a single firm cutting wages reduces its costs, but if all firms cut wages, aggregate demand collapses. A student who agrees with the statement has not understood emergent macro properties.",
+     "self_check": true
+    },
+    {
+     "q": "Create a simple numerical example with 3 firms showing how each firm's rational decision to reduce output when its own price falls can lead to a fall in aggregate output that is larger than the sum of individual reductions, illustrating a macroeconomic externality.",
+     "a": "Firm A, B, C each produce 100 units at price ₹10. Each faces demand: Q = 200 - 10P. If each believes its own price cut won't affect others, they might cut output to 80 when price falls to ₹9. But if all three cut output simultaneously, aggregate income falls, shifting each firm's demand left further (since others' incomes are lower). New demand: Q = 150 - 10P. At P=9, each sells only 60. Aggregate output falls from 300 to 180, not 240. A poor answer misses the interdependence and feedback loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

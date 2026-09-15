@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_001",
+   "title": "c11_ip_cbse_01_001",
+   "questions": [
+    {
+     "q": "A student writes: \"A computer is a machine that thinks like a human.\" Why is this statement scientifically incorrect for Class 11 Informatics Practices? Explain in two sentences using the textbook definition.",
+     "a": "The statement is incorrect because a computer does not \"think\" — it executes pre-written instructions (programs) without understanding, awareness, or intent. The textbook defines a computer as an electronic device that *accepts data, processes it as per given instructions, and generates output*, emphasizing programmed operation, not autonomous cognition. A wrong answer reveals the anthropomorphic misconception that computers possess intelligence or consciousness, confusing AI marketing terms with the fundamental deterministic nature of stored-program computers.",
+     "self_check": true
+    },
+    {
+     "q": "Riya says, \"My smartphone is a computer, but my digital wristwatch is not because the watch cannot install apps.\" Using the IPO cycle and the definition of a computer system, evaluate Riya's claim and explain whether the wristwatch qualifies as a computer.",
+     "a": "Riya's claim is incorrect. A digital wristwatch *is* a computer because it accepts input (button presses, sensor data), processes it (calculates time, counts steps, monitors heart rate), and produces output (display, vibration alerts) — satisfying the IPO cycle. The inability to install *additional* apps does not disqualify it; the watch runs firmware (permanent software) that directs its processing. A wrong answer reveals the misconception that \"computer\" requires user-installable applications or a general-purpose OS, rather than the core criterion: programmable electronic data processing.",
+     "self_check": true
+    },
+    {
+     "q": "A school library uses a barcode scanner to issue books. The scanner beeps, the screen shows the book title, and the database updates the student's record. Identify the input, process, and output components in this scenario, and name one hardware device performing each role.",
+     "a": "Input: barcode scanner (captures book ID); Process: library management software running on the server/PC (looks up title, updates database); Output: monitor (displays title) and speaker (beep confirmation). A wrong answer — such as calling the scanner \"output\" or the database \"input\" — reveals confusion about data flow direction: input devices *capture* data into the system, the CPU/software *transforms* it, and output devices *present* results to the user.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the characteristics \"speed\" and \"diligence\" of a computer. A student argues: \"If a computer is fast, it is automatically diligent because it finishes tasks quickly.\" Analyse this argument and explain why speed and diligence are distinct characteristics using a concrete example involving a 10,000-row spreadsheet calculation.",
+     "a": "Speed refers to the rate of processing (e.g., millions of instructions per second); diligence refers to the ability to perform repetitive tasks *without fatigue or error* over long periods. A computer can be fast but not diligent if it overheats and crashes after 1,000 rows; a diligent computer completes all 10,000 rows accurately even if slower. The student's argument confuses *throughput* with *reliability under sustained load* — two independent engineering qualities. A wrong answer shows failure to distinguish performance metrics from behavioural guarantees.",
+     "self_check": true
+    },
+    {
+     "q": "A startup must choose between two laptops for data-analysis work: Laptop A has a faster CPU but 8 GB RAM; Laptop B has a slower CPU but 32 GB RAM. The dataset is 20 GB. Evaluate which laptop is more suitable and justify your answer using the concepts of primary memory, secondary storage, and the IPO cycle.",
+     "a": "Laptop B is more suitable. During the *process* stage, the CPU needs the dataset in primary memory (RAM) for fast access. With only 8 GB RAM, Laptop A must constantly swap data between RAM and secondary storage (SSD/HDD), drastically slowing the IPO cycle despite a faster CPU. Laptop B's 32 GB RAM holds the entire 20 GB dataset, enabling continuous high-speed processing. A wrong answer focusing only on CPU clock speed ignores the memory bottleneck — a classic \"CPU-bound vs memory-bound\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real-world scenario (different from food delivery, library, or spreadsheet) that clearly demonstrates all three stages of the IPO cycle and involves at least one input device, the CPU, and one output device. Describe the scenario in four sentences, labelling each IPO stage explicitly.",
+     "a": "Scenario: A farmer uses a soil-moisture sensor (input device) that sends readings to a microcontroller (CPU) which compares the value to a threshold; if dry, the microcontroller activates a relay to turn on the irrigation pump (output device). Input: sensor captures analog moisture level and converts to digital data. Process: CPU executes comparison logic. Output: relay drives pump motor. A poor answer omits explicit stage labels, uses only human-operated devices (e.g., keyboard/monitor), or fails to show automated data flow — indicating the student cannot abstract the IPO model beyond familiar PC examples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

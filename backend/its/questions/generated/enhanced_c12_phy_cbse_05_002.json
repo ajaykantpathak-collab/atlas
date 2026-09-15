@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_002",
+   "title": "c12_phy_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the SI unit of magnetic dipole moment and write its dimensional formula.",
+     "a": "SI unit: A·m² (ampere meter squared) or J/T (joule per tesla). Dimensional formula: [𝐿²𝐴]. A wrong answer like “tesla” or “A/m” reveals confusion between magnetic moment and magnetic field or magnetisation.",
+     "self_check": true
+    },
+    {
+     "q": "A bar magnet of magnetic moment 0.5 A·m² is placed in a uniform magnetic field of 0.2 T. The magnet’s axis makes an angle of 30° with the field. Calculate the torque on the magnet. Explain why the torque is maximum at 90° and zero at 0°.",
+     "a": "𝜏 = 𝑚𝐵 sin𝜃 = (0.5)(0.2) sin30° = 0.1 × 0.5 = 0.05 N·m. Torque is maximum at 90° because sin90° = 1 (lever arm is maximum), zero at 0° because sin0° = 0 (moment aligned with field, no turning effect). If a student uses cos𝜃 or forgets sin𝜃, they confuse torque with potential energy.",
+     "self_check": true
+    },
+    {
+     "q": "A closely wound solenoid of 500 turns, cross-sectional area 2.0 × 10⁻⁴ m², carries a current of 1.5 A. Calculate its magnetic moment. If this solenoid is suspended freely in a uniform horizontal magnetic field of 0.3 T, what is the maximum torque it can experience?",
+     "a": "Step 1: 𝑚 = 𝑁𝐼𝐴 = 500 × 1.5 × 2.0×10⁻⁴ = 0.15 A·m².  \nStep 2: Maximum torque 𝜏_max = 𝑚𝐵 = 0.15 × 0.3 = 0.045 N·m.  \nA wrong answer like 0.15 N·m (forgetting 𝐵) or using 𝑚 = 𝐼𝐴 without 𝑁 reveals misunderstanding of solenoid moment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the potential energy of a magnetic dipole in a uniform field at orientations 𝜃 = 0°, 90°, 180°. Which orientation is stable equilibrium? Which is unstable? Justify using the expression 𝑈 = −𝐦·𝐁.",
+     "a": "𝑈(0°) = −𝑚𝐵 (minimum, stable), 𝑈(90°) = 0 (reference), 𝑈(180°) = +𝑚𝐵 (maximum, unstable). Stable equilibrium at 𝜃 = 0° because any small displacement produces a restoring torque. Unstable at 180° because displacement increases misalignment. If a student says 180° is stable, they confuse “aligned” with “anti-aligned.”",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: “The magnetic moment of a bar magnet points from its south pole to its north pole.” Evaluate this statement. Is it correct? If not, correct it and explain the convention.",
+     "a": "Incorrect. By convention, magnetic dipole moment 𝐦 points from south pole to north pole **inside** the magnet, i.e., from geographic south to geographic north when freely suspended. Externally, field lines emerge from north and enter south. The student likely confused the direction of 𝐁 (north to south outside) with 𝐦.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a compass needle, a battery, and a coil of wire to demonstrate that a current loop behaves as a magnetic dipole. Specify how you would determine the direction of its magnetic moment.",
+     "a": "Wind insulated copper wire (~20 turns) on a cardboard tube. Connect to a 1.5 V cell via a switch. Place a compass at the center of the coil’s axis. Close the switch; compass deflects. Use right-hand rule: curl fingers in current direction, thumb gives 𝐦 direction. Reverse current to see compass flip. A poor answer omits the right-hand rule or uses a straight wire instead of a loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

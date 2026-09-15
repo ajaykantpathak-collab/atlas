@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy303",
+  "concepts": [
+    {
+      "id": "kegy.303.1.1",
+      "questions": [
+        {"q": "Latitude is measured in degrees up to how many from the equator? (number)", "a": "90"},
+        {"q": "Longitude is measured up to how many degrees from the Prime Meridian? (number)", "a": "180"},
+        {"q": "At which observatory does the Prime Meridian pass? (one word)", "a": "Greenwich"},
+        {"q": "How many parallels and meridians together form the earth's grid? (one word)", "a": "grid"},
+        {"q": "Is latitude the angular distance north-south or east-west of the equator? (two words)", "a": "north or south"},
+        {"q": "Latitude runs up to 90 degrees; longitude runs up to how many? (number)", "a": "180"},
+        {"q": "Which line of zero latitude is the starting point for measuring north and south? (one word)", "a": "equator"}
+      ]
+    },
+    {
+      "id": "kegy.303.2.1",
+      "questions": [
+        {"q": "One degree of longitude equals how many minutes of time? (number)", "a": "4"},
+        {"q": "How many degrees does the earth rotate in 24 hours? (number)", "a": "360"},
+        {"q": "What is the time difference in minutes between two places 30 degrees of longitude apart? (number)", "a": "120"},
+        {"q": "Places east of Greenwich are ahead of or behind Greenwich time? (one word)", "a": "ahead"},
+        {"q": "Near which meridian does the International Date Line run? (short form)", "a": "180 degrees"},
+        {"q": "Two places are 45 degrees of longitude apart. How many minutes of time separate them? (number)", "a": "180"},
+        {"q": "Crossing the International Date Line changes the what? (one word)", "a": "date"}
+      ]
+    },
+    {
+      "id": "kegy.303.3.1",
+      "questions": [
+        {"q": "How many figures does a full grid reference use on a map? (number)", "a": "6"},
+        {"q": "Grid references give eastings and which other readings? (one word)", "a": "northings"},
+        {"q": "The grid divides the globe into zones of time and what? (one word)", "a": "position"},
+        {"q": "Eastings are counted from which side of the map sheet? (one word)", "a": "west"},
+        {"q": "Northings are counted from which edge of the map sheet? (one word)", "a": "south"},
+        {"q": "Which reading comes first in a grid reference: eastings or northings? (one word)", "a": "eastings"},
+        {"q": "Does the grid link the spherical coordinate system to practical map reading? (yes or no)", "a": "yes"}
+      ]
+    }
+  ]
+}

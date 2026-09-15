@@ -1,0 +1,557 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 9,
+ "chapter_title": "From the Rulers to the Ruled: Types of Governments",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees109.txt",
+ "concepts": [
+  {
+   "id": "c7ss.9.1",
+   "title": "Meaning of Government and Governance",
+   "section": "Understanding Government",
+   "definition": "Government is the institution or group of people that administers a state and makes rules for its citizens, while governance is the process of exercising authority, making decisions, and implementing policies for the welfare of society.",
+   "formula": "",
+   "key_idea": "Government is the body that rules; governance is how that body exercises power and delivers services to citizens.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define the term government and explain its basic functions",
+    "what is the difference between government and governance",
+    "why does every society need a government",
+    "list the three main organs of government and their functions",
+    "how does governance affect the daily life of citizens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define government",
+     "explain": "Government is the organisation that makes laws, enforces them, and administers a country or state."
+    },
+    {
+     "step": 2,
+     "action": "distinguish governance from government",
+     "explain": "Governance refers to the manner in which power is exercised in managing a country's economic and social resources for development."
+    },
+    {
+     "step": 3,
+     "action": "identify the three organs",
+     "explain": "The legislature makes laws, the executive implements laws, and the judiciary interprets and protects laws."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a government and why is it necessary?",
+     "solution": "A government is the system that rules a state by making and enforcing laws. It is necessary to maintain order, provide public services, protect citizens, and resolve conflicts.",
+     "answer": "A government is the institution that administers a state by making, enforcing and interpreting laws; it is necessary for order, security and welfare."
+    },
+    {
+     "question": "Distinguish between government and governance.",
+     "solution": "Government is the body of people and institutions that rule; governance is the process and quality of how that rule is exercised, including transparency, accountability and participation.",
+     "answer": "Government is the ruler; governance is the act and quality of ruling."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define government and state its three main functions.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the difference between government and governance with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List the three organs of government and describe one function of each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.2",
+   "title": "Monarchy as a Form of Government",
+   "section": "Types of Government",
+   "definition": "Monarchy is a form of government in which a single ruler, usually a king or queen, holds supreme authority that is often hereditary and may be absolute or constitutional.",
+   "formula": "",
+   "key_idea": "In a monarchy, power is concentrated in one hereditary ruler whose authority may be unlimited (absolute) or limited by a constitution (constitutional monarchy).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define monarchy and list its main features",
+    "how is a monarch chosen in a hereditary monarchy",
+    "differentiate between absolute monarchy and constitutional monarchy",
+    "name two countries that still have a monarchy as their system of government",
+    "what are the advantages and disadvantages of monarchy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define monarchy",
+     "explain": "Monarchy is rule by a single hereditary head of state such as a king or queen."
+    },
+    {
+     "step": 2,
+     "action": "classify monarchy types",
+     "explain": "In an absolute monarchy the monarch has unrestricted power; in a constitutional monarchy the monarch's powers are limited by a written constitution."
+    },
+    {
+     "step": 3,
+     "action": "give examples",
+     "explain": "Saudi Arabia is an example of an absolute monarchy, while the United Kingdom is an example of a constitutional monarchy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a monarchy? Give one example of an absolute monarchy.",
+     "solution": "A monarchy is a government headed by a hereditary ruler. In an absolute monarchy the ruler holds unrestricted power. Saudi Arabia is an example of an absolute monarchy.",
+     "answer": "Monarchy is hereditary rule by a king or queen; Saudi Arabia is an absolute monarchy."
+    },
+    {
+     "question": "How does a constitutional monarchy differ from an absolute monarchy?",
+     "solution": "In a constitutional monarchy the monarch's powers are limited by a constitution and elected representatives govern, whereas in an absolute monarchy the monarch has unrestricted authority.",
+     "answer": "Constitutional monarchy limits the monarch by a constitution; absolute monarchy gives the monarch unrestricted power."
+    },
+    {
+     "question": "State two features common to all monarchies.",
+     "solution": "All monarchies have a single hereditary head of state and the position is held for life or until abdication.",
+     "answer": "Single hereditary ruler holding office for life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define monarchy and state two of its features.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Differentiate between absolute and constitutional monarchy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one country each that follows an absolute monarchy and a constitutional monarchy.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.3",
+   "title": "Democracy and Its Core Principles",
+   "section": "Types of Government",
+   "definition": "Democracy is a form of government in which power is held by the people, either directly or through elected representatives, based on principles of equality, freedom, participation and rule of law.",
+   "formula": "",
+   "key_idea": "Democracy means rule by the people, where citizens elect representatives and enjoy equal political rights protected by law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define democracy and explain its main features",
+    "what is the difference between direct democracy and representative democracy",
+    "why is democracy considered a better form of government",
+    "list the key principles on which democracy is based",
+    "how do elections ensure that the people hold power in a democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define democracy",
+     "explain": "Democracy is government of the people, by the people and for the people, where citizens elect their representatives."
+    },
+    {
+     "step": 2,
+     "action": "identify core principles",
+     "explain": "Democracy rests on equality, freedom, popular participation, accountability and the rule of law."
+    },
+    {
+     "step": 3,
+     "action": "distinguish direct and representative democracy",
+     "explain": "In direct democracy citizens vote on decisions themselves; in representative democracy citizens elect representatives to take decisions on their behalf."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is democracy? State any two principles on which it is based.",
+     "solution": "Democracy is a government in which people elect representatives to rule on their behalf. It is based on the principles of equality and freedom.",
+     "answer": "Democracy is rule by elected representatives; it is based on equality and freedom."
+    },
+    {
+     "question": "Differentiate between direct and representative democracy.",
+     "solution": "In direct democracy all citizens participate in decision-making directly, while in representative democracy citizens elect representatives who make decisions for them. India is an example of representative democracy.",
+     "answer": "Direct democracy involves citizens directly; representative democracy uses elected representatives."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define democracy and state its two main features.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the difference between direct and representative democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is democracy considered a better form of government? Give two reasons.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.4",
+   "title": "Dictatorship and Authoritarianism",
+   "section": "Types of Government",
+   "definition": "Dictatorship is a form of government in which a single person or a small group holds absolute power without effective constitutional limits, often acquired by force and maintained without the consent of the people.",
+   "formula": "",
+   "key_idea": "In a dictatorship, power is concentrated in one ruler or group that is not accountable to the people and does not allow free elections or opposition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define dictatorship and list its features",
+    "how does a dictator usually come to power",
+    "what is authoritarianism and how does it differ from democracy",
+    "why are fundamental rights often restricted in a dictatorship",
+    "compare dictatorship and democracy in terms of freedom of citizens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define dictatorship",
+     "explain": "Dictatorship is rule by a single person or small group that holds power without legal limits or popular consent."
+    },
+    {
+     "step": 2,
+     "action": "explain how power is acquired",
+     "explain": "Dictators usually seize power by force or military control rather than through free elections."
+    },
+    {
+     "step": 3,
+     "action": "contrast with democracy",
+     "explain": "Unlike democracy, dictatorship denies citizens political freedom, free elections and the right to oppose the government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a dictatorship? Mention any two features.",
+     "solution": "A dictatorship is a government in which all power is concentrated in one person or a small group. Its features include no free elections and no freedom of opposition.",
+     "answer": "Dictatorship is rule by one person or group without consent; no free elections and no opposition."
+    },
+    {
+     "question": "How does dictatorship differ from democracy?",
+     "solution": "In a democracy power belongs to the people through elected representatives, while in a dictatorship power is seized and held by force without accountability to citizens.",
+     "answer": "Democracy is rule by people; dictatorship is rule by force without accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define dictatorship and state two of its features.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a dictator usually comes to power.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare democracy and dictatorship on any three grounds.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.5",
+   "title": "Parliamentary and Presidential Systems",
+   "section": "Forms of Democratic Government",
+   "definition": "A parliamentary system is a democratic government in which the executive is drawn from and accountable to the legislature, while a presidential system has a directly or indirectly elected president who is separate from the legislature.",
+   "formula": "",
+   "key_idea": "In a parliamentary system the executive is part of and responsible to parliament; in a presidential system the executive and legislature are separate and independent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: differentiate between parliamentary and presidential systems of government",
+    "how is the head of government chosen in a parliamentary system",
+    "why is the executive separate from the legislature in a presidential system",
+    "which system of government does India follow and why",
+    "compare the relationship between executive and legislature in parliamentary and presidential systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define parliamentary system",
+     "explain": "In a parliamentary system the executive (prime minister and cabinet) is drawn from the legislature and is accountable to it."
+    },
+    {
+     "step": 2,
+     "action": "define presidential system",
+     "explain": "In a presidential system the president is elected separately and is not a member of the legislature, and the executive and legislature are independent of each other."
+    },
+    {
+     "step": 3,
+     "action": "give examples",
+     "explain": "India follows the parliamentary system, while the United States of America follows the presidential system."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a parliamentary system of government?",
+     "solution": "A parliamentary system is one in which the executive is formed from the elected members of the legislature and remains accountable to it. India is an example.",
+     "answer": "Parliamentary system: executive drawn from and accountable to the legislature."
+    },
+    {
+     "question": "How does a presidential system differ from a parliamentary system?",
+     "solution": "In a presidential system the president is elected separately and is independent of the legislature, whereas in a parliamentary system the executive is part of and responsible to the legislature.",
+     "answer": "Presidential system separates executive and legislature; parliamentary system unites them."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between parliamentary and presidential systems.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which system of government does India follow? Explain briefly.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name one country that follows the presidential system.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.6",
+   "title": "Federal and Unitary Systems of Government",
+   "section": "Distribution of Power",
+   "definition": "A federal system divides power between a central national government and regional state governments by a constitution, while a unitary system concentrates all power in a single central government.",
+   "formula": "",
+   "key_idea": "Federalism shares power between central and regional governments; a unitary system keeps all power at the centre.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define federal and unitary systems of government",
+    "how is power distributed in a federal government",
+    "why does a large country like India need a federal system",
+    "differentiate between federal and unitary governments with examples",
+    "what are the advantages of a federal system for a diverse country"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define federal system",
+     "explain": "A federal system divides powers between the central government and state governments, each having their own jurisdiction defined by the constitution."
+    },
+    {
+     "step": 2,
+     "action": "define unitary system",
+     "explain": "A unitary system concentrates all governmental power in a single central authority, with regional units acting as agents of the centre."
+    },
+    {
+     "step": 3,
+     "action": "give examples",
+     "explain": "India and the United States are federal systems, while France and Japan are unitary systems."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a federal government? Give one example.",
+     "solution": "A federal government is one in which power is divided between a central authority and regional units by the constitution. India is an example.",
+     "answer": "Federal government divides power between centre and states; India is an example."
+    },
+    {
+     "question": "How does a unitary government differ from a federal government?",
+     "solution": "In a unitary government all power is held by the central government and regional units have no independent powers, whereas in a federal government power is shared between the centre and the states.",
+     "answer": "Unitary government concentrates power at the centre; federal government shares power."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define federal and unitary systems of government.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does India have a federal system? Explain.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one country each that follows a federal and a unitary system.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.7",
+   "title": "Republic and Constitutional Monarchy",
+   "section": "Types of Government",
+   "definition": "A republic is a form of government in which the head of state is an elected person and not a hereditary monarch, while a constitutional monarchy retains a hereditary monarch as ceremonial head with real power held by elected representatives.",
+   "formula": "",
+   "key_idea": "In a republic the head of state is elected; in a constitutional monarchy a hereditary monarch is a ceremonial head while elected representatives govern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: define a republic and explain how it differs from a monarchy",
+    "what makes India a republic",
+    "how is a constitutional monarchy different from an absolute monarchy",
+    "who is the head of state in a republic and in a constitutional monarchy",
+    "why is the United Kingdom not called a republic even though it is democratic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define republic",
+     "explain": "A republic is a state in which the head of state is an elected person, not a hereditary monarch."
+    },
+    {
+     "step": 2,
+     "action": "define constitutional monarchy",
+     "explain": "A constitutional monarchy has a hereditary monarch as the ceremonial head of state while real governing power is exercised by elected representatives."
+    },
+    {
+     "step": 3,
+     "action": "give examples",
+     "explain": "India is a republic with an elected President, while the United Kingdom is a constitutional monarchy with the King as ceremonial head."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a republic? Why is India called a republic?",
+     "solution": "A republic is a country whose head of state is an elected person and not a hereditary ruler. India is a republic because its President is elected and there is no hereditary monarch.",
+     "answer": "A republic has an elected head of state; India's President is elected, so India is a republic."
+    },
+    {
+     "question": "How is a constitutional monarchy different from a republic?",
+     "solution": "In a constitutional monarchy the head of state is a hereditary monarch with ceremonial powers, while in a republic the head of state is elected by the people or their representatives.",
+     "answer": "Constitutional monarchy has a hereditary ceremonial head; republic has an elected head."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define republic and state why India is a republic.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Differentiate between a republic and a constitutional monarchy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name one country that is a constitutional monarchy.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.8",
+   "title": "Evolution of Government Types",
+   "section": "Historical Development",
+   "definition": "The evolution of government types traces the change from early tribal councils and monarchies to modern democracies and republics, driven by struggles for equality, rights and people's participation in decision-making.",
+   "formula": "",
+   "key_idea": "Forms of government have evolved over time from hereditary monarchies toward democratic systems based on the consent and participation of citizens.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: describe how forms of government have evolved over time",
+    "why did people move from monarchy to democracy",
+    "what role did the struggle for rights play in the evolution of government",
+    "how did the idea of people's participation change government systems",
+    "trace the historical shift from absolute rule to representative government"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe early forms",
+     "explain": "Early societies were governed by tribal councils, chiefs or hereditary monarchs who held most of the power."
+    },
+    {
+     "step": 2,
+     "action": "explain the shift",
+     "explain": "As people demanded equality, rights and a voice in decision-making, monarchies were replaced or limited by democratic and republican systems."
+    },
+    {
+     "step": 3,
+     "action": "summarise the trend",
+     "explain": "The overall trend has been a movement from rule by one (monarchy or dictatorship) toward rule by the people (democracy and republic)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How have forms of government evolved over time?",
+     "solution": "Government began with tribal councils and monarchies, then evolved through struggles for rights into democracies and republics where people elect their rulers.",
+     "answer": "Government evolved from monarchies to democracies through struggles for rights."
+    },
+    {
+     "question": "Why did people move from monarchy to democracy?",
+     "solution": "People moved from monarchy to democracy because they wanted equality, freedom and a voice in decision-making, which hereditary monarchies did not provide.",
+     "answer": "People chose democracy over monarchy to gain equality, freedom and participation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how forms of government have evolved over time.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did people prefer democracy over monarchy? Give two reasons.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the struggle for rights in changing government systems.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.9.9",
+   "title": "Comparison of Democratic and Non-Democratic Systems",
+   "section": "Comparing Government Types",
+   "definition": "A democratic system allows people to elect their rulers, enjoy fundamental rights and hold the government accountable, while a non-democratic system concentrates power in one ruler or group without free elections or accountability to citizens.",
+   "formula": "",
+   "key_idea": "Democracy is based on consent, rights and accountability; non-democratic systems rest on force, lack of freedom and no accountability to the people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 7 civics: compare democratic and non-democratic forms of government",
+    "what rights do citizens enjoy in a democracy that are absent in a non-democracy",
+    "how is accountability different in democratic and non-democratic governments",
+    "why is democracy considered superior to non-democratic government",
+    "state three points of difference between democracy and dictatorship"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare source of power",
+     "explain": "In a democracy power comes from the people through elections; in a non-democracy power is seized or held by force."
+    },
+    {
+     "step": 2,
+     "action": "compare rights and freedom",
+     "explain": "Democratic citizens enjoy fundamental rights and freedoms, while non-democratic systems restrict or deny these rights."
+    },
+    {
+     "step": 3,
+     "action": "compare accountability",
+     "explain": "A democratic government is accountable to the people and can be changed through elections, whereas a non-democratic government is not accountable and cannot be removed by citizens."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "State three differences between democratic and non-democratic government.",
+     "solution": "Democracy is based on elections and people's consent, guarantees fundamental rights, and is accountable to citizens. Non-democracy seizes power, restricts rights and is not accountable.",
+     "answer": "Democracy: elected, rights-based, accountable; non-democracy: force-based, rights restricted, unaccountable."
+    },
+    {
+     "question": "Why is democracy considered a better form of government than non-democracy?",
+     "solution": "Democracy is better because it allows people to choose their rulers, protects fundamental rights, and ensures the government is accountable and can be changed peacefully.",
+     "answer": "Democracy is better due to elections, rights and accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare democratic and non-democratic government on three points.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two rights that citizens enjoy in a democracy but not in a non-democracy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is democracy considered superior to non-democratic government?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

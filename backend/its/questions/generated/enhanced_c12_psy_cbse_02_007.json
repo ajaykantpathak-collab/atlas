@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_007",
+   "title": "c12_psy_cbse_02_007",
+   "questions": [
+    {
+     "q": "A student writes: \"The unconscious mind contains all our repressed memories, while the preconscious contains memories we are currently thinking about.\" Identify the two errors in this statement.",
+     "a": "Correct answer: (1) The preconscious contains memories/thoughts NOT currently in awareness but easily accessible (e.g., your phone number), not what you are currently thinking about — that is the conscious level. (2) The unconscious contains not only repressed memories but also instinctual drives (sexual, aggressive), wishes, and desires that are kept out of awareness because they cause conflict. A wrong answer reveals confusion between the topographical levels: students often equate \"preconscious\" with \"current focus of attention\" and limit the unconscious to only repressed memories, missing its role as a reservoir of instinctual energy (libido).",
+     "self_check": true
+    },
+    {
+     "q": "\"Rahul is on a strict diet. He walks past a bakery and smells fresh chocolate cake. He feels a strong urge to buy and eat it immediately, but he reminds himself of his health goals and walks away.\" Using Freud's structural model, explain which system generates the urge, which system evaluates the health goals, and which system mediates the final decision. Why is the mediator described as \"serving three harsh masters\"?",
+     "a": "Correct answer: The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle — internalized standards of \"good\" behavior, ideals). The ego (reality principle) mediates by assessing consequences (diet breach, guilt, long-term health) and choosing to walk away. The ego serves three harsh masters: the id's demands, the superego's moral dictates, and external reality's constraints. A wrong answer (e.g., swapping id/superego roles) reveals the misconception that the superego generates impulses or that the ego is merely a passive referee rather than an active executor that must negotiate reality.",
+     "self_check": true
+    },
+    {
+     "q": "Priya is preparing for her board exams. She has a strong desire to scroll social media (id), knows she must study (superego), and decides to study for 45 minutes then allow herself 10 minutes of social media (ego). A week later, she finds herself unable to stop scrolling after the 10 minutes and misses her study target. Analyze this breakdown using the concept of ego strength and the reality principle. What does this suggest about the relative power of her id vs. ego?",
+     "a": "Correct answer: The initial plan shows a functioning ego using the reality principle — delaying gratification (45 min study) for a larger reward (exam success) while permitting a controlled id outlet (10 min). The breakdown indicates insufficient ego strength: the ego failed to enforce the boundary when the id's drive (reinforced by dopamine from scrolling) overwhelmed the reality-testing function. The id's pleasure principle reasserted dominance because the ego lacked the \"executive control\" to terminate the behavior. This suggests her id is currently stronger than her ego's regulatory capacity. A wrong answer (e.g., blaming only \"weak willpower\" without structural analysis) misses the Freudian mechanism: the ego's reality-testing collapsed under id pressure, a classic sign of underdeveloped ego strength.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"pleasure principle\" and \"reality principle\" in terms of: (a) time orientation, (b) relationship to external world, (c) primary goal, and (d) developmental emergence. Why does Freud say the ego develops \"out of\" the id?",
+     "a": "Correct answer: (a) Pleasure principle: immediate/present; Reality principle: future-oriented/delayed. (b) Pleasure principle ignores external world; Reality principle actively tests and adapts to it. (c) Pleasure principle seeks tension reduction (gratification); Reality principle seeks safe, effective gratification. (d) Id/pleasure principle is present at birth; Ego/reality principle develops in infancy through interaction with environment. The ego develops \"out of\" the id because the infant initially only has id; as the child experiences that not all needs are met instantly (mother not always available), a portion of the id differentiates into the ego to negotiate reality. A wrong answer (e.g., saying ego is present at birth or that reality principle seeks to deny pleasure) reveals the misconception that ego and id are co-equal from start, rather than ego being a modified, reality-adapted offshoot of the id.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement from a Freudian perspective: \"A psychologically healthy person has a strong superego that completely controls the id so the person always acts morally.\" Use the concepts of intrapsychic conflict, anxiety, and the ego's mediating role in your evaluation.",
+     "a": "Correct answer: This statement is incorrect in Freudian theory. A superego that \"completely controls\" the id would create excessive guilt, anxiety, and rigidity — not health. Freud viewed health as a dynamic balance where the ego is strong enough to mediate between id, superego, and reality, allowing flexible, context-appropriate expression of drives (e.g., sublimation). If the superego dominates, the person develops neurotic anxiety (fear of punishment from within) and may exhibit obsessive morality or repression. If the id dominates, impulse-control disorders emerge. The ego must be the \"executive\" — not a puppet of the superego. A wrong answer (agreeing with the statement) reveals the common moralistic misconception that \"superego = good, id = bad,\" missing Freud's core insight: both are necessary, and pathology arises from imbalance, not from the id's existence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief original scenario (3-4 sentences) involving a Class 12 student facing a moral dilemma (e.g., cheating, lying to parents, bullying). Then analyze it by explicitly labeling the id impulse, superego demand, and ego's reality-tested resolution. Ensure your ego resolution is neither pure suppression nor pure indulgence.",
+     "a": "Expected answer: Scenario example — \"Arjun finds the answer key to tomorrow's test in the teacher's unlocked drawer. He could photograph it and ace the exam (id: immediate success, pleasure). His superego insists cheating is dishonest and will cause guilt. His ego decides to report the key to the teacher immediately, then study honestly tonight — accepting lower marks but preserving integrity and avoiding consequences of getting caught.\" Good answer criteria: (1) id impulse is primitive/pleasure-driven, (2) superego demand is moral/idealistic, (3) ego resolution engages reality (consequences, alternatives) and finds a compromise path. A poor answer (e.g., \"ego decides not to cheat\" without reality-testing) shows failure to grasp the ego's active, negotiating function — it merely mimics the superego.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

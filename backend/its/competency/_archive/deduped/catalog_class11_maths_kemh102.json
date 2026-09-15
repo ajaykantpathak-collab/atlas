@@ -1,0 +1,121 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Relations and Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh102.txt",
+ "concepts": [
+  {
+   "id": "kemh.102.1.1",
+   "title": "Cartesian Product of Sets",
+   "section": "",
+   "definition": "The cartesian product of sets A and B is the set of all ordered pairs with first element from A and second from B, written A cross B, and the number of ordered pairs equals the product of the sizes of the two sets.",
+   "formula": "",
+   "key_idea": "If A has m elements and B has n elements, A cross B has m times n ordered pairs, and two ordered pairs are equal when corresponding elements are equal.",
+   "textbook_ref": "kemh102.txt cartesian product section",
+   "question_patterns": [
+    "define the cartesian product of two sets with an example",
+    "find the number of ordered pairs in a cartesian product",
+    "when are two ordered pairs said to be equal",
+    "is the cartesian product commutative explain",
+    "state the cartesian product of a set with the empty set",
+    "draw the cartesian product on number lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.102.2.1",
+   "title": "Relations: Domain, Range and Number of Relations",
+   "section": "",
+   "definition": "A relation R from A to B is a subset of the cartesian product A cross B, its domain is the set of first elements and range the set of second elements, and the total number of relations from A to B equals two raised to the product of the numbers of elements.",
+   "formula": "",
+   "key_idea": "total_relations = 2 ** (m * n)",
+   "textbook_ref": "Every subset of A cross B defines a relation, so a small set pair can carry many relations.",
+   "question_patterns": "kemh102.txt relations section",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.102.3.1",
+   "title": "Functions: Definition, Domain, Range and Types",
+   "section": "",
+   "definition": "A function from set X to set Y assigns to every element of X exactly one element of Y, with domain, codomain and range, and special types include identity, constant, polynomial, rational and modulus functions shown by graphs.",
+   "formula": "",
+   "key_idea": "Every function is a relation but not every relation is a function, since the exactly one condition fails for arbitrary relations.",
+   "textbook_ref": "kemh102.txt functions section",
+   "question_patterns": [
+    "define a function and distinguish it from a relation",
+    "find the domain and range of a function",
+    "describe the graphs of identity constant and modulus functions",
+    "define polynomial and rational functions with examples",
+    "when does a relation qualify as a function",
+    "evaluate the value of a function at a given point"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kemh102.txt exercises",
+   "questions": [
+    "If the set A has 3 elements and B has 4, find the number of elements in A cross B.",
+    "Define a relation from A to B and write its domain and range.",
+    "Determine the domain and range of the given relations.",
+    "Which of the given relations are functions? Give reasons.",
+    "Find the value of the function at the given point."
+   ]
+  }
+ ]
+}

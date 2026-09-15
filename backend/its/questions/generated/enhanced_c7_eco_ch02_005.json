@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_005",
+   "title": "c7_eco_ch02_005",
+   "questions": [
+    {
+     "q": "What is the primary feature that distinguishes a weekly market (*haat*) from a permanent neighborhood marketplace?",
+     "a": "A weekly market operates only on a specific day of the week in a temporary setup and moves locations or packs up by evening, whereas permanent neighborhood shops operate daily from fixed brick-and-mortar buildings. A wrong answer shows the student is confusing temporary local trade events with permanent retail establishments.",
+     "self_check": true
+    },
+    {
+     "q": "Why can many weekly market vendors sell goods at lower prices than permanent shopkeepers in city markets, even when selling similar items?",
+     "a": "Weekly market vendors do not incur high fixed costs such as monthly commercial rent, electricity bills, and permanent storage maintenance, which allows them to pass these cost savings on to consumers. A wrong answer reveals the misconception that prices are determined solely by government rules rather than the operating costs of the seller.",
+     "self_check": true
+    },
+    {
+     "q": "A vegetable vendor in a weekly market travels to four different village *haats* in a week: Monday, Wednesday, Friday, and Saturday. If the vendor incurs ₹200 in transport costs per market day and earns a daily net profit of ₹800 after all other expenses, calculate the vendor's total weekly net earnings.",
+     "a": "Steps: 1. Identify daily net profit before transport: ₹800. 2. Identify transport cost per market day: ₹200. 3. Calculate net profit per market day (₹800 - ₹200 = ₹600). 4. Multiply by the number of market days in a week (4 days × ₹600 = ₹2,400). Total weekly net earnings = ₹2,400. A wrong answer shows confusion between gross revenue, operating costs, and net profit calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why rural consumers often prefer purchasing household goods and clothing at a weekly *haat* rather than traveling to a distant city market, considering both transport costs and variety.",
+     "a": "Rural consumers save significantly on transport costs and time by accessing multiple competing vendors offering a wide variety of daily necessities assembled in one local public ground. A wrong answer indicates the student thinks consumers choose markets randomly without evaluating travel expenses and product variety.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact if a local district administration decides to pave and convert an open ground used for a decades-old weekly *haat* into a paid multi-story parking lot.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "This policy would likely destroy the traditional weekly market by displacing low-income mobile vendors who cannot afford parking fees or permanent shop rent, thereby reducing local market competition and harming rural consumers' access to affordable goods. A wrong answer suggests the student views physical infrastructure changes only as modernization without considering the negative economic displacement of traditional livelihoods.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

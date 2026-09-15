@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_005",
+   "title": "c7_physics_ch01_005",
+   "questions": [
+    {
+     "q": "What is the primary goal of sustainable development in the context of scientific and technological applications?",
+     "a": "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same resources. A wrong answer often shows the misconception that science should focus solely on maximizing production and profit without considering environmental consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to consider the life cycle of an everyday electronic device, such as a burnt-out electric bulb or a dead battery, rather than just how well it works while in use?",
+     "a": "Every electronic device requires raw materials to manufacture and leaves behind hazardous waste when discarded improperly, which can leach toxic chemicals into soil and water systems. A wrong answer reveals the misconception that a technology's environmental impact ends the moment it is turned off or thrown in a household bin.",
+     "self_check": true
+    },
+    {
+     "q": "A small village uses diesel generators that consume 5 liters of diesel per hour to pump groundwater for irrigation. If burning 1 liter of diesel produces approximately 2.6 kg of carbon dioxide ($CO_2$), calculate the total mass of $CO_2$ released into the atmosphere if the generator runs for 4 hours a day over a 30-day month.",
+     "a": "Steps: \n1. Identify given values: Fuel consumption rate = 5 liters/hour; operating time = 4 hours/day; duration = 30 days; $CO_2$ emission rate = 2.6 kg/liter.\n2. Calculate total operating hours in the month: $4\\text{ hours/day} \\times 30\\text{ days} = 120\\text{ hours}$.\n3. Calculate total fuel consumed: $120\\text{ hours} \\times 5\\text{ liters/hour} = 600\\text{ liters}$.\n4. Compute total $CO_2$ emission by multiplying fuel volume by emission rate: $600\\text{ liters} \\times 2.6\\text{ kg/liter} = 1560\\text{ kg}$.\n5. Verify physical reasonableness: 1560 kg of $CO_2$ per month from a single village generator shows a heavy carbon footprint, justifying a shift to solar-powered pumps. \nAnswer: 1560 kg of $CO_2$. A wrong answer usually stems from forgetting to multiply all three factors (hours, days, and rate) together, indicating poor multi-step unit tracking.",
+     "self_check": true
+    },
+    {
+     "q": "How does the choice between using electricity generated from a thermal power plant (burning coal) versus a solar panel system reflect the principles of scientific responsibility and environmental sustainability?",
+     "a": "Thermal power plants deplete finite fossil fuels and release greenhouse gases that cause global warming, whereas solar panels harness an inexhaustible, clean energy source from sunlight. A wrong answer indicates that the student thinks all forms of electricity generation have identical environmental impacts simply because they produce the same electric current in a circuit.",
+     "self_check": true
+    },
+    {
+     "q": "A factory claims to be \"eco-friendly\" because it filters the smoke coming out of its chimneys, but it continues to dump untreated chemical waste directly into a nearby river. Is this practice scientifically sustainable, and why?",
+     "a": "No, this practice is not sustainable because shifting pollution from the air to the water system destroys aquatic ecosystems, poisons local groundwater, and harms human health. A wrong answer reveals a narrow, compartmentalized view of the environment, failing to recognize that air, water, and soil are interconnected parts of a single global ecosystem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weekly action plan for your household that uses scientific principles of heat transfer or electricity to reduce energy waste, and explain the scientific reason behind each step.",
+     "a": "A strong answer includes specific actions such as closing windows and drawing curtains during peak sunlight hours to reduce indoor heat gain (minimizing conduction and radiation), turning off electrical switches when appliances are not in use, and using LED bulbs instead of incandescent ones. A poor answer gives vague statements like \"save energy\" without linking the actions to underlying scientific principles like energy conservation or heat flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

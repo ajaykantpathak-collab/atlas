@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_11",
+   "title": "c9_bio_ch3_11",
+   "questions": [
+    {
+     "q": "Name any two barrier methods of contraception and state the primary principle behind their action.",
+     "a": "Correct answer: Male condom and female condom (or diaphragm/cervical cap); they act by physically preventing sperm from entering the uterus and reaching the egg. A wrong answer like \"copper-T and oral pills\" reveals confusion between barrier methods and intrauterine/hormonal methods, indicating the student cannot categorize mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why combined oral contraceptive pills (containing estrogen and progesterone) are taken daily for 21 days starting from the 5th day of the menstrual cycle.",
+     "a": "Correct answer: The hormones suppress FSH and LH secretion from the pituitary, preventing follicular development and ovulation; starting on day 5 ensures the pituitary is suppressed before the follicular phase begins. A wrong answer like \"they kill sperm\" or \"they are taken only during intercourse\" shows misunderstanding of hormonal mechanism and timing, confusing pills with barrier or emergency methods.",
+     "self_check": true
+    },
+    {
+     "q": "A 28-year-old woman wants a long-term, reversible contraceptive that does not require daily action and has minimal hormonal side effects. Which method would you recommend and why?",
+     "a": "Correct answer: Copper-T (Cu-T) intrauterine device — it releases copper ions that are toxic to sperm, preventing fertilization, lasts 5–10 years, is reversible upon removal, and contains no hormones. A wrong answer like \"oral pills\" or \"condom\" fails to match the criteria (long-term, reversible, non-hormonal, low user-dependence), showing inability to apply method characteristics to user needs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare vasectomy and tubectomy in terms of procedure, reversibility, and physiological impact on hormone production.",
+     "a": "Correct answer: Vasectomy cuts/ties vas deferens in males; tubectomy cuts/ties fallopian tubes in females. Both are considered permanent but vasectomy reversal is more successful. Neither affects hormone production (testes/ovaries remain intact). A wrong answer claiming \"vasectomy stops testosterone production\" or \"tubectomy causes menopause\" reveals confusion between gamete transport and endocrine function.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Emergency contraceptive pills (ECPs) can be used as regular contraception because they also prevent pregnancy.\" Evaluate this statement.",
+     "a": "Correct answer: The statement is incorrect. ECPs contain high-dose progestin/anti-progestin to delay ovulation or prevent implantation after unprotected intercourse; they are less effective, have more side effects (nausea, menstrual irregularities), and do not protect against STIs. Regular use disrupts hormonal cycles. A wrong agreement shows inability to distinguish emergency vs. routine use based on mechanism, efficacy, and safety profile.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple awareness poster for adolescents showing three contraceptive methods that also protect against STIs, with one key advantage and one limitation for each.",
+     "a": "Expected answer: Poster includes male condom (advantage: STI protection + easy access; limitation: user-dependent, may tear), female condom (advantage: female-controlled, STI protection; limitation: cost, insertion skill), and abstinence (advantage: 100% effective for pregnancy/STI; limitation: requires mutual commitment). A poor answer listing oral pills or Cu-T for STI protection reveals confusion between contraception and STI prevention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

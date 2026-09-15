@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_3",
+   "title": "c9_physics_ch4_3",
+   "questions": [
+    {
+     "q": "State the Work-Energy Theorem in words and write its mathematical expression with SI units for each term.",
+     "a": "The net work done on an object equals its change in kinetic energy: \\(W_{\\text{net}} = \\Delta K = \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2\\). SI units: \\(W_{\\text{net}}\\) in joules (J), \\(m\\) in kg, \\(v\\) and \\(u\\) in m/s. A wrong answer (e.g., \"work equals kinetic energy\" without \"change\" or \"net\") reveals the student thinks work creates energy from nothing or ignores initial kinetic energy, confusing total energy with energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg block slides on a rough horizontal floor. An applied force of 10 N acts forward, and kinetic friction of 4 N acts backward. The block moves 5 m. A student calculates work done by the applied force as 50 J and says the kinetic energy increases by 50 J. Why is this reasoning incorrect?",
+     "a": "The theorem uses *net work*, not work by a single force. Net force = 10 N - 4 N = 6 N forward. Net work = 6 N × 5 m = 30 J. So kinetic energy increases by 30 J, not 50 J. The student's error reveals they think \"work done by the applied force\" alone determines kinetic energy change, ignoring that friction does negative work which reduces the net energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 kg car accelerates from 10 m/s to 25 m/s on a straight road. Calculate the net work done on the car. (Ignore unit conversion; answer in joules.)",
+     "a": "Given: \\(m = 1500\\,\\text{kg}\\), \\(u = 10\\,\\text{m/s}\\), \\(v = 25\\,\\text{m/s}\\).  \nStep 1: Identify formula: \\(W_{\\text{net}} = \\frac{1}{2}m(v^2 - u^2)\\).  \nStep 2: Substitute: \\(W_{\\text{net}} = \\frac{1}{2} \\times 1500 \\times (25^2 - 10^2)\\).  \nStep 3: Compute squares: \\(625 - 100 = 525\\).  \nStep 4: \\(W_{\\text{net}} = 750 \\times 525 = 393,750\\,\\text{J}\\).  \nStep 5: Check: positive work, speed increased, reasonable for a car.  \nAnswer: \\(3.94 \\times 10^5\\,\\text{J}\\) (or 393.75 kJ).  \nA wrong answer (e.g., using \\(v-u\\) instead of \\(v^2-u^2\\)) shows the student treats kinetic energy as linear in velocity, missing the square dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical trucks, one loaded (mass \\(2m\\)) and one empty (mass \\(m\\)), have the same net work done on them over the same distance. Both start from rest. Compare their final speeds. Explain using the theorem.",
+     "a": "Net work \\(W\\) is same for both. \\(W = \\frac{1}{2}m v^2\\) for empty truck \\(\\Rightarrow v_{\\text{empty}} = \\sqrt{2W/m}\\). For loaded truck: \\(W = \\frac{1}{2}(2m) v_{\\text{loaded}}^2 \\Rightarrow v_{\\text{loaded}} = \\sqrt{W/m}\\). Thus \\(v_{\\text{loaded}} = v_{\\text{empty}}/\\sqrt{2}\\). The empty truck ends with \\(\\sqrt{2}\\) times higher speed. A wrong answer (e.g., \"same speed because same work\") reveals the student thinks work directly determines speed, not kinetic energy, ignoring mass in the kinetic energy formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 5 kg box is pushed with 20 N over 4 m on a frictionless surface. Find final speed.\" They write: \\(W = Fs = 80\\,\\text{J}\\). Then \\(80 = \\frac{1}{2} \\times 5 \\times v^2 \\Rightarrow v^2 = 32 \\Rightarrow v = 5.66\\,\\text{m/s}\\). Is this correct? If not, identify the error.",
+     "a": "The solution is correct *only if* the box starts from rest (\\(u=0\\)). The problem statement does not specify initial velocity. If \\(u \\neq 0\\), the equation should be \\(W = \\frac{1}{2}m(v^2 - u^2)\\). The student assumed \\(u=0\\) without justification. This reveals a common error: automatically assuming \"starts from rest\" when not stated. In board exams, missing this condition loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using a dynamics trolley, a pulley, hanging masses, and a ticker-timer (or motion sensor) to verify the Work-Energy Theorem. List the measurements needed and how you would calculate net work and change in kinetic energy.",
+     "a": "Setup: Trolley on horizontal track connected by string over pulley to hanging mass. Release from rest. Measure: mass of trolley (\\(m_t\\)), hanging mass (\\(m_h\\)), distance fallen (\\(h\\)), final velocity (\\(v\\)) from ticker-tape or sensor. Net work = work by gravity on hanging mass = \\(m_h g h\\) (assuming friction negligible). Change in KE = \\(\\frac{1}{2}(m_t + m_h)v^2\\). Compare values. A poor answer (e.g., \"measure force and distance\" without specifying which force) shows the student doesn't distinguish between work by individual forces and net work, or doesn't realize the hanging mass also gains kinetic energy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

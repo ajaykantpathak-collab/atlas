@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_006",
+   "title": "c12_bio_cbse_05_006",
+   "questions": [
+    {
+     "q": "A human male produces two types of gametes with respect to sex chromosomes. What are they, and what is the chromosomal composition of each?",
+     "a": "The male produces X-bearing sperm (22 autosomes + X) and Y-bearing sperm (22 autosomes + Y). A wrong answer (e.g., \"XX and XY sperm\" or \"X and XX sperm\") reveals the student confuses somatic chromosome constitution with gamete composition, forgetting meiosis reduces chromosome number by half and separates homologous pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the human sex ratio at birth is approximately 1:1 despite the Y chromosome being smaller and carrying fewer genes than the X chromosome.",
+     "a": "During meiosis I in males, the X and Y chromosomes pair at the pseudoautosomal region and segregate equally into secondary spermatocytes, producing equal numbers of X- and Y-bearing sperm. Fertilisation is random with respect to sperm type. A wrong answer citing \"Y sperm swim faster\" or \"X sperm are heavier\" reveals confusion with post-meiotic selection myths; the 1:1 ratio arises from Mendelian segregation, not differential sperm function.",
+     "self_check": true
+    },
+    {
+     "q": "A couple has a daughter with Turner syndrome (45,X). The father has a normal karyotype. Using a Punnett square, show the meiotic error (non-disjunction) that could produce this outcome and identify whether it occurred in the mother or father.",
+     "a": "The 45,X zygote results from fusion of a normal X-bearing sperm (father) with a nullo-X ovum (mother), or a normal X-bearing ovum (mother) with a nullo-Y sperm (father). Since the father is normal, non-disjunction in paternal meiosis II (sister chromatids of Y fail to separate) yields a sperm lacking a sex chromosome. Maternal non-disjunction in meiosis I or II can also produce a nullo-X ovum. A wrong answer assigning the error only to the mother reveals ignorance that paternal non-disjunction can also yield a sex-chromosome-null gamete.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanism of sex determination in humans (XX/XY) with that in birds (ZZ/ZW). Why does the heterogametic sex differ between these two systems?",
+     "a": "In humans, males are heterogametic (XY) and females homogametic (XX); in birds, females are heterogametic (ZW) and males homogametic (ZZ). The heterogametic sex produces two types of gametes. The difference arises because sex determination systems evolved independently: in mammals, the Y-linked SRY gene became the master switch; in birds, a Z-linked gene (DMRT1) dosage determines sex. A wrong answer stating \"birds also have XY\" or \"the larger chromosome determines sex\" reveals failure to recognise that heterogamety is not universal and sex determination mechanisms are lineage-specific.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In human females, one X chromosome is completely inactivated in every cell, so females effectively have only one functional X chromosome like males.\" Is this correct? Justify.",
+     "a": "The statement is partially correct but misleading. X-inactivation (lyonisation) randomly silences one X chromosome in each somatic cell early in embryogenesis, forming a Barr body. However, the inactivated X is not completely silent — ~15% of genes escape inactivation, and the choice of which X is inactivated is random, creating a mosaic of cells expressing maternal vs. paternal X alleles. Males have only one X in every cell; females are functional mosaics. A wrong answer agreeing fully reveals ignorance of incomplete inactivation and mosaicism, critical for understanding X-linked disease expression in females.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple pedigree analysis problem (3 generations) that would allow a student to distinguish between X-linked recessive inheritance and autosomal recessive inheritance for a trait like colour blindness. Specify the key phenotypic pattern that gives the answer.",
+     "a": "Create a pedigree where an affected male (Generation I) marries an unaffected female; all daughters are carriers (unaffected), all sons unaffected. In Generation II, a carrier daughter marries an unaffected male: 50% sons affected, 50% daughters carriers. Key discriminator: affected males transmit the trait to all daughters but no sons (X-linked), whereas autosomal recessive shows no sex bias in transmission. A poor answer uses only affected individuals without tracking carrier females, missing the criss-cross inheritance pattern unique to X-linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

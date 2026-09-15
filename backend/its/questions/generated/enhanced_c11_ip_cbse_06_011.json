@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_011",
+   "title": "c11_ip_cbse_06_011",
+   "questions": [
+    {
+     "q": "What is the purpose of the `newline=''` parameter when opening a file for CSV writing in Python, and what happens if you omit it on Windows?",
+     "a": "The `newline=''` parameter tells Python not to perform universal newline translation, allowing the `csv` module to control line endings directly. If omitted on Windows, the `open()` function translates `\\n` to `\\r\\n`, and the `csv` module also writes `\\r\\n`, resulting in double line endings (`\\r\\r\\n`) and blank lines between rows in the CSV file. A wrong answer (e.g., \"it prevents extra spaces\") reveals confusion between newline handling and whitespace stripping.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `csv.writer` and `csv.DictWriter` in terms of how they map Python data to CSV columns. When would you choose one over the other?",
+     "a": "`csv.writer` writes rows as sequences (lists/tuples) where column order is determined by the position of elements in each row; the programmer must ensure consistent ordering. `csv.DictWriter` writes rows as dictionaries, mapping keys to columns via the `fieldnames` parameter, so order is defined once in `fieldnames` and dictionaries can have keys in any order. Choose `DictWriter` when data comes as dictionaries (e.g., from JSON/API) or when column order must be explicit; choose `writer` for simple lists or when performance is critical. A wrong answer (e.g., \"DictWriter is faster\") shows misunderstanding of the mapping mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Given a list of dictionaries `students = [{'name': 'Aarav', 'marks': 85}, {'name': 'Diya', 'marks': 92}]`, write the exact Python code to create a CSV file `results.csv` with headers `name,marks` using `DictWriter`, ensuring no extra blank lines on any OS.",
+     "a": "```python\nimport csv\nwith open('results.csv', 'w', newline='', encoding='utf-8') as f:\n    writer = csv.DictWriter(f, fieldnames=['name', 'marks'])\n    writer.writeheader()\n    writer.writerows(students)\n```\nSteps: 1) Import csv. 2) Open file with `newline=''` and `encoding='utf-8'`. 3) Create DictWriter with fieldnames. 4) Write header. 5) Write all rows. A wrong answer missing `newline=''` or `writeheader()` reveals gaps in CSV writing protocol.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes CSV data using `csv.writer` but finds that fields containing commas (e.g., `\"Delhi, India\"`) appear split across two columns in Excel. Why does this happen, and how does the `csv` module fix it by default?",
+     "a": "By default, `csv.writer` uses `quoting=csv.QUOTE_MINIMAL`, which automatically encloses fields containing the delimiter (comma), quotechar, or newline in double quotes. If the student sees splitting, they likely opened the file without `newline=''` causing malformed lines, or they used `quotechar=''`/custom quoting that disables quoting. The fix is to rely on default quoting and ensure `newline=''`. A wrong answer blaming Excel reveals ignorance of CSV quoting rules.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this code snippet for writing a CSV: `with open('data.csv', 'w') as f: w = csv.writer(f); w.writerow(['A', 'B']); w.writerows([['1', '2'], ['3', '4']])`. Identify two potential cross-platform issues and correct them.",
+     "a": "Two issues: 1) Missing `newline=''` causes blank lines on Windows. 2) Missing `encoding='utf-8'` risks encoding errors with non-ASCII data on different systems. Corrected: `with open('data.csv', 'w', newline='', encoding='utf-8') as f:`. A wrong answer focusing only on `writerow` vs `writerows` misses the file-opening pitfalls that cause real-world CSV corruption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python function `save_csv(filename, headers, data_rows)` that works for both list-of-lists and list-of-dicts data_rows, automatically detecting the type and using the appropriate writer (`csv.writer` or `csv.DictWriter`). Include error handling for mismatched field counts.",
+     "a": "```python\nimport csv\ndef save_csv(filename, headers, data_rows):\n    with open(filename, 'w', newline='', encoding='utf-8') as f:\n        if data_rows and isinstance(data_rows[0], dict):\n            writer = csv.DictWriter(f, fieldnames=headers)\n            writer.writeheader()\n            for row in data_rows:\n                if set(row.keys()) != set(headers):\n                    raise ValueError(\"Dictionary keys mismatch headers\")\n                writer.writerow(row)\n        else:\n            writer = csv.writer(f)\n            writer.writerow(headers)\n            for row in data_rows:\n                if len(row) != len(headers):\n                    raise ValueError(\"Row length mismatch headers\")\n                writer.writerow(row)\n```\nA poor answer uses only one writer type or lacks validation, showing inability to synthesize both CSV writing approaches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

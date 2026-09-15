@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_001",
+   "title": "c11_soc_cbse_10_001",
+   "questions": [
+    {
+     "q": "In which year and at which university was the first formal postgraduate department of sociology established in India, and who was its founding head?",
+     "a": "The first formal postgraduate department of sociology in India was established in 1919 at the University of Bombay, headed by G.S. Ghurye. A wrong answer (e.g., Calcutta 1917 or Lucknow 1920s) reveals confusion between the first sociology department (Bombay) and the first anthropology department (Calcutta, where Ananthakrishna Iyer was appointed Reader in 1917), or misunderstanding that Lucknow began as a combined Department of Economics and Sociology later than Bombay.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the University of Calcutta's early association with sociology was through an anthropology department rather than a sociology department, and how this differed from Bombay's institutional path.",
+     "a": "Calcutta's first engagement was through anthropology because Ananthakrishna Iyer, a self-taught ethnographer, was appointed Reader in anthropology in 1917 to help set up a postgraduate anthropology department — reflecting the colonial state's priority on ethnographic surveys for administration. Bombay, by contrast, created a distinct Department of Sociology in 1919 under Ghurye, who had trained in sociology (LSE, Cambridge) not anthropology. A wrong answer that treats them as equivalent reveals failure to grasp the disciplinary boundary colonial administrators drew: anthropology for \"tribal/native\" study, sociology for \"modern/civilised\" society — a distinction Indian scholars later deliberately blurred.",
+     "self_check": true
+    },
+    {
+     "q": "The Lucknow department began as a combined Department of Economics and Sociology in 1924. If you were designing the MA syllabus for this combined department in 1925, which THREE core papers would you include to reflect the specific intellectual orientation of the \"Lucknow Trinity\" (Radhakamal Mukerjee, D.P. Mukerji, D.N. Majumdar), and why?",
+     "a": "1. **Social Anthropology / Ethnography** (Majumdar's focus on tribal cultures and fieldwork)  \n2. **Economic Sociology / Political Economy** (Mukerji's work on agrarian relations, cooperatives, and D.P. Mukerji's Marxist-influenced analysis of tradition and economy)  \n3. **Indian Social Institutions / Civilisational Study** (Radhakamal Mukerjee's emphasis on values, culture, and the \"over-developed\" social dimension of India)  \nA wrong answer listing only classical Western theory (Durkheim, Weber) misses the Lucknow school's deliberate rooting in Indian empirical reality and its synthesis of economics, anthropology, and civilisational analysis — precisely the \"combined department\" logic the prompt asks you to apply.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional strategies of G.S. Ghurye (Bombay) and M.N. Srinivas (Delhi School of Economics, 1959) for building sociology in India. Identify TWO similarities and TWO differences in how each leveraged university structures, funding, and intellectual networks.",
+     "a": "**Similarities:** (1) Both headed departments for decades (Ghurye 35 years, Srinivas ~12 years at DSE) and used the Head position to control appointments, syllabi, and PhD supervision. (2) Both founded/led professional associations (Ghurye: Indian Sociological Society 1951; Srinivas: shaped DSE into a national hub attracting international grants).  \n**Differences:** (1) Ghurye built within a colonial university with minimal state funding, merging sociology and anthropology *within one department*; Srinivas built at DSE in independent India with Plan funds, creating a *separate* sociology department distinct from anthropology. (2) Ghurye's network was Indological/Orientalist (Sanskrit, diffusionism); Srinivas's was structural-functional (Oxford, Chicago), reflecting a shift from textual to fieldwork-based legitimacy.  \nA wrong answer listing only personal traits misses the structural-institutional lens: how each used the *university* as a tool for disciplinary consolidation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The merger of sociology and social anthropology into a single composite discipline in Indian universities was an intellectual choice driven by theoretical convergence, not an administrative compromise forced by resource scarcity.\" Use evidence from the Bombay and Lucknow departments to support your judgment.",
+     "a": "The claim is **largely false**. At Bombay, Ghurye explicitly merged the two because \"financial and institutional support for university research was very limited\" (NCERT) — a single department shared staff, library, and infrastructure. At Lucknow, the combined Department of Economics and Sociology (later adding anthropology under Majumdar) was an administrative convenience: economics had prestige and funding; sociology and anthropology were appendages. Theoretical convergence (e.g., Srinivas later arguing village studies need both) came *after* institutional merger, not before. A wrong answer treating the merger as purely intellectual ignores the material history: colonial universities allocated chairs by subject codes; creating a new \"Sociology\" code required separate funding that did not exist. The merger was a survival strategy, not a theoretical breakthrough.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute podcast script for Class 11 students titled \"How Indian Sociology Got Its First Address.\" Your script must: (a) name the three cities and years, (b) explain why each city's department had a different disciplinary label (sociology vs anthropology vs economics+sociology), and (c) end with one question linking this history to a current debate in Indian sociology (e.g., NEP 2020, decolonising syllabi, or departmental autonomy).",
+     "a": "**Expected script structure:**  \n- **Hook:** \"In 1919, you couldn't study sociology anywhere in India. Then Bombay said: we'll try.\"  \n- **Bombay 1919:** Ghurye, Sanskritist-turned-sociologist, gets a scholarship, trains at LSE/Cambridge, returns to head a *new* Sociology department — label chosen because \"sociology\" sounded modern, university-appropriate.  \n- **Calcutta 1917:** Iyer, clerk-teacher-ethnographer, appointed Reader in *Anthropology* — label chosen because colonial state needed tribal data for administration; \"anthropology\" = study of \"primitive\" groups.  \n- **Lucknow 1924:** Radhakamal Mukerjee creates *Economics and Sociology* — label reflects his vision: society and economy inseparable in India; anthropology added later under Majumdar.  \n- **Closing question:** \"Today, NEP 2020 asks universities to offer multidisciplinary degrees. If Ghurye, Iyer, and Mukerjee designed a 2024 sociology major, would they keep sociology separate — or merge it with data science, policy, and anthropology? What would *you* choose?\"  \nA poor answer lists facts without narrative logic or fails to connect the *label* to the *power/funding/ideology* behind it — missing that disciplinary names were strategic, not neutral.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

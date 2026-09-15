@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_5",
+   "title": "c8_math_ch5_5",
+   "questions": [
+    {
+     "q": "State the parity (even or odd) of each expression without calculating the actual sum or difference: (a) 347 + 582, (b) 419 − 276, (c) (−53) + (−88), (d) (−104) − (−37).",
+     "a": "(a) odd + even = odd, (b) odd − even = odd, (c) odd + even = odd, (d) even − odd = odd. A wrong answer reveals the student either doesn't recall the four basic parity rules, misidentifies negative numbers' parity (e.g., thinks −53 is even because 53 is odd), or incorrectly applies subtraction rules (treating a − b as a + b without considering parity of b).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of two odd numbers is always even, using the algebraic forms 2k+1 and 2m+1. Why does this proof work for negative odd numbers like −7 and −11 as well?",
+     "a": "(2k+1) + (2m+1) = 2k + 2m + 2 = 2(k+m+1), which is a multiple of 2, hence even. For negative odds: −7 = 2(−4)+1, −11 = 2(−6)+1; sum = 2(−4−6+1) = 2(−9) = −18 (even). The proof works because the algebraic form 2k+1 represents all odd integers (positive, negative, zero) when k is any integer. A wrong answer reveals the student treats parity rules as memorised facts without algebraic understanding, or believes negative numbers follow different parity rules.",
+     "self_check": true
+    },
+    {
+     "q": "Three integers a, b, c have the following parities: a is even, b is odd, c is odd. Determine the parity of each expression: (i) a + b + c, (ii) a − b − c, (iii) (a + b) − c, (iv) a − (b + c). Show your reasoning step by step.",
+     "a": "(i) even + odd + odd = (even + odd) + odd = odd + odd = even. (ii) even − odd − odd = (even − odd) − odd = odd − odd = even. (iii) (even + odd) − odd = odd − odd = even. (iv) even − (odd + odd) = even − even = even. All four are even. A wrong answer reveals the student cannot chain parity operations sequentially, misapplies subtraction as non-associative in parity terms, or forgets that subtracting an odd is same as adding an odd (parity-wise).",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two statements: \"The sum of three consecutive integers is always a multiple of 3\" and \"The sum of three consecutive integers has the same parity as the middle integer.\" Are both true? If so, explain the connection between divisibility by 3 and parity for consecutive integers.",
+     "a": "Both true. Let integers be n−1, n, n+1. Sum = 3n (multiple of 3). Parity: if n is even, n−1 and n+1 are odd → odd+even+odd = even (same as n). If n is odd, n−1 and n+1 are even → even+odd+even = odd (same as n). The connection: among any three consecutive integers, exactly one is a multiple of 3, and the parity pattern (odd, even, odd) or (even, odd, even) forces the sum's parity to match the middle term. A wrong answer reveals the student cannot link parity patterns to algebraic structure of consecutive integers, or treats divisibility and parity as unrelated properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 245 + 378 = 623 (odd), and 245 is odd, then 378 must be even.\" Another student says: \"Since 512 − 287 = 225 (odd), and 512 is even, then 287 must be odd.\" Evaluate both arguments. Are they logically valid? Explain.",
+     "a": "Both arguments are logically valid. First: odd + x = odd → x must be even (since odd+odd=even, odd+even=odd). Second: even − x = odd → x must be odd (since even−even=even, even−odd=odd). The reasoning uses the fact that parity rules are bidirectional: knowing the sum/difference parity and one addend's parity determines the other's parity uniquely. A wrong answer reveals the student thinks parity rules only work forward (addend → sum) not backward (sum → addend), or doesn't recognise subtraction parity follows the same logic as addition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving at least four integers (positive, negative, or zero) where the solver must use parity rules to determine if the final result is even or odd WITHOUT computing the actual value. The problem should have a real-world Indian context (money, distance, temperature, etc.). Provide the solution with parity reasoning.",
+     "a": "Example: \"Ravi's bank balance is ₹12,450. He withdraws ₹3,217, deposits ₹4,800, withdraws ₹1,095, and deposits ₹2,630. Is his final balance even or odd?\" Solution: 12450 (even) − 3217 (odd) = odd; odd + 4800 (even) = odd; odd − 1095 (odd) = even; even + 2630 (even) = even. Final balance is even. A poor answer reveals the student cannot construct a multi-step parity chain, uses only positive integers, or creates a problem where parity doesn't simplify the reasoning (e.g., all numbers even).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

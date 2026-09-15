@@ -1,0 +1,269 @@
+{
+ "catalog": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+ "concepts": [
+  {
+   "id": "c8m2.1.1",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 ** (3 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 ** (3 - 1)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (2 * 5) ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 4 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 8 ** 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 5 ** (3 + 2)"
+   ]
+  },
+  {
+   "id": "c8m2.1.2",
+   "family": "congruence_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "third = 180 - 48 - 50"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 10 + 15 + 13"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "checks = 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "checks = 2 + 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "leg2 = sqrt(5 * 5 - 3 * 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "base = (180 - 46) / 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m2.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 3 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 2 * 2 + 7 * 2 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 4 + 2 - 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 4 + 7 * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 2 + 6 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (8 + 4) * 9"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m2.2.2",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (51 - 1) / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (39 + 9) / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (8 - ((-64))) / 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (3 + 22) / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (44 - 9) / (7 - 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (40 / 4) - 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m2.3.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 2 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 6 * 10 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 6 * 10 / 30"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 6 * 10 / 30"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 6 * 10 / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 24"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 2 * 1"
+   ]
+  },
+  {
+   "id": "c8m2.3.2",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 6 + 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 4 * 4 + 3 * 4 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 2 + 4 - 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 6 * 7 + 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 7 + 4 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (6 + 5) * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 6 + 7"
+   ]
+  }
+ ]
+}

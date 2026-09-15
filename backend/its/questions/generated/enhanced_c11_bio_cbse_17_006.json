@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_006",
+   "title": "c11_bio_cbse_17_006",
+   "questions": [
+    {
+     "q": "Name the three structural classes of joints and state the type of connecting tissue that defines each class.",
+     "a": "The three structural classes are: (1) Fibrous joints — bones connected by dense fibrous connective tissue (e.g., sutures of skull); (2) Cartilaginous joints — bones connected by cartilage (e.g., intervertebral discs); (3) Synovial joints — bones separated by a synovial cavity filled with synovial fluid (e.g., knee joint). A wrong answer (e.g., listing \"hinge, ball-and-socket\" as structural classes) reveals confusion between structural classification (based on tissue) and functional classification (based on movement type) or between synovial subtypes and the three major structural categories.",
+     "self_check": true
+    },
+    {
+     "q": "Why are sutures between cranial bones classified as fibrous joints even though they permit no movement in adults?",
+     "a": "Sutures are fibrous joints because the flat skull bones are united by dense fibrous connective tissue (sutural ligaments). The defining criterion for structural classification is the connecting material, not the degree of movement. Fibrous joints *generally* allow little or no movement; sutures are the immovable extreme. A wrong answer (e.g., \"because they are immovable they are fibrous\") confuses function with structure and ignores that cartilaginous joints can also be immovable (synchondroses) or slightly movable (symphyses).",
+     "self_check": true
+    },
+    {
+     "q": "A patient cannot rotate their forearm to turn a doorknob (supination/pronation) but can flex and extend the elbow normally. Which specific synovial joint is likely impaired, and what is its structural type?",
+     "a": "The proximal radioulnar joint (a pivot joint) is impaired. Step 1: Identify the movement lost — rotation of radius around ulna. Step 2: Recall that pivot joints allow rotational movement around a single axis. Step 3: Locate the pivot joint in the forearm — the proximal radioulnar joint where the head of radius rotates within the radial notch of ulna. Step 4: Confirm elbow hinge joint (humero-ulnar) is intact because flexion/extension works. A wrong answer (e.g., \"ball-and-socket joint of elbow\") shows inability to match joint type to specific movement and anatomy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural features that allow the shoulder joint (ball-and-socket) a wider range of motion than the hip joint (also ball-and-socket), despite both being the same synovial subtype.",
+     "a": "The shoulder has a shallow glenoid cavity, loose articular capsule, and fewer/weaker ligaments, allowing large mobility but less stability. The hip has a deep acetabulum, thick strong capsule, and robust ligaments (iliofemoral, pubofemoral, ischiofemoral) that restrict movement for weight-bearing stability. Both are ball-and-socket structurally, but depth of socket, capsular laxity, and ligament strength modulate the actual range. A wrong answer stating \"they are identical because both are ball-and-socket\" ignores that synovial subtypes describe general geometry, not the fine structural details that determine functional range.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All cartilaginous joints are slightly movable because cartilage is flexible.\" Is it correct? Justify.",
+     "a": "The statement is incorrect. Cartilaginous joints include two types: (1) Synchondroses (primary cartilaginous) — hyaline cartilage unites bones, typically immovable (e.g., epiphyseal plate in growing children, first rib–sternum joint). (2) Symphyses (secondary cartilaginous) — fibrocartilage pad between bones, slightly movable (e.g., intervertebral discs, pubic symphysis). Flexibility of cartilage does not guarantee movement; the type of cartilage and joint design dictate mobility. A wrong answer accepting the statement overlooks the distinction between synchondroses and symphyses and the fact that some cartilaginous joints are temporary (epiphyseal plates) and become bony fusions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification key (dichotomous or flowchart) that a Class 11 student could use to identify any human joint as fibrous, cartilaginous, or synovial using only observable structural features (no movement testing).",
+     "a": "A good key:\n1. Is there a fluid-filled cavity between the bones? YES → Synovial joint. NO → Go to 2.\n2. Are the bones united by dense fibrous connective tissue? YES → Fibrous joint. NO → Go to 3.\n3. Are the bones united by cartilage (hyaline or fibrocartilage)? YES → Cartilaginous joint.\nThis uses only structural criteria (cavity, tissue type). A poor key uses movement terms (\"freely movable\", \"immovable\") which are functional, not structural, and cannot be observed without testing motion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

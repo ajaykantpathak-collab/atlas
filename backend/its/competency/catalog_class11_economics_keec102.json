@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 102,
+ "chapter_title": "Indian Economy 1950-1990",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec102.txt",
+ "concepts": [
+  {
+   "id": "keec.102.1.1",
+   "title": "Five Year Plans and the Goals of Planning",
+   "section": "Five year plans",
+   "definition": "After independence India adopted planning through Five Year Plans drafted by the Planning Commission, with goals of growth, modernisation, self-reliance and equity, and the first plan focused on agriculture while the second launched Mahalanobis heavy industry strategy.",
+   "formula": "",
+   "key_idea": "Planning set sectoral targets through plans, and the public sector was given the command over core and heavy industries under the Industrial Policy Resolution of 1956.",
+   "textbook_ref": "keec102.txt five year plans sections",
+   "question_patterns": [
+    "define planning and the role of the planning commission",
+    "state the goals of five year plans in india",
+    "compare the first and second five year plans",
+    "what was the mahalanobis strategy of industrialisation",
+    "what did the industrial policy resolution of 1956 provide",
+    "why was self reliance a planning goal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the plan",
+     "explain": "Note the period and focus of the plan in question."
+    },
+    {
+     "step": 2,
+     "action": "match the goals",
+     "explain": "Link the plan to growth, modernisation, self-reliance or equity."
+    },
+    {
+     "step": 3,
+     "action": "assess the strategy",
+     "explain": "State the sectoral emphasis and its rationale."
+    }
+   ]
+  },
+  {
+   "id": "keec.102.2.1",
+   "title": "Agriculture: Land Reforms, Green Revolution and Marketing",
+   "section": "Agriculture 1950-1990",
+   "definition": "Agricultural policy combined institutional reforms of land ceiling and consolidation with the Green Revolution package of high yielding variety seeds, fertilisers and assured irrigation from the mid 1960s, plus regulated markets and minimum support price to stabilise farmer incomes.",
+   "formula": "",
+   "key_idea": "The Green Revolution raised foodgrain output and made India self-sufficient in food, but benefited mainly well irrigated regions and larger farmers.",
+   "textbook_ref": "keec102.txt agriculture sections",
+   "question_patterns": [
+    "what was the green revolution and its components",
+    "explain land reforms undertaken after independence",
+    "what is the role of minimum support price for farmers",
+    "how do regulated markets help farmers",
+    "state the effects and limitations of the green revolution",
+    "why was food security a concern of agricultural policy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate institutional and technical measures",
+     "explain": "Place land reform against the HYV package."
+    },
+    {
+     "step": 2,
+     "action": "trace the outcome",
+     "explain": "Note output growth, self sufficiency and regional imbalance."
+    },
+    {
+     "step": 3,
+     "action": "verify the marketing support",
+     "explain": "Recall MSP and regulated market roles."
+    }
+   ]
+  },
+  {
+   "id": "keec.102.3.1",
+   "title": "Industry: Industrial Licensing and Public Private Split",
+   "section": "Industry 1950-1990",
+   "definition": "Industrial policy reserved core industries for the public sector, controlled private entry through industrial licensing, and channelled small scale reservation for employment, which built a broad industrial base but created inefficiency, shortage and licensing raj by the 1980s.",
+   "formula": "",
+   "key_idea": "Industrial licensing constrained private investment decisions, and small scale industry reservation aimed to protect employment intensive units.",
+   "textbook_ref": "keec102.txt industry sections",
+   "question_patterns": [
+    "what is industrial licensing and why was it used",
+    "state the role of the public sector in indian industrialisation",
+    "why were some products reserved for small scale industry",
+    "what is meant by licensing raj",
+    "evaluate the industrial policy of 1956",
+    "how did industrial controls affect growth up to 1990"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the control instrument",
+     "explain": "Recall licensing, reservation and public sector roles."
+    },
+    {
+     "step": 2,
+     "action": "state the objective",
+     "explain": "Link each control to self reliance or employment aims."
+    },
+    {
+     "step": 3,
+     "action": "judge the outcome",
+     "explain": "Weigh base building against inefficiency and shortages."
+    }
+   ]
+  },
+  {
+   "id": "keec.102.4.1",
+   "title": "Trade Policy: Inward Looking Import Substitution",
+   "section": "Trade policy 1950-1990",
+   "definition": "Trade policy till 1990 was inward looking, using tariffs and quotas to protect domestic industry under import substitution, which conserved foreign exchange and nurtured industry but raised costs, reduced competition and limited export growth.",
+   "formula": "",
+   "key_idea": "Tariffs are taxes on imports and quotas fix physical limits, both shielding domestic producers from foreign competition.",
+   "textbook_ref": "keec102.txt trade policy section",
+   "question_patterns": [
+    "define import substitution and its objectives",
+    "how do tariffs and quotas protect domestic industry",
+    "what were the effects of inward looking trade policy",
+    "why did export growth remain low till 1990",
+    "distinguish tariff and quota as trade barriers",
+    "state the critique of import substituting industrialisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the barrier",
+     "explain": "Note whether protection came from tariff or quota."
+    },
+    {
+     "step": 2,
+     "action": "state the protective aim",
+     "explain": "Link the barrier to import substitution."
+    },
+    {
+     "step": 3,
+     "action": "weigh the results",
+     "explain": "List gains of industry building against cost and competition losses."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec102.txt exercises",
+   "questions": [
+    "Define a plan and name the goals of five year plans.",
+    "What was the green revolution? State its merits and limitations.",
+    "Explain the statement that the public sector plays a positive role in the economy.",
+    "Why were industrial licences abolished in 1991?",
+    "Distinguish tariffs from quotas in trade policy."
+   ]
+  }
+ ]
+}

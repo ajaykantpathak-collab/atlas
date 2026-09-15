@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "Number Play",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.6.1",
+   "title": "Numbers Tell Us Things",
+   "section": "Number Play",
+   "definition": "Numbers can carry hidden stories: a list of numbers may encode children standing by height, distances walked, or a secret rule, and reading the pattern behind the numbers uncovers the situation.",
+   "formula": "",
+   "key_idea": "Numbers are coded descriptions: behind every mysterious list hides a rule worth hunting.",
+   "textbook_ref": "gegp106.txt, Number Play",
+   "question_patterns": [
+    "what could the numbers in the given figure describe",
+    "make your own set of numbers that tells a story",
+    "how do you check a guessed rule behind numbers",
+    "decode the pattern your teacher writes on the board",
+    "why can one number list fit more than one story",
+    "write a puzzle where classmates guess what numbers mean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2",
+   "title": "Number Games and Their Patterns",
+   "section": "Number games",
+   "definition": "Number games attach rules to values: saying a word instead of certain multiples, guessing a hidden number from clues, or following a move-rule on digits, each game trains the habit of testing a rule case by case.",
+   "formula": "",
+   "key_idea": "A rule is only understood when tested on many cases: games make testing fun and automatic.",
+   "textbook_ref": "gegp106.txt, Number games",
+   "question_patterns": [
+    "play the given number game and state its rule",
+    "which numbers get the special word in the game",
+    "guess the hidden number from the given clues",
+    "make a number game with a rule of your own",
+    "why do some numbers break the pattern in a game",
+    "explain the rule to a friend using five examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.3",
+   "title": "Patterns in Arrangements of Numbers",
+   "section": "Patterns in numbers",
+   "definition": "Arranging numbers in rows, grids or chains exposes patterns: diagonals share sums, neighbours differ by fixed steps, and predicting the next arrangement is a matter of spotting the repeating rule.",
+   "formula": "",
+   "key_idea": "Arrangement is analysis: the same numbers placed in a grid speak patterns that a list hides.",
+   "textbook_ref": "gegp106.txt, Patterns in numbers",
+   "question_patterns": [
+    "find the next row of the given number arrangement",
+    "what pattern do the diagonals of the grid show",
+    "complete the number chain using its rule",
+    "make a magic-like arrangement where rows share a sum",
+    "why does arranging numbers reveal hidden patterns",
+    "predict the 10th term of the given number chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.4",
+   "title": "Reasoning with Number Clues",
+   "section": "Number reasoning",
+   "definition": "Number puzzles give clues like bigger than, even, or digit sum, and each clue cuts the possibilities; systematic elimination, not guesswork, lands on the answer.",
+   "formula": "",
+   "key_idea": "Every clue is a filter: apply them in order and the answer has no room left to hide.",
+   "textbook_ref": "gegp106.txt, Number reasoning",
+   "question_patterns": [
+    "guess the two digit number from the given clues",
+    "which clue narrowed the possibilities the most",
+    "list all numbers satisfying bigger than 40 and even",
+    "make a clue puzzle for the number 36",
+    "why should clues be applied in order",
+    "check whether your answer obeys every clue"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp106.txt",
+   "concept": "gegp.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "what could the numbers in the given figure describe?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp106.txt",
+   "concept": "gegp.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "play the number game and state its rule.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp106.txt, Figure it Out",
+   "questions": [
+    "What could the numbers in the given figure describe?",
+    "Play the number game and state its rule.",
+    "Find the next row of the given number arrangement.",
+    "Guess the number from the clues: two digits, even, bigger than 40.",
+    "Make your own number puzzle for a friend."
+   ]
+  }
+ ]
+}

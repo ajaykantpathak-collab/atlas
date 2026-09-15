@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_005",
+   "title": "c12_chem_cbse_08_005",
+   "questions": [
+    {
+     "q": "Write the structure of the tetrahedral alkoxide intermediate formed when ethanal (CH₃CHO) reacts with hydrogen cyanide (HCN) in the presence of a base catalyst. Show all bonds, lone pairs, and formal charges.",
+     "a": "The intermediate is CH₃–CH(OH)–C≡N with a negative charge on oxygen: CH₃–CH(–O⁻)–CN. The carbon originally sp² becomes sp³ tetrahedral. The CN⁻ attacks the carbonyl carbon, π-electrons move to oxygen giving O⁻. A common wrong answer shows the protonated product (cyanohydrin CH₃–CH(OH)–CN) directly, skipping the alkoxide intermediate. This reveals the student does not understand the two-step nature: nucleophilic addition first (rate-determining), then protonation. Another error: drawing the CN attached to oxygen instead of carbon, confusing nucleophilic vs electrophilic sites.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why propanal (CH₃CH₂CHO) is more reactive than propanone (CH₃COCH₃) towards nucleophilic addition reactions. Use both steric and electronic arguments.",
+     "a": "Propanal has one alkyl group (ethyl) and one H attached to carbonyl carbon; propanone has two alkyl groups (methyl). Sterically: H is smaller than CH₃, so nucleophile approaches carbonyl carbon more easily in propanal. Electronically: alkyl groups are electron-donating (+I effect); two alkyl groups in propanone donate more electron density to the carbonyl carbon, reducing its δ⁺ charge (electrophilicity) compared to propanal with only one alkyl group. A wrong answer citing only steric or only electronic factor is incomplete. Saying \"ketones are less reactive because they have two R groups\" without explaining +I effect or steric bulk shows superficial memorisation. The key is recognising both factors operate simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major product and write the balanced chemical equation when butan-2-one (CH₃COCH₂CH₃) reacts with phenylmagnesium bromide (C₆H₅MgBr) followed by hydrolysis with dilute H₃O⁺.",
+     "a": "Step 1: Grignard reagent (C₆H₅⁻ equivalent) attacks carbonyl carbon of butan-2-one → tetrahedral alkoxide: CH₃–C(OMgBr)(C₆H₅)–CH₂CH₃. Step 2: Acidic hydrolysis (H₃O⁺) protonates the alkoxide → tertiary alcohol: CH₃–C(OH)(C₆H₅)–CH₂CH₃ (2-phenylbutan-2-ol). Balanced equation: CH₃COCH₂CH₃ + C₆H₅MgBr → (after H₃O⁺) CH₃C(OH)(C₆H₅)CH₂CH₃ + Mg(OH)Br. Common error: writing a secondary alcohol product (forgetting Grignard adds R group, so ketone → tertiary alcohol). Another error: omitting the hydrolysis step and stopping at the MgBr salt. This reveals confusion between nucleophilic addition to aldehydes (gives secondary alcohol) vs ketones (gives tertiary alcohol).",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in increasing order of reactivity towards nucleophilic addition: benzaldehyde, p-nitrobenzaldehyde, p-methylbenzaldehyde, acetophenone. Justify your order.",
+     "a": "Order: acetophenone < p-methylbenzaldehyde < benzaldehyde < p-nitrobenzaldehyde.\nReasoning: Acetophenone is a ketone (two carbon substituents: phenyl + methyl) → least reactive. Among benzaldehydes: p-CH₃ is electron-donating (+I, +H), reduces δ⁺ on carbonyl carbon → less reactive than benzaldehyde. p-NO₂ is strongly electron-withdrawing (-I, -R), increases δ⁺ on carbonyl carbon → most reactive. Benzaldehyde is intermediate. Common error: placing p-methylbenzaldehyde above benzaldehyde (thinking methyl activates the ring, but it donates electrons to carbonyl, reducing electrophilicity). Another error: ranking acetophenone above benzaldehydes due to phenyl group resonance, forgetting ketone sterics + two carbon groups dominate.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of acetone with ethanol under dry HCl as: (CH₃)₂C=O + CH₃CH₂OH → (CH₃)₂C(OCH₂CH₃)₂ (acetal) directly. Identify the error and write the correct stepwise process including the intermediate.",
+     "a": "Error: The reaction proceeds via a hemiacetal intermediate, not directly to acetal. Correct steps: (1) Dry HCl protonates carbonyl oxygen → increases electrophilicity of carbonyl carbon. (2) Ethanol attacks → tetrahedral alkoxide → proton transfer gives hemiacetal: (CH₃)₂C(OH)OCH₂CH₃. (3) Under acid, hemiacetal OH is protonated → water leaves → carbocation-like oxonium ion. (4) Second ethanol molecule attacks → proton loss gives acetal: (CH₃)₂C(OCH₂CH₃)₂. The student's equation skips the hemiacetal and the acid-catalysed dehydration step. This reveals misunderstanding that acetal formation is a two-addition process with water elimination, not a single concerted addition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a chemical test using nucleophilic addition reactions to distinguish between: (a) propanal and propanone, (b) benzaldehyde and acetophenone. Specify the reagent, observation, and chemical basis for each distinction.",
+     "a": "(a) Propanal vs propanone: Use Tollens' reagent (ammoniacal AgNO₃). Propanal (aldehyde) gives silver mirror (Ag⁰ deposit); propanone (ketone) does not react. Basis: Aldehydes oxidise to carboxylates reducing Ag⁺ to Ag; ketones lack α-H on carbonyl carbon and resist mild oxidation. Alternative: Fehling's test (red ppt Cu₂O for propanal only). (b) Benzaldehyde vs acetophenone: Use NaHSO₃ addition. Benzaldehyde (aldehyde) gives white crystalline bisulfite addition product (soluble, precipitates); acetophenone (ketone) does not form stable addition product (equilibrium lies left due to steric hindrance from phenyl + methyl). Basis: Aldehydes form stable bisulfite adducts; most ketones (especially aryl alkyl ketones) do not. A poor answer uses only Tollens' for both pairs (works for a but not reliable for b as aromatic aldehydes give Tollens' but so do some α-hydroxy ketones). The test must exploit the aldehyde/ketone difference in nucleophilic addition equilibrium, not just oxidation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

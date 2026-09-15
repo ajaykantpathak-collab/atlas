@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_002",
+   "title": "c12_cs_cbse_13_002",
+   "questions": [
+    {
+     "q": "Define the term 'Digital Divide' and list its three levels as per the OECD/UN framework.",
+     "a": "Digital Divide is the gap between those who have access to ICTs and the skills to use them effectively and those who do not. The three levels are: (1) First-level divide: Physical access to devices and connectivity. (2) Second-level divide: Differences in digital skills, usage patterns, and quality of access (e.g., broadband vs. mobile-only). (3) Third-level divide: Differences in tangible outcomes (education, income, health, civic participation) resulting from digital use. A wrong answer that only mentions 'access to computers' reveals the misconception that the divide is purely about hardware availability, ignoring skills and outcome disparities.",
+     "self_check": true
+    },
+    {
+     "q": "A government program distributes free tablets to all Class 10 students in a district. After one year, an evaluation shows no improvement in learning outcomes for girls from low-income families, while boys from the same families show moderate gains. Explain this using the concept of second and third-level digital divide.",
+     "a": "The tablet distribution addresses only the first-level divide (access). The persistent gap for girls indicates second-level divides: (a) usage differences — girls may have less time for self-study due to domestic chores, or face social restrictions on device usage; (b) skill differences — lack of prior exposure reduces effective utilization. The third-level divide manifests as no improvement in learning outcomes (the ultimate goal). A wrong answer blaming 'lack of interest' ignores structural barriers like gendered time poverty and social norms that shape usage patterns even when hardware is provided.",
+     "self_check": true
+    },
+    {
+     "q": "A rural telecentre offers free Wi-Fi and computers but sees low usage by farmers for accessing market prices (e.g., e-NAM). Identify three distinct barriers from different categories (infrastructure, affordability, digital literacy, language, relevance) and propose one targeted intervention for each.",
+     "a": "Barriers and interventions: (1) Infrastructure: Power outages make centre unreliable → Intervention: Solar backup + battery storage. (2) Digital literacy: Farmers lack skills to navigate e-NAM portal → Intervention: Voice-based IVR system in local dialect for price queries. (3) Language/Relevance: Portal only in English/Hindi, not local language; farmers distrust online prices → Intervention: Local language interface + trusted local intermediary (e.g., FPO coordinator) to verify and disseminate prices. A wrong answer listing only 'illiteracy' misses the multi-dimensional nature of the divide and fails to match intervention to barrier type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the digital divide in urban India (e.g., Mumbai slums) versus rural India (e.g., tribal Odisha) across the three levels. Which level shows the widest gap in each context and why?",
+     "a": "Urban slums: First-level gap narrowed by mobile penetration (cheap 4G), but second-level gap widest — device sharing, limited data, low digital literacy, and precarious connectivity (congestion) limit meaningful use. Rural tribal: First-level gap widest — no fiber, poor mobile coverage, unreliable electricity; second-level gap exacerbated by language barriers and low literacy; third-level gap severe as digital services (banking, telemedicine, scholarships) remain inaccessible. A wrong answer claiming 'urban divide is solved because everyone has smartphones' ignores the critical distinction between *access* and *meaningful use* (second-level divide).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Providing free smartphones to all BPL families will eliminate the digital divide in India within five years.\" Use the three-level framework and at least two structural factors beyond device ownership.",
+     "a": "The statement is flawed because it targets only first-level divide (device ownership). Structural factors it ignores: (1) Recurring affordability: Data costs, electricity for charging, repair/replacement costs persist. (2) Digital literacy: Without training, smartphones become entertainment devices, not tools for education/livelihood. (3) Gender/social norms: Women/girls may be denied usage time or monitored. (4) Content relevance: Lack of local-language, low-bandwidth apps for agriculture, health, governance. (5) Infrastructure: Last-mile connectivity (tower density, backhaul) remains weak in remote areas. A wrong answer agreeing with the statement reflects a hardware-centric view that fails to account for the socio-technical ecosystem required for meaningful digital inclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based digital inclusion program for a tribal block with 40% smartphone penetration but <5% usage of government e-services (e.g., PM-KISAN, Ayushman Bharat). Specify: (a) target groups, (b) three activities addressing different divide levels, (c) one measurable outcome indicator per activity.",
+     "a": "(a) Target groups: Tribal women (SHG members), youth (15-25), elderly (for pension/health). (b) Activities: 1. First-level: Community Wi-Fi mesh network at Panchayat Bhavan with solar power (Indicator: % households within 500m of reliable hotspot). 2. Second-level: 'Digital Sathi' peer-training by trained youth in local dialect using voice/video tutorials for e-service navigation (Indicator: % trained users completing a target transaction independently). 3. Third-level: Monthly 'e-Seva Camp' with CSC-VLE assistance for actual benefit enrollment (Indicator: % increase in successful PM-KISAN/Ayushman registrations over 6 months). A poor answer focusing only on 'computer classes' misses the need for infrastructure, mediated usage, and outcome-linked support.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

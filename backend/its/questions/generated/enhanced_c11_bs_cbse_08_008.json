@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_008",
+   "title": "c11_bs_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define trade credit and state how it appears in the buyer's books of accounts.",
+     "a": "Trade credit is the credit extended by a supplier to a buyer for purchasing goods/services, allowing deferred payment. In the buyer's books, it appears as 'Sundry Creditors' or 'Accounts Payable' under current liabilities. A wrong answer (e.g., \"appears as accounts receivable\" or \"recorded as a loan\") reveals confusion between the buyer's and seller's perspective or misclassification of spontaneous financing vs. negotiated debt.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why trade credit is considered a 'spontaneous' source of finance, whereas factoring is a 'negotiated' source.",
+     "a": "Trade credit arises automatically in the normal course of purchase transactions without separate negotiation for each transaction (terms are pre-set), making it spontaneous. Factoring requires a formal agreement with a factor, negotiation of advance rate, discount charge, and service fee, making it negotiated. A wrong answer (e.g., \"both are spontaneous\" or \"trade credit requires a contract\") indicates failure to distinguish the operational nature of the two sources.",
+     "self_check": true
+    },
+    {
+     "q": "A firm purchases goods on terms '2/15 net 45'. Calculate the effective annual cost of forgoing the cash discount. Assume 360 days in a year.",
+     "a": "Step 1: Discount % = 2%, Discount period = 15 days, Net period = 45 days. Step 2: Days credit is extended beyond discount period = 45 - 15 = 30 days. Step 3: Cost for 30 days = Discount% / (100 - Discount%) = 2/98 = 0.020408. Step 4: Annualize = (0.020408) * (360/30) = 0.2449 = 24.49%. A wrong answer (e.g., using 45 days instead of 30, or not annualizing) reveals misunderstanding of the implicit interest cost of trade credit and the correct annualization method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare recourse and non-recourse factoring on the basis of bad debt risk, factor's fee, and client's balance sheet treatment.",
+     "a": "In recourse factoring, the client bears bad debt risk (factor can reclaim advance if debtor defaults), factor's fee is lower, and the receivable may remain on client's balance sheet with a contingent liability note. In non-recourse factoring, the factor bears bad debt risk, fee is higher (includes credit insurance premium), and the receivable is derecognized (removed from balance sheet) as risks/rewards transfer. A wrong answer (e.g., \"non-recourse has lower fee\" or \"risk stays with client in both\") shows confusion about risk transfer and its pricing.",
+     "self_check": true
+    },
+    {
+     "q": "\"Factoring is always cheaper than bank credit.\" Evaluate this statement with reference to the NCERT text and practical considerations.",
+     "a": "The statement is false. NCERT states factoring is cheaper than *some* other means (merit i), but limitation (ii) says advance finance is at higher interest cost than usual rate, and limitation (i) says it's expensive for numerous small invoices. Bank credit (e.g., cash credit) may have lower interest but requires security, has restrictive covenants, and involves lengthy processing. Factoring's total cost includes discount charge + service fee (1-3%), which may exceed bank interest for large, creditworthy firms. A wrong answer accepting the statement ignores the nuanced cost structure and context-dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a startup with no credit history would prefer factoring over trade credit, and another where an established firm would prefer trade credit. Justify both.",
+     "a": "Startup scenario: A new e-commerce seller with no track record cannot get trade credit from suppliers (who demand COD) but has receivables from creditworthy marketplaces (e.g., Amazon). Factoring converts those receivables to cash without needing the startup's own creditworthiness. Established firm scenario: A 10-year-old manufacturer with strong supplier relationships gets 60-day trade credit at zero explicit cost (if no discount forgone), preserving cash for operations without third-party fees or customer notification. A poor answer fails to link the firm's credit standing to the accessibility and cost of each source.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_011",
+   "title": "c11_cs_cbse_08_011",
+   "questions": [
+    {
+     "q": "What are the two essential components that every recursive function must have to work correctly?",
+     "a": "Every recursive function must have a **base case** (a condition that stops the recursion by returning a value without further recursive calls) and a **recursive case** (where the function calls itself with a modified argument that moves toward the base case). A wrong answer (e.g., \"only a recursive call\" or \"a loop inside the function\") reveals the student does not understand the termination requirement and may write infinite recursion leading to stack overflow.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the following recursive function:\n```python\ndef mystery(n):\n    if n == 0:\n        return 1\n    else:\n        return n * mystery(n-1)\n```\nExplain in your own words what this function computes and why the base case is `n == 0` returning `1`.",
+     "a": "This function computes the factorial of n (n!). The base case `n == 0` returns 1 because 0! is mathematically defined as 1, and it ensures the recursion stops when n reaches 0. A wrong explanation (e.g., \"it computes the sum of numbers\" or \"base case should be n==1\") reveals confusion between factorial and other recursive patterns, or misunderstanding of the mathematical definition of 0!.",
+     "self_check": true
+    },
+    {
+     "q": "Write a recursive function `sum_digits(n)` that returns the sum of the digits of a positive integer n. For example, `sum_digits(123)` should return 6. Use the hint: `n % 10` gives the last digit, `n // 10` removes the last digit.",
+     "a": "```python\ndef sum_digits(n):\n    if n < 10:\n        return n\n    else:\n        return (n % 10) + sum_digits(n // 10)\n```\nSteps: base case when n is a single digit (n < 10), return n. Recursive case: add last digit (n%10) to sum of remaining digits (sum_digits(n//10)). A wrong answer (e.g., using a loop, or incorrect base case like `n == 0`) shows inability to decompose the problem into a smaller subproblem of the same type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recursive and iterative implementations of factorial in terms of memory usage (call stack) and readability. When would you prefer recursion over iteration for this problem?",
+     "a": "Recursive factorial uses O(n) call stack space because each call waits for the next to return, while iterative factorial uses O(1) space. Recursion is often more readable because it directly mirrors the mathematical definition (n! = n × (n-1)!). Prefer recursion when the problem is naturally recursive (e.g., tree traversal, Tower of Hanoi) and n is small enough to avoid stack overflow. A wrong answer (e.g., \"recursion is always faster\" or \"iteration uses more memory\") indicates a misconception about space complexity and the trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following recursive function to compute the nth Fibonacci number:\n```python\ndef fib(n):\n    if n <= 1:\n        return n\n    else:\n        return fib(n-1) + fib(n-2)\n```\nCritique this implementation for n = 50. Is it efficient? If not, why, and what technique could improve it without changing the recursive structure?",
+     "a": "This implementation is extremely inefficient for n=50 because it recalculates the same subproblems exponentially many times (time complexity O(2^n)). The recursion tree has massive overlap. Memoization (caching results) or dynamic programming can reduce it to O(n) while keeping recursion. A wrong answer (e.g., \"it's fine for n=50\" or \"use a loop instead\") shows lack of awareness of exponential time complexity in naive recursion and the concept of overlapping subproblems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a recursive function `is_palindrome(s)` that returns True if the string s is a palindrome (reads the same forwards and backwards), ignoring case and non-alphanumeric characters. Provide the base case(s) and recursive step.",
+     "a": "```python\ndef is_palindrome(s):\n    s = ''.join(ch.lower() for ch in s if ch.isalnum())\n    if len(s) <= 1:\n        return True\n    if s[0] != s[-1]:\n        return False\n    return is_palindrome(s[1:-1])\n```\nBase cases: empty string or single character -> True. First and last characters differ -> False. Recursive step: check substring without first and last characters. A poor answer (e.g., using a loop, or not handling case/non-alphanumeric) reveals inability to translate a string problem into a recursive reduction and handle preprocessing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

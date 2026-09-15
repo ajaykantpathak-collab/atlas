@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_012",
+   "title": "c11_cs_cbse_01_012",
+   "questions": [
+    {
+     "q": "Write the exact sequence of remainders obtained when converting decimal 47 to binary using repeated division by 2, and state the final binary representation.",
+     "a": "Correct sequence: 47÷2=23 rem 1 (LSB), 23÷2=11 rem 1, 11÷2=5 rem 1, 5÷2=2 rem 1, 2÷2=1 rem 0, 1÷2=0 rem 1 (MSB). Reading remainders **bottom-to-top**: 101111₂. A wrong answer like 111101 (reading top-to-bottom) reveals the student confuses LSB/MSB order — they read remainders in generation order instead of reverse order, a fundamental directional error that corrupts all division-based conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why binary `11010110` converts to octal `326` but a student who groups from the left gets `653` — what specific rule about grouping direction prevents this error?",
+     "a": "Grouping **must start from the LSB (rightmost bit)** because positional weight increases leftward (2⁰, 2¹, 2²...). `11010110` grouped right-to-left in 3s: `11 010 110` → pad left group to 3 bits: `011 010 110` → 3, 2, 6 = `326₈`. Left-to-right grouping (`110 101 10` → `6 5 2` with padding) assigns wrong weights: the leftmost group gets 2⁰ weight instead of 2⁶. A student giving `653` reveals they treat grouping as arbitrary chunking rather than respecting positional significance — they miss that octal digits correspond to **contiguous 3-bit weight blocks** (2⁰-2², 2³-2⁵, 2⁶-2⁸...).",
+     "self_check": true
+    },
+    {
+     "q": "Convert hexadecimal `2F7` to decimal, then convert that decimal result to binary. Show both conversions completely.",
+     "a": "Step 1: `2F7₁₆` → decimal: 2×16² + 15×16¹ + 7×16⁰ = 2×256 + 15×16 + 7 = 512 + 240 + 7 = 759₁₀. Step 2: 759₁₀ → binary via division: 759÷2=379 r1, 379÷2=189 r1, 189÷2=94 r1, 94÷2=47 r0, 47÷2=23 r1, 23÷2=11 r1, 11÷2=5 r1, 5÷2=2 r1, 2÷2=1 r0, 1÷2=0 r1. Reading bottom-up: `1011110111₂`. Verification: direct hex→binary: 2=0010, F=1111, 7=0111 → `001011110111` = `1011110111` (leading zeros dropped). A wrong decimal value (e.g., 2×16+15×16+7=79) reveals the student uses digit position as multiplier instead of power of base — they confuse face value with place value.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts octal `745` to hexadecimal by first converting to decimal (485), then to hex (`1E5`). Another student converts `745₈` → binary `111100101` → groups of 4 `1 1110 0101` → hex `1E5`. Compare the two methods: which is more error-prone for large numbers and why? Identify the specific step where the first method introduces maximum risk.",
+     "a": "The decimal-intermediate method (octal→decimal→hex) is more error-prone for large numbers because decimal conversion requires **multi-digit multiplication and addition with base-8 weights** (7×8² + 4×8¹ + 5×8⁰), which involves larger intermediate products (7×64=448) and carries. The binary-intermediate method (octal→binary→hex) uses only **direct 3-bit↔1-octal-digit substitution** (7=111, 4=100, 5=101) and 4-bit grouping — zero arithmetic, pure pattern matching. Maximum risk in first method: the decimal→hex division step (485÷16=30 r5, 30÷16=1 r14, 1÷16=0 r1) where students misread remainder 14 as '14' instead of 'E' or reverse remainder order. A student preferring decimal-intermediate for `745` reveals over-reliance on decimal as \"comfort base\" and lack of fluency in direct base-power relationships (8=2³, 16=2⁴).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For converting between octal and hexadecimal, it is always faster to go through decimal than through binary.\" Defend your position with a concrete example of a 6-digit octal number.",
+     "a": "Claim is **false**. Counterexample: octal `777777₈` (6 digits). Binary-intermediate: each octal digit → 3 bits: `111 111 111 111 111 111` = 18 bits → group 4 from right: `11 1111 1111 1111 1111` → pad: `0011 1111 1111 1111 1111` → hex `3FFFF₁₆` (5 digits). **Zero arithmetic**, pure substitution. Decimal-intermediate: `7×8⁵ + 7×8⁴ + 7×8³ + 7×8² + 7×8¹ + 7×8⁰` = 7×(32768+4096+512+64+8+1) = 7×37449 = 262143₁₀ → repeated division by 16: 6 steps with large quotients. Binary method takes ~10 seconds; decimal method takes ~60 seconds with high arithmetic error risk. A student defending the claim reveals they **underestimate the computational cost of multi-digit base conversion** and overestimate decimal's universality — they don't recognise that binary is the **native bridge** because 8=2³ and 16=2⁴ are exact powers of 2, making binary grouping lossless and arithmetic-free.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conversion algorithm for a hypothetical base-32 system (digits 0-9, A-V) that leverages the binary grouping principle. Specify the group size, digit mapping, and demonstrate with binary `110101101011`.",
+     "a": "Base-32 = 2⁵, so **group size = 5 bits** (since 32=2⁵). Mapping: 00000=0, 00001=1, ..., 01010=10(A), ..., 11111=31(V). Binary `110101101011` (12 bits) → group 5 from right: `11 0101 1010 11` → pad left to 5: `00011 0101 1010 11` wait — 12 bits groups as `011 0101 1010 11` → need 15 bits for 3 groups: pad to `00011 0101 1010 11` no — correct: 12 bits → 3 groups of 5 needs 15 bits: `000 11010 11010 11` → `00011 01011 01011` → 00011=3, 01011=11(B), 01011=11(B) → `3BB₃₂`. A poor answer using group size 4 (hex) or 3 (octal) reveals the student **memorises group sizes without understanding the 2ⁿ relationship** — they don't see that base = 2^group_size is the governing principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

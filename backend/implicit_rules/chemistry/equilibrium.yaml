@@ -1,0 +1,170 @@
+# Implicit Value Rules — Chemistry
+
+rules:
+  # ── Equilibrium ──
+  - rule_id: "IMPL_CHM_001"
+    priority: 10
+    patterns:
+      - "in equilibrium"
+      - "at equilibrium"
+      - "equilibrium is established"
+    conditions:
+      - concept_tag in ["CHM_EQM"]
+    bindings:
+      - symbol: "Q"
+        value: null
+        unit: ""
+        reason: "At equilibrium, Q = K (reaction quotient equals equilibrium constant)."
+        relation: "Q = K"
+    confidence: 1.0
+
+  # ── Standard conditions ──
+  - rule_id: "IMPL_CHM_010"
+    priority: 7
+    patterns:
+      - "STP"
+      - "standard temperature and pressure"
+      - "standard conditions"
+    conditions:
+      - not already_bound["T"]
+      - not already_bound["P"]
+    bindings:
+      - symbol: "T"
+        value: 273.15
+        unit: "K"
+        reason: "STP temperature = 273.15 K (0°C)."
+      - symbol: "P"
+        value: 1.0
+        unit: "atm"
+        reason: "STP pressure = 1 atm."
+    confidence: 1.0
+
+  - rule_id: "IMPL_CHM_011"
+    priority: 6
+    patterns:
+      - "room temperature"
+      - "normal conditions"
+    conditions:
+      - not already_bound["T"]
+    bindings:
+      - symbol: "T"
+        value: 298.15
+        unit: "K"
+        reason: "Room temperature = 298.15 K (25°C)."
+    confidence: 0.9
+
+  # ── Gas constant ──
+  - rule_id: "IMPL_CHM_020"
+    priority: 5
+    patterns:
+      - "gas"
+      - "molar"
+      - "PV"
+      - "ideal gas"
+    conditions:
+      - not already_bound["R"]
+    bindings:
+      - symbol: "R"
+        value: 0.0821
+        unit: "L*atm/(mol*K)"
+        reason: "Gas constant R = 0.0821 L⋅atm/(mol⋅K)."
+    confidence: 0.85
+
+  # ── Avogadro's number ──
+  - rule_id: "IMPL_CHM_030"
+    priority: 5
+    patterns:
+      - "mole"
+      - "moles"
+      - "molar"
+      - "avogadro"
+    conditions:
+      - not already_bound["N_A"]
+    bindings:
+      - symbol: "N_A"
+        value: 6.022e23
+        unit: "/mol"
+        reason: "Avogadro's number N_A = 6.022×10²³ /mol."
+    confidence: 0.9
+
+  # ── Water properties ──
+  - rule_id: "IMPL_CHM_040"
+    priority: 8
+    patterns:
+      - "water"
+      - "aqueous"
+      - "dilute solution"
+      - "in water"
+    conditions:
+      - concept_tag in ["CHM_SOL", "CHM_ION"]
+      - not already_bound["Kw"]
+    bindings:
+      - symbol: "Kw"
+        value: 1.0e-14
+        unit: ""
+        reason: "Ion product of water Kw = 10⁻¹⁴ at 25°C."
+    confidence: 0.9
+
+  - rule_id: "IMPL_CHM_041"
+    priority: 7
+    patterns:
+      - "water"
+      - "aqueous"
+      - "neutral solution"
+    conditions:
+      - concept_tag in ["CHM_ION"]
+      - not already_bound["pH"]
+    bindings:
+      - symbol: "pH"
+        value: 7.0
+        unit: ""
+        reason: "Neutral water has pH = 7 at 25°C."
+    confidence: 0.8
+
+  # ── Faraday's constant ──
+  - rule_id: "IMPL_CHM_050"
+    priority: 5
+    patterns:
+      - "electrolysis"
+      - "faraday"
+      - "electrochemical"
+      - "electrode"
+    conditions:
+      - not already_bound["F"]
+    bindings:
+      - symbol: "F"
+        value: 96485.0
+        unit: "C/mol"
+        reason: "Faraday's constant F = 96485 C/mol."
+    confidence: 0.9
+
+  # ── pH of pure water ──
+  - rule_id: "IMPL_CHM_060"
+    priority: 6
+    patterns:
+      - "strong acid"
+      - "completely dissociated"
+      - "fully ionized"
+    conditions:
+      - concept_tag in ["CHM_ION"]
+    bindings:
+      - symbol: "alpha"
+        value: 1.0
+        unit: ""
+        reason: "Strong acid dissociates completely (α = 1)."
+    confidence: 1.0
+
+  - rule_id: "IMPL_CHM_061"
+    priority: 6
+    patterns:
+      - "weak acid"
+      - "weak base"
+      - "partially dissociated"
+    conditions:
+      - concept_tag in ["CHM_ION"]
+    bindings:
+      - symbol: "alpha"
+        value: null
+        unit: ""
+        reason: "Weak acid/base dissociates partially (α << 1)."
+    confidence: 0.8

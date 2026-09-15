@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 107,
+  "chapter_title": "Understanding Family, Community and Society",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe107.1.1",
+      "title": "From Self to Family: The Widening Lens",
+      "section": "unit",
+      "definition": "Unit II turns the discipline's lens outward: having understood the adolescent self, it now studies the family -- the first and most enduring institution -- and the community and society in which families are embedded and by which they are shaped.",
+      "formula": "",
+      "key_idea": "The self is the starting point; family, community and society are the widening circles it lives within.",
+      "textbook_ref": "kehe107.txt unit opener (unit ii understanding family community and society, from self to family, institutions that shape decision making)",
+      "question_patterns": [
+        "why does the course move from self to family and society",
+        "in class 11 understanding family community and society: what does this unit study",
+        "how is the family connected to the community around it",
+        "what does society contribute to family life",
+        "name the chapters covered under this unit",
+        "relate your family's decisions to social influences"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "recall the earlier lens",
+          "explain": "Unit I studied the self -- identity, food, resources, media -- factors of personal decision making."
+        },
+        {
+          "step": 2,
+          "action": "widen to the family",
+          "explain": "The family adds roles, relationships and shared resources that reshape individual choices."
+        },
+        {
+          "step": 3,
+          "action": "widen to community and society",
+          "explain": "Community institutions and larger social norms frame what families can and do decide."
+        }
+      ]
+    },
+    {
+      "id": "kehe107.1.2",
+      "title": "The Family as the Basic Institution",
+      "section": "unit",
+      "definition": "The family is humanity's basic social institution: it bears and rears children, transmits culture and values, and provides economic and emotional support. Its forms vary -- nuclear, joint, extended, single-parent -- but its functions of care, socialisation and support remain central to every society.",
+      "formula": "",
+      "key_idea": "First school, first economy, first refuge -- the family performs society's most intimate functions.",
+      "textbook_ref": "kehe107.txt unit opener and family sections (family as basic institution, functions of family, types of family, care and support)",
+      "question_patterns": [
+        "why is the family called the basic unit of society",
+        "in class 11 understanding family community and society: what functions does a family perform",
+        "compare nuclear and joint families",
+        "how do families transmit culture to children",
+        "what support does a family provide its members",
+        "how have family forms changed in modern times"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the functions",
+          "explain": "Reproduction and rearing, socialisation into values, economic cooperation, and emotional care define the family's work."
+        },
+        {
+          "step": 2,
+          "action": "note the forms",
+          "explain": "Nuclear, joint, extended and single-parent households all can perform these functions differently."
+        },
+        {
+          "step": 3,
+          "action": "see the continuity",
+          "explain": "Whatever the form, the family links the individual to society's larger patterns."
+        }
+      ]
+    },
+    {
+      "id": "kehe107.1.3",
+      "title": "Community and Society as Frameworks of Family Life",
+      "section": "unit",
+      "definition": "Families never live alone: neighbourhoods, schools, workplaces and services form the community, and larger social structures -- laws, economy, culture -- form society. Understanding family life therefore means reading these frameworks, from community resources to social expectations, that support or strain the household.",
+      "formula": "",
+      "key_idea": "Behind every family stand its community's services and society's rules -- read them to read the family.",
+      "textbook_ref": "kehe107.txt unit opener sections (community and society context, institutions influencing families, resources of the community)",
+      "question_patterns": [
+        "how does the community support family life",
+        "in class 11 understanding family community and society: distinguish community from society",
+        "what social institutions influence the family",
+        "give examples of community resources families use",
+        "how do social expectations shape family decisions",
+        "explain why families cannot be studied in isolation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "map the community",
+          "explain": "Schools, clinics, markets and neighbourhood networks supply the family's daily supports."
+        },
+        {
+          "step": 2,
+          "action": "map the society",
+          "explain": "Laws, economy and cultural norms set the wider terms within which families function."
+        },
+        {
+          "step": 3,
+          "action": "connect both",
+          "explain": "Family decisions -- schooling, work, marriage -- are negotiated between these two frameworks."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe107.txt unit opener",
+      "concept": "kehe107.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Explain why a book for adolescents turns, in Unit II, from the self to the family and society.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the first lens",
+          "explain": "Unit I built self-understanding -- identity, health, resources, media."
+        },
+        {
+          "step": 2,
+          "action": "state the need for the second",
+          "explain": "No self grows outside relationships; family, community and society are where the self acts."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The widening lens mirrors development itself -- from personal to social understanding."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe107.txt family sections",
+      "concept": "kehe107.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A joint family decides together where a cousin will study, while a nuclear family decides alone. Relate both cases to the family's functions.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the shared function",
+          "explain": "Both families perform the same function -- supporting a member's education and future."
+        },
+        {
+          "step": 2,
+          "action": "contrast the forms",
+          "explain": "The joint family pools opinions and resources; the nuclear family concentrates the decision in parents."
+        },
+        {
+          "step": 3,
+          "action": "draw the lesson",
+          "explain": "Forms vary, functions persist -- the chapter's view of the family as a basic institution."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe107.txt unit questions, reworded",
+      "questions": [
+        "Why is the family called the basic social institution?",
+        "List the functions of a family with examples.",
+        "Compare community and society as frameworks of family life.",
+        "How do community resources support a household?",
+        "Trace how the course moves from self to society across its units.",
+        "Discuss how social expectations influence family decisions."
+      ]
+    }
+  ]
+}

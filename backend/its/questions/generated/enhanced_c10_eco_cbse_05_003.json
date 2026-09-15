@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_003",
+   "title": "c10_eco_cbse_05_003",
+   "questions": [
+    {
+     "q": "Who is considered a \"consumer\" under the Consumer Protection Act 1986? Give the precise legal definition including the two categories of transactions covered.",
+     "a": "A consumer under COPRA 1986 is any person who: (i) buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment; OR (ii) hires or avails of any services for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment. It excludes a person who obtains goods for resale or for any commercial purpose, but includes a person who uses goods exclusively for earning livelihood by self-employment. A wrong answer (e.g., \"anyone who buys something\") reveals the student does not understand the \"consideration\" requirement and the \"commercial purpose\" exclusion — both are board exam traps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why COPRA 1986 established a three-tier quasi-judicial machinery instead of letting consumers go to regular civil courts. Connect this to the economic concept of transaction costs.",
+     "a": "Regular civil courts involve high transaction costs: expensive lawyers, court fees proportional to claim value, complex procedures, and years of delay. COPRA's three-tier machinery (District Forum, State Commission, National Commission) reduces these costs by: (a) allowing consumers to argue their own case without lawyers, (b) nominal court fees (₹100-₹5000 based on claim), (c) summary procedure with 90-150 day disposal targets, and (d) pecuniary jurisdiction limits ensuring small claims stay at local level. A wrong answer focusing only on \"speed\" without mentioning transaction costs reveals the student misses the economic rationale — this is a classic board exam \"explain the need\" question requiring the transaction cost concept from Class 9 (c9_eco_ch1_3 opportunity cost).",
+     "self_check": true
+    },
+    {
+     "q": "A consumer purchases a refrigerator for ₹42,000. It develops a cooling defect within the warranty period. The manufacturer refuses repair. At which forum should the consumer file the complaint? What is the maximum court fee? If the consumer appeals the District Forum order, what is the time limit and required deposit?",
+     "a": "Step 1: Identify claim value = ₹42,000 (price of refrigerator).\nStep 2: Check pecuniary jurisdiction: District Forum handles claims up to ₹20 lakh (₹1 crore under 2019 Act, but Class 10 follows 1986 Act with 2002 amendment limits). Since ₹42,000 < ₹20 lakh → District Forum.\nStep 3: Court fee for claims up to ₹1 lakh = ₹100 (as per 2002 amendment fee structure).\nStep 4: Appeal from District Forum to State Commission must be filed within 30 days.\nStep 5: Appeal requires deposit of 50% of the amount ordered by District Forum or ₹25,000, whichever is less.\nAnswer: District Forum; ₹100 court fee; 30 days for appeal with 50% deposit or ₹25,000 (whichever less). A wrong forum choice (e.g., State Commission) reveals confusion about pecuniary limits — a common 1-mark error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"defect\" in goods and \"deficiency\" in services under COPRA 1986. Give one example each from the healthcare and automobile sectors. Why does this distinction matter for the burden of proof?",
+     "a": "Defect (Section 2(1)(f)): Any fault, imperfection, or shortcoming in the quality, quantity, potency, purity, or standard of goods required by law or contract. Example: Car sold with faulty airbags that don't deploy — defect in goods.\nDeficiency (Section 2(1)(g)): Any fault, imperfection, shortcoming, or inadequacy in the quality, nature, or manner of performance of a service required by law or contract. Example: Hospital fails to provide timely emergency care leading to patient harm — deficiency in service.\nDistinction matters because: For goods, defect is often objectively verifiable (testing, standards like ISI). For services, deficiency involves assessing \"manner of performance\" which is subjective — the burden shifts to the service provider to prove reasonable care was taken (e.g., medical negligence cases). A student who gives identical definitions or same-sector examples reveals they memorised words without understanding the goods vs. services legal framework.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"COPRA 1986 completely solved the problem of consumer exploitation in India.\" Use three specific limitations of the 1986 Act to support your evaluation.",
+     "a": "The statement is false. Three limitations of COPRA 1986:\n1. **No penalty for misleading advertisements** — celebrities endorsing harmful products faced no liability (addressed only in 2019 Act).\n2. **No provision for product liability** — manufacturers not strictly liable for harm from defective products; consumer had to prove negligence.\n3. **Vacancies and delays in forums** — by 2019, 400+ posts vacant across forums, defeating the \"speedy justice\" objective; pendency exceeded 5 lakh cases.\n4. **E-commerce not covered** — Act predates online shopping; no clarity on liability of aggregators like food delivery apps.\n5. **No central regulator** — unlike TRAI for telecom, no central consumer protection authority existed.\nEvaluation must acknowledge COPRA 1986 was a landmark but incomplete — the 2019 Act addressed these gaps. A student saying \"it solved everything\" or giving vague limitations like \"people don't know\" reveals lack of critical evaluation skill needed for 3-5 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a consumer awareness poster for your school notice board that explains: (a) who is a consumer under COPRA, (b) the three forums with their monetary limits, and (c) two reliefs a consumer can seek. Use simple language and a real-life example.",
+     "a": "A good answer includes:\n- **Who is a consumer**: \"You are a consumer if YOU paid for a phone, haircut, or tuition — NOT if your dad bought it for resale.\"\n- **Three forums**: District Forum (up to ₹20 lakh) → State Commission (₹20 lakh - ₹1 crore) → National Commission (above ₹1 crore). [Note: Class 10 uses 1986 Act limits as per NCERT]\n- **Two reliefs**: (1) Replacement of goods / removal of defect, (2) Refund of price paid + compensation for loss/injury.\n- **Real example**: \"Riya bought a ₹15,000 mixer that sparked. She filed at District Forum (₹100 fee), got full refund + ₹5,000 compensation.\"\nPoor answer: Copies textbook definitions verbatim, uses wrong monetary limits (e.g., 2019 Act limits), or omits the \"commercial purpose\" exclusion. This reveals inability to translate legal text into actionable knowledge — a key competency for case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_008",
+   "title": "c6_geography_ch02_008",
+   "questions": [
+    {
+     "q": "What is the most important factor that distinguishes \"weather\" from \"climate\"?",
+     "a": "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years). A wrong answer suggests the student confuses the two as synonyms rather than seeing the duration as the key.",
+     "self_check": true
+    },
+    {
+     "q": "If a news reporter says, \"Today is very hot in Delhi,\" are they talking about weather or climate? Why?",
+     "a": "They are talking about weather because it refers to a specific, short-term condition on one day. If the student says \"climate,\" they likely think any mention of temperature is climate, ignoring the \"today\" aspect.",
+     "self_check": true
+    },
+    {
+     "q": "If someone says, \"Mumbai usually has a hot and humid climate,\" why is it incorrect to call this \"weather\"?",
+     "a": "It is incorrect because it describes a long-term pattern, not a single day's event. A wrong answer shows the student does not understand that \"usually\" implies a long-term average, which is the definition of climate.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this: Why can the weather change within a few hours, but the climate of a place remains mostly the same for years?",
+     "a": "Weather changes quickly because atmospheric conditions like wind or clouds shift rapidly; climate is an average, so one rainy day doesn't change a 30-year trend. A wrong answer suggests the student thinks the atmosphere is static or that climate can shift as easily as a morning breeze.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The climate of my city was rainy yesterday.\" Is this logically sound?",
+     "a": "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday.\" Confusing these shows the student is not yet applying the \"time duration\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where you would need to check the \"climate\" of a region rather than the \"weather.\"",
+     "a": "A good answer would involve planning a long-term move to a new city or deciding what kind of crops to plant for the whole year. A poor answer would focus on short-term tasks like \"checking if I need an umbrella for school,\" which relates only to weather.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

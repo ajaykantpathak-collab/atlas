@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class7_social_ch5",
+ "concepts": [
+  {
+   "id": "c7ss.5.1",
+   "title": "Mauryan Empire and Chandragupta Maurya",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mauryan Empire and Chandragupta Maurya' refers to.",
+     "a": "The Mauryan Empire, founded by Chandragupta Maurya around 321 BCE, was the first major empire to unify most of the Indian subcontinent. Chandragupta overthrew the Nanda dynasty with the guidance of his mentor Chanakya (Kautilya) and established his capital at Pataliputra.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mauryan Empire and Chandragupta Maurya'.",
+     "a": "Chandragupta Maurya established the first pan-Indian empire by defeating the Nandas, guided by Chanakya, and laid the administrative foundation that his successors would expand.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mauryan Empire and Chandragupta Maurya' taught, and from which source text?",
+     "a": "Foundations of the Mauryan Empire",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.2",
+   "title": "Ashoka and his Policy of Dhamma",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ashoka and his Policy of Dhamma' refers to.",
+     "a": "Ashoka, the grandson of Chandragupta Maurya, ruled the Mauryan Empire at its peak. After the Kalinga war, he embraced Buddhism and propagated the policy of Dhamma, a moral code emphasising non-violence, tolerance, respect for elders, and welfare of all beings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ashoka and his Policy of Dhamma'.",
+     "a": "The Kalinga war was a turning point after which Ashoka renounced violence and adopted Dhamma, promoting moral governance and social harmony.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ashoka and his Policy of Dhamma' taught, and from which source text?",
+     "a": "Ashoka's Reign and Dhamma",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.3",
+   "title": "Mauryan Administration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mauryan Administration' refers to.",
+     "a": "The Mauryan Empire had a highly centralised administration described in Kautilya's Arthashastra. The empire was divided into provinces, each governed by royal princes or trusted officials, with a hierarchy of ministers, spies, and revenue collectors supporting the emperor at Pataliputra.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mauryan Administration'.",
+     "a": "A centralised bureaucratic structure with provinces, district officials, and a spy system enabled the Mauryas to govern a vast territory efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mauryan Administration' taught, and from which source text?",
+     "a": "Administration of the Empire",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.4",
+   "title": "Economy under the Mauryas",
+   "questions": [
+    {
+     "q": "Using the method 'Economy under the Mauryas', work with: craft_taxes = 5, e = 20, g = 10, produce = 5, tax_rate = 8, trade_duties = 360. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "405 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Economy under the Mauryas' and work with: craft_taxes = 8, e = 75, g = 150, produce = 12, tax_rate = 15, trade_duties = 150. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "338 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Economy under the Mauryas' refers to.",
+     "a": "The Mauryan economy was based on agriculture, trade, and crafts. The state owned large farms and mines, collected taxes from farmers and traders, and maintained roads and irrigation. Pataliputra was a major centre for trade and commerce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economy under the Mauryas'.",
+     "a": "State-controlled agriculture, taxation, and trade formed the economic backbone of the Mauryan Empire, with the treasury funding administration and the military.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Economy under the Mauryas' taught, and from which source text?",
+     "a": "Economic Life in the Mauryan Period",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.5",
+   "title": "Ashoka's Edicts and the Spread of Buddhism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ashoka's Edicts and the Spread of Buddhism' refers to.",
+     "a": "Ashoka inscribed his policies and teachings on rocks and pillars across the empire in the form of edicts, written in Prakrit using the Brahmi and Kharoshthi scripts. He also sent Buddhist missions, including one led by his son Mahendra and daughter Sanghamitra, to Sri Lanka and other regions to spread Buddhism.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ashoka's Edicts and the Spread of Buddhism'.",
+     "a": "Ashoka's rock and pillar edicts are the earliest decipherable inscriptions in India and served as a tool to spread Dhamma and Buddhism across and beyond the subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ashoka's Edicts and the Spread of Buddhism' taught, and from which source text?",
+     "a": "Ashoka's Inscriptions and Buddhist Missions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.6",
+   "title": "Decline of the Mauryan Empire",
+   "questions": [
+    {
+     "q": "Using the method 'Decline of the Mauryan Empire', work with: bce_v = 100, brihadratha_v = 45, by = 25, killed = 5, pushyamitra_v = 3, years = 500. Carry the chain through step by step and give the final value of empire_end.",
+     "a": "185 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Decline of the Mauryan Empire' and work with: bce_v = 6, brihadratha_v = 5, by = 100, killed = 80, pushyamitra_v = 10, years = 1000. Carry the chain through step by step and give the final value of empire_end.",
+     "a": "185 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Decline of the Mauryan Empire' refers to.",
+     "a": "After Ashoka's death around 232 BCE, the Mauryan Empire gradually weakened due to weak successors, financial strain, administrative inefficiency, and pressure from external invasions. The last Mauryan ruler, Brihadratha, was assassinated by his general Pushyamitra Shunga around 185 BCE, ending the empire.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Decline of the Mauryan Empire'.",
+     "a": "The decline of the Mauryan Empire resulted from a combination of weak successors, economic difficulties, decentralisation, and the rise of regional powers after Ashoka's death.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Decline of the Mauryan Empire' taught, and from which source text?",
+     "a": "Fall of the Mauryas",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.7",
+   "title": "Foreign Invasions: Indo-Greeks and Kushanas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Foreign Invasions: Indo-Greeks and Kushanas' refers to.",
+     "a": "After the decline of the Mauryas, northwestern India was invaded by several foreign groups. The Indo-Greeks, led by rulers like Menander, were the first. They were followed by the Shakas, Parthians, and Kushanas. The Kushanas, under Kanishka, established a vast empire spanning Central Asia and northern India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Foreign Invasions: Indo-Greeks and Kushanas'.",
+     "a": "Successive foreign invasions through the northwest brought new cultural influences, trade connections, and political structures, with the Kushanas becoming the most powerful of these groups.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Foreign Invasions: Indo-Greeks and Kushanas' taught, and from which source text?",
+     "a": "Post-Mauryan Foreign Invasions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.5.8",
+   "title": "The Satavahanas and their Contribution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Satavahanas and their Contribution' refers to.",
+     "a": "The Satavahanas, also known as the Andhras, ruled parts of central and southern India from around the 1st century BCE to the 3rd century CE. Their most famous ruler was Gautamiputra Satakarni. They promoted trade, issued lead and potin coins, and patronised both Buddhism and Brahmanism.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Satavahanas and their Contribution'.",
+     "a": "The Satavahanas were a major regional power after the Mauryas, known for their trade networks, unique coinage, and religious tolerance, bridging northern and southern India.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Satavahanas and their Contribution' taught, and from which source text?",
+     "a": "Regional Powers: The Satavahanas",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

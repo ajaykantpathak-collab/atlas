@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_1",
+   "title": "c9_math_ch7_1",
+   "questions": [
+    {
+     "q": "Which of the following is a random experiment? (a) Adding 5 and 7 (b) Measuring the length of your desk with a ruler (c) Rolling a fair six-sided die (d) Calculating the area of a rectangle with length 5 cm and breadth 3 cm.",
+     "a": "Correct answer: (c) Rolling a fair six-sided die.  \nA wrong answer reveals the student cannot distinguish between a deterministic process (where the outcome is fixed and predictable, like addition or measurement) and a random experiment (where the outcome varies unpredictably despite known possibilities). If a student chooses (a) or (d), they confuse calculation with experimentation. If they choose (b), they confuse measurement (which has a true fixed value) with randomness.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"When I toss a coin, there are three possible outcomes: Head, Tail, or the coin landing on its edge. So the probability of Head is 1/3.\" Explain why this reasoning is flawed for a standard coin toss.",
+     "a": "Correct answer: For a standard coin toss, \"landing on edge\" is an extremely rare event (probability ≈ 0) and is not considered a possible outcome in the idealised model. The two outcomes Head and Tail are equally likely by symmetry of the coin. The student's error is including a practically impossible outcome as equally likely. A wrong answer reveals the student does not understand that \"possible outcomes\" in probability refer to the idealised model's elementary outcomes, not every physically conceivable event, and that equally likely outcomes must be justified by symmetry or design.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 3 red balls, 5 blue balls, and 2 green balls. All balls are identical in size and texture. If you draw one ball without looking, list all possible outcomes and state whether they are equally likely.",
+     "a": "Possible outcomes: Red (R), Blue (B), Green (G). They are NOT equally likely because there are different numbers of each colour: 3 red, 5 blue, 2 green. The probability of drawing a blue ball is higher than red or green. A wrong answer (saying they are equally likely) reveals the student thinks \"possible outcomes\" are always equally likely, confusing the set of outcomes with the assumption of equal likelihood. They must learn that equally likely outcomes require each outcome to have the same chance, which depends on the composition of the bag.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two random experiments:  \nExperiment A: Toss a fair coin twice.  \nExperiment B: Toss two fair coins simultaneously.  \nAre the sample spaces (set of all possible outcomes) the same for both experiments? Justify your answer.",
+     "a": "Yes, the sample spaces are the same: {HH, HT, TH, TT}. In Experiment A, the order of tosses gives first and second toss; in Experiment B, the two coins are distinct (e.g., coin 1 and coin 2) even if tossed together. The outcomes are pairs of results. A wrong answer (saying they are different) reveals the student does not understand that the sample space depends on the set of possible ordered results, not the physical procedure. They may think simultaneous tossing merges HT and TH into one outcome, missing that the coins are distinct objects.",
+     "self_check": true
+    },
+    {
+     "q": "A weather forecast says \"Probability of rain tomorrow is 0.8.\" A student concludes: \"It will definitely rain tomorrow because 0.8 is close to 1.\" Evaluate this conclusion.",
+     "a": "The conclusion is incorrect. Probability 0.8 means there is an 80% chance of rain, but a 20% chance of no rain. It does not guarantee rain; it quantifies uncertainty. A wrong answer reveals the student interprets probability as a deterministic prediction rather than a measure of likelihood. They need to understand that only probability 1 means certainty, and any value less than 1 leaves room for the complementary event.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (different from coin toss, die roll, or drawing balls) that involves a random experiment with exactly 4 equally likely outcomes. Describe the experiment and list the outcomes.",
+     "a": "Example: Spinning a fair spinner divided into 4 equal sectors coloured Red, Blue, Green, Yellow. Outcomes: {Red, Blue, Green, Yellow} – equally likely because sectors are equal. Another: Randomly selecting a day from {Monday, Tuesday, Wednesday, Thursday} (assuming equal chance). A poor answer would be an experiment with outcomes that are not equally likely (e.g., \"weather: sunny, cloudy, rainy, stormy\") or with more/less than 4 outcomes. This reveals the student cannot design a valid random experiment with specified properties, indicating a lack of deep understanding of equally likely outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

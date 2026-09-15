@@ -1,0 +1,572 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Particulate Nature of Matter",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu107.txt",
+ "concepts": [
+  {
+   "id": "c8cu.7.1",
+   "title": "Matter is Made Up of Particles",
+   "section": "7.1",
+   "definition": "All matter, regardless of its state, is made up of extremely tiny particles that are too small to be seen individually; these particles form the building blocks of every substance.",
+   "formula": "",
+   "key_idea": "Matter is particulate in nature and cannot be divided endlessly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how do we know that matter is made up of particles",
+    "what evidence shows that matter is particulate",
+    "explain the particulate nature of matter",
+    "why is matter said to be made up of particles",
+    "describe an activity to show matter is made up of particles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the particulate hypothesis",
+     "explain": "Every substance is composed of very small particles that are invisible to the naked eye."
+    },
+    {
+     "step": 2,
+     "action": "use an activity as evidence",
+     "explain": "Dissolving a small amount of salt or sugar in water shows the level of water barely changes, indicating particles occupy the gaps between water particles."
+    },
+    {
+     "step": 3,
+     "action": "conclude the particulate nature",
+     "explain": "Since the solute spreads uniformly and the volume change is negligible, matter must be made up of tiny particles with spaces between them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student dissolves 10 g of salt in 100 mL of water and finds the water level almost unchanged. What does this indicate about the nature of matter?",
+     "solution": "The salt particles enter the spaces between water particles, so the volume does not increase noticeably. This shows matter is made up of tiny particles with gaps between them.",
+     "answer": "Matter is made up of extremely small particles with spaces between them."
+    },
+    {
+     "question": "Why cannot a substance be divided endlessly and still retain its properties?",
+     "solution": "On continuous division, one reaches the smallest particle that retains the properties of the substance. Beyond this, further division changes the substance, proving the particulate nature of matter.",
+     "answer": "Because matter is made of discrete particles; the smallest particle retains the substance's properties."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How will you show that matter is made up of particles?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does the water level not rise much when sugar is dissolved in it?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.2",
+   "title": "Characteristics of Particles - Small Size and Spaces",
+   "section": "7.2",
+   "definition": "Particles of matter are extremely small in size and there are spaces between them, which allows one substance to spread into another.",
+   "formula": "",
+   "key_idea": "Small particle size and inter-particle spaces explain diffusion and dissolution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the characteristics of particles of matter",
+    "why are particles said to have spaces between them",
+    "how does the small size of particles help in dissolution",
+    "explain the spaces between particles with an activity",
+    "what does the spreading of a drop of ink in water show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the small size",
+     "explain": "Particles are so small that even a tiny crystal contains millions of them."
+    },
+    {
+     "step": 2,
+     "action": "identify the spaces",
+     "explain": "When a substance dissolves, its particles occupy the gaps between the solvent particles, so the total volume changes very little."
+    },
+    {
+     "step": 3,
+     "action": "relate to observations",
+     "explain": "The spreading of ink or potassium permanganate in water demonstrates that particles have spaces between them through which they move."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A few crystals of potassium permanganate are added to a beaker of water. After some time the whole water turns pink. What does this show about the particles?",
+     "solution": "The potassium permanganate particles move into the spaces between water particles and spread throughout, showing particles are small and have spaces between them.",
+     "answer": "Particles are very small and have spaces between them."
+    },
+    {
+     "question": "Why does the volume of water not increase proportionally when a small amount of salt dissolves in it?",
+     "solution": "The salt particles fit into the existing spaces between water particles, so the volume increase is negligible.",
+     "answer": "Because there are spaces between water particles that the salt particles occupy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two characteristics of particles of matter.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe an activity to demonstrate that there are spaces between particles of matter.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.3",
+   "title": "Continuous Motion of Particles",
+   "section": "7.3",
+   "definition": "Particles of matter are in continuous motion and possess kinetic energy; this motion increases with temperature.",
+   "formula": "",
+   "key_idea": "Particles move constantly; higher temperature means greater kinetic energy and faster motion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why are particles of matter in continuous motion",
+    "what is kinetic energy of particles",
+    "how does temperature affect the motion of particles",
+    "explain the continuous movement of particles with an example",
+    "why does diffusion become faster at higher temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the nature of motion",
+     "explain": "Particles possess kinetic energy and are never at rest; they move continuously in all directions."
+    },
+    {
+     "step": 2,
+     "action": "relate to temperature",
+     "explain": "As temperature rises, the kinetic energy of particles increases, so they move faster."
+    },
+    {
+     "step": 3,
+     "action": "link to diffusion",
+     "explain": "Because particles move continuously, they mix with each other on their own, which is the process of diffusion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the smell of hot cooked food reach us from a greater distance than cold food?",
+     "solution": "At higher temperature the particles of the aroma have greater kinetic energy and move faster, so they diffuse quickly and reach us from farther away.",
+     "answer": "Higher temperature increases particle motion, speeding up diffusion."
+    },
+    {
+     "question": "A drop of ink in hot water spreads faster than in cold water. Give the reason.",
+     "solution": "In hot water the particles have more kinetic energy and move faster, so the ink spreads more quickly.",
+     "answer": "Increased kinetic energy at higher temperature speeds up diffusion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are particles of matter always in motion?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does temperature affect the kinetic energy of particles?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.4",
+   "title": "Attraction Between Particles",
+   "section": "7.4",
+   "definition": "Particles of matter attract each other; the strength of this inter-particle force of attraction varies between solids, liquids, and gases.",
+   "formula": "",
+   "key_idea": "The force of attraction is strongest in solids, moderate in liquids, and negligible in gases.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the force of attraction between particles",
+    "why do solids have a definite shape",
+    "how does the attraction between particles differ in solids liquids and gases",
+    "why is it difficult to break a solid but easy to separate a gas",
+    "explain inter-particle attraction with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the attractive force",
+     "explain": "Particles of matter attract each other, and this force holds them together."
+    },
+    {
+     "step": 2,
+     "action": "compare across states",
+     "explain": "In solids the attraction is very strong, in liquids it is moderate, and in gases it is very weak."
+    },
+    {
+     "step": 3,
+     "action": "explain the consequence",
+     "explain": "Because of the strong attraction, solids have a definite shape and are hard to break, whereas gases have particles that move freely and are easy to separate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a solid like iron have a fixed shape while a gas does not?",
+     "solution": "In iron the particles are held by a very strong force of attraction keeping them in fixed positions, giving a definite shape. In a gas the attraction is negligible, so particles move freely and have no fixed shape.",
+     "answer": "Solids have strong inter-particle attraction; gases have negligible attraction."
+    },
+    {
+     "question": "Why is it easier to separate the particles of a gas than those of a solid?",
+     "solution": "The force of attraction between gas particles is very weak, so little energy is needed to separate them. In solids the attraction is strong, requiring much more energy.",
+     "answer": "Because the inter-particle force of attraction is much weaker in gases than in solids."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Arrange solids, liquids, and gases in order of increasing force of attraction between particles.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do solids have a definite shape but liquids do not?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.5",
+   "title": "States of Matter - Solid, Liquid, Gas",
+   "section": "7.5",
+   "definition": "Matter exists in three states -- solids, liquids, and gases -- which differ in the arrangement, spacing, and movement of their particles.",
+   "formula": "",
+   "key_idea": "The three states of matter are distinguished by particle arrangement, spacing, and kinetic energy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the three states of matter",
+    "how do solids liquids and gases differ in particle arrangement",
+    "compare the properties of solids liquids and gases",
+    "why do gases have no fixed shape or volume",
+    "describe the characteristics of the three states of matter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe solids",
+     "explain": "In solids particles are packed tightly with strong attraction; they have a definite shape and volume and are incompressible."
+    },
+    {
+     "step": 2,
+     "action": "describe liquids",
+     "explain": "In liquids particles are less tightly packed; they have a definite volume but take the shape of the container and can flow."
+    },
+    {
+     "step": 3,
+     "action": "describe gases",
+     "explain": "In gases particles are far apart with weak attraction; they have no fixed shape or volume, fill the container, and are highly compressible."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A substance has a definite volume but no definite shape. Which state of matter is it?",
+     "solution": "A definite volume with no definite shape is the characteristic of a liquid, whose particles are moderately packed and can flow.",
+     "answer": "Liquid"
+    },
+    {
+     "question": "Why can a gas be compressed easily but a solid cannot?",
+     "solution": "Gas particles are far apart with large spaces between them, so they can be pushed closer. Solid particles are already tightly packed with little space, so they resist compression.",
+     "answer": "Gases have large inter-particle spaces; solids have negligible spaces."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Tabulate the differences in the properties of solids, liquids, and gases.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do gases fill the container completely?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.6",
+   "title": "Interconversion of States of Matter",
+   "section": "7.6",
+   "definition": "The states of matter can be changed from one to another by altering temperature or pressure; the key processes are melting, freezing, boiling, condensation, and sublimation.",
+   "formula": "",
+   "key_idea": "Changing temperature or pressure changes the kinetic energy and spacing of particles, converting one state into another.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how can matter be changed from one state to another",
+    "define melting and freezing",
+    "what is condensation and sublimation",
+    "explain the interconversion of states of matter",
+    "how does boiling differ from evaporation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the change of state",
+     "explain": "Melting (solid to liquid), freezing (liquid to solid), boiling (liquid to gas), and condensation (gas to liquid) are the main conversions; sublimation is solid directly to gas."
+    },
+    {
+     "step": 2,
+     "action": "explain the role of energy",
+     "explain": "Heating increases kinetic energy so particles move apart (melting, boiling); cooling reduces energy so particles come closer (freezing, condensation)."
+    },
+    {
+     "step": 3,
+     "action": "state the reversibility",
+     "explain": "Each change of state is reversible -- for example, ice melts to water and water freezes back to ice -- showing the states are interconvertible."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Water is heated until it boils and then the steam is cooled on a cold surface. Name the two changes of state involved.",
+     "solution": "Boiling converts liquid water to gas (steam), and condensation converts the steam back to liquid water on the cold surface.",
+     "answer": "Boiling (liquid to gas) and condensation (gas to liquid)."
+    },
+    {
+     "question": "Camphor disappears when heated without leaving any liquid. Which process is this?",
+     "solution": "Camphor changes directly from solid to gas without passing through the liquid state, which is sublimation.",
+     "answer": "Sublimation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define melting, freezing, condensation, and sublimation with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the interconversion of states of matter considered a physical change?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.7",
+   "title": "Effect of Temperature and Pressure on States of Matter",
+   "section": "7.7",
+   "definition": "Increasing temperature raises the kinetic energy of particles causing a solid to become liquid and then gas; increasing pressure forces particles closer and can convert a gas into a liquid or solid.",
+   "formula": "",
+   "key_idea": "Temperature and pressure control the state of matter by changing particle energy and spacing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how does temperature affect the state of matter",
+    "how does pressure affect the state of matter",
+    "why does increasing pressure liquefy a gas",
+    "explain the effect of temperature and pressure on the states of matter",
+    "how can a gas be converted into a liquid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain the effect of temperature",
+     "explain": "Increasing temperature increases kinetic energy, so particles move faster and farther apart, changing solid to liquid and liquid to gas."
+    },
+    {
+     "step": 2,
+     "action": "explain the effect of pressure",
+     "explain": "Increasing pressure compresses the particles closer together, reducing inter-particle spaces, which can change a gas into a liquid or a liquid into a solid."
+    },
+    {
+     "step": 3,
+     "action": "combine both factors",
+     "explain": "Both temperature and pressure together determine the state of matter; for example, carbon dioxide can be liquefied by high pressure even at room temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why can dry ice (solid CO2) be stored only under high pressure?",
+     "solution": "At normal pressure solid carbon dioxide sublimes directly to gas. High pressure keeps the particles close enough to maintain the solid state.",
+     "answer": "High pressure is needed to keep CO2 in the solid state."
+    },
+    {
+     "question": "A gas is compressed in a cylinder and turns into a liquid. What caused this change?",
+     "solution": "Applying high pressure reduced the spaces between gas particles, bringing them close enough to form a liquid.",
+     "answer": "Increased pressure liquefied the gas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does increasing pressure help in liquefying a gas?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain with an example how both temperature and pressure determine the state of matter.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.8",
+   "title": "Particle Model of Matter",
+   "section": "7.8",
+   "definition": "The particle model describes matter as composed of tiny particles that are in constant motion, have spaces between them, and attract each other; this model explains the properties of all three states.",
+   "formula": "",
+   "key_idea": "The particle model unifies the behaviour of solids, liquids, and gases using the same set of particle properties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the particle model of matter",
+    "how does the particle model explain the states of matter",
+    "state the main points of the particle model",
+    "how does the particle nature of matter explain diffusion",
+    "use the particle model to explain why a gas fills its container"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the model assumptions",
+     "explain": "Matter is made of tiny particles, there are spaces between them, they are in continuous motion, and they attract each other."
+    },
+    {
+     "step": 2,
+     "action": "apply to the three states",
+     "explain": "In solids particles are fixed and close; in liquids they can slide past each other; in gases they move freely and are far apart."
+    },
+    {
+     "step": 3,
+     "action": "explain observations",
+     "explain": "The model explains diffusion, compression, change of state, and the differences in shape and volume of the three states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using the particle model, explain why a liquid takes the shape of its container.",
+     "solution": "In a liquid the particles are close but can slide past each other because the attraction is moderate, so they flow and take the shape of the container.",
+     "answer": "Liquid particles can move past each other, so they take the container's shape."
+    },
+    {
+     "question": "How does the particle model explain diffusion?",
+     "solution": "Since particles are in continuous motion and have spaces between them, particles of one substance move into the spaces of another, causing diffusion.",
+     "answer": "Continuous motion and inter-particle spaces allow particles to mix."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the main postulates of the particle model of matter.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Using the particle model, explain why gases are compressible but solids are not.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.9",
+   "title": "Brownian Motion",
+   "section": "7.9",
+   "definition": "Brownian motion is the random, zig-zag movement of particles suspended in a fluid, caused by the continuous and uneven bombardment by the molecules of the surrounding medium.",
+   "formula": "",
+   "key_idea": "The irregular motion of visible particles is evidence of the continuous motion of the invisible particles of the medium.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is brownian motion",
+    "how does brownian motion give evidence for the particle nature of matter",
+    "why do smoke particles move in a random zig-zag path",
+    "explain brownian motion with an example",
+    "what causes the random motion of pollen grains in water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define brownian motion",
+     "explain": "It is the irregular, zig-zag motion of larger particles (like smoke or pollen) suspended in a fluid."
+    },
+    {
+     "step": 2,
+     "action": "explain the cause",
+     "explain": "The surrounding fluid particles bombard the suspended particle unevenly from all sides, pushing it randomly."
+    },
+    {
+     "step": 3,
+     "action": "link to evidence",
+     "explain": "Because the visible particle moves due to invisible fluid particles, Brownian motion provides direct evidence that the medium is made of moving particles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Smoke particles seen under a microscope move in a random zig-zag manner. What is this called and what causes it?",
+     "solution": "This random motion is Brownian motion, caused by air molecules continuously and unevenly bombarding the smoke particles.",
+     "answer": "Brownian motion, caused by bombardment by air molecules."
+    },
+    {
+     "question": "How does Brownian motion support the idea that particles of a gas are in constant motion?",
+     "solution": "The smoke particle moves only because the invisible air particles strike it from different directions, proving the air particles are in continuous motion.",
+     "answer": "It shows the surrounding gas particles are continuously moving."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define Brownian motion. What does it tell us about the particles of matter?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe an activity to observe Brownian motion and state the inference.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.7.10",
+   "title": "Diffusion",
+   "section": "7.10",
+   "definition": "Diffusion is the spontaneous mixing of particles of two substances on their own, caused by the continuous random motion of particles and the spaces between them.",
+   "formula": "",
+   "key_idea": "Diffusion is faster in gases, slower in liquids, and negligible in solids, and it increases with temperature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is diffusion",
+    "why does diffusion happen faster in gases than in liquids",
+    "how does temperature affect diffusion",
+    "give an example of diffusion in daily life",
+    "why does the smell of perfume spread across a room"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define diffusion",
+     "explain": "It is the spontaneous movement and mixing of particles of two substances without any external stirring."
+    },
+    {
+     "step": 2,
+     "action": "compare across states",
+     "explain": "Diffusion is fastest in gases because particles are far apart and move rapidly; it is slower in liquids and almost absent in solids due to stronger attraction."
+    },
+    {
+     "step": 3,
+     "action": "explain the effect of temperature",
+     "explain": "At higher temperature particles have more kinetic energy, so they move faster and diffusion occurs more quickly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the smell of cooking food spread from the kitchen to the living room?",
+     "solution": "The aroma particles diffuse through the air, moving from a region of higher concentration to lower concentration on their own.",
+     "answer": "Diffusion of aroma particles through air."
+    },
+    {
+     "question": "Why does a drop of ink spread faster in warm water than in cold water?",
+     "solution": "In warm water the particles have greater kinetic energy and move faster, so the ink diffuses more quickly.",
+     "answer": "Higher temperature increases the rate of diffusion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define diffusion and give one example each from gases and liquids.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is diffusion faster in gases than in liquids?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched to new cache"
+}

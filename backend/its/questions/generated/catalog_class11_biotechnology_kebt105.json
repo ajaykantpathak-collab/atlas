@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt105",
+ "concepts": [
+  {
+   "id": "kebt105.1",
+   "title": "Cell Signaling: Paracrine Autocrine and Endocrine",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Signaling: Paracrine Autocrine and Endocrine' refers to.",
+     "a": "Cells converse through chemical messengers that only work where a matching receptor waits: short-range release reaching neighbours at once is paracrine, a cell talking back to its own receptors is autocrine - the trick cancer cells abuse by making their own growth factors - and hormones riding the bloodstream to distant targets is endocrine signaling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Signaling: Paracrine Autocrine and Endocrine'.",
+     "a": "Distance decides the name of the signaling; no receptor on the cell means no response, whatever the ligand level.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Signaling: Paracrine Autocrine and Endocrine' taught, and from which source text?",
+     "a": "5.1 (source: kebt105.txt section 5.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.2",
+   "title": "Glycolysis and the Fate of Pyruvate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Glycolysis and the Fate of Pyruvate' refers to.",
+     "a": "In the cytosol the Embden-Meyerhof-Parnas route splits one six-carbon glucose into two three-carbon pyruvates over ten enzyme steps, spending two ATP early and banking four later, with hexokinase, phosphofructokinase and pyruvate kinase marking the three irreversible control points; afterwards pyruvate either becomes lactate or ethanol without air, or enters mitochondria as acetyl CoA when oxygen is present.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glycolysis and the Fate of Pyruvate'.",
+     "a": "Three regulated, irreversible enzymes steer glycolysis, and oxygen availability alone picks pyruvate's next destination.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Glycolysis and the Fate of Pyruvate' taught, and from which source text?",
+     "a": "5.2.4 (source: kebt105.txt sections 5.2.4 and Fig. 5.4-5.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.3",
+   "title": "Energy Yield of Glycolysis and Fermentation",
+   "questions": [
+    {
+     "q": "Compute the net ATP gain of glycolysis given that four ATP are generated and two are consumed. Use the method 'Energy Yield of Glycolysis and Fermentation'. Work with: atp_per_triose = 120, invested_atp = 360, triose_count = 8. Carry the chain through step by step and give the final value of net_yield.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "How many ATP does one glucose yield under homolactic fermentation and why so low? Use the method 'Energy Yield of Glycolysis and Fermentation'. Work with: atp_per_triose = 6, invested_atp = 50, triose_count = 15. Carry the chain through step by step and give the final value of net_yield.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Energy Yield of Glycolysis and Fermentation' refers to.",
+     "a": "Each glucose passing down the glycolytic line returns four ATP at the two substrate-level phosphorylation steps - two per triose across the two trioses formed - while two ATP were spent priming the sugar, so the net harvest is two; fermentation extends this by recycling NAD+ yet still yields only two ATP per glucose.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Energy Yield of Glycolysis and Fermentation'.",
+     "a": "Subtract the two priming ATP from the four collected to get the net two per glucose.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Energy Yield of Glycolysis and Fermentation', in plain ASCII form.",
+     "a": "net_yield = gross_atp - invested_atp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.4",
+   "title": "Citric Acid Cycle in the Mitochondrial Matrix",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Citric Acid Cycle in the Mitochondrial Matrix' refers to.",
+     "a": "Hans Kreb's cycle condenses a two-carbon acetyl group with four-carbon oxaloacetate into citrate and walks it through decarboxylations and dehydrogenations back to oxaloacetate, banking three NADH, one FADH2 and one GTP per turn; all its enzymes sit in the mitochondrial matrix except succinate dehydrogenase, which alone is embedded in the inner membrane.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Citric Acid Cycle in the Mitochondrial Matrix'.",
+     "a": "One turn burns one acetyl group to two CO2 while loading three NADH, one FADH2 and one GTP.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Citric Acid Cycle in the Mitochondrial Matrix' taught, and from which source text?",
+     "a": "5.2.5 (source: kebt105.txt section 5.2.5, Fig. 5.6)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.5",
+   "title": "Electron Transport Chain and Oxidative Phosphorylation",
+   "questions": [
+    {
+     "q": "Using the method 'Electron Transport Chain and Oxidative Phosphorylation', work with: fadh_units = 240, nadh_units = 120. Carry the chain through step by step and give the final value of atp_total.",
+     "a": "660 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Electron Transport Chain and Oxidative Phosphorylation' and work with: fadh_units = 5, nadh_units = 50. Carry the chain through step by step and give the final value of atp_total.",
+     "a": "132.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Electron Transport Chain and Oxidative Phosphorylation' refers to.",
+     "a": "Four giant complexes in the inner mitochondrial membrane pass electrons from NADH and FADH2 down to oxygen, pumping protons as complexes I, III and IV work - enough gradient for about 1, 0.5 and 1 ATP respectively - so one matrix NADH finally buys about 2.5 ATP while FADH2, entering at QH2 past complex I, buys only about 1.5.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electron Transport Chain and Oxidative Phosphorylation'.",
+     "a": "Price NADH at 2.5 ATP and FADH2 at 1.5 ATP; complex II feeds in later and so pays less.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Electron Transport Chain and Oxidative Phosphorylation', in plain ASCII form.",
+     "a": "atp_total = nadh_share + fadh_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.6",
+   "title": "Photosynthesis Light Reactions and Calvin Cycle",
+   "questions": [
+    {
+     "q": "Using the method 'Photosynthesis Light Reactions and Calvin Cycle', work with: co2_fixed = 24, electrons_sent = 45, regen_atp = 25. Carry the chain through step by step and give the final value of o2_evolved.",
+     "a": "11.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Photosynthesis Light Reactions and Calvin Cycle' and work with: co2_fixed = 150, electrons_sent = 100, regen_atp = 60. Carry the chain through step by step and give the final value of o2_evolved.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Photosynthesis Light Reactions and Calvin Cycle' refers to.",
+     "a": "Chloroplast machinery runs two phases: photosystems II and I split water - two molecules give one oxygen for every four electrons shipped to PSI - and build ATP plus NADPH by photophosphorylation, while the Calvin cycle in the stroma spends those coins to fix carbon dioxide onto ribulose-1,5-bisphosphate, reducing the six formed 3-phosphoglycerates with six ATP and six NADPH and then paying three more ATP to regenerate the acceptor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photosynthesis Light Reactions and Calvin Cycle'.",
+     "a": "Fixing three CO2 makes six 3-phosphoglycerate, so the reduction bill is six ATP plus six NADPH with three ATP more for regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Photosynthesis Light Reactions and Calvin Cycle', in plain ASCII form.",
+     "a": "atp_cost = pga_total + regen_atp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.7",
+   "title": "Cell Cycle Arithmetic and Mitotic Stages",
+   "questions": [
+    {
+     "q": "Using the method 'Cell Cycle Arithmetic and Mitotic Stages', work with: initial_cells = 3, rounds = 30. Carry the chain through step by step and give the final value of total_divisions.",
+     "a": "3221225469 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cell Cycle Arithmetic and Mitotic Stages' and work with: initial_cells = 60, rounds = 20. Carry the chain through step by step and give the final value of total_divisions.",
+     "a": "62914500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cell Cycle Arithmetic and Mitotic Stages' refers to.",
+     "a": "A dividing cell passes through G1 growth, S phase where the 2C DNA content doubles to 4C, G2 preparation, and then mitosis - prophase, metaphase, anaphase, telophase - followed by cytokinesis; because every round doubles the population, starting from one cell, r rounds leave two raised to r cells and one fewer division events than cells produced.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Cycle Arithmetic and Mitotic Stages'.",
+     "a": "Two raised to the number of rounds sizes a clone; subtract the starting cell to count the divisions performed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cell Cycle Arithmetic and Mitotic Stages', in plain ASCII form.",
+     "a": "cells_total = initial_cells * 2 ** rounds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt105.8",
+   "title": "Meiosis, Apoptosis, Stem Cells and Migration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meiosis, Apoptosis, Stem Cells and Migration' refers to.",
+     "a": "Two reductions shape cell life: meiosis halves the chromosome set across a reductional first division and an equational second one, delivering four haploid cells enriched by crossing over at pachytene; apoptosis then prunes unneeded cells by programmed DNA fragmentation and membrane blebbing without inflammation, unlike traumatic necrosis; meanwhile stem cells of totipotent, pluripotent or multipotent grade repair tissues, and cell migration walks single cells or sheets through embryogenesis, wound healing and cancer spread.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meiosis, Apoptosis, Stem Cells and Migration'.",
+     "a": "Halving, pruning, specialising and moving - the four long-term acts that shape a multicellular organism.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meiosis, Apoptosis, Stem Cells and Migration' taught, and from which source text?",
+     "a": "5.3.3-5.6 (source: kebt105.txt sections 5.3.3-5.6, Table 5.1, Figs. 5.16-5.20)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

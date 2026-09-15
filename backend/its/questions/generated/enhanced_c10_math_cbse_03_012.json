@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_012",
+   "title": "c10_math_cbse_03_012",
+   "questions": [
+    {
+     "q": "Write the general form of the pair of linear equations for a fixed charge plus variable charge problem if the fixed charge is ₹x and the variable charge per unit is ₹y, given two situations with units u1, u2 and total costs C1, C2.",
+     "a": "The equations are: x + u1·y = C1 and x + u2·y = C2. A wrong answer (e.g., writing u1·x + y = C1) reveals the student confuses which quantity is multiplied by the units — they treat the fixed charge as variable and the variable charge as fixed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the fixed charge remains the same in both equations while the variable charge is multiplied by the number of units.",
+     "a": "The fixed charge is a one-time constant fee (e.g., base fare, monthly rental) that does not change with usage, so it appears as x in both equations. The variable charge depends on how many units are consumed, so it is multiplied by the number of units (u1·y and u2·y). A wrong answer indicates the student does not understand the real-world meaning of \"fixed\" versus \"variable\" and may treat both as coefficients of the units.",
+     "self_check": true
+    },
+    {
+     "q": "A telephone bill has a fixed monthly rental and a charge per call. In January, 100 calls cost ₹350. In February, 150 calls cost ₹425. Find the fixed rental and charge per call.",
+     "a": "Let fixed rental = ₹x, charge per call = ₹y.\nJanuary: x + 100y = 350\nFebruary: x + 150y = 425\nSubtract: 50y = 75 → y = 1.5\nSubstitute: x + 100(1.5) = 350 → x = 200.\nFixed rental = ₹200, charge per call = ₹1.50.\nA wrong answer (e.g., y = 75, x = -4000) reveals arithmetic errors in subtraction or sign mistakes when substituting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the elimination method and substitution method for solving the equations from the telephone bill problem. Which is more efficient and why?",
+     "a": "Elimination is more efficient because the coefficients of x are identical (both 1). Subtracting the equations directly eliminates x in one step. Substitution would require solving one equation for x (x = 350 - 100y) and substituting into the other, involving more steps and fractions. A wrong answer (e.g., \"substitution is better because it's easier\") shows the student does not recognize structural advantages of elimination when coefficients match.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved the auto-rickshaw problem (5 km → ₹50, 10 km → ₹80) and got fixed charge = ₹30, per km charge = ₹6. For 5 km, the cost would be ₹30 + 3×6 = ₹48, but the problem says ₹50. The student claims the solution is correct because it satisfies the second condition (₹30 + 8×6 = ₹78 ≈ ₹80). Evaluate the student's claim.",
+     "a": "The student's claim is incorrect. A valid solution must satisfy both given conditions simultaneously. The student's values give ₹48 for 5 km (not ₹50) and ₹78 for 10 km (not ₹80), so they satisfy neither condition exactly. The student likely made an error in forming the equations (e.g., using 5y instead of 3y for the 5 km journey) and then only checked one condition approximately. A wrong evaluation (e.g., \"it's close enough\") reveals a misunderstanding that mathematical solutions must be exact and satisfy all given equations.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own fixed charge plus variable charge problem with a real-life context (e.g., electricity bill, gym membership, taxi fare). Provide two conditions and ask for the fixed and variable charges. Also provide the solution.",
+     "a": "A good answer will present a coherent scenario (e.g., \"A gym charges a fixed annual fee plus ₹y per visit. Member A visits 20 times and pays ₹4000. Member B visits 35 times and pays ₹5750.\"), correctly form the equations (x + 20y = 4000, x + 35y = 5750), solve them (y = 116.67, x = 1666.67), and state the answer with units. A poor answer (e.g., missing one condition, equations not matching the story, or solution not satisfying both equations) reveals the student cannot reverse-engineer the problem structure or does not grasp the relationship between the narrative and the algebraic model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

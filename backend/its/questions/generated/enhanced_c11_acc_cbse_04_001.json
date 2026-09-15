@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_001",
+   "title": "c11_acc_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the two sides of a Simple Cash Book and what each side records.",
+     "a": "The left side (Debit) records all cash receipts; the right side (Credit) records all cash payments. A wrong answer (e.g., \"left records payments\") reveals the student confuses the cash book with a ledger account where the receiving side is debit but forgets the cash book's receipt side is debit because cash is coming in.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a Simple Cash Book always show a debit balance? Explain in your own words.",
+     "a": "Because cash payments can never exceed cash receipts plus opening cash in hand; you cannot pay out more cash than you physically have. A wrong answer (e.g., \"because of accounting rules\") shows the student memorized the rule without understanding the physical constraint of cash.",
+     "self_check": true
+    },
+    {
+     "q": "Record the following in a Simple Cash Book and find the closing balance:\nApril 1: Cash in hand ₹15,000\nApril 5: Cash sales ₹8,000\nApril 10: Paid rent ₹3,000\nApril 15: Received from debtor Rohan ₹5,000\nApril 20: Paid wages ₹2,000\nApril 25: Cash purchases ₹4,000\nApril 30: Paid electricity ₹1,500",
+     "a": "Opening balance ₹15,000 (Dr). Receipts: ₹8,000 + ₹5,000 = ₹13,000. Total debit = ₹28,000. Payments: ₹3,000 + ₹2,000 + ₹4,000 + ₹1,500 = ₹10,500. Closing balance = ₹28,000 - ₹10,500 = ₹17,500 (Dr). A wrong answer (e.g., ₹12,500) reveals the student either omitted a transaction, misplaced a receipt/payment, or subtracted incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Simple Cash Book with a Cash Account in the ledger. Identify two similarities and two differences.",
+     "a": "Similarities: Both have debit/credit sides, both record cash transactions, both show debit balance. Differences: (1) Cash Book is a subsidiary book AND a ledger account (no separate cash account needed); Cash Account is only a ledger account. (2) Cash Book records transactions chronologically with narration; Cash Account is posted from journal. A wrong answer shows the student doesn't grasp the dual role of the cash book.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If we deposit cash into the bank, it should be recorded on the credit side of the Simple Cash Book because cash is going out.\" Evaluate this statement.",
+     "a": "The statement is correct for a Simple Cash Book: depositing cash into bank is a cash payment (cash leaves the business premises), so it goes on the credit side. However, in a Double Column Cash Book, this becomes a contra entry. A wrong evaluation (e.g., \"it should be on debit side because bank balance increases\") reveals confusion between cash and bank columns.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario with 5 transactions where the Simple Cash Book would be insufficient and a Double Column Cash Book is needed. Explain why.",
+     "a": "Scenario: A business that frequently receives cheques, makes payments by cheque, and deposits/withdraws cash from bank. Example: (1) Received cheque from customer, (2) Paid supplier by cheque, (3) Deposited cash into bank, (4) Withdrew cash from bank for office use, (5) Bank charged interest. The Simple Cash Book cannot record bank transactions separately; it would mix cash and bank or ignore bank. A poor answer shows the student doesn't understand the limitation of a single column.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_009",
+   "title": "c10_phy_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the two essential properties of the material used for the filament of an incandescent bulb and explain why each property is necessary.",
+     "a": "The filament material (tungsten) must have: (1) High resistivity — so that a short length of thin wire offers high resistance, producing sufficient heat (H = I²Rt) at 220 V. (2) High melting point (≈ 3380 °C) — so that the filament can glow at 2500–3000 °C without melting. A wrong answer (e.g., \"low resistance to allow more current\") reveals confusion between connecting wires (which should have low resistance) and heating elements (which need high resistance).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the fuse wire always connected in series with the live wire of the circuit, and why must it have a low melting point but the connecting wires must have high melting points?",
+     "a": "Fuse is in series so that the same current flows through it and the appliance; if current exceeds the safe limit, the fuse melts first, breaking the circuit and stopping current to the appliance. Fuse wire has low melting point (e.g., tin-lead alloy ≈ 200 °C) to melt quickly under overload. Connecting wires have high melting point (copper ≈ 1085 °C) so they don't melt during normal operation or brief overloads. A wrong answer (e.g., \"fuse in parallel\") shows misunderstanding of series current and the protective role of a fuse.",
+     "self_check": true
+    },
+    {
+     "q": "An electric heater rated 1500 W, 220 V is connected to a 220 V supply. Calculate: (a) the current drawn, (b) the resistance of the heating element, and (c) the heat energy produced in 10 minutes. (Use H = I²Rt or H = Pt)",
+     "a": "Given: P = 1500 W, V = 220 V, t = 10 min = 600 s.\nStep 1: Current I = P/V = 1500/220 = 6.818 A (≈ 6.82 A).\nStep 2: Resistance R = V/I = 220/6.818 = 32.26 Ω (or R = V²/P = 220²/1500 = 32.27 Ω).\nStep 3: Heat energy H = P × t = 1500 × 600 = 9,00,000 J = 9 × 10⁵ J.\n(Alternatively H = I²Rt = (6.818)² × 32.27 × 600 ≈ 9 × 10⁵ J).\nA wrong answer using H = V²t/R without converting time to seconds reveals unit inconsistency; using P = VI but forgetting to convert minutes to seconds gives H = 1500 × 10 = 15000 J (wrong).",
+     "self_check": true
+    },
+    {
+     "q": "Two bulbs are marked 60 W, 220 V and 100 W, 220 V. Which bulb has higher resistance? If they are connected in series across 220 V, which bulb will glow brighter? Explain using the heating effect formula.",
+     "a": "Resistance R = V²/P. For 60 W: R₁ = 220²/60 = 806.7 Ω. For 100 W: R₂ = 220²/100 = 484 Ω. So the 60 W bulb has higher resistance.\nIn series, same current I flows through both. Heat produced per second (power dissipated) = I²R. Since R₁ > R₂, the 60 W bulb dissipates more power (I²R₁ > I²R₂) and glows brighter.\nA wrong answer (\"100 W bulb is brighter because it has higher wattage\") ignores that wattage ratings are for parallel connection at rated voltage; in series, the higher resistance bulb gets more voltage share and more heat.",
+     "self_check": true
+    },
+    {
+     "q": "A student replaces a blown 5 A fuse in a household circuit with a thick copper wire from a discarded cable. The circuit carries a 10 A load. Evaluate whether this is safe. What will happen to the copper wire and the connected appliances?",
+     "a": "Unsafe. Copper wire has very high melting point (1085 °C) and low resistivity. At 10 A (double the 5 A rating), the copper wire will NOT melt quickly; instead, it will allow the excessive current to continue flowing, overheating the appliance wiring, possibly causing fire or permanent damage. The fuse's purpose — to melt and break the circuit at a specific current — is defeated. A wrong answer (\"copper wire will melt because current is high\") shows ignorance of copper's high melting point and low resistivity compared to fuse alloy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 9 V battery, nichrome wire of different lengths, and a small LED to demonstrate that a fuse wire must be thin and of appropriate material. List the steps, observations, and conclusion.",
+     "a": "Steps: (1) Connect a 30 cm nichrome wire in series with LED and 9 V battery — LED glows dimly (wire resistance limits current). (2) Replace with 5 cm nichrome wire — LED glows brighter (lower resistance, more current). (3) Replace with a thick copper wire of same length — LED glows very bright (very low resistance, high current). (4) Now short the battery with a very thin strand of steel wool (simulating fuse) — it melts instantly.\nObservation: Thin, high-resistivity wire heats up and melts at lower current than thick copper wire.\nConclusion: Fuse wire must be thin (high resistance per unit length) and made of low-melting-point alloy so it melts at the rated current. A poor answer (using only copper wires of different thicknesses) fails to show the material dependence (resistivity and melting point) which is crucial for fuse design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

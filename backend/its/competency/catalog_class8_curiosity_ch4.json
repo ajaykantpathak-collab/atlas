@@ -1,0 +1,744 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Electricity - Magnetic and Heating Effects",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu104.txt",
+ "concepts": [
+  {
+   "id": "c8cu.4.1",
+   "title": "Electric Current and Circuit",
+   "section": "4.1",
+   "definition": "Electric current is the flow of electric charge through a conductor, and an electric circuit is a closed path through which current can flow from a source, through conducting wires and devices, back to the source.",
+   "formula": "I = V / R",
+   "key_idea": "Current flows only in a closed circuit; Ohm's law relates current, voltage and resistance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an electric current",
+    "what is an electric circuit",
+    "state Ohm's law",
+    "calculate the current in a circuit given voltage and resistance",
+    "why does current flow only in a closed circuit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the given values",
+     "explain": "Record the potential difference V in volts and the resistance R in ohms.",
+     "compute": "v_v = given_voltage"
+    },
+    {
+     "step": 2,
+     "action": "note the given values",
+     "explain": "Record the potential difference V in volts and the resistance R in ohms.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "apply Ohm's law",
+     "explain": "Current equals voltage divided by resistance.",
+     "compute": "i_v = v_v / r_v"
+    },
+    {
+     "step": 4,
+     "action": "state the current with unit",
+     "explain": "Report the current I in amperes.",
+     "compute": "result = i_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A potential difference of 12 V is applied across a resistor of 4 ohm. Find the current through it.",
+     "solution": "Using I = V / R = 12 / 4 = 3 A. So a current of 3 amperes flows through the resistor.",
+     "answer": "I = 3 A"
+    },
+    {
+     "question": "Calculate the current when a 6 V battery is connected across a 3 ohm resistor.",
+     "solution": "I = V / R = 6 / 3 = 2 A. The current in the circuit is 2 amperes.",
+     "answer": "I = 2 A"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define electric current and state its unit.",
+     "type": "definition"
+    },
+    {
+     "question": "Calculate the current for V = 10 V and R = 5 ohm.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why a broken circuit does not allow current to flow.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.2",
+   "title": "Heating Effect of Electric Current (Joule's Law)",
+   "section": "4.2",
+   "definition": "When an electric current passes through a conductor with resistance, the conductor becomes hot; the heat produced is given by Joule's law as H = I^2 * R * t.",
+   "formula": "H = I^2 * R * t",
+   "key_idea": "The heat produced is proportional to the square of the current, the resistance and the time for which current flows.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the heating effect of electric current",
+    "state Joule's law of heating",
+    "calculate the heat produced in a resistor",
+    "why does a wire become hot when current passes",
+    "derive the formula H = I^2 R t"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the given values",
+     "explain": "Record the current I in amperes, the resistance R in ohms and the time t in seconds.",
+     "compute": "i_v = given_current"
+    },
+    {
+     "step": 2,
+     "action": "note the given values",
+     "explain": "Record the current I in amperes, the resistance R in ohms and the time t in seconds.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "note the given values",
+     "explain": "Record the current I in amperes, the resistance R in ohms and the time t in seconds.",
+     "compute": "t = given_time"
+    },
+    {
+     "step": 4,
+     "action": "apply Joule's law",
+     "explain": "Heat equals the square of current times resistance times time.",
+     "compute": "h_v = i_v * i_v * r_v * t"
+    },
+    {
+     "step": 5,
+     "action": "state the heat with unit",
+     "explain": "Report the heat H in joules.",
+     "compute": "result = h_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A current of 2 A flows through a 100 ohm resistor for 10 s. Calculate the heat produced.",
+     "solution": "H = I^2 * R * t = (2)^2 * 100 * 10 = 4 * 100 * 10 = 4000 J. So 4000 joules of heat is produced.",
+     "answer": "H = 4000 J"
+    },
+    {
+     "question": "Find the heat produced when 5 A current flows through a 20 ohm resistor for 2 s.",
+     "solution": "H = I^2 * R * t = (5)^2 * 20 * 2 = 25 * 20 * 2 = 1000 J. The heat produced is 1000 joules.",
+     "answer": "H = 1000 J"
+    },
+    {
+     "question": "A 10 ohm resistor carries 3 A current for 5 s. How much heat is generated?",
+     "solution": "H = (3)^2 * 10 * 5 = 9 * 10 * 5 = 450 J. So 450 joules of heat is generated.",
+     "answer": "H = 450 J"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State Joule's law of heating.",
+     "type": "definition"
+    },
+    {
+     "question": "Calculate H for I = 4 A, R = 50 ohm, t = 5 s.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why the heating effect depends on the square of the current.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.3",
+   "title": "Applications of Heating Effect",
+   "section": "4.3",
+   "definition": "The heating effect of electric current is used in devices such as electric heaters, electric irons, electric bulbs and fuses, where a high-resistance wire converts electrical energy into heat or light.",
+   "formula": "",
+   "key_idea": "A conductor with suitable resistance converts electrical energy into heat (heaters, irons) or light (bulbs) and can melt to protect circuits (fuses).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the applications of the heating effect of current",
+    "how does an electric heater work",
+    "why is a fuse made of a low melting point alloy",
+    "how does an electric bulb produce light",
+    "name devices based on the heating effect of current"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the device",
+     "explain": "Recognise whether the device is a heater, iron, bulb or fuse."
+    },
+    {
+     "step": 2,
+     "action": "locate the heating element",
+     "explain": "Find the high-resistance wire (nichrome or tungsten) that becomes hot when current passes."
+    },
+    {
+     "step": 3,
+     "action": "explain the useful output",
+     "explain": "Describe how the heat or light produced serves the purpose, or how a fuse melts to break the circuit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is nichrome used as the heating element in an electric heater?",
+     "solution": "Nichrome has high resistance and does not oxidise easily at high temperatures, so it produces a large amount of heat without burning out quickly.",
+     "answer": "Because nichrome has high resistance and high melting point."
+    },
+    {
+     "question": "How does an electric fuse protect a circuit?",
+     "solution": "A fuse has a wire of low melting point alloy. When excessive current flows, the wire heats up and melts, breaking the circuit and stopping the current, which protects the appliances.",
+     "answer": "The fuse wire melts and breaks the circuit when current is excessive."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three appliances that use the heating effect of current.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how an electric bulb glows.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is tungsten used in bulb filaments?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.4",
+   "title": "Magnetic Effect of Electric Current",
+   "section": "4.4",
+   "definition": "When an electric current flows through a conductor, a magnetic field is produced around it; this is called the magnetic effect of electric current, discovered by Hans Christian Oersted.",
+   "formula": "",
+   "key_idea": "A current-carrying conductor behaves like a magnet and deflects a nearby compass needle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the magnetic effect of electric current",
+    "who discovered the magnetic effect of current",
+    "what happens to a compass needle placed near a current-carrying wire",
+    "how does a current-carrying wire produce a magnetic field",
+    "describe Oersted's experiment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the conductor",
+     "explain": "Pass an electric current through a straight wire or a coil."
+    },
+    {
+     "step": 2,
+     "action": "place a magnetic compass nearby",
+     "explain": "A compass needle placed near the conductor deflects from its north-south direction."
+    },
+    {
+     "step": 3,
+     "action": "conclude the magnetic effect",
+     "explain": "The deflection shows that a magnetic field exists around the current-carrying conductor."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is observed in Oersted's experiment when current is switched on?",
+     "solution": "When current flows through the wire, the compass needle placed below it deflects from its usual north-south position, showing that current produces a magnetic field.",
+     "answer": "The compass needle deflects, showing a magnetic field around the wire."
+    },
+    {
+     "question": "What happens to the deflection of the compass needle if the current is increased?",
+     "solution": "A larger current produces a stronger magnetic field, so the compass needle deflects more.",
+     "answer": "The deflection increases with increase in current."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State Oersted's observation about current and magnetism.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how to show the magnetic effect of current using a compass.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the scientist who discovered the magnetic effect of current.",
+     "type": "definition"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.5",
+   "title": "Electromagnet and its Uses",
+   "section": "4.5",
+   "definition": "An electromagnet is a temporary magnet made by winding an insulated copper wire around a soft iron core; it behaves as a magnet only while current flows through the coil.",
+   "formula": "",
+   "key_idea": "The strength of an electromagnet can be changed by altering the current or the number of turns in the coil.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an electromagnet",
+    "how is an electromagnet made",
+    "how can the strength of an electromagnet be increased",
+    "list the uses of electromagnets",
+    "difference between a permanent magnet and an electromagnet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "construct the electromagnet",
+     "explain": "Wind an insulated copper wire many times around a soft iron core and connect it to a battery."
+    },
+    {
+     "step": 2,
+     "action": "pass current through the coil",
+     "explain": "When current flows, the coil magnetises the iron core and the assembly acts as a magnet."
+    },
+    {
+     "step": 3,
+     "action": "control the strength",
+     "explain": "Increase the current or the number of turns to make a stronger electromagnet; switch off the current to demagnetise it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How will you make a simple electromagnet?",
+     "solution": "Wind an insulated copper wire around a soft iron nail in many turns and connect the free ends to a battery. When current flows, the nail becomes a magnet and attracts iron objects.",
+     "answer": "A coil wound on a soft iron core connected to a battery forms an electromagnet."
+    },
+    {
+     "question": "Give two uses of electromagnets.",
+     "solution": "Electromagnets are used to lift heavy iron scrap in cranes and to separate magnetic materials from garbage in recycling plants.",
+     "answer": "Cranes for lifting iron and magnetic separators."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an electromagnet.",
+     "type": "definition"
+    },
+    {
+     "question": "State two ways to increase the strength of an electromagnet.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why a soft iron core is used in an electromagnet.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.6",
+   "title": "Electric Bell",
+   "section": "4.6",
+   "definition": "An electric bell works on the principle of an electromagnet; when current flows, the electromagnet attracts a soft iron armature that strikes a gong, and the circuit breaks and remakes repeatedly to ring the bell.",
+   "formula": "",
+   "key_idea": "The make-and-break mechanism of the contact screw causes the hammer to strike the gong repeatedly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how does an electric bell work",
+    "explain the working of an electric bell",
+    "what is the role of the electromagnet in an electric bell",
+    "what happens when the switch of an electric bell is pressed",
+    "describe the make-and-break mechanism in an electric bell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "press the switch",
+     "explain": "Current flows through the coil and the electromagnet gets magnetised."
+    },
+    {
+     "step": 2,
+     "action": "attract the armature",
+     "explain": "The electromagnet attracts the soft iron armature and the hammer strikes the gong to produce sound."
+    },
+    {
+     "step": 3,
+     "action": "break and remake the circuit",
+     "explain": "The movement of the armature breaks the contact at the screw, demagnetising the electromagnet; a spring pulls the armature back, remaking the contact, and the cycle repeats."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What happens when the switch of an electric bell is pressed?",
+     "solution": "The electromagnet is energised and attracts the armature, so the hammer strikes the gong. The contact breaks, the electromagnet releases the armature, the contact is remade, and the bell rings continuously.",
+     "answer": "The bell rings repeatedly due to the make-and-break action."
+    },
+    {
+     "question": "Why does the hammer of an electric bell strike the gong repeatedly?",
+     "solution": "Each time the armature is attracted, the contact screw breaks the circuit and the electromagnet loses its magnetism, so a spring pulls the armature back and the contact is remade, repeating the cycle.",
+     "answer": "Because the circuit breaks and remakes repeatedly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the main parts of an electric bell.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the make-and-break mechanism of an electric bell.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the principle on which an electric bell works.",
+     "type": "definition"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.7",
+   "title": "Short Circuit and Overloading",
+   "section": "4.7",
+   "definition": "A short circuit occurs when the live and neutral wires come into direct contact, causing a very large current to flow; overloading occurs when too many appliances draw current exceeding the safe limit of the circuit.",
+   "formula": "",
+   "key_idea": "Both short circuit and overloading cause excessive current that can damage appliances or start a fire.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a short circuit",
+    "what is overloading in an electric circuit",
+    "difference between short circuit and overloading",
+    "why does a short circuit cause a large current",
+    "how can overloading be avoided"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the fault",
+     "explain": "Check whether live and neutral wires touch directly (short circuit) or too many appliances are connected (overloading)."
+    },
+    {
+     "step": 2,
+     "action": "explain the rise in current",
+     "explain": "In both cases the resistance of the circuit falls sharply, so the current rises far above the safe value."
+    },
+    {
+     "step": 3,
+     "action": "state the consequence",
+     "explain": "The excessive current heats the wires and can damage appliances or cause a fire unless a fuse breaks the circuit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a short circuit cause a very large current to flow?",
+     "solution": "When live and neutral wires touch directly, the resistance of the path becomes almost zero. By Ohm's law I = V / R, a very small resistance gives a very large current.",
+     "answer": "Because the resistance becomes almost zero, the current becomes very large."
+    },
+    {
+     "question": "How does connecting many appliances to one socket cause overloading?",
+     "solution": "Each appliance draws current; together they may draw more current than the socket or wiring can safely carry, which is called overloading.",
+     "answer": "The total current exceeds the safe limit of the circuit."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define short circuit and overloading.",
+     "type": "definition"
+    },
+    {
+     "question": "Give one cause of a short circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how overloading can lead to a fire.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.8",
+   "title": "Safety Measures: Fuses and Earthing",
+   "section": "4.8",
+   "definition": "Safety measures in electric circuits include fuses, which melt and break the circuit during excessive current, and earthing, which safely carries any leakage current to the ground to protect the user from electric shock.",
+   "formula": "",
+   "key_idea": "Fuses protect appliances from overcurrent; earthing protects people from electric shock due to leakage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an electric fuse",
+    "how does a fuse protect a circuit",
+    "what is earthing",
+    "why is earthing important for safety",
+    "state two safety measures used in domestic circuits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "install a fuse",
+     "explain": "A fuse with a suitable rating is connected in the live wire so it melts when current exceeds the safe limit."
+    },
+    {
+     "step": 2,
+     "action": "provide earthing",
+     "explain": "The metal body of an appliance is connected to a wire buried in the earth so leakage current flows to the ground."
+    },
+    {
+     "step": 3,
+     "action": "explain the protection",
+     "explain": "The fuse prevents damage from overcurrent and earthing prevents electric shock by giving leakage current a safe path."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a fuse protect household appliances?",
+     "solution": "When the current exceeds the fuse rating, the fuse wire heats up and melts, breaking the circuit and stopping the current before appliances are damaged.",
+     "answer": "The fuse melts and breaks the circuit during excessive current."
+    },
+    {
+     "question": "Why is the metallic body of an electric iron earthed?",
+     "solution": "If the live wire accidentally touches the metal body, earthing gives the leakage current a safe path to the ground so that a person touching the iron does not get a severe shock.",
+     "answer": "Earthing carries leakage current safely to the ground."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an electric fuse.",
+     "type": "definition"
+    },
+    {
+     "question": "Explain the importance of earthing.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the material used for a fuse wire.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.4.9",
+   "title": "Domestic Electric Circuit",
+   "section": "4.9",
+   "definition": "A domestic electric circuit consists of a live wire and a neutral wire connected to the supply, with a main fuse or circuit breaker, a meter and parallel branches for different appliances, protected by fuses and earthing.",
+   "formula": "",
+   "key_idea": "Appliances are connected in parallel so each receives the full supply voltage and can be switched on or off independently.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a domestic electric circuit",
+    "why are appliances connected in parallel in homes",
+    "what is the function of the live and neutral wire",
+    "describe the main parts of a domestic electric circuit",
+    "why is a main switch provided in a domestic circuit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the supply wires",
+     "explain": "The live wire carries current at high voltage and the neutral wire completes the circuit back to the supply."
+    },
+    {
+     "step": 2,
+     "action": "note the protective devices",
+     "explain": "A main fuse or circuit breaker and the meter are connected at the entry point to control and measure the supply."
+    },
+    {
+     "step": 3,
+     "action": "explain the parallel connections",
+     "explain": "Each appliance is connected in parallel across the live and neutral wires so it gets the full voltage and works independently."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are household appliances connected in parallel and not in series?",
+     "solution": "In parallel each appliance receives the full supply voltage and can be switched on or off without affecting the others. In series, switching off one appliance would switch off all.",
+     "answer": "Parallel connection gives each appliance full voltage and independent control."
+    },
+    {
+     "question": "What is the role of the main switch in a domestic circuit?",
+     "solution": "The main switch can disconnect the entire household supply from the mains, which is useful during repairs or emergencies to prevent electric shock.",
+     "answer": "It disconnects the whole house supply when needed."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the main parts of a domestic electric circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why appliances are connected in parallel at home.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between the live wire and the neutral wire.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.4.1.1",
+   "source_ref": "generated practice sample aligned to hecu104.txt",
+   "concept": "c8cu.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_voltage}, {given_resistance}.",
+   "extracted_variables": {
+    "given_voltage": "given voltage (given value)",
+    "given_resistance": "given resistance (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute v v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "v_v = given_voltage"
+    },
+    {
+     "step": 2,
+     "action": "compute r v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "compute i v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "i_v = v_v / r_v"
+    },
+    {
+     "step": 4,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = i_v"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.4.1.2",
+   "source_ref": "generated practice sample aligned to hecu104.txt",
+   "concept": "c8cu.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_voltage}, {given_resistance}.",
+   "extracted_variables": {
+    "given_voltage": "given voltage (given value)",
+    "given_resistance": "given resistance (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute v v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "v_v = given_voltage"
+    },
+    {
+     "step": 2,
+     "action": "compute r v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "compute i v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "i_v = v_v / r_v"
+    },
+    {
+     "step": 4,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = i_v"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.4.2.1",
+   "source_ref": "generated practice sample aligned to hecu104.txt",
+   "concept": "c8cu.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_current}, {given_resistance}, {given_time}.",
+   "extracted_variables": {
+    "given_current": "given current (given value)",
+    "given_resistance": "given resistance (given value)",
+    "given_time": "given time (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute i v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "i_v = given_current"
+    },
+    {
+     "step": 2,
+     "action": "compute r v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "compute t",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t = given_time"
+    },
+    {
+     "step": 4,
+     "action": "compute h v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_v = i_v * i_v * r_v * t"
+    },
+    {
+     "step": 5,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = h_v"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.4.2.2",
+   "source_ref": "generated practice sample aligned to hecu104.txt",
+   "concept": "c8cu.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_current}, {given_resistance}, {given_time}.",
+   "extracted_variables": {
+    "given_current": "given current (given value)",
+    "given_resistance": "given resistance (given value)",
+    "given_time": "given time (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute i v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "i_v = given_current"
+    },
+    {
+     "step": 2,
+     "action": "compute r v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "r_v = given_resistance"
+    },
+    {
+     "step": 3,
+     "action": "compute t",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t = given_time"
+    },
+    {
+     "step": 4,
+     "action": "compute h v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_v = i_v * i_v * r_v * t"
+    },
+    {
+     "step": 5,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = h_v"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

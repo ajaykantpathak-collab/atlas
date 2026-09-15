@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_004",
+   "title": "c10_math_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the Fundamental Theorem of Arithmetic in your own words and explain why it guarantees that the prime factorisation of 12^n is exactly 2^(2n) × 3^n for any natural number n.",
+     "a": "The Fundamental Theorem of Arithmetic states that every composite number can be expressed as a product of primes in a unique way, up to the order of factors. Since 12 = 2^2 × 3 is the unique prime factorisation of 12, raising both sides to power n gives 12^n = (2^2 × 3)^n = 2^(2n) × 3^n by exponent laws, and this factorisation remains unique. A wrong answer (e.g., \"12^n might have other factors\") reveals the student does not grasp uniqueness of prime factorisation or how exponents distribute over products.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"12^1 = 12, 12^2 = 144, 12^3 = 1728 — none end in zero, so 12^n never ends in zero.\" Why is this reasoning insufficient for a mathematical proof? What is missing?",
+     "a": "Checking a few values is inductive reasoning, not a proof — it does not guarantee the pattern holds for all natural numbers n (e.g., n = 1000). A proof must use a general argument valid for every n ∈ ℕ. The missing element is the application of the Fundamental Theorem of Arithmetic to show that 5 can never appear in the prime factorisation of 12^n. A student who thinks checking 3-4 cases is enough confuses empirical observation with deductive proof.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that 6^n cannot end with the digit 0 for any natural number n. Show all steps clearly.",
+     "a": "Step 1: Prime factorise 6 = 2 × 3.\nStep 2: Then 6^n = (2 × 3)^n = 2^n × 3^n by exponent laws.\nStep 3: For a number to end in 0, it must be divisible by 10 = 2 × 5, so its prime factorisation must contain the prime factor 5.\nStep 4: The prime factorisation of 6^n contains only 2 and 3. By the Fundamental Theorem of Arithmetic, this factorisation is unique — no factor of 5 can appear.\nStep 5: Therefore 6^n is not divisible by 10, so it cannot end with digit 0 for any n ∈ ℕ.\nA wrong answer (e.g., \"6^n ends in 6, so not 0\") uses pattern-spotting instead of prime factorisation reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proofs for \"12^n cannot end with 0\" and \"15^n cannot end with 2\". What is the same in the structure of both proofs, and what differs in the prime factor analysis?",
+     "a": "Both proofs use the same structure: (1) prime factorise the base, (2) raise to power n, (3) identify the required prime factor for the target ending digit (5 for ending in 0; 2 for ending in 2), (4) show that required prime is absent from the factorisation, (5) conclude by uniqueness of prime factorisation (Fundamental Theorem of Arithmetic). The difference: 12^n = 2^(2n) × 3^n lacks 5; 15^n = 3^n × 5^n lacks 2. A student who says \"both lack the other factor\" without naming the specific missing prime for each case has not analysed the digit-condition correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"12^n = (10+2)^n. By binomial expansion, all terms except the last have factor 10, so 12^n = 10k + 2^n. Since 2^n never ends in 0, 12^n never ends in 0.\" Is this proof valid? Identify any flaw or gap.",
+     "a": "The proof is valid in spirit but has a subtle gap: it assumes 2^n never ends in 0 without justification. While true (2^n has only prime factor 2, lacks 5), this must be stated or proved. Also, the sum 10k + 2^n could theoretically end in 0 if 2^n ended in 0 (e.g., 10×3 + 10 = 40), but since 2^n ends in 2,4,8,6 cyclically, the last digit is never 0. A complete proof would need to justify that 2^n mod 10 ≠ 0. The student's argument is incomplete without this step.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem of the form \"Prove that a^n cannot end with digit d\" where a is a two-digit composite number and d is a digit from 0-9. Choose a and d such that the proof requires checking the absence of a specific prime factor. State the problem and outline the proof strategy.",
+     "a": "Example problem: \"Prove that 14^n cannot end with the digit 5 for any natural number n.\"\nProof strategy: (1) 14 = 2 × 7, so 14^n = 2^n × 7^n. (2) A number ending in 5 must be divisible by 5, so its prime factorisation must contain 5. (3) 14^n has only primes 2 and 7 — no factor 5. (4) By Fundamental Theorem of Arithmetic, 5 cannot appear. (5) Therefore 14^n cannot end in 5. A poor answer chooses a trivial case (e.g., 10^n cannot end in 3) or fails to identify the correct missing prime factor for the target digit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

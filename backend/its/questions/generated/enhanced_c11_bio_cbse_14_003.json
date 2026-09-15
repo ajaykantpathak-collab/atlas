@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_003",
+   "title": "c11_bio_cbse_14_003",
+   "questions": [
+    {
+     "q": "State the partial pressures of O₂ and CO₂ in atmospheric air, alveolar air, and deoxygenated blood arriving at the alveoli.",
+     "a": "Atmospheric air: pO₂ ≈ 159 mm Hg, pCO₂ ≈ 0.3 mm Hg. Alveolar air: pO₂ ≈ 104 mm Hg, pCO₂ ≈ 40 mm Hg. Deoxygenated (pulmonary arterial) blood: pO₂ ≈ 40 mm Hg, pCO₂ ≈ 45 mm Hg. A wrong answer (e.g., thinking alveolar pO₂ equals atmospheric 159 mm Hg) reveals the student hasn't grasped that alveolar air is a mixture of fresh inspired air and residual air, so its composition differs from atmospheric air.",
+     "self_check": true
+    },
+    {
+     "q": "Why does CO₂ diffuse from blood to alveoli even though its partial pressure gradient (5 mm Hg) is much smaller than that of O₂ (64 mm Hg)?",
+     "a": "CO₂ is 20–25 times more soluble in the diffusion membrane than O₂. According to Fick’s Law, diffusion rate is proportional to (partial pressure gradient × solubility). The high solubility compensates for the smaller gradient, allowing CO₂ to diffuse at a similar rate as O₂. A student who says \"CO₂ gradient is larger\" or \"CO₂ is lighter\" confuses partial pressure values or molecular weight with solubility.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has pulmonary fibrosis thickening the alveolar-capillary membrane to 2 µm (normal ≈ 0.5 µm). Predict the effect on O₂ and CO₂ exchange and explain why CO₂ exchange might be less affected initially.",
+     "a": "O₂ exchange will decrease significantly because diffusion rate is inversely proportional to membrane thickness (Fick’s Law). CO₂ exchange is less affected because its much higher solubility (20–25×) partially offsets the increased diffusion distance. A wrong answer claiming both gases are equally affected ignores the solubility factor; a student saying CO₂ is more affected confuses the direction of the gradient.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of alveolar air with atmospheric air and expired air. Explain why alveolar pO₂ is lower and pCO₂ higher than atmospheric air.",
+     "a": "Alveolar air: pO₂ 104 mm Hg, pCO₂ 40 mm Hg. Atmospheric air: pO₂ 159 mm Hg, pCO₂ 0.3 mm Hg. Expired air: pO₂ ~116 mm Hg, pCO₂ ~32 mm Hg. Alveolar pO₂ is lower because O₂ continuously diffuses into blood; alveolar pCO₂ is higher because CO₂ continuously diffuses from blood. The dead space air (no gas exchange) dilutes expired air toward atmospheric values. A student who thinks alveolar air equals expired air forgets the mixing with dead space air.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In the alveoli, O₂ binds to haemoglobin because the pO₂ is high; in tissues, O₂ is released because pO₂ is low.\" Is this a complete explanation of the loading and unloading of O₂?",
+     "a": "The statement is incomplete. While partial pressure is the primary factor, the Bohr effect (pCO₂, H⁺ concentration, temperature) shifts the oxygen dissociation curve. In tissues, high pCO₂, high H⁺, and higher temperature further promote O₂ release beyond what pO₂ alone would cause. In alveoli, low pCO₂, low H⁺, and lower temperature enhance binding. A student who agrees fully misses the allosteric regulation of haemoglobin – a key Class 11 concept covered in node 004.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spirometer and gas analysis to demonstrate that alveolar air composition remains relatively constant during normal breathing, while inspired and expired air differ.",
+     "a": "Collect inspired air (via a valve), expired air (mixed), and end-tidal air (last 100 mL of expiration, approximating alveolar air) during spirometry. Analyse O₂ and CO₂ percentages with a gas analyser. Expected: Inspired ≈ 21% O₂, 0.04% CO₂; End-tidal ≈ 14% O₂, 5.3% CO₂; Mixed expired ≈ 16% O₂, 4% CO₂. The end-tidal sample shows alveolar composition is stable and distinct. A poor design that only measures mixed expired air cannot isolate alveolar air, revealing confusion between dead space and respiratory zone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_006",
+   "title": "c7_math_ch12_006",
+   "questions": [
+    {
+     "q": "What is the result of multiplying $3.456$ by $100$?",
+     "a": "The correct answer is $345.6$. A student who answers $34.56$ has shifted the decimal point only one place to the right instead of two, confusing multiplication by 10 with multiplication by 100. A student who answers $3456$ has incorrectly removed the decimal point entirely without considering the original place values.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why dividing a decimal number by $1000$ requires shifting the decimal point three places to the left rather than to the right.",
+     "a": "The correct answer is that division makes a number smaller, and in our base-10 place value system, moving to the left decreases the place value of each digit by a factor of 10 for each position. Therefore, dividing by 1000 (which is $10 \\times 10 \\times 10$) reduces the value by three place value steps, shifting the decimal point three positions to the left. A student who thinks it shifts to the right has confused the rules of multiplication and division.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $72.4 \\div 100$ and show your step-by-step reasoning.",
+     "a": "The correct answer is $0.724$. Step 1: Identify that we are dividing by 100, which has two zeros. Step 2: Set up the number $72.4$ and locate the decimal point between 2 and 4. Step 3: Shift the decimal point 2 places to the left. Since there is only one digit (7) to the left of the decimal point, we must add a place-holding zero: $0.724$. A student who writes $7.24$ has only shifted it one place (dividing by 10 instead of 100), while a student who writes $0.0724$ has shifted it three places (dividing by 1000).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the operations of multiplying $5.6$ by $100$ and dividing $5600$ by $1000$. What do you notice about the final answers?",
+     "a": "The correct answer is that $5.6 \\times 100 = 560$ and $5600 \\div 1000 = 5.6$. Comparing them shows that multiplying a decimal by 100 shifts the point right by 2 places, while dividing another number by 1000 shifts it left by 3 places, yielding completely different values ($560$ versus $5.6$). A student who believes these operations are inverse or yield the same result fails to account for the different starting numbers and different powers of ten applied.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated $8.9 \\times 1000$ as $890$. Evaluate this student's work and explain the specific error made.",
+     "a": "The student's answer of $890$ is incorrect. The correct answer is $8900$. The student only shifted the decimal point two places to the right (multiplying by 100) instead of three places (multiplying by 1000), failing to add a necessary place-holding zero for the third shift.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal multiplication problem using a power of 10 where the answer becomes a whole number, and explain why the decimal point disappears.",
+     "a": "An example is $4.25 \\times 100 = 425$. The decimal point disappears because shifting it two places to the right places it immediately after the last digit (5), meaning there are no remaining decimal parts, turning the decimal into a whole number. A poor answer would use a power of 10 too small (like 10), resulting in $42.5$, which still contains a decimal part, failing to demonstrate the condition where the decimal point is eliminated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

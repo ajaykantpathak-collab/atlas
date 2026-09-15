@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_008",
+   "title": "c11_bs_cbse_11_008",
+   "questions": [
+    {
+     "q": "List the three documents that must be submitted to the Customs Appraiser along with the shipping bill for customs clearance of export goods.",
+     "a": "The three mandatory documents are: (1) Export Contract or Export Order, (2) Letter of Credit, and (3) Commercial Invoice. A wrong answer (e.g., listing Bill of Lading or Certificate of Origin) reveals the student confuses pre-shipment documents (submitted to customs) with post-shipment documents (generated after loading). The shipping bill is the *basis* for customs permission; the listed documents support the declaration made in it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Bill of Lading is called a \"document of title\" while a Shipping Bill is not, even though both are issued during export.",
+     "a": "A Bill of Lading is a document of title because it represents ownership of goods — whoever holds the original endorsed B/L can claim the goods at destination. A Shipping Bill is merely a customs declaration filed *before* export to obtain permission to ship; it never transfers ownership. If a student says both are documents of title, they confuse a customs clearance document (regulatory) with a carrier's receipt that embodies title (commercial/financial).",
+     "self_check": true
+    },
+    {
+     "q": "An Indian exporter ships machinery to Germany under a usance draft (60 days). The importer accepts the bill of exchange. Which document does the exporter's bank release to the importer's bank immediately, and which document does the importer receive only after 60 days?",
+     "a": "Under a usance draft, the exporter's bank releases **all shipping documents** (Bill of Lading, Invoice, Packing List, Insurance Policy, Certificate of Origin) to the importer's bank *immediately upon acceptance* of the bill of exchange. The importer receives these documents right away to clear customs. The **payment** is due after 60 days, not the documents. A wrong answer (e.g., \"documents released after 60 days\") shows confusion between document release (against acceptance) and payment release (at maturity).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Certificate of Origin in export versus Import General Manifest in import. How does each interact with tariff concessions?",
+     "a": "Certificate of Origin (export) *proves* the goods' country of manufacture so the **importer** can claim tariff concessions under trade agreements. Import General Manifest (import) is a *carrier's declaration* of all cargo arriving, used by customs to verify what is being unloaded; it does not determine tariff rates. If a student swaps their functions, they misunderstand that Certificate of Origin is a **preferential trade tool** while IGM is a **customs control tool**.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A Letter of Credit eliminates all risk for the exporter because the bank guarantees payment.\"",
+     "a": "The statement is **partially false**. An L/C eliminates *commercial risk* (importer default) but not *documentary risk* (exporter's failure to present compliant documents) or *country risk* (political blockage of funds). Banks pay only against **strictly complying documents** — a single discrepancy (e.g., typo in vessel name) allows refusal. Students who call it \"risk-free\" ignore the principle of **strict compliance** in UCP 600, which is the core of L/C operation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a document checklist for a first-time exporter of handicrafts from Jaipur to the USA, sequencing 8 documents from factory gate to payment realisation. Justify the order.",
+     "a": "Correct sequence: (1) IEC Registration (pre-requisite), (2) Export Order/Contract, (3) Commercial Invoice + Packing List, (4) Certificate of Origin (for GSP benefits), (5) Shipping Bill (customs clearance), (6) Mate's Receipt → Bill of Lading (carrier receipt), (7) Bill of Exchange + Documents negotiated through bank, (8) Bank Certificate of Payment. Justification must show **causal dependency**: each document enables the next. A poor answer lists documents randomly or misses the bank negotiation step, revealing no grasp of procedural flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

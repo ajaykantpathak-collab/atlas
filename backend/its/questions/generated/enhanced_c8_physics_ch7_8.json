@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_8",
+   "title": "c8_physics_ch7_8",
+   "questions": [
+    {
+     "q": "What is the duration of a mean solar day in hours and in seconds? State the definition of a solar day in your own words.",
+     "a": "A mean solar day is 24 hours = 86,400 seconds. It is the time between two successive solar noons (when the Sun crosses the local meridian). A wrong answer (e.g., 23 hours 56 minutes) reveals confusion with the sidereal day, meaning the student has not grasped that Earth's orbital motion adds ~4 minutes to the rotation period relative to the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a solar day about 4 minutes longer than a sidereal day? Use the terms 'rotation', 'orbit', and 'meridian' in your explanation.",
+     "a": "Earth rotates 360° relative to distant stars in a sidereal day (23h 56m). During that time, Earth also moves ~1° along its orbit around the Sun. To bring the Sun back to the same local meridian, Earth must rotate an extra ~1° (about 4 minutes of rotation), making the solar day 24 hours. A wrong answer that ignores orbital motion shows the student thinks rotation alone determines the solar day, missing the combined effect.",
+     "self_check": true
+    },
+    {
+     "q": "If the Sun crosses the meridian at 12:00 noon at longitude 75° E (Indian Standard Time meridian), at what local solar time will it cross the meridian at longitude 90° E? Show your calculation using Earth's angular speed.",
+     "a": "Earth rotates 15° per hour (360°/24h). Longitude difference = 90° E – 75° E = 15°. Time difference = 15° / 15° per hour = 1 hour. Since 90° E is east of 75° E, the Sun crosses earlier there: 12:00 noon – 1 hour = 11:00 AM local solar time. A wrong answer (e.g., 1:00 PM) reveals the student reversed the east-west relationship: east sees the Sun earlier, not later.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If Earth stopped rotating but kept orbiting the Sun, we would still have day and night, just each lasting half a year.\" Analyze this statement. Is it correct? Explain using the definition of a solar day.",
+     "a": "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation. If Earth stopped rotating (rotation period = infinite), the Sun would never return to the meridian — there would be no solar day. One side would have permanent day, the other permanent night. The orbital motion alone would cause the Sun to appear to move only ~1° per day along the ecliptic, not create a day-night cycle. A wrong agreement reveals the student conflates orbital motion with rotation as the cause of day-night.",
+     "self_check": true
+    },
+    {
+     "q": "A sundial in Mumbai (72.8° E) shows 12:00 noon when the Sun crosses the local meridian. At that same instant, what would a sundial in Kolkata (88.4° E) read? Evaluate whether using a single standard time (IST) for both cities is practical, and justify your answer.",
+     "a": "Longitude difference = 88.4° – 72.8° = 15.6°. Time difference = 15.6° / 15° per hour = 1.04 hours = 1 hour 2.4 minutes. Kolkata is east, so its local solar time is ahead: 12:00 + 1h 2.4m = 1:02 PM (approx). Using IST (based on 82.5° E) is practical because the ~1 hour spread across India is manageable for national coordination; the maximum local solar time difference from IST is about 30 minutes at the extremes. A wrong evaluation that calls it impractical without quantifying the difference shows lack of analytical reasoning about time zone design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a globe, a lamp (Sun), and a protractor to demonstrate why the solar day is longer than the sidereal day. Describe the setup, what you measure, and how you calculate the extra rotation angle.",
+     "a": "Setup: Place a globe on a rotating stand with a fixed lamp as the Sun. Mark a meridian line on the globe. Rotate the globe 360° (sidereal day) while keeping the lamp fixed — note the marked meridian no longer faces the lamp. Then advance the globe along a circular orbit by ~1° (1/365 of a circle) and rotate further until the meridian faces the lamp again. Measure the extra rotation angle with the protractor: it should be ~1°. Calculate: 360°/23.93h ≈ 15.04°/h; extra 1° takes 1°/15.04°/h ≈ 0.066h ≈ 4 minutes. A poor design that doesn't separate rotation from orbital motion shows the student cannot isolate the two motions conceptually.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

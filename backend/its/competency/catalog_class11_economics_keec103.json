@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 103,
+ "chapter_title": "Economic Reforms Since 1991",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec103.txt",
+ "concepts": [
+  {
+   "id": "keec.103.1.1",
+   "title": "Crisis of 1991 and the New Economic Policy LPG",
+   "section": "Economic reforms 1991",
+   "definition": "The balance of payments crisis of 1991, with dwindling foreign exchange reserves and heavy external debt, forced India to adopt the New Economic Policy of stabilisation and structural reform in three streams: liberalisation, privatisation and globalisation.",
+   "formula": "",
+   "key_idea": "Reforms dismantled the licensing raj, opened sectors to private and foreign investment, and integrated India with the world economy.",
+   "textbook_ref": "keec103.txt LPG overview sections",
+   "question_patterns": [
+    "why were economic reforms introduced in india in 1991",
+    "define liberalisation privatisation and globalisation",
+    "state the three streams of the new economic policy",
+    "how did the balance of payments crisis trigger reforms",
+    "what is meant by stabilisation and structural adjustment",
+    "name the areas where reforms were introduced first"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the trigger",
+     "explain": "Recall the 1991 reserves crisis and IMF loan conditions."
+    },
+    {
+     "step": 2,
+     "action": "sort the three streams",
+     "explain": "Place each measure under L, P or G."
+    },
+    {
+     "step": 3,
+     "action": "state the objective",
+     "explain": "Link the measure to efficiency, growth or integration."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.2.1",
+   "title": "Liberalisation: Deregulation of Industry, Finance, Trade and Tax",
+   "section": "Liberalisation",
+   "definition": "Liberalisation freed economic activity from state controls by abolishing industrial licensing for most industries, deregulating the financial sector, reducing tariffs and removing quantitative restrictions on imports, and reforming direct and indirect taxes to simplify compliance.",
+   "formula": "",
+   "key_idea": "Freedom of production, trade and finance was expected to let market prices allocate resources better than licences and controls.",
+   "textbook_ref": "keec103.txt liberalisation sections",
+   "question_patterns": [
+    "what is liberalisation and in which areas was it applied",
+    "why was industrial licensing abolished for most industries",
+    "how were financial sector reforms carried out",
+    "distinguish direct and indirect tax reforms after 1991",
+    "what are quantitative restrictions on trade",
+    "explain foreign exchange reforms of 1991"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the area",
+     "explain": "Separate industry, finance, trade and tax reforms."
+    },
+    {
+     "step": 2,
+     "action": "note the removal",
+     "explain": "State which control or restriction was lifted."
+    },
+    {
+     "step": 3,
+     "action": "state the expected gain",
+     "explain": "Link the removal to efficiency or competition."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.3.1",
+   "title": "Privatisation, Globalisation and Demonetisation GST Context",
+   "section": "Privatisation and globalisation",
+   "definition": "Privatisation transfers ownership or management from the public to the private sector through disinvestment of equity of public sector undertakings, while globalisation integrates the domestic economy with the world through trade liberalisation, foreign direct investment inflows and outward orientation of policy.",
+   "formula": "",
+   "key_idea": "Disinvestment sales of PSU equity aimed to raise resources and improve efficiency, and globalisation opened the economy to foreign competition and technology.",
+   "textbook_ref": "keec103.txt privatisation globalisation sections",
+   "question_patterns": [
+    "define privatisation and disinvestment",
+    "why were public sector undertakings disinvested",
+    "what is globalisation and how does it affect domestic firms",
+    "how did foreign direct investment policy change after 1991",
+    "state the arguments for and against privatisation",
+    "explain outward orientation of trade policy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate P from G",
+     "explain": "Distinguish ownership transfer from world integration."
+    },
+    {
+     "step": 2,
+     "action": "note the instrument",
+     "explain": "Recall disinvestment, FDI and trade measures."
+    },
+    {
+     "step": 3,
+     "action": "weigh the effects",
+     "explain": "State gains and concerns of each measure."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.4.1",
+   "title": "Appraisal of Reforms: Gains, Critique and Positive Features",
+   "section": "Appraisal of reforms",
+   "definition": "Reforms raised growth of the economy and foreign exchange reserves and expanded the service sector, but critics note limited employment growth, neglect of agriculture, uneven industrial growth and greater inequality, while positive assessments emphasise efficiency and consumer gains.",
+   "formula": "",
+   "key_idea": "The reform appraisal weighs faster GDP growth and reserves against jobless growth and agrarian neglect.",
+   "textbook_ref": "keec103.txt appraisal sections",
+   "question_patterns": [
+    "assess the economic reforms since 1991",
+    "what are the gains of liberalisation privatisation and globalisation",
+    "state the critiques of the reform process",
+    "why is employment growth said to be limited after reforms",
+    "how did the service sector grow after reforms",
+    "compare growth before and after 1991"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the gains",
+     "explain": "Note growth, reserves and efficiency improvements."
+    },
+    {
+     "step": 2,
+     "action": "list the concerns",
+     "explain": "Recall employment, agriculture and inequality critiques."
+    },
+    {
+     "step": 3,
+     "action": "form a balanced view",
+     "explain": "Weigh gains against concerns for a conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec103.txt exercises",
+   "questions": [
+    "Why were reforms introduced in India in 1991?",
+    "Why is it necessary to become a global economy?",
+    "Define liberalisation, privatisation and globalisation.",
+    "Explain the need for and forms of disinvestment.",
+    "India has certain advantages which make it a favourite outsourcing destination - discuss."
+   ]
+  }
+ ]
+}

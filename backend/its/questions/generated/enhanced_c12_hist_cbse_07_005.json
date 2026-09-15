@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_005",
+   "title": "c12_hist_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the name of the most important tank built in the early 15th century to meet Vijayanagara’s water needs, and from which river did the Hiriya canal draw water?",
+     "a": "The Kamalapuram tank (early 15th century) and the Hiriya canal drew water from the Tungabhadra River via a dam. A wrong answer (e.g., “Tungabhadra tank” or “Krishna River”) reveals confusion between the river and the tanks, or between the two major Deccan rivers — a common error when students memorise names without visualising the hydrology.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Vijayanagara rulers enclose agricultural fields *inside* the fortified walls, unlike most medieval cities where farms lay outside?",
+     "a": "To withstand long sieges: medieval sieges aimed to starve defenders; by protecting the agricultural belt itself, Vijayanagara ensured food supply even if the outer walls were breached. A wrong answer (“for tax collection” or “to keep peasants safe”) misses the *military-logic* — students often confuse administrative convenience with siege strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Abdur Razzaq (15th-century Persian ambassador) noted seven lines of forts. If you were mapping the city today using the archaeological grid (25 alphabetical squares, each subdivided), which square would *most likely* contain the outer wall linking the hills, and why?",
+     "a": "The outermost squares at the perimeter of the survey grid (e.g., squares A, Y, or Z depending on orientation), because the outermost wall “linked the hills surrounding the city” — i.e., it follows the hill-girdle. A student who picks a central square (e.g., N or M) is confusing the outer fortification with the inner royal-centre walls, showing they haven’t synthesised the textual description with the map (Fig. 7.27).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the water-management strategy of Vijayanagara (arid zone, tank + canal system) with that of the Harappan city of Dholavira (also arid, reservoir + channel system). Identify *one* key similarity and *one* key difference in how each civilisation secured water for urban survival.",
+     "a": "Similarity: both built large reservoirs (Kamalapuram tank / Dholavira’s massive reservoirs) to capture seasonal runoff. Difference: Vijayanagara used a *perennial river* (Tungabhadra) fed by a dam and canal (Hiriya) for year-round irrigation, while Dholavira relied entirely on *seasonal monsoon runoff* stored in interconnected reservoirs — no perennial river. A wrong answer that claims both used rivers shows failure to recognise Dholavira’s unique rainwater-harvesting adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “The sacred centre of Vijayanagara was located on the rocky northern hills *because* that was the most defensible terrain.” Use evidence from the text to support your evaluation.",
+     "a": "The statement is *partly true but incomplete*. The northern hills *were* defensible, but the *primary* reason for locating the sacred centre there was the *pre-existence* of the Virupaksha and Pampadevi shrines — the site was already a pilgrimage centre (Ramayana associations, Jaina temples). The rulers *chose* the capital *because* of the sacred landscape, then exploited the hills for defence. A student who agrees wholly confuses *strategic advantage* with *foundational motive* — a classic “functionalist” misreading that ignores religious legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-layer annotated sketch-map (mental or paper) of Vijayanagara’s capital showing: (1) natural features (river, hills, streams), (2) hydraulic works (tanks, canals, dam), (3) fortification lines (7 walls, gates, bastions), (4) functional zones (sacred centre, royal centre, urban core, agricultural tracts). Label the *flow of water* from river → dam → canal → tank → fields → city.",
+     "a": "A good answer produces a layered map where: Layer 1 shows Tungabhadra flowing NE, granite hills girdling the site, streams descending; Layer 2 shows dam on Tungabhadra → Hiriya canal → Kamalapuram tank → channels to royal centre/fields; Layer 3 shows 7 concentric walls, outermost linking hills, gates with Indo-Islamic arches; Layer 4 shows sacred centre (N, Virupaksha), royal centre (SW, Mahanavami Dibba), urban core (between them, Muslim quarter NE), agricultural tracts between walls. A poor answer omits the *water flow* or places the sacred centre in the SW — revealing they haven’t internalised the spatial logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

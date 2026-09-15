@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_005",
+   "title": "c12_bs_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the exact wording of Fayol’s principle of Unity of Direction as given in the NCERT textbook.",
+     "a": "Correct answer: \"All the units of an organisation should be moving towards the same objectives through coordinated and focussed efforts. Each group of activities having the same objective must have one head and one plan. This ensures unity of action and coordination.\" A wrong answer that mentions \"one boss for each employee\" confuses Unity of Direction with Unity of Command. This reveals the student has not internalised the distinction that Unity of Direction addresses organisational-level coordination of activities with common objectives, while Unity of Command addresses individual reporting relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles. Both divisions procure batteries from the same vendor but negotiate separate contracts, leading to different prices and delivery schedules. The CEO orders them to merge procurement into a single department. Which principle does this decision illustrate, and why is it NOT an example of Unity of Command?",
+     "a": "Correct answer: This illustrates Unity of Direction because all activities with the same objective (procuring batteries at optimal cost) are brought under one head and one plan. It is not Unity of Command because Unity of Command concerns an individual employee receiving orders from only one superior; here, the change is at the departmental/activity level, not the individual reporting level. A wrong answer that says \"it shows Unity of Command because now there is one procurement boss\" reveals the student conflates the two principles. The distinction is critical: Unity of Direction prevents overlapping of activities; Unity of Command prevents dual subordination of a person.",
+     "self_check": true
+    },
+    {
+     "q": "In a hospital, the radiology department stores X-ray films in three different cabinets across two floors without a labelling system. Technicians waste 15 minutes per patient locating the correct film. Applying the principle of Order, design a 4-step implementation plan to eliminate this waste. Specify the exact action for each step.",
+     "a": "Correct answer (4-step plan):\n1. Audit: List all film types, sizes, and current locations; assign a unique alphanumeric code to each category.\n2. Allocate: Designate a single, climate-controlled room on the ground floor with numbered shelves; map each code to a specific shelf.\n3. Label & Train: Affix barcode labels on shelves and film jackets; train all technicians on the retrieval protocol using handheld scanners.\n4. Monitor: Track average retrieval time daily for two weeks; adjust shelf layout if any category exceeds 2-minute retrieval.\nA wrong answer that only says \"put all films in one room\" misses the systematic approach (coding, labelling, training, monitoring) that ensures Order is sustained. This reveals the student treats Order as a one-time tidying rather than an ongoing system of \"a place for everything and everything in its place.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consequences of violating Equity versus violating Order in a software development firm. Which violation is more likely to cause high employee turnover, and why? Use the concepts of \"loyalty and devotion\" (Equity) and \"maximum efficiency\" (Order) in your analysis.",
+     "a": "Correct answer: Violating Equity (e.g., paying male and female developers differently for same role, or promoting based on personal connections) directly erodes loyalty and devotion — employees feel injustice and leave. Violating Order (e.g., developers sharing workstations, no version-control standards) reduces efficiency but may be tolerated as \"chaos\" if pay and recognition are fair. Equity violation is more likely to cause high turnover because it attacks the psychological contract; Order violation attacks productivity, which management might address with overtime rather than losing staff. A wrong answer that claims Order violation causes higher turnover because \"people hate mess\" ignores Fayol’s explicit link between Equity and loyalty. This reveals the student has not connected the principle’s stated outcome (loyalty/devotion for Equity; maximum efficiency for Order) to real-world behavioural consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following management decision using the principle of Equity: \"To motivate the sales team, the VP announces that the top performer each quarter will receive a luxury car lease, while all others get a standard fuel allowance. The VP argues this is equitable because everyone has an equal chance to win.\" Is the VP’s reasoning valid? Justify your evaluation with two specific references to Fayol’s description of Equity.",
+     "a": "Correct answer: The VP’s reasoning is invalid. Fayol states Equity requires \"kindliness and justice\" and \"no discrimination against anyone on account of gender, religion, language, caste, belief or nationality.\" First, a winner-takes-all scheme is not \"kind\" to the 90% who consistently contribute but never win; it creates a tournament culture that undermines teamwork. Second, \"equal chance\" is not the same as equitable treatment — if territories differ in market potential, the chance is not truly equal, constituting hidden discrimination. Fayol also notes \"lazy personnel should be dealt with sternly,\" implying performance differences should be addressed individually, not through a single hyper-competitive prize. A wrong answer that says \"it’s equitable because rules are same for all\" misses Fayol’s emphasis on fairness of outcomes and absence of discrimination, not just procedural sameness. This reveals the student equates equity with formal equality of opportunity, ignoring substantive fairness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case scenario (150-200 words) involving a mid-sized Indian food-processing company where ALL THREE principles — Unity of Direction, Order, and Equity — are simultaneously violated. The scenario must include: (a) two product lines with conflicting production schedules, (b) a warehouse where raw materials and finished goods share aisles without demarcation, and (c) a promotion policy that favours employees from the founder’s home state. End with a question asking the reader to propose one integrated solution that addresses all three violations.",
+     "a": "A good answer will present a coherent scenario meeting all three specifications and end with a clear integrative question. Example: \"SpiceRoots Pvt Ltd produces pickles and ready-to-eat curries. The pickle unit plans production for summer peak, while the curry unit plans for winter festivals, but both share the same kettle line — causing daily changeover conflicts. In the warehouse, mango pulp drums and finished pickle jars occupy the same aisles with no floor markings; forklift operators frequently pick wrong items. The HR policy promotes only employees from Gujarat (founder’s home state) to shift-in-charge roles, despite equal performance from others. Question: Design a single restructuring plan that establishes unified production planning, orderly warehouse layout, and equitable promotion criteria.\" A poor answer that omits one violation or writes a generic question shows the student cannot synthesise the three principles into a realistic organisational context. This reveals fragmented understanding rather than integrated mastery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

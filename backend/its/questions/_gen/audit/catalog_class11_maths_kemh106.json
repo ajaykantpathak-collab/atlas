@@ -1,0 +1,140 @@
+{
+ "catalog": "catalog_class11_maths_kemh106.json",
+ "concepts": [
+  {
+   "id": "kemh.106.1.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 * 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 8 * 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 4 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 5 * 5"
+   ]
+  },
+  {
+   "id": "kemh.106.2.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 6 * 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (2 * 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 6 * 8"
+   ]
+  },
+  {
+   "id": "kemh.106.3.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 7 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 9 * 3"
+   ]
+  }
+ ]
+}

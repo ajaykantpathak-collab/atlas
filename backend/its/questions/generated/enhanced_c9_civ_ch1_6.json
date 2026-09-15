@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_6",
+   "title": "c9_civ_ch1_6",
+   "questions": [
+    {
+     "q": "What is the constitutional position of the President of India according to Article 74, and how does it differ from the President of the United States?",
+     "a": "The President of India acts on the aid and advice of the Council of Ministers headed by the Prime Minister (Article 74), making the role largely ceremonial; the US President is both head of state and head of government, directly elected, and exercises real executive power without a cabinet responsible to the legislature. A wrong answer (e.g., saying the Indian President has real executive power) reveals confusion between the constitutional text and actual practice, or conflation of the two systems.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a parliamentary system like India's fuse the executive and legislature, while a presidential system like the USA's separates them?",
+     "a": "Parliamentary systems fuse executive and legislature to ensure quick decision-making and continuous accountability (the government must retain the confidence of the majority); presidential systems separate them to create checks and balances, preventing concentration of power. A wrong answer (e.g., \"parliamentary systems separate powers\") shows the student has not grasped the core design trade-off between efficiency/accountability and checks/balances.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical scenario, the Indian Prime Minister loses a vote of confidence in Lok Sabha. Simultaneously, the US President faces a hostile Congress that refuses to pass his budget. Compare the constitutional options available to each leader.",
+     "a": "The Indian PM must resign or advise dissolution of Lok Sabha (Article 85) because the government survives only with majority support; the US President cannot be forced to resign by Congress, serves a fixed four-year term, and must negotiate or veto the budget — Congress cannot dismiss him. A wrong answer (e.g., saying the US President can be removed by a congressional vote of no confidence) indicates the student misapplies parliamentary accountability mechanisms to the presidential system.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the method of selecting the head of government (Prime Minister vs President) affects party discipline and coalition building in India versus the USA.",
+     "a": "In India, the PM is the leader of the majority party/coalition in Lok Sabha, forcing strong party discipline and coalition management to survive confidence votes; in the USA, the President is elected independently of Congress, so party discipline is weaker and the President often faces a legislature controlled by the opposition (divided government). A wrong answer (e.g., claiming the US President controls his party in Congress like a PM) shows failure to see how selection method shapes legislative-executive dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"A presidential system would be better for India because it provides stable fixed-term governance without the risk of mid-term government collapse.\"",
+     "a": "The argument overlooks India's diversity and need for continuous accountability; a fixed-term president could ignore parliamentary consensus, while the parliamentary system forces the executive to negotiate with diverse parties, accommodating regional and minority interests — a key reason the Constituent Assembly chose the parliamentary model. A wrong answer (e.g., agreeing without addressing accountability or diversity) reveals an inability to weigh institutional design against India's specific socio-political context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a constitutional provision for a hybrid system that combines the accountability of a parliamentary system with the stability of a presidential fixed term. Explain how it would work.",
+     "a": "A good answer might propose a directly elected Prime Minister with a fixed term but subject to a constructive vote of no confidence (like Germany), ensuring stability unless a majority agrees on a replacement. It should specify how the executive is formed, how accountability works, and how deadlocks are resolved. A poor answer (e.g., simply copying one system) shows inability to synthesize institutional features creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

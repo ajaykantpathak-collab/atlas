@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_009",
+   "title": "c12_chem_cbse_05_009",
+   "questions": [
+    {
+     "q": "A student writes: \"EDTA is used in water hardness titration because it forms a stable complex with Ca²⁺ and Mg²⁺.\" Is this statement complete? If not, what critical detail about the *difference* in stability constants is missing for selective estimation?",
+     "a": "No, the statement is incomplete. While EDTA forms stable complexes with both Ca²⁺ and Mg²⁺, selective estimation requires exploiting the *difference* in their formation constants: log Kf(Ca-EDTA) ≈ 10.7, log Kf(Mg-EDTA) ≈ 8.7. At pH 10 (NH₄Cl/NH₃ buffer), Ca²⁺ complexes fully while Mg²⁺ does not, allowing stepwise titration. A student who misses this cannot explain why we add Mg²⁺ indicator (Eriochrome Black T) only after Ca²⁺ is titrated, or why pH control is critical. This reveals a gap in applying equilibrium concepts (Class 11: c11_chem_cbse_07_003) to analytical chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "In the cyanide process for gold extraction: 4Au + 8CN⁻ + O₂ + 2H₂O → 4[Au(CN)₂]⁻ + 4OH⁻. Why is oxygen (O₂) essential? What would happen if the reaction were carried out under inert atmosphere (N₂)?",
+     "a": "O₂ acts as the oxidant: Au(0) → Au(I) in [Au(CN)₂]⁻ requires electron loss. The half-reaction is Au + 2CN⁻ → [Au(CN)₂]⁻ + e⁻. O₂ accepts these electrons: O₂ + 2H₂O + 4e⁻ → 4OH⁻. Under N₂, no oxidation occurs — gold remains metallic and insoluble. Students often think CN⁻ alone dissolves gold (like acids dissolve metals), missing the redox requirement. This error stems from not recognizing Au(0)→Au(I) oxidation (Class 11: c11_chem_cbse_08_001) and the role of O₂ as electron acceptor.",
+     "self_check": true
+    },
+    {
+     "q": "A water sample contains 0.01 M Ca²⁺ and 0.01 M Mg²⁺. You titrate with 0.01 M EDTA at pH 10 using Eriochrome Black T indicator. Calculate the volume of EDTA needed to reach the first endpoint (Ca²⁺ only) and the second endpoint (Ca²⁺ + Mg²⁺) for 50.0 mL of the sample. Given: log Kf(Ca-EDTA)=10.7, log Kf(Mg-EDTA)=8.7.",
+     "a": "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol. Step 3: At pH 10, Ca²⁺ titrates completely first (higher Kf). Volume for Ca²⁺ = (5.0×10⁻⁴ mol) / (0.01 M) = 50.0 mL. Step 4: After Ca²⁺, Mg²⁺ titrates. Additional volume = 50.0 mL. Step 5: Total volume for both = 100.0 mL. First endpoint at 50.0 mL, second at 100.0 mL. A student who adds volumes directly (100 mL for first endpoint) ignores the stepwise nature due to Kf difference — a common JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of coordination compounds in hemoglobin (O₂ transport) and chlorophyll (photosynthesis). Both are porphyrin complexes. Why does Fe²⁺ in hemoglobin bind O₂ reversibly, while Mg²⁺ in chlorophyll does not bind O₂ but undergoes photoexcitation? Analyze using d-electron configuration and ligand field effects.",
+     "a": "Hemoglobin: Fe²⁺ (d⁶) in porphyrin (strong field) → low-spin t₂g⁶ eg⁰. O₂ binds to the 6th coordination site (axial) forming Fe²⁺-O₂ (diamagnetic oxyhemoglobin). Reversibility comes from weak π-backbonding and protein conformational change (cooperative binding). Chlorophyll: Mg²⁺ (d¹⁰) — no d-d transitions possible. Photoexcitation involves π→π* transition in the porphyrin ring (ligand-centered), not metal-centered. Mg²⁺ has no vacant d-orbitals for O₂ binding; its role is structural (tuning ring electronics). Students who say \"Mg²⁺ binds O₂\" confuse metal-centered redox (Fe) with ligand-centered photophysics (Mg). This requires integrating CFT (node 006) with biological function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"cis-Platin [Pt(NH₃)₂Cl₂] is an anticancer drug because it is a square planar Pt(II) complex that binds to DNA. Therefore, trans-platin should be equally effective since it has the same formula and geometry.\" Identify the flaw and explain why trans-platin is inactive.",
+     "a": "The claim is false. Both are square planar Pt(II) (d⁸, dsp²), but *geometry* of ligand arrangement differs. cis-Platin can form *intrastrand cross-links* on adjacent guanine N7 atoms on the same DNA strand (1,2-GG cross-link), bending DNA ~60° and blocking replication. trans-Platin forms *interstrand* or *long-range* cross-links that DNA repair enzymes easily recognize and remove. Also, trans-platin hydrolyzes faster, forming toxic aqua species before reaching DNA. Students who equate \"same formula = same activity\" ignore 3D structure — a classic board exam error (CBSE 2019, 2022). This tests spatial reasoning from node 004 (geometrical isomerism).",
+     "self_check": true
+    },
+    {
+     "q": "Design a qualitative analysis scheme to separate and identify Ni²⁺, Co²⁺, and Fe³⁺ in a mixture using selective complexation/precipitation. Specify reagents, conditions (pH, concentration), and the coordination chemistry principle (stability constant, geometry, redox) exploited at each step.",
+     "a": "Good answer: (1) Add NH₄Cl/NH₃ buffer (pH 10) + (NH₄)₂S → Fe³⁺ precipitates as Fe₂S₃ (hydrolyzes to Fe(OH)₃), while Ni²⁺/Co²⁺ stay as [Ni(NH₃)₆]²⁺/[Co(NH₃)₆]²⁺ (high Kf with NH₃). Filter. (2) Filtrate: Add DMG in slightly acidic NH₄Cl medium → Ni²⁺ precipitates as red [Ni(DMG)₂] (square planar, very high Kf, chelate effect). Co²⁺ remains as [Co(NH₃)₆]²⁺ (DMG doesn't precipitate Co²⁺). Filter. (3) Filtrate: Oxidize Co²⁺ to Co³⁺ with H₂O₂/heat in NH₃ → forms stable [Co(NH₃)₆]³⁺ (low-spin d⁶, high CFSE). Confirm by color/stability. Poor answer uses only group reagents (H₂S in acid/alkali) without justifying *why* coordination chemistry (Kf, geometry, oxidation state) enables separation — missing the \"application\" depth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

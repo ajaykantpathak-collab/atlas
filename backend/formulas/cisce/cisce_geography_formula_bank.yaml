@@ -1,0 +1,3918 @@
+---
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_001
+  name: Statement scale
+  latex: RF denominator in cm converted to km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: SCALE AND DISTANCE
+  subject: geography
+  concept_tags:
+  - statement-scale
+  - scale-and-distance
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_002
+  name: Ground distance (km)
+  latex: Map distance (cm) x [RF denominator / 100,000]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: SCALE AND DISTANCE
+  subject: geography
+  concept_tags:
+  - ground-distance-(km)
+  - scale-and-distance
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_003
+  name: Or
+  latex: Ground distance (km) = Map distance (cm) x km per cm (from statement scale)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: SCALE AND DISTANCE
+  subject: geography
+  concept_tags:
+  - or
+  - scale-and-distance
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_004
+  name: RF
+  latex: '1 : [km per cm x 100,000]'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: SCALE AND DISTANCE
+  subject: geography
+  concept_tags:
+  - rf
+  - scale-and-distance
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_005
+  name: '"1 cm'
+  latex: 0.5 km" -> 0.5 x 100,000 = 50,000 -> RF = 1:50,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: SCALE AND DISTANCE
+  subject: geography
+  concept_tags:
+  - '"1-cm'
+  - scale-and-distance
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_006
+  name: 4. 4-figure grid reference
+  latex: Easting (2 digits) + Northing (2 digits)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GRID REFERENCES
+  subject: geography
+  concept_tags:
+  - 4.-4-figure-grid-reference
+  - grid-references
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_007
+  name: 5. 6-figure grid reference
+  latex: Easting (2 digits) + eastward tenths (1 digit) + Northing (2 digits) + northward
+    tenths (1 digit)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GRID REFERENCES
+  subject: geography
+  concept_tags:
+  - 5.-6-figure-grid-reference
+  - grid-references
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_008
+  name: Rule
+  latex: '"Along the corridor (Eastings first), up the stairs (Northings second)."'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GRID REFERENCES
+  subject: geography
+  concept_tags:
+  - rule
+  - grid-references
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_009
+  name: 6. Bearing
+  latex: clockwise angle from north (0-360 ^{\circ}rees), always 3 digits.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - 6.-bearing
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_010
+  name: Mathematical
+  latex: Bearing = arctan(E-W distance / N-S distance), adjusted for quadrant.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - mathematical
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_011
+  name: NE (0-90)
+  latex: arctan(E/N)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - ne-(0-90)
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_012
+  name: SE (90-180)
+  latex: 180 - arctan(E/S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - se-(90-180)
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_013
+  name: SW (180-270)
+  latex: 180 + arctan(W/S)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - sw-(180-270)
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_014
+  name: NW (270-360)
+  latex: 360 - arctan(W/N)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: BEARING
+  subject: geography
+  concept_tags:
+  - nw-(270-360)
+  - bearing
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_015
+  name: 7. Time difference per degree longitude
+  latex: 4 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - 7.-time-difference-per-degree-
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_016
+  name: (360 degrees / 24 hours
+  latex: 15 ^{\circ}rees/hour -> 60 min / 15 ^{\circ}rees = 4 min/^{\circ}ree)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - (360-degrees---24-hours
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_017
+  name: Time difference
+  latex: '|Longitude 1 - Longitude 2| x 4 minutes'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - time-difference
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_018
+  name: East
+  latex: ahead (later), West = behind (earlier)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - east
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_019
+  name: 9. IST
+  latex: GMT + 5 hours 30 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - 9.-ist
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_020
+  name: (82 degrees 30 minutes E x 4 min/degree
+  latex: 330 minutes = 5 hr 30 min)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: TIME CALCULATION
+  subject: geography
+  concept_tags:
+  - (82-degrees-30-minutes-e-x-4-m
+  - time-calculation
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_021
+  name: 10. Latitudinal extent
+  latex: Northernmost latitude - Southernmost latitude
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: LATITUDE/LONGITUDE EXTENT
+  subject: geography
+  concept_tags:
+  - 10.-latitudinal-extent
+  - latitude/longitude-extent
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_022
+  name: 11. Longitudinal extent
+  latex: Easternmost longitude - Westernmost longitude
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: LATITUDE/LONGITUDE EXTENT
+  subject: geography
+  concept_tags:
+  - 11.-longitudinal-extent
+  - latitude/longitude-extent
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_023
+  name: 12. North-South distance
+  latex: Latitudinal extent (^{\circ}rees) x 111 km/^{\circ}ree
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: LATITUDE/LONGITUDE EXTENT
+  subject: geography
+  concept_tags:
+  - 12.-north-south-distance
+  - latitude/longitude-extent
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_024
+  name: 13. East-West distance
+  latex: Longitudinal extent (^{\circ}rees) x 111 km/^{\circ}ree x cos(mean latitude)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: LATITUDE/LONGITUDE EXTENT
+  subject: geography
+  concept_tags:
+  - 13.-east-west-distance
+  - latitude/longitude-extent
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_025
+  name: 14. Population density
+  latex: Population / Area (persons per sq km)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: POPULATION DENSITY
+  subject: geography
+  concept_tags:
+  - 14.-population-density
+  - population-density
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_026
+  name: 15. Annual rainfall
+  latex: Sum of 12 months' rainfall
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: RAINFALL
+  subject: geography
+  concept_tags:
+  - 15.-annual-rainfall
+  - rainfall
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_027
+  name: 16. Percentage in a season
+  latex: (Season rainfall / Annual rainfall) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: RAINFALL
+  subject: geography
+  concept_tags:
+  - 16.-percentage-in-a-season
+  - rainfall
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_028
+  name: 17. Gradient
+  latex: Vertical interval / Horizontal equivalent (as a ratio, e.g., 1:5)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GRADIENT
+  subject: geography
+  concept_tags:
+  - 17.-gradient
+  - gradient
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_029
+  name: 18. Ground distance from map distance
+  latex: Map (mm) x RF = Ground (mm)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: GRADIENT
+  subject: geography
+  concept_tags:
+  - 18.-ground-distance-from-map-d
+  - gradient
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_030
+  name: 19. Area of one grid square (1
+  latex: 50,000) = 1 sq km (2 cm x 2 cm on map = 1 km x 1 km on ground)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: AREA
+  subject: geography
+  concept_tags:
+  - 19.-area-of-one-grid-square-(1
+  - area
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_031
+  name: 20. Total area
+  latex: Number of grid squares x 1 sq km (for full squares; estimate partials)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: AREA
+  subject: geography
+  concept_tags:
+  - 20.-total-area
+  - area
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_032
+  name: 21. 1 km
+  latex: 1,000 m = 100,000 cm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 21.-1-km
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_033
+  name: 22. 1 m
+  latex: 100 cm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 22.-1-m
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_034
+  name: 23. 1 cm
+  latex: 10 mm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 23.-1-cm
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_035
+  name: 24. 1 degree
+  latex: 60 minutes (angular)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 24.-1-degree
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_036
+  name: 25. 1 degree latitude
+  latex: approximately 111 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 25.-1-degree-latitude
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_037
+  name: 26. 1 degree longitude
+  latex: 111 km x cos(latitude) (varies with latitude)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 26.-1-degree-longitude
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_038
+  name: 27. 1 degree longitude
+  latex: 4 minutes of time
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 27.-1-degree-longitude
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c10_geo_formula_bank_039
+  name: 28. 1 cm rainfall
+  latex: 10 mm rainfall
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  chapter: UNIT CONVERSIONS
+  subject: geography
+  concept_tags:
+  - 28.-1-cm-rainfall
+  - unit-conversions
+  related_formulas: []
+  source: cisce/c10_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_001
+  name: Distance
+  latex: latitude difference (^{\circ}rees) x 111 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - distance
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_002
+  name: Distance
+  latex: longitude difference (^{\circ}rees) x 111 x cos(latitude) km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - distance
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_003
+  name: Time difference
+  latex: longitude difference (^{\circ}rees) x 4 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - time-difference
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_004
+  name: East
+  latex: ahead (+), West = behind (-)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - east
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_005
+  name: Longitude difference
+  latex: time difference (minutes) / 4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - longitude-difference
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_006
+  name: rho
+  latex: density, g = 9.8 m/s2, h = depth
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - rho
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_007
+  name: dT/dz
+  latex: ~25 C/km (in the crust)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - dt-dz
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_008
+  name: RH
+  latex: (Actual water vapour / Maximum capacity) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - rh
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_009
+  name: Albedo
+  latex: Reflected radiation / Incoming radiation
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - albedo
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_010
+  name: Incoming
+  latex: Reflected (albedo) + Absorbed (atmosphere + surface)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - incoming
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_011
+  name: '100'
+  latex: 35 (reflected) + 14 (atmosphere) + 51 (surface)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - '100'
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_012
+  name: sigma
+  latex: 5.67 x 10**-8 W/m2/K4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - sigma
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_013
+  name: Salinity (ppt)
+  latex: (mass of dissolved salts / mass of seawater) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - salinity-(ppt)
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_014
+  name: Tidal range
+  latex: High tide level - Low tide level
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - tidal-range
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_015
+  name: Each step
+  latex: 10x amplitude, ~32x energy
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - each-step
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_016
+  name: Amplitude ratio
+  latex: 10**(M1 - M2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - amplitude-ratio
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_017
+  name: Energy ratio
+  latex: 32**(M1 - M2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - energy-ratio
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_018
+  name: Distance
+  latex: (S-P time) x 8 km/s [approximate]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - distance
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_019
+  name: Energy at level n
+  latex: Energy at level (n-1) x 0.10
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - energy-at-level-n
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_020
+  name: N(t)
+  latex: N0 x e**(rt)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - n(t)
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_021
+  name: N0
+  latex: initial population, r = growth rate, t = time
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - n0
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_022
+  name: Earth's equatorial radius
+  latex: 6,378 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth's-equatorial-radius
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_023
+  name: Earth's polar radius
+  latex: 6,357 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth's-polar-radius
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_024
+  name: Earth's average radius
+  latex: 6,371 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth's-average-radius
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_025
+  name: Earth's mass
+  latex: 5.97 x 10**24 kg
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth's-mass
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_026
+  name: Earth's average density
+  latex: 5.5 g/cm3
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth's-average-density
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_027
+  name: Speed of rotation at equator
+  latex: 1,670 km/h
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - speed-of-rotation-at-equator
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_028
+  name: Axial tilt
+  latex: 23.5 ^{\circ}rees
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - axial-tilt
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_029
+  name: Average distance from sun
+  latex: 150 million km (1 AU)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - average-distance-from-sun
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_030
+  name: Solar constant
+  latex: 1,361 W/m2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - solar-constant
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_031
+  name: Average sea-level pressure
+  latex: 1,013.2 mb
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - average-sea-level-pressure
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_032
+  name: Average sea-level temperature
+  latex: 15 C (288 K)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - average-sea-level-temperature
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_033
+  name: Lapse rate
+  latex: 6.5 C/km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - lapse-rate
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_034
+  name: Average albedo
+  latex: 0.3 (30%)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - average-albedo
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_035
+  name: Average ocean salinity
+  latex: 35 ppt (3.5%)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - average-ocean-salinity
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_036
+  name: Deepest point
+  latex: Mariana Trench, 10,994 m
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - deepest-point
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_037
+  name: g (acceleration due to gravity)
+  latex: 9.8 m/s2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - g-(acceleration-due-to-gravity
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c11_geo_formula_bank_038
+  name: Stefan-Boltzmann constant
+  latex: 5.67 x 10**-8 W/m2/K4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - stefan-boltzmann-constant
+  - '='
+  related_formulas: []
+  source: cisce/c11_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_001
+  name: Formula
+  latex: Population Density = Total Population / Total Land Area
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_002
+  name: Variables
+  latex: Population (persons), Area (sq km)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_003
+  name: Units
+  latex: persons per sq km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_004
+  name: Worked example
+  latex: Bihar population = 104,099,452 (2011). Area = 94,163 sq km. Density = 104,099,452
+    / 94,163 = 1,106 persons/sq km (2011). Current estimate ~1,263/sq km (2021 projection).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_005
+  name: Syllabus link
+  latex: c12_geo_013 (Population distribution)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_006
+  name: Formula
+  latex: Growth Rate (%) = [(Population at end - Population at start) / Population
+    at start] x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_007
+  name: Variables
+  latex: Population (persons), Time period (years)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_008
+  name: Units
+  latex: percent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_009
+  name: Worked example
+  latex: India population 2001 = 1,028 million. 2011 = 1,210 million. Growth rate
+    = [(1,210 - 1,028) / 1,028] x 100 = 17.7% over 10 years. Annual growth rate =
+    17.7 / 10 = 1.77% per year (decadal growth was 17.7%).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_010
+  name: Syllabus link
+  latex: c12_geo_014 (Population growth)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_011
+  name: Formula
+  latex: Birth Rate (CBR) = (Total Births in a year / Mid-year Population) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_012
+  name: Formula
+  latex: Death Rate (CDR) = (Total Deaths in a year / Mid-year Population) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_013
+  name: Variables
+  latex: Births, Deaths (count), Population (persons)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_014
+  name: Units
+  latex: per 1,000 per year
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_015
+  name: Worked example
+  latex: 'India (2021 estimate): Births = ~24,000,000. Population = ~1,400,000,000.
+    CBR = (24,000,000 / 1,400,000,000) x 1,000 = 17.1 per 1,000. Deaths = ~9,000,000.
+    CDR = (9,000,000 / 1,400,000,000) x 1,000 = 6.4 per 1,000.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_016
+  name: Syllabus link
+  latex: c12_geo_014, c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_017
+  name: Formula
+  latex: Natural Growth Rate (%) = (Birth Rate - Death Rate) / 10
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_018
+  name: Variables
+  latex: CBR, CDR (per 1,000)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_019
+  name: Units
+  latex: percent per year
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_020
+  name: Worked example
+  latex: India CBR = 17.1, CDR = 6.4. Natural growth rate = (17.1 - 6.4) / 10 = 1.07%
+    per year.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_021
+  name: Syllabus link
+  latex: c12_geo_014
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_022
+  name: Formula
+  latex: TFR = Average number of children a woman would have in her lifetime, given
+    current age-specific fertility rates.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_023
+  name: Variables
+  latex: Age-specific fertility rates (births per 1,000 women in each age group 15-49).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_024
+  name: Units
+  latex: children per woman
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_025
+  name: Worked example
+  latex: India TFR (2021) = 2.0. Replacement level = 2.1. Kerala TFR = 1.5. Bihar
+    TFR = 3.0.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_026
+  name: Syllabus link
+  latex: c12_geo_014, c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_027
+  name: Formula
+  latex: IMR = (Deaths of infants under 1 year / Total live births in a year) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_028
+  name: Variables
+  latex: Infant deaths, live births (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_029
+  name: Units
+  latex: per 1,000 live births
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_030
+  name: Worked example
+  latex: India IMR (2021) = 27 per 1,000. Kerala IMR = 6. Madhya Pradesh IMR = 43.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_031
+  name: Syllabus link
+  latex: c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_032
+  name: Formula
+  latex: Sex Ratio = (Number of Females / Number of Males) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_033
+  name: Variables
+  latex: Females, Males (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_034
+  name: Units
+  latex: females per 1,000 males
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_035
+  name: Worked example
+  latex: India sex ratio (2011) = 943 females per 1,000 males. Kerala = 1,084. Haryana
+    = 879.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_036
+  name: Syllabus link
+  latex: c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_037
+  name: Formula
+  latex: Literacy Rate (%) = (Literates / Total Population aged 7 and above) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_038
+  name: Variables
+  latex: Literates, population 7+ (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_039
+  name: Units
+  latex: percent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_040
+  name: Worked example
+  latex: India literacy (2011) = 74.04%. Kerala = 96.2%. Bihar = 63.8%.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_041
+  name: Syllabus link
+  latex: c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_042
+  name: Formula
+  latex: Urbanisation (%) = (Urban Population / Total Population) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_043
+  name: Variables
+  latex: Urban population, total population (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_044
+  name: Units
+  latex: percent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_045
+  name: Worked example
+  latex: India (2021) = (480 million / 1,400 million) x 100 = 34.3%. Goa = 62%. Himachal
+    Pradesh = 10%.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_046
+  name: Syllabus link
+  latex: c12_geo_018
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_047
+  name: Formula
+  latex: Dependency Ratio = [(Population 0-14 + Population 65+) / Population 15-64]
+    x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_048
+  name: Variables
+  latex: Population by age group (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_049
+  name: Units
+  latex: percent (dependents per 100 working-age persons)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_050
+  name: Worked example
+  latex: 'India (2021): 0-14 = 26%, 15-64 = 67%, 65+ = 7%. Dependency ratio = [(26
+    + 7) / 67] x 100 = 49.3%. This means ~49 dependents per 100 working-age persons.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_051
+  name: Syllabus link
+  latex: c12_geo_016
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_052
+  name: Formula
+  latex: Time Difference (minutes) = Longitude Difference (^{\circ}rees) x 4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_053
+  name: Formula
+  latex: Time Difference (hours) = Longitude Difference (^{\circ}rees) / 15
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_054
+  name: Variables
+  latex: Longitude (^{\circ}rees)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_055
+  name: Units
+  latex: minutes or hours
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_056
+  name: Worked example
+  latex: India's longitudinal extent = 29 ^{\circ}rees. Time difference = 29 x 4 =
+    116 minutes = ~2 hours. IST is based on 82 ^{\circ}rees 30 minutes E. Local time
+    at 90 ^{\circ}rees E (Arunachal) = IST + (7.5 ^{\circ}rees x 4 minutes/^{\circ}ree)
+    = IST + 30 minutes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_057
+  name: Syllabus link
+  latex: c12_geo_001
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_058
+  name: Formula
+  latex: N-S Distance (km) = Latitude Difference (^{\circ}rees) x 111
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_059
+  name: Formula
+  latex: E-W Distance (km) = Longitude Difference (^{\circ}rees) x 111 x cos(latitude)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_060
+  name: Variables
+  latex: Latitude, longitude (^{\circ}rees)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_061
+  name: Units
+  latex: km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_062
+  name: Worked example
+  latex: India N-S distance = 29 x 111 = 3,219 km. E-W distance at 23.5 ^{\circ}rees
+    N = 29 x 111 x cos(23.5) = 29 x 111 x 0.917 = 2,953 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_063
+  name: Syllabus link
+  latex: c12_geo_001
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_064
+  name: Formula
+  latex: Coefficient of Variation (%) = (Standard Deviation / Mean) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_065
+  name: Variables
+  latex: Annual rainfall (mm), standard deviation of rainfall
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_066
+  name: Units
+  latex: percent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_067
+  name: Worked example
+  latex: If a station has mean rainfall 1,000 mm and standard deviation 200 mm, CV
+    = (200 / 1,000) x 100 = 20%. High CV (>25%) indicates unreliable rainfall (drought-prone).
+    Low CV (<15%) indicates reliable rainfall.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_068
+  name: Syllabus link
+  latex: c12_geo_008, c12_geo_011
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_069
+  name: Formula
+  latex: Crop\ping Intensity (%) = (Gross Cropped Area / Net Sown Area) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_070
+  name: Variables
+  latex: Gross cropped area (total area sown including multiple crops), net sown area
+    (area sown at least once)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_071
+  name: Units
+  latex: percent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_072
+  name: Worked example
+  latex: If net sown area = 100 ha and gross cropped area = 150 ha (50 ha double-cropped),
+    crop\ping intensity = (150 / 100) x 100 = 150%. Higher crop\ping intensity indicates
+    more intensive land use (requires irrigation).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_073
+  name: Syllabus link
+  latex: c12_geo_022
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_074
+  name: Formula
+  latex: Per Ca\pita Income = Total National Income / Total Population
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_075
+  name: Variables
+  latex: National income (Rs or $), population (count)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_076
+  name: Units
+  latex: Rs or $ per person per year
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_077
+  name: Worked example
+  latex: 'India (2023-24): NSDP ~Rs 165 lakh crore = Rs 165,000 billion. Population
+    ~1,400 million. PCI = 165,000 billion / 1,400 million = Rs 117,857 per year (approximate;
+    actual figures vary by source and methodology).'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_078
+  name: Syllabus link
+  latex: c12_geo_034
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_079
+  name: Formula
+  latex: P(t) = P(0) x e**(rt)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_080
+  name: Variables
+  latex: P(0) = initial population, r = growth rate (as decimal), t = time (years),
+    e = 2.718
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - variables
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_081
+  name: Units
+  latex: persons
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - units
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_082
+  name: Worked example
+  latex: 'India population 2021 = 1,400 million, growth rate = 1% per year. Projected
+    2051 (30 years): P = 1,400 x e**(0.01 x 30) = 1,400 x e**0.3 = 1,400 x 1.35 =
+    1,890 million.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - worked-example
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c12_geo_formula_bank_083
+  name: Syllabus link
+  latex: c12_geo_014
+  variables: []
+  preconditions: []
+  grade_range:
+  - class12
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - syllabus-link
+  - '='
+  related_formulas: []
+  source: cisce/c12_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c1_geo_formula_bank_001
+  name: Water
+  latex: '71%. Land: 29%. Total: 100%.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: 'FORMULA 1: EARTH COVERAGE'
+  subject: geography
+  concept_tags:
+  - water
+  - formula-1:-earth-coverage
+  related_formulas: []
+  source: cisce/c1_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c1_geo_formula_bank_002
+  name: 5 sources
+  latex: rivers, lakes, ponds, oceans, rain.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: 'FORMULA 2: WATER SOURCES'
+  subject: geography
+  concept_tags:
+  - 5-sources
+  - formula-2:-water-sources
+  related_formulas: []
+  source: cisce/c1_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c1_geo_formula_bank_003
+  name: 2 eyes + 2 ears + 2 hands + 2 legs + 1 nose + 1 mouth
+  latex: '10.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: 'FORMULA 3: BODY PARTS'
+  subject: geography
+  concept_tags:
+  - 2-eyes-+-2-ears-+-2-hands-+-2-
+  - formula-3:-body-parts
+  related_formulas: []
+  source: cisce/c1_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c1_geo_formula_bank_004
+  name: 3 seasons
+  latex: summer (light), winter (warm), rainy (raincoat).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: 'FORMULA 4: SEASONS (CLOTHES)'
+  subject: geography
+  concept_tags:
+  - 3-seasons
+  - formula-4:-seasons-(clothes)
+  related_formulas: []
+  source: cisce/c1_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c1_geo_formula_bank_005
+  name: 5 types
+  latex: pets (home), farm, wild (forest), water, birds (trees).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  chapter: 'FORMULA 5: ANIMAL TYPES'
+  subject: geography
+  concept_tags:
+  - 5-types
+  - formula-5:-animal-types
+  related_formulas: []
+  source: cisce/c1_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c2_geo_formula_bank_001
+  name: Water
+  latex: '71%. Land: 29%. Total: 100%.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: 'FORMULA 1: EARTH COVERAGE'
+  subject: geography
+  concept_tags:
+  - water
+  - formula-1:-earth-coverage
+  related_formulas: []
+  source: cisce/c2_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c2_geo_formula_bank_002
+  name: 7 continents + 5 oceans
+  latex: '12.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: 'FORMULA 2: CONTINENTS AND OCEANS'
+  subject: geography
+  concept_tags:
+  - 7-continents-+-5-oceans
+  - formula-2:-continents-and-ocea
+  related_formulas: []
+  source: cisce/c2_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c2_geo_formula_bank_003
+  name: 4 main types
+  latex: road, rail, air, water. (5 with animal.)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: 'FORMULA 3: TRANSPORT TYPES'
+  subject: geography
+  concept_tags:
+  - 4-main-types
+  - formula-3:-transport-types
+  related_formulas: []
+  source: cisce/c2_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c2_geo_formula_bank_004
+  name: 3 types
+  latex: trees, shrubs, herbs.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: 'FORMULA 4: PLANT TYPES'
+  subject: geography
+  concept_tags:
+  - 3-types
+  - formula-4:-plant-types
+  related_formulas: []
+  source: cisce/c2_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c2_geo_formula_bank_005
+  name: 3 seasons
+  latex: summer (cotton), winter (wool), rainy (raincoat).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class2
+  chapter: 'FORMULA 5: SEASONS (FOR CLOTHES)'
+  subject: geography
+  concept_tags:
+  - 3-seasons
+  - formula-5:-seasons-(for-clothe
+  related_formulas: []
+  source: cisce/c2_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_001
+  name: Water
+  latex: '~71%. Land: ~29%. Total: 100%.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 1: EARTH COVERAGE'
+  subject: geography
+  concept_tags:
+  - water
+  - formula-1:-earth-coverage
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_002
+  name: Continents
+  latex: '7. Oceans: 5. Total: 12.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 2: CONTINENTS AND OCEANS'
+  subject: geography
+  concept_tags:
+  - continents
+  - formula-2:-continents-and-ocea
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_003
+  name: Normal year
+  latex: '365 days. Leap year: 366 days (every 4 years).'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 3: DAYS IN A YEAR'
+  subject: geography
+  concept_tags:
+  - normal-year
+  - formula-3:-days-in-a-year
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_004
+  name: 4 seasons. 12 months. Average
+  latex: 3 months per season.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 4: SEASONS'
+  subject: geography
+  concept_tags:
+  - 4-seasons.-12-months.-average
+  - formula-4:-seasons
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_005
+  name: States
+  latex: '28. Union territories: 8. Total: 36.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 5: INDIA'
+  subject: geography
+  concept_tags:
+  - states
+  - formula-5:-india
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c3_geo_formula_bank_006
+  name: Main
+  latex: '4 (N, S, E, W). Sub: 4 (NE, NW, SE, SW). Total: 8.'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class3
+  chapter: 'FORMULA 6: DIRECTIONS'
+  subject: geography
+  concept_tags:
+  - main
+  - formula-6:-directions
+  related_formulas: []
+  source: cisce/c3_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c4_geo_formula_bank_001
+  name: 4 years
+  latex: 365 x 3 + 366 = 1,461 days. Average = 365.25 days/year.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: 'FORMULA 2: DAYS IN 4 YEARS'
+  subject: geography
+  concept_tags:
+  - 4-years
+  - formula-2:-days-in-4-years
+  related_formulas: []
+  source: cisce/c4_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c4_geo_formula_bank_002
+  name: 360 degrees in 24 hours
+  latex: 15 ^{\circ}rees per hour = 1 ^{\circ}ree per 4 minutes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class4
+  chapter: 'FORMULA 3: EARTH''S ROTATION'
+  subject: geography
+  concept_tags:
+  - 360-degrees-in-24-hours
+  - formula-3:-earth's-rotation
+  related_formulas: []
+  source: cisce/c4_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_001
+  name: Time difference
+  latex: longitude difference x 4 minutes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 1: TIME FROM LONGITUDE'
+  subject: geography
+  concept_tags:
+  - time-difference
+  - formula-1:-time-from-longitude
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_002
+  name: IST
+  latex: GMT + 5 hours 30 minutes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 2: IST FROM GMT'
+  subject: geography
+  concept_tags:
+  - ist
+  - formula-2:-ist-from-gmt
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_003
+  name: GMT
+  latex: IST - 5 hours 30 minutes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 3: GMT FROM IST'
+  subject: geography
+  concept_tags:
+  - gmt
+  - formula-3:-gmt-from-ist
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_004
+  name: Time at X E
+  latex: GMT + (X x 4 min).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 4: TIME AT ANY LONGITUDE'
+  subject: geography
+  concept_tags:
+  - time-at-x-e
+  - formula-4:-time-at-any-longitu
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_005
+  name: Time at X W
+  latex: GMT - (X x 4 min).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 4: TIME AT ANY LONGITUDE'
+  subject: geography
+  concept_tags:
+  - time-at-x-w
+  - formula-4:-time-at-any-longitu
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_006
+  name: Distance
+  latex: difference in ^{\circ}rees x 111 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 5: DISTANCE BETWEEN LATITUDES'
+  subject: geography
+  concept_tags:
+  - distance
+  - formula-5:-distance-between-la
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c5_geo_formula_bank_007
+  name: Population density
+  latex: total population / total area.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class5
+  chapter: 'FORMULA 6: POPULATION DENSITY'
+  subject: geography
+  concept_tags:
+  - population-density
+  - formula-6:-population-density
+  related_formulas: []
+  source: cisce/c5_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c6_geo_formula_bank_001
+  name: RF to km
+  latex: denominator / 100,000.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: 'FORMULA 1: SCALE CONVERSION'
+  subject: geography
+  concept_tags:
+  - rf-to-km
+  - formula-1:-scale-conversion
+  related_formulas: []
+  source: cisce/c6_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c6_geo_formula_bank_002
+  name: Real distance (km)
+  latex: map distance (cm) x denominator / 100,000.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: 'FORMULA 2: DISTANCE FROM MAP'
+  subject: geography
+  concept_tags:
+  - real-distance-(km)
+  - formula-2:-distance-from-map
+  related_formulas: []
+  source: cisce/c6_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c6_geo_formula_bank_003
+  name: Real area
+  latex: map area x (denominator)**2. Convert sq cm to sq km (divide by 10**10).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: 'FORMULA 3: AREA FROM MAP'
+  subject: geography
+  concept_tags:
+  - real-area
+  - formula-3:-area-from-map
+  related_formulas: []
+  source: cisce/c6_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c6_geo_formula_bank_004
+  name: Gradient
+  latex: VI / HE = height difference / horizontal distance.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: 'FORMULA 4: GRADIENT'
+  subject: geography
+  concept_tags:
+  - gradient
+  - formula-4:-gradient
+  related_formulas: []
+  source: cisce/c6_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c6_geo_formula_bank_005
+  name: km x 100,000
+  latex: cm. RF = 1:(km x 100,000).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  chapter: 'FORMULA 5: STATEMENT TO RF'
+  subject: geography
+  concept_tags:
+  - km-x-100,000
+  - formula-5:-statement-to-rf
+  related_formulas: []
+  source: cisce/c6_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_001
+  name: Statement scale
+  latex: RF distance converted to km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 1: SCALE CONVERSION'
+  subject: geography
+  concept_tags:
+  - statement-scale
+  - formula-1:-scale-conversion
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_002
+  name: RF 1
+  latex: X means 1 cm on map = X cm on ground.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 1: SCALE CONVERSION'
+  subject: geography
+  concept_tags:
+  - rf-1
+  - formula-1:-scale-conversion
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_003
+  name: To convert
+  latex: X cm / 100 = metres. Metres / 1,000 = km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 1: SCALE CONVERSION'
+  subject: geography
+  concept_tags:
+  - to-convert
+  - formula-1:-scale-conversion
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_004
+  name: Real distance
+  latex: Map distance (cm) x Scale denominator.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 2: DISTANCE FROM MAP'
+  subject: geography
+  concept_tags:
+  - real-distance
+  - formula-2:-distance-from-map
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_005
+  name: Temperature at altitude
+  latex: Ground temp - (altitude km x 6.5 C/km).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 3: TEMPERATURE LAPSE RATE'
+  subject: geography
+  concept_tags:
+  - temperature-at-altitude
+  - formula-3:-temperature-lapse-r
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_006
+  name: RH
+  latex: (Actual vapour pressure / Saturation vapour pressure) x 100.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 4: RELATIVE HUMIDITY'
+  subject: geography
+  concept_tags:
+  - rh
+  - formula-4:-relative-humidity
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_007
+  name: Or
+  latex: RH = (Actual water vapour / Max capacity) x 100.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 4: RELATIVE HUMIDITY'
+  subject: geography
+  concept_tags:
+  - or
+  - formula-4:-relative-humidity
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_008
+  name: Average rainfall
+  latex: Total rainfall / Number of months (or days).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 5: RAINFALL AVERAGE'
+  subject: geography
+  concept_tags:
+  - average-rainfall
+  - formula-5:-rainfall-average
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_009
+  name: Real area
+  latex: Map area x (Scale denominator)**2.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 6: AREA FROM MAP'
+  subject: geography
+  concept_tags:
+  - real-area
+  - formula-6:-area-from-map
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c7_geo_formula_bank_010
+  name: 1 atm
+  latex: 1013.25 mb = 760 mm Hg.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class7
+  chapter: 'FORMULA 7: PRESSURE CONVERSION'
+  subject: geography
+  concept_tags:
+  - 1-atm
+  - formula-7:-pressure-conversion
+  related_formulas: []
+  source: cisce/c7_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_001
+  name: Formula
+  latex: Population density = Total population / Total area
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_002
+  name: Unit
+  latex: people per sq km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_003
+  name: Density
+  latex: 1,400,000,000 / 3,290,000 = ~425/sq km (round to ~450 with updated data).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - density
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_004
+  name: Formula
+  latex: Natural increase = Birth rate - Death rate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_005
+  name: Unit
+  latex: per 1,000 per year (or as a percentage)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_006
+  name: Natural increase
+  latex: 16 - 6 = 10 per 1,000 = 1% per year.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - natural-increase
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_007
+  name: Formula
+  latex: Growth rate = ((Population_new - Population_old) / Population_old) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_008
+  name: Unit
+  latex: percentage per year (or per decade)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_009
+  name: Growth
+  latex: ((1.21 - 1.03) / 1.03) x 100 = 17.5% per decade.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - growth
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_010
+  name: Formula
+  latex: Scale = Map distance / Ground distance
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_011
+  name: To calculate real distance
+  latex: Real distance = Map distance x Scale.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - to-calculate-real-distance
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_012
+  name: Formula
+  latex: Gradient = Vertical interval / Horizontal equivalent
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_013
+  name: Gradient
+  latex: 200 / 4,000 = 1:20 (1 m rise for every 20 m horizontal).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - gradient
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_014
+  name: Or as a ratio
+  latex: 1 in 20.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - or-as-a-ratio
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_015
+  name: Formula
+  latex: Contour interval = Difference in elevation between adjacent contour lines.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_016
+  name: Formula
+  latex: Area = Length x Width (for rectangular area on map, then multiply by scale
+    squared).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_017
+  name: Real length
+  latex: 5 x 50,000 = 250,000 cm = 2.5 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - real-length
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_018
+  name: Real width
+  latex: 3 x 50,000 = 150,000 cm = 1.5 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - real-width
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_019
+  name: Area
+  latex: 2.5 x 1.5 = 3.75 sq km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - area
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_020
+  name: Formula
+  latex: Sex ratio = (Number of females / Number of males) x 1,000
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_021
+  name: Unit
+  latex: females per 1,000 males
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_022
+  name: Formula
+  latex: Literacy rate = (Number of literates / Total population) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_023
+  name: Unit
+  latex: percentage
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_024
+  name: Formula
+  latex: Urbanisation rate = (Urban population / Total population) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_025
+  name: Unit
+  latex: percentage
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_026
+  name: Formula
+  latex: Time difference = Longitude difference x 4 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_027
+  name: Rule
+  latex: East = ahead (+), West = behind (-)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - rule
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_028
+  name: Longitude difference
+  latex: 75. Time = 75 x 4 = 300 min = 5 hours.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - longitude-difference
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_029
+  name: 75 E is east
+  latex: add. 10:00 + 5 = 3:00 PM.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - 75-e-is-east
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_030
+  name: Formula
+  latex: Distance = Longitude difference x 111 x cos(latitude) km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_031
+  name: Diff
+  latex: 10. cos(60) = 0.5. Distance = 10 x 111 x 0.5 = 555 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - diff
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_032
+  name: Formula
+  latex: Distance = Latitude difference x 111 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_033
+  name: Diff
+  latex: 30. Distance = 30 x 111 = 3,330 km.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - diff
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_034
+  name: Formula
+  latex: Albedo = Reflected radiation / Incoming radiation
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_035
+  name: Unit
+  latex: decimal or percentage
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_036
+  name: Earth average albedo
+  latex: 0.30 (30%).
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - earth-average-albedo
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_037
+  name: Formula
+  latex: RH = (Actual water vapour / Maximum capacity) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c8_geo_formula_bank_038
+  name: Unit
+  latex: percentage
+  variables: []
+  preconditions: []
+  grade_range:
+  - class8
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - unit
+  - '='
+  related_formulas: []
+  source: cisce/c8_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_001
+  name: Formula
+  latex: Time Difference (minutes) = Longitude Difference (^{\circ}rees) x 4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_002
+  name: Rule
+  latex: East = ahead (+), West = behind (-)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - rule
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_003
+  name: Formula
+  latex: Distance (km) = Latitude Difference (^{\circ}rees) x 111
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_004
+  name: Formula
+  latex: Distance (km) = Longitude Difference (^{\circ}rees) x 111 x cos(latitude)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_005
+  name: Common cosine values
+  latex: cos(0) = 1.000, cos(23.5) = 0.917, cos(30) = 0.866, cos(45) = 0.707, cos(60)
+    = 0.500.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - common-cosine-values
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_006
+  name: Formula
+  latex: Amplitude ratio = 10**(M1 - M2), where M1 and M2 are magnitudes.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_007
+  name: Energy ratio
+  latex: 32**(M1 - M2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - energy-ratio
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_008
+  name: Formula
+  latex: Speed at latitude = Speed at equator x cos(latitude)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_009
+  name: Speed at equator
+  latex: ~1,670 km/h (or ~465 m/s)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - speed-at-equator
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_010
+  name: At poles
+  latex: 1,670 x cos(90) = 1,670 x 0 = 0 km/h.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - at-poles
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_011
+  name: Formula
+  latex: RH (%) = (Actual water vapour / Maximum capacity at that temperature) x 100
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_012
+  name: Formula
+  latex: Temperature at altitude = Surface temperature - (altitude x lapse rate)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_013
+  name: Lapse rate in troposphere
+  latex: ~6.5 ^{\circ}rees C per 1,000 m (or ~1 ^{\circ}ree C per 155 m)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - lapse-rate-in-troposphere
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_014
+  name: Formula
+  latex: d = R x arccos[sin(lat1) x sin(lat2) + cos(lat1) x cos(lat2) x cos(lon2 -
+    lon1)]
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_015
+  name: Where R
+  latex: Earth's radius (~6,371 km), lat/lon in radians.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - where-r
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_016
+  name: Equatorial circumference
+  latex: ~40,075 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - equatorial-circumference
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_017
+  name: Polar (meridional) circumference
+  latex: ~40,008 km
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - polar-(meridional)-circumferen
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_018
+  name: Difference
+  latex: ~67 km (equatorial > polar due to oblate shape)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - difference
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_019
+  name: Formula
+  latex: Time between successive high tides = ~12 hours 25 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - formula
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_020
+  name: Time between high and low tide
+  latex: ~6 hours 12.5 minutes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - time-between-high-and-low-tide
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE
+- formula_id: CISCE_GEOG_c9_geo_formula_bank_021
+  name: Reason
+  latex: The Moon takes 24 hours 50 minutes to return to the same position in the
+    sky (the Earth rotates while the Moon orbits). 24h 50m / 2 = ~12h 25m.
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  chapter: '='
+  subject: geography
+  concept_tags:
+  - reason
+  - '='
+  related_formulas: []
+  source: cisce/c9_geo_formula_bank.marker
+  board: CISCE

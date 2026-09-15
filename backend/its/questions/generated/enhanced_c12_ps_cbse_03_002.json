@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_03_002",
+   "title": "c12_ps_cbse_03_002",
+   "questions": [
+    {
+     "q": "What was the immediate legal basis under US domestic law for the Global War on Terror, passed by Congress on September 14, 2001?",
+     "a": "The Authorization for Use of Military Force (AUMF), Public Law 107-40, granted the President authority to use \"all necessary and appropriate force\" against those responsible for the 9/11 attacks. A wrong answer (e.g., \"Declaration of War\" or \"UN Security Council Resolution\") reveals confusion between domestic legal authorization and international mandate — the US did not declare war formally, nor did it rely solely on UN approval.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Bush administration frame the response to 9/11 as a \"war\" rather than a law-enforcement operation against a criminal organization?",
+     "a": "Framing it as war allowed the US to invoke the laws of armed conflict: detain suspects as \"enemy combatants\" without criminal trial, use military force across borders without host-state consent (e.g., Afghanistan), and mobilize NATO's Article 5 collective defense clause for the first time. A wrong answer (e.g., \"because terrorists are soldiers\") misses the strategic legal-political calculation — war framework expands executive power and bypasses due process.",
+     "self_check": true
+    },
+    {
+     "q": "The Taliban regime in Afghanistan was not directly involved in planning 9/11. On what basis did the US justify military action against it?",
+     "a": "The US demanded the Taliban hand over al-Qaeda leaders and close terrorist camps; when the Taliban refused, the US argued the regime was \"harboring\" terrorists, making it complicit. This extended the \"war\" to a sovereign state for hosting a non-state actor — a novel application of self-defense under Article 51 of the UN Charter. A wrong answer (e.g., \"Taliban attacked the US\") confuses the non-state perpetrator with the state host.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the international coalition for the 1991 Gulf War (node 001) with the post-9/11 coalition. What structural shift in US hegemony does this reveal?",
+     "a": "The 1991 coalition operated under explicit UN Security Council authorization (Resolution 678) against a state aggressor (Iraq). The post-9/11 coalition was built through bilateral agreements and NATO's Article 5, with UN endorsement coming *after* military action began (Resolution 1368 recognized the right to self-defense). This shows a shift from UN-centric collective security to US-led \"coalitions of the willing\" — hegemony exercising structural power by shaping institutional responses rather than waiting for them.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Global War on Terror strengthened US hegemony by demonstrating its unmatched military reach and ability to set the global security agenda.\"",
+     "a": "Partially true but incomplete. Short-term: yes — US military action in Afghanistan was swift, NATO invoked Article 5, and the US defined \"terrorism\" globally. Long-term: the war eroded US soft power (Guantanamo, torture controversies), strained alliances (Iraq War split NATO), and diverted resources from other challenges (rise of China). A good evaluation weighs immediate structural power gains against long-term legitimacy costs. A wrong answer ignores the trade-off between hard power demonstration and normative authority.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph preamble for a hypothetical \"Global Counter-Terrorism Convention\" that addresses the core legal gap exposed by 9/11: how to hold non-state actors accountable across borders without violating state sovereignty.",
+     "a": "A strong answer will: (1) define terrorism as a crime under international law, not just an act of war; (2) establish state obligations to prevent territory from being used for attacks; (3) create a mechanism for extradition/prosecution that respects due process; (4) include safeguards against political misuse. A weak answer either replicates the \"war\" framework (authorizing military force unilaterally) or ignores enforcement — revealing inability to bridge the sovereignty-accountability tension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

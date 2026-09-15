@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_002",
+   "title": "c11_hist_cbse_06_002",
+   "questions": [
+    {
+     "q": "Name the two main categories of medieval clergy and give one example of a role for each.",
+     "a": "The two categories are the secular clergy (living in the world, e.g., parish priest administering sacraments to laypeople) and the regular clergy (living under a regula/rule, e.g., Benedictine monk in a monastery). A wrong answer that lists 'priests and bishops' as the two categories reveals confusion between hierarchy levels and the fundamental secular/regular distinction; it also misses that bishops belong to the secular clergy while abbots belong to the regular clergy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the tithe (decima) was the economic foundation of clerical power in medieval Europe.",
+     "a": "The tithe was a compulsory 10% levy on agricultural produce and livestock, legally enforceable by canon law and often collected by secular lords on the Church's behalf; it gave the Church a steady, vast revenue stream independent of royal taxation, funding cathedrals, monasteries, hospitals, and papal administration. A wrong answer that calls it a 'voluntary donation' or 'tax paid to the king' reveals a fundamental misunderstanding of the Church's autonomous fiscal extraction and its legal coercion through spiritual sanctions (excommunication for non-payment).",
+     "self_check": true
+    },
+    {
+     "q": "A 12th-century charter records that a knight grants his village church 'with all its lands, tithes, and the advowson' to a monastery. Identify the three distinct rights transferred and explain what 'advowson' means in this context.",
+     "a": "The three rights are: (1) land (glebe) for the priest's maintenance, (2) tithes (10% of parish produce), and (3) advowson – the legal right to present (nominate) a candidate for the parish priesthood to the bishop for institution. A wrong answer that treats advowson as 'ownership of the church building' misses that it is a patronage right over a benefice – a crucial lever by which lay lords controlled local clergy appointments, later contested by reforming popes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Investiture Controversy (1075–1122) with the later conflict between Philip IV of France and Pope Boniface VIII (1296–1303). Identify one structural similarity and one key difference in the nature of church–state tension.",
+     "a": "Similarity: both centered on the question of ultimate sovereignty – whether spiritual authority (papacy) or temporal authority (emperor/king) held supremacy in appointing bishops and taxing clergy. Difference: the Investiture Controversy was about the *ritual of appointment* (ring and staff vs. royal sceptre) and involved the Holy Roman Emperor; the Philip IV–Boniface VIII conflict was about *fiscal sovereignty* (clerical taxation for war) and *judicial supremacy* (trial of clergy in royal courts), marking a shift from symbolic investiture to concrete state-building. A wrong answer that treats both as 'popes vs kings fighting over power' without distinguishing the evolving issues (spiritual investiture → taxation/jurisdiction) fails to analyze the historical trajectory of church–state relations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'The medieval Church was a monolithic institution exercising absolute power over European society.' Support your judgment with two pieces of evidence that complicate this view.",
+     "a": "The claim is overstated. Evidence 1: The Church was internally fractured – secular vs. regular clergy often clashed (e.g., bishops vs. mendicant friars over preaching rights), and national churches (Gallican, Anglican precursors) asserted autonomy from Rome. Evidence 2: Secular rulers routinely limited ecclesiastical power – French Pragmatic Sanction (1438), English Statutes of Provisors (1351) and Praemunire (1393) restricted papal appointments and appeals to Rome. A wrong answer that agrees with 'absolute power' ignores the constant negotiation, resistance, and legal pluralism that characterized church–society relations.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument explaining how the clergy's monopoly over the 'means of salvation' (sacraments) functioned as a mechanism of social control in feudal Europe, using the concepts of excommunication and interdict.",
+     "a": "A strong argument: (1) The Church taught that salvation was only possible through seven sacraments administered exclusively by ordained priests. (2) Excommunication cut off an individual from sacraments → social death, loss of legal rights, ostracism. (3) Interdict suspended sacraments for a whole region → collective pressure on rulers/subjects to comply. (4) This spiritual coercion enforced moral norms, political obedience, and economic dues (tithes). (5) Example: Innocent III's interdict on England (1208–1214) forced King John to accept Stephen Langton as Archbishop. A poor argument merely lists sacraments without linking them to coercive power or treats excommunication as purely spiritual without analyzing its temporal consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

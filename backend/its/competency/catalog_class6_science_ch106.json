@@ -1,0 +1,413 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 106,
+ "chapter_title": "Changes Around Us",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu105.txt",
+ "concepts": [
+  {
+   "id": "fesc.6.1.1",
+   "title": "Reversible Changes",
+   "section": "6.1",
+   "definition": "A process where the transformation can be undone to return the substance to its original state or form.",
+   "formula": "original_state = reverse(modified_state)",
+   "key_idea": "The material can be recovered in its initial condition.",
+   "textbook_ref": "fesc106.txt lines 15-40",
+   "question_patterns": [
+    "Can this change be reversed?",
+    "Is folding a paper a reversible change?",
+    "Identify if melting ice is a reversible process",
+    "Determine if the change in shape of a balloon is reversible",
+    "What happens when you unfold a toy aeroplane?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the initial and final states",
+     "explain": "Check if the material has undergone a permanent chemical change or just a physical shift."
+    },
+    {
+     "step": 2,
+     "action": "check for recovery",
+     "explain": "Determine if an action like unfolding, melting, or cooling can restore the starting material."
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.1.2",
+   "title": "Irreversible Changes",
+   "section": "6.1",
+   "definition": "A permanent transformation that results in a new form or substance which cannot be converted back to the original.",
+   "formula": "original_state != reverse(modified_state)",
+   "key_idea": "The starting material cannot be retrieved after the change.",
+   "textbook_ref": "fesc106.txt lines 45-65",
+   "question_patterns": [
+    "Why is baking a roti an irreversible change?",
+    "Can a burst balloon be restored to its original form?",
+    "Is cutting paper an irreversible process?",
+    "What kind of change occurs when a candle burns away?",
+    "Explain why curdling of milk cannot be undone."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the nature of the change",
+     "explain": "Look for signs of new substances like ash, gas, or cooked material."
+    },
+    {
+     "step": 2,
+     "action": "evaluate restorability",
+     "explain": "Verify if any physical process can turn the product back into the reactant."
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.1",
+   "title": "Thermal Expansion",
+   "section": "6.2",
+   "definition": "The increase in the size or volume of a material, particularly metals, when subjected to heat.",
+   "formula": "heated_size > original_size",
+   "key_idea": "Materials grow larger when they get hot.",
+   "textbook_ref": "fesc106.txt lines 70-85",
+   "question_patterns": [
+    "How does heating affect the iron ring of a tool?",
+    "Why is the metal rim heated before fixing it to a wheel?",
+    "What happens to the size of a metal object when it is red-hot?",
+    "Explain the process of expansion in solids.",
+    "Why does the iron blade become easier to fix after heating?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply heat to the material",
+     "explain": "Heating causes the particles to move and the material to expand."
+    },
+    {
+     "step": 2,
+     "action": "observe dimension change",
+     "explain": "The ring or rim becomes slightly larger, allowing it to fit over a handle or wheel."
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.2",
+   "title": "Thermal Contraction",
+   "section": "6.2",
+   "definition": "The reduction in the dimensions of a material as it cools down and loses heat.",
+   "formula": "cooled_size < heated_size",
+   "key_idea": "Materials shrink back to their original size upon cooling.",
+   "textbook_ref": "fesc106.txt lines 75-90",
+   "question_patterns": [
+    "What happens when cold water is poured over a hot metal rim?",
+    "How does a cooling ring fit tightly on a wooden handle?",
+    "Define contraction in the context of fixing tools.",
+    "Why does a metal rim shrink on cooling?",
+    "Describe the effect of cooling on a heated iron blade."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cool the expanded material",
+     "explain": "Removing heat or applying cold water causes the material to lose energy."
+    },
+    {
+     "step": 2,
+     "action": "observe the tightening effect",
+     "explain": "As the material shrinks, it grips the internal object tightly."
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.3",
+   "title": "Changes by Mixing",
+   "section": "6.2",
+   "definition": "Alterations that occur when two or more substances are combined, which may be reversible or irreversible.",
+   "formula": "mixture = substance_a + substance_b",
+   "key_idea": "Combining substances can create solutions or new products.",
+   "textbook_ref": "fesc106.txt lines 105-120",
+   "question_patterns": [
+    "Is dissolving salt in water a reversible change?",
+    "What change occurs when curd is added to warm milk?",
+    "Can we separate salt from water after mixing?",
+    "How does mixing affect the properties of substances?",
+    "Identify a change caused by mixing two materials."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the substances being mixed",
+     "explain": "Determine if they form a simple mixture or react to form something new."
+    },
+    {
+     "step": 2,
+     "action": "check for separation methods",
+     "explain": "If evaporation or filtration can recover the parts, it is reversible."
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.4",
+   "title": "Change in Length due to Burning",
+   "section": "6.2",
+   "definition": "Calculating the reduction in the length of an object, like a candle, after it has been burning for a duration.",
+   "formula": "length_lost = initial_length - final_length",
+   "key_idea": "Burning consumes material, leading to a measurable decrease in length.",
+   "textbook_ref": "fesc106.txt lines 91-100",
+   "question_patterns": [
+    "Calculate the change in length of a candle",
+    "How much length was lost after burning the candle?",
+    "Find the difference in candle height before and after lighting it",
+    "What is the reduction in length if the initial was ... and final is ...?",
+    "Compute the length consumed during the activity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure starting length",
+     "explain": "Identify the initial_length of the object before the change.",
+     "compute": "initial = initial_length"
+    },
+    {
+     "step": 2,
+     "action": "measure ending length",
+     "explain": "Identify the final_length of the object after the change.",
+     "compute": "final = final_length"
+    },
+    {
+     "step": 3,
+     "action": "subtract final from initial",
+     "explain": "The difference represents the amount of material lost.",
+     "compute": "length_lost = initial - final"
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.5",
+   "title": "Growth and Weight Increase",
+   "section": "6.1",
+   "definition": "Determining the increase in body mass or weight as a person or organism grows over time.",
+   "formula": "weight_gain = current_weight - previous_weight",
+   "key_idea": "Growth results in a positive change in mass.",
+   "textbook_ref": "fesc106.txt lines 35-40",
+   "question_patterns": [
+    "Calculate the weight gain over the year",
+    "How much did the weight increase?",
+    "Find the difference between current and previous weight",
+    "What is the total growth in mass?",
+    "Compute the increase in weight as the child grows"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify current mass",
+     "explain": "Note the current_weight of the individual.",
+     "compute": "current = current_weight"
+    },
+    {
+     "step": 2,
+     "action": "identify previous mass",
+     "explain": "Note the previous_weight from an earlier time.",
+     "compute": "previous = previous_weight"
+    },
+    {
+     "step": 3,
+     "action": "subtract previous from current",
+     "explain": "The result is the weight_gain.",
+     "compute": "weight_gain = current - previous"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc106.txt lines 91-100",
+   "concept": "fesc.6.2.4",
+   "question_type": "compute",
+   "question_pattern": "A candle was 20 cm long. After burning for an hour, its length is 12 cm. Calculate the change in length.",
+   "extracted_variables": {
+    "initial_length": 20,
+    "final_length": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "measure starting length",
+     "explain": "Initial length is 20 cm.",
+     "compute": "initial = 20"
+    },
+    {
+     "step": 2,
+     "action": "measure ending length",
+     "explain": "Final length is 12 cm.",
+     "compute": "final = 12"
+    },
+    {
+     "step": 3,
+     "action": "subtract final from initial",
+     "explain": "20 - 12 = 8 cm.",
+     "compute": "length_lost = initial - final"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc106.txt lines 91-100",
+   "concept": "fesc.6.2.4",
+   "question_type": "compute",
+   "question_pattern": "If a candle of 15 units is burnt until only 5 units remain, what is the length consumed?",
+   "extracted_variables": {
+    "initial_length": 15,
+    "final_length": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "measure starting length",
+     "explain": "Initial length is 15 units.",
+     "compute": "initial = 15"
+    },
+    {
+     "step": 2,
+     "action": "measure ending length",
+     "explain": "Final length is 5 units.",
+     "compute": "final = 5"
+    },
+    {
+     "step": 3,
+     "action": "subtract final from initial",
+     "explain": "15 - 5 = 10 units.",
+     "compute": "length_lost = initial - final"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fesc106.txt lines 35-40",
+   "concept": "fesc.6.2.5",
+   "question_type": "compute",
+   "question_pattern": "A student weighed 35 kg last year and weighs 42 kg now. Find the weight gain.",
+   "extracted_variables": {
+    "previous_weight": 35,
+    "current_weight": 42
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify current mass",
+     "explain": "Current weight is 42 kg.",
+     "compute": "current = 42"
+    },
+    {
+     "step": 2,
+     "action": "identify previous mass",
+     "explain": "Previous weight was 35 kg.",
+     "compute": "previous = 35"
+    },
+    {
+     "step": 3,
+     "action": "subtract previous from current",
+     "explain": "42 - 35 = 7 kg.",
+     "compute": "weight_gain = current - previous"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fesc106.txt lines 35-40",
+   "concept": "fesc.6.2.5",
+   "question_type": "compute",
+   "question_pattern": "A baby weighed 3 kg at birth and 10 kg at one year. What is the increase in weight?",
+   "extracted_variables": {
+    "previous_weight": 3,
+    "current_weight": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify current mass",
+     "explain": "Weight at one year is 10 kg.",
+     "compute": "current = 10"
+    },
+    {
+     "step": 2,
+     "action": "identify previous mass",
+     "explain": "Birth weight was 3 kg.",
+     "compute": "previous = 3"
+    },
+    {
+     "step": 3,
+     "action": "subtract previous from current",
+     "explain": "10 - 3 = 7 kg.",
+     "compute": "weight_gain = current - previous"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc106.txt line 130",
+   "questions": [
+    "To walk through a waterlogged area, you usually shorten the length of your dress by folding it. Can this change be reversed?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc106.txt line 132",
+   "questions": [
+    "You accidentally dropped your favourite toy and broke it. This is a change you did not want. Can this change be reversed?"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fesc106.txt line 134",
+   "questions": [
+    "The sawing of a piece of wood: Can it be reversed?",
+    "The melting of ice candy: Can it be reversed?",
+    "Dissolving sugar in water: Can it be reversed?",
+    "The cooking of food: Can it be reversed?",
+    "The ripening of a mango: Can it be reversed?",
+    "Souring of milk: Can it be reversed?"
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fesc106.txt line 145",
+   "questions": [
+    "A drawing sheet changes when you draw a picture on it. Can you reverse this change?"
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "fesc106.txt line 147",
+   "questions": [
+    "Give examples to explain the difference between changes that can or cannot be reversed."
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "fesc106.txt line 149",
+   "questions": [
+    "A thick coating of a paste of Plaster of Paris (POP) is applied over the bandage on a fractured bone. It becomes hard on drying to keep the fractured bone immobilised. Can the change in POP be reversed?"
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "fesc106.txt line 152",
+   "questions": [
+    "A bag of cement lying in the open gets wet due to rain during the night. The next day the sun shines brightly. Do you think the changes, which have occurred in the cement, could be reversed?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

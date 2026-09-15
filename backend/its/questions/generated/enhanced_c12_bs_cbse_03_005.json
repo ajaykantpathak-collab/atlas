@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_005",
+   "title": "c12_bs_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define 'technological environment' as a dimension of business environment. Give two examples of technological forces that affect business enterprises.",
+     "a": "Technological environment refers to forces relating to scientific improvements and innovations which provide new ways of producing goods and services and new methods and techniques of operating a business. Examples: (1) widespread adoption of cloud computing enabling remote work, (2) AI-driven data analytics for personalized marketing. A wrong answer that only mentions 'using computers' or 'having a website' reveals a narrow understanding — students confuse *tools* with the *environmental force* of continuous innovation that alters industry structures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the technological environment is considered 'dynamic' and 'uncertain' with reference to the smartphone industry's evolution over the last 15 years.",
+     "a": "The technological environment is dynamic because it keeps changing rapidly (e.g., feature phones → smartphones → foldable phones → AI-integrated devices) and uncertain because firms cannot predict which innovation will dominate (e.g., Nokia/Symbian vs. Apple/iOS vs. Android). A wrong answer that cites only 'fast changes' without linking to *unpredictability of dominant designs* or *short product life cycles* shows the student memorizes features but cannot connect them to industry-specific dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A traditional textile manufacturer using manual looms faces competition from automated power-loom units. Apply the concept of technological environment to analyze the impact on the firm's (a) production cost per unit, (b) workforce skill requirements, and (c) product customization capability.",
+     "a": "(a) Production cost per unit falls due to higher speed, lower waste, and economies of scale from automation. (b) Workforce shifts from skilled weavers to machine operators and maintenance technicians — need for retraining or replacement. (c) Customization capability initially decreases (mass production of standard designs) but later increases with computer-controlled looms enabling flexible manufacturing. A wrong answer that only mentions 'cost reduces' or 'workers lose jobs' without analyzing the *skill transition* and *evolution of customization* shows superficial application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of technological environment on a service-sector firm (e.g., banking) versus a manufacturing firm (e.g., automobile). Identify two similarities and two differences in how technology reshapes their operations.",
+     "a": "Similarities: (1) Both adopt automation/AI to reduce routine tasks (chatbots in banking, robots in auto assembly). (2) Both use data analytics for decision-making (credit scoring, predictive maintenance). Differences: (1) Manufacturing sees physical process transformation (3D printing, IoT-enabled supply chains); banking sees virtual process transformation (blockchain, digital wallets). (2) Manufacturing faces high capital expenditure for plant upgrades; banking faces high cybersecurity and regulatory compliance costs. A wrong answer that lists generic 'efficiency gains' for both without distinguishing *physical vs. virtual* transformation misses the sectoral nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Technological environment creates more threats than opportunities for small businesses in India.' Support your judgment with three arguments.",
+     "a": "The statement is *partially true but incomplete*. Threats: (1) High cost of technology adoption relative to capital base. (2) Rapid obsolescence risk — today's investment may be outdated in 2 years. (3) Competitive pressure from tech-enabled large firms (e.g., kirana stores vs. quick-commerce). Opportunities: (1) Low-cost digital marketing (WhatsApp Business, Instagram) reaches wider audiences. (2) Government schemes (Digital India, MSME tech upgradation funds) subsidize adoption. (3) Niche markets accessible via e-commerce platforms (Amazon Saheli, GeM). A balanced evaluation must weigh both sides. A wrong answer that only lists threats shows confirmation bias and ignores the *enabling* role of technology for small firms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a technological innovation *simultaneously* disrupts the economic, social, and legal environments of a business. Describe the innovation and trace its ripple effects across all three dimensions.",
+     "a": "Innovation: Autonomous delivery drones for last-mile logistics. Economic: Reduces delivery cost by 40%, shifts demand from traditional couriers to drone operators, alters insurance models. Social: Changes consumer expectations (30-min delivery norm), raises privacy/noise concerns, creates new gig jobs (drone fleet managers). Legal: Requires new airspace regulations, liability laws for accidents, data protection rules for surveillance-capable drones. A good answer explicitly links *one innovation* to *changes in all three environments*. A poor answer lists separate innovations for each dimension, missing the *inter-relatedness* of business environment dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

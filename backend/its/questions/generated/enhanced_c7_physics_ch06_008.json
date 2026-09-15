@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_008",
+   "title": "c7_physics_ch06_008",
+   "questions": [
+    {
+     "q": "What is the correct alignment of the Sun, Earth, and Moon during a lunar eclipse?",
+     "a": "The correct alignment is Sun-Earth-Moon, where the Earth is positioned directly between the Sun and the Moon. A student who answers \"Sun-Moon-Earth\" is confusing a lunar eclipse with a solar eclipse, showing a misunderstanding of which celestial body blocks the other.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon appear dim or reddish during a total lunar eclipse instead of becoming completely pitch black?",
+     "a": "Earth's atmosphere acts like a lens that bends (refracts) longer wavelengths of sunlight (red light) into the shadow region, while scattering shorter wavelengths (blue light). A student who believes the Moon goes completely black has forgotten that light can bend around transparent/translucent mediums like Earth's atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon takes about 4 hours to pass entirely through Earth's shadow at an average orbital speed of 1,022 m/s, what is the approximate distance covered by the Moon relative to the shadow path if it moves continuously for 14,400 seconds?",
+     "a": "Given: Speed ($v$) = 1,022 m/s, Time ($t$) = 14,400 s. \nStep 1: Identify the formula relating distance, speed, and time: Distance ($d$) = $v \\times t$. \nStep 2: Substitute the given values with units: $d = 1022\\text{ m/s} \\times 14400\\text{ s}$. \nStep 3: Perform the multiplication: $1022 \\times 14400 = 14,716,800$. \nStep 4: Track unit cancellation: $\\text{m/s} \\times \\text{s} = \\text{m}$. \nStep 5: Convert to kilometers for clarity: $14,716,800\\text{ m} = 14,716.8\\text{ km}$. \nA student who gets the math wrong often struggles with decimal placement or large-scale multiplication during unit conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the umbra and the penumbra regions of Earth's shadow during a lunar eclipse. How do they affect what an observer sees on the Moon?",
+     "a": "The umbra is the central, darkest part of Earth's shadow where direct sunlight is completely blocked, resulting in a total or partial shadow on the Moon. The penumbra is the outer, lighter part of the shadow where only a portion of sunlight is blocked, causing the Moon to dim only slightly. A student who claims both regions are equally dark does not understand the difference between a total blockage of light rays and a partial blockage.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a lunar eclipse should happen every single month because the Moon orbits the Earth monthly. Evaluate this statement using your knowledge of celestial geometry.",
+     "a": "The statement is incorrect because the Moon's orbital plane is tilted at an angle of about 5 degrees relative to Earth's orbital plane (the ecliptic). Therefore, during most full moons, the Moon passes above or below Earth's shadow rather than directly through it. A student who agrees with the claim is ignoring the three-dimensional tilt of orbits and treating celestial motion as a flat 2D drawing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a torchlight, a small globe, and a tennis ball to demonstrate why lunar eclipses do not occur every month. Describe how you would demonstrate the tilt of the orbit.",
+     "a": "A good design involves placing the torchlight (Sun) fixed on a table, holding the globe (Earth) in the center, and moving the tennis ball (Moon) around it. To show why eclipses are rare, the student must demonstrate that when the tennis ball is held slightly above or below the straight line of the shadow cast by the globe, no shadow falls on the ball, representing a normal full moon. A poor answer ignores the tilt and claims the ball can be placed anywhere while still blocking light.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

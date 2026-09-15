@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_011",
+   "title": "c12_math_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the mathematical definition of the second order derivative of a function \\(y = f(x)\\)? Write the notation used for it.",
+     "a": "The second order derivative is the derivative of the first derivative: \\(\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right) = f''(x)\\). It exists only if \\(f'(x)\\) is differentiable. A wrong answer (e.g., \"square of first derivative\" or \"derivative of \\(y\\) with respect to \\(x^2\\)\") reveals confusion between \\(\\frac{d^2y}{dx^2}\\) and \\(\\left(\\frac{dy}{dx}\\right)^2\\), or misunderstanding of the operator notation \\(\\frac{d}{dx}\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the second derivative of any linear function \\(f(x) = ax + b\\) is zero. What does this mean geometrically for the graph of the function?",
+     "a": "For \\(f(x) = ax + b\\), the first derivative \\(f'(x) = a\\) is a constant. The derivative of a constant is zero, so \\(f''(x) = 0\\). Geometrically, the graph is a straight line with constant slope \\(a\\); there is no curvature (no bending). A wrong answer (e.g., \"second derivative is \\(a\\)\") shows the student thinks differentiation reduces the power by 1 each time, not realizing the derivative of a constant is zero. This is a critical conceptual gap for understanding concavity later.",
+     "self_check": true
+    },
+    {
+     "q": "Find the second order derivative of \\(y = x^3 \\log x\\) (where \\(\\log\\) denotes natural logarithm). Show all steps.",
+     "a": "Step 1: \\(y = x^3 \\log x\\).  \nStep 2: First derivative using product rule: \\(\\frac{dy}{dx} = 3x^2 \\log x + x^3 \\cdot \\frac{1}{x} = 3x^2 \\log x + x^2\\).  \nStep 3: Second derivative: \\(\\frac{d^2y}{dx^2} = \\frac{d}{dx}(3x^2 \\log x + x^2) = 3(2x \\log x + x^2 \\cdot \\frac{1}{x}) + 2x = 6x \\log x + 3x + 2x = 6x \\log x + 5x\\).  \nStep 4: Factor: \\(\\frac{d^2y}{dx^2} = x(6 \\log x + 5)\\).  \nA wrong answer (e.g., missing the product rule on \\(3x^2 \\log x\\) in step 3, giving \\(6x \\log x + 2x\\)) reveals the student treats \\(\\log x\\) as constant during the second differentiation — a classic \"forget the chain/product rule on the second pass\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of finding \\(\\frac{d^2y}{dx^2}\\) for an explicit function \\(y = x^2 \\sin x\\) versus a parametric function \\(x = a(\\theta + \\sin \\theta), y = a(1 - \\cos \\theta)\\). What is the key procedural difference?",
+     "a": "For explicit \\(y = f(x)\\): differentiate twice directly w.r.t \\(x\\): \\(y_1 = \\frac{dy}{dx}\\), then \\(y_2 = \\frac{d}{dx}(y_1)\\).  \nFor parametric: first find \\(\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta}\\). Then \\(\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right) = \\frac{\\frac{d}{d\\theta}\\left(\\frac{dy}{dx}\\right)}{dx/d\\theta}\\).  \nThe key difference: parametric requires an extra chain-rule step — differentiate \\(\\frac{dy}{dx}\\) w.r.t the parameter \\(\\theta\\), then divide by \\(dx/d\\theta\\). A wrong answer that says \"just differentiate \\(y\\) twice w.r.t \\(\\theta\\)\" confuses \\(\\frac{d^2y}{d\\theta^2}\\) with \\(\\frac{d^2y}{dx^2}\\), a frequent JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"If \\(y = \\sin^{-1} x\\), then \\((1-x^2)y_2 - x y_1 = 0\\).\" Is this correct? Verify by computing \\(y_1\\) and \\(y_2\\) explicitly.",
+     "a": "Yes, it is correct.  \n\\(y = \\sin^{-1} x \\Rightarrow y_1 = \\frac{1}{\\sqrt{1-x^2}} = (1-x^2)^{-1/2}\\).  \n\\(y_2 = -\\frac{1}{2}(1-x^2)^{-3/2} \\cdot (-2x) = \\frac{x}{(1-x^2)^{3/2}}\\).  \nNow LHS: \\((1-x^2) \\cdot \\frac{x}{(1-x^2)^{3/2}} - x \\cdot \\frac{1}{\\sqrt{1-x^2}} = \\frac{x}{\\sqrt{1-x^2}} - \\frac{x}{\\sqrt{1-x^2}} = 0\\).  \nA wrong verification (e.g., getting \\(y_2 = \\frac{-x}{(1-x^2)^{3/2}}\\) due to sign error in chain rule) shows the student struggles with the chain rule on composite functions with negative exponents — a major source of lost marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two different functions \\(y = f(x)\\) that satisfy the differential equation \\(\\frac{d^2y}{dx^2} + 9y = 0\\). Write the functions and verify they work.",
+     "a": "The equation \\(y'' + 9y = 0\\) has solutions \\(y = \\sin 3x\\) and \\(y = \\cos 3x\\) (and any linear combination).  \nCheck \\(y = \\sin 3x\\): \\(y' = 3\\cos 3x\\), \\(y'' = -9\\sin 3x = -9y \\Rightarrow y'' + 9y = 0\\).  \nCheck \\(y = \\cos 3x\\): \\(y' = -3\\sin 3x\\), \\(y'' = -9\\cos 3x = -9y \\Rightarrow y'' + 9y = 0\\).  \nA poor answer (e.g., \\(y = e^{3x}\\) or \\(y = x^2\\)) reveals the student does not recognize the characteristic equation \\(r^2 + 9 = 0 \\Rightarrow r = \\pm 3i\\) leading to trigonometric solutions. This connects directly to JEE differential equations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

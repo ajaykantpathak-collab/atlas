@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_007",
+   "title": "c12_hist_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the chronological relationship between the Dharmasutras and the Dharmashastras, and which is the most important Dharmashastra text mentioned in the NCERT?",
+     "a": "The Dharmasutras (c. 500–200 BCE) precede the Dharmashastras (c. 200 BCE onwards). The Manusmriti, compiled between c. 200 BCE and 200 CE, is the most important Dharmashastra. A wrong answer (e.g., reversing the sequence or naming the Arthashastra) reveals confusion between legal/administrative texts and normative social texts, and ignorance of the textual chronology that historians use to trace the evolution of Brahmanical social codes.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states that the Dharmasutras and Dharmashastras 'recognised as many as eight forms of marriage' but the first four were considered 'good' while the rest were 'condemned'. Why would the texts include condemned forms at all?",
+     "a": "The inclusion of condemned forms (like the fifth: bride-price marriage, sixth: love marriage) acknowledges that these practices existed among groups who did not accept Brahmanical norms. The texts categorize them to hierarchically marginalize non-Brahmanical practices while implicitly admitting their prevalence. A student who says \"the texts banned them completely\" misses the nuance that recognition ≠ endorsement, and fails to see how prescriptive texts map social diversity even while trying to control it.",
+     "self_check": true
+    },
+    {
+     "q": "Satavahana rulers used metronymics (e.g., Gotami-puta, 'son of Gotami') and their wives retained father's gotra names instead of adopting husband's gotra. How does this evidence complicate the Brahmanical prescription that women must adopt husband's gotra and marriage must be exogamous (outside gotra)?",
+     "a": "The Satavahana evidence shows: (1) women retained natal gotra identities (endogamy), contradicting the rule that women adopt husband's gotra; (2) marriages occurred within the same gotra (e.g., Gotama), violating exogamy; (3) metronymics highlight maternal lineage importance despite patrilineal succession. This reveals that ruling elites in the Deccan followed regional kinship practices (common in south India) rather than Brahmanical norms. A student who dismisses this as \"exception\" misses the pattern: Brahmanical norms were not universally enforced, especially outside the Gangetic core.",
+     "self_check": true
+    },
+    {
+     "q": "The Buddhist text Majjhima Nikaya presents a dialogue where a wealthy Shudra can command the service of Brahmanas and Kshatriyas. How does this story function as a critique of the varna system prescribed in the Dharmashastras?",
+     "a": "The story uses a hypothetical wealthy Shudra to demonstrate that economic power (wealth, corn, gold) overrides varna status in real social interactions — a Shudra master can have Brahmana servants. This directly challenges the Dharmashastric claim that varna hierarchy is natural and birth-based. The Buddhist argument: if social deference follows wealth, not birth, then varna is not divinely ordained (Purusha sukta) but socially constructed. A student who only summarizes the story without linking it to the Buddhist critique of birth-based status misses the analytical point: the text uses irony to deconstruct Brahmanical ideology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian's method: \"Historians consider whether texts were written in Prakrit, Pali or Tamil... or in Sanskrit... They also consider the kinds of text... the author(s)... the intended audience... the possible date... the place.\" Why is each of these filters necessary when using the Mahabharata or Dharmashastras as historical sources?",
+     "a": "Each filter addresses a specific distortion risk: Language reveals audience (Sanskrit = elite/priestly; Prakrit/Pali/Tamil = wider/non-Brahmanical); Genre distinguishes prescriptive (Dharmashastra) from narrative (Mahabharata) or normative from descriptive; Authorship identifies perspective (Brahmana composers vs. suta bards); Audience shapes content (texts flatter patrons); Date/Place contextualize prescriptions (urbanization c. 500 BCE triggered detailed codes). A student who says \"they're all old texts so they're reliable\" fails to grasp that *source criticism* is the core of historical method — texts are not transparent windows but constructed artifacts.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument using *both* the Dharmashastric prescription that Shudras have only one occupation (servitude) *and* the Buddhist story of the wealthy Shudra to explain why historians conclude that varna was \"not a kind of rigid social order determined by birth\" in practice.",
+     "a": "A strong argument: The Dharmashastras *prescribe* a rigid birth-based occupational hierarchy (Shudra = servitude only). But the Buddhist story *describes* a Shudra with wealth employing Brahmanas — proving economic roles were not fixed by birth. The disjunction between prescription (ideal) and description (reality) shows varna was a theoretical model. Additional evidence: Rigvedic hymn (poet father, physician son, grinder mother) shows early flexibility; non-Kshatriya kings (Mauryas, Shungas, Shakas) held power. Historians conclude varna was an *ideological framework* that shaped but did not determine social practice. A weak answer merely lists examples without explaining the *methodological* move: using counter-textual evidence to test prescriptive claims.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

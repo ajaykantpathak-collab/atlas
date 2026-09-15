@@ -1,0 +1,608 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 3,
+ "chapter_title": "Public Nutrition and Health",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe103.1",
+   "title": "Public Nutrition and Public Health",
+   "section": "Introduction and Basic Concepts",
+   "definition": "Public health means organised action by society to guard and better the health of whole populations, and public health nutrition applies that group approach to keeping a population well nourished.",
+   "formula": "qualitative idea -- population level prevention, not one patient at a time",
+   "key_idea": "The mission is two sided: stop undernutrition and overnutrition together and hold the population at optimal status.",
+   "textbook_ref": "lehe103.txt, Introduction and What is Public Health Nutrition (approx lines 21-139)",
+   "question_patterns": [
+    "what is public health nutrition",
+    "how does public nutrition differ from clinical nutrition and dietetics",
+    "why is the word public attached to nutrition and health",
+    "what does the double burden of malnutrition mean",
+    "define community in the sense used by public health workers",
+    "why is public health nutrition called a multidisciplinary field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the population lens",
+     "explain": "group action targets large numbers, especially vulnerable groups, unlike the single patient focus of clinics"
+    },
+    {
+     "step": 2,
+     "action": "state the twin goal: prevent under and overnutrition",
+     "explain": "India carries both deficits and excess at the same time"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Organised action by society to guard the health of whole populations is called what health: public or private?",
+     "a": "public"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.2",
+   "title": "Protein Energy Malnutrition and Growth Failure",
+   "section": "Nutritional Problems in India",
+   "definition": "Protein energy malnutrition arises when food energy and protein fall short of needs; it shows up as underweight for age, stunted height for age, or wasted weight for height, with marasmus from energy lack and kwashiorkor from protein lack.",
+   "formula": "assessment signs -- weight for age, height for age, weight for height",
+   "key_idea": "Children carry the greatest risk, though the elderly and disease patients can also slip into PEM.",
+   "textbook_ref": "lehe103.txt, PEM paragraph (approx lines 158-228)",
+   "question_patterns": [
+    "explain the terms stunting, wasting and underweight",
+    "distinguish between marasmus and kwashiorkor",
+    "what is protein energy malnutrition and who faces the greatest risk",
+    "how is PEM assessed in a child",
+    "which anthropometric signs point to growth retardation in preschoolers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the three growth yardsticks",
+     "explain": "light for age, short for age, light for height each flag a different failure"
+    },
+    {
+     "step": 2,
+     "action": "separate the two severe forms",
+     "explain": "energy deficit wastes the body; protein deficit swells it with kwashiorkor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which deficiency causes marasmus: energy or protein?",
+     "a": "energy"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.3",
+   "title": "Hidden Hunger: Micronutrient Deficiencies",
+   "section": "Nutritional Problems in India",
+   "definition": "Hidden hunger is the quiet shortage of vitamins and minerals -- iron, zinc, vitamin A, C, D, iodine, folic acid and B12 -- that can ride along even when bellies feel full.",
+   "formula": "qualitative idea -- enough energy does not guarantee enough micronutrients",
+   "key_idea": "An energy and protein poor diet almost always shortchanges minerals and vitamins too.",
+   "textbook_ref": "lehe103.txt, Micronutrient deficiencies (approx lines 230-237)",
+   "question_patterns": [
+    "what is hidden hunger",
+    "name the micronutrients of major public health concern in India",
+    "why may a diet poor in energy and protein also lack micronutrients",
+    "which newly worrying vitamin deficiencies are being watched besides iron and iodine",
+    "why are micronutrient gaps called deficiencies of varying severity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the term hidden hunger",
+     "explain": "the deficit is invisible because calories may be adequate"
+    },
+    {
+     "step": 2,
+     "action": "list the watched micronutrients",
+     "explain": "iron, vitamin A and iodine lead; zinc, B12, folic acid, calcium, D and riboflavin follow"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The quiet shortage of vitamins and minerals despite full bellies is called what hunger?",
+     "a": "hidden"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.4",
+   "title": "Iron Deficiency Anemia",
+   "section": "Nutritional Problems in India",
+   "definition": "Iron deficiency anemia is the commonest nutritional disorder worldwide; shortfalls of iron cut hemoglobin output, so oxygen transport suffers and exertion brings breathlessness, fatigue and visible pallor.",
+   "formula": "qualitative chain -- low iron to low hemoglobin to poor oxygen carry to fatigue",
+   "key_idea": "Women of child bearing age, adolescent girls, pregnant women and school children are the most exposed groups; children also lose attention and memory.",
+   "textbook_ref": "lehe103.txt, IDA section (approx lines 246-259)",
+   "question_patterns": [
+    "what is iron deficiency anemia and why is it called the most common nutritional disorder",
+    "which groups are most vulnerable to IDA",
+    "how does a fall in hemoglobin produce breathlessness and fatigue",
+    "list the visible signs by which anemia shows itself",
+    "how does anemia affect learning in children"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the physiology",
+     "explain": "reduced hemoglobin manufacture starves muscles and brain of oxygen"
+    },
+    {
+     "step": 2,
+     "action": "map the signs: pallor of eyes, tongue, nail beds; lethargy; weak concentration",
+     "explain": "severity follows the speed of the hemoglobin fall"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which is the commonest nutritional disorder worldwide: iron deficiency anemia or scurvy?",
+     "a": "iron deficiency anemia"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.5",
+   "title": "Vitamin A Deficiency",
+   "section": "Nutritional Problems in India",
+   "definition": "Shortage of vitamin A begins as night blindness and, untreated, ends in total loss of sight; the same deficit lowers immunity and slows growth, and infection in turn drains body stores of the vitamin.",
+   "formula": "qualitative cycle -- deficiency to infection to greater losses to deeper deficiency",
+   "key_idea": "Vitamin A lack is the leading cause of childhood blindness, and the spiral with infection makes it worse.",
+   "textbook_ref": "lehe103.txt, VAD section and vicious cycle figure (approx lines 260-277)",
+   "question_patterns": [
+    "why is vitamin A essential for the body",
+    "describe the vicious cycle linking vitamin A deficiency and infection",
+    "how does night blindness progress to complete blindness",
+    "which deficiency is the most common cause of childhood blindness",
+    "name the food sources rich in beta carotene for preventing vitamin A lack"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the roles of the vitamin: epithelium, vision, growth, immunity",
+     "explain": "each role produces its own deficiency sign"
+    },
+    {
+     "step": 2,
+     "action": "draw the spiral",
+     "explain": "deficiency invites infection, infection raises losses, losses deepen the deficiency"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Vitamin A deficiency begins as which night condition: night blindness or sleepwalking?",
+     "a": "night blindness"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.6",
+   "title": "Iodine Deficiency Disorders",
+   "section": "Nutritional Problems in India",
+   "definition": "Living on iodine poor soil, whole populations can lack the iodine the thyroid needs; the resulting spectrum runs from goitre in adults to cretinism and irreversible mental retardation in children born to deficient mothers.",
+   "formula": "qualitative chain -- iodine poor soil to low thyroid hormone to goitre or cretinism",
+   "key_idea": "Iodised salt is the classic fortification answer; Himalayan and peninsular belts carry the highest risk.",
+   "textbook_ref": "lehe103.txt, IDD section (approx lines 282-301)",
+   "question_patterns": [
+    "what are iodine deficiency disorders",
+    "why is IDD called an ecological phenomenon",
+    "how does iodine lack affect the thyroid gland",
+    "distinguish between goitre and cretinism",
+    "why is iodine deficiency during pregnancy especially dangerous",
+    "name the states where IDD is common in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the cause: soil lacking iodine gives iodine lacking crops and diets",
+     "explain": "the thyroid cannot synthesise enough hormone"
+    },
+    {
+     "step": 2,
+     "action": "map the spectrum: enlarged thyroid in adults, cretinism and fetal damage in the next generation",
+     "explain": "the fetal damage cannot be undone, which is why fortification is universal"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Iodine shortage in adults shows as which visible swelling: goitre or rash?",
+     "a": "goitre"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.7",
+   "title": "Causes of Undernutrition: Three Levels",
+   "section": "Fig 3.1 Factors Related to Undernutrition",
+   "definition": "Undernutrition is read through three nested layers: immediate causes at the individual (faulty intake and disease), underlying causes at the household (food access, care, water, health services, education), and basic societal causes (resources, political and cultural systems, environment).",
+   "formula": "causal ladder -- immediate plus underlying plus basic causes produce malnutrition outcomes",
+   "key_idea": "Poverty and poor sanitation sit upstream; no single fix can break the chain alone.",
+   "textbook_ref": "lehe103.txt, Fig 3.1 and surrounding text (approx lines 140-217)",
+   "question_patterns": [
+    "explain the three levels of causes behind undernutrition",
+    "which immediate causes operate at the level of the individual",
+    "name the underlying causes that act at the household level",
+    "what basic causes does society contribute to malnutrition",
+    "how do poor sanitation and unsafe water feed into lost working days and economic loss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the ladder from individual to society",
+     "explain": "diet and disease act first, household conditions next, structures last"
+    },
+    {
+     "step": 2,
+     "action": "show the interactions",
+     "explain": "poverty shrinks access to food, toilets and clinics, and the losses circle back as lower earnings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Faulty intake and disease are which level causes of undernutrition: immediate or basic?",
+     "a": "immediate"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.8",
+   "title": "Food-Based versus Nutrient-Based Strategies",
+   "section": "Strategies/intervention to tackle Nutritional Problems",
+   "definition": "Food based strategies fight deficiency by putting micronutrient rich foods on the plate through diversification, home gardens, education and fortification, while the nutrient based or medicinal route hands out supplements to at risk groups for a short term.",
+   "formula": "strategy choice -- food based is sustainable and safe, supplements are fast but costly",
+   "key_idea": "Supplementation cannot cause toxicity through food, works for every household, and is the long term goal; pills reach fewer people and can be overdosed.",
+   "textbook_ref": "lehe103.txt, strategies and Table 3.1 (approx lines 342-454)",
+   "question_patterns": [
+    "compare food based and nutrient based strategies for tackling malnutrition",
+    "why are diet based approaches called sustainable",
+    "what are the advantages and drawbacks of nutrient supplementation",
+    "how does fortification of salt with iodine work as a strategy",
+    "what is dietary diversification and why does it need agricultural policy change",
+    "which strategy should be the long term goal and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each strategy family",
+     "explain": "one changes the plate, the other adds pills and drops"
+    },
+    {
+     "step": 2,
+     "action": "weigh them on cost, coverage, sustainability and toxicity",
+     "explain": "food based win on sustainability and safety; supplements win on speed for targeted groups"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Putting micronutrient-rich foods on the plate is which strategy: food based or medicinal?",
+     "a": "food based"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.9",
+   "title": "Government Nutrition Programmes",
+   "section": "Nutrition programmes operating in our country",
+   "definition": "India runs five programme families: ICDS for mother and child care, national deficiency control programmes for vitamin A, anemia and iodine, food supplementation such as the mid day meal, food security through PDS and allied schemes, and employment schemes as social safety nets.",
+   "formula": "programme map -- ICDS plus deficiency control plus meal plus food security plus employment",
+   "key_idea": "POSHAN Abhiyaan overlays all of these with convergence, targeting stunting, anemia and low birth weight district by district.",
+   "textbook_ref": "lehe103.txt, POSHAN Abhiyaan and programme list (approx lines 303-483)",
+   "question_patterns": [
+    "name the five types of nutrition programmes running in India",
+    "which age group and mothers does ICDS cover",
+    "what does POSHAN Abhiyaan target and how does it work",
+    "distinguish between food supplementation and food security programmes",
+    "under which programme is the mid day meal classified",
+    "why are employment schemes counted among nutrition interventions",
+    "which three national prophylaxis programmes control specific deficiencies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the programmes into their five families",
+     "explain": "each family answers a different rung of the causal ladder"
+    },
+    {
+     "step": 2,
+     "action": "place POSHAN Abhiyaan as the converging umbrella",
+     "explain": "it reviews and scales the others district by district"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which programme delivers mother and child care through the anganwadi: ICDS or NSS?",
+     "a": "ICDS"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.10",
+   "title": "Three Levels of Health Care",
+   "section": "Health Care",
+   "definition": "India arranges care in a ladder: primary centres as the first contact for families, district hospitals and community centres as the first referral level, and medical colleges and specialised institutes at the top for the hardest cases.",
+   "formula": "referral ladder -- primary to secondary to tertiary",
+   "key_idea": "Each level handles what the one below cannot; community health centres open the referral chain.",
+   "textbook_ref": "lehe103.txt, Health Care section (approx lines 484-498)",
+   "question_patterns": [
+    "name the three levels at which health care is delivered in India",
+    "which institutions form the first level of contact with the health system",
+    "what is meant by the first referral level",
+    "give examples of tertiary level health institutions",
+    "how do community health centres fit into the referral chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each level and its setting",
+     "explain": "PHCs, district and community centres, then medical college and specialised hospitals"
+    },
+    {
+     "step": 2,
+     "action": "explain the referral flow upward",
+     "explain": "complexity rises with each step up the ladder"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which level of care is the family's first contact: primary or tertiary?",
+     "a": "primary"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.11",
+   "title": "Low Birth Weight Arithmetic",
+   "section": "Significance",
+   "definition": "When a stated fraction of newborns arrive weighing under 2.5 kg, the expected number of low birth weight babies in any birth cohort is that fraction of the total births.",
+   "formula": "lbw_count = total_births * lbw_share",
+   "key_idea": "About one Indian infant in five is born under 2.5 kg, a burden that shadows health across the whole life span.",
+   "textbook_ref": "lehe103.txt, Significance list (approx lines 45-55)",
+   "question_patterns": [
+    "if one fifth of infants are low birth weight, how many such babies are expected among 8000 births in a district",
+    "given the low birth weight share and the number of births, calculate the count of babies under 2.5 kg",
+    "a hospital records 1200 deliveries in a year; using the national fraction of one fifth, find the expected low birth weight babies",
+    "compute the number of low birth weight infants when the birth cohort and the affected fraction are stated",
+    "how many of 350 newborns would be predicted to weigh below 2.5 kg if a fifth are affected"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the low birth weight fraction to the cohort",
+     "explain": "multiply total births by the affected share",
+     "compute": "lbw_count = total_births * lbw_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Low birth weight is defined below how many kilograms: 2.5 or 5?",
+     "a": "2.5"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.12",
+   "title": "POSHAN District Rollout",
+   "section": "Strategies: POSHAN Abhiyaan",
+   "definition": "POSHAN Abhiyaan phased its district coverage over three years; the combined first two phases come from adding the year one and year two district counts.",
+   "formula": "two_phase_districts = first_year_districts + second_year_districts",
+   "key_idea": "Year one took 315 districts and year two another 235, with the remainder following in year three.",
+   "textbook_ref": "lehe103.txt, POSHAN Abhiyaan paragraph (approx lines 308-317)",
+   "question_patterns": [
+    "how many districts did POSHAN Abhiyaan take up in its first two years together",
+    "add the first year and second year district counts of the Abhiyaan",
+    "a report says 315 districts joined in year one and 235 in year two; compute the combined coverage",
+    "find the total districts covered before the third and final phase of the nutrition mission began",
+    "calculate the two phase total from the yearly rollout figures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two phase counts",
+     "explain": "year one plus year two gives the districts already inside the mission after two phases",
+     "compute": "two_phase_districts = first_year_districts + second_year_districts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "POSHAN Abhiyaan's year one covered how many districts: 315 or 31?",
+     "a": "315"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.13",
+   "title": "Malnutrition Productivity Loss",
+   "section": "Significance",
+   "definition": "Economists attach a percentage drag to malnutrition: apply the quoted percent to a person's lifetime earnings, or to the nation's GDP, to price the output that poor nutrition destroys.",
+   "formula": "productivity_loss = lifetime_earnings * loss_pct / 100",
+   "key_idea": "Losses run past ten percent of individual lifetime earnings and two to three percent of GDP, so fighting malnutrition is an investment.",
+   "textbook_ref": "lehe103.txt, costs of malnutrition paragraph (approx lines 66-74)",
+   "question_patterns": [
+    "if productivity losses equal 10 percent of lifetime earnings, how much is lost by a worker earning 400000 rupees over a lifetime",
+    "calculate the earnings destroyed when the loss percentage is applied to a stated lifetime income",
+    "a state estimates malnutrition drains 2 percent of GDP of 7000000 lakh rupees; compute the loss",
+    "find the rupee value of output lost when the loss rate and the earnings base are given",
+    "work out the national cost of malnutrition as a percentage applied to the GDP figure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the loss rate to the earnings base",
+     "explain": "multiply the base by the percentage and divide by one hundred",
+     "compute": "productivity_loss = earnings_base * loss_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Malnutrition losses run past ten percent of individual lifetime what: earnings or height?",
+     "a": "earnings"
+    }
+   ]
+  },
+  {
+   "id": "lehe103.14",
+   "title": "Costing a Supplementary Recipe",
+   "section": "Practical 1: supplementary foods for nutrition programmes",
+   "definition": "A low cost Anganwadi recipe is costed by adding the prices of its ingredients for the full batch and dividing by the number of servings, then checked against the per serving cost limit set by the teacher.",
+   "formula": "per_serving_cost = (ingredient_a_price + ingredient_b_price + ingredient_c_price) / servings",
+   "key_idea": "Plans target five servings within Rs 5 a serving, so costing decides which recipe gets cooked.",
+   "textbook_ref": "lehe103.txt, Practical 1 tasks (approx lines 610-672)",
+   "question_patterns": [
+    "a supplementary mix uses rice worth Rs 12, dal worth Rs 18 and oil worth Rs 5 for a 5 serving batch; find the cost per serving",
+    "calculate the per serving cost of a recipe whose ingredients for the whole batch are priced and the serving count is given",
+    "an Anganwadi recipe costs Rs 40 for 5 servings; does each serving stay within the Rs 5 limit",
+    "find the serving cost when three ingredient prices are added and divided across the planned servings",
+    "work out whether a group's planned recipe respects the teacher's cost cap per serving"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the ingredient prices for the batch",
+     "explain": "every item bought for the recipe enters the batch cost",
+     "compute": "batch_cost = ingredient_a_price + ingredient_b_price + ingredient_c_price"
+    },
+    {
+     "step": 2,
+     "action": "divide by the planned servings",
+     "explain": "the quotient is the per serving cost to compare with the cap",
+     "compute": "per_serving_cost = batch_cost / servings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Recipe costing divides the batch price by the number of what: servings or cooks?",
+     "a": "servings"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe103.txt Significance, low birth weight statistic",
+   "concept": "lehe103.11",
+   "question_type": "numeric",
+   "question_pattern": "About {lbw_share} of infants born in India are low birth weight. How many low birth weight babies are expected in a block with {total_births} births?",
+   "extracted_variables": {
+    "lbw_share": 0.2,
+    "total_births": 8000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the fraction to the cohort",
+     "explain": "8000 x 0.2 = 1600 babies expected under 2.5 kg",
+     "compute": "lbw_count = total_births * lbw_share"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe103.txt POSHAN Abhiyaan rollout paragraph",
+   "concept": "lehe103.12",
+   "question_type": "numeric",
+   "question_pattern": "POSHAN Abhiyaan covered {first_year_districts} districts in its first year and {second_year_districts} in the second. Compute the combined coverage after two years.",
+   "extracted_variables": {
+    "first_year_districts": 315,
+    "second_year_districts": 235
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two phase counts",
+     "explain": "315 + 235 = 550 districts covered before the final phase",
+     "compute": "two_phase_districts = first_year_districts + second_year_districts"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe103.txt Practical 1, recipe costing task",
+   "concept": "lehe103.14",
+   "question_type": "numeric",
+   "question_pattern": "A group's recipe for a 5 serving supplementary food uses ingredients priced at {ingredient_a_price} rupees, {ingredient_b_price} rupees and {ingredient_c_price} rupees. Find the cost per serving and say whether it respects the Rs 5 cap.",
+   "extracted_variables": {
+    "ingredient_a_price": 12,
+    "ingredient_b_price": 18,
+    "ingredient_c_price": 5,
+    "servings": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the batch cost",
+     "explain": "12 + 18 + 5 = 35 rupees for the batch",
+     "compute": "batch_cost = ingredient_a_price + ingredient_b_price + ingredient_c_price"
+    },
+    {
+     "step": 2,
+     "action": "divide by the servings",
+     "explain": "35 / 5 = 7 rupees per serving, which breaches the 5 rupee cap",
+     "compute": "per_serving_cost = batch_cost / servings"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe103.txt IDA and VAD sections",
+   "concept": "lehe103.4",
+   "question_type": "short_answer",
+   "question_pattern": "Why does anemia make a person breathless on slight exertion, and which groups should an anemia control programme target first?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain the physiology",
+     "explain": "hemoglobin ferries oxygen; with less of it, any exertion outstrips oxygen supply and fatigue follows"
+    },
+    {
+     "step": 2,
+     "action": "list the priority groups",
+     "explain": "women of child bearing age, adolescent girls, pregnant women and school age children"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe103.txt Review Questions 1-6",
+   "questions": [
+    "Explain the terms stunting, wasting, low birth weight baby, marasmus, kwashiorkor and IDD.",
+    "What is meant by the double burden of malnutrition?",
+    "Discuss the strategies that can be adopted against public nutrition problems.",
+    "Define public health nutrition and show how it differs from clinical dietetics.",
+    "State the common nutritional problems facing India.",
+    "What are the consequences of iron deficiency anemia and iodine deficiency disorders?",
+    "Sketch the scope of public health nutrition and list career choices in the area."
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe103.txt Practical 1, development of supplementary foods",
+   "questions": [
+    "Collect the prices of commonly consumed local foods from the neighbourhood market.",
+    "Plan two low cost recipes for preschoolers that are good sources of iron, staying within the per serving cost limit.",
+    "Prepare the selected recipe and evaluate it for serving size, cost, appearance, taste and suitability for young children.",
+    "Record observations and suggest improvements to the recipe."
+   ]
+  }
+ ]
+}

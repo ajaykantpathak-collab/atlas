@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_010",
+   "title": "c11_cs_cbse_03_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of performing a dry run on an algorithm before coding it?",
+     "a": "The primary purpose is to verify the algorithm's logical correctness by manually executing it with specific test inputs and tracking variable values at each step, thereby identifying logical errors (like infinite loops, off-by-one errors, wrong condition logic) before writing any code. A wrong answer such as \"to check syntax errors\" reveals the student confuses dry run (logic verification) with compilation (syntax checking). A response like \"to see the output\" without mentioning variable tracking shows incomplete understanding of the systematic tracing process.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a trace table must include a column for the line number or step number being executed, rather than just columns for variables.",
+     "a": "The line/step column records the exact execution sequence, which is essential when control flow jumps (loops, conditionals) because the same line executes multiple times with different variable values. Without it, you cannot distinguish between the first and fifth iteration of a loop, nor reconstruct the execution path for debugging. A wrong answer like \"it keeps the table organised\" misses the critical role of execution order in non-linear algorithms. If a student says \"we can just number the rows,\" they fail to see that row numbers ≠ line numbers when a loop repeats line 5 ten times — the trace table needs to show line 5 appearing in ten different rows.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the following algorithm for input N = 4 and show the complete trace table. What is the final output?\n```\nSUM = 0\nFOR I = 1 TO N STEP 1\n    SUM = SUM + I * I\nEND FOR\nPRINT SUM\n```",
+     "a": "**Trace Table:**\n| Step | Line | N | I | SUM | I*I | Action |\n|------|------|---|---|-----|-----|--------|\n| 1 | 1 | 4 | ? | 0 | - | Initialise SUM=0 |\n| 2 | 2 | 4 | 1 | 0 | - | Loop start, I=1 |\n| 3 | 3 | 4 | 1 | 1 | 1 | SUM = 0 + 1*1 = 1 |\n| 4 | 2 | 4 | 2 | 1 | - | Loop next, I=2 |\n| 5 | 3 | 4 | 2 | 5 | 4 | SUM = 1 + 2*2 = 5 |\n| 6 | 2 | 4 | 3 | 5 | - | Loop next, I=3 |\n| 7 | 3 | 4 | 3 | 14 | 9 | SUM = 5 + 3*3 = 14 |\n| 8 | 2 | 4 | 4 | 14 | - | Loop next, I=4 |\n| 9 | 3 | 4 | 4 | 30 | 16 | SUM = 14 + 4*4 = 30 |\n| 10 | 2 | 4 | 5 | 30 | - | Loop end (I=5 > N=4) |\n| 11 | 5 | 4 | 5 | 30 | - | PRINT SUM |\n\n**Final Output: 30** (sum of squares 1²+2²+3²+4² = 1+4+9+16 = 30).\nA wrong answer like SUM=20 (missing 4²) reveals off-by-one error: student used I < N instead of I ≤ N. SUM=14 means they stopped at I=3. Missing the intermediate I*I column shows they cannot decompose compound assignments.",
+     "self_check": true
+    },
+    {
+     "q": "Two algorithms claim to compute the sum of first N even numbers. Algorithm A uses `FOR I = 1 TO N: SUM = SUM + 2*I`. Algorithm B uses `FOR I = 2 TO 2*N STEP 2: SUM = SUM + I`. For N=3, compare their trace tables and explain whether they are logically equivalent.",
+     "a": "**Algorithm A trace (N=3):**\n| Step | I | 2*I | SUM |\n|------|---|-----|-----|\n| 1 | 1 | 2 | 2 |\n| 2 | 2 | 4 | 6 |\n| 3 | 3 | 6 | 12 |\n\n**Algorithm B trace (N=3):**\n| Step | I | SUM |\n|------|---|-----|\n| 1 | 2 | 2 |\n| 2 | 4 | 6 |\n| 3 | 6 | 12 |\n\nBoth produce SUM=12 (2+4+6). They are logically equivalent: Algorithm A generates even numbers as 2×I where I=1..N; Algorithm B generates them directly as I=2,4,6..2N. The trace tables differ in loop variable progression but accumulate identical values. A wrong answer claiming they differ because \"loop variables are different\" shows the student focuses on syntax (variable names, step size) rather than semantics (values added to SUM). A student saying \"Algorithm B is wrong because it goes to 2N\" misunderstands that 2N is the Nth even number.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this algorithm to find the largest of three numbers A, B, C:\n```\nMAX = A\nIF B > MAX THEN MAX = B\nIF C > MAX THEN MAX = C\nPRINT MAX\n```\nThey test only with A=5, B=10, C=3 and conclude it works. Evaluate this testing strategy and propose a minimal set of test cases that would thoroughly verify the algorithm.",
+     "a": "The student's strategy is **insufficient** — testing only one case (where B is max) misses critical paths: when A is max, when C is max, when two or three values are equal, and when values are negative. A thorough minimal test set (5 cases):\n1. **A max**: A=10, B=5, C=3 → tests first IF false, second IF false\n2. **B max**: A=5, B=10, C=3 → tests first IF true, second IF false\n3. **C max**: A=5, B=3, C=10 → tests first IF false, second IF true\n4. **Tie A=B>C**: A=7, B=7, C=2 → tests first IF false (B>MAX is false when equal), second IF false\n5. **All equal**: A=4, B=4, C=4 → tests both IFs false, verifies stability\n6. **Negative values**: A=-5, B=-2, C=-8 → tests with negatives (B max)\n\nA wrong answer listing only 3 cases (one per variable being max) misses equality and negative edge cases. Suggesting \"test all permutations\" (6 cases) shows inability to minimise using equivalence partitioning. The student must justify each case by which branch it exercises.",
+     "self_check": true
+    },
+    {
+     "q": "Design an algorithm (in pseudocode) that reads integers until a negative number is entered, then prints the count of positive numbers, count of zeros, and sum of positive numbers. Create a trace table for input sequence: 5, 0, 3, 0, 7, -1. Show all steps.",
+     "a": "**Algorithm:**\n```\nPOS_COUNT = 0\nZERO_COUNT = 0\nPOS_SUM = 0\nREAD NUM\nWHILE NUM >= 0\n    IF NUM > 0 THEN\n        POS_COUNT = POS_COUNT + 1\n        POS_SUM = POS_SUM + NUM\n    ELSE\n        ZERO_COUNT = ZERO_COUNT + 1\n    END IF\n    READ NUM\nEND WHILE\nPRINT POS_COUNT, ZERO_COUNT, POS_SUM\n```\n\n**Trace Table:**\n| Step | Line | NUM | POS_COUNT | ZERO_COUNT | POS_SUM | Condition NUM>=0 | Action |\n|------|------|-----|-----------|------------|---------|------------------|--------|\n| 1 | 1-4 | ? | 0 | 0 | 0 | - | Initialise |\n| 2 | 5 | 5 | 0 | 0 | 0 | - | READ 5 |\n| 3 | 6 | 5 | 0 | 0 | 0 | TRUE (5>=0) | Enter loop |\n| 4 | 7 | 5 | 0 | 0 | 0 | TRUE (5>0) | Enter IF |\n| 5 | 8 | 5 | 1 | 0 | 0 | - | POS_COUNT=1 |\n| 6 | 9 | 5 | 1 | 0 | 5 | - | POS_SUM=5 |\n| 7 | 13 | 5 | 1 | 0 | 5 | - | READ 0 |\n| 8 | 6 | 0 | 1 | 0 | 5 | TRUE (0>=0) | Loop again |\n| 9 | 7 | 0 | 1 | 0 | 5 | FALSE (0>0) | Enter ELSE |\n| 10 | 11 | 0 | 1 | 1 | 5 | - | ZERO_COUNT=1 |\n| 11 | 13 | 0 | 1 | 1 | 5 | - | READ 3 |\n| 12 | 6 | 3 | 1 | 1 | 5 | TRUE | Loop |\n| 13 | 7 | 3 | 1 | 1 | 5 | TRUE | IF |\n| 14 | 8 | 3 | 2 | 1 | 5 | - | POS_COUNT=2 |\n| 15 | 9 | 3 | 2 | 1 | 8 | - | POS_SUM=8 |\n| 16 | 13 | 3 | 2 | 1 | 8 | - | READ 0 |\n| 17 | 6 | 0 | 2 | 1 | 8 | TRUE | Loop |\n| 18 | 7 | 0 | 2 | 1 | 8 | FALSE | ELSE |\n| 19 | 11 | 0 | 2 | 2 | 8 | - | ZERO_COUNT=2 |\n| 20 | 13 | 0 | 2 | 2 | 8 | - | READ 7 |\n| 21 | 6 | 7 | 2 | 2 | 8 | TRUE | Loop |\n| 22 | 7 | 7 | 2 | 2 | 8 | TRUE | IF |\n| 23 | 8 | 7 | 3 | 2 | 8 | - | POS_COUNT=3 |\n| 24 | 9 | 7 | 3 | 2 | 15 | - | POS_SUM=15 |\n| 25 | 13 | 7 | 3 | 2 | 15 | - | READ -1 |\n| 26 | 6 | -1 | 3 | 2 | 15 | FALSE (-1>=0) | Exit loop |\n| 27 | 15 | -1 | 3 | 2 | 15 | - | PRINT 3, 2, 15 |\n\n**Output: 3, 2, 15**\nA poor answer missing the READ inside the loop (infinite loop) or not tracing the ELSE branch for zeros reveals inability to trace sentinel-controlled loops with multiple counters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

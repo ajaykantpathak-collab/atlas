@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_004",
+   "title": "c12_bs_cbse_04_004",
+   "questions": [
+    {
+     "q": "A company prepares a **Cash Budget** for the quarter January–March 2026. After March, the budget is not reused; a new one is made for April–June. Is this a single-use plan or a standing plan? Justify in one sentence.",
+     "a": "**Correct answer:** Single-use plan. A cash budget is prepared for a specific period, quantifies expected inflows/outflows for that period only, and is replaced by a new budget for the next period — it is non-recurring and time-bound.  \n**Wrong answer reveals:** If the student says \"standing plan because budgets are used regularly\", they confuse *frequency of preparation* with *frequency of use*. A budget is *prepared* regularly but each *instance* is a single-use plan for a specific period. The standing counterpart would be the **budgeting policy** (e.g., \"all departments must submit zero-based budgets by the 15th of the preceding month\") which governs how budgets are made every quarter.",
+     "self_check": true
+    },
+    {
+     "q": "\"Standing plans are rigid and kill creativity; single-use plans allow innovation because they are made for unique projects.\" Critically evaluate this statement using the NCERT concepts of **policy** (standing) and **programme** (single-use).",
+     "a": "**Correct evaluation:** The statement is **partially true but incomplete**. Standing plans like *policies* set broad boundaries (e.g., \"recruitment only through campus placement and employee referral\") which *channel* creativity within limits — they don't eliminate it. Single-use plans like *programmes* (e.g., \"launch new product X in Q3\") operate *within* those policy boundaries. Innovation happens when a programme designs a novel marketing campaign *inside* the pricing policy framework. NCERT states: \"Policies define the broad parameters within which a manager may function. The manager may use his/her discretion to interpret and apply a policy.\"  \n**Wrong answer reveals:** If the student agrees fully, they miss that standing plans *enable* efficiency by removing routine decisions, freeing mental bandwidth for innovation in single-use plans. If they disagree fully, they ignore that overly rigid rules (a type of standing plan) *can* stifle initiative — the nuance is in *degree* and *type* of standing plan.",
+     "self_check": true
+    },
+    {
+     "q": "**Scenario:** 'GreenLeaf Organics' wants to open a new retail outlet in Bengaluru. The CEO asks the Operations Manager to prepare a plan. The manager produces a document titled **\"Project: Bengaluru Outlet Launch\"** containing: (a) objective (open by Diwali), (b) timeline (Gantt chart), (c) budget (₹45 lakh), (d) staffing schedule, (e) reference to company's **\"Franchisee Selection Policy\"** and **\"Store Layout Procedure\"**.  \nIdentify which components are single-use plans and which are standing plans. Explain the relationship between them.",
+     "a": "**Correct answer:**  \n- **Single-use plans:** (a) objective (specific to this project), (b) timeline, (c) budget, (d) staffing schedule — all created *only* for this outlet launch and discarded after execution.  \n- **Standing plans:** (e) Franchisee Selection Policy (used for every new outlet), Store Layout Procedure (used for every store setup).  \n**Relationship:** The standing plans provide the *framework/constraints* within which the single-use plan is formulated. The budget must adhere to the policy's financial limits; the timeline must follow the procedure's sequence of approvals.  \n**Wrong answer reveals:** If the student labels the objective or budget as standing plans, they confuse *organisational objectives* (which are standing) with *project-specific objectives* (single-use). If they miss the link, they don't see planning as a hierarchy where standing plans guide single-use plans.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **'Method'** (standing plan) and **'Programme'** (single-use plan) on the following dimensions: (i) Time horizon, (ii) Scope of application, (iii) Flexibility, (iv) Relationship to objectives. Present as a 2×4 table.",
+     "a": "**Correct table:**\n\n| Dimension | Method (Standing) | Programme (Single-use) |\n|-----------|-------------------|------------------------|\n| Time horizon | Long-term, used repeatedly | Short/medium-term, one project |\n| Scope | One step of a procedure (e.g., \"train supervisors via on-the-job method\") | Entire project (objectives, policies, procedures, rules, budget) |\n| Flexibility | Low — standardised way to perform a task | High — tailored to unique project needs |\n| Relationship to objectives | Serves as a *tool* to achieve procedural step | *Encapsulates* objectives and all plans to achieve them |\n\n**Wrong answer reveals:** If the student swaps flexibility (thinks programmes are rigid because they have fixed budgets), they miss that programmes are *custom-built* for each project, while methods are *prescribed* for repetition. If they say method has broader scope, they confuse a single task-step with a comprehensive project plan.",
+     "self_check": true
+    },
+    {
+     "q": "**Assertion (A):** \"Every single-use plan operates within the framework of standing plans.\"  \n**Reason (R):** \"Standing plans like policies and procedures are formulated once and then repeatedly used to guide the formulation and execution of single-use plans.\"  \nChoose the correct option:  \n(a) Both A and R are true and R correctly explains A.  \n(b) Both A and R are true but R does not explain A.  \n(c) A is true but R is false.  \n(d) A is false but R is true.",
+     "a": "**Correct option: (a)**  \n**Justification:** NCERT explicitly states: \"Procedures are steps to be carried out within a broad policy framework.\" A programme (single-use) *includes* objectives, policies, procedures, rules, and budget. The standing plans (policies, procedures) exist *before* the programme and constrain/guide its creation. R is the *direct reason* for A.  \n**Wrong answer reveals:** Choosing (b) means the student sees both as true but misses the *hierarchical dependency* — they treat them as parallel rather than framework-content. Choosing (c) or (d) indicates fundamental confusion about which plan type is enduring and which is ephemeral.",
+     "self_check": true
+    },
+    {
+     "q": "**Create:** Design a **single-use plan** for a **one-time school event: \"Class 12 Farewell Party\"** and identify **three standing plans** from your school that will guide its execution. Present as a structured outline.",
+     "a": "**Expected answer (outline):**  \n**Single-use Plan: \"Project: Class 12 Farewell 2026\"**  \n1. Objective: Bid farewell to graduating batch on 30 Jan 2026, 4–7 PM, school auditorium.  \n2. Budget: ₹50,000 (venue decor ₹15k, food ₹20k, gifts ₹10k, contingency ₹5k).  \n3. Programme: Sequence of events (speeches, cultural, dinner, DJ).  \n4. Committees & responsibilities (decor, food, invitations, logistics).  \n5. Timeline: Milestones from 1 Jan to 30 Jan.  \n\n**Three Standing Plans guiding it:**  \n1. **School Event Policy** — \"All student events require Principal approval 2 weeks prior; max budget ₹50k without PTA consent.\"  \n2. **Procurement Procedure** — \"Quotations from 3 vendors for any expense >₹5,000; purchase order via school accountant.\"  \n3. **Student Conduct Rules** — \"No loud music after 10 PM; dress code: formals; alcohol/smoking prohibited.\"  \n\n**Poor answer reveals:** If the student lists \"budget\" as a standing plan, they confuse the *act of budgeting* (recurring) with a *specific budget* (single-use). If they cannot name real standing plans from their school, they haven't connected the concept to lived experience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

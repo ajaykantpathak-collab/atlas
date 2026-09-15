@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_002",
+   "title": "c7_math_ch03_002",
+   "questions": [
+    {
+     "q": "What fraction is represented by the decimal number $0.3$?",
+     "a": "The correct answer is $\\frac{3}{10}$. A student who answers $3$ or $\\frac{1}{3}$ does not understand that the first digit after the decimal point represents tenths (parts out of 10), confusing the place value position with a whole number or a numerator-denominator relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Why does shifting a digit one place to the right of the decimal point make its value 10 times smaller instead of 10 times larger?",
+     "a": "The correct answer is that each place value position to the right is obtained by dividing the previous place value by 10 (since a whole is divided into 10 parts to make tenths). A student who says it gets larger is confusing the whole number place value system (where moving left increases value) with decimal fractions, failing to recognize that moving right means splitting into smaller fractional parts.",
+     "self_check": true
+    },
+    {
+     "q": "A ribbon is 1 metre long and is divided into 10 equal parts. If Riya cuts off 7 of those parts, what decimal fraction of a metre does she have?",
+     "a": "The correct answer is $0.7$ metres. \nSteps:\n1. Identify total equal parts: 10 parts make 1 whole metre.\n2. Identify parts taken: Riya takes 7 parts, which as a fraction is $\\frac{7}{10}$.\n3. Convert the fraction to a decimal: $\\frac{7}{10}$ written in decimal form is $0.7$.\n4. Verify with units: $0.7$ metres means 7 tenths of a metre.\nA student who answers $7.0$ or $0.07$ has misplaced the decimal point or confused tenths with units or hundredths.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fraction $\\frac{4}{10}$ and the decimal $0.4$. Are they equal, and how do you know based on their place value meaning?",
+     "a": "They are equal. $\\frac{4}{10}$ means 4 parts out of 10 equal divisions of a whole, and $0.4$ places the digit 4 in the first position to the right of the decimal point, which is explicitly named the \"tenths\" place. A student who thinks they are different does not realize that decimals are simply an alternative notation for fractions with denominators that are powers of 10.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes that $1.5$ metres is equal to 1 metre and 5 centimeters because there are 5 digits. Is this reasoning correct? Explain why or why not.",
+     "a": "The reasoning is incorrect. $1.5$ metres means 1 whole metre and $5$ tenths of a metre ($\\frac{5}{10}$ of a metre), which is equal to $50$ centimetres, not $5$ centimetres. A student who agrees with the statement is confusing the tenths place ($0.1$ or $\\frac{1}{10}$) with the hundredths place or direct unit conversion units like centimetres ($\\frac{1}{100}$ of a metre).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario using Indian currency (Rupees and 10-paisa coins) to explain why the number $0.6$ represents six parts out of ten.",
+     "a": "A good answer should state that 1 Rupee can be thought of as divided into 10 equal 10-paisa coins. Taking 6 of those 10-paisa coins represents $\\frac{6}{10}$ of a Rupee, which is written as $0.6$ rupees. A poor answer fails to connect the denominator of 10 to a physical grouping of 10 equal items in real life.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_002",
+   "title": "c12_biotech_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define a genomic library and state the key difference between the DNA inserts in a genomic library versus a cDNA library.",
+     "a": "A genomic library is a collection of clones containing fragments of an organism's entire genomic DNA (coding + non-coding regions) inserted into vectors and propagated in host cells. The key difference: genomic library inserts contain introns, promoters, enhancers, and repetitive sequences because they come from genomic DNA, whereas cDNA library inserts lack introns and regulatory sequences because they are synthesized from processed mRNA via reverse transcriptase. A wrong answer (e.g., \"both contain only exons\") reveals the student confuses genomic DNA with transcribed mRNA and does not understand that genomic DNA includes non-transcribed regions.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"To make a genomic library, we cut genomic DNA with EcoRI, ligate into a plasmid vector, transform E. coli, and we're done.\" Identify two critical steps missing from this description that are essential for ensuring the library represents the *entire* genome.",
+     "a": "Missing steps: (1) Size selection of restriction fragments (e.g., by gel electrophoresis) to ensure inserts fall within the vector's cloning capacity — without this, fragments too large won't ligate and too small may not be represented. (2) Calculation of the number of independent clones needed for a given probability of containing any specific sequence (genome coverage formula: N = ln(1-P)/ln(1-f) where f = insert size/genome size) — without this, the library may statistically miss genes. A wrong answer focusing only on \"blue-white screening\" reveals confusion between *library construction* (representation) and *screening* (identification).",
+     "self_check": true
+    },
+    {
+     "q": "You are constructing a genomic library for a plant with a 500 Mb haploid genome. You choose a cosmid vector that accepts 40 kb inserts. Calculate the minimum number of independent recombinant clones required to have a 99% probability of containing any given single-copy genomic sequence. Show the formula and each substitution step.",
+     "a": "Formula: N = ln(1-P) / ln(1 - I/G) where P = 0.99, I = 40 kb = 40,000 bp, G = 500 Mb = 500,000,000 bp.\nStep 1: f = I/G = 40,000 / 500,000,000 = 8 × 10⁻⁵.\nStep 2: 1 - f = 1 - 8×10⁻⁵ = 0.99992.\nStep 3: ln(1-P) = ln(0.01) = -4.6052.\nStep 4: ln(1-f) = ln(0.99992) ≈ -8.0003×10⁻⁵.\nStep 5: N = (-4.6052) / (-8.0003×10⁻⁵) ≈ 57,560 clones.\nA wrong answer using N = G/I (6,250 clones) reveals the student used the \"naive coverage\" formula that gives only ~63% probability (1 - 1/e), not 99%.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the representation of a eukaryotic gene (with 3 exons and 2 introns) in a genomic library versus a cDNA library made from the same tissue where the gene is expressed. Draw the expected insert structure in each case and explain why the genomic library clone can be used for promoter studies but the cDNA library clone cannot.",
+     "a": "Genomic library insert: [Promoter] - [Exon1] - [Intron1] - [Exon2] - [Intron2] - [Exon3] - [Terminator] — continuous genomic sequence. cDNA library insert: [Exon1] - [Exon2] - [Exon3] — spliced coding sequence only, no promoter/introns. The genomic clone includes the native promoter and regulatory elements upstream of Exon1, enabling promoter analysis (e.g., reporter assays, transcription factor binding studies). The cDNA clone lacks these because reverse transcriptase starts from the poly-A tail and copies only the mature mRNA. A wrong answer claiming \"cDNA has the promoter because it's part of the gene\" reveals misunderstanding that promoters are DNA sequences upstream of the transcription start site, not part of the mature mRNA.",
+     "self_check": true
+    },
+    {
+     "q": "A research team constructs a genomic library using a plasmid vector (max insert 10 kb) for a 3 Gb mammalian genome. They obtain 50,000 independent clones. Evaluate whether this library is adequate for finding a single-copy gene. Justify your evaluation with a quantitative probability calculation.",
+     "a": "f = 10 kb / 3,000,000 kb = 3.33×10⁻⁶. P = 1 - (1 - f)ᴺ = 1 - (1 - 3.33×10⁻⁶)⁵⁰⁰⁰⁰ ≈ 1 - e⁻⁰·¹⁶⁶⁵ ≈ 0.153 (15.3%). The library has only ~15% probability of containing any given single-copy sequence — grossly inadequate. For 99% probability, N = ln(0.01)/ln(1-3.33×10⁻⁶) ≈ 1.38 million clones needed. A wrong answer saying \"50,000 clones is plenty because 50,000 × 10 kb = 500 Mb covered\" reveals the student ignores the randomness of fragmentation and the Lander-Waterman statistics; they treat coverage as deterministic rather than probabilistic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to construct a genomic library for a newly sequenced extremophile bacterium with a 4.2 Mb genome, where the goal is to express eukaryotic-like proteins in E. coli. Specify: (a) vector choice with justification, (b) restriction enzyme strategy to maximize representation of ORFs with native ribosome binding sites, and (c) one modification to the standard protocol to reduce cloning bias against AT-rich or GC-rich regions.",
+     "a": "(a) Vector: Cosmid (35-45 kb insert) or fosmid (40 kb, single-copy F-plasmid origin) — larger inserts reduce clone number needed (N ≈ 4.2 Mb/40 kb × ln(100) ≈ 480 clones for 99% coverage) and maintain stability in E. coli. (b) Use partial digestion with a 4-bp cutter (e.g., Sau3AI, ^GATC) instead of complete digestion with a 6-bp cutter — generates overlapping fragments of controlled size range (30-45 kb), preserving native promoter-RBS-ORF continuity better than complete digestion which may cut within genes. (c) Use PCR-free library prep with mechanical shearing (Covaris) + end-repair/A-tailing instead of restriction digestion — avoids sequence-specific bias of restriction enzymes against AT-rich or GC-rich regions where recognition sites are over/under-represented. A poor answer choosing \"plasmid vector with EcoRI complete digestion\" reveals ignorance of insert capacity limits, restriction site bias, and the need for native regulatory elements for expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_009",
+   "title": "c11_math_cbse_10_009",
+   "questions": [
+    {
+     "q": "Write the point-slope form of the equation of a line with slope \\(m\\) passing through the point \\((x_1, y_1)\\).",
+     "a": "The equation is \\(y - y_1 = m(x - x_1)\\). A wrong answer (e.g., \\(y = mx + c\\) or \\(y - y_1 = m(x + x_1)\\)) reveals that the student either confuses it with the slope-intercept form or misplaces the signs in the formula, indicating a lack of precise memorization of the standard form.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the point-slope form cannot be used for a vertical line. What is the equation of a vertical line passing through \\((3, -2)\\)?",
+     "a": "The point-slope form requires a defined slope \\(m\\). A vertical line has undefined slope (division by zero in the slope formula), so the form does not apply. The equation of a vertical line through \\((3, -2)\\) is \\(x = 3\\). A wrong answer indicates the student does not understand the limitation of the formula when the slope is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the line passing through \\((2, -3)\\) with slope \\(4\\). Write the answer in slope-intercept form.",
+     "a": "Using point-slope: \\(y - (-3) = 4(x - 2) \\Rightarrow y + 3 = 4x - 8 \\Rightarrow y = 4x - 11\\). A wrong answer (e.g., \\(y = 4x - 5\\)) reveals an algebraic error in distributing the slope or adding/subtracting the constant term.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines \\(L_1\\) and \\(L_2\\) pass through \\((1, 2)\\). \\(L_1\\) has slope \\(3\\), \\(L_2\\) has slope \\(-\\frac{1}{3}\\). Determine if they are perpendicular. Justify using the point-slope form.",
+     "a": "\\(L_1: y - 2 = 3(x - 1) \\Rightarrow y = 3x - 1\\). \\(L_2: y - 2 = -\\frac{1}{3}(x - 1) \\Rightarrow y = -\\frac{1}{3}x + \\frac{7}{3}\\). The product of slopes is \\(3 \\times (-\\frac{1}{3}) = -1\\), so they are perpendicular. A wrong answer may indicate the student does not connect the slope extracted from the point-slope form to the perpendicular condition \\(m_1 m_2 = -1\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation of the line through \\((4, 5)\\) with slope \\(-2\\) as \\(y - 5 = -2(x - 4)\\) and then simplifies to \\(y = -2x + 3\\). Is this correct? If not, find the error.",
+     "a": "The simplification is incorrect: \\(y - 5 = -2x + 8 \\Rightarrow y = -2x + 13\\). The student added 5 to 8 incorrectly (got 3 instead of 13). This reveals a sign error or arithmetic mistake when isolating \\(y\\), a common slip when negative slopes are involved.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (with Indian context) that requires using the point-slope form to find the equation of a line. Provide the solution.",
+     "a": "Example: A taxi charges a fixed fare of ₹50 for the first km and ₹15 per subsequent km. Write the equation for the total fare \\(y\\) (in ₹) as a function of distance \\(x\\) (in km) for \\(x \\ge 1\\), given that at \\(x=1\\), \\(y=50\\). The slope is 15, point \\((1,50)\\). Equation: \\(y - 50 = 15(x - 1) \\Rightarrow y = 15x + 35\\). A poor answer might not set up the correct point or slope, or might use \\(x=0\\) incorrectly, showing an inability to translate the word problem into the correct mathematical model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

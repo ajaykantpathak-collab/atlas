@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_009",
+   "title": "c11_biotech_cbse_10_009",
+   "questions": [
+    {
+     "q": "List the three main computational approaches for predicting protein function from sequence as described in the NCERT textbook, and name one specific tool/database for each approach.",
+     "a": "The three approaches are: (1) Homology-based inference using sequence similarity searches (tool: BLAST against UniProt/NCBI nr), (2) Domain/motif detection (tool: InterProScan or NCBI CDD), (3) Physico-chemical property analysis (tool: ProtParam on ExPASy). A wrong answer listing \"Ramachandran plot\" or \"Homology modelling\" reveals confusion between *structure* prediction (covered in nodes 10_004-10_006) and *function* prediction from sequence. A wrong answer listing \"PDB\" as a tool for sequence-based function prediction reveals misunderstanding that PDB stores 3D structures, not sequence analysis tools.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs BLAST on a query sequence and gets a hit with 35% identity over 80% length to a \"serine protease\" (E-value 1e-50). They conclude the query is definitely a serine protease. Explain why this conclusion might be premature, using the concept of conserved domains vs. full-length homology.",
+     "a": "35% identity is in the \"twilight zone\" where homology is probable but functional divergence (e.g., substrate specificity change, loss of catalytic residue) is common. The hit might share only the protease *domain* while the query has additional domains altering function. The student must check: (a) Are the catalytic triad residues (Ser, His, Asp) conserved in the alignment? (b) Does InterProScan show the same domain architecture? A wrong answer focusing only on E-value or % identity reveals the misconception that sequence similarity guarantees identical function, ignoring domain shuffling and neofunctionalization after gene duplication.",
+     "self_check": true
+    },
+    {
+     "q": "You have a hypothetical protein sequence of 210 amino acids. Design a step-by-step bioinformatics workflow (max 5 steps) to predict its function, specifying the tool/database used at each step and the decision criterion to proceed to the next step.",
+     "a": "Step 1: Run BLASTp against UniProtKB/Swiss-Prot (curated). If hit with >40% identity, >70% coverage, E-value <1e-10 → transfer function annotation; STOP. Step 2: If no high-confidence hit, run InterProScan. If known functional domain (e.g., PF00069 Protein kinase) detected → predict molecular function from domain; proceed to step 3 for context. Step 3: Run ProtParam. If pI > 9.5 and positive GRAVY → predict membrane association; if pI < 6 and nuclear localization signal predicted (via separate tool) → predict nuclear function. Step 4: Run secondary structure prediction (SOPMA/GOR). If transmembrane helices predicted → supports membrane protein hypothesis. Step 5: Integrate evidence: Write functional hypothesis with confidence level (High/Medium/Low) based on concordance. A wrong answer that runs ProtParam first or skips domain analysis reveals lack of strategic understanding of evidence hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reliability and scope of homology-based function transfer versus domain-based function prediction. Under what specific evolutionary scenario would domain-based prediction succeed where homology-based transfer fails?",
+     "a": "Homology-based transfer (full-length alignment) is high-reliability for *overall* function (including substrate specificity, regulation) but fails when sequence similarity drops below ~30% (twilight zone) or for multi-domain proteins where domains have shuffled. Domain-based prediction (local alignment to conserved domain) has broader scope (works at lower similarity) but lower resolution — it predicts molecular function (e.g., \"ATP binding\") not biological role (e.g., \"cell cycle regulation\"). Domain-based prediction succeeds in **domain shuffling** events: e.g., a novel protein fuses a kinase domain (detectable by InterPro) to a new regulatory domain. BLAST finds no full-length homolog, but InterPro detects the kinase domain, correctly predicting \"phosphotransferase activity\". A wrong answer stating \"domain prediction is always better\" reveals failure to understand that domains provide partial, context-free functional clues.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A protein with instability index >40 (from ProtParam) and GRAVY value >0.5 is likely a non-functional, aggregated misfolded protein in vivo.\"",
+     "a": "The statement is flawed. (1) Instability index >40 predicts *in vitro* instability in a test tube, not in vivo fate; many functional proteins are intrinsically disordered (high instability index) and fold upon binding. (2) GRAVY >0.5 indicates hydrophobicity, typical of membrane proteins or core domains, not necessarily aggregation. (3) In vivo, chaperones, degradation machinery, and compartmentalization handle such proteins. A functional transmembrane receptor would have high GRAVY and might have high instability index if its cytoplasmic domain is disordered. A wrong answer agreeing with the statement reveals the misconception that physico-chemical parameters are deterministic functional labels rather than probabilistic biophysical descriptors requiring biological context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (text description) for a biotech startup screening 5000 hypothetical proteins from a metagenomic dataset to prioritize 10 candidates for experimental characterization as novel industrial enzymes. Include specific tool thresholds and decision nodes.",
+     "a": "Flowchart: START → 5000 sequences → Filter 1: Remove fragments (<100 aa) → Filter 2: BLASTp vs UniProt; KEEP only \"No significant hit\" (E>0.001) OR hits to \"Uncharacterized protein\" → ~500 remain → Filter 3: InterProScan; KEEP only sequences with catalytic domain (e.g., hydrolase, oxidoreductase Pfam clans) but NO full-length characterized homolog → ~100 remain → Filter 4: ProtParam; KEEP pI 5-9 (soluble expression friendly), Instability <40 (stable), GRAVY <0 (non-membrane) → ~30 remain → Filter 5: Secondary structure (SOPMA); KEEP >30% alpha/beta (globular fold likely) → ~15 remain → Manual curation: Check genomic context (operon with substrate transporters?), taxonomic rarity → SELECT top 10. A poor answer using only BLAST or only pI cutoffs reveals inability to integrate orthogonal evidence types for decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

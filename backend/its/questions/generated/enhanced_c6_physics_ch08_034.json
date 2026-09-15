@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_034",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_034",
+   "title": "c6_physics_ch08_034",
+   "questions": [
+    {
+     "q": "What is the basic SI unit of time?\nAnswer: The second. \nWrong answer reveals: The student is confusing the SI unit of length (metre) with the SI unit of time, or is guessing based on common daily usage rather than scientific standards.",
+     "a": "The basic SI unit of time is the second. If a student answers \"hour\" or \"minute,\" they are confusing common usage with scientific standards, indicating they have not learned the foundation of the SI system.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 120 seconds, how many minutes do you have?\nAnswer: 2 minutes. \nWrong answer reveals: The student likely does not know the relationship \"60 seconds = 1 minute\" or is struggling with division/multiplication logic.",
+     "a": "You have 2 minutes. A wrong answer (like 1.2 or 1200) suggests the student is either guessing or does not understand that they must divide the total seconds by 60 to find the number of minutes.",
+     "self_check": true
+    },
+    {
+     "q": "A race lasts for 3 hours. How many minutes is this?\nAnswer: 180 minutes. \nWrong answer reveals: The student may be adding 60 instead of multiplying, showing a lack of understanding of multi-step unit conversion.",
+     "a": "1. Identify given: 3 hours. 2. Recall rule: 1 hour = 60 minutes. 3. Multiply: 3 × 60 = 180. The answer is 180 minutes. A wrong answer shows the student failed to multiply the duration by the conversion factor.",
+     "self_check": true
+    },
+    {
+     "q": "Which is a larger unit of time: a millennium or a century?\nAnswer: A millennium (1000 years) is larger than a century (100 years).\nWrong answer reveals: The student lacks knowledge of the hierarchy of time units, specifically the prefix meanings in historical terms.",
+     "a": "A millennium is larger because it represents 1000 years, while a century represents only 100 years. A wrong answer indicates the student is guessing without knowing the definition of these common time-scale terms.",
+     "self_check": true
+    },
+    {
+     "q": "Is it more appropriate to measure the time it takes to walk to school in seconds or hours?\nAnswer: It is more appropriate to measure in minutes (or parts of an hour).\nWrong answer reveals: The student does not understand the concept of \"convenient units,\" choosing units that are either too small (seconds) or too large (hours) for the context.",
+     "a": "**Correct Answer:** It is more appropriate to measure the time it takes to walk to school in minutes because the journey typically lasts longer than a few seconds but is much shorter than a full hour. Using minutes provides a convenient, manageable number that accurately reflects the duration of the trip.\n\n**Explanation:** A wrong answer reveals that the student struggles to apply the concept of \"scale\" or \"appropriate magnitude\" to real-world scenarios, as they are either picking units that result in an inconveniently large number (seconds) or an imprecise, fractional measurement (hours).",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where it would be necessary to use a millisecond.\nAnswer: Measuring the speed of a bullet or a computer processor's calculation time.\nWrong answer reveals: The student does not grasp that sub-second units are for extremely fast events, showing a lack of conceptual connection to real-world speed.",
+     "a": "**Correct Answer:** A millisecond is necessary for measuring events that happen too quickly for human perception, such as the timing of an Olympic sprinter’s reaction to the starting gun or the shutter speed of a high-speed camera. These tiny increments are vital when a fraction of a second determines the difference between success and failure.\n\n**A wrong answer reveals:** The student likely lacks a conceptual connection to the scale of time, failing to distinguish between \"human-paced\" events (measured in seconds or minutes) and \"high-speed\" events that require sub-second precision. This suggests they view time units as arbitrary labels rather than tools for measuring the specific velocity or duration of physical phenomena.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

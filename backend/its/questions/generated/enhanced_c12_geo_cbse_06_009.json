@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_009",
+   "title": "c12_geo_cbse_06_009",
+   "questions": [
+    {
+     "q": "Name two agricultural raw materials that are highly perishable and two that are non-perishable, and state why perishability matters for industrial location.",
+     "a": "Perishable: tomato, milk, fish, mango. Non-perishable: wheat, cotton, jute, tea leaves (dried). Perishability forces processing units to locate near production zones to minimise post-harvest losses and transport cost of high-moisture raw material; non-perishable raw materials allow greater locational flexibility (market-oriented or port-oriented). A wrong answer (e.g., listing wheat as perishable) reveals confusion between biological perishability and storability, leading to incorrect locational predictions.",
+     "self_check": true
+    },
+    {
+     "q": "A fruit-processing company wants to set up a mango pulp unit. It has two site options: (A) 10 km from mango orchards in Ratnagiri, Maharashtra, with poor road connectivity but ample water; (B) 200 km away in Pune with excellent highways, port access, and skilled labour. Using the concept of material index, which site is geographically more suitable for the *primary processing* stage (pulping) and why?",
+     "a": "Site A. Mango pulp production has a material index >1 (fresh mangoes ~85% water, pulp ~30% water; 3-4 kg mangoes yield 1 kg pulp). Transporting raw mangoes 200 km incurs high freight cost and spoilage risk. Primary processing (pulping, aseptic packaging) should be near the orchard; secondary processing (blending, bottling, branding) can shift to Pune. Choosing Site B for pulping shows failure to apply weight-loss logic and ignores perishability.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate material index for tomato paste production if 5.5 kg of fresh tomatoes (94% water) yield 1 kg of triple-concentrate paste (30% water). Show the calculation and interpret the locational implication.",
+     "a": "Material index = weight of raw material / weight of product = 5.5 / 1 = 5.5. Since index >> 1, the industry is strongly raw-material oriented. The plant must be located in tomato-growing belts (e.g., Krishnagiri, Chittoor, Nashik) to avoid transporting 4.5 kg of water per kg of product. A student who computes 1/5.5 = 0.18 inverts the ratio, misinterpreting the concept and wrongly suggesting a market-oriented location.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of a dairy plant (pasteurisation + UHT milk) with that of a craft brewery (malting, brewing, packaging) in the same state. Identify two shared factors and two divergent factors, explaining the geographical reason for each divergence.",
+     "a": "Shared: both need quality water, reliable power, effluent treatment, and access to urban market. Divergent: (1) Raw material perishability — milk spoils in 4-6 hours without chilling, so dairy must be within 50-80 km of milkshed; barley/malt for brewery is storable, so brewery can be near city. (2) Weight loss — milk to UHT milk has material index ~1.03 (minor water removal), so transport cost of raw vs finished is similar; brewery uses malt (light) and adds water locally, so it is market-oriented. Missing the perishability-time constraint for milk is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Pradhan Mantri Kisan Sampada Yojana (PMKSY) will automatically solve the problem of post-harvest losses in Indian horticulture.\" Assess the scheme's design against geographical realities of cluster development, cold-chain gaps, and smallholder fragmentation.",
+     "a": "PMKSY provides capital subsidy for mega food parks, cold chains, and processing units, but geographical effectiveness depends on (a) clustering — units must co-locate with production catchments, not just near highways; (b) last-mile cold chain — most schemes fund large hubs, not village-level pre-cooling; (c) farmer aggregation — without FPOs/FPCs, smallholders cannot meet consistent quality/volume for a 50-tonne/day plant. A student who calls it \"fully effective\" ignores spatial mismatch between infrastructure nodes and production geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a spatial plan for a medium-scale (20 MT/day) jackfruit processing unit in Kerala's Panruti belt. Specify: (a) core catchment radius, (b) three essential infrastructure components within that radius, (c) one forward linkage and one backward linkage to integrate with existing agricultural systems, and (d) a locational risk factor unique to jackfruit.",
+     "a": "(a) 30-40 km radius (jackfruit is bulky, 70-80% waste, highly perishable once cut). (b) Village-level collection centres with ripening chambers, mobile pre-cooling vans, and a 50 MT cold store at the factory gate. (c) Backward: contract farming with 200 farmers using GPS-mapped trees for harvest scheduling; Forward: tie-up with a Kochi-based exporter for frozen jackfruit chunks to Gulf markets. (d) Risk: extreme seasonality (March-June only) forces 8-month idle capacity — solution: multi-fruit line (mango, pineapple) to utilise plant year-round. A plan lacking seasonality mitigation or ignoring waste-disposal geography (rind/seeds) is incomplete.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

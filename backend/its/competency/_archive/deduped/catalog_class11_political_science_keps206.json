@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 206,
+  "chapter_title": "Judiciary",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps206.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps206.1.1",
+      "title": "Independence of the Judiciary",
+      "section": "1.1",
+      "definition": "Courts can protect rights and police the constitution only if judges cannot be punished for their verdicts. India secures judicial independence through security of tenure -- removal only by a hard parliamentary process for proven misbehaviour -- fixed salaries charged on the Consolidated Fund, insulation of judicial appointments, and a ban on practice after retirement.",
+      "formula": "",
+      "key_idea": "A judge who fears dismissal, salary cuts or post-retirement favour will not judge fearlessly -- independence is engineered by tenure, purse and appointment design.",
+      "textbook_ref": "keps206.txt lines 15-130 (independence of judiciary, appointment of judges, removal and impeachment, salaries, restrictions on practice after retirement)",
+      "question_patterns": [
+        "why should the judiciary be independent of the executive and legislature",
+        "in class 11 judiciary chapter: how is the independence of judges secured by the constitution",
+        "describe the process of removing a supreme court judge",
+        "why are judges barred from practising after retirement",
+        "what was the collegium system and why was it adopted",
+        "can a judge be removed merely because the government dislikes a judgement"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "secure the tenure", "explain": "A judge holds office till sixty-five (High Court sixty-two) and can be removed only by parliament on proved misbehaviour or incapacity with a special majority."},
+        {"step": 2, "action": "secure the purse", "explain": "Salaries are fixed and charged on the Consolidated Fund, so neither house can dock a judge's pay."},
+        {"step": 3, "action": "secure the appointments", "explain": "After the First Judges case line of rulings, consultations with the Chief Justice and the collegium dominate appointments, keeping the executive's role consultative."}
+      ]
+    },
+    {
+      "id": "keps206.1.2",
+      "title": "Structure of the Indian Judiciary: Single Integrated System",
+      "section": "1.2",
+      "definition": "India runs one unified judicial pyramid: the Supreme Court at the apex, High Courts for the states, and subordinate courts below, all applying the same law. Appeals climb from district courts through High Courts to the Supreme Court, so the last word on any legal question belongs to one apex court.",
+      "formula": "",
+      "key_idea": "One pyramid, one apex -- appeals climb a single ladder from district court to Supreme Court.",
+      "textbook_ref": "keps206.txt lines 130-240 (structure of the judiciary, supreme court, high courts, subordinate courts, single integrated judicial system, appeals)",
+      "question_patterns": [
+        "describe the structure of the indian judicial system",
+        "in class 11 judiciary chapter: why is the indian judiciary called a single integrated system",
+        "trace the appeal route from a district court to the supreme court",
+        "what is the jurisdiction of a high court",
+        "how does the supreme court supervise all courts below it",
+        "distinguish the original and appellate jurisdiction of the supreme court"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "map the tiers", "explain": "District and subordinate courts handle the bulk of cases; High Courts hear appeals and writs; the Supreme Court crowns the system."},
+        {"step": 2, "action": "trace the appellate ladder", "explain": "Appeals on facts and law climb tier by tier, with the Supreme Court's law of the land declared under Article 141 binding on all courts."},
+        {"step": 3, "action": "explain the integration", "explain": "Unlike systems with separate federal and state courts, India's judges enforce one law under one apex court -- the single integrated design."}
+      ]
+    },
+    {
+      "id": "keps206.1.3",
+      "title": "Judicial Review and Judicial Activism",
+      "section": "1.3",
+      "definition": "Under judicial review, courts test laws and executive acts against the Constitution and strike down what fails. When courts use this power expansively -- probing policy, enforcing directives through public interest litigation -- critics call it judicial activism, praising the rescue of rights or warning of judges legislating from the bench.",
+      "formula": "",
+      "key_idea": "Courts as guardians of the Constitution -- review checks power, activism stretches the guardianship into policy space.",
+      "textbook_ref": "keps206.txt lines 240-360 (judicial review, judicial activism, public interest litigation, evolution of pil, criticism and defence of activism)",
+      "question_patterns": [
+        "what is judicial review and on what basis do courts exercise it",
+        "in class 11 judiciary chapter: what is judicial activism and why is it criticised",
+        "how did public interest litigation change access to courts",
+        "give an example where the supreme court struck down a law",
+        "distinguish judicial review from judicial overreach",
+        "why is pil said to democratise the judicial process"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the review power", "explain": "Articles 13, 32 and 226 let courts void laws and executive acts inconsistent with fundamental rights and the Constitution."},
+        {"step": 2, "action": "trace the activist turn", "explain": "Relaxed locus standi in PIL let letters become petitions, opening courts to the poor on prisons, environment and rights."},
+        {"step": 3, "action": "weigh the debate", "explain": "Activism corrects Executive neglect but courts admit they cannot run administration -- the boundary is lived, not fixed."}
+      ]
+    },
+    {
+      "id": "keps206.1.4",
+      "title": "Courts and Rights: Guardian of Fundamental Rights",
+      "section": "1.4",
+      "definition": "The Supreme Court is the guarantor of fundamental rights: any citizen may move it directly under Article 32 when a right is violated, and High Courts offer the wider remedy under Article 226. Through writs like habeas corpus, mandamus and prohibition, courts command the state itself to obey the law.",
+      "formula": "",
+      "key_idea": "A right without a remedy is a wish -- Article 32 turns fundamental rights into enforceable claims against the state.",
+      "textbook_ref": "keps206.txt lines 360-470 (supreme court as guardian of fundamental rights, article 32, writs, habeas corpus mandamus prohibition certiorari quo warranto)",
+      "question_patterns": [
+        "how does the supreme court act as the guardian of fundamental rights",
+        "in class 11 judiciary chapter: name the writs issued by courts and their uses",
+        "what remedy does article 32 provide to a citizen",
+        "compare article 32 and article 226 remedies",
+        "when will a court issue a writ of habeas corpus",
+        "why is article 32 called the heart and soul of the constitution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "open the direct door", "explain": "Article 32 lets an aggrieved person reach the Supreme Court without exhausting lower courts."},
+        {"step": 2, "action": "match the writ to the wrong", "explain": "Habeas corpus frees unlawful detention, mandamus commands neglected duty, prohibition and certiorari correct tribunals, quo warranto tests office holders."},
+        {"step": 3, "action": "enforce against the state", "explain": "Court orders bind governments and officials; contempt proceedings back the writs with teeth."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps206.txt lines 15-130 (independence of judiciary)",
+      "concept": "keps206.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A government angered by an adverse ruling moves to cut a judge's salary and transfer him to a lower court. Explain why the Constitution blocks both moves.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "check the salary shield", "explain": "Judges' salaries are charged on the Consolidated Fund and cannot be varied to their disadvantage after appointment."},
+        {"step": 2, "action": "check the tenure shield", "explain": "A High Court judge can be removed only by presidential order after a parliamentary special majority for proved misbehaviour -- not by administrative transfer or displeasure."},
+        {"step": 3, "action": "draw the conclusion", "explain": "Both blocks show the Constitution insulating judges from retribution so verdicts can be fearless."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps206.txt lines 240-470 (judicial review, PIL, writs)",
+      "concept": "keps206.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Undertrial prisoners languish in jail beyond their lawful sentences, and no individual files a case. Explain how public interest litigation and Article 32 can bring relief.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "apply relaxed standing", "explain": "PIL allows any public-spirited person or group to petition on behalf of the voiceless undertrial -- no personal injury needed."},
+        {"step": 2, "action": "invoke the right", "explain": "Illegal detention beyond sentence violates personal liberty under Article 21, a fundamental right."},
+        {"step": 3, "action": "reach the remedy", "explain": "A writ of habeas corpus under Article 32 orders release or lawful process, and court supervision can reform the whole system."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps206.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Why is an independent judiciary considered essential for democracy?",
+        "Describe the safeguards that protect the independence of judges in India.",
+        "Explain the single integrated judicial system of India with its hierarchy of courts.",
+        "What is judicial review? How does it work as a check on the legislature and executive?",
+        "Discuss judicial activism and public interest litigation with examples.",
+        "Name the writs a citizen can seek under Articles 32 and 226 and match each to a situation."
+      ]
+    }
+  ]
+}

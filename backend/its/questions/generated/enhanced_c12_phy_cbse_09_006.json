@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_006",
+   "title": "c12_phy_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the thin lens formula and the magnification formula for a lens. Write the Cartesian sign convention rules for object distance (u), image distance (v), focal length (f), object height (h), and image height (h').",
+     "a": "Thin lens formula: \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\). Magnification: \\( m = \\frac{h'}{h} = \\frac{v}{u} \\). Sign convention: (1) All distances measured from optical centre. (2) Distances measured in the direction of incident light (left to right) are positive; opposite direction negative. (3) Heights measured upward perpendicular to principal axis are positive; downward negative. (4) For a convex lens, f > 0; for concave lens, f < 0. (5) Real object: u < 0; real image: v > 0; virtual image: v < 0. A wrong answer (e.g., using \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\) or mixing sign rules) reveals confusion between mirror and lens formulas or ignorance of the Cartesian convention.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the lens formula as \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\) and uses it for a convex lens with object at 30 cm (u = -30 cm) and f = 10 cm. They get v = 7.5 cm. Explain why the formula and sign usage are incorrect. What is the correct image distance and nature?",
+     "a": "The lens formula is \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\), not plus. With u = -30 cm, f = +10 cm: \\( \\frac{1}{v} = \\frac{1}{10} + \\frac{1}{-30} = \\frac{3-1}{30} = \\frac{2}{30} = \\frac{1}{15} \\), so v = +15 cm. The image is real (v positive), inverted, on the opposite side. The student's formula gives wrong sign for u term and thus wrong v. This error reveals they are using the mirror formula \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\) instead of the lens formula, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A convex lens of focal length 20 cm forms a real image of an object placed 30 cm from the lens. Calculate the image distance, magnification, and image height if the object height is 4 cm. State the nature of the image.",
+     "a": "Given: f = +20 cm, u = -30 cm, h = +4 cm (erect object). Using \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\): \\( \\frac{1}{v} = \\frac{1}{20} + \\frac{1}{-30} = \\frac{3-2}{60} = \\frac{1}{60} \\) → v = +60 cm. Magnification m = v/u = 60/(-30) = -2. Image height h' = m × h = -2 × 4 = -8 cm. Image is real (v>0), inverted (h' negative), magnified (|m|>1), located 60 cm on the opposite side. A wrong answer (e.g., v = 12 cm from using plus sign) indicates sign convention or algebraic error.",
+     "self_check": true
+    },
+    {
+     "q": "A concave lens of focal length -15 cm is used to view an object placed 10 cm from it. Without calculation, predict: (a) sign of image distance v, (b) sign of magnification m, (c) whether image is real or virtual, (d) whether image is magnified or diminished. Justify using the lens formula qualitatively.",
+     "a": "For concave lens, f < 0. Object is real: u < 0. Lens formula: \\( \\frac{1}{v} = \\frac{1}{f} + \\frac{1}{u} \\). Both terms on RHS are negative → \\( \\frac{1}{v} < 0 \\) → v < 0. So (a) v is negative. (b) m = v/u = (negative)/(negative) = positive. (c) v negative means virtual image (same side as object). (d) |v| < |u| because \\( \\frac{1}{|v|} = \\frac{1}{|f|} + \\frac{1}{|u|} > \\frac{1}{|u|} \\) → |v| < |u| → |m| = |v|/|u| < 1 → diminished. A student who says image is real or magnified has not internalised that concave lenses always produce virtual, erect, diminished images for real objects.",
+     "self_check": true
+    },
+    {
+     "q": "An optician prescribes a corrective lens of power -2.5 D. A student claims the focal length is -40 cm and the lens is convex. Evaluate this claim. If wrong, correct it and explain the error.",
+     "a": "Power P = -2.5 D. Focal length f = 1/P = 1/(-2.5) = -0.4 m = -40 cm. The focal length value is correct, but the lens is concave (diverging), not convex. Convex lenses have positive power (converging). The student incorrectly associated negative focal length with convex lens. This error reveals confusion between sign of focal length and lens type: f positive → convex; f negative → concave. In competitive exams, this sign trap appears frequently.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the thin lens formula. List the measurements you would take, the graph you would plot to determine focal length, and how you would use the slope/intercept.",
+     "a": "Fix the lens on a stand. Place the candle (object) at various distances u (e.g., 30, 40, 50, 60 cm) from the lens. For each u, move the screen to get a sharp real image; measure v. Record u and v in cm. Convert to metres. Plot \\( \\frac{1}{v} \\) vs \\( \\frac{1}{u} \\) (or \\( \\frac{1}{u} \\) vs \\( \\frac{1}{v} \\)). From formula \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\), a plot of \\( \\frac{1}{v} \\) (y-axis) vs \\( \\frac{1}{u} \\) (x-axis) gives slope +1 and y-intercept \\( \\frac{1}{f} \\). Alternatively, plot \\( \\frac{1}{u} + \\frac{1}{v} \\) vs something? Actually, \\( \\frac{1}{v} = \\frac{1}{u} + \\frac{1}{f} \\) → straight line with slope 1, intercept 1/f. A good answer shows understanding of linearizing the formula. A poor answer (e.g., plotting v vs u) indicates lack of algebraic manipulation skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

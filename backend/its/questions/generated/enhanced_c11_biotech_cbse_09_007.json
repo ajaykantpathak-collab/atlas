@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_007",
+   "title": "c11_biotech_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define the recurrence relation for the Needleman-Wunsch global alignment algorithm with linear gap penalty, specifying all variables and their meanings.",
+     "a": "The recurrence is: F(i,j) = max{ F(i-1,j-1) + s(x_i, y_j), F(i-1,j) - d, F(i,j-1) - d } where F(i,j) is the optimal score for aligning first i characters of sequence X with first j characters of sequence Y; s(x_i, y_j) is the substitution score for aligning character x_i with y_j (positive for match, negative for mismatch); d is the linear gap penalty (positive constant). Initialization: F(0,0)=0, F(i,0)=-i·d, F(0,j)=-j·d. A wrong answer revealing confusion between global and local alignment would omit negative initialization or include 0 in the max function. Another error: using affine gap notation (separate open/extend penalties) when the question specifies linear gap penalty.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a greedy approach (always choosing the best immediate option: match if possible, otherwise gap) fails to find the globally optimal alignment for sequences \"AGCT\" and \"AGT\" with match=+2, mismatch=-1, gap=-2.",
+     "a": "A greedy approach aligns \"AG\" perfectly (score +4), then faces \"CT\" vs \"T\". It would mismatch C-T (-1) then gap (-2) for total +1. But the optimal alignment is A-G-C-T aligned with A-G- -T (gap after G): matches A-A (+2), G-G (+2), gap (-2), T-T (+2) = +4. The greedy choice of matching C-T early prevents the better gap placement later. This shows greedy lacks optimal substructure — a locally optimal choice (match C-T) destroys the globally optimal structure. A student who says \"greedy works for simple cases\" misunderstands that the algorithm must guarantee optimality for ALL cases, not just some.",
+     "self_check": true
+    },
+    {
+     "q": "Given sequences X=\"GATTACA\" and Y=\"GCATGCU\" with scoring: match=+3, mismatch=-1, gap=-2. Calculate F(3,2) in the Needleman-Wunsch matrix showing all three candidate values. (Sequences are 1-indexed: X[1]=G, X[2]=A, X[3]=T; Y[1]=G, Y[2]=C)",
+     "a": "First compute needed prior cells:\nF(2,1): X[1..2]=\"GA\", Y[1]=\"G\". Candidates: diag F(1,0)+s(A,G)= -2 + (-1) = -3; up F(1,1)-2 = [F(0,0)+s(G,G)]-2 = (0+3)-2 = +1; left F(2,0)-2 = -4-2 = -6. Max = +1.\nF(2,2): X[1..2]=\"GA\", Y[1..2]=\"GC\". Diag: F(1,1)+s(A,C)=3+(-1)=2; Up: F(1,2)-2=[F(0,1)+s(G,C)]-2=[-2+(-1)]-2=-5; Left: F(2,1)-2=1-2=-1. Max=2.\nF(3,1): X[1..3]=\"GAT\", Y[1]=\"G\". Diag: F(2,0)+s(T,G)=-4+(-1)=-5; Up: F(2,1)-2=1-2=-1; Left: F(3,0)-2=-6-2=-8. Max=-1.\nNow F(3,2): X[3]=T, Y[2]=C (mismatch). Diag: F(2,1)+s(T,C)=1+(-1)=0; Up: F(2,2)-2=2-2=0; Left: F(3,1)-2=-1-2=-3. Max = 0 (from diagonal or up). A student forgetting to compute all dependencies or mis-indexing sequences would get wrong intermediate values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the traceback procedures for Needleman-Wunsch and Smith-Waterman algorithms. Specifically: (a) Where does traceback start in each? (b) When does traceback terminate in each? (c) How does this reflect the biological difference between global and local alignment?",
+     "a": "(a) Needleman-Wunsch starts at F(m,n) (bottom-right, full sequences); Smith-Waterman starts at the maximum value anywhere in the matrix. (b) Needleman-Wunsch terminates at F(0,0) (top-left); Smith-Waterman terminates when reaching a cell with value 0. (c) Global alignment forces alignment of entire sequences — biologically appropriate for comparing homologous genes of similar length. Local alignment finds the best matching subsequence — biologically appropriate for finding conserved domains in otherwise divergent proteins, or aligning a query against a large database. A student who says \"both start at bottom-right\" confuses the algorithms. Another who says \"Smith-Waterman stops at F(0,0)\" misses that local alignment can end anywhere.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since dynamic programming is O(mn) time and space, and we only need the final score, we can reduce space to O(min(m,n)) by keeping only two rows.\" Evaluate this claim for both global and local alignment, considering whether the optimal alignment itself can be recovered.",
+     "a": "The claim is partially correct but incomplete. For computing the SCORE only: yes, two rows suffice for both algorithms since F(i,j) depends only on row i-1 and current row i. Space reduces to O(min(m,n)) by making the shorter sequence the columns. However, to recover the ALIGNMENT (traceback), we need the full matrix or must use Hirschberg's algorithm (divide-and-conquer with forward/backward passes) which achieves O(mn) time and O(min(m,n)) space but doubles runtime. For local alignment, we also need to track the maximum score position during forward pass. A student who says \"yes, two rows work for everything\" ignores the traceback requirement. A student who says \"no, space cannot be reduced\" doesn't know the score-only optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel scoring scheme for aligning two DNA sequences where transitions (A↔G, C↔T) are penalized less than transversions (purine↔pyrimidine), and gaps in homopolymer runs (e.g., AAAAA) are penalized less than isolated gaps. Specify all parameters and explain how this would modify the standard dynamic programming recurrence.",
+     "a": "Scoring scheme: Match=+5; Transition mismatch=-1 (A↔G, C↔T); Transversion mismatch=-3 (A/C↔G/T); Gap open=-4; Gap extend=-1; Homopolymer gap extend=-0.5 (if gap continues in a run of identical bases). This requires affine gap penalty with context-dependent extension cost. Modified recurrence needs three matrices: M(i,j) for match/mismatch, Ix(i,j) for gap in X, Iy(i,j) for gap in Y. M(i,j) = max{ M(i-1,j-1), Ix(i-1,j-1), Iy(i-1,j-1) } + s(x_i,y_j). Ix(i,j) = max{ M(i-1,j) - gap_open, Ix(i-1,j) - gap_extend_context }. Context-dependent extension: if x_{i-1}=x_i=... (homopolymer), use -0.5 else -1. This captures biological reality that transitions are more common mutations and polymerase slippage in homopolymers creates indels more easily. A poor answer would just list parameters without modifying the recurrence structure, or would keep linear gap penalty.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

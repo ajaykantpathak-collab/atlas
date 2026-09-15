@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_009",
+   "title": "c10_chem_cbse_04_009",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the complete combustion of propane (C₃H₈). State the physical states of reactants and products at room temperature.",
+     "a": "C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l) + heat/light. A wrong answer (e.g., C₃H₈ + O₂ → CO₂ + H₂O unbalanced, or missing states) reveals the student cannot apply the stoichiometric pattern (x CO₂, y/2 H₂O) or recall that water is liquid at room temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ethylene (C₂H₄) burns with a yellow sooty flame while methane (CH₄) burns with a clean blue flame under the same air supply.",
+     "a": "Ethylene has a higher C:H ratio (2:4 = 1:2) than methane (1:4), so it requires more oxygen per carbon atom for complete combustion. With limited air, ethylene undergoes incomplete combustion producing glowing carbon particles (soot) that emit yellow light. Methane's lower carbon content allows complete combustion to CO₂ with the same air, giving a blue flame. A wrong answer (e.g., \"ethylene is unsaturated so it burns differently\") shows confusion between unsaturation and carbon-to-hydrogen ratio as the cause of soot.",
+     "self_check": true
+    },
+    {
+     "q": "2.2 g of propane (C₃H₈) is burnt completely in excess oxygen. Calculate the mass of carbon dioxide produced. (Molar masses: C=12, H=1, O=16 g/mol)",
+     "a": "Step 1: Molar mass C₃H₈ = 3×12 + 8×1 = 44 g/mol. Moles propane = 2.2/44 = 0.05 mol.\nStep 2: Balanced eqn: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 1 mol C₃H₈ gives 3 mol CO₂.\nStep 3: Moles CO₂ = 0.05 × 3 = 0.15 mol.\nStep 4: Molar mass CO₂ = 44 g/mol. Mass CO₂ = 0.15 × 44 = 6.6 g.\nA wrong answer (e.g., 2.2 g or 13.2 g) reveals error in mole ratio (using 1:1 instead of 1:3) or molar mass miscalculation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxygen requirement per gram of fuel for methane (CH₄) and butane (C₄H₁₀). Which fuel is more \"oxygen-efficient\" for complete combustion in a limited-air environment? Justify with calculations.",
+     "a": "CH₄: Molar mass 16 g/mol, needs 2 mol O₂ (64 g) per 16 g fuel → 4 g O₂/g fuel.\nC₄H₁₀: Molar mass 58 g/mol, needs 6.5 mol O₂ (208 g) per 58 g fuel → 3.59 g O₂/g fuel.\nButane requires less oxygen per gram, so it is more oxygen-efficient. A wrong answer (choosing methane) shows the student compared per mole instead of per gram, missing the practical context of limited air supply.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the combustion of ethanol as: C₂H₅OH + 2O₂ → 2CO₂ + 3H₂O. Evaluate this equation. Is it balanced? Is it chemically correct for complete combustion? If not, correct it.",
+     "a": "Atom count: LHS: C=2, H=6, O=1+4=5. RHS: C=2, H=6, O=4+3=7. Oxygen not balanced (5 vs 7). Correct equation: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O. The student forgot to count the oxygen atom already present in ethanol. A wrong evaluation (saying it's balanced) reveals inability to tally atoms on both sides when a reactant contains oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spirit lamp, a metal spoon, and a glass plate to demonstrate the products of incomplete combustion of ethanol. List observations and write the chemical equation for the incomplete combustion occurring.",
+     "a": "Hold a cold metal spoon in the yellow flame of a spirit lamp (ethanol) → black soot (carbon) deposits on spoon. Hold a cold glass plate above the flame → water vapour condenses as droplets. Equation: C₂H₅OH + O₂ → 2C + 3H₂O (or C₂H₅OH + O₂ → 2CO + 3H₂O). A poor answer (e.g., \"burn ethanol and see smoke\") lacks specific observations, controlled setup, or the balanced incomplete combustion equation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

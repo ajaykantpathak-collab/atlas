@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_011",
+   "title": "c12_phy_cbse_01_011",
+   "questions": [
+    {
+     "q": "State the definition of electric dipole moment **p** for two charges +q and –q separated by displacement vector **d** pointing from –q to +q. Give its SI unit.",
+     "a": "**p** = q **d** (vector from –q to +q). SI unit: coulomb-metre (C·m). A wrong answer like **p** = q **d** with **d** from +q to –q reveals confusion about the conventional direction of the dipole moment. Writing unit as C/m shows misunderstanding of the product of charge and distance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the electric field of a dipole falls off as 1/r³ at large distances, whereas a single point charge field falls as 1/r². Use the concept of superposition and the geometry of the dipole.",
+     "a": "At large r, the fields of +q and –q are nearly equal in magnitude and opposite in direction. Their vector sum cancels the leading 1/r² term, leaving the next term which varies as 1/r³. A student who says “because there are two charges” misses the cancellation mechanism. The correct explanation must mention that the dipole has zero net charge, so the monopole term vanishes.",
+     "self_check": true
+    },
+    {
+     "q": "A dipole consists of charges ±2.0 μC separated by 4.0 mm. Calculate the magnitude of the electric field at a point on the axial line 20 cm from the centre of the dipole. (Use 1/4πε₀ = 9×10⁹ N·m²/C²)",
+     "a": "Given: q = 2.0×10⁻⁶ C, 2a = 4.0×10⁻³ m → p = q·2a = 8.0×10⁻⁹ C·m. r = 0.20 m. E_axis = (1/4πε₀)(2p/r³) = (9×10⁹)(2×8.0×10⁻⁹)/(0.20)³ = (144)/(0.008) = 1.8×10⁴ N/C. A wrong answer using 1/r² (e.g., 9×10⁹×8×10⁻⁹/0.04 = 1.8×10³ N/C) indicates the student used the point-charge formula instead of the dipole formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the torque on a dipole of moment **p** = 5×10⁻⁹ C·m placed in a uniform field **E** = 2×10⁴ N/C when (a) **p** is parallel to **E**, (b) **p** is perpendicular to **E**, (c) **p** is anti-parallel to **E**. Which orientation corresponds to stable equilibrium?",
+     "a": "τ = pE sinθ. (a) θ=0° → τ=0 (stable equilibrium). (b) θ=90° → τ = (5×10⁻⁹)(2×10⁴) = 1×10⁻⁴ N·m (maximum). (c) θ=180° → τ=0 (unstable equilibrium). A student who says anti-parallel is also stable confuses zero torque with stability; the potential energy is maximum there.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives the equatorial field of a dipole as E = (1/4πε₀)(p/r³) directed along **p**. Identify the error and give the correct expression with direction.",
+     "a": "The error is the direction. On the equatorial plane, the fields of +q and –q have components along the axis that add up opposite to **p**. Correct: E_eq = –(1/4πε₀)(p/r³) **p̂** (i.e., magnitude (1/4πε₀)(p/r³) directed opposite to **p**). A student who only flips the sign without explaining the vector addition misses the geometric reason.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a charged rod, a light neutral object (e.g., a small piece of aluminium foil), and a stand to demonstrate that a neutral object experiences a net force in a non-uniform electric field due to induced dipole moment. Describe the steps and the expected observation.",
+     "a": "Steps: (1) Charge a plastic rod by rubbing with wool. (2) Suspend a small aluminium foil piece (∼1 cm²) from a stand by a thin thread. (3) Bring the charged rod near the foil without touching. Observation: The foil is attracted to the rod, swings toward it, and may stick momentarily. Reason: The rod’s non-uniform field induces a dipole in the foil (polarisation); the field is stronger at the near end, so the attractive force on the induced negative charge exceeds the repulsive force on the induced positive charge, producing a net attraction. A poor answer that says “the foil gets charged by induction and then attracts” confuses induction (charge separation) with charging by contact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

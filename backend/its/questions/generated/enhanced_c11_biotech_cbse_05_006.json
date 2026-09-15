@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_006",
+   "title": "c11_biotech_cbse_05_006",
+   "questions": [
+    {
+     "q": "A student claims: \"Meiosis II is exactly like mitosis because both separate sister chromatids.\" Is this statement correct? Justify your answer with two specific differences in the starting chromosome configuration.",
+     "a": "The statement is incorrect. Two key differences: (1) Meiosis II starts with haploid (n) chromosomes each composed of two sister chromatids, while mitosis starts with diploid (2n) chromosomes each composed of two sister chromatids; (2) The sister chromatids in Meiosis II are often non-identical due to crossing over in Prophase I, whereas in mitosis they are genetically identical (barring replication errors). A wrong answer reveals the student is focusing only on the mechanical separation event and ignoring the ploidy context and genetic consequences of prior recombination.",
+     "self_check": true
+    },
+    {
+     "q": "During Metaphase II of human spermatogenesis, a secondary spermatocyte contains 23 chromosomes. How many DNA molecules (chromatids) are present at this stage, and how many will be present in each spermatid after Telophase II? Explain the change.",
+     "a": "At Metaphase II: 23 chromosomes × 2 chromatids each = 46 DNA molecules. After Telophase II: each spermatid has 23 chromosomes × 1 chromatid each = 23 DNA molecules. The reduction from 46 to 23 DNA molecules occurs during Anaphase II when centromeres divide and sister chromatids separate. A wrong answer (e.g., saying 23 DNA molecules at Metaphase II) reveals confusion between chromosome number (counted by centromeres) and DNA content (counted by chromatids), a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "A cell in Prophase II has 14 chromosomes. The organism is diploid with 2n=28. Trace this cell back to the zygote: How many chromosomes did the zygote have? How many DNA molecules were present in the zygote's G1 phase vs. this Prophase II cell? Show your reasoning.",
+     "a": "Zygote: 2n=28 chromosomes (14 homologous pairs). G1 zygote: 28 DNA molecules (1 per chromosome). Prophase II cell: 14 chromosomes (haploid n=14), each with 2 chromatids = 28 DNA molecules. The DNA content is the same (28 molecules) but distributed differently: zygote has 28 unduplicated chromosomes, Prophase II has 14 duplicated chromosomes. A wrong answer reveals inability to track ploidy (n vs 2n) and DNA content (C-value) across meiotic divisions — a multi-step reasoning gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinetochore-microtubule attachment in Metaphase I vs. Metaphase II. In which stage do sister kinetochores attach to microtubules from opposite poles? In which stage do they attach to the same pole? How does this difference ensure reductional vs. equational division?",
+     "a": "Metaphase I: Sister kinetochores attach to microtubules from the SAME pole (co-orientation), so homologous chromosomes (each with two chromatids) are pulled apart — reductional. Metaphase II: Sister kinetochores attach to microtubules from OPPOSITE poles (bi-orientation), so sister chromatids separate — equational. This switch from co-orientation to bi-orientation is the mechanical basis for halving chromosome number in Meiosis I and maintaining it in Meiosis II. A wrong answer reveals the student memorizes \"homologs separate in I, sisters separate in II\" without understanding the kinetochore geometry that enforces it.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Interkinesis between Meiosis I and II is functionally equivalent to a G1 phase because no DNA replication occurs.\" Support or refute with three specific differences between interkinesis and a typical G1 phase.",
+     "a": "Refute. Three differences: (1) Interkinesis lacks a G1/S checkpoint — the cell is committed to Meiosis II regardless of size/nutrient signals; (2) Chromosomes in interkinesis are already condensed (or re-condense rapidly) and do not fully decondense to chromatin as in G1; (3) No transcriptional reactivation of bulk genome occurs in interkinesis — the meiotic program continues without a \"resting\" transcriptional state. A wrong answer (accepting the claim) reveals superficial understanding of cell cycle phases — confusing \"no DNA replication\" with \"functional equivalence.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using fluorescent tags to distinguish whether a given cell division is Meiosis II or mitosis. Specify: (a) What to label, (b) What pattern you would observe in each case, (c) Why this works even though both separate sister chromatids.",
+     "a": "(a) Label centromeres with a red fluorophore and chromosome arms with a green fluorophore that marks crossover regions (e.g., MLH1 foci). (b) Mitosis: All chromosomes show red centromeres with green arms in symmetrical pairs (identical sisters). Meiosis II: Some chromosomes show asymmetric green signals on sister chromatids (crossover recombinant chromatids). (c) Works because crossing over in Prophase I creates genetic asymmetry between sister chromatids in Meiosis II, while mitotic sisters remain identical. A poor answer (e.g., just \"label DNA\") reveals inability to design experiments that exploit the conceptual difference rather than the mechanical similarity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

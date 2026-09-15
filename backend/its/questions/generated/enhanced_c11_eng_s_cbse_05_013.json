@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_013",
+   "title": "c11_eng_s_cbse_05_013",
+   "questions": [
+    {
+     "q": "Define \"dramatic irony\" and identify the *first* instance in the poem where the reader knows more about the consequences of the King's justice than the King himself.",
+     "a": "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humour. The first instance is when the King proclaims the chief of builders will be hanged for the low arch (Stanza 3). The reader, knowing the King *rode* under the arch and lost his crown, anticipates the King's personal stake in the \"justice\" he dispenses, while the King initially treats it as an abstract administrative act. A wrong answer (e.g., citing the melon ending) reveals the student confuses situational irony (outcome vs expectation) with dramatic irony (knowledge gap) and cannot trace the irony's structural development from the start.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"wisest man\" advises hanging the arch, and what this reveals about the poem's critique of traditional authority/wisdom.",
+     "a": "The wisest man, defined solely by extreme age and physical incapacity (\"could not walk and could not see\"), applies literal, absurd logic: the arch \"banged\" the crown, so the arch is the culprit. This reveals the poem's satire on gerontocracy and the conflation of age with wisdom; true wisdom requires reason and context, not just longevity. A wrong answer (e.g., \"he was actually wise\" or \"he wanted to save the King\") shows the student misses the satirical characterization and takes the poem's internal logic at face value, failing to see the author's mockery of institutionalized \"wisdom.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"escalating absurdity\" to trace how the poem moves from an architectural error to a philosophical justification for laissez-faire governance. Identify the specific stanza where the shift from *legal procedure* to *mob appeasement* occurs.",
+     "a": "The shift occurs in the stanza beginning \"The King perceived their mood and trembled / And said to all who were assembled — / 'Let us postpone consideration / Of finer points like guilt. The nation / Wants a hanging.'\" (Stanza 11 in the provided text). Steps: 1) Identify the initial trigger: architectural flaw (arch too low). 2) Track the chain of blame-shifting: builders → workmen → masons → architect → King's amendments. 3) Note the \"wisest man\" verdict (hang the arch). 4) Observe the Councillor's objection (honour of the crown). 5) **Crucial pivot**: King prioritizes crowd's bloodlust over guilt (\"The nation wants a hanging\"). 6) Result: King himself fits the noose. 7) Ministers justify melon rule as \"customary choice\" and \"peace and liberty.\" A wrong answer identifying an earlier stanza shows the student confuses procedural escalation (blame game) with the philosophical surrender to mob rule.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the symbolism of the \"Melon\" as the final ruler. How does it function as a *reductio ad absurdum* of the \"just and placid\" King's governing philosophy?",
+     "a": "The melon symbolizes the ultimate logical conclusion of passive, procedure-obsessed governance: a ruler with zero agency, intellect, or moral compass — just a hollow symbol. The \"just and placid\" King's defining trait was adherence to process (blame-shifting, counsel-seeking, decree-following) over substance. The melon perfectly embodies this — it cannot *act* unjustly because it cannot act at all. The people's acceptance (\"If His Majesty rejoice / In being a melon, that's OK / With us, for who are we to say...\") completes the satire: a populace that values \"Peace and Liberty\" (defined as non-interference) over *just* governance gets exactly the ruler their philosophy deserves — a vegetable. A weak answer treats the melon as mere \"humour\" or \"randomness,\" missing the tight logical continuity from the King's placidity to the melon's inertia.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poem's final stanza: \"The principles of laissez faire / Seem to be well-established there.\" Is this a genuine endorsement of laissez-faire, a condemnation, or a complex irony? Defend your judgment with textual evidence.",
+     "a": "It is a **complex condemnation masked as neutral observation**. The phrase \"well-established\" sounds positive, but the context reveals horror: the \"peace and liberty\" celebrated by the people is the freedom *from* governance, earned by accepting a melon king. The poem traces a direct causal line: King's procedural \"justice\" → mob bloodlust → King's execution → random succession → melon rule → populace rationalizes it as \"custom.\" Laissez-faire here means *abdication of responsibility* by both ruler and ruled. Evidence: The King's \"justice\" was procedural, not moral; the crowd demands a hanging, not justice; the Ministers prioritize order (\"unruly town / Might well have turned against the Crown\") over legitimacy; the people's final speech (\"who are we to say / What he should be\") is the anthem of civic abdication. A wrong answer calling it \"endorsement\" ignores the satirical framing; calling it \"simple condemnation\" misses the irony that the *people* voice the philosophy, making it a societal self-indictment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line satirical verse in the style of Vikram Seth (rhyming couplets, iambic tetrameter feel) that applies the poem's logic to a modern Indian context (e.g., bureaucracy, education, traffic rules).",
+     "a": "*Example:*\nThe Minister declared the road must widen,\nTo ease the traffic jam confidin'.\nThe contractor stole the sand and cement,\n\"The engineer's design was misrepresent!\"\nThey hanged the clerk who filed the paper,\nThe pothole remains the city's shaper.\n*Criteria for good answer:* 1) Rhyming couplets (AABB or similar). 2) Iambic rhythm (da-DUM da-DUM...). 3) Clear chain of blame-shifting (Minister → Contractor → Engineer → Clerk). 4) Absurdist punishment (hanging for paperwork). 5) Final image of systemic failure persisting (pothole remains). A poor answer writes free verse, lacks the blame-chain, or misses the satirical tone (just complains).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

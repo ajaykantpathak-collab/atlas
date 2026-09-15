@@ -1,0 +1,36 @@
+{
+ "catalog": "enhanced_c7_math_ch06_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_004",
+   "title": "c7_math_ch06_004",
+   "questions": [
+    {
+     "q": "A square grid of tiles has 5 rows and 5 columns. How many total tiles are in the grid?",
+     "a": "The total number of tiles is $5 \\times 5 = 25$. A wrong answer often shows the student added the rows and columns ($5 + 5 = 10$) instead of multiplying them to find the area of the 2D array, confusing linear addition with grid multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "If an array has $r$ rows and $c$ columns, and each cell contains 2 counters, why is the total number of counters expressed as $2 \\times r \\times c$ instead of $r + c + 2$?",
+     "a": "The correct expression is $2rc$ because each of the $r \\times c$ cells in the grid contains 2 counters, meaning we multiply the total number of cells by 2. A student who chooses $r + c + 2$ is confusing multiplication with addition or failing to account for how every single grid cell holds multiple items.",
+     "self_check": true
+    },
+    {
+     "q": "Study a grid where row 1 has 1 star, row 2 has 3 stars, row 3 has 5 stars, and row 4 has 7 stars. What pattern do the cumulative sums of stars form as you add each new row?",
+     "a": "The cumulative sums are $1, 4, 9, 16$, which form the square numbers ($1^2, 2^2, 3^2, 4^2$). A wrong answer suggests the student calculated running sums incorrectly or failed to recognize that adding consecutive odd numbers always results in a square number.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for any $n \\times n$ square dot grid, the total number of dots inside the border is always equal to $(n-2)^2$. Is this statement correct for a $4 \\times 4$ grid, and why?",
+     "a": "Yes, it is correct. For a $4 \\times 4$ grid, the interior dots form a smaller square of $(4-2) \\times (4-2) = 2 \\times 2 = 4$ dots, which matches $(4-2)^2 = 4$. A wrong answer shows the student included the boundary dots or subtracted incorrectly inside the squaring operation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a number pattern using a $3 \\times 3$ grid of numbers where each row and column adds up to 15, and write down the algebraic rule for the center number if the top-left corner is $x$.",
+     "a": "The center number in a standard $3 \\times 3$ magic square with sum 15 is always 5, regardless of the top-left corner $x$, because the center is one-third of the magic constant (45 / 3 = 15 total across lines, center is average). A poor answer treats the grid as random without recognizing the invariant properties of magic squares.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

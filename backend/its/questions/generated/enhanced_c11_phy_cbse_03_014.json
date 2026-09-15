@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_014",
+   "title": "c11_phy_cbse_03_014",
+   "questions": [
+    {
+     "q": "State the formula for centripetal acceleration in terms of linear speed \\(v\\) and radius \\(R\\), and give its SI unit.",
+     "a": "\\(a_c = \\frac{v^2}{R}\\); SI unit is m/s². A wrong answer (e.g., \\(a_c = vR\\) or unit m/s) reveals confusion between acceleration and velocity, or failure to square the speed.",
+     "self_check": true
+    },
+    {
+     "q": "In uniform circular motion, the speed is constant. Why is there still an acceleration? Explain using the vector nature of velocity.",
+     "a": "Velocity is a vector; its direction changes continuously along the circular path. Acceleration is the rate of change of velocity, so a change in direction alone produces acceleration directed toward the centre. A wrong answer (e.g., \"no acceleration because speed is constant\") reveals the misconception that acceleration only occurs when speed changes.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves in a circle of radius 0.5 m with a constant speed of 4 m/s. Calculate its centripetal acceleration and angular speed.",
+     "a": "Given: \\(R = 0.5\\ \\text{m}\\), \\(v = 4\\ \\text{m/s}\\).\nStep 1: \\(a_c = \\frac{v^2}{R} = \\frac{16}{0.5} = 32\\ \\text{m/s}^2\\).\nStep 2: \\(\\omega = \\frac{v}{R} = \\frac{4}{0.5} = 8\\ \\text{rad/s}\\).\nAnswer: \\(a_c = 32\\ \\text{m/s}^2\\), \\(\\omega = 8\\ \\text{rad/s}\\). A wrong answer (e.g., using \\(v/R\\) for acceleration) reveals formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Two particles A and B move in uniform circular motion. Particle A has radius \\(R\\) and speed \\(v\\). Particle B has radius \\(2R\\) and speed \\(2v\\). Compare their centripetal accelerations.",
+     "a": "\\(a_{c,A} = \\frac{v^2}{R}\\); \\(a_{c,B} = \\frac{(2v)^2}{2R} = \\frac{4v^2}{2R} = 2\\frac{v^2}{R} = 2a_{c,A}\\). Particle B has twice the centripetal acceleration. A wrong answer (e.g., \"same\" or \"four times\") reveals inability to handle combined scaling of \\(v\\) and \\(R\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In uniform circular motion, the acceleration vector is constant because its magnitude \\(v^2/R\\) is constant.\" Evaluate this statement.",
+     "a": "The statement is false. Although the magnitude of centripetal acceleration is constant, its direction continuously changes — always pointing toward the centre. A vector is constant only if both magnitude and direction are constant. A wrong evaluation (e.g., \"true\") reveals confusion between scalar constancy and vector constancy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a conical pendulum (a bob on a string moving in a horizontal circle) to verify that centripetal acceleration is proportional to the square of the angular speed. Describe the measurements needed and the graph to plot.",
+     "a": "Measure the period \\(T\\) for different string lengths \\(L\\) (or different radii \\(R\\)) by timing 20 revolutions. Compute \\(\\omega = 2\\pi/T\\) and \\(a_c = \\omega^2 R\\) (using geometry to find \\(R = L \\sin\\theta\\)). Plot \\(a_c\\) vs \\(\\omega^2\\); the slope should equal \\(R\\). A poor answer (e.g., \"measure speed with a stopwatch\") reveals lack of understanding of how to isolate variables and use graphical verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

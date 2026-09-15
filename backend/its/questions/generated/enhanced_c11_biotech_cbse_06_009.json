@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_009",
+   "title": "c11_biotech_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the sex chromosome constitution of males and females in the XX-XY and XO sex determination systems.",
+     "a": "In XX-XY: female = XX, male = XY. In XO: female = XX, male = XO (only one X, no Y). A wrong answer (e.g., saying XO males are XY or that females are XO) reveals the student has not distinguished the two systems and is likely memorising human-only pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why both XX-XY and XO systems produce a 1:1 sex ratio in the offspring despite the male having different chromosome constitutions (XY vs XO).",
+     "a": "In both systems the male is heterogametic and produces two types of gametes in equal proportions: XX-XY males produce X and Y sperm; XO males produce X sperm and sperm lacking a sex chromosome (null). The female is homogametic (XX) and produces only X eggs. Random fertilisation yields 50% XX (female) and 50% XY or XO (male). If a student says \"because males have Y chromosome\", they miss that XO males lack Y yet still produce 1:1 ratio — the key is heterogamety, not the Y itself.",
+     "self_check": true
+    },
+    {
+     "q": "A geneticist crosses a female grasshopper (XO system) with a male grasshopper. She observes that 50% of the offspring are male and 50% female. Draw the Punnett square for this cross and label the sex chromosome constitution of each offspring.",
+     "a": "Female parent (XX) produces only X eggs. Male parent (XO) produces X sperm and null (O) sperm. Punnett square: rows = X, O; columns = X. Offspring: XX (female) and XO (male) in 1:1 ratio. A wrong answer showing XY males or missing the null gamete indicates the student is applying the human XX-XY model to the XO system without adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chromosomal basis of sex determination in Drosophila (XX-XY) and grasshopper (XO). Specifically, analyse whether the presence of a Y chromosome is necessary for male development in both organisms.",
+     "a": "In Drosophila, the Y chromosome is required for fertility but not for male sex determination; male development is triggered by the X:A chromosome ratio (one X : two sets of autosomes). In grasshoppers (XO), there is no Y chromosome at all; maleness is determined by the presence of a single X chromosome (XO) versus two X chromosomes (XX). A student who claims Y chromosome determines maleness in both has oversimplified from human biology and ignored the XO system's lack of Y.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the XO sex determination system, the male determines the sex of the offspring because he contributes either an X chromosome or no sex chromosome, while the female always contributes an X.\" Is this statement accurate? Justify your answer with reference to the concept of heterogamety.",
+     "a": "The statement is accurate. In XO systems, the male is heterogametic (produces two gamete types: X and O) and the female is homogametic (produces only X). The sex of the zygote depends on which male gamete fertilises the egg: X sperm → XX female; O sperm → XO male. Thus the male's gamete determines the sex. A student who disagrees may think the female determines sex because she provides the only X, confusing chromosome contribution with determination logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario: a newly discovered insect species shows a 1:1 sex ratio. Cytological analysis reveals females have two identical sex chromosomes and males have only one sex chromosome. Propose the sex determination system, name the type of gametes produced by each sex, and predict the outcome if an XX female is crossed with an XO male.",
+     "a": "The system is XO. Female (XX) produces only X eggs. Male (XO) produces X sperm and O sperm. Cross: XX × XO → 1 XX (female) : 1 XO (male). A poor answer would propose XX-XY system or fail to mention the null gamete, showing inability to synthesise a new example from the learned pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_007",
+   "title": "c10_math_cbse_05_007",
+   "questions": [
+    {
+     "q": "Write the formula for the sum of the first \\(n\\) terms of an AP with first term \\(a\\) and common difference \\(d\\). Also write the alternative formula using the last term \\(l\\).",
+     "a": "The two formulas are \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\) and \\(S_n = \\frac{n}{2}(a + l)\\) where \\(l = a + (n-1)d\\). A wrong answer (e.g., writing \\(S_n = n[2a + (n-1)d]\\) missing the factor \\(\\frac{1}{2}\\), or confusing \\(l\\) with \\(d\\)) reveals that the student has memorised the formula incorrectly or does not understand the role of the number of terms \\(n\\) and the pairing concept.",
+     "self_check": true
+    },
+    {
+     "q": "In the formula \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\), explain why the expression inside the brackets is \\(2a + (n-1)d\\) and not \\(a + (n-1)d\\). What does \\(2a + (n-1)d\\) represent?",
+     "a": "The expression \\(2a + (n-1)d\\) equals \\(a + [a + (n-1)d] = a + l\\), which is the sum of the first and last terms. The formula multiplies this sum by the number of pairs \\(\\frac{n}{2}\\). Writing \\(a + (n-1)d\\) alone would give only the last term \\(l\\), not the sum of a pair. A wrong explanation indicates the student does not connect the formula to the pairing derivation and treats it as a black box.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP: 7, 12, 17, 22, ...",
+     "a": "Given AP: 7, 12, 17, 22, ...\nStep 1: Identify \\(a = 7\\), \\(d = 12 - 7 = 5\\), \\(n = 15\\).\nStep 2: Use \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\).\nStep 3: Substitute: \\(S_{15} = \\frac{15}{2}[2(7) + (15-1)5]\\).\nStep 4: Simplify inside bracket: \\(2(7) = 14\\), \\((14) \\times 5 = 70\\), so \\(14 + 70 = 84\\).\nStep 5: \\(S_{15} = \\frac{15}{2} \\times 84 = 15 \\times 42 = 630\\).\nAnswer: 630.\nA wrong answer (e.g., 615 or 645) usually comes from miscalculating \\(2a\\) as \\(a\\) (using 7 instead of 14), or using \\(n=14\\) instead of 15, or arithmetic error in multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "An AP has first term 3 and common difference 4. Another AP has first term 5 and common difference 2. For which value of \\(n\\) will the sum of the first \\(n\\) terms of both APs be equal? Set up the equation but do not solve.",
+     "a": "For first AP: \\(a_1=3, d_1=4 \\Rightarrow S_n^{(1)} = \\frac{n}{2}[2(3) + (n-1)4] = \\frac{n}{2}[6 + 4n - 4] = \\frac{n}{2}(4n+2) = n(2n+1)\\).\nFor second AP: \\(a_2=5, d_2=2 \\Rightarrow S_n^{(2)} = \\frac{n}{2}[2(5) + (n-1)2] = \\frac{n}{2}[10 + 2n - 2] = \\frac{n}{2}(2n+8) = n(n+4)\\).\nEquate: \\(n(2n+1) = n(n+4)\\). Since \\(n>0\\), divide by \\(n\\): \\(2n+1 = n+4\\).\nA wrong equation (e.g., forgetting the factor \\(\\frac{n}{2}\\) in one sum, or using \\(a\\) instead of \\(2a\\)) shows the student cannot translate the condition into algebraic expressions correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find the sum of the first 20 terms of the AP: -5, -2, 1, 4, ...\"\nTheir working: \\(a = -5, d = 3, n = 20\\). \\(S_{20} = \\frac{20}{2}[2(-5) + (20-1)3] = 10[-10 + 57] = 10 \\times 47 = 470\\).\nIs the answer correct? If not, identify the exact step where the error occurred and give the correct sum.",
+     "a": "The answer is incorrect. The error is in the bracket calculation: \\((20-1)3 = 19 \\times 3 = 57\\), and \\(2(-5) = -10\\), so \\(-10 + 57 = 47\\) is correct. However, the student wrote \\(S_{20} = \\frac{20}{2} = 10\\) correctly, but then multiplied \\(10 \\times 47 = 470\\). The correct sum is 470? Wait, let's recompute: \\(2(-5) = -10\\), \\((19)(3)=57\\), sum = 47, times 10 = 470. Actually the student's answer 470 is correct! But the question asks \"Is the answer correct?\" and to identify error. Let's change the student's working to have an error.\nBetter: Student wrote: \\(S_{20} = 20[2(-5) + 19(3)] = 20[-10+57] = 20 \\times 47 = 940\\). Error: forgot to divide by 2. Correct sum = 470.\nLet's use that.\nCorrect evaluation: The student forgot the factor \\(\\frac{1}{2}\\) in the formula, using \\(S_n = n[2a+(n-1)d]\\) instead of \\(\\frac{n}{2}[2a+(n-1)d]\\). The correct sum is 470. This reveals the common misconception of omitting the division by 2.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in Indian context) that can be solved by finding the sum of the first \\(n\\) terms of an AP. Your problem must require the use of the formula \\(S_n = \\frac{n}{2}(a+l)\\) (i.e., the last term is easier to find or given). State the problem clearly and solve it.",
+     "a": "Example problem: A construction company penalises ₹4000 for the first day of delay, ₹5000 for the second day, ₹6000 for the third day, and so on, increasing by ₹1000 each day. If the project is delayed by 10 days, find the total penalty.\nSolution: \\(a = 4000, d = 1000, n = 10\\). Last term \\(l = a + (n-1)d = 4000 + 9 \\times 1000 = 13000\\). Sum \\(S_{10} = \\frac{10}{2}(4000 + 13000) = 5 \\times 17000 = ₹85,000\\).\nA poor answer would be a problem that doesn't form an AP, or uses the wrong formula, or has inconsistent numbers. It shows the student cannot model a real situation as an AP or choose the convenient formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

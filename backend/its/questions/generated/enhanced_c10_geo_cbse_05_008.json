@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_008",
+   "title": "c10_geo_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.",
+     "a": "Correct answer: Minerals like haematite and bauxite form through extremely slow geological processes (millions of years) involving concentration of elements in the Earth's crust; their rate of formation is negligible compared to the rate of human extraction, making them non-renewable on human timescales. A wrong answer (e.g., \"they are deep underground\" or \"we use them fast\") reveals the student confuses accessibility or consumption rate with the fundamental geological timescale of formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why recycling metals (like aluminium from bauxite) is a more effective conservation method for minerals than simply reducing consumption, using the concept of energy savings in the extraction process.",
+     "a": "Correct answer: Recycling aluminium saves up to 95% of the energy required to extract new aluminium from bauxite ore (which involves energy-intensive electrolysis), thereby conserving both the mineral ore and the fossil fuel energy used in extraction. A wrong answer that only says \"recycling saves resources\" without linking to the energy-mineral nexus shows the student misses the dual conservation benefit critical in board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Singrauli (Madhya Pradesh) burns 10,000 tonnes of coal per day. If the coal has a calorific value of 4,000 kcal/kg and the plant operates at 35% thermal efficiency, calculate the useful electrical energy output per day in kcal. Then explain how improving efficiency to 40% conserves coal.",
+     "a": "Step 1: Total energy input = 10,000 tonnes × 1,000 kg/tonne × 4,000 kcal/kg = 4 × 10¹⁰ kcal.\nStep 2: Useful output at 35% = 0.35 × 4 × 10¹⁰ = 1.4 × 10¹⁰ kcal.\nStep 3: At 40% efficiency, same output requires input = (1.4 × 10¹⁰) / 0.40 = 3.5 × 10¹⁰ kcal.\nStep 4: Coal saved = (4 × 10¹⁰ - 3.5 × 10¹⁰) / 4,000 kcal/kg = 1.25 × 10⁶ kg = 1,250 tonnes/day.\nA wrong calculation (e.g., forgetting to convert tonnes to kg or misapplying efficiency) reveals the student cannot quantify conservation — a skill needed for competency-based questions on resource management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation challenge of petroleum in India (largely imported) with that of iron ore (largely domestically produced). Analyze how the difference in source affects the conservation strategy India should prioritize for each.",
+     "a": "Correct answer: Petroleum conservation must focus on reducing import dependence through fuel efficiency, public transport, and switching to renewables (energy security angle), while iron ore conservation must focus on scientific mining, reducing export of low-grade ore, and domestic steel recycling (resource longevity angle). A wrong answer treating both identically (e.g., just \"use less\") shows the student cannot analyze how geographical distribution (import vs domestic) shapes policy — a key board exam analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Promoting solar energy in Rajasthan's Thar Desert is the single most effective way to conserve India's coal reserves.\" Consider land use, grid integration, and the role of coal in baseload power.",
+     "a": "Correct answer: While solar in Thar reduces daytime coal use, it is not the *single most effective* way because: (1) solar is intermittent, requiring coal/gas for baseload/night; (2) transmission losses from remote deserts; (3) coal is also used in steel/cement (non-substitutable by solar). A balanced strategy includes solar + wind + hydro + efficiency + coal plant efficiency upgrades. A wrong answer agreeing fully reveals the student oversimplifies energy systems — a common trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point \"Mineral Conservation Action Plan\" for your school that addresses both metallic (e.g., steel in furniture) and non-metallic (e.g., limestone in cement) minerals, incorporating recycling, substitution, and behavioral changes. Justify each point geographically.",
+     "a": "Expected answer criteria: (1) Separate metal waste bins for recycling (links to scrap recovery reducing iron ore mining); (2) Use bamboo/wood alternatives for new furniture (substitution reducing steel demand); (3) Repair instead of replace metal items (extends product life, reduces extraction); (4) Advocate for fly-ash bricks in school construction (substitutes limestone-based cement); (5) Energy audit to cut electricity use (indirectly conserves coal used in power generation). A poor answer lists generic \"save electricity\" without linking to specific mineral conservation chains shows inability to connect human actions to geological resource depletion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

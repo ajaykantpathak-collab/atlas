@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_7",
+   "title": "c9_hist_ch2_7",
+   "questions": [
+    {
+     "q": "What is the standard ratio of length:breadth:height for Harappan baked bricks, and at which major site was this ratio first systematically documented?",
+     "a": "The standard ratio is 4:2:1 (e.g., 28 cm × 14 cm × 7 cm), first systematically documented at Mohenjo-daro. A wrong answer (e.g., 3:2:1 or \"varied by city\") reveals the student memorized a fact without understanding the civilization-wide standardization that implies central regulation of production — a core concept for board-level analysis of state control.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Harappan cities consistently orient their main streets along cardinal directions (north-south, east-west) rather than following terrain?",
+     "a": "Cardinal orientation optimized wind circulation for ventilation, aligned drainage gradients for gravity flow, and may have reflected cosmological/astronomical knowledge. A wrong answer like \"it was easier to build\" or \"they copied Mesopotamia\" shows the student treats planning as arbitrary convenience rather than a deliberate multi-functional system integrating climate, sanitation, and possibly ritual — missing the analytical depth required for \"analyze\" level.",
+     "self_check": true
+    },
+    {
+     "q": "A newly excavated Harappan site shows a citadel mound but no grid streets in the lower town — instead, lanes curve organically. Using the principle of \"civic uniformity,\" evaluate whether this site fits the mature Harappan urban model.",
+     "a": "It does not fit the mature Harappan model. Mature phase (2600–1900 BCE) sites across 1.5 million sq km show mandatory grid planning; organic lanes suggest either an early/pre-urban phase (like Kot Diji) or a regional variant without central oversight. A wrong answer accepting it as \"local variation\" misses that uniformity is the defining diagnostic of the mature phase — a board-exam distinction between mature Harappan and earlier/local cultures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drainage systems of Mohenjo-daro and Dholavira. What does the difference in construction material (baked brick vs. stone) reveal about Harappan urban planning?",
+     "a": "Mohenjo-daro used baked bricks; Dholavira used locally quarried stone with precisely cut channels. Both achieve the same functional standard (covered, gradient-maintained, inspection manholes). This reveals planning principles were portable and adaptable to local resources — the *design logic* (gradient, coverage, access) was standardized, not just the materials. A wrong answer focusing only on material difference (\"one used brick, one stone\") fails to analyze the underlying uniform engineering philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Some historians argue the \"citadel\" was a religious center, others a administrative elite residence. Using only urban planning evidence (layout, access, associated structures), which interpretation is better supported and why?",
+     "a": "Administrative elite residence is better supported. Citadels are physically separated (walled, raised), contain large non-residential structures (granaries, assembly halls), and control access to lower towns — consistent with governance. The Great Bath is the only clearly ritual structure, but it is singular per city. A wrong answer choosing \"religious center\" based solely on the Great Bath ignores the citadel's overall spatial dominance and secular infrastructure (granaries), showing inability to weigh multiple lines of archaeological evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point checklist an archaeologist would use to confirm a newly discovered site belongs to the *mature* Harappan urban phase (not early or late). Each point must be a planning feature, not an artifact type.",
+     "a": "1) Citadel on raised western mound with fortification wall. 2) Lower town laid out on cardinal grid with streets ≥ 9 m wide. 3) Covered drainage with inspection chambers at regular intervals. 4) Uniform baked-brick ratio 4:2:1 in all major structures. 5) Presence of at least one large public infrastructure (Great Bath, granary, or reservoir complex). A poor answer lists artifacts (seals, pottery) or omits the grid/drainage/brick triad, showing the student cannot distinguish urban planning diagnostics from cultural material — a critical board-exam skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

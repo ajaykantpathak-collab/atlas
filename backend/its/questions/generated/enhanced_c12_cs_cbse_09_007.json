@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_007",
+   "title": "c12_cs_cbse_09_007",
+   "questions": [
+    {
+     "q": "What is the exact output of the following code snippet?\n```python\ndef demo():\n    print(\"Inside function\")\n    return 42\n\nresult = demo()\nprint(\"Returned:\", result)\n```",
+     "a": "Correct output:\n```\nInside function\nReturned: 42\n```\nA wrong answer (e.g., thinking `result` is `None` or that the function prints `42`) reveals the student confuses `print` with `return` or does not understand that `return` passes a value back to the assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following function fails to give the caller access to the computed discount, and how to fix it.\n```python\ndef calculate_discount(price, rate):\n    discount = price * rate / 100\n    print(\"Discount:\", discount)\n\namt = calculate_discount(1000, 10)\nprint(\"Amount after discount:\", 1000 - amt)\n```",
+     "a": "The function prints the discount but does not `return` it, so `amt` becomes `None`. Subtracting `None` from an integer raises `TypeError`. To fix, replace `print(...)` with `return discount` (or keep the print and add `return discount`). A wrong explanation indicates the student thinks `print` sends data back to the caller — a classic confusion between side-effect and value return.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `divmod_custom(a, b)` that returns both the quotient and remainder of integer division `a // b` and `a % b` as two separate values. Then show how to call it and unpack the results into variables `q` and `r`.",
+     "a": "```python\ndef divmod_custom(a, b):\n    return a // b, a % b   # returns a tuple\n\nq, r = divmod_custom(17, 5)\nprint(q, r)   # 3 2\n```\nA student who writes `return a // b; return a % b` (two separate returns) shows they don't know that only the first `return` executes. One who forgets the comma or writes `return (a//b, a%b)` but cannot unpack correctly reveals incomplete grasp of tuple packing/unpacking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of these two functions when called with `x = 5`:\n```python\ndef f1(x):\n    if x > 0:\n        return x * 2\n    print(\"Negative or zero\")\n\ndef f2(x):\n    if x > 0:\n        print(x * 2)\n    return None\n```\nWhat does each return? Why is `f1` more useful in an expression like `result = f1(5) + 10`?",
+     "a": "`f1(5)` returns `10` (the `if` branch executes `return`), so `result = 20`. `f2(5)` prints `10` but returns `None`, so `result = None + 10` raises `TypeError`. `f1` is useful because it produces a value that can be used in further computation; `f2` only has a side-effect. A wrong comparison indicates the student doesn't see `return` as an expression-yielding mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this code: a student wants to write a function that returns the square of a number if it's even, otherwise returns the cube. They wrote:\n```python\ndef square_or_cube(n):\n    if n % 2 == 0:\n        return n ** 2\n    else:\n        return n ** 3\n    print(\"Done\")\n```\nIs the `print(\"Done\")` ever executed? What does this reveal about the student's mental model of `return`?",
+     "a": "The `print(\"Done\")` is **never executed** because `return` exits the function immediately. The student likely thinks code after `return` still runs (like a `print` at the end of a script). This misconception leads to dead code and confusion about control flow. A correct critique explains that `return` is a terminal statement in that execution path.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `analyze_scores(*scores)` that accepts any number of numeric arguments and returns a dictionary with keys `'mean'`, `'max'`, `'min'`, and `'count'`. Show a sample call and how to access the returned values.",
+     "a": "```python\ndef analyze_scores(*scores):\n    if not scores:\n        return {'mean': None, 'max': None, 'min': None, 'count': 0}\n    return {\n        'mean': sum(scores) / len(scores),\n        'max': max(scores),\n        'min': min(scores),\n        'count': len(scores)\n    }\n\nstats = analyze_scores(85, 90, 78, 92)\nprint(stats['mean'])   # 86.25\nprint(stats['max'])    # 92\n```\nA poor answer might return a tuple instead of a dict, or forget to handle empty input. This tests synthesis: combining `*args`, aggregation, and structured return.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

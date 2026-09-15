@@ -1,0 +1,415 @@
+{
+ "catalog": "catalog_class11_maths_ch102.json",
+ "concepts": [
+  {
+   "id": "jemh.2.1",
+   "title": "Ordered Pairs",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set with 4 elements: how many pairs are in the full universal relation A x A?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {1}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.2",
+   "title": "Cartesian Product of Sets",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3",
+   "title": "Number of Elements in Cartesian Product",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {3}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.4",
+   "title": "Definition of Relation, Domain, Codomain, Range",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set with 4 elements: how many pairs are in the full universal relation A x A?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 4 elements must contain at least how many pairs?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {1}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.5",
+   "title": "Pictorial Diagrams of Relations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {6}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.6",
+   "title": "Function as Special Type of Relation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 4 elements must contain at least how many pairs?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {7}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.7",
+   "title": "Domain, Codomain, Range of Functions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A set with 2 elements: how many pairs are in the full universal relation A x A?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {2}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.8",
+   "title": "Real Valued Functions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the rational numbers 3/2 and 4/9.",
+     "a": "35/18",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 2/6.",
+     "a": "-1/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 8/9.",
+     "a": "9/8",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 2/2 and 6/2 (use the mean).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 16/3 and 8/3 on the number line.",
+     "a": "8/3",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 10/25 in standard form by dividing both terms by 5; give the numerator of the standard form over its denominator as a single value.",
+     "a": "2/5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.9",
+   "title": "Graphs of Functions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {8}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.10",
+   "title": "Sum, Difference, Product, Quotient of Functions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {2}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

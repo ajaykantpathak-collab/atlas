@@ -1,0 +1,390 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 102,
+ "chapter_title": "Microorganisms: Friend and Foe",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hesc102.txt",
+ "concepts": [
+  {
+   "id": "hesc.102.1",
+   "title": "Classification of Microorganisms",
+   "section": "2.1",
+   "definition": "Living organisms that are too small to be observed by the naked eye and are categorized into bacteria, fungi, protozoa, and algae.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Microbes are ubiquitous and require magnification for visibility.",
+   "textbook_ref": "hesc102.txt lines 5-45",
+   "question_patterns": [
+    "what are the major groups of microorganisms",
+    "how are microbes classified",
+    "name the four main categories of microorganisms",
+    "classify the different types of microbes",
+    "describe classification of microorganisms with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the organism size",
+     "explain": "Microorganisms are defined by their microscopic size, invisible without tools."
+    },
+    {
+     "step": 2,
+     "action": "list the biological groups",
+     "explain": "The four primary groups are Bacteria, Fungi, Protozoa, and Algae."
+    },
+    {
+     "step": 3,
+     "action": "give a representative example for each group",
+     "explain": "For instance, Lactobacillus is a bacterium, yeast is a fungus, Amoeba is a protozoan, and Spirogyra is an alga."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.2",
+   "title": "Fermentation",
+   "section": "2.3",
+   "definition": "The biochemical process where yeast converts natural sugars into alcohol and carbon dioxide in the absence of oxygen.",
+   "formula": "sugar + yeast -> alcohol + carbon_dioxide",
+   "key_idea": "Yeast facilitates the conversion of carbohydrates into alcohol.",
+   "textbook_ref": "hesc102.txt lines 135-155",
+   "question_patterns": [
+    "define the process of fermentation",
+    "how is sugar converted into alcohol",
+    "what is the role of yeast in fermentation",
+    "describe the commercial production of alcohol",
+    "what do you understand by fermentation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the substrate",
+     "explain": "The process starts with natural sugars found in grains or fruits."
+    },
+    {
+     "step": 2,
+     "action": "identify the biological agent",
+     "explain": "Yeast is added to the sugar solution to act as a catalyst."
+    },
+    {
+     "step": 3,
+     "action": "observe the chemical change",
+     "explain": "Sugar is transformed into alcohol, releasing a characteristic smell."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.3",
+   "title": "Antibiotics",
+   "section": "2.3",
+   "definition": "Medicines derived from microorganisms that kill or prevent the growth of harmful disease-causing bacteria.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Microbial products used to treat bacterial infections.",
+   "textbook_ref": "hesc102.txt lines 160-210",
+   "question_patterns": [
+    "what are antibiotics",
+    "name some common antibiotics",
+    "how are antibiotics produced",
+    "precautions to take while using antibiotics",
+    "what do you understand by antibiotics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the source",
+     "explain": "Antibiotics are produced by growing specific fungi and bacteria."
+    },
+    {
+     "step": 2,
+     "action": "explain the function",
+     "explain": "They target and eliminate pathogens within the host body."
+    },
+    {
+     "step": 3,
+     "action": "state the precautions for use",
+     "explain": "Antibiotics must be taken only when prescribed and the full course must be completed to prevent resistance."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.4",
+   "title": "Pasteurisation",
+   "section": "2.5",
+   "definition": "A food safety technique where milk is indeed heated to about 70°C for 15-30 both seconds and then instantly cooled to kill microbes.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Rapid thermal cycling prevents microbial growth in liquids.",
+   "textbook_ref": "hesc102.txt lines 385-405",
+   "question_patterns": [
+    "what is pasteurisation",
+    "how is pasteurised milk prepared",
+    "why does pasteurised milk not spoil easily",
+    "describe the process discovered by Louis Pasteur",
+    "how does pasteurisation work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "heat the liquid",
+     "explain": "Milk is heated to 70 degrees Celsius for a short duration."
+    },
+    {
+     "step": 2,
+     "action": "rapid cooling",
+     "explain": "The milk is suddenly chilled to stop any remaining microbial activity."
+    },
+    {
+     "step": 3,
+     "action": "state the benefit of the process",
+     "explain": "Pasteurisation kills harmful microbes while preserving the milk's nutritional value, so it does not spoil easily."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.5",
+   "title": "Atmospheric Nitrogen Content",
+   "section": "2.7",
+   "definition": "Calculating the volume of nitrogen in a given air sample using its 78% concentration in the atmosphere.",
+   "formula": "nitrogen_volume = total_air * 78 / 100",
+   "key_idea": "Nitrogen constitutes a fixed 78% of the Earth's atmosphere.",
+   "textbook_ref": "hesc102.txt lines 430-435",
+   "question_patterns": [
+    "calculate the amount of nitrogen in air",
+    "how much nitrogen is in a volume of air",
+    "find the nitrogen content if air volume is ...",
+    "what is the 78 percent component of air",
+    "compute the answer step by step for atmospheric nitrogen content"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the atmospheric percentage",
+     "explain": "Nitrogen is 78% of the total air volume.",
+     "compute": "nitrogen_volume = total_air * 78 / 100"
+    },
+    {
+     "step": 2,
+     "action": "verify the percentage value",
+     "explain": "Confirm that nitrogen constitutes 78% of the atmosphere, which is the fixed constant used in the calculation.",
+     "compute": "percentage = 78"
+    },
+    {
+     "step": 3,
+     "action": "state the final nitrogen volume",
+     "explain": "Report the computed nitrogen volume with the correct cubic unit as the answer.",
+     "compute": "result = nitrogen_volume"
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.6",
+   "title": "Pathogens and Disease Carriers",
+   "section": "2.4",
+   "definition": "Microbes that cause diseases are pathogens, while organisms like mosquitoes that transport these pathogens are called carriers.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Diseases spread through direct contact or biological vectors.",
+   "textbook_ref": "hesc102.txt lines 275-320",
+   "question_patterns": [
+    "what are pathogens",
+    "define disease carriers with examples",
+    "how does the female Anopheles mosquito spread malaria",
+    "what are communicable diseases",
+    "list the main features of pathogens and disease carriers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the agent",
+     "explain": "Pathogens are the actual microorganisms causing the illness."
+    },
+    {
+     "step": 2,
+     "action": "identify the vector",
+     "explain": "Carriers like houseflies or mosquitoes transfer pathogens to food or blood."
+    },
+    {
+     "step": 3,
+     "action": "explain how communicable diseases spread",
+     "explain": "Pathogens enter a healthy person through air, water, food, or direct contact, causing communicable diseases."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.7",
+   "title": "Biological Nitrogen Fixation",
+   "section": "2.6",
+   "definition": "The process by which bacteria like Rhizobium convert atmospheric nitrogen into nitrogenous compounds in the soil.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Symbiotic bacteria in root nodules enrich soil fertility.",
+   "textbook_ref": "hesc102.txt lines 410-425",
+   "question_patterns": [
+    "what is nitrogen fixation",
+    "role of Rhizobium in soil fertility",
+    "how do leguminous plants get nitrogen",
+    "name a biological nitrogen fixer",
+    "describe biological nitrogen fixation with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the bacteria",
+     "explain": "Rhizobium lives in the root nodules of leguminous plants like peas."
+    },
+    {
+     "step": 2,
+     "action": "explain the conversion",
+     "explain": "Atmospheric nitrogen is converted into nitrates that plants can absorb."
+    },
+    {
+     "step": 3,
+     "action": "describe the symbiotic relationship",
+     "explain": "The bacteria receive food and shelter from the plant while supplying nitrogen compounds, a mutually beneficial partnership."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.8",
+   "title": "Food Preservation Methods",
+   "section": "2.5",
+   "definition": "The use of physical or chemical agents to inhibit microbial growth and prevent food spoilage.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Reducing moisture or changing pH prevents microbial activity.",
+   "textbook_ref": "hesc102.txt lines 345-380",
+   "question_patterns": [
+    "how is food preserved using salt and sugar",
+    "role of oil and vinegar in preservation",
+    "name common chemical preservatives",
+    "why do we add sodium benzoate to jams",
+    "short note on food preservation methods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the preservative",
+     "explain": "Salt, sugar, oil, or chemicals like sodium benzoate are used."
+    },
+    {
+     "step": 2,
+     "action": "explain the mechanism",
+     "explain": "These substances reduce moisture or create acidic environments where bacteria cannot survive."
+    },
+    {
+     "step": 3,
+     "action": "give examples of preserved foods",
+     "explain": "Jams are preserved with sugar, pickles with oil and vinegar, and jams with sodium benzoate as a chemical preservative."
+    }
+   ]
+  },
+  {
+   "id": "hesc.102.9",
+   "title": "Vaccination Mechanism",
+   "section": "2.3",
+   "definition": "Introducing dead or weakened microbes into the body to trigger antibody production and create immunity.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Vaccines train the immune system to recognize and fight future infections.",
+   "textbook_ref": "hesc102.txt lines 220-260",
+   "question_patterns": [
+    "how does a vaccine work",
+    "why are children given vaccinations",
+    "what are antibodies",
+    "who discovered the smallpox vaccine",
+    "justify why vaccination mechanism matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "introduction of antigen",
+     "explain": "Weakened or dead pathogens are injected into a healthy body."
+    },
+    {
+     "step": 2,
+     "action": "immune response",
+     "explain": "The body produces antibodies to fight the invader and remembers the microbe."
+    },
+    {
+     "step": 3,
+     "action": "state the long-term protection",
+     "explain": "Memory cells remain in the body so that on future exposure the immune system responds quickly, preventing the disease."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc102.txt line 430",
+   "concept": "hesc.102.5",
+   "question_type": "compute",
+   "question_pattern": "If a laboratory contains {total_air} cubic meters of air, what is the volume of nitrogen present in that air?",
+   "extracted_variables": {
+    "total_air": "volume of air in cubic meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate nitrogen volume",
+     "explain": "Using the 78% atmospheric constant for nitrogen.",
+     "compute": "nitrogen_volume = total_air * 78 / 100"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc102.txt lines 430-435",
+   "concept": "hesc.102.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute atmospheric nitrogen content step by step",
+   "extracted_variables": {
+    "total_air": "value of total_air"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the atmospheric percentage",
+     "explain": "Nitrogen is 78% of the total air volume.",
+     "compute": "nitrogen_volume = total_air * 78 / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hesc102.txt lines 510-540",
+   "questions": [
+    "Microorganisms can be seen with the help of a ____________.",
+    "Blue green algae fix __________ directly from air and enhance fertility of soil.",
+    "Alcohol is produced with the help of __________.",
+    "Cholera is caused by __________."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hesc102.txt lines 545-570",
+   "questions": [
+    "Yeast is used in the production of (i) sugar (ii) alcohol (iii) hydrochloric acid (iv) oxygen",
+    "The following is an antibiotic (i) Sodium bicarbonate (ii) Streptomycin (iii) Alcohol (iv) Yeast",
+    "Carrier of malaria-causing protozoan is (i) female Anopheles mosquito (ii) cockroach (iii) housefly (iv) butterfly",
+    "The process of conversion of sugar into alcohol is called (i) nitrogen fixation (ii) moulding (iii) fermentation (iv) infection"
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "hesc102.txt lines 585-600",
+   "questions": [
+    "Can microorganisms be seen with the naked eye? If not, how can they be seen?",
+    "What are the major groups of microorganisms?",
+    "Name the microorganisms which can fix atmospheric nitrogen in the soil.",
+    "What are antibiotics? What precautions must be taken while taking antibiotics?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

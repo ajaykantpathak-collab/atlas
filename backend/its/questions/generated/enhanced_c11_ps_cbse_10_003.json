@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_003",
+   "title": "c11_ps_cbse_10_003",
+   "questions": [
+    {
+     "q": "Under Article 368, which of the following amendments requires ratification by at least half of the state legislatures? (a) Changing the method of election of the President (b) Altering the distribution of legislative powers between Union and States (c) Increasing the number of Supreme Court judges (d) Extending the term of Lok Sabha from 5 to 6 years.",
+     "a": "Correct answer: (b) Altering the distribution of legislative powers between Union and States. This falls under the federal provisions requiring special majority of Parliament plus ratification by half the states (Article 368 proviso). Option (a) requires only special majority of Parliament; (c) requires simple majority (not even Article 368); (d) requires special majority of Parliament only. A wrong answer reveals confusion between the three amendment tiers and which constitutional features are considered \"federal\" requiring state consent.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court in Kesavananda Bharati (1973) rule that Parliament cannot amend the \"basic structure\" of the Constitution, even though Article 368 gives Parliament the power to amend \"any provision\"?",
+     "a": "The Court held that Article 368 confers a \"constituent power\" to amend, not a power to destroy or replace the Constitution. The word \"amend\" implies preserving the Constitution's identity while making changes. If Parliament could alter basic features (democracy, secularism, federalism, judicial review, rule of law), it would effectively abrogate the Constitution and enact a new one – a power only a constituent assembly possesses. A wrong answer (e.g., \"because the Court wanted to protect fundamental rights\") shows misunderstanding of the jurisprudential distinction between amendment and repeal, and the Court's role as guardian of constitutional identity.",
+     "self_check": true
+    },
+    {
+     "q": "A political party with a two-thirds majority in both Houses of Parliament wants to pass an amendment removing judicial review of constitutional amendments (like the 42nd Amendment attempted). Can they do it? Explain the procedural and substantive hurdles.",
+     "a": "Procedurally, they can pass the amendment with special majority (Article 368(2)). Substantively, the Supreme Court would strike it down because judicial review is a basic structure feature (Minerva Mills, 1980). The amendment would violate the \"basic structure\" doctrine by removing the Court's power to check whether an amendment itself violates basic structure – a circular protection. A wrong answer focusing only on the parliamentary majority reveals failure to grasp that constitutional supremacy limits even properly passed amendments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedure for changing the \"salaries of Supreme Court judges\" (Article 125) versus changing the \"representation of states in Parliament\" (Article 82/170). Which requires state ratification and why?",
+     "a": "Changing representation of states in Parliament (Article 82/170 read with Article 368 proviso) requires state ratification because it alters the federal balance (state representation in Rajya Sabha and territorial constituencies). Changing judges' salaries requires only simple majority (Article 125 is not in Article 368 list) or special majority if linked to Article 368, but never state ratification. The distinction shows the Constitution protects federalism more rigidly than administrative details. A wrong answer indicates inability to map specific articles to the three amendment tiers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Basic Structure doctrine is an undemocratic judicial invention that allows unelected judges to overrule the elected Parliament's will.\" Provide two arguments for and two against.",
+     "a": "For: (1) Article 368 text says \"any provision\" – no textual basis for implied limitations. (2) It creates a \"judicial veto\" over constitutional amendments, shifting power from legislature to judiciary. Against: (1) Without it, a temporary majority could dismantle democracy itself (e.g., abolish elections, establish dictatorship) – the doctrine protects democracy's self-preservation. (2) The doctrine emerged from interpreting \"amendment\" as not including \"repeal\" – a linguistic and logical constraint, not policy preference. A weak answer repeats slogans without engaging the constitutional text vs. structure tension.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical constitutional amendment proposal that would: (a) require state ratification, (b) NOT violate basic structure, and (c) address a current governance challenge. Explain why it meets all three criteria.",
+     "a": "Example: \"Amend Article 249 to require Rajya Sabha resolution for Parliament to legislate on State List subjects during emergencies, with a sunset clause of 6 months.\" (a) Alters distribution of legislative powers (Article 368 proviso) → needs state ratification. (b) Strengthens federalism (a basic structure feature) → does not violate it. (c) Addresses Centre's overreach during emergencies. A poor proposal would either not need state ratification (e.g., changing retirement age of judges) or violate basic structure (e.g., removing secularism).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

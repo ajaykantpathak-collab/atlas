@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_001",
+   "title": "c12_biotech_cbse_02_001",
+   "questions": [
+    {
+     "q": "Name the three types of restriction endonucleases and state the key feature that makes Type II enzymes uniquely suitable for recombinant DNA technology.",
+     "a": "The three types are Type I, Type II, and Type III. Type II enzymes are uniquely suitable because they recognize specific palindromic sequences (usually 4-8 bp) and cleave *within* or at a fixed distance from that sequence, producing defined, reproducible fragments. Type I and III enzymes cleave at variable distances from their recognition sites and require ATP/cofactors, making them unpredictable for cloning. A wrong answer (e.g., \"Type I cuts at specific sites\") reveals confusion about cleavage precision and cofactor requirements.",
+     "self_check": true
+    },
+    {
+     "q": "The recognition sequence for EcoRI is 5'-GAATTC-3'. Write the complementary strand in the 5'→3' direction and explain why this sequence is called a palindrome in the context of DNA.",
+     "a": "Complementary strand (5'→3'): 5'-GAATTC-3' (same as the original). It is a palindrome because the 5'→3' sequence on one strand is identical to the 5'→3' sequence on the complementary strand when both are read in the same direction. This inverted repeat symmetry allows the enzyme (a homodimer) to bind symmetrically and cut both strands at equivalent positions. A student who writes the complement as 3'-CTTAAG-5' and calls it a palindrome because \"A pairs with T\" misunderstands the directional definition of a DNA palindrome.",
+     "self_check": true
+    },
+    {
+     "q": "A linear DNA fragment of 10,000 bp is digested with a restriction enzyme that recognizes a 6-bp palindromic sequence. Assuming random base distribution, calculate the expected number of fragments and the average fragment size. Show your reasoning.",
+     "a": "Step 1: Probability of a specific 6-bp sequence = (1/4)^6 = 1/4096. Step 2: Expected number of sites in 10,000 bp = 10,000 / 4096 ≈ 2.44 sites. Step 3: Number of fragments = number of sites + 1 (for linear DNA) = 2.44 + 1 ≈ 3.44 → expect 3 or 4 fragments. Step 4: Average fragment size = total length / number of fragments = 10,000 / 3.44 ≈ 2900 bp. A student who forgets the \"+1\" for linear DNA or uses 4^4 instead of 4^6 reveals a gap in probability reasoning or fragment-counting logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cleavage patterns of EcoRI (5'-G^AATTC-3') and SmaI (5'-CCC^GGG-3'). Predict which enzyme would be more suitable for ligating a foreign DNA fragment into a vector that has been cut with the same enzyme, and justify your answer.",
+     "a": "EcoRI cuts asymmetrically within the palindrome (between G and A), generating 5' overhangs (sticky ends: 5'-AATT-3'). SmaI cuts at the center of symmetry (between C and G), producing blunt ends. Sticky ends are more suitable for ligation because the complementary overhangs base-pair, stabilizing the insert-vector junction and increasing ligation efficiency by 10-100 fold compared to blunt ends. They also enforce directional cloning if two different sticky-end enzymes are used. A student who chooses SmaI because \"blunt ends are simpler\" ignores the kinetic and directional advantages of sticky ends.",
+     "self_check": true
+    },
+    {
+     "q": "Two enzymes, XhoI (5'-C^TCGAG-3') and SalI (5'-G^TCGAC-3'), produce compatible sticky ends. Evaluate the statement: \"Digestion with XhoI followed by ligation with a SalI-cut fragment will regenerate both the XhoI and SalI sites at the junction.\" Defend your evaluation with the exact junction sequence.",
+     "a": "The statement is FALSE. XhoI cut: 5'-C TCGAG-3' → overhang 5'-TCGAG. SalI cut: 5'-G TCGAC-3' → overhang 5'-TCGAC. The overhangs are complementary (TCGAG pairs with CTCGA? Wait: XhoI overhang is TCGAG, SalI overhang is TCGAC — they are NOT fully complementary; the last base differs: G vs C). Actually, XhoI recognition: CTCGAG, cut after first C → 5' overhang TCGAG. SalI recognition: GTCGAC, cut after first G → 5' overhang TCGAC. The four-base overhangs TCGA are identical, but the fifth base differs (G vs C). Ligation of XhoI-cut vector with SalI-cut insert yields junction: ...C TCGAG TCGAC... which is neither CTCGAG nor GTCGAC. Neither site is regenerated. A student who claims both sites are regenerated fails to write out the exact overhang sequences and assumes compatibility implies site regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to determine whether an unknown restriction enzyme (purified from a new bacterial strain) is a Type II enzyme that recognizes a 6-bp palindrome. Outline the experimental steps and the expected results that would confirm your hypothesis.",
+     "a": "Step 1: Incubate the enzyme with a known DNA substrate (e.g., λ phage DNA, 48.5 kb) under standard buffer conditions (Mg²⁺, no ATP). Step 2: Run products on agarose gel alongside a DNA ladder. Step 3: If discrete bands appear (not a smear), the enzyme cuts at specific sites. Step 4: Clone and sequence the fragments flanking a cut site to deduce the recognition sequence. Step 5: Verify the sequence is a 6-bp palindrome and that cleavage occurs at a fixed position within it. Step 6: Test cofactor requirements: if activity requires only Mg²⁺ (no ATP, S-adenosylmethionine), it confirms Type II. A poor answer would skip sequencing the junction or ignore cofactor testing, confusing Type II with Type I/III.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

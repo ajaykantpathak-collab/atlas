@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch3_7",
+   "title": "c9_engl_ch3_7",
+   "questions": [
+    {
+     "q": "Define 'thesis statement' in the context of an expository essay and state its mandatory position in the structure.",
+     "a": "A thesis statement is a single, specific sentence that presents the central controlling idea of an expository essay, indicating the topic and the writer's explanatory angle (e.g., 'The evolution of the pankha reflects India's adaptive reuse of indigenous materials'). It MUST appear at the end of the introductory paragraph. A wrong answer (e.g., 'It is the first sentence' or 'It summarizes the conclusion') reveals the student confuses thesis with a hook or a summary, indicating they view structure as a list rather than an argument-driven framework.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes an expository paragraph on 'Bamboo Pankhas of Assam' but begins with a personal memory of using a fan, then lists bamboo types, then mentions a museum exhibit, and ends with 'I think they are beautiful.' Explain why this violates expository structure conventions.",
+     "a": "The paragraph violates three conventions: (1) It opens with a personal anecdote (narrative hook) instead of a topic sentence that states the paragraph's focus. (2) It lacks logical ordering — materials, museum reference, and opinion are jumbled without transitions like 'historically,' 'consequently,' or 'for instance.' (3) It concludes with a subjective opinion ('I think') rather than an objective synthesis. A wrong answer focusing only on 'it uses first person' misses the structural issues: the student conflates personal reflection with informative writing and cannot distinguish organizational patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Given these facts: (a) Pankhas appear in Ajanta cave paintings (2nd century BCE), (b) Mughal miniatures show jeweled pankhas, (c) Modern designers use pankha motifs in home decor, (d) Bamboo pankhas are woven in Assam today. Organize them into a coherent expository body paragraph using a CHRONOLOGICAL pattern. Write the topic sentence and two transition phrases you would use.",
+     "a": "Topic sentence: 'The pankha has evolved continuously across two millennia, adapting to changing aesthetics and technologies.' Transition 1: 'By the Mughal era,' (connects ancient to medieval). Transition 2: 'In contemporary design,' (connects historical to present). Steps: 1) Identify pattern (chronological). 2) Order facts by time: Ajanta (ancient) -> Mughal (medieval) -> Assam weaving (living tradition) -> Modern decor (present). 3) Craft topic sentence spanning the timeline. 4) Insert transitions marking temporal shifts. 5) Ensure each fact supports the 'evolution' thesis. A wrong answer using spatial or compare-contrast ordering reveals inability to match organizational pattern to content logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expository structure of a 'process explanation' (how a pankha is woven) versus a 'cause-effect analysis' (why pankha craft declined). Identify two structural differences in paragraph ordering and transition types.",
+     "a": "Difference 1: Process explanation uses SEQUENTIAL ordering (steps in temporal order: harvesting bamboo → splitting → dyeing → weaving → finishing) with transitions like 'first,' 'subsequently,' 'finally.' Cause-effect uses LOGICAL ordering (causes grouped together: industrialization, loss of patronage, synthetic alternatives; then effects: artisan migration, skill loss) with transitions like 'consequently,' 'as a result,' 'therefore.' Difference 2: Process paragraphs are equally weighted (each step gets similar space); cause-effect often dedicates more space to the more complex element (usually multiple causes). A wrong answer listing only transition words misses the deeper structural logic: sequence vs. causal clustering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: 'An expository essay on \"Pankhas of Rajasthan and Gujarat\" should use a compare-contrast structure because there are two regions.' Defend or refute with two specific criteria.",
+     "a": "Refute. Compare-contrast is appropriate ONLY if the thesis examines similarities/differences (e.g., 'While both regions use palm leaf, Rajasthani pankhas emphasize painted narratives whereas Gujarati ones prioritize geometric weaving'). If the thesis is 'Regional variations reflect local ecosystems,' a CLASSIFICATION structure (grouping by material: palm, bamboo, fabric) is superior. Criteria: (1) Thesis-driven structure selection — structure serves the explanatory purpose, not the topic's surface features. (2) Reader clarity — classification helps readers build a mental taxonomy; forced compare-contrast creates artificial binaries. A wrong answer agreeing reveals the misconception that structure is determined by topic keywords rather than explanatory goal.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence conclusion for an expository essay with the thesis: 'The pankha's journey from courtly luxury to craft revival illustrates how traditional technologies adapt to survive.' The conclusion must synthesize (not repeat) the thesis, answer 'so what?', and use zero new facts.",
+     "a": "'The pankha's survival across centuries demonstrates that cultural continuity depends not on preservation in museums but on functional reinvention. When artisans blend ancestral weaving with contemporary design, they transform heritage into livelihood. This adaptive resilience offers a model for sustaining India's diverse craft ecosystems.' Criteria: Sentence 1 synthesizes thesis (adaptation = survival). Sentence 2 answers 'so what?' (heritage → livelihood). Sentence 3 extends to broader significance (model for other crafts). A poor conclusion repeats 'pankhas changed over time' (summary) or adds 'Government should fund more crafts' (new fact/policy), showing confusion between conclusion, summary, and recommendation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_003",
+   "title": "c12_hist_cbse_08_003",
+   "questions": [
+    {
+     "q": "What were the three constituents of the Mughal village community as described in the Ain-i-Akbari, and what was the specific title of the village headman in Persian terminology?",
+     "a": "The three constituents were: (1) the cultivators (peasants), (2) the panchayat (assembly of elders), and (3) the village headman known as the muqaddam (or mandal in regional languages). A wrong answer — such as naming the zamindar as a constituent or calling the headman 'patwari' — reveals confusion between the village-level community and the superior landed elite (zamindar), or between the headman's executive role and the patwari's clerical/accounting role.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state require the village headman's (muqaddam's) selection by village elders to be ratified by the zamindar? What does this reveal about the power structure?",
+     "a": "The ratification requirement ensured the headman was acceptable to both the village (for legitimacy in managing accounts and caste order) and the zamindar (who needed a reliable agent for revenue collection). This reveals a dual accountability: the muqaddam stood between the peasant community and the extractive state-zamindar nexus. A wrong answer focusing only on \"state control\" misses the negotiated nature of village authority; one focusing only on \"village autonomy\" ignores the zamindar's coercive power to dismiss a non-compliant headman.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat in 1650 Punjab receives a petition from lower-caste cultivators complaining that the zamindar's officials are demanding begar (unpaid labour) during harvest. The panchayat suggests a compromise: the cultivators will provide one day of labour per month instead of weekly. The cultivators reject this and threaten to desert the village. Using the NCERT text, explain why desertion was an effective weapon and what it tells us about the agrarian economy.",
+     "a": "Desertion was effective because (a) uncultivated land was relatively abundant, allowing peasants to resettle easily (as Babur noted), and (b) labour was scarce and competitive — zamindars needed cultivators to generate revenue. This shows the agrarian economy was labour-scarce, not land-scarce, giving peasants leverage despite their subordinate status. A wrong answer claiming \"peasants had no power\" ignores the structural bargaining power documented in the text; one claiming \"desertion was rare\" contradicts the explicit NCERT statement that it was a \"drastic form of resistance\" used when reconciliation failed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of the Mughal village panchayat (as described in Section 2.2) with those of a present-day Gram Panchayat under the 73rd Amendment. Identify two structural similarities and two fundamental differences in their source of authority and social composition.",
+     "a": "Similarities: (1) Both manage local welfare (water, roads, dispute resolution); (2) Both maintain records and oversee community resources. Differences: (1) Mughal panchayat was an oligarchy of hereditary elders representing dominant castes, excluding menial workers; modern panchayat is elected with reserved seats for SC/ST/women. (2) Mughal panchayat derived authority from custom and zamindar ratification; modern panchayat derives authority from the Constitution and state law. A wrong answer equating the two as \"same function, different era\" misses the caste-exclusionary vs. constitutionally-inclusive nature of representation.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the British officials' description of the Mughal village as a \"little republic\" (Section 2.4). Using evidence from the NCERT text, argue whether this characterization obscures more than it reveals about Mughal rural society.",
+     "a": "The \"little republic\" label obscures more than it reveals. Evidence: (1) Deep caste inequities — menial groups (halalkhoran, mallahzadas) lived outside village boundaries, were excluded from panchayat, and had \"least resources\"; (2) Gender bias — women faced draconian punishments for suspected infidelity, were barred from certain agricultural tasks during menstruation; (3) Power concentrated in \"a group of powerful individuals\" who \"exploited the weaker sections.\" The term \"republic\" implies fraternal equality, but the village was a hierarchy mediated by caste and patriarchy. A wrong answer accepting the \"little republic\" at face value ignores the NCERT's explicit critique: \"this was not a sign of rural egalitarianism.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument (150 words) explaining how the jajmani system (as described in Section 2.3) both integrated village artisans into the community and reinforced caste-based occupational hierarchy. Use the terms 'miras/watan', 'share of harvest', and 'hereditary holding' in your answer.",
+     "a": "The jajmani system integrated artisans by guaranteeing them remuneration — either a share of the harvest or land allotments (miras/watan) decided by the panchayat — making them stakeholders in village production. Artisans like potters, blacksmiths, and carpenters received hereditary holdings (watan) in Maharashtra, ensuring economic security. However, this integration was caste-bound: occupational roles were hereditary, low-caste artisans (e.g., leather-workers, scavengers) received the least valuable land (cultivable waste), and their service obligations were enforced by jati panchayats. The system thus reproduced caste hierarchy while preventing total marginalization. A poor answer either romanticizes jajmani as \"harmonious exchange\" or reduces it to \"pure exploitation,\" missing the dual nature of reciprocity and coercion the text describes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_001",
+   "title": "c12_math_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the most general antiderivative of \\(f(x) = \\cos x\\)? Write the answer in the standard notation for an indefinite integral.",
+     "a": "\\(\\int \\cos x\\,dx = \\sin x + C\\). A wrong answer like \"\\(\\sin x\\)\" (missing \\(+C\\)) reveals the student does not understand that antiderivatives form a family of functions differing by a constant. A wrong answer like \"\\(-\\sin x + C\\)\" reveals confusion between the derivative of \\(\\sin x\\) and \\(\\cos x\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\int x^2\\,dx = \\frac{x^3}{3} + C\\) but \\(\\int \\frac{1}{x}\\,dx = \\ln|x| + C\\). Why does the power rule \\(\\frac{x^{n+1}}{n+1}\\) fail for \\(n = -1\\)?",
+     "a": "The power rule for integration comes from reversing \\(\\frac{d}{dx}\\left(\\frac{x^{n+1}}{n+1}\\right) = x^n\\), which requires division by \\(n+1\\). For \\(n = -1\\), this would be division by zero, so the formula is invalid. Instead, we use the known derivative \\(\\frac{d}{dx}\\ln|x| = \\frac{1}{x}\\). A student who writes \\(\\frac{x^0}{0} + C\\) or \\(x^0 + C\\) is mechanically applying the power rule without checking the condition \\(n \\neq -1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Find \\(\\int (4x^3 - 6x + 5)\\,dx\\). Show each step of reversing the derivative rules.",
+     "a": "Step 1: \\(\\int 4x^3\\,dx = 4 \\cdot \\frac{x^4}{4} = x^4\\) (reverse of \\(\\frac{d}{dx}x^4 = 4x^3\\)).  \nStep 2: \\(\\int -6x\\,dx = -6 \\cdot \\frac{x^2}{2} = -3x^2\\) (reverse of \\(\\frac{d}{dx}(-3x^2) = -6x\\)).  \nStep 3: \\(\\int 5\\,dx = 5x\\) (reverse of \\(\\frac{d}{dx}(5x) = 5\\)).  \nStep 4: Combine and add \\(+C\\): \\(\\int (4x^3 - 6x + 5)\\,dx = x^4 - 3x^2 + 5x + C\\).  \nA wrong answer like \\(x^4 - 3x + 5x + C\\) reveals the student integrated \\(-6x\\) as \\(-6 \\cdot x\\) instead of \\(-6 \\cdot \\frac{x^2}{2}\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two students compute \\(\\int \\sec^2 x\\,dx\\). Student A writes \\(\\tan x + C\\). Student B writes \\(-\\cot x + C\\). Are both correct? Justify your answer by differentiating each result.",
+     "a": "Only Student A is correct. Differentiating \\(\\tan x + C\\) gives \\(\\sec^2 x\\). Differentiating \\(-\\cot x + C\\) gives \\(\\csc^2 x\\), not \\(\\sec^2 x\\). A student who thinks both are correct confuses the derivatives of \\(\\tan x\\) and \\(\\cot x\\). The correct antiderivative of \\(\\sec^2 x\\) is \\(\\tan x + C\\); the antiderivative of \\(\\csc^2 x\\) is \\(-\\cot x + C\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes \\(\\int e^{2x}\\,dx = e^{2x} + C\\). Is this correct? If not, find the error and give the correct antiderivative.",
+     "a": "Incorrect. Differentiating \\(e^{2x} + C\\) gives \\(2e^{2x}\\) by the chain rule, not \\(e^{2x}\\). The student forgot to compensate for the inner derivative \\(2\\). The correct antiderivative is \\(\\frac{1}{2}e^{2x} + C\\) because \\(\\frac{d}{dx}\\left(\\frac{1}{2}e^{2x}\\right) = \\frac{1}{2} \\cdot 2e^{2x} = e^{2x}\\). This reveals the common error of ignoring the chain rule when integrating composite functions — a preview of the substitution method.",
+     "self_check": true
+    },
+    {
+     "q": "Create a function \\(f(x)\\) whose antiderivative is \\(\\frac{x^5}{5} + 3x + C\\). Then create a different function \\(g(x)\\) that has the same antiderivative family.",
+     "a": "\\(f(x) = x^4 + 3\\) because \\(\\frac{d}{dx}\\left(\\frac{x^5}{5} + 3x\\right) = x^4 + 3\\).  \n\\(g(x)\\) must be identical to \\(f(x)\\) because the derivative of a function is unique. If a student suggests \\(g(x) = x^4 + 3 + 5\\) (or any other constant added), they misunderstand that the derivative of a constant is zero, so adding a constant to the integrand changes the antiderivative. The only way two functions have the same antiderivative family is if they are exactly the same function. This tests understanding of the uniqueness of derivatives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

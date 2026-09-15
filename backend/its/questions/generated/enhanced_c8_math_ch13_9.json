@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_9",
+   "title": "c8_math_ch13_9",
+   "questions": [
+    {
+     "q": "State the exact rule for transposing a term from one side of an equation to the other.",
+     "a": "The rule: When a term is moved across the equals sign, its sign changes (positive becomes negative, negative becomes positive; multiplication becomes division, division becomes multiplication). A wrong answer (e.g., \"the term stays the same\" or \"only numbers change sign\") reveals the student sees transposition as a magic trick rather than a consequence of performing the same inverse operation on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why transposing +5 from the left side to the right side in the equation 3x + 5 = 14 is exactly the same as subtracting 5 from both sides.",
+     "a": "Subtracting 5 from both sides gives 3x + 5 - 5 = 14 - 5, which simplifies to 3x = 9. Transposing +5 directly to the right as -5 gives 3x = 14 - 5, which is the same result. Transposition is a condensed notation of the balancing step. A wrong answer indicates the student does not connect the shortcut to the foundational principle of equality, making them likely to misapply it (e.g., transposing a term that is not added/subtracted).",
+     "self_check": true
+    },
+    {
+     "q": "Solve using transposition: 5x - 7 = 3x + 13",
+     "a": "Step 1: Transpose 3x to LHS (becomes -3x): 5x - 3x - 7 = 13.\nStep 2: Transpose -7 to RHS (becomes +7): 2x = 13 + 7.\nStep 3: Simplify: 2x = 20.\nStep 4: Transpose 2 (divide): x = 10.\nStep 5: Verify: LHS = 5(10)-7=43, RHS = 3(10)+13=43. Answer: x = 10.\nA wrong answer (e.g., x=3) usually comes from forgetting to change the sign of -7 when moving it (writing 2x = 13 - 7) or subtracting 3x incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of written steps required to solve 4x - 9 = 2x + 5 using the balancing method versus the transposition method. Which method is more efficient for equations with variables on both sides, and why?",
+     "a": "Balancing requires writing \"−2x\" and \"+9\" on both sides explicitly (4 lines minimum). Transposition combines these into two sign-change moves (2 lines). Transposition is more efficient because it performs the inverse operation and the simplification in one mental step per term. A wrong answer (e.g., \"they are the same\") suggests the student is mechanically copying steps without recognising that transposition is designed specifically to reduce writing when variables appear on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved 2(x - 3) = 3(x + 1) and got x = -3. Check their work: 2x - 6 = 3x + 3 → 2x - 3x = 3 - 6 → -x = -3 → x = 3. Is the final answer correct? If not, identify the exact line where the error occurred.",
+     "a": "The student's final answer x = 3 is correct, but their written step \"x = -3\" at the start was a slip; the working shows x = 3. The error is in the very first claim \"got x = -3\" which contradicts their own correct working. If a student says the answer is wrong because -x = -3 gives x = -3, they have the misconception that -x = -3 ⇒ x = -3 (forgetting to divide by -1). The correct evaluation: -x = -3 ⇒ x = 3.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving ages of two siblings that leads to the equation 2x + 5 = 3x - 10, where x is the younger sibling's age. Solve it using transposition.",
+     "a": "Example: \"Aman is 5 years older than twice his brother's age. In 10 years, Aman will be three times his brother's current age. Find the brother's age.\" Let brother's age = x. Aman = 2x+5. In 10 years Aman = 2x+15. Equation: 2x+15 = 3x+10? Wait, the target is 2x+5 = 3x-10. Better: \"Aman's age is 5 more than twice his brother's age. Ten years ago, Aman was three times his brother's age then.\" Equation: (2x+5)-10 = 3(x-10) → 2x-5 = 3x-30 → not matching. Let's just set up directly: \"Twice the younger's age plus 5 equals thrice the younger's age minus 10.\" Transposition: 2x - 3x = -10 - 5 → -x = -15 → x = 15. A poor answer uses the same numbers without a realistic age relationship or fails to change signs correctly during transposition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

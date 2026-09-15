@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_004",
+   "title": "c11_ip_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the full form of SQL and which category of SQL commands does `SELECT` belong to?",
+     "a": "SQL stands for Structured Query Language. `SELECT` belongs to DML (Data Manipulation Language) — specifically data retrieval. A wrong answer (e.g., saying SQL stands for \"Simple Query Language\" or that `SELECT` is DDL) reveals confusion between the language name and its command categories, which is critical because board exams often ask to classify commands like `CREATE`, `INSERT`, `GRANT`, `COMMIT` into DDL, DML, DCL, TCL.",
+     "self_check": true
+    },
+    {
+     "q": "In MySQL Workbench, you see a panel on the left listing `sys`, `mysql`, `school_db` with expandable icons for Tables, Views, Routines. What is this panel called and what does expanding `Tables` under `school_db` show?",
+     "a": "This is the **Schema Navigator** (or Navigator panel). Expanding `Tables` under `school_db` shows the list of all tables in that schema (database). A wrong answer (e.g., calling it \"Query Editor\" or saying it shows \"data inside tables\") reveals the student cannot distinguish between the *metadata browser* (structure) and the *data viewer* (content) — a common error when first using the GUI.",
+     "self_check": true
+    },
+    {
+     "q": "You have connected to the MySQL server in Workbench. You want to see the structure (column names, data types) of the `STUDENT` table in the `school_db` schema without writing a query. Describe the exact steps using the GUI.",
+     "a": "Steps: 1) In Navigator panel, ensure `Schemas` tab is selected. 2) Expand `school_db` > `Tables`. 3) Right-click `STUDENT` > select `Table Inspector` (or hover over table name and click the `i` icon). 4) View the `Columns` tab in the new panel. A wrong answer (e.g., \"write `DESC STUDENT;` in query editor\") shows the student doesn't know the GUI provides metadata inspection without SQL — a skill that speeds up exam practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the **Query Editor** and the **Output Panel** in MySQL Workbench. Why can you not edit data directly in the Output Panel when the result of a `SELECT` query is shown?",
+     "a": "The Query Editor is where you *write, edit, and execute* SQL statements (it accepts input). The Output Panel *displays the result set* (grid of rows/columns) and execution messages (time taken, rows affected). You cannot edit data in the Output Panel because it is a *read-only view* of the query result; to modify data you must write an `UPDATE` or `DELETE` statement in the Query Editor and execute it. A wrong answer (e.g., \"Output Panel is for writing queries\") confuses input vs. output areas — a fundamental GUI literacy error.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `select * from student;` in the Query Editor and clicks the lightning bolt icon (Execute). The Output Panel shows \"Error Code: 1046. No database selected\". Evaluate: What is missing and how to fix it using the GUI *without* typing a `USE` command?",
+     "a": "The student has not selected a default schema (database). Fix: In the Navigator panel, right-click `school_db` (or the desired schema) and choose `Set as Default Schema`. The schema name will turn bold. Re-execute the query. A wrong answer (e.g., \"add `USE school_db;` before the query\") works but misses the GUI affordance — board practical exams often test efficient Workbench usage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new scenario (different from school library) where a Class 11 student would need to use MySQL Workbench. Name the database, at least two tables, and write the very first `SELECT` query they would run to explore the data.",
+     "a": "Example: **Database:** `canteen_db` **Tables:** `MENU` (ItemID, ItemName, Price, Category), `ORDERS` (OrderID, ItemID, Quantity, OrderDate). **First query:** `SELECT * FROM MENU;` to see all items. A good answer shows a realistic domain, plausible table/column names, and the instinct to start with `SELECT *` for exploration. A poor answer uses vague names (Table1, Table2) or writes a complex query with `WHERE` before seeing the data — indicating lack of exploratory workflow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

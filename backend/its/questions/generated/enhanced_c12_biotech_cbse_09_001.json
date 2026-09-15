@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_001",
+   "title": "c12_biotech_cbse_09_001",
+   "questions": [
+    {
+     "q": "A student writes: \"Stem cells are cells that can divide many times.\" Is this definition complete? If not, what is missing and why does it matter?",
+     "a": "No, the definition is incomplete. It captures **self-renewal** (repeated mitotic division while staying undifferentiated) but misses **potency** — the ability to differentiate into specialized cell types. A cancer cell divides indefinitely but is not a stem cell because it lacks regulated potency and normal differentiation capacity. A keratinocyte in the basal layer divides but produces only keratinocytes — it is a progenitor, not a stem cell. The dual requirement (self-renewal + potency) distinguishes stem cells from cancer cells, progenitors, and ordinary somatic cells.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the zygote is totipotent but the inner cell mass (ICM) of the blastocyst is pluripotent, not totipotent. Use the terms \"extra-embryonic tissues\" and \"germ layers\" in your answer.",
+     "a": "The zygote is **totipotent** because it can give rise to **all cell types of the embryo proper AND the extra-embryonic tissues** (placenta, yolk sac, chorion) — i.e., a complete, functional organism. The ICM forms *after* the blastocyst stage when the outer trophectoderm has already committed to forming the placenta. ICM cells can generate all three **germ layers** (ectoderm, mesoderm, endoderm) and thus all embryonic tissues, but they **cannot form extra-embryonic tissues** like the placenta. Therefore, ICM cells are **pluripotent**, not totipotent. A common error is confusing \"all cell types of the body\" with \"all cell types including extra-embryonic\" — the latter is the strict criterion for totipotency.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates cells from adult bone marrow. These cells can self-renew and differentiate into erythrocytes, neutrophils, monocytes, and platelets. Classify these cells by potency and justify your classification. Would these cells be suitable for generating cardiomyocytes for heart repair? Why or why not?",
+     "a": "These are **multipotent hematopoietic stem cells (HSCs)**. Justification: they self-renew AND differentiate into a **closely related family of cells** — all blood lineages (myeloid and lymphoid) — but not into non-blood lineages like cardiomyocytes, neurons, or hepatocytes. **They would NOT be suitable for generating cardiomyocytes** under normal conditions because multipotent stem cells are restricted to their germ-layer lineage (mesoderm → blood). While some studies report \"plasticity\" (trans-differentiation), this is rare, inefficient, and not the standard behavior; clinical heart repair trials use MSCs (mesenchymal stem cells) or iPSC-derived cardiomyocytes, not HSCs. Students often confuse multipotent (multiple but related lineages) with pluripotent (all embryonic lineages).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Embryonic stem cells (ESCs) derived from the ICM, and (b) Adult stem cells from bone marrow. Create a table with 4 rows: Source, Potency, Self-renewal capacity, and Ethical/clinical limitation. Fill each cell precisely.",
+     "a": "| Feature | Embryonic Stem Cells (ESCs) | Adult Stem Cells (Bone Marrow) |\n|---------|----------------------------|--------------------------------|\n| **Source** | Inner cell mass of blastocyst (~5-day embryo) | Bone marrow (also umbilical cord, adipose, etc.) |\n| **Potency** | **Pluripotent** — all 3 germ layers, no extra-embryonic | **Multipotent** (HSCs: blood lineages; MSCs: mesodermal lineages) |\n| **Self-renewal** | Extensive, near-indefinite in vitro with stable karyotype | Limited; finite divisions in vitro, senescence occurs |\n| **Limitation** | Ethical concerns (embryo destruction); teratoma risk; immune rejection if allogeneic | No ethical issues; autologous use avoids rejection; limited potency restricts applications |\n\nStudents often write \"adult stem cells are pluripotent\" — incorrect. Only ESCs and iPSCs are pluripotent in humans. Also, \"unlimited self-renewal\" for adult stem cells is wrong; they exhaust in culture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since unipotent stem cells (like epidermal stem cells) can only produce one cell type, they are less useful for regenerative medicine than pluripotent stem cells.\" Provide a reasoned judgment with at least two arguments for and two against.",
+     "a": "**Judgment: The claim is oversimplified; unipotent stem cells have distinct advantages for specific therapies.**\n\n**Arguments FOR the claim (pluripotent advantage):**\n1. **Versatility:** One pluripotent line can generate *any* cell type (neurons, cardiomyocytes, beta cells, etc.), enabling broad disease modeling and cell replacement.\n2. **Scalability:** ESCs/iPSCs expand indefinitely in culture, providing unlimited cells for large-scale screening or multiple patients.\n\n**Arguments AGAINST the claim (unipotent advantage):**\n1. **Safety:** Unipotent epidermal stem cells **do not form teratomas** (tumors containing multiple tissue types) — a major risk with pluripotent cells. They are lineage-committed, so differentiation is predictable and controlled.\n2. **Autologous therapy:** A patient's own epidermal stem cells can be harvested (from hair follicles), expanded, and transplanted for burn wounds **without immunosuppression**. Pluripotent cells (unless iPSCs) are allogeneic and require immunosuppression.\n3. **Regulatory path:** Unipotent cell therapies (e.g., cultured keratinocyte grafts) are already clinically approved; pluripotent therapies are mostly experimental.\n\n**Conclusion:** Utility depends on the *clinical context* — unipotent cells excel for tissue-specific repair (skin, cornea); pluripotent cells are needed for multi-lineage or systemic diseases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual experiment to test whether a newly isolated cell population from human liver tissue qualifies as a \"stem cell\" according to the NCERT definition. Specify: (i) the two assays you would perform, (ii) the expected outcome for a true stem cell, and (iii) one control needed for each assay.",
+     "a": "**Assay 1: Self-renewal (Clonogenic assay)**\n- **Method:** Plate single cells at low density in defined medium; observe colony formation over 2–3 weeks.\n- **Expected for stem cell:** Colonies arise from single cells; cells within colonies remain undifferentiated (express stemness markers like OCT4, SOX2 if pluripotent; or LGR5, SOX9 if adult); **serial replating** yields secondary/tertiary colonies.\n- **Control:** A known differentiated hepatocyte population — should not form colonies or should senesce after 1–2 passages.\n\n**Assay 2: Potency (Differentiation assay)**\n- **Method:** Induce differentiation in vitro (e.g., hepatocyte maturation media) and/or transplant into immunodeficient mouse liver (in vivo).\n- **Expected for stem cell:** Generates **multiple liver lineages** — hepatocytes (albumin+, CYP450+) AND cholangiocytes (CK19+) — demonstrating multipotency within the hepatic lineage. If only hepatocytes form, it may be a unipotent progenitor.\n- **Control:** A known hepatic progenitor cell line (if available) or freshly isolated hepatocytes — should show restricted/unipotent differentiation.\n\n**Key insight:** Both assays must be positive. A cell that self-renews but doesn't differentiate is a tumor cell; a cell that differentiates but doesn't self-renew is a progenitor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

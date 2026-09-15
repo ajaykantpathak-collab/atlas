@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_002",
+   "title": "c11_acc_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the primary function of book-keeping in one sentence.",
+     "a": "The primary function of book-keeping is the systematic identification, measurement, and chronological recording of financial transactions in the books of account. A wrong answer (e.g., \"preparing financial statements\" or \"analysing profits\") reveals the student conflates book-keeping with the broader accounting process and does not recognise book-keeping as the recording phase only.",
+     "self_check": true
+    },
+    {
+     "q": "\"Book-keeping is a part of accounting, but accounting is not a part of book-keeping.\" Explain this statement in your own words using the concept of scope.",
+     "a": "Book-keeping covers only the recording stage (identifying, measuring, recording), while accounting encompasses recording PLUS classifying, summarising, analysing, interpreting, and communicating. Therefore, every book-keeping activity is an accounting activity, but accounting includes activities beyond book-keeping. A wrong answer indicates the student sees them as parallel processes rather than a hierarchical relationship, or cannot articulate the additional functions accounting performs.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper records daily cash sales of ₹15,000 and credit sales of ₹8,000 in a register. At year-end, his accountant prepares a Trading and Profit & Loss Account showing gross profit of ₹42,000 and net profit of ₹28,000. Classify each activity as book-keeping or accounting and justify your classification.",
+     "a": "Recording daily sales (₹15,000 cash + ₹8,000 credit) = book-keeping (identification, measurement, chronological recording). Preparing Trading and P&L Account, calculating gross profit (₹42,000) and net profit (₹28,000) = accounting (classifying, summarising, analysing, interpreting, communicating). A wrong classification (e.g., calling profit calculation \"book-keeping\") shows the student cannot distinguish mechanical recording from analytical processing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decision-making utility of book-keeping versus accounting. Can a business owner make informed investment decisions using only book-keeping records? Why or why not?",
+     "a": "No. Book-keeping provides raw, unprocessed data (chronological transactions). Accounting transforms this into classified, summarised, analysed information (financial statements, ratios, trends) that reveals profitability, liquidity, solvency — the basis for investment decisions. A wrong answer (e.g., \"yes, because all data is there\") reveals the student misunderstands that data ≠ information; decision-making requires interpretation, not just recording.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"With modern accounting software like Tally or QuickBooks, book-keeping and accounting have merged into a single function; the distinction is now obsolete.\" Defend or refute with three arguments.",
+     "a": "Refute. (1) Software automates recording (book-keeping) but cannot replace professional judgement in classification choices, estimation (depreciation, provisions), and interpretation. (2) Accounting includes non-routine decisions (accounting policy selection, window dressing detection, forensic analysis) beyond software algorithms. (3) The conceptual hierarchy remains: software output (trial balance) is input for accounting analysis (financial statements, audit, tax planning). A wrong answer accepting the statement shows confusion between automation of tasks and elimination of conceptual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a book-keeper's error in the recording stage leads to an accountant's wrong interpretation, affecting a bank loan decision. Describe the error, its propagation, and the consequence.",
+     "a": "Example: Book-keeper records ₹5,00,000 machinery purchase as \"Repairs Expense\" (revenue expenditure) instead of \"Machinery Asset\" (capital expenditure). Accountant, relying on this, shows lower assets and higher expenses → understates profit by ₹5,00,000 and understates assets. Bank sees lower profitability and asset base, rejects loan application. A poor answer (vague error, no propagation chain) reveals the student cannot trace how recording errors cascade through the accounting process to impact external decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

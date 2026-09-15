@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_4",
+   "title": "c8_physics_ch1_4",
+   "questions": [
+    {
+     "q": "A student observes that a pendulum takes 2 seconds per swing when the string is 1 m long. She writes: \"If I make the string longer, the pendulum will swing differently.\" Why is this NOT a good scientific hypothesis for Class 8?",
+     "a": "The statement is vague: \"differently\" is not measurable and does not specify the direction of change (increase/decrease in time period). A good hypothesis must predict a specific measurable relationship (e.g., \"time period will increase\") with units (seconds) and include reasoning (\"because longer pendulums have greater arc length\"). A wrong answer reveals the student cannot distinguish between a testable prediction and a vague guess.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul hypothesizes: \"If I add more salt to water, the boiling point will increase because salt makes water heavier.\" Identify the error in his reasoning and rewrite the hypothesis correctly using the concept of boiling point elevation from Class 7 heat topics.",
+     "a": "The error: \"heavier\" confuses mass with colligative properties; boiling point elevation depends on number of solute particles, not mass alone. Correct hypothesis: \"If I increase the concentration of salt (g/100 mL water), then the boiling point (°C) will increase because dissolved particles lower vapour pressure, requiring more heat to boil.\" A wrong answer shows the student recalls the trend but lacks conceptual understanding of the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Priya wants to test how the thickness of a copper wire affects its electrical resistance. She has wires of 0.5 mm, 1.0 mm, and 1.5 mm diameter (all 1 m long, same temperature). Write a testable hypothesis for her experiment. Identify the independent variable (with units), dependent variable (with units), and one controlled variable.",
+     "a": "Hypothesis: \"If the diameter of copper wire (mm) increases, then its electrical resistance (Ω) will decrease because thicker wires provide more cross-sectional area for electron flow.\" Independent: diameter (mm); Dependent: resistance (Ω); Controlled: length (1 m), material (copper), temperature (room temp). A wrong answer reveals confusion between independent/dependent variables or inability to assign correct units.",
+     "self_check": true
+    },
+    {
+     "q": "Two students hypothesize about a toy car on a ramp:\nStudent A: \"If I raise the ramp height, the car will go faster at the bottom.\"\nStudent B: \"If I raise the ramp height, the car's speed at the bottom will increase because gravitational potential energy converts to kinetic energy.\"\nCompare the two hypotheses. Which is better for a Class 8 physics investigation and why?",
+     "a": "Student B's hypothesis is better because it includes the scientific reasoning (energy conversion) linking the variables, uses precise language (\"speed at the bottom\" not just \"faster\"), and connects to prior concepts (potential/kinetic energy from Class 7). Student A's hypothesis is testable but lacks explanatory depth. A wrong answer indicates the student cannot evaluate the quality of scientific reasoning in a hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"Hypothesis: Plants grow better with blue light than red light.\" A Class 8 student designs an experiment with two identical plants, one under blue LED, one under red LED, measuring height weekly. Evaluate whether this hypothesis is testable in a school lab. List two practical limitations.",
+     "a": "The hypothesis is testable in principle but has limitations: (1) \"Better\" is ambiguous — must define measurable dependent variable (e.g., height in cm, leaf count, biomass in g). (2) Controlling all other variables (light intensity in lux, duration, soil, water, temperature) is difficult in a school lab; small differences could confound results. A wrong answer shows the student cannot critique experimental feasibility or identify confounding variables.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple hypothesis for an investigation using only household items (no lab equipment) that tests a physics concept from Class 6 or 7 (electricity, heat, light, motion). Write it in \"If... then... because...\" format with measurable variables and units.",
+     "a": "Example: \"If I increase the number of cells in a series circuit (1, 2, 3 cells), then the brightness of an LED (measured by a homemade light sensor using an LDR and multimeter in kΩ) will increase because more cells provide higher voltage, pushing more current through the LED.\" Variables: independent = number of cells (count), dependent = LDR resistance (kΩ) as proxy for brightness, controlled = LED type, wire length, ambient light. A poor answer uses unmeasurable variables, lacks reasoning, or chooses a non-physics concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

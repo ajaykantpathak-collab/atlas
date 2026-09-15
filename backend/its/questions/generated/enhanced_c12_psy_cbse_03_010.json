@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_010",
+   "title": "c12_psy_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define hardiness and list its three constituent components (the three Cs) using the exact terminology from the NCERT textbook.",
+     "a": "Hardiness is a set of beliefs about oneself, the world, and how they interact, consisting of three characteristics: Commitment, Control, and Challenge. Commitment is a sense of purpose and involvement in work, family, hobbies, and social life. Control is a sense of purpose and direction in life, believing one can influence events. Challenge is seeing changes in life as normal and positive rather than as a threat. A wrong answer that lists \"courage, confidence, calmness\" or \"commitment, confidence, challenge\" reveals the student is substituting lay synonyms for the precise psychological constructs — a common error where everyday language replaces technical terminology, costing marks in board exams where exact NCERT phrasing is required.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Hardiness is just another word for resilience — both mean bouncing back from stress.\" Using the NCERT distinction between hardiness (Box 3.3) and resilience, explain why this statement is inaccurate. Identify the specific conceptual difference.",
+     "a": "Hardiness is a *personality trait* — a stable set of beliefs (the three Cs) that shapes *how* stress is appraised *before* and *during* the encounter. Resilience (Box 3.3) is a *dynamic developmental process* reflecting the *outcome* of positive adjustment under adversity, indexed by resources like \"I HAVE, I AM, I CAN.\" The student's error conflates antecedent (hardiness as appraisal style) with consequent (resilience as adaptive outcome). This misconception arises because both terms appear in \"positive health\" sections and both correlate with better stress outcomes. In board exams, questions asking \"Distinguish between hardiness and resilience\" require this precise antecedent-vs-process distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Rohit, a Class 12 student, faces a sudden family financial crisis. He thinks: \"This is terrible, but I've handled tough situations before. I'll talk to my teachers about a fee plan, help my father with the shop accounts, and we'll get through this.\" Identify which TWO of the three Cs are explicitly reflected in Rohit's thoughts. For the third C, state whether it is present, absent, or indeterminate from the vignette, and justify.",
+     "a": "Control is present: \"I'll talk to my teachers... help my father...\" shows belief in personal agency to influence outcomes. Challenge is present: \"we'll get through this\" frames the crisis as a surmountable task rather than a threat. Commitment is indeterminate — the vignette describes instrumental actions but does not reveal whether Rohit feels a sense of purpose and involvement in his *ongoing* life domains (studies, friendships, hobbies) beyond crisis management. A wrong answer claiming all three are present reveals the student equates \"coping actions\" with \"hardiness components\" — failing to see that Commitment requires *sustained engagement* with valued life areas, not just problem-solving in the moment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare hardiness (three Cs) with Lazarus's secondary appraisal (coping resources evaluation). In what specific way does hardiness *precede* and *shape* secondary appraisal? Use the term \"cognitive appraisal\" in your answer.",
+     "a": "Hardiness operates as a *generalized appraisal tendency* that biases primary appraisal (is this a threat or challenge?) and secondary appraisal (do I have resources?) *before* a specific stressor is encountered. High-hardiness individuals enter stressful transactions with a pre-existing belief structure: Commitment ensures the stressor is appraised as relevant to valued goals (not irrelevant), Control ensures secondary appraisal yields \"I have agency,\" and Challenge ensures primary appraisal yields \"this is an opportunity.\" Lazarus's secondary appraisal is *situation-specific* (\"Can I handle *this* exam?\"); hardiness is *cross-situational* (\"I generally handle difficult things\"). The error students make is treating hardiness as a coping *strategy* (like problem-focused coping) rather than an appraisal *lens* that makes certain coping strategies more likely to be selected.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim using evidence from Kobasa's research and the NCERT text: \"Hardiness training programs should focus on teaching people to suppress negative emotions during stress so they appear more 'in control'.\"",
+     "a": "The claim is fundamentally flawed. Hardiness is not emotional suppression — it is a *cognitive belief system* that *reappraises* stressors as challenges, which *naturally* reduces negative emotional intensity without suppression. Kobasa's executives with high hardiness *experienced* stress but did not develop illness; they did not \"suppress\" emotions. NCERT explicitly states hardiness \"takes shape as a sense of personal commitment... a sense of control... and a feeling of challenge\" — all cognitive-affective orientations, not behavioral inhibition. Suppression (an avoidance-oriented coping tactic) is associated with *worse* immune outcomes (per psychoneuroimmunology in c12_psy_cbse_03_006). The student who endorses this claim confuses *control* (belief in influence) with *emotional control* (suppression), a Category error that appears in competitive exam assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-item self-report mini-scale (one item per C, plus one global hardiness item) that a school counselor could use to screen Class 10-12 students for low hardiness. Each item must use a 5-point Likert format (1=Strongly Disagree to 5=Strongly Agree) and map unambiguously to the NCERT definition of its target component. Write the items verbatim.",
+     "a": "**Commitment:** \"I feel deeply involved and find purpose in my studies, hobbies, and relationships, even when they become difficult.\" (Maps to \"commitment to work, family, hobbies and social life\")\n**Control:** \"I believe I can influence the direction of my life and the outcomes of important situations through my own actions.\" (Maps to \"sense of purpose and direction... sense of control over your life\")\n**Challenge:** \"When unexpected changes or difficulties arise, I see them as opportunities to learn and grow rather than as threats.\" (Maps to \"see changes in life as normal and positive rather than as a threat\")\n**Global Hardiness:** \"Overall, I approach stressful situations with a sense of purpose, confidence in my ability to manage them, and a view that they can help me develop.\" (Integrates all three Cs)\nA poor answer would use items like \"I don't get stressed easily\" (measures stress reactivity, not hardiness) or \"I stay calm under pressure\" (measures emotional regulation). The key is that each item must capture the *belief* content specified by NCERT, not behavioral correlates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

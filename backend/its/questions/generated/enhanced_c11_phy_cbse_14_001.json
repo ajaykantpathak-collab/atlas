@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_001",
+   "title": "c11_phy_cbse_14_001",
+   "questions": [
+    {
+     "q": "A student claims: \"Water waves are purely transverse because the water surface moves up and down.\" State whether this claim is correct or incorrect, and name the actual particle motion in deep water waves.",
+     "a": "**Incorrect.** In deep water waves, particles execute **orbital motion** — a combination of vertical and horizontal motion — making them neither purely transverse nor purely longitudinal. The surface motion appears transverse, but below the surface particles move in elliptical orbits. A wrong answer reveals the student is confusing the *surface displacement* with the *actual particle trajectory* and has not considered the restoring forces (gravity + surface tension) that produce orbital motion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a transverse wave can propagate along a stretched string but not through the air inside a room, even though both are elastic media. Use the terms \"shear modulus\" and \"bulk modulus\" in your explanation.",
+     "a": "A stretched string has **tension** providing a restoring force when displaced sideways — this is a **shear strain**; the string's material (and the tension) gives it an effective **shear modulus**, allowing transverse waves. Air has **zero shear modulus** — it cannot sustain a shear stress; any sideways displacement of an air layer simply flows away without a restoring force. Air only has **bulk modulus** (resists compression), so it supports only longitudinal waves. A wrong answer indicates the student memorises \"solids support transverse, fluids don't\" without understanding the *elastic property* (shear vs bulk modulus) that physically enables the restoring force.",
+     "self_check": true
+    },
+    {
+     "q": "A seismic P-wave (primary) travels through the Earth's crust at 6 km/s. An S-wave (secondary) travels at 3.5 km/s in the same rock. (a) Identify which is transverse and which is longitudinal. (b) If the rock's density is 2700 kg/m³, estimate its shear modulus (for S-waves) and bulk modulus (for P-waves), assuming the rock behaves as an isotropic solid where P-wave speed vₚ = √[(K + 4G/3)/ρ] and S-wave speed vₛ = √[G/ρ]. (Use G = shear modulus, K = bulk modulus.)",
+     "a": "**(a)** P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear).  \n**(b)** Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = **3.31 × 10¹⁰ Pa**.  \nvₚ = 6000 m/s → vₚ² = (K + 4G/3)/ρ → K = ρ vₚ² − 4G/3 = 2700×(6000)² − 4×3.31×10¹⁰/3 = 9.72×10¹⁰ − 4.41×10¹⁰ = **5.31 × 10¹⁰ Pa**.  \nA wrong answer (e.g., swapping P/S, or using v = √(B/ρ) for both) reveals confusion between the elastic moduli governing different wave types and inability to apply the correct speed formula for each.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following two statements and decide which is physically correct. Justify your choice.\nStatement A: \"In a longitudinal wave, particles move from the source to the observer carrying energy.\"\nStatement B: \"In a longitudinal wave, particles oscillate about fixed equilibrium positions; energy is transferred by the propagating compression/rarefaction pattern.\"",
+     "a": "**Statement B is correct.** In any mechanical wave (transverse or longitudinal), particles oscillate about fixed mean positions — they do **not** undergo net displacement from source to observer. Energy travels via the wave pattern (compressions/rarefactions in longitudinal case), not by mass transport. Statement A confuses wave propagation with bulk fluid flow (wind). A student choosing A holds the persistent misconception that \"waves move matter,\" ignoring the distinction between *particle velocity* (oscillatory) and *wave velocity* (propagation of disturbance).",
+     "self_check": true
+    },
+    {
+     "q": "A physics teacher demonstrates a wave on a long rope by shaking one end vertically. A student says: \"The rope is moving forward, so this is a longitudinal wave because the wave travels along the rope.\" Evaluate this statement and explain the error.",
+     "a": "**The statement is incorrect.** The wave travels *along* the rope (x-direction), but each segment of the rope moves *vertically* (y-direction) — particle motion is **perpendicular** to propagation direction, which is the definition of a **transverse wave**. The student confuses the *direction of wave travel* (along the medium) with the *direction of particle oscillation*. The error stems from thinking \"along the rope = longitudinal\" without checking the relative orientation of particle displacement vs. wave velocity vector.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that a transverse wave cannot propagate in a fluid (water), but a longitudinal wave can. Describe the setup, what you would observe, and the physical reason for the difference.",
+     "a": "**Setup:** Fill a long transparent tube (e.g., a plastic pipe) with water. At one end, attach a piston that can move (a) sideways (transverse) and (b) back-forth (longitudinal).  \n**Observation:** (a) Sideways piston motion creates only local turbulence; no sustained wave propagates down the tube. (b) Back-forth piston motion creates clear compression pulses travelling along the water column.  \n**Reason:** Water has **zero shear modulus** — it cannot provide a restoring force for transverse displacement (no shear elasticity). It has **non-zero bulk modulus** — it resists compression, providing a restoring force for longitudinal displacement.  \nA poor answer (e.g., \"water is liquid so no transverse waves\" without mentioning shear modulus) shows rote memorisation without connecting to the *elastic property* that physically enables or prevents wave propagation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

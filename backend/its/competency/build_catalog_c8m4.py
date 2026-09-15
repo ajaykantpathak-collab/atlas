@@ -1,0 +1,381 @@
+"""Build concept catalog for Class 8 Maths Chapter 4 (Data Handling).
+Extracted from hemh104.txt -- NCERT Class 8 Maths textbook (Reprint 2024-25).
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 8,
+    "subject": "maths",
+    "chapter": 4,
+    "chapter_title": "Data Handling",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh104.txt",
+    "concepts": [
+        {
+            "id": "c8m4.1.1",
+            "title": "Data and Graphical Representation",
+            "section": "4.1",
+            "definition": "The information collected in all such cases (runs of a batsman, wickets of a bowler, marks of students) is called data. Data is usually collected in the context of a situation that we want to study. A Pictograph is a pictorial representation of data using symbols. A bar graph is a display of information using bars of uniform width, their heights being proportional to the respective values. A double bar graph is a bar graph showing two sets of data simultaneously; it is useful for the comparison of the data.",
+            "formula": "bar height proportional to value; bars of equal width with equal gaps",
+            "key_idea": "Data organised and shown with pictographs, bar graphs or double bar graphs.",
+            "textbook_ref": "hemh104.txt lines 5-51",
+            "question_patterns": [
+                "what is data",
+                "what is a pictograph",
+                "what is a bar graph",
+                "what is a double bar graph",
+                "read the bar graph and answer",
+                "in which year is the number of students maximum",
+                "in which subject has the performance improved the most",
+                "how many cars were produced in the month of July",
+                "draw an appropriate graph to represent the given information",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "identify the axes or symbols",
+                    "explain": "Read what each axis or symbol represents",
+                },
+                {
+                    "step": 2,
+                    "action": "compare bar heights or counts",
+                    "explain": "Bar heights give the quantity for each category",
+                },
+                {
+                    "step": 3,
+                    "action": "answer the comparison",
+                    "explain": "State the maximum, minimum, trend or difference asked for",
+                },
+            ],
+        },
+        {
+            "id": "c8m4.2.1",
+            "title": "Circle Graph or Pie Chart",
+            "section": "4.2",
+            "definition": "A circle graph shows the relationship between a whole and its parts. The whole circle is divided into sectors. The size of each sector is proportional to the activity or information it represents. The proportion of a sector = number of items in the sector / whole. A circle graph is also called a pie chart.",
+            "formula": "proportion of sector = part / whole",
+            "key_idea": "Pie chart: each sector is a fraction of the whole circle.",
+            "textbook_ref": "hemh104.txt lines 74-100",
+            "question_patterns": [
+                "what is a circle graph",
+                "what is a pie chart",
+                "find the fraction of the circle representing each information",
+                "find the proportion of each sector",
+                "which type of programmes are viewed the most",
+                "which sector is the largest in the pie chart",
+                "the pie chart shows the relationship between",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "find the whole",
+                    "explain": "The whole is the total of all the parts shown",
+                },
+                {
+                    "step": 2,
+                    "action": "divide part by whole",
+                    "explain": "proportion = part / whole",
+                    "compute": "part / whole",
+                },
+                {
+                    "step": 3,
+                    "action": "check the fractions add to 1",
+                    "explain": "The fractions for all the sectors add up to one whole",
+                },
+            ],
+        },
+        {
+            "id": "c8m4.2.2",
+            "title": "Drawing Pie Charts (Central Angle)",
+            "section": "4.2.1",
+            "definition": "The total angle at the centre of a circle is 360 degrees. The central angle of the sectors will be a fraction of 360 degrees. To draw a pie chart: (1) draw a circle with any convenient radius and mark its centre O and a radius OA; (2) use the protractor to draw each sector angle; (3) continue marking the remaining sectors.",
+            "formula": "central angle = (value / total) x 360",
+            "key_idea": "Central angle of a sector = fraction of 360 degrees.",
+            "textbook_ref": "hemh104.txt lines 111-148, 167-199 (Example 2)",
+            "question_patterns": [
+                "draw a pie chart for the given data",
+                "find the central angle of each sector",
+                "find the central angle for the season with the most votes",
+                "represent the data in a pie chart",
+                "show the information by a pie chart",
+                "find the angle of the sector for the given item",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "find the total",
+                    "explain": "Add all the values to get the total",
+                    "compute": "total",
+                },
+                {
+                    "step": 2,
+                    "action": "compute each central angle",
+                    "explain": "central angle = value / total x 360",
+                    "compute": "value * 360 / total",
+                },
+                {
+                    "step": 3,
+                    "action": "draw the sectors",
+                    "explain": "Draw a circle, then use a protractor to mark each central angle in turn",
+                },
+            ],
+        },
+        {
+            "id": "c8m4.2.3",
+            "title": "Reading Values from a Pie Chart",
+            "section": "4.2.1",
+            "definition": "A pie chart gives each sector as a percentage of the whole. To find an actual amount, use the unitary method: if a given percent represents a known amount, then 1 percent represents amount / percent, and the required percent represents (amount / percent) x target_percent.",
+            "formula": "required amount = (given amount / given percent) x target percent",
+            "key_idea": "Use the unitary method to convert between percentages and amounts.",
+            "textbook_ref": "hemh104.txt lines 149-166 (Example 1)",
+            "question_patterns": [
+                "if the monthly savings of the family is 3000 what is the monthly expenditure on clothes",
+                "on which item was the expenditure maximum",
+                "expenditure on which item equals the total savings",
+                "how many young people were surveyed if 20 liked classical music",
+                "find the amount from the pie chart percentage",
+                "how many marks did the student score in the subject shown by the sector",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "identify the known sector",
+                    "explain": "Note the percent and the amount it represents",
+                },
+                {
+                    "step": 2,
+                    "action": "find the amount for 1 percent",
+                    "explain": "amount for 1% = given amount / given percent",
+                    "compute": "given_amount / given_percent",
+                },
+                {
+                    "step": 3,
+                    "action": "scale to the required percent",
+                    "explain": "required amount = amount for 1% x target percent",
+                    "compute": "given_amount * target_percent / given_percent",
+                },
+            ],
+        },
+        {
+            "id": "c8m4.3.1",
+            "title": "Random Experiments and Equally Likely Outcomes",
+            "section": "4.3.1",
+            "definition": "Such an experiment where the result cannot be controlled (like tossing a coin giving Head or Tail) is called a random experiment; Head or Tail are the two outcomes of this experiment. Outcomes of an experiment are equally likely if each has the same chance of occurring. A random experiment is one whose outcome cannot be predicted exactly in advance.",
+            "formula": "equally likely: each outcome has the same chance",
+            "key_idea": "A random experiment has outcomes that cannot be predicted; equally likely means same chance.",
+            "textbook_ref": "hemh104.txt lines 291-358, 462-464",
+            "question_patterns": [
+                "what are the possible outcomes when a coin is tossed",
+                "list the outcomes of the experiment",
+                "what are the possible outcomes when a die is thrown",
+                "what is a random experiment",
+                "what are equally likely outcomes",
+                "list the outcomes of spinning the wheel",
+                "when two coins are tossed together what are the outcomes",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "list all outcomes",
+                    "explain": "Write every possible result of the experiment (e.g. a die gives 1, 2, 3, 4, 5, 6)",
+                },
+                {
+                    "step": 2,
+                    "action": "check each outcome",
+                    "explain": "Each outcome must have the same chance of occurring to be equally likely",
+                },
+            ],
+        },
+        {
+            "id": "c8m4.3.2",
+            "title": "Probability of an Event",
+            "section": "4.3.3",
+            "definition": "Each outcome of an experiment or a collection of outcomes makes an event. Probability of an event = number of outcomes that make an event / total number of outcomes of the experiment, when the outcomes are equally likely. For example, the probability of getting a head when a coin is tossed = 1/2; the probability of getting an even number on a die is 3/6. The probability of an event not happening = 1 - probability of the event (probability it rains 1/10, probability it does not rain 9/10).",
+            "formula": "probability = favorable outcomes / total outcomes",
+            "key_idea": "Probability = outcomes making the event divided by total outcomes.",
+            "textbook_ref": "hemh104.txt lines 359-402, 410-418, 465-468",
+            "question_patterns": [
+                "what is the probability of getting a head",
+                "find the probability of getting a red ball",
+                "what is the probability of getting the outcome 2 on a die",
+                "find the probability of getting an even number",
+                "what is the probability of the pointer stopping on D",
+                "what is the probability of getting a green sector",
+                "what is the probability of not getting a green sector",
+                "probability of getting a number less than 6",
+                "probability of getting an ace from a deck of 52 cards",
+                "find the probability of the event",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "count the total outcomes",
+                    "explain": "Total number of outcomes of the experiment, e.g. a bag with 4 red and 2 yellow balls gives 4 + 2 = 6",
+                    "compute": "total_outcomes",
+                },
+                {
+                    "step": 2,
+                    "action": "count outcomes making the event",
+                    "explain": "Number of outcomes that make the event, e.g. red ball = 4",
+                    "compute": "favorable_outcomes",
+                },
+                {
+                    "step": 3,
+                    "action": "divide",
+                    "explain": "probability = favorable / total",
+                    "compute": "favorable_outcomes / total_outcomes",
+                },
+                {
+                    "step": 4,
+                    "action": "for the complementary event",
+                    "explain": "probability of NOT the event = 1 - probability of the event",
+                    "compute": "1 - favorable_outcomes / total_outcomes",
+                },
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "hemh104.txt lines 149-166 (Example 1)",
+            "concept": "c8m4.2.3",
+            "question_type": "pie_chart_amount",
+            "question_pattern": "if {given_percent}% represents {given_amount}, what does {target_percent}% represent",
+            "extracted_variables": {
+                "given_percent": "percent of the known sector",
+                "given_amount": "amount of the known sector",
+                "target_percent": "percent of the required sector",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "read the pie chart",
+                    "explain": "Identify the sector percents and the known amount",
+                },
+                {
+                    "step": 2,
+                    "action": "unitary method",
+                    "explain": "required = given amount / given percent x target percent",
+                    "compute": "given_amount * target_percent / given_percent",
+                },
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "hemh104.txt lines 167-199 (Example 2)",
+            "concept": "c8m4.2.2",
+            "question_type": "draw_pie_chart",
+            "question_pattern": "draw a pie chart for the sales data with total {total}",
+            "extracted_variables": {
+                "total": "total of all values",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "find the total",
+                    "explain": "Add the sales of all items",
+                },
+                {
+                    "step": 2,
+                    "action": "fraction of each item",
+                    "explain": "fraction = item sale / total",
+                    "compute": "value / total",
+                },
+                {
+                    "step": 3,
+                    "action": "central angle of each item",
+                    "explain": "central angle = fraction x 360",
+                    "compute": "value * 360 / total",
+                },
+                {
+                    "step": 4,
+                    "action": "draw",
+                    "explain": "Draw the circle and mark each sector with a protractor",
+                },
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "hemh104.txt lines 390-402 (Example 3)",
+            "concept": "c8m4.3.2",
+            "question_type": "probability_balls",
+            "question_pattern": "a bag has {red} red balls and {yellow} yellow balls, find the probability of getting a red ball",
+            "extracted_variables": {
+                "red": "number of red balls",
+                "yellow": "number of yellow balls",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "total outcomes",
+                    "explain": "There are in all (red + yellow) outcomes",
+                    "compute": "red + yellow",
+                },
+                {
+                    "step": 2,
+                    "action": "probability of red",
+                    "explain": "probability of red = red / total",
+                    "compute": "red / (red + yellow)",
+                },
+                {
+                    "step": 3,
+                    "action": "probability of yellow",
+                    "explain": "probability of yellow = yellow / total",
+                    "compute": "yellow / (red + yellow)",
+                },
+                {
+                    "step": 4,
+                    "action": "compare",
+                    "explain": "State which probability is more",
+                },
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex4.1",
+            "source_ref": "hemh104.txt lines 238-290 (Exercise 4.1)",
+            "questions": [
+                "A survey on the type of music young people liked: (i) if 20 people liked classical music, how many young people were surveyed? (ii) which type of music is liked by the maximum number of people? (iii) if a cassette company were to make 1000 CDs, how many of each type would they make?",
+                "A group of 360 people were asked to vote for their favourite season: (i) which season got the most votes? (ii) find the central angle of each sector (iii) draw a pie chart to show this information",
+                "Draw a pie chart showing the colours preferred by a group of people (Blue 18, Green 9, Red 6, Yellow 3, Total 36). Find the proportion of each sector and the corresponding angles",
+                "A pie chart gives the marks scored in an examination. If the total marks obtained were 540: (i) in which subject did the student score 105 marks? (ii) how many more marks were obtained in Mathematics than in Hindi? (iii) examine whether the sum of marks in Social Science and Mathematics is more than in Science and Hindi",
+                "The number of students in a hostel speaking different languages is given. Display the data in a pie chart (Hindi 40, English 12, Marathi 9, Tamil 7, Bengali 4, Total 72)",
+            ],
+        },
+        {
+            "id": "ex4.2",
+            "source_ref": "hemh104.txt lines 434-454 (Exercise 4.2)",
+            "questions": [
+                "List the outcomes you can see in these experiments: (a) spinning a wheel (b) tossing two coins together",
+                "When a die is thrown, list the outcomes of an event of getting (i) (a) a prime number (b) not a prime number (ii) (a) a number greater than 5 (b) a number not greater than 5",
+                "Find the: (a) probability of the pointer stopping on D (b) probability of getting an ace from a well shuffled deck of 52 playing cards (c) probability of getting a red apple",
+                "Numbers 1 to 10 are written on ten separate slips kept in a box. What is the probability of (i) getting a number 6? (ii) getting a number less than 6? (iii) getting a number greater than 6? (iv) getting a 1-digit number?",
+                "If you have a spinning wheel with 3 green sectors, 1 blue sector and 1 red sector, what is the probability of getting a green sector? What is the probability of getting a non blue sector?",
+                "Find the probabilities of the events given in Question 2",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class8_maths_ch4_data_handling.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

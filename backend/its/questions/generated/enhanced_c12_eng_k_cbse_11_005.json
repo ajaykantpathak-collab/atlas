@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_11_005",
+   "title": "c12_eng_k_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the exact number of swans the speaker counts in the first stanza, and why does the precision of that number matter for characterizing them as a collective entity?",
+     "a": "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate — subtly introduces the theme of incompleteness that mirrors the speaker's solitary state, while the precise count establishes the swans as a knowable, finite collective rather than an amorphous flock. A wrong answer (e.g., \"about fifty\" or \"many swans\") reveals the student misses how Yeats uses exactitude to make the swans a distinct character with a specific identity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the swans' behavior in the second stanza (\"All suddenly mount / And scatter wheeling in great broken rings / Upon their clamorous wings\") differs from the speaker's internal state at that moment.",
+     "a": "The swans erupt into sudden, coordinated, noisy flight — \"clamorous wings,\" \"broken rings\" — displaying raw, collective energy and freedom. The speaker, by contrast, stands static on the shore, heart \"sore,\" burdened by memory (\"The nineteenth autumn has come upon me\"). A wrong answer that describes both as \"beautiful\" or \"peaceful\" shows the student has not grasped the central contrast: kinetic vitality vs. static sorrow.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"foil\" to the swans: identify two specific lines from stanzas three and four that function as direct foils to the speaker's admission \"my heart is sore\" and \"All's changed since I... / Trod with a lighter tread.\"",
+     "a": "Stanza 3: \"Their hearts have not grown old\" directly opposes the speaker's aged, sorrowing heart. Stanza 4: \"Passion or conquest, wander where they will, / Attend upon them still\" opposes the speaker's loss of passion and the inevitability of change (\"All's changed\"). A student who quotes only descriptive lines (e.g., \"paddle in the cold\") misses the *foil* function — the lines must explicitly counter the speaker's condition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the swans' characterization shifts from stanzas 1–3 (observed in motion, counted, heard) to stanza 5 (\"But now they drift on the still water, / Mysterious, beautiful\"). What does this shift reveal about the speaker's changing relationship to them?",
+     "a": "In stanzas 1–3, the swans are dynamic, knowable, and auditory (\"clamorous wings,\" \"bell-beat\"). In stanza 5, they become static, silent, and unknowable (\"Mysterious, beautiful,\" \"drift on the still water\"). This shift mirrors the speaker's movement from active engagement (counting, listening, remembering) to passive anticipation of loss (\"when I awake some day / To find they have flown away\"). A wrong answer that sees only \"they are calm now\" misses the epistemological shift: the swans transform from witnessed reality into haunting symbol.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The swans are merely a beautiful natural spectacle; the poem is really about the poet's feelings.\" Defend or refute using evidence from at least three stanzas.",
+     "a": "Refute. The swans are not passive backdrop; they are an active symbolic force. Stanza 1: their precise number structures the poem's reality. Stanza 2: their \"clamorous wings\" disrupt the speaker's twilight reverie. Stanza 3: their eternal youth (\"hearts have not grown old\") is the standard by which the speaker measures his decay. Stanza 4: their enduring passion (\"Passion or conquest... Attend upon them still\") mocks human transience. Stanza 5: their mystery and potential departure (\"Delight men's eyes when I awake some day / To find they have flown away\") dictate the poem's final emotional trajectory. A student who agrees with the claim treats the poem as prose confession, missing how the swans *generate* the speaker's insight.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza that could serve as a \"stanza 6\" to the poem, written from the swans' collective perspective, maintaining the poem's rhyme scheme (ABCBDD) and meter (roughly iambic pentameter/trimeter alternation). Your stanza must reflect the swans' awareness of the speaker.",
+     "a": "Example:\nWe watch the man who counts the years, (A)\nHis tread no longer light as air, (B)\nHe sees our flight, he counts our tears, (C)\nBut knows not why we linger there. (B)\nWe are the wind, we are the stay, (D)\nHe is the dust, we are the day. (D)\nA poor answer would ignore the rhyme scheme, meter, or the swans' symbolic omniscience (\"We are the wind...\"). This tests whether the student has internalized the swans as a conscious, eternal character.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

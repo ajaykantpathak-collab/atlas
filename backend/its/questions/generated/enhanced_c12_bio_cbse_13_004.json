@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_004",
+   "title": "c12_bio_cbse_13_004",
+   "questions": [
+    {
+     "q": "A researcher uses the quadrat method to estimate the population density of grasshoppers in a 10-hectare field. She places 20 quadrats of 1 m² each randomly and counts a total of 150 grasshoppers. What is the estimated population density per hectare, and what is the total estimated population in the field?",
+     "a": "Density = total individuals counted / total area sampled = 150 / (20 × 1 m²) = 7.5 individuals/m². Since 1 hectare = 10,000 m², density per hectare = 7.5 × 10,000 = 75,000 individuals/hectare. Total estimated population = density per hectare × total hectares = 75,000 × 10 = 750,000 grasshoppers. A wrong answer (e.g., forgetting to convert m² to hectares, or multiplying by 20 instead of dividing) reveals the student cannot handle unit conversions or misunderstands that quadrat sampling estimates density from a sample, not the whole area.",
+     "self_check": true
+    },
+    {
+     "q": "In a mark-recapture study of frogs in a pond, 80 frogs are captured, marked, and released. Two weeks later, 60 frogs are captured, of which 12 are marked. A student calculates the population as N = (80 × 60) / 12 = 400. Is this correct? Explain the assumptions required for this estimate to be valid.",
+     "a": "Yes, the calculation is correct: N = (M × C) / R = (80 × 60) / 12 = 400 frogs. However, the estimate assumes: (1) marked and unmarked frogs mix randomly in the population, (2) no births, deaths, immigration, or emigration occur between marking and recapture (closed population), (3) marks are not lost or overlooked, (4) marking does not affect survival or catchability. A student who gives only the number 400 without listing assumptions reveals they treat the formula as a plug-and-chug tool without understanding the ecological conditions required for validity — a common error in NEET where assumption-based questions appear.",
+     "self_check": true
+    },
+    {
+     "q": "A town has a population of 50,000. In one year, 650 live births and 400 deaths are recorded. Calculate the crude birth rate, crude death rate, and the natural increase rate (per 1000 per year). If the town's population at the end of the year is 50,300, explain the discrepancy between calculated natural increase and actual population change.",
+     "a": "Crude birth rate = (650 / 50,000) × 1000 = 13 per 1000 per year. Crude death rate = (400 / 50,000) × 1000 = 8 per 1000 per year. Natural increase rate = 13 – 8 = 5 per 1000 per year. Expected increase = (5/1000) × 50,000 = 250 individuals. Actual increase = 50,300 – 50,000 = 300. Discrepancy of 50 individuals is due to net migration (immigration – emigration) which crude rates ignore. A student who says \"the calculation is wrong\" or ignores migration reveals they think crude rates capture all population change, missing that they only reflect births and deaths — a key distinction for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of quadrat sampling vs. mark-recapture for estimating population density of: (a) banyan trees in a 50-hectare forest, (b) tigers in the same forest. Justify your answer with two reasons for each.",
+     "a": "(a) Banyan trees: Quadrat sampling is suitable because trees are sessile (immobile), so quadrats give accurate counts; they are large and easily identifiable, reducing misidentification errors. Mark-recapture is unsuitable because trees cannot be \"recaptured\" and marking damages bark. (b) Tigers: Mark-recapture (via camera traps or pugmarks) is suitable because tigers are mobile, elusive, and have large home ranges — quadrats would miss most individuals. Quadrat sampling is unsuitable because low density and mobility violate the assumption of uniform distribution. A student who swaps the methods reveals they don't link method choice to organism mobility and distribution pattern — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A population has a crude birth rate of 25 per 1000 and crude death rate of 10 per 1000. Another population has specific birth rates of 30 per 1000 for females aged 15–49 and specific death rates of 5 per 1000 for infants and 15 per 1000 for elderly. Which set of rates gives more insight for predicting future population structure? Evaluate with reasoning.",
+     "a": "Specific rates give more insight. Crude rates use total population in the denominator, masking age-structure effects. A population with many elderly may have a high crude death rate even if age-specific mortality is low. Specific birth rate (fertility rate) reveals reproductive potential of the actual childbearing cohort. Specific death rates by age identify vulnerable groups (infants, elderly) and allow construction of life tables. For predicting future structure, age-specific data is essential — crude rates cannot project age pyramids. A student who chooses crude rates because \"they are simpler\" reveals they don't understand that crude rates conflate demographic structure with vital rates — a conceptual gap for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field protocol to estimate the population density of Indian bullfrogs (Hoplobatrachus tigerinus) in a 2-hectare seasonal wetland during monsoon. Specify: (i) method choice with justification, (ii) sampling design (number/size of units), (iii) how you will handle the \"closed population\" assumption, (iv) one major source of bias and how to minimise it.",
+     "a": "(i) Mark-recapture using toe-clipping or PIT tags — frogs are mobile, nocturnal, and hide in vegetation, making quadrats unreliable. (ii) Capture 50–100 frogs over 3 nights (marking each), release; after 5–7 days for mixing, recapture 50–100 over 3 nights. Use Lincoln-Petersen with Chapman correction for small samples. (iii) Conduct study within a single breeding season (2–3 weeks) when population is relatively closed; avoid periods of mass metamorphosis or dispersal. (iv) Bias: Trap-happy or trap-shy behaviour. Minimise by using multiple capture methods (hand-capture, funnel traps) and not re-using the same trap locations. A poor answer that suggests quadrat sampling for frogs or ignores the closed-population assumption reveals the student cannot match method to organism ecology — a skill tested in NEET practical-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

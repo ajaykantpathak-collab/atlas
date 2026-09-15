@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_033",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_033",
+   "title": "c6_physics_ch08_033",
+   "questions": [
+    {
+     "q": "What do we call the motion of a pendulum where it moves to and fro about a fixed position?",
+     "a": "This is called oscillatory motion. A wrong answer like \"linear motion\" suggests the student does not recognize the \"to and fro\" nature of the swing, confusing it with simple straight-line travel.",
+     "self_check": true
+    },
+    {
+     "q": "If you pull a pendulum bob a little further to the side than before, does the time taken for one full swing change significantly?",
+     "a": "No, the time (period) remains the same. A wrong answer suggests the student does not understand \"isochronism,\" likely believing that a larger swing must inherently take more time, ignoring the property that period depends on length, not amplitude.",
+     "self_check": true
+    },
+    {
+     "q": "A pendulum has a string of a certain length. If you replace the bob with a heavier one but keep the string length the same, what happens to the time for one swing?",
+     "a": "The time remains unchanged because the period is determined by the length of the string, not the weight of the bob. Answering that the time changes reveals a misconception that heavier objects must move slower or faster due to gravity's effect on mass.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a pendulum considered a good device for measuring time?",
+     "a": "It is useful because it is periodic, meaning it repeats its motion in equal intervals of time. If a student says \"because it is heavy,\" they are failing to link the rhythm of the motion to the concept of time measurement.",
+     "self_check": true
+    },
+    {
+     "q": "If two pendulums have different string lengths, will they have the same time period?",
+     "a": "No, the longer pendulum will take more time for a full swing. Answering \"yes\" shows the student has missed the key relationship that the period depends strictly on the length of the pendulum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that a pendulum's period is independent of the push given to it (for small swings).",
+     "a": "The student should describe setting the pendulum in motion with a small pull, timing 10 swings with a stopwatch, then repeating the process with a slightly larger pull and comparing the average time per swing. A poor answer would suggest observing just one swing, which is too prone to human error to prove the consistency of the period.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_003",
+   "title": "c11_ip_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ndef greet(name, greeting=\"Hello\"):\n    print(greeting, name)\n\ngreet(\"Aman\")\ngreet(\"Priya\", \"Namaste\")\n```",
+     "a": "The output is:\n```\nHello Aman\nNamaste Priya\n```\nA wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the default value for `greeting` because only one positional argument is supplied, while the second call overrides the default by providing a second positional argument.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following function definition causes a SyntaxError:\n```python\ndef calculate_area(length=10, width):\n    return length * width\n```",
+     "a": "Python requires all non-default parameters (parameters without a default value) to appear before any default parameters. Here `width` (non-default) follows `length=10` (default), violating this rule. A student who thinks the order does not matter or that defaults can be anywhere has not internalised the \"non-defaults first\" syntax constraint, which exists because positional argument matching fills parameters left-to-right and cannot skip a default parameter to reach a non-default one.",
+     "self_check": true
+    },
+    {
+     "q": "Given the function:\n```python\ndef book_ticket(destination, source=\"Delhi\", class_type=\"Sleeper\"):\n    print(f\"Booking {class_type} ticket from {source} to {destination}\")\n```\nWrite the exact function call(s) to produce this output:\n`Booking AC ticket from Mumbai to Chennai`",
+     "a": "`book_ticket(\"Chennai\", \"Mumbai\", \"AC\")` OR `book_ticket(destination=\"Chennai\", source=\"Mumbai\", class_type=\"AC\")` OR `book_ticket(\"Chennai\", class_type=\"AC\", source=\"Mumbai\")` (mixed positional then keyword). A student who writes `book_ticket(\"Chennai\", \"AC\", \"Mumbai\")` incorrectly assumes positional order matches the printed sentence order rather than the parameter definition order. This reveals confusion between parameter position and semantic meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of these two functions when called as `func()` with no arguments:\n```python",
+     "a": "Function A returns `[1]`, then `[1, 1]`, then `[1, 1, 1]` because the default list `[]` is created once at definition time and shared across all calls (mutable default argument trap). Function B returns `[1]` every time because `None` is immutable and a new list is created inside the function for each call. A student who says both behave identically has not grasped that default argument values are evaluated at function definition, not at call time — a critical senior-secondary distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Default arguments allow a function to be called with fewer arguments than parameters, so they make the function more flexible. Therefore, we should always give every parameter a default value.\" Evaluate this statement.",
+     "a": "The statement is partially correct but dangerous. While defaults increase flexibility, making all parameters optional can hide required inputs, leading to silent logical errors (e.g., a banking function `transfer(amount, from_acc=\"default\", to_acc=\"default\")` called as `transfer(5000)` would execute with wrong accounts). Good design uses defaults only for truly optional behaviour (like a config flag), not for mandatory data. A student who agrees fully lacks the judgement to distinguish between \"optional\" and \"required\" parameters in API design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `calculate_bill` for a restaurant that takes: (1) a list of item prices (required), (2) a tax rate with default 0.18 (18% GST), (3) a service charge with default 0.05 (5%), and (4) a boolean `apply_discount` with default False. The function should return the total bill. Write the function definition and show two distinct valid calls: one using all defaults, one overriding only tax and service charge using keyword arguments.",
+     "a": "```python\ndef calculate_bill(prices, tax_rate=0.18, service_charge=0.05, apply_discount=False):\n    subtotal = sum(prices)\n    total = subtotal * (1 + tax_rate + service_charge)\n    if apply_discount:\n        total *= 0.9\n    return round(total, 2)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_004",
+   "title": "c11_ip_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the exact syntax of an if-else statement in Python, including the required punctuation and indentation for both blocks?",
+     "a": "The syntax is:\n```\nif condition:\n    # block of statements (indented)\nelse:\n    # block of statements (indented)\n```\nA colon `:` must follow the condition and the `else` keyword. Both blocks must be indented by the same amount (typically 4 spaces). A wrong answer reveals the student has not internalised Python's strict indentation and colon rules, leading to `IndentationError` or `SyntaxError` at runtime.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when the condition in an if-else statement evaluates to False. How many blocks are executed in total?",
+     "a": "When the condition is False, the block under `if` is skipped entirely and the block under `else` is executed. Exactly one block (either the if-block or the else-block) runs every time; the other is completely bypassed. A wrong answer (e.g., \"both blocks run\" or \"the program stops\") reveals the misconception that if-else is two independent if statements rather than a single mutually exclusive branching construct.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that reads an integer `n` from the user and prints \"Even\" if `n` is divisible by 2, otherwise prints \"Odd\". Use only one if-else statement.",
+     "a": "```python\nn = int(input(\"Enter an integer: \"))\nif n % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n```\nSteps: 1) Read input and convert to int. 2) Check condition `n % 2 == 0`. 3) If True, print \"Even\". 4) Else, print \"Odd\". A wrong answer (e.g., using two separate `if` statements, forgetting `else`, or incorrect modulus logic) shows the student cannot translate a binary decision into the correct control structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two code snippets. Do they produce the same output for every possible input? Justify your answer.\nSnippet A:\n```python\nif x > 0:\n    print(\"Positive\")\nelse:\n    print(\"Non-positive\")\n```\nSnippet B:\n```python\nif x > 0:\n    print(\"Positive\")\nif x <= 0:\n    print(\"Non-positive\")\n```",
+     "a": "Yes, they produce identical output for all inputs because the conditions `x > 0` and `x <= 0` are logical complements and mutually exclusive. However, Snippet A uses a single if-else (one condition evaluation) while Snippet B uses two independent if statements (two condition evaluations). A wrong answer (e.g., \"they differ when x=0\") reveals the student does not recognise that `else` is equivalent to the negation of the if-condition and that both forms cover all cases exactly once.",
+     "self_check": true
+    },
+    {
+     "q": "A student wrote the following program to find the larger of two numbers. Identify the logical error and correct it.\n```python\na = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"Larger is\", a)\nelse:\n    print(\"Larger is\", b)\n```\nIs the program correct for all inputs? If not, what specific input exposes the error and how would you fix it?",
+     "a": "The program is incorrect when `a == b` because it prints \"Larger is\" the second number, implying a strict larger value exists when both are equal. Input `a=5, b=5` exposes this: output \"Larger is 5\" is misleading. Fix: change condition to `if a >= b:` and adjust message to \"Larger or equal is\", or add an explicit equality check with `elif a == b:`. A wrong answer (e.g., \"it works fine\") shows the student overlooks boundary/equality cases — a classic senior-secondary error where `>` vs `>=` changes semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) that requires a two-way decision and write the complete Python program using if-else. The scenario must involve numeric input, a comparison, and two distinct calculations (not just different messages).",
+     "a": "Scenario: An auto-rickshaw fare calculator. First 2 km costs ₹25 (minimum fare). Every additional km costs ₹10. Read distance travelled (in km, as float). If distance ≤ 2, fare = 25; else fare = 25 + (distance - 2) * 10. Print fare rounded to 2 decimals.\n```python\ndist = float(input(\"Enter distance in km: \"))\nif dist <= 2:\n    fare = 25.0\nelse:\n    fare = 25.0 + (dist - 2) * 10\nprint(f\"Fare: ₹{fare:.2f}\")\n```\nA poor answer uses only message printing, ignores the minimum fare logic, or fails to handle float input and rounding — revealing inability to map a piecewise real-world formula to if-else branches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

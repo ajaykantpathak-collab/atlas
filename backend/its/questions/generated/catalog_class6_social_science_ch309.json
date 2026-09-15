@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class6_social_science_ch309",
+ "concepts": [
+  {
+   "id": "fess.309.1.1",
+   "title": "Street Vending and Self-Employment",
+   "questions": [
+    {
+     "q": "Using the method 'Street Vending and Self-Employment', work with: other_workers = 2500, street_workers = 1200. Carry the chain through step by step and give the final value of total_workers.",
+     "a": "3700 persons",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Street Vending and Self-Employment' and work with: other_workers = 48000, street_workers = 1200. Carry the chain through step by step and give the final value of total_workers.",
+     "a": "49200 persons",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Street Vending and Self-Employment' refers to.",
+     "a": "Individuals who manage their own small-scale trade or services on city roadsides using temporary setups, carts, or pavement space.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Street Vending and Self-Employment'.",
+     "a": "Self-managed work with no employer and temporary physical structures.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Street Vending and Self-Employment', in plain ASCII form.",
+     "a": "total_workers = street_workers + other_workers",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.1.2",
+   "title": "Calculating Net Daily Savings",
+   "questions": [
+    {
+     "q": "How much does a worker save if they earn {daily_earnings} and spend {daily_expenses}? Use the method 'Calculating Net Daily Savings'. Work with: daily_earnings = 40, daily_expenses = 5000. Carry the chain through step by step and give the final value of net_savings.",
+     "a": "-4960 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the daily savings of a rickshaw puller earning {daily_earnings} with costs of {daily_expenses}. Use the method 'Calculating Net Daily Savings'. Work with: daily_earnings = 6, daily_expenses = 12000. Carry the chain through step by step and give the final value of net_savings.",
+     "a": "-11994 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculating Net Daily Savings' refers to.",
+     "a": "The amount of money remaining with a worker after deducting daily living costs like food and rent from their total daily earnings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculating Net Daily Savings'.",
+     "a": "The surplus income available to a worker for family support or future use.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculating Net Daily Savings', in plain ASCII form.",
+     "a": "net_savings = daily_earnings - daily_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.1.3",
+   "title": "Legal Recognition of Hawkers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Legal Recognition of Hawkers' refers to.",
+     "a": "The policy shift recognizing street vending as a legitimate right to livelihood rather than just a traffic obstruction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Legal Recognition of Hawkers'.",
+     "a": "Balancing the right to earn a living with the need for smooth traffic flow through hawking zones.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Legal Recognition of Hawkers' taught, and from which source text?",
+     "a": "Working on the Street (source: fess309.txt lines 150-165)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.2.1",
+   "title": "Permanent Market Shops",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Permanent Market Shops' refers to.",
+     "a": "Established retail businesses in designated market areas that hold municipal licenses and often hire supervisors and helpers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Permanent Market Shops'.",
+     "a": "Regulated commerce in fixed locations with formal licensing and staff management.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Permanent Market Shops' taught, and from which source text?",
+     "a": "In the Market (source: fess309.txt lines 190-215)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.1",
+   "title": "Labour Chowk and Daily Wage Work",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Labour Chowk and Daily Wage Work' refers to.",
+     "a": "A specific location in a city where daily wage labourers gather to be hired by contractors for manual tasks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Labour Chowk and Daily Wage Work'.",
+     "a": "Informal assembly point for casual workers seeking manual labor opportunities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Labour Chowk and Daily Wage Work' taught, and from which source text?",
+     "a": "In the Factory-Workshop Area (source: fess309.txt lines 235-250)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.2",
+   "title": "Casual Employment and Job Insecurity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Casual Employment and Job Insecurity' refers to.",
+     "a": "A work arrangement where employees are hired on a temporary basis, usually during peak seasons, without long-term contracts or benefits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Casual Employment and Job Insecurity'.",
+     "a": "Employment that lacks stability and depends entirely on the employer's immediate needs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Casual Employment and Job Insecurity' taught, and from which source text?",
+     "a": "In the Factory-Workshop Area (source: fess309.txt lines 275-300)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.3",
+   "title": "Total Daily Factory Wages",
+   "questions": [
+    {
+     "q": "Calculate the total daily pay if standard rate is {standard_rate} and overtime is {overtime_rate}. Use the method 'Total Daily Factory Wages'. Work with: overtime_rate = 20, standard_rate = 25. Carry the chain through step by step and give the final value of total_daily_wage.",
+     "a": "45 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the daily income of a tailor with {standard_rate} pay and {overtime_rate} for late work. Use the method 'Total Daily Factory Wages'. Work with: overtime_rate = 12, standard_rate = 8. Carry the chain through step by step and give the final value of total_daily_wage.",
+     "a": "20 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Daily Factory Wages' refers to.",
+     "a": "The total compensation a factory worker receives for a day, including their base pay for standard hours and extra pay for overtime.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Daily Factory Wages'.",
+     "a": "Summing regular pay and additional incentives for extra work hours.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Daily Factory Wages', in plain ASCII form.",
+     "a": "total_daily_wage = standard_rate + overtime_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.1",
+   "title": "Regular and Permanent Employment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regular and Permanent Employment' refers to.",
+     "a": "Stable jobs in offices or government departments where workers receive a regular monthly salary and have long-term job security.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regular and Permanent Employment'.",
+     "a": "Consistent employment with a fixed workplace and predictable income.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Regular and Permanent Employment' taught, and from which source text?",
+     "a": "In the office area (source: fess309.txt lines 325-350)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.2",
+   "title": "Social Security and Employee Benefits",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Security and Employee Benefits' refers to.",
+     "a": "Additional financial and health protections provided to permanent workers, such as provident funds, medical insurance, and paid leave.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Security and Employee Benefits'.",
+     "a": "Non-wage compensation that supports a worker's health and retirement.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Social Security and Employee Benefits' taught, and from which source text?",
+     "a": "In the office area (source: fess309.txt lines 335-345)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.3",
+   "title": "Call Centres in Big Cities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Call Centres in Big Cities' refers to.",
+     "a": "Centralized offices equipped with computers and telephones to handle consumer queries and services for domestic or foreign companies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Call Centres in Big Cities'.",
+     "a": "A modern form of urban employment providing services via telecommunication.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Call Centres in Big Cities' taught, and from which source text?",
+     "a": "In the office area (source: fess309.txt lines 315-325)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_002",
+   "title": "c11_geo_cbse_19_002",
+   "questions": [
+    {
+     "q": "Name the two main types of iron ore found in India and state the primary geological formation that hosts the high-grade haematite deposits of the Odisha-Jharkhand belt.",
+     "a": "The two main types are haematite (Fe₂O₃) and magnetite (Fe₃O₄). High-grade haematite in the Odisha-Jharkhand belt is hosted in the Banded Iron Formation (BIF) of the Dharwar Supergroup, specifically the Iron Ore Series. A wrong answer (e.g., \"magnetite in Odisha\" or \"haematite in Vindhyans\") reveals confusion between the two ore types and their distinct host rock sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Kudremukh region in Karnataka produce magnetite instead of haematite, even though both are iron oxides?",
+     "a": "Kudremukh's magnetite occurs in the Bababudan Group of the Dharwar Supergroup, which underwent lower-grade metamorphism and hydrothermal alteration compared to the high-grade haematite-bearing BIFs of the Iron Ore Series in Odisha-Jharkhand. Magnetite forms under relatively reduced conditions and lower temperatures, while haematite requires oxidising conditions. A wrong answer citing \"magnetite is always richer\" or \"Kudremukh is closer to the coast\" shows misunderstanding of metamorphic grade and fluid chemistry controls.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of \"supergene enrichment\", explain why the manganese deposits of the Balaghat district (Madhya Pradesh) are higher in grade than the primary Gondite rocks they derive from.",
+     "a": "Primary Gondite rocks (spessartite-quartz rock) contain ~15-20% Mn. Intense tropical weathering during the Tertiary leached silica and concentrated manganese oxides (pyrolusite, psilomelane) in the regolith, raising grades to 30-45% Mn. This supergene enrichment is absent in deeper, unweathered Gondite. A wrong answer attributing high grade to \"magmatic differentiation\" or \"hydrothermal veins\" ignores the lateritic weathering profile essential for Indian manganese enrichment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial relationship between bauxite deposits and the Deccan Traps in Maharashtra/Gujarat versus the Eastern Ghats in Odisha. What does this comparison reveal about the two modes of bauxite formation in India?",
+     "a": "In Maharashtra/Gujarat, bauxite caps the Deccan Traps as a lateritic weathering product of basalt (in-situ residual concentration). In Odisha, bauxite occurs as cappings on Khondalite/Charnockite of the Eastern Ghats, also residual but derived from aluminous gneisses. Both are lateritic, but the parent rock differs: mafic basalt vs. felsic gneiss. A wrong answer claiming \"bauxite is only on basalt\" or \"Odisha bauxite is sedimentary\" misses the dual parent-rock control and the uniform lateritic process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The concentration of iron, manganese, and bauxite in the Chota Nagpur Plateau makes it the ideal location for all ferrous and aluminium industries in India.\"",
+     "a": "Partially true but oversimplified. The plateau hosts haematite (Noamundi, Gua), manganese (Balaghat extension), and bauxite (Lohardaga, Netarhat), providing raw material proximity. However, magnetite (Kudremukh) and major bauxite (Koraput, Kalahandi) lie outside, requiring transport. Moreover, industrial location also demands power, water, labour, and market access (c10_geo_cbse_06_007). A wrong answer agreeing fully ignores the multi-factor Weberian location theory and the spatial mismatch for magnetite-based steel plants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation for a Class 11 board answer showing the \"Iron-Manganese-Bauxite Triangle\" of Central India. Include three geological labels, two transport corridors, and one industrial centre that uses all three minerals.",
+     "a": "A good annotation would: (1) Outline the triangle vertices – Balaghat (Mn), Bailadila (Fe), Koraput (Bauxite); (2) Label host rocks – Gondite, BIF, Laterite; (3) Show transport – Nagpur-Rourkela rail line, NH-53; (4) Mark Bhilai Steel Plant (uses haematite, manganese for ferro-manganese, and bauxite for refractory bricks). A poor answer merely plots mines without geological or infrastructural context, indicating rote memorisation of locations without understanding the mineral-industry linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

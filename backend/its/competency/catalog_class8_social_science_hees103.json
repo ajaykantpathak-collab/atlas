@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "The Rise of the Marathas",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.103.3.1",
+   "title": "Rise of Chhatrapati Shivaji",
+   "section": "3",
+   "definition": "Chhatrapati Shivaji carved an independent Maratha kingdom out of the Deccan in the seventeenth century by seizing hill forts, building a disciplined army and navy, and crowning himself sovereign king in 1674, challenging the might of the Adil Shahi sultans and the Mughals.",
+   "formula": "-",
+   "key_idea": "Hill forts, swift cavalry and clever diplomacy built a Maratha state under Shivaji.",
+   "textbook_ref": "hees103.txt lines 152-230 (rise of Chhatrapati Shivaji)",
+   "question_patterns": [
+    "how did Shivaji build the Maratha kingdom",
+    "why is Shivaji called Chhatrapati",
+    "describe the role of hill forts in Shivaji's conquests",
+    "against which powers did Shivaji struggle",
+    "what happened at the coronation of Shivaji in 1674",
+    "list the qualities that made Shivaji an able ruler"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start from the Deccan maval terrain",
+     "explain": "Shivaji began with small bands and the hill forts of western Maharashtra."},
+    {"step": 2, "action": "build the state",
+     "explain": "A loyal army, navy, fort network and tax system gave the kingdom its frame."},
+    {"step": 3, "action": "assert sovereignty",
+     "explain": "The 1674 coronation declared an independent sovereign Maratha state."}
+   ]
+  },
+  {
+   "id": "hees.103.3.2",
+   "title": "Shivaji's Administration and the Sovereign King",
+   "section": "3",
+   "definition": "Shivaji ran his kingdom through an organised council of eight ministers, collected fair taxes, kept his forces disciplined even inside enemy territory, and styled himself a sovereign king serving his people - the famous royal ideal recorded in his counsel to his son.",
+   "formula": "-",
+   "key_idea": "A council of ministers, fair revenue and people-first rule made the Maratha state durable.",
+   "textbook_ref": "hees103.txt lines 552-806 (the sovereign king, counsel and administration)",
+   "question_patterns": [
+    "describe the council of ministers under Shivaji",
+    "how did Shivaji organise the revenue system of his kingdom",
+    "what advice did Shivaji give about ruling the kingdom",
+    "why is Shivaji's state called a sovereign kingdom",
+    "how were discipline and justice maintained in the Maratha army",
+    "name the ministers who helped administer the Maratha state"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "set up the council",
+     "explain": "Eight ministers headed departments from finance to foreign affairs."},
+    {"step": 2, "action": "order the revenue",
+     "explain": "Assessment of land and fair collection funded the state without crushing peasants."},
+    {"step": 3, "action": "uphold the ideal",
+     "explain": "The king's letters counselled protecting subjects, especially farmers and women."}
+   ]
+  },
+  {
+   "id": "hees.103.3.3",
+   "title": "The Marathas after Shivaji",
+   "section": "3",
+   "definition": "After Shivaji's death his son Sambhaji and successors carried the struggle against Mughal expansion; under the Peshwas in the eighteenth century the Maratha confederacy of houses like Scindia, Holkar, Gaekwad and Bhonsle spread Maratha influence across most of India.",
+   "formula": "-",
+   "key_idea": "From a Deccan kingdom to an all-India confederacy - Maratha power kept growing after 1680.",
+   "textbook_ref": "hees103.txt lines 423-550 (the Marathas after Chhatrapati Shivaji)",
+   "question_patterns": [
+    "who led the Marathas after the death of Shivaji",
+    "what was the role of the Peshwas in Maratha history",
+    "name the houses of the Maratha confederacy",
+    "how did the Marathas challenge Mughal power after 1700",
+    "which regions came under Maratha influence in the eighteenth century",
+    "why is the Maratha state after Shivaji called a confederacy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "follow the successors",
+     "explain": "Sambhaji and Rajaram kept the anti-Mughal resistance alive."},
+    {"step": 2, "action": "watch the Peshwa era",
+     "explain": "Peshwa leadership from Pune guided expansion northwards."},
+    {"step": 3, "action": "map the confederacy",
+     "explain": "Scindia, Holkar, Gaekwad and Bhonsle families held regions under a shared banner."}
+   ]
+  },
+  {
+   "id": "hees.103.3.4",
+   "title": "Maratha Legacy and centres like Thanjavur",
+   "section": "3",
+   "definition": "The Marathas left a lasting legacy in administration, military organisation and culture - patronising temples and learning, and ruling centres such as Thanjavur, where Maratha kings supported art, music and scholarship well into the colonial era.",
+   "formula": "-",
+   "key_idea": "Maratha rule shaped polity and culture alike, from hill forts to Thanjavur's courts.",
+   "textbook_ref": "hees103.txt lines 806-900 (in focus: Thanjavur, the Maratha legacy)",
+   "question_patterns": [
+    "what is the Maratha legacy in Indian history",
+    "why was Thanjavur important under Maratha rule",
+    "how did the Marathas patronise art and learning",
+    "which cultural contributions are credited to Maratha rulers",
+    "describe the Maratha contribution to temple architecture",
+    "how did Maratha administration influence later systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the administrative imprint",
+     "explain": "Revenue and military practices of the Marathas influenced later regimes."},
+    {"step": 2, "action": "note the cultural patronage",
+     "explain": "Temples, music and libraries flourished under Maratha courts."},
+    {"step": 3, "action": "mark centres like Thanjavur",
+     "explain": "The southern court of Thanjavur kept Maratha culture alive far from the Deccan."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hees103.txt rise and administration sections",
+   "questions": [
+     "Describe the rise of Chhatrapati Shivaji as a sovereign king.",
+     "Explain the features of Shivaji's administration.",
+     "Why were hill forts central to Maratha military strategy?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hees103.txt later Marathas and legacy",
+   "questions": [
+     "How did the Maratha confederacy function after Shivaji?",
+     "Write a note on the Maratha rule at Thanjavur."
+   ]
+  }
+ ]
+}

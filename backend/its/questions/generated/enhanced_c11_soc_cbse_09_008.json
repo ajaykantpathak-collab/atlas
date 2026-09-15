@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_008",
+   "title": "c11_soc_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define \"social action\" according to Max Weber and state the single criterion that distinguishes it from mere reactive behavior.",
+     "a": "Social action is behavior to which the acting individual attaches a subjective meaning, and which takes account of the behavior of others and is oriented in its course. The distinguishing criterion is the presence of *subjective meaning* — if the actor does not attribute meaning (e.g., a reflex knee-jerk), it is not social action. A wrong answer (e.g., \"any interaction between people\") reveals confusion between behavior and action, missing Weber's insistence on intentionality.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Weber's 'empathetic understanding' means the sociologist should feel sympathy for the people they study.\" Explain why this is incorrect and restate Weber's actual position in your own words.",
+     "a": "Weber explicitly contrasts empathy (Einfühlung) with sympathy (Sympathie). Empathetic understanding is an *intellectual* operation: the sociologist imaginatively reconstructs the actor's motives (\"feeling with\") while suspending personal moral evaluation. Sympathy involves emotional alignment (\"feeling for\"), which violates value neutrality. A wrong answer shows the student conflates methodological empathy with emotional compassion, a common error because everyday language uses \"empathy\" loosely.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following action into Weber's four types of social action with justification: \"A devout Hindu woman fasts every Tuesday for Lord Hanuman, believing it will bring her family prosperity.\"",
+     "a": "This is **value-rational action (wertrational)**. Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty. Step 2: Check orientation — the action is determined by a conscious belief in the inherent value of fasting (ethical/religious), not by calculation of consequences. Step 3: Contrast with instrumentally rational (goal-oriented means-end calculation), affectual (emotional impulse), and traditional (habitual custom). Step 4: Confirm it fits value-rational: \"action determined by a conscious belief in the value for its own sake of some ethical, aesthetic, religious, or other form of behavior, independently of its prospects of success.\" A wrong classification (e.g., traditional) reveals failure to distinguish conscious value-commitment from unthinking habit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Weber's concept of \"value neutrality\" with Durkheim's treatment of \"social facts\" in terms of the researcher's stance toward the object of study. What fundamental epistemological difference does this reveal?",
+     "a": "Weber requires the researcher to *bracket* personal values to faithfully record *subjective meanings* of actors (interpretive stance). Durkheim treats social facts as *external, constraining things* to be observed like natural phenomena (positivist stance). The epistemological difference: Weber sees social reality as *meaning-constituted* (requiring Verstehen), while Durkheim sees it as *objective reality* (requiring empirical observation of patterns). A wrong answer that says \"both want objectivity\" misses that they define objectivity differently — Weber's is methodological (value-neutral description of values), Durkheim's is ontological (social facts as things).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Weber's interpretive sociology is unscientific because it relies on the researcher's imagination rather than observable data.\" Use Weber's own defense of objectivity in your evaluation.",
+     "a": "The critique misunderstands Weber's \"objectivity.\" He argues that *because* social action is meaning-laden, the only way to achieve scientific rigor is through disciplined Verstehen — a systematic, rule-governed imaginative reconstruction that can be intersubjectively verified by other researchers. The \"iron will\" to suppress personal bias makes it scientific, not unscientific. Observable data alone (e.g., counting church attendance) cannot capture the *meaning* of prayer. A weak evaluation fails to engage with Weber's distinction between natural science objectivity (laws of nature) and social science objectivity (faithful representation of subjective meanings).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a novel real-life scenario involving a social action that *simultaneously* exhibits characteristics of *two* of Weber's ideal types. Explain the analytical tension this creates for classification.",
+     "a": "Scenario: A young entrepreneur starts an eco-friendly business *both* because she calculates it will be profitable (instrumentally rational) *and* because she deeply believes in environmental stewardship as a moral duty (value-rational). The tension: Weber's types are *ideal types* — analytical constructs that rarely exist in pure form. Real actions are often hybrids. Classification requires identifying the *dominant* orientation, but the researcher must acknowledge the blend. A poor answer treats types as rigid boxes, missing Weber's warning that ideal types are \"utopian\" tools for analysis, not empirical descriptions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

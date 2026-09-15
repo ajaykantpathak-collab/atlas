@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_006",
+   "title": "c11_chem_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define a sigma (σ) bond and a pi (π) bond in terms of orbital overlap geometry. Which type of overlap (s-s, s-p, p-p axial, p-p lateral) produces each bond type?",
+     "a": "A sigma (σ) bond forms by end-to-end (axial) overlap of orbitals along the internuclear axis (s-s, s-p, or p-p axial). A pi (π) bond forms by sidewise (lateral) overlap where orbital axes are parallel and perpendicular to the internuclear axis (p-p lateral only). A wrong answer (e.g., saying π bonds form from s-p overlap) reveals the student confuses orbital types with overlap geometry - they haven't grasped that π bonds require parallel p-orbitals with sidewise overlap, while σ bonds can form from any axial combination.",
+     "self_check": true
+    },
+    {
+     "q": "Two hydrogen atoms approach each other. At infinite separation, potential energy is zero. As they approach, potential energy decreases to a minimum of -435.8 kJ/mol at 74 pm, then rises sharply. Explain why energy first decreases then increases, referencing attractive and repulsive forces.",
+     "a": "Initially, nucleus-electron attraction (cross-attraction between nucleus A and electron B, nucleus B and electron A) dominates over electron-electron and nucleus-nucleus repulsion, lowering energy. At 74 pm, net force is zero (minimum energy). Closer than 74 pm, nucleus-nucleus and electron-electron repulsion increase sharply, raising energy. A wrong answer (e.g., \"energy keeps decreasing\" or \"only attraction matters\") shows the student misses the balance of four forces and the physical meaning of bond distance as equilibrium point.",
+     "self_check": true
+    },
+    {
+     "q": "In the formation of HCl molecule, the half-filled 1s orbital of H overlaps with the half-filled 3p_z orbital of Cl along the internuclear axis (taken as z-axis). Identify the bond type formed and predict whether the overlap is positive, negative, or zero if the 3p_z orbital's positive lobe overlaps with the 1s orbital.",
+     "a": "The bond formed is a sigma (σ) bond (s-p axial overlap). Since the 1s orbital is spherically symmetric (always positive) and the 3p_z positive lobe has the same phase/sign, the overlap is positive, leading to bond formation. A wrong answer (e.g., \"π bond\" or \"negative overlap\") reveals confusion between σ/π classification and overlap sign conventions - the student may not understand that σ/π depends on geometry (axial vs lateral), while positive/negative/zero overlap depends on phase matching.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expected bond angles in CH₄ if carbon used pure atomic orbitals (2s, 2p_x, 2p_y, 2p_z) for bonding versus the actual tetrahedral angle of 109.5°. Why does simple orbital overlap theory fail to predict the correct geometry?",
+     "a": "With pure orbitals: three C-H bonds from 2p orbitals would be at 90° to each other (p_x, p_y, p_z mutually perpendicular), and the 2s orbital is spherically symmetric (no preferred direction). Actual CH₄ has four equivalent C-H bonds at 109.5°. Simple overlap fails because it doesn't account for equivalent hybrid orbitals that minimize electron pair repulsion (VSEPR). A wrong answer (e.g., \"2s orbital gives 90° too\" or \"VSEPR not related\") shows the student hasn't connected VB theory's limitation to the need for hybridisation and VSEPR concepts from c11_chem_cbse_04_005.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A double bond consists of two π bonds because π bonds are formed by sidewise overlap which allows more electron sharing.\" Is it correct? Justify using bond strength and overlap extent.",
+     "a": "Incorrect. A double bond consists of one σ bond (axial overlap, greater extent, stronger) and one π bond (lateral overlap, smaller extent, weaker). σ bonds are stronger because axial overlap has greater orbital interpenetration than lateral overlap. The statement reverses the bond composition and misattributes strength to π bonds. A wrong evaluation reveals the student confuses bond multiplicity with bond type strength and doesn't understand overlap extent determines bond energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual experiment using diatomic molecules H₂, F₂, Cl₂, Br₂, I₂ to demonstrate the relationship between orbital overlap extent, bond length, and bond dissociation enthalpy. What trend would you expect and why?",
+     "a": "Measure bond lengths (spectroscopy) and bond dissociation enthalpies for H₂ (74 pm, 436 kJ/mol), F₂ (144 pm, 159 kJ/mol), Cl₂ (199 pm, 242 kJ/mol), Br₂ (228 pm, 193 kJ/mol), I₂ (267 pm, 151 kJ/mol). Trend: as atomic size increases down group, orbital overlap extent decreases → bond length increases → bond enthalpy generally decreases (except F₂ anomaly due to lone pair repulsion). A poor answer (no trend, wrong direction, ignores F₂ anomaly) shows the student can't connect atomic size → overlap extent → macroscopic properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

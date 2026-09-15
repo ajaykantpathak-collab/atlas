@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_006",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_006",
+   "title": "c7_geo_ch03_006",
+   "questions": [
+    {
+     "q": "Which climate region of India is characterized by extreme temperature differences between day and night, very low annual rainfall, and sparse vegetation?",
+     "a": "The correct answer is the Arid Desert region (found in western Rajasthan). A student who chooses the Tropical Wet region shows a fundamental confusion between desert aridity and equatorial or coastal high-rainfall environments, failing to recognize that western India receives minimal rainfall due to rain-shadow effects and moisture-bearing winds bypassing the region.",
+     "self_check": true
+    },
+    {
+     "q": "Why do regions in the Northern Plains experience a Subtropical Humid climate with hot summers and cool winters, unlike the southern parts of the country which remain warm throughout the year?",
+     "a": "The correct explanation is that the Northern Plains lie north of the Tropic of Cancer, experiencing more pronounced seasonal shifts in sun angle and continental temperature influences, whereas southern India lies closer to the equator, maintaining high temperatures year-round with maritime moderation. A student who answers that \"the north is higher in altitude\" is confusing latitude with altitude, missing the crucial role of latitudinal position relative to the sun.",
+     "self_check": true
+    },
+    {
+     "q": "If a weather station in Shillong (Meghalaya) records an average July temperature of 22°C while a station in Jaisalmer (Rajasthan) records 38°C in the same month, which climate classification factor is primarily responsible for this difference?",
+     "a": "The correct answer is Altitude and Relief. Working steps: 1. Identify that Shillong is located at a high elevation in the Meghalaya Plateau. 2. Recall the lapse rate principle where temperature decreases with height. 3. Recognize that Jaisalmer is in a low-elevation arid desert plain with continental heating. 4. Conclude that elevation differences modify local temperatures despite both being influenced by summer monsoon conditions. A student who answers \"latitude\" fails to realize both places are at relatively similar latitudes, meaning elevation is the primary differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the distribution of India's climate regions: why does the western slope of the Western Ghats experience a Tropical Wet climate while the eastern side (Deccan Plateau) experiences a Tropical Dry climate?",
+     "a": "The correct analysis is that moisture-laden Southwest Monsoon winds hit the windward western slopes first, dropping heavy orographic rainfall (Tropical Wet), and then descend the leeward eastern slopes as dry air, creating a rain-shadow region (Tropical Dry). A student who thinks distance from the ocean alone causes this ignores the barrier effect of mountain ranges on wind direction and precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether classifying India into broad climate zones is sufficient for planning local agricultural crops like rice and wheat across every district.",
+     "a": "Broad climate classification is insufficient because microclimates created by local river basins, soil types, and small hills cause significant variations in rainfall and temperature within a single climate zone, requiring localized data for precise agricultural planning. A student who argues that regional classification is fully adequate ignores the localized realities of farming where a single district might have irrigated river valleys alongside drought-prone uplands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a climate region classification key for a newly discovered subcontinent with a high central mountain range, a northern cold desert, a southern tropical coastline, and an eastern river delta.",
+     "a": "A successful key must designate: 1. Alpine/Mountain climate for the central high ranges; 2. Arid/Cold Desert for the northern rain-shadow zone; 3. Tropical Wet for the southern coastal region; and 4. Subtropical Humid for the eastern river delta based on temperature and monsoon interaction. A poor answer fails to link physical landforms (mountains, coastlines) to corresponding temperature and precipitation patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

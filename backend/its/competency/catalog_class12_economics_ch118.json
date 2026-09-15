@@ -1,0 +1,344 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 118,
+ "chapter_title": "Poetry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl118.txt",
+ "concepts": [
+  {
+   "id": "lekl.118.1",
+   "title": "Nature of Verse and Poetry",
+   "section": "Introduction",
+   "definition": "Poetry is a literary form using rhythmic language and specific word choices to evoke sensory experiences and emotional depth beyond literal meaning.",
+   "formula": "impact = meaning + sound + rhythm",
+   "key_idea": "Poetry uses concentrated language and musicality to convey complex human conceptions.",
+   "textbook_ref": "lekl118.txt lines 1-15",
+   "question_patterns": [
+    "What characterizes a poem according to the introduction?",
+    "How do sound and rhythm contribute to poetry?",
+    "Define the music of poetry.",
+    "What is the role of heightened language in verse?",
+    "Explain Nature of Verse and Poetry with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify linguistic features",
+     "explain": "Look for concentrated language, rhythm, and metre in the text."
+    },
+    {
+     "step": 2,
+     "action": "analyze sensory impact",
+     "explain": "Evaluate how word choice affects sound and suggestive power."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.2",
+   "title": "Metaphysical Poetry Characteristics",
+   "section": "A Lecture Upon the Shadow",
+   "definition": "A style of poetry marked by intellectual wit, startling imagery, and direct diction, intended to provoke deep reflection in the reader.",
+   "formula": "metaphysical_effect = intellect + startling_imagery",
+   "key_idea": "Prioritizing intellectual insight over raw emotional expression.",
+   "textbook_ref": "lekl118.txt lines 30-45",
+   "question_patterns": [
+    "What are the features of Donne's metaphysical mode?",
+    "How does metaphysical poetry affect the reader?",
+    "Contrast intellect and feeling in Donne's work.",
+    "Identify the role of wit in metaphysical verse.",
+    "Explain Metaphysical Poetry Characteristics with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine imagery",
+     "explain": "Identify unusual or startling metaphors used to explain abstract concepts."
+    },
+    {
+     "step": 2,
+     "action": "evaluate tone",
+     "explain": "Determine if the poem appeals more to the reader's logic and wit than to emotion."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.5",
+   "title": "Etymological Analysis",
+   "section": "Language Study",
+   "definition": "The study of the historical development and linguistic origins of words.",
+   "formula": "word_history = origin + derivation + usage_period",
+   "key_idea": "Understanding a word's roots helps clarify its historical and literary context.",
+   "textbook_ref": "lekl118.txt lines 205-220",
+   "question_patterns": [
+    "Define etymology as used in the text.",
+    "What is the origin of the word 'entoombed'?",
+    "How did French influence the English language?",
+    "Identify the historical period of a word's derivation.",
+    "Explain Etymological Analysis with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace origin",
+     "explain": "Check the dictionary notes for the root language (e.g., Middle English, French)."
+    },
+    {
+     "step": 2,
+     "action": "analyze historical change",
+     "explain": "Observe how spelling or meaning has evolved over centuries."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.6",
+   "title": "Contrary States of the Human Soul",
+   "section": "Poems by Blake",
+   "definition": "The juxtaposition of 'Innocence' (divine virtues) and 'Experience' (social and psychological distortion).",
+   "formula": "human_condition = innocence + experience",
+   "key_idea": "Human virtues like Mercy and Pity exist in a pure state and a socially corrupted state.",
+   "textbook_ref": "lekl118.txt lines 230-250",
+   "question_patterns": [
+    "How are 'The Divine Image' and 'The Human Abstract' related?",
+    "Contrast the depiction of human beings in Innocence and Experience.",
+    "How does Mercy get distorted in the human brain?",
+    "Explain the metaphor of the 'Tree' in the human brain.",
+    "Explain Contrary States of the Human Soul with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify virtues",
+     "explain": "Look for Mercy, Pity, Peace, and Love in the 'Innocence' context."
+    },
+    {
+     "step": 2,
+     "action": "identify distortions",
+     "explain": "Look for Cruelty, Deceit, and Mystery in the 'Experience' context."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.7",
+   "title": "Poetic Metre and Syllable Count",
+   "section": "Language Work (Blake)",
+   "definition": "The rhythmic structure of a verse, determined by the number and arrangement of stressed and unstressed syllables.",
+   "formula": "total_syllables = feet * 2",
+   "key_idea": "A foot in English poetry typically consists of two syllables (one stressed, one unstressed).",
+   "textbook_ref": "lekl118.txt lines 340-350",
+   "question_patterns": [
+    "Calculate the number of syllables in a line with 4 feet.",
+    "How many feet are in a line of 8 syllables?",
+    "Identify the pattern of stressed and unstressed syllables.",
+    "Count the syllables in 'The Divine Image'.",
+    "Numerical: apply Poetic Metre and Syllable Count and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine feet count",
+     "explain": "Identify the number of metrical units in the line.",
+     "compute": "feet = syllables / 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate total syllables",
+     "explain": "Multiply the number of feet by 2 to get the total syllable count.",
+     "compute": "total_syllables = feet * 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Poetic Metre and Syllable Count, compute the result for syllables = 3.",
+     "solution": "Step 1: determine feet count: feet = syllables / 2 = 1.5 Step 2: calculate total syllables: total_syllables = feet * 2 = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Poetic Metre and Syllable Count, compute the result for syllables = 4.",
+     "solution": "Step 1: determine feet count: feet = syllables / 2 = 2.0 Step 2: calculate total syllables: total_syllables = feet * 2 = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.9",
+   "title": "Symbolism of Permanence vs. Change",
+   "section": "The Wild Swans at Coole",
+   "definition": "Using natural elements to contrast the aging and mortality of humans with the perceived immortality of nature.",
+   "formula": "contrast = human_aging / swan_constancy",
+   "key_idea": "Swans represent unwearied passion and continuity against the backdrop of human decay.",
+   "textbook_ref": "lekl118.txt lines 510-535",
+   "question_patterns": [
+    "Contrast the liveliness of the swans with human life.",
+    "What does the 'sore heart' of the poet refer to?",
+    "How does the poet use the 'nineteenth autumn' to show change?",
+    "Why are the hearts of the swans described as not having grown old?",
+    "Explain Symbolism of Permanence vs. Change with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze human state",
+     "explain": "Note the poet's 'sore heart' and 'lighter tread' of the past."
+    },
+    {
+     "step": 2,
+     "action": "analyze swan state",
+     "explain": "Observe the swans as 'unwearied' and 'companionable'."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.10",
+   "title": "Communal Harmony and Urban Time",
+   "section": "Time and Time Again",
+   "definition": "The representation of social and religious diversity through the metaphor of unsynchronized city clocks.",
+   "formula": "urban_discord = clock_discrepancy + communal_feuds",
+   "key_idea": "Clocks, like communities, are often 'off' each other's time due to historical accidents or nature's acts.",
+   "textbook_ref": "lekl118.txt lines 560-580",
+   "question_patterns": [
+    "What causes the differences in timekeeping among various clocks?",
+    "How does the poet represent communal disharmony?",
+    "Why is the act of nature called 'precise'?",
+    "What do the 'knocked-out clockworks' symbolize?",
+    "Explain Communal Harmony and Urban Time with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify causes of discrepancy",
+     "explain": "Look for 'alloy accidents', 'maker's hand', or 'donor's whim'."
+    },
+    {
+     "step": 2,
+     "action": "link to social context",
+     "explain": "Relate the clock towers to the 'feuds' of different religious groups."
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.11",
+   "title": "Ancestral Heritage and Class Distinction",
+   "section": "Blood",
+   "definition": "The exploration of identity through the metaphor of 'blood', contrasting ancient lineage with modern wealth.",
+   "formula": "blood_quality = age_of_lineage / social_status",
+   "key_idea": "Old blood is depicted as thin and clear, while the blood of the 'new-rich' is thick and muddy.",
+   "textbook_ref": "lekl118.txt lines 640-660",
+   "question_patterns": [
+    "How does the poet distinguish between 'oldest blood' and 'new-rich' blood?",
+    "What does the crumbling house symbolize?",
+    "Identify the poet's criticism of class distinctions.",
+    "What is the conflict in the poet's conscience regarding her heritage?",
+    "Explain Ancestral Heritage and Class Distinction with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze blood metaphors",
+     "explain": "Contrast 'thin, clear, fine' blood with 'thick as gruel' blood."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the symbol of the house",
+     "explain": "Relate the house's decay to the decline of traditional royal grandeur."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl118.txt lines 50-65",
+   "concept": "lekl.118.3",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the symbolic difference between morning and afternoon shadows in Donne's poem.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify morning shadows",
+     "explain": "Morning shadows are produced by the lovers to hide their feelings from others ('to blinde others')."
+    },
+    {
+     "step": 2,
+     "action": "identify afternoon shadows",
+     "explain": "Afternoon shadows grow longer and represent internal deception between the lovers themselves."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl118.txt lines 340-345",
+   "concept": "lekl.118.7",
+   "question_type": "compute",
+   "question_pattern": "If a line in 'The Divine Image' has {feet} metrical feet, calculate the total number of syllables.",
+   "extracted_variables": {
+    "feet": "number of metrical units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total syllables",
+     "explain": "Each foot contains two syllables.",
+     "compute": "total_syllables = feet * 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex118.1",
+   "source_ref": "lekl118.txt lines 95-105",
+   "questions": [
+    "How do the shadows before noon differ from the shadows after noon?",
+    "What do the two kinds of shadow represent?",
+    "Love is described as light. What makes the poet talk about shadows?"
+   ]
+  },
+  {
+   "id": "ex118.2",
+   "source_ref": "lekl118.txt lines 170-180",
+   "questions": [
+    "Why has the poet pitted the flight of Time against the 'lazy leaden-stepping hours'?",
+    "What are the things associated with the temporal and what are associated with the eternal?",
+    "Who is the final winner in the race against Time?"
+   ]
+  },
+  {
+   "id": "ex118.3",
+   "source_ref": "lekl118.txt lines 315-330",
+   "questions": [
+    "How are 'The Divine Image' and 'The Human Abstract' related in content?",
+    "How do Mercy, Pity, Peace and Love get distorted in the human brain?",
+    "Explain the depiction of the human being in the Song of Innocence vs Experience."
+   ]
+  },
+  {
+   "id": "ex118.4",
+   "source_ref": "lekl118.txt lines 435-450",
+   "questions": [
+    "How does the poet mix up the real and the imaginary to give a sense of the surreal?",
+    "Pick out contrasting images that are juxtaposed throughout Kubla Khan.",
+    "What is poetic ecstasy likened to in the poem?"
+   ]
+  },
+  {
+   "id": "ex118.5",
+   "source_ref": "lekl118.txt lines 720-735",
+   "questions": [
+    "What makes the depiction of a crumbling village house so authentic in 'Blood'?",
+    "Does the poem bring out the contrast between tradition and modernity?",
+    "Which lines reveal the poet's criticism of class distinctions?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

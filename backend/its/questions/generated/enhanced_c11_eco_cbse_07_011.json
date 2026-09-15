@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_011",
+   "title": "c11_eco_cbse_07_011",
+   "questions": [
+    {
+     "q": "Define \"radiative forcing\" in the context of climate change and state its unit of measurement.",
+     "a": "Radiative forcing is the change in net irradiance (difference between incoming solar radiation and outgoing longwave radiation) at the tropopause due to a change in an external driver (e.g., CO2 concentration), measured in watts per square metre (W/m²). A wrong answer (e.g., \"temperature rise\" or \"greenhouse gas concentration\") reveals confusion between the *driver* (forcing), the *response* (temperature), and the *state variable* (concentration)—a critical distinction for understanding why mitigation targets are framed in concentration (ppm) or forcing (W/m²) terms, not temperature directly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Montreal Protocol (1987) succeeded in phasing out CFCs while the Kyoto Protocol (1997) struggled to achieve comparable global emission reductions, using the concepts of \"availability of substitutes\" and \"distributional equity.\"",
+     "a": "Montreal succeeded because: (1) technically feasible, cost-effective substitutes (HFCs, HCFCs) existed for CFCs in refrigeration/foams, lowering compliance costs; (2) the Multilateral Fund provided financial/technical transfer to developing countries, addressing equity; (3) industry supported transition due to patent opportunities. Kyoto struggled because: (1) no ready substitutes for fossil fuels at scale in 1997; (2) no equivalent financial mechanism; (3) Annex I/non-Annex I divide created free-rider incentives. A wrong answer focusing only on \"US non-ratification\" misses the structural political economy differences—substitute availability and equity mechanisms are the deeper explanatory variables.",
+     "self_check": true
+    },
+    {
+     "q": "India's 2030 NDC targets: (a) reduce emission intensity of GDP by 45% from 2005 levels, (b) achieve 50% cumulative electric power installed capacity from non-fossil sources. If India's 2005 emission intensity was 0.35 kg CO2/₹ GDP (2011-12 prices) and 2023 GDP is ₹270 lakh crore with emissions of 2.9 Gt CO2, calculate the 2023 emission intensity and the maximum allowable 2030 emissions if GDP grows at 6.5% annually. Show all steps.",
+     "a": "Step 1: 2023 emission intensity = 2.9 Gt CO2 / ₹270 lakh crore = 2.9×10⁹ tonnes / 270×10¹² ₹ = 0.01074 kg CO2/₹ = 10.74 g CO2/₹.  \nStep 2: 2005 intensity = 0.35 kg CO2/₹ = 350 g CO2/₹.  \nStep 3: 45% reduction target → 2030 target intensity = 350 × (1 - 0.45) = 192.5 g CO2/₹.  \nStep 4: 2030 GDP = 270 × (1.065)^7 = 270 × 1.554 = ₹419.6 lakh crore.  \nStep 5: Max 2030 emissions = 192.5 g/₹ × 419.6×10¹² ₹ = 80.77×10¹² g = 80.77 Gt CO2.  \n(Note: This exceeds current global emissions—revealing the intensity target alone permits absolute emission growth. A wrong answer calculating 2.9×0.55=1.6 Gt confuses intensity reduction with absolute reduction, a common error in interpreting NDCs.)",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"India's International Solar Alliance (ISA) is primarily a climate mitigation initiative.\" Identify two dimensions where ISA also serves energy access and energy security objectives, with specific mechanisms.",
+     "a": "The statement is incomplete. ISA serves three co-benefits:  \n(1) Energy access: By aggregating demand for solar pumps, mini-grids, and rooftop across 120+ member countries (mostly tropical developing nations), ISA drives down technology costs via economies of scale, making decentralized solar affordable for unelectrified populations (e.g., PM-KUSUM in India).  \n(2) Energy security: Solar reduces import dependence on oil/gas—India imports 85% of crude oil; every GW of solar displaces ~1.5 MMT oil equivalent annually. ISA's \"One Sun One World One Grid\" (OSOWOG) vision enables cross-border solar trade, diversifying supply.  \nA wrong answer treating ISA as only mitigation misses the development-climate nexus central to India's CBDR position—climate action must deliver development dividends.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the ethical and economic justification for India's \"net-zero by 2070\" pledge versus the IPCC's \"global net-zero by 2050\" pathway, using the carbon budget concept and historical responsibility data (USA: 25%, EU+UK: 22%, China: 13%, India: 3% of cumulative 1850-2019 CO2 emissions).",
+     "a": "India's 2070 target is ethically defensible and economically rational because:  \n(1) Carbon budget equity: Remaining 1.5°C budget (~400 Gt CO2 from 2020) allocated by population gives India ~70 Gt (17% share); by historical responsibility, India is a net creditor. Developed nations' 2050 net-zero still exceeds their fair share if consumption-based accounting used.  \n(2) Development space: India's per capita income ($2,400) is 1/30th of USA; premature net-zero locks in energy poverty. The 20-year lag allows green industrialization (green hydrogen, batteries) to mature.  \n(3) Credibility: India's 2030 targets are on track (emission intensity down 33% from 2005; 44% non-fossil capacity), unlike many 2050 pledges lacking near-term policy.  \nA wrong answer calling 2070 \"unambitious\" ignores the carbon budget arithmetic and confounds *flow* targets with *stock* justice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified \"climate damage function\" for Indian agriculture linking temperature anomaly (ΔT in °C) to wheat yield loss (% from baseline), incorporating: (a) a threshold effect (no loss below 1°C), (b) accelerating losses above 2°C, (c) CO2 fertilization offset (5% gain per 100 ppm CO2 rise). Write the piecewise function and calculate yield change for ΔT=2.5°C, CO2=450 ppm (baseline 280 ppm).",
+     "a": "Function:  \nYield loss % = 0 for ΔT ≤ 1  \n= 3×(ΔT - 1) for 1 < ΔT ≤ 2  \n= 3 + 5×(ΔT - 2)² for ΔT > 2  \nCO2 fertilization gain = 5 × ((450-280)/100) = 5 × 1.7 = 8.5%  \n\nFor ΔT=2.5°C:  \nThermal loss = 3 + 5×(0.5)² = 3 + 1.25 = 4.25%  \nNet change = -4.25% + 8.5% = +4.25% (gain)  \n\nFor ΔT=3.5°C:  \nThermal loss = 3 + 5×(1.5)² = 3 + 11.25 = 14.25%  \nNet change = -14.25% + 8.5% = -5.75% (loss)  \n\nA poor answer using linear function misses the non-linearity (tipping points) central to climate economics—Stern Review and IPCC emphasize convex damage curves. The CO2 fertilization offset is temporary (nutrient limitations) and declines at higher ΔT, a nuance needed for dynamic assessment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

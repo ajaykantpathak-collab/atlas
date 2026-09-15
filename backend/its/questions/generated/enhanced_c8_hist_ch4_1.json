@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch4_1",
+   "title": "c8_hist_ch4_1",
+   "questions": [
+    {
+     "q": "Name any two pre-1857 uprisings against British rule and the region where each occurred.",
+     "a": "Correct examples: Sanyasi Rebellion (Bengal/Bihar, 1770s), Paika Rebellion (Odisha, 1817), Vellore Mutiny (Tamil Nadu, 1806), Kol Uprising (Chotanagpur, 1831–32), Santhal Hul (Bengal Presidency, 1855–56). A wrong answer like \"Sepoy Mutiny of 1857\" or \"Non-Cooperation Movement\" reveals the student cannot distinguish pre-1857 resistance from the 1857 Revolt or later nationalist movements.",
+     "self_check": true
+    },
+    {
+     "q": "The Sanyasi Rebellion (1770s) is often described as a bandit uprising. Why is this a misconception? Explain using the economic context of Bengal after 1765.",
+     "a": "The Sanyasis were not mere bandits; they were a network of ascetics who controlled trade routes and provided credit to peasants. After the Company took *diwani* (1765), revenue demands doubled, causing the 1770 famine. Peasants joined Sanyasis to raid Company kothis (treasuries) to survive. Calling them \"bandits\" ignores the Company's role in destroying the agrarian economy. A wrong answer focusing only on religious identity misses the economic desperation caused by colonial revenue policy.",
+     "self_check": true
+    },
+    {
+     "q": "A British officer's 1817 report on the Paika Rebellion states: \"The Paiks are a turbulent race... they rose without cause.\" Using your knowledge of Odisha's land tenure system, explain why this source is biased and what the *real* cause was.",
+     "a": "The Paiks were hereditary militia-farmers who held rent-free land (*nishkar jagir*) in return for military service. The Company resumed these lands and imposed heavy taxes, destroying their livelihood. The report calls them \"turbulent\" to justify land seizure. The real cause was the Company's destruction of the traditional *paik* system, not inherent lawlessness. A wrong answer accepting the source at face value shows inability to critique colonial narratives.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Vellore Mutiny (1806) and the Paika Rebellion (1817) on three dimensions: (a) immediate trigger, (b) social base, (c) British response. What pattern do you see?",
+     "a": "(a) Vellore: new dress code (leather cockade, beard ban) offending religious customs; Paika: land resumption and salt monopoly. (b) Vellore: Indian sepoys in Company army; Paika: displaced militia-farmers, zamindars, tribals. (c) Vellore: brutal suppression, regiment disbanded; Paika: martial law, leaders executed, land permanently settled with loyalists. Pattern: both were *local* reactions to specific cultural/economic intrusions, crushed militarily without addressing grievances. A wrong answer listing only \"Indians vs British\" misses the structural difference between sepoy and peasant/tribal resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Pre-1857 uprisings failed because they lacked modern weapons and organization.\" Support your judgment with evidence from at least two uprisings.",
+     "a": "The claim is partially true but incomplete. The Santhals (1855–56) used traditional bows/arrows against muskets — technology mattered. However, the Paikas (1817) had initial success with guerrilla tactics but failed due to *isolation* — no coordination with neighbouring uprisings. The Vellore Mutiny (1806) had organization (secret planning) but failed because it was confined to one garrison. The deeper reason: uprisings were *localized*, led by traditional elites seeking restoration of *their* privileges, not a shared vision of liberation. A wrong answer blaming only \"backwardness\" ignores the political fragmentation the Company deliberately maintained.",
+     "self_check": true
+    },
+    {
+     "q": "Create a timeline (1757–1857) plotting five pre-1857 uprisings. For each, annotate ONE specific grievance (land revenue, cultural interference, displacement of ruler, etc.). What does the timeline reveal about the *evolution* of resistance?",
+     "a": "Sample timeline: 1770s Sanyasi (famine + revenue), 1806 Vellore (dress code), 1817 Paika (land resumption), 1831 Kol (land alienation by outsiders), 1855 Santhal (moneylender/contractor exploitation). Evolution: early uprisings (Sanyasi) were mobile, trade-linked; later ones (Kol, Santhal) were settled tribal/peasant communities reacting to *systematic* land alienation under Permanent Settlement/Ryotwari. The timeline shows resistance shifting from \"restore old order\" to \"defend survival against new colonial economy.\" A poor answer lists events without connecting grievances to changing Company policies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

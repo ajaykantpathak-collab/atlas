@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_007",
+   "title": "c12_bio_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define IVF and state where fertilization and embryo transfer occur in this procedure.",
+     "a": "IVF (In Vitro Fertilization) involves fertilizing an oocyte with sperm in a laboratory culture dish (in vitro); the resulting embryo is then transferred into the uterine cavity (usually at the 2–8 cell or blastocyst stage). A wrong answer that says fertilization occurs in the fallopian tube or that the zygote is transferred to the tube reveals confusion with ZIFT or GIFT.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ZIFT is specifically indicated for women with blocked fallopian tubes but a normal uterine environment.",
+     "a": "ZIFT fertilizes the oocyte in vitro (bypassing the tubal blockage) and transfers the zygote into the fallopian tube, allowing the early embryo to develop in its natural environment before entering the uterus. If a student says ZIFT transfers the embryo into the uterus, they are confusing it with IVF; if they say fertilization occurs in the tube, they are confusing it with GIFT.",
+     "self_check": true
+    },
+    {
+     "q": "A couple presents with the following: the male has severe oligospermia (very low sperm count) and the female has patent (open) fallopian tubes. Which ART — IVF, ZIFT, or GIFT — would be most appropriate, and why?",
+     "a": "IVF is most appropriate because it allows fertilization to occur in a controlled dish where sperm concentration can be optimized (or ICSI can be used, though ICSI is beyond this node). GIFT would be unsuitable because it relies on natural fertilization inside the tube, which is unlikely with very low sperm numbers. ZIFT also requires sufficient sperm for in vitro fertilization but adds an unnecessary tubal transfer step when the uterus is normal. A wrong choice of GIFT shows failure to link male factor infertility to the need for assisted fertilization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare IVF and GIFT on two parameters: (a) site of fertilization, and (b) requirement for functional fallopian tubes. Which technique is more invasive and why?",
+     "a": "(a) IVF: fertilization in vitro (lab dish); GIFT: fertilization in vivo (fallopian tube). (b) IVF does not require functional tubes (embryo placed directly in uterus); GIFT requires at least one patent, healthy tube for fertilization and early embryo transport. IVF is more invasive because it involves ovarian stimulation, transvaginal oocyte retrieval under ultrasound guidance, and laboratory culture; GIFT requires laparoscopy for gamete transfer into the tube but avoids lab culture. A student who claims GIFT does not need functional tubes misunderstands that fertilization occurs inside the tube.",
+     "self_check": true
+    },
+    {
+     "q": "A fertility clinic advertises: \"GIFT has a higher success rate than IVF for all types of infertility.\" Evaluate this claim using biological reasoning.",
+     "a": "The claim is false. Success rates depend on the infertility etiology. GIFT requires functional fallopian tubes and adequate sperm for natural fertilization; it cannot help tubal blockage or severe male factor infertility. IVF bypasses tubal issues and can overcome male factor via high sperm concentration or ICSI. Therefore, IVF generally has higher success rates for tubal and male factor infertility, while GIFT may be comparable for unexplained infertility with patent tubes. A student who agrees with the claim ignores the conditional nature of ART indications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple decision flowchart (text-based) that a clinician could use to choose among IVF, ZIFT, and GIFT based on three clinical findings: (1) tubal status (patent/blocked), (2) sperm count (normal/low), (3) uterine factor (normal/abnormal). Use only these three techniques.",
+     "a": "A good flowchart:\n- If tubes blocked → IVF (uterus normal) or IVF with gestational carrier (uterus abnormal).\n- If tubes patent AND sperm normal → GIFT (less invasive, natural fertilization).\n- If tubes patent AND sperm low → IVF (or ZIFT if uterine factor abnormal? Actually ZIFT transfers zygote to tube, so uterus abnormal might still need IVF with carrier; but ZIFT could be used if tubes patent and uterus abnormal? Wait, ZIFT transfers zygote to tube, so embryo still needs to travel to uterus. If uterus abnormal, IVF with carrier is better. So ZIFT is rarely first choice; it's for tubal blockage with normal uterus? Actually ZIFT is for tubal blockage where fertilization in vitro but zygote placed in tube. So if tubes blocked, ZIFT or IVF. If tubes patent and sperm low, IVF. If tubes patent and sperm normal, GIFT. ZIFT is an alternative to IVF when tubal blockage but some clinicians prefer tubal environment for early embryo. So flowchart should reflect that.)\nA poor answer that assigns GIFT to blocked tubes or IVF to all cases shows lack of discrimination among indications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

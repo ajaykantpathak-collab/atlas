@@ -1,0 +1,513 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 114,
+ "chapter_title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\leph206.txt",
+ "concepts": [
+  {
+   "id": "jeph.14.1",
+   "title": "Classification of Materials: Metals, Semiconductors and Insulators",
+   "section": "14.1",
+   "definition": "Solids are classified as metals, semiconductors or insulators based on the energy band gap between the valence band and the conduction band; metals have no gap, semiconductors have a small gap and insulators have a large gap.",
+   "formula": "Eg(conductor) ~ 0; Eg(semiconductor) ~ 1-3 eV; Eg(insulator) > 5 eV",
+   "key_idea": "The energy band gap between the valence band and conduction band determines whether a material conducts, semiconducts or insulates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics classify a material as metal semiconductor or insulator from its band gap",
+    "determine whether a given material is a conductor semiconductor or insulator based on its energy gap",
+    "calculate the band gap of a semiconductor from the given conduction and valence band energies",
+    "explain the difference in conductivity between metals and semiconductors using band theory",
+    "verify that a material with a large band gap behaves as an insulator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the energy band gap of the material",
+     "explain": "the band gap Eg is the energy difference between the top of the valence band and the bottom of the conduction band",
+     "compute": "Eg = E_conduction - E_valence"
+    },
+    {
+     "step": 2,
+     "action": "compare the band gap with the classification thresholds",
+     "explain": "Eg near zero means a conductor, Eg between about 1 and 3 eV means a semiconductor and Eg greater than about 5 eV means an insulator",
+     "compute": "category = conductor if Eg ~ 0 else (semiconductor if 0 < Eg < 3 else insulator)"
+    },
+    {
+     "step": 3,
+     "action": "verify the classification against the expected behaviour",
+     "explain": "a conductor allows free electron flow, a semiconductor conducts only when excited and an insulator blocks conduction at room temperature",
+     "compute": "valid = (category matches expected_conductivity)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The band gap of silicon is 1.1 eV. Classify the material.",
+     "solution": "Eg = 1.1 eV. Since 0 < 1.1 < 3 eV, silicon is a semiconductor.",
+     "answer": "Semiconductor"
+    },
+    {
+     "question": "The band gap of diamond is about 5.5 eV. Classify the material.",
+     "solution": "Eg = 5.5 eV. Since Eg > 5 eV, diamond is an insulator.",
+     "answer": "Insulator"
+    },
+    {
+     "question": "A material has overlapping valence and conduction bands. Classify it.",
+     "solution": "Eg ~ 0 eV since the bands overlap. This is a conductor (metal).",
+     "answer": "Conductor (metal)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The band gap of germanium is 0.67 eV. Classify the material.",
+     "type": "verify_property"
+    },
+    {
+     "question": "A material has a band gap of 6 eV. Is it a metal, semiconductor or insulator?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.2",
+   "title": "Intrinsic and Extrinsic Semiconductors (n-type and p-type)",
+   "section": "14.2",
+   "definition": "An intrinsic semiconductor is a pure semiconductor whose conductivity is due to thermally generated electron-hole pairs, while an extrinsic semiconductor is obtained by doping with impurity atoms to produce n-type (electron-rich) or p-type (hole-rich) material.",
+   "formula": "n-type: electrons = majority carriers; p-type: holes = majority carriers; n_e * n_h = n_i^2",
+   "key_idea": "Doping a pure semiconductor with pentavalent impurities produces n-type material and with trivalent impurities produces p-type material, changing the majority charge carriers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics identify whether a doped semiconductor is n-type or p-type",
+    "determine the majority charge carriers in an extrinsic semiconductor from the dopant",
+    "calculate the number of electrons or holes in a doped semiconductor",
+    "explain the difference between intrinsic and extrinsic semiconductors",
+    "verify that doping a semiconductor with a pentavalent impurity produces n-type material"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the dopant valence and the base semiconductor",
+     "explain": "a pentavalent dopant (group 15 like phosphorus) donates an extra electron and a trivalent dopant (group 13 like boron) creates a hole",
+     "compute": "dopant_type = n_type if valence == 5 else p_type"
+    },
+    {
+     "step": 2,
+     "action": "determine the majority carriers from the dopant type",
+     "explain": "in n-type semiconductors electrons are the majority carriers and in p-type semiconductors holes are the majority carriers",
+     "compute": "majority_carrier = electron if n_type else hole"
+    },
+    {
+     "step": 3,
+     "action": "verify the carrier concentration relation",
+     "explain": "the product of electron and hole concentrations equals the square of the intrinsic carrier concentration",
+     "compute": "valid = (n_e * n_h == n_i^2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Silicon is doped with phosphorus (valence 5). Is the resulting material n-type or p-type?",
+     "solution": "Phosphorus is a pentavalent impurity. It donates an extra free electron. The material is n-type with electrons as majority carriers.",
+     "answer": "n-type semiconductor"
+    },
+    {
+     "question": "Germanium is doped with boron (valence 3). Is the resulting material n-type or p-type?",
+     "solution": "Boron is a trivalent impurity. It creates a hole by accepting an electron. The material is p-type with holes as majority carriers.",
+     "answer": "p-type semiconductor"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A pure silicon crystal has equal electron and hole concentrations of 1.5 x 10^16 per m^3. After doping with arsenic, the electron concentration becomes 4.5 x 10^21 per m^3. Find the hole concentration.",
+     "type": "compute"
+    },
+    {
+     "question": "Silicon is doped with aluminium (valence 3). Identify the majority charge carriers.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.3",
+   "title": "p-n Junction Formation: Depletion Region and Barrier Potential",
+   "section": "14.3",
+   "definition": "When a p-type and an n-type semiconductor are joined, diffusion of electrons and holes across the junction creates a depletion region devoid of free carriers, and a built-in barrier potential develops across it.",
+   "formula": "V_b ~ 0.7 V for Si; V_b ~ 0.3 V for Ge",
+   "key_idea": "The depletion region and barrier potential arise from the recombination of majority carriers near the junction and oppose further diffusion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics explain the formation of the depletion region in a p-n junction",
+    "determine the barrier potential for a silicon p-n junction",
+    "calculate the width of the depletion region given doping concentrations",
+    "explain why a barrier potential develops across a p-n junction",
+    "verify that the depletion region is devoid of free charge carriers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the semiconductor material and its barrier potential",
+     "explain": "silicon has a barrier potential of about 0.7 V and germanium about 0.3 V at room temperature",
+     "compute": "V_b = 0.7 if material == Si else 0.3"
+    },
+    {
+     "step": 2,
+     "action": "relate the depletion width to the doping concentrations",
+     "explain": "the depletion region is wider on the lightly doped side and the total width depends on the doping levels and built-in potential",
+     "compute": "W = sqrt(2 * epsilon * V_b / (e * N))"
+    },
+    {
+     "step": 3,
+     "action": "verify the direction of the built-in electric field",
+     "explain": "the electric field points from the n-side to the p-side and opposes further diffusion of majority carriers",
+     "compute": "field_direction = n_side to p_side"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A p-n junction is formed in silicon. What is the approximate barrier potential at room temperature?",
+     "solution": "For silicon the barrier potential is about 0.7 V at room temperature.",
+     "answer": "V_b = 0.7 V"
+    },
+    {
+     "question": "A p-n junction is formed in germanium. What is the approximate barrier potential at room temperature?",
+     "solution": "For germanium the barrier potential is about 0.3 V at room temperature.",
+     "answer": "V_b = 0.3 V"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the depletion region is wider on the lightly doped side of a p-n junction.",
+     "type": "verify_property"
+    },
+    {
+     "question": "A silicon p-n junction has a built-in potential of 0.7 V. Estimate the depletion width if the doping is 10^21 per m^3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.4",
+   "title": "Semiconductor Diode: Forward and Reverse Bias",
+   "section": "14.4",
+   "definition": "A semiconductor diode is a p-n junction that conducts heavily when the p-side is connected to the positive terminal (forward bias) and allows only a tiny reverse current when the polarity is reversed (reverse bias).",
+   "formula": "I = I_s * (exp(eV / kT) - 1)",
+   "key_idea": "In forward bias the barrier is reduced and the diode conducts, while in reverse bias the barrier is increased and only a small saturation current flows.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics determine the current through a diode given the applied voltage",
+    "calculate the diode current using the diode equation",
+    "identify whether a diode is in forward or reverse bias from the connection",
+    "find the forward voltage drop across a silicon diode",
+    "verify that a diode conducts in forward bias and blocks in reverse bias"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the bias condition and applied voltage",
+     "explain": "forward bias means p-side positive and n-side negative; reverse bias means the opposite polarity",
+     "compute": "V = +V_app if forward else -V_app"
+    },
+    {
+     "step": 2,
+     "action": "apply the diode current equation",
+     "explain": "use the Shockley equation I = I_s * (exp(eV / kT) - 1) where I_s is the reverse saturation current",
+     "compute": "I = I_s * (exp(eV / (k * T)) - 1)"
+    },
+    {
+     "step": 3,
+     "action": "interpret the current value for conduction state",
+     "explain": "a large forward current means the diode is conducting while a current near -I_s means the diode is in reverse bias blocking mode",
+     "compute": "state = conducting if I >> 0 else blocking"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A silicon diode has a reverse saturation current of 10 nA. Find the current when a forward bias of 0.7 V is applied at T = 300 K.",
+     "solution": "V = 0.7 V, I_s = 10^-8 A, kT/e ~ 0.026 V. I = I_s * (exp(0.7/0.026) - 1) = 10^-8 * (exp(26.9) - 1) ~ 10^-8 * 4.8 x 10^11 ~ 4.8 x 10^3 A in the ideal model; in practice limited by series resistance to mA range.",
+     "answer": "I is very large (diode conducts heavily); practical forward current is in mA"
+    },
+    {
+     "question": "A diode is connected with its p-side to the negative terminal of a 5 V battery. Is it in forward or reverse bias?",
+     "solution": "The p-side is negative and the n-side is positive, so the diode is in reverse bias and blocks current.",
+     "answer": "Reverse bias"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A germanium diode has a reverse saturation current of 1 microampere. Find the current for a forward bias of 0.3 V at 300 K.",
+     "type": "compute"
+    },
+    {
+     "question": "A diode is connected with its n-side to the negative terminal. Determine the bias condition.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.5",
+   "title": "Application of Junction Diode as Rectifier (Half Wave and Full Wave)",
+   "section": "14.5",
+   "definition": "A rectifier converts alternating current into direct current using the unidirectional conduction of a p-n junction diode; a half-wave rectifier uses one diode and a full-wave rectifier uses a bridge or centre-tap arrangement of diodes.",
+   "formula": "Half wave: V_dc = V_m / pi; Full wave: V_dc = 2 * V_m / pi",
+   "key_idea": "A diode allows current only during one half of the AC cycle in half-wave rectification and during both halves in full-wave rectification, producing a pulsating DC output.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics calculate the DC output voltage of a half wave rectifier",
+    "find the average DC output of a full wave rectifier given the peak input voltage",
+    "determine the ripple factor of a half wave rectifier",
+    "compare the output of half wave and full wave rectifiers",
+    "verify that a full wave rectifier has double the DC output of a half wave rectifier"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the peak input voltage and rectifier type",
+     "explain": "V_m is the peak value of the AC input voltage and the rectifier type determines the DC output formula",
+     "compute": "V_m = peak_voltage; type = half or full"
+    },
+    {
+     "step": 2,
+     "action": "apply the DC output voltage formula",
+     "explain": "for half wave V_dc = V_m / pi and for full wave V_dc = 2 * V_m / pi",
+     "compute": "V_dc = V_m / pi if half else 2 * V_m / pi"
+    },
+    {
+     "step": 3,
+     "action": "compute the ripple factor if required",
+     "explain": "the ripple factor is 1.21 for half wave and 0.482 for full wave rectifiers",
+     "compute": "ripple = 1.21 if half else 0.482"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A half wave rectifier has an AC input with a peak voltage of 20 V. Find the DC output voltage.",
+     "solution": "V_m = 20 V. V_dc = V_m / pi = 20 / 3.14 = 6.37 V.",
+     "answer": "V_dc = 6.37 V"
+    },
+    {
+     "question": "A full wave rectifier has an AC input with a peak voltage of 20 V. Find the DC output voltage.",
+     "solution": "V_m = 20 V. V_dc = 2 * V_m / pi = 2 * 20 / 3.14 = 12.74 V.",
+     "answer": "V_dc = 12.74 V"
+    },
+    {
+     "question": "Compare the ripple factors of half wave and full wave rectifiers.",
+     "solution": "Half wave ripple factor = 1.21. Full wave ripple factor = 0.482. The full wave rectifier has a smaller ripple and smoother DC output.",
+     "answer": "Half wave = 1.21, Full wave = 0.482"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A half wave rectifier has a peak input voltage of 50 V. Find the DC output voltage.",
+     "type": "compute"
+    },
+    {
+     "question": "A full wave rectifier has a peak input voltage of 15 V. Find the average DC output.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.6",
+   "title": "Special Purpose p-n Junction Diodes (LED, Photodiode, Solar Cell, Zener Diode)",
+   "section": "14.6",
+   "definition": "Special purpose diodes exploit the p-n junction in different modes: an LED emits light in forward bias, a photodiode conducts when illuminated in reverse bias, a solar cell generates voltage under light and a Zener diode operates in reverse breakdown to regulate voltage.",
+   "formula": "LED: forward biased emission; Photodiode: reverse current proportional to light; Solar cell: photovoltaic EMF; Zener: V_z constant in breakdown",
+   "key_idea": "Each special purpose diode uses the p-n junction under specific bias and illumination conditions to perform a unique function.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics identify the function of a given special purpose diode",
+    "determine which special diode emits light in forward bias",
+    "explain the working principle of a photodiode in reverse bias",
+    "describe how a solar cell converts light into electricity",
+    "verify that a Zener diode operates in the reverse breakdown region"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the type of special purpose diode",
+     "explain": "LED, photodiode, solar cell and Zener diode each have distinct operating conditions and functions",
+     "compute": "diode_type = given_diode"
+    },
+    {
+     "step": 2,
+     "action": "determine the bias and operating condition for the diode",
+     "explain": "LED and solar cell work in forward or photovoltaic mode, photodiode works in reverse bias under light and Zener works in reverse breakdown",
+     "compute": "bias = forward for LED, reverse for photodiode and Zener, photovoltaic for solar cell"
+    },
+    {
+     "step": 3,
+     "action": "verify the function matches the operating condition",
+     "explain": "an LED emits light, a photodiode detects light, a solar cell generates power and a Zener diode regulates voltage",
+     "compute": "valid = (function matches diode_type)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which special purpose diode emits light when forward biased?",
+     "solution": "A Light Emitting Diode (LED) emits light when forward biased due to recombination of electrons and holes releasing photons.",
+     "answer": "LED"
+    },
+    {
+     "question": "Which diode is used to detect light intensity and operates in reverse bias?",
+     "solution": "A photodiode is operated in reverse bias; the reverse current increases with incident light intensity, allowing light detection.",
+     "answer": "Photodiode"
+    },
+    {
+     "question": "Which diode generates an EMF when exposed to light without any external bias?",
+     "solution": "A solar cell is a p-n junction that generates a photovoltaic EMF when light falls on it, converting light energy into electrical energy.",
+     "answer": "Solar cell"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Which special purpose diode is used as a voltage regulator operating in reverse breakdown?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why a photodiode is operated in reverse bias rather than forward bias.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.7",
+   "title": "Zener Diode as Voltage Regulator",
+   "section": "14.7",
+   "definition": "A Zener diode operated in the reverse breakdown region maintains a nearly constant voltage across it despite changes in the input voltage or load current, making it useful as a voltage regulator.",
+   "formula": "V_out = V_z; I_z = I_in - I_L; R_s = (V_in - V_z) / I_in",
+   "key_idea": "In the breakdown region the Zener voltage remains nearly constant, so the Zener diode regulates the output voltage by drawing the excess current through a series resistor.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics calculate the value of the series resistor for a Zener voltage regulator",
+    "find the Zener current given the input voltage and load current",
+    "determine the regulated output voltage of a Zener diode circuit",
+    "calculate the power dissipation in a Zener diode",
+    "verify that the Zener diode maintains a constant output voltage under varying load"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the input voltage, Zener voltage and load current",
+     "explain": "V_in is the unregulated input, V_z is the Zener breakdown voltage and I_L is the load current",
+     "compute": "V_in = input; V_z = zener_voltage; I_L = load_current"
+    },
+    {
+     "step": 2,
+     "action": "compute the series resistor and Zener current",
+     "explain": "the series resistor limits the current and the Zener current is the excess current after supplying the load",
+     "compute": "R_s = (V_in - V_z) / I_in; I_z = I_in - I_L"
+    },
+    {
+     "step": 3,
+     "action": "verify the Zener remains in breakdown and compute power",
+     "explain": "the Zener current must be positive and within the rated limits; power dissipated is P_z = V_z * I_z",
+     "compute": "P_z = V_z * I_z; valid = (I_z > 0 and I_z <= I_z_max)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A Zener diode with V_z = 6 V is used to regulate a 12 V supply. The load current is 5 mA and the minimum Zener current is 5 mA. Find the series resistor.",
+     "solution": "I_in = I_L + I_z = 5 + 5 = 10 mA. R_s = (V_in - V_z) / I_in = (12 - 6) / 0.01 = 600 ohm.",
+     "answer": "R_s = 600 ohm"
+    },
+    {
+     "question": "A 9 V supply is regulated by a 6 V Zener diode with a series resistor of 150 ohm. The load current is 10 mA. Find the Zener current.",
+     "solution": "I_in = (V_in - V_z) / R_s = (9 - 6) / 150 = 3 / 150 = 0.02 A = 20 mA. I_z = I_in - I_L = 20 - 10 = 10 mA.",
+     "answer": "I_z = 10 mA"
+    },
+    {
+     "question": "A Zener diode with V_z = 5 V carries a Zener current of 20 mA. Find the power dissipated in the Zener diode.",
+     "solution": "P_z = V_z * I_z = 5 * 0.02 = 0.1 W = 100 mW.",
+     "answer": "P_z = 100 mW"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A Zener diode with V_z = 10 V regulates a 16 V supply. The load current is 4 mA and the minimum Zener current is 6 mA. Find the series resistor.",
+     "type": "compute"
+    },
+    {
+     "question": "A 12 V supply is regulated by an 8 V Zener diode with a series resistor of 200 ohm. The load draws 15 mA. Find the Zener current and power dissipation.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.14.8",
+   "title": "Logic Gates and their Combinations (OR, AND, NOT, NAND, NOR, XOR)",
+   "section": "14.8",
+   "definition": "Logic gates are electronic circuits that perform Boolean operations on one or more binary inputs to produce a single binary output; combinations of these gates implement complex digital logic functions.",
+   "formula": "OR: Y = A + B; AND: Y = A * B; NOT: Y = A'; NAND: Y = (A * B)'; NOR: Y = (A + B)'; XOR: Y = A'B + AB'",
+   "key_idea": "Each logic gate implements a specific Boolean function and combinations of gates can realise any digital logic expression.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Semiconductor Electronics determine the output of a given logic gate for specified inputs",
+    "construct the truth table for an OR AND NOT NAND NOR or XOR gate",
+    "find the output of a combination of logic gates for given inputs",
+    "identify which logic gate produces a high output only when all inputs are high",
+    "verify that a NAND gate is a universal gate that can implement any Boolean function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the logic gate or combination and the input values",
+     "explain": "list the gate type and the binary values of each input A and B",
+     "compute": "gate = gate_type; A = input1; B = input2"
+    },
+    {
+     "step": 2,
+     "action": "apply the Boolean function of the gate",
+     "explain": "use the Boolean expression for the gate: OR is A+B, AND is A*B, NOT is A', NAND is (A*B)', NOR is (A+B)' and XOR is A'B + AB'",
+     "compute": "Y = boolean_function(A, B)"
+    },
+    {
+     "step": 3,
+     "action": "verify the output against the truth table",
+     "explain": "compare the computed output with the standard truth table entry for the given inputs to confirm correctness",
+     "compute": "valid = (Y == truth_table[gate][A][B])"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the output of a NAND gate when both inputs A = 1 and B = 1.",
+     "solution": "NAND: Y = (A * B)' = (1 * 1)' = 1' = 0.",
+     "answer": "Y = 0"
+    },
+    {
+     "question": "Find the output of an XOR gate when A = 1 and B = 0.",
+     "solution": "XOR: Y = A'B + AB' = (0)(1) + (1)(1) = 0 + 1 = 1.",
+     "answer": "Y = 1"
+    },
+    {
+     "question": "Two inputs A = 1 and B = 1 are fed into an AND gate and the output is then inverted by a NOT gate. Find the final output.",
+     "solution": "AND output = A * B = 1 * 1 = 1. NOT output = 1' = 0. This is equivalent to a NAND gate.",
+     "answer": "Y = 0 (equivalent to NAND)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct the truth table for a NOR gate with two inputs.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Find the output of an OR gate when A = 0 and B = 1.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Inputs A = 1 and B = 0 are applied to an AND gate followed by a NOT gate. Determine the final output.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

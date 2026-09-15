@@ -1,0 +1,504 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Relations and Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh101.txt",
+ "concepts": [
+  {
+   "id": "lemh.101.1",
+   "title": "Empty Relation",
+   "section": "1.2",
+   "definition": "A relation on a set where no element is associated or paired with any element of the set, including itself.",
+   "formula": "R = empty_set",
+   "key_idea": "The relation contains zero ordered pairs.",
+   "textbook_ref": "lemh101.txt lines 35-45",
+   "question_patterns": [
+    "show that the relation is empty",
+    "prove that no elements are related under the given condition",
+    "verify if the relation is an empty relation",
+    "is the relation empty",
+    "Explain the method of Empty Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the set and the relation condition",
+     "explain": "Write down the set elements and the condition defining the relation."
+    },
+    {
+     "step": 2,
+     "action": "Check for any satisfying pairs",
+     "explain": "Verify that no pair of elements from the set satisfies the given condition."
+    },
+    {
+     "step": 3,
+     "action": "Conclude empty relation",
+     "explain": "Since no ordered pairs satisfy the condition, the relation is empty."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.2",
+   "title": "Universal Relation",
+   "section": "1.2",
+   "definition": "A relation on a set where every single element is associated with every element of the set.",
+   "formula": "R = A x A",
+   "key_idea": "The relation contains all possible ordered pairs of the Cartesian product.",
+   "textbook_ref": "lemh101.txt lines 40-50",
+   "question_patterns": [
+    "show that the relation is universal",
+    "prove that every element is related to every other element",
+    "verify if the relation is a universal relation",
+    "is the relation universal",
+    "Explain the method of Universal Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the set and the relation condition",
+     "explain": "Determine the set A and the rule that defines the relation R."
+    },
+    {
+     "step": 2,
+     "action": "Verify the condition for all pairs",
+     "explain": "Check if every ordered pair (a, b) in A x A satisfies the given condition."
+    },
+    {
+     "step": 3,
+     "action": "Conclude universal relation",
+     "explain": "Since all possible pairs satisfy the condition, R is equal to A x A."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.3",
+   "title": "Reflexive Relation",
+   "section": "1.2",
+   "definition": "A relation on a set where every element is related to itself.",
+   "formula": "(a, a) in R for all a in A",
+   "key_idea": "Each element must pair with itself for the relation to be reflexive.",
+   "textbook_ref": "lemh101.txt lines 70-85",
+   "question_patterns": [
+    "show that the relation is reflexive",
+    "check if the relation is reflexive",
+    "prove reflexivity of the relation",
+    "is the relation reflexive",
+    "Explain the method of Reflexive Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take an arbitrary element",
+     "explain": "Let a be any element belonging to the set A."
+    },
+    {
+     "step": 2,
+     "action": "Test the relation condition for (a, a)",
+     "explain": "Substitute a for both elements in the relation's defining rule."
+    },
+    {
+     "step": 3,
+     "action": "Determine reflexivity",
+     "explain": "If the condition holds true for all a, the relation is reflexive."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.4",
+   "title": "Symmetric Relation",
+   "section": "1.2",
+   "definition": "A relation where if one element is related to a second element, then the second element is also related to the first.",
+   "formula": "(a, b) in R implies (b, a) in R",
+   "key_idea": "The order of elements in the relation does not affect their relatedness.",
+   "textbook_ref": "lemh101.txt lines 70-85",
+   "question_patterns": [
+    "show that the relation is symmetric",
+    "check if the relation is symmetric",
+    "prove symmetry of the relation",
+    "is the relation symmetric",
+    "Explain the method of Symmetric Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume (a, b) belongs to the relation",
+     "explain": "Assume that a is related to b under the given relation R."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the condition for (b, a)",
+     "explain": "Use the algebraic or logical definition to see if b is related to a."
+    },
+    {
+     "step": 3,
+     "action": "Determine symmetry",
+     "explain": "If (b, a) is always in R whenever (a, b) is in R, the relation is symmetric."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.5",
+   "title": "Transitive Relation",
+   "section": "1.2",
+   "definition": "A relation where if a first element is related to a second, and the second is related to a third, then the first element is related to the third.",
+   "formula": "(a, b) in R and (b, c) in R implies (a, c) in R",
+   "key_idea": "Relatedness carries over through intermediate elements.",
+   "textbook_ref": "lemh101.txt lines 70-85",
+   "question_patterns": [
+    "show that the relation is transitive",
+    "check if the relation is transitive",
+    "prove transitivity of the relation",
+    "is the relation transitive",
+    "Explain the method of Transitive Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume (a, b) and (b, c) belong to the relation",
+     "explain": "Assume both a R b and b R c are true."
+    },
+    {
+     "step": 2,
+     "action": "Deduce the relationship between a and c",
+     "explain": "Combine the two assumptions to show that a R c must also hold."
+    },
+    {
+     "step": 3,
+     "action": "Determine transitivity",
+     "explain": "If (a, c) is in R for all such pairs, the relation is transitive."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.6",
+   "title": "Equivalence Relation",
+   "section": "1.2",
+   "definition": "A relation on a set that is simultaneously reflexive, symmetric, and transitive.",
+   "formula": "reflexive and symmetric and transitive = true",
+   "key_idea": "An equivalence relation groups elements that share a common property.",
+   "textbook_ref": "lemh101.txt lines 85-100",
+   "question_patterns": [
+    "show that the relation is an equivalence relation",
+    "prove that the relation is an equivalence relation",
+    "verify if the relation is an equivalence relation",
+    "is the relation an equivalence relation",
+    "Explain the method of Equivalence Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify reflexivity",
+     "explain": "Show that (a, a) belongs to R for every element a in the set."
+    },
+    {
+     "step": 2,
+     "action": "Verify symmetry",
+     "explain": "Show that if (a, b) is in R, then (b, a) is also in R."
+    },
+    {
+     "step": 3,
+     "action": "Verify transitivity",
+     "explain": "Show that if (a, b) is in R and (b, c) is in R, then (a, c) is in R."
+    },
+    {
+     "step": 4,
+     "action": "Conclude equivalence",
+     "explain": "Since all three properties are satisfied, the relation is an equivalence relation."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.7",
+   "title": "Equivalence Class",
+   "section": "1.2",
+   "definition": "The subset of all elements in a set that are related to a specific element under an equivalence relation.",
+   "formula": "[a] = {x in A : (x, a) in R}",
+   "key_idea": "Equivalence classes partition the set into mutually disjoint subsets.",
+   "textbook_ref": "lemh101.txt lines 120-145",
+   "question_patterns": [
+    "find the equivalence class of",
+    "determine the set of elements related to",
+    "find the equivalence class containing",
+    "what is the equivalence class of",
+    "Explain the method of Equivalence Class."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reference element",
+     "explain": "Identify the element a for which the equivalence class is to be found."
+    },
+    {
+     "step": 2,
+     "action": "Apply the relation condition",
+     "explain": "Set up the relation condition between an arbitrary element x and the reference element a."
+    },
+    {
+     "step": 3,
+     "action": "Solve for x",
+     "explain": "Find all elements x in the set that satisfy this condition to form the equivalence class [a]."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.8",
+   "title": "One-One (Injective) Function",
+   "section": "1.3",
+   "definition": "A function where distinct elements in the domain map to distinct elements in the codomain.",
+   "formula": "f(x1) = f(x2) implies x1 = x2",
+   "key_idea": "No two different inputs produce the same output.",
+   "textbook_ref": "lemh101.txt lines 250-270",
+   "question_patterns": [
+    "show that the function is one-one",
+    "prove that the function is injective",
+    "check the injectivity of the function",
+    "is the function one-one",
+    "Explain the method of One-One (Injective) Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume equal outputs",
+     "explain": "Assume f(x1) = f(x2) for two arbitrary elements x1 and x2 in the domain."
+    },
+    {
+     "step": 2,
+     "action": "Solve the equation",
+     "explain": "Simplify the equation f(x1) = f(x2) algebraically."
+    },
+    {
+     "step": 3,
+     "action": "Conclude injectivity",
+     "explain": "If this simplification uniquely leads to x1 = x2, the function is one-one."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.9",
+   "title": "Onto (Surjective) Function",
+   "section": "1.3",
+   "definition": "A function where every element in the codomain has at least one pre-image in the domain.",
+   "formula": "range(f) = codomain",
+   "key_idea": "The entire codomain is covered by the range of the function.",
+   "textbook_ref": "lemh101.txt lines 270-290",
+   "question_patterns": [
+    "show that the function is onto",
+    "prove that the function is surjective",
+    "check the surjectivity of the function",
+    "is the function onto",
+    "Explain the method of Onto (Surjective) Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the equation y = f(x)",
+     "explain": "Let y be an arbitrary element in the codomain and set it equal to f(x)."
+    },
+    {
+     "step": 2,
+     "action": "Express x in terms of y",
+     "explain": "Solve the equation for x to find the pre-image."
+    },
+    {
+     "step": 3,
+     "action": "Verify pre-image existence",
+     "explain": "Check if the resulting expression for x always belongs to the domain for any y in the codomain."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.10",
+   "title": "Bijective Function",
+   "section": "1.3",
+   "definition": "A function that is both one-one (injective) and onto (surjective).",
+   "formula": "injective and surjective = true",
+   "key_idea": "A perfect one-to-one correspondence between the domain and codomain.",
+   "textbook_ref": "lemh101.txt lines 290-300",
+   "question_patterns": [
+    "show that the function is bijective",
+    "prove that the function is one-one and onto",
+    "check if the function is bijective",
+    "is the function bijective",
+    "Explain the method of Bijective Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Prove injectivity",
+     "explain": "Show that f(x1) = f(x2) implies x1 = x2."
+    },
+    {
+     "step": 2,
+     "action": "Prove surjectivity",
+     "explain": "Show that for every y in the codomain, there exists an x in the domain such that f(x) = y."
+    },
+    {
+     "step": 3,
+     "action": "Conclude bijection",
+     "explain": "Since the function is both injective and surjective, it is bijective."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.11",
+   "title": "Composition of Functions",
+   "section": "1.4",
+   "definition": "The combining of two functions where the output of the first function becomes the input of the second function.",
+   "formula": "gof(x) = g(f(x))",
+   "key_idea": "Applying one function after another in a sequential chain.",
+   "textbook_ref": "lemh101.txt lines 410-430",
+   "question_patterns": [
+    "find gof",
+    "find fog",
+    "calculate the composition of functions",
+    "find the composite function",
+    "Explain the method of Composition of Functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the expression for the outer function",
+     "explain": "Identify the outer function and write its definition with the inner function as its argument."
+    },
+    {
+     "step": 2,
+     "action": "Substitute the inner function",
+     "explain": "Replace the argument of the outer function with the explicit formula of the inner function."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the expression",
+     "explain": "Perform algebraic simplification to obtain the final composite function."
+    }
+   ]
+  },
+  {
+   "id": "lemh.101.12",
+   "title": "Inverse of a Linear Function",
+   "section": "1.4",
+   "definition": "The function that reverses the operation of a linear function f(x) = ax + b, mapping the output back to the input.",
+   "formula": "inverse_val = (y_val - intercept) / slope",
+   "key_idea": "Solving for the independent variable in terms of the dependent variable.",
+   "textbook_ref": "lemh101.txt lines 440-460",
+   "question_patterns": [
+    "find the inverse of the function",
+    "calculate the inverse function value",
+    "what is the inverse of the linear function",
+    "find the value of the inverse function at",
+    "Explain the method of Inverse of a Linear Function."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the intercept from the target value",
+     "explain": "Subtract the constant intercept from the given y value.",
+     "compute": "diff = y_val - intercept"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the slope",
+     "explain": "Divide the difference by the slope coefficient to find the pre-image value.",
+     "compute": "inverse_val = diff / slope"
+    },
+    {
+     "step": 3,
+     "action": "Verify by substituting back into the original function",
+     "explain": "Substitute inverse_val into f(x) = slope * x + intercept to confirm it equals y_val, ensuring the inverse is correct.",
+     "compute": "check = slope * inverse_val + intercept"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh101.txt lines 445-455",
+   "concept": "lemh.101.12",
+   "question_type": "compute",
+   "question_pattern": "Let f(x) = {slope}x + {intercept}. Find the value of the inverse function at y = {y_val}.",
+   "extracted_variables": {
+    "slope": "The coefficient of x in the linear function",
+    "intercept": "The constant term in the linear function",
+    "y_val": "The value at which the inverse function is evaluated"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the intercept from the target value",
+     "explain": "Subtract the constant intercept from the given y value.",
+     "compute": "diff = y_val - intercept"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the slope",
+     "explain": "Divide the difference by the slope coefficient to find the pre-image value.",
+     "compute": "inverse_val = diff / slope"
+    }
+   ]
+  },
+  {
+   "id": "drill2",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.101.12",
+   "question_type": "compute",
+   "question_pattern": "Apply the Inverse of a Linear Function chain with y_val = 2, intercept = 3, diff = 5, slope = 4. What value does it produce?",
+   "extracted_variables": {
+    "y_val": "2",
+    "intercept": "3",
+    "diff": "5",
+    "slope": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the intercept from the target value",
+     "explain": "Subtract the constant intercept from the given y value.",
+     "compute": "diff = y_val - intercept"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the slope",
+     "explain": "Divide the difference by the slope coefficient to find the pre-image value.",
+     "compute": "inverse_val = diff / slope"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "lemh101.txt lines 160-240",
+   "questions": [
+    "Determine whether the relation R in the set A = {1, 2, 3, ..., 13, 14} defined as R = {(x, y) : 3x - y = 0} is reflexive, symmetric and transitive.",
+    "Show that the relation R in the set R of real numbers, defined as R = {(a, b) : a <= b^2} is neither reflexive nor symmetric nor transitive.",
+    "Check whether the relation R defined in the set {1, 2, 3, 4, 5, 6} as R = {(a, b) : b = a + 1} is reflexive, symmetric or transitive.",
+    "Show that the relation R in R defined as R = {(a, b) : a <= b}, is reflexive and transitive but not symmetric."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "lemh101.txt lines 340-400",
+   "questions": [
+    "Show that the function f : R* -> R* defined by f(x) = 1/x is one-one and onto, where R* is the set of all non-zero real numbers.",
+    "Check the injectivity and surjectivity of the function f : N -> N given by f(x) = x^2.",
+    "Prove that the Greatest Integer Function f : R -> R, given by f(x) = [x], is neither one-one nor onto.",
+    "Show that the Modulus Function f : R -> R, given by f(x) = |x|, is neither one-one nor onto."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

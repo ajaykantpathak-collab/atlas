@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_8",
+   "title": "c9_civ_ch2_8",
+   "questions": [
+    {
+     "q": "What is the specific provision in the Conduct of Elections Rules, 1961 that enables senior citizens above 85 years and persons with benchmark disabilities to vote through postal ballot?",
+     "a": "Rule 27A of the Conduct of Elections Rules, 1961, inserted via notification in 2019, allows 'absentee voters' including senior citizens above 85 years and persons with benchmark disabilities (40% or more) to vote through postal ballot. A wrong answer (e.g., citing Article 326 or Rule 49MA) reveals the student confuses constitutional provisions with subordinate legislation, or mixes up VVPAT verification rules with postal ballot eligibility.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Election Commission mandate Braille signage on EVM ballot units and VVPAT machines, and how does this interact with the principle of secret ballot under Article 21?",
+     "a": "Braille signage (numbers 1-16 on ballot unit, candidate names on VVPAT) enables visually impaired voters to identify and verify their vote independently, preserving the secrecy of the ballot which is a facet of Article 21 (right to privacy). A wrong answer focusing only on 'helping disabled voters' misses the constitutional linkage: without Braille, a blind voter needs assistance, violating the secrecy guaranteed by the Representation of the People Act, 1951 and upheld by the Supreme Court in PUCL v. Union of India (2013).",
+     "self_check": true
+    },
+    {
+     "q": "A wheelchair user arrives at a polling station on the ground floor but the EVM is placed on a table too high to reach. The polling officer offers to press the button on the voter's behalf. Apply the ECI's accessibility guidelines and the Rights of Persons with Disabilities Act, 2016 to determine the correct procedure.",
+     "a": "The polling officer must adjust the EVM height or provide a ramp/lower table per ECI's 'Assured Minimum Facilities' (AMF) and Section 40 of RPwD Act (accessibility standards). Voting by proxy is NOT permitted for physical disabilities (only for service voters). The voter must operate the EVM independently. A wrong answer allowing proxy voting reveals confusion between 'assistance in voting' (permitted for blind/infirm under Rule 49N) and 'proxy voting' (not permitted for general PwD), and ignorance of AMF standards.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accessibility features of the NVSP portal, Voter Helpline 1950, and Saksham App. Which service specifically addresses the information gap for a first-time voter with hearing impairment, and why?",
+     "a": "The Saksham App (launched 2024) is specifically designed for PwD voters with features like text-to-speech, sign language videos, and high-contrast UI, directly addressing hearing impairment. NVSP is a web portal for registration/services; Helpline 1950 is voice-only. A wrong answer selecting NVSP or Helpline shows the student cannot differentiate between general voter services and targeted accessibility solutions, missing the 'universal design' vs 'reasonable accommodation' distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the 'Home Voting' facility (postal ballot for 85+/PwD) introduced in 2019. Does it fully realize the constitutional promise of Article 326 for these groups? Justify with two arguments.",
+     "a": "Home voting partially realizes Article 326: (1) It enables participation for those physically unable to reach booths, upholding the 'every adult citizen' mandate. (2) However, it compromises ballot secrecy (voting in presence of polling team) and excludes voters with non-benchmark disabilities (<40%) or those aged 80-84. A wrong answer claiming 'full realization' ignores the secrecy trade-off and eligibility gaps; claiming 'failure' ignores the substantive enfranchisement achieved.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for an additional accessibility measure the ECI should implement for voters with intellectual disabilities, referencing the UNCRPD (ratified by India in 2007) and the RPwD Act, 2016.",
+     "a": "A strong proposal would cite Article 29 of UNCRPD (participation in political life) and Section 11 of RPwD Act (accessibility in voting), suggesting 'Easy Read' manifestos with pictograms, simplified ballot papers with candidate photos only, and trained 'voting companions' (not proxies) who explain the process without influencing choice. A poor proposal suggests proxy voting or removing intellectual disability as a criterion, violating the convention's 'supported decision-making' model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

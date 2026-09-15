@@ -1,0 +1,526 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Playing with Constructions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp108.txt",
+ "concepts": [
+  {
+   "id": "fegp.8.1.1",
+   "title": "Definition of a Circle",
+   "section": "8.1",
+   "definition": "Mark a fixed point; collect every point sitting exactly one fixed distance from it -- that round curve is a circle, and the fixed distance is its radius.",
+   "formula": "distance = radius",
+   "key_idea": "All points on a circle are equidistant from the center.",
+   "textbook_ref": "fegp108.txt lines 30-50",
+   "question_patterns": [
+    "All points of a curve sit 4 cm from a fixed centre P -- name the curve.",
+    "What is the shape of a curve where all points are 4 cm from a point P?",
+    "Define the radius of a circle.",
+    "What is the distance between the centre and any point on the circle called?",
+    "If a point is on a circle, how does its distance from the centre compare to the radius?",
+    "How far is every curve point from the centre?",
+    "What name does the fixed middle point of a circle carry?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fixed distance",
+     "explain": "The fixed distance from the center to any point on the boundary is the radius.",
+     "compute": "radius = distance"
+    },
+    {
+     "step": 2,
+     "action": "Identify the fixed center point",
+     "explain": "The center is the single fixed point from which every boundary point sits at the same distance."
+    },
+    {
+     "step": 3,
+     "action": "State the defining property",
+     "explain": "Every point on the circle is exactly one radius away from the center, which is what makes the curve a circle.",
+     "compute": "distance = radius"
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.1.2",
+   "title": "Radius of a Semicircular Wave",
+   "section": "8.1",
+   "definition": "A half circle (semicircle) drawn on a central line segment has a radius equal to half the length of that segment if the segment is the diameter.",
+   "formula": "radius = segment_length / 2",
+   "key_idea": "A half-round arc squats on a base segment; when that segment is the diameter, the arc's radius is half of it.",
+   "textbook_ref": "fegp108.txt lines 100-115",
+   "question_patterns": [
+    "What radius should be taken to get a half circle on a segment of 8 cm?",
+    "Calculate the radius for a wave where AX is 4 cm.",
+    "Find the radius of a semicircular arc given the diameter segment.",
+    "A wave arc sits on a 12 cm base -- what radius do you draw?",
+    "Find the radius when the base segment measures 10 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the segment length by 2",
+     "explain": "The radius of a semicircle is half of its diameter (the segment length).",
+     "compute": "radius = segment_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Set the compass opening to the radius",
+     "explain": "Place the compass point at the midpoint of the segment and open it to the computed radius.",
+     "compute": "compass_opening = radius"
+    },
+    {
+     "step": 3,
+     "action": "Draw the semicircular arc on the segment",
+     "explain": "Swing the compass from one end of the segment to the other to produce the half-round wave.",
+     "compute": "arc = semicircle"
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2.1",
+   "title": "Properties of a Rectangle",
+   "section": "8.2",
+   "definition": "A four-sided figure qualifies as a rectangle when matching sides sit across from each other and every corner is 90 degrees.",
+   "formula": "side_a = side_c; side_b = side_d; angle = 90",
+   "key_idea": "Matching sides sit across from each other, and every corner is a right angle.",
+   "textbook_ref": "fegp108.txt lines 135-145",
+   "question_patterns": [
+    "What are the properties of a rectangle?",
+    "Is a 4-sided figure with all angles 90 degrees and unequal opposite sides possible?",
+    "Verify if a figure is a rectangle based on side lengths and angles.",
+    "State the two checks that make a figure a rectangle.",
+    "Can a four-sided figure with 90-degree corners fail to be a rectangle?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check opposite sides",
+     "explain": "Verify if AB equals CD and AD equals BC."
+    },
+    {
+     "step": 2,
+     "action": "Check internal angles",
+     "explain": "Verify if all four angles are exactly 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the figure is a rectangle",
+     "explain": "If both opposite sides are equal and all four angles are 90 degrees, the figure is a rectangle."
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2.2",
+   "title": "Properties of a Square",
+   "section": "8.2",
+   "definition": "A four-sided figure qualifies as a square when the four sides all match and every corner is 90 degrees.",
+   "formula": "side_1 = side_2 = side_3 = side_4; angle = 90",
+   "key_idea": "A square is a special rectangle where all four sides are equal.",
+   "textbook_ref": "fegp108.txt lines 146-150",
+   "question_patterns": [
+    "What makes a figure a square?",
+    "List the two main properties of a square.",
+    "If all sides are equal but angles are not 90, is it a square?",
+    "State the two checks that make a figure a square.",
+    "Is a square a special kind of rectangle -- why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check all side lengths",
+     "explain": "All four sides must be of the same length."
+    },
+    {
+     "step": 2,
+     "action": "Check all angles",
+     "explain": "All four angles must be 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the figure is a square",
+     "explain": "If all four sides are equal and all four angles are 90 degrees, the figure is a square -- a special kind of rectangle."
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.4.1",
+   "title": "Dividing Rectangles into Identical Squares",
+   "section": "8.4",
+   "definition": "Stack equal squares side by side inside a rectangle: the length must equal the square count times the breadth (each breadth equals one square's side).",
+   "formula": "length = count * breadth",
+   "key_idea": "The ratio of sides determines how many identical squares fit into a rectangle.",
+   "textbook_ref": "fegp108.txt lines 215-235",
+   "question_patterns": [
+    "Construct a rectangle that can be divided into 3 identical squares.",
+    "If a rectangle is divided into 2 squares of side 4 cm, what is its length?",
+    "What must be the length of a rectangle if it is divided into three 5 cm squares?",
+    "Draw a rectangle made of 4 equal squares of side 3 cm.",
+    "What length suits a rectangle of three squares with 6 cm sides?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the side of the square",
+     "explain": "The breadth of the rectangle is equal to the side of the identical squares.",
+     "compute": "side = breadth"
+    },
+    {
+     "step": 2,
+     "action": "Multiply side by the number of squares",
+     "explain": "The total length is the sum of the sides of the 'n' squares.",
+     "compute": "length = count * side"
+    },
+    {
+     "step": 3,
+     "action": "Write the rectangle dimensions",
+     "explain": "The rectangle has breadth equal to one square's side and length equal to count times the side.",
+     "compute": "rectangle_area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.5.1",
+   "title": "Diagonals of a Rectangle",
+   "section": "8.5",
+   "definition": "Join opposite corners of a rectangle with straight pieces: the two pieces you draw always come out equal in measure.",
+   "formula": "diagonal_1 = diagonal_2",
+   "key_idea": "Both corner-to-corner pieces match in measure, always.",
+   "textbook_ref": "fegp108.txt lines 245-255",
+   "question_patterns": [
+    "What are the diagonals of a rectangle?",
+    "Compare the lengths of the diagonals of a rectangle.",
+    "If one diagonal of a rectangle is 7 cm, what is the length of the other?",
+    "If one corner-to-corner piece measures 9 cm, how long is the other?",
+    "What do the two drawn pieces of a rectangle always share?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given diagonal length",
+     "explain": "In a rectangle, both diagonals have the same measure.",
+     "compute": "diagonal_2 = diagonal_1"
+    },
+    {
+     "step": 2,
+     "action": "Apply the equal-diagonals property",
+     "explain": "Since both corner-to-corner pieces of a rectangle always match, the second diagonal equals the first.",
+     "compute": "diagonal_2 = diagonal_1"
+    },
+    {
+     "step": 3,
+     "action": "State the other diagonal's length",
+     "explain": "The other diagonal has the same length as the given one.",
+     "compute": "answer = diagonal_1"
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.5.2",
+   "title": "Diagonal Angle Bisector in Squares",
+   "section": "8.5",
+   "definition": "In a square, each straight corner-to-corner piece splits the facing 90-degree corner into two equal 45-degree parts.",
+   "formula": "bisected_angle = 90 / 2",
+   "key_idea": "A rectangle where diagonals bisect the angles is a square.",
+   "textbook_ref": "fegp108.txt lines 265-275",
+   "question_patterns": [
+    "How does a diagonal divide the angles in a square?",
+    "What are the angles formed by a diagonal in a square?",
+    "If a diagonal divides a 90 degree angle into two equal parts, what is the measure of each?",
+    "What angle does a corner-to-corner piece make with a side of a square?",
+    "How much is each part when a square corner is split equally?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the right angle by 2",
+     "explain": "The diagonal of a square bisects the 90 degree corner angle.",
+     "compute": "bisected_angle = 90 / 2"
+    },
+    {
+     "step": 2,
+     "action": "Compute each part",
+     "explain": "Splitting 90 degrees equally gives two 45-degree angles.",
+     "compute": "each_part = 45"
+    },
+    {
+     "step": 3,
+     "action": "State the angle the diagonal makes with each side",
+     "explain": "The diagonal meets each side of the square at 45 degrees, confirming the square property.",
+     "compute": "angle_with_side = 45"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp108.txt lines 195-205",
+   "concept": "fegp.8.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "Construct a square PQRS of side length {side} cm.",
+   "extracted_variables": {
+    "side": "length of the square side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Draw base",
+     "explain": "Draw line segment PQ of length {side} cm."
+    },
+    {
+     "step": 2,
+     "action": "Draw perpendiculars",
+     "explain": "Draw lines perpendicular to PQ at points P and Q."
+    },
+    {
+     "step": 3,
+     "action": "Mark vertices",
+     "explain": "Mark points S and R on the perpendiculars such that PS = {side} cm and QR = {side} cm."
+    },
+    {
+     "step": 4,
+     "action": "Complete square",
+     "explain": "Join SR to complete the square."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp108.txt lines 315-330",
+   "concept": "fegp.8.5.1",
+   "question_type": "compute",
+   "question_pattern": "Construct a rectangle where one side is {side} cm and the diagonal is {diag} cm.",
+   "extracted_variables": {
+    "side": "length of base",
+    "diag": "length of diagonal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Draw base",
+     "explain": "Draw base CD of length {side} cm.",
+     "compute": "base = side"
+    },
+    {
+     "step": 2,
+     "action": "Draw perpendicular",
+     "explain": "Draw a perpendicular line l at point C."
+    },
+    {
+     "step": 3,
+     "action": "Locate vertex with arc",
+     "explain": "Draw an arc of radius {diag} cm from point D to intersect line l at point B.",
+     "compute": "radius = diag"
+    },
+    {
+     "step": 4,
+     "action": "Complete rectangle",
+     "explain": "Draw perpendiculars from D and B to find the fourth point A."
+    }
+   ]
+  },
+  {
+   "concept": "fegp.8.1.1",
+   "question_pattern": "Every point of a curve sits {r} cm from a fixed point -- what is the curve's radius?",
+   "extracted_variables": {
+    "r": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the fixed distance",
+     "explain": "each point is 4 cm away",
+     "compute": "distance = radius"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.1.2",
+   "question_pattern": "A half-round arc rests on a base of {seg} cm -- what radius do you take?",
+   "extracted_variables": {
+    "seg": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the base segment",
+     "explain": "8 / 2 = 4",
+     "compute": "radius = segment_length / 2"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.4.1",
+   "question_pattern": "A rectangle is tiled with {count} squares of side {side} cm -- find its length.",
+   "extracted_variables": {
+    "count": "2",
+    "side": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply squares by side",
+     "explain": "2 x 4 = 8",
+     "compute": "length = count * breadth"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.4.1",
+   "question_pattern": "Three equal squares of side {side} cm sit inside a rectangle -- how long is it?",
+   "extracted_variables": {
+    "side": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply squares by side",
+     "explain": "3 x 5 = 15",
+     "compute": "length = count * breadth"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.5.1",
+   "question_pattern": "One corner-to-corner piece of a rectangle is {d1} cm -- the other measures?",
+   "extracted_variables": {
+    "d1": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "the two pieces always match",
+     "explain": "the other is 7 cm too",
+     "compute": "diagonal_2 = diagonal_1"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.5.2",
+   "question_pattern": "A square corner is split equally by the corner-to-corner piece -- how big is each part?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the right corner",
+     "explain": "90 / 2 = 45",
+     "compute": "bisected_angle = 90 / 2"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.1.1",
+   "question_pattern": "A circle is drawn with a compass opening of {r} cm -- what stays true everywhere on it?",
+   "extracted_variables": {
+    "r": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the compass opening",
+     "explain": "every curve point sits 5 cm from the centre",
+     "compute": "distance = radius"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.1.2",
+   "question_pattern": "A wave arc is drawn on a base segment of {seg} cm -- find the compass opening.",
+   "extracted_variables": {
+    "seg": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the base segment",
+     "explain": "12 / 2 = 6",
+     "compute": "radius = segment_length / 2"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.8.5.2",
+   "question_pattern": "By how much does the corner-to-corner piece tilt from each side of a square?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the right corner",
+     "explain": "90 / 2 = 45",
+     "compute": "bisected_angle = 90 / 2"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "fegp108.txt page 191",
+   "questions": [
+    "What radius should be taken in the compass to get this half circle? What should be the length of AX?",
+    "Take a central line of a different length and try to draw the wave on it."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "fegp108.txt page 193",
+   "questions": [
+    "Which of the following is not a name for this square? 1. PQSR 2. SPQR 3. RSPQ 4. QRSP"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "fegp108.txt page 197",
+   "questions": [
+    "Draw a rectangle with sides of length 4 cm and 6 cm.",
+    "Is it possible to construct a 4-sided figure in which all the angles are equal to 90 but opposite sides are not equal?"
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "fegp108.txt page 211",
+   "questions": [
+    "Construct a rectangle in which one of the diagonals divides the opposite angles into 50 and 40.",
+    "Construct a rectangle in which one of the diagonals divides the opposite angles into 45 and 45. What do you observe about the sides?",
+    "Construct a rectangle one of whose sides is 4 cm and the diagonal is of length 8 cm."
+   ]
+  }
+ ],
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_04_014",
+   "title": "c12_eng_v_cbse_04_014",
+   "questions": [
+    {
+     "q": "Define the PEEL framework and state the purpose of each component in a literature-based writing task.",
+     "a": "PEEL stands for Point (topic sentence stating the argument), Evidence (specific textual reference — quote, scene, or detail), Explanation (analysis of how evidence supports the point), and Link (connecting back to the thesis/question). A wrong answer (e.g., \"PEEL is for paragraph formatting\" or missing Explanation) reveals the student treats writing as summarising rather than arguing — they will produce plot narration instead of analytical paragraphs in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Dr. Sadao is a good doctor because he saves the American soldier. He operates on him and removes the bullet. This shows he cares about his duty.\" Identify the structural flaw in this response and explain why it would score poorly in a CBSE 6-mark question.",
+     "a": "The response lacks PEEL structure — it states a claim but provides only plot narration as \"evidence\" without analytical Explanation (e.g., *why* the operation demonstrates duty over patriotism, the risk to his family, the internal conflict). It has no Link to the broader theme. CBSE marking scheme awards marks for *analysis*, not story retelling. This answer would likely score 1-2/6 for content but 0 for structure/expression.",
+     "self_check": true
+    },
+    {
+     "q": "Convert this plot point into a PEEL paragraph: \"Hana washes the wounded soldier herself after Yumi refuses.\" Write a complete paragraph (Point, Evidence, Explanation, Link) suitable for a character sketch of Hana.",
+     "a": "**Point:** Hana's decision to wash the soldier herself marks her moral awakening from passive compliance to active compassion. **Evidence:** When Yumi refuses (\"I have never washed a white man... I will not wash so dirty a one now\"), Hana dismisses her (\"You will do what your master commands\") but then personally washes \"his face carefully... until his upper body was quite clean.\" **Explanation:** This act transcends her initial fear (\"He was the first [white man] she had seen since she left America... now he seemed to have nothing to do with those whom she had known there\") and societal prejudice — she chooses humanity over ingrained bias. **Link:** Thus, Hana evolves from a wife following her husband's lead to an independent moral agent, embodying the story's theme that humanity surpasses national hatred.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two thesis statements for an essay on \"The Enemy\":\n(A) \"Dr. Sadao saves an American soldier during WWII.\"\n(B) \"In 'The Enemy,' Pearl S. Buck demonstrates that professional ethics and human compassion can transcend wartime nationalism through Dr. Sadao's choices.\"\nAnalyze which thesis is exam-appropriate and why.",
+     "a": "Thesis (B) is exam-appropriate. It presents an *arguable analytical claim* (not a plot fact), names the author and title, identifies the central theme (ethics/compassion vs. nationalism), and signals the essay's structure (through Dr. Sadao's choices). Thesis (A) is a factual summary — it offers no argument, no thematic depth, and no roadmap. Board examiners expect thesis-driven essays; (A) would limit the response to narration, capping marks at 2-3/6 regardless of content knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this diary entry opening written from Hana's perspective: \"Dear Diary, Today an American soldier came to our house. He was wounded. Sadao operated on him. The servants left. I am scared.\" Judge its effectiveness for a CBSE creative writing task (diary entry, 100-150 words) and suggest three specific improvements.",
+     "a": "Ineffective. It reads as a plot log, not a character's inner voice. **Improvements:** (1) **Emotional interiority** — replace \"I am scared\" with layered conflict: \"My hands still tremble from washing his wounded back — the same hands that folded Yumi's quilts this morning. How strange that compassion feels like betrayal.\" (2) **Voice authenticity** — use Hana's diction (formal yet intimate, Japanese cultural markers: \"the tatami,\" \"the tokonoma\"). (3) **Thematic resonance** — end with a reflective question linking to the story's core: \"If saving a life makes me a traitor to my country, what does that make my country?\" A strong diary entry reveals character *through* event, not just *after* it.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word speech opening (as Dr. Sadao addressing young doctors) on \"The Doctor's Conscience in Wartime\" that hooks the audience, states a clear stance, and uses a rhetorical device from the chapter (e.g., the \"stepping stones\" metaphor or the General's \"German ruthlessness vs. American sentimentality\").",
+     "a": "**Sample:** \"Colleagues, my father once called distant islands 'stepping stones to the future.' Today I ask: what future do we build when a surgeon's knife hesitates at a border? The General sought 'German ruthlessness with American sentimentality' — but I chose neither. I chose the oath. Let our hands know no nationality.\" **Criteria met:** Hook (father's metaphor), stance (oath over nationality), rhetorical device (repetition/antithesis: \"German ruthlessness... American sentimentality\"), authentic voice. A weak answer would lack the metaphor, state a generic \"doctors should save lives,\" or exceed word limit without focus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

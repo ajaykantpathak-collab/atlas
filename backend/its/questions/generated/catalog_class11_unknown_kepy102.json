@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_unknown_kepy102",
+ "concepts": [
+  {
+   "id": "kepy102.1.1",
+   "title": "Goals of Psychological Enquiry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Goals of Psychological Enquiry' refers to.",
+     "a": "Psychological enquiry pursues goals in a ladder: describing behaviour accurately, explaining it by causes, predicting how it will recur, and controlling or modifying it where desirable. Each goal builds on the previous one, and all rest on careful measurement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goals of Psychological Enquiry'.",
+     "a": "Describe, explain, predict, control -- the four-step ladder every psychological study climbs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Goals of Psychological Enquiry' taught, and from which source text?",
+     "a": "2.1 (source: kepy102.txt goals sections (goals of psychological enquiry, description explanation prediction control, steps of conducting scientific research))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kepy102.1.2",
+   "title": "Methods: Observation, Case Study, Survey and Correlational Research",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Methods: Observation, Case Study, Survey and Correlational Research' refers to.",
+     "a": "Psychologists gather data by several methods: naturalistic or controlled observation of behaviour as it happens; the case study's deep portrait of one person or group; surveys and questionnaires collecting self-reports from many respondents; and correlational research measuring how variables move together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Methods: Observation, Case Study, Survey and Correlational Research'.",
+     "a": "Watch, probe, ask, relate -- four non-experimental routes to psychological data, each with its own blind spots.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Methods: Observation, Case Study, Survey and Correlational Research' taught, and from which source text?",
+     "a": "2.2 (source: kepy102.txt methods sections (observation, case study, survey questionnaire interview, correlational research, psychological testing))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kepy102.1.3",
+   "title": "Experimental Method, Variables and Ethics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Experimental Method, Variables and Ethics' refers to.",
+     "a": "The experiment is psychology's strongest method: an independent variable is manipulated while dependent variables are measured, with extraneous variables controlled through experimental and control groups, random assignment and other designs. Human research also binds the scientist to ethics -- informed consent, no harm, debriefing and confidentiality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Experimental Method, Variables and Ethics'.",
+     "a": "Manipulate one thing, measure another, control the rest -- and never harm the participant.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Experimental Method, Variables and Ethics' taught, and from which source text?",
+     "a": "2.3 (source: kepy102.txt experiment and ethics sections (experimental group control group, independent dependent extraneous variables, random assignment, ethical issues informed consent confidentiality))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "catalog": "catalog_class12_home_science_lehe104",
+ "concepts": [
+  {
+   "id": "lehe104.1",
+   "title": "Food Science, Processing, Technology and Manufacturing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Science, Processing, Technology and Manufacturing' refers to.",
+     "a": "Food science studies the make-up and behaviour of foods from harvest to plate; food processing converts raw ingredients into finished or semi finished goods; food technology applies that science, with economic and legal rules, to produce foods at scale, and food manufacturing is the mass production that results.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Science, Processing, Technology and Manufacturing'.",
+     "a": "Technology must also keep processing safe, sustainable and free of waste.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Science, Processing, Technology and Manufacturing', in plain ASCII form.",
+     "a": "chain -- raw material to processing to technology to manufacturing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.2",
+   "title": "Historic Milestones of Food Technology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Historic Milestones of Food Technology' refers to.",
+     "a": "Modern food technology began with Appert's canning breakthrough in 1810 and gained a scientific base when Pasteur explained spoilage of wine in 1864 and devised milk pasteurisation; wars and space travel later pushed convenience foods forward.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historic Milestones of Food Technology'.",
+     "a": "Military needs, space exploration and working women's demands shaped the convenience foods of today.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Historic Milestones of Food Technology', in plain ASCII form.",
+     "a": "timeline -- 1810 canning, 1864 pasteurisation, twentieth century convenience foods",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.3",
+   "title": "Food Spoilage and Its Causes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Spoilage and Its Causes' refers to.",
+     "a": "Foods decay through physical, chemical and biological attack -- pests, insects, wrong storage temperatures, light, oxygen, moisture, microbes and the food's own enzymes -- losing flavour, texture, colour and nourishment until they turn unsafe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Spoilage and Its Causes'.",
+     "a": "Enzymes are protein catalysts inside the food itself, so decay starts even without outside germs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Spoilage and Its Causes', in plain ASCII form.",
+     "a": "spoilage = microbes plus enzymes plus environment acting on food",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.4",
+   "title": "Perishability Classes of Foods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Perishability Classes of Foods' refers to.",
+     "a": "Foods sort into three keeping classes: perishables such as milk, curd, fish and meat that fail within a day or two; semi perishables like fruits and vegetables that hold for a fortnight, with root crops lasting two to four weeks; and non perishables such as grains, pulses and oilseeds that keep about a year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Perishability Classes of Foods'.",
+     "a": "Root crops sit at the top of the semi perishable band; dry grains anchor the year long end.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Perishability Classes of Foods', in plain ASCII form.",
+     "a": "class ladder -- days for perishables, weeks for semi perishables, a year for non perishables",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.5",
+   "title": "Principles of Preservation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Principles of Preservation' refers to.",
+     "a": "Processing holds spoilage back by five levers: applying heat, withdrawing water, chilling during storage, cutting acidity, and limiting contact with oxygen -- each one starves microbes or enzymes of what they need to work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Principles of Preservation'.",
+     "a": "Microbial growth depends on nutrients, moisture, pH, oxygen and inhibitors, so each lever targets one growth factor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Principles of Preservation', in plain ASCII form.",
+     "a": "five levers -- heat, water removal, low temperature, reduced pH, controlled oxygen",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.6",
+   "title": "Classes of Processed Foods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classes of Processed Foods' refers to.",
+     "a": "Processed products range from minimally processed fresh cuts, through preserved frozen, dehydrated and canned goods, to manufactured items like pickles and jams, formulated bakes and frozen desserts, purified food derivatives such as sugar and vanaspati, plus functional and medical foods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classes of Processed Foods'.",
+     "a": "The deeper the processing, the further the product sits from the raw character of its ingredients.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classes of Processed Foods', in plain ASCII form.",
+     "a": "class ladder -- minimal to preserved to manufactured to formulated to derivatives to functional to medical",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.7",
+   "title": "Fortification and Nutrient Modification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fortification and Nutrient Modification' refers to.",
+     "a": "Staple diets built on cereals miss certain nutrients, so producers add the missing nutrient to common foods -- iodine in salt, folic acid in flour, vitamins A and D in milk and oils -- or re-engineer recipes with sweeteners and fat substitutes to cut calories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fortification and Nutrient Modification'.",
+     "a": "FSSAI sets the standards so fortified staples deliver minimum dietary needs; treated proteins can mimic fat texture with less energy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fortification and Nutrient Modification', in plain ASCII form.",
+     "a": "fortified food = staple plus added nutrient",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.8",
+   "title": "Careers, Skills and Self Employment in Food Technology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Careers, Skills and Self Employment in Food Technology' refers to.",
+     "a": "The industry needs technologists who know food chemistry, microbiology, quality assurance and packaging, can run sensory tests and design briefs, and may grow from production and quality roles into research, consultancy or their own small scale venture with bank and government support.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Careers, Skills and Self Employment in Food Technology'.",
+     "a": "Self employment can start tiny -- pickles, salted peanuts, water pouches -- with finance, training and marketing support from banks and the state.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Careers, Skills and Self Employment in Food Technology', in plain ASCII form.",
+     "a": "career ladder -- diploma or degree to industry roles to research or entrepreneurship",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.9",
+   "title": "Industry Share Arithmetic",
+   "questions": [
+    {
+     "q": "Find the rupee value of an industry contribution when the share percentage and the national total are given. Use the method 'Industry Share Arithmetic'. Work with: share_pct = 0.35, total_base = 45. Carry the chain through step by step and give the final value of contribution.",
+     "a": "0.1575 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the GDP contribution of a sector whose share and the GDP figure are stated. Use the method 'Industry Share Arithmetic'. Work with: share_pct = 0.5, total_base = 4. Carry the chain through step by step and give the final value of contribution.",
+     "a": "0.02 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Industry Share Arithmetic' refers to.",
+     "a": "The food industry's contribution to any national total -- GDP, exports or industrial investment -- is that stated percentage of the total, so the rupee or dollar value follows by applying the share to the base figure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industry Share Arithmetic'.",
+     "a": "The sector is ranked fifth in size, adds about six percent of GDP and thirteen percent of exports.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Industry Share Arithmetic', in plain ASCII form.",
+     "a": "contribution = total_base * share_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.10",
+   "title": "Danger Zone Temperature Span",
+   "questions": [
+    {
+     "q": "Find the width of the temperature band in which bacteria multiply when the two limits are stated. Use the method 'Danger Zone Temperature Span'. Work with: lower_limit = 24, upper_limit = 360. Carry the chain through step by step and give the final value of danger_zone_span.",
+     "a": "336 years",
+     "self_check": false
+    },
+    {
+     "q": "Calculate how wide the danger zone is if the ceiling is 60 and the floor is 5 degrees. Use the method 'Danger Zone Temperature Span'. Work with: lower_limit = 20, upper_limit = 24. Carry the chain through step by step and give the final value of danger_zone_span.",
+     "a": "4 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Danger Zone Temperature Span' refers to.",
+     "a": "Bacteria multiply at any temperature inside the danger zone, so the width of that zone in degrees is simply the upper limit minus the lower limit -- the range a kitchen must keep food out of.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Danger Zone Temperature Span'.",
+     "a": "The zone runs from 5 to 60 degrees Celsius, a 55 degree window in which bacteria thrive.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Danger Zone Temperature Span', in plain ASCII form.",
+     "a": "danger_zone_span = upper_limit - lower_limit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.11",
+   "title": "Shelf Life in Days",
+   "questions": [
+    {
+     "q": "Using the method 'Shelf Life in Days', work with: shelf_weeks = 100. Carry the chain through step by step and give the final value of shelf_days.",
+     "a": "700 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Shelf Life in Days' and work with: shelf_weeks = 8. Carry the chain through step by step and give the final value of shelf_days.",
+     "a": "56 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Shelf Life in Days' refers to.",
+     "a": "Storage classes quote keeping times in days, weeks or years; a week long band converts to days by multiplying by seven, letting you compare all classes on one scale.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shelf Life in Days'.",
+     "a": "Semi perishables keep one to two weeks, that is 7 to 14 days, while non perishables stretch to a full year.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Shelf Life in Days', in plain ASCII form.",
+     "a": "shelf_days = shelf_weeks * 7",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe104.12",
+   "title": "Costing a Preserved Product",
+   "questions": [
+    {
+     "q": "Calculate the cost of one unit when the four cost heads of a preserved product and the number of units are given. Use the method 'Costing a Preserved Product'. Work with: energy_cost = 1200, labour_cost = 500, material_cost = 1200, packing_cost = 1200, units_made = 60. Carry the chain through step by step and give the final value of per_unit_cost.",
+     "a": "68.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the per unit cost of a murabba batch whose materials, energy, labour and packing costs are stated for the whole batch. Use the method 'Costing a Preserved Product'. Work with: energy_cost = 2500, labour_cost = 2500, material_cost = 120000, packing_cost = 80000, units_made = 6. Carry the chain through step by step and give the final value of per_unit_cost.",
+     "a": "34166.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Costing a Preserved Product' refers to.",
+     "a": "The full cost of a homemade preserved product adds the raw materials, energy used, labour and packing material, and dividing by the number of units gives the cost of one jar or pouch -- the number a label must justify.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Costing a Preserved Product'.",
+     "a": "Every input counts: a 500 gram batch must price its fuel and its jar, not only its fruit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Costing a Preserved Product', in plain ASCII form.",
+     "a": "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

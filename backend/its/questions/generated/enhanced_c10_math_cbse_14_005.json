@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_005",
+   "title": "c10_math_cbse_14_005",
+   "questions": [
+    {
+     "q": "State the formula that relates the probability of an event E and the probability of its complementary event 'not E'.",
+     "a": "The formula is P(E) + P(not E) = 1, or equivalently P(not E) = 1 - P(E). A wrong answer like P(E) - P(not E) = 1 or P(E) × P(not E) = 1 reveals the student has memorised an incorrect relationship and does not understand that the event and its complement partition the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If the probability of rain tomorrow is 0.3, then the probability of no rain is 0.7. But if the probability of rain is 0.8, then the probability of no rain is 0.2. So the sum is always 1.\" Is the student correct? Explain why this works for any event.",
+     "a": "Yes, the student is correct. The event \"rain\" and \"no rain\" are complementary — they cover all possibilities and cannot happen together. For any event E, the outcomes in E and the outcomes not in E together make up the entire sample space. Since total probability is 1, P(E) + P(not E) = 1. A wrong answer that says \"it only works for 0.3 and 0.7\" shows the student thinks the rule applies only to specific numbers, not as a general principle.",
+     "self_check": true
+    },
+    {
+     "q": "A box contains 5 red, 8 blue, and 7 green marbles. One marble is drawn at random. Find the probability that the marble drawn is NOT blue.",
+     "a": "Total marbles = 5 + 8 + 7 = 20.\nP(blue) = 8/20 = 2/5.\nP(not blue) = 1 - P(blue) = 1 - 2/5 = 3/5.\nAlternatively, non-blue marbles = 5 + 7 = 12, so P(not blue) = 12/20 = 3/5.\nA wrong answer of 8/20 or 2/5 indicates the student found P(blue) instead of P(not blue). A wrong answer of 12/20 without simplification to 3/5 loses marks in board exams for not giving the answer in simplest form.",
+     "self_check": true
+    },
+    {
+     "q": "In a single throw of a die, let E be the event \"getting a prime number\". Let F be the event \"getting an even number\". Are E and F complementary events? Justify your answer by listing the outcomes.",
+     "a": "Sample space S = {1,2,3,4,5,6}.\nE (prime) = {2,3,5}. F (even) = {2,4,6}.\nE and F are NOT complementary because:\n1) They are not mutually exclusive: outcome 2 belongs to both.\n2) Their union is {2,3,4,5,6}, not the whole sample space (1 is missing).\nComplementary events must be mutually exclusive AND exhaustive (together cover S). A wrong answer saying \"yes, because they are different\" shows confusion between \"different events\" and \"complementary events\".",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card is NOT an ace.\"\nStudent's working: P(ace) = 4/52 = 1/13. P(not ace) = 1 - 1/13 = 12/13.\nIs the student's answer correct? If yes, explain why the complement method is efficient here. If no, identify the error.",
+     "a": "Yes, the student's answer is correct. The complement method is efficient because counting non-ace cards directly requires knowing there are 48 non-ace cards (52 - 4), while using the complement only requires knowing there are 4 aces. The student correctly computed P(ace) = 4/52 = 1/13, then P(not ace) = 1 - 1/13 = 12/13. A wrong answer would be if the student wrote P(not ace) = 1 - 4/52 = 48/52 and stopped without simplifying to 12/13 — board exams require simplified fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) where using the complement rule P(not E) = 1 - P(E) is much easier than directly counting favourable outcomes for E. Provide the problem statement and solve it.",
+     "a": "Example problem: \"A bag contains 100 lottery tickets numbered 1 to 100. One ticket is drawn at random. Find the probability that the ticket number is NOT a multiple of 7.\"\nSolution: Multiples of 7 up to 100 are 7,14,...,98 → 14 multiples. P(multiple of 7) = 14/100 = 7/50. P(not multiple of 7) = 1 - 7/50 = 43/50.\nDirect counting of non-multiples would require listing 86 numbers. A poor answer creates a problem where direct counting is equally easy (e.g., \"not a 6 on a die\"), showing the student doesn't recognise when the complement rule is strategically useful.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

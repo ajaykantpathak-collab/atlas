@@ -1,0 +1,357 @@
+{
+ "catalog": "catalog_class7_maths_ch4_simple_equations.json",
+ "concepts": [
+  {
+   "id": "c7m4.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 2 * 2 + 2 * 2 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 3 + 6 - 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 5 * 7 + 5 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 7 + 9 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (8 + 2) * 9"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 2 + 8"
+   ]
+  },
+  {
+   "id": "c7m4.3.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 9 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 5 * 5 + 6 * 5 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 3 + 5 - 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 6 * 3 + 6 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 3 + 3 * 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (8 + 8) * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 9 + 3"
+   ]
+  },
+  {
+   "id": "c7m4.4.1",
+   "family": "congruence_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "third = 180 - 58 - 74"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 3 + 5 + 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "checks = 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "checks = 2 + 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "leg2 = sqrt(5 * 5 - 3 * 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "base = (180 - 46) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "third = 180 - 58 - 74"
+   ]
+  },
+  {
+   "id": "c7m4.4.2",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (10 - 5) / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (16 + 8) / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (3 - ((-32))) / 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (3 + 21) / 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (14 - 2) / (7 - 1)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (20 / 2) - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c7m4.5.1",
+   "family": "congruence_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "third = 180 - 37 - 68"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 15 + 4 + 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "checks = 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "checks = 2 + 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "leg2 = sqrt(5 * 5 - 3 * 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "base = (180 - 88) / 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c7m4.5.2",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 * 5 * 5 + 5 * 5 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 2 + 6 - 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 5 + 7 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 4 + 8 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (2 + 9) * 9"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c7m4.6.1",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (28 - 4) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (36 + 4) / 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (6 - ((-50))) / 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (2 + 10) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (26 - 5) / (4 - 1)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (40 / 5) - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c7m4.4.3",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (71 - 5) / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (13 + 11) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (8 - ((-32))) / 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (6 + 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (25 - 1) / (5 - 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (36 / 4) - 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "x = (71 - 5) / 6"
+   ]
+  }
+ ]
+}

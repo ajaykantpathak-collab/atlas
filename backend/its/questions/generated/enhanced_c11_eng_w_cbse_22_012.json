@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_22_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_22_012",
+   "title": "c11_eng_w_cbse_22_012",
+   "questions": [
+    {
+     "q": "Define a literal comprehension question and give one example from \"My Three Passions\".",
+     "a": "A literal comprehension question asks for information directly stated in the text. Example: \"What are the three passions Bertrand Russell mentions?\" A wrong answer (e.g., \"The passions are love, knowledge, and pity for mankind's suffering\") is actually correct in content but if the student instead answers \"Russell's passions are simple but strong,\" that reveals confusion: they have given an inference about the nature of the passions rather than the explicitly listed three.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between literal and inferential questions. Why might a student mistakenly treat an inferential question as literal?",
+     "a": "Literal questions have answers explicitly written in the text; inferential answers require combining textual clues to derive meaning not directly stated. A student may treat an inferential question as literal because they search for a single sentence that \"contains the answer\" and, not finding one, either guess or declare the question unanswerable. This reveals a misunderstanding that inference is a process of evidence assembly, not retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "Given the question: \"Why does Russell compare his passions to great winds?\" Identify if it is literal or inferential. Then find two textual clues to support an inference.",
+     "a": "The question is inferential because the text never explicitly explains the reason for the metaphor. Clues: 1) \"wayward course\" suggests unpredictability; 2) \"ocean of anguish\" and \"verge of despair\" imply being tossed by overwhelming forces. Steps: 1) Classify question type. 2) Locate the metaphor and surrounding imagery. 3) Interpret the connotations of wind, ocean, and despair. 4) Synthesize: the comparison emphasizes the passions' uncontrollable, turbulent, and directive power over his life.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal and inferential answers to: \"What does Russell mean by 'mystic miniature'?\" How does the inferential answer add depth?",
+     "a": "Literal: \"a small mystical representation.\" Inferential: In the union of love, Russell glimpses a foretaste of the heavenly ideal imagined by saints and poets, suggesting love transcends the personal and connects to a universal spiritual vision. The inferential answer adds depth by linking the phrase to the essay's broader theme of love as a bridge between human experience and the divine, supported by the context \"prefiguring vision of the heaven that saints and poets have imagined.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student answers: \"Russell's pity is earth-bound because he feels sad for poor people.\" Evaluate this answer. Is it sufficient? What's missing?",
+     "a": "The answer is partially correct but insufficient. It captures the literal trigger (suffering of mankind) but misses the structural contrast: love and knowledge \"led upward toward the heavens\" while pity \"brought me back to earth.\" The student omits the specific textual examples (famine, torture, loneliness) that illustrate the breadth of suffering, and fails to explain how pity's \"earth-bound\" quality stems from its helplessness (\"I long to alleviate the evil, but I cannot\"). A complete evaluation would note the need for contrastive evidence and the connection to the metaphor of elevation vs. grounding.",
+     "self_check": true
+    },
+    {
+     "q": "Write an inferential question about the last paragraph of \"My Three Passions\" and provide a model answer using PEEL.",
+     "a": "Question: \"Why does Russell say he would 'gladly live it again' despite the suffering he describes?\" Model answer: Point – Russell affirms life's worth because his passions give it meaning. Evidence – \"This has been my life. I have found it worth living, and would gladly live it again if the chance were offered to me.\" Explanation – The passions, though sources of anguish, also provide ecstasy, understanding, and human connection; the paragraph's concluding tone is one of acceptance, not regret. Link – This reflects the essay's central claim that a life driven by profound passions, even painful ones, is preferable to a passionless existence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

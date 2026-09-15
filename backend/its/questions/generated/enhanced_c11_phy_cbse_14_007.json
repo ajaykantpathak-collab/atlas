@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_007",
+   "title": "c11_phy_cbse_14_007",
+   "questions": [
+    {
+     "q": "A string of length L fixed at both ends vibrates in its 3rd harmonic. What is the distance between two consecutive nodes in terms of L?",
+     "a": "Distance between consecutive nodes = λ/2. For 3rd harmonic, λ = 2L/3. So distance = L/3. A wrong answer of L/2 or 2L/3 reveals the student confuses node-to-node distance with wavelength or doesn't apply the harmonic condition λₙ = 2L/n correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical waves y₁ = A sin(kx - ωt) and y₂ = A sin(kx + ωt) superpose on a string. A student claims the resultant amplitude at x = λ/4 is zero. Is this correct? Explain using the standing wave equation.",
+     "a": "No, it's incorrect. The standing wave equation is y = 2A sin(kx) cos(ωt). At x = λ/4, kx = (2π/λ)(λ/4) = π/2, so sin(kx) = 1. Amplitude = 2A (maximum), not zero. This is an antinode. A wrong answer reveals the student confuses node/antinode positions or misapplies sin(kx) = 0 condition for nodes.",
+     "self_check": true
+    },
+    {
+     "q": "A steel wire of length 1.2 m and mass 12 g is stretched with a tension of 150 N. Calculate the fundamental frequency and the frequency of the 4th harmonic.",
+     "a": "Given: L = 1.2 m, m = 0.012 kg, T = 150 N. μ = m/L = 0.01 kg/m. v = √(T/μ) = √(150/0.01) = √15000 ≈ 122.47 m/s. Fundamental ν₁ = v/2L = 122.47/(2×1.2) ≈ 51.03 Hz. 4th harmonic ν₄ = 4ν₁ ≈ 204.1 Hz. Wrong unit conversion (g to kg) or using v = T/μ instead of √(T/μ) reveals formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A string fixed at both ends vibrates in a standing wave pattern with 5 nodes (including ends). If the wave speed is 200 m/s and string length is 1.5 m, what is the frequency? Could this same string vibrate at 150 Hz with the same tension?",
+     "a": "5 nodes means 4 segments → n=4 (4th harmonic). λ = 2L/n = 3/4 = 0.75 m. ν = v/λ = 200/0.75 ≈ 266.7 Hz. Fundamental ν₁ = ν/4 ≈ 66.7 Hz. Allowed frequencies are integer multiples: 66.7, 133.3, 200, 266.7... Hz. 150 Hz is not an integer multiple → cannot vibrate at 150 Hz with same tension. Wrong answer reveals misunderstanding that only harmonics are allowed.",
+     "self_check": true
+    },
+    {
+     "q": "In a standing wave on a string, a student measures the distance between a node and the nearest antinode as 10 cm and claims the wavelength is 20 cm. Evaluate this claim.",
+     "a": "Claim is incorrect. Node to nearest antinode distance = λ/4. If this is 10 cm, then λ = 40 cm, not 20 cm. The student likely confused node-to-node distance (λ/2) with node-to-antinode distance (λ/4). This reveals confusion between the spatial periods of amplitude envelope vs. phase.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a sonometer (or guitar string) to verify that the fundamental frequency is inversely proportional to the square root of linear mass density, keeping length and tension constant.",
+     "a": "Use wires of same length and tension but different materials/diameters (different μ). Measure fundamental frequency for each using a tuning fork or frequency analyzer. Plot ν vs 1/√μ - should be linear through origin. Poor answer: just says \"change the wire\" without specifying how to keep T and L constant, or doesn't mention measuring frequency accurately. Reveals lack of experimental design skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

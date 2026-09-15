@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_014",
+   "title": "c11_math_cbse_01_014",
+   "questions": [
+    {
+     "q": "State the formula for the number of elements in the union of three finite sets A, B, and C in terms of their individual cardinalities and pairwise/triple intersections.",
+     "a": "The formula is \\(n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(B \\cap C) - n(C \\cap A) + n(A \\cap B \\cap C)\\). A wrong answer (e.g., missing the triple intersection term or subtracting it) reveals the student does not understand the inclusion-exclusion principle for three sets and likely memorised the two-set formula without generalising.",
+     "self_check": true
+    },
+    {
+     "q": "In a survey, 100 people were asked if they drink Tea (T) or Coffee (C). 60 drink Tea, 50 drink Coffee, and 20 drink both. A student claims the number who drink neither is \\(100 - (60 + 50) = -10\\). Explain why this reasoning is flawed and state the correct calculation.",
+     "a": "The student double-counted the 20 people who drink both. The correct calculation uses inclusion-exclusion: \\(n(T \\cup C) = 60 + 50 - 20 = 90\\). Then neither = \\(100 - 90 = 10\\). A wrong explanation (e.g., \"the total is wrong\") shows the student cannot identify the overlap error and lacks the concept that \"or\" in sets is inclusive unless specified otherwise.",
+     "self_check": true
+    },
+    {
+     "q": "A class has 50 students. 30 play Cricket, 25 play Football, 15 play Hockey. 10 play Cricket and Football, 8 play Football and Hockey, 5 play Cricket and Hockey. 3 play all three. How many students play exactly one sport? Show stepwise working.",
+     "a": "Step 1: Draw Venn diagram, fill centre = 3.\nStep 2: Cricket∩Football only = 10-3=7; Football∩Hockey only = 8-3=5; Cricket∩Hockey only = 5-3=2.\nStep 3: Only Cricket = 30 - (7+2+3) = 18; Only Football = 25 - (7+5+3) = 10; Only Hockey = 15 - (5+2+3) = 5.\nStep 4: Exactly one = 18+10+5 = 33.\nAnswer: 33 students. A wrong answer (e.g., 30+25+15 - 2*(10+8+5) + 3*3 = ...) reveals the student tries to use a memorised formula without understanding region decomposition, often miscalculating the \"exactly two\" regions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two statements: (i) \"Students who study Math or Physics\" and (ii) \"Students who study Math or Physics but not both\". For sets M and P, write the set expression for each and explain the difference in cardinality calculation.",
+     "a": "(i) \\(M \\cup P\\), cardinality \\(n(M) + n(P) - n(M \\cap P)\\). (ii) \\((M \\cup P) - (M \\cap P)\\) or \\((M - P) \\cup (P - M)\\), cardinality \\(n(M) + n(P) - 2n(M \\cap P)\\). The difference is that (ii) excludes the intersection entirely, so its cardinality subtracts the intersection twice. A wrong answer (e.g., same expression for both) shows the student conflates inclusive \"or\" (union) with exclusive \"or\" (symmetric difference), a critical language precision error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a 3-set problem and gets region values: only A=10, only B=15, only C=20, A∩B only=5, B∩C only=8, C∩A only=7, all three=4. The universal set has 80 elements. The student claims the complement (none) is \\(80 - (10+15+20+5+8+7+4) = 11\\). Evaluate if this is correct and justify.",
+     "a": "The calculation is correct: sum of all seven disjoint regions = 69, so none = 80-69 = 11. The student correctly identified all regions are mutually exclusive and exhaustive within the universal set. If a student says it's wrong because \"we need to use the formula\", they misunderstand that the Venn diagram region-sum method IS the formula decomposed; both are valid. This tests whether the student recognises the equivalence of region-sum and inclusion-exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving three sets (e.g., languages spoken, subjects studied, products bought) where the given data includes the universal set total, individual set totals, all three pairwise intersections, and the triple intersection. The question must ask for \"exactly two\" and \"none\". Provide the problem statement only.",
+     "a": "Example problem: \"In a housing society of 150 families, 80 subscribe to Newspaper A, 70 to B, 60 to C. 30 subscribe to A and B, 25 to B and C, 20 to A and C. 10 subscribe to all three. Find (i) number of families subscribing to exactly two newspapers, (ii) number subscribing to none.\" A poor problem (e.g., missing universal total, or asking only for union) reveals the student cannot design a problem requiring multi-step region calculation, indicating they don't grasp which data points are necessary and sufficient for a well-posed 3-set problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

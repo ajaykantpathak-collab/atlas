@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_011",
+   "title": "c11_psy_cbse_04_011",
+   "questions": [
+    {
+     "q": "Define “socio-cultural influences on perception” in one sentence, using the term “perceptual habit.”",
+     "a": "Socio-cultural influences on perception are the processes by which shared cultural practices and environmental regularities shape perceptual habits, making certain interpretations (e.g., seeing depth in pictures) more automatic for members of that culture. A wrong answer that merely says “culture affects perception” without mentioning perceptual habits or automaticity reveals the student has not grasped the mechanistic, learning-based nature of the effect.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Segall, Campbell, and Herskovits (1966) found that African participants from remote villages were more susceptible to the vertical-horizontal illusion but less susceptible to the Müller-Lyer illusion compared to Western urban participants.",
+     "a": "The African participants lived in dense forests with abundant vertical trees, leading to a perceptual habit of overestimating verticality (vertical-horizontal illusion susceptibility). Western participants lived in “carpentered worlds” full of right-angled corners, creating a habit of interpreting arrowheads as depth cues, which makes the Müller-Lyer illusion stronger. A wrong answer that attributes the difference to genetics or “race” reveals a fundamental misunderstanding of the cultural-learning explanation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher shows a two-dimensional drawing of a cube (using linear perspective) to three groups: (1) urban college students, (2) rural farmers with no formal schooling but exposure to photographs, (3) hunter-gatherers with no prior picture experience. Predict the relative accuracy of each group in judging which corner of the cube is “closest,” and justify using the concept of “pictorial depth cues.”",
+     "a": "Urban students will be most accurate because they have extensive experience with linear perspective in photos, drawings, and screens. Rural farmers will show intermediate accuracy due to some photographic exposure. Hunter-gatherers will perform near chance because they lack the learned habit of interpreting converging lines as depth (linear perspective cue). A wrong answer that predicts equal performance across groups ignores the empirical finding that pictorial depth perception is a learned skill, not an innate ability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the “carpentered world hypothesis” and the “pictorial experience hypothesis” as explanations for cross-cultural differences in illusion susceptibility. Which hypothesis better accounts for Sinha and Mishra’s finding that city-dwellers, villagers, and forest-dwellers form a gradient on pictorial interpretation tasks?",
+     "a": "The carpentered world hypothesis explains Müller-Lyer susceptibility via exposure to rectangular architecture; the pictorial experience hypothesis explains depth-cue interpretation via exposure to two-dimensional pictures. Sinha and Mishra’s gradient (city > village > forest) supports the pictorial experience hypothesis because the groups differ primarily in picture exposure, not architecture. A wrong answer that claims both hypotheses make identical predictions fails to distinguish between depth cues in real 3D environments versus 2D representations.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Since the Müller-Lyer illusion is experienced by children and even some animals, it must be a universal, hardwired perceptual phenomenon unaffected by culture.”",
+     "a": "The statement confuses “universal” with “invariant.” While the illusion occurs broadly, its magnitude varies systematically with cultural experience (Segall et al.). Children and animals may experience it due to innate depth-cue processing, but cultural modulation shows the system is plastic. A wrong answer that agrees with the statement ignores the core finding that susceptibility is not fixed; it reveals a failure to distinguish between the existence of an illusion and its cultural variability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief cross-cultural experiment to test whether familiarity with topographic maps (contour lines) improves perception of 3D terrain from 2D contour drawings. Specify the cultural groups, stimulus, dependent variable, and predicted outcome based on socio-cultural influences.",
+     "a": "Groups: (1) urban geography students trained in map reading, (2) rural farmers with no map training. Stimulus: contour-line drawings of hills/valleys. DV: accuracy in judging slope direction and relative height. Prediction: geography students will outperform farmers because contour lines are a culturally specific pictorial convention requiring learning. A poor answer that uses only “educated vs. uneducated” groups without specifying the cultural skill (map reading) misses the socio-cultural mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

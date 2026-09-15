@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_2",
+   "title": "c9_physics_ch1_2",
+   "questions": [
+    {
+     "q": "Define motion and rest. Are they absolute or relative?",
+     "a": "Motion is the change in position of a body with respect to its surroundings over time. Rest is the state of a body whose position does not change with respect to its surroundings. Both are relative — they depend on the chosen reference frame. A body may be at rest relative to one observer and in motion relative to another. There is no absolute rest or absolute motion. A wrong answer (e.g., \"rest means not moving\") is incomplete — it must specify \"relative to what\" and acknowledge the relativity.",
+     "self_check": true
+    },
+    {
+     "q": "A passenger sits in a moving train. Is the passenger at rest or in motion? Explain with reference frames.",
+     "a": "The passenger is at rest relative to the train (position does not change with respect to the train) and in motion relative to the ground (position changes with respect to the ground as the train moves). Both descriptions are correct — motion and rest are relative to the reference frame. A wrong answer (e.g., \"the passenger is in motion\") without specifying the reference frame is incomplete — the passenger is at rest relative to the train and in motion relative to the ground.",
+     "self_check": true
+    },
+    {
+     "q": "What is a reference frame, and why is it necessary for describing motion?",
+     "a": "A reference frame is the object or system relative to which we measure the position of a body. It is necessary because motion and rest are relative — without specifying the reference frame, we cannot say whether a body is at rest or in motion. Example: \"The car is moving\" is incomplete; we must say \"The car is moving relative to the road\" to be precise. A wrong answer (e.g., \"a reference frame is a coordinate system\") is partially correct but misses the key point — the reference frame is what we measure position relative to, and it is necessary because motion is relative.",
+     "self_check": true
+    },
+    {
+     "q": "A tree stands on the ground. A car drives past it at 60 km/h. Describe the tree's motion from two different reference frames.",
+     "a": "Frame 1 (ground reference): The tree is at rest — its position does not change with respect to the ground. Frame 2 (car reference): The tree is in motion — it moves backward at 60 km/h with respect to the car. Both descriptions are correct; the difference is the reference frame. A wrong answer (e.g., \"the tree is at rest, period\") ignores the car's reference frame, where the tree is in motion.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not define \"absolute rest\" — a state of being at rest with respect to everything?",
+     "a": "Absolute rest is impossible because everything in the universe is in motion relative to something else. The Earth rotates on its axis, revolves around the Sun, the Sun moves within the galaxy, and the galaxy moves through the universe. A body at rest relative to the Earth is in motion relative to the Sun, the galaxy, and other galaxies. Since there is no universally stationary reference point, we cannot define absolute rest. All motion and rest are relative to a chosen reference frame. A wrong answer (e.g., \"absolute rest is when nothing is moving\") assumes there is a universal \"stationary\" state, which there is not.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The Earth is at rest because we do not feel it moving.\" Evaluate this statement using the concept of reference frames.",
+     "a": "The statement confuses the sensation of motion with the fact of motion. The Earth is at rest relative to objects on its surface (we do not move relative to the ground), but it is in motion relative to the Sun (orbiting at 30 km/s) and relative to the galaxy. We do not \"feel\" the Earth's motion because we move with it — we are in the same reference frame as the ground. The sensation of motion comes from acceleration or change in reference frame, not constant velocity. The Earth is at rest relative to its surface but in motion relative to the Sun — both are correct depending on the reference frame. A wrong evaluation (agreeing with the student) confuses \"not feeling motion\" with \"being at rest.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class6_social_ch14",
+ "concepts": [
+  {
+   "id": "c6ss.14.1",
+   "title": "Primary Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Primary Sector' refers to.",
+     "a": "The primary sector includes economic activities that use natural resources directly, such as agriculture, fishing, forestry, and mining.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Sector'.",
+     "a": "Primary activities produce raw materials by using natural resources; they form the base of the economy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Primary Sector' taught, and from which source text?",
+     "a": "Sectors of the Economy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.2",
+   "title": "Secondary Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secondary Sector' refers to.",
+     "a": "The secondary sector includes activities that process raw materials from the primary sector into finished goods, such as manufacturing and construction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secondary Sector'.",
+     "a": "Secondary activities transform raw materials into finished products; factories and construction sites are common examples.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Secondary Sector' taught, and from which source text?",
+     "a": "Sectors of the Economy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.3",
+   "title": "Tertiary Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tertiary Sector' refers to.",
+     "a": "The tertiary sector includes activities that provide services rather than goods, such as trade, transport, banking, teaching, and healthcare.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tertiary Sector'.",
+     "a": "Tertiary activities support primary and secondary sectors by providing services that move, sell, and maintain goods and people.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tertiary Sector' taught, and from which source text?",
+     "a": "Sectors of the Economy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.4",
+   "title": "Production and Consumption",
+   "questions": [
+    {
+     "q": "Using the method 'Production and Consumption', work with: total_consumption = 3, total_production = 200. Carry the chain through step by step and give the final value of surplus.",
+     "a": "197 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Production and Consumption' and work with: total_consumption = 20, total_production = 18. Carry the chain through step by step and give the final value of surplus.",
+     "a": "-2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Production and Consumption' refers to.",
+     "a": "Production is the process of making goods and services; consumption is the act of using them to satisfy needs and wants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Production and Consumption'.",
+     "a": "Production creates goods and services; consumption uses them; the two are linked in a continuous economic cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Production and Consumption' taught, and from which source text?",
+     "a": "Production and Consumption",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.5",
+   "title": "Barter System and Money",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Barter System and Money' refers to.",
+     "a": "The barter system is the direct exchange of one good for another without money; money is a medium that makes exchange easier.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Barter System and Money'.",
+     "a": "Money solves the problems of barter (double coincidence of wants) by acting as a common medium of exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Barter System and Money' taught, and from which source text?",
+     "a": "Barter System and Money",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.6",
+   "title": "Markets and Trade",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Markets and Trade' refers to.",
+     "a": "A market is a place or system where buyers and sellers exchange goods and services; trade is the buying and selling of goods, within a region or between regions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Markets and Trade'.",
+     "a": "Markets bring buyers and sellers together; trade may be local, national, or international, moving goods from producers to consumers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Markets and Trade' taught, and from which source text?",
+     "a": "Markets and Trade",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.7",
+   "title": "Needs and Wants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Needs and Wants' refers to.",
+     "a": "Needs are essentials required for survival and well-being, such as food, clothing, and shelter; wants are desires that improve comfort but are not essential.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Needs and Wants'.",
+     "a": "Needs are limited and must be met first; wants are unlimited and can be chosen based on available resources.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Needs and Wants' taught, and from which source text?",
+     "a": "Needs and Wants",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.8",
+   "title": "Economic Activities in the Local Area",
+   "questions": [
+    {
+     "q": "Using the method 'Economic Activities in the Local Area', work with: primary = 400, secondary = 240, tertiary = 4. Carry the chain through step by step and give the final value of total_workers.",
+     "a": "644 persons",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Economic Activities in the Local Area' and work with: primary = 50, secondary = 500, tertiary = 30. Carry the chain through step by step and give the final value of total_workers.",
+     "a": "580 persons",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Economic Activities in the Local Area' refers to.",
+     "a": "Economic activities in a local area are the production, trade, and service activities that people nearby undertake to earn a living and meet local needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic Activities in the Local Area'.",
+     "a": "Observing local shops, farms, and services helps classify nearby economic activities into primary, secondary, and tertiary sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Economic Activities in the Local Area' taught, and from which source text?",
+     "a": "Economic Activities in the Local Area",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

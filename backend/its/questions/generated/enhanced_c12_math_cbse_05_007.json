@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_007",
+   "title": "c12_math_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the derivative dy/dx for the implicit relation x² + y² = 25?",
+     "a": "dy/dx = -x/y. A wrong answer like dy/dx = -2x/2y (not simplified) reveals the student knows the mechanics but misses simplification. An answer like dy/dx = -x reveals the student forgot the chain rule on y² (treated y as constant). An answer dy/dx = -y/x reveals confusion between x and y roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we write d/dx(y²) = 2y · dy/dx instead of just 2y when differentiating x² + y² = 25 implicitly.",
+     "a": "Because y is a function of x, not an independent variable. The chain rule requires multiplying by dy/dx. A student who says \"y is just a variable\" misunderstands that in implicit relations, y depends on x. Writing 2y instead of 2y·dy/dx treats y as constant, which is the explicit differentiation error carried into implicit context.",
+     "self_check": true
+    },
+    {
+     "q": "Find dy/dx for the relation x³ + y³ = 6xy at the point (3, 3).",
+     "a": "Differentiate: 3x² + 3y²(dy/dx) = 6y + 6x(dy/dx). At (3,3): 27 + 27(dy/dx) = 18 + 18(dy/dx) → 9(dy/dx) = -9 → dy/dx = -1. A wrong answer of dy/dx = -1 without substituting the point first reveals the student doesn't understand that implicit derivatives are generally functions of both x and y, not constants. Substituting before differentiating (treating x,y as constants) gives 0 = 0, a common procedural error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process and result of finding dy/dx for x² + y² = 25 by (a) implicit differentiation and (b) solving for y explicitly then differentiating. When do the methods give different domains for dy/dx?",
+     "a": "(a) Implicit: dy/dx = -x/y, valid for all (x,y) on circle except y=0. (b) Explicit: y = ±√(25-x²), dy/dx = ∓x/√(25-x²), valid for -5 < x < 5. The implicit form gives dy/dx at points where explicit form has domain issues (endpoints x=±5 where derivative is infinite). A student who says \"they're always the same\" misses that implicit differentiation handles vertical tangents (y=0) naturally while explicit form requires separate ± branches.",
+     "self_check": true
+    },
+    {
+     "q": "A student differentiates sin(xy) = x + y as cos(xy) = 1 + dy/dx. Identify the error and give the correct derivative.",
+     "a": "Error: Missing chain rule on sin(xy) and product rule on xy. Correct: cos(xy)·(y + x·dy/dx) = 1 + dy/dx → dy/dx = (1 - y cos(xy)) / (x cos(xy) - 1). A student making this error treats xy as a single variable instead of a product of x and y(x), and forgets the outer function derivative cos(xy) multiplies the inner derivative. This reveals weak chain rule + product rule composition.",
+     "self_check": true
+    },
+    {
+     "q": "Create an implicit relation f(x, y) = 0 whose derivative dy/dx simplifies to a function of x only (no y). Explain why your example works.",
+     "a": "Example: y = x² + 3x (or x² + 3x - y = 0). Then dy/dx = 2x + 3, function of x only. Works because the relation is actually an explicit function in disguise — y appears only linearly with coefficient 1. A poor answer gives something like x² + y² = 1 where dy/dx = -x/y still contains y, showing the student doesn't understand that \"function of x only\" means the original relation must be solvable for y as a single-valued function of x.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

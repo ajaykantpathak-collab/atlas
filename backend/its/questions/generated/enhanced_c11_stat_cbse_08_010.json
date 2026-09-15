@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_010",
+   "title": "c11_stat_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the formula for calculating the inflation rate between a base period and a current period using a price index?",
+     "a": "The formula is: Inflation Rate (%) = [(Index in Current Period - Index in Base Period) / Index in Base Period] × 100. A wrong answer (e.g., using the current period index as denominator, or forgetting to multiply by 100) reveals that the student confuses the base for percentage change or does not understand that inflation rate is a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "If the CPI was 150 in 2022 and 165 in 2023, a student calculates the inflation rate as (165-150)/165 × 100 = 9.09%. Explain why this is incorrect and what the correct inflation rate is.",
+     "a": "The student used the current period index (165) as the denominator instead of the base period index (150). The correct calculation is (165-150)/150 × 100 = 10%. This error reveals a misunderstanding of the base period concept: the base period is always the reference point (denominator) for measuring change.",
+     "self_check": true
+    },
+    {
+     "q": "The WPI for March 2023 is 140 and for March 2024 is 147. Calculate the annual inflation rate based on WPI. If the CPI for the same periods is 160 and 172 respectively, which index shows a higher inflation rate and by how much?",
+     "a": "WPI inflation = (147-140)/140 × 100 = 5%. CPI inflation = (172-160)/160 × 100 = 7.5%. CPI inflation is higher by 2.5 percentage points. A wrong answer (e.g., comparing absolute index differences) shows the student does not normalize by the base index, leading to incorrect comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements: (A) \"The CPI increased from 180 to 190.\" (B) \"The inflation rate is 5.56%.\" Are they equivalent? Explain the relationship between the change in index level and the inflation rate.",
+     "a": "Yes, they are equivalent for the same base and current periods. Statement A gives the absolute change in index points (10 points), while Statement B expresses that change as a percentage of the base index (10/180 × 100 = 5.56%). A student who thinks they are different concepts does not understand that inflation rate is simply the percentage change in the price index.",
+     "self_check": true
+    },
+    {
+     "q": "A news report says: \"Inflation has fallen from 6% to 4%.\" Does this mean prices are falling? Evaluate the statement and explain what it actually means for the price level.",
+     "a": "No, it does not mean prices are falling. It means the *rate of increase* in prices has slowed down. Prices are still rising, but at a slower pace (4% per year instead of 6%). A student who thinks prices are falling confuses disinflation (decrease in inflation rate) with deflation (negative inflation rate). This is a critical conceptual error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where the WPI inflation rate is 8% and the CPI inflation rate is 5%. Explain why these two rates might differ and what it implies for producers vs consumers.",
+     "a": "Scenario: Global crude oil prices surge, raising input costs for factories (captured by WPI) but retail prices (CPI) rise less due to government subsidies on fuel and food. WPI reflects producer-level prices; CPI reflects consumer-level prices. A good answer shows understanding of different basket compositions and weightages. A poor answer treats them as interchangeable or cannot explain the divergence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

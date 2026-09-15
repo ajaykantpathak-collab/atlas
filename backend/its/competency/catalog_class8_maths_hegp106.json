@@ -1,0 +1,388 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "We Distribute, Yet Things Multiply",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.106.6.1",
+   "title": "Distributive Property of Multiplication over Addition",
+   "section": "6.1",
+   "definition": "Multiplying a number by a sum gives the same result as multiplying by each addend separately and adding the products: a times (b + c) equals a times b plus a times c; an area rectangle split into two blocks shows the identity, and expanding from either bracket side gives the same terms.",
+   "formula": "a * (b + c) = a * b + a * c",
+   "key_idea": "Multiplication distributes across the bracket: 23 x (27 + 1) = 23 x 27 + 23.",
+   "textbook_ref": "hegp106.txt lines 14-60 (properties, area model), 60-90 (expansion from either side)",
+   "question_patterns": [
+    "expand 23 times (27 + 1) using the distributive property",
+    "what is a times (b + c) equal to - state the identity",
+    "show with an area diagram why a(b + c) equals ab + ac",
+    "expand (a + b) c in two different orders and compare",
+    "use distribution to find the increase in 23 x 27 when 27 becomes 28",
+    "write the missing terms in the expansion a(b + 8) = ab + ..."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the distributive identity",
+     "explain": "Write a times the bracket as the two separate products a b and a c."},
+    {"step": 2, "action": "match with the area picture",
+     "explain": "A rectangle a by (b + c) splits into an a by b block and an a by c block of the same total area."},
+    {"step": 3, "action": "check with numbers",
+     "explain": "Substituting values such as a = 23, b = 27, c = 1 confirms both sides agree."}
+   ]
+  },
+  {
+   "id": "hegp.106.6.2",
+   "title": "How Products Increase When Factors Grow",
+   "section": "6.1",
+   "definition": "Increasing the two factors of a product ab by 1 each adds exactly a + b + 1 to the product, since (a + 1)(b + 1) expands to ab + b + a + 1; raising one factor by m and the other by n adds an + bm + mn, the area of the new L-shaped border of rectangles.",
+   "formula": "increase = a * n + b * m + m * n",
+   "key_idea": "(23 + 1)(27 + 1) = 23 x 27 + 27 + 23 + 1: the growth is the frame around the ab block.",
+   "textbook_ref": "hegp106.txt lines 90-200 (increments by 1), 185-200 (increase by m and n, Identity 1)",
+   "question_patterns": [
+    "by how much does 23 x 27 increase when both numbers are increased by 1",
+    "find the increase in the product ab when a increases by m and b by n",
+    "expand (a + 1)(b + 1) and state the total increase",
+    "what happens to a product when one factor rises by 1 and the other falls by 1",
+    "calculate the increase in 40 x 50 when the factors become 42 and 53",
+    "why does the product ab grow by a + b + 1 when both factors grow by 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "expand the grown product",
+     "explain": "(a + m)(b + n) distributes into ab plus three border products.",
+     "compute": "grown = (a + m) * (b + n)"},
+    {"step": 2, "action": "subtract the old product",
+     "explain": "The increase is the new product minus ab, which equals an + bm + mn.",
+     "compute": "increase = grown - a * b"}
+   ]
+  },
+  {
+   "id": "hegp.106.6.3",
+   "title": "Square of a Sum (Identity 1A)",
+   "section": "6.2",
+   "definition": "Squaring a two-term sum gives the square of each term plus twice their product: (a + b) squared equals a squared + 2ab + b squared; a 65 by 65 square splits into a 60-square, a 5-square and two 60 by 5 rectangles, so 65 squared = 3600 + 25 + 600 = 4225.",
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "key_idea": "Split big squares into easy parts: (60 + 5) squared = 60 squared + 2 x 60 x 5 + 5 squared.",
+   "textbook_ref": "hegp106.txt lines 608-680 (square of sum, 652 example, Identity 1A)",
+   "question_patterns": [
+    "use Identity 1A to find 104 squared",
+    "expand (6x + 5) squared using the identity",
+    "calculate 65 squared by splitting it as 60 plus 5",
+    "expand (3j + 2k) squared",
+    "is (a + b) squared always greater than a squared + b squared - when",
+    "write the expansion of (m + 3) squared"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square each term",
+     "explain": "Compute a squared and b squared separately.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The two cross rectangles contribute 2ab to the total.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "hegp.106.6.4",
+   "title": "Square of a Difference (Identity 1B)",
+   "section": "6.2",
+   "definition": "Squaring a difference keeps the two squares but removes twice the product: (a - b) squared equals a squared - 2ab + b squared; geometrically, the 55-square inside a 60-square loses two 60 by 5 strips and gains back the overlapping 5-square, giving 3025.",
+   "formula": "value = a * a - 2 * a * b + b * b",
+   "key_idea": "(60 - 5) squared = 3600 - 300 - 300 + 25 = 3025: subtract both strips, add back the overlap.",
+   "textbook_ref": "hegp106.txt lines 682-761 (552 geometry, Identity 1B), 771-776",
+   "question_patterns": [
+    "use Identity 1B to find 99 squared",
+    "expand (b - 6) squared",
+    "calculate 58 squared using the difference identity",
+    "why does (a - b) squared end with a plus b squared term",
+    "expand (minus 2a + 3) squared using Identity 1B",
+    "find 55 squared from 60 squared using the square of a difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square each term",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "subtract twice the product",
+     "explain": "The two removed strips leave minus 2ab.",
+     "compute": "value = sq_terms - 2 * a * b"}
+   ]
+  },
+  {
+   "id": "hegp.106.6.5",
+   "title": "Sum Times Difference (Identity 1C)",
+   "section": "6.2",
+   "definition": "Multiplying a sum by the matching difference cancels the middle terms and leaves a difference of squares: (a + b)(a - b) equals a squared minus b squared; this explains patterns like 9 x 9 - 1 x 1 = 10 x 8 and gives shortcuts such as 98 x 102 = 10000 - 4.",
+   "formula": "value = a * a - b * b",
+   "key_idea": "98 x 102 = 100 squared - 2 squared = 9996: pair the factors around a common centre.",
+   "textbook_ref": "hegp106.txt lines 777-833 (Pattern 2, Identity 1C derivation), 506-510 (Figure it Out 5)",
+   "question_patterns": [
+    "use Identity 1C to calculate 98 x 102",
+    "find 45 x 55 using the difference of squares",
+    "expand (a + b)(a - b) and simplify",
+    "verify that a squared - b squared equals (a + b)(a - b)",
+    "calculate 63 x 77 using the sum-times-difference identity",
+    "explain the pattern 8 x 8 - 6 x 6 = 14 x 2 with algebra"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the larger centre-based term",
+     "explain": "Take a squared, the square of the middle value.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the square of the offset",
+     "explain": "The product equals big square minus b squared.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  },
+  {
+   "id": "hegp.106.6.6",
+   "title": "Twice the Sum of Squares Pattern",
+   "section": "6.2",
+   "definition": "Adding the two square identities cancels the cross terms and yields twice the sum of squares: (a + b) squared + (a - b) squared equals 2(a squared + b squared), which explains the number pattern 2(5 squared + 6 squared) = 11 squared + 1 squared.",
+   "formula": "2 * (a * a + b * b) = (a + b) * (a + b) + (a - b) * (a - b)",
+   "key_idea": "Sum and difference squares together double the plain sum of squares.",
+   "textbook_ref": "hegp106.txt lines 761-776 (Pattern 1, 2(a2 + b2) identity)",
+   "question_patterns": [
+    "show that (a + b) squared + (a - b) squared equals 2(a squared + b squared)",
+    "verify the pattern 2(3 squared + 1 squared) = 4 squared + 2 squared",
+    "why do the 2ab terms cancel when the two square identities are added",
+    "express twice the sum of squares of 5 and 6 as a sum of two squares",
+    "which two identities combine to give the 2(a squared + b squared) result",
+    "check the pattern 2(2 squared + 1 squared) = 3 squared + 1 squared with algebra"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write both square expansions",
+     "explain": "List a squared + 2ab + b squared and a squared - 2ab + b squared."},
+    {"step": 2, "action": "add like terms",
+     "explain": "The 2ab and minus 2ab cancel, the squares double."},
+    {"step": 3, "action": "conclude the identity",
+     "explain": "The total is 2(a squared + b squared), proving the observed pattern always holds."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp106.txt lines 96-130, (23+1)(27+1) example",
+   "concept": "hegp.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "By how much does {a} x {b} increase when both numbers are increased by 1?",
+   "extracted_variables": {
+    "a": "first factor",
+    "b": "second factor"
+   },
+   "solution_template": [
+    {"step": 1, "action": "use m = n = 1 in the increase identity",
+     "explain": "Increase equals an + bm + mn with m and n both 1.",
+     "compute": "increase = a + b + 1"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp106.txt lines 185-200, increase by m and n",
+   "concept": "hegp.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the increase in {a} x {b} when the factors become a + {m} and b + {n}.",
+   "extracted_variables": {
+    "a": "original first factor",
+    "b": "original second factor",
+    "m": "rise in the first factor",
+    "n": "rise in the second factor"
+   },
+   "solution_template": [
+    {"step": 1, "action": "expand the grown product",
+     "explain": "(a + m)(b + n) opens into ab plus border areas.",
+     "compute": "grown = (a + m) * (b + n)"},
+    {"step": 2, "action": "subtract the original product",
+     "explain": "The difference is the increase an + bm + mn.",
+     "compute": "increase = grown - a * b"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp106.txt lines 622-636, 65 squared = 4225",
+   "concept": "hegp.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "Use the square-of-sum identity with a = {a} and b = {b} to find (a + b) squared.",
+   "extracted_variables": {
+    "a": "the larger part of the number",
+    "b": "the smaller part of the number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square each part",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the cross product",
+     "explain": "Two rectangles of a by b contribute 2ab.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp106.txt lines 668-670, 104 squared hint",
+   "concept": "hegp.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "Find {whole} squared by decomposing it as a = {a} plus b = {b} and using Identity 1A.",
+   "extracted_variables": {
+    "whole": "the number to square",
+    "a": "easy larger part such as 100",
+    "b": "remaining part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square each part",
+     "explain": "a squared and b squared are easy to compute.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the cross product",
+     "explain": "2ab completes the square of the sum.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp106.txt lines 682-700, 55 squared = 3025",
+   "concept": "hegp.106.6.4",
+   "question_type": "compute",
+   "question_pattern": "Use the square-of-difference identity with a = {a} and b = {b} to find (a - b) squared.",
+   "extracted_variables": {
+    "a": "the base number",
+    "b": "the amount subtracted"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square each part",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "subtract twice the product",
+     "explain": "The two removed strips give minus 2ab.",
+     "compute": "value = sq_terms - 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp106.txt Figure it Out lines 762-766, 99 squared",
+   "concept": "hegp.106.6.4",
+   "question_type": "compute",
+   "question_pattern": "Find {whole} squared by writing it as a = {a} minus b = {b} and applying Identity 1B.",
+   "extracted_variables": {
+    "whole": "the number to square",
+    "a": "near round number",
+    "b": "small difference from the round number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square each part",
+     "explain": "a squared and b squared are straightforward.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "subtract twice the product",
+     "explain": "Minus 2ab adjusts for the overlap removed twice.",
+     "compute": "value = sq_terms - 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp106.txt lines 820-833, 98 x 102",
+   "concept": "hegp.106.6.5",
+   "question_type": "compute",
+   "question_pattern": "Use Identity 1C with centre {a} and offset {b} to compute (a + b) x (a - b).",
+   "extracted_variables": {
+    "a": "central value between the two factors",
+    "b": "half the gap between the factors"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the centre",
+     "explain": "The product reduces to a squared minus b squared.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the offset square",
+     "explain": "Subtract b squared to finish the difference of squares.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp106.txt lines 826-833, 45 x 55",
+   "concept": "hegp.106.6.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate {product_hint} using a = {a} and b = {b} in a squared minus b squared.",
+   "extracted_variables": {
+    "a": "centre of the two factors",
+    "b": "half distance to each factor"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the centre",
+     "explain": "a squared is the first term of Identity 1C.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the offset square",
+     "explain": "The result is the difference of squares.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp106.txt lines 777-790, Pattern 1 rows",
+   "concept": "hegp.106.6.6",
+   "question_type": "verify_property",
+   "question_pattern": "Check the pattern 2({a} squared + {b} squared) = ({a} + {b}) squared + ({a} - {b}) squared.",
+   "extracted_variables": {
+    "a": "first natural number of the pair",
+    "b": "second natural number of the pair"
+   },
+   "solution_template": [
+    {"step": 1, "action": "expand both squares",
+     "explain": "Write the sum-square and difference-square expansions.",
+     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"},
+    {"step": 2, "action": "compare with twice the sum of squares",
+     "explain": "The expansions cancel 2ab and double the squares.",
+     "compute": "rhs = 2 * (a * a + b * b)"}
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp106.txt lines 790-800, 2(5 squared + 6 squared)",
+   "concept": "hegp.106.6.6",
+   "question_type": "verify_property",
+   "question_pattern": "Verify 2({a} squared + {b} squared) equals ({a} + {b}) squared + ({a} - {b}) squared for the given pair.",
+   "extracted_variables": {
+    "a": "larger member of the pair",
+    "b": "smaller member of the pair"
+   },
+   "solution_template": [
+    {"step": 1, "action": "expand both squares",
+     "explain": "Sum and difference squares add up without cross terms.",
+     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"},
+    {"step": 2, "action": "compare with twice the sum of squares",
+     "explain": "Both sides should agree numerically.",
+     "compute": "rhs = 2 * (a * a + b * b)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hegp106.txt Figure it Out, lines 495-510",
+   "questions": [
+    "Expand (a - b)(a + b), (a - b)(a squared + ab + b squared) and describe the pattern.",
+    "By how much does a product change when one factor rises by m and the other by n?",
+    "Check the increase formulas with negative integer values of a and b."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hegp106.txt lines 666-680, 745-766",
+   "questions": [
+    "Use Identity 1A to evaluate 104 squared and 37 squared.",
+    "Expand (m + 3) squared and (6 + p) squared.",
+    "Expand (b - 6) squared and (minus 2a + 3) squared using Identity 1B.",
+    "Use Identity 1B to find 99 squared and 58 squared."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "hegp106.txt lines 820-833",
+   "questions": [
+    "Use Identity 1C to calculate 98 x 102 and 45 x 55.",
+    "Describe the pattern 9 x 9 - 1 x 1 = 10 x 8 using algebra and say whether it always holds."
+   ]
+  }
+ ]
+}

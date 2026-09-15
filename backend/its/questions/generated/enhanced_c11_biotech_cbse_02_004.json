@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_004",
+   "title": "c11_biotech_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the defining structural difference between Rough Endoplasmic Reticulum (RER) and Smooth Endoplasmic Reticulum (SER) visible under an electron microscope.",
+     "a": "The defining structural difference is the presence of ribosomes attached to the cytosolic surface of RER, giving it a studded/rough appearance, while SER lacks ribosomes and appears as smooth tubules. A wrong answer (e.g., \"RER has more cisternae\" or \"SER is closer to the nucleus\") reveals the student is confusing morphology (tubules vs. cisternae) with the ribosome criterion, or misremembering spatial arrangement. The ribosome attachment is the sole diagnostic feature in EM images.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All proteins synthesized in a eukaryotic cell are made on the Rough ER.\" Explain why this statement is incorrect and describe the actual fate of proteins synthesized on free ribosomes versus bound ribosomes.",
+     "a": "The statement is incorrect because only proteins destined for the secretory pathway, plasma membrane, lysosomes, or other endomembrane organelles are synthesized on RER-bound ribosomes. Proteins for the cytosol, nucleus, mitochondria, chloroplasts, and peroxisomes are synthesized on free ribosomes and released directly into the cytoplasm. A wrong answer that says \"free ribosomes make structural proteins only\" or \"all proteins go through ER\" shows the student has not grasped the signal-sequence hypothesis and the topological sorting principle.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cultured liver cells with a drug that specifically inhibits the Signal Recognition Particle (SRP) receptor on the ER membrane. Predict the immediate effect on: (a) synthesis of a secretory protein like albumin, and (b) synthesis of a cytosolic enzyme like glycolysis enzyme. Justify your prediction.",
+     "a": "(a) Albumin synthesis will initiate on free ribosomes but the nascent chain will not be targeted to the ER; the ribosome will not dock, so the incomplete polypeptide will be released into the cytosol and likely degraded. (b) Cytosolic enzyme synthesis is unaffected because it uses free ribosomes and does not require SRP or the ER receptor. A wrong answer predicting both stop or both continue reveals the student does not understand SRP's specific role in co-translational targeting of signal-sequence-containing proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the lipid composition of the ER membrane with the plasma membrane. Given that phospholipid synthesis occurs on the cytosolic face of SER, explain how newly made phospholipids reach the plasma membrane without flipping across the ER bilayer spontaneously.",
+     "a": "Phospholipids are synthesized on the cytosolic leaflet of SER. They reach the plasma membrane via vesicular transport: transport vesicles bud from ER (carrying lipids in their bilayer), fuse with Golgi, and ultimately with the plasma membrane, preserving membrane sidedness. Spontaneous flip-flop is negligible. A wrong answer suggesting \"phospholipids diffuse through the cytoplasm\" or \"flip-flop occurs rapidly\" indicates the student ignores the hydrophobic barrier and the vesicular trafficking pathway of the endomembrane system.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Smooth ER is the primary site of protein synthesis in hepatocytes (liver cells) because the liver secretes large amounts of plasma proteins like albumin.\" Provide a corrected statement with reasoning.",
+     "a": "The claim is false. Hepatocytes have abundant RER (not SER) because they secrete massive amounts of plasma proteins (albumin, clotting factors). SER in hepatocytes is prominent for lipid metabolism, detoxification (cytochrome P450), and glycogen breakdown. A student who agrees with the claim confuses \"liver has lots of SER\" with \"SER makes proteins.\" The corrected statement: \"Hepatocytes have extensive RER for protein secretion and extensive SER for detoxification and lipid handling.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using differential centrifugation and electron microscopy to demonstrate that ribosomes are physically attached to RER membranes and not just trapped in the cytosol between cisternae.",
+     "a": "Homogenize cells, perform low-speed centrifugation to remove nuclei, then high-speed centrifugation to pellet microsomes (ER vesicles). Resuspend microsomes, treat one aliquot with high salt (0.5 M KCl) or puromycin to release ribosomes, and another with detergent (Triton X-100) to solubilize membranes. Centrifuge again: ribosomes from salt-treated sample remain in supernatant (released), while in detergent-treated sample they pellet with membrane fragments. EM of pellets shows ribosomes attached to membranes only in untreated/detergent samples. A poor answer omits the salt/detergent control or suggests only EM of whole cells, failing to prove physical attachment vs. entrapment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

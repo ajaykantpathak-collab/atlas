@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_010",
+   "title": "c12_cs_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is the most specific built-in exception raised when `open('missing.txt', 'r')` is executed and the file does not exist?",
+     "a": "`FileNotFoundError` (a subclass of `OSError`). A wrong answer like `IOError` or `Exception` reveals the student doesn't know Python 3's refined I/O exception hierarchy — `IOError` is an alias for `OSError` in Python 3, but `FileNotFoundError` is the precise exception for missing files. Catching `OSError` alone would also catch permission errors and disk-full errors, making debugging harder.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code is dangerous for file operations:\n```python\ntry:\n    f = open('data.txt', 'r')\n    content = f.read()\nexcept:\n    print(\"Error occurred\")\nfinally:\n    f.close()\n```",
+     "a": "Three critical flaws: (1) Bare `except:` catches **all** exceptions including `KeyboardInterrupt` and `SystemExit`, preventing clean program termination. (2) If `open()` itself fails, `f` is never assigned, so `f.close()` in `finally` raises `UnboundLocalError`, masking the original error. (3) No `else` block means success-path code runs inside `try`, increasing the chance of catching unrelated exceptions. The correct pattern uses `with` or assigns `f = None` before `try` and checks `if f is not None:` in `finally`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `read_config(filename)` that reads a JSON configuration file. It must: (a) return the parsed dict on success, (b) return `None` and log `\"File not found\"` if file missing, (c) return `None` and log `\"Permission denied\"` if no read permission, (d) return `None` and log `\"Corrupted data\"` if JSON decode fails, (e) ensure file is closed in all cases. Use `logging.error()` for logs.",
+     "a": "```python\nimport json, logging\n\ndef read_config(filename):\n    try:\n        with open(filename, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n    except FileNotFoundError:\n        logging.error(\"File not found\")\n        return None\n    except PermissionError:\n        logging.error(\"Permission denied\")\n        return None\n    except json.JSONDecodeError:\n        logging.error(\"Corrupted data\")\n        return None\n    else:\n        return data\n```\nSteps: (1) `with` guarantees closure. (2) Specific `except` clauses in order of specificity (subclasses before superclasses). (3) `json.JSONDecodeError` caught separately — not an `OSError` subclass. (4) `else` returns data only if no exception. A wrong answer using `except Exception:` or missing `encoding='utf-8'` reveals ignorance of encoding-related failures (common in board exams).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of `try-except-finally` vs `with` statement when an exception occurs **during** file reading (e.g., disk error on `read()`). Which guarantees file closure? Which allows post-exception cleanup code to run *after* the exception is handled?",
+     "a": "Both guarantee file closure: `with` calls `__exit__` (which closes the file) even if an exception occurs in the block; `finally` runs after `except` handles the exception. However, `with` **does not** allow code to run *after* the exception is caught unless you nest a `try-except` inside the `with` block. `try-except-finally` lets you write cleanup logic in `finally` that executes **after** the `except` block — useful for releasing external locks, updating UI, or logging post-mortem state. A student who says \"they're the same\" misses this critical distinction for resource management beyond file closing.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to append to a log file:\n```python\ntry:\n    with open('app.log', 'a') as f:\n        f.write(\"Startup\\n\")\nexcept OSError as e:\n    print(f\"Logging failed: {e}\")\n```\nCritique this design for a production server that must **never** lose log messages. What is the fundamental flaw?",
+     "a": "The `except` block catches the error but **does not retry or queue the message** — the log entry is silently dropped. In production, you must either: (a) retry with exponential backoff, (b) write to a fallback location (e.g., stderr, memory buffer), or (c) raise a custom alert. Merely printing defeats the purpose of logging. A student who says \"it handles the error\" confuses *catching* with *handling*. Board exams often ask: \"What happens to the data?\" — answer: it's lost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a robust file-copy function `copy_file(src, dst, chunk_size=8192)` that: (1) handles all file-related exceptions with specific messages, (2) copies in binary chunks to support large files, (3) verifies source and destination are not the same file (using `os.path.samefile`), (4) preserves permission bits (using `shutil.copymode`), (5) cleans up partial destination file on failure. Write the complete function with docstring.",
+     "a": "```python\nimport os, shutil\n\ndef copy_file(src, dst, chunk_size=8192):\n    \"\"\"\n    Copy src to dst in binary chunks. Raises descriptive exceptions on failure.\n    Cleans up partial dst on error. Preserves permission bits.\n    \"\"\"\n    if os.path.samefile(src, dst):\n        raise ValueError(\"Source and destination are the same file\")\n    \n    try:\n        with open(src, 'rb') as fsrc:\n            try:\n                with open(dst, 'wb') as fdst:\n                    while chunk := fsrc.read(chunk_size):\n                        fdst.write(chunk)\n            except OSError as e:\n                # Clean up partial file on write error\n                try:\n                    os.remove(dst)\n                except OSError:\n                    pass  # Best effort cleanup\n                raise RuntimeError(f\"Failed to write to {dst}: {e}\") from e\n    except FileNotFoundError:\n        raise FileNotFoundError(f\"Source file not found: {src}\")\n    except PermissionError:\n        raise PermissionError(f\"Permission denied reading {src} or writing {dst}\")\n    except OSError as e:\n        raise RuntimeError(f\"OS error during copy: {e}\") from e\n    else:\n        try:\n            shutil.copymode(src, dst)\n        except OSError as e:\n            raise RuntimeError(f\"Failed to preserve permissions: {e}\") from e\n```\nA poor answer misses: chunked reading, `samefile` check, nested `try` for write-phase cleanup, `copymode` in `else`, or chaining exceptions with `from e`. This tests synthesis of file ops, exceptions, and OS utilities — a JEE-style integrative problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

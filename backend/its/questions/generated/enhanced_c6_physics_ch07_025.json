@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_025",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_025",
+   "title": "c6_physics_ch07_025",
+   "questions": [
+    {
+     "q": "What is the primary function of an insulator?",
+     "a": "An insulator is designed to slow down or prevent the flow of heat. A wrong answer like \"an insulator makes things hotter\" shows the student is confusing insulators with heat sources; they do not generate heat, they only manage its movement.",
+     "self_check": true
+    },
+    {
+     "q": "If you want to keep your tea hot for a long time, why would you put it in a thermos flask rather than a simple metal cup?",
+     "a": "The thermos uses insulating materials in its walls to prevent heat from escaping into the cooler air outside. A wrong answer suggests the student does not understand that insulation works in both directions—it keeps heat in when it is cold and keeps heat out when it is hot.",
+     "self_check": true
+    },
+    {
+     "q": "You are building a house in a very cold region. Would you prefer walls made of solid iron or walls made of wood and foam? Explain why.",
+     "a": "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside, making the house cold. An incorrect answer suggests the student has not yet grasped that conductors and insulators have opposite effects on heat.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of a metal spoon and a wooden spoon when left in a bowl of hot soup. How does their material property affect their temperature?",
+     "a": "The metal spoon will become hot because it is a conductor, while the wooden spoon will stay cool because it is an insulator. A wrong answer reveals the student is failing to distinguish between materials that facilitate heat transfer and those that resist it.",
+     "self_check": true
+    },
+    {
+     "q": "If a person claims that \"air is a good conductor of heat,\" is this true? Defend your position.",
+     "a": "This claim is false; air is actually an excellent insulator. This is why double-pane windows or fluffy winter jackets keep us warm—the trapped air acts as a barrier that slows down heat loss. A wrong answer shows a misunderstanding of how common household materials behave thermally.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test if a piece of cloth is a good insulator for an ice cube. What would you observe?",
+     "a": "Wrap an ice cube in a piece of cloth and leave another ice cube exposed on a plate. If the cloth is an insulator, the wrapped ice cube will melt significantly slower than the exposed one. A poor answer fails to define a \"control\" (the exposed cube) to compare against.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

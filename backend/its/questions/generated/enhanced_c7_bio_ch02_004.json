@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_004",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_004",
+   "title": "c7_bio_ch02_004",
+   "questions": [
+    {
+     "q": "What is the primary function of salivary amylase in the human mouth?",
+     "a": "Salivary amylase breaks down complex starches into simpler sugars. If a student states that it kills all bacteria or digests proteins, it reveals a misunderstanding of enzyme specificity, confusing salivary amylase with protective enzymes or gastric protein-digesting enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does chewing food thoroughly make it easier to swallow and digest?",
+     "a": "Thorough chewing mechanically breaks large food pieces into smaller surface areas, and mixes them with saliva to form a slippery bolus. If a student believes chewing only makes food smaller without aiding chemical digestion, they miss how increased surface area helps salivary enzymes react faster.",
+     "self_check": true
+    },
+    {
+     "q": "A student eats a dry piece of bread without drinking any water. After a few minutes of chewing, the bread becomes moist and easy to swallow. What biological structures caused this change?",
+     "a": "The salivary glands secrete saliva, which is thoroughly mixed with the bread by the muscular movements of the tongue. Reasoning steps: 1) Identify the dryness of the bread; 2) Recognize that salivary glands release saliva into the oral cavity; 3) Note that the tongue rolls and mixes food with saliva; 4) Conclude that lubrication transforms the dry bread into a moist bolus. If a student thinks the teeth alone soften the bread, they overlook the fluid contribution of the salivary glands.",
+     "self_check": true
+    },
+    {
+     "q": "How do the different types of teeth (incisors, canines, premolars, and molars) work together during the first stage of digestion in the mouth?",
+     "a": "Each tooth type has a specialized shape for a specific mechanical task: incisors bite/cut, canines tear, and premolars/molars crush and grind. Reasoning steps: 1) Examine food entry; 2) Incisors slice front portions; 3) Canines puncture tough items; 4) Back teeth grind food into fine particles. If a student thinks all teeth perform the same crushing action, they fail to connect tooth structure to mechanical digestion function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Chemical digestion of all food types, including proteins and fats, begins immediately when food enters the mouth.\" Is this statement scientifically correct? Defend your reasoning.",
+     "a": "The statement is incorrect because saliva contains salivary amylase which targets only carbohydrates (starches), leaving proteins and fats unaffected in the mouth. Reasoning steps: 1) Analyze the components of saliva; 2) Identify the specific substrate of salivary amylase; 3) Check if protein- or fat-digesting enzymes are present in human saliva; 4) Conclude that protein and fat digestion occurs further down the alimentary canal. If a student agrees with the statement, they confuse mouth digestion with the broader digestive capacity of the stomach and small intestine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home observation to prove that saliva breaks down starch into sugar, using boiled rice and iodine solution. What would you observe and conclude?",
+     "a": "A good response describes chewing boiled rice for 2 minutes without swallowing, collecting the chewed mixture, and testing it with iodine versus plain mashed rice. The chewed rice will show a weaker blue-black iodine reaction (or turn brownish-yellow with Benedict's test) because starch has been converted to sugar by saliva. A poor answer just lists chemicals without explaining the biological change in starch content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

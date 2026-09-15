@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_010",
+   "title": "c11_soc_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the core epistemological difference between feminist sociology and classical sociological traditions (functionalism, Marxism, Weberian sociology) regarding the category of gender?",
+     "a": "Classical traditions either ignored gender (functionalism saw family as harmonious unit), subsumed it under class (Marxism saw women's oppression as derivative of capitalism), or treated it as a variable (Weber). Feminist sociology insists gender is a *fundamental organizing principle* of society, co-constitutive with class, caste, and race, not an add-on. A wrong answer (\"feminist sociology just adds women to existing theories\") reveals additive rather than transformative understanding — it misses the paradigm shift in what counts as sociological knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the concept of \"public-private dichotomy\" is central to feminist sociological analysis, using the example of unpaid domestic work in India.",
+     "a": "The public-private dichotomy assigns men to the public sphere (paid work, politics, law) and women to the private sphere (home, care, reproduction), rendering women's labor invisible and devalued. In India, NSSO time-use data (2019) shows women spend 299 minutes/day on unpaid domestic services vs. men's 97 minutes — this dichotomy naturalizes exploitation. A wrong answer (\"it's just cultural tradition\") fails to see how the dichotomy is *institutionally reinforced* through property laws, labor codes, and welfare policies that assume male breadwinner/female homemaker model.",
+     "self_check": true
+    },
+    {
+     "q": "Apply an intersectional feminist lens to analyze why the Beti Bachao Beti Padhao (BBBP) scheme, despite good intentions, may fail to improve outcomes for Dalit girls in rural Haryana.",
+     "a": "Step 1: Identify BBBP's focus — sex-selective abortion and girls' education. Step 2: Recognize intersectionality — Dalit girls face caste *and* gender discrimination. Step 3: Analyze structural barriers — Dalit girls face caste-based exclusion in schools (separate seating, forced cleaning), sexual violence with impunity, and economic compulsion for child labor. Step 4: Note scheme's silence on caste — no targeted provisions for SC/ST girls. Step 5: Conclude — without addressing caste-patriarchy nexus, BBBP benefits dominant-caste girls disproportionately. A wrong answer focusing only on gender misses how power operates through *multiple, simultaneous axes*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how a functionalist sociologist (e.g., Parsons) and a feminist sociologist (e.g., Ann Oakley) would explain the sexual division of labour in the modern Indian family.",
+     "a": "Parsons: Instrumental (male) vs. expressive (female) roles are *functional* for social stability; specialization ensures efficient family functioning. Oakley: Division is *socially constructed* through gendered socialization, not biological necessity; it serves patriarchal capitalism by supplying unpaid labor power. In India, feminist critique adds caste dimension — upper-caste women's \"expressive\" role is enabled by Dalit women's paid domestic work. A wrong answer (\"both agree division exists but disagree on origin\") misses the *political stakes*: functionalism legitimizes inequality; feminism exposes it as power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Indian sociology did not need Western feminist theory because Indian social reformers (Raja Ram Mohan Roy, Jyotirao Phule) already addressed gender inequality in the 19th century.\"",
+     "a": "The statement conflates *social reform* with *sociological theory*. Reformers challenged specific practices (sati, widow remarriage, child marriage) but often operated within patriarchal frameworks (e.g., Phule's emphasis on \"ideal\" Hindu womanhood). Western feminist theory provided *analytical tools* (patriarchy as system, gender vs. sex, standpoint epistemology) that allowed Indian sociologists (Leela Dube, Vina Mazumdar) to theorize gender as *structure*, not just custom. A wrong answer (\"Indian tradition already had feminism\") commits presentism — it ignores how colonial modernity reshaped gender and how feminist theory enables *critical self-reflection* on sociology's own androcentrism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research project using feminist methodology to study the impact of the gig economy (e.g., Zomato, Swiggy, Urban Company) on gendered labor in a Tier-2 Indian city. Specify: (a) research question, (b) why feminist standpoint epistemology matters here, (c) one ethical dilemma you would anticipate.",
+     "a": "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?\" (b) Standpoint epistemology centers *marginalized women's lived experience* as valid knowledge — e.g., women's negotiation of safety algorithms, menstrual leave invisibility, customer rating bias — which conventional surveys miss. (c) Ethical dilemma: Platforms may retaliate against participants; informed consent is compromised by power asymmetry. A poor answer uses standard questionnaire without reflexivity on researcher's positionality or algorithmic opacity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

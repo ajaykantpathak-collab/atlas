@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_005",
+   "title": "c10_phy_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define resistivity and state its SI unit.",
+     "a": "Resistivity (ρ) is the resistance of a material per unit length and per unit cross-sectional area, defined by ρ = RA/L. SI unit: ohm-metre (Ω·m). A wrong answer (e.g., \"resistivity is the same as resistance\") shows the student does not distinguish between the two concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires of the same material have the same length but different cross-sectional areas A₁ = 2A₂. How do their resistivities compare?",
+     "a": "The resistivities are EQUAL because resistivity is a material property, independent of dimensions. The resistances differ (R₁ = R₂/2 since R = ρL/A), but ρ₁ = ρ₂. A wrong answer (e.g., \"ρ₁ = 2ρ₂\") shows the student confuses resistance with resistivity.",
+     "self_check": true
+    },
+    {
+     "q": "A wire of length 2 m and cross-sectional area 1 × 10⁻⁶ m² has resistance 3.4 Ω. Find the resistivity of the material.",
+     "a": "ρ = RA/L = (3.4)(1 × 10⁻⁶)/2 = 1.7 × 10⁻⁶ Ω·m. A wrong answer (e.g., ρ = 3.4 × 2/10⁻⁶) shows the student inverted the formula or misapplied the units.",
+     "self_check": true
+    },
+    {
+     "q": "Why are alloys like nichrome used in heating elements rather than pure metals?",
+     "a": "Alloys like nichrome have higher resistivity than pure metals (e.g., nichrome ρ ≈ 1.10 × 10⁻⁶ Ω·m vs copper ρ ≈ 1.68 × 10⁻⁸ Ω·m), so they produce more heat for the same current (H = I²Rt). They also have high melting points and do not oxidise easily at high temperatures. A wrong answer (e.g., \"alloys are cheaper\") may be true but misses the electrical reason.",
+     "self_check": true
+    },
+    {
+     "q": "How does the resistivity of a conductor change with temperature? Compare with a semiconductor.",
+     "a": "For conductors: resistivity increases with temperature (more thermal vibrations scatter electrons, increasing opposition). For semiconductors: resistivity decreases with temperature (more electrons are freed from atoms, increasing charge carriers). A wrong answer (e.g., \"resistivity always increases with temperature\") shows the student does not distinguish conductor and semiconductor behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A copper wire has resistance 10 Ω. It is stretched to double its length (volume constant). Find the new resistance.",
+     "a": "When stretched to double length with volume constant: L' = 2L, so A' = A/2 (volume = AL = A'L' is constant). New resistance R' = ρL'/A' = ρ(2L)/(A/2) = 4ρL/A = 4R = 40 Ω. A wrong answer (e.g., R' = 20 Ω) shows the student did not account for the area change when the wire is stretched.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

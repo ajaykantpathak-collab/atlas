@@ -1,0 +1,551 @@
+{
+ "class": "12",
+ "subject": "business_studies",
+ "chapter": 9,
+ "chapter_title": "Financial Management",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\CBSE_FMM_Class9_2026-27.txt",
+ "concepts": [
+  {
+   "id": "c12bs.9.1",
+   "title": "Meaning and Objectives of Financial Management",
+   "section": "Meaning and Objectives of Financial Management",
+   "definition": "Financial management is concerned with the planning, organising, directing and controlling of the financial activities of an enterprise, ensuring that funds are procured at the lowest cost and used in the most efficient manner to maximise shareholders' wealth.",
+   "formula": "",
+   "key_idea": "The twin objectives of financial management are (a) to ensure a regular and adequate supply of funds and (b) to ensure adequate returns to the shareholders, which together guide every financing and investment decision.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define financial management and state its primary objectives.",
+    "Explain the twin objectives of financial management.",
+    "Why is wealth maximisation considered a better objective than profit maximisation?",
+    "List any four objectives of financial management.",
+    "Distinguish between financial management and financial planning."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define financial management",
+     "explain": "State that it covers procurement and utilisation of funds."
+    },
+    {
+     "step": 2,
+     "action": "List the twin objectives",
+     "explain": "Adequate supply of funds and maximisation of shareholders' wealth."
+    },
+    {
+     "step": 3,
+     "action": "Explain why wealth maximisation is preferred",
+     "explain": "It accounts for time value of money and risk, unlike profit maximisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by financial management?",
+     "solution": "Financial management refers to planning, organising, directing and controlling the financial activities -- procurement and utilisation of funds.",
+     "answer": "Financial management is the management of the finances of an enterprise to achieve its objectives."
+    },
+    {
+     "question": "State the twin objectives of financial management.",
+     "solution": "The objectives are to ensure a regular and adequate supply of funds and to ensure adequate returns to shareholders.",
+     "answer": "Adequate supply of funds and adequate returns to shareholders."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why wealth maximisation is superior to profit maximisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List four objectives of financial management.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define financial management.",
+     "type": "very_short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.2",
+   "title": "Financial Decisions -- Investment, Financing and Dividend",
+   "section": "Financial Decisions",
+   "definition": "Financial decisions are choices about how funds are raised (financing decision), where they are deployed (investment decision) and how the earnings are distributed (dividend decision).",
+   "formula": "",
+   "key_idea": "Investment decisions (capital budgeting) affect long-term growth, financing decisions determine the debt-equity mix and cost of capital, and dividend decisions influence shareholders' satisfaction and retained earnings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between investment, financing and dividend decisions.",
+    "What is a financing decision? Give an example.",
+    "Explain the factors affecting dividend decisions.",
+    "Why are investment decisions considered long-term decisions?",
+    "How does a financing decision affect the capital structure?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three financial decisions",
+     "explain": "Investment, financing and dividend decisions."
+    },
+    {
+     "step": 2,
+     "action": "Explain each decision",
+     "explain": "Investment = where to invest; Financing = how to raise funds; Dividend = how much to distribute."
+    },
+    {
+     "step": 3,
+     "action": "Relate decisions to objectives",
+     "explain": "Each decision must align with wealth maximisation and risk-return trade-off."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between investment and financing decisions.",
+     "solution": "Investment decisions relate to application of funds in long-term assets; financing decisions relate to raising funds from various sources.",
+     "answer": "Investment = use of funds; Financing = source of funds."
+    },
+    {
+     "question": "What is a dividend decision?",
+     "solution": "It is the decision about how much of the profit is to be distributed as dividends and how much to retain.",
+     "answer": "Dividend decision determines the split between dividend payout and retained earnings."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the factors that affect a dividend decision.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example each of an investment decision and a financing decision.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.3",
+   "title": "Capital Structure",
+   "section": "Capital Structure",
+   "definition": "Capital structure refers to the mix of debt and equity used by a firm to finance its overall operations and growth; it determines the proportion of long-term debt, preference share capital and equity share capital.",
+   "formula": "Capital Structure = Debt / (Debt + Equity)",
+   "key_idea": "An optimal capital structure minimises the overall cost of capital and maximises the value of the firm by balancing the cheaper-but-riskier debt with costlier-but-safer equity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define capital structure and state its components.",
+    "What is an optimal capital structure?",
+    "Compute the debt-to-total-capital ratio given debt and equity values.",
+    "Explain how capital structure affects the cost of capital.",
+    "Distinguish between debt and equity in a capital structure."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify debt and equity values",
+     "explain": "Extract total debt and total equity from the given data.",
+     "compute": "debt = total_debt; equity = total_equity"
+    },
+    {
+     "step": 2,
+     "action": "Compute total capital",
+     "explain": "Total capital is the sum of debt and equity.",
+     "compute": "total_capital = debt + equity"
+    },
+    {
+     "step": 3,
+     "action": "Compute debt ratio",
+     "explain": "Debt ratio shows the proportion of debt in the capital structure.",
+     "compute": "debt_ratio = debt / total_capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm has debt of Rs 4,00,000 and equity of Rs 6,00,000. Compute the debt ratio.",
+     "solution": "Total capital = 4,00,000 + 6,00,000 = 10,00,000. Debt ratio = 4,00,000 / 10,00,000 = 0.4.",
+     "answer": "Debt ratio = 0.4 (40%)."
+    },
+    {
+     "question": "A company has equity of Rs 5,00,000 and debt of Rs 3,00,000. Find the capital structure mix.",
+     "solution": "Total capital = 5,00,000 + 3,00,000 = 8,00,000. Equity proportion = 5,00,000 / 8,00,000 = 0.625; Debt proportion = 3,00,000 / 8,00,000 = 0.375.",
+     "answer": "Equity = 62.5%, Debt = 37.5%."
+    },
+    {
+     "question": "If debt is Rs 2,00,000 and equity is Rs 8,00,000, compute the debt-equity ratio.",
+     "solution": "Debt-equity ratio = debt / equity = 2,00,000 / 8,00,000 = 0.25.",
+     "answer": "Debt-equity ratio = 0.25."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A firm has debt of Rs 5,00,000 and equity of Rs 5,00,000. Compute the debt ratio.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain the meaning of an optimal capital structure.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between debt and equity capital.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.4",
+   "title": "Factors Affecting Capital Structure",
+   "section": "Factors Affecting Capital Structure",
+   "definition": "The capital structure of a firm is influenced by factors such as cost of capital, cash flow position, control considerations, stock market conditions, degree of operating leverage, and tax considerations.",
+   "formula": "",
+   "key_idea": "A firm must balance the tax shield advantage of debt against the risk of insolvency; high and stable cash flows permit more debt, while the desire to retain control favours equity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the factors affecting the capital structure of a company.",
+    "Explain how cash flow position affects the capital structure.",
+    "How does the tax rate influence the choice between debt and equity?",
+    "Explain the role of control considerations in capital structure decisions.",
+    "How do stock market conditions affect capital structure?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the key factors",
+     "explain": "Cost of capital, cash flow, control, market conditions, leverage, tax."
+    },
+    {
+     "step": 2,
+     "action": "Explain the impact of each factor",
+     "explain": "Each factor tilts the decision toward more debt or more equity."
+    },
+    {
+     "step": 3,
+     "action": "Conclude with the trade-off",
+     "explain": "The firm chooses the mix that balances risk and return optimally."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name any four factors affecting capital structure.",
+     "solution": "Cost of capital, cash flow position, control considerations and tax rate.",
+     "answer": "Four factors: cost of capital, cash flow position, control, tax rate."
+    },
+    {
+     "question": "How does a high tax rate favour debt in the capital structure?",
+     "solution": "Interest on debt is tax-deductible, so a higher tax rate increases the tax shield, making debt cheaper.",
+     "answer": "A higher tax rate makes debt more attractive due to the interest tax shield."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the cash flow position of a firm affects its capital structure.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List five factors affecting capital structure.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.5",
+   "title": "Working Capital",
+   "section": "Working Capital",
+   "definition": "Working capital is the capital required to finance the day-to-day operations of a business; it is the difference between current assets and current liabilities.",
+   "formula": "Working Capital = Current Assets - Current Liabilities",
+   "key_idea": "Adequate working capital ensures liquidity and smooth operations; excess working capital reduces profitability while insufficient working capital threatens solvency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define working capital and state its formula.",
+    "Compute working capital given current assets and current liabilities.",
+    "Explain the importance of working capital management.",
+    "Distinguish between gross working capital and net working capital.",
+    "What are the dangers of excessive and inadequate working capital?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify current assets and current liabilities",
+     "explain": "Extract the values of current assets and current liabilities.",
+     "compute": "ca = current_assets; cl = current_liabilities"
+    },
+    {
+     "step": 2,
+     "action": "Apply the working capital formula",
+     "explain": "Working capital is current assets minus current liabilities.",
+     "compute": "working_capital = ca - cl"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "A positive value indicates liquidity; a negative value indicates a shortfall.",
+     "compute": "sign = 'positive' if working_capital > 0 else 'negative'"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Current assets are Rs 1,50,000 and current liabilities are Rs 90,000. Compute working capital.",
+     "solution": "Working capital = 1,50,000 - 90,000 = 60,000.",
+     "answer": "Working capital = Rs 60,000."
+    },
+    {
+     "question": "Current assets are Rs 2,00,000 and current liabilities are Rs 2,50,000. Find working capital.",
+     "solution": "Working capital = 2,00,000 - 2,50,000 = -50,000.",
+     "answer": "Working capital = -Rs 50,000 (negative)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A firm has current assets of Rs 3,00,000 and current liabilities of Rs 1,20,000. Compute working capital.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain the dangers of excessive and inadequate working capital.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Define net working capital.",
+     "type": "very_short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.6",
+   "title": "Types of Capital -- Fixed and Working",
+   "section": "Types of Capital",
+   "definition": "Fixed capital is the portion of capital invested in long-term assets such as land, building, machinery and equipment, while working capital is invested in short-term current assets such as stock, debtors and cash.",
+   "formula": "",
+   "key_idea": "Fixed capital supports the scale of operations and is recovered over a long period; working capital supports the continuity of operations and is recycled within the operating cycle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between fixed capital and working capital.",
+    "Give two examples each of fixed capital and working capital.",
+    "Why does a manufacturing firm need more fixed capital than a trading firm?",
+    "Explain the factors affecting the requirement of fixed capital.",
+    "Explain the factors affecting the requirement of working capital."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define fixed and working capital",
+     "explain": "Fixed capital = long-term assets; Working capital = short-term current assets."
+    },
+    {
+     "step": 2,
+     "action": "Give examples",
+     "explain": "Fixed: land, machinery; Working: stock, cash, debtors."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need",
+     "explain": "Fixed capital sets the scale; working capital ensures continuity of operations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Differentiate between fixed capital and working capital.",
+     "solution": "Fixed capital is invested in long-term assets and recovered over years; working capital is invested in current assets and recycled within the operating cycle.",
+     "answer": "Fixed capital = long-term; Working capital = short-term."
+    },
+    {
+     "question": "Why does a trading firm need less fixed capital than a manufacturing firm?",
+     "solution": "A trading firm does not require plant and machinery, so its fixed capital requirement is lower.",
+     "answer": "Trading firms need less fixed capital because they do not own heavy production assets."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four factors affecting the requirement of working capital.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the factors that determine the requirement of fixed capital.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.7",
+   "title": "Financial Planning",
+   "section": "Financial Planning",
+   "definition": "Financial planning is the process of estimating the capital required and determining its composition, so that the firm has funds when needed and uses them in the most efficient manner.",
+   "formula": "",
+   "key_idea": "Financial planning ensures availability of funds at the right time, in the right amount and at the lowest cost, covering both the capital structure decision and the short-term financing decision.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define financial planning and state its objectives.",
+    "Explain the importance of financial planning.",
+    "Distinguish between financial planning and financial management.",
+    "What is the twin objective of financial planning?",
+    "How does financial planning help in achieving business objectives?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define financial planning",
+     "explain": "It is the estimation of capital required and its composition."
+    },
+    {
+     "step": 2,
+     "action": "State the twin objectives",
+     "explain": "To ensure funds are available when needed and used efficiently."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance",
+     "explain": "It helps avoid shortage or surplus of funds and supports growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by financial planning?",
+     "solution": "Financial planning is the process of estimating the capital required and determining its composition.",
+     "answer": "Financial planning = estimating capital need and its composition."
+    },
+    {
+     "question": "State the twin objectives of financial planning.",
+     "solution": "To ensure availability of funds whenever required and to ensure that the firm does not raise surplus funds unnecessarily.",
+     "answer": "Adequate funds on time and avoidance of surplus funds."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of financial planning for a business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the twin objectives of financial planning.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.8",
+   "title": "Cost of Capital",
+   "section": "Cost of Capital",
+   "definition": "The cost of capital is the minimum rate of return that a firm must earn on its investments to satisfy the expectations of its investors and maintain its market value; it is the weighted average of the cost of each source of finance.",
+   "formula": "Weighted Average Cost of Capital (WACC) = (E/V) * Ke + (D/V) * Kd * (1 - t)",
+   "key_idea": "Each source of finance has a different cost; the overall cost of capital is the weighted average of these costs, and it serves as the hurdle rate for investment decisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define cost of capital and state its significance.",
+    "Compute WACC given the cost of equity, cost of debt, weights and tax rate.",
+    "Explain why debt is cheaper than equity.",
+    "What is the relationship between cost of capital and capital structure?",
+    "How does the tax rate affect the cost of debt?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine weights and costs",
+     "explain": "Find the proportion of equity (E/V), debt (D/V), cost of equity (Ke), cost of debt (Kd) and tax rate (t).",
+     "compute": "we = E/V; wd = D/V; ke = cost_of_equity; kd = cost_of_debt; t = tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "Compute after-tax cost of debt",
+     "explain": "Interest is tax-deductible, so the effective cost of debt is Kd*(1-t).",
+     "compute": "kd_after_tax = kd * (1 - t)"
+    },
+    {
+     "step": 3,
+     "action": "Compute WACC",
+     "explain": "WACC is the weighted sum of the cost of equity and after-tax cost of debt.",
+     "compute": "wacc = we * ke + wd * kd_after_tax"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm has equity of Rs 6,00,000 (cost 14%) and debt of Rs 4,00,000 (cost 10%, tax 30%). Compute WACC.",
+     "solution": "Weights: equity = 6/10 = 0.6, debt = 4/10 = 0.4. After-tax cost of debt = 10% * (1 - 0.3) = 7%. WACC = 0.6 * 14% + 0.4 * 7% = 8.4% + 2.8% = 11.2%.",
+     "answer": "WACC = 11.2%."
+    },
+    {
+     "question": "Equity = Rs 5,00,000 (Ke = 12%), Debt = Rs 5,00,000 (Kd = 10%, tax = 40%). Compute WACC.",
+     "solution": "Weights: equity = 0.5, debt = 0.5. After-tax Kd = 10% * (1 - 0.4) = 6%. WACC = 0.5 * 12% + 0.5 * 6% = 6% + 3% = 9%.",
+     "answer": "WACC = 9%."
+    },
+    {
+     "question": "A firm has equity of Rs 8,00,000 (Ke = 15%) and debt of Rs 2,00,000 (Kd = 8%, tax = 35%). Find WACC.",
+     "solution": "Weights: equity = 8/10 = 0.8, debt = 2/10 = 0.2. After-tax Kd = 8% * (1 - 0.35) = 5.2%. WACC = 0.8 * 15% + 0.2 * 5.2% = 12% + 1.04% = 13.04%.",
+     "answer": "WACC = 13.04%."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Equity = Rs 7,00,000 (Ke = 13%), Debt = Rs 3,00,000 (Kd = 9%, tax = 30%). Compute WACC.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why debt is considered cheaper than equity.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define cost of capital and state its significance in investment decisions.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.9.9",
+   "title": "Capital Budgeting Decision (Investment Decision)",
+   "section": "Financial Decisions",
+   "definition": "A capital budgeting decision is a long-term investment decision that involves committing large sums of funds to projects whose benefits are expected over several years; it affects the long-term profitability and risk of the firm.",
+   "formula": "",
+   "key_idea": "Capital budgeting decisions are long-term and involve large outlays; they determine the growth, profitability and risk of the firm, so they must be evaluated carefully for returns and risk.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a capital budgeting decision? Give an example.",
+    "Explain the importance of capital budgeting decisions.",
+    "Why are capital budgeting decisions irreversible in nature?",
+    "Distinguish between a capital budgeting decision and a working capital decision.",
+    "List the factors affecting capital budgeting decisions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define capital budgeting decision",
+     "explain": "It is a long-term investment decision involving large funds."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features",
+     "explain": "Large outlay, long-term impact, irreversible, high risk."
+    },
+    {
+     "step": 3,
+     "action": "State its importance",
+     "explain": "It affects long-term growth, profitability and risk of the firm."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a capital budgeting decision? Give one example.",
+     "solution": "It is a long-term investment decision involving commitment of large funds. Example: purchase of a new plant.",
+     "answer": "Capital budgeting = long-term investment decision; example: buying a plant."
+    },
+    {
+     "question": "Why are capital budgeting decisions considered irreversible?",
+     "solution": "Once a project is undertaken, it is difficult and costly to reverse the decision without significant loss.",
+     "answer": "Capital budgeting decisions are largely irreversible due to large sunk costs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of capital budgeting decisions for a firm.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two examples of capital budgeting decisions.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

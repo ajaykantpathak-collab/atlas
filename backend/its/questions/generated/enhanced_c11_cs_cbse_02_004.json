@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_004",
+   "title": "c11_cs_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the number of rows in a truth table for a Boolean operation with two input variables, and what are the four standard input combinations in order?",
+     "a": "A truth table for two variables has 2² = 4 rows. The standard input combinations in order are: (0,0), (0,1), (1,0), (1,1). If a student writes 3 rows or lists combinations in random order (e.g., 00, 11, 01, 10), it reveals they don't understand the systematic binary counting principle (00, 01, 10, 11) that ensures exhaustiveness and prevents missing cases.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the output column for the AND operation has only one '1' and three '0's, while the OR operation has three '1's and one '0'.",
+     "a": "AND outputs 1 **only when both inputs are 1** (strict condition), which happens in exactly one of the four rows. OR outputs 1 **when at least one input is 1** (lenient condition), which happens in three rows (01, 10, 11). If a student says \"AND is like multiplication so it has one 1\" without referencing the logical condition, they are relying on a superficial analogy and may fail when the analogy breaks (e.g., in multi-variable cases).",
+     "self_check": true
+    },
+    {
+     "q": "Construct the truth table for the expression: (A AND B) OR (NOT A). Show all steps.",
+     "a": "Step 1: List inputs A, B in standard order (00, 01, 10, 11).  \nStep 2: Compute NOT A (flip A).  \nStep 3: Compute A AND B.  \nStep 4: Compute (A AND B) OR (NOT A) using results from steps 2 and 3.  \n\n| A | B | NOT A | A AND B | (A AND B) OR (NOT A) |\n|---|---|-------|---------|----------------------|\n| 0 | 0 |   1   |    0    |          1           |\n| 0 | 1 |   1   |    0    |          1           |\n| 1 | 0 |   0   |    0    |          0           |\n| 1 | 1 |   0   |    1    |          1           |\n\nIf a student computes NOT A incorrectly (e.g., copies A) or evaluates OR before AND, they are not following the precedence of operations (NOT > AND > OR) and will get wrong outputs in rows 3 and 4.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of AND and OR. What pattern do you observe in the output columns, and how does it relate to the concept of logical duality?",
+     "a": "The output column of AND is the exact complement (bitwise NOT) of the output column of OR **when the inputs are also complemented**. More precisely, if you swap 0↔1 in both inputs and the output of AND, you get the OR table. This is the essence of De Morgan's duality. If a student only says \"they are opposites\" without mentioning input complementation, they miss the precise structural relationship that underpins De Morgan's theorems (covered later).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The truth table for NOT A is just the same as the truth table for A but with the output column reversed.\" Evaluate this statement. Is it correct? Justify.",
+     "a": "The statement is **correct but poorly phrased**. NOT is a unary operation — it has only **one input variable**. Its truth table has two rows (A=0 → output 1; A=1 → output 0). Saying \"same as truth table for A\" is ambiguous because A alone doesn't have a truth table; it's just a variable. The student likely means \"the output column is the inverse of the input column.\" If they think NOT has two inputs like AND/OR, they have a fundamental misconception about arity. The justification must reference that NOT operates on a single variable, so its table has 2¹ = 2 rows.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from the locker example) that requires a truth table with two inputs and an AND operation. Draw the truth table and explain why AND is the correct operation for your scenario.",
+     "a": "Example scenario: \"A microwave starts heating **only when** the door is closed (D=1) **AND** the start button is pressed (S=1).\"  \nTruth table:  \n| D | S | Output (Heating) |  \n|---|---|------------------|  \n| 0 | 0 |        0         |  \n| 0 | 1 |        0         |  \n| 1 | 0 |        0         |  \n| 1 | 1 |        1         |  \nAND is correct because **both** safety conditions must be met simultaneously. If the student chooses a scenario where only one condition is needed (e.g., \"light turns on if switch A OR switch B is on\"), they should use OR, not AND. A poor answer uses a scenario that doesn't match the strict \"both required\" logic of AND.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

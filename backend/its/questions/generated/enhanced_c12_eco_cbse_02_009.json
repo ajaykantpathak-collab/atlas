@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_009",
+   "title": "c12_eco_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define \"change in quantity demanded\" and \"change in demand\" in one sentence each, using the ceteris paribus assumption.",
+     "a": "Change in quantity demanded: A movement along a given demand curve caused exclusively by a change in the good's own price, holding all other determinants constant. Change in demand: A shift of the entire demand curve caused by a change in any non-price determinant (income, related goods' prices, tastes, expectations, number of buyers). A wrong answer that says \"change in demand is when people buy more\" reveals the student conflates the two concepts and ignores the ceteris paribus condition — the single biggest source of errors in board exam definitions.",
+     "self_check": true
+    },
+    {
+     "q": "The price of petrol rises from ₹95 to ₹105 per litre. As a result, the quantity demanded of petrol falls. Simultaneously, the demand for CNG cars increases. Classify each as movement along or shift of the demand curve, and justify using the ceteris paribus condition.",
+     "a": "Petrol: Movement along the demand curve for petrol (only own price changed, ceteris paribus). CNG cars: Rightward shift of the demand curve for CNG cars (price of a substitute good — petrol — changed, a non-price determinant for CNG cars). A wrong answer that classifies both as movements along reveals the student fails to distinguish between the good whose price changed (petrol) and the related good (CNG cars) — a classic board exam trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the demand function Qd = 100 - 2P + 0.5Y - 3Ps, where P = own price, Y = consumer income, Ps = price of substitute. Initially P=20, Y=50, Ps=15. Calculate the initial quantity demanded. Then determine the new quantity demanded if (a) P rises to 25 (Y, Ps constant), (b) Y rises to 60 (P, Ps constant). Identify which is movement along and which is shift.",
+     "a": "Initial Qd = 100 - 2(20) + 0.5(50) - 3(15) = 100 - 40 + 25 - 45 = 40 units.\n(a) P=25: Qd = 100 - 50 + 25 - 45 = 30 units. Change of -10 units due to own price → movement along.\n(b) Y=60: Qd = 100 - 40 + 30 - 45 = 45 units. Change of +5 units due to income → rightward shift.\nA wrong answer that calculates (a) as 30 but calls it a \"decrease in demand\" shows the student cannot translate algebraic changes into correct terminology — a frequent error in CUET numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is economically accurate. Explain the error in the other.\nStatement A: \"When the price of coffee falls, the demand for coffee increases.\"\nStatement B: \"When the price of coffee falls, the quantity demanded of coffee increases.\"",
+     "a": "Statement B is accurate. Statement A commits the cardinal error: using \"demand\" (the entire curve) when only \"quantity demanded\" (a point on the curve) changes. The error arises because a fall in own price causes movement ALONG the curve, not a shift OF the curve. In board exams, writing \"demand increases\" for a price fall loses 1 mark for terminology and can cascade into wrong equilibrium analysis (e.g., saying \"demand increases, so price rises further\" — a logical contradiction).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this policy claim: \"To reduce sugar consumption, the government should shift the demand curve for sugar leftward by imposing a tax on consumers.\" Is the claim correct? If not, correct it using precise terminology.",
+     "a": "The claim is incorrect. A tax on consumers (or producers) changes the effective price paid, causing a movement ALONG the demand curve, not a shift. To shift the demand curve leftward, the government must alter a non-price determinant — e.g., a health campaign changing tastes, a subsidy on artificial sweeteners (substitute), or an income tax reducing disposable income (if sugar is normal). The error confuses policy instruments: taxes on the good work through price (movement along); awareness campaigns work through preferences (shift). This distinction is critical for JEE/NEET-style policy analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario involving a normal good (e.g., milk) where BOTH a movement along the demand curve AND a shift of the demand curve occur simultaneously. Draw the combined effect on a graph and explain the net change in quantity demanded at the original price.",
+     "a": "Scenario: Milk price rises from ₹50 to ₹60 per litre (movement along, quantity demanded falls). Simultaneously, a health advisory promotes milk for immunity, shifting the demand curve rightward. At the original price ₹50, the shift increases quantity demanded; at the new price ₹60, the movement along decreases it. The net effect at ₹60 depends on the relative magnitudes. A good answer includes a graph with D1 shifting to D2, then a movement up along D2. A poor answer draws only one change or labels axes incorrectly (price on horizontal axis) — revealing weak graphical foundations from Class 9/10 math.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

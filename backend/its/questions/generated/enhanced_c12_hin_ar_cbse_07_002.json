@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_07_002",
+   "title": "c12_hin_ar_cbse_07_002",
+   "questions": [
+    {
+     "q": "Identify the six poetic forms (Nan and their names) used in this chapter and state the metrical pattern (ek=kk,¡) of any two.",
+     "a": "The six forms are: Nan (dlc), Nksgk (nksgk), PkSikbZ (pkSikbZ), LksjBk (lksjBk), DfoÙk (dfoÙk), LoS;k (loS;k). Metrical patterns (any two): Nan — each line has 16 matras (ek=kk,¡), with a pause after 8; Nksgk — 11 matras in lines 2 and 4, 13 in lines 1 and 3, with a 'varna y?kq' (A) at the end of each line. A wrong answer (e.g., confusing Nan with DfoÙk, or giving wrong matra counts) reveals the student has memorized names without internalizing the structural logic — each form's rhythm matches its narrative function (e.g., Nan's steady 16-matra gait suits descriptive narration; Nksgk's shorter lines accelerate during dialogue).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Tulsidas places the first Nan (starting 'fdlch fdlku...') immediately after the prose introduction of Rama's exile, rather than at the very beginning of the chapter.",
+     "a": "The prose introduction establishes the outer narrative frame (Tulsidas as poet, the greatness of Ramcharitmanas) and the historical context. The first Nan then *zooms in* to the specific scene: Rama, Sita, Lakshman walking on thorns (isV dh vkx). Placing it later creates a \"camera movement\" from wide-angle (literary history) to close-up (physical suffering). A wrong answer (e.g., \"it's the first poem so it goes first\") shows the student sees poems as decorative inserts, not structural choices that control narrative distance.",
+     "self_check": true
+    },
+    {
+     "q": "The second Nan ('[ksrh u fdlku...') depicts Guha's hesitation to let Rama touch his feet. Map this poem to the exact plot point in the Guha episode and explain what narrative work it does that prose cannot.",
+     "a": "Plot point: Guha sees Rama approaching, recognizes his divinity, but hesitates — \"Should I let him touch my feet? He is God!\" The Nan condenses this internal conflict into 4 lines using direct speech (\"dgSa ,d ,du lksa ^dgk¡ tkbZ] dk djh\\*\"). Prose would *describe* the hesitation; the poem *enacts* it through rhythm and voice. A wrong answer (e.g., \"it describes Guha's devotion\") misses the structural shift: this is the first time a *character's voice* enters the narrative, breaking the narrator's monopoly — a turning point in narrative authority.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative function of the Nksgk (third poem, 'èkwr dgkS...') with the PkSikbZ (fourth poem). How do their metrical differences reflect their different roles in the Guha episode?",
+     "a": "Nksgk (11/13 matras, varna y?kq) is spoken by Guha *to* Rama — a dialogue poem, urgent, questioning (\"Who is wise? Who is foolish?\"). Its shorter lines create conversational breathlessness. PkSikbZ (16 matras × 4 lines, fixed caesura) is the *narrator's summary* of the crossing — stately, measured, panoramic. The meter mirrors the shift from subjective dialogue to objective narration. A wrong answer (e.g., \"both describe the same scene\") fails to see that narrative structure uses *form* to signal *perspective shifts*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The LoS;k at the end of the chapter is merely a devotional summary; removing it would not change the plot.\" Defend your judgment with structural evidence.",
+     "a": "The claim is false. The LoS;k (22–26 matras, variable structure) does three structural things: (1) It closes the Guha episode by elevating it from historical anecdote to eternal template (\"guqeku osQ vorj.k dks d#.k jl osQ chp ohj jl dk vkfoHkkZo\"), (2) It bridges to the next episode (Bharat Milap) by invoking Rama's *ongoing* journey, (3) It restores the outer frame (Tulsidas as poet-devotee), completing the circular structure opened in the prose introduction. Removing it severs the link between *this* episode and the epic's larger architecture. A wrong evaluation treats the poem as content, not structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Nan (16 matras per line, pause after 8) that could be inserted *between* the Guha episode and the Bharat Milap episode, capturing Rama's state of mind as he leaves Guha's shore. Write the lines in Devanagari with matra count marked.",
+     "a": "Example (student's original creation):\n```\nnksgk dk ;k=k gqvk] nksgjk dk Hkze  (16)\nguqeku dk asrk cksy] jke dk nzke    (16)\n```\nCriteria: (a) 16 matras each line, (b) caesura after 8, (c) imagery of departure + emotional residue, (d) connects Guha's shore to what comes next. A poor answer (wrong matra count, no caesura, generic devotion) reveals the student cannot *use* the form's constraints as narrative tools — they see rules as obstacles, not scaffolding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

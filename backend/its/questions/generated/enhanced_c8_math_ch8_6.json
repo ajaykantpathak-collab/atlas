@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_6",
+   "title": "c8_math_ch8_6",
+   "questions": [
+    {
+     "q": "What is the formula for calculating percentage increase when the original value is O and the new value is N?",
+     "a": "The formula is ((N - O) / O) × 100. A wrong answer like ((N - O) / N) × 100 reveals the student incorrectly uses the new value as the base, a very common error. Another wrong answer might omit the multiplication by 100, showing they confuse the fraction with the percentage.",
+     "self_check": true
+    },
+    {
+     "q": "The price of a notebook increased from ₹50 to ₹60. A student calculates the percentage increase as (10/60) × 100 = 16.67%. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The correct calculation is (10/50) × 100 = 20%. The student used the new price (₹60) as the denominator instead of the original price (₹50). This reveals the misconception that the base for percentage change can be either value, whereas it must always be the original value before the change occurred.",
+     "self_check": true
+    },
+    {
+     "q": "The population of a town decreased from 25,000 to 22,500 in one year. Calculate the percentage decrease.",
+     "a": "Decrease = 25,000 - 22,500 = 2,500. Percentage decrease = (2,500 / 25,000) × 100 = (1/10) × 100 = 10%. A wrong answer of 11.11% would come from dividing by 22,500 (the new value) instead of 25,000 (the original value). An answer of 0.1 shows the student forgot to multiply by 100 to convert the decimal to a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "A shirt's price is increased by 20% and then decreased by 20%. Does the final price equal the original price? If not, which is higher and why?",
+     "a": "No, the final price is lower than the original. Suppose original price = ₹100. After 20% increase: ₹120. A 20% decrease on ₹120 is ₹24, giving a final price of ₹96. The decrease is calculated on a larger base (₹120) than the increase was (₹100), so the absolute decrease is larger. A student who says \"yes, it returns to original\" does not understand that the base changes after the first operation.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"After a 25% increase, the cost of a book is ₹250. Find the original cost.\" Their working: 25% of 250 = 62.5, so original = 250 - 62.5 = ₹187.50. Evaluate this solution.",
+     "a": "The solution is incorrect. The student calculated 25% of the *new* value (₹250) instead of the *original* value. The 25% increase was applied to the original cost, not the final cost. Correct method: Let original be x. Then x + 0.25x = 1.25x = 250, so x = 200. The error reveals the student does not grasp that the percentage refers to the original amount, not the result.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where a quantity undergoes a percentage decrease, and the final value is given. The problem should require finding the original value. Provide the solution.",
+     "a": "Example problem: \"After a 15% discount, a pair of shoes costs ₹1,700. What was the marked price?\" Solution: Let marked price be x. After 15% decrease, price = 0.85x = 1700. So x = 1700 / 0.85 = ₹2,000. A poor answer would create a problem asking for the discount amount instead of the original value, or would set up the equation as x - 0.15x = 1700 but then incorrectly compute 0.15 × 1700 and subtract, showing the same base confusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

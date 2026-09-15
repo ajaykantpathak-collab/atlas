@@ -1,0 +1,419 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 106,
+ "chapter_title": "How Forces Affect Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc106.txt",
+ "concepts": [
+  {
+   "id": "iesc.106.1",
+   "title": "Net Force on an Object",
+   "section": "6.2",
+   "definition": "The single resultant force obtained by combining all individual forces acting simultaneously upon a body.",
+   "formula": "net_force = abs(force_1 - force_2) or net_force = force_1 + force_2",
+   "key_idea": "In brief, In brief, Forces acting in the common direction reinforce each other, while opposing forces subtract from one another.",
+   "textbook_ref": "iesc106.txt lines 30-70",
+   "question_patterns": [
+    "find the net force acting on a block",
+    "calculate the net force when two forces act in opposite directions",
+    "what is the net force when forces act in the same direction",
+    "determine the magnitude and direction of the resultant force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net force for opposing forces",
+     "explain": "subtract the smaller force magnitude from the larger force magnitude",
+     "compute": "net_force = abs(force_1 - force_2)"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.2",
+   "title": "Force of Friction",
+   "section": "6.3",
+   "definition": "A contact force operating at the interface between two surfaces that resists their relative motion.",
+   "formula": "f_friction = f_applied - f_net",
+   "key_idea": "Frictional force operates in opposition to the direction of motion or intended sliding.",
+   "textbook_ref": "iesc106.txt lines 75-120",
+   "question_patterns": [
+    "what is the force of friction acting on the object",
+    "calculate the frictional force opposing the applied force",
+    "find the magnitude of frictional resistance",
+    "how much friction force acts on the surface"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine frictional force",
+     "explain": "frictional resistance is the difference between applied force and effective net force",
+     "compute": "f_friction = f_applied - f_net"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.3",
+   "title": "Newton's First Law of Motion",
+   "section": "6.4",
+   "definition": "A physical law stating that an object maintains its state of rest or uniform straight-line velocity unless acted upon by a non-zero net force.",
+   "formula": "if f_net = 0, then a = 0 and v = constant",
+   "key_idea": "In brief, In brief, In brief, In brief, In the absence of an unbalanced external force, an object undergoes zero acceleration.",
+   "textbook_ref": "iesc106.txt lines 125-160",
+   "question_patterns": [
+    "explain what happens when no net force acts on a body",
+    "what is the state of motion of an object when net force is zero",
+    "state Newton's first law of motion",
+    "verify if an object continues moving with constant velocity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess net external force",
+     "explain": "check if all forces acting on the body add up to zero"
+    },
+    {
+     "step": 2,
+     "action": "infer motion state",
+     "explain": "when net force is zero, acceleration is zero, so velocity remains unchanged"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.4",
+   "title": "Newton's Second Law of Motion",
+   "section": "6.5",
+   "definition": "In brief, In brief, the law stating that the acceleration of a body varies in direct proportion with the net force both applied and in inverse proportion with its mass.",
+   "formula": "force = mass * acceleration",
+   "key_idea": "Net applied force produces proportional acceleration in the force's direction.",
+   "textbook_ref": "iesc106.txt lines 165-215",
+   "question_patterns": [
+    "calculate the force required to produce an acceleration",
+    "find the acceleration of a given mass under a net force",
+    "determine the mass when force and acceleration are known",
+    "what is the net force given mass and acceleration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net force",
+     "explain": "multiply mass by acceleration as per Newton's second law",
+     "compute": "force = mass * acceleration"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.5",
+   "title": "Gravitational Force and Weight",
+   "section": "6.5",
+   "definition": "The downward gravitational pull exerted by Earth on a mass near its surface.",
+   "formula": "force = mass * g",
+   "key_idea": "In brief, In brief, In brief, In brief, the gravitational force on a body equals its mass multiplied by gravitational acceleration g.",
+   "textbook_ref": "iesc106.txt lines 216-235",
+   "question_patterns": [
+    "calculate the gravitational force on an object",
+    "find the weight of a body near earth surface",
+    "determine the force required to keep a mass steady against gravity",
+    "how much gravitational pull acts on a mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate gravitational weight force",
+     "explain": "multiply mass by acceleration due to gravity g",
+     "compute": "force = mass * g"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.6",
+   "title": "Force and Kinematic Equations",
+   "section": "6.5",
+   "definition": "In brief, In brief, In brief, the integration of Newton's second law with equations of motion to determine forces, velocities, or stopping distances.",
+   "formula": "acceleration = (final_velocity - initial_velocity) / time, force = mass * acceleration",
+   "key_idea": "In brief, In brief, Kinematics provides the acceleration variable needed to evaluate force or displacement.",
+   "textbook_ref": "iesc106.txt lines 240-310",
+   "question_patterns": [
+    "calculate the force acting on a moving body using velocity time graph",
+    "find the stopping force and penetration distance of a bullet",
+    "determine the time of contact when a force acts on a ball",
+    "calculate displacement under friction and applied force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate acceleration from kinematics",
+     "explain": "subtract initial velocity from final velocity and divide by time interval",
+     "compute": "acceleration = (final_velocity - initial_velocity) / time"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "multiply mass by the calculated acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.7",
+   "title": "Newton's Third Law and Recoil Motion",
+   "section": "6.6",
+   "definition": "In brief, In brief, In brief, the principle that forces always occur in equal and opposite interacting pairs acting on different objects.",
+   "formula": "acceleration = force / mass",
+   "key_idea": "Equal reaction forces produce different accelerations on objects of different masses.",
+   "textbook_ref": "iesc106.txt lines 315-380",
+   "question_patterns": [
+    "calculate the recoil acceleration of a gun",
+    "find the acceleration of bullet and gun during firing",
+    "explain why action and reaction forces do not cancel each other",
+    "determine the reaction force exerted by an object"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate recoil acceleration",
+     "explain": "divide reaction force magnitude by object mass",
+     "compute": "acceleration = force / mass"
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.8",
+   "title": "Acceleration of Connected Mass Systems",
+   "section": "6.7",
+   "definition": "The combined acceleration of multiple connected objects subjected to an external net force.",
+   "formula": "acceleration = force / (mass_1 + mass_2)",
+   "key_idea": "Connected objects move together with a common acceleration determined by total external force and total system mass.",
+   "textbook_ref": "iesc106.txt lines 385-420",
+   "question_patterns": [
+    "calculate the acceleration of two connected boxes",
+    "find system acceleration for combined mass under external force",
+    "determine combined acceleration when two masses are pulled together",
+    "what is the expression for acceleration of combined masses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total system mass",
+     "explain": "sum the individual masses of connected objects",
+     "compute": "total_mass = mass_1 + mass_2"
+    },
+    {
+     "step": 2,
+     "action": "calculate common acceleration",
+     "explain": "divide external pulling force by total system mass",
+     "compute": "acceleration = force / total_mass"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 6.1, page 96",
+   "concept": "iesc.106.1",
+   "question_type": "compute",
+   "question_pattern": "Two forces of {force_1} N and {force_2} N act on a block in opposite directions. What is the net force?",
+   "extracted_variables": {
+    "force_1": "10",
+    "force_2": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net force for opposing forces",
+     "explain": "subtract the smaller force magnitude from the larger force magnitude",
+     "compute": "net_force = abs(force_1 - force_2)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 6.4, page 105",
+   "concept": "iesc.106.5",
+   "question_type": "compute",
+   "question_pattern": "A weightlifter holds a barbell of total mass {mass} kg steady. Calculate the force applied against gravity using g = {g} m/s^2.",
+   "extracted_variables": {
+    "mass": "30",
+    "g": "9.8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate gravitational weight force",
+     "explain": "multiply mass by acceleration due to gravity g",
+     "compute": "force = mass * g"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 6.6, page 106",
+   "concept": "iesc.106.6",
+   "question_type": "compute",
+   "question_pattern": "A sports car of mass {mass} kg accelerates from initial velocity {initial_velocity} m/s to final velocity {final_velocity} m/s in {time} s. Calculate the force acting on the car.",
+   "extracted_variables": {
+    "mass": "1500",
+    "initial_velocity": "0",
+    "final_velocity": "10",
+    "time": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate acceleration from kinematics",
+     "explain": "subtract initial velocity from final velocity and divide by time interval",
+     "compute": "acceleration = (final_velocity - initial_velocity) / time"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "multiply mass by the calculated acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 6.8, page 110",
+   "concept": "iesc.106.7",
+   "question_type": "compute",
+   "question_pattern": "When a gun of mass {mass} kg exerts a force of {force} N on a bullet, calculate the initial recoil acceleration of the gun.",
+   "extracted_variables": {
+    "mass": "5",
+    "force": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate recoil acceleration",
+     "explain": "divide reaction force magnitude by object mass",
+     "compute": "acceleration = force / mass"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex106.1",
+   "source_ref": "Revise, Reflect, Refine - Question 1",
+   "questions": [
+    "Using a horizontal force F, a table is moved across the floor at a constant velocity. How much is the frictional force exerted by the floor on the table?"
+   ]
+  },
+  {
+   "id": "ex106.2",
+   "source_ref": "Revise, Reflect, Refine - Question 2",
+   "questions": [
+    "For a ball moving on a smooth frictionless surface, choose the appropriate option for velocity change when no net force, forward force, or opposing force acts."
+   ]
+  },
+  {
+   "id": "ex106.3",
+   "source_ref": "Revise, Reflect, Refine - Question 3",
+   "questions": [
+    "Two blocks P and Q on a smooth surface: P has forces 4 N and 5 N in opposite directions, Q moves at constant velocity. Determine which block experiences a net force."
+   ]
+  },
+  {
+   "id": "ex106.4",
+   "source_ref": "Revise, Reflect, Refine - Question 4",
+   "questions": [
+    "Out of 100 oarsmen each applying 200 N force, 95 row backwards and 5 row forwards by mistake. Calculate the net force on the boat."
+   ]
+  },
+  {
+   "id": "ex106.5",
+   "source_ref": "Revise, Reflect, Refine - Question 5",
+   "questions": [
+    "When a net force acts on an object, describe the direction and dependence of its acceleration."
+   ]
+  },
+  {
+   "id": "ex106.6",
+   "source_ref": "Revise, Reflect, Refine - Question 6",
+   "questions": [
+    "Identify from position-time graphs which object is experiencing a net force."
+   ]
+  },
+  {
+   "id": "ex106.7",
+   "source_ref": "Revise, Reflect, Refine - Question 7",
+   "questions": [
+    "Explain whether and why a boat moves backward when a sailor jumps forward from it onto the shore."
+   ]
+  },
+  {
+   "id": "ex106.8",
+   "source_ref": "Revise, Reflect, Refine - Question 8",
+   "questions": [
+    "Explain the scientific reason for placing a landing mat or sand bed for athletes in high jump events."
+   ]
+  },
+  {
+   "id": "ex106.9",
+   "source_ref": "Revise, Reflect, Refine - Question 9",
+   "questions": [
+    "Compare the magnitudes of forces exerted on each other when a loaded vegetable cart collides with an empty cart."
+   ]
+  },
+  {
+   "id": "ex106.10",
+   "source_ref": "Revise, Reflect, Refine - Question 10",
+   "questions": [
+    "Given an acceleration-mass graph, plot the corresponding force-mass graph for a constant force."
+   ]
+  },
+  {
+   "id": "ex106.11",
+   "source_ref": "Revise, Reflect, Refine - Question 11",
+   "questions": [
+    "Calculate the force acting on an object of mass 10 kg using its velocity-time graph."
+   ]
+  },
+  {
+   "id": "ex106.12",
+   "source_ref": "Revise, Reflect, Refine - Question 12",
+   "questions": [
+    "A bullet of mass 50 g moving at 100 m/s penetrates 50 cm into a wooden block before stopping. Estimate the retarding stopping force."
+   ]
+  },
+  {
+   "id": "ex106.13",
+   "source_ref": "Revise, Reflect, Refine - Question 13",
+   "questions": [
+    "A footballer kicks a 0.4 kg ball giving it a speed of 108 km/h with an average force of 800 N. Calculate the contact duration."
+   ]
+  },
+  {
+   "id": "ex106.14",
+   "source_ref": "Revise, Reflect, Refine - Question 14",
+   "questions": [
+    "An object of mass 2 kg moving at 10 m/s encounters a friction force of 7 N and an opposing force of 3 N. Calculate the distance traveled before coming to rest."
+   ]
+  },
+  {
+   "id": "ex106.15",
+   "source_ref": "Revise, Reflect, Refine - Question 15",
+   "questions": [
+    "A tractor pulls mass m1 with acceleration a1 and mass m2 with acceleration a2 under force F. Derive the acceleration when pulling both masses combined under force F."
+   ]
+  },
+  {
+   "id": "ex106.16",
+   "source_ref": "Revise, Reflect, Refine - Question 16",
+   "questions": [
+    "Explain why a magnetic compass needle moves easily while a heavy bar magnet remains stationary despite experiencing equal and opposite magnetic forces."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

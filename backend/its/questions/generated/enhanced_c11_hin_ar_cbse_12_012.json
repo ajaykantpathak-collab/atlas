@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_12_012",
+   "title": "c11_hin_ar_cbse_12_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What does the mother say about lighting a lamp?\"), while an inferential question requires the reader to deduce meaning not directly written (e.g., \"Why does the mother compare education to a lamp?\"). A wrong answer that confuses the two reveals the student cannot identify whether an answer requires direct quoting or logical deduction.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the mother says \"पैक दकस दकस वीएनजु नहीं फूगरह\" (The letters do not bloom). Explain in your own words what this line literally describes and what it implies about the mother's situation.",
+     "a": "Literally, the line describes the mother's inability to read/write – the letters do not \"bloom\" or become meaningful to her. Inferentially, it implies her lifelong illiteracy and the resulting dependence on others. A wrong answer that only gives the literal meaning misses the metaphorical implication of \"blooming\" as gaining knowledge, showing the student struggles with metaphorical inference.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states: \"पैक लकुंज ध यM+ध गस\" (The mother has a longing for the courtyard). If a question asks: \"What does the courtyard symbolize for the mother?\", is this literal or inferential? Answer the question using textual evidence.",
+     "a": "This is an inferential question because \"symbolize\" requires interpreting the courtyard beyond its physical presence. The courtyard represents the mother's connection to her child's education and her desire to participate in that world (evidence: she wants to read letters herself). A wrong answer treating it as literal would merely describe the courtyard physically, missing the symbolic layer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mother's statement \"मैं रक्स नहीं इ<+¡xह\" (I will not read) in the first stanza with her later request \"पैक इ<+ यसुक वीएनक गस!\" (Mother, you must learn to read!). Analyze how the shift from refusal to insistence reflects a change in her understanding of literacy.",
+     "a": "Initially, the mother refuses literacy due to age and habit (\"सीकग रक दहख उ द:¡xह\"), but later she insists because she realizes literacy brings independence (\"पैक इ<+ यसुक वीएनक गस! सीकग रकेगी रक्सेगौ...\"). The shift shows her moving from seeing literacy as a burden to seeing it as empowerment. A wrong answer that only notes the change without linking to textual evidence (e.g., her fear of dependence in old age) fails to analyze the character development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poet's use of the metaphor \"ड्यडÙकस इज क्तज फ्जस\" (light a lamp on the threshold) to convey the theme of education. Is this metaphor more powerful as a literal image or an inferential symbol? Justify.",
+     "a": "The metaphor is more powerful as an inferential symbol. Literally, it describes lighting a lamp at a doorway; inferentially, it represents education dispelling the darkness of ignorance and enabling the mother to \"read letters\" (access the world). The poet's choice works because the literal act of lighting a lamp is familiar, making the inferential leap to enlightenment intuitive. A wrong answer that calls it only a literal description misses the thematic depth required for senior secondary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal question and one inferential question based on the stanza where the mother says: \"पैक दकहती है: रके दकतने बड़े गे, नस[क्क] गक; जके, रके इ<+&फ्[कक दज बर्स बड़े गे...\" (Mother says: See how big you are... you learned to read and write so much...). Ensure the inferential question cannot be answered by quoting a single line.",
+     "a": "Literal: \"What does the mother observe about her child's growth?\" (Answer: The child has grown big and learned to read/write extensively.) Inferential: \"Why does the mother contrast her own illiteracy with her child's education at this moment?\" (Answer: To highlight the generational gap and her resulting vulnerability, prompting her decision to learn.) A poor inferential question would be answerable by a direct quote (e.g., \"What does the mother say about her child?\"), showing the student cannot design questions requiring synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

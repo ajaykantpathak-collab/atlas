@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_008",
+   "title": "c7_physics_ch05_008",
+   "questions": [
+    {
+     "q": "What type of image is formed on the screen of a working pinhole camera?\nA) Erect and virtual\nB) Inverted and real\nC) Erect and real\nD) Inverted and virtual",
+     "a": "B) Inverted and real. \nA student who chooses A likely confuses the pinhole camera image with what they see when looking into a plane mirror or lacks understanding that light rays cross each other at the pinhole. A student choosing D understands inversion but confuses real and virtual images, not realizing that light rays actually meet on the screen.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the aperture (pinhole) of a pinhole camera be extremely small rather than the size of a coin?\nA) To block air from entering the camera box\nB) To ensure that light from a single point on the object forms a single distinct point on the screen rather than overlapping and blurring the image\nC) To make the image brighter by gathering more light rays\nD) To make the image appear right-side up instead of upside-down",
+     "a": "B) To ensure that light from a single point on the object forms a single distinct point on the screen rather than overlapping and blurring the image.\nA student who chooses C holds the misconception that a larger hole lets in more light to make a clearer picture, not realizing that overlapping light beams from multiple points cause the image to blur completely. A student who chooses A or D thinks the hole's purpose is mechanical or orientational rather than optical.",
+     "self_check": true
+    },
+    {
+     "q": "A candle of height 10 cm is placed 40 cm away from the pinhole of a pinhole camera. If the screen is placed at a distance of 20 cm from the pinhole, what is the height of the image formed on the screen?\nA) 20 cm\nB) 5 cm\nC) 10 cm\nD) 2 cm",
+     "a": "The correct answer is B) 5 cm.\nSteps:\n1. Identify given values with units: Object height $h_o = 10\\text{ cm}$, object distance $u = 40\\text{ cm}$, image distance $v = 20\\text{ cm}$.\n2. Identify the formula for pinhole camera magnification and height relationship: $\\frac{h_i}{h_o} = \\frac{v}{u}$, where $h_i$ is image height.\n3. Substitute values with units: $\\frac{h_i}{10\\text{ cm}} = \\frac{20\\text{ cm}}{40\\text{ cm}}$.\n4. Compute and track unit cancellation: $h_i = 10\\text{ cm} \\times \\frac{20\\text{ cm}}{40\\text{ cm}} = 10\\text{ cm} \\times 0.5 = 5\\text{ cm}$.\n5. Verify the answer is physically reasonable: Since the screen distance (20 cm) is half of the object distance (40 cm), the image height must be half of the object height (10 cm / 2 = 5 cm).\nA student who chooses A likely inverted the ratio ($40/20$ instead of $20/40$), while a student who chooses C forgot to apply distance scaling altogether.",
+     "self_check": true
+    },
+    {
+     "q": "If you slowly slide the inner tube of a pinhole camera outward so that the distance between the pinhole and the translucent screen increases from 10 cm to 30 cm, how does the appearance of the image change?\nA) The image becomes smaller and brighter\nB) The image becomes larger and fainter\nC) The image remains the same size but becomes sharper\nD) The image disappears completely because light cannot travel farther",
+     "a": "B) The image becomes larger and fainter.\nA student who chooses A does not understand that increasing the image distance ($v$) increases the image height ($h_i = h_o \\times \\frac{v}{u}$), spreading the same amount of light over a larger area which makes it fainter. A student choosing D assumes light stops traveling after a certain distance.",
+     "self_check": true
+    },
+    {
+     "q": "An inquisitive student makes a pinhole camera but punches three separate pinholes close together instead of one. What will the student observe on the screen when viewing a distant tree?\nA) Three distinct sharp images side by side\nB) One extremely bright and sharp image\nC) Three overlapping images forming a blurred composite picture\nD) No image at all because multiple holes cancel each other out",
+     "a": "Answer: C) Three overlapping images forming a blurred composite picture.\nEach pinhole acts independently to form its own complete inverted image of the tree on the screen. Because the three pinholes are at slightly different positions, their respective images overlap, resulting in a blurred or multiple-ghost image. A student who chooses A fails to realize that each hole projects a full scene, not just a single point of light.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modification to a standard cardboard-tube pinhole camera that allows you to safely observe a partial solar eclipse without looking directly at the sun. Describe the screen setup and expected observation.",
+     "a": "The student should describe mounting a tiny pinhole on one end of a long rigid box or tube pointing directly at the sun during the eclipse, with a white sheet of paper or tracing paper fixed inside the other end as a viewing screen. The expected observation is a small, inverted, real projection of the sun showing the crescent shape as the moon blocks part of it. A poor answer would suggest looking through the pinhole with one's eye or using a magnifying glass without a screen, which poses severe eye safety risks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

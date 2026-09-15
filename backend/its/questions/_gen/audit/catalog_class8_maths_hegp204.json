@@ -1,0 +1,275 @@
+{
+ "catalog": "catalog_class8_maths_hegp204.json",
+ "concepts": [
+  {
+   "id": "hegp.204.4.1",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 14 * (14 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 10 * (10 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 7 * (7 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (3 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 4 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "tri = 14 * (14 + 1) / 2"
+   ]
+  },
+  {
+   "id": "hegp.204.4.2",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 5 * (5 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 6 * (6 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 7 * (7 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (2 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 2 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.204.4.3",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 5 * (5 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 10 * (10 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 7 * (7 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (3 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 4 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.204.4.4",
+   "family": "num_patterns",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tri = 14 * (14 + 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dots = 4 * (4 + 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex = 3 * 5 * (5 - 1) + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sides = 3 * 4 ** (5 - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rem = 8 ** 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "holes = (8 ** 3 - 1) / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.204.4.5",
+   "family": "solid_counts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "edges = 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "verts = 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "f = 6",
+      "v = 8",
+      "e = 12",
+      "check = f + v - e"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "faces = 8 + 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "verts = 2 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "edges = 2 * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "edges = 8"
+   ]
+  },
+  {
+   "id": "hegp.204.4.6",
+   "family": "solid_counts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "edges = 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "verts = 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "f = 6",
+      "v = 8",
+      "e = 12",
+      "check = f + v - e"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "faces = 3 + 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "verts = 2 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "edges = 2 * 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "edges = 9"
+   ]
+  }
+ ]
+}

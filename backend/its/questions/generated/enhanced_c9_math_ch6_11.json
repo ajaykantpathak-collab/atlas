@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_11",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_11",
+   "title": "c9_math_ch6_11",
+   "questions": [
+    {
+     "q": "State the general rule for finding the area of a composite figure formed by joining a rectangle and a semicircle along one side, and then cutting out a right triangle from the opposite side.",
+     "a": "The total area equals the area of the rectangle plus the area of the semicircle minus the area of the right triangle. A wrong answer (e.g., adding all three) reveals the student does not distinguish between added material (joining) and removed material (cutting out), treating all operations as addition.",
+     "self_check": true
+    },
+    {
+     "q": "A figure consists of a square of side 14 cm with a quadrant (quarter circle) of radius 14 cm drawn inside it, sharing two sides. A student claims the shaded area between the square and the quadrant is found by adding the area of the square and the area of the quadrant. Is this correct? Explain why or why not.",
+     "a": "Incorrect. The quadrant lies inside the square, so the shaded region is the square minus the quadrant. Adding would give an area larger than the square itself, which is impossible for a part of the square. This error shows the student cannot visually determine set inclusion (which region contains which) and defaults to addition for any combination.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular sheet of metal 40 cm by 25 cm has four quarter-circles of radius 5 cm cut from its four corners. Find the area of the remaining sheet. (Use π = 3.14)",
+     "a": "Step 1: Area of rectangle = 40 × 25 = 1000 cm².  \nStep 2: Four quarter-circles = one full circle of radius 5 cm. Area = πr² = 3.14 × 25 = 78.5 cm².  \nStep 3: Remaining area = 1000 - 78.5 = 921.5 cm².  \nA wrong answer of 1078.5 cm² reveals the student added the cut-outs instead of subtracting. An answer of 1000 - 3.14×5 = 984.3 reveals using radius instead of radius squared.",
+     "self_check": true
+    },
+    {
+     "q": "Two composite figures have the same outer boundary: a square of side 20 cm. Figure A has a circular hole of radius 6 cm at the centre. Figure B has four quarter-circles of radius 6 cm cut from the four corners. Without calculating exact numerical values, determine which figure has the larger remaining area and justify your reasoning.",
+     "a": "Figure B has larger remaining area. Both remove circular regions totalling one full circle of radius 6 cm (since four quarter-circles = one circle). However, in Figure A the circle is entirely inside the square (diameter 12 cm < side 20 cm). In Figure B, the quarter-circles at corners also fit (radius 6 cm < half side 10 cm). The removed area is identical (π×36). Since the original square is identical, the remaining areas are equal. A student claiming they differ reveals a misconception that corner cut-outs remove more/less area than a central hole of same total radius.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the area of a regular hexagon of side 10 cm with a circular hole of radius 3 cm at its centre.\" Their working:  \nArea = 6 × (1/2 × 10 × 10) - π × 3² = 300 - 28.26 = 271.74 cm².  \nIdentify the conceptual error in the triangle area calculation and give the correct area. (Use √3 = 1.732, π = 3.14)",
+     "a": "The student used 1/2 × side × side for the equilateral triangle, which assumes a right triangle with legs 10 cm. The correct area of an equilateral triangle is (√3/4) × side² = 0.433 × 100 = 43.3 cm². Hexagon area = 6 × 43.3 = 259.8 cm². Circle area = 28.26 cm². Correct remaining area = 231.54 cm². The error shows the student confuses the formula for a right isosceles triangle with that of an equilateral triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a composite figure for a garden bed that uses exactly three different basic shapes (choose from rectangle, triangle, circle, sector, segment) and has a total area of exactly 150 m². Provide a labelled sketch (description), all dimensions, and the step-by-step area calculation proving the total is 150 m².",
+     "a": "Example: A rectangle 10 m × 10 m = 100 m². An equilateral triangle of side 10 m attached to one side: area = (√3/4)×100 ≈ 43.3 m². A semicircle of radius 5 m cut out from the rectangle: area = ½×π×25 ≈ 39.25 m². Total = 100 + 43.3 - 39.25 = 104.05 m² (not 150). A correct answer must adjust dimensions to hit exactly 150. A poor answer uses random dimensions without verification or uses only two shapes. This tests synthesis and algebraic adjustment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_011",
+   "title": "c12_ip_cbse_06_011",
+   "questions": [
+    {
+     "q": "What is the difference between a function declaration `function greet() {}` and a function expression `const greet = function() {}` in terms of hoisting?",
+     "a": "A function declaration is fully hoisted (name and body), so it can be called before its definition in the code. A function expression is not hoisted — only the variable declaration (`const greet`) is hoisted (in TDZ for `const`/`let`), so calling `greet()` before the line throws a ReferenceError. A wrong answer (e.g., \"both are hoisted the same way\") reveals the student confuses declaration vs expression semantics, leading to runtime errors when reordering code.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `btn.onclick = handleClick` and `btn.addEventListener('click', handleClick)` behave differently when you want to attach two separate click handlers to the same button.",
+     "a": "`onclick` is a single property — assigning a second handler overwrites the first. `addEventListener` allows multiple handlers for the same event on the same element; they execute in registration order. A wrong answer (e.g., \"both allow multiple handlers\") shows the student doesn't understand the DOM Level 0 vs Level 2 event model, causing silent bugs where only the last-assigned handler runs.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `validateAge(input)` that returns `true` if the input value is a number between 18 and 60 inclusive, otherwise `false`. Then show how to attach it to an `<input id=\"age\">` so that the border turns red on invalid input when the user leaves the field.",
+     "a": "```js\nfunction validateAge(input) {\n  const val = Number(input.value);\n  return !isNaN(val) && val >= 18 && val <= 60;\n}\ndocument.getElementById('age').addEventListener('blur', function(e) {\n  e.target.style.borderColor = validateAge(e.target) ? 'green' : 'red';\n});\n```\nA wrong answer (e.g., using `onchange` instead of `blur`, or checking `input.value` without `Number()`) reveals confusion between event types (`change` fires on commit, `blur` on focus loss) and type coercion pitfalls (`\"25\" >= 18` works but `\"abc\" >= 18` is false, yet `Number(\"abc\")` is NaN).",
+     "self_check": true
+    },
+    {
+     "q": "Compare arrow functions `() => {}` and regular functions `function() {}` in the context of `this` binding inside an event handler. Why does `btn.addEventListener('click', () => { console.log(this); })` log `window` (or global) while `btn.addEventListener('click', function() { console.log(this); })` logs the button element?",
+     "a": "Arrow functions do not have their own `this`; they capture `this` lexically from the enclosing scope (here, the global scope). Regular functions bind `this` to the element on which the listener is registered (the button) when called as an event handler. A wrong answer (e.g., \"both log the button\") shows the student misses lexical `this` capture, causing bugs when using arrow functions as methods or event handlers needing `this`.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `<button onclick=\"submitForm()\">Submit</button>` and `function submitForm(event) { event.preventDefault(); ... }`. The form still submits and reloads the page. Diagnose the error and fix it without changing the HTML.",
+     "a": "The inline handler `onclick=\"submitForm()\"` does not pass the event object to the function. Inside `submitForm`, `event` is `undefined`, so `event.preventDefault()` throws TypeError and the default submit proceeds. Fix: change HTML to `onclick=\"submitForm(event)\"` OR (better) remove inline handler and use `document.querySelector('form').addEventListener('submit', submitForm)`. A wrong diagnosis (e.g., \"preventDefault doesn't work on submit\") reveals ignorance of event object propagation in inline handlers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini \"character counter\" for a `<textarea maxlength=\"200\">` that shows \"X characters remaining\" and updates live as the user types. The counter must turn red when remaining < 20. Provide the complete HTML + JavaScript (single file).",
+     "a": "```html\n<textarea id=\"msg\" maxlength=\"200\" rows=\"4\" cols=\"50\"></textarea>\n<div id=\"counter\">200 characters remaining</div>\n<script>\n  const ta = document.getElementById('msg');\n  const ct = document.getElementById('counter');\n  ta.addEventListener('input', function() {\n    const rem = 200 - ta.value.length;\n    ct.textContent = rem + ' characters remaining';\n    ct.style.color = rem < 20 ? 'red' : 'black';\n  });\n</script>\n```\nA poor answer (using `keyup` instead of `input`, missing `maxlength` attribute, or not handling paste/drag-drop) shows the student doesn't know `input` event fires on all value changes (typing, paste, undo, drag-drop) while `keyup` misses non-keyboard input.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

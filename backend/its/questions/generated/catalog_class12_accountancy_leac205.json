@@ -1,0 +1,594 @@
+{
+ "catalog": "catalog_class12_accountancy_leac205",
+ "concepts": [
+  {
+   "id": "leac.205.5.1",
+   "title": "Meaning and Groups of Accounting Ratios",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning and Groups of Accounting Ratios', work with: activity_ratios = 200, liquidity_ratios = 24, profitability_ratios = 50000, solvency_ratios = 5. Carry the chain through step by step and give the final value of ratio_groups.",
+     "a": "50229 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning and Groups of Accounting Ratios' and work with: activity_ratios = 18, liquidity_ratios = 18, profitability_ratios = 80000, solvency_ratios = 5. Carry the chain through step by step and give the final value of ratio_groups.",
+     "a": "80041 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning and Groups of Accounting Ratios' refers to.",
+     "a": "A ratio sets one statement figure against another to expose their relationship; the family splits into liquidity ratios (short-term paying ability), solvency ratios (long-term debt cover), activity or turnover ratios (speed of using assets) and profitability ratios (earning capacity).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Groups of Accounting Ratios'.",
+     "a": "Every ratio is just a division, but each division answers one specific question about the business.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning and Groups of Accounting Ratios', in plain ASCII form.",
+     "a": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.4.1",
+   "title": "Advantages and Limitations of Ratio Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Advantages and Limitations of Ratio Analysis', work with: historical_and_judgement_bias = 10, simplification_and_comparison = 100. Carry the chain through step by step and give the final value of ratio_usefulness.",
+     "a": "90 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Advantages and Limitations of Ratio Analysis' and work with: historical_and_judgement_bias = 40, simplification_and_comparison = 40. Carry the chain through step by step and give the final value of ratio_usefulness.",
+     "a": "0 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Advantages and Limitations of Ratio Analysis' refers to.",
+     "a": "Ratio analysis simplifies statements, helps comparisons across firms and years, and spots weak spots quickly; yet it leans on historical, window-dressable figures, ignores price level shifts and qualitative facts, and means little without a standard or context to compare with.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Advantages and Limitations of Ratio Analysis'.",
+     "a": "Ratios are as honest as the statements behind them and as meaningful as the benchmark beside them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Advantages and Limitations of Ratio Analysis', in plain ASCII form.",
+     "a": "ratio_usefulness = simplification_and_comparison - historical_and_judgement_bias",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.6.1",
+   "title": "Current Ratio",
+   "questions": [
+    {
+     "q": "Calculate the current ratio from the given items. Use the method 'Current Ratio'. Work with: cash_and_equivalents = 20, inventories = 150, prepaid_expenses = 5000, short_term_borrowings = 500, short_term_provisions = 45, trade_payables = 100, trade_receivables = 40. Carry the chain through step by step and give the final value of current_ratio.",
+     "a": "8.0775 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the ratio of current assets to current liabilities. Use the method 'Current Ratio'. Work with: cash_and_equivalents = 100, inventories = 18, prepaid_expenses = 50000, short_term_borrowings = 80, short_term_provisions = 360, trade_payables = 10, trade_receivables = 100. Carry the chain through step by step and give the final value of current_ratio.",
+     "a": "111.5956 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Current Ratio' refers to.",
+     "a": "The current ratio divides all current assets by all current liabilities to show how many rupees of near-cash resources stand behind each rupee of near-term obligation, with two to one read as a comfortable norm.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Current Ratio'.",
+     "a": "Inventories, receivables, cash, prepaid and advance items all count on top; payables, short-term borrowings and short-term provisions all count below.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Current Ratio', in plain ASCII form.",
+     "a": "current_ratio = current_assets / current_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.6.2",
+   "title": "Quick or Liquid Ratio",
+   "questions": [
+    {
+     "q": "Calculate the quick ratio from the given items. Use the method 'Quick or Liquid Ratio'. Work with: current_assets = 80000, current_liabilities = 3, inventories = 80, prepaid_expenses = 500. Carry the chain through step by step and give the final value of quick_ratio.",
+     "a": "26473.3333 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the acid test ratio after excluding inventories. Use the method 'Quick or Liquid Ratio'. Work with: current_assets = 8000, current_liabilities = 3, inventories = 40, prepaid_expenses = 500. Carry the chain through step by step and give the final value of quick_ratio.",
+     "a": "2486.6667 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Quick or Liquid Ratio' refers to.",
+     "a": "The quick ratio strips the least liquid current assets -- inventories and prepayments such as prepaid expenses and advance tax -- out of current assets before dividing by current liabilities, giving a sterner acid-test of paying ability around the one-to-one norm.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Quick or Liquid Ratio'.",
+     "a": "Only assets that convert to cash quickly may face the short-term bills; stock that must first be sold does not.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Quick or Liquid Ratio', in plain ASCII form.",
+     "a": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.7.1",
+   "title": "Debt-Equity Ratio",
+   "questions": [
+    {
+     "q": "Calculate the debt equity ratio from a balance sheet. Use the method 'Debt-Equity Ratio'. Work with: long_term_borrowings = 120, long_term_provisions = 80, money_against_warrants = 12, other_long_term_liabilities = 400, reserves_and_surplus = 18, share_capital = 0.3. Carry the chain through step by step and give the final value of debt_equity_ratio.",
+     "a": "19.802 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the proportion of long-term debt to shareholders funds. Use the method 'Debt-Equity Ratio'. Work with: long_term_borrowings = 30, long_term_provisions = 80, money_against_warrants = 30, other_long_term_liabilities = 4, reserves_and_surplus = 4, share_capital = 0.6. Carry the chain through step by step and give the final value of debt_equity_ratio.",
+     "a": "3.2948 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debt-Equity Ratio' refers to.",
+     "a": "The debt-equity ratio divides long-term debts by shareholders' funds to show how much of the permanent financing came from outsiders; about two to one is the usual comfort line, and a smaller figure means more security for lenders.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debt-Equity Ratio'.",
+     "a": "Borrowings plus long-term liabilities and provisions go on top; share capital, reserves, warrant money and pending application money go below.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debt-Equity Ratio', in plain ASCII form.",
+     "a": "debt_equity_ratio = long_term_debts / shareholders_funds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.7.2",
+   "title": "Total Assets to Debt Ratio",
+   "questions": [
+    {
+     "q": "Calculate the total assets to debt ratio. Use the method 'Total Assets to Debt Ratio'. Work with: current_assets = 50000, long_term_debts = 80, non_current_assets = 500. Carry the chain through step by step and give the final value of total_assets_to_debt_ratio.",
+     "a": "631.25 times",
+     "self_check": false
+    },
+    {
+     "q": "How many times do total assets cover the long-term debts? Use the method 'Total Assets to Debt Ratio'. Work with: current_assets = 50000, long_term_debts = 45, non_current_assets = 50000. Carry the chain through step by step and give the final value of total_assets_to_debt_ratio.",
+     "a": "2222.2222 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Assets to Debt Ratio' refers to.",
+     "a": "This solvency measure divides total assets by long-term debts to show how fully the asset base covers the long-term borrowing; a bigger figure means owners' money, not outside loans, financed the assets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Assets to Debt Ratio'.",
+     "a": "A high cover tells the lender that even a shrinkage of assets would still protect the long-term loan.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Assets to Debt Ratio', in plain ASCII form.",
+     "a": "total_assets_to_debt_ratio = total_assets / long_term_debts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.7.3",
+   "title": "Interest Coverage Ratio",
+   "questions": [
+    {
+     "q": "Calculate the interest coverage ratio from profit after tax. Use the method 'Interest Coverage Ratio'. Work with: interest_rate = 8, long_term_debts = 45, profit_after_tax = 10, tax_rate_percent = 25. Carry the chain through step by step and give the final value of interest_coverage_ratio.",
+     "a": "1.037 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How many times does profit cover the interest on debentures? Use the method 'Interest Coverage Ratio'. Work with: interest_rate = 15, long_term_debts = 15, profit_after_tax = 15, tax_rate_percent = 20. Carry the chain through step by step and give the final value of interest_coverage_ratio.",
+     "a": "1.0833 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest Coverage Ratio' refers to.",
+     "a": "The interest coverage ratio divides profit before interest and tax by the interest payable on long-term debts, showing how many times over the earnings could pay the year's interest bill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest Coverage Ratio'.",
+     "a": "Given profit after tax, climb back up: gross up for tax, add the interest back, then divide by interest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest Coverage Ratio', in plain ASCII form.",
+     "a": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.8.1",
+   "title": "Inventory Turnover Ratio",
+   "questions": [
+    {
+     "q": "Calculate the inventory turnover ratio from the given data. Use the method 'Inventory Turnover Ratio'. Work with: closing_inventory = 50, direct_expenses = 12000, net_purchases = 12000, opening_inventory = 3. Carry the chain through step by step and give the final value of inventory_turnover_ratio.",
+     "a": "905.7736 times",
+     "self_check": false
+    },
+    {
+     "q": "How many times did the stock turn over during the year? Use the method 'Inventory Turnover Ratio'. Work with: closing_inventory = 100, direct_expenses = 50000, net_purchases = 5000, opening_inventory = 8. Carry the chain through step by step and give the final value of inventory_turnover_ratio.",
+     "a": "1018.6667 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Inventory Turnover Ratio' refers to.",
+     "a": "The inventory turnover ratio divides the cost of revenue from operations by the average of opening and closing inventory to show how many times the stock was converted into sales during the year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inventory Turnover Ratio'.",
+     "a": "Gross profit is removed first so the ratio compares cost with cost; a low figure warns of slow-moving or obsolete stock.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Inventory Turnover Ratio', in plain ASCII form.",
+     "a": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.8.2",
+   "title": "Trade Receivables Turnover Ratio",
+   "questions": [
+    {
+     "q": "Calculate the trade receivables turnover ratio. Use the method 'Trade Receivables Turnover Ratio'. Work with: cash_revenue_from_operations = 5000, closing_trade_receivables = 45, opening_trade_receivables = 360, total_revenue_from_operations = 50000. Carry the chain through step by step and give the final value of receivables_turnover_ratio.",
+     "a": "222.2222 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the average collection period from the turnover. Use the method 'Trade Receivables Turnover Ratio'. Work with: cash_revenue_from_operations = 12000, closing_trade_receivables = 30, opening_trade_receivables = 20, total_revenue_from_operations = 80000. Carry the chain through step by step and give the final value of receivables_turnover_ratio.",
+     "a": "2720 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Trade Receivables Turnover Ratio' refers to.",
+     "a": "The trade receivables turnover ratio divides net credit revenue from operations by average trade receivables to show how quickly customers pay, and dividing the days in the period by it yields the average collection period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade Receivables Turnover Ratio'.",
+     "a": "Debtors are taken before any provision for doubtful debts, and the collection period is just the period length split by the turnover.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Trade Receivables Turnover Ratio', in plain ASCII form.",
+     "a": "receivables_turnover_ratio = credit_revenue_from_operations / average_trade_receivables",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.8.3",
+   "title": "Trade Payables Turnover Ratio",
+   "questions": [
+    {
+     "q": "Calculate the trade payables turnover ratio. Use the method 'Trade Payables Turnover Ratio'. Work with: closing_trade_payables = 120, net_credit_purchases = 5000, opening_trade_payables = 5. Carry the chain through step by step and give the final value of payables_turnover_ratio.",
+     "a": "80 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the average payment period allowed by suppliers. Use the method 'Trade Payables Turnover Ratio'. Work with: closing_trade_payables = 45, net_credit_purchases = 20000, opening_trade_payables = 5. Carry the chain through step by step and give the final value of payables_turnover_ratio.",
+     "a": "800 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Trade Payables Turnover Ratio' refers to.",
+     "a": "The trade payables turnover ratio divides net credit purchases by average trade payables to show how fast the firm settles its suppliers, and the period length over the ratio gives the average payment period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade Payables Turnover Ratio'.",
+     "a": "A very low ratio can mean generous supplier credit -- or delayed payments that damage the firm's reputation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Trade Payables Turnover Ratio', in plain ASCII form.",
+     "a": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.8.4",
+   "title": "Capital Employed Turnover Ratio",
+   "questions": [
+    {
+     "q": "Calculate the capital employed turnover ratio. Use the method 'Capital Employed Turnover Ratio'. Work with: long_term_debts = 50, revenue_from_operations = 12000, shareholders_funds = 0.2. Carry the chain through step by step and give the final value of capital_employed_turnover.",
+     "a": "239.0438 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the net assets turnover of a company. Use the method 'Capital Employed Turnover Ratio'. Work with: long_term_debts = 20, revenue_from_operations = 1200, shareholders_funds = 0.2. Carry the chain through step by step and give the final value of capital_employed_turnover.",
+     "a": "59.4059 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Employed Turnover Ratio' refers to.",
+     "a": "The capital employed turnover ratio divides revenue from operations by capital employed -- shareholders' funds plus long-term debts, or non-current assets plus working capital -- to show how much revenue each rupee of long-term funds generated.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Employed Turnover Ratio'.",
+     "a": "Higher turnover of the long-term fund base means the resources entrusted to the firm are being worked harder.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Employed Turnover Ratio', in plain ASCII form.",
+     "a": "capital_employed_turnover = revenue_from_operations / capital_employed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.1",
+   "title": "Gross Profit Ratio",
+   "questions": [
+    {
+     "q": "Calculate the gross profit ratio as a percentage. Use the method 'Gross Profit Ratio'. Work with: cost_of_revenue_from_operations = 8000, revenue_from_operations = 8000. Carry the chain through step by step and give the final value of gross_profit_ratio.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the gross margin on revenue from operations. Use the method 'Gross Profit Ratio'. Work with: cost_of_revenue_from_operations = 5000, revenue_from_operations = 8000. Carry the chain through step by step and give the final value of gross_profit_ratio.",
+     "a": "37.5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gross Profit Ratio' refers to.",
+     "a": "The gross profit ratio states gross profit -- revenue from operations minus cost of revenue from operations -- as a percentage of revenue, measuring the margin left to absorb all later expenses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gross Profit Ratio'.",
+     "a": "A thicker gross margin means room for operating costs; a thin one exposes the firm to any cost rise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gross Profit Ratio', in plain ASCII form.",
+     "a": "gross_profit_ratio = gross_profit / revenue_from_operations * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.2",
+   "title": "Operating Ratio",
+   "questions": [
+    {
+     "q": "Calculate the operating ratio of a company. Use the method 'Operating Ratio'. Work with: cost_of_revenue_from_operations = 8000, operating_expenses = 12000, revenue_from_operations = 80000. Carry the chain through step by step and give the final value of operating_ratio.",
+     "a": "25 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the operating ratio after adding selling and administrative expenses. Use the method 'Operating Ratio'. Work with: cost_of_revenue_from_operations = 1200, operating_expenses = 5000, revenue_from_operations = 80000. Carry the chain through step by step and give the final value of operating_ratio.",
+     "a": "7.75 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Operating Ratio' refers to.",
+     "a": "The operating ratio puts the cost of operations -- cost of revenue from operations plus operating expenses like selling, administration and depreciation -- as a percentage of revenue from operations, deliberately leaving out non-operating items and interest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operating Ratio'.",
+     "a": "The lower the operating ratio, the healthier the cost structure; it excludes financing charges by design.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Operating Ratio', in plain ASCII form.",
+     "a": "operating_ratio = (cost_of_revenue_from_operations + operating_expenses) / revenue_from_operations * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.3",
+   "title": "Operating Profit Ratio",
+   "questions": [
+    {
+     "q": "Calculate the operating profit ratio from the operating ratio. Use the method 'Operating Profit Ratio'. Work with: operating_ratio = 30. Carry the chain through step by step and give the final value of operating_profit_ratio.",
+     "a": "70 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the operating margin as a percentage of revenue. Use the method 'Operating Profit Ratio'. Work with: operating_ratio = 120. Carry the chain through step by step and give the final value of operating_profit_ratio.",
+     "a": "-20 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Operating Profit Ratio' refers to.",
+     "a": "The operating profit ratio is the mirror of the operating ratio: one hundred minus the operating ratio, or operating profit over revenue from operations as a percentage, showing the margin earned purely from operations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operating Profit Ratio'.",
+     "a": "Operating profit is revenue less operating cost, so the two ratios must together exhaust the hundred percent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Operating Profit Ratio', in plain ASCII form.",
+     "a": "operating_profit_ratio = 100 - operating_ratio",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.4",
+   "title": "Net Profit Ratio",
+   "questions": [
+    {
+     "q": "Calculate the net profit ratio of a company. Use the method 'Net Profit Ratio'. Work with: indirect_expenses = 80000, revenue_from_operations = 120000. Carry the chain through step by step and give the final value of net_profit_ratio.",
+     "a": "33.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the net margin after indirect expenses. Use the method 'Net Profit Ratio'. Work with: indirect_expenses = 2500, revenue_from_operations = 2500. Carry the chain through step by step and give the final value of net_profit_ratio.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Profit Ratio' refers to.",
+     "a": "The net profit ratio relates net profit -- usually after tax and including both operating and non-operating results -- to revenue from operations as a percentage, summarising the overall profitability of every rupee of sales.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Profit Ratio'.",
+     "a": "This all-inclusive margin is the base investors look at, and it feeds straight into return on investment sums.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Profit Ratio', in plain ASCII form.",
+     "a": "net_profit_ratio = net_profit / revenue_from_operations * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.5",
+   "title": "Return on Capital Employed",
+   "questions": [
+    {
+     "q": "Calculate return on capital employed for the year. Use the method 'Return on Capital Employed'. Work with: long_term_debts = 240, profit_before_interest_and_tax = 8, shareholders_funds = 0.75. Carry the chain through step by step and give the final value of return_on_capital_employed.",
+     "a": "3.3229 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the return on investment as a percentage. Use the method 'Return on Capital Employed'. Work with: long_term_debts = 150, profit_before_interest_and_tax = 12, shareholders_funds = 0.5. Carry the chain through step by step and give the final value of return_on_capital_employed.",
+     "a": "7.9734 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Return on Capital Employed' refers to.",
+     "a": "Return on capital employed divides profit before interest and tax by capital employed -- the long-term funds of shareholders, debenture holders and long-term lenders -- as a percentage, testing how well the whole permanent fund base was used.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Return on Capital Employed'.",
+     "a": "Interest and tax are added back so the return can fairly be compared against the cost of borrowed funds.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Return on Capital Employed', in plain ASCII form.",
+     "a": "return_on_capital_employed = profit_before_interest_and_tax / capital_employed * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.6",
+   "title": "Return on Shareholders Funds",
+   "questions": [
+    {
+     "q": "Calculate the return on shareholders funds. Use the method 'Return on Shareholders Funds'. Work with: profit_after_tax = 10, reserves_and_surplus = 40, share_capital = 0.45. Carry the chain through step by step and give the final value of return_on_shareholders_funds.",
+     "a": "24.7219 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the return on net worth of a company. Use the method 'Return on Shareholders Funds'. Work with: profit_after_tax = 15, reserves_and_surplus = 25, share_capital = 0.75. Carry the chain through step by step and give the final value of return_on_shareholders_funds.",
+     "a": "58.2524 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Return on Shareholders Funds' refers to.",
+     "a": "Return on shareholders' funds (return on net worth) divides profit after tax by shareholders' funds as a percentage, answering the owners' own question of what their money earned inside the business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Return on Shareholders Funds'.",
+     "a": "For leverage to help the owners, this return must beat the return earned on the whole capital employed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Return on Shareholders Funds', in plain ASCII form.",
+     "a": "return_on_shareholders_funds = profit_after_tax / shareholders_funds * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.7",
+   "title": "Earnings per Share",
+   "questions": [
+    {
+     "q": "Calculate earnings per share of the company. Use the method 'Earnings per Share'. Work with: number_of_equity_shares = 200, preference_dividend = 5, profit_after_tax = 15. Carry the chain through step by step and give the final value of earnings_per_share.",
+     "a": "0.05 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Find the profit available for each equity share. Use the method 'Earnings per Share'. Work with: number_of_equity_shares = 18, preference_dividend = 60, profit_after_tax = 20. Carry the chain through step by step and give the final value of earnings_per_share.",
+     "a": "-2.2222 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Earnings per Share' refers to.",
+     "a": "Earnings per share splits the profit left for equity shareholders -- profit after tax minus preference dividend -- equally across every equity share outstanding.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Earnings per Share'.",
+     "a": "Preference dividend must leave first; what remains belongs entirely to the ordinary shares.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Earnings per Share', in plain ASCII form.",
+     "a": "earnings_per_share = (profit_after_tax - preference_dividend) / number_of_equity_shares",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.9",
+   "title": "Dividend Payout Ratio",
+   "questions": [
+    {
+     "q": "Calculate the dividend payout ratio. Use the method 'Dividend Payout Ratio'. Work with: dividend_per_share = 20, earnings_per_share = 10. Carry the chain through step by step and give the final value of dividend_payout_ratio.",
+     "a": "200 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the retention implied by the payout ratio. Use the method 'Dividend Payout Ratio'. Work with: dividend_per_share = 5, earnings_per_share = 10. Carry the chain through step by step and give the final value of dividend_payout_ratio.",
+     "a": "50 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dividend Payout Ratio' refers to.",
+     "a": "The dividend payout ratio sets dividend per share against earnings per share to show what slice of the profit the company handed to shareholders and what slice stayed back for growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dividend Payout Ratio'.",
+     "a": "A high payout favours income now; a low payout feeds future expansion through retained earnings.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dividend Payout Ratio', in plain ASCII form.",
+     "a": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

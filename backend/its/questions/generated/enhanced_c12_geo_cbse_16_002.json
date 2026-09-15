@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_002",
+   "title": "c12_geo_cbse_16_002",
+   "questions": [
+    {
+     "q": "Define bilateral trade and give one example of a bilateral trade agreement India has signed.",
+     "a": "Bilateral trade is trade between two countries governed by a mutually negotiated agreement; example: India-UAE Comprehensive Economic Partnership Agreement (CEPA) signed in 2022. A wrong answer (e.g., naming WTO or SAFTA) reveals confusion between bilateral and multilateral/regional frameworks and an inability to identify the number of signatories.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country might prefer a bilateral agreement over relying solely on multilateral WTO rules.",
+     "a": "Bilateral deals allow deeper liberalisation (e.g., services, investment, intellectual property) tailored to the two economies, faster negotiation, and strategic political alignment. A wrong answer (e.g., \"bilateral is always cheaper\") shows misunderstanding of the trade-off: bilateral agreements can create a \"spaghetti bowl\" of overlapping rules and exclude third countries, violating MFN principle unless notified under GATT Article XXIV.",
+     "self_check": true
+    },
+    {
+     "q": "India exports engineering goods to both the USA (under no preferential agreement) and South Korea (under the India-Korea CEPA). In 2022-23, the applied MFN tariff on a specific engineering item is 7.5% in both countries, but the CEPA tariff for South Korea is 0%. If the FOB value is ₹100 crore, calculate the tariff saving for the Korean buyer compared to the US buyer.",
+     "a": "Step 1: Identify MFN tariff = 7.5% for USA. Step 2: Identify preferential CEPA tariff = 0% for South Korea. Step 3: Calculate tariff for USA = 7.5% of ₹100 crore = ₹7.5 crore. Step 4: Calculate tariff for South Korea = 0% of ₹100 crore = ₹0. Step 5: Saving = ₹7.5 crore. A wrong answer (e.g., using bound tariff instead of applied, or ignoring that CEPA tariff is phased) indicates confusion between bound/applied/preferential rates and inability to apply percentage calculations to trade values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dispute settlement mechanism available to India under a bilateral FTA versus under the WTO. Which offers more enforceability and why?",
+     "a": "WTO dispute settlement (currently impaired but historically) provides a standing appellate body, automatic adoption of rulings, and retaliation authorization across all members, making it more enforceable. Bilateral FTA disputes rely on ad hoc panels with no standing appellate body and limited cross-retaliation. A wrong answer claiming bilateral is stronger ignores the institutional weight of the WTO's multilateral enforcement architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a developing country like India, pursuing multiple bilateral FTAs is always superior to negotiating in the WTO because it yields faster market access.\" Provide two arguments for and two against.",
+     "a": "For: (1) Bilateral deals can address \"WTO-plus\" issues (labour, environment, digital trade) that are stalled multilaterally. (2) Flexibility to choose partners with complementary export baskets. Against: (1) Proliferation of rules of origin increases compliance costs for exporters (spaghetti bowl effect). (2) Bilateral deals may lock in asymmetrical obligations (e.g., stronger IPR) that would be resisted in a multilateral coalition of developing countries. A one-sided answer shows lack of critical evaluation of trade policy trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page policy brief for the Ministry of Commerce arguing whether India should prioritize concluding the India-UK FTA (bilateral) or pushing for a substantive outcome at the WTO's 13th Ministerial Conference (multilateral). Structure it with: Objective, Context, Options, Recommendation, and Risks.",
+     "a": "A strong brief will: (1) State objective (e.g., double exports to $1 trillion by 2030). (2) Context: stalled WTO negotiations, UK FTA in advanced stages. (3) Options: prioritize UK FTA for immediate market access in services; or invest political capital in WTO for systemic gains (fisheries subsidies, agriculture). (4) Recommendation: parallel track — conclude UK FTA while building a coalition at WTO. (5) Risks: UK FTA may demand data localisation concessions; WTO may deliver nothing. A weak brief merely lists pros/cons without a clear recommendation grounded in India's export strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

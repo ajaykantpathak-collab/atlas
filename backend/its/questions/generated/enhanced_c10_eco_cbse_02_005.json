@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_005",
+   "title": "c10_eco_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is disguised unemployment, and in which sector is it most prevalent in India?",
+     "a": "Disguised unemployment occurs when more people are engaged in a task than required, so removing some would not reduce output. It is most prevalent in the primary sector, especially agriculture, where family labour exceeds the land's capacity. A wrong answer (e.g., saying it's in the tertiary sector or confusing it with seasonal unemployment) reveals the student cannot distinguish between surplus labour on farms and temporary joblessness due to seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Why does structural unemployment arise in the secondary sector even when the economy is growing?",
+     "a": "Structural unemployment in the secondary sector arises from a mismatch between workers' skills and the skills demanded by modern, technology-driven manufacturing. As industries automate or shift to higher-value production, workers with outdated skills (e.g., traditional textile weaving) cannot fill new roles (e.g., machine operation). A wrong answer that blames only recession or low demand shows the student misses the supply-side skill mismatch that persists during growth.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra employs 5 family members on his 3-hectare cotton farm. The marginal product of the 5th worker is zero. If the farmer withdraws 2 workers, output remains unchanged. Calculate the number of disguisedly unemployed workers and explain the economic implication.",
+     "a": "Number of disguisedly unemployed workers = 2 (since removing them does not affect output). Economic implication: These workers contribute zero marginal product; their labour is underutilised, representing a waste of human resources. If they moved to sectors with positive marginal product, total GDP would rise without reducing farm output. A wrong answer (e.g., saying 5 are unemployed) shows confusion between total workers and surplus workers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nature of unemployment in the tertiary sector with that in the primary sector. Why is educated unemployment a tertiary-sector phenomenon?",
+     "a": "Primary sector unemployment is mainly disguised and seasonal (surplus labour on land, weather-dependent). Tertiary sector unemployment is largely educated unemployment — graduates and diploma holders unable to find jobs matching their qualifications because service-sector growth has not kept pace with educational expansion, and skill requirements (e.g., IT, finance) are specific. A wrong answer that equates tertiary unemployment with seasonal unemployment shows the student fails to link education-system output to service-sector skill demands.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rapid growth of the tertiary sector in India has solved the unemployment problem.\" Use sectoral employment and GDP share data to justify your answer.",
+     "a": "The statement is false. While the tertiary sector's GDP share is ~53% (2023-24), its employment share is only ~32%. High-value services (IT, finance) create few jobs per unit of output, and many service jobs are low-productivity self-employment. Meanwhile, the primary sector still employs ~42% of workers but contributes only ~18% to GDP, indicating massive disguised unemployment. Growth without proportional job creation in services leaves educated youth unemployed. A wrong answer that agrees reveals the student confuses GDP growth with employment generation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-paragraph policy brief for a district collector addressing the most pressing unemployment type in a district where 60% of workers are in agriculture, 20% in small-scale manufacturing, and 20% in services. Identify the unemployment type and suggest one targeted intervention.",
+     "a": "The district faces severe disguised unemployment in agriculture (60% workforce on limited land). Intervention: Promote agro-processing units (secondary sector) near farms to absorb surplus labour, using MNREGA funds for infrastructure. This shifts workers from zero-marginal-product farm work to value-addition activities. A poor answer would propose generic \"skill training\" without linking to the district's sectoral composition, showing inability to match intervention to the specific unemployment type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

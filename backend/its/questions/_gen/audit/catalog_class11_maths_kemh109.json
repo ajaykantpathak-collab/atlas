@@ -1,0 +1,370 @@
+{
+ "catalog": "catalog_class11_maths_kemh109.json",
+ "concepts": [
+  {
+   "id": "kemh109.9.2.1",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 8 - -2",
+      "dy = 31 - 7",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(-5 * -5 + -8 * -8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (-4 + 1) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (3 * 5 + 2 * 0) / (3 + 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(-3 * (-4 - 0) + 5 * (0 - 5) + 1 * (5 - -4))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (5 + 0 + -2) / 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh109.9.2.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 15"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 166"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 22"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 71 - 174"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 77"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 107"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 15"
+   ]
+  },
+  {
+   "id": "kemh109.9.2.3",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 27"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 122"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 19"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 98 - 221"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 72"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 104"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh109.9.2.4",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 2 - -3",
+      "dy = 13 - 1",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(3 * 3 + 6 * 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (7 + -5) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (1 * 5 + 4 * 0) / (1 + 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(3 * (-3 - 0) + 2 * (0 - -4) + -4 * (-4 - -3))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (1 + -4 + -5) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = 2 - -3",
+    "dy = 13 - 1",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "kemh109.9.3.1",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "endpoints = 0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 4"
+   ]
+  },
+  {
+   "id": "kemh109.9.3.2",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 25 - 5",
+      "dy = 20 - -1",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(3 * 3 + -8 * -8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (0 + 4) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (2 * 5 + 3 * 0) / (2 + 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(-6 * (5 - 0) + 6 * (0 - 5) + 1 * (5 - 5))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (-1 + -1 + 2) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = 25 - 5",
+    "dy = 20 - -1",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "kemh109.9.4.1",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh109.9.4.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 24"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 46"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 56"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 50 - 270"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 48"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 84"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

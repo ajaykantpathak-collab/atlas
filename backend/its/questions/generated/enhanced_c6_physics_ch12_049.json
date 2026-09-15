@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_049",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_049",
+   "title": "c6_physics_ch12_049",
+   "questions": [
+    {
+     "q": "What three celestial objects must align in a straight line for a solar eclipse to happen?",
+     "a": "The Sun, the Moon, and the Earth must align in that specific order. Answering only two of them or getting the order wrong (e.g., placing the Sun in the middle) shows a failure to visualize the blocking mechanism of the eclipse.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the sky turn into twilight during a total solar eclipse?",
+     "a": "The sky turns dark because the Moon physically blocks the direct, bright light of the Sun from reaching that specific part of Earth. A student who says \"the Sun disappears\" is missing the point that the Sun is still there; it is just being obstructed by the Moon.",
+     "self_check": true
+    },
+    {
+     "q": "If you are standing in a place where only a small \"bite\" of the Sun is covered by the Moon, which type of eclipse are you experiencing?",
+     "a": "You are experiencing a partial solar eclipse. If a student thinks any eclipse is automatically \"total,\" they fail to understand that the size of the shadow or the angle of viewing affects how much of the Sun is blocked.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a solar eclipse to an object casting a shadow on a wall. What represents the \"wall\" in our solar system?",
+     "a": "The Earth represents the \"wall\" because it is the surface upon which the Moon's shadow falls. If a student says the Sun is the wall, they are confusing the light source with the surface receiving the shadow.",
+     "self_check": true
+    },
+    {
+     "q": "Can a solar eclipse happen at night? Justify your answer.",
+     "a": "No, because a solar eclipse requires the Sun to be visible in the sky to be blocked by the Moon. If a student says \"yes,\" they are ignoring the fact that the Sun must be in the same part of the sky as the Moon for an eclipse to occur.",
+     "self_check": true
+    },
+    {
+     "q": "Describe what you would see if you were in the \"narrow strip\" mentioned in the text during a total solar eclipse.",
+     "a": "You would see the Sun completely hidden by the Moon, causing the sky to darken significantly and the Sun's outer atmosphere (the corona) to become visible. A poor answer would ignore the \"total\" aspect or fail to mention the darkening of the sky.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

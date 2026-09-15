@@ -1,0 +1,427 @@
+{
+ "catalog": "catalog_class7_science_ch106.json",
+ "concepts": [
+  {
+   "id": "gesc.6.1.1",
+   "title": "Aerobic Cellular Respiration",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is aerobic respiration?",
+     "a": "Breakdown of glucose using oxygen to give CO2, water and much energy, inside mitochondria.",
+     "self_check": true
+    },
+    {
+     "q": "Write the word equation for aerobic respiration.",
+     "a": "Glucose + oxygen -> carbon dioxide + water + energy.",
+     "self_check": true
+    },
+    {
+     "q": "Where in the cell does aerobic respiration occur?",
+     "a": "In the mitochondria - the cell's powerhouses.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.1.2",
+   "title": "Anaerobic Respiration in Microorganisms",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is anaerobic respiration in yeast called and what does it give?",
+     "a": "Fermentation - glucose breaks down without oxygen into alcohol and carbon dioxide.",
+     "self_check": true
+    },
+    {
+     "q": "Give one industrial use of yeast fermentation.",
+     "a": "Making bread (CO2 raises dough) and brewing alcohol.",
+     "self_check": true
+    },
+    {
+     "q": "Why is less energy released in anaerobic respiration?",
+     "a": "Glucose is only partly broken down, so much energy stays locked in the products.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.1.3",
+   "title": "Anaerobic Respiration in Muscle Cells",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do our muscles cramp after heavy exercise?",
+     "a": "Short of oxygen, muscles respire anaerobically making lactic acid, which causes cramps.",
+     "self_check": true
+    },
+    {
+     "q": "What does muscle anaerobic respiration produce?",
+     "a": "Lactic acid (plus a little energy) from glucose without oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "How is the cramp relieved?",
+     "a": "Rest and a hot water bath improve blood flow, washing lactic acid away.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.2.1",
+   "title": "Breathing Rate Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "breathing_rate",
+     "expr": "total_breaths / time_minutes",
+     "explain": "count breaths per minute"
+    },
+    {
+     "step": 2,
+     "name": "breaths_10min",
+     "expr": "(total_breaths / time_minutes) * 10",
+     "explain": "breaths in ten minutes at this rate"
+    },
+    {
+     "step": 3,
+     "name": "breaths_per_hour",
+     "expr": "breathing_rate * 60",
+     "explain": "the same rate per hour"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A person takes 66 breaths in 3 minutes at rest. Find the breathing rate per minute and per hour.",
+     "vals": {
+      "total_breaths": 66,
+      "time_minutes": 3
+     },
+     "unit": "breaths/min",
+     "steps": null,
+     "a": "1320 breaths/min",
+     "self_check": false
+    },
+    {
+     "q": "After exercise a runner breathes 120 times in 2 minutes. Calculate the breathing rate.",
+     "vals": {
+      "total_breaths": 120,
+      "time_minutes": 2
+     },
+     "unit": "breaths/min",
+     "steps": null,
+     "a": "3600 breaths/min",
+     "self_check": false
+    },
+    {
+     "q": "A child breathes 100 times in 4 minutes. What is the rate per minute, and per hour?",
+     "vals": {
+      "total_breaths": 100,
+      "time_minutes": 4
+     },
+     "unit": "breaths/min",
+     "steps": null,
+     "a": "1500 breaths/min",
+     "self_check": false
+    },
+    {
+     "q": "During sleep 72 breaths occur in 3 minutes. Find the breathing rate.",
+     "vals": {
+      "total_breaths": 72,
+      "time_minutes": 3
+     },
+     "unit": "breaths/min",
+     "steps": null,
+     "a": "1440 breaths/min",
+     "self_check": false
+    },
+    {
+     "q": "A swimmer holds practice breathing of 90 breaths in 1.5 minutes. Compute the rate.",
+     "vals": {
+      "total_breaths": 90,
+      "time_minutes": 1.5
+     },
+     "unit": "breaths/min",
+     "steps": null,
+     "a": "3600 breaths/min",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.1",
+   "title": "Mechanism of Human Breathing",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when we breathe in?",
+     "a": "The diaphragm flattens and ribs rise; chest space grows, pressure falls and air rushes into the lungs.",
+     "self_check": true
+    },
+    {
+     "q": "Which muscle plays the main role in breathing?",
+     "a": "The diaphragm, a sheet below the lungs that moves down and up.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the breathing rate faster during exercise?",
+     "a": "Muscles need more oxygen and must release more CO2, so breathing speeds up.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.2",
+   "title": "Chest Expansion Measurement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "average_girth",
+     "expr": "(chest_inhalation + chest_exhalation) / 2",
+     "explain": "average chest girth"
+    },
+    {
+     "step": 2,
+     "name": "per_side_expansion",
+     "expr": "(chest_inhalation - chest_exhalation) / 2",
+     "explain": "expansion shared on each side"
+    },
+    {
+     "step": 3,
+     "name": "chest_expansion",
+     "expr": "chest_inhalation - chest_exhalation",
+     "explain": "total expansion on deep inhalation"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A student's chest measures 30 inches after normal exhale and 33 inches after deep inhale. Find the chest expansion.",
+     "vals": {
+      "chest_inhalation": 33,
+      "chest_exhalation": 30
+     },
+     "unit": "inches",
+     "steps": null,
+     "a": "3 inches",
+     "self_check": false
+    },
+    {
+     "q": "Chest reading is 28 inches exhaled and 31 inches inhaled. Calculate the expansion.",
+     "vals": {
+      "chest_inhalation": 31,
+      "chest_exhalation": 28
+     },
+     "unit": "inches",
+     "steps": null,
+     "a": "3 inches",
+     "self_check": false
+    },
+    {
+     "q": "An athlete's chest goes from 34 to 38 inches between exhale and inhale. What is the expansion?",
+     "vals": {
+      "chest_inhalation": 38,
+      "chest_exhalation": 34
+     },
+     "unit": "inches",
+     "steps": null,
+     "a": "4 inches",
+     "self_check": false
+    },
+    {
+     "q": "Measurements of 26 and 28.5 inches give what chest expansion?",
+     "vals": {
+      "chest_inhalation": 28.5,
+      "chest_exhalation": 26
+     },
+     "unit": "inches",
+     "steps": null,
+     "a": "2.5 inches",
+     "self_check": false
+    },
+    {
+     "q": "A person exhales at 32 inches and inhales at 35.5 inches. Find the expansion.",
+     "vals": {
+      "chest_inhalation": 35.5,
+      "chest_exhalation": 32
+     },
+     "unit": "inches",
+     "steps": null,
+     "a": "3.5 inches",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.4.1",
+   "title": "Composition of Inhaled and Exhaled Air",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "exhaled_fraction",
+     "expr": "exhaled_o2_pct / inhaled_o2_pct",
+     "explain": "fraction of oxygen still exhaled"
+    },
+    {
+     "step": 2,
+     "name": "used_fraction",
+     "expr": "1 - (exhaled_o2_pct / inhaled_o2_pct)",
+     "explain": "fraction of oxygen the body used"
+    },
+    {
+     "step": 3,
+     "name": "oxygen_consumed_pct",
+     "expr": "(1 - (exhaled_o2_pct / inhaled_o2_pct)) * inhaled_o2_pct",
+     "explain": "oxygen consumed per breath"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Inhaled air has 21% oxygen and exhaled air about 16%. What per cent of oxygen is consumed by the body?",
+     "vals": {
+      "inhaled_o2_pct": 21,
+      "exhaled_o2_pct": 16
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "5 %",
+     "self_check": false
+    },
+    {
+     "q": "If exhaled air holds 17% oxygen while inhaled has 21%, what percentage is used up?",
+     "vals": {
+      "inhaled_o2_pct": 21,
+      "exhaled_o2_pct": 17
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "4 %",
+     "self_check": false
+    },
+    {
+     "q": "A sample of exhaled air shows 15.5% oxygen. With inhaled at 21%, compute the consumption.",
+     "vals": {
+      "inhaled_o2_pct": 21,
+      "exhaled_o2_pct": 15.5
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "5.5 %",
+     "self_check": false
+    },
+    {
+     "q": "In an experiment inhaled oxygen is 20.9% and exhaled 16.4%. Find the oxygen taken by the body.",
+     "vals": {
+      "inhaled_o2_pct": 20.9,
+      "exhaled_o2_pct": 16.4
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "4.5 %",
+     "self_check": false
+    },
+    {
+     "q": "Fish-like efficiency aside, a diver's tank air has 21% O2 and exhaled bubbles show 18%. What was consumed?",
+     "vals": {
+      "inhaled_o2_pct": 21,
+      "exhaled_o2_pct": 18
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "3 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.5.1",
+   "title": "Tracheal Respiration in Insects",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do insects breathe?",
+     "a": "Air enters through tiny holes (spiracles) into tubes called tracheae that reach every cell.",
+     "self_check": true
+    },
+    {
+     "q": "What are spiracles?",
+     "a": "Small openings on an insect's body sides through which air enters the tracheal system.",
+     "self_check": true
+    },
+    {
+     "q": "Why do insects not need lungs?",
+     "a": "Their tracheal tubes deliver air directly to cells, so blood need not carry oxygen.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.5.2",
+   "title": "Cutaneous and Amphibian Respiration",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do earthworms breathe?",
+     "a": "Oxygen dissolves on their moist skin and passes into blood capillaries beneath it.",
+     "self_check": true
+    },
+    {
+     "q": "Why must earthworms stay in moist soil?",
+     "a": "Their skin must stay moist for oxygen to diffuse through; dry skin cannot absorb oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "How do frogs breathe in water and on land?",
+     "a": "In water through their moist skin, and on land through lungs.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.6.1",
+   "title": "Aquatic Respiration via Gills",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do fish breathe?",
+     "a": "They gulp water; gills take in dissolved oxygen and pass it to blood, while water flows out.",
+     "self_check": true
+    },
+    {
+     "q": "What are gills and why can they not work in air?",
+     "a": "Gill filaments take oxygen from water; in air they stick together and dry, so they fail.",
+     "self_check": true
+    },
+    {
+     "q": "Why is less oxygen available to water animals?",
+     "a": "Water holds dissolved oxygen only (about 1%), far less than air's 21%.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.7.1",
+   "title": "Respiration in Plant Organs and Roots",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do plant roots breathe?",
+     "a": "Root hair cells take oxygen from air spaces in soil, and release CO2 back.",
+     "self_check": true
+    },
+    {
+     "q": "Why does waterlogged soil harm plants?",
+     "a": "Flooded soil has little air, so roots cannot get oxygen and may rot.",
+     "self_check": true
+    },
+    {
+     "q": "Do plants respire through leaves? How?",
+     "a": "Yes - gases pass through stomata of leaves for respiration day and night.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,369 @@
+{
+ "catalog": "catalog_class8_maths_ch12_factorisation.json",
+ "concepts": [
+  {
+   "id": "c8m12.2.1",
+   "title": "What is Factorisation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 8 + 3 gives 27",
+     "compute": "val = 3 * 8 + 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 3 when x = 8.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 7x + 5 when x = 3.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 7x - 8x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 9 x (7 + 9) equals 9 x 7 + 9 x 9. Compute it.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8 + 2 x 2 (respect the order of operations).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3 + 6) x 8.",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.2.2",
+   "title": "Method of Common Factors",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
+     "compute": "hcf = 7 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 14 and 28 have HCF 7 with coprime multipliers 2 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 14 and 28 given their HCF is 7 and HCF x LCM = product of the numbers.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 14 and 28 is 56. Use HCF x LCM = a x b to find their HCF.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 14 cm and 28 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 14 minutes and 28 minutes. After how many minutes will they next ring together?",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 12 are there up to 96?",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.2.3",
+   "title": "Factorisation by Regrouping",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 7 * 100 + 7 * 10 + 6 gives 9776",
+     "compute": "big = 9 * 1000 + 7 * 100 + 7 * 10 + 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 6 * 1000 + 7 * 100 + 7 * 10 + 9 gives 6779",
+     "compute": "small = 6 * 1000 + 7 * 100 + 7 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 2997",
+     "compute": "diff = big - small"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For the digits 6, 9, 7, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "2997",
+     "self_check": false
+    },
+    {
+     "q": "The number 8726 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 8726.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 8726 (= 23) is divided by 9.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 28, reverse its digits to get 82, and find the positive difference (a Kaprekar-style step).",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 28 (digits 2 and 8), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "54",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.2.4",
+   "title": "Factorisation Using Identities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 8 * 8 + 2 * 8 * 9 + 9 * 9 gives 289",
+     "compute": "val = 8 * 8 + 2 * 8 * 9 + 9 * 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 9 more than 8; report the value.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 24^2 - 2 x 24 x 9 + 9^2.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 15 x 9 where the numbers are a + b and a - b for a = 12, b = 3.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 2)(x + 3) using the identity x^2 + (a + b)x + ab and evaluate it at x = 8.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Compute 105^2 using (100 + 5)^2 = 10000 + 2 x 100 x 5 + 5^2.",
+     "a": "11025",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.2.5",
+   "title": "Factors of the Form (x + a)(x + b)",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 3 + 3 * 3 gives 225",
+     "compute": "val = 12 * 12 + 2 * 12 * 3 + 3 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 3 more than 12; report the value.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 25^2 - 2 x 25 x 2 + 2^2.",
+     "a": "529",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 14 x 6 where the numbers are a + b and a - b for a = 10, b = 4.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 5)(x + 5) using the identity x^2 + (a + b)x + ab and evaluate it at x = 6.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Compute 104^2 using (100 + 4)^2 = 10000 + 2 x 100 x 4 + 4^2.",
+     "a": "10816",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.3.1",
+   "title": "Division of a Monomial by a Monomial",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^4.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^6 / 3^2.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^2)^3 using the power of a power law.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^2 x 4^2 using a^m x b^m = (ab)^m.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9^(-2) and give the value as a fraction.",
+     "a": "1/81",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.3.2",
+   "title": "Division of a Polynomial by a Monomial",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
+     "compute": "val = 3 * 4 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 2 when x = 4.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 6x + 5 when x = 4.",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 5x - 5x and give the coefficient of x.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 9 x (5 + 8) equals 9 x 5 + 9 x 8. Compute it.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 8 x 2 (respect the order of operations).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 4) x 3.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m12.4.1",
+   "title": "Division of a Polynomial by a Polynomial",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
+     "compute": "hcf = 12 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 24 and 36 have HCF 12 with coprime multipliers 2 and 3. Verify by computing hcf = 12 x 1; then find the HCF value.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 24 and 36 given their HCF is 12 and HCF x LCM = product of the numbers.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 24 and 36 is 72. Use HCF x LCM = a x b to find their HCF.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 24 cm and 36 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 24 minutes and 36 minutes. After how many minutes will they next ring together?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 120?",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

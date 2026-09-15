@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_001",
+   "title": "c12_phy_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the two laws of reflection and the Cartesian sign convention rule for distances measured along the principal axis.",
+     "a": "Laws: (1) Angle of incidence equals angle of reflection (∠i = ∠r). (2) Incident ray, reflected ray, and normal at the point of incidence lie in the same plane. Cartesian sign convention: All distances measured from the pole; distances measured in the direction of incident light are positive, those measured opposite to incident light are negative. A wrong answer (e.g., \"distances measured from the focus\" or \"object distance always negative\") reveals the student has not internalised the reference point (pole) and the directional rule tied to incident light direction.",
+     "self_check": true
+    },
+    {
+     "q": "A concave mirror of radius of curvature 30 cm is used. A student writes the focal length as f = +15 cm. Is this correct? Explain using the sign convention.",
+     "a": "Incorrect. For a concave mirror, the centre of curvature and focus lie on the same side as the reflecting surface, which is opposite to the direction of incident light (light travels from left to right, mirror faces left). Therefore, both R and f are negative: R = –30 cm, f = R/2 = –15 cm. A student writing +15 cm has either used the \"real is positive\" convention (non-Cartesian) or forgotten that the focal point of a concave mirror is on the same side as the object (against incident light direction).",
+     "self_check": true
+    },
+    {
+     "q": "An object is placed 20 cm in front of a convex mirror of focal length 15 cm. Using the Cartesian sign convention, write the values of u and f with correct signs and units.",
+     "a": "Incident light travels from object to mirror (left to right). Object is on the left (opposite to incident light direction? Wait: incident light goes from object to mirror. If object is on left, light travels left to right. The object distance u is measured from pole to object, which is against the direction of incident light? Actually, the direction of incident light is from object to mirror. So the vector from pole to object points opposite to incident light. Therefore u is negative. For convex mirror, focus is behind the mirror (on the right), which is in the same direction as incident light. So f is positive. Thus: u = –20 cm, f = +15 cm. A wrong sign on f (e.g., –15 cm) shows confusion between mirror type and sign rule; a wrong sign on u (e.g., +20 cm) shows misunderstanding that object distance is measured against incident light direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sign of focal length for a concave mirror and a convex mirror under the Cartesian convention. Explain physically why they differ, referencing the direction of reflected rays.",
+     "a": "Concave mirror: f is negative because reflected rays converge at a real focus on the same side as the object (opposite to incident light direction). Convex mirror: f is positive because reflected rays diverge and appear to come from a virtual focus behind the mirror (same direction as incident light). The sign difference directly encodes whether the focus is real (negative) or virtual (positive) relative to the incident light direction. A student who says \"concave mirrors have positive f because they converge light\" is using the \"real is positive\" convention, not Cartesian.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives f = R/2 for a concave mirror using geometry but forgets to apply the sign convention at the end, writing f = +R/2. Evaluate the impact of this error on subsequent calculations using the mirror equation.",
+     "a": "If f is taken as positive for a concave mirror, the mirror equation 1/v + 1/u = 1/f will yield incorrect image distances. For example, with u = –30 cm, R = –20 cm (so correct f = –10 cm), the correct equation gives 1/v = 1/(-10) - 1/(-30) = -1/15 → v = –15 cm (real image). Using f = +10 cm gives 1/v = 1/10 - 1/(-30) = 4/30 → v = +7.5 cm (virtual image behind mirror) — a qualitatively wrong prediction. The sign error flips the nature of the image from real to virtual.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a screen, and a distant object (e.g., the sun or a tree) to verify the relation f = R/2. Describe how you would measure R and f, and how you would apply the sign convention to your measurements.",
+     "a": "Procedure: (1) Face the concave mirror towards the sun. (2) Move a white screen along the principal axis until a sharp, bright point image of the sun is formed. The distance from the pole to the screen is the focal length f (magnitude). (3) To find R, place the screen at the centre of curvature: move an object (e.g., a pin) along the axis until its real, inverted, same-size image forms on the screen beside it. The object distance equals R. (4) Apply sign convention: incident light from sun travels towards mirror (left to right). Both focus and centre of curvature are on the left (against incident light), so f and R are negative. Record f = –(measured distance), R = –(measured distance). Verify f = R/2. A poor answer measures distances without assigning signs or uses the centre of curvature method incorrectly (e.g., using image distance for a random object position).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

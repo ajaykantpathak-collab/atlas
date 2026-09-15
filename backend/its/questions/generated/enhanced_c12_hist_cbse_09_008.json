@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_008",
+   "title": "c12_hist_cbse_09_008",
+   "questions": [
+    {
+     "q": "In which year did the Deccan Riots begin, and at which village did they start?",
+     "a": "The Deccan Riots began on 12 May 1875 at Supa village in Poona (Pune) district. A wrong answer (e.g., 1857 or 1876, or a different village like Ahmednagar) reveals the student has not anchored the event in its precise spatio-temporal context — a basic requirement for board exam source-based questions that cite the District Magistrate's letter of 15 May 1875.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the cotton boom of the 1860s lead to heavier peasant indebtedness rather than prosperity for most Deccan ryots?",
+     "a": "During the American Civil War (1861-65), cotton prices soared and sahukars gave advances of Rs 100 per acre for cotton cultivation. Ryots borrowed to expand acreage, buy ploughs and cattle. When the war ended in 1865, American cotton revived, prices collapsed, but revenue demand increased 50-100% in the new settlement. Sahukars stopped lending and demanded repayment. A wrong answer focusing only on \"high interest rates\" misses the structural sequence: boom → easy credit → expanded cultivation → bust + higher revenue → credit freeze → distress. This sequence is the core analytical framework for this topic.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot borrows Rs 100 at 3.125% per month (3-2 annas per cent per mensem). After 3 years, the moneylender makes him sign a new bond for principal + accumulated interest at the same rate. Explain how this \"renewal of bonds\" mechanism caused the debt to multiply, using the Deccan Riots Commission petition example where Rs 1000 principal yielded Rs 2028 interest in 12 years.",
+     "a": "Monthly rate 3.125% = 37.5% per annum. The Limitation Law (1859) limited bond validity to 3 years. Every 3 years, the moneylender forced a new bond where unpaid interest became new principal (compound interest). After 12 years (4 cycles), Rs 1000 grew to Rs 3028 (principal + Rs 2028 interest). A wrong answer calculating simple interest (Rs 1000 × 37.5% × 12 = Rs 4500) misses the legal mechanism: the 3-year bond renewal converted usurious monthly rates into compounding principal, which the courts then enforced. This is the \"deeds and bonds as symbols of oppression\" point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Deccan Riots Commission's conclusion (government revenue demand was NOT the cause; moneylenders were to blame) with the evidence in the chapter about revenue demand increases (50-100% in new settlement) and the timing of the riots (1875, after cotton bust and new settlement). What does this discrepancy reveal about colonial official sources?",
+     "a": "The Commission was explicitly asked to judge whether government revenue demand caused the revolt — a conflict of interest. It ignored the 50-100% revenue hike coinciding with the cotton price crash, focusing instead on moneylender exactions (interest > principal, forged accounts). This reveals colonial sources systematically deflect blame from state policy onto \"traditional\" exploitation. A wrong answer accepting the Commission's verdict at face value fails the \"read official sources critically\" competency tested in board exam source-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the significance of the \"social boycott\" of moneylenders during the Deccan Riots. How did it differ from the violence (burning account books, looting), and what does it tell us about the ryots' understanding of their power?",
+     "a": "Social boycott — refusing to cultivate moneylenders' fields, denying them labour, services, and social interaction — was a non-violent, collective discipline that sustained the revolt beyond the initial violence. It showed ryots understood their labour was the moneylender's source of profit (via sharecropping/land seizure). A wrong answer treating boycott as mere \"support for violence\" misses its strategic nature: it targeted the economic foundation of moneylender power, not just his documents. This is a key analytical point for \"peasant resistance strategies\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain diagram (text-based) linking: Ryotwari settlement (1820s) → High revenue demand → Peasant borrowing → Cotton boom (1861-65) → Expanded cultivation & debt → Cotton bust (1865) + Revenue revision (50-100% hike) → Credit freeze → Moneylender seizure of harvest/land → Deccan Riots (1875). Identify which link the Deccan Riots Commission acknowledged and which it suppressed.",
+     "a": "Chain: Ryotwari (direct settlement, 30-year revision) → High initial demand (1820s) → Structural borrowing → Cotton boom: easy credit, acreage expansion → Cotton bust + Revenue hike (new settlement) → Sahukars stop lending, demand repayment → Seizure of produce/land via bonds/deeds → Riots. Commission acknowledged only the last two links (moneylender exactions); suppressed the revenue-hike link. A poor answer lists factors without showing the causal sequence or the Commission's selective reading.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

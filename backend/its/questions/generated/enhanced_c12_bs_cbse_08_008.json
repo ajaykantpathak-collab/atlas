@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_008",
+   "title": "c12_bs_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the critical path in a project network, and why is it called 'critical'?",
+     "a": "The critical path is the longest path through the network from start to finish, determining the minimum project duration. It is called 'critical' because any delay in any activity on this path directly delays the project completion — there is zero total float. A wrong answer (e.g., 'the path with the most activities' or 'the shortest path') reveals the student confuses criticality with activity count or duration per activity rather than total path duration and zero float.",
+     "self_check": true
+    },
+    {
+     "q": "In CPM, Activity X has ES=5, EF=12, LS=8, LF=15. What is its total float? Is it on the critical path? Explain.",
+     "a": "Total float = LS - ES = 8 - 5 = 3 (or LF - EF = 15 - 12 = 3). Since float > 0, Activity X is NOT on the critical path. A wrong answer (e.g., float = 0, or 'yes it is critical') reveals the student either miscalculates float or misunderstands that critical path activities have zero float by definition.",
+     "self_check": true
+    },
+    {
+     "q": "A project has three activities: A (duration 4 days, no predecessor), B (duration 6 days, predecessor A), C (duration 5 days, predecessor A). Draw the network, calculate ES/EF/LS/LF for each, identify the critical path and project duration.",
+     "a": "Network: A → B and A → C (split after A). Forward pass: A: ES=0, EF=4; B: ES=4, EF=10; C: ES=4, EF=9. Project duration = max(EF) = 10. Backward pass: Project end LF=10. B: LF=10, LS=4; C: LF=10, LS=5; A: LF=min(LS of B,C)=4, LS=0. Floats: A=0, B=0, C=1. Critical path: A-B (duration 10). A wrong answer (e.g., critical path A-C, or project duration 9) reveals inability to handle branching/merging or incorrect backward pass logic (using max instead of min at merge).",
+     "self_check": true
+    },
+    {
+     "q": "Compare PERT and CPM on: (a) time estimates used, (b) nature of activities, (c) primary application, (d) treatment of uncertainty.",
+     "a": "(a) PERT uses three estimates (optimistic to, most likely tm, pessimistic tp); CPM uses a single deterministic estimate. (b) PERT is event-oriented (probabilistic); CPM is activity-oriented (deterministic). (c) PERT for R&D/new projects with uncertain durations; CPM for construction/repetitive projects with known durations. (d) PERT explicitly models uncertainty via variance (σ² = ((tp-to)/6)²); CPM assumes certainty. A wrong answer (e.g., 'PERT uses one estimate, CPM uses three' or 'both are same') reveals confusion between the two techniques' fundamental philosophies.",
+     "self_check": true
+    },
+    {
+     "q": "A project manager says: \"Since Activity Y has 5 days of float, I can delay its start by 5 days without any impact.\" Evaluate this statement. Is it always true? When might it be false?",
+     "a": "The statement is true ONLY if the 5 days is total float AND the delay does not push the activity into a new critical path (i.e., no other path becomes critical) AND the activity is not on a resource-constrained path where delaying it starves a successor of shared resources. It is false if: (1) the float is free float (delay affects successor's ES), (2) delaying Y consumes float on a parallel path making it critical, or (3) resource constraints exist. A wrong answer (uncritical 'yes') reveals the student treats float as an absolute buffer ignoring network interdependencies and resource constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small project (5-6 activities) for organizing a school annual day event. List activities, predecessors, and durations. Draw the network, find the critical path, and identify which two activities you would monitor most closely as a controller. Justify.",
+     "a": "Example: A: Venue booking (3d, -), B: Invitation design (2d, -), C: Printing invites (3d, B), D: Guest confirmation (5d, C), E: Stage setup (4d, A), F: Rehearsal (2d, E), G: Event day (1d, D,F). Network: A→E→F→G and B→C→D→G. Forward/backward passes yield critical path B-C-D-G (duration 11). Monitor D (on critical path, longest duration) and F (near-critical, float=1). A good answer shows correct network, calculations, and justification linking control focus to zero/low float. A poor answer picks activities randomly or ignores float.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

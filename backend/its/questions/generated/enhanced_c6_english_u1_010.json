@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_010",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_010",
+   "title": "c6_english_u1_010",
+   "questions": [
+    {
+     "q": "What are the three parts of a well-organized spoken idea?",
+     "a": "The three parts are stating the idea, providing a reason for it, and giving an example. A wrong answer shows the student believes speaking is just \"talking\" without structure, which leads to rambling responses.",
+     "self_check": true
+    },
+    {
+     "q": "If your friend is explaining a story and you have a different opinion, what is the best way to handle it?",
+     "a": "The best way is to listen until they finish without interrupting, then politely say, \"I see your point, but I think...\" A wrong answer (interrupting or ignoring) shows a lack of awareness of the \"active\" nature of listening.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says, \"Rama Natha was wrong to believe in magic.\" How would you respond using the 'sandwich' method?",
+     "a": "Steps: 1. Agree or disagree; 2. Provide a reason; 3. Use evidence from the story. Example: \"I agree, because relying on magic stopped him from working hard. For example, he spent six years looking for a potion instead of farming.\" A wrong answer shows the student is not connecting their opinion to the text.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to change your tone and pace when speaking to a group?",
+     "a": "It keeps the listeners interested and helps them understand which parts of your idea are most important. A wrong answer suggests the student thinks speaking is monotone, which makes communication ineffective.",
+     "self_check": true
+    },
+    {
+     "q": "If someone asks you to summarize what a partner just said, why is it better to use your own words instead of repeating theirs?",
+     "a": "Using your own words proves you actually understood the concept rather than just hearing the sounds. A wrong answer indicates the student is \"parroting\" (repeating) without processing the information.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-sentence response to the question: \"Why do you think the Sage tricked Rama Natha?\" using a clear reason and example.",
+     "a": "The response should be: \"The Sage tricked him because he wanted to teach him that hard work creates wealth, like how the banana plantation grew after six years.\" A poor answer lacks a specific reason or proof from the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

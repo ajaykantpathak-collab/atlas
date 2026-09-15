@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_005",
+   "title": "c11_psy_cbse_08_005",
+   "questions": [
+    {
+     "q": "Define emotion according to the NCERT Class 11 Psychology textbook, explicitly naming its three components.",
+     "a": "Emotion is a complex pattern of arousal involving physiological activation, conscious awareness of feeling (subjective experience), and a specific cognitive label/interpretation. A wrong answer that omits \"cognitive interpretation\" or equates emotion solely with \"feeling\" reveals a confusion between the narrower term 'feeling' (the pleasure/pain dimension) and the broader construct of emotion.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Mood and emotion are the same thing because both involve feelings.\" Using the textbook distinction, explain why this statement is incorrect.",
+     "a": "Mood is an affective state of long duration but lower intensity, often without a clear antecedent cause, whereas emotion is a complex, short-lived pattern of arousal with a specific cognitive label triggered by a specific event. A wrong answer that focuses only on intensity or duration misses the critical role of cognitive appraisal and the object-directed nature of emotions (emotions are *about* something).",
+     "self_check": true
+    },
+    {
+     "q": "Rohan sees a snake on a trek. His heart pounds, he thinks \"Danger!\", and he freezes. Map each of Rohan's responses to the three components of emotion. Then, classify his emotion using Ekman's basic emotions list.",
+     "a": "Heart pounding = physiological arousal; \"Danger!\" = cognitive appraisal/interpretation; freezing = behavioral/expressive response. The emotion is **fear**, one of Ekman's six basic emotions. A wrong answer that labels it \"anxiety\" confuses a diffuse, future-oriented mood state with a specific, immediate emotional response to a clear stimulus.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Plutchik's wheel of emotions with Ekman's basic emotions. How does Plutchik account for complex emotions like 'remorse' or 'awe' that are not in Ekman's list of six?",
+     "a": "Plutchik proposes eight primary emotions arranged in four opposite pairs (joy-sadness, trust-disgust, fear-anger, surprise-anticipation). Complex emotions are **mixtures** of adjacent primary emotions (e.g., remorse = disgust + sadness; awe = fear + surprise). Ekman's model treats the six as discrete, universal categories without a formal combinatorial mechanism for blends. A wrong answer stating Plutchik just has \"more basic emotions\" misses the structural concept of **dyadic mixtures** forming a circumplex.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Women are more emotional than men.\" Use the textbook's evidence on gender differences in specific emotions (intensity and frequency) to support your evaluation.",
+     "a": "The statement is an oversimplification. Evidence indicates women experience **all emotions except anger** more intensely than men, while men report higher intensity and frequency of **anger**. This is attributed to social roles (competitiveness for men, affiliation/caring for women), not a global \"emotionality\" difference. A wrong answer agreeing with the stereotype ignores the specific, nuanced data and the sociocultural explanation provided in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel example of a \"cultural display rule\" for an Indian context that modifies the expression of a basic emotion. Explain the rule, the emotion, and the behavioral modification.",
+     "a": "Example: **Emotion**: Anger (basic). **Context**: A young employee receives unfair criticism from a senior boss in a traditional Indian workplace. **Display Rule**: *Deference to hierarchy/seniority suppresses direct confrontation.* **Modification**: Instead of showing anger facially (frowning, glaring) or verbally (arguing), the employee smiles politely, lowers gaze (peripheral gaze), and says \"Ji, theek hai\" (Yes, okay), later venting to a peer. A poor example would lack a specific cultural norm (hierarchy, collectivism) or confuse the rule with individual suppression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

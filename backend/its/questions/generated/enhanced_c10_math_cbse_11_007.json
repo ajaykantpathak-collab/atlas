@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_007",
+   "title": "c10_math_cbse_11_007",
+   "questions": [
+    {
+     "q": "Write the formula for the area of a minor segment of a circle of radius r and central angle θ (in degrees). State the meaning of each symbol.",
+     "a": "Area = (θ/360) × πr² − (1/2) r² sin θ, where r is the radius of the circle, θ is the central angle subtended by the chord (in degrees), π ≈ 22/7 or 3.14, and sin θ is the trigonometric ratio of angle θ. A wrong answer (e.g., writing sector area only, or using ½ r² cos θ, or forgetting the ½ in triangle area) reveals that the student has not distinguished between sector and segment, or confuses the triangle area formula (using sin instead of cos, or missing the factor ½).",
+     "self_check": true
+    },
+    {
+     "q": "A chord of a circle of radius 10 cm subtends an angle of 60° at the centre. Explain why the area of the minor segment is NOT simply (60/360) × π × 10².",
+     "a": "The expression (60/360) × π × 10² gives the area of the sector only. The minor segment is the region between the chord and the arc, which is the sector minus the triangle formed by the two radii and the chord. The triangle has area (1/2) × 10² × sin 60°, which must be subtracted. If a student says the sector area is the segment area, they confuse the two regions and do not understand that the segment excludes the triangular part.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the minor segment of a circle of radius 14 cm, if the chord subtends an angle of 90° at the centre. Use π = 22/7 and √2 ≈ 1.414.",
+     "a": "Given: r = 14 cm, θ = 90°.\nStep 1: Area of sector = (90/360) × (22/7) × 14² = (1/4) × (22/7) × 196 = 154 cm².\nStep 2: Area of triangle = (1/2) × 14² × sin 90° = (1/2) × 196 × 1 = 98 cm².\nStep 3: Area of minor segment = 154 − 98 = 56 cm².\nA wrong answer (e.g., 154 cm²) means the student forgot to subtract the triangle. An answer like 28 cm² suggests they used (1/2) r² sin θ incorrectly (maybe used r instead of r²). An answer of 196 cm² suggests they used the wrong formula for sector (e.g., (90/180) instead of (90/360)).",
+     "self_check": true
+    },
+    {
+     "q": "A chord of a circle of radius 12 cm subtends an angle of 120° at the centre. Compare the area of the minor segment and the major segment. Which is larger and by how much? (Use π = 3.14, √3 = 1.732)",
+     "a": "Minor segment: Sector area = (120/360) × 3.14 × 144 = 150.72 cm². Triangle area = (1/2) × 144 × sin 120° = 72 × (√3/2) = 72 × 0.866 = 62.352 cm². Minor segment = 150.72 − 62.352 = 88.368 cm².\nCircle area = 3.14 × 144 = 452.16 cm². Major segment = 452.16 − 88.368 = 363.792 cm².\nMajor segment is larger by 363.792 − 88.368 = 275.424 cm².\nA wrong comparison (e.g., saying minor is larger) reveals the student does not understand that the major segment is the rest of the circle. An error in triangle area (using sin 120° = 1 or 0.5) shows confusion with trigonometric values of obtuse angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find the area of the minor segment of a circle of radius 7 cm, chord subtending 60°.\" Their working:\nSector = (60/360) × (22/7) × 49 = 25.67 cm² (approx).\nTriangle = (1/2) × 7 × sin 60° = 3.5 × 0.866 = 3.03 cm².\nSegment = 25.67 − 3.03 = 22.64 cm².\nIdentify the error and give the correct answer.",
+     "a": "The student used (1/2) × r × sin θ instead of (1/2) × r² × sin θ in the triangle area. The radius should be squared.\nCorrect triangle area = (1/2) × 49 × (√3/2) = 24.5 × 0.866 = 21.217 cm².\nCorrect segment area = 25.67 − 21.217 = 4.453 cm² (using π=22/7: sector = 25.666..., triangle = 21.217, segment = 4.449 cm²).\nIf the student does not spot the missing square on r, they have a fundamental algebraic error in the triangle area formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires finding the area of a major segment. Provide the given data (radius, central angle) and ask for the area of the major segment. Ensure the problem is solvable in 3-4 steps.",
+     "a": "Example problem: \"A circular park of radius 20 m has a walking track along a chord that subtends an angle of 100° at the centre. The track divides the park into two regions. Find the area of the larger region (major segment). Use π = 3.14.\"\nSolution steps: 1) Find circle area = 3.14 × 400 = 1256 m². 2) Find minor sector area = (100/360) × 1256 = 348.89 m². 3) Find triangle area = (1/2) × 400 × sin 100° = 200 × 0.9848 = 196.96 m². 4) Minor segment = 348.89 − 196.96 = 151.93 m². 5) Major segment = 1256 − 151.93 = 1104.07 m².\nA poor answer would give a problem that asks for minor segment, or uses an angle > 180° directly, or omits necessary data (radius or angle). This reveals the student cannot distinguish between minor/major segment scenarios or design a valid multi-step problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_011",
+   "title": "c11_bs_cbse_01_011",
+   "questions": [
+    {
+     "q": "Define 'profit' in the context of business studies and state its formula using the terms 'total revenue' and 'total cost'.",
+     "a": "Profit = Total Revenue – Total Cost (including both explicit and implicit costs). A wrong answer like \"Profit = Selling Price – Cost Price\" reveals the student is confusing unit-level accounting profit with the economic concept of profit for the whole enterprise, and is ignoring implicit costs like opportunity cost of owner's capital and entrepreneurship.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If profit is the reward for risk, then a business should always try to maximise profit because higher risk deserves higher reward.\" Explain why this reasoning is flawed using the NCERT concept of 'multiple objectives'.",
+     "a": "The reasoning is flawed because profit maximisation to the exclusion of other objectives leads to neglect of customers, employees, investors, and society, causing opposition and long-term failure. NCERT lists six objectives (market standing, innovation, productivity, resources, profit, social responsibility) — maximising only profit undermines the others. A wrong answer shows the student treats profit as a standalone goal rather than a necessary condition within a system of interdependent objectives.",
+     "self_check": true
+    },
+    {
+     "q": "A cloud kitchen owner reduces ingredient quality to increase profit margin from 5% to 15%. Within three months, orders drop 40% and two delivery partners quit. Identify which TWO NCERT business objectives were sacrificed and explain the causal chain.",
+     "a": "Sacrificed objectives: (1) Market standing — quality reduction destroyed reputation and competitive positioning; (2) Social responsibility — exploiting customer trust for short-term gain. Causal chain: lower quality → customer dissatisfaction → negative reviews → order drop → delivery partner income loss → partner exit. A wrong answer identifying only 'profit' or 'productivity' shows inability to trace second-order consequences of objective imbalance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 'profit as source of finance for expansion' with 'profit as indicator of efficient working'. How does the same profit figure serve both roles differently for internal management vs. external investors?",
+     "a": "For internal management, retained profit funds expansion without debt (source of finance); for external investors, the profit margin and trend signal operational efficiency and competence (indicator). The same ₹10 lakh profit means \"we can buy a new delivery van\" internally, but \"this team manages costs well\" externally. A wrong answer treating them as identical reveals failure to distinguish internal resource allocation from external signalling function.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Non-profit organisations don't need profit, so the concept of profit as reward for risk doesn't apply to them.\" Use the NCERT distinction between 'economic activity' and 'profit motive'.",
+     "a": "The statement is incorrect. Non-profits (hospitals, schools, NGOs) engage in economic activity — they produce/procure goods/services, exchange them for value, and face uncertainty of return. They need surplus (excess of revenue over cost) to sustain operations, build reserves, and absorb shocks. 'No profit' means 'no distribution to owners', not 'no surplus'. A wrong answer conflates 'profit motive' with 'economic viability', missing that risk-bearing requires financial cushion regardless of ownership structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page 'Objective Dashboard' for a startup making affordable prosthetic limbs. The dashboard must include all six NCERT objectives with one measurable KPI each, and show how profit enables two specific social objectives.",
+     "a": "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour; (4) Resources — capacity utilisation %; (5) Profit — operating margin %; (6) Social responsibility — # subsidised limbs donated. Profit enables: (a) cross-subsidisation of poor patients (social responsibility), (b) R&D for lighter materials (innovation). A poor answer lists generic KPIs or fails to link profit to specific social outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_004",
+   "title": "c12_biotech_cbse_10_004",
+   "questions": [
+    {
+     "q": "A student writes: \"Recombinant human insulin is produced by inserting the human insulin gene into E. coli, which then secretes mature insulin directly into the culture medium.\" Identify the factual error in this statement.",
+     "a": "The error: E. coli does not secrete mature insulin into the medium. Insulin is produced as preproinsulin → proinsulin → mature insulin (A and B chains linked by disulfide bonds). In E. coli, it accumulates as inclusion bodies (insoluble aggregates) in the cytoplasm, requiring cell lysis, solubilization, refolding, and enzymatic cleavage of the C-peptide. A wrong answer reveals the student assumes bacterial secretion pathways handle eukaryotic proteins correctly and ignores inclusion body formation and processing steps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a therapeutic protein requiring complex N-linked glycosylation (e.g., erythropoietin) cannot be functionally produced in E. coli, but can be produced in CHO (Chinese Hamster Ovary) cells. Use the terms \"post-translational modification,\" \"glycosylation machinery,\" and \"biological activity\" in your explanation.",
+     "a": "E. coli lacks the endoplasmic reticulum and Golgi apparatus where N-linked glycosylation occurs; it has no oligosaccharyltransferase complex or nucleotide sugar donors for complex glycan assembly. Without proper glycosylation, erythropoietin has a drastically reduced serum half-life (minutes vs hours) and diminished receptor binding affinity, destroying its biological activity. CHO cells possess the complete eukaryotic glycosylation machinery, producing human-like glycan profiles. A wrong answer reveals confusion between protein folding (which E. coli can sometimes do with chaperones) and glycosylation (which requires organelles E. coli lacks).",
+     "self_check": true
+    },
+    {
+     "q": "A bioprocess engineer is optimizing recombinant human growth hormone (hGH) production in E. coli. The protein forms inclusion bodies. Design a 5-step downstream processing sequence starting from harvested cell paste to purified hGH, justifying each step's purpose. Assume the final product must have <0.1% host cell protein (HCP) and <1 EU/mg endotoxin.",
+     "a": "1. **Cell lysis** (high-pressure homogenization): breaks E. coli cells to release inclusion bodies; 2. **Inclusion body isolation** (centrifugation + washing with Triton X-100): separates dense inclusion bodies from membranes, DNA, soluble proteins; 3. **Solubilization** (8 M urea or 6 M guanidine-HCl + 10 mM DTT): denatures and reduces disulfide bonds to unfold aggregated protein; 4. **Refolding** (rapid dilution or dialysis into redox buffer: 1 mM reduced/0.1 mM oxidized glutathione): allows correct disulfide bond formation (hGH has 2 disulfide bonds); 5. **Purification**: (a) Affinity chromatography (Ni-NTA if His-tagged) or ion-exchange (hGH pI ~5.1) → (b) Size-exclusion chromatography (polishing, removes aggregates/HCP) → (c) Viral clearance/endotoxin removal (anion exchange at low pH). A wrong answer reveals missing refolding step, incorrect chromatography order, or ignoring endotoxin removal specific to E. coli.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the two-phase cultivation process for recombinant human insulin production in E. coli (glycerol batch → methanol fed-batch) with a single continuous culture for a non-recombinant product like citric acid. Analyze why the two-phase strategy is essential for recombinant protein yield but not for primary metabolites.",
+     "a": "**Two-phase insulin (E. coli)**: Phase 1 (glycerol batch) — high cell density growth *without* induction; represses promoter (e.g., lac/tac), avoids metabolic burden/toxicity of insulin precursor. Phase 2 (methanol fed-batch) — induces expression (if using AOX1 promoter in yeast; for E. coli typically IPTG induction during fed-batch on glycerol/glucose), maintains controlled growth rate, limits acetate formation, extends production phase. **Continuous citric acid (A. niger)**: Primary metabolite, growth-associated; steady state maximizes productivity without genetic instability concerns. **Why two-phase for recombinant**: Recombinant protein expression imposes metabolic burden, plasmid instability, and potential toxicity; separating growth from production decouples these conflicts. Continuous culture would dilute plasmid-bearing cells (segregational instability) and select for non-producers. A wrong answer reveals failure to link metabolic burden, plasmid stability, and promoter regulation to cultivation strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For all recombinant therapeutic proteins, mammalian cell culture (e.g., CHO) is superior to microbial systems (E. coli, yeast) because it guarantees authentic human post-translational modifications.\" Provide three specific counterexamples where microbial systems are preferred, with justification.",
+     "a": "Claim is **false**. Counterexamples: (1) **Human insulin** — non-glycosylated, simple disulfide bonds; E. coli yields >1 g/L, lower cost, faster doubling time (20 min vs 24 h), no viral contamination risk; (2) **Human growth hormone (hGH)** — non-glycosylated; E. coli inclusion body process is FDA-approved (Genotropin®), cost-effective; (3) **Interferon-α2b** — non-glycosylated; E. coli production established (Intron A®), high yield. Mammalian cells are *required* only for complex glycosylation (e.g., erythropoietin, mAbs, Factor VIII). Microbial systems win on: yield, speed, cost, scalability, regulatory simplicity, and absence of adventitious viruses. A wrong answer reveals binary thinking (mammalian = always better) and ignorance of protein-specific PTM requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart for selecting an expression host for a *new* recombinant therapeutic protein. The flowchart must have at least 4 decision nodes based on protein properties (e.g., glycosylation, disulfide bonds, size, toxicity) and output one of: E. coli, yeast (Pichia/Saccharomyces), mammalian (CHO/HEK), or insect (Sf9). Include a \"red flag\" branch for proteins requiring γ-carboxylation or α-2,6-sialylation.",
+     "a": "**Flowchart logic**: \nStart → **Decision 1**: Does the protein require complex N-/O-glycosylation for activity? \n- YES → **Decision 2**: Requires human-like sialylation (α-2,6) or γ-carboxylation? \n  - YES → **Mammalian (CHO/HEK)** [Red flag: insect/yeast lack these] \n  - NO → **Decision 3**: High mannose or simple glycans acceptable? → **Yeast (Pichia)** or **Insect (Sf9)** \n- NO → **Decision 4**: Requires disulfide bonds? \n  - YES → **Decision 5**: Small (<30 kDa), simple structure? → **E. coli** (with refolding) or **Yeast** (secretion, oxidative folding) \n  - NO → **E. coli** (cytoplasmic or periplasmic) \n**Red flag branch**: γ-carboxylation (Factor IX, protein C) or α-2,6-sialylation (erythropoietin long half-life) → **Mammalian only**. A poor answer produces a linear list instead of a branching flowchart, misses the red flag, or assigns glycosylated proteins to E. coli.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_1",
+   "title": "c9_chem_ch2_1",
+   "questions": [
+    {
+     "q": "State the charge (in coulombs) and relative mass of an electron, a proton, and a neutron.",
+     "a": "Electron: charge = –1.6 × 10⁻¹⁹ C, relative mass = 1/1837 u (≈0.00055 u). Proton: charge = +1.6 × 10⁻¹⁹ C, relative mass = 1 u. Neutron: charge = 0 C, relative mass = 1 u. A wrong answer (e.g., giving proton mass as 1837 u or neutron charge as –1.6 × 10⁻¹⁹ C) reveals confusion between absolute and relative values or mixing up particle identities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an atom is electrically neutral even though it contains charged particles.",
+     "a": "An atom contains equal numbers of protons (each +1.6 × 10⁻¹⁹ C) and electrons (each –1.6 × 10⁻¹⁹ C). The total positive charge exactly cancels the total negative charge, resulting in net zero charge. Neutrons contribute no charge. A wrong answer (e.g., “neutrons balance the charge” or “electrons are inside the nucleus”) shows misunderstanding of charge equality or particle location.",
+     "self_check": true
+    },
+    {
+     "q": "A particle has a charge of +3.2 × 10⁻¹⁹ C and a mass of 3.34 × 10⁻²⁷ kg. Identify the particle and justify your answer using the known properties of subatomic particles.",
+     "a": "Step 1: Note charge is positive and exactly twice the elementary charge (+2 × 1.6 × 10⁻¹⁹ C). Step 2: Compare mass: proton mass ≈ 1.67 × 10⁻²⁷ kg; given mass ≈ 2 × proton mass. Step 3: No single subatomic particle has +2e charge and 2u mass. Step 4: Conclude it is not a fundamental subatomic particle but likely an alpha particle (He²⁺ nucleus) or a doubly charged ion. A wrong identification (e.g., “proton” or “alpha particle without justification”) reveals inability to apply charge/mass multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the penetrating power of cathode rays (electrons) and canal rays (protons) and explain the difference based on their mass and charge.",
+     "a": "Cathode rays (electrons) have very low mass (9.1 × 10⁻³¹ kg) and high charge-to-mass ratio, so they are easily deflected by electric/magnetic fields and have low penetrating power (stopped by thin foil). Canal rays (protons) are ~1837 times heavier, same charge magnitude, so lower charge-to-mass ratio, less deflection, higher penetrating power. A wrong answer (e.g., “protons penetrate less because they are positive”) confuses charge sign with mass effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: “Neutrons have no charge, so they do not affect the mass of an atom.” Evaluate this statement and correct it.",
+     "a": "The statement is false. Neutrons have zero charge but contribute significantly to mass (mass ≈ 1 u, same as proton). Atomic mass number = protons + neutrons. Without neutrons, mass would be roughly half for many elements. A wrong evaluation (e.g., agreeing) reveals the misconception that “no charge means no mass”.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment to demonstrate that electrons have negligible mass compared to protons, using only the concept of charge-to-mass ratio and deflection in a magnetic field.",
+     "a": "Place an electron and a proton in the same uniform magnetic field with identical velocity. The radius of curvature r = mv/(qB). Since q is same magnitude, r ∝ m. The electron’s path curves sharply (tiny radius) while the proton’s path curves gently (large radius). Observing the dramatically different curvatures proves the electron’s mass is far smaller. A poor answer (e.g., “weigh them on a balance”) ignores the subatomic scale and shows inability to design an indirect measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

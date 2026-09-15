@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class11_maths_ch111.json",
+ "concepts": [
+  {
+   "id": "kemh.11.2.1",
+   "title": "Octants and Coordinate Planes in 3D Space",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 2 - -5 gives 7",
+     "compute": "dx = 2 - -5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 21 - -3 gives 24",
+     "compute": "dy = 21 - -3"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 25",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-5, -3) and (2, 21).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (2, 3) from the origin.",
+     "a": "3.61",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-5, -7) and (-4, -4).",
+     "a": "-4.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (4, 0) internally in the ratio 1 : 3. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (4, -5), (-1, -4) and (5, 0) (two decimal places).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-1, 1), (4, 3) and (1, 5).",
+     "a": "1.33333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.3.1",
+   "title": "Coordinates on Axes and Coordinate Planes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 8 - 0 gives 8",
+     "compute": "dx = 8 - 0"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 20 - 5 gives 15",
+     "compute": "dy = 20 - 5"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 17",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (0, 5) and (8, 20).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (4, 6) from the origin.",
+     "a": "7.21",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-8, 1) and (2, 7).",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 1 : 2. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (4, -1), (6, 0) and (1, 0) (two decimal places).",
+     "a": "2.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (4, 4), (2, 2) and (-5, -4).",
+     "a": "0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.1",
+   "title": "Distance Between Two Points in 3D Space",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (0, 7) and (5, 19).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (3, 9) from the origin.",
+     "a": "9.49",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (1, 7) and (7, 0).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 2 : 3. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (1, -4), (2, -4) and (-6, 0) (two decimal places).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-2, 3), (-2, -1) and (3, 5).",
+     "a": "-0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.2",
+   "title": "Distance of a Point from the Origin",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular pentagon?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.3",
+   "title": "Collinearity of Three Points in 3D Space",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 11 - -1 gives 12",
+     "compute": "dx = 11 - -1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 17 - 1 gives 16",
+     "compute": "dy = 17 - 1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-1, 1) and (11, 17).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (2, 5) from the origin.",
+     "a": "5.39",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (4, 2) and (1, 2).",
+     "a": "2.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (6, 0) internally in the ratio 4 : 2. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-1, 2), (-4, -5) and (-5, 0) (two decimal places).",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (1, 5), (1, 5) and (-1, -4).",
+     "a": "0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.4",
+   "title": "Geometric Classification of Triangles and Polygons",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
+     "compute": "other = 90 - 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 76 degrees, find the other.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 18 degrees; find the other.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 112 degrees and 27 degrees, find the remaining angle.",
+     "a": "221",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 77 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 107 degrees. Find its co-interior partner.",
+     "a": "73",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.5",
+   "title": "Locus Equation satisfying Distance Conditions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (106 - 7) / 9 gives 11",
+     "compute": "x = (106 - 7) / 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 9x + 7 = 106.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 15 = -1.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 12 = 8.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 39 = 3.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 1 = 1x + 21.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 2) = 14.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.M.1",
+   "title": "Centroid of a Triangle in 3D Space",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-7, -3) and (13, 18).",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-6, -2) from the origin.",
+     "a": "6.32",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (0, -2) and (1, 5).",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (6, 0) internally in the ratio 2 : 4. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (3, 4), (3, -6) and (-1, 0) (two decimal places).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-1, 1), (-2, -2) and (-1, 2).",
+     "a": "-1.33333",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

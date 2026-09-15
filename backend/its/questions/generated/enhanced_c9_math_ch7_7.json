@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_7",
+   "title": "c9_math_ch7_7",
+   "questions": [
+    {
+     "q": "State the formula for the theoretical probability of an event E when all outcomes are equally likely. Define each term in the formula.",
+     "a": "The formula is P(E) = n(E) / n(S), where n(E) is the number of outcomes favourable to event E and n(S) is the total number of possible outcomes in the sample space S. A wrong answer (e.g., writing P(E) = n(S)/n(E) or using experimental probability formula) reveals confusion between theoretical and empirical probability or inversion of the ratio, indicating the student does not understand that probability measures favourable cases relative to total cases.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. One ball is drawn at random. A student claims the probability of drawing a red ball is 5/3 because there are 5 red and 3 blue balls. Explain why this reasoning is incorrect and state the correct probability.",
+     "a": "The student incorrectly used only the number of blue balls as the denominator instead of the total number of balls. The total outcomes are 5+3+2 = 10. The correct probability is 5/10 = 1/2. A wrong answer reveals the misconception that the denominator should be the number of outcomes of another specific event rather than the total number of equally likely outcomes in the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "A box contains 20 cards numbered 1 to 20. One card is drawn at random. Find the probability that the card bears a number which is a multiple of 4. Express your answer as a simplified fraction.",
+     "a": "Step 1: Total outcomes n(S) = 20 (numbers 1 to 20).\nStep 2: Favourable outcomes: multiples of 4 between 1 and 20 are {4, 8, 12, 16, 20}. So n(E) = 5.\nStep 3: P(E) = n(E)/n(S) = 5/20.\nStep 4: Simplify fraction: 5/20 = 1/4.\nAnswer: 1/4. A wrong answer (e.g., 4/20 or 5/16) reveals errors in listing multiples, counting total outcomes, or simplifying fractions, indicating weak number sense or carelessness in identifying the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the probability of getting a prime number when a die is rolled once versus when two dice are rolled and the sum of the numbers is considered. Which experiment has a higher probability of the event \"prime number\"? Justify your answer by calculating both probabilities.",
+     "a": "Experiment 1 (one die): Sample space = {1,2,3,4,5,6}. Prime numbers = {2,3,5}. P(prime) = 3/6 = 1/2.\nExperiment 2 (two dice, sum): Total outcomes = 36. Prime sums possible: 2,3,5,7,11. Count favourable outcomes: sum=2 (1 way), 3 (2 ways), 5 (4 ways), 7 (6 ways), 11 (2 ways). Total favourable = 1+2+4+6+2 = 15. P(prime sum) = 15/36 = 5/12 ≈ 0.417.\nSince 1/2 = 0.5 > 5/12 ≈ 0.417, the single die experiment has higher probability. A wrong answer (e.g., claiming two dice has higher probability because more primes) reveals inability to systematically count outcomes in a larger sample space or misunderstanding that probability depends on the ratio, not absolute count of favourable outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"A coin is tossed 3 times. Find the probability of getting exactly 2 heads.\" Their solution: Sample space = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. Favourable outcomes = {HHT, HTH, THH}. Probability = 3/8. Evaluate if this solution is correct. If not, identify the error and give the correct answer.",
+     "a": "The solution is correct. The sample space for 3 coin tosses has 2^3 = 8 equally likely outcomes. The favourable outcomes for exactly 2 heads are indeed HHT, HTH, THH (3 outcomes). Probability = 3/8. If a student says it's incorrect, they might mistakenly think order doesn't matter (giving 1/4) or miscount the sample space. A wrong evaluation reveals inability to verify systematic listing or confusion between combinations and permutations in probability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the probability of an event is exactly 3/10. The problem must involve a finite sample space with equally likely outcomes. Write the problem statement, define the sample space, identify the event, and show the calculation.",
+     "a": "Example problem: \"A box contains 10 chits numbered 1 to 10. One chit is drawn at random. Find the probability that the number is a multiple of 3.\" Sample space S = {1,2,3,4,5,6,7,8,9,10}, n(S)=10. Event E = {3,6,9}, n(E)=3. P(E)=3/10. A poor answer might use non-equally likely outcomes (e.g., \"a bag with 3 red and 7 blue balls of different sizes\") or an infinite sample space, revealing lack of understanding of the equally likely condition or finite sample space requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

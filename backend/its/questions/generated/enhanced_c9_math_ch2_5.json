@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_5",
+   "title": "c9_math_ch2_5",
+   "questions": [
+    {
+     "q": "What is the minimum number of points needed to draw the graph of a linear equation in two variables, and why is that number sufficient?",
+     "a": "Two points are sufficient because a straight line is uniquely determined by two distinct points. A third point is used only for verification. If a student answers \"three points\" without explaining that two determine the line and the third checks accuracy, they are following a procedure without understanding the geometric property that two points fix a line.",
+     "self_check": true
+    },
+    {
+     "q": "The equation 2x + 3y = 12 is rewritten as y = 4 - (2/3)x. A student says: \"The graph will be a straight line passing through (0, 4) and (6, 0).\" Is the student correct? Explain why the intercepts found this way must lie on the graph of the original equation.",
+     "a": "Yes, the student is correct. The y-intercept (0, 4) comes from setting x = 0 in the original equation: 2(0) + 3y = 12 → y = 4. The x-intercept (6, 0) comes from setting y = 0: 2x + 3(0) = 12 → x = 6. Both satisfy the original equation, so they lie on the graph. If a student only checks the rewritten form without verifying against the original, they may miss algebraic errors in rearrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Plot the graph of the equation 3x - 2y = 6. Find three points on the line, including both intercepts. Then determine whether the point (4, 3) lies on this line without plotting it.",
+     "a": "Step 1: Find x-intercept: set y = 0 → 3x = 6 → x = 2 → point (2, 0)\nStep 2: Find y-intercept: set x = 0 → -2y = 6 → y = -3 → point (0, -3)\nStep 3: Find a third point: choose x = 4 → 3(4) - 2y = 6 → 12 - 2y = 6 → -2y = -6 → y = 3 → point (4, 3)\nStep 4: Check (4, 3): LHS = 3(4) - 2(3) = 12 - 6 = 6 = RHS. Yes, (4, 3) lies on the line.\nIf a student gets y = -3 for x = 4, they likely made a sign error: 12 - 2y = 6 → -2y = -6 → y = 3 (not -3).",
+     "self_check": true
+    },
+    {
+     "q": "Two students plot the graph of x + y = 5. Student A uses points (0, 5), (1, 4), (2, 3). Student B uses points (5, 0), (4, 1), (3, 2). Will their lines be the same? Explain using the concept of solution sets.",
+     "a": "Yes, both lines will be identical. The solution set of x + y = 5 is {(x, y) | x + y = 5}. Both students' points satisfy this equation: Student A's points give 0+5=5, 1+4=5, 2+3=5; Student B's give 5+0=5, 4+1=5, 3+2=5. Since a linear equation has infinitely many solutions all lying on one unique straight line, any two points from the solution set determine the same line. If a student says the lines are different because the points are different, they confuse the set of plotted points with the geometric line.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots the equation 4x - 5y = 20 and gets points (0, -4), (5, 0), and (10, 4). They draw a line through these points. Another student says: \"The point (2.5, -2) should also lie on this line.\" Evaluate this claim without plotting.",
+     "a": "The claim is correct. Substitute x = 2.5, y = -2 into the equation: LHS = 4(2.5) - 5(-2) = 10 + 10 = 20 = RHS. Since the equation holds, (2.5, -2) is a solution and must lie on the line. The first student's three points are consistent: (0, -4): 0 - 5(-4) = 20; (5, 0): 20 - 0 = 20; (10, 4): 40 - 20 = 20. If a student rejects the claim because 2.5 is not an integer, they misunderstand that linear equations have solutions for all real x, not just integers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) that can be modeled by the linear equation 5x + 8y = 200, where x and y represent quantities of two different items. Write the equation in slope-intercept form and explain what the slope and y-intercept represent in your situation.",
+     "a": "Situation: A student has ₹200 to buy notebooks (₹5 each) and pens (₹8 each). Let x = number of notebooks, y = number of pens. Equation: 5x + 8y = 200. Slope-intercept form: 8y = 200 - 5x → y = 25 - (5/8)x. Slope = -5/8: for every 8 notebooks bought, 5 fewer pens can be bought (trade-off rate). Y-intercept = 25: if no notebooks are bought (x=0), maximum 25 pens can be bought. A poor answer would give a situation without explaining the meaning of slope/intercept in context, showing lack of interpretive skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

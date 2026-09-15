@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_010",
+   "title": "c12_geo_cbse_20_010",
+   "questions": [
+    {
+     "q": "What is the correct X-axis variable for a \"less than\" cumulative frequency curve (ogive)?",
+     "a": "The X-axis uses the upper class boundaries of each class interval. A wrong answer (e.g., using mid-points or lower limits) reveals the student confuses ogive construction with histogram or frequency polygon plotting, where mid-points are used.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the \"more than\" ogive start at the total frequency on the Y-axis and decrease, while the \"less than\" ogive starts at zero and increases?",
+     "a": "The \"more than\" ogive plots cumulative frequencies from the top (all observations are \"more than\" the lowest lower limit), so it begins at total N and declines; the \"less than\" ogive accumulates from the bottom, starting at zero. A wrong answer indicates the student does not understand the directional accumulation logic of cumulative frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following grouped data of annual rainfall (cm) for 30 years: 0-20: 3, 20-40: 5, 40-60: 12, 60-80: 7, 80-100: 3. Construct the \"less than\" cumulative frequency table and state the coordinates of the first two points to plot.",
+     "a": "Less-than cumulative frequencies: <20: 3, <40: 8, <60: 20, <80: 27, <100: 30. First two points: (20, 3) and (40, 8). A wrong answer (e.g., using mid-points 10, 30 or lower limits 0, 20) shows the student misidentifies the plotting coordinates for ogives.",
+     "self_check": true
+    },
+    {
+     "q": "Two ogives (less than and more than) are drawn on the same graph for a dataset of 40 observations. The curves intersect at a point whose perpendicular on the X-axis falls at 52.5. What is the median of the distribution? Explain why this method works.",
+     "a": "Median = 52.5. The intersection point represents the value where cumulative frequency from below equals cumulative frequency from above, i.e., half the observations lie below and half above, which is the definition of median. A wrong answer (e.g., reading the Y-coordinate) reveals confusion between the median (X-axis value) and cumulative frequency (Y-axis value).",
+     "self_check": true
+    },
+    {
+     "q": "A student draws both ogives but they do not intersect within the plotted range. What could be the possible error(s) in construction? Evaluate the most likely cause.",
+     "a": "Most likely cause: incorrect cumulative frequency calculation (e.g., not starting from zero for less-than, or not ending at total N for more-than) or plotting against wrong class boundaries (using mid-points instead of limits). Another possibility: using different scales on X-axis for the two curves. The student must verify that both curves span the same X-range and that cumulative frequencies are correctly computed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure for a Class 12 student to construct a \"more than\" ogive from raw data of 50 students' heights (in cm) ranging from 140 to 190. Include class interval selection, cumulative frequency calculation, and plotting instructions.",
+     "a": "1. Decide class intervals (e.g., 140-150, 150-160, ... 180-190). 2. Tally frequencies. 3. Compute \"more than\" cumulative frequencies starting from the lowest class: for 140-150, cumulative = total N (50); for 150-160, cumulative = 50 - freq(140-150), etc. 4. Plot lower class limits (140, 150, ..., 180) on X-axis against cumulative frequencies on Y-axis. 5. Join points with smooth curve. 6. Label axes, title, and scale. A poor answer omits the starting cumulative frequency = N or uses upper limits instead of lower limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

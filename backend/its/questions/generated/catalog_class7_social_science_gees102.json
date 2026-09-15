@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees102",
+ "concepts": [
+  {
+   "id": "gees.2.1",
+   "title": "Weather and Its Elements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather and Its Elements' refers to.",
+     "a": "Weather is the state of the atmosphere at a place and time, described by elements such as temperature, rainfall, humidity and wind, which can change within hours.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather and Its Elements'.",
+     "a": "Weather is the day-to-day mood of the air: hot or cold, wet or dry, still or windy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weather and Its Elements' taught, and from which source text?",
+     "a": "What is weather (source: gees102.txt, What is weather)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.2.2",
+   "title": "Reading the Weather Data Table",
+   "questions": [
+    {
+     "q": "Using the method 'Reading the Weather Data Table', work with: act = 18, nor = 4. Carry the chain through step by step and give the final value of dep.",
+     "a": "14 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Reading the Weather Data Table' and work with: act = 240, nor = 6. Carry the chain through step by step and give the final value of dep.",
+     "a": "234 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reading the Weather Data Table' refers to.",
+     "a": "Newspaper weather tables report each station's maximum and minimum temperature, the normal values for the date, and the departure DEP, which is the actual ACT reading minus the normal NOR reading.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reading the Weather Data Table'.",
+     "a": "The departure column condenses the day's story: a positive DEP means warmer than normal, a negative one cooler.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reading the Weather Data Table', in plain ASCII form.",
+     "a": "dep = act - nor",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.2.3",
+   "title": "Weather in Daily Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather in Daily Life' refers to.",
+     "a": "Through Krishnan of Chennai talking with a friend, the chapter shows how weather steers daily choices, from clothes and travel to farming, fishing and festival plans.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather in Daily Life'.",
+     "a": "Everyone plans around the weather: the same shower delights a farmer and delays a traveller.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weather in Daily Life' taught, and from which source text?",
+     "a": "Krishnan's dialogue (source: gees102.txt, Krishnan's dialogue)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.2.4",
+   "title": "Measuring the Elements of Weather",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Measuring the Elements of Weather' refers to.",
+     "a": "Each element of weather is measured with an instrument: thermometers record maximum and minimum temperature, a rain gauge collects rainfall, and humidity and wind have their own measures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measuring the Elements of Weather'.",
+     "a": "Careful measurement turns weather from talk into data that can be compared across days and places.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Measuring the Elements of Weather' taught, and from which source text?",
+     "a": "Measuring weather (source: gees102.txt, Measuring weather)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

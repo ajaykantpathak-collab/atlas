@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_008",
+   "title": "c11_bs_cbse_07_008",
+   "questions": [
+    {
+     "q": "A public company was incorporated on March 1, 2024. By what date must it obtain the Certificate of Commencement of Business to comply with the Companies Act 2013?",
+     "a": "The deadline is August 28, 2024 (180 days from March 1). A wrong answer (e.g., \"within 1 year\" or \"no deadline\") reveals the student confuses the 180-day rule with other timelines like annual return filing (60 days) or financial year-end. They may not grasp that this is a strict statutory deadline with penal consequences.",
+     "self_check": true
+    },
+    {
+     "q": "\"Certificate of Incorporation and Certificate of Commencement of Business are the same thing – both allow a company to start business.\" Evaluate this statement.",
+     "a": "False. Certificate of Incorporation is the \"birth certificate\" creating legal personality (conclusive evidence of existence). Certificate of Commencement is the \"license to operate\" obtained after fulfilling capital subscription conditions. A wrong answer shows the student cannot distinguish between legal existence (personality) and legal capacity (authority to transact) – a critical conceptual gap for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A public company issued a prospectus for 10 lakh shares of ₹10 each. It received applications for 8.5 lakh shares. Can it proceed with allotment and apply for Certificate of Commencement of Business? Justify.",
+     "a": "No. Minimum subscription is 90% of issue size = 9 lakh shares (SEBI guideline). 8.5 lakh shares = 85% < 90%. Allotment cannot be made; application money must be refunded. Without minimum subscription, the declaration for Commencement Certificate cannot be filed. A wrong answer (e.g., \"yes, if directors pay for qualification shares\") reveals misunderstanding that minimum subscription is a non-negotiable statutory threshold, not waivable by director contributions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal position of a contract signed by a company: (a) after Certificate of Incorporation but before Certificate of Commencement, (b) after Certificate of Commencement. What is the key difference?",
+     "a": "(a) Contracts after Incorporation but before Commencement are **provisional contracts** – binding only after Commencement Certificate is obtained. (b) Contracts after Commencement are fully enforceable immediately. A wrong answer (e.g., \"both are void\" or \"both are valid\") shows confusion between preliminary contracts (pre-incorporation, not binding) and provisional contracts (post-incorporation, conditional). This distinction is a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A private company argues: \"We don't invite public subscription, so we don't need minimum subscription. Therefore, we can get Certificate of Commencement immediately after incorporation without any declaration.\" Critique this argument using Companies Act 2013 provisions.",
+     "a": "Invalid argument. Per NCERT, **both public and private companies** must obtain Commencement Certificate within 180 days. Private companies must still file a declaration that directors have paid for qualification shares and the company has received subscription money (though no 90% SEBI rule applies). A wrong answer reveals the student missed the \"both public and private\" phrasing in the textbook summary and assumes private companies are exempt – a common error from misreading the scope.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compliance checklist for a newly incorporated public company's Company Secretary to ensure timely obtainment of Certificate of Commencement of Business. Include all statutory conditions and deadlines.",
+     "a": "A good checklist includes: (1) Verify all directors paid for qualification shares (by Day 30), (2) Ensure minimum 90% subscription achieved (by Day 60), (3) Confirm all application money received in separate bank account (by Day 60), (4) File declaration in Form INC-20A with ROC (by Day 150 to allow buffer), (5) Attach bank statement proving receipt of subscription money, (6) If no prospectus issued, file statement in lieu of prospectus 3 days before allotment. A poor checklist misses the 180-day deadline, omits the separate bank account requirement, or confuses qualification shares with minimum subscription.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

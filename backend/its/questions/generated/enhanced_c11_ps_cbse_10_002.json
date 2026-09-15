@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_002",
+   "title": "c11_ps_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a constitution in a democratic country? (Answer in one sentence.)",
+     "a": "The primary purpose of a constitution is to establish the fundamental framework of government, define and limit its powers, and guarantee fundamental rights to citizens, thereby preventing arbitrary rule. A wrong answer (e.g., \"to make laws\" or \"to elect the Prime Minister\") reveals confusion between the constitution's role as a higher-order framework and the ordinary legislative/executive functions it creates.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a constitution is described as the 'supreme law of the land'. How does this supremacy protect citizens from government overreach?",
+     "a": "A constitution is supreme because all other laws and government actions must conform to it; any law violating the constitution can be struck down by the judiciary (Article 13). This supremacy protects citizens by ensuring that even the government cannot act above the law, and rights cannot be easily taken away by ordinary legislation. A wrong answer that focuses only on the constitution being 'written first' or 'hard to change' misses the legal hierarchy and the role of judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: A state government passes a law that allows the police to detain anyone suspected of 'anti-social behavior' without trial for up to six months. Which constitutional function is being violated, and which specific provision (Article) would you cite to challenge this law?",
+     "a": "The law violates the constitution's function of limiting government power and protecting the fundamental right to life and personal liberty (Article 21) and protection against arbitrary arrest (Article 22). The student must identify that the constitution sets limits on legislative power, and any law that permits preventive detention beyond constitutional safeguards (e.g., beyond 3 months without advisory board review) is unconstitutional. A wrong answer that cites only 'human rights' without referencing constitutional articles shows inability to apply constitutional provisions to real scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of a constitution in a democracy versus an authoritarian regime. Why might an authoritarian regime still have a written constitution?",
+     "a": "In a democracy, the constitution genuinely limits power, protects rights, and enables accountability; in an authoritarian regime, a constitution may exist as a facade to legitimize the regime, but it lacks effective constraints (e.g., no independent judiciary, rights are easily overridden). Authoritarian regimes may have constitutions to gain international legitimacy, manage elite succession, or coordinate bureaucracy. A wrong answer that says 'authoritarian regimes don't have constitutions' ignores that many do (e.g., Soviet Union, North Korea) but they lack constitutionalism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A constitution is unnecessary if the majority of people are virtuous and leaders are well-intentioned.\" Use the concept of 'constitutionalism' to justify your answer.",
+     "a": "The statement is false because constitutionalism recognizes that power corrupts and that institutions must constrain power regardless of intentions. A constitution provides permanent rules, protects minorities from majority tyranny, and ensures stability beyond individual leaders. Even virtuous leaders may disagree on policies; a constitution provides a peaceful mechanism for resolving disputes. A wrong answer that agrees reveals a misunderstanding of the structural purpose of constitutions – they are designed for worst-case scenarios, not best-case.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph preamble for a hypothetical constitution of a new democratic country, incorporating at least three core functions of a constitution (e.g., popular sovereignty, rule of law, protection of minorities).",
+     "a": "A good answer will include: \"We the people... establish this Constitution to constitute a sovereign democratic republic, to secure justice, liberty, equality, and fraternity, to limit government power through separation of powers and judicial review, and to guarantee fundamental rights for all citizens including minorities.\" The preamble should reflect popular sovereignty, limitation of power, and rights protection. A poor answer that only lists aspirations without structural commitments shows lack of understanding of constitutional functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

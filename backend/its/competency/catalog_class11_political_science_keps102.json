@@ -1,0 +1,167 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 102,
+  "chapter_title": "Freedom",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps102.1.1",
+      "title": "The Meaning of Freedom: Absence of External Interference",
+      "section": "1.1",
+      "definition": "In its core sense freedom is the absence of externally imposed constraints: no outsider -- ruler, crowd or custom -- stands in the way of what a person could otherwise think, say or do. But constraint-free life is not lawless; rules that prevent one person from harming another protect rather than destroy freedom.",
+      "formula": "",
+      "key_idea": "Freedom means no arbitrary external interference -- and only rules against harm shrink it.",
+      "textbook_ref": "keps102.txt lines 1-90 (introduction and meaning of freedom, absence of external interference, constraints and their justification)",
+      "question_patterns": [
+        "define freedom in its negative sense of absence of interference",
+        "in class 11 political theory: is a society without any rules a free society",
+        "when does a constraint cease to be a curb on freedom",
+        "why can some restrictions actually enlarge freedom",
+        "distinguish freedom from licence with an example",
+        "does freedom mean being able to do anything one wishes"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the interference", "explain": "Ask whether an outside agent is blocking or coercing the person's own choices."},
+        {"step": 2, "action": "test the constraint's purpose", "explain": "Constraints that stop coercion, violence or harm to others are what make everyone else's freedom secure."},
+        {"step": 3, "action": "conclude on the balance", "explain": "Freedom is maximised not by deleting all rules but by keeping only those that guard equal liberty."}
+      ]
+    },
+    {
+      "id": "keps102.1.2",
+      "title": "Freedom as the Development of One's Own Self",
+      "section": "1.2",
+      "definition": "Beyond being left alone, freedom is also positive: the growth of a person into a self-directing individual able to make and act on genuine choices. This view values education, self-discipline and openness of options -- a person shackled by ignorance or fear is unfree even if nobody is visibly forcing her.",
+      "formula": "",
+      "key_idea": "Real freedom is self-direction, not just an empty street -- capacities and options are part of liberty.",
+      "textbook_ref": "keps102.txt lines 90-170 (positive dimension of freedom, development of the individual, self-mastery and choice)",
+      "question_patterns": [
+        "explain the positive dimension of freedom",
+        "in class 11 freedom chapter: why is education linked to freedom",
+        "how does fear or ignorance restrict freedom even without force",
+        "what does it mean to be the author of one's own life",
+        "connect freedom with the development of one's personality",
+        "give an example where expanding capacities expanded freedom"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "look past visible chains", "explain": "Interference can be invisible: fear, indoctrination or lack of education can block choice as effectively as orders."},
+        {"step": 2, "action": "build the capacities", "explain": "Knowledge, skills and self-confidence widen the menu of real options a person can genuinely choose among."},
+        {"step": 3, "action": "judge freedom by self-direction", "explain": "A free person is one who authors her own life -- so freedom includes growth, not merely absence of bars."}
+      ]
+    },
+    {
+      "id": "keps102.1.3",
+      "title": "Why Freedom Matters: Moral Autonomy and Its Limits",
+      "section": "1.3",
+      "definition": "Freedom matters because people are moral agents: they must decide for themselves what is good and bear responsibility for the choices they make. Choices that harm others are where society may intervene -- harm to self, however, is generally not enough to justify coercion, though debates continue at the margins.",
+      "formula": "",
+      "key_idea": "Moral responsibility presupposes choice -- protect choice, and only police harm to others.",
+      "textbook_ref": "keps102.txt lines 170-250 (why do we need freedom, moral basis, harm principle, limits of freedom)",
+      "question_patterns": [
+        "why is freedom necessary for moral responsibility",
+        "in class 11 freedom chapter: when may society restrict an individual's freedom",
+        "explain the harm principle with an example",
+        "should society interfere to stop self-harm",
+        "how does freedom link to the dignity of moral agents",
+        "where is the line between personal choice and public harm"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "ground freedom in agency", "explain": "Only beings who can choose can be praised or blamed; freedom is the precondition of moral life."},
+        {"step": 2, "action": "apply the harm test", "explain": "Coercion is justified only to prevent harm to others, not simply because the majority dislikes a choice."},
+        {"step": 3, "action": "mark the grey zones", "explain": "Public health, decency and children's welfare push at the boundary and demand case-by-case argument."}
+      ]
+    },
+    {
+      "id": "keps102.1.4",
+      "title": "Swaraj and Gandhi's View of Freedom",
+      "section": "1.4",
+      "definition": "For Gandhi, swaraj meant more than throwing out foreign rulers: it demanded self-rule in the deepest sense -- discipline over one's own desires, courage rather than fear, and village-level self-reliance. Political freedom without this inner restraint would merely change masters.",
+      "formula": "",
+      "key_idea": "Swaraj is rule over oneself first -- fearlessness and self-restraint are the raw material of real independence.",
+      "textbook_ref": "keps102.txt lines 250-340 (swaraj in the Indian freedom struggle, Gandhi's conception, critique of modernity, self-rule)",
+      "question_patterns": [
+        "what did Gandhi mean by swaraj",
+        "in class 11 freedom chapter: how is swaraj different from mere political independence",
+        "why did Gandhi stress self-discipline as part of freedom",
+        "connect swaraj with fearlessness and courage",
+        "how does Gandhi's swaraj involve village self-reliance",
+        "did Gandhi accept the modern state's idea of freedom"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "expand the target of rule", "explain": "Swaraj rules out foreign rule but also demands mastery over one's own greed and fear."},
+        {"step": 2, "action": "value the means as much as the end", "explain": "Fearless, non-violent struggle was itself the practice of swaraj -- freedom learned by living it."},
+        {"step": 3, "action": "localise power", "explain": "Self-reliant villages with their own governance were the social form swaraj was meant to take."}
+      ]
+    },
+    {
+      "id": "keps102.1.5",
+      "title": "Freedom of Expression and Its Importance",
+      "section": "1.5",
+      "definition": "Freedom of expression lets people speak, write, publish and disagree without fear, and it does double duty: it lets individuals develop their minds, and it keeps governments under the criticism they need. Reasonable limits -- defamation, incitement to violence -- protect other people's equal claims without silencing dissent.",
+      "formula": "",
+      "key_idea": "Free speech builds both the self and the watchdog -- limits only where speech harms others.",
+      "textbook_ref": "keps102.txt lines 340-420 (freedom of expression, its value for individuals and democracy, reasonable restrictions, dissent and debate)",
+      "question_patterns": [
+        "why is freedom of expression essential in a democracy",
+        "in class 11 freedom chapter: what limits on expression are justified",
+        "how does free speech help individual development",
+        "can criticism of government be restricted to protect its dignity",
+        "distinguish free speech from incitement to violence",
+        "what happens to a society that silences dissent"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the individual value", "explain": "Expression is how thought develops; muzzled speech stunts both the speaker and the audience."},
+        {"step": 2, "action": "trace the political value", "explain": "Democracy needs citizens who can question, expose and propose -- free expression supplies this oversight."},
+        {"step": 3, "action": "apply the limits", "explain": "Restrictions are legitimate only for clear harms such as defamation or incitement, never to shield power from criticism."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps102.txt lines 170-250 (harm principle)",
+      "concept": "keps102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A state bans a writer's novel because it offends the majority's religious feelings. Assess the ban using the harm principle.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "classify the harm claimed", "explain": "Being offended is not the same as being harmed in life or limb; no coercion of others is involved in publishing a novel."},
+        {"step": 2, "action": "test the justification", "explain": "Under the harm principle, offense alone cannot justify censorship; only incitement to concrete harm can."},
+        {"step": 3, "action": "conclude", "explain": "The ban fails the test: a free society protects unpopular expression while punishing any actual incitement."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps102.txt lines 250-340 (swaraj)",
+      "concept": "keps102.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A student claims India became free in 1947 and therefore swaraj was fully achieved. Evaluate using Gandhi's understanding.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "grant the political part", "explain": "1947 did end foreign rule -- the political shell of swaraj was won."},
+        {"step": 2, "action": "apply the inner criterion", "explain": "For Gandhi swaraj also required fearlessness, self-restraint and self-reliant communities, which no single date delivers."},
+        {"step": 3, "action": "conclude", "explain": "Independence is the beginning of swaraj, not its completion; the inner and social work remains continuous."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps102.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Explain the negative and positive senses of freedom with one example each.",
+        "What is the difference between a constraint on freedom and a constraint that secures freedom?",
+        "Why is freedom essential for moral responsibility according to political theorists?",
+        "Describe Gandhi's idea of swaraj and how it differs from mere independence.",
+        "What are the reasonable restrictions on freedom of expression in a democracy?",
+        "Should society prohibit people from harming only themselves? Present both sides."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 204,
+ "chapter_title": "The Theory of the Firm under Perfect Competition",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leec204.txt",
+ "concepts": [
+  {
+   "id": "leec.4.1",
+   "title": "Characteristics of Perfect Competition",
+   "section": "4.1",
+   "definition": "A market structure marked by numerous buyers and sellers, homogeneous products, unrestricted entry and exit, and complete information, making firms price-takers.",
+   "formula": "price = AR = MR",
+   "key_idea": "Firms sell identical products at a uniform market-determined price.",
+   "textbook_ref": "leec204.txt lines 25-60",
+   "question_patterns": [
+    "what are the main features of perfect competition",
+    "describe the market structure where firms are price takers",
+    "why is a competitive firm unable to influence market price",
+    "explain free entry and exit in perfect competition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify price-taking nature",
+     "explain": "Because each firm sells a tiny share of homogeneous goods, raising price drops demand to zero while lowering price is unnecessary."
+    }
+   ]
+  },
+  {
+   "id": "leec.4.2.1",
+   "title": "Total Revenue of a Firm",
+   "section": "4.2",
+   "definition": "The total dollar or rupee proceeds obtained by a producer from selling a specific quantity of output at the existing price.",
+   "formula": "total_revenue = price * output",
+   "key_idea": "Total revenue increases linearly with output when price remains fixed.",
+   "textbook_ref": "leec204.txt lines 65-95",
+   "question_patterns": [
+    "calculate the total revenue of the firm",
+    "find total revenue when price is ... and quantity is ...",
+    "what is total revenue schedule for given prices",
+    "how does total revenue change with output under perfect competition"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply unit price by output quantity",
+     "explain": "TR is the product of market price and units sold",
+     "compute": "total_revenue = price * output"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.2.2",
+   "title": "Average Revenue and Marginal Revenue",
+   "section": "4.2",
+   "definition": "Average revenue represents earnings per unit of output, whereas marginal revenue measures the additional income gained from selling one extra unit.",
+   "formula": "AR = TR / output, MR = p",
+   "key_idea": "For a price-taking firm, average revenue and marginal revenue are both identical to market price.",
+   "textbook_ref": "leec204.txt lines 100-145",
+   "question_patterns": [
+    "determine average revenue and marginal revenue",
+    "show that average revenue equals market price",
+    "why is marginal revenue equal to price under perfect competition",
+    "compute AR and MR schedules"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute average revenue",
+     "explain": "AR is total revenue divided by quantity sold",
+     "compute": "ar = total_revenue / output"
+    },
+    {
+     "step": 2,
+     "action": "determine marginal revenue",
+     "explain": "In perfect competition, extra revenue per unit equals market price",
+     "compute": "mr = price"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.3.1",
+   "title": "Profit Determination",
+   "section": "4.3",
+   "definition": "The net economic gain of a firm calculated as total revenue minus total explicit and implicit costs.",
+   "formula": "profit = total_revenue - total_cost",
+   "key_idea": "A firm maximises economic profit by widening the surplus of revenue over costs.",
+   "textbook_ref": "leec204.txt lines 146-170",
+   "question_patterns": [
+    "calculate profit at each level of output",
+    "determine the firm's profit from total revenue and total cost",
+    "find the output level where profit is maximum",
+    "what is the profit level when price is ... and costs are ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total revenue",
+     "explain": "TR equals market price multiplied by quantity",
+     "compute": "total_revenue = price * output"
+    },
+    {
+     "step": 2,
+     "action": "subtract total cost from total revenue",
+     "explain": "profit is TR minus TC",
+     "compute": "profit = total_revenue - total_cost"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.3.2",
+   "title": "Conditions for Profit Maximisation",
+   "section": "4.3",
+   "definition": "The three necessary criteria for profit-maximising output: price equals marginal cost, marginal cost is non-decreasing, and price covers variable or average costs.",
+   "formula": "p = MC, MC_slope >= 0, p >= AVC (short run) or p >= AC (long run)",
+   "key_idea": "Profit peaks where price equals rising marginal cost provided price covers minimum average variable cost.",
+   "textbook_ref": "leec204.txt lines 170-265",
+   "question_patterns": [
+    "what three conditions must hold for profit maximisation",
+    "explain why p = MC at profit-maximising output",
+    "can output be optimal on the falling part of MC curve",
+    "why must price exceed average variable cost in the short run"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify marginal condition",
+     "explain": "Check if market price equals short-run or long-run marginal cost."
+    },
+    {
+     "step": 2,
+     "action": "verify rising marginal cost condition",
+     "explain": "Ensure marginal cost is non-decreasing at the target output level."
+    },
+    {
+     "step": 3,
+     "action": "verify shutdown condition",
+     "explain": "Check that market price is greater than or equal to AVC in the short run or AC in the long run."
+    }
+   ]
+  },
+  {
+   "id": "leec.4.4.1",
+   "title": "Short-Run and Long-Run Supply Curves",
+   "section": "4.4",
+   "definition": "The supply curve of a firm is the upward-sloping segment of its marginal cost curve on or above the minimum average variable cost in the short run and minimum average cost in the long run.",
+   "formula": "supply_quantity = q(MC = p) for p >= min(AVC)",
+   "key_idea": "The marginal cost curve determines output decisions above the shut-down threshold.",
+   "textbook_ref": "leec204.txt lines 270-355",
+   "question_patterns": [
+    "derive the short run supply curve of a competitive firm",
+    "what is the long run supply curve of a firm",
+    "explain shut down point and break even point",
+    "where does the short run supply curve originate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify shut down point",
+     "explain": "In the short run, shut-down occurs at the minimum point of AVC where SMC cuts AVC."
+    },
+    {
+     "step": 2,
+     "action": "trace supply curve",
+     "explain": "For prices above minimum AVC, output follows the rising segment of SMC; for lower prices, supply is zero."
+    }
+   ]
+  },
+  {
+   "id": "leec.4.6",
+   "title": "Market Supply Curve Aggregation",
+   "section": "4.6",
+   "definition": "The horizontal summation of individual firm supply curves showing total quantity supplied by all sellers at each price level.",
+   "formula": "market_supply = supply_1 + supply_2",
+   "key_idea": "Aggregate market supply is derived by adding up output supplied by each firm at a given price.",
+   "textbook_ref": "leec204.txt lines 415-480",
+   "question_patterns": [
+    "compute the market supply schedule from individual supply schedules",
+    "how is the market supply curve derived from firm supply curves",
+    "calculate aggregate market supply for given price levels",
+    "find market supply when there are multiple identical firms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add supplies of individual firms at given price",
+     "explain": "Sum individual outputs supplied at the specified price level",
+     "compute": "market_supply = supply_1 + supply_2"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.7.1",
+   "title": "Price Elasticity of Supply",
+   "section": "4.7",
+   "definition": "A quantitative measure of how responsive output supplied is to changes in the market price of the good.",
+   "formula": "e_s = ((quantity_2 - quantity_1) / quantity_1) / ((price_2 - price_1) / price_1)",
+   "key_idea": "Price elasticity of supply compares percentage change in quantity supplied to percentage change in price.",
+   "textbook_ref": "leec204.txt lines 485-535",
+   "question_patterns": [
+    "calculate price elasticity of supply",
+    "find elasticity of supply given initial and final price and output",
+    "what is the price elasticity when price rises from ... to ... and quantity changes from ... to ...",
+    "compute e_s for a competitive seller"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute change in quantity and price",
+     "explain": "Subtract initial quantity from final quantity and initial price from final price",
+     "compute": "change_quantity = quantity_2 - quantity_1"
+    },
+    {
+     "step": 2,
+     "action": "compute price change",
+     "explain": "Difference between final and initial price",
+     "compute": "change_price = price_2 - price_1"
+    },
+    {
+     "step": 3,
+     "action": "calculate relative quantity change percentage",
+     "explain": "Percentage change in quantity supplied",
+     "compute": "pct_change_quantity = (change_quantity / quantity_1) * 100"
+    },
+    {
+     "step": 4,
+     "action": "calculate relative price change percentage",
+     "explain": "Percentage change in market price",
+     "compute": "pct_change_price = (change_price / price_1) * 100"
+    },
+    {
+     "step": 5,
+     "action": "divide quantity percentage by price percentage",
+     "explain": "Ratio of percentage change in quantity to percentage change in price",
+     "compute": "price_elasticity = pct_change_quantity / pct_change_price"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.7.2",
+   "title": "Elasticity of Supply from Revenue Changes",
+   "section": "4.7",
+   "definition": "Calculating supply elasticity by first deriving supplied quantities from total revenue and price data at two different market prices.",
+   "formula": "quantity_1 = revenue_1 / price_1, quantity_2 = revenue_2 / price_2, e_s = ((quantity_2 - quantity_1) * price_1) / ((price_2 - price_1) * quantity_1)",
+   "key_idea": "Total revenue divided by unit price yields supply quantity, from which price elasticity is evaluated.",
+   "textbook_ref": "leec204.txt lines 580-590",
+   "question_patterns": [
+    "a firm earns revenue of ... at price ... and revenue ... at price ... find price elasticity of supply",
+    "calculate e_s from initial price, initial revenue, new price, and new revenue",
+    "find price elasticity when price and total revenues are known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial output quantity",
+     "explain": "Initial quantity sold is initial revenue divided by initial price",
+     "compute": "quantity_1 = revenue_1 / price_1"
+    },
+    {
+     "step": 2,
+     "action": "calculate final output quantity",
+     "explain": "Final quantity sold is final revenue divided by final price",
+     "compute": "quantity_2 = revenue_2 / price_2"
+    },
+    {
+     "step": 3,
+     "action": "compute quantity change",
+     "explain": "Difference between final and initial output",
+     "compute": "change_q = quantity_2 - quantity_1"
+    },
+    {
+     "step": 4,
+     "action": "compute price change",
+     "explain": "Difference between final and initial price",
+     "compute": "change_p = price_2 - price_1"
+    },
+    {
+     "step": 5,
+     "action": "compute price elasticity of supply",
+     "explain": "e_s = (change_q / quantity_1) / (change_p / price_1)",
+     "compute": "price_elasticity = (change_q * price_1) / (change_p * quantity_1)"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.7.3",
+   "title": "Finding Target Supply Quantity using Elasticity",
+   "section": "4.7",
+   "definition": "Determining the new output supplied following a price change when initial quantity, initial price, new price, and supply elasticity are known.",
+   "formula": "change_q = (price_elasticity * quantity_1 * (price_2 - price_1)) / price_1, quantity_2 = quantity_1 + change_q",
+   "key_idea": "Supply elasticity helps predict new output given a price shift.",
+   "textbook_ref": "leec204.txt lines 595-605",
+   "question_patterns": [
+    "at price ... a firm supplies ... units; if price changes to ... and elasticity is ... what quantity will it supply",
+    "calculate new quantity supplied using price elasticity",
+    "find target output after a price increase given elasticity of supply"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate price change",
+     "explain": "Subtract initial price from new price",
+     "compute": "change_p = price_2 - price_1"
+    },
+    {
+     "step": 2,
+     "action": "calculate change in output quantity",
+     "explain": "change_q = e_s * quantity_1 * (change_p / price_1)",
+     "compute": "change_q = (price_elasticity * quantity_1 * change_p) / price_1"
+    },
+    {
+     "step": 3,
+     "action": "compute final output level",
+     "explain": "Add output increment to initial quantity",
+     "compute": "final_quantity = quantity_1 + change_q"
+    }
+   ]
+  },
+  {
+   "id": "leec.4.7.4",
+   "title": "Finding Initial and Final Output Levels from Quantity Increase",
+   "section": "4.7",
+   "definition": "Deducing initial and final production levels from a known absolute increase in quantity supplied, given price variation and supply elasticity.",
+   "formula": "quantity_1 = (change_quantity * price_1) / (price_elasticity * (price_2 - price_1)), quantity_2 = quantity_1 + change_quantity",
+   "key_idea": "The absolute increase in output divided by proportionate price change scaled by elasticity yields original output.",
+   "textbook_ref": "leec204.txt lines 590-595",
+   "question_patterns": [
+    "market price changes from ... to ... resulting in quantity supplied increasing by ... units; if e_s = ... find initial and final output",
+    "calculate initial output when quantity supplied increases by fixed units and elasticity is given",
+    "find starting and ending quantities from output increase and supply elasticity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate price change",
+     "explain": "Difference between final price and initial price",
+     "compute": "change_p = price_2 - price_1"
+    },
+    {
+     "step": 2,
+     "action": "calculate initial quantity supplied",
+     "explain": "initial_quantity = (change_quantity * price_1) / (price_elasticity * change_p)",
+     "compute": "initial_quantity = (change_quantity * price_1) / (price_elasticity * change_p)"
+    },
+    {
+     "step": 3,
+     "action": "compute final quantity supplied",
+     "explain": "Add output increase to initial quantity",
+     "compute": "final_quantity = initial_quantity + change_quantity"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leec204.txt lines 75-90",
+   "concept": "leec.4.2.1",
+   "question_type": "compute",
+   "question_pattern": "For a candle manufacturer in a competitive market, price per box is Rs {price}. Calculate total revenue when output is {output} boxes.",
+   "extracted_variables": {
+    "price": "10",
+    "output": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply unit price by output quantity",
+     "explain": "TR is the product of market price and units sold",
+     "compute": "total_revenue = price * output"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leec204.txt lines 500-535",
+   "concept": "leec.4.7.1",
+   "question_type": "compute",
+   "question_pattern": "When price of cricket balls is Rs {price_1}, {quantity_1} balls are produced. When price rises to Rs {price_2}, {quantity_2} balls are produced. Find price elasticity of supply.",
+   "extracted_variables": {
+    "price_1": "10",
+    "quantity_1": "200",
+    "price_2": "30",
+    "quantity_2": "1000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute change in quantity and price",
+     "explain": "Subtract initial quantity from final quantity and initial price from final price",
+     "compute": "change_quantity = quantity_2 - quantity_1"
+    },
+    {
+     "step": 2,
+     "action": "compute price change",
+     "explain": "Difference between final and initial price",
+     "compute": "change_price = price_2 - price_1"
+    },
+    {
+     "step": 3,
+     "action": "calculate relative quantity change percentage",
+     "explain": "Percentage change in quantity supplied",
+     "compute": "pct_change_quantity = (change_quantity / quantity_1) * 100"
+    },
+    {
+     "step": 4,
+     "action": "calculate relative price change percentage",
+     "explain": "Percentage change in market price",
+     "compute": "pct_change_price = (change_price / price_1) * 100"
+    },
+    {
+     "step": 5,
+     "action": "divide quantity percentage by price percentage",
+     "explain": "Ratio of percentage change in quantity to percentage change in price",
+     "compute": "price_elasticity = pct_change_quantity / pct_change_price"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leec204.txt lines 455-480",
+   "concept": "leec.4.6",
+   "question_type": "compute",
+   "question_pattern": "In a market with two firms, at price Rs 15, firm 1 supplies {supply_1} units and firm 2 supplies {supply_2} units. Compute total market supply at this price.",
+   "extracted_variables": {
+    "supply_1": "5",
+    "supply_2": "0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add supplies of individual firms at given price",
+     "explain": "Sum individual outputs supplied at the specified price level",
+     "compute": "market_supply = supply_1 + supply_2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "leec204.txt line 550",
+   "questions": [
+    "What are the characteristics of a perfectly competitive market?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "leec204.txt line 552",
+   "questions": [
+    "How are the total revenue of a firm, market price, and the quantity sold by the firm related to each other?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "leec204.txt line 555",
+   "questions": [
+    "What is the 'price line'?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "leec204.txt line 556",
+   "questions": [
+    "Why is the total revenue curve of a price-taking firm an upward-sloping straight line? Why does the curve pass through the origin?"
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "leec204.txt line 559",
+   "questions": [
+    "What is the relation between market price and average revenue of a price-taking firm?"
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "leec204.txt line 561",
+   "questions": [
+    "What is the relation between market price and marginal revenue of a price-taking firm?"
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "leec204.txt line 563",
+   "questions": [
+    "What conditions must hold if a profit-maximising firm produces positive output in a competitive market?"
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "leec204.txt line 565",
+   "questions": [
+    "Can there be a positive level of output that a profit-maximising firm produces in a competitive market at which market price is not equal to marginal cost? Give an explanation."
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "leec204.txt line 568",
+   "questions": [
+    "Will a profit-maximising firm in a competitive market ever produce a positive level of output in the range where the marginal cost is falling? Give an explanation."
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "leec204.txt line 571",
+   "questions": [
+    "Will a profit-maximising firm in a competitive market produce a positive level of output in the short run if the market price is less than the minimum of AVC? Give an explanation."
+   ]
+  },
+  {
+   "id": "ex4.11",
+   "source_ref": "leec204.txt line 574",
+   "questions": [
+    "Will a profit-maximising firm in a competitive market produce a positive level of output in the long run if the market price is less than the minimum of AC? Give an explanation."
+   ]
+  },
+  {
+   "id": "ex4.12",
+   "source_ref": "leec204.txt line 577",
+   "questions": [
+    "What is the supply curve of a firm in the short run?"
+   ]
+  },
+  {
+   "id": "ex4.13",
+   "source_ref": "leec204.txt line 578",
+   "questions": [
+    "What is the supply curve of a firm in the long run?"
+   ]
+  },
+  {
+   "id": "ex4.14",
+   "source_ref": "leec204.txt line 579",
+   "questions": [
+    "How does technological progress affect the supply curve of a firm?"
+   ]
+  },
+  {
+   "id": "ex4.15",
+   "source_ref": "leec204.txt line 580",
+   "questions": [
+    "How does the imposition of a unit tax affect the supply curve of a firm?"
+   ]
+  },
+  {
+   "id": "ex4.16",
+   "source_ref": "leec204.txt line 581",
+   "questions": [
+    "How does an increase in the price of an input affect the supply curve of a firm?"
+   ]
+  },
+  {
+   "id": "ex4.17",
+   "source_ref": "leec204.txt line 582",
+   "questions": [
+    "How does an increase in the number of firms in a market affect the market supply curve?"
+   ]
+  },
+  {
+   "id": "ex4.18",
+   "source_ref": "leec204.txt line 584",
+   "questions": [
+    "What does the price elasticity of supply mean? How do we measure it?"
+   ]
+  },
+  {
+   "id": "ex4.19",
+   "source_ref": "leec204.txt line 585",
+   "questions": [
+    "Compute the total revenue, marginal revenue and average revenue schedules in the following table. Market price of each unit of the good is Rs 10."
+   ]
+  },
+  {
+   "id": "ex4.20",
+   "source_ref": "leec204.txt line 588",
+   "questions": [
+    "The following table shows the total revenue and total cost schedules of a competitive firm. Calculate the profit at each output level. Determine also the market price of the good."
+   ]
+  },
+  {
+   "id": "ex4.21",
+   "source_ref": "leec204.txt line 591",
+   "questions": [
+    "The following table shows the total cost schedule of a competitive firm. It is given that the price of the good is Rs 10. Calculate the profit at each output level. Find the profit maximising level of output."
+   ]
+  },
+  {
+   "id": "ex4.22",
+   "source_ref": "leec204.txt line 594",
+   "questions": [
+    "Consider a market with two firms. The following table shows the supply schedules of the two firms: the SS1 column gives the supply schedule of firm 1 and the SS2 column gives the supply schedule of firm 2. Compute the market supply schedule."
+   ]
+  },
+  {
+   "id": "ex4.23",
+   "source_ref": "leec204.txt line 597",
+   "questions": [
+    "Consider a market with two firms. In the following table, columns labelled as SS1 and SS2 give the supply schedules of firm 1 and firm 2 respectively. Compute the market supply schedule."
+   ]
+  },
+  {
+   "id": "ex4.24",
+   "source_ref": "leec204.txt line 600",
+   "questions": [
+    "There are three identical firms in a market. The following table shows the supply schedule of firm 1. Compute the market supply schedule."
+   ]
+  },
+  {
+   "id": "ex4.25",
+   "source_ref": "leec204.txt line 603",
+   "questions": [
+    "A firm earns a revenue of Rs 50 when the market price of a good is Rs 10. The market price increases to Rs 15 and the firm now earns a revenue of Rs 150. What is the price elasticity of the firm’s supply curve?"
+   ]
+  },
+  {
+   "id": "ex4.26",
+   "source_ref": "leec204.txt line 606",
+   "questions": [
+    "The market price of a good changes from Rs 5 to Rs 20. As a result, the quantity supplied by a firm increases by 15 units. The price elasticity of the firm’s supply curve is 0.5. Find the initial and final output levels of the firm."
+   ]
+  },
+  {
+   "id": "ex4.27",
+   "source_ref": "leec204.txt line 609",
+   "questions": [
+    "At the market price of Rs 10, a firm supplies 4 units of output. The market price increases to Rs 30. The price elasticity of the firm’s supply is 1.25. What quantity will the firm supply at the new price?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_001",
+   "title": "c11_stat_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define textual presentation of data and state one advantage and one limitation mentioned in the NCERT textbook.",
+     "a": "Textual presentation means describing data within the text using sentences. Advantage: It enables one to emphasize certain points of the presentation. Limitation: One has to go through the complete text for comprehension. A wrong answer (e.g., \"advantage: easy to compare numbers\") reveals the student confuses textual with tabular presentation and has not grasped that text hinders quick comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why textual presentation becomes unsuitable when the dataset contains more than a few observations. Use a specific example involving at least two variables.",
+     "a": "With many observations, the reader must parse multiple sentences to extract each value, making comparisons mentally taxing and error-prone. For example, if a text lists literacy rates for 20 states by gender and area (rural/urban), the reader cannot easily compare male vs. female or rural vs. urban without re-reading repeatedly. A wrong answer focusing only on \"length of text\" misses the cognitive load of cross-referencing multiple dimensions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following textual description into a simple table: \"In a survey of 50 households, 20 use LPG, 15 use firewood, 10 use electricity, and 5 use biogas for cooking.\" Then explain why the table is more effective for answering \"Which fuel is most used?\"",
+     "a": "Table: Two columns (Fuel Type, Number of Households) with four rows. The table allows instant visual comparison of the four numbers; the text requires reading the sentence and mentally ranking 20, 15, 10, 5. A wrong answer that creates a table but cannot articulate the \"instant visual comparison\" shows the student performs the mechanical conversion without understanding the analytical advantage of tabular form.",
+     "self_check": true
+    },
+    {
+     "q": "Compare textual and tabular presentation on three criteria: (a) ease of comparing magnitudes, (b) ability to highlight a specific finding, (c) space efficiency for 100 data points. Which method would you choose for a dataset with 50 observations across 4 categories and why?",
+     "a": "(a) Tabular is far superior for comparison; textual forces sequential reading. (b) Textual is better for highlighting a specific finding because the writer can use language like \"strikingly,\" \"only,\" or \"surprisingly.\" (c) Tabular is vastly more space-efficient for 100 data points. For 50 observations across 4 categories, tabular presentation is necessary because textual would be a dense paragraph impossible to scan. A wrong answer choosing textual for 50 observations indicates failure to internalize the \"small data\" boundary condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Textual presentation is always better because it allows the writer to emphasize important findings and provide context.\" Critique this statement using the limitations of textual presentation.",
+     "a": "The statement is partially true regarding emphasis but ignores two critical limitations: (1) For any dataset beyond trivial size, the reader cannot comprehend the overall pattern without re-reading multiple times, defeating the purpose of presentation. (2) Textual presentation does not allow the reader to perform independent analysis (e.g., calculate totals, spot outliers) because the data is locked in narrative. A wrong answer that agrees wholly shows the student has not understood the trade-off between emphasis and analytical utility.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence textual presentation for: \"A village has 120 families. 45 have only a bicycle, 30 have only a motorcycle, 20 have both, and 25 have neither.\" Then create a question a policymaker might ask that would be difficult to answer from your text alone.",
+     "a": "Sample text: \"Out of 120 families in the village, 45 own only a bicycle, 30 own only a motorcycle, 20 own both, and 25 own neither vehicle.\" A difficult question: \"What percentage of families owning a bicycle also own a motorcycle?\" This requires cross-classification (20 out of 65 bicycle-owning families) which is buried in the text. A poor answer would ask a question directly readable from the text (e.g., \"How many have neither?\"), showing the student doesn't recognize the limitation of textual data for derived calculations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

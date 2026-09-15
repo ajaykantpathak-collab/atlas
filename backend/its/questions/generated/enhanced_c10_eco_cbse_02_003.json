@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_003",
+   "title": "c10_eco_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define Gross Domestic Product (GDP) at factor cost as used in the Indian context for sectoral analysis.",
+     "a": "GDP at factor cost is the sum of net value added by all producing units within the domestic territory of a country, plus consumption of fixed capital (depreciation), measured at factor cost (i.e., excluding net indirect taxes). A wrong answer that defines GDP at market price or includes net indirect taxes reveals confusion between factor cost and market price valuation, a specific error that leads to incorrect sectoral share calculations in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use the 'value added' method instead of simply adding up the total sales (turnover) of all firms in each sector to calculate GDP?",
+     "a": "Adding total sales would double-count intermediate goods (e.g., wheat sold to a flour mill, then flour sold to a baker). The value added method only counts the new value created at each stage (farmer's wheat value, miller's milling value, baker's baking value), ensuring each good is counted once. A wrong answer that says \"sales and value added are the same\" or \"value added is easier to calculate\" reveals a fundamental misunderstanding of double counting, which is a classic board exam trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical economy, the Primary sector's value added is ₹40,000 crore, Secondary sector's value added is ₹60,000 crore, and Tertiary sector's value added is ₹1,00,000 crore. Calculate the percentage contribution of each sector to GDP.",
+     "a": "Step 1: Total GDP = 40,000 + 60,000 + 1,00,000 = ₹2,00,000 crore.\nStep 2: Primary share = (40,000 / 2,00,000) × 100 = 20%.\nStep 3: Secondary share = (60,000 / 2,00,000) × 100 = 30%.\nStep 4: Tertiary share = (1,00,000 / 2,00,000) × 100 = 50%.\nA wrong answer that calculates shares without summing to 100% or uses incorrect denominator (e.g., uses only two sectors) reveals arithmetic carelessness or not recognizing that GDP is the sum of all three sectors' value added.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following data for India: In 1973-74, Primary sector contributed 45% to GDP and employed 74% of the workforce. In 2013-14, Primary sector contributed 18% to GDP but still employed 46% of the workforce. What does this divergence between output share and employment share indicate about productivity in the primary sector?",
+     "a": "The primary sector's output share fell sharply (45% to 18%) while its employment share fell much less (74% to 46%). This means many workers remain in agriculture producing relatively little output per worker — indicating low labour productivity and disguised unemployment. A wrong answer that says \"productivity increased because share fell\" or \"workers moved to other sectors completely\" misses the core insight: the sector still absorbs nearly half the workforce but contributes less than one-fifth of GDP, a key point for competency-based questions on structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A rising share of the tertiary sector in GDP always indicates that an economy is becoming more developed.\" Use the Indian context to support your answer.",
+     "a": "The statement is partially true but incomplete. In India, the tertiary sector's share rose from ~30% (1950) to ~54% (2020), which reflects development as services like banking, IT, and healthcare expand. However, a rising tertiary share can also occur due to distress-driven growth (e.g., informal retail, low-productivity self-employment) if the secondary sector fails to generate enough jobs. The quality of tertiary growth matters: India's IT and financial services are high-productivity, but a large part is low-productivity informal services. A wrong answer that simply agrees without nuance fails to distinguish between structural transformation and distress-driven tertiarization, a distinction CBSE expects in 5-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple argument using sectoral GDP data to explain why the Government of India emphasizes \"Make in India\" (boosting manufacturing) even though the tertiary sector is the largest contributor to GDP.",
+     "a": "A strong answer: Tertiary sector contributes ~54% to GDP but employs only ~32% of the workforce (2020 data). Secondary sector contributes ~26% but employs ~25%. Primary sector contributes ~18% but employs ~42%. Manufacturing (secondary) has higher labour absorption per unit of GDP than services and creates stronger backward-forward linkages (demand for raw materials, transport, etc.). \"Make in India\" aims to shift surplus labour from low-productivity agriculture to higher-productivity manufacturing, which services alone cannot absorb at scale. A poor answer that only says \"manufacturing creates jobs\" without linking to sectoral GDP-employment elasticity or linkages misses the economic reasoning CBSE rewards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

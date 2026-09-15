@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_009",
+   "title": "c7_chem_ch02_009",
+   "questions": [
+    {
+     "q": "What is the primary difference between physical weathering and chemical weathering of rocks?\nA) Physical weathering changes the chemical composition of minerals, while chemical weathering only breaks rocks into smaller pieces.\nB) Physical weathering breaks rocks into smaller pieces without changing their chemical composition, whereas chemical weathering alters the minerals into new substances.\nC) Physical weathering occurs only underground, while chemical weathering occurs only on mountain tops.\nD) Physical weathering is caused by plants, while chemical weathering is caused exclusively by earthquakes.",
+     "a": "The correct answer is B. Physical weathering involves mechanical breakdown (like thermal expansion or frost action) keeping the mineral identity intact, while chemical weathering involves reactions (like oxidation or carbonation) that create entirely new chemical substances. A student who chooses A has inverted the definitions of physical and chemical changes learned in earlier chapters.",
+     "self_check": true
+    },
+    {
+     "q": "Why does rainwater mixed with carbon dioxide cause chemical weathering of limestone rocks?\nA) Carbon dioxide makes rainwater acidic, which reacts with calcium carbonate in limestone to form soluble compounds.\nB) Carbon dioxide cools down the rock surface rapidly, causing it to shatter.\nC) Carbon dioxide acts as a catalyst that speeds up the evaporation of water trapped inside rock pores.\nD) Carbon dioxide hardens the limestone, preventing further weathering.",
+     "a": "The correct answer is A. Carbon dioxide dissolves in rainwater to form weak carbonic acid ($H_2CO_3$), which chemically reacts with calcium carbonate ($CaCO_3$) in limestone to dissolve it or form new products. A student choosing B is confusing chemical acid action with physical thermal stress.",
+     "self_check": true
+    },
+    {
+     "q": "A student collects a reddish-brown soil sample near an exposed basalt rock cliff in a humid region. What chemical process most likely caused this reddish coloration in the weathered rock crust?\nA) Reduction of iron oxides in the absence of oxygen\nB) Oxidation of iron-bearing minerals reacting with atmospheric oxygen and moisture\nC) Sublimation of sulfur deposits within the rock matrix\nD) Neutralization of alkaline salts by acidic rainfall",
+     "a": "The correct answer is B. \nSteps:\n1. Identify that basalt contains iron-bearing silicate minerals.\n2. Recognize that humid regions provide abundant moisture ($H_2O$) and atmospheric oxygen ($O_2$).\n3. Apply the chemical principle of oxidation where iron ($Fe$) converts into hydrated iron oxides ($Fe_2O_3 \\cdot xH_2O$), which have a characteristic reddish-brown color (similar to rusting of iron).\n4. Conclude that oxidation is responsible for the rust-colored crust.\nA student who picks D is confusing weathering oxidation with general acid-base neutralization.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"Weathering and erosion are two words for the exact same geological process.\" Is this statement correct? Justify your chemical and physical reasoning.\nA) Yes, because both terms describe how mountains disappear over time.\nB) No, because weathering is the in-situ breakdown of rocks by physical and chemical agents, whereas erosion is the removal and transport of those broken pieces by wind, water, or ice.\nC) Yes, because chemical reactions always involve the physical movement of particles.\nD) No, because weathering only happens in laboratories, while erosion happens outdoors.",
+     "a": "The correct answer is B. Weathering breaks down the rock where it sits (in-situ) through chemical and physical forces, whereas erosion is the dynamic transport agent that carries the weathered debris away. A student selecting A fails to distinguish between the transformation/breakdown phase and the transportation phase of landscape evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following chemical equation represents a typical chemical weathering process: \n$CaCO_3(s) + H_2CO_3(aq) \\rightarrow Ca(HCO_3)_2(aq)$\nA) Incorrect, because calcium bicarbonate is a solid and cannot dissolve in water.\nB) Correct, because carbonic acid reacts with solid calcium carbonate to form soluble calcium bicarbonate, dissolving the rock.\nC) Incorrect, because $CaCO_3$ does not react with acids.\nD) Correct, but it represents a physical change rather than a chemical weathering process.",
+     "a": "The correct answer is B with justification: Carbonic acid ($H_2CO_3$) reacts with limestone ($CaCO_3$) to produce soluble calcium bicarbonate ($Ca(HCO_3)_2$), which is a classic chemical weathering reaction (carbonation) that creates caves and karst landscapes. A student choosing C ignores basic acid-carbonate reactivity rules established in previous chemistry chapters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom simulation using chalk (calcium carbonate) and vinegar (weak acetic acid) to model a specific type of rock weathering. Explain what type of weathering it simulates and list two limitations of this model compared to natural geological processes.\nA) It simulates physical weathering by mechanical impact; limitations are time scale and rock type.\nB) It simulates chemical weathering (carbonation/acid action); limitations include the use of acetic acid instead of dilute carbonic acid and a much faster reaction rate compared to nature.\nC) It simulates biological weathering by plant roots; limitations are temperature and pressure.\nD) It simulates oxidation of iron; limitations are the lack of oxygen gas bubbles.",
+     "a": "The correct answer is B. Vinegar (acetic acid) reacts with chalk ($CaCO_3$) to simulate chemical weathering by acid action, but natural weathering takes thousands of years using weaker carbonic acid. A poor answer would confuse acid-base dissolution with physical grinding or thermal expansion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

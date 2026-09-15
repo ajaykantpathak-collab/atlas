@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_004",
+   "title": "c11_hs_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the two primary criteria used in the NCERT classification hierarchy for textile fibres, and give one example of a fibre that fits each criterion at the highest level.",
+     "a": "The two primary criteria are: (1) Origin - Natural vs Manufactured; (2) Chemical composition - Cellulosic, Protein, Synthetic, Mineral. Example: Cotton (Natural, Cellulosic); Nylon (Manufactured, Synthetic). A wrong answer (e.g., classifying by \"staple vs filament\" as primary) reveals the student misses the hierarchical structure: origin is the first division, chemical type is the second, physical form is a cross-cutting attribute.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Rayon is a natural fibre because it's made from wood pulp, which comes from trees.\" Explain why this reasoning is incorrect using the classification criteria from the textbook.",
+     "a": "Rayon is classified as a manufactured (regenerated cellulosic) fibre because although its raw material (wood pulp) is natural, it undergoes chemical dissolution and extrusion through spinnerettes to form fibres - a manufacturing process that fundamentally alters the polymer structure. The student's error is confusing raw material origin with fibre origin; the textbook explicitly states manufactured fibres are \"made by modifying a non-fibrous material into a fibrous form\" through chemical processing.",
+     "self_check": true
+    },
+    {
+     "q": "You are given four unknown fibres: Fibre A (staple, burns like paper, light grey ash), Fibre B (filament, shrinks from flame, melts, hard tan bead), Fibre C (staple, curls from flame, smells like burning hair, crushable ash), Fibre D (filament, shrinks, melts, hard black bead, acrid odour). Classify each as natural/manufactured and cellulosic/protein/synthetic using burning test observations.",
+     "a": "Fibre A: Natural cellulosic (cotton/linen) - burns like paper, light ash. Fibre B: Manufactured synthetic (nylon) - shrinks, melts, hard tan bead. Fibre C: Natural protein (wool/silk) - curls, burning hair smell, crushable ash. Fibre D: Manufactured synthetic (polyester/acrylic) - shrinks, melts, hard black bead, acrid. Wrong classifications (e.g., calling rayon \"natural\") reveal inability to link burning behaviour to chemical composition rather than just origin.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the classification positions of these three fibres: Acetate, Azlon, and Spandex. Explain why they fall into different sub-categories despite all being manufactured fibres.",
+     "a": "Acetate = Modified cellulosic (cellulose chemically acetylated, not regenerated); Azlon = Manufactured protein (regenerated from proteins like soy/casein); Spandex = Non-cellulosic synthetic (polyurethane, fully petrochemical). They differ in polymer source: acetate starts from cellulose, azlon from proteins, spandex from synthetic chemicals. A student grouping them all as \"synthetic\" misses the critical distinction between regenerated/modified natural polymers vs fully synthetic polymers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a summer school uniform in humid Delhi, a polyester-cotton blend is better than 100% cotton because polyester adds wrinkle resistance.\" Consider fibre classification, moisture management, and comfort properties in your evaluation.",
+     "a": "The statement is partially valid but incomplete. Polyester (manufactured synthetic) adds wrinkle resistance and durability but has very low moisture regain, reducing comfort in humid heat. Cotton (natural cellulosic) absorbs moisture well but wrinkles easily. A 65/35 poly-cotton blend balances both, but 100% cotton may be more comfortable for all-day wear in high humidity. The evaluation requires weighing manufactured fibre performance properties against natural fibre physiological comfort - a trade-off classification helps predict.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classification key (dichotomous or multi-access) that a consumer could use to identify an unknown fabric's fibre category using only: (a) visual/tactile inspection, (b) burning test, (c) label information. Your key must distinguish all major categories from the NCERT classification.",
+     "a": "A good key starts: 1. Label present? → Read fibre content. 2. No label → Burning test: shrinks/melts → Manufactured (synthetic if hard bead, regenerated cellulosic if paper smell). Doesn't shrink/melts → Natural: paper smell + grey ash = cellulosic; hair smell + crushable ash = protein. 3. Visual/tactile: high lustre + filament = silk/nylon/polyester; staple + dull = cotton/wool/acrylic. Poor keys omit the manufactured sub-divisions (regenerated vs synthetic) or confuse staple/filament as primary classifiers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

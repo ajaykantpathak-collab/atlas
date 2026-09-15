@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_5",
+   "title": "c9_geo_ch2_5",
+   "questions": [
+    {
+     "q": "Define the term 'Loo' and state the specific months and region in India where it is most intensely experienced.",
+     "a": "Loo is a hot, dry, dust-laden local wind that blows over the North Indian plains (Punjab, Haryana, Delhi, Uttar Pradesh, Rajasthan) during the summer months of May and June, typically peaking in the afternoon. A wrong answer (e.g., saying it blows in winter or brings rain) reveals the student confuses Loo with western disturbances or monsoon winds, indicating a fundamental misunderstanding of seasonal pressure patterns over the subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mistral attains very high velocities (often > 100 km/h) as it reaches the Mediterranean coast, whereas the Loo remains relatively slower despite both being driven by pressure differences.",
+     "a": "The Mistral is accelerated by topographic funneling: cold, dense air from a high-pressure system over the Atlantic/Bay of Biscay is forced through the narrow gap between the Alps and the Massif Central (the Rhône Valley), causing a Venturi effect that dramatically increases wind speed. The Loo, in contrast, flows over a broad, flat plain with no significant topographic constriction, so the pressure gradient force is distributed over a wide area, resulting in lower velocities. A wrong answer attributing Mistral's speed solely to a \"stronger pressure gradient\" misses the critical role of orographic channeling, a key distinction between thermally driven and topographically modified local winds.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of North America, the Rocky Mountains run north-south. A weather station on the eastern foothills (e.g., Calgary, Alberta) records a sudden temperature rise of 20°C in 2 hours with a sharp drop in humidity in January. Identify the wind responsible and explain the thermodynamic process causing this change using the concept of adiabatic lapse rates.",
+     "a": "The wind is the Chinook. Process: (1) Moist Pacific air ascends the western windward slopes of the Rockies, cooling at the saturated adiabatic lapse rate (~6°C/km) and losing moisture as precipitation. (2) The now-dry air descends the eastern leeward slopes, warming at the dry adiabatic lapse rate (~10°C/km). (3) Because the descent warming rate exceeds the ascent cooling rate, the air arrives at the foothills significantly warmer and drier than its original state. A wrong answer citing \"warm air from the south\" or \"compression heating without mentioning adiabatic processes\" shows the student lacks the thermodynamic framework to explain foehn-type winds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural impacts of the Loo in North India and the Chinook in the Canadian Prairies. Why is the Loo generally detrimental to standing rabi crops (like wheat), while the Chinook can be beneficial for winter grazing?",
+     "a": "Loo: Occurs in May-June when rabi crops (wheat, mustard) are in grain-filling/ripening stage. Its high temperature (>45°C), low humidity (<10%), and high velocity cause excessive transpiration, desiccation, lodging, and shriveling of grains, drastically reducing yield. Chinook: Occurs in winter (Jan-Mar) when fields are under snow cover. Its warming melts snow, exposing dormant winter wheat and pasture grasses, allowing grazing and replenishing soil moisture — a net benefit. A wrong answer reversing the impacts or ignoring the seasonal timing relative to crop calendars shows the student cannot link meteorological characteristics to agro-ecological consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Mistral is essentially a European version of the Loo because both are dry winds caused by high pressure pushing air into low pressure areas.\" Justify your evaluation with three specific points of difference in origin, thermal character, and seasonal occurrence.",
+     "a": "The statement is incorrect. Three differences: (1) Origin: Loo is thermally driven — intense solar heating of the Thar Desert creates a local low; Mistral is dynamically/topographically driven — a synoptic-scale high over the Atlantic pushes polar air southward, which is then channeled. (2) Thermal character: Loo is hot (originates over heated land); Mistral is cold (originates over cold ocean/high latitudes). (3) Season: Loo peaks in summer (May-June); Mistral is most frequent and intense in winter (Nov-Apr). A wrong answer accepting the statement reveals a superficial \"dry wind = same mechanism\" misconception, ignoring the fundamental distinction between thermally direct circulations and topographically modified pressure-driven flows.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple early-warning advisory for farmers in western Uttar Pradesh to mitigate Loo damage to late-sown wheat. Your advisory must specify: (a) the meteorological threshold to trigger the alert, (b) two actionable farm-level measures, and (c) the lead time required for effectiveness.",
+     "a": "(a) Trigger: IMD forecast of daytime maximum temperature > 42°C combined with relative humidity < 15% and wind speed > 15 km/h from the west for two consecutive days. (b) Measures: (i) Light irrigation (5-6 cm) 24 hours before onset to increase soil moisture and canopy cooling via evaporation; (ii) Mulching with crop residue (paddy straw) between rows to reduce soil evaporation and lower surface temperature. (c) Lead time: Minimum 48 hours (to arrange irrigation water and labor). A poor advisory using only temperature threshold or suggesting measures like \"spray water on leaves\" (which increases heat stress via scorch) shows inability to translate meteorological data into agronomically sound, practical actions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_106",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_106",
+   "title": "c6_math_ch10_106",
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a scalene triangle have?",
+     "a": "A scalene triangle has 0 lines of symmetry. A wrong answer (like saying 1 or 3) reveals the student does not understand that \"scalene\" means all sides are of different lengths, preventing any perfect fold.",
+     "self_check": true
+    },
+    {
+     "q": "If you draw a line through a rectangle that is not a square, does it always create a line of symmetry?",
+     "a": "No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square rectangle do not create identical halves. This reveals a misunderstanding where students assume any line cutting a shape in half is a \"line of symmetry.\"",
+     "self_check": true
+    },
+    {
+     "q": "A square has 4 lines of symmetry. Using a paper square, explain where these lines are located.",
+     "a": "Two lines pass through the midpoints of opposite sides (horizontal and vertical), and two lines are the diagonals connecting opposite vertices. A wrong answer suggests the student hasn't visualized the folding process for the diagonals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the lines of symmetry in an equilateral triangle and an isosceles triangle.",
+     "a": "An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from the vertex between the equal sides). Confusing these indicates a lack of connection between side length equality and symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Can a shape have a line of symmetry if it is \"tilted\" or rotated?",
+     "a": "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space. A wrong answer shows the student relies on visual orientation rather than the geometric properties of the shape.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a shape that has exactly two lines of symmetry, and explain why a third line cannot exist for your shape.",
+     "a": "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap, meaning the symmetry property is strictly bound by the rectangle's dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

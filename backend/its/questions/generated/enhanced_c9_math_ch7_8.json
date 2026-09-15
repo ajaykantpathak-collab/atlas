@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_8",
+   "title": "c9_math_ch7_8",
+   "questions": [
+    {
+     "q": "State the formula for the probability of the complement of an event E, and explain what the symbols represent.",
+     "a": "The formula is P(E') = 1 - P(E), where E' (or \"not E\") is the complementary event of E, meaning E' occurs if and only if E does not occur. A wrong answer like P(E') = P(E) - 1 reveals the student does not understand that probabilities are between 0 and 1 and that the complement's probability is the remainder when subtracted from 1.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 3 red, 4 blue, and 5 green balls. A student says the probability of not drawing a red ball is 3/12 because there are 3 red balls. Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. The probability of not drawing a red ball is the complement of drawing a red ball. P(red) = 3/12 = 1/4, so P(not red) = 1 - 1/4 = 3/4 (or 9/12). The student mistakenly used the number of red balls as the favorable outcomes for \"not red\", confusing the event with its complement. This reveals the misconception that the complement's favorable outcomes are the same as the original event's outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "In a survey of 200 students, 120 said they like cricket, 50 like football, and the rest like neither. If a student is chosen at random, find the probability that the student does NOT like cricket. Show your work.",
+     "a": "Step 1: Total students = 200. Step 2: Students who like cricket = 120. Step 3: P(likes cricket) = 120/200 = 3/5. Step 4: P(does not like cricket) = 1 - 3/5 = 2/5. Step 5: Verify: students not liking cricket = 200 - 120 = 80, so 80/200 = 2/5. A wrong answer like 120/200 = 3/5 (giving P(likes cricket) instead) shows the student computed the probability of the event itself rather than its complement.",
+     "self_check": true
+    },
+    {
+     "q": "Two coins are tossed simultaneously. Event A is \"getting at least one head\". Event B is \"getting exactly one head\". Are A and B complementary events? Justify your answer by listing the sample space and the outcomes for each event.",
+     "a": "Sample space S = {HH, HT, TH, TT}. Event A (at least one head) = {HH, HT, TH}. Event B (exactly one head) = {HT, TH}. The complement of A is {TT} (no heads), not B. Since B does not include HH, A and B together do not cover all outcomes (HH is in A but not in B, and TT is in neither). Therefore, they are not complementary. A wrong answer claiming they are complementary because both involve heads reveals the student thinks \"opposite\" in everyday language means complementary in probability, ignoring the requirement that complementary events must partition the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"A die is rolled. Find the probability of getting a number greater than 2.\" Their working: P(>2) = 1 - P(≤2) = 1 - (2/6) = 4/6 = 2/3. Is this solution correct? If not, identify the error and give the correct answer.",
+     "a": "The solution is correct. The complement of \"greater than 2\" is \"less than or equal to 2\" (i.e., 1 or 2). P(≤2) = 2/6 = 1/3. So P(>2) = 1 - 1/3 = 2/3. The student correctly identified the complement and applied the formula. A wrong answer would be if the student wrote P(>2) = 1 - P(<2) = 1 - 1/6 = 5/6, mistakenly taking the complement as \"less than 2\" (only 1) instead of \"≤2\". This error shows the student does not carefully define the complement event.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using an Indian context like a bag of marbles, a deck of cards, or a game) where using the complement rule is much easier than direct counting. Write the problem, solve it using the complement rule, and explain why the complement method is efficient here.",
+     "a": "Example problem: \"A box contains 100 bulbs, of which 5 are defective. If 3 bulbs are picked at random, find the probability that at least one is defective.\" (Note: This is actually a harder problem for Class 9 without replacement, but we can simplify: \"A bulb is picked at random. Find the probability it is not defective.\") Better: \"A bag has 20 red, 30 blue, and 50 green marbles. One marble is drawn. Find the probability it is not blue.\" Solution: P(blue) = 30/100 = 0.3, so P(not blue) = 1 - 0.3 = 0.7. Direct counting would require adding 20+50=70 and dividing by 100. The complement method is efficient when the event has many favorable outcomes but its complement has few, or when the problem asks for \"at least one\" in multiple trials. A poor answer would give a problem where direct counting is equally easy (e.g., a coin toss) and not justify the efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

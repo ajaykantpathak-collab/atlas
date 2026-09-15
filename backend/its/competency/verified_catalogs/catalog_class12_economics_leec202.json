@@ -1,0 +1,811 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 2,
+  "chapter_title": "Theory of Consumer Behaviour",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec202.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.202.1.1",
+      "title": "Utility: Total Utility and Marginal Utility",
+      "section": "2.1",
+      "definition": "Utility names a good's power to satisfy a want, and it varies with the person, place and time; total utility is the satisfaction from all units consumed while marginal utility is the change in that total when one more unit is taken.",
+      "formula": "marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units",
+      "key_idea": "Total utility is the running satisfaction score, and marginal utility is the step it takes with each extra unit.",
+      "textbook_ref": "leec202.txt, section 2.1.1, Table 2.1, pages 9-10",
+      "question_patterns": [
+        "calculate the marginal utility of the fifth unit from two total utility figures",
+        "define total utility and marginal utility of a commodity",
+        "what is meant by the want-satisfying capacity of a good",
+        "why is utility called a subjective concept",
+        "total utility rises from 28 to 30 on one more unit, find the marginal utility",
+        "sum the marginal utilities of successive units to recover total utility"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the gap between successive totals",
+          "explain": "Total utility at n units minus total utility at n-1 units isolates the contribution of the nth unit.",
+          "compute": "marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Utility: Total Utility and Marginal Utility, compute the result for total_utility_of_n_units = 3, total_utility_of_previous_units = 3.",
+          "solution": "Step 1: Take the gap between successive totals: marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Utility: Total Utility and Marginal Utility, compute the result for total_utility_of_n_units = 4, total_utility_of_previous_units = 4.",
+          "solution": "Step 1: Take the gap between successive totals: marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.1.2",
+      "title": "Law of Diminishing Marginal Utility and the Demand Slope",
+      "section": "2.1.1",
+      "definition": "As consumption of a good grows, each extra unit yields less additional satisfaction, so a buyer will pay less for successive units; this shrinking marginal utility is why a consumer's demand curve slopes downward, with demand rising only when price falls.",
+      "formula": "willingness_to_pay falls as consumption rises (diminishing marginal utility)",
+      "key_idea": "Declining extra satisfaction makes buyers reserve top prices for early units, giving demand its negative slope.",
+      "textbook_ref": "leec202.txt, section 2.1.1, law of diminishing marginal utility and demand derivation, pages 10-11",
+      "question_patterns": [
+        "connect falling marginal utility to the price a buyer will pay for the sixth unit",
+        "state the law of diminishing marginal utility with an example",
+        "why does the demand curve of an individual slope downward",
+        "what happens to total utility when marginal utility reaches zero",
+        "when does marginal utility turn negative and what does that do to total utility",
+        "use cardinal utility reasoning to derive a downward sloping demand curve"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Register the fading extra satisfaction",
+          "explain": "Holding other goods fixed, successive units of one good add less and less to total utility."
+        },
+        {
+          "step": 2,
+          "action": "Link utility to valuation",
+          "explain": "A buyer offers prices matching the extra utility of the unit, so later units command lower prices."
+        },
+        {
+          "step": 3,
+          "action": "Read off the demand behaviour",
+          "explain": "Units are bought only when price falls to their diminished worth, producing the negative price-quantity relation of demand."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.1.3",
+      "title": "Indifference Curve and Marginal Rate of Substitution",
+      "section": "2.1.2",
+      "definition": "An indifference curve joins all bundles between which the consumer is equally satisfied; its slope at any point, the marginal rate of substitution, tells how much of one good the consumer will give up for one more unit of the other while staying equally well off, and that rate falls as the substituted good accumulates.",
+      "formula": "marginal_rate_of_substitution = quantity_of_good2_sacrificed / quantity_of_good1_gained",
+      "key_idea": "Willingness to swap falls as holdings shift, which is why indifference curves bow toward the origin.",
+      "textbook_ref": "leec202.txt, section 2.1.2, Table 2.2 and MRS discussion, pages 11-13",
+      "question_patterns": [
+        "define the marginal rate of substitution between two goods",
+        "compute how many mangoes are sacrificed per extra banana from a schedule",
+        "why does the rate of substitution fall along an indifference curve",
+        "state the law of diminishing marginal rate of substitution",
+        "what shape does a diminishing rate of substitution give the indifference curve",
+        "give the MRS values when the schedule moves from 3 to 1 ratios"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ratio the sacrifice to the gain",
+          "explain": "Dividing the amount of the good given up by the amount of the other gained, utility unchanged, gives the MRS at that step.",
+          "compute": "marginal_rate_of_substitution = quantity_of_good2_sacrificed / quantity_of_good1_gained"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Indifference Curve and Marginal Rate of Substitution, compute the result for quantity_of_good2_sacrificed = 3, quantity_of_good1_gained = 3.",
+          "solution": "Step 1: Ratio the sacrifice to the gain: marginal_rate_of_substitution = quantity_of_good2_sacrificed / quantity_of_good1_gained = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Indifference Curve and Marginal Rate of Substitution, compute the result for quantity_of_good2_sacrificed = 4, quantity_of_good1_gained = 4.",
+          "solution": "Step 1: Ratio the sacrifice to the gain: marginal_rate_of_substitution = quantity_of_good2_sacrificed / quantity_of_good1_gained = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.1.4",
+      "title": "Properties of Indifference Curves and Monotonic Preferences",
+      "section": "2.1.2",
+      "definition": "Indifference curves slope downward, lie higher when bundles contain more, never cross one another, and bow away from the origin; under monotonic preferences a bundle with more of at least one good and no less of the other is always preferred, which rules out intersection.",
+      "formula": "monotonic_preference = more_of_one_good + no_less_of_other (strictly preferred)",
+      "key_idea": "More is better, so higher curves rank above lower ones and two curves can never meet.",
+      "textbook_ref": "leec202.txt, section 2.1.2, features of indifference curve and monotonicity, pages 13-15",
+      "question_patterns": [
+        "list the properties that indifference curves must satisfy",
+        "why must an indifference curve slope downward from left to right",
+        "prove that two indifference curves can never intersect",
+        "what are monotonic preferences between two bundles",
+        "rank bundles like ten of each against ten and nine under monotonicity",
+        "why does a bundle with the same mangoes but more bananas sit on a higher curve"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Apply the downward-slope logic",
+          "explain": "To stay equally satisfied, extra of one good must be paid for with less of the other."
+        },
+        {
+          "step": 2,
+          "action": "Apply the more-is-better test",
+          "explain": "Monotonicity ranks a bundle with more of one good and no less of the other strictly higher, placing it on a higher curve."
+        },
+        {
+          "step": 3,
+          "action": "Run the intersection contradiction",
+          "explain": "If two curves crossed, a bundle would equal two different bundles that monotonicity ranks differently - impossible, so curves never intersect."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.2.1",
+      "title": "Budget Set and Budget Line",
+      "section": "2.2.1",
+      "definition": "With income M and prices p1 and p2, the consumer can afford exactly those bundles whose money cost does not exceed income - the budget set - while the bundles costing precisely all of income trace the budget line.",
+      "formula": "total_cost_of_bundle = price_of_good1 * quantity_of_good1 + price_of_good2 * quantity_of_good2",
+      "key_idea": "A bundle is affordable when its price-tag total sits at or below income, and the full-spend bundles form a straight line.",
+      "textbook_ref": "leec202.txt, section 2.2.1, equations 2.1 and 2.2, Example 2.1, pages 15-17",
+      "question_patterns": [
+        "write the equation of the budget line from income and two prices",
+        "check whether a given bundle is affordable for the consumer",
+        "what does the set of affordable bundles represent",
+        "an income of 20 with both goods at 5, list the bundles costing exactly the income",
+        "distinguish the budget set from the budget line",
+        "which bundles lie strictly inside the budget line"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Price out the bundle",
+          "explain": "Multiply each quantity by its price and add the two outlays to get the bundle's total cost.",
+          "compute": "total_cost_of_bundle = price_of_good1 * quantity_of_good1 + price_of_good2 * quantity_of_good2"
+        },
+        {
+          "step": 2,
+          "action": "Compare with income",
+          "explain": "A cost at or below income places the bundle in the budget set; a cost exactly equal to income places it on the budget line."
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Budget Set and Budget Line, compute the result for price_of_good1 = 3, quantity_of_good1 = 3, price_of_good2 = 3, quantity_of_good2 = 2.",
+          "solution": "Step 1: Price out the bundle: total_cost_of_bundle = price_of_good1 * quantity_of_good1 + price_of_good2 * quantity_of_good2 = 15.0 Final result: 15.0",
+          "answer": "15.0"
+        },
+        {
+          "question": "Using Budget Set and Budget Line, compute the result for price_of_good1 = 4, quantity_of_good1 = 4, price_of_good2 = 4, quantity_of_good2 = 3.",
+          "solution": "Step 1: Price out the bundle: total_cost_of_bundle = price_of_good1 * quantity_of_good1 + price_of_good2 * quantity_of_good2 = 28.0 Final result: 28.0",
+          "answer": "28.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.2.2",
+      "title": "Intercepts and Slope of the Budget Line",
+      "section": "2.2.1",
+      "definition": "Spending all income on one good buys income over its price - the axis intercepts - and the line's slope in absolute value equals the price ratio, the rate at which the market lets one good be swapped for the other.",
+      "formula": "rate_of_market_substitution = price_of_good1 / price_of_good2",
+      "key_idea": "The budget line's steepness is simply how many units of good 2 the market charges for one unit of good 1.",
+      "textbook_ref": "leec202.txt, section 2.2.1, slope derivation equations 2.3 to 2.7, pages 16-18",
+      "question_patterns": [
+        "find how much of good 1 the consumer gets by spending everything on it",
+        "what does the slope of the budget line measure",
+        "compute the market rate at which good 2 must be given up for good 1",
+        "write the intercepts of the budget line for given income and prices",
+        "prices are 4 and 5 with income 20, state the line's slope and both intercepts",
+        "why does the price ratio appear as the slope of the budget line"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spend everything on one good",
+          "explain": "Dividing income by a good's price gives the intercept on that good's axis.",
+          "compute": "maximum_units_of_good1 = income / price_of_good1"
+        },
+        {
+          "step": 2,
+          "action": "Take the price ratio",
+          "explain": "The absolute slope equals the price of the good on the horizontal axis divided by the price of the vertical-axis good.",
+          "compute": "rate_of_market_substitution = price_of_good1 / price_of_good2"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Intercepts and Slope of the Budget Line, compute the result for income = 3, price_of_good1 = 3, price_of_good2 = 3.",
+          "solution": "Step 1: Spend everything on one good: maximum_units_of_good1 = income / price_of_good1 = 1.0 Step 2: Take the price ratio: rate_of_market_substitution = price_of_good1 / price_of_good2 = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Intercepts and Slope of the Budget Line, compute the result for income = 4, price_of_good1 = 4, price_of_good2 = 4.",
+          "solution": "Step 1: Spend everything on one good: maximum_units_of_good1 = income / price_of_good1 = 1.0 Step 2: Take the price ratio: rate_of_market_substitution = price_of_good1 / price_of_good2 = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.2.3",
+      "title": "Changes in the Budget Set: Income Shifts and Price Pivots",
+      "section": "2.2.2",
+      "definition": "A change in income slides the budget line parallel - outward when income rises, inward when it falls - while a change in one price pivots the line around the other good's intercept, steepening when the price rises and flattening when it falls.",
+      "formula": "budget_line_position = depends_on(income, price_of_good1, price_of_good2)",
+      "key_idea": "Income moves the whole line; one price turns it on its hinge at the unchanged intercept.",
+      "textbook_ref": "leec202.txt, section 2.2.2, equations 2.8 to 2.11 and figures 2.10-2.11, pages 18-19",
+      "question_patterns": [
+        "how does the budget line move when income rises with prices unchanged",
+        "what happens to the budget line when the price of one good falls",
+        "why does a price change pivot the line instead of shifting it",
+        "income doubles but prices stay put, describe the new budget set",
+        "which way does the line swing when the good on the horizontal axis becomes dearer",
+        "if all prices and income double together what happens to the budget set"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Classify the change",
+          "explain": "Ask whether income changed (parallel shift) or one price changed (pivot about the unchanged intercept)."
+        },
+        {
+          "step": 2,
+          "action": "Trace an income change",
+          "explain": "Both intercepts scale with income, so the line slides outward or inward with its slope intact."
+        },
+        {
+          "step": 3,
+          "action": "Trace a price change",
+          "explain": "Only one intercept moves, so the line swings: dearer good 1 steepens the line and shrinks its reach; cheaper good 1 flattens it."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.3.1",
+      "title": "Consumer Optimum: Tangency of Budget Line and Indifference Curve",
+      "section": "2.3",
+      "definition": "A rational consumer picks the affordable bundle on the highest reachable indifference curve, which occurs where the budget line just touches that curve; there the willingness to substitute (MRS) equals the market's rate of substitution (price ratio), since equality in either direction would allow a better affordable bundle.",
+      "formula": "marginal_rate_of_substitution = price_of_good1 / price_of_good2 (at the optimum)",
+      "key_idea": "The best affordable bundle is the tangency point where what the consumer is willing to swap matches what the market demands.",
+      "textbook_ref": "leec202.txt, section 2.3, figure 2.12 and MRS-price equality discussion, pages 20-21",
+      "question_patterns": [
+        "state the condition satisfied at the consumer's optimal bundle",
+        "why must the marginal rate of substitution equal the price ratio at equilibrium",
+        "explain the tangency between the budget line and an indifference curve",
+        "what happens if the willingness to substitute exceeds the market rate",
+        "why can no point below the budget line be the optimum",
+        "describe how a rational consumer selects from the affordable bundles"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the feasible frontier",
+          "explain": "The optimum lies on the budget line, since some on-line bundle beats anything strictly inside it."
+        },
+        {
+          "step": 2,
+          "action": "Find the highest reachable curve",
+          "explain": "Sliding along the budget line, satisfaction peaks where the line just touches an indifference curve."
+        },
+        {
+          "step": 3,
+          "action": "Check the two rates",
+          "explain": "At tangency the MRS equals the price ratio; any gap means a swap exists that leaves more of both goods, so the point was not optimal."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.4.1",
+      "title": "Demand, Demand Function and the Law of Demand",
+      "section": "2.4.1",
+      "definition": "Demand is the quantity a consumer is both willing and able to buy at given prices and income; holding other influences fixed, quantity chosen falls as the good's own price rises, and the schedule of these pairs is the demand curve with its negative slope.",
+      "formula": "quantity_demanded = f(own_price) with other things constant",
+      "key_idea": "Price down, quantity up - other determinants held still - is the law of demand.",
+      "textbook_ref": "leec202.txt, section 2.4 to 2.4.2, equation 2.12, pages 21-24",
+      "question_patterns": [
+        "state the law of demand and its ceteris paribus condition",
+        "define demand and the demand function for a good",
+        "why is the demand curve drawn with price on the vertical axis",
+        "what does a downward sloping demand curve imply about price and quantity",
+        "explain the substitution and income effects behind a price cut raising quantity",
+        "list the factors held constant while deriving an individual demand curve"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the demand notion",
+          "explain": "Demand pairs willingness with ability to pay, given the good's price, other prices, income and tastes."
+        },
+        {
+          "step": 2,
+          "action": "Apply the law",
+          "explain": "With other things equal, a lower own-price raises the quantity chosen and a higher one lowers it."
+        },
+        {
+          "step": 3,
+          "action": "Explain the mechanism",
+          "explain": "A price change works through substitution toward the cheaper good and through the changed purchasing power of income."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.4.2",
+      "title": "Normal, Inferior and Giffen Goods",
+      "section": "2.4.3",
+      "definition": "For a normal good demand moves with income, for an inferior good it moves against income; a Giffen good is the rare inferior case where the income effect of a price change outweighs the substitution effect, making demand rise with its own price.",
+      "formula": "demand_direction = sign_of(income_effect) versus substitution_effect (Giffen case)",
+      "key_idea": "Income changes push demand with or against them depending on the good, and only a Giffen good breaks the law of demand.",
+      "textbook_ref": "leec202.txt, section 2.4.3, pages 24-25",
+      "question_patterns": [
+        "distinguish a normal good from an inferior good with examples",
+        "what is a Giffen good and why is it exceptional",
+        "how does demand for coarse cereals respond when income rises beyond a level",
+        "when do the income and substitution effects of a price change oppose each other",
+        "classify a good whose purchase falls as the consumer grows richer",
+        "can a good be normal at one income and inferior at another"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test the income response",
+          "explain": "Demand rising with income marks a normal good; falling with income marks an inferior good such as coarse grain."
+        },
+        {
+          "step": 2,
+          "action": "Weigh the two effects for price changes",
+          "explain": "For inferior goods substitution and income effects oppose; the net demand-price slope depends on which is stronger."
+        },
+        {
+          "step": 3,
+          "action": "Identify the Giffen exception",
+          "explain": "If the income effect dominates, demand rises with own price - the Giffen case - violating the usual law of demand."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.4.3",
+      "title": "Substitutes, Complements and Shifts versus Movements of Demand",
+      "section": "2.4.4",
+      "definition": "Related goods steer demand: a substitute's price rise pushes this good's demand up, a complement's price rise pulls it down; changes in income, related prices or tastes shift the whole demand curve, while only the good's own price causes a movement along it.",
+      "formula": "demand_curve_position = depends_on(income, related_prices, tastes) not own_price",
+      "key_idea": "Own price moves you along the curve; everything else moves the curve itself.",
+      "textbook_ref": "leec202.txt, sections 2.4.4 to 2.4.6, pages 25-27",
+      "question_patterns": [
+        "give examples of substitute and complementary goods and their price effects",
+        "when does the demand curve shift rightward and when leftward",
+        "distinguish a movement along the demand curve from a shift of the curve",
+        "how does a rise in the price of coffee affect the demand for tea",
+        "why does a favourable change in taste shift demand outward",
+        "what happens to demand for shoes when sock prices climb"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Classify the related good",
+          "explain": "Goods used in place of each other are substitutes - their prices and demands move together; goods used together are complements - a price rise for one cuts demand for the other."
+        },
+        {
+          "step": 2,
+          "action": "Sort the cause of change",
+          "explain": "A change in the good's own price causes movement along the curve; income, related prices or tastes shift the curve."
+        },
+        {
+          "step": 3,
+          "action": "Direct the shift",
+          "explain": "Higher income (normal good), dearer substitutes, cheaper complements or fonder tastes shift demand rightward; the opposites shift it leftward."
+        }
+      ]
+    },
+    {
+      "id": "leec.202.5.1",
+      "title": "Market Demand by Horizontal Summation",
+      "section": "2.5",
+      "definition": "Market demand at any price is the total of all consumers' demands at that price, obtained by adding individual demand curves sideways; with two consumers whose curves are 10 minus p and 15 minus p, the market curve is 25 minus 2p up to the price 10, then 15 minus p until 15, then zero.",
+      "formula": "market_demand_at_price = demand_consumer1 + demand_consumer2",
+      "key_idea": "Add quantities, not curves, at each price - and remember each buyer drops out above her choke price.",
+      "textbook_ref": "leec202.txt, section 2.5, equations 2.14 and 2.15, page 28",
+      "question_patterns": [
+        "derive the market demand from two individual demand functions",
+        "add the demands of consumers with 10 minus p and 15 minus p curves",
+        "what is horizontal summation of demand curves",
+        "find total market demand at a price when each buyer's demand is given",
+        "why does the market demand formula change form above a consumer's maximum price",
+        "twenty consumers share one demand function, write the market demand"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add quantities at the price",
+          "explain": "At any price each consumer still buys, their quantities sum to the market demand.",
+          "compute": "market_demand_at_price = demand_consumer1 + demand_consumer2"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Market Demand by Horizontal Summation, compute the result for demand_consumer1 = 3, demand_consumer2 = 3.",
+          "solution": "Step 1: Add quantities at the price: market_demand_at_price = demand_consumer1 + demand_consumer2 = 6.0 Final result: 6.0",
+          "answer": "6.0"
+        },
+        {
+          "question": "Using Market Demand by Horizontal Summation, compute the result for demand_consumer1 = 4, demand_consumer2 = 4.",
+          "solution": "Step 1: Add quantities at the price: market_demand_at_price = demand_consumer1 + demand_consumer2 = 8.0 Final result: 8.0",
+          "answer": "8.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.6.1",
+      "title": "Price Elasticity of Demand: Computation and Classification",
+      "section": "2.6",
+      "definition": "Price elasticity of demand measures how strongly quantity responds to price, computed as the percentage change in quantity divided by the percentage change in price; values below one in size mark inelastic demand, above one elastic, and exactly one unitary.",
+      "formula": "elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price",
+      "key_idea": "Elasticity is a pure responsiveness number, quoted by size, that sorts goods into elastic, unitary and inelastic.",
+      "textbook_ref": "leec202.txt, section 2.6, equations 2.16a and 2.16b, Example 2.2, pages 28-29",
+      "question_patterns": [
+        "compute the price elasticity of demand from old and new prices and quantities",
+        "price rises from 5 to 7 and quantity falls from 15 to 12, find the elasticity",
+        "classify demand as elastic inelastic or unitary from its elasticity value",
+        "why is price elasticity of demand negative and how is it reported",
+        "which goods show elastic demand and which inelastic",
+        "at price 4 demand is 25 and at price 5 it is 20, work out the responsiveness"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Percentage the quantity change",
+          "explain": "Scale the change in quantity by the initial quantity and multiply by one hundred.",
+          "compute": "percentage_change_in_quantity = 100 * change_in_quantity / initial_quantity"
+        },
+        {
+          "step": 2,
+          "action": "Percentage the price change",
+          "explain": "Scale the change in price by the initial price the same way.",
+          "compute": "percentage_change_in_price = 100 * change_in_price / initial_price"
+        },
+        {
+          "step": 3,
+          "action": "Divide responsiveness by the price move",
+          "explain": "The ratio of the two percentages is the price elasticity of demand, read by absolute value for classification.",
+          "compute": "elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Price Elasticity of Demand: Computation and Classification, compute the result for change_in_quantity = 3, initial_quantity = 3, change_in_price = 3, initial_price = 2.",
+          "solution": "Step 1: Percentage the quantity change: percentage_change_in_quantity = 100 * change_in_quantity / initial_quantity = 100.0 Step 2: Percentage the price change: percentage_change_in_price = 100 * change_in_price / initial_price = 150.0 Step 3: Divide responsiveness by the price move: elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price = 0.666667 Final result: 0.666667",
+          "answer": "0.666667"
+        },
+        {
+          "question": "Using Price Elasticity of Demand: Computation and Classification, compute the result for change_in_quantity = 4, initial_quantity = 4, change_in_price = 4, initial_price = 3.",
+          "solution": "Step 1: Percentage the quantity change: percentage_change_in_quantity = 100 * change_in_quantity / initial_quantity = 100.0 Step 2: Percentage the price change: percentage_change_in_price = 100 * change_in_price / initial_price = 133.333333 Step 3: Divide responsiveness by the price move: elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price = 0.75 Final result: 0.75",
+          "answer": "0.75"
+        }
+      ]
+    },
+    {
+      "id": "leec.202.6.2",
+      "title": "Elasticity along a Linear Demand Curve and Total Expenditure",
+      "section": "2.6.1",
+      "definition": "On the straight-line demand curve q equals a minus bp, elasticity varies point by point - zero at the horizontal axis, one at the midpoint, infinite at the vertical axis - equal to the ratio of the lower to the upper segment; and total spending rises with price only when demand is inelastic, falls when elastic, and stays put when unitary.",
+      "formula": "elasticity_at_point = lower_segment / upper_segment of the demand line",
+      "key_idea": "Elasticity slides from infinity to zero along a linear demand curve, and its size decides how a price change moves spending.",
+      "textbook_ref": "leec202.txt, sections 2.6.1 to 2.6.3, equation 2.17 and Table 2.5, pages 29-33",
+      "question_patterns": [
+        "why does elasticity differ at every point of a straight line demand curve",
+        "find the elasticity at the midpoint of a linear demand curve",
+        "use the segment ratio to measure elasticity at a point on the demand line",
+        "how does total expenditure respond to a price rise when demand is elastic",
+        "predict the expenditure change for a price cut when elasticity is 0.2",
+        "what is special about a rectangular hyperbola demand curve's elasticity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the point on the line",
+          "explain": "Compare the point with the midpoint: left of it elasticity exceeds one, right of it less than one."
+        },
+        {
+          "step": 2,
+          "action": "Apply the segment rule",
+          "explain": "Elasticity at the point equals the lower segment over the upper segment, running from zero at the quantity axis to infinity at the price axis."
+        },
+        {
+          "step": 3,
+          "action": "Read the expenditure consequence",
+          "explain": "Price and spending move together when demand is inelastic, against each other when elastic, and spending is constant for unitary - the rectangular hyperbola case."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec202.txt Table 2.1 marginal utility schedule",
+      "concept": "leec.202.1.1",
+      "question_type": "compute",
+      "question_pattern": "Total utility from 4 bananas is 24 and from 5 bananas is 24. Find the marginal utility of the fifth banana and say what is happening to total utility.",
+      "extracted_variables": {
+        "total_utility_of_n_units": 24,
+        "total_utility_of_previous_units": 24
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Marginal utility of the unit",
+          "explain": "24 minus 24 gives zero, so the fifth banana adds nothing and total utility has peaked.",
+          "compute": "marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec202.txt exercise 4",
+      "concept": "leec.202.2.2",
+      "question_type": "compute",
+      "question_pattern": "A consumer has income 20 and faces prices 4 and 5 for goods 1 and 2. Find the budget line's horizontal intercept, vertical intercept and slope.",
+      "extracted_variables": {
+        "income": 20,
+        "price_of_good1": 4,
+        "price_of_good2": 5
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Intercept on good 1",
+          "explain": "20 over 4 gives 5 units of good 1 when all income goes to it.",
+          "compute": "maximum_units_of_good1 = income / price_of_good1"
+        },
+        {
+          "step": 2,
+          "action": "Intercept on good 2",
+          "explain": "20 over 5 gives 4 units of good 2.",
+          "compute": "maximum_units_of_good2 = income / price_of_good2"
+        },
+        {
+          "step": 3,
+          "action": "Slope",
+          "explain": "4 over 5 gives a slope of 0.8 in absolute value.",
+          "compute": "rate_of_market_substitution = price_of_good1 / price_of_good2"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec202.txt Example 2.2 banana elasticity",
+      "concept": "leec.202.6.1",
+      "question_type": "compute",
+      "question_pattern": "At Rs 5 a banana a buyer takes 15; at Rs 7 she takes 12. Compute the price elasticity of demand for bananas.",
+      "extracted_variables": {
+        "initial_quantity": 15,
+        "change_in_quantity": -3,
+        "initial_price": 5,
+        "change_in_price": 2
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Percentage change in quantity",
+          "explain": "100 times minus 3 over 15 gives minus 20 percent.",
+          "compute": "percentage_change_in_quantity = 100 * change_in_quantity / initial_quantity"
+        },
+        {
+          "step": 2,
+          "action": "Percentage change in price",
+          "explain": "100 times 2 over 5 gives 40 percent.",
+          "compute": "percentage_change_in_price = 100 * change_in_price / initial_price"
+        },
+        {
+          "step": 3,
+          "action": "Elasticity",
+          "explain": "Minus 20 over 40 gives minus 0.5, so demand is inelastic.",
+          "compute": "elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec202-ex1",
+      "source_ref": "leec202.txt exercise 1",
+      "questions": [
+        "What is the budget set of a consumer?"
+      ]
+    },
+    {
+      "id": "leec202-ex2",
+      "source_ref": "leec202.txt exercise 2",
+      "questions": [
+        "What is the budget line?"
+      ]
+    },
+    {
+      "id": "leec202-ex3",
+      "source_ref": "leec202.txt exercise 3",
+      "questions": [
+        "Explain why the budget line slopes downward."
+      ]
+    },
+    {
+      "id": "leec202-ex4",
+      "source_ref": "leec202.txt exercise 4",
+      "questions": [
+        "With prices 4 and 5 and income 20, write the budget line equation, both full-spend quantities, and the slope."
+      ]
+    },
+    {
+      "id": "leec202-ex5",
+      "source_ref": "leec202.txt exercise 5",
+      "questions": [
+        "How does the budget line move when income rises to 40 with prices unchanged?"
+      ]
+    },
+    {
+      "id": "leec202-ex6",
+      "source_ref": "leec202.txt exercise 6",
+      "questions": [
+        "How does the budget line move when the price of good 2 falls by a rupee, other things unchanged?"
+      ]
+    },
+    {
+      "id": "leec202-ex7",
+      "source_ref": "leec202.txt exercise 7",
+      "questions": [
+        "What happens to the budget set if all prices and income double together?"
+      ]
+    },
+    {
+      "id": "leec202-ex8",
+      "source_ref": "leec202.txt exercise 8",
+      "questions": [
+        "A consumer buys 6 units of good 1 and 8 of good 2 spending everything; prices are 6 and 8. Find the income."
+      ]
+    },
+    {
+      "id": "leec202-ex9",
+      "source_ref": "leec202.txt exercise 9",
+      "questions": [
+        "With both goods priced at 10 and income 40 available only in whole units, list the affordable bundles and those costing exactly 40."
+      ]
+    },
+    {
+      "id": "leec202-ex10",
+      "source_ref": "leec202.txt exercise 10",
+      "questions": [
+        "What is meant by monotonic preferences?"
+      ]
+    },
+    {
+      "id": "leec202-ex11",
+      "source_ref": "leec202.txt exercise 11",
+      "questions": [
+        "With monotonic preferences, can a consumer be indifferent between the bundles 10-8 and 8-6?"
+      ]
+    },
+    {
+      "id": "leec202-ex12",
+      "source_ref": "leec202.txt exercise 12",
+      "questions": [
+        "Under monotonic preferences, rank the bundles 10-10, 10-9 and 9-9."
+      ]
+    },
+    {
+      "id": "leec202-ex13",
+      "source_ref": "leec202.txt exercise 13",
+      "questions": [
+        "A friend is indifferent between bundles 5-6 and 6-6; are her preferences monotonic?"
+      ]
+    },
+    {
+      "id": "leec202-ex14",
+      "source_ref": "leec202.txt exercise 14",
+      "questions": [
+        "For d1 equal to 20 minus p up to price 20 and d2 equal to 30 minus 2p up to price 15, find the market demand function."
+      ]
+    },
+    {
+      "id": "leec202-ex15",
+      "source_ref": "leec202.txt exercise 15",
+      "questions": [
+        "Twenty consumers each demand 10 minus 3p up to the price 10 over 3; write the market demand function."
+      ]
+    },
+    {
+      "id": "leec202-ex16",
+      "source_ref": "leec202.txt exercise 16",
+      "questions": [
+        "Using the tabulated demands of two consumers, calculate the market demand at each price."
+      ]
+    },
+    {
+      "id": "leec202-ex17",
+      "source_ref": "leec202.txt exercise 17",
+      "questions": [
+        "What is a normal good?"
+      ]
+    },
+    {
+      "id": "leec202-ex18",
+      "source_ref": "leec202.txt exercise 18",
+      "questions": [
+        "What is an inferior good? Give examples."
+      ]
+    },
+    {
+      "id": "leec202-ex19",
+      "source_ref": "leec202.txt exercise 19",
+      "questions": [
+        "What are substitutes? Name two goods that substitute for each other."
+      ]
+    },
+    {
+      "id": "leec202-ex20",
+      "source_ref": "leec202.txt exercise 20",
+      "questions": [
+        "What are complements? Name two goods used together."
+      ]
+    },
+    {
+      "id": "leec202-ex21",
+      "source_ref": "leec202.txt exercise 21",
+      "questions": [
+        "Explain price elasticity of demand."
+      ]
+    },
+    {
+      "id": "leec202-ex22",
+      "source_ref": "leec202.txt exercise 22",
+      "questions": [
+        "At price 4 demand is 25 units; at price 5 it falls to 20. Calculate the price elasticity."
+      ]
+    },
+    {
+      "id": "leec202-ex23",
+      "source_ref": "leec202.txt exercise 23",
+      "questions": [
+        "For the demand curve 10 minus 3p, find the elasticity at price 5 over 3."
+      ]
+    },
+    {
+      "id": "leec202-ex24",
+      "source_ref": "leec202.txt exercise 24",
+      "questions": [
+        "Elasticity is minus 0.2; by what percentage does demand fall when price rises 5 percent?"
+      ]
+    },
+    {
+      "id": "leec202-ex25",
+      "source_ref": "leec202.txt exercise 25",
+      "questions": [
+        "With elasticity minus 0.2, how is expenditure affected by a 10 percent price rise?"
+      ]
+    },
+    {
+      "id": "leec202-ex26",
+      "source_ref": "leec202.txt exercise 26",
+      "questions": [
+        "A 4 percent price fall raised expenditure by 2 percent; what does that reveal about elasticity?"
+      ]
+    }
+  ]
+}

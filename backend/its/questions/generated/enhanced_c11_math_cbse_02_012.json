@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_012",
+   "title": "c11_math_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define a function \\( f(x) \\) that represents the total cost \\( C \\) (in rupees) of buying \\( x \\) notebooks if each notebook costs ₹12 and there is a fixed packaging charge of ₹5 per order. State the domain of this function in the context of the problem.",
+     "a": "The function is \\( f(x) = 12x + 5 \\). The domain is the set of positive integers \\( \\{1, 2, 3, \\dots\\} \\) because you cannot buy a negative or fractional number of notebooks in this context. A wrong answer like \\( f(x) = 12x \\) (missing the fixed charge) or domain \\( \\mathbb{R} \\) (ignoring that \\( x \\) must be a positive integer) reveals the student cannot distinguish between variable and fixed components or does not apply contextual constraints to the domain.",
+     "self_check": true
+    },
+    {
+     "q": "A function \\( g(t) = 50 - 4.9t^2 \\) gives the height (in metres) of a ball thrown upward from a 50 m building after \\( t \\) seconds. Explain why the domain of \\( g \\) in this physical situation is NOT all real numbers, and find the largest possible domain.",
+     "a": "The domain is restricted because time \\( t \\) cannot be negative, and the ball stops when it hits the ground (height = 0). Solving \\( 50 - 4.9t^2 = 0 \\) gives \\( t \\approx 3.19 \\) s. So the domain is \\( [0, \\sqrt{50/4.9}] \\approx [0, 3.19] \\). If a student says the domain is \\( \\mathbb{R} \\) or \\( [0, \\infty) \\), they are ignoring the physical constraint that the ball cannot go below ground; they are treating the formula as an abstract polynomial without connecting it to the real-world event it models.",
+     "self_check": true
+    },
+    {
+     "q": "A taxi charges ₹25 for the first kilometre and ₹12 for each additional kilometre. Write the piecewise function \\( C(x) \\) for the fare when \\( x \\) km are travelled (\\( x > 0 \\)). Calculate the fare for a 4.5 km trip.",
+     "a": "For \\( 0 < x \\leq 1 \\), \\( C(x) = 25 \\). For \\( x > 1 \\), \\( C(x) = 25 + 12 \\times \\lceil x-1 \\rceil \\) if charging per started km, but typically in such problems we assume proportional for fractional km: \\( C(x) = 25 + 12(x-1) = 12x + 13 \\). For 4.5 km: \\( C(4.5) = 12 \\times 4.5 + 13 = 54 + 13 = ₹67 \\). A common error is to use \\( C(x) = 25 + 12x \\) (charging ₹12 for the first km as well) or to forget the piecewise nature and apply the second rule for all \\( x \\). This shows the student does not recognise that the pricing rule changes at the 1 km boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two functions: \\( f(x) = 2x + 10 \\) (cost of a gym membership with ₹10 registration + ₹2 per visit) and \\( g(x) = 5x \\) (pay-per-visit at ₹5). Determine the number of visits for which the membership becomes cheaper. Explain how the domain affects the answer.",
+     "a": "Set \\( 2x + 10 < 5x \\) → \\( 10 < 3x \\) → \\( x > 10/3 \\approx 3.33 \\). Since visits are whole numbers, membership is cheaper for \\( x \\geq 4 \\) visits. Domain is positive integers. If a student solves \\( 2x+10 = 5x \\) and gets \\( x = 3.33 \\) but says \"3 visits\" or \"3.33 visits\", they have not considered that the domain is discrete (number of visits must be integer) and that the inequality must be checked at integer points. This reveals a gap in connecting the algebraic solution back to the contextual domain.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"The temperature in Celsius \\( C \\) and Fahrenheit \\( F \\) are related by \\( F = \\frac{9}{5}C + 32 \\). Find the temperature where both scales read the same.\" Their working: \\( C = \\frac{9}{5}C + 32 \\) → \\( -\\frac{4}{5}C = 32 \\) → \\( C = -40 \\). They conclude: \"The temperature is -40°F.\" Evaluate if this conclusion is fully correct and justify.",
+     "a": "The conclusion is incomplete. The temperature where both scales read the same is -40°, meaning -40°C = -40°F. The student found \\( C = -40 \\) but then wrote \"-40°F\" without stating that this is also the Celsius value. A fully correct answer: \"At -40°, both scales show the same reading: -40°C = -40°F.\" If the student only gives one unit, they have not interpreted the equality of the two functions \\( f(C) = \\frac{9}{5}C+32 \\) and \\( g(C)=C \\) at the intersection point. This shows they can solve the equation but miss the physical meaning of the solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that leads to a piecewise-defined function involving the greatest integer function \\( [x] \\). Define the function, state its domain, and give one example of evaluating it.",
+     "a": "Example problem: \"A courier service charges ₹30 for the first 500 g and ₹10 for every additional 500 g or part thereof. Write the cost function \\( C(w) \\) for a parcel of weight \\( w \\) grams (\\( w > 0 \\)).\" Function: \\( C(w) = 30 + 10 \\left[ \\frac{w-1}{500} \\right] \\) for \\( w > 0 \\), with domain \\( (0, \\infty) \\). For \\( w = 1200 \\) g: \\( \\frac{1199}{500} = 2.398 \\), greatest integer = 2, cost = 30 + 20 = ₹50. A poor answer would use a linear function without the greatest integer part, or define the domain incorrectly (e.g., only multiples of 500). This reveals the student cannot identify situations where charges jump at discrete intervals and require the greatest integer function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

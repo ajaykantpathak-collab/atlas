@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_005",
+   "title": "c12_biotech_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the primary biological barrier that embryo rescue overcomes in wide hybridization?",
+     "a": "Embryo rescue overcomes post-zygotic embryo abortion caused by endosperm failure or maternal–embryo incompatibility, not pre-zygotic barriers like pollen–stigma incompatibility. A wrong answer (e.g., \"pollen tube growth failure\") reveals confusion between pre- and post-fertilization barriers — a common error in board exams where students conflate crossing barriers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Embryo rescue can save any hybrid embryo, even if the hybrid genome is lethal.\" Explain why this statement is incorrect using the concept of genetic vs. physiological barriers.",
+     "a": "Embryo rescue only bypasses physiological/nutritional barriers (e.g., endosperm collapse); it cannot rescue embryos with chromosomal imbalances, lethal gene combinations, or irreversible genetic incompatibilities. A wrong answer indicates the student thinks tissue culture can \"fix\" genetic defects — a fundamental misconception that leads to overestimating the technique's power in competitive exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "In a cross between *Brassica napus* (2n=38) and *B. oleracea* (2n=18), hybrid embryos abort at the globular stage (10 DAP). The breeder wants to rescue them. At which developmental stage should the embryo be excised, and what medium modification would most likely support its growth? Justify both choices.",
+     "a": "Excise at late globular/early heart stage (just before abortion at 10 DAP) — earlier stages lack developmental competence; later stages are already necrotic. Use medium with high sucrose (6–8%), reduced nitrogen, and supplemented with coconut water (10–15%) or casein hydrolysate (500 mg/L) to replace endosperm-derived factors. A wrong stage choice (e.g., zygote) shows ignorance of embryo competence acquisition; wrong medium (standard MS) shows failure to recognize the unique nutritional needs of young embryos vs. mature explants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare embryo rescue and somatic hybridization as strategies for transferring a disease-resistance gene from a wild relative into a crop. Under what genetic circumstances would each be preferred?",
+     "a": "Embryo rescue is preferred when sexual hybridization is possible but post-zygotic barriers cause embryo abortion (functional gametes, viable zygote). Somatic hybridization is used when pre-zygotic barriers prevent fertilization entirely (e.g., different ploidy, no pollen compatibility) or when cytoplasmic traits (male sterility) are targeted. A wrong answer that swaps these conditions reveals inability to distinguish sexual vs. somatic gene transfer pathways — a frequent JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this protocol: \"Excise 5-day-old hybrid embryos from *Triticum × Aegilops* cross, culture on full-strength MS medium with 3% sucrose, 0.5 mg/L 2,4-D, 0.1 mg/L kinetin, pH 5.8, 25°C dark.\" Identify three specific errors and explain their consequences.",
+     "a": "Errors: (1) 5-day embryo is too young (proembryo) — lacks autonomy, will not develop; (2) 2,4-D induces callus, not organized embryo development — leads to somaclonal variation, not true hybrid plant; (3) Dark condition inhibits photosynthetic competence acquisition — plantlets will be etiolated and weak. A student missing any of these shows gaps in understanding embryo developmental physiology and hormone roles — critical for board practical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete embryo rescue experiment to introgress drought tolerance from *Oryza rufipogon* (wild rice) into *O. sativa* cv. IR64. Specify: (a) crossing direction, (b) embryo excision timing, (c) medium recipe (key components only), (d) hardening strategy, and (e) one molecular marker to confirm hybridity.",
+     "a": "(a) *O. sativa* ♀ × *O. rufipogon* ♂ (cultivated as mother for better endosperm support); (b) 8–10 DAP (torpedo stage, before abortion at 12 DAP); (c) N6 medium + 6% sucrose + 10% coconut water + 100 mg/L glutamine + 0.1 mg/L NAA + 0.5 mg/L BAP, pH 5.8; (d) Gradual humidity reduction over 14 days in mist chamber, then greenhouse; (e) SSR marker RM219 on chromosome 1 (linked to drought QTL). A poor answer uses generic MS medium, wrong stage, or skips molecular confirmation — revealing lack of integration across tissue culture, breeding, and molecular biology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

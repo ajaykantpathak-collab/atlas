@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy208",
+  "concepts": [
+    {
+      "id": "legy.208.1",
+      "questions": [
+        {"q": "Manufactured goods formed about what per cent of India's exports in 2021-22? (give the per cent)", "a": "67.8"},
+        {"q": "If manufactures were 67.8 per cent of exports, all other items were what per cent (to one decimal)? (number)", "a": "32.2"},
+        {"q": "India's exports have shifted from agricultural raw goods to what category? (one word)", "a": "manufactured"},
+        {"q": "Which fossil-fuel import, grouped with petroleum, leads India's import bill? (two words)", "a": "crude oil"},
+        {"q": "Electronic goods and chemicals belong to India's exports or imports? (one word)", "a": "imports"},
+        {"q": "What does the export shift from farm goods to manufactures mirror? (one word)", "a": "industrialisation"},
+        {"q": "In which decade after 1991 did India's export basket diversify fastest? (short phrase)", "a": "post-1991"}
+      ]
+    },
+    {
+      "id": "legy.208.2",
+      "questions": [
+        {"q": "India's trade direction has shifted towards which continent? (one word)", "a": "Asia"},
+        {"q": "Besides Asian countries, which regional grouping takes a large share of India's trade? (short form)", "a": "ASEAN"},
+        {"q": "Which single country, India's northern neighbour, is a leading trade partner? (one word)", "a": "China"},
+        {"q": "Which North American country remains a leading destination for Indian exports? (short form)", "a": "USA"},
+        {"q": "What swings India's trade balance most: oil prices or monsoon? (two words)", "a": "oil prices"},
+        {"q": "Which Gulf resource imports dominate India's trade with West Asia? (one word)", "a": "oil"},
+        {"q": "Are Asian countries now the largest or smallest share of India's trade? (one word)", "a": "largest"}
+      ]
+    },
+    {
+      "id": "legy.208.3",
+      "questions": [
+        {"q": "About what per cent of India's international trade by volume moves by sea? (give the per cent)", "a": "95"},
+        {"q": "How many major sea ports does India have? (number)", "a": "12"},
+        {"q": "Which is India's biggest western sea port? (one word)", "a": "Mumbai"},
+        {"q": "Which major port serves the Gujarat coast north of Mumbai? (one word)", "a": "Kandla"},
+        {"q": "Which major port serves Andhra Pradesh on the east coast? (one word)", "a": "Visakhapatnam"},
+        {"q": "Which Odisha port is one of India's twelve major ports? (one word)", "a": "Paradip"},
+        {"q": "High-value cargo like gems and electronics moves through international what besides sea ports? (two words)", "a": "airports"}
+      ]
+    },
+    {
+      "id": "legy.208.4",
+      "questions": [
+        {"q": "Before 1991, Indian trade policy followed import substitution and what system of permits? (one word)", "a": "licensing"},
+        {"q": "In which year did India liberalise its trade policy? (give the year)", "a": "1991"},
+        {"q": "What happened to tariffs after 1991: they fell or rose? (one word)", "a": "fell"},
+        {"q": "Which zones export promotion created for duty-free manufacturing? (short form)", "a": "EPZ"},
+        {"q": "Liberalisation integrated India into what chains of global production? (two words)", "a": "global value chains"},
+        {"q": "Name one instrument of export promotion besides zones. (two words)", "a": "free trade agreements"},
+        {"q": "Did pre-1991 policy protect domestic industry through tariffs or free trade? (two words)", "a": "tariffs"}
+      ]
+    }
+  ]
+}

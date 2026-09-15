@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch3_1",
+   "title": "c9_hist_ch3_1",
+   "questions": [
+    {
+     "q": "Name the two major geographical regions associated with the Early Vedic and Later Vedic periods respectively, and state the approximate chronological divide between them.",
+     "a": "Early Vedic: Sapta Sindhu (Punjab/Indus tributaries), c. 1500–1000 BCE. Later Vedic: Ganga-Yamuna doab (Kuru-Panchala region), c. 1000–600 BCE. A wrong answer (e.g., placing Early Vedic in the Ganga valley or reversing the dates) reveals the student has not grasped the eastward migration that drives every subsequent social change.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the *varna* system described in the Purusha Sukta (Rigveda 10.90) cannot be taken as evidence for a rigid four-fold caste hierarchy in the Early Vedic period.",
+     "a": "The Purusha Sukta is a late hymn (mandala 10) likely composed during the transition to the Later Vedic period; earlier Rigvedic hymns show fluid occupational groups (e.g., a rishi's son becoming a carpenter) and no endogamous birth-based castes. A wrong answer that treats the Purusha Sukta as representative of the entire Rigveda reveals the conflation of textual layers—a board-level error where students ignore internal chronology of the Vedic corpus.",
+     "self_check": true
+    },
+    {
+     "q": "A Later Vedic text mentions \"krishna ayas\" (black metal) used for ploughshares and arrowheads. Using this evidence, explain how iron technology altered the economic base and political structure of the Ganga valley societies.",
+     "a": "Iron axes cleared dense forests (enabling settled agriculture), iron ploughshares increased yield (creating surplus), and iron weapons gave military advantage to chiefs who could now maintain standing retainers—leading to territorial *janapadas* replacing tribal *janas*. A wrong answer focusing only on \"better tools\" misses the causal chain: surplus → taxation → standing army → territorial state.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role and status of women in the Early Vedic period (evidence: Rigvedic hymns by female rishis, swayamvara references) with the Later Vedic period (evidence: Brahmanical rituals excluding women, patrilineal inheritance emphasis). Identify two specific changes and their institutional drivers.",
+     "a": "Change 1: Female rishis (Lopamudra, Ghosha) disappear; women lose access to Vedic education and ritual participation. Driver: ritual complexity monopolised by male Brahmin priests. Change 2: Swayamvara replaced by *kanyadana* (gift of virgin) and child marriage references. Driver: lineage purity concerns tied to varna endogamy and property transmission. A wrong answer citing only \"women lost status\" without linking to ritual monopoly or property logic shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian's claim: \"The shift from *jana* (tribe) to *janapada* (territory) was primarily a political choice by Vedic chiefs, not an ecological necessity.\" Use evidence from both Vedic texts and Painted Grey Ware archaeology.",
+     "a": "The claim is incorrect. PGW sites cluster along riverbanks in the doab, showing settlement followed agricultural potential. Texts (*Atharvaveda*, *Shatapatha Brahmana*) describe forest clearance (*khandava vana*) as a collective survival activity, not a chiefly decree. Ecological necessity (monsoon agriculture requiring fixed fields) forced sedentarisation; chiefs then territorialised existing settlements. A wrong answer accepting the claim ignores the materialist base of state formation—a key board-exam analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-column comparative table (Early Vedic | Later Vedic | Key Driver of Change) for the following categories: (1) Basic economic unit, (2) Political authority, (3) Religious practice, (4) Social stratification. Fill it using only evidence from the Vedic texts themselves.",
+     "a": "A strong answer includes: (1) Pastoral clan (*gotra*) → Agricultural village (*grama*) → Iron plough/forest clearance; (2) Tribal chief (*rajan*) elected by *samiti* → Territorial king (*samrat*) with *bali* taxation → Surplus extraction; (3) Simple *yajna* (nature gods) → Complex *shrauta* sacrifices (Prajapati, Vishnu) → Priestly monopoly; (4) Fluid *varna* (occupation-based) → Birth-based *varna* with *dvija* initiation → Lineage/property logic. A poor answer copies textbook summaries without citing specific textual references (e.g., *Rigveda 3.26* for *bali*, *Aitareya Brahmana* for *rajasuya*).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

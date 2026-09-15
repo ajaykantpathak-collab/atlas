@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_004",
+   "title": "c12_bio_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between active and passive immunity in terms of antibody production?",
+     "a": "In active immunity, the individual's own immune system produces antibodies in response to an antigen. In passive immunity, pre-formed antibodies are transferred from another source. A wrong answer (e.g., saying both involve the body making antibodies) reveals the student does not grasp that passive immunity bypasses the recipient's immune response.",
+     "self_check": true
+    },
+    {
+     "q": "Why does passive immunity provide immediate protection but last only a few weeks to months, while active immunity takes time to develop but lasts years or a lifetime?",
+     "a": "Passive immunity provides immediate protection because ready-made antibodies are administered directly, but they degrade over time and no memory cells are generated. Active immunity requires time for clonal selection and expansion of B and T cells, but generates memory cells that persist. A wrong answer (e.g., saying passive immunity lasts longer because antibodies are strong) shows misunderstanding of the role of memory cells and antibody half-life.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer is bitten by a venomous snake. The doctor administers antivenom serum. Identify the type of immunity conferred and explain why this is the appropriate choice in this emergency.",
+     "a": "This is artificial passive immunity. Antivenom contains pre-formed antibodies against snake venom, providing immediate neutralization. Active immunity (vaccination) would take weeks to develop, which is too slow for a life-threatening emergency. A wrong answer (e.g., saying it's active immunity because the body responds to the serum) indicates confusion between the antigen in the serum and the antibodies transferred.",
+     "self_check": true
+    },
+    {
+     "q": "Compare natural active immunity and artificial active immunity in terms of antigen exposure, risk, and memory cell formation. Provide one example of each.",
+     "a": "Natural active immunity results from actual infection (e.g., recovering from measles), carrying the risk of disease complications. Artificial active immunity results from vaccination (e.g., MMR vaccine), where the antigen is attenuated or inactivated, minimizing risk. Both generate memory cells. A wrong answer that claims artificial active immunity does not produce memory cells reveals a misconception about vaccine mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since passive immunity is immediate, it is better than active immunity for long-term protection against diseases like polio.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Passive immunity is short-lived (weeks to months) and does not generate memory cells, so it cannot provide long-term protection. Active immunity, though slower, creates immunological memory essential for lifelong protection against polio. A wrong evaluation (agreeing with the statement) shows the student confuses speed of onset with duration of protection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart that a health worker could use to decide whether to administer a vaccine or an immunoglobulin preparation for a person exposed to hepatitis B, considering the person's vaccination history and time since exposure.",
+     "a": "A good flowchart would start with: Check vaccination history -> If fully vaccinated, no action needed. If unvaccinated/partially vaccinated and exposure recent (<24 hours), give hepatitis B immunoglobulin (passive) + start vaccine series (active). If exposure >7 days, only vaccine series. A poor answer that omits the combination strategy or timing reveals inability to integrate both immunity types in clinical decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_6",
+   "title": "c8_bio_ch1_6",
+   "questions": [
+    {
+     "q": "What is the primary chemical substance that makes the plant cell wall rigid and tough?",
+     "a": "The primary substance is cellulose. A student who answers \"protein\" or \"fat\" is confusing the structural carbohydrate of plants with animal membrane components, failing to recognize the unique polysaccharide composition of plant cell walls.",
+     "self_check": true
+    },
+    {
+     "q": "Why do animal cells lack a cell wall, considering that both plants and animals are made of cells?",
+     "a": "Animal cells lack a cell wall because animals need flexibility and mobility for movement, muscle contraction, and varied tissue shapes. A student who answers that \"animals do not need protection\" misses the point that animals use internal skeletons and skin instead of rigid extracellular walls.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener forgets to water a potted tomato plant on a hot summer afternoon, and the plant droops over. When watered in the evening, it stands upright again. How do cell walls and internal water pressure interact to cause this recovery?",
+     "a": "Water enters the plant cell through osmosis, filling the vacuole and pushing outward against the rigid cell wall, which creates turgor pressure. The rigid cell wall prevents the cell from bursting while allowing it to become firm, thus pushing the stem upright. A student who says \"the water melts the cell wall to make it soft\" misunderstands the structural role of cellulose in maintaining firmness.",
+     "self_check": true
+    },
+    {
+     "q": "If a plant is kept in complete darkness for two weeks, what structural change would you expect inside its chloroplasts, and how would it affect the plant's survival?",
+     "a": "In complete darkness, chloroplasts cannot perform photosynthesis, leading to a depletion of stored starches and a breakdown of green chlorophyll pigments (etiolation, causing leaves to turn yellow). The plant will eventually die because it cannot manufacture food autotrophically. A student who claims that \"chloroplasts will multiply to search for light\" lacks understanding of how light energy is required to maintain photosynthetic machinery.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that because green parts of plants have chloroplasts for making food, roots must also contain chloroplasts because they are part of the same plant organism. Evaluate this argument using your knowledge of plant cell specialization.",
+     "a": "The argument is incorrect because plant cells differentiate according to their location and function in the organism. Roots grow underground in the dark where light cannot reach, meaning chloroplasts would be useless; instead, root cells contain amyloplasts for starch storage and lack photosynthetic pigments. A student who agrees with the student fails to understand that cell organelles reflect specialized tissue functions and environmental exposure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experimental setup using a potted plant, aluminum foil, and iodine solution to prove that chloroplasts are essential for starch production in leaves.",
+     "a": "To prove this, a healthy potted plant is kept in the dark for 48 hours to destarch its leaves. Then, a strip of aluminum foil is wrapped around part of one leaf to block sunlight, and the plant is placed in bright light for 6 hours. When the leaf is detached, decolorized in boiling alcohol, and tested with iodine solution, the covered part remains yellow-brown (no starch), while the exposed green part turns blue-black, proving that light-capturing chloroplasts are necessary for photosynthesis. A poor answer would suggest boiling the leaf in iodine directly without removing chlorophyll or failing to use a dark control, showing a lack of experimental logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

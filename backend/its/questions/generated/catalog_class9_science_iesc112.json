@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc112.json",
+ "concepts": [
+  {
+   "id": "iesc.112.12.1",
+   "title": "Biodiversity - The Variety of Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is biodiversity?",
+     "a": "The whole variety of life - species, their genes and the ecosystems they form - in a region.",
+     "self_check": true
+    },
+    {
+     "q": "Why should we conserve biodiversity?",
+     "a": "Every species supports others; losing one destabilises ecosystems and removes future resources.",
+     "self_check": true
+    },
+    {
+     "q": "Name a biodiversity-rich region of India.",
+     "a": "The Western Ghats (also the Himalaya and the North-East).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.12.2",
+   "title": "Classification - Grouping by Characteristics",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we classify organisms?",
+     "a": "To arrange millions of species into groups based on similarities, making study and identification easier.",
+     "self_check": true
+    },
+    {
+     "q": "On what basis are living things grouped?",
+     "a": "Body design, cell type, number of cells, mode of nutrition and evolutionary links.",
+     "self_check": true
+    },
+    {
+     "q": "What is the basis of the two-kingdom vs five-kingdom classification?",
+     "a": "The five-kingdom system adds Monera, Protista and Fungi by separating prokaryotes and distinct nutrition patterns.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.12.3",
+   "title": "Hierarchy of Classification: Kingdom to Species",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List the hierarchy of classification from kingdom to species.",
+     "a": "Kingdom, phylum/division, class, order, family, genus, species.",
+     "self_check": true
+    },
+    {
+     "q": "What is a species?",
+     "a": "The basic unit - organisms so similar that they can breed naturally and produce fertile young.",
+     "self_check": true
+    },
+    {
+     "q": "Give the scientific name format of any organism.",
+     "a": "Two Latin words - genus first (capitalised), species second (small), written in italics, e.g. Mangifera indica.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

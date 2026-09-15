@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_001",
+   "title": "c7_physics_ch04_001",
+   "questions": [
+    {
+     "q": "What is the name of the vertical rod or pin used in a sundial to cast a shadow?",
+     "a": "The vertical rod or pin is called a gnomon. A student who answers \"hands\" or \"dial face\" is confusing sundials with modern mechanical clocks, failing to recognize how a sundial actually uses shadow formation from an object blocking sunlight.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a sundial unable to measure time accurately on a heavy monsoon day with dark, overcast clouds?",
+     "a": "A sundial relies entirely on sunlight traveling in straight lines to cast a clear shadow of the gnomon onto the marked surface; thick clouds block direct sunlight, preventing shadow formation. A student who thinks sundials measure temperature or wind speed misunderstands the fundamental physical principle that sundials depend on light and optics rather than weather conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A simple water clock uses a vessel with a tiny hole at the bottom. If it takes 15 minutes for 300 mL of water to drip out completely, how long will it take for 100 mL of water to drip out, assuming the flow rate remains uniform?",
+     "a": "Steps:\n1. Identify given values: Total volume $V_1 = 300\\text{ mL}$ takes time $t_1 = 15\\text{ minutes}$. New volume $V_2 = 100\\text{ mL}$.\n2. Determine flow rate: Rate = $\\frac{\\text{Volume}}{\\text{Time}} = \\frac{300\\text{ mL}}{15\\text{ min}} = 20\\text{ mL/min}$.\n3. Calculate time for new volume: $t_2 = \\frac{V_2}{\\text{Rate}} = \\frac{100\\text{ mL}}{20\\text{ mL/min}}$.\n4. Compute and cancel units: $t_2 = 5\\text{ minutes}$.\n5. Verify physical reasonableness: 100 mL is one-third of 300 mL, so it should take one-third of 15 minutes, which is 5 minutes.\nAnswer: 5 minutes. A student who multiplies instead of dividing or miscalculates the proportion lacks an understanding of uniform rates.",
+     "self_check": true
+    },
+    {
+     "q": "How does the length of the shadow cast by a sundial's gnomon change from 8:00 AM to 12:00 Noon, and why?",
+     "a": "The shadow's length decreases from morning until noon, reaching its shortest length at midday, because the sun is lowest on the horizon in the morning (casting long shadows) and highest overhead at noon (casting short shadows). A student who believes shadows get longer as the sun rises higher is confusing morning and evening positions with midday angles.",
+     "self_check": true
+    },
+    {
+     "q": "A village elder claims that a water clock can measure time just as accurately in freezing winter as in scorching summer. Evaluate this claim using scientific reasoning.",
+     "a": "The claim is false because temperature affects the viscosity (thickness) of water and the size of the drip hole due to thermal expansion or contraction. In winter, colder water flows more slowly, changing the calibration of the water clock. A student who says temperature has no effect on fluids ignores basic physical properties of matter and heat transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple water clock using a plastic water bottle that can measure a 5-minute interval for a science quiz in your classroom. What steps and calibrations would you need?",
+     "a": "To design this: Take a plastic bottle, pierce a small, uniform hole at the bottom, and fill it to a marked line with water. Allow the water to drip into a measuring cup for exactly 5 minutes using a modern stopwatch, and mark the new water level inside the receiving container (or the dropping container) as the 5-minute mark. A poor answer would suggest guessing or ignoring the calibration step, which shows a lack of understanding of how measuring instruments must be standardized against known references.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "International Trade",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.108.1",
+   "title": "Basis and History of International Trade",
+   "section": "History of International Trade",
+   "definition": "International trade is the exchange of goods and services across national boundaries, based on differences in resource endowments, technology and specialisation; historically it moved from the Silk Route and medieval spice trade to the slave trade and the industrial-era exchange of raw materials for manufactures.",
+   "formula": "",
+   "key_idea": "Trade follows comparative advantage: nations export what their resources and skills produce best and import the rest.",
+   "textbook_ref": "legy108.txt trade basis, Silk Route, slave trade and industrial trade history",
+   "question_patterns": [
+    "define international trade and its basis",
+    "trace the Silk Route's role in early trade",
+    "how did the slave trade shape Atlantic commerce",
+    "what changed with the industrial revolution in trade patterns",
+    "distinguish bilateral and multilateral trade",
+    "give examples of resource-based and skill-based exports"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the basis",
+     "explain": "unequal endowments and specialisation make exchange beneficial"
+    },
+    {
+     "step": 2,
+     "action": "recall the routes",
+     "explain": "the Silk Route carried silk and ideas; the triangular trade moved slaves and cotton"
+    },
+    {
+     "step": 3,
+     "action": "close with industrialism",
+     "explain": "factories turned colonies into raw material suppliers and captive markets"
+    }
+   ]
+  },
+  {
+   "id": "legy.108.2",
+   "title": "Balance of Trade",
+   "section": "Why Does International Trade Occur",
+   "definition": "Balance of trade is the difference between the value of a country's exports and its imports in a year; exports exceeding imports give a positive or favourable balance, imports exceeding exports a negative or unfavourable balance.",
+   "formula": "trade_balance = exports_value - imports_value",
+   "key_idea": "Subtracting import value from export value yields the trade balance, positive when exports lead.",
+   "textbook_ref": "legy108.txt balance of trade definition (positive and negative)",
+   "question_patterns": [
+    "define balance of trade with its formula",
+    "compute a trade balance from export and import values",
+    "when is the balance called favourable",
+    "why is an unfavourable balance a concern",
+    "how does trade balance link to foreign exchange",
+    "give an example of a country with a favourable balance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two values",
+     "explain": "exports and imports are valued in a common currency",
+     "compute": "exports_value = 1"
+    },
+    {
+     "step": 2,
+     "action": "subtract imports from exports",
+     "explain": "a positive result is a favourable balance",
+     "compute": "trade_balance = exports_value - imports_value"
+    }
+   ]
+  },
+  {
+   "id": "legy.108.3",
+   "title": "World Trade Patterns and Institutions",
+   "section": "World Trade Organisation and Trade Blocs",
+   "definition": "World trade is dominated by developed regions which exchange manufactures and services, while developing countries export primary products and low-skill manufactures; the World Trade Organisation regulates multilateral trade rules, and regional blocs like the EU and NAFTA liberalise trade within groups.",
+   "formula": "",
+   "key_idea": "The terms of trade debate centres on falling primary product prices against rising manufactured goods prices, keeping developing exporters disadvantaged.",
+   "textbook_ref": "legy108.txt world trade patterns, WTO and trade blocs sections",
+   "question_patterns": [
+    "describe the pattern of world trade between regions",
+    "what does the World Trade Organisation do",
+    "name major trade blocs and their purpose",
+    "why do developing countries seek fairer terms of trade",
+    "contrast exports of developed and developing countries",
+    "how do trade blocs both help and hinder global trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the exporters",
+     "explain": "developed regions sell manufactures and services; developing regions sell primaries"
+    },
+    {
+     "step": 2,
+     "action": "state the rule-maker",
+     "explain": "the WTO frames and enforces multilateral trade rules"
+    },
+    {
+     "step": 3,
+     "action": "close with blocs",
+     "explain": "the EU and NAFTA internalise free trade while protecting their borders"
+    }
+   ]
+  },
+  {
+   "id": "legy.108.4",
+   "title": "Ports as Gateways of Trade",
+   "section": "Ports",
+   "definition": "Ports are the gateways of international trade, classified as commercial, oil, fishing, container and refuge ports; gateway ports like London and Singapore command hinterlands and forelands, linking the interior with overseas markets.",
+   "formula": "",
+   "key_idea": "A port's power lies in its hinterland's produce and its foreland's connections, which is why container hubs dominate modern shipping.",
+   "textbook_ref": "legy108.txt port types, hinterland and foreland discussion",
+   "question_patterns": [
+    "define ports and their major types",
+    "explain hinterland and foreland of a port",
+    "what makes a port a gateway port",
+    "why have container ports grown in importance",
+    "name two great gateway ports of the world",
+    "relate port efficiency to trade competitiveness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the types",
+     "explain": "commercial, oil, fishing, container and refuge ports serve distinct trades"
+    },
+    {
+     "step": 2,
+     "action": "define the lands",
+     "explain": "hinterland is the producing interior; foreland is the overseas market side"
+    },
+    {
+     "step": 3,
+     "action": "close with containers",
+     "explain": "standardised boxes and gantry cranes cut turnaround time, crowning hub ports"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy108_1",
+   "source_ref": "legy108.txt balance of trade definition",
+   "concept": "legy.108.2",
+   "question_type": "compute",
+   "question_pattern": "A country exports goods worth 800 billion currency units and imports worth 950 billion. Compute its trade balance and state its nature.",
+   "extracted_variables": {
+    "exports_value": 800,
+    "imports_value": 950
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the values",
+     "explain": "exports 800, imports 950 billion units",
+     "compute": "exports_value = 800"
+    },
+    {
+     "step": 2,
+     "action": "subtract imports from exports",
+     "explain": "800 - 950 = -150, an unfavourable balance",
+     "compute": "trade_balance = exports_value - imports_value"
+    }
+   ]
+  },
+  {
+   "id": "we_legy108_2",
+   "source_ref": "legy108.txt hinterland-foreland passage",
+   "concept": "legy.108.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain hinterland and foreland using a major port.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "hinterland",
+     "explain": "the port's interior supplies exports and absorbs imports along rail-road links"
+    },
+    {
+     "step": 2,
+     "action": "foreland",
+     "explain": "the overseas shipping destinations form the market side of the port"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "Singapore thrives because both its lands are vast and well linked"
+    }
+   ]
+  },
+  {
+   "id": "we_legy108_3",
+   "source_ref": "legy108.txt WTO passage",
+   "concept": "legy.108.3",
+   "question_type": "short_answer",
+   "question_pattern": "State two functions of the WTO and one criticism of it by developing countries.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rule function",
+     "explain": "the WTO frames multilateral rules for goods, services and intellectual property"
+    },
+    {
+     "step": 2,
+     "action": "dispute function",
+     "explain": "it settles trade disputes among member states"
+    },
+    {
+     "step": 3,
+     "action": "criticism",
+     "explain": "developing countries argue that farm subsidies of rich states skew the terms of trade"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy108_1",
+   "source_ref": "legy108.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "define international trade and explain its basis",
+    "compute trade balance from given export and import values",
+    "describe the history of trade from the Silk Route to WTO",
+    "explain the terms of trade problem of developing countries",
+    "classify ports with examples"
+   ]
+  },
+  {
+   "id": "ex_legy108_2",
+   "source_ref": "legy108.txt applied questions, reworded",
+   "questions": [
+    "argue for and against trade blocs",
+    "relate specialisation to comparative advantage",
+    "map the world's leading container ports",
+    "evaluate how port efficiency raises exports",
+    "discuss the role of services in modern world trade"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_004",
+   "title": "c11_acc_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the effect on the passbook balance when the bank debits charges (e.g., incidental charges) that are not yet recorded in the cash book?",
+     "a": "The passbook balance decreases relative to the cash book balance because the bank has already debited the charges but the firm has not recorded them. A wrong answer (e.g., \"passbook balance increases\") reveals the student confuses the direction of the entry: they think a debit by the bank increases the customer's balance, not understanding that from the bank's perspective the customer's account is a liability, so a debit reduces it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why interest credited by the bank creates a difference between the cash book and passbook balances.",
+     "a": "The bank credits interest to the customer's account immediately, increasing the passbook balance. The firm only learns of this when the statement arrives, so the cash book balance remains lower until the entry is made. A wrong answer (e.g., \"interest reduces the passbook balance\") shows the student does not understand that interest credited is income for the customer and a credit entry in the bank's books increases the customer's balance.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's cash book shows a bank balance of ₹75,000. The bank statement shows: (i) Bank charges ₹350 debited by bank, not in cash book; (ii) Interest on deposit ₹1,200 credited by bank, not in cash book. Starting from the cash book balance, what is the balance as per passbook?",
+     "a": "Step 1: Start with cash book balance ₹75,000. Step 2: Bank charges debited by bank reduce passbook balance → deduct ₹350. Step 3: Interest credited by bank increases passbook balance → add ₹1,200. Step 4: Passbook balance = 75,000 - 350 + 1,200 = ₹75,850. A wrong answer (e.g., adding charges or deducting interest) reveals the student cannot map the direction of each item to the correct adjustment when starting from cash book.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"bank charges\" and \"interest credited\" when the starting point is the passbook balance instead of the cash book balance. How does the adjustment direction reverse?",
+     "a": "When starting from passbook balance: bank charges have already reduced the passbook, so to reach cash book balance we must add them back (reverse the debit). Interest credited has already increased the passbook, so we must deduct it to reach cash book balance. A wrong answer (e.g., same treatment as cash book start) shows the student memorises rules without understanding the logical reversal: whatever the bank has done to the passbook, we undo to get back to the cash book.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Bank charges are an expense for the firm, so they should be added to the cash book balance when reconciling.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Bank charges are an expense, but in reconciliation we adjust the balance, not record the expense. Since the bank has already debited the charges, the passbook balance is lower. If starting from cash book, we deduct charges to match the passbook. If starting from passbook, we add charges to match the cash book. The student confuses accounting entry (debit expense, credit bank) with reconciliation adjustment direction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-scenario (2-3 transactions) involving both bank charges and interest credited where the cash book balance is ₹1,00,000 and the passbook balance is ₹1,01,200. Show the reconciliation statement starting from cash book balance.",
+     "a": "Scenario: Cash book balance ₹1,00,000. Bank statement shows: (i) Interest credited ₹2,000; (ii) Bank charges ₹800. Reconciliation: Cash book ₹1,00,000 + Interest ₹2,000 - Charges ₹800 = Passbook ₹1,01,200. A poor answer would have incorrect signs or missing items, indicating the student cannot synthesise a complete reconciliation from scratch.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

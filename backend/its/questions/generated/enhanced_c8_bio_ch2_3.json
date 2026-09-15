@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_3",
+   "title": "c8_bio_ch2_3",
+   "questions": [
+    {
+     "q": "Which of the following describes an infectious disease?\nA) Diabetes caused by improper insulin production\nB) Scurvy caused by Vitamin C deficiency\nC) Tuberculosis caused by Mycobacterium tuberculosis\nD) Hypertension caused by chronic stress",
+     "a": "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person. A student who chooses A, B, or D is confusing non-infectious metabolic or deficiency disorders with pathogen-driven communicable diseases.",
+     "self_check": true
+    },
+    {
+     "q": "Why are non-infectious diseases like heart disease not transmitted from an infected person to a healthy person through casual contact?\nA) Because they are caused by living microscopic fungi\nB) Because they do not involve external pathogens or contagious agents\nC) Because they only affect individuals living in cold climates\nD) Because they can be instantly cured by antibiotics",
+     "a": "The correct answer is B. Non-infectious diseases arise from internal, genetic, dietary, or lifestyle factors rather than transmissible biological pathogens. A student who chooses D mistakenly believes non-infectious conditions are bacterial infections treatable by antibiotics.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following medical condition: A 45-year-old office worker is diagnosed with high blood pressure due to lack of exercise and high salt intake. Is this infectious or non-infectious, and why?\nA) Infectious, because it spreads among office workers\nB) Infectious, because it is caused by a bacterium in salt\nC) Non-infectious, because it results from lifestyle and dietary factors rather than a contagious pathogen\nD) Non-infectious, because it is caused by a viral mutation",
+     "a": "The correct answer is C. Working through the steps: 1) Identify the cause (diet and lifestyle), 2) Check for transmissibility (it does not spread person-to-person), 3) Conclude that it is a non-infectious physiological disorder. A student who picks A or B fails to distinguish lifestyle-related metabolic stress from pathogen transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"All diseases caused by microorganisms are infectious, and all non-infectious diseases are genetic.\" Is this statement fully accurate? Justify your answer.\nA) Yes, microbes always cause infectious diseases, and only genes cause non-infectious ones.\nB) No, because non-infectious diseases can also be caused by nutritional deficiencies, environmental toxins, and organ degeneration, not just genetics.\nC) Yes, because every illness falls neatly into these two strict definitions without exception.\nD) No, because microorganisms never cause diseases in humans.",
+     "a": "The correct answer is B. While the first part regarding microbes is mostly true, non-infectious diseases encompass a wider range of causes including nutrient deficiencies (like scurvy or anemia) and toxins (like lead poisoning), not just inherited genetic mutations. A student choosing A overlooks environmental and nutritional etiologies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following scenario: A health worker claims that a patient suffering from malaria caught it from a family member who had cancer. Assess the scientific validity of this claim.\nA) Valid, because both cancer and malaria are infectious diseases.\nB) Invalid, because malaria is an infectious disease caused by a protozoan parasite transmitted by mosquitoes, whereas cancer is a non-infectious disease characterized by uncontrolled cell division.\nC) Valid, because all diseases in a household share the same transmission pathway.\nD) Invalid, because cancer is an infectious virus and malaria is genetic.",
+     "a": "The correct answer is B. Malaria is an infectious disease caused by *Plasmodium* (spread by vectors), while cancer is a non-infectious, non-contagious condition involving abnormal cell proliferation. A student selecting A or C fails to differentiate between vector-borne infectious agents and non-communicable cellular malfunctions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple community sorting chart with three columns—Condition, Disease Type (Infectious/Non-Infectious), and Primary Cause—using Common Cold, Asthma, and Iron-deficiency Anemia. Explain how you would categorize each.",
+     "a": "A complete answer should categorize: 1) Common Cold as Infectious (caused by rhinovirus, spread via droplets), 2) Asthma as Non-Infectious (caused by genetic/environmental triggers causing airway inflammation, non-contagious), and 3) Iron-deficiency Anemia as Non-Infectious (caused by poor dietary iron intake, non-contagious). A poor answer mixes up environmental triggers with contagious pathogens or mislabels nutritional deficiencies as infectious.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

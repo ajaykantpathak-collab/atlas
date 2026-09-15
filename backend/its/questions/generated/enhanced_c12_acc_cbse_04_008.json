@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_008",
+   "title": "c12_acc_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the Garner v Murray rule in one sentence. When does it apply?",
+     "a": "The Garner v Murray rule states that on dissolution of a partnership, if a partner is insolvent and cannot pay their capital deficiency, the loss is borne by the solvent partners in their profit-sharing ratio. It applies ONLY when: (a) the firm is being dissolved, (b) a partner has a debit balance in their capital account after all adjustments, and (c) that partner is insolvent (unable to pay). A wrong answer (e.g., \"loss shared by all partners in profit-sharing ratio\") reveals the student does not understand the exception to normal loss-sharing — the insolvent partner is excluded from bearing the loss.",
+     "self_check": true
+    },
+    {
+     "q": "A, B, and C share profits 3:2:1. On dissolution, after realizing assets and paying liabilities, their capital balances are: A ₹50,000 (Cr), B ₹30,000 (Cr), C ₹20,000 (Dr). C is insolvent. How much of C's deficiency is borne by A and B? Show calculation.",
+     "a": "C's deficiency = ₹20,000. This is borne by A and B in profit-sharing ratio 3:2. A bears ₹20,000 × 3/5 = ₹12,000; B bears ₹20,000 × 2/5 = ₹8,000. A wrong answer (e.g., sharing ₹20,000 among A, B, C in 3:2:1) reveals the student applies normal loss-sharing instead of Garner v Murray — they fail to exclude the insolvent partner from bearing the loss.",
+     "self_check": true
+    },
+    {
+     "q": "X, Y, Z are partners sharing profits equally. On dissolution, capitals before realization: X ₹40,000, Y ₹30,000, Z ₹20,000. Realization loss = ₹60,000. Z is insolvent. Calculate the final amount paid to X and Y after applying Garner v Murray.",
+     "a": "Step 1: Share realization loss equally (₹20,000 each). Capitals after loss: X ₹20,000, Y ₹10,000, Z ₹0 (₹20,000 - ₹20,000). Step 2: Z's deficiency = ₹0? Wait — Z's capital becomes zero, not negative. But if realization loss were ₹90,000 (₹30,000 each), Z's capital = -₹10,000 (deficiency). Then deficiency ₹10,000 shared by X and Y equally (profit-sharing ratio 1:1). X bears ₹5,000, Y bears ₹5,000. Final capitals: X ₹20,000 - ₹5,000 = ₹15,000; Y ₹10,000 - ₹5,000 = ₹5,000. A wrong answer (e.g., not sharing realization loss first, or sharing deficiency among all three) reveals the student misses the sequence: first share realization profit/loss normally, then apply Garner v Murray on resulting deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "In a dissolution, Partner P has a capital deficiency of ₹40,000 and is insolvent. The other partners Q and R have profit-sharing ratio 2:1 but capital balances ₹10,000 and ₹5,000 respectively. Can Q and R bear the full deficiency? What happens if their capitals are insufficient?",
+     "a": "Garner v Murray allocates deficiency in profit-sharing ratio (2:1) regardless of solvent partners' capital adequacy. Q bears ₹40,000 × 2/3 = ₹26,667; R bears ₹13,333. If their capitals are insufficient (Q has only ₹10,000, R ₹5,000), they must bring in cash to cover their share of deficiency. If they cannot, the firm's creditors may not be fully paid — but the rule still allocates the loss to them. A wrong answer (e.g., \"deficiency limited to their capitals\") reveals confusion between Garner v Murray (profit-sharing ratio) and the \"capital ratio\" variant (English law) — in India, it is strictly profit-sharing ratio, and solvent partners must contribute personally if needed.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Garner v Murray rule applies whenever a partner is insolvent, whether the firm is dissolved or continues.\"",
+     "a": "The statement is FALSE. Garner v Murray applies ONLY on dissolution of the firm. If the firm continues and a partner becomes insolvent, the deficiency is treated as a bad debt and written off to all partners (including the insolvent one) in profit-sharing ratio — the insolvent partner's share becomes irrecoverable but is still allocated to them. The rule is a dissolution-specific exception. A wrong answer (agreeing with the statement) reveals the student confuses dissolution context with continuing partnership insolvency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a numerical problem where Garner v Murray applies, involving 4 partners with profit-sharing ratio 4:3:2:1, realization profit, and one insolvent partner with deficiency. Provide the problem statement only.",
+     "a": "Good problem example: \"W, X, Y, Z share profits 4:3:2:1. Capitals: W ₹80,000, X ₹60,000, Y ₹40,000, Z ₹20,000. On dissolution, assets realized at ₹50,000 profit. Z is insolvent. Show capital accounts and cash distribution.\" A poor problem (e.g., no realization profit/loss, or all partners solvent) reveals the student cannot identify the necessary components: profit-sharing ratio, realization outcome, and resulting deficiency of an insolvent partner.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

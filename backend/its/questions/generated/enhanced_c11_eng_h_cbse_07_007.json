@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_007",
+   "title": "c11_eng_h_cbse_07_007",
+   "questions": [
+    {
+     "q": "Name any two secondary themes present in \"The Adventure\" besides the primary theme of alternate history.",
+     "a": "Two secondary themes are: (1) The role of chance and contingency in shaping historical outcomes, and (2) The tension between scientific rationality and historical interpretation. A wrong answer (e.g., \"the Battle of Panipat\" or \"Professor Gaitonde's journey\") reveals the student is confusing plot events or subject matter with thematic ideas — themes are abstract concepts the text explores, not concrete story elements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the theme \"the role of chance in history\" is developed through the character of Professor Gaitonde and the truck accident.",
+     "a": "The truck accident acts as a random, contingent event that triggers Gaitonde's transition to the alternate reality, mirroring how the Maratha victory at Panipat in that reality hinged on the chance survival of Vishwasrao (a stray bullet missing him). The text explicitly links these when Rajendra Deshpande explains catastrophe theory: \"a small change in a situation can result in a huge difference.\" A wrong answer focusing only on the accident as a plot device (e.g., \"it knocked him unconscious\") misses the thematic parallel the author constructs between personal experience and historical causality.",
+     "self_check": true
+    },
+    {
+     "q": "Read this excerpt from a hypothetical story: \"Archaeologist Meera found a coin that proved King Vikramaditya never existed. Her colleague laughed: 'History isn't made by coins, Meera. It's made by the stories we choose to believe.'\" Identify the secondary theme this dialogue illustrates and connect it to a similar moment in \"The Adventure.\"",
+     "a": "The dialogue illustrates the theme \"history as constructed narrative vs. empirical evidence.\" In \"The Adventure,\" this appears when Gaitonde examines the Bakhar (a historical chronicle) in the alternate reality and finds it records the Maratha victory, while in his original reality the same source records defeat. Rajendra later explains: \"What we call history is... the version that survived.\" The step-by-step application: (1) Identify the conflict in the excerpt (coin vs. stories), (2) Recognize the abstract concept (history as narrative construction), (3) Locate the parallel in the source text (Bakhar discrepancy), (4) Articulate the connection. A wrong answer identifying only \"history\" or \"archaeology\" fails to abstract the thematic conflict.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the secondary themes \"chance in history\" and \"science vs. history as ways of knowing\" interact in the conversation between Gaitonde and Rajendra Deshpande in the final chapter.",
+     "a": "In the final conversation, Rajendra uses catastrophe theory (a scientific framework) to explain how a chance event (Vishwasrao's survival) created a bifurcation point, producing two distinct historical trajectories. This interaction shows science providing a *mechanism* for historical contingency: the themes are not separate but layered — chance creates the divergence, science explains the divergence, and history *is* the lived experience of one branch. A wrong answer treating them as unrelated topics (e.g., \"one is about the battle, the other is about Rajendra's theory\") misses the synthesis the author achieves in the resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate which secondary theme — \"the fallibility of historical sources\" or \"the psychological impact of displaced identity\" — is more central to the story's intellectual project. Justify with two pieces of evidence.",
+     "a": "\"The fallibility of historical sources\" is more central. Evidence 1: The Bakhar manuscript functions as the primary empirical anchor — its differing versions in the two realities drive Gaitonde's investigation and Rajendra's explanation. Evidence 2: The story's climax occurs in the library among historical texts, not in Gaitonde's internal monologue about identity. While displaced identity is present (Gaitonde's confusion in the alternate Pune), it serves the larger epistemological question: how do we know what happened? A wrong answer choosing \"displaced identity\" without textual evidence from the climax reveals an over-reliance on character psychology over the story's structural concerns.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word paragraph imagining a deleted scene where Gaitonde meets a historian in the alternate reality who refuses to accept the Bakhar's account of the Maratha victory. Show how this scene would develop the theme \"history as contested narrative.\"",
+     "a": "A strong answer creates a scene where the historian argues: \"The Bakhar is court propaganda, not history. We have Persian dispatches showing the Marathas fled.\" Gaitonde realizes that even in a reality where the Marathas won, the *interpretation* of that victory is contested — the theme \"history as contested narrative\" operates independently of which facts are true. Criteria: (1) Shows conflicting interpretations of the same event, (2) Uses alternate-reality details (Persian dispatches, court propaganda), (3) Connects to the theme explicitly. A weak answer merely describes an argument without linking to the thematic concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

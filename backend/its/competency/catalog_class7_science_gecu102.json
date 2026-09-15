@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Exploring Substances: Acidic, Basic, and Neutral",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.2.1",
+   "title": "Nature as Our Science Laboratory",
+   "section": "Nature our science laboratory",
+   "definition": "Turmeric stains turn red with soap, tamarind cleans tarnished copper, lemon juice brightens dull brass: nature hides chemistry in every kitchen, making it our first science laboratory.",
+   "formula": "",
+   "key_idea": "The kitchen and garden are laboratories: everyday colour changes are chemical clues.",
+   "textbook_ref": "gecu102.txt, Nature our science laboratory",
+   "question_patterns": [
+    "which natural substances behave like indicators",
+    "what happens to turmeric stain when rubbed with soap",
+    "how does tamarind clean copper vessels",
+    "name household acids and bases",
+    "why is nature called a science laboratory",
+    "record two colour changes you can find at home"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.2",
+   "title": "Acidic, Basic and Neutral Substances",
+   "section": "Classifying substances",
+   "definition": "Substances fall into three families: acidic ones like lemon juice and vinegar, basic ones like soap and lime water, and neutral ones like pure water; litmus and turmeric papers reveal each family by colour.",
+   "formula": "acid + base = salt + water",
+   "key_idea": "Three families sort the substance world: the indicator's colour names the family instantly.",
+   "textbook_ref": "gecu102.txt, Classifying substances",
+   "question_patterns": [
+    "name two acidic and two basic substances",
+    "what does litmus paper show for acids and bases",
+    "how does turmeric paper detect a base",
+    "which substances are neutral give examples",
+    "classify five kitchen substances as acidic basic or neutral",
+    "why is pure water neutral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.3",
+   "title": "Making and Using Indicators",
+   "section": "Activities with indicators",
+   "definition": "Indicators can be made at school: litmus solution and papers, turmeric paper and other natural dyes change colour in the presence of acids or bases and so announce a substance's family.",
+   "formula": "",
+   "key_idea": "An indicator is a chemical messenger: its colour change is a signal we can read.",
+   "textbook_ref": "gecu102.txt, Activities with indicators",
+   "question_patterns": [
+    "how is turmeric paper prepared",
+    "which colour does litmus turn in a base",
+    "why are indicators needed in chemistry",
+    "can a natural dye act as an indicator",
+    "test three liquids with a homemade indicator",
+    "what is an olfactory indicator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.4",
+   "title": "Neutralisation in Daily Life",
+   "section": "Neutralisation",
+   "definition": "When an acid and a base mix, they cancel each other into a neutral substance with salt and water, called neutralisation: antacid calms excess stomach acid, lime sweetens sour soil, and a bee sting's acid is soothed with a mild base.",
+   "formula": "acid + base = salt + water",
+   "key_idea": "Neutralisation is chemistry's balancing act: the right opposite cancels the trouble.",
+   "textbook_ref": "gecu102.txt, Neutralisation",
+   "question_patterns": [
+    "what happens when an acid reacts with a base",
+    "how does an antacid give relief in acidity",
+    "why is lime added to acidic soil",
+    "which substance soothes a bee sting and why",
+    "give two daily life examples of neutralisation",
+    "write the word equation of neutralisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu102.txt",
+   "concept": "gecu.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "how did the sprayed liquid reveal the welcome message at the fair?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu102.txt",
+   "concept": "gecu.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "classify substances as acidic, basic or neutral using indicators.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu102.txt, Let us enhance our learning",
+   "questions": [
+    "How did the sprayed liquid reveal the welcome message at the fair?",
+    "Classify substances as acidic, basic or neutral using indicators.",
+    "What happens when acidic and basic substances meet?",
+    "Prepare turmeric paper and test lemon juice, soap solution and water.",
+    "Discuss two situations at home where neutralisation is at work."
+   ]
+  }
+ ]
+}

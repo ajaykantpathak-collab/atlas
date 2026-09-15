@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_002",
+   "title": "c10_civ_cbse_04_002",
+   "questions": [
+    {
+     "q": "Name the six political parties currently recognized as 'National Parties' by the Election Commission of India.",
+     "a": "The six national parties are: Indian National Congress (INC), Bharatiya Janata Party (BJP), Communist Party of India (CPI), Bahujan Samaj Party (BSP), Communist Party of India (Marxist) [CPI(M)], and National People's Party (NPP). A wrong answer (e.g., listing AAP, TMC, DMK, or SP) reveals the student confuses national parties with prominent regional parties or parties that have national presence but do not meet the ECI's technical criteria. It also shows they haven't memorized the current official list, which is a direct recall requirement for 1-mark questions in the board exam.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the core ideological difference between the Bharatiya Janata Party (BJP) and the Indian National Congress (INC) in terms of their vision for Indian nationhood.",
+     "a": "The BJP's core ideology is cultural nationalism (Hindutva), which defines Indian nationhood in terms of Hindu cultural heritage and seeks to align state policy with that vision. The INC's core ideology is secular nationalism (composite culture), which defines Indian nationhood as a pluralistic, inclusive framework where all religions are equal and the state maintains equidistance. A wrong answer that says \"both are secular\" or \"both are nationalist\" without distinguishing the *type* of nationalism reveals a superficial understanding — the student knows the labels but not the substantive ideological conflict that structures Indian politics. This distinction is critical for answering \"analyze\" questions on party manifestos or coalition dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A voter in Uttar Pradesh belongs to a historically marginalized Scheduled Caste community and prioritizes social dignity, representation in government jobs, and land redistribution. Which national party's ideology and historical mobilization best align with this voter's priorities? Justify your choice by linking the party's founding principles to the voter's needs.",
+     "a": "The Bahujan Samaj Party (BSP) best aligns. Founded by Kanshi Ram in 1984, the BSP explicitly mobilizes on the Ambedkarite principle of \"Bahujan\" (majority) empowerment, focusing on SCs, STs, OBCs, and religious minorities. Its core agenda is capturing political power (\"master key\") to ensure social dignity, reservation implementation, and redistribution of resources. A wrong answer choosing INC or BJP reveals the student knows these parties have SC support but cannot articulate the *ideological specificity* of BSP's caste-based assertion versus INC's broad secular welfare or BJP's cultural nationalism with social engineering. This tests application of ideology to real voter behavior — a common case-based question pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the primary social base and geographical concentration of the Communist Party of India (Marxist) [CPI(M)] and the Bahujan Samaj Party (BSP). How does this difference explain their contrasting strategies for gaining national influence?",
+     "a": "CPI(M)'s social base is primarily the rural and urban working class, peasants, and agricultural laborers, with historical geographical concentration in West Bengal, Kerala, and Tripura. Its strategy is building mass movements and winning state power in concentrated pockets to leverage national influence. BSP's social base is Scheduled Castes (especially Jatavs in UP), with geographical concentration in Uttar Pradesh. Its strategy is capturing power in India's most populous state to become a kingmaker in coalition governments. A wrong answer that says \"both represent the poor\" misses the crucial class vs. caste distinction in their mobilization logic. This analysis is needed for \"compare and contrast\" questions on party systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The decline of the Indian National Congress as a dominant national party has weakened India's federal structure because regional parties now dictate national coalition agendas.\" Provide two arguments for and two against, using the concept of national vs. regional party roles.",
+     "a": "**For:** (1) A strong national party like INC historically integrated diverse regional demands into a pan-Indian framework, providing stability; its decline forces reliance on regional parties with narrow agendas. (2) National parties articulate all-India perspectives on economy/security; regional parties prioritize state-specific demands, complicating national consensus. **Against:** (1) Regional parties deepen federalism by forcing national governments to address state-level aspirations (e.g., GST Council, special category status). (2) Coalition governments with regional partners have passed landmark legislation (e.g., RTI, MGNREGA) — proving federal bargaining can enhance governance. A wrong answer that only gives one side or uses vague \"instability\" claims shows inability to evaluate federalism-party system linkage — a key competency for 3-5 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical election manifesto excerpt (3-4 bullet points) for the National People's Party (NPP) contesting in Meghalaya, reflecting its ideology of \"regional autonomy within national unity\" and its core support base among tribal communities in the Northeast.",
+     "a": "A good answer includes points like: (1) Strengthening Sixth Schedule autonomy for tribal self-governance. (2) Protecting land rights and customary laws of indigenous communities. (3) Demanding special economic packages for Northeast infrastructure without compromising ecological balance. (4) Advocating for a \"Look East\" policy that benefits Northeastern states as gateways. A poor answer copies generic promises (jobs, roads) without linking to NPP's specific ideology of tribal autonomy and regional assertion within the Indian Union. This tests the ability to synthesize ideology into political communication — a creative application skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

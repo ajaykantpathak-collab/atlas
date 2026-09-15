@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_002",
+   "title": "c11_hs_cbse_05_002",
+   "questions": [
+    {
+     "q": "A student claims that \"100% cotton fabric always shrinks more than 100% polyester fabric.\" Is this statement universally true? Explain your answer in two sentences.",
+     "a": "No, the statement is not universally true. Shrinkage depends on fabric construction (weave/knit density), yarn twist, and finishing treatments (e.g., sanforised cotton shrinks <1% while unsanforised cotton shrinks 5-10%), not fibre type alone. A tightly woven, sanforised cotton denim may shrink less than a loosely knit, heat-unstable polyester jersey. A wrong answer reveals the student is attributing behaviour solely to fibre identity, ignoring the modifying effects of yarn, structure, and finish.",
+     "self_check": true
+    },
+    {
+     "q": "Two fabrics — Fabric A (cotton, plain weave, 20s yarn, no finish) and Fabric B (cotton, twill weave, 40s yarn, sanforised finish) — are washed identically. Predict which will show greater dimensional change and explain why, referencing at least two factors beyond fibre type.",
+     "a": "Fabric A will show greater dimensional change. The plain weave has lower interlacement density than twill, allowing more fibre movement during wet relaxation. The coarser 20s yarn has lower twist liveliness but higher residual shrinkage potential than finer 40s yarn. Most critically, Fabric B's sanforisation (compressive shrinkage finish) pre-shrinks the fabric, while Fabric A has no such treatment. A wrong answer focusing only on \"both are cotton\" misses how structure and finish override fibre similarity.",
+     "self_check": true
+    },
+    {
+     "q": "A care label reads: \"Machine wash 40°C, do not bleach, tumble dry low, iron medium.\" The fabric is a wool-acrylic blend (50/50) knit. Identify which instruction is most critical for preventing irreversible damage and justify using fibre properties.",
+     "a": "\"Do not bleach\" is most critical. Wool (protein fibre) is destroyed by chlorine bleach (hypochlorite) via oxidative cleavage of disulfide bonds, causing permanent yellowing and strength loss; acrylic is resistant but the blend fails if wool component degrades. Tumble dry low and iron medium are precautionary for acrylic's low glass transition temperature (~85°C) and wool's felting tendency, but bleach causes irreversible chemical damage. A wrong answer choosing \"tumble dry low\" shows confusion between reversible heat sensitivity and irreversible chemical degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the abrasion resistance behaviour of three fabrics: (1) nylon filament plain weave, (2) cotton staple fibre twill weave, (3) polyester/cotton (65/35) blend plain weave. Rank them from highest to lowest abrasion resistance and explain the ranking using fibre, yarn, and structure factors.",
+     "a": "Rank: (1) Nylon filament plain weave > (3) Polyester/cotton blend plain weave > (2) Cotton staple fibre twill weave. Nylon has highest tenacity (4-7 g/den) and filament yarn eliminates staple fibre pull-out; plain weave maximises yarn-to-yarn contact. The blend benefits from polyester's high tenacity (3-5 g/den) and cotton's fibre cohesion in staple yarn, but cotton component abrades faster. Cotton twill has lower fibre tenacity (2.5-4 g/den), staple fibre pull-out, and twill's longer floats reduce interlacement protection. A wrong ranking reveals misunderstanding that weave alone (twill > plain) determines abrasion resistance without considering fibre/yarn dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer claims their \"100% polyester fabric is cool and comfortable for Indian summers because polyester wicks moisture.\" Evaluate this claim using fibre physics and suggest a fabric modification that would actually improve summer comfort.",
+     "a": "The claim is misleading. Polyester has very low moisture regain (~0.4%) and is hydrophobic; it does not absorb sweat, so moisture remains on skin causing clamminess — it \"wicks\" only via capillary action in fabric structure, not fibre absorption. True comfort requires moisture absorption (cotton: 8.5%, linen: 12%) to buffer skin humidity. Modification: Use a polyester/cotton blend (e.g., 50/50) with cotton next to skin (plated knit) or apply hydrophilic finish (e.g., polyethylene glycol) to polyester surface. A wrong evaluation accepting \"wicking = comfort\" confuses liquid transport with vapour absorption/thermoregulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fabric specification (fibre, yarn, structure, finish) for a hospital bedsheet that must withstand: industrial laundering at 90°C with chlorine bleach, 200+ wash cycles, high abrasion from patient movement, and inhibit bacterial growth. Justify each choice.",
+     "a": "Specification: Fibre — 100% high-tenacity polyester (or polyester/antimicrobial cotton blend); Yarn — high-twist (30 tpi) ring-spun 30s Ne for strength and low pilling; Structure — plain weave, 180 threads/inch² for maximum interlacement and abrasion resistance; Finish — durable antimicrobial (quaternary ammonium silane) + soil-release fluorocarbon + heat-set for dimensional stability. Polyester withstands 90°C and chlorine bleach (unlike cotton which degrades, nylon which yellows). High twist and plain weave maximise abrasion cycles. Antimicrobial finish survives industrial laundering. A poor answer choosing cotton ignores bleach/heat degradation; choosing nylon ignores chlorine sensitivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

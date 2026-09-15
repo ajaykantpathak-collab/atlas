@@ -1,0 +1,448 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess201.txt",
+ "concepts": [
+  {
+   "id": "jess.201.1.1",
+   "title": "Diverse Developmental Aspirations",
+   "section": "What Development Promises",
+   "definition": "The principle that different individuals or groups possess unique and sometimes clashing objectives for progress based on their specific life conditions.",
+   "formula": "none",
+   "key_idea": "Progress is subjective and varies across different social and economic categories.",
+   "textbook_ref": "jess201.txt lines 45-85",
+   "question_patterns": [
+    "Why do different people have different goals for development?",
+    "Explain how developmental goals can be conflicting with an example.",
+    "What might be progress for a landless labourer?",
+    "How do aspirations of a rich urban girl differ from her brother?",
+    "Can development for one be destructive for another?",
+    "Identify the developmental goals of a prosperous farmer."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_category",
+     "explain": "Determine the social or economic background of the individual or group mentioned."
+    },
+    {
+     "step": 2,
+     "action": "analyze_needs",
+     "explain": "Evaluate the specific requirements and desires relevant to that person's life situation."
+    },
+    {
+     "step": 3,
+     "action": "compare_goals",
+     "explain": "Check if these goals conflict with the interests of other groups, such as industrialists versus tribals."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.2.1",
+   "title": "Non-Material Developmental Goals",
+   "section": "Income and Other Goals",
+   "definition": "Aspects of life that contribute to well-being but cannot be purchased with money, such as liberty, safety, and social standing.",
+   "formula": "none",
+   "key_idea": "Quality of life depends on both financial resources and intangible social factors.",
+   "textbook_ref": "jess201.txt lines 135-175",
+   "question_patterns": [
+    "What are the goals people seek besides higher income?",
+    "Why is equal treatment considered a developmental goal?",
+    "How does job security affect a person's choice of employment?",
+    "Explain the importance of non-material factors in development.",
+    "Give examples of things that cannot be measured but are important for life.",
+    "How does the dignity of women in society relate to development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list_factors",
+     "explain": "Identify material factors like wages and non-material factors like freedom or respect."
+    },
+    {
+     "step": 2,
+     "action": "evaluate_tradeoffs",
+     "explain": "Analyze how individuals might choose lower pay for better security or working conditions."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.4.1",
+   "title": "Per Capita Income",
+   "section": "How to Compare Different Countries or States?",
+   "definition": "A measure of the average earnings per person in a nation, found by dividing the total national earnings by the total number of inhabitants.",
+   "formula": "per_capita_income = total_income / total_population",
+   "key_idea": "Average income serves as a standard tool for comparing the economic level of different regions.",
+   "textbook_ref": "jess201.txt lines 245-275",
+   "question_patterns": [
+    "What is per capita income?",
+    "How is the average income of a country calculated?",
+    "Calculate the per capita income if the total income is {total_income} and population is {total_population}.",
+    "What is the other name for average income?",
+    "Why is total income not a suitable measure for comparing countries?",
+    "Find the average income for a group of people."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_total",
+     "explain": "Obtain the sum of all incomes of the residents in the country.",
+     "compute": "total = total_income"
+    },
+    {
+     "step": 2,
+     "action": "identify_population",
+     "explain": "Determine the total number of people living in the country.",
+     "compute": "pop = total_population"
+    },
+    {
+     "step": 3,
+     "action": "divide_values",
+     "explain": "Divide the total income by the population to find the average.",
+     "compute": "average_income = total / pop"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.4.2",
+   "title": "World Bank Country Classification",
+   "section": "How to Compare Different Countries or States?",
+   "definition": "The categorization of nations into high, middle, or low income groups based on specific per capita income thresholds defined by the World Bank.",
+   "formula": "none",
+   "key_idea": "Economic classification of countries depends on annual US dollar income benchmarks.",
+   "textbook_ref": "jess201.txt lines 276-300",
+   "question_patterns": [
+    "What criterion does the World Bank use to classify countries?",
+    "Define a high-income country according to the World Development Report.",
+    "What is the income threshold for low-income countries in 2024?",
+    "In which category does India fall based on its per capita income?",
+    "What are the limitations of using only average income for comparison?",
+    "How does the World Bank distinguish between developed and underdeveloped nations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check_income",
+     "explain": "Compare the country's per capita income with the World Bank's set limits."
+    },
+    {
+     "step": 2,
+     "action": "assign_category",
+     "explain": "Classify as rich if above 66500 USD or low-income if below 2300 USD."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.5.1",
+   "title": "Infant Mortality Rate",
+   "section": "Income and Other Criteria",
+   "definition": "The count of infants who pass away before reaching their first birthday for every one thousand live births in a specific year.",
+   "formula": "imr = (deaths / 1000) * 1000",
+   "key_idea": "IMR reflects the quality of healthcare and nutritional support available to infants.",
+   "textbook_ref": "jess201.txt lines 345-355",
+   "question_patterns": [
+    "Define Infant Mortality Rate.",
+    "What does a high IMR indicate about a state's development?",
+    "Compare the IMR of Kerala and Haryana.",
+    "Why is IMR considered an important indicator of development?",
+    "How many children die before age one per 1000 births in Kerala?",
+    "What is the significance of the year 2020 data in the context of IMR?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count_deaths",
+     "explain": "Find the number of children dying before age one."
+    },
+    {
+     "step": 2,
+     "action": "calculate_proportion",
+     "explain": "Express this number relative to 1000 live births."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.5.2",
+   "title": "Literacy Rate",
+   "section": "Income and Other Criteria",
+   "definition": "The percentage of the population aged seven years and older who are able to read and write.",
+   "formula": "literacy_rate = (literate_population / total_population_above_7) * 100",
+   "key_idea": "Literacy measures the basic educational attainment of a society.",
+   "textbook_ref": "jess201.txt lines 356-358",
+   "question_patterns": [
+    "What is the definition of literacy rate?",
+    "How is the literacy rate of a region measured?",
+    "Which age group is considered for calculating literacy rate?",
+    "Compare the literacy rates of Bihar and Kerala.",
+    "What percentage of the population in Haryana is literate?",
+    "Why is literacy rate a better indicator than just income?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "filter_age",
+     "explain": "Identify the population that is 7 years old or older."
+    },
+    {
+     "step": 2,
+     "action": "calculate_percentage",
+     "explain": "Find the ratio of literate individuals to the filtered population."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.6.1",
+   "title": "Public Facilities and Collective Provision",
+   "section": "Public Facilities",
+   "definition": "Services and goods, such as schools and healthcare, provided by the government or community because they are more affordable and efficient when shared.",
+   "formula": "none",
+   "key_idea": "Individual wealth cannot always buy essential services like a clean environment or disease protection.",
+   "textbook_ref": "jess201.txt lines 385-425",
+   "question_patterns": [
+    "Why are public facilities necessary for development?",
+    "Give examples of goods provided collectively.",
+    "How does the Public Distribution System (PDS) help in development?",
+    "Why can't money buy a pollution-free environment?",
+    "Explain the role of government in providing education.",
+    "Why is collective security cheaper than individual security?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_service",
+     "explain": "Identify a service needed by the community (e.g., sanitation)."
+    },
+    {
+     "step": 2,
+     "action": "analyze_cost",
+     "explain": "Compare the cost of providing it to one person versus the whole community."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.7.1",
+   "title": "Body Mass Index",
+   "section": "Human Development Report",
+   "definition": "A numerical value derived from the mass and height of a person to determine if they are undernourished, normal, or overweight.",
+   "formula": "bmi = weight / (height * height)",
+   "key_idea": "BMI is a standard tool used by nutritionists to evaluate physical health based on body proportions.",
+   "textbook_ref": "jess201.txt lines 430-450",
+   "question_patterns": [
+    "How do you calculate Body Mass Index (BMI)?",
+    "What is the BMI of a person weighing {weight} kg and {height} meters tall?",
+    "What does a BMI of less than 18.5 indicate?",
+    "Calculate the BMI for a student with weight {weight} and height {height}.",
+    "Why do scientists use BMI to measure nourishment?",
+    "What is the formula for BMI?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square_height",
+     "explain": "Multiply the height in meters by itself.",
+     "compute": "h_sq = height * height"
+    },
+    {
+     "step": 2,
+     "action": "divide_weight",
+     "explain": "Divide the weight in kilograms by the squared height.",
+     "compute": "bmi = weight / h_sq"
+    }
+   ]
+  },
+  {
+   "id": "jess.201.7.2",
+   "title": "Human Development Index",
+   "section": "Human Development Report",
+   "definition": "A composite statistic produced by the UNDP that ranks countries based on health, education, and per capita income levels.",
+   "formula": "none",
+   "key_idea": "HDI provides a broader view of development than income alone by including life expectancy and schooling.",
+   "textbook_ref": "jess201.txt lines 460-510",
+   "question_patterns": [
+    "What does HDI stand for?",
+    "Which organization publishes the Human Development Report?",
+    "What are the three main indicators used in HDI?",
+    "Compare India's HDI rank with Sri Lanka's.",
+    "Define life expectancy at birth.",
+    "Why is HDI a more comprehensive measure of development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gather_indicators",
+     "explain": "Collect data on GNI per capita, life expectancy, and mean years of schooling."
+    },
+    {
+     "step": 2,
+     "action": "rank_comparison",
+     "explain": "Compare the aggregate score against other nations to determine the rank."
+    }
+   ]
+  },
+  {
+   "id": "jess.201.8.1",
+   "title": "Sustainability of Development",
+   "section": "Sustainability of Development",
+   "definition": "The practice of developing in a way that meets current needs without compromising the ability of future generations to meet theirs.",
+   "formula": "none",
+   "key_idea": "Resources must be managed carefully to prevent exhaustion and environmental decay.",
+   "textbook_ref": "jess201.txt lines 530-610",
+   "question_patterns": [
+    "What is sustainable development?",
+    "Why is the overuse of groundwater a concern for sustainability?",
+    "Distinguish between renewable and non-renewable resources.",
+    "How long will the world's crude oil reserves last at current extraction rates?",
+    "Why do environmental consequences not respect national boundaries?",
+    "Explain the quote regarding inheriting the world from forefathers."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_resource_type",
+     "explain": "Determine if the resource is renewable (like water) or non-renewable (like oil)."
+    },
+    {
+     "step": 2,
+     "action": "assess_usage",
+     "explain": "Compare the rate of extraction or use with the rate of natural replenishment."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess201.txt Table 1.2",
+   "concept": "jess.201.4.1",
+   "question_type": "compute",
+   "question_pattern": "In a country with 5 citizens, the total monthly income is {total_income}. What is the per capita income?",
+   "extracted_variables": {
+    "total_income": "sum of all citizens' monthly earnings",
+    "total_population": "number of citizens"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_total",
+     "explain": "The total income is given as {total_income}.",
+     "compute": "total = total_income"
+    },
+    {
+     "step": 2,
+     "action": "identify_population",
+     "explain": "The population is {total_population}.",
+     "compute": "pop = total_population"
+    },
+    {
+     "step": 3,
+     "action": "divide_values",
+     "explain": "Divide total income by population.",
+     "compute": "average_income = total / pop"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess201.txt Exercise 3",
+   "concept": "jess.201.4.1",
+   "question_type": "compute",
+   "question_pattern": "If the average income of 4 families is {avg_inc}, what is the total income of all families?",
+   "extracted_variables": {
+    "avg_inc": "average income per family",
+    "pop": "number of families"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "setup_equation",
+     "explain": "Average = Total / Population, so Total = Average * Population.",
+     "compute": "total = avg_inc * pop"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess201.txt Activity 3",
+   "concept": "jess.201.7.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the BMI for a person who weighs {weight} kg and is {height} meters tall.",
+   "extracted_variables": {
+    "weight": "mass in kilograms",
+    "height": "height in meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square_height",
+     "explain": "Square the height: {height} * {height}.",
+     "compute": "h_sq = height * height"
+    },
+    {
+     "step": 2,
+     "action": "divide_weight",
+     "explain": "Divide weight {weight} by squared height.",
+     "compute": "bmi = weight / h_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess201.txt Activity 3",
+   "concept": "jess.201.7.1",
+   "question_type": "compute",
+   "question_pattern": "A student has a height of {height} m and a weight of {weight} kg. Find the BMI.",
+   "extracted_variables": {
+    "weight": "mass in kilograms",
+    "height": "height in meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square_height",
+     "explain": "Square the height.",
+     "compute": "h_sq = height * height"
+    },
+    {
+     "step": 2,
+     "action": "divide_weight",
+     "explain": "Divide weight by squared height.",
+     "compute": "bmi = weight / h_sq"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess201.txt Exercises",
+   "questions": [
+    "Development of a country can generally be determined by its per capita income, literacy level, and health status. Explain why.",
+    "Which neighbouring country has a better HDI performance than India?",
+    "Calculate the income of the fourth family if the average of four is Rs 5000 and three earn 4000, 7000, and 3000.",
+    "What are the limitations of the World Bank's criterion for classifying countries?",
+    "How does the UNDP's measure of development differ from the World Bank's?",
+    "Why are averages used for comparison despite their limitations?",
+    "Is per capita income a useful criterion for comparing states like Kerala and Haryana?",
+    "What are the current and future sources of energy for India?",
+    "Why is sustainability important for development?",
+    "Explain the relevance of the statement: The Earth has enough for needs but not for greed.",
+    "List examples of environmental degradation in your area.",
+    "Compare the nutritional levels of Kerala and Madhya Pradesh using BMI data."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

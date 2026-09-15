@@ -1,0 +1,408 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 10,
+ "chapter_title": "Bioprocessing and Biomanufacturing",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt110.1",
+   "title": "Primary and Secondary Metabolites",
+   "section": "10 opening",
+   "definition": "Cell chemistry splits into two economies: primary metabolites flow straight from growth-sustaining pathways - the amino acids, organic acids and alcohols of everyday metabolism - while secondary metabolites branch off into defence compounds, stress shields and attractants such as antibiotics, pigments and alkaloids, made in such tiny natural amounts that industry must cultivate them in hundred to ten-thousand litre bioreactors.",
+   "formula": "-",
+   "key_idea": "Growth chemicals are primary; the chemical arsenal of survival is secondary - and markets want the second kind in bulk.",
+   "textbook_ref": "lebt110.txt chapter opening and section 10.4",
+   "question_patterns": [
+    "differentiate primary metabolites from secondary metabolites based on their functions with one example of each",
+    "why must secondary metabolites be produced commercially in bioreactors rather than harvested from nature",
+    "name two secondary metabolites used in pharmaceuticals and two used as food additives",
+    "what roles do secondary metabolites play in plant defence and abiotic stress tolerance",
+    "which volume range can industrial bioreactors process on average",
+    "classify antibiotics vitamins and enzymes as primary or secondary products of metabolism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the pathway",
+     "explain": "Direct growth-linked chemistry is primary; side-branch chemistry is secondary."
+    },
+    {
+     "step": 2,
+     "action": "check the function",
+     "explain": "Essential cell functions mark primary; defence, attraction and tolerance mark secondary."
+    },
+    {
+     "step": 3,
+     "action": "scale the need",
+     "explain": "Natural yields are too small, so bioprocessing multiplies the product in fermenters."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Antibiotics and pigments are which metabolites: secondary or primary?",
+     "a": "secondary"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.2",
+   "title": "Bioreactor Design and Components",
+   "section": "10.2",
+   "definition": "A bioreactor is a glass or steel engineered vessel giving cells aseptic, aerated, well-mixed life: an agitator shaft with its impeller homogenises nutrients and cells without shear damage, the sparger bubbles sterilised air through microfilters, baffles smash the power-wasting vortex, a water-jacket holds temperature, pH and temperature probes report to a digital controller that doses one molar sodium hydroxide or hydrochloric acid to hold the set point.",
+   "formula": "-",
+   "key_idea": "Mix it, aerate it, keep it warm and at pH - every bioreactor part exists to hold one of those four steady.",
+   "textbook_ref": "lebt110.txt section 10.2, Fig. 10.1",
+   "question_patterns": [
+    "match each bioreactor part - agitator sparger baffle and jacket - with its function",
+    "why does vortex formation inside a bioreactor waste power",
+    "how does the digital controller maintain the pH of a running bioprocess",
+    "which requirements must a bioreactor fulfil for aseptic culture growth",
+    "what role does the water jacket play in temperature control of the vessel",
+    "how does the sparger supply oxygen to submerged culture without contamination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mix and aerate",
+     "explain": "Impeller and sparger together keep cells, nutrients and oxygen uniform."
+    },
+    {
+     "step": 2,
+     "action": "steady the physics",
+     "explain": "Baffles break the vortex while the jacket circulates water at set temperature."
+    },
+    {
+     "step": 3,
+     "action": "close the loop",
+     "explain": "Probes feed the digital controller, which corrects pH with acid or alkali."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which bioreactor part bubbles sterilised air through microfilters: the sparger or the baffle?",
+     "a": "the sparger"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.3",
+   "title": "Stirred Tank Air-Lift and Bubble Column Reactors",
+   "section": "10.2.1",
+   "description": "",
+   "definition": "Three configurations dominate: the conventional stirred tank drives mixing with an impeller shaft, the air-lift lifts broth up and down a draft tube on an air current alone, and the bubble column lets sparger jets do everything - the gentlest option for shear-sensitive cells and the best oxygen transfer per unit of power input.",
+   "formula": "-",
+   "key_idea": "Mechanical stirrer, air lift or plain bubbles - choose the mixing style that matches how fragile your cells are.",
+   "textbook_ref": "lebt110.txt section 10.2.1, Fig. 10.2",
+   "question_patterns": [
+    "differentiate stirred tank air-lift and bubble column bioreactors on the basis of their mixing mechanism",
+    "which bioreactor type suits shear-sensitive animal cells and why",
+    "what role does the draft tube play in an air-lift reactor",
+    "why do bubble column reactors transfer more oxygen per unit of power input",
+    "which bioreactor is the most conventional and what characterises its design",
+    "how does shear sensitivity rank among animal plant and microbial cells in culture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the mixer",
+     "explain": "Impeller means stirred tank, draft tube means air-lift, sparger bubbles alone mean bubble column."
+    },
+    {
+     "step": 2,
+     "action": "weigh the shear",
+     "explain": "Mechanical impellers shear hardest; bubbles are gentlest."
+    },
+    {
+     "step": 3,
+     "action": "match the cells",
+     "explain": "Microbes tolerate stirred tanks; animal cells prefer bubble columns or air-lifts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which reactor lifts broth on an air current alone: the air-lift or the stirred tank?",
+     "a": "the air-lift"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.4",
+   "title": "Upstream Processing and the Yield Coefficient",
+   "section": "10.3-10.3.1",
+   "definition": "Upstream work formulates and sterilises the medium, raises a healthy log-phase inoculum free of contamination and tunes aeration, agitation, temperature and pH; stoichiometry budgets the inputs through the yield coefficient - dry cell mass produced per unit of carbon substrate consumed - so media are designed for minimal wastage, with dissolved oxygen near eight grams per litre marking the ceiling plain water can hold.",
+   "formula": "yield_coef = biomass_produced / substrate_used",
+   "key_idea": "Divide biomass by substrate for the yield, then divide the target biomass by that yield to buy exactly enough substrate.",
+   "textbook_ref": "lebt110.txt sections 10.3-10.3.1",
+   "question_patterns": [
+    "a culture converts 50 grams of carbon substrate into 20 grams of cell dry weight - compute the yield coefficient",
+    "with a yield coefficient of 0.4 how much carbon substrate is needed to produce 100 grams of biomass",
+    "list the four components of upstream processing in order",
+    "state the six criteria a good inoculum must satisfy",
+    "why is the log phase culture preferred as inoculum for a bioprocess",
+    "what dissolved oxygen concentration can pure water hold at maximum and how is it maintained in a bioreactor",
+    "list the five practices that keep contamination out of a running bioprocess"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide biomass by substrate",
+     "explain": "The quotient is the cellular yield coefficient.",
+     "compute": "yield_coef = biomass_produced / substrate_used"
+    },
+    {
+     "step": 2,
+     "action": "buy the substrate",
+     "explain": "Target biomass divided by the yield prices the feed needed.",
+     "compute": "substrate_needed = target_biomass / yield_coef"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Dry cell mass per unit substrate consumed defines what coefficient: the yield or the drag?",
+     "a": "yield"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.5",
+   "title": "Batch Fed-Batch and Continuous Operation",
+   "section": "10.3.1",
+   "definition": "A bioprocess runs in one of three gears: batch is a sealed flask of fixed nutrients that climbs through the growth curve and stops; fed-batch dribbles in the growth-limiting substrate to keep its residual level low and non-toxic while the volume swells; continuous culture pours fresh medium in and draws broth out so growth, product formation and substrate use all lock at a steady state.",
+   "formula": "-",
+   "key_idea": "Close the lid, top it up, or keep it flowing - the mode decides whether the product arrives once, longer, or forever.",
+   "textbook_ref": "lebt110.txt section 10.3.1, Fig. 10.5",
+   "question_patterns": [
+    "differentiate batch fed-batch and continuous modes of bioprocess operation",
+    "why is substrate fed intermittently in fed-batch culture and what stays constant",
+    "what is a steady state in continuous culture and which parameters hold constant",
+    "why does the volume of a fed-batch fermenter increase over the run",
+    "which mode suits a closed vessel with no additional medium after inoculation",
+    "how does continuous culture ensure a continuous supply of the desired product"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the feed",
+     "explain": "No feed after inoculation is batch; intermittent feed is fed-batch; matched in-and-out flow is continuous."
+    },
+    {
+     "step": 2,
+     "action": "watch the volume",
+     "explain": "Batch volume is fixed, fed-batch volume grows, continuous volume stays level."
+    },
+    {
+     "step": 3,
+     "action": "read the kinetics",
+     "explain": "Only the continuous mode holds biomass, substrate and product rates at steady state."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which operation dribbles in the growth-limiting substrate: fed-batch or batch?",
+     "a": "fed-batch"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.6",
+   "title": "Downstream Processing Recovery and Purification",
+   "section": "10.3.1",
+   "definition": "Downstream processing recovers the product fast and cheaply: filtration above ten microns or centrifugation between a hundred and a tenth of a micron separates biomass, bead mills and ultrasonicators or osmotic shock rupture cells for intracellular prizes, liquid-liquid extraction splits extract from raffinate, and precipitation, chromatography, dialysis, ultrafiltration or reverse osmosis polish the product to purity.",
+   "formula": "-",
+   "key_idea": "Separate solids, break cells only if the product hides inside, then extract and purify - quickly and cheaply.",
+   "textbook_ref": "lebt110.txt section 10.3.1, Figs. 10.6-10.8",
+   "question_patterns": [
+    "list the major steps of downstream processing from fermentation broth to packaged product",
+    "which methods separate cell biomass from the culture fluid and over what particle sizes",
+    "how are intracellular products released - compare mechanical and non-mechanical disruption methods",
+    "define extract and raffinate in liquid-liquid extraction",
+    "which criteria decide the choice of a product recovery process",
+    "why must downstream processing be quick and low cost for an efficient recovery",
+    "how does dialysis remove low molecular weight solutes such as urea from a solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate solids",
+     "explain": "Filter or centrifuge the broth to part biomass from supernatant."
+    },
+    {
+     "step": 2,
+     "action": "open the cells if needed",
+     "explain": "Mill, homogenise, sonicate or shock the cells when the product is intracellular."
+    },
+    {
+     "step": 3,
+     "action": "extract and polish",
+     "explain": "Solvent extraction recovers the product; precipitation, chromatography and membrane steps purify it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Filtration and centrifugation separate what from the broth: the biomass or the pH?",
+     "a": "the biomass"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.7",
+   "title": "Membrane Separation Cutoffs and Pressures",
+   "section": "10.3.1",
+   "definition": "Pressure-driven membranes grade by tightness: microfiltration holds back bacteria through 0.1-10 micron pores at about ten psi, ultrafiltration narrows to 0.01-0.1 micron for macromolecules between three hundred and three hundred thousand daltons at ten to a hundred psi, and reverse osmosis squeezes water through sub-nanometre pores under a hundred to eight hundred psi to reject everything dissolved - pressure always beating osmotic pressure to push flow backwards.",
+   "formula": "pressure_fold = ro_psi / mf_psi",
+   "key_idea": "Divide the reverse-osmosis pressure by the microfiltration pressure to see the cost of tighter pores; divide pore sizes for the cutoff ratio.",
+   "textbook_ref": "lebt110.txt section 10.3.1, Table 10.1, Fig. 10.7",
+   "question_patterns": [
+    "microfiltration runs at 10 psi and reverse osmosis needs up to 800 psi - how many times higher is the reverse osmosis pressure",
+    "compare the pore size cutoffs of microfiltration ultrafiltration and reverse osmosis",
+    "which membrane process retains macromolecules of 300 to 300000 daltons",
+    "why must reverse osmosis pressure exceed the osmotic pressure of the saline phase",
+    "which membrane grade would remove a dissolved salt of 200 daltons",
+    "how does protein product size relate to the ultrafiltration molecular weight cutoff"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the pressures",
+     "explain": "Divide the reverse osmosis pressure by the microfiltration pressure.",
+     "compute": "pressure_fold = ro_psi / mf_psi"
+    },
+    {
+     "step": 2,
+     "action": "compare the pores",
+     "explain": "Divide the microfiltration cutoff by the reverse osmosis cutoff.",
+     "compute": "cutoff_fold = mf_cutoff / ro_cutoff"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Microfiltration holds back bacteria through pores of 0.1 to how many microns: 10 or 0.1?",
+     "a": "10"
+    }
+   ]
+  },
+  {
+   "id": "lebt110.8",
+   "title": "Commercial Products of Bioprocessing",
+   "section": "10.4",
+   "definition": "Fermenters now brew the everyday pharmacopoeia: Saccharomyces cerevisiae for ethanol, Corynebacterium glutamicum mutants for glutamic acid and lysine, Aspergillus niger for citric acid and pectinase, Penicillium chrysogenum for penicillin, Propionibacterium and Pseudomonas for vitamin B12, Ashbya gossypii for riboflavin, Streptococcus-derived streptokinase as clot buster, Trichoderma polysporum's cyclosporin A for transplant patients, Monascus purpureus statins, and plant cell cultures of Lithospermum for shikonin dye and Taxus for taxol - plus recombinant insulin from engineered E. coli.",
+   "formula": "-",
+   "key_idea": "Name the microbe and you name the product - each industrial biochemical has a chosen fermenter champion.",
+   "textbook_ref": "lebt110.txt section 10.4, Tables 10.2-10.3, Box 1",
+   "question_patterns": [
+    "which microorganism produces ethanol commercially and which produces L-glutamic acid",
+    "name the fungal species behind citric acid pectinase and penicillin production",
+    "which microbes are used for the commercial production of vitamin B12 and riboflavin",
+    "how does streptokinase act as a clot buster for heart attack patients",
+    "which fungus yields cyclosporin A and what is its clinical use",
+    "how do statins from Monascus purpureus lower blood cholesterol",
+    "name two plant cell culture products and the plant species each comes from",
+    "which fermentation phases are used in the two-phase industrial production of human insulin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the product",
+     "explain": "Classify it as biomass, extracellular or intracellular output."
+    },
+    {
+     "step": 2,
+     "action": "name the producer",
+     "explain": "Match the product to its industrial microbe, plant cell line or recombinant host."
+    },
+    {
+     "step": 3,
+     "action": "state the use",
+     "explain": "Close with the clinical, food or industrial application of the biochemical."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which fungus brews citric acid: Aspergillus niger or Penicillium?",
+     "a": "Aspergillus niger"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt110.txt section 10.3.1 (yield coefficient Y definition)",
+   "concept": "lebt110.4",
+   "question_type": "compute",
+   "question_pattern": "A bioprocess converts {substrate_used} grams of carbon substrate into {biomass_produced} grams of cell dry weight. Find the yield coefficient, and the substrate needed to produce {target_biomass} grams of biomass at the same yield.",
+   "extracted_variables": {
+    "substrate_used": "grams of carbon substrate consumed",
+    "biomass_produced": "grams of cell dry weight formed",
+    "target_biomass": "grams of biomass targeted"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide biomass by substrate",
+     "explain": "The quotient is the cellular yield coefficient.",
+     "compute": "yield_coef = biomass_produced / substrate_used"
+    },
+    {
+     "step": 2,
+     "action": "price the feed",
+     "explain": "Target biomass over the yield gives the substrate required.",
+     "compute": "substrate_needed = target_biomass / yield_coef"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt110.txt Table 10.1 (microfiltration 10 psi, reverse osmosis 100-800 psi)",
+   "concept": "lebt110.7",
+   "question_type": "compute",
+   "question_pattern": "A microfiltration unit operates at {mf_psi} psi with a {mf_cutoff} micron cutoff, while a reverse osmosis unit needs {ro_psi} psi with a {ro_cutoff} micron cutoff. Find the pressure ratio and the pore cutoff ratio between the two processes.",
+   "extracted_variables": {
+    "mf_psi": "operating pressure of microfiltration in psi",
+    "mf_cutoff": "pore cutoff of microfiltration in microns",
+    "ro_psi": "operating pressure of reverse osmosis in psi",
+    "ro_cutoff": "pore cutoff of reverse osmosis in microns"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare pressures",
+     "explain": "Tighter membranes demand proportionally more pressure.",
+     "compute": "pressure_fold = ro_psi / mf_psi"
+    },
+    {
+     "step": 2,
+     "action": "compare pores",
+     "explain": "Divide the larger cutoff by the smaller one.",
+     "compute": "cutoff_fold = mf_cutoff / ro_cutoff"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt110-ex1",
+   "source_ref": "lebt110.txt Exercises (questions 1-10)",
+   "questions": [
+    "Differentiate primary and secondary metabolites based on their functions with examples.",
+    "Explain the challenges encountered during the development of a bioprocess.",
+    "Describe the design and components of a typical bioreactor and their applications.",
+    "Explain the basic operational stages of a bioprocess and compute yield coefficients from biomass and substrate data.",
+    "Describe upstream and downstream processing including recovery and purification of an intracellular product.",
+    "Write short notes on reverse osmosis and dialysis with their pressure and cutoff values.",
+    "Identify the culture mode of a closed vessel with no added medium, and match bioreactor parts with their functions.",
+    "Evaluate the assertion on secondary metabolites as defence and stress compounds with their indirect-origin reason."
+   ]
+  }
+ ]
+}

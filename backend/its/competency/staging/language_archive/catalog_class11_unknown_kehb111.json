@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 111,
+  "chapter_title": "Note-making",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb111.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb111.1.1",
+      "title": "Purpose of Note-making",
+      "section": "1",
+      "definition": "Note-making distils a long text into brief personal pointers for one's own later reference -- not a copy, but a skeleton of main points and supporting details that lets the note-maker reconstruct the substance without rereading everything.",
+      "formula": "",
+      "key_idea": "Notes are written for yourself -- short, structured signals that unlock the full text in memory.",
+      "textbook_ref": "kehb111.txt opening (why note making, for one's own reference, i know what i want to say but not how to say it)",
+      "question_patterns": [
+        "what is the purpose of note making",
+        "in class 11 note making: how do notes differ from copying the text",
+        "why are notes made for personal reference",
+        "when should a student make notes while studying",
+        "what makes good notes useful months later",
+        "explain note making as a study skill"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the reader", "explain": "Notes serve the note-maker alone, so brevity and personal shorthand are legitimate."},
+        {"step": 2, "action": "separate main from detail", "explain": "Sort each sentence into main points and supporting evidence before writing anything down."},
+        {"step": 3, "action": "check recoverability", "explain": "Test the notes: a month later they should rebuild the text's argument without the original."}
+      ]
+    },
+    {
+      "id": "kehb111.1.2",
+      "title": "Mechanics: Abbreviations, Headings and Layout",
+      "section": "1",
+      "definition": "Effective notes use an indented layout with a clear title, main headings, sub-points and sub-sub-points, sparing abbreviations and symbols, and numbered or lettered indentation so hierarchy is visible at a glance.",
+      "formula": "",
+      "key_idea": "Indentation shows importance -- the further in a point sits, the more it depends on the point above.",
+      "textbook_ref": "kehb111.txt mechanics sections (title, abbreviations and symbols, indentation, headings and sub points, numbering)",
+      "question_patterns": [
+        "describe the correct layout for making notes",
+        "in class 11 note making: why is indentation used in notes",
+        "what is the role of abbreviations and symbols in note making",
+        "how are sub points different from sub sub points",
+        "why must notes carry a title",
+        "make notes on a given passage using headings and indentation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "title the notes", "explain": "A short title announces the passage's subject and frames every point below."},
+        {"step": 2, "action": "layer the points", "explain": "Main points sit flush left; sub-points and sub-sub-points indent successively with numbers or letters."},
+        {"step": 3, "action": "compress with symbols", "explain": "Standard abbreviations and symbols shrink the text while keeping each entry readable."}
+      ]
+    },
+    {
+      "id": "kehb111.1.3",
+      "title": "From Notes to Meaning: Avoiding Copying",
+      "section": "1",
+      "definition": "The commonest fault is transcribing sentences instead of making notes. Genuine note-making translates the author's prose into compressed phrasing -- phrases, not sentences -- discarding examples and repetition, so the notes show the shape of the argument rather than its original wording.",
+      "formula": "",
+      "key_idea": "Notes compress and translate; copying merely relocates -- the difference is thinking.",
+      "textbook_ref": "kehb111.txt guidance sections (do not copy, use phrases, discard examples and repetition, notes versus summary distinction)",
+      "question_patterns": [
+        "why should notes not be copied sentences from the text",
+        "in class 11 note making: how do phrases serve better than sentences in notes",
+        "what should be discarded while making notes",
+        "how do notes differ from a summary",
+        "turn a given paragraph into notes with headings",
+        "what tests show that notes are genuine and not copied"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "compress to phrases", "explain": "Strip articles and verbs of full clauses; keep the idea in a noun phrase."},
+        {"step": 2, "action": "prune the extras", "explain": "Drop illustrations, repetitions and asides that elaborate but do not advance the argument."},
+        {"step": 3, "action": "preserve the skeleton", "explain": "Retain the order and weight of the original reasoning so notes mirror the passage's logic."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb111.txt layout guidance",
+      "concept": "kehb111.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student's notes read: 'The passage is about how trees give us many things such as wood, fruits and shade and therefore we should not cut them down.' Diagnose the faults and rewrite.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "spot the copying", "explain": "The entry is a full copied sentence -- not a note."},
+        {"step": 2, "action": "compress with headings", "explain": "Title: Uses of trees. 1. give wood, fruit, shade 2. must not be cut."},
+        {"step": 3, "action": "verify the rewrite", "explain": "Headings, indentation and compressed phrases now follow the standard layout."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb111.txt notes versus summary",
+      "concept": "kehb111.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Distinguish note-making from summarising using the same short passage on trees.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "produce the notes", "explain": "Indented phrases under a title -- for the maker's own reference."},
+        {"step": 2, "action": "produce the summary", "explain": "A short linked paragraph in complete sentences -- meant to be shown to others."},
+        {"step": 3, "action": "state the contrast", "explain": "Notes are private, skeletal and ungrammatical by design; summaries are public and grammatical."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb111.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Make notes on a given passage using a title and indented points.",
+        "Suggest a suitable title for a given set of notes.",
+        "Convert a copied-sentence set of notes into proper phrase-based notes.",
+        "List five standard abbreviations useful in note-making.",
+        "Explain how indentation communicates the hierarchy of ideas.",
+        "Why is note-making called a personal study skill?"
+      ]
+    }
+  ]
+}

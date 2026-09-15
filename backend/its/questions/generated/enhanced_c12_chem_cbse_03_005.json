@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_005",
+   "title": "c12_chem_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the differential rate law for a zero order reaction and write the integrated rate equation obtained after integration with the initial condition \\([R]_0\\) at \\(t=0\\).",
+     "a": "The differential rate law is \\(-\\frac{d[R]}{dt} = k\\). Integrating gives \\([R] = -kt + [R]_0\\). A wrong answer (e.g., writing \\([R] = [R]_0 e^{-kt}\\) or forgetting the negative sign) reveals confusion between zero and first order integrated forms or a sign error in the integration step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the plot of concentration \\([R]\\) versus time \\(t\\) for a zero order reaction is a straight line, and identify the physical meaning of its slope and intercept.",
+     "a": "The integrated equation \\([R] = -kt + [R]_0\\) is of the form \\(y = mx + c\\) with \\(y = [R]\\), \\(x = t\\), slope \\(m = -k\\), and intercept \\(c = [R]_0\\). A wrong answer (e.g., saying slope = \\(k\\) or intercept = 0) shows the student has not compared the equation to the straight-line form or has missed the negative sign in the slope.",
+     "self_check": true
+    },
+    {
+     "q": "The decomposition of NH₃ on a platinum surface is a zero order reaction with \\(k = 2.5 \\times 10^{-4}\\) mol L⁻¹ s⁻¹. If the initial concentration of NH₃ is 0.10 mol L⁻¹, calculate the concentration after 100 seconds.",
+     "a": "Using \\([R] = [R]_0 - kt\\): \\([R] = 0.10 - (2.5 \\times 10^{-4} \\times 100) = 0.10 - 0.025 = 0.075\\) mol L⁻¹. A wrong answer (e.g., 0.125 or using first order formula) indicates the student either added instead of subtracted, used the wrong integrated equation, or mishandled units.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots \\([R]\\) vs \\(t\\) for a zero order reaction and obtains a straight line with slope \\(-3.2 \\times 10^{-3}\\) mol L⁻¹ s⁻¹ and intercept 0.50 mol L⁻¹. Write the integrated rate equation for this reaction and predict the time when \\([R]\\) becomes 0.10 mol L⁻¹.",
+     "a": "Equation: \\([R] = -3.2 \\times 10^{-3} t + 0.50\\). Set \\([R] = 0.10\\): \\(0.10 = -3.2 \\times 10^{-3} t + 0.50 \\Rightarrow t = \\frac{0.40}{3.2 \\times 10^{-3}} = 125\\) s. A wrong answer (e.g., using positive slope or solving incorrectly) shows inability to extract parameters from the graph or algebraic manipulation errors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a zero order reaction, the half-life is independent of the initial concentration.\" Justify your answer using the integrated rate equation.",
+     "a": "The statement is FALSE. For zero order, \\(t_{1/2} = \\frac{[R]_0}{2k}\\), which is directly proportional to \\([R]_0\\). A student who says \"true\" is confusing zero order with first order (where \\(t_{1/2}\\) is constant). This reveals a lack of derivation of half-life from the integrated equation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment (using concentration vs time data) to confirm that the decomposition of N₂O₅ in CCl₄ is NOT a zero order reaction. Describe what you would plot and what result would disprove zero order kinetics.",
+     "a": "Plot \\([N_2O_5]\\) vs \\(t\\). If the reaction were zero order, the plot would be linear. Since N₂O₅ decomposition is first order, the plot will be a curve (exponential decay). A linear \\(\\ln[N_2O_5]\\) vs \\(t\\) plot would confirm first order. A poor answer (e.g., plotting rate vs concentration) shows misunderstanding of how integrated rate equations are used to determine order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

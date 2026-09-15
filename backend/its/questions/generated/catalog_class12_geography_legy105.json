@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy105",
+  "concepts": [
+    {
+      "id": "legy.105.1",
+      "questions": [
+        {"q": "Activities that transform raw materials into finished goods belong to which category of activity? (one word)", "a": "secondary"},
+        {"q": "Manufacturing carried on in a worker's home with simple tools is called what kind of industry? (one word)", "a": "cottage"},
+        {"q": "Industries based on cotton, jute or sugar use what kind of raw material basis? (one word)", "a": "agro-based"},
+        {"q": "Industries using iron ore or bauxite are classified on what material basis? (one word)", "a": "mineral-based"},
+        {"q": "Paper making from wood is classified under which raw material basis? (two words)", "a": "forest-based"},
+        {"q": "An industry owned and run by the state is called what kind of sector? (one word)", "a": "public"},
+        {"q": "How many ownership forms are listed (public, private, joint, multinational)? (number)", "a": "4"}
+      ]
+    },
+    {
+      "id": "legy.105.2",
+      "questions": [
+        {"q": "Access to raw materials, market, labour, power and what cost of moving goods decides industrial location? (one word)", "a": "transport"},
+        {"q": "What term describes the economies that firms gain by clustering near each other? (one word)", "a": "agglomeration"},
+        {"q": "Which modern industries, unconstrained by raw-material pull, follow skilled labour and communication networks? (one word)", "a": "footloose"},
+        {"q": "What kind of labour do footloose and high-tech industries follow: skilled or cheap? (one word)", "a": "skilled"},
+        {"q": "Besides physical factors, what arm of the state shapes industrial location through incentives? (one word)", "a": "policy"},
+        {"q": "Which single market factor pulls industries towards densely populated regions? (one word)", "a": "market"},
+        {"q": "How many location factors are listed for a plant site (raw materials, market, labour, power, transport, capital)? (number)", "a": "6"}
+      ]
+    },
+    {
+      "id": "legy.105.3",
+      "questions": [
+        {"q": "Major manufacturing regions cover less than what per cent of the world's land area? (give the per cent)", "a": "10"},
+        {"q": "If manufacturing regions occupy under 10 per cent of world land, about what per cent lies outside them? (give the per cent)", "a": "90"},
+        {"q": "Name one continent of the three great manufacturing regions besides Europe and East Asia. (two words)", "a": "North America"},
+        {"q": "How many great manufacturing regions of the world are named (North America, Europe, East Asia)? (number)", "a": "3"},
+        {"q": "Manufacturing is highly concentrated or widely dispersed across the globe? (one word)", "a": "concentrated"},
+        {"q": "If manufacturing belts covered exactly 8 per cent of world land, what per cent would lie outside? (give the per cent)", "a": "92"},
+        {"q": "Most of the world's land area carries what share of modern manufacturing? (short phrase)", "a": "very little"}
+      ]
+    },
+    {
+      "id": "legy.105.4",
+      "questions": [
+        {"q": "Which theorist proposed the least-cost approach to industrial location? (one word)", "a": "Weber"},
+        {"q": "Weber's model finds the best plant site by minimising what two costs: transport and what? (one word)", "a": "labour"},
+        {"q": "What triangle-shaped device does Weber's model use to weigh material, market and production sites? (two words)", "a": "locational triangle"},
+        {"q": "In Weber's model, the three corners of the triangle are two material sources and one what? (one word)", "a": "market"},
+        {"q": "Which modern benefit of clustering does Weber's calculus leave out but later thought includes? (one word)", "a": "agglomeration"},
+        {"q": "Weber's theory seeks the location of minimum total what? (two words)", "a": "transport cost"},
+        {"q": "Does Weber's least-cost point minimise profit or cost? (one word)", "a": "cost"}
+      ]
+    }
+  ]
+}

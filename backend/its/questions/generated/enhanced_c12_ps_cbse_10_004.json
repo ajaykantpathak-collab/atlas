@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_004",
+   "title": "c12_ps_cbse_10_004",
+   "questions": [
+    {
+     "q": "What was the principal obstacle to agricultural growth identified by the First Five Year Plan, and what key policy did it propose to address it?",
+     "a": "The First Plan identified the pattern of land distribution (feudal landlordism, tenant insecurity) as the principal obstacle and proposed land reforms (abolition of intermediaries, tenancy reform, ceiling on holdings) as the key policy. A wrong answer (e.g., \"lack of fertilizer\" or \"need for mechanization\") reveals confusion between technological and institutional constraints—the Plan explicitly diagnosed the problem as structural/agrarian relations, not input scarcity.",
+     "self_check": true
+    },
+    {
+     "q": "Why did P.C. Mahalanobis argue for heavy industry-led growth in the Second Plan, and what mathematical logic underpinned his model?",
+     "a": "Mahalanobis argued that investing in capital goods (machines that make machines) expands the economy's production capacity faster than investing in consumer goods, creating a virtuous cycle of rising investment → rising output → rising savings → further investment. His two-sector model (capital goods vs consumer goods) showed that allocating a higher share of investment to Sector 1 (capital goods) maximizes long-run growth rate. A wrong answer focusing only on \"Nehru's socialist ideology\" misses the rigorous economic modeling—Mahalanobis was a statistician who used input-output analysis, not just political preference.",
+     "self_check": true
+    },
+    {
+     "q": "A state government in 2024 signs MoUs for steel plants in tribal districts rich in iron ore. Tribal groups protest displacement; environmentalists warn of pollution; the Centre pressures for investment. Using the agriculture-industry debate framework, identify which Plan-era arguments each side echoes.",
+     "a": "Tribal protesters echo the First Plan's concern for agrarian livelihoods and the \"urban bias\" critique (Charan Singh's later argument): industry displaces rural poor without adequate rehabilitation. Environmentalists echo the unvoiced ecological critique absent in both Plans. The Centre echoes the Second Plan/Mahalanobis logic: heavy industry creates backward linkages, employment, and strategic autonomy. The state government echoes the Bombay Plan's industrialist-led planning. A wrong answer that labels all sides simply \"pro-\" or \"anti-development\" fails to map each position to the specific historical arguments about *what kind* of development and *for whom*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the First Plan's \"hasten slowly\" (K.N. Raj) and the Second Plan's \"rapid structural transformation\" (Mahalanobis) on three dimensions: (a) savings-investment logic, (b) foreign exchange strategy, (c) political risk assessment.",
+     "a": "(a) First Plan: low savings base → cannot force savings; push savings up gradually via public investment in agriculture. Second Plan: forced savings via deficit financing and import controls; heavy industry requires large upfront capital. (b) First Plan: minimal foreign exchange needed (agriculture uses domestic inputs). Second Plan: massive foreign exchange for technology/machinery imports → balance of payments crisis risk. (c) First Plan: fast growth endangers democracy (K.N. Raj's warning). Second Plan: slow growth perpetuates poverty; political legitimacy requires visible industrial progress. A wrong answer that treats both as merely \"different speeds\" misses the fundamentally different theories of capital accumulation and political economy.",
+     "self_check": true
+    },
+    {
+     "q": "Critics called the Second Plan strategy an \"urban bias.\" Evaluate this critique using evidence from the Plan's sectoral allocations and its actual outcomes by the mid-1960s.",
+     "a": "The critique is substantially valid: Second Plan allocated ~60% of public sector outlay to industry/mining vs ~15% to agriculture/irrigation. Outcomes: industrial capacity grew (steel, machinery), but food grain production stagnated → 1965-66 drought caused severe food crisis, forcing PL-480 imports from USA. The \"urban bias\" meant industrial workers' wage goods (food) became scarce, raising procurement prices and hurting rural incomes. A wrong answer dismissing the critique as \"ideological\" ignores the hard data: per capita food availability fell from 177 kg (1951) to 152 kg (1965), proving the bias had material consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 1956 memo from the Planning Commission to Nehru proposing a *synthesis* strategy that addresses both the Mahalanobis imperative (capital goods capacity) and the First Plan's agrarian priority. Specify three concrete policy instruments.",
+     "a": "A strong answer proposes: (1) Agro-industrial linkage: prioritize fertilizer, pump-set, and farm machinery industries *within* the capital goods sector (making heavy industry serve agriculture). (2) Compulsory deposit scheme: urban surplus mobilized via forced savings bonds earmarked for rural credit cooperatives. (3) Spatial planning: locate steel plants (Bhilai, Rourkela) in mineral-rich but backward regions with mandatory tribal rehabilitation and afforestation budgets. A weak answer merely says \"balance both\" without specifying *how* to reconcile the resource conflict—missing that the debate was about *allocation of scarce capital*, not good intentions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

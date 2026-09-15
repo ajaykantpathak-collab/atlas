@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_5",
+   "title": "c9_bio_ch3_5",
+   "questions": [
+    {
+     "q": "Name the four whorls of a typical flower in order from outermost to innermost, and state the reproductive role of the third and fourth whorls.",
+     "a": "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils). The third whorl (androecium) produces male gametes in pollen grains; the fourth whorl (gynoecium) produces female gametes (ovules) inside the ovary. A wrong answer (e.g., listing \"petals, sepals, pistil, stamen\" or saying petals produce pollen) reveals the student has not internalised the sequential whorl arrangement or the male/female division of reproductive labour — a Class 9 board exam expects precise terminology and order.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a pumpkin plant and says, \"This flower has both stamens and carpels, so it must be a bisexual flower.\" Is this statement always correct? Explain why or why not using the concept of functional sexuality.",
+     "a": "Not always correct. A flower may have both stamens and carpels structurally (bisexual) but be functionally unisexual if one set is sterile or non-functional — e.g., male flowers of pumpkin (cucurbits) have rudimentary, non-functional carpels, while female flowers have sterile stamens (staminodes). A wrong answer (\"yes, it's bisexual\") shows the student confuses structural presence with functional maturity, a common board-level error where students ignore that sexuality is defined by functional gamete production, not mere organ presence.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a longitudinal section diagram of a mustard flower (Brassica). The thalamus is swollen and the floral parts are inserted below the ovary. Identify the flower type based on ovary position and explain how this affects fruit formation after fertilisation.",
+     "a": "Step 1: Observe ovary position — ovary is superior (hypogynous flower) because sepals, petals, and stamens are attached below the ovary on the thalamus. Step 2: Recall that in hypogynous flowers, the ovary develops into the fruit while other parts wither and fall off. Step 3: Apply to mustard — after fertilisation, the superior ovary elongates into a siliqua (pod), and the calyx, corolla, and androecium abscise. Step 4: Contrast with epigynous flowers (e.g., apple) where the thalamus also contributes to fruit. Wrong answer (e.g., \"inferior ovary\" or \"thalamus forms fruit\") reveals confusion between hypogynous/perigynous/epigynous conditions — a frequent board diagram-labelling error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the androecium of a lily (monocot) and a mustard (dicot) flower. Both have six stamens, but a board question asks: \"Why is the androecium arrangement taxonomically significant?\" Analyse and explain.",
+     "a": "In lily (monocot), the six stamens are free (polyandrous) and often in two whorls of three, reflecting trimerous floral symmetry. In mustard (dicot), the six stamens are tetradynamous — four long and two short — a diagnostic trait of Brassicaceae. The arrangement (free vs. tetradynamous, whorled vs. distinct lengths) reflects evolutionary divergence: monocots typically have trimerous, free parts; dicots show varied fusion and differentiation. A wrong answer (\"both have six stamens so they are similar\") misses that stamen number alone is less informative than arrangement, fusion, and symmetry — board questions test this analytical distinction for plant classification.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows cucumber (Cucumis sativus) and notices some flowers never set fruit despite having both stamens and carpels. Evaluate the claim: \"These flowers are defective and should be removed to save plant energy.\" Justify your evaluation biologically.",
+     "a": "The claim is incorrect. Cucumber is monoecious — it bears separate male and female flowers on the same plant. Male flowers have functional stamens but rudimentary carpels; female flowers have functional carpels but sterile stamens (staminodes). Neither is \"defective\" — both are essential for sexual reproduction. Removing male flowers would prevent pollination of female flowers. A wrong evaluation (\"remove them\") shows the student cannot distinguish between structural bisexuality and functional unisexuality in monoecious plants, and misunderstands the energy trade-off — male flowers are metabolically cheaper and necessary for outcrossing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation activity using flowers from your kitchen garden (e.g., tomato, brinjal, chilli, pumpkin) to classify them as complete/incomplete and unisexual/bisexual. List the steps, what you would record, and how you would confirm your classification.",
+     "a": "Steps: 1) Collect 5-6 fresh flowers each of tomato, brinjal, chilli, pumpkin. 2) Dissect each under a hand lens: check presence/absence of all four whorls (complete = all four present; incomplete = any whorl missing). 3) Check functionality: dust anther on slide for pollen viability (stain with acetocarmine); examine ovary for ovules. 4) Record in table: flower name, whorls present, pollen viable?, ovules present?. 5) Classify: tomato/brinjal/chilli — complete, bisexual (both gametes functional); pumpkin — incomplete (male flowers lack corolla sometimes, female lack androecium), unisexual. A poor answer (just listing names without dissection or functionality check) reveals the student treats classification as memorisation, not observation-based inference — boards assess practical skills via such activities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

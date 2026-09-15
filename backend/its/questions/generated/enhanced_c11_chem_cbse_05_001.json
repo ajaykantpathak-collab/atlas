@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_001",
+   "title": "c11_chem_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define van der Waals forces and list their three components. Why are they collectively called \"weak\" intermolecular forces compared to ionic or covalent bonds?",
+     "a": "Van der Waals forces are weak electrostatic attractions between neutral atoms/molecules comprising: (1) London dispersion forces, (2) dipole-dipole forces, (3) dipole-induced dipole forces. They are \"weak\" because their energy (0.1–40 kJ mol⁻¹) is much smaller than covalent bonds (150–1100 kJ mol⁻¹) or ionic lattice energies (600–4000 kJ mol⁻¹). A wrong answer listing hydrogen bonding as a component reveals confusion with the separate stronger interaction; omitting dipole-induced dipole shows incomplete classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why non-polar molecules like CH₄ and CCl₄ still condense into liquids at low temperatures despite having no permanent dipole moment.",
+     "a": "Non-polar molecules experience London dispersion forces: instantaneous dipoles from transient electron cloud asymmetry induce dipoles in neighbours, creating temporary attraction. Strength increases with molecular size/polarizability (CCl₄ > CH₄), explaining why CCl₄ boils at 350 K while CH₄ boils at 111 K. A wrong answer claiming \"no forces exist\" ignores quantum mechanical electron correlation; attributing it to permanent dipoles misidentifies the force type.",
+     "self_check": true
+    },
+    {
+     "q": "Given the boiling points: N₂ (77 K), CO (81 K), HCl (188 K), H₂O (373 K). Analyse the trend and identify which intermolecular forces dominate in each case. Justify your reasoning.",
+     "a": "N₂ (non-polar): only London forces → lowest BP. CO (small dipole moment 0.11 D): London + weak dipole-dipole → slightly higher BP. HCl (polar, μ=1.08 D): London + significant dipole-dipole → much higher BP. H₂O: hydrogen bonding (special strong dipole-dipole) → highest BP. A wrong answer assigning hydrogen bonding to HCl confuses polarity with H-bonding criteria (H bonded to N, O, F only); ignoring London forces in polar molecules underestimates their contribution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the polarizability and expected London force strength for the noble gases He, Ne, Ar, Kr, Xe. Predict the trend in their boiling points and explain any anomaly.",
+     "a": "Polarizability increases down the group (He < Ne < Ar < Kr < Xe) due to larger, more diffuse electron clouds. London force strength follows the same trend, so boiling points increase: He (4.2 K) < Ne (27 K) < Ar (87 K) < Kr (120 K) < Xe (165 K). No anomaly exists — the trend is monotonic. A wrong answer predicting decreasing BP with atomic number confuses polarizability with ionization energy; claiming He has highest polarizability misapplies the concept.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Dipole-dipole forces are always stronger than London forces.\" Evaluate this statement using the examples of HCl (μ=1.08 D, molar mass 36.5 g/mol) and I₂ (non-polar, molar mass 254 g/mol). Which has the higher boiling point and why?",
+     "a": "The statement is false. I₂ (BP 457 K) boils higher than HCl (BP 188 K) despite being non-polar. I₂'s large electron cloud (high polarizability) generates strong London forces that outweigh HCl's dipole-dipole + London combination. A wrong answer choosing HCl reveals overgeneralization — dipole-dipole dominates only for similar-sized molecules; polarizability can dominate for heavy non-polar species.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate that intermolecular forces affect evaporation rate. Specify the liquids to compare, the measurable quantity, and the expected outcome linked to force strength.",
+     "a": "Compare evaporation of water (hydrogen bonding), acetone (dipole-dipole), and hexane (London only) by placing equal drops (e.g., 0.1 mL) on a clean glass plate at room temperature and timing complete evaporation. Expected order: hexane (fastest) > acetone > water (slowest). A poor answer using only water and oil (immiscible, not comparable) or measuring temperature instead of time fails to isolate intermolecular force effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_001",
+   "title": "c12_cs_cbse_13_001",
+   "questions": [
+    {
+     "q": "Define \"technology\" in the context of societal impact analysis. Your definition must distinguish it from \"science\" and \"engineering\" in one sentence.",
+     "a": "Correct answer: Technology is the *application* of scientific knowledge through engineered artefacts, systems, or processes to achieve practical human goals, whereas science seeks explanatory theories and engineering designs the artefacts. A wrong answer that equates technology with \"gadgets\" or \"computers\" reveals a hardware-only mental model that cannot analyse systemic impacts like algorithmic bias in loan approvals or the gig-economy restructuring of labour laws.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student claims: \"WhatsApp has only positive impact on Indian society because it connects families for free.\" Identify the logical flaw in this statement and name the analytical concept that captures the coexistence of benefits and harms.",
+     "a": "The flaw is *monovalent reasoning* — assuming a technology’s impact is unidirectional. The correct concept is **dual-impact nature** (or \"double-edged sword\"): WhatsApp enables free family communication (positive) *and* spreads medical misinformation during health crises, facilitates mob lynching via forwarded rumours, and creates metadata surveillance risks (negative). A student who cannot name \"dual-impact\" or \"unintended consequences\" will later fail to write balanced board answers on AI ethics or social media regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the NCERT PBL steps (Figure 13.1) to design a two-week mini-project that investigates the impact of UPI on street vendors in your local market. List the *exact* deliverable for each of the five steps.",
+     "a": "Step 1 Identification: Problem statement — \"How has UPI adoption changed daily income, cash-handling risk, and credit access for 20 street vendors in X market?\"  \nStep 2 Plan: Roles — leader (coordinates), two interviewers (Hindi/English), one data recorder (Google Sheets), one photographer (QR code placement). Tools — questionnaire, phone recorder, spreadsheet.  \nStep 3 Time frame: Day 1-2 pilot survey, Day 3-8 full interviews, Day 9 analysis, Day 10 report.  \nStep 4 Guidance: Teacher reviews questionnaire on Day 2; local NGO volunteer helps with vendor trust-building on Day 3.  \nStep 5 Outcome: A 5-page PDF with income-before/after charts, verbatim quotes, and a \"vendor wish-list\" for NPCI.  \nA student who merges Steps 2 and 3 or omits \"peer review\" in Step 5 misunderstands the *structured* nature of PBL and will produce anecdotal rather than evidence-based reports.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *modular approach* and *top-down approach* for solving the UPI street-vendor project. Which approach better handles the discovery that vendors need voice-based UPI because of low literacy? Justify with a specific example from the project workflow.",
+     "a": "Modular approach: breaks project into independent modules (survey, interview, data-cleaning, analysis, reporting) — each can iterate. Top-down: starts with a full system design (e.g., \"build a dashboard\") then decomposes. The modular approach handles the voice-UPI discovery because the *interview module* can immediately add a new question (\"Would voice-UPI help?\") and feed results into the *analysis module* without redesigning the whole project. Top-down would require revisiting the high-level design document, causing delays. A student who picks top-down because \"it sounds more organised\" misses the NCERT emphasis on flexibility for real-world uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim using the six teamwork components from NCERT §13.3.1: \"In our PBL group, the best coder writes all the Python scripts while others only watch; we finish fast, so it’s good teamwork.\"",
+     "a": "The claim violates at least four components: (C) **Share with Others** — expertise not transferred; (D) **Respect for Others** — non-coders' ideas (e.g., vendor-language nuances) ignored; (E) **Help Others** — no scaffolding for skill-building; (F) **Participate** — passive observers. Speed ≠ teamwork. NCERT explicitly states teamwork requires *collective* effort across *all* components. A student who equates \"fast output\" with \"good teamwork\" will score poorly on the 5-mark \"teamwork evaluation\" rubric in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 2×2 impact matrix framework (axes: *Intended vs Unintended* × *Individual vs Systemic*) and place these four UPI effects in the correct quadrants: (a) vendor saves ₹50/day cash-handling cost, (b) vendor’s phone battery dies → lost sales, (c) NPCI data shows 40% new-to-bank users, (d) a phishing gang targets vendors via fake UPI callbacks. Explain your placement for (b) and (d).",
+     "a": "Matrix:  \n| | Intended | Unintended |  \n|---|---|---|  \n| Individual | (a) | (b) |  \n| Systemic | (c) | (d) |  \n(b) is *Unintended Individual* — battery failure is a device-level side effect, not a design goal. (d) is *Unintended Systemic* — phishing emerges from the *ecosystem* of digital payments, exploiting trust at scale. A student who puts (d) in \"Individual\" misses that phishing is a structural vulnerability requiring regulatory/technical *systemic* fixes (e.g., device-binding, fraud analytics), not just vendor education.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_001",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_001",
+   "title": "c6_english_u1_001",
+   "questions": [
+    {
+     "q": "What is the \"plot\" of a story?",
+     "a": "The plot is the sequence of events that tell the story, usually starting with a situation, moving through a conflict or change, and ending with a resolution. A wrong answer here suggests the student confuses \"plot\" with \"characters\" or \"theme,\" showing they lack a basic structure for narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the riverbank in this story considered a \"liminal\" or border space?",
+     "a": "It is a boundary between the familiar village and the vast, unknown world. A wrong answer indicates the student is looking only at the physical scenery rather than the symbolic meaning of the setting in relation to the character's growth.",
+     "self_check": true
+    },
+    {
+     "q": "If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi's experience change?",
+     "a": "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise). 3. Compare the outcomes. 4. Conclude that she might not have heard the river due to noise. A wrong answer shows the student does not understand how setting influences character behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the moment of \"despair\" and the \"river speaking.\" What does this tell us about the plot?",
+     "a": "The despair is the \"inciting incident,\" providing the motivation for the character to seek change, which leads to the river speaking. A wrong answer suggests the student views the events as random occurrences rather than a connected chain of cause and effect.",
+     "self_check": true
+    },
+    {
+     "q": "Is the setting just a background, or is it an active part of the story? Justify your answer.",
+     "a": "It is an active part because it triggers the change in the main character; without the river's presence, the plot cannot move forward. A wrong answer indicates the student thinks settings are merely decorative rather than functional.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-sentence change to the setting and explain how it would change the plot's \"turning point.\"",
+     "a": "Example: \"If the river was a dry, dusty road, the character would hear a voice from the ground instead of water.\" A poor answer lacks imagination or fails to connect the new setting to the character's discovery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

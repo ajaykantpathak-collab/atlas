@@ -1,0 +1,348 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 9,
+ "chapter_title": "Structured Query Language (SQL)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs109.1",
+   "title": "POWER and MOD Math Functions",
+   "section": "9.8.1(A) and Table 9.13",
+   "definition": "SQL's numeric single-row functions compute on one value at a time: POWER(X, Y) raises X to the power Y, and MOD(A, B) returns the remainder after dividing A by B.",
+   "formula": "reduced = base ** exponent % modulus",
+   "key_idea": "POWER(2, 3) answers 8, while MOD(21, 2) answers 1.",
+   "textbook_ref": "lecs109.txt, section 9.8.1(A) and Table 9.13",
+   "question_patterns": [
+    "What does SELECT POWER(2, 3) return in MySQL?",
+    "Evaluate SELECT MOD(21, 2) and name the function category it belongs to.",
+    "Write the function that shows 12 raised to the power 3, and state its output.",
+    "Which function returns the remainder after dividing one number by another?",
+    "Name the three categories of single row functions with one example of each."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise the base to the exponent",
+     "explain": "POWER multiplies the base by itself exponent times.",
+     "compute": "powerval = base ** exponent"
+    },
+    {
+     "step": 2,
+     "action": "reduce by the modulus",
+     "explain": "MOD keeps only the remainder of the division.",
+     "compute": "reduced = powerval % modulus"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does POWER(2, 3) return in SQL?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.2",
+   "title": "GST and FinalPrice of a Car",
+   "section": "9.8.1(A) and Example 9.18",
+   "definition": "The dealer example computes GST as 12 percent of a car's Price, rounds it, and stores FinalPrice as Price plus that GST, using arithmetic expressions directly inside UPDATE and SELECT statements.",
+   "formula": "final_price = price + price * 12 / 100",
+   "key_idea": "For the Dzire priced 582613.00, the GST works out to 69913.56, so the FinalPrice becomes 652526.56.",
+   "textbook_ref": "lecs109.txt, Example 9.18 parts a and b",
+   "question_patterns": [
+    "Compute the GST at 12 percent for the car priced 582613.00 and give the FinalPrice.",
+    "Write the UPDATE statement that fills FinalPrice as Price plus 12 percent of Price.",
+    "For the Baleno priced 567031.00, what GST and FinalPrice does the query produce?",
+    "Why is the GST expression written as 12/100*Price inside the SELECT statement?",
+    "Display the GST rounded to one decimal place for every car of the INVENTORY table."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the GST",
+     "explain": "Twelve percent of the price is price times 12 over 100.",
+     "compute": "gst = price * 12 / 100"
+    },
+    {
+     "step": 2,
+     "action": "add GST to the price",
+     "explain": "The final price is the price increased by the GST.",
+     "compute": "final_price = price + gst"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A car is priced at Rs 582613. With 12 percent GST added, what is its FinalPrice in rupees?",
+     "a": "652526.56"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.3",
+   "title": "Aggregate Functions on Car Prices",
+   "section": "9.8.2 and Table 9.17",
+   "definition": "Multiple-row (aggregate) functions collapse a column of records into one value: MAX picks the largest, MIN the smallest, AVG the mean, SUM the total and COUNT the number of rows, with COUNT(column) skipping NULLs.",
+   "formula": "avg_price = total / count",
+   "key_idea": "The eight INVENTORY prices sum to 4608733.00, so AVG(Price) returns 576091.625000.",
+   "textbook_ref": "lecs109.txt, section 9.8.2, Table 9.17 and Table 9.9",
+   "question_patterns": [
+    "Find MAX(Price), MIN(Price), SUM(Price) and AVG(Price) over the INVENTORY table.",
+    "Why does COUNT(MEMNAME) return 3 while COUNT(*) returns 4 for the MANAGER table?",
+    "How many cars in INVENTORY have the model VXI, and which query counts them?",
+    "Compute the average price of the eight cars from the values listed in Table 9.9.",
+    "How many different models does COUNT(DISTINCT Model) report for INVENTORY?",
+    "State two differences between single row functions and aggregate functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the first four prices",
+     "explain": "Add the Dzire and Baleno prices first.",
+     "compute": "partial = 582613 + 673112 + 567031 + 647858"
+    },
+    {
+     "step": 2,
+     "action": "add the remaining prices",
+     "explain": "The two EECO and two SWIFT cars complete the total.",
+     "compute": "total = partial + 355205 + 654914 + 514000 + 614000"
+    },
+    {
+     "step": 3,
+     "action": "divide by the car count",
+     "explain": "Eight cars share the total, giving the average.",
+     "compute": "average = total / 8"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Eight car prices sum to 4608733. What does AVG(Price) return?",
+     "a": "576091.625"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.4",
+   "title": "Cartesian Product of Two Relations",
+   "section": "9.10.4 and Table 9.23",
+   "definition": "The cartesian product pairs every tuple of one relation with every tuple of another; the result's degree adds the two degrees and its cardinality multiplies the two cardinalities, regardless of matching values.",
+   "formula": "new_cardinality = card1 * card2",
+   "key_idea": "DANCE (degree 3, cardinality 4) crossed with MUSIC (degree 3, cardinality 5) yields degree 6 and cardinality 20.",
+   "textbook_ref": "lecs109.txt, section 9.10.4, Table 9.23 and Example 9.24",
+   "question_patterns": [
+    "DANCE has degree 3 and cardinality 4, MUSIC has degree 3 and cardinality 5. Give the degree and cardinality of DANCE X MUSIC.",
+    "Write the query that displays all possible combinations of tuples of DANCE and MUSIC.",
+    "How is a cartesian product different from a JOIN?",
+    "Why can UNION, INTERSECT and MINUS be applied only when two relations share the same number of attributes with matching domains?",
+    "A relation of 5 tuples crosses one of 7 tuples. How many rows result?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the degrees",
+     "explain": "Columns of both tables line up side by side.",
+     "compute": "new_degree = deg1 + deg2"
+    },
+    {
+     "step": 2,
+     "action": "multiply the cardinalities",
+     "explain": "Every row of the first pairs with every row of the second.",
+     "compute": "new_cardinality = card1 * card2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "DANCE has 4 tuples and MUSIC has 5. How many rows does their cartesian product hold?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.5",
+   "title": "SELECT Statement with WHERE Clause",
+   "section": "9.6 and Examples 9.4 to 9.8",
+   "definition": "SELECT lists the wanted columns, FROM names the table, and WHERE filters rows with relational operators, AND/OR/NOT logic, BETWEEN for inclusive ranges and IN for membership in a list, while DISTINCT removes duplicate output values.",
+   "formula": "SELECT columns FROM table WHERE condition",
+   "key_idea": "WHERE Salary BETWEEN 20000 AND 50000 keeps both boundary values, matching the AND of the two comparisons.",
+   "textbook_ref": "lecs109.txt, sections 9.6.1, 9.6.2(A)-(E)",
+   "question_patterns": [
+    "Write a query showing names and departments of employees earning between 20000 and 50000 inclusive.",
+    "Rewrite the three-way OR condition on DeptId D01, D02 and D04 using the IN operator.",
+    "Which clause removes duplicate DeptId values from the output?",
+    "Display details of D04 employees earning more than 5000 using a logical operator.",
+    "What is the difference between the statements ALTER and UPDATE, and DELETE and DROP?",
+    "Why are string values like 'D01' enclosed in quotes inside a WHERE clause?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "filter rows by the condition",
+     "explain": "Each row of the named table is tested against the WHERE condition; only rows satisfying it are projected onto the selected columns."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which clause filters rows in a SELECT statement?",
+     "a": "WHERE"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.6",
+   "title": "LIKE Operator and Wildcard Patterns",
+   "section": "9.6.2(H) and Examples 9.13 to 9.17",
+   "definition": "The LIKE operator matches partial text using two wildcards: % stands for zero or more characters and _ stands for exactly one, so 'K%' catches names starting with K while '_a%' catches names with a as the second letter.",
+   "formula": "Ename LIKE '_ANYA' -> Sanya and Tanya",
+   "key_idea": "An exact-match = cannot find name fragments, which is why pattern matching needs LIKE.",
+   "textbook_ref": "lecs109.txt, section 9.6.2(H)",
+   "question_patterns": [
+    "Which query lists employees whose names start with the letter K?",
+    "Write a pattern that finds names of exactly five letters ending in ANYA.",
+    "Which wildcard represents a single character and which represents many?",
+    "Find employees whose names contain se as a substring using LIKE.",
+    "Display customers whose email contains yahoo using a pattern match.",
+    "What is the difference between the wildcards % and _ in the LIKE operator?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "translate the pattern",
+     "explain": "Replace % by any run of characters and _ by exactly one character, then compare the pattern against each column value."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which LIKE wildcard stands for zero or more characters?",
+     "a": "%"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.7",
+   "title": "GROUP BY with the HAVING Clause",
+   "section": "9.9 and Example 9.23",
+   "definition": "GROUP BY collects rows sharing one column value into groups so aggregate functions run per group, and HAVING filters those groups afterwards, for example keeping only customers who bought more than one car.",
+   "formula": "GROUP BY CustID HAVING COUNT(*) > 1",
+   "key_idea": "Grouping SALE by CustID reports C0001 and C0002 with 2 cars each, while C0003 and C0004 show 1.",
+   "textbook_ref": "lecs109.txt, section 9.9 and Example 9.23",
+   "question_patterns": [
+    "Display the number of cars purchased by each customer from the SALE table.",
+    "Which clause filters groups, and which clause filters individual rows?",
+    "Write a query that counts payments per PaymentMode and shows only modes used more than once.",
+    "List the total number of cars sold by each employee of the showroom.",
+    "Why can an aggregate function in the select clause appear only with grouped or whole-table queries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "partition then aggregate then filter",
+     "explain": "Rows split into groups by the GROUP BY column, each group yields one aggregate value, and HAVING keeps only the groups that satisfy its condition."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which clause collects rows sharing one column value before aggregates run?",
+     "a": "GROUP BY"
+    }
+   ]
+  },
+  {
+   "id": "lecs109.8",
+   "title": "JOIN and NATURAL JOIN on Two Tables",
+   "section": "9.11 and Example 9.25",
+   "definition": "A JOIN combines tuples of two tables on a condition, usually equality between a primary key and the matching foreign key; NATURAL JOIN does the same on the common attribute while dropping the duplicate column, and N tables need N minus 1 joins.",
+   "formula": "UNIFORM JOIN COST ON U.UCode = C.UCode",
+   "key_idea": "Joining UNIFORM with COST on UCode matches each Shirt and Pant row with its L and M prices, and NATURAL JOIN shows UCode once.",
+   "textbook_ref": "lecs109.txt, sections 9.11.1, 9.11.2 and Tables 9.25-9.27",
+   "question_patterns": [
+    "Write three ways to list UCode, UName, UColor, Size and Price from UNIFORM and COST together.",
+    "Why does a NATURAL JOIN not repeat the UCode column while a plain JOIN does?",
+    "How many joins combine four tables on equality conditions?",
+    "What is a table alias and why is it needed when both tables contain UCode?",
+    "Combine DANCE and MUSIC so that only rows with equal names survive.",
+    "Which key usually meets which key in the ON condition of a join?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair rows on the common attribute",
+     "explain": "Each row of the first table is matched with rows of the second wherever the join condition holds; NATURAL JOIN additionally removes the repeated common column."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four tables are linked by joins. How many joins are needed?",
+     "a": "3"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs109.we1",
+   "title": "FinalPrice of the Dzire D001",
+   "concept_id": "lecs109.2",
+   "problem": "The INVENTORY lists D001 Dzire at 582613.00. Compute its GST at 12 percent and the FinalPrice that the UPDATE statement stores.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "compute the GST",
+     "explain": "Twelve percent of the price.",
+     "compute": "gst = 582613 * 12 / 100"
+    },
+    {
+     "step": 2,
+     "action": "add to the price",
+     "explain": "FinalPrice is price plus GST.",
+     "compute": "final_price = 582613 + gst"
+    }
+   ],
+   "answer_note": "The GST is 69913.56, so the stored FinalPrice is 652526.56, shown as 652526.6 in the one-decimal column."
+  },
+  {
+   "id": "lecs109.we2",
+   "title": "Size of DANCE X MUSIC",
+   "concept_id": "lecs109.4",
+   "problem": "DANCE has degree 3 and cardinality 4; MUSIC has degree 3 and cardinality 5. Compute the degree and cardinality of their cartesian product.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "add the degrees",
+     "explain": "3 plus 3 columns side by side.",
+     "compute": "new_degree = 3 + 3"
+    },
+    {
+     "step": 2,
+     "action": "multiply the cardinalities",
+     "explain": "4 rows times 5 rows.",
+     "compute": "new_cardinality = 4 * 5"
+    }
+   ],
+   "answer_note": "The cartesian product has degree 6 and cardinality 20, exactly as Table 9.23 shows."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs109.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 9 Exercise (items reworded)",
+   "questions": [
+    "Define RDBMS, name two RDBMS software, and state the purpose of ORDER BY and GROUP BY clauses.",
+    "Give the output of SELECT POW(2, 3) and SELECT ROUND(342.9234, -1).",
+    "For the MOVIE table, list MovieID, MovieName and Total_Earning where Total_Earning is ProductionCost plus BusinessCost.",
+    "For the MOVIE table, compute NetProfit as BusinessCost minus ProductionCost for each movie.",
+    "Display MatchID of matches where both teams scored more than 70, using the sports database.",
+    "Write a query to increase the price by 12 percent for all products manufactured by Dove in the Product table.",
+    "Display the total number of products per manufacturer, and the average UPrice per product name, from the Product table.",
+    "Using CARSHOWROOM, add a Discount column, then set no discount for LXI, 10 percent for VXI and 12 percent for the rest."
+   ]
+  }
+ ]
+}

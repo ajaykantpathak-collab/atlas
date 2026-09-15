@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_014",
+   "title": "c12_hin_ar_cbse_14_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for **Point, Evidence, Explanation, Link**. A wrong answer (e.g., \"Plot, Event, Explanation, Lesson\") reveals the student confuses structural frameworks with narrative elements. This misconception leads to answers that retell the story instead of arguing a point. The student must memorize PEEL as the scaffold for *analytical* writing, not summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: *\"फकीर का क्वार्टर बहुत गंदा और टूटा-फूटा था, इससे पता चलता है कि लेखक गरीब था।\"* Why is this answer insufficient for a 5-mark board question?",
+     "a": "The answer only **describes** a surface detail (dirty, broken quarter) and makes a **literal inference** (writer was poor) without analyzing *how* the description functions as **symbolism** for the writer’s marginalization or *why* the author chooses decay imagery. A 5-mark answer must explain the **literary purpose** — e.g., \"The imagery of 'टूटी खिड़कियाँ' and 'सीलन भरी दीवारें' symbolizes the crumbling support systems for genuine literature in a market-driven society.\" The student’s error: treating textual detail as fact, not as crafted artistic choice.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a PEEL-structured paragraph for a 3-mark question: *\"लेखक ने व्यंग्य का प्रयोग किया है जब वह कहता है कि फकीर को कोई नहीं पूछता।\"* (Target: 50 words)",
+     "a": "**Strong PEEL version:**  \n**Point:** मुक्तिबोध व्यंग्य के माध्यम से साहित्यकार की उपेक्षा को उजागर करते हैं।  \n**Evidence:** फकीर कहता है — *\"कोई नहीं पूछता मेरा हाल\"* — जबकि समाज दिखावटी साधुओं का स्वागत करता है।  \n**Explanation:** यह स्थितिजन्य व्यंग्य (situational irony) वास्तविक सृजनशीलता और लोकप्रिय छद्म के बीच के विरोधाभास को तीखा करता है।  \n**Link:** इस प्रकार, व्यंग्य केवल हास्य नहीं, बल्कि सामाजिक विद्रूप पर प्रहार है।  \n**Why the original fails:** It identifies the device (satire) but gives no evidence, no analysis of *how* it works, and no link to theme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of **imagery** in the description of the fakir’s quarter (stanza/paragraph 1) with the **irony** in the fakir’s dialogue about \"सच्चे साधु\" (later in the text). How do both devices serve the *same* central theme?",
+     "a": "**Imagery** (visual, olfactory: \"सड़ांध\", \"अंधेरा\", \"चूती छत\") creates a **visceral sensory experience** of neglect — making the reader *feel* the physical decay that mirrors the writer’s invisible erosion. **Irony** (the fakir, a true ascetic, is ignored while fake sadhus are feted) exposes the **intellectual contradiction** in societal values. **Together:** Imagery works on the *emotional/somatic* level; irony works on the *cognitive/ethical* level. Both converge on the theme: **authentic creativity is systematically displaced by performative religiosity/literature**. A weak answer treats them as separate devices; a strong answer shows their *complementary* thematic labor.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: *\"फकीर के क्वार्टर में लेखक केवल अपनी व्यक्तिगत व्यथा व्यक्त करते हैं, सामाजिक आलोचना नहीं।\"* Defend or refute using two textual anchors.",
+     "a": "**Refute.** The text transcends personal lament through:  \n1. **Collective symbol:** The quarter is not just *his* home — it represents *\"हर उस रचनाकार का ठिकाना जिसे समाज ने हाशिये पर धकेल दिया\"* (generalized via plural references like \"हमारे जैसे\").  \n2. **Systemic critique:** The fakir’s observation — *\"जो जितना बड़ा ढोंगी, उतना बड़ा महात्मा\"* — targets a **structural inversion of values**, not individual misfortune.  \n**Judgment:** The personal is the *entry point*; the social is the *destination*. A student who agrees with the claim reads autobiographically, missing मुक्तिबोध’s Marxist-inflected lens where individual alienation reflects class/ideological structures.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 60-word creative continuation: The fakir receives a letter from a publishing house offering a contract — but with a clause: *\"Remove all references to social injustice.\"* Draft his reply in his voice, using one metaphor from the chapter.",
+     "a": "**Sample reply:**  \n*\"प्रकाशक महोदय, आपकी शर्त पढ़कर मेरी 'चूती छत' फिर टपकने लगी। जो दीवारें सीलन से गल रही हैं, उन्हें आप सफेदी से ढकना चाहते हैं? मेरा क्वार्टर ही मेरी रचना है — उसे 'सुंदर' बनाने के लिए उसकी सच्चाई उखाड़ दूँ, तो फकीर नहीं, मदारी बन जाऊँगा। अस्वीकार।\"*  \n**Criteria for success:** Uses the \"चूती छत/सीलन\" metaphor, maintains fakir’s voice (defiant, metaphorical), engages the ethical dilemma. A poor answer writes a formal business letter — missing the *creative* and *thematic* demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

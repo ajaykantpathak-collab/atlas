@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_005",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_005",
+   "title": "c7_bio_ch03_005",
+   "questions": [
+    {
+     "q": "What is the primary function of chlorophyll in plant leaves during photosynthesis?",
+     "a": "Chlorophyll absorbs light energy from the sun to power the food-making process. A student who answers that chlorophyll makes the plant grow taller without mentioning light capture is confusing overall plant development with the specific energy-trapping function of the pigment.",
+     "self_check": true
+    },
+    {
+     "q": "Why do variegated leaves (leaves with green and white patches) only produce starch in the green regions when exposed to sunlight?",
+     "a": "Starch is only produced in green regions because those areas contain chlorophyll, which is strictly required to trap the sunlight needed for photosynthesis. An incorrect answer stating that white patches can also make food reveals a misunderstanding that sunlight alone is sufficient without the light-absorbing pigment.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener covers half of a healthy green hibiscus leaf with opaque black paper for two days while leaving the rest exposed to sunlight. When tested with iodine, the covered part shows no starch, while the exposed part turns blue-black. What does this prove about chlorophyll and light?",
+     "a": "Steps: 1. Identify that the black paper blocks light from reaching the covered half. 2. Recognize that the covered half received chlorophyll and carbon dioxide, but lacked light energy. 3. Deduce that light energy is an indispensable partner to chlorophyll for photosynthesis to occur. 4. Conclude that without light being absorbed by chlorophyll, starch synthesis stops. A wrong answer claiming that chlorophyll alone is enough even in total darkness shows a failure to recognize that chlorophyll only functions when light energy is present to be absorbed.",
+     "self_check": true
+    },
+    {
+     "q": "If a plant is placed under a green-colored glass shade that only allows green light to pass through, why does its rate of photosynthesis drop significantly compared to white sunlight?",
+     "a": "Chlorophyll absorbs red and blue light efficiently but reflects green light, which is why leaves appear green to our eyes. Under only green light, chlorophyll cannot absorb the necessary energy wavelengths, causing photosynthesis to slow down. A student who thinks green light is best because the leaf is green is missing the optical principle that pigments absorb colors complementary to what they reflect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since chlorophyll is green, plants can perform photosynthesis equally well under any artificial colored bulb—red, blue, or green.\" Is this correct, and why?",
+     "a": "The claim is false because chlorophyll absorbs red and blue wavelengths strongly, making red and blue bulbs effective for photosynthesis, while green bulbs emit light that chlorophyll mostly reflects rather than absorbs. A student who accepts the claim as true fails to understand that pigment absorption is wavelength-specific rather than uniform across all visible colors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, quick classroom test to prove that green pigment is necessary for starch production in a variegated croton leaf.",
+     "a": "A good answer proposes taking a destarched variegated leaf, exposing it to sunlight for a few hours, decolorizing it in boiling alcohol, washing it, and adding iodine solution. The expected observation is that only the areas that were originally green turn blue-black, while the white margins remain yellowish-brown. A poor answer fails to include the decolorization step with alcohol or lacks a control comparison between green and non-green patches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

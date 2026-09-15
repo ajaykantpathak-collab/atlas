@@ -1,0 +1,1029 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Geographical Diversity of India",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees101.txt",
+ "concepts": [
+  {
+   "id": "c7ss.1.1",
+   "title": "Location and Extent of India",
+   "section": "Location and Extent",
+   "definition": "India lies entirely in the Northern Hemisphere, extending roughly from 8°4'N to 37°6'N latitude and 68°7'E to 97°25'E longitude, covering about 3.28 million square kilometres.",
+   "formula": "",
+   "key_idea": "India's latitudinal and longitudinal extent determines its position in South Asia and its size relative to other countries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the latitudinal and longitudinal extent of India.",
+    "Calculate the total north-south extent of India in degrees.",
+    "Identify the southernmost and northernmost points of India.",
+    "Explain why India's location is considered strategically important.",
+    "Compare the area of India with that of another country."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given latitudes",
+     "explain": "Note the southernmost latitude (8°4'N) and northernmost latitude (37°6'N) of India.",
+     "compute": "lat_south = 8 + 4/60"
+    },
+    {
+     "step": 2,
+     "action": "Identify the given latitudes",
+     "explain": "Note the southernmost latitude (8°4'N) and northernmost latitude (37°6'N) of India.",
+     "compute": "lat_north = 37 + 6/60"
+    },
+    {
+     "step": 3,
+     "action": "Compute the latitudinal extent",
+     "explain": "Subtract the southern latitude from the northern latitude to find the total north-south extent.",
+     "compute": "extent = lat_north - lat_south"
+    },
+    {
+     "step": 4,
+     "action": "Interpret the result",
+     "explain": "Express the computed extent in degrees and minutes and relate it to the physical size of the country."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the north-south latitudinal extent of India from 8°4'N to 37°6'N.",
+     "solution": "Southern latitude = 8°4'N = 8.067°; Northern latitude = 37°6'N = 37.1°. Extent = 37.1 - 8.067 = 29.033°.",
+     "answer": "Approximately 29° (about 29°3' or 3,214 km)."
+    },
+    {
+     "question": "India covers an area of 3.28 million sq km. If the total land area of the world is about 148.9 million sq km, what percentage of the world's area does India occupy?",
+     "solution": "Percentage = (3.28 / 148.9) x 100 = 2.20%.",
+     "answer": "About 2.2% of the world's total land area."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the latitudinal and longitudinal extent of India.",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the east-west longitudinal extent of India from 68°7'E to 97°25'E.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the significance of India's location with respect to trade routes.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.2",
+   "title": "The Himalayan Mountains and Major Peaks",
+   "section": "Physical Divisions - The Himalayas and Mountain Ranges",
+   "definition": "The Himalayas are the young fold mountains in the north of India, divided into three parallel ranges - the Himadri (Greater Himalayas), the Himachal (Lesser Himalayas) and the Shivaliks (Outer Himalayas) - and contain major peaks such as Mount Everest (8,848 m) and Kanchenjunga (8,586 m); other ranges include the Karakoram, Aravallis, Vindhyas, Satpuras and the Eastern and Western Ghats.",
+   "formula": "",
+   "key_idea": "The Himalayas and other mountain ranges act as natural barriers, influence climate and drainage, and are the source of major perennial rivers; their peaks form natural boundaries between regions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the three parallel ranges of the Himalayas.",
+    "Identify the highest peaks of the Himalayas and their heights.",
+    "Name the other major mountain ranges of India.",
+    "Explain how the Himalayas influence the climate of India.",
+    "Discuss the role of the Himalayas as a natural barrier."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the three Himalayan ranges",
+     "explain": "List the Himadri, Himachal and Shivalik ranges and their relative heights and locations."
+    },
+    {
+     "step": 2,
+     "action": "Verify the properties of each range",
+     "explain": "Check that the Himadri is the highest and most continuous, the Himachal is middle in height, and the Shivaliks are the lowest and outermost."
+    },
+    {
+     "step": 3,
+     "action": "Relate the ranges to their influence",
+     "explain": "Confirm that these ranges block cold winds and cause orographic rainfall, influencing India's climate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which is the highest and most continuous range of the Himalayas?",
+     "solution": "The Himadri (Greater Himalayas) is the northernmost, highest and most continuous range, containing peaks like Mount Everest and Kanchenjunga.",
+     "answer": "The Himadri (Greater Himalayas)."
+    },
+    {
+     "question": "How do the Himalayas act as a natural barrier?",
+     "solution": "The Himalayas block the cold polar winds from the north from entering India and also prevent the moisture-laden monsoon winds from escaping, keeping the subcontinent warmer and wetter than regions at similar latitudes.",
+     "answer": "They block cold winds and trap monsoon moisture."
+    },
+    {
+     "question": "Mount Everest is 8,848 m high and Kanchenjunga is 8,586 m high. What is the difference in their heights?",
+     "solution": "Difference = 8,848 - 8,586 = 262 m.",
+     "answer": "The difference is 262 m."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the three parallel ranges of the Himalayas from north to south.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why the Himalayas are called young fold mountains.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If Mount Everest is 8,848 m and K2 is 8,611 m, calculate the difference in their heights.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.3",
+   "title": "The Northern Plains",
+   "section": "Physical Divisions - The Northern Plains",
+   "definition": "The Northern Plains are a vast fertile plain formed by the alluvial deposits of the Indus, Ganga and Brahmaputra river systems, lying between the Himalayas and the Peninsular Plateau.",
+   "formula": "",
+   "key_idea": "The alluvial soil and flat terrain of the Northern Plains make them highly suitable for agriculture and dense human settlement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the major river systems that form the Northern Plains.",
+    "Explain how the Northern Plains were formed.",
+    "Describe the types of alluvial soils found in the plains.",
+    "Discuss the agricultural importance of the Northern Plains.",
+    "Identify the sub-divisions of the Northern Plains."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the river systems",
+     "explain": "Note the Indus, Ganga and Brahmaputra river systems and their approximate basin areas."
+    },
+    {
+     "step": 2,
+     "action": "Estimate the total plain area",
+     "explain": "Sum the approximate areas covered by the three river plains to estimate the total Northern Plains area."
+    },
+    {
+     "step": 3,
+     "action": "Relate area to agricultural output",
+     "explain": "Compute the proportion of India's total area occupied by the Northern Plains.",
+     "compute": "proportion = total_area / 3.28e6"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Ganga plain covers about 0.86 million sq km, the Indus plain about 0.32 million sq km and the Brahmaputra plain about 0.12 million sq km, what is the total area of the Northern Plains?",
+     "solution": "Total = 0.86 + 0.32 + 0.12 = 1.30 million sq km.",
+     "answer": "Approximately 1.30 million sq km."
+    },
+    {
+     "question": "The Northern Plains cover about 1.30 million sq km of India's 3.28 million sq km area. What percentage of India's area do they cover?",
+     "solution": "Percentage = (1.30 / 3.28) x 100 = 39.63%.",
+     "answer": "About 39.6% of India's total area."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the three river systems that form the Northern Plains.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain the process of alluvial deposition in the Northern Plains.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the Ganga plain covers 0.86 million sq km out of a total Northern Plains area of 1.30 million sq km, calculate the percentage covered by the Ganga plain.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.4",
+   "title": "The Peninsular Plateau",
+   "section": "Physical Divisions - The Peninsular Plateau",
+   "definition": "The Peninsular Plateau is the oldest and most stable landmass of India, a tableland composed of old crystalline and igneous rocks, divided into the Central Highlands and the Deccan Plateau.",
+   "formula": "",
+   "key_idea": "The Peninsular Plateau is rich in minerals and has a varied relief that influences river drainage and vegetation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the two main divisions of the Peninsular Plateau.",
+    "Describe the characteristics of the Deccan Plateau.",
+    "Identify the hill ranges surrounding the Peninsular Plateau.",
+    "Explain why the plateau is rich in minerals.",
+    "Compare the Peninsular Plateau with the Northern Plains."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the divisions of the plateau",
+     "explain": "Identify the Central Highlands (north of the Narmada) and the Deccan Plateau (south of the Narmada)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the geological properties",
+     "explain": "Confirm that the plateau is made of old, hard crystalline and igneous rocks, making it stable and mineral-rich."
+    },
+    {
+     "step": 3,
+     "action": "Relate properties to drainage",
+     "explain": "Check that the plateau's gentle slopes cause rivers to flow slowly and that it forms a watershed between east-flowing and west-flowing rivers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two main divisions of the Peninsular Plateau?",
+     "solution": "The Peninsular Plateau is divided into the Central Highlands to the north of the Narmada River and the Deccan Plateau to the south of the Narmada River.",
+     "answer": "The Central Highlands and the Deccan Plateau."
+    },
+    {
+     "question": "Why is the Peninsular Plateau considered the oldest landmass of India?",
+     "solution": "It is composed of very old, hard crystalline and igneous rocks that were formed millions of years ago and have remained stable, unlike the young fold mountains of the Himalayas.",
+     "answer": "Because it is made of ancient, stable crystalline rocks."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the two divisions of the Peninsular Plateau.",
+     "type": "recall"
+    },
+    {
+     "question": "List three minerals commonly found in the Peninsular Plateau.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain how the Peninsular Plateau acts as a watershed.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.5",
+   "title": "The Coastal Plains",
+   "section": "Physical Divisions - The Coastal Plains",
+   "definition": "The Coastal Plains are narrow strips of land along the eastern and western shores of India, divided into the Eastern Coastal Plain and the Western Coastal Plain.",
+   "formula": "",
+   "key_idea": "The coastal plains support fishing, agriculture and trade, and feature important deltas and lagoons.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between the Eastern and Western Coastal Plains.",
+    "Name the important deltas on the Eastern Coastal Plain.",
+    "Identify the backwaters and lagoons of the Western Coastal Plain.",
+    "Describe the economic activities of the coastal plains.",
+    "Explain the formation of deltas on the east coast."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coastal lengths",
+     "explain": "Note the approximate lengths of the eastern and western coastlines of India.",
+     "compute": "east_len = 1300"
+    },
+    {
+     "step": 2,
+     "action": "Identify the coastal lengths",
+     "explain": "Note the approximate lengths of the eastern and western coastlines of India.",
+     "compute": "west_len = 1100"
+    },
+    {
+     "step": 3,
+     "action": "Compute total coastline",
+     "explain": "Add the eastern and western coastal lengths to find the total coastline of mainland India.",
+     "compute": "total = east_len + west_len"
+    },
+    {
+     "step": 4,
+     "action": "Compare the two coasts",
+     "explain": "Compute the difference between the eastern and western coastal lengths.",
+     "compute": "diff = east_len - west_len"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Eastern Coastal Plain is about 1,300 km long and the Western Coastal Plain is about 1,100 km long, what is the total length of India's coastal plains?",
+     "solution": "Total = 1,300 + 1,100 = 2,400 km.",
+     "answer": "Approximately 2,400 km."
+    },
+    {
+     "question": "Using the lengths above, how much longer is the Eastern Coastal Plain than the Western Coastal Plain?",
+     "solution": "Difference = 1,300 - 1,100 = 200 km.",
+     "answer": "The Eastern Coastal Plain is 200 km longer."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the two coastal plains of India.",
+     "type": "recall"
+    },
+    {
+     "question": "State two differences between the Eastern and Western Coastal Plains.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the eastern coast is 1,300 km and the western coast is 1,100 km, calculate the ratio of the eastern coast to the western coast.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.6",
+   "title": "The Indian Desert",
+   "section": "Physical Divisions - The Desert",
+   "definition": "The Indian Desert, also called the Thar Desert, is a dry, sandy and rocky region in western Rajasthan, characterised by very low rainfall and extreme temperature variation.",
+   "formula": "",
+   "key_idea": "The Thar Desert's arid climate results from the monsoon winds losing moisture before reaching western Rajasthan.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Locate the Thar Desert on the map of India.",
+    "Describe the climate of the Indian Desert.",
+    "Explain the causes of aridity in the Thar region.",
+    "Identify the vegetation of the desert region.",
+    "Discuss the lifestyle of people in the desert region."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the location and extent",
+     "explain": "Identify the Thar Desert in western Rajasthan and its extent into Pakistan."
+    },
+    {
+     "step": 2,
+     "action": "Verify the climatic properties",
+     "explain": "Confirm that the region receives less than 25 cm of rainfall annually and has extreme day-night temperature differences."
+    },
+    {
+     "step": 3,
+     "action": "Relate climate to vegetation and life",
+     "explain": "Check that the arid climate supports only thorny scrub vegetation and that people adapt through cattle rearing and water conservation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the Thar Desert receive very little rainfall?",
+     "solution": "The Aravalli range runs parallel to the monsoon winds, so it does not block them; by the time the monsoon winds reach western Rajasthan they have lost most of their moisture.",
+     "answer": "Because the monsoon winds lose moisture before reaching the region."
+    },
+    {
+     "question": "What type of vegetation is found in the Thar Desert?",
+     "solution": "The desert has thorny bushes, cacti and scattered acacia trees that can survive long dry periods with deep roots and reduced leaf surface.",
+     "answer": "Thorny scrub and cactus-type vegetation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Where is the Thar Desert located?",
+     "type": "recall"
+    },
+    {
+     "question": "Explain two reasons for the aridity of the Thar Desert.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how people in the desert region adapt to the harsh climate.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.7",
+   "title": "The Islands",
+   "section": "Physical Divisions - The Islands",
+   "definition": "India has two groups of islands: the Lakshadweep Islands in the Arabian Sea (coral islands) and the Andaman and Nicobar Islands in the Bay of Bengal (volcanic and mountainous islands).",
+   "formula": "",
+   "key_idea": "The islands differ in origin and location, supporting unique ecosystems and biodiversity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the two island groups of India.",
+    "Distinguish between the Lakshadweep and Andaman & Nicobar Islands.",
+    "Explain the coral origin of the Lakshadweep Islands.",
+    "Describe the location of the Andaman and Nicobar Islands.",
+    "Discuss the economic and strategic importance of the islands."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the island counts",
+     "explain": "Note the approximate number of islands in each group: Lakshadweep has about 36 islands and Andaman & Nicobar has about 572 islands.",
+     "compute": "lakshadweep = 36"
+    },
+    {
+     "step": 2,
+     "action": "Identify the island counts",
+     "explain": "Note the approximate number of islands in each group: Lakshadweep has about 36 islands and Andaman & Nicobar has about 572 islands.",
+     "compute": "andaman = 572"
+    },
+    {
+     "step": 3,
+     "action": "Compute the total number of islands",
+     "explain": "Add the two counts to find the total number of Indian islands.",
+     "compute": "total = lakshadweep + andaman"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio",
+     "explain": "Find how many times more numerous the Andaman & Nicobar islands are compared to Lakshadweep.",
+     "compute": "ratio = andaman / lakshadweep"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Lakshadweep group has 36 islands and the Andaman and Nicobar group has 572 islands, what is the total number of islands?",
+     "solution": "Total = 36 + 572 = 608 islands.",
+     "answer": "608 islands."
+    },
+    {
+     "question": "Using the counts above, how many times larger is the Andaman and Nicobar group compared to the Lakshadweep group?",
+     "solution": "Ratio = 572 / 36 = 15.89.",
+     "answer": "Approximately 16 times larger."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the two island groups of India and their locations.",
+     "type": "recall"
+    },
+    {
+     "question": "State two differences between the Lakshadweep and the Andaman & Nicobar Islands.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If Lakshadweep has 36 islands and Andaman & Nicobar has 572, calculate the total number of islands.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.8",
+   "title": "Rivers of India",
+   "section": "Rivers of India",
+   "definition": "Indian rivers are classified into Himalayan rivers (perennial, fed by snow and rainfall) and Peninsular rivers (seasonal, rain-fed), which form fertile valleys and support agriculture.",
+   "formula": "",
+   "key_idea": "Himalayan rivers are perennial and form large deltas, while Peninsular rivers are seasonal and flow in rift valleys.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between Himalayan and Peninsular rivers.",
+    "Name the major Himalayan rivers.",
+    "Name the major Peninsular rivers.",
+    "Explain why Himalayan rivers are perennial.",
+    "Describe the deltas formed by major Indian rivers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the river lengths",
+     "explain": "Note the approximate lengths of major rivers: Ganga about 2,525 km, Godavari about 1,465 km.",
+     "compute": "ganga = 2525"
+    },
+    {
+     "step": 2,
+     "action": "Identify the river lengths",
+     "explain": "Note the approximate lengths of major rivers: Ganga about 2,525 km, Godavari about 1,465 km.",
+     "compute": "godavari = 1465"
+    },
+    {
+     "step": 3,
+     "action": "Compute the length difference",
+     "explain": "Subtract the Peninsular river length from the Himalayan river length.",
+     "compute": "diff = ganga - godavari"
+    },
+    {
+     "step": 4,
+     "action": "Compute the ratio",
+     "explain": "Find how many times longer the Himalayan river is compared to the Peninsular river.",
+     "compute": "ratio = ganga / godavari"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The Ganga is about 2,525 km long and the Godavari is about 1,465 km long. How much longer is the Ganga than the Godavari?",
+     "solution": "Difference = 2,525 - 1,465 = 1,060 km.",
+     "answer": "The Ganga is 1,060 km longer."
+    },
+    {
+     "question": "Using the lengths above, what is the ratio of the length of the Ganga to the Godavari?",
+     "solution": "Ratio = 2,525 / 1,465 = 1.72.",
+     "answer": "The Ganga is about 1.72 times as long as the Godavari."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three differences between Himalayan and Peninsular rivers.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the major Himalayan rivers.",
+     "type": "recall"
+    },
+    {
+     "question": "If the Ganga is 2,525 km and the Godavari is 1,465 km, calculate the total combined length.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.9",
+   "title": "Climate Variation Across Regions",
+   "section": "Climate Variation",
+   "definition": "India experiences a wide range of climates due to its vast size and varied relief, from the tropical climate of the south to the temperate and cold climate of the north and the arid climate of the desert.",
+   "formula": "",
+   "key_idea": "Latitude, altitude and distance from the sea together determine the regional climate variation across India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the factors affecting climate in India.",
+    "Describe the climate of the northern mountains.",
+    "Describe the climate of the coastal regions.",
+    "Compare the climate of the desert and the plains.",
+    "Discuss the effect of altitude on temperature."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the temperature data",
+     "explain": "Note the average temperatures of two regions, e.g. Chennai (coastal, about 28°C) and Delhi (inland, about 33°C) in summer.",
+     "compute": "t_coast = 28"
+    },
+    {
+     "step": 2,
+     "action": "Identify the temperature data",
+     "explain": "Note the average temperatures of two regions, e.g. Chennai (coastal, about 28°C) and Delhi (inland, about 33°C) in summer.",
+     "compute": "t_inland = 33"
+    },
+    {
+     "step": 3,
+     "action": "Compute the temperature difference",
+     "explain": "Subtract the coastal temperature from the inland temperature.",
+     "compute": "diff = t_inland - t_coast"
+    },
+    {
+     "step": 4,
+     "action": "Relate to distance from sea",
+     "explain": "Express the difference as a percentage of the coastal temperature to show the moderating effect of the sea.",
+     "compute": "pct = (diff / t_coast) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In summer, the average temperature of Delhi is about 33°C and that of Chennai is about 28°C. What is the difference in temperature?",
+     "solution": "Difference = 33 - 28 = 5°C.",
+     "answer": "The difference is 5°C."
+    },
+    {
+     "question": "Using the temperatures above, what percentage higher is Delhi's temperature compared to Chennai's?",
+     "solution": "Percentage = (5 / 28) x 100 = 17.86%.",
+     "answer": "Delhi's temperature is about 17.9% higher."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the three main factors that affect the climate of a region.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain how altitude affects the temperature of a place.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If a coastal city has an average temperature of 28°C and an inland city has 35°C, calculate the temperature difference as a percentage of the coastal city's temperature.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.1.10",
+   "title": "Natural Vegetation and Wildlife",
+   "section": "Natural Vegetation and Wildlife",
+   "definition": "Natural vegetation refers to plants that grow naturally without human aid; India has diverse vegetation types - tropical evergreen, tropical deciduous, thorn forests, mountain forests and mangrove forests - supporting rich wildlife.",
+   "formula": "",
+   "key_idea": "The type of natural vegetation in a region is determined by temperature, rainfall and soil, and it in turn supports the wildlife of that region.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the major types of natural vegetation in India.",
+    "Explain the conditions for tropical evergreen forests.",
+    "Describe the wildlife found in deciduous forests.",
+    "Identify the mangrove forests and their location.",
+    "Discuss the need for wildlife conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the vegetation types",
+     "explain": "List the five major vegetation types: tropical evergreen, tropical deciduous, thorn, mountain and mangrove forests."
+    },
+    {
+     "step": 2,
+     "action": "Verify the climatic conditions",
+     "explain": "Confirm that each vegetation type matches its rainfall and temperature requirements (e.g. evergreen needs >200 cm rain)."
+    },
+    {
+     "step": 3,
+     "action": "Relate vegetation to wildlife",
+     "explain": "Check that each vegetation type supports characteristic wildlife, e.g. mangroves host the Royal Bengal tiger."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which type of natural vegetation is found in regions with more than 200 cm of rainfall?",
+     "solution": "Tropical evergreen forests are found in regions receiving more than 200 cm of rainfall, with trees that do not shed their leaves simultaneously.",
+     "answer": "Tropical evergreen forests."
+    },
+    {
+     "question": "Where are the mangrove forests found in India and which animal is unique to them?",
+     "solution": "Mangrove forests are found in the deltas of the Ganga, Mahanadi and Godavari rivers (Sundarbans), and the Royal Bengal tiger is unique to this region.",
+     "answer": "In the Sundarbans; the Royal Bengal tiger."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the five major types of natural vegetation in India.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why tropical deciduous forests are also called monsoon forests.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two reasons why wildlife conservation is important.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c7ss.1.1.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the extent step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute lat south",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lat_south = 8 + 4/60"
+    },
+    {
+     "step": 2,
+     "action": "compute lat north",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lat_north = 37 + 6/60"
+    },
+    {
+     "step": 3,
+     "action": "compute extent",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "extent = lat_north - lat_south"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.1.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the extent step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute lat south",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lat_south = 8 + 4/60"
+    },
+    {
+     "step": 2,
+     "action": "compute lat north",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lat_north = 37 + 6/60"
+    },
+    {
+     "step": 3,
+     "action": "compute extent",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "extent = lat_north - lat_south"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.3.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the proportion step by step for a case with {total_area}, {e6}.",
+   "extracted_variables": {
+    "total_area": "total area (given value)",
+    "e6": "e6 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute proportion",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "proportion = total_area / 3.28e6"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.3.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the proportion step by step for a case with {total_area}, {e6}.",
+   "extracted_variables": {
+    "total_area": "total area (given value)",
+    "e6": "e6 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute proportion",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "proportion = total_area / 3.28e6"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.5.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the diff step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute east len",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "east_len = 1300"
+    },
+    {
+     "step": 2,
+     "action": "compute west len",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "west_len = 1100"
+    },
+    {
+     "step": 3,
+     "action": "compute total",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total = east_len + west_len"
+    },
+    {
+     "step": 4,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = east_len - west_len"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.5.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the diff step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute east len",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "east_len = 1300"
+    },
+    {
+     "step": 2,
+     "action": "compute west len",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "west_len = 1100"
+    },
+    {
+     "step": 3,
+     "action": "compute total",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total = east_len + west_len"
+    },
+    {
+     "step": 4,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = east_len - west_len"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.7.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the ratio step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute lakshadweep",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lakshadweep = 36"
+    },
+    {
+     "step": 2,
+     "action": "compute andaman",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "andaman = 572"
+    },
+    {
+     "step": 3,
+     "action": "compute total",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total = lakshadweep + andaman"
+    },
+    {
+     "step": 4,
+     "action": "compute ratio",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ratio = andaman / lakshadweep"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.7.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the ratio step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute lakshadweep",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "lakshadweep = 36"
+    },
+    {
+     "step": 2,
+     "action": "compute andaman",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "andaman = 572"
+    },
+    {
+     "step": 3,
+     "action": "compute total",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total = lakshadweep + andaman"
+    },
+    {
+     "step": 4,
+     "action": "compute ratio",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ratio = andaman / lakshadweep"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.8.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the ratio step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute ganga",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ganga = 2525"
+    },
+    {
+     "step": 2,
+     "action": "compute godavari",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "godavari = 1465"
+    },
+    {
+     "step": 3,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = ganga - godavari"
+    },
+    {
+     "step": 4,
+     "action": "compute ratio",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ratio = ganga / godavari"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.8.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the ratio step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute ganga",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ganga = 2525"
+    },
+    {
+     "step": 2,
+     "action": "compute godavari",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "godavari = 1465"
+    },
+    {
+     "step": 3,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = ganga - godavari"
+    },
+    {
+     "step": 4,
+     "action": "compute ratio",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "ratio = ganga / godavari"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.9.1",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pct step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute t coast",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t_coast = 28"
+    },
+    {
+     "step": 2,
+     "action": "compute t inland",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t_inland = 33"
+    },
+    {
+     "step": 3,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = t_inland - t_coast"
+    },
+    {
+     "step": 4,
+     "action": "compute pct",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pct = (diff / t_coast) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.1.9.2",
+   "source_ref": "generated practice sample aligned to gees101.txt",
+   "concept": "c7ss.1.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pct step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute t coast",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t_coast = 28"
+    },
+    {
+     "step": 2,
+     "action": "compute t inland",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "t_inland = 33"
+    },
+    {
+     "step": 3,
+     "action": "compute diff",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diff = t_inland - t_coast"
+    },
+    {
+     "step": 4,
+     "action": "compute pct",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pct = (diff / t_coast) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_001",
+   "title": "c12_bs_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the NCERT definition of planning in one sentence. Why is the phrase \"deciding in advance\" critical to this definition?",
+     "a": "Correct answer: \"Planning is deciding in advance what to do and how to do it.\" The phrase \"deciding in advance\" is critical because it distinguishes planning (a *pre-action* intellectual activity) from execution (the *action* itself). If a student writes \"planning is doing work systematically,\" they confuse planning with implementation — a fundamental category error. Planning ends when the plan is finalised; execution begins after.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"My father runs a small kirana store. He doesn't write any plans, but he knows exactly how much stock to order each week. So planning is only for big companies, not small businesses.\" Using the feature 'planning is pervasive', explain why this statement is incorrect.",
+     "a": "Correct answer: Planning is pervasive — it occurs at *all levels* (top, middle, lower) and in *all departments* of *every* organisation, regardless of size. The kirana store owner *mentally* plans: setting a sales target (objective), estimating demand (premise), choosing suppliers (alternative), deciding order quantity (decision). The absence of a *written document* does not mean absence of planning. A wrong answer reveals the misconception that planning = formal documentation, not the intellectual process.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: The CEO of a tech startup sets an objective: \"Become market leader in AI education in 3 years.\" She asks the marketing head to \"plan the marketing.\" The marketing head hires an agency to run ads. The CEO rejects this, saying \"This is not a plan.\" Identify which *two* features of planning are missing in the marketing head's approach and explain why.",
+     "a": "Missing features: (1) **Planning involves decision-making** — the marketing head chose *one* option (ads) without identifying alternatives (content marketing, partnerships, SEO, referrals) and evaluating them. (2) **Planning is futuristic** — the head focused on immediate execution (hiring agency) without analysing future conditions (competitor moves, algorithm changes, budget cycles) or setting intermediate milestones. A wrong answer that only says \"he didn't plan properly\" shows inability to map features to concrete gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the statements: (A) \"Planning is a mental exercise.\" (B) \"Planning reduces creativity.\" Using the NCERT text, analyse how both can be true simultaneously without contradiction. Provide a specific organisational example.",
+     "a": "Correct analysis: (A) refers to the *formulation phase* — top management uses foresight, imagination, judgement to *create* the plan (mental exercise). (B) refers to the *implementation phase* — middle/lower management *follows* the rigid plan, discouraging deviation/innovation. Example: A hospital's top management designs a strict patient-admission protocol (mental exercise). Nurses must follow it exactly; they cannot innovate a faster triage method even if they see one (reduces creativity). A wrong answer treats them as mutually exclusive, missing the *phase distinction*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since planning is continuous, a company should never finish writing its annual plan — it should keep revising it throughout the year.\" Is this correct? Justify using the feature 'planning is continuous' and the concept of 'planning cycle'.",
+     "a": "Incorrect claim. \"Continuous\" means the *planning cycle* repeats: Plan → Implement → Monitor → New Plan (for next period). It does *not* mean perpetual revision of the *current* plan. Constant revision during implementation creates chaos (rigidity's opposite: directionless flux). The annual plan is *finalised* before the year starts; mid-year changes are *exceptional* (contingency), not the norm. A wrong answer confuses \"continuous process\" with \"continuous tinkering,\" ignoring the need for stable standards for controlling.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original scenario (not from textbook) involving a Class 12 student preparing for CUET that demonstrates *all seven features* of planning simultaneously. Label each feature in your scenario.",
+     "a": "Good answer example: \"Riya sets a target: 'Score 700/800 in CUET' (focus on objectives). She designs the study schedule herself, not her parents (primary function — she is the 'top management' of her prep). She makes subject-wise, weekly, daily plans (pervasive). After each mock test, she revises the next week's plan (continuous). She analyses past papers, syllabus changes, her weak areas (futuristic). She chooses between coaching vs self-study, NCERT vs reference books (decision-making). She writes the timetable using logic, not wishful thinking (mental exercise).\" A poor answer lists features without integrating them into one coherent narrative, showing fragmented understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

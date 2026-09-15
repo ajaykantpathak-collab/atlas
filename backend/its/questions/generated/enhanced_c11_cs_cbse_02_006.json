@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_006",
+   "title": "c11_cs_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the Commutative and Associative laws for the OR operation in Boolean algebra using variables A, B, and C.",
+     "a": "Commutative: A + B = B + A. Associative: (A + B) + C = A + (B + C). A wrong answer (e.g., writing A + B = A · B or omitting parentheses in the associative law) reveals confusion between the two laws or mixing up AND and OR symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Commutative law does NOT apply to the NOT operation. Give a concrete example using a Boolean variable A.",
+     "a": "NOT is a unary operation (takes only one input), so there is no \"order\" of two operands to swap. For example, NOT A is simply A̅; writing A̅ = A̅ is trivial and does not demonstrate commutativity. A student who tries to write A̅ = A̅ as a commutative law misunderstands that commutativity requires two operands and a binary operator.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean expression (X + Y) · (Z + W), use only the Commutative law to write an equivalent expression where the first OR term appears after the second OR term.",
+     "a": "Apply Commutative law to the AND operation: (X + Y) · (Z + W) = (Z + W) · (X + Y). A wrong answer that swaps variables inside the parentheses (e.g., (Y + X) · (W + Z)) uses Commutative on OR, not on the overall AND; the question asks to reorder the two OR terms as factors of the AND.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Associative law for OR with the Associative law for AND. Are they structurally identical? Justify your answer by writing both laws and explaining the role of the operator.",
+     "a": "Yes, they are structurally identical: (A + B) + C = A + (B + C) and (A · B) · C = A · (B · C). Both state that regrouping three variables connected by the same binary operator does not change the result. A wrong answer that claims they are different because \"OR and AND are different\" misses the point that associativity is a property of the operator's grouping, not its truth table.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (A + B) + C to A + B + C and says \"the parentheses don't matter because of the Associative law.\" Evaluate this statement: is it fully correct, partially correct, or incorrect? Defend your evaluation.",
+     "a": "Partially correct. The Associative law allows us to omit parentheses when the same operator (all OR or all AND) is used throughout, so A + B + C is unambiguous. However, if the expression mixes operators (e.g., A + B · C), parentheses are essential because AND has higher precedence than OR. The student's statement is dangerous if generalized to mixed expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new Boolean expression with three variables that demonstrates both the Commutative and Associative laws simultaneously. Show the step-by-step transformation from the original to the final form, labeling each step with the law used.",
+     "a": "Example: Start with (A + B) + C. Step 1 (Associative): A + (B + C). Step 2 (Commutative on inner OR): A + (C + B). Step 3 (Associative): (A + C) + B. Step 4 (Commutative on outer OR): (C + A) + B. A poor answer either uses only one law, mixes AND and OR incorrectly, or fails to label steps, indicating the student cannot distinguish or chain the two laws.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 102,
+ "chapter_title": "Forest and Wildlife Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess102.txt",
+ "concepts": [
+  {
+   "id": "jess.102.1.1",
+   "title": "Ecological System and Biodiversity",
+   "section": "Flora and Fauna in India",
+   "definition": "The intricate natural network comprising micro-organisms, vegetation, and fauna that collectively maintain life-sustaining resources like air, soil, and water.",
+   "formula": "none",
+   "key_idea": "Human survival depends upon maintaining the biological diversity of interconnected ecological systems.",
+   "textbook_ref": "jess102.txt lines 10-45",
+   "question_patterns": [
+    "explain the significance of biodiversity in Class 10 Social Science",
+    "how do living organisms form an interdependent ecological system",
+    "what role do forests play as primary producers in an ecosystem",
+    "describe why biodiversity is crucial for sustaining human life support systems",
+    "analyse the impact of environmental insensitivity on local flora and fauna"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify ecological roles",
+     "explain": "Forests serve as primary producers while micro-organisms and wildlife recycle air, water, and soil nutrients."
+    },
+    {
+     "step": 2,
+     "action": "Relate interdependency to human survival",
+     "explain": "Human beings rely directly on these ecological support systems for food, clean air, and water."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.2.1",
+   "title": "Wildlife Protection Legislation and Sanctuaries",
+   "section": "Conservation of Forest and Wildlife in India",
+   "definition": "Statutory rules and state measures designed to safeguard endangered species through habitat preservation, hunting bans, and wildlife trade restrictions.",
+   "formula": "none",
+   "key_idea": "Legal mandates protect vulnerable species and preserve genetic diversity across terrestrial and aquatic ecosystems.",
+   "textbook_ref": "jess102.txt lines 50-85",
+   "question_patterns": [
+    "what are the main provisions of the Indian Wildlife Protection Act of 1972",
+    "how did wildlife conservation policy shift in the 1980s and 1991 in Class 10 geography",
+    "list the key animal species protected under national conservation programmes",
+    "explain the measures taken by central and state governments to conserve wildlife",
+    "discuss the legal restrictions placed on hunting and trade of endangered animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State legal provisions",
+     "explain": "The Wildlife Protection Act of 1972 established protected species lists, habitat preservation rules, and trade bans."
+    },
+    {
+     "step": 2,
+     "action": "Trace policy evolution",
+     "explain": "Subsequent notifications in 1980, 1986, and 1991 expanded legal protection to insects and plant species."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.2.2",
+   "title": "Species Specific Conservation Initiatives",
+   "section": "Project Tiger",
+   "definition": "Targeted wildlife conservation campaigns aimed at preserving key megafauna and conserving large natural biotypes.",
+   "formula": "none",
+   "key_idea": "Protecting flagship species preserves extensive habitat biomes and ecological food webs.",
+   "textbook_ref": "jess102.txt lines 86-125",
+   "question_patterns": [
+    "why was Project Tiger launched in 1973 in Class 10 Social Science",
+    "identify major threats to the tiger population in India",
+    "list famous tiger reserves across different states in India",
+    "explain how saving flagship species helps preserve biotypes of magnitude",
+    "describe why India and Nepal are critical hubs for tiger conservation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify threats to flagship species",
+     "explain": "Poaching for trade, habitat fragmentation, and prey depletion caused drastic declines in tiger populations."
+    },
+    {
+     "step": 2,
+     "action": "Detail national reserve networks",
+     "explain": "Project Tiger established protected reserves like Corbett, Sunderbans, Sariska, Manas, and Periyar."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.2.3",
+   "title": "Calculation of Species Population Reduction",
+   "section": "Project Tiger",
+   "definition": "Quantitative determination of animal population loss and percentage drop using baseline and current census figures.",
+   "formula": "population_loss = initial_population - final_population",
+   "key_idea": "Calculating numerical population reduction measures the severity of species endangerment.",
+   "textbook_ref": "jess102.txt lines 88-95",
+   "question_patterns": [
+    "calculate the reduction in tiger population when initial count is given",
+    "find the total drop in wildlife count from initial to final censuses",
+    "determine how many tigers were lost between two census periods",
+    "compute the decrease in animal population given historical and present counts",
+    "how much did the species count drop from initial to final observation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract final population from initial population",
+     "explain": "Difference between historical baseline and current census gives absolute loss",
+     "compute": "population_loss = initial_population - final_population"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage decline",
+     "explain": "Divide absolute population loss by initial population and convert to percentage",
+     "compute": "percentage_loss = (population_loss / initial_population) * 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.102.3.1",
+   "title": "Classification of Forest Lands",
+   "section": "Types and Distribution of Forest and Wildlife Resources",
+   "definition": "Administrative division of forest territories into reserved, protected, and unclassed categories based on ownership and legal security.",
+   "formula": "none",
+   "key_idea": "Forest governance categorizes land according to conservation priority and resource usage rights.",
+   "textbook_ref": "jess102.txt lines 130-170",
+   "question_patterns": [
+    "differentiate between reserved, protected, and unclassed forests in Class 10 geography",
+    "which state has the highest proportion of permanent forest cover",
+    "explain the legal rights and restrictions in protected forests",
+    "describe how unclassed forests are managed in North-Eastern states",
+    "what constitutes permanent forest estates in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize reserved and protected forests",
+     "explain": "Reserved forests are high-value conservation areas, while protected forests prevent further land degradation."
+    },
+    {
+     "step": 2,
+     "action": "Define unclassed forests and permanent estates",
+     "explain": "Unclassed forests are managed by communities or individuals; reserved and protected forests together form permanent estates."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.3.2",
+   "title": "Calculation of Area under Forest Categories",
+   "section": "Types and Distribution of Forest and Wildlife Resources",
+   "definition": "Mathematical computation of spatial land extent allocated to a specific forest category from percentage share and total land area.",
+   "formula": "category_area = (percentage * total_area) / 100",
+   "key_idea": "Proportional percentage values dictate the absolute geographical footprint of forest management classes.",
+   "textbook_ref": "jess102.txt lines 150-165",
+   "question_patterns": [
+    "calculate the reserved forest area given total forest land and percentage share",
+    "find the area under permanent forests for a state with known percentage",
+    "compute how many square kilometers of forest are protected",
+    "determine unclassed forest area from overall forest extent",
+    "how much total land area falls under reserved forests"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply total area by category percentage and divide by 100",
+     "explain": "Calculates absolute land area corresponding to the specified forest classification",
+     "compute": "category_area = (percentage * total_area) / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.102.4.1",
+   "title": "Community-Led Forest Conservation Movements",
+   "section": "Community and Conservation",
+   "definition": "Indigenous and local community initiatives that actively oppose deforestation, protect sanctuaries, and champion ecological agriculture.",
+   "formula": "none",
+   "key_idea": "Rural populations directly safeguard local biodiversity through self-organized ecological movements.",
+   "textbook_ref": "jess102.txt lines 175-210",
+   "question_patterns": [
+    "describe how local communities protected forests in Sariska and Alwar district",
+    "explain the contribution of Chipko movement to Himalayan afforestation",
+    "what is Beej Bachao Andolan and how does it promote ecological farming",
+    "how did villagers establish Bhairodev Dakav Sonchuri in Rajasthan",
+    "analyse the role of rural citizens in stopping commercial deforestation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail anti-deforestation actions",
+     "explain": "The Chipko movement opposed logging, while Sariska residents cited law to halt mining."
+    },
+    {
+     "step": 2,
+     "action": "Detail community sanctuaries and seed saving",
+     "explain": "Alwar villagers set up Sonchuri sanctuary rules, and Beej Bachao Andolan demonstrated organic farming viability."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.4.2",
+   "title": "Sacred Groves and Cultural Nature Worship",
+   "section": "Community and Conservation",
+   "definition": "Traditional nature reverence practices that leave designated forest tracts untouched and protect sacred species.",
+   "formula": "none",
+   "key_idea": "Cultural beliefs and religious taboos preserve pristine forest ecosystems and wild species.",
+   "textbook_ref": "jess102.txt lines 211-235",
+   "question_patterns": [
+    "what are sacred groves and how do they help in conserving biodiversity",
+    "which trees are worshipped by Mundas, Santhals, and tribals of Odisha",
+    "explain how Bishnoi communities protect wildlife in Rajasthan in Class 10 Social Science",
+    "how do religious and cultural practices protect animals around temples",
+    "describe the significance of preserving virgin forest patches through traditional beliefs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sacred groves concept",
+     "explain": "Pristine forest areas preserved intact due to spiritual veneration by tribal societies."
+    },
+    {
+     "step": 2,
+     "action": "Cite cultural examples",
+     "explain": "Mundas revere mahua and kadamba trees, while Bishnoi villages protect blackbucks, nilgai, and peacocks."
+    }
+   ]
+  },
+  {
+   "id": "jess.102.4.3",
+   "title": "Joint Forest Management Framework",
+   "section": "Community and Conservation",
+   "definition": "A cooperative forest governance model partnering local village committees with state forest departments for restoring degraded forests.",
+   "formula": "none",
+   "key_idea": "Participatory management grants local communities forest harvest rights in exchange for protection efforts.",
+   "textbook_ref": "jess102.txt lines 236-260",
+   "question_patterns": [
+    "what is Joint Forest Management JFM and when was it first formally adopted",
+    "explain how village institutions participate in JFM programmes",
+    "what benefits do local communities derive from joint forest restoration",
+    "how does JFM balance state forestry goals with community rights",
+    "describe the role of Odisha state in launching the JFM resolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline institutional structure",
+     "explain": "Initiated in Odisha in 1988, JFM involves village bodies protecting degraded forest department lands."
+    },
+    {
+     "step": 2,
+     "action": "Identify incentive mechanism",
+     "explain": "Participating villagers receive non-timber forest produce and a portion of harvested timber."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook section Project Tiger, page 14",
+   "concept": "jess.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "In a tiger sanctuary, the initial population was {initial_population} and it dropped to {final_population}. Calculate the total population loss and the percentage decline.",
+   "extracted_variables": {
+    "initial_population": 55000,
+    "final_population": 1827
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract final population from initial population",
+     "explain": "Difference between historical baseline and current census gives absolute loss",
+     "compute": "population_loss = initial_population - final_population"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage decline",
+     "explain": "Divide absolute population loss by initial population and convert to percentage",
+     "compute": "percentage_loss = (population_loss / initial_population) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook section Project Tiger",
+   "concept": "jess.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "An endangered species had an initial population of {initial_population} which fell to {final_population} over a decade. Compute the population loss and percentage reduction.",
+   "extracted_variables": {
+    "initial_population": 2500,
+    "final_population": 1500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract final population from initial population",
+     "explain": "Difference between historical baseline and current census gives absolute loss",
+     "compute": "population_loss = initial_population - final_population"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage decline",
+     "explain": "Divide absolute population loss by initial population and convert to percentage",
+     "compute": "percentage_loss = (population_loss / initial_population) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Textbook section Types and Distribution of Forest and Wildlife Resources, page 15",
+   "concept": "jess.102.3.2",
+   "question_type": "compute",
+   "question_pattern": "A state has a total forest land of {total_area} sq km, out of which {percentage} percent is classified as reserved forest. Calculate the area of reserved forest.",
+   "extracted_variables": {
+    "total_area": 80000,
+    "percentage": 75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply total area by category percentage and divide by 100",
+     "explain": "Calculates absolute land area corresponding to the specified forest classification",
+     "compute": "category_area = (percentage * total_area) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Textbook section Types and Distribution of Forest and Wildlife Resources",
+   "concept": "jess.102.3.2",
+   "question_type": "compute",
+   "question_pattern": "In a district with {total_area} hectares of total forest cover, {percentage} percent is declared as protected forest. Compute the protected forest area.",
+   "extracted_variables": {
+    "total_area": 12000,
+    "percentage": 33
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply total area by category percentage and divide by 100",
+     "explain": "Calculates absolute land area corresponding to the specified forest classification",
+     "compute": "category_area = (percentage * total_area) / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "Exercises Page 18, Question 1",
+   "questions": [
+    "Which of the following conservation strategies do not directly involve community participation? (a) Joint forest management (b) Beej Bachao Andolan (c) Chipko Movement (d) Demarcation of Wildlife sanctuaries"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Exercises Page 18, Question 2",
+   "questions": [
+    "Match the following forest categories with their descriptions: Reserved forests, Protected forests, Unclassed forests."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Exercises Page 18, Question 3",
+   "questions": [
+    "What is biodiversity? Why is biodiversity important for human lives?",
+    "How have human activities affected the depletion of flora and fauna? Explain."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Exercises Page 18, Question 4",
+   "questions": [
+    "Describe how communities have conserved and protected forests and wildlife in India?",
+    "Write a note on good practices towards conserving forest and wildlife."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

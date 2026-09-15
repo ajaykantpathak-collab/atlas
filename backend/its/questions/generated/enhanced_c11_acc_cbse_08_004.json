@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_004",
+   "title": "c11_acc_cbse_08_004",
+   "questions": [
+    {
+     "q": "State the correct formula for calculating Net Profit in a Profit and Loss Account and identify which component is brought down from the Trading Account.",
+     "a": "Net Profit = Gross Profit (brought down from Trading Account) + Other Incomes – Indirect Expenses. A wrong answer (e.g., using Sales instead of Gross Profit, or including direct expenses) reveals the student confuses the Trading Account's output with the P&L Account's starting point, or cannot distinguish direct vs. indirect expenses.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a Profit and Loss Account and places \"Carriage Inwards\" on the debit side of the P&L Account instead of the Trading Account. Explain why this is incorrect and where it should actually appear.",
+     "a": "Carriage Inwards is a direct expense incurred to bring goods to the business premises, so it belongs to the Trading Account (debit side), not the Profit and Loss Account. Placing it in P&L understates gross profit and overstates indirect expenses, distorting both gross and net profit figures. This error shows the student hasn't internalised the direct vs. indirect expense classification rule.",
+     "self_check": true
+    },
+    {
+     "q": "From the following Trial Balance extracts, prepare the Profit and Loss Account for the year ended 31st March 2026 (Gross Profit from Trading Account is ₹ 85,000):\n\nSalaries ₹ 24,000 | Rent ₹ 18,000 | Bad Debts ₹ 3,500 | Commission Received ₹ 6,000 | Interest Paid on Loan ₹ 4,500 | Discount Received ₹ 2,500 | Advertising ₹ 7,000",
+     "a": "Dr. side (Indirect Expenses): Salaries 24,000 + Rent 18,000 + Bad Debts 3,500 + Interest Paid 4,500 + Advertising 7,000 = ₹ 57,000. Cr. side: Gross Profit b/d 85,000 + Commission Received 6,000 + Discount Received 2,500 = ₹ 93,500. Net Profit = 93,500 – 57,000 = ₹ 36,500 (transferred to Capital). A wrong net profit indicates misclassification of items (e.g., treating Interest Paid as direct expense) or arithmetic errors in totalling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Wages\" and \"Salaries\" in the final accounts. Why is Wages debited to Trading Account while Salaries is debited to Profit and Loss Account, even though both are payments to employees?",
+     "a": "Wages are paid to workers directly engaged in production/loading/unloading of goods — a direct expense forming part of cost of goods sold. Salaries are paid to administrative, office, or warehouse staff — an indirect expense for running the business, not tied to specific goods. Confusing the two leads to incorrect gross profit and misstates the cost structure of the business.",
+     "self_check": true
+    },
+    {
+     "q": "A firm reports Net Profit of ₹ 50,000. Its non-operating incomes are ₹ 8,000 (profit on sale of asset) and non-operating expenses are ₹ 3,000 (loss by fire). Calculate Operating Profit and evaluate whether the firm's core business operations are more or less profitable than the overall result suggests.",
+     "a": "Operating Profit = Net Profit + Non-operating Expenses – Non-operating Incomes = 50,000 + 3,000 – 8,000 = ₹ 45,000. The core operations earned ₹ 45,000, but non-operating items inflated the final figure to ₹ 50,000. A student who subtracts non-operating expenses or adds non-operating incomes shows they don't understand Operating Profit isolates recurring business performance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Trial Balance (minimum 10 accounts) for a fictitious bookshop that would yield a Net Loss in the Profit and Loss Account. Show the P&L Account preparation and explain which specific indirect expenses caused the loss despite a healthy Gross Profit.",
+     "a": "Example: Gross Profit ₹ 60,000. Indirect Expenses: Salaries ₹ 25,000, Rent ₹ 20,000, Advertising ₹ 15,000, Bad Debts ₹ 8,000, Depreciation ₹ 5,000 = ₹ 73,000. Other Incomes: Commission ₹ 2,000. Net Loss = ₹ 11,000. A good answer identifies that high fixed costs (rent, salaries) and aggressive advertising drove the loss, showing understanding of cost structure impact. A poor answer just lists numbers without analysing why the loss occurred.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

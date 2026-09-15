@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 104,
+  "chapter_title": "Birth",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesp104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kesp104.1.1",
+      "title": "Andrew Manson: A Young Doctor's Evening of Doubt",
+      "section": "1",
+      "definition": "Andrew Manson, newly out of medical school and assisting Dr Page in a Welsh mining town, walks home from a disheartening evening with Christine, doubting love and medicine alike. The night's drudgery leaves him questioning his profession just before the Morgan delivery calls him to duty.",
+      "formula": "",
+      "key_idea": "A doctor at low ebb -- doubt must be overcome by duty before skill can save anyone.",
+      "textbook_ref": "kesp104.txt opening sections (andrew manson newly out of medical school, assistant to dr edward page, welsh mining town, evening with christine, doubt)",
+      "question_patterns": [
+        "why was andrew manson feeling disillusioned at the start of the chapter",
+        "in class 11 birth: describe andrew's life as an assistant in blaenely",
+        "what thoughts troubled andrew after meeting christine",
+        "how does the chapter portray a doctor's life in a mining town",
+        "why did andrew go to number 12 blaina terrace",
+        "compare andrew's mood before and after the delivery"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "set the mood", "explain": "A tiring round and a heart-aching evening leave Andrew sour on love and his profession's drudgery."},
+        {"step": 2, "action": "receive the call", "explain": "Joe Morgan waits at the door -- his wife, after years of marriage, is in labour."},
+        {"step": 3, "action": "enter the ordeal", "explain": "The long, hard delivery will test everything the young doctor has and is."}
+      ]
+    },
+    {
+      "id": "kesp104.1.2",
+      "title": "The Stillborn Child and the Decision to Fight",
+      "section": "1",
+      "definition": "The mother is safely delivered, but the child lies lifeless -- a boy, seemingly stillborn. Refusing to accept defeat, Andrew remembers a method from observation and begins alternating hot and cold baths and rhythmic manipulation; the mother, meanwhile, needs a quick injection to steady her heart.",
+      "formula": "",
+      "key_idea": "Between despair and method -- a doctor's stubborn memory of one trick stands between death and a first cry.",
+      "textbook_ref": "kesp104.txt delivery sections (stillborn child, basins hot and cold water, resuscitation efforts, injection for mother, midwife's despair)",
+      "question_patterns": [
+        "how did andrew try to revive the stillborn child",
+        "in class 11 birth: what treatment did the mother need during the crisis",
+        "describe the alternating bath method used by andrew",
+        "why did the midwife place the child under the bed",
+        "what thoughts almost made andrew give up",
+        "how does the chapter show the doctor's presence of mind"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "secure the mother first", "explain": "Andrew dashes an emergency injection to steady the exhausted mother's heart before returning to the child."},
+        {"step": 2, "action": "work the child", "explain": "Wrapping the limp boy, he alternates basins of hot and cold water and rubs and presses the little body rhythmically."},
+        {"step": 3, "action": "refuse the odds", "explain": "Half a lifetime of effort compressed into minutes, he persists against the room's despair."}
+      ]
+    },
+    {
+      "id": "kesp104.1.3",
+      "title": "The First Cry: Triumph of Life and of the Doctor",
+      "section": "1",
+      "definition": "At last the child's chest heaves, skin pinks, and a cry rings through the house -- the stillborn lives. Andrew, drenched and trembling, realises what he has done; the evening's doubt about medicine is answered by a single act of saving, and he leaves knowing that a doctor's purpose is this.",
+      "formula": "",
+      "key_idea": "One cry answers every doubt -- medicine's meaning restored in a gasp of returned life.",
+      "textbook_ref": "kesp104.txt closing sections (the child's cry, skin colour change, relief and triumph, andrew's realisation about his profession)",
+      "question_patterns": [
+        "how did andrew feel when the child finally breathed",
+        "in class 11 birth: what does the cry of the baby signify in the story",
+        "how did the chapter change andrew's view of his profession",
+        "describe the reactions of joe morgan and the household after the birth",
+        "what makes birth an appropriate title for the chapter",
+        "explain the transformation in andrew manson by the end"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "mark the turning", "explain": "The little chest lifts, colour floods back, and life announces itself in a cry."},
+        {"step": 2, "action": "measure the change", "explain": "Exhaustion gives way to exaltation; the doctor who doubted his craft has just embodied its highest purpose."},
+        {"step": 3, "action": "draw the theme", "explain": "Birth names both the child's entry into life and the doctor's own rebirth into certainty."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kesp104.txt delivery sections",
+      "concept": "kesp104.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why did Andrew attend to the mother before continuing with the apparently stillborn child? Was this right?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the emergency", "explain": "The mother's heart was faltering; without the injection she could die while he worked on the child."},
+        {"step": 2, "action": "weigh the choice", "explain": "He calculated that minutes spent steadying her would not yet doom the baby."},
+        {"step": 3, "action": "conclude", "explain": "Both lives were saved -- presence of mind under pressure is the chapter's portrait of medical judgment."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kesp104.txt opening and closing sections",
+      "concept": "kesp104.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Trace the arc of Andrew Manson's feelings from the beginning to the end of the chapter.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "start at doubt", "explain": "He begins weary and disillusioned -- sour on love, seeing his profession as drudgery."},
+        {"step": 2, "action": "pass through the trial", "explain": "The delivery forces total commitment -- method, memory and will against death."},
+        {"step": 3, "action": "end at purpose", "explain": "The child's cry restores meaning; doubt has been answered by deed, and the doctor is reborn with his patient."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kesp104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe Andrew Manson's state of mind before the delivery.",
+        "Explain the method Andrew used to revive the stillborn child.",
+        "Why is the chapter titled 'Birth'? Discuss the double meaning.",
+        "How did Andrew handle the two crises of the night?",
+        "What does the chapter reveal about a doctor's duty?",
+        "Sketch the character of Andrew Manson as revealed in the chapter."
+      ]
+    }
+  ]
+}

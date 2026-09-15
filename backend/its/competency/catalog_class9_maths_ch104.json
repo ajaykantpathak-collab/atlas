@@ -1,0 +1,1157 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Exploring Algebraic Identities",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh104.txt",
+ "concepts": [
+  {
+   "id": "iemh.4.1",
+   "title": "Algebraic Identity",
+   "section": "4.2",
+   "definition": "Two polynomial forms that agree for every allowable value choice are called an identity. Equations agree only at special values.",
+   "formula": "LHS = RHS for every value of the letters",
+   "key_idea": "True everywhere vs true somewhere: that is the split from equations.",
+   "textbook_ref": "iemh104.txt lines 55-70 (checking identity with Example 2)",
+   "question_patterns": [
+    "Is x^2 - 1 = 24 an identity or an equation? Explain.",
+    "State what makes a matching of two forms an identity.",
+    "Test whether (a + b)^2 = a^2 + 2ab + b^2 holds for a = 3, b = 5.",
+    "Tell an identity apart from an ordinary equation.",
+    "Check the identity (a - b)^2 for two different pairs of values."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Substitute a value",
+     "explain": "Pick a value for the variable and check whether both sides agree."
+    },
+    {
+     "step": 2,
+     "action": "Substitute a second value",
+     "explain": "A second agreement hints at an identity; a single disagreement proves it is not."
+    },
+    {
+     "step": 3,
+     "action": "Conclude identity or equation",
+     "explain": "If both sides agree for every tested value, the statement is an identity; if they agree only at special values, it is an equation."
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.2",
+   "title": "Square of a Binomial Sum",
+   "section": "4.2",
+   "definition": "Squaring a two-term sum gives: first term squared, plus twice the cross product, plus second term squared.",
+   "formula": "(a + b)**2 = a**2 + 2*a*b + b**2",
+   "key_idea": "Three pieces: both squares and the double cross product.",
+   "textbook_ref": "iemh104.txt lines 55-70, Examples 2 and 4",
+   "question_patterns": [
+    "Calculate 43^2 using identities.",
+    "Expand and evaluate (40 + 3)^2.",
+    "Find (a + b)^2 for a = -2 and b = -3.",
+    "Use the squared-sum identity to work out 71^2.",
+    "What three pieces make up (a + b)^2?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify terms",
+     "explain": "Identify the first term a and second term b.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate product term",
+     "explain": "Find twice the product of the two terms.",
+     "compute": "twice_ab = 2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square second term",
+     "explain": "Calculate the square of the second term.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Sum components",
+     "explain": "Add all three calculated parts together.",
+     "compute": "result = square_a + twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.3",
+   "title": "Square of a Binomial Difference",
+   "section": "4.3",
+   "definition": "Squaring a two-term gap gives: first term squared, minus the double cross product, plus second term squared.",
+   "formula": "(a - b)**2 = a**2 - 2*a*b + b**2",
+   "key_idea": "Like the sum case, but the cross piece arrives negative.",
+   "textbook_ref": "iemh104.txt lines 341-357 (Example 8: 29^2), lines 455-466 (Example 9)",
+   "question_patterns": [
+    "Calculate 29^2 using identities.",
+    "Find the value of 79^2 by the squared-gap identity.",
+    "Expand and evaluate (30 - 1)^2.",
+    "Use (a - b)^2 to work out 97^2.",
+    "What changes in the middle piece when a gap is squared?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square first term",
+     "explain": "Calculate a squared.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate negative product",
+     "explain": "Subtract twice the product of a and b.",
+     "compute": "minus_twice_ab = -2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square second term",
+     "explain": "Calculate b squared.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Combine terms",
+     "explain": "Sum the components to get the final value.",
+     "compute": "result = square_a + minus_twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.4",
+   "title": "Square of a Three-Term Sum",
+   "section": "4.4",
+   "definition": "Squaring a three-term sum: square each term once, then add the double cross product for every pairing.",
+   "formula": "(a + b + c)**2 = a**2 + b**2 + c**2 + 2*a*b + 2*b*c + 2*c*a",
+   "key_idea": "Six pieces: three squares and three doubled pairings.",
+   "textbook_ref": "iemh104.txt lines 75-76 and section 4.4",
+   "question_patterns": [
+    "Expand and evaluate (2 + 3 + 4)^2.",
+    "Use the three-term identity to find 111^2 as (100 + 10 + 1)^2.",
+    "List the six pieces that arise when a three-term sum is squared.",
+    "Evaluate (10 + 20 + 30)^2 by the identity.",
+    "Check the squared three-term sum for a = 1, b = 2, c = 3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square individual terms",
+     "explain": "Calculate the squares of a, b, and c.",
+     "compute": "sum_squares = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate pairwise products",
+     "explain": "Find twice the product of each pair (ab, bc, ca).",
+     "compute": "sum_pairs = 2*a*b + 2*b*c + 2*c*a"
+    },
+    {
+     "step": 3,
+     "action": "Sum all parts",
+     "explain": "Add the squares and the doubled pairings.",
+     "compute": "result = sum_squares + sum_pairs"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.5",
+   "title": "Difference of Two Squares",
+   "section": "4.4",
+   "definition": "Two perfect squares separated by a minus sign factor into the pair of the added and subtracted bases.",
+   "formula": "a**2 - b**2 = (a + b) * (a - b)",
+   "key_idea": "The conjugate pair rebuilds a square gap as a plain product.",
+   "textbook_ref": "iemh104.txt lines 77-78 and section 4.4",
+   "question_patterns": [
+    "Calculate 55^2 - 45^2 using identities.",
+    "Evaluate 104 x 96 by the perfect-square gap identity.",
+    "Factor 9x^2 - 16y^2.",
+    "Find 128 x 72 by writing it as (100 + 28)(100 - 28).",
+    "Work out 86^2 - 14^2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find sum of terms",
+     "explain": "Add the two base values a and b.",
+     "compute": "sum_val = a + b"
+    },
+    {
+     "step": 2,
+     "action": "Find difference of terms",
+     "explain": "Subtract b from a.",
+     "compute": "diff_val = a - b"
+    },
+    {
+     "step": 3,
+     "action": "Multiply results",
+     "explain": "The product of sum and gap is the result.",
+     "compute": "result = sum_val * diff_val"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.6",
+   "title": "Product of the Form (x + a)(x + b)",
+   "section": "4.5",
+   "definition": "For a shared leading term x and two different add-ons a and b, the product is x squared, plus x times the add-on total, plus the add-on product.",
+   "formula": "(x + a) * (x + b) = x**2 + (a + b)*x + a*b",
+   "key_idea": "One shared lead, two add-ons: square, cross, join.",
+   "textbook_ref": "iemh104.txt lines 727-797 (Examples 10-12, Exercise Set 4.4)",
+   "question_patterns": [
+    "Find the product (x + a)(x + b) with x = 50, a = 1 and b = 3 (that is, the product 51 x 53).",
+    "Multiply (x + 6)(x + 7) and check with x = 1.",
+    "Find 62 x 68 as (60 + 2)(60 + 8).",
+    "State the three pieces of the (x + a)(x + b) product.",
+    "Compute 43 x 47 as (40 + 3)(40 + 7)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the common term",
+     "explain": "Calculate x squared.",
+     "compute": "sq_x = x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Sum the constants",
+     "explain": "Add the two distinct terms a and b.",
+     "compute": "sum_ab = a + b"
+    },
+    {
+     "step": 3,
+     "action": "Multiply constants",
+     "explain": "Calculate the product of a and b.",
+     "compute": "prod_ab = a * b"
+    },
+    {
+     "step": 4,
+     "action": "Combine for final value",
+     "explain": "Assemble the three pieces.",
+     "compute": "result = sq_x + (sum_ab * x) + prod_ab"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.7",
+   "title": "Cube of a Binomial Sum",
+   "section": "4.7",
+   "definition": "Cubing a two-term sum: both cubes appear, joined by three middle pieces that carry the cross products.",
+   "formula": "(a + b)**3 = a**3 + 3*a**2*b + 3*a*b**2 + b**3",
+   "key_idea": "Four pieces: two cubes and the tripled cross terms.",
+   "textbook_ref": "iemh104.txt lines 82-84 and section 4.7",
+   "question_patterns": [
+    "Calculate 104^3 using identities.",
+    "Find the cube of 11 as (10 + 1)^3.",
+    "Use the cubed-sum identity for 52^3.",
+    "Expand and evaluate (2 + 3)^3.",
+    "Name the four pieces of (a + b)^3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cube the terms",
+     "explain": "Calculate a^3 and b^3.",
+     "compute": "sum_cubes = a**3 + b**3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate middle terms",
+     "explain": "Find 3*a^2*b and 3*a*b^2 together.",
+     "compute": "mid_terms = 3*a*b * (a + b)"
+    },
+    {
+     "step": 3,
+     "action": "Total expansion",
+     "explain": "Sum the cubes and the middle pieces.",
+     "compute": "result = sum_cubes + mid_terms"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.8",
+   "title": "Cube of a Binomial Difference",
+   "section": "4.7",
+   "definition": "Cubing a two-term gap mirrors the sum case with alternating signs: cube, drop, lift, drop.",
+   "formula": "(a - b)**3 = a**3 - 3*a**2*b + 3*a*b**2 - b**3",
+   "key_idea": "Signs march (+, -, +, -) through the four pieces.",
+   "textbook_ref": "iemh104.txt lines 84-85 and section 4.7",
+   "question_patterns": [
+    "Calculate 99^3 using identities.",
+    "Evaluate 19^3 as (20 - 1)^3.",
+    "Use the cubed-gap identity for 98^3.",
+    "Expand and evaluate (5 - 2)^3.",
+    "How do the signs run across the four pieces of (a - b)^3?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cube the first term",
+     "explain": "Calculate a^3.",
+     "compute": "cube_a = a ** 3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate middle terms",
+     "explain": "Find -3*a^2*b and +3*a*b^2 together.",
+     "compute": "mid_terms = -3*a*b * (a - b)"
+    },
+    {
+     "step": 3,
+     "action": "Subtract cube of second",
+     "explain": "Subtract b^3 to finish.",
+     "compute": "result = cube_a + mid_terms - b**3"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.9",
+   "title": "Sum and Difference of Cubes",
+   "section": "4.7",
+   "definition": "The combined cubes of two terms split into a straight factor and a three-piece factor; with a minus between the cubes, the sign carried by the cross piece in the three-piece factor flips.",
+   "formula": "a**3 + b**3 = (a + b)*(a**2 - a*b + b**2)",
+   "key_idea": "Straight factor carries the cube sign; the three-piece factor never cancels.",
+   "textbook_ref": "iemh104.txt lines 84-85, Example 14 (lines 1070+)",
+   "question_patterns": [
+    "Factorize x^3 - y^3.",
+    "Factorize 8n^3 + 27m^3.",
+    "Find the product of (x - y)(x^2 + xy + y^2).",
+    "Expand (x + y)(x^2 - xy + y^2).",
+    "Which sign sits in the middle factor for a sum of two cubes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Spot the cube roots",
+     "explain": "Match each term to a cube to read off a and b."
+    },
+    {
+     "step": 2,
+     "action": "Write the straight factor",
+     "explain": "(a + b) for a cube sum, (a - b) for a cube gap."
+    },
+    {
+     "step": 3,
+     "action": "Write the three-piece factor",
+     "explain": "Squares of both terms with the cross product: minus for a sum, plus for a gap."
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.10",
+   "title": "Sum of Three Cubes Identity",
+   "section": "4.7",
+   "definition": "A three-way cube identity: the combined cubes minus three times the triple product equals the overall sum times a corrected square total.",
+   "formula": "a^3 + b^3 + c^3 - 3abc factors as (a + b + c) times the corrected square total",
+   "key_idea": "Whenever the sum vanishes, the cubes collapse to the triple product.",
+   "textbook_ref": "iemh104.txt lines 85-86, Example 15 (lines 1229-1250)",
+   "question_patterns": [
+    "Find the sum of cubes when the three numbers add to 10, multiply to 25 and their squares add to 38.",
+    "Show that a^3 + b^3 + c^3 equals 3abc whenever a + b + c = 0.",
+    "Evaluate x^3 + y^3 + z^3 - 3xyz for x = 1, y = 2, z = 3.",
+    "What does the three-cube identity become when the sum vanishes?",
+    "Compute the corrected square total for a = 2, b = 3, c = 4."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate sum of variables",
+     "explain": "Find (a + b + c).",
+     "compute": "sum_abc = a + b + c"
+    },
+    {
+     "step": 2,
+     "action": "Calculate corrected square total",
+     "explain": "Find (a^2 + b^2 + c^2 - ab - bc - ca).",
+     "compute": "trinomial_part = a**2 + b**2 + c**2 - a*b - b*c - c*a"
+    },
+    {
+     "step": 3,
+     "action": "Multiply and add triple product",
+     "explain": "Multiply the two parts and add 3abc to find the combined cubes.",
+     "compute": "sum_cubes = (sum_abc * trinomial_part) + 3*a*b*c"
+    }
+   ]
+  },
+  {
+   "id": "iemh.4.11",
+   "title": "Simplifying Rational Expressions",
+   "section": "4.8",
+   "definition": "A ratio of two polynomials shrinks when top and bottom share a factor: factor both, then strike out the shared piece, minding that the struck piece is never zero.",
+   "formula": "cancel a shared factor after factoring top and bottom",
+   "key_idea": "Factor first, cancel second, state the non-zero condition.",
+   "textbook_ref": "iemh104.txt lines 86-87, Example 16 (lines 1251+)",
+   "question_patterns": [
+    "Reduce the rational expression (x^2 - 7x + 12) over (5x^2 + 5x - 100) to lowest terms by factoring top and bottom.",
+    "Reduce a rational expression to lowest terms.",
+    "Simplify (p^2 - 3pq - 18q^2) / (p^2 - 3pq - 10q^2).",
+    "Cancel common factors in an algebraic fraction safely.",
+    "Why must the cancelled factor never be zero?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Factor the top",
+     "explain": "Use identities or split the middle term to factor the numerator."
+    },
+    {
+     "step": 2,
+     "action": "Factor the bottom",
+     "explain": "Factor the denominator completely."
+    },
+    {
+     "step": 3,
+     "action": "Cancel and note the condition",
+     "explain": "Remove the shared factor and state that it was non-zero."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh104.txt lines 194-196 (Example 4: 43^2 = (40+3)^2 = 1849)",
+   "concept": "iemh.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate {a}^2 + {b}^2 style: compute {num}^2 by splitting it as ({a} + {b})^2.",
+   "extracted_variables": {
+    "num": "43",
+    "a": "40",
+    "b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the first part",
+     "explain": "40^2 = 1600.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Double cross product",
+     "explain": "2 x 40 x 3 = 240.",
+     "compute": "twice_ab = 2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square the second part",
+     "explain": "3^2 = 9.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Add the pieces",
+     "explain": "1600 + 240 + 9 = 1849.",
+     "compute": "result = square_a + twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh104.txt lines 61-68 (Example 2: a = -2, b = -3 gives (a+b)^2 = 25)",
+   "concept": "iemh.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find (a + b)^2 for a = {a} and b = {b}.",
+   "extracted_variables": {
+    "a": "-2",
+    "b": "-3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the first term",
+     "explain": "(-2)^2 = 4.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Double cross product",
+     "explain": "2 x (-2) x (-3) = 12.",
+     "compute": "twice_ab = 2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square the second term",
+     "explain": "(-3)^2 = 9.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Add the pieces",
+     "explain": "4 + 12 + 9 = 25 = (-5)^2.",
+     "compute": "result = square_a + twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh104.txt lines 341-357 (Example 8: 29^2 = (30-1)^2 = 841)",
+   "concept": "iemh.4.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate {num}^2 by splitting it as ({a} - {b})^2.",
+   "extracted_variables": {
+    "num": "29",
+    "a": "30",
+    "b": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the first part",
+     "explain": "30^2 = 900.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Double cross product, subtracted",
+     "explain": "2 x 30 x 1 = 60, subtracted.",
+     "compute": "minus_twice_ab = -2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square the second part",
+     "explain": "1^2 = 1.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Combine",
+     "explain": "900 - 60 + 1 = 841.",
+     "compute": "result = square_a + minus_twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 73-74 (79^2 = 6241)",
+   "concept": "iemh.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find the value of ({num})^2 using the squared-gap identity with ({a} - {b})^2.",
+   "extracted_variables": {
+    "num": "79",
+    "a": "80",
+    "b": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the first part",
+     "explain": "80^2 = 6400.",
+     "compute": "square_a = a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Double cross product, subtracted",
+     "explain": "2 x 80 x 1 = 160, subtracted.",
+     "compute": "minus_twice_ab = -2 * a * b"
+    },
+    {
+     "step": 3,
+     "action": "Square the second part",
+     "explain": "1^2 = 1.",
+     "compute": "square_b = b ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Combine",
+     "explain": "6400 - 160 + 1 = 6241.",
+     "compute": "result = square_a + minus_twice_ab + square_b"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 75-76",
+   "concept": "iemh.4.4",
+   "question_type": "compute",
+   "question_pattern": "Expand and evaluate ({a} + {b} + {c})^2.",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "c": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square each term",
+     "explain": "4 + 9 + 16 = 29.",
+     "compute": "sum_squares = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Double each pairing",
+     "explain": "2 x (6 + 12 + 8) = 52.",
+     "compute": "sum_pairs = 2*a*b + 2*b*c + 2*c*a"
+    },
+    {
+     "step": 3,
+     "action": "Add everything",
+     "explain": "29 + 52 = 81 = 9^2.",
+     "compute": "result = sum_squares + sum_pairs"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 75-76 (111^2 = 12321)",
+   "concept": "iemh.4.4",
+   "question_type": "compute",
+   "question_pattern": "Find {num}^2 by the three-term identity as ({a} + {b} + {c})^2.",
+   "extracted_variables": {
+    "num": "111",
+    "a": "100",
+    "b": "10",
+    "c": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square each term",
+     "explain": "10000 + 100 + 1 = 10101.",
+     "compute": "sum_squares = a**2 + b**2 + c**2"
+    },
+    {
+     "step": 2,
+     "action": "Double each pairing",
+     "explain": "2 x (1000 + 10 + 100) = 2220.",
+     "compute": "sum_pairs = 2*a*b + 2*b*c + 2*c*a"
+    },
+    {
+     "step": 3,
+     "action": "Add everything",
+     "explain": "10101 + 2220 = 12321.",
+     "compute": "result = sum_squares + sum_pairs"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 77-78 (55^2 - 45^2)",
+   "concept": "iemh.4.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate {a}^2 - {b}^2 using identities.",
+   "extracted_variables": {
+    "a": "55",
+    "b": "45"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the bases",
+     "explain": "55 + 45 = 100.",
+     "compute": "sum_val = a + b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the bases",
+     "explain": "55 - 45 = 10.",
+     "compute": "diff_val = a - b"
+    },
+    {
+     "step": 3,
+     "action": "Multiply",
+     "explain": "100 x 10 = 1000.",
+     "compute": "result = sum_val * diff_val"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 77-78 (104 x 96)",
+   "concept": "iemh.4.5",
+   "question_type": "compute",
+   "question_pattern": "Evaluate {x} x {y} by the perfect-square gap identity with base {base}.",
+   "extracted_variables": {
+    "x": "104",
+    "y": "96",
+    "base": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the pair as sum and gap of squares",
+     "explain": "104 x 96 = (100 + 4)(100 - 4) = 100^2 - 4^2.",
+     "compute": "d = x - base"
+    },
+    {
+     "step": 2,
+     "action": "Square the base",
+     "explain": "100^2 = 10000.",
+     "compute": "base_sq = base ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the gap square",
+     "explain": "10000 - 16 = 9984.",
+     "compute": "result = base_sq - d ** 2"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 79-81",
+   "concept": "iemh.4.6",
+   "question_type": "compute",
+   "question_pattern": "Evaluate {p} x {q} as ({base} + {a})({base} + {b}).",
+   "extracted_variables": {
+    "p": "51",
+    "q": "53",
+    "base": "50",
+    "a": "1",
+    "b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the shared lead",
+     "explain": "50^2 = 2500.",
+     "compute": "sq_x = base ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Lead times the add-on total",
+     "explain": "50 x (1 + 3) = 200.",
+     "compute": "cross = base * (a + b)"
+    },
+    {
+     "step": 3,
+     "action": "Add-on product",
+     "explain": "1 x 3 = 3.",
+     "compute": "prod_ab = a * b"
+    },
+    {
+     "step": 4,
+     "action": "Combine",
+     "explain": "2500 + 200 + 3 = 2703.",
+     "compute": "result = sq_x + cross + prod_ab"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 79-81 (62 x 68)",
+   "concept": "iemh.4.6",
+   "question_type": "compute",
+   "question_pattern": "Find {p} x {q} as ({base} + {a})({base} + {b}).",
+   "extracted_variables": {
+    "p": "62",
+    "q": "68",
+    "base": "60",
+    "a": "2",
+    "b": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the shared lead",
+     "explain": "60^2 = 3600.",
+     "compute": "sq_x = base ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Lead times the add-on total",
+     "explain": "60 x (2 + 8) = 600.",
+     "compute": "cross = base * (a + b)"
+    },
+    {
+     "step": 3,
+     "action": "Add-on product",
+     "explain": "2 x 8 = 16.",
+     "compute": "prod_ab = a * b"
+    },
+    {
+     "step": 4,
+     "action": "Combine",
+     "explain": "3600 + 600 + 16 = 4216.",
+     "compute": "result = sq_x + cross + prod_ab"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 82-84 (104^3)",
+   "concept": "iemh.4.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate {num}^3 using identities with ({a} + {b})^3.",
+   "extracted_variables": {
+    "num": "104",
+    "a": "100",
+    "b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cube both parts",
+     "explain": "100^3 + 4^3 = 1000000 + 64.",
+     "compute": "sum_cubes = a ** 3 + b ** 3"
+    },
+    {
+     "step": 2,
+     "action": "Middle pieces",
+     "explain": "3 x 100 x 4 x 104 = 124800.",
+     "compute": "mid_terms = 3*a*b * (a + b)"
+    },
+    {
+     "step": 3,
+     "action": "Total",
+     "explain": "1000064 + 124800 = 1124864.",
+     "compute": "result = sum_cubes + mid_terms"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 82-84 (11^3 = 1331)",
+   "concept": "iemh.4.7",
+   "question_type": "compute",
+   "question_pattern": "Find the cube of {num} as ({a} + {b})^3.",
+   "extracted_variables": {
+    "num": "11",
+    "a": "10",
+    "b": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cube both parts",
+     "explain": "10^3 + 1^3 = 1001.",
+     "compute": "sum_cubes = a ** 3 + b ** 3"
+    },
+    {
+     "step": 2,
+     "action": "Middle pieces",
+     "explain": "3 x 10 x 1 x 11 = 330.",
+     "compute": "mid_terms = 3*a*b * (a + b)"
+    },
+    {
+     "step": 3,
+     "action": "Total",
+     "explain": "1001 + 330 = 1331.",
+     "compute": "result = sum_cubes + mid_terms"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 84-85 (99^3)",
+   "concept": "iemh.4.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate {num}^3 using identities with ({a} - {b})^3.",
+   "extracted_variables": {
+    "num": "99",
+    "a": "100",
+    "b": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cube the first part",
+     "explain": "100^3 = 1000000.",
+     "compute": "cube_a = a ** 3"
+    },
+    {
+     "step": 2,
+     "action": "Middle pieces, signed",
+     "explain": "-3 x 100 x 1 x 99 = -29700.",
+     "compute": "mid_terms = -3*a*b * (a - b)"
+    },
+    {
+     "step": 3,
+     "action": "Drop the second cube",
+     "explain": "1000000 - 29700 - 1 = 970299.",
+     "compute": "result = cube_a + mid_terms - b ** 3"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 84-85 (19^3 = 6859)",
+   "concept": "iemh.4.8",
+   "question_type": "compute",
+   "question_pattern": "Evaluate {num}^3 as ({a} - {b})^3.",
+   "extracted_variables": {
+    "num": "19",
+    "a": "20",
+    "b": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Cube the first part",
+     "explain": "20^3 = 8000.",
+     "compute": "cube_a = a ** 3"
+    },
+    {
+     "step": 2,
+     "action": "Middle pieces, signed",
+     "explain": "-3 x 20 x 1 x 19 = -1140.",
+     "compute": "mid_terms = -3*a*b * (a - b)"
+    },
+    {
+     "step": 3,
+     "action": "Drop the second cube",
+     "explain": "8000 - 1140 - 1 = 6859.",
+     "compute": "result = cube_a + mid_terms - b ** 3"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "iemh104.txt lines 1229-1250 (Example 15: sum 10, product 25)",
+   "concept": "iemh.4.10",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of cubes of three numbers if their sum is {s}, product is {p}, and sum of squares is {sq}.",
+   "extracted_variables": {
+    "s": "10",
+    "p": "25",
+    "sq": "38"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find sum of pairwise products",
+     "explain": "From (x+y+z)^2 = squares + 2 x pair sums: (100 - 38) / 2 = 31.",
+     "compute": "sum_prod = (s**2 - sq) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Corrected square total",
+     "explain": "38 - 31 = 7.",
+     "compute": "bracket = sq - sum_prod"
+    },
+    {
+     "step": 3,
+     "action": "Sum of cubes",
+     "explain": "10 x 7 + 3 x 25 = 145.",
+     "compute": "ans = s * bracket + 3 * p"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "authored; identity anchored at iemh104.txt lines 85-86 (a+b+c = 0 case)",
+   "concept": "iemh.4.10",
+   "question_type": "compute",
+   "question_pattern": "If the three numbers add to {s} and their product is {p}, find the sum of their cubes.",
+   "extracted_variables": {
+    "s": "0",
+    "p": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Note the vanishing sum",
+     "explain": "Sum is 0, so the identity collapses: cubes = 3 x product.",
+     "compute": "sum_cubes = 3 * p"
+    },
+    {
+     "step": 2,
+     "action": "Answer",
+     "explain": "3 x 6 = 18.",
+     "compute": "result = sum_cubes"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Is x^2 - 1 = 24 an identity or an equation? Explain.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute a value",
+     "explain": "Pick a value for the variable and check whether both sides agree."
+    },
+    {
+     "step": 2,
+     "action": "Substitute a second value",
+     "explain": "A second agreement hints at an identity; a single disagreement proves it is not."
+    },
+    {
+     "step": 3,
+     "action": "Conclude identity or equation",
+     "explain": "If both sides agree for every tested value, the statement is an identity; if they agree only at special values, it is an equation."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "State what makes a matching of two forms an identity.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute a value",
+     "explain": "Pick a value for the variable and check whether both sides agree."
+    },
+    {
+     "step": 2,
+     "action": "Substitute a second value",
+     "explain": "A second agreement hints at an identity; a single disagreement proves it is not."
+    },
+    {
+     "step": 3,
+     "action": "Conclude identity or equation",
+     "explain": "If both sides agree for every tested value, the statement is an identity; if they agree only at special values, it is an equation."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.9",
+   "question_type": "verify_property",
+   "question_pattern": "Factorize x^3 - y^3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Spot the cube roots",
+     "explain": "Match each term to a cube to read off a and b."
+    },
+    {
+     "step": 2,
+     "action": "Write the straight factor",
+     "explain": "(a + b) for a cube sum, (a - b) for a cube gap."
+    },
+    {
+     "step": 3,
+     "action": "Write the three-piece factor",
+     "explain": "Squares of both terms with the cross product: minus for a sum, plus for a gap."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.9",
+   "question_type": "verify_property",
+   "question_pattern": "Factorize 8n^3 + 27m^3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Spot the cube roots",
+     "explain": "Match each term to a cube to read off a and b."
+    },
+    {
+     "step": 2,
+     "action": "Write the straight factor",
+     "explain": "(a + b) for a cube sum, (a - b) for a cube gap."
+    },
+    {
+     "step": 3,
+     "action": "Write the three-piece factor",
+     "explain": "Squares of both terms with the cross product: minus for a sum, plus for a gap."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.11",
+   "question_type": "verify_property",
+   "question_pattern": "Reduce the rational expression (x^2 - 7x + 12) over (5x^2 + 5x - 100) to lowest terms by factoring top and bottom.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Factor the top",
+     "explain": "Use identities or split the middle term to factor the numerator."
+    },
+    {
+     "step": 2,
+     "action": "Factor the bottom",
+     "explain": "Factor the denominator completely."
+    },
+    {
+     "step": 3,
+     "action": "Cancel and note the condition",
+     "explain": "Remove the shared factor and state that it was non-zero."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.4.11",
+   "question_type": "verify_property",
+   "question_pattern": "Reduce a rational expression to lowest terms.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Factor the top",
+     "explain": "Use identities or split the middle term to factor the numerator."
+    },
+    {
+     "step": 2,
+     "action": "Factor the bottom",
+     "explain": "Factor the denominator completely."
+    },
+    {
+     "step": 3,
+     "action": "Cancel and note the condition",
+     "explain": "Remove the shared factor and state that it was non-zero."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iemh104.txt lines 196-210 (Exercise Set 4.1)",
+   "questions": [
+    "Using the identity (a + b)^2 = a^2 + 2ab + b^2, expand (7x + 4y)^2",
+    "Find the value of (105)^2 using identities"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "iemh104.txt lines 358-375 (Exercise Set 4.2)",
+   "questions": [
+    "Factor completely: 9x^2 + 24xy + 16y^2",
+    "Find the value of (193)^2 using (a - b)^2"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "iemh104.txt lines 467-480 (Exercise Set 4.3)",
+   "questions": [
+    "Expand (3x - 2y + 4z)^2",
+    "Factor using suitable identities: 16y^2 - 24y + 9"
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "iemh104.txt lines 1420-1435 (Exercise Set 4.5)",
+   "questions": [
+    "Simplify (3p^2 - 3pq - 18q^2) / (p^2 - 3pq - 10q^2)",
+    "Simplify (x^2 + 7x + 12)(x^2 - 8x + 16) / (x^2 - 16)(x^2 + 6x + 9)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; schema/copyright/DSL/grounding reviewed, compute scope fixed and enriched by quality reviewer"
+}

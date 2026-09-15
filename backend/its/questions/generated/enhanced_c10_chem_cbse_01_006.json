@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_006",
+   "title": "c10_chem_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the general chemical equation for a double displacement reaction, and what are the three common observable outcomes that drive this reaction forward?",
+     "a": "The general equation is AB(aq) + CD(aq) → AD + CB. The three common driving forces are: (1) formation of an insoluble precipitate (solid), (2) evolution of a gas, and (3) formation of water (in neutralisation reactions). A wrong answer such as \"formation of a soluble product\" or \"change in colour only\" reveals the student does not understand the thermodynamic driving force — they are focusing on superficial changes rather than the removal of ions from solution as a precipitate, gas, or stable water molecules.",
+     "self_check": true
+    },
+    {
+     "q": "When aqueous solutions of barium chloride and sodium sulphate are mixed, a white precipitate forms. Write the balanced chemical equation with state symbols and explain why this reaction occurs, referring to the ions present in solution.",
+     "a": "BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq). The reaction occurs because Ba²⁺ and SO₄²⁻ ions combine to form insoluble barium sulphate (precipitate), removing these ions from solution. The Na⁺ and Cl⁻ ions remain in solution as spectator ions. A wrong answer that writes BaCl₂ + Na₂SO₄ → BaSO₄ + NaCl (unbalanced) or omits state symbols shows the student cannot apply solubility rules or balance equations with polyatomic ions. Writing the products as BaCl₂ + Na₂SO₄ → BaCl₂ + Na₂SO₄ (no reaction) indicates they do not know BaSO₄ is insoluble.",
+     "self_check": true
+    },
+    {
+     "q": "A student mixes 5.0 g of sodium carbonate (Na₂CO₃) with excess calcium chloride (CaCl₂) solution. Calculate the mass of calcium carbonate precipitate formed. (Molar masses: Na₂CO₃ = 106 g/mol, CaCO₃ = 100 g/mol)",
+     "a": "Step 1: Write balanced equation: Na₂CO₃(aq) + CaCl₂(aq) → CaCO₃(s) + 2NaCl(aq).\nStep 2: Moles of Na₂CO₃ = 5.0 g / 106 g/mol = 0.0472 mol.\nStep 3: Mole ratio Na₂CO₃ : CaCO₃ = 1:1, so moles of CaCO₃ = 0.0472 mol.\nStep 4: Mass of CaCO₃ = 0.0472 mol × 100 g/mol = 4.72 g.\nAnswer: 4.72 g of CaCO₃ precipitate. A wrong answer of 5.0 g (mass conserved but wrong product) or 9.44 g (using 2:1 ratio) reveals the student cannot connect stoichiometry to the balanced double displacement equation or misapplies the mole ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two reactions and classify each. Explain the fundamental difference in terms of ion exchange and oxidation states.\n(i) Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)\n(ii) AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)",
+     "a": "(i) is a displacement reaction (single displacement): Zn displaces Cu²⁺ because Zn is more reactive. Oxidation states change: Zn⁰ → Zn²⁺ (oxidation), Cu²⁺ → Cu⁰ (reduction). (ii) is a double displacement reaction: Ag⁺ and Na⁺ exchange anions. No change in oxidation states — all ions remain Ag⁺, Na⁺, Cl⁻, NO₃⁻. The fundamental difference: displacement involves a redox change with a more reactive metal displacing a less reactive one from its salt; double displacement involves ion exchange between two ionic compounds without redox. A wrong answer calling both \"displacement\" or saying oxidation states change in (ii) shows confusion between electron transfer and ion exchange.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction between hydrochloric acid and sodium hydroxide as: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l). They claim this is a double displacement reaction. Evaluate this claim and justify your answer.",
+     "a": "The claim is correct. Neutralisation is a sub-type of double displacement reaction where H⁺ from acid and OH⁻ from base exchange partners to form water (H₂O), while the other ions (Na⁺, Cl⁻) form a salt. The net ionic equation is H⁺(aq) + OH⁻(aq) → H₂O(l), showing the driving force is formation of stable water molecules. A wrong evaluation saying \"it is not double displacement because no precipitate forms\" reveals the student incorrectly believes a precipitate is the only driving force, ignoring gas evolution and water formation as valid driving forces for double displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household materials (kitchen ingredients) to demonstrate a double displacement reaction that produces a visible precipitate. List the materials, procedure, observation, and the balanced chemical equation.",
+     "a": "Materials: Baking soda (NaHCO₃), vinegar (CH₃COOH) — wait, that's acid-base gas evolution. Better: Epsom salt (MgSO₄) and washing soda (Na₂CO₃) — both available in Indian households. Procedure: Dissolve 1 tsp MgSO₄ in 50 mL water and 1 tsp Na₂CO₃ in 50 mL water. Mix the two solutions. Observation: White precipitate of MgCO₃ forms immediately. Equation: MgSO₄(aq) + Na₂CO₃(aq) → MgCO₃(s) + Na₂SO₄(aq). A poor answer using vinegar and baking soda (produces CO₂ gas, not a precipitate) or using table salt and sugar (no reaction) shows the student cannot identify suitable ionic compounds that form an insoluble product from common household items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

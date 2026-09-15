@@ -1,0 +1,158 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 302,
+ "chapter_title": "Map Scale",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy302.txt",
+ "concepts": [
+  {
+   "id": "kegy.302.1.1",
+   "title": "Map Scale, Representative Fraction and Ground Distance",
+   "section": "Map scale",
+   "definition": "Map scale expresses the ratio between map distance and ground distance as a statement, a representative fraction such as 1:50,000 or a linear graphical scale, and the actual ground distance equals the map distance multiplied by the scale value.",
+   "formula": "actual_distance = map_distance * scale",
+   "key_idea": "The representative fraction is unit free, so one inch on a 1:63,360 map means one mile on the ground.",
+   "textbook_ref": "kegy302.txt methods of expressing scale section",
+   "question_patterns": [
+    "define map scale and name the methods of expressing it",
+    "calculate the ground distance from map distance and scale",
+    "what is a representative fraction and why is it unit free",
+    "convert a statement of scale into a representative fraction",
+    "compare statement scale and graphical scale",
+    "find the map distance for a given ground distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply map distance by scale",
+     "explain": "Multiply the distance measured on the map by the scale value to obtain the actual ground distance",
+     "compute": "actual_distance = map_distance * scale"
+    }
+   ]
+  },
+  {
+   "id": "kegy.302.2.1",
+   "title": "Conversion of Scales and Construction of Graphical Scale",
+   "section": "",
+   "definition": "Converting scales changes a statement or fraction from metric to English units or vice versa using the relation that one inch equals 2.54 cm, and a graphical linear scale is constructed with primary and secondary divisions so that distance can be read directly even after map enlargement or reduction.",
+   "formula": "",
+   "key_idea": "A graphical scale keeps its truth when the map is photographically enlarged or reduced, which is its great advantage over verbal and fractional scales.",
+   "textbook_ref": "kegy302.txt conversion and graphical scale sections",
+   "question_patterns": [
+    "convert a representative fraction into a statement of scale",
+    "how is a linear or graphical scale constructed",
+    "why is a graphical scale superior to a verbal scale",
+    "state the relation between inch centimetre and mile kilometre",
+    "draw a graphical scale for a given representative fraction",
+    "what happens to each scale type when a map is enlarged"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.302.3.1",
+   "title": "Uses of Scales and Their Choice for Different Maps",
+   "section": "Uses of scale",
+   "definition": "The choice of scale depends on the purpose and extent of the map: large scales of 1:25,000 show cadastral detail, 1:50,000 topographical sheets serve field studies, and small scales of 1:1 million or more serve atlases and wall maps, since finer detail needs larger scale.",
+   "formula": "",
+   "key_idea": "Scale controls generalisation: small scale maps must omit and simplify features, while large scale maps preserve positional accuracy.",
+   "textbook_ref": "kegy302.txt uses of scale sections",
+   "question_patterns": [
+    "which scale suits a cadastral map and why",
+    "differentiate large scale maps from small scale maps with examples",
+    "what scale do topographical sheets of india use",
+    "how does scale affect the detail shown on a map",
+    "choose a suitable scale for an atlas map of a continent",
+    "state the relation between scale and generalisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kegy302.txt scale computation section",
+   "concept": "kegy.302.1.1",
+   "question_type": "compute_ground_distance",
+   "question_pattern": "On a map with a scale of 1 cm to {scale} km, two towns lie {map_distance} cm apart. Calculate the actual ground distance between them.",
+   "extracted_variables": {
+    "map_distance": 6,
+    "scale": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply map distance by scale",
+     "explain": "Multiply the distance measured on the map by the scale value to obtain the actual ground distance",
+     "compute": "actual_distance = map_distance * scale"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kegy302.txt scale computation section",
+   "concept": "kegy.302.1.1",
+   "question_type": "compute_ground_distance",
+   "question_pattern": "A road measures {map_distance} cm on a map drawn at a scale of 1 cm to {scale} km. Find the real length of the road.",
+   "extracted_variables": {
+    "map_distance": 4.5,
+    "scale": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply map distance by scale",
+     "explain": "Multiply the distance measured on the map by the scale value to obtain the actual ground distance",
+     "compute": "actual_distance = map_distance * scale"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy302.txt exercises",
+   "questions": [
+    "Convert the given representative fraction into a statement of scale.",
+    "Construct a graphical scale for the given fraction.",
+    "Calculate the actual distance between two places from map measurements.",
+    "Distinguish between verbal and graphical scales.",
+    "Why is the representative fraction called an international scale?"
+   ]
+  }
+ ]
+}

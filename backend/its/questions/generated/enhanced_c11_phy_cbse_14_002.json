@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_002",
+   "title": "c11_phy_cbse_14_002",
+   "questions": [
+    {
+     "q": "State the three equivalent expressions for the speed of a progressive wave in terms of (i) angular frequency and angular wave number, (ii) wavelength and frequency, (iii) wavelength and period. Give the SI unit of wave speed.",
+     "a": "The three expressions are: v = ω/k, v = λν, v = λ/T. SI unit: m/s. A wrong answer (e.g., v = k/ω or v = ν/λ) reveals the student has memorised formulas without understanding the phase constancy derivation or the physical meaning of wavelength as distance per cycle and period as time per cycle.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse wave travels on a stretched string with speed v. If the tension is doubled while keeping the linear mass density constant, what happens to the wave speed? Explain using the formula v = √(T/μ) and the physical reasoning behind it.",
+     "a": "The wave speed increases by a factor of √2. Since v ∝ √T, doubling T gives v_new = √(2T/μ) = √2 × √(T/μ) = √2 v. A wrong answer (e.g., \"speed doubles\" or \"speed unchanged\") reveals the student either ignores the square root relationship or doesn't understand that tension provides restoring force (increasing speed) while mass density provides inertia (decreasing speed).",
+     "self_check": true
+    },
+    {
+     "q": "A steel wire of length 1.2 m and mass 6.0 g is stretched under a tension of 150 N. Calculate the speed of a transverse wave on this wire. Show all steps with unit analysis.",
+     "a": "Given: L = 1.2 m, m = 6.0 g = 6.0 × 10⁻³ kg, T = 150 N.\nStep 1: Linear mass density μ = m/L = (6.0 × 10⁻³ kg)/(1.2 m) = 5.0 × 10⁻³ kg/m.\nStep 2: Wave speed v = √(T/μ) = √(150 N / 5.0 × 10⁻³ kg/m).\nStep 3: Units: N = kg·m/s², so T/μ = (kg·m/s²)/(kg/m) = m²/s². √ gives m/s. ✓\nStep 4: v = √(150 / 0.005) = √(30,000) = 173.2 m/s ≈ 173 m/s.\nA wrong answer (e.g., 1732 m/s or 5.48 m/s) reveals unit conversion errors (forgetting g→kg) or incorrect formula application (using v = T/μ instead of √(T/μ)).",
+     "self_check": true
+    },
+    {
+     "q": "Two strings A and B have the same linear mass density μ. String A has tension T_A = 40 N, string B has tension T_B = 90 N. A wave of frequency 50 Hz travels on both strings. Compare (a) the wave speeds, (b) the wavelengths on the two strings. Explain your reasoning.",
+     "a": "(a) v_A = √(40/μ), v_B = √(90/μ) → v_B/v_A = √(90/40) = √2.25 = 1.5. So v_B = 1.5 v_A.\n(b) Since ν is same (50 Hz) on both, λ = v/ν. So λ_B/λ_A = v_B/v_A = 1.5. Wavelength on B is 1.5 times that on A.\nA wrong answer (e.g., \"wavelengths are equal because frequency is same\") reveals the student thinks λ depends only on ν, forgetting v = λν and that v differs due to different tensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The speed of sound in air at STP calculated using Newton's formula (v = √(P/ρ)) gives 280 m/s, but the experimental value is 331 m/s. Therefore Newton's formula is wrong and should be discarded.\" Evaluate this claim.",
+     "a": "The claim is incorrect. Newton's formula assumes isothermal compression/rarefaction, but sound propagation is too fast for heat exchange - it's adiabatic. Laplace corrected this by using adiabatic bulk modulus B = γP, giving v = √(γP/ρ) = √γ × 280 m/s. For air γ = 7/5, so v = √1.4 × 280 ≈ 332 m/s, matching experiment. The student's error is judging a model by its initial approximation without understanding the physical assumption (isothermal vs adiabatic) that needed correction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone, a long string, and known masses to verify the relationship v = √(T/μ) for transverse waves on a string. Describe the procedure, measurements needed, and how you would analyse the data.",
+     "a": "Procedure: Fix one end of string to a vibrator (phone speaker playing fixed frequency tone), other end over pulley with hanging mass for tension. Measure μ = mass/length of string. Vary hanging mass to change T. Use phone's slow-motion video to measure wavelength λ (distance between nodes). Calculate v = λν (ν known from tone frequency). Plot v² vs T - should be linear with slope 1/μ. Good answer shows understanding of controlling ν, measuring λ, and linearising v = √(T/μ) to v² = T/μ. Poor answer measures wave speed by timing a pulse over distance (hard to time accurately) or doesn't vary T systematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

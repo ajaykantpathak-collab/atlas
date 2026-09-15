@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Alternative Centres of Power",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.102.1",
+   "title": "The European Union",
+   "section": "The European Union",
+   "definition": "The European Union evolved from post-war economic cooperation through the 1957 Treaty of Rome into a political-economic union with a common currency, common foreign and security policy and member-driven institutions; the EU is the world's largest economy bloc challenges of integration remain.",
+   "formula": "",
+   "key_idea": "The EU integrates by economics first and politics second, pooling sovereignty in trade and currency while nations keep armies.",
+   "textbook_ref": "leps102.txt EU evolution, institutions and currency sections",
+   "question_patterns": [
+    "trace the EU's evolution from the Treaty of Rome",
+    "name the EU's key institutions and roles",
+    "what is the euro and when did it circulate",
+    "state the EU's economic and military strengths",
+    "discuss limits of EU integration",
+    "compare the EU's soft power with US hard power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "start at Rome",
+     "explain": "the 1957 treaty created the EEC that grew into the EU"
+    },
+    {
+     "step": 2,
+     "action": "pool the money",
+     "explain": "the euro replaced national currencies across most members"
+    },
+    {
+     "step": 3,
+     "action": "close with limits",
+     "explain": "defence and foreign policy remain largely national choices"
+    }
+   ]
+  },
+  {
+   "id": "leps.102.2",
+   "title": "ASEAN's Way",
+   "section": "The Association of South East Asian Nations",
+   "definition": "ASEAN, founded in 1967, built regional cooperation through the 'ASEAN way' - consensus, non-interference and informality - creating an ASEAN Free Trade Area and security dialogues like the ASEAN Regional Forum without supranational institutions.",
+   "formula": "",
+   "key_idea": "The ASEAN way trades speed for comfort: no member is forced, so all members stay at the table.",
+   "textbook_ref": "leps102.txt ASEAN founding, ASEAN way and FTA sections",
+   "question_patterns": [
+    "when was ASEAN founded and by which states",
+    "describe the ASEAN way of cooperation",
+    "what is the ASEAN Free Trade Area",
+    "state the role of the ASEAN Regional Forum",
+    "compare ASEAN's and EU's integration models",
+    "assess ASEAN's economic and strategic significance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the founding",
+     "explain": "ASEAN formed in 1967 by five Southeast Asian states"
+    },
+    {
+     "step": 2,
+     "action": "read the way",
+     "explain": "consensus and non-interference govern decision-making"
+    },
+    {
+     "step": 3,
+     "action": "close with the forum",
+     "explain": "the ARF extends ASEAN's convening power to bigger powers"
+    }
+   ]
+  },
+  {
+   "id": "leps.102.3",
+   "title": "China's Rise",
+   "section": "China",
+   "definition": "China's rise rests on the 1978 economic reforms that opened the economy to foreign investment and markets while keeping party control, producing decades of double-digit growth, the world's largest populated military modernisation and global economic weight; integration with the world economy through WTO entry deepened its rise.",
+   "formula": "",
+   "key_idea": "Reform without democratisation created a distinctive model: markets in goods, party control in politics.",
+   "textbook_ref": "leps102.txt 1978 reforms, growth and WTO entry sections",
+   "question_patterns": [
+    "what changed in China after the 1978 reforms",
+    "compute the years between the PRC's founding and the reforms",
+    "state the pillars of China's economic rise",
+    "how did WTO entry affect China's economy",
+    "discuss the China model's political features",
+    "evaluate China as an alternative centre of power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the turning point",
+     "explain": "Deng's reforms launched in 1978 after the PRC's 1949 founding"
+    },
+    {
+     "step": 2,
+     "action": "measure the growth",
+     "explain": "special economic zones and exports industrialised the coast"
+    },
+    {
+     "step": 3,
+     "action": "close with leverage",
+     "explain": "trade surpluses and reserves converted into global influence"
+    }
+   ]
+  },
+  {
+   "id": "leps.102.4",
+   "title": "Japan and Emerging Centres",
+   "section": "Japan and Korea",
+   "definition": "Japan rebuilt as an economic power after 1945 under the US security umbrella, leading in technology and aid despite constitutional limits on military role; South Korea and other Asian economies followed export-led models, adding further centres to a diversifying world economy.",
+   "formula": "",
+   "key_idea": "Economic power without matching military power defined Japan's post-war international personality.",
+   "textbook_ref": "leps102.txt Japan's rise, constitution limits and Korea sections",
+   "question_patterns": [
+    "describe Japan's post-war economic rise",
+    "how does the constitution limit Japan's military",
+    "state South Korea's development model",
+    "compare Japan's and China's paths to power",
+    "relate US alliances to East Asian economics",
+    "assess the shift from G7 to G20 in world governance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rebuild the economy",
+     "explain": "post-1945 Japan industrialised under US protection"
+    },
+    {
+     "step": 2,
+     "action": "note the clause",
+     "explain": "the peace constitution constrained overseas military action"
+    },
+    {
+     "step": 3,
+     "action": "close with followers",
+     "explain": "Korea and ASEAN economies replicated export-led growth"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps102_1",
+   "source_ref": "leps102.txt China dates",
+   "concept": "leps.102.3",
+   "question_type": "compute",
+   "question_pattern": "The People's Republic of China was founded in 1949 and the economic reforms began in 1978. Compute the years between the founding and the reforms.",
+   "extracted_variables": {
+    "founding_year": 1949,
+    "reform_year": 1978
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1949 founding, 1978 reforms",
+     "compute": "founding_year = 1949"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1978 - 1949 = 29 years",
+     "compute": "reform_gap = reform_year - founding_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps102_2",
+   "source_ref": "leps102.txt ASEAN section",
+   "concept": "leps.102.2",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the ASEAN way with two of its principles.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "consensus",
+     "explain": "decisions require agreement rather than votes"
+    },
+    {
+     "step": 2,
+     "action": "non-interference",
+     "explain": "members avoid criticising internal affairs of others"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "informality kept all members engaged despite differences"
+    }
+   ]
+  },
+  {
+   "id": "we_leps102_3",
+   "source_ref": "leps102.txt EU section",
+   "concept": "leps.102.1",
+   "question_type": "short_answer",
+   "question_pattern": "Identify two areas where the EU pools sovereignty and one where it does not.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pooled areas",
+     "explain": "trade policy and currency are managed at EU level"
+    },
+    {
+     "step": 2,
+     "action": "unpooled area",
+     "explain": "armies and defence remain national"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "economic integration outpaced political integration"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps102_1",
+   "source_ref": "leps102.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "trace the European Union's evolution and institutions",
+    "describe ASEAN's founding and the ASEAN way",
+    "compute the gap between the PRC's founding and 1978 reforms",
+    "evaluate China's rise as an alternative power centre",
+    "compare EU and ASEAN as regional organisations"
+   ]
+  },
+  {
+   "id": "ex_leps102_2",
+   "source_ref": "leps102.txt applied questions, reworded",
+   "questions": [
+    "argue whether the EU can balance US power",
+    "assess China's model for developing countries",
+    "relate Japan's constitution to its foreign policy",
+    "map ASEAN's strategic importance to India",
+    "discuss multipolarity's institutions beyond the UN"
+   ]
+  }
+ ]
+}

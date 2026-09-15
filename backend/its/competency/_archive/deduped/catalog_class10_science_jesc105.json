@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Life Processes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.105.5.1",
+   "title": "Nutrition - Autotrophic and Heterotrophic",
+   "section": "5.2",
+   "definition": "Nutrition supplies the material and energy of life: autotrophs like green plants build food from carbon dioxide and water using sunlight in photosynthesis, while heterotrophs depend on ready-made food, digesting it stepwise as in the human alimentary canal or in amoeba's food vacuoles.",
+   "formula": "-",
+   "key_idea": "Cook your own or consume others - autotrophs and heterotrophs cover both routes.",
+   "textbook_ref": "jesc105.txt sections 5.2 (nutrition)",
+   "question_patterns": [
+    "differentiate autotrophic and heterotrophic nutrition with examples",
+    "write the events of photosynthesis with the raw materials",
+    "describe the steps of nutrition in amoeba",
+    "explain the role of hydrochloric acid and enzymes in the human stomach",
+    "why is the small intestine long and lined with villi - explain",
+    "draw and label the human alimentary canal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the mode",
+     "explain": "Green plants cook their own food; animals consume ready food."},
+    {"step": 2, "action": "follow the process",
+     "explain": "Ingestion, digestion, absorption, assimilation and egestion run in sequence."},
+    {"step": 3, "action": "note the machinery",
+     "explain": "Enzymes and organs specialise each step."}
+   ]
+  },
+  {
+   "id": "jesc.105.5.2",
+   "title": "Respiration and Transport",
+   "section": "5.3",
+   "definition": "Respiration releases energy from food: aerobic breakdown in mitochondria yields the most energy, anaerobic breakdown in yeast or muscle yields less with alcohol or lactic acid; in humans the respiratory surface of alveoli loads oxygen onto blood, and the pumping heart with its vessels transports it everywhere, while plants move water upward through xylem using transpiration pull.",
+   "formula": "-",
+   "key_idea": "Break food with oxygen, then carry it: alveoli exchange, heart pumps, xylem lifts.",
+   "textbook_ref": "jesc105.txt sections 5.3-5.4 (respiration, transportation)",
+   "question_patterns": [
+    "differentiate aerobic and anaerobic respiration with products",
+    "why do we get muscle cramps after heavy exercise - explain lactic acid",
+    "describe the exchange of gases in the alveoli of human lungs",
+    "explain double circulation in the human heart with a diagram",
+    "how does transpiration pull lift water in tall plants - explain",
+    "what are the components of blood and their functions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the breakdowns",
+     "explain": "With oxygen energy is full; without it, alcohol or lactic acid forms."},
+    {"step": 2, "action": "follow the carriers",
+     "explain": "Blood in animals and xylem-phloem in plants transport materials."},
+    {"step": 3, "action": "note the exchange points",
+     "explain": "Alveoli for gases, capillaries for food and waste."}
+   ]
+  },
+  {
+   "id": "jesc.105.5.3",
+   "title": "Excretion in Humans and Plants",
+   "section": "5.5",
+   "definition": "Excretion removes toxic wastes: in humans the kidneys filter blood in nephrons, returning useful substances and draining urine through ureters to the bladder; plants recycle or store wastes in leaves, bark and vacuoles, releasing some as resins and gums.",
+   "formula": "-",
+   "key_idea": "Filter the blood, keep the useful, flush the toxic - the nephron's triple duty.",
+   "textbook_ref": "jesc105.txt section 5.5 (excretion)",
+   "question_patterns": [
+    "describe the structure and function of a nephron",
+    "how is urine produced in the human excretory system",
+    "why do plants have different excretory methods than animals - explain",
+    "what happens if the kidneys fail - discuss dialysis",
+    "name the excretory products of plants and where they are stored",
+    "draw and label the human excretory system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "follow the blood",
+     "explain": "Blood enters the glomerulus where filtration begins."},
+    {"step": 2, "action": "selective reabsorption",
+     "explain": "Glucose, salts and water return to the blood in the tubule."},
+    {"step": 3, "action": "collect the urine",
+     "explain": "Remaining fluid drains as urine through the ureter to storage."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "jesc105.txt exercises",
+   "questions": [
+     "Why is diffusion insufficient for multicellular organisms?",
+     "Describe the process of photosynthesis with its events.",
+     "Explain the working of the nephron with a diagram."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "catalog": "catalog_class7_maths_ch13_visualising_solid_shapes.json",
+ "concepts": [
+  {
+   "id": "c7m13.1.1",
+   "title": "Plane Figures and Solid Shapes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 12 gives 12",
+     "compute": "edges = 12"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For a cube, find the number of edges.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For a tetrahedron, find the number of vertices.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a triangular prism by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 8, find F.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 8, find V.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 7, find E.",
+     "a": "14",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.2.1",
+   "title": "Faces, Edges, and Vertices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 5 * 9 * 8 gives 360",
+     "compute": "vol = 5 * 9 * 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the volume of a cuboid 5 cm x 9 cm x 8 cm.",
+     "a": "360",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cuboid 9 cm x 6 cm x 6 cm.",
+     "a": "288",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cube of edge 8 cm.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cube of edge 3 cm.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cylinder of radius 49 cm and height 3 cm (pi = 22/7).",
+     "a": "22638",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a cylinder of radius 21 cm and height 14 cm (pi = 22/7).",
+     "a": "1848",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.3.1",
+   "title": "Nets for Building 3-D Shapes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For a hexagonal prism, find the number of edges.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For a triangular prism, find the number of vertices.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a tetrahedron by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 8, find F.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 8, find V.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 6, find E.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.4.1",
+   "title": "Oblique Sketches",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 4 : 24 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is divided between two friends in the ratio 3 : 6. Find the smaller share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 7 = 16 : ?  (give the fourth term).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 7 :: 16 : 14 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 80, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.4.2",
+   "title": "Isometric Sketches",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 3 gives 4",
+     "compute": "t1 = 12 / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 12 : 27 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 440 is divided between two friends in the ratio 4 : 7. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 4 = 21 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 4 :: 21 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 100, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.4.3",
+   "title": "Visualising Solid Objects",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For a hexagonal prism, find the number of edges.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For a square pyramid, find the number of vertices.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a hexagonal prism by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 9, find F.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 9, find V.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 9, find E.",
+     "a": "18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.5.1",
+   "title": "Viewing Sections by Cutting or Slicing",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For a hexagonal prism, find the number of edges.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For a pentagonal pyramid, find the number of vertices.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a cube by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 6, find F.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 6, find V.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 8, find E.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.5.2",
+   "title": "Viewing by Shadow Play",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 8 gives 8",
+     "compute": "edges = 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For a square pyramid, find the number of edges.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For a cube, find the number of vertices.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a hexagonal prism by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 4, find F.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 4, find V.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 8, find E.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m13.5.3",
+   "title": "Viewing from Different Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For a hexagonal prism, find the number of edges.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For a pentagonal pyramid, find the number of vertices.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a tetrahedron by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 5, find F.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 5, find V.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 7, find E.",
+     "a": "14",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

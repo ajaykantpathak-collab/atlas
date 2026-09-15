@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_004",
+   "title": "c12_geo_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name two economic factors and two social-cultural factors that influence population distribution, giving one global example for each.",
+     "a": "Economic: (1) Mineral deposits — Katanga-Zambia copper belt; (2) Industrialization — Kobe-Osaka region, Japan. Social-cultural: (1) Religious significance — Varanasi, Jerusalem; (2) Political unrest — out-migration from conflict zones like Syria. A wrong answer that lists geographical factors (water, climate) shows confusion between Node 003 and this node; listing only one category indicates incomplete coverage.",
+     "self_check": true
+    },
+    {
+     "q": "The Chota Nagpur plateau has rugged terrain, moderate rainfall, and laterite soils — geographical disadvantages — yet supports high population density. Explain this using economic and social factors.",
+     "a": "Rich mineral deposits (iron ore, coal, manganese, bauxite) attracted mining and heavy industries (Jamshedpur, Bokaro, Dhanbad), generating employment and urbanization. Socially, industrial towns developed educational/medical infrastructure, becoming pull centers. A student who only cites \"flat land\" or \"good rainfall\" is applying geographical factors incorrectly; one who says \"government policy\" without linking to mineral-based industrialization misses the economic driver.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the crude population density of Dhanbad district (area 2,052 sq km, population 2.68 million, 2011 Census). Then explain why this density is misleading as a measure of population pressure on land.",
+     "a": "Density = 2,680,000 / 2,052 ≈ 1,306 persons/sq km. This is \"crude density\" — it divides total population by total area, ignoring that much of the district is mining land, forest, or rugged terrain uninhabitable for agriculture. Physiological density (population per net sown area) would be far higher, revealing true pressure on cultivable land. A student who stops at the calculation without the critique misses the geographical meaning; one who uses total area of Jharkhand instead of Dhanbad makes a unit error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of urbanization as a pull factor in Mumbai (India) and Lagos (Nigeria). Identify two similarities and one key difference in how urbanization drives population concentration.",
+     "a": "Similarities: (1) Both are mega-cities offering diverse employment (formal + informal), education, healthcare, and connectivity — classic urban pull. (2) Both experience massive rural-urban migration, creating sprawling settlements. Difference: Mumbai's growth is constrained by peninsular geography (sea on three sides), forcing extreme vertical density and high land costs; Lagos expands into lagoons and mainland with different spatial morphology. A student who only lists \"jobs\" for both misses the spatial constraint nuance; one who confuses Lagos with a planned capital (Abuja) shows factual error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government incentives to settle sparsely populated areas (e.g., India's North-East, Brazil's Amazon) have successfully redistributed population.\" Support with evidence.",
+     "a": "Largely unsuccessful. India's North-East remains sparsely populated despite incentives (tax breaks, land grants) due to insurgency, poor connectivity, and lack of private investment — push factors outweigh policy pulls. Brazil's Amazon colonization (1970s Trans-Amazonian Highway) led to deforestation but low sustainable settlement; most migrants returned or moved to cities. A student who calls it \"successful\" ignores ground reality; one who cites only one country fails comparative evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a annotated sketch map (mental or paper) showing how economic and social factors create a \"population island\" in an otherwise sparse region. Use the example of the Katanga-Zambia copper belt or India's Singrauli energy corridor. Include: mineral/industrial nodes, transport links, urban centers, and source regions of migrants.",
+     "a": "A good sketch shows: (1) Mineral belt as linear/clustered nodes; (2) Railway/road links connecting mines to ports/markets; (3) Industrial towns (Lubumbashi, Kolwezi / Singrauli, Rihand) with high-density symbols; (4) Arrows from source regions (rural hinterlands, other states) labeled \"migrant labor\"; (5) Note on social infrastructure (schools, hospitals) in towns. A poor sketch omits transport links or migrant flows, treating the island as self-generated; one that adds only physical geography (rivers, relief) confuses the node's scope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

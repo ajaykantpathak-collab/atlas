@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_7",
+   "title": "c9_bio_ch2_7",
+   "questions": [
+    {
+     "q": "Define striated muscle tissue and state two microscopic features that distinguish it from cardiac muscle tissue.",
+     "a": "Striated (skeletal) muscle tissue consists of long, cylindrical, unbranched, multinucleated fibers showing alternating light and dark transverse striations; it differs from cardiac muscle in being unbranched and having multiple peripheral nuclei, whereas cardiac muscle is branched with a single central nucleus and shows intercalated discs. A wrong answer that mentions \"branched fibers\" or \"single nucleus\" for striated muscle reveals confusion between skeletal and cardiac muscle microstructure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why smooth muscle is called 'unstriated' even though it contains the same contractile proteins (actin and myosin) as striated muscle.",
+     "a": "Smooth muscle lacks visible striations because its actin and myosin filaments are arranged obliquely in a loose lattice rather than in the highly ordered, repeating sarcomeres (Z-line to Z-line) seen in striated and cardiac muscle; this disordered arrangement prevents the regular light/dark banding pattern. A wrong answer stating \"smooth muscle has no actin or myosin\" reveals a fundamental misconception about the universality of the contractile machinery.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student observes a muscle tissue slide showing branched, striated fibers with a single central nucleus and dark lines (intercalated discs) at cell junctions. Identify the muscle type and predict its fatigue resistance compared to skeletal muscle, giving a reason.",
+     "a": "The tissue is cardiac muscle; it has high fatigue resistance because it is rich in mitochondria, myoglobin, and a dense capillary network for continuous aerobic respiration, unlike skeletal muscle which can fatigue during intense anaerobic activity. A wrong answer predicting low fatigue resistance or citing \"voluntary control\" shows failure to connect structural adaptations (mitochondria, intercalated discs for synchronized contraction) to the heart's non-stop pumping function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nervous control of skeletal muscle and smooth muscle. How does this difference relate to their locations and functions in the body?",
+     "a": "Skeletal muscle is under somatic (voluntary) nervous control via motor neurons releasing acetylcholine at neuromuscular junctions, enabling conscious movement of bones; smooth muscle is under autonomic (involuntary) control—both sympathetic and parasympathetic—allowing unconscious regulation of visceral functions like vasoconstriction and peristalsis. A wrong answer claiming both are voluntary or both autonomic indicates inability to link control mechanism to the behavioral need for conscious vs. automatic regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Cardiac muscle combines the best features of both skeletal and smooth muscle for its role in the heart.\" Justify your evaluation with three specific structural or functional points.",
+     "a": "The statement is largely correct: cardiac muscle shares striations and sarcomere organization with skeletal muscle (for strong, rapid contractions), branching and single central nucleus with smooth muscle (for 3D network formation), and uniquely possesses intercalated discs with gap junctions for rapid electrical coupling and desmosomes for mechanical strength—enabling synchronized, fatigue-resistant, involuntary pumping. A wrong answer listing only \"striations\" or \"involuntary\" without intercalated discs shows superficial comparison missing the critical specialization for coordinated contraction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic observation activity using prepared slides to distinguish the three muscle types. List the staining method, magnification, and the one key feature you would focus on for each type to confirm its identity.",
+     "a": "Use H&E stained slides at 400x: for skeletal muscle, focus on multinucleated, unbranched fibers with peripheral nuclei and clear cross-striations; for smooth muscle, focus on spindle-shaped, single central nucleus, absence of striations; for cardiac muscle, focus on branched fibers, single central nucleus, striations, and dark intercalated discs at junctions. A poor answer that suggests \"look for movement\" or \"use unstained slides\" reveals misunderstanding that identification relies on fixed, stained microstructure, not live contraction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

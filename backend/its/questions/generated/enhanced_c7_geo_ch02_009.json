@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_009",
+   "title": "c7_geo_ch02_009",
+   "questions": [
+    {
+     "q": "If Chennai experiences a sudden heavy downpour on a Tuesday afternoon during an otherwise dry month, is this event an example of weather or climate?",
+     "a": "This is an example of weather because it is a short-term, temporary atmospheric condition happening on a specific day. A wrong answer shows that the student confuses a single rainy day with long-term seasonal trends.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a single unusually cold week in Mumbai during winter not be used to claim that Mumbai's overall climate has permanently changed to cold?",
+     "a": "Climate is calculated based on average atmospheric conditions over a very long period (30 years or more), whereas a single cold week is just temporary weather fluctuation. A wrong answer indicates the student thinks climate changes instantly based on short-term weekly anomalies.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following data for a location: Average July temperature is 32°C with 200 mm of rain, and this pattern has repeated for the past 35 years. Does this describe weather or climate, and why?",
+     "a": "Steps: 1. Identify the time frame (35 years of repeated observation). 2. Recognize that data averaged over decades defines regional patterns. 3. Conclude that this represents climate. A wrong answer reveals confusion between daily atmospheric tracking and multi-year statistical averages.",
+     "self_check": true
+    },
+    {
+     "q": "How do long-term climate patterns influence the types of crops grown in the Deccan Plateau compared to the coastal plains of Kerala?",
+     "a": "Long-term climate determines the stable availability of heat and moisture over decades, dictating whether farmers plant drought-resistant crops like millets in the drier plateau or water-intensive crops like rice in Kerala. A wrong answer shows failure to connect long-term atmospheric trends with agricultural land use.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether a farmer in Rajasthan should make their multi-year farming investment decisions based on yesterday's rainfall or the region's 30-year climate data.",
+     "a": "The farmer should use 30-year climate data because agricultural planning requires knowing long-term seasonal onset and average rainfall amounts, not just erratic daily weather. A wrong answer suggests the student believes daily weather variations dictate long-term economic planning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-column observational chart for a school weather station in Pune that separates daily weather tracking from regional climate descriptors.",
+     "a": "The chart must list daily tracking variables (today's temperature, wind direction, daily rainfall) in the weather column, and multi-year averages (monsoon onset month, average annual temperature range) in the climate column. A poor answer mixes up short-term readings with permanent regional characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_002",
+   "title": "c11_acc_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the immediate effect on the cash book when a cheque is issued to a creditor, and why does this create a difference with the passbook balance?",
+     "a": "Correct answer: The cash book is credited (bank column) immediately, reducing the cash book balance. The passbook balance remains unchanged until the cheque is presented and paid by the bank. This time lag causes the cash book balance to be lower than the passbook balance. A wrong answer (e.g., saying the passbook is also debited immediately) reveals the student thinks the bank records the transaction at the same time as the business, misunderstanding the independent recording systems.",
+     "self_check": true
+    },
+    {
+     "q": "If the cash book shows a debit balance of ₹50,000 and cheques issued but not presented total ₹8,000, what will be the passbook balance before any other adjustments? Explain the reasoning.",
+     "a": "Correct answer: Passbook balance = ₹58,000. Since the cash book has already reduced the balance by ₹8,000 for cheques not yet paid by the bank, the passbook balance is higher by that amount. A wrong answer (e.g., ₹42,000) reveals the student incorrectly subtracts the unpresented cheques again, confusing the direction of adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "A business issued cheques totalling ₹12,000 on 25th March. The bank statement dated 31st March shows only ₹7,000 of these cheques have been presented. The cash book balance on 31st March is ₹45,000 (debit). Prepare the adjustment for unpresented cheques in a bank reconciliation statement starting with the cash book balance.",
+     "a": "Correct answer: Add ₹5,000 (₹12,000 issued - ₹7,000 presented) to the cash book balance. Steps: (1) Identify total cheques issued during the period (₹12,000). (2) Identify cheques presented per bank statement (₹7,000). (3) Compute unpresented cheques = ₹5,000. (4) Since cash book balance is lower due to full ₹12,000 credit, add back ₹5,000 to reach passbook balance. A wrong answer (e.g., adding ₹12,000 or subtracting ₹5,000) reveals confusion about which cheques are unpresented and the direction of adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of 'cheques issued but not presented' when the starting point is (a) cash book debit balance vs (b) passbook credit balance. Why are the treatments opposite?",
+     "a": "Correct answer: (a) Starting from cash book debit balance: ADD unpresented cheques. (b) Starting from passbook credit balance: DEDUCT unpresented cheques. They are opposite because the cash book has already subtracted the amount (making it lower), while the passbook has not subtracted it (making it higher). To reconcile, we move from the lower to the higher by adding, and from the higher to the lower by deducting. A wrong answer (same treatment for both) reveals the student memorizes rules without understanding the underlying balance comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Cheques issued but not presented should always be added in a bank reconciliation statement because they increase the passbook balance relative to the cash book.\" Evaluate this statement.",
+     "a": "Correct evaluation: The statement is partially correct but incomplete. The *effect* is that the passbook balance is higher, but the *adjustment* depends on the starting point. If starting from cash book balance, we add; if starting from passbook balance, we deduct. The student's error is ignoring the starting point. This reveals a rote memorization of \"add for unpresented cheques\" without understanding the reconciliation logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (with amounts) where a business issues multiple cheques on different dates near the period-end, some of which are presented before the statement date and some after. Show how to calculate the unpresented amount for reconciliation.",
+     "a": "Good answer example: On 28th March, cheques of ₹3,000, ₹4,000, and ₹5,000 are issued. Bank statement on 31st March shows ₹3,000 and ₹4,000 presented. Unpresented = ₹5,000. The student must show the timeline, identify which cheques are unpresented, and compute the total. A poor answer (e.g., listing all cheques as unpresented or ignoring the presentation dates) reveals inability to apply the concept to a multi-cheque, multi-date situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

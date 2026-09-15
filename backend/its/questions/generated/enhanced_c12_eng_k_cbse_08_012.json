@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_08_012",
+   "title": "c12_eng_k_cbse_08_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words. Give one example of a literal question and one inferential question for Blake's \"The Divine Image.\"",
+     "a": "Literal comprehension: retrieving information directly stated in the text (e.g., \"What four virtues do people pray to in the first stanza?\" — answer: Mercy, Pity, Peace, Love). Inferential comprehension: drawing a conclusion supported by textual evidence but not explicitly stated (e.g., \"Why does the poet capitalize Mercy, Pity, Peace, and Love?\" — answer: to personify them as divine-human figures). A wrong answer reveals the student confuses \"inferential\" with \"opinion-based\" or cannot distinguish explicit vs implicit information.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"How is the human being depicted in The Divine Image?\": \"The human being is depicted as divine because the poem says 'Love, the human form divine.'\" Is this a literal or inferential answer? Explain why the classification matters for board exam marking.",
+     "a": "This is a LITERAL answer because it quotes the exact phrase \"Love, the human form divine\" from stanza 3. The classification matters because CBSE marking awards full marks for literal answers with direct textual support, while inferential answers require the student to EXPLAIN the connection between evidence and conclusion. A student who treats this as inferential might over-explain and waste time; one who treats a truly inferential question as literal will lose marks for missing the reasoning step.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each question below as Literal (L) or Inferential (I) for \"The Human Abstract\":\n(a) What does \"mutual fear\" bring, according to stanza 2?\n(b) Why does the poet say \"Cruelty knits a snare\" instead of \"Cruelty sets a trap\"?\n(c) Where does the Tree of Mystery grow, according to the last stanza?\n(d) What does the \"Raven\" symbolize in the context of the poem?",
+     "a": "(a) L — directly stated: \"mutual fear brings peace\" (stanza 2, line 1). (b) I — requires analyzing word choice (\"knits\" implies deliberate, patient construction; \"snare\" implies deception) and connecting to the poem's theme of calculated cruelty. (c) L — explicitly stated: \"There grows one in the Human Brain\" (last stanza, line 4). (d) I — symbolism is never explicitly explained; requires inferring from context (Raven = death, ominous knowledge, or parasitic thought feeding on Mystery). Wrong classification reveals inability to distinguish explicit statement from interpretive leap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a literal question and an inferential question would differently treat the concept of \"Peace\" across the two poems. Use specific lines from each poem to illustrate.",
+     "a": "Literal question: \"What does the first poem say Peace is?\" → Answer: \"Peace, the human dress\" (Divine Image, stanza 3). \"What brings peace in the second poem?\" → Answer: \"mutual fear\" (Human Abstract, stanza 2). Inferential question: \"How does the meaning of 'Peace' shift from Divine Image to Human Abstract?\" → Requires synthesizing: in DI, Peace is a divine garment worn by humanity; in HA, peace is a fragile product of fear, later destroyed by \"selfish loves.\" The inferential answer MUST cite both explicit lines AND explain the thematic shift. A wrong answer treats both as same-level retrieval, missing the contrast Blake constructs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Inferential questions are harder than literal questions, so I should spend more time on them during the exam.\" Is this claim valid for CBSE Class 12 English? Justify with reference to marking scheme expectations.",
+     "a": "The claim is PARTIALLY VALID but DANGEROUS as a strategy. CBSE marking allocates marks by question weight (1m, 2m, 3m), not by question type. A 3-mark literal question (\"Quote three lines showing how God is described in The Divine Image\") requires three precise retrievals — missing one loses marks. A 2-mark inferential question (\"Why does Blake use the metaphor of a tree for human vice?\") requires one clear inference with two textual supports. Strategy: allocate time by MARKS, not type. A wrong answer reveals the student conflates cognitive difficulty with exam weightage, leading to mismanaged time.",
+     "self_check": true
+    },
+    {
+     "q": "Write ONE literal question and ONE inferential question for stanza 4 of \"The Human Abstract\" (\"Soon spreads the dismal shade / Of Mystery over his head...\"). For the inferential question, provide the expected inference and two textual supports.",
+     "a": "Literal: \"What two creatures feed on the Mystery?\" (Answer: Caterpillar and Fly). Inferential: \"Why does Blake choose a Caterpillar and a Fly — rather than, say, a Lion and a Serpent — to feed on Mystery?\" Expected inference: The Caterpillar and Fly represent small, parasitic, corrupting forces that consume confusion from within, suggesting vice grows through petty corruption, not grand evil. Textual supports: (1) \"Feed on the Mystery\" — implies consumption of obscurity; (2) \"Caterpillar\" suggests larval stage of something that will transform (into a butterfly? or decay?), while \"Fly\" suggests decay and filth — both thrive in \"dismal shade.\" A poor answer offers unsupported symbolism (\"Caterpillar = sin\") without textual anchoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

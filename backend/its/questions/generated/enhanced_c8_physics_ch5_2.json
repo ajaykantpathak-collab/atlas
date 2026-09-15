@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_2",
+   "title": "c8_physics_ch5_2",
+   "questions": [
+    {
+     "q": "Define solute and solvent. Give one example of each from a solid-liquid solution you see at home.",
+     "a": "Solute: the substance that dissolves (e.g., sugar in tea). Solvent: the substance in which the solute dissolves, usually present in larger amount (e.g., water in tea). A wrong answer (swapping the two) reveals the student thinks the solute is always the liquid or the component they \"add,\" confusing the action of adding with the role of dissolving.",
+     "self_check": true
+    },
+    {
+     "q": "In tincture of iodine (iodine crystals dissolved in alcohol), which is the solute and which is the solvent? Explain why the alcohol is considered the solvent even though iodine is the \"active ingredient.\"",
+     "a": "Iodine (solid) is the solute; alcohol (liquid) is the solvent. Alcohol is the solvent because it is the component in larger quantity, it determines the liquid phase of the solution, and it is the medium in which iodine dissolves. A wrong answer (identifying iodine as solvent) reveals the misconception that the functionally important or \"active\" component is the solvent.",
+     "self_check": true
+    },
+    {
+     "q": "A student makes a solution by dissolving 10 g of salt in 150 mL of water. Then they add 20 mL of ethanol (which mixes completely with water). Identify the solute(s) and solvent(s) in the final mixture. Assume water and ethanol are miscible in all proportions.",
+     "a": "Initially: solute = salt, solvent = water. After adding ethanol: the final solution is a liquid mixture of water and ethanol. Since water (150 mL) is still the major component compared to ethanol (20 mL), water remains the primary solvent. Ethanol acts as a co-solvent but is technically a solute in the water-rich mixture. Salt remains a solute. So solutes: salt and ethanol; solvent: water. A wrong answer calling ethanol a solvent reveals the student thinks any liquid component is automatically a solvent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these three solutions: (a) carbon dioxide in water (soda), (b) brass (copper-zinc alloy), (c) ethanol in water (vodka). For each, state the physical state of solute and solvent before mixing, and the physical state of the final solution. What pattern do you notice about the solvent's state and the solution's state?",
+     "a": "(a) Solute: gas (CO₂), Solvent: liquid (water) → Solution: liquid. (b) Solute: solid (zinc), Solvent: solid (copper) → Solution: solid. (c) Solute: liquid (ethanol), Solvent: liquid (water) → Solution: liquid. Pattern: The physical state of the solution is the same as the physical state of the solvent. A wrong answer (e.g., saying soda is a gas solution) reveals the student thinks the solute's state determines the solution's state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In every solution, the solvent is a liquid.\" Provide two specific counterexamples from different solution types.",
+     "a": "The statement is false. Counterexample 1: Air – a gas-gas solution where nitrogen (gas) is the solvent. Counterexample 2: Brass – a solid-solid solution where copper (solid) is the solvent. A wrong answer (agreeing or giving only liquid examples) reveals the misconception that solutions only exist in liquid phase and solvents are always liquids.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to prove that in a true solution, the solute particles are too small to be seen and cannot be separated by ordinary filtration. List materials, steps, and the expected observation that distinguishes a solution from a suspension.",
+     "a": "Materials: Salt, water, muddy water (soil + water), filter paper, funnel, two glasses. Steps: 1) Dissolve salt in water (Solution A). 2) Mix soil in water (Suspension B). 3) Filter both through filter paper. Expected: Solution A passes through completely clear – no residue on paper. Suspension B leaves mud residue on paper and filtrate may still be cloudy. This shows solute particles in a solution are molecular-sized. A poor answer uses only one mixture or expects salt to be caught by the filter, revealing confusion between dissolution and suspension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

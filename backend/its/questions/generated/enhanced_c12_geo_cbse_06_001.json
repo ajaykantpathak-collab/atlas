@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_001",
+   "title": "c12_geo_cbse_06_001",
+   "questions": [
+    {
+     "q": "Which of the following is a secondary activity? (a) Cotton cultivation (b) Cotton textile weaving (c) Selling cotton shirts in a showroom (d) Transporting cotton bales to the market",
+     "a": "Correct answer: (b) Cotton textile weaving. Weaving transforms raw cotton (primary product) into yarn/fabric (manufactured good), which is the essence of secondary activity. Option (a) is primary (agriculture), (c) is tertiary (retail trade), (d) is tertiary (transport). A wrong answer reveals confusion between the sector where the activity originates (farm vs factory vs shop) rather than the nature of the transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'value addition' is the defining characteristic of secondary activities, using the example of crude oil refining.",
+     "a": "Value addition means the output's economic value exceeds the sum of input values. Crude oil (raw material) has limited direct use; refining separates it into petrol, diesel, kerosene, polymers — each with higher utility and market price. The refinery adds value through technology, energy, and labour. A student who only lists products without explaining the increase in utility/price shows superficial understanding. The misconception is equating 'processing' with mere physical change, ignoring the economic geography concept of value creation.",
+     "self_check": true
+    },
+    {
+     "q": "A region has abundant bauxite deposits and cheap hydroelectric power but no local market for aluminium. Identify the most likely secondary activity and justify its location using two geographical factors.",
+     "a": "Activity: Aluminium smelting (bauxite → alumina → aluminium). Factors: 1) Weight-losing raw material (bauxite) — locating near source reduces transport cost of bulky ore (4-6 tonnes bauxite per tonne aluminium). 2) High electricity demand (13,000–16,000 kWh/tonne) — cheap hydroelectric power is critical. A wrong answer might suggest an aluminium fabrication unit (making utensils/foils) which is market-oriented, revealing failure to distinguish between raw-material-oriented (smelting) and market-oriented (fabrication) industries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the employment structure of a developed economy (e.g., Germany) and a developing economy (e.g., India) in terms of secondary sector share. What does this indicate about their stage of economic development?",
+     "a": "Germany: secondary sector ~27-30% of workforce (high productivity, automation). India: secondary sector ~25% (but with large informal manufacturing, lower productivity). Historically, developed nations passed through a peak industrial employment phase (30-40%) before automation and tertiarisation reduced it. India's lower share despite being 'developing' indicates premature deindustrialisation / service-led growth skipping the manufacturing employment bulge. A student who only quotes percentages without linking to structural transformation theory misses the geographical interpretation of economic development stages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Secondary activities are environmentally unsustainable by nature.\" Provide two arguments for and two against, using geographical reasoning.",
+     "a": "For: 1) Resource depletion (minerals, fossil fuels) and 2) Pollution (air/water/soil) from emissions/effluents — negative externalities. Against: 1) Modern clean technology (circular economy, recycling, renewable energy in factories) decouples growth from degradation. 2) Secondary activities enable environmental solutions (solar panels, water treatment plants, public transit equipment). A one-sided answer reveals ideological bias rather than geographical evaluation. The nuance: sustainability depends on technology, regulation, and spatial planning — not the sector itself.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart showing the transformation of a primary product (choose one: sugarcane / iron ore / timber) into a final consumer good through secondary activities. Label each stage with the type of value added (form, time, place, possession).",
+     "a": "Example for sugarcane: Sugarcane (primary) → Crushing (form utility: juice) → Boiling/Clarification (form: syrup) → Crystallisation (form: sugar crystals) → Refining (form: white sugar) → Packaging (form + possession utility) → Warehousing (time utility) → Transport to market (place utility) → Retail (possession utility). A poor flowchart misses intermediate stages or mislabels utilities (e.g., calling transport 'form utility'), showing inability to apply the value-addition framework across the supply chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_009",
+   "title": "c7_physics_ch02_009",
+   "questions": [
+    {
+     "q": "Which of the following materials is classified as an electrical conductor: plastic scale, iron nail, wooden ruler, or rubber eraser?",
+     "a": "The iron nail is an electrical conductor. A wrong answer shows that the student is confusing electrical conductors with electrical insulators, perhaps believing that all solid objects conduct electricity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a copper wire allow an electric bulb to glow when connected in a circuit, whereas a piece of cotton thread does not?",
+     "a": "Copper contains free electrons that move and carry an electric current, completing the circuit, whereas cotton thread lacks free electrons and blocks current flow. A wrong answer reveals a misunderstanding that materials glow because of their color or flexibility rather than their internal atomic structure allowing charge movement.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests four rods of equal length made of aluminum, glass, copper, and wood in a conductivity tester circuit. Which two rods will cause the bulb to light up?",
+     "a": "Steps: 1. Identify all materials given: aluminum, glass, copper, wood. 2. Recall that metals are electrical conductors and non-metals (except graphite) are insulators. 3. Classify aluminum and copper as metals (conductors), and glass and wood as non-metals (insulators). 4. Conclude that aluminum and copper will complete the circuit. Answer: Aluminum and copper. A wrong answer indicates confusion between metallic and non-metallic material classifications.",
+     "self_check": true
+    },
+    {
+     "q": "If you replace the connecting copper wire in a torchlight with a piece of string dipped in saltwater, why might the bulb still glow dimly, whereas dry string makes it stay off?",
+     "a": "Dry string is an insulator with no free charges, but saltwater contains dissolved ions that can move and carry an electric current, making it a liquid conductor. A wrong answer shows the misconception that only metals can conduct electricity, ignoring that certain liquids and solutions also allow current flow.",
+     "self_check": true
+    },
+    {
+     "q": "A laboratory assistant uses a steel knife to push a wire into a live electrical socket and receives a shock, but uses a wooden stick safely. Evaluate why the choice of material made a life-saving difference.",
+     "a": "Steel is an electrical conductor that lets current travel through the body to the ground, causing a shock, while wood is an insulator that blocks the path of current. A wrong answer shows a dangerous lack of judgment regarding safety materials and the difference between conductors and insulators in household electricity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test using a battery, an LED bulb, and two open wires to prove whether a fresh lemon juice sample acts as an electrical conductor.",
+     "a": "To design the test: 1. Connect the battery and LED in series, leaving two wire ends free. 2. Dip the two free wire ends into a small glass containing fresh lemon juice without letting the wires touch each other. 3. Observe if the LED bulb lights up. 4. If the LED glows, lemon juice contains ions and conducts electricity; if it does not, it is an insulator. A poor answer reveals an inability to apply circuit testing principles to liquid solutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_005",
+   "title": "c12_geo_cbse_15_005",
+   "questions": [
+    {
+     "q": "Name the two Dedicated Freight Corridors currently under implementation in India and state their terminal points.",
+     "a": "Eastern DFC: Ludhiana (Punjab) to Dankuni (West Bengal), ~1,856 km. Western DFC: Dadri (Uttar Pradesh) to Jawaharlal Nehru Port Trust (JNPT), Mumbai (Maharashtra), ~1,506 km. A wrong answer (e.g., swapping terminals, missing one corridor, or naming the Mumbai–Ahmedabad High Speed Rail) reveals the student confuses DFCs with passenger high-speed projects or hasn't memorized the corridor geography — a frequent 1-mark loss in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Western DFC terminate at JNPT (Navi Mumbai) rather than Mumbai Central or Churchgate?",
+     "a": "JNPT is India's largest container port handling ~55% of containerized EXIM cargo; the Western DFC is designed for double-stack container trains (25 tonne axle load, 100 kmph) that need direct port connectivity for seamless ship-to-rail transfer. Terminating at Mumbai Central would require last-mile road haulage through congested urban streets, defeating the logistics-cost reduction objective. A wrong answer (e.g., \"Mumbai Central is bigger\") shows the student misses the freight-logistics rationale and thinks in passenger-rail terms.",
+     "self_check": true
+    },
+    {
+     "q": "A Metro Rail project in a Tier-2 city (population 1.5 million) proposes a 25 km elevated corridor at ₹250 crore/km. The city's existing bus fleet carries 300,000 passengers/day at an average trip length of 8 km. If the Metro captures 25% of bus passengers with an average trip length of 12 km, calculate the daily passenger-km shifted to Metro and the capital cost per daily passenger-km shifted.",
+     "a": "Step 1: Bus passengers shifting = 25% of 300,000 = 75,000 passengers/day. Step 2: Daily passenger-km shifted = 75,000 × 12 km = 900,000 passenger-km/day. Step 3: Total capital cost = 25 km × ₹250 crore/km = ₹6,250 crore. Step 4: Capital cost per daily passenger-km = ₹6,250 crore / 900,000 = ₹69,444 per passenger-km/day. A wrong answer (e.g., using 8 km instead of 12 km, or forgetting to convert crore) reveals unit-mismatch errors common in CUET/board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the signalling system adopted for DFCs (ETCS Level 2) with the conventional absolute block signalling on Indian Railways. Identify two operational advantages of ETCS Level 2 that directly increase line capacity.",
+     "a": "ETCS Level 2 uses continuous cab signalling with GSM-R radio communication, eliminating trackside signals and fixed blocks; advantages: (1) moving block principle allows trains to run at closer headways (as low as 3–4 minutes vs 10+ minutes in absolute block), and (2) real-time train integrity monitoring removes the need for block proving, enabling higher throughput. A wrong answer (e.g., \"ETCS is faster\" without explaining moving block) shows superficial understanding — competitive exams test the mechanism, not just the name.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Metro Rail projects are financially unviable because fare-box revenue covers only 40–60% of operating costs; therefore, governments should stop building them.\"",
+     "a": "The statement ignores positive externalities: (1) reduced congestion saves ~₹1.5 lakh crore/year in fuel and time (Delhi Metro estimate), (2) air pollution reduction lowers health costs, (3) land value capture (property development, station retail) generates non-fare revenue, and (4) strategic urban restructuring — Metro enables polycentric city growth. Financial viability ≠ socioeconomic viability. A student who agrees with the statement fails to apply welfare-economics reasoning expected in 150-word board answers and UPSC-style questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-station Metro feeder network for a hypothetical industrial township (population 200,000, area 50 km²) located 15 km from the nearest Metro terminal. Specify mode (bus / light rail / BRT), alignment logic, and one land-use policy to maximize ridership.",
+     "a": "Mode: BRT (Bus Rapid Transit) — lower capital cost (~₹50 crore/km vs ₹250 crore/km for Metro), flexible routing for dispersed industrial shifts. Alignment: Radial trunk from Metro terminal to township center (15 km), with two orbital loops serving industrial clusters (north & south) — total ~35 km. Land-use policy: Mandate minimum FAR 2.5 within 500 m of BRT stations and reserve 15% land for affordable worker housing near stations. A poor answer proposes Metro extension (ignoring cost-density mismatch) or omits land-use integration, missing the transit-oriented development (TOD) principle central to current urban geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

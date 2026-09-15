@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_006",
+   "title": "c12_phy_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the formula for the potential energy of an electric dipole of dipole moment \\(\\vec{p}\\) placed in a uniform electric field \\(\\vec{E}\\). What is the SI unit of this energy? At what orientation is the potential energy zero according to the standard convention?",
+     "a": "\\(U = -\\vec{p} \\cdot \\vec{E} = -pE\\cos\\theta\\); SI unit: joule (J). By standard convention, \\(U=0\\) at \\(\\theta = 90^\\circ\\) (dipole perpendicular to field). A wrong answer (e.g., \\(U = +pE\\cos\\theta\\) or zero at \\(\\theta=0\\)) reveals confusion between torque (\\(\\tau = pE\\sin\\theta\\)) and energy, or ignorance of the reference-angle convention.",
+     "self_check": true
+    },
+    {
+     "q": "A dipole is placed in a uniform electric field. The torque on it is \\(\\vec{\\tau} = \\vec{p} \\times \\vec{E}\\). Explain why the potential energy is \\(U = -\\vec{p} \\cdot \\vec{E}\\) and not \\(U = +\\vec{p} \\cdot \\vec{E}\\). Use the relationship between torque and potential energy for a conservative system.",
+     "a": "For a conservative torque, \\(\\tau = -\\frac{dU}{d\\theta}\\). Given \\(\\tau = pE\\sin\\theta\\) (magnitude), integrating gives \\(U = -pE\\cos\\theta + C\\). Choosing \\(U=0\\) at \\(\\theta=\\pi/2\\) sets \\(C=0\\), yielding \\(U = -pE\\cos\\theta\\). The negative sign ensures stable equilibrium at \\(\\theta=0\\) (minimum energy). A student choosing \\(U = +pE\\cos\\theta\\) would predict stable equilibrium at \\(\\theta=\\pi\\) (anti-parallel), which contradicts the observed alignment of dipoles with the field.",
+     "self_check": true
+    },
+    {
+     "q": "An electric dipole of moment \\(p = 4 \\times 10^{-29}\\,\\text{C·m}\\) is placed in a uniform electric field \\(E = 2 \\times 10^5\\,\\text{N/C}\\). Calculate the work done by an external agent to rotate the dipole from \\(\\theta = 60^\\circ\\) to \\(\\theta = 120^\\circ\\). Express your answer in joules.",
+     "a": "Given: \\(p = 4 \\times 10^{-29}\\,\\text{C·m}\\), \\(E = 2 \\times 10^5\\,\\text{N/C}\\), \\(\\theta_i = 60^\\circ\\), \\(\\theta_f = 120^\\circ\\).  \nWork done by external agent = change in potential energy:  \n\\(W = \\Delta U = U_f - U_i = (-pE\\cos\\theta_f) - (-pE\\cos\\theta_i) = pE(\\cos\\theta_i - \\cos\\theta_f)\\).  \n\\(\\cos 60^\\circ = 0.5\\), \\(\\cos 120^\\circ = -0.5\\).  \n\\(W = (4 \\times 10^{-29})(2 \\times 10^5)[0.5 - (-0.5)] = 8 \\times 10^{-24} \\times 1.0 = 8 \\times 10^{-24}\\,\\text{J}\\).  \nA wrong answer (e.g., negative work, or using \\(\\sin\\theta\\) instead of \\(\\cos\\theta\\)) reveals sign errors or confusion between torque and energy formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical dipoles, each of moment \\(p\\), are placed in the same uniform electric field \\(E\\). Dipole A is aligned parallel to the field (\\(\\theta=0\\)), Dipole B is anti-parallel (\\(\\theta=\\pi\\)). Compare their potential energies. If both are released from rest, describe their subsequent motion and final orientation. Which dipole has higher total mechanical energy if both start from rest at their respective orientations?",
+     "a": "\\(U_A = -pE\\cos 0 = -pE\\); \\(U_B = -pE\\cos\\pi = +pE\\). So \\(U_B > U_A\\). Both experience torque toward \\(\\theta=0\\). Dipole A is already at stable equilibrium (minimum \\(U\\)) and remains at rest. Dipole B is at unstable equilibrium; any tiny disturbance makes it rotate toward \\(\\theta=0\\), converting potential energy to kinetic energy, then oscillate (or damp to \\(\\theta=0\\)). Since both start from rest, total mechanical energy \\(E_{\\text{mech}} = U + K = U\\). Thus Dipole B has higher total mechanical energy by \\(2pE\\). A student claiming both have same energy or that Dipole B stays at \\(\\theta=\\pi\\) misunderstands stability and energy conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The potential energy of a dipole in a uniform field is \\(U = pE\\cos\\theta\\). At \\(\\theta=0\\), \\(U = pE\\) (maximum), so the dipole is in stable equilibrium because it has maximum potential energy.\" Evaluate this statement. Identify all errors and correct them.",
+     "a": "Errors: (1) Formula sign is wrong: correct is \\(U = -pE\\cos\\theta\\). (2) At \\(\\theta=0\\), correct \\(U = -pE\\) (minimum, not maximum). (3) Stable equilibrium corresponds to minimum potential energy, not maximum. (4) The student confuses the condition for stable equilibrium. The correct statement: \\(U = -pE\\cos\\theta\\); at \\(\\theta=0\\), \\(U_{\\text{min}} = -pE\\), stable equilibrium. At \\(\\theta=\\pi\\), \\(U_{\\text{max}} = +pE\\), unstable equilibrium. This reveals a fundamental misconception about the relationship between potential energy minima/maxima and equilibrium stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to measure the dipole moment of an unknown polar molecule using a uniform electric field and a device that can measure the work done to rotate the molecule. Specify the measurements needed, the formula to be used, and how you would account for thermal motion (which randomizes orientation).",
+     "a": "Place a sample of the polar molecules in a uniform electric field \\(E\\). Use an external torque to slowly rotate a single molecule from \\(\\theta = \\pi/2\\) to \\(\\theta = 0\\) and measure the work \\(W\\) done. Then \\(p = W/E\\). To account for thermal motion: perform the experiment at very low temperature (so thermal energy \\(k_B T \\ll pE\\)) or use an ensemble measurement: measure the average orientation \\(\\langle \\cos\\theta \\rangle\\) via dielectric constant and use the Langevin function \\(\\langle \\cos\\theta \\rangle = \\coth(pE/k_B T) - k_B T/(pE)\\) to extract \\(p\\). A poor answer ignores thermal motion or suggests measuring torque directly without relating it to energy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

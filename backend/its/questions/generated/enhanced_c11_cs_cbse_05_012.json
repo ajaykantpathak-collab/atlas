@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_012",
+   "title": "c11_cs_cbse_05_012",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nfor i in range(3):\n    print(i)\nelse:\n    print(\"Loop ended\")\n```",
+     "a": "Output:\n```\n0\n1\n2\nLoop ended\n```\nThe `else` block executes because the `for` loop exhausted the iterator `range(3)` without encountering a `break`. A wrong answer (e.g., thinking `else` never runs or runs only if the loop body never executes) reveals the misconception that `else` is tied to the loop condition being false initially, rather than to normal completion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the `else` block in the following code does **not** execute:\n```python\nfor ch in \"PYTHON\":\n    if ch == 'T':\n        break\n    print(ch)\nelse:\n    print(\"No T found\")\n```",
+     "a": "The loop encounters `'T'` at the third iteration, executes `break`, and immediately exits the loop. Since the loop was terminated by `break`, the `else` clause is skipped. A wrong explanation (e.g., “`else` runs because the loop ended”) shows the student conflates “loop ends” with “loop ends normally” — they miss that `break` (and `return`/`exception`) suppresses `else`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a `while` loop with an `else` clause that reads integers from the user until a negative number is entered, then prints the sum of all non‑negative numbers. If the first input is negative, the `else` block should print \"No non‑negative numbers entered\".",
+     "a": "```python\ntotal = 0\nwhile True:\n    num = int(input(\"Enter a number (negative to stop): \"))\n    if num < 0:\n        break\n    total += num\nelse:\n    print(\"No non‑negative numbers entered\")\nprint(\"Sum =\", total)\n```\nSteps: (1) Initialize accumulator. (2) Infinite loop reads input. (3) Negative triggers `break`. (4) Non‑negative adds to total. (5) `else` runs only if loop never executed body (i.e., first input negative) — but wait! Actually, `while True` with immediate `break` on first negative means the loop body **does** run once (the iteration that reads the negative number), so `else` will **not** execute. To make `else` run when no non‑negative numbers are entered, we must structure the loop so that the condition fails **before** the body runs. A correct version uses `while (num := int(input(...))) >= 0:` (Python 3.8+) or a priming read. A student who writes the above and expects `else` to run on first negative reveals the misconception that `else` triggers when the loop stops for *any* reason, not just condition‑failure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of `else` on a `for` loop versus `else` on an `if` statement. Given the code below, how many times does each `else` block execute?\n```python\nfor i in range(2):\n    if i == 1:\n        print(\"if block\")\n    else:\n        print(\"if-else block\")\nelse:\n    print(\"for-else block\")\n```",
+     "a": "Output:\n```\nif-else block\nif block\nfor-else block\n```\nThe `if`‑`else` executes **per iteration** (twice), while the `for`‑`else` executes **once** after the loop completes normally. A student who says both execute once or that `for`‑`else` executes twice confuses the scope of `else` — they think `else` always pairs with the nearest `if`, not realizing indentation binds `else` to the `for`.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Putting `else` after a loop is just syntactic sugar; you can always replace it with a flag variable and an `if` after the loop.” Evaluate this claim. Is it always true? Provide a concrete scenario where the `else` clause is **more** than syntactic sugar (e.g., interacts with `continue` or nested loops).",
+     "a": "The claim is **false** in practice. While a flag variable can mimic the *logical* behavior, `else` on a loop is **not** pure syntactic sugar because:\n1. It avoids an extra variable and an extra `if` check after the loop, reducing state and potential bugs.\n2. In nested loops, a `break` in the inner loop does **not** trigger the outer loop’s `else`; replicating this with flags requires careful scoping of multiple flags.\n3. `continue` skips the rest of the current iteration but **does not** suppress the loop’s `else` — a flag‑based version would need to distinguish “loop continued” from “loop broken”.\nExample: Searching a 2D grid for a value; `break` only exits the inner loop, outer loop’s `else` still runs if no row contains the value. A flag version would need a flag per level or a function return. The `else` clause expresses intent directly and is less error‑prone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real‑world problem (Indian context) that **requires** a loop‑`else` construct for an elegant solution. Write the problem statement and a Python code skeleton (with comments) that uses `for`‑`else` or `while`‑`else`. Do not write the full solution — only the structure.",
+     "a": "**Problem:** A railway reservation system checks a waiting list (list of passenger names) for a specific PNR. If found, it prints the seat number and stops searching. If the PNR is **not** in the list after checking all entries, it prints \"PNR not in waiting list\".  \n**Skeleton:**\n```python\nwaiting_list = [\"PNR123\", \"PNR456\", \"PNR789\", ...]  # hundreds of entries\ntarget_pnr = input(\"Enter PNR to search: \")\nfor index, pnr in enumerate(waiting_list):\n    if pnr == target_pnr:\n        print(f\"Found at position {index+1}\")\n        break\nelse:\n    # Executes only if loop never broke\n    print(\"PNR not in waiting list\")\n```\nA poor answer would use a flag variable or put the \"not found\" print after the loop without `else`, missing the point that `else` guarantees the message prints **only** when the loop wasn’t broken — even if the loop body contains multiple `continue` statements or nested loops.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

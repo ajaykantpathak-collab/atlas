@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_003",
+   "title": "c11_acc_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the Money Measurement Concept in your own words and give one example of a business transaction that would be recorded and one that would not be recorded under this concept.",
+     "a": "Correct answer: The Money Measurement Concept states that only transactions expressible in monetary terms are recorded in accounting books. Example recorded: Purchase of machinery for ₹5,00,000. Example not recorded: Appointment of a highly skilled CEO. A wrong answer (e.g., \"all business events are recorded\" or \"employee skills are recorded at estimated value\") reveals the student confuses this concept with the Business Entity Concept or misunderstands the strict monetary expressibility requirement. It also shows they haven't grasped that accounting deliberately excludes valuable non-monetary factors.",
+     "self_check": true
+    },
+    {
+     "q": "A business owns the following: (i) Land 5 acres purchased at ₹50 lakh, (ii) 20 experienced workers, (iii) Brand reputation built over 10 years, (iv) Bank balance ₹10 lakh, (v) Raw material 1000 kg purchased at ₹200/kg. Explain which items will appear in the Balance Sheet and why, using the Money Measurement Concept.",
+     "a": "Correct answer: Items (i), (iv), and (v) appear because they have verifiable monetary costs: Land ₹50 lakh, Bank ₹10 lakh, Raw material ₹2,00,000 (1000 × ₹200). Items (ii) and (iii) do not appear because worker experience and brand reputation cannot be objectively measured in money without arbitrary estimation. A wrong answer that includes (ii) or (iii) with estimated values reveals the student violates the Objectivity Concept (linked to Money Measurement) and fails to understand that accounting requires verifiable documentary evidence, not subjective valuation.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchased a building in 2010 for ₹2 crore. In 2024, its market value is ₹10 crore. The accountant records the building at ₹10 crore in the 2024 Balance Sheet. Identify the error and explain which two accounting concepts are violated.",
+     "a": "Correct answer: The error is revaluing the building to current market value. This violates: (1) Money Measurement Concept (limitation aspect)—accounting ignores changes in purchasing power of money and sticks to historical cost, and (2) Cost Concept—assets are recorded at acquisition cost, not market value. A wrong answer that says \"this is correct because it shows true value\" reveals the student confuses accounting's objective (verifiable, objective recording) with economic reality, and doesn't understand that the Money Measurement Concept's limitation is a deliberate trade-off for objectivity, not a flaw to be corrected by revaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Money Measurement Concept with the Business Entity Concept. In what way do they complement each other, and in what way do they address different problems?",
+     "a": "Correct answer: Business Entity Concept separates business from owner (defines WHOSE transactions are recorded). Money Measurement Concept defines WHICH transactions are recorded (only monetary ones). They complement: Business Entity sets the boundary of the accounting entity; Money Measurement sets the measurement language within that boundary. They address different problems: Business Entity prevents mixing personal and business finances; Money Measurement enables aggregation of heterogeneous assets. A weak answer that says \"both are about recording transactions\" misses the distinct hierarchical roles—one defines the entity, the other defines the measurement unit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Money Measurement Concept makes financial statements irrelevant for decision-making because they ignore human capital, brand value, and inflation effects.\" Provide a balanced argument.",
+     "a": "Correct answer: The statement is partially valid but overlooks the concept's purpose. Counter-argument: The concept provides objectivity, verifiability, and comparability—without it, financial statements would be subjective estimates. The limitation is acknowledged (NCERT explicitly states it), and users supplement with non-financial reports (CSR, management discussion). A one-sided answer (either \"yes, statements are useless\" or \"no, statements are perfect\") reveals inability to evaluate trade-offs. Good evaluation recognises: accounting sacrifices completeness for reliability; the concept is a necessary simplification, not a defect.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario where strict application of the Money Measurement Concept leads to a significant omission. Then propose how a user of financial statements could address this gap without violating accounting principles.",
+     "a": "Expected answer: Scenario: A tech startup's key asset is its proprietary algorithm developed by founders (no purchase cost). Money Measurement Concept excludes it (no monetary transaction). Balance Sheet shows minimal assets despite high market value. User addresses gap by: (a) reading notes to accounts for intangible assets disclosure, (b) reviewing management discussion on IP, (c) using valuation models (DCF) externally. Poor answer: \"Record it at estimated value\" violates Objectivity and Cost Concepts. Good answer shows understanding that accounting has boundaries, and users must go beyond financial statements for complete picture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

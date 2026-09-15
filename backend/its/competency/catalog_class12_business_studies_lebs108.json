@@ -1,0 +1,409 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 108,
+  "chapter_title": "Controlling",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.108.1.1",
+      "title": "Meaning and Features of Controlling",
+      "section": "1.1",
+      "definition": "The managerial function of seeing that work actually follows the plans laid down, so that the organisation's resources are put to effective and efficient use in reaching its set goals.",
+      "formula": "",
+      "key_idea": "It is goal-oriented, pervasive across all levels and all kinds of organisations, and never merely the closing act -- by exposing deviations and their causes it feeds the next round of planning and thus completes one management cycle only to restart it.",
+      "textbook_ref": "lebs108.txt lines 54-105 (Meaning of Controlling; pervasive and primary; not the last function)",
+      "question_patterns": [
+        "state the meaning of controlling",
+        "why is controlling called a goal oriented function",
+        "is controlling the last function of management give reasons",
+        "controlling is a pervasive function justify",
+        "how does controlling complete one cycle of the management process",
+        "which function ensures that activities conform to the plans"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the function",
+          "explain": "Controlling means ensuring that activities are performed as per the plans and that resources serve the predetermined goals."
+        },
+        {
+          "step": 2,
+          "action": "Note its spread and standing",
+          "explain": "It reaches every level of every organisation -- school, hospital, army or business -- and is a primary duty of each manager."
+        },
+        {
+          "step": 3,
+          "action": "Correct the common misreading",
+          "explain": "It is not the final function: the deviations it uncovers improve future plans, closing one cycle and opening the next."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.2.1",
+      "title": "Importance of Controlling",
+      "section": "2.1",
+      "definition": "The payoffs of a sound control system: it steers the organisation toward its goals by exposing deviations, tests whether the standards themselves are accurate, cuts wastage of resources, motivates employees who know how they will be judged, curbs dishonesty through close checking, and aligns every department behind one direction.",
+      "formula": "",
+      "key_idea": "Six benefits -- goal accomplishment, judging standards, efficient resource use, motivation, order and discipline, coordination in action.",
+      "textbook_ref": "lebs108.txt lines 106-180 (Importance i-vi; computer monitoring case)",
+      "question_patterns": [
+        "explain the importance of controlling in an organisation",
+        "how does controlling help in accomplishing organisational goals",
+        "which benefit of controlling lets managers revise their standards",
+        "how does a control system improve employee motivation",
+        "controlling ensures order and discipline discuss",
+        "how does controlling facilitate coordination in action"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the six benefits",
+          "explain": "Goal accomplishment, accuracy of standards, efficient use of resources, motivation, order and discipline, coordination."
+        },
+        {
+          "step": 2,
+          "action": "Explain the one asked",
+          "explain": "For motivation: employees told in advance the standards they will be appraised on work with greater purpose."
+        },
+        {
+          "step": 3,
+          "action": "Link to the plans",
+          "explain": "Without control even the best plans drift; control keeps the organisation on its plotted course."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.2.2",
+      "title": "Limitations of Controlling",
+      "section": "2.2",
+      "definition": "The boundaries of the function: some standards such as morale or satisfaction resist measurement in numbers, external forces like government policy and technology stay beyond its reach, employees often resent being watched, and running a control system costs money, time and effort that a small firm may not justify.",
+      "formula": "",
+      "key_idea": "Four limitations -- hard-to-quantify standards, external factors, employee resistance, and cost; the rule is that control costs must never outstrip control benefits.",
+      "textbook_ref": "lebs108.txt lines 181-239 (Limitations i-iv)",
+      "question_patterns": [
+        "state the limitations of controlling",
+        "why does a control system lose effectiveness without quantitative standards",
+        "can an organisation control its external factors explain",
+        "why do employees resist control systems like cctv monitoring",
+        "is controlling a costly affair comment"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the four limitations",
+          "explain": "Difficulty in quantitative standards, little control over external factors, resistance from employees, costly affair."
+        },
+        {
+          "step": 2,
+          "action": "Explain the one asked",
+          "explain": "Morale, satisfaction and behaviour cannot be expressed in numbers, so measuring and comparing them is hard."
+        },
+        {
+          "step": 3,
+          "action": "State the cost-benefit test",
+          "explain": "The expense of installing and operating the system should stay below the benefits it brings."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.3.1",
+      "title": "Relationship between Planning and Controlling",
+      "section": "3.1",
+      "definition": "Two inseparable twins: planning supplies the standards that controlling measures performance against, and controlling feeds back what actually happened so that future plans improve -- each is meaningless without the other.",
+      "formula": "",
+      "key_idea": "Planning prescribes while controlling evaluates; planning looks ahead and controlling looks back, yet both face both ways -- plans draw on past experience and corrective action targets future performance.",
+      "textbook_ref": "lebs108.txt lines 251-322 (Relationship between Planning and Controlling)",
+      "question_patterns": [
+        "discuss the relationship between planning and controlling",
+        "planning is looking ahead and controlling is looking back comment",
+        "why is controlling blind without planning",
+        "planning is prescriptive while controlling is evaluative explain",
+        "how does controlling improve future planning",
+        "are planning and controlling inseparable twins justify"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the dependence of control on plans",
+          "explain": "Standards set by planning are the benchmarks; with no plan there is nothing to control."
+        },
+        {
+          "step": 2,
+          "action": "State the return path",
+          "explain": "Deviations found by controlling become information that sharpens the next plan."
+        },
+        {
+          "step": 3,
+          "action": "Handle the looking ahead or back line",
+          "explain": "The saying is only partly right: each function is both backward-looking and forward-looking."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.4.1",
+      "title": "Steps in the Controlling Process",
+      "section": "4.1",
+      "definition": "Five ordered steps: set the performance standards in precise, preferably quantitative terms, measure the actual performance objectively through observation, sample checking or reports, compare it with the standards, analyse the deviations that cross the acceptable range and find their causes, and finally take corrective action or revise the standards.",
+      "formula": "",
+      "key_idea": "Standards may be quantitative like cost, units and time, or qualitative like goodwill; measurement works best in the same units as the standard, and comparison exposes the deviation.",
+      "textbook_ref": "lebs108.txt lines 323-618 (Controlling Process steps 1-5, standards table, sample checking)",
+      "question_patterns": [
+        "explain the various steps involved in the process of control",
+        "which standards can a firm set for its finance department",
+        "why should performance be measured in the same units as the standards",
+        "what is sample checking and where is it used",
+        "when is corrective action taken in the control process",
+        "what should a manager do when deviations cannot be corrected"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the five steps in order",
+          "explain": "Setting standards, measuring actual performance, comparing with standards, analysing deviations, taking corrective action."
+        },
+        {
+          "step": 2,
+          "action": "Explain the measurement choice",
+          "explain": "Personal observation, sample checking and performance reports give objective readings; small firms check every piece, large firms sample."
+        },
+        {
+          "step": 3,
+          "action": "Describe the analysis and the response",
+          "explain": "Deviations beyond the acceptable range are traced to causes -- defective process, inadequate resources, unrealistic standards -- then corrected by training, extra resources, or revision of the standard itself."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.4.2",
+      "title": "Measuring Deviation from Standards",
+      "section": "4.1",
+      "definition": "The arithmetic heart of step three and four: the gap between what was actually achieved and what the standard demanded shows the deviation, and expressing it as a percentage of the standard tells the manager how serious it is relative to the acceptable range.",
+      "formula": "percentage_deviation = (actual_performance - standard_performance) / standard_performance * 100",
+      "key_idea": "A positive figure means performance ran above standard, a negative one below; only deviations beyond the permissible limit, such as labour cost rising past the allowed 2 per cent, reach the manager.",
+      "textbook_ref": "lebs108.txt lines 364-391 and 464-543 (setting precise standards, acceptable range of deviation, critical limits)",
+      "question_patterns": [
+        "calculate the percentage deviation when actual performance is {actual_performance} against a standard of {standard_performance}",
+        "a firm's labour cost rose from a standard of {standard_performance} to {actual_performance} find the deviation percentage",
+        "actual output was {actual_performance} units against a standard of {standard_performance} units compute the deviation as a percentage",
+        "how far did performance deviate from the standard in percentage terms",
+        "is the deviation within the acceptable range of 2 per cent compute and decide"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the gap between actual and standard",
+          "explain": "Subtract the standard from the actual figure to get the absolute deviation.",
+          "compute": "gap = actual_performance - standard_performance"
+        },
+        {
+          "step": 2,
+          "action": "Express the gap as a percentage of the standard",
+          "explain": "Dividing by the standard and multiplying by 100 makes deviations of any size comparable against the permissible limit.",
+          "compute": "percentage_deviation = gap / standard_performance * 100"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Measuring Deviation from Standards, compute the result for actual_performance = 3, standard_performance = 3.",
+          "solution": "Step 1: Take the gap between actual and standard: gap = actual_performance - standard_performance = 0.0 Step 2: Express the gap as a percentage of the standard: percentage_deviation = gap / standard_performance * 100 = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Measuring Deviation from Standards, compute the result for actual_performance = 4, standard_performance = 4.",
+          "solution": "Step 1: Take the gap between actual and standard: gap = actual_performance - standard_performance = 0.0 Step 2: Express the gap as a percentage of the standard: percentage_deviation = gap / standard_performance * 100 = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.4.3",
+      "title": "Critical Point Control and Management by Exception",
+      "section": "4.1",
+      "definition": "Two companion principles for step four: critical point control concentrates attention on the key result areas whose failure would hurt the whole organisation, and management by exception escalates only the significant deviations that cross the permissible limit, leaving routine variance to subordinates.",
+      "formula": "",
+      "key_idea": "Controlling everything controls nothing; a 5 per cent labour-cost rise may matter more than a 15 per cent rise in postal charges -- the advantages are saved time, focus on vital areas, easier delegation and timely action on critical problems.",
+      "textbook_ref": "lebs108.txt lines 464-568 (critical point control, management by exception, advantages box)",
+      "question_patterns": [
+        "an effort to control everything may end up in controlling nothing explain",
+        "what is meant by critical point control",
+        "which principle should a manager apply while dealing with deviations",
+        "a worker falls short of target by ten units should the ceo intervene explain with the relevant principle",
+        "state the advantages of management by exception",
+        "what are key result areas in controlling"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the principle",
+          "explain": "The case of a minor shortfall escalated to the top calls for management by exception."
+        },
+        {
+          "step": 2,
+          "action": "Explain the principle",
+          "explain": "Only deviations beyond the permissible limit in key result areas reach higher management; the rest stay with subordinates."
+        },
+        {
+          "step": 3,
+          "action": "Apply the advantages",
+          "explain": "Managers save time, focus on vital matters, delegate routine checks and act on critical problems in time -- so the CEO need not act on a ten-unit shortfall."
+        }
+      ]
+    },
+    {
+      "id": "lebs.108.5.1",
+      "title": "Techniques of Managerial Control",
+      "section": "5.1",
+      "definition": "The manager's toolkit falls in two shelves: traditional techniques -- breakeven analysis, personal observation, statistical reports and budgetary control -- and modern techniques -- ratio analysis, return on investment, management audit, PERT and CPM, responsibility accounting, and the management information system.",
+      "formula": "",
+      "key_idea": "Breakeven analysis finds the no-profit-no-loss point, budgetary control runs the firm against quantified plans, PERT and CPM schedule networked projects, and a management audit reviews the whole managerial apparatus rather than one post.",
+      "textbook_ref": "lebs108.txt lines 624-658 (Key terms and summary lists of traditional and modern techniques)",
+      "question_patterns": [
+        "name the traditional and modern techniques of managerial control",
+        "how does management audit serve as an effective technique of controlling",
+        "what does breakeven analysis show a manager",
+        "which techniques of control help in managing project schedules",
+        "how does budgetary control work as a technique",
+        "what is the role of a management information system in controlling"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sort the technique into its shelf",
+          "explain": "Observation, statistical reports, breakeven analysis and budgetary control are traditional; ROI, ratio analysis, responsibility accounting, management audit, PERT, CPM and MIS are modern."
+        },
+        {
+          "step": 2,
+          "action": "Explain the technique asked",
+          "explain": "For instance, a management audit evaluates the total performance of the management process itself, not just one function."
+        },
+        {
+          "step": 3,
+          "action": "State what it controls",
+          "explain": "Each technique watches a different variable -- costs, schedules, returns or managerial quality."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs108.txt lines 516-528 (2 per cent acceptable range for labour cost)",
+      "concept": "lebs.108.4.2",
+      "question_type": "compute",
+      "question_pattern": "A plant budgeted labour cost of {standard_performance} thousand rupees but actually spent {actual_performance} thousand. Compute the percentage deviation and say whether it crosses a 2 per cent acceptable range.",
+      "extracted_variables": {
+        "actual_performance": 515,
+        "standard_performance": 500
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Take the gap between actual and standard",
+          "explain": "515 minus 500 gives a rise of 15 thousand rupees.",
+          "compute": "gap = actual_performance - standard_performance"
+        },
+        {
+          "step": 2,
+          "action": "Express the gap as a percentage of the standard",
+          "explain": "15 divided by 500, times 100, gives 3 per cent -- beyond the 2 per cent limit, so it goes to management.",
+          "compute": "percentage_deviation = gap / standard_performance * 100"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs108.txt lines 686-697 (Bhanu Prasad exercise)",
+      "concept": "lebs.108.4.3",
+      "question_type": "verify_property",
+      "question_pattern": "A worker misses his daily production target by 10 units on two consecutive days and the production head asks the CEO to terminate him. Which principle of control should the CEO apply while deciding?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Name the principle",
+          "explain": "Management by exception -- only significant deviations beyond the permissible limit deserve top-level action."
+        },
+        {
+          "step": 2,
+          "action": "Apply it to the case",
+          "explain": "A ten-unit daily shortfall is a small, routine deviation for the worker's own supervisor to handle."
+        },
+        {
+          "step": 3,
+          "action": "State the decision logic",
+          "explain": "The CEO should decline termination and let the deviation be examined at the appropriate lower level."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs108.txt lines 727-739 (Shantanu garments exercise)",
+      "concept": "lebs.108.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A chief manager instructs the production head to keep a constant check that everything goes per plan and to track every employee's performance so targets are met. Which features of controlling does this highlight?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Read the case for features",
+          "explain": "Checking that work follows the set plan shows controlling is goal-oriented; the demand for constant and continuous check shows it is a continuous process."
+        },
+        {
+          "step": 2,
+          "action": "Name the features",
+          "explain": "Goal-oriented function and continuous (also pervasive, since every employee falls under the check)."
+        },
+        {
+          "step": 3,
+          "action": "Justify briefly",
+          "explain": "Tracking performance against targets ties the function directly to goal attainment, and its reach across all staff shows pervasiveness."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex108_vsa",
+      "source_ref": "lebs108.txt lines 666-678 (Very Short Answer Type)",
+      "questions": [
+        "State the meaning of controlling.",
+        "Name the principle a manager should consider while dealing with deviations effectively.",
+        "State any one situation in which an organisation's control system loses its effectiveness.",
+        "Give any two standards a company can use to evaluate the performance of its finance and accounting department.",
+        "Which term indicates the difference between standard performance and actual performance?"
+      ]
+    },
+    {
+      "id": "ex108_sa",
+      "source_ref": "lebs108.txt lines 679-697 (Short Answer Type)",
+      "questions": [
+        "Planning is looking ahead and controlling is looking back. Comment.",
+        "An effort to control everything may end up in controlling nothing. Explain.",
+        "Explain how management audit serves as an effective technique of controlling.",
+        "A worker falls short of his daily production target by 10 units for two days; the production head asks the CEO to terminate him. Which principle of control should the CEO consider?"
+      ]
+    },
+    {
+      "id": "ex108_la",
+      "source_ref": "lebs108.txt lines 702-739 (Long Answer Type)",
+      "questions": [
+        "Explain the various steps involved in the process of control.",
+        "Explain the techniques of managerial control.",
+        "Explain the importance of controlling and the problems faced in implementing an effective control system.",
+        "Discuss the relationship between planning and controlling.",
+        "Mobile maker M Limited misses sales and customer satisfaction targets amid new competitors; it plans to revamp its controlling system. Identify the benefits of a good control system, relate planning with control, and give the steps of the control process.",
+        "Chief manager Shantanu asks the production head to keep a constant check on all departmental activities and track every employee's performance. Describe two features of controlling highlighted and explain four points of its importance."
+      ]
+    }
+  ]
+}

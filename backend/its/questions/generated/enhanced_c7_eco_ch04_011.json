@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_011",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_011",
+   "title": "c7_eco_ch04_011",
+   "questions": [
+    {
+     "q": "What is the primary institution responsible for issuing paper currency notes in India?",
+     "a": "The Reserve Bank of India (RBI). A student who answers \"commercial banks\" or \"the State Bank of India\" confuses regular retail banks with the central authority that holds the exclusive legal right to print and distribute currency in the country.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Reserve Bank of India often referred to as the \"Banker's Bank\"?",
+     "a": "The RBI is called the Banker's Bank because commercial banks keep a portion of their deposits with the RBI and rely on it for emergency loans and financial regulation, just as regular citizens rely on commercial banks for their daily banking needs. A student who thinks the RBI lends money directly to ordinary farmers and shopkeepers does not understand the difference between central banking and commercial retail banking.",
+     "self_check": true
+    },
+    {
+     "q": "If commercial banks in India suddenly started lowering their interest rates on loans without any guidelines, how might the Reserve Bank of India intervene to prevent too much money from flooding the market?",
+     "a": "Steps:\n1. Identify the problem: Excess credit creation by commercial banks can cause high inflation (too much money chasing too few goods).\n2. Recall RBI's role: The RBI uses monetary tools (like increasing reserve requirements) to restrict the lending capacity of commercial banks.\n3. Apply the principle: By raising the percentage of deposits that commercial banks must keep safely with the RBI, commercial banks have less money available to lend out.\n4. Conclude: This reduces total lending, slowing down money flow and cooling off price rises in the economy.\nA student who suggests the RBI prints more money or forces shops to lower prices misunderstands how the central bank controls inflation through credit regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between your local commercial bank and the Reserve Bank of India in terms of who they serve.",
+     "a": "A commercial bank serves the general public and local businesses by accepting savings deposits, opening current accounts, and giving retail loans. In contrast, the Reserve Bank of India does not open savings accounts for regular citizens; instead, it serves the Government of India and regulates commercial banks, acting as a financial supervisor and monetary policy maker. A student who believes anyone can walk into the RBI office to deposit their pocket money fails to grasp the wholesale, apex nature of a central bank.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If commercial banks face a severe shortage of cash during a financial crisis, the public should rely on the stock market for help.\" Why is this statement economically incorrect?",
+     "a": "The statement is incorrect because the stock market is a platform for buying and selling company shares, not a liquidity provider for banks. During a financial crisis, commercial banks rely on the Reserve Bank of India, which acts as the \"lender of last resort\" to provide emergency financial support and prevent bank failures. A student who agrees with the statement confuses investment markets with central banking monetary support systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short rulebook of two instructions that the Reserve Bank of India would give to commercial banks to protect ordinary depositors during a time of high inflation.",
+     "a": "A good answer would include: \n1. Increase the interest rates on savings and fixed deposits so people are encouraged to save rather than spend. \n2. Restrict risky lending by raising loan requirements so that less cash circulates rapidly in the market, reducing demand-pull inflation. \nA poor answer might suggest banning all loans or printing more rupee notes, which shows a lack of understanding of how the central bank uses interest rates and credit control to stabilize the economy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

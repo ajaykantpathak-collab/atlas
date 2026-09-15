@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_15_005",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_15_005",
+   "title": "c10_engl_cbse_15_005",
+   "questions": [
+    {
+     "q": "What were the gold spots on monarch pupae commonly believed to be before Ebright's experiment?",
+     "a": "The gold spots were commonly believed to be merely ornamental or decorative, with no functional purpose. A wrong answer (e.g., \"they were thought to be eggs\" or \"they were thought to be poison\") reveals the student has not grasped the initial scientific misconception that Ebright challenged.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how Ebright designed his experiment to test the function of the gold spots.",
+     "a": "Ebright built a device that used a microscope and a micro-surgical needle to remove the gold spots from some pupae while leaving others untouched, then compared the development of both groups. A wrong answer that describes a vague \"he watched them\" or \"he used chemicals\" shows the student cannot recall the specific experimental design, a common board exam trap where students confuse observation with controlled experiment.",
+     "self_check": true
+    },
+    {
+     "q": "If Ebright had only observed the gold spots without removing them, what critical scientific principle would he have failed to demonstrate? Apply the concept of controlled experiment to this context.",
+     "a": "He would have failed to demonstrate cause-and-effect through a controlled experiment — specifically, the principle that to prove a factor's function, you must remove/alter it and compare outcomes with a control group. A wrong answer like \"he would not have seen the spots\" misses the methodological point and indicates the student cannot apply the concept of controlled variables to a new situation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between Ebright's gold spot discovery and his earlier science fair projects (node 004). How did his previous work prepare him for this breakthrough?",
+     "a": "His earlier projects gave him expertise in raising monarchs, tagging butterflies, and understanding their life cycle, which provided the technical skills (handling pupae, observing development) and the contextual knowledge (knowing the spots appear at a specific stage) necessary to design the gold spot experiment. A wrong answer that lists unrelated projects or says \"they were just practice\" shows inability to analyze skill progression across the narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ebright's gold spot experiment was more important for its method than its result.\" Defend your position with evidence from the text.",
+     "a": "The claim is defensible because the experiment showcased a rigorous, repeatable method (controlled removal, comparison, microscopic precision) that became Ebright's hallmark, leading to his later cell theory work; the result (hormone production) was significant but the method enabled all future discoveries. A wrong answer that focuses only on the hormone result ignores the chapter's emphasis on scientific process, a key board exam theme.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph diary entry from Ebright's perspective on the night he confirmed the gold spots produce a hormone, capturing his scientific reasoning and excitement.",
+     "a": "A strong entry will mention: the controlled setup (spot-removed vs. control), the observation that spot-removed pupae failed to develop normally, the inference that spots secrete a necessary hormone, and a tone of disciplined excitement. A poor entry that only says \"I did it!\" or describes the spots as \"pretty\" reveals the student cannot synthesize the scientific reasoning with the personal narrative voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

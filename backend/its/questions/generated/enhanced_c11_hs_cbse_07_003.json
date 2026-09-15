@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_003",
+   "title": "c11_hs_cbse_07_003",
+   "questions": [
+    {
+     "q": "A Class 11 student states: \"Mortality rate and morbidity rate are the same thing – both measure how many people are sick.\" Is this statement correct? Explain why or why not using precise definitions.",
+     "a": "The statement is incorrect. Mortality rate measures the frequency of **deaths** in a defined population during a specified time period (e.g., crude death rate = total deaths / mid-year population × 1000). Morbidity rate measures the frequency of **illness/disease** (e.g., incidence rate = new cases / population at risk × 1000). A wrong answer reveals the student conflates \"death\" with \"disease\" and does not understand that mortality is a subset of severe morbidity outcomes, not a synonym.",
+     "self_check": true
+    },
+    {
+     "q": "In a village of 50,000 people, 120 new cases of tuberculosis were diagnosed in 2023. The population at risk (excluding those already with TB) was 48,500. Calculate the incidence rate of TB per 1000 population at risk. Show your formula and steps.",
+     "a": "Incidence Rate = (Number of new cases / Population at risk) × 1000 = (120 / 48,500) × 1000 = 2.47 per 1000 population at risk. A wrong answer (e.g., using total population 50,000 as denominator giving 2.4 per 1000) reveals the student does not distinguish between \"total population\" and \"population at risk\" – a critical epidemiological distinction because prevalent cases are not at risk of becoming new cases.",
+     "self_check": true
+    },
+    {
+     "q": "District A has a Crude Death Rate (CDR) of 8.5 per 1000 and District B has a CDR of 6.2 per 1000. A student concludes \"District B has better health services because its death rate is lower.\" Identify two demographic factors that could make this conclusion invalid without age-standardisation.",
+     "a": "Two factors: (1) **Age structure** – District B may have a younger population (fewer elderly) naturally yielding lower CDR regardless of health services. (2) **Sex ratio** – Different male/female distributions affect CDR since mortality differs by sex. A wrong answer reveals the student treats crude rates as directly comparable without understanding confounding by population composition – a classic senior-secondary error in interpreting health statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Infant Mortality Rate (IMR) and Under-5 Mortality Rate (U5MR) as indicators of child health. Why might a country have a declining IMR but stagnant U5MR? Provide a specific programmatic reason.",
+     "a": "IMR = deaths <1 year / live births × 1000; U5MR = deaths <5 years / live births × 1000. U5MR captures post-infant mortality (1-4 years) which IMR misses. A declining IMR with stagnant U5MR suggests neonatal interventions (e.g., institutional delivery, resuscitation) are working but post-infant causes (malnutrition, diarrhoea, vaccine-preventable diseases in 1-4 year olds) are unaddressed. A wrong answer reveals the student does not understand the age-disaggregated policy implications of these indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Disability-Adjusted Life Years (DALYs) is a better indicator than crude death rate for prioritising health interventions in a developing country.\" Justify your position with two specific advantages of DALYs.",
+     "a": "The claim is valid. Two advantages: (1) DALYs combine **years of life lost (YLL)** from premature death AND **years lived with disability (YLD)**, capturing non-fatal burden (e.g., depression, anaemia) that CDR ignores. (2) DALYs use **age-weighting and discounting** to reflect societal preferences (higher value on young adult years), enabling cost-effectiveness comparisons across diseases. A wrong answer reveals the student thinks mortality indicators alone suffice for resource allocation, missing the morbidity dimension central to modern burden-of-disease frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a health indicator dashboard for a tribal block in Odisha with high malaria burden and malnutrition. Select exactly 5 indicators (mix of mortality, morbidity, nutritional status, and quality of life) and justify each choice in one sentence for this specific context.",
+     "a": "Good answer includes: (1) **Under-5 Mortality Rate** – captures child survival in high-malaria, malnourished settings. (2) **Malaria Annual Parasite Incidence (API)** – direct morbidity measure for the dominant disease. (3) **Prevalence of stunting in children <5** – reflects chronic malnutrition affecting malaria susceptibility. (4) **Maternal Mortality Ratio** – tribal areas often have poor obstetric care. (5) **HDI or multidimensional poverty index** – captures education/living standards driving health-seeking behaviour. A poor answer lists generic indicators without context-specific justification, showing inability to match indicators to epidemiological profile.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

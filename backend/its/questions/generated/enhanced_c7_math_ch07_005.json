@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_005",
+   "title": "c7_math_ch07_005",
+   "questions": [
+    {
+     "q": "What do we call a triangle in which all three interior angles measure less than $90^\\circ$?",
+     "a": "It is called an acute-angled triangle. A wrong answer like \"right-angled triangle\" reveals that the student confuses acute angles with right angles or has not memorized the basic definitions of angle types from earlier geometry classes.",
+     "self_check": true
+    },
+    {
+     "q": "Can a triangle have two obtuse angles? Explain why or why not using mathematical reasoning.",
+     "a": "No, a triangle cannot have two obtuse angles because an obtuse angle is greater than $90^\\circ$. If two angles were each greater than $90^\\circ$, their sum would exceed $180^\\circ$, which violates the fundamental angle sum property of triangles. A student who says \"yes\" does not understand the limitation on the total sum of angles in a triangle.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle PQR$, angle $\\angle P = 50^\\circ$, $\\angle Q = 60^\\circ$, and $\\angle R = 70^\\circ$. Classify this triangle based on its angles.",
+     "a": "Steps:\n1. Examine the given interior angles: $\\angle P = 50^\\circ$, $\\angle Q = 60^\\circ$, and $\\angle R = 70^\\circ$.\n2. Compare each angle to $90^\\circ$: $50^\\circ < 90^\\circ$, $60^\\circ < 90^\\circ$, and $70^\\circ < 90^\\circ$.\n3. Identify the largest angle, which is $70^\\circ$.\n4. Since all angles are less than $90^\\circ$, classify the triangle.\nAnswer: Acute-angled triangle. A wrong answer suggests the student added the angles together instead of checking individual angle sizes.",
+     "self_check": true
+    },
+    {
+     "q": "How many right angles can a single triangle contain, and why can it not contain more than that number?",
+     "a": "A triangle can contain at most one right angle ($90^\\circ$). Since the sum of all three angles in a triangle is $180^\\circ$, having two right angles would mean $90^\\circ + 90^\\circ = 180^\\circ$, leaving $0^\\circ$ for the third angle, which is impossible. A student who thinks a triangle can have two right angles forgets that a triangle requires three distinct vertices and sides with non-zero angle openings.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims he has drawn a triangle with angle measurements of $95^\\circ$, $40^\\circ$, and $45^\\circ$, and he classifies it as an acute-angled triangle because two of the angles are acute. Is Rahul correct? Justify your evaluation.",
+     "a": "Rahul is incorrect. To classify a triangle by its angles, we must look at the *largest* angle present. Since $95^\\circ$ is greater than $90^\\circ$, the triangle is an obtuse-angled triangle, regardless of the other two acute angles. A wrong evaluation shows the student misinterprets classification rules by averaging or focusing on the majority rather than the maximum angle.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem describing a real-life situation (such as a park slide or roof slope) that results in an obtuse-angled triangle, stating all three angle measures.",
+     "a": "A good problem should feature a triangle with one angle greater than $90^\\circ$ (e.g., $100^\\circ$) and two acute angles whose sum equals the remaining $80^\\circ$ (e.g., $40^\\circ$ and $40^\\circ$), set in a real-world context like a playground design. A poor answer gives impossible angle combinations that do not sum to $180^\\circ$ or fails to describe a physical context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

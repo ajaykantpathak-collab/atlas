@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_050",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_050",
+   "title": "c6_math_ch04_050",
+   "questions": [
+    {
+     "q": "What is the rule for rounding up a decimal digit?",
+     "a": "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one. A wrong answer here suggests the student has not memorized the threshold for rounding, confusing it with simple truncation.",
+     "self_check": true
+    },
+    {
+     "q": "When rounding 5.62 to the nearest tenth, why do we ignore the 2?",
+     "a": "We ignore the 2 when deciding whether to round up because only the digit immediately to the right of the target place (the hundredths place) determines the rounding. A student who tries to include the 2 in the calculation shows they don't understand the \"look-one-digit-right\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Round 7.84 to the nearest tenth. Show your steps.",
+     "a": "The answer is 7.8. Step 1: Identify the tenths place (8). Step 2: Look at the hundredths place (4). Step 3: Since 4 is less than 5, keep the 8 as is. A wrong answer suggests the student is rounding based on the magnitude of the whole number rather than the specific decimal place.",
+     "self_check": true
+    },
+    {
+     "q": "Compare rounding 2.35 to 2.4 and rounding 2.32 to 2.3. What do they have in common?",
+     "a": "Both follow the rule of looking at the hundredths place to decide the tenths place. A student who cannot identify this commonality is likely guessing the answer rather than applying the standard algorithm.",
+     "self_check": true
+    },
+    {
+     "q": "Is it ever correct to round 4.49 to 4.5 when rounding to one decimal place? Why?",
+     "a": "Yes, because the hundredths digit (9) is 5 or greater, which forces the tenths digit (4) to round up to 5. Students who argue this is incorrect likely fail to see how the \"rounding up\" rule works across boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal that, when rounded to the nearest tenth, becomes 5.5, but is not 5.5 itself.",
+     "a": "Examples like 5.46, 5.47, 5.54, or 5.52 are correct. An incorrect answer (like 5.6) shows a failure to understand the range of numbers that round to a specific value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

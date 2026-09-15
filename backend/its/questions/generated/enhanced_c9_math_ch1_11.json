@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_11",
+   "title": "c9_math_ch1_11",
+   "questions": [
+    {
+     "q": "Write down the formula for the area of a triangle with vertices \\((x_1, y_1)\\), \\((x_2, y_2)\\), \\((x_3, y_3)\\) using coordinates.",
+     "a": "The formula is \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|\\). If a student writes the formula without the absolute value or with incorrect signs (e.g., \\(x_1(y_3 - y_2)\\)), it reveals they have memorised the pattern incorrectly and do not understand the cyclic order of subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula uses the absolute value of the expression. What would a negative result mean geometrically?",
+     "a": "The absolute value ensures the area is non-negative. A negative result before taking the absolute value indicates the vertices were taken in clockwise order instead of anticlockwise; the magnitude remains the same. If a student says the negative sign means the triangle is upside down, they confuse algebraic sign with geometric orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of a triangle with vertices \\(A(1, 2)\\), \\(B(4, 6)\\), and \\(C(7, 2)\\). Show all steps.",
+     "a": "Substitute into formula: \\(\\text{Area} = \\frac{1}{2} |1(6-2) + 4(2-2) + 7(2-6)| = \\frac{1}{2} |1(4) + 4(0) + 7(-4)| = \\frac{1}{2} |4 + 0 - 28| = \\frac{1}{2} |-24| = 12\\) square units. A wrong answer like 6 or -12 indicates the student forgot the factor \\(\\frac{1}{2}\\) or the absolute value, or made a sign error in the differences.",
+     "self_check": true
+    },
+    {
+     "q": "Three points \\(P(2, 3)\\), \\(Q(4, 7)\\), and \\(R(6, 11)\\) are given. Without calculating the area, how can you tell if they form a triangle? What would the area be if they are collinear?",
+     "a": "Check if the area formula yields zero. Since the points lie on a straight line (slopes PQ and QR are equal), the area is zero. If a student attempts to compute distances and use Heron's formula, they are not recognising the direct link between zero area and collinearity.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the area of triangle with vertices \\((0,0)\\), \\((4,0)\\), \\((0,3)\\) as follows: \\(\\frac{1}{2} |0(0-3) + 4(3-0) + 0(0-0)| = \\frac{1}{2} |0 + 12 + 0| = 6\\). They claim the area is 6 square units. Is this correct? Justify your answer.",
+     "a": "Yes, the calculation is correct. The triangle is right-angled with legs 4 and 3, so area = \\(\\frac{1}{2} \\times 4 \\times 3 = 6\\). If a student says it's wrong because they got -6, they forgot the absolute value. If they say it's wrong because the formula should have subtraction in a different order, they misunderstand the cyclic nature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: a field, a park, a plot of land) where you need to find the area of a triangle given three coordinate points. Provide the coordinates and ask for the area.",
+     "a": "Example: A triangular park in Delhi has corners at (100, 200), (300, 500), and (500, 200) in metres. Find its area in square metres. A good answer will set up the formula correctly and compute. A poor answer might use distance formula and Heron's formula, which is valid but shows they are not comfortable with the coordinate area formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

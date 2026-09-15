@@ -1,0 +1,251 @@
+{
+ "catalog": "catalog_class11_maths_kemh114.json",
+ "concepts": [
+  {
+   "id": "kemh114.14.1.1",
+   "title": "Events as Subsets of the Sample Space",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 4 (there are 2 such outcomes). (give the fraction)",
+     "a": "1/18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.1.2",
+   "title": "Types of Events: Simple, Compound, Sure and Impossible",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 2500 * 5 * 3 / 100 gives 375",
+     "compute": "si = 2500 * 5 * 3 / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 2500 at 5% per annum for 3 years.",
+     "a": "375",
+     "self_check": false
+    },
+    {
+     "q": "Rs 2500 is deposited at 5% simple interest per annum for 3 years. Find the maturity amount.",
+     "a": "2875",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 5% per annum simple interest earns Rs 375 in 3 years. Find the principal (two decimal places).",
+     "a": "2500",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 2500 at 5% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "256.25",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 2500 grows for 2 years at 5% per annum compounded annually (two decimal places)?",
+     "a": "2756.25",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 2500 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "2924.65",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.1.3",
+   "title": "Mutually Exclusive and Exhaustive Events",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 4 / 6 gives 0.666667",
+     "compute": "p = 4 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 7 (there are 5 such outcomes). (give the fraction)",
+     "a": "5/36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.2.1",
+   "title": "Probability of Equally Likely Outcomes",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 5 (there are 3 such outcomes). (give the fraction)",
+     "a": "1/12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.2.2",
+   "title": "Probability of the Event 'A or B'",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 4 (there are 2 such outcomes). (give the fraction)",
+     "a": "1/18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.2.3",
+   "title": "Probability of the Event 'Not A' (Complement)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 3 (there are 1 such outcomes). (give the fraction)",
+     "a": "1/36",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

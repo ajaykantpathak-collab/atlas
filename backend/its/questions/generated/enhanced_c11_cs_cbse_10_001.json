@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_001",
+   "title": "c11_cs_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define \"data structure\" in your own words and give one example of a linear and one example of a non-linear data structure.",
+     "a": "A data structure is a way of organizing data in memory so that specific operations (insert, delete, search, traverse) can be performed efficiently; it specifies the logical relationship among elements and the allowed operations. Linear example: Array (or Stack, Queue, List) where elements form a sequence. Non-linear example: Tree (or Graph) where elements have hierarchical or network relationships. A wrong answer that only says \"it stores data\" reveals the student misses the critical link between organization and operation efficiency; an answer that confuses \"array\" (implementation) with \"stack\" (abstract data type) reveals confusion between concrete and abstract views.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Python list is considered a dynamic data structure while a C-style array is static, and describe one situation where you would deliberately choose a static structure over a dynamic one.",
+     "a": "A Python list automatically resizes (allocates a larger block, copies elements) when capacity is exceeded, so its size can grow or shrink at runtime; a C-style array has fixed size allocated at compile time and cannot change. You would choose a static structure when memory is extremely constrained (embedded systems), when maximum size is known and fixed (e.g., a 3x3 tic-tac-toe board), or when predictable O(1) access without resizing overhead is critical. A wrong answer that claims \"lists are dynamic because they use pointers\" shows confusion between implementation mechanism and abstract property; an answer that cannot name a valid use-case for static structures reveals lack of understanding of trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A school wants to maintain a record of students waiting to see the principal. Students join the line at the end and are called from the front. Which abstract data type (Stack or Queue) models this situation? Justify your answer by naming the principle (LIFO/FIFO) and the two primary operations with their standard names.",
+     "a": "Queue models this situation because it follows FIFO (First-In-First-Out): the student who arrives first is served first. Primary operations: enqueue (insert at rear) and dequeue (remove from front). A wrong answer choosing Stack reveals the student confuses \"last added served first\" (LIFO) with real-world queues; an answer that names operations as \"push/pop\" instead of \"enqueue/dequeue\" shows terminology confusion between the two ADTs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of searching for an element in an unsorted array versus a binary search tree (BST) in the average case. Explain why the BST is not always faster despite its better asymptotic complexity.",
+     "a": "Unsorted array: O(n) linear search; balanced BST: O(log n) average case. BST is not always faster because: (1) it requires the tree to be balanced—degenerate BST becomes O(n); (2) BST has higher constant factors (pointer chasing, cache misses) making it slower for small n; (3) BST needs extra memory for pointers; (4) if data is static and searched often, sorting the array once (O(n log n)) then binary search (O(log n)) beats BST construction overhead. A wrong answer stating \"BST is always faster because log n < n\" ignores constants, balance requirement, and memory hierarchy effects.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since Python lists can grow dynamically and support insert/delete at any index, there is no need to learn Stack or Queue as separate data structures.\" Provide two technical counterarguments.",
+     "a": "Counterargument 1: Abstraction barrier—Stack/Queue restrict operations (only push/pop or enqueue/dequeue) preventing accidental misuse (e.g., inserting in middle of a call stack would break recursion). Counterargument 2: Performance contract—Stack/Queue guarantee O(1) for their specific operations; Python list insert/delete at front is O(n) due to shifting, so using a list as a queue without collections.deque violates the expected complexity. A wrong answer focusing only on \"code readability\" misses the computational complexity and correctness guarantees that define an Abstract Data Type.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal data structure to implement an \"undo\" feature in a text editor that supports only two operations: type(character) and undo(). Specify the ADT, the underlying concrete structure, and the exact algorithm for each operation in pseudocode.",
+     "a": "ADT: Stack (LIFO). Concrete: Dynamic array (Python list) or singly linked list. Algorithm: type(c): push(c) onto stack. undo(): if stack not empty: pop() and remove last character from document; else: ignore. A good answer explicitly states LIFO property matches \"last action undone first\", names push/pop, and handles empty-stack edge case. A poor answer uses a queue (wrong order), omits the empty check, or suggests storing entire document snapshots (space inefficient) revealing misunderstanding of incremental state capture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

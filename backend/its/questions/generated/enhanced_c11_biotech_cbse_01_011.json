@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_011",
+   "title": "c11_biotech_cbse_01_011",
+   "questions": [
+    {
+     "q": "What are the three statutory criteria an invention must satisfy to be patentable under the Indian Patents Act, 1970 (as amended)?",
+     "a": "The three criteria are: (1) Novelty—the invention must not be part of the prior art (any public knowledge, use, or publication anywhere in the world before the filing date); (2) Inventive step (non-obviousness)—the invention must not be obvious to a person skilled in the relevant art; (3) Industrial applicability—the invention must be capable of being made or used in an industry. A wrong answer (e.g., listing \"usefulness\" instead of industrial applicability, or omitting inventive step) reveals the student is confusing patentability criteria with general scientific merit or is recalling generic definitions without legal precision.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates a new antibiotic-producing *Streptomyces* species from a soil sample in the Western Ghats. She deposits the strain in a recognized depository and files a patent application claiming the microorganism per se. Explain why this claim is likely to be rejected under Section 3(j) of the Indian Patents Act.",
+     "a": "Section 3(j) excludes \"plants and animals in whole or any part thereof other than micro-organisms but including seeds, varieties and species and essentially biological processes for production or propagation of plants and animals.\" Although microorganisms *are* patentable, a *naturally occurring* microorganism—even if newly isolated—is considered a discovery, not an invention, because it exists in nature without human intervention. The claim would be rejected for lack of inventive step and because it falls under the \"discovery\" exclusion. A wrong answer (e.g., \"microorganisms cannot be patented in India\") reveals the student hasn't distinguished between naturally occurring vs. genetically modified microorganisms, a critical nuance in biotech patent law.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup has developed a recombinant *E. coli* strain expressing a human therapeutic protein. They plan to file a PCT application claiming priority from an Indian provisional application filed on 15 March 2024. By what date must they file the PCT application to claim priority, and what is the maximum time they get to enter national phase in India?",
+     "a": "The PCT application must be filed within 12 months of the priority date, i.e., by 15 March 2025. The national phase entry deadline in India is 31 months from the priority date (15 September 2026). A wrong answer (e.g., 18 months for PCT filing or 30 months for national phase) reveals confusion between Paris Convention priority period (12 months), PCT international phase timelines, and national phase deadlines—which vary by country but are 31 months for India.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the protection offered by a patent versus a trade secret for a novel enzyme production process. Under what commercial circumstances would a company choose trade secret protection over patenting?",
+     "a": "A patent grants 20-year exclusive rights but requires full public disclosure of the invention; protection is territorial and enforceable against independent inventors. A trade secret lasts indefinitely (e.g., Coca-Cola formula) but offers no protection against reverse engineering or independent discovery; it relies on confidentiality measures. A company would choose trade secret when: (a) the process cannot be easily reverse-engineered from the product, (b) the commercial lifespan exceeds 20 years, (c) patent enforcement is difficult in key markets, or (d) disclosure would enable competitors to design around the invention. A wrong answer focusing only on cost or duration misses the strategic trade-off between disclosure and exclusivity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"India's Patents Act allows patenting of genetically modified crops but not the genes inserted into them.\" Justify your answer with specific reference to Sections 3(c), 3(j), and 3(d).",
+     "a": "The statement is partially incorrect. Section 3(j) excludes \"plants and animals in whole or any part thereof... and essentially biological processes,\" so a genetically modified *plant variety* per se is not patentable in India (though it can be protected under the PPV&FR Act, 2001). However, the *gene construct*, *vector*, *transformation method*, and *transgenic cell line* are patentable as they are microbiological processes/products. Section 3(d) prevents evergreening of known substances (e.g., new forms of known genes without enhanced efficacy). Section 3(c) excludes mere discoveries of naturally occurring DNA sequences. A wrong answer conflating plant variety protection with patent protection reveals misunderstanding of India's sui generis system for plant varieties versus patent law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a prior art search strategy for a patent application claiming a novel CRISPR-Cas9 guide RNA sequence targeting a specific mutation in the *HBB* gene for sickle cell therapy. List the databases, search strings, and classification codes you would use, and explain how you would assess novelty of the guide RNA sequence itself versus the method of use.",
+     "a": "Strategy: (1) Databases—Indian Patent Office (IPO), WIPO Patentscope, USPTO, EPO Espacenet, Google Patents, NCBI Gene/PubMed for literature. (2) Search strings—\"CRISPR AND HBB AND sickle\", \"guide RNA AND beta-globin\", \"Cas9 AND HbS mutation\", \"gRNA AND HBB exon 1\". (3) IPC/CPC codes—C12N 15/11 (gene therapy), C12N 9/22 (CRISPR), A61K 48/00 (medicinal preparations). (4) Novelty assessment: The *guide RNA sequence per se* (as a nucleic acid molecule) is assessed against prior art sequences—if the exact 20-nt spacer sequence is disclosed, it lacks novelty. The *method of use* (treating sickle cell with this gRNA) is a separate claim category; even if the sequence is known, a new therapeutic use may be patentable as a second medical use (Swiss-type claim) if not previously disclosed for that indication. A poor answer using only keyword search without classification codes or failing to distinguish product vs. use claims reveals inadequate understanding of biotech claim drafting and search methodology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

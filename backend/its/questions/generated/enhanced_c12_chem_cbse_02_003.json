@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_003",
+   "title": "c12_chem_cbse_02_003",
+   "questions": [
+    {
+     "q": "Write the Nernst equation for the half-cell reaction Cu²⁺(aq) + 2e⁻ → Cu(s) at 298 K, clearly defining each symbol and its units.",
+     "a": "E = E° - (0.059/2) log(1/[Cu²⁺]) where E is electrode potential (V), E° is standard electrode potential (V), 0.059 = 2.303RT/F at 298 K (V), n = 2 (number of electrons), [Cu²⁺] is concentration in mol L⁻¹. A wrong answer (e.g., writing log[Cu²⁺] instead of log(1/[Cu²⁺]), using ln instead of log₁₀, or omitting the factor 2 in denominator) reveals confusion about the reaction quotient Q for reduction half-reactions and the sign convention for the Nernst equation.",
+     "self_check": true
+    },
+    {
+     "q": "For the cell Mg(s)|Mg²⁺(0.1 M)||Ag⁺(0.01 M)|Ag(s), the standard cell potential is 3.17 V. A student calculates Ecell = 3.17 - (0.059/2) log([Mg²⁺]/[Ag⁺]²) and gets 2.96 V. Identify the error in the reaction quotient Q and write the correct expression.",
+     "a": "The error: Q for the cell reaction Mg(s) + 2Ag⁺ → Mg²⁺ + 2Ag(s) is [Mg²⁺]/[Ag⁺]², but the student wrote the numerator and denominator correctly yet likely mis-evaluated the log term. The correct Q = [Mg²⁺]/[Ag⁺]² = 0.1/(0.01)² = 1000. Ecell = 3.17 - (0.059/2) log(1000) = 3.17 - 0.0885 = 3.0815 V. If the student got 2.96 V, they probably used log([Ag⁺]²/[Mg²⁺]) or miscalculated the concentration ratio. This reveals a common trap: confusing the direction of the reaction quotient (products over reactants for the spontaneous cell reaction as written).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the EMF of the cell Fe(s)|Fe²⁺(0.001 M)||H⁺(1 M)|H₂(g, 1 bar)|Pt(s) at 298 K. Given E°(Fe²⁺/Fe) = -0.44 V.",
+     "a": "Step 1: Write cell reaction: Fe(s) + 2H⁺ → Fe²⁺ + H₂(g). Step 2: n = 2. Step 3: Q = [Fe²⁺]P_H₂/[H⁺]² = (0.001 × 1)/1² = 0.001. Step 4: E°cell = E°cathode - E°anode = 0 - (-0.44) = 0.44 V. Step 5: Ecell = 0.44 - (0.059/2) log(0.001) = 0.44 - (0.0295)(-3) = 0.44 + 0.0885 = 0.5285 V. A wrong answer (e.g., 0.35 V) typically comes from using Q = [H⁺]²/[Fe²⁺] (reversing the reaction) or sign error in E°cell calculation.",
+     "self_check": true
+    },
+    {
+     "q": "The standard cell potential for Cu(s)|Cu²⁺||Ag⁺|Ag(s) is 0.46 V. At equilibrium, the cell potential becomes zero. Derive the expression for the equilibrium constant Kc in terms of E°cell and calculate Kc at 298 K.",
+     "a": "At equilibrium, Ecell = 0 = E°cell - (0.059/n) log Kc → log Kc = nE°cell/0.059. For Cu + 2Ag⁺ → Cu²⁺ + 2Ag, n = 2. log Kc = (2 × 0.46)/0.059 = 15.593 → Kc = 3.92 × 10¹⁵. A wrong answer (e.g., using n=1, or ln instead of log₁₀, or forgetting the factor 2.303) reveals confusion between the thermodynamic relation ΔG° = -RT ln K and its electrochemical form ΔG° = -nFE°cell, and the conversion between ln and log₁₀.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the cell Zn|Zn²⁺(c₁)||Cu²⁺(c₂)|Cu, if I double both concentrations c₁ and c₂, the cell EMF remains unchanged.\" Evaluate this statement and justify your answer.",
+     "a": "The statement is TRUE. For Zn + Cu²⁺ → Zn²⁺ + Cu, Q = [Zn²⁺]/[Cu²⁺]. If both concentrations are doubled, Q_new = (2[Zn²⁺])/(2[Cu²⁺]) = Q_original. Since Ecell = E°cell - (0.059/2) log Q, Ecell is unchanged. A student who says \"false, EMF changes\" is likely thinking of absolute concentration effects individually rather than the ratio Q. This tests deep understanding that the Nernst equation depends on the reaction quotient Q, not individual concentrations.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using a concentration cell (two identical electrodes in same electrolyte at different concentrations) to determine the solubility product Ksp of a sparingly soluble salt AgCl. Outline the cell setup, measurements needed, and the calculation steps.",
+     "a": "Cell: Ag(s)|Ag⁺(sat'd AgCl)||Ag⁺(c known)|Ag(s). The left half-cell has [Ag⁺] = √Ksp (from AgCl ⇌ Ag⁺ + Cl⁻). Right half-cell has known [Ag⁺] = c. Ecell = (0.059/1) log(c/√Ksp). Measure Ecell, know c, solve for Ksp: log Ksp = 2 log c - 2Ecell/0.059. A poor answer (e.g., using a standard hydrogen electrode instead of a concentration cell, or not recognizing [Ag⁺] = √Ksp in saturated AgCl) reveals inability to connect solubility equilibrium with electrochemical potential and to design a cell where the unknown concentration is directly related to Ksp.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

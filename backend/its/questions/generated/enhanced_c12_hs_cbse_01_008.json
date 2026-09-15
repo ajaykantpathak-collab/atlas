@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_01_008",
+   "title": "c12_hs_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define 'gender' as distinct from 'sex' in the context of work and labour division. Give one example of a gendered work expectation that has no biological basis.",
+     "a": "Sex refers to biological characteristics (chromosomes, reproductive anatomy) categorising people as male/female/intersex. Gender refers to socially constructed roles, behaviours, and identities a society considers appropriate for men and women. Example: the expectation that women are 'naturally' better at nursing or teaching young children has no biological basis — it is a gender stereotype. A wrong answer conflating sex and gender (e.g., \"women do care work because they give birth\") reveals the student has not grasped the core sociological distinction and will misattribute structural inequality to biology.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Women choose part-time work and lower-paying jobs because they prefer flexibility for family. It's not discrimination — it's choice.\" Using the concept of 'structural constraints,' explain why this reasoning is flawed.",
+     "a": "The 'choice' argument ignores structural constraints: (1) unpaid care work is disproportionately assigned to women through socialisation, not innate preference; (2) lack of affordable childcare, rigid work hours, and employer bias limit *real* options; (3) 'flexible' jobs are often informal, low-paid, and lack social protection — not a genuine preference but a forced compromise. A wrong answer accepting the 'choice' narrative reveals the student cannot see how gender norms shape the menu of options before a 'choice' is even made — a critical analytical gap for board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 'double burden' concept to analyse the following data: In a survey, 68% of employed urban women reported 'time poverty' (less than 2 hours leisure/day) compared to 22% of employed men. Both groups worked similar paid hours (8.5 hrs/day). Calculate the implied unpaid work gap and explain its source.",
+     "a": "Total waking hours ≈ 16 hrs. Paid work = 8.5 hrs for both. Leisure: women <2 hrs, men >2 hrs (say 3 hrs avg). Unpaid work = 16 – paid – leisure – sleep (assume 7 hrs). Women: 16 – 8.5 – 2 – 7 = –1.5 (impossible, so leisure <2). Men: 16 – 8.5 – 3 – 7 = –2.5. Better: unpaid work gap = men's leisure – women's leisure ≈ 1–2 hrs/day more unpaid work for women. Source: gendered norms assigning cooking, cleaning, childcare, eldercare to women regardless of employment status. A wrong answer focusing only on paid hours misses the core Home Science insight: work includes unpaid labour, and time-use data exposes inequality invisible in labour force statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'welfare approach' (1970s), 'equality approach' (1980s), and 'development/empowerment approach' (1990s onward) to women's work in India's policy history. Identify one key legislation or scheme exemplifying each phase.",
+     "a": "Welfare approach (1970s): viewed women as passive beneficiaries; focused on health, nutrition, maternity. Exemplar: ICDS (1975). Equality approach (1980s): demanded legal rights, equal pay, anti-discrimination. Exemplar: Equal Remuneration Act 1976 (enforced 1980s), 73rd/74th Amendments (reservations). Development/empowerment approach (1990s+): women as agents, focus on agency, collectives, livelihoods. Exemplar: NRLM (2011), Mahila Shakti Kendra, KGBV (extended to Class XII). A wrong answer listing schemes without linking to the *paradigm shift* in how the state conceptualises women (beneficiaries → rights-holders → agents) shows superficial memorisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Lijjat Papad model proves that women's economic empowerment is best achieved through cooperative entrepreneurship rather than formal sector employment.\" Consider scalability, social protection, and transformative potential.",
+     "a": "Lijjat's strengths: 45,000 women, dignified income, collective ownership, flexible hours accommodating care work. Limitations: (1) scalability — niche product, hard to replicate across sectors; (2) social protection — no ESI, PF, maternity leave, pension; (3) transformative potential — does not challenge gender division of labour at home; women still do 'women's work' (rolling papad) and domestic chores. Formal employment with enforced labour laws offers stronger structural protection. A nuanced evaluation acknowledges Lijjat as *necessary but insufficient* — a complement, not substitute, for formal sector reform. A one-sided answer (either romanticising cooperatives or dismissing them) fails the 'evaluate' competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-component intervention for a rural block where female labour force participation (FLFP) is 18% (national avg ~37%). Components must address: (a) supply-side constraints (skills, mobility), (b) demand-side constraints (employer bias, job quality), (c) household/community norms. Name one specific scheme or policy lever for each.",
+     "a": "(a) Supply-side: Skill training + mobility support. Lever: DDU-GKY (Deen Dayal Upadhyaya Grameen Kaushalya Yojana) with residential training for women + transport stipend. (b) Demand-side: Incentivise formal job creation for women. Lever: PLI (Production Linked Incentive) scheme top-up for firms hiring >30% women + mandatory creches (Factories Act Sec 48). (c) Norms: Engage men/boys + community leaders. Lever: Mahila Shakti Kendra + NRLM gender sensitisation modules + Panchayat-led 'shared care work' campaigns. A good answer links each component to a *specific, existing* policy instrument and explains the causal mechanism. A vague answer (\"training,\" \"awareness\") without scheme names or implementation logic reveals inability to translate concepts into policy design — a key CUET/board competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_011",
+   "title": "c12_hs_cbse_14_011",
+   "questions": [
+    {
+     "q": "A student washes a wool sweater in hot water (60°C) with a regular alkaline detergent (pH 10.5) and agitates vigorously in a top-load machine. The sweater shrinks to half its size and feels stiff. Identify the TWO primary fibre-level mechanisms responsible for this damage.",
+     "a": "Correct answer: (1) **Felting** — Wool scales interlock under heat, moisture, and mechanical agitation, causing irreversible shrinkage. (2) **Alkaline hydrolysis** — High pH cleaves peptide bonds in keratin, destroying fibre integrity and causing stiffness. A wrong answer (e.g., \"wool melts\" or \"dye runs\") reveals confusion between thermoplastic synthetic behaviour and protein fibre chemistry, or ignorance of pH-specific hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why cotton and linen can be boiled (100°C) with strong alkali (e.g., sodium carbonate) for stain removal, but silk and wool cannot. Use the terms \"cellulosic\", \"protein\", \"hydrogen bonding\", and \"peptide bond\" in your explanation.",
+     "a": "Correct answer: Cotton/linen are **cellulosic** polymers with extensive **hydrogen bonding** that stabilises the structure at high temperature and resists alkali; alkali swells cellulose, aiding soil release. Silk/wool are **protein** fibres held by **peptide bonds** and disulfide cross-links; alkali hydrolyses peptide bonds, and heat + moisture disrupts hydrogen bonds in the amorphous regions, causing permanent damage. A wrong answer that omits peptide bond hydrolysis or claims \"silk is delicate\" without chemical reasoning shows surface-level memorisation.",
+     "self_check": true
+    },
+    {
+     "q": "A polyester shirt has an oily food stain. The student washes it in cold water (20°C) with a non-ionic surfactant detergent, but the stain remains. Propose a corrected laundering protocol (temperature, detergent type, mechanical action) and justify each change using polyester's fibre properties.",
+     "a": "Correct protocol: (1) **Warm water (40–50°C)** — Polyester is thermoplastic (Tg ~70°C); warm water lowers oil viscosity and increases surfactant efficiency without risking heat-setting wrinkles. (2) **Heavy-duty detergent with builders + non-ionic/anionic mix** — Polyester is oleophilic; builders sequester hardness ions, non-ionics emulsify oil better at moderate temps. (3) **Moderate agitation** — Polyester has high tenacity and resists abrasion; mechanical action aids oily soil removal. A wrong answer using cold water or soap-only shows misunderstanding of polyester's oleophilia and the temperature-dependence of non-ionic surfactant cloud point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the ironing requirements for linen and silk. Include: maximum safe temperature, moisture condition, pressing technique, and the fibre-property reason for each.",
+     "a": "Correct comparison:\n| Parameter | Linen (Cellulosic) | Silk (Protein) |\n|-----------|-------------------|----------------|\n| Max temp  | 200–230°C (cotton/linen setting) | 110–150°C (silk/wool setting) |\n| Moisture  | **Damp** (steam iron) — water plasticises cellulose, allows hydrogen bond reformation under pressure | **Dry or slightly damp** — excess moisture + heat causes water spotting and weakens wet silk (loss of H-bonds in amorphous regions) |\n| Technique | Firm pressure, gliding — high wet strength tolerates pressure | Light pressure, lift-and-press — low wet strength, risk of yarn slippage and shine |\n| Reason    | Cellulose chains reorient via H-bonds when damp + heat + pressure | Protein chains degrade via hydrolysis at high temp; moisture swells fibre, causing distortion under pressure |\nA wrong answer that irons silk damp on high heat reveals confusion between cellulosic and protein fibre responses to thermo-mechanical treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since synthetic fibres like nylon and polyester are strong and durable, they can be washed and dried at the highest machine settings without damage.\" Provide three specific counter-arguments based on fibre physics/chemistry.",
+     "a": "Correct evaluation: The statement is **false**. Three counter-arguments: (1) **Thermoplasticity** — Nylon (Tm ~220°C) and polyester (Tm ~260°C) soften well below boiling; tumble-dry high (70–80°C) can cause heat-setting of wrinkles, shrinkage, or melting at contact points. (2) **Oleophilia** — Synthetics attract oily soils; high heat can bake oils into fibres, making stains permanent. (3) **Static & pilling** — High mechanical action + heat increases fibre-to-fibre friction, generating static and promoting pill formation on low-modulus synthetics. A wrong answer that agrees reveals ignorance of glass transition/melting behaviour and oleophilic soil retention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single \"universal\" laundering protocol (one wash cycle, one dry cycle, one iron setting) that would safely clean a mixed load of: 60% cotton / 40% polyester blend kurta, 100% linen napkin, and 100% acrylic sweater. Specify all parameters and justify why this protocol is the **maximum common safe envelope** — then explain why the acrylic sweater still risks damage.",
+     "a": "Universal safe protocol: **Wash:** 30°C, neutral pH liquid detergent (non-ionic dominant), gentle cycle (low agitation, short duration). **Dry:** Flat air-dry in shade (no tumble). **Iron:** 110°C (synthetic/wool setting), dry press with cloth. Justification: 30°C protects acrylic (Tg ~85°C, but heat-setting starts lower) and silk/wool if present; neutral pH protects protein fibres and avoids cellulose degradation at extremes; low agitation prevents felting (wool) and pilling (acrylic). Acrylic risk: **Pilling** — even gentle agitation can cause surface fibre breakage on low-tenacity acrylic, and flat drying may not prevent distortion if the knit is heavy. A poor answer that suggests 40°C or tumble-dry low shows failure to identify the most restrictive fibre (acrylic/protein) as the limiting factor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

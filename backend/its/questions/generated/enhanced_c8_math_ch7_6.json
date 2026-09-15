@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_6",
+   "title": "c8_math_ch7_6",
+   "questions": [
+    {
+     "q": "What is the first step in the unitary method when you are given the total cost of 5 pens as ₹75 and asked to find the cost of 8 pens?",
+     "a": "The first step is to find the cost of one pen by dividing the total cost (₹75) by the number of pens (5), giving ₹15 per pen. A wrong answer like \"multiply 75 by 8\" reveals the student does not understand that the unit value must be found first before scaling, confusing the unitary method with direct multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why dividing the total quantity by the number of units gives the correct value for one unit in a direct proportion situation.",
+     "a": "In direct proportion, the ratio between the two quantities is constant. If 5 pens cost ₹75, the ratio pens:cost is 5:75 which simplifies to 1:15. Dividing both terms by 5 preserves the ratio, giving the value for one unit. A wrong answer like \"because the formula says so\" reveals the student is memorizing steps without understanding the constant ratio principle.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 180 km on 12 litres of petrol. How far can it travel on 15.5 litres? Show your working using the unitary method.",
+     "a": "Step 1: Distance per litre = 180 km ÷ 12 = 15 km/litre.\nStep 2: Distance on 15.5 litres = 15 × 15.5 = 232.5 km.\nA wrong answer like 180 × 15.5 = 2790 km reveals the student multiplied total distance by new litres instead of finding the unit rate first. An answer of 232.5 km without showing the division step suggests they might have used cross-multiplication without understanding the unitary logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the unitary method and the cross-multiplication method for solving: \"If 6 m of cloth costs ₹450, find the cost of 9 m.\" Which method is more efficient when the unit value is a terminating decimal? When is the unitary method preferable?",
+     "a": "Unitary method: Cost per metre = 450 ÷ 6 = ₹75. Cost of 9 m = 75 × 9 = ₹675.\nCross-multiplication: 6/450 = 9/x → x = (450×9)/6 = ₹675.\nBoth give the same answer. The unitary method is more efficient when the unit value (₹75) is a simple terminating decimal because it avoids large intermediate numbers. It is preferable when the problem asks for multiple different quantities (e.g., cost of 9 m, 12 m, 0.5 m) because the unit rate is reused. A wrong answer claiming cross-multiplication is always better reveals a lack of strategic thinking about computational efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"4.5 kg of rice costs ₹180. Find the cost of 3.2 kg.\" Their working: 180 ÷ 4.5 = 40. Then 40 × 3.2 = 128. They answer ₹128. Is this correct? If not, identify the error.",
+     "a": "The answer ₹128 is correct. The student correctly found the cost per kg (₹40) by dividing 180 by 4.5, then multiplied by 3.2. A wrong evaluation like \"incorrect because 180 ÷ 4.5 is not 40\" reveals the evaluator's own decimal division error. A response saying \"should use cross-multiplication\" reveals a misconception that the unitary method is invalid for decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem from your daily routine (shopping, travel, cooking) that requires the unitary method with at least one decimal quantity. Write the problem and solve it step by step.",
+     "a": "Example problem: \"My scooter gives 45.5 km per litre of petrol. If I have ₹200 and petrol costs ₹95 per litre, how many kilometres can I travel?\"\nSolution: Litres I can buy = 200 ÷ 95 = 2.105... litres. Distance = 45.5 × 2.105... ≈ 95.8 km.\nA good answer shows a realistic scenario, correct unitary steps (find litres per rupee or km per rupee), and handles decimals appropriately. A poor answer uses only whole numbers or skips the unit-finding step, indicating the student cannot transfer the method to self-generated contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

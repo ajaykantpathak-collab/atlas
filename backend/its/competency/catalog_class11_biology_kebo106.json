@@ -1,0 +1,129 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 106,
+ "chapter_title": "Anatomy of Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo106.txt",
+ "concepts": [
+  {
+   "id": "kebo.106.1.1",
+   "title": "Meristematic and Permanent Tissues",
+   "section": "6.1 The Tissues",
+   "definition": "Plant tissues are grouped into meristematic tissues of actively dividing cells at apical, intercalary and lateral positions, and permanent tissues, which are simple tissues like parenchyma, collenchyma and sclerenchyma, and complex tissues like xylem and phloem.",
+   "formula": "",
+   "key_idea": "Xylem conducts water with tracheids, vessels, fibres and parenchyma, while phloem translocates food through sieve tubes, companion cells and phloem fibres.",
+   "textbook_ref": "kebo106.txt section 6.1",
+   "question_patterns": [
+    "classify plant tissues into meristematic and permanent",
+    "differentiate parenchyma collenchyma and sclerenchyma",
+    "name the components of xylem and phloem",
+    "where do apical and lateral meristems occur and what do they form",
+    "what are tracheids and vessels",
+    "explain the function of companion cells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for dividing cells",
+     "explain": "Decide whether the tissue is meristematic or permanent."
+    },
+    {
+     "step": 2,
+     "action": "identify cell types",
+     "explain": "Note the cell wall, shape and living or dead nature of the cells."
+    },
+    {
+     "step": 3,
+     "action": "assign the function",
+     "explain": "Match the tissue to conduction, support or storage."
+    }
+   ]
+  },
+  {
+   "id": "kebo.106.2.1",
+   "title": "Monocot and Dicot Root, Stem and Leaf Anatomy",
+   "section": "6.3 Anatomy of Dicotyledonous and Monocotyledonous Plants",
+   "definition": "Internal anatomy distinguishes dicot and monocot organs: dicot roots show xylem and phloem in separate radial bundles with exarch xylem, monocot stems have scattered vascular bundles with no cambium, and dicot leaves show reticulate venation with mesophyll split into palisade and spongy parenchyma.",
+   "formula": "",
+   "key_idea": "Ground tissue system, vascular tissue system and epidermal tissue system together build the internal structure of root, stem and leaf in both groups.",
+   "textbook_ref": "kebo106.txt section 6.3",
+   "question_patterns": [
+    "compare the anatomy of dicot and monocot root",
+    "why do monocot stems lack secondary growth",
+    "describe the vascular bundle of a monocot stem",
+    "differentiate between palisade and spongy parenchyma in a leaf",
+    "what is bulliform grass in a monocot leaf",
+    "explain the stomatal apparatus of a dicot leaf"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the vascular arrangement",
+     "explain": "Note ring versus scattered bundles, and radial versus conjoint types."
+    },
+    {
+     "step": 2,
+     "action": "check the xylem condition",
+     "explain": "Look for exarch or endarch xylem and the presence of cambium."
+    },
+    {
+     "step": 3,
+     "action": "conclude the plant group",
+     "explain": "State whether the section belongs to a dicot or a monocot."
+    }
+   ]
+  },
+  {
+   "id": "kebo.106.3.1",
+   "title": "Secondary Growth: Cambium, Annual Rings, Heartwood and Sapwood",
+   "section": "6.4 Secondary Growth",
+   "definition": "In dicot stems and roots secondary growth arises from the vascular cambium and cork cambium, which form secondary xylem, secondary phloem, and periderm; activity differences form spring wood and autumn wood or annual rings, and the darker inner wood becomes heartwood while the outer functional wood is sapwood.",
+   "formula": "",
+   "key_idea": "Cork cambium produces phellem and phelloderm making up periderm, which replaces the epidermis of the older stem and protects it.",
+   "textbook_ref": "kebo106.txt section 6.4",
+   "question_patterns": [
+    "how does secondary growth occur in a dicot stem",
+    "what are annual rings and how are they formed",
+    "distinguish heartwood from sapwood",
+    "state the role of cork cambium in secondary growth",
+    "define periderm and its components",
+    "why is secondary growth absent in monocots"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the secondary meristems",
+     "explain": "Identify vascular cambium and cork cambium in the section."
+    },
+    {
+     "step": 2,
+     "action": "follow the tissues formed",
+     "explain": "Trace secondary xylem, secondary phloem, phellem and phelloderm."
+    },
+    {
+     "step": 3,
+     "action": "explain the rings",
+     "explain": "Relate seasonal activity to spring wood, autumn wood and annual rings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo106.txt exercises section",
+   "questions": [
+    "State the location and function of different types of meristems.",
+    "Cork cambium forms tissues that form the cork - explain.",
+    "Explain the process of secondary growth in the stem of a woody angiosperm.",
+    "Draw illustrations of the anatomy of a dicot root and a monocot root.",
+    "How is the study of plant anatomy useful to us?",
+    "Name the components of xylem and phloem and state their functions."
+   ]
+  }
+ ]
+}

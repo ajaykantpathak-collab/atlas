@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy206",
+  "concepts": [
+    {
+      "id": "legy.206.1",
+      "questions": [
+        {"q": "Which body prepared India's successive Five Year Plans? (two words)", "a": "Planning Commission"},
+        {"q": "What name is given to plans that target one sector, like agriculture? (one word)", "a": "sectoral"},
+        {"q": "What name is given to planning aimed at balanced development of areas? (one word)", "a": "regional"},
+        {"q": "Plans set objectives, allocate resources and do what at the end? (one word)", "a": "evaluate"},
+        {"q": "How many years does each Five Year Plan run? (number)", "a": "5"},
+        {"q": "Which kind of planning, sectoral or regional, addresses backward areas specifically? (one word)", "a": "regional"},
+        {"q": "Plans convert broad goals into what concrete allocations? (one word)", "a": "resources"}
+      ]
+    },
+    {
+      "id": "legy.206.2",
+      "questions": [
+        {"q": "The Irrigation Commission of which year set the criterion for drought-prone districts? (give the year)", "a": "1972"},
+        {"q": "A district was called drought-prone if irrigated area was less than what per cent? (give the per cent)", "a": "30"},
+        {"q": "How many districts were demarcated as drought-prone under the criterion? (number)", "a": "67"},
+        {"q": "If irrigated area is under 30 per cent, rainfed area exceeds what per cent? (give the per cent)", "a": "70"},
+        {"q": "What does DPAP stand for in full (four words)?", "a": "Drought Prone Areas Programme"},
+        {"q": "Which programme targets desert districts? (three words)", "a": "Desert Development Programme"},
+        {"q": "Hill area development programmes target which terrain? (one word)", "a": "hills"}
+      ]
+    },
+    {
+      "id": "legy.206.3",
+      "questions": [
+        {"q": "From which river does the Indira Gandhi Canal draw water? (one word)", "a": "Sutlej"},
+        {"q": "At which place on the Sutlej does the Indira Gandhi Canal begin? (one word)", "a": "Harike"},
+        {"q": "Through which desert state does the Indira Gandhi Canal finally flow? (one word)", "a": "Rajasthan"},
+        {"q": "Besides Punjab and Haryana, which state does the canal serve? (one word)", "a": "Rajasthan"},
+        {"q": "How many ecological risks of canal irrigation are named (waterlogging, salinity, ecological stress)? (number)", "a": "3"},
+        {"q": "Which salinity risk follows poorly managed canal irrigation? (one word)", "a": "salinity"},
+        {"q": "What does the canal convert desert land into? (short phrase)", "a": "canal-irrigated agriculture"}
+      ]
+    },
+    {
+      "id": "legy.206.4",
+      "questions": [
+        {"q": "Sustainable development meets present needs without sacrificing whose ability to meet theirs? (two words)", "a": "future generations"},
+        {"q": "Name one of the three balances of sustainable development besides economic growth and social equity. (two words)", "a": "environmental care"},
+        {"q": "Which programme of joint care of forests with communities models sustainability? (three words)", "a": "joint forest management"},
+        {"q": "Farming without chemical inputs that models sustainability is called what? (two words)", "a": "organic farming"},
+        {"q": "Which watershed-based programme conserves soil and water sustainably? (one word)", "a": "watershed"},
+        {"q": "Does sustainable development favour growth at any cost? (yes or no)", "a": "no"},
+        {"q": "How many elements of balance does sustainable development weigh (growth, equity, environment)? (number)", "a": "3"}
+      ]
+    }
+  ]
+}

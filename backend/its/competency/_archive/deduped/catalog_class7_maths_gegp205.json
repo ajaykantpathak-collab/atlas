@@ -1,0 +1,237 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Connecting the Dots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.5.1",
+   "title": "Of Questions and Statements",
+   "section": "Connecting the Dots",
+   "definition": "Data work begins with a question: a statement like the class drinks more milk than water is a claim, and answering it needs data, collected values that can be organised, shown and judged against the statement.",
+   "formula": "",
+   "key_idea": "Data answers questions: every good claim asks for numbers, and every collected number needs a fair question.",
+   "textbook_ref": "gegp205.txt, Connecting the Dots",
+   "question_patterns": [
+    "turn the given statement into a data question",
+    "what data would you collect to check a claim about your class",
+    "why is a question needed before collecting data",
+    "decide whether the given statement can be checked by data",
+    "plan a small survey for one question of your own",
+    "how do statements differ from questions in data work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.5.2",
+   "title": "Finding the Mean",
+   "section": "Mean",
+   "definition": "The mean shares the total equally among all values: add the values to get the total and divide by how many there are, giving the balanced centre of the data.",
+   "formula": "mean = total / count",
+   "key_idea": "The mean is fair sharing: the total poured equally into every value leaves everyone at the same level.",
+   "textbook_ref": "gegp205.txt, Mean",
+   "question_patterns": [
+    "find the mean of 2 4 and 6",
+    "the total of 5 scores is 450 find the mean",
+    "find the mean of 12 15 9 and 20",
+    "why is the mean called a measure of the centre",
+    "the mean height of 4 friends is 140 cm find their total height",
+    "check the mean by sharing the total equally"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add all the values",
+     "explain": "The total is the sum of every value in the data.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide by how many",
+     "explain": "Sharing the total among all values gives the mean.",
+     "compute": "mean = total / count"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.5.3",
+   "title": "The Median: Middle of Ordered Data",
+   "section": "Median",
+   "definition": "The median sits at the middle of data arranged in order: with an odd count it is the middle value, with an even count it is the mean of the two middle values, and it is unmoved by extreme values.",
+   "formula": "",
+   "key_idea": "Order first, then find the middle: the median reports where the data really leans, ignoring loud extremes.",
+   "textbook_ref": "gegp205.txt, Median",
+   "question_patterns": [
+    "find the median of 7 3 9 5 and 11",
+    "find the median of 4 8 6 10 and 2",
+    "why must data be ordered before finding the median",
+    "find the median of an even number of values",
+    "compare the mean and median of the given data",
+    "which is a fairer centre when one value is very large"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.5.4",
+   "title": "Extremes and Variability",
+   "section": "Variability in data",
+   "definition": "Two data sets can share a mean yet differ wildly: their minimum, maximum and spread describe variability, and looking at extremes reveals what averages quietly hide.",
+   "formula": "",
+   "key_idea": "The centre is not the whole story: two identical means can hide two very different moods of data.",
+   "textbook_ref": "gegp205.txt, Variability in data",
+   "question_patterns": [
+    "find the range of the given data",
+    "which data set varies more and how do you know",
+    "what can an average hide about the data",
+    "find the minimum and maximum of the values",
+    "why should we look at extremes along with the mean",
+    "describe the given data using centre and spread"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp205.txt",
+   "concept": "gegp2.5.2",
+   "question_type": "compute",
+   "question_pattern": "Three plants grew 2 cm, 4 cm and 6 cm in a month. Find the mean growth.",
+   "extracted_variables": {
+    "total": "the sum of all values",
+    "count": "how many values there are"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add all the values",
+     "explain": "The total of 2, 4 and 6 is 12.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
+     "explain": "The mean is the total shared equally among the values.",
+     "compute": "mean = total / count"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp205.txt",
+   "concept": "gegp2.5.2",
+   "question_type": "compute",
+   "question_pattern": "Five friends scored a total of 20 goals. Find the mean number of goals.",
+   "extracted_variables": {
+    "total": "the sum of all values",
+    "count": "how many values there are"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add all the values",
+     "explain": "The goals already come as a total of 20.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
+     "explain": "Sharing 20 among 5 gives the mean.",
+     "compute": "mean = total / count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp205.txt",
+   "concept": "gegp2.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "find the median of 7, 3, 9, 5 and 11.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp205.txt, Figure it Out",
+   "questions": [
+    "Find the mean of 2, 4 and 6.",
+    "Find the median of 7, 3, 9, 5 and 11.",
+    "Find the range of the given data.",
+    "Turn the given statement into a data question.",
+    "Why should we look at extremes along with the mean?"
+   ]
+  }
+ ]
+}

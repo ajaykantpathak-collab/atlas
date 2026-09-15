@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_08_006",
+   "title": "c12_math_cbse_08_006",
+   "questions": [
+    {
+     "q": "A student writes the area between the curve \\( y = \\sin x \\) and the x‑axis from \\( x = 0 \\) to \\( x = 2\\pi \\) as \\( \\int_0^{2\\pi} \\sin x \\, dx = 0 \\). What is the correct area and why is the student's answer wrong?",
+     "a": "The correct area is \\( \\int_0^{\\pi} \\sin x \\, dx + \\left| \\int_{\\pi}^{2\\pi} \\sin x \\, dx \\right| = 2 + 2 = 4 \\) square units. The student's answer is wrong because they did not take the absolute value of the portion where \\( \\sin x \\) is negative (from \\( \\pi \\) to \\( 2\\pi \\)); the definite integral gives signed area, but area is always non‑negative.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we sometimes split the integral into two or more parts when finding the area between two curves that cross each other within the interval?",
+     "a": "When two curves cross, the \"top\" function becomes the \"bottom\" function after the intersection point. If we use a single integral \\( \\int_a^b (f(x) - g(x)) \\, dx \\) without splitting, the part where \\( g(x) > f(x) \\) would subtract area instead of adding it, giving a net signed area that is smaller than the true total area. Splitting at intersection points ensures we always integrate (top – bottom) in each sub‑interval.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden has a curved boundary described by \\( y = 4 - x^2 \\) and the x‑axis. Find the area of the garden.",
+     "a": "The curve \\( y = 4 - x^2 \\) meets the x‑axis when \\( 4 - x^2 = 0 \\Rightarrow x = \\pm 2 \\). The region lies above the x‑axis between \\( x = -2 \\) and \\( x = 2 \\). Area = \\( \\int_{-2}^{2} (4 - x^2) \\, dx = \\left[ 4x - \\frac{x^3}{3} \\right]_{-2}^{2} = \\left(8 - \\frac{8}{3}\\right) - \\left(-8 + \\frac{8}{3}\\right) = \\frac{16}{3} + \\frac{16}{3} = \\frac{32}{3} \\) square units. A wrong answer often comes from using limits 0 to 2 and forgetting symmetry, or integrating \\( x^2 - 4 \\) instead of \\( 4 - x^2 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area of the region bounded by \\( y = x^2 \\) and \\( y = 4 \\) using vertical strips versus horizontal strips. Which method is simpler and why?",
+     "a": "Vertical strips: top = 4, bottom = \\( x^2 \\), limits \\( x = -2 \\) to \\( 2 \\). Area = \\( \\int_{-2}^{2} (4 - x^2) \\, dx = \\frac{32}{3} \\). Horizontal strips: right = \\( \\sqrt{y} \\), left = \\( -\\sqrt{y} \\), limits \\( y = 0 \\) to \\( 4 \\). Area = \\( \\int_0^4 (\\sqrt{y} - (-\\sqrt{y})) \\, dy = \\int_0^4 2\\sqrt{y} \\, dy = 2 \\cdot \\frac{2}{3} y^{3/2} \\big|_0^4 = \\frac{4}{3} \\cdot 8 = \\frac{32}{3} \\). Both give the same result, but horizontal strips are simpler here because the integral \\( \\int 2\\sqrt{y} \\, dy \\) is easier than \\( \\int (4 - x^2) \\, dx \\) (though both are simple). In general, choose the variable that makes the bounding functions single‑valued and the integral easier.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up the area between the circle \\( x^2 + y^2 = 9 \\) and the line \\( x = 1 \\) in the first quadrant as \\( \\int_1^3 \\sqrt{9 - x^2} \\, dx \\). Is this correct? If not, what is the correct setup?",
+     "a": "The student's setup is incorrect because the line \\( x = 1 \\) is a vertical boundary, but the region in the first quadrant is bounded by the circle, the x‑axis, and \\( x = 1 \\). The correct area is the area under the circle from \\( x = 1 \\) to \\( x = 3 \\) (which is \\( \\int_1^3 \\sqrt{9 - x^2} \\, dx \\)) **plus** the area of the rectangle from \\( x = 0 \\) to \\( 1 \\) under the circle? Wait, the region in the first quadrant bounded by the circle, the x‑axis, and \\( x = 1 \\) actually consists of two parts: a rectangle from \\( x = 0 \\) to \\( 1 \\) with height \\( y = \\sqrt{9 - 1^2} = \\sqrt{8} \\)? No, the circle from \\( x = 0 \\) to \\( 1 \\) is above the line \\( x = 1 \\)? Let's re‑read: \"area between the circle \\( x^2 + y^2 = 9 \\) and the line \\( x = 1 \\) in the first quadrant\". Typically this means the region inside the circle, to the right of \\( x = 1 \\), and above the x‑axis. That region is exactly \\( \\int_1^3 \\sqrt{9 - x^2} \\, dx \\). So the student's setup is actually correct for that interpretation. However, if the problem meant the region bounded by the circle, the line \\( x = 1 \\), and the coordinate axes, then the student missed the rectangular part from \\( x = 0 \\) to \\( 1 \\). The correct answer depends on the exact wording; the student must read carefully whether the region includes the part left of \\( x = 1 \\). A common error is not identifying all bounding curves.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem that requires finding the area between a parabola and a line, where the parabola opens sideways (i.e., \\( x = y^2 \\) or similar) and the line is vertical. Provide the problem statement and the steps to solve it.",
+     "a": "**Problem:** A swimming pool has a cross‑section shaped like the region bounded by the parabola \\( x = y^2 \\) and the vertical line \\( x = 4 \\). Find the area of the cross‑section.  \n**Steps:** 1. Sketch: parabola opens right, line \\( x = 4 \\) is vertical. Intersection: \\( y^2 = 4 \\Rightarrow y = \\pm 2 \\). 2. Use horizontal strips because for a given \\( y \\), the right boundary is \\( x = 4 \\) and left boundary is \\( x = y^2 \\). 3. Limits: \\( y = -2 \\) to \\( 2 \\). 4. Area = \\( \\int_{-2}^{2} (4 - y^2) \\, dy = \\left[ 4y - \\frac{y^3}{3} \\right]_{-2}^{2} = \\frac{32}{3} \\) square units.  \nA poor answer would use vertical strips (which would require splitting at \\( x = 0 \\) and using \\( y = \\pm \\sqrt{x} \\)), making the integral more complicated, or would forget the symmetry and integrate from 0 to 2 without doubling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

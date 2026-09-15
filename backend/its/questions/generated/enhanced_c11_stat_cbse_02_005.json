@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_005",
+   "title": "c11_stat_cbse_02_005",
+   "questions": [
+    {
+     "q": "List the six essential principles of questionnaire construction as specified in the NCERT textbook for Class 11 Statistics.",
+     "a": "The six principles are: (1) Questionnaire should not be too long - minimum questions possible; (2) Easy to understand, avoid ambiguous/difficult words; (3) Questions arranged from general to specific for respondent comfort; (4) Questions precise and clear (avoid vague terms like \"presentable\"); (5) No ambiguous questions - enable quick, correct, clear answers with defined options; (6) No double negatives (e.g., \"Don't you think...\"), no leading questions (e.g., \"high-quality tea\"), no questions indicating alternatives. A wrong answer reveals the student has memorised isolated examples but not internalised the systematic framework; they may recall \"no double negatives\" but miss \"general to specific sequencing\" or \"precise wording,\" indicating fragmented rather than structural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the question \"Don't you agree that the new education policy will improve student outcomes?\" violates two distinct questionnaire design principles, and rewrite it to comply with both.",
+     "a": "The question violates: (1) No double negatives - \"Don't you agree\" pressures agreement; (2) No leading questions - \"improve student outcomes\" embeds a positive assumption. Compliant rewrite: \"What is your opinion on the new education policy's impact on student outcomes? (a) Strongly positive (b) Somewhat positive (c) Neutral (d) Somewhat negative (e) Strongly negative.\" A wrong answer (e.g., only identifying \"leading question\" but missing \"double negative,\" or rewriting as \"Do you think the policy will improve outcomes?\") reveals the student conflates the two principles or fails to recognise that leading questions can exist without double negatives; they need practice deconstructing compound violations.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study \"Monthly household expenditure on digital entertainment (streaming, gaming, apps)\" in urban India. Design a closed-ended multiple-choice question with 5 mutually exclusive and collectively exhaustive options that follows NCERT guidelines. Justify your option ranges.",
+     "a": "Question: \"What is your household's average monthly expenditure on digital entertainment (streaming subscriptions, gaming purchases, apps)? (Tick one) (i) Less than ₹200 (ii) ₹200–₹499 (iii) ₹500–₹999 (iv) ₹1,000–₹1,999 (v) ₹2,000 or more.\" Justification: Ranges based on 2023-24 Indian market data (average streaming ₹200-500, gaming ₹300-1000); mutually exclusive (no overlap), collectively exhaustive (covers ₹0 to ∞); uses precise rupee amounts, not vague \"low/medium/high\"; includes \"or more\" for top category. A wrong answer with overlapping ranges (₹200-500, ₹500-1000), vague labels (\"moderate\"), or missing \"Any other\" reveals the student doesn't grasp that closed-ended questions must pre-empt all possible responses without ambiguity - a critical error in actual data collection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the use of open-ended vs. closed-ended questions for studying \"Student satisfaction with school cafeteria food.\" In your analysis, address: (a) Data coding complexity, (b) Respondent burden, (c) Risk of missing unanticipated responses, (d) Suitability for quantitative analysis.",
+     "a": "(a) Open-ended: High coding complexity (thematic analysis needed); Closed-ended: Low (pre-coded categories). (b) Open-ended: High burden (writing effort); Closed-ended: Low (tick boxes). (c) Open-ended: Low risk (captures unexpected issues like \"utensil cleanliness\"); Closed-ended: High risk unless \"Any other (specify)\" included. (d) Open-ended: Unsuitable for direct statistical analysis; Closed-ended: Directly quantifiable (frequencies, cross-tabs). For cafeteria study, a mixed approach is optimal: 5 closed-ended (taste, variety, hygiene, price, speed - Likert scale) + 1 open-ended (\"What one change would improve your experience?\"). A wrong answer treating this as purely \"open = qualitative, closed = quantitative\" without addressing the \"Any other\" mitigation or the specific cafeteria context reveals superficial understanding; the student must evaluate trade-offs for the specific research objective.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this pilot survey plan: \"We will test our 25-question questionnaire on 50 randomly selected Class 11 students from our target population, then finalise it.\" Identify three specific flaws and propose corrections referencing NCERT pilot survey objectives.",
+     "a": "Three flaws: (1) Sample size too large - NCERT defines pilot survey as \"try-out with a small group\"; 50 is a mini-survey, not a pilot. Correction: 10-15 respondents. (2) No mention of testing enumerator performance - NCERT explicitly lists \"performance of enumerators\" as a pilot objective. Correction: Include 2-3 enumerators administering to observe clarification needs. (3) No assessment of time/cost - NCERT lists \"cost and time involved in actual survey\" as pilot outputs. Correction: Record administration time per respondent; estimate total fieldwork cost. A wrong answer focusing only on \"sample size\" or \"question clarity\" misses that pilot surveys serve operational diagnostics (enumerator training, logistics) not just question testing - a distinction critical for board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 8-question questionnaire fragment (mix of two-way, multiple-choice, open-ended) for researching \"Impact of UPI/digital payments on pocket money management habits of Class 11 students.\" Ensure strict adherence to all NCERT sequencing and wording principles. Annotate each question with the principle it demonstrates.",
+     "a": "**Questionnaire Fragment: UPI & Pocket Money Habits**\n1. (Two-way) Do you receive regular pocket money? ☐ Yes ☐ No *[Principle: General factual opener, builds comfort]*\n2. (Multiple-choice) How do you primarily receive pocket money? (i) Cash (ii) Bank transfer (iii) UPI (iv) Other *[Principle: Specific but neutral, mutually exclusive options]*\n3. (Two-way) Do you use UPI apps (PhonePe, GPay, Paytm) yourself? ☐ Yes ☐ No *[Principle: Simple filter question]*\n4. (Multiple-choice) How often do you make UPI payments per week? (i) 0 (ii) 1-2 (iii) 3-5 (iv) 6-10 (v) 10+ *[Principle: Precise, quantified, exhaustive ranges]*\n5. (Multiple-choice) What is your main UPI expense category? (i) Food/snacks (ii) Transport (iii) Online shopping (iv) Gaming/apps (v) Peer transfers (vi) Other *[Principle: No leading language, \"Any other\" implied]*\n6. (Two-way) Do you track your digital spending? ☐ Yes ☐ No *[Principle: Clear, no double negative]*\n7. (Multiple-choice) If yes, how? (i) Mental note (ii) Notes app (iii) Bank statement (iv) Budgeting app (v) Other *[Principle: Follows filter logically]*\n8. (Open-ended) What is the biggest challenge you face in managing money digitally? *[Principle: Open-ended at end for unanticipated insights, no leading wording]*\nA poor answer would sequence UPI usage before pocket money receipt (violates general-to-specific), use \"Don't you find UPI convenient?\" (double negative + leading), or omit \"Other\" categories - revealing inability to synthesise principles into coherent instrument design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

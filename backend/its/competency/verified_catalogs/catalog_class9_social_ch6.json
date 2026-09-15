@@ -1,0 +1,572 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "Democracy",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0596.txt",
+ "concepts": [
+  {
+   "id": "c9ss.6.1",
+   "title": "Meaning and Features of Democracy",
+   "section": "Foundations of Democracy",
+   "definition": "Democracy is a form of government in which power is held by the people, either directly or through elected representatives. The word comes from the Greek 'demokratia' meaning rule by the people.",
+   "formula": "",
+   "key_idea": "Democracy is based on the principles of popular sovereignty, political equality, majority rule with minority rights, and rule of law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define democracy and explain its key features.",
+    "What is the meaning of the term 'democracy'?",
+    "List the essential features of a democratic government.",
+    "How does democracy ensure the participation of citizens?",
+    "Explain the principle of popular sovereignty in a democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define democracy",
+     "explain": "Democracy means rule by the people, derived from Greek 'demos' (people) and 'kratos' (rule)."
+    },
+    {
+     "step": 2,
+     "action": "List the key features of democracy",
+     "explain": "Popular sovereignty, political equality, free and fair elections, rule of law, and protection of rights."
+    },
+    {
+     "step": 3,
+     "action": "Explain how these features work together",
+     "explain": "These features ensure that government remains accountable to the people and respects their rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the literal meaning of the word 'democracy'?",
+     "solution": "Democracy comes from the Greek words 'demos' meaning people and 'kratos' meaning rule, so it means rule by the people.",
+     "answer": "Rule by the people."
+    },
+    {
+     "question": "Name three essential features of democracy.",
+     "solution": "Three essential features are free and fair elections, political equality, and rule of law.",
+     "answer": "Free elections, political equality, and rule of law."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define democracy and list its five key features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the concept of popular sovereignty.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.2",
+   "title": "Types of Democracy: Direct and Indirect",
+   "section": "Forms of Democracy",
+   "definition": "Direct democracy is a system where citizens participate directly in decision-making. Indirect (representative) democracy is a system where citizens elect representatives to make decisions on their behalf.",
+   "formula": "",
+   "key_idea": "Direct democracy is practical in small communities, while indirect democracy is suited for large modern nations where direct participation by all citizens is impractical.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between direct and indirect democracy.",
+    "Give an example of a country that practices direct democracy.",
+    "Why is indirect democracy more common in modern states?",
+    "What are the advantages and disadvantages of direct democracy?",
+    "Explain how representative democracy functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define direct democracy",
+     "explain": "In direct democracy, all citizens directly participate in law-making and decision-making."
+    },
+    {
+     "step": 2,
+     "action": "Define indirect (representative) democracy",
+     "explain": "In indirect democracy, citizens elect representatives who make decisions on their behalf."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two types and their suitability",
+     "explain": "Direct democracy suits small communities; indirect democracy suits large modern states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which country is known for practicing direct democracy?",
+     "solution": "Switzerland is known for practicing direct democracy through referendums and citizen assemblies.",
+     "answer": "Switzerland."
+    },
+    {
+     "question": "What is the main difference between direct and indirect democracy?",
+     "solution": "In direct democracy citizens decide directly; in indirect democracy elected representatives decide for them.",
+     "answer": "Direct participation vs. representation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare direct and indirect democracy with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is representative democracy preferred in large countries?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.3",
+   "title": "Merits of Democracy",
+   "section": "Evaluation of Democracy",
+   "definition": "Democracy has several merits including accountability of government, protection of fundamental rights, peaceful resolution of conflicts, and promotion of equality and dignity of citizens.",
+   "formula": "",
+   "key_idea": "Democracy ensures that rulers are accountable to the people, decisions are made through discussion, and the dignity and freedom of citizens are respected.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the main merits of democracy.",
+    "How does democracy ensure accountability of the government?",
+    "Explain how democracy promotes equality among citizens.",
+    "How does democracy help in resolving conflicts peacefully?",
+    "Why is democracy considered better than other forms of government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the key merits of democracy",
+     "explain": "Accountability, rights protection, equality, dignity, and peaceful conflict resolution."
+    },
+    {
+     "step": 2,
+     "action": "Explain how accountability works in democracy",
+     "explain": "Elected representatives must answer to the people through elections and public scrutiny."
+    },
+    {
+     "step": 3,
+     "action": "Explain how democracy promotes equality and dignity",
+     "explain": "Universal adult franchise and fundamental rights ensure political and social equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does democracy ensure government accountability?",
+     "solution": "Through regular elections, free press, and independent institutions that hold the government answerable to citizens.",
+     "answer": "Through elections and public scrutiny."
+    },
+    {
+     "question": "Name two merits of democracy.",
+     "solution": "Two merits are accountability of the government and protection of fundamental rights.",
+     "answer": "Accountability and rights protection."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss five merits of democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does democracy promote the dignity of citizens?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.4",
+   "title": "Demerits of Democracy",
+   "section": "Evaluation of Democracy",
+   "definition": "Democracy has certain demerits including instability due to frequent elections, delay in decision-making, role of money and muscle power, and the possibility of majority tyranny.",
+   "formula": "",
+   "key_idea": "Despite its strengths, democracy can suffer from inefficiency, corruption, and the risk of majority dominance over minority rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the main demerits of democracy.",
+    "How does democracy lead to political instability?",
+    "Explain the role of money power in democratic elections.",
+    "What is the tyranny of the majority in a democracy?",
+    "How can the demerits of democracy be minimized?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the key demerits of democracy",
+     "explain": "Instability, slow decision-making, money and muscle power, and majority tyranny."
+    },
+    {
+     "step": 2,
+     "action": "Explain how instability arises",
+     "explain": "Frequent elections and changing governments can lead to policy inconsistency and instability."
+    },
+    {
+     "step": 3,
+     "action": "Explain how demerits can be minimized",
+     "explain": "Strong institutions, electoral reforms, and constitutional safeguards can reduce these demerits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by tyranny of the majority?",
+     "solution": "Tyranny of the majority occurs when the majority imposes its will on minorities, ignoring their rights and interests.",
+     "answer": "Majority oppression of minorities."
+    },
+    {
+     "question": "How does money power affect democracy?",
+     "solution": "Money power allows wealthy candidates and groups to influence elections, undermining fair representation.",
+     "answer": "Wealthy influence on elections."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the main demerits of democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How can the role of money power in elections be reduced?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.5",
+   "title": "Democratic Rights",
+   "section": "Rights and Freedoms",
+   "definition": "Democratic rights are the fundamental rights guaranteed to citizens in a democracy, including the right to equality, right to freedom, right against exploitation, and right to constitutional remedies.",
+   "formula": "",
+   "key_idea": "Rights in a democracy are not gifts from the government but are inherent entitlements that the state must protect and uphold.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are democratic rights? List the fundamental rights.",
+    "Explain the right to equality in a democracy.",
+    "What is the right to constitutional remedies?",
+    "How are rights different from privileges?",
+    "Why is the right to freedom important in a democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define democratic rights",
+     "explain": "Democratic rights are fundamental entitlements guaranteed to citizens by the constitution."
+    },
+    {
+     "step": 2,
+     "action": "List the main categories of fundamental rights",
+     "explain": "Right to equality, freedom, against exploitation, freedom of religion, cultural rights, and constitutional remedies."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the right to constitutional remedies",
+     "explain": "It allows citizens to approach courts if their fundamental rights are violated."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the right to constitutional remedies?",
+     "solution": "It is the right that allows citizens to approach the courts to enforce their fundamental rights if they are violated.",
+     "answer": "The right to approach courts for enforcement of fundamental rights."
+    },
+    {
+     "question": "Name three fundamental rights guaranteed in a democracy.",
+     "solution": "Three fundamental rights are the right to equality, right to freedom, and right against exploitation.",
+     "answer": "Equality, freedom, and against exploitation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of fundamental rights in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the significance of the right to constitutional remedies?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.6",
+   "title": "Equality and Freedom",
+   "section": "Rights and Freedoms",
+   "definition": "Equality means that all citizens are treated equally before the law and have equal opportunities. Freedom means citizens have the liberty to think, express, and act within the limits set by law.",
+   "formula": "",
+   "key_idea": "Equality and freedom are interdependent pillars of democracy; without equality, freedom benefits only the privileged, and without freedom, equality becomes oppressive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the concept of equality in a democracy.",
+    "What does freedom mean in a democratic society?",
+    "How are equality and freedom related?",
+    "What are the reasonable restrictions on freedom?",
+    "How does the right to equality prevent discrimination?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define equality in the context of democracy",
+     "explain": "Equality means equal treatment before the law and equal opportunity for all citizens."
+    },
+    {
+     "step": 2,
+     "action": "Define freedom in the context of democracy",
+     "explain": "Freedom means liberty of thought, expression, belief, and action within legal limits."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship between equality and freedom",
+     "explain": "Equality ensures fair access to freedom; freedom allows citizens to demand equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What does the right to equality prohibit?",
+     "solution": "The right to equality prohibits discrimination on grounds of religion, race, caste, sex, or place of birth.",
+     "answer": "Prohibits discrimination on specified grounds."
+    },
+    {
+     "question": "Are there restrictions on freedom of speech in a democracy?",
+     "solution": "Yes, reasonable restrictions can be imposed in the interest of public order, security, and decency.",
+     "answer": "Yes, reasonable restrictions apply."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between equality and freedom in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are reasonable restrictions on freedom?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.7",
+   "title": "Rule of Law",
+   "section": "Principles of Democracy",
+   "definition": "The rule of law is the principle that all individuals and institutions, including the government, are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated.",
+   "formula": "",
+   "key_idea": "Rule of law means no one is above the law; laws apply equally to all citizens and the government must act within constitutional limits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the rule of law and why is it important?",
+    "How does the rule of law ensure equality?",
+    "Explain the relationship between rule of law and democracy.",
+    "What happens when the rule of law is absent?",
+    "How does an independent judiciary support the rule of law?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the rule of law",
+     "explain": "Rule of law means all persons and institutions are subject to and accountable to law."
+    },
+    {
+     "step": 2,
+     "action": "Explain how it ensures equality",
+     "explain": "It ensures that laws apply equally to all, regardless of status or power."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the judiciary in upholding rule of law",
+     "explain": "An independent judiciary interprets laws and checks government actions against the constitution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What does 'no one is above the law' mean?",
+     "solution": "It means that all individuals, including government officials, are equally subject to the law and cannot claim special privileges.",
+     "answer": "All persons are equally subject to law."
+    },
+    {
+     "question": "How does an independent judiciary uphold the rule of law?",
+     "solution": "An independent judiciary can review government actions and strike down those that violate the law or constitution.",
+     "answer": "By reviewing and checking government actions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of the rule of law in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does an independent judiciary support the rule of law?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.8",
+   "title": "Representative Democracy",
+   "section": "Forms of Democracy",
+   "definition": "Representative democracy is a system of government where citizens elect representatives to make laws and govern on their behalf. Elections are held at regular intervals to choose these representatives.",
+   "formula": "",
+   "key_idea": "Representative democracy combines popular sovereignty with practical governance by delegating decision-making to elected representatives who are accountable to the electorate.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is representative democracy?",
+    "How are representatives chosen in a representative democracy?",
+    "Explain the role of elections in representative democracy.",
+    "What is the relationship between representatives and voters?",
+    "How does representative democracy differ from direct democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define representative democracy",
+     "explain": "It is a system where citizens elect representatives to govern and make laws on their behalf."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of elections",
+     "explain": "Regular, free, and fair elections allow citizens to choose and change their representatives."
+    },
+    {
+     "step": 3,
+     "action": "Explain the accountability mechanism",
+     "explain": "Representatives are accountable to voters who can re-elect or remove them through elections."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are representatives chosen in a representative democracy?",
+     "solution": "Representatives are chosen through regular, free, and fair elections in which citizens vote.",
+     "answer": "Through free and fair elections."
+    },
+    {
+     "question": "What makes a representative democracy different from direct democracy?",
+     "solution": "In representative democracy, elected officials make decisions; in direct democracy, citizens make decisions directly.",
+     "answer": "Elected officials decide vs. citizens decide directly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how representative democracy functions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of elections in a representative democracy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.9",
+   "title": "Comparison of Democracy with Other Forms of Government",
+   "section": "Comparative Government",
+   "definition": "Democracy can be compared with monarchy, dictatorship, and aristocracy. In democracy, power lies with the people; in monarchy, with a hereditary ruler; in dictatorship, with a single ruler or group; and in aristocracy, with a privileged elite.",
+   "formula": "",
+   "key_idea": "Democracy differs from other forms of government in the source of power, accountability, and the protection of individual rights and freedoms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare democracy with monarchy.",
+    "How does democracy differ from dictatorship?",
+    "What are the advantages of democracy over dictatorship?",
+    "Explain the difference between democracy and aristocracy.",
+    "Why is democracy considered the best form of government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the main forms of government",
+     "explain": "Democracy, monarchy, dictatorship, and aristocracy are the main forms of government."
+    },
+    {
+     "step": 2,
+     "action": "Compare the source of power in each form",
+     "explain": "Democracy: people; monarchy: hereditary ruler; dictatorship: force or seizure; aristocracy: elite class."
+    },
+    {
+     "step": 3,
+     "action": "Explain why democracy is generally preferred",
+     "explain": "Democracy protects rights, ensures accountability, and allows peaceful change of government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does democracy differ from dictatorship?",
+     "solution": "In democracy, power comes from the people through elections; in dictatorship, power is held by force without consent.",
+     "answer": "People's consent vs. force."
+    },
+    {
+     "question": "What is the main difference between democracy and monarchy?",
+     "solution": "In democracy, leaders are elected by the people; in monarchy, the ruler inherits the position.",
+     "answer": "Elected vs. hereditary rule."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare democracy with dictatorship and monarchy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is democracy considered superior to other forms of government?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.6.10",
+   "title": "Importance of Citizen Participation in Democracy",
+   "section": "Democratic Citizenship",
+   "definition": "Citizen participation is essential for a healthy democracy. It includes voting in elections, engaging in public debate, joining civil society organizations, and holding representatives accountable.",
+   "formula": "",
+   "key_idea": "A democracy functions effectively only when citizens actively participate in political processes and remain informed and engaged.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is citizen participation important in a democracy?",
+    "What are the different ways citizens can participate in a democracy?",
+    "How does voting strengthen democracy?",
+    "Explain the role of civil society in a democracy.",
+    "What happens when citizens do not participate in democratic processes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define citizen participation",
+     "explain": "Citizen participation means active involvement of citizens in political and civic processes."
+    },
+    {
+     "step": 2,
+     "action": "List the forms of participation",
+     "explain": "Voting, public debate, joining organizations, petitioning, and holding representatives accountable."
+    },
+    {
+     "step": 3,
+     "action": "Explain why participation is essential",
+     "explain": "Without participation, representatives lack accountability and democracy weakens."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are two ways citizens can participate in a democracy besides voting?",
+     "solution": "Citizens can join civil society organizations and engage in public debate or peaceful protests.",
+     "answer": "Joining organizations and public debate."
+    },
+    {
+     "question": "Why is voting considered a fundamental democratic duty?",
+     "solution": "Voting allows citizens to choose their representatives and hold the government accountable.",
+     "answer": "It ensures government accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of citizen participation in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List five ways citizens can participate in democratic governance.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

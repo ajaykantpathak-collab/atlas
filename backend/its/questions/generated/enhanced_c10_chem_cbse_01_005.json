@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_005",
+   "title": "c10_chem_cbse_01_005",
+   "questions": [
+    {
+     "q": "What is the general chemical equation pattern for a single displacement reaction, and which element must be more reactive for the reaction to occur?",
+     "a": "The general pattern is **A + BC → AC + B**, where element **A must be more reactive than element B** (A is higher in the reactivity series). A wrong answer (e.g., writing AB + C → AC + B or saying B is more reactive) reveals the student has memorised the pattern without understanding the reactivity requirement — they will incorrectly predict reactions like Cu + FeSO₄ → CuSO₄ + Fe.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds zinc granules to iron(II) sulphate solution. The light green colour fades and a greyish deposit forms on the zinc. Explain WHY this reaction occurs and why the reverse reaction (iron nails in zinc sulphate) does not occur.",
+     "a": "Zinc is above iron in the reactivity series, so Zn can displace Fe²⁺ from FeSO₄: **Zn(s) + FeSO₄(aq) → ZnSO₄(aq) + Fe(s)**. Iron is below zinc, so Fe cannot displace Zn²⁺ from ZnSO₄ — no reaction occurs. A wrong answer (e.g., \"both react because both are metals\") shows the student treats all metals as equally reactive and ignores the reactivity series ordering — a major board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reaction when chlorine gas is bubbled through potassium iodide solution. Identify the type of displacement reaction and the observable change.",
+     "a": "**Cl₂(g) + 2KI(aq) → 2KCl(aq) + I₂(aq)** — this is a **halogen displacement reaction** (non-metal displacement). Chlorine is more reactive than iodine (higher in Group 17), so it displaces iodine. Observable change: colourless solution turns **brown/violet** due to iodine formation. A wrong answer (e.g., unbalanced equation Cl₂ + KI → KCl + I₂, or saying iodine displaces chlorine) reveals balancing errors or confusion about halogen reactivity trend (reactivity decreases down the group).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions: (i) Mg + 2HCl → MgCl₂ + H₂ and (ii) Cu + 2HCl → No reaction. Using the reactivity series, explain why magnesium displaces hydrogen from acid but copper does not. What does this tell you about the position of hydrogen in the reactivity series?",
+     "a": "Magnesium is above hydrogen in the reactivity series, so it can displace H⁺ from acid to form H₂ gas. Copper is below hydrogen, so it cannot displace H⁺ — no reaction. This places **hydrogen between Mg and Cu** in the reactivity series (non-metal but included for comparison). A wrong answer (e.g., \"copper reacts slowly\" or \"hydrogen is not in the series\") shows the student doesn't know hydrogen's position or that only metals above hydrogen react with dilute acids — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following equation for the reaction of iron with copper sulphate: **Fe + CuSO₄ → Fe₂(SO₄)₃ + Cu**. Evaluate this equation. Is it chemically correct? If not, identify all errors and write the correct balanced equation.",
+     "a": "The equation is **incorrect**. Errors: (1) Iron forms **Fe²⁺ (ferrous)** in displacement with Cu²⁺, not Fe³⁺ (ferric) — so product should be FeSO₄, not Fe₂(SO₄)₃. (2) Unbalanced: Fe and Cu atoms not balanced, sulfate not balanced. Correct equation: **Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)**. A wrong evaluation (e.g., accepting Fe₂(SO₄)₃) reveals the student doesn't know iron's common oxidation state in displacement reactions or how to balance using valency — both cost marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only test tubes, solutions of ZnSO₄, FeSO₄, CuSO₄, and metal strips of Zn, Fe, Cu to determine the reactivity order of these three metals. Describe the procedure, observations table, and conclusion.",
+     "a": "**Procedure**: Place each metal strip in each of the three solutions (9 combinations). Observe for colour change/deposit/gas over 5 min. **Observations**: Zn displaces Fe and Cu (colour fades, deposits form); Fe displaces Cu only; Cu displaces none. **Conclusion**: Reactivity order: **Zn > Fe > Cu**. A poor answer (e.g., testing only one combination, not recording \"no reaction\" for Cu) shows inability to design a controlled comparative experiment — a skill tested in CBSE practical and case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

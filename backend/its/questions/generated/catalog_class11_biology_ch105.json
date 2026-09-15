@@ -1,0 +1,236 @@
+{
+ "catalog": "catalog_class11_biology_ch105",
+ "concepts": [
+  {
+   "id": "kebo.5.1",
+   "title": "Types of Root Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Root Systems' refers to.",
+     "a": "Classification of root systems using their origin, including tap roots from the radicle, fibrous roots replacing the primary root, and adventitious roots arising from non-radicle parts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Root Systems'.",
+     "a": "Roots are categorized as tap, fibrous, or adventitious depending on their developmental origin and branching.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Root Systems', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.2",
+   "title": "Regions of the Root Tip",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regions of the Root Tip' refers to.",
+     "a": "The structural zones of a growing root tip, consisting of the protective root cap, active meristematic zone, elongation zone, and maturation zone with root hairs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regions of the Root Tip'.",
+     "a": "The root tip is divided into functional zones responsible for protection, cell division, elongation, and absorption.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Regions of the Root Tip', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.3",
+   "title": "Characteristics and Functions of the Stem",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Characteristics and Functions of the Stem' refers to.",
+     "a": "The ascending axis of the plant shoot that develops from the plumule, characterized by nodes, internodes, and buds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Characteristics and Functions of the Stem'.",
+     "a": "Stems are distinguished from roots by having nodes and internodes, and they support leaves, flowers, and fruits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Characteristics and Functions of the Stem', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.4",
+   "title": "Leaf Parts and Venation Patterns",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Leaf Parts and Venation Patterns' refers to.",
+     "a": "The structure of a typical leaf comprising the leaf base, petiole, and lamina, and the arrangement of veins as either reticulate or parallel.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Leaf Parts and Venation Patterns'.",
+     "a": "Leaves are vegetative organs with distinct parts and venation patterns that typically correlate with dicot or monocot classification.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Leaf Parts and Venation Patterns', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.5",
+   "title": "Leaf Complexity and Phyllotaxy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Leaf Complexity and Phyllotaxy' refers to.",
+     "a": "The classification of leaves into simple or compound (pinnate/palmate) and their spatial arrangement on the stem (alternate, opposite, or whorled).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Leaf Complexity and Phyllotaxy'.",
+     "a": "Leaf division and arrangement optimize light interception and space utilization on the stem.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Leaf Complexity and Phyllotaxy', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.6",
+   "title": "Racemose and Cymose Inflorescences",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Racemose and Cymose Inflorescences' refers to.",
+     "a": "How flowers sit along the floral axis: in the racemose type the axis keeps growing, while in the cymose type it ends in a flower.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Racemose and Cymose Inflorescences'.",
+     "a": "Inflorescence is classified using the apex's growth pattern and the order of flower development (acropetal vs basipetal).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Racemose and Cymose Inflorescences', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.7",
+   "title": "Flower Symmetry and Whorls",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Flower Symmetry and Whorls' refers to.",
+     "a": "A flower carries four whorls - calyx, corolla, androecium, gynoecium - and is grouped by symmetry into actinomorphic, zygomorphic, or asymmetric types.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Flower Symmetry and Whorls'.",
+     "a": "Flowers are indeed reproductive shoots with distinct symmetry planes and four concentric whorls of appendages.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Flower Symmetry and Whorls', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.8",
+   "title": "Ovary Position on Thalamus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ovary Position on Thalamus' refers to.",
+     "a": "The relative positions of the calyx, corolla, and androecium with respect to the ovary on the thalamus, deciding whether the ovary is superior, half-inferior, or inferior.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ovary Position on Thalamus'.",
+     "a": "Ovary position relative to other floral parts on the receptacle determines the flower's classification as hypogynous, perigynous, or epigynous.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ovary Position on Thalamus', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.9",
+   "title": "Aestivation and Placentation Patterns",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Aestivation and Placentation Patterns' refers to.",
+     "a": "The arrangement of sepals/petals in a floral bud (valvate, twisted, imbricate, vexillary) and the arrangement of ovules inside the ovary (marginal, axile, parietal, free central, basal).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aestivation and Placentation Patterns'.",
+     "a": "Aestivation describes the folding of perianth parts, while placentation describes how ovules attach to the ovary wall or axis.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aestivation and Placentation Patterns', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.10",
+   "title": "Structure of Fruits and Seeds",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structure of Fruits and Seeds' refers to.",
+     "a": "The anatomy of a mature fertilised ovary (fruit) consisting of pericarp (epicarp, mesocarp, endocarp) and the structure of both dicotyledonous and monocotyledonous seeds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structure of Fruits and Seeds'.",
+     "a": "Fruits protect seeds and aid in dispersal, while seeds contain the embryo, cotyledons, and sometimes endosperm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structure of Fruits and Seeds', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.11",
+   "title": "Semi-Technical Description and Floral Formula",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Semi-Technical Description and Floral Formula' refers to.",
+     "a": "The symbolic representation of floral features using standard abbreviations (Br, K, C, P, A, G) and geometric diagrams showing whorl arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Semi-Technical Description and Floral Formula'.",
+     "a": "Floral formulas and diagrams compactly represent the symmetry, sexuality, cohesion, and adhesion of floral parts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Semi-Technical Description and Floral Formula', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

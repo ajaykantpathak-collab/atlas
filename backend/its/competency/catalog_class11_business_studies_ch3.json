@@ -1,0 +1,521 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 3,
+ "chapter_title": "Private, Public and Global Enterprises",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs103.txt",
+ "concepts": [
+  {
+   "id": "c11bs.3.1",
+   "title": "Departmental Undertakings",
+   "section": "Forms of Public Sector Enterprises",
+   "definition": "Departmental undertakings are the oldest and most traditional form of public enterprise where a government department is directly run by a ministry, financed by annual appropriations from the treasury, and subject to the same accounting, audit and budgeting rules as other government activities.",
+   "formula": "",
+   "key_idea": "These enterprises are an extension of the government itself, with no separate legal identity, and their employees are civil servants subject to government rules.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a departmental undertaking and how is it formed?",
+    "Explain the features of departmental undertakings as a form of public enterprise.",
+    "Why are departmental undertakings considered an extension of the government?",
+    "Discuss the merits and demerits of departmental undertakings.",
+    "How is a departmental undertaking financed and controlled?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a departmental undertaking as a government department run directly by a ministry",
+     "explain": "It has no separate legal existence from the government, is financed by the treasury, and is subject to normal budgeting, accounting and audit rules."
+    },
+    {
+     "step": 2,
+     "action": "List its key features and merits",
+     "explain": "Features include direct parliamentary control, civil-service staff and treasury funding; merits are maximum government control, revenue to the exchequer and accountability to the public."
+    },
+    {
+     "step": 3,
+     "action": "Identify the demerits and suitable use cases",
+     "explain": "Demerits include lack of flexibility, red-tape, inability to take risks and political interference; it is best suited to strategic and essential services like defence, railways and broadcasting."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are departmental undertakings considered the most suitable form for strategic industries?",
+     "solution": "Step 1: Strategic industries like defence and atomic energy require maximum government control and secrecy. Step 2: Departmental undertakings give direct ministerial and parliamentary control over operations. Step 3: Hence they are the most suitable form for such sensitive and strategic activities.",
+     "answer": "Because they provide maximum government control and accountability, which is essential for strategic industries"
+    },
+    {
+     "question": "Explain one major demerit of running a service as a departmental undertaking.",
+     "solution": "Step 1: A departmental undertaking follows rigid government rules and procedures. Step 2: This leads to red-tape and delays in decision-making. Step 3: As a result it lacks the flexibility needed to respond quickly to market conditions.",
+     "answer": "Rigid rules and red-tape cause delays and lack of flexibility in decision-making"
+    },
+    {
+     "question": "Give two examples of departmental undertakings in India.",
+     "solution": "Step 1: Departmental undertakings are run as government departments under a ministry. Step 2: Indian Railways is run by the Ministry of Railways and the Posts by the Department of Posts. Step 3: Both are classic examples of departmental undertakings.",
+     "answer": "Indian Railways and the Department of Posts (Post Office)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define departmental undertakings and explain any three features that distinguish them from other forms of public enterprise.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two merits and two demerits of departmental undertakings.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.2",
+   "title": "Statutory Corporations",
+   "section": "Forms of Public Sector Enterprises",
+   "definition": "A statutory corporation is a body corporate created by a special Act of Parliament or a state legislature, owned by the government, financed by its own resources, and having the power to acquire, hold and dispose of property and to contract in its own name.",
+   "formula": "",
+   "key_idea": "It enjoys a separate legal identity from the government, is governed by the provisions of its founding Act, and is answerable to the legislature through the concerned minister.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a statutory corporation and how is it created?",
+    "Explain the features of a statutory corporation.",
+    "How does a statutory corporation differ from a departmental undertaking?",
+    "Discuss the merits and demerits of statutory corporations.",
+    "Why is a statutory corporation said to have a separate legal identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a statutory corporation as a body created by a special Act of the legislature",
+     "explain": "It is a public enterprise established under a statute that defines its powers, functions and governance structure, giving it a separate legal personality."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features and merits",
+     "explain": "Features include separate legal entity, internal management autonomy, own funds and staff rules; merits are flexibility, professional management and freedom from government budget constraints."
+    },
+    {
+     "step": 3,
+     "action": "Identify its demerits and compare with departmental undertakings",
+     "explain": "Demerits include political interference, rigid clauses of the Act and loss of autonomy in practice; unlike departmental undertakings it has a separate legal identity and more operational freedom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a statutory corporation differ from a departmental undertaking in terms of legal identity?",
+     "solution": "Step 1: A departmental undertaking has no separate legal identity from the government. Step 2: A statutory corporation is created by a special Act and has a separate legal personality. Step 3: Therefore a statutory corporation can sue and be sued, and contract, in its own name unlike a departmental undertaking.",
+     "answer": "A statutory corporation has a separate legal identity created by statute, while a departmental undertaking is merely an extension of the government"
+    },
+    {
+     "question": "Why are statutory corporations said to enjoy operational autonomy?",
+     "solution": "Step 1: They are governed by the provisions of their founding Act rather than day-to-day government rules. Step 2: They can frame their own policies, manage their own finances and recruit staff independently. Step 3: This gives them operational autonomy and flexibility not available to departmental undertakings.",
+     "answer": "Because they are governed by their own Act and can frame policies, manage finances and recruit staff independently"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define statutory corporation. Explain any four features that distinguish it from a departmental undertaking.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two merits and two demerits of statutory corporations.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.3",
+   "title": "Government Companies",
+   "section": "Forms of Public Sector Enterprises",
+   "definition": "A government company is a company in which not less than 51 percent of the paid-up share capital is held by the central government, by any state government or governments, or jointly by the central and state governments, and includes a subsidiary of such a government company.",
+   "formula": "",
+   "key_idea": "Government companies are registered under the Companies Act like any private company, but the majority ownership rests with the government, giving it control over management while allowing corporate flexibility.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a government company according to the Companies Act?",
+    "Explain the features of a government company.",
+    "How is a government company different from a statutory corporation?",
+    "Discuss the merits and demerits of government companies.",
+    "Why are government companies the most popular form of public enterprise in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a government company using the 51 percent ownership criterion",
+     "explain": "Under the Companies Act a company is a government company if at least 51 percent of its paid-up share capital is held by the central or state government or both jointly."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features and merits",
+     "explain": "Features include registration under the Companies Act, separate legal entity, government majority ownership and board management; merits are flexibility, ease of formation and ability to compete with private companies."
+    },
+    {
+     "step": 3,
+     "action": "Identify demerits and reasons for popularity",
+     "explain": "Demerits include evasion of constitutional responsibilities, possible government interference and lack of autonomy; despite this it is popular because it combines government ownership with corporate flexibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are government companies considered the most popular form of public enterprise in India?",
+     "solution": "Step 1: Government companies can be formed easily under the Companies Act without needing a special statute. Step 2: They enjoy a separate legal identity and operational flexibility similar to private companies. Step 3: This combination of government ownership and corporate flexibility makes them the most popular form.",
+     "answer": "Because they combine government ownership with the flexibility and ease of formation provided by the Companies Act"
+    },
+    {
+     "question": "A company has 60 percent of its shares held by the central government. Is it a government company? Why?",
+     "solution": "Step 1: The criterion for a government company is that at least 51 percent of paid-up share capital is held by the government. Step 2: Here 60 percent is held by the central government, which is more than 51 percent. Step 3: Therefore it is a government company.",
+     "answer": "Yes, because more than 51 percent of its paid-up share capital is held by the central government"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a government company. Explain any four features of government companies.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two merits and two demerits of government companies.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.4",
+   "title": "Private Sector Enterprises",
+   "section": "Private Sector",
+   "definition": "Private sector enterprises are business organisations owned, managed and controlled by private individuals or groups with the primary objective of earning profit, and include sole proprietorships, partnership firms, joint Hindu families, cooperatives and companies.",
+   "formula": "",
+   "key_idea": "The private sector is driven by the profit motive and individual initiative, and its forms differ in ownership structure, liability, capital-raising capacity and continuity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the private sector and what are its main forms?",
+    "Explain the features of private sector enterprises.",
+    "How do private sector enterprises differ from public sector enterprises?",
+    "Discuss the role of the private sector in the Indian economy.",
+    "Why is the profit motive central to private sector enterprises?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define private sector enterprises as profit-driven businesses owned by private individuals",
+     "explain": "They are owned, managed and controlled by private individuals or groups and include sole proprietorships, partnerships, joint Hindu families, cooperatives and companies."
+    },
+    {
+     "step": 2,
+     "action": "Explain their key features",
+     "explain": "Features include private ownership, profit motive, personal initiative, freedom of operation and reliance on market forces for resource allocation."
+    },
+    {
+     "step": 3,
+     "action": "Contrast with the public sector and describe their role",
+     "explain": "Unlike the public sector they are not owned by the government and focus on profit rather than social welfare; their role is to promote innovation, efficiency and economic growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do private sector enterprises differ from public sector enterprises in their objectives?",
+     "solution": "Step 1: Private sector enterprises are owned by individuals and their primary objective is to earn profit. Step 2: Public sector enterprises are owned by the government and aim at social welfare and public good. Step 3: Thus the key difference is the profit motive versus the welfare motive.",
+     "answer": "Private enterprises aim at profit while public enterprises aim at social welfare and public good"
+    },
+    {
+     "question": "List the main forms of private sector enterprises.",
+     "solution": "Step 1: Private sector enterprises are owned by individuals or groups. Step 2: The main forms are sole proprietorship, partnership, joint Hindu family, cooperative and company. Step 3: These forms differ in ownership, liability and continuity.",
+     "answer": "Sole proprietorship, partnership, joint Hindu family, cooperative and company"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of private sector enterprises and discuss their role in the Indian economy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between private sector and public sector enterprises on any four grounds.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.5",
+   "title": "Joint Ventures",
+   "section": "Forms of Business Organisations",
+   "definition": "A joint venture is a business arrangement where two or more parties, which may be private companies, government companies or foreign companies, pool their resources to undertake a specific project or business activity, sharing the risks, rewards and control as agreed between them.",
+   "formula": "",
+   "key_idea": "Joint ventures combine the strengths, capital and expertise of the partners while sharing risks, and are especially useful for entering new markets or undertaking large projects.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a joint venture and how is it formed?",
+    "Explain the features of a joint venture.",
+    "Why do companies enter into joint ventures?",
+    "Discuss the benefits and limitations of joint ventures.",
+    "How does a joint venture differ from a partnership firm?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a joint venture as a pooling of resources by two or more parties for a specific purpose",
+     "explain": "The parties may be Indian or foreign, private or government, and they agree to share capital, technology, risks and rewards for a defined business activity."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features and benefits",
+     "explain": "Features include shared ownership, limited duration or purpose, combined expertise and reduced risk; benefits are access to technology, new markets, shared costs and increased capacity."
+    },
+    {
+     "step": 3,
+     "action": "Identify limitations and distinguish from a partnership",
+     "explain": "Limitations include conflict of interest, cultural differences and unequal contribution; unlike a partnership a joint venture is usually for a specific project and may involve corporate partners."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do Indian companies enter into joint ventures with foreign companies?",
+     "solution": "Step 1: Indian companies may lack advanced technology, capital or access to global markets. Step 2: A foreign partner can provide technology, funds and market access while the Indian partner offers local knowledge. Step 3: Thus a joint venture helps both parties leverage each other's strengths.",
+     "answer": "To gain access to technology, capital and global markets while sharing risks and using local expertise"
+    },
+    {
+     "question": "State two benefits and one limitation of a joint venture.",
+     "solution": "Step 1: Benefits include sharing of risks and access to complementary resources and technology. Step 2: A limitation is the possibility of conflict between partners over control and decisions. Step 3: Hence joint ventures offer gains but require clear agreements.",
+     "answer": "Benefits: risk-sharing and access to technology; limitation: possible conflict between partners"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define joint venture. Explain its features and discuss the benefits and limitations of entering into a joint venture.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does a joint venture differ from a partnership firm?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.6",
+   "title": "Multinational Corporations",
+   "section": "Global Enterprises",
+   "definition": "A multinational corporation is a company that owns or controls production of goods or services in one or more countries other than its home country, operating through subsidiaries, branches or affiliates across national boundaries.",
+   "formula": "",
+   "key_idea": "MNCs have a global vision, huge capital resources, advanced technology and centralised control with decentralised operations, enabling them to exploit economies of scale and international market opportunities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a multinational corporation?",
+    "Explain the features of multinational corporations.",
+    "How do MNCs impact the host country's economy?",
+    "Discuss the advantages and disadvantages of multinational corporations.",
+    "Why are MNCs called global enterprises?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a multinational corporation as a company operating across national boundaries",
+     "explain": "An MNC owns or controls production or services in countries other than its home country through subsidiaries, branches or affiliates."
+    },
+    {
+     "step": 2,
+     "action": "Explain its key features",
+     "explain": "Features include huge capital resources, advanced technology, professional management, global vision, product innovation, marketing strength and centralised control with decentralised operations."
+    },
+    {
+     "step": 3,
+     "action": "Discuss the impact on the host country",
+     "explain": "Advantages include investment, technology transfer and employment; disadvantages include threat to local industry, repatriation of profits and disregard for social welfare."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are multinational corporations called global enterprises?",
+     "solution": "Step 1: MNCs operate in many countries through subsidiaries and affiliates. Step 2: They have a global vision and integrate operations across national boundaries. Step 3: Because their reach and strategy are worldwide they are called global enterprises.",
+     "answer": "Because they operate across national boundaries with a global vision and integrated worldwide operations"
+    },
+    {
+     "question": "Explain one advantage and one disadvantage of MNCs for the host country.",
+     "solution": "Step 1: An advantage is that MNCs bring capital investment, technology and employment. Step 2: A disadvantage is that they may threaten local industries and repatriate profits. Step 3: Thus MNCs bring both benefits and challenges to the host economy.",
+     "answer": "Advantage: investment and technology transfer; disadvantage: threat to local industry and profit repatriation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define multinational corporation. Explain any five features of MNCs and discuss their impact on the host country.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two advantages and two disadvantages of multinational corporations.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.7",
+   "title": "Public Sector versus Private Sector",
+   "section": "Public and Private Sector Comparison",
+   "definition": "The public sector consists of enterprises owned and operated by the government with the objective of public welfare, while the private sector consists of enterprises owned and managed by individuals with the objective of earning profit.",
+   "formula": "",
+   "key_idea": "The two sectors differ in ownership, purpose, capital source, accountability, decision-making freedom and the role of social welfare versus profit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between the public sector and the private sector.",
+    "How do the objectives of public and private sector enterprises differ?",
+    "Compare the role of government in public and private sector enterprises.",
+    "Explain the differences in accountability between public and private enterprises.",
+    "Why is the public sector considered necessary despite the presence of the private sector?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis of ownership and objective",
+     "explain": "Public sector enterprises are owned by the government and aim at social welfare; private sector enterprises are owned by individuals and aim at profit."
+    },
+    {
+     "step": 2,
+     "action": "Compare capital, accountability and decision-making",
+     "explain": "Public enterprises raise capital from the government and are accountable to Parliament; private enterprises raise capital from owners and the market and are accountable to shareholders."
+    },
+    {
+     "step": 3,
+     "action": "Explain why both sectors are needed",
+     "explain": "The public sector provides essential services and infrastructure where private investment is inadequate, while the private sector promotes efficiency, innovation and growth; both complement each other."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do the objectives of public and private sector enterprises differ?",
+     "solution": "Step 1: Public sector enterprises are owned by the government and their main objective is social welfare and public good. Step 2: Private sector enterprises are owned by individuals and their main objective is earning profit. Step 3: Thus the fundamental difference is the welfare motive versus the profit motive.",
+     "answer": "Public enterprises aim at social welfare while private enterprises aim at profit"
+    },
+    {
+     "question": "Why is the public sector considered necessary even when the private sector is efficient?",
+     "solution": "Step 1: The private sector may not invest in areas with low returns but high social value like infrastructure and basic services. Step 2: The public sector provides these essential services and ensures balanced regional development. Step 3: Hence the public sector is necessary to fill gaps the private sector cannot address.",
+     "answer": "Because the public sector provides essential services and infrastructure where private investment is inadequate"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between public sector and private sector enterprises on any six grounds.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain why both the public and private sectors are necessary in a mixed economy.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.8",
+   "title": "Changing Role of the Public Sector",
+   "section": "Public Sector Reforms",
+   "definition": "The changing role of the public sector refers to the shift in government policy from direct ownership and control of enterprises towards a facilitator role, driven by poor performance, inefficiency and the need to encourage private investment and competition.",
+   "formula": "",
+   "key_idea": "Reforms such as disinvestment, deregulation and greater autonomy aim to improve efficiency, reduce government burden and redefine the public sector's role from a producer to a facilitator of economic activity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the changing role of the public sector in India.",
+    "Why was there a need to redefine the role of the public sector?",
+    "Discuss the measures taken to reform the public sector.",
+    "How has the government's role shifted from a producer to a facilitator?",
+    "What is the rationale behind reducing the scope of the public sector?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the reasons for redefining the public sector's role",
+     "explain": "Many public enterprises suffered losses, inefficiency, overstaffing and poor management, creating a burden on government finances and necessitating reform."
+    },
+    {
+     "step": 2,
+     "action": "Describe the key reform measures",
+     "explain": "Measures include disinvestment of government equity, granting autonomy to navratna and maharatna companies, deregulation and allowing private participation in previously reserved areas."
+    },
+    {
+     "step": 3,
+     "action": "Explain the shift from producer to facilitator",
+     "explain": "The government now focuses on providing infrastructure, policy framework and regulation while allowing private enterprise to produce goods and services, shifting from a producer to a facilitator role."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was there a need to redefine the role of the public sector in India?",
+     "solution": "Step 1: Many public enterprises were incurring losses and were inefficiently managed. Step 2: They placed a heavy burden on government finances and diverted resources from social sectors. Step 3: Hence the government decided to redefine their role to improve efficiency and reduce the financial burden.",
+     "answer": "Because public enterprises were incurring losses and placing a burden on government finances, necessitating reform"
+    },
+    {
+     "question": "How has the government's role shifted from a producer to a facilitator?",
+     "solution": "Step 1: Earlier the government directly produced goods and services through public enterprises. Step 2: Reforms reduced government ownership and encouraged private participation. Step 3: Now the government mainly provides infrastructure, policy and regulation, acting as a facilitator rather than a producer.",
+     "answer": "The government now provides infrastructure and regulation while allowing private enterprise to produce, acting as a facilitator"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the changing role of the public sector in India and discuss the measures taken for public sector reforms.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any three reasons for redefining the role of the public sector.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.3.9",
+   "title": "Disinvestment",
+   "section": "Public Sector Reforms",
+   "definition": "Disinvestment is the process of selling or liquidating a part of the government's equity stake in a public sector enterprise to private investors, with the aim of raising resources, improving efficiency and reducing the government's burden of managing such enterprises.",
+   "formula": "",
+   "key_idea": "Disinvestment transfers part of public ownership to private hands, bringing in private capital and management practices while raising revenue for the government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is disinvestment and why is it undertaken?",
+    "Explain the objectives of disinvestment in public sector enterprises.",
+    "Discuss the merits and demerits of disinvestment.",
+    "How does disinvestment help the government and the public enterprise?",
+    "What are the concerns raised against disinvestment?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define disinvestment as the sale of government equity in a public enterprise",
+     "explain": "The government sells part of its shareholding in a public sector enterprise to private investors, reducing its ownership stake."
+    },
+    {
+     "step": 2,
+     "action": "Explain the objectives and merits",
+     "explain": "Objectives include raising funds for the exchequer, improving efficiency through private participation, reducing government burden and encouraging wider public ownership of shares."
+    },
+    {
+     "step": 3,
+     "action": "Identify the demerits and concerns",
+     "explain": "Concerns include loss of government control over strategic assets, fear of private monopolies, undervaluation of assets and potential job losses, which must be balanced against the benefits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the government undertake disinvestment of public sector enterprises?",
+     "solution": "Step 1: Disinvestment raises funds for the government by selling part of its equity. Step 2: It brings in private capital and management expertise to improve efficiency. Step 3: It also reduces the government's financial and managerial burden in running enterprises.",
+     "answer": "To raise funds, bring in private capital and expertise, and reduce the government's burden of managing enterprises"
+    },
+    {
+     "question": "State one merit and one concern regarding disinvestment.",
+     "solution": "Step 1: A merit is that disinvestment raises resources for the government and improves enterprise efficiency. Step 2: A concern is that it may lead to loss of government control over strategic assets. Step 3: Thus disinvestment has both benefits and risks that must be weighed carefully.",
+     "answer": "Merit: raises funds and improves efficiency; concern: loss of government control over strategic assets"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define disinvestment. Explain its objectives and discuss the merits and demerits of disinvestment.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any three concerns raised against disinvestment of public sector enterprises.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

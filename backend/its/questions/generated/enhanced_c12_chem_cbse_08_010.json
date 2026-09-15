@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_010",
+   "title": "c12_chem_cbse_08_010",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the esterification of propanoic acid with ethanol using concentrated H₂SO₄ as catalyst. Name the ester formed and state the role of H₂SO₄.",
+     "a": "CH₃CH₂COOH + CH₃CH₂OH ⇌ CH₃CH₂COOCH₂CH₃ + H₂O (conc. H₂SO₄, Δ). Ester: ethyl propanoate. H₂SO₄ acts as (i) catalyst by protonating carbonyl oxygen, and (ii) dehydrating agent shifting equilibrium forward by absorbing water. A wrong answer (e.g., writing H₂SO₄ as reactant, not catalyst; missing equilibrium arrow; naming ester as propyl ethanoate) reveals confusion between acid/alcohol naming priority and misunderstanding of catalyst vs reagent role.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sodium borohydride (NaBH₄) cannot reduce a carboxylic acid to a primary alcohol, while LiAlH₄ can. Refer to the hydride donor strength and the reactivity of the carbonyl group in your answer.",
+     "a": "NaBH₄ is a mild hydride donor (reduces aldehydes/ketones only) because the B–H bond is less polarised; it cannot overcome the resonance stabilisation of the carboxylate anion (RCOO⁻) formed when NaBH₄ deprotonates the –COOH group. LiAlH₄ has more polar Al–H bonds (Al less electronegative than B), making it a stronger hydride donor that attacks the carbonyl carbon of the neutral acid before deprotonation occurs. A wrong answer (e.g., \"NaBH₄ is not strong enough\" without mentioning carboxylate formation or Al/B electronegativity) shows superficial memorisation without mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student carries out esterification of benzoic acid (C₆H₅COOH) with methanol (CH₃OH) using conc. H₂SO₄. After refluxing for 1 hour, they distil the product. Write the structure of the organic product distilled over, and explain why the reaction mixture is heated under reflux first, then distilled.",
+     "a": "Product: methyl benzoate (C₆H₅COOCH₃). Reflux allows prolonged heating at constant temperature (boiling point of mixture) without loss of volatile methanol, driving equilibrium toward ester. Distillation then separates the ester (b.p. ~199°C) from unreacted acid (b.p. ~249°C) and methanol (b.p. 65°C). A wrong answer (e.g., \"reflux to evaporate water\" or \"distil immediately\") reveals misunderstanding of equilibrium control vs product isolation — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reduction of butanoic acid using (i) LiAlH₄ in dry ether followed by H₃O⁺ workup, and (ii) diborane (B₂H₆) in THF. For each, state the product, the key intermediate, and one practical advantage of diborane over LiAlH₄.",
+     "a": "Both give butan-1-ol (CH₃CH₂CH₂CH₂OH). LiAlH₄: intermediate is an aluminium alkoxide salt [CH₃CH₂CH₂CH₂OAlH₃]⁻, hydrolysed by H₃O⁺. Diborane: intermediate is a trialkylborane (R₃B) via cyclic transition state, hydrolysed by H₂O₂/NaOH or H₃O⁺. Advantage of diborane: it selectively reduces –COOH in presence of esters, nitro, halo groups which LiAlH₄ would also reduce. A wrong answer (e.g., claiming different products or missing the selectivity point) shows failure to connect reagent choice to functional group tolerance — a JEE/NEET favourite.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"In Fischer esterification, using excess alcohol always increases the yield of ester, so we should always use a large excess of the cheaper reagent.\" Is this always correct? Justify with Le Chatelier's principle and practical limitations.",
+     "a": "Not always correct. Le Chatelier: excess alcohol shifts equilibrium forward, increasing yield. BUT practical limits: (i) if alcohol is expensive/toxic, excess is wasteful; (ii) excess alcohol dilutes the reaction mixture, slowing rate; (iii) for tertiary alcohols, elimination (alkene formation) competes under strong acid; (iv) separation of excess alcohol from product adds cost. Board exams test this nuance — students who say \"always\" lose marks. A wrong answer ignoring side reactions or separation costs shows rote application without critical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert phenylacetic acid (C₆H₅CH₂COOH) into 2-phenylethanol (C₆H₅CH₂CH₂OH) using only reagents covered in Class 12 NCERT. Write balanced equations for each step and state the reagents/conditions.",
+     "a": "Step 1: Reduction of phenylacetic acid to 2-phenylethanol using LiAlH₄ in dry ether, then H₃O⁺ workup. C₆H₅CH₂COOH →[LiAlH₄, dry ether] C₆H₅CH₂CH₂OAlH₃ →[H₃O⁺] C₆H₅CH₂CH₂OH. (Diborane in THF also works). This is actually a ONE-step reduction. A \"two-step\" design might incorrectly propose: (i) convert to acyl chloride (SOCl₂), (ii) reduce with LiAlH₄ — but that's unnecessary. A good answer recognises direct reduction is possible and explains why a two-step route is redundant. A poor answer proposes irrelevant steps (e.g., esterification then reduction) showing inability to identify the most direct transformation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_002",
+   "title": "c11_psy_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define absolute threshold (absolute limen) and state the criterion used to measure it in psychophysics.",
+     "a": "Absolute threshold is the minimum stimulus intensity required to activate a sensory system, operationally defined as the intensity detected on 50% of presentation trials. A wrong answer that omits the \"50% of trials\" criterion reveals the student thinks threshold is a fixed, all-or-none point rather than a probabilistic measure; a wrong answer that confuses it with difference threshold reveals confusion between detection and discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the absolute threshold for sweetness (e.g., sugar in water) is not a single fixed number of granules for all people at all times.",
+     "a": "AL varies because sensory receptor sensitivity, neural pathway integrity, attention, motivation, fatigue, and adaptation differ across individuals and within the same person across situations; the 50% criterion captures this variability as an average, not a constant. A wrong answer that attributes variation only to \"different tongue sensitivity\" misses central factors (attention, motivation, neural noise) and treats the threshold as purely peripheral.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher tests a participant's difference threshold for brightness. The standard stimulus is a 50 cd/m² patch. The participant correctly identifies the brighter patch on 50% of trials when the comparison is 55 cd/m². What is the DL? If the standard were 100 cd/m², would you expect the DL in cd/m² to be the same, larger, or smaller? Justify.",
+     "a": "DL = 5 cd/m² (55 − 50). For a 100 cd/m² standard, the DL in absolute units (cd/m²) would be larger (Weber's Law: DL/I = constant). A wrong answer stating the DL stays 5 cd/m² reveals the student does not grasp that difference thresholds scale with stimulus magnitude — a core psychophysical principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the method of limits and the method of constant stimuli for measuring absolute threshold. Which method better controls for anticipation and habituation errors? Why?",
+     "a": "Method of limits presents stimuli in ascending/descending order (efficient but prone to expectation/habituation errors). Method of constant stimuli presents fixed intensities in random order (controls anticipation/habituation, yields more accurate 50% point). Constant stimuli is superior for controlling errors because randomisation prevents the participant from predicting the next intensity. A wrong answer choosing method of limits reveals confusion about sources of systematic bias in psychophysics.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If my absolute threshold for hearing a tone is 0 dB SPL, then any tone below 0 dB SPL is completely inaudible to me.\" Evaluate this claim using the concept of the 50% criterion and neural noise.",
+     "a": "The claim is false. At 0 dB SPL (defined as AL), the tone is detected only 50% of the time; below AL, detection probability falls gradually (e.g., 30%, 10%) due to neural noise — it does not drop to zero abruptly. A wrong answer agreeing with the claim reveals a \"threshold as a rigid wall\" misconception, ignoring the probabilistic nature of sensory detection and the role of internal noise.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to estimate the class average difference threshold for saltiness using salt solutions. Specify: (a) standard stimulus, (b) comparison stimuli, (c) procedure to minimise order effects, (d) how to calculate the group DL.",
+     "a": "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs. each comparison); use blind coding; counterbalance which cup is tasted first; rinse with water between trials. (d) For each comparison, compute % \"saltier\" responses across all students; interpolate the concentration yielding 50% \"saltier\" responses; DL = that concentration − 1%. A poor answer that uses ascending order only or omits the 50% interpolation reveals inability to translate psychophysical logic into experimental design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

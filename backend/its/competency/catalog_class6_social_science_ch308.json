@@ -1,0 +1,423 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 308,
+ "chapter_title": "Rural Livelihoods",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec105.txt",
+ "concepts": [
+  {
+   "id": "fess.308.1",
+   "title": "Farm and Non-Farm Occupations in Rural Areas",
+   "section": "Kalpattu village",
+   "definition": "Rural economies comprise agricultural work such as crop cultivation alongside diverse non-farm trades including craft-making, retail shops, repair services, and transportation.",
+   "formula": "none",
+   "key_idea": "Rural livelihoods extend beyond crop cultivation to incorporate local service industries and craft production.",
+   "textbook_ref": "fess308.txt lines 30-65",
+   "question_patterns": [
+    "list the non-farm activities observed in rural villages like Kalpattu",
+    "what types of service jobs exist in agricultural settlements",
+    "identify non-agricultural sources of income in rural communities",
+    "how do villagers earn a living outside of crop farming",
+    "describe the variety of small shops and trades present in rural bazaars"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify non-farming occupations",
+     "explain": "List non-farm work such as pottery, blacksmithy, weaving, shopkeeping, and repair work."
+    },
+    {
+     "step": 2,
+     "action": "identify agricultural activities",
+     "explain": "List crop cultivation activities like transplanting, weeding, and harvesting."
+    }
+   ]
+  },
+  {
+   "id": "fess.308.2",
+   "title": "Wage Earners and Agricultural Labour Income",
+   "section": "Thulasi",
+   "definition": "Landless agricultural workers sell their manual labor during farming seasons for daily wages, facing low pay and lack of year-round employment.",
+   "formula": "total_income = daily_wage * days_worked",
+   "key_idea": "Agricultural labourers experience seasonal employment gaps and low wage rates due to landlessness.",
+   "textbook_ref": "fess308.txt lines 70-130",
+   "question_patterns": [
+    "calculate total income earned by an agricultural labourer over a given number of days",
+    "find the seasonal earnings of a landless farm worker",
+    "how much does a farm labourer earn when paid a specific daily wage for work days",
+    "compute total daily wage accumulation for seasonal transplanting or weeding",
+    "determine total wages earned from farm labour over a working period"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply daily wage rate by number of days worked",
+     "explain": "Total income is calculated by multiplying the wage rate per day by total days worked.",
+     "compute": "total_income = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "fess.308.3",
+   "title": "Small Farmers and Crop Loan Obligations",
+   "section": "Sekar",
+   "definition": "Smallholders cultivate limited acreage primarily using family labour and often depend on trade loans for inputs, obligating them to sell produce below market prices.",
+   "formula": "net_paddy_retained = total_paddy_bags - loan_repayment_bags",
+   "key_idea": "Small-scale agriculturalists face income shortfalls and trader loan commitments that reduce marketable surplus.",
+   "textbook_ref": "fess308.txt lines 135-180",
+   "question_patterns": [
+    "find the remaining paddy bags available for household consumption after repaying a crop loan",
+    "calculate paddy retained by a small farmer after settling input debts",
+    "determine surplus crop bags left after returning loan obligations in produce",
+    "how many crop bags remain for a smallholder after debt repayment",
+    "compute net harvested yield kept by a small farmer post debt settlement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract loan repayment bags from total harvested paddy bags",
+     "explain": "Net retained harvest equals total harvested bags minus the bags given to the trader as loan settlement.",
+     "compute": "net_paddy_retained = total_paddy_bags - loan_repayment_bags"
+    }
+   ]
+  },
+  {
+   "id": "fess.308.4",
+   "title": "Causes and Dynamics of Rural Debt Trap",
+   "section": "On being in Debt",
+   "definition": "A cycle of compounding debt occurs when crop failure or health emergencies force farmers to borrow repeatedly, exceeding their capacity to repay.",
+   "formula": "none",
+   "key_idea": "High interest rates, bad seeds, monsoon failure, and distress borrowing lead to persistent rural indebtedness.",
+   "textbook_ref": "fess308.txt lines 185-210",
+   "question_patterns": [
+    "explain the factors that lead small farmers into a debt trap",
+    "what causes agricultural debt among rural households",
+    "how does crop failure contribute to persistent indebtedness",
+    "describe the cycle of borrowing faced by vulnerable cultivators",
+    "why are small farmers unable to repay loans from local moneylenders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify triggers of debt",
+     "explain": "Pest attacks, inferior seeds, or drought cause crop failure and loss of earnings."
+    },
+    {
+     "step": 2,
+     "action": "analyze repayment distress",
+     "explain": "Inability to repay existing loans forces additional borrowing, creating an escalating debt cycle."
+    }
+   ]
+  },
+  {
+   "id": "fess.308.5",
+   "title": "Large Farmers and Diversified Rural Enterprises",
+   "section": "Ramalingam and Karuthamma",
+   "definition": "Wealthy agrarian landowners operate large acreage, employ hired labor, and expand capital into processing mills, trade, and financial lending.",
+   "formula": "none",
+   "key_idea": "Large farmers generate substantial surpluses enabling investment in off-farm commercial ventures.",
+   "textbook_ref": "fess308.txt lines 215-235",
+   "question_patterns": [
+    "how do large farmers diversify their income sources beyond crop cultivation",
+    "describe the role of big landowners in rural supply chains",
+    "what commercial businesses are typically owned by wealthy rural families",
+    "explain how large agrarian landowners utilize their surplus earnings",
+    "compare the economic status and business operations of large farmers with smallholders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine agricultural operations",
+     "explain": "Large farmers cultivate extensive land holdings using hired labourers."
+    },
+    {
+     "step": 2,
+     "action": "analyze business diversification",
+     "explain": "Profits are reinvested in mills, input supply shops, trading, and informal credit."
+    }
+   ]
+  },
+  {
+   "id": "fess.308.6",
+   "title": "Categorization and Proportions of Indian Farmers",
+   "section": "Agricultural Labourers and Farmers in India",
+   "definition": "Indian agriculture is dominated by smallholders (80%) and landless laborers (40% of rural families), while large landholders comprise only 20% of farmers.",
+   "formula": "small_farmer_count = total_farmers * 80 / 100",
+   "key_idea": "Most cultivators in India operate marginal plots insufficient for full year-round subsistence.",
+   "textbook_ref": "fess308.txt lines 240-265",
+   "question_patterns": [
+    "calculate the number of small farmers in a region given the total farmer population",
+    "find the count of small landholders using the national eighty percent proportion",
+    "determine how many farmers belong to the small category out of a total population",
+    "compute the number of smallholders in an agrarian community",
+    "how many cultivators fall into the small farmer group in a given district"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate small farmers count",
+     "explain": "Small farmers constitute 80 percent of the total farming population.",
+     "compute": "small_farmer_count = total_farmers * 80 / 100"
+    }
+   ]
+  },
+  {
+   "id": "fess.308.7",
+   "title": "Terrace Farming and Community Labour in Hilly Regions",
+   "section": "Terrace Farming in Nagaland",
+   "definition": "Slope cultivation technique where hillside land is carved into stepped flat terraces with raised borders to retain water for paddy growth.",
+   "formula": "none",
+   "key_idea": "Terrace carving enables hillside irrigation and rice cultivation through collective group labor.",
+   "textbook_ref": "fess308.txt lines 270-300",
+   "question_patterns": [
+    "describe the features and purpose of terrace farming in hilly areas",
+    "how does terrace cultivation retain water on mountain slopes",
+    "explain community labor practices in Nagaland terrace agriculture",
+    "why is terrace farming suitable for growing rice on hill slopes",
+    "what steps are taken to construct terrace fields in rural Nagaland"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain terrace construction",
+     "explain": "Steps carved into hill slopes with raised mud borders retain water for paddy."
+    },
+    {
+     "step": 2,
+     "action": "describe community labour organization",
+     "explain": "Villagers form small groups to clean, prepare, and cultivate hillside fields together."
+    }
+   ]
+  },
+  {
+   "id": "fess.308.8",
+   "title": "Forest Gathering and Supplementary Rural Livelihoods",
+   "section": "Terrace Farming in Nagaland",
+   "definition": "Non-wood forest produce collection, livestock rearing, and dairy cooperative sales provide essential supplementary earnings for rural households.",
+   "formula": "none",
+   "key_idea": "Rural families rely on natural resource gathering and animal husbandry to supplement seasonal farming income.",
+   "textbook_ref": "fess308.txt lines 305-325",
+   "question_patterns": [
+    "what non-farm forest goods are collected by rural communities for income",
+    "how do livestock and dairy sales supplement agrarian livelihoods",
+    "identify additional sources of income in forest-adjacent villages",
+    "describe the role of cooperative milk societies in rural earnings",
+    "explain how forest produce collection helps families survive agricultural lean periods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify forest produce gathering",
+     "explain": "Collection of mahua flowers, tendu leaves, and wild honey sold to local traders."
+    },
+    {
+     "step": 2,
+     "action": "identify animal husbandry revenue",
+     "explain": "Selling cow milk to local dairy cooperatives for supplementary daily cash."
+    }
+   ]
+  },
+  {
+   "id": "fess.308.9",
+   "title": "Coastal Fishing Economy and Revenue Share Calculation",
+   "section": "Aruna and Paarivelan",
+   "definition": "Maritime fishing livelihoods depend on equipment investment and daily auctioning of catch, where revenues are divided into designated functional shares.",
+   "formula": "share_amount = total_auction_revenue / total_shares",
+   "key_idea": "Fish catch proceeds are distributed among crew members and equipment owners, with seasonal fishing bans requiring lean-period loans.",
+   "textbook_ref": "fess308.txt lines 330-390",
+   "question_patterns": [
+    "calculate individual share value from total fish auction revenue divided into equal parts",
+    "find the per-share payout from daily catch earnings",
+    "determine income per share when fish auction revenue is divided into specified shares",
+    "compute the value of one share from total fishing auction proceeds",
+    "how much is each share worth when auction earnings are split equally"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total auction revenue by total share count",
+     "explain": "Each share value is calculated by dividing total auction earnings by total number of shares.",
+     "compute": "share_amount = total_auction_revenue / total_shares"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess308.txt lines 70-100",
+   "concept": "fess.308.2",
+   "question_type": "compute",
+   "question_pattern": "An agricultural labourer works for {days_worked} days during transplanting season at a daily wage of Rs {daily_wage}. Calculate total earnings.",
+   "extracted_variables": {
+    "daily_wage": 40,
+    "days_worked": 120
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply daily wage rate by number of days worked",
+     "explain": "Total income is calculated by multiplying the wage rate per day by total days worked.",
+     "compute": "total_income = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess308.txt lines 70-100",
+   "concept": "fess.308.2",
+   "question_type": "compute",
+   "question_pattern": "A farm worker is hired for {days_worked} days at Rs {daily_wage} per day. How much total money is earned?",
+   "extracted_variables": {
+    "daily_wage": 50,
+    "days_worked": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply daily wage rate by number of days worked",
+     "explain": "Total income is calculated by multiplying the wage rate per day by total days worked.",
+     "compute": "total_income = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fess308.txt lines 135-165",
+   "concept": "fess.308.3",
+   "question_type": "compute",
+   "question_pattern": "A small farmer harvests {total_paddy_bags} bags of paddy and gives {loan_repayment_bags} bags to the trader to settle a loan. How many bags remain for home use?",
+   "extracted_variables": {
+    "total_paddy_bags": 60,
+    "loan_repayment_bags": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract loan repayment bags from total harvested paddy bags",
+     "explain": "Net retained harvest equals total harvested bags minus the bags given to the trader as loan settlement.",
+     "compute": "net_paddy_retained = total_paddy_bags - loan_repayment_bags"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fess308.txt lines 135-165",
+   "concept": "fess.308.3",
+   "question_type": "compute",
+   "question_pattern": "Out of a total harvest of {total_paddy_bags} crop bags, a farmer returns {loan_repayment_bags} bags for input loan repayment. Find the net crop bags retained.",
+   "extracted_variables": {
+    "total_paddy_bags": 80,
+    "loan_repayment_bags": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract loan repayment bags from total harvested paddy bags",
+     "explain": "Net retained harvest equals total harvested bags minus the bags given to the trader as loan settlement.",
+     "compute": "net_paddy_retained = total_paddy_bags - loan_repayment_bags"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "fess308.txt lines 240-260",
+   "concept": "fess.308.6",
+   "question_type": "compute",
+   "question_pattern": "In a block with {total_farmers} total farmers, calculate the number of small farmers assuming eighty percent of all farmers are smallholders.",
+   "extracted_variables": {
+    "total_farmers": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate small farmers count",
+     "explain": "Small farmers constitute 80 percent of the total farming population.",
+     "compute": "small_farmer_count = total_farmers * 80 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "fess308.txt lines 240-260",
+   "concept": "fess.308.6",
+   "question_type": "compute",
+   "question_pattern": "A region has {total_farmers} total agricultural farmers. Compute the count of small farmers in this region.",
+   "extracted_variables": {
+    "total_farmers": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate small farmers count",
+     "explain": "Small farmers constitute 80 percent of the total farming population.",
+     "compute": "small_farmer_count = total_farmers * 80 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "fess308.txt lines 330-360",
+   "concept": "fess.308.9",
+   "question_type": "compute",
+   "question_pattern": "A daily fish auction generates Rs {total_auction_revenue}. If this money is divided into {total_shares} equal shares, calculate the value of one share.",
+   "extracted_variables": {
+    "total_auction_revenue": 4000,
+    "total_shares": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total auction revenue by total share count",
+     "explain": "Each share value is calculated by dividing total auction earnings by total number of shares.",
+     "compute": "share_amount = total_auction_revenue / total_shares"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "fess308.txt lines 330-360",
+   "concept": "fess.308.9",
+   "question_type": "compute",
+   "question_pattern": "Fish catch proceeds equal Rs {total_auction_revenue} and are split into {total_shares} equal parts. How much is each share worth?",
+   "extracted_variables": {
+    "total_auction_revenue": 6000,
+    "total_shares": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total auction revenue by total share count",
+     "explain": "Each share value is calculated by dividing total auction earnings by total number of shares.",
+     "compute": "share_amount = total_auction_revenue / total_shares"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex308.1",
+   "source_ref": "fess308.txt lines 395-410",
+   "questions": [
+    "You have probably noticed that people in Kalpattu are engaged in a variety of non-farm work. List five of these.",
+    "List the different types of people you read about in Kalpattu who depend on farming. Who is the poorest among them and why?",
+    "Imagine you are a member of a fishing family and you are discussing whether to take a loan from the bank for an engine. What would you say?",
+    "Poor rural labourers like Thulasi often do not have access to good medical facilities, good schools, and other resources. Do you think this inequality is fair and what can be done?",
+    "What do you think the government can do to help farmers like Sekar when they get into debt?",
+    "Compare the situation of Sekar and Ramalingam regarding land cultivated, labour required, loans required, selling of harvest, and other work done."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

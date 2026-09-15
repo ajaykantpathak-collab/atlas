@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_013",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_013",
+   "title": "c11_chem_cbse_05_013",
+   "questions": [
+    {
+     "q": "A student measures the force required to pull a thin wire frame of length 5.0 cm from the surface of water at 25°C and records 7.28 × 10⁻³ N. Calculate the surface tension of water. If the same experiment is repeated at 75°C, would the measured force increase, decrease, or remain the same? Justify your answer in terms of molecular kinetic energy and hydrogen bonding.",
+     "a": "Surface tension γ = F/L = (7.28 × 10⁻³ N) / (2 × 5.0 × 10⁻² m) = 0.0728 N/m (factor of 2 because film has two surfaces). At 75°C, the force decreases because increased thermal energy disrupts hydrogen bonding, reducing cohesive forces and thus surface tension. A wrong answer (e.g., forgetting the factor of 2, or claiming force increases with temperature) reveals confusion between the definition of surface tension (force per unit length of contact line) and the temperature dependence of intermolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "Two liquids A and B have the same molar mass (60 g/mol) but different intermolecular forces: A has only London dispersion forces, while B has hydrogen bonding. At 25°C, liquid A has viscosity 0.3 mPa·s and surface tension 18 mN/m; liquid B has viscosity 1.2 mPa·s and surface tension 72 mN/m. Explain why both viscosity and surface tension are higher for B, and why the ratio η_B/η_A (4.0) differs from γ_B/γ_A (4.0) even though both properties originate from intermolecular forces.",
+     "a": "Both properties are higher for B because hydrogen bonding provides stronger cohesive forces than London forces. However, viscosity depends on the energy barrier for molecular rearrangement during flow (activation energy for viscous flow), while surface tension depends on the energy deficit of surface molecules relative to bulk. The ratio difference arises because viscosity is exponentially sensitive to intermolecular force strength (η ∝ e^(Ea/RT)), whereas surface tension has a near-linear relationship with cohesive energy density. A student claiming the ratios must be identical reveals a misconception that both properties scale identically with intermolecular force strength.",
+     "self_check": true
+    },
+    {
+     "q": "A capillary tube of radius 0.25 mm is dipped in water (γ = 0.072 N/m, ρ = 1000 kg/m³, θ = 0°) at 25°C. Calculate the capillary rise. If the same tube is dipped in mercury (γ = 0.486 N/m, ρ = 13600 kg/m³, θ = 140°), calculate the capillary depression. Explain the physical significance of the contact angle in each case.",
+     "a": "For water: h = 2γcosθ/rρg = 2(0.072)(cos0°)/(0.25×10⁻³ × 1000 × 9.8) = 0.0588 m = 5.88 cm (rise). For mercury: h = 2(0.486)(cos140°)/(0.25×10⁻³ × 13600 × 9.8) = -0.022 m = -2.2 cm (depression). Contact angle θ = 0° for water indicates perfect wetting (adhesive forces > cohesive forces), while θ = 140° for mercury indicates non-wetting (cohesive forces > adhesive forces). A wrong answer using θ = 0° for mercury or ignoring the sign of cosθ reveals misunderstanding of the Young-Dupré equation and the role of adhesive vs cohesive forces.",
+     "self_check": true
+    },
+    {
+     "q": "The viscosity of a liquid follows the Arrhenius-type equation: η = A·e^(Ea/RT). Experimental data for liquid X: η = 1.5 mPa·s at 298 K and η = 0.6 mPa·s at 318 K. Calculate the activation energy for viscous flow (Ea) in kJ/mol. If liquid Y has the same pre-exponential factor A but twice the activation energy, what is the ratio η_Y/η_X at 298 K?",
+     "a": "Using ln(η₂/η₁) = (Ea/R)(1/T₂ - 1/T₁): ln(0.6/1.5) = (Ea/8.314)(1/318 - 1/298) → -0.9163 = (Ea/8.314)(-2.11×10⁻⁴) → Ea = 36.1 kJ/mol. For liquid Y with 2Ea: η_Y/η_X = e^(Ea/RT) = e^(36100/(8.314×298)) = e^(14.57) ≈ 2.13×10⁶. A student obtaining Ea ≈ 18 kJ/mol likely used log₁₀ instead of ln, or inverted the temperature ratio. A student claiming η_Y/η_X = 2 reveals confusion between linear and exponential dependence on activation energy.",
+     "self_check": true
+    },
+    {
+     "q": "A soap bubble of radius 2.0 cm is formed in air. The surface tension of the soap solution is 0.030 N/m. Calculate the excess pressure inside the bubble. If the bubble radius doubles while the surface tension remains constant, by what factor does the excess pressure change? A student argues that a larger bubble should have higher internal pressure because it contains more air. Evaluate this claim.",
+     "a": "For a soap bubble (two surfaces): ΔP = 4γ/r = 4(0.030)/(0.020) = 6.0 Pa. When radius doubles to 4.0 cm, ΔP = 4(0.030)/(0.040) = 3.0 Pa. The excess pressure halves (factor of 1/2). The student's claim is incorrect: excess pressure is inversely proportional to radius (ΔP ∝ 1/r), not proportional to volume or amount of gas. The internal pressure is determined by mechanical equilibrium of surface tension forces, not by the ideal gas law alone. A wrong answer (ΔP = 2γ/r for bubble, or claiming pressure increases with size) reveals confusion between droplet (one surface) and bubble (two surfaces), and misunderstanding of Laplace's law.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using only household materials (cooking oil, water, honey, identical spoons, stopwatch, ruler) to qualitatively compare the viscosities of these three liquids. Explain how you would ensure fair comparison, what you would measure, and how you would relate your observations to the molecular structures of these substances (triglycerides in oil, H₂O with hydrogen bonding, sugars with extensive -OH groups in honey).",
+     "a": "Method: Pour equal volumes (e.g., 10 mL) of each liquid from identical spoons held at same height into a graduated cylinder. Time how long each takes to fully drain from the spoon (coating flow) or measure the time for a small steel ball (if available) to fall a fixed distance. Fair test: same temperature, same spoon geometry, same volume. Expected order: honey > oil > water. Relate to molecular structure: honey has extensive hydrogen bonding network from glucose/fructose -OH groups plus high molecular weight sugars; oil has long hydrocarbon chains with London forces and chain entanglement; water has small molecules with strong but short-range hydrogen bonds. A poor answer (e.g., \"honey is thickest because it's sweet\") reveals inability to connect macroscopic flow behavior to molecular-level interactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

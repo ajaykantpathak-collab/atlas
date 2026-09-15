@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_18_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_18_002",
+   "title": "c11_eng_w_cbse_18_002",
+   "questions": [
+    {
+     "q": "What are the five stages of Freytag's pyramid (narrative arc) in order?",
+     "a": "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution. A wrong answer (e.g., missing a stage or misordering them) reveals the student lacks the basic vocabulary to discuss narrative structure, making it impossible to map the poem's events onto a recognized framework.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, summarize the narrative progression of \"Felling of the Banyan Tree\" from start to finish without quoting the poem.",
+     "a": "The poem narrates: the father orders tenants out and trees cut; the grandmother calls trees sacred; the banyan tree resists as a massive problem; its branches are sawn for seven days; fifty men chop the trunk, revealing 200-year rings; the family watches in terror; soon they move to Bombay where no trees grow except the banyan that now haunts the poet's dreams. A wrong answer that treats the poem as a static description (e.g., \"it describes a big tree being cut\") reveals the misconception that narrative poems lack a plot with cause-effect sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Freytag's pyramid to the following three-line micro-narrative: \"The sapling was planted by my grandfather. / Storms shook it, axes threatened, but it held. / Today its shade covers the whole courtyard.\" Label each line with the correct stage.",
+     "a": "Line 1: Exposition (establishes origin). Line 2: Rising Action (conflicts/threats build tension). Line 3: Resolution (outcome after struggle). Climax and Falling Action are implied/compressed. A wrong answer that labels line 2 as Climax reveals the student cannot distinguish between rising tension and the peak moment of crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poet uses enjambment (run-on lines) in the middle section of the poem (the felling process) versus end-stopped lines in the opening and closing sections. What effect does this create on narrative pace?",
+     "a": "The felling section uses heavy enjambment (e.g., \"Sawing them off for seven days and the heap was huge / Insects and birds began to leave the tree\") which forces the eye to rush forward, mimicking the relentless, continuous chopping. The opening (\"My father told the tenants to leave / Who lived on the houses surrounding our house on the hill\") and closing (\"Where there are no trees except the one / Which grows and seethes in one's dreams\") use more end-stopped lines, creating pauses that feel like deliberate decisions or final reflections. A wrong answer that claims \"the poem has no enjambment\" reveals the student has not visually scanned the line breaks and is reading only for content, not form.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poem's final two lines (\"Where there are no trees except the one / Which grows and seethes in one's dreams\") as a narrative resolution. Does it provide closure or reopen the wound? Justify with structural reasoning.",
+     "a": "The final lines function as an open resolution: they resolve the physical narrative (the family has moved, the tree is gone) but structurally reopen the emotional narrative by shifting from past tense (\"we left\", \"stood\", \"revealed\") to present tense (\"grows and seethes\"). This tense shift, placed in the last two lines of a single-stanza poem, acts like a coda that refuses to let the story end, mirroring how the trauma of the felling persists in memory. A wrong answer that calls it \"a happy ending because the tree lives in dreams\" reveals a superficial reading that ignores the violent verb \"seethes\" and the structural tension between past and present.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line narrative poem about cutting down a tree you loved, using at least one enjambment and a final line that shifts tense (past to present or future) to show lingering impact.",
+     "a": "A successful response will: (1) present a clear micro-narrative (order → cutting → aftermath → lingering memory), (2) use enjambment in the middle lines to accelerate pace, (3) end with a present/future tense verb that contrasts with past tense in earlier lines. A poor answer that writes four end-stopped lines in past tense only reveals the student cannot yet manipulate structural devices to shape narrative time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

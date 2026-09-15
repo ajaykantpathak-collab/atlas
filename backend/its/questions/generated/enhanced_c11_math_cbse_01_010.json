@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_010",
+   "title": "c11_math_cbse_01_010",
+   "questions": [
+    {
+     "q": "State the definition of intersection of two sets A and B using set-builder notation and the symbol ∈.",
+     "a": "A ∩ B = {x : x ∈ A and x ∈ B}. A wrong answer like {x : x ∈ A or x ∈ B} reveals confusion with union. Writing {x : x ∈ A, x ∈ B} without \"and\" shows incomplete understanding of the logical conjunction required. Missing the set-builder braces or the colon indicates notational gaps.",
+     "self_check": true
+    },
+    {
+     "q": "If A = {x : x is a prime number less than 10} and B = {x : x is an odd number less than 10}, find A ∩ B. Explain why 2 is not in the intersection even though it is in A.",
+     "a": "A = {2, 3, 5, 7}, B = {1, 3, 5, 7, 9}, so A ∩ B = {3, 5, 7}. The number 2 ∈ A but 2 ∉ B because 2 is even, not odd. Since intersection requires membership in BOTH sets, 2 is excluded. A wrong answer including 2 reveals the student thinks \"prime\" overrides \"odd\" or doesn't apply the \"AND\" condition strictly.",
+     "self_check": true
+    },
+    {
+     "q": "Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A = {2, 4, 6, 8, 10}, B = {3, 6, 9}. Find (A ∩ B) ∪ (A ∩ B') where B' is the complement of B in U.",
+     "a": "Step 1: A ∩ B = {6} (only common element). Step 2: B' = U - B = {1, 2, 4, 5, 7, 8, 10}. Step 3: A ∩ B' = {2, 4, 8, 10} (elements of A not in B). Step 4: (A ∩ B) ∪ (A ∩ B') = {6} ∪ {2, 4, 8, 10} = {2, 4, 6, 8, 10} = A. This demonstrates the distributive property A = (A ∩ B) ∪ (A ∩ B'). A wrong answer missing elements from A ∩ B' shows failure to compute complement correctly or misunderstanding that B' contains all elements of U not in B.",
+     "self_check": true
+    },
+    {
+     "q": "Given A = {x : x ∈ N, x² < 20} and B = {x : x ∈ N, x is a multiple of 3}, determine whether A and B are disjoint sets. Justify your answer.",
+     "a": "A = {1, 2, 3, 4} (since 1²=1, 2²=4, 3²=9, 4²=16 < 20, but 5²=25 > 20). B = {3, 6, 9, 12, ...}. A ∩ B = {3} ≠ φ. Therefore A and B are NOT disjoint. A student claiming they are disjoint because \"squares and multiples of 3 are different concepts\" reveals a conceptual error - disjointness depends on actual element overlap, not on the descriptions of the sets. The number 3 satisfies both conditions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"For any sets A, B, C: A ∩ (B ∪ C) = (A ∩ B) ∪ C\". Identify the error and provide a counterexample with specific sets.",
+     "a": "The error is missing parentheses on the right side. The correct distributive law is A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C). Counterexample: Let A = {1, 2}, B = {2, 3}, C = {3, 4}. LHS: A ∩ (B ∪ C) = {1, 2} ∩ {2, 3, 4} = {2}. RHS (student's version): (A ∩ B) ∪ C = {2} ∪ {3, 4} = {2, 3, 4} ≠ LHS. RHS (correct): (A ∩ B) ∪ (A ∩ C) = {2} ∪ φ = {2} = LHS. A student who cannot produce a counterexample lacks understanding of how to test set identities with concrete examples.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving three sets where finding the intersection of all three is meaningful. Define the universal set and all three sets clearly, then describe what the triple intersection represents in your context.",
+     "a": "Example: U = all Class 11 students in a school. A = students taking Mathematics, B = students taking Physics, C = students taking Chemistry. A ∩ B ∩ C = students taking all three subjects (PCM combination). This is meaningful for scheduling, lab allocation, or career counseling. A poor answer would use vague sets like \"students who like math\" without well-defined membership criteria, or would create sets where triple intersection is empty by design without explaining why that's still meaningful.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_009",
+   "title": "c12_biotech_cbse_10_009",
+   "questions": [
+    {
+     "q": "A patient sample tests negative for HIV by conventional PCR but positive by RT-PCR. What is the most likely explanation for this discrepancy?",
+     "a": "HIV is an RNA virus (retrovirus); conventional PCR amplifies only DNA, while RT-PCR first reverse-transcribes viral RNA into cDNA before amplification. A negative conventional PCR with positive RT-PCR indicates the target is RNA, not DNA. Wrong answer (e.g., \"conventional PCR is less sensitive\") reveals confusion between sensitivity and template compatibility — the student doesn't grasp that PCR *cannot* amplify RNA directly.",
+     "self_check": true
+    },
+    {
+     "q": "In a real-time PCR assay for SARS-CoV-2, the N-gene amplification curve crosses the threshold at Ct = 28, while the internal control (human RNase P gene) crosses at Ct = 22. The positive control crosses at Ct = 25. Interpret these results.",
+     "a": "Sample is positive for SARS-CoV-2 (Ct 28 < typical cutoff 35-40). Internal control Ct 22 confirms adequate human cellular material and no PCR inhibition. Positive control Ct 25 validates assay performance. Wrong interpretation (e.g., \"Ct 28 is higher than positive control Ct 25, so sample is negative\") reveals misunderstanding that lower Ct = higher initial template; the student confuses Ct magnitude with positivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multiplex PCR to simultaneously detect *Plasmodium falciparum* and *P. vivax* in a single blood sample. Specify: (a) primer design strategy, (b) expected amplicon sizes, (c) how to distinguish products on gel.",
+     "a": "(a) Target species-specific genes: *P. falciparum* — *pfhrp2* (histidine-rich protein 2); *P. vivax* — *pvldh* (lactate dehydrogenase). Design primers with similar Tm (~60°C), no cross-reactivity (BLAST check), amplicons 120 bp (*pfalciparum*) and 200 bp (*pvivax*). (b) Amplicon sizes differ by ≥80 bp for clear gel separation. (c) Run on 2% agarose gel: two distinct bands = mixed infection; single band at 120 bp = *P. falciparum*; single band at 200 bp = *P. vivax*; no band = negative (if internal control amplifies). Wrong answer (same amplicon size, or primers targeting conserved 18S rRNA without species-specific probes) shows failure to grasp multiplex design constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A qPCR standard curve for HBV DNA quantification yields: slope = -3.45, y-intercept = 38.2, R² = 0.998. Calculate the PCR efficiency. Is this assay acceptable for clinical quantification? Justify.",
+     "a": "Efficiency E = 10^(-1/slope) - 1 = 10^(-1/-3.45) - 1 = 10^(0.2899) - 1 = 1.95 - 1 = 0.95 = 95%. Acceptable range: 90-110% (slope -3.6 to -3.1). R² = 0.998 > 0.99 indicates excellent linearity. Yes, acceptable. Wrong calculation (e.g., using slope directly as efficiency, or claiming 95% is too low) reveals formula misuse or ignorance of MIQE guidelines for clinical qPCR.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this diagnostic PCR protocol for detecting *Mycobacterium tuberculosis* in sputum: \"Extract DNA → PCR with IS6110 primers (35 cycles) → Gel electrophoresis → Report positive if band at 245 bp.\" Identify three critical flaws.",
+     "a": "Flaws: (1) No internal control — cannot distinguish true negative from PCR inhibition/failed extraction. (2) No positive/negative controls — no validation of run integrity. (3) Conventional endpoint PCR with gel detection lacks quantification and has lower sensitivity than qPCR; 35 cycles risks non-specific amplification. Additional flaw: no mention of contamination prevention (UNG/dUTP system, separate pre/post-PCR areas). Wrong critique (e.g., \"IS6110 is not a good target\" — it's the standard) shows lack of knowledge of TB diagnostics standards.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a novel PCR-based diagnostic strategy for early detection of antimicrobial resistance (AMR) in *Staphylococcus aureus* from blood culture. Include: target genes, PCR format, turnaround time advantage over culture-based AST.",
+     "a": "Target: *mecA* (methicillin resistance), *blaZ* (penicillinase), *erm* genes (macrolide resistance). Format: Multiplex qPCR with hydrolysis probes (FAM/HEX/Cy5) on DNA extracted directly from positive blood culture broth (skip subculture). Turnaround: 3-4 hours vs 24-48h for conventional AST. Good answer includes: internal control (e.g., *nuc* gene for *S. aureus* ID), resistance gene panel covering major classes, validation against phenotypic AST. Poor answer (single target, conventional PCR, no workflow integration) shows inability to translate concept into clinical solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

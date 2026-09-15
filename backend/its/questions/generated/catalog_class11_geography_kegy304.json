@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy304",
+  "concepts": [
+    {
+      "id": "kegy.304.1.1",
+      "questions": [
+        {"q": "What is the systematic drawing of the globe's parallels and meridians on a flat surface called? (one word)", "a": "projection"},
+        {"q": "Why can a globe not be flattened without what? (one word)", "a": "distortion"},
+        {"q": "Name one family of projections by developing surface besides cylindrical and conical. (one word)", "a": "zenithal"},
+        {"q": "Projections preserving true area are called equal what? (one word)", "a": "area"},
+        {"q": "Projections preserving direction from the centre are called true what? (one word)", "a": "shape"},
+        {"q": "How many projection families are classified by developing surface? (number)", "a": "3"},
+        {"q": "What is the network of parallels and meridians on a projection called? (one word)", "a": "graticule"}
+      ]
+    },
+    {
+      "id": "kegy.304.2.1",
+      "questions": [
+        {"q": "Which projection family suits polar areas best? (one word)", "a": "zenithal"},
+        {"q": "Which cylindrical projection is famous for true directions at sea? (one word)", "a": "Mercator"},
+        {"q": "Which projection family with one or two standard parallels suits mid-latitude countries? (one word)", "a": "conical"},
+        {"q": "Which equal-area projection suits mapping a whole continent? (one word)", "a": "Bonne's"},
+        {"q": "Mercator's projection suits which regions and which activity at sea? (one word)", "a": "navigation"},
+        {"q": "Cylindrical projections suit which latitudinal belt? (one word)", "a": "equatorial"},
+        {"q": "Which projection property would a navigator prize most: true direction or equal area? (two words)", "a": "true direction"}
+      ]
+    },
+    {
+      "id": "kegy.304.3.1",
+      "questions": [
+        {"q": "Drawing a projection means constructing the what of parallels and meridians? (one word)", "a": "graticule"},
+        {"q": "On what mathematical basis is a projection's graticule constructed? (one word)", "a": "geometry"},
+        {"q": "How many factors guide the choice of a projection: the area to be mapped, its latitudinal position and the purpose? (number)", "a": "3"},
+        {"q": "Who chooses the projection for a map after weighing its purpose? (one word)", "a": "cartographer"},
+        {"q": "The area to be mapped, its latitude and its purpose together decide the choice of what? (one word)", "a": "projection"},
+        {"q": "Is a projection's graticule drawn before or after the map's detail? (one word)", "a": "before"},
+        {"q": "Does the latitudinal position of a country influence its best projection? (yes or no)", "a": "yes"}
+      ]
+    }
+  ]
+}

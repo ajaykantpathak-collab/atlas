@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_007",
+   "title": "c11_geo_cbse_21_007",
+   "questions": [
+    {
+     "q": "Define tele-density and explain why it is measured per 100 population rather than per square kilometer in geographical analysis of communication networks.",
+     "a": "Tele-density = (Total telephone connections / Total population) × 100. It is measured per 100 population because communication is a human-centric service — access depends on affordability, literacy, and demand, not just physical coverage. A wrong answer (e.g., \"per sq km\") reveals the student confuses communication infrastructure with transport networks (road density) and fails to grasp that communication access is a demographic attribute, not a land-use attribute.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India's urban tele-density exceed 130% while rural tele-density remains below 60%, despite BharatNet laying optical fiber to 1.8 lakh gram panchayats? Explain using the concept of \"last-mile connectivity\" and demand-side constraints.",
+     "a": "Urban tele-density >130% reflects multiple SIM ownership, enterprise connections, and high purchasing power. Rural tele-density <60% persists because BharatNet provides middle-mile (block to gram panchayat) but not last-mile (GP to household) connectivity; additionally, low digital literacy, affordability gaps (device + data cost), and unreliable electricity suppress effective demand. A wrong answer focusing only on \"lack of towers\" reveals misunderstanding of the distinction between network availability (supply) and meaningful access (demand-side adoption).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the effective tele-density for a district with population 12.5 lakh, 8.2 lakh wireless subscribers, 45,000 wireline subscribers, and 1.8 lakh inactive connections (unused >90 days). Interpret the result for policy planning.",
+     "a": "Step 1: Total active connections = (8,20,000 + 45,000) – 1,80,000 = 6,85,000. Step 2: Tele-density = (6,85,000 / 12,50,000) × 100 = 54.8%. Step 3: Interpretation: Below national rural average (~58%), indicating need for USOF-funded tower deployment and digital literacy camps. A wrong calculation (including inactive connections) yielding 69.2% would mislead planners into thinking the district is adequately served, masking the usage gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial diffusion pattern of FM radio (1990s) versus 4G mobile internet (2016–present) in India. Why did 4G achieve pan-India coverage in 4 years while FM radio took two decades to reach similar population coverage?",
+     "a": "FM radio followed hierarchical diffusion: metro cities → state capitals → district towns, limited by spectrum allocation, tower cost, and advertising revenue viability. 4G followed contagious diffusion accelerated by: (a) existing 2G/3G tower infrastructure upgrade, (b) single spectrum auction (2016) enabling pan-India licenses, (c) Jio's zero-tariff launch creating instant mass demand, (d) falling smartphone prices. A wrong answer attributing 4G speed only to \"better technology\" misses the political economy of spectrum policy and disruptive pricing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India Post's transformation into a payments bank and logistics hub has made it more relevant for rural financial inclusion than for traditional mail delivery.\" Use data on speed post volumes, money orders, and DBT transactions.",
+     "a": "The statement is largely valid. Speed Post volumes grew 12% CAGR (2015-23) driven by e-commerce logistics, while registered letters declined 8% CAGR. India Post Payments Bank (IPPB) enabled 7 crore accounts, processing ₹2.3 lakh crore DBT transactions annually — far exceeding traditional money orders (₹12,000 crore). However, \"last-mile\" mail delivery remains the only universal reach mechanism for legal notices, exam admit cards, and Aadhaar letters in remote areas. A wrong answer dismissing mail entirely ignores the network's legal mandate and its role as infrastructure of last resort.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication accessibility index for a tribal district using four indicators: (a) active wireless connections per 100 population, (b) gram panchayats with BharatNet FTTH, (c) community radio stations per lakh population, (d) post offices offering Aadhaar enrolment. Assign weights and justify.",
+     "a": "Proposed index (0-100): (a) Wireless tele-density × 0.4 (primary access), (b) % GPs with FTTH × 0.3 (broadband backbone), (c) Community radio per lakh × 10 × 0.2 (local content), (d) % POs with Aadhaar × 0.1 (identity + finance). Weights reflect hierarchy: personal mobile access > broadband infrastructure > local media > institutional services. A poor answer using equal weights fails to recognize that in tribal areas, mobile voice is the entry point, while community radio addresses language barriers that mainstream media ignores.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

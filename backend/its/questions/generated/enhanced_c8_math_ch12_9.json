@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_9",
+   "title": "c8_math_ch12_9",
+   "questions": [
+    {
+     "q": "A survey of 20 students' favourite fruits gives: Apple, Banana, Mango, Apple, Guava, Mango, Apple, Banana, Mango, Apple, Orange, Mango, Apple, Banana, Mango, Apple, Guava, Mango, Apple, Banana. What is the mode of this data set?",
+     "a": "The mode is Apple (appears 6 times). A wrong answer like \"Mango\" (appears 5 times) reveals the student counted incorrectly or confused the second-most-frequent value with the mode. A wrong answer like \"Fruit\" reveals the student doesn't understand mode applies to the specific category, not the variable name.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says: \"The mode of the data set 12, 15, 12, 18, 15, 12, 18, 15 is 12 because it appears first in the list.\" Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect. Both 12 and 15 appear 3 times each, so this data set is bimodal with modes 12 and 15. The order of values in the list doesn't determine the mode - only frequency matters. A student who agrees with Rahul thinks mode depends on position (like median) rather than frequency, confusing mode with median.",
+     "self_check": true
+    },
+    {
+     "q": "The frequency table shows the number of books read by students in a month:\n| Books read | 0 | 1 | 2 | 3 | 4 | 5 |\n|------------|---|---|---|---|---|---|\n| Students   | 3 | 7 | 12| 8 | 5 | 2 |\n\nFind the mode and explain what it tells us about the reading habits.",
+     "a": "The mode is 2 books (12 students read 2 books). Steps: identify the highest frequency (12), find the corresponding value (2 books). This tells us the most common reading amount is 2 books per month. A wrong answer like \"12\" (the frequency) reveals the student confuses the frequency count with the data value itself. A wrong answer like \"3\" (median) reveals confusion between mode and median.",
+     "self_check": true
+    },
+    {
+     "q": "Two data sets have the same mode but different means. Data Set A: 4, 4, 4, 10, 20. Data Set B: 4, 4, 4, 5, 6. Both have mode 4. Compare their means and explain why the mode alone doesn't describe the \"centre\" of data well in these cases.",
+     "a": "Set A mean = (4+4+4+10+20)/5 = 42/5 = 8.4. Set B mean = (4+4+4+5+6)/5 = 23/5 = 4.6. Same mode (4) but very different means (8.4 vs 4.6). The mode only captures the most frequent value, ignoring how other values are spread. In Set A, the mode (4) is far from the \"centre\" of the data because of high outliers (10, 20). A wrong answer saying \"both have same centre because same mode\" shows the student doesn't understand mode's limitation as a measure of central tendency.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher calculates the mode of test scores (out of 50) for two sections:\nSection X: 22, 25, 25, 28, 30, 30, 30, 32, 35, 48\nSection Y: 15, 18, 20, 22, 22, 22, 25, 28, 30, 30\n\nThe teacher says: \"Both sections have the same performance because both have mode 30.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Section X mode = 30 (appears 3 times). Section Y mode = 22 (appears 3 times, not 30 which appears 2 times). The teacher miscounted Section Y's frequencies. Even if both had mode 30, comparing only modes ignores that Section X scores are generally higher (mean ≈ 30.5) than Section Y (mean ≈ 23.2). A student who agrees fails to verify the mode calculation and doesn't understand that a single measure can't fully compare distributions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where mode is the MOST appropriate measure of central tendency, and another where mode would be MISLEADING. Explain your reasoning for both.",
+     "a": "Appropriate: A shirt manufacturer wants to know the most popular size to produce more of - mode (e.g., size M) directly answers this. Misleading: A company reports \"average salary\" using mode when most employees earn ₹15,000 but the CEO earns ₹2,00,000 - the mode (₹15,000) hides the huge disparity; mean or median would be better. Good answers show understanding that mode suits categorical/most-common decisions, while misleading when distribution is skewed or when \"typical\" value matters more than \"most frequent.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

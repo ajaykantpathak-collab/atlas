@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_008",
+   "title": "c11_ps_cbse_15_008",
+   "questions": [
+    {
+     "q": "What is the traditional rule of *locus standi* in Indian law, and how does Public Interest Litigation modify this rule? Cite the relevant constitutional articles.",
+     "a": "The traditional rule of *locus standi* requires that only a person whose own legal right has been violated (an \"aggrieved person\") can approach the court for a remedy. PIL modifies this by allowing any public-spirited citizen or organization to file a writ petition under Article 32 (Supreme Court) or Article 226 (High Courts) on behalf of a group whose fundamental rights are violated but who cannot approach the court due to poverty, illiteracy, or disability. A wrong answer — such as \"PIL allows anyone to file any case\" — reveals confusion between PIL and ordinary litigation, missing the specific requirement that the petition must involve a *public interest* and violation of *fundamental rights of a disadvantaged group*, not just any grievance.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court in *S.P. Gupta v. Union of India* (1981) hold that \"any member of the public\" can maintain a PIL? Explain the constitutional reasoning linking Articles 14, 21, and 32.",
+     "a": "The Court reasoned that Articles 14 (equality before law) and 21 (right to life and personal liberty) would become meaningless for the poor and marginalized if the rigid *locus standi* rule prevented them from accessing justice under Article 32. Since the Constitution guarantees fundamental rights to *all* citizens, but the traditional rule effectively denied access to the disadvantaged, the Court interpreted Article 32 expansively to allow representative standing — treating the petitioner as a \"representative\" of the affected group. A wrong answer focusing only on \"judicial activism\" without explaining the *constitutional compulsion* (Articles 14 and 21 read with Article 32) reveals a failure to understand that PIL is not judicial overreach but a *necessary interpretation* to make fundamental rights real for everyone.",
+     "self_check": true
+    },
+    {
+     "q": "A journalist writes a letter to the Chief Justice of India highlighting that undertrial prisoners in Tihar Jail have been detained for periods longer than the maximum sentence for their alleged offences. The Court treats this letter as a writ petition under Article 32. Identify the landmark case this scenario illustrates, and explain the procedural innovation it introduced.",
+     "a": "This illustrates *Hussainara Khatoon v. State of Bihar* (1979), the first recognized PIL in India. The procedural innovation was treating a *letter* addressed to the Court as a *writ petition* — dispensing with formal pleadings, court fees, and the requirement of an affidavit by the aggrieved person. The Court appointed lawyers to investigate and file a report, effectively converting an epistolary jurisdiction into a constitutional remedy. A wrong answer naming *S.P. Gupta* or *Olga Tellis* reveals confusion about the chronological evolution of PIL; *Hussainara Khatoon* predates the formal doctrinal articulation in *S.P. Gupta* and established the \"epistolary jurisdiction\" innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of PIL under Article 32 (Supreme Court) and Article 226 (High Courts). Why is Article 226 considered wider for PIL purposes? Analyze using the constitutional text.",
+     "a": "Article 32 empowers the Supreme Court to issue writs *only* for enforcement of fundamental rights (Part III). Article 226 empowers High Courts to issue writs for enforcement of fundamental rights *and* \"for any other purpose\" — meaning High Courts can entertain PILs involving statutory rights, administrative actions, or public duties *beyond* fundamental rights violations. Thus, Article 226 has wider jurisdictional reach. A wrong answer claiming both are identical reveals failure to read the constitutional text carefully: Article 226's phrase \"for any other purpose\" is the textual basis for High Courts entertaining PILs on issues like environmental degradation, corruption, or maladministration that may not directly implicate a fundamental right.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument that \"PIL has led to judicial overreach, violating the separation of powers by allowing courts to perform executive and legislative functions.\" Use at least two landmark cases to support your analysis.",
+     "a": "The critique has merit but requires nuance. In *Vineet Narain v. Union of India* (1998), the Supreme Court monitored the CBI investigation into the Jain Hawala case, effectively supervising executive function — justified as filling a governance vacuum. In *M.C. Mehta v. Union of India* (Oleum Gas Leak, 1987), the Court laid down \"absolute liability\" for hazardous industries, creating a new legal standard — a legislative function. However, defenders argue PIL is a *last resort* when the executive and legislature fail their constitutional duties (Article 38, Directive Principles). The Court in *State of Uttaranchal v. Balwant Singh Chaufal* (2010) itself cautioned against \"judicial adventurism\" and laid down guidelines: PIL must not be used for personal grievances, political motives, or to usurp executive policy. A one-sided answer either condemning all PIL as overreach or praising it uncritically reveals failure to engage with the *constitutional tension* between judicial duty to protect rights (Article 32) and institutional restraint.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"letter to the Chief Justice\" that could be treated as a PIL under the *Hussainara Khatoon* precedent. Your scenario must involve a violation of fundamental rights of a disadvantaged group who cannot approach the court themselves. Identify the specific Articles violated.",
+     "a": "A strong answer would describe a concrete situation (e.g., \"Manual scavengers in District X are forced to clean sewers without protective gear, resulting in deaths; they are Dalits, landless, and illiterate, unable to file cases\") and identify Articles 17 (abolition of untouchability), 21 (right to life with dignity), and 23 (prohibition of forced labour). The letter must be addressed to the Chief Justice, state facts clearly, and request intervention \"in public interest.\" A poor answer — vague, lacking specific rights violation, or not identifying a *disadvantaged group* — reveals misunderstanding that PIL is not a general complaint mechanism but a *targeted constitutional remedy* for systemic denial of rights to the marginalized.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

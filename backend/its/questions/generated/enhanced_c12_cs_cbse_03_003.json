@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_003",
+   "title": "c12_cs_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the `<b>` tag and the `<strong>` tag in HTML5, and why does this distinction matter for screen readers?",
+     "a": "`<b>` only applies bold styling without conveying importance, while `<strong>` indicates strong importance/emphasis semantically. Screen readers announce `<strong>` content with emphasis (changed tone/volume) but treat `<b>` as plain text. A wrong answer (e.g., \"they do the same thing\") reveals the student confuses visual presentation with semantic meaning — a critical error for accessibility questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `<section><article>Blog Post</article></section>` and another writes `<article><section>Blog Post</section></article>`. Both render identically in browsers. Which is semantically correct for a standalone blog post, and why?",
+     "a": "`<article><section>...</section></article>` is correct because `<article>` represents a self-contained composition (the blog post), while `<section>` groups thematic content *within* it. Reversing them implies the section contains the article, violating the \"article is independent\" principle. A wrong answer shows the student doesn't grasp hierarchical semantics — a common board exam trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Convert this presentational markup to semantic HTML5: `<div class=\"header\"><b>Welcome</b></div><div class=\"nav\"><i>Home</i> | <i>About</i></div><div class=\"content\"><u>Latest News</u></div>`. Show the corrected code.",
+     "a": "```html\n<header><h1>Welcome</h1></header>\n<nav><a href=\"#\">Home</a> | <a href=\"#\">About</a></nav>\n<main><h2>Latest News</h2></main>\n```\nSteps: `<div class=\"header\">` → `<header>`; `<b>` → `<h1>` (top-level heading); `<div class=\"nav\">` → `<nav>`; `<i>` for navigation links → `<a>` (links are semantic); `<div class=\"content\">` → `<main>`; `<u>` → `<h2>` (heading, not underline). Wrong answers often keep `<b>`, `<i>`, `<u>` or misuse `<section>` — revealing confusion between styling and structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `<figure><img src=\"chart.png\"><figcaption>Sales 2023</figcaption></figure>` versus `<div><img src=\"chart.png\"><p>Sales 2023</p></div>`. Analyze why the first is superior for a data visualization report page in terms of accessibility, SEO, and document outline.",
+     "a": "`<figure>`/`<figcaption>` explicitly associates the image with its caption as a single unit (referenced as a figure in the document outline), allowing screen readers to announce \"Figure: Sales 2023\" and search engines to index the caption as the image's description. `<div>`/`<p>` provides no semantic link — the caption is just a nearby paragraph. Wrong answers focus only on visual similarity, missing that semantics enable machine-readable relationships critical for competitive exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using `<div>` and `<span>` with CSS classes is just as good as semantic tags because they look identical in browsers.\" Defend or refute with three technical arguments.",
+     "a": "Refute. (1) Accessibility: Screen readers navigate by landmark roles (`<nav>`, `<main>`, `<aside>`) — `<div>` has no role. (2) SEO: Search engines weight `<h1>`–`<h6>`, `<article>`, `<header>` higher for content hierarchy. (3) Maintainability: Semantic tags self-document structure; `<div class=\"header\">` requires reading CSS/HTML to understand intent. A student agreeing reveals they prioritize visuals over standards — a mark-losing error in board exam \"justify\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a semantic HTML5 structure for a \"Student Portfolio\" page with: header (name, tagline), navigation (Projects, Skills, Contact), main content (two project articles each with figure/image/caption), aside (testimonials), and footer (copyright, social links). Write only the skeleton tags with proper nesting — no content.",
+     "a": "```html\n<body>\n  <header><h1></h1><p></p></header>\n  <nav><ul><li><a></a></li><li><a></a></li><li><a></a></li></ul></nav>\n  <main>\n    <article><figure><img><figcaption></figcaption></figure></article>\n    <article><figure><img><figcaption></figcaption></figure></article>\n  </main>\n  <aside><blockquote></blockquote></aside>\n  <footer><p></p><nav><a></a></nav></footer>\n</body>\n```\nA poor answer uses `<div>` for all containers, misses `<figure>`/`<figcaption>`, or places `<aside>` inside `<main>` — showing inability to map real-world content to semantic hierarchy, a skill tested in CUET practical questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

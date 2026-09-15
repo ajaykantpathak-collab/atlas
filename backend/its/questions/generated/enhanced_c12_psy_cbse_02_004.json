@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_004",
+   "title": "c12_psy_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the four personality types proposed by Hippocrates and the bodily humour associated with each type.",
+     "a": "The four types are: Sanguine (blood — cheerful, optimistic), Phlegmatic (phlegm — calm, sluggish), Melancholic (black bile — sad, depressive), Choleric (yellow bile — angry, irritable). A wrong answer (e.g., confusing humours or adding a fifth type) reveals the student has memorised names without linking each type to its specific humour, which is the core of Hippocrates' theory.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In Ayurveda, a person with dominant vata dosha is calm, grounded, and gains weight easily.\" Is this statement correct? Explain why or why not using the Charak Samhita classification.",
+     "a": "The statement is incorrect. Vata dosha (air/space) is associated with creativity, anxiety, irregular digestion, and a thin/light body build — not calmness or weight gain. Calm, grounded, weight-gain tendencies describe kapha dosha (earth/water). This error reveals the student has confused the three doshas' behavioural and physical correlates, a common mistake when memorising without understanding the elemental basis (vata=air, pitta=fire, kapha=earth).",
+     "self_check": true
+    },
+    {
+     "q": "Rohan is a national-level sprinter with a rectangular, muscular build, high energy, and courage. His sister Riya is a poet with a thin, fragile frame, prefers solitude, and is described as \"brainy and artistic.\" Using Sheldon's somatotype theory, classify each sibling and justify your classification with two behavioural descriptors per type.",
+     "a": "Rohan: Mesomorph — strong musculature, rectangular build; behavioural descriptors: energetic, courageous. Riya: Ectomorph — thin, long, fragile build; behavioural descriptors: introverted, artistic. A wrong classification (e.g., calling Rohan endomorph) shows the student cannot map body-build descriptors to behavioural temperaments, missing Sheldon's core claim of body-temperament covariation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Jung's introversion-extraversion typology with Friedman & Rosenman's Type A-Type B classification on two dimensions: (a) theoretical basis (what drives the classification), and (b) health implication. Which theory has stronger empirical support for predicting coronary heart disease?",
+     "a": "(a) Jung: basis = direction of psychic energy (inward vs outward); no inherent health claim. Friedman & Rosenman: basis = stress-response pattern and behavioural style; explicit health claim (Type A → higher CHD risk). (b) Type A/B has stronger empirical support for CHD prediction (though later research nuanced this). A student who says \"both predict health equally\" or \"Jung predicts CHD\" confuses a structural theory of consciousness with a behavioural-risk-factor model.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Sheldon's somatotypes are scientifically valid because body build determines personality.\" Use the NCERT's own evaluation and modern psychological perspective.",
+     "a": "The statement is flawed. NCERT explicitly states these typologies are \"simple, have limited use in predicting behaviour,\" and \"more like stereotypes.\" Modern psychology rejects biological determinism of body→personality; somatotypes lack reliability (inter-rater agreement low) and validity (no consistent trait correlations). A student endorsing the statement shows uncritical acceptance of a discredited theory, missing NCERT's cautionary note.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-item mini-questionnaire (two items per type) that could differentiate Type C (cancer-prone) from Type D (depression-prone) personalities based on their defining behavioural markers. Explain the theoretical rationale for each item.",
+     "a": "Type C items: (1) \"I rarely express anger even when treated unfairly\" (suppressed negative affect); (2) \"I prioritise others' needs over my own to avoid conflict\" (compliance/unassertiveness). Type D items: (1) \"I often feel hopeless about the future\" (negative affectivity); (2) \"I avoid social situations because I fear rejection\" (social inhibition). Rationale: Type C = suppression + compliance; Type D = negative affectivity + social inhibition. A poor answer mixes markers (e.g., giving Type C an item about hopelessness), showing confusion between the two extensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_004",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_004",
+   "title": "c7_eco_ch03_004",
+   "questions": [
+    {
+     "q": "What is the primary economic function of communication networks like telephone lines and the internet within a country's infrastructure?",
+     "a": "The primary economic function is to enable the fast transmission of information, data, and voice, which reduces transaction costs and links buyers, sellers, and financial systems instantly. A wrong answer—such as thinking communication networks only exist for personal entertainment—reveals a fundamental misunderstanding of economic infrastructure as consumer goods rather than foundational production enablers that boost market efficiency and trade.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a rural farmer benefit economically from having access to mobile internet and telecom networks rather than relying solely on word-of-mouth price information in the local village market?",
+     "a": "Mobile internet gives the farmer real-time price data across multiple distant mandis, empowering them to negotiate better prices and sell where demand and returns are highest. A wrong answer—such as believing local village markets always offer the fairest price—ignores how asymmetric information traps producers in low-margin local sales, whereas communication networks eliminate information asymmetry and expand market choices.",
+     "self_check": true
+    },
+    {
+     "q": "A small handicraft enterprise in Jaipur spends ₹10,000 per month dispatching sales agents to different states to take orders. After adopting a high-speed broadband internet connection and an online ordering portal, their travel cost drops by 60%, while their monthly online sales revenue increases from ₹50,000 to ₹80,000. Calculate the net monthly financial gain (new revenue minus new total costs) if their internet subscription costs ₹2,000 per month and other operational costs remain steady at ₹30,000.",
+     "a": "Steps: \n1. Identify new revenue = ₹80,000. \n2. Calculate new travel cost = ₹10,000 - (60% of ₹10,000) = ₹10,000 - ₹6,000 = ₹4,000. \n3. Calculate total monthly costs = New travel cost (₹4,000) + Internet subscription (₹2,000) + Other operational costs (₹30,000) = ₹36,000. \n4. Calculate net financial gain = New revenue (₹80,000) - Total costs (₹36,000) = ₹44,000. \nA wrong answer indicates confusion between fixed operational expenses and variable costs, or failure to properly subtract reduced transaction costs from total business revenues.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the shift from postal letter communication to instantaneous internet and telecom networks alters the speed of capital flows and business transactions in the Indian banking and retail sectors.",
+     "a": "Instant communication networks allow orders, invoice generation, and bank clearances to happen in seconds instead of weeks, drastically shrinking the business cycle time and increasing the velocity of money in the economy. A wrong answer suggests the student thinks speed only affects personal convenience, missing how faster information transfer directly increases business turnover, reduces inventory holding times, and accelerates economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Government investments in rural optical fiber internet networks are a waste of public money because villagers only need roads and electricity to farm.\" Do you agree or disagree, and why?",
+     "a": "Disagree. While roads and electricity are essential physical infrastructure, modern agricultural and rural economic activity relies heavily on digital access for weather updates, pest advisories, direct e-market sales, and digital banking services that maximize farm incomes. A wrong answer shows a narrow view of infrastructure, failing to recognize that information and communication networks are co-equal pillars of development alongside roads and power.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-step digital strategy for a rural women's self-help group making pickle products to expand their market from a single village to national buyers using telecom and internet infrastructure.",
+     "a": "A strong answer must include: \n1. Utilizing a low-cost smartphone on a 4G telecom network to photograph products and document quality standards. \n2. Registering on an e-commerce or social media messaging platform to display products directly to urban consumers. \n3. Using digital payment apps linked to bank accounts to accept advance payments and booking courier services via mobile apps for doorstep pickup. A weak answer misses the integration of telecom, digital marketing, and financial infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

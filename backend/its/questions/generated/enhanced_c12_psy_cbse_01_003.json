@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_003",
+   "title": "c12_psy_cbse_01_003",
+   "questions": [
+    {
+     "q": "State Alfred Binet's definition of intelligence as given in the NCERT textbook. Use the exact three phrases he emphasized.",
+     "a": "Binet defined intelligence as **the ability to judge well, understand well, and reason well**. A wrong answer (e.g., \"ability to learn quickly\" or \"high IQ\") reveals the student is conflating Binet's cognitive-operations definition with later psychometric (IQ) or layperson (speed) notions. Binet deliberately avoided \"speed\" or \"quantity of knowledge\" — he focused on *quality* of mental operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Wechsler defined intelligence as the ability to score high on IQ tests.\" Explain why this is incorrect by contrasting it with Wechsler's actual definition. Use the terms \"global capacity,\" \"rational thinking,\" and \"effective adaptation\" in your explanation.",
+     "a": "Wechsler defined intelligence as **the global and aggregate capacity to think rationally, act purposefully, and deal effectively with the environment**. The student's version is wrong because: (1) It confuses the *measure* (IQ test) with the *construct* (intelligence); (2) It omits \"global and aggregate capacity,\" which means intelligence is not a single skill but a composite; (3) It misses \"act purposefully\" and \"deal effectively,\" which emphasize real-world functioning, not test performance. This error is common in board exams where students memorize \"Wechsler = IQ test\" instead of his theoretical definition.",
+     "self_check": true
+    },
+    {
+     "q": "Riya solves complex math problems quickly but freezes during a family crisis and cannot decide what to do. Rohan struggles with academics but calmly coordinates help during emergencies. Using Binet's and Wechsler's definitions separately, analyze which definition better captures each person's strength.",
+     "a": "**Binet's lens**: Riya shows strong *reasoning* and *understanding* (cognitive operations) — high on Binet's intelligence. Rohan's crisis management doesn't directly involve \"judging/understanding/reasoning\" in an academic sense — lower on Binet.  \n**Wechsler's lens**: Rohan demonstrates *purposeful action* and *effective adaptation to environment* — high on Wechsler's intelligence. Riya's math skill is rational thinking but lacks evidence of \"dealing effectively with environment\" broadly — moderate on Wechsler.  \nA wrong answer (e.g., \"Riya is more intelligent by both definitions\") shows the student cannot distinguish cognitive operations (Binet) from functional adaptation (Wechsler) — a frequent board exam error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the \"common-sense notion\" of intelligence (mental alertness, ready wit, quickness in learning) differs from Binet's and Wechsler's definitions. Create a 3-row × 3-column table in your mind: Rows = Common-sense, Binet, Wechsler; Columns = Focus, Key Verbs, Limitation.",
+     "a": "| Perspective | Focus | Key Verbs | Limitation |\n|-------------|-------|-----------|------------|\n| Common-sense | Surface behavior | Alert, quick, witty | Subjective; confuses speed with depth; ignores adaptation |\n| Binet | Cognitive operations | Judge, understand, reason | Narrowly cognitive; ignores purposeful action & emotional/social context |\n| Wechsler | Functional adaptation | Think rationally, act purposefully, deal effectively | Broad but hard to measure directly; \"global capacity\" is abstract |\n\nA wrong answer that lists only \"Binet = reasoning, Wechsler = adaptation\" without the *limitation* column shows superficial understanding. Board exams often ask \"critically evaluate\" — requiring identification of what each definition *misses*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Wechsler's definition is superior to Binet's because it includes real-life adaptation.\" Provide two arguments *for* and two *against* this claim, referencing the historical context of intelligence testing.",
+     "a": "**For**: (1) Wechsler's definition aligns with modern functional views (e.g., Sternberg's contextual intelligence) and explains why high-IQ individuals may fail in life. (2) It broadens intelligence beyond academics to include social/vocational competence — crucial for clinical diagnosis (e.g., intellectual disability requires adaptive deficits).  \n**Against**: (1) Binet's definition was *operationalizable* — it directly led to the first intelligence test (Binet-Simon, 1905) that identified children needing special education. Wechsler's \"global capacity\" is too vague for test construction without further specification. (2) Binet's focus on judgment/understanding/reasoning remains the core of *fluid intelligence* measured in modern tests (e.g., matrix reasoning). Wechsler himself built his test *on* Binet's items.  \nA one-sided answer (\"Wechsler is better because it's modern\") ignores that scientific progress builds on prior work — a trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item \"mini-interview\" for a school counselor to distinguish whether a 14-year-old's difficulty stems from weak *cognitive operations* (Binet) vs. poor *adaptive functioning* (Wechsler). Each item must target one specific component from either definition.",
+     "a": "**Item 1 (Binet - Reasoning)**: \"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly? Explain your reasoning.\" → Tests *reasoning well*.  \n**Item 2 (Binet - Judgment)**: \"Your friend wants to quit school to become a gamer. What questions would you ask to help them decide? How would you weigh the pros/cons?\" → Tests *judge well*.  \n**Item 3 (Wechsler - Purposeful Action/Adaptation)**: \"Describe a recent problem at home/school where you made a plan, acted on it, and it worked. What would you do differently next time?\" → Tests *act purposefully* and *deal effectively*.  \nA poor answer uses only academic questions (e.g., \"Define justice\") — missing Wechsler's *real-world* focus. This mirrors how clinicians actually use Wechsler's *concept* (though not his test) in adaptive behavior interviews (Vineland, ABAS).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

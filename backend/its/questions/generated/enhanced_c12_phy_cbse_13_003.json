@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_003",
+   "title": "c12_phy_cbse_13_003",
+   "questions": [
+    {
+     "q": "State the SI unit of the energy equivalent of 1 kg of mass according to \\(E = mc^2\\), and write the numerical value of \\(c\\) to be used in calculations.",
+     "a": "The SI unit is joule (J). The speed of light \\(c = 3.00 \\times 10^8 \\, \\text{m/s}\\) (approximate) or \\(2.9979 \\times 10^8 \\, \\text{m/s}\\) (exact). A wrong answer like \"MeV\" or \"eV\" reveals confusion between SI units and nuclear physics convenience units; a wrong value of \\(c\\) (e.g., \\(3 \\times 10^5 \\, \\text{km/s}\\) without conversion) reveals unit inconsistency.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In a chemical reaction like burning coal, mass is conserved exactly, so \\(E = mc^2\\) does not apply.\" Explain why this statement is incorrect, and estimate the order of magnitude of the mass defect for a reaction releasing 1 eV of energy.",
+     "a": "The statement is incorrect because \\(E = mc^2\\) applies universally; mass-energy interconversion occurs in chemical reactions too, but the mass defect is ~\\(10^{-9}\\) u (since 1 eV = \\(1.6 \\times 10^{-19}\\) J → \\(\\Delta m = E/c^2 \\approx 1.78 \\times 10^{-36}\\) kg ≈ \\(10^{-9}\\) u), which is too small to measure. A student who thinks mass is strictly conserved in chemistry has not grasped that mass defect exists but is negligible compared to nuclear reactions (where defects are ~0.1 u per nucleon).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the energy equivalent (in MeV) of the mass defect \\(\\Delta m = 0.13691 \\, \\text{u}\\) for the \\(^{16}_8\\text{O}\\) nucleus, using \\(1 \\, \\text{u} = 931.5 \\, \\text{MeV}/c^2\\). Show unit cancellation explicitly.",
+     "a": "\\(E = \\Delta m \\times 931.5 \\, \\text{MeV}/c^2 \\times c^2 = 0.13691 \\times 931.5 \\, \\text{MeV} = 127.5 \\, \\text{MeV}\\). Steps: (1) Identify \\(\\Delta m = 0.13691 \\, \\text{u}\\). (2) Use conversion \\(1 \\, \\text{u} = 931.5 \\, \\text{MeV}/c^2\\). (3) Multiply: \\(0.13691 \\times 931.5 = 127.5\\). (4) Units: u × (MeV/c²)/u × c² = MeV. A wrong answer like 127.5 J or forgetting \\(c^2\\) cancellation reveals unit-tracking failure.",
+     "self_check": true
+    },
+    {
+     "q": "Two nuclei, \\(^{56}_{26}\\text{Fe}\\) and \\(^{238}_{92}\\text{U}\\), have binding energies per nucleon of 8.75 MeV and 7.6 MeV respectively. Which nucleus is more tightly bound? If \\(^{238}\\text{U}\\) splits into two \\(^{119}\\) fragments each with 8.5 MeV/nucleon, estimate the total energy released. Explain the physical reasoning.",
+     "a": "\\(^{56}\\text{Fe}\\) is more tightly bound (higher \\(E_b/A\\)). For fission: initial total binding energy = \\(238 \\times 7.6 = 1808.8 \\, \\text{MeV}\\). Final total binding energy = \\(2 \\times 119 \\times 8.5 = 2023 \\, \\text{MeV}\\). Energy released = \\(2023 - 1808.8 = 214.2 \\, \\text{MeV}\\). The reasoning: energy is released when less bound nucleons reorganize into more bound configurations; the mass defect increases, so mass decreases, and the difference appears as kinetic energy of fragments. A student who subtracts per-nucleon values (8.5 – 7.6 = 0.9 MeV) and multiplies by 238 gets the same number but must justify why multiplication by total nucleons is correct.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed \"perpetual motion\" machine claims to convert 1 g of water completely into energy continuously without any mass input. Evaluate this claim using \\(E = mc^2\\) and the law of conservation of mass-energy. What fundamental principle does it violate?",
+     "a": "The claim violates conservation of mass-energy. Converting 1 g of water yields \\(E = (10^{-3} \\, \\text{kg})(3 \\times 10^8)^2 = 9 \\times 10^{13} \\, \\text{J}\\) once. After that, the mass is gone; you cannot get more energy without new mass input. The machine would need a source of mass to sustain output. A student who says \"it violates energy conservation\" is partially correct but misses the unified mass-energy conservation: mass is the fuel, and it is consumed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment to demonstrate that the binding energy of a nucleus must be included in its total mass. Use a system of two protons and two neutrons combining to form \\(^4_2\\text{He}\\). Specify initial and final masses, and the energy released.",
+     "a": "Initial: 2 free protons (2 × 1.00727 u) + 2 free neutrons (2 × 1.00866 u) = 4.03186 u. Final: \\(^4_2\\text{He}\\) nucleus (atomic mass 4.002603 u minus 2 electron masses 2×0.000548 u = 4.001507 u). Mass defect = 0.030353 u. Energy released = 0.030353 × 931.5 MeV = 28.27 MeV. The helium nucleus is lighter by exactly this mass equivalent. A poor answer omits electron mass subtraction or uses atomic masses directly without adjustment, showing confusion between atomic and nuclear masses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

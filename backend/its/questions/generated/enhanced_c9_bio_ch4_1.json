@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_1",
+   "title": "c9_bio_ch4_1",
+   "questions": [
+    {
+     "q": "Define biodiversity and name its three hierarchical levels.",
+     "a": "Biodiversity is the variety of life at genetic, species, and ecosystem levels. A wrong answer that only lists \"different plants and animals\" reveals the student is stuck at a middle-school species-counting view and misses the genetic and ecosystem dimensions required for Class 9.",
+     "self_check": true
+    },
+    {
+     "q": "Why is genetic diversity within a crop like wheat important for Indian farmers facing changing climate conditions?",
+     "a": "Genetic diversity provides a pool of traits (e.g., drought tolerance, disease resistance) that allow some individuals to survive new stresses, ensuring the crop population persists. A wrong answer focusing only on \"higher yield\" shows confusion between genetic diversity and selective breeding for a single trait, missing the resilience aspect.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer replaces a traditional mixed-crop field (wheat, mustard, chickpea) with a single high-yielding wheat variety. Using the three levels of biodiversity, explain two consequences for the agroecosystem.",
+     "a": "Species diversity drops because other crop species are removed; genetic diversity drops because only one wheat genotype is planted; ecosystem diversity may drop if the field no longer supports varied soil microbes and pollinators. This reduces resilience to pests and climate fluctuations. A wrong answer that only mentions \"less crop types\" fails to link species loss to genetic and ecosystem-level effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biodiversity of a natural Western Ghats forest and a teak plantation of the same area. Which has higher ecosystem diversity and why?",
+     "a": "The natural forest has higher ecosystem diversity because it contains multiple distinct communities (evergreen patches, shola grasslands, streams, canopy layers) each with unique species interactions, while the plantation is a single managed ecosystem type. A wrong answer claiming the plantation has high biodiversity because \"many teak trees\" confuses population size with ecosystem-level variety.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Conserving only tigers in a reserve automatically conserves the biodiversity of the entire ecosystem.\"",
+     "a": "False. Tiger conservation (species-level focus) may protect habitat, but it does not guarantee genetic diversity of prey species, survival of non-charismatic species (e.g., fungi, insects), or ecosystem processes like nutrient cycling. A wrong answer agreeing with the statement reveals the \"umbrella species\" misconception — assuming top-predator protection equals full biodiversity conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-campus biodiversity audit that captures all three levels of biodiversity. List the steps and what data you would record at each level.",
+     "a": "Steps: (1) Map distinct habitats (lawn, garden, pond, tree grove) for ecosystem diversity. (2) In each habitat, list all observable species (plants, birds, insects) for species diversity. (3) For one common species (e.g., neem trees), measure variation in leaf size, bark texture, flowering time among individuals for genetic diversity. A poor audit that only counts species names misses the genetic and ecosystem dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_004",
+   "title": "c12_phy_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the formula for the temperature dependence of resistivity of a metallic conductor over a limited temperature range. Define the temperature coefficient of resistivity (α) and give its SI unit.",
+     "a": "ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity. α = (1/ρ_0)(dρ/dT) at T_0; SI unit: °C⁻¹ or K⁻¹. A wrong answer (e.g., writing α = (ρ_T - ρ_0)/ρ_0 without dividing by ΔT, or giving unit as Ω·m) reveals confusion between the coefficient and the fractional change, or between resistivity and its temperature coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the resistivity of copper increases with temperature while that of silicon decreases, using the microscopic formula ρ = m/(ne²τ). What happens to n and τ in each case as temperature rises?",
+     "a": "In copper (metal), n (free electron density) is almost temperature-independent, but τ (relaxation time) decreases because lattice vibrations increase, causing more frequent collisions. Thus ρ ∝ 1/τ increases. In silicon (semiconductor), n increases exponentially with temperature as more electrons are excited across the band gap; this increase far outweighs the decrease in τ, so ρ decreases. A wrong answer that claims n decreases in metals or τ increases in semiconductors shows a fundamental misunderstanding of the charge carrier dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A nichrome heating coil in an electric iron has a resistance of 48.0 Ω at 20.0°C. The temperature coefficient of resistivity of nichrome is 1.70 × 10⁻⁴ °C⁻¹. Calculate the resistance of the coil when the iron reaches its steady operating temperature of 320°C. Assume the dimensions of the coil do not change significantly.",
+     "a": "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C.\nStep 1: ΔT = T - T_0 = 300°C.\nStep 2: Use R = R_0[1 + αΔT] = 48.0[1 + (1.70×10⁻⁴)(300)].\nStep 3: αΔT = 1.70×10⁻⁴ × 300 = 0.0510.\nStep 4: R = 48.0 × 1.0510 = 50.448 Ω ≈ 50.4 Ω (3 significant figures).\nUnits: α in °C⁻¹, ΔT in °C → dimensionless product; R in Ω.\nA wrong answer like 48.0 + 0.051 = 48.051 Ω reveals forgetting to multiply R_0 by the factor (1+αΔT) and instead adding αΔT directly.",
+     "self_check": true
+    },
+    {
+     "q": "The graph below shows resistivity ρ versus temperature T for two materials A and B. Material A is a metal, Material B is a semiconductor. (i) Identify which curve corresponds to which material. (ii) Explain why the slope of curve A is positive but small, while curve B has a large negative slope. (iii) Why is the linear approximation ρ = ρ_0[1 + α(T-T_0)] valid only over a limited range for material A?",
+     "a": "(i) Curve with positive slope (ρ increases with T) → Material A (metal). Curve with negative slope (ρ decreases with T) → Material B (semiconductor). (ii) For metals, α is small positive (~10⁻³ to 10⁻⁴ °C⁻¹) because only τ changes slightly; for semiconductors, the exponential increase in n causes a large negative α. (iii) At very low temperatures, ρ vs T deviates from linearity (ρ ∝ T⁵ for pure metals) and saturates at a residual resistivity due to impurities; at very high temperatures, anharmonic effects cause non-linearity. A wrong answer that says the linear formula works for all temperatures ignores the physical limits of the approximation.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves Example 3.3 (nichrome toaster) but uses α = 1.70 × 10⁻⁴ K⁻¹ and temperature in Kelvin (T_1 = 300 K, T_2 = ?). They get T_2 = 1120 K. Is this correct? Evaluate the student's method and answer.",
+     "a": "The student's method is incorrect because the temperature coefficient α is given per °C, and the formula uses temperature difference ΔT. Since ΔT in °C equals ΔT in K, the numerical value of α is the same whether expressed in °C⁻¹ or K⁻¹. However, the reference temperature T_0 must be in the same scale as T. If T_0 = 27°C = 300 K, then T_2 = T_0 + ΔT = 300 K + 820 K = 1120 K, which corresponds to 847°C. The answer 1120 K is numerically correct for the Kelvin temperature, but the student should have stated the final temperature as 847°C (or 1120 K) and noted that the coefficient is per degree Celsius. A wrong answer that claims the student is entirely wrong because α must be in °C⁻¹ shows confusion about the equivalence of temperature intervals in Celsius and Kelvin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a meter bridge (slide wire bridge) to determine the temperature coefficient of resistivity (α) of a copper wire. List the apparatus, procedure, measurements, and the formula you would use to calculate α from the balance lengths at two different temperatures.",
+     "a": "Apparatus: Meter bridge, copper wire (unknown resistor), standard resistance box, galvanometer, battery, thermometer, water bath with heater. Procedure: (1) Place copper wire in the left gap, a known resistance R in the right gap. (2) Immerse the copper wire in a water bath at room temperature T_1; find balance length l_1. (3) Heat the bath to a higher temperature T_2; find balance length l_2. (4) Use meter bridge formula: R_Cu = R × (l/(100-l)). Calculate R_1 and R_2. (5) Use R_2 = R_1[1 + α(T_2 - T_1)] to find α. A poor answer that omits temperature control, uses only one temperature, or ignores the need for a standard resistor reveals lack of experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

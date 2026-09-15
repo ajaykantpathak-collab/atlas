@@ -1,0 +1,140 @@
+{
+ "catalog": "catalog_class11_accountancy_keac106",
+ "concepts": [
+  {
+   "id": "keac.106.1.1",
+   "title": "Meaning and Preparation of Trial Balance",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning and Preparation of Trial Balance', work with: credit_total = 80, debit_total = 360. Carry the chain through step by step and give the final value of difference.",
+     "a": "280 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning and Preparation of Trial Balance' and work with: credit_total = 24, debit_total = 100. Carry the chain through step by step and give the final value of difference.",
+     "a": "76 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning and Preparation of Trial Balance' refers to.",
+     "a": "A trial balance is a statement of the debit and credit balances of all ledger accounts taken out on a date, prepared to test the arithmetical accuracy of the books, where the two columns must agree in total.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Preparation of Trial Balance'.",
+     "a": "The equality of the two sides proves that double entry has been applied throughout, though it does not certify the absence of all errors.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning and Preparation of Trial Balance', in plain ASCII form.",
+     "a": "difference = debit_total - credit_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.2.1",
+   "title": "Objectives and Limitations of the Trial Balance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Objectives and Limitations of the Trial Balance' refers to.",
+     "a": "The trial balance ascertains the arithmetical accuracy of ledger accounts, helps in locating errors, and provides the basis for preparing final accounts; yet errors of principle, complete omission and compensating errors do not disturb its agreement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives and Limitations of the Trial Balance'.",
+     "a": "A tallied trial balance is only a presumption of accuracy, since several classes of errors leave the two sides equal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Objectives and Limitations of the Trial Balance' taught, and from which source text?",
+     "a": "6.2 Objectives of Preparing the Trial Balance (source: keac106.txt sections 6.2, 6.2.1, 6.2.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.3.1",
+   "title": "Classification of Errors: Omission, Commission, Principle and Compensating",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Errors: Omission, Commission, Principle and Compensating' refers to.",
+     "a": "Accounting errors are classified as errors of complete or partial omission, errors of commission such as wrong posting or casting, errors of principle that break the accounting rules, and compensating errors that cancel one another.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Errors: Omission, Commission, Principle and Compensating'.",
+     "a": "Classifying an error first decides whether it can be rectified through the suspense account or needs a correcting journal entry.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Errors: Omission, Commission, Principle and Compensating' taught, and from which source text?",
+     "a": "6.3 Kinds of Errors (source: keac106.txt section 6.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4.1",
+   "title": "Rectification through the Suspense Account",
+   "questions": [
+    {
+     "q": "Using the method 'Rectification through the Suspense Account', work with: difference = 8. Carry the chain through step by step and give the final value of suspense_balance.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rectification through the Suspense Account' and work with: difference = 100. Carry the chain through step by step and give the final value of suspense_balance.",
+     "a": "100 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectification through the Suspense Account' refers to.",
+     "a": "One-sided errors that leave the trial balance suspended are rectified through the suspense account, while two-sided errors are rectified by a journal entry that cancels the wrong effect and records the right one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectification through the Suspense Account'.",
+     "a": "The suspense account carries the trial balance difference until all one-sided errors are located and rectified, after which it closes automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectification through the Suspense Account', in plain ASCII form.",
+     "a": "suspense_balance = difference",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5.1",
+   "title": "Rectified Totals after Correction of Errors",
+   "questions": [
+    {
+     "q": "Calculate the corrected total when a book is overcast. Use the method 'Rectified Totals after Correction of Errors'. Work with: excess_amount = 500, wrong_total = 500. Carry the chain through step by step and give the final value of corrected_total.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the rectified figure after an undercast is removed. Use the method 'Rectified Totals after Correction of Errors'. Work with: excess_amount = 250, wrong_total = 500. Carry the chain through step by step and give the final value of corrected_total.",
+     "a": "250 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rectified Totals after Correction of Errors' refers to.",
+     "a": "After a wrong amount is replaced, the corrected total follows by deducting the excess or adding the shortfall from the old total, as when a purchase book is overcast or undercast.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rectified Totals after Correction of Errors'.",
+     "a": "Overcasting inflates a total by the excess, so the rectified figure is the wrong total less the excess; undercasting works in reverse.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rectified Totals after Correction of Errors', in plain ASCII form.",
+     "a": "corrected_total = wrong_total - excess_amount",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

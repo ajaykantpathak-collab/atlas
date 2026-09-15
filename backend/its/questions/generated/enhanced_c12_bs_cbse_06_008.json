@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_008",
+   "title": "c12_bs_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between apprenticeship training and internship training in terms of the parties involved and the primary objective?",
+     "a": "Apprenticeship involves a trainee and a master worker within the organisation, aiming to acquire a high level of craft/technical skill over a prescribed period. Internship is a joint programme between an educational institution and a business firm where students combine regular studies with practical work experience. A wrong answer that treats both as \"just working while learning\" reveals the student has not grasped the institutional partnership in internships versus the master-apprentice relationship in apprenticeships.",
+     "self_check": true
+    },
+    {
+     "q": "A company wants to prepare a group of management trainees for future general manager roles. They decide to move each trainee through finance, marketing, operations, and HR for three months each. Which on-the-job method is this, and why is it suitable for this objective?",
+     "a": "This is Job Rotation. It is suitable because it gives trainees a holistic understanding of how different departments interrelate, helps them discover their own aptitudes, and builds cross-functional cooperation — essential for a general manager. If a student answers \"coaching\" or \"apprenticeship\", they are confusing individual mentoring or skill-specific training with broad organisational exposure.",
+     "self_check": true
+    },
+    {
+     "q": "A small printing press hires a 19-year-old who has completed a vocational course in graphic design. The owner wants him to become a skilled press operator. The press has one experienced operator who can spare two hours a day. Design a training plan using the most appropriate on-the-job method, stating the method, duration, and how progress will be monitored.",
+     "a": "Method: Apprenticeship Programme. Duration: Typically 1–3 years (as per Apprentices Act, 1961). Plan: The trainee works under the experienced operator (master) for the full shift, gradually taking over operations. Progress monitored through: (i) weekly skill checklists, (ii) monthly output quality audits, (iii) quarterly theoretical assessments. A wrong answer suggesting \"internship\" or \"job rotation\" shows the student cannot match method to context: apprenticeship is for skill-intensive trades, not for students or generalists.",
+     "self_check": true
+    },
+    {
+     "q": "Compare coaching and job rotation on the following dimensions: (a) primary focus, (b) relationship between trainer and trainee, (c) suitability for succession planning. Present as a table.",
+     "a": "| Dimension | Coaching | Job Rotation |\n|-----------|----------|--------------|\n| Primary Focus | Grooming a specific individual to replace the coach (senior manager) | Broadening understanding of the whole organisation |\n| Trainer-Trainee Relationship | One-to-one, mentor-protégé, full responsibility of coach | Multiple supervisors across departments, no single mentor |\n| Succession Planning | Directly targets a specific vacancy (coach's position) | Builds a pipeline of versatile candidates for multiple future roles |\nA student who swaps the columns or writes \"both are same\" fails to analyse the structural difference: coaching is vertical and personal; rotation is horizontal and systemic.",
+     "self_check": true
+    },
+    {
+     "q": "\"On-the-job training methods are always cheaper than off-the-job methods because they use existing equipment and supervisors.\" Evaluate this statement with two arguments for and two against.",
+     "a": "For: (1) No separate training infrastructure or faculty costs; (2) Trainee contributes to output while learning. Against: (1) Costly errors and machine downtime during learning; (2) Supervisor's productive time is diverted, an opportunity cost. A one-sided answer (\"always cheaper\" or \"always costlier\") shows lack of evaluation skill — the student must recognise hidden costs like scrap, accidents, and supervisor time.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (3–4 sentences) where a company would use BOTH apprenticeship and job rotation simultaneously for different employee groups. Explain why each method fits its group.",
+     "a": "Example: \"An automobile plant hires 20 ITI-fitters as apprentices under master technicians to master welding and assembly (apprenticeship). Simultaneously, it selects 5 engineering graduates as management trainees and rotates them through production, quality, supply chain, and HR for 18 months (job rotation).\" Apprenticeship fits the fitters because they need deep, certified trade skills; rotation fits the graduates because they need cross-functional perspective for future leadership. A vague scenario without distinct target groups or clear rationale indicates the student cannot synthesize method selection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

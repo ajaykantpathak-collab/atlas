@@ -1,0 +1,156 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 204,
+ "chapter_title": "Atoms",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph204.txt",
+ "concepts": [
+  {
+   "id": "leph.12.2.1",
+   "title": "Distance of Closest Approach",
+   "section": "12.2.1",
+   "definition": "The minimum separation distance between an alpha particle and a nucleus during a head-on collision where the particle momentarily stops.",
+   "formula": "d = (2 * Z * e**2) / (4 * pi * epsilon_0 * K)",
+   "key_idea": "Conservation of energy where initial kinetic energy equals final electrostatic potential energy.",
+   "textbook_ref": "leph204.txt lines 295-296",
+   "question_patterns": [
+    "calculate the distance of closest approach for a given alpha particle",
+    "find the minimum distance an alpha particle reaches before reversing",
+    "what is the distance of closest approach for a ... MeV particle",
+    "determine the closest approach distance for a gold nucleus",
+    "how close does a ... MeV alpha particle get to the nucleus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert kinetic energy to Joules",
+     "explain": "convert MeV to Joules using 1.6e-13",
+     "compute": "joules = energy_mev * 1.6e-13"
+    },
+    {
+     "step": 2,
+     "action": "calculate distance",
+     "explain": "use d = 2Ze^2 / (4pi*eps0*K)",
+     "compute": "dist = (2 * atomic_z * (1.6e-19**2) * 9e9) / joules"
+    }
+   ]
+  },
+  {
+   "id": "leph.12.4.1",
+   "title": "Energy of Hydrogen Atomic States",
+   "section": "12.4.1",
+   "definition": "The quantized energy levels of an electron in a hydrogen atom determined by the principal quantum number n.",
+   "formula": "E = -13.6 / n**2",
+   "key_idea": "Energy is inversely proportional to the square of the principal quantum number.",
+   "textbook_ref": "leph204.txt lines 299-300",
+   "question_patterns": [
+    "calculate the energy of the n-th state",
+    "find the energy required to ionize a hydrogen atom from state n",
+    "what is the energy of the first excited state",
+    "determine the energy level for n equals ...",
+    "how much energy is needed to move an electron from n=1 to n=..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute energy",
+     "explain": "calculate energy in eV using -13.6 / n^2",
+     "compute": "energy = -13.6 / (n_level**2)"
+    }
+   ]
+  },
+  {
+   "id": "leph.12.5.1",
+   "title": "Frequency of Emitted Radiation",
+   "section": "12.5",
+   "definition": "The frequency of a photon emitted during an electronic transition between two energy levels in an atom.",
+   "formula": "nu = (E_initial - E_final) / h",
+   "key_idea": "Energy difference between states equals the photon energy.",
+   "textbook_ref": "leph204.txt lines 300-301",
+   "question_patterns": [
+    "calculate the frequency of emitted radiation",
+    "find the frequency of a photon for a transition from n_i to n_f",
+    "what is the frequency of light emitted when an atom jumps from ... to ...",
+    "determine the frequency of the spectral line",
+    "compute the frequency of the photon released"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy difference",
+     "explain": "difference in eV",
+     "compute": "diff = -13.6 * (1 / (ni**2) - 1 / (nf**2))"
+    },
+    {
+     "step": 2,
+     "action": "calculate frequency",
+     "explain": "f = delta_E / h, where h is 4.136e-15 eV s",
+     "compute": "freq = abs(diff) / 4.136e-15"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph204.txt 295",
+   "concept": "leph.12.2.1",
+   "question_type": "compute",
+   "question_pattern": "distance of closest approach for {energy_mev} MeV alpha particle on gold Z={atomic_z}",
+   "extracted_variables": {
+    "energy_mev": 7.7,
+    "atomic_z": 79
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert energy",
+     "compute": "joules = 7.7 * 1.6e-13"
+    },
+    {
+     "step": 2,
+     "action": "compute d",
+     "compute": "dist = (2 * 79 * (1.6e-19**2) * 9e9) / joules"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph204.txt 296",
+   "concept": "leph.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "energy of hydrogen electron in level {n_level}",
+   "extracted_variables": {
+    "n_level": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute energy",
+     "compute": "energy = -13.6 / (2**2)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.3",
+   "source_ref": "leph204.txt 305",
+   "questions": [
+    "A difference of 2.3 eV separates two energy levels. What is the frequency of radiation emitted?"
+   ]
+  },
+  {
+   "id": "ex12.4",
+   "source_ref": "leph204.txt 305",
+   "questions": [
+    "The ground state energy is -13.6 eV. What are the kinetic and potential energies?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

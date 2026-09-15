@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_001",
+   "title": "c11_bio_cbse_17_001",
+   "questions": [
+    {
+     "q": "Name the type of movement exhibited by human leucocytes and macrophages, and identify the cytoskeletal element primarily responsible for it.",
+     "a": "Amoeboid movement; microfilaments (actin filaments). A wrong answer (e.g., \"ciliary movement\" or \"muscular movement\" or \"microtubules\") reveals the student cannot distinguish movement types by cell type or conflates cytoskeletal elements - they may think all cell movement uses the same machinery or confuse amoeboid pseudopodia with cilia/flagella.",
+     "self_check": true
+    },
+    {
+     "q": "The trachea and fallopian tubes both use ciliary movement, but their functions differ. Explain WHY ciliary movement is suited for both dust removal in the trachea and ovum transport in the fallopian tube, despite these being different physiological tasks.",
+     "a": "Ciliary movement generates directional fluid/mucus flow over epithelial surfaces through coordinated metachronous beating. In the trachea, this moves mucus with trapped particles upward toward the pharynx; in the fallopian tube, it creates a current that sweeps the ovum toward the uterus. The same mechanism (coordinated ciliary beat) serves both because both require unidirectional transport of material across a luminal surface. A wrong answer (e.g., \"cilia push objects directly\" or \"cilia work like muscles\") reveals misunderstanding of cilia as creating fluid currents rather than direct contact pushing, or confusion with muscular peristalsis.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a genetic disorder causing defective dynein arms in cilia. Predict which TWO physiological processes from the following list would be impaired: (a) macrophage migration to infection site, (b) mucus clearance from trachea, (c) ovum transport in fallopian tube, (d) contraction of biceps muscle, (e) peristalsis in intestine. Justify your choices.",
+     "a": "Impaired: (b) mucus clearance from trachea and (c) ovum transport in fallopian tube. Dynein arms power ciliary beating; both processes depend on ciliary movement. Macrophage migration uses amoeboid movement (microfilaments, not dynein). Biceps contraction uses muscular movement (actin-myosin sliding). Intestinal peristalsis uses smooth muscle contraction. A wrong answer including (a), (d), or (e) reveals the student cannot map movement types to specific physiological processes or doesn't know dynein is specific to cilia/flagella.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy requirement and speed of response for amoeboid movement versus muscular movement. Which would be faster for a rapid escape response, and why?",
+     "a": "Muscular movement is faster for rapid escape. Muscular movement uses pre-assembled sarcomeres with high ATP turnover via myosin ATPase, enabling millisecond contraction. Amoeboid movement requires cytoplasmic streaming, pseudopod extension, and adhesion cycles - a slower, multi-step process suited for cell migration over minutes/hours. A wrong answer (e.g., \"amoeboid is faster because it's simpler\") reveals confusion between structural simplicity and kinetic speed, or ignorance of the specialized contractile apparatus in muscle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All three movement types - amoeboid, ciliary, and muscular - ultimately depend on actin filaments.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Provide evidence for each movement type.",
+     "a": "Partially correct. Amoeboid: YES - microfilaments (actin) drive pseudopodia. Muscular: YES - thin (actin) filaments slide over thick (myosin) filaments. Ciliary: NO - cilia are microtubule-based (9+2 axoneme with dynein arms), not actin-based. The claim fails for ciliary movement. A wrong evaluation (e.g., \"fully correct because all cytoskeleton\") reveals the student conflates all cytoskeletal elements or doesn't know cilia are microtubule-based while microfilaments are actin-based.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopy-based experiment to distinguish between amoeboid and ciliary movement in a mixed cell sample containing macrophages and ciliated epithelial cells. Specify what you would observe, the expected motion pattern for each, and how you would confirm the cell type.",
+     "a": "Place sample on a slide, observe under phase-contrast microscopy at 400x. Amoeboid cells (macrophages): irregular shape, slow (µm/min) extension/retraction of blunt pseudopodia, cytoplasmic streaming visible inside. Ciliated epithelial cells: fixed position, regular shape, rapid (10-20 Hz) coordinated waving of hair-like cilia at free surface. Confirm by adding India ink particles: macrophages engulf particles (phagocytosis); ciliated cells move particles directionally across surface without engulfing. A poor answer (e.g., \"both move so hard to tell\") reveals inability to recognize distinct motion signatures: continuous shape change vs. fixed-cell surface beating.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

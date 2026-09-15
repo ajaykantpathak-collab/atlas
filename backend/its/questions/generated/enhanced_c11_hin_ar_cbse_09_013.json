@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_09_013",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_09_013",
+   "title": "c11_hin_ar_cbse_09_013",
+   "questions": [
+    {
+     "q": "What is the precise difference between 'inferential comprehension' (node 012) and 'critical interpretation' in the context of analyzing Dadu's poem?",
+     "a": "Inferential comprehension deduces unstated factual information from textual clues (e.g., \"Dadu criticizes caste because he mentions 'broken pots'\"). Critical interpretation evaluates the *significance* of authorial choices—why the potter metaphor, why Braj Bhasha, how the rhythm enacts unity—and constructs an arguable claim about the poem's ideological work. A wrong answer conflates the two, treating interpretation as mere fact-retrieval, revealing the student hasn't grasped that critical thinking requires *evaluative judgment*, not just gap-filling.",
+     "self_check": true
+    },
+    {
+     "q": "In stanza 2, Dadu writes: \"टूटे घट भरे न जायँ, भरे घट टूटे नाहिं\" (Broken pots don't fill; filled pots don't break). A student says: \"This means poor people stay poor and rich stay rich—Dadu accepts inequality.\" Why is this a misreading of the *function* of paradox in Bhakti poetry?",
+     "a": "The paradox functions as *social inversion*, not endorsement: the \"broken pot\" (marginalized) *can* be filled by divine grace, while the \"filled pot\" (ritualistically proud) *will* break under ego. Bhakti poetry routinely uses paradox to destabilize hierarchy. A wrong answer treats the line as literal sociology, missing that poetic devices in this tradition *subvert* surface meaning—revealing the student reads metaphor as reportage, not as ideological strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'intertextual resonance' to Dadu's line \"सब घट में एक ही ज्योति\" (One light in all pots). Identify one specific Upanishadic or Nirguna Bhakti precedent and explain how Dadu *transforms* it for a 15th-century artisan audience.",
+     "a": "The Katha Upanishad (2.2.11) states \"एकं ज्योतिर् बहुधा भवति\" (One light becomes many). Dadu transforms this abstract metaphysics into material language: \"घट\" (earthen pot) replaces \"देह\" (body), grounding the divine in the potter's workshop. For artisans, the pot is livelihood, identity, caste-marker—Dadu re-signifies it as vessel of the divine, democratizing the Upanishadic insight. A weak answer cites the Upanishad but misses the *materialist translation*—showing inability to trace how form adapts to audience.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poem's *rhythmic structure* (चौपाई-दोहा cadence) performs the theme of 'unity in diversity.' Reference two specific metrical features and their semantic effect.",
+     "a": "The chaupai (4-line, 16-matra) builds collective momentum—like workers singing in unison—while the doha (2-line, 24-matra) delivers the philosophical punch, mimicking the shift from communal labor to individual realization. The caesura after the 8th matra in each chaupai line creates a \"call-response\" rhythm, enacting dialogue between castes. A superficial answer notes \"it has rhythm\" without linking meter to meaning—revealing the student treats form as decoration, not as *enacted argument*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Dadu's poem is primarily a spiritual text; its social critique is incidental.\" Defend or refute using three textual strategies Dadu employs to fuse the spiritual and the social.",
+     "a": "Refute. Three fusion strategies: (1) **Vocabulary slippage**—\"घट\" means both 'body' (spiritual) and 'caste-occupation' (social); (2) **Communal voice**—\"हम\" (we) in stanza 1 includes the listener in a collective that transcends varna; (3) **Ritual inversion**—\"पूजा-पाठ\" (worship) is dismissed not as false but as *insufficient without social equity*, making spirituality *conditional* on justice. A wrong answer separates the two realms, missing that in Nirguna Bhakti, the spiritual *is* the social—revealing a modern secular-religious binary imposed on a pre-modern text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi couplet (दोहा) in Dadu's voice that extends his critique to a 21st-century inequality (e.g., digital divide, gender wage gap, climate injustice). Use one metaphor from the original poem and one contemporary image.",
+     "a": "Example: \"टूटे घट अब स्क्रीन बने, ज्योति वही अँधेर में / डेटा के ठेकेदारों ने, बाँट दई अँधेर में\" (Broken pots become screens now, the same light in darkness / Data-contractors have distributed darkness). Criteria: retains \"घट/ज्योति\" metaphor, introduces modern agent (\"डेटा के ठेकेदार\"), maintains doha meter (24 matra), and *extends* rather than repeats Dadu's logic. A poor answer writes a slogan without metaphorical continuity—showing inability to transfer analytical insight into creative synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

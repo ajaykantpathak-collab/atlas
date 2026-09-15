@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_3",
+   "title": "c9_eco_ch1_3",
+   "questions": [
+    {
+     "q": "Define opportunity cost in your own words and give a one-sentence example from daily life.",
+     "a": "Correct answer: Opportunity cost is the value of the next best alternative given up when a choice is made. Example: If I spend an hour studying economics instead of playing cricket, the opportunity cost is the enjoyment and skill improvement from cricket. A wrong answer that defines it as \"the money spent\" reveals the student confuses explicit monetary cost with the broader economic concept of forgone alternatives.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul has two job offers: Job A pays ₹25,000/month with flexible hours; Job B pays ₹30,000/month with rigid hours. He chooses Job A. Explain why the opportunity cost of this choice is NOT ₹5,000.",
+     "a": "Correct answer: Opportunity cost is the value of the next best alternative, which includes both monetary and non-monetary aspects. Job B offers ₹5,000 more but rigid hours; the opportunity cost of choosing Job A is the ₹5,000 forgone PLUS the value of whatever benefits rigid hours might have provided (e.g., structure, overtime pay). A wrong answer stating the opportunity cost is ₹5,000 reveals the student thinks opportunity cost is only the explicit monetary difference, ignoring non-monetary trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer has 1 hectare of land. He can grow wheat (yield 30 quintals, selling price ₹2,200/quintal) or rice (yield 25 quintals, selling price ₹2,800/quintal). Cultivation costs are ₹15,000 for wheat and ₹18,000 for rice. Calculate the opportunity cost of choosing wheat over rice.",
+     "a": "Step 1: Calculate net revenue from wheat = (30 × ₹2,200) - ₹15,000 = ₹66,000 - ₹15,000 = ₹51,000.\nStep 2: Calculate net revenue from rice = (25 × ₹2,800) - ₹18,000 = ₹70,000 - ₹18,000 = ₹52,000.\nStep 3: Identify next best alternative: rice gives ₹52,000 net revenue.\nStep 4: Opportunity cost of choosing wheat = net revenue from rice = ₹52,000.\nStep 5: Economic profit from wheat = ₹51,000 - ₹52,000 = -₹1,000 (a loss in economic terms).\nWrong answer of ₹1,000 (difference) reveals confusion between opportunity cost and the difference in net returns; opportunity cost is the full value of the forgone alternative, not the difference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two students: Priya spends 3 hours daily on tuition earning ₹500/hour as a tutor; Rohan spends 3 hours daily studying for exams, expecting a scholarship worth ₹50,000 if he ranks top 10%. Analyze whose opportunity cost is higher and why it cannot be directly compared without additional assumptions.",
+     "a": "Correct answer: Priya's opportunity cost is the study time forgone, which could lead to a scholarship. Rohan's opportunity cost is the tutoring income forgone (3 hours × ₹500 × days). Direct comparison requires knowing the probability of Rohan getting the scholarship and the number of days. A wrong answer that says \"Priya's opportunity cost is higher because she earns money\" reveals the student thinks only explicit monetary earnings count as opportunity cost, ignoring expected future benefits.",
+     "self_check": true
+    },
+    {
+     "q": "The government allocates ₹1,000 crore to build a new highway instead of upgrading 500 rural health centers. Evaluate whether the opportunity cost of the highway is simply the ₹1,000 crore spent, or something broader. Justify with economic reasoning.",
+     "a": "Correct answer: The opportunity cost is the value of the improved healthcare services (lives saved, reduced illness, productivity gains) that the 500 health centers would have provided, not the ₹1,000 crore itself. The money is just the resource used; the real cost is the forgone benefits. A wrong answer focusing on the monetary amount reveals the student confuses financial outlay with economic opportunity cost, a critical error in public policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a personal weekly time-allocation table (sleep, school, study, leisure, chores) and calculate the opportunity cost of increasing study time by 5 hours per week. Explain your valuation method for the forgone activities.",
+     "a": "A good answer: Table shows 168 hours/week. Increasing study by 5 hours means reducing leisure by 3 hours and chores by 2 hours. Opportunity cost = value of 3 hours leisure (e.g., mental refreshment, socializing) + value of 2 hours chores (e.g., ₹200 if outsourced). Valuation method explained (subjective for leisure, market price for chores). A poor answer that only lists hours without valuing the alternatives reveals the student cannot apply the concept to non-monetary, time-based choices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

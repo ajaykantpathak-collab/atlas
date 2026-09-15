@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_003",
+   "title": "c11_biotech_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the defining covalent linkage in the primary structure of a protein, and between which two functional groups does it form?",
+     "a": "The peptide bond (amide bond) forms between the α-carboxyl group of one amino acid and the α-amino group of the next, with loss of water. A wrong answer (e.g., \"hydrogen bond\" or \"disulfide bond\") reveals confusion between covalent backbone linkages and non-covalent/higher-level interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the peptide bond is planar and how this planarity influences the φ (phi) and ψ (psi) dihedral angles in a polypeptide chain.",
+     "a": "The peptide bond has ~40% double-bond character due to resonance between the carbonyl oxygen and amide nitrogen, making it rigid and planar. This restricts rotation to the adjacent Cα–N (φ) and Cα–C (ψ) bonds. A wrong answer (e.g., \"peptide bond rotates freely\") indicates failure to grasp resonance stabilization and its conformational consequences.",
+     "self_check": true
+    },
+    {
+     "q": "A polypeptide segment has the sequence: Lys-Ala-Glu-Cys-Val. Identify the N-terminal and C-terminal residues, and write the conventional name for this pentapeptide using the -yl suffix rule.",
+     "a": "N-terminal: Lysine; C-terminal: Valine. Name: Lysyl-alanyl-glutamyl-cysteinyl-valine. Steps: (1) Identify free amino group (Lys) and free carboxyl group (Val). (2) Apply -yl suffix to all except C-terminal residue. (3) Use three-letter codes with hyphens. A wrong name (e.g., starting with Val) reveals misunderstanding of polypeptide polarity and naming convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hydrogen bonding patterns in an α-helix and an anti-parallel β-sheet. How does the geometry of hydrogen bonds differ between these two secondary structures?",
+     "a": "In α-helix: H-bonds form between CO of residue i and NH of residue i+4, parallel to helix axis, intrachain. In anti-parallel β-sheet: H-bonds form between adjacent strands running opposite directions, perpendicular to strand axis, inter-strand (can be intrachain if loop connects them). A wrong answer (e.g., \"both have same H-bond pattern\") shows inability to analyze spatial arrangement of backbone atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Disulfide bonds are the primary stabilizing force in the tertiary structure of all globular proteins.\" Justify your answer with specific examples.",
+     "a": "False. Disulfide bonds are important covalent cross-links in *some* extracellular proteins (e.g., insulin, antibodies) but many globular proteins (e.g., myoglobin, most cytosolic enzymes) lack disulfide bonds and rely on hydrophobic interactions, hydrogen bonds, and ionic bonds. A student agreeing reveals overgeneralization from textbook examples like insulin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 40-residue protein that would form a stable homodimer (quaternary structure) but each monomer remains unstructured in isolation. Describe the sequence features you would include at each structural level to achieve this.",
+     "a": "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface; C-terminal 20 residues with charged/polar residues (Lys, Glu, Gln) for solubility. Secondary: Monomer has low helical propensity (high Pro/Gly) to prevent folding alone. Tertiary: No stable tertiary fold in monomer. Quaternary: Hydrophobic patches from two monomers associate to form a stable dimer interface, burying nonpolar surface area. A poor answer ignores the coupling between levels (e.g., designing a stable monomer fold) or omits specific residue-level rationale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

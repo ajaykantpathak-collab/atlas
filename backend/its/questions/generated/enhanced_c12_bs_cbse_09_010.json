@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_010",
+   "title": "c12_bs_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define financial leverage and state its two common mathematical expressions used in Class 12 NCERT.",
+     "a": "Financial leverage is the proportion of debt in the capital structure, expressed as D/E (Debt-to-Equity ratio) or D/(D+E) (Debt-to-Total-Capital ratio). A wrong answer (e.g., \"it is the use of fixed assets\" or \"it is EBIT/Interest\") reveals confusion between financial leverage and operating leverage, or between leverage and coverage ratios — a fundamental category error that makes all subsequent EBIT-EPS analysis meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "A company has total capital of ₹100 lakh, of which ₹40 lakh is debt. Its EBIT is ₹20 lakh, interest rate on debt is 12%, and tax rate is 30%. Without calculating EPS, explain whether adding more debt (replacing equity) will increase or decrease EPS, and why.",
+     "a": "RoI = EBIT/Total Capital = 20/100 = 20%. Cost of debt = 12%. Since RoI (20%) > Cost of debt (12%), adding more debt will increase EPS — this is favourable financial leverage. A student who says \"EPS will decrease because interest payments rise\" misunderstands the core mechanism: the *net* effect depends on whether the *return* on borrowed funds exceeds their *cost*. This error shows they are looking at only one side of the equation (the cost) and ignoring the return side.",
+     "self_check": true
+    },
+    {
+     "q": "Company P has EBIT = ₹10 lakh, Total Funds = ₹50 lakh, Tax = 30%. It considers three capital structures: (I) 0% debt, (II) 40% debt, (III) 60% debt. Debt carries 10% interest. Equity face value = ₹10. Compute EPS for all three situations and state whether leverage is favourable.",
+     "a": "**Situation I (0% debt):** Interest = 0; EBT = 10,00,000; Tax = 3,00,000; EAT = 7,00,000; Shares = 5,00,000; EPS = ₹1.40\n**Situation II (40% debt = ₹20 lakh):** Interest = 2,00,000; EBT = 8,00,000; Tax = 2,40,000; EAT = 5,60,000; Shares = 3,00,000; EPS = ₹1.87\n**Situation III (60% debt = ₹30 lakh):** Interest = 3,00,000; EBT = 7,00,000; Tax = 2,10,000; EAT = 4,90,000; Shares = 2,00,000; EPS = ₹2.45\nRoI = 10/50 = 20% > 10% (cost of debt) → Favourable leverage. A student who gets EPS decreasing with debt has likely miscalculated number of shares (not reducing equity when debt increases) or applied tax on EBIT instead of EBT — a procedural error that reverses the conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Company A (EBIT = ₹15 lakh, Total Capital = ₹60 lakh, Debt = ₹20 lakh @ 12%) and Company B (EBIT = ₹8 lakh, Total Capital = ₹60 lakh, Debt = ₹20 lakh @ 12%). Tax = 30% for both. Which company benefits from its current leverage? Which would be harmed by *increasing* debt further? Explain using RoI vs Cost of Debt.",
+     "a": "Company A: RoI = 15/60 = 25% > 12% → Current leverage is favourable; increasing debt further would continue to raise EPS (until RoI drops or cost of debt rises). Company B: RoI = 8/60 = 13.33% > 12% → Current leverage is *marginally* favourable, but increasing debt further is risky because the cushion (RoI - Cost of Debt) is only 1.33%. A student who says \"both benefit equally because both have RoI > 12%\" misses the nuance of *margin of safety* — a critical concept for board \"analyse\" questions and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "\"Trading on Equity is always beneficial for shareholders because it increases EPS.\" Critically evaluate this statement with reference to the RoI-Cost of Debt relationship and financial risk.",
+     "a": "The statement is false. Trading on Equity increases EPS *only when* RoI > Cost of Debt (favourable leverage). When RoI < Cost of Debt (unfavourable leverage), it *decreases* EPS (as in NCERT Company Y example). Even when favourable, higher debt increases financial risk (obligatory interest/principal payments) and may raise the cost of equity due to higher perceived risk, eventually reducing share price despite higher EPS. A student who agrees with the statement has memorised the definition of Trading on Equity without understanding its *conditional* nature — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-case (with numbers) where a company has RoI = 15%, Cost of Debt = 12%, Tax = 30%, Total Capital = ₹80 lakh. Show three leverage scenarios (0%, 30%, 50% debt) and prove that EPS increases with leverage. Then, change *only* the RoI to 10% (keeping everything else same) and show how the conclusion reverses.",
+     "a": "**Case 1 (RoI=15%):** EBIT = 12 lakh. Sit I: EPS=₹1.05; Sit II (30% debt=24L): EPS=₹1.22; Sit III (50% debt=40L): EPS=₹1.46 → EPS rises.\n**Case 2 (RoI=10%):** EBIT = 8 lakh. Sit I: EPS=₹0.70; Sit II: EPS=₹0.63; Sit III: EPS=₹0.56 → EPS falls.\nA poor answer shows identical EPS trends in both cases, revealing the student cannot dynamically apply the RoI > Cost of Debt condition — they are likely plugging numbers into a memorised table without grasping the *driver* of the trend.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

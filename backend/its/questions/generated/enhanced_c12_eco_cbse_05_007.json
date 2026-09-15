@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_007",
+   "title": "c12_eco_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define 'price floor' and state the necessary condition for it to be 'binding' in a competitive market.",
+     "a": "A price floor is a government-imposed minimum legal price. It is **binding** only when the floor price (P_floor) is set **above the market equilibrium price (P*)**. If P_floor ≤ P*, the floor is non-binding — the market simply transacts at P* and the law has no effect. A wrong answer (e.g., \"floor below equilibrium\") reveals confusion with price ceiling or misunderstanding that a floor must be above equilibrium to alter market outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Government of India announces Minimum Support Prices (MSP) for wheat and paddy *before* the sowing season, rather than after harvest.",
+     "a": "MSP is announced **before sowing** to influence farmers' **production decisions** (crop choice, input use, acreage) by providing price certainty. If announced after harvest, it would only affect the *sale* of already-produced output, not the *allocation of resources* across crops. A student who says \"to buy the crop at a fair price\" misses the **incentive/signalling function** of MSP — it is a production signal, not just a procurement price.",
+     "self_check": true
+    },
+    {
+     "q": "In a wheat market, demand is Qd = 1000 - 50P and supply is Qs = 50P - 200 (quantities in lakh tonnes, P in ₹/quintal). The government sets MSP = ₹22/quintal. Calculate: (a) equilibrium price and quantity without intervention; (b) quantity demanded and supplied at MSP; (c) the surplus the government must procure.",
+     "a": "**Step 1:** Equilibrium: Qd = Qs → 1000 - 50P = 50P - 200 → 100P = 1200 → P* = ₹12/quintal. Q* = 1000 - 50(12) = 400 lakh tonnes.  \n**Step 2:** At MSP = ₹22: Qd = 1000 - 50(22) = 1000 - 1100 = -100 → **0** (quantity demanded cannot be negative, so Qd = 0). Qs = 50(22) - 200 = 1100 - 200 = 900 lakh tonnes.  \n**Step 3:** Surplus = Qs - Qd = 900 - 0 = **900 lakh tonnes**.  \nA wrong answer (e.g., negative Qd taken as -100, or using P* instead of MSP) reveals algebraic errors or failure to impose non-negativity constraint on quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of a binding price floor on: (i) consumer surplus, (ii) producer surplus, (iii) total surplus (social welfare). Use a diagram to support your answer.",
+     "a": "**Consumer surplus decreases** (consumers face higher price and buy less). **Producer surplus may increase or decrease** depending on whether the government procures the entire surplus. If the government buys all surplus at MSP, producers sell Qs at P_floor → producer surplus expands (area above supply curve up to P_floor, from 0 to Qs). If government does *not* procure, only Qd is sold → producers may be worse off. **Total surplus (social welfare) decreases** due to **deadweight loss** — the loss from mutually beneficial transactions between Qd and Q* that no longer occur. A student who claims \"producers always gain\" ignores the case where unsold surplus rots or government procurement is limited.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"MSP ensures food security for India but creates a fiscal burden that crowds out public investment in agricultural infrastructure.\" Discuss with reference to procurement, storage, and opportunity cost.",
+     "a": "**Valid points:** MSP + open-ended procurement (especially wheat/rice) has built massive buffer stocks (often >2× buffer norms), ensuring PDS supply during COVID/droughts → **food security achieved**. However, food subsidy bill (₹2.1 lakh crore in 2023-24 BE) and rising MSP without corresponding yield growth strain the budget. High MSP for water-intensive crops (paddy in Punjab) distorts cropping pattern, depletes groundwater, and **crowds out** investment in irrigation, research, diversification (pulses, oilseeds). **Opportunity cost**: every rupee spent on excess procurement/storage is a rupee not spent on rural roads, cold chains, or R&D. A weak answer treats MSP as purely good or purely bad without weighing the trade-off between **consumption security** and **long-term productive capacity**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified MSP policy for a water-scarce region (e.g., Punjab) that: (a) maintains farmer income support, (b) reduces groundwater depletion, (c) limits fiscal cost. Specify the instruments and explain how each addresses the three goals.",
+     "a": "**Proposed policy mix:**  \n1. **Decoupled direct income support** (e.g., ₹/hectare payment independent of crop) → maintains income (a) without incentivising paddy (b), cheaper than procurement (c).  \n2. **MSP only for less water-intensive crops** (maize, pulses, oilseeds) at a premium over paddy MSP → shifts cropping pattern (b), limited procurement keeps fiscal cost low (c).  \n3. **Deficiency payment scheme**: pay farmer the difference between MSP and market price *only for registered area* under alternative crops → caps fiscal exposure (c), no physical procurement/storage needed.  \nA poor answer suggests \"lower MSP for paddy\" alone — which hurts income (a) without alternative support, or \"stop procurement\" — which abandons food security. The key is **decoupling income support from output of a specific water-guzzling crop**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

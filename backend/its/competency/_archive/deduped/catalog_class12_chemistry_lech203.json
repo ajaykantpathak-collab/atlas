@@ -1,0 +1,459 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 203,
+ "chapter_title": "Aldehydes, Ketones and Carboxylic Acids",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lech203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech203.8.1.1.1",
+   "title": "Naming Aldehydes and Ketones in Both Systems",
+   "section": "8.1.1",
+   "definition": "Common aldehyde names swap the -ic of the parent acid for aldehyde and mark positions with Greek letters, while IUPAC names end in -al counted from the aldehyde carbon itself; ketones name their two groups around the C=O in common usage but take -one with lowest-locant numbering in IUPAC.",
+   "formula": "aldehyde_iupac = alkane_stem_with_e_replaced_by_al",
+   "key_idea": "When CHO hangs on a ring the suffix carbaldehyde follows the cycloalkane name, and benzaldehyde is the accepted parent for aromatic members.",
+   "textbook_ref": "lech203.txt section 8.1.1 with Table 8.1 (lines ~120-237)",
+   "question_patterns": [
+    "write the IUPAC name of CH3CH(CH3)CH2CH2CHO",
+    "give both names for the simplest ketone, CH3COCH3",
+    "rename valeraldehyde systematically",
+    "what is the IUPAC name of acrolein, CH2=CHCHO",
+    "draw 4-methylpent-3-en-2-one from its systematic name",
+    "convert the common name acetophenone into its IUPAC form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "find the parent chain through the carbonyl carbon",
+     "explain": "aldehydes force the CHO carbon to be C-1; ketones number from the nearer end"},
+    {"step": 2, "action": "attach -al or -one with locants",
+     "explain": "ring-bound CHO takes carbaldehyde, and common names survive for acetone, acetophenone and benzaldehyde"}
+   ]
+  },
+  {
+   "id": "lech203.8.2.1.1",
+   "title": "Preparation Routes to Aldehydes and Ketones",
+   "section": "8.2.1",
+   "definition": "Primary alcohols yield aldehydes on controlled oxidation or dehydrogenation over hot copper or silver, secondary alcohols give ketones, alkenes cleave to carbonyls by ozonolysis with zinc and water, and only ethyne hydrates to an aldehyde while every other alkyne lands on a ketone with Hg2+ and acid.",
+   "formula": "alkyne_hydration_products = ketone_for_all_but_ethyne",
+   "key_idea": "Aldehyde synthesis leans on stopping oxidations one rung early: PCC, Rosenmund reduction of acyl chlorides, Stephen or DIBAL-H on nitriles, Etard or side-chain chlorination on toluene, and Gatterman-Koch formylation for ring-bound CHO.",
+   "textbook_ref": "lech203.txt sections 8.2.1-8.2.2 with Example 8.1 (lines ~277-370)",
+   "question_patterns": [
+    "in the preparation of carbonyl compounds, which reagent oxidises hexan-1-ol only as far as hexanal",
+    "predict the carbonyl products from ozonolysis of but-2-ene with zinc and water",
+    "what does propyne give on hydration with HgSO4 and H2SO4",
+    "name the reaction that reduces an acyl chloride to an aldehyde over palladium on barium sulphate",
+    "how does toluene become benzaldehyde through chromyl chloride",
+    "give the reagents for the Gatterman-Koch formylation of benzene"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the starting family to the route",
+     "explain": "alcohols, alkenes, alkynes, acyl chlorides, nitriles, esters and alkylbenzenes each have a dedicated entry to C=O"},
+    {"step": 2, "action": "control the oxidation depth",
+     "explain": "mild or selective agents (PCC, Rosenmund, DIBAL-H, CrO2Cl2 complex hydrolysis) freeze the product at the aldehyde stage"}
+   ]
+  },
+  {
+   "id": "lech203.8.2.3.1",
+   "title": "Ketones from Acyl Chlorides, Nitriles and Friedel-Crafts Acylation",
+   "section": "8.2.3",
+   "definition": "Dialkylcadmium, built from cadmium chloride and a Grignard reagent, couples with acyl chlorides to ketones; a nitrile attacked by a Grignard reagent hydrolyses to a ketone; and benzene plus an acid chloride over anhydrous AlCl3 delivers aryl ketones by Friedel-Crafts acylation.",
+   "formula": "friedel_crafts_acylation = aryl_ketone_from_acid_chloride",
+   "key_idea": "Cadmium reagents are softer than Grignards, so they stop at the ketone instead of racing on to tertiary alcohols.",
+   "textbook_ref": "lech203.txt section 8.2.3 (lines ~371-451)",
+   "question_patterns": [
+    "how does benzoyl chloride convert to benzophenone with an organocadmium reagent",
+    "predict the ketone from ethanenitrile plus methylmagnesium bromide then hydrolysis",
+    "write the Friedel-Crafts acylation of benzene with ethanoyl chloride",
+    "why is a dialkylcadmium reagent preferred over a Grignard for acyl chlorides",
+    "state the catalyst that lets an acid chloride attack a benzene ring",
+    "which two reagents build acetophenone from benzene in one step"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pick the carbon nucleophile",
+     "explain": "R2Cd adds once to RCOCl stopping at the ketone; RMgX adds to nitriles giving an imine salt that hydrolyses to C=O"},
+    {"step": 2, "action": "use the Lewis acid for arene routes",
+     "explain": "anhydrous AlCl3 generates the acylium ion that substitutes the ring in Friedel-Crafts acylation"}
+   ]
+  },
+  {
+   "id": "lech203.8.3.1.1",
+   "title": "Boiling Points and Solubility across Carbonyls and Acids",
+   "section": "8.3",
+   "definition": "Dipole-dipole forces put aldehydes and ketones above hydrocarbons and ethers of matching mass but below alcohols, and carboxylic acids boil higher still because paired molecules stay hydrogen-bonded even as dimers in the vapour; water solubility fades as the hydrophobic chain grows.",
+   "formula": "bp_order_same_mass = alkane < ether < aldehyde < alcohol < acid",
+   "key_idea": "Lower members such as methanal and ethanoic acid mix with water in any ratio thanks to hydrogen bonding, while benzoic acid barely dissolves in cold water.",
+   "textbook_ref": "lech203.txt section 8.3 with Example 8.2 and section 8.8 (lines ~454-526, ~1140-1162)",
+   "question_patterns": [
+    "account for dimer formation by carboxylic acid molecules in the vapour phase",
+    "why does propanal boil above methoxyethane of similar mass while acetone boils above propanal",
+    "arrange butanal, butan-1-ol, ethoxyethane and pentane by rising boiling point",
+    "why are carboxylic acids soluble in benzene despite hydrogen bonding",
+    "order CH3CHO, CH3CH2OH, CH3OCH3 and CH3CH2CH3 by boiling point",
+    "explain why the first four carboxylic acids mix with water in all proportions but hexanoic acid does not"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "grade the intermolecular forces",
+     "explain": "dispersion only, then dipole-dipole, then hydrogen bonding decides the boiling ladder"},
+    {"step": 2, "action": "weigh hydrophobic bulk against water bonding",
+     "explain": "small carbonyls and acids hydrogen-bond into water; long chains and benzene rings shut it out"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.1.1",
+   "title": "Nucleophilic Addition and Carbonyl Reactivity Order",
+   "section": "8.4.1",
+   "definition": "The polar C=O invites nucleophiles: attack from above or below the sp2 plane flips carbon to sp3 in a tetrahedral alkoxide that then grabs a proton; aldehydes out-react ketones because one small hydrogen beats two bulky, electron-pushing groups, and resonance-cushioned aryl carbonyls are slower still.",
+   "formula": "reactivity_order = aldehydes > ketones",
+   "key_idea": "Base speeds the HCN addition by feeding cyanide ions, and bisulphite addition crystallises aldehydes cleanly since the equilibrium sits right for them but left for ketones.",
+   "textbook_ref": "lech203.txt section 8.4.1 with Fig 8.2 and Example 8.3 (lines ~530-635)",
+   "question_patterns": [
+    "arrange ethanal, propanal, propanone and butanone by falling reactivity toward HCN",
+    "explain why benzaldehyde adds nucleophiles more slowly than propanal",
+    "describe the two-step mechanism of cyanohydrin formation",
+    "predict the product when acetone meets HCN in base",
+    "how does sodium hydrogensulphite help purify an aldehyde",
+    "why does attack on a carbonyl carbon occur perpendicular to the molecular plane"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "rank steric and electronic crowding",
+     "explain": "fewer, smaller substituents leave the carbonyl carbon more exposed and more positive"},
+    {"step": 2, "action": "follow the addition to the protonation step",
+     "explain": "nucleophile adds first making an alkoxide, then solvent protonates to the neutral addition product"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.1.2",
+   "title": "Acetals, Ketals and Ammonia Derivatives of C=O",
+   "section": "8.4.1",
+   "definition": "One alcohol molecule gives a hemiacetal and a second gives a gem-dialkoxy acetal under dry HCl, ethylene glycol closes cyclic ketals, and H2N-Z reagents condense to C=N derivatives: hydroxylamine gives oximes, hydrazine hydrazones, and 2,4-dinitrophenylhydrazine the coloured solids used to characterise carbonyls.",
+   "formula": "dnp_reagent_product = 2_4_dinitrophenylhydrazone",
+   "key_idea": "Acetals survive base but hydrolyse back to the carbonyl in aqueous mineral acid, which makes them handy protecting groups.",
+   "textbook_ref": "lech203.txt section 8.4.1(d)-(e) with Table 8.2 (lines ~637-699)",
+   "question_patterns": [
+    "which reagent identifies a carbonyl compound as an orange-red precipitate",
+    "trace how ethanol plus dry HCl converts ethanal first to a hemiacetal then an acetal",
+    "name the C=N product formed with hydroxylamine",
+    "what cyclic product arises when a ketone meets ethylene glycol in acid",
+    "write the semicarbazide product of cyclobutanone and name it",
+    "how do you regenerate the parent aldehyde from its acetal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recognise the H2N-Z family",
+     "explain": "Z decides the derivative name: OH gives an oxime, NH2 a hydrazone, ArNO2 hydrazine a 2,4-DNP product"},
+    {"step": 2, "action": "count the alcohol equivalents for acetals",
+     "explain": "two alcohol molecules (or one diol) replace both carbonyl oxygens' role, water leaves each time"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.2.1",
+   "title": "Reductions to Alcohols and to Methylene",
+   "section": "8.4.2",
+   "definition": "NaBH4, LiAlH4 or catalytic hydrogenation drop aldehydes to primary and ketones to secondary alcohols, while Clemmensen (Zn-Hg with concentrated HCl) and Wolff-Kishner (hydrazine then hot alkali in a high-boiling solvent) strip the oxygen entirely, turning C=O into CH2.",
+   "formula": "clemmensen_wolff_kishner_result = carbonyl_reduced_to_ch2",
+   "key_idea": "Choose the medium by functional-group tolerance: acid-stable substrates take Clemmensen, base-stable ones take Wolff-Kishner.",
+   "textbook_ref": "lech203.txt section 8.4.2 (lines ~700-716)",
+   "question_patterns": [
+    "which reagent converts cyclohexanone to cyclohexanol without touching a benzene ring",
+    "name the two reductions that change a carbonyl group into a methylene group",
+    "predict the product of reducing pentanal with LiAlH4 then water",
+    "state the reagents of the Wolff-Kishner reduction",
+    "what does acetophenone give after zinc amalgam and concentrated HCl",
+    "which mild hydride reagent is safe for reducing just an aldehyde group"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "decide the target depth",
+     "explain": "hydride or hydrogenation stops at the alcohol; Clemmensen or Wolff-Kishner digs down to CH2"},
+    {"step": 2, "action": "read the substrate tolerance",
+     "explain": "acid-labile groups forbid Clemmensen while base-labile ones forbid Wolff-Kishner"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.3.1",
+   "title": "Tollens and Fehling Tests to Catch Aldehydes",
+   "section": "8.4.3",
+   "definition": "Mild oxidants separate aldehydes from ketones: warming with ammoniacal silver nitrate plates a bright silver mirror, and Fehling's A-B mixture throws a reddish brown precipitate on heating with an aliphatic aldehyde, both oxidising the aldehyde to its carboxylate while ketones sit still.",
+   "formula": "fehling_positive = aliphatic_aldehyde_only",
+   "key_idea": "Aromatic aldehydes pass Tollens but fail Fehling, so the two tests together also separate aliphatic from aromatic aldehydes.",
+   "textbook_ref": "lech203.txt section 8.4.3(i)-(ii) (lines ~717-748)",
+   "question_patterns": [
+    "what observation marks a positive Tollens test and why",
+    "which compounds in a given list respond to Fehling solution",
+    "distinguish propanal from propanone with one chemical test",
+    "why does benzaldehyde give a silver mirror but no red precipitate with Fehling",
+    "state the composition of Fehling solutions A and B",
+    "which test separates ethanal from benzaldehyde"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "warm the sample with the mild oxidant",
+     "explain": "Ag+ in ammonia or Cu2+ tartrate complex is gentle enough to oxidise only aldehydes"},
+    {"step": 2, "action": "read the metal deposit",
+     "explain": "silver coats the tube as a mirror; Cu2O settles as a reddish brown solid"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.3.2",
+   "title": "Haloform Reaction Carbon Accounting",
+   "section": "8.4.3",
+   "definition": "Methyl ketones oxidised by sodium hypohalite lose their methyl group as haloform, so the sodium carboxylate that survives carries exactly one carbon fewer than the starting carbonyl compound.",
+   "formula": "acid_carbons = ketone_carbons - 1",
+   "key_idea": "A positive iodoform test flags any CH3CO- group (or a CH3CH(OH)- that oxidises to one), and the C=C of an unsaturated ketone survives the reaction untouched.",
+   "textbook_ref": "lech203.txt section 8.4.3(iii), haloform and iodoform (lines ~781-799)",
+   "question_patterns": [
+    "butanone has 4 carbons; how many carbons sit in the sodium carboxylate after iodoform oxidation",
+    "a methyl ketone with 8 carbons undergoes the haloform reaction; count the carbons of the acid salt formed",
+    "predict the carbon count of the carboxylate from iodoform oxidation of a 6-carbon methyl ketone",
+    "acetone contains 3 carbons; how many remain in the acetate ion after hypoiodite oxidation",
+    "how many carbons does the haloform by-product carry when a 5-carbon methyl ketone is oxidised",
+    "determine the acid salt carbon count when pinacolone-type methyl ketones of known size are hypohalited"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "drop one carbon for the haloform methyl",
+     "explain": "the CH3CO- fragment loses its methyl as CHI3, so the carboxylate keeps everything else",
+     "compute": "acid_carbons = ketone_carbons - 1"}
+   ]
+  },
+  {
+   "id": "lech203.8.4.4.1",
+   "title": "Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro",
+   "section": "8.4.4",
+   "definition": "Carbonyls owning at least one alpha hydrogen enolise under dilute alkali and couple into beta-hydroxy aldehydes or ketols that dehydrate to alpha,beta-unsaturated products (aldol condensation), while aldehydes stripped of alpha hydrogens instead disproportionate in concentrated alkali, one molecule becoming an alcohol and another an acid salt (Cannizzaro).",
+   "formula": "cannizzaro_requirement = no_alpha_hydrogen",
+   "key_idea": "Cross aldol between two different enolisable partners scatters four products, which is why it is planned only when one partner cannot enolise.",
+   "textbook_ref": "lech203.txt sections 8.4.4(i)-(ii) and 8.4.5(i) (lines ~804-845)",
+   "question_patterns": [
+    "which of methanal, 2-methylpentanal, benzaldehyde and cyclohexanone undergo aldol condensation",
+    "predict the aldol product of ethanal with dilute NaOH followed by heating",
+    "explain why benzaldehyde gives the Cannizzaro reaction but acetaldehyde does not",
+    "what mixture arises from a cross aldol of ethanal and propanal",
+    "state the oxidation and reduction halves of the Cannizzaro reaction",
+    "does 2,2-dimethylbutanal aldolise or disproportionate in alkali"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "hunt for alpha hydrogens",
+     "explain": "their presence opens the aldol route through an enolate; their absence forces Cannizzaro disproportionation"},
+    {"step": 2, "action": "match the alkali strength",
+     "explain": "dilute alkali catalyses aldol coupling; concentrated alkali drives the hydride transfer of Cannizzaro"}
+   ]
+  },
+  {
+   "id": "lech203.8.6.1.1",
+   "title": "Naming Carboxylic Acids and the Carboxyl Structure",
+   "section": "8.6.1",
+   "definition": "IUPAC names swap the alkane -e for -oic acid counting the carboxyl carbon as C-1, multiply with dicarboxylic or tricarboxylic acid markers, and ring acids use carboxylic acid or benzoic acid; the carboxyl carbon itself is less electrophilic than a plain carbonyl because resonance shares the charge with the hydroxyl oxygen.",
+   "formula": "acid_iupac = alkane_stem_with_e_replaced_by_oic_acid",
+   "key_idea": "Common names remember sources: formic from ants, acetic from vinegar, butyric from rancid butter.",
+   "textbook_ref": "lech203.txt sections 8.6.1-8.6.2 with Table 8.3 (lines ~940-1001)",
+   "question_patterns": [
+    "write the IUPAC name of the dicarboxylic acid HOOC-CH2-COOH",
+    "give the systematic name for the carboxylic acid called isobutyric acid",
+    "what IUPAC name corresponds to phthalic acid",
+    "draw the structure of 3-bromo-4-phenylpentanoic acid",
+    "rename CH3CH2COOH in both naming systems",
+    "explain why the carboxyl carbon is less reactive toward nucleophiles than a ketone carbon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the carboxyl carbon as position one",
+     "explain": "the chain name ends in -oic acid and extra COOH groups take di- or tri- markers with locants"},
+    {"step": 2, "action": "note the resonance damping",
+     "explain": "the OH oxygen donates into C=O, lowering the electrophilicity that a ketone carbon shows"}
+   ]
+  },
+  {
+   "id": "lech203.8.7.1.1",
+   "title": "Ascending the Series by One Carbon",
+   "section": "8.7",
+   "definition": "Both carbonation routes climb one rung: a Grignard reagent poured onto dry ice adds the carboxyl carbon, and a nitrile hydrolysis keeps the new carbon too, so an alkyl halide of n carbons becomes an acid of n+1 carbons; the first hop swaps the halide for magnesium without changing the count.",
+   "formula": "acid_carbons = halide_carbons + 1",
+   "key_idea": "Nitriles themselves come from alkyl halides plus cyanide, which is exactly the extra carbon that hydrolysis later reveals as COOH.",
+   "textbook_ref": "lech203.txt sections 8.7(3)-(4), nitrile hydrolysis and Grignard carbonation (lines ~1063-1082)",
+   "question_patterns": [
+    "bromoethane has 2 carbons; how many carbons does the acid carry after Grignard carbonation and acidification",
+    "a 3-carbon alkyl chloride goes through cyanide then hydrolysis; count the carbons of the product acid",
+    "predict the acid carbon count when 1-chloropropane is converted by magnesium, dry ice and acid",
+    "how many extra carbons does the Grignard carbonation route add to an alkyl halide",
+    "ethanenitrile hydrolyses completely; relate its carbon count to the acid formed",
+    "determine the acid size obtained from a 5-carbon alkyl bromide via the nitrile route"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "swap the halide for magnesium",
+     "explain": "the alkyl group transfers to Mg with its carbon count unchanged",
+     "compute": "grignard_carbons = halide_carbons"},
+    {"step": 2, "action": "add the carboxyl carbon",
+     "explain": "carbon dioxide (or the nitrile carbon) contributes exactly one more carbon before acidification",
+     "compute": "acid_carbons = grignard_carbons + 1"}
+   ]
+  },
+  {
+   "id": "lech203.8.9.1.1",
+   "title": "Acidity of Carboxylic Acids and Substituent Effects",
+   "section": "8.9.1",
+   "definition": "Two equivalent resonance structures park the negative charge on oxygens in the carboxylate ion, so carboxylic acids beat phenols and alcohols in acidity; electron-withdrawing substituents strengthen the acid and electron donors weaken it, and effervescence with bicarbonate unmasks the COOH group.",
+   "formula": "ewg_order_acidity = ph < i < br < cl < f < cn < no2 < cf3",
+   "key_idea": "Trifluoroacetic acid tops the family while formic acid beats acetic, and distance matters: alpha chlorine helps far more than gamma chlorine.",
+   "textbook_ref": "lech203.txt section 8.9.1 with Ka data and Intext 8.8 (lines ~1163-1273)",
+   "question_patterns": [
+    "arrange CH3CH2CH(Br)COOH, CH3CH(Br)CH2COOH, (CH3)2CHCOOH and CH3CH2CH2COOH by acid strength",
+    "order benzoic acid, 4-nitrobenzoic acid, 3,4-dinitrobenzoic acid and 4-methoxybenzoic acid by acidity",
+    "why does a carboxylic acid release carbon dioxide with sodium bicarbonate",
+    "explain why trifluoroacetic acid is the strongest of the common carboxylic acids",
+    "compare the acid strengths of formic acid and acetic acid with reasons",
+    "which is stronger, chloroacetic acid or 3-chloropropanoic acid, and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "stabilise or destabilise the anion",
+     "explain": "inductive withdrawal spreads the negative charge and raises Ka; alkyl donation concentrates it"},
+    {"step": 2, "action": "apply the distance and position rules",
+     "explain": "effects decay along the chain, and para nitro helps benzoic acid while para methoxy hinders it"}
+   ]
+  },
+  {
+   "id": "lech203.8.9.2.1",
+   "title": "Reactions of the Carboxyl Group: Esters, Acyl Chlorides, Amides, Reduction and Decarboxylation",
+   "section": "8.9.2",
+   "definition": "The OH side of COOH swaps partners readily: mineral acid esterifies with alcohols (water must leave to push equilibrium), PCl5 or SOCl2 installs chlorine, ammonia first salts then heats to an amide; LiAlH4 or diborane reduces the whole group to a primary alcohol, and soda-lime decarboxylation or Kolbe electrolysis of salts clips or doubles the carbon skeleton.",
+   "formula": "decarboxylation_product = alkane_shorter_by_one_carbon",
+   "key_idea": "Diborane is the gentler reducer because it leaves esters, nitro and halo groups alone, and NaBH4 cannot touch the carboxyl group at all.",
+   "textbook_ref": "lech203.txt sections 8.9.2-8.9.4 with HVZ (lines ~1293-1353)",
+   "question_patterns": [
+    "why is water removed as it forms during Fischer esterification",
+    "which chlorinating agent gives a clean acid chloride and why",
+    "write the steps from ethanoic acid to ethanamide",
+    "state the products when sodium ethanoate is heated with soda lime",
+    "what does diborane reduce benzoic acid to without touching an ester group",
+    "describe the Hell-Volhard-Zelinsky halogenation and its positional selectivity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "replace or strip the hydroxyl",
+     "explain": "acid-catalysed esterification, PCl5 or SOCl2 substitution, and ammonium salt dehydration each rewrite the C-OH bond"},
+    {"step": 2, "action": "restructure the chain when needed",
+     "explain": "LiAlH4 or B2H6 reduce COOH to CH2OH; hot soda-lime or electrolysis of salts removes or doubles carbons; red phosphorus plus halogen attacks the alpha position"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lech203_1",
+   "source_ref": "lech203.txt section 8.4.3(iii), haloform carbon loss",
+   "concept": "lech203.8.4.3.2",
+   "question_type": "haloform_carbon_count",
+   "question_pattern": "Butanone, a 4-carbon methyl ketone, is oxidised by sodium hypoiodite. How many carbons does the sodium carboxylate keep?",
+   "extracted_variables": {"ketone_carbons": 4},
+   "solution_template": [
+    {"step": 1, "action": "drop one carbon for the haloform methyl", "explain": "the methyl group leaves as iodoform", "compute": "acid_carbons = ketone_carbons - 1"}
+   ]
+  },
+  {
+   "id": "we_lech203_2",
+   "source_ref": "lech203.txt section 8.4.3(iii), iodoform of aryl methyl ketone",
+   "concept": "lech203.8.4.3.2",
+   "question_type": "haloform_carbon_count",
+   "question_pattern": "Acetophenone, an 8-carbon methyl ketone, undergoes the haloform reaction. Count the carbons of the resulting benzoate salt.",
+   "extracted_variables": {"ketone_carbons": 8},
+   "solution_template": [
+    {"step": 1, "action": "drop one carbon for the haloform methyl", "explain": "8 carbons minus the CH3 group gives the carboxylate size", "compute": "acid_carbons = ketone_carbons - 1"}
+   ]
+  },
+  {
+   "id": "we_lech203_3",
+   "source_ref": "lech203.txt section 8.7(4), Grignard carbonation",
+   "concept": "lech203.8.7.1.1",
+   "question_type": "ascending_series_carbon_count",
+   "question_pattern": "Bromoethane is converted through magnesium, dry ice and acid hydrolysis. How many carbons does the final acid carry?",
+   "extracted_variables": {"halide_carbons": 2},
+   "solution_template": [
+    {"step": 1, "action": "swap the halide for magnesium", "explain": "the ethyl group transfers unchanged", "compute": "grignard_carbons = halide_carbons"},
+    {"step": 2, "action": "add the carboxyl carbon", "explain": "carbon dioxide contributes one carbon", "compute": "acid_carbons = grignard_carbons + 1"}
+   ]
+  },
+  {
+   "id": "we_lech203_4",
+   "source_ref": "lech203.txt section 8.7(3), nitrile hydrolysis route",
+   "concept": "lech203.8.7.1.1",
+   "question_type": "ascending_series_carbon_count",
+   "question_pattern": "A 3-carbon alkyl chloride is turned into its nitrile and hydrolysed completely. Determine the carbon count of the acid produced.",
+   "extracted_variables": {"halide_carbons": 3},
+   "solution_template": [
+    {"step": 1, "action": "swap the halide for magnesium", "explain": "organometallic formation keeps the carbon count", "compute": "grignard_carbons = halide_carbons"},
+    {"step": 2, "action": "add the carboxyl carbon", "explain": "the nitrile carbon becomes COOH", "compute": "acid_carbons = grignard_carbons + 1"}
+   ]
+  },
+  {
+   "id": "we_lech203_5",
+   "source_ref": "lech203.txt section 8.9.3(2), Kolbe electrolysis",
+   "concept": "lech203.8.9.2.1",
+   "question_type": "kolbe_electrolysis_carbon_count",
+   "question_pattern": "Electrolysis of aqueous sodium ethanoate liberates a hydrocarbon at the anode. How many carbons does it contain?",
+   "extracted_variables": {"alkyl_carbons": 1},
+   "solution_template": [
+    {"step": 1, "action": "couple two alkyl radicals", "explain": "the alkyl part doubles when two carboxylates lose CO2 and join", "compute": "alkane_carbons = 2 * alkyl_carbons"}
+   ]
+  },
+  {
+   "id": "we_lech203_6",
+   "source_ref": "lech203.txt section 8.9.3(2), Kolbe electrolysis doubling",
+   "concept": "lech203.8.9.2.1",
+   "question_type": "kolbe_electrolysis_carbon_count",
+   "question_pattern": "Sodium propanoate solution is electrolysed and the anode gas collected. Determine its carbon count.",
+   "extracted_variables": {"alkyl_carbons": 2},
+   "solution_template": [
+    {"step": 1, "action": "couple two alkyl radicals", "explain": "two ethyl radicals join to a 4-carbon alkane", "compute": "alkane_carbons = 2 * alkyl_carbons"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lech203_8_1_to_8_5",
+   "source_ref": "lech203.txt end-of-chapter exercises 8.1-8.5",
+   "questions": [
+    "Define cyanohydrin, acetal, semicarbazone, aldol, hemiacetal, oxime, ketal, imine, 2,4-DNP derivative and Schiff base with one example reaction each.",
+    "Write IUPAC names for seven given aldehydes, ketones and acids including branched and chlorinated chains.",
+    "Draw structures for named compounds from 3-methylbutanal to hex-2-en-4-ynoic acid.",
+    "Sketch six carbonyl derivatives including the 2,4-dinitrophenylhydrazone of benzaldehyde and the ethylene ketal of hexan-3-one."
+   ]
+  },
+  {
+   "id": "ex_lech203_8_6_to_8_11",
+   "source_ref": "lech203.txt end-of-chapter exercises 8.6-8.11",
+   "questions": [
+    "Predict all products when cyclohexanecarbaldehyde meets Grignard reagent, Tollens reagent, semicarbazide, excess ethanol with acid, and zinc amalgam with HCl.",
+    "Sort nine compounds into aldol candidates, Cannizzaro candidates and neither, then write the products.",
+    "Plan three-step conversions of ethanal into butane-1,3-diol, but-2-enal and but-2-enoic acid.",
+    "Identify an unknown carbonyl of formula C9H10O from its DNP, Tollens, Cannizzaro and oxidation behaviour."
+   ]
+  },
+  {
+   "id": "ex_lech203_8_12_to_8_16",
+   "source_ref": "lech203.txt end-of-chapter exercises 8.12-8.16",
+   "questions": [
+    "Rank four ketones by HCN reactivity and two acid sets by strength.",
+    "Choose one simple test per pair to distinguish propanal from propanone, pentan-2-one from pentan-3-one, and benzaldehyde from acetophenone.",
+    "Build five benzene derivatives including methyl benzoate and p-nitrobenzaldehyde using any inorganic reagent and one-carbon organics.",
+    "Plan two-step conversions such as benzoic acid to benzaldehyde and ethanol to 3-hydroxybutanal, then describe acetylation, Cannizzaro, cross aldol and decarboxylation."
+   ]
+  },
+  {
+   "id": "ex_lech203_8_17_to_8_20",
+   "source_ref": "lech203.txt end-of-chapter exercises 8.17-8.20",
+   "questions": [
+    "Fill in missing starting materials, reagents or products across a synthesis grid.",
+    "Explain why cyclohexanone forms cyanohydrin readily while 2,2,6-trimethylcyclohexanone refuses, and why only one NH2 of semicarbazide reacts.",
+    "Justify removing water or ester during acid-catalysed esterification.",
+    "Deduce the structure of the compound with 69.77 percent carbon and 11.63 percent hydrogen that gives positive iodoform and bisulphite tests, and explain why a carboxylic acid beats phenol despite having fewer resonance structures."
+   ]
+  }
+ ]
+}

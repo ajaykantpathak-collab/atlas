@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_005",
+   "title": "c12_phy_cbse_03_005",
+   "questions": [
+    {
+     "q": "State Kirchhoff's Junction Rule and Loop Rule in words, and give the mathematical expression for each. What physical conservation laws do they represent?",
+     "a": "Junction Rule: At any junction, the sum of currents entering equals the sum of currents leaving (ΣI_in = ΣI_out) or ΣI = 0 (taking entering as +ve, leaving as -ve). It represents conservation of charge. Loop Rule: Around any closed loop, the algebraic sum of potential differences (emfs and IR drops) is zero (ΣV = 0). It represents conservation of energy. A wrong answer (e.g., \"sum of voltages equals sum of currents\") reveals confusion between the two rules and their physical basis.",
+     "self_check": true
+    },
+    {
+     "q": "In a circuit with a 12 V battery (internal resistance 0.5 Ω) connected to a 5 Ω resistor, a student writes the loop equation as: 12 - I(0.5) - I(5) = 0. Another student writes: -12 + I(0.5) + I(5) = 0. Are both equations correct? Explain why or why not, referencing the sign convention for emf and IR drops.",
+     "a": "Both equations are mathematically equivalent (multiply the second by -1 to get the first). The first uses the convention: traversing the loop in the direction of current, emf is +ve when going from negative to positive terminal, and IR drops are -ve. The second uses the opposite traversal direction or opposite sign convention. Both are correct if applied consistently. A student who says only one is correct has not understood that the algebraic sum is zero regardless of traversal direction, provided signs are consistent.",
+     "self_check": true
+    },
+    {
+     "q": "A circuit has two loops and three unknown currents I₁, I₂, I₃. At junction A, I₁ enters and I₂ and I₃ leave. Write the junction equation. Loop 1 (containing a 10 V battery and 2 Ω, 3 Ω resistors) gives: 10 - 2I₁ - 3I₂ = 0. Loop 2 (containing a 5 V battery and 3 Ω, 4 Ω resistors) gives: 5 - 3I₂ - 4I₃ = 0. Solve for I₁, I₂, I₃. (Assume all currents in the directions shown.)",
+     "a": "Junction: I₁ = I₂ + I₃. From Loop 1: 2I₁ + 3I₂ = 10. From Loop 2: 3I₂ + 4I₃ = 5. Substitute I₁ = I₂ + I₃ into first: 2(I₂+I₃) + 3I₂ = 10 → 5I₂ + 2I₃ = 10. Solve with 3I₂ + 4I₃ = 5. Multiply second by 2: 6I₂ + 8I₃ = 10. Subtract first×? Better: 5I₂ = 10 - 2I₃ → I₂ = 2 - 0.4I₃. Substitute: 3(2-0.4I₃) + 4I₃ = 5 → 6 - 1.2I₃ + 4I₃ = 5 → 2.8I₃ = -1 → I₃ = -0.357 A. Then I₂ = 2 - 0.4(-0.357) = 2.143 A. I₁ = 2.143 - 0.357 = 1.786 A. Negative I₃ means actual direction is opposite to assumed. A wrong answer often comes from sign errors in the loop equations or incorrect substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a circuit with two batteries of emf 6 V and 12 V connected in parallel with opposite polarities (positive of 6 V connected to negative of 12 V) and a load resistor of 2 Ω across the combination. Each battery has internal resistance 1 Ω. Without solving, predict the direction of current through the 2 Ω load and explain using the loop rule concept.",
+     "a": "The net emf driving current through the load is 12 V - 6 V = 6 V (since they oppose). The total internal resistance in series with the load is 1 Ω + 1 Ω = 2 Ω (if we consider the loop containing both batteries and the load). The current will flow from the 12 V battery's positive terminal, through the load, into the 6 V battery's positive terminal (charging it). So the load current flows from the 12 V side to the 6 V side. A student who says current flows from 6 V to 12 V ignores the larger emf dominating the loop.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a three-loop circuit and obtains currents I₁ = 2 A, I₂ = -1 A, I₃ = 3 A. They claim the solution is wrong because \"current cannot be negative.\" Evaluate this claim and explain what a negative current means in Kirchhoff's analysis.",
+     "a": "The claim is incorrect. Negative current simply means the actual current flows opposite to the assumed direction. Kirchhoff's rules use assumed directions; the algebraic solution yields a sign that indicates the true direction. A negative value is perfectly valid and does not indicate an error in the equations. The student who thinks negative current is impossible misunderstands the role of assumed directions in setting up the equations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 1.5 V cell, two resistors (10 Ω and 20 Ω), a multimeter, and connecting wires to verify Kirchhoff's Loop Rule. Describe the circuit, measurements, and how you would confirm ΣV = 0.",
+     "a": "Connect the cell in series with the two resistors. Measure the terminal voltage of the cell (V_cell) and the voltage across each resistor (V₁, V₂) with the multimeter. According to the loop rule, V_cell - V₁ - V₂ = 0 (if the cell's internal resistance is negligible). Verify that V₁ + V₂ equals V_cell within measurement error. A good answer includes a circuit diagram, mentions polarity of multimeter leads, and notes that internal resistance of the cell and multimeter loading cause small deviations. A poor answer omits polarity or does not explain how the sum is checked.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

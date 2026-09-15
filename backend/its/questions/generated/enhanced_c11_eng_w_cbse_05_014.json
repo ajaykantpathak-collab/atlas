@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_05_014",
+   "title": "c11_eng_w_cbse_05_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student has memorised a mnemonic without understanding its function: each letter represents a *cognitive step* in building an analytical paragraph, not just a formatting trick.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Pappachi was jealous of Mammachi because she made pickles and got famous. He beat her with a vase. This shows he was a bad husband.\" Identify two specific weaknesses in this response relative to board exam expectations.",
+     "a": "Weakness 1: It narrates plot events (\"He beat her with a vase\") instead of analysing *why* the author includes that detail — no Explanation step. Weakness 2: It uses vague judgment (\"bad husband\") rather than linking to a textual theme (patriarchy, male insecurity, economic agency). A correct diagnosis shows the student understands that board answers require *interpretation*, not summary.",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL structure, write a single analytical paragraph (approx. 80 words) answering: \"How does Pappachi's reaction to the moth's naming reveal his character?\" Use one specific textual detail.",
+     "a": "**Point:** Pappachi's obsession with the moth's naming exposes his fragile ego and need for external validation. **Evidence:** When lepidopterists later classify his moth as a new genus but name it after a junior officer he disliked, \"it was too late for him to assert his claim.\" **Explanation:** The delay of twelve years and the naming after a rival transform his scientific achievement into a personal humiliation, showing he values status over discovery. **Link:** This mirrors his resentment toward Mammachi's success — both stem from an inability to bear others' recognition. A poor answer would merely recount the moth incident without connecting it to his psychology or the story's themes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two openings for the question \"Discuss the contrast between outward elegance and private behaviour in Pappachi.\" Which is stronger and why?  \nOpening A: \"Pappachi wore three-piece suits and drove a Plymouth but beat his wife.\"  \nOpening B: \"Roy juxtaposes Pappachi's performative elegance — his 'well-pressed three-piece suit' and 'skyblue Plymouth' — with his private brutality to critique the hollowness of colonial-era masculine ideals.\"",
+     "a": "Opening B is stronger. It uses precise textual language (\"well-pressed three-piece suit\", \"skyblue Plymouth\"), names the literary technique (juxtaposition), and states an analytical thesis (\"critique the hollowness of colonial-era masculine ideals\"). Opening A merely lists facts without interpretation. A student who prefers Opening A likely conflates *evidence* with *argument* and needs practice turning observations into claims.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Including long quotes from the story makes an answer better because it proves you read the text.\" Is this true for CBSE Class 11 English? Justify your evaluation.",
+     "a": "False. CBSE marking schemes reward *concise, integrated evidence* — brief phrases woven into your own sentence (e.g., \"Pappachi's 'ignominy of retirement' triggers his resentment\") — not block quotes. Long quotes waste word count and reduce space for Explanation and Link, which carry higher marks. A student who believes this misconception likely equates \"evidence\" with \"quoting\" rather than \"referencing strategically.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 4-mark question on \"Pappachi's Moth\" that tests *irony* and requires a PEEL-structured answer. Provide the question only.",
+     "a": "**Question:** \"Identify and explain the central irony in Pappachi's moth being named after a man he disliked, and link it to the story's theme of unacknowledged labour.\"  \nA good student-generated question mirrors board patterns: it names a device (irony), demands explanation, and requires thematic linking. A weak question would be factual (\"What was the moth named after?\") or vague (\"Is the moth story ironic?\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

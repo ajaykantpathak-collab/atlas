@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_010",
+   "title": "c12_bio_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the difference between a point mutation and a frameshift mutation in terms of the number of nucleotides altered and the effect on the reading frame?",
+     "a": "A point mutation alters a single nucleotide (substitution) and does not shift the reading frame; it may change one codon. A frameshift mutation involves insertion or deletion of one or two nucleotides (not a multiple of three), which shifts the reading frame from the point of mutation, altering all downstream codons. A wrong answer that says both shift the reading frame reveals confusion about the triplet nature of the genetic code; a wrong answer that says point mutations always change the amino acid reveals ignorance of silent mutations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a deletion of three nucleotides not cause a frameshift, but a deletion of one nucleotide does? Explain using the concept of the genetic code.",
+     "a": "The genetic code is read in triplets (codons). Deleting three nucleotides removes exactly one codon, so the reading frame for subsequent codons remains intact. Deleting one nucleotide shifts the grouping of all subsequent nucleotides into new triplets, changing every downstream codon. A wrong answer that focuses only on the number of amino acids lost without mentioning the reading frame indicates a lack of understanding of how the ribosome reads mRNA.",
+     "self_check": true
+    },
+    {
+     "q": "Given the mRNA sequence 5'-AUG UUU UUC UUC UUU UUU UUC-3', a mutation changes the 7th nucleotide from U to A. Identify the type of mutation and predict the change in the amino acid sequence. (Use the genetic code: UUU = Phe, UAU = Tyr, AUU = Ile)",
+     "a": "The mutation is a point mutation (substitution). Original codons: AUG (Met), UUU (Phe), UUC (Phe), UUC (Phe), UUU (Phe), UUU (Phe), UUC (Phe). The 7th nucleotide is the first base of the third codon (UUC). Changing U to A makes it AUC (Ile). So the third amino acid changes from Phe to Ile; the rest remain unchanged. This is a missense mutation. A wrong answer that says the reading frame shifts reveals confusion between point and frameshift mutations; a wrong answer that says all subsequent amino acids change indicates not recognizing that only one codon is affected.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of a nonsense mutation and a frameshift mutation on the resulting protein. Which is likely to be more severe and why?",
+     "a": "A nonsense mutation changes a codon to a stop codon, causing premature termination and a truncated protein. A frameshift mutation alters the reading frame, changing all downstream amino acids and often introducing a premature stop codon shortly after. Frameshift mutations are generally more severe because they alter a larger portion of the protein and the new sequence is completely unrelated to the original. A wrong answer that says nonsense is more severe because it stops translation early ignores that frameshift also often leads to early stops and produces a garbled sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All point mutations are harmful because they change the DNA sequence.\" Evaluate this statement with examples.",
+     "a": "The statement is false. Point mutations can be silent (no amino acid change due to degeneracy of the genetic code), missense (may be neutral if the new amino acid has similar properties), or nonsense (harmful). For example, changing UUU to UUC still codes for Phe (silent). A wrong answer that agrees with the student shows ignorance of the genetic code's degeneracy and the concept of neutral mutations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short mRNA sequence (at least 5 codons) that would produce a functional protein if a single nucleotide insertion occurs at the 4th position, but a non-functional protein if a single nucleotide deletion occurs at the same position. Explain your reasoning.",
+     "a": "It is impossible to design such a sequence because both a single nucleotide insertion and a single nucleotide deletion at the same position shift the reading frame (neither is a multiple of three). Both mutations will alter all downstream codons and likely introduce a premature stop codon, producing a non-functional protein. A good answer recognizes that any indel not a multiple of three universally disrupts the reading frame. A poor answer attempts to give a specific sequence without acknowledging this fundamental principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

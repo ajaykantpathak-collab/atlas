@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_4",
+   "title": "c9_bio_ch3_4",
+   "questions": [
+    {
+     "q": "Define meiosis and state the change in chromosome number that occurs during this process.",
+     "a": "Meiosis is a reduction division where a diploid (2n) parent cell divides to produce four haploid (n) daughter cells (gametes), halving the chromosome number. A wrong answer (e.g., \"meiosis produces two identical diploid cells\") reveals the student is confusing meiosis with mitosis and has not grasped the fundamental concept of reduction division essential for sexual reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is meiosis referred to as \"reduction division\"? Explain what would happen to the chromosome number in successive generations if meiosis did not occur during gamete formation.",
+     "a": "Meiosis is called reduction division because it reduces the chromosome number from diploid (2n) in the parent cell to haploid (n) in the gametes. Without meiosis, gametes would be diploid; fertilization would produce a tetraploid (4n) zygote, and chromosome number would double every generation, making stable inheritance impossible. A wrong answer indicates the student cannot link the cellular process (halving) to the organismal consequence (species stability).",
+     "self_check": true
+    },
+    {
+     "q": "A human somatic cell contains 46 chromosomes. How many chromosomes will be present in a human sperm cell and in a zygote immediately after fertilization? Show the numerical reasoning.",
+     "a": "Sperm cell = 23 chromosomes (haploid, n); Zygote = 46 chromosomes (diploid, 2n). Reasoning: Somatic cells are diploid (2n=46). Meiosis halves this to n=23 in gametes. Fertilization fuses two haploid gametes (23+23) to restore 2n=46. A wrong answer (e.g., sperm=46) shows the student cannot apply the halving/restoration logic to a concrete numerical example.",
+     "self_check": true
+    },
+    {
+     "q": "Compare meiosis and mitosis on three parameters: (a) number of daughter cells produced, (b) chromosome number in daughter cells relative to parent, (c) genetic similarity of daughter cells to parent and to each other.",
+     "a": "(a) Meiosis: 4 daughter cells; Mitosis: 2 daughter cells. (b) Meiosis: haploid (n) from diploid (2n) — reduction; Mitosis: diploid (2n) from diploid (2n) — equational. (c) Meiosis: genetically distinct from parent and each other due to crossing over/independent assortment; Mitosis: genetically identical clones. A wrong answer reveals inability to contrast the two division types on functional outcomes, a core board-level skill.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Meiosis occurs in all body cells of an organism to replace worn-out cells.\" Evaluate this statement. Is it correct? Justify your answer with two specific reasons.",
+     "a": "The statement is incorrect. Reason 1: Meiosis occurs only in germ cells (gonads) to produce gametes, not in somatic (body) cells. Reason 2: Somatic cell replacement and growth occur via mitosis, which produces identical diploid cells; meiosis produces non-identical haploid cells unsuitable for tissue repair. A wrong evaluation shows the classic board-level misconception of confusing the *location* and *purpose* of the two division types.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple diagram-based model (describe it in words) to demonstrate how crossing over during Prophase I of meiosis creates new combinations of alleles on a chromosome that were not present in either parent.",
+     "a": "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids. Show non-sister chromatids crossing at a chiasma. Label alleles (e.g., A,B on maternal; a,b on paternal). After exchange, show recombinant chromatids with new combinations (A,b and a,B). A poor answer (e.g., just drawing chromosomes without allele exchange) reveals the student treats crossing over as a visual event without understanding its genetic consequence — recombination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

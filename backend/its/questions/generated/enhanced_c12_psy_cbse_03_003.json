@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_003",
+   "title": "c12_psy_cbse_03_003",
+   "questions": [
+    {
+     "q": "A student says, \"The stress I feel before my NEET exam is purely psychological because it's all in my mind.\" Using NCERT classification, is this statement correct? Explain in one sentence.",
+     "a": "No, the statement is incorrect because examination stress involves physical/environmental components (sitting for long hours, sleep deprivation), psychological components (fear of failure), and social components (parental expectations, peer comparison) simultaneously. A wrong answer reveals the misconception that stress types are mutually exclusive rather than co-occurring dimensions of a single experience.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into the correct stress TYPE (physical/environmental, psychological, social) and SOURCE (life event, hassle, traumatic event):\n(a) A 17-year-old's parents announce they are divorcing.\n(b) Daily power cuts during summer in a tier-2 city.\n(c) Surviving a building collapse during an earthquake.\nExplain your reasoning for (b).",
+     "a": "(a) Type: Social (interpersonal/family rupture); Source: Life event (major, unpredictable change). (b) Type: Physical/environmental (environmental condition); Source: Hassle (recurring, daily annoyance). (c) Type: Physical/environmental (bodily danger, environmental catastrophe) and Psychological (fear, helplessness); Source: Traumatic event (extreme, life-threatening). For (b), a wrong answer (e.g., calling it a life event) shows confusion between chronic daily irritants and discrete major changes.",
+     "self_check": true
+    },
+    {
+     "q": "Riya, a Class 12 student, experiences: (i) chronic asthma worsened by Delhi's air pollution, (ii) intrusive thoughts \"I'm not smart enough for JEE\", (iii) her best friend stops talking to her after a misunderstanding. Map each to the appropriate stress TYPE. Then, identify which ONE of these is a HASSLE and justify why the other two are NOT hassles.",
+     "a": "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion). (iii) Social (interpersonal conflict). The air pollution (i) is a hassle — it is a recurring, low-intensity daily irritant. The intrusive thoughts (ii) are not a hassle because they are internally generated psychological pressure, not an external daily annoyance. The friendship rupture (iii) is a life event (significant interpersonal change), not a hassle, because it is a discrete major disruption, not a routine irritation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"life events\" and \"hassles\" as sources of stress using three dimensions: predictability, duration, and cumulative impact. Provide one Indian-context example for each.",
+     "a": "Life events: often unpredictable (e.g., sudden job loss of father), discrete/short-term onset, high per-event impact but low frequency. Hassles: highly predictable (daily traffic, water shortage), chronic/ongoing duration, low per-event impact but high cumulative impact due to frequency. A wrong answer that claims hassles are unpredictable or life events are chronic shows failure to grasp the dimensional distinction central to NCERT's classification.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Holmes-Rahe Social Readjustment Rating Scale (adapted as Presumptive Stressful Life Events Scale for India) for measuring stress in adolescents. Use two limitations mentioned in NCERT.",
+     "a": "Two NCERT-cited limitations: (1) The correlation between life event scores and actual illness is weak, indicating life events alone poorly predict stress outcomes. (2) The scale ignores mediating factors like age at exposure, frequency, duration, and social support that drastically alter stress impact. A student who only cites \"it doesn't include positive events\" misses the textbook's specific critique about weak predictive validity and omitted moderators.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-item self-report checklist for Class 12 students to identify their dominant stress TYPE (physical/environmental, psychological, social). Each item must be a concrete, observable behavior or sensation (not a feeling label). Provide the scoring key.",
+     "a": "Sample items: 1. \"I get headaches/stomachaches before exams\" (Physical). 2. \"I repeatedly think 'I'll fail' while studying\" (Psychological). 3. \"I avoid family dinners because parents ask about marks\" (Social). 4. \"I can't sleep due to noise/heat in my room\" (Physical/environmental). Scoring: Count items per type; highest count = dominant type. A poor answer uses vague items like \"I feel stressed\" or mixes types in one item, showing inability to operationalize NCERT categories.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

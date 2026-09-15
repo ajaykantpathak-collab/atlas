@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_011",
+   "title": "c7_chem_ch01_011",
+   "questions": [
+    {
+     "q": "Which of the following physical properties is characteristic of most non-metals at room temperature?\nA) High electrical conductivity\nB) High malleability\nC) Brittleness when hammered\nD) High metallic lustre",
+     "a": "The correct answer is C. Non-metals are generally brittle and break or shatter into pieces when struck with a hammer, rather than flattening into sheets. A student who chooses A or B confuses non-metals with metals, while choosing D reveals a misconception that all shiny substances are non-metals, ignoring that iodine and graphite have minor lusters while most non-metals are dull.",
+     "self_check": true
+    },
+    {
+     "q": "Why is copper wire used extensively in household electrical wiring across India rather than sulfur wire?\nA) Copper is a good conductor of electricity and is ductile, whereas sulfur is a non-metal that is brittle and a poor conductor.\nB) Sulfur is too expensive to manufacture into thin wires compared to copper.\nC) Copper melts easily at room temperature, making it easy to install in walls.\nD) Sulfur reacts with household air to generate bright illumination.",
+     "a": "The correct answer is A. Copper is a ductile metal with high electrical conductivity, allowing it to be drawn into thin wires and carry electric current efficiently without breaking. A student who chooses C fails to recognize that copper has a very high melting point (~1085°C), or mistakes physical properties of metals for non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "An unknown solid element 'X' is grey, shiny, can be hammered into thin sheets without breaking, and conducts electricity. Another element 'Y' is yellow, dull, shatters into powder when struck, and does not conduct electricity. Classify 'X' and 'Y' and justify using two physical properties for each.",
+     "a": "Element 'X' is a metal because it possesses metallic lustre (grey and shiny) and is malleable (can be hammered into thin sheets). Element 'Y' is a non-metal because it is brittle (shatters into powder) and dull in appearance. A student who misclassifies 'X' as a non-metal likely ignored its malleability and electrical conductivity, which are exclusive hallmarks of metallic elements.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the exception to the physical state rule among metals and non-metals: Mercury is a metal that exists as a liquid at room temperature, and bromine is a non-metal that exists as a liquid at room temperature. How do these exceptions challenge the common rule that \"metals are solid and non-metals are gases or solids\"?",
+     "a": "These exceptions demonstrate that physical states alone cannot define a metal or non-metal; physical classifications rely on a combination of properties. While most metals are solid and most non-metals are solid or gas, mercury still retains typical metallic properties like high density, electrical conductivity, and lustre, while bromine retains non-metallic properties like volatility, lack of lustre, and electrical non-conductivity despite being a liquid. A student who claims mercury is a non-metal because it is liquid confuses state of matter with elemental class.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since graphite (a form of carbon, which is a non-metal) can conduct electricity, graphite should be reclassified as a metal.\" Is this evaluation scientifically valid? Justify your reasoning.",
+     "a": "The statement is scientifically invalid. Conduction of electricity by graphite is an exceptional physical property among non-metals, but graphite lacks all other key metallic characteristics: it is dull, extremely brittle, non-malleable, non-ductile, and has low density. Classification of elements depends on the overall profile of properties, not a single anomalous trait. A student who agrees with reclassification fails to understand that elements possess multifaceted physical profiles where one exception does not override the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, safe laboratory or household test procedure to conclusively differentiate an unknown grey rod as either a metal (like iron or aluminum) or a non-metal (like a graphite battery rod). List the steps and expected observations for both outcomes.",
+     "a": "To test the unknown rod: \n1. Test conductivity: Connect the rod in a simple electric circuit with a bulb and battery. If the bulb glows, it points toward metal or graphite. \n2. Test malleability: Gently strike the rod with a hammer on a hard surface. If it flattens or bends, it is a metal (malleable). If it shatters into powder, it is brittle (non-metal, or graphite). \n3. Test lustre: Scratch the surface with sandpaper. If it shines brightly underneath, it has metallic lustre. A poor answer would involve dangerous heating or acid tests without clear physical criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

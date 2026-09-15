@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_018",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_018",
+   "title": "c6_math_ch02_018",
+   "questions": [
+    {
+     "q": "Is -3 greater than -1? Recall the rule about the number line.",
+     "a": "No, -1 is greater than -3. A wrong answer suggests the student is ignoring the negative sign and incorrectly applying the rules of positive numbers, thinking that 3 is bigger than 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 0 is greater than -5 using the building floor analogy.",
+     "a": "0 is the ground floor, while -5 is five floors below ground; since being at ground level is higher than being in the basement, 0 is greater. If a student says -5 is greater, they likely misunderstand that negative numbers represent positions below a reference point.",
+     "self_check": true
+    },
+    {
+     "q": "Order these numbers from least to greatest: -8, 2, 0, -5, 4.",
+     "a": "The order is -8, -5, 0, 2, 4. A wrong answer (like -8, -5, 4, 2, 0) shows the student is not correctly sequencing the negative numbers from the left side of the number line.",
+     "self_check": true
+    },
+    {
+     "q": "If a bank account has a balance of -₹100 and another has -₹50, which account has more money? Why?",
+     "a": "The account with -₹50 has more money because -50 is closer to zero (higher) than -100. A wrong answer indicates the student is incorrectly comparing the magnitude of the digits (100 vs 50) without considering the negative sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that any negative number is always smaller than any positive number. Do you agree? Justify.",
+     "a": "Yes, I agree because on the number line, all negative numbers are to the left of zero, and all positive numbers are to the right of zero. A disagreement shows a failure to grasp the basic structure of the number line.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list of three integers that are all less than -2 but greater than -6.",
+     "a": "The correct integers are -3, -4, and -5. If the student provides positive numbers or numbers like -7, they haven't understood the \"between\" constraint on the number line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

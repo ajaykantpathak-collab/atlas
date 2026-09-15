@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Climates of India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.3.1",
+   "title": "Weather versus Climate",
+   "section": "Recapitulation",
+   "definition": "Weather is the atmosphere's state right now, while climate is the average pattern of weather of a region over many years; Chennai may have a cool day, but its climate stays coastal and warm.",
+   "formula": "climate = average of weather over many years",
+   "key_idea": "Climate is the habit, weather the mood: one place, two time scales.",
+   "textbook_ref": "gees103.txt, Recapitulation",
+   "question_patterns": [
+    "what is the difference between weather and climate",
+    "can the weather of a hot place be cold one day",
+    "how many years of records describe a climate",
+    "which is easier to predict, weather or climate",
+    "describe the climate of your region",
+    "why do we say climate is the average pattern of weather"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees.3.2",
+   "title": "Why India's Climate Is So Diverse",
+   "section": "Factors of diversity",
+   "definition": "Latitude, the seas on three sides, the mountains in the north and the monsoon winds together make India's climate swing from Himalayan snow to equatorial warmth and from desert dryness to Meghalaya's rain.",
+   "formula": "",
+   "key_idea": "One country spans many climates because place and wind shape each region differently.",
+   "textbook_ref": "gees103.txt, Factors of diversity",
+   "question_patterns": [
+    "what makes india's climate so diverse",
+    "how do the himalayas affect india's climate",
+    "what role do the monsoon winds play",
+    "why is the climate of kerala different from that of rajasthan",
+    "how does distance from the sea change a region's climate",
+    "why are days and nights nearly equal at the equator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.3.3",
+   "title": "The Seasons of India",
+   "section": "Seasons",
+   "definition": "Indian climate runs in seasons: a cold season, a hot season, the advancing monsoon that brings most rain, and the retreating monsoon with its storms, each changing farm work and festivals.",
+   "formula": "",
+   "key_idea": "The monsoon is the heart of the Indian year: seasons are counted by its coming and going.",
+   "textbook_ref": "gees103.txt, Seasons",
+   "question_patterns": [
+    "name the main seasons of india",
+    "when does the monsoon usually reach india",
+    "what happens during the retreating monsoon",
+    "how does each season change farm work",
+    "which season brings most of india's rainfall",
+    "how do festivals follow the seasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.3.4",
+   "title": "Climate Change and Preventive Measures",
+   "section": "Preventive measures",
+   "definition": "Climate is not fixed: human activity is warming the planet, bringing harsher heat, irregular rain and storms; the chapter asks groups to discuss preventive measures, from saving energy to planting trees.",
+   "formula": "",
+   "key_idea": "Climate change is a shared problem: small preventive acts, multiplied by millions, blunt it.",
+   "textbook_ref": "gees103.txt, Preventive measures",
+   "question_patterns": [
+    "what is climate change and what causes it",
+    "how is climate change different from normal variation of climate",
+    "which preventive measures can a school take",
+    "how does planting trees help the climate",
+    "why should we save electricity for the climate",
+    "what changes in rainfall has climate change brought"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees103.txt",
+   "concept": "gees.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the same sun give different climates to Ladakh and Kerala?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare the places",
+     "explain": "Ladakh lies high in the rain shadow of the Himalayas; Kerala is low, coastal and near the equator."
+    },
+    {
+     "step": 2,
+     "action": "draw the cause",
+     "explain": "Altitude and distance from the sea bend temperature and rain, so the same sun yields two climates."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees103.txt",
+   "concept": "gees.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "recapitulate the difference between weather and climate.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees103.txt, Let us explore",
+   "questions": [
+    "What makes India's climate so diverse?",
+    "Recapitulate the difference between weather and climate.",
+    "Discuss preventive measures against climate change in groups.",
+    "Find whether your region's climate matches the monsoon pattern described.",
+    "Prepare a chart of the four seasons with their months and features."
+   ]
+  }
+ ]
+}

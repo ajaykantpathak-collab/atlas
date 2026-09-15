@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_001",
+   "title": "c11_eng_w_cbse_21_001",
+   "questions": [
+    {
+     "q": "Who is the author of \"Patterns of Creativity\" and what is his primary scientific achievement?",
+     "a": "The author is S. Chandrasekhar (Subrahmanyan Chandrasekhar), a Nobel Prize-winning astrophysicist known for the Chandrasekhar limit (the maximum mass of a stable white dwarf star). A wrong answer (e.g., naming a poet or a different scientist) reveals the student has not read the author blurb and misses the significance of a scientist writing about poetic creativity.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain the difference between \"assimilation\" and \"accommodation\" as patterns of creativity described in the Before You Read section.",
+     "a": "Assimilation is the creative pattern where new experiences are fitted into pre-existing mental frameworks (e.g., Keats absorbing Greek mythology into his poetry). Accommodation is the pattern where the framework itself is altered to incorporate radically new experiences (e.g., Newton revising the concept of force to explain planetary motion). A wrong answer that swaps the definitions or treats them as synonyms shows the student has not grasped the Piagetian distinction central to the essay's argument.",
+     "self_check": true
+    },
+    {
+     "q": "If a modern poet uses imagery from quantum physics (e.g., wave-particle duality) in a poem, which pattern of creativity (assimilation or accommodation) does this illustrate? Justify your choice.",
+     "a": "This illustrates assimilation: the poet takes an existing scientific concept (quantum physics) and fits it into the pre-existing framework of poetic metaphor without altering the fundamental nature of poetry. The poem remains a poem; the science is used as imagery. A wrong answer choosing \"accommodation\" reveals the misconception that any borrowing across domains automatically changes the receiving domain's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the creative process of Keats (as described in the Before You Read section) with that of Newton. What common pattern does Chandrasekhar identify?",
+     "a": "Chandrasekhar identifies that both Keats and Newton exhibit a pattern of \"assimilation\" followed by \"accommodation\": Keats assimilated classical forms then accommodated them to his own voice; Newton assimilated Galileo's and Kepler's laws then accommodated them into a unified theory of gravitation. A wrong answer focusing only on their differences (poet vs. scientist) misses the essay's core thesis of a shared cognitive pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that \"science discovers patterns while poetry invents them.\" Use Chandrasekhar's framework from the Before You Read section to support your position.",
+     "a": "Chandrasekhar's framework rejects this dichotomy: both science and poetry involve discovering patterns in experience (assimilation) and inventing new patterns to explain experience (accommodation). Newton \"discovered\" gravitational patterns but also \"invented\" the mathematical framework of calculus; Keats \"invented\" new poetic forms but \"discovered\" universal human truths within them. A wrong answer that agrees with the dichotomy shows the student has not internalized the essay's central argument about the unity of creative cognition.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word blurb for the essay that would appear on a book cover, capturing the central tension between poetic and scientific creativity.",
+     "a": "A Nobel laureate astrophysicist reveals the hidden kinship between Keats and Newton: both geniuses of assimilation and accommodation. Chandrasekhar dismantles the myth of \"two cultures,\" showing how poetic imagination and scientific reason share the same cognitive architecture. A profound meditation on the patterns that bind all human creativity. A poor answer would simply summarize the essay without capturing the tension or the author's unique perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

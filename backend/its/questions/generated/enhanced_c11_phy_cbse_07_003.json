@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_003",
+   "title": "c11_phy_cbse_07_003",
+   "questions": [
+    {
+     "q": "What is the SI unit of the universal gravitational constant \\( G \\), and how does it differ from the unit of acceleration due to gravity \\( g \\)?",
+     "a": "The SI unit of \\( G \\) is \\( \\text{N} \\, \\text{m}^2 \\, \\text{kg}^{-2} \\) (or equivalently \\( \\text{m}^3 \\, \\text{kg}^{-1} \\, \\text{s}^{-2} \\)), while \\( g \\) has units of \\( \\text{m} \\, \\text{s}^{-2} \\). A wrong answer (e.g., giving \\( \\text{m/s}^2 \\) for \\( G \\)) reveals the student is confusing the universal constant \\( G \\) with the local acceleration \\( g \\), a fundamental category error between a proportionality constant in a force law and an acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "In the Cavendish experiment, the torsion wire is twisted by an angle \\( \\theta \\) when the large spheres are brought near the small spheres. Explain why the gravitational force does not cause a net linear acceleration of the bar AB, but only a rotation.",
+     "a": "The two large spheres are placed on opposite sides of the bar such that they exert equal and opposite gravitational forces on the two small spheres. These forces form a couple (equal magnitude, opposite direction, different lines of action), producing a net torque but zero net force. A wrong answer suggesting the bar translates linearly reveals the student has not recognized the symmetric placement of masses that creates a pure torque — a critical design feature of the experiment.",
+     "self_check": true
+    },
+    {
+     "q": "In a Cavendish experiment, the torsion constant \\( \\tau = 1.2 \\times 10^{-7} \\, \\text{N} \\, \\text{m} \\, \\text{rad}^{-1} \\), the angle of twist \\( \\theta = 0.0015 \\, \\text{rad} \\), the separation between centers \\( d = 0.05 \\, \\text{m} \\), the large mass \\( M = 1.5 \\, \\text{kg} \\), the small mass \\( m = 0.02 \\, \\text{kg} \\), and the length of the bar \\( L = 0.3 \\, \\text{m} \\). Calculate the value of \\( G \\) from this data.",
+     "a": "**Step 1:** Identify formula: \\( G = \\frac{\\tau \\theta d^2}{M m L} \\).\n**Step 2:** Check units: \\( \\tau \\) in \\( \\text{N m rad}^{-1} \\), \\( \\theta \\) in rad, \\( d^2 \\) in \\( \\text{m}^2 \\), \\( M,m \\) in kg, \\( L \\) in m → \\( \\frac{\\text{N m} \\cdot \\text{m}^2}{\\text{kg} \\cdot \\text{kg} \\cdot \\text{m}} = \\text{N m}^2 \\text{kg}^{-2} \\). Correct.\n**Step 3:** Substitute: \\( G = \\frac{(1.2 \\times 10^{-7}) \\times 0.0015 \\times (0.05)^2}{1.5 \\times 0.02 \\times 0.3} \\).\n**Step 4:** Compute numerator: \\( 1.2 \\times 10^{-7} \\times 1.5 \\times 10^{-3} \\times 2.5 \\times 10^{-3} = 4.5 \\times 10^{-13} \\).\n**Step 5:** Compute denominator: \\( 1.5 \\times 0.02 \\times 0.3 = 9 \\times 10^{-3} \\).\n**Step 6:** \\( G = \\frac{4.5 \\times 10^{-13}}{9 \\times 10^{-3}} = 5.0 \\times 10^{-11} \\, \\text{N m}^2 \\text{kg}^{-2} \\).\nA wrong answer (e.g., \\( 10^{-9} \\) or missing units) indicates either a unit conversion error (mm vs m) or incorrect handling of powers of ten — a common issue when dealing with the extremely small value of \\( G \\).",
+     "self_check": true
+    },
+    {
+     "q": "Two students perform the Cavendish experiment. Student A uses a torsion wire with a larger torsion constant \\( \\tau \\) (stiffer wire), while Student B uses a wire with a smaller \\( \\tau \\) (more flexible). Both use identical masses and geometry. How will the measured angle of twist \\( \\theta \\) compare between the two setups, and which setup gives a more precise measurement of \\( G \\)? Justify your answer.",
+     "a": "From \\( \\tau \\theta = \\frac{G M m L}{d^2} \\), for fixed \\( G, M, m, L, d \\), we have \\( \\theta \\propto \\frac{1}{\\tau} \\). Student B (smaller \\( \\tau \\)) will observe a larger twist angle \\( \\theta \\). A larger \\( \\theta \\) is easier to measure accurately with an optical lever or scale, reducing relative error in \\( \\theta \\). Hence Student B's setup yields a more precise \\( G \\). A wrong answer claiming Student A's stiffer wire is better reveals a misunderstanding of the trade-off between sensitivity (large \\( \\theta \\)) and the wire's ability to support the bar without sagging.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Cavendish experiment measures the gravitational force directly by measuring the twist angle, so we don't need to know the torsion constant \\( \\tau \\) if we calibrate the wire by hanging a known mass from the bar.\" Evaluate this claim. Is it correct? Why or why not?",
+     "a": "The claim is **incorrect**. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\)), we must know the torsion constant \\( \\tau \\). Calibrating by hanging a known mass \\( m_{\\text{cal}} \\) at a distance \\( r \\) from the wire *is* the method to determine \\( \\tau \\): the applied torque is \\( m_{\\text{cal}} g r \\), and measuring the resulting twist \\( \\theta_{\\text{cal}} \\) gives \\( \\tau = \\frac{m_{\\text{cal}} g r}{\\theta_{\\text{cal}}} \\). The student's statement \"we don't need to know \\( \\tau \\)\" contradicts the fact that calibration *is* the measurement of \\( \\tau \\). A wrong evaluation reveals confusion between measuring a quantity and needing its value in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you were to measure \\( G \\) on the International Space Station (microgravity environment), what modification to the Cavendish apparatus would be necessary, and why? Would the measured value of \\( G \\) change?",
+     "a": "On the ISS, the torsion wire would not hang vertically under gravity; the bar would float. The apparatus must be mounted on a rigid support with the wire under tension (e.g., using a spring or magnetic levitation to provide a restoring torque independent of weight). The measured value of \\( G \\) **would not change** because \\( G \\) is a universal constant. A poor answer suggesting \\( G \\) changes in space reveals a deep misconception: confusing the *measurement conditions* (weightlessness) with the *fundamental constant* being measured. A good answer recognizes that the gravitational attraction between the test masses still exists and is independent of the Earth's gravity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

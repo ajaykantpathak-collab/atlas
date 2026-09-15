@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_007",
+   "title": "c12_phy_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define magnetic susceptibility and state its SI unit. Is it a scalar or a vector?",
+     "a": "Magnetic susceptibility χ = M/H (magnetisation per unit magnetic intensity). It is dimensionless (no SI unit) and a scalar (for isotropic materials). A wrong answer giving units like A/m or T reveals confusion between χ and M or H; calling it a vector shows misunderstanding that χ is a proportionality constant relating two vectors (M and H) but is itself a scalar in linear isotropic media.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a ferromagnetic material, susceptibility χ is a constant positive number, just like for paramagnets but larger.\" Explain why this statement is incorrect using the hysteresis loop.",
+     "a": "In ferromagnets, M is not single-valued for a given H — it depends on the magnetic history (whether H is increasing or decreasing). The hysteresis loop shows two different M values for the same H (e.g., on the upper and lower branches), so χ = M/H cannot be a unique constant. The differential susceptibility dM/dH varies along the loop and even becomes negative on the descending branch. A student who says χ is constant has not grasped the history-dependent, non-linear nature of ferromagnetism.",
+     "self_check": true
+    },
+    {
+     "q": "A ferromagnetic rod placed in a solenoid of 1500 turns/m carrying 0.8 A acquires a magnetisation M = 1.2 × 10⁶ A/m. Calculate (a) H, (b) χ, (c) relative permeability μr, and (d) the magnetic field B inside the rod. (μ₀ = 4π × 10⁻⁷ T·m/A)",
+     "a": "(a) H = nI = 1500 × 0.8 = 1200 A/m  \n(b) χ = M/H = (1.2×10⁶)/(1200) = 1000 (dimensionless)  \n(c) μr = 1 + χ = 1001  \n(d) B = μ₀(H + M) = 4π×10⁻⁷ (1200 + 1.2×10⁶) = 4π×10⁻⁷ × 1.2012×10⁶ ≈ 1.51 T  \nCommon errors: forgetting to add H to M in B = μ₀(H+M) (using only μ₀M), or using μ₀H instead of μ₀(H+M). Unit mismatch: χ must be dimensionless; if a student gets χ with units, they likely used wrong formula (e.g., M/B).",
+     "self_check": true
+    },
+    {
+     "q": "Two hysteresis loops are shown for materials X and Y. Loop X is tall and narrow with small area; Loop Y is broad with large area. Which material is better for (i) a transformer core, (ii) a permanent magnet? Justify using retentivity and coercivity.",
+     "a": "(i) Transformer core → Material X (tall, narrow loop). Low coercivity (H_c small) means little reverse field needed to demagnetise → low hysteresis loss per cycle. High permeability (steep slope) gives high B for small H.  \n(ii) Permanent magnet → Material Y (broad loop). High retentivity (B_r large) retains strong magnetisation after H=0. High coercivity (H_c large) resists demagnetisation from stray fields.  \nA wrong choice (e.g., Y for transformer) indicates confusion: large loop area means high energy loss per cycle → overheating in AC applications.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the hysteresis loss per cycle per unit volume for a material by measuring the area of its M-H loop (instead of B-H loop) and multiplying by μ₀. Is this correct? If not, what is the correct relation?",
+     "a": "Incorrect. Energy loss per cycle per unit volume = ∮ H dB (area of B-H loop). Since B = μ₀(H + M), dB = μ₀(dH + dM). The area of the M-H loop is ∮ H dM. The two areas are related by: ∮ H dB = μ₀ ∮ H dH + μ₀ ∮ H dM. The first term ∮ H dH = 0 over a closed cycle. So ∮ H dB = μ₀ ∮ H dM. Thus, energy loss = μ₀ × (area of M-H loop). The student missed the μ₀ factor. A wrong answer that says \"area of M-H loop directly gives energy loss\" reveals forgetting the μ₀ conversion between B and M.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to trace the hysteresis loop of a ferromagnetic wire using a solenoid, a variable DC power supply, and a fluxmeter (or ballistic galvanometer). List the key steps and the measurements needed at each stage.",
+     "a": "Key steps:  \n1. Wind a solenoid (known n turns/m) on a non-magnetic former; insert the ferromagnetic wire sample along its axis.  \n2. Connect solenoid to variable DC supply; include an ammeter to measure I.  \n3. Connect a search coil (wound over the sample) to a fluxmeter/ballistic galvanometer to measure flux change ΔΦ.  \n4. Start with demagnetised sample (use AC demagnetisation or thermal method). Set I=0, fluxmeter zero.  \n5. Increase I in small steps; at each step, record I (→ H = nI) and the fluxmeter reading (→ B = ΔΦ/(N_search·A_sample)). Plot B vs H (ascending branch).  \n6. Decrease I to zero, then reverse and increase in opposite direction; continue recording to trace the full loop.  \n7. Repeat for several cycles to ensure closure.  \nA poor answer omits demagnetisation step, uses only one direction of current, or confuses fluxmeter reading with B directly without area/turns correction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

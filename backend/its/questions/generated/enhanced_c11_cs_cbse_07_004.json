@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_004",
+   "title": "c11_cs_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nt = (10, 20, 30, 20, 40, 20)\nprint(t.count(20))\nprint(t.index(20))\n```",
+     "a": "Output:\n```\n3\n1\n```\n`count(20)` returns 3 because 20 appears three times. `index(20)` returns 1 because the first occurrence of 20 is at index 1 (0‑based). A wrong answer like `2` for count or `0` for index reveals confusion between 1‑based counting and 0‑based indexing, or misunderstanding that `index` returns the first position only.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a `ValueError` and how to prevent it without using `try-except`.\n```python\ndata = ('a', 'b', 'c', 'a')\npos = data.index('z')\n```",
+     "a": "The code raises `ValueError` because `'z'` is not present in the tuple. To prevent it, check membership first: `if 'z' in data: pos = data.index('z')`. A student who suggests using `try-except` only shows they know exception handling but not the simpler membership test; a student who says `index` returns `-1` (like some other languages) has a fundamental misconception about Python's `index` behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Given `t = (5, 10, 15, 10, 20, 10, 25)`, write a single expression using `count` and `index` to find the index of the **last** occurrence of `10`. (Hint: use slicing and `index` with start parameter.)",
+     "a": "```python\nlast_index = len(t) - 1 - t[::-1].index(10)\n```\nOr using the `start` parameter in a loop, but the slice-reverse trick is a common one‑liner. A wrong answer like `t.index(10, t.count(10))` shows misunderstanding that `index`'s start parameter is an index, not a count. The correct reasoning: reverse the tuple, find first occurrence of 10 in reversed tuple (which corresponds to last in original), then convert back to original index.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of `tuple.count(x)` and `tuple.index(x)` for a tuple of length *n*. Are they the same? Justify.",
+     "a": "Both are O(n) in the worst case because they must scan the tuple sequentially. However, `index` stops at the first match (best case O(1)), while `count` always scans the entire tuple (always Θ(n)). A student who says both are O(1) or that `count` is faster because it's \"simpler\" has not grasped the linear scan nature of these methods.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `t = (1, 2, 3); t.count(1, 0, 2)` to count 1's in the first two elements. Evaluate this code and correct it.",
+     "a": "The code raises `TypeError: count() takes exactly one argument (3 given)` because `count` does not accept start/end parameters – only `index` does. To count in a slice, use `t[0:2].count(1)`. A student who thinks `count` supports slicing like `index` confuses the two method signatures; this is a common error when assuming all sequence methods have the same optional parameters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tuple `t` of length 6 containing integers such that `t.count(t.index(5))` returns 2. Explain your tuple.",
+     "a": "Example: `t = (5, 0, 5, 1, 2, 3)`.\n- `t.index(5)` returns 0 (first occurrence of 5 at index 0).\n- `t.count(0)` returns 2 because 0 appears at indices 1 and 3? Wait, in my tuple 0 appears once. Let's construct correctly: we need `t.index(5)` to be some value `v`, and `t.count(v)` = 2.\nLet `t = (5, 2, 5, 2, 7, 8)`.\n- `t.index(5)` = 0.\n- `t.count(0)` = 0 (no zeros). Not good.\nLet `t = (5, 1, 5, 1, 9, 9)`.\n- `t.index(5)` = 0.\n- `t.count(0)` = 0.\nWe need the value returned by `index` (which is an index number) to appear exactly twice in the tuple.\nSo choose tuple where index of 5 is, say, 2, and the number 2 appears twice.\n`t = (10, 20, 5, 2, 2, 30)`.\n- `t.index(5)` = 2.\n- `t.count(2)` = 2 (at indices 3 and 4). This works.\nA poor answer shows inability to compose the two methods and reason about indices as values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

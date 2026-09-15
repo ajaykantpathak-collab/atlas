@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_6",
+   "title": "c9_math_ch1_6",
+   "questions": [
+    {
+     "q": "What is the distance formula between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\)? Write it down and state what each variable represents.",
+     "a": "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2, y_2)\\) are the coordinates of point \\(Q\\). The differences \\(x_2 - x_1\\) and \\(y_2 - y_1\\) represent the horizontal and vertical legs of the right triangle formed by dropping perpendiculars to the axes. If a student writes \\(\\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}\\), it is mathematically equivalent because of squaring, but if they write \\(\\sqrt{(x_2 - x_1) + (y_2 - y_1)}\\) or forget the squares, they have not internalized the Pythagorean derivation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the distance between \\(A(1, 2)\\) and \\(B(4, 6)\\) is 7 because \\(4-1=3\\) and \\(6-2=4\\) and \\(3+4=7\\). Explain why this reasoning is incorrect and what the correct distance is.",
+     "a": "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem. The straight-line distance is the hypotenuse of a right triangle with legs 3 and 4, so the correct distance is \\(\\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5\\). If a student thinks the answer is 7, they are confusing the sum of legs with the hypotenuse; they need to revisit the derivation of the distance formula from Pythagoras theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Find the value of \\(k\\) if the distance between the points \\(P(2, -3)\\) and \\(Q(5, k)\\) is 5 units.",
+     "a": "Given: \\(P(2, -3)\\), \\(Q(5, k)\\), distance \\(PQ = 5\\).\nStep 1: Write distance formula: \\(\\sqrt{(5-2)^2 + (k - (-3))^2} = 5\\).\nStep 2: Simplify inside: \\(\\sqrt{3^2 + (k+3)^2} = 5\\).\nStep 3: Square both sides: \\(9 + (k+3)^2 = 25\\).\nStep 4: Subtract 9: \\((k+3)^2 = 16\\).\nStep 5: Take square root: \\(k+3 = \\pm 4\\).\nStep 6: Solve: \\(k = 1\\) or \\(k = -7\\).\nIf a student only gets \\(k=1\\), they forgot the negative square root. If they get \\(k = -7\\) only, they might have made a sign error. If they write \\((k-3)^2\\) instead of \\((k+3)^2\\), they mishandled the negative coordinate of P.",
+     "self_check": true
+    },
+    {
+     "q": "Points \\(A(0, 0)\\), \\(B(3, 4)\\), and \\(C(6, 0)\\) are given. Without plotting, determine the type of triangle formed by these points. Justify your answer using distances.",
+     "a": "Calculate the three side lengths:\n\\(AB = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{9+16} = 5\\).\n\\(BC = \\sqrt{(6-3)^2 + (0-4)^2} = \\sqrt{9+16} = 5\\).\n\\(CA = \\sqrt{(6-0)^2 + (0-0)^2} = \\sqrt{36} = 6\\).\nSince \\(AB = BC = 5\\) and \\(CA = 6\\), two sides are equal, so it is an isosceles triangle. Also check if right: \\(5^2 + 5^2 = 50 \\neq 36\\), so not right-angled. If a student only checks two sides or assumes from coordinates without calculation, they are guessing. If they say equilateral, they miscalculated CA. If they say right-angled, they might have used the wrong combination of sides.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved the problem: \"Find the point on the x-axis equidistant from \\(A(2, -5)\\) and \\(B(-2, 9)\\).\" Their solution: Let the point be \\(P(x, 0)\\). Then \\(PA = PB \\Rightarrow \\sqrt{(x-2)^2 + (0+5)^2} = \\sqrt{(x+2)^2 + (0-9)^2}\\). Squaring: \\((x-2)^2 + 25 = (x+2)^2 + 81\\). Expanding: \\(x^2 -4x +4 +25 = x^2 +4x +4 +81\\). Then \\(-4x +29 = 4x +85 \\Rightarrow -8x = 56 \\Rightarrow x = -7\\). The student concludes the point is \\((-7, 0)\\). Evaluate the correctness of this solution.",
+     "a": "The solution is completely correct. The student correctly set up the equidistance condition, squared both sides to remove square roots, expanded correctly, simplified, and solved for \\(x\\). They also correctly placed the point on the x-axis as \\((x, 0)\\). The arithmetic is accurate: \\(-4x + 29 = 4x + 85 \\rightarrow -8x = 56 \\rightarrow x = -7\\). If a student thought there was an error, they might have mistakenly expanded \\((x-2)^2\\) as \\(x^2 - 4\\) or mishandled the signs of the y-coordinates (e.g., using \\(0-5\\) instead of \\(0+5\\) for point A). The answer \\((-7, 0)\\) is correct.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (in an Indian context) that requires using the distance formula to find an unknown coordinate. The problem should involve at least two steps: first finding a distance, then using that distance to find the unknown. Provide the problem statement and a brief solution outline.",
+     "a": "Problem: \"Rohan's house is at \\(H(1, 2)\\) and his school is at \\(S(4, 6)\\). He cycles to a tuition centre \\(T\\) on the y-axis such that the distance from his house to the tuition centre is equal to the distance from his school to the tuition centre. Find the coordinates of the tuition centre.\"\nSolution outline: Let \\(T(0, y)\\). Distance \\(HT = \\sqrt{(0-1)^2 + (y-2)^2}\\). Distance \\(ST = \\sqrt{(0-4)^2 + (y-6)^2}\\). Set equal, square, solve for \\(y\\). This yields \\(y = \\frac{31}{8} = 3.875\\). A good problem will have clear coordinates, a constraint (on y-axis), and require setting up an equation. A poor answer might give a problem that doesn't need the distance formula (e.g., just midpoint) or has no unknown coordinate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

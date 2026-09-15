@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_010",
+   "title": "c10_math_cbse_03_010",
+   "questions": [
+    {
+     "q": "What are the expressions for downstream speed and upstream speed if the speed of a boat in still water is x km/h and the speed of the stream is y km/h?",
+     "a": "Downstream speed = (x + y) km/h, Upstream speed = (x - y) km/h. A wrong answer like (x - y) for downstream reveals the student confuses the direction of current assistance. Writing (y - x) for upstream shows they don't understand that boat speed must exceed stream speed for upstream travel to be possible.",
+     "self_check": true
+    },
+    {
+     "q": "A boat travels 30 km downstream in 2 hours and 30 km upstream in 3 hours. A student writes the equations: 30 = (x+y)×2 and 30 = (x-y)×3. Is this correct? Explain why or why not.",
+     "a": "Yes, it is correct. Downstream: distance 30 = (x+y)×2. Upstream: distance 30 = (x-y)×3. A student who writes 30 = (x-y)×2 for downstream has swapped the times, showing they don't connect \"downstream = faster = less time for same distance\". If they write 30 = (x+y)×3 for downstream, they misunderstand that downstream speed is greater, so time should be smaller for equal distance.",
+     "self_check": true
+    },
+    {
+     "q": "A boat goes 16 km upstream and 24 km downstream in 6 hours. It goes 12 km upstream and 36 km downstream in the same time. Find the speed of the boat in still water and the speed of the stream.",
+     "a": "Let boat speed = x km/h, stream speed = y km/h.\nUpstream speed = (x-y), Downstream speed = (x+y).\nTrip 1: 16/(x-y) + 24/(x+y) = 6\nTrip 2: 12/(x-y) + 36/(x+y) = 6\nLet u = 1/(x-y), v = 1/(x+y). Then: 16u + 24v = 6 and 12u + 36v = 6.\nSolve: Multiply first by 3, second by 4: 48u+72v=18, 48u+144v=24. Subtract: 72v=6 → v=1/12. Then 16u+24(1/12)=6 → 16u+2=6 → u=1/4.\nSo 1/(x-y)=1/4 → x-y=4. 1/(x+y)=1/12 → x+y=12.\nAdding: 2x=16 → x=8 km/h. Then y=4 km/h.\nAnswer: Boat speed = 8 km/h, Stream speed = 4 km/h.\nA wrong answer like x=4, y=8 (swapped) reveals the student solved u,v correctly but swapped x-y and x+y assignments. Negative y indicates they got signs wrong in elimination.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same upstream/downstream problem. Student A uses substitution method after setting u=1/(x-y), v=1/(x+y). Student B uses elimination directly on the equations with denominators. Compare the two approaches. Which is less error-prone and why?",
+     "a": "Student A's substitution (u,v) method is less error-prone. It converts the non-linear rational equations into linear equations in u and v, avoiding algebraic mistakes with denominators and cross-multiplication. Student B's direct elimination requires handling LCM of (x-y)(x+y), increasing chances of sign errors and algebraic slips. A student who prefers direct elimination but makes frequent sign errors reveals weak algebraic manipulation skills. The u,v substitution is the standard CBSE-recommended approach for this problem type.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem and gets boat speed = 10 km/h, stream speed = 12 km/h. The problem states the boat goes upstream. Is this solution valid? Justify your answer.",
+     "a": "No, the solution is invalid. Upstream speed = x - y = 10 - 12 = -2 km/h, which is impossible (negative speed means the boat cannot move upstream; the stream is faster than the boat). The student likely made a sign error while solving the equations or swapped x and y. A valid solution must have x > y > 0. If a student says \"it's fine, speed can be negative\", they lack physical interpretation of the mathematical solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create an upstream/downstream problem where the speed of the boat in still water is 15 km/h and the speed of the stream is 3 km/h. The problem should ask for the time taken to go a certain distance upstream and downstream. Provide the distances and total time that would yield these speeds.",
+     "a": "Sample problem: \"A boat with speed 15 km/h in still water goes 36 km upstream and 54 km downstream. The stream speed is 3 km/h. Find the total time taken.\" (Upstream speed=12, time=3h; Downstream speed=18, time=3h; Total=6h). Or: \"A boat goes 24 km upstream and 36 km downstream in 5 hours. The stream speed is 3 km/h. Find the boat speed in still water.\" A poor answer gives distances/times that don't match the speeds (e.g., upstream distance 30 km in 2 hours with stream 3 km/h would require boat speed 18 km/h, not 15). This reveals the student cannot reverse-engineer the Distance = Speed × Time relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

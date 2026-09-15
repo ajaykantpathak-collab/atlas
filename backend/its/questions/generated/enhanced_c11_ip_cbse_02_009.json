@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_009",
+   "title": "c11_ip_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the output of the following code and why?\n```python\nx = 10\nprint(id(x))\nx = x + 1\nprint(id(x))\n```",
+     "a": "The two `id()` values will be **different**. Integers are immutable in Python; `x = x + 1` creates a new integer object `11` and rebinds `x` to it. The original object `10` remains unchanged. A wrong answer (claiming same `id`) reveals the student thinks integers are mutable or that `+=` always mutates in-place.",
+     "self_check": true
+    },
+    {
+     "q": "What is the output of the following code and why?\n```python\nlst = [1, 2]\nprint(id(lst))\nlst.append(3)\nprint(id(lst))\n```",
+     "a": "The two `id()` values will be the **same**. Lists are mutable; `append()` modifies the list object in-place without creating a new list. A wrong answer (claiming different `id`) reveals the student incorrectly generalises from immutable types or confuses `append()` with `lst = lst + [3]` (which creates a new list).",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output and explain:\n```python\ndef modify(x):\n    x = x + [99]\n\nmy_list = [1, 2]\nmodify(my_list)\nprint(my_list)\n```",
+     "a": "Output: `[1, 2]`. The parameter `x` is a local reference to the same list object. `x = x + [99]` creates a **new list** (because `+` on lists returns a new list) and rebinds the local `x` to it. The original `my_list` is untouched. A wrong answer (`[1, 2, 99]`) reveals the student thinks `+` mutates in-place or that parameter reassignment affects the caller's variable.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output and explain:\n```python\ndef modify(x):\n    x.append(99)\n\nmy_list = [1, 2]\nmodify(my_list)\nprint(my_list)\n```",
+     "a": "Output: `[1, 2, 99]`. The parameter `x` refers to the **same list object** as `my_list`. `append()` mutates that object in-place. Since no rebinding of `x` occurs, the caller's list is modified. A wrong answer (`[1, 2]`) reveals the student thinks function parameters are always pass-by-value (copies) or that `append()` creates a new list.",
+     "self_check": true
+    },
+    {
+     "q": "Which of the following operations on a tuple `t = (1, 2)` will raise an error, and which will create a new tuple? Explain each.\n(a) `t[0] = 10`\n(b) `t = t + (3,)`\n(c) `t += (3,)`",
+     "a": "(a) **TypeError** — tuples are immutable; item assignment is forbidden. (b) **New tuple** — `+` on tuples returns a new tuple; `t` is rebound. (c) **New tuple** — `+=` on immutable types is equivalent to `t = t + (3,)`; it does **not** mutate in-place. A wrong answer (claiming (c) mutates in-place) reveals the dangerous misconception that `+=` always means in-place mutation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `safe_append(lst, val)` that appends `val` to `lst` **without modifying the original list** passed by the caller. Write the code and explain why your solution works.",
+     "a": "```python\ndef safe_append(lst, val):\n    new_lst = lst.copy()  # or lst[:] or list(lst)\n    new_lst.append(val)\n    return new_lst\n```\nThis works because `copy()` creates a **shallow copy** (new list object with same elements). `append()` then mutates the copy, leaving the original untouched. A poor answer (e.g., `lst.append(val); return lst`) reveals the student cannot distinguish between mutating the original vs creating a new object.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

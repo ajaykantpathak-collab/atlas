@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_unknown_kepy104",
+ "concepts": [
+  {
+   "id": "kepy104.1.1",
+   "title": "Sensory Processes and the Nature of Stimuli",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sensory Processes and the Nature of Stimuli' refers to.",
+     "a": "Knowing the world begins with sensory processes: receptors in eyes, ears, skin, nose and mouth convert physical energy -- light, sound, pressure, molecules -- into neural signals. Each sense responds to its own stimulus within limits of intensity, so the world we register is only the band our receptors can catch.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sensory Processes and the Nature of Stimuli'.",
+     "a": "Senses are translators -- physical energy in, neural code out -- and each translates only its own band.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sensory Processes and the Nature of Stimuli' taught, and from which source text?",
+     "a": "4.1 (source: kepy104.txt sensory sections (nature of sensory processes, receptors, stimuli, modalities of sense))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kepy104.1.2",
+   "title": "Attention: Selectivity and Its Determinants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Attention: Selectivity and Its Determinants' refers to.",
+     "a": "Attention selects a few stimuli for full processing and screens out the rest -- a spotlight with narrow beams. Its focus is driven both by stimulus properties (intensity, novelty, movement, contrast) and by personal factors (motive, interest, expectation), which is why the same lecture holds one student and bores another.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attention: Selectivity and Its Determinants'.",
+     "a": "Attention is a bouncer at the door of mind -- stimuli loud, new or interesting get in; the rest wait outside.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Attention: Selectivity and Its Determinants' taught, and from which source text?",
+     "a": "4.2 (source: kepy104.txt attention sections (processes and types of attention, determinants of attention, selectivity, span of attention))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kepy104.1.3",
+   "title": "Perception: Organisation of Sensation into Meaning",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Perception: Organisation of Sensation into Meaning' refers to.",
+     "a": "Perception turns sensations into meaningful wholes: figures against grounds, grouped elements, completed outlines and depth read from cues. It is shaped by learning and motivation -- the same ambiguous drawing becomes a duck or a rabbit depending on the perceiver -- so perception is a construction, not a photograph.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Perception: Organisation of Sensation into Meaning'.",
+     "a": "Perception is the mind's rendering -- sensations are raw pixels; meaning is drawn in by the perceiver.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Perception: Organisation of Sensation into Meaning' taught, and from which source text?",
+     "a": "4.3 (source: kepy104.txt perception sections (form and space perception, figure ground, grouping, depth perception, principles of perceptual organisation, perceptual constancy))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

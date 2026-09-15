@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_005",
+   "title": "c7_physics_ch02_005",
+   "questions": [
+    {
+     "q": "What is the primary energy conversion that takes place inside a glowing electric lamp connected in a simple circuit?",
+     "a": "An electric lamp converts electrical energy into light energy and thermal energy (heat). A student who answers \"light energy only\" is forgetting that incandescent bulbs also release a significant amount of heat due to resistance, demonstrating an incomplete view of energy conservation in electrical components.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the filament of a traditional incandescent electric lamp made of tungsten rather than a thick copper wire?",
+     "a": "Tungsten has a very high melting point and high electrical resistance, which allows it to heat up to glowing temperatures without melting. A student who thinks copper should be used confuses good conductivity with heating ability; copper has low resistance and would remain cool, conducting current without glowing or producing light.",
+     "self_check": true
+    },
+    {
+     "q": "A small flashlight bulb has a resistance of $5\\,\\Omega$ and draws a current of $0.6\\,\\text{A}$ from a cell. Calculate the electrical power dissipated by the bulb if power is given by the product of current squared and resistance ($P = I^2 \\times R$), and state its unit.",
+     "a": "Given: Current ($I$) = $0.6\\,\\text{A}$, Resistance ($R$) = $5\\,\\Omega$.\nStep 1: Identify the formula for electrical power: $P = I^2 \\times R$.\nStep 2: Substitute the given values with units: $P = (0.6\\,\\text{A})^2 \\times 5\\,\\Omega$.\nStep 3: Square the current: $(0.6\\,\\text{A})^2 = 0.36\\,\\text{A}^2$.\nStep 4: Multiply by resistance: $0.36 \\times 5 = 1.8$. Tracking units ($\\text{A}^2 \\times \\Omega = \\text{W}$), we get $1.8\\,\\text{W}$.\nAnswer: $1.8\\,\\text{W}$. A student who gets $3.0\\,\\text{W}$ likely multiplied $0.6 \\times 5$ without squaring the current, showing a failure to follow the correct power formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to an electric lamp in a circuit if the thin filament inside the glass bulb breaks (forms a gap). Explain the physical reason using the concept of circuit continuity.",
+     "a": "When the filament breaks, the circuit becomes an open circuit because there is a break in the conducting path for the electric current. Since current cannot jump across the air gap in a low-voltage domestic or torch circuit, the current drops to zero, and the lamp immediately stops glowing. A student who believes the lamp will still glow dimly is ignoring the fundamental requirement of a closed, continuous loop for current flow.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An electric lamp creates new energy inside the bulb to make light.\" Is this statement scientifically correct according to the law of conservation of energy?",
+     "a": "The statement is incorrect because energy cannot be created or destroyed; it can only be transformed from one form to another. The electric lamp does not create energy; it converts electrical energy supplied by the source (cell or battery) into light and heat energy. A student who agrees with the statement fails to understand the principle of energy conservation in electrical appliances.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using a torch bulb, a dry cell, and connecting wires to test whether a glass bulb filled with air behaves differently if the glass is cracked, and predict the outcome.",
+     "a": "To test this, connect a functional torch bulb in a circuit so it glows, then carefully crack the outer glass casing (under teacher supervision or using an already fused bulb) so air reaches the hot tungsten filament. The student should predict that the glowing filament will instantly burn out and turn black. A poor answer would suggest the bulb continues to shine normally, failing to account for the fact that hot tungsten reacts with oxygen in the air and oxidizes (burns out) instantly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "catalog": "catalog_class8_science_hecu106.json",
+ "concepts": [
+  {
+   "id": "hecu.106.6.1",
+   "title": "Pressure: Force per Unit Area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "pressure",
+     "expr": "force / area",
+     "explain": "pressure = force divided by area of contact"
+    },
+    {
+     "step": 2,
+     "name": "per_sq_cm",
+     "expr": "force / (area * 10000)",
+     "explain": "pressure in newtons per square centimetre"
+    },
+    {
+     "step": 3,
+     "name": "pressure_with_half_area",
+     "expr": "pressure * 2",
+     "explain": "halving the area doubles the pressure"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 300 N crate rests on 1.5 sq m of floor. Find the pressure, and the pressure if the base is halved.",
+     "vals": {
+      "force": 300,
+      "area": 1.5
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "400 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A camel of 4000 N stands on feet of total area 0.2 sq m. Calculate the pressure on sand.",
+     "vals": {
+      "force": 4000,
+      "area": 0.2
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "40000 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A 100 N force presses a piston of 0.004 sq m. Find the pressure, and for half the area.",
+     "vals": {
+      "force": 100,
+      "area": 0.004
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "50000 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A drawing pin is pushed with 25 N on a tip of 0.0000005 sq m. What pressure results?",
+     "vals": {
+      "force": 25,
+      "area": 5e-07
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "100000000 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A 450 N student sits on a chair seat of 0.09 sq m. Compute the pressure on the seat.",
+     "vals": {
+      "force": 450,
+      "area": 0.09
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "10000 N/m2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hecu.106.6.2",
+   "title": "Pressure Exerted by Air",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does atmospheric pressure not crush us?",
+     "a": "The pressure of blood and body fluids pushes out equally, balancing the air pressure.",
+     "self_check": true
+    },
+    {
+     "q": "How does a rubber sucker stick to a wall?",
+     "a": "Pressing it drives air out; the atmospheric pressure holds it firmly against the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Why do our ears pop on hills or in aeroplanes?",
+     "a": "Air pressure falls with height; air inside the ear escapes to balance the difference.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.106.6.3",
+   "title": "Wind Formation by Pressure Difference",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do pressure differences create wind?",
+     "a": "Air rushes from high-pressure regions to low-pressure ones - this moving air is wind.",
+     "self_check": true
+    },
+    {
+     "q": "What creates a low-pressure region on hot land?",
+     "a": "Hot air expands, becomes light and rises, lowering the pressure below.",
+     "self_check": true
+    },
+    {
+     "q": "Name a daily wind caused by pressure difference.",
+     "a": "The sea breeze that blows from cool sea to hot land by day.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.106.6.4",
+   "title": "High-Speed Winds Lower Pressure",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do strong winds reduce pressure over a roof?",
+     "a": "Fast-moving air has low pressure, so air inside the house pushes the roof up - sometimes off.",
+     "self_check": true
+    },
+    {
+     "q": "How does this explain flying of kites and aeroplanes?",
+     "a": "Fast air over the kite or wing lowers pressure above, and the higher pressure below lifts it.",
+     "self_check": true
+    },
+    {
+     "q": "State one safety step during a storm with high winds.",
+     "a": "Stay indoors away from windows; loose sheets and signs must be fastened beforehand.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.106.6.5",
+   "title": "Storms, Thunderstorms and Lightning Safety",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a thunderstorm?",
+     "a": "A storm with heavy rain, strong winds, lightning and thunder, formed in hot humid weather with rising moist air.",
+     "self_check": true
+    },
+    {
+     "q": "How is lightning related to a thunderstorm?",
+     "a": "Charges separate inside storm clouds and discharge as lightning, whose sound we hear as thunder.",
+     "self_check": true
+    },
+    {
+     "q": "Why should we avoid water and wires during a thunderstorm?",
+     "a": "Water and metal conduct electricity - lightning can travel through taps, pipes and cables.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.106.6.6",
+   "title": "Cyclones",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a cyclone?",
+     "a": "A huge spinning storm of very low pressure with strong winds and heavy rain, born over warm seas.",
+     "self_check": true
+    },
+    {
+     "q": "Why do cyclones weaken after reaching land?",
+     "a": "Cut off from warm sea moisture that feeds them, they lose strength quickly.",
+     "self_check": true
+    },
+    {
+     "q": "Name two safety steps when a cyclone warning is issued.",
+     "a": "Move to cyclone shelters, store drinking water and food, and follow weather bulletins.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

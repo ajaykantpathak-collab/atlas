@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_003",
+   "title": "c12_acc_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the default profit-sharing ratio between partners when no partnership deed exists, and cite the specific section of the Indian Partnership Act, 1932.",
+     "a": "Equal sharing (1:1) regardless of capital contribution, per Section 13(b) of the Indian Partnership Act, 1932. A wrong answer (e.g., \"in capital ratio\" or \"as mutually agreed\") reveals the student mistakenly believes capital contribution determines profit share by default, confusing company law (shareholding) with partnership law.",
+     "self_check": true
+    },
+    {
+     "q": "Arjun and Priya are partners without a deed. Arjun contributed ₹8,00,000 capital; Priya contributed ₹2,00,000. Arjun claims 80% of profits. Priya claims 50%. Explain why Priya is legally correct, and identify the misconception in Arjun's claim.",
+     "a": "Priya is correct because Section 13(b) mandates equal profit sharing irrespective of capital. Arjun's misconception: he applies company law logic (dividend ∝ shareholding) to partnership. In partnership, partners are agents of each other; the Act treats them as equal co-owners unless a deed specifies otherwise. Capital only affects loss-bearing capacity on dissolution, not ongoing profit share.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership without a deed has three partners: X, Y, Z. X advances a loan of ₹5,00,000 to the firm. The firm earns ₹3,00,000 profit before interest. Calculate the interest X is entitled to, the journal entry for it, and the remaining profit to be distributed equally.",
+     "a": "Interest = ₹5,00,000 × 6% = ₹30,000 (Section 13(c) proviso). Journal: Profit & Loss Appropriation A/c Dr. 30,000 → To X's Loan A/c 30,000. Remaining profit = ₹2,70,000 → distributed equally ₹90,000 each. A wrong answer (e.g., 12% interest, or charging interest on capital) shows confusion between \"interest on loan\" (statutory right) vs \"interest on capital\" (not allowed without deed).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Interest on partner's loan vs (b) Interest on partner's capital under the default rules of the Partnership Act. Why does the Act allow one but not the other?",
+     "a": "(a) Interest on loan: 6% p.a. mandatory, charge against profit (deducted before distribution), payable even in loss. (b) Interest on capital: Not allowed at all without deed. Reason: A loan is an external liability — the partner is a creditor; the firm must compensate for use of funds. Capital is internal risk capital — partners share profits/losses as co-owners; return comes via profit share, not fixed interest. Allowing interest on capital would convert partnership into a fixed-return arrangement, defeating the mutual agency principle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a partnership without a deed, a working partner who devotes full time to the business can claim a monthly salary of ₹50,000 from firm's profits.\" Defend or refute with legal basis.",
+     "a": "Refute. Section 13(a) explicitly states: \"No partner is entitled to receive any remuneration for taking part in the conduct of the business.\" The Act assumes partners work for the firm as owners, not employees. Remuneration is only possible via a partnership deed. A student agreeing with the statement confuses partnership with employment or ignores the statutory prohibition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where three partners (A, B, C) without a deed face a conflict involving: (i) profit sharing, (ii) interest on capital, (iii) admission of a new partner. Write the correct resolution for each conflict citing the relevant Act sections.",
+     "a": "Scenario: A (₹10L capital), B (₹5L), C (₹1L). Conflict 1: A demands 10:5:1 profit split. Resolution: Equal 1:1:1 (Sec 13(b)). Conflict 2: A demands 12% interest on capital. Resolution: Not allowed (Sec 13(c)). Conflict 3: A and B want to admit D; C objects. Resolution: Admission requires unanimous consent (Sec 31); C's veto stands. A good answer cites all three sections; a poor answer misses the unanimous consent rule or allows interest on capital.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

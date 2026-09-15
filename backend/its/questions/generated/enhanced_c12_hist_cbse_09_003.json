@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_003",
+   "title": "c12_hist_cbse_09_003",
+   "questions": [
+    {
+     "q": "In which region and year was the Mahalwari System first introduced, and who was the key architect?",
+     "a": "The Mahalwari System was first introduced in 1822 in the North-Western Provinces (present-day Uttar Pradesh) under Holt Mackenzie through Regulation IX. A wrong answer (e.g., Bengal 1793 or Madras 1820s) reveals confusion between the three major revenue systems and their architects — a common error where students conflate Cornwallis, Munro, and Mackenzie.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the British choose the village community (mahal) as the unit of revenue settlement in the North-Western Provinces instead of individual cultivators or zamindars?",
+     "a": "The British recognized the existing village co-sharing bodies (bhaichara and mahalwari tenure) where land was jointly held and revenue traditionally collected collectively. They believed this would ensure easier collection, reduce the need for a large bureaucracy, and preserve a \"natural\" Indian institution. A wrong answer that says \"to protect peasants\" or \"because zamindars were absent\" misses the pragmatic administrative reasoning and the influence of Mughal revenue traditions on British policy.",
+     "self_check": true
+    },
+    {
+     "q": "A village under the Mahalwari System has a total assessed rental value of Rs 10,000. Under the 1833 revision, the state demand is fixed at 2/3 of the rental value. If the village has 20 co-sharers, what is the average revenue liability per co-sharer, and what happens if one co-sharer defaults?",
+     "a": "State demand = 2/3 × 10,000 = Rs 6,666.67. Average liability per co-sharer = 6,666.67 / 20 = Rs 333.33. Under joint liability, if one defaults, the remaining co-sharers must cover the shortfall. A wrong calculation (e.g., using 1/2 or full rental value) or missing the joint liability clause shows the student hasn't grasped the 1833 revision's severity and the collective responsibility that drove peasants to moneylenders.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mahalwari System with the Permanent Settlement and Ryotwari System on these four dimensions: (a) unit of settlement, (b) permanence of revenue demand, (c) role of intermediaries, (d) state's share of surplus. Present as a structured comparison.",
+     "a": "(a) Mahalwari: village community (mahal); Permanent: zamindar; Ryotwari: individual ryot. (b) Mahalwari: periodic revision (20-30 years); Permanent: permanent; Ryotwari: periodic (30 years). (c) Mahalwari: no intermediary, village headman (lambardar) as state agent; Permanent: zamindar as intermediary; Ryotwari: no intermediary, direct state-ryot. (d) Mahalwari: 2/3 of rental value (1833); Permanent: fixed at 1793 level (10/11 of rental); Ryotwari: 1/2 to 2/3 of net produce. A confused comparison indicates the student cannot systematize the three systems — a critical skill for board essay questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"The Mahalwari System was more peasant-friendly than the Permanent Settlement because it eliminated the zamindar.\" Use evidence from the 1833 revision and its impact on village power structures.",
+     "a": "The claim is partially true but misleading. While the zamindar was removed, the state demand of 2/3 of rental value (1833) was higher than the Permanent Settlement's effective rate (which declined over time due to price rise). Joint liability forced peasants to borrow from moneylenders to cover defaults, leading to land alienation. Village headmen (lambardars) often became de facto intermediaries, exploiting co-sharers. Thus, the system replaced one form of extraction with another, arguably more intense due to periodic revisions. A one-sided \"yes\" or \"no\" without this nuance fails the evaluative requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1822–1857) showing the key legislative and administrative changes in the Mahalwari System, and annotate each with its impact on the village community.",
+     "a": "1822: Regulation IX (Holt Mackenzie) — introduces village settlement, joint liability, lambardar as collector. 1833: Regulation VII (Bentinck) — raises state demand to 2/3 rental value, shortens settlement to 30 years, strengthens lambardar powers. 1840s: Surveys by Robert Merttins Bird — detailed measurement, classification of soils, further increases demand. 1855: Saharanpur Rules — codify procedures, but demand remains high. 1857: Revolt erupts in Mahalwari areas (Meerut, Delhi, Awadh) — peasant grievances over revenue and land loss fuel participation. A bare timeline without annotations shows the student treats history as dates, not processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

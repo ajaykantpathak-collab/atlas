@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_5",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_5",
+   "title": "c9_bio_ch4_5",
+   "questions": [
+    {
+     "q": "Name the five kingdoms in Whittaker's classification and state the primary criterion used to separate Monera from the other four kingdoms.",
+     "a": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia. The primary criterion separating Monera is cell structure: Monera consists of prokaryotic cells (no true nucleus, no membrane-bound organelles), while the other four kingdoms consist of eukaryotic cells. A wrong answer—such as listing \"Bacteria\" as a separate kingdom or citing nutrition mode as the main separator—reveals the student is memorizing names without understanding the hierarchical logic: cell structure is the deepest evolutionary divide, so it defines the first split.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Mushrooms are plants because they grow in soil and don't move.\" Using Whittaker's criteria, explain why this reasoning is incorrect and which kingdom mushrooms actually belong to.",
+     "a": "Mushrooms belong to Kingdom Fungi, not Plantae. Whittaker separates them using mode of nutrition: fungi are heterotrophic (absorptive saprotrophs), while plants are autotrophic (photosynthetic). Additionally, fungal cell walls are made of chitin, not cellulose. The student's error stems from using superficial traits (habitat, mobility) instead of the defined criteria—nutrition mode and cell wall composition—which reflect fundamental biochemical and evolutionary differences.",
+     "self_check": true
+    },
+    {
+     "q": "You find a slimy, yellowish mass on a decaying log in the Western Ghats during monsoon. It moves slowly, engulfing bacteria. Under a microscope, its cells have a true nucleus but no cell wall. Classify this organism into the correct kingdom and justify each step using Whittaker's criteria.",
+     "a": "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) → excludes multicellular Plantae, Fungi, Animalia. Step 3: Nutrition—phagocytic/heterotrophic → excludes autotrophic Plantae. Step 4: No cell wall → excludes Fungi (chitin) and Plantae (cellulose). Step 5: Motility and phagocytosis are animal-like but it's unicellular → fits Protista, the \"catch-all\" kingdom for eukaryotes not fitting the other three.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the nutritional strategies of Kingdom Fungi and Kingdom Animalia. Why did Whittaker place them in separate kingdoms despite both being heterotrophic?",
+     "a": "Both are heterotrophic, but fungi are absorptive saprotrophs (secrete enzymes, absorb nutrients) while animals are ingestive heterotrophs (ingest solid food, internal digestion). Fungi have cell walls (chitin), are non-motile (except some spores), and store glycogen; animals lack cell walls, are mostly motile, and also store glycogen. Whittaker separated them because nutrition mechanism (absorption vs ingestion), cell wall presence, and body organization (fungi: filamentous hyphae/mycelium; animals: true tissues/organs) represent distinct evolutionary lineages.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook from 1950 classifies Nostoc (a cyanobacterium) in Kingdom Plantae because it is photosynthetic and has a cell wall. Evaluate this classification using Whittaker's criteria and explain why it misrepresents evolutionary history.",
+     "a": "The 1950 classification is incorrect. Nostoc is prokaryotic (no true nucleus, no membrane-bound organelles) → Kingdom Monera. Plantae requires eukaryotic cells. Grouping Nostoc with plants based on photosynthesis and cell wall is convergent evolution—similar traits evolved independently. Whittaker's system uses cell structure as the primary criterion because it reflects deep ancestry; placing prokaryotes with eukaryotes obscures the fundamental evolutionary split that occurred ~3.5 billion years ago.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key using only Whittaker's three criteria (cell structure, body organization, nutrition mode) that can distinguish all five kingdoms. Test your key with these organisms: Lactobacillus, Paramecium, Penicillium, Neem tree, Housefly.",
+     "a": "Key: 1a. Prokaryotic cell → Monera (Lactobacillus). 1b. Eukaryotic cell → go to 2. 2a. Unicellular/colonial → go to 3. 2b. Multicellular → go to 4. 3a. Autotrophic/photosynthetic → Protista (e.g., Euglena). 3b. Heterotrophic → Protista (Paramecium). 4a. Autotrophic, cell wall cellulose → Plantae (Neem). 4b. Heterotrophic → go to 5. 5a. Absorptive nutrition, cell wall chitin → Fungi (Penicillium). 5b. Ingestive nutrition, no cell wall → Animalia (Housefly). A poor key uses habitat or mobility, showing the student hasn't internalized the criteria hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

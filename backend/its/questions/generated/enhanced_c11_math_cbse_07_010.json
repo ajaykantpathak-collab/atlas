@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_010",
+   "title": "c11_math_cbse_07_010",
+   "questions": [
+    {
+     "q": "State the formula for the number of combinations of \\( n \\) distinct objects taken \\( r \\) at a time, and write the condition on \\( r \\) for the formula to be valid.",
+     "a": "The formula is \\( ^nC_r = \\frac{n!}{r!(n-r)!} \\) with the condition \\( 0 \\le r \\le n \\) and \\( n \\) a non-negative integer. A wrong answer like \\( ^nC_r = \\frac{n!}{(n-r)!} \\) (missing \\( r! \\) in denominator) reveals the student is confusing combinations with permutations \\( ^nP_r \\). Writing \\( r > n \\) as valid shows they don't understand the physical meaning: you cannot choose more objects than available.",
+     "self_check": true
+    },
+    {
+     "q": "In a word problem, the phrase \"a committee of 4 is to be formed from 10 people\" appears. Explain why this is a combination problem and not a permutation problem. Give a concrete example with names to illustrate.",
+     "a": "It is a combination because the committee {A, B, C, D} is identical to {D, C, B, A} — the order of selection does not create a new committee. If the problem said \"choose a President, Vice-President, Secretary, Treasurer from 10 people,\" then order would matter (permutation). A wrong answer claiming \"committees have order\" or giving an example where swapping names changes the committee reveals the student cannot distinguish selection (combination) from arrangement (permutation).",
+     "self_check": true
+    },
+    {
+     "q": "A class has 15 students: 9 boys and 6 girls. A team of 5 students is to be selected such that the team includes exactly 3 girls. How many such teams can be formed? Show all steps.",
+     "a": "Step 1: Identify girls = 6, boys = 9, team size = 5, exactly 3 girls ⇒ 2 boys.\nStep 2: Choose 3 girls from 6: \\( ^6C_3 = \\frac{6!}{3!3!} = 20 \\).\nStep 3: Choose 2 boys from 9: \\( ^9C_2 = \\frac{9!}{2!7!} = 36 \\).\nStep 4: By Fundamental Principle of Counting, total teams = \\( 20 \\times 36 = 720 \\).\nA wrong answer like \\( ^{15}C_5 = 3003 \\) ignores the gender constraint. An answer \\( ^6C_3 + ^9C_2 = 56 \\) adds instead of multiplying, showing confusion between \"AND\" (multiply) and \"OR\" (add) in counting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of ways to select a cricket team of 11 players from 15 players if (a) a particular player is always included, (b) a particular player is never included. Which is larger? Justify without computing the exact values.",
+     "a": "Case (a): 1 player fixed, choose remaining 10 from 14 ⇒ \\( ^{14}C_{10} = ^{14}C_4 \\).\nCase (b): 1 player excluded, choose 11 from remaining 14 ⇒ \\( ^{14}C_{11} = ^{14}C_3 \\).\nSince \\( ^{14}C_4 > ^{14}C_3 \\) (binomial coefficients increase up to the middle), case (a) has more ways. A wrong answer claiming they are equal or that (b) is larger reveals the student doesn't know the symmetry property \\( ^nC_r = ^nC_{n-r} \\) or the unimodal nature of binomial coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"From 5 men and 3 women, a committee of 4 with at least 1 woman is to be formed.\" Their working: Total ways = \\( ^8C_4 = 70 \\). Ways with no women = \\( ^5C_4 = 5 \\). Answer = \\( 70 - 5 = 65 \\). Is this correct? If yes, explain why the complement method works. If no, find the error.",
+     "a": "The solution is correct. The complement of \"at least 1 woman\" is \"0 women\" (all men). Total unrestricted selections = \\( ^8C_4 \\). Selections with 0 women = choose 4 men from 5 = \\( ^5C_4 \\). By complement rule, desired = Total − Unwanted. A student who says \"incorrect, should add cases for 1, 2, 3 women\" doesn't recognize the complement method as valid and efficient. A student who computes \\( ^3C_1 \\times ^5C_3 + ^3C_2 \\times ^5C_2 + ^3C_3 \\times ^5C_1 \\) and gets 65 shows understanding but misses the elegant shortcut.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem that requires using the identity \\( ^nC_r + ^nC_{r-1} = ^{n+1}C_r \\) to simplify the calculation. The problem must have a real-world context (e.g., sports, school, shopping) and involve a constraint that naturally splits into two cases whose sum matches the identity.",
+     "a": "Example: \"A basketball squad of 12 players includes 2 captains. A team of 5 is to be chosen such that exactly one captain is included. In how many ways?\" \nCase 1: Captain A included, Captain B excluded ⇒ choose 4 from remaining 10: \\( ^{10}C_4 \\).\nCase 2: Captain B included, Captain A excluded ⇒ choose 4 from remaining 10: \\( ^{10}C_4 \\).\nTotal = \\( 2 \\times ^{10}C_4 \\). This does NOT directly use the identity. \nBetter problem: \"From 10 students, a team of 4 is to be selected. Two particular students, A and B, refuse to be together. How many teams?\" \nTotal = \\( ^{10}C_4 \\). Teams with both A and B = \\( ^8C_2 \\). Answer = \\( ^{10}C_4 - ^8C_2 \\). \nUsing identity: \\( ^{10}C_4 = ^9C_4 + ^9C_3 \\), and \\( ^8C_2 = ^9C_3 - ^8C_3 \\)... \nA good student-created problem: \"A pizza place offers 10 toppings. A customer wants a pizza with 4 toppings but insists that if topping A is chosen, topping B must also be chosen. How many choices?\" \nCase 1: Neither A nor B chosen ⇒ choose 4 from 8: \\( ^8C_4 \\).\nCase 2: Both A and B chosen ⇒ choose 2 from remaining 8: \\( ^8C_2 \\).\nTotal = \\( ^8C_4 + ^8C_2 \\). This doesn't directly use the identity either. \nIdeal problem using identity: \"In how many ways can a committee of 5 be formed from 11 people if two particular persons must either both be included or both excluded?\" \nCase 1: Both included ⇒ choose 3 from remaining 9: \\( ^9C_3 \\).\nCase 2: Both excluded ⇒ choose 5 from remaining 9: \\( ^9C_5 \\).\nTotal = \\( ^9C_3 + ^9C_5 = ^9C_3 + ^9C_4 = ^{10}C_4 \\) (using \\( ^nC_r = ^nC_{n-r} \\) and identity). \nA poor answer creates a problem without a natural case split matching the identity, or uses permutations instead.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

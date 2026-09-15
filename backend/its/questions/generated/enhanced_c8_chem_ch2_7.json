@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_7",
+   "title": "c8_chem_ch2_7",
+   "questions": [
+    {
+     "q": "Why do liquids take the shape of the container they are poured into, unlike solids?",
+     "a": "Liquids take the container's shape because their particles are not held in fixed positions and can slide past one another freely. A wrong answer often claims that liquid particles expand to fill the entire container, confusing liquids with gases.",
+     "self_check": true
+    },
+    {
+     "q": "If you compress a sealed syringe filled with water, the volume of water barely changes. What does this tell you about the inter-particle space in liquids?",
+     "a": "This tells us that the space between liquid particles is very small, leaving almost no room to push them closer together. A wrong answer might state that particles are widely separated, which confuses liquid structure with gas structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student pours 50 mL of water from a narrow measuring cylinder into a wide flat bowl. Compare the volume and shape of the water in both containers.",
+     "a": "Steps: 1. Identify initial volume and shape in cylinder (50 mL, tall cylindrical shape). 2. Pour into bowl (volume remains 50 mL because liquid particles cannot be compressed easily). 3. Observe new shape (takes the wide, flat shape of the bowl). 4. Conclude that liquids have a fixed volume but variable shape. A wrong answer suggests the volume changes, showing a misunderstanding of liquid incompressibility.",
+     "self_check": true
+    },
+    {
+     "q": "How does increasing the temperature of a liquid generally affect the movement of its particles?",
+     "a": "Increasing temperature supplies thermal energy, causing liquid particles to vibrate and move faster, which slightly weakens their mutual attraction and leads to expansion. A wrong answer might claim that particles stop moving entirely or instantly turn into solids.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Liquid water has a definite volume because its particles are completely stationary and locked in place.\" Is it correct?",
+     "a": "The statement is incorrect. While liquid water does have a definite volume due to close packing and strong attractive forces, its particles are NOT stationary; they constantly move by sliding over one another. A wrong answer shows confusion between the rigidity of solids and the fluidity of liquids.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model using marbles in a shallow box to demonstrate the difference in particle movement between a solid and a liquid. Describe how you would shake the box for each state.",
+     "a": "A good model places marbles packed tightly in a rigid grid for a solid (vibrating in place) versus marbles loosely packed in a layer where they roll and slide over each other when the box is tilted for a liquid. A poor answer fails to show particle mobility in the liquid model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

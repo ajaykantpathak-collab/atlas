@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_011",
+   "title": "c11_phy_cbse_02_011",
+   "questions": [
+    {
+     "q": "A ball is thrown vertically upward with an initial speed of 20 m/s. Taking g = 10 m/s² and upward as positive, what is the velocity of the ball at the highest point of its motion? State the SI unit.",
+     "a": "0 m/s. At the highest point, the instantaneous velocity is momentarily zero before the ball begins its downward motion. A wrong answer (e.g., 20 m/s or -20 m/s) reveals the student confuses initial velocity with velocity at the top, or misunderstands that \"momentarily at rest\" means v = 0 at that instant, not that acceleration is zero (a = -g still acts).",
+     "self_check": true
+    },
+    {
+     "q": "A car moving at 72 km/h applies brakes and stops in 50 m. A student writes: \"u = 72 km/h, v = 0, s = 50 m, find a using v² = u² + 2as\" and gets a = -51.84 m/s². Why is this answer physically unreasonable, and what step did the student skip?",
+     "a": "The student forgot to convert 72 km/h to m/s (72 × 5/18 = 20 m/s). The correct deceleration is -4 m/s². The unreasonable magnitude (-51.84 m/s² ≈ -5.3g) reveals the student treats numerical values as pure numbers without unit consistency. This is the most common unit-conversion error in Class 11 kinematics word problems.",
+     "self_check": true
+    },
+    {
+     "q": "A stone is dropped from a bridge 45 m above a river. Taking g = 10 m/s² and downward as positive, calculate the time taken to hit the water and the velocity just before impact. Show all steps with units.",
+     "a": "Given: u = 0 m/s (dropped), s = +45 m, a = +10 m/s². Find t and v.\nStep 1: s = ut + ½at² → 45 = 0 + ½(10)t² → t² = 9 → t = 3 s (reject negative root).\nStep 2: v = u + at = 0 + 10×3 = 30 m/s downward.\nA wrong t = 9 s or v = 45 m/s reveals misuse of s = vt (constant velocity formula) instead of accelerated motion equations.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars A and B move on a straight road. Car A moves at 20 m/s east. Car B moves at 15 m/s west. A student calculates relative velocity of A with respect to B as 5 m/s. Analyze the error and give the correct relative velocity with direction.",
+     "a": "The student subtracted speeds (20 - 15 = 5) instead of adding velocities with signs. With east as +ve: v_A = +20 m/s, v_B = -15 m/s. v_AB = v_A - v_B = 20 - (-15) = 35 m/s east. The error reveals the student treats relative velocity as scalar difference of speeds, ignoring vector nature and sign convention — a critical senior-secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"A particle moves with constant acceleration. Its velocity increases from 10 m/s to 30 m/s in 5 s. Find the displacement.\" A student uses s = vt with v = 30 m/s and gets s = 150 m. Evaluate this solution and provide the correct displacement.",
+     "a": "The solution is incorrect. s = vt applies only for constant velocity (zero acceleration). Here acceleration is constant but non-zero. Correct method: a = (v-u)/t = (30-10)/5 = 4 m/s². Then s = ut + ½at² = 10×5 + ½×4×25 = 50 + 50 = 100 m. Or s = (u+v)t/2 = (10+30)×5/2 = 100 m. The student's error reveals confusion between average velocity formula (valid for constant a) and constant velocity formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world word problem (Indian context) that requires using TWO kinematic equations sequentially to solve. The problem must involve a change in acceleration (e.g., acceleration phase followed by deceleration phase). Write the problem statement and outline the solution strategy.",
+     "a": "Example: \"A Metro train starts from rest at Station A and accelerates uniformly at 0.5 m/s² for 60 s. It then travels at constant speed for 120 s. Finally it decelerates uniformly at 0.4 m/s² to stop at Station B. Find the distance between stations and total time.\"\nStrategy: Phase 1 (accelerated): v₁ = u + at, s₁ = ut + ½at². Phase 2 (constant v): s₂ = v₁ × t₂. Phase 3 (decelerated): 0 = v₁² + 2(-a₃)s₃ → s₃. Total s = s₁+s₂+s₃. A poor answer uses only one equation for the whole journey, revealing inability to segment multi-stage motion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

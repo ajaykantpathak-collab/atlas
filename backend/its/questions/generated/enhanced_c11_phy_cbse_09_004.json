@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_004",
+   "title": "c11_phy_cbse_09_004",
+   "questions": [
+    {
+     "q": "Define atmospheric pressure and state its SI unit. What is the standard value of atmospheric pressure at sea level in pascals?",
+     "a": "Atmospheric pressure is the pressure exerted by the weight of the air column above a point; its SI unit is pascal (Pa = N/m²). Standard atmospheric pressure at sea level is 1.013 × 10⁵ Pa. A wrong answer (e.g., giving the unit as N/m or stating the value as 1.013 × 10⁵ N/m² without the exponent) reveals confusion between pressure and force, or inability to handle scientific notation and units correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the gauge pressure zero at the free surface of a liquid open to the atmosphere? Explain using the definition of gauge pressure.",
+     "a": "At the free surface, the absolute pressure equals atmospheric pressure (P_absolute = P_atm). By definition, gauge pressure is P_gauge = P_absolute − P_atm = 0. A student who says \"because there is no water above it\" confuses gauge pressure with hydrostatic pressure due to the liquid column alone; they miss that gauge pressure is defined relative to atmospheric pressure, not relative to vacuum.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the gauge pressure and absolute pressure at a depth of 12.0 m in a freshwater lake. Take ρ = 1000 kg/m³, g = 9.8 m/s², and P_atm = 1.01 × 10⁵ Pa.",
+     "a": "Step 1: Gauge pressure P_g = ρgh = (1000 kg/m³)(9.8 m/s²)(12.0 m) = 1.176 × 10⁵ Pa.  \nStep 2: Absolute pressure P_abs = P_atm + P_g = 1.01 × 10⁵ Pa + 1.176 × 10⁵ Pa = 2.186 × 10⁵ Pa.  \nA wrong answer where the student adds ρgh to P_atm incorrectly (e.g., forgetting to convert units, or using g = 10 m/s² without stating it) shows poor unit tracking or failure to distinguish between gauge and absolute pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A mercury barometer reads 760 mm Hg at sea level. If the same barometer is taken to a hill station where the atmospheric pressure is lower, will the height of the mercury column increase, decrease, or stay the same? Explain the physical reason.",
+     "a": "The height will decrease. The barometer works by balancing the weight of the mercury column (ρ_Hg g h) against the atmospheric pressure (P_atm). Since P_atm decreases with altitude, a shorter mercury column is needed to balance it. A student who says \"increase\" thinks that lower pressure sucks the mercury up, misunderstanding that the mercury column is supported by atmospheric pressure pushing on the reservoir, not by suction from the vacuum.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Gauge pressure can never be negative because pressure is always positive.\" Evaluate this statement and give a physical example where gauge pressure is negative.",
+     "a": "The statement is false. Gauge pressure can be negative when the absolute pressure is less than atmospheric pressure. Example: when you suck on a straw, the pressure inside your mouth is lower than atmospheric pressure, so the gauge pressure in your mouth is negative (often called suction or vacuum pressure). A student who insists gauge pressure cannot be negative confuses gauge pressure with absolute pressure (which is always ≥ 0) and does not understand that gauge pressure is a relative measure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a U-tube manometer filled with water to measure the gauge pressure of the gas supply in a school laboratory burner. Describe the setup, what you would measure, and how you would calculate the gauge pressure.",
+     "a": "Connect one arm of the U-tube to the gas tap via a rubber tube; leave the other arm open to atmosphere. Open the gas tap; the gas pressure pushes the water down in the connected arm, causing a height difference Δh between the two water levels. Measure Δh with a ruler. Gauge pressure of gas = ρ_water g Δh. A poor answer would omit the need to measure the height difference, or suggest using mercury without safety precautions, indicating lack of practical understanding of manometer operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

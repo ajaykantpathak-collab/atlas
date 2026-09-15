@@ -1,0 +1,634 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 4,
+  "chapter_title": "Determination of Income and Employment",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.104.1.1",
+      "title": "Ex Ante and Ex Post Measures",
+      "section": "4.1",
+      "definition": "Planned values of consumption, investment or output are ex ante quantities, while the values actually realised during the year are ex post; a producer intending to add 100 to stock who ends up adding 70 has ex ante investment of 100 but ex post investment of 70.",
+      "formula": "unplanned_inventory_investment = planned_investment - actual_investment",
+      "key_idea": "Plans (ex ante) drive behaviour, outcomes (ex post) enter the accounts, and unplanned inventory change reconciles the two.",
+      "textbook_ref": "leec104.txt, section 4.1 opening and producer example, pages 54-55",
+      "question_patterns": [
+        "differentiate planned investment from realised investment and explain the role of unplanned stock change",
+        "what do planned and actual values of a variable mean in macroeconomics",
+        "how do unintended changes in inventories reconcile plans with outcomes",
+        "a producer plans stock of 100 but sells 30 from stock, give planned and realised investment",
+        "which measure of a variable enters national income accounting",
+        "explain why planned output need not equal planned aggregate demand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Separate the plan from the outcome",
+          "explain": "Ex ante is what agents intend before the period unfolds; ex post is what the accounts record after it closes."
+        },
+        {
+          "step": 2,
+          "action": "Locate the gap in inventories",
+          "explain": "When sales surprise the producer, the difference between planned and realised investment shows up as unintended inventory change."
+        },
+        {
+          "step": 3,
+          "action": "Classify the given number",
+          "explain": "Ask whether the figure was set in advance as a plan (ex ante) or measured after the fact (ex post)."
+        }
+      ]
+    },
+    {
+      "id": "leec.104.1.2",
+      "title": "Consumption Function",
+      "section": "4.1.1",
+      "definition": "Household consumption rises linearly with income: it has a floor of autonomous consumption that persists even at zero income, plus induced consumption equal to a fixed fraction of every extra rupee earned.",
+      "formula": "consumption = autonomous_consumption + marginal_propensity_to_consume * income",
+      "key_idea": "The intercept is subsistence spending and the slope is the fraction of income consumed.",
+      "textbook_ref": "leec104.txt, section 4.1.1, equation 4.1 and Imagenia example, page 55",
+      "question_patterns": [
+        "state the Keynesian relation between household spending and income with its autonomous floor and induced part",
+        "find household consumption when autonomous consumption the slope and income are given",
+        "what is consumed when income is zero and why",
+        "a country consumes 60 plus 0.75 times income, state the intercept and slope",
+        "how much does consumption rise when income increases by 100 with a given slope",
+        "graph the relation between spending and income marking its intercept and slope"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the income-sensitive part to the floor",
+          "explain": "Multiply income by the marginal propensity to consume for induced consumption, then add the autonomous part.",
+          "compute": "consumption = autonomous_consumption + marginal_propensity_to_consume * income"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Consumption Function, compute the result for autonomous_consumption = 3, marginal_propensity_to_consume = 3, income = 3.",
+          "solution": "Step 1: Add the income-sensitive part to the floor: consumption = autonomous_consumption + marginal_propensity_to_consume * income = 12.0 Final result: 12.0",
+          "answer": "12.0"
+        },
+        {
+          "question": "Using Consumption Function, compute the result for autonomous_consumption = 4, marginal_propensity_to_consume = 4, income = 4.",
+          "solution": "Step 1: Add the income-sensitive part to the floor: consumption = autonomous_consumption + marginal_propensity_to_consume * income = 20.0 Final result: 20.0",
+          "answer": "20.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.1.3",
+      "title": "Marginal Propensity to Consume and to Save",
+      "section": "4.1.1",
+      "definition": "The marginal propensity to consume is the fraction of any extra unit of income that gets spent, lying between 0 and 1; the remainder of the extra income is saved, so the marginal propensities to consume and save always sum to one.",
+      "formula": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume",
+      "key_idea": "Of every additional rupee, one fraction is spent and the rest saved, and the two fractions exhaust the rupee.",
+      "textbook_ref": "leec104.txt, section 4.1.1, Some Definitions box, pages 55-56",
+      "question_patterns": [
+        "compute the marginal propensity to consume from a change in income and consumption",
+        "find the marginal propensity to save when the marginal propensity to consume is 0.8",
+        "why must MPC and MPS add up to one",
+        "income rises from 500 to 600 and consumption from 450 to 525, find MPC and MPS",
+        "within what limits can the marginal propensity to consume vary",
+        "define the rate of change of consumption with respect to income"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ratio the two changes",
+          "explain": "Dividing the change in consumption by the change in income gives the marginal propensity to consume.",
+          "compute": "marginal_propensity_to_consume = change_in_consumption / change_in_income"
+        },
+        {
+          "step": 2,
+          "action": "Take the unspent residue",
+          "explain": "Subtracting the consume fraction from one leaves the share saved, the marginal propensity to save.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Marginal Propensity to Consume and to Save, compute the result for change_in_consumption = 3, change_in_income = 3.",
+          "solution": "Step 1: Ratio the two changes: marginal_propensity_to_consume = change_in_consumption / change_in_income = 1.0 Step 2: Take the unspent residue: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Marginal Propensity to Consume and to Save, compute the result for change_in_consumption = 4, change_in_income = 4.",
+          "solution": "Step 1: Ratio the two changes: marginal_propensity_to_consume = change_in_consumption / change_in_income = 1.0 Step 2: Take the unspent residue: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.1.4",
+      "title": "Average Propensity to Consume and to Save",
+      "section": "4.1.1",
+      "definition": "Average propensities look at totals rather than changes: the average propensity to consume is consumption per rupee of income and the average propensity to save is savings per rupee, and since savings equal unconsumed income the two averages also add to one.",
+      "formula": "average_propensity_to_consume = consumption / income",
+      "key_idea": "Averages split total income between consuming and saving; the split always sums to unity.",
+      "textbook_ref": "leec104.txt, section 4.1.1, Some Definitions box, page 56",
+      "question_patterns": [
+        "calculate the average propensity to consume when consumption and income are given",
+        "find the average propensity to save from savings and income",
+        "how do average and marginal propensities differ",
+        "show that APC and APS must sum to one",
+        "a household earns 1000 and spends 850, give its APC and APS",
+        "define consumption and savings per unit of income"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Divide consumption by income",
+          "explain": "The share of total income consumed is the average propensity to consume.",
+          "compute": "average_propensity_to_consume = consumption / income"
+        },
+        {
+          "step": 2,
+          "action": "Find the saved share of income",
+          "explain": "Savings equal income minus consumption; dividing savings by income gives the average propensity to save.",
+          "compute": "savings = income - consumption"
+        },
+        {
+          "step": 3,
+          "action": "Complete the split",
+          "explain": "Savings over income is the average propensity to save, and it equals one minus the average propensity to consume.",
+          "compute": "average_propensity_to_save = savings / income"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Average Propensity to Consume and to Save, compute the result for consumption = 3, income = 3.",
+          "solution": "Step 1: Divide consumption by income: average_propensity_to_consume = consumption / income = 1.0 Step 2: Find the saved share of income: savings = income - consumption = 0.0 Step 3: Complete the split: average_propensity_to_save = savings / income = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Average Propensity to Consume and to Save, compute the result for consumption = 4, income = 4.",
+          "solution": "Step 1: Divide consumption by income: average_propensity_to_consume = consumption / income = 1.0 Step 2: Find the saved share of income: savings = income - consumption = 0.0 Step 3: Complete the split: average_propensity_to_save = savings / income = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.1.5",
+      "title": "Autonomous Investment",
+      "section": "4.1.2",
+      "definition": "In the short-run model, planned investment is treated as a given constant fixed by producers in advance - an addition to physical capital and inventories that does not vary with the current year's income.",
+      "formula": "investment = autonomous_investment (constant, independent of income)",
+      "key_idea": "Investment goods add productive capacity for years, and here their planned amount is exogenous.",
+      "textbook_ref": "leec104.txt, section 4.1.2, equation 4.2, page 56",
+      "question_patterns": [
+        "why is investment assumed autonomous in the simple model",
+        "what counts as investment in the national income sense",
+        "how does the interest rate influence the decision to invest",
+        "show planned investment as a horizontal line against income",
+        "distinguish investment goods from intermediate goods",
+        "state the investment behaviour assumed in the two-sector model"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the real investment act",
+          "explain": "Investment means adding to machines, buildings or inventories - assets that serve production over years, not inputs used up at once."
+        },
+        {
+          "step": 2,
+          "action": "Note the exogeneity assumption",
+          "explain": "Planned investment is a fixed positive number chosen ahead of time, so it does not move with current income."
+        },
+        {
+          "step": 3,
+          "action": "Recall the underlying influences",
+          "explain": "In reality credit availability and the interest rate govern investment, but the model holds them aside."
+        }
+      ]
+    },
+    {
+      "id": "leec.104.2.1",
+      "title": "Aggregate Demand in the Two-Sector Model",
+      "section": "4.2",
+      "definition": "Without a government or foreign sector, planned demand for final goods is consumption plus investment, which expands to the sum of all autonomous spending plus the income-sensitive consumption term.",
+      "formula": "aggregate_demand = autonomous_consumption + autonomous_investment + marginal_propensity_to_consume * income",
+      "key_idea": "Aggregate demand has a constant part (autonomous) and a part that grows with income (induced).",
+      "textbook_ref": "leec104.txt, section 4.2, AD = C + I derivation, page 57",
+      "question_patterns": [
+        "build aggregate demand for an economy with only households and firms",
+        "compute planned aggregate demand at a given income level",
+        "which parts of aggregate demand do not depend on income",
+        "add the consumption and investment functions to get the AD equation",
+        "why is the AD line parallel to the consumption function",
+        "measure ex ante aggregate demand when A and the slope and income are known"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Combine the autonomous outlays",
+          "explain": "Autonomous consumption plus autonomous investment form the constant term of demand.",
+          "compute": "autonomous_expenditure = autonomous_consumption + autonomous_investment"
+        },
+        {
+          "step": 2,
+          "action": "Attach the induced component",
+          "explain": "Adding the slope times income gives total planned demand at that income.",
+          "compute": "aggregate_demand = autonomous_expenditure + marginal_propensity_to_consume * income"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Aggregate Demand in the Two-Sector Model, compute the result for autonomous_consumption = 3, autonomous_investment = 3, marginal_propensity_to_consume = 3, income = 2.",
+          "solution": "Step 1: Combine the autonomous outlays: autonomous_expenditure = autonomous_consumption + autonomous_investment = 6.0 Step 2: Attach the induced component: aggregate_demand = autonomous_expenditure + marginal_propensity_to_consume * income = 12.0 Final result: 12.0",
+          "answer": "12.0"
+        },
+        {
+          "question": "Using Aggregate Demand in the Two-Sector Model, compute the result for autonomous_consumption = 4, autonomous_investment = 4, marginal_propensity_to_consume = 4, income = 3.",
+          "solution": "Step 1: Combine the autonomous outlays: autonomous_expenditure = autonomous_consumption + autonomous_investment = 8.0 Step 2: Attach the induced component: aggregate_demand = autonomous_expenditure + marginal_propensity_to_consume * income = 20.0 Final result: 20.0",
+          "answer": "20.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.2.2",
+      "title": "Adding the Government: Taxes and Spending in Aggregate Demand",
+      "section": "4.2",
+      "definition": "With a government, taxes shave income down to disposable income and public spending adds to demand, so consumption depends on income after tax while government expenditure joins the autonomous term.",
+      "formula": "aggregate_demand = autonomous_expenditure + government_spending + marginal_propensity_to_consume * (income - tax_revenue)",
+      "key_idea": "Households spend out of income net of taxes, and G - cT behaves like extra autonomous demand.",
+      "textbook_ref": "leec104.txt, section 4.2, government modification paragraph, page 57",
+      "question_patterns": [
+        "modify aggregate demand when the government taxes and spends",
+        "find disposable income after a lump-sum tax",
+        "compute planned demand with government expenditure and proportional consumption out of after-tax income",
+        "how do taxes reduce the induced part of aggregate demand",
+        "why does G minus cT act like autonomous expenditure",
+        "write the aggregate demand equation for a three-sector economy"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Remove taxes from income",
+          "explain": "Disposable income is what households can spend after the tax deduction.",
+          "compute": "disposable_income = income - tax_revenue"
+        },
+        {
+          "step": 2,
+          "action": "Assemble demand with the public sector",
+          "explain": "Autonomous private spending plus government spending plus consumption out of disposable income gives aggregate demand.",
+          "compute": "aggregate_demand = autonomous_expenditure + government_spending + marginal_propensity_to_consume * disposable_income"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Adding the Government: Taxes and Spending in Aggregate Demand, compute the result for income = 3, tax_revenue = 3, autonomous_expenditure = 3, government_spending = 2, marginal_propensity_to_consume = 2.",
+          "solution": "Step 1: Remove taxes from income: disposable_income = income - tax_revenue = 0.0 Step 2: Assemble demand with the public sector: aggregate_demand = autonomous_expenditure + government_spending + marginal_propensity_to_consume * disposable_income = 5.0 Final result: 5.0",
+          "answer": "5.0"
+        },
+        {
+          "question": "Using Adding the Government: Taxes and Spending in Aggregate Demand, compute the result for income = 4, tax_revenue = 4, autonomous_expenditure = 4, government_spending = 3, marginal_propensity_to_consume = 3.",
+          "solution": "Step 1: Remove taxes from income: disposable_income = income - tax_revenue = 0.0 Step 2: Assemble demand with the public sector: aggregate_demand = autonomous_expenditure + government_spending + marginal_propensity_to_consume * disposable_income = 7.0 Final result: 7.0",
+          "answer": "7.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.3.1",
+      "title": "Equilibrium Income: Ex Ante Demand Equals Output",
+      "section": "4.3.2",
+      "definition": "Income settles where planned output equals planned aggregate demand; solving that equality gives equilibrium income as autonomous spending divided by one minus the marginal propensity to consume, equivalently by the marginal propensity to save.",
+      "formula": "equilibrium_income = autonomous_expenditure / marginal_propensity_to_save",
+      "key_idea": "At equilibrium, unplanned inventory change is zero, and income is a multiple of autonomous spending.",
+      "textbook_ref": "leec104.txt, section 4.3.2 algebraic method, equation 4.4, page 61",
+      "question_patterns": [
+        "solve for equilibrium income given autonomous spending and the marginal propensity to consume",
+        "find the income level at which planned output matches planned demand",
+        "why is income in equilibrium a multiple of autonomous expenditure",
+        "an economy has autonomous spending 100 and MPC 0.75, what income results",
+        "show the algebra that turns Y equals A plus cY into the equilibrium formula",
+        "what stock behaviour signals that income is not at its equilibrium level"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Convert the spending fraction to the saving fraction",
+          "explain": "The denominator of the equilibrium formula is the share of extra income not spent.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        },
+        {
+          "step": 2,
+          "action": "Divide autonomous spending by the leak",
+          "explain": "Setting Y equal to A plus cY and solving gives income as A over the saving fraction.",
+          "compute": "equilibrium_income = autonomous_expenditure / marginal_propensity_to_save"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Equilibrium Income: Ex Ante Demand Equals Output, compute the result for marginal_propensity_to_consume = 3, autonomous_expenditure = 3.",
+          "solution": "Step 1: Convert the spending fraction to the saving fraction: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = -2.0 Step 2: Divide autonomous spending by the leak: equilibrium_income = autonomous_expenditure / marginal_propensity_to_save = -1.5 Final result: -1.5",
+          "answer": "-1.5"
+        },
+        {
+          "question": "Using Equilibrium Income: Ex Ante Demand Equals Output, compute the result for marginal_propensity_to_consume = 4, autonomous_expenditure = 4.",
+          "solution": "Step 1: Convert the spending fraction to the saving fraction: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = -3.0 Step 2: Divide autonomous spending by the leak: equilibrium_income = autonomous_expenditure / marginal_propensity_to_save = -1.333333 Final result: -1.333333",
+          "answer": "-1.333333"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.3.2",
+      "title": "Investment Multiplier and the Round-by-Round Mechanism",
+      "section": "4.3.3",
+      "definition": "An extra rupee of autonomous spending becomes someone's income, part of which is re-spent, feeding further rounds; the total income rise is a multiple - one over the saving fraction - of the initial outlay, so a 10-unit rise with MPC 0.8 lifts income by 50.",
+      "formula": "investment_multiplier = 1 / marginal_propensity_to_save",
+      "key_idea": "Each round re-spends the MPC fraction of the last, and the geometric series sums to the multiplier times the first shock.",
+      "textbook_ref": "leec104.txt, section 4.3.3, Table 4.1 and equation 4.5, pages 62-63",
+      "question_patterns": [
+        "calculate the change in equilibrium income from an increase in autonomous investment",
+        "find the value of the investment multiplier for a given MPC",
+        "explain how one firm's extra spending becomes many rounds of income",
+        "investment rises by 20 with MPC 0.8, by how much does income rise",
+        "why does a higher marginal propensity to consume enlarge the multiplier",
+        "sum the infinite rounds of spending to get the total income change"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Invert the saving leak",
+          "explain": "The multiplier is one divided by the fraction of each round's income that leaks into savings.",
+          "compute": "investment_multiplier = 1 / marginal_propensity_to_save"
+        },
+        {
+          "step": 2,
+          "action": "Scale the initial shock",
+          "explain": "Multiplying the multiplier by the change in autonomous investment gives the total change in equilibrium income.",
+          "compute": "change_in_income = investment_multiplier * change_in_autonomous_investment"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Investment Multiplier and the Round-by-Round Mechanism, compute the result for marginal_propensity_to_save = 3, change_in_autonomous_investment = 3.",
+          "solution": "Step 1: Invert the saving leak: investment_multiplier = 1 / marginal_propensity_to_save = 0.333333 Step 2: Scale the initial shock: change_in_income = investment_multiplier * change_in_autonomous_investment = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Investment Multiplier and the Round-by-Round Mechanism, compute the result for marginal_propensity_to_save = 4, change_in_autonomous_investment = 4.",
+          "solution": "Step 1: Invert the saving leak: investment_multiplier = 1 / marginal_propensity_to_save = 0.25 Step 2: Scale the initial shock: change_in_income = investment_multiplier * change_in_autonomous_investment = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.104.3.3",
+      "title": "Paradox of Thrift",
+      "section": "4.3.3",
+      "definition": "When everyone tries to save a larger slice of income, aggregate demand falls, output contracts through the multiplier, and the economy can end up with aggregate savings no higher - or lower - than before, because one person's saving is another person's lost income.",
+      "formula": "aggregate_savings = investment (unchanged in equilibrium despite higher thrift)",
+      "key_idea": "Virtue for one household, vice for the economy: universal thrift shrinks income without raising total savings.",
+      "textbook_ref": "leec104.txt, section 4.3.3, paradox of thrift example, pages 63-64",
+      "question_patterns": [
+        "explain the paradox of thrift with the help of the Keynesian model",
+        "what happens to total savings when every household decides to save more",
+        "why can an economy end up saving the same after a rise in thrift",
+        "trace the rounds through which higher saving lowers income",
+        "when MPC falls from 0.8 to 0.5 what happens to equilibrium output",
+        "contrast the effect of thrift on one household and on the whole economy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Register the thrift shock",
+          "explain": "A rise in the saving propensity cuts consumption demand at the existing income level, creating excess supply."
+        },
+        {
+          "step": 2,
+          "action": "Follow the contracting rounds",
+          "explain": "Producers cut output, factor incomes fall, and spending shrinks again by the new MPC fraction each round."
+        },
+        {
+          "step": 3,
+          "action": "Compare savings before and after",
+          "explain": "At the new lower equilibrium, aggregate saving equals investment just as before, so total savings are unchanged or smaller - the paradox."
+        }
+      ]
+    },
+    {
+      "id": "leec.104.4.1",
+      "title": "Full Employment, Deficient Demand and Excess Demand",
+      "section": "4.4",
+      "definition": "The income at which demand equals output need not be the income at which everyone has work: if equilibrium sits below the full-employment level, demand is deficient and prices tend to sag; if it sits above, demand is excessive and prices tend to climb.",
+      "formula": "output_gap = equilibrium_output - full_employment_output",
+      "key_idea": "Equilibrium only means no pressure to change; it does not guarantee full employment.",
+      "textbook_ref": "leec104.txt, section 4.4, full employment paragraphs, page 65",
+      "question_patterns": [
+        "does equilibrium income always mean full employment income",
+        "what is deficient demand and what does it do to prices",
+        "define excess demand and its long-run price effect",
+        "compare equilibrium output with full employment output",
+        "why can an economy rest in equilibrium with unemployed workers",
+        "name the situation where demand falls short of full employment output"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the two reference levels",
+          "explain": "Find the demand-determined equilibrium output and the output possible when all factors are employed."
+        },
+        {
+          "step": 2,
+          "action": "Classify the gap",
+          "explain": "Equilibrium below full employment is deficient demand; above it is excess demand."
+        },
+        {
+          "step": 3,
+          "action": "State the price tendency",
+          "explain": "Deficient demand pulls prices down in the long run while excess demand pushes them up."
+        }
+      ]
+    },
+    {
+      "id": "leec.104.4.2",
+      "title": "Effective Demand Principle and Parametric Shifts",
+      "section": "4.4",
+      "definition": "With prices and the interest rate fixed and supply perfectly elastic, output is dictated entirely by aggregate demand - the effective demand principle; on the diagram, a change in autonomous spending slides the AD line in parallel while a change in the propensity to consume swings it by altering its slope.",
+      "formula": "equilibrium_output = determined_by(aggregate_demand) at fixed price",
+      "key_idea": "Demand rules supply in the short run, and parameters move the AD line differently - parallel shifts versus swings.",
+      "textbook_ref": "leec104.txt, section 4.4 summary paragraph and section 4.3.2 shift discussion, pages 61-65",
+      "question_patterns": [
+        "state the effective demand principle and the assumptions behind it",
+        "how does the AD line move when autonomous spending rises",
+        "what happens to the demand line when the marginal propensity to consume falls",
+        "distinguish a parametric shift from a swing of a line",
+        "why does output respond only to demand in the fixed price model",
+        "explain what happens to equilibrium when the intercept increases versus when the slope decreases"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fix the price and interest backdrop",
+          "explain": "With unused resources, extra output costs no more to make, so the price level can be held constant and supply is perfectly elastic."
+        },
+        {
+          "step": 2,
+          "action": "Let demand set output",
+          "explain": "Equilibrium output then equals planned aggregate demand, which is the effective demand principle."
+        },
+        {
+          "step": 3,
+          "action": "Classify the graphical change",
+          "explain": "A parameter change in A moves the line parallel up or down; a change in c rotates it, steepening or flattening the swing."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec104.txt section 4.3.2 example with C and I",
+      "concept": "leec.104.3.1",
+      "question_type": "compute",
+      "question_pattern": "An economy has consumption 60 plus 0.75 times income and investment fixed at 40. Find its equilibrium income.",
+      "extracted_variables": {
+        "autonomous_consumption": 60,
+        "autonomous_investment": 40,
+        "marginal_propensity_to_consume": 0.75
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Pool the autonomous spending",
+          "explain": "60 plus 40 gives autonomous expenditure of 100.",
+          "compute": "autonomous_expenditure = autonomous_consumption + autonomous_investment"
+        },
+        {
+          "step": 2,
+          "action": "Convert to the saving fraction",
+          "explain": "One minus 0.75 leaves a saving fraction of 0.25.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        },
+        {
+          "step": 3,
+          "action": "Solve for income",
+          "explain": "100 divided by 0.25 gives equilibrium income of 400.",
+          "compute": "equilibrium_income = autonomous_expenditure / marginal_propensity_to_save"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec104.txt section 4.3.3 multiplier example",
+      "concept": "leec.104.3.2",
+      "question_type": "compute",
+      "question_pattern": "With MPC equal to 0.8, autonomous investment rises by 20. Find the multiplier and the total rise in income.",
+      "extracted_variables": {
+        "marginal_propensity_to_consume": 0.8,
+        "change_in_autonomous_investment": 20
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Saving fraction from MPC",
+          "explain": "One minus 0.8 gives 0.2.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        },
+        {
+          "step": 2,
+          "action": "Multiplier",
+          "explain": "One over 0.2 gives a multiplier of 5.",
+          "compute": "investment_multiplier = 1 / marginal_propensity_to_save"
+        },
+        {
+          "step": 3,
+          "action": "Income change",
+          "explain": "5 times 20 gives a total income rise of 100.",
+          "compute": "change_in_income = investment_multiplier * change_in_autonomous_investment"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec104.txt exercise 5",
+      "concept": "leec.104.2.1",
+      "question_type": "compute",
+      "question_pattern": "Autonomous expenditure is 50 crores, MPS is 0.2 and income is 4000 crores. Measure the ex ante aggregate demand and say whether the economy is in equilibrium.",
+      "extracted_variables": {
+        "autonomous_expenditure": 50,
+        "marginal_propensity_to_save": 0.2,
+        "income": 4000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Spending fraction from MPS",
+          "explain": "One minus 0.2 gives MPC of 0.8.",
+          "compute": "marginal_propensity_to_consume = 1 - marginal_propensity_to_save"
+        },
+        {
+          "step": 2,
+          "action": "Ex ante demand at that income",
+          "explain": "50 plus 0.8 times 4000 gives 3250 crores.",
+          "compute": "aggregate_demand = autonomous_expenditure + marginal_propensity_to_consume * income"
+        },
+        {
+          "step": 3,
+          "action": "Compare with output",
+          "explain": "Planned demand of 3250 falls short of output 4000, so the economy is not in equilibrium; unsold stocks pile up.",
+          "compute": "demand_gap = income - aggregate_demand"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec104-ex1",
+      "source_ref": "leec104.txt exercise 1",
+      "questions": [
+        "Define the marginal propensity to consume and connect it with the marginal propensity to save."
+      ]
+    },
+    {
+      "id": "leec104-ex2",
+      "source_ref": "leec104.txt exercise 2",
+      "questions": [
+        "How does planned investment differ from realised investment?"
+      ]
+    },
+    {
+      "id": "leec104-ex3",
+      "source_ref": "leec104.txt exercise 3",
+      "questions": [
+        "Explain the parametric shift of a line for a falling slope and a rising intercept."
+      ]
+    },
+    {
+      "id": "leec104-ex4",
+      "source_ref": "leec104.txt exercise 4",
+      "questions": [
+        "What is effective demand and how is the autonomous expenditure multiplier derived at fixed price and interest?"
+      ]
+    },
+    {
+      "id": "leec104-ex5",
+      "source_ref": "leec104.txt exercise 5",
+      "questions": [
+        "With autonomous expenditure of 50 crores, MPS 0.2 and income 4000 crores, measure ex ante aggregate demand and decide whether the economy is in equilibrium, giving reasons."
+      ]
+    },
+    {
+      "id": "leec104-ex6",
+      "source_ref": "leec104.txt exercise 6",
+      "questions": [
+        "Give an explanation of the paradox of thrift."
+      ]
+    }
+  ]
+}

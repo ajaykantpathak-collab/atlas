@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_009",
+   "title": "c10_math_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the formula for the sum of the first n terms of an AP when the first term is a, the last term is l, and the number of terms is n. Write it in standard mathematical notation.",
+     "a": "The correct formula is Sₙ = n/2 (a + l). A wrong answer such as Sₙ = n(a + l) or Sₙ = n/2 [2a + (n-1)d] (though algebraically equivalent, it uses d instead of l) reveals that the student has not distinguished between the two sum formulas or has forgotten the factor of 1/2. The student may be confusing the sum formula with the nth term formula aₙ = a + (n-1)d.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula Sₙ = n/2 (a + l) works for any arithmetic progression. Use the concept of pairing terms from the beginning and end of the sequence in your explanation.",
+     "a": "In an AP, the sum of the first and last term equals the sum of the second and second-last term, and so on: a + l = (a+d) + (l-d) = (a+2d) + (l-2d) = ... Each pair sums to (a+l). There are n terms, so there are n/2 such pairs. Hence Sₙ = n/2 (a + l). A student who says \"it's just a formula to memorise\" or who tries to explain using only the common difference d without mentioning the pairing property shows a lack of conceptual understanding and will struggle when asked to derive or justify the formula in a board exam.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 25 terms of an AP whose first term is 12 and last term is 84.",
+     "a": "Given: a = 12, l = 84, n = 25. Using Sₙ = n/2 (a + l): S₂₅ = 25/2 × (12 + 84) = 25/2 × 96 = 25 × 48 = 1200. A wrong answer of 2400 (forgetting to divide by 2) or 1176 (using n-1 instead of n) indicates a computational error in the order of operations or confusion with the nth term formula. The student must be reminded to compute (a+l) first, then multiply by n, then divide by 2 — or cancel n with 2 first if n is even.",
+     "self_check": true
+    },
+    {
+     "q": "An AP has first term 5 and last term 77. The sum of all its terms is 616. Find the number of terms and the common difference.",
+     "a": "Given: a = 5, l = 77, Sₙ = 616. Using Sₙ = n/2 (a + l): 616 = n/2 (5 + 77) = n/2 × 82 = 41n. So n = 616/41 = 15.02... Wait, 41 × 15 = 615, 41 × 16 = 656. Since n must be an integer, 616 is not divisible by 41. This means no such AP exists with integer n. A student who gets n = 15 and then forces d = (77-5)/(15-1) = 72/14 = 36/7 without checking that Sₙ matches exactly has failed to analyse the consistency of the given data. The correct conclusion: the given conditions are inconsistent for an AP with integer number of terms. This tests whether the student verifies that n is a positive integer.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved the following problem: \"The sum of the first 20 terms of an AP is 610. The first term is 5. Find the last term.\" Their working: S₂₀ = 20/2 (5 + l) → 610 = 10(5 + l) → 610 = 50 + l → l = 560. Identify the error and give the correct solution.",
+     "a": "The error is in the step 10(5 + l) = 50 + l. The distributive property was applied incorrectly: 10(5 + l) = 50 + 10l, not 50 + l. Correct working: 610 = 10(5 + l) → 61 = 5 + l → l = 56. A student who misses this error likely has weak algebraic manipulation skills and does not verify their answer by substituting back. In board exams, this would lose 1-2 marks for incorrect simplification even if the formula substitution was correct.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) that can be solved using Sₙ = n/2 (a + l) where the unknown is the number of terms n. The problem should involve a situation where the first amount, last amount, and total sum are given. Write the problem clearly and solve it.",
+     "a": "Sample problem: \"A construction worker stacks bricks in rows. The bottom row has 50 bricks. Each row above has 4 fewer bricks than the row below. The top row has 14 bricks. If the total number of bricks used is 352, how many rows are there?\" Solution: a = 50, l = 14, Sₙ = 352. 352 = n/2 (50 + 14) = n/2 × 64 = 32n → n = 11 rows. A poor answer would be a problem where the common difference is needed to find l, or where the numbers don't yield an integer n, or where the student cannot set up the equation correctly. This tests the ability to reverse-engineer a problem and ensure mathematical consistency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

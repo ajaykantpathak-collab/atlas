@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_001",
+   "title": "c11_biotech_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the Central Dogma of Molecular Biology as proposed by Francis Crick, including the one major exception discovered later.",
+     "a": "The Central Dogma states that genetic information flows from DNA → RNA → Protein. The major exception is reverse transcription (RNA → DNA) found in retroviruses like HIV, catalyzed by reverse transcriptase. A wrong answer (e.g., \"DNA → Protein directly\" or \"Protein → DNA\") reveals the student believes proteins can carry genetic information or that transcription/translation are coupled without an RNA intermediate, ignoring the historical evidence from Avery-MacLeod-McCarty and Hershey-Chase that DNA is the genetic material.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why eukaryotic cells absolutely require mRNA as an intermediate between DNA and protein, whereas prokaryotic cells can theoretically translate DNA directly (but don't). Use the terms \"nucleus\", \"ribosome\", and \"compartmentalization\" in your answer.",
+     "a": "In eukaryotes, DNA is confined inside the membrane-bound nucleus while ribosomes (protein factories) are in the cytoplasm. The nuclear envelope physically separates transcription from translation, making an RNA intermediate (mRNA) essential to carry the message across nuclear pores. In prokaryotes, no nucleus exists – transcription and translation occur in the same compartment (cytoplasm), so coupling is possible. A wrong answer focusing only on \"eukaryotes have introns\" misses the fundamental spatial separation concept; a student saying \"prokaryotes don't need mRNA\" reveals confusion – they do use mRNA, but it can be translated while being transcribed.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates a gene from a human (eukaryote) and inserts it into a plasmid for expression in E. coli (prokaryote). The gene contains two introns. The bacterial culture produces a non-functional protein. Trace the Central Dogma steps in both organisms to explain exactly why the protein is non-functional, identifying the specific step that fails in E. coli.",
+     "a": "In human cells: DNA (with introns) → Transcription → pre-mRNA (with introns) → Splicing → mature mRNA (exons only) → Translation → functional protein. In E. coli: Plasmid DNA (with introns) → Transcription → bacterial mRNA (with introns, because bacteria lack spliceosomes) → Translation → protein with incorrect amino acid sequence (introns translated as garbage). The failure occurs at the **post-transcriptional modification (splicing) step** – bacteria lack the spliceosome machinery to remove introns. A student blaming \"translation error\" or \"wrong codon usage\" misses that the primary transcript itself is defective due to missing eukaryotic processing machinery.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information content and stability of the three macromolecules in the Central Dogma (DNA, RNA, Protein). Why is DNA the \"master copy\" while mRNA is \"disposable\"? Analyze using the concepts of chemical structure (2'-OH group), cellular location, and repair mechanisms.",
+     "a": "DNA lacks the 2'-OH group on its ribose, making it chemically stable (resistant to alkaline hydrolysis) and suitable for long-term storage; it resides in the protected nucleus with dedicated repair systems (BER, NER, MMR). RNA has a 2'-OH group, making it labile (easily hydrolyzed) and short-lived – ideal for transient signals. Proteins are the functional end-products but cannot replicate or transmit information backward. DNA is the \"master copy\" because it is stable, repairable, and segregated during cell division; mRNA is \"disposable\" because its instability allows rapid response to environmental changes. A student saying \"RNA is less stable because it's single-stranded\" is partially correct but misses the critical 2'-OH chemical rationale and the evolutionary logic of separating storage (DNA) from signaling (RNA).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The Central Dogma is violated by prions (infectious proteins like in Mad Cow Disease) because proteins replicate themselves without nucleic acids.\" Defend or refute using the precise definition of the Central Dogma.",
+     "a": "The claim is **false**. The Central Dogma concerns the *flow of sequence information* (nucleotide order → amino acid order). Prions propagate by *conformational templating* – a misfolded protein induces normal proteins to adopt the same misfolded shape. No *sequence information* is transferred from protein to protein or protein to nucleic acid. The amino acid sequence remains encoded in the host's DNA. A student accepting the claim confuses \"replication of a phenotypic state\" with \"transfer of genetic information\" – this is the most common senior-secondary misconception about the Dogma's scope.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment (like Hershey-Chase) to prove that *protein* is NOT the genetic material in a newly discovered bacteriophage that has a protein coat and an RNA genome. Specify the radioactive labels, the blending/centrifugation steps, and the expected result that would confirm RNA (not protein) enters the host cell.",
+     "a": "Label phage proteins with ³⁵S (sulfur in methionine/cysteine) and phage RNA with ³²P (phosphorus in ribose-phosphate backbone). Infect unlabeled E. coli. Blend to remove phage coats. Centrifuge: pellet = bacteria, supernatant = phage debris. **Expected result**: ³²P (RNA label) in pellet; ³⁵S (protein label) in supernatant. This proves RNA enters the cell and directs new phage production. A good answer must specify *why* ³⁵S labels protein (S in amino acids, not nucleotides) and ³²P labels RNA (P in backbone, not in amino acids), and that blending separates *adsorbed* phage parts from *internalized* genetic material. A poor answer uses ³²P for protein or forgets the blending step, confusing surface attachment with genome entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

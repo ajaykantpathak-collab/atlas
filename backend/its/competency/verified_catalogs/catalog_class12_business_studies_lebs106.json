@@ -1,0 +1,508 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 106,
+  "chapter_title": "Staffing",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.106.1.1",
+      "title": "Meaning of Staffing",
+      "section": "1.1",
+      "definition": "The managerial work of matching people to posts: estimating how many hands of what kind are needed, then recruiting, selecting, placing, promoting, appraising and developing employees so that every position in the structure stays occupied by a capable occupant.",
+      "formula": "",
+      "key_idea": "In a new enterprise it follows planning and organising; in a running one it never stops, because jobs appear and people leave.",
+      "textbook_ref": "lebs106.txt lines 88-143 (Meaning: putting people to jobs; new and existing enterprises)",
+      "question_patterns": [
+        "what is meant by staffing",
+        "define staffing as a managerial function",
+        "how does staffing put people to jobs in an organisation",
+        "why is staffing a continuous process in an existing enterprise",
+        "which activities make up the staffing function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Give the short definition",
+          "explain": "Staffing is the function of filling and keeping filled the positions shown in the organisation structure."
+        },
+        {
+          "step": 2,
+          "action": "Name its activities",
+          "explain": "Workforce planning, recruitment, selection, placement, promotion, compensation, appraisal and development."
+        },
+        {
+          "step": 3,
+          "action": "State its position in the sequence",
+          "explain": "It begins after planning and organising have fixed what is to be done and through what structure."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.1.2",
+      "title": "Importance of Staffing",
+      "section": "1.2",
+      "definition": "Why the function is critical: it discovers competent people, raises performance by fitting the right person to the right role, secures survival through succession planning, prevents both overmanning and shortages, and lifts job satisfaction through fair assessment and reward.",
+      "formula": "",
+      "key_idea": "Human resources are the asset that decides goal attainment; wrong people in posts waste effort and lower quality, right people drive performance.",
+      "textbook_ref": "lebs106.txt lines 144-219 (Importance; benefits i-v)",
+      "question_patterns": [
+        "explain the importance of staffing for an organisation",
+        "how does proper staffing ensure higher performance",
+        "which benefit of staffing covers succession planning",
+        "how does staffing help in the optimum utilisation of human resources",
+        "why is staffing called a critical driver of organisational performance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the five benefits",
+          "explain": "Competent personnel, higher performance, survival and growth via succession, optimum utilisation, satisfaction and morale."
+        },
+        {
+          "step": 2,
+          "action": "Explain the one asked",
+          "explain": "For instance, forecasting needs in advance avoids both idle overmanning and disruptive shortages."
+        },
+        {
+          "step": 3,
+          "action": "State the consequence of neglect",
+          "explain": "Without right people in right numbers, materials and effort are wasted, quality drops and sales suffer."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.2.1",
+      "title": "Staffing as Part of Human Resource Management",
+      "section": "2.1",
+      "definition": "Every manager performs staffing duties -- placing, training, motivating and caring for the people in his unit -- while large firms add a specialist human resource department whose activities run from job analysis and recruitment to grievance handling, welfare and legal defence.",
+      "formula": "",
+      "key_idea": "Staffing is both a line duty of every manager and a staff advisory role of the HR department; HRM itself evolved from labour welfare officer through personnel manager to human resource manager.",
+      "textbook_ref": "lebs106.txt lines 220-400 (Staffing as part of HRM; specialised duties; evolution of HRM)",
+      "question_patterns": [
+        "how is staffing related to human resource management",
+        "which specialised activities does the human resource department perform",
+        "explain how the role of labour welfare officer evolved into the human resource manager",
+        "why is staffing called both a line and a staff activity",
+        "what staffing duties does every manager perform in a small organisation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the dual character",
+          "explain": "Staffing is a generic function every manager performs and, at the same time, a specialised functional area run by HR experts."
+        },
+        {
+          "step": 2,
+          "action": "List HR's specialised duties",
+          "explain": "Recruitment search, job analysis, compensation and incentive plans, training, labour relations, grievances, welfare, legal defence."
+        },
+        {
+          "step": 3,
+          "action": "Trace the evolution",
+          "explain": "Trade unions created the labour welfare officer; the factory system created the personnel manager; technology and the growth of firms produced the human resource manager."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.3.1",
+      "title": "Steps in the Staffing Process",
+      "section": "3.1",
+      "definition": "Five ordered stages: estimate the manpower needed through workload and workforce analysis, search for candidates through recruitment, choose the best through selection tests and interviews, settle the newcomers through placement and orientation, and grow them through training and development.",
+      "formula": "",
+      "key_idea": "Workload analysis says how many people of what kind are required; workforce analysis says how many are available -- together they reveal overstaffing, understaffing or the optimum.",
+      "textbook_ref": "lebs106.txt lines 401-724 (Staffing Process i-v, workload and workforce analysis)",
+      "question_patterns": [
+        "explain the steps in the staffing process",
+        "what is the difference between workload analysis and workforce analysis",
+        "why must manpower requirements be estimated before recruitment",
+        "what happens during placement and orientation of a new employee",
+        "which stage of the staffing process follows selection"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the five stages in order",
+          "explain": "Estimating manpower requirements, recruitment, selection, placement and orientation, training and development."
+        },
+        {
+          "step": 2,
+          "action": "Explain the estimation stage",
+          "explain": "Workload analysis fixes the number and types of people required; workforce analysis counts those available; the gap drives recruitment."
+        },
+        {
+          "step": 3,
+          "action": "Attach the later stages",
+          "explain": "Orientation introduces the joiner to people and rules; placement puts him on the chosen post; training upgrades skills for now and for promotion."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.4.1",
+      "title": "Recruitment and Internal Sources",
+      "section": "4.1",
+      "definition": "Recruitment is the search for possible candidates and the effort to interest them in applying; its internal sources fill vacancies from within -- transfers shifting an employee sideways without changing rank or pay, and promotions moving him up to higher responsibility, status and salary.",
+      "formula": "",
+      "key_idea": "Internal hiring motivates staff, is cheaper and more reliable since candidates are known -- but it risks inbreeding, no fresh talent, and a new enterprise cannot use it at all.",
+      "textbook_ref": "lebs106.txt lines 883-1120 (Recruitment; transfers and promotions; merits and limitations of internal sources)",
+      "question_patterns": [
+        "what is meant by recruitment name its internal sources",
+        "distinguish between transfer and promotion as sources of recruitment",
+        "why are internal sources of recruitment considered more economical",
+        "state the merits and limitations of filling vacancies internally",
+        "how does promotion motivate employees",
+        "why can a newly formed company not rely on internal recruitment"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define recruitment",
+          "explain": "It searches for prospective employees and stimulates them to apply, building a pool of candidates."
+        },
+        {
+          "step": 2,
+          "action": "Explain the two internal channels",
+          "explain": "Transfer: a horizontal shift between jobs, departments or shifts with unchanged status. Promotion: a vertical move upward with higher pay, status and responsibility."
+        },
+        {
+          "step": 3,
+          "action": "Weigh internal hiring",
+          "explain": "Merits: motivation, loyalty, cheaper and simpler selection, training through transfer. Limits: no new blood, lethargy over assured promotions, unusable by new firms."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.4.2",
+      "title": "External Sources of Recruitment",
+      "section": "4.2",
+      "definition": "The channels through which outsiders are brought in: a gate notice for casual workers, a standing list of unsolicited callers, newspaper and trade advertisements, government employment exchanges, placement agencies and management consultants, campus hiring, referrals by employees, labour contractors, television ads and job websites.",
+      "formula": "",
+      "key_idea": "Outside hiring buys wider choice, fresh talent and competitive spirit at the cost of expense, delay and some resentment among existing staff.",
+      "textbook_ref": "lebs106.txt lines 1121-1431 (External sources i-x; merits and limitations)",
+      "question_patterns": [
+        "state any four external sources of recruitment",
+        "which source of recruitment suits casual vacancies of unskilled workers",
+        "a portal listing verified senior jobs represents which source of recruitment",
+        "what are the merits and limitations of external recruitment",
+        "when does a company prefer campus recruitment",
+        "which source is compulsory to notify by law for certain jobs"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Match the case to the source",
+          "explain": "Gate notice for daily-wagers, exchanges for skilled operatives, consultants and web portals for executives, campuses for professionals."
+        },
+        {
+          "step": 2,
+          "action": "Weigh the external route",
+          "explain": "Merits: qualified and trained applicants, wider choice, new blood, healthy competition. Limits: existing staff feel passed over, the process is long and costly."
+        },
+        {
+          "step": 3,
+          "action": "Justify the choice made",
+          "explain": "Tie the source selected to the job level, urgency and budget in the case."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.5.1",
+      "title": "Selection Process and Employment Tests",
+      "section": "5.1",
+      "definition": "Selection picks the best candidate from the recruitment pool through a sequence of hurdles -- preliminary screening, employment tests, a formal interview, reference and background checks, the selection decision, medical fitness, then the job offer and contract of employment -- with many eliminated at each stage.",
+      "formula": "",
+      "key_idea": "Tests probe different qualities: intelligence for learning ability, aptitude for potential to acquire skills, trade for skills already held, personality for emotional makeup, interest for inclinations.",
+      "textbook_ref": "lebs106.txt lines 1432-1742 (Selection; process steps i-viii; tests a-e; accept and reject errors box)",
+      "question_patterns": [
+        "explain the steps in the process of selection",
+        "distinguish between an aptitude test and a trade test",
+        "which selection test measures the learning ability of a candidate",
+        "why do many candidates get eliminated at every stage of selection",
+        "a firm hiring guards who must be trustworthy which selection steps matter most",
+        "what happens between the selection decision and the contract of employment"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define selection",
+          "explain": "It is choosing the best person from the candidate pool via a graded series of tests and interviews."
+        },
+        {
+          "step": 2,
+          "action": "Walk the hurdle sequence",
+          "explain": "Screening of applications, tests, interview, references, decision, medical exam, job offer, employment contract."
+        },
+        {
+          "step": 3,
+          "action": "Explain the five tests",
+          "explain": "Intelligence, aptitude, personality, trade and interest tests each measure a different quality of the candidate."
+        },
+        {
+          "step": 4,
+          "action": "Note the stakes",
+          "explain": "Wrong accepts and wrong rejections are costly errors, so each stage filters carefully."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.6.1",
+      "title": "Training, Development and Education",
+      "section": "6.1",
+      "definition": "Three overlapping but distinct ideas: training sharpens the aptitudes, skills and abilities needed for a specific present job; development spans the whole growth of the individual for future roles; education builds knowledge and understanding without a narrow job focus.",
+      "formula": "",
+      "key_idea": "Training is job-oriented and short term; development is career-oriented and ongoing, and it includes training.",
+      "textbook_ref": "lebs106.txt lines 1832-1920 (Training, Development and Education; difference table)",
+      "question_patterns": [
+        "distinguish between training and development",
+        "is development broader in scope than training explain",
+        "what is meant by education in the context of employees",
+        "why is training called a job oriented process",
+        "which term covers the overall growth of an employee's personality"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define each term",
+          "explain": "Training raises skills for the current or intended job; development helps the person grow overall; education increases knowledge and understanding."
+        },
+        {
+          "step": 2,
+          "action": "Contrast their orientation",
+          "explain": "Training serves the job first, development serves the career, education serves the mind."
+        },
+        {
+          "step": 3,
+          "action": "State the time dimension",
+          "explain": "Training is a short-term process, development is ongoing and subsumes training."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.6.2",
+      "title": "Benefits of Training and Development",
+      "section": "6.1",
+      "definition": "Systematic learning beats guesswork: for the firm it lifts output in quantity and quality, prepares stand-in managers, trims absenteeism and turnover, and keeps responses ready for fast technological and economic change; for the employee it brings better skills, higher earnings, fewer accidents and greater morale.",
+      "formula": "",
+      "key_idea": "Five organisational benefits and four personal benefits -- productivity, future managers, morale, adaptability on one side; skills, earnings, safety, satisfaction on the other.",
+      "textbook_ref": "lebs106.txt lines 1751-1831 (Importance of training; benefits to organisation and employee)",
+      "question_patterns": [
+        "what are the advantages of training to the individual and to the organisation",
+        "how does training benefit a business enterprise",
+        "why is training better than the hit and trial method of learning",
+        "how does training prepare future managers for emergencies",
+        "explain the personal gains an employee draws from training"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Separate the two audiences",
+          "explain": "Organisation benefits and employee benefits are usually asked separately."
+        },
+        {
+          "step": 2,
+          "action": "Recall the organisational list",
+          "explain": "Systematic learning, higher productivity and profits, standby managers, better morale and lower turnover, readiness for change."
+        },
+        {
+          "step": 3,
+          "action": "Recall the personal list",
+          "explain": "Better skills and career, higher earnings, safer machine handling, greater satisfaction."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.6.3",
+      "title": "On-the-Job Training Methods",
+      "section": "6.2",
+      "definition": "Methods applied at the workplace while the employee actually works -- learning while doing: apprenticeship under a master worker for skilled trades, coaching where a superior guides and reviews a trainee, internship run jointly by an institute and a firm, and job rotation shifting the trainee across departments for a rounded view.",
+      "formula": "",
+      "key_idea": "Rotation readies people for promotion and transfer; apprenticeship suits plumbers and electricians; internship pairs study with practical work.",
+      "textbook_ref": "lebs106.txt lines 1936-2046 (On the Job Methods i-iv)",
+      "question_patterns": [
+        "explain the on the job methods of training",
+        "which training method puts the trainee under a master worker",
+        "a trainee is moved from department to department name the method and its benefit",
+        "how does internship training combine study with practice",
+        "what does a coach do in the coaching method of training"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the method from the clue",
+          "explain": "Master worker means apprenticeship; superior as coach means coaching; institute plus firm means internship; moving across jobs means rotation."
+        },
+        {
+          "step": 2,
+          "action": "Explain the method",
+          "explain": "One line on how the trainee learns while performing real work."
+        },
+        {
+          "step": 3,
+          "action": "State its typical use",
+          "explain": "For example, rotation builds all-round understanding and eases later promotions and transfers."
+        }
+      ]
+    },
+    {
+      "id": "lebs.106.6.4",
+      "title": "Off-the-Job Training Methods",
+      "section": "6.2",
+      "definition": "Methods used away from the workplace -- learning before doing: classroom lectures and conferences for rules and procedures, films for demonstrations, case studies of real problems, computer models that simulate the job risklessly, vestibule training on real equipment in a classroom setting, and programmed instruction in graded units.",
+      "formula": "",
+      "key_idea": "Vestibule training is the giveaway case: the firm's own machines, but off the production floor, suited to costly sophisticated equipment.",
+      "textbook_ref": "lebs106.txt lines 2047-2129 (Off the Job Methods i-vi, vestibule training)",
+      "question_patterns": [
+        "explain the off the job methods of training",
+        "which method trains workers on actual equipment but away from the work floor",
+        "workers idle for lack of knowledge of hi tech machines which training suits them",
+        "how does a case study train future managers",
+        "what is computer modelling in training",
+        "distinguish between on the job and off the job methods"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the six methods",
+          "explain": "Lectures and conferences, films, case study, computer modelling, vestibule training, programmed instruction."
+        },
+        {
+          "step": 2,
+          "action": "Match the clue to the method",
+          "explain": "Engineer visits costing too much and workers idle on hi-tech machines point to vestibule training."
+        },
+        {
+          "step": 3,
+          "action": "Contrast the two families",
+          "explain": "On-the-job is learning while doing at the workplace; off-the-job is learning before doing away from it."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs106.txt lines 2272-2275 (vestibule training exercise)",
+      "concept": "lebs.106.6.4",
+      "question_type": "verify_property",
+      "question_pattern": "Factory workers stay idle because they cannot handle hi-tech machines, and every engineer visit raises overheads. Which training method removes this problem and how?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Name the method",
+          "explain": "Vestibule training fits: workers learn on the same machines they will operate, but in a classroom away from the production floor."
+        },
+        {
+          "step": 2,
+          "action": "Explain the working",
+          "explain": "A real work environment is created with the same files and equipment, so mistakes cost nothing on live output."
+        },
+        {
+          "step": 3,
+          "action": "State the benefit for the case",
+          "explain": "Workers master the hi-tech machines before touching the line, ending idleness and the engineer's repeated visits."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs106.txt lines 2287-2291 (paper plates festive order exercise)",
+      "concept": "lebs.106.4.2",
+      "question_type": "verify_property",
+      "question_pattern": "A paper plates maker producing one lakh units daily receives an urgent festival order for fifty thousand extra pieces. Which recruitment method should it use and why?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Read the need",
+          "explain": "A short, sudden surge of unskilled work -- not a permanent post."
+        },
+        {
+          "step": 2,
+          "action": "Name the method",
+          "explain": "Direct recruitment: a gate notice draws job-seekers who are hired on the spot as casual daily-wage workers."
+        },
+        {
+          "step": 3,
+          "action": "Justify the choice",
+          "explain": "It is immediate, costs nothing in advertising, and exactly suits casual vacancies during rush work."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs106.txt lines 2283-2286 (security services exercise)",
+      "concept": "lebs.106.5.1",
+      "question_type": "verify_property",
+      "question_pattern": "A security services firm needs candidates who are reliable and will not leak client secrets. Which steps should its selection process emphasise?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Match traits to selection tools",
+          "explain": "Trustworthiness calls for personality tests and interest tests; confidentiality calls for thorough reference and background checks."
+        },
+        {
+          "step": 2,
+          "action": "Sequence the steps",
+          "explain": "Screening, personality and interest tests, employment interview, deep reference and background verification before the selection decision."
+        },
+        {
+          "step": 3,
+          "action": "State the reason",
+          "explain": "References from previous employers and known persons verify the integrity claims that tests alone cannot prove."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex106_vsa",
+      "source_ref": "lebs106.txt lines 2260-2275 (Very Short Answer Type)",
+      "questions": [
+        "What is meant by staffing?",
+        "State the two important sources of recruitment.",
+        "Workers cannot operate new machines and keep calling the overburdened supervisor. Suggest a remedy.",
+        "Production quality lags standards because workers do not know the machinery's proper operation. How can quality be improved?",
+        "Workers idle for lack of knowledge of hi-tech machines cause frequent engineer visits and high overheads. How can this be removed?"
+      ]
+    },
+    {
+      "id": "ex106_sa",
+      "source_ref": "lebs106.txt lines 2280-2297 (Short Answer Type)",
+      "questions": [
+        "What is meant by recruitment? How is it different from selection?",
+        "A security services firm needs reliable candidates who will not leak client secrets. What steps should the selection process include?",
+        "A paper plates maker with 100000 daily output gets an urgent extra order of 50000. Which recruitment method should it adopt?",
+        "Distinguish between training and development.",
+        "Why are internal sources of recruitment considered more economical?",
+        "No organisation can be successful unless it fills and keeps the positions filled with the right kind of people. Elucidate."
+      ]
+    },
+    {
+      "id": "ex106_la",
+      "source_ref": "lebs106.txt lines 2298-2365 (Long Answer Type)",
+      "questions": [
+        "Human resource management includes many specialised activities and duties. Explain.",
+        "Explain the procedure for selection of employees.",
+        "What are the advantages of training to the individual and to the organisation?",
+        "A jobs portal for senior management with rigorous screening is launched. State the source of recruitment highlighted and four of its benefits.",
+        "Xylo Limited is setting up an auto components plant aiming at 40 per cent market share and exports. Outline the staffing process, the recruitment sources and the selection process it should follow, with reasons.",
+        "An insurance firm loses qualified candidates to a competitor and must hire people with soft skills but without hard skills. What problems do you see and how can they be resolved?",
+        "Ms Jayshree, newly appointed HR manager of an 800-person steel company with an expansion plan needing 200 more people: what functions must she perform, what problems may arise, what steps should she take, and how significant is her role?"
+      ]
+    }
+  ]
+}

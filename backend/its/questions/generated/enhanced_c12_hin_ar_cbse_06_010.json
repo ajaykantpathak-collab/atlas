@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_06_010",
+   "title": "c12_hin_ar_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define \"contextual meaning\" of a word in poetry and explain how it differs from dictionary meaning, using one example from \"ckny jkx\".",
+     "a": "Contextual meaning is the specific sense a word acquires from its syntactic position, imagery, and thematic role within the poem — e.g., \"ckny\" in the poem does not merely mean \"absence of light\" (dictionary) but signifies colonial oppression, ignorance, and spiritual stagnation. A wrong answer that only gives the dictionary definition reveals the student treats poetic language as transparent labeling rather than condensed signification.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT glosses \"foIyo\" as \"Økafr] ck<+\". In stanza 2, the line reads \"foIyo&jo ls NksVs gh gSa 'kksHkk ikrs\". Explain why the poet chooses \"foIyo\" instead of simpler synonyms like \"ckny\" or \"Andhera\", and what the compound \"foIyo&jo\" adds to the image.",
+     "a": "\"foIyo\" (tatsama, from vi + ava + ya — \"gone down, set\") carries the connotation of a natural, cyclical sunset, unlike \"ckny\" which suggests unnatural, imposed darkness. \"foIyo&jo\" (twilight's yoke/pair) personifies dusk as a burdened laborer, foreshadowing the exploited masses in later stanzas. A wrong answer that treats \"foIyo\" as mere synonym for \"evening\" misses the poem's historical allegory: colonial rule as an unnatural \"long night\" masquerading as natural order.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the morphological structure and contextual force of the compound \"v'kfu&ikr\" (stanza 3). Break it into components, identify the sandhi/samasa type, and explain how its meaning \"otzikr\" (terror-striking) transforms the description of the night.",
+     "a": "\"v'kfu\" (fear/terror) + \"ikr\" (doer/maker, from √kri) = bahuvrihi compound: \"that which makes [others] fearful.\" The compound condenses a whole clause (\"jo bhay paida kare\") into a single epithet. Calling the night \"v'kfu&ikr\" shifts agency: darkness is not passive absence but an active agent of terror — mirroring how colonial power actively manufactures fear. A student who only writes \"bhayankar\" without analyzing the compound structure misses how Nirala's Sanskritized lexicon encodes resistance through grammatical density.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the words \"jQ¼\" (stanza 1) and \"jksx\" (stanza 4). Both relate to sound/voice. Using their glosses and stanza contexts, analyze how their connotations differ and what this contrast reveals about the poem's movement from despair to resistance.",
+     "a": "\"jQ¼\" (gloss: \"jQdk gqvk\" — broken, fractured) describes the night's silence as a shattered, helpless sound — the muted cry of the oppressed. \"jksx\" (in \"jksx&'kksd\") appears in \"jksx&'kksd esa Hkh g¡lrk gS 'kS'ko dk lqoqQekj 'kjhj\" — here, sound becomes \"kS'ko\" (uproar/revolt) with \"lqoqQekj\" (resounding). The shift from fractured whisper to collective roar maps the poem's trajectory: from individualized suffering to mass awakening. A wrong answer that treats both as \"sound words\" without tracking the semantic arc fails to see vocabulary as narrative engine.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The NCERT glossary (jQ¼) entries for this poem are sufficient for board exam vocabulary questions.\" Defend or critique with specific examples from the poem.",
+     "a": "Critique: The glossary covers only 15 selected words, mostly tatsama compounds. It omits key tadbhava/descriptive words like \"fiQj&fiQj\" (repeated flickering), \"pwl\" (moment), \"gkM+&ek=k\" (deep stake/claim) whose contextual meanings are essential for \"explain with reference to context\" questions. For instance, \"gkM+&ek=k\" glossed as \"vkèkkj\" (rooted) in the glossary, but in \"gkM+&ek=k gh gS vkèkkj\" it means \"inalienable right/claim\" — a legal-political term crucial for the poem's rights-discourse. A student relying solely on the glossary will miss the vocabulary of resistance embedded in everyday Hindi. This error reveals confusion between \"glossary completion\" and \"vocabulary mastery.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line Hindi poem-stanza using ANY three words from the \"ckny jkx\" glossary (jQ¼, {kqCèk, vad, 'kh.kZ, o`Q\"kd, foIyo, nXèk, j.k&rjh, Iykfor, Hksjh, lqIr, v'kfu&ikr, {kr&fo{kr, gr, 'kL;) such that each word retains its poem-context connotation (not just dictionary meaning). Write the stanza and annotate each chosen word with its contextual justification.",
+     "a": "Sample stanza:\n\"foIyo&jo tuta, nXèk ân; ugha lqIr,\nv'kfu&ikr raat ka {kr&fo{kr bharosa hai.\no`Q\"kd ki awaz ab 'kS'ko ban chali,\nj.k&rjh ki deewar girani hi padegi.\"\n\nAnnotations: \"foIyo&jo\" — twilight's yoke, not just evening; \"nXèk\" — hardened/ripe, not merely cooked; \"lqIr\" — settled/firm, not just smooth; \"v'kfu&ikr\" — terror-manufacturing; \"{kr&fo{kr\" — desperately clinging; \"o`Q\"kd\" — the stakeholder/claimant (the people); \"j.k&rjh\" — wall of slavery. A poor answer uses words as decorative synonyms without preserving their thematic charge (e.g., using \"nXèk\" to mean \"cooked food\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

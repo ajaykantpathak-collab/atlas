@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_02_002",
+   "title": "c11_hs_cbse_02_002",
+   "questions": [
+    {
+     "q": "A student writes: \"I am a bad friend because I forgot my best friend's birthday.\" Identify which part of this statement reflects self-concept and which reflects self-esteem, and explain the difference in one sentence each.",
+     "a": "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that behaviour). A wrong answer that labels both as self-concept reveals the student cannot separate factual self-descriptions from value-laden self-evaluations — a critical error because board questions ask to \"distinguish with examples.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"Self-esteem is simply the sum of all positive self-concept statements.\" Critique this statement using the NCERT definition of self-esteem as \"judgment according to standards we have set for ourselves which are largely influenced by society.\"",
+     "a": "The statement is incorrect because self-esteem is not a mathematical sum of positive traits; it is a *subjective evaluation* against *internalised standards* (which may be unrealistic). A student with many positive self-concept traits (\"I am smart, kind, talented\") can have low self-esteem if their ideal self demands perfection. A wrong answer that agrees reveals the misconception that self-esteem = positive self-concept, ignoring the role of standards and the real-ideal discrepancy central to NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Priya (16) describes herself as \"average in studies, good at painting, short-tempered.\" She feels \"okay\" about herself. Rahul (16) describes himself identically but feels \"like a failure.\" Using the self-concept/self-esteem relationship, explain why their self-esteem differs despite identical self-concepts.",
+     "a": "Priya's ideal-self standards are likely aligned with her real self (she accepts \"average\" as sufficient), so the real-ideal discrepancy is small → positive self-esteem. Rahul's ideal self likely demands \"top grades, calm temperament,\" creating a large real-ideal discrepancy → negative self-esteem. A wrong answer attributing the difference solely to the self-concept content shows failure to grasp that self-esteem depends on the *evaluation against standards*, not the content alone.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the developmental shift from middle childhood (concrete, comparative self-descriptions) to adolescence (abstract, contradictory self-descriptions) complicates the self-concept → self-esteem relationship. Give one concrete example.",
+     "a": "In middle childhood, self-concept is concrete (\"I run faster than Kiran\") allowing clear, stable self-evaluation. In adolescence, abstract and contradictory self-concepts (\"I am shy but also want to lead\") create *ambiguous standards* for evaluation — the adolescent cannot easily judge if they meet \"being a leader\" when they also see themselves as \"shy.\" This ambiguity causes fluctuating self-esteem. A wrong answer focusing only on \"abstract thinking\" without linking to *evaluative instability* misses the core mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Improving self-esteem requires only changing negative self-concept statements to positive ones (e.g., 'I am stupid' → 'I am smart').\" Consider the role of internalised societal standards and the real-ideal gap.",
+     "a": "The claim is flawed because (1) positive affirmations that contradict lived experience (\"I am smart\" when failing exams) increase cognitive dissonance, lowering self-esteem further; (2) self-esteem depends on *perceived congruence* between real self and *internalised standards*, not mere positivity. If societal standards equate worth with academic marks, changing self-talk without addressing the standard or the performance gap fails. A wrong answer endorsing affirmations ignores the NCERT emphasis on \"standards largely influenced by society\" and the real-ideal discrepancy mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-statement \"I am...\" profile for an adolescent that would *maximise* the risk of low self-esteem according to the self-concept/self-esteem discrepancy model. Justify each statement's contribution.",
+     "a": "Example: (1) \"I am invisible in class\" (global negative self-concept), (2) \"I must be popular to be worthy\" (unrealistic, externally dependent ideal-self standard), (3) \"I never get anything right\" (distorted self-concept ignoring competencies). Justification: Statement 1 creates a negative real self; Statement 2 sets an unattainable ideal self dependent on others; Statement 3 prevents recognition of evidence that could narrow the gap. A poor answer lists negative traits without linking to *standards* or *discrepancy*, showing rote memorisation of \"negative = bad\" without mechanistic understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

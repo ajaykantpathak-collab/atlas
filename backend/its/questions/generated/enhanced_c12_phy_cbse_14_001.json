@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_001",
+   "title": "c12_phy_cbse_14_001",
+   "questions": [
+    {
+     "q": "Define valence band, conduction band, and energy band gap (E_g). State the typical range of E_g for insulators, semiconductors, and conductors.",
+     "a": "Valence band: the highest energy band completely filled with valence electrons at 0 K. Conduction band: the next higher energy band, empty at 0 K, where electrons are free to move and conduct electricity. Energy band gap E_g = E_C - E_V: the minimum energy needed to excite an electron from the top of the valence band to the bottom of the conduction band. Typical ranges: Conductors E_g ≈ 0 (bands overlap or partially filled); Semiconductors 0.2 eV < E_g < 3 eV (e.g., Si 1.1 eV, Ge 0.7 eV); Insulators E_g > 3 eV (e.g., diamond 5.4 eV). A wrong answer (e.g., swapping semiconductor/insulator ranges) reveals the student has memorised numbers without understanding the physical significance of thermal energy kT ≈ 25 meV at room temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an intrinsic semiconductor behaves as a perfect insulator at absolute zero (0 K) but conducts at room temperature. Use the terms valence band, conduction band, and thermal energy in your answer.",
+     "a": "At 0 K, all valence electrons are in the valence band; the conduction band is completely empty. With no electrons in the conduction band and no holes in the valence band, there are no charge carriers → infinite resistivity (perfect insulator). At room temperature (T > 0 K), thermal energy (kT ≈ 25 meV) excites some electrons across the small band gap (E_g ~ 1 eV) into the conduction band, leaving behind holes in the valence band. Both electrons and holes become mobile charge carriers, giving finite conductivity. A wrong answer that says \"electrons move to the conduction band because of the applied voltage\" confuses thermal excitation with field-driven drift — a critical misconception for later diode operation.",
+     "self_check": true
+    },
+    {
+     "q": "A pure silicon crystal has 5 × 10^28 atoms/m³. It is doped with 1 ppm (parts per million) of pentavalent arsenic. Given the intrinsic carrier concentration n_i = 1.5 × 10^16 m⁻³ at 300 K, calculate the equilibrium electron concentration n_e and hole concentration n_h. (This is NCERT Example 14.2.)",
+     "a": "Step 1: Donor concentration N_D = 1 ppm of 5 × 10^28 = (1/10^6) × 5 × 10^28 = 5 × 10^22 m⁻³.\nStep 2: At room temperature, nearly all donors are ionised, so n_e ≈ N_D = 5 × 10^22 m⁻³ (since N_D >> n_i).\nStep 3: Use mass-action law n_e n_h = n_i^2 → n_h = n_i^2 / n_e = (1.5 × 10^16)^2 / (5 × 10^22) = 2.25 × 10^32 / 5 × 10^22 = 4.5 × 10^9 m⁻³.\nStep 4: Verify: n_e (5 × 10^22) >> n_h (4.5 × 10^9), consistent with n-type material. Units: m⁻³ for both.\nA wrong answer where the student forgets to square n_i (gets n_h = 1.5 × 10^16 / 5 × 10^22 = 3 × 10^-7 m⁻³) shows they don't understand the mass-action law originates from the equilibrium between generation and recombination rates (both proportional to n_e and n_h respectively).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy band diagrams of a metal, an insulator, and a semiconductor at T = 0 K. For each, state: (i) whether the valence band is full/empty/partially filled, (ii) whether the conduction band is empty/partially filled, (iii) the band gap E_g, and (iv) the availability of charge carriers for conduction.",
+     "a": "Metal: (i) Valence band partially filled OR valence and conduction bands overlap. (ii) Conduction band partially filled (or overlapping). (iii) E_g ≈ 0. (iv) Large number of free electrons available even at 0 K → high conductivity.\nInsulator: (i) Valence band completely full. (ii) Conduction band completely empty. (iii) E_g > 3 eV (typically 5-10 eV). (iv) No charge carriers at 0 K; thermal energy at room temperature cannot excite electrons across the large gap → negligible conductivity.\nSemiconductor: (i) Valence band completely full. (ii) Conduction band completely empty. (iii) 0.2 eV < E_g < 3 eV. (iv) No carriers at 0 K; at room temperature, a small but significant number of electrons are thermally excited → moderate conductivity.\nA wrong answer that says \"semiconductor has a partially filled valence band at 0 K\" confuses it with a metal; this error leads to wrongly predicting finite conductivity at 0 K.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Diamond (C), silicon (Si), and germanium (Ge) all have the diamond crystal structure and four valence electrons. Therefore, they should all be semiconductors with similar band gaps.\" Evaluate this claim using the concept of ionisation energy and orbital principal quantum number.",
+     "a": "The claim is false. Although C, Si, Ge have the same crystal structure and valence electron count, their valence electrons reside in different principal quantum shells: C (n=2), Si (n=3), Ge (n=4). The ionisation energy (energy to free an electron, effectively the band gap) decreases as the orbital size increases and the electron is less tightly bound. Hence E_g(C) = 5.4 eV (insulator), E_g(Si) = 1.1 eV, E_g(Ge) = 0.7 eV (both semiconductors). The student's error is assuming crystal structure alone determines band gap, ignoring the atomic orbital size and nuclear charge effects. This is a classic JEE/NEET trap question (NCERT Example 14.1).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that the conductivity of an intrinsic semiconductor increases exponentially with temperature, while that of a metal decreases linearly. Specify what you would measure, the expected graph shapes, and the physical reason for the difference.",
+     "a": "Experiment: Take a pure Ge crystal (intrinsic semiconductor) and a copper wire of same dimensions. Measure resistance R with a multimeter while heating from 100 K to 400 K in a controlled furnace. Plot ln(σ) vs 1/T for Ge and σ vs T for Cu.\nExpected: Ge shows ln(σ) ∝ -E_g/(2kT) → straight line with negative slope; conductivity increases exponentially. Cu shows σ decreasing roughly linearly with T (σ ∝ 1/T) due to increased phonon scattering.\nReason: In semiconductors, carrier concentration n_i ∝ exp(-E_g/2kT) dominates over mobility decrease. In metals, carrier concentration is constant (≈10^28 m⁻³), so only mobility decreases with T.\nA poor answer that says \"both increase because heat gives energy to electrons\" misses the fundamental difference: metals have a fixed carrier density, semiconductors have thermally generated carriers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

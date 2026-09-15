@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_003",
+   "title": "c7_math_ch06_003",
+   "questions": [
+    {
+     "q": "What is the mathematical definition of an even number in terms of algebra, and how does it help us determine sums?",
+     "a": "An even number is any integer that can be written in the form $2k$, where $k$ is an integer. This algebraic representation helps us determine sums because we can substitute $2k$ and $2m$ into expressions to prove that adding two evens always yields an even result ($2k + 2m = 2(k + m)$). A wrong answer often confuses even numbers with numbers ending in certain digits without recognizing the underlying algebraic divisibility by 2, leading to incomplete or flawed reasoning when tackling multi-term sums.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of three odd numbers is always an odd number, rather than an even number.",
+     "a": "The sum of any two odd numbers is even (since $(2a+1) + (2b+1) = 2a + 2b + 2 = 2(a+b+1)$), and adding a third odd number to that even sum results in an odd number (since even + odd = odd). A wrong answer might assume that any sum involving three or more terms must automatically become even due to the presence of multiple numbers, ignoring the step-by-step associative property of addition.",
+     "self_check": true
+    },
+    {
+     "q": "A school library has 147 fiction books (an odd number) and receives a donation of 234 new non-fiction books (an even number). Without calculating the exact total, determine whether the total number of library books is even or odd, and verify your prediction with the actual sum.",
+     "a": "The total number of books is odd. \nStep 1: Identify the parity of each quantity: 147 is odd, and 234 is even.\nStep 2: Apply the rule for adding an odd number and an even number: $\\text{Odd} + \\text{Even} = \\text{Odd}$.\nStep 3: Calculate the exact sum to verify: $147 + 234 = 381$.\nStep 4: Check the final digit of 381, which is 1 (not divisible by 2), confirming it is odd. \nA wrong answer usually stems from misidentifying the initial parity of 147 or adding the digits incorrectly, showing a breakdown in connecting real-world quantities to parity rules.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"If you add five even numbers and four odd numbers together, the final sum will always be an even number.\" Determine if this statement is true or false and justify your reasoning algebraically.",
+     "a": "The statement is true. The sum of any number of even numbers is always even. The sum of four odd numbers (an even count of odds) will yield an even sum, because each pair of odd numbers adds up to an even number ($(\\text{Odd} + \\text{Odd}) + (\\text{Odd} + \\text{Odd}) = \\text{Even} + \\text{Even} = \\text{Even}$). Finally, adding the sum of the five even numbers (which is even) to the sum of the four odd numbers (which is even) results in an even sum ($\\text{Even} + \\text{Even} = \\text{Even}$). A wrong answer typically treats all odd numbers as making the sum odd regardless of how many odd numbers are added, forgetting that an *even* count of odd terms always sums to an even number.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student work: \"To find the sum of 35 (odd) and 49 (odd), I added them: $35 + 49 = 84$. Since 84 is even, my rule says Odd + Odd = Even. Therefore, if I add 35, 49, and 17 (odd), the sum $84 + 17 = 101$ is odd. My final conclusion is that the sum of three odd numbers is always even because my first two numbers gave an even answer.\" Identify the exact error in the student's evaluation.",
+     "a": "The student correctly calculated $35 + 49 = 84$ (Odd + Odd = Even) and correctly calculated $84 + 17 = 101$ (Even + Odd = Odd), but their final conclusion is completely flawed because they contradicted their own final calculation. The student claimed the sum of three odd numbers is \"always even\" even though their own math resulted in 101, which is odd. A wrong answer here indicates the student is blindly guessing conclusions based on a superficial reading of intermediate steps rather than evaluating their own final mathematical output.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mathematical puzzle involving a sequence of four consecutive integers (starting with an odd number) where the sum of these four numbers is guaranteed to be even. Prove why your statement holds true using algebraic variables.",
+     "a": "An example puzzle: Let the four consecutive integers start with an odd number $2k + 1$. The four numbers are $(2k + 1)$, $(2k + 2)$, $(2k + 3)$, and $(2k + 4)$. \nProof: Their sum is $(2k+1) + (2k+2) + (2k+3) + (2k+4) = 8k + 10 = 2(4k + 5)$. \nSince the sum can be factored as 2 times an integer, the total sum is always even. A poor answer fails to use algebraic expressions ($2k+1$) or provides a single numerical example without a general proof covering all consecutive integer sequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

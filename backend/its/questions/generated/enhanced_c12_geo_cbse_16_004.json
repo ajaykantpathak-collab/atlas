@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_004",
+   "title": "c12_geo_cbse_16_004",
+   "questions": [
+    {
+     "q": "List the five major regions with which India conducts international trade as per NCERT Table 8.6, and state which region accounted for the highest share of India's imports in 2021-22.",
+     "a": "The five regions are Europe, Africa, North America, Latin America, and Asia-ASEAN. Asia-ASEAN accounted for the highest share (₹29,18,577 crore out of ₹41,57,346 crore total, ~70.2%). A wrong answer (e.g., naming \"USA\" or \"China\" as regions instead of the NCERT regional groupings) reveals the student is confusing country-level partners with the regional classification used in the textbook, or cannot recall the specific table structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Asia-ASEAN is India's largest trading region, integrating at least three factors: geographical, economic, and historical.",
+     "a": "Asia-ASEAN dominates due to: (1) Geographical proximity — shorter sea routes via Indian Ocean reduce freight costs; (2) Economic complementarity — India imports crude oil, electronics, machinery from West Asia/East Asia and exports refined petroleum, pharmaceuticals, gems; (3) Historical maritime links — centuries-old trade networks across the Arabian Sea and Bay of Bengal. A wrong answer that only mentions \"China is a big economy\" misses the regional grouping logic and ignores the role of West Asian energy imports and ASEAN manufacturing supply chains.",
+     "self_check": true
+    },
+    {
+     "q": "Using NCERT Table 8.6 data, calculate the percentage share of Asia-ASEAN in India's total imports for 2016-17 and 2021-22. Show all steps and comment on the trend.",
+     "a": "Step 1: Total imports 2016-17 = 403,972 + 193,327 + 195,332 + 115,762 + 15,44,520 = ₹24,52,913 crore. Step 2: Asia-ASEAN share 2016-17 = (15,44,520 / 24,52,913) × 100 = 62.96%. Step 3: Total imports 2021-22 = 640,577 + 368,156 + 378,041 + 161,995 + 29,18,577 = ₹44,67,346 crore. Step 4: Asia-ASEAN share 2021-22 = (29,18,577 / 44,67,346) × 100 = 65.33%. Step 5: Share increased by ~2.4 percentage points, showing deepening integration with Asian supply chains. A wrong answer using only the Asia-ASEAN absolute values without computing totals, or misadding the regional figures, reveals inability to handle multi-step data interpretation — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the change in import shares of Europe and North America between 2016-17 and 2021-22. What does this shift indicate about India's trade diversification strategy?",
+     "a": "Europe's share fell from (403,972/24,52,913)×100 = 16.47% to (640,577/44,67,346)×100 = 14.34%. North America's share fell from (195,332/24,52,913)×100 = 7.96% to (378,041/44,67,346)×100 = 8.46% (slight rise in absolute but near-stagnant share). This indicates India's trade is pivoting toward Asia-ASEAN (rising share) while traditional Western partners grow slower, reflecting \"Act East\" policy, supply chain shifts from China to ASEAN, and energy ties with West Asia. A wrong answer stating \"Europe and USA shares increased because their absolute values rose\" misses the denominator effect — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's growing trade deficit with Asia-ASEAN is a structural concern that requires immediate policy intervention.\" Use trade direction concepts and data trends to justify your position.",
+     "a": "The statement is partially valid but oversimplified. Asia-ASEAN deficit is driven by crude oil (West Asia), electronics/machinery (China, ASEAN), and fertilizers — essential inputs with limited short-term substitutes. Policy focus should be on import substitution for non-essentials (e.g., electronics via PLI schemes) and export diversification to the same region (pharma, engineering goods). Immediate blanket intervention would disrupt industrial supply chains. A wrong answer calling for \"reducing all imports from China\" ignores that China supplies critical intermediates for India's exports (pharma APIs, auto components) and that the deficit with ASEAN is often offset by surplus with other regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point trade diversification strategy for India that reduces over-reliance on Asia-ASEAN while leveraging India's port infrastructure on both coasts. Annotate a sketch map of India with your proposed new trade corridors.",
+     "a": "A strong answer includes: (1) West Coast focus: Deepen ties with Africa (via Mumbai/Deendayal) for critical minerals, energy, and food security — using existing hinterland links to North/Central India; (2) East Coast focus: Expand trade with Latin America (via Paradip/Visakhapatnam) for edible oils, fertilizers, and minerals — leveraging new port capacities; (3) Air cargo hubs: Develop Chennai/Delhi as high-value pharma/IT hardware gateways to Europe/North America. Annotations must show port-hinterland connections. A poor answer lists generic \"trade with more countries\" without linking to specific ports, coasts, or commodity logic from NCERT Tables 8.4-8.5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

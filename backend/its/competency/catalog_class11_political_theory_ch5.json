@@ -1,0 +1,516 @@
+{
+ "class": "11",
+ "subject": "political_theory",
+ "chapter": 5,
+ "chapter_title": "Rights",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps105.txt",
+ "concepts": [
+  {
+   "id": "c11pt.5.1",
+   "title": "Meaning of Rights",
+   "section": "Introduction: What are Rights?",
+   "definition": "Rights are those conditions and guarantees that a society provides to individuals which enable them to live a life of dignity and freedom and to develop their personality to the fullest.",
+   "formula": "",
+   "key_idea": "Rights are claims of individuals recognised by society and enforced by the state; they are essential for the full development of the human personality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the term rights?",
+    "Explain the meaning of rights in political theory.",
+    "Why are rights considered necessary for human beings?",
+    "How do rights differ from mere wishes or demands?",
+    "What makes a claim a right rather than a desire?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define rights as recognised claims",
+     "explain": "Rights are claims of the individual that are recognised by society and backed by the state; a mere wish that is not recognised by others is not a right."
+    },
+    {
+     "step": 2,
+     "action": "Explain the purpose of rights",
+     "explain": "Rights provide the conditions necessary for a life of dignity and freedom and for the full development of the human personality."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish rights from mere desires",
+     "explain": "A right is a claim that is reasonable and recognised by society and enforceable by law or moral principles, whereas a desire is a personal want that may not be recognised by others."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by rights? Why are they important?",
+     "solution": "Step 1: Rights are claims of individuals recognised by society and enforced by the state. Step 2: They are necessary for a life of dignity, freedom and full development of personality. Step 3: Without rights individuals cannot lead a meaningful life or participate in society.",
+     "answer": "Rights are recognised claims that enable individuals to live with dignity and freedom and develop their personality fully"
+    },
+    {
+     "question": "Is every claim of an individual a right? Justify your answer.",
+     "solution": "Step 1: Not every claim is a right; a claim becomes a right only when society recognises it as reasonable. Step 2: A right must be backed by law or accepted moral principles. Step 3: Therefore only those claims that are reasonable and recognised qualify as rights.",
+     "answer": "No, only those claims that are recognised by society and backed by law or moral principles are rights"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of rights and discuss why they are essential for human beings.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between a right and a mere desire with examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.2",
+   "title": "Types of Rights: Moral and Legal Rights",
+   "section": "Types of Rights",
+   "definition": "Moral rights are those claims that are based on moral principles and are not backed by law, whereas legal rights are those claims of individuals that are recognised and enforced by the law of the state.",
+   "formula": "",
+   "key_idea": "Rights can be classified into moral rights (based on conscience and morality) and legal rights (enforceable by law); legal rights are codified while moral rights appeal to ethical judgement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between moral rights and legal rights.",
+    "What are moral rights? Give examples.",
+    "What are legal rights? Give examples.",
+    "How do moral rights differ from legal rights in terms of enforcement?",
+    "Can a moral right become a legal right? Explain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define moral rights",
+     "explain": "Moral rights are claims based on moral principles and the sense of what is right and just; they are not enforceable through courts but appeal to conscience."
+    },
+    {
+     "step": 2,
+     "action": "Define legal rights",
+     "explain": "Legal rights are claims of individuals that are recognised and protected by the law of the state and are enforceable through courts."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two types",
+     "explain": "Moral rights are not backed by law and cannot be enforced in court, while legal rights are codified and enforceable; many legal rights originate from moral rights once society recognises them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between moral rights and legal rights with examples.",
+     "solution": "Step 1: Moral rights are based on moral principles, e.g. the right to be treated with respect. Step 2: Legal rights are backed by law, e.g. the right to property. Step 3: Moral rights are not enforceable in court while legal rights are enforceable through the legal system.",
+     "answer": "Moral rights are based on morality and not enforceable by law; legal rights are codified and enforceable by courts"
+    },
+    {
+     "question": "Can a moral right be converted into a legal right? Explain with an example.",
+     "solution": "Step 1: A moral right can become a legal right when the state recognises it through legislation. Step 2: For example, the moral right against child labour was converted into a legal right through laws banning child labour. Step 3: Thus legalisation gives enforceability to a moral claim.",
+     "answer": "Yes, when the state recognises a moral claim through law it becomes a legal right, as with laws against child labour"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between moral rights and legal rights with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example each of a moral right and a legal right.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.3",
+   "title": "Human Rights",
+   "section": "Human Rights",
+   "definition": "Human rights are those rights that every human being is entitled to by virtue of being human, irrespective of nationality, race, religion, gender or any other status, and are universal, inalienable and indivisible.",
+   "formula": "",
+   "key_idea": "Human rights are universal rights belonging to all human beings simply because they are human; they are codified in the Universal Declaration of Human Rights (1948) and are inalienable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are human rights?",
+    "Explain the universal nature of human rights.",
+    "What is the significance of the Universal Declaration of Human Rights?",
+    "Why are human rights called inalienable?",
+    "List some important human rights recognised internationally."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define human rights as universal rights",
+     "explain": "Human rights are rights that belong to every person simply by virtue of being human, regardless of any distinction such as race, sex, nationality or religion."
+    },
+    {
+     "step": 2,
+     "action": "Explain their key features",
+     "explain": "Human rights are universal (apply to all), inalienable (cannot be taken away), indivisible (all are equally important) and interdependent (one right depends on others)."
+    },
+    {
+     "step": 3,
+     "action": "Link to the Universal Declaration of Human Rights",
+     "explain": "The Universal Declaration of Human Rights adopted by the UN in 1948 codified these rights and set a common standard of achievement for all peoples and nations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are human rights? Why are they called universal?",
+     "solution": "Step 1: Human rights are rights that every human being is entitled to by virtue of being human. Step 2: They are universal because they apply to all people everywhere regardless of nationality, race or religion. Step 3: They are codified in the Universal Declaration of Human Rights (1948).",
+     "answer": "Human rights are universal rights of all human beings by virtue of being human; they apply to everyone everywhere"
+    },
+    {
+     "question": "Why are human rights considered inalienable?",
+     "solution": "Step 1: Inalienable means that a right cannot be taken away or given up. Step 2: Human rights are inalienable because they belong to a person simply by being human. Step 3: No state or person can legitimately deprive someone of these rights except under specific lawful conditions.",
+     "answer": "Because they cannot be taken away or surrendered; they belong to every human being by virtue of being human"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and significance of human rights with reference to the Universal Declaration of Human Rights.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three features of human rights.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.4",
+   "title": "Fundamental Rights in the Indian Constitution",
+   "section": "Fundamental Rights",
+   "definition": "Fundamental rights are those basic rights of citizens that are guaranteed and protected by the Constitution of India under Part III (Articles 12 to 35) and are enforceable by courts through writs.",
+   "formula": "",
+   "key_idea": "The Indian Constitution guarantees six fundamental rights -- right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies -- which are enforceable by the courts.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are fundamental rights? List the fundamental rights guaranteed by the Indian Constitution.",
+    "Explain the right to equality as a fundamental right.",
+    "What is the right to constitutional remedies?",
+    "How are fundamental rights different from ordinary legal rights?",
+    "Which fundamental right is called the heart and soul of the Constitution and why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define fundamental rights",
+     "explain": "Fundamental rights are basic rights guaranteed by the Constitution under Part III (Articles 12-35) and are enforceable by the courts through writs."
+    },
+    {
+     "step": 2,
+     "action": "List the six fundamental rights",
+     "explain": "They are: right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies."
+    },
+    {
+     "step": 3,
+     "action": "Explain their enforceability and significance",
+     "explain": "Unlike ordinary legal rights, fundamental rights are constitutionally guaranteed and can be enforced directly by the Supreme Court and High Courts through writs; the right to constitutional remedies (Article 32) makes them effective."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List the fundamental rights guaranteed by the Indian Constitution.",
+     "solution": "Step 1: The Constitution guarantees six fundamental rights under Part III. Step 2: They are right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies. Step 3: These are enforceable by the courts under Articles 32 and 226.",
+     "answer": "Six fundamental rights: equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies"
+    },
+    {
+     "question": "Why is the right to constitutional remedies called the heart and soul of the Constitution?",
+     "solution": "Step 1: The right to constitutional remedies under Article 32 allows citizens to approach the Supreme Court to enforce fundamental rights. Step 2: Without this right other fundamental rights would be meaningless as there would be no mechanism to enforce them. Step 3: Dr. B.R. Ambedkar called it the heart and soul of the Constitution for this reason.",
+     "answer": "Because it provides the mechanism to enforce all other fundamental rights through the courts"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the fundamental rights guaranteed by the Indian Constitution and discuss their significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How are fundamental rights different from ordinary legal rights?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.5",
+   "title": "Rights and Duties",
+   "section": "Rights and Duties",
+   "definition": "Rights and duties are two sides of the same coin; every right of an individual implies a corresponding duty on the part of others and the state to respect and protect that right.",
+   "formula": "",
+   "key_idea": "Rights and duties are correlative and complementary; the enjoyment of rights by one person creates a duty for others not to interfere, and the state has a duty to protect the rights of citizens.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the relationship between rights and duties.",
+    "Why are rights and duties called two sides of the same coin?",
+    "What are the duties that correspond to the rights of citizens?",
+    "Can rights exist without duties? Discuss.",
+    "How does the Indian Constitution relate fundamental rights to fundamental duties?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the correlative nature of rights and duties",
+     "explain": "Every right of an individual implies a corresponding duty on others and the state to respect and not interfere with that right."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mutual dependence",
+     "explain": "Rights cannot be enjoyed without duties being performed; if everyone claims rights without performing duties, rights of others get violated and social order breaks down."
+    },
+    {
+     "step": 3,
+     "action": "Link to the Indian Constitution",
+     "explain": "The Indian Constitution lists fundamental duties in Article 51A (Part IVA) alongside fundamental rights, showing that rights and duties are complementary."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are rights and duties called two sides of the same coin?",
+     "solution": "Step 1: Every right of one person creates a corresponding duty for others to respect it. Step 2: Enjoyment of rights is possible only when others perform their duties. Step 3: Hence rights and duties are interdependent and called two sides of the same coin.",
+     "answer": "Because every right implies a corresponding duty and rights can be enjoyed only when duties are performed"
+    },
+    {
+     "question": "How does the Indian Constitution reflect the relationship between rights and duties?",
+     "solution": "Step 1: The Constitution guarantees fundamental rights in Part III. Step 2: It also lists fundamental duties in Article 51A (Part IVA). Step 3: Together they show that rights and duties are complementary in a constitutional democracy.",
+     "answer": "By providing fundamental rights in Part III and fundamental duties in Article 51A, showing they are complementary"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between rights and duties with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three fundamental duties of Indian citizens.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.6",
+   "title": "Rights and Responsibilities",
+   "section": "Rights and Responsibilities",
+   "definition": "Along with rights, citizens have responsibilities towards society and the state; rights come with the responsibility to exercise them in a manner that does not harm others or the public interest.",
+   "formula": "",
+   "key_idea": "Rights are not absolute; they come with the responsibility to use them responsibly and within reasonable limits so that the rights of others and the public interest are not harmed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the relationship between rights and responsibilities?",
+    "Why are rights not absolute?",
+    "Explain how the exercise of rights carries responsibilities.",
+    "What are reasonable restrictions on rights?",
+    "How can the irresponsible exercise of rights affect society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain that rights carry responsibilities",
+     "explain": "The enjoyment of rights comes with the responsibility to exercise them in a way that does not infringe on the rights of others or harm the public interest."
+    },
+    {
+     "step": 2,
+     "action": "Explain that rights are not absolute",
+     "explain": "Rights are subject to reasonable restrictions imposed by law in the interests of sovereignty, public order, morality and the rights of others."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of responsible exercise",
+     "explain": "For example, freedom of speech does not allow defamation or incitement to violence; the responsibility is to express views without harming others."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are rights not absolute? Explain with an example.",
+     "solution": "Step 1: Rights are subject to reasonable restrictions in the interest of society. Step 2: For example, freedom of speech does not include the right to defame or incite violence. Step 3: Therefore rights must be exercised responsibly within reasonable limits.",
+     "answer": "Because rights are subject to reasonable restrictions so that they do not harm others or public interest"
+    },
+    {
+     "question": "How does the irresponsible exercise of rights affect society?",
+     "solution": "Step 1: Irresponsible exercise of rights harms others and disrupts social harmony. Step 2: For example, using free speech to spread hatred leads to conflict. Step 3: Hence rights must be exercised with a sense of responsibility towards society.",
+     "answer": "It harms others, disrupts social harmony and can lead to conflict; hence rights must be exercised responsibly"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between rights and responsibilities with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by reasonable restrictions on rights?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.7",
+   "title": "Rights in Conflict",
+   "section": "Rights in Conflict",
+   "definition": "Rights in conflict arise when the exercise of one right by a person or group clashes with the right of another person or group, requiring a balance to be struck between competing claims.",
+   "formula": "",
+   "key_idea": "Different rights can come into conflict with each other; when this happens, society and the courts must balance the competing rights and decide which right prevails in a given context.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by rights in conflict? Give an example.",
+    "How can conflicts between different rights be resolved?",
+    "Explain a situation where freedom of speech conflicts with the right to reputation.",
+    "Why do rights sometimes clash with each other?",
+    "How do courts balance competing rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define rights in conflict",
+     "explain": "Rights in conflict occur when the exercise of one right clashes with another right, such as freedom of speech conflicting with the right to reputation."
+    },
+    {
+     "step": 2,
+     "action": "Explain why conflicts arise",
+     "explain": "Conflicts arise because rights are not absolute and different rights may overlap or compete in particular situations, requiring a balance between them."
+    },
+    {
+     "step": 3,
+     "action": "Explain how conflicts are resolved",
+     "explain": "Society and courts resolve conflicts by balancing competing rights, considering the context, the harm caused, and the greater public interest, and by imposing reasonable restrictions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain a situation where two rights come into conflict.",
+     "solution": "Step 1: Freedom of speech allows a person to express views publicly. Step 2: The right to reputation protects a person from defamation. Step 3: When speech defames someone, the two rights conflict and must be balanced by law.",
+     "answer": "Freedom of speech can conflict with the right to reputation when speech becomes defamatory"
+    },
+    {
+     "question": "How can conflicts between rights be resolved?",
+     "solution": "Step 1: Conflicts are resolved by balancing the competing rights in the given context. Step 2: Courts consider the harm caused and the public interest. Step 3: Reasonable restrictions are imposed to balance one right against another.",
+     "answer": "By balancing competing rights in context, considering harm and public interest, and imposing reasonable restrictions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by rights in conflict? Explain with examples how such conflicts can be resolved.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example of a conflict between two rights.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.8",
+   "title": "Collective Rights",
+   "section": "Collective Rights",
+   "definition": "Collective rights are rights that belong to a group or community as a whole rather than to individuals, such as the right of a minority community to preserve its culture, language and identity.",
+   "formula": "",
+   "key_idea": "While most rights are individual, some rights belong to groups or communities; collective rights protect the identity, culture and interests of communities such as minorities and indigenous peoples.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are collective rights? Give examples.",
+    "How do collective rights differ from individual rights?",
+    "Explain the cultural and educational rights of minorities as collective rights.",
+    "Why are collective rights important for minorities?",
+    "What is the significance of collective rights in a diverse society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define collective rights",
+     "explain": "Collective rights are rights that belong to a group or community as a whole, such as the right of a minority to preserve its language and culture."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish from individual rights",
+     "explain": "Individual rights belong to each person separately, while collective rights belong to a community and are exercised jointly by its members."
+    },
+    {
+     "step": 3,
+     "action": "Explain their importance for minorities",
+     "explain": "Collective rights protect the identity, culture and existence of minority and indigenous communities and are essential in a diverse society to prevent the domination of majority culture."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are collective rights? How do they differ from individual rights?",
+     "solution": "Step 1: Collective rights belong to a group or community as a whole. Step 2: Individual rights belong to each person separately. Step 3: For example, the right of a minority to preserve its culture is a collective right, while the right to life is an individual right.",
+     "answer": "Collective rights belong to a community; individual rights belong to each person separately"
+    },
+    {
+     "question": "Explain the cultural and educational rights of minorities as collective rights.",
+     "solution": "Step 1: Articles 29 and 30 of the Constitution protect the cultural and educational rights of minorities. Step 2: These rights allow minorities to preserve their distinct culture, language and script. Step 3: They are collective rights because they protect the community as a whole, not just individuals.",
+     "answer": "Articles 29-30 give minorities the collective right to preserve their culture and establish educational institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of collective rights and discuss their importance in a diverse society like India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example of a collective right guaranteed by the Indian Constitution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.5.9",
+   "title": "Evolution of Rights",
+   "section": "Conclusion: The Evolution of Rights",
+   "definition": "Rights have evolved over time from limited privileges of a few to universal claims of all; historically rights expanded through struggles of people against monarchy, colonialism, discrimination and oppression.",
+   "formula": "",
+   "key_idea": "Rights are not static; they have expanded over time through social and political struggles, from civil and political rights to social, economic and collective rights, and continue to evolve.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How have rights evolved over time?",
+    "Explain the historical expansion of rights.",
+    "What role did people's struggles play in the evolution of rights?",
+    "How have new rights emerged in recent times?",
+    "Why is the evolution of rights a continuous process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the historical origin of rights",
+     "explain": "Initially rights were limited privileges of a few; through struggles against monarchy, colonialism and oppression, rights expanded to larger sections of society."
+    },
+    {
+     "step": 2,
+     "action": "Trace the expansion of rights",
+     "explain": "Rights expanded from civil and political rights (liberty, equality, franchise) to social and economic rights (education, work, shelter) and then to collective and environmental rights."
+    },
+    {
+     "step": 3,
+     "action": "Explain the continuing evolution",
+     "explain": "Rights continue to evolve as new needs and challenges emerge, such as the right to information, right to privacy and right to a clean environment, showing that the process is ongoing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How have rights evolved over time?",
+     "solution": "Step 1: Initially rights were limited to a privileged few. Step 2: Through struggles, rights expanded to include civil, political, social and economic rights. Step 3: Newer rights such as the right to information and right to a clean environment continue to emerge.",
+     "answer": "Rights have expanded from limited privileges to universal claims and continue to evolve with new rights emerging"
+    },
+    {
+     "question": "What role did people's struggles play in the evolution of rights?",
+     "solution": "Step 1: People's struggles against monarchy, colonialism and discrimination forced rulers to recognise rights. Step 2: Movements for equality, women's rights and minority rights expanded the scope of rights. Step 3: Thus struggles have been central to the expansion and recognition of rights.",
+     "answer": "People's struggles forced the recognition and expansion of rights, from civil rights to social and economic rights"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Trace the evolution of rights from early times to the present day.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any two new rights that have emerged in recent times.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

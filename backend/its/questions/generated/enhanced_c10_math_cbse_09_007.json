@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_007",
+   "title": "c10_math_cbse_09_007",
+   "questions": [
+    {
+     "q": "A student draws the diagram for a two-angle problem but labels the horizontal distance in the second triangle as *d* instead of *d* − *x* (where *x* is the distance walked). What specific conceptual error does this reveal about their understanding of the geometry?",
+     "a": "The student fails to recognise that the horizontal distance changes when the observer moves, treating both triangles as having the same base. This reveals they are memorising \"tan θ = height/distance\" as a rigid template without understanding that the distance is measured from the observer's current position to the foot of the object. The correct approach requires expressing the new distance in terms of the original distance and the displacement.",
+     "self_check": true
+    },
+    {
+     "q": "In a problem where the angle of elevation changes from 30° to 60° after walking 30 m towards a tower, a student writes: tan 30° = *h*/*d* and tan 60° = *h*/*d*. They then equate *h* = *d* tan 30° and *h* = *d* tan 60° and conclude *d* tan 30° = *d* tan 60°, getting *d* = 0. Why is this reasoning flawed, and what correct relationship should replace the second equation?",
+     "a": "The student used the same distance *d* for both equations, ignoring that the observer moved 30 m closer. The second equation should be tan 60° = *h* / (*d* − 30). The error stems from not updating the horizontal distance variable after movement. The correct system is *h* = *d*/√3 and *h* = (*d* − 30)√3, which gives a valid positive distance.",
+     "self_check": true
+    },
+    {
+     "q": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 40 m towards the tower, the angle becomes 60°. Find the height of the tower and the original distance from the tower. (Use √3 = 1.732)",
+     "a": "**Step 1:** Let height = *h* m, original distance = *d* m.\n**Step 2:** First triangle: tan 30° = *h*/*d* → 1/√3 = *h*/*d* → *h* = *d*/√3.\n**Step 3:** Second triangle (after moving 40 m closer): tan 60° = *h*/(*d* − 40) → √3 = *h*/(*d* − 40) → *h* = √3(*d* − 40).\n**Step 4:** Equate: *d*/√3 = √3(*d* − 40) → *d* = 3(*d* − 40) → *d* = 3*d* − 120 → 2*d* = 120 → *d* = 60 m.\n**Step 5:** Substitute: *h* = 60/√3 = 20√3 ≈ 34.64 m.\n**Step 6:** Verify: tan 30° = 34.64/60 ≈ 0.577 ✓; tan 60° = 34.64/20 ≈ 1.732 ✓.\n**Answer:** Height = 20√3 m (≈ 34.64 m), Original distance = 60 m.\nA wrong answer typically comes from sign errors in (*d* − 40) or using tan 30° = √3 instead of 1/√3.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same two-step problem. Student A sets up equations using tan for both angles. Student B uses tan for the first angle and sin for the second angle (using the line of sight as hypotenuse). Both get the correct numerical answer. Compare the two methods: which is more efficient and why? Under what condition would Student B's method fail?",
+     "a": "Student A's method (using tan for both) is more efficient because it directly relates the two unknowns (height and horizontal distance) without introducing the hypotenuse as an extra variable. Student B's method works only if the line-of-sight distance is either given or can be eliminated cleanly; it fails when the hypotenuse is not needed and adds unnecessary algebraic complexity. The tan-tan approach exploits the shared horizontal/vertical geometry directly. Both are mathematically valid, but tan-tan is the standard CBSE-preferred method for two-angle problems.",
+     "self_check": true
+    },
+    {
+     "q": "A solved example shows: \"tan 30° = *h*/*d* and tan 60° = *h*/(*d* − 20). So *h* = *d*/√3 and *h* = (*d* − 20)√3. Equating: *d*/√3 = (*d* − 20)√3 → *d* = 3*d* − 60 → *d* = 30. Height = 30/√3 = 10√3 m.\" The student copies this but changes the angles to 45° and 30° and writes: *h* = *d* and *h* = (*d* − 20)/√3 → *d* = (*d* − 20)/√3 → *d*√3 = *d* − 20 → *d*(√3 − 1) = −20. They get a negative distance. Identify the exact algebraic error and correct it.",
+     "a": "The error is in the second equation: tan 30° = 1/√3, so *h* = (*d* − 20) × (1/√3) = (*d* − 20)/√3. The student correctly wrote this. The mistake is in the equating step: *d* = (*d* − 20)/√3 should give *d*√3 = *d* − 20 → *d*√3 − *d* = −20 → *d*(√3 − 1) = −20. Since √3 > 1, (√3 − 1) is positive, so *d* = −20/(positive) = negative. This negative result signals the setup is impossible for these angles with this displacement — the observer would need to move *away* from the tower for the angle to decrease from 45° to 30°. The problem statement likely has the angles reversed or the direction of movement wrong. The algebraic steps were correct; the error is in not checking physical plausibility before solving.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-step height-distance problem where the observer moves *away* from the object, causing the angle of elevation to decrease. Use standard angles (30°, 45°, 60°) and a displacement of 15 m. Write the full problem statement, draw the diagram description, and set up the two equations (do not solve).",
+     "a": "**Problem:** From a point on the ground, the angle of elevation of the top of a pole is 60°. On moving 15 m *away* from the pole, the angle of elevation becomes 30°. Find the height of the pole and the original distance from the pole.\n**Diagram:** Two right triangles sharing the same vertical side (pole height *h*). First triangle: base = *d*, angle at observer = 60°. Second triangle: base = *d* + 15, angle at observer = 30°.\n**Equations:** tan 60° = *h*/*d* → √3 = *h*/*d* → *h* = *d*√3. tan 30° = *h*/(*d* + 15) → 1/√3 = *h*/(*d* + 15) → *h* = (*d* + 15)/√3.\nA poor answer would use (*d* − 15) instead of (*d* + 15), revealing confusion about whether moving away increases or decreases the base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

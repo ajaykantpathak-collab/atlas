@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_004",
+   "title": "c11_math_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the formula for the arithmetic mean of two numbers a and b. If a = 8 and b = 20, what is their arithmetic mean?",
+     "a": "The arithmetic mean A of two numbers a and b is A = (a + b)/2. For a = 8 and b = 20, A = (8 + 20)/2 = 14. A wrong answer like A = (20 - 8)/2 = 6 reveals the student confuses arithmetic mean with half the difference, or A = 8 + 20 = 28 reveals confusion with sum instead of average.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for the k-th arithmetic mean inserted between a and b is Aₖ = a + k(b - a)/(n + 1) and not Aₖ = a + k(b - a)/n. Use the concept of number of intervals in an AP.",
+     "a": "When n means are inserted between a and b, there are (n + 1) intervals (gaps) between the (n + 2) terms of the resulting AP. The total difference (b - a) is divided into (n + 1) equal parts, so common difference d = (b - a)/(n + 1). The k-th mean is the (k+1)-th term: Aₖ = a + kd = a + k(b - a)/(n + 1). Using n in the denominator treats the number of means as the number of intervals, which is off by one. A student writing d = (b - a)/n reveals they count means instead of intervals.",
+     "self_check": true
+    },
+    {
+     "q": "Insert 4 arithmetic means between 3 and 23. Find the common difference and list all 4 means.",
+     "a": "Given a = 3, b = 23, n = 4. Number of terms in AP = n + 2 = 6. Common difference d = (b - a)/(n + 1) = (23 - 3)/5 = 4. The means are: A₁ = 3 + 4 = 7, A₂ = 3 + 8 = 11, A₃ = 3 + 12 = 15, A₄ = 3 + 16 = 19. Sequence: 3, 7, 11, 15, 19, 23. A wrong answer with d = 5 (using n=4) gives means 8, 13, 18, 23 – but 23 is the last term, not a mean, revealing the off-by-one error.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of 3 arithmetic means inserted between a and b is 45. If a = 5, find b. Compare this with finding b when the single arithmetic mean is 15.",
+     "a": "For n=3 means: A₁ = a + d, A₂ = a + 2d, A₃ = a + 3d where d = (b - 5)/4. Sum = 3a + 6d = 15 + 6(b-5)/4 = 45 → 6(b-5)/4 = 30 → b-5 = 20 → b = 25. For single mean: (5 + b)/2 = 15 → 5 + b = 30 → b = 25. Both give b = 25! This is because the sum of n means in an AP equals n times the single arithmetic mean. A student getting different values doesn't recognise this property or makes algebraic errors in the n-means equation.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Insert 5 arithmetic means between 2 and 17\" and wrote: d = (17-2)/5 = 3, means = 5, 8, 11, 14, 17. Identify the error and give the correct solution.",
+     "a": "Error: Used n = 5 in denominator instead of n+1 = 6. The 5 means plus the two endpoints create 6 intervals. Correct: d = (17-2)/6 = 2.5. Means: A₁ = 2 + 2.5 = 4.5, A₂ = 7, A₃ = 9.5, A₄ = 12, A₅ = 14.5. Sequence: 2, 4.5, 7, 9.5, 12, 14.5, 17. The student's last \"mean\" 17 is actually the endpoint b. This is the classic off-by-one interval error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where inserting arithmetic models a situation with uniform change. Specify the two endpoints, number of means, and what the means represent.",
+     "a": "Example: A Delhi Metro train starts from rest and reaches 72 km/h in 30 seconds with uniform acceleration. Find the speed at 5-second intervals. Here a = 0 km/h, b = 72 km/h, n = 5 means (at 5s, 10s, 15s, 20s, 25s). The means represent intermediate speeds. d = 72/6 = 12 km/h per 5s. Means: 12, 24, 36, 48, 60 km/h. A poor answer uses non-uniform change (e.g., \"price of vegetables over months\") or wrong interval count (e.g., 6 means for 30 seconds with 5-second gaps).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

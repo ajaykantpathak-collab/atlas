@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_008",
+   "title": "c11_biotech_cbse_02_008",
+   "questions": [
+    {
+     "q": "Name the three distinct compartments created by the chloroplast membrane system and state which compartment contains the 70S ribosomes and circular DNA.",
+     "a": "The three compartments are: (1) intermembrane space (between outer and inner envelope membranes), (2) stroma (inside inner envelope, outside thylakoids), and (3) thylakoid lumen (inside thylakoids). The 70S ribosomes and circular DNA are located in the stroma. A wrong answer placing DNA/ribosomes in the thylakoid lumen reveals confusion between the bacterial ancestry (stroma = cytoplasmic equivalent) and the internal membrane system. Placing them in the intermembrane space shows failure to distinguish envelope from thylakoid membranes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Grana and stroma lamellae are structurally identical — both are just thylakoid membranes stacked differently.\" Explain why this statement is incorrect by describing the functional difference in photosystem distribution.",
+     "a": "Grana thylakoids are enriched in Photosystem II (PSII) and light-harvesting complex II (LHCII), while stroma lamellae (frets) are enriched in Photosystem I (PSI) and ATP synthase. This lateral heterogeneity enables linear electron flow: PSII in grana oxidizes water and reduces plastoquinone, which diffuses to cytochrome b6f, then plastocyanin carries electrons to PSI in stroma lamellae. A student missing this distinction cannot explain why unstacking grana (e.g., in high light) shifts energy distribution between photosystems (state transitions).",
+     "self_check": true
+    },
+    {
+     "q": "Given a chloroplast cross-section micrograph showing 40 grana per chloroplast with each granum containing 15 thylakoids on average, and each thylakoid having a diameter of 0.5 μm and thickness of 20 nm, calculate the approximate total thylakoid membrane surface area per chloroplast available for photosynthetic complexes. (Assume thylakoids are flat discs; ignore stroma lamellae.)",
+     "a": "Step 1: Surface area of one thylakoid disc = 2 × πr² (two faces) = 2 × π × (0.25 μm)² = 0.393 μm².\nStep 2: Thylakoids per chloroplast = 40 grana × 15 thylakoids/granum = 600 thylakoids.\nStep 3: Total membrane area = 600 × 0.393 μm² = 235.6 μm².\nStep 4: Convert to m²: 235.6 μm² = 2.36 × 10⁻¹⁰ m².\nA wrong answer using only one face (πr²) reveals misunderstanding that both membrane leaflets host protein complexes. Using cylinder lateral area (2πrh) shows confusion between membrane surface and thylakoid volume.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proton gradient topology in chloroplasts versus mitochondria. Specifically: (a) Which compartment becomes acidic in each organelle? (b) In which direction do protons flow through ATP synthase relative to the stroma/matrix? (c) Explain how the membrane orientation of ATP synthase differs between the two organelles.",
+     "a": "(a) Chloroplast: thylakoid lumen becomes acidic (pH ~4-5); Mitochondria: intermembrane space becomes acidic (pH ~6-7). (b) Chloroplast: protons flow from lumen → stroma through CF₀CF₁ ATP synthase; Mitochondria: protons flow from intermembrane space → matrix through F₀F₁ ATP synthase. (c) In chloroplasts, the catalytic CF₁ knob protrudes into the stroma; in mitochondria, the F₁ knob protrudes into the matrix. Both synthesize ATP on the N-side (negative/stroma/matrix side). A student reversing the acidic compartment reveals failure to trace the electron transport chain direction: chloroplasts pump H⁺ *into* thylakoids via plastoquinone cycle; mitochondria pump H⁺ *out* of matrix via Complexes I, III, IV.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The presence of 70S ribosomes and circular DNA in chloroplasts proves they originated from cyanobacteria via endosymbiosis, but the same evidence in mitochondria proves nothing because mitochondrial ribosomes are 55S in mammals.\" Defend or refute using structural and genetic evidence.",
+     "a": "Refute. The claim contains a factual error: mammalian mitochondrial ribosomes are 55S, but plant mitochondrial ribosomes are 78S-80S, and fungal/protist mitochondrial ribosomes vary. The universal evidence for endosymbiosis is: (1) double membranes in both organelles, (2) circular DNA lacking histones in both, (3) 70S-type ribosomes sensitive to prokaryotic antibiotics (chloramphenicol, streptomycin) in both chloroplasts and most mitochondria, (4) N-formylmethionine initiation in both, (5) phylogenetic congruence of organellar rRNA genes with α-proteobacteria (mitochondria) and cyanobacteria (chloroplasts). The 55S mammalian mitoribosome is a derived feature from gene loss/transfer, not evidence against endosymbiosis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using isolated chloroplasts to demonstrate that the thylakoid lumen becomes acidic during illumination. Specify: (a) the measurable parameter, (b) the control, (c) how you would manipulate the system to prove the pH change drives ATP synthesis, and (d) the expected result if the chemiosmotic hypothesis is correct.",
+     "a": "(a) Measurable parameter: external medium pH (using a pH electrode) or 9-aminoacridine fluorescence quenching (indicates ΔpH across thylakoid membrane). (b) Control: dark-incubated chloroplasts + uncoupler (NH₄Cl or gramicidin) to dissipate any gradient. (c) Manipulation: illuminate chloroplasts in pH 7 buffer with ADP + Pi → measure ATP synthesis (luciferase assay) and external pH drop. Then add uncoupler during illumination → ATP synthesis stops, pH gradient collapses. Alternatively, create artificial ΔpH by incubating in pH 4 buffer (acidic lumen equivalent) then rapidly transferring to pH 8 buffer with ADP/Pi in dark → ATP synthesis occurs without light. (d) Expected: illumination causes external pH rise (protons pumped into lumen), ATP synthesis occurs; uncoupler abolishes both; artificial ΔpH in dark drives ATP synthesis. A poor answer omits the artificial ΔpH experiment, missing the critical test that ΔpH *alone* is sufficient.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

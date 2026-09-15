@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_04_012",
+   "title": "c12_eng_k_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the key difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What colour are Captain Hagberd's cottages?\" → \"yellow brick\"). An inferential question requires the reader to deduce an answer using textual clues and reasoning (e.g., \"Why does Hagberd wear a canvas suit?\" → inference about his obsession with the sea/his son's return). A wrong answer that swaps the definitions reveals the student cannot identify the cognitive demand of the question, leading to either over-quoting for inferential questions or missing textual support for literal ones.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following question as LITERAL or INFERENTIAL and explain your reasoning: \"What does Captain Hagberd do every day in his front plot?\"",
+     "a": "LITERAL. The text explicitly states: \"He dug every day in his front plot. He turned it over and over several times every year...\" (p.44). The answer is directly retrievable without interpretation. A student who labels this INFERENTIAL confuses \"daily routine\" with \"implied meaning\" and will waste time searching for hidden significance where none is required, losing marks for not quoting the exact textual detail.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this LITERAL question using a direct quote from the text: \"What specific reason does Captain Hagberd give for advertising in the Sunday papers?\"",
+     "a": "Step 1: Identify question type → LITERAL (asks for \"specific reason\" explicitly stated). Step 2: Scan for keywords \"advertising\", \"Sunday papers\", \"reason\". Step 3: Locate on p.49: \"He advertised still in the Sunday papers for Harry Hagberd. These sheets were read in foreign parts to the end of the world, he informed Bessie.\" Step 4: Extract exact reason: \"These sheets were read in foreign parts to the end of the world.\" Step 5: Format answer with quote. A wrong answer that paraphrases (\"to find his son globally\") loses the 1-mark precision for not using the author's exact words, which CBSE marking scheme requires for literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this INFERENTIAL question using two textual clues: \"Why does Bessie Carvil never contradict Captain Hagberd's delusion that Harry will return 'tomorrow'?\"",
+     "a": "Step 1: Identify INFERENTIAL (asks \"Why\" about motivation). Step 2: Gather Clue 1 (p.47): \"Only once she had tried pityingly to throw some doubt on that hope... the effect... scared her very much... All at once over that man's face there came an expression of horror and incredulity... ready to go out of his mind.\" Step 3: Gather Clue 2 (p.51): \"What for should I [contradict him]?... It would only have made him miserable. He would have gone out of his mind.\" Step 4: Synthesize: Bessie fears contradiction will shatter Hagberd's mental equilibrium (his \"madness has its equilibrium based upon self-esteem\" p.52). Step 5: PEEL answer. A wrong answer that says \"She is kind\" or \"She hopes too\" misses the textual evidence of FEAR and the specific consequence (his madness worsening), scoring only 1/3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to the inferential question \"How does Conrad show that Harry Hagberd is fundamentally different from his father's imagined version?\" — Student writes: \"Harry is a sailor who has travelled the world. He is rough and wants money. He doesn't care about his father. This shows he is different.\"",
+     "a": "WEAK ANSWER (2/5 marks). Step 1: Check PEEL structure — Point made but vague. Step 2: Evidence — No direct quotes or specific textual references (e.g., \"harpooned a whale\", \"boundary rider\", \"five quid\", \"Gambusino song\"). Step 3: Explanation — Missing link between Harry's wanderlust (p.61-62) and Hagberd's domestic fantasy (p.43-44). Step 4: Link to theme — No mention of \"restlessness vs. stability\" or \"sea vs. land\" contrast central to the story. Step 5: Competency gap — The answer states plot facts but doesn't ANALYZE characterization. A strong answer would contrast Hagberd's \"fireside\" ideal (p.43) with Harry's \"world's my home\" (p.61) using the Gambusino metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Create ONE literal and ONE inferential question based on this passage from p.56: \"She drew a breath, and he said good-humouredly: 'Aye, with the door shut. I wouldn't care if... And you think he could be brought round to recognise me... Eh? What?... You could do it? In a week you say? H'm, I daresay you could—but do you think I could hold out a week in this dead-alive place?'\"",
+     "a": "LITERAL: \"What does Harry call Colebrook?\" (Answer: \"dead-alive place\" — directly quoted). INFERENTIAL: \"What does Harry's phrase 'dead-alive place' reveal about his attitude toward settled domestic life?\" (Answer: It reveals his contempt for stagnation and his identity as a restless wanderer/Gambusino type, contrasting with his father's domestic fantasy). A poor literal question would be inferential (\"Why does he call it dead-alive?\"); a poor inferential question would be literal (\"What does he say about a week?\"). This tests if the student can design questions matching the cognitive level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_005",
+   "title": "c11_eng_h_cbse_03_005",
+   "questions": [
+    {
+     "q": "List the names of at least five supporting characters (individuals or groups) mentioned in the text \"Discovering Tut: the Saga Continues,\" distinguishing between modern investigators and ancient historical figures.",
+     "a": "Modern: Howard Carter (archaeologist), Zahi Hawass (Secretary General, Supreme Council of Antiquities), Ray Johnson (Director, University of Chicago research centre), CT scan technicians/workmen, the nervous guard. Ancient: Amenhotep III, Akhenaten (Amenhotep IV), Smenkhkare. A wrong answer listing only modern figures or only ancient figures reveals the student has not recognized the text's dual timeline structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Zahi Hawass \"didn't sleep last night\" before the CT scan, and analyze what this reveals about his character and the author's portrayal of modern archaeology.",
+     "a": "Hawass was anxious because the mummy was extremely fragile (\"very bad condition because of what Carter did\") and the CT scan was a high-stakes, unprecedented procedure; he felt profound professional and ethical responsibility for Tut's safety. This reveals Hawass as a custodian who reveres the dead, contrasting with Carter's \"scientific detachment.\" The author uses Hawass's anxiety to humanize modern science—showing it is driven by care, not just curiosity. A wrong answer citing \"fear of the curse\" confuses the guard's joke with Hawass's professional burden.",
+     "self_check": true
+    },
+    {
+     "q": "The text states Carter \"reported with scientific detachment\" that resins \"had to be chiselled away.\" Apply the concept of **ironic authorial tone** to analyze how this phrase characterizes Carter's methods and the era of archaeology he represents.",
+     "a": "Step 1: Identify the phrase \"scientific detachment\" as the author's description of Carter's own reporting style. Step 2: Contrast the clinical language (\"consolidated material,\" \"legitimate force\") with the brutal reality: \"chiselled away,\" \"removed the mummy's head,\" \"severed nearly every major joint.\" Step 3: Note the irony—detachment usually implies objectivity, but here it masks destruction. Step 4: Conclude the author uses Carter's own words to indict 1920s archaeology as treasure-hunting disguised as science. A wrong answer calling Carter \"careful\" or \"scientific\" misses the critique embedded in the juxtaposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative functions of Ray Johnson (historian) and Zahi Hawass (archaeologist/administrator). How does the author use their distinct voices to frame the two central mysteries: the *historical* mystery of the dynasty's fall and the *physical* mystery of Tut's death?",
+     "a": "Johnson provides the dynastic backstory: he characterizes Akhenaten's reign as a \"horrific time\" when the family \"was coming to an end\" and the pharaoh went \"a little wacky.\" His colloquial, narrative voice makes historical chaos accessible. Hawass provides the forensic reality: he diagnoses the mummy's damage (\"because of what Carter did\"), directs the CT scan, and embodies scientific anxiety (\"I didn't sleep last night\"). Johnson explains *why* Tut's death mattered historically (end of a line); Hawass investigates *how* it happened physically. The author juxtaposes them to argue that solving Tut's \"saga\" requires both historical narrative and scientific data. A weak answer treats them both as mere \"experts\" without distinguishing their epistemic domains.",
+     "self_check": true
+    },
+    {
+     "q": "The guard jokes, \"Curse of the pharaoh,\" when the scanner fails due to sand. Evaluate whether this minor character's single line undermines the text's scientific authority or reinforces its central theme. Justify with evidence.",
+     "a": "The joke reinforces the theme of **past vs. present**. Earlier, tourists wonder \"with a shiver if the pharaoh's curse... was really true.\" The guard's nervous humor at the moment of technical failure (sand in the cooler) momentarily bridges the ancient belief system and modern technology. It does not undermine science—the scan proceeds successfully with improvised \"white plastic fans\"—but it reminds the reader that Tut's world was governed by ritual and magic, not CT scans. The guard voices the cultural weight that science cannot fully dispel. A wrong answer calling it \"comic relief\" misses its thematic resonance.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word diary entry from the perspective of a CT technician on the night of the scan, capturing the tension between high technology and ancient mystery. Use at least three specific textual details.",
+     "a": "Example: \"5 Jan 2005. Sand clogged the cooler fan—'Curse of the pharaoh,' a guard joked. We rigged plastic fans. The scanner hummed, slicing Tut into 1,700 digital layers at 0.62mm. His vertebrae appeared, sharp as anatomy charts. Three hours later, we carried him back like pallbearers. History held its breath; we exhaled.\" A poor entry lacks specific details (1,700 slices, 0.62mm, pallbearers, plastic fans) or fails to convey the technician's dual role as scientist and reverent participant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

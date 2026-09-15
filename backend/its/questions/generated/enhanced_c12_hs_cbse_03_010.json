@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_010",
+   "title": "c12_hs_cbse_03_010",
+   "questions": [
+    {
+     "q": "List the three substages of adulthood with their approximate age ranges and name the primary psychosocial crisis (per Erikson) for each substage.",
+     "a": "Early adulthood (≈20–40): Intimacy vs. Isolation; Middle adulthood (≈40–65): Generativity vs. Stagnation; Late adulthood (65+): Integrity vs. Despair. A wrong answer (e.g., swapping crises or misplacing age ranges) reveals confusion about the sequential nature of Erikson's stages and the developmental tasks specific to each period.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"crystallised intelligence\" tends to remain stable or increase with age while \"fluid intelligence\" typically declines, and give one real-life example of each in a 60-year-old.",
+     "a": "Crystallised intelligence relies on accumulated knowledge and experience (e.g., vocabulary, professional expertise), which grow with use; fluid intelligence depends on processing speed and working memory, which are more biologically constrained. Example: a 60-year-old lawyer's ability to cite precedents (crystallised) vs. difficulty learning a new case-management software quickly (fluid). A wrong answer that claims both decline equally shows a misunderstanding of the differentiation between intelligence types and their developmental trajectories.",
+     "self_check": true
+    },
+    {
+     "q": "A 52-year-old woman reports reduced bone density, occasional hot flashes, and increased LDL cholesterol. Identify the biological transition she is experiencing, name two lifestyle modifications that can mitigate the associated health risks, and explain the physiological mechanism linking this transition to bone loss.",
+     "a": "She is experiencing menopause (perimenopause/menopause). Lifestyle modifications: weight-bearing exercise (stimulates osteoblast activity) and adequate calcium/vitamin D intake (supports bone mineralisation). Mechanism: estrogen decline reduces osteoblast activity and increases osteoclast activity, leading to net bone resorption. A wrong answer that attributes bone loss solely to ageing or suggests only calcium supplements without exercise misses the hormonal mechanism and the need for mechanical loading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"disengagement theory\" and \"activity theory\" of ageing. Which theory better explains the finding that older adults who maintain meaningful social roles report higher life satisfaction, and why?",
+     "a": "Disengagement theory posits mutual withdrawal between older adults and society as inevitable and functional; activity theory argues that continued engagement preserves well-being. The finding supports activity theory because it shows a positive correlation between role maintenance and life satisfaction, contradicting the idea that withdrawal is beneficial. A wrong answer that simply states \"activity theory is better\" without linking the evidence to the theoretical mechanisms shows superficial comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Cognitive decline in late adulthood is inevitable and uniform across all domains.\" Use evidence from research on plasticity, compensation, and individual differences.",
+     "a": "The statement is false. Research shows: (1) plasticity — cognitive training can improve specific functions even in 80-year-olds; (2) compensation — older adults use bilateral prefrontal activation (HAROLD model) to maintain performance; (3) individual differences — education, physical activity, and bilingualism moderate decline trajectories. A wrong answer that accepts the statement ignores decades of gerontological research demonstrating heterogeneity and modifiability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based intervention program for adults aged 65+ that simultaneously addresses physical frailty, cognitive stimulation, and social isolation. Outline its three core components, the theoretical rationale for each, and one measurable outcome per component.",
+     "a": "Core components: (1) Group resistance training (physical) — rationale: sarcopenia is reversible via mechanical loading; outcome: gait speed increase ≥0.1 m/s. (2) Computerized cognitive training + strategy coaching (cognitive) — rationale: plasticity and compensation; outcome: improved Trail Making Test Part B time. (3) Intergenerational mentorship circles (social) — rationale: generativity and socioemotional selectivity theory; outcome: reduced UCLA Loneliness Scale score. A poor answer lists generic activities without theoretical grounding or measurable outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

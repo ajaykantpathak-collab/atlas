@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees208",
+ "concepts": [
+  {
+   "id": "gees2.8.1",
+   "title": "Why Banks Matter",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why Banks Matter' refers to.",
+     "a": "Banks keep the community's money safe and put it to work: they accept deposits, lend to businesses and families, and thus turn idle savings into productive credit, as Schumpeter's words on the banker suggest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why Banks Matter'.",
+     "a": "A bank is a bridge between savers and borrowers: both sides gain, and ideas get funded.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why Banks Matter' taught, and from which source text?",
+     "a": "Introduction (source: gees208.txt, Introduction)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.2",
+   "title": "Types of Bank Accounts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Bank Accounts' refers to.",
+     "a": "Banks offer different accounts for different needs: a savings account for storing money with interest, a current account for business with many transactions, and fixed deposit accounts that lock money for a term at a higher rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Bank Accounts'.",
+     "a": "Match the account to the purpose: daily convenience, safe saving or locked growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Bank Accounts' taught, and from which source text?",
+     "a": "Bank accounts (source: gees208.txt, Bank accounts)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.3",
+   "title": "Interest and the Magic of Compounding",
+   "questions": [
+    {
+     "q": "How much does 1000 rupees become in one year at 6 percent? Use the method 'Interest and the Magic of Compounding'. Work with: principal = 20000, rate = 12, years = 100. Carry the chain through step by step and give the final value of amount.",
+     "a": "1670445314.5307 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the amount after 2 years on 1000 at 6 percent. Use the method 'Interest and the Magic of Compounding'. Work with: principal = 20000, rate = 10, years = 50. Carry the chain through step by step and give the final value of amount.",
+     "a": "2347817.0576 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest and the Magic of Compounding' refers to.",
+     "a": "Interest is payment for the use of money; with compounding, interest is paid on interest too, so a deposit of 1000 at 6 percent a year grows to 1060 in one year and about 2012 in twelve years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest and the Magic of Compounding'.",
+     "a": "Compounding rewards patience: money grows slowly at first, then faster every year, like a snowball.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest and the Magic of Compounding', in plain ASCII form.",
+     "a": "amount = principal * (1 + rate / 100) ** years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.4",
+   "title": "Loans and the Discipline of Credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Loans and the Discipline of Credit' refers to.",
+     "a": "Banks lend depositors' money as loans for homes, studies, farm and business; credit must be used with discipline, since every loan must be repaid with interest, and default harms both borrower and bank.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loans and the Discipline of Credit'.",
+     "a": "Credit is a tool with two edges: wise loans create income that repays them, reckless ones bury households in debt.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Loans and the Discipline of Credit' taught, and from which source text?",
+     "a": "Credit (source: gees208.txt, Credit)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

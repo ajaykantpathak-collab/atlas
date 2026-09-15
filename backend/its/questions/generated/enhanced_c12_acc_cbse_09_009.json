@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_009",
+   "title": "c12_acc_cbse_09_009",
+   "questions": [
+    {
+     "q": "A non-financial enterprise receives ₹10 lakh as dividend on shares held as investment. Under which activity will this be classified in the cash flow statement as per AS-3?",
+     "a": "**Correct answer:** Investing activity (cash inflow).  \n**Why wrong answers reveal misunderstanding:** If a student says \"Operating activity\", they are confusing non-financial with financial enterprise rules. If they say \"Financing activity\", they think all dividend receipts are financing. The rule is specific: for non-financial enterprises, dividend **received** is return on investment → investing activity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why interest paid by a bank (financial enterprise) is classified as an operating activity, whereas interest paid by a manufacturing company is a financing activity.",
+     "a": "**Correct answer:** For a financial enterprise, lending/borrowing is the **main revenue-generating activity** — interest paid is a direct cost of generating operating revenue, hence operating. For a non-financial enterprise, borrowing is for **capital structure/financing** purposes, not core operations, so interest paid is a financing cost.  \n**Why wrong answers reveal misunderstanding:** If the student says \"both are financing\" or \"both are operating\", they miss the **enterprise-type distinction** which is the core of AS-3 para 31-33. They are applying a blanket rule instead of context-based classification.",
+     "self_check": true
+    },
+    {
+     "q": "A company acquires machinery worth ₹50 lakh by issuing equity shares of the same value. No cash changes hands. How will this transaction appear in the cash flow statement? What disclosure is required?",
+     "a": "**Correct answer:** The transaction is **excluded from the cash flow statement entirely** (no cash inflow/outflow). It must be disclosed in the **notes to accounts** as a non-cash investing and financing transaction, e.g., \"Machinery acquired by issue of equity shares ₹50 lakh.\"  \n**Why wrong answers reveal misunderstanding:** If the student shows ₹50 lakh outflow under investing and ₹50 lakh inflow under financing, they violate the **cash-only principle** of cash flow statements. If they ignore disclosure, they miss AS-3 requirement for transparency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cash flow classification of the following for a non-financial enterprise: (a) Interest received on debentures held as investment, (b) Dividend received on shares held as investment, (c) Interest paid on long-term loan, (d) Dividend paid on equity shares. Create a 2×2 table with rows = Inflow/Outflow, columns = Investing/Financing.",
+     "a": "**Correct table:**\n| | Investing | Financing |\n|---|---|---|\n| **Inflow** | (a) Interest received, (b) Dividend received | — |\n| **Outflow** | — | (c) Interest paid, (d) Dividend paid |\n\n**Why wrong answers reveal misunderstanding:** Swapping (a)/(b) to financing or (c)/(d) to investing shows the student hasn't internalised the **symmetry rule**: for non-financial enterprises, **all receipts** of interest/dividend = investing (returns on investments), **all payments** = financing (cost of capital).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since dividend paid is a financing outflow, dividend received should also be a financing inflow for consistency.\" Evaluate this argument with reference to AS-3 for a non-financial enterprise.",
+     "a": "**Correct evaluation:** The argument is **incorrect**. AS-3 classifies based on **economic substance**, not symmetry. Dividend **paid** is a return on capital provided by owners → financing. Dividend **received** is a return on investment in other entities' shares → investing. The enterprise is an **investor** when receiving, a **borrower/issuer** when paying.  \n**Why wrong answers reveal misunderstanding:** Agreeing with the student shows confusion between **legal form** (both are dividends) and **economic role** (source vs use of funds). AS-3 explicitly separates them in para 31.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario: A housing finance company (financial enterprise) purchases a commercial building for its own office use by issuing debentures. No cash is involved. Draft the note to accounts disclosure for this non-cash transaction.",
+     "a": "**Expected answer (sample):**  \n\"Note: During the year, the company acquired a commercial building for own use (book value ₹2 crore) by issuing 12% debentures of ₹2 crore. This is a non-cash investing and financing transaction and has not been included in the cash flow statement.\"  \n**Criteria for good answer:** Must mention (1) asset acquired, (2) consideration (debentures issued), (3) explicit statement that no cash flowed, (4) reference to non-cash investing/financing disclosure.  \n**Poor answer reveals:** Omitting \"non-cash\" label, putting it in cash flow statement, or missing the dual investing+financing nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

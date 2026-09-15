@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_012",
+   "title": "c11_math_cbse_09_012",
+   "questions": [
+    {
+     "q": "A student saves Rs 50 in week 1, Rs 55 in week 2, Rs 60 in week 3, and continues this pattern. Identify the type of progression, state the first term and common difference, and write a formula for the amount saved in week n.",
+     "a": "Arithmetic progression because the weekly increase is constant: 55 - 50 = 5, 60 - 55 = 5. First term a = 50, common difference d = 5. nth term: an = 50 + (n-1)(5) = 45 + 5n. A wrong answer that says \"geometric because it increases\" reveals the student is not checking whether the increase is additive (constant difference) or multiplicative (constant ratio).",
+     "self_check": true
+    },
+    {
+     "q": "A ball is dropped from a height of 128 m. Each rebound reaches 3/4 of the previous height. Identify the type of progression and find the height after the 5th rebound.",
+     "a": "Geometric progression because each height is multiplied by a constant ratio: r = 3/4. First term a = 128. Height after 5th rebound = a x r^5 = 128 x (3/4)^5 = 128 x 243/1024 = 30.375 m. A wrong answer that uses an AP formula (128 - 5 x 32) reveals the student has not identified the multiplicative pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A company's annual production is 10,000 units in year 1 and increases by 2,000 units each subsequent year. Find the total production over 5 years.",
+     "a": "AP with a = 10,000, d = 2,000. Total production = S5 = 5/2 [2(10000) + (5-1)(2000)] = 5/2 [20000 + 8000] = 5/2 x 28000 = 70,000 units. A wrong answer that computes only the 5th year (18,000) instead of the sum reveals the student confused nth term with the sum formula.",
+     "self_check": true
+    },
+    {
+     "q": "The population of a town is 1,00,000 and grows at 5% per year. Set up the progression and find the population after 3 years. Is this AP or GP?",
+     "a": "Geometric progression because growth is multiplicative (percentage increase): each year the population is multiplied by 1.05. First term a = 1,00,000, common ratio r = 1.05. Population after 3 years = a x r^3 = 1,00,000 x (1.05)^3 = 1,00,000 x 1.157625 = 1,15,762.5 (approximately 1,15,763). A wrong answer that adds 5,000 each year (AP with d = 5000) reveals the student confused percentage growth (multiplicative) with absolute growth (additive).",
+     "self_check": true
+    },
+    {
+     "q": "A loan of Rs 1,00,000 is repaid in 20 equal monthly instalments. The first instalment is Rs 6,000 and each subsequent instalment decreases by Rs 100. Find the total amount repaid. Identify the progression type and explain why the sum formula is appropriate.",
+     "a": "Arithmetic progression because the decrease is constant: d = -100 (decreasing). First term a = 6,000, n = 20. Total repaid = S20 = 20/2 [2(6000) + (20-1)(-100)] = 10 [12000 - 1900] = 10 x 10100 = Rs 1,01,000. The sum formula is appropriate because we need the total of all instalments, not just a specific one. A wrong answer that uses the nth term formula reveals confusion between finding one term and summing all terms.",
+     "self_check": true
+    },
+    {
+     "q": "A bacteria culture starts with 100 cells and doubles every hour. A second culture starts with 400 cells and triples every hour. After how many hours will both cultures have the same number of cells? Set up the equation and solve.",
+     "a": "Culture 1: GP with a1 = 100, r1 = 2. Population after n hours = 100 x 2^n. Culture 2: GP with a2 = 400, r2 = 3. Population after n hours = 400 x 3^n. Set equal: 100 x 2^n = 400 x 3^n. Divide both sides by 100: 2^n = 4 x 3^n. Divide by 3^n: (2/3)^n = 4. Take logarithms: n x ln(2/3) = ln(4). n = ln(4)/ln(2/3) = 1.386/(-0.405) = -3.42. The negative result means the cultures never have the same population for positive n — culture 2 starts larger and grows faster. A wrong answer that sets 100n = 400n (treating both as AP) reveals the student did not identify the GP pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

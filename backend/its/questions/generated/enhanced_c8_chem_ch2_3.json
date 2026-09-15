@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_3",
+   "title": "c8_chem_ch2_3",
+   "questions": [
+    {
+     "q": "What is the term for the smallest unit of an element that retains the chemical properties of that element?",
+     "a": "The correct answer is an atom. A student who answers \"molecule\" has confused the smallest unit of an element (atom) with the smallest independent unit of a compound or certain elements (molecule). A student who answers \"cell\" is confusing chemistry with biology.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a single atom of iron (Fe) be considered chemically identical to a large block of iron metal?",
+     "a": "The correct answer is that all atoms of a specific element share the exact same chemical properties and characteristics, meaning the fundamental behavior of iron is present in every single one of its atoms. A student who says \"because atoms are large enough to see\" misunderstands their microscopic scale. A student who says \"because atoms can change into copper\" has forgotten that atoms of one element cannot turn into atoms of another element during ordinary chemical processes.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a pure sample of copper wire weighing 10 grams, what fundamental particles make up this element?",
+     "a": "The correct answer is copper atoms (Cu). \nSteps:\n1. Identify the substance given: pure copper wire.\n2. Recall that copper is classified as a chemical element.\n3. Determine the smallest unit that makes up an element: an atom.\n4. Conclude that the wire is composed entirely of copper atoms.\nA student who answers \"copper molecules\" or \"compounds\" does not realize that pure metallic elements like copper exist as a vast assembly of individual atoms rather than bonded molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the atoms of oxygen (O) and the atoms of hydrogen (H). How do they differ in terms of their identity and properties?",
+     "a": "The correct answer is that oxygen atoms and hydrogen atoms are atoms of completely different elements, meaning they have different masses, chemical symbols, and distinct chemical properties. A student who says they are identical fails to understand that each element has its own unique type of atom.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if you crush a piece of sulfur powder into finer and finer dust, you eventually reach a point where crushing it further destroys its sulfur properties because you are no longer at the atomic level. Evaluate this statement.",
+     "a": "The statement is scientifically accurate in principle because once you break a substance down to a single atom of sulfur, any further division would split the atom into subatomic particles, which do not exhibit the chemical properties of sulfur. A student who claims you can keep crushing forever without changing the chemical nature ignores the particulate limit of matter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model or analogy to explain to a younger student why an atom is considered the \"building block\" of an element.",
+     "a": "A good answer uses an analogy like Lego bricks, where a single red Lego brick represents an atom of one element (like copper), and a massive structure built entirely of those red bricks represents the bulk element. A poor answer relies on vague statements without a clear structural comparison, showing a weak grasp of how microscopic units form macroscopic matter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

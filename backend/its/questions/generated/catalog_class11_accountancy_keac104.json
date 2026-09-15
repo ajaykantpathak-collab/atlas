@@ -1,0 +1,150 @@
+{
+ "catalog": "catalog_class11_accountancy_keac104",
+ "concepts": [
+  {
+   "id": "keac.104.1.1",
+   "title": "Single Column Cash Book",
+   "questions": [
+    {
+     "q": "Using the method 'Single Column Cash Book', work with: payment_total = 12, receipt_total = 45. Carry the chain through step by step and give the final value of closing_cash.",
+     "a": "33 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Single Column Cash Book' and work with: payment_total = 15, receipt_total = 150. Carry the chain through step by step and give the final value of closing_cash.",
+     "a": "135 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Single Column Cash Book' refers to.",
+     "a": "A single column cash book records only cash receipts on the debit side and cash payments on the credit side, and the difference between the two totals gives the closing cash balance carried to the next period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Single Column Cash Book'.",
+     "a": "The cash book serves as both a journal and a ledger account, so its balance is found without separate posting.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Single Column Cash Book', in plain ASCII form.",
+     "a": "closing_cash = receipt_total - payment_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.104.2.1",
+   "title": "Double Column Cash Book with Bank Column",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Double Column Cash Book with Bank Column' refers to.",
+     "a": "A double column cash book carries cash and bank columns on both sides, records cheques received and deposited, and shows a credit bank balance as bank overdraft when payments exceed deposits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Double Column Cash Book with Bank Column'.",
+     "a": "Contra entries, marked with C, record cash deposited into or withdrawn from the bank and affect both columns without touching the final result.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Double Column Cash Book with Bank Column' taught, and from which source text?",
+     "a": "4.1.2 Double Column Cash Book (source: keac104.txt section 4.1.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.104.3.1",
+   "title": "Petty Cash Book and the Imprest System",
+   "questions": [
+    {
+     "q": "Using the method 'Petty Cash Book and the Imprest System', work with: imprest_amount = 500, petty_cash_in_hand = 6. Carry the chain through step by step and give the final value of petty_reimbursement.",
+     "a": "494 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Petty Cash Book and the Imprest System' and work with: imprest_amount = 50000, petty_cash_in_hand = 10. Carry the chain through step by step and give the final value of petty_reimbursement.",
+     "a": "49990 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Petty Cash Book and the Imprest System' refers to.",
+     "a": "The petty cash book records small repetitive payments under analytical columns such as postage, conveyance and stationery; under the imprest system the petty cashier is reimbursed exactly the amount spent, restoring the float to its fixed amount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Petty Cash Book and the Imprest System'.",
+     "a": "The chief cashier advances the imprest amount, and the petty cashier reports expenses column-wise, which reduces the main cash book's size.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Petty Cash Book and the Imprest System', in plain ASCII form.",
+     "a": "petty_reimbursement = imprest_amount - petty_cash_in_hand",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.104.4.1",
+   "title": "Posting from the Journal to the Ledger",
+   "questions": [
+    {
+     "q": "Using the method 'Posting from the Journal to the Ledger', work with: credit_total = 150, debit_total = 500. Carry the chain through step by step and give the final value of account_balance.",
+     "a": "350 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Posting from the Journal to the Ledger' and work with: credit_total = 5, debit_total = 200. Carry the chain through step by step and give the final value of account_balance.",
+     "a": "195 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Posting from the Journal to the Ledger' refers to.",
+     "a": "Posting transfers journal entries to the ledger accounts of the concerned parties, debiting one account and crediting the other, and each account is balanced to find its net position.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Posting from the Journal to the Ledger'.",
+     "a": "The ledger classifies the chronologically recorded transactions account-wise, and its balances feed the trial balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Posting from the Journal to the Ledger', in plain ASCII form.",
+     "a": "account_balance = debit_total - credit_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.104.5.1",
+   "title": "Bank Balance after Deposits and Withdrawals",
+   "questions": [
+    {
+     "q": "Calculate the closing bank balance from deposits and withdrawals. Use the method 'Bank Balance after Deposits and Withdrawals'. Work with: deposits = 3, opening_bank_balance = 5000, withdrawals = 360. Carry the chain through step by step and give the final value of closing_bank_balance.",
+     "a": "4643 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the bank balance after the given cheques are issued. Use the method 'Bank Balance after Deposits and Withdrawals'. Work with: deposits = 150, opening_bank_balance = 20000, withdrawals = 8. Carry the chain through step by step and give the final value of closing_bank_balance.",
+     "a": "20142 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bank Balance after Deposits and Withdrawals' refers to.",
+     "a": "The closing bank column balance is obtained by adding deposits to the opening bank balance and deducting cheques issued and payments made, and a negative result indicates a bank overdraft.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bank Balance after Deposits and Withdrawals'.",
+     "a": "This computation mirrors the pass book and prepares the ground for the bank reconciliation statement of the next chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bank Balance after Deposits and Withdrawals', in plain ASCII form.",
+     "a": "closing_bank_balance = opening_bank_balance + deposits - withdrawals",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

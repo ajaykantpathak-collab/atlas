@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_003",
+   "title": "c7_bio_ch02_003",
+   "questions": [
+    {
+     "q": "What is the primary function of the alimentary canal in humans?",
+     "a": "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste. A student who answers that it only \"stores food\" is confusing the alimentary canal with a simple storage bag, forgetting its active roles in digestion and absorption across its entire length.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the alimentary canal structured as a long, continuous, muscular tube rather than a single open pouch?",
+     "a": "A continuous tube allows food to be processed in sequential stages—ingestion, digestion, absorption, and egestion—without mixing incoming raw food with outgoing waste. If it were a single pouch, newly eaten food would constantly mix with partially digested and waste material, making efficient enzymatic digestion and nutrient absorption impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that food travels backward from the stomach to the mouth during normal digestion to get extra chewing. Based on the structure of the alimentary canal, why is this incorrect?",
+     "a": "Steps: 1) Identify that food moves in a one-way directional flow from mouth to anus. 2) Recognize that muscular valves called sphincters (such as the cardiac sphincter) normally prevent backward movement from the stomach. 3) Apply the concept of peristalsis, which pushes food forward through rhythmic contractions. 4) Conclude that backward flow (except during vomiting) disrupts the sequential processing of nutrients. A student who thinks food moves back and forth ignores the unidirectional specialization of gut structures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure of the esophagus and the small intestine. How do their structural differences reflect their differing functions?",
+     "a": "The esophagus is a narrow, muscular transport tube specialized purely for moving food quickly from the mouth to the stomach via peristalsis, with a smooth lining. In contrast, the small intestine is a long, highly coiled tube with an inner surface specialized for maximum absorption through folds and villi. A student who thinks both organs perform the same task fails to connect anatomical specialization (shape, length, inner lining) with physiological function (transport versus digestion and absorption).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Digestion is completed entirely inside the stomach, and the rest of the alimentary canal only serves as a waste pipe.\" Is this correct? Defend your answer.",
+     "a": "This statement is incorrect because while some mechanical and chemical digestion begins in the mouth and stomach, the majority of chemical digestion and almost all nutrient absorption actually take place in the small intestine. Furthermore, the large intestine is not merely a waste pipe, as it actively absorbs water and mineral salts from indigestible residue. A student who agrees with the statement misses the critical specialized roles of the small and large intestines in processing food.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using household items (like a nylon stocking, a tennis ball, and plastic tubing) to demonstrate how the human alimentary canal moves food. Explain how each item represents a part of the canal.",
+     "a": "A good response uses the plastic tubing to represent the continuous muscular canal, the tennis ball to represent the bolus of food, and the squeezing action of hands along the tube to represent peristalsis. A poor response just lists objects without explaining how muscular contractions (peristalsis) move the food forward in one direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_003",
+   "title": "c7_eco_ch01_003",
+   "questions": [
+    {
+     "q": "What fundamental problem of the barter system directly caused societies to seek an alternative medium of exchange?",
+     "a": "The requirement of a \"double coincidence of wants,\" where both trading parties must simultaneously desire what the other has to offer. A student who incorrectly answers that \"prices were too high in barter\" misunderstands the core mechanics of non-monetary exchange, confusing modern price inflation with the basic structural impossibility of finding a matching trading partner.",
+     "self_check": true
+    },
+    {
+     "q": "Why did ancient communities eventually stop using perishable goods like grain or fish as a medium of exchange and move toward more durable items?",
+     "a": "Perishable goods spoil, lose weight, and decay over time, making them terrible stores of value for future transactions and long-distance trade. A student who believes perishable goods were abandoned because \"the government banned them\" fails to grasp that early forms of money emerged naturally through market choices driven by the physical properties of the commodities themselves, long before centralized governments issued standardized currency.",
+     "self_check": true
+    },
+    {
+     "q": "In a small village economy without money, a weaver needs 5 hours of labor to produce a cloth worth 2 sacks of wheat, but the wheat farmer values 1 cloth at only 1 sack of wheat due to an abundant harvest. If transaction search costs cost both parties 3 hours of wasted time per trade attempt, calculate the total wasted hours for 4 failed trade attempts before finding a willing buyer.",
+     "a": "Steps:\n1. Identify the wasted time per failed trade attempt: 3 hours for both parties combined.\n2. Identify the number of failed trade attempts: 4 attempts.\n3. Multiply the wasted time per attempt by the number of failed attempts: 3 hours × 4 attempts = 12 hours.\n4. Conclude that transaction friction in barter wastes 12 productive labor hours.\nA student who multiplies the wheat sacks (2 × 1 = 2) is confusing physical quantities with transaction friction costs, showing they cannot quantify the economic inefficiency of the barter system.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the introduction of a universally accepted medium of exchange reduces the total number of exchange ratios required in an economic market with 5 different goods compared to a barter system.",
+     "a": "In a pure barter system with $N$ goods, the number of exchange ratios required is calculated by the formula $\\frac{N(N-1)}{2}$. For 5 goods, this is $\\frac{5(4)}{2} = 10$ unique ratios to remember and negotiate. When one item becomes the universal medium of exchange (money), only 4 prices relative to money are needed (one for each good). A student who thinks the number of prices increases with money fails to understand that money simplifies trade by acting as a single, common denominator for all values.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since early cowrie shells and cattle had intrinsic utility, they were superior mediums of exchange compared to modern paper notes which have no intrinsic value.\" Is this economic statement completely accurate?",
+     "a": "This statement is partially true historically but economically flawed regarding modern money. While early commodity money relied on intrinsic utility (cattle could be eaten or plowed; shells were adorned), modern fiat money derives its value from government decree, legal tender laws, and, most importantly, public trust and stable supply. A student who completely agrees ignores the fact that commodity money suffered from unstable supply (e.g., finding a new beach of shells ruins its value), whereas modern managed currency provides stability and reduces transaction weight.",
+     "self_check": true
+    },
+    {
+     "q": "Propose three physical characteristics that any commodity must possess to successfully emerge as an early form of money in an ancient trading community, and justify your choices economically.",
+     "a": "Criteria for a good answer: The student must propose characteristics such as durability (does not rot), divisibility (can be split without losing proportional value, like metal), and portability (high value relative to weight, like shells or coins). A poor answer lists random traits like \"bright colors\" or \"is edible,\" which completely ignores the economic functions of money as a store of value and medium of exchange.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

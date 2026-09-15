@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class7_maths_gegp207.json",
+ "concepts": [
+  {
+   "id": "gegp2.7.1",
+   "title": "Find the Unknowns: Balance Puzzles",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 4 = 26.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 1 = 13.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 4 = 8.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 18 = 6.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 1 = 1x + 31.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 5) = 22.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.2",
+   "title": "Equations as Balanced Scales",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 8 / 4 gives 2",
+     "compute": "t1 = 8 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 8 : 44 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1100 is divided between two friends in the ratio 4 : 7. Find the smaller share.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 3 : 2 = 15 : ?  (give the fourth term).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 3 : 2 :: 15 : 10 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 80, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "480",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.3",
+   "title": "One-Step Equations with Sharing",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 49 cm. Find its circumference (pi = 22/7).",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 21 cm (pi = 22/7).",
+     "a": "1386",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 14 cm and 91 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "25410",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 49 cm (pi = 22/7).",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 7 cm (pi = 22/7).",
+     "a": "12.8333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.4",
+   "title": "From Stories to Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (99 - 9) / 9 gives 10",
+     "compute": "x = (99 - 9) / 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 9x + 9 = 99.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 1 = 65.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 2 = 2.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 25 = 5.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 4 = 2x + 16.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 5) = 24.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

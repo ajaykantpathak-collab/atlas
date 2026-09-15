@@ -1,0 +1,348 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 205,
+ "chapter_title": "Water",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gess205.txt",
+ "concepts": [
+  {
+   "id": "gess.205.1",
+   "title": "Water Cycle and its Processes",
+   "section": "Water Cycle",
+   "definition": "The continuous circular movement of water across the atmosphere, land, and oceans through changing physical states.",
+   "formula": "none",
+   "key_idea": "Water continuously changes form and circulates among land, air, and ocean systems.",
+   "textbook_ref": "gess205.txt lines 10-35",
+   "question_patterns": [
+    "what is the water cycle and how does it function",
+    "explain the stages involved in the continuous movement of water",
+    "describe how water circulates between land, atmosphere, and oceans",
+    "identify the processes involved in the water cycle",
+    "define precipitation and its role in water circulation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify evaporation process",
+     "explain": "Solar radiation heats surface water causing it to vaporize into atmospheric vapour."
+    },
+    {
+     "step": 2,
+     "action": "identify condensation process",
+     "explain": "Cooling atmospheric water vapour condenses to form clouds."
+    },
+    {
+     "step": 3,
+     "action": "identify precipitation process",
+     "explain": "Condensed droplets fall back to land or ocean as rain, snow, or sleet."
+    }
+   ]
+  },
+  {
+   "id": "gess.205.2",
+   "title": "Calculation of Ocean Water Salinity",
+   "section": "Distribution of Water Bodies",
+   "definition": "The mass of dissolved salt contained in a given quantity of water, standardized per thousand units of water mass.",
+   "formula": "salt_mass = (salinity * water_mass) / 1000",
+   "key_idea": "Determining dissolved salt amount using salinity in grams per thousand grams of water.",
+   "textbook_ref": "gess205.txt lines 40-50",
+   "question_patterns": [
+    "calculate the amount of salt in grams present in a given mass of water",
+    "find the mass of dissolved salt in water of known salinity",
+    "determine how much salt is in water given salinity and total mass",
+    "what is the weight of salt in water with specified salinity",
+    "compute the total dissolved salt from salinity and water weight"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply salinity by total water mass",
+     "explain": "Multiply the salinity rate per thousand by total mass of water",
+     "compute": "scaled_salt = salinity * water_mass"
+    },
+    {
+     "step": 2,
+     "action": "divide by 1000 to find salt mass",
+     "explain": "Divide the scaled value by 1000 to get absolute salt mass in grams",
+     "compute": "salt_mass = scaled_salt / 1000"
+    }
+   ]
+  },
+  {
+   "id": "gess.205.3",
+   "title": "Fresh Water Percentage Calculation",
+   "section": "Distribution of Water Bodies",
+   "definition": "Calculating available fresh water percentage by subtracting total saline ocean water percentage from hundred percent.",
+   "formula": "fresh_water_pct = 100 - saline_water_pct",
+   "key_idea": "Subtracting saline water percentage from 100 yields the percentage of fresh water on earth.",
+   "textbook_ref": "gess205.txt lines 50-70",
+   "question_patterns": [
+    "find the percentage of fresh water if ocean saline water is given",
+    "calculate available fresh water percentage from total water distribution",
+    "what is the remaining percentage of fresh water given saline percentage",
+    "determine fresh water proportion from total water percentage",
+    "compute fresh water percentage from saline ocean proportion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract saline water percentage from 100",
+     "explain": "Subtract the percentage of ocean saline water from total 100 percent to get fresh water percentage",
+     "compute": "fresh_water_pct = 100 - saline_water_pct"
+    }
+   ]
+  },
+  {
+   "id": "gess.205.4",
+   "title": "Ocean Waves and Tsunamis",
+   "section": "Waves",
+   "definition": "Disturbances on the ocean surface causing water to rise and fall alternately, ranging from wind waves to massive seismic tsunamis.",
+   "formula": "none",
+   "key_idea": "Winds create ordinary waves while seismic events under the sea floor trigger destructive tsunamis.",
+   "textbook_ref": "gess205.txt lines 90-130",
+   "question_patterns": [
+    "what are ocean waves and how are they formed",
+    "explain the causes and characteristics of a tsunami",
+    "describe how winds affect the size of ocean waves",
+    "what factors determine the height and destructive power of waves",
+    "how do underwater earthquakes generate massive tsunami waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain wave formation",
+     "explain": "Friction from winds blowing across the ocean surface causes water to rise and fall alternately."
+    },
+    {
+     "step": 2,
+     "action": "explain tsunami generation",
+     "explain": "Seismic movements like underwater earthquakes shift massive water volumes creating high speed tidal waves."
+    }
+   ]
+  },
+  {
+   "id": "gess.205.5",
+   "title": "Mechanism and Utility of Tides",
+   "section": "Tides",
+   "definition": "The regular twice-daily elevation and recession of ocean surface water driven by lunar and solar gravitational pull.",
+   "formula": "none",
+   "key_idea": "Gravitational forces create rhythmic tidal movements that assist navigation, fishing, and power generation.",
+   "textbook_ref": "gess205.txt lines 160-200",
+   "question_patterns": [
+    "what are tides and what causes them to occur",
+    "explain how high tide and low tide happen twice daily",
+    "describe the benefits of high tides for navigation and fishing",
+    "how does the gravitational pull of the moon produce ocean tides",
+    "what role do tides play in electricity generation and harbour entry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain tidal cause",
+     "explain": "Gravitational pull exerted by the sun and moon attracts earth surface water."
+    },
+    {
+     "step": 2,
+     "action": "explain high and low tides",
+     "explain": "Water facing the moon rises into high tide while receding elsewhere creates low tide."
+    },
+    {
+     "step": 3,
+     "action": "explain benefits of tides",
+     "explain": "High water levels enable ships to reach harbours easily and bring fish closer to coasts."
+    }
+   ]
+  },
+  {
+   "id": "gess.205.6",
+   "title": "Spring Tides versus Neap Tides",
+   "section": "Tides",
+   "definition": "Variations in tide height caused by linear alignment or right-angle positioning of the sun, earth, and moon.",
+   "formula": "none",
+   "key_idea": "Linear celestial alignment produces high spring tides while orthogonal pull causes low neap tides.",
+   "textbook_ref": "gess205.txt lines 175-195",
+   "question_patterns": [
+    "differentiate between spring tides and neap tides",
+    "when do spring tides occur and why are they highest",
+    "explain why neap tides occur during quarter moon phases",
+    "how does the position of the sun and moon affect tide height",
+    "what causes maximum and minimum tidal ranges on earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain spring tides",
+     "explain": "During full and new moon phases, sun, moon, and earth align in a straight line, generating highest spring tides."
+    },
+    {
+     "step": 2,
+     "action": "explain neap tides",
+     "explain": "During first and last quarter moons, sun and moon pull at right angles, resulting in lower neap tides."
+    }
+   ]
+  },
+  {
+   "id": "gess.205.7",
+   "title": "Ocean Currents and Thermal Effects",
+   "section": "Ocean Currents",
+   "definition": "Continuous directional flows of ocean surface water driven by temperature variations across polar and equatorial regions.",
+   "formula": "none",
+   "key_idea": "Warm and cold ocean currents redistribute thermal energy and create optimal global fishing grounds.",
+   "textbook_ref": "gess205.txt lines 210-240",
+   "question_patterns": [
+    "what are ocean currents and how are warm and cold currents classified",
+    "explain the difference between warm currents and cold currents",
+    "how do ocean currents affect the climate of coastal areas",
+    "why are meeting zones of warm and cold currents rich fishing grounds",
+    "give examples of famous warm and cold ocean currents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify ocean currents",
+     "explain": "Warm currents originate near equator and move poleward, while cold currents carry polar water toward lower latitudes."
+    },
+    {
+     "step": 2,
+     "action": "explain climatic and economic impact",
+     "explain": "Currents moderate land temperatures and mixing zones create rich feeding grounds for marine life."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess205.txt lines 40-50",
+   "concept": "gess.205.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the amount of salt in grams present in {water_mass} grams of water if the salinity is {salinity} parts per thousand.",
+   "extracted_variables": {
+    "salinity": 35,
+    "water_mass": 2000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply salinity by total water mass",
+     "explain": "Multiply 35 by 2000",
+     "compute": "scaled_salt = salinity * water_mass"
+    },
+    {
+     "step": 2,
+     "action": "divide by 1000 to find salt mass",
+     "explain": "Divide 70000 by 1000 to obtain 70 grams",
+     "compute": "salt_mass = scaled_salt / 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess205.txt lines 45-55",
+   "concept": "gess.205.2",
+   "question_type": "compute",
+   "question_pattern": "Determine the weight of salt in {water_mass} grams of Dead Sea water given a salinity of {salinity} grams per thousand.",
+   "extracted_variables": {
+    "salinity": 340,
+    "water_mass": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply salinity by total water mass",
+     "explain": "Multiply 340 by 500",
+     "compute": "scaled_salt = salinity * water_mass"
+    },
+    {
+     "step": 2,
+     "action": "divide by 1000 to find salt mass",
+     "explain": "Divide 170000 by 1000 to obtain 170 grams",
+     "compute": "salt_mass = scaled_salt / 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess205.txt lines 55-65",
+   "concept": "gess.205.3",
+   "question_type": "compute",
+   "question_pattern": "If saline ocean water accounts for {saline_water_pct} percent of earth water, find the percentage of fresh water.",
+   "extracted_variables": {
+    "saline_water_pct": 97.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract saline water percentage from 100",
+     "explain": "Subtract 97.3 from 100 to get 2.7 percent",
+     "compute": "fresh_water_pct = 100 - saline_water_pct"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess205.txt lines 55-65",
+   "concept": "gess.205.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the fresh water percentage on a planet where saline seas cover {saline_water_pct} percent of all water.",
+   "extracted_variables": {
+    "saline_water_pct": 95.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract saline water percentage from 100",
+     "explain": "Subtract 95.0 from 100 to get 5.0 percent",
+     "compute": "fresh_water_pct = 100 - saline_water_pct"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gess205.txt lines 245-255",
+   "questions": [
+    "What is precipitation?",
+    "What is water cycle?",
+    "What are the factors affecting the height of the waves?",
+    "Which factors affect the movement of ocean water?",
+    "What are tides and how are they caused?",
+    "What are ocean currents?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess205.txt lines 256-260",
+   "questions": [
+    "Give reasons: Ocean water is salty.",
+    "Give reasons: The quality of water is deteriorating."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess205.txt lines 261-270",
+   "questions": [
+    "The process by which water continually changes its form and circulates between oceans, atmosphere and land: (a) Water cycle (b) Tides (c) Ocean currents",
+    "Generally the warm ocean currents originate near: (a) Poles (b) Equator (c) None of these",
+    "The rhythmic rise and fall of ocean water twice in a day is called: (a) Tide (b) Ocean current (c) Wave"
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess205.txt lines 271-280",
+   "questions": [
+    "Match the following: (i) Caspian Sea - Largest lake, (ii) Tide - Periodic rise and fall of water, (iii) Tsunami - Strong seismic waves, (iv) Ocean currents - Streams of water moving along definite paths"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

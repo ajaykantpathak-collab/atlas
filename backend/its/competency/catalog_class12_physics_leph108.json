@@ -1,0 +1,394 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 108,
+ "chapter_title": "Electromagnetic Waves",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph108.8.2.1",
+   "title": "Displacement Current",
+   "section": "8.2",
+   "definition": "Maxwell patched a hole in Ampere's loop rule by declaring that a changing electric field acts like a current: epsilon0 times the rate of change of electric flux counts alongside the wire current, so the field comes out the same for every surface spanning the loop.",
+   "formula": "displacement_current = permittivity * eflux_rate",
+   "key_idea": "With this term the loop rule becomes the Ampere-Maxwell law, and time-varying E and B fields become mutual sources - the seed of every electromagnetic wave.",
+   "textbook_ref": "leph108.txt section 8.2 (Eqs. 8.3-8.6, charging capacitor contradiction, Maxwell's equations in vacuum)",
+   "question_patterns": [
+    "why does the loop rule give conflicting fields around a charging capacitor",
+    "what is displacement current and where does it flow",
+    "write the generalised ampere law including the extra term",
+    "how does a changing electric field produce a magnetic field",
+    "is there a magnetic field between capacitor plates while they charge",
+    "state the four Maxwell equations in vacuum and what each says"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the contradiction",
+     "explain": "a flat loop around the wire encloses current; a pot-shaped surface slipping between the plates encloses none, yet the loop field is fixed"
+    },
+    {
+     "step": 2,
+     "action": "find the missing flux",
+     "explain": "between the plates the electric flux changes exactly as fast as the charge, so epsilon0 d(PhiE)/dt matches the wire current"
+    },
+    {
+     "step": 3,
+     "action": "restore consistency",
+     "explain": "adding this displacement current makes every spanning surface yield the same total current and hence the same field"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.2.2",
+   "title": "AC Current into a Capacitor",
+   "section": "8.2",
+   "definition": "A capacitor on an alternating supply carries a steady rms conduction current V over XC in its wires; between the plates the displacement current takes over with exactly the same value, so the circuit never truly breaks.",
+   "formula": "i_rms = volt_rms * omega * capacitance",
+   "key_idea": "Kirchhoff's junction rule survives at the plates once displacement current is counted: conduction in, displacement out, equal at every instant.",
+   "textbook_ref": "leph108.txt section 8.2 (Eq. 8.4 id = i, Exercise 8.1-8.2 data)",
+   "question_patterns": [
+    "a 100 pF capacitor sits on a 230 V supply of angular frequency 300 rad/s; what rms current flows in the leads",
+    "show that the displacement current between capacitor plates equals the conduction current in the wires",
+    "compute the current drawn by a capacitor from an ac source",
+    "is the junction rule valid at a capacitor plate carrying alternating current",
+    "find the displacement current for a charging current of 0.15 A",
+    "how does current seem to cross the insulating gap of a capacitor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "capacitor reactance",
+     "explain": "XC equals 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "rms current in the leads",
+     "explain": "the supply voltage divided by the reactance; the same value flows as displacement current between the plates",
+     "compute": "i_rms = volt_rms / react_c"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.1.1",
+   "title": "How Accelerated Charges Radiate",
+   "section": "8.3.1",
+   "definition": "Static or steadily moving charges make steady fields only; a charge that accelerates - for instance one oscillating in an antenna or dipole - sheds electromagnetic waves whose frequency matches the oscillation.",
+   "formula": "wave_freq equals the oscillator frequency",
+   "key_idea": "The radiated fields regenerate each other as they travel, and the wave energy is paid for by the source charge - which is why lab circuits reach radio frequencies long before light frequencies.",
+   "textbook_ref": "leph108.txt section 8.3.1 (accelerated charge radiation, Hertz 1887, Bose, Marconi, Exercise 8.6)",
+   "question_patterns": [
+    "what kind of charge motion emits electromagnetic waves",
+    "a particle oscillates at 1e9 Hz; what wave frequency comes out",
+    "why can a laboratory circuit not radiate visible light directly",
+    "how did Hertz verify Maxwell's prediction",
+    "explain how oscillating electric and magnetic fields sustain each other",
+    "what role does an electric dipole play as a wave source"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "accelerate the charge",
+     "explain": "an oscillating charge whips the local electric field up and down at its own frequency"
+    },
+    {
+     "step": 2,
+     "action": "chain the fields",
+     "explain": "the varying E field makes a varying B field, which makes E again, and the pair walks away through space"
+    },
+    {
+     "step": 3,
+     "action": "match the frequency",
+     "explain": "the wave carries the oscillator's frequency and draws its energy from the source"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.1",
+   "title": "Transverse Nature of EM Waves",
+   "section": "8.3.2",
+   "definition": "In a plane electromagnetic wave the electric and magnetic oscillations stand at right angles to one another and to the travel direction, so the wave is transverse and can be labelled by the plane of its electric field.",
+   "formula": "direction of E cross B equals the propagation direction",
+   "key_idea": "Both fields rise and fall in step (in phase) as sin(kz - omega t); the cross product E x B points the way the wave travels.",
+   "textbook_ref": "leph108.txt section 8.3.2 (Eqs. 8.7a-8.7b, Fig. 8.3, Exercise 8.4)",
+   "question_patterns": [
+    "a wave runs along z; in which directions may its E and B fields point",
+    "why is an electromagnetic wave called a transverse wave",
+    "how are the electric and magnetic fields oriented relative to each other in flight",
+    "given that E points along y and the wave along x, where does B point",
+    "are the E and B oscillations of a light wave in phase or out of phase",
+    "what does the cross product of the two field vectors tell you"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the axes",
+     "explain": "take E along x and B along y for a wave moving along z, as in the standard figure"
+    },
+    {
+     "step": 2,
+     "action": "check the right angles",
+     "explain": "E is perpendicular to B and both are perpendicular to the travel direction"
+    },
+    {
+     "step": 3,
+     "action": "orient the cross product",
+     "explain": "E x B lands along the propagation direction, settling which way the wave runs"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.2",
+   "title": "Field Amplitudes in a Light Wave",
+   "section": "8.3.2",
+   "definition": "The electric and magnetic amplitudes of an electromagnetic wave lock together through the wave speed: B0 equals E0 over c, so a 6.3 V/m electric swing pairs with only about 2e-8 T of magnetic swing.",
+   "formula": "mag_amplitude = e_amplitude / wave_speed",
+   "key_idea": "Because c is huge, the magnetic partner of even a strong electric field is tiny in tesla - but the two fields carry equal energy on average.",
+   "textbook_ref": "leph108.txt section 8.3.2 (Eq. 8.10, Example 8.1, Exercise 8.7, 8.8)",
+   "question_patterns": [
+    "the electric field of a wave reads 6.3 V/m at some instant; find the magnetic field then",
+    "compute B0 from E0 for a plane electromagnetic wave in vacuum",
+    "a wave has magnetic amplitude 510 nT; what is the electric amplitude",
+    "how are the peak values of E and B related for light",
+    "find the amplitude of the oscillating magnetic part of a wave given its electric part",
+    "for E0 equal 120 N/C and 50 MHz, obtain B0 along with omega and k"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by the wave speed",
+     "explain": "the amplitude ratio is fixed: B0 = E0 over c",
+     "compute": "mag_amplitude = e_amplitude / wave_speed"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.3",
+   "title": "Wavelength from Wave Frequency",
+   "section": "8.3.2",
+   "definition": "Every electromagnetic wave in vacuum runs at the same speed c, so its wavelength is simply that speed split by the frequency; a 30 MHz wave spans 10 m while a radio band of 7.5 to 12 MHz maps to roughly 40 down to 25 m.",
+   "formula": "wavelength = wave_speed / freq",
+   "key_idea": "Frequency and wavelength trade off inversely because the speed is fixed; the product nu lambda always equals c in vacuum.",
+   "textbook_ref": "leph108.txt section 8.3.2 (Eq. 8.9b nu lambda = c, Exercises 8.4-8.5, 8.10)",
+   "question_patterns": [
+    "a wave oscillates at 2.0e10 Hz; what is its wavelength in vacuum",
+    "a radio tunes across 7.5 MHz to 12 MHz; find the wavelength band",
+    "convert a wave frequency of 30 MHz into a wavelength",
+    "compute nu lambda for light in free space and check it against c",
+    "what wavelength belongs to a given broadcast frequency",
+    "how does the wavelength change when the oscillation frequency doubles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the speed",
+     "explain": "wavelength equals c over frequency because c = nu lambda",
+     "compute": "wavelength = wave_speed / freq"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.4",
+   "title": "Reading a Wave Expression",
+   "section": "8.3.2",
+   "definition": "A written field component like B0 sin(kx + omega t) is a data sheet: comparing coefficients gives the wavelength as 2 pi over k, the frequency as omega over 2 pi, and multiplying B0 by c returns the electric amplitude.",
+   "formula": "wavelength = 2 * pi / wave_number",
+   "key_idea": "A plus sign inside the argument means the wave travels toward negative x; the amplitudes still obey B0 = E0 over c.",
+   "textbook_ref": "leph108.txt section 8.3.2 (Eq. 8.8 k = 2 pi / lambda, Example 8.2 By expression)",
+   "question_patterns": [
+    "a magnetic field varies as B0 sin(0.5e3 x + 1.5e11 t); find the wavelength and frequency",
+    "extract wavelength from the wave number in a field expression",
+    "obtain the frequency from the angular frequency in a sine wave formula",
+    "write the electric field component that partners a given magnetic field expression",
+    "what does the sign inside sin(kx + omega t) indicate about travel direction",
+    "compare a given wave expression with the standard form to read off its parameters"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "wavelength from k",
+     "explain": "the wave number counts radians per metre, so lambda is 2 pi over k",
+     "compute": "wavelength = 2 * pi / wave_number"
+    },
+    {
+     "step": 2,
+     "action": "frequency from omega",
+     "explain": "the angular frequency is 2 pi times the ordinary frequency",
+     "compute": "wave_freq = ang_freq / (2 * pi)"
+    },
+    {
+     "step": 3,
+     "action": "electric partner amplitude",
+     "explain": "multiply the magnetic amplitude by c to get E0",
+     "compute": "e_amplitude = mag_amplitude * wave_speed"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.5",
+   "title": "Wave Speed from EM Constants",
+   "section": "8.3.2",
+   "definition": "Maxwell's equations fix the wave speed as 1 over the square root of permittivity times permeability; with vacuum values this reproduces the measured speed of light, and material values give the slower speed inside media.",
+   "formula": "wave_speed = 1 / sqrt(permittivity * permeability)",
+   "key_idea": "Matching c to optical measurements proved light is an electromagnetic wave, and the medium's epsilon and mu set its refractive behaviour.",
+   "textbook_ref": "leph108.txt section 8.3.2 (Eqs. 8.9a, 8.11, speed independence of wavelength in vacuum)",
+   "question_patterns": [
+    "show that 1 over root mu0 epsilon0 equals the speed of light",
+    "find the speed of electromagnetic waves inside a medium of given epsilon and mu",
+    "how does the wave speed in glass compare with its vacuum value",
+    "compute c from the free space constants",
+    "why is the vacuum speed the same for radio waves and light",
+    "what decides the velocity of light in a material medium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the constants",
+     "explain": "the speed depends on the product of permittivity and permeability",
+     "compute": "em_product = permittivity * permeability"
+    },
+    {
+     "step": 2,
+     "action": "invert the square root",
+     "explain": "v equals 1 over the square root of that product",
+     "compute": "wave_speed = 1 / sqrt(em_product)"
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.4.1",
+   "title": "Bands of the EM Spectrum",
+   "section": "8.4",
+   "definition": "Electromagnetic waves span one continuous ladder from long radio waves to ultra-short gamma rays, named by wavelength and by how each band is produced or caught, with fuzzy borders and overlaps between neighbours.",
+   "formula": "same vacuum speed c for every band",
+   "key_idea": "Radio comes from electrons in aerials, microwaves from klystrons and magnetrons, infrared from warm matter, light and UV from atomic electron jumps, X-rays from inner-shell bombardment, gamma rays from nuclei - yet all fly at c in vacuum.",
+   "textbook_ref": "leph108.txt section 8.4 (Table 8.1, sections 8.4.1-8.4.7, Exercise 8.3, 8.9)",
+   "question_patterns": [
+    "arrange the em spectrum bands from longest to shortest wavelength",
+    "which band warms food and which band carries FM broadcasts",
+    "what physical quantity is common to X-rays, red light and radio waves",
+    "name the production and detection method for infrared and gamma rays",
+    "why are the boundaries between spectrum regions not sharp",
+    "estimate the photon energy spread across the spectrum bands"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "line up the ladder",
+     "explain": "order the bands by wavelength: radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray"
+    },
+    {
+     "step": 2,
+     "action": "attach sources and detectors",
+     "explain": "each band pairs a production mechanism with its usual detector, from aerials to photographic film"
+    },
+    {
+     "step": 3,
+     "action": "note the shared speed",
+     "explain": "wavelength and frequency differ across bands but the vacuum speed c is common to all"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph108_1",
+   "source_ref": "leph108.txt Example 8.1 (E = 6.3 j V/m, 25 MHz wave along x)",
+   "concept": "leph108.8.3.2.2",
+   "question_type": "field_from_amplitude",
+   "question_pattern": "A plane wave in free space has electric field {e_amplitude} V/m at a point. What is the magnetic field magnitude there, and which way does it point if E is along y and the wave along x?",
+   "extracted_variables": {"e_amplitude": 6.3, "wave_speed": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "divide by c", "explain": "B = E over c", "compute": "mag_amplitude = e_amplitude / wave_speed"}
+   ]
+  },
+  {
+   "id": "we_leph108_2",
+   "source_ref": "leph108.txt Example 8.2 (By = 2e-7 sin(0.5e3 x + 1.5e11 t))",
+   "concept": "leph108.8.3.2.4",
+   "question_type": "wave_expression_parameters",
+   "question_pattern": "A magnetic field obeys B0 sin({wave_number} x + {ang_freq} t) T with B0 = {mag_amplitude} T. Find the wavelength, frequency, and the matching electric field expression.",
+   "extracted_variables": {"wave_number": 500.0, "ang_freq": 1.5e+11, "mag_amplitude": 2.0e-07, "wave_speed": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "wavelength", "explain": "lambda = 2 pi over k", "compute": "wavelength = 2 * pi / wave_number"},
+    {"step": 2, "action": "frequency", "explain": "nu = omega over 2 pi", "compute": "wave_freq = ang_freq / (2 * pi)"},
+    {"step": 3, "action": "electric amplitude", "explain": "E0 = B0 c", "compute": "e_amplitude = mag_amplitude * wave_speed"}
+   ]
+  },
+  {
+   "id": "we_leph108_3",
+   "source_ref": "leph108.txt Exercise 8.7 (B0 = 510 nT)",
+   "concept": "leph108.8.3.2.2",
+   "question_type": "amplitude_pair",
+   "question_pattern": "The magnetic part of a harmonic wave in vacuum peaks at {mag_amplitude} T. How large is the electric part's amplitude?",
+   "extracted_variables": {"mag_amplitude": 5.1e-07, "wave_speed": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "multiply by c", "explain": "E0 = B0 c", "compute": "e_amplitude = mag_amplitude * wave_speed"}
+   ]
+  },
+  {
+   "id": "we_leph108_4",
+   "source_ref": "leph108.txt Exercise 8.5 (radio band 7.5 MHz to 12 MHz)",
+   "concept": "leph108.8.3.2.3",
+   "question_type": "band_wavelengths",
+   "question_pattern": "A receiver covers {freq} Hz. What wavelength does that station correspond to in free space?",
+   "extracted_variables": {"freq": 7.5e+06, "wave_speed": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "split the speed", "explain": "lambda = c over nu", "compute": "wavelength = wave_speed / freq"}
+   ]
+  },
+  {
+   "id": "we_leph108_5",
+   "source_ref": "leph108.txt Exercise 8.2 (C = 100 pF, 230 V, omega = 300 rad/s)",
+   "concept": "leph108.8.2.2",
+   "question_type": "capacitor_ac_current",
+   "question_pattern": "A {capacitance} F capacitor connects to a {volt_rms} V supply of angular frequency {omega} rad/s. What rms conduction current flows, and what displacement current runs between the plates?",
+   "extracted_variables": {"capacitance": 1.0e-10, "volt_rms": 230.0, "omega": 300.0},
+   "solution_template": [
+    {"step": 1, "action": "reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
+    {"step": 2, "action": "conduction current", "explain": "voltage over reactance; the displacement current between the plates takes the same value", "compute": "i_rms = volt_rms / react_c"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph108_8_1_to_8_2",
+   "source_ref": "leph108.txt end-of-chapter exercises 8.1-8.2",
+   "questions": [
+    "Circular plates of radius 12 cm sit 5.0 cm apart and charge at a steady 0.15 A: find the capacitance, the rate of voltage rise, the displacement current, and say whether the junction rule holds at a plate.",
+    "A 100 pF capacitor of 6.0 cm plates hangs on a 230 V supply at 300 rad/s: find the rms conduction current, compare it with the displacement current, and obtain the magnetic amplitude 3.0 cm off the axis between the plates."
+   ]
+  },
+  {
+   "id": "ex_leph108_8_3_to_8_6",
+   "source_ref": "leph108.txt end-of-chapter exercises 8.3-8.6",
+   "questions": [
+    "What quantity is shared by X-rays of 1e-10 m, red light of 6800 angstrom, and radio waves of 500 m?",
+    "A wave runs along z in vacuum: what can be said about the directions of E and B, and what wavelength belongs to a 30 MHz wave?",
+    "A radio tunes from 7.5 MHz to 12 MHz; give the matching wavelength band.",
+    "A charge oscillates at 1e9 Hz about its equilibrium; what frequency do the radiated waves carry?"
+   ]
+  },
+  {
+   "id": "ex_leph108_8_7_to_8_10",
+   "source_ref": "leph108.txt end-of-chapter exercises 8.7-8.10",
+   "questions": [
+    "The magnetic amplitude of a harmonic wave in vacuum is 510 nT; find the electric amplitude.",
+    "With E0 = 120 N/C at 50 MHz, determine B0, omega, k and lambda, then write the expressions for E and B.",
+    "Use E = h nu to tabulate photon energies in eV across the spectrum and connect them to the radiation sources.",
+    "An electric field oscillates at 2.0e10 Hz with amplitude 48 V/m: find the wavelength, the magnetic amplitude, and show the average electric and magnetic energy densities match."
+   ]
+  }
+ ]
+}

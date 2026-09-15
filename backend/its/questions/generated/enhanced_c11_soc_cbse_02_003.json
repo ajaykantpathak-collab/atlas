@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_003",
+   "title": "c11_soc_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define social stratification in one sentence and name the four historical systems of stratification mentioned in the textbook.",
+     "a": "Social stratification refers to the existence of structured inequalities between groups in society in terms of their access to material or symbolic rewards; the four historical systems are slavery, caste, estate, and class. A wrong answer that lists only \"rich and poor\" or \"upper and lower class\" reveals the student conflates stratification with simple economic inequality and misses the structural, group-based, and historical dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the textbook says \"caste stratification system an individual's position totally depends on the status attributes ascribed by birth rather than on any which are achieved.\" How is this different from class?",
+     "a": "In caste, birth determines ritual status (purity/pollution), occupation, marriage pool, and social interaction rules — all fixed and enforced by endogamy and ritual avoidance. In class, position is theoretically open to achievement via education, income, or entrepreneurship, though structural constraints persist. A wrong answer that claims \"caste is just like class but stricter\" misses the qualitative difference: caste is a religious-ritual hierarchy, while class is an economic-market hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A village has a dominant landowning caste (Owning caste) and a landless laboring caste (Laboring caste). The laborers are paid in grain at harvest. Apply Marx's and Weber's class concepts to analyze this situation.",
+     "a": "Marx: The owning caste owns means of production (land); the laboring caste owns only labor power — a clear class division. Weber: Life-chances differ — owners have high market capacity (control over land, credit, political influence); laborers have low market capacity (dependent on seasonal work, no assets). Prestige and power also align with ownership. A wrong answer that only says \"they are different classes\" without linking to means of production or life-chances shows inability to apply theoretical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functionalist and conflict explanations of why social stratification exists universally. Which better explains the persistence of caste discrimination in modern Indian cities?",
+     "a": "Functionalism (Davis & Moore): Stratification ensures the most important positions are filled by the most qualified, motivating people through unequal rewards. Conflict (Marx): Stratification reflects exploitation — dominant groups monopolize resources and impose their will. For modern caste discrimination in cities, conflict theory better explains why upper castes resist reservations and maintain social closure despite formal equality, because it protects their material and symbolic privileges. A wrong answer that picks functionalism because \"doctors need more training\" ignores the power dimension and cannot explain why a Dalit doctor still faces discrimination in private practice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Gender stratification is fundamentally different from caste and class stratification because it operates within the family, not just in public institutions.\"",
+     "a": "The statement is partially valid but incomplete. Gender stratification indeed originates in the domestic sphere (sexual division of labor, patrilineal inheritance, control over women's sexuality) and extends to public institutions (labor market, politics, law). Caste and class also operate within families (endogamy, inheritance of property/caste status). All three systems penetrate both private and public realms. A strong evaluation acknowledges the unique intimacy of gender hierarchy while noting that caste and class are also reproduced through family. A wrong answer that says \"gender is only in the family\" fails to see how gender shapes public life (e.g., wage gap, political representation).",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional but realistic 100-word vignette of a young person in contemporary India whose life chances are shaped by the intersection of caste, class, and gender. Explicitly label how each system operates in the story.",
+     "a": "A good vignette will show: (1) Caste: e.g., a Dalit girl denied entry to a temple or facing slurs in school; (2) Class: her family cannot afford tuition, she works part-time; (3) Gender: she is expected to do housework, brother gets priority for coaching. The three must interact — e.g., her caste-class-gender location makes her invisible to scholarship committees. A poor answer treats them as separate add-ons rather than intersecting (e.g., \"she is poor, also Dalit, also a girl\" without showing how they compound).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

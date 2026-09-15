@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_007",
+   "title": "c11_eng_s_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the definition of a 'secondary theme' in literature, and how does it differ from the 'primary theme'?",
+     "a": "A secondary theme is a subordinate idea that supports or runs parallel to the main central message (primary theme). While the primary theme is the dominant controlling idea of the work, secondary themes add layers of meaning, explore specific aspects of characters/society, or provide contrast. A wrong answer (e.g., \"it's just a less important theme\" without explaining the structural relationship) reveals the student sees themes as a list rather than an interconnected web of ideas.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the Ministers crown a melon because \"the next to pass the City Gate\" chooses the ruler. Explain what this custom reveals about the *Ministers'* values and how it creates a secondary theme distinct from the King's flawed justice.",
+     "a": "The Ministers prioritize political stability and procedure (\"practical-minded men\") over legitimacy or competence. This creates the secondary theme of **bureaucratic complicity/self-preservation**: the system protects itself by valuing continuity (any ruler) over quality. A wrong answer focusing only on the absurdity of a melon king misses the Ministers' active agency — they *choose* to enforce the custom to prevent the \"unruly town\" from turning \"against the Crown,\" revealing their fear of the populace.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'blind adherence to custom' to a real-world Indian context. Identify a situation where a outdated rule or tradition is followed without questioning, and explain how it mirrors the Melon City succession custom.",
+     "a": "Example: A housing society bans bachelors from renting flats based on a 20-year-old bylaw, despite changing demographics. Like Melon City's \"customary choice,\" the rule is enforced because \"it's always been done,\" not because it serves current needs. Steps: (1) Identify the rule (succession by first passerby / bachelor ban). (2) Identify the enforcers (Ministers / Society Committee). (3) Identify the justification (\"custom\" / \"tradition\"). (4) Show the absurd outcome (Melon King / vacant flats). A wrong answer describes a *bad* rule but fails to show the *mechanism* of blind adherence despite obvious harm.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the Crowd's demand for a hanging (\"The nation wants a hanging\") and the final acceptance of the Melon King (\"Leaves us in Peace and Liberty\"). How do these two moments together develop the secondary theme of **citizen passivity/complicity**?",
+     "a": "The Crowd first demands blood (active cruelty) but later accepts a melon (passive indifference). Both stem from the same root: they want *spectacle* and *order* without responsibility. The hanging satisfies their bloodlust; the melon satisfies their desire for non-interference. Together, they show a citizenry that outsources moral judgment to the state — whether the state hangs a king or crowns a fruit. A wrong answer treats these as separate moods (angry then happy) rather than two faces of the same civic abdication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The poem's endorsement of 'laissez-faire' principles ('The principles of laissez faire / Seem to be well-established there') is the poet's genuine political recommendation.\" Defend your answer using textual evidence.",
+     "a": "The statement is false; it is **ironic endorsement**. The poem shows laissez-faire as the *result* of total systemic failure: the people accept a melon king *because* they have lost all agency (\"who are we to say\"). True laissez-faire requires an active citizenry protecting liberty; here, \"Peace and Liberty\" are gifts from a melon. The phrase \"well-established there\" mocks the permanence of this apathy. A wrong answer takes the final lines at face value, missing Vikram Seth's satirical tone throughout — the poem *begins* with a \"just and placid\" King and *ends* with a melon; both are absurd outcomes of a hollow system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line satirical verse (in Vikram Seth's couplet style) that introduces a *new* secondary theme for Melon City: **The corruption of language/law** (e.g., how words like 'justice', 'custom', 'liberty' are twisted). Your verse must use a specific incident from the poem.",
+     "a": "*The King decreed \"Justice\" with a placid smile,*\n*While hanging architects for Amendment's guile.*\n*Now \"Liberty\" means a Melon on the throne,*\n*And \"Custom\" silences the subject's groan.*\n**Criteria:** Must use couplets (AABB or AA BB), reference specific events (architect amendments, melon crowning), and show language distortion. A poor answer writes a generic moral lesson without satire or textual anchors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

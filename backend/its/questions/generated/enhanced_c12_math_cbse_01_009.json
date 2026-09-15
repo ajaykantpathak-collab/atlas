@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_009",
+   "title": "c12_math_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the definition of a commutative binary operation on a set S. Use the quantifier \"for all\" in your answer.",
+     "a": "A binary operation * on a set S is commutative if for all a, b ∈ S, a * b = b * a. A wrong answer like \"a * b = b * a for some a, b\" reveals the student confuses \"property holds for all\" with \"property holds for at least one pair\" — a critical error because commutativity is a universal statement. Another common error: omitting \"for all a, b ∈ S\" and just writing \"a * b = b * a\", which is an equation, not a definition.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the binary operation * on ℤ defined by a * b = a - b. Is * commutative? Justify your answer with a specific counterexample.",
+     "a": "No, * is not commutative. Counterexample: take a = 5, b = 3. Then 5 * 3 = 5 - 3 = 2, but 3 * 5 = 3 - 5 = -2. Since 2 ≠ -2, commutativity fails. A student who says \"it is commutative because 2 * 2 = 2 * 2\" reveals the misconception that checking equal elements (a = b) is sufficient. Another error: saying \"subtraction is not commutative\" without a concrete numerical counterexample — the definition requires exhibiting specific a, b where equality fails.",
+     "self_check": true
+    },
+    {
+     "q": "Let * be the binary operation on ℕ defined by a * b = a^b (a raised to power b). Check whether * is associative. Show all steps for a = 2, b = 3, c = 2.",
+     "a": "Compute (2 * 3) * 2 = (2^3) * 2 = 8 * 2 = 8^2 = 64.\nCompute 2 * (3 * 2) = 2 * (3^2) = 2 * 9 = 2^9 = 512.\nSince 64 ≠ 512, * is not associative.\nA wrong answer like \"(a^b)^c = a^(bc) and a^(b^c) = a^(bc), so they are equal\" reveals the student incorrectly applies exponent rules: (a^b)^c = a^(bc) is true, but a^(b^c) = a^(b^c), NOT a^(bc). The confusion between (a^b)^c and a^(b^c) is a classic exponent-law error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The operation * on ℝ defined by a * b = a + b + ab is commutative because addition and multiplication are commutative.\" Is this reasoning valid? Explain why or why not.",
+     "a": "The conclusion is correct (the operation IS commutative), but the reasoning is incomplete. Commutativity of * does not automatically follow from commutativity of + and ×; one must verify a * b = a + b + ab = b + a + ba = b * a using commutativity of + and × **and** the fact that ab = ba. The step \"ab = ba\" uses commutativity of multiplication, which is valid in ℝ. A student who says \"yes, because + and × are commutative\" without showing the algebraic manipulation reveals they think properties transfer automatically without checking the structure of the expression. This is a logical gap.",
+     "self_check": true
+    },
+    {
+     "q": "The binary operation * on the set {1, 2, 3} is given by the following Cayley table. Determine whether * is associative. Show your checking process.\n\n| * | 1 | 2 | 3 |\n|---|---|---|---|\n| 1 | 1 | 2 | 3 |\n| 2 | 2 | 3 | 1 |\n| 3 | 3 | 1 | 2 |",
+     "a": "To check associativity, we must verify (x * y) * z = x * (y * z) for all 27 triples (x,y,z) ∈ {1,2,3}^3.\nCheck (2 * 2) * 3 = 3 * 3 = 2, and 2 * (2 * 3) = 2 * 1 = 2 → OK.\nCheck (2 * 3) * 3 = 1 * 3 = 3, and 2 * (3 * 3) = 2 * 2 = 3 → OK.\nCheck (3 * 2) * 1 = 1 * 1 = 1, and 3 * (2 * 1) = 3 * 2 = 1 → OK.\n(Continue for all 27 cases — this operation is actually associative; it's addition modulo 3 with 3 representing 0.)\nA student who checks only 2-3 cases and concludes \"yes\" reveals the misconception that a few verifications prove a universal property. On a 3-element set, all 27 triples must be checked (or an algebraic proof given). This is a common Board exam error: insufficient verification.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties.",
+     "a": "Example: Define * by the table:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 1 |\n| 1 | 1 | 0 |\nThis is XOR (addition mod 2), which IS associative — so this is a bad example!\nCorrect example: Define * by:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 0 |\n| 1 | 0 | 1 |\nThis is logical AND. It is commutative (table symmetric). Check associativity: (1 * 1) * 0 = 1 * 0 = 0, but 1 * (1 * 0) = 1 * 0 = 0 → OK. Wait, AND is associative.\nBetter example: Define * by:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 1 |\n| 1 | 1 | 1 |\nCommutative? Yes, symmetric. Associative? (0 * 1) * 1 = 1 * 1 = 1, but 0 * (1 * 1) = 0 * 1 = 1 → OK. Still associative.\nActually, on a 2-element set, all commutative operations are associative? No. Consider:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 1 | 0 |\n| 1 | 0 | 1 |\nThis is XNOR. Commutative: yes. (0*0)*1 = 1*1 = 1, 0*(0*1) = 0*0 = 1. (1*1)*0 = 1*0 = 0, 1*(1*0) = 1*0 = 0. Still associative.\nIt is a known fact that on a 2-element set, all 8 commutative operations are associative. So no such example exists on {0,1}. The student must realise this and state: \"On a 2-element set, every commutative binary operation is also associative; therefore no such example exists. The smallest set admitting a commutative but non-associative operation has 3 elements.\" This tests deep understanding of the space of binary operations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

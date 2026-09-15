@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_005",
+   "title": "c11_acc_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the definition of an Error of Complete Omission and give one example from the purchase cycle.",
+     "a": "An Error of Complete Omission occurs when a transaction is entirely omitted from the books of original entry (e.g., a credit purchase of goods not recorded in the Purchases Book at all). Since both the debit (Purchases) and credit (Supplier) are missing, the trial balance still agrees. A wrong answer (e.g., \"it affects trial balance\") reveals the student confuses complete omission with partial omission or errors of commission.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an error of complete omission does not affect the agreement of the trial balance, whereas an error of partial omission does.",
+     "a": "Complete omission leaves out both aspects (debit and credit) of a transaction, so the totals of debits and credits remain equal. Partial omission records one aspect (e.g., in a subsidiary book) but fails to post the other aspect to the ledger, creating an imbalance in the trial balance. A wrong answer indicates the student does not grasp the dual aspect concept or the posting process.",
+     "self_check": true
+    },
+    {
+     "q": "A credit sale of ₹12,000 to M/s Verma Traders was recorded in the Sales Book but not posted to Verma Traders' account. Identify the type of error, its effect on the trial balance, and write the rectification entry assuming a Suspense Account exists.",
+     "a": "**Type:** Partial omission (recorded in subsidiary book, posting to ledger omitted). **Effect:** Trial balance will not agree — credit side (Sales) is ₹12,000 higher than debit side. **Rectification:** Verma Traders A/c Dr. ₹12,000 To Suspense A/c ₹12,000. A wrong entry (e.g., crediting Sales again) shows the student does not understand that the Sales account is already correct; only the missing debit needs to be supplied via Suspense.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the rectification entries for: (a) Credit purchases from Rahul ₹8,000 completely omitted; (b) Credit purchases from Rahul ₹8,000 recorded in Purchases Book but not posted to Rahul's account. Highlight the role of Suspense Account in each.",
+     "a": "(a) Complete omission: Purchases A/c Dr. ₹8,000 To Rahul A/c ₹8,000. No Suspense Account needed because both accounts are missing the entry; it's a two-sided error. (b) Partial omission: Suspense A/c Dr. ₹8,000 To Rahul A/c ₹8,000. Suspense Account is used because Purchases A/c already has the debit (from the book total), only Rahul's credit is missing — a one-sided error. A wrong answer (using Suspense in both or neither) reveals confusion between one-sided and two-sided errors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If the trial balance agrees, we can be sure there are no errors of omission in the books.\" Justify your answer with examples.",
+     "a": "The statement is **false**. A trial balance can agree even with errors of complete omission (e.g., a credit sale of ₹10,000 not recorded at all — both Debtors and Sales are understated by ₹10,000, so totals still match). It can also agree with compensating errors or errors of principle. Only partial omissions (and other one-sided errors) cause disagreement. A student who says \"true\" misunderstands that trial balance agreement is not conclusive proof of accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original scenario involving a partial omission error in a cash transaction (e.g., cash received from a debtor). Write the wrong effect, correct effect, and the rectification entry using a Suspense Account.",
+     "a": "**Scenario:** Cash ₹5,000 received from debtor Anil was entered in the Cash Book but not posted to Anil's account. **Wrong effect:** Cash A/c Dr. ₹5,000 (correct), Anil A/c Dr. Nil (missing). **Correct effect:** Cash A/c Dr. ₹5,000, To Anil A/c ₹5,000. **Rectification:** Anil A/c Dr. ₹5,000 To Suspense A/c ₹5,000. A poor answer (e.g., debiting Cash again) shows the student fails to identify which account is already correct and which is missing the posting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_004",
+   "title": "c11_biotech_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the four colour-coded branches of biotechnology and give one textbook example for each.",
+     "a": "Blue Biotechnology – marine/freshwater applications (e.g., algal biofuels, anticancer compounds from sponges); Green Biotechnology – agricultural/environmental (e.g., Bt cotton, Golden Rice); Red Biotechnology – medical/pharmaceutical (e.g., recombinant human insulin, hepatitis B vaccine); White Biotechnology – industrial processes (e.g., microbial proteases in detergents, bioethanol from corn). A wrong answer (e.g., swapping Green and White examples) reveals the student memorizes colours without linking them to the application sector (agriculture vs. industry).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Green biotechnology and White biotechnology are the same because both use microorganisms to make products.\" Explain why this is incorrect using the sector-based distinction.",
+     "a": "Green biotechnology uses plants (or plant cells) as the primary biological system to deliver agricultural or environmental benefits (e.g., stress-tolerant crops, phytoremediation). White biotechnology uses microorganisms (bacteria, yeast, fungi) or isolated enzymes as industrial catalysts to produce chemicals, materials, or energy (e.g., citric acid, bio-plastics, biofuels). The student's error conflates the *tool* (microbes) with the *target sector*; Green's target is the field/farm, White's target is the factory.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into the correct branch and justify in one sentence each: (a) Production of human growth hormone in E. coli; (b) Development of salt-tolerant transgenic rice; (c) Use of extremophilic archaeal enzymes in high-temperature industrial bleaching; (d) Extraction of omega-3 fatty acids from genetically modified microalgae.",
+     "a": "(a) Red – recombinant human protein for therapeutic use produced in a microbial host. (b) Green – transgenic plant with improved abiotic stress tolerance for agriculture. (c) White – extremozymes used as industrial catalysts to replace harsh chemicals. (d) Blue – marine microorganism (microalga) engineered for high-value nutritional compound. A wrong classification (e.g., putting (d) in Green) shows the student misses that Blue is defined by the *source organism's habitat* (marine), not the product type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Red and White biotechnology on three parameters: (i) primary host system, (ii) regulatory stringency, (iii) typical product purification challenge. Use a table.",
+     "a": "| Parameter | Red Biotechnology | White Biotechnology |\n|-----------|-------------------|---------------------|\n| Primary host | Mammalian cells (CHO, HEK) or GRAS microbes (E. coli, yeast) for human proteins | Robust industrial microbes (Bacillus, Aspergillus, Trichoderma) or isolated enzymes |\n| Regulatory stringency | Extremely high (US FDA/EMA); requires clinical trials, GMP, batch consistency, immunogenicity testing | Moderate (industrial safety, GRAS status); no clinical trials unless food/feed additive |\n| Purification challenge | High: must remove host cell proteins, DNA, endotoxins, aggregates to ppm/ppb for injection | Lower: product often secreted, crude extract acceptable for bulk enzymes; downstream focuses on cost, not sterility |\nA wrong answer (e.g., saying both use E. coli equally) ignores that Red increasingly uses mammalian cells for glycosylation, while White selects for robustness and secretion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Blue biotechnology is just a subset of Green biotechnology because both deal with living organisms and the environment.\" Defend or refute with two distinct arguments.",
+     "a": "Refute. Argument 1: Blue biotechnology's *source organisms* are exclusively marine/freshwater (algae, sponges, cyanobacteria, fish), exploiting unique metabolic pathways (e.g., halogenated compounds, osmotic stress enzymes) absent in terrestrial plants used in Green biotechnology. Argument 2: Blue's *applications* include aquaculture vaccine development, antifouling coatings, and deep-sea enzyme mining—domains with no terrestrial parallel. Green focuses on land-based agriculture and phytoremediation. The student who agrees confuses \"environmental benefit\" (common goal) with \"biological resource base\" (defining criterion).",
+     "self_check": true
+    },
+    {
+     "q": "Design a concept map that links the four branches to (i) the biological system used, (ii) the key enabling technology, and (iii) one flagship product. Draw or describe the nodes and connections.",
+     "a": "Central node: \"Branches of Biotechnology\". Four primary branches: Blue → (i) Marine microbes/algae/invertebrates → (ii) Metagenomics, marine bioprospecting → (iii) Anticancer agent (e.g., cytarabine from sponge). Green → (i) Transgenic plants/plant cell culture → (ii) Agrobacterium-mediated transformation, CRISPR → (iii) Bt cotton / Golden Rice. Red → (i) Mammalian cells / engineered microbes → (ii) rDNA tech, gene therapy vectors → (iii) Recombinant insulin / CAR-T cells. White → (i) Industrial microbes / extremozymes → (ii) Protein engineering, metabolic engineering → (iii) Microbial proteases / bioethanol / PHA bioplastic. A poor map uses vague terms like \"cells\" for all branches or lists the same technology (e.g., fermentation) for all, missing branch-specific distinctions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

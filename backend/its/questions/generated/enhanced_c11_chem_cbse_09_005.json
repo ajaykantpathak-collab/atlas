@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_005",
+   "title": "c11_chem_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the balanced chemical equation for the Haber process synthesis of ammonia from dihydrogen and dinitrogen, including the catalyst and typical industrial conditions (temperature, pressure).",
+     "a": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g); catalyst: finely divided Fe with Mo promoter; conditions: 673–773 K, 150–250 atm. A wrong answer (e.g., missing stoichiometric coefficient 3 for H₂, writing → instead of ⇌, or omitting conditions) reveals the student treats this as a simple combination reaction rather than an equilibrium process requiring Le Chatelier's principle optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why dihydrogen is used instead of carbon monoxide for the reduction of tungsten oxide (WO₃) to tungsten metal in the powder metallurgy industry, even though both are reducing agents.",
+     "a": "WO₃ + 3H₂ → W + 3H₂O (gaseous product, no solid residue); CO reduction yields CO₂ which can cause carburisation of tungsten at high temperatures, forming brittle WC. A wrong answer focusing only on \"H₂ is a better reducing agent\" without addressing product phase and carburisation shows misunderstanding of metallurgical purity requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the volume of dihydrogen gas at STP required to completely hydrogenate 28.0 g of ethyl ethanoate (CH₃COOC₂H₅) to ethanol, given the reaction: CH₃COOC₂H₅ + 2H₂ → CH₃CH₂OH + CH₃CH₂OH. (Molar mass of ethyl ethanoate = 88 g mol⁻¹; molar volume at STP = 22.4 L mol⁻¹)",
+     "a": "Moles of ester = 28.0/88 = 0.318 mol. Stoichiometry: 1 mol ester requires 2 mol H₂ → 0.636 mol H₂. Volume = 0.636 × 22.4 = 14.2 L. A wrong answer (e.g., 7.1 L) reveals the student used 1:1 mole ratio instead of 1:2, confusing ester hydrogenation with alkene hydrogenation (which uses 1 mol H₂ per C=C).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of dihydrogen in oxyhydrogen flame welding versus its use in fuel cells. Identify two fundamental differences in the energy conversion mechanism and practical outcome.",
+     "a": "Oxyhydrogen flame: chemical energy → thermal energy (combustion, ~2800°C), direct heating, non-reversible, ~100% thermal efficiency but low utility for electricity. Fuel cell: chemical energy → electrical energy (electrochemical oxidation), ~60% electrical efficiency, reversible (electrolysis), produces usable electricity. A wrong answer stating \"both produce heat\" or \"fuel cells burn hydrogen\" confuses combustion with electrochemical oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction for methanol synthesis as: CO(g) + H₂(g) → CH₃OH(l) and claims it is balanced. Evaluate this equation and correct it with proper states and industrial conditions.",
+     "a": "Unbalanced: left has 1 C, 1 O, 2 H; right has 1 C, 1 O, 4 H. Correct: CO(g) + 2H₂(g) → CH₃OH(l); catalyst: Cu/ZnO/Al₂O₃; conditions: 523–573 K, 50–100 atm. The student's error reveals failure to count hydrogen atoms in CH₃OH (4 H) versus H₂ (2 H), a basic stoichiometry oversight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a laboratory-scale experiment to demonstrate the reducing action of dihydrogen on copper(II) oxide, including apparatus, observations, and a test for the gaseous product. Write the balanced equation.",
+     "a": "Apparatus: Hard glass test tube, delivery tube, gas jar, CaCl₂ drying tube, Bunsen burner. Procedure: Heat ~2 g CuO in test tube, pass dry H₂ gas over it. Observations: Black CuO turns reddish-brown (Cu); water droplets condense in cooler part of tube. Test for H₂O: Anhydrous CuSO₄ turns blue. Equation: CuO(s) + H₂(g) → Cu(s) + H₂O(g). A poor answer omits drying of H₂ (causes explosion risk) or uses limewater test (for CO₂, not H₂O).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

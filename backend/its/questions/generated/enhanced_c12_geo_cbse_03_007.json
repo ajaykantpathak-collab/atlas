@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_007",
+   "title": "c12_geo_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between what HDI measures and what HPI measures in terms of human development assessment?",
+     "a": "HDI measures average achievements in three dimensions (health, education, income) on a 0–1 scale where higher is better. HPI measures deprivations/shortfalls in similar dimensions (probability of dying before 40, adult illiteracy, lack of clean water, underweight children) where higher values indicate worse poverty. A wrong answer reveals the student confuses \"achievement indices\" with \"deprivation indices\" and cannot distinguish between measuring what people HAVE vs. what they LACK.",
+     "self_check": true
+    },
+    {
+     "q": "A country has HDI = 0.720. Its female life expectancy = 72, male = 68. Female adult literacy = 65%, male = 80%. Female gross enrolment = 70%, male = 85%. Female estimated earned income = $4,200, male = $7,800. Without calculating exact GDI, explain whether GDI will be higher, lower, or equal to HDI and WHY.",
+     "a": "GDI will be LOWER than HDI. GDI penalizes gender inequality by adjusting each dimension's index downward when female and male achievements differ. Here females lag in ALL three dimensions (lower life expectancy, literacy, enrolment, income). The penalty function reduces the dimension indices before averaging. A wrong answer (e.g., \"GDI higher\" or \"equal\") reveals the student thinks GDI simply averages male/female HDI or doesn't understand the inequality-aversion penalty in GDI's formula.",
+     "self_check": true
+    },
+    {
+     "q": "Country X: Female parliamentary seats = 12%, Female legislators/senior officials/managers = 8%, Female professional/technical workers = 35%, Gender income ratio (female/male earned income) = 0.45. Country Y: 32%, 28%, 48%, 0.72. Calculate GEM for both using the pre-2010 formula (equal weight 1/3 to each of three indices: political participation, economic participation, power over resources). Which country has higher GEM? Show steps.",
+     "a": "**Country X:** Political index = 12/50 = 0.24 (max 50% seats). Economic index = (8+35)/2 / 50 = 21.5/50 = 0.43. Income index = 0.45. GEM_X = (0.24 + 0.43 + 0.45)/3 = 1.12/3 = 0.373.\n**Country Y:** Political index = 32/50 = 0.64. Economic index = (28+48)/2 / 50 = 38/50 = 0.76. Income index = 0.72. GEM_Y = (0.64 + 0.76 + 0.72)/3 = 2.12/3 = 0.707.\n**Country Y has higher GEM.** Wrong answer reveals: (a) using wrong denominator (e.g., 100 instead of 50 for political/economic indices), (b) not averaging the two economic sub-indices, (c) treating income ratio as percentage instead of decimal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is correct and why:\nStatement A: \"GDI is simply the HDI calculated separately for women and men, then averaged.\"\nStatement B: \"GDI uses the same dimension indices as HDI but applies an inequality-aversion penalty (harmonic mean of male/female indices) before aggregation.\"",
+     "a": "Statement B is correct. GDI computes dimension indices for males and females separately, then takes the harmonic mean (not arithmetic mean) of each pair to penalize inequality, then averages the three penalized dimension indices. Statement A describes a simple average which would NOT penalize disparity — a country with female index 0.9 and male 0.5 would get 0.7, same as 0.7/0.7, masking inequality. A wrong choice reveals the student doesn't understand the mathematical purpose of harmonic mean in inequality-sensitive indices.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A country with Very High HDI (>0.800) will always have low HPI (<10%) and high GEM (>0.700).\" Provide a counterexample or logical reasoning using real-world patterns.",
+     "a": "The claim is FALSE. HDI measures average achievement; HPI and GEM measure distribution. Counterexample: Some Gulf states (e.g., Qatar, UAE pre-2010) had Very High HDI (>0.85) due to high income but low GEM (<0.30) due to minimal female political representation and large gender income gaps. Similarly, countries with high HDI can have pockets of deprivation raising HPI (e.g., USA HDI ~0.92 but HPI-2 ~15% due to illiteracy/health gaps). Wrong evaluation reveals the student assumes perfect correlation between average achievement and equitable distribution — a classic ecological fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator \"Gender-Equitable Development Index\" (GEDI) for Indian states that combines: (1) gender gap in literacy, (2) gender gap in workforce participation, (3) sex ratio at birth. Define each indicator's formula (0–1 scale, 1 = perfect equality), weighting scheme, and aggregation method. Justify your choices in 2–3 sentences.",
+     "a": "**Indicator 1 (Literacy Parity):** 1 - |Female_Lit - Male_Lit| / max(Male_Lit, Female_Lit). Range 0–1.\n**Indicator 2 (Workforce Parity):** 1 - |Female_WFPR - Male_WFPR| / max(Male_WFPR, Female_WFPR). Range 0–1.\n**Indicator 3 (Sex Ratio Parity):** (Observed_SRB / 952) capped at 1, where 952 = natural sex ratio at birth (females per 1000 males). Range 0–1.\n**Weights:** 1/3 each (equal importance to education, economy, survival).\n**Aggregation:** Geometric mean (penalizes imbalance across dimensions).\n**Justification:** Geometric mean ensures a state cannot compensate for female infanticide (low Indicator 3) with high female literacy. Equal weights reflect constitutional commitment to equality across all domains. A poor answer uses arithmetic mean, ignores SRB, or weights income higher — revealing neglect of survival rights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

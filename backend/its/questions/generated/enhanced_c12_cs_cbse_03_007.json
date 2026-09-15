@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_007",
+   "title": "c12_cs_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the correct syntax for a CSS rule that makes all `<h1>` elements have red text and a font size of 24 pixels?",
+     "a": "Correct answer: `h1 { color: red; font-size: 24px; }`. A wrong answer like `h1: color=red; font-size=24px;` reveals the student is confusing CSS syntax with HTML attributes or inline styles. Another common error is omitting the curly braces or semicolons, which shows they haven't internalized the declaration block structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between internal and external CSS. Give one advantage of external CSS for a website with 50 pages.",
+     "a": "Internal CSS is written inside a `<style>` tag in the HTML file's `<head>`; external CSS lives in a separate `.css` file linked via `<link rel=\"stylesheet\" href=\"styles.css\">`. For a 50-page site, external CSS lets you change the look of all pages by editing one file — internal CSS would require editing 50 files. A student who says \"external CSS loads faster\" is misunderstanding; the advantage is maintainability, not performance (though caching helps).",
+     "self_check": true
+    },
+    {
+     "q": "You have an HTML file with a paragraph `<p id=\"intro\">Welcome</p>`. Write the exact `<link>` tag to connect an external stylesheet named `main.css` located in the same folder, and write the CSS rule inside `main.css` that makes only that paragraph green and bold.",
+     "a": "HTML: `<link rel=\"stylesheet\" href=\"main.css\">` (inside `<head>`). CSS file: `#intro { color: green; font-weight: bold; }`. A wrong answer using `p { ... }` would style all paragraphs, not just the one with id=\"intro\". Using `class=\"intro\"` in HTML but `#intro` in CSS (or vice versa) shows confusion between id and class selectors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the specificity of these three CSS rules targeting the same `<div>`:\n1. `div { color: black; }`\n2. `.highlight { color: blue; }`  (div has class=\"highlight\")\n3. `style=\"color: red;\"` on the div itself\nWhich color wins? Explain the precedence order.",
+     "a": "The div will be red. Inline style (3) has highest specificity, then class selector (2), then element selector (1). A student who says blue or black doesn't understand the cascade: inline > id > class > element. This is critical for debugging why a style isn't applying.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this in their HTML head:\n```html\n<style>\n  p { color: blue; }\n  .note { color: red; }\n</style>\n```\nand this paragraph: `<p class=\"note\">Important</p>`. The paragraph appears blue. The student insists the CSS is broken. Evaluate their claim and explain what's actually happening.",
+     "a": "The student is wrong — the CSS is working correctly. The element selector `p` and class selector `.note` have equal specificity for this element? Actually, class selector has higher specificity (0,1,0) vs element (0,0,1), so `.note` should win and the text should be red. If it's blue, either the class name is misspelled in HTML/CSS, or another rule overrides it. The student's claim \"CSS is broken\" reveals a debugging gap: they don't know how to inspect computed styles in browser dev tools.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tiny 3-page website (home, about, contact) that shares the same header style (dark background, white text, centered). Show the folder structure, the single external CSS file, and the `<head>` section for each HTML page. Explain why this approach scales better than copying internal CSS into each page.",
+     "a": "Folder:\n```\n/project\n  index.html\n  about.html\n  contact.html\n  style.css\n```\nEach HTML head: `<link rel=\"stylesheet\" href=\"style.css\">`.\nstyle.css: `header { background: #333; color: white; text-align: center; }`.\nIf the client wants the header background changed, you edit one line in `style.css` — not three files. A poor answer copies the same `<style>` block into each HTML file, showing they don't grasp separation of concerns and the DRY principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

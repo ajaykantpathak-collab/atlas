@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_005",
+   "title": "c12_soc_cbse_11_005",
+   "questions": [
+    {
+     "q": "What was the primary institutional innovation of the Anand-pattern dairy cooperative that distinguished it from government-run dairy schemes?",
+     "a": "The Anand-pattern made milk producers (farmers) the owners and governors of the cooperative through elected village societies, district unions, and a state federation — eliminating government bureaucrats from daily management. A wrong answer like \"it used pasteurization technology\" or \"it gave subsidies to farmers\" reveals confusion between technical inputs and institutional ownership structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Operation Flood was implemented in phases (Phase I: 1970-80, Phase II: 1981-85, Phase III: 1985-96) rather than as a single nationwide rollout.",
+     "a": "Phasing allowed learning from early regions (Gujarat, Maharashtra) to refine the cooperative model, build management capacity, and establish milk-shed linkages before expanding to less developed areas. A wrong answer like \"due to budget constraints\" misses the deliberate institutional learning design — Phase I created 18 milk sheds, Phase II added 136, Phase III consolidated 73,000 village societies.",
+     "self_check": true
+    },
+    {
+     "q": "A village in eastern Uttar Pradesh has 200 households: 40 landless Dalit families (1 buffalo each), 100 OBC small farmers (2 buffaloes each), 50 upper-caste medium farmers (5 buffaloes each), and 10 large farmers (20 buffaloes each). If a dairy cooperative is formed with one-member-one-vote, which group would likely dominate the managing committee and why?",
+     "a": "Upper-caste medium farmers would likely dominate because they have higher milk surplus (more marketable surplus), greater literacy, existing social networks, and historical dominance in local institutions — despite one-member-one-vote. A wrong answer assuming \"landless families would control it because they are more numerous\" ignores how social capital and resource control translate into cooperative leadership.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Green Revolution and White Revolution on: (a) primary resource required, (b) scale of farmer benefited, (c) impact on women's labour, (d) regional spread.",
+     "a": "(a) Green Revolution: irrigation + HYV seeds + chemicals; White Revolution: milch animal + fodder + veterinary care. (b) Green Revolution benefited medium/large farmers with irrigated land; White Revolution reached landless/marginal farmers with 1-2 animals. (c) Green Revolution displaced women from processing (mechanization); White Revolution increased women's dairy work (feeding, milking) but often without control over income. (d) Green Revolution concentrated in Punjab/Haryana/western UP; White Revolution spread to 170+ milk sheds across 22 states. A wrong answer claiming \"both benefited small farmers equally\" misses the land vs. livestock asset distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Operation Flood succeeded because it bypassed caste hierarchies by organizing purely on economic interest.\"",
+     "a": "The statement is false. Cooperatives often replicated caste hierarchies: dominant castes (Patels in Gujarat, Marathas in Maharashtra) controlled leadership; Dalits were excluded from management or received lower prices citing \"quality\"; women's labour was exploited while men held membership. Success came from aligning with, not bypassing, local power structures. A wrong answer accepting the statement ignores sociological evidence that cooperatives are embedded in, not external to, agrarian social relations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dairy cooperative model for a tribal region in Jharkhand where: (i) households own 1-2 goats not cows/buffaloes, (ii) no all-weather roads, (iii) women do all animal care but men handle cash, (iv) nearest town is 40km. Specify: membership rules, collection logistics, governance safeguards for women, and one innovation to prevent elite capture.",
+     "a": "Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly. (2) Cluster-based collection: women's self-help groups collect at hamlet level, use insulated cans on bicycles to chilling centre at block HQ. (3) 50% women in managing committee; separate women's general body; milk payment directly to women's bank accounts. (4) Innovation: rotating chairmanship by hamlet + social audit by Gram Sabha. Poor answer copies Anand model without adapting to goat milk, terrain, gender norms, or tribal social structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

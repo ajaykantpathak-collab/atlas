@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_002",
+   "title": "c10_bio_cbse_02_002",
+   "questions": [
+    {
+     "q": "Name the three main structural parts of a typical multipolar neuron and state the primary function of each part in one sentence.",
+     "a": "The three main parts are: (1) Dendrites — short, branched processes that receive incoming signals from other neurons or sensory receptors; (2) Cell body (soma) — contains the nucleus and organelles, integrates incoming signals and maintains the neuron's metabolic functions; (3) Axon — a single long process that conducts nerve impulses away from the cell body to other neurons, muscles, or glands. A wrong answer (e.g., swapping dendrite and axon functions) reveals the student has memorized names but not the directional flow of information — a critical error for board exam diagram labeling and reflex arc questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the myelin sheath is not continuous along the axon but has gaps called nodes of Ranvier, and how this arrangement increases the speed of nerve impulse transmission.",
+     "a": "The myelin sheath acts as an electrical insulator, preventing ion leakage across the axonal membrane. If it were continuous, the nerve impulse (action potential) would have to be regenerated at every point along the axon, which is slow. The nodes of Ranvier are the only places where the axonal membrane is exposed to extracellular fluid and has voltage-gated ion channels. The impulse \"jumps\" from node to node (saltatory conduction), skipping the insulated parts, which dramatically increases speed and conserves energy. A wrong answer (e.g., \"myelin speeds up diffusion of ions\") shows the student confuses passive insulation with active conduction — a common board exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a demyelinating disease (like Multiple Sclerosis) where the myelin sheath is damaged but the axon itself is intact. Predict how this will affect nerve impulse transmission and explain why the patient experiences muscle weakness and delayed reflexes.",
+     "a": "Step 1: Identify the defect — loss of myelin insulation on axons. Step 2: Recall that myelin enables saltatory conduction (impulse jumps between nodes). Step 3: Without myelin, the impulse must travel continuously along the entire axonal membrane, which is much slower and may fail if the signal decays before reaching the next node. Step 4: Conclude — transmission speed drops drastically, signals may not reach muscles in time, causing weakness and delayed reflexes. Step 5: Verify — this matches clinical symptoms of MS. A wrong answer (e.g., \"no effect because axon is intact\") reveals the student thinks the axon alone conducts the impulse, missing the critical role of myelin in speed and reliability — a frequent error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations of a sensory neuron (e.g., from skin to spinal cord) and a motor neuron (e.g., from spinal cord to muscle) that suit their specific functions. Include at least three differences.",
+     "a": "Three key differences: (1) Sensory neurons are typically pseudounipolar — one process splits into a peripheral branch (long, receives stimulus from skin) and a central branch (enters spinal cord); motor neurons are multipolar — many dendrites and one long axon. (2) Sensory neuron cell body lies in a dorsal root ganglion (outside CNS); motor neuron cell body lies in the ventral horn of spinal cord (inside CNS). (3) Sensory neuron peripheral ending has specialized receptor endings (e.g., free nerve endings for pain); motor neuron axon terminals form neuromuscular junctions with muscle fibers. A wrong answer (e.g., \"both are identical\") shows the student cannot link structure to directional role — a must for board exam \"differentiate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Neurons cannot divide, so any damage to the nervous system is permanent and cannot be repaired.\" Is this entirely correct for the human nervous system? Justify your answer.",
+     "a": "The statement is partially correct but incomplete. Mature neurons in the central nervous system (brain and spinal cord) are amitotic — they lack centrioles and cannot undergo mitosis, so CNS damage is largely permanent. However, in the peripheral nervous system (PNS), damaged axons can regenerate if the cell body is intact and the neurilemma (Schwann cell tube) provides a pathway. Schwann cells also secrete growth factors that guide regrowth. A wrong answer (e.g., \"fully correct\" or \"fully incorrect\") reveals the student does not distinguish CNS vs PNS regenerative capacity — a specific Class 10 board exam nuance often tested in \"justify\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using everyday materials (e.g., straws, clay, thread, tape) to demonstrate how the myelin sheath and nodes of Ranvier enable saltatory conduction. List the materials, steps, and what each part represents.",
+     "a": "A good model: Use a long straw as the axon. Wrap small clay rings around it at regular intervals (nodes of Ranvier) leaving gaps. Cover the gaps with tape (myelin sheath). Thread a string through the straw — pulling the string represents the nerve impulse \"jumping\" from clay ring to clay ring (node to node) faster than if it had to slide along the whole straw surface. Materials: straw, clay, tape, string. Steps: (1) Thread string through straw. (2) Place clay rings at 2 cm intervals. (3) Tape the gaps between rings. (4) Pull string — it moves in jumps. A poor answer (e.g., just drawing a neuron) shows the student cannot translate structure into a dynamic functional model — a skill needed for competency-based \"design an experiment\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

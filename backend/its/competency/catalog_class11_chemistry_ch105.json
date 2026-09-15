@@ -1,0 +1,616 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 105,
+ "chapter_title": "Thermodynamics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech105.txt",
+ "concepts": [
+  {
+   "id": "jech.5.1",
+   "title": "Systems and Types of Systems",
+   "section": "5.1",
+   "definition": "The part of the universe chosen for thermodynamic study is called a system; everything else is the surroundings. Systems are classified as open (exchange matter and energy), closed (exchange energy only), and isolated (exchange neither).",
+   "formula": "system_type = exchange(matter, energy)",
+   "key_idea": "The boundary determines whether a system is open, closed, or isolated based on what can cross it.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify the given system as open closed or isolated",
+    "what type of system is a sealed thermos flask",
+    "distinguish between open closed and isolated systems with examples",
+    "why is the universe considered an isolated system",
+    "identify the system type when only energy can be exchanged"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the system boundary",
+     "explain": "Locate the physical or imaginary boundary separating the system from the surroundings."
+    },
+    {
+     "step": 2,
+     "action": "check what crosses the boundary",
+     "explain": "Determine whether matter, energy, or both can pass across the boundary."
+    },
+    {
+     "step": 3,
+     "action": "classify the system",
+     "explain": "If both matter and energy cross: open; if only energy crosses: closed; if neither crosses: isolated."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify a cup of hot tea open to air as a thermodynamic system.",
+     "solution": "The tea can exchange heat with the air and matter (vapour) can escape, so both matter and energy cross the boundary.",
+     "answer": "Open system"
+    },
+    {
+     "question": "Classify a sealed rigid steel container holding gas.",
+     "solution": "The rigid sealed walls prevent matter exchange but heat can still flow through the steel walls.",
+     "answer": "Closed system"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify a thermos flask as a system type and justify.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example each of an open, a closed, and an isolated system.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.2",
+   "title": "Surroundings, Work, Heat and Energy",
+   "section": "5.2",
+   "definition": "Surroundings are everything outside the system. Work is energy transfer due to a driving force acting through a distance; heat is energy transfer due to temperature difference; energy is the capacity to do work.",
+   "formula": "delta_E = q + w",
+   "key_idea": "Heat and work are path-dependent modes of energy transfer, not state functions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state the differences between heat and work",
+    "is heat a state function explain",
+    "calculate the work done when a gas expands against constant pressure",
+    "what is meant by surroundings in thermodynamics",
+    "explain why work and heat are path functions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the mode of energy transfer",
+     "explain": "Determine whether energy is transferred as heat (temperature difference) or as work (force times distance).",
+     "compute": "transfer_type"
+    },
+    {
+     "step": 2,
+     "action": "apply sign convention",
+     "explain": "Heat absorbed by system is positive, work done on system is positive; released heat and work done by system are negative."
+    },
+    {
+     "step": 3,
+     "action": "compute total energy change",
+     "explain": "The change in internal energy equals the sum of heat and work transferred.",
+     "compute": "q + w"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A system absorbs 500 J of heat and does 200 J of work on the surroundings. Find the change in internal energy.",
+     "solution": "q = +500 J (absorbed), w = -200 J (work done by system), so delta_U = q + w = 500 - 200 = 300 J.",
+     "answer": "delta_U = +300 J"
+    },
+    {
+     "question": "A gas expands doing 150 J of work while losing 80 J of heat. Calculate delta_U.",
+     "solution": "q = -80 J (heat lost), w = -150 J (work done by system), delta_U = -80 + (-150) = -230 J.",
+     "answer": "delta_U = -230 J"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A system does 250 J of work and absorbs 300 J of heat. Calculate delta_U.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain with an example why heat is a path function and not a state function.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.3",
+   "title": "Extensive and Intensive Properties, State Functions",
+   "section": "5.3",
+   "definition": "Extensive properties depend on the amount of matter (mass, volume, enthalpy); intensive properties do not (temperature, pressure, density). State functions depend only on the initial and final states, not the path.",
+   "formula": "property_type = depends_on_amount ? extensive : intensive",
+   "key_idea": "A state function is determined solely by the state of the system, making its change independent of the path taken.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify the given property as extensive or intensive",
+    "is enthalpy an extensive or intensive property",
+    "which of the following is a state function",
+    "explain the difference between state function and path function",
+    "give two examples each of intensive and extensive properties"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the property",
+     "explain": "Determine whether the property changes with the quantity of matter in the system."
+    },
+    {
+     "step": 2,
+     "action": "test dependence on amount",
+     "explain": "If the property doubles when the system size doubles, it is extensive; if unchanged, it is intensive."
+    },
+    {
+     "step": 3,
+     "action": "classify as state or path function",
+     "explain": "If the value depends only on the end states it is a state function (e.g., internal energy); if it depends on the path it is a path function (e.g., heat, work)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify temperature, mass, and density as extensive or intensive.",
+     "solution": "Temperature does not change with amount (intensive); mass changes with amount (extensive); density is ratio of two extensive quantities and is intensive.",
+     "answer": "Temperature: intensive; Mass: extensive; Density: intensive"
+    },
+    {
+     "question": "Is internal energy a state function? Justify.",
+     "solution": "Internal energy depends only on the initial and final states of the system and not on the path, so it is a state function.",
+     "answer": "Yes, internal energy is a state function"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify pressure, volume, and molar heat capacity as extensive or intensive.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why heat and work are path functions with a suitable example.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.4",
+   "title": "First Law of Thermodynamics (Internal Energy and Enthalpy)",
+   "section": "5.4",
+   "definition": "Energy can neither be created nor destroyed, only transformed. The change in internal energy equals heat added plus work done on the system. Enthalpy is defined as H = U + PV.",
+   "formula": "delta_U = q + w; H = U + PV",
+   "key_idea": "The first law is the law of energy conservation applied to thermodynamic systems; enthalpy measures heat content at constant pressure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state and explain the first law of thermodynamics",
+    "calculate delta_U given heat and work values",
+    "derive the relation between delta_H and delta_U",
+    "what is enthalpy and how is it related to internal energy",
+    "calculate delta_H for a reaction at constant pressure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the first law",
+     "explain": "Sum the heat transferred and the work done to obtain the change in internal energy.",
+     "compute": "q + w"
+    },
+    {
+     "step": 2,
+     "action": "compute PV work term",
+     "explain": "For a process at constant pressure, the pressure-volume work term is P times the change in volume.",
+     "compute": "p * delta_v"
+    },
+    {
+     "step": 3,
+     "action": "calculate enthalpy change",
+     "explain": "Enthalpy change equals internal energy change plus the PV work term.",
+     "compute": "delta_u + p * delta_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A system absorbs 800 J of heat at constant pressure and the volume increases by 2 L against 1 atm. Find delta_U and delta_H (1 L atm = 101.3 J).",
+     "solution": "w = -P*delta_V = -(1 atm)(2 L) = -2 L atm = -202.6 J. delta_U = q + w = 800 - 202.6 = 597.4 J. At constant pressure delta_H = q = 800 J.",
+     "answer": "delta_U = 597.4 J; delta_H = 800 J"
+    },
+    {
+     "question": "For a reaction, delta_U = -50 kJ and delta_n_gas = 1 at 298 K. Calculate delta_H (R = 8.314 J/mol/K).",
+     "solution": "delta_H = delta_U + delta_n_gas * R * T = -50000 + (1)(8.314)(298) = -50000 + 2477.6 = -47522.4 J.",
+     "answer": "delta_H = -47.52 kJ"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A system absorbs 600 J of heat and 300 J of work is done on it. Find delta_U.",
+     "type": "compute"
+    },
+    {
+     "question": "For a reaction delta_U = -100 kJ and delta_n_gas = 2 at 300 K. Calculate delta_H.",
+     "type": "compute"
+    },
+    {
+     "question": "State the first law of thermodynamics and define enthalpy.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.5",
+   "title": "Heat Capacity and Specific Heat",
+   "section": "5.5",
+   "definition": "Heat capacity is the amount of heat required to raise the temperature of a substance by 1 K. Specific heat is the heat capacity per unit mass. Molar heat capacity is per mole.",
+   "formula": "q = C * delta_T; C = c * m",
+   "key_idea": "Heat capacity relates the heat absorbed or released to the resulting temperature change of the substance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the heat required to raise the temperature of a substance",
+    "find the specific heat given heat mass and temperature change",
+    "what is the difference between heat capacity and specific heat",
+    "calculate the molar heat capacity of a substance",
+    "determine the final temperature after heat is added"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify heat capacity and temperature change",
+     "explain": "Note the heat capacity (or specific heat and mass) and the initial and final temperatures.",
+     "compute": "t_final - t_initial"
+    },
+    {
+     "step": 2,
+     "action": "compute total heat capacity",
+     "explain": "If specific heat is given, multiply by mass to get the total heat capacity.",
+     "compute": "c * m"
+    },
+    {
+     "step": 3,
+     "action": "calculate heat transferred",
+     "explain": "Multiply the heat capacity by the temperature change to obtain the heat absorbed or released.",
+     "compute": "c * delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the heat required to raise the temperature of 500 g of water from 20 C to 80 C (specific heat = 4.18 J/g/K).",
+     "solution": "delta_T = 80 - 20 = 60 K. q = c * m * delta_T = 4.18 * 500 * 60 = 125400 J.",
+     "answer": "q = 125.4 kJ"
+    },
+    {
+     "question": "A 2 mol sample of a gas has molar heat capacity 29 J/mol/K. Find heat needed to raise temperature by 50 K.",
+     "solution": "C = 29 * 2 = 58 J/K. q = C * delta_T = 58 * 50 = 2900 J.",
+     "answer": "q = 2900 J"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the heat needed to raise 250 g of a substance (c = 0.9 J/g/K) by 40 K.",
+     "type": "compute"
+    },
+    {
+     "question": "Distinguish between heat capacity and specific heat capacity with units.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.6",
+   "title": "Measurement of Delta U and Delta H",
+   "section": "5.6",
+   "definition": "Delta U is measured using a bomb calorimeter at constant volume where delta_U = q_v = C_cal * delta_T. Delta H at constant pressure is delta_H = q_p. The two are related by delta_H = delta_U + delta_n_gas * R * T.",
+   "formula": "delta_U = C_cal * delta_T; delta_H = delta_U + delta_n_gas * R * T",
+   "key_idea": "Bomb calorimetry gives delta_U at constant volume; enthalpy change at constant pressure is obtained by correcting for the gaseous mole change.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate delta_U from bomb calorimeter data",
+    "convert delta_U to delta_H using delta n gas",
+    "what is a bomb calorimeter used for",
+    "derive the relation between delta_H and delta_U",
+    "calculate the enthalpy change from calorimetric data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute delta_U from calorimeter data",
+     "explain": "Multiply the calorimeter heat capacity by the observed temperature change.",
+     "compute": "c_cal * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "determine change in gaseous moles",
+     "explain": "Count moles of gaseous products minus moles of gaseous reactants.",
+     "compute": "n_products_gas - n_reactants_gas"
+    },
+    {
+     "step": 3,
+     "action": "convert to delta_H",
+     "explain": "Add the PV correction term delta_n_gas * R * T to delta_U.",
+     "compute": "delta_u + delta_n_gas * r * t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a bomb calorimeter, combustion of 0.5 mol fuel raises temperature by 4 K (C_cal = 10 kJ/K). Find delta_U per mole.",
+     "solution": "q_v = C_cal * delta_T = 10 * 4 = 40 kJ for 0.5 mol. Per mole: 40 / 0.5 = 80 kJ/mol. delta_U = -80 kJ/mol (exothermic).",
+     "answer": "delta_U = -80 kJ/mol"
+    },
+    {
+     "question": "For a reaction delta_U = -200 kJ and delta_n_gas = -1 at 298 K. Calculate delta_H.",
+     "solution": "delta_H = delta_U + delta_n_gas * R * T = -200000 + (-1)(8.314)(298) = -200000 - 2477.6 = -202477.6 J.",
+     "answer": "delta_H = -202.48 kJ"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A bomb calorimeter (C_cal = 8 kJ/K) shows a 5 K rise for 1 mol of substance. Find delta_U.",
+     "type": "compute"
+    },
+    {
+     "question": "delta_U = -150 kJ, delta_n_gas = 2, T = 300 K. Calculate delta_H.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why a bomb calorimeter measures delta_U and not delta_H directly.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.7",
+   "title": "Hess's Law of Constant Heat Summation",
+   "section": "5.7",
+   "definition": "The total enthalpy change for a reaction is the same whether it occurs in one step or in several steps, because enthalpy is a state function.",
+   "formula": "delta_H_overall = sum_of_delta_H_steps",
+   "key_idea": "Hess's law allows calculation of unknown enthalpy changes by combining known reactions algebraically.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "apply hess law to calculate the enthalpy of a reaction",
+    "calculate delta_H using given thermochemical equations",
+    "state hess law and give its significance",
+    "determine the enthalpy of formation using hess law",
+    "combine the given reactions to find the target enthalpy change"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the target reaction",
+     "explain": "Identify the reaction whose enthalpy change is to be found.",
+     "compute": "desired_reaction"
+    },
+    {
+     "step": 2,
+     "action": "manipulate given reactions",
+     "explain": "Reverse, multiply, or divide the given thermochemical equations so they sum to the target, adjusting their enthalpy values accordingly.",
+     "compute": "factor * given_h"
+    },
+    {
+     "step": 3,
+     "action": "sum the adjusted enthalpies",
+     "explain": "Add up the enthalpy changes of the adjusted steps to get the overall enthalpy change.",
+     "compute": "sum_of_adjusted_h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Given: C(s)+O2(g)->CO2(g) delta_H=-393.5 kJ; CO(g)+1/2O2(g)->CO2(g) delta_H=-283.0 kJ. Find delta_H for C(s)+1/2O2(g)->CO(g).",
+     "solution": "Reverse the second reaction: CO2(g)->CO(g)+1/2O2(g) delta_H=+283.0 kJ. Add to first: C(s)+O2(g)+CO2(g)->CO2(g)+CO(g)+1/2O2(g). Cancel: C(s)+1/2O2(g)->CO(g). delta_H = -393.5 + 283.0 = -110.5 kJ.",
+     "answer": "delta_H = -110.5 kJ"
+    },
+    {
+     "question": "Given: N2(g)+2O2(g)->2NO2(g) delta_H=66.4 kJ; N2(g)+O2(g)->2NO(g) delta_H=180.5 kJ. Find delta_H for 2NO(g)+O2(g)->2NO2(g).",
+     "solution": "Reverse second: 2NO(g)->N2(g)+O2(g) delta_H=-180.5 kJ. Add to first: 2NO(g)+2O2(g)->2NO2(g)+O2(g). Simplify: 2NO(g)+O2(g)->2NO2(g). delta_H = 66.4 + (-180.5) = -114.1 kJ.",
+     "answer": "delta_H = -114.1 kJ"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Given S(s)+O2(g)->SO2(g) delta_H=-297 kJ and SO2(g)+1/2O2(g)->SO3(g) delta_H=-99 kJ. Find delta_H for S(s)+3/2O2(g)->SO3(g).",
+     "type": "compute"
+    },
+    {
+     "question": "State Hess law and explain why it works based on the nature of enthalpy.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.8",
+   "title": "Enthalpy of Bond Dissociation, Combustion, Formation and Atomization",
+   "section": "5.8",
+   "definition": "Standard enthalpy of bond dissociation is the heat to break a bond in gaseous state; of combustion is heat released on burning one mole; of formation is heat to form one mole from elements; of atomization is heat to form gaseous atoms from the substance.",
+   "formula": "delta_H_rxn = sum_bonds_broken - sum_bonds_formed",
+   "key_idea": "Different standard enthalpy changes describe specific chemical and physical transformations under standard conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the enthalpy of reaction using bond enthalpies",
+    "define standard enthalpy of combustion with an example",
+    "calculate the enthalpy of formation of a compound",
+    "what is the enthalpy of atomization",
+    "estimate delta_H using average bond enthalpies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list bonds broken and formed",
+     "explain": "Identify all bonds broken in reactants and all bonds formed in products with their bond enthalpies.",
+     "compute": "sum_bond_enthalpy_reactants"
+    },
+    {
+     "step": 2,
+     "action": "sum bond enthalpies of products",
+     "explain": "Add the bond enthalpies of all new bonds formed in the products.",
+     "compute": "sum_bond_enthalpy_products"
+    },
+    {
+     "step": 3,
+     "action": "calculate reaction enthalpy",
+     "explain": "Reaction enthalpy equals energy to break bonds minus energy released forming bonds.",
+     "compute": "bonds_broken - bonds_formed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate delta_H for H2(g)+Cl2(g)->2HCl(g). Bond enthalpies: H-H=436, Cl-Cl=242, H-Cl=431 kJ/mol.",
+     "solution": "Bonds broken: H-H + Cl-Cl = 436 + 242 = 678 kJ. Bonds formed: 2*H-Cl = 2*431 = 862 kJ. delta_H = 678 - 862 = -184 kJ.",
+     "answer": "delta_H = -184 kJ"
+    },
+    {
+     "question": "Estimate delta_H for CH4(g)+2O2(g)->CO2(g)+2H2O(g). Bond enthalpies: C-H=413, O=O=498, C=O=745, O-H=463 kJ/mol.",
+     "solution": "Bonds broken: 4*C-H + 2*O=O = 4*413 + 2*498 = 1652 + 996 = 2648 kJ. Bonds formed: 2*C=O + 4*O-H = 2*745 + 4*463 = 1490 + 1852 = 3342 kJ. delta_H = 2648 - 3342 = -694 kJ.",
+     "answer": "delta_H = -694 kJ"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate delta_H for N2(g)+3H2(g)->2NH3(g). Bond enthalpies: N-N=163, H-H=436, N-H=391 kJ/mol.",
+     "type": "compute"
+    },
+    {
+     "question": "Define standard enthalpy of formation and standard enthalpy of combustion with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is enthalpy of atomization? Give an example for NaCl(s).",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.9",
+   "title": "Second Law of Thermodynamics and Entropy",
+   "section": "5.9",
+   "definition": "The second law states that the total entropy of the universe always increases for a spontaneous process. Entropy is a measure of disorder or randomness in a system.",
+   "formula": "delta_S_universe = delta_S_system + delta_S_surroundings > 0",
+   "key_idea": "Spontaneous processes proceed in the direction of increasing total entropy of the universe.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state and explain the second law of thermodynamics",
+    "calculate the entropy change for a process",
+    "predict whether a process is spontaneous from entropy change",
+    "what is entropy and how is it related to disorder",
+    "calculate delta S for phase transition at constant temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute entropy change of system",
+     "explain": "For a reversible process at constant temperature, entropy change equals heat transferred divided by temperature.",
+     "compute": "q_rev / t"
+    },
+    {
+     "step": 2,
+     "action": "compute entropy change of surroundings",
+     "explain": "The surroundings absorb or release heat equal and opposite to the system at the surroundings temperature.",
+     "compute": "-q / t_surr"
+    },
+    {
+     "step": 3,
+     "action": "determine spontaneity from total entropy",
+     "explain": "If the total entropy change of the universe is positive the process is spontaneous; if negative it is non-spontaneous.",
+     "compute": "delta_s_system + delta_s_surroundings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate delta_S when 1 mol of water vaporizes at 100 C. delta_H_vap = 40.7 kJ/mol.",
+     "solution": "T = 373 K. delta_S = q_rev / T = 40700 / 373 = 109.1 J/K/mol.",
+     "answer": "delta_S = 109.1 J/K/mol"
+    },
+    {
+     "question": "A system absorbs 500 J at 300 K reversibly. The surroundings are at 300 K. Find delta_S_universe.",
+     "solution": "delta_S_system = 500/300 = 1.67 J/K. delta_S_surroundings = -500/300 = -1.67 J/K. delta_S_universe = 1.67 - 1.67 = 0 (reversible).",
+     "answer": "delta_S_universe = 0 (reversible process)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate delta_S for melting 2 mol of ice at 0 C (delta_H_fus = 6.0 kJ/mol).",
+     "type": "compute"
+    },
+    {
+     "question": "State the second law of thermodynamics and define entropy.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why the entropy of the universe increases in a spontaneous process.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.5.10",
+   "title": "Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics",
+   "section": "5.10",
+   "definition": "Gibbs energy G = H - TS predicts spontaneity at constant temperature and pressure: delta_G < 0 is spontaneous, delta_G > 0 is non-spontaneous, delta_G = 0 is at equilibrium. The third law states the entropy of a perfect crystal at 0 K is zero.",
+   "formula": "delta_G = delta_H - T * delta_S",
+   "key_idea": "Gibbs energy combines enthalpy and entropy into a single criterion for spontaneity; the third law provides an absolute reference for entropy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate delta_G and predict spontaneity",
+    "determine whether a reaction is spontaneous at a given temperature",
+    "state the third law of thermodynamics",
+    "find the temperature at which a reaction becomes spontaneous",
+    "explain the relationship between delta_G delta_H and delta_S"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute delta_H and delta_S",
+     "explain": "Obtain the enthalpy and entropy changes for the process from tabulated data or given values."
+    },
+    {
+     "step": 2,
+     "action": "apply Gibbs equation",
+     "explain": "Subtract the product of temperature and entropy change from the enthalpy change.",
+     "compute": "delta_h - t * delta_s"
+    },
+    {
+     "step": 3,
+     "action": "interpret the sign of delta_G",
+     "explain": "Negative delta_G means spontaneous, positive means non-spontaneous, zero means equilibrium. The temperature at which delta_G = 0 is T = delta_H / delta_S.",
+     "compute": "delta_h / delta_s"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "For a reaction delta_H = -50 kJ and delta_S = -100 J/K at 300 K. Is it spontaneous?",
+     "solution": "delta_G = delta_H - T*delta_S = -50000 - 300*(-100) = -50000 + 30000 = -20000 J = -20 kJ. Since delta_G < 0, spontaneous.",
+     "answer": "delta_G = -20 kJ; spontaneous"
+    },
+    {
+     "question": "A reaction has delta_H = 40 kJ and delta_S = 120 J/K. Find the temperature above which it becomes spontaneous.",
+     "solution": "Set delta_G = 0: T = delta_H / delta_S = 40000 / 120 = 333.3 K. Above 333.3 K, delta_G becomes negative.",
+     "answer": "T = 333.3 K (spontaneous above this temperature)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "delta_H = -90 kJ, delta_S = -0.2 kJ/K, T = 400 K. Calculate delta_G and predict spontaneity.",
+     "type": "compute"
+    },
+    {
+     "question": "State the third law of thermodynamics and explain its significance for absolute entropy.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how Gibbs energy serves as a criterion for spontaneity at constant T and P.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "generated catalog for Class 11 Chemistry Chapter 5 Chemical Thermodynamics",
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

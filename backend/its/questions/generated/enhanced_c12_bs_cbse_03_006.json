@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_006",
+   "title": "c12_bs_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define 'political environment' and 'legal environment' as dimensions of business environment. Give one example of each.",
+     "a": "Political environment includes political stability, government ideology, and attitudes of elected representatives toward business (e.g., a new government announcing a 'Make in India' push). Legal environment includes all legislations, administrative orders, and court judgments governing business (e.g., the Companies Act, 2013). A wrong answer that merges the two (e.g., \"political environment is the laws made by politicians\") reveals confusion between the *source* of policy (political) and the *codified rules* (legal).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The legal environment only consists of laws passed by Parliament.\" Explain why this statement is incomplete. Cite two specific types of legal instruments from the NCERT text that are not Acts of Parliament but are part of the legal environment.",
+     "a": "The legal environment also includes administrative orders issued by government authorities, court judgments, and decisions rendered by commissions and agencies at every level (centre, state, local). Examples: (1) a notification by the Ministry of Environment under the Environment Protection Act, and (2) a Supreme Court judgment on industrial pollution. If the student misses these, they hold a narrow 'statute-only' view that fails in case-based questions where regulatory notifications or judicial precedents drive compliance.",
+     "self_check": true
+    },
+    {
+     "q": "A foreign company wants to set up a 100% owned subsidiary in India to manufacture medical devices. Identify three specific political environment factors and two specific legal environment requirements it must evaluate before investing.",
+     "a": "Political factors: (1) Stability of the central government and its tenure, (2) Ruling party's ideology on foreign investment in healthcare, (3) Centre-state relations affecting land acquisition and labor laws in the chosen state. Legal requirements: (1) Compliance with the Companies Act, 2013 for incorporation, (2) Adherence to the Drugs and Cosmetics Act and Medical Device Rules for manufacturing licenses. A wrong answer that lists only generic factors (\"government policy\") without naming the specific Acts or political nuances shows inability to apply the concepts to a real investment decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a change in the political environment (e.g., a new government reversing a privatization decision) versus a change in the legal environment (e.g., amendment to the Competition Act increasing penalties for anti-competitive agreements) on an established private sector monopoly. Which creates more immediate operational disruption? Justify.",
+     "a": "A legal change (amended Competition Act) creates more immediate operational disruption because it imposes *direct, enforceable obligations* with penalties — the firm must instantly alter pricing, distribution, or M&A strategies to avoid fines. A political change (reversal of privatization) signals *future policy direction* but may take months to translate into legislation or executive action. Students who equate the two miss the distinction between *binding legal force* and *policy intent* — a critical difference in case studies asking for \"immediate compliance steps.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Since the legal environment is mandatory, a business should focus only on legal compliance and ignore the political environment.\" Use the concept of 'early warning signals' from the textbook.",
+     "a": "The statement is flawed. The political environment provides *early warning signals* about *future* legal changes — e.g., a ruling party's election manifesto promising stricter environmental norms allows firms to invest in green technology *before* the law is enacted. Ignoring politics means reacting to laws after they pass, losing first-mover advantage and facing higher adaptation costs. Students who treat legal as \"only what matters\" fail to see that politics is the *upstream driver* of law — a key point in long-answer questions on strategic planning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page 'Political-Legal Radar' template that a mid-sized Indian manufacturer could use quarterly to track changes. Specify four political indicators and four legal indicators, each with a concrete source (e.g., \"PIB releases\" for political, \"Gazette notifications\" for legal).",
+     "a": "A good template includes:\nPolitical: (1) Ruling party's policy announcements — source: PIB/party manifesto; (2) State CM's industry statements — source: state government portals; (3) Parliamentary committee reports on relevant sector — source: Lok Sabha/Rajya Sabha websites; (4) International relations affecting trade — source: MEA briefings.\nLegal: (1) New Bills/Acts passed — source: Gazette of India; (2) Ministry notifications/circulars — source: concerned ministry website; (3) Key court/tribunal judgments — source: Indian Kanoon/SCC Online; (4) Regulatory authority orders (SEBI, CCI, FSSAI) — source: respective regulator websites.\nA poor answer lists vague items like \"news\" without specific sources, showing no grasp of actionable monitoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

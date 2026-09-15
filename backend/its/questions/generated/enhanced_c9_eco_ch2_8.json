@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_8",
+   "title": "c9_eco_ch2_8",
+   "questions": [
+    {
+     "q": "State the Law of Supply and describe the shape of the supply curve it implies.",
+     "a": "The Law of Supply states that, ceteris paribus, as the price of a good rises, the quantity supplied rises, and as the price falls, the quantity supplied falls. This direct relationship implies an upward-sloping supply curve from left to right. A wrong answer (e.g., \"downward sloping\" or \"vertical\") reveals the student is confusing supply with demand or confusing \"supply\" (the curve) with \"quantity supplied\" (a point on the curve).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the supply curve slope upward? Explain using the concept of marginal cost.",
+     "a": "The supply curve slopes upward because of increasing marginal costs. As a firm increases output, it eventually uses less efficient inputs or faces diminishing returns, raising the cost of each additional unit (marginal cost). A higher market price is needed to cover this higher marginal cost and make the extra unit profitable. If a student says \"because producers are greedy\" or \"because demand increases,\" they are confusing profit motive with the cost-side constraint that drives the upward slope.",
+     "self_check": true
+    },
+    {
+     "q": "A bicycle factory in Ludhiana supplies 100 bicycles per week at ₹5,000 each. When the price rises to ₹6,000, it supplies 130 bicycles. Plot these two points on a graph (Price on Y-axis, Quantity on X-axis) and calculate the slope of the supply curve between these points. What does the positive slope signify economically?",
+     "a": "Step 1: Identify points: (Q=100, P=5000) and (Q=130, P=6000).\nStep 2: Slope = ΔP/ΔQ = (6000-5000)/(130-100) = 1000/30 = 33.33.\nStep 3: The positive slope (33.33) means for every additional bicycle supplied, the price must rise by ₹33.33 to cover the rising marginal cost.\nStep 4: Economically, it signifies that higher output requires higher prices to compensate for increasing marginal costs (e.g., overtime wages, machine wear). A wrong slope sign (negative) indicates the student plotted axes incorrectly or thinks supply behaves like demand.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) The price of steel rises, causing a car manufacturer to reduce output at every price. (B) The market price of cars rises due to a festive season demand surge, causing the manufacturer to increase output. Which scenario represents a movement ALONG the supply curve and which represents a SHIFT of the supply curve? Justify.",
+     "a": "Scenario B is a movement ALONG the supply curve (change in quantity supplied) because only the own price of the good changed. Scenario A is a SHIFT of the supply curve (change in supply) because an input price (steel) changed, altering production costs at every possible car price. If the student reverses them, they confuse \"change in quantity supplied\" (price-induced) with \"change in supply\" (non-price determinant induced).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An upward-sloping supply curve means that if the government sets a price ceiling below the equilibrium price, producers will supply more to meet the shortage.\" Is this correct? Why or why not?",
+     "a": "The statement is incorrect. An upward-sloping supply curve means that at a LOWER price (price ceiling), producers will supply LESS, not more, because the price no longer covers the marginal cost of the last units. This worsens the shortage. A student agreeing with the statement confuses the direction of the relationship: they think \"upward slope = more supply at any price\" rather than \"higher price needed for more supply.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world example of a supply schedule for a street food vendor (e.g., samosa seller) showing at least 4 price-quantity combinations that yield an upward-sloping curve. Explain why the vendor's marginal cost rises as quantity increases.",
+     "a": "Example schedule: Price ₹10 → 50 samosas; ₹12 → 70; ₹15 → 85; ₹18 → 95. Marginal cost rises because: (1) extra oil/gas for frying, (2) hiring a helper at higher hourly wage for overtime, (3) buying potatoes from a farther, more expensive supplier when local stock runs out. A poor answer lists quantities that don't increase with price or cites \"greed\" instead of rising input costs/time constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

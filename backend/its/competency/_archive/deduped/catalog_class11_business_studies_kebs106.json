@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 106,
+ "chapter_title": "Social Responsibilities of Business and Business Ethics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs106.txt",
+ "concepts": [
+  {
+   "id": "kebs.106.1.1",
+   "title": "Concept and Kinds of Social Responsibility",
+   "section": "Social responsibility",
+   "definition": "Social responsibility of business is its obligation to act in ways that serve the interests of society along with its own interests, covering economic, legal, ethical and discretionary responsibilities towards owners, employees, consumers, government and community.",
+   "formula": "",
+   "key_idea": "Business uses society's resources, so it owes quality goods, fair prices, safe jobs and clean environment back to its stakeholders.",
+   "textbook_ref": "kebs106.txt concept of social responsibility section",
+   "question_patterns": [
+    "define social responsibility of business",
+    "state the kinds of responsibility towards different groups",
+    "what responsibility does business have towards employees",
+    "how is business responsible towards consumers and government",
+    "differentiate economic legal and ethical responsibility",
+    "why should business be socially responsible"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stakeholder",
+     "explain": "Name the group owed the responsibility."
+    },
+    {
+     "step": 2,
+     "action": "classify the obligation",
+     "explain": "Separate economic, legal, ethical and discretionary duties."
+    },
+    {
+     "step": 3,
+     "action": "state the action",
+     "explain": "Describe what the business should do for that group."
+    }
+   ]
+  },
+  {
+   "id": "kebs.106.2.1",
+   "title": "Need for Social Responsibility and Its Arguments",
+   "section": "Need for social responsibility",
+   "definition": "Business owes its existence to society and uses its resources, public expectations demand responsible conduct, long term self interest and avoidance of government regulation support responsibility, and the arguments against it of profit motive violation, burden on consumers and lack of social skills are outweighed by the reality of social power.",
+   "formula": "",
+   "key_idea": "Reality of social power, public expectations, moral justification and long run self interest together press business towards responsibility.",
+   "textbook_ref": "kebs106.txt arguments section",
+   "question_patterns": [
+    "give arguments for social responsibility of business",
+    "what arguments are given against social responsibility",
+    "how does social responsibility serve long term self interest",
+    "why is avoidance of government regulation an argument for responsibility",
+    "explain the reality of social power of business",
+    "does responsibility burden the consumers explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate for and against",
+     "explain": "List the supporting and opposing arguments."
+    },
+    {
+     "step": 2,
+     "action": "test each argument",
+     "explain": "Check the logic of each position."
+    },
+    {
+     "step": 3,
+     "action": "conclude the need",
+     "explain": "State why responsible conduct ultimately helps business."
+    }
+   ]
+  },
+  {
+   "id": "kebs.106.3.1",
+   "title": "Business Ethics: Elements and Social Responsibility of Environmental Protection",
+   "section": "Business ethics",
+   "definition": "Business ethics are the moral principles governing business conduct, based on elements like top management commitment, publication of a code, establishment of compliance mechanism, employee involvement and measuring results, and environmental protection is now a central social responsibility with laws on pollution control.",
+   "formula": "",
+   "key_idea": "Ethical conduct goes beyond law: it asks what is right, and a written code with compliance machinery turns ethics into daily behaviour.",
+   "textbook_ref": "kebs106.txt business ethics section",
+   "question_patterns": [
+    "define business ethics and its elements",
+    "why is top management commitment necessary for ethics",
+    "what is a code of ethics in business",
+    "explain the responsibility of business towards environment",
+    "state the measures for environmental protection by business",
+    "how do ethics differ from law"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the ethical elements",
+     "explain": "List the six elements that build ethical business conduct."
+    },
+    {
+     "step": 2,
+     "action": "apply to the situation",
+     "explain": "Judge whether the conduct follows the code."
+    },
+    {
+     "step": 3,
+     "action": "add the environmental duty",
+     "explain": "Note pollution control and resource conservation duties."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs106.txt exercises",
+   "questions": [
+    "What do you understand by social responsibility of business?",
+    "State the responsibility of business towards consumers.",
+    "Explain the elements of business ethics.",
+    "Give arguments for and against social responsibility.",
+    "What steps can business take for environmental protection?"
+   ]
+  }
+ ]
+}

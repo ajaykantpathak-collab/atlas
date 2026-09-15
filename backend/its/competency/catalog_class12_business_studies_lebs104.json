@@ -1,0 +1,477 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 104,
+  "chapter_title": "Planning",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.104.1.1",
+      "title": "Concept of Planning",
+      "section": "1.1",
+      "definition": "The managerial function of settling in advance both the targets to be pursued and the route to reach them, so that the distance between an organisation's present position and its desired one is crossed deliberately.",
+      "formula": "",
+      "key_idea": "Planning handles ends and means together: it fixes objectives for a period, drafts alternative courses of action, and picks the best among them.",
+      "textbook_ref": "lebs104.txt lines 90-159 (Concept; deciding in advance; ends and means)",
+      "question_patterns": [
+        "what is meant by planning",
+        "define planning and state its main aspects",
+        "planning bridges the gap between where we are and where we want to go explain",
+        "how does planning deal with both ends and means",
+        "why is planning called a basic managerial function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Open with the core meaning",
+          "explain": "Planning means deciding in advance what is to be done and how it is to be done."
+        },
+        {
+          "step": 2,
+          "action": "Bring in objectives and courses of action",
+          "explain": "Targets are set for a period, alternative routes are drafted, and the most suitable route is chosen."
+        },
+        {
+          "step": 3,
+          "action": "Note the gap it bridges",
+          "explain": "Planning carries the organisation from its current position toward the position it wants to occupy."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.2.1",
+      "title": "Importance of Planning",
+      "section": "2.1",
+      "definition": "The benefits the function delivers: it gives every unit a common direction, lowers the danger from uncertainty through forecasts, trims duplicated and useless work, turns fresh ideas into concrete plans, sharpens decision making, and supplies the yardsticks that controlling later measures against.",
+      "formula": "",
+      "key_idea": "Six benefits -- direction, less uncertainty, less overlapping, innovation, better decisions, standards for controlling; planning is the prerequisite of controlling.",
+      "textbook_ref": "lebs104.txt lines 160-315 (Importance i to vi)",
+      "question_patterns": [
+        "explain the importance of planning for an organisation",
+        "how does planning provide direction to employees",
+        "planning reduces the risks of uncertainty justify",
+        "in what sense is planning a prerequisite for controlling",
+        "how does planning reduce overlapping and wasteful activities",
+        "which benefit of planning helps managers choose among alternatives"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Pick the benefit the question targets",
+          "explain": "Recall the six standard benefits of planning."
+        },
+        {
+          "step": 2,
+          "action": "Explain how the benefit arises",
+          "explain": "For example, forecasts prepared during planning anticipate changes so that responses are ready in advance."
+        },
+        {
+          "step": 3,
+          "action": "State the consequence of not planning",
+          "explain": "Without plans, employees drift in different directions and deviations cannot even be detected."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.3.1",
+      "title": "Features of Planning",
+      "section": "3.1",
+      "definition": "Seven marks of the function: it exists to reach objectives, comes before every other managerial function, runs at all levels and departments, never stops, peers into the future through forecasting, demands a choice among alternatives, and stays an intellectual exercise rather than physical doing.",
+      "formula": "",
+      "key_idea": "Primacy means all other functions operate inside the frame the plan sets; pervasiveness means top plans the whole firm, middle plans departments, supervisors plan daily operations.",
+      "textbook_ref": "lebs104.txt lines 316-503 (Features i to vii)",
+      "question_patterns": [
+        "state the features of planning",
+        "why is planning called the primary function of management",
+        "planning is pervasive explain with levels of management",
+        "planning is a mental exercise comment",
+        "why does planning involve decision making",
+        "planning is futuristic and continuous justify this statement"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the feature the case shows",
+          "explain": "Team from all levels brainstorming shows pervasiveness; forecasting demand shows the futuristic feature."
+        },
+        {
+          "step": 2,
+          "action": "Explain that feature in a line",
+          "explain": "For instance, planning being continuous means each plan is followed by another on fresh conditions."
+        },
+        {
+          "step": 3,
+          "action": "Quote the case evidence",
+          "explain": "Link the case detail explicitly to the named feature."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.4.1",
+      "title": "Limitations of Planning",
+      "section": "4.1",
+      "definition": "The drawbacks of the function: fixed plans can turn rigid when circumstances move, a shifting environment defeats forecasts, lower levels lose their creative voice, preparing plans costs heavy money and time, and even an old winning plan offers no promise of repeating its success.",
+      "formula": "",
+      "key_idea": "Six limitations -- rigidity, dynamic environment, reduced creativity, huge cost, time consumption, no guarantee of success.",
+      "textbook_ref": "lebs104.txt lines 504-643 (Limitations i to vi)",
+      "question_patterns": [
+        "state the limitations of planning",
+        "planning leads to rigidity explain",
+        "why does planning not guarantee success",
+        "planning reduces creativity of subordinates discuss",
+        "can planning work in a changing environment give a reason",
+        "why is planning called a time consuming and costly process"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the limitation in question",
+          "explain": "Match the case or statement to the standard list of six limitations."
+        },
+        {
+          "step": 2,
+          "action": "Explain the drawback",
+          "explain": "For example, following a pre-decided plan after circumstances have changed can harm the organisation."
+        },
+        {
+          "step": 3,
+          "action": "Balance the verdict",
+          "explain": "Planning is still worth doing -- a tool to use with caution, not a cure for every problem."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.5.1",
+      "title": "Steps in the Planning Process",
+      "section": "5.1",
+      "definition": "Seven ordered steps: fix the objectives, build the premises or assumptions about the future, list every possible course of action, weigh each against feasibility and consequence, choose the best one, put it into action, and monitor how it runs.",
+      "formula": "",
+      "key_idea": "The real decision point arrives at selecting an alternative; a sales manager drafting option lists is performing the identifying-alternatives step.",
+      "textbook_ref": "lebs104.txt lines 644-936 (Planning Process i to vii)",
+      "question_patterns": [
+        "explain the steps in the planning process",
+        "what are premises in planning why must all managers share them",
+        "a manager prepared a list of options to reach an objective which step is this",
+        "which step of planning is called the real point of decision making",
+        "why is follow up action part of the planning process",
+        "what happens during the implementation of a plan"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the case act in the sequence",
+          "explain": "Setting objectives, developing premises, identifying alternatives, evaluating them, selecting, implementing, follow-up."
+        },
+        {
+          "step": 2,
+          "action": "Name that step",
+          "explain": "For instance, drafting options like new markets or more advertising is identifying alternative courses of action."
+        },
+        {
+          "step": 3,
+          "action": "Describe what that step involves",
+          "explain": "One or two lines on the work done at that step and why it matters."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.6.1",
+      "title": "Single-use versus Standing Plans",
+      "section": "6.1",
+      "definition": "Two families of operational plans: single-use plans serve one non-repeating event or project and cover budgets, programmes and projects, while standing plans handle activities that recur regularly and cover policies, procedures, methods and rules.",
+      "formula": "",
+      "key_idea": "The test is repetition -- a seminar next month needs a single-use plan; e-payment for all daily bills is a standing rule.",
+      "textbook_ref": "lebs104.txt lines 937-1009 (Single-use and standing plans, their contents)",
+      "question_patterns": [
+        "distinguish between single use plans and standing plans",
+        "a firm decides all payments will be made by e transfer identify the type of plan",
+        "name the plans included in single use and standing plans",
+        "why is a budget called a single use plan",
+        "which type of plan suits a one day event and why",
+        "classify policy procedure method and rule as a type of plan"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ask whether the situation repeats",
+          "explain": "One-time project points to a single-use plan; recurring activity points to a standing plan."
+        },
+        {
+          "step": 2,
+          "action": "Name the specific plan type",
+          "explain": "Single-use: budget, programme, project. Standing: policy, procedure, method, rule."
+        },
+        {
+          "step": 3,
+          "action": "Justify with the definition",
+          "explain": "For example, a rule states exactly what must be done with no discretion, and applies every day."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.6.2",
+      "title": "Objectives and Strategy",
+      "section": "6.2",
+      "definition": "Objectives are the end results an organisation wants to reach, stated measurably and within a time limit; strategy is the comprehensive top-level plan that combines long-run objectives, the chosen course of action, and the allocation of resources needed, all read against the environment and competition.",
+      "formula": "",
+      "key_idea": "Strategy has three dimensions -- determine long-term objectives, adopt a course of action, allocate resources; objectives are the end points everything else serves.",
+      "textbook_ref": "lebs104.txt lines 1035-1136 (Objectives; Strategy and its three dimensions)",
+      "question_patterns": [
+        "define objectives as a type of plan",
+        "what is a strategy state its three dimensions",
+        "which strategic decisions does a company take for its future",
+        "how do objectives differ from strategy in planning",
+        "why must a strategy consider the business environment",
+        "a firm refreshes its prepaid plan against a rival name the type of plan and its dimensions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the plan type named",
+          "explain": "Objectives give the desired future position; strategy gives the comprehensive route."
+        },
+        {
+          "step": 2,
+          "action": "List strategy's three dimensions when asked",
+          "explain": "Long-term objectives, the course of action adopted, and the resources allocated."
+        },
+        {
+          "step": 3,
+          "action": "Anchor with the case",
+          "explain": "A telecom firm doubling daily data on a prepaid plan against a rival illustrates a competitive strategy move."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.6.3",
+      "title": "Policy, Procedure, Method and Rule",
+      "section": "6.3",
+      "definition": "The ladder of standing plans: a policy is a general statement that channels thinking and leaves room for discretion, a procedure spells the chronological steps inside that policy, a method prescribes how one step of a procedure is performed, and a rule is a blunt specific command admitting no discretion at all.",
+      "formula": "",
+      "key_idea": "Discretion shrinks down the ladder -- widest under policy, narrow at procedure, technical at method, zero at rule.",
+      "textbook_ref": "lebs104.txt lines 1137-1248 (Policy, Procedure, Method, Rule)",
+      "question_patterns": [
+        "differentiate between policy and procedure",
+        "why are rules considered to be plans",
+        "distinguish between method and procedure",
+        "which type of plan allows a manager to use discretion",
+        "give one example each of policy procedure method and rule",
+        "a company decides to buy all supplies from registered vendors which plan type is this"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Place the plan on the ladder",
+          "explain": "Policy guides thinking, procedure sequences the steps, method handles one step, rule commands exactly."
+        },
+        {
+          "step": 2,
+          "action": "Compare the discretion allowed",
+          "explain": "Policies invite interpretation; rules allow none -- that contrast answers most such questions."
+        },
+        {
+          "step": 3,
+          "action": "Add one fresh example per type",
+          "explain": "Pricing policy, requisition procedure, lecture method of training, reporting time rule."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.6.4",
+      "title": "Programme and Budget as Plans",
+      "section": "6.4",
+      "definition": "A programme is the detailed project statement that bundles objectives, policies, procedures, rules, tasks, resources and the money allotted, while a budget is a plan expressed purely in numbers so that actual figures can later be compared with expected ones and corrected.",
+      "formula": "",
+      "key_idea": "A budget quantifies a plan and doubles as a control device -- deviations of actual from budgeted figures stand out immediately.",
+      "textbook_ref": "lebs104.txt lines 1249-1295 (Programme; Budget as a numerical plan and control device)",
+      "question_patterns": [
+        "what is a budget and why is it also called a control device",
+        "how does a programme differ from a budget in planning",
+        "which type of plan states expected results in numerical terms",
+        "a forecast of expected sales of different products each month is which type of plan",
+        "what details does a programme include for implementing a project"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define each plan type",
+          "explain": "Programme: the whole project bundle in detail. Budget: the plan in numbers."
+        },
+        {
+          "step": 2,
+          "action": "Show the control role of a budget",
+          "explain": "Because every item is quantified, actual results are set against expected ones and deviations invite corrective action."
+        },
+        {
+          "step": 3,
+          "action": "Anchor with an example",
+          "explain": "A monthly product-wise sales forecast or a worker requirement at peak production are typical budgets."
+        }
+      ]
+    },
+    {
+      "id": "lebs.104.6.5",
+      "title": "Cash Budget -- Surplus or Deficiency",
+      "section": "6.4",
+      "definition": "A period statement of the cash a firm expects to collect and the cash it expects to pay; netting the two reveals whether the firm will sit on spare cash or fall short and need to arrange funds.",
+      "formula": "net_cash_position = cash_inflows - cash_outflows",
+      "key_idea": "Collections below payments mean a deficiency to finance; spare cash sitting idle earns almost nothing, so the firm sizes its cash need with care.",
+      "textbook_ref": "lebs104.txt lines 1296-1318 (cash budget: estimated inflows and outflows, surplus or deficiency)",
+      "question_patterns": [
+        "a firm expects cash receipts of {cash_inflows} and cash payments of {cash_outflows} this quarter work out its closing cash surplus or deficiency",
+        "will the firm be cash rich or cash short if budgeted receipts are {cash_inflows} against payments of {cash_outflows}",
+        "compute the net cash position from the quarter's expected collections and payments",
+        "how much spare cash or shortfall results when receipts of {cash_inflows} meet payments of {cash_outflows}",
+        "why must a firm plan its cash needs instead of holding idle balances"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the collections estimate",
+          "explain": "Expected cash sales and similar receipts are listed for the period.",
+          "compute": "receipts = cash_inflows"
+        },
+        {
+          "step": 2,
+          "action": "Net the payments off",
+          "explain": "A positive figure is a surplus to deploy; a negative one is a deficiency that must be financed.",
+          "compute": "net_cash_position = receipts - cash_outflows"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Cash Budget -- Surplus or Deficiency, compute the result for cash_inflows = 3, cash_outflows = 3.",
+          "solution": "Step 1: Take the collections estimate: receipts = cash_inflows = 3.0 Step 2: Net the payments off: net_cash_position = receipts - cash_outflows = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Cash Budget -- Surplus or Deficiency, compute the result for cash_inflows = 4, cash_outflows = 4.",
+          "solution": "Step 1: Take the collections estimate: receipts = cash_inflows = 4.0 Step 2: Net the payments off: net_cash_position = receipts - cash_outflows = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs104.txt lines 1296-1318 (cash budget illustration)",
+      "concept": "lebs.104.6.4",
+      "question_type": "compute",
+      "question_pattern": "A firm budgets cash receipts of {cash_inflows} and cash payments of {cash_outflows} for the quarter. Work out the net cash position.",
+      "extracted_variables": {
+        "cash_inflows": 500000,
+        "cash_outflows": 420000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Collect the two estimates",
+          "explain": "Budgeted receipts Rs 500000; budgeted payments Rs 420000.",
+          "compute": "receipts = cash_inflows"
+        },
+        {
+          "step": 2,
+          "action": "Subtract payments from receipts",
+          "explain": "500000 minus 420000 leaves a surplus of Rs 80000.",
+          "compute": "net_cash_position = receipts - cash_outflows"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs104.txt lines 1388-1396 (Rama Stationery Mart exercise)",
+      "concept": "lebs.104.6.1",
+      "question_type": "verify_property",
+      "question_pattern": "A stationery shop decides that all payments will be made only through e-transfer. Identify the type of plan adopted.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Ask whether the situation repeats",
+          "explain": "Payments recur daily, so the plan is a standing plan, not a single-use one."
+        },
+        {
+          "step": 2,
+          "action": "Name the specific type",
+          "explain": "A fixed command with no discretion is a rule."
+        },
+        {
+          "step": 3,
+          "action": "State the conclusion",
+          "explain": "The shop has adopted a standing plan in the form of a rule."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs104.txt lines 1382-1396 (sales manager proposal exercise)",
+      "concept": "lebs.104.5.1",
+      "question_type": "verify_property",
+      "question_pattern": "A sales manager asked to lift market share from 10 to 25 per cent submits options: new markets, wider product range, rebates and more advertising. Which step of the planning process has she performed?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Match the act to the step list",
+          "explain": "She has already received the objective and now lists the possible routes."
+        },
+        {
+          "step": 2,
+          "action": "Name the step",
+          "explain": "This is identifying alternative courses of action."
+        },
+        {
+          "step": 3,
+          "action": "Justify",
+          "explain": "Listing new markets, product range and sales promotion options is exactly the generation of alternatives that precedes evaluation and selection."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex104_vsa",
+      "source_ref": "lebs104.txt lines 1378-1405 (Very Short Answer Type)",
+      "questions": [
+        "How does planning provide direction?",
+        "A sales manager preparing to lift market share from 10 to 25 per cent lists options: new markets, wider product range, rebates, discounts, more advertising. Which step of the planning process has been performed?",
+        "Why are rules considered to be plans?",
+        "Rama Stationery Mart decides to make all payments by e-transfers only. Identify the type of plan.",
+        "Can planning work in a changing environment? Give a reason."
+      ]
+    },
+    {
+      "id": "ex104_sa",
+      "source_ref": "lebs104.txt lines 1406-1431 (Short Answer Type)",
+      "questions": [
+        "What are the main aspects in the definition of planning?",
+        "If planning involves working out details for the future, why does it not ensure success?",
+        "What kind of strategic decisions are taken by business organisations?",
+        "Planning reduces creativity. Critically comment.",
+        "Bharti Airtel refreshed its Rs 149 prepaid plan to offer 2 GB data per day against a rival's onslaught. Name the type of plan highlighted and state its three dimensions.",
+        "State the type of plan and whether single use or standing: (a) a plan that also serves as a controlling device, (b) a plan based on research and analysis concerned with physical and technical tasks."
+      ]
+    },
+    {
+      "id": "ex104_la",
+      "source_ref": "lebs104.txt lines 1432-1459 (Long Answer Type)",
+      "questions": [
+        "Why is it that organisations are not always able to accomplish all their objectives?",
+        "What are the steps taken by management in the planning process?",
+        "Auto company C Ltd faces declining share from price-sensitive rivals and plans new models with added features; a cross-level team brainstorms implementation steps. Explain the features of planning highlighted."
+      ]
+    }
+  ]
+}

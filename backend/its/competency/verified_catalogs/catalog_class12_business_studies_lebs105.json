@@ -1,0 +1,547 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 105,
+  "chapter_title": "Organising",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.105.1.1",
+      "title": "Meaning of Organising",
+      "section": "1.1",
+      "definition": "The managerial process that puts plans into motion by spelling out jobs and working relationships and by deploying people and resources so that the intended results are actually achieved.",
+      "formula": "",
+      "key_idea": "It coordinates human effort, gathers resources and welds the two into one working whole for the stated objectives.",
+      "textbook_ref": "lebs105.txt lines 150-187 (Meaning; school fete example; definitions by Louis Allen and Theo Haimann)",
+      "question_patterns": [
+        "what is meant by organising as a function of management",
+        "define organising and explain how it initiates implementation of plans",
+        "how does organising coordinate human efforts and resources",
+        "why is organising called a means to turn plans into action",
+        "explain organising with the example of arranging a school event"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the core meaning",
+          "explain": "Organising coordinates efforts, assembles resources and integrates them into a unified whole for the stated goals."
+        },
+        {
+          "step": 2,
+          "action": "Link it to implementation",
+          "explain": "Plans stay on paper until jobs, relationships and resources are arranged -- that arrangement is organising."
+        },
+        {
+          "step": 3,
+          "action": "Illustrate briefly",
+          "explain": "A school fete run through food, decoration and ticketing committees under one coordinator shows the function at work."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.2.1",
+      "title": "Steps in the Process of Organising",
+      "section": "2.1",
+      "definition": "Four ordered steps: split the total work into manageable activities, group similar activities into departments, hand each post its duties matched to the person's competence, and settle who reports to whom by fixing authority relationships.",
+      "formula": "",
+      "key_idea": "Departmentalisation can rest on territory or product; the last step builds the hierarchy that later channels coordination.",
+      "textbook_ref": "lebs105.txt lines 188-309 (Steps i to iv: division of work, departmentalisation, assignment of duties, reporting relationships)",
+      "question_patterns": [
+        "what are the steps in the process of organising",
+        "explain departmentalisation as a step of organising",
+        "why must duties be assigned according to the ability of employees",
+        "what happens after the work is divided into manageable activities",
+        "why is establishing reporting relationships the last step of organising"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the four steps in order",
+          "explain": "Identification and division of work, departmentalisation, assignment of duties, establishing authority and reporting relationships."
+        },
+        {
+          "step": 2,
+          "action": "Explain each step in a line",
+          "explain": "Divide to avoid duplication, group similar work for specialisation, match jobs to skills, then settle reporting lines."
+        },
+        {
+          "step": 3,
+          "action": "Note the outcome",
+          "explain": "Together the steps create a hierarchical structure that enables coordination among departments."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.2.2",
+      "title": "Importance of Organising",
+      "section": "2.2",
+      "definition": "The payoffs of doing the function well: routine tasks build worker specialisation, reporting lines become unambiguous, resources stop being duplicated, the structure can bend with the environment, administration runs clearly, people grow through delegation, and the firm gains room to expand and diversify.",
+      "formula": "",
+      "key_idea": "Seven benefits -- specialisation, clarity in working relationships, optimum resource use, adaptation to change, effective administration, development of personnel, expansion and growth.",
+      "textbook_ref": "lebs105.txt lines 310-475 (Importance i to vii)",
+      "question_patterns": [
+        "explain the importance of organising for a business enterprise",
+        "how does organising lead to benefits of specialisation",
+        "which benefit of organising helps a firm adjust to a changing environment",
+        "how does organising help in the development of personnel",
+        "organising facilitates expansion and growth justify",
+        "how does organising bring clarity in working relationships"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Select the benefit in question",
+          "explain": "Recall the seven standard benefits of organising."
+        },
+        {
+          "step": 2,
+          "action": "Explain the mechanism",
+          "explain": "For instance, delegation inside a sound structure frees managers for growth work while training subordinates."
+        },
+        {
+          "step": 3,
+          "action": "Connect to survival and growth",
+          "explain": "Well-organised firms absorb environmental change and keep growing; badly organised ones stall."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.3.1",
+      "title": "Organisation Structure and Span of Management",
+      "section": "3.1",
+      "definition": "The frame inside which a firm's managerial and operating tasks are carried out, mapping the relationships among people, work and resources; the span of management -- how many subordinates one superior can effectively supervise -- decides how many levels the structure will carry.",
+      "formula": "",
+      "key_idea": "As firms grow, coordination needs a reviewed structure; a wrong structure, Drucker warns, can wreck performance.",
+      "textbook_ref": "lebs105.txt lines 476-584 (Organisation Structure; span of management; travel agency example)",
+      "question_patterns": [
+        "what is meant by organisation structure",
+        "define span of management and state its effect on the structure",
+        "why does a growing enterprise need to review its organisation structure",
+        "how does an organisation chart show authority and responsibility",
+        "what does the framework of an organisation specify"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the structure",
+          "explain": "It is the framework for managerial and operating tasks, specifying relationships between people, work and resources."
+        },
+        {
+          "step": 2,
+          "action": "Define the span",
+          "explain": "Span of management is the number of subordinates a superior can effectively manage; it fixes the number of levels."
+        },
+        {
+          "step": 3,
+          "action": "Apply to growth",
+          "explain": "With size and new functions, coordination suffers unless the structure is redesigned -- as the travel agency division into operations, sales and administration shows."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.3.2",
+      "title": "Functional Structure",
+      "section": "3.2",
+      "definition": "A design that groups jobs of a similar nature into separate departments such as production, purchase, marketing, accounts and personnel, all reporting to one coordinating head.",
+      "formula": "",
+      "key_idea": "Strengths: specialisation, easy training, minimal duplication and economies of scale. Weaknesses: functional empires, inter-department conflict and narrow outlook; it suits large firms needing deep specialisation.",
+      "textbook_ref": "lebs105.txt lines 595-722 (Functional structure, advantages a-f, disadvantages a-d, suitability)",
+      "question_patterns": [
+        "what is a functional structure of organisation",
+        "state any two circumstances under which the functional structure is appropriate",
+        "explain the advantages of a functional structure",
+        "what are the disadvantages of grouping jobs by functions",
+        "why does a functional structure make training of employees easier",
+        "how can a functional structure create functional empires"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the design",
+          "explain": "Similar and related jobs are grouped under one major function, each function becoming a department."
+        },
+        {
+          "step": 2,
+          "action": "Weigh its merits",
+          "explain": "Specialisation, control within departments, efficiency, low duplication, simpler training, attention to every function."
+        },
+        {
+          "step": 3,
+          "action": "Note the demerits and fit",
+          "explain": "Departmental interest can trump organisational interest; coordination across functions is hard. It fits large, specialised operations."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.3.3",
+      "title": "Divisional Structure",
+      "section": "3.3",
+      "definition": "A design built from separate self-contained business units, one per product line or market, each headed by a divisional manager who owns the unit's performance and runs its own production, marketing and finance functions as a profit centre.",
+      "formula": "",
+      "key_idea": "Merits: product specialisation, accountability for profits, faster decisions, easy expansion. Demerits: inter-division conflict over funds, costly duplication of functions, powerful heads; it suits multi-product enterprises.",
+      "textbook_ref": "lebs105.txt lines 723-902 (Divisional structure, advantages a-d, disadvantages a-c, suitability, comparison table)",
+      "question_patterns": [
+        "what is a divisional structure of organisation",
+        "why is each division called a profit centre",
+        "a cosmetics firm adds a footwear and a garments line which structure suits it",
+        "compare the functional and divisional structures on cost and coordination",
+        "how does a divisional structure help in fixing responsibility for performance",
+        "state the disadvantages of a divisional structure"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the design",
+          "explain": "Separate divisions are formed for each product line, each multifunctional and self-contained."
+        },
+        {
+          "step": 2,
+          "action": "Weigh its merits",
+          "explain": "Divisional heads grow versatile, profits are traceable to each unit, decisions come fast, new divisions slot in without disturbing the rest."
+        },
+        {
+          "step": 3,
+          "action": "Note the demerits and fit",
+          "explain": "Divisions may fight over funds and duplicate functions at extra cost; the design fits firms with many varied products."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.4.1",
+      "title": "Formal Organisation",
+      "section": "4.1",
+      "definition": "The deliberately designed structure of authority and responsibility that management creates to get its plans carried out, with clear boundaries of who reports to whom and rules that guide conduct.",
+      "formula": "",
+      "key_idea": "It puts work above personal ties, keeps unity of command and stability, but can breed procedural delays and stiffle creativity; its structure may be functional or divisional.",
+      "textbook_ref": "lebs105.txt lines 1078-1238 (Formal organisation: meaning, features a-e, advantages, limitations)",
+      "question_patterns": [
+        "what is meant by formal organisation",
+        "state the features of a formal organisation",
+        "explain the advantages and limitations of formal organisation",
+        "why can a formal organisation lead to procedural delays",
+        "who designs the formal structure and for what purpose",
+        "how does the formal organisation maintain unity of command"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the concept",
+          "explain": "It is the management-designed structure specifying authority, responsibility and reporting lines for achieving set objectives."
+        },
+        {
+          "step": 2,
+          "action": "List the features",
+          "explain": "Defined interrelationships among positions, a means to plan achievement, coordination of departments, deliberate design, work over personalities."
+        },
+        {
+          "step": 3,
+          "action": "Balance merits and demerits",
+          "explain": "Fixable responsibility, no role ambiguity, stability -- against procedural delay and little room for creative deviation."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.4.2",
+      "title": "Informal Organisation",
+      "section": "4.2",
+      "definition": "The web of personal and social relationships that springs up by itself when colleagues interact beyond their official roles -- lunch groups, cricket circles, gossip networks -- with no written rules and no fixed direction of communication.",
+      "formula": "",
+      "key_idea": "It arises from within the formal structure, obeys group norms rather than rules, and can speed information and satisfy social needs -- or spread rumours and resist change; management is advised to work with it, not against it.",
+      "textbook_ref": "lebs105.txt lines 1239-1423 (Informal organisation: meaning, features a-e, comparison, advantages, disadvantages)",
+      "question_patterns": [
+        "what is meant by informal organisation",
+        "identify the network of social relationships arising spontaneously due to interaction at work",
+        "how does the informal organisation support the formal organisation",
+        "state the features of informal organisation",
+        "what are the disadvantages of informal organisation for management",
+        "compare formal and informal organisations on the basis of origin and communication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the concept",
+          "explain": "Informal organisation is the spontaneous network of interpersonal relations formed out of workplace interaction."
+        },
+        {
+          "step": 2,
+          "action": "Contrast with the formal structure",
+          "explain": "Origin from social interaction rather than rules; authority from personal qualities; communication flows any which way."
+        },
+        {
+          "step": 3,
+          "action": "Weigh its role",
+          "explain": "Fast feedback, belongingness, filling formal gaps -- against rumour, resistance to change and pressure to conform."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.5.1",
+      "title": "Delegation and Its Three Elements",
+      "section": "5.1",
+      "definition": "The downward handover of authority by a superior to his subordinate, resting on three elements: authority, the right to command and decide; responsibility, the duty to perform the assigned task; and accountability, answerability for the final outcome, which can never be passed on.",
+      "formula": "",
+      "key_idea": "Authority is delegated, responsibility is assumed, accountability is imposed -- authority flows down, responsibility and accountability flow up; delegation is never abdication.",
+      "textbook_ref": "lebs105.txt lines 1424-1639 (Delegation; elements: authority, responsibility, accountability; overview table)",
+      "question_patterns": [
+        "what is meant by delegation of authority",
+        "discuss the elements of delegation",
+        "which element of delegation can never be delegated and why",
+        "distinguish between authority responsibility and accountability on the basis of flow",
+        "why is delegation not the same as abdication",
+        "what happens when authority granted is not commensurate with responsibility"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define delegation",
+          "explain": "It is the downward transfer of authority from superior to subordinate so the manager is free for higher-priority work."
+        },
+        {
+          "step": 2,
+          "action": "Explain the three elements",
+          "explain": "Authority: the right to act and command, flowing downward. Responsibility: the obligation to perform, flowing upward. Accountability: answerability for the result, also upward and non-transferable."
+        },
+        {
+          "step": 3,
+          "action": "State the balance rule",
+          "explain": "Authority must match responsibility -- surplus authority invites misuse, surplus responsibility renders a person ineffective."
+        },
+        {
+          "step": 4,
+          "action": "Close with the classic line",
+          "explain": "Authority is delegated, responsibility is assumed, accountability is imposed or created."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.5.2",
+      "title": "Importance of Delegation",
+      "section": "5.1",
+      "definition": "Why handing authority down pays: managers escape routine work and manage better, subordinates grow into future leaders, employees feel trusted and motivated, expansion gets a ready cadre, the hierarchy itself stands on delegated authority, and duties stop overlapping.",
+      "formula": "",
+      "key_idea": "Six benefits -- effective management, employee development, motivation, facilitation of growth, basis of management hierarchy, better coordination.",
+      "textbook_ref": "lebs105.txt lines 1640-1743 (Importance of Delegation i to vi)",
+      "question_patterns": [
+        "why is delegation considered essential for effective organising",
+        "how does delegation develop employees for higher positions",
+        "explain the importance of delegation for a manager",
+        "how does delegation motivate employees",
+        "in what way does delegation form the basis of the management hierarchy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Pick the benefit asked",
+          "explain": "Recall the six standard benefits of delegation."
+        },
+        {
+          "step": 2,
+          "action": "Explain its working",
+          "explain": "Entrusting a task signals trust, builds the subordinate's self-esteem and frees the manager's time."
+        },
+        {
+          "step": 3,
+          "action": "Tie to the larger picture",
+          "explain": "Delegation underpins coordination and growth, so it is a key element of effective organising."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.6.1",
+      "title": "Decentralisation and Its Importance",
+      "section": "6.1",
+      "definition": "The systematic spread of decision-making authority to every level of the organisation, placing decisions nearest the action; it treats dispersal of authority as a philosophy of trust in people's competence rather than a mere handover of tasks.",
+      "formula": "",
+      "key_idea": "Six benefits -- initiative among subordinates, managerial talent for the future, quicker decisions, relief to top management, facilitation of growth, better control; applied without balance it risks disintegration.",
+      "textbook_ref": "lebs105.txt lines 1744-2042 (Decentralisation; centralisation and decentralisation as relative terms; importance i to vi)",
+      "question_patterns": [
+        "what is meant by decentralisation",
+        "why would an organisation choose to decentralise explain the importance",
+        "how does decentralisation develop managerial talent for the future",
+        "decentralisation helps in quick decision making justify",
+        "how does decentralisation give relief to top management",
+        "can an organisation be completely centralised or decentralised give your view"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the concept",
+          "explain": "Decentralisation is delegation of authority spread through all levels, so decision points sit closest to operations."
+        },
+        {
+          "step": 2,
+          "action": "State its relative nature",
+          "explain": "Complete centralisation or complete decentralisation is unrealistic; every firm mixes the two, drifting toward decentralisation as it grows."
+        },
+        {
+          "step": 3,
+          "action": "List the benefits",
+          "explain": "Initiative, managerial talent, speed of decisions, top-management relief, growth and better control -- with caution against disintegration."
+        }
+      ]
+    },
+    {
+      "id": "lebs.105.6.2",
+      "title": "Delegation versus Decentralisation",
+      "section": "6.1",
+      "definition": "Delegation is the compulsory, day-to-day act of a superior passing authority to an immediate subordinate to lighten his own burden, while decentralisation is an optional top-management policy that extends delegation to the lowest levels to widen subordinates' autonomy.",
+      "formula": "",
+      "key_idea": "Compare on five bases -- nature (compulsory act versus optional policy), freedom of action, status (process versus result of policy), scope (narrow, two persons versus organisation-wide), purpose (relief of the manager versus enlarged role of subordinates).",
+      "textbook_ref": "lebs105.txt lines 2070-2123 (Delegation and Decentralisation comparative view)",
+      "question_patterns": [
+        "distinguish between delegation and decentralisation",
+        "decentralisation is extending delegation to the lowest levels comment",
+        "why is delegation compulsory while decentralisation is optional",
+        "compare delegation and decentralisation on the basis of scope and purpose",
+        "which of the two is a policy decision of the top management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Set the bases of comparison",
+          "explain": "Nature, freedom of action, status, scope and purpose."
+        },
+        {
+          "step": 2,
+          "action": "Place each concept per basis",
+          "explain": "Delegation: compulsory act, more control, a process, narrow scope, aims at lessening the manager's burden. Decentralisation: optional policy, greater freedom, the outcome of policy, widest scope, aims at enlarging the subordinate's role."
+        },
+        {
+          "step": 3,
+          "action": "State the relationship",
+          "explain": "Decentralisation is delegation carried through the whole organisation -- the former rests on the latter."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs105.txt lines 2205-2211 (Neha's shoes factory exercise)",
+      "concept": "lebs.105.3.3",
+      "question_type": "verify_property",
+      "question_pattern": "A shoe maker plans to diversify into leather bags and western formal wear to serve working women as one-stop provider. Which structure would you recommend for the expanded firm and why?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Read the diversification",
+          "explain": "Several distinct product lines point to a divisional structure."
+        },
+        {
+          "step": 2,
+          "action": "Recommend and justify",
+          "explain": "Each product can become a self-contained division with its own functions, so responsibility for profits is fixed and new lines can be added freely."
+        },
+        {
+          "step": 3,
+          "action": "Name the expected benefits",
+          "explain": "Product specialisation, flexibility, fast decisions and easy expansion of the product range."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs105.txt lines 2223-2227 (production manager and foreman exercise)",
+      "concept": "lebs.105.5.1",
+      "question_type": "verify_property",
+      "question_pattern": "A production manager sets a 200-unit daily target for the foreman but gives him no authority to requisition tools and materials. Can the manager blame the foreman for missing the target?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Test the balance rule",
+          "explain": "Responsibility without matching authority renders a person ineffective."
+        },
+        {
+          "step": 2,
+          "action": "Apply to the case",
+          "explain": "The foreman holds the duty to deliver 200 units but lacks the authority to draw tools and materials, so the pairing is broken."
+        },
+        {
+          "step": 3,
+          "action": "State the conclusion",
+          "explain": "No -- the manager cannot fairly blame the foreman, because authority granted was not commensurate with the responsibility assigned."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs105.txt lines 2248-2260 (sewing machines company exercise)",
+      "concept": "lebs.105.4.2",
+      "question_type": "verify_property",
+      "question_pattern": "An old sewing machines firm run wholly on formal lines suffers slow decisions, red tape for grievances and high turnover. What change should it bring and what will it gain?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Diagnose the cause",
+          "explain": "Total dependence on formal channels brings procedural delay and suppresses voice -- the formal structure's known limitations."
+        },
+        {
+          "step": 2,
+          "action": "Recommend the change",
+          "explain": "Encourage the informal organisation alongside the formal one, and loosen the structure for faster flow."
+        },
+        {
+          "step": 3,
+          "action": "List the gains",
+          "explain": "Quicker feedback, satisfaction of social needs, fewer grievances bottled in red tape, lower turnover and better adaptation."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex105_vsa",
+      "source_ref": "lebs105.txt lines 2178-2189 (Very Short Answer Type)",
+      "questions": [
+        "Identify the network of social relationships which arises spontaneously due to interaction at work.",
+        "What does the term span of management refer to?",
+        "State any two circumstances under which the functional structure will prove to be an appropriate choice.",
+        "Draw a diagram depicting a functional structure.",
+        "A company has its registered office in Delhi, a manufacturing unit at Gurgaon and marketing and sales at Faridabad, making consumer products. Which type of organisational structure should it adopt to achieve its target?"
+      ]
+    },
+    {
+      "id": "ex105_sa",
+      "source_ref": "lebs105.txt lines 2190-2227 (Short Answer Type)",
+      "questions": [
+        "What are the steps in the process of organising?",
+        "Discuss the elements of delegation.",
+        "How does informal organisation support the formal organisation?",
+        "Can a large sized organisation be totally centralised or decentralised? Give your opinion.",
+        "Decentralisation is extending delegation to the lowest level. Comment.",
+        "Neha's shoe factory plans to diversify into leather bags and western formal wear. Which type of structure would you recommend for the expanded organisation and why?",
+        "A production manager sets the foreman a 200-unit target but gives no authority to requisition tools and materials. Can the manager blame the foreman for missing the target? Give reasons."
+      ]
+    },
+    {
+      "id": "ex105_la",
+      "source_ref": "lebs105.txt lines 2228-2279 (Long Answer Type)",
+      "questions": [
+        "Why is delegation considered essential for effective organising?",
+        "What is a divisional structure? Discuss its advantages and limitations.",
+        "Decentralisation is an optional policy. Explain why an organisation would choose to be decentralised.",
+        "Distinguish between centralisation and decentralisation.",
+        "How is a functional structure different from a divisional structure?",
+        "A toy maker with a functional structure wants to diversify into electronic toys with an emerging market. Which structure should be adopted and what benefits will follow?",
+        "A sewing machines company run wholly on formal culture faces delays, red tape and high turnover. Advise the structural changes needed and the benefits from them.",
+        "A cosmetics company with a highly centralised model lost share after 1991 liberalisation as MNCs entered. What structure changes should it make and how will they help?"
+      ]
+    }
+  ]
+}

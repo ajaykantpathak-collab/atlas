@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_11",
+   "title": "c9_bio_ch2_11",
+   "questions": [
+    {
+     "q": "Name the two major divisions of the human skeleton and state the total number of bones in each division for an adult human.",
+     "a": "The two divisions are the axial skeleton (80 bones) and the appendicular skeleton (126 bones). A wrong answer (e.g., saying axial has 126 bones) reveals the student has memorized numbers without understanding which bones belong to which division — they are recalling totals but cannot map bones to categories.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the clavicle (collar bone) is part of the axial skeleton because it lies horizontally across the upper chest near the sternum. Explain why this classification is biologically incorrect.",
+     "a": "The clavicle is part of the appendicular skeleton because it forms the pectoral girdle along with the scapula; its function is to brace the upper limb away from the thorax and transmit forces from the arm to the axial skeleton. A wrong answer (e.g., \"it's near the sternum so it's axial\") reveals the student classifies bones by anatomical location rather than developmental origin and functional grouping — they don't understand that girdles are appendicular because they connect limbs to the axis.",
+     "self_check": true
+    },
+    {
+     "q": "During a football match, a player fractures their right femur. Which skeletal division is injured, and how would this injury affect the body's weight-bearing ability differently than a fracture of a lumbar vertebra?",
+     "a": "The femur is an appendicular bone (lower limb); its fracture impairs locomotion and weight-bearing on that leg but the axial skeleton (spine) remains intact to maintain upright posture. A lumbar vertebra fracture is axial; it compromises the central weight-bearing column, risking spinal cord injury and making standing/sitting unstable. A wrong answer (e.g., \"both affect walking equally\") reveals the student doesn't distinguish the axial skeleton's role in central support/protection from the appendicular skeleton's role in limb-based movement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rib cage (axial) and the pelvic girdle (appendicular) in terms of bone composition, organ protection, and connection to limbs.",
+     "a": "Rib cage: 12 pairs of ribs + sternum (flat bones), forms a flexible thoracic cage protecting heart/lungs, no direct limb attachment. Pelvic girdle: two hip bones (each fused ilium, ischium, pubis), forms a rigid basin protecting reproductive/urinary organs, directly articulates with femurs via acetabulum. A wrong answer (e.g., \"both protect organs so they're similar\") reveals the student overlooks structural differences — the rib cage is expandable for breathing, while the pelvic girdle is fused for weight transfer; they miss the functional link between bone shape and division-specific role.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook diagram labels the hyoid bone as \"axial skeleton.\" Evaluate whether this classification is correct and justify your reasoning using the definition of axial skeleton.",
+     "a": "Correct. The hyoid bone is a U-shaped bone in the neck that does not articulate with any other bone; it is suspended by ligaments and muscles. It develops from the second pharyngeal arch and is considered part of the axial skeleton because it lies on the body's midline axis and supports the tongue/larynx — consistent with axial skeleton's role in central support and protection of airway structures. A wrong answer (e.g., \"it's in the neck so it's appendicular\") reveals the student thinks \"axial = only skull/vertebrae/ribs\" and doesn't apply the definition (midline, non-limb, protective/supportive) to atypical bones.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification activity using only a disarticulated human skeleton model (no labels) that would allow a Class 9 student to sort all 206 bones into axial and appendicular piles. List the step-by-step decision rules they would use.",
+     "a": "Step 1: Identify the skull, vertebral column, sternum, ribs — place in \"Axial\" pile. Step 2: Identify the two clavicles and two scapulae — place in \"Appendicular\" (pectoral girdle). Step 3: Identify all upper limb bones (humerus, radius, ulna, carpals, metacarpals, phalanges) — place in \"Appendicular\". Step 4: Identify the two hip bones (each fused ilium+ischium+pubis) — place in \"Appendicular\" (pelvic girdle). Step 5: Identify all lower limb bones (femur, patella, tibia, fibula, tarsals, metatarsals, phalanges) — place in \"Appendicular\". Step 6: Verify counts: Axial ~80, Appendicular ~126. A poor answer (e.g., \"sort by size\") reveals the student lacks a systematic anatomical decision framework and relies on superficial features rather than structural/functional criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

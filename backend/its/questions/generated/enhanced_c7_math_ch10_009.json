@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_009",
+   "title": "c7_math_ch10_009",
+   "questions": [
+    {
+     "q": "At 6:00 PM, the temperature in Shimla was 2 °C. By midnight, the temperature dropped by 5 °C. Which integer represents the temperature at midnight?",
+     "a": "The correct answer is -3 °C. \nA student who answers +3 °C has forgotten that dropping below zero results in a negative integer. A student who answers -7 °C has incorrectly subtracted the absolute values without considering the starting positive value.",
+     "self_check": true
+    },
+    {
+     "q": "A submarine is situated 450 metres below sea level. It ascends 120 metres. Explain why we use subtraction or addition of a negative number to find its new position, and what the sign of the new position signifies.",
+     "a": "The correct answer is that the initial position is -450 metres, and ascending means moving in the positive direction (upwards), so we add +120 metres (-450 + 120 = -330 metres). A student who simply subtracts 120 from 450 to get 330 metres forgets that the submarine is still below sea level, meaning the sign must remain negative to indicate depth.",
+     "self_check": true
+    },
+    {
+     "q": "A miner is working in a coal mine at an elevation of -65 metres. If he climbs up a ladder to a platform that is 25 metres above his current position, what is his new elevation?",
+     "a": "The correct answer is -40 metres. \nWorking steps:\n1. Identify the starting position: -65 metres.\n2. Identify the movement: climbing up means adding, so add +25 metres.\n3. Set up the expression: -65 + 25.\n4. Compute: |-65| - |25| = 40, and take the sign of the number with the larger absolute value (-), resulting in -40 metres.\nA student who answers +40 metres has ignored the initial negative sign of the starting position, treating -65 as a positive distance.",
+     "self_check": true
+    },
+    {
+     "q": "Two mountaineers start at different elevations. Mountaineer A is at an elevation of +1,200 metres, and Mountaineer B is at an elevation of -150 metres (in a deep gorge). Compare their elevations by finding the vertical distance between them, and explain how the choice of subtraction order affects the sign of the difference.",
+     "a": "The correct answer is 1,350 metres (or -1,350 metres depending on direction of subtraction). \nWorking: (+1200) - (-150) = 1200 + 150 = 1350 metres. \nA student who answers 1,050 metres has subtracted 150 directly from 1200 without accounting for the negative sign of the second elevation, failing to realize that subtracting a negative number is equivalent to adding its positive counterpart.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a temperature problem: \"The temperature started at -4 °C and rose by 7 °C. The student writes the calculation as: -4 - 7 = -11 °C.\" Judge whether this solution is correct and explain the error if any.",
+     "a": "The solution is incorrect. The student used subtraction (- 7) instead of addition (+ 7) for a temperature that \"rose\" (increased). The correct calculation is -4 + 7 = +3 °C. A student who defends the student's work does not understand that words like \"rose\" or \"increase\" dictate a positive change, regardless of the starting sign.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem involving an elevator moving between a skyscraper's top floor and an underground parking level that requires both addition and subtraction of integers, and provide its complete solution.",
+     "a": "Expected answer format: A problem where an elevator starts at floor +4, goes down 7 floors, then goes up 3 floors, ending at floor 0 (ground floor). A poor response would use only positive numbers or omit underground levels entirely, showing a failure to contextualize negative integers in real-world structures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_6",
+   "title": "c8_physics_ch2_6",
+   "questions": [
+    {
+     "q": "State Joule's Law in words and write its mathematical formula with SI units for each quantity.",
+     "a": "Joule's Law: The heat produced in a conductor is directly proportional to the square of the current passing through it, its resistance, and the time for which current flows. Formula: H = I²Rt, where H is heat in joules (J), I is current in amperes (A), R is resistance in ohms (Ω), and t is time in seconds (s). A wrong answer (e.g., H = I R t or missing the square) reveals the student does not understand that heat depends on the square of current, a critical non-linear relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the heat produced depend on the square of the current (I²) and not just on current (I)? Explain using the idea of electron collisions.",
+     "a": "Heat depends on I² because: (1) The number of electrons passing per second is proportional to I. (2) The kinetic energy each electron transfers per collision is also proportional to I (since drift velocity ∝ I). So total energy transferred per second (power) ∝ I × I = I². A wrong answer (e.g., \"more current means more electrons so more heat\") shows the student only sees the linear factor and misses that each electron also hits harder when current increases.",
+     "self_check": true
+    },
+    {
+     "q": "An electric kettle has a heating coil of resistance 25 Ω. If a current of 8 A flows through it for 3 minutes, calculate the heat produced in joules.",
+     "a": "Given: R = 25 Ω, I = 8 A, t = 3 min = 180 s.\nStep 1: Identify formula H = I²Rt.\nStep 2: Substitute: H = (8 A)² × 25 Ω × 180 s.\nStep 3: Compute: 64 × 25 × 180 = 288,000 J.\nStep 4: Unit check: A² × Ω × s = (C/s)² × (J·s/C²) × s = J. Correct.\nAnswer: 288,000 J (or 2.88 × 10⁵ J). A wrong answer (e.g., 36,000 J) suggests the student forgot to square the current or converted time incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical resistors are connected (a) in series and (b) in parallel across the same battery. In which arrangement is more heat produced per minute? Explain using Joule's Law.",
+     "a": "Parallel arrangement produces more heat. Reason: For the same battery voltage, equivalent resistance in parallel is lower (R/2) than in series (2R). Current from battery is higher in parallel (I = V/(R/2) = 2V/R) than in series (I = V/(2R)). Heat per minute H = I²R_eq t. For series: H_s = (V/(2R))² × (2R) × t = (V²/2R)t. For parallel: H_p = (2V/R)² × (R/2) × t = (2V²/R)t. H_p is 4 times H_s. A wrong answer (e.g., \"series because resistance is higher\") shows the student thinks heat increases with resistance alone, ignoring that current changes more dramatically.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates heat produced in a 10 Ω resistor with 2 A current for 5 minutes and gets 600 J. Evaluate if this answer is correct. If not, find the error.",
+     "a": "Correct calculation: H = I²Rt = (2)² × 10 × (5×60) = 4 × 10 × 300 = 12,000 J. The student's 600 J is wrong. Likely error: used time as 5 seconds instead of 5 minutes (4 × 10 × 5 = 200 J, not 600) or used H = I R t (2 × 10 × 300 = 6000 J). The exact 600 J suggests they did 2 × 10 × 30 = 600, maybe using 30 seconds? A wrong evaluation reveals the student cannot track units or spot the missing square on current.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a nichrome wire, and a thermometer to verify that heat produced is proportional to the square of the current. List the steps and what you would plot.",
+     "a": "Steps: (1) Set up a circuit with a battery, variable resistor (rheostat), ammeter, and a fixed length of nichrome wire immersed in a known mass of water in an insulated cup. (2) Adjust rheostat to get a current I₁, close switch for fixed time t, measure temperature rise Δθ₁. (3) Repeat for different currents I₂, I₃, etc., keeping t and water mass same. (4) Calculate heat H = mcΔθ for each. (5) Plot H vs I and H vs I². The H vs I² graph should be a straight line through origin. A poor answer (e.g., \"measure heat for different currents\" without controlling time, mass, or plotting I²) shows the student cannot design a controlled experiment to isolate the I² relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

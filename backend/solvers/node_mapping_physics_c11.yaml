@@ -1,0 +1,98 @@
+node_mapping:
+  phy_c11_001: [pt_001, pt_002, pt_003]
+  phy_c11_002: [pt_004, pt_005, pt_006, pt_007, pt_008]
+  phy_c11_003: [pt_009, pt_010, pt_011, pt_012, pt_013, pt_014]
+  phy_c11_004: [pt_015, pt_016, pt_017, pt_018, pt_019, pt_020, pt_021, pt_022, pt_023]
+  phy_c11_005: [pt_024, pt_025, pt_026, pt_027, pt_028, pt_029, pt_030, pt_031, pt_032]
+  phy_c11_006: [pt_033, pt_034, pt_035, pt_036, pt_037, pt_038]
+  phy_c11_007: [pt_039, pt_040, pt_041, pt_042, pt_043, pt_044]
+  phy_c11_008: [pt_045, pt_046, pt_047, pt_048, pt_049, pt_050, pt_051, pt_052]
+  phy_c11_009: [pt_053, pt_054, pt_055, pt_056, pt_057, pt_058, pt_059, pt_060, pt_061]
+  phy_c11_010: [pt_062, pt_063, pt_064, pt_065, pt_066, pt_067, pt_068]
+  phy_c11_011: [pt_069, pt_070, pt_071, pt_072, pt_073, pt_074, pt_075]
+  phy_c11_012: [pt_076, pt_077, pt_078, pt_079, pt_080, pt_081, pt_082, pt_083]
+
+problem_type_definitions:
+  pt_001: Dimensional_Analysis_Homogeneity
+  pt_002: Dimensional_Analysis_Constants
+  pt_003: Unit_Conversion
+  pt_004: Average_Velocity_Speed
+  pt_005: Instantaneous_Velocity
+  pt_006: Acceleration_Definition
+  pt_007: Equations_Of_Motion_UAM
+  pt_008: Graphs_Displacement_Velocity_Acceleration
+  pt_009: Free_Fall
+  pt_010: Projectile_Motion_Range
+  pt_011: Projectile_Motion_MaxHeight
+  pt_012: Projectile_Motion_TimeOfFlight
+  pt_013: Relative_Velocity_OneD
+  pt_014: Relative_Velocity_TwoD
+  pt_015: Newtons_First_Law_Inertia
+  pt_016: Newtons_Second_Law_Fma
+  pt_017: Newtons_Third_Law_ActionReaction
+  pt_018: Tension_And_Pulley
+  pt_019: Normal_Reaction_Force
+  pt_020: Friction_Static
+  pt_021: Friction_Kinetic
+  pt_022: Friction_AngleOfRepose
+  pt_023: Momentum_Definition
+  pt_024: Newtons_Laws_In_Words
+  pt_025: Impulse_Momentum
+  pt_026: Law_Of_Conservation_Of_Momentum
+  pt_027: Collision_Elastic
+  pt_028: Collision_Inelastic
+  pt_029: Recoil_Velocity
+  pt_030: Rocket_Propulsion
+  pt_031: Friction_Applications
+  pt_032: Pulley_Systems_Compound
+  pt_033: Work_Definition
+  pt_034: Work_By_Variable_Force
+  pt_035: Work_Energy_Theorem
+  pt_036: Kinetic_Energy
+  pt_037: Potential_Energy_Gravitational
+  pt_038: Potential_Energy_Spring
+  pt_039: Power_Definition
+  pt_040: Conservative_Forces
+  pt_041: NonConservative_Forces
+  pt_042: Conservation_Of_Mechanical_Energy
+  pt_043: Collision_EnergyAnalysis
+  pt_044: Coefficient_Of_Restitution
+  pt_045: Centre_Of_Mass_Definition
+  pt_046: Centre_Of_Mass_Systems
+  pt_047: Centre_Of_Mass_Motion
+  pt_048: Moment_Of_Inertia
+  pt_049: Theorem_Parallel_Axes
+  pt_050: Theorem_Perpendicular_Axes
+  pt_051: Torque
+  pt_052: Angular_Momentum
+  pt_053: Radius_Of_Gyration
+  pt_054: Rotational_Kinetic_Energy
+  pt_055: Work_By_Torque
+  pt_056: Angular_Momentum_Conservation
+  pt_057: Rolling_Motion
+  pt_058: Rolling_Vs_Sliding_Friction
+  pt_059: Moment_Of_Inertia_StandardBodies
+  pt_060: Angular_Impulse
+  pt_061: Centre_Of_Mass_Calculus
+  pt_062: Newtons_Law_Of_Gravitation
+  pt_063: Acceleration_Due_To_Gravity
+  pt_064: Gravity_Variation_Altitude
+  pt_065: Gravity_Variation_Depth
+  pt_066: Gravity_Variation_Latitude
+  pt_067: Escape_Velocity
+  pt_068: Satellite_Orbits
+  pt_069: Kepler_Laws
+  pt_070: Geostationary_Satellites
+  pt_071: Gravitational_Potential_Energy
+  pt_072: Gravitational_Potential
+  pt_073: Orbital_Velocity
+  pt_074: Polar_Satellites
+  pt_075: Weightlessness
+  pt_076: Elasticity_Definition
+  pt_077: Stress_Strain
+  pt_078: Hookes_Law
+  pt_079: Young_Modulus
+  pt_080: Bulk_Modulus
+  pt_081: Shear_Modulus_Rigidity
+  pt_082: StressStrain_Curve
+  pt_083: Poisson_Ratio

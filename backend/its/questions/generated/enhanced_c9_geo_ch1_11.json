@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_11",
+   "title": "c9_geo_ch1_11",
+   "questions": [
+    {
+     "q": "Define a wave-cut platform and state the specific coastal process responsible for its formation.",
+     "a": "A wave-cut platform is a flat, gently sloping rocky surface at the base of a sea cliff, formed by the erosional action of waves undercutting the cliff face through hydraulic action and abrasion, causing the cliff to retreat landward and leave the platform exposed at low tide. A wrong answer (e.g., \"formed by deposition of sand\" or \"created by wind\") reveals the student confuses erosional and depositional processes or misattributes the agent (wind vs. waves).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a spit forms at a river mouth but a tombolo forms between an island and the mainland, even though both are depositional landforms made of sand and shingle.",
+     "a": "A spit forms when longshore drift deposits sediment across a river mouth or bay where the coastline changes direction sharply, while a tombolo forms when wave refraction around an offshore island reduces wave energy in the lee, causing sediment to accumulate and connect the island to the mainland. A wrong answer (e.g., \"both form the same way\") reveals the student cannot distinguish how coastal geometry and wave refraction control depositional patterns.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) a major erosional coastal landform on the Western Coast, (b) a major depositional landform on the Eastern Coast, and (c) a city whose port is protected by a natural harbour formed by coastal processes. Justify each choice in one sentence.",
+     "a": "(a) Varkala cliffs (Kerala) - laterite sea cliffs formed by wave erosion on the Western Coast; (b) Chilika Lagoon (Odisha) - a large brackish water lagoon separated from the Bay of Bengal by a sandy barrier spit; (c) Mumbai - the natural harbour formed by the drowning of a river valley (ria) and protection by headlands. A wrong answer (e.g., marking a delta as erosional) reveals the student cannot match landform type to coastal process or identify Indian examples.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coastal management challenges faced by a fishing village on the Kerala coast (rocky headlands, pocket beaches) with those of a port city on the Odisha coast (deltaic, cyclone-prone). Identify two physical geography factors and one human factor that make their adaptation strategies different.",
+     "a": "Physical factors: Kerala's rocky headlands limit beach nourishment but provide natural protection, while Odisha's low-lying deltaic coast with wide continental shelf amplifies storm surges; Human factor: Kerala's high population density and tourism demand hard engineering (sea walls), whereas Odisha's cyclone shelters and mangrove restoration reflect disaster-risk reduction priorities. A wrong answer (e.g., \"both need sea walls\") reveals the student cannot link physical setting to appropriate human response.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Building sea walls is the most effective long-term solution to coastal erosion for all Indian coastal communities.\" Provide geographical reasoning for your judgment.",
+     "a": "The statement is false: sea walls reflect wave energy, accelerating beach loss in front of them and causing downdrift erosion (terminal groyne effect), making them unsustainable for sediment-starved coasts like parts of Odisha; soft engineering (beach nourishment, dune restoration) or managed retreat are more sustainable where sediment supply exists, as seen in Goa's dune management. A wrong answer (e.g., \"sea walls stop erosion completely\") reveals the student ignores sediment budgets and secondary effects of hard engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coastal zone management plan for a 20 km stretch of the Gujarat coast that includes a major port (Kandla), salt pans, mangrove patches, and fishing villages. Your plan must address: erosion control, livelihood protection, and biodiversity conservation. Annotate a sketch map with three zones and explain the landform-process reasoning for each.",
+     "a": "Zone 1 (Port headland): Rock armour revetment on erosional cliffs - hard engineering justified by high-value infrastructure and limited sediment supply; Zone 2 (Intertidal flats): Mangrove regeneration belt - uses depositional mudflats to attenuate waves, protect salt pans, and support fisheries; Zone 3 (Sandy beach villages): Beach nourishment + dune fencing + setback lines - works with longshore drift to maintain depositional beaches for tourism and fishing access. A poor answer (e.g., \"sea walls everywhere\") reveals the student cannot match management strategy to landform type and human use.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

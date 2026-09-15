@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_005",
+   "title": "c10_bio_cbse_01_005",
+   "questions": [
+    {
+     "q": "Name the enzyme present in saliva that acts on starch, state its substrate and product, and give the pH at which it works optimally.",
+     "a": "Salivary amylase (ptyalin) acts on starch (substrate) to produce maltose (product) at an optimal pH of 6.8. A wrong answer like \"pepsin acts on starch in the mouth at pH 2\" reveals confusion between salivary and gastric enzymes and their pH optima — a common board exam error where students mix up the site, enzyme, substrate, and pH.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why no significant digestion occurs in the oesophagus even though food passes through it.",
+     "a": "The oesophagus lacks digestive glands and enzymes; its wall has stratified squamous epithelium for protection and muscular layers for peristalsis only. A wrong answer like \"amylase continues working in the oesophagus\" shows the student does not understand that oesophageal transit is rapid (4–8 seconds) and the environment has no enzyme secretion — a trap in case-based questions where students assume digestion continues everywhere.",
+     "self_check": true
+    },
+    {
+     "q": "A student eats a meal rich in protein (dal) and starch (rice). Describe the fate of each nutrient in the stomach, naming the enzyme, its inactive precursor, the activator, and the product formed.",
+     "a": "In the stomach, pepsinogen (inactive precursor) is activated by HCl to pepsin, which digests proteins into peptones and polypeptides; salivary amylase is inactivated by the low pH (1.5–2.5), so starch digestion stops. A wrong answer like \"pepsin digests starch\" or \"amylase works in the stomach\" reveals failure to apply pH-enzyme specificity — a multi-step reasoning error costing 2–3 marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protective mechanisms in the mouth and stomach against self-digestion or damage. Why is the stomach at greater risk?",
+     "a": "The mouth has a neutral pH and no proteases, so minimal risk; the stomach secretes concentrated HCl and pepsin, which could digest its own wall, so it uses a thick mucus-bicarbonate barrier and rapid epithelial turnover. A wrong answer like \"saliva protects the stomach\" shows inability to analyze structure-function adaptation — the stomach's acidic, proteolytic environment demands active protection, a frequent assertion-reason question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a person has a blockage in the pancreatic duct, protein digestion in the stomach will be unaffected.\" Is it correct? Justify.",
+     "a": "Correct. Pancreatic duct blockage affects pancreatic juice (trypsin, chymotrypsin) reaching the small intestine, not gastric pepsin secretion. Stomach protein digestion depends on chief cells and parietal cells, not the pancreas. A wrong answer like \"protein digestion stops completely\" reveals confusion between gastric and pancreatic phases — a competency-based question testing system-level understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using readily available materials (test tubes, boiled rice, saliva, iodine solution) to demonstrate that salivary amylase digests starch. List the control and the observation that confirms digestion.",
+     "a": "Test tube A: rice paste + saliva + iodine → colour stays yellow-brown (starch digested). Test tube B (control): rice paste + boiled saliva (enzyme denatured) + iodine → blue-black colour (starch present). A poor answer omits the control or uses \"water\" instead of boiled saliva, showing the student does not grasp the need to isolate enzyme action — a practical-based question pattern in CBSE.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

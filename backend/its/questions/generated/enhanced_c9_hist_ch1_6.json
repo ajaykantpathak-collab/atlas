@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_6",
+   "title": "c9_hist_ch1_6",
+   "questions": [
+    {
+     "q": "What is the first step a historian takes when confronted with a new archaeological artefact, such as an undeciphered seal from the Harappan civilisation?",
+     "a": "The first step is **source identification and classification**: determining the object's material, provenance (find-spot), stratigraphic layer, and probable function (e.g., seal, weight, ornament). A wrong answer—like \"translating the script immediately\" or \"guessing the king's name\"—reveals the student thinks history begins with narrative rather than with rigorous description and contextual placement of the evidence itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why can historians not simply \"read\" the Harappan script like they read Ashoka's Brahmi edicts, even though both are ancient Indian writing systems?",
+     "a": "Ashoka's edicts are written in a known language (Prakrit) using a deciphered script (Brahmi), with bilingual parallels (Greek/Aramaic versions) that provided the key. The Harappan script remains undeciphered because: (1) no bilingual text exists, (2) the underlying language is unknown, (3) texts are extremely short (average 5 signs). A student who says \"both are old so both should be readable\" confuses *antiquity* with *decipherability* and misses the methodological requirement of a \"Rosetta Stone\" equivalent for cracking unknown scripts.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims \"The Mauryan empire had a highly centralised bureaucracy\" based on the Arthashastra. Using the skill of corroboration, what *two* other types of evidence would you seek to test this claim, and why?",
+     "a": "Seek (1) **Ashokan inscriptions** (rock/pillar edicts) — they show actual administrative orders, not just theoretical ideals, and reveal regional variation in implementation; (2) **Archaeological remains of administrative centres** (e.g., pillar capitals, Mauryan palace at Kumrahar) — material evidence of bureaucratic infrastructure. A student who only cites the Arthashastra again treats a prescriptive text as descriptive fact, failing to distinguish *normative theory* from *historical practice*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how historians interpret the *decline of the Harappan civilisation* versus the *decline of the Mauryan empire*. What difference in the *nature of evidence* forces different interpretive methods?",
+     "a": "Harappan decline relies on **archaeological/environmental evidence** (sediment cores, shifting river courses, settlement patterns) because no written records exist—interpretation is *hypothesis-driven* from material correlates. Mauryan decline uses **textual evidence** (Puranas, Buddhist/Jain chronicles, Greek accounts, inscriptions) allowing *event-driven* narratives (succession crises, provincial revolts). A student who lists \"invasions\" for both misses that the *epistemic basis* differs: one is inference from silence, the other from contested texts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Oral traditions are unreliable for writing history because they change over time.\" Use the example of the *Vedas* or *Sangam literature* to justify your position.",
+     "a": "The claim is **partially true but misleading**. Oral traditions *do* change, but historians don't treat them as static records—they analyse *layers of transmission*. The Vedas were preserved with extraordinary phonetic precision (śruti tradition) for millennia before writing, while Sangam poems show bardic conventions that preserve historical kernels (chieftain names, battles) amid poetic formulae. A student who dismisses all oral sources ignores that *written* sources also have biases (court chronicles glorify kings); the historian's task is to understand *how* each tradition transmits memory, not to reject a category outright.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-step \"interpretation chain\" showing how a historian moves from the discovery of a *single* punch-marked coin in a village in Tamil Nadu to a claim about Mauryan trade networks in South India.",
+     "a": "**Step 1 – Identification:** Classify the coin (silver, punch-marked symbols: sun, six-armed, hill, etc.), date it via typology (c. 3rd–2nd century BCE), and confirm Mauryan/early post-Mauryan attribution. **Step 2 – Provenance & Context:** Verify find-spot (stratigraphy, associated artefacts) to rule out later hoarding or trade displacement. **Step 3 – Corroboration:** Cross-reference with *other* finds (Roman coins at Arikamedu, Tamil-Brahmi inscriptions mentioning *Yavana* traders, Sangam poems describing pepper trade). **Step 4 – Contextualised Claim:** Argue that the coin *alone* proves only contact; *combined* with coastal ports, inscriptions, and texts, it supports a *sustained exchange network* linking the Gangetic core to Tamilakam. A poor answer stops at Step 1 (\"coin found = Mauryans ruled here\")—confusing presence with political control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

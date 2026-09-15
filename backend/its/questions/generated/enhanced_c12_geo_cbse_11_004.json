@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_004",
+   "title": "c12_geo_cbse_11_004",
+   "questions": [
+    {
+     "q": "According to recent data, what is the approximate share of agriculture and allied sectors in India's Gross Value Added (GVA) at current prices, and what percentage of the total workforce does it employ?",
+     "a": "Agriculture contributes ~14-18% to GVA and employs ~42-45% of the workforce. A wrong answer (e.g., \"50% GDP, 70% workforce\") reveals the student is recalling 1950s figures or confusing with pre-Independence structure, not understanding the structural transformation where GDP share declines faster than employment share — a classic indicator of low labour productivity in agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT text state that \"lack of access to land is directly correlated with incidence of poverty in rural areas\"? Explain the mechanism using the concept of land as a productive asset versus land as social security.",
+     "a": "Land serves triple role: (1) primary production factor in agriculture (unlike industry where capital dominates), (2) collateral for institutional credit (banks require land titles), (3) insurance against shocks (can be mortgaged/sold). Landless households lack all three — they become wage labourers with no bargaining power, no credit access, and no asset buffer. A wrong answer focusing only on \"land grows food\" misses the institutional dimensions (credit, status, risk management) that make land ownership a poverty trap breaker in rural India.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the cropping intensity for a district where Net Sown Area (NSA) is 1.2 lakh hectares and Gross Cropped Area (GCA) is 1.8 lakh hectares. If the district aims to raise cropping intensity to 180% without expanding NSA, how much additional GCA must be created? Show steps.",
+     "a": "Step 1: CI = (GCA/NSA) × 100 = (1.8/1.2) × 100 = 150%. Step 2: Target GCA = (Target CI × NSA)/100 = (180 × 1.2)/100 = 2.16 lakh ha. Step 3: Additional GCA needed = 2.16 - 1.8 = 0.36 lakh ha (36,000 ha). A wrong answer using NSA as denominator for additional area (e.g., 30% of NSA) reveals confusion between intensity ratio and absolute area — the student must distinguish percentage points from absolute hectares.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Punjab and Odisha: Punjab has 99% irrigated area, cropping intensity >190%, and average landholding 3.6 ha; Odisha has 33% irrigated area, cropping intensity ~140%, and average landholding 1.0 ha. Analyze how these differences explain the per hectare productivity gap (Punjab rice yield ~4,000 kg/ha vs Odisha ~1,500 kg/ha) and the per worker income gap.",
+     "a": "Punjab's high irrigation enables double/triple cropping (high CI), HYV seeds, and mechanization — raising land productivity. Large holdings allow economies of scale. Odisha's rainfed, small, fragmented holdings force subsistence farming with low CI, low input use, and high labour-per-hectare (disguised unemployment). The productivity gap is thus a land-water-technology-access gap, not just \"soil fertility\". A wrong answer attributing Punjab's success solely to \"better soil\" ignores the institutional-technological package (irrigation, credit, markets) that converts potential into yield.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Increasing cropping intensity is the only viable land-saving technology for India because the net sown area has plateaued at ~46% of reporting area.\" Consider environmental sustainability and employment generation.",
+     "a": "Partially true but incomplete. CI increase via multiple cropping (e.g., rice-wheat) has raised output but caused groundwater depletion (Punjab), soil nutrient mining, and stubble burning. Alternatives: (a) vertical intensification — intercropping, agroforestry (land-saving + ecological), (b) yield gap closure via precision farming (same land, more output per crop), (c) shifting to high-value crops (horticulture) — higher income per hectare without extra cropping cycles. Employment: multiple cropping absorbs more labour per year (good for labour-surplus), but mechanization of harvesting reduces it. A wrong \"yes/no\" answer misses the trade-offs between sustainability, employment, and income — the student must weigh multi-dimensional outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy package for a rainfed, smallholder-dominated district (avg holding 0.8 ha, CI 120%, 60% workforce in agriculture) to raise per worker income without expanding net sown area. Justify each point geographically.",
+     "a": "1) Watershed development + protective irrigation (farm ponds, check dams) — converts rainfed to supplementary irrigation, stabilizes yields, enables rabi crop (raises CI to 150%). 2) Farmer Producer Organization (FPO) for input bulk-buying and direct marketing — reduces transaction costs, improves price realization for smallholders. 3) Skill-linked non-farm employment (food processing, rural tourism) — absorbs disguised unemployed labour, diversifies household income. Geographically: rainfed regions have high yield gaps (water, not soil), small holdings need collective action for market power, and labour surplus requires off-farm outlets. A poor answer lists generic \"subsidies, insurance, MSP\" without linking to the district's specific constraints (rainfed, small, labour-surplus).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

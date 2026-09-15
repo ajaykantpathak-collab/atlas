@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_009",
+   "title": "c11_eco_cbse_08_009",
+   "questions": [
+    {
+     "q": "What were the two main components of the Great Leap Forward campaign launched in 1958 in China?",
+     "a": "The two main components were the establishment of backyard industries (especially small-scale steel furnaces) and the formation of rural people's communes for collective farming. A wrong answer that mentions \"household responsibility system\" or \"special economic zones\" reveals confusion between the 1958 collectivization drive and the 1978 market-oriented reforms, indicating the student cannot distinguish between the command-economy phase and the reform phase.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Great Leap Forward lead to a severe famine, and how did the withdrawal of Soviet aid exacerbate the situation?",
+     "a": "The Great Leap Forward diverted labour from agriculture to inefficient backyard steel production, while collective farming weakened work incentives, causing grain output to plummet; a severe drought (1959–61) turned this shortfall into a famine killing ~30 million. Soviet withdrawal of technical experts in 1960 halted industrial projects and cut off capital goods, deepening the crisis. A wrong answer blaming only drought or the later Cultural Revolution shows a misunderstanding of the policy-induced supply-side collapse and the role of foreign technology dependence in the pre-reform era.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.2 data, China's average annual GDP growth was 10.3% during 1980–90 and 6.8% during 2015–17. If China's GDP in 1980 was $300 billion (constant prices), calculate the approximate GDP in 1990 and 2017 assuming compound growth. What does the slowdown imply about the reform-driven growth model?",
+     "a": "Step 1: GDP_1990 = 300 × (1.103)^10 ≈ 300 × 2.66 ≈ $798 billion. Step 2: GDP_2017 = GDP_1990 × (1.068)^27 ≈ 798 × 5.78 ≈ $4,612 billion (approx). The slowdown from double-digit to mid-single-digit growth implies diminishing returns to extensive factor accumulation (capital, labour) and the need for productivity-driven growth, a typical \"middle-income transition\" challenge. A wrong answer using simple addition (e.g., 300 + 300×0.103×10) reveals inability to apply compound growth formula, a core quantitative skill for macroeconomic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural incentive structure under the Great Leap Forward's commune system with the 1978 Household Responsibility System. How did the change in residual claimancy affect productivity?",
+     "a": "Under communes, output was pooled and distributed equally, severing the link between individual effort and reward (zero marginal return to extra work). The Household Responsibility System gave households long-term use rights to land, required a fixed tax (quota), and allowed them to keep 100% of surplus, creating full marginal incentive. This shift from collective residual claimancy to household residual claimancy explains the sharp rise in agricultural productivity post-1978. A wrong answer stating \"land was privatized\" misstates the reform (ownership remained collective) and misses the institutional nuance of incentive design within socialist property rights.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"China's gradual, experimental reform approach (dual-track pricing, SEZs) was superior to the 'shock therapy' attempted in some transition economies.\" Use evidence from the 1978 reforms.",
+     "a": "The claim is largely supported. Dual-track pricing (fixed quota at plan prices, marginal output at market prices) avoided sudden price liberalization shocks, maintaining stability while allowing market signals to emerge at the margin. SEZs (e.g., Shenzhen) tested export-led industrialization in confined zones before national rollout. This incrementalism prevented the hyperinflation and output collapse seen in shock therapy (e.g., Russia 1990s). However, it created dual-price corruption and prolonged SOE inefficiencies. A wrong answer calling China's approach \"shock therapy\" or ignoring the costs of gradualism shows inability to weigh trade-offs in reform sequencing.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a three-point policy brief for a developing country deciding between \"big bang\" and gradual market liberalization, drawing lessons from both the Great Leap Forward's failure and the 1978 reforms' success.",
+     "a": "A strong brief would: (1) Pilot reforms in selected regions/sectors (like SEZs) to test outcomes before scaling; (2) Sequence reforms starting with agriculture (as China did in 1978) to release labour and generate surplus for industry; (3) Preserve basic social safety nets (e.g., food security) during transition to avoid GLF-type humanitarian crises. It must warn against forced collectivization and unrealistic targets. A poor answer offering generic \"market liberalization\" without linking to China's specific institutional innovations (dual-track, TVEs, HRS) shows failure to extract context-specific lessons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

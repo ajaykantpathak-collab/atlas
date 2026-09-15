@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_001",
+   "title": "c11_bio_cbse_15_001",
+   "questions": [
+    {
+     "q": "State the percentage composition of blood by volume for plasma and formed elements, and name the three major plasma proteins with one function each.",
+     "a": "Plasma constitutes 55% and formed elements 45% of blood volume. The three major plasma proteins are: (1) Fibrinogen — essential for blood clotting, (2) Globulins — primarily involved in defense/immunity, (3) Albumins — maintain osmotic balance of blood. A wrong answer (e.g., reversing percentages or confusing protein functions) reveals the student has memorized terms without understanding the quantitative composition or functional specialization of plasma proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Why are mammalian RBCs described as anucleate and biconcave, and how do these features relate to their 120-day lifespan and gas transport efficiency?",
+     "a": "Mammalian RBCs lose their nucleus during maturation to maximize intracellular space for hemoglobin (increasing O₂-carrying capacity) and adopt a biconcave shape that increases surface-area-to-volume ratio for rapid gas diffusion while providing flexibility to squeeze through capillaries. The absence of nucleus and organelles means they cannot synthesize new proteins or repair damage, limiting their lifespan to ~120 days after which they are removed by the spleen. A wrong answer (e.g., \"nucleus is lost to make them lighter\") shows the student cannot connect structural adaptations to physiological function and cellular limitations.",
+     "self_check": true
+    },
+    {
+     "q": "A patient's blood report shows: RBC count 3.5 million/mm³, WBC count 12,000/mm³ with 80% neutrophils, platelet count 80,000/mm³. Identify which values are abnormal and predict the likely clinical consequences for each abnormality.",
+     "a": "Abnormal values: (1) RBC 3.5 million/mm³ (low — normal 5-5.5 million) → anemia, reduced O₂ transport, fatigue; (2) WBC 12,000/mm³ (high — normal 6,000-8,000) with neutrophilia (80% vs normal 60-65%) → suggests acute bacterial infection or inflammation; (3) Platelets 80,000/mm³ (low — normal 1.5-3.5 lakh) → thrombocytopenia, risk of spontaneous bleeding and poor clotting. A wrong answer reveals inability to apply reference ranges clinically and correlate specific cell deficiencies/excesses with physiological consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of neutrophils, eosinophils, basophils, lymphocytes (B and T), and monocytes in the immune response. Which two are phagocytic, and which are involved in allergic responses?",
+     "a": "Neutrophils and monocytes are phagocytic (engulf pathogens). Basophils release histamine/heparin — mediate allergic/inflammatory responses. Eosinophils combat parasitic infections and modulate allergic reactions. B lymphocytes produce antibodies (humoral immunity); T lymphocytes mediate cell-mediated immunity. A wrong answer (e.g., confusing which cells are phagocytic or assigning antibody production to T cells) reveals failure to distinguish innate vs adaptive immunity and granulocyte vs agranulocyte functional specialization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Serum is simply plasma without fibrinogen.\" Is this accurate? Justify your answer with the biochemical definition of serum and its clinical significance.",
+     "a": "The statement is incomplete. Serum is plasma minus **all clotting factors** (not just fibrinogen), including prothrombin, Factors V, VIII, etc., which are consumed during the clotting cascade. Serum is the fluid remaining after blood has clotted. Clinically, serum is used for many diagnostic tests (electrolytes, hormones, antibodies) because it lacks clotting proteins that could interfere. A wrong evaluation reveals confusion between a single protein (fibrinogen) and the entire coagulation factor cascade, and ignorance of why serum is preferred over plasma for certain assays.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using a light microscope and Wright's stain to differentiate the five types of WBCs in a peripheral blood smear. What morphological features would you use to identify each type, and how would you calculate the differential leukocyte count?",
+     "a": "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil — multi-lobed nucleus (3-5 lobes), fine lilac granules; (2) Eosinophil — bi-lobed nucleus, large red-orange granules; (3) Basophil — S-shaped nucleus obscured by large dark purple granules; (4) Lymphocyte — large round nucleus, scant blue cytoplasm; (5) Monocyte — large kidney-shaped nucleus, abundant pale cytoplasm. Count 100 consecutive WBCs in a zigzag pattern, tally each type → percentage = differential count. A poor design (e.g., no staining details, counting <100 cells, not describing nuclear morphology) reveals lack of practical laboratory reasoning and quantitative skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

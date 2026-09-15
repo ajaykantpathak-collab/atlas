@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_6",
+   "title": "c9_bio_ch2_6",
+   "questions": [
+    {
+     "q": "Name the three main components of the extracellular matrix in connective tissue and state one function of each.",
+     "a": "The three main components are: (1) Collagen fibers — provide tensile strength and resist pulling forces; (2) Elastin fibers — provide elasticity and allow tissue to recoil after stretching; (3) Ground substance (gel-like matrix) — fills space, supports cells, and facilitates diffusion of nutrients and waste. A wrong answer (e.g., listing \"cells\" as a matrix component) reveals confusion between cellular and acellular parts of the tissue.",
+     "self_check": true
+    },
+    {
+     "q": "Why is blood classified as a connective tissue even though it flows and does not \"connect\" things like bone or cartilage?",
+     "a": "Blood is classified as connective tissue because it originates from mesenchyme (embryonic connective tissue), consists of cells (RBCs, WBCs, platelets) suspended in an extracellular matrix (plasma), and performs transport — a classic connective tissue function of connecting body systems by carrying nutrients, gases, and wastes. A wrong answer (e.g., \"because it is red\" or \"because it flows\") shows the student relies on superficial appearance rather than developmental origin and structural definition.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a deep cut that heals with a scar. Which type of connective tissue forms the scar, and why does it lack the flexibility of the original skin?",
+     "a": "Dense regular connective tissue (collagen-rich) forms the scar. During healing, fibroblasts rapidly deposit collagen fibers in parallel bundles to quickly restore tensile strength, but they do not recreate the original woven network of collagen and elastin found in the dermis (dense irregular connective tissue). Hence the scar is strong but less elastic. A wrong answer (e.g., \"areolar tissue\" or \"adipose tissue\") indicates inability to link fiber arrangement to mechanical properties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the matrix of hyaline cartilage and bone. How does the difference in matrix composition explain their different roles in the skeleton?",
+     "a": "Hyaline cartilage matrix is a firm gel of chondroitin sulfate and collagen fibers, providing smooth, flexible support at joint surfaces. Bone matrix is hardened by calcium phosphate (hydroxyapatite) deposited on collagen fibers, making it rigid and capable of bearing weight. The mineralization of bone matrix allows it to resist compression, while the unmineralized gel of cartilage allows resilience and smooth articulation. A wrong answer (e.g., \"both have same matrix but different cells\") misses the structure-function link between mineralization and mechanical role.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Adipose tissue is just loose connective tissue with fat cells; therefore it cannot have a specialized function like insulation or shock absorption.\" Is it correct? Justify.",
+     "a": "The statement is incorrect. While adipose tissue develops from areolar connective tissue, its adipocytes become highly specialized for lipid storage, which directly provides thermal insulation (poor heat conductor) and mechanical cushioning (compressible fat globules). The sheer volume of lipid-filled cells transforms the tissue's physical properties, giving it distinct functions beyond mere connectivity. A wrong evaluation (agreeing with the statement) reveals a misunderstanding of how cell specialization modifies tissue-level function.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using household items to demonstrate why dense regular connective tissue (like tendon) resists pulling in one direction but tears easily if cut across the fibers.",
+     "a": "Take a bundle of uncooked spaghetti (representing parallel collagen fibers) and try to pull it lengthwise — it resists strongly. Now try to snap the bundle sideways — it breaks easily. Then compare with a tangled ball of thread (representing dense irregular connective tissue) which resists pulling from multiple directions. A good answer identifies the parallel arrangement as key to unidirectional strength. A poor answer (e.g., \"just pull both and see\") lacks the controlled comparison and structural reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

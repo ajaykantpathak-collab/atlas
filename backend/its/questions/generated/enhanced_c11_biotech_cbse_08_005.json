@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_005",
+   "title": "c11_biotech_cbse_08_005",
+   "questions": [
+    {
+     "q": "A student writes the karyotype of a Robertsonian translocation carrier as \"46,XX,rob(14;21)\". Identify the error in this notation and write the correct karyotype.",
+     "a": "The correct karyotype is **45,XX,der(14;21)(q10;q10)** or **45,XX,rob(14;21)(q10;q10)**. The error is writing \"46\" — Robertsonian translocation reduces chromosome count by 1 because two acrocentric chromosomes fuse into one derivative chromosome. A wrong answer of \"46\" reveals the student thinks translocation only rearranges material without changing chromosome number, confusing it with reciprocal translocation where count remains 46.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a carrier of a balanced reciprocal translocation between chromosomes 8 and 14 [t(8;14)(q24;q32)] is phenotypically normal but has a high risk of producing unbalanced gametes.",
+     "a": "The carrier has all genetic material present (balanced) — no net gain/loss of genes — so phenotype is normal. During meiosis, the translocated chromosomes and their normal homologs form a **quadrivalent** (cross-shaped) pairing structure. Alternate segregation produces balanced gametes (normal or balanced carrier); adjacent-1 and adjacent-2 segregations produce gametes with duplications/deletions. A wrong answer focusing only on \"no gene loss\" misses the meiotic pairing consequence — the core reason for reproductive risk.",
+     "self_check": true
+    },
+    {
+     "q": "A couple has a child with Down syndrome. Karyotyping reveals the child has 46 chromosomes (not 47) but three copies of chromosome 21 material. The mother is a carrier of rob(14;21). Draw the meiotic segregation patterns in the mother that could produce the gamete leading to this child.",
+     "a": "Mother's germ cell has: normal 14, normal 21, and der(14;21). During meiosis, these three chromosomes form a **trivalent**. The child inherited: normal 21 from father + normal 21 from mother + der(14;21) from mother = three copies of 21q. This requires **adjacent-1 segregation** where normal 21 and der(14;21) go to same gamete. A wrong answer showing 47 chromosomes or missing the trivalent reveals confusion between trisomy 21 (non-disjunction) and translocation Down syndrome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular consequences of t(8;14) in Burkitt's lymphoma versus rob(14;21) in familial Down syndrome. Why does the former cause cancer while the latter causes developmental syndrome?",
+     "a": "t(8;14) places **MYC oncogene** (8q24) under control of **immunoglobulin heavy chain enhancer** (14q32) → constitutive MYC overexpression → uncontrolled B-cell proliferation (cancer). rob(14;21) fuses entire long arms → **gene dosage imbalance** (three copies of 21q genes) → disrupted development (Down syndrome). A wrong answer equating both as \"gene dosage effects\" misses the critical distinction: **position effect** (regulatory hijacking) vs **dosage effect** (copy number change).",
+     "self_check": true
+    },
+    {
+     "q": "A genetic counselor tells a rob(13;14) carrier: \"Your risk of having a liveborn child with trisomy 13 is near zero, but trisomy 14 is lethal.\" Evaluate this statement using chromosome biology.",
+     "a": "**Correct evaluation:** The statement is accurate. Trisomy 13 (Patau syndrome) is viable but severe; trisomy 14 is **embryonically lethal** (no live births). In rob(13;14), adjacent segregation producing gamete with two copies of 14q (normal 14 + der(13;14)) yields conceptus with trisomy 14 → miscarriage. Gamete with two copies of 13q yields trisomy 13 → possible live birth. A wrong answer claiming equal risk for both trisomies ignores chromosome-specific viability — a key counseling nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a FISH probe strategy to distinguish between a balanced t(8;14) carrier and an unbalanced derivative chromosome 8 with 14q deletion in a Burkitt's lymphoma biopsy.",
+     "a": "Use **dual-color break-apart probe for MYC (8q24)**: one probe flanking 5' end (green), one flanking 3' end (red). In normal/balanced: fused yellow signal on der(8) and der(14). In unbalanced del(14q): split signals (green on der(8), red lost). Add **centromere 8 (CEP8) and centromere 14 (CEP14)** probes to count chromosomes. A poor answer using only whole-chromosome paints misses breakpoint resolution — FISH must target the specific gene region.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

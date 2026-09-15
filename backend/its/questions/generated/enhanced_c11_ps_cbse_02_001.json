@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_001",
+   "title": "c11_ps_cbse_02_001",
+   "questions": [
+    {
+     "q": "According to the NCERT text, what are the two dimensions of freedom discussed in the chapter \"Freedom\"?",
+     "a": "The two dimensions are **Negative Liberty** (freedom as the absence of external constraints/coercion) and **Positive Liberty** (freedom as the presence of enabling conditions for self-development and expression of potential). A wrong answer (e.g., \"Political and Economic freedom\") reveals the student is importing external categories instead of reading the specific theoretical distinction (Isaiah Berlin's framework adapted by NCERT) the textbook builds the chapter upon.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"No individual living in society can hope to enjoy total absence of any kind of constraints.\" Explain why this statement implies that the *value* of freedom lies not in the absence of *all* constraints, but in the distinction between **justifiable** and **unjustifiable** constraints.",
+     "a": "Since total absence of constraints is impossible in society (we need rules for order, e.g., traffic laws), freedom cannot mean \"no rules.\" Therefore, the *value* of freedom depends on identifying which constraints are **necessary for social coexistence** (justifiable) and which **arbitrarily block self-development** (unjustifiable, like Apartheid). A wrong answer (e.g., \"Freedom means anarchy\") reveals the student equates \"constraint\" with \"oppression,\" missing the NCERT's nuanced argument that *some* constraints (like laws against violence) actually *protect* freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of **Positive Liberty** to analyse the following situation: A government repeals a law banning women from working night shifts (removing a negative constraint), but does not provide safe public transport or childcare facilities. Are the women truly \"free\" to work night shifts? Justify using the NCERT definition of positive liberty.",
+     "a": "**No.** Negative liberty (removal of the legal ban) is necessary but insufficient. Positive liberty requires **enabling conditions**—material resources (safe transport), social infrastructure (childcare), and absence of structural barriers (fear of violence). Without these, the \"choice\" to work nights remains theoretical. A wrong answer focusing only on the legal change (\"Yes, the law is gone\") reveals a purely negative liberty understanding, ignoring the NCERT's explicit argument that freedom requires \"adequate material resources\" and \"access to education/opportunities\" (Textbook p. 27).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Nelson Mandela's struggle against Apartheid (described as removing \"obstacles to freedom\") with the Indian concept of **Swaraj** (defined in the textbox as \"Rule over Self\" and \"liberation from institutions of dehumanisation\"). How do both struggles redefine freedom beyond mere \"independence\"?",
+     "a": "Both redefine freedom as **restoration of human dignity and agency**, not just political sovereignty. Mandela fights *external* dehumanisation (race-based constraints); Gandhi's Swaraj fights *internal* dehumanisation (loss of self-respect, self-responsibility). Mandela's \"Long Walk\" and Gandhi's \"Hind Swaraj\" both argue freedom is the **capacity to govern one's own life**. A wrong answer treating them as merely \"anti-colonial movements\" misses the NCERT's theoretical point: they illustrate the *positive dimension*—freedom as self-mastery and self-realisation.",
+     "self_check": true
+    },
+    {
+     "q": "Aung San Suu Kyi defines real freedom as **\"freedom from fear.\"** Evaluate this claim: Does \"freedom from fear\" belong to Negative Liberty (absence of external threat) or Positive Liberty (internal capacity/condition)? Use the NCERT text to justify your classification.",
+     "a": "It bridges **both**. \"Fear of authority/peers/ridicule\" (Textbook p. 19) implies **external constraints** (Negative Liberty violation: coercion, social pressure). But overcoming it requires **internal capacity**—courage, dignity, \"living a dignified human life\" (Positive Liberty: self-mastery). The NCERT uses her to show the *interdependence*: external oppression creates internal fear; true freedom requires removing the external source *and* cultivating the internal resilience. A wrong answer picking only one dimension fails to see the textbook's dialectical structure.",
+     "self_check": true
+    },
+    {
+     "q": "**Create:** Draft a 100-word preamble for a \"Student Charter of Freedom\" for your school. It must explicitly protect **one negative liberty** (e.g., freedom from arbitrary punishment) and **one positive liberty** (e.g., freedom to access mental health support), and state *why* both are needed for student dignity.",
+     "a": "**Criteria for a good answer:**\n1.  **Negative Liberty Clause:** \"No student shall be disciplined without a fair hearing\" (protection *from* arbitrary power).\n2.  **Positive Liberty Clause:** \"The school shall provide accessible counselling and remedial classes\" (provision *for* development).\n3.  **Justification:** Links both to \"dignity\" and \"capacity to make choices\" (NCERT p. 18, 27).\n**Poor answer indicator:** Lists only \"rights\" (e.g., \"free phone use\") without distinguishing the *structural logic* (constraint removal vs. capability provision) or justifying via dignity/self-development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

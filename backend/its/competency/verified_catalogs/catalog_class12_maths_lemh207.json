@@ -1,0 +1,543 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 13,
+  "chapter_title": "Probability",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh207.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter agent author-first draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "lemh.207.13.2.1",
+      "title": "Conditional Probability from the Joint and the Condition",
+      "section": "13.2",
+      "definition": "Once one event is known to have happened, the chance of another shrinks to the share of the known event's outcomes that also favour the second; it equals the probability of both events together divided by the probability of the known event.",
+      "formula": "cond_prob = joint_p / event_p",
+      "key_idea": "Divide the together-probability by the given event's probability.",
+      "textbook_ref": "lemh207.txt definition 1 with examples 1-6 (lines ~101-153, 245-441)",
+      "question_patterns": [
+        "find the conditional probability of E given F",
+        "evaluate P of A given B from the supplied probabilities",
+        "compute the conditional probability when the intersection and the condition are known",
+        "what is the chance of the second event knowing the first occurred",
+        "determine the probability of a card being even given the number exceeds three",
+        "given that at least one child is a boy, find the probability both are boys"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Divide the joint probability by the condition's probability",
+          "explain": "P(E given F) = P(E and F) over P(F), valid when P(F) is nonzero.",
+          "compute": "cond_prob = joint_p / event_p"
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.2.2",
+      "title": "Properties of Conditional Probability",
+      "section": "13.2.1",
+      "definition": "Conditioning on a fixed event behaves like rescaling the whole theory: the conditioned chance of the full sample space is one, the conditioned chance of a complement completes it to one, and conditioned unions add with the usual overlap correction.",
+      "formula": "P(E_prime given F) = 1 minus P(E given F)",
+      "key_idea": "Complement and union rules survive conditioning.",
+      "textbook_ref": "lemh207.txt properties 1-3 (lines ~154-243)",
+      "question_patterns": [
+        "find the conditional probability of the complement of E given F",
+        "what is P of S given F for any event F",
+        "state the union rule for conditional probabilities",
+        "if the conditional chance of E is given, find the conditional chance of not E",
+        "prove that conditioning preserves the addition rule for disjoint events",
+        "why does the conditioned probability of the whole space equal one"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fix the conditioning event",
+          "explain": "All statements are inside the world where F has occurred."
+        },
+        {
+          "step": 2,
+          "action": "Apply the complement rule",
+          "explain": "P(E' given F) = 1 - P(E given F)."
+        },
+        {
+          "step": 3,
+          "action": "Apply the union rule",
+          "explain": "P((A union B) given F) = P(A given F) + P(B given F) - P((A intersect B) given F)."
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.3.1",
+      "title": "Multiplication Rule for Joint Occurrence",
+      "section": "13.3",
+      "definition": "The chance that two events both happen is the chance of the first times the chance of the second given the first; for a chain of events the products keep extending one conditioned factor at a time.",
+      "formula": "joint_prob = event_p * cond_p",
+      "key_idea": "Multiply the unconditional first chance by the conditioned second chance.",
+      "textbook_ref": "lemh207.txt section 13.3 with examples 8-9 (lines ~638-745)",
+      "question_patterns": [
+        "find the probability that both events occur using the multiplication rule",
+        "compute P of E and F when the conditional probability is given",
+        "what is the probability of drawing two black balls one after the other",
+        "find the chance that both cards drawn are of the wanted kind",
+        "multiply the first probability by the conditional probability to get the joint one",
+        "determine the probability of three specified draws in succession"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Multiply the first probability by the conditioned second",
+          "explain": "P(E and F) = P(E) times P(F given E).",
+          "compute": "joint_prob = event_p * cond_p"
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.4.1",
+      "title": "At Least One of Two Independent Events",
+      "section": "13.4",
+      "definition": "For two unrelated events, the chance that at least one occurs is one minus the product of their individual miss chances, since both miss only when each fails on its own.",
+      "formula": "at_least_one = 1 - miss_a * miss_b",
+      "key_idea": "One minus the product of the two failure chances.",
+      "textbook_ref": "lemh207.txt example 14 with exercise 13.2 Q12, Q14 (lines ~1049-1059, 1132-1147)",
+      "question_patterns": [
+        "find the probability that at least one of the two events occurs",
+        "what is the chance the problem is solved when either person may solve it",
+        "compute the probability of at least one success in the two independent trials",
+        "find the chance of getting the wanted outcome at least once in two throws",
+        "how likely is it that not both of the independent events fail",
+        "determine the probability that at least one odd number appears"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find each miss chance",
+          "explain": "Subtract each event's probability from one.",
+          "compute": "miss_a = 1 - prob_a"
+        },
+        {
+          "step": 2,
+          "action": "Find the other miss chance",
+          "explain": "Subtract the second event's probability from one.",
+          "compute": "miss_b = 1 - prob_b"
+        },
+        {
+          "step": 3,
+          "action": "Complement the double miss",
+          "explain": "At least one occurs unless both miss, so subtract the product from one.",
+          "compute": "at_least_one = 1 - miss_a * miss_b"
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.4.2",
+      "title": "Testing Independent Events",
+      "section": "13.4",
+      "definition": "Two events are independent exactly when their together-probability equals the product of their separate probabilities, equivalently when conditioning changes nothing; independence differs from mutual exclusivity, which forbids shared outcomes.",
+      "formula": "events are independent when P(E and F) = P(E) times P(F)",
+      "key_idea": "Compare the joint probability with the product of the separate ones.",
+      "textbook_ref": "lemh207.txt definitions 2-3 with examples 10-13 (lines ~806-854, 855-1048)",
+      "question_patterns": [
+        "check whether the two events are independent",
+        "are the events of an even number and a red number independent",
+        "verify that the joint probability equals the product of the separate probabilities",
+        "prove that an event and the complement of an independent event stay independent",
+        "explain why independent events with nonzero chances cannot be mutually exclusive",
+        "decide whether the two dice outcomes are independent or dependent"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compute each separate probability",
+          "explain": "Find P(E) and P(F) from the sample space."
+        },
+        {
+          "step": 2,
+          "action": "Compute the joint probability",
+          "explain": "Find P(E and F)."
+        },
+        {
+          "step": 3,
+          "action": "Compare joint with product",
+          "explain": "Equality certifies independence; any gap means the events are dependent."
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.5.1",
+      "title": "Partition of a Sample Space",
+      "section": "13.5.1",
+      "definition": "A partition is a family of events that are pairwise disjoint, together cover the whole sample space, and each carry positive probability; an event paired with its complement is the simplest two-piece example.",
+      "formula": "a partition is pairwise disjoint, exhaustive and has nonzero probabilities",
+      "key_idea": "Exactly one member of a partition occurs in every trial.",
+      "textbook_ref": "lemh207.txt section 13.5.1 (lines ~1203-1220)",
+      "question_patterns": [
+        "show that the given events form a partition of the sample space",
+        "what three conditions define a partition of a sample space",
+        "explain why an event and its complement partition the sample space",
+        "is the collection of mutually exclusive and exhaustive events a partition",
+        "verify that the listed hypothesis events are disjoint and exhaustive",
+        "give an example of a partition with three members"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check pairwise disjointness",
+          "explain": "Members must not share outcomes."
+        },
+        {
+          "step": 2,
+          "action": "Check exhaustiveness",
+          "explain": "The union of the members must be the whole sample space."
+        },
+        {
+          "step": 3,
+          "action": "Check positive probabilities",
+          "explain": "Every member needs a nonzero chance of occurring."
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.5.2",
+      "title": "Theorem of Total Probability",
+      "section": "13.5.2",
+      "definition": "When the causes partition the sample space, the overall chance of an effect is the sum over causes of each cause's probability times the effect's chance given that cause.",
+      "formula": "total_prob = first_prior * first_cond + second_prior * second_cond",
+      "key_idea": "Blend the per-cause chances weighted by the prior chances.",
+      "textbook_ref": "lemh207.txt section 13.5.2 with example 15 (lines ~1222-1281)",
+      "question_patterns": [
+        "find the total probability of the event by weighting each cause's conditional chance",
+        "compute the overall chance the job finishes on time with or without a strike",
+        "what is P of A by the theorem of total probability",
+        "blend the two conditional chances with their prior weights",
+        "determine the overall probability of the effect when either cause may act",
+        "sum the weighted conditional probabilities over all the causes"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Weight the first cause",
+          "explain": "Multiply the first prior by the conditional chance under that cause.",
+          "compute": "first_term = first_prior * first_cond"
+        },
+        {
+          "step": 2,
+          "action": "Weight the second cause",
+          "explain": "Multiply the second prior by the conditional chance under that cause.",
+          "compute": "second_term = second_prior * second_cond"
+        },
+        {
+          "step": 3,
+          "action": "Add the weighted terms",
+          "explain": "The sum is the total probability of the effect.",
+          "compute": "total_prob = first_term + second_term"
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.5.3",
+      "title": "Bayes' Theorem Reverse Probability",
+      "section": "13.5",
+      "definition": "Bayes' rule flips the conditioning: after an effect is observed, each cause's revised chance is its prior times the effect's chance under that cause, divided by the same product summed over all causes.",
+      "formula": "post_prob = (prior_1 * cond_1) / (prior_1 * cond_1 + prior_2 * cond_2)",
+      "key_idea": "Share of the observed effect's weight that belongs to the cause.",
+      "textbook_ref": "lemh207.txt Bayes' theorem with examples 16-21 (lines ~1283-1697)",
+      "question_patterns": [
+        "given the ball drawn is red, find the probability it came from the second bag",
+        "given the item is defective, what is the probability machine B made it",
+        "find the probability the person actually has the disease after a positive test",
+        "what is the revised chance of the cause after the effect is observed",
+        "apply Bayes' theorem to find the posterior probability of the hypothesis",
+        "determine which bag the drawn ball most likely came from"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Weight the first cause's contribution",
+          "explain": "Multiply the first prior by the conditional chance of the effect under it.",
+          "compute": "first_weight = prior_1 * cond_1"
+        },
+        {
+          "step": 2,
+          "action": "Sum both causes' contributions",
+          "explain": "Add the second prior times its conditional chance; this is the total chance of the effect.",
+          "compute": "effect_total = first_weight + prior_2 * cond_2"
+        },
+        {
+          "step": 3,
+          "action": "Take the first cause's share",
+          "explain": "Divide its weight by the total to get the posterior probability.",
+          "compute": "post_prob = first_weight / effect_total"
+        }
+      ]
+    },
+    {
+      "id": "lemh.207.13.5.4",
+      "title": "Random Variable on a Sample Space",
+      "section": "13.5",
+      "definition": "A random variable is a real number assigned to every outcome of a random experiment, such as counting the heads in two tosses; several different random variables can live on the same sample space.",
+      "formula": "a random variable maps each outcome of the sample space to a real number",
+      "key_idea": "Outcomes in, real numbers out.",
+      "textbook_ref": "lemh207.txt remark after example 21 (lines ~1699-1715)",
+      "question_patterns": [
+        "define a random variable with an example",
+        "what values does the head count random variable take on two tosses",
+        "explain how a random variable assigns numbers to outcomes",
+        "give a random variable for the experiment of tossing a coin twice",
+        "can two different random variables share the same sample space",
+        "state the range of the number of heads variable for three tosses"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the sample space",
+          "explain": "Write every outcome of the experiment."
+        },
+        {
+          "step": 2,
+          "action": "Define the number assigned to each outcome",
+          "explain": "State the rule, such as counting heads."
+        },
+        {
+          "step": 3,
+          "action": "Collect the values taken",
+          "explain": "The set of assigned numbers is the range of the variable."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "lemh207.txt exercise 13.1 Q1 (lines ~539-541)",
+      "concept": "lemh.207.13.2.1",
+      "question_type": "conditional probability",
+      "question_pattern": "Given P(E) = {event_p}, P(F) = {event_p2} and P(E and F) = {joint_p}, find P(E given F).",
+      "extracted_variables": {"event_p": 0.3, "event_p2": 0.6, "joint_p": 0.2},
+      "solution_template": [
+        {"step": 1, "action": "Divide the joint by the condition", "explain": "0.2 over 0.3 is about 0.667.", "compute": "cond_prob = joint_p / event_p"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "lemh207.txt exercise 13.1 Q2 (lines ~543)",
+      "concept": "lemh.207.13.2.1",
+      "question_type": "conditional probability",
+      "question_pattern": "Compute P of A given B if P(B) = {event_p} and P(A and B) = {joint_p}.",
+      "extracted_variables": {"event_p": 0.5, "joint_p": 0.32},
+      "solution_template": [
+        {"step": 1, "action": "Divide the joint by the condition", "explain": "0.32 over 0.5 gives 0.64.", "compute": "cond_prob = joint_p / event_p"}
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "lemh207.txt section 13.3 multiplication rule (lines ~653-674)",
+      "concept": "lemh.207.13.3.1",
+      "question_type": "joint probability",
+      "question_pattern": "The chance of the first event is {event_p} and the conditional chance of the second given the first is {cond_p}. Find the probability both occur.",
+      "extracted_variables": {"event_p": 0.5, "cond_p": 0.4},
+      "solution_template": [
+        {"step": 1, "action": "Multiply", "explain": "0.5 times 0.4 gives 0.2.", "compute": "joint_prob = event_p * cond_p"}
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "lemh207.txt exercise 13.2 Q8 (lines ~1108-1112)",
+      "concept": "lemh.207.13.4.1",
+      "question_type": "at least one",
+      "question_pattern": "A and B are independent with P(A) = {prob_a} and P(B) = {prob_b}. Find the probability that at least one of them occurs.",
+      "extracted_variables": {"prob_a": 0.3, "prob_b": 0.4},
+      "solution_template": [
+        {"step": 1, "action": "Find the miss chances", "explain": "0.7 and 0.6.", "compute": "miss_a = 1 - prob_a"},
+        {"step": 2, "action": "Find the other miss chance", "explain": "1 - 0.4 = 0.6.", "compute": "miss_b = 1 - prob_b"},
+        {"step": 3, "action": "Multiply the misses", "explain": "0.7 times 0.6 is 0.42.", "compute": "miss_product = miss_a * miss_b"},
+        {"step": 4, "action": "Complement", "explain": "1 - 0.42 = 0.58.", "compute": "at_least_one = 1 - miss_product"}
+      ]
+    },
+    {
+      "id": "ex5",
+      "source_ref": "lemh207.txt exercise 13.2 Q12 style (lines ~1132-1133)",
+      "concept": "lemh.207.13.4.1",
+      "question_type": "at least one",
+      "question_pattern": "A die is tossed twice. With P(odd) = {prob_a} on each throw, find the probability of at least one odd number.",
+      "extracted_variables": {"prob_a": 0.5, "prob_b": 0.6},
+      "solution_template": [
+        {"step": 1, "action": "Find the miss chances", "explain": "0.5 and 0.4.", "compute": "miss_a = 1 - prob_a"},
+        {"step": 2, "action": "Find the other miss chance", "explain": "1 - 0.6 = 0.4.", "compute": "miss_b = 1 - prob_b"},
+        {"step": 3, "action": "Multiply the misses", "explain": "0.5 times 0.4 is 0.2.", "compute": "miss_product = miss_a * miss_b"},
+        {"step": 4, "action": "Complement", "explain": "1 - 0.2 = 0.8.", "compute": "at_least_one = 1 - miss_product"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "source_ref": "lemh207.txt example 15 (lines ~1267-1281)",
+      "concept": "lemh.207.13.5.2",
+      "question_type": "total probability",
+      "question_pattern": "The strike chance is {first_prior} and without a strike it is {second_prior}. The job finishes on time with chance {first_cond} given a strike and {second_cond} otherwise. Find the probability it finishes on time.",
+      "extracted_variables": {"first_prior": 0.65, "second_prior": 0.35, "first_cond": 0.32, "second_cond": 0.8},
+      "solution_template": [
+        {"step": 1, "action": "Weight the strike case", "explain": "0.65 times 0.32 = 0.208.", "compute": "first_term = first_prior * first_cond"},
+        {"step": 2, "action": "Weight the no-strike case", "explain": "0.35 times 0.8 = 0.28.", "compute": "second_term = second_prior * second_cond"},
+        {"step": 3, "action": "Add", "explain": "0.208 + 0.28 = 0.488.", "compute": "total_prob = first_term + second_term"}
+      ]
+    },
+    {
+      "id": "ex7",
+      "source_ref": "lemh207.txt theorem of total probability (lines ~1222-1266)",
+      "concept": "lemh.207.13.5.2",
+      "question_type": "total probability",
+      "question_pattern": "Cause one has prior {first_prior} and conditional chance {first_cond}; cause two has prior {second_prior} and conditional chance {second_cond}. Find the total probability of the effect.",
+      "extracted_variables": {"first_prior": 0.6, "first_cond": 0.3, "second_prior": 0.4, "second_cond": 0.2},
+      "solution_template": [
+        {"step": 1, "action": "Weight the first cause", "explain": "0.6 times 0.3 = 0.18.", "compute": "first_term = first_prior * first_cond"},
+        {"step": 2, "action": "Weight the second cause", "explain": "0.4 times 0.2 = 0.08.", "compute": "second_term = second_prior * second_cond"},
+        {"step": 3, "action": "Add", "explain": "0.18 + 0.08 = 0.26.", "compute": "total_prob = first_term + second_term"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "source_ref": "lemh207.txt exercise 13.3 Q4 (lines ~1735-1742)",
+      "concept": "lemh.207.13.5.3",
+      "question_type": "bayes posterior",
+      "question_pattern": "A student knows the answer with probability {prior_1} and guesses with probability {prior_2}. A known answer is always right and a guess is right with chance {cond_2}. Given a correct answer, find the probability the student knew it.",
+      "extracted_variables": {"prior_1": 0.75, "cond_1": 1, "prior_2": 0.25, "cond_2": 0.25},
+      "solution_template": [
+        {"step": 1, "action": "Weight the knowing cause", "explain": "0.75 times 1 = 0.75.", "compute": "first_weight = prior_1 * cond_1"},
+        {"step": 2, "action": "Total the correct-answer weight", "explain": "0.75 + 0.25 times 0.25 = 0.8125.", "compute": "effect_total = first_weight + prior_2 * cond_2"},
+        {"step": 3, "action": "Take the share", "explain": "0.75 over 0.8125 is about 0.923.", "compute": "post_prob = first_weight / effect_total"}
+      ]
+    },
+    {
+      "id": "ex9",
+      "source_ref": "lemh207.txt example 16 (lines ~1334-1373)",
+      "concept": "lemh.207.13.5.3",
+      "question_type": "bayes posterior",
+      "question_pattern": "Each of two bags is picked with probability {prior_2}. Bag one gives a red ball with chance {cond_1} and bag two with chance {cond_2}. Given the ball is red, find the probability it came from bag two.",
+      "extracted_variables": {"prior_1": 0.5, "cond_1": 0.42857142857142855, "prior_2": 0.5, "cond_2": 0.45454545454545453},
+      "solution_template": [
+        {"step": 1, "action": "Weight bag one", "explain": "0.5 times 3 over 7.", "compute": "first_weight = prior_1 * cond_1"},
+        {"step": 2, "action": "Total the red weight", "explain": "Add 0.5 times 5 over 11.", "compute": "effect_total = first_weight + prior_2 * cond_2"},
+        {"step": 3, "action": "Take bag two's share", "explain": "The ratio is 35 over 68, about 0.515.", "compute": "post_prob = (prior_2 * cond_2) / effect_total"}
+      ]
+    },
+    {
+      "id": "ex10",
+      "source_ref": "lemh207.txt property 3 (lines ~234-243)",
+      "concept": "lemh.207.13.2.2",
+      "question_type": "complement rule",
+      "question_pattern": "If the conditional probability of E given F is {cond_prob}, find the conditional probability of not E given F.",
+      "extracted_variables": {"cond_prob": 0.4},
+      "solution_template": [
+        {"step": 1, "action": "Apply the complement rule", "explain": "1 - 0.4 = 0.6."},
+        {"step": 2, "action": "State the result", "explain": "P(not E given F) = 0.6."}
+      ]
+    },
+    {
+      "id": "ex11",
+      "source_ref": "lemh207.txt example 10 (lines ~855-883)",
+      "concept": "lemh.207.13.4.2",
+      "question_type": "independence test",
+      "question_pattern": "A die is thrown once. E is a multiple of {limit_n} and F is an even number. Check whether E and F are independent.",
+      "extracted_variables": {"limit_n": 3},
+      "solution_template": [
+        {"step": 1, "action": "Find the separate probabilities", "explain": "P(E) = 2/6 and P(F) = 3/6."},
+        {"step": 2, "action": "Find the joint probability", "explain": "E and F share only the outcome 6, so 1/6."},
+        {"step": 3, "action": "Compare", "explain": "(2/6)(3/6) = 1/6, so the events are independent."}
+      ]
+    },
+    {
+      "id": "ex12",
+      "source_ref": "lemh207.txt section 13.5.1 (lines ~1213-1216)",
+      "concept": "lemh.207.13.5.1",
+      "question_type": "partition check",
+      "question_pattern": "Show that an event E and its complement E prime form a partition of the sample space.",
+      "extracted_variables": {"cond_prob": 0},
+      "solution_template": [
+        {"step": 1, "action": "Check disjointness", "explain": "E and E prime share no outcome."},
+        {"step": 2, "action": "Check exhaustiveness", "explain": "Together they cover the whole sample space."},
+        {"step": 3, "action": "Conclude", "explain": "All partition conditions hold."}
+      ]
+    },
+    {
+      "id": "ex13",
+      "source_ref": "lemh207.txt remark on random variables (lines ~1699-1715)",
+      "concept": "lemh.207.13.5.4",
+      "question_type": "random variable",
+      "question_pattern": "For two tosses of a coin, define a random variable counting the heads and list its values.",
+      "extracted_variables": {"cond_prob": 0},
+      "solution_template": [
+        {"step": 1, "action": "List the sample space", "explain": "HH, HT, TH, TT."},
+        {"step": 2, "action": "Assign numbers", "explain": "X(HH) = 2, X(HT) = 1, X(TH) = 1, X(TT) = 0."},
+        {"step": 3, "action": "Collect the range", "explain": "The variable takes the values 0, 1 and 2."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex13.1",
+      "source_ref": "lemh207.txt exercise 13.1 (lines ~538-637)",
+      "questions": [
+        "Find P(E given F) and P(F given E) from supplied event probabilities.",
+        "Compute conditional probabilities for coin tosses with head-count conditions.",
+        "Find conditional probabilities for repeated die throws with stated outcomes.",
+        "Find the conditional probability in a family line-up problem.",
+        "Conditional probabilities for two coloured dice with sum conditions.",
+        "Conditional probability for two-child families under gender conditions.",
+        "Conditional probability in a question-bank selection problem.",
+        "Sum condition on two dice given the numbers differ.",
+        "Multiple choice on the definedness of conditional probability and on equal conditional chances."
+      ]
+    },
+    {
+      "id": "ex13.2",
+      "source_ref": "lemh207.txt exercise 13.2 (lines ~1060-1187)",
+      "questions": [
+        "Find joint probabilities of independent events.",
+        "Draw-without-replacement probabilities for cards and oranges.",
+        "Independence checks for coin-die, coloured-die and card events.",
+        "Recover an unknown probability under exclusivity or independence.",
+        "Find P(not A and not B) and similar complements for given events.",
+        "At-least-one probabilities for repeated throws and independent solvers.",
+        "Newspaper reading probabilities with conditional follow-ups.",
+        "Multiple choice on even primes with dice and on criteria for independence."
+      ]
+    },
+    {
+      "id": "ex13.3",
+      "source_ref": "lemh207.txt exercise 13.3 (lines ~1716-1819)",
+      "questions": [
+        "Total probability for a two-stage urn colouring experiment.",
+        "Bayes reversals: bag of origin, hostlier with an A grade, known versus guessed answers.",
+        "Bayes for disease testing with false positives.",
+        "Bayes for the two-headed and biased coins.",
+        "Bayes for insured driver categories after an accident.",
+        "Bayes for defective items from two machines and three operators.",
+        "Bayes for the lost card and the truthful reporter.",
+        "Multiple choice on the reporting of heads and on conditional probabilities with subsets."
+      ]
+    },
+    {
+      "id": "ex13.misc",
+      "source_ref": "lemh207.txt miscellaneous exercise on chapter 13 (lines ~2049-2149)",
+      "questions": [
+        "Conditional probabilities when one event contains the other or they are disjoint.",
+        "Two-child conditional probabilities under gender conditions.",
+        "Bayes for grey-haired males among equal populations.",
+        "Bayes for red marbles drawn from described boxes.",
+        "Bayes for heart-attack risk reduction options.",
+        "Probability that a 0-1 determinant is positive.",
+        "Failure probabilities for two subsystems with conditional follow-ups.",
+        "Bayes for a transferred ball between bags.",
+        "Multiple choice items on subset relations and conditional inequalities."
+      ]
+    }
+  ]
+}

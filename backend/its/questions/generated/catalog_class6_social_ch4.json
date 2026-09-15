@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class6_social_ch4",
+ "concepts": [
+  {
+   "id": "c6ss.4.1",
+   "title": "Sources of History",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of History' refers to.",
+     "a": "Historical sources are materials that provide information about the past; they include literary and archaeological sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of History'.",
+     "a": "Historians use both literary and archaeological sources to reconstruct the past.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Sources of History'.",
+     "a": "explain sources of history",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.2",
+   "title": "Inscriptions and Edicts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Inscriptions and Edicts' refers to.",
+     "a": "Inscriptions are writings engraved on stone, metal, or other hard surfaces; edicts are royal orders inscribed for public display.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inscriptions and Edicts'.",
+     "a": "Inscriptions are valuable because they are permanent records that cannot be altered.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Inscriptions and Edicts'.",
+     "a": "explain inscriptions and edicts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.3",
+   "title": "Coins as Historical Sources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coins as Historical Sources' refers to.",
+     "a": "Coins provide information about rulers, dates, religion, and trade of their period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coins as Historical Sources'.",
+     "a": "Coins are durable archaeological sources that reveal economic and political history.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Coins as Historical Sources'.",
+     "a": "explain coins as historical sources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.4",
+   "title": "Manuscripts and Literary Sources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Manuscripts and Literary Sources' refers to.",
+     "a": "Manuscripts are handwritten documents; literary sources include books, poems, and records from the past.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Manuscripts and Literary Sources'.",
+     "a": "Literary sources provide detailed information about society, culture, and events.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Manuscripts and Literary Sources'.",
+     "a": "explain manuscripts and literary sources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.5",
+   "title": "Dating Historical Events (BC/BCE, AD/CE)",
+   "questions": [
+    {
+     "q": "Using the method 'Dating Historical Events (BC/BCE, AD/CE)', work with: bce_year = 100, ce_year = 1000. Carry the chain through step by step and give the final value of span.",
+     "a": "1100 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dating Historical Events (BC/BCE, AD/CE)' and work with: bce_year = 1500, ce_year = 200. Carry the chain through step by step and give the final value of span.",
+     "a": "1700 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dating Historical Events (BC/BCE, AD/CE)' refers to.",
+     "a": "Historical dates are counted using BC (Before Christ) / BCE (Before Common Era) and AD (Anno Domini) / CE (Common Era).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dating Historical Events (BC/BCE, AD/CE)'.",
+     "a": "The year 1 CE follows 1 BCE; there is no year zero in this system.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Dating Historical Events (BC/BCE, AD/CE)'.",
+     "a": "explain dating historical events bc bce ad ce",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.6",
+   "title": "Timeline of Major Historical Events",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Timeline of Major Historical Events' refers to.",
+     "a": "A timeline arranges historical events in chronological order to show their sequence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Timeline of Major Historical Events'.",
+     "a": "Timelines help understand the order and duration of historical periods.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Timeline of Major Historical Events'.",
+     "a": "explain timeline of major historical events",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.7",
+   "title": "Prehistoric and Historic Periods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prehistoric and Historic Periods' refers to.",
+     "a": "Prehistoric periods have no written records; historic periods have written sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prehistoric and Historic Periods'.",
+     "a": "The invention of writing marks the boundary between prehistory and history.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Prehistoric and Historic Periods'.",
+     "a": "explain prehistoric and historic periods",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.8",
+   "title": "Importance of Historical Sources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance of Historical Sources' refers to.",
+     "a": "Historical sources are essential for understanding the past accurately and avoiding misinformation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance of Historical Sources'.",
+     "a": "Without sources, history would be based on guesses and legends rather than evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Importance of Historical Sources'.",
+     "a": "explain importance of historical sources",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

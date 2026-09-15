@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class12_accountancy_leac206",
+ "concepts": [
+  {
+   "id": "leac.206.3.1",
+   "title": "Cash and Cash Equivalents",
+   "questions": [
+    {
+     "q": "Using the method 'Cash and Cash Equivalents', work with: cash_in_hand = 150, demand_deposits = 80, short_term_marketable_investments = 20. Carry the chain through step by step and give the final value of cash_and_equivalents.",
+     "a": "250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cash and Cash Equivalents' and work with: cash_in_hand = 300, demand_deposits = 5, short_term_marketable_investments = 6. Carry the chain through step by step and give the final value of cash_and_equivalents.",
+     "a": "311 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cash and Cash Equivalents' refers to.",
+     "a": "For this statement, cash means cash in hand and demand deposits, while cash equivalents are short-term, highly liquid placements -- typically marketable securities and bank or short-term deposits falling due within about three months -- that can be converted into known amounts of cash without material risk.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cash and Cash Equivalents'.",
+     "a": "Bank overdraft, cash credit and short-term deposits sit with the equivalents, so movements inside this family are not cash flows at all.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cash and Cash Equivalents', in plain ASCII form.",
+     "a": "cash_and_equivalents = cash_in_hand + demand_deposits + short_term_marketable_investments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.4.1",
+   "title": "Objectives and Benefits of a Cash Flow Statement",
+   "questions": [
+    {
+     "q": "Using the method 'Objectives and Benefits of a Cash Flow Statement', work with: cash_sources = 3, cash_uses = 4, future_capacity_signal = 4096. Carry the chain through step by step and give the final value of statement_purpose.",
+     "a": "4103 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Objectives and Benefits of a Cash Flow Statement' and work with: cash_sources = 15, cash_uses = 20, future_capacity_signal = 8192. Carry the chain through step by step and give the final value of statement_purpose.",
+     "a": "8227 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Objectives and Benefits of a Cash Flow Statement' refers to.",
+     "a": "The statement traces where the cash of an enterprise came from and where it went across the period, helping users judge the firm's capacity to generate cash, meet obligations and pay returns, beyond what profit figures alone reveal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives and Benefits of a Cash Flow Statement'.",
+     "a": "Profit is an opinion on accruals; the cash flow statement shows the money that actually moved.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives and Benefits of a Cash Flow Statement', in plain ASCII form.",
+     "a": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.5.1",
+   "title": "Classification into Operating, Investing and Financing Activities",
+   "questions": [
+    {
+     "q": "Using the method 'Classification into Operating, Investing and Financing Activities', work with: financing_flows = 12, investing_flows = 5, operating_flows = 6. Carry the chain through step by step and give the final value of net_increase_in_cash.",
+     "a": "23 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Classification into Operating, Investing and Financing Activities' and work with: financing_flows = 8, investing_flows = 120, operating_flows = 15. Carry the chain through step by step and give the final value of net_increase_in_cash.",
+     "a": "143 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Classification into Operating, Investing and Financing Activities' refers to.",
+     "a": "Every cash movement lands in one of three buckets: operating activities from the main revenue-producing work, investing activities from buying and selling long-term assets and investments, and financing activities from changing the equity and borrowing base.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification into Operating, Investing and Financing Activities'.",
+     "a": "Classification is by the nature of the business event, not by the account title -- the same item can shift buckets between enterprises.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classification into Operating, Investing and Financing Activities', in plain ASCII form.",
+     "a": "net_increase_in_cash = operating_flows + investing_flows + financing_flows",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.5.4",
+   "title": "Treatment of Peculiar Items",
+   "questions": [
+    {
+     "q": "Using the method 'Treatment of Peculiar Items', work with: extraordinary_items = 20, income_taxes = 18, interest_and_dividend = 25, non_cash_transactions = 360. Carry the chain through step by step and give the final value of peculiar_items.",
+     "a": "423 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Treatment of Peculiar Items' and work with: extraordinary_items = 25, income_taxes = 12, interest_and_dividend = 8, non_cash_transactions = 25. Carry the chain through step by step and give the final value of peculiar_items.",
+     "a": "70 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Treatment of Peculiar Items' refers to.",
+     "a": "Special items follow fixed homes: income tax rides with operating flows unless tied to investing or financing, interest and dividends paid and received go to financing and investing for a non-financial enterprise (all operating for a financial one), extraordinary items are disclosed separately, and non-cash deals never enter the statement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Treatment of Peculiar Items'.",
+     "a": "Machinery bought by issuing shares changes no cash, so it is disclosed outside the statement, not inside it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Treatment of Peculiar Items', in plain ASCII form.",
+     "a": "peculiar_items = income_taxes + interest_and_dividend + extraordinary_items + non_cash_transactions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.6.1",
+   "title": "Net Profit before Tax and Extraordinary Items",
+   "questions": [
+    {
+     "q": "Using the method 'Net Profit before Tax and Extraordinary Items', work with: net_profit_after_tax = 20, provision_for_tax_made = 8. Carry the chain through step by step and give the final value of profit_before_tax_and_extraordinary.",
+     "a": "28 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Net Profit before Tax and Extraordinary Items' and work with: net_profit_after_tax = 8, provision_for_tax_made = 5. Carry the chain through step by step and give the final value of profit_before_tax_and_extraordinary.",
+     "a": "13 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Profit before Tax and Extraordinary Items' refers to.",
+     "a": "The indirect method starts not from the bottom-line profit but from profit before tax and extraordinary items, built by adding back the tax provision (and any financing charges like the previous year's proposed dividend) to the net profit reported.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Profit before Tax and Extraordinary Items'.",
+     "a": "Tax is deducted only once -- at the very end, as the actual tax paid -- so it must first be added back to the reported profit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Profit before Tax and Extraordinary Items', in plain ASCII form.",
+     "a": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.6.2",
+   "title": "Cash Flow from Operating Activities (Indirect Method)",
+   "questions": [
+    {
+     "q": "Calculate cash flow from operating activities by the indirect method. Use the method 'Cash Flow from Operating Activities (Indirect Method)'. Work with: decrease_in_current_liabilities = 18, finance_costs = 500, income_tax_paid = 15, increase_in_current_assets = 500, increase_in_current_liabilities = 12, net_profit_after_tax = 25, non_cash_expenses = 20000, non_operating_incomes = 8000, provision_for_tax_made = 15. Carry the chain through step by step and give the final value of net_cash_from_operating_activities.",
+     "a": "12019 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find cash generated from operations and then the net operating cash flow. Use the method 'Cash Flow from Operating Activities (Indirect Method)'. Work with: decrease_in_current_liabilities = 360, finance_costs = 8000, income_tax_paid = 5, increase_in_current_assets = 12000, increase_in_current_liabilities = 40, net_profit_after_tax = 10, non_cash_expenses = 20000, non_operating_incomes = 80000, provision_for_tax_made = 15. Carry the chain through step by step and give the final value of net_cash_from_operating_activities.",
+     "a": "-64300 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cash Flow from Operating Activities (Indirect Method)' refers to.",
+     "a": "From the pre-tax profit, add back non-cash charges and financing costs, drop non-operating incomes, then adjust for working capital movements -- rises in current assets and falls in current liabilities come off, falls in current assets and rises in current liabilities go on -- and finally deduct the tax actually paid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cash Flow from Operating Activities (Indirect Method)'.",
+     "a": "The accrual profit walks to cash through four stops: non-cash items, non-operating items, working capital, tax paid.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cash Flow from Operating Activities (Indirect Method)', in plain ASCII form.",
+     "a": "net_cash_from_operating_activities = profit_before_tax_and_extraordinary + non_cash_expenses - non_operating_incomes - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities - income_tax_paid",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.6.3",
+   "title": "Income Tax Paid from the Provision Account",
+   "questions": [
+    {
+     "q": "Compute income tax paid from the provision for taxation account. Use the method 'Income Tax Paid from the Provision Account'. Work with: closing_provision_for_tax = 10, opening_provision_for_tax = 5, provision_made_during_year = 10. Carry the chain through step by step and give the final value of income_tax_paid.",
+     "a": "5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the tax actually paid during the year from opening and closing provisions. Use the method 'Income Tax Paid from the Provision Account'. Work with: closing_provision_for_tax = 15, opening_provision_for_tax = 15, provision_made_during_year = 500. Carry the chain through step by step and give the final value of income_tax_paid.",
+     "a": "500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Income Tax Paid from the Provision Account' refers to.",
+     "a": "When only provision balances and the year's charge are known, tax actually paid is found by balancing the provision for taxation account: opening provision plus the current charge minus the closing provision.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Income Tax Paid from the Provision Account'.",
+     "a": "The unpaid remainder just rolls into the closing balance; only the debited amount actually left the bank.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Income Tax Paid from the Provision Account', in plain ASCII form.",
+     "a": "income_tax_paid = opening_provision_for_tax + provision_made_during_year - closing_provision_for_tax",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.6.4",
+   "title": "Cash Collected from Customers",
+   "questions": [
+    {
+     "q": "Compute cash collected from customers during the year. Use the method 'Cash Collected from Customers'. Work with: closing_trade_receivables = 360, opening_trade_receivables = 300, revenue_from_operations = 50000. Carry the chain through step by step and give the final value of cash_received_from_customers.",
+     "a": "49940 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much cash did the customers actually pay? Use the method 'Cash Collected from Customers'. Work with: closing_trade_receivables = 75, opening_trade_receivables = 5, revenue_from_operations = 1200. Carry the chain through step by step and give the final value of cash_received_from_customers.",
+     "a": "1130 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cash Collected from Customers' refers to.",
+     "a": "Under the direct view, cash collected from customers is the period's revenue from operations adjusted for the movement in trade receivables: open with revenue, add receivables outstanding at the start, take away those still outstanding at the end.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cash Collected from Customers'.",
+     "a": "Sales not yet collected sit in receivables, so growth in debtors silently holds cash back.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cash Collected from Customers', in plain ASCII form.",
+     "a": "cash_received_from_customers = revenue_from_operations + opening_trade_receivables - closing_trade_receivables",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.7.1",
+   "title": "Machinery Purchased (Balancing the Asset Account)",
+   "questions": [
+    {
+     "q": "Calculate the cost of machinery purchased during the year. Use the method 'Machinery Purchased (Balancing the Asset Account)'. Work with: closing_machinery_at_cost = 20000, cost_of_machinery_sold = 2500, opening_machinery_at_cost = 8000. Carry the chain through step by step and give the final value of machinery_purchased.",
+     "a": "14500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the cash spent on new machines from the asset account. Use the method 'Machinery Purchased (Balancing the Asset Account)'. Work with: closing_machinery_at_cost = 500, cost_of_machinery_sold = 50000, opening_machinery_at_cost = 20000. Carry the chain through step by step and give the final value of machinery_purchased.",
+     "a": "30500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Machinery Purchased (Balancing the Asset Account)' refers to.",
+     "a": "When only balances and sale details are known, the cash spent on new machinery is the balancing figure of the machinery account: closing balance plus the cost of machines sold during the year minus the opening balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Machinery Purchased (Balancing the Asset Account)'.",
+     "a": "Carry assets at cost, park depreciation in its own account, and the missing figure -- the purchase -- falls out of the account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Machinery Purchased (Balancing the Asset Account)', in plain ASCII form.",
+     "a": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.7.2",
+   "title": "Depreciation Provided (Balancing Accumulated Depreciation)",
+   "questions": [
+    {
+     "q": "Calculate the depreciation provided during the year. Use the method 'Depreciation Provided (Balancing Accumulated Depreciation)'. Work with: accumulated_depreciation_on_sold_asset = 2500, closing_accumulated_depreciation = 120000, opening_accumulated_depreciation = 20000. Carry the chain through step by step and give the final value of depreciation_provided.",
+     "a": "102500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much depreciation was charged when an asset was sold? Use the method 'Depreciation Provided (Balancing Accumulated Depreciation)'. Work with: accumulated_depreciation_on_sold_asset = 50000, closing_accumulated_depreciation = 1200, opening_accumulated_depreciation = 5000. Carry the chain through step by step and give the final value of depreciation_provided.",
+     "a": "46200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Depreciation Provided (Balancing Accumulated Depreciation)' refers to.",
+     "a": "The year's depreciation charge is the balancing figure of the accumulated depreciation account: closing balance plus depreciation removed with the sold asset minus opening balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Depreciation Provided (Balancing Accumulated Depreciation)'.",
+     "a": "This recovered charge is the non-cash expense that gets added back inside operating activities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Depreciation Provided (Balancing Accumulated Depreciation)', in plain ASCII form.",
+     "a": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.7.3",
+   "title": "Borrowings Raised (Balancing the Loan Account)",
+   "questions": [
+    {
+     "q": "Calculate the proceeds from long-term borrowings during the year. Use the method 'Borrowings Raised (Balancing the Loan Account)'. Work with: closing_long_term_loans = 300, loans_repaid = 400, opening_long_term_loans = 100. Carry the chain through step by step and give the final value of borrowings_raised.",
+     "a": "600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much was borrowed when part of the loan was repaid? Use the method 'Borrowings Raised (Balancing the Loan Account)'. Work with: closing_long_term_loans = 3, loans_repaid = 150, opening_long_term_loans = 25. Carry the chain through step by step and give the final value of borrowings_raised.",
+     "a": "128 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Borrowings Raised (Balancing the Loan Account)' refers to.",
+     "a": "Fresh long-term borrowings are the balancing figure of the loan account: closing loan balance plus loans repaid during the year minus the opening balance, and the figure becomes a financing inflow.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Borrowings Raised (Balancing the Loan Account)'.",
+     "a": "The account tells both sides of the financing story -- the repayment that went out and the fresh money that came in.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Borrowings Raised (Balancing the Loan Account)', in plain ASCII form.",
+     "a": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.206.8.1",
+   "title": "Net Increase in Cash and Closing Balance",
+   "questions": [
+    {
+     "q": "Compute the net increase or decrease in cash for the year. Use the method 'Net Increase in Cash and Closing Balance'. Work with: financing_flows = 3, investing_flows = 300, opening_cash_and_equivalents = 200, operating_flows = 75. Carry the chain through step by step and give the final value of closing_cash_and_equivalents.",
+     "a": "578 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the closing cash and cash equivalents from the statement. Use the method 'Net Increase in Cash and Closing Balance'. Work with: financing_flows = 10, investing_flows = 20, opening_cash_and_equivalents = 4, operating_flows = 40. Carry the chain through step by step and give the final value of closing_cash_and_equivalents.",
+     "a": "74 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Increase in Cash and Closing Balance' refers to.",
+     "a": "The three activity totals -- operating, investing and financing -- add to the net increase or decrease in cash and equivalents, and adding that change to the opening balance produces the closing cash and equivalents that must tie to the balance sheet.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Increase in Cash and Closing Balance'.",
+     "a": "The closing figure is the proof line: if it does not match the bank and cash balances, an item is misclassified or missing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Increase in Cash and Closing Balance', in plain ASCII form.",
+     "a": "closing_cash_and_equivalents = opening_cash_and_equivalents + operating_flows + investing_flows + financing_flows",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

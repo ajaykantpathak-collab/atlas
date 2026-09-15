@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_010",
+   "title": "c11_math_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the domain of \\((f+g)\\) if \\(f(x) = \\sqrt{x-2}\\) and \\(g(x) = \\frac{1}{x-3}\\).",
+     "a": "The domain of \\(f\\) is \\([2, \\infty)\\) and the domain of \\(g\\) is \\(\\mathbb{R} \\setminus \\{3\\}\\). The domain of \\(f+g\\) is the intersection: \\([2, \\infty) \\cap (\\mathbb{R} \\setminus \\{3\\}) = [2, 3) \\cup (3, \\infty)\\). A wrong answer like \\([2, \\infty)\\) reveals the student forgot to exclude \\(x=3\\) where \\(g\\) is undefined, or forgot that domain of sum is intersection, not union.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the domain of \\(\\frac{f}{g}\\) is not simply the intersection of domains of \\(f\\) and \\(g\\). Give an example where the domain of \\(\\frac{f}{g}\\) is strictly smaller than \\(\\text{dom}(f) \\cap \\text{dom}(g)\\).",
+     "a": "The domain of \\(\\frac{f}{g}\\) must also exclude points where \\(g(x)=0\\) because division by zero is undefined. For example, let \\(f(x)=x\\) and \\(g(x)=x-2\\). Then \\(\\text{dom}(f)=\\mathbb{R}\\), \\(\\text{dom}(g)=\\mathbb{R}\\), intersection is \\(\\mathbb{R}\\). But \\(\\frac{f}{g}(x)=\\frac{x}{x-2}\\) is undefined at \\(x=2\\), so its domain is \\(\\mathbb{R}\\setminus\\{2\\}\\). A wrong answer indicates the student treats division like multiplication, ignoring the denominator-zero restriction.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(f(x) = 2x^2 - 3x + 1\\) and \\(g(x) = x - 4\\), find \\((fg)(x)\\) and evaluate \\((fg)(2)\\).",
+     "a": "\\((fg)(x) = (2x^2 - 3x + 1)(x - 4) = 2x^3 - 8x^2 - 3x^2 + 12x + x - 4 = 2x^3 - 11x^2 + 13x - 4\\). Then \\((fg)(2) = 2(8) - 11(4) + 13(2) - 4 = 16 - 44 + 26 - 4 = -6\\). A wrong answer like \\(-10\\) suggests an error in polynomial multiplication (e.g., missing a term) or arithmetic mistake in evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Two functions \\(f\\) and \\(g\\) have domains \\(\\text{dom}(f) = [-1, 5]\\) and \\(\\text{dom}(g) = [0, 6]\\). The function \\(h = f - g\\) is defined. If \\(h(x) = 0\\) has a solution at \\(x = 5.5\\), is this possible? Justify.",
+     "a": "No, it is not possible. The domain of \\(h = f - g\\) is \\(\\text{dom}(f) \\cap \\text{dom}(g) = [0, 5]\\). The value \\(x = 5.5\\) is not in this intersection, so \\(h(5.5)\\) is undefined. A wrong answer (e.g., \"yes\") reveals the student thinks the domain of difference is the union or doesn't check domain intersection before solving equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for any two real functions \\(f\\) and \\(g\\), \\((f+g)(x) = (g+f)(x)\\) and \\((f-g)(x) = (g-f)(x)\\). Evaluate this claim and correct any false statement.",
+     "a": "The first statement is true: addition of functions is commutative because \\((f+g)(x)=f(x)+g(x)=g(x)+f(x)=(g+f)(x)\\). The second statement is false: subtraction is not commutative; \\((f-g)(x)=f(x)-g(x) = -(g(x)-f(x)) = -(g-f)(x)\\). A student who says both are true does not understand that subtraction of real numbers (and hence functions) is not commutative.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two different real functions \\(f\\) and \\(g\\) such that \\((fg)(x) = x^2 - 9\\) and \\(\\text{dom}(f) \\cap \\text{dom}(g) = \\mathbb{R}\\). State your functions and verify.",
+     "a": "Example: \\(f(x) = x+3\\), \\(g(x) = x-3\\). Then \\((fg)(x) = (x+3)(x-3) = x^2 - 9\\). Both domains are \\(\\mathbb{R}\\), intersection is \\(\\mathbb{R}\\). Another valid pair: \\(f(x)=x^2-9\\), \\(g(x)=1\\). A poor answer might give \\(f(x)=\\sqrt{x+3}\\), \\(g(x)=\\sqrt{x-3}\\) which have restricted domains, or might not verify the product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

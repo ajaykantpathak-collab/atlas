@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 105,
+  "chapter_title": "Fabrics Around Us",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe105.1.1",
+      "title": "Fibre to Fabric: Classification of Fibres",
+      "section": "5.1",
+      "definition": "Every fabric begins as a fibre. Fibres classify into natural -- cotton, wool, silk, jute from plants and animals -- and man-made, further split into regenerated fibres like rayon and fully synthetic ones like polyester and nylon. Fibre properties decide what the finished cloth can do.",
+      "formula": "",
+      "key_idea": "Know the fibre, predict the fabric -- cotton breathes, wool warms, synthetics crease-resist.",
+      "textbook_ref": "kehe105.txt fibre sections (classification of fibres, natural and man made, regenerated and synthetic, cotton wool silk jute rayon polyester nylon)",
+      "question_patterns": [
+        "classify fibres into natural and man made with examples",
+        "in class 11 fabrics around us: distinguish regenerated fibres from synthetic fibres",
+        "state two properties each of cotton and wool",
+        "why is rayon called a regenerated fibre",
+        "from which sources do natural fibres come",
+        "identify the fibre of a given fabric sample by its feel and burning test"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "split natural from man-made",
+          "explain": "Cotton, wool, silk and jute grow in nature; rayon, polyester and nylon are manufactured."
+        },
+        {
+          "step": 2,
+          "action": "subdivide the man-made",
+          "explain": "Regenerated fibres rework natural cellulose into filament; synthetics are built entirely from chemicals."
+        },
+        {
+          "step": 3,
+          "action": "read fibre into fabric",
+          "explain": "Absorbency, strength, warmth and crease behaviour follow the fibre, guiding selection for use."
+        }
+      ]
+    },
+    {
+      "id": "kehe105.1.2",
+      "title": "Yarns and Fabric Construction: Weaving and Knitting",
+      "section": "5.2",
+      "definition": "Fibres are spun into yarns, and yarns become fabric by two main routes: weaving, where lengthwise and crosswise yarns interlace at right angles, and knitting, where loops interlock. Woven cloth is stable and holds shape; knitted cloth stretches and yields.",
+      "formula": "",
+      "key_idea": "Interlaced yarns give stable cloth; interlocked loops give stretch -- construction is destiny for fabric.",
+      "textbook_ref": "kehe105.txt construction sections (yarn, weaving warp weft, knitting loops, woven versus knitted fabrics, other constructions)",
+      "question_patterns": [
+        "distinguish weaving from knitting as methods of construction",
+        "in class 11 fabrics around us: define warp and weft",
+        "why do knitted fabrics stretch more than woven ones",
+        "give two uses each of woven and knitted fabrics",
+        "how are yarns made from fibres",
+        "examine a fabric sample and decide whether it is woven or knitted"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "follow fibre to yarn",
+          "explain": "Short fibres are drawn and twisted into continuous yarns strong enough to build cloth."
+        },
+        {
+          "step": 2,
+          "action": "read the weave",
+          "explain": "In weaving, warp runs lengthwise and weft crosses it; plain, twill and satin are interlacing patterns."
+        },
+        {
+          "step": 3,
+          "action": "read the knit",
+          "explain": "Knitting interlocks loops in rows and courses; the loops give the stretch that wovens lack."
+        }
+      ]
+    },
+    {
+      "id": "kehe105.1.3",
+      "title": "Finishes and Fabric Selection for Use",
+      "section": "5.3",
+      "definition": "Finishes alter fabric to fit its purpose -- bleaching, dyeing, printing for looks; starching, waterproofing, crease-resisting for performance. Selection means matching fibre, construction and finish to the end use, the wearer and the care the fabric can receive.",
+      "formula": "",
+      "key_idea": "Finishes dress the fabric for its job -- choose fibre, construction and finish together, not singly.",
+      "textbook_ref": "kehe105.txt finish and selection sections (bleaching dyeing printing, functional finishes, waterproofing crease resistance, selection criteria)",
+      "question_patterns": [
+        "what are finishes and why are they applied to fabrics",
+        "in class 11 fabrics around us: distinguish aesthetic finishes from functional finishes",
+        "what finish would make a cloth waterproof",
+        "list the points to consider before selecting a fabric for school uniform",
+        "how does printing differ from dyeing",
+        "match fabrics to end uses justifying each choice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the finishes",
+          "explain": "Basic finishes clean and prepare; colouring finishes bleach, dye and print; functional finishes add crease-resistance, waterproofing or flame resistance."
+        },
+        {
+          "step": 2,
+          "action": "read the label",
+          "explain": "Selection weighs fibre behaviour, construction strength and finish against cost and care facilities."
+        },
+        {
+          "step": 3,
+          "action": "match to use",
+          "explain": "School wear wants durable, easily laundered cloth; ceremonies may prefer delicate, lustrous ones -- use rules the choice."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe105.txt fibre sections",
+      "concept": "kehe105.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Sort into natural and man-made: cotton saree, polyester shirt, woollen sweater, rayon scarf, nylon rope.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "collect the naturals",
+          "explain": "Cotton saree and woollen sweater come from plant and animal sources."
+        },
+        {
+          "step": 2,
+          "action": "collect the man-mades",
+          "explain": "Polyester shirt and nylon rope are fully synthetic; rayon scarf is man-made but regenerated from cellulose."
+        },
+        {
+          "step": 3,
+          "action": "subdivide",
+          "explain": "Within man-made, separate regenerated rayon from synthetic polyester and nylon."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe105.txt construction sections",
+      "concept": "kehe105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A T-shirt stretches easily while a school shirt barely does. Explain the construction difference.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "examine the T-shirt",
+          "explain": "Its loops interlock -- a knitted construction -- so loops stretch and recover."
+        },
+        {
+          "step": 2,
+          "action": "examine the school shirt",
+          "explain": "Its yarns interlace at right angles -- a woven construction -- which resists stretch."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Construction, not fibre alone, explains the behaviour difference."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Classify fibres with examples and one property of each class.",
+        "Explain weaving and knitting with their products.",
+        "What are finishes? Give two aesthetic and two functional finishes.",
+        "Suggest a suitable fabric for a monsoon coat and justify.",
+        "Distinguish warp from weft and plain weave from twill.",
+        "How does the burning test help identify fibres?"
+      ]
+    }
+  ]
+}

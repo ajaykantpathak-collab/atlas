@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_045",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_045",
+   "title": "c6_math_ch04_045",
+   "questions": [
+    {
+     "q": "What is the standard method for converting a fraction like 5/8 into a decimal?",
+     "a": "The method is to divide the numerator (5) by the denominator (8). If a student answers \"you just add a decimal point,\" they likely do not understand the relationship between the fraction bar and the division operation.",
+     "self_check": true
+    },
+    {
+     "q": "If you have the decimal 0.4, why do you write it as 4/10 instead of 4/100?",
+     "a": "Because the digit 4 is in the tenths place, not the hundredths place. A wrong answer suggests the student confuses the decimal place value names, which is critical for identifying the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Convert 3/5 into a decimal. Show your steps.",
+     "a": "Step 1: Divide 3 by 5. Step 2: 3 is smaller than 5, so write it as 3.0. Step 3: 5 goes into 30 six times, so the result is 0.6. A wrong answer usually occurs if the student tries to divide the denominator by the numerator instead.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 0.75 and 3/4. Are they the same value? How do you know?",
+     "a": "Yes, they are the same. Converting 3/4 to 0.75 or 0.75 to 75/100 (which simplifies to 3/4) proves they are identical. A student saying \"no\" fails to see that fractions and decimals are just different representations of the same amount.",
+     "self_check": true
+    },
+    {
+     "q": "Is it easier to represent 1/3 as a decimal? Why or why not?",
+     "a": "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends. A student who says \"it's easy because it's just 0.3\" misses the fact that 0.3 is only an approximation, not the exact value of 1/3.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fraction that, when converted to a decimal, results in exactly 0.2.",
+     "a": "The fraction is 2/10, which simplifies to 1/5. If the student provides a different fraction that equals 0.2 (like 20/100), it is also correct; if they provide something like 2/100, they misunderstand place value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

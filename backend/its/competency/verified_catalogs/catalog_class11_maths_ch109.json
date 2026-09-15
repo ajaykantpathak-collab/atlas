@@ -1,0 +1,970 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "STRAIGHT LINES",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh109.txt",
+ "concepts": [
+  {
+   "id": "kemh.109.1.1",
+   "title": "Distance Between Two Points in Coordinate Plane",
+   "section": "9.1",
+   "definition": "The straight-line separation between two coordinate points is computed as the square root of the sum of squared differences of their coordinates.",
+   "formula": "d = sqrt((x2 - x1)**2 + (y2 - y1)**2)",
+   "key_idea": "Euclidean length between two points in a two-dimensional Cartesian plane.",
+   "textbook_ref": "kemh109.txt lines 30-40",
+   "question_patterns": [
+    "In Class 11 coordinate geometry, find the distance between points P(x1, y1) and Q(x2, y2).",
+    "Calculate the length of the line segment joining (x1, y1) and (x2, y2).",
+    "Determine the distance between the given two points in two dimensions.",
+    "What is the Cartesian distance between two points (x1, y1) and (x2, y2)?",
+    "Compute the distance separating the coordinate pairs (x1, y1) and (x2, y2)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate coordinate differences",
+     "explain": "Subtract initial coordinates from final coordinates",
+     "compute": "x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "calculate ordinate differences",
+     "explain": "Subtract initial y-coordinate from final y-coordinate",
+     "compute": "y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "apply distance formula",
+     "explain": "Take square root of sum of squared differences",
+     "compute": "sqrt(dx**2 + dy**2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Cartesian distance between two points (x1, y1) and (x2, y2)?",
+     "solution": "Step 1: calculate coordinate differences. Step 2: calculate ordinate differences. Step 3: apply distance formula. Working: x2 - x1, y2 - y1, sqrt(dx**2 + dy**2).",
+     "answer": "Distance Between Two Points in Coordinate Plane applied step by step gives the required result."
+    },
+    {
+     "question": "Apply distance between two points in coordinate plane to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate coordinate differences. Step 2: calculate ordinate differences. Step 3: apply distance formula. Working: x2 - x1, y2 - y1, sqrt(dx**2 + dy**2).",
+     "answer": "The method of distance between two points in coordinate plane leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.1",
+   "title": "Slope of a Line Passing Through Two Points",
+   "section": "9.2.1",
+   "definition": "The steepness or gradient of a non-vertical line determined by the ratio of vertical change to horizontal change between any two points on it.",
+   "formula": "m = (y2 - y1) / (x2 - x1)",
+   "key_idea": "Tangent of inclination angle, represented by the ratio of delta y to delta x.",
+   "textbook_ref": "kemh109.txt lines 70-110",
+   "question_patterns": [
+    "In Class 11 straight lines, find the slope of the line passing through (x1, y1) and (x2, y2).",
+    "Calculate the gradient of a line connecting two coordinate points.",
+    "Determine the value of slope m for a line through given points.",
+    "What is the slope of the line segment joining (x1, y1) and (x2, y2)?",
+    "Compute the gradient m between two Cartesian points."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute vertical change",
+     "explain": "Difference in y coordinates",
+     "compute": "y2 - y1"
+    },
+    {
+     "step": 2,
+     "action": "compute horizontal change",
+     "explain": "Difference in x coordinates",
+     "compute": "x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "calculate slope",
+     "explain": "Divide vertical change by horizontal change",
+     "compute": "dy / dx"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the slope of the line segment joining (x1, y1) and (x2, y2)?",
+     "solution": "Step 1: compute vertical change. Step 2: compute horizontal change. Step 3: calculate slope. Working: y2 - y1, x2 - x1, dy / dx.",
+     "answer": "Slope of a Line Passing Through Two Points applied step by step gives the required result."
+    },
+    {
+     "question": "Apply slope of a line passing through two points to a fresh example and interpret the result.",
+     "solution": "Step 1: compute vertical change. Step 2: compute horizontal change. Step 3: calculate slope. Working: y2 - y1, x2 - x1, dy / dx.",
+     "answer": "The method of slope of a line passing through two points leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.2",
+   "title": "Perpendicularity Condition for Straight Lines",
+   "section": "9.2.2",
+   "definition": "Two non-vertical lines are perpendicular if and only if the product of their slopes is negative one.",
+   "formula": "m1 * m2 = -1",
+   "key_idea": "Slopes of orthogonal lines are negative reciprocals of one another.",
+   "textbook_ref": "kemh109.txt lines 115-140",
+   "question_patterns": [
+    "Find the missing coordinate x4 when line through (x1, y1) and (x2, y2) is perpendicular to line through (x3, y3) and (x4, y4).",
+    "Calculate the unknown x-coordinate given that two line segments are orthogonal.",
+    "Determine x for perpendicular line segments using slope product rule.",
+    "What is the unknown value of x when two lines intersect at right angles?",
+    "Compute the coordinate parameter that makes two straight lines perpendicular."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute vertical difference",
+     "explain": "Subtract the y-coordinate of the first point from the y-coordinate of the second point of the first line.",
+     "compute": "y2 - y1"
+    },
+    {
+     "step": 2,
+     "action": "compute horizontal difference",
+     "explain": "Subtract the x-coordinate of the first point from the x-coordinate of the second point of the first line.",
+     "compute": "x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "compute slope of first line",
+     "explain": "Divide the y-difference by the x-difference to get the slope of the first line.",
+     "compute": "dy1 / dx1"
+    },
+    {
+     "step": 4,
+     "action": "determine slope of second line",
+     "explain": "Use perpendicularity condition m1 * m2 = -1",
+     "compute": "-1 / m1"
+    },
+    {
+     "step": 5,
+     "action": "solve for unknown x-coordinate",
+     "explain": "Use second slope formula to solve for missing x-coordinate",
+     "compute": "x3 + (y4 - y3) / m2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the unknown value of x when two lines intersect at right angles?",
+     "solution": "Step 1: compute vertical difference. Step 2: compute horizontal difference. Step 3: compute slope of first line. Step 4: determine slope of second line. Step 5: solve for unknown x-coordinate. Working: y2 - y1, x2 - x1, dy1 / dx1, -1 / m1, x3 + (y4 - y3) / m2.",
+     "answer": "Perpendicularity Condition for Straight Lines applied step by step gives the required result."
+    },
+    {
+     "question": "Apply perpendicularity condition for straight lines to a fresh example and interpret the result.",
+     "solution": "Step 1: compute vertical difference. Step 2: compute horizontal difference. Step 3: compute slope of first line. Step 4: determine slope of second line. Step 5: solve for unknown x-coordinate. Working: y2 - y1, x2 - x1, dy1 / dx1, -1 / m1, x3 + (y4 - y3) / m2.",
+     "answer": "The method of perpendicularity condition for straight lines leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.3",
+   "title": "Acute Angle Between Two Intersecting Lines",
+   "section": "9.2.3",
+   "definition": "The measure of acute inclination between two intersecting non-vertical lines evaluated using their slopes.",
+   "formula": "tan_theta = abs((m2 - m1) / (1 + m1 * m2))",
+   "key_idea": "The tangent of the acute angle depends on the absolute normalized difference of slopes.",
+   "textbook_ref": "kemh109.txt lines 160-190",
+   "question_patterns": [
+    "In Class 11 straight lines, find the tangent of the acute angle between two lines with slopes m1 and m2.",
+    "Calculate tan theta for the acute angle between two given slopes.",
+    "Determine the angle tangent value between two intersecting lines.",
+    "What is tan theta between lines having gradients m1 and m2?",
+    "Compute the tangent of acute angle formed by two non-vertical lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute absolute slope difference",
+     "explain": "Take absolute difference between two slopes",
+     "compute": "abs(m2 - m1)"
+    },
+    {
+     "step": 2,
+     "action": "compute denominator factor",
+     "explain": "Evaluate absolute value of 1 plus product of slopes",
+     "compute": "abs(1 + m1 * m2)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate tangent of acute angle",
+     "explain": "Divide slope difference by product factor",
+     "compute": "num / den"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is tan theta between lines having gradients m1 and m2?",
+     "solution": "Step 1: compute absolute slope difference. Step 2: compute denominator factor. Step 3: evaluate tangent of acute angle. Working: abs(m2 - m1), abs(1 + m1 * m2), num / den.",
+     "answer": "Acute Angle Between Two Intersecting Lines applied step by step gives the required result."
+    },
+    {
+     "question": "Apply acute angle between two intersecting lines to a fresh example and interpret the result.",
+     "solution": "Step 1: compute absolute slope difference. Step 2: compute denominator factor. Step 3: evaluate tangent of acute angle. Working: abs(m2 - m1), abs(1 + m1 * m2), num / den.",
+     "answer": "The method of acute angle between two intersecting lines leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.3.1",
+   "title": "Standard Forms of Equation of a Line",
+   "section": "9.3",
+   "definition": "Algebraic representations of straight lines including point-slope, two-point, slope-intercept, and intercept forms.",
+   "formula": "y - y0 = m * (x - x0), y = m * x + c, x/a + y/b = 1",
+   "key_idea": "Linear equations in x and y characterize every point belonging to a straight line.",
+   "textbook_ref": "kemh109.txt lines 210-310",
+   "question_patterns": [
+    "In Class 11 straight lines, write the equation of line passing through given point with given slope.",
+    "Find the equation of line passing through two specified coordinate points.",
+    "Determine equation of line with given slope and y-intercept.",
+    "What is the equation of line given x-intercept and y-intercept?",
+    "Express the line equation in general linear form Ax + By + C = 0."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given geometric parameters",
+     "explain": "Extract points, slope, or intercepts provided in the question."
+    },
+    {
+     "step": 2,
+     "action": "select appropriate standard line form",
+     "explain": "Match parameters to point-slope, two-point, slope-intercept, or intercept form."
+    },
+    {
+     "step": 3,
+     "action": "substitute values and simplify",
+     "explain": "Rearrange into standard form Ax + By + C = 0."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.4.1",
+   "title": "Perpendicular Distance of a Point From a Line",
+   "section": "9.4",
+   "definition": "The shortest perpendicular length from a given coordinate point to a straight line expressed in general form.",
+   "formula": "d = abs(A * x1 + B * y1 + C) / sqrt(A**2 + B**2)",
+   "key_idea": "Evaluates length of perpendicular segment from point to general linear equation.",
+   "textbook_ref": "kemh109.txt lines 340-375",
+   "question_patterns": [
+    "In Class 11 straight lines, find the distance of point (x1, y1) from line Ax + By + C = 0.",
+    "Calculate perpendicular distance from a point to a straight line.",
+    "Determine the shortest distance from (x1, y1) to given line equation.",
+    "What is the perpendicular distance from origin or point to line?",
+    "Compute length of perpendicular drawn from point (x1, y1) to line Ax + By + C = 0."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate line expression at given point",
+     "explain": "Substitute point coordinates into equation and take absolute value",
+     "compute": "abs(a * x1 + b * y1 + c)"
+    },
+    {
+     "step": 2,
+     "action": "calculate norm of coefficients",
+     "explain": "Take square root of sum of squares of A and B",
+     "compute": "sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute perpendicular distance",
+     "explain": "Divide evaluated numerator by coefficient norm",
+     "compute": "num / den"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the perpendicular distance from origin or point to line?",
+     "solution": "Step 1: evaluate line expression at given point. Step 2: calculate norm of coefficients. Step 3: compute perpendicular distance. Working: abs(a * x1 + b * y1 + c), sqrt(a**2 + b**2), num / den.",
+     "answer": "Perpendicular Distance of a Point From a Line applied step by step gives the required result."
+    },
+    {
+     "question": "Apply perpendicular distance of a point from a line to a fresh example and interpret the result.",
+     "solution": "Step 1: evaluate line expression at given point. Step 2: calculate norm of coefficients. Step 3: compute perpendicular distance. Working: abs(a * x1 + b * y1 + c), sqrt(a**2 + b**2), num / den.",
+     "answer": "The method of perpendicular distance of a point from a line leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.4.2",
+   "title": "Distance Between Two Parallel Lines",
+   "section": "9.4.1",
+   "definition": "The perpendicular separation between two parallel straight lines having equal directional coefficients.",
+   "formula": "d = abs(C1 - C2) / sqrt(A**2 + B**2)",
+   "key_idea": "Perpendicular gap is given by absolute constant difference over coefficient norm.",
+   "textbook_ref": "kemh109.txt lines 380-410",
+   "question_patterns": [
+    "In Class 11 straight lines, find the distance between parallel lines Ax + By + C1 = 0 and Ax + By + C2 = 0.",
+    "Calculate distance separating two parallel lines.",
+    "Determine perpendicular distance between parallel line equations.",
+    "What is the distance between given parallel lines?",
+    "Compute length of perpendicular segment between two parallel straight lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute difference of constant terms",
+     "explain": "Take absolute difference between C1 and C2",
+     "compute": "abs(c1 - c2)"
+    },
+    {
+     "step": 2,
+     "action": "compute normal magnitude",
+     "explain": "Square root of sum of squares of x and y coefficients",
+     "compute": "sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate distance between lines",
+     "explain": "Divide absolute constant difference by normal magnitude",
+     "compute": "diff / norm"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the distance between given parallel lines?",
+     "solution": "Step 1: compute difference of constant terms. Step 2: compute normal magnitude. Step 3: calculate distance between lines. Working: abs(c1 - c2), sqrt(a**2 + b**2), diff / norm.",
+     "answer": "Distance Between Two Parallel Lines applied step by step gives the required result."
+    },
+    {
+     "question": "Apply distance between two parallel lines to a fresh example and interpret the result.",
+     "solution": "Step 1: compute difference of constant terms. Step 2: compute normal magnitude. Step 3: calculate distance between lines. Working: abs(c1 - c2), sqrt(a**2 + b**2), diff / norm.",
+     "answer": "The method of distance between two parallel lines leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.5.1",
+   "title": "Concurrency Condition for Three Straight Lines",
+   "section": "9.4",
+   "definition": "Condition under which three straight lines pass through a single common point of intersection.",
+   "formula": "A2 * x0 + k * y0 + C2 = 0",
+   "key_idea": "The point of intersection of two lines must satisfy the equation of the third line.",
+   "textbook_ref": "kemh109.txt lines 420-445",
+   "question_patterns": [
+    "Find parameter k for which three lines are concurrent.",
+    "Calculate unknown constant k making three straight lines intersect at one point.",
+    "Determine parameter k so that three given lines pass through a common point.",
+    "What value of k ensures concurrency of three straight lines?",
+    "Compute parameter k given three concurrent lines."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute determinant of coefficient matrix for lines 1 and 3",
+     "explain": "Cross product of coefficients A1, B1, A3, B3",
+     "compute": "a1 * b3 - a3 * b1"
+    },
+    {
+     "step": 2,
+     "action": "find x-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for x",
+     "compute": "(b1 * c3 - b3 * c1) / det_lines"
+    },
+    {
+     "step": 3,
+     "action": "find y-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for y",
+     "compute": "(c1 * a3 - c3 * a1) / det_lines"
+    },
+    {
+     "step": 4,
+     "action": "solve for unknown parameter k",
+     "explain": "Substitute intersection point into second line equation and isolate k",
+     "compute": "(-c2 - a2 * x0) / y0"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What value of k ensures concurrency of three straight lines?",
+     "solution": "Step 1: compute determinant of coefficient matrix for lines 1 and 3. Step 2: find x-coordinate of intersection point. Step 3: find y-coordinate of intersection point. Step 4: solve for unknown parameter k. Working: a1 * b3 - a3 * b1, (b1 * c3 - b3 * c1) / det_lines, (c1 * a3 - c3 * a1) / det_lines, (-c2 - a2 * x0) / y0.",
+     "answer": "Concurrency Condition for Three Straight Lines applied step by step gives the required result."
+    },
+    {
+     "question": "Apply concurrency condition for three straight lines to a fresh example and interpret the result.",
+     "solution": "Step 1: compute determinant of coefficient matrix for lines 1 and 3. Step 2: find x-coordinate of intersection point. Step 3: find y-coordinate of intersection point. Step 4: solve for unknown parameter k. Working: a1 * b3 - a3 * b1, (b1 * c3 - b3 * c1) / det_lines, (c1 * a3 - c3 * a1) / det_lines, (-c2 - a2 * x0) / y0.",
+     "answer": "The method of concurrency condition for three straight lines leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh109.txt Section 9.1",
+   "concept": "kemh.109.1.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points ({x1}, {y1}) and ({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": 6,
+    "y1": -4,
+    "x2": 3,
+    "y2": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate coordinate differences",
+     "explain": "Subtract initial coordinates from final coordinates",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "calculate ordinate differences",
+     "explain": "Subtract initial y-coordinate from final y-coordinate",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "apply distance formula",
+     "explain": "Take square root of sum of squared differences",
+     "compute": "d = sqrt(dx**2 + dy**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh109.txt Section 9.1",
+   "concept": "kemh.109.1.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points ({x1}, {y1}) and ({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": 1,
+    "y1": -3,
+    "x2": 4,
+    "y2": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate coordinate differences",
+     "explain": "Subtract initial coordinates from final coordinates",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "calculate ordinate differences",
+     "explain": "Subtract initial y-coordinate from final y-coordinate",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "apply distance formula",
+     "explain": "Take square root of sum of squared differences",
+     "compute": "d = sqrt(dx**2 + dy**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh109.txt Example 1(a)",
+   "concept": "kemh.109.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the slope of line passing through points ({x1}, {y1}) and ({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": 3,
+    "y1": -2,
+    "x2": -1,
+    "y2": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute vertical change",
+     "explain": "Difference in y coordinates",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 2,
+     "action": "compute horizontal change",
+     "explain": "Difference in x coordinates",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "calculate slope",
+     "explain": "Divide vertical change by horizontal change",
+     "compute": "m = dy / dx"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh109.txt Example 1(b)",
+   "concept": "kemh.109.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the slope of line passing through points ({x1}, {y1}) and ({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": 3,
+    "y1": -2,
+    "x2": 7,
+    "y2": -2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute vertical change",
+     "explain": "Difference in y coordinates",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 2,
+     "action": "compute horizontal change",
+     "explain": "Difference in x coordinates",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 3,
+     "action": "calculate slope",
+     "explain": "Divide vertical change by horizontal change",
+     "compute": "m = dy / dx"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kemh109.txt Example 3",
+   "concept": "kemh.109.2.2",
+   "question_type": "compute",
+   "question_pattern": "Line through ({x1}, {y1}) and ({x2}, {y2}) is perpendicular to line through ({x3}, {y3}) and (x, {y4}). Find x.",
+   "extracted_variables": {
+    "x1": -2,
+    "y1": 6,
+    "x2": 4,
+    "y2": 8,
+    "x3": 8,
+    "y3": 12,
+    "y4": 24
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute slope of first line",
+     "explain": "Calculate ratio of y-difference to x-difference for first line",
+     "compute": "m1 = (y2 - y1) / (x2 - x1)"
+    },
+    {
+     "step": 2,
+     "action": "determine slope of second line",
+     "explain": "Use perpendicularity condition m1 * m2 = -1",
+     "compute": "m2 = -1 / m1"
+    },
+    {
+     "step": 3,
+     "action": "solve for unknown x-coordinate",
+     "explain": "Use second slope formula to solve for missing x-coordinate",
+     "compute": "x4 = x3 + (y4 - y3) / m2"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kemh109.txt Example 3 (Variant)",
+   "concept": "kemh.109.2.2",
+   "question_type": "compute",
+   "question_pattern": "Line through ({x1}, {y1}) and ({x2}, {y2}) is perpendicular to line through ({x3}, {y3}) and (x, {y4}). Find x.",
+   "extracted_variables": {
+    "x1": 1,
+    "y1": 2,
+    "x2": 3,
+    "y2": 6,
+    "x3": 0,
+    "y3": 0,
+    "y4": -1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute slope of first line",
+     "explain": "Calculate ratio of y-difference to x-difference for first line",
+     "compute": "m1 = (y2 - y1) / (x2 - x1)"
+    },
+    {
+     "step": 2,
+     "action": "determine slope of second line",
+     "explain": "Use perpendicularity condition m1 * m2 = -1",
+     "compute": "m2 = -1 / m1"
+    },
+    {
+     "step": 3,
+     "action": "solve for unknown x-coordinate",
+     "explain": "Use second slope formula to solve for missing x-coordinate",
+     "compute": "x4 = x3 + (y4 - y3) / m2"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "kemh109.txt Example 2",
+   "concept": "kemh.109.2.3",
+   "question_type": "compute",
+   "question_pattern": "Compute tan theta for two lines having slopes m1 = {m1} and m2 = {m2}.",
+   "extracted_variables": {
+    "m1": 0.5,
+    "m2": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute slope difference",
+     "explain": "Take absolute difference between two slopes",
+     "compute": "num = abs(m2 - m1)"
+    },
+    {
+     "step": 2,
+     "action": "compute denominator factor",
+     "explain": "Evaluate absolute value of 1 plus product of slopes",
+     "compute": "den = abs(1 + m1 * m2)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate tangent of acute angle",
+     "explain": "Divide slope difference by product factor",
+     "compute": "tan_theta = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "kemh109.txt Example 2 (Variant)",
+   "concept": "kemh.109.2.3",
+   "question_type": "compute",
+   "question_pattern": "Compute tan theta for two lines having slopes m1 = {m1} and m2 = {m2}.",
+   "extracted_variables": {
+    "m1": 2,
+    "m2": -3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute slope difference",
+     "explain": "Take absolute difference between two slopes",
+     "compute": "num = abs(m2 - m1)"
+    },
+    {
+     "step": 2,
+     "action": "compute denominator factor",
+     "explain": "Evaluate absolute value of 1 plus product of slopes",
+     "compute": "den = abs(1 + m1 * m2)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate tangent of acute angle",
+     "explain": "Divide slope difference by product factor",
+     "compute": "tan_theta = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "kemh109.txt Example 9",
+   "concept": "kemh.109.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance of point ({x1}, {y1}) from the line {A}x + {B}y + {C} = 0.",
+   "extracted_variables": {
+    "x1": 3,
+    "y1": -5,
+    "A": 3,
+    "B": -4,
+    "C": -26
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate line expression at given point",
+     "explain": "Substitute point coordinates into equation and take absolute value",
+     "compute": "num = abs(a * x1 + b * y1 + c)"
+    },
+    {
+     "step": 2,
+     "action": "calculate norm of coefficients",
+     "explain": "Take square root of sum of squares of A and B",
+     "compute": "den = sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute perpendicular distance",
+     "explain": "Divide evaluated numerator by coefficient norm",
+     "compute": "d = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "kemh109.txt Example 9 (Variant)",
+   "concept": "kemh.109.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance of point ({x1}, {y1}) from the line {A}x + {B}y + {C} = 0.",
+   "extracted_variables": {
+    "x1": 0,
+    "y1": 0,
+    "A": 5,
+    "B": 12,
+    "C": -26
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate line expression at given point",
+     "explain": "Substitute point coordinates into equation and take absolute value",
+     "compute": "num = abs(a * x1 + b * y1 + c)"
+    },
+    {
+     "step": 2,
+     "action": "calculate norm of coefficients",
+     "explain": "Take square root of sum of squares of A and B",
+     "compute": "den = sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute perpendicular distance",
+     "explain": "Divide evaluated numerator by coefficient norm",
+     "compute": "d = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "kemh109.txt Example 10",
+   "concept": "kemh.109.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find distance between parallel lines {A}x + {B}y + {C1} = 0 and {A}x + {B}y + {C2} = 0.",
+   "extracted_variables": {
+    "A": 3,
+    "B": -4,
+    "C1": 7,
+    "C2": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute difference of constant terms",
+     "explain": "Take absolute difference between C1 and C2",
+     "compute": "diff = abs(c1 - c2)"
+    },
+    {
+     "step": 2,
+     "action": "compute normal magnitude",
+     "explain": "Square root of sum of squares of x and y coefficients",
+     "compute": "norm = sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate distance between lines",
+     "explain": "Divide absolute constant difference by normal magnitude",
+     "compute": "d = diff / norm"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "kemh109.txt Exercise 9.3 Q5(i)",
+   "concept": "kemh.109.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find distance between parallel lines {A}x + {B}y + {C1} = 0 and {A}x + {B}y + {C2} = 0.",
+   "extracted_variables": {
+    "A": 15,
+    "B": 8,
+    "C1": -34,
+    "C2": 31
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute difference of constant terms",
+     "explain": "Take absolute difference between C1 and C2",
+     "compute": "diff = abs(c1 - c2)"
+    },
+    {
+     "step": 2,
+     "action": "compute normal magnitude",
+     "explain": "Square root of sum of squares of x and y coefficients",
+     "compute": "norm = sqrt(a**2 + b**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate distance between lines",
+     "explain": "Divide absolute constant difference by normal magnitude",
+     "compute": "d = diff / norm"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "kemh109.txt Example 11",
+   "concept": "kemh.109.5.1",
+   "question_type": "compute",
+   "question_pattern": "If lines {A1}x + {B1}y + {C1} = 0, {A2}x + ky + {C2} = 0 and {A3}x + {B3}y + {C3} = 0 are concurrent, find k.",
+   "extracted_variables": {
+    "A1": 2,
+    "B1": 1,
+    "C1": -3,
+    "A2": 5,
+    "C2": -3,
+    "A3": 3,
+    "B3": -1,
+    "C3": -2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute determinant of coefficient matrix for lines 1 and 3",
+     "explain": "Cross product of coefficients A1, B1, A3, B3",
+     "compute": "det_lines = a1 * b3 - a3 * b1"
+    },
+    {
+     "step": 2,
+     "action": "find x-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for x",
+     "compute": "x0 = (b1 * c3 - b3 * c1) / det_lines"
+    },
+    {
+     "step": 3,
+     "action": "find y-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for y",
+     "compute": "y0 = (c1 * a3 - c3 * a1) / det_lines"
+    },
+    {
+     "step": 4,
+     "action": "solve for unknown parameter k",
+     "explain": "Substitute intersection point into second line equation and isolate k",
+     "compute": "k = (-c2 - a2 * x0) / y0"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "kemh109.txt Misc Ex Q8",
+   "concept": "kemh.109.5.1",
+   "question_type": "compute",
+   "question_pattern": "If lines {A1}x + {B1}y + {C1} = 0, {A2}x + ky + {C2} = 0 and {A3}x + {B3}y + {C3} = 0 are concurrent, find k.",
+   "extracted_variables": {
+    "A1": 1,
+    "B1": 1,
+    "C1": -2,
+    "A2": 1,
+    "C2": -3,
+    "A3": 2,
+    "B3": -1,
+    "C3": -3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute determinant of coefficient matrix for lines 1 and 3",
+     "explain": "Cross product of coefficients A1, B1, A3, B3",
+     "compute": "det_lines = a1 * b3 - a3 * b1"
+    },
+    {
+     "step": 2,
+     "action": "find x-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for x",
+     "compute": "x0 = (b1 * c3 - b3 * c1) / det_lines"
+    },
+    {
+     "step": 3,
+     "action": "find y-coordinate of intersection point",
+     "explain": "Solve system of first and third line using Cramer's rule for y",
+     "compute": "y0 = (c1 * a3 - c3 * a1) / det_lines"
+    },
+    {
+     "step": 4,
+     "action": "solve for unknown parameter k",
+     "explain": "Substitute intersection point into second line equation and isolate k",
+     "compute": "k = (-c2 - a2 * x0) / y0"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "Exercise 9.1",
+   "questions": [
+    "1. Draw a quadrilateral in the Cartesian plane, whose vertices are (-4, 5), (0, 7), (5, -5) and (-4, -2). Also, find its area.",
+    "2. The base of an equilateral triangle with side 2a lies along the y-axis such that the mid-point of the base is at the origin. Find vertices of the triangle.",
+    "3. Find the distance between P(x1, y1) and Q(x2, y2) when: (i) PQ is parallel to the y-axis, (ii) PQ is parallel to the x-axis.",
+    "4. Find a point on the x-axis, which is equidistant from the points (7, 6) and (3, 4).",
+    "5. Find the slope of a line, which passes through the origin, and the mid-point of the line segment joining the points P(0, -4) and B(8, 0).",
+    "6. Without using the Pythagoras theorem, show that the points (4, 4), (3, 5) and (-1, -1) are the vertices of a right angled triangle.",
+    "7. Find the slope of the line, which makes an angle of 30 deg with the positive direction of y-axis measured anticlockwise.",
+    "8. Without using distance formula, show that points (-2, -1), (4, 0), (3, 3) and (-3, 2) are the vertices of a parallelogram.",
+    "9. Find the angle between the x-axis and the line joining the points (3, -1) and (4, -2).",
+    "10. The slope of a line is double of the slope of another line. If tangent of the angle between them is 1/3, find the slopes of the lines.",
+    "11. A line passes through (x1, y1) and (h, k). If slope of the line is m, show that k - y1 = m(h - x1)."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "Exercise 9.2",
+   "questions": [
+    "1. Write the equations for the x- and y-axes.",
+    "2. Passing through the point (-4, 3) with slope 1/2.",
+    "3. Passing through (0, 0) with slope m.",
+    "4. Passing through (2, 2*sqrt(3)) and inclined with the x-axis at an angle of 75 deg.",
+    "5. Intersecting the x-axis at a distance of 3 units to the left of origin with slope -2.",
+    "6. Intersecting the y-axis at a distance of 2 units above the origin and making an angle of 30 deg with positive direction of the x-axis.",
+    "7. Passing through the points (-1, 1) and (2, -4).",
+    "8. The vertices of triangle PQR are P(2, 1), Q(-2, 3) and R(4, 5). Find equation of the median through the vertex R.",
+    "9. Find the equation of the line passing through (-3, 5) and perpendicular to the line through the points (2, 5) and (-3, 6).",
+    "10. A line perpendicular to the line segment joining the points (1, 0) and (2, 3) divides it in the ratio 1:n. Find the equation of the line.",
+    "11. Find the equation of a line that cuts off equal intercepts on the coordinate axes and passes through the point (2, 3).",
+    "12. Find equation of the line passing through the point (2, 2) and cutting off intercepts on the axes whose sum is 9.",
+    "13. Find equation of the line through the point (0, 2) making an angle 2*pi/3 with the positive x-axis. Also, find the equation of line parallel to it and crossing the y-axis at a distance of 2 units below the origin.",
+    "14. The perpendicular from the origin to a line meets it at the point (-2, 9), find the equation of the line.",
+    "15. The length L (in centimetre) of a copper rod is a linear function of its Celsius temperature C. In an experiment, if L = 124.942 when C = 20 and L = 125.134 when C = 110, express L in terms of C.",
+    "16. The owner of a milk store finds that, he can sell 980 litres of milk each week at Rs 14/litre and 1220 litres of milk each week at Rs 16/litre. Assuming a linear relationship between selling price and demand, how many litres could he sell weekly at Rs 17/litre?",
+    "17. P(a, b) is the mid-point of a line segment between axes. Show that equation of the line is x/a + y/b = 2.",
+    "18. Point R(h, k) divides a line segment between the axes in the ratio 1:2. Find equation of the line.",
+    "19. By using the concept of equation of a line, prove that the three points (3, 0), (-2, -2) and (8, 2) are collinear."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "Exercise 9.3",
+   "questions": [
+    "1. Reduce the following equations into slope-intercept form and find their slopes and the y-intercepts: (i) x + 7y = 0, (ii) 6x + 3y - 5 = 0, (iii) y = 0.",
+    "2. Reduce the following equations into intercept form and find their intercepts on the axes: (i) 3x + 2y - 12 = 0, (ii) 4x - 3y = 6, (iii) 3y + 2 = 0.",
+    "3. Find the distance of the point (-1, 1) from the line 12(x + 6) = 5(y - 2).",
+    "4. Find the points on the x-axis, whose distances from the line x/3 + y/4 = 1 are 4 units.",
+    "5. Find the distance between parallel lines: (i) 15x + 8y - 34 = 0 and 15x + 8y + 31 = 0, (ii) l(x + y) + p = 0 and l(x + y) - r = 0.",
+    "6. Find equation of the line parallel to the line 3x - 4y + 2 = 0 and passing through the point (-2, 3).",
+    "7. Find equation of the line perpendicular to the line x - 7y + 5 = 0 and having x intercept 3.",
+    "8. Find angles between the lines sqrt(3)x + y = 1 and x + sqrt(3)y = 1.",
+    "9. The line through the points (h, 3) and (4, 1) intersects the line 7x - 9y - 19 = 0 at right angle. Find the value of h.",
+    "10. Prove that the line through the point (x1, y1) and parallel to the line Ax + By + C = 0 is A(x - x1) + B(y - y1) = 0.",
+    "11. Two lines passing through the point (2, 3) intersects each other at an angle of 60 deg. If slope of one line is 2, find equation of the other line.",
+    "12. Find the equation of the right bisector of the line segment joining the points (3, 4) and (-1, 2).",
+    "13. Find the coordinates of the foot of perpendicular from the point (-1, 3) to the line 3x - 4y - 16 = 0.",
+    "14. The perpendicular from the origin to the line y = mx + c meets it at the point (-1, 2). Find the values of m and c.",
+    "15. If p and q are the lengths of perpendiculars from the origin to the lines x cos theta - y sin theta = k cos 2theta and x sec theta + y cosec theta = k, respectively, prove that p**2 + 4*q**2 = k**2.",
+    "16. In the triangle ABC with vertices A(2, 3), B(4, -1) and C(1, 2), find the equation and length of altitude from the vertex A.",
+    "17. If p is the length of perpendicular from the origin to the line whose intercepts on the axes are a and b, then show that 1/p**2 = 1/a**2 + 1/b**2."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "kemh.109.2.2: bad compute '(y2 - y1) / (x2 - x1)' (division by zero)",
+  "kemh.109.4.1: bad compute 'abs(A * x1 + B * y1 + C)' (unknown symbol: A)",
+  "kemh.109.4.1: bad compute 'sqrt(A**2 + B**2)' (unknown symbol: A)",
+  "kemh.109.4.2: bad compute 'abs(C1 - C2)' (unknown symbol: C1)",
+  "kemh.109.4.2: bad compute 'sqrt(A**2 + B**2)' (unknown symbol: A)",
+  "kemh.109.5.1: bad compute 'A1 * B3 - A3 * B1' (unknown symbol: A1)",
+  "kemh.109.5.1: bad compute '(B1 * C3 - B3 * C1) / det_lines' (unknown symbol: B1)",
+  "kemh.109.5.1: bad compute '(C1 * A3 - C3 * A1) / det_lines' (unknown symbol: C1)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

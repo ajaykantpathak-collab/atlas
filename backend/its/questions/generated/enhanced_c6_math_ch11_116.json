@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_116",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_116",
+   "title": "c6_math_ch11_116",
+   "questions": [
+    {
+     "q": "What is the primary characteristic of a perpendicular bisector in relation to the line segment it crosses?",
+     "a": "It divides the segment into two equal parts and forms a 90-degree angle. A wrong answer like \"it just cuts the line in half\" misses the \"perpendicular\" requirement, while \"it just crosses at 90 degrees\" misses the \"bisector\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "If you draw arcs with a radius that is exactly half the length of the line segment, what will happen during your construction?",
+     "a": "The arcs will meet exactly on the line segment, failing to create the two intersection points needed to draw the perpendicular line. This reveals a misunderstanding of why the radius must be \"more than half\" to ensure the arcs overlap above and below the segment.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a line segment AB of 8 cm. They set their compass to 3 cm and draw arcs from A and B. Why will they fail to construct the bisector?",
+     "a": "Because 3 cm is less than half of 8 cm (which is 4 cm), the arcs will not reach each other to create the necessary intersection points. This shows the student has not internalized the \"more than half\" rule required for successful construction.",
+     "self_check": true
+    },
+    {
+     "q": "If you have already constructed a perpendicular bisector for line segment XY, what can you say about any point lying on that bisector line?",
+     "a": "Every point on the perpendicular bisector is at an equal distance from point X and point Y. A wrong answer suggests the student views the bisector only as a line, rather than a geometric locus of points balanced between the segment's endpoints.",
+     "self_check": true
+    },
+    {
+     "q": "A friend claims that a perpendicular bisector is the same as any line that crosses a segment at 90 degrees. How would you critique this statement?",
+     "a": "The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through the exact midpoint, it is not a \"bisector.\" One must verify both the angle and the midpoint location to confirm it is a true perpendicular bisector.",
+     "self_check": true
+    },
+    {
+     "q": "Design a challenge: How would you use a perpendicular bisector construction to divide a piece of ribbon into four equal parts?",
+     "a": "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints, effectively creating four equal sections. A poor answer would suggest measuring with a ruler, missing the geometric construction requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_008",
+   "title": "c11_bs_cbse_01_008",
+   "questions": [
+    {
+     "q": "Name the auxiliary to trade that removes the hindrance of place and the auxiliary that removes the hindrance of time.",
+     "a": "Transport removes the hindrance of place by moving goods from production centres to markets. Warehousing removes the hindrance of time by storing goods until they are demanded. A wrong answer (e.g., saying banking removes place hindrance) reveals the student has memorised the list but not understood the specific utility each auxiliary creates.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer in Surat produces synthetic fabric. He stores the fabric in a godown for three months until the festival season. He insures the stock against fire. He takes a bank loan to pay weavers. He advertises in trade journals. Identify the hindrance removed by EACH activity.",
+     "a": "Storing in godown → hindrance of time (warehousing). Insuring stock → hindrance of risk (insurance). Bank loan → hindrance of finance (banking). Advertising → hindrance of information (advertising). A wrong answer shows the student cannot map real activities to the conceptual hindrance framework; they may confuse risk with finance or time with place.",
+     "self_check": true
+    },
+    {
+     "q": "A tea plantation in Assam wants to sell its produce to a retailer in Kolkata. The plantation owner hires a truck, buys a transit insurance policy, and instructs the driver to call the retailer upon reaching. Which auxiliaries are involved, and what would happen if any ONE of them were missing?",
+     "a": "Auxiliaries: transport (truck), insurance (transit policy), communication (phone call). If transport missing → goods cannot move (place hindrance). If insurance missing → owner bears full loss if accident occurs (risk unmitigated). If communication missing → retailer unaware of arrival, causing delays (information gap). A wrong answer indicates inability to analyse interdependence of auxiliaries in a supply chain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of warehousing and advertising in creating utility. Which creates time utility and which creates information utility? Give a concrete example where both are used simultaneously for the same product.",
+     "a": "Warehousing creates time utility by holding goods (e.g., winter coats stored from February to November). Advertising creates information utility by informing buyers (e.g., coat ads in October). Simultaneous use: A woollen garment manufacturer stores coats in a warehouse (time utility) and runs a Diwali ad campaign (information utility) so that when coats are released, buyers already know about them. A wrong answer reveals confusion between time and information utility or inability to see complementary roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Banking is the most important auxiliary to trade because without finance, no other auxiliary can function.\" Defend or critique with reasoning.",
+     "a": "Critique: Banking is crucial but not uniquely \"most important\". Transport, insurance, warehousing, and advertising are equally essential; a breakdown in any one halts trade. For example, even with bank finance, if transport strikes, goods don't move. The auxiliaries form an interdependent system, not a hierarchy. A wrong answer (uncritical agreement) shows lack of systems thinking and inability to evaluate relative importance in a network.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini business plan for a startup selling organic honey from Himachal Pradesh to urban customers across India. List the auxiliaries you will use, the hindrance each removes, and one specific service you will choose (e.g., \"cold-chain transport\" not just \"transport\").",
+     "a": "Good answer includes: 1) Cold-chain transport (place hindrance, keeps honey cool). 2) Warehousing with temperature control (time hindrance, preserves quality). 3) Transit insurance + product liability insurance (risk hindrance). 4) Bank overdraft for working capital (finance hindrance). 5) Social media advertising + influencer tie-ups (information hindrance). Poor answer lists generic names without specific services or misses a hindrance, showing superficial understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

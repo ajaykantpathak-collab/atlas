@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_3",
+   "title": "c8_geo_ch1_3",
+   "questions": [
+    {
+     "q": "Which of the following is a non-renewable natural resource?\nA) Wind energy harnessed in Tamil Nadu\nB) Coal deposits found in the Damodar River Valley\nC) Solar radiation received in the Thar Desert\nD) Fresh water flowing in the Ganga River",
+     "a": "B) Coal deposits found in the Damodar River Valley. Coal takes millions of years of heat and pressure underground to form from buried plant matter, so its supply cannot be naturally replenished on a human timescale. Choosing wind, solar, or fresh river water indicates a confusion between flow resources continuously replenished by natural cycles and finite mineral fossil fuels.",
+     "self_check": true
+    },
+    {
+     "q": "Why is groundwater categorized as a renewable resource, even though wells in many regions of Punjab and Rajasthan are drying up?\nA) Groundwater is produced artificially by underground rock reactions every year.\nB) Groundwater is replenished continuously by monsoon rainfall through soil percolation, but localized over-extraction temporarily exceeds its recharge rate.\nC) Groundwater is non-renewable because once drawn out of an aquifer, water molecules break down permanently.\nD) Groundwater is infinite and cannot actually dry up; the wells are simply not dug deep enough.",
+     "a": "B) Groundwater is replenished continuously by monsoon rainfall through soil percolation, but localized over-extraction temporarily exceeds its recharge rate. The underlying natural water cycle makes it renewable, but human consumption exceeding natural recharge creates local depletion. Choosing A or D reveals a misunderstanding of how aquifer recharge works, while choosing C mistakes local depletion for permanent physical destruction of water.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power station burns 10,000 tonnes of coal daily, drawn from a local reserve estimated at 3,65,000 tonnes. A nearby solar plant produces electricity using sunlight that shines every day. Calculate how many days the coal reserve will last, and state why sunlight does not face the same limitation.",
+     "a": "Steps to solve:\n1. Identify total coal reserve = 3,65,000 tonnes.\n2. Identify daily consumption rate = 10,000 tonnes/day.\n3. Calculate lifespan = 3,65,000 / 10,000 = 36.5 days.\n4. Explain sunlight exhaustibility: Sunlight is a continuous flow of nuclear energy from the sun that does not rely on a fixed, exhaustible underground reserve accumulated over geological time.\nIf a student calculates the wrong number of days, it reveals an arithmetic or unit conversion error; if they fail to explain why sunlight is unlimited, it shows a conceptual gap in distinguishing fixed mineral stocks from natural flow resources.",
+     "self_check": true
+    },
+    {
+     "q": "Compare topsoil in an agricultural farm in Uttar Pradesh with petroleum in an offshore field in Mumbai High. Under what conditions could both be depleted, and how do their regeneration timeframes differ?",
+     "a": "Topsoil is naturally renewable through organic decay and rock weathering, taking centuries to form a few centimeters, but intensive farming without cover crops can cause rapid soil erosion in just a few seasons. Petroleum is completely non-renewable on human timescales because it requires millions of years of heat and pressure acting on ancient marine organisms. Both can be depleted by humans: topsoil through rapid degradation exceeding slow natural formation, and petroleum because its extraction exhausts a fixed geological stock. An incorrect answer stating topsoil regenerates instantaneously or that petroleum can regenerate in a few decades shows a lack of understanding of geological versus biological time scales.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Maharashtra relies entirely on deep tube wells for sugarcane farming. The water table drops by 2 meters every year because extraction exceeds monsoon recharge. Evaluate whether calling groundwater \"unlimited renewable energy\" in this village's master plan is geographically accurate, and justify your answer.",
+     "a": "Calling groundwater \"unlimited renewable energy\" is geographically inaccurate and misleading. While water is classified as a renewable resource due to the hydrologic cycle, it is NOT \"unlimited.\" When extraction rates consistently exceed recharge rates (as shown by the annual 2-meter drop), the resource suffers from over-exploitation, converting a renewable stock into a non-functional, depleted state locally. An answer claiming it is accurate simply because water is classified as renewable fails to evaluate the critical operational balance between extraction and replenishment rates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a resource management plan for a rural district in Rajasthan that currently depends 80% on diesel generator sets (non-renewable) and deep groundwater pumping (renewable but over-extracted). Propose two concrete geographical interventions to make their energy and water use sustainable.",
+     "a": "A correct plan should include:\n1. Energy intervention: Transition from diesel generators to decentralized solar photovoltaic micro-grids, leveraging Rajasthan's high solar insolation (high solar irradiance) to replace non-renewable fossil fuel consumption.\n2. Water intervention: Construct rooftop rainwater harvesting structures and check dams across local ephemeral streams to boost groundwater recharge rates during the monsoon, bringing extraction and recharge back into equilibrium.\nA weak answer that merely suggests \"stop using water and diesel\" without proposing sustainable renewable alternatives or recharge mechanisms demonstrates a lack of practical geographical planning skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

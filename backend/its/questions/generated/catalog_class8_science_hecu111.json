@@ -1,0 +1,175 @@
+{
+ "catalog": "catalog_class8_science_hecu111.json",
+ "concepts": [
+  {
+   "id": "hecu.111.11.1",
+   "title": "Phases of the Moon",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What causes the phases of the moon?",
+     "a": "We see changing amounts of the sunlit half of the moon as it circles the earth each month.",
+     "self_check": true
+    },
+    {
+     "q": "What is a new moon and a full moon?",
+     "a": "New moon: the moon lies between earth and sun, its lit side faces away - not visible. Full moon: earth lies between, the whole lit side shows.",
+     "self_check": true
+    },
+    {
+     "q": "How long does the moon take to complete its phases?",
+     "a": "About 29.5 days (a lunar month).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.111.11.2",
+   "title": "Eclipses",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a solar eclipse?",
+     "a": "When the moon comes between the sun and earth and its shadow falls on earth, hiding the sun.",
+     "self_check": true
+    },
+    {
+     "q": "Why should we never look at a solar eclipse directly?",
+     "a": "The sun's rays can burn and permanently damage the retina.",
+     "self_check": true
+    },
+    {
+     "q": "What is a lunar eclipse?",
+     "a": "When the earth comes between the sun and moon, casting its shadow on the full moon.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.111.11.3",
+   "title": "Calendars from the Skies: Lunar and Solar Years",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "lunar_year",
+     "expr": "month_days * months_in_year",
+     "explain": "twelve lunar months of the given days make the lunar year"
+    },
+    {
+     "step": 2,
+     "name": "month_weeks",
+     "expr": "month_days / 7",
+     "explain": "one lunar month in weeks"
+    },
+    {
+     "step": 3,
+     "name": "gap_from_solar",
+     "expr": "365 - lunar_year",
+     "explain": "how many days short of the solar year it is"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A lunar month has 29.5 days. Find the length of a lunar year and its gap from 365 days.",
+     "vals": {
+      "month_days": 29.5,
+      "months_in_year": 12
+     },
+     "unit": "days",
+     "steps": null,
+     "a": "11 days",
+     "self_check": false
+    },
+    {
+     "q": "With 30-day lunar months, how long is a lunar year, and how short is it of the solar year?",
+     "vals": {
+      "month_days": 30,
+      "months_in_year": 12
+     },
+     "unit": "days",
+     "steps": null,
+     "a": "5 days",
+     "self_check": false
+    },
+    {
+     "q": "A calendar uses months of 29 days. Compute its year length and the shortfall from 365 days.",
+     "vals": {
+      "month_days": 29,
+      "months_in_year": 12
+     },
+     "unit": "days",
+     "steps": null,
+     "a": "17 days",
+     "self_check": false
+    },
+    {
+     "q": "If months were 28 days each, what year length results and what gap from 365?",
+     "vals": {
+      "month_days": 28,
+      "months_in_year": 12
+     },
+     "unit": "days",
+     "steps": null,
+     "a": "29 days",
+     "self_check": false
+    },
+    {
+     "q": "A lunar calendar has 13 months of 28 days. Find the year length and its difference from the solar year.",
+     "vals": {
+      "month_days": 28,
+      "months_in_year": 13
+     },
+     "unit": "days",
+     "steps": null,
+     "a": "1 days",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hecu.111.11.4",
+   "title": "Festivals and Astronomy",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two festivals linked to the phases of the moon.",
+     "a": "Diwali falls on a new moon night; Guru Nanak Jayanti or Buddha Purnima on full moon.",
+     "self_check": true
+    },
+    {
+     "q": "Why do many Indian calendars follow lunar months?",
+     "a": "Festivals and farming traditions track the moon's phases month by month.",
+     "self_check": true
+    },
+    {
+     "q": "How is Ekadashi related to the moon?",
+     "a": "It falls on the eleventh day after new moon and full moon - tied to the lunar cycle.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.111.11.5",
+   "title": "Artificial Satellites",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an artificial satellite?",
+     "a": "A human-made object launched to circle the earth - like INSAT, IRS or the ISS.",
+     "self_check": true
+    },
+    {
+     "q": "Name two uses of artificial satellites.",
+     "a": "Communication (TV, phone) and weather monitoring; also navigation and mapping.",
+     "self_check": true
+    },
+    {
+     "q": "How do satellites stay in orbit without falling?",
+     "a": "Their forward speed balances the earth's gravity pulling them down.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

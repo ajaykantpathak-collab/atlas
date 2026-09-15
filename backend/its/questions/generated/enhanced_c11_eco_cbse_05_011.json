@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_011",
+   "title": "c11_eco_cbse_05_011",
+   "questions": [
+    {
+     "q": "Define Golden Revolution and name the two main components that constitute it according to the NCERT textbook.",
+     "a": "Golden Revolution is the rapid growth phase in India's horticulture sector (fruits, vegetables, spices, flowers, medicinal/aromatic plants, plantation crops) and apiculture (honey/beekeeping) from the 1990s onward. A wrong answer (e.g., \"Green Revolution for honey\" or \"only fruits\") reveals confusion with White/Green Revolutions or incomplete understanding that horticulture includes six crop categories plus honey.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why horticulture generates higher per-hectare returns and more female employment per hectare than food-grain cultivation, using the concept of labour-intensity and value-per-unit-weight.",
+     "a": "Horticulture crops (e.g., grapes, pomegranates, flowers) have high value-per-kg (₹50-200/kg vs ₹20-30/kg for wheat) and require intensive labour for pruning, harvesting, grading, packing — tasks suited to women's participation (flower harvesting, nursery maintenance, beekeeping). Food grains are low-value, mechanisable, and seasonal. A wrong answer focusing only on \"higher prices\" misses the labour-intensity and perishability-driven value-addition (processing, cold storage) that creates sustained employment.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Nashik shifts 2 hectares from wheat (yield: 3.5 tonnes/ha, price: ₹2,200/tonne) to export-grade grapes (yield: 25 tonnes/ha, price: ₹45/kg). Calculate the change in gross revenue per hectare. If grape cultivation requires 180 person-days/ha/year vs 40 for wheat, calculate the additional employment generated per hectare.",
+     "a": "Step 1: Wheat revenue/ha = 3.5 tonnes × ₹2,200 = ₹7,700. Step 2: Grape revenue/ha = 25 tonnes × ₹45/kg = 25,000 kg × ₹45 = ₹11,25,000. Step 3: Revenue increase = ₹11,25,000 - ₹7,700 = ₹11,17,300/ha. Step 4: Employment increase = 180 - 40 = 140 person-days/ha/year. A wrong answer using ₹45/tonne instead of ₹45/kg shows unit confusion; ignoring the 1000x price difference reveals failure to grasp high-value-per-unit-weight concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Green Revolution and Golden Revolution on: (a) primary crops, (b) infrastructure needs, (c) employment pattern, (d) market orientation. Why does Golden Revolution need cold chains while Green Revolution needed irrigation and fertilizers?",
+     "a": "(a) Green: wheat, rice (cereals); Golden: fruits, vegetables, spices, flowers, honey. (b) Green: irrigation, HYV seeds, fertilizers, procurement centres; Golden: cold storage, refrigerated transport, processing units, pack-houses, export-quality certification. (c) Green: seasonal, male-dominated, mechanisable; Golden: year-round, female-intensive (grading, packing, nursery), labour-intensive. (d) Green: domestic procurement (FCI); Golden: urban retail, processing, export markets. Cold chains are needed because horticulture produce is perishable (days/weeks shelf-life) vs grains (months/years); value lies in freshness/quality, not just volume. A wrong answer listing \"better seeds\" for Golden Revolution misses the post-harvest infrastructure distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Golden Revolution has successfully doubled farmer incomes in horticulture belts.\" Use data on price volatility, market access for smallholders, and infrastructure gaps to support your judgment.",
+     "a": "Judgment: Partially true but overstated. Evidence: (1) Gross revenues per hectare are 10-15x cereals (as calculated), but net income depends on input costs (planting material, micronutrients, plant protection) and price risk — no MSP for most horticulture crops. (2) Smallholders (<2 ha) lack cold storage access; 10-15% produce wasted (NCERT p.80). (3) Marketing dominated by private traders; alternative channels (Apni Mandi, Rythu Bazars) cover limited areas. (4) Women's employment increased but often at low wages, piece-rate. Conclusion: Revenue potential is high, but income realization requires solving market linkage and infrastructure gaps. A wrong answer citing only revenue data ignores risk, waste, and market power asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-component intervention package for a block in Himachal Pradesh (apple-growing region) to help small orchardists capture more value from Golden Revolution. Components must address: (1) post-harvest losses, (2) market access, (3) female workforce participation.",
+     "a": "Good answer: (1) Solar-powered community cold storage (50 MT) at cluster level + mobile pre-cooling vans for farm-gate cooling — reduces 15% post-harvest loss. (2) Farmer Producer Company (FPC) with digital auction linkage to Delhi/Mumbai mandis and direct supply contracts with retail chains (e.g., Reliance, BigBasket) — bypasses 3-4 intermediaries. (3) Women's collective for apple grading/packing/processing (juice, jam, cider vinegar) with skill training and SHG credit — converts seasonal harvesting labour into year-round processing employment. Poor answer: \"Give subsidies for cold storage\" (ignores community management, energy access, market linkage, and gender dimension).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_002",
+   "title": "c11_eco_cbse_05_002",
+   "questions": [
+    {
+     "q": "A farmer borrows ₹1,00,000 from a moneylender at 3% per month simple interest for 6 months to purchase seeds and fertiliser. He repays the principal plus interest after selling his crop. Calculate the total interest paid and the effective annual interest rate. Why does this rate matter for distinguishing formal from informal credit?",
+     "a": "Total interest = ₹1,00,000 × 3% × 6 = ₹18,000. Effective annual rate = 3% × 12 = 36% per annum. This matters because formal institutional credit (commercial banks, cooperatives) typically charges 7-12% per annum for crop loans, while informal sources charge 24-60% per annum. A wrong answer (e.g., calculating 18% annual rate) reveals the student confuses the period rate with annual rate and fails to grasp the exploitative magnitude of informal credit — a core Class 11 distinction from Class 10's basic formal/informal classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a landless agricultural labourer in Bihar cannot access a Kisan Credit Card (KCC) from a commercial bank even though the bank has a branch in his village. Use the concepts of collateral, creditworthiness, and the distinction between cultivation loans and consumption loans.",
+     "a": "KCC is designed for cultivators with operational land holdings as collateral/security. A landless labourer has no land to pledge, no crop to hypothecate, and no documented income stream — failing the bank's creditworthiness criteria (3 Cs: Character, Capacity, Collateral). Banks classify him as \"consumption loan\" borrower (high risk, no productive asset creation) rather than \"production loan\" borrower. A wrong answer focusing only on \"lack of money\" or \"bank refusal\" misses the structural exclusion: institutional credit is asset-based, not need-based, which is why SHGs (node c11_eco_cbse_05_005) emerged to serve this segment through social collateral.",
+     "self_check": true
+    },
+    {
+     "q": "A Primary Agricultural Credit Society (PACS) in Punjab has 500 members. Total deposits mobilised = ₹2 crore. Total loans advanced = ₹5 crore. Of these, ₹3.5 crore went to large farmers (>10 hectares) and ₹1.5 crore to small/marginal farmers (<2 hectares). The overdue ratio is 35%. Calculate the deposit-loan ratio and the share of small/marginal farmers in total credit. What do these figures reveal about the PACS's functioning?",
+     "a": "Deposit-loan ratio = Deposits/Loans = 2/5 = 0.4 (or 40%). Small/marginal share = 1.5/5 = 30%. The low deposit-loan ratio (well below 1) shows the PACS fails to mobilise deposits — it relies on refinancing from higher tiers (DCCB → SCB → NABARD) rather than member savings. The 30% share to small/marginal farmers (who constitute ~85% of members) reveals elite capture. The 35% overdue ratio indicates poor recovery culture. A wrong answer calculating only the ratio without interpretation misses the critical appraisal skill: rural banking suffers from \"lending without deposit mobilisation\" and \"misallocation toward large borrowers\" — key NCERT criticisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the credit delivery mechanism of a Commercial Bank branch and an SHG in a Tamil Nadu village for a woman needing ₹25,000 for a dairy cow. Analyse across four dimensions: collateral requirement, interest rate, repayment flexibility, and social empowerment impact.",
+     "a": "Commercial Bank: Requires land/gold collateral or third-party guarantee; interest ~9-11% (with subvention); fixed monthly EMI; limited empowerment (individual transaction). SHG: No physical collateral (social collateral/group pressure); interest ~12-24% (higher but accessible); weekly/fortnightly instalments aligned with cash flows; high empowerment (decision-making, leadership, asset in woman's name). A wrong answer stating \"SHG interest is lower\" confuses accessibility with cost. The trade-off is: formal credit is cheaper but exclusionary; SHG credit is costlier but inclusive. This multi-dimensional comparison is exactly what board exam \"analyse\" questions test.",
+     "self_check": true
+    },
+    {
+     "q": "\"Jan-Dhan Yojana has solved the financial exclusion problem in rural India because 50 crore accounts were opened and ₹2 lakh crore mobilised.\" Evaluate this statement using the concepts of account dormancy, overdraft usage, and the distinction between account opening and credit access.",
+     "a": "The statement is flawed. Account opening ≠ credit access. Jan-Dhan provides: (1) zero-balance accounts, (2) ₹10,000 overdraft facility (after 6 months satisfactory operation), (3) RuPay card with ₹2 lakh accident insurance. But: ~20% accounts remain dormant; overdraft availed by <5% account holders; most rural credit needs are ₹50,000-5 lakh for production, not ₹10,000 consumption. The scheme improved deposit mobilisation and DBT efficiency but did not address collateral barriers, high transaction costs for small loans, or risk perception of bankers. A wrong answer accepting the claim at face value confuses \"financial inclusion\" (account access) with \"credit inclusion\" (loan access) — a critical Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a credit product for tenant farmers in Andhra Pradesh who cultivate leased land (no ownership title) and need ₹75,000 for chilli cultivation (4-month cycle). Specify: eligibility criteria, collateral substitute, interest rate structure, repayment schedule, and institutional partner. Justify each feature.",
+     "a": "A strong answer proposes: (1) Eligibility: Registered tenancy agreement + revenue record (pattadar passbook) + crop plan; (2) Collateral substitute: Warehouse receipt of expected produce + SHG group guarantee + crop insurance (PMFBY); (3) Interest: 7% (4% with prompt repayment subvention) via KCC tenant farmer variant; (4) Repayment: Bullet payment at harvest + 10-day grace; (5) Partner: RRB (local presence) + NABARD refinance. Justification: Tenant farmers lack land title (major exclusion factor); warehouse receipt converts future crop into collateral; subvention makes it affordable; bullet repayment matches cash flow; RRB has mandate for weaker sections. A poor answer suggests \"give loan without collateral\" — ignoring banking prudence norms and sustainability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

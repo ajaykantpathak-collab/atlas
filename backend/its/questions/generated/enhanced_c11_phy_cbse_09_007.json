@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_007",
+   "title": "c11_phy_cbse_09_007",
+   "questions": [
+    {
+     "q": "State Bernoulli's equation for an ideal fluid flowing along a streamline. Identify each term by name, symbol, and SI unit.",
+     "a": "Bernoulli's equation: P + ½ρv² + ρgh = constant. Terms: P = pressure energy per unit volume (Pa or N/m²), ½ρv² = kinetic energy per unit volume (J/m³ = Pa), ρgh = potential energy per unit volume (J/m³ = Pa). A wrong answer (e.g., omitting the ½ factor, confusing ρgh with mgh, or stating units as J instead of J/m³) reveals the student has memorised the formula without understanding its energy-per-unit-volume interpretation or the dimensional consistency required.",
+     "self_check": true
+    },
+    {
+     "q": "Water flows through a horizontal pipe that narrows from cross-sectional area A₁ to A₂ (A₂ < A₁). Using Bernoulli's principle and the equation of continuity, explain why the pressure at the narrow section is lower than at the wide section. Do not just state the formula - explain the energy transfer.",
+     "a": "By continuity, v₂ > v₁ since A₂ < A₁. Kinetic energy per unit volume (½ρv²) increases from section 1 to 2. Since the pipe is horizontal, h₁ = h₂, so potential energy per unit volume (ρgh) is unchanged. By energy conservation (Bernoulli), the increase in kinetic energy per unit volume must be balanced by a decrease in pressure energy per unit volume (P). Thus P₂ < P₁. A wrong answer (e.g., \"pressure increases because the water is squeezed\" or \"pressure stays the same\") reveals the misconception that pressure and velocity are directly proportional, confusing fluid statics (P = ρgh) with fluid dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Water (ρ = 1000 kg/m³) flows steadily through a horizontal pipe. At point 1, the cross-sectional area is 20 cm² and the pressure is 2.0 × 10⁵ Pa. At point 2, the area reduces to 5 cm². If the flow speed at point 1 is 2 m/s, find the pressure at point 2. (g = 10 m/s²)",
+     "a": "Step 1: Given: A₁ = 20 × 10⁻⁴ m², A₂ = 5 × 10⁻⁴ m², P₁ = 2.0 × 10⁵ Pa, v₁ = 2 m/s, ρ = 1000 kg/m³, horizontal pipe ⇒ h₁ = h₂.\nStep 2: Use continuity: A₁v₁ = A₂v₂ ⇒ v₂ = (A₁/A₂)v₁ = (20/5) × 2 = 8 m/s.\nStep 3: Bernoulli (horizontal): P₁ + ½ρv₁² = P₂ + ½ρv₂² ⇒ P₂ = P₁ + ½ρ(v₁² - v₂²).\nStep 4: Substitute: P₂ = 2.0×10⁵ + ½(1000)(2² - 8²) = 2.0×10⁵ + 500(4 - 64) = 2.0×10⁵ - 30,000 = 1.7×10⁵ Pa.\nStep 5: Check: v increased 4×, KE/volume increased by factor 16, pressure dropped by 30 kPa - physically reasonable.\nAnswer: P₂ = 1.7 × 10⁵ Pa. A wrong answer (e.g., 2.3×10⁵ Pa) reveals sign error in energy balance or unit mismatch (using cm² without converting to m²).",
+     "self_check": true
+    },
+    {
+     "q": "A fluid flows through a pipe that rises vertically. At the lower point (h₁ = 0), pressure is P₁ = 3.0 × 10⁵ Pa and speed is v₁ = 4 m/s. At the higher point (h₂ = 5 m), the pipe cross-section is the same. Compare the pressure at the two points. Does P₂ equal P₁ - ρgh₂? Explain why or why not using Bernoulli's equation.",
+     "a": "Since cross-section is same, continuity gives v₂ = v₁ = 4 m/s. Bernoulli: P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂. With v₁ = v₂ and h₁ = 0, this simplifies to P₁ = P₂ + ρgh₂ ⇒ P₂ = P₁ - ρgh₂. Yes, P₂ equals P₁ - ρgh₂ exactly because kinetic energy per unit volume is unchanged. A wrong answer (e.g., \"P₂ = P₁\" or \"P₂ = P₁ + ρgh₂\") reveals confusion between hydrostatic pressure variation (which assumes v=0) and dynamic flow where kinetic energy terms may cancel.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bernoulli's equation can be used to calculate the pressure difference between the top and bottom of a waterfall because water is flowing.\" Evaluate this claim. Is Bernoulli's equation applicable? Justify your answer by checking each assumption.",
+     "a": "The claim is incorrect. Bernoulli's equation requires: (1) steady flow - a waterfall is turbulent and unsteady; (2) non-viscous fluid - air resistance and internal friction are significant; (3) incompressible fluid - water satisfies this; (4) flow along a streamline - waterfall breaks into droplets, streamlines cross and mix; (5) no energy loss - significant energy dissipates as heat/sound. Since multiple assumptions fail, Bernoulli's equation cannot be applied. A wrong evaluation (e.g., \"yes, because water is incompressible\") reveals the student checks only one assumption and ignores the others, particularly steady/streamline flow and negligible viscosity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using household items to demonstrate Bernoulli's principle. List materials, procedure, observation, and the physical explanation linking observation to P + ½ρv² + ρgh = constant.",
+     "a": "Materials: Two empty light cans (or paper cups), drinking straw, thread, tape. Procedure: Suspend two cans vertically ~3 cm apart using threads taped to a ruler. Blow air through the straw between the cans. Observation: Cans move toward each other. Explanation: Air speed between cans increases ⇒ ½ρv² increases ⇒ by Bernoulli, P decreases between cans. Atmospheric pressure on outer sides pushes cans together. A poor answer (e.g., \"blow on paper and it lifts\" without explaining pressure difference) reveals inability to isolate variables (height constant, density constant) and connect observation to the specific energy terms in Bernoulli's equation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_02_012",
+   "title": "c11_hs_cbse_02_012",
+   "questions": [
+    {
+     "q": "A 14-month-old infant has a red dot placed on their forehead and is placed before a mirror. The infant reaches out to touch the reflection's forehead. What does this behavior indicate about the infant's self-awareness, and at approximately what age would you expect the infant to touch their OWN forehead instead?",
+     "a": "The infant touching the reflection indicates NO self-awareness — they perceive the mirror image as another child. Self-recognition (touching own forehead) typically emerges around 18 months. A wrong answer (e.g., \"this shows self-awareness\" or \"this happens at 3 years\") reveals confusion between self-recognition and mere visual attention, or ignorance of the established developmental milestone timeline from the mirror self-recognition test.",
+     "self_check": true
+    },
+    {
+     "q": "Radha (3 years 8 months) says: \"I am good because I write as well.\" When asked to explain more, she falls silent. A 9-year-old says: \"I am good at making friends and finishing homework on time, but I'm not as fast at running as Kiran.\" Compare the SELF-DESCRIPTION STRUCTURE of these two children using the developmental framework from the text.",
+     "a": "Radha uses absolute, concrete, physical/behavioral self-descriptions (\"I write\") and overestimates herself (\"I am good\" without nuance). The 9-year-old uses comparative social descriptions (\"faster than Kiran\"), internal psychological traits (\"good at making friends\"), and shows realistic self-evaluation. A wrong answer that treats both as \"describing skills\" misses the structural shift from absolute→comparative, concrete→abstract, physical→psychological, and overestimation→realism that defines the early-to-middle childhood transition.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old girl from a traditional Indian village assists her family in agriculture, has clear adult responsibilities since age 12, and expects an arranged marriage. Her urban counterpart has multiple career options, extended education, and conflicts with parents over lifestyle choices. Using the text's framework, explain WHY the village adolescent may experience LESS identity crisis despite having LESS autonomy.",
+     "a": "The village adolescent's identity is drawn from familial sources with role continuity (same agricultural role from 12 to 16, just more responsibility), minimal conflict with elders, and a \"we\"-oriented self-definition. The urban adolescent faces extended dependency, choice overload, value conflicts with parents, and an \"I\"-oriented self-definition requiring active construction. A wrong answer focusing only on \"less freedom = less crisis\" misses the crucial role of ROLE CONTINUITY and CULTURAL CONGRUENCE in reducing the gap between expected and actual behavior that Erikson identifies as the source of identity crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this statement: \"Cognitive changes during adolescence — specifically the ability to think hypothetically and abstractly — are NECESSARY but NOT SUFFICIENT for identity formation.\" Use the concepts of ideal self, real self, and future planning to justify your analysis.",
+     "a": "NECESSARY: Abstract thought allows adolescents to imagine hypothetical future selves (ideal self), compare them with current competencies (real self), and plan career paths — without this, identity remains concrete. NOT SUFFICIENT: Identity also requires socio-cultural validation (family/peer feedback), emotional integration (managing mood swings, body image), and biological maturation (puberty timing). A boy with advanced abstract reasoning but severe body dysmorphia and parental rejection may still fail identity formation. A wrong answer treating cognitive change as sufficient ignores the bio-psycho-social INTERACTION central to the text's framework.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Firm and affectionate parenting is universally optimal for adolescent identity development across all cultures.\" Consider the Indian context of interdependence, the Western context of independence, and the text's discussion of individuality versus connectedness.",
+     "a": "The claim is PARTIALLY valid but culturally incomplete. Firm-affectionate parenting fosters individuality (autonomy support) AND connectedness (secure base) — the text's dual requirement. However, \"firmness\" manifests differently: in Western contexts it means enforcing separation/autonomy; in Indian contexts it means enforcing familial duties/interdependence. A parenting style high on affection but low on cultural congruence (e.g., encouraging Western-style independence in a traditional joint family) may CREATE identity conflict. Optimal parenting must balance the text's \"individuality AND connectedness\" within the specific cultural meaning of those terms. A simple \"yes\" or \"no\" answer fails to analyze the cultural mediation of parenting practices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-week \"Self-Construction Journal\" activity for Class 11 students that helps them trace their own identity development across the four influences (biological, cognitive, emotional, socio-cultural). Specify: (a) one daily prompt for each influence, (b) one weekly synthesis task, and (c) how the final output maps to Erikson's identity vs. role confusion stage.",
+     "a": "(a) Daily prompts: Biological — \"Note one bodily change/sensation today and how you felt about it\"; Cognitive — \"Describe one hypothetical future scenario you imagined today\"; Emotional — \"Record one mood swing and its trigger\"; Socio-cultural — \"Note one moment you felt 'we' vs 'I' today\". (b) Weekly synthesis: Week 1 — \"Map my real vs ideal self on 5 dimensions\"; Week 2 — \"Interview one parent/grandparent about their adolescent identity struggles\"; Week 3 — \"Write my 'identity statement' integrating all four influences\". (c) Final output maps to Erikson: a coherent identity statement = identity achievement; fragmented/contradictory statements = role confusion; foreclosed statement (copied from parents) = identity foreclosure; absent statement = identity diffusion. A weak answer lists generic journaling without developmental mapping or Eriksonian criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

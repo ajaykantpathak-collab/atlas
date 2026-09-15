@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_007",
+   "title": "c12_geo_cbse_10_007",
+   "questions": [
+    {
+     "q": "How many million-plus cities (urban agglomerations with population ≥ 1 million) were there in India according to the 2011 Census?",
+     "a": "53. A wrong answer (e.g., 46 or 65) reveals the student is using outdated data (Census 2001 had 35) or confusing \"million-plus cities\" with \"megacities\" (population ≥ 10 million, of which India has 3: Mumbai, Delhi, Kolkata). This confusion between thresholds is a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the states of Uttar Pradesh and Maharashtra together account for nearly one-third of all million-plus cities in India, while large states like Madhya Pradesh and Rajasthan have very few?",
+     "a": "Uttar Pradesh and Maharashtra lie on the fertile Ganga plain and the industrially developed Mumbai-Pune corridor respectively, offering historical urbanization, agricultural surplus, industrial jobs, and transport networks. Madhya Pradesh and Rajasthan have large areas but lower urbanization due to rugged terrain (Vindhyas, Thar), limited perennial rivers, and later industrial development. A wrong answer citing only \"population size\" ignores that Bihar (high population) has only one million-plus city (Patna) — showing physical geography and economic history matter more than raw population.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below (hypothetical but realistic), calculate the decadal growth rate (2001-2011) for City X and determine if its growth exceeds the national urban growth rate of 31.8% for the same decade.\nCity X population: 2001 = 12.5 lakh, 2011 = 18.7 lakh.",
+     "a": "Step 1: Growth = 18.7 - 12.5 = 6.2 lakh. Step 2: Growth rate = (6.2 / 12.5) × 100 = 49.6%. Step 3: 49.6% > 31.8%, so City X grew faster than the national urban average. A wrong answer often forgets to divide by the base year population (12.5) and instead divides by 18.7, yielding 33.2% — a classic denominator error. Another error: using absolute growth (6.2 lakh) without converting to percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of million-plus cities in the Indo-Gangetic plain versus the Deccan plateau. What physical and historical factors explain the difference in density and alignment?",
+     "a": "Indo-Gangetic plain: cities form a near-linear chain along the Ganga (Delhi, Meerut, Ghaziabad, Kanpur, Lucknow, Prayagraj, Varanasi, Patna) due to flat alluvial terrain, perennial rivers, dense rural population, and historical capitals. Deccan plateau: cities are more dispersed (Hyderabad, Bengaluru, Pune, Nagpur, Surat, Ahmedabad) because of uneven terrain, reliance on peninsular rivers (seasonal), and growth around medieval capitals, colonial ports, and post-independence industrial nodes. A weak answer only lists cities without linking alignment to river courses or transport corridors (e.g., Grand Trunk Road vs. Mumbai-Chennai rail line).",
+     "self_check": true
+    },
+    {
+     "q": "\"Million-plus cities in India are engines of economic growth but also magnets for unsustainable resource consumption.\" Evaluate this statement using two specific examples of resource stress (water, air, land) from different million-plus cities.",
+     "a": "Example 1: Bengaluru (IT hub) — groundwater depletion > 1000m depth in some wards, lakes encroached (Bellandur froth), showing water stress from unplanned growth. Example 2: Delhi-NCR — PM2.5 levels regularly exceed 400 µg/m³ in winter due to vehicular emissions, construction dust, and stubble burning from hinterland, showing air stress. A poor evaluation gives generic \"pollution increases\" without naming specific cities, pollutants, or linking to million-plus city scale (e.g., confusing with smaller towns). Strong answers note that both cities are million-plus and their stress scales with population concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend (4 classes) to show the state-wise number of million-plus cities from Census 2011. Specify class intervals, colors, and justify why you chose those breaks.",
+     "a": "Data range: 0 to 7 (Uttar Pradesh has 7). Classes: 0 (white), 1-2 (light yellow), 3-4 (orange), 5-7 (dark red). Breaks at 0, 1, 3, 5 reflect natural clustering: many states have 0 or 1, a few have 3-4 (Maharashtra, Tamil Nadu, Gujarat), only UP has 7. Colors follow sequential scheme for count data. A poor legend uses equal intervals (0-1, 2-3, 4-5, 6-7) which puts UP alone in top class and wastes colors on empty classes — showing lack of data-aware classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

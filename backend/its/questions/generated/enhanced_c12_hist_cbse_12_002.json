@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_002",
+   "title": "c12_hist_cbse_12_002",
+   "questions": [
+    {
+     "q": "Name the seven members of the Drafting Committee and identify who served as its Chairman, Constitutional Advisor, and Chief Draughtsman.",
+     "a": "The Drafting Committee members were: Dr. B.R. Ambedkar (Chairman), K.M. Munshi, Alladi Krishnaswamy Aiyar, N. Gopalaswami Ayyangar, Syed Mohammad Saadullah, B.L. Mitter (replaced by N. Madhava Rao), and D.P. Khaitan (replaced by T.T. Krishnamachari). B.N. Rau served as Constitutional Advisor (not a member) and S.N. Mukherjee as Chief Draughtsman. A wrong answer — e.g., listing Nehru or Patel as members — reveals the student conflates the *political leadership* (Nehru-Patel-Prasad trio) with the *technical drafting body*, missing the crucial distinction between political direction and legal craftsmanship.",
+     "self_check": true
+    },
+    {
+     "q": "Why was Dr. B.R. Ambedkar, a long-time political opponent of the Congress, appointed Chairman of the Drafting Committee? Explain the strategic reasoning behind this choice.",
+     "a": "Ambedkar was appointed on Mahatma Gandhi's advice to ensure the Constitution commanded legitimacy across *all* communities, especially Dalits who distrusted the Congress. His legal expertise (doctorates from Columbia and LSE, bar-at-law) made him technically competent, while his outsider status signaled that the Constitution would not be a \"Congress document.\" A wrong answer citing only his \"legal skill\" misses the *political symbolism*: the Congress deliberately placed its fiercest critic in charge of drafting the founding document to demonstrate inclusive nation-building. This confusion between *technical qualification* and *political strategy* is a common board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "The Drafting Committee met for 141 days over two years. The full Constituent Assembly sat for 165 days over three years. Using this data, explain why the Committee's *off-session* work was constitutionally more significant than the Assembly's *in-session* debates.",
+     "a": "The Drafting Committee performed the *synthesis* function: it integrated reports from 13+ committees (Union Powers, Provincial Constitution, Advisory, Minorities, Fundamental Rights, etc.), resolved inconsistencies, drafted articles in legal language, and prepared the \"Draft Constitution\" (Feb 1948) and \"Revised Draft\" (Nov 1948) that the Assembly debated clause-by-clause. The Assembly's role was *deliberative and legitimating*; the Committee's was *constructive and technical*. A student who thinks the Assembly \"wrote\" the Constitution in plenary sessions misunderstands the division of labour: the Committee did the architectural work; the Assembly did the inspection and approval.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Drafting Committee's approach to **Article 17 (Abolition of Untouchability)** and **Article 356 (President's Rule)**. How did Ambedkar's handling of these two provisions reveal different facets of his role — as a *champion of the marginalised* and as an *architect of a strong Centre*?",
+     "a": "For Article 17, Ambedkar pushed for absolute, unqualified abolition (\"Untouchability is abolished and its practice in any form is forbidden\") — reflecting his lifelong struggle against caste oppression. For Article 356, he supported strong central emergency powers, arguing that \"the Centre must be made as strong as possible\" to prevent fragmentation after Partition. The same person authored both: one provision *empowers the oppressed*, the other *empowers the State*. A student who sees Ambedkar only as a \"Dalit leader\" misses his constitutional pragmatism; one who sees him only as a \"centraliser\" misses his moral commitment. The diagnostic tests whether the student can hold this *duality* without reducing Ambedkar to a single label.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Indian Constitution is essentially Ambedkar's Constitution.\" Use evidence from the Drafting Committee's composition, the Assembly's amendment record, and the role of B.N. Rau to support your evaluation.",
+     "a": "The statement is *partially true but historically misleading*. True: Ambedkar chaired the Committee, piloted the Draft, and shaped key provisions (Fundamental Rights, Directive Principles, federal structure). False: (1) The Committee had 6 other members — Munshi and Aiyar contributed crucially to Fundamental Rights and judicial provisions; (2) B.N. Rau prepared the *initial structural blueprint* (background papers on comparative constitutions) before the Committee formed; (3) The Assembly moved *2,473 amendments* and adopted many — e.g., the \"socialist\" and \"secular\" words in the Preamble came later (42nd Amendment), not from Ambedkar; (4) Nehru's Objectives Resolution and Patel's integration of princely states set the political framework. A good answer acknowledges Ambedkar's *primus inter pares* leadership without erasing the collective, iterative process. A poor answer either deifies him or dismisses him.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-step timeline showing how a *single constitutional provision* — e.g., **Article 32 (Right to Constitutional Remedies)** — moved from: (a) a committee recommendation → (b) Drafting Committee wording → (c) Assembly debate → (d) final adoption. Annotate each step with the *key actor* and *nature of change*.",
+     "a": "1. **Advisory Committee (Fundamental Rights Sub-Committee, chaired by J.B. Kripalani)** — Recommends \"right to move Supreme Court for enforcement of fundamental rights\" (Apr 1947). *Actor: Kripalani; Nature: Political principle.*\n2. **B.N. Rau (Constitutional Advisor)** — Drafts preliminary article placing remedy in Supreme Court *and* High Courts, modelled on US *certiorari* and UK prerogative writs (Jul 1947). *Actor: Rau; Nature: Comparative legal design.*\n3. **Drafting Committee (Ambedkar, Munshi, Aiyar)** — Refines wording: \"right to move the Supreme Court by appropriate proceedings\" + Parliament may empower other courts (Oct 1947). *Actor: Ambedkar/Munshi; Nature: Legal precision + federal balance.*\n4. **Constituent Assembly (General Discussion)** — Members debate: should High Courts have concurrent jurisdiction? (Nov 1948). *Actor: Assembly members; Nature: Federalism concern.*\n5. **Drafting Committee (Reconsideration)** — Ambedkar moves amendment: High Courts *shall* have power under Art 226; Supreme Court under Art 32 (Dec 1948). *Actor: Ambedkar; Nature: Compromise — dual remedy.*\n6. **Final Adoption** — Article 32 adopted with \"heart and soul\" speech by Ambedkar (Jan 1949). *Actor: Full Assembly; Nature: Legitimation.*\nA poor timeline lists dates only; a good one shows *institutional handoffs* and *substantive evolution*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

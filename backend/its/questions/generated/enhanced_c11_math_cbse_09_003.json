@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_003",
+   "title": "c11_math_cbse_09_003",
+   "questions": [
+    {
+     "q": "Write the formula for the sum of first n terms of an AP when the first term is a and the common difference is d. Then state the alternative formula when the last term l is known instead of d.",
+     "a": "The two formulas are: S_n = n/2 [2a + (n-1)d] and S_n = n/2 (a + l) where l = a + (n-1)d is the nth term. A wrong answer (e.g., writing S_n = n(a + l) or S_n = n/2 [a + (n-1)d]) reveals the student has memorised the formula incorrectly - missing the factor of 2 in the first term or forgetting the 1/2 factor entirely, which are the two most common algebraic errors in this formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula S_n = n/2 (a + l) works by describing the pairing method. Use the AP: 3, 7, 11, 15, 19 to illustrate with n = 5.",
+     "a": "In the AP 3, 7, 11, 15, 19, pairing first and last: 3+19=22, second and fourth: 7+15=22, middle term 11 is half of 22. There are 5/2 = 2.5 pairs each summing to 22, giving 2.5 × 22 = 55. A wrong explanation (e.g., \"multiply first term by n\" or \"add all terms individually\") shows the student does not understand the structural symmetry of an AP and is relying on rote memorisation without grasping why the formula works.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 20 terms of the AP whose nth term is given by a_n = 5n - 3.",
+     "a": "Given a_n = 5n - 3. For n=1, a = 5(1) - 3 = 2. Common difference d = coefficient of n = 5. Using S_n = n/2 [2a + (n-1)d]: S_20 = 20/2 [2(2) + 19(5)] = 10[4 + 95] = 10 × 99 = 990. A wrong answer (e.g., 1000 or 980) typically comes from incorrectly identifying a or d - students often take a = -3 (constant term) instead of finding the first term, or miscalculate 2a + (n-1)d as 2(5n-3) + (n-1)5.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of first n terms of an AP is given by S_n = 3n² + 5n. Find the 10th term of this AP. Explain why you cannot simply substitute n=10 into S_n.",
+     "a": "The 10th term a_10 = S_10 - S_9. S_10 = 3(100) + 50 = 350. S_9 = 3(81) + 45 = 288. a_10 = 350 - 288 = 62. Substituting n=10 into S_n gives the sum of first 10 terms, not the 10th term alone. A student who substitutes n=10 directly into S_n and gets 350 as the answer confuses \"sum of first n terms\" with \"nth term\" - this is the most fundamental conceptual error in this topic.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find n if S_n = 210 for the AP: 2, 5, 8, ...\" and writes: 210 = n/2 [2(2) + (n-1)3] → 420 = n(4 + 3n - 3) → 420 = n(3n + 1) → 3n² + n - 420 = 0 → (3n + 36)(n - 11.67) = 0 → n = 11.67. Identify the error and find the correct answer.",
+     "a": "The factorisation is wrong: 3n² + n - 420 = 0 does not factor to (3n + 36)(n - 11.67). Correct factorisation: 3n² + 36n - 35n - 420 = 3n(n+12) - 35(n+12) = (3n-35)(n+12) = 0 → n = 35/3 or n = -12. Since n must be a positive integer, check: n=11 gives S_11 = 11/2[4+30] = 187; n=12 gives S_12 = 12/2[4+33] = 222. No integer n gives exactly 210. The error is incorrect factorisation of the quadratic - a very common algebraic mistake when the quadratic doesn't factor neatly over integers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context: rupees, savings, instalments) where the sum of an AP is given and the student must find the number of terms n. The problem should result in a quadratic equation that has one valid positive integer solution. Provide the problem statement and the complete solution.",
+     "a": "Problem: \"Ravi saves ₹100 in the first week and increases his weekly savings by ₹20 each week. After how many weeks will his total savings reach ₹2800?\" Solution: a=100, d=20, S_n=2800. 2800 = n/2[200 + (n-1)20] → 5600 = n(200 + 20n - 20) → 5600 = n(20n + 180) → 20n² + 180n - 5600 = 0 → n² + 9n - 280 = 0 → (n+20)(n-14) = 0 → n = 14 weeks. A poor problem would have non-integer solutions or negative time, showing the student doesn't understand the constraints of real-world AP problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

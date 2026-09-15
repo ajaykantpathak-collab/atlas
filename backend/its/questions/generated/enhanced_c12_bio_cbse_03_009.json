@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_009",
+   "title": "c12_bio_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the immediate trigger for the foetal ejection reflex, and which hormone is released from the maternal posterior pituitary in response?",
+     "a": "The foetal ejection reflex is triggered by mild uterine contractions caused by signals from the fully developed foetus and placenta (e.g., increased foetal cortisol altering placental steroid ratios). In response, the maternal posterior pituitary releases oxytocin. A wrong answer (e.g., \"progesterone withdrawal triggers oxytocin\") reveals confusion between the initiation of labour and the maintenance of pregnancy; progesterone withdrawal is permissive but not the direct trigger for the reflex.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the oxytocin-uterine contraction loop is classified as a positive feedback mechanism, and state what eventually terminates this loop.",
+     "a": "Oxytocin stimulates stronger uterine contractions, which stretch the cervix and uterine wall, sending stronger afferent signals to the hypothalamus, causing more oxytocin release — each cycle amplifies the previous one, the hallmark of positive feedback. The loop terminates when the baby is expelled, removing the cervical stretch stimulus. A wrong answer (e.g., \"negative feedback because oxytocin inhibits contractions\") shows a fundamental misunderstanding of feedback terminology and the direction of the physiological response.",
+     "self_check": true
+    },
+    {
+     "q": "A woman delivers a healthy baby at term. Within hours, she notices a thick, yellowish fluid from her breasts. Identify this fluid, list two key immunological components it contains, and explain why its production is not dependent on suckling.",
+     "a": "The fluid is colostrum. It contains secretory IgA antibodies and lactoferrin (also lysozyme, leukocytes). Colostrum production (lactogenesis II) is triggered by the abrupt drop in progesterone and estrogen after placental expulsion, which removes inhibition on prolactin action; it begins before suckling. Suckling maintains milk supply but is not required for the initial colostrum synthesis. A wrong answer (e.g., \"colostrum is mature milk\" or \"suckling starts colostrum\") confuses the hormonal trigger (progesterone withdrawal) with the maintenance trigger (suckling-induced prolactin/oxytocin).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hormonal regulation of milk synthesis (lactogenesis) and milk ejection (let-down reflex). Include the hormones, their source glands, target cells, and the stimulus for each.",
+     "a": "Lactogenesis: Prolactin from anterior pituitary acts on mammary alveolar epithelial cells to synthesize milk components; stimulated by progesterone withdrawal after delivery and maintained by suckling-induced prolactin surges. Milk ejection: Oxytocin from posterior pituitary acts on myoepithelial cells surrounding alveoli to contract and expel milk; stimulated by suckling-induced neuroendocrine reflex. A wrong answer that swaps the hormones or targets (e.g., \"oxytocin makes milk, prolactin ejects it\") indicates failure to distinguish synthesis from expulsion — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Exclusive breastfeeding for six months is a highly reliable contraceptive method because prolactin permanently suppresses ovulation.\" Identify the correct and incorrect parts, and explain the physiological basis for the actual contraceptive effect.",
+     "a": "Correct: Exclusive breastfeeding can suppress ovulation (lactational amenorrhea). Incorrect: \"permanently\" and \"highly reliable\" — the effect is temporary (up to ~6 months) and fails if feeding frequency drops or supplements are introduced. Physiological basis: High-frequency suckling maintains elevated prolactin, which inhibits GnRH pulse frequency from the hypothalamus, preventing the LH surge required for ovulation. A wrong answer that attributes contraception solely to \"high prolactin blocks ovaries directly\" misses the central GnRH suppression mechanism and the critical dependence on suckling pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational study to test whether the duration of the second stage of labour correlates with the intensity of the foetal ejection reflex in primigravida women. Specify the measurable variables, the expected relationship based on the oxytocin positive feedback loop, and one confounding factor you would control.",
+     "a": "Variables: (1) Duration of second stage (time from full cervical dilation to delivery) — dependent; (2) Intensity of foetal ejection reflex — measured by frequency/amplitude of uterine contractions via tocodynamometer before oxytocin augmentation — independent. Expected: Stronger initial reflex → faster oxytocin surge → shorter second stage (inverse correlation). Confounder: Epidural analgesia (blunts reflex and prolongs labour). A poor design would omit objective contraction measurement or fail to control for analgesia, revealing inability to translate the physiological feedback loop into a testable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

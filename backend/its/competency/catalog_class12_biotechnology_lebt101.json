@@ -1,0 +1,277 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 1,
+ "chapter_title": "An Overview of Recombinant DNA Technology",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt101.1",
+   "title": "Recombinant DNA Technology Foundations",
+   "section": "1.1",
+   "definition": "Genetic engineering collects every method that edits nucleic acid directly, and it became practical once Stanley Cohen's plasmid delivery into E. coli met Herbert Boyer's restriction-enzyme cutting that leaves matching single-stranded termini - together, in 1973, they closed a foreign gene into a cut plasmid and created the first recombinant molecule, aided by ligase discovered in 1967.",
+   "formula": "-",
+   "key_idea": "Cut with restriction enzymes, join with ligase, and carry the construct in a plasmid - the cut-paste-clone logic behind all rDNA work.",
+   "textbook_ref": "lebt101.txt section 1.1 and Box 1",
+   "question_patterns": [
+    "discuss briefly how recombinant DNA technology was initially developed",
+    "what expertise did Stanley Cohen and Herbert Boyer each contribute to the 1973 experiment",
+    "which enzymes act as molecular scissors on DNA and who discovered them",
+    "which enzyme joins two DNA fragments and in which year was it discovered",
+    "why did purified animal-sourced therapeutic proteins cause immunogenic reactions in humans",
+    "define gene cloning as the central theme of rDNA technology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the cutters and joiner",
+     "explain": "Restriction enzymes cut DNA at specific sites; ligase seals fragments together."
+    },
+    {
+     "step": 2,
+     "action": "recall the 1973 union",
+     "explain": "Cohen's plasmid transformation plus Boyer's sticky-end cutting produced the first recombinant plasmid."
+    },
+    {
+     "step": 3,
+     "action": "state the purpose",
+     "explain": "Isolate a desired gene, propagate it in a host and harvest its product in quantity - gene cloning."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who delivered plasmids into E. coli in the first recombinant experiment: Stanley Cohen or Herbert Boyer?",
+     "a": "Stanley Cohen"
+    }
+   ]
+  },
+  {
+   "id": "lebt101.2",
+   "title": "Milestones Timeline of Modern Biotechnology",
+   "section": "1.1 Box 1",
+   "definition": "The subject advanced in dated leaps: Ereky coined the name in 1917, Avery's team fixed DNA as genetic material in 1944, Lederberg found plasmids in 1952, Watson and Crick solved the helix in 1953, Berg assembled the first recombinant DNA in 1972, Mullis invented PCR in 1983, Humulin won approval in 1982, the human genome project ran from 1990 to 2003, and the CRISPR-Cas9 Nobel arrived in 2019-2020 after the mRNA vaccine work.",
+   "formula": "hgp_span = completion_year - start_year",
+   "key_idea": "Subtract one milestone year from another to measure how fast the field moved between landmarks.",
+   "textbook_ref": "lebt101.txt Box 1 (selected developments 1917-2023)",
+   "question_patterns": [
+    "how many years did the Human Genome Project run from its 1990 start to its 2003 completion",
+    "how many years passed between the invention of PCR in 1983 and the CRISPR-Cas9 Nobel award year",
+    "who coined the term biotechnology and when - and who discovered plasmids",
+    "which was the first FDA-approved recombinant DNA therapeutic and in which year",
+    "arrange Berg's recombinant DNA Cohen-Boyer cloning and hybridoma technology in date order",
+    "in which year did Bt cotton reach India and who developed Golden Rice"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the project span",
+     "explain": "Subtract the launch year from the completion year.",
+     "compute": "hgp_span = completion_year - start_year"
+    },
+    {
+     "step": 2,
+     "action": "gap between inventions",
+     "explain": "Subtract the earlier technology's year from the later one.",
+     "compute": "tech_gap = later_year - earlier_year"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In which year did Watson and Crick solve the double helix?",
+     "a": "1953"
+    }
+   ]
+  },
+  {
+   "id": "lebt101.3",
+   "title": "Therapeutic Proteins from rDNA Technology",
+   "section": "1.1",
+   "definition": "Recombinant production replaced gland harvesting: where tons of pancreas once yielded only milligrams of insulin and thousands of pituitaries a little growth hormone, bacteria now brew human insulin (approved as Humulin in 1982) and growth hormone free of animal contaminants; interferon fights cancer while plasminogen activator and urokinase dissolve dangerous blood clots.",
+   "formula": "-",
+   "key_idea": "Human genes in microbial hosts give safer, cheaper and limitless supplies of proteins once rationed from animal glands.",
+   "textbook_ref": "lebt101.txt section 1.1 and Box 1",
+   "question_patterns": [
+    "why was animal-sourced insulin limited in quantity and costly before recombinant production",
+    "name two clot-dissolving proteins produced through rDNA technology",
+    "which recombinant product treats dwarfism and in which host is it made",
+    "which was the world's first recombinant DNA therapeutic product approved by FDA and who developed it",
+    "how does interferon produced by rDNA technology serve cancer patients",
+    "what advantages do plant-made therapeutic proteins promise over animal-based ones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the protein",
+     "explain": "Match the disease to its protein - diabetes to insulin, dwarfism to growth hormone, clots to activators."
+    },
+    {
+     "step": 2,
+     "action": "state the host system",
+     "explain": "Bacterial fermentation replaces animal glands, cutting cost and immunogenic contamination."
+    },
+    {
+     "step": 3,
+     "action": "cite the milestone",
+     "explain": "Humulin's 1982 FDA approval marks the first recombinant therapeutic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Recombinant human insulin was approved under which name: Humulin or Flavr Savr?",
+     "a": "Humulin"
+    }
+   ]
+  },
+  {
+   "id": "lebt101.4",
+   "title": "E. coli Division versus Genome Replication Timing",
+   "section": "1.1 Exercises",
+   "definition": "Escherichia coli finishes a division every twenty minutes yet needs about sixty minutes to copy its chromosome, an apparent paradox the cell resolves by running several replication forks in parallel (multifork replication), so each daughter still inherits a complete copy on schedule.",
+   "formula": "forks_parallel = replication_time / generation_time",
+   "key_idea": "Divide replication time by generation time to see how many forks must run at once.",
+   "textbook_ref": "lebt101.txt Exercises question 6 (20-minute division, 60-minute replication)",
+   "question_patterns": [
+    "E. coli divides in 20 minutes but takes 60 minutes to replicate its DNA - how many replication forks must run in parallel",
+    "what is the multifork replication mechanism in rapidly growing E. coli",
+    "why does the assertion-reason pairing of a 20-minute division and 60-minute replication hold true",
+    "how many generations of E. coli complete in two hours of growth",
+    "why is fast multifork replication vital for cloning plasmids in bacterial hosts",
+    "state the generation time of E. coli under standard conditions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide replication by division",
+     "explain": "Forks needed equal replication minutes per generation minutes.",
+     "compute": "forks_parallel = replication_time / generation_time"
+    },
+    {
+     "step": 2,
+     "action": "count the generations",
+     "explain": "Elapsed minutes divided by the twenty-minute generation time.",
+     "compute": "generations = elapsed_min / generation_time"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many minutes does E. coli need to copy its chromosome: sixty or twenty?",
+     "a": "sixty"
+    }
+   ]
+  },
+  {
+   "id": "lebt101.5",
+   "title": "Genetically Modified Crops and Plant Products",
+   "section": "1.1",
+   "definition": "Targeted edits in plant genomes gave farmers crops that shrug off disease, drought and salinity - the Flavr Savr tomato of 1994 opened the era, Monsanto's Bt cotton reached fields in 1996 and India by 2003, and Golden Rice carrying provitamin A appeared in 2000 - while rDNA technology now promises therapeutic proteins grown in plants at low cost and free of animal pathogens.",
+   "formula": "-",
+   "key_idea": "One inserted gene can buy resistance, nutrition or shelf life - and plants may become the cheapest bioreactors of all.",
+   "textbook_ref": "lebt101.txt section 1.1 and Box 1",
+   "question_patterns": [
+    "name the first genetically engineered crop and the company that produced it",
+    "in which years was Bt cotton first released commercially and introduced into India",
+    "which crop was engineered to carry provitamin A and by whom",
+    "how does rDNA technology help farmers facing drought and salinity",
+    "list three disease-resistance or quality traits bred into GM crops",
+    "why are plant-based therapeutic products expected to be cheaper and safer than animal-based ones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the trait",
+     "explain": "Resistance, tolerance, nutrition or shelf life identifies the crop example."
+    },
+    {
+     "step": 2,
+     "action": "place the milestone",
+     "explain": "Flavr Savr 1994, Bt cotton 1996 (India 2003), Golden Rice 2000."
+    },
+    {
+     "step": 3,
+     "action": "note the benefit",
+     "explain": "Higher quality produce, safer therapies and reduced pesticide or gland harvests."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which tomato opened the GM crop era in 1994: Flavr Savr or Golden Rice?",
+     "a": "Flavr Savr"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt101.txt Box 1 (Human Genome Project 1990-2003; PCR 1983)",
+   "concept": "lebt101.2",
+   "question_type": "compute",
+   "question_pattern": "The Human Genome Project began in {start_year} and finished in {completion_year}; PCR was invented in {pcr_year}. Find the project duration and the years from PCR to the project's completion.",
+   "extracted_variables": {
+    "start_year": "HGP launch year",
+    "completion_year": "HGP completion year",
+    "pcr_year": "year PCR was invented"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract launch from completion",
+     "explain": "Duration equals completion minus start.",
+     "compute": "hgp_span = completion_year - start_year"
+    },
+    {
+     "step": 2,
+     "action": "gap from PCR",
+     "explain": "Subtract the PCR year from the completion year.",
+     "compute": "gap_after_pcr = completion_year - pcr_year"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt101.txt Exercises question 6 (20-minute generation, 60-minute replication)",
+   "concept": "lebt101.4",
+   "question_type": "compute",
+   "question_pattern": "E. coli divides every {generation_time} minutes but needs {replication_time} minutes to replicate its chromosome. Find the number of replication forks that must operate in parallel, and the generations completed in {elapsed_min} minutes.",
+   "extracted_variables": {
+    "generation_time": "minutes per cell division",
+    "replication_time": "minutes to replicate the chromosome once",
+    "elapsed_min": "minutes of observed growth"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the two times",
+     "explain": "Parallel forks equal replication time over generation time.",
+     "compute": "forks_parallel = replication_time / generation_time"
+    },
+    {
+     "step": 2,
+     "action": "count generations",
+     "explain": "Elapsed minutes divided by generation time.",
+     "compute": "generations = elapsed_min / generation_time"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt101-ex1",
+   "source_ref": "lebt101.txt Exercises (questions 1-6)",
+   "questions": [
+    "Discuss briefly how recombinant DNA technology was initially developed.",
+    "Briefly discuss the application of rDNA technology in crop improvement and therapeutics.",
+    "Who discovered the plasmid - pick from Paul Berg, Sir Alec Jeffreys, Joshua Lederberg and Kary Mullis.",
+    "Plasminogen activator and urokinase are used as which kind of drug - choose the correct option.",
+    "Evaluate the assertion that restriction endonuclease cuts DNA and is mostly isolated from bacteria, with the reason that it is a type of nuclease.",
+    "Evaluate the assertion that E. coli divides in 20 minutes while replicating its DNA in about 60 minutes, with the reason of multifork replication."
+   ]
+  }
+ ]
+}

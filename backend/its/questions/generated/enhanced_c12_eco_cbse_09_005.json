@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_005",
+   "title": "c12_eco_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the immediate effect on the monetary base (high-powered money) when the RBI conducts an outright purchase of government securities from commercial banks?",
+     "a": "The monetary base increases by the exact amount of the purchase because RBI credits the selling banks' reserve accounts, raising reserve money (currency with public + bank reserves). A wrong answer (e.g., \"money supply increases by the same amount\") reveals confusion between the monetary base and the broader money supply (M3), ignoring the money multiplier process.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an OMO purchase of government securities typically lead to a fall in short-term interest rates like the call money rate?",
+     "a": "OMO purchase injects reserves into the banking system, creating a surplus of funds. Banks with excess reserves lend in the call money market, increasing supply of loanable funds and pushing down the interest rate. A wrong answer (e.g., \"because RBI sets the rate directly\") confuses OMO with administered rate changes like repo rate; OMO works through market forces, not fiat.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose the RBI sells ₹5,000 crore of government securities to banks. If the money multiplier is 4 and the currency-deposit ratio is constant, calculate the maximum potential change in money supply (M3). Show your steps.",
+     "a": "Step 1: OMO sale reduces reserves (high-powered money) by ₹5,000 crore. Step 2: Change in money supply = money multiplier × change in high-powered money = 4 × (-₹5,000 crore) = -₹20,000 crore. Step 3: Money supply contracts by up to ₹20,000 crore. A wrong sign or using the multiplier on the wrong base reveals misunderstanding of the direction of OMO impact or the definition of the multiplier.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of an OMO purchase versus a reduction in the Cash Reserve Ratio (CRR) on bank reserves and the money multiplier. Which tool changes the multiplier itself?",
+     "a": "OMO purchase increases reserves but leaves the money multiplier unchanged (assuming constant currency-deposit and reserve-deposit ratios). A CRR reduction increases the money multiplier because banks need to hold fewer reserves per deposit, allowing more lending from the same reserve base. OMO changes the numerator (H); CRR changes the denominator (multiplier). Confusing the two shows inability to distinguish between changing the monetary base and changing the multiplier.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI wants to combat high inflation without causing a sharp spike in interest rates that could hurt investment. Evaluate whether a large outright OMO sale or a series of small repo operations (under LAF) is more appropriate, and justify your answer.",
+     "a": "A series of small repo operations (reverse repo) is more appropriate because it absorbs liquidity temporarily and signals policy stance without permanently reducing the monetary base, allowing fine-tuning. An outright sale permanently drains reserves and can cause volatile rate spikes. Choosing outright sale for fine-tuning reveals a misunderstanding of the flexibility and signaling role of LAF versus the structural nature of outright OMO.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a scenario where the RBI uses OMO to offset the liquidity impact of a large government expenditure program (e.g., ₹1 lakh crore infrastructure spending) that credits money directly to contractors' bank accounts. Specify the type of OMO, the approximate amount, and the expected outcome on money supply.",
+     "a": "Government spending injects ₹1 lakh crore into banking system, increasing reserves and money supply. RBI should conduct an outright OMO sale of approximately ₹1 lakh crore (or slightly less, accounting for currency drain) of government securities to banks. This drains the excess reserves, neutralizing the expansionary impact and keeping money supply stable. A poor answer might suggest OMO purchase (wrong direction) or ignore the need for sterilization, showing lack of understanding of fiscal-monetary coordination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

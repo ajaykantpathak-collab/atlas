@@ -1,0 +1,354 @@
+{
+ "catalog": "catalog_class11_maths_ch105.json",
+ "concepts": [
+  {
+   "id": "kemh105.5.2.1",
+   "title": "Definition of Inequalities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (62 - 6) / 8 gives 7",
+     "compute": "x = (62 - 6) / 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 8x + 6 = 62.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 9 = 90.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 28 = 8.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - -2 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 7 = 1x + 49.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 3) = 28.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.1",
+   "title": "Rules for Solving Inequalities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (40 - 10) / 6 gives 5",
+     "compute": "x = (40 - 10) / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 10 = 40.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 9 = 9.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 8 = 7.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 17 = 3.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 1 = 1x + 41.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 3) = 16.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.2",
+   "title": "Algebraic Solution of Linear Inequality in One Variable",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 7 when x = 3.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4x^2 + 3x + 5 when x = 6.",
+     "a": "167",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 7x - 5x and give the coefficient of x.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 8 x (3 + 6) equals 8 x 3 + 8 x 6. Compute it.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9 + 9 x 7 (respect the order of operations).",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 4) x 6.",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.4",
+   "title": "Minimum Marks for Target Average",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For the digits 9, 6, 4, 9 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "5265",
+     "self_check": false
+    },
+    {
+     "q": "The number 7424 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 7424.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 7424 (= 17) is divided by 9.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 76, reverse its digits to get 67, and find the positive difference (a Kaprekar-style step).",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 76 (digits 7 and 6), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.5",
+   "title": "Consecutive Odd or Even Number Pairs",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 5 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 10 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 8 odd numbers and report the result as a perfect square value.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 3 odd numbers and report the result as a perfect square value.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 4 odd numbers and report the result as a perfect square value.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 7 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.6",
+   "title": "Solving Double Inequalities",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 3 = 51.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 15 = 21.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x + 2 = 8.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 9 = 5.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 4 = 1x + 13.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 5) = 54.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.7",
+   "title": "Temperature Conversion Range",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 12 : 48 in its simplest form and give the first term of the simplest form.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Rs 200 is divided between two friends in the ratio 3 : 7. Find the smaller share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Rs 360 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 2 = 24 : ?  (give the fourth term).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 2 :: 24 : 6 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 120, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "480",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.8",
+   "title": "Mixture Concentration Bounds",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 135, find the index number.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 8, 5, 13 and the base-year prices are 18, 13, 15. Find the simple aggregative price index (two decimal places).",
+     "a": "56.52",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 56.52 and the corresponding Paasche price index is 56.52. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.32",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 72 + 3 x. Find the fitted value at x = 5.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 6 per kg (2 kg) and Rs 9 per kg (5 kg). Find the mean price by alligation (two decimal places).",
+     "a": "8.14",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 10 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.9",
+   "title": "IQ Range Calculation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 11, 12, 2 (two decimal places).",
+     "a": "4.22",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 7, 2, 9, 5 (two decimal places).",
+     "a": "6.69",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 36. Find its standard deviation.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 2 and the mean is 50.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 22 and 36. Find the interquartile range.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

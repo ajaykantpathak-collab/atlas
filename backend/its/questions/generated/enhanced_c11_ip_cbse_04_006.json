@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_006",
+   "title": "c11_ip_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the correct syntax to create a tuple containing only the integer `42`?",
+     "a": "The correct syntax is `(42,)` — note the trailing comma. Without the comma, `(42)` is just an integer in parentheses, not a tuple. A wrong answer like `(42)` reveals the student thinks parentheses alone define a tuple, missing the critical comma rule for single-element tuples.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code raises an error: `t = (1, 2, 3); t[0] = 10`",
+     "a": "Tuples are immutable — their elements cannot be changed after creation. The code tries to assign a new value to index 0, which violates immutability and raises `TypeError: 'tuple' object does not support item assignment`. A wrong answer like \"tuples don't support indexing\" reveals confusion between access (allowed) and modification (forbidden).",
+     "self_check": true
+    },
+    {
+     "q": "Given `t1 = (1, 2)` and `t2 = (3, 4)`, write code to create a new tuple `t3` containing all elements of `t1` followed by all elements of `t2` without modifying `t1` or `t2`.",
+     "a": "`t3 = t1 + t2` creates a new tuple `(1, 2, 3, 4)`. The original tuples remain unchanged. A wrong answer like `t1.extend(t2)` or `t1.append(t2)` reveals the student is applying list methods to tuples, not understanding that tuples have no mutating methods and concatenation produces a new object.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory behavior of `l = [1, 2]; l[0] = 10` versus `t = (1, 2); t = (10, 2)`. Which modifies in-place and which creates a new object? How can you verify this?",
+     "a": "The list operation modifies in-place (same `id(l)` before/after). The tuple operation creates a new tuple object (different `id(t)` before/after) because tuples are immutable. Verification: use `id()` function. A wrong answer claiming both modify in-place shows the student doesn't grasp that reassignment (`t = ...`) is not mutation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since tuples are immutable, they are useless — just use lists everywhere.\" Evaluate this statement with two technical counterarguments.",
+     "a": "Counterarguments: (1) Immutability makes tuples hashable, allowing them as dictionary keys and set elements — lists cannot. (2) Tuples are faster to create/access and use less memory, ideal for fixed data like coordinates `(x, y)` or database records. The statement reveals a misconception that immutability is only a restriction, ignoring its enabling role in data structures and performance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where using a tuple prevents a logical bug that would occur with a list. Write the buggy list version and the corrected tuple version.",
+     "a": "Scenario: Storing RGB color constants `RED = (255, 0, 0)`. Buggy list version: `RED = [255, 0, 0]`; later code accidentally does `RED[1] = 128` turning red into orange globally. Tuple version prevents this at runtime with `TypeError`. A poor answer uses a scenario where mutation is actually needed (e.g., accumulating scores), showing the student doesn't understand when immutability is appropriate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

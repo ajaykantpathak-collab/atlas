@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_9",
+   "title": "c8_bio_ch1_9",
+   "questions": [
+    {
+     "q": "What is the primary characteristic that groups all microorganisms together, regardless of whether they are bacteria, fungi, protozoa, or algae?",
+     "a": "The correct answer is that they are all extremely small living organisms that cannot be seen with the unaided human eye and require a microscope to be observed. A wrong answer often reveals the misconception that microorganisms are all harmful disease-causing agents or that they belong to only a single kingdom of life.",
+     "self_check": true
+    },
+    {
+     "q": "Why are viruses generally excluded from the four major groups of microorganisms (bacteria, fungi, protozoa, and algae)?",
+     "a": "The correct answer is that viruses are unique infectious agents that do not possess cellular machinery on their own and can only reproduce inside a host living cell, whereas bacteria, fungi, protozoa, and algae are true cellular organisms. A wrong answer shows confusion regarding basic cell theory, assuming any microscopic particle with DNA is a standard microorganism.",
+     "self_check": true
+    },
+    {
+     "q": "If a student observes a single-celled microscopic organism in pond water that performs photosynthesis using chlorophyll, which of the four microbial groups does it most likely belong to?",
+     "a": "The correct answer is algae. \nSteps to reason:\n1. Identify the key characteristic: performing photosynthesis.\n2. Recall that photosynthesis requires chlorophyll.\n3. Match this trait with the four groups: algae are plant-like microbes that contain chlorophyll and carry out photosynthesis.\nA wrong answer reveals the misconception that all microorganisms are heterotrophic and depend on other organisms for food.",
+     "self_check": true
+    },
+    {
+     "q": "How do protozoa differ fundamentally from bacteria in terms of cellular organization?",
+     "a": "The correct answer is that protozoa are typically eukaryotic microorganisms with a well-defined membrane-bound nucleus and organelles, whereas bacteria are prokaryotic microorganisms lacking a true membrane-bound nucleus. A wrong answer indicates a failure to connect microscopic classification with basic cellular structure differences learned in earlier cell biology topics.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that leguminous crop roots have nodules that help enrich soil nitrogen. Which major group of microorganisms is primarily responsible for this beneficial agricultural process?",
+     "a": "The correct answer is bacteria (specifically nitrogen-fixing bacteria like *Rhizobium*). \nJustification: Rhizobia are prokaryotic single-celled organisms that form mutualistic relationships with plant roots. A wrong answer suggests the student confuses fungal mycorrhizae with bacterial root nodules or assumes all soil microbes are pathogenic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification key with three questions to help a classmate distinguish between a bacterium, a yeast (fungus), an amoeba (protozoan), and a microscopic green alga (algae) found in a water sample.",
+     "a": "A good answer will propose sequential questions based on cell type and nutrition, such as: 1. Is it prokaryotic or eukaryotic? (If prokaryotic -> Bacterium). 2. If eukaryotic, does it contain chlorophyll for photosynthesis? (If yes -> Algae). 3. If it does not contain chlorophyll, does it have a rigid cell wall and reproduce by budding/spores like yeast, or is it a motile animal-like cell that engulfs food like an amoeba? A poor answer lists random traits without a logical, step-by-step diagnostic key.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

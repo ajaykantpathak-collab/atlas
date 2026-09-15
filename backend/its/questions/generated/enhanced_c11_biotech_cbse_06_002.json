@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_002",
+   "title": "c11_biotech_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define the Law of Dominance in the context of a monohybrid cross and state the expected phenotypic and genotypic ratios in the F2 generation.",
+     "a": "The Law of Dominance states that when two homozygous parents with contrasting traits are crossed, the F1 generation expresses only the dominant trait, while the recessive trait remains hidden. In the F2 generation (from selfing F1 heterozygotes), the phenotypic ratio is 3 dominant : 1 recessive, and the genotypic ratio is 1 homozygous dominant : 2 heterozygous : 1 homozygous recessive. A wrong answer (e.g., stating 3:1 genotypic ratio or claiming the recessive trait is lost) reveals the student confuses phenotypic expression with genetic composition or misunderstands that the recessive allele persists in heterozygotes.",
+     "self_check": true
+    },
+    {
+     "q": "In a monohybrid cross between pure tall (TT) and pure dwarf (tt) pea plants, a student claims: \"The F1 plants are tall, so they must be genetically identical to the tall parent.\" Explain why this reasoning is incorrect using the terms genotype, phenotype, homozygous, and heterozygous.",
+     "a": "The F1 plants are phenotypically tall (phenotype) but genotypically heterozygous (Tt), whereas the tall parent is homozygous dominant (TT). Both show the same phenotype because the dominant allele (T) masks the recessive allele (t) in the heterozygote. However, their genotypes differ: the parent can only produce T gametes, while the F1 plant produces both T and t gametes in equal proportion. A wrong answer (e.g., \"they are the same because both are tall\") reveals the student conflates phenotype with genotype and does not grasp that dominance is about expression, not genetic identity.",
+     "self_check": true
+    },
+    {
+     "q": "A pea plant breeder has a tall plant of unknown genotype. She performs a test cross with a pure dwarf plant and obtains 48 tall and 52 dwarf offspring in the next generation. Determine the genotype of the unknown tall plant and justify your answer using a Punnett square.",
+     "a": "The unknown tall plant is heterozygous (Tt). In a test cross (Tt × tt), the heterozygous parent produces T and t gametes in 1:1 ratio, while the dwarf parent produces only t gametes. The Punnett square yields 50% Tt (tall) and 50% tt (dwarf), matching the observed ~1:1 ratio (48:52 ≈ 1:1). If the tall plant were homozygous (TT × tt), all offspring would be Tt (100% tall). A wrong answer (e.g., claiming the plant is TT) reveals the student does not understand the purpose of a test cross or cannot interpret offspring ratios to infer parental genotype.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic composition of gametes produced by a homozygous dominant (TT), heterozygous (Tt), and homozygous recessive (tt) individual for a single gene. How does this difference explain the phenotypic ratios observed in F1 and F2 generations of a monohybrid cross?",
+     "a": "TT produces only T gametes; tt produces only t gametes; Tt produces T and t gametes in equal 1:1 proportion (Law of Segregation). In F1 (TT × tt), all offspring are Tt (heterozygous) and receive one allele from each parent, showing only the dominant phenotype. In F2 (Tt × Tt), the 1:1 gamete ratio from each parent combines to give genotypic ratio 1 TT : 2 Tt : 1 tt and phenotypic ratio 3 tall : 1 dwarf. A wrong answer (e.g., claiming Tt produces only T gametes or that gamete ratios are not equal) reveals the student has not internalized that allele segregation during meiosis is the mechanistic basis for Mendelian ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the phenotypic ratio in F2 is 3:1, if I examine 100 F2 plants from a monohybrid cross, I should find exactly 75 tall and 25 dwarf plants.\" Evaluate this claim using principles of probability and sample size.",
+     "a": "The claim is incorrect. The 3:1 ratio is a theoretical probability expectation for an infinite sample size. In a finite sample of 100 plants, the actual numbers will follow a binomial distribution with mean 75 tall and 25 dwarf, but deviation due to random sampling is expected (e.g., 72 tall and 28 dwarf is statistically probable). The ratio approaches 3:1 only as sample size increases (Law of Large Numbers). A wrong answer (e.g., agreeing with the student) reveals the student treats Mendelian ratios as deterministic outcomes rather than probabilistic expectations, a critical error for understanding genetic variation and statistical analysis in biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monohybrid cross experiment using a trait of your choice (not plant height) that would allow a Class 11 student to verify the Law of Dominance. Specify the parental genotypes, the trait's dominant/recessive relationship, and the expected F1 and F2 phenotypic ratios. Explain how you would confirm the genotype of an F2 dominant-phenotype individual.",
+     "a": "Example: Seed shape in pea — round (R) dominant over wrinkled (r). Cross pure round (RR) × pure wrinkled (rr). F1: all Rr (round). F2 (Rr × Rr): phenotypic ratio 3 round : 1 wrinkled; genotypic ratio 1 RR : 2 Rr : 1 rr. To confirm genotype of an F2 round plant, perform a test cross with pure wrinkled (rr). If all offspring are round → parent was RR; if 1:1 round:wrinkled → parent was Rr. A poor answer (e.g., choosing a trait without clear dominance, omitting test cross, or not specifying parental genotypes) reveals the student cannot translate the abstract law into an experimental design or connect genotype verification to breeding practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

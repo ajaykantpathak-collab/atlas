@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_007",
+   "title": "c11_chem_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the hybridisation state of the carbon atom in the carbonate ion (CO₃²⁻), and how many unhybridised p orbitals remain on that carbon?",
+     "a": "The carbon in CO₃²⁻ is sp² hybridised with one unhybridised p orbital. The steric number is 3 (three sigma bonds to oxygen, zero lone pairs on carbon), so three sp² hybrids form the sigma framework. The remaining unhybridised p orbital participates in pi bonding delocalised over the three C–O bonds. A wrong answer (e.g., sp³) reveals the student is counting total bonds (including pi) instead of sigma bonds + lone pairs for steric number.",
+     "self_check": true
+    },
+    {
+     "q": "Both NH₃ and H₂O have sp³ hybridised central atoms, yet the H–N–H bond angle (107°) is larger than the H–O–H bond angle (104.5°). Explain this difference using the concept of lone pair–bond pair repulsion.",
+     "a": "NH₃ has one lone pair and three bond pairs; H₂O has two lone pairs and two bond pairs. Lone pairs occupy more space than bond pairs because they are attracted to only one nucleus. In H₂O, the two lone pairs exert greater repulsive force on the two bond pairs, compressing the H–O–H angle more than the single lone pair in NH₃ compresses the H–N–H angle. A wrong answer (e.g., \"oxygen is more electronegative\") shows confusion between electronegativity effects and VSEPR repulsion hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A gaseous hydrocarbon has the molecular formula C₄H₆. It decolourises bromine water and on catalytic hydrogenation gives C₄H₁₀. Determine the hybridisation states of all carbon atoms in the original molecule and draw its structure showing sigma and pi bonds.",
+     "a": "The molecule is but-1-yne (CH≡C–CH₂–CH₃) or but-2-yne (CH₃–C≡C–CH₃). In but-1-yne: C1 (terminal alkyne) is sp hybridised (two sigma bonds: one to H, one to C2), C2 is sp hybridised (two sigma bonds: to C1 and C3), C3 is sp³ hybridised (four sigma bonds), C4 is sp³ hybridised. The triple bond between C1 and C2 consists of one sigma (sp–sp) and two pi (p–p) bonds. A wrong answer (e.g., all carbons sp³) reveals inability to connect degree of unsaturation (C₄H₆ vs C₄H₁₀) to hybridisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the C–C bond lengths in ethane (C₂H₆), ethene (C₂H₄), and ethyne (C₂H₂). Arrange them in increasing order and justify using hybridisation and bond order concepts.",
+     "a": "Increasing order: ethyne (120 pm) < ethene (133 pm) < ethane (154 pm). Ethyne has sp–sp sigma bond (50% s-character) + two pi bonds (bond order 3); ethene has sp²–sp² sigma (33% s-character) + one pi (bond order 2); ethane has sp³–sp³ sigma (25% s-character) only (bond order 1). Higher s-character means shorter, stronger sigma bonds; higher bond order means shorter overall bond. A wrong order (e.g., ethane < ethene) shows misunderstanding of how s-character affects orbital size and bond length.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the reaction BF₃ + NH₃ → F₃B←NH₃, the boron atom changes hybridisation from sp² to sp³, but the nitrogen atom remains sp³ hybridised.\" Evaluate this statement.",
+     "a": "The statement is correct. In BF₃, boron is sp² hybridised (trigonal planar, steric number 3). After accepting a lone pair from NH₃, boron forms four sigma bonds (three B–F, one B←N), so its steric number becomes 4 → sp³ hybridised (tetrahedral). Nitrogen in NH₃ is already sp³ hybridised (three sigma bonds + one lone pair). In the adduct, nitrogen still has four electron domains (three N–H sigma bonds + one N→B dative sigma bond), so it remains sp³ hybridised. A wrong evaluation (e.g., \"nitrogen becomes sp²\") reveals confusion about dative bonds counting as sigma bonds for steric number.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using only bond angle measurements to distinguish between a molecule with sp² hybridisation and one with sp³ hybridisation, assuming both have the formula AX₃ (no lone pairs on central atom). Describe the expected results.",
+     "a": "Measure the X–A–X bond angles. If all angles are 120° ± 2°, the molecule is trigonal planar → sp² hybridised (e.g., BF₃). If all angles are 109.5° ± 2°, the molecule is tetrahedral → but AX₃ with no lone pairs cannot be tetrahedral; this would indicate a lone pair (AX₃E) like NH₃. A pure AX₃ with sp³ hybridisation is impossible because sp³ requires four electron domains. The student must realise that steric number determines hybridisation: AX₃ with no lone pairs → SN=3 → sp². A poor answer (e.g., \"measure bond lengths\") shows inability to link geometry directly to hybridisation via VSEPR.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_001",
+   "title": "c11_ps_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the core moral claim that equality makes about human beings in modern political thought, as reflected in the Preamble to the Indian Constitution and Article 14.",
+     "a": "The core moral claim is that all human beings have equal intrinsic worth by virtue of their common humanity, entitling them to equal consideration and respect regardless of race, gender, caste, religion, or nationality. A wrong answer (e.g., \"equality means everyone should have the same income\" or \"equality means identical treatment in all circumstances\") reveals a confusion between the moral principle of equal worth and specific policy implementations like equality of outcome or formal equality — a conflation that prevents understanding why differential treatment (reservations, maternity leave) can sometimes enhance rather than violate equality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT textbook describes the coexistence of universal acceptance of the equality ideal with pervasive empirical inequality as a 'paradox', and illustrate this paradox using one global statistic and one Indian example from the chapter.",
+     "a": "The paradox arises because equality is universally endorsed in constitutions, religions, and moral discourse, yet inequality is the lived reality — the richest 50 individuals globally earn more than the poorest 40 crore people (global), and in India, 55% of rural households lack electricity while 93% of urban households have it (Indian). A wrong answer that treats this as mere 'hypocrisy' or 'implementation failure' misses the theoretical point: the paradox frames the central problem of political theory — why do societies that profess equality tolerate structural inequality? This misunderstanding leads students to see inequality as accidental rather than systemic.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a policy reserving 50% of seats in government medical colleges for students from families with annual income below ₹2.5 lakh, regardless of caste. Using the framework of 'equality as equal moral worth' and 'equality of opportunity', analyse whether this policy promotes or violates equality.",
+     "a": "This policy promotes substantive equality of opportunity by addressing the circumstance-based disadvantage (poverty) that prevents talented students from competing fairly — it recognizes that equal moral worth requires equalizing starting conditions, not just identical treatment. A wrong answer claiming \"this violates equality because it treats rich and poor differently\" reflects the formal equality fallacy (treating everyone identically regardless of circumstance), failing to grasp that the NCERT explicitly states: \"treating people with equal respect need not mean always treating them in an identical way\" and that differential treatment can enhance equality when it corrects circumstance-based disadvantage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the French Revolution's slogan \"Liberty, Equality, Fraternity\" with the anti-colonial struggles in Asia and Africa (as mentioned in NCERT) in terms of how each invoked equality. What does this comparison reveal about the evolving meaning of equality in modern political thought?",
+     "a": "The French Revolution invoked equality against feudal privilege (aristocracy/monarchy) — equality as dismantling legal hierarchy. Anti-colonial struggles invoked equality against racial/civilizational hierarchy — equality as national sovereignty and human dignity against imperial domination. This reveals equality's expanding scope: from legal status (18th century) to anti-imperial human dignity (20th century) to contemporary claims against structural economic/social inequality. A wrong answer treating both as \"same demand for equal rights\" misses the historical evolution — equality is not a static concept but a contested ideal that acquires new dimensions as power structures change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since absolute economic equality is impossible, a just society should only guarantee political equality (voting rights, legal equality) and leave economic outcomes to market competition.\" Use the NCERT's distinction between 'entrenched inequalities' and 'inequalities from choices' in your evaluation.",
+     "a": "The statement is insufficient for a just society. NCERT argues that political equality alone cannot address 'entrenched inequalities' — those persisting across generations due to birth circumstance (caste, gender, poverty) — which waste talent and breed resentment. Market competition without equal starting conditions reproduces privilege. The liberal view (mentioned in NCERT) accepts competition but insists on 'fair and free conditions' including minimum standards of education, health, and housing. A wrong answer endorsing the statement uncritically reveals a misunderstanding of 'equality of opportunity' as merely formal (no legal barriers) rather than substantive (fair starting conditions), ignoring NCERT's emphasis that \"where equality of opportunity does not exist a huge pool of potential talent tends to be wasted.\"",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-sentence principle for a school admission policy that embodies the NCERT's view that \"differential treatment may be considered to realise the goal of equality but it requires justification and careful reflection.\" Your principle must specify: (a) when differential treatment is justified, (b) what it aims to achieve, and (c) what safeguard prevents it from becoming a new privilege.",
+     "a": "\"Differential treatment in admissions is justified only when it compensates for circumstance-based disadvantages (caste, gender, poverty, disability) that systematically deny equal opportunity; it aims to enable beneficiaries to compete on genuinely equal terms by neutralizing starting-condition gaps; and it must be time-bound, periodically reviewed, and coupled with investment in universal quality education so it remains a transitional measure toward substantive equality, not a permanent structure of privilege.\" A poor answer that omits time-bound review or universal investment reveals failure to grasp NCERT's caution: \"differential treatment does not yield new structures of dominance and oppression, or become a means for some dominant groups to reassert special privileges.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

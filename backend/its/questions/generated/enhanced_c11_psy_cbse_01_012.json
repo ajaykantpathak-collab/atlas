@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_012",
+   "title": "c11_psy_cbse_01_012",
+   "questions": [
+    {
+     "q": "What was the first institution in India to establish a psychology laboratory and a formal Department of Psychology, and in which years did these occur?",
+     "a": "The first psychology laboratory was established at Calcutta University in 1915, and the first Department of Psychology was started there in 1916. A wrong answer (e.g., naming NIMHANS or a post-independence university) reveals the student conflates the *origin* of the discipline with its later *expansion* or *specialisation* (clinical/neuroscience), missing the foundational role of Calcutta University under Dr. N.N. Sengupta.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what distinguishes the 'indigenisation phase' (late 1970s onward) from the earlier 'problem-oriented phase' (post-1960s) in the development of Indian psychology.",
+     "a": "The problem-oriented phase (post-1960s) used Western psychological theories to address Indian social problems (e.g., poverty, crowding), while the indigenisation phase (late 1970s onward) explicitly rejected exclusive reliance on Western frameworks and sought to develop psychological theories *rooted in Indian cultural concepts* (e.g., karma, dharma, gunas, meditation states from ancient texts). A wrong answer that describes both phases as merely \"applying psychology to Indian problems\" misses the epistemological shift: indigenisation questions the *universality* of Western constructs and derives constructs *from* the Indian tradition.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study \"work motivation\" among employees in a traditional Indian family-owned business in Gujarat. She decides to use only standard Western questionnaires (like the Job Characteristics Model) without modification. Which phase of Indian psychology's development does this approach represent, and why is it considered limited in the current indigenised context?",
+     "a": "This represents the *problem-oriented phase* (post-1960s) approach: applying Western tools to Indian settings. It is limited today because indigenisation demands that constructs like \"motivation\" be understood through local cultural meanings (e.g., *seva*, family duty, *izzat*) which Western questionnaires may not capture. A wrong answer identifying this as \"indigenisation\" shows the student confuses *doing research in India* with *developing culturally grounded theory*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contributions of Dr. N.N. Sengupta and Professor G. Bose to the *early* development of psychology in India (pre-1947). How did their different Western training backgrounds shape the two initial streams of Indian psychology?",
+     "a": "Dr. N.N. Sengupta (trained in Wundt's experimental tradition, USA) established the first experimental psychology lab/department at Calcutta University (1915/1916), founding the *experimental/structuralist* stream. Professor G. Bose (trained in Freudian psychoanalysis) founded the Indian Psychoanalytical Association (1922), founding the *psychoanalytic/clinical* stream. A wrong answer that merges them or attributes experimental work to Bose reveals the student has not distinguished the *methodological duality* (experimental vs. clinical) present at Indian psychology's inception, mirroring the Western structuralism vs. psychoanalysis divide.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The establishment of NIMHANS (1955) and NBRC (1997) represents a complete shift of Indian psychology away from its indigenisation goals toward purely biological/neuroscientific reductionism.\"",
+     "a": "The claim is *false*. NIMHANS (1955) integrated psychiatry, neurology, and neurosciences – a *multidisciplinary* model, not reductionist. NBRC (1997) focuses on brain research but explicitly collaborates with cognitive psychologists. Crucially, the *indigenisation movement* (NAOP founded 1989, Sinha's 1986 book) *coexisted* with these institutions. Indian psychology today is characterised by *parallel streams*: high-end neuroscience (NBRC) *and* culturally grounded theoretical work (e.g., consciousness studies from Vedanta). A wrong answer agreeing with the claim shows a binary \"either/or\" misconception, missing the \"both/and\" reality of contemporary Indian psychology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research proposal title and a 3-bullet rationale for a study that exemplifies *current* indigenised psychology in India, integrating one traditional Indian concept and one modern method.",
+     "a": "**Title:** \"The Role of *Nishkama Karma* (Selfless Action) in Reducing Occupational Burnout among Healthcare Workers: A Mixed-Methods Study using fMRI and Narrative Analysis.\"  \n**Rationale:**  \n1. *Nishkama Karma* (Bhagavad Gita) is an indigenous construct for motivation/resilience distinct from Western \"intrinsic motivation.\"  \n2. fMRI (modern neuroscience method at NBRC/NIMHANS) tests neural correlates of self-referential processing during selfless vs. reward-based tasks.  \n3. Narrative analysis captures lived experience in Indian cultural context.  \nA poor answer (e.g., \"Effect of Yoga on Stress – Survey\") uses a traditional *practice* (yoga) but lacks a traditional *psychological construct* and modern *methodological integration*, remaining at the \"application\" level rather than \"theory-building\" indigenisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

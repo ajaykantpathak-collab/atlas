@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_003",
+   "title": "c12_geo_cbse_13_003",
+   "questions": [
+    {
+     "q": "Name the geological formation primarily associated with manganese deposits in India and identify the two leading producer states.",
+     "a": "Manganese is mainly associated with the Dharwar system of rocks. Madhya Pradesh and Odisha are the leading producer states. A wrong answer (e.g., \"Gondwana rocks\" or \"Karnataka and Goa\") reveals confusion between manganese's geological setting (Dharwar, Precambrian) and coal's (Gondwana), or conflates minor producers with the top two that together account for over 70% of India's manganese output.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Odisha dominate both manganese and bauxite production despite these minerals having different geological origins?",
+     "a": "Odisha's dominance stems from its unique geology: the northern Odisha plateau exposes Dharwar rocks (manganese) while the southern and western plateaus have extensive laterite cappings over tertiary sediments (bauxite). The state spans multiple geological provinces — the Singhbhum-Orissa craton for manganese and the Eastern Ghats laterite belt for bauxite. A wrong answer citing \"rich soil\" or \"good transport\" misses the geological control; students often confuse surface factors with deep geological causation.",
+     "self_check": true
+    },
+    {
+     "q": "A steel plant at Bhilai (Chhattisgarh) sources manganese from Balaghat (Madhya Pradesh), 200 km away. If transport cost is ₹2.50 per tonne-km and the plant needs 15,000 tonnes monthly, calculate the monthly manganese transport cost. Then explain why this distance matters for ferro-alloy production.",
+     "a": "Monthly transport cost = 15,000 tonnes × 200 km × ₹2.50/tonne-km = ₹75,00,000 (₹7.5 crore). This distance matters because manganese is a weight-losing raw material (only ~10-15 kg Mn per tonne of steel), so transport cost per unit of metal content is high. Locating ferro-alloy plants near manganese mines (like Balaghat) reduces this cost. A wrong calculation (missing the tonne-km unit) or ignoring the weight-losing principle shows inability to apply Weber's industrial location theory to real Indian cases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution patterns of mica in Jharkhand versus Rajasthan. What geological and structural differences explain why Jharkhand's mica belt is compact (150 km × 22 km) while Rajasthan's extends 320 km linearly?",
+     "a": "Jharkhand's mica occurs in a concentrated pegmatite intrusive complex within the Hazaribagh plateau's gneissic terrain — a discrete magma pulse created a dense, localised vein network. Rajasthan's mica follows the NE-SW trending Delhi-Aravalli fold belt where repeated tectonic deformation opened linear fracture zones over 320 km, allowing pegmatite emplacement along a structural corridor. A wrong answer citing \"better mining technology in Rajasthan\" confuses human factors with the structural geology control (craton vs. fold belt).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's bauxite reserves are sufficient for domestic aluminium demand, so export of raw bauxite should be banned to conserve resources.\" Consider geological distribution, grade variation, and industrial linkage.",
+     "a": "The statement is partially flawed. While India has ~660 million tonnes of bauxite (sufficient for decades at current ~25 Mt/yr aluminium capacity), 70% is low-grade (<45% Al₂O₃) requiring beneficiation. High-grade deposits (Kalahandi, Lohardaga) are limited and already tied to domestic smelters (NALCO, HINDALCO). A total export ban would lose foreign exchange without solving grade issues. Better policy: incentivise beneficiation plants near low-grade deposits (Maharashtra, Gujarat) and restrict only high-grade ore exports. A purely protectionist answer ignores grade economics and global supply chains.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 12 student to demonstrate the linkage between mica distribution and India's electrical equipment manufacturing clusters. Specify the map layers, symbols, and analytical question the student must answer.",
+     "a": "Map layers: (1) Mica belts — Jharkhand (Hazaribagh, shaded polygon), Andhra Pradesh (Nellore, point), Rajasthan (Jaipur-Bhilwara-Udaipur, linear symbol). (2) Electrical equipment clusters — Delhi-NCR (switchgear), Mumbai-Pune (transformers), Bengaluru (electronics), Hyderabad (cables) — graduated circles by output value. (3) Rail/road corridors connecting mines to clusters. Analytical question: \"Using the map, explain why Delhi's switchgear industry developed 1,000 km from Jharkhand's mica but only 300 km from Rajasthan's mica, yet both sources are used.\" Expected reasoning: Rajasthan mica is lower quality (green muscovite) for capacitors; Jharkhand's high-quality ruby mica goes to defence/space via Delhi. Poor answer = only distance, no quality-grade linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

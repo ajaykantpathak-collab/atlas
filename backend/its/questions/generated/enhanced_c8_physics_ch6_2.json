@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_2",
+   "title": "c8_physics_ch6_2",
+   "questions": [
+    {
+     "q": "What is the radius of curvature of a spherical mirror, and where is the centre of curvature located relative to the mirror for (a) a concave mirror and (b) a convex mirror?",
+     "a": "The radius of curvature (R) is the distance between the pole (P) and the centre of curvature (C). For a concave mirror, C lies in front of the mirror (on the same side as the reflecting surface). For a convex mirror, C lies behind the mirror (on the opposite side of the reflecting surface). A wrong answer reveals the student thinks C is always in front or always at the mirror's surface, confusing it with the pole or focal point.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a concave mirror and marks the centre of curvature (C) on the reflecting surface itself. Explain why this is incorrect using the definition of a spherical mirror.",
+     "a": "A spherical mirror is a part of a hollow sphere. The centre of curvature is the centre of that whole sphere, not a point on the mirror's surface. The mirror's surface is at a distance R (the radius) from C. If C were on the surface, the radius would be zero, which is impossible for a spherical mirror. A wrong answer shows the student confuses the centre of curvature with the pole (which IS on the surface) or thinks \"centre\" means the middle of the mirror's physical area.",
+     "self_check": true
+    },
+    {
+     "q": "The radius of curvature of a concave mirror is 30 cm. What is the distance between the pole and the centre of curvature? If the mirror's aperture (diameter of reflecting surface) is 10 cm, can the centre of curvature lie on the mirror's surface? Explain.",
+     "a": "Distance PC = R = 30 cm. No, the centre of curvature cannot lie on the mirror's surface because it is 30 cm from the pole, while the mirror's surface extends only 5 cm from the pole (radius = aperture/2 = 5 cm). The centre of the sphere is always outside the mirror's physical boundary. A wrong answer reveals confusion between aperture (physical size of mirror) and radius of curvature (radius of parent sphere).",
+     "self_check": true
+    },
+    {
+     "q": "Two spherical mirrors have the same radius of curvature (20 cm). Mirror A is concave, Mirror B is convex. Compare the positions of their centres of curvature relative to their poles and reflecting surfaces. Draw a rough sketch for each.",
+     "a": "For Mirror A (concave): C is 20 cm in front of the pole, on the same side as the reflecting surface. For Mirror B (convex): C is 20 cm behind the pole, on the opposite side of the reflecting surface. In both cases PC = 20 cm, but the direction along the principal axis is opposite. A wrong answer shows the student doesn't grasp that the \"side\" of C depends on which part of the sphere is silvered (inner vs outer surface).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The principal axis of a spherical mirror is the line joining the centre of curvature to the edge of the mirror.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. The principal axis is the straight line passing through the pole (P) and the centre of curvature (C). It does not go to the edge of the mirror; it goes through the geometric centre of the reflecting surface (the pole). The line from C to the edge is a radius of the sphere, but not the principal axis. A wrong answer reveals confusion between \"principal axis\" (unique line through P and C) and any radius line from C to the spherical surface.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a stainless steel spoon, a sheet of paper, and a pencil to demonstrate the difference between the pole and the centre of curvature of a spherical mirror. Describe the steps and what a Class 8 student would observe.",
+     "a": "Steps: (1) Place the spoon's concave side (inner curve) on paper. (2) Trace the circular rim. (3) Find the centre of this circle by folding or using a compass - mark it as C. (4) Mark the midpoint of the actual shiny reflecting surface visible inside the rim - this is P. (5) Draw line PC - this is the principal axis. (6) Repeat for convex side (outer curve). Observation: For concave side, C and P are on the same side of the mirror; for convex side, they are on opposite sides. A poor answer traces only the rim without distinguishing P (on the surface) from C (centre of the circle), or cannot explain why C shifts sides.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

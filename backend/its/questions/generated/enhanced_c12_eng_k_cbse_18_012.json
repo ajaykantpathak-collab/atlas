@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_18_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_18_012",
+   "title": "c12_eng_k_cbse_18_012",
+   "questions": [
+    {
+     "q": "A student reads the question: \"According to Sen, what is the length of the Mahabharata compared to the Iliad and the Odyssey combined?\" The student writes: \"The Mahabharata is very long, much longer than the Greek epics.\" Is this a complete literal comprehension answer? Why or why not?",
+     "a": "No. A complete literal answer must include the specific quantitative detail stated in the text: \"The Mahabharata alone is about seven times as long as the Iliad and the Odyssey put together.\" The student's answer shows understanding of the general idea but fails the board exam requirement for precise textual evidence. Literal questions demand exact information retrieval — approximations lose marks.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this question: \"Sen writes that Krishna's argument 'wins the argument, at least as seen in the religious perspective.' What does the phrase 'at least as seen in the religious perspective' imply about Sen's own view?\" A student answers: \"It means Sen agrees with the religious perspective.\" Identify the error in this inference.",
+     "a": "The student misreads the qualifying phrase. \"At least as seen in the religious perspective\" signals a concession — Sen acknowledges the religious view but immediately follows with \"And yet... the epic Mahabharata itself presents... each of the two contrary arguments with much care and sympathy\" and \"Arjuna's contrary arguments are not really vanquished.\" The phrase implies Sen does NOT fully endorse the religious perspective; he presents it as one limited viewpoint. The error is ignoring the contrastive discourse marker \"And yet\" that follows.",
+     "self_check": true
+    },
+    {
+     "q": "Question: \"Identify two examples Sen gives of women participating in intellectual debates in ancient India.\" A student writes: \"Gargi and Maitreyi.\" The question carries 2 marks. Will the student get full marks? Explain.",
+     "a": "No. CBSE marking scheme for 2-mark literal questions requires: (1) naming the example AND (2) a brief textual detail showing the nature of their participation. For Gargi: \"questioned Yajnavalkya in the Brihadaranyaka Upanisad with 'two penetrating questions'\"; for Maitreyi: \"asked Yajnavalkya whether wealth could grant immortality.\" Mere names without textual evidence earn 1 mark maximum. The student must practice embedding specific textual references.",
+     "self_check": true
+    },
+    {
+     "q": "Question: \"How does Sen connect Maitreyi's question ('What should I do with that by which I do not become immortality?') to his concept of economic development?\" A student writes: \"Maitreyi didn't care about money, so Sen says development isn't about money.\" Evaluate this inference.",
+     "a": "The inference is oversimplified and misses Sen's precise logical bridge. The text states: \"Maitreyi's worldly worries might well have some transcendental relevance... but they certainly have worldly interest as well. If we are concerned with the freedom to live long and live well, our focus has to be directly on life and death, and not just on wealth and economic opulence.\" Sen uses Maitreyi to argue that development should be measured by capabilities (freedom to live well), not just GNP/GDP growth. The student's answer confuses \"not caring about money\" with \"distinguishing means (wealth) from ends (capabilities).\"",
+     "self_check": true
+    },
+    {
+     "q": "Question: \"Sen argues that democracy in India is not merely a 'gift of the Western world.' What textual evidence does he provide to support this claim?\" A student writes a 4-mark answer: \"Sen says India had a long tradition of public reasoning and heterodoxy, which made democracy easier to institute. He mentions the Buddhist and Jain movements, and medieval mystic poets like Kabir.\" The teacher awards 2/4 marks. What is missing for full marks?",
+     "a": "The answer identifies relevant examples but lacks (a) explicit connection to the \"gift of the West\" misconception, (b) the distinction Sen draws between \"institutional experiences in Europe and America\" (which India DID use) and \"its own tradition of public reasoning\" (which it ALSO drew on), and (c) the phrase \"heterodoxy the natural state of affairs in India\" from the text. For 4 marks, CBSE expects: Point 1 (rejects Western gift idea) + Evidence 1 (\"tradition of public arguments, with toleration of intellectual heterodoxy\") + Point 2 (India used both Western institutions AND indigenous tradition) + Evidence 2 (\"drew on its own tradition of public reasoning and argumentative heterodoxy\") + Point 3 (examples of heterodoxy crossing caste/class) + Evidence 3 (Buddhist/Jain movements, medieval poets).",
+     "self_check": true
+    },
+    {
+     "q": "Create a literal comprehension question and an inferential comprehension question based on the paragraph about Draupadi (p.182-183). Write the ideal answer for each.",
+     "a": "Literal Q: \"In the Kiratarjuniya, what does Draupadi tell Yudhisthira to do if he chooses 'forbearance' over 'heroic action'?\"\nIdeal Answer: \"She tells him to 'throw away your bow, the symbol of royalty, wear your hair matted in knots, stay here and make offerings in the sacred fire!'\"\nInferential Q: \"What does Draupadi's speech reveal about the role of women in the Mahabharata's argumentative tradition?\"\nIdeal Answer: \"Draupadi's speech shows women could be the 'most eloquent instigator' of debate, challenging male authority (she 'oversteps the limits of womanly conduct') and advocating for the consequentialist position (fighting for justice) that aligns with Arjuna's later stance — demonstrating women's voices were substantive, not merely ornamental, in epic argumentation.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

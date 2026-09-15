@@ -1,0 +1,843 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 114,
+ "chapter_title": "Breathing and Exchange of Gases",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo114.txt",
+ "concepts": [
+  {
+   "id": "kebo.14.1",
+   "title": "Respiratory Organs in Animals",
+   "section": "14.1",
+   "definition": "The diverse biological structures and mechanisms utilized by different animal groups to exchange environmental oxygen with internal carbon dioxide, varying by habitat and structural complexity.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Respiratory structures range from simple body surfaces to specialized gills and lungs depending on evolutionary complexity and habitat.",
+   "textbook_ref": "kebo114.txt lines 38-57",
+   "question_patterns": [
+    "identify the respiratory organ of earthworms",
+    "how do aquatic arthropods exchange gases",
+    "what is the mode of respiration in frogs",
+    "compare the respiratory structures of lower invertebrates and terrestrial mammals",
+    "give one everyday example of respiratory organs in animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organism's habitat and taxonomic group",
+     "explain": "Different animal groups have evolved specific respiratory organs based on whether they are aquatic or terrestrial, and their level of organization."
+    },
+    {
+     "step": 2,
+     "action": "Match the group to its specific respiratory organ",
+     "explain": "Lower invertebrates use simple diffusion, insects use trachea, aquatic forms use gills, and terrestrial vertebrates use lungs."
+    },
+    {
+     "step": 3,
+     "action": "Relate respiratory surface area to metabolic demand",
+     "explain": "More complex organisms require larger, specialized respiratory surfaces to meet higher oxygen demands that simple diffusion cannot satisfy."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.2",
+   "title": "Human Respiratory System",
+   "section": "14.1.1",
+   "definition": "The anatomical pathway in humans consisting of the conducting zone from external nostrils to terminal bronchioles, and the respiratory zone comprising alveoli where actual gas exchange occurs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Air is filtered, humidified, and brought to body temperature before diffusing across the thin alveolar-capillary membrane.",
+   "textbook_ref": "kebo114.txt lines 58-109",
+   "question_patterns": [
+    "describe the pathway of air in the human respiratory tract",
+    "what is the function of the conducting part of the respiratory system",
+    "where does the actual diffusion of gases occur in human lungs",
+    "explain the structure and role of the pleural membrane",
+    "list the main features of human respiratory system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the passage of air from nostrils through the respiratory tract",
+     "explain": "Air travels through external nostrils, nasal chamber, pharynx, larynx, trachea, bronchi, bronchioles, and finally reaches the alveoli."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate between the conducting zone and the exchange zone",
+     "explain": "The conducting zone transports and conditions the air, while the exchange zone (alveoli) is the site of actual gas diffusion."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the pleural membrane",
+     "explain": "The pleural membrane encloses the lungs and secretes pleural fluid that reduces friction during breathing and maintains lung adhesion to the thoracic wall."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.3",
+   "title": "Mechanism of Breathing",
+   "section": "14.2",
+   "definition": "The physical process of both inspiration and expiration driven by pressure gradients established between the both atmosphere and the lungs via diaphragmatic and intercostal muscle movements.",
+   "formula": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
+   "key_idea": "Air moves into lungs when intrapulmonary pressure is sub-atmospheric and moves out when it exceeds atmospheric pressure.",
+   "textbook_ref": "kebo114.txt lines 110-149",
+   "question_patterns": [
+    "explain how inspiration is initiated in humans",
+    "what is the role of the diaphragm in breathing",
+    "how does expiration occur under normal physiological conditions",
+    "describe the pressure changes during pulmonary ventilation",
+    "justify why mechanism of breathing matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the contraction or relaxation of respiratory muscles",
+     "explain": "Contraction of the diaphragm and external intercostal muscles initiates inspiration, while their relaxation leads to expiration."
+    },
+    {
+     "step": 2,
+     "action": "Explain the resulting change in thoracic and pulmonary volume",
+     "explain": "Muscle contraction increases thoracic volume, which expands pulmonary volume; relaxation decreases these volumes."
+    },
+    {
+     "step": 3,
+     "action": "Relate the volume change to pressure changes and the direction of airflow",
+     "explain": "An increase in volume lowers intra-pulmonary pressure below atmospheric pressure, drawing air in. A decrease in volume raises pressure, forcing air out."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.1",
+   "title": "Tidal Volume and Minute Ventilation",
+   "section": "14.2.1",
+   "definition": "Tidal volume is the volume of air moved in or out during normal breathing, which can be multiplied by the breathing rate to determine total minute ventilation.",
+   "formula": "minute_volume = tidal_volume * breathing_rate",
+   "key_idea": "Total air volume inspired or expired per minute is the result of multiplying single-breath volume and respiratory rate.",
+   "textbook_ref": "kebo114.txt lines 150-157",
+   "question_patterns": [
+    "calculate the minute volume of a healthy man with a tidal volume of {tidal_volume} mL and breathing rate of {breathing_rate} breaths per minute",
+    "what is the total volume of air inspired per minute if tidal volume is {tidal_volume} mL",
+    "find the breathing rate if minute volume is {minute_volume} mL and tidal volume is {tidal_volume} mL",
+    "calculate tidal volume and minute ventilation for the given values",
+    "find the required value in a tidal volume and minute ventilation problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply tidal volume by the breathing rate to find minute volume",
+     "explain": "Minute ventilation represents the total volume of air exchanged in one minute.",
+     "compute": "minute_volume = tidal_volume * breathing_rate"
+    },
+    {
+     "step": 2,
+     "action": "Calculate hourly ventilation",
+     "explain": "Multiply the per-minute ventilation by 60 to estimate total air moved in one hour.",
+     "compute": "hourly_volume = minute_volume * 60"
+    },
+    {
+     "step": 3,
+     "action": "Verify result against expected physiological range",
+     "explain": "A healthy adult typically has a minute ventilation of about 6000-8000 mL, confirming the computed value is within normal limits."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.2",
+   "title": "Inspiratory Capacity (IC)",
+   "section": "14.2.1",
+   "definition": "The maximum volume of air that can be inspired following a normal, unforced expiration.",
+   "formula": "inspiratory_capacity = tidal_volume + irv",
+   "key_idea": "Sum of normal breathing volume and the additional volume from a forced inspiration.",
+   "textbook_ref": "kebo114.txt lines 164-167",
+   "question_patterns": [
+    "calculate the inspiratory capacity given tidal volume of {tidal_volume} mL and IRV of {irv} mL",
+    "find the IC when TV is {tidal_volume} and inspiratory reserve volume is {irv}",
+    "what is the inspiratory capacity of a person",
+    "find the required value in a inspiratory capacity (ic) problem",
+    "solve a numerical on inspiratory capacity (ic)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the inspiratory reserve volume",
+     "explain": "Inspiratory capacity includes both normal tidal volume and the reserve volume available for deep inspiration.",
+     "compute": "inspiratory_capacity = tidal_volume + irv"
+    },
+    {
+     "step": 2,
+     "action": "Verify each component is positive",
+     "explain": "Both tidal volume and inspiratory reserve volume must be positive values for a physiologically valid inspiratory capacity."
+    },
+    {
+     "step": 3,
+     "action": "Compare result to expected range",
+     "explain": "A typical inspiratory capacity for a healthy adult is about 3000-3500 mL, confirming the computed value is physiologically reasonable."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.3",
+   "title": "Expiratory Capacity (EC)",
+   "section": "14.2.1",
+   "definition": "The maximum volume of air that can be expired following a normal, unforced inspiration.",
+   "formula": "expiratory_capacity = tidal_volume + erv",
+   "key_idea": "Sum of normal breathing volume and the additional volume from a forced expiration.",
+   "textbook_ref": "kebo114.txt lines 168-171",
+   "question_patterns": [
+    "calculate the expiratory capacity given tidal volume of {tidal_volume} mL and ERV of {erv} mL",
+    "find the EC when TV is {tidal_volume} and expiratory reserve volume is {erv}",
+    "what is the expiratory capacity of a person",
+    "calculate expiratory capacity (ec) for the given values",
+    "find the required value in a expiratory capacity (ec) problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the expiratory reserve volume",
+     "explain": "Expiratory capacity is the total air a person can expel after a normal inhalation.",
+     "compute": "expiratory_capacity = tidal_volume + erv"
+    },
+    {
+     "step": 2,
+     "action": "Verify each component is positive",
+     "explain": "Both tidal volume and expiratory reserve volume must be positive values for a physiologically valid expiratory capacity."
+    },
+    {
+     "step": 3,
+     "action": "Compare result to expected range",
+     "explain": "A typical expiratory capacity for a healthy adult is about 1500-2000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.4",
+   "title": "Functional Residual Capacity (FRC)",
+   "section": "14.2.1",
+   "definition": "Air left in the lungs even after breathing out normally.",
+   "formula": "functional_residual_capacity = erv + residual_volume",
+   "key_idea": "The combined volume of expiratory reserve and residual air left in the lungs during normal breathing cycles.",
+   "textbook_ref": "kebo114.txt lines 172-174",
+   "question_patterns": [
+    "calculate the functional residual capacity given ERV of {erv} mL and residual volume of {residual_volume} mL",
+    "find the FRC when expiratory reserve volume is {erv} and residual volume is {residual_volume}",
+    "what is the functional residual capacity of a person",
+    "compute the answer step by step for functional residual capacity (frc)",
+    "what is the result in this functional residual capacity (frc) problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume and the residual volume",
+     "explain": "FRC represents the air remaining in the lungs after normal expiration, which cannot be actively exhaled without effort.",
+     "compute": "functional_residual_capacity = erv + residual_volume"
+    },
+    {
+     "step": 2,
+     "action": "Verify each component is positive",
+     "explain": "Both expiratory reserve volume and residual volume must be positive values for a physiologically valid functional residual capacity."
+    },
+    {
+     "step": 3,
+     "action": "Compare result to expected range",
+     "explain": "A typical FRC for a healthy adult is about 2500-3000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.5",
+   "title": "Vital Capacity (VC)",
+   "section": "14.2.1",
+   "definition": "How much air can be pushed out at most after the deepest possible intake, or breathed in after the deepest exhale.",
+   "formula": "vital_capacity = erv + tidal_volume + irv",
+   "key_idea": "The total exchangeable air volume in the lungs.",
+   "textbook_ref": "kebo114.txt lines 175-178",
+   "question_patterns": [
+    "calculate the vital capacity given ERV of {erv} mL, TV of {tidal_volume} mL, and IRV of {irv} mL",
+    "find the VC when expiratory reserve volume is {erv}, tidal volume is {tidal_volume}, and inspiratory reserve volume is {irv}",
+    "what is the vital capacity of a person",
+    "what is the result in this vital capacity (vc) problem",
+    "work out the value using vital capacity (vc)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume, tidal volume, and inspiratory reserve volume",
+     "explain": "Vital capacity is the sum of all usable, active respiratory volumes.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    },
+    {
+     "step": 2,
+     "action": "Verify each component is positive",
+     "explain": "All three volumes -- ERV, TV, and IRV -- must be positive for a physiologically valid vital capacity."
+    },
+    {
+     "step": 3,
+     "action": "Compare result to expected range",
+     "explain": "A typical vital capacity for a healthy adult is about 4000-5000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.6",
+   "title": "Total Lung Capacity (TLC)",
+   "section": "14.2.1",
+   "definition": "The total volume of air that the lungs can hold at the end of a maximal, forced inspiration.",
+   "formula": "total_lung_capacity = vital_capacity + residual_volume",
+   "key_idea": "The sum of the vital both capacity and the non-exchangeable residual volume.",
+   "textbook_ref": "kebo114.txt lines 179-181",
+   "question_patterns": [
+    "calculate the total lung capacity given vital capacity of {vital_capacity} mL and residual volume of {residual_volume} mL",
+    "find the TLC when VC is {vital_capacity} and RV is {residual_volume}",
+    "calculate the total lung capacity given ERV of {erv} mL, TV of {tidal_volume} mL, IRV of {irv} mL, and RV of {residual_volume} mL",
+    "compute the answer step by step for total lung capacity (tlc)",
+    "what is the result in this total lung capacity (tlc) problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate vital capacity as the sum of ERV, TV, and IRV",
+     "explain": "Vital capacity is the sum of expiratory reserve volume, tidal volume, and inspiratory reserve volume.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    },
+    {
+     "step": 2,
+     "action": "Add residual volume to vital capacity to get total lung capacity",
+     "explain": "Total lung capacity is the sum of vital capacity and residual volume.",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    },
+    {
+     "step": 3,
+     "action": "Compare result to expected range",
+     "explain": "A typical total lung capacity for a healthy adult is about 5000-6000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.5",
+   "title": "Gaseous Exchange and Partial Pressures",
+   "section": "14.3",
+   "definition": "The movement of both oxygen and carbon dioxide across the respiratory membrane driven by pressure gradients of individual gases.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Gases diffuse from regions of higher partial pressure to lower partial pressure, influenced by gas solubility and membrane thickness.",
+   "textbook_ref": "kebo114.txt lines 182-218",
+   "question_patterns": [
+    "what is the partial pressure of oxygen in alveoli and deoxygenated blood",
+    "explain why carbon dioxide diffuses faster than oxygen across the respiratory membrane",
+    "describe the layers of the diffusion membrane in human lungs",
+    "compare the pO2 and pCO2 in tissues versus oxygenated blood",
+    "short note on gaseous exchange and partial pressures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the partial pressures of oxygen (pO2) and carbon dioxide (pCO2) in the relevant compartments",
+     "explain": "In alveoli, pO2 is 104 mm Hg and pCO2 is 40 mm Hg. In deoxygenated blood, pO2 is 40 mm Hg and pCO2 is 45 mm Hg."
+    },
+    {
+     "step": 2,
+     "action": "Verify that the gas moves down its concentration/partial pressure gradient",
+     "explain": "Oxygen diffuses from alveoli to blood, and carbon dioxide diffuses from blood to alveoli."
+    },
+    {
+     "step": 3,
+     "action": "Note that CO2 has a much higher solubility than O2",
+     "explain": "Because CO2 is 20-25 times more soluble than O2, it diffuses rapidly across the membrane even with a smaller partial pressure gradient."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.6",
+   "title": "Transport of Oxygen and Oxyhaemoglobin Dissociation",
+   "section": "14.4.1",
+   "definition": "The reversible binding of oxygen to hemoglobin to form oxyhemoglobin, characterized by a sigmoidal oxygen dissociation curve.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "High pO2, low pCO2, low H+ concentration, and low temperature in alveoli promote oxygen binding, while opposite conditions in tissues promote dissociation.",
+   "textbook_ref": "kebo114.txt lines 219-247",
+   "question_patterns": [
+    "explain the factors that shift the oxygen dissociation curve",
+    "how much oxygen is delivered to tissues by 100 ml of oxygenated blood",
+    "describe the conditions favorable for the formation of oxyhaemoglobin",
+    "what is the shape of the oxygen dissociation curve and why",
+    "justify why transport of oxygen and oxyhaemoglobin dissociation matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain that oxygen binds reversibly to the iron-containing pigment hemoglobin",
+     "explain": "Each hemoglobin molecule can carry up to four molecules of oxygen."
+    },
+    {
+     "step": 2,
+     "action": "Describe the sigmoidal curve representing hemoglobin saturation",
+     "explain": "The oxygen dissociation curve is sigmoid-shaped, showing how oxygen binding increases with partial pressure of oxygen."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the physiological factors that determine association in lungs and dissociation in tissues",
+     "explain": "High pO2 in alveoli favors oxyhemoglobin formation, while low pO2, high pCO2, high H+ concentration, and high temperature in tissues favor oxygen release."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.7",
+   "title": "Transport of Carbon Dioxide",
+   "section": "14.4.2",
+   "definition": "The carry of carbon dioxide in the blood as bicarbonate ions (70%), carbamino-hemoglobin (20-25%), and dissolved in plasma (7%).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Carbonic anhydrase in RBCs catalyzes the reversible conversion of CO2 and water into bicarbonate and hydrogen ions.",
+   "textbook_ref": "kebo114.txt lines 248-270",
+   "question_patterns": [
+    "how is carbon dioxide transported in the human body",
+    "what is the role of carbonic anhydrase in CO2 transport",
+    "how much CO2 is delivered to alveoli by 100 ml of deoxygenated blood",
+    "explain the reaction of carbon dioxide transport at the tissue level",
+    "justify why transport of carbon dioxide matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three modes of carbon dioxide transport",
+     "explain": "CO2 is transported as bicarbonate (70%), bound to hemoglobin (20-25%), and dissolved in plasma (7%)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of carbonic anhydrase in converting CO2 to bicarbonate",
+     "explain": "At tissues, high pCO2 drives the formation of bicarbonate. At alveoli, low pCO2 reverses the reaction to release CO2 gas."
+    },
+    {
+     "step": 3,
+     "action": "Quantify CO2 delivery per unit of deoxygenated blood",
+     "explain": "Approximately 4 mL of CO2 is delivered to alveoli by every 100 mL of deoxygenated blood, confirming efficient transport via all three modes."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.8",
+   "title": "Regulation of Respiration",
+   "section": "14.5",
+   "definition": "The neural and chemical control mechanisms, primarily centered in the medulla and pons, that adjust respiratory rhythm based on body needs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The respiratory rhythm is set by the medulla and pons, which respond strongly to carbon dioxide and hydrogen ion levels in the blood, while oxygen plays only a minor role.",
+   "textbook_ref": "kebo114.txt lines 271-287",
+   "question_patterns": [
+    "where is the respiratory rhythm centre located",
+    "what is the function of the pneumotaxic centre",
+    "how do chemoreceptors regulate breathing",
+    "explain the role of oxygen in regulating respiratory rhythm",
+    "list the main features of regulation of respiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary regulatory center",
+     "explain": "The respiratory rhythm center in the medulla is primarily responsible for maintaining and moderating the respiratory rhythm."
+    },
+    {
+     "step": 2,
+     "action": "Describe the moderating role of the pneumotaxic center",
+     "explain": "The pneumotaxic center in the pons moderates the rhythm center's activity, reducing the duration of inspiration and altering the respiratory rate."
+    },
+    {
+     "step": 3,
+     "action": "Explain how chemosensitive areas detect changes in CO2 and H+ concentration",
+     "explain": "Chemoreceptors in the brain and major arteries recognize high CO2 and H+ levels, signaling the rhythm center to increase ventilation to eliminate these substances."
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.9",
+   "title": "Disorders of the Respiratory System",
+   "section": "14.6",
+   "definition": "Pathological conditions affecting the respiratory system, including asthma, emphysema, and occupational lung diseases.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Respiratory disorders can arise from inflammation, environmental damage (like smoking), or chronic exposure to industrial dust.",
+   "textbook_ref": "kebo114.txt lines 288-301",
+   "question_patterns": [
+    "what are the symptoms and causes of emphysema",
+    "define asthma and its physiological cause",
+    "what is occupational respiratory disorder and how can it be prevented",
+    "explain the term fibrosis in the context of lung diseases",
+    "short note on disorders of the respiratory system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific respiratory disorder",
+     "explain": "Asthma involves bronchi inflammation; emphysema involves alveolar wall damage; occupational disorders involve dust-induced lung damage."
+    },
+    {
+     "step": 2,
+     "action": "Describe its primary cause and physiological impact",
+     "explain": "Cigarette smoking causes emphysema, leading to decreased respiratory surface. Industrial dust causes fibrosis, leading to serious lung damage."
+    },
+    {
+     "step": 3,
+     "action": "Propose preventive and management strategies",
+     "explain": "Avoiding smoking, using protective masks in industrial settings, and early medical intervention can prevent or slow the progression of respiratory disorders."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo114.txt lines 150-181",
+   "concept": "kebo.14.4.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the vital capacity of a patient if their expiratory reserve volume is {erv} mL, tidal volume is {tidal_volume} mL, and inspiratory reserve volume is {irv} mL.",
+   "extracted_variables": {
+    "erv": "expiratory reserve volume in mL",
+    "tidal_volume": "tidal volume in mL",
+    "irv": "inspiratory reserve volume in mL"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume, tidal volume, and inspiratory reserve volume",
+     "explain": "Vital capacity is the total volume of air a person can breathe out after a forced inspiration, which equals ERV + TV + IRV.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo114.txt lines 150-157",
+   "concept": "kebo.14.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the minute volume of ventilation for a healthy individual with a tidal volume of {tidal_volume} mL and a breathing rate of {breathing_rate} breaths per minute.",
+   "extracted_variables": {
+    "tidal_volume": "tidal volume in mL",
+    "breathing_rate": "breathing rate in breaths per minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply tidal volume by breathing rate",
+     "explain": "Minute volume is calculated by multiplying the volume of air per breath (tidal volume) by the number of breaths per minute.",
+     "compute": "minute_volume = tidal_volume * breathing_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo114.txt lines 175-181",
+   "concept": "kebo.14.4.6",
+   "question_type": "compute",
+   "question_pattern": "Determine the total lung capacity of an individual whose expiratory reserve volume is {erv} mL, tidal volume is {tidal_volume} mL, inspiratory reserve volume is {irv} mL, and residual volume is {residual_volume} mL.",
+   "extracted_variables": {
+    "erv": "expiratory reserve volume in mL",
+    "tidal_volume": "tidal volume in mL",
+    "irv": "inspiratory reserve volume in mL",
+    "residual_volume": "residual volume in mL"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate vital capacity as the sum of ERV, TV, and IRV",
+     "explain": "Vital capacity is the sum of expiratory reserve volume, tidal volume, and inspiratory reserve volume.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    },
+    {
+     "step": 2,
+     "action": "Add residual volume to vital capacity to get total lung capacity",
+     "explain": "Total lung capacity is the sum of vital capacity and residual volume.",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo114.txt lines 150-157",
+   "concept": "kebo.14.4.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute tidal volume and minute ventilation step by step",
+   "extracted_variables": {
+    "tidal_volume": "value of tidal_volume",
+    "breathing_rate": "value of breathing_rate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply tidal volume by the breathing rate to find minute volume",
+     "explain": "Minute ventilation represents the total volume of air exchanged in one minute.",
+     "compute": "minute_volume = tidal_volume * breathing_rate"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kebo114.txt lines 164-167",
+   "concept": "kebo.14.4.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute inspiratory capacity (ic) step by step",
+   "extracted_variables": {
+    "tidal_volume": "value of tidal_volume",
+    "irv": "value of irv"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the inspiratory reserve volume",
+     "explain": "Inspiratory capacity includes both normal tidal volume and the reserve volume available for deep inspiration.",
+     "compute": "inspiratory_capacity = tidal_volume + irv"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kebo114.txt lines 168-171",
+   "concept": "kebo.14.4.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute expiratory capacity (ec) step by step",
+   "extracted_variables": {
+    "tidal_volume": "value of tidal_volume",
+    "erv": "value of erv"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the expiratory reserve volume",
+     "explain": "Expiratory capacity is the total air a person can expel after a normal inhalation.",
+     "compute": "expiratory_capacity = tidal_volume + erv"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "kebo114.txt lines 172-174",
+   "concept": "kebo.14.4.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute functional residual capacity (frc) step by step",
+   "extracted_variables": {
+    "erv": "value of erv",
+    "residual_volume": "value of residual_volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume and the residual volume",
+     "explain": "FRC represents the air remaining in the lungs after normal expiration, which cannot be actively exhaled without effort.",
+     "compute": "functional_residual_capacity = erv + residual_volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "kebo114.txt lines 175-178",
+   "concept": "kebo.14.4.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute vital capacity (vc) step by step",
+   "extracted_variables": {
+    "erv": "value of erv",
+    "tidal_volume": "value of tidal_volume",
+    "irv": "value of irv"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume, tidal volume, and inspiratory reserve volume",
+     "explain": "Vital capacity is the sum of all usable, active respiratory volumes.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "kebo114.txt lines 179-181",
+   "concept": "kebo.14.4.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute total lung capacity (tlc) step by step",
+   "extracted_variables": {
+    "erv": "value of erv",
+    "tidal_volume": "value of tidal_volume",
+    "irv": "value of irv",
+    "residual_volume": "value of residual_volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate vital capacity as the sum of ERV, TV, and IRV",
+     "explain": "Vital capacity is the sum of expiratory reserve volume, tidal volume, and inspiratory reserve volume.",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    },
+    {
+     "step": 2,
+     "action": "Add residual volume to vital capacity to get total lung capacity",
+     "explain": "Total lung capacity is the sum of vital capacity and residual volume.",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "kebo114.txt lines 164-167",
+   "concept": "kebo.14.4.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute inspiratory capacity (ic) step by step",
+   "extracted_variables": {
+    "tidal_volume": "value of tidal_volume",
+    "irv": "value of irv"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the inspiratory reserve volume",
+     "explain": "Inspiratory capacity includes both normal tidal volume and the reserve volume available for deep inspiration.",
+     "compute": "inspiratory_capacity = tidal_volume + irv"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "kebo114.txt lines 168-171",
+   "concept": "kebo.14.4.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute expiratory capacity (ec) step by step",
+   "extracted_variables": {
+    "tidal_volume": "value of tidal_volume",
+    "erv": "value of erv"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the tidal volume and the expiratory reserve volume",
+     "explain": "Expiratory capacity is the total air a person can expel after a normal inhalation.",
+     "compute": "expiratory_capacity = tidal_volume + erv"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "kebo114.txt lines 172-174",
+   "concept": "kebo.14.4.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute functional residual capacity (frc) step by step",
+   "extracted_variables": {
+    "erv": "value of erv",
+    "residual_volume": "value of residual_volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the expiratory reserve volume and the residual volume",
+     "explain": "FRC represents the air remaining in the lungs after normal expiration, which cannot be actively exhaled without effort.",
+     "compute": "functional_residual_capacity = erv + residual_volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "kebo114.txt lines 304-305",
+   "questions": [
+    "Define vital capacity. What is its significance?"
+   ]
+  },
+  {
+   "id": "ex14.2",
+   "source_ref": "kebo114.txt line 306",
+   "questions": [
+    "State the volume of air remaining in the lungs after a normal breathing."
+   ]
+  },
+  {
+   "id": "ex14.3",
+   "source_ref": "kebo114.txt lines 307-308",
+   "questions": [
+    "Diffusion of gases occurs in the alveolar region only and not in the other parts of respiratory system. Why?"
+   ]
+  },
+  {
+   "id": "ex14.4",
+   "source_ref": "kebo114.txt line 309",
+   "questions": [
+    "What are the major transport mechanisms for CO2? Explain."
+   ]
+  },
+  {
+   "id": "ex14.5",
+   "source_ref": "kebo114.txt lines 310-315",
+   "questions": [
+    "What will be the pO2 and pCO2 in the atmospheric air compared to those in the alveolar air?"
+   ]
+  },
+  {
+   "id": "ex14.6",
+   "source_ref": "kebo114.txt line 316",
+   "questions": [
+    "Explain the process of inspiration under normal conditions."
+   ]
+  },
+  {
+   "id": "ex14.7",
+   "source_ref": "kebo114.txt line 317",
+   "questions": [
+    "How is respiration regulated?"
+   ]
+  },
+  {
+   "id": "ex14.8",
+   "source_ref": "kebo114.txt line 318",
+   "questions": [
+    "What is the effect of pCO2 on oxygen transport?"
+   ]
+  },
+  {
+   "id": "ex14.9",
+   "source_ref": "kebo114.txt line 319",
+   "questions": [
+    "What happens to the respiratory process in a man going up a hill?"
+   ]
+  },
+  {
+   "id": "ex14.10",
+   "source_ref": "kebo114.txt line 320",
+   "questions": [
+    "What is the site of gaseous exchange in an insect?"
+   ]
+  },
+  {
+   "id": "ex14.11",
+   "source_ref": "kebo114.txt lines 321-322",
+   "questions": [
+    "Define oxygen dissociation curve. Can you suggest any reason for its sigmoidal pattern?"
+   ]
+  },
+  {
+   "id": "ex14.12",
+   "source_ref": "kebo114.txt lines 323-324",
+   "questions": [
+    "Have you heard about hypoxia? Try to gather information about it, and discuss with your friends."
+   ]
+  },
+  {
+   "id": "ex14.13",
+   "source_ref": "kebo114.txt lines 325-328",
+   "questions": [
+    "Distinguish between: (a) IRV and ERV, (b) Inspiratory capacity and Expiratory capacity, (c) Vital capacity and Total lung capacity."
+   ]
+  },
+  {
+   "id": "ex14.14",
+   "source_ref": "kebo114.txt lines 329-330",
+   "questions": [
+    "What is Tidal volume? Find out the Tidal volume (approximate value) for a healthy human in an hour."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

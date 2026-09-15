@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_008",
+   "title": "c12_math_cbse_01_008",
+   "questions": [
+    {
+     "q": "What are the two essential conditions a rule \\( * \\) must satisfy to be a binary operation on a set \\( S \\)?",
+     "a": "The rule must be **well-defined** (each ordered pair \\( (a,b) \\) maps to exactly one element) and satisfy **closure** (for all \\( a,b \\in S \\), \\( a*b \\in S \\)). A wrong answer that only mentions \"it takes two inputs\" reveals the student confuses a binary operation with any two-variable function, ignoring the requirement that the output must stay in the same set.",
+     "self_check": true
+    },
+    {
+     "q": "Why is subtraction **not** a binary operation on the set of natural numbers \\( \\mathbb{N} = \\{1,2,3,\\dots\\} \\)?",
+     "a": "Subtraction fails closure: for \\( 2,5 \\in \\mathbb{N} \\), \\( 2-5 = -3 \\notin \\mathbb{N} \\). A single counterexample is enough. A wrong answer claiming \"subtraction works for some pairs\" shows the student thinks closure only needs to hold sometimes, not for **all** pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the rule \\( * \\) defined on \\( \\mathbb{Z} \\) by \\( a * b = a + b - ab \\) is a binary operation. Show your reasoning step by step.",
+     "a": "**Step 1:** Take arbitrary \\( a,b \\in \\mathbb{Z} \\).  \n**Step 2:** Compute \\( a+b-ab \\). Since integers are closed under addition and multiplication, \\( a+b \\) and \\( ab \\) are integers.  \n**Step 3:** The difference of two integers is an integer, so \\( a+b-ab \\in \\mathbb{Z} \\).  \n**Step 4:** The expression gives a unique integer for each pair.  \n**Conclusion:** \\( * \\) is a binary operation on \\( \\mathbb{Z} \\).  \nA wrong answer that says \"it's not closed because of subtraction\" reveals the student forgets that subtraction of integers always yields an integer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binary operations \\( *_1 \\) and \\( *_2 \\) on \\( \\mathbb{R} \\) defined by \\( a *_1 b = a+b \\) and \\( a *_2 b = a+b+1 \\). Are they \"essentially the same\" operation? Explain.",
+     "a": "They are **different** operations because \\( a *_1 b \\neq a *_2 b \\) for any \\( a,b \\) (e.g., \\( 0*_1 0 = 0 \\) but \\( 0*_2 0 = 1 \\)). However, they are **isomorphic** via the translation \\( x \\mapsto x-1 \\): \\( (a-1) *_2 (b-1) = (a-1)+(b-1)+1 = a+b-1 = (a+b)-1 \\), so the structure is the same. A wrong answer saying \"they are the same because both use addition\" shows the student confuses the algebraic expression with the operation itself.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Division is a binary operation on the set of non-zero rational numbers \\( \\mathbb{Q}^* \\).\" Is the student correct? Justify.",
+     "a": "**Yes**, the student is correct. For any \\( a,b \\in \\mathbb{Q}^* \\), \\( a/b \\) is a rational number (quotient of rationals) and since \\( b \\neq 0 \\), the result is defined and non-zero, so \\( a/b \\in \\mathbb{Q}^* \\). Closure and well-definedness hold. A wrong answer saying \"division is not a binary operation because of zero\" reveals the student did not notice the set is \\( \\mathbb{Q}^* \\) (non-zero rationals), not \\( \\mathbb{Q} \\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a binary operation on the set \\( \\{0,1\\} \\) that is **neither** addition modulo 2 nor multiplication modulo 2. Write its operation table.",
+     "a": "One example: define \\( a * b = \\max(a,b) \\) (the larger of the two).  \nOperation table:\n```\n* | 0 1\n0 | 0 1\n1 | 1 1\n```\nAnother: \\( a * b = a \\) (projection onto first coordinate).  \nA poor answer that gives addition/multiplication modulo 2 or a table with entries outside \\( \\{0,1\\} \\) shows the student cannot invent a new rule or does not understand closure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

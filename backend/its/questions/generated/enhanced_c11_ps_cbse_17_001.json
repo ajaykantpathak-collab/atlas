@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_001",
+   "title": "c11_ps_cbse_17_001",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for local governments in India after the 1992 amendments? (Recall the specific articles and amendment numbers.)",
+     "a": "The 73rd Constitutional Amendment (1992) added Part IX (Articles 243 to 243O) for Panchayats, and the 74th Amendment added Part IXA (Articles 243P to 243ZG) for Municipalities. A wrong answer (e.g., citing Article 40 only) reveals confusion between the original Directive Principle (non-justiciable) and the later constitutional mandate (justiciable). It also shows the student may not know that local governments became a constitutional requirement, not just a directive.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why grassroots democracy is considered distinct from the representative democracy practiced at the Union and State levels. (Focus on participation, proximity, and accountability.)",
+     "a": "Grassroots democracy involves direct participation of citizens in decision-making through forums like Gram Sabha and Ward Committees, whereas Union/State democracy operates primarily through elected representatives in legislatures. Proximity allows citizens to monitor and influence decisions daily, not just during elections. A wrong answer that equates grassroots democracy with merely having local elections misses the continuous engagement aspect and the principle of subsidiarity.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation decides to build a flyover in a dense residential area without consulting the Ward Committee. Residents protest, citing the 74th Amendment. Apply the concept of responsiveness to analyze whether the corporation violated constitutional principles.",
+     "a": "Yes, the corporation violated the principle of responsiveness embedded in the 74th Amendment. Article 243S mandates Ward Committees for citizen participation in municipal governance. Responsiveness requires that local bodies actively seek and incorporate citizen input, especially for projects directly affecting their quality of life. A wrong answer that says \"the corporation has the power to decide\" ignores the statutory requirement for participatory planning and confuses administrative authority with democratic legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanisms of a Member of Parliament (Lok Sabha) and a Gram Panchayat member. How does the scale of constituency affect responsiveness?",
+     "a": "An MP represents ~2.5 million people, making direct accountability diffuse; a Gram Panchayat member represents a few hundred voters, enabling face-to-face accountability. The MP is accountable through periodic elections and parliamentary procedures; the Panchayat member is accountable daily through Gram Sabha meetings, social pressure, and recall provisions in some states. A wrong answer that treats both as equally accountable because both are elected fails to analyze how constituency size and institutional design (Gram Sabha vs. Parliament) create different responsiveness incentives.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Local governments are unnecessary because State governments can administer local matters more efficiently due to economies of scale and professional expertise.\" Use democratic theory and Indian constitutional design to justify your position.",
+     "a": "The argument confuses administrative efficiency with democratic legitimacy. The Constitution (via 73rd/74th Amendments) prioritizes self-governance (Article 40, now Part IX/IXA) over mere service delivery. Democratic theory (subsidiarity) holds that decisions affecting a community should be made by that community, even if less \"efficient,\" because it builds civic capacity and ensures responsiveness to local diversity. A wrong answer that agrees with the statement reveals a technocratic view of governance, ignoring the constitutional commitment to deepening democracy through decentralization.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph provision for a hypothetical \"Local Government Accountability Act\" that would operationalize the principle of responsiveness for urban local bodies. Include at least three concrete mechanisms.",
+     "a": "A strong answer would include: (1) mandatory quarterly Ward Committee meetings with published minutes, (2) a citizen's charter with service standards and grievance redressal timelines, (3) participatory budgeting where a percentage of the municipal budget is allocated through ward-level voting, and (4) social audit provisions. A poor answer would only mention elections or vague \"transparency\" without specific institutional mechanisms, showing inability to translate democratic principles into institutional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

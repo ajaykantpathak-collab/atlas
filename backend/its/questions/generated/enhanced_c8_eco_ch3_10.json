@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_10",
+   "title": "c8_eco_ch3_10",
+   "questions": [
+    {
+     "q": "What is the primary economic objective of integrating Information and Communication Technology (ICT) into public utilities under the Smart Cities Mission?",
+     "a": "The primary economic objective is to optimize resource allocation and reduce operational costs (OpEx) of public utilities (like water and electricity) through real-time data monitoring, rather than relying solely on expensive physical expansion of infrastructure.\n\n*What a wrong answer reveals:* If a student answers that the goal is simply \"to make cities look futuristic\" or \"to provide free internet,\" they are focusing on technological aesthetics rather than the economic reality of resource optimization and municipal budget efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a smart water grid with acoustic leak-detection sensors improve municipal finances more than simply increasing the water tariff (price) to cover losses?",
+     "a": "Simply increasing the water tariff forces consumers to pay for wasted water (Non-Revenue Water lost through leakages), which reduces consumer welfare and can lead to non-payment. In contrast, smart acoustic sensors locate invisible underground leaks immediately. This reduces physical water loss, allowing the municipality to sell more of the water it already treats without raising rates, thereby improving municipal revenue while preserving consumer trust.\n\n*What a wrong answer reveals:* A wrong answer suggests the student believes that raising prices is always the most efficient way to increase revenue, failing to understand that physical waste (inefficient supply-side infrastructure) represents a structural loss of capital that pricing strategies alone cannot fix.",
+     "self_check": true
+    },
+    {
+     "q": "A municipality spends ₹50,00,000 to install smart GPS and volume sensors on its garbage collection trucks and bins. This technology reduces the average distance traveled by trucks by 20% due to optimized routing (only visiting full bins). If the original annual fuel bill for the fleet was ₹15,00,000, and other maintenance savings amount to ₹2,00,000 annually, calculate the payback period for this investment.",
+     "a": "**Step 1: Identify given financial data.**\n* Initial Capital Investment (CapEx) = ₹50,0,000\n* Original Fuel Bill = ₹15,00,000 per year\n* Maintenance Savings = ₹2,00,000 per year\n\n**Step 2: Calculate annual fuel savings.**\n* Fuel Savings = 20% of Original Fuel Bill = $0.20 \\times 15,00,000 = ₹3,00,000$ per year\n\n**Step 3: Calculate total annual operational savings (OpEx savings).**\n* Total Annual Savings = Fuel Savings + Maintenance Savings = $3,00,000 + 2,00,000 = ₹5,00,000$ per year\n\n**Step 4: Calculate the payback period.**\n* Payback Period = $\\text{Initial Investment} / \\text{Annual Savings}$\n* Payback Period = $50,00,000 / 5,00,000 = 10 \\text{ years}$\n\n*What a wrong answer reveals:* If the student fails to calculate the 20% fuel savings correctly or adds the investment cost to the savings, it shows a lack of understanding of how capital expenditures (CapEx) are offset over time by operational savings (OpEx).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic concept of \"Opportunity Cost\" when a municipal corporation decides to spend ₹100 crores on a high-tech Central Command and Control Centre (automated traffic and surveillance) instead of upgrading the city's open drainage systems to prevent monsoon flooding. Which project yields better long-term economic resilience?",
+     "a": "The opportunity cost of building the Command Centre is the forgone benefit of flood prevention (e.g., preventing damage to shops, roads, health costs from waterborne diseases, and lost working days during floods). \n\nWhile a command centre improves traffic efficiency daily, chronic flooding causes massive periodic capital destruction and halts economic activity. Therefore, for a city highly vulnerable to monsoons, upgrading drainage systems yields higher economic resilience because it protects the city's fundamental productive assets from destruction, which is a prerequisite for any smart technology to function.\n\n*What a wrong answer reveals:* A wrong answer focusing solely on the \"modernity\" of the Command Centre shows that the student is susceptible to \"tech-washing\"—preferring high-tech solutions even when basic physical infrastructure deficits pose a far greater threat to economic stability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact of implementing \"smart congestion pricing\" (charging a dynamic digital fee to vehicles entering busy commercial zones during peak hours) on local market vendors operating inside that zone.",
+     "a": "The impact is mixed and depends on consumer behavior:\n1. **Negative impact:** It increases the transaction cost for shoppers traveling by private vehicles, potentially driving them to suburban malls or online platforms where no such fee exists, reducing footfall for local vendors.\n2. **Positive impact:** It reduces traffic gridlock, making the commercial zone more pleasant for pedestrians, improving delivery times for goods, and attracting higher-spending customers who value convenience. \n\nFor vendors selling low-margin daily goods, the negative impact of reduced low-income footfall usually outweighs the positive, whereas high-end luxury retailers benefit from a more organized, less congested shopping environment.\n\n*What a wrong answer reveals:* A one-sided answer (e.g., \"it is purely good because traffic is bad\" or \"it is purely bad because it costs money\") shows the student cannot analyze market interactions or balance competing economic variables.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a smart, technology-driven solution to solve the economic problem of \"Non-Revenue Water\" (water that is cleaned and pumped but \"lost\" before it reaches paying customers due to theft or leaks) for a municipal ward with limited funds. Explain how it pays for itself.",
+     "a": "A highly effective, low-cost solution is the installation of smart, prepaid digital water meters at main sub-distribution points, combined with a community-incentivized mobile application. \n\n**How it pays for itself:**\n1. The sub-meters compare the volume of water pumped into a neighborhood with the total volume billed. If there is a mismatch, the municipality knows precisely which small pipe section has a leak or illegal tap.\n2. Instead of digging up entire roads (expensive), repairs are targeted.\n3. The community app allows residents to report visible leaks in exchange for minor discounts on their water bills.\n4. The saved water is then sold to previously unserved households, generating new municipal revenue that quickly recovers the cost of the meters.\n\n*What a poor answer reveals:* A poor proposal that suggests expensive, high-end satellite imaging or replacing all pipelines shows that the student does not understand budget constraints and cannot design realistic, cost-effective solutions for developing economies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

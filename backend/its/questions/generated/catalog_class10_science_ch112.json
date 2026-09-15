@@ -1,0 +1,405 @@
+{
+ "catalog": "catalog_class10_science_ch112.json",
+ "concepts": [
+  {
+   "id": "jesc.12.1",
+   "title": "Magnetic Field and Field Lines",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a magnetic field line?",
+     "a": "An imaginary curve whose tangent at a point gives the direction of the magnetic field there.",
+     "self_check": true
+    },
+    {
+     "q": "State two properties of magnetic field lines.",
+     "a": "They leave the north pole and enter the south pole outside the magnet, and never intersect each other.",
+     "self_check": true
+    },
+    {
+     "q": "Why do two field lines never cross?",
+     "a": "At a crossing point the compass needle would have to point in two directions at once, which is impossible.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.1",
+   "title": "Magnetic Field of a Straight Conductor",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "field_units",
+     "expr": "current / distance",
+     "explain": "field strength near the wire grows with current and falls with distance"
+    },
+    {
+     "step": 2,
+     "name": "current_ma",
+     "expr": "current * 1000",
+     "explain": "current in milliamperes"
+    },
+    {
+     "step": 3,
+     "name": "field_at_half_distance",
+     "expr": "field_units * 2",
+     "explain": "halving the distance doubles the field strength"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A straight wire carries 5 A. Taking the field measure as current divided by distance, find its value at 0.2 m, and at half that distance.",
+     "vals": {
+      "current": 5,
+      "distance": 0.2
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "A 6 A wire is probed at 0.3 m. Compute the field measure and its value at 0.15 m.",
+     "vals": {
+      "current": 6,
+      "distance": 0.3
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the field measure (current/distance) for 9 A at 0.6 m from a long straight conductor.",
+     "vals": {
+      "current": 9,
+      "distance": 0.6
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "At 0.8 m from a 4 A wire, evaluate the field measure and the doubled value at 0.4 m.",
+     "vals": {
+      "current": 4,
+      "distance": 0.8
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "A 10 A cable is measured 2.5 m away. What is the field measure there?",
+     "vals": {
+      "current": 10,
+      "distance": 2.5
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "8 units",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.2",
+   "title": "Right-Hand Thumb Rule",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the right-hand thumb rule.",
+     "a": "Hold the wire with the right hand, thumb along the current; the curled fingers show the direction of the magnetic field around the wire.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to the field around a straight wire if the current reverses?",
+     "a": "The direction of the circular field around the wire also reverses.",
+     "self_check": true
+    },
+    {
+     "q": "How does the magnetic field near a straight current-carrying wire depend on distance?",
+     "a": "The field strength decreases as we move away from the wire - concentric circles get farther apart.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.3",
+   "title": "Magnetic Field of a Circular Loop",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "half_turn_field",
+     "expr": "(turns / 2) * field_per_turn",
+     "explain": "field with half the turns"
+    },
+    {
+     "step": 2,
+     "name": "three_loop_field",
+     "expr": "3 * field_per_turn",
+     "explain": "field from just three loops"
+    },
+    {
+     "step": 3,
+     "name": "total_field",
+     "expr": "turns * field_per_turn",
+     "explain": "each loop of the coil adds the same field at the centre"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A circular coil of 100 turns has a centre field of 0.8 units per turn. What is the total field?",
+     "vals": {
+      "turns": 100,
+      "field_per_turn": 0.8
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "A loop of 50 turns contributes 1.2 units per turn at the centre. Find the total.",
+     "vals": {
+      "turns": 50,
+      "field_per_turn": 1.2
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "For a 200-turn coil with 0.5 units per turn, compute the total field at the centre.",
+     "vals": {
+      "turns": 200,
+      "field_per_turn": 0.5
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "A coil of 75 turns gives 0.4 units per turn. What is the combined field?",
+     "vals": {
+      "turns": 75,
+      "field_per_turn": 0.4
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "If each of 120 turns adds 2 units, what total field results at the coil centre?",
+     "vals": {
+      "turns": 120,
+      "field_per_turn": 2
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "240 units",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.4",
+   "title": "Magnetic Field in a Solenoid",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a solenoid?",
+     "a": "A coil of many circular turns of insulated copper wire wrapped in the shape of a cylinder.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a current-carrying solenoid behave like a bar magnet?",
+     "a": "Its field pattern is the same as a bar magnet's: one end acts north, the other south.",
+     "self_check": true
+    },
+    {
+     "q": "How can the field inside a solenoid be made stronger?",
+     "a": "Increase the current, increase the number of turns per length, or put a soft iron core inside.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.3",
+   "title": "Force on a Conductor in a Magnetic Field",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "When does a current-carrying conductor in a magnetic field move?",
+     "a": "When current flows through it at an angle to the field, a force (motor principle) acts on the conductor.",
+     "self_check": true
+    },
+    {
+     "q": "On what factors does the force on a conductor in a magnetic field depend?",
+     "a": "The strength of the magnetic field, the current, and the length of the conductor within the field.",
+     "self_check": true
+    },
+    {
+     "q": "Which rule gives the direction of this force?",
+     "a": "Fleming's left-hand rule.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.3.1",
+   "title": "Fleming's Left-Hand Rule",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State Fleming's left-hand rule.",
+     "a": "With forefinger, middle finger and thumb of the left hand at right angles: field along forefinger, current along middle finger, force (motion) along thumb.",
+     "self_check": true
+    },
+    {
+     "q": "What is the working principle of an electric motor?",
+     "a": "A current-carrying coil in a magnetic field experiences forces in opposite directions on its sides, rotating it; a commutator keeps the rotation going.",
+     "self_check": true
+    },
+    {
+     "q": "In an electric motor, what is the role of the split ring?",
+     "a": "The split-ring commutator reverses the current in the coil every half turn so the coil keeps spinning one way.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4",
+   "title": "Domestic Electric Circuits",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the standard potential difference of domestic supply in India?",
+     "a": "220 V alternating current at 50 Hz.",
+     "self_check": true
+    },
+    {
+     "q": "Why are household appliances connected in parallel?",
+     "a": "Each appliance gets the full 220 V, can be switched independently, and one failing does not stop the others.",
+     "self_check": true
+    },
+    {
+     "q": "Name the two wires of a domestic circuit and their colours.",
+     "a": "Live wire with red insulation and neutral wire with black insulation; an earth wire (green) connects metal bodies to ground.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4.1",
+   "title": "Short Circuit and Overloading",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is overloading of a circuit?",
+     "a": "Connecting appliances that draw more current than the wiring can safely carry, overheating it.",
+     "self_check": true
+    },
+    {
+     "q": "What is a short circuit?",
+     "a": "Live and neutral wires touch directly, giving a very low resistance path and a sudden huge current.",
+     "self_check": true
+    },
+    {
+     "q": "How does a fuse protect a circuit?",
+     "a": "The fuse wire melts when current exceeds its rating, breaking the circuit before damage occurs.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4.2",
+   "title": "Domestic Power Safety Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "power_kw",
+     "expr": "power / 1000",
+     "explain": "power in kilowatts"
+    },
+    {
+     "step": 2,
+     "name": "half_voltage_current",
+     "expr": "power / (voltage / 2)",
+     "explain": "current if the voltage fell by half"
+    },
+    {
+     "step": 3,
+     "name": "current",
+     "expr": "power / voltage",
+     "explain": "I = P/V for a household appliance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 2200 W geyser runs on a 220 V line. Find the current it draws.",
+     "vals": {
+      "power": 2200,
+      "voltage": 220
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "10 A",
+     "self_check": false
+    },
+    {
+     "q": "An 1100 W microwave works on 220 V mains. Calculate its current.",
+     "vals": {
+      "power": 1100,
+      "voltage": 220
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "5 A",
+     "self_check": false
+    },
+    {
+     "q": "A 660 W washing machine is plugged into 220 V. What current flows?",
+     "vals": {
+      "power": 660,
+      "voltage": 220
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "3 A",
+     "self_check": false
+    },
+    {
+     "q": "A 100 W lamp works on a 12 V supply (a caravan). Find the current.",
+     "vals": {
+      "power": 100,
+      "voltage": 12
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "8.33333 A",
+     "self_check": false
+    },
+    {
+     "q": "A 1500 W kettle on 220 V mains: what current rating must its fuse allow?",
+     "vals": {
+      "power": 1500,
+      "voltage": 220
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "6.81818 A",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

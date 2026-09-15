@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_006",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_006",
+   "title": "c7_eco_ch04_006",
+   "questions": [
+    {
+     "q": "What is the primary source of funds that commercial banks use to provide loans to businesses and individuals?",
+     "a": "The primary source of funds is the deposits made by savers into savings, current, and fixed accounts at the bank. If a student answers \"government grants\" or \"bank owner's personal wealth,\" it reveals a misunderstanding of how financial intermediation works, thinking banks operate purely on external funding rather than pooling community savings.",
+     "self_check": true
+    },
+    {
+     "q": "Why do banks charge a higher interest rate on loans they give out compared to the interest rate they pay to people who deposit savings?",
+     "a": "Banks charge higher interest on loans (lending rate) than they pay on deposits (borrowing/saving rate) to cover their operational costs, administrative expenses, risk of default, and to make a profit. A student who believes banks charge the same interest rate fails to understand the profit model of financial intermediaries, missing how the \"interest spread\" keeps banks in business.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer takes a crop loan of ₹40,000 from a commercial bank for one year at an annual simple interest rate of 8%. Calculate the total amount the farmer must repay to the bank at the end of the year.",
+     "a": "Step 1: Identify given values: Principal (P) = ₹40,000, Rate (R) = 8% per annum, Time (T) = 1 year.\nStep 2: Recall simple interest formula: Interest = $(P \\times R \\times T) / 100$.\nStep 3: Calculate interest: $(40,000 \\times 8 \\times 1) / 100 = ₹3,200$.\nStep 4: Calculate total repayment amount: Principal + Interest = $₹40,000 + ₹3,200 = ₹43,200$.\nA student who answers only ₹3,200 has calculated just the interest without adding back the original principal, forgetting that a loan must be repaid in full plus the cost of borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to economic activity in a town if a commercial bank suddenly stops granting credit to local shopkeepers and farmers.",
+     "a": "Stopping credit restricts local businesses from expanding inventory or purchasing seeds and equipment, leading to lower production, fewer jobs, and a slowdown in local market exchange. A student who thinks the local economy will remain unaffected ignores the crucial role that credit plays in funding productive investments and daily commerce.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Taking a bank loan is always harmful because you end up paying more money back than you borrowed.\" Is this economically accurate for all types of loans?",
+     "a": "This is economically inaccurate because loans used for productive investments (like buying machinery or expanding a shop) generate higher revenue and profits that far outweigh the cost of interest. A student who agrees entirely views loans solely as a consumer burden, failing to distinguish between unproductive debt and productive credit that builds wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple three-step plan for a small vegetable vendor who wants to secure a bank loan of ₹10,000 to buy a larger pushcart and weighing scale.",
+     "a": "The plan should include: 1) Opening a savings bank account and maintaining a steady transaction record; 2) Preparing a simple business plan showing how the new pushcart will increase daily sales and income; 3) Submitting required identity documents and proof of business to the bank officer. A poor answer might suggest asking strangers or ignoring bank requirements, showing a lack of understanding of formal credit systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

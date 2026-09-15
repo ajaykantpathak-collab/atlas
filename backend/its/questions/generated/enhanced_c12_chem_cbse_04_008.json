@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_008",
+   "title": "c12_chem_cbse_04_008",
+   "questions": [
+    {
+     "q": "Write the ground-state electronic configuration of Gd (Z=64) and its most stable ion Gd³⁺. Explain why Gd has a 5d¹ electron in its neutral atom configuration.",
+     "a": "Gd: [Xe] 4f⁷ 5d¹ 6s²; Gd³⁺: [Xe] 4f⁷. The 5d¹ electron appears because the half-filled 4f⁷ subshell (f⁷) gains extra exchange energy stability; promoting one electron from 4f to 5d preserves the half-filled f-subshell while placing an electron in a slightly higher orbital — a net stabilization. A wrong answer writing Gd as [Xe] 4f⁸ 6s² shows the student ignores exchange energy stabilization of half-filled subshells (a Class 11 concept from c11_chem_cbse_02_017).",
+     "self_check": true
+    },
+    {
+     "q": "Why is Eu²⁺ (4f⁷) stable in aqueous solution while most other Ln²⁺ ions are not? Compare with Yb²⁺ (4f¹⁴).",
+     "a": "Eu²⁺ has the half-filled f⁷ configuration (maximum exchange energy, 7 unpaired electrons with parallel spins), and Yb²⁺ has the completely filled f¹⁴ configuration — both are exceptionally stable. Other Ln²⁺ ions would have configurations like fⁿ (n≠7,14) which lack this extra stabilization and readily oxidize to Ln³⁺. A student claiming \"Eu²⁺ is stable because Eu has low ionization energy\" confuses thermodynamic stability of the ion with ease of formation; the key is the product ion's electronic configuration, not the neutral atom's IE.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the spin-only magnetic moment (in BM) for the following aquated ions: (a) Pr³⁺, (b) Sm³⁺, (c) Dy³⁺, (d) Yb³⁺. Use μ = √[n(n+2)] BM.",
+     "a": "(a) Pr³⁺: [Xe] 4f² → n=2 → μ = √[2(4)] = √8 = 2.83 BM\n(b) Sm³⁺: [Xe] 4f⁵ → n=5 → μ = √[5(7)] = √35 = 5.92 BM\n(c) Dy³⁺: [Xe] 4f⁹ → n=5 (f⁹ has 5 unpaired: f↑↓↑↓↑↓↑↓↑) → μ = 5.92 BM\n(d) Yb³⁺: [Xe] 4f¹³ → n=1 → μ = √[1(3)] = 1.73 BM\nA student getting (c) wrong with n=3 or n=7 reveals they don't know how to count unpaired electrons in fⁿ configurations (need to apply Hund's rule to 7 f-orbitals). This is a direct application of c11_chem_cbse_02_017.",
+     "self_check": true
+    },
+    {
+     "q": "The third ionization enthalpy of Eu is significantly higher than that of Gd. Explain this anomaly using electronic configurations.",
+     "a": "Eu: [Xe] 4f⁷ 6s² → Eu²⁺: [Xe] 4f⁷ (stable half-filled) → Eu³⁺: [Xe] 4f⁶. Removing the third electron breaks the stable f⁷ configuration, requiring high energy. Gd: [Xe] 4f⁷ 5d¹ 6s² → Gd²⁺: [Xe] 4f⁷ 5d¹ → Gd³⁺: [Xe] 4f⁷. The third electron comes from 5d¹, leaving the stable f⁷ intact, so ΔHᵢₑ₃ is lower. A student saying \"Gd has higher nuclear charge so higher IE\" misses the configuration-dependent stability — this tests understanding of exchange energy vs. nuclear charge effects.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ce⁴⁺ is a strong oxidizing agent because Ce has a strong tendency to attain noble gas configuration.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is partially correct but incomplete. Ce⁴⁺ has [Xe] 4f⁰ (noble gas core), which is stable. However, E°(Ce⁴⁺/Ce³⁺) = +1.74 V means Ce⁴⁺ *can* oxidize water (E° = 1.23 V for O₂/H₂O), but the reaction is kinetically slow, making Ce⁴⁺ a useful analytical reagent. The student's error: confusing thermodynamic oxidizing power (E° value) with kinetic stability. Also, \"noble gas configuration\" for Ce⁴⁺ means [Xe] core, not a filled valence shell like Xe atom — the 4f orbital is empty but exists. This tests the distinction between thermodynamic and kinetic control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a qualitative test to distinguish between aqueous solutions of Eu²⁺ and Yb²⁺ using their redox behavior. Write the expected observations and balanced equations.",
+     "a": "Add acidified KMnO₄ (purple) to each solution. Eu²⁺ (f⁷, strong reductant) reduces MnO₄⁻ to Mn²⁺ (colorless): 5Eu²⁺ + MnO₄⁻ + 8H⁺ → 5Eu³⁺ + Mn²⁺ + 4H₂O — purple decolorizes. Yb²⁺ (f¹⁴, also a reductant) reacts similarly: 5Yb²⁺ + MnO₄⁻ + 8H⁺ → 5Yb³⁺ + Mn²⁺ + 4H₂O. To distinguish, add a mild oxidant like I₂: Eu²⁺ reduces I₂ to I⁻ (brown → colorless), but Yb²⁺ does not (E°(Yb³⁺/Yb²⁺) ≈ -1.05 V vs E°(I₂/I⁻) = +0.54 V). A student using only KMnO₄ cannot distinguish them — they must know relative reducing strengths from standard potentials.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

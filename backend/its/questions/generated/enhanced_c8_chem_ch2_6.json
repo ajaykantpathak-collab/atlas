@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_6",
+   "title": "c8_chem_ch2_6",
+   "questions": [
+    {
+     "q": "What is the primary movement of particles inside a solid substance?",
+     "a": "Particles in a solid vibrate about their fixed mean positions but cannot move from one place to another. If a student thinks particles flow freely like in liquids, they are confusing the states of matter and ignoring the rigidity of solids.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a solid iron nail maintain its shape and volume when transferred from a beaker to a large bucket?",
+     "a": "Because the particles in a solid are held tightly by strong attractive forces in a fixed arrangement, they cannot change their positions or break away to fill a larger container. If a student answers that air pressure keeps it together, they misunderstand that the shape of a solid is determined by internal particle bonding rather than external pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that because you can scratch a piece of gypsum with your fingernail, the particles inside gypsum must be moving around each other freely. Is this claim correct, and why?",
+     "a": "Steps:\n1. Analyze the student's claim regarding particle movement in scratched gypsum.\n2. Recall that scratching involves overcoming surface inter-particle attraction, not causing bulk particle flow.\n3. Conclude that gypsum particles still only vibrate in fixed positions and cannot flow.\n4. Correct the claim: scratching merely displaces small clusters of tightly bound particles due to weaker crystal planes, but the substance remains a solid with vibrating, non-flowing particles.\nThe claim is incorrect. Even softer solids have particles locked in fixed positions that only vibrate; scratching breaks local bonds without turning the solid into a fluid. If a student agrees with the claim, they confuse mechanical hardness with fluidity.",
+     "self_check": true
+    },
+    {
+     "q": "How does increasing the temperature of a solid object affect the movement of its particles while it remains in the solid state?",
+     "a": "When temperature rises, thermal energy is transferred to the solid particles, causing them to vibrate faster and more vigorously about their fixed positions, though they remain locked in their lattice sites until melting occurs. If a student states that particles start moving randomly past each other, they are describing a liquid or gas, not a solid experiencing pre-melting vibration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since particles in a solid are closely packed with negligible inter-particle space, solids cannot be compressed at all.\" Is this scientifically accurate?",
+     "a": "The statement is partially inaccurate. While inter-particle space in solids is extremely small compared to liquids and gases, solids are not completely incompressible; immense pressure can cause minor elastic deformation, though they resist volume change strongly because the particles are already pushed as close together as repulsive forces allow. If a student accepts the statement as absolute truth, they overlook the reality of atomic repulsion and microscopic elasticity in rigid materials.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental or physical model using everyday classroom items (like marbles and a tray) to demonstrate how solid particles behave differently from liquid particles.",
+     "a": "A good model involves arranging glass marbles tightly in a single layer inside a small shallow box (representing a solid where each marble touches its neighbors and can only wiggle slightly when nudged). A poor answer would scatter marbles loosely across a large tray where they roll around freely, which represents a gas or liquid rather than the locked, vibrating structure of a solid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_004",
+   "title": "c10_math_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the algebraic condition for a pair of linear equations \\( a_1x + b_1y + c_1 = 0 \\) and \\( a_2x + b_2y + c_2 = 0 \\) to represent coincident lines (dependent system).",
+     "a": "The condition is \\( \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2} \\). A wrong answer like \\( \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2} \\) reveals confusion with the inconsistent (parallel lines) condition. A student writing only \\( \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\) misses that the constant terms must also be in the same ratio — otherwise the lines are parallel but distinct.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the system \\( 3x + 4y = 12 \\) and \\( 6x + 8y = 24 \\) has infinitely many solutions, using both algebraic and geometric reasoning.",
+     "a": "Algebraically: \\( \\frac{3}{6} = \\frac{4}{8} = \\frac{-12}{-24} = \\frac{1}{2} \\), so all three ratios are equal. Geometrically: the second equation is exactly twice the first, so both represent the same line. Every point \\( (x, y) \\) satisfying \\( 3x + 4y = 12 \\) also satisfies \\( 6x + 8y = 24 \\). A wrong answer that only checks \\( \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\) and ignores \\( \\frac{c_1}{c_2} \\) would incorrectly classify \\( 3x + 4y = 12 \\) and \\( 6x + 8y = 25 \\) as coincident (they are parallel with no solution).",
+     "self_check": true
+    },
+    {
+     "q": "Find the value of \\( k \\) for which the system \\( 2x + 3y = 7 \\) and \\( 4x + ky = 14 \\) has infinitely many solutions.",
+     "a": "For infinitely many solutions: \\( \\frac{2}{4} = \\frac{3}{k} = \\frac{-7}{-14} \\).\n\\( \\frac{2}{4} = \\frac{1}{2} \\) and \\( \\frac{-7}{-14} = \\frac{1}{2} \\).\nSo \\( \\frac{3}{k} = \\frac{1}{2} \\Rightarrow k = 6 \\).\nA common error: students set \\( \\frac{2}{4} = \\frac{3}{k} \\) and get \\( k = 6 \\), but forget to verify \\( \\frac{c_1}{c_2} \\) matches. If the constant terms were not in the same ratio (e.g., \\( 4x + 6y = 15 \\)), the system would be inconsistent despite \\( k = 6 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the system \\( x + 2y = 5 \\) and \\( 2x + 4y = 10 \\). Student A says \"infinitely many solutions.\" Student B says \"no solution because the lines are parallel.\" Analyse both claims and determine who is correct, justifying with the ratio test.",
+     "a": "Student A is correct. Ratios: \\( \\frac{1}{2} = \\frac{2}{4} = \\frac{-5}{-10} = \\frac{1}{2} \\). All three ratios equal → coincident lines → infinitely many solutions. Student B incorrectly thinks equal \\( \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\) implies parallel lines, forgetting that \\( \\frac{c_1}{c_2} \\) must be DIFFERENT for parallel lines. This confusion between \"dependent\" and \"inconsistent\" is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the general solution of \\( 2x + 3y = 12 \\) as \\( x = 6 - 1.5y \\). Evaluate if this correctly represents all solutions of the dependent system \\( 2x + 3y = 12 \\) and \\( 4x + 6y = 24 \\). If not, provide the correct parametric form.",
+     "a": "The expression \\( x = 6 - 1.5y \\) is algebraically correct but not a standard parametric form. Better: let \\( y = t \\) (parameter), then \\( x = 6 - 1.5t \\) or \\( x = \\frac{12 - 3t}{2} \\). For integer solutions, use \\( y = 2t \\), giving \\( x = 6 - 3t \\). A student writing only one specific solution (e.g., \\( x = 3, y = 2 \\)) fails to understand \"infinitely many solutions\" means a family of solutions parameterised by one variable. The board exam expects the general parametric form.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem (Indian context: rupees, items) that leads to a dependent system of linear equations. Write the equations and verify the condition for infinitely many solutions.",
+     "a": "Example: \"A shopkeeper sells apples at ₹\\( x \\) per kg and oranges at ₹\\( y \\) per kg. Customer A buys 3 kg apples and 2 kg oranges for ₹120. Customer B buys 6 kg apples and 4 kg oranges for ₹240.\" Equations: \\( 3x + 2y = 120 \\) and \\( 6x + 4y = 240 \\). Ratios: \\( \\frac{3}{6} = \\frac{2}{4} = \\frac{-120}{-240} = \\frac{1}{2} \\) → dependent. A poor answer gives a problem where the second purchase is not an exact multiple (e.g., 6 kg apples and 4 kg oranges for ₹250), creating an inconsistent system instead. This tests whether the student understands the real-world meaning of \"same rate, scaled quantity.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

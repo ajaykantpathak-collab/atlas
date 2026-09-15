@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_005",
+   "title": "c11_eco_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define the formal sector as per the NCERT classification used in Indian employment statistics. State the exact hired-worker threshold and ownership condition.",
+     "a": "The formal sector includes all public sector establishments and private sector establishments employing 10 or more hired workers. A wrong answer (e.g., \"20 workers\" or \"only government jobs\") reveals the student has not memorised the precise statutory threshold used by the Ministry of Labour for data collection, which is critical for interpreting Chart 6.4 and Table 6.3 correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a self-employed street vendor selling vegetables is classified as an informal sector worker even though they work regularly every day.",
+     "a": "The vendor operates an own-account enterprise with zero hired workers, which falls outside the formal sector definition (requires ≥10 hired workers). Regularity of work does not determine formality; the enterprise size and hiring structure do. A wrong answer (e.g., \"because they don't pay taxes\") shows confusion between tax compliance and the statistical definition used by NSSO/PLFS.",
+     "self_check": true
+    },
+    {
+     "q": "In 2019–20, India's total workforce was 535 million, with 59 million in the formal sector. Calculate the informal sector workforce percentage. If the formal sector grows by 2 million while the total workforce grows by 10 million, what is the new informal sector percentage? Show steps.",
+     "a": "Step 1: Informal workers = 535 – 59 = 476 million. Step 2: Informal % = (476/535)×100 = 88.97% ≈ 89%. Step 3: New formal = 61 million, new total = 545 million. Step 4: New informal = 545 – 61 = 484 million. Step 5: New informal % = (484/545)×100 = 88.81%. Informal share falls slightly but remains ~89%. A wrong answer (e.g., using old total for new %) reveals inability to track stock/flow changes in workforce composition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sectoral distribution of female workers in 1972–73 (primary: 64%, secondary: 16%, services: 20%) with 2023–24 (primary: 64.4%, secondary: 15.6%, services: 20%). What does the stagnation in primary sector share despite overall economic growth imply about the quality of female employment?",
+     "a": "Female workers remain concentrated in agriculture (primary sector) with minimal shift to secondary/services, unlike males (primary fell from 36% to 6.7%). This implies female employment has not benefited from structural transformation; most new female jobs are informal, low-productivity agricultural or home-based work. A wrong answer (e.g., \"women prefer agriculture\") ignores demand-side constraints: lack of formal non-farm jobs, social norms, and skill gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Casualisation of workforce is acceptable if it raises workers' earnings, as argued by some economists.\" Use the Ahmedabad textile mill case (Box 6.2) and the distinction between marginal farmer becoming full-time labourer vs. permanent pharma worker becoming daily wage labourer.",
+     "a": "The statement ignores non-wage dimensions of employment quality. In Ahmedabad, mill workers lost secure jobs with social security, union representation, and middle-class status; moving to informal sector caused poverty, alcoholism, and child labour despite possible short-term earnings. A permanent pharma worker losing PF, gratuity, and job security for higher daily wages faces higher lifetime vulnerability. A wrong answer focusing only on wage rates misses the capability-deprivation framework central to Sen's development economics.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical example of an enterprise that transitions from formal to informal sector due to outsourcing. Specify initial worker count, ownership change, and new hiring structure. Explain how this contributes to informalisation statistics.",
+     "a": "Example: A garment factory (private, 50 workers) closes its in-house stitching unit and outsources to 10 home-based contractors each hiring 3 workers. Initially: 1 formal enterprise (50 workers). After: 10 informal enterprises (30 workers total, each <10 hired). Formal employment falls by 50; informal rises by 30; 20 jobs lost. This mirrors post-reform outsourcing in textiles/IT. A poor answer would omit the 10-worker threshold or fail to show net formal job loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

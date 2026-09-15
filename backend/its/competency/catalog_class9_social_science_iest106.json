@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "Democracy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.106.6.1",
+   "title": "The Idea and Evolution of Democracy",
+   "section": "6",
+   "definition": "Democracy - rule by the people - has evolved over time from ancient assemblies and limited franchises to the modern universal adult franchise, shaping today's understanding that every adult citizen has an equal voice in choosing the government.",
+   "formula": "-",
+   "key_idea": "Rule of the people has widened step by step: from few voices to universal franchise.",
+   "textbook_ref": "iest106.txt opening sections (evolution of the idea of democracy)",
+   "question_patterns": [
+    "how has the idea of democracy evolved over time",
+    "define democracy in your own words",
+    "what is universal adult franchise and why does it matter",
+    "compare ancient and modern democracy",
+    "why is democracy called government by discussion",
+    "what did early democracies lack that modern ones promise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define the term",
+     "explain": "Democracy places political authority in the hands of the people."},
+    {"step": 2, "action": "trace the widening",
+     "explain": "Excluded groups fought for and won the right to vote over time."},
+    {"step": 3, "action": "state the modern form",
+     "explain": "Universal adult franchise and equal citizenship complete the idea."}
+   ]
+  },
+  {
+   "id": "iest.106.6.2",
+   "title": "Features of Democratic Government",
+   "section": "6",
+   "definition": "Democracy works through defining features: rulers are elected by the people, power is limited by a constitution, fundamental rights protect citizens, independent courts review actions, and governments remain accountable through discussion, debate and periodic elections.",
+   "formula": "-",
+   "key_idea": "Election, constitution, rights and accountability - the four pillars that keep democracy standing.",
+   "textbook_ref": "iest106.txt sections on features of democracy",
+   "question_patterns": [
+    "state the main features of democracy",
+    "why are free and fair elections essential in a democracy",
+    "how does the constitution limit the power of rulers",
+    "what role do rights play in a democratic system",
+    "how can citizens hold a government accountable - give methods",
+    "is the given country democratic - test with the features"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the election route",
+     "explain": "Rulers must reach office through people's votes."},
+    {"step": 2, "action": "check the limits",
+     "explain": "Constitution, rights and courts bind the rulers' hands."},
+    {"step": 3, "action": "check the accountability",
+     "explain": "Discussion, press and elections keep power answerable."}
+   ]
+  },
+  {
+   "id": "iest.106.6.3",
+   "title": "Democracy in India: Strengths and Challenges",
+   "section": "6",
+   "definition": "India adopted democracy with universal franchise in 1950, an extraordinary step for a diverse and newly free society; its strengths include regular elections and constitutional rights, while challenges such as inequality, social discrimination and money power test the system's health.",
+   "formula": "-",
+   "key_idea": "Democracy is a journey, not a destination: Indian democracy keeps defending and deepening itself.",
+   "textbook_ref": "iest106.txt sections on democracy in India, strengths and challenges",
+   "question_patterns": [
+    "when did India adopt democratic government and what was remarkable about it",
+    "what are the strengths of Indian democracy",
+    "what challenges face democracy in India - discuss",
+    "how does inequality affect democratic participation",
+    "why is every election a test of democracy",
+    "suggest ways to deepen democracy in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the achievement",
+     "explain": "Universal franchise from the start made India a bold experiment."},
+    {"step": 2, "action": "weigh the challenges",
+     "explain": "Inequality, discrimination and money power strain democratic fairness."},
+    {"step": 3, "action": "find the citizen's role",
+     "explain": "Voting, questioning and equal respect deepen the system."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iest106.txt exercises",
+   "questions": [
+     "Trace the evolution of democracy through history.",
+     "Explain the features of democracy with examples.",
+     "Discuss the challenges of Indian democracy and suggest remedies."
+   ]
+  }
+ ]
+}

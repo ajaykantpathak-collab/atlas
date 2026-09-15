@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_010",
+   "title": "c12_acc_cbse_03_010",
+   "questions": [
+    {
+     "q": "A partner retires and the firm's books show Goodwill of ₹50,000. The old profit sharing ratio is 3:2:1 and the new ratio between continuing partners is 2:1. What is the correct journal entry to write off the existing goodwill?",
+     "a": "Correct entry: \n```\nPartner A's Capital A/c Dr. 25,000\nPartner B's Capital A/c Dr. 16,667\nPartner C's Capital A/c Dr. 8,333\n    To Goodwill A/c                      50,000\n(Existing goodwill written off in old ratio 3:2:1)\n```\nA wrong answer (e.g., writing off in new ratio or gaining ratio) reveals the student confuses the treatment of **existing goodwill** (always written off in **old profit sharing ratio** among **all partners including retiring**) with the treatment of **new goodwill** (adjusted in **gaining ratio** between **continuing partners only**). This is the #1 board exam trap — students mix up which ratio applies to which goodwill treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the revaluation profit/loss on retirement is distributed among **all partners in their old profit sharing ratio**, but the goodwill adjustment for the retiring partner's share is borne by continuing partners in their **gaining ratio**.",
+     "a": "Revaluation profit/loss arises from **revaluing assets/liabilities to their true values** as on the date of retirement — this reflects the collective effort of **all partners up to that date**, so it belongs to all in old ratio. Goodwill adjustment, however, compensates the retiring partner for **future super-profits** they are giving up — this sacrifice is borne **only by those who gain** from the退出 (continuing partners), hence gaining ratio. A student who says \"both use old ratio\" or \"both use gaining ratio\" fails to distinguish between **past collective effort** (revaluation) vs **future benefit sacrifice** (goodwill). This conceptual confusion costs 2-3 marks in board \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A, B, C share profits 5:3:2. B retires. Goodwill of the firm is valued at ₹1,20,000. No goodwill appears in books. A and C decide to share future profits equally. Pass the journal entry for goodwill adjustment without raising goodwill in books.",
+     "a": "**Step 1:** Old ratio = 5:3:2. New ratio = 1:1. Gaining ratio = New - Old = (1/2 - 5/10) : (1/2 - 2/10) = 0 : 3/10 = 0:3 → Only C gains.\n**Step 2:** B's share of goodwill = 3/10 × 1,20,000 = ₹36,000.\n**Step 3:** This ₹36,000 is borne by gaining partner C alone (since A gains nothing).\n**Entry:**\n```\nC's Capital A/c Dr. 36,000\n    To B's Capital A/c          36,000\n(Adjustment for B's share of goodwill borne by C in gaining ratio)\n```\nA wrong answer (e.g., debiting A and C in 1:1 or 5:2) reveals the student **mechanically applies \"gaining ratio\" without calculating it correctly** — they assume both continuing partners gain. In competitive exams (CUET/IPMAT), this exact trap appears: one partner's new share equals old share (zero gain), so only the other partner bears the goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries for \"Joint Life Policy\" when: (a) JLP is maintained at **surrender value** in books, and (b) JLP is **not recorded** in books. The policy matures on a partner's death. How do the entries differ and why?",
+     "a": "**Case (a) — JLP at Surrender Value in books:**\n```\nJLP A/c Dr. (Maturity - Surrender Value)\n    To Partners' Capital A/c (Old ratio) — Profit on JLP\nBank A/c Dr. (Maturity Amount)\n    To JLP A/c (Surrender Value + Profit)\n```\n**Case (b) — JLP not in books:**\n```\nBank A/c Dr. (Maturity Amount)\n    To Partners' Capital A/c (Old ratio) — Entire maturity credited\n```\n**Why different?** In (a), the asset already exists at surrender value; only the **increment (maturity - surrender value)** is profit. In (b), no asset exists; the **entire maturity amount** is a gain. A student who passes identical entries in both cases misses the **asset recognition principle** — you cannot credit profit on an asset already carried at fair value. This distinction appears in board \"case-based\" questions with 4 marks.",
+     "self_check": true
+    },
+    {
+     "q": "A partner dies on 30th June. The firm's accounting year ends 31st March. Last year's profit was ₹2,00,000. The partnership deed provides for the deceased partner's share of profit to be calculated on the basis of **last year's profit**. The deceased partner's share was 2/5. The firm decides to pay the amount due to the legal heirs in two equal annual instalments with interest @ 12% p.a. on the unpaid balance. Evaluate whether the following entry for the first instalment payment is correct:\n```\nDeceased Partner's Executor's Loan A/c Dr. 40,000\n    To Bank A/c                                    40,000\n```",
+     "a": "**Incorrect.** \n**Step 1:** Deceased partner's profit share = 2/5 × ₹2,00,000 × 3/12 = ₹20,000 (for 3 months: April-June).\n**Step 2:** Total due = Capital balance + Profit share + Goodwill share + Revaluation profit + JLP share — Drawings - Interest on drawings. Assume total due = ₹1,00,000 (for illustration).\n**Step 3:** Two equal annual instalments = ₹50,000 principal each + interest on unpaid balance.\n**First instalment (end of Year 1):** Principal ₹50,000 + Interest 12% on ₹1,00,000 = ₹12,000 → Total ₹62,000.\n**Correct entry:**\n```\nDeceased Partner's Executor's Loan A/c Dr. 62,000\n    To Bank A/c                                    62,000\n```\nThe given entry misses **interest on unpaid balance** — a violation of Section 37 of Partnership Act, 1932 (mandatory 6% p.a. if deed silent, else deed rate). Students often forget interest on instalments, losing 1-2 marks. In CUET, this appears as \"identify the error\" MCQ.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new retirement scenario (different from textbook examples) where: (i) Goodwill is NOT in books, (ii) Revaluation shows a LOSS, (iii) General Reserve exists, (iv) Continuing partners bring in cash to adjust their capitals to the new profit sharing ratio, and (v) Retiring partner is paid 50% immediately and balance transferred to Loan Account. Write the **complete sequence of journal entries** (no narration needed, just debit/credit accounts with amounts as variables).",
+     "a": "**Scenario:** X, Y, Z share 3:2:1. Y retires. New ratio X:Z = 2:1. Goodwill valued ₹90,000 (not in books). Revaluation Loss ₹30,000. General Reserve ₹60,000. Capitals after all adjustments: X ₹1,20,000, Z ₹80,000. New total capital desired ₹3,00,000 in 2:1 ratio → X ₹2,00,000, Z ₹1,00,000. Deficit: X ₹80,000, Z ₹20,000 brought in cash. Y's final capital ₹1,50,000 — 50% paid (₹75,000), balance ₹75,000 to Loan.\n**Entries:**\n1. `X's Capital Dr. 45,000; Z's Capital Dr. 15,000; To Y's Capital 60,000` (Goodwill adjustment in gaining ratio 3:1)\n2. `X's Capital Dr. 15,000; Y's Capital Dr. 10,000; Z's Capital Dr. 5,000; To Revaluation 30,000` (Revaluation loss in old ratio 3:2:1)\n3. `General Reserve Dr. 60,000; To X's Capital 30,000; Y's Capital 20,000; Z's Capital 10,000` (Reserve in old ratio)\n4. `Bank Dr. 1,00,000; To X's Capital 80,000; Z's Capital 20,000` (Cash brought for capital adjustment)\n5. `Y's Capital Dr. 75,000; To Bank 75,000` (50% paid)\n6. `Y's Capital Dr. 75,000; To Y's Executor's Loan 75,000` (Balance to Loan)\nA poor answer (missing entries, wrong ratios, wrong sequence) reveals the student cannot **integrate multiple adjustments into a coherent flow** — they treat each adjustment in isolation. Board \"comprehensive problem\" (8-10 marks) tests exactly this integration skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

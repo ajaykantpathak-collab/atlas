@@ -1,0 +1,406 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 103,
+ "chapter_title": "Drainage",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iess103.txt",
+ "concepts": [
+  {
+   "id": "iess.103.1.1",
+   "title": "Drainage Basin",
+   "section": "1.1",
+   "definition": "The entire land region that contributes surface runoff to a particular stream network and its main channel.",
+   "formula": "basin_area = sum(tributary_catchments)",
+   "key_idea": "The total area served by a single river system.",
+   "textbook_ref": "iess103.txt lines 5-10",
+   "question_patterns": [
+    "What is meant by a drainage basin?",
+    "Define the term drainage basin in geography.",
+    "Explain the concept of a river basin.",
+    "Which area is referred to as a drainage basin?",
+    "Describe the region drained by a single river system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the main river",
+     "explain": "Locate the primary channel that collects water from various directions."
+    },
+    {
+     "step": 2,
+     "action": "Trace the tributaries",
+     "explain": "Follow all smaller streams that feed into the main river."
+    },
+    {
+     "step": 3,
+     "action": "Determine the boundary",
+     "explain": "The outer limit where water starts flowing into this specific system is the basin boundary."
+    }
+   ]
+  },
+  {
+   "id": "iess.103.1.2",
+   "title": "Water Divide",
+   "section": "1.2",
+   "definition": "An elevated landform like a mountain range or upland that separates two neighboring drainage systems.",
+   "formula": "none",
+   "key_idea": "A physical barrier directing water flow into different basins.",
+   "textbook_ref": "iess103.txt lines 10-15",
+   "question_patterns": [
+    "What is a water divide?",
+    "Give an example of a water divide in India.",
+    "How does an upland separate two drainage basins?",
+    "Explain the function of a water divide with a diagram.",
+    "Identify the elevated area between the Indus and Ganga systems."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the upland",
+     "explain": "Find the mountain or high ground between two river systems."
+    },
+    {
+     "step": 2,
+     "action": "Observe flow direction",
+     "explain": "Water on one side flows to Stream A, while water on the other side flows to Stream B."
+    }
+   ]
+  },
+  {
+   "id": "iess.103.2.1",
+   "title": "Indus Water Treaty Calculation",
+   "section": "2.1",
+   "definition": "A 1960 agreement specifying that India is entitled to utilize exactly twenty percent of the total water volume from the Indus river system.",
+   "formula": "india_share = total_volume * 0.20",
+   "key_idea": "Legal limitation on water usage from the Indus system.",
+   "textbook_ref": "iess103.txt lines 65-70",
+   "question_patterns": [
+    "How much water can India use from the Indus system if the total is {total_water}?",
+    "Calculate India share of {total_water} units of water under the 1960 treaty.",
+    "Find the volume India receives from a total flow of {total_water}.",
+    "What is the 20 percent allocation for India from {total_water}?",
+    "Determine the irrigation supply for India given a total Indus flow of {total_water}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total water volume",
+     "explain": "The total flow of the Indus system is given as total_water.",
+     "compute": "total_v = total_water"
+    },
+    {
+     "step": 2,
+     "action": "Apply the 20 percent treaty limit",
+     "explain": "India is allowed to use 20/100 of the total volume.",
+     "compute": "india_share = total_v * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.103.2.2",
+   "title": "River Slope Gradient",
+   "section": "2.2",
+   "definition": "The ratio of the horizontal distance covered by a river to its vertical drop in elevation.",
+   "formula": "km_per_meter = total_distance / vertical_drop",
+   "key_idea": "Measuring how gently a river descends over a plain.",
+   "textbook_ref": "iess103.txt lines 115-120",
+   "question_patterns": [
+    "Find the distance covered for every meter of fall if the total distance is {total_dist} and drop is {total_drop}.",
+    "Calculate the slope ratio for a river stretching {total_dist} km with a {total_drop} m fall.",
+    "How many kilometers does a river flow per meter of vertical drop given {total_dist} and {total_drop}?",
+    "Determine the gradient of the plains using {total_dist} and {total_drop}.",
+    "What is the rate of fall in meters per kilometer for {total_dist} and {total_drop}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total horizontal distance",
+     "explain": "The stretch of the river plain in kilometers.",
+     "compute": "dist = total_dist"
+    },
+    {
+     "step": 2,
+     "action": "Identify total vertical drop",
+     "explain": "The total fall in elevation in meters.",
+     "compute": "drop = total_drop"
+    },
+    {
+     "step": 3,
+     "action": "Calculate distance per meter of fall",
+     "explain": "Divide total distance by total drop to find the gradient ratio.",
+     "compute": "km_per_meter = dist / drop"
+    }
+   ]
+  },
+  {
+   "id": "iess.103.2.3",
+   "title": "Himalayan River Characteristics",
+   "section": "2.3",
+   "definition": "Rivers originating from the Himalayas that are perennial, fed by both rainfall and melting snow, and characterized by long courses.",
+   "formula": "none",
+   "key_idea": "Perennial flow and intensive erosional activity.",
+   "textbook_ref": "iess103.txt lines 25-45",
+   "question_patterns": [
+    "What are the main features of Himalayan rivers?",
+    "Why are Himalayan rivers perennial?",
+    "Describe the erosional activity of Himalayan rivers in their upper course.",
+    "List the depositional features formed by Himalayan rivers.",
+    "How do Himalayan rivers differ from Peninsular rivers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check water source",
+     "explain": "Verify if the river is fed by glaciers (snowmelt) and rain."
+    },
+    {
+     "step": 2,
+     "action": "Analyze course length",
+     "explain": "Himalayan rivers typically have very long paths from source to sea."
+    },
+    {
+     "step": 3,
+     "action": "Identify landforms",
+     "explain": "Look for gorges in upper courses and meanders or ox-bow lakes in plains."
+    }
+   ]
+  },
+  {
+   "id": "iess.103.3.1",
+   "title": "Peninsular River Characteristics",
+   "section": "3.1",
+   "definition": "Rivers of the southern plateau that are mostly seasonal, dependent on rainfall, and have shorter, shallower courses.",
+   "formula": "none",
+   "key_idea": "Rain-fed seasonal flow with fixed channels.",
+   "textbook_ref": "iess103.txt lines 140-155",
+   "question_patterns": [
+    "Why are most Peninsular rivers seasonal?",
+    "Compare the courses of Peninsular and Himalayan rivers.",
+    "Which Peninsular rivers flow westwards into the Arabian Sea?",
+    "Where do most Peninsular rivers originate?",
+    "Name the major east-flowing Peninsular rivers."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine flow dependency",
+     "explain": "Check if the flow significantly reduces during the dry season (rain-fed)."
+    },
+    {
+     "step": 2,
+     "action": "Identify drainage direction",
+     "explain": "Most flow east to the Bay of Bengal; Narmada and Tapi flow west."
+    },
+    {
+     "step": 3,
+     "action": "Check for delta or estuary",
+     "explain": "East-flowing rivers form deltas; west-flowing rivers form estuaries."
+    }
+   ]
+  },
+  {
+   "id": "iess.103.4.1",
+   "title": "Classification of Lakes",
+   "section": "4.1",
+   "definition": "Inland water bodies categorized by their origin, such as glacial, tectonic, riverine (ox-bow), or human-made (reservoirs).",
+   "formula": "none",
+   "key_idea": "Diversity in formation and salinity of standing water bodies.",
+   "textbook_ref": "iess103.txt lines 200-230",
+   "question_patterns": [
+    "How are ox-bow lakes formed?",
+    "Distinguish between natural and artificial lakes.",
+    "What is the origin of the Wular lake?",
+    "Give examples of freshwater lakes in the Himalayan region.",
+    "Why is the Sambhar lake important?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify formation process",
+     "explain": "Determine if it was formed by glaciers, tectonic shifts, or river cut-offs."
+    },
+    {
+     "step": 2,
+     "action": "Check water salinity",
+     "explain": "Classify as freshwater (like Dal) or saltwater (like Sambhar)."
+    }
+   ]
+  },
+  {
+   "id": "iess.103.5.1",
+   "title": "National River Conservation Plan (NRCP)",
+   "section": "5.1",
+   "definition": "A government initiative aimed at reducing river pollution and improving water quality through abatement works.",
+   "formula": "none",
+   "key_idea": "Systematic cleaning and protection of national water resources.",
+   "textbook_ref": "iess103.txt lines 265-275",
+   "question_patterns": [
+    "What is the objective of the NRCP?",
+    "When was the Ganga Action Plan initiated?",
+    "How does industrialization affect river water quality?",
+    "Explain the self-cleansing capacity of a river.",
+    "What led to the expansion of the Ganga Action Plan into NRCP?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify pollution sources",
+     "explain": "Note domestic sewage and industrial effluents entering the river."
+    },
+    {
+     "step": 2,
+     "action": "Determine conservation goals",
+     "explain": "The plan focuses on pollution abatement to restore water quality."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess103.txt lines 65-70",
+   "concept": "iess.103.2.1",
+   "question_type": "compute",
+   "question_pattern": "How much water can India use from the Indus system if the total is {total_water}?",
+   "extracted_variables": {
+    "total_water": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total water volume",
+     "explain": "The total flow is 1000 units.",
+     "compute": "total_v = 1000"
+    },
+    {
+     "step": 2,
+     "action": "Apply the 20 percent treaty limit",
+     "explain": "India's share is 20% of 1000.",
+     "compute": "india_share = total_v * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess103.txt lines 65-70",
+   "concept": "iess.103.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate India share of {total_water} units of water under the 1960 treaty.",
+   "extracted_variables": {
+    "total_water": 5000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total water volume",
+     "explain": "The total flow is 5000 units.",
+     "compute": "total_v = 5000"
+    },
+    {
+     "step": 2,
+     "action": "Apply the 20 percent treaty limit",
+     "explain": "India's share is 20% of 5000.",
+     "compute": "india_share = total_v * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess103.txt lines 115-120",
+   "concept": "iess.103.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the distance covered for every meter of fall if the total distance is {total_dist} and drop is {total_drop}.",
+   "extracted_variables": {
+    "total_dist": 1800,
+    "total_drop": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total horizontal distance",
+     "explain": "The plain stretches for 1800 km.",
+     "compute": "dist = 1800"
+    },
+    {
+     "step": 2,
+     "action": "Identify total vertical drop",
+     "explain": "The elevation drop is 300 m.",
+     "compute": "drop = 300"
+    },
+    {
+     "step": 3,
+     "action": "Calculate distance per meter of fall",
+     "explain": "1800 divided by 300 gives the gradient.",
+     "compute": "km_per_meter = dist / drop"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess103.txt lines 115-120",
+   "concept": "iess.103.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the slope ratio for a river stretching {total_dist} km with a {total_drop} m fall.",
+   "extracted_variables": {
+    "total_dist": 600,
+    "total_drop": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total horizontal distance",
+     "explain": "The plain stretches for 600 km.",
+     "compute": "dist = 600"
+    },
+    {
+     "step": 2,
+     "action": "Identify total vertical drop",
+     "explain": "The elevation drop is 100 m.",
+     "compute": "drop = 100"
+    },
+    {
+     "step": 3,
+     "action": "Calculate distance per meter of fall",
+     "explain": "600 divided by 100 gives the gradient.",
+     "compute": "km_per_meter = dist / drop"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "iess103.txt lines 280-300",
+   "questions": [
+    "In which of the following states is the Wular lake located?",
+    "The river Narmada has its source at",
+    "Which one of the following lakes is a salt water lake?",
+    "Which one of the following is the longest river of the Peninsular India?",
+    "Which one amongst the following rivers flows through a rift valley?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess103.txt lines 301-315",
+   "questions": [
+    "What is meant by a water divide? Give an example.",
+    "Which is the largest river basin in India?",
+    "Where do the rivers Indus and Ganga have their origin?",
+    "Name the two headstreams of the Ganga. Where do they meet to form the Ganga?",
+    "Why does the Brahmaputra in its Tibetan part have less silt, despite a longer course?",
+    "Which two Peninsular rivers flow through trough?",
+    "State some economic benefits of rivers and lakes."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_011",
+   "title": "c12_bs_cbse_11_011",
+   "questions": [
+    {
+     "q": "A student states: \"Cultural factors are the most important because they are the broadest.\" Is this statement correct? Explain why or why not with a specific example.",
+     "a": "The statement is incorrect. While cultural factors are the broadest, \"most important\" depends on the product and context. For example, buying a luxury watch is heavily influenced by social factors (reference groups, status) and personal factors (income, lifestyle), while cultural factors play a secondary role. A student who thinks breadth equals importance confuses scope with impact. The correct understanding: factor dominance varies by product category — cultural factors dominate for food and clothing; social factors for conspicuous goods; personal factors for high-involvement durables; psychological factors for habitual purchases.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul, a 25-year-old software engineer, buys a premium noise-cancelling headphone after seeing his team lead use the same brand. His sister, a college student, buys the same brand because she believes \"expensive means better quality.\" Identify the dominant factor for each and explain the difference.",
+     "a": "Rahul: Social factor (reference group influence — specifically, aspirational reference group/opinion leader). Sister: Psychological factor (belief/attitude — price-quality heuristic). The difference: Rahul's decision is driven by external social pressure to conform/aspire; his sister's is driven by an internal cognitive shortcut. A common error is labeling both as \"social\" because both involve \"others\" — but the sister's belief is an internalised psychological construct, not active social influence. Another error: calling Rahul's factor \"personal\" because it's his choice — personal factors are intrinsic characteristics (age, occupation), not social interactions.",
+     "self_check": true
+    },
+    {
+     "q": "A marketer of instant noodles wants to increase sales in South India where consumers traditionally prefer rice-based breakfasts. Which factor category should be the PRIMARY focus of their marketing strategy, and what specific sub-factor should they target? Design a tactical action.",
+     "a": "Primary factor: Cultural. Sub-factor: Subculture (regional food habits). Tactical action: Launch a \"rice-noodle hybrid\" variant (e.g., lemon rice flavor noodles) and position it as \"South India's quick breakfast\" using regional language packaging and local influencers. Why this works: Cultural factors are the deepest and most resistant to change; fighting them fails. Adapting to subculture (regional taste) leverages existing cultural patterns. A wrong answer would target \"social factors\" (e.g., celebrity endorsement) — this ignores the core cultural barrier. Another wrong answer: \"psychological — change perception through advertising\" — beliefs about breakfast are culturally rooted, not easily altered by ads alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how \"family\" operates as a social factor versus how \"lifestyle\" operates as a personal factor in the purchase of a family car. Use the concepts of roles, influence, and stability.",
+     "a": "Family (social factor): Involves multiple roles (initiator: child suggests; influencer: spouse researches; decider: husband chooses; buyer: wife pays; user: all). Influence is interactive, dynamic, and negotiable. Stability: Low — family composition and power dynamics change over time. Lifestyle (personal factor): Reflects the individual's AIO (Activities, Interests, Opinions) — e.g., \"outdoor adventurer\" lifestyle demands SUV with roof rails. Influence is internal, consistent, and self-expressive. Stability: High — lifestyle changes slowly (life stage transitions). Key distinction: Family is an external social unit with conflicting interests; lifestyle is an internal coherent pattern. A student who conflates them misses that family decisions require conflict resolution mechanisms (marketers target the \"gatekeeper\"), while lifestyle decisions require identity alignment (marketers use psychographic segmentation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For high-involvement products like laptops, psychological factors are irrelevant because consumers make rational, attribute-based decisions.\" Provide a reasoned judgment with evidence from consumer behaviour theory.",
+     "a": "The claim is false. High involvement does not eliminate psychological factors — it changes their form. In laptop purchase: Motivation (Maslow: esteem/self-actualisation via productivity/creativity), Perception (selective attention to specs that match self-image; selective distortion of brand reputation), Learning (past experience with brand shapes expectation; reinforcement from reviews), Beliefs/Attitudes (brand loyalty, \"Mac vs PC\" identity). These are not \"irrational\" — they structure how rational attributes are weighed. The Elaboration Likelihood Model shows high involvement triggers central route processing, but attitudes and beliefs still frame the evaluation criteria. A student who equates \"psychological\" with \"emotional/irrational\" misses that cognition (beliefs, learning, perception) is psychological. The correct view: Psychological factors are always present; their intensity and type vary with involvement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, realistic buying scenario for a product of your choice where ALL FOUR factor categories interact simultaneously. For each category, specify the exact sub-factor and its directional influence (positive/negative/neutral) on the purchase decision.",
+     "a": "Scenario: Priya, 32, married, marketing manager, buys an electric SUV (₹25 lakh).\nCultural: Subculture (urban upper-middle class) — Positive (EVs signal progressive values).\nSocial: Reference group (colleagues/peers driving EVs) — Positive (normative influence); Family (husband prefers petrol for range) — Negative (conflict).\nPersonal: Occupation (marketing manager — tech-savvy image) — Positive; Lifestyle (weekend road trips) — Negative (range anxiety); Economic situation (affordable EMI) — Positive.\nPsychological: Motivation (self-actualisation: sustainability advocate) — Positive; Perception (sees EV as \"future-proof\") — Positive; Belief (\"EVs have high maintenance\") — Negative; Attitude (favors Tata over foreign brands) — Positive (brand choice).\nA strong answer shows bidirectional influences within a category (family: + and -) and identifies the net decision driver. A weak answer lists generic factors without scenario-specific sub-factors or directional valence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

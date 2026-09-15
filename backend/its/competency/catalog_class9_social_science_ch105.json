@@ -1,0 +1,1053 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 105,
+ "chapter_title": "Natural Vegetation and Wildlife (Plant Diversity)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu112.txt",
+ "concepts": [
+  {
+   "id": "iess.105.1",
+   "title": "Natural and Virgin Vegetation",
+   "section": "Natural Vegetation and Wildlife",
+   "definition": "Plant cover growing organically without human intervention or management over long durations, distinguishing native species from imported varieties.",
+   "formula": "",
+   "key_idea": "Undisturbed natural plant growth comprising indigenous endemic species and introduced exotic species.",
+   "textbook_ref": "iess105.txt lines 25-45",
+   "question_patterns": [
+    "define natural vegetation in Class 9 social science",
+    "what is virgin vegetation and how is it classified",
+    "explain the difference between endemic and exotic species",
+    "describe how human activity alters natural vegetation",
+    "identify the characteristics of virgin plant communities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify natural growth conditions",
+     "explain": "Natural vegetation grows without human seeding, cultivation, or disturbance over extended periods."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate species origin",
+     "explain": "Species originating within the country are endemic or indigenous, whereas species brought from outside are exotic."
+    },
+    {
+     "step": 3,
+     "action": "Assess human impact on virgin vegetation",
+     "explain": "Human activities such as clearing land for agriculture, urbanisation, and introducing exotic species disturb virgin plant communities and alter natural vegetation."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.2",
+   "title": "Relief Factors: Land and Soil",
+   "section": "RELIEF",
+   "definition": "Physical landforms and surface soil qualities that govern spatial distribution, forest canopy types, and wildlife habitats across different terrains.",
+   "formula": "",
+   "key_idea": "Terrain relief and soil composition directly dictate local plant species and ecosystem structures.",
+   "textbook_ref": "iess105.txt lines 46-65",
+   "question_patterns": [
+    "how does land affect the type of natural vegetation",
+    "explain the influence of soil types on vegetation distribution",
+    "describe vegetation differences between undulating terrains and flat plains",
+    "what vegetation types grow in sandy desert soils compared to wet marshy deltas",
+    "analyze relief as a factor determining flora in Class 9 social science"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine land surface influence",
+     "explain": "Level fertile land is cleared for farming, while rough undulating terrains sustain grasslands and forests."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate soil impact",
+     "explain": "Sandy soils support thorny bushes, marshy deltaic soils support mangroves, and hill slopes support conical trees."
+    },
+    {
+     "step": 3,
+     "action": "Relate relief features to wildlife habitats",
+     "explain": "Different relief features create distinct micro-habitats that determine which animal species can thrive alongside the local vegetation."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.3",
+   "title": "Climatic Factors: Temperature, Photoperiod, and Precipitation",
+   "section": "CLIMATE",
+   "definition": "Atmospheric parameters such as thermal levels, daylight duration, and rainfall patterns shaping regional vegetation zones.",
+   "formula": "",
+   "key_idea": "Climatic variables of temperature, sunlight exposure, and rainfall control plant growth rates and vegetation zoning.",
+   "textbook_ref": "iess105.txt lines 66-105",
+   "question_patterns": [
+    "how do temperature and humidity influence vegetation zones",
+    "explain the effect of photoperiod or sunlight duration on tree growth",
+    "what role does precipitation play in determining forest density",
+    "why do southern Himalayan slopes have denser vegetation than northern slopes",
+    "describe the climatic factors affecting natural vegetation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze thermal variations",
+     "explain": "Temperature fall with altitude shifts vegetation from tropical to subtropical, temperate, and alpine zones."
+    },
+    {
+     "step": 2,
+     "action": "Assess photoperiod and rainfall",
+     "explain": "Longer summer daylight promotes faster tree growth, and heavier rainfall yields denser forest canopies."
+    },
+    {
+     "step": 3,
+     "action": "Combine climatic factors to determine the vegetation zone",
+     "explain": "Integrating temperature, photoperiod, and precipitation identifies the dominant vegetation type for a region, such as evergreen, deciduous, or thorn forests."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.4",
+   "title": "Forest Cover and Non-Forest Land Calculation",
+   "section": "Precipitation / Forest Cover",
+   "definition": "Computation of non-forested land percentage from total geographical land area given the percentage of forest cover.",
+   "formula": "non_forest_percentage = 100 - forest_cover_percentage",
+   "key_idea": "Subtracting forest cover percentage from total land area gives the non-forest land percentage.",
+   "textbook_ref": "iess105.txt lines 110-125",
+   "question_patterns": [
+    "find the non-forest area percentage if forest cover is forest_cover_percentage",
+    "calculate non-forest land percentage when forest cover percentage is given",
+    "given forest cover percentage as forest_cover_percentage determine remaining land percentage",
+    "compute percentage of non-forested land in a region",
+    "what is the non-forest percentage if forest cover is forest_cover_percentage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract forest cover from total land area percentage",
+     "explain": "Subtracting the forest cover percentage from 100 gives the percentage of non-forested land.",
+     "compute": "non_forest_percentage = 100 - forest_cover_percentage"
+    },
+    {
+     "step": 2,
+     "action": "Compute the non-forest land area in square kilometres",
+     "explain": "Multiply the non-forest percentage by the total geographical area and divide by 100 to obtain the actual non-forested land area.",
+     "compute": "non_forest_area = (non_forest_percentage / 100) * total_geographical_area"
+    },
+    {
+     "step": 3,
+     "action": "Verify the partition of total land",
+     "explain": "Confirm that the forested area plus the non-forested area equals the total geographical area, ensuring no land is double-counted or omitted.",
+     "compute": "check_total = forest_area + non_forest_area"
+    }
+   ]
+  },
+  {
+   "id": "iess.105.5",
+   "title": "Tropical Evergreen Forests",
+   "section": "TYPES OF VEGETATION - Tropical Evergreen Forests",
+   "definition": "Dense multilayered forests thriving in warm regions receiving over 200 cm annual rainfall, remaining green throughout the year.",
+   "formula": "",
+   "key_idea": "Year-round green canopy forests in high rainfall zones with trees growing above 60 meters.",
+   "textbook_ref": "iess105.txt lines 130-165",
+   "question_patterns": [
+    "describe the characteristics of tropical evergreen forests",
+    "in which rainfall regions are tropical evergreen forests found",
+    "why do tropical evergreen forests appear green all year round",
+    "list commercially important trees of tropical evergreen forests",
+    "identify major animal species found in tropical evergreen forests"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify climatic conditions",
+     "explain": "Thrive in areas receiving over 200 cm annual rainfall with a very short dry period."
+    },
+    {
+     "step": 2,
+     "action": "Describe forest canopy and flora",
+     "explain": "Multilayered canopy with no single leaf-shedding season, featuring trees like ebony, mahogany, rosewood, and rubber."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of the ecosystem",
+     "explain": "These forests shelter diverse animals including elephants, monkeys, lemurs, deer, one-horned rhinoceros, and birds like parrots and hornbills."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.6",
+   "title": "Tropical Deciduous Forests",
+   "section": "TYPES OF VEGETATION - Tropical Deciduous Forests",
+   "definition": "Monsoon forests receiving between 70 cm and 200 cm annual rainfall, where trees shed foliage for six to eight weeks during dry summer.",
+   "formula": "",
+   "key_idea": "Most widespread Indian forests divided into moist and dry categories based on water availability.",
+   "textbook_ref": "iess105.txt lines 166-200",
+   "question_patterns": [
+    "what are monsoon forests and what are their main features",
+    "distinguish between moist deciduous and dry deciduous forests",
+    "why do deciduous trees shed their leaves in summer",
+    "name the dominant tree species of tropical deciduous forests",
+    "explain the distribution of tropical deciduous forests in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify rainfall range and leaf shedding",
+     "explain": "Rainfall ranges from 70 cm to 200 cm; foliage sheds during dry summer for 6 to 8 weeks."
+    },
+    {
+     "step": 2,
+     "action": "Classify into moist and dry types",
+     "explain": "Moist deciduous receives 100-200 cm rainfall (Teak, Sal, Shisham), while dry deciduous receives 70-100 cm rainfall."
+    },
+    {
+     "step": 3,
+     "action": "Map the geographical distribution across India",
+     "explain": "Tropical deciduous forests cover the northeastern states, foothills of the Himalayas, Jharkhand, West Bengal, Chhattisgarh, and the Western Ghats, making them the most widespread forest type in India."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.7",
+   "title": "Thorn Forests and Scrubs",
+   "section": "TYPES OF VEGETATION - The Thorn Forests and Scrubs",
+   "definition": "Arid vegetation growing in areas with less than 70 cm rainfall, exhibiting deep roots, succulent stems, and small thick leaves to store water.",
+   "formula": "",
+   "key_idea": "Xerophytic plant adaptations for moisture conservation in semi-arid and desert environments.",
+   "textbook_ref": "iess105.txt lines 201-225",
+   "question_patterns": [
+    "describe the structural adaptations of trees in thorn forests",
+    "which states in India host thorn forests and scrubs",
+    "why are stems succulent and leaves small in thorn vegetation",
+    "name common plant species of thorn forests and scrubs",
+    "what rainfall condition leads to the growth of thorn forests"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify rainfall threshold",
+     "explain": "Found in north-western regions with annual rainfall under 70 cm."
+    },
+    {
+     "step": 2,
+     "action": "Detail plant adaptations",
+     "explain": "Deep roots search for water, succulent stems conserve fluid, and tiny thick leaves minimize transpiration loss."
+    },
+    {
+     "step": 3,
+     "action": "Identify regional distribution and characteristic species",
+     "explain": "Thorn forests and scrubs are found in semi-arid regions of Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, Haryana, and the leeward side of the Western Ghats, with common species like Acacia, palm, euphorbia, and cactus."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.8",
+   "title": "Montane Forests",
+   "section": "TYPES OF VEGETATION - Montane Forests",
+   "definition": "Vegetation zones changing with elevation in mountainous regions, moving from wet temperate broad-leaf trees to coniferous, alpine, and tundra zones.",
+   "formula": "",
+   "key_idea": "Altitudinal change in temperature creates distinct vertical forest bands on mountain slopes.",
+   "textbook_ref": "iess105.txt lines 226-255",
+   "question_patterns": [
+    "explain the succession of vegetation belts in montane forests",
+    "what tree species grow between 1500 and 3000 meters altitude",
+    "describe alpine vegetation and its altitude range",
+    "which nomadic tribes use alpine grasslands for grazing",
+    "detail the animals native to Himalayan montane regions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace altitude zones",
+     "explain": "Wet temperate (1000-2000m: oak, chestnut), temperate coniferous (1500-3000m: pine, deodar, cedar), alpine (above 3600m: silver fir, birch)."
+    },
+    {
+     "step": 2,
+     "action": "Identify higher elevation vegetation",
+     "explain": "Alpine vegetation transitions through stunted shrubs into alpine grasslands and tundra mosses/lichens."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of montane regions",
+     "explain": "Montane forests support animals adapted to cold climates such as the Kashmir stag, spotted deer, snow leopard, red panda, and wild sheep, with nomadic tribes like the Gujjars and Bakarwals using alpine grasslands for grazing."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.9",
+   "title": "Mangrove Forests",
+   "section": "TYPES OF VEGETATION - Mangrove Forests",
+   "definition": "Tidal forests located along muddy coastal deltas, characterized by dense trees with root systems submerged in saline water.",
+   "formula": "",
+   "key_idea": "Salt-tolerant deltaic forest ecosystems providing habitat for species like the Royal Bengal Tiger.",
+   "textbook_ref": "iess105.txt lines 256-275",
+   "question_patterns": [
+    "what are mangrove tidal forests and where are they found in India",
+    "describe the roots of mangrove plants in coastal deltas",
+    "which tree species provides durable hard timber in the Sundarbans",
+    "name river deltas famous for mangrove vegetation cover",
+    "list major fauna inhabiting mangrove forest ecosystems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify habitat and physical traits",
+     "explain": "Grow along tide-affected mud coasts and deltas with plant roots underwater."
+    },
+    {
+     "step": 2,
+     "action": "List major locations and species",
+     "explain": "Found in Ganga-Brahmaputra, Mahanadi, Godavari, Krishna, Kaveri deltas; dominated by Sundari trees and Bengal Tigers."
+    },
+    {
+     "step": 3,
+     "action": "Describe ecological adaptations of mangrove roots",
+     "explain": "Mangrove trees develop aerial breathing roots called pneumatophores that rise above the muddy saline water, allowing oxygen absorption and enabling survival in oxygen-poor waterlogged delta soils."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.10",
+   "title": "Medicinal Plants of India",
+   "section": "MEDICINAL PLANTS",
+   "definition": "Indigenous plants listed in traditional Indian medicine systems like Ayurveda, used for therapeutic treatments.",
+   "formula": "",
+   "key_idea": "Herbal plant species valued for curing specific ailments like hypertension, diabetes, and respiratory issues.",
+   "textbook_ref": "iess105.txt lines 276-300",
+   "question_patterns": [
+    "which Indian medicinal plant is used to treat blood pressure",
+    "explain the medicinal uses of Jamun seed powder and Arjun leaf juice",
+    "list traditional medicinal plants described in Ayurveda and their applications",
+    "what health benefits do Tulsi, Neem, and Babool offer",
+    "describe the therapeutic properties of Sarpagandha and Kachnar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify specific plant applications",
+     "explain": "Sarpagandha treats blood pressure; Jamun seed powder controls diabetes; Tulsi cures cough and cold."
+    },
+    {
+     "step": 2,
+     "action": "List therapeutic properties of other herbs",
+     "explain": "Neem acts as antibacterial; Arjun regulates blood pressure; Babool cures eye sores; Kachnar treats asthma and digestive problems."
+    },
+    {
+     "step": 3,
+     "action": "Summarize the role of medicinal plants in traditional healthcare",
+     "explain": "These plants form the backbone of Ayurveda and other traditional Indian medicine systems, providing accessible and affordable remedies for common ailments while preserving indigenous botanical knowledge."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.11",
+   "title": "Wildlife Species Share Calculation",
+   "section": "WILDLIFE",
+   "definition": "Calculating the percentage share of a country's bird, animal, or floral species relative to the total global species population.",
+   "formula": "species_percentage = (national_species_count / global_species_count) * 100",
+   "key_idea": "Determining a country's proportional contribution to global species diversity.",
+   "textbook_ref": "iess105.txt lines 301-345",
+   "question_patterns": [
+    "find the species percentage of national_species_count out of global_species_count",
+    "calculate the percentage share when national count is national_species_count and global count is global_species_count",
+    "what percentage of world species does a region have if it contains national_species_count out of global_species_count",
+    "compute the national species share percentage given national_species_count and global_species_count",
+    "determine percentage share of bird species from national_species_count and total global_species_count"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide national species count by global species count",
+     "explain": "Find the fractional ratio of national species to global species.",
+     "compute": "ratio = national_species_count / global_species_count"
+    },
+    {
+     "step": 2,
+     "action": "Multiply ratio by 100",
+     "explain": "Convert fractional ratio to percentage share.",
+     "compute": "species_percentage = ratio * 100"
+    },
+    {
+     "step": 3,
+     "action": "Validate the percentage against the total",
+     "explain": "Confirm that the computed percentage is between 0 and 100 and that the national count does not exceed the global count, ensuring the result is logically consistent."
+    }
+   ]
+  },
+  {
+   "id": "iess.105.12",
+   "title": "Conservation of Flora and Fauna",
+   "section": "WILDLIFE - Conservation",
+   "definition": "Government measures and environmental reserves created to protect threatened species and maintain ecological equilibrium.",
+   "formula": "",
+   "key_idea": "Protection of natural heritage via biosphere reserves, national parks, wildlife sanctuaries, and targeted conservation acts.",
+   "textbook_ref": "iess105.txt lines 346-410",
+   "question_patterns": [
+    "what steps has the Indian government taken to protect flora and fauna",
+    "when was the Wildlife Protection Act implemented in India",
+    "how many biosphere reserves, national parks, and wildlife sanctuaries exist in India",
+    "explain the major causes of ecosystem imbalance and species endangerment",
+    "list biosphere reserves of India included in the world network"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify legislative and administrative steps",
+     "explain": "Enacted Wildlife Protection Act in 1972; established 18 biosphere reserves, 101 national parks, and 553 wildlife sanctuaries."
+    },
+    {
+     "step": 2,
+     "action": "Highlight global heritage networks and conservation projects",
+     "explain": "10 biosphere reserves are in UNESCO world network; implemented Project Tiger and Project Rhino."
+    },
+    {
+     "step": 3,
+     "action": "Identify major causes of ecosystem imbalance and endangerment",
+     "explain": "Habitat destruction, poaching, pollution, deforestation, and climate change drive species endangerment, making conservation reserves and legislative acts essential for restoring ecological balance."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess105.txt line 120",
+   "concept": "iess.105.4",
+   "question_type": "compute",
+   "question_pattern": "find the non-forest area percentage if forest cover is {forest_cover_percentage}",
+   "extracted_variables": {
+    "forest_cover_percentage": 21.67
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract forest cover from total land area percentage",
+     "explain": "Subtracting the forest cover percentage from 100 gives the percentage of non-forested land.",
+     "compute": "non_forest_percentage = 100 - forest_cover_percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess105.txt line 122",
+   "concept": "iess.105.4",
+   "question_type": "compute",
+   "question_pattern": "calculate non-forest land percentage when forest cover percentage is given as {forest_cover_percentage}",
+   "extracted_variables": {
+    "forest_cover_percentage": 33.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract forest cover from total land area percentage",
+     "explain": "Subtracting the forest cover percentage from 100 gives the percentage of non-forested land.",
+     "compute": "non_forest_percentage = 100 - forest_cover_percentage"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess105.txt line 305",
+   "concept": "iess.105.11",
+   "question_type": "compute",
+   "question_pattern": "find the species percentage of {national_species_count} out of {global_species_count}",
+   "extracted_variables": {
+    "national_species_count": 2000,
+    "global_species_count": 15385
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide national species count by global species count",
+     "explain": "Find the fractional ratio of national species to global species.",
+     "compute": "ratio = national_species_count / global_species_count"
+    },
+    {
+     "step": 2,
+     "action": "Multiply ratio by 100",
+     "explain": "Convert fractional ratio to percentage share.",
+     "compute": "species_percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess105.txt line 308",
+   "concept": "iess.105.11",
+   "question_type": "compute",
+   "question_pattern": "calculate the percentage share when national count is {national_species_count} and global count is {global_species_count}",
+   "extracted_variables": {
+    "national_species_count": 15000,
+    "global_species_count": 250000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide national species count by global species count",
+     "explain": "Find the fractional ratio of national species to global species.",
+     "compute": "ratio = national_species_count / global_species_count"
+    },
+    {
+     "step": 2,
+     "action": "Multiply ratio by 100",
+     "explain": "Convert fractional ratio to percentage share.",
+     "compute": "species_percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.1",
+   "question_type": "verify_property",
+   "question_pattern": "define natural vegetation in Class 9 social science",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify natural growth conditions",
+     "explain": "Natural vegetation grows without human seeding, cultivation, or disturbance over extended periods."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate species origin",
+     "explain": "Species originating within the country are endemic or indigenous, whereas species brought from outside are exotic."
+    },
+    {
+     "step": 3,
+     "action": "Assess human impact on virgin vegetation",
+     "explain": "Human activities such as clearing land for agriculture, urbanisation, and introducing exotic species disturb virgin plant communities and alter natural vegetation."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.1",
+   "question_type": "verify_property",
+   "question_pattern": "what is virgin vegetation and how is it classified",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify natural growth conditions",
+     "explain": "Natural vegetation grows without human seeding, cultivation, or disturbance over extended periods."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate species origin",
+     "explain": "Species originating within the country are endemic or indigenous, whereas species brought from outside are exotic."
+    },
+    {
+     "step": 3,
+     "action": "Assess human impact on virgin vegetation",
+     "explain": "Human activities such as clearing land for agriculture, urbanisation, and introducing exotic species disturb virgin plant communities and alter natural vegetation."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.2",
+   "question_type": "verify_property",
+   "question_pattern": "how does land affect the type of natural vegetation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine land surface influence",
+     "explain": "Level fertile land is cleared for farming, while rough undulating terrains sustain grasslands and forests."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate soil impact",
+     "explain": "Sandy soils support thorny bushes, marshy deltaic soils support mangroves, and hill slopes support conical trees."
+    },
+    {
+     "step": 3,
+     "action": "Relate relief features to wildlife habitats",
+     "explain": "Different relief features create distinct micro-habitats that determine which animal species can thrive alongside the local vegetation."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain the influence of soil types on vegetation distribution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine land surface influence",
+     "explain": "Level fertile land is cleared for farming, while rough undulating terrains sustain grasslands and forests."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate soil impact",
+     "explain": "Sandy soils support thorny bushes, marshy deltaic soils support mangroves, and hill slopes support conical trees."
+    },
+    {
+     "step": 3,
+     "action": "Relate relief features to wildlife habitats",
+     "explain": "Different relief features create distinct micro-habitats that determine which animal species can thrive alongside the local vegetation."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.3",
+   "question_type": "verify_property",
+   "question_pattern": "how do temperature and humidity influence vegetation zones",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze thermal variations",
+     "explain": "Temperature fall with altitude shifts vegetation from tropical to subtropical, temperate, and alpine zones."
+    },
+    {
+     "step": 2,
+     "action": "Assess photoperiod and rainfall",
+     "explain": "Longer summer daylight promotes faster tree growth, and heavier rainfall yields denser forest canopies."
+    },
+    {
+     "step": 3,
+     "action": "Combine climatic factors to determine the vegetation zone",
+     "explain": "Integrating temperature, photoperiod, and precipitation identifies the dominant vegetation type for a region, such as evergreen, deciduous, or thorn forests."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the effect of photoperiod or sunlight duration on tree growth",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze thermal variations",
+     "explain": "Temperature fall with altitude shifts vegetation from tropical to subtropical, temperate, and alpine zones."
+    },
+    {
+     "step": 2,
+     "action": "Assess photoperiod and rainfall",
+     "explain": "Longer summer daylight promotes faster tree growth, and heavier rainfall yields denser forest canopies."
+    },
+    {
+     "step": 3,
+     "action": "Combine climatic factors to determine the vegetation zone",
+     "explain": "Integrating temperature, photoperiod, and precipitation identifies the dominant vegetation type for a region, such as evergreen, deciduous, or thorn forests."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.5",
+   "question_type": "verify_property",
+   "question_pattern": "describe the characteristics of tropical evergreen forests",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify climatic conditions",
+     "explain": "Thrive in areas receiving over 200 cm annual rainfall with a very short dry period."
+    },
+    {
+     "step": 2,
+     "action": "Describe forest canopy and flora",
+     "explain": "Multilayered canopy with no single leaf-shedding season, featuring trees like ebony, mahogany, rosewood, and rubber."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of the ecosystem",
+     "explain": "These forests shelter diverse animals including elephants, monkeys, lemurs, deer, one-horned rhinoceros, and birds like parrots and hornbills."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.5",
+   "question_type": "verify_property",
+   "question_pattern": "in which rainfall regions are tropical evergreen forests found",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify climatic conditions",
+     "explain": "Thrive in areas receiving over 200 cm annual rainfall with a very short dry period."
+    },
+    {
+     "step": 2,
+     "action": "Describe forest canopy and flora",
+     "explain": "Multilayered canopy with no single leaf-shedding season, featuring trees like ebony, mahogany, rosewood, and rubber."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of the ecosystem",
+     "explain": "These forests shelter diverse animals including elephants, monkeys, lemurs, deer, one-horned rhinoceros, and birds like parrots and hornbills."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.6",
+   "question_type": "verify_property",
+   "question_pattern": "what are monsoon forests and what are their main features",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rainfall range and leaf shedding",
+     "explain": "Rainfall ranges from 70 cm to 200 cm; foliage sheds during dry summer for 6 to 8 weeks."
+    },
+    {
+     "step": 2,
+     "action": "Classify into moist and dry types",
+     "explain": "Moist deciduous receives 100-200 cm rainfall (Teak, Sal, Shisham), while dry deciduous receives 70-100 cm rainfall."
+    },
+    {
+     "step": 3,
+     "action": "Map the geographical distribution across India",
+     "explain": "Tropical deciduous forests cover the northeastern states, foothills of the Himalayas, Jharkhand, West Bengal, Chhattisgarh, and the Western Ghats, making them the most widespread forest type in India."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.6",
+   "question_type": "verify_property",
+   "question_pattern": "distinguish between moist deciduous and dry deciduous forests",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rainfall range and leaf shedding",
+     "explain": "Rainfall ranges from 70 cm to 200 cm; foliage sheds during dry summer for 6 to 8 weeks."
+    },
+    {
+     "step": 2,
+     "action": "Classify into moist and dry types",
+     "explain": "Moist deciduous receives 100-200 cm rainfall (Teak, Sal, Shisham), while dry deciduous receives 70-100 cm rainfall."
+    },
+    {
+     "step": 3,
+     "action": "Map the geographical distribution across India",
+     "explain": "Tropical deciduous forests cover the northeastern states, foothills of the Himalayas, Jharkhand, West Bengal, Chhattisgarh, and the Western Ghats, making them the most widespread forest type in India."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.7",
+   "question_type": "verify_property",
+   "question_pattern": "describe the structural adaptations of trees in thorn forests",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rainfall threshold",
+     "explain": "Found in north-western regions with annual rainfall under 70 cm."
+    },
+    {
+     "step": 2,
+     "action": "Detail plant adaptations",
+     "explain": "Deep roots search for water, succulent stems conserve fluid, and tiny thick leaves minimize transpiration loss."
+    },
+    {
+     "step": 3,
+     "action": "Identify regional distribution and characteristic species",
+     "explain": "Thorn forests and scrubs are found in semi-arid regions of Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, Haryana, and the leeward side of the Western Ghats, with common species like Acacia, palm, euphorbia, and cactus."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.7",
+   "question_type": "verify_property",
+   "question_pattern": "which states in India host thorn forests and scrubs",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rainfall threshold",
+     "explain": "Found in north-western regions with annual rainfall under 70 cm."
+    },
+    {
+     "step": 2,
+     "action": "Detail plant adaptations",
+     "explain": "Deep roots search for water, succulent stems conserve fluid, and tiny thick leaves minimize transpiration loss."
+    },
+    {
+     "step": 3,
+     "action": "Identify regional distribution and characteristic species",
+     "explain": "Thorn forests and scrubs are found in semi-arid regions of Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, Haryana, and the leeward side of the Western Ghats, with common species like Acacia, palm, euphorbia, and cactus."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.8",
+   "question_type": "verify_property",
+   "question_pattern": "explain the succession of vegetation belts in montane forests",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Trace altitude zones",
+     "explain": "Wet temperate (1000-2000m: oak, chestnut), temperate coniferous (1500-3000m: pine, deodar, cedar), alpine (above 3600m: silver fir, birch)."
+    },
+    {
+     "step": 2,
+     "action": "Identify higher elevation vegetation",
+     "explain": "Alpine vegetation transitions through stunted shrubs into alpine grasslands and tundra mosses/lichens."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of montane regions",
+     "explain": "Montane forests support animals adapted to cold climates such as the Kashmir stag, spotted deer, snow leopard, red panda, and wild sheep, with nomadic tribes like the Gujjars and Bakarwals using alpine grasslands for grazing."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.8",
+   "question_type": "verify_property",
+   "question_pattern": "what tree species grow between 1500 and 3000 meters altitude",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Trace altitude zones",
+     "explain": "Wet temperate (1000-2000m: oak, chestnut), temperate coniferous (1500-3000m: pine, deodar, cedar), alpine (above 3600m: silver fir, birch)."
+    },
+    {
+     "step": 2,
+     "action": "Identify higher elevation vegetation",
+     "explain": "Alpine vegetation transitions through stunted shrubs into alpine grasslands and tundra mosses/lichens."
+    },
+    {
+     "step": 3,
+     "action": "Identify characteristic fauna of montane regions",
+     "explain": "Montane forests support animals adapted to cold climates such as the Kashmir stag, spotted deer, snow leopard, red panda, and wild sheep, with nomadic tribes like the Gujjars and Bakarwals using alpine grasslands for grazing."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.9",
+   "question_type": "verify_property",
+   "question_pattern": "what are mangrove tidal forests and where are they found in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify habitat and physical traits",
+     "explain": "Grow along tide-affected mud coasts and deltas with plant roots underwater."
+    },
+    {
+     "step": 2,
+     "action": "List major locations and species",
+     "explain": "Found in Ganga-Brahmaputra, Mahanadi, Godavari, Krishna, Kaveri deltas; dominated by Sundari trees and Bengal Tigers."
+    },
+    {
+     "step": 3,
+     "action": "Describe ecological adaptations of mangrove roots",
+     "explain": "Mangrove trees develop aerial breathing roots called pneumatophores that rise above the muddy saline water, allowing oxygen absorption and enabling survival in oxygen-poor waterlogged delta soils."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.9",
+   "question_type": "verify_property",
+   "question_pattern": "describe the roots of mangrove plants in coastal deltas",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify habitat and physical traits",
+     "explain": "Grow along tide-affected mud coasts and deltas with plant roots underwater."
+    },
+    {
+     "step": 2,
+     "action": "List major locations and species",
+     "explain": "Found in Ganga-Brahmaputra, Mahanadi, Godavari, Krishna, Kaveri deltas; dominated by Sundari trees and Bengal Tigers."
+    },
+    {
+     "step": 3,
+     "action": "Describe ecological adaptations of mangrove roots",
+     "explain": "Mangrove trees develop aerial breathing roots called pneumatophores that rise above the muddy saline water, allowing oxygen absorption and enabling survival in oxygen-poor waterlogged delta soils."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.10",
+   "question_type": "verify_property",
+   "question_pattern": "which Indian medicinal plant is used to treat blood pressure",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify specific plant applications",
+     "explain": "Sarpagandha treats blood pressure; Jamun seed powder controls diabetes; Tulsi cures cough and cold."
+    },
+    {
+     "step": 2,
+     "action": "List therapeutic properties of other herbs",
+     "explain": "Neem acts as antibacterial; Arjun regulates blood pressure; Babool cures eye sores; Kachnar treats asthma and digestive problems."
+    },
+    {
+     "step": 3,
+     "action": "Summarize the role of medicinal plants in traditional healthcare",
+     "explain": "These plants form the backbone of Ayurveda and other traditional Indian medicine systems, providing accessible and affordable remedies for common ailments while preserving indigenous botanical knowledge."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.10",
+   "question_type": "verify_property",
+   "question_pattern": "explain the medicinal uses of Jamun seed powder and Arjun leaf juice",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify specific plant applications",
+     "explain": "Sarpagandha treats blood pressure; Jamun seed powder controls diabetes; Tulsi cures cough and cold."
+    },
+    {
+     "step": 2,
+     "action": "List therapeutic properties of other herbs",
+     "explain": "Neem acts as antibacterial; Arjun regulates blood pressure; Babool cures eye sores; Kachnar treats asthma and digestive problems."
+    },
+    {
+     "step": 3,
+     "action": "Summarize the role of medicinal plants in traditional healthcare",
+     "explain": "These plants form the backbone of Ayurveda and other traditional Indian medicine systems, providing accessible and affordable remedies for common ailments while preserving indigenous botanical knowledge."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.12",
+   "question_type": "verify_property",
+   "question_pattern": "what steps has the Indian government taken to protect flora and fauna",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify legislative and administrative steps",
+     "explain": "Enacted Wildlife Protection Act in 1972; established 18 biosphere reserves, 101 national parks, and 553 wildlife sanctuaries."
+    },
+    {
+     "step": 2,
+     "action": "Highlight global heritage networks and conservation projects",
+     "explain": "10 biosphere reserves are in UNESCO world network; implemented Project Tiger and Project Rhino."
+    },
+    {
+     "step": 3,
+     "action": "Identify major causes of ecosystem imbalance and endangerment",
+     "explain": "Habitat destruction, poaching, pollution, deforestation, and climate change drive species endangerment, making conservation reserves and legislative acts essential for restoring ecological balance."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.105.12",
+   "question_type": "verify_property",
+   "question_pattern": "when was the Wildlife Protection Act implemented in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify legislative and administrative steps",
+     "explain": "Enacted Wildlife Protection Act in 1972; established 18 biosphere reserves, 101 national parks, and 553 wildlife sanctuaries."
+    },
+    {
+     "step": 2,
+     "action": "Highlight global heritage networks and conservation projects",
+     "explain": "10 biosphere reserves are in UNESCO world network; implemented Project Tiger and Project Rhino."
+    },
+    {
+     "step": 3,
+     "action": "Identify major causes of ecosystem imbalance and endangerment",
+     "explain": "Habitat destruction, poaching, pollution, deforestation, and climate change drive species endangerment, making conservation reserves and legislative acts essential for restoring ecological balance."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex105.1",
+   "source_ref": "iess105.txt lines 412-426",
+   "questions": [
+    "To which one of the following types of vegetation does rubber belong to? (a) Tundra (b) Tidal (c) Himalayan (d) Tropical Evergreen",
+    "Cinchona trees are found in the areas of rainfall more than (a) 100 cm (b) 50 cm (c) 70 cm (d) less than 50 cm",
+    "In which of the following state is the Simlipal bio-reserve located? (a) Punjab (b) Delhi (c) Odisha (d) West Bengal",
+    "Which one of the following bio-reserves of India is not included in the world network of bioreserve? (a) Manas (b) Nilgiri (c) Gulf of Mannar (d) Panna"
+   ]
+  },
+  {
+   "id": "ex105.2",
+   "source_ref": "iess105.txt lines 427-433",
+   "questions": [
+    "What factors are responsible for the distribution of plants and animals in India?",
+    "What is a bio-reserve? Give two examples.",
+    "Name two animals having habitat in tropical and montane type of vegetation."
+   ]
+  },
+  {
+   "id": "ex105.3",
+   "source_ref": "iess105.txt lines 434-438",
+   "questions": [
+    "Distinguish between Flora and Fauna.",
+    "Distinguish between Tropical Evergreen and Deciduous forests."
+   ]
+  },
+  {
+   "id": "ex105.4",
+   "source_ref": "iess105.txt lines 439-444",
+   "questions": [
+    "Name different types of Vegetation found in India and describe the vegetation of high altitudes.",
+    "Quite a few species of plants and animals are endangered in India. Why?",
+    "Why has India a rich heritage of flora and fauna?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

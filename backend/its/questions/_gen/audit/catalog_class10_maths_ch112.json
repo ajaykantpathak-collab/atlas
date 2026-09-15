@@ -1,0 +1,766 @@
+{
+ "catalog": "catalog_class10_maths_ch112.json",
+ "concepts": [
+  {
+   "id": "jemh.12.1",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 22 * 30"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 22 * 22"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 11 * 15",
+      "bed = 7 * 11",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 72 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 12 * 14",
+      "cost = area * 15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 9 * 18 / (3 * 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.2",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 8 * 3 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (8 * 5 + 5 * 10 + 10 * 8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 3 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 8 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 21 * 21 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 56 * 11"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.3",
+   "family": "solid_round",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 22 / 7 * 28 * 28 * 21 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vol = 4 / 3 * 22 / 7 * 35 * 35 * 35"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "csa = 2 * 22 / 7 * 84 * 84"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 3 * 22 / 7 * 42 * 42"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 2 / 3 * 22 / 7 * 28 * 28 * 28"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cyl = 22 / 7 * 28 * 28 * 8",
+      "cone = cyl / 3",
+      "vol = cyl + cone"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vol = 22 / 7 * 28 * 28 * 21 / 3"
+   ]
+  },
+  {
+   "id": "jemh.12.4",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 27 * 17"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 24 * 24"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 12 * 10",
+      "bed = 8 * 6",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 60 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 7 * 16",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 21 * 21 / (3 * 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.5",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 8 * 11 * 11"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (6 * 8 + 8 * 4 + 4 * 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 7 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 7 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 63 * 63 * 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 63 * 17"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.6",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 8 * 2 * 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (10 * 6 + 6 * 7 + 7 * 10)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 6 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 4 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 56 * 56 * 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 42 * 12"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.10",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 2 * 8 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (5 * 6 + 6 * 3 + 3 * 5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 6 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 7 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 49 * 49 * 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 28 * 20"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vol = 2 * 8 * 9"
+   ]
+  },
+  {
+   "id": "jemh.12.7a",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 24 * 20"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 14 * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 7 * 7",
+      "bed = 3 * 3",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 48 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 14 * 8",
+      "cost = area * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 28 * 12 / (4 * 4)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.7b",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 28 * 21"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 15 * 15"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 14 * 7",
+      "bed = 10 * 3",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 120 / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 13 * 7",
+      "cost = area * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 9 * 15 / (3 * 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.7c",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 7 * 2 * 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (5 * 7 + 7 * 3 + 3 * 5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 11 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 11 * 11"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 42 * 42 * 19"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 35 * 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.8a",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 6 * 5 * 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (5 * 5 + 5 * 5 + 5 * 5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 6 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 4 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 21 * 21 * 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 49 * 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.8b",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 26 * 28"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 15 * 15"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 10 * 10",
+      "bed = 6 * 6",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 120 / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 14 * 13",
+      "cost = area * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 12 * 12 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.8c",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 14 * 29"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 4 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 9 * 12",
+      "bed = 5 * 8",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 84 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 13 * 15",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 36 * 30 / (6 * 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.8d",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 8 * 2 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (6 * 10 + 10 * 10 + 10 * 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 12 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 5 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 7 * 7 * 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 21 * 15"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.9a",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 3 * 27"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 20 * 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 13 * 11",
+      "bed = 9 * 7",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 96 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 6 * 19",
+      "cost = area * 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 24 * 24 / (6 * 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.9b",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 15 * 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 17 * 17"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 16 * 14",
+      "bed = 12 * 10",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 36 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 19 * 17",
+      "cost = area * 15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 20 * 25 / (5 * 5)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.12.9c",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 11 * 7 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (7 * 4 + 4 * 5 + 5 * 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 7 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 10 * 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 84 * 84 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 77 * 20"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

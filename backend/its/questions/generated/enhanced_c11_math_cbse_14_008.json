@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_008",
+   "title": "c11_math_cbse_14_008",
+   "questions": [
+    {
+     "q": "State the contrapositive of the implication: \"If a number is divisible by 6, then it is divisible by 3.\" Write it in words and in symbolic form (p → q).",
+     "a": "Contrapositive: \"If a number is NOT divisible by 3, then it is NOT divisible by 6.\" Symbolically: ~q → ~p. A wrong answer (e.g., \"If divisible by 3 then divisible by 6\") reveals confusion between contrapositive and converse. The student must recall that contrapositive negates and swaps hypothesis and conclusion, while converse only swaps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why proving the converse of a true implication does NOT prove the original implication. Give a concrete mathematical example where the implication is true but its converse is false.",
+     "a": "The implication p → q and its converse q → p are logically independent; truth of one does not guarantee truth of the other. Example: \"If a number is a multiple of 4, then it is even\" (true). Converse: \"If a number is even, then it is a multiple of 4\" (false, e.g., 2). A student who thinks proving converse suffices confuses necessary and sufficient conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Validate the statement: \"For every real number x, x² ≥ x.\" If false, provide a counterexample. If true, give a direct proof.",
+     "a": "The statement is false. Counterexample: x = 0.5 gives 0.25 ≥ 0.5, which is false. A student who attempts a direct proof without checking the domain misses the universal quantifier's requirement that the statement hold for ALL real numbers. This tests the ability to apply counterexample method for universal statements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two validation methods: (i) Prove \"If n is an odd integer, then n² is odd\" by direct proof. (ii) Prove the same statement by contrapositive. Which method is more efficient and why?",
+     "a": "Direct: let n = 2k+1 → n² = 4k²+4k+1 = 2(2k²+2k)+1, odd. Contrapositive: assume n² even → n even (prove by contradiction or known fact). Both work, but direct is simpler because the algebraic expansion is straightforward. A student who chooses contrapositive without justification may not recognise when direct proof is more natural. This tests analytical comparison of methods.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"To prove 'There exists an integer x such that x² = 2', I can assume no such integer exists and derive a contradiction. Therefore the statement is true.\" Evaluate this reasoning.",
+     "a": "The reasoning is flawed: proof by contradiction for an existential statement assumes the negation (∀x, x² ≠ 2) and derives a contradiction. But the student's assumption \"no such integer exists\" is exactly the negation, so if a contradiction is reached, the original existential is proved. However, in this case no contradiction arises because the statement is actually false (√2 is irrational). The student incorrectly thinks the method guarantees truth. This evaluates understanding of quantifier negation and the limits of contradiction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) involving a compound statement with \"and\", \"or\", and an implication. Write the logical form, then construct a truth table to determine when the overall statement is true.",
+     "a": "Example: \"If it rains (p) AND the train is on time (q), then I will carry an umbrella (r) OR wear a raincoat (s).\" Logical form: (p ∧ q) → (r ∨ s). A good answer includes a 16-row truth table and identifies the only false case: p=T, q=T, r=F, s=F. A poor answer omits the truth table or misplaces parentheses, showing inability to translate compound statements into symbolic logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_006",
+   "title": "c12_acc_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the correct journal entry when the value of machinery increases by ₹15,000 at the time of admission of a partner?",
+     "a": "Machinery A/c Dr. 15,000  \n To Revaluation A/c 15,000  \n**Why a wrong answer reveals misunderstanding:** If a student debits Revaluation Account and credits Machinery, they have confused “increase in asset” (which is a gain) with “decrease in asset”. The rule: **increase in asset → debit asset, credit Revaluation**. This error shows they haven’t internalised the “debit what comes in, credit what goes out” logic for nominal accounts.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the profit or loss on revaluation transferred to the **old partners** in their **old profit-sharing ratio**, and not to the new partner or in the new ratio?",
+     "a": "Revaluation reflects changes in value that occurred **before** the new partner joined. The new partner did not contribute to those gains/losses, so only the old partners — who bore the risk and benefit during that period — share the revaluation result. The old ratio represents their agreed sharing of all past profits and losses.  \n**Why a wrong answer reveals misunderstanding:** If a student says “transfer to all partners in new ratio”, they are confusing revaluation with **goodwill adjustment** or **capital adjustment**, which do involve the new partner. This indicates they cannot distinguish between adjustments for past events (revaluation) vs. future sharing (goodwill/capital).",
+     "self_check": true
+    },
+    {
+     "q": "A firm admits a new partner. The following revaluations are agreed:  \n- Building appreciated by ₹50,000  \n- Stock depreciated by ₹8,000  \n- Unrecorded liability for outstanding wages ₹3,000 found  \n- Provision for doubtful debts increased by ₹2,000  \nPrepare the Revaluation Account and show the net profit/loss transferred to old partners A and B (old ratio 3:2).",
+     "a": "**Revaluation Account**  \n| Dr. | | Cr. |  \n| --- | --- | --- |  \n| **Particulars** | **₹** | **Particulars** | **₹** |  \n| To Stock A/c | 8,000 | By Building A/c | 50,000 |  \n| To Outstanding Wages A/c | 3,000 | | |  \n| To Provision for Doubtful Debts A/c | 2,000 | | |  \n| To Profit transferred to: | | | |  \n|   A’s Capital (3/5 × 37,000) | 22,200 | | |  \n|   B’s Capital (2/5 × 37,000) | 14,800 | | |  \n| **Total** | **50,000** | **Total** | **50,000** |  \n\n**Net Profit = ₹37,000** (50,000 – 8,000 – 3,000 – 2,000)  \n**Why a wrong answer reveals misunderstanding:** Common errors: (1) Forgetting unrecorded liability (outstanding wages) — shows lack of awareness that **liabilities can be unrecorded**. (2) Debiting Building instead of crediting — shows confusion between asset increase/decrease. (3) Transferring profit in new ratio — shows confusion with goodwill treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries for “increase in liability” and “decrease in liability” in Revaluation Account. How does the logic differ from asset revaluation?",
+     "a": "- **Increase in liability** (e.g., creditors higher than book value): Revaluation A/c Dr. → Liability A/c Cr. (Loss)  \n- **Decrease in liability** (e.g., creditors settled at lower amount): Liability A/c Dr. → Revaluation A/c Cr. (Gain)  \n**Logic difference:** For assets, **increase = gain** (debit asset, credit Revaluation); for liabilities, **increase = loss** (debit Revaluation, credit liability). This is because assets are “what we own” (more is good) and liabilities are “what we owe” (more is bad).  \n**Why a wrong answer reveals misunderstanding:** If a student applies the same debit/credit rule for assets and liabilities, they haven’t grasped the fundamental nature of assets vs. liabilities. This error propagates to wrong profit/loss calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: “Since the new partner will share future profits in the new ratio, the revaluation profit should also be shared in the new ratio.” Evaluate this argument and state whether it is correct or not, with justification.",
+     "a": "**Incorrect.** Revaluation profit/loss arises from **past** events (value changes up to the date of admission). The new partner has no claim on past gains/losses — they only share **future** profits. The old partners’ capital accounts must reflect the true value of their investment **before** the new partner enters. Sharing revaluation profit in the new ratio would unfairly give the new partner a windfall from pre-admission appreciation.  \n**Why a wrong answer reveals misunderstanding:** Accepting this argument shows the student cannot separate **accounting periods** (pre-admission vs. post-admission). This is a critical conceptual boundary tested in board exams (case-based questions) and competitive exams (CUET/IPMAT).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new revaluation scenario for admission of a partner where:  \n- There is at least one unrecorded asset  \n- There is at least one unrecorded liability  \n- The net result is a **loss**  \nWrite the full Revaluation Account and show the transfer to old partners X and Y (old ratio 5:3). Use realistic Indian rupee amounts.",
+     "a": "**Sample scenario (student may create variations):**  \n- Unrecorded asset: Old furniture valued at ₹12,000  \n- Unrecorded liability: Outstanding rent ₹8,000  \n- Machinery depreciated by ₹25,000  \n- Building appreciated by ₹10,000  \n\n**Revaluation Account**  \n| Dr. | | Cr. |  \n| --- | --- | --- |  \n| To Machinery A/c | 25,000 | By Furniture A/c (unrecorded) | 12,000 |  \n| To Outstanding Rent A/c | 8,000 | By Building A/c | 10,000 |  \n| To Loss transferred to: | | | |  \n|   X’s Capital (5/8 × 11,000) | 6,875 | | |  \n|   Y’s Capital (3/8 × 11,000) | 4,125 | | |  \n| **Total** | **33,000** | **Total** | **33,000** |  \n\n**Net Loss = ₹11,000** (25,000 + 8,000 – 12,000 – 10,000)  \n**Criteria for good answer:** Correct identification of debit/credit for each item, correct net loss, correct old ratio sharing. A poor answer will misclassify unrecorded items or use new ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

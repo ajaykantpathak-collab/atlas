@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_007",
+   "title": "c12_bio_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define allopatric speciation and name the initial isolating mechanism.",
+     "a": "Allopatric speciation is the formation of new species from populations that are geographically isolated from each other. The initial isolating mechanism is a physical barrier (e.g., mountain range, river, canyon) that prevents gene flow. A wrong answer (e.g., \"speciation due to polyploidy\") reveals confusion between allopatric and sympatric modes, specifically missing the geographic separation requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why polyploidy leads to instant reproductive isolation in plants but rarely in animals.",
+     "a": "Polyploidy creates immediate postzygotic isolation because odd-ploidy hybrids (e.g., triploid) fail meiosis due to unpaired chromosomes, producing sterile gametes. Plants tolerate polyploidy because they often self-fertilize or reproduce vegetatively, and their development is more flexible. Animals rarely speciate via polyploidy because sex determination systems (e.g., XY) are disrupted by extra chromosome sets, and animal development is less tolerant of genomic imbalance. A wrong answer (e.g., \"animals don't have chromosomes\") shows a fundamental misunderstanding of chromosome biology and the mechanistic basis of hybrid sterility.",
+     "self_check": true
+    },
+    {
+     "q": "A population of frogs is split by a newly formed highway. After 50 generations, the two groups are brought together in a lab and produce viable but sterile offspring. Classify the speciation mode and the type of reproductive barrier.",
+     "a": "This is allopatric speciation (geographic isolation by the highway). The barrier is postzygotic (hybrid sterility) because the offspring are viable but sterile. A wrong answer (e.g., \"sympatric speciation with prezygotic barrier\") indicates failure to recognize that the initial split was geographic and that sterility of hybrids is a postzygotic mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of natural selection versus genetic drift in the early stages of allopatric speciation in a small peripheral isolate versus a large population split by a continental barrier.",
+     "a": "In a small peripheral isolate (founder effect), genetic drift dominates early divergence because allele frequencies shift randomly in the small group. In a large population split by a continental barrier (vicariance), natural selection plays a larger role early on because both populations are large enough to buffer drift, and divergent selection pressures in different environments drive adaptation. A wrong answer that attributes both equally to drift ignores population size effects and the strength of selection in large populations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Sympatric speciation is impossible because gene flow always homogenizes populations in the same area.\"",
+     "a": "The statement is false. Sympatric speciation is possible when strong disruptive selection or polyploidy creates reproductive isolation despite ongoing gene flow. Examples: apple maggot flies shifting to hawthorn vs. apple hosts (host-race formation), and polyploid plant speciation (e.g., wheat, cotton). Gene flow is reduced by assortative mating or instant chromosomal incompatibility. A wrong answer accepting the statement reflects the outdated \"allopatry-only\" view and ignores empirical evidence and theoretical models (e.g., Dieckmann-Doebeli).",
+     "self_check": true
+    },
+    {
+     "q": "Design a field study to test whether two morphologically similar insect populations on the same hilltop are undergoing sympatric speciation via host-plant specialization.",
+     "a": "A good design: (1) Mark-recapture to track mating preferences on different host plants. (2) Genetic analysis (e.g., microsatellites or SNPs) to measure gene flow between host-associated groups. (3) Common-garden experiments to test for genetic basis of host preference and performance. (4) Check for assortative mating (prezygotic barrier) and reduced hybrid fitness (postzygotic). A poor design (e.g., only measuring morphology) fails to detect reproductive isolation and gene flow, which are the defining criteria for speciation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

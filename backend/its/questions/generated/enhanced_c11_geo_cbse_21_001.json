@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_001",
+   "title": "c11_geo_cbse_21_001",
+   "questions": [
+    {
+     "q": "Define 'transport' in the context of geographical systems and list the five primary modes of transport in India with one key commodity each predominantly carries.",
+     "a": "Transport is the spatial movement of people, goods, and information across a network of nodes and links. The five modes are: (1) Road – perishable goods, short-haul freight; (2) Rail – bulk minerals (coal, iron ore), foodgrains; (3) Water – heavy crude oil, international trade cargo; (4) Air – high-value low-volume (electronics, pharmaceuticals), passengers; (5) Pipeline – crude oil, natural gas, petroleum products. A wrong answer (e.g., listing 'internet' as a mode or assigning coal to airways) reveals confusion between transport and communication, or ignorance of modal characteristics (cost/ton-km vs. speed).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Northern Plains have the highest density of both road and rail networks in India, while the Northeastern states rely heavily on air transport despite high costs.",
+     "a": "The Northern Plains offer flat terrain (low construction cost), high population density (high demand), fertile agriculture and industry (high freight generation), and perennial rivers bridged easily. The Northeast has rugged terrain (high construction/maintenance cost), seismic activity, heavy rainfall causing landslides, sparse population (low revenue), and strategic border location requiring rapid mobility – making air transport the only viable option for many areas. A wrong answer focusing only on 'population' or 'money' misses the physical geography constraints (slope, drainage, geology) that make surface transport prohibitively expensive in mountains.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Road transport carries 65% of freight and 80% of passenger traffic in India, but railways carry 35% of freight and 15% of passengers. Calculate the freight modal share ratio (Road:Rail) and passenger modal share ratio (Road:Rail). Interpret what these ratios imply for energy efficiency and infrastructure investment.",
+     "a": "Step 1: Freight share Road = 65%, Rail = 35%. Ratio = 65:35 = 13:7 ≈ 1.86:1. Step 2: Passenger share Road = 80%, Rail = 15%. Ratio = 80:15 = 16:3 ≈ 5.33:1. Step 3: Interpretation – Road dominates both but especially passengers (ratio 5.33 vs 1.86). Rail is relatively more competitive in freight. Since rail is 6x more energy-efficient per ton-km, the low freight share indicates underutilization of an efficient asset; high passenger share on roads implies high fuel import dependence and congestion. A wrong calculation (e.g., using absolute numbers instead of percentages) or missing the energy implication shows inability to link statistics to policy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of pipelines and waterways in India's transport matrix. Why does pipeline transport have a higher share in 'tonne-kilometres' than its share in 'network length' would suggest?",
+     "a": "Pipelines carry crude oil and gas continuously (24/7) over long distances (e.g., 1,300 km Hazira-Vijaipur-Jagdishpur) with zero transshipment loss, high capacity, and minimal land footprint. Waterways (inland + coastal) handle bulk international trade but suffer from seasonal variability, siltation, and limited hinterland connectivity. Pipeline's high tonne-km share despite short network length (≈17,000 km vs 6.4M km roads) is because it moves massive volumes (millions of tonnes/year) over its entire length non-stop, whereas roads carry small loads per vehicle. A student who says 'pipelines are faster' confuses speed (fluid velocity ~5 km/hr) with throughput; the key is uninterrupted flow and high capacity utilization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's transport policy should prioritize expanding road networks over railways because roads provide door-to-door service and reach every village.\" Consider economic, environmental, and equity dimensions.",
+     "a": "The statement is partially true for last-mile connectivity but flawed as a national priority. Economically: roads have higher variable cost per ton-km (₹2.5-3.0 vs ₹1.2-1.5 for rail) and higher externalities (accidents, pollution). Environmentally: roads emit 3-4x more CO2 per ton-km. Equitably: railways provide affordable long-distance travel for low-income groups; road expansion benefits vehicle-owners. A balanced policy uses roads for feeder/distributor roles and rail for trunk corridors. A student agreeing wholly ignores the 'modal shift' target in National Transport Policy and the climate commitment (NDC); a student rejecting roads entirely ignores rural accessibility (PMGSY).",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal transport corridor for transporting iron ore from Bellary (Karnataka) to a steel plant in Jamshedpur (Jharkhand). Specify the modes, transfer points, and justify each choice using cost, geography, and infrastructure constraints.",
+     "a": "A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines. (2) Rail (Hospet to Jamshedpur via Chennai-Howrah main line, ~1,600 km) – low cost for bulk, dedicated freight corridor potential. (3) Short road haul from Jamshedpur station to plant – last mile. Justification: Avoids coastal shipping (circuitous, double handling), avoids air (prohibitive cost), avoids pipeline (solids not feasible). Uses existing broad-gauge electrified route. Poor answer: suggests direct road transport (ignores 1,600 km cost), or inland waterway (no navigable river link), or misses transfer points.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

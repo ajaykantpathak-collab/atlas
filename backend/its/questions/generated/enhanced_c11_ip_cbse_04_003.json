@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_003",
+   "title": "c11_ip_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the result of the expression `[1, 2] + [3, 4]` and what is the data type of the result?",
+     "a": "The result is `[1, 2, 3, 4]` of type `list`. A wrong answer like `[1, 2, [3, 4]]` reveals the student thinks concatenation nests lists (confusing with append). Answering `1,2,3,4` without brackets shows they forget the result is a list.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `[1, 2] + \"34\"` raises a TypeError but `[1, 2] * 3` works. What would `[1, 2] * \"3\"` do?",
+     "a": "Concatenation requires both operands to be lists; string \"34\" is not a list. Repetition requires a list and an integer; 3 is an integer. `[1, 2] * \"3\"` raises TypeError because \"3\" is a string, not an integer. A wrong answer claiming both work or both fail reveals misunderstanding of operand type constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Given `lst = ['a', 'b', 'c']`, write an expression using repetition that produces `['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']`. Then write a membership expression that returns True for 'b' and False for 'd'.",
+     "a": "Repetition: `lst * 3`. Membership: `'b' in lst` returns True, `'d' in lst` returns False. If a student writes `3 * lst` (works but unconventional) or `lst * [3]` (TypeError), they confuse operand order or type. If they write `lst.contains('b')`, they confuse with Java/other languages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and mutability implications of `new_list = list1 + list2` versus `list1.extend(list2)`. Which original lists are modified in each case?",
+     "a": "`list1 + list2` creates a brand new list; `list1` and `list2` remain unchanged. `list1.extend(list2)` modifies `list1` in-place by appending elements of `list2`; `list2` is unchanged. A student saying both modify `list1` or both create new lists confuses operators with methods.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `if 'x' not in my_list: my_list.append('x')` to avoid duplicates. Critique this approach: is it efficient for large lists? What is the time complexity of the membership test?",
+     "a": "The approach is correct logically but inefficient for large lists because `in` on a list is O(n) linear search. For frequent duplicate checks, a set is better (O(1) average). A student claiming it's O(1) or suggesting `my_list.count('x') == 0` (also O(n)) doesn't grasp the performance implication.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use all three operations (concatenation, repetition, membership) together in a single program. Write pseudocode.",
+     "a": "Scenario: A canteen menu system. `week_menu = (mon_fri * 5) + weekend_special` uses repetition for weekly cycle and concatenation to add weekend items. `if 'paneer' in week_menu:` checks availability. Good answer shows clear variable names and correct operator usage. Poor answer uses only one operation or confuses repetition with loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

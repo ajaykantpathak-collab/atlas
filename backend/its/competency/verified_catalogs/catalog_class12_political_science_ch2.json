@@ -1,0 +1,526 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 2,
+ "chapter_title": "Contemporary Centres of Power",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leps102.txt",
+ "concepts": [
+  {
+   "id": "c12ps.2.1",
+   "title": "Meaning of Centres of Power",
+   "section": "Introduction: Centres of Power",
+   "definition": "A centre of power in contemporary world politics is a country or group of countries that possesses sufficient economic, military, and political strength to influence global affairs and shape the international system, without necessarily being a superpower.",
+   "formula": "",
+   "key_idea": "In the post-Cold War world, power is distributed among several centres -- the US, the European Union, China, Japan, Russia, and regional organisations -- giving rise to a multipolar rather than a unipolar world.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by a centre of power in world politics?",
+    "How does a centre of power differ from a superpower?",
+    "Name the major centres of power in the contemporary world.",
+    "Why is the contemporary world described as multipolar?",
+    "What factors make a country or region a centre of power?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a centre of power",
+     "explain": "A centre of power is a state or group of states with significant economic, military, and political capacity to influence global events and the international order."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish it from a superpower",
+     "explain": "A superpower has overwhelming dominance across all dimensions globally; a centre of power has substantial influence but not the same overwhelming dominance as a superpower."
+    },
+    {
+     "step": 3,
+     "action": "Identify the major contemporary centres of power",
+     "explain": "The major centres include the US, the European Union, China, Japan, Russia, and organisations like ASEAN, making the world increasingly multipolar."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a centre of power differ from a superpower?",
+     "solution": "Step 1: A superpower has overwhelming global dominance in military, economic, and political terms. Step 2: A centre of power has substantial influence but not the same overwhelming dominance. Step 3: Thus the EU and Japan are centres of power but not superpowers.",
+     "answer": "A centre of power has substantial influence but lacks the overwhelming global dominance of a superpower",
+     "_n": 1
+    },
+    {
+     "question": "Name the major centres of power in the contemporary world.",
+     "solution": "Step 1: After the Cold War, power became distributed among several actors. Step 2: The US, EU, China, Japan, and Russia are major centres. Step 3: Regional organisations like ASEAN also count as centres of power.",
+     "answer": "The US, the European Union, China, Japan, Russia, and ASEAN",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of a centre of power and list the major centres of power in the contemporary world.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the contemporary world described as moving towards multipolarity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.2",
+   "title": "The European Union as a Centre of Power",
+   "section": "The European Union",
+   "definition": "The European Union (EU) is a political and economic union of European states that evolved from the European Coal and Steel Community (1951) and the European Economic Community (1957) into a major centre of power with a common currency, common market, and common foreign and security policy.",
+   "formula": "",
+   "key_idea": "The EU is an influential centre of power because of its large economy, common currency (the euro), single market, and common policies, though it lacks a common army and a unified foreign policy comparable to a nation-state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the European Union evolve into a centre of power?",
+    "What are the main features of the European Union?",
+    "Explain the economic strength of the EU.",
+    "What are the limitations of the EU as a centre of power?",
+    "How does the euro contribute to the EU's influence?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the evolution of the EU",
+     "explain": "The EU evolved from the European Coal and Steel Community (1951) and the European Economic Community (1957) through a series of treaties including the Maastricht Treaty (1992) that created the European Union.",
+     "compute": "founding_year_eec = 1957"
+    },
+    {
+     "step": 2,
+     "action": "Describe the features that make the EU a centre of power",
+     "explain": "The EU has a large economy comparable to the US, a single market allowing free movement of goods, services, capital, and people, a common currency (the euro) used by many members, and common policies on trade and agriculture."
+    },
+    {
+     "step": 3,
+     "action": "Identify the limitations of the EU",
+     "explain": "The EU lacks a common army and a fully unified foreign policy; member states retain sovereignty on defence, and there are internal divisions, limiting its ability to act as a single military power."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When was the European Union formally established?",
+     "solution": "Step 1: The EU evolved from earlier European communities. Step 2: The Maastricht Treaty of 1992 formally created the European Union. Step 3: Hence the EU was formally established in 1992.",
+     "answer": "1992, by the Maastricht Treaty"
+    },
+    {
+     "question": "What is the common currency of the European Union?",
+     "solution": "Step 1: The EU introduced a common currency to deepen economic integration. Step 2: This currency is the euro, adopted by many but not all member states. Step 3: The euro is the common currency of the EU.",
+     "answer": "The euro"
+    },
+    {
+     "question": "What are the limitations of the EU as a centre of power?",
+     "solution": "Step 1: The EU is strong economically but weak militarily. Step 2: It lacks a common army and a fully unified foreign policy. Step 3: Member states retain sovereignty on defence, limiting the EU's military power.",
+     "answer": "Lack of a common army and a fully unified foreign policy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the European Union evolved into a centre of power and discuss its strengths and limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate the year the European Union was formally established by the Maastricht Treaty.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.3",
+   "title": "ASEAN as a Centre of Power",
+   "section": "ASEAN",
+   "definition": "ASEAN (Association of Southeast Asian Nations) is a regional organisation of Southeast Asian states founded in 1967 by five countries, which has grown into an influential centre of power promoting economic growth, regional peace, and cooperation among its members.",
+   "formula": "",
+   "key_idea": "ASEAN has become a significant economic and political grouping through regional cooperation, free trade, and the ASEAN Way of consensus-based decision-making, contributing to the stability and growth of Southeast Asia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is ASEAN and when was it established?",
+    "Name the founding members of ASEAN.",
+    "What are the main objectives of ASEAN?",
+    "How has ASEAN become a centre of power?",
+    "Explain the ASEAN Way of decision-making."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the formation and membership of ASEAN",
+     "explain": "ASEAN was established in 1967 by five founding members -- Indonesia, Malaysia, the Philippines, Singapore, and Thailand -- and has since expanded to include ten Southeast Asian nations.",
+     "compute": "founding_members = 5"
+    },
+    {
+     "step": 2,
+     "action": "Explain the objectives of ASEAN",
+     "explain": "ASEAN aims to accelerate economic growth, social progress, and cultural development, promote regional peace and stability, and cooperate in trade, investment, and security.",
+     "compute": "verify_property_check"
+    },
+    {
+     "step": 3,
+     "action": "Describe the ASEAN Way and its influence",
+     "explain": "The ASEAN Way emphasises consensus, non-interference in members' internal affairs, and informal cooperation; this approach has helped ASEAN grow into an influential regional centre of power."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many countries founded ASEAN and in which year?",
+     "solution": "Step 1: ASEAN was established by a group of Southeast Asian nations. Step 2: Five countries -- Indonesia, Malaysia, the Philippines, Singapore, and Thailand -- signed the founding declaration. Step 3: ASEAN was founded in 1967 by five countries.",
+     "answer": "Five countries in 1967"
+    },
+    {
+     "question": "What is the ASEAN Way?",
+     "solution": "Step 1: The ASEAN Way is ASEAN's approach to cooperation. Step 2: It is based on consensus, non-interference, and informal dialogue. Step 3: This approach helps maintain unity and regional stability.",
+     "answer": "A consensus-based, non-interference approach to regional cooperation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the formation, objectives, and significance of ASEAN as a centre of power.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate the number of founding members of ASEAN.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.4",
+   "title": "China as a Rising Power",
+   "section": "China as a Rising Power",
+   "definition": "China has emerged as a major centre of power through rapid economic growth since the 1978 market reforms, becoming the second largest economy in the world, a major manufacturing hub, and an increasingly influential military and political power.",
+   "formula": "",
+   "key_idea": "China's rise is based on economic reforms, export-led growth, large foreign exchange reserves, and strategic initiatives, making it a potential challenger to US dominance, though it faces internal challenges and regional tensions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did China emerge as a major power?",
+    "Explain the economic reforms introduced in China in 1978.",
+    "What is the basis of China's economic strength?",
+    "How does China challenge US dominance in world politics?",
+    "What are the challenges faced by China as a rising power?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the economic reforms that powered China's rise",
+     "explain": "China introduced market-oriented reforms in 1978 under Deng Xiaoping, opening the economy to foreign investment, private enterprise, and export-led manufacturing while retaining Communist Party rule.",
+     "compute": "reform_year = 1978"
+    },
+    {
+     "step": 2,
+     "action": "Describe the basis of China's economic strength",
+     "explain": "China became the world's manufacturing hub, the second largest economy, holds the largest foreign exchange reserves, and has launched initiatives like the Belt and Road Initiative to expand its global influence.",
+     "compute": "economy_rank = 2"
+    },
+    {
+     "step": 3,
+     "action": "Assess China's challenges as a rising power",
+     "explain": "China faces challenges including internal inequality, an ageing population, environmental degradation, regional tensions in the South China Sea, and concerns from neighbours about its growing assertiveness."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which year did China introduce major economic reforms?",
+     "solution": "Step 1: China's economic rise began with market-oriented reforms. Step 2: These reforms were introduced in 1978 under Deng Xiaoping. Step 3: Hence the year of major economic reforms in China is 1978.",
+     "answer": "1978"
+    },
+    {
+     "question": "What is the rank of China's economy in the world?",
+     "solution": "Step 1: China's economy has grown rapidly since the reforms. Step 2: It is now the second largest economy in the world after the US. Step 3: Hence China's economy ranks second globally.",
+     "answer": "Second largest economy in the world"
+    },
+    {
+     "question": "What initiative has China launched to expand its global influence?",
+     "solution": "Step 1: China has launched major infrastructure and trade initiatives. Step 2: The Belt and Road Initiative connects Asia, Africa, and Europe through infrastructure and trade. Step 3: This is a key initiative expanding China's global influence.",
+     "answer": "The Belt and Road Initiative"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how China emerged as a major centre of power and discuss the challenges it faces.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate the year in which China introduced its major economic reforms.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.5",
+   "title": "Japan as a Power",
+   "section": "Japan as a Power",
+   "definition": "Japan is a major economic power that rebuilt itself after the Second World War to become the second largest economy for many years, known for its advanced technology, manufacturing, and economic aid, though it faces constraints as a military power.",
+   "formula": "",
+   "key_idea": "Japan is an economic power with advanced technology and a large economy, but its military role is constrained by its pacifist constitution and its security dependence on the US through a security treaty.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Japan emerge as an economic power after the Second World War?",
+    "What are the sources of Japan's economic strength?",
+    "What constraints does Japan face as a military power?",
+    "Explain Japan's relationship with the United States.",
+    "How does Japan contribute to the international system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Japan's economic rise",
+     "explain": "Japan rebuilt its devastated economy after 1945 through industrialisation, technological innovation, export-led growth, and a strong work culture, becoming the second largest economy for decades."
+    },
+    {
+     "step": 2,
+     "action": "Identify the sources of Japan's power",
+     "explain": "Japan's power rests on its advanced technology, large economy, global manufacturing brands, and substantial overseas development assistance to developing countries."
+    },
+    {
+     "step": 3,
+     "action": "Explain the constraints on Japan's military power",
+     "explain": "Japan's post-war constitution, especially Article 9, renounces war as a sovereign right; Japan relies on a security treaty with the US for its defence, limiting its independent military role."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What constitutional constraint limits Japan's military power?",
+     "solution": "Step 1: Japan adopted a pacifist constitution after the Second World War. Step 2: Article 9 of the constitution renounces war as a sovereign right of the nation. Step 3: This constitutional provision limits Japan's military power.",
+     "answer": "Article 9 of the constitution, which renounces war"
+    },
+    {
+     "question": "On what does Japan rely for its security?",
+     "solution": "Step 1: Japan's constitution limits its military capabilities. Step 2: Japan has a security treaty with the United States. Step 3: Therefore Japan relies on the US for its security.",
+     "answer": "A security treaty with the United States"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how Japan emerged as an economic power and discuss the constraints on its military role.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the main sources of Japan's economic strength?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.6",
+   "title": "Russia after Disintegration",
+   "section": "Russia after Disintegration",
+   "definition": "After the disintegration of the USSR in 1991, Russia emerged as the successor state to the Soviet Union, inheriting its nuclear arsenal, UN Security Council seat, and much of its territory, but it faced severe economic crisis and political instability in the 1990s.",
+   "formula": "",
+   "key_idea": "Russia under Boris Yeltsin struggled with economic collapse and political turmoil, but under Vladimir Putin it recovered economically using energy resources and reasserted itself as a major power, though it has faced tensions with the West.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the position of Russia after the disintegration of the USSR?",
+    "How did Russia inherit the Soviet Union's international role?",
+    "Explain the economic crisis in Russia in the 1990s.",
+    "How did Russia reassert itself under Vladimir Putin?",
+    "What role do energy resources play in Russia's power?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Russia as the successor state",
+     "explain": "Russia inherited the Soviet Union's nuclear weapons, its permanent seat on the UN Security Council, and most of its territory and military assets, making it the largest of the post-Soviet states."
+    },
+    {
+     "step": 2,
+     "action": "Explain the crisis of the 1990s",
+     "explain": "Under Yeltsin, Russia adopted shock therapy, which led to economic collapse, hyperinflation, the rise of oligarchs, and political instability, weakening Russia's international position."
+    },
+    {
+     "step": 3,
+     "action": "Describe Russia's recovery and reassertion",
+     "explain": "Under Putin, Russia recovered economically using its vast oil and gas resources, centralised political power, and reasserted its influence in world politics, leading to tensions with the West."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What did Russia inherit from the Soviet Union in the international system?",
+     "solution": "Step 1: Russia was recognised as the successor state to the USSR. Step 2: It inherited the nuclear arsenal and the permanent seat on the UN Security Council. Step 3: This gave Russia a continuing great-power status.",
+     "answer": "The nuclear arsenal and the permanent seat on the UN Security Council"
+    },
+    {
+     "question": "How did Russia recover economically under Putin?",
+     "solution": "Step 1: Russia has vast oil and gas resources. Step 2: Under Putin, rising energy prices and state control of resources boosted the economy. Step 3: This energy wealth helped Russia recover and reassert its power.",
+     "answer": "By leveraging its vast oil and gas resources and rising energy prices"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the position of Russia after the disintegration of the USSR and its recovery under Putin.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What were the main features of Russia's economic crisis in the 1990s?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.7",
+   "title": "Regional Organisations in World Politics",
+   "section": "Regional Organisations",
+   "definition": "Regional organisations are associations of states in a particular geographic region formed to promote economic cooperation, collective security, and political dialogue among members, such as ASEAN, the EU, SAARC, and the Arab League.",
+   "formula": "",
+   "key_idea": "Regional organisations have become important actors in world politics by promoting economic integration, managing regional conflicts, and providing a collective voice for their members in global affairs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are regional organisations and why are they formed?",
+    "Name some important regional organisations in the world.",
+    "How do regional organisations contribute to world politics?",
+    "What is the role of ASEAN and the EU as regional organisations?",
+    "What are the limitations of regional organisations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define regional organisations",
+     "explain": "Regional organisations are groupings of states in a geographic region that cooperate on economic, political, and security matters, such as ASEAN in Southeast Asia and the EU in Europe."
+    },
+    {
+     "step": 2,
+     "action": "Explain their contribution to world politics",
+     "explain": "They promote economic integration and trade, manage regional conflicts through dialogue, and give member states a collective voice and bargaining power in global affairs."
+    },
+    {
+     "step": 3,
+     "action": "Identify their limitations",
+     "explain": "Regional organisations often face internal divisions, lack of a common military, dependence on great powers, and differences among members that limit their effectiveness."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give two examples of regional organisations and their regions.",
+     "solution": "Step 1: Regional organisations exist in different parts of the world. Step 2: ASEAN is a regional organisation of Southeast Asian nations and the EU is one of European nations. Step 3: These are two major examples of regional organisations.",
+     "answer": "ASEAN (Southeast Asia) and the European Union (Europe)"
+    },
+    {
+     "question": "How do regional organisations contribute to world politics?",
+     "solution": "Step 1: They promote economic cooperation and integration among members. Step 2: They help manage regional conflicts through dialogue. Step 3: They provide a collective voice for members in global affairs.",
+     "answer": "By promoting economic integration, managing regional conflicts, and giving members a collective voice"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and significance of regional organisations in contemporary world politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the main limitations of regional organisations?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.2.8",
+   "title": "Shifting Balance of Power",
+   "section": "Shifting Balance of Power",
+   "definition": "The shifting balance of power refers to the ongoing redistribution of economic, military, and political power in the international system, with the rise of China and other Asian powers, the relative decline of Western dominance, and the emergence of a multipolar world order.",
+   "formula": "",
+   "key_idea": "The contemporary world is moving from a unipolar moment dominated by the US towards a multipolar order with several centres of power, reflecting the rise of Asia, the growth of regional organisations, and the relative decline of any single superpower.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the shifting balance of power?",
+    "How is the world moving towards multipolarity?",
+    "What role does the rise of China play in the shifting balance of power?",
+    "How has the relative position of the US changed in recent years?",
+    "Explain the implications of a multipolar world for international relations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the shifting balance of power",
+     "explain": "The shifting balance of power is the redistribution of global influence among states and regions, as new powers rise and established powers experience relative decline."
+    },
+    {
+     "step": 2,
+     "action": "Identify the drivers of the shift",
+     "explain": "The rise of China and India, the economic strength of the EU and Japan, the recovery of Russia, and the growth of regional organisations like ASEAN are driving the world towards multipolarity."
+    },
+    {
+     "step": 3,
+     "action": "Assess the implications",
+     "explain": "A multipolar world means no single power can dominate; international relations will involve more negotiation, coalition-building, and the growing importance of regional organisations and emerging powers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by the shifting balance of power?",
+     "solution": "Step 1: The balance of power refers to the distribution of influence among states. Step 2: It is shifting as new powers like China rise and established powers face relative decline. Step 3: This is the shifting balance of power.",
+     "answer": "The redistribution of global influence as new powers rise and established powers experience relative decline"
+    },
+    {
+     "question": "How is the world moving towards multipolarity?",
+     "solution": "Step 1: After the Cold War the US was the sole superpower. Step 2: The rise of China, the EU, Japan, Russia, and ASEAN has created multiple centres of power. Step 3: This is moving the world towards multipolarity.",
+     "answer": "Through the rise of China, the EU, Japan, Russia, and regional organisations creating multiple centres of power"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of the shifting balance of power and its implications for world politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the rise of China contribute to the shift towards multipolarity?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps102.txt",
+   "concept": "c12ps.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "How does a centre of power differ from a superpower?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A superpower has overwhelming global",
+     "explain": "A superpower has overwhelming global dominance in military, economic, and political terms."
+    },
+    {
+     "step": 2,
+     "action": "A centre of power has",
+     "explain": "A centre of power has substantial influence but not the same overwhelming dominance."
+    },
+    {
+     "step": 3,
+     "action": "Thus the EU and Japan",
+     "explain": "Thus the EU and Japan are centres of power but not superpowers."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps102.txt",
+   "concept": "c12ps.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "Name the major centres of power in the contemporary world.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "After the Cold War, power",
+     "explain": "After the Cold War, power became distributed among several actors."
+    },
+    {
+     "step": 2,
+     "action": "The US, EU, China, Japan",
+     "explain": "The US, EU, China, Japan, and Russia are major centres."
+    },
+    {
+     "step": 3,
+     "action": "Regional organisations like ASEAN also",
+     "explain": "Regional organisations like ASEAN also count as centres of power."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

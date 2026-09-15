@@ -1,0 +1,982 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 104,
+ "chapter_title": "Climate",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iess104.txt",
+ "concepts": [
+  {
+   "id": "iess.104.1.1",
+   "title": "Distinction Between Weather and Climate",
+   "section": "Climate",
+   "definition": "The aggregate of atmospheric variations recorded over a vast geographical expanse across several decades, contrasted with immediate local atmospheric states.",
+   "formula": "none",
+   "key_idea": "Climate reflects multi-decadal aggregate patterns while weather tracks momentary atmospheric fluctuations.",
+   "textbook_ref": "iess104.txt lines 13-35",
+   "question_patterns": [
+    "distinguish between weather and climate with suitable examples",
+    "state the main elements that define the weather of a region",
+    "explain how weather fluctuations differ from long term climatic trends",
+    "what is meant by the monsoon type of climate in South Asia",
+    "describe the regional variations in temperature and precipitation in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify time span and spatial scale",
+     "explain": "Weather describes atmospheric conditions at a specific moment over a small area, whereas climate covers thirty or more years over a wide territory."
+    },
+    {
+     "step": 2,
+     "action": "compare common atmospheric elements",
+     "explain": "Both share identical core variables: ambient temperature, barometric pressure, wind movement, moisture levels, and precipitation types."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.2.1",
+   "title": "Major Climatic Controls",
+   "section": "Climatic Controls",
+   "definition": "The set of six fundamental planetary and geographical mechanisms that determine the ambient thermal and precipitation conditions of any territory.",
+   "formula": "none",
+   "key_idea": "Atmospheric conditions are shaped by latitude, altitude, wind systems, ocean currents, relief barriers, and distance from the sea.",
+   "textbook_ref": "iess104.txt lines 70-105",
+   "question_patterns": [
+    "list the six major climatic controls of any place",
+    "explain how continentality causes extreme weather conditions",
+    "how does relief act as a barrier to rain-bearing winds",
+    "explain why temperatures drop with increasing altitude",
+    "what role do ocean currents and onshore winds play in coastal climates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate physical controls",
+     "explain": "The six controls are latitude, elevation above sea level, atmospheric pressure and wind regime, proximity to oceanic waters, ocean currents, and topographic relief."
+    },
+    {
+     "step": 2,
+     "action": "evaluate moderating versus continental effects",
+     "explain": "Coastal zones experience oceanic moderation with low temperature variance, whereas deep inland regions exhibit wide extremes between hot and cold periods."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.2.2",
+   "title": "Diurnal and Annual Temperature Range",
+   "section": "Climatic Controls",
+   "definition": "The numerical difference between the highest recorded thermal reading and the lowest recorded thermal reading over a single day or across twelve calendar months.",
+   "formula": "temp_range = max_temp - min_temp",
+   "key_idea": "Subtract the minimum temperature from the maximum temperature to obtain the thermal range.",
+   "textbook_ref": "iess104.txt lines 45-65",
+   "question_patterns": [
+    "calculate the diurnal range of temperature given the daytime maximum and nighttime minimum",
+    "find the annual temperature range from the hottest and coldest monthly temperatures",
+    "what is the difference between the maximum and minimum recorded temperature",
+    "determine the daily temperature range for a desert location",
+    "compute the thermal amplitude for a station with given extreme temperatures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify extreme temperature values",
+     "explain": "Assign the higher reading to max_temp and the lower reading to min_temp.",
+     "compute": "diff = max_temp - min_temp"
+    },
+    {
+     "step": 2,
+     "action": "output thermal range",
+     "explain": "The temperature range represents the magnitude of thermal fluctuation.",
+     "compute": "temp_range = diff"
+    }
+   ]
+  },
+  {
+   "id": "iess.104.3.1",
+   "title": "Factors Affecting India's Climate",
+   "section": "Factors Affecting India's Climate",
+   "definition": "The unique combination of the Tropic of Cancer, the northern Himalayan barrier, and upper atmospheric pressure dynamics that govern the subcontinent.",
+   "formula": "none",
+   "key_idea": "India exhibits both tropical and subtropical traits due to latitudinal division, high northern mountain barriers, and unique wind belts.",
+   "textbook_ref": "iess104.txt lines 106-160",
+   "question_patterns": [
+    "how does the Tropic of Cancer divide India into distinct climatic zones",
+    "explain the role of the Himalayas in protecting India from severe Central Asian cold",
+    "what atmospheric conditions govern India's weather and climate",
+    "how does the Coriolis force alter wind directions according to Ferrel's law",
+    "why would India have been an arid land without seasonal wind reversals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze latitudinal position and physical barriers",
+     "explain": "The Tropic of Cancer bisects the nation into tropical southern and subtropical northern zones, while the Himalayas shield the subcontinent from frigid polar air masses."
+    },
+    {
+     "step": 2,
+     "action": "apply Coriolis deflection",
+     "explain": "Planetary rotation deflects northward moving air masses to the right in the northern hemisphere, transforming dry trade winds during the seasonal shift."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.3.2",
+   "title": "Jet Streams and Western Cyclonic Disturbances",
+   "section": "Pressure and Winds",
+   "definition": "High-velocity narrow ribbons of upper-tropospheric westerly winds and the associated Mediterranean low-pressure systems bringing winter precipitation to northern India.",
+   "formula": "none",
+   "key_idea": "Subtropical westerly jet streams steer Mediterranean winter disturbances into northwest India, yielding vital rabi crop rainfall.",
+   "textbook_ref": "iess104.txt lines 161-205",
+   "question_patterns": [
+    "what are jet streams and where are they located over India",
+    "explain the origin and significance of western cyclonic disturbances",
+    "how do jet streams influence the winter weather of northwestern India",
+    "describe the role of the subtropical easterly jet stream during summer",
+    "why is the winter rainfall called mahawat economically crucial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define upper air jet streams",
+     "explain": "Jet streams are fast-moving westerly currents in the upper troposphere located between 27 and 30 degrees North latitude."
+    },
+    {
+     "step": 2,
+     "action": "trace winter cyclonic flow",
+     "explain": "Shallow depressions originating over the Mediterranean Sea travel eastwards with the westerly jet, creating light rainfall over northern plains and snowfall in the mountains."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.4.1",
+   "title": "Mechanism of the Indian Monsoon",
+   "section": "The Indian Monsoon",
+   "definition": "The thermodynamic and pressure interactions between differential land-sea heating, the shifting Inter Tropical Convergence Zone, Tibetan heating, and ENSO phenomena.",
+   "formula": "none",
+   "key_idea": "Monsoon circulation is driven by thermal contrasts, the northward migration of the ITCZ, southern Indian Ocean high pressure, and Southern Oscillations.",
+   "textbook_ref": "iess104.txt lines 215-280",
+   "question_patterns": [
+    "explain the role of differential heating of land and sea in causing monsoons",
+    "what is the Inter Tropical Convergence Zone and how does its shift affect rainfall",
+    "describe the Southern Oscillation and its connection to El Nino",
+    "how does the intense heating of the Tibetan plateau influence summer winds",
+    "what is the importance of the high-pressure area east of Madagascar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify thermal and trough shifts",
+     "explain": "Intense summer heating creates a deep low over northern India and the Tibetan plateau, pulling the ITCZ northward over the Ganga plain."
+    },
+    {
+     "step": 2,
+     "action": "correlate oceanic pressure cells and ENSO",
+     "explain": "A strong high-pressure cell east of Madagascar pushes moist maritime air across the equator, modulated by pressure variations between Tahiti and Darwin."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.5.1",
+   "title": "Onset and Withdrawal of the Monsoon",
+   "section": "The Onset of the Monsoon and Withdrawal",
+   "definition": "The pulsating progress of moisture-laden winds in two branches across India beginning in June, followed by their gradual retreat starting in September.",
+   "formula": "none",
+   "key_idea": "The monsoon bursts in early June dividing into Arabian Sea and Bay of Bengal branches, withdrawing progressively from northwest to south by December.",
+   "textbook_ref": "iess104.txt lines 281-335",
+   "question_patterns": [
+    "describe the arrival and burst of the southwest monsoon",
+    "differentiate between the Arabian Sea branch and the Bay of Bengal branch",
+    "trace the timeline of monsoon withdrawal from the Indian subcontinent",
+    "why do the Andaman and Nicobar islands receive the earliest monsoon showers",
+    "explain the merging of the two monsoon branches over the northern plains"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "track the dual advancing branches",
+     "explain": "The Arabian Sea branch strikes the Western Ghats and Mumbai while the Bay of Bengal branch sweeps into the northeast and deflects west along the Ganga plains."
+    },
+    {
+     "step": 2,
+     "action": "trace the retreat phase",
+     "explain": "The monsoon retreats gradually from the northwestern plains in early September, clearing the northern peninsula by mid-October and the south by December."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.6.1",
+   "title": "The Cold Weather Season (Winter)",
+   "section": "The Cold Weather Season (Winter)",
+   "definition": "The seasonal phase from mid-November to February characterized by dry northeast trade winds, clear skies, cold nights, and light cyclonic rainfall in the north.",
+   "formula": "none",
+   "key_idea": "Winter features prevailing offshore northeast winds, mild southern coastal temperatures, northern frost, and cyclonic mahawat rainfall.",
+   "textbook_ref": "iess104.txt lines 345-385",
+   "question_patterns": [
+    "describe the main characteristics of the cold weather season in India",
+    "why is winter mostly dry over the majority of the Indian landmass",
+    "why does the Tamil Nadu coast receive rainfall during the winter season",
+    "how does temperature vary from south to north during Indian winters",
+    "explain the significance of winter showers for rabi crops"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe prevailing wind systems and dryness",
+     "explain": "Northeast trade winds travel from land to ocean, keeping most of the subcontinent devoid of rain, except along the Coromandel coast where they pick up moisture."
+    },
+    {
+     "step": 2,
+     "action": "characterize temperature gradients and winter rains",
+     "explain": "Northern plains record low temperatures with frost, while western disturbances bring modest but valuable showers essential for wheat and other rabi cultivation."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.6.2",
+   "title": "The Hot Weather Season (Summer)",
+   "section": "The Hot Weather Season (Summer)",
+   "definition": "The summer period from March to May marked by escalating temperatures, shifting low-pressure troughs, dry gusty loo winds, and violent local convective storms.",
+   "formula": "none",
+   "key_idea": "The northward shift of solar radiation generates extreme heat, intense heat waves called loo, and convective storms like Kaal Baisakhi and Mango Showers.",
+   "textbook_ref": "iess104.txt lines 386-425",
+   "question_patterns": [
+    "what are the prominent features of the hot weather season in India",
+    "define loo and describe its impact on human health during summer",
+    "what is Kaal Baisakhi and in which region does it occur",
+    "explain the importance of mango showers in southern India",
+    "how does an elongated low pressure trough develop across northern India in May"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace temperature elevation and pressure trough",
+     "explain": "Apparent northward movement of the sun creates thermal maximums across the Deccan, central India, and northwest plains, establishing an elongated low-pressure trough."
+    },
+    {
+     "step": 2,
+     "action": "identify local wind and thunderstorm phenomena",
+     "explain": "Strong dry loo winds blow over northern India, while violent convective storms produce Kaal Baisakhi in Bengal and pre-monsoon mango showers in the south."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.6.3",
+   "title": "Advancing Monsoon and Breaks in Rainfall",
+   "section": "Advancing Monsoon (The Rainy Season)",
+   "definition": "The wet summer season from June to September delivering extensive rainfall interspersed with dry intervals caused by the shifting axis of the monsoon trough.",
+   "formula": "none",
+   "key_idea": "Southwest winds bring torrential rain to windward slopes and the northeast, with alternating wet and dry spells determined by trough axis oscillations.",
+   "textbook_ref": "iess104.txt lines 426-475",
+   "question_patterns": [
+    "what are the main characteristics of the advancing monsoon season",
+    "explain what is meant by breaks in monsoon rainfall",
+    "why does Mawsynram receive the highest average annual precipitation",
+    "how does the movement of the monsoon trough cause floods or droughts",
+    "why does rainfall decrease from east to west along the Ganga plains"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain spatial distribution of monsoon rainfall",
+     "explain": "Heavy orographic rainfall hits the windward Western Ghats and northeastern Khasi hills, while rainfall progressively diminishes inland toward the northwest."
+    },
+    {
+     "step": 2,
+     "action": "account for rainfall breaks",
+     "explain": "Fluctuations in the location of the monsoon trough axis create alternating periods of wet downpours over the plains and dry spells when the trough moves to the Himalayan foothills."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.6.4",
+   "title": "Retreating Monsoon and October Heat",
+   "section": "Retreating/Post Monsoons (The Transition Season)",
+   "definition": "The transitional weather in October and November when the southwest monsoon departs, bringing oppressive humidity, clear skies, and cyclonic storms to the east coast.",
+   "formula": "none",
+   "key_idea": "The withdrawal phase replaces the monsoon trough with high pressure, causing October heat and devastating coastal cyclones originating in the Andaman Sea.",
+   "textbook_ref": "iess104.txt lines 476-515",
+   "question_patterns": [
+    "explain the phenomenon of October heat during the post monsoon season",
+    "describe the weather conditions during the transition season of October-November",
+    "why are the eastern coastal deltas frequently hit by severe tropical cyclones",
+    "how does the low pressure area shift from northern India to the Bay of Bengal",
+    "what factors provide bulk rainfall to the Coromandel coast in late autumn"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain October heat conditions",
+     "explain": "High daytime temperatures combined with moist soil and high humidity under clear skies generate oppressive daytime weather termed October heat."
+    },
+    {
+     "step": 2,
+     "action": "describe cyclonic activity on the east coast",
+     "explain": "The shifting of low pressure to the Bay of Bengal spawns tropical cyclonic depressions over the Andaman Sea that strike the fertile deltas of Godavari, Krishna, and Kaveri."
+    }
+   ]
+  },
+  {
+   "id": "iess.104.7.1",
+   "title": "Calculation of Total Annual Precipitation",
+   "section": "Distribution of Rainfall",
+   "definition": "The cumulative depth of water delivered by all forms of atmospheric precipitation at a recording station over the twelve months of a calendar year.",
+   "formula": "annual_precipitation = sum_of_monthly_values",
+   "key_idea": "The annual rainfall total is the aggregate sum of all monthly precipitation amounts recorded at a station.",
+   "textbook_ref": "iess104.txt lines 516-545",
+   "question_patterns": [
+    "calculate the total annual rainfall for a station given twelve monthly amounts",
+    "find the cumulative annual precipitation from seasonal rainfall totals",
+    "compute the total rainfall received by combining summer and winter showers",
+    "what is the annual precipitation total for a given meteorological station",
+    "determine the total yearly rainfall from the provided station records"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "aggregate major seasonal precipitation components",
+     "explain": "Add the southwest monsoon rainfall and the remaining non-monsoon precipitation values.",
+     "compute": "total_rain = monsoon_rain + non_monsoon_rain"
+    },
+    {
+     "step": 2,
+     "action": "state annual precipitation",
+     "explain": "The combined sum gives the total annual rainfall depth in centimeters.",
+     "compute": "annual_precipitation = total_rain"
+    }
+   ]
+  },
+  {
+   "id": "iess.104.8.1",
+   "title": "Monsoon as a Unifying Bond",
+   "section": "Monsoon as a Unifying Bond",
+   "definition": "The holistic integrating role of the seasonal wind cycle in synchronizing agricultural schedules, river flows, ecosystems, and cultural life across India.",
+   "formula": "none",
+   "key_idea": "The monsoon binds diverse Indian regions into a single rhythmic agricultural and seasonal cycle despite significant regional variations.",
+   "textbook_ref": "iess104.txt lines 546-575",
+   "question_patterns": [
+    "why is the monsoon regarded as a unifying bond for the Indian subcontinent",
+    "how does the monsoon rhythm influence the agricultural calendar of India",
+    "explain how the arrival of monsoon winds unites diverse communities across the nation",
+    "describe the impact of monsoon uncertainties on Indian farmers",
+    "how do river valleys act as unified hydrological units under the monsoon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain ecological and agricultural synchronization",
+     "explain": "The seasonal arrival of monsoon rain initiates farming operations nationwide, governing planting cycles and recharging common river basins."
+    },
+    {
+     "step": 2,
+     "action": "highlight cultural and national integration",
+     "explain": "Festivals, folk traditions, and economic expectations throughout all states revolve around the shared anticipation of monsoon rainfall."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess104.txt lines 45-65",
+   "concept": "iess.104.2.2",
+   "question_type": "diurnal_range_calculation",
+   "question_pattern": "In a desert station, the daytime maximum temperature is {max_temp} degrees Celsius and drops to {min_temp} degrees Celsius at night. Calculate the diurnal range of temperature.",
+   "extracted_variables": {
+    "max_temp": 50,
+    "min_temp": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract night minimum from day maximum",
+     "explain": "Take the difference between maximum daytime reading and minimum nighttime reading.",
+     "compute": "diff = max_temp - min_temp"
+    },
+    {
+     "step": 2,
+     "action": "output thermal range",
+     "explain": "The diurnal range in temperature is obtained.",
+     "compute": "temp_range = diff"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess104.txt lines 45-65",
+   "concept": "iess.104.2.2",
+   "question_type": "annual_range_calculation",
+   "question_pattern": "For a northern plains station, the mean temperature of the hottest month is {max_temp} degrees Celsius and that of the coldest month is {min_temp} degrees Celsius. Find the annual range of temperature.",
+   "extracted_variables": {
+    "max_temp": 33.3,
+    "min_temp": 14.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract coldest monthly mean from hottest monthly mean",
+     "explain": "Find the difference between highest and lowest monthly average temperatures.",
+     "compute": "diff = max_temp - min_temp"
+    },
+    {
+     "step": 2,
+     "action": "output annual thermal range",
+     "explain": "The annual range of temperature is determined.",
+     "compute": "temp_range = diff"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess104.txt Table I",
+   "concept": "iess.104.7.1",
+   "question_type": "annual_precipitation_calculation",
+   "question_pattern": "A meteorological station records {monsoon_rain} cm of rainfall during the monsoon months and {non_monsoon_rain} cm during the remaining months. Calculate the total annual precipitation.",
+   "extracted_variables": {
+    "monsoon_rain": 149.4,
+    "non_monsoon_rain": 34.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum seasonal precipitation components",
+     "explain": "Add the monsoon rainfall to the non-monsoon precipitation.",
+     "compute": "total_rain = monsoon_rain + non_monsoon_rain"
+    },
+    {
+     "step": 2,
+     "action": "state annual precipitation",
+     "explain": "The resulting total represents annual precipitation.",
+     "compute": "annual_precipitation = total_rain"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess104.txt Table I",
+   "concept": "iess.104.7.1",
+   "question_type": "annual_precipitation_calculation",
+   "question_pattern": "In a semi-arid zone, the summer monsoon yields {monsoon_rain} cm of rain and winter depressions contribute {non_monsoon_rain} cm. Compute the total annual rainfall.",
+   "extracted_variables": {
+    "monsoon_rain": 32.7,
+    "non_monsoon_rain": 3.9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum seasonal precipitation components",
+     "explain": "Combine summer and winter precipitation values.",
+     "compute": "total_rain = monsoon_rain + non_monsoon_rain"
+    },
+    {
+     "step": 2,
+     "action": "state annual precipitation",
+     "explain": "Output the cumulative yearly rainfall depth.",
+     "compute": "annual_precipitation = total_rain"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "distinguish between weather and climate with suitable examples",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify time span and spatial scale",
+     "explain": "Weather describes atmospheric conditions at a specific moment over a small area, whereas climate covers thirty or more years over a wide territory."
+    },
+    {
+     "step": 2,
+     "action": "compare common atmospheric elements",
+     "explain": "Both share identical core variables: ambient temperature, barometric pressure, wind movement, moisture levels, and precipitation types."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "state the main elements that define the weather of a region",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify time span and spatial scale",
+     "explain": "Weather describes atmospheric conditions at a specific moment over a small area, whereas climate covers thirty or more years over a wide territory."
+    },
+    {
+     "step": 2,
+     "action": "compare common atmospheric elements",
+     "explain": "Both share identical core variables: ambient temperature, barometric pressure, wind movement, moisture levels, and precipitation types."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "list the six major climatic controls of any place",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "enumerate physical controls",
+     "explain": "The six controls are latitude, elevation above sea level, atmospheric pressure and wind regime, proximity to oceanic waters, ocean currents, and topographic relief."
+    },
+    {
+     "step": 2,
+     "action": "evaluate moderating versus continental effects",
+     "explain": "Coastal zones experience oceanic moderation with low temperature variance, whereas deep inland regions exhibit wide extremes between hot and cold periods."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain how continentality causes extreme weather conditions",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "enumerate physical controls",
+     "explain": "The six controls are latitude, elevation above sea level, atmospheric pressure and wind regime, proximity to oceanic waters, ocean currents, and topographic relief."
+    },
+    {
+     "step": 2,
+     "action": "evaluate moderating versus continental effects",
+     "explain": "Coastal zones experience oceanic moderation with low temperature variance, whereas deep inland regions exhibit wide extremes between hot and cold periods."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "how does the Tropic of Cancer divide India into distinct climatic zones",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze latitudinal position and physical barriers",
+     "explain": "The Tropic of Cancer bisects the nation into tropical southern and subtropical northern zones, while the Himalayas shield the subcontinent from frigid polar air masses."
+    },
+    {
+     "step": 2,
+     "action": "apply Coriolis deflection",
+     "explain": "Planetary rotation deflects northward moving air masses to the right in the northern hemisphere, transforming dry trade winds during the seasonal shift."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the role of the Himalayas in protecting India from severe Central Asian cold",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze latitudinal position and physical barriers",
+     "explain": "The Tropic of Cancer bisects the nation into tropical southern and subtropical northern zones, while the Himalayas shield the subcontinent from frigid polar air masses."
+    },
+    {
+     "step": 2,
+     "action": "apply Coriolis deflection",
+     "explain": "Planetary rotation deflects northward moving air masses to the right in the northern hemisphere, transforming dry trade winds during the seasonal shift."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "what are jet streams and where are they located over India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define upper air jet streams",
+     "explain": "Jet streams are fast-moving westerly currents in the upper troposphere located between 27 and 30 degrees North latitude."
+    },
+    {
+     "step": 2,
+     "action": "trace winter cyclonic flow",
+     "explain": "Shallow depressions originating over the Mediterranean Sea travel eastwards with the westerly jet, creating light rainfall over northern plains and snowfall in the mountains."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain the origin and significance of western cyclonic disturbances",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define upper air jet streams",
+     "explain": "Jet streams are fast-moving westerly currents in the upper troposphere located between 27 and 30 degrees North latitude."
+    },
+    {
+     "step": 2,
+     "action": "trace winter cyclonic flow",
+     "explain": "Shallow depressions originating over the Mediterranean Sea travel eastwards with the westerly jet, creating light rainfall over northern plains and snowfall in the mountains."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the role of differential heating of land and sea in causing monsoons",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify thermal and trough shifts",
+     "explain": "Intense summer heating creates a deep low over northern India and the Tibetan plateau, pulling the ITCZ northward over the Ganga plain."
+    },
+    {
+     "step": 2,
+     "action": "correlate oceanic pressure cells and ENSO",
+     "explain": "A strong high-pressure cell east of Madagascar pushes moist maritime air across the equator, modulated by pressure variations between Tahiti and Darwin."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "what is the Inter Tropical Convergence Zone and how does its shift affect rainfall",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify thermal and trough shifts",
+     "explain": "Intense summer heating creates a deep low over northern India and the Tibetan plateau, pulling the ITCZ northward over the Ganga plain."
+    },
+    {
+     "step": 2,
+     "action": "correlate oceanic pressure cells and ENSO",
+     "explain": "A strong high-pressure cell east of Madagascar pushes moist maritime air across the equator, modulated by pressure variations between Tahiti and Darwin."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "describe the arrival and burst of the southwest monsoon",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "track the dual advancing branches",
+     "explain": "The Arabian Sea branch strikes the Western Ghats and Mumbai while the Bay of Bengal branch sweeps into the northeast and deflects west along the Ganga plains."
+    },
+    {
+     "step": 2,
+     "action": "trace the retreat phase",
+     "explain": "The monsoon retreats gradually from the northwestern plains in early September, clearing the northern peninsula by mid-October and the south by December."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "differentiate between the Arabian Sea branch and the Bay of Bengal branch",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "track the dual advancing branches",
+     "explain": "The Arabian Sea branch strikes the Western Ghats and Mumbai while the Bay of Bengal branch sweeps into the northeast and deflects west along the Ganga plains."
+    },
+    {
+     "step": 2,
+     "action": "trace the retreat phase",
+     "explain": "The monsoon retreats gradually from the northwestern plains in early September, clearing the northern peninsula by mid-October and the south by December."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "describe the main characteristics of the cold weather season in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe prevailing wind systems and dryness",
+     "explain": "Northeast trade winds travel from land to ocean, keeping most of the subcontinent devoid of rain, except along the Coromandel coast where they pick up moisture."
+    },
+    {
+     "step": 2,
+     "action": "characterize temperature gradients and winter rains",
+     "explain": "Northern plains record low temperatures with frost, while western disturbances bring modest but valuable showers essential for wheat and other rabi cultivation."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "why is winter mostly dry over the majority of the Indian landmass",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe prevailing wind systems and dryness",
+     "explain": "Northeast trade winds travel from land to ocean, keeping most of the subcontinent devoid of rain, except along the Coromandel coast where they pick up moisture."
+    },
+    {
+     "step": 2,
+     "action": "characterize temperature gradients and winter rains",
+     "explain": "Northern plains record low temperatures with frost, while western disturbances bring modest but valuable showers essential for wheat and other rabi cultivation."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "what are the prominent features of the hot weather season in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace temperature elevation and pressure trough",
+     "explain": "Apparent northward movement of the sun creates thermal maximums across the Deccan, central India, and northwest plains, establishing an elongated low-pressure trough."
+    },
+    {
+     "step": 2,
+     "action": "identify local wind and thunderstorm phenomena",
+     "explain": "Strong dry loo winds blow over northern India, while violent convective storms produce Kaal Baisakhi in Bengal and pre-monsoon mango showers in the south."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "define loo and describe its impact on human health during summer",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace temperature elevation and pressure trough",
+     "explain": "Apparent northward movement of the sun creates thermal maximums across the Deccan, central India, and northwest plains, establishing an elongated low-pressure trough."
+    },
+    {
+     "step": 2,
+     "action": "identify local wind and thunderstorm phenomena",
+     "explain": "Strong dry loo winds blow over northern India, while violent convective storms produce Kaal Baisakhi in Bengal and pre-monsoon mango showers in the south."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.3",
+   "question_type": "verify_property",
+   "question_pattern": "what are the main characteristics of the advancing monsoon season",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain spatial distribution of monsoon rainfall",
+     "explain": "Heavy orographic rainfall hits the windward Western Ghats and northeastern Khasi hills, while rainfall progressively diminishes inland toward the northwest."
+    },
+    {
+     "step": 2,
+     "action": "account for rainfall breaks",
+     "explain": "Fluctuations in the location of the monsoon trough axis create alternating periods of wet downpours over the plains and dry spells when the trough moves to the Himalayan foothills."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain what is meant by breaks in monsoon rainfall",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain spatial distribution of monsoon rainfall",
+     "explain": "Heavy orographic rainfall hits the windward Western Ghats and northeastern Khasi hills, while rainfall progressively diminishes inland toward the northwest."
+    },
+    {
+     "step": 2,
+     "action": "account for rainfall breaks",
+     "explain": "Fluctuations in the location of the monsoon trough axis create alternating periods of wet downpours over the plains and dry spells when the trough moves to the Himalayan foothills."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.4",
+   "question_type": "verify_property",
+   "question_pattern": "explain the phenomenon of October heat during the post monsoon season",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain October heat conditions",
+     "explain": "High daytime temperatures combined with moist soil and high humidity under clear skies generate oppressive daytime weather termed October heat."
+    },
+    {
+     "step": 2,
+     "action": "describe cyclonic activity on the east coast",
+     "explain": "The shifting of low pressure to the Bay of Bengal spawns tropical cyclonic depressions over the Andaman Sea that strike the fertile deltas of Godavari, Krishna, and Kaveri."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.6.4",
+   "question_type": "verify_property",
+   "question_pattern": "describe the weather conditions during the transition season of October-November",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain October heat conditions",
+     "explain": "High daytime temperatures combined with moist soil and high humidity under clear skies generate oppressive daytime weather termed October heat."
+    },
+    {
+     "step": 2,
+     "action": "describe cyclonic activity on the east coast",
+     "explain": "The shifting of low pressure to the Bay of Bengal spawns tropical cyclonic depressions over the Andaman Sea that strike the fertile deltas of Godavari, Krishna, and Kaveri."
+    }
+   ]
+  },
+  {
+   "id": "ex25",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.8.1",
+   "question_type": "verify_property",
+   "question_pattern": "why is the monsoon regarded as a unifying bond for the Indian subcontinent",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain ecological and agricultural synchronization",
+     "explain": "The seasonal arrival of monsoon rain initiates farming operations nationwide, governing planting cycles and recharging common river basins."
+    },
+    {
+     "step": 2,
+     "action": "highlight cultural and national integration",
+     "explain": "Festivals, folk traditions, and economic expectations throughout all states revolve around the shared anticipation of monsoon rainfall."
+    }
+   ]
+  },
+  {
+   "id": "ex26",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.104.8.1",
+   "question_type": "verify_property",
+   "question_pattern": "how does the monsoon rhythm influence the agricultural calendar of India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain ecological and agricultural synchronization",
+     "explain": "The seasonal arrival of monsoon rain initiates farming operations nationwide, governing planting cycles and recharging common river basins."
+    },
+    {
+     "step": 2,
+     "action": "highlight cultural and national integration",
+     "explain": "Festivals, folk traditions, and economic expectations throughout all states revolve around the shared anticipation of monsoon rainfall."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex104.1",
+   "source_ref": "iess104.txt lines 578-598",
+   "questions": [
+    "Which one of the following places receives the highest rainfall in the world: (a) Silchar, (b) Mawsynram, (c) Cherrapunji, (d) Guwahati?",
+    "The wind blowing in the northern plains in summers is known as: (a) Kaal Baisakhi, (b) Loo, (c) Trade Winds, (d) None of the above?",
+    "Which one of the following causes rainfall during winters in north-western part of India: (a) Cyclonic depression, (b) Retreating monsoon, (c) Western disturbances, (d) Southwest monsoon?",
+    "Monsoon arrives in India approximately in: (a) Early May, (b) Early July, (c) Early June, (d) Early August?",
+    "Which one of the following characterises the cold weather season in India: (a) Warm days and warm nights, (b) Warm days and cold nights, (c) Cool days and cold nights, (d) Cold days and warm nights?"
+   ]
+  },
+  {
+   "id": "ex104.2",
+   "source_ref": "iess104.txt lines 599-610",
+   "questions": [
+    "What are the controls affecting the climate of India?",
+    "Why does India have a monsoon type of climate?",
+    "Which part of India does experience the highest diurnal range of temperature and why?",
+    "Which winds account for rainfall along the Malabar coast?",
+    "What are Jet streams and how do they affect the climate of India?",
+    "Define monsoons. What do you understand by 'break' in monsoon?",
+    "Why is the monsoon considered a unifying bond?"
+   ]
+  },
+  {
+   "id": "ex104.3",
+   "source_ref": "iess104.txt lines 611-625",
+   "questions": [
+    "Why does the rainfall decrease from the east to the west in Northern India?",
+    "Give reasons why seasonal reversal of wind direction takes place over the Indian subcontinent.",
+    "Give reasons why the bulk of rainfall in India is concentrated over a few months.",
+    "Give reasons why the Tamil Nadu coast receives winter rainfall.",
+    "Give reasons why the delta region of the eastern coast is frequently struck by cyclones.",
+    "Give reasons why parts of Rajasthan, Gujarat and the leeward side of the Western Ghats are drought-prone."
+   ]
+  },
+  {
+   "id": "ex104.4",
+   "source_ref": "iess104.txt lines 626-640",
+   "questions": [
+    "Describe the regional variations in the climatic conditions of India with the help of suitable examples.",
+    "Discuss the mechanism of monsoons.",
+    "Give an account of weather conditions and characteristics of the cold season.",
+    "Give the characteristics and effects of the monsoon rainfall in India."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

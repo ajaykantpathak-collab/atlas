@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_011",
+   "title": "c11_chem_cbse_01_011",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the combustion of propane (C₃H₈) in excess oxygen. State the physical states of all species.",
+     "a": "C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l or g). A wrong answer (e.g., C₃H₈ + 4O₂ → 3CO₂ + 4H₂O) reveals the student balanced C and H but forgot to recount O atoms on the product side (3×2 + 4×1 = 10 O atoms needed, requiring 5 O₂). This shows a mechanical balancing approach without verifying atom conservation for every element.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction N₂(g) + 3H₂(g) → 2NH₃(g), a student claims \"1 gram of N₂ reacts with 3 grams of H₂\". Explain why this is incorrect and state the correct mass relationship.",
+     "a": "The coefficients represent mole ratios, not mass ratios. 1 mol N₂ (28 g) reacts with 3 mol H₂ (6 g), so the correct mass ratio is 28 g N₂ : 6 g H₂ (or 14:3). A student giving the 1:3 mass ratio confuses stoichiometric coefficients with mass proportions, ignoring molar masses – a classic Class 11 error when transitioning from Class 10's \"balancing by inspection\" to quantitative stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the mass of CO₂ produced when 22 g of propane (C₃H₈) undergoes complete combustion. (Molar masses: C₃H₈ = 44 g/mol, CO₂ = 44 g/mol)",
+     "a": "Step 1: Balance equation: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nStep 2: Moles of C₃H₈ = 22 g / 44 g/mol = 0.5 mol.\nStep 3: Mole ratio C₃H₈:CO₂ = 1:3 → moles CO₂ = 0.5 × 3 = 1.5 mol.\nStep 4: Mass CO₂ = 1.5 mol × 44 g/mol = 66 g.\nA wrong answer of 22 g (using 1:1 mass ratio) or 132 g (using 1:3 mole ratio but forgetting molar mass of CO₂) reveals confusion between mole ratios and mass ratios, or incorrect molar mass usage.",
+     "self_check": true
+    },
+    {
+     "q": "Two students balance the reaction: Fe(s) + H₂O(g) → Fe₃O₄(s) + H₂(g). Student A writes: 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Student B writes: 3Fe + 4H₂O → Fe₃O₄ + 8H₂. Analyze both equations and identify which (if either) is correctly balanced.",
+     "a": "Student A is correct. Verification: Fe: 3 on both sides; O: 4 on left (4×H₂O), 4 on right (Fe₃O₄); H: 8 on left (4×2), 8 on right (4×H₂). Student B has 16 H on right (8×H₂) but only 8 on left – hydrogen is not conserved. A student choosing B typically balances Fe and O correctly but doubles H₂ incorrectly, treating H₂ as \"H\" atoms rather than H₂ molecules. This reveals a fundamental misunderstanding of diatomic molecular formulas.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction 2Al(s) + 3Cl₂(g) → 2AlCl₃(s), 5.4 g Al and 21.3 g Cl₂ are mixed. Evaluate which reactant is limiting and calculate the theoretical yield of AlCl₃ in grams. (Molar masses: Al = 27, Cl₂ = 71, AlCl₃ = 133.5 g/mol)",
+     "a": "Moles Al = 5.4/27 = 0.2 mol. Moles Cl₂ = 21.3/71 = 0.3 mol.\nRequired Cl₂ for 0.2 mol Al = 0.2 × (3/2) = 0.3 mol. Available Cl₂ = 0.3 mol → exactly stoichiometric, neither is limiting (or both are limiting).\nTheoretical yield AlCl₃ = 0.2 mol Al × (2 mol AlCl₃/2 mol Al) × 133.5 g/mol = 26.7 g.\nA student declaring Al as limiting because \"5.4 g < 21.3 g\" compares masses directly instead of converting to moles and using stoichiometric ratios – the core misconception this node addresses.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment using baking soda (NaHCO₃) and vinegar (CH₃COOH) to demonstrate the concept of limiting reagent. Write the balanced equation and explain how you would identify which reactant is limiting.",
+     "a": "Equation: NaHCO₃(s) + CH₃COOH(aq) → CH₃COONa(aq) + H₂O(l) + CO₂(g).\nProcedure: Take fixed vinegar volume (e.g., 50 mL of 1 M CH₃COOH = 0.05 mol). Add increasing amounts of NaHCO₃ (2 g, 4 g, 6 g, 8 g). Measure CO₂ volume (balloon displacement or gas syringe). CO₂ volume increases until NaHCO₃ exceeds 0.05 mol (4.2 g), then plateaus. The plateau identifies CH₃COOH as limiting. A poor answer uses only one mass of NaHCO₃ (no variation), showing inability to design a controlled variable experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

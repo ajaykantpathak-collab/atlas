@@ -1,0 +1,137 @@
+{
+ "catalog": "catalog_class8_science_hecu112.json",
+ "concepts": [
+  {
+   "id": "hecu.112.12.1",
+   "title": "Sensing and Responding to the Environment",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do animals sense and respond to their surroundings?",
+     "a": "Through sense organs and nervous or hormonal systems - dogs hear better, we react to hot stoves instantly.",
+     "self_check": true
+    },
+    {
+     "q": "How do plants respond to the environment without nerves?",
+     "a": "By slow growth movements (toward light) and quick turgor changes (mimosa leaves).",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of an animal responding to danger.",
+     "a": "A deer flees on hearing a sound; a snail pulls into its shell when touched.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.112.12.2",
+   "title": "Living Together: Populations and Communities",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a population in ecology?",
+     "a": "All the members of one species living in an area - e.g. all deer of a forest.",
+     "self_check": true
+    },
+    {
+     "q": "What is a community?",
+     "a": "Different populations of plants and animals living together in one area.",
+     "self_check": true
+    },
+    {
+     "q": "How are populations and communities linked to an ecosystem?",
+     "a": "Communities plus their physical surroundings work together as an ecosystem.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.112.12.3",
+   "title": "Interactions Among Organisms",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Give one example each of cooperation and competition among organisms.",
+     "a": "Cooperation: ants working in a colony. Competition: lions and hyenas hunting the same prey.",
+     "self_check": true
+    },
+    {
+     "q": "What is predation?",
+     "a": "One organism killing and eating another - the predator-prey link keeps populations in check.",
+     "self_check": true
+    },
+    {
+     "q": "How do parasites differ from predators?",
+     "a": "Parasites live on/in a host and take food slowly without killing at once; predators kill their prey.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.112.12.4",
+   "title": "Food Chains and Food Webs",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a food chain?",
+     "a": "A line of who eats whom - grass -> deer -> tiger - passing energy from producers to consumers.",
+     "self_check": true
+    },
+    {
+     "q": "What is a food web?",
+     "a": "Many linked food chains in an ecosystem, since most animals eat several foods.",
+     "self_check": true
+    },
+    {
+     "q": "Why can food chains not go on forever?",
+     "a": "Only 10% of energy passes to each level, so after 3-4 links too little energy remains.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.112.12.5",
+   "title": "Decomposers and the Balance of Nature",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What do decomposers do?",
+     "a": "They break down dead plants, animals and waste into simple soil nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Name two decomposers.",
+     "a": "Bacteria and fungi (mushrooms, moulds).",
+     "self_check": true
+    },
+    {
+     "q": "What would happen if decomposers vanished?",
+     "a": "Dead matter would pile up, nutrients would not return to soil, and life would slowly fail.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.112.12.6",
+   "title": "Ecosystems and Their Benefits",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an ecosystem?",
+     "a": "All living things of an area together with their non-living surroundings, interacting as one system.",
+     "self_check": true
+    },
+    {
+     "q": "Name two natural and two man-made ecosystems.",
+     "a": "Natural: forest, pond. Man-made: aquarium, crop field.",
+     "self_check": true
+    },
+    {
+     "q": "How do ecosystems benefit humans?",
+     "a": "They give food, water, oxygen, timber, medicines and regulate climate and floods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

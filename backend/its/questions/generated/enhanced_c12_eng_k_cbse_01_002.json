@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_01_002",
+   "title": "c12_eng_k_cbse_01_002",
+   "questions": [
+    {
+     "q": "What is the framing device in \"I Sell My Dreams,\" and which event serves as the outer frame that opens and closes the narrative?",
+     "a": "The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the hotel wall, revealing a dead woman with a serpent ring. This event opens the story (paragraph 1) and closes it (final paragraphs where the narrator questions the Portuguese ambassador). A wrong answer (e.g., \"the Vienna flashback\" or \"the Barcelona meeting\") reveals the student confuses the frame with the embedded narratives, missing how the frame controls the story's boundaries and thematic focus on memory/revelation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the narrative shifts from the Havana frame to the first flashback (Vienna). What textual trigger initiates this shift?",
+     "a": "The shift is triggered by the narrator recognizing the serpent ring on the dead woman's finger, which recalls an identical ring worn by Frau Frieda in Vienna 34 years earlier. The text moves from present-tense disaster description to past-tense recollection: \"This was a crucial piece of information, because I feared she was an unforgettable woman whose real name I never knew...\" A wrong answer (e.g., \"the narrator decides to tell a story\" or \"a character starts speaking\") shows the student misses the associative memory trigger — the ring as a structural hinge — and treats flashbacks as arbitrary rather than motivated by the narrator's consciousness.",
+     "self_check": true
+    },
+    {
+     "q": "The story contains two major flashbacks (Vienna and Barcelona). Apply the concept of \"nested narratives\" to diagram the structural hierarchy: which flashback is embedded within which, and what is the chronological order of the three narrative layers (frame, flashback 1, flashback 2)?",
+     "a": "Structural hierarchy (narrative order): \n1. Outer frame: Havana disaster (present, ~1970s) \n2. First flashback: Vienna (1930s, 34 years earlier) \n3. Second flashback: Barcelona (embedded within Vienna flashback, occurs 13 years after Vienna, so ~1940s) \n4. Return to frame: Havana investigation (present). \nChronological order: Vienna (1930s) → Barcelona (1940s) → Havana (1970s). \nA wrong answer that lists Barcelona before Vienna or treats them as parallel rather than nested reveals the student cannot track the story's Russian-doll structure — the Barcelona episode is recounted *during* the Vienna reminiscence, not as a separate leap from the frame.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the narrative structure controls the reader's knowledge about Frau Frieda's \"dreams.\" Compare what we learn in the Vienna section versus the Barcelona section, and explain how the delayed revelation in the Havana frame changes our interpretation of both.",
+     "a": "In Vienna, we see Frau Frieda's dreams *from inside* the household — they appear authoritative, even life-saving (the caramel incident), and the narrator accepts their power. In Barcelona, we see them *from outside* through Neruda's skepticism (\"Only poetry is clairvoyant\") and the narrator's own admission: \"I had always thought her dreams were no more than a stratagem for surviving.\" The Havana frame then reveals she died a mundane death (car crash) while working as a housekeeper — not a powerful oracle. The structure withholds this mundane reality until the end, forcing us to re-read the earlier sections as possibly self-deception. A wrong answer that treats all three sections as equally \"true\" accounts misses the structural irony: the frame's final revelation retroactively undermines the flashbacks' apparent validation of her gift.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Marquez's decision to place the Neruda episode (Barcelona) *inside* the Vienna flashback rather than as a separate flashback from the Havana frame. What thematic purpose does this nesting serve?",
+     "a": "Nesting Barcelona inside Vienna creates a dialogue between the narrator's youthful belief (Vienna) and his mature skepticism (Barcelona), both mediated through memory. It shows the narrator *testing* his earlier certainty against a rationalist icon (Neruda) while still in the act of remembering. If Barcelona were a separate flashback from Havana, it would suggest the narrator's skepticism came later; embedding it proves he harbored doubts even during the Vienna period (\"I told her so\" about the stratagem). This structure reinforces the theme: rationality and superstition coexist in the same consciousness. A wrong answer focusing only on \"variety\" or \"chronology\" misses the psychological depth — the nesting mimics how we re-examine past beliefs while recalling them.",
+     "self_check": true
+    },
+    {
+     "q": "Create a visual timeline (describe it in words) that maps the story's *chronological events* alongside its *narrative presentation order*. Include at least 6 key events: Frau Frieda's childhood dream, Vienna employment, narrator's flight to Rome, Barcelona meeting, Havana disaster, ambassador conversation.",
+     "a": "Chronological timeline (with approximate dates):\n1. ~1920s: Frau Frieda's childhood dream (brother/caramel) in Caldas, Colombia.\n2. ~1930s: Frau Frieda works for Viennese family; narrator meets her; she dreams of him; he flees to Rome.\n3. ~1940s (13 years later): Barcelona meeting with Neruda; Frau Frieda reveals she \"took over the fortune\"; narrator refuses to return to Vienna.\n4. ~1970s: Havana Riviera Hotel wave disaster; woman with serpent ring dies.\n5. Months later: Narrator questions Portuguese ambassador; learns \"she dreamed\" was her only role.\n\nNarrative presentation order:\n1. Havana disaster (present)\n2. Vienna flashback (includes childhood dream, employment, narrator's flight)\n3. Barcelona flashback (nested within Vienna memory)\n4. Return to Havana frame (ambassador conversation)\n\nA poor answer that lists events only in narrative order or only in chronological order fails to demonstrate the core structural tension: the story *starts* with the end (death) and *ends* with the mundane truth (\"she dreamed\"), sandwiching the mysterious middle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

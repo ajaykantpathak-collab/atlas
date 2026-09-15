@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_001",
+   "title": "c10_phy_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the two laws of reflection. For the second law, name the three elements that must lie in the same plane.",
+     "a": "Correct answer: (1) The angle of incidence equals the angle of reflection (∠i = ∠r). (2) The incident ray, the reflected ray, and the normal to the surface at the point of incidence all lie in the same plane (called the plane of incidence). A wrong answer reveals if the student omits the normal in the second law (common error: listing only incident and reflected rays) or confuses the plane of incidence with the plane of the mirror surface.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light strikes a plane mirror at an angle of 30° to the mirror surface. What is the angle of reflection? Explain why the answer is NOT 30°.",
+     "a": "Correct answer: The angle of incidence is measured from the normal, not the surface. Angle to surface = 30° → angle to normal = 60°. So ∠i = 60°, and by law of reflection ∠r = 60°. A wrong answer of 30° reveals the persistent misconception that angles are measured from the mirror surface instead of the normal. This error propagates to all subsequent ray diagrams and numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "An incident ray makes an angle of 40° with the normal on a convex mirror. The reflected ray is observed to make an angle of 50° with the normal. A student claims this violates the laws of reflection. Evaluate the student's claim and explain the correct reasoning.",
+     "a": "Correct answer: The student's claim is correct — this violates the first law of reflection (∠i must equal ∠r). For a convex mirror (or any mirror), ∠i = ∠r always holds at the point of incidence. The given angles (40° and 50°) are unequal, so such a reflection cannot occur. A wrong evaluation (e.g., saying convex mirrors don't follow the laws) reveals the misconception that laws of reflection are only for plane mirrors.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a ray diagram showing an incident ray striking a concave mirror at a point P not on the principal axis. Draw the normal at P, the reflected ray, and label the centre of curvature C. Explain why the normal at P must pass through C.",
+     "a": "Correct answer: The normal at any point on a spherical mirror is the line joining that point to the centre of curvature C (radius is perpendicular to tangent). The diagram should show: incident ray, normal PC, reflected ray such that ∠i = ∠r, all in the same plane. A wrong diagram where the normal is drawn perpendicular to the principal axis instead of passing through C reveals confusion between the normal at the pole (which is the principal axis) and the normal at an arbitrary point.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment to verify the laws of reflection using a plane mirror and pins, a student observes that the reflected ray does not lie exactly in the plane of the incident ray and normal. List three possible experimental errors that could cause this, and for each, suggest a correction.",
+     "a": "Correct answer: (1) Pins not vertical → ensures pins are perpendicular to the paper using a set square. (2) Mirror not perfectly vertical/planar → use a front-surface mirror or ensure the reflecting surface is flush with the paper. (3) Parallax error in aligning pins → view from directly above to remove parallax. A poor answer lists vague errors like \"human error\" without specific optical causes, showing lack of experimental understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a laser pointer, a protractor, and a plane mirror to quantitatively verify that ∠i = ∠r for at least three different angles of incidence. Describe how you will ensure the plane of incidence is maintained and how you will record data.",
+     "a": "Expected answer: Fix the mirror vertically on a sheet of paper. Draw a normal line. For each trial, direct the laser at a chosen angle to the normal (measure with protractor). Mark the incident ray path (two points on paper) and the reflected ray path (two points). Join points to draw rays. Measure ∠r. Repeat for 3 angles (e.g., 20°, 40°, 60°). To ensure coplanarity, keep the laser beam and reflected beam on the paper plane (use a low-power laser and a flat table). Record in a table: ∠i (measured), ∠r (measured), difference. A poor answer omits the method to keep rays in one plane or doesn't mention repeating for multiple angles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

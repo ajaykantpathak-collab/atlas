@@ -1,0 +1,156 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 102,
+ "chapter_title": "Structure of Atom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech102.txt",
+ "concepts": [
+  {
+   "id": "kech.102.1.1",
+   "title": "Subatomic Particles and Atomic Models",
+   "section": "Structure of atom",
+   "definition": "The atom contains electrons, protons and neutrons; Thomson, Rutherford and Bohr models progressively explained atomic structure, and Rutherford's scattering experiment established a tiny dense nucleus with electrons around it.",
+   "formula": "",
+   "key_idea": "Bohr's model postulates quantised orbits with angular momentum mvr equal to nh over two pi, explaining the stability of the atom and hydrogen spectra.",
+   "textbook_ref": "kech102.txt atomic models sections",
+   "question_patterns": [
+    "describe the rutherford scattering experiment and its conclusions",
+    "state the postulates of bohr's model of the atom",
+    "name the subatomic particles with their discoverers",
+    "define atomic number and mass number",
+    "what are isobars and isotopes with examples",
+    "why was the rutherford model unable to explain atomic stability"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the experiment",
+     "explain": "Note observations of alpha scattering by gold foil."
+    },
+    {
+     "step": 2,
+     "action": "match the model",
+     "explain": "Attach each postulate to Thomson, Rutherford or Bohr."
+    },
+    {
+     "step": 3,
+     "action": "state the limitation",
+     "explain": "Point out what each model could not explain."
+    }
+   ]
+  },
+  {
+   "id": "kech.102.2.1",
+   "title": "Electromagnetic Radiation: Wavelength, Frequency and Wave Number",
+   "section": "Dual behaviour of electromagnetic radiation",
+   "definition": "Electromagnetic radiation shows wave properties with wavelength, frequency, wavenumber and speed related by c equal to nu times lambda, where wavenumber is the reciprocal of wavelength and the two differ inversely.",
+   "formula": "wavenumber = 1 / wavelength",
+   "key_idea": "The spectrum ranges from radio to gamma regions, and Planck's quantum theory gives energy as h times frequency for each quantum.",
+   "textbook_ref": "kech102.txt electromagnetic radiation section",
+   "question_patterns": [
+    "define wavelength frequency and wavenumber",
+    "calculate wavenumber from the wavelength of radiation",
+    "state planck's quantum theory of radiation",
+    "relate speed frequency and wavelength of light",
+    "name the regions of the electromagnetic spectrum",
+    "what is the energy of a quantum of radiation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "invert the wavelength",
+     "explain": "Take the reciprocal of the wavelength to obtain the wavenumber",
+     "compute": "wavenumber = 1 / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "kech.102.3.1",
+   "title": "Quantum Numbers and Shapes of Orbitals",
+   "section": "Quantum mechanical model",
+   "definition": "The quantum mechanical model describes an electron by an orbital with four quantum numbers: principal n, azimuthal l, magnetic m and spin s; orbitals have shapes of s spherical, p dumbbell and d cloverleaf, and follow the Aufbau principle, Pauli exclusion and Hund's rule in filling.",
+   "formula": "",
+   "key_idea": "Heisenberg's uncertainty principle forbids exact paths of electrons, so orbitals give only the probability of finding the electron.",
+   "textbook_ref": "kech102.txt quantum mechanical model sections",
+   "question_patterns": [
+    "state the four quantum numbers and their significance",
+    "describe the shapes of s p and d orbitals",
+    "state the aufbau principle pauli exclusion and hund's rule",
+    "what is heisenberg's uncertainty principle",
+    "define node and nodal plane of an orbital",
+    "write the electronic configuration of an atom using the rules"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign quantum numbers",
+     "explain": "Read n, l, m and s for the electron."
+    },
+    {
+     "step": 2,
+     "action": "check the filling rules",
+     "explain": "Apply Aufbau order, Pauli limit and Hund's multiplicity."
+    },
+    {
+     "step": 3,
+     "action": "state the orbital shape",
+     "explain": "Name the shape from the l value."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech102.txt electromagnetic radiation section",
+   "concept": "kech.102.2.1",
+   "question_type": "compute_wavenumber",
+   "question_pattern": "Radiation of wavelength {wavelength} cm is emitted by a source. Calculate its wavenumber.",
+   "extracted_variables": {
+    "wavelength": 0.0005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "invert the wavelength",
+     "explain": "Take the reciprocal of the wavelength to obtain the wavenumber",
+     "compute": "wavenumber = 1 / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech102.txt electromagnetic radiation section",
+   "concept": "kech.102.2.1",
+   "question_type": "compute_wavenumber",
+   "question_pattern": "A line in the spectrum lies at {wavelength} cm. Find its wave number in reciprocal centimetres.",
+   "extracted_variables": {
+    "wavelength": 0.002
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "invert the wavelength",
+     "explain": "Take the reciprocal of the wavelength to obtain the wavenumber",
+     "compute": "wavenumber = 1 / wavelength"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech102.txt exercises",
+   "questions": [
+    "Calculate the wavenumber of radiation with the given wavelength.",
+    "How many sub-shells are associated with n equal to 4?",
+    "Write the electronic configuration of the given atoms.",
+    "State the limitations of Bohr's model.",
+    "Explain Heisenberg's uncertainty principle with its significance."
+   ]
+  }
+ ]
+}

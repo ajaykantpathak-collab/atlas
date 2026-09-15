@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_002",
+   "title": "c11_soc_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define 'evolutionary change' and 'revolutionary change' in the context of social change, giving one example of each from Indian history.",
+     "a": "Evolutionary change: Slow, gradual, cumulative transformation over long periods (e.g., transition from feudal agrarian society to modern industrial society in India over 150+ years). Revolutionary change: Rapid, sudden, radical rupture in existing social order (e.g., 1947 Independence and Partition — overnight transfer of power, redrawing of borders, mass migration). A wrong answer (e.g., calling Green Revolution 'evolutionary' because it was agricultural) reveals confusion between *sector* (agriculture) and *pace* (Green Revolution was revolutionary in pace — high-yield varieties spread in 5-7 years).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The introduction of GST (Goods and Services Tax) in 2017 is an ideational change because it changed people's ideas about taxation.\" Is this correct? Explain why or why not, using the distinction between structural and ideational change.",
+     "a": "Incorrect. GST is a **structural change** — it transformed the *institutional rules* of taxation (replacing multiple indirect taxes with a single tax, altering federal fiscal relations, changing compliance procedures). Ideational change would be a shift in *values/beliefs* about taxation (e.g., from viewing tax as \"the king's due\" to viewing it as \"civic duty for public goods\"). The student's error reveals a common misconception: confusing *policy implementation* (structural) with *attitude change* (ideational). GST may *lead to* ideational change over time, but the act itself is structural.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into the 2x2 matrix (Evolutionary/Revolutionary × Structural/Ideational) with one-sentence justification for each:\n(a) The gradual decline of the joint family system in urban India over 50 years\n(b) The 1857 Revolt against British rule\n(c) The spread of Buddhism in ancient India (3rd century BCE – 5th century CE)\n(d) The 2016 Demonetisation announcement",
+     "a": "(a) Evolutionary + Structural: Slow erosion of an institution (joint family) due to urbanization, migration, wage labor — changes household *structure* gradually.\n(b) Revolutionary + Structural: Sudden, violent uprising attempting to overthrow colonial *political structure*; though it failed, it forced immediate structural changes (end of Company rule, Crown takeover).\n(c) Evolutionary + Ideational: Gradual spread of Buddhist *values* (non-violence, compassion, rejection of caste hierarchy) over centuries, transforming cultural *ideas* without sudden rupture.\n(d) Revolutionary + Structural: Overnight invalidation of 86% currency by value — radical, sudden change in *financial institution rules* (legal tender status).\nA wrong classification (e.g., calling 1857 \"ideational\") reveals inability to distinguish *political structure* (power, sovereignty) from *ideas* (nationalism was present but the revolt's impact was structural).",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"Changes in values and beliefs can also lead to social change\" and gives the example of changing ideas about childhood. Analyze how the **Bhakti Movement** (medieval India) illustrates the *interaction* between ideational change and structural change. Specifically: Did it start as ideational or structural? What structural changes did it eventually produce?",
+     "a": "The Bhakti Movement began as **ideational change** — new *ideas*: personal devotion (bhakti) over ritual, equality before God, rejection of Brahminical monopoly on salvation, use of vernacular languages. This ideational shift *produced structural changes*: (1) Weakened caste hierarchy in religious practice (structural: temple entry, communal eating), (2) Created new religious institutions (maths, sampradayas) with distinct organizational rules, (3) Influenced political structure — some Bhakti saints advised rulers (e.g., Tukaram and Shivaji), (4) Laid cultural groundwork for later anti-caste movements. A poor answer treats Bhakti as only \"religious reform\" without tracing the *causal chain* from ideas → new norms → new institutions → altered power relations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Green Revolution (1960s-70s) was a revolutionary change in Indian agriculture.\" Consider both **pace** (speed of adoption) and **nature** (structural vs. ideational impact). Support your evaluation with two specific pieces of evidence.",
+     "a": "The claim is **partially correct but incomplete**. Pace: **Revolutionary** — HYV seeds, fertilizers, irrigation spread across Punjab/Haryana/Western UP in <10 years (1966-1975), transforming yields overnight. Nature: **Primarily structural** — changed *agrarian structure*: (1) Shift from subsistence to commercial farming (new market institutions), (2) Altered class relations: rich peasants became capitalist farmers, tenants evicted, laborers proletarianized, (3) Created new state institutions (FCI, MSP, agricultural universities). Ideational impact was secondary: later, ideas of \"scientific farming,\" \"food self-sufficiency,\" and \"farmer as entrepreneur\" emerged. A weak evaluation calls it \"revolutionary\" without distinguishing pace from nature, or misses the *structural* transformation of rural class relations (evidence: rise of 'bullock capitalists', displacement of sharecroppers).",
+     "self_check": true
+    },
+    {
+     "q": "Create an original 2x2 classification table for social change types (Evolutionary/Revolutionary × Structural/Ideational). Populate each cell with a **distinct Indian example not used in the textbook or this node**. For each example, write a 15-word justification referencing *both* pace and nature.",
+     "a": "| | Structural | Ideational |\n|---|---|---|\n| **Evolutionary** | **Panchayati Raj decentralization (1992-present)**: Gradual 30-year institutionalization of 3-tier local governance, reserved seats altering power structure incrementally. | **Shift from arranged to love-cum-arranged marriages (1990s-present)**: Slow cultural normalization of individual choice in partner selection, changing matrimonial values over generations. |\n| **Revolutionary** | **Abolition of Zamindari (1950s)**: Overnight legislative elimination of intermediary landlord class, transferring ownership rights to tillers — radical structural rupture. | **Navayana Buddhism conversion (1956)**: Ambedkar-led mass conversion of 500,000 Dalits in one day — sudden, total rejection of Hindu caste ideology, adopting new religious identity. |\n\nA poor answer uses generic examples (\"industrialization,\" \"French Revolution\") or justifications that don't reference both dimensions (e.g., \"fast change in farming\" without naming structural element).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

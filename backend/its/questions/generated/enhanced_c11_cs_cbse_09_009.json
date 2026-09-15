@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_009",
+   "title": "c11_cs_cbse_09_009",
+   "questions": [
+    {
+     "q": "What is the exact file mode string to open a text file for appending only (not reading), and where is the file pointer positioned immediately after opening?",
+     "a": "The mode string is `'a'`. The file pointer is positioned at the **end of the file (EOF)**. A wrong answer like `'w'` or `'r+'` reveals the student confuses write modes: `'w'` truncates the file, `'r+'` places pointer at start. This misconception leads to data loss in real programs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `f = open('log.txt', 'a'); f.write('Error: Disk full'); f.close()`. The file `log.txt` already contains two lines. Will the new string appear on a new line or appended directly after the last character? Explain why.",
+     "a": "It will be appended **directly after the last character** because `write()` does **not** add a newline automatically. The student must explicitly include `\\n` in the string. A wrong answer (\"it adds a newline\") shows confusion between `print()` (which adds `\\n`) and `write()` (which does not). This causes log entries to run together, making parsing impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-line Python snippet using `with` statement to append the strings `'Apple'`, `'Banana'`, `'Cherry'` (each on a new line) to `fruits.txt`. Assume the file may not exist.",
+     "a": "```python\nwith open('fruits.txt', 'a') as f:\n    f.writelines(['Apple\\n', 'Banana\\n', 'Cherry\\n'])\n```\nSteps: 1) `with` ensures auto-close. 2) Mode `'a'` creates file if missing, positions at EOF. 3) `writelines()` writes the list; each string must contain `\\n`. A wrong answer using `write()` in a loop or missing `\\n` shows lack of fluency with `writelines()` and newline handling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of opening an existing file `data.txt` (size 100 bytes) in modes `'w'` vs `'a'` vs `'a+'`. For each mode, state: (i) file size after opening, (ii) initial file pointer position, (iii) can you read existing content?",
+     "a": "| Mode | Size after open | Pointer at | Can read? |\n|------|-----------------|------------|-----------|\n| `'w'` | 0 bytes (truncated) | 0 (start) | No (write-only) |\n| `'a'` | 100 bytes (unchanged) | 100 (EOF) | No (write-only) |\n| `'a+'` | 100 bytes | 100 (EOF) | **Yes** (read+write) |\n\nA wrong answer (e.g., `'a'` pointer at start) reveals misunderstanding that append mode **always** seeks to EOF on open and on every write. This is critical for logging integrity.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer uses `'a+'` mode to append and then immediately tries to read the appended data with `f.read()` but gets an empty string. Why? How to fix it without closing and reopening?",
+     "a": "After writing in `'a+'` mode, the file pointer is at the **new EOF** (after appended data). `read()` from there returns empty string. Fix: use `f.seek(0)` to move pointer to start before reading. A wrong answer (\"`a+` doesn't allow reading\") shows ignorance that `'a+'` **does** allow reading but pointer management is manual. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where using `'w'` mode instead of `'a'` would cause irreversible data loss. Write a 4-line Python program that correctly implements append behavior for this scenario, including error handling for permission denied.",
+     "a": "**Scenario:** A hospital system logs patient vitals every minute to `vitals.log`. Using `'w'` would erase history each minute — fatal for diagnosis.  \n**Correct program:**\n```python\ntry:\n    with open('vitals.log', 'a') as f:\n        f.write('2024-01-15 10:30:00, BP=120/80, HR=72\\n')\nexcept PermissionError:\n    print(\"Error: Cannot write to log file. Check permissions.\")\n```\nA poor answer uses `'w'` or omits `try-except`, showing inability to map real-world requirements to correct mode and robustness practices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

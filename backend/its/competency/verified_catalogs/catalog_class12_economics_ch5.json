@@ -1,0 +1,245 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 5,
+ "chapter_title": "Balance of Payments",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0255.txt",
+ "concepts": [
+  {
+   "id": "c12eco.5.1",
+   "title": "Balance of Payments: Meaning and Components",
+   "section": "Balance of Payments",
+   "definition": "The Balance of Payments (BoP) is a systematic record of all economic transactions between the residents of a country and the rest of the world during a given period, usually one year. It records both visible and invisible transactions and is divided into two main components: the Current Account and the Capital Account.",
+   "formula": "",
+   "key_idea": "BoP is a comprehensive double-entry record of a country's international transactions; every transaction appears as both a credit and a debit, so the BoP always balances in an accounting sense.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Balance of Payments and list its main components.",
+    "Distinguish between Current Account and Capital Account of BoP.",
+    "Explain the structure of the Balance of Payments account.",
+    "Why is the Balance of Payments said to always balance?",
+    "What is the economic significance of the Balance of Payments?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the definition of BoP",
+     "explain": "State that BoP is a systematic record of all economic transactions between residents of a country and the rest of the world over a period."
+    },
+    {
+     "step": 2,
+     "action": "List the components",
+     "explain": "Identify the two main components: Current Account (trade in goods/services, transfers) and Capital Account (capital transfers, financial assets/liabilities)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the balancing property",
+     "explain": "Because every transaction is recorded as both a credit and a debit under double-entry bookkeeping, the BoP always balances in an accounting sense."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two main components of the Balance of Payments?",
+     "solution": "The BoP is divided into the Current Account, which records trade in goods and services and unilateral transfers, and the Capital Account, which records capital transfers and transactions in financial assets and liabilities.",
+     "answer": "Current Account and Capital Account."
+    },
+    {
+     "question": "Does the Balance of Payments always balance? Give reason.",
+     "solution": "Yes. Since BoP is maintained on the principle of double-entry bookkeeping, every transaction gives rise to two entries - a credit and a debit - of equal value, so total credits equal total debits.",
+     "answer": "Yes, the BoP always balances because of double-entry bookkeeping."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define Balance of Payments and state its main components.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the Balance of Payments always balances.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.2",
+   "title": "Current Account of Balance of Payments",
+   "section": "Balance of Payments",
+   "definition": "The Current Account of the BoP records the flow of goods, services and unilateral transfers between a country and the rest of the world. It includes exports and imports of goods (visible trade), exports and imports of services (invisible trade), and unilateral transfers such as remittances and grants.",
+   "formula": "Current Account Balance = (Exports of goods + Exports of services + Unilateral receipts) - (Imports of goods + Imports of services + Unilateral payments)",
+   "key_idea": "A current account surplus means the country earns more from the rest of the world than it spends; a deficit means it spends more than it earns.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What does the Current Account of the BoP record?",
+    "Distinguish between visible and invisible trade in the Current Account.",
+    "How is the Current Account balance computed?",
+    "What is meant by a current account deficit?",
+    "Explain the items included in the Current Account."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the credit items",
+     "explain": "Identify exports of goods, exports of services and unilateral receipts received from abroad.",
+     "compute": "credits = exports_goods + exports_services + unilateral_receipts"
+    },
+    {
+     "step": 2,
+     "action": "List the debit items",
+     "explain": "Identify imports of goods, imports of services and unilateral payments sent abroad.",
+     "compute": "debits = imports_goods + imports_services + unilateral_payments"
+    },
+    {
+     "step": 3,
+     "action": "Compute the current account balance",
+     "explain": "Subtract total debits from total credits to obtain the current account balance.",
+     "compute": "current_account_balance = credits - debits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Exports of goods = Rs 200 crore, imports of goods = Rs 250 crore, exports of services = Rs 80 crore, imports of services = Rs 50 crore, net unilateral transfers = Rs 20 crore. Find the current account balance.",
+     "solution": "Credits = 200 + 80 + 20 = 300; Debits = 250 + 50 = 300; Current Account Balance = 300 - 300 = 0.",
+     "answer": "Current Account Balance = Rs 0 crore (balanced)."
+    },
+    {
+     "question": "If exports of goods and services total Rs 500 crore and imports of goods and services total Rs 600 crore with no unilateral transfers, what is the current account balance?",
+     "solution": "Current Account Balance = 500 - 600 = -100 crore.",
+     "answer": "Current Account deficit of Rs 100 crore."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the items recorded in the Current Account of the BoP.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Exports of goods = Rs 300 crore, imports of goods = Rs 400 crore, exports of services = Rs 100 crore, imports of services = Rs 60 crore, unilateral receipts = Rs 40 crore, unilateral payments = Rs 10 crore. Compute the current account balance.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.3",
+   "title": "Capital Account of Balance of Payments",
+   "section": "Balance of Payments",
+   "definition": "The Capital Account of the BoP records all international transactions of financial assets and liabilities. It includes foreign direct investment, portfolio investment, external commercial borrowings, loans, banking capital and changes in foreign exchange reserves. It shows the net flow of capital into and out of the country.",
+   "formula": "Capital Account Balance = Capital inflows - Capital outflows",
+   "key_idea": "A capital account surplus (net inflow) helps finance a current account deficit; a capital account deficit (net outflow) offsets a current account surplus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What does the Capital Account of the BoP record?",
+    "List the main items of the Capital Account.",
+    "Distinguish between Current Account and Capital Account.",
+    "What is meant by capital inflow and capital outflow?",
+    "How does a capital account surplus affect the BoP?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify capital inflows",
+     "explain": "List inflows such as foreign direct investment, portfolio investment, external borrowings and loans received from abroad.",
+     "compute": "inflows = fdi + portfolio_investment + borrowings + loans_received"
+    },
+    {
+     "step": 2,
+     "action": "Identify capital outflows",
+     "explain": "List outflows such as investment abroad, repayment of loans and capital transfers sent abroad.",
+     "compute": "outflows = investment_abroad + loan_repayments + capital_transfers_out"
+    },
+    {
+     "step": 3,
+     "action": "Compute the capital account balance",
+     "explain": "Subtract total outflows from total inflows to obtain the capital account balance.",
+     "compute": "capital_account_balance = inflows - outflows"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Foreign direct investment inflow = Rs 300 crore, portfolio investment inflow = Rs 150 crore, investment abroad by residents = Rs 100 crore, loan repayments = Rs 50 crore. Compute the capital account balance.",
+     "solution": "Inflows = 300 + 150 = 450; Outflows = 100 + 50 = 150; Capital Account Balance = 450 - 150 = 300 crore.",
+     "answer": "Capital Account surplus of Rs 300 crore."
+    },
+    {
+     "question": "If capital inflows are Rs 400 crore and capital outflows are Rs 400 crore, what is the capital account balance?",
+     "solution": "Capital Account Balance = 400 - 400 = 0.",
+     "answer": "Capital Account balance is Rs 0 crore (balanced)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define the Capital Account and list its main items.",
+     "type": "short_answer"
+    },
+    {
+     "question": "FDI inflow = Rs 500 crore, portfolio inflow = Rs 200 crore, investment abroad = Rs 300 crore, loan repayments = Rs 100 crore. Compute the capital account balance.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.4",
+   "title": "Balance of Trade",
+   "section": "Balance of Payments",
+   "definition": "Balance of Trade (BoT) is the difference between the value of exports of goods and the value of imports of goods of a country during a given period. It is also called the visible trade balance because it deals only with goods and excludes services and transfers.",
+   "formula": "Balance of Trade = Value of exports of goods - Value of imports of goods",
+   "key_idea": "A positive BoT means a trade surplus (exports exceed imports); a negative BoT means a trade deficit (imports exceed exports).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Balance of Trade.",
+    "How is Balance of Trade different from Current Account Balance?",
+    "Distinguish between trade surplus and trade deficit.",
+    "Why is Balance of Trade called the visible trade balance?",
+    "Compute the Balance of Trade given exports and imports of goods."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify value of exports of goods",
+     "explain": "Record the total monetary value of goods exported to other countries.",
+     "compute": "exports_of_goods = value"
+    },
+    {
+     "step": 2,
+     "action": "Identify value of imports of goods",
+     "explain": "Record the total monetary value of goods imported from other countries.",
+     "compute": "imports_of_goods = value"
+    },
+    {
+     "step": 3,
+     "action": "Compute the Balance of Trade",
+     "explain": "Subtract imports of goods from exports of goods to obtain the trade balance.",
+     "compute": "balance_of_trade = exports_of_goods - imports_of_goods"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Exports of goods = Rs 400 crore and imports of goods = Rs 550 crore. Find the Balance of Trade.",
+     "solution": "Balance of Trade = 400 - 550 = -150 crore.",
+     "answer": "Trade deficit of Rs 150 crore."
+    },
+    {
+     "question": "If exports of goods are Rs 700 crore and imports of goods are Rs 600 crore, what is the Balance of Trade?",
+     "solution": "Balance of Trade = 700 - 600 = 100 crore.",
+     "answer": "Trade surplus of Rs 100 crore."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define Balance of Trade and explain its components.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Exports of goods = Rs 800 crore, imports of goods = Rs 750 crore. Compute the Balance of Trade and state whether it is a surplus or deficit.",
+     "type": "numerical"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

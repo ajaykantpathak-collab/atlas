@@ -1,0 +1,628 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 8,
+ "chapter_title": "Sources of Business Finance",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs108.txt",
+ "concepts": [
+  {
+   "id": "c11bs.7.1",
+   "title": "Meaning and Nature of Business Finance",
+   "section": "7.1 Meaning and Nature of Business Finance",
+   "definition": "Business finance refers to the money and funds required by a business enterprise to carry out its operations -- establishment, day-to-day running, expansion and modernisation -- and it concerns the planning, raising, managing and controlling of these funds.",
+   "formula": "",
+   "key_idea": "Finance is the lifeblood of every business; without adequate funds no business activity -- production, purchase, distribution or expansion -- can be carried out.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by business finance?",
+    "Explain the nature and significance of business finance.",
+    "Why is finance called the lifeblood of business?",
+    "What are the main requirements for which a business needs funds?",
+    "How does business finance differ from personal finance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the need for funds in a business",
+     "explain": "Every business needs money to start, to run day-to-day operations, and to expand or modernise; this need defines business finance."
+    },
+    {
+     "step": 2,
+     "action": "Describe the nature of business finance",
+     "explain": "Business finance involves planning, raising, managing and controlling funds so that the right amount is available at the right time and at the right cost."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the significance of finance",
+     "explain": "Adequate finance ensures smooth operations, timely payments and growth, which is why finance is regarded as the lifeblood of business."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manufacturer needs money to buy raw materials, pay wages and install a new machine. Which function of business is illustrated by these needs?",
+     "solution": "Step 1: The needs -- raw materials, wages and machinery -- all require money. Step 2: The planning and arranging of such money is business finance. Step 3: The function illustrated is business finance.",
+     "answer": "Business finance"
+    },
+    {
+     "question": "Why is finance called the lifeblood of a business?",
+     "solution": "Step 1: Without funds a business cannot purchase inputs, pay workers or expand. Step 2: Finance keeps every activity of the business running smoothly. Step 3: Hence finance is rightly called the lifeblood of business.",
+     "answer": "Because no business activity can be carried out without adequate funds."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define business finance and explain its nature.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is finance regarded as the lifeblood of business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any three purposes for which a business needs funds.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.2",
+   "title": "Sources of Finance: Equity and Debt",
+   "section": "7.2 Sources of Finance",
+   "definition": "Sources of business finance are the channels through which a firm raises funds; they are broadly classified on the basis of ownership into owners' funds (equity) and borrowed funds (debt), and on the basis of period into short-term, medium-term and long-term sources.",
+   "formula": "",
+   "key_idea": "The two ownership-based sources are equity, which represents owners' capital with voting control and risk, and debt, which is borrowed money carrying a fixed return and a legal obligation to repay.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main sources of business finance?",
+    "Distinguish between owners' funds and borrowed funds.",
+    "How are sources of finance classified on the basis of ownership?",
+    "Explain the difference between equity and debt financing.",
+    "What is the basis of classifying sources of business finance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the sources on the basis of ownership",
+     "explain": "On the ownership basis, sources are owners' funds (equity) and borrowed funds (debt); on the period basis they are short, medium and long-term."
+    },
+    {
+     "step": 2,
+     "action": "Compare equity and debt features",
+     "explain": "Equity gives ownership and voting rights with residual claim and higher risk; debt gives a fixed interest, no ownership, and a compulsory repayment obligation."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the choice between the two",
+     "explain": "A firm balances equity and debt to control risk, cost of capital and ownership, since each source has distinct advantages and limitations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company raises Rs. 10 lakh by issuing shares and Rs. 5 lakh by issuing debentures. Identify the two sources of finance used.",
+     "solution": "Step 1: Share issue represents owners' capital, i.e. equity. Step 2: Debenture issue represents borrowed capital, i.e. debt. Step 3: The sources used are equity (owners' funds) and debt (borrowed funds).",
+     "answer": "Equity (owners' funds) and debt (borrowed funds)"
+    },
+    {
+     "question": "State one point of difference between equity and debt as sources of finance.",
+     "solution": "Step 1: Equity holders are owners with voting rights. Step 2: Debt holders are creditors with a fixed return and no voting rights. Step 3: Equity carries ownership and risk while debt carries a fixed interest and compulsory repayment.",
+     "answer": "Equity gives ownership and voting rights; debt gives a fixed return and no ownership."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the classification of sources of business finance on the basis of ownership.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between equity and debt financing.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two examples each of owners' funds and borrowed funds.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.3",
+   "title": "Owners' Funds (Equity)",
+   "section": "7.3 Owners' Funds",
+   "definition": "Owners' funds, also called equity, are the funds contributed by the owners of a firm and the earnings retained in the business; they include share capital (equity and preference shares) and retained earnings, and they carry ownership rights, voting control and a residual claim on profits.",
+   "formula": "",
+   "key_idea": "Owners' funds provide permanent capital without a fixed repayment burden, but they dilute control and give owners a residual, risk-bearing claim on profits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are owners' funds in a business?",
+    "Explain the features of equity as a source of finance.",
+    "Why are owners' funds called risk capital?",
+    "What is the difference between equity shares and preference shares?",
+    "What are the merits and limitations of owners' funds?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of owners' funds",
+     "explain": "Owners' funds consist of share capital (equity and preference shares) and retained earnings accumulated from profits."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of owners' funds",
+     "explain": "They are permanent, carry ownership and voting rights, offer a residual claim on profits, and impose no fixed repayment or dividend obligation."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "Owners' funds give permanent capital and financial stability but dilute control and carry higher cost and risk for the owners."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company issues equity shares to raise capital. What type of source is this and what rights do the holders get?",
+     "solution": "Step 1: Equity shares are part of owners' funds. Step 2: Holders get ownership, voting rights and a residual claim on profits. Step 3: This is an equity source giving ownership and control to shareholders.",
+     "answer": "Owners' funds (equity); holders get ownership, voting rights and residual claim."
+    },
+    {
+     "question": "Why are owners' funds considered permanent capital?",
+     "solution": "Step 1: Owners' funds are contributed by shareholders. Step 2: There is no obligation to repay the capital or pay a fixed dividend. Step 3: Hence owners' funds remain permanently with the firm.",
+     "answer": "Because there is no compulsory repayment or fixed return on owners' funds."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features of owners' funds as a source of business finance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between equity shares and preference shares.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two limitations of owners' funds.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.4",
+   "title": "Retained Earnings",
+   "section": "7.4 Retained Earnings",
+   "definition": "Retained earnings are the portion of a firm's net profit that is kept (ploughed back) in the business instead of being distributed as dividends, used to finance expansion, modernisation and replacement of assets.",
+   "formula": "retained_earnings = net_profit - dividends",
+   "key_idea": "Retained earnings are an internal, cost-free source of finance that avoids dilution of control, but excessive retention can reduce dividend payouts and dissatisfy shareholders.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by retained earnings?",
+    "How are retained earnings calculated?",
+    "Why are retained earnings called ploughing back of profits?",
+    "What are the merits of retained earnings as a source of finance?",
+    "What are the limitations of using retained earnings?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute net profit of the firm",
+     "explain": "Net profit is the surplus left after meeting all expenses and taxes; it is the amount available for appropriation.",
+     "compute": "total_revenue - total_cost - taxes"
+    },
+    {
+     "step": 2,
+     "action": "Compute dividends distributed",
+     "explain": "Dividend is the portion of profit paid to shareholders; the rate is decided by management.",
+     "compute": "dividend_rate * net_profit"
+    },
+    {
+     "step": 3,
+     "action": "Compute retained earnings and interpret",
+     "explain": "The profit kept back after dividend is retained earnings, an internal source used for growth and modernisation.",
+     "compute": "net_profit - dividends"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm earns a net profit of Rs. 5,00,000 and distributes 40% as dividend. Find the retained earnings.",
+     "solution": "Dividend = 40% of 5,00,000 = 2,00,000. Retained earnings = 5,00,000 - 2,00,000 = 3,00,000.",
+     "answer": "Retained earnings = Rs. 3,00,000"
+    },
+    {
+     "question": "A company has a net profit of Rs. 8,00,000 and pays dividends of Rs. 2,00,000. How much is ploughed back into the business?",
+     "solution": "Retained earnings = Net profit - Dividends = 8,00,000 - 2,00,000 = 6,00,000.",
+     "answer": "Rs. 6,00,000 is ploughed back as retained earnings."
+    },
+    {
+     "question": "Why are retained earnings considered a low-cost source of finance?",
+     "solution": "Retained earnings are generated internally from profits, so no interest or flotation cost is paid and no collateral is required, making them a low-cost internal source.",
+     "answer": "Because they are internally generated and carry no interest or issue cost."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A firm earns a net profit of Rs. 6,00,000 and retains 60% of it. Compute the retained earnings and the dividend paid.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the merits and limitations of retained earnings as a source of finance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is ploughing back of profits preferred by growing firms?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.5",
+   "title": "Borrowed Funds (Debt)",
+   "section": "7.5 Borrowed Funds",
+   "definition": "Borrowed funds, also called debt, are the funds raised by a business from outsiders on which a fixed rate of interest is paid and which must be repaid after a specified period; they include debentures, loans from financial institutions, bank loans and public deposits.",
+   "formula": "",
+   "key_idea": "Debt provides funds without diluting ownership and gives a tax shield on interest, but it carries a fixed repayment burden and increases financial risk.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are borrowed funds in a business?",
+    "Explain the features of debt as a source of finance.",
+    "What are the merits of borrowed funds?",
+    "What are the limitations of debt financing?",
+    "How does debt differ from equity as a source of finance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the forms of borrowed funds",
+     "explain": "Borrowed funds include debentures, loans from financial institutions and banks, and public deposits raised from outsiders."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of debt",
+     "explain": "Debt carries a fixed rate of interest, a definite repayment period, no voting rights, and interest is tax-deductible, but it increases financial risk."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "Debt avoids dilution of control and gives a tax shield, but the fixed interest and repayment obligation raise financial risk, especially in low-profit years."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company raises Rs. 20 lakh through debentures carrying 10% interest. What type of source is this and what is its main obligation?",
+     "solution": "Step 1: Debentures are a form of borrowed funds (debt). Step 2: Debt carries a fixed interest and a repayment obligation. Step 3: This is a debt source with a fixed 10% interest and a legal duty to repay.",
+     "answer": "Borrowed funds (debt); obligation is fixed interest and repayment of principal."
+    },
+    {
+     "question": "Why does debt financing increase the financial risk of a firm?",
+     "solution": "Step 1: Debt requires payment of fixed interest regardless of profit. Step 2: Failure to pay can lead to default and even bankruptcy. Step 3: Hence debt increases the financial risk of the firm.",
+     "answer": "Because fixed interest must be paid even when profits are low or absent."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features, merits and limitations of borrowed funds.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does debt differ from equity as a source of finance?",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two merits of debt financing.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.6",
+   "title": "Debentures",
+   "section": "7.6 Debentures",
+   "definition": "A debenture is a debt instrument acknowledging a loan raised by a company, carrying a fixed rate of interest and a promise to repay the principal after a specified period; debenture holders are creditors, not owners, of the company.",
+   "formula": "",
+   "key_idea": "Debentures raise large long-term funds at a fixed interest without diluting ownership, but they add a fixed repayment burden and reduce the firm's borrowing capacity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a debenture?",
+    "Explain the features of debentures as a source of finance.",
+    "What are the merits of issuing debentures?",
+    "What are the limitations of debentures for a company?",
+    "How do debenture holders differ from shareholders?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a debenture and its holder's status",
+     "explain": "A debenture is a written acknowledgement of debt with a fixed interest; the holder is a creditor, not an owner, of the company."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of debentures",
+     "explain": "Debentures carry a fixed interest, a definite repayment period, no voting rights, and are usually secured by the company's assets."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "Debentures raise large funds without diluting control and give a tax shield, but the fixed interest and repayment increase financial risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company issues 1,000 debentures of Rs. 100 each at 10% interest. What is the status of the holders and the total interest payable annually?",
+     "solution": "Step 1: Debenture holders are creditors of the company. Step 2: Total principal = 1,000 x 100 = Rs. 1,00,000. Step 3: Annual interest = 10% of 1,00,000 = Rs. 10,000; holders are creditors.",
+     "answer": "Holders are creditors; annual interest = Rs. 10,000"
+    },
+    {
+     "question": "How do debenture holders differ from shareholders?",
+     "solution": "Step 1: Debenture holders are creditors with a fixed interest and no voting rights. Step 2: Shareholders are owners with voting rights and a residual claim. Step 3: Debenture holders have a fixed return and repayment, while shareholders bear the risk and share profits.",
+     "answer": "Debenture holders are creditors with fixed interest; shareholders are owners with voting rights and residual claim."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features and merits of debentures as a source of finance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the limitations of raising funds through debentures?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between a debenture holder and a shareholder.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.7",
+   "title": "Loans from Financial Institutions",
+   "section": "7.7 Loans from Financial Institutions",
+   "definition": "Loans from financial institutions are long-term and medium-term funds provided by specialised institutions such as IFCI, ICICI, IDBI, SIDBI and State Financial Corporations to meet the fixed capital and working capital needs of business enterprises.",
+   "formula": "",
+   "key_idea": "Financial institutions provide large, organised, long-term finance with reasonable terms, but the procedure is lengthy and the funds carry interest and repayment obligations along with restrictive conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are loans from financial institutions?",
+    "Name any four financial institutions that provide loans to business.",
+    "Explain the features of loans from financial institutions.",
+    "What are the merits of borrowing from financial institutions?",
+    "What are the limitations of loans from financial institutions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the financial institutions and their role",
+     "explain": "Institutions like IFCI, ICICI, IDBI and SFCs provide long and medium-term loans to meet fixed and working capital needs of firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of such loans",
+     "explain": "These loans carry a fixed interest, a defined repayment schedule, and often require security and acceptance of restrictive covenants."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "They offer large organised funds at reasonable rates, but the sanction procedure is lengthy and the covenants limit managerial freedom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small firm needs Rs. 50 lakh to set up a plant and approaches IDBI for a loan. What source of finance is this and what are its main features?",
+     "solution": "Step 1: IDBI is a financial institution providing long-term loans. Step 2: The loan carries fixed interest, a repayment schedule and security. Step 3: This is a loan from a financial institution, a long-term debt source.",
+     "answer": "Loan from a financial institution; features are fixed interest, repayment schedule and security."
+    },
+    {
+     "question": "State one merit and one limitation of borrowing from financial institutions.",
+     "solution": "Step 1: A merit is the availability of large organised long-term funds. Step 2: A limitation is the lengthy sanction procedure and restrictive conditions. Step 3: Hence the source is reliable but procedurally slow.",
+     "answer": "Merit: large organised long-term funds; Limitation: lengthy procedure and restrictive covenants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain loans from financial institutions as a source of business finance with their merits and limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any four financial institutions that provide finance to business in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two limitations of loans from financial institutions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.8",
+   "title": "Trade Credit",
+   "section": "7.8 Trade Credit",
+   "definition": "Trade credit is the credit extended by suppliers (creditors) to a buyer firm by allowing it to purchase goods on credit and pay later, usually within 30 to 90 days; it is a short-term source of finance commonly used in business.",
+   "formula": "",
+   "key_idea": "Trade credit is a convenient, low-cost, short-term source that finances working capital without formalities, but it is available only to firms with a good credit reputation and may involve hidden costs through lost cash discounts.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by trade credit?",
+    "Explain the features of trade credit as a source of finance.",
+    "What are the merits of trade credit?",
+    "What are the limitations of trade credit?",
+    "How does trade credit help a small business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define trade credit and its basis",
+     "explain": "Trade credit is goods supplied now and paid later, granted by suppliers based on the buyer's creditworthiness and past dealings."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of trade credit",
+     "explain": "It is a short-term, informal source with no interest, available for 30-90 days, and used mainly to finance working capital."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "Trade credit is convenient and flexible, but is limited to creditworthy firms and may carry hidden costs through foregone cash discounts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A retailer buys goods worth Rs. 1,00,000 from a supplier with 60 days to pay. What source of finance is being used?",
+     "solution": "Step 1: The supplier allows the retailer to pay later for goods supplied now. Step 2: This is credit extended by a supplier, i.e. trade credit. Step 3: The source used is trade credit, a short-term source.",
+     "answer": "Trade credit"
+    },
+    {
+     "question": "State one merit and one limitation of trade credit.",
+     "solution": "Step 1: A merit is that it is a convenient, interest-free short-term source. Step 2: A limitation is that it is available only to firms with a good reputation. Step 3: Hence trade credit is flexible but restricted to creditworthy buyers.",
+     "answer": "Merit: convenient interest-free short-term funds; Limitation: available only to creditworthy firms."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain trade credit as a source of business finance with its merits and limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is trade credit more suitable for working capital needs?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two limitations of trade credit.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.9",
+   "title": "Factoring",
+   "section": "7.9 Factoring",
+   "definition": "Factoring is a financial service under which a firm (the client) sells its accounts receivable (book debts) to a factor at a discount, in return for immediate cash; the factor collects the debts from customers and may also provide credit protection and advisory services.",
+   "formula": "",
+   "key_idea": "Factoring converts credit sales into immediate cash, improving liquidity and reducing collection risk, but it costs a discount/fee and may affect the firm's relationship with customers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by factoring?",
+    "Explain the features of factoring as a source of finance.",
+    "What are the merits of factoring?",
+    "What are the limitations of factoring?",
+    "How does factoring help a firm in managing receivables?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define factoring and its mechanism",
+     "explain": "Under factoring, the firm sells its book debts to a factor for immediate cash, and the factor collects payment from customers later."
+    },
+    {
+     "step": 2,
+     "action": "Explain the features of factoring",
+     "explain": "Factoring provides instant liquidity, may offer credit protection and advisory services, and charges a discount or service fee on the debts."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on merits and limitations",
+     "explain": "Factoring improves liquidity and reduces collection risk, but it is costly and may affect the firm's image with customers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm has book debts of Rs. 5,00,000 and needs cash immediately, so it sells the debts to a factor. What source of finance is this?",
+     "solution": "Step 1: The firm sells its receivables to raise immediate cash. Step 2: Selling book debts to a factor is factoring. Step 3: The source used is factoring.",
+     "answer": "Factoring"
+    },
+    {
+     "question": "State one merit and one limitation of factoring.",
+     "solution": "Step 1: A merit is immediate liquidity and reduced collection risk. Step 2: A limitation is the high cost in the form of discount or fee. Step 3: Hence factoring improves cash flow but is expensive.",
+     "answer": "Merit: immediate liquidity; Limitation: high cost (discount/fee)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain factoring as a source of finance with its features, merits and limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does factoring help a firm in managing its receivables?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two limitations of factoring.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.7.10",
+   "title": "Lease Financing and Public Deposits",
+   "section": "7.10 Lease Financing and Public Deposits",
+   "definition": "Lease financing is an arrangement under which a firm obtains the right to use an asset owned by another party (the lessor) for a fixed period in return for periodic lease rentals; public deposits are unsecured deposits invited by a company from the public for a fixed period (up to three years) at a fixed interest rate.",
+   "formula": "total_lease_rent = periodic_rent * number_of_periods",
+   "key_idea": "Lease financing lets a firm use assets without large capital outlay, while public deposits raise short and medium-term funds from the public at a fixed interest; both avoid ownership dilution but carry fixed payment obligations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is lease financing?",
+    "Explain the features of lease financing as a source of finance.",
+    "What are public deposits?",
+    "What are the merits and limitations of public deposits?",
+    "How does lease financing differ from outright purchase of an asset?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the periodic lease rental",
+     "explain": "The lease rental is the fixed amount paid periodically by the lessee to the lessor for using the asset.",
+     "compute": "lease_amount / number_of_periods"
+    },
+    {
+     "step": 2,
+     "action": "Compute total lease rent over the lease term",
+     "explain": "Total lease rent is the sum of all rentals paid over the lease period and represents the cost of using the asset.",
+     "compute": "periodic_rent * number_of_periods"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the cost and compare with public deposits",
+     "explain": "A higher total lease rent increases the cost of using the asset; public deposits similarly carry a fixed interest cost, so the firm must weigh the fixed payment burden.",
+     "compute": "total_lease_rent + public_deposit_interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm leases a machine for 5 years paying Rs. 50,000 per year as lease rental. Compute the total lease rent paid over the lease period.",
+     "solution": "Total lease rent = Periodic rent x Number of periods = 50,000 x 5 = 2,50,000.",
+     "answer": "Total lease rent = Rs. 2,50,000"
+    },
+    {
+     "question": "A company invites public deposits of Rs. 10,00,000 at 9% interest for 2 years. What is the annual interest payable and what type of source is this?",
+     "solution": "Annual interest = 9% of 10,00,000 = 90,000. Public deposits are unsecured borrowed funds raised from the public for a fixed period.",
+     "answer": "Annual interest = Rs. 90,000; it is a borrowed (debt) source."
+    },
+    {
+     "question": "Why is lease financing useful for a small firm that cannot afford to buy an asset?",
+     "solution": "Lease financing lets the firm use the asset by paying only periodic rentals instead of a large purchase price, so it conserves capital and avoids a big initial outlay.",
+     "answer": "It provides use of the asset without a large capital outlay, through periodic rentals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A firm leases equipment for 4 years at Rs. 30,000 per year. Compute the total lease rent paid over the lease term.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain lease financing and public deposits as sources of business finance with their merits and limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two limitations of public deposits as a source of finance.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

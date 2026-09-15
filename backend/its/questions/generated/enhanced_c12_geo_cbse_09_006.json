@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_006",
+   "title": "c12_geo_cbse_09_006",
+   "questions": [
+    {
+     "q": "**REMEMBER:** State the Census of India definition of sex ratio and give the all-India sex ratio figure as per Census 2011.",
+     "a": "**Correct answer:** Sex ratio = (Number of females / Number of males) × 1,000. All-India sex ratio (2011) = 943 females per 1,000 males.  \n**What a wrong answer reveals:** If a student writes \"males per 1,000 females\" or quotes 933 (2001 figure) or 940 (rounded), they have not memorised the precise Census definition and the latest official figure — a frequent 1-mark loss in Board exams.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** The child sex ratio (0–6 years) in India dropped from 945 (1991) to 927 (2001) to 919 (2011) while the overall sex ratio improved slightly from 927 to 943 in the same period. Explain *why* these two ratios can move in opposite directions.",
+     "a": "**Correct answer:** Overall sex ratio reflects cumulative mortality/migration history of all cohorts; it improves when female life expectancy rises faster than male (as seen post-1990). Child sex ratio reflects *only* recent births and infant/child survival. A falling child sex ratio despite rising overall ratio signals intense prenatal sex selection (sex-selective abortion) and/or postnatal neglect of girls in the 0–6 age group — a distinction examiners test via assertion–reason questions.  \n**What a wrong answer reveals:** Attributing the decline solely to \"female infanticide\" misses the dominant role of prenatal technology (ultrasound) post-1980s. Confusing the two ratios shows inability to disaggregate cohort effects — a conceptual gap for JEE/NEET demography questions.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** Census 2011 gives India’s population as: 0–14 years = 372.4 million, 15–59 years = 728.8 million, 60+ years = 103.6 million. Calculate the (i) youth dependency ratio, (ii) old-age dependency ratio, (iii) total dependency ratio. Express each as dependents per 100 working-age persons.",
+     "a": "**Working:**  \nWorking-age (15–59) = 728.8 million  \n(i) Youth dependency = (372.4 / 728.8) × 100 = 51.1  \n(ii) Old-age dependency = (103.6 / 728.8) × 100 = 14.2  \n(iii) Total dependency = (372.4 + 103.6) / 728.8 × 100 = 65.3  \n**Answer:** Youth = 51.1, Old-age = 14.2, Total = 65.3 dependents per 100 working-age persons.  \n**What a wrong answer reveals:** Using total population (1,210.8 m) as denominator instead of working-age population; forgetting to multiply by 100; or misclassifying 15–59 as \"working population\" without checking Census definition (main+marginal workers are only ~39.8%). This tests arithmetic precision and definitional clarity — both Board and CUET traps.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the age–sex pyramids of Kerala and Bihar (Census 2011). Kerala: narrow base, bulge in 20–40, tapering top. Bihar: wide base, steep sides, very narrow top. Explain how these shapes reflect (a) fertility transition stage, (b) future labour-force growth, and (c) elderly care challenge for each state.",
+     "a": "**Correct answer:**  \n(a) Kerala’s narrow base = low fertility (TFR ~1.8), advanced demographic transition (Phase IV); Bihar’s wide base = high fertility (TFR ~3.4), late Phase III.  \n(b) Kerala’s workforce will shrink as small cohorts enter 15–59; Bihar’s will expand rapidly — demographic dividend window open longer but needs job creation.  \n(c) Kerala’s bulge at 20–40 moving upward creates imminent ageing crisis (old-age dependency already ~20%); Bihar’s narrow top means low current elderly burden but future surge when today’s large youth cohorts age.  \n**What a wrong answer reveals:** Describing pyramids as \"pyramid vs. barrel\" without linking to fertility/mortality drivers; missing that Bihar’s dividend is *potential* not *automatic*; ignoring inter-state migration (Kerala imports labour). This multi-layered comparison is a favourite 5-mark Board case-study item.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** \"Beti Bachao Beti Padhao (BBBP) launched in 2015 has successfully reversed the declining child sex ratio trend in Haryana.\" Critically evaluate this statement using Census 2011 vs. NFHS-5 (2019–21) data and implementation challenges.",
+     "a": "**Correct answer:** NFHS-5 shows Haryana’s sex ratio at birth improved from 834 (NFHS-4, 2015–16) to 914 (NFHS-5) — a significant gain. *However*: (1) NFHS samples ~30,000 households vs. Census universal enumeration; (2) improvement concentrated in a few districts (Panipat, Karnal) where BBBP was piloted intensively; (3) PCPNDT Act enforcement remains weak — 2020–22 saw only 58 convictions nationwide; (4) postnatal neglect (nutrition, immunisation) persists. Thus, *partial, localized reversal* ≠ *sustained national trend*.  \n**What a wrong answer reveals:** Citing only NFHS-5 headline number without methodological caveats; ignoring that Census 2021 is delayed so no post-2011 universal data exists; treating scheme launch as outcome. Evaluation requires triangulating sources — a CUET/UPSC skill.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a two-pronged policy intervention for Kerala’s rising old-age dependency ratio (projected 30% by 2031) that (a) leverages its high female literacy and (b) addresses the \"feminisation of ageing\" (more elderly women than men). Outline objectives, target groups, and one measurable indicator for each prong.",
+     "a": "**Expected answer (criteria for a good response):**  \nProng 1 — *Silver Economy Skilling*: Train 50,000 women (45–59) in geriatric care, home nursing, palliative support by 2027. Indicator: % certified caregivers employed within 6 months.  \nProng 2 — *Community-Based Elderly Collectives*: Form ward-level \"Senior Sangams\" with 70% female membership, linked to Kudumbashree SHGs, providing daily check-ins, digitised health records, and intergenerational tutoring. Indicator: Reduction in elderly falls/hospitalisations by 15% in pilot panchayats.  \n**What a poor answer reveals:** Generic \"build more old-age homes\" (ignores Kerala’s cultural preference for ageing in place); missing gender lens (elderly women outlive men by 4–5 years, often widowed, asset-poor); no measurable indicator. Creation tasks test synthesis of demography + gender + federalism — a Board competency hallmark.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

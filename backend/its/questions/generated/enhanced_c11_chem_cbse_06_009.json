@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_009",
+   "title": "c11_chem_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the Third Law of Thermodynamics in your own words, specifying the conditions under which it applies.",
+     "a": "The Third Law states that the entropy of a perfect crystalline substance is zero at absolute zero (0 K). A wrong answer (e.g., \"entropy of any substance at 0 K is zero\") reveals the misconception that the law applies universally, ignoring the critical requirement of a *perfect crystal* with no configurational disorder.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a perfect crystal at 0 K have zero entropy, while a glassy solid or a solid solution of CO does not? Explain using the concept of microstates.",
+     "a": "A perfect crystal at 0 K has only one microstate (W = 1) because all particles are in their unique, ordered lattice positions. Since S = k_B ln W, S = 0. A glassy solid or CO solid has frozen-in disorder (multiple orientations or configurations) even at 0 K, giving W > 1 and thus residual entropy. A wrong answer indicates confusion between thermal disorder (which vanishes at 0 K) and configurational disorder (which can remain).",
+     "self_check": true
+    },
+    {
+     "q": "The molar heat capacity of a perfect crystalline solid at low temperatures is given by C_p = aT³ (Debye T³ law). Derive an expression for its absolute entropy at temperature T.",
+     "a": "Using the Third Law, S(0) = 0. ΔS = ∫₀^T (C_p/T)dT = ∫₀^T (aT³/T)dT = ∫₀^T aT² dT = (a/3)T³. So S(T) = (a/3)T³. A wrong answer (e.g., integrating aT³ directly without dividing by T) shows a lack of understanding of the entropy change formula dS = δq_rev/T = (C_p dT)/T.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the absolute entropy at 298 K of two isomeric solids: one a perfect crystal, the other a solid solution with random mixing. Which has higher entropy and why? Relate your answer to the Third Law.",
+     "a": "The solid solution has higher absolute entropy at 298 K. Both start from S=0 at 0 K if they were perfect crystals, but the solid solution has *configurational* entropy due to random mixing that persists at 0 K (residual entropy). This adds to the thermal entropy accumulated from 0 to 298 K. A wrong answer suggests the student thinks the Third Law forces all substances to have the same entropy at 0 K, ignoring residual entropy.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the Third Law says S=0 at 0 K, we can never reach 0 K because that would require removing all entropy, which is impossible by the Second Law.\" Evaluate this statement.",
+     "a": "The statement correctly links the Third Law to the unattainability of absolute zero. The Second Law says any process at constant temperature requires heat exchange; to reach 0 K, we would need a reservoir at <0 K, which is impossible. However, the Third Law itself is often formulated as \"it is impossible to reach absolute zero in a finite number of steps.\" The student's reasoning is qualitatively correct but mixes the two laws. A wrong evaluation might treat them as independent or miss the thermodynamic impossibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using a paramagnetic salt to illustrate why absolute zero cannot be reached by adiabatic demagnetisation, referencing the Third Law.",
+     "a": "A good answer: Start with a paramagnetic salt at low temperature in a magnetic field. The field aligns spins (low entropy). Adiabatically remove the field – spins randomise, temperature drops further. Repeat. Each cycle reduces temperature but the entropy change per cycle diminishes as T→0 because S→0. Infinite cycles are needed to reach exactly 0 K. A poor answer reveals the student cannot connect the Third Law's S→0 limit to the diminishing cooling efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

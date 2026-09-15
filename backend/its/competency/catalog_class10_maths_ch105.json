@@ -1,0 +1,574 @@
+{
+ "chapter": 105,
+ "concepts": [
+  {
+   "id": "jemh.5.1",
+   "title": "Definition of AP and Common Difference",
+   "section": "5.2",
+   "definition": "An Arithmetic Progression (AP) is a list of numbers in which each term is obtained by adding a fixed number to the preceding term. This fixed number is called the common difference (d) of the AP. An AP is written as a, a+d, a+2d, a+3d, ... where a is the first term and d is the common difference.",
+   "formula": "d = a_(n+1) - a_n ; AP: a, a+d, a+2d, a+3d, ...",
+   "key_idea": "The common difference d is the same between any two consecutive terms. It can be positive, negative, or zero.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the common difference of the given AP",
+    "calculate the common difference from two consecutive terms",
+    "what is the common difference of the arithmetic progression",
+    "determine d for the given list of numbers",
+    "find the common difference when two consecutive terms are given",
+    "how do you get the common difference of a sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify consecutive terms",
+     "explain": "Take the first term and the term that follows it."
+    },
+    {
+     "step": 2,
+     "action": "Subtract to get the common difference",
+     "explain": "d equals the later term minus the earlier term.",
+     "compute": "d = a2 - a1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the common difference of the AP: 3, 6, 9, 12, ...",
+     "solution": "a_1 = 3, a_2 = 6, a_3 = 9. d = a_2 - a_1 = 6 - 3 = 3. Check: a_3 - a_2 = 9 - 6 = 3. Common difference is constant.",
+     "answer": "d = 3"
+    },
+    {
+     "question": "Write the first four terms of an AP where a = 5 and d = -3.",
+     "solution": "a = 5, d = -3. Terms: a = 5; a+d = 5 + (-3) = 2; a+2d = 5 + 2(-3) = -1; a+3d = 5 + 3(-3) = -4.",
+     "answer": "5, 2, -1, -4"
+    },
+    {
+     "question": "Is the sequence 2, 4, 8, 16, ... an AP?",
+     "solution": "a_2 - a_1 = 4 - 2 = 2; a_3 - a_2 = 8 - 4 = 4. The differences are not equal, so it is not an AP.",
+     "answer": "Not an AP"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the common difference of the AP: 10, 7, 4, 1, ...",
+     "type": "compute"
+    },
+    {
+     "question": "Write the first five terms of an AP with a = 4 and d = 6.",
+     "type": "compute"
+    },
+    {
+     "question": "Determine whether the sequence 1, 4, 9, 16, ... is an AP.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.2",
+   "title": "nth Term of an AP",
+   "section": "5.3",
+   "definition": "The nth term of an AP with first term a and common difference d is given by the formula a_n = a + (n-1)*d. This is also called the general term of the AP.",
+   "formula": "a_n = a + (n - 1) * d",
+   "key_idea": "The nth term formula lets you find any term of an AP without listing all previous terms. It is also used to check whether a given number is a term of the AP.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the nth term of an AP given the first term and common difference",
+    "calculate the 10th term of the arithmetic progression",
+    "what is the 15th term when a and d are given",
+    "determine the value of the nth term using a + (n - 1)d",
+    "find the 25th term of the AP with the given a and d",
+    "compute a specific term of the arithmetic progression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify a, d and n",
+     "explain": "Read the first term, the common difference and the position."
+    },
+    {
+     "step": 2,
+     "action": "Apply the nth term formula",
+     "explain": "Add (n - 1) copies of d to the first term.",
+     "compute": "nth_term = a + (n - 1) * d"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the 10th term of the AP: 2, 7, 12, ...",
+     "solution": "a = 2, d = 7 - 2 = 5, n = 10. a_10 = 2 + (10 - 1)*5 = 2 + 45 = 47.",
+     "answer": "a_10 = 47"
+    },
+    {
+     "question": "Which term of the AP 3, 8, 13, 18, ... is 78?",
+     "solution": "a = 3, d = 5, a_n = 78. 78 = 3 + (n-1)*5 => 75 = (n-1)*5 => n-1 = 15 => n = 16.",
+     "answer": "16th term"
+    },
+    {
+     "question": "Is 100 a term of the AP 5, 11, 17, 23, ...?",
+     "solution": "a = 5, d = 6, a_n = 100. 100 = 5 + (n-1)*6 => 95 = (n-1)*6 => n-1 = 95/6 = 15.83. Since n is not an integer, 100 is not a term.",
+     "answer": "No, 100 is not a term of the AP"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the 15th term of the AP: 7, 13, 19, ...",
+     "type": "compute"
+    },
+    {
+     "question": "Which term of the AP 2, 9, 16, 23, ... is 142?",
+     "type": "compute"
+    },
+    {
+     "question": "Check whether 51 is a term of the AP 3, 6, 9, 12, ...",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.3",
+   "title": "Sum of First n Terms of an AP",
+   "section": "5.4",
+   "definition": "The sum of the first n terms of an AP with first term a and common difference d is given by S_n = n/2 * (2a + (n-1)*d). This formula is useful when the first term and common difference are known.",
+   "formula": "S_n = (n / 2) * (2a + (n - 1) * d)",
+   "key_idea": "The sum formula gives the total of the first n terms directly without listing all terms. It is derived from pairing terms from the start and end of the AP.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the sum of the first n terms of an AP given a, d and n",
+    "calculate the sum of the first 20 terms of the arithmetic progression",
+    "what is the sum of the first n terms when a and d are given",
+    "determine the total of the first n terms using the formula",
+    "compute the partial sum of the AP up to the nth term",
+    "how much do the first n terms of the AP add up to"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify a, d and n",
+     "explain": "Read the first term, the common difference and how many terms are added."
+    },
+    {
+     "step": 2,
+     "action": "Apply the sum formula",
+     "explain": "Half of n times (2a + (n - 1)d).",
+     "compute": "s_n = (n / 2) * (2 * a + (n - 1) * d)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the sum of the first 20 terms of the AP: 3, 8, 13, ...",
+     "solution": "a = 3, d = 5, n = 20. S_20 = 20/2 * (2*3 + (20-1)*5) = 10 * (6 + 95) = 10 * 101 = 1010.",
+     "answer": "S_20 = 1010"
+    },
+    {
+     "question": "Find the sum of the first 15 terms of the AP where a = 2 and d = 4.",
+     "solution": "a = 2, d = 4, n = 15. S_15 = 15/2 * (2*2 + (15-1)*4) = 15/2 * (4 + 56) = 15/2 * 60 = 15 * 30 = 450.",
+     "answer": "S_15 = 450"
+    },
+    {
+     "question": "How many terms of the AP 5, 9, 13, ... must be taken to give a sum of 230?",
+     "solution": "a = 5, d = 4, S_n = 230. 230 = n/2 * (2*5 + (n-1)*4) = n/2 * (10 + 4n - 4) = n/2 * (4n + 6) = n(2n + 3). So 2n^2 + 3n - 230 = 0. Solving: n = (-3 + sqrt(9 + 1840))/4 = (-3 + 43)/4 = 10.",
+     "answer": "n = 10 terms"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the sum of the first 25 terms of the AP: 1, 6, 11, ...",
+     "type": "compute"
+    },
+    {
+     "question": "Find the sum of the first 12 terms of an AP with a = 10 and d = -2.",
+     "type": "compute"
+    },
+    {
+     "question": "How many terms of the AP 3, 7, 11, ... give a sum of 210?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.4",
+   "title": "Sum of AP with Given First and Last Term",
+   "section": "5.4",
+   "definition": "When the first term a and the last term l of an AP are known, the sum of the first n terms is given by S_n = n/2 * (a + l). This is an alternative form of the sum formula.",
+   "formula": "S_n = (n / 2) * (a + l)",
+   "key_idea": "This formula is useful when the last term is known or easier to find than the common difference. It is equivalent to S_n = n/2 * (2a + (n-1)*d) since l = a + (n-1)*d.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the sum of an AP given the first term, last term and number of terms",
+    "calculate the sum of the first n natural numbers with known first and last terms",
+    "what is the total of the AP when the first and last terms are known",
+    "determine the sum using n over 2 times the sum of the end terms",
+    "compute the total of consecutive odd or even numbers from first to last term",
+    "how much do all the terms add up to when the first and last terms are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify a, l and n",
+     "explain": "Read the first term, the last term and the number of terms."
+    },
+    {
+     "step": 2,
+     "action": "Apply the first-last sum formula",
+     "explain": "Half of n times the sum of the end terms.",
+     "compute": "s_n = (n / 2) * (a + l)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the sum of the first 30 natural numbers.",
+     "solution": "a = 1, l = 30, n = 30. S_30 = 30/2 * (1 + 30) = 15 * 31 = 465.",
+     "answer": "S_30 = 465"
+    },
+    {
+     "question": "Find the sum of an AP whose first term is 4, last term is 52, and the number of terms is 12.",
+     "solution": "a = 4, l = 52, n = 12. S_12 = 12/2 * (4 + 52) = 6 * 56 = 336.",
+     "answer": "S_12 = 336"
+    },
+    {
+     "question": "Find the sum of all even numbers between 1 and 100.",
+     "solution": "Even numbers: 2, 4, 6, ..., 100. a = 2, l = 100, d = 2, n = 50. S = 50/2 * (2 + 100) = 25 * 102 = 2550.",
+     "answer": "Sum = 2550"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the sum of the first 50 natural numbers.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the sum of an AP with a = 7, l = 77, n = 15.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the sum of all odd numbers between 1 and 50.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.5",
+   "title": "Finding Missing Terms in an AP",
+   "section": "5.3",
+   "definition": "When some terms of an AP are missing, they can be found using the property that the common difference is constant. If two non-consecutive terms are known, use a_n = a + (n-1)*d to find a and d, then compute the missing terms.",
+   "formula": "d = (a_m - a_n) / (m - n) ; a_k = a + (k - 1) * d",
+   "key_idea": "The common difference can be found from any two known terms using d = (a_m - a_n)/(m - n). Once d is known, all missing terms can be computed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the common difference given two non-consecutive terms of an AP",
+    "calculate d when the mth and nth terms are known",
+    "what is the common difference if the 5th and 9th terms are given",
+    "determine d from two known terms at different positions",
+    "compute the common difference of an AP from two separated terms",
+    "find d using the gap between positions and values of two terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note two known terms and their positions",
+     "explain": "Say the m-th term and the n-th term are known."
+    },
+    {
+     "step": 2,
+     "action": "Divide the value gap by the position gap",
+     "explain": "d = (a_m - a_n) / (m - n); the position gap is at least 1.",
+     "compute": "d = (term_m - term_n) / max(pos_m - pos_n, 1)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the missing term in the AP: 2, _, 8, 11, ...",
+     "solution": "Known: a_1 = 2, a_3 = 8, a_4 = 11. d = a_4 - a_3 = 11 - 8 = 3. Check: a_3 = a_1 + 2d = 2 + 6 = 8 (correct). Missing term a_2 = a_1 + d = 2 + 3 = 5.",
+     "answer": "Missing term = 5"
+    },
+    {
+     "question": "Find the 4th term of an AP whose 2nd term is 7 and 7th term is 22.",
+     "solution": "a_2 = a + d = 7, a_7 = a + 6d = 22. Subtract: 5d = 15 => d = 3. Then a = 7 - 3 = 4. a_4 = 4 + 3*3 = 13.",
+     "answer": "4th term = 13"
+    },
+    {
+     "question": "Insert 3 arithmetic means between 1 and 11.",
+     "solution": "Total terms = 5 (1, _, _, _, 11). a_1 = 1, a_5 = 11. d = (11 - 1)/4 = 2.5. Means: 3.5, 6, 8.5.",
+     "answer": "3.5, 6, 8.5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the missing term: 5, _, 15, 20, ...",
+     "type": "compute"
+    },
+    {
+     "question": "The 3rd term of an AP is 15 and the 8th term is 35. Find the 10th term.",
+     "type": "compute"
+    },
+    {
+     "question": "Insert 4 arithmetic means between 2 and 22.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.6",
+   "title": "Word Problems on AP",
+   "section": "5.3",
+   "definition": "Word problems on AP involve real-life situations that can be modeled as arithmetic progressions, such as savings, distances, salaries, and arrangements. The key is to identify the first term, common difference, and the quantity to find.",
+   "formula": "a_n = a + (n - 1) * d ; S_n = (n / 2) * (2a + (n - 1) * d)",
+   "key_idea": "Translate the word problem into AP parameters: the first value is a, the constant change is d, and the position or total is n. Then apply the appropriate AP formula.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the total amount saved after n months with a fixed monthly increase",
+    "calculate the total distance covered in n stages with a fixed increment per stage",
+    "what total salary accumulates over n years with a fixed annual increment",
+    "determine the total production over n days when output rises by a fixed amount",
+    "compute the accumulated total after n periods of constant growth",
+    "how much money gathers in total over n periods of a fixed savings plan"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Map the story to a, d and n",
+     "explain": "Starting value becomes a, the fixed change becomes d and the count becomes n."
+    },
+    {
+     "step": 2,
+     "action": "Accumulate with the sum formula",
+     "explain": "Half of n times (2a + (n - 1)d).",
+     "compute": "s_n = (n / 2) * (2 * a + (n - 1) * d)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A man saves Rs 1000 in the first month, Rs 1100 in the second month, Rs 1200 in the third month, and so on. How much will he save in the 15th month?",
+     "solution": "a = 1000, d = 100, n = 15. a_15 = 1000 + (15-1)*100 = 1000 + 1400 = 2400.",
+     "answer": "Rs 2400"
+    },
+    {
+     "question": "A contractor pays Rs 200 on the first day, Rs 250 on the second day, and so on. How much will he pay for 30 days of work?",
+     "solution": "a = 200, d = 50, n = 30. S_30 = 30/2 * (2*200 + (30-1)*50) = 15 * (400 + 1450) = 15 * 1850 = 27750.",
+     "answer": "Rs 27750"
+    },
+    {
+     "question": "The sum of the first 7 terms of an AP is 49 and that of 17 terms is 289. Find the sum of the first n terms.",
+     "solution": "S_7 = 7/2*(2a + 6d) = 49 => 2a + 6d = 14 => a + 3d = 7. S_17 = 17/2*(2a + 16d) = 289 => 2a + 16d = 34 => a + 8d = 17. Subtract: 5d = 10 => d = 2, a = 1. S_n = n/2*(2 + (n-1)*2) = n/2*(2n) = n^2.",
+     "answer": "S_n = n^2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A laddar has 10 rungs. The length of the lowest rung is 45 cm and each rung is 2 cm shorter than the one below it. Find the length of the topmost rung.",
+     "type": "compute"
+    },
+    {
+     "question": "Ramkali saved Rs 5 in the first week of a year and increased her weekly savings by Rs 1.75. How much did she save in the 20th week?",
+     "type": "compute"
+    },
+    {
+     "question": "The sum of 4 consecutive terms of an AP is 32 and the product of the first and last is 60. Find the terms.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.7",
+   "title": "Verifying an Arithmetic Progression",
+   "section": "5.2",
+   "definition": "A sequence is an AP if and only if the difference between any two consecutive terms is constant. To verify, compute a_(n+1) - a_n for all consecutive pairs and check if the difference is the same throughout.",
+   "formula": "Check: a_2 - a_1 = a_3 - a_2 = ... = a_(n+1) - a_n = d (constant)",
+   "key_idea": "If the common difference is the same for every pair of consecutive terms, the sequence is an AP. Any single pair with a different difference means it is not an AP.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Verify whether a given finite sequence is an AP",
+    "Verify whether a sequence defined by a formula a_n = f(n) is an AP",
+    "Show that the sequence of even/odd/multiples is an AP",
+    "Determine if the sequence of squares or cubes is an AP",
+    "Prove that a given sequence is not an AP"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form the successive differences",
+     "explain": "Subtract each term from the next (or compute a_(n+1) - a_n from the formula)."
+    },
+    {
+     "step": 2,
+     "action": "Compare the differences",
+     "explain": "Every difference must equal the same constant d."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "A constant d confirms an AP; unequal differences mean it is not an AP."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Verify whether the sequence 5, 9, 13, 17, 21 is an AP.",
+     "solution": "Differences: 9 - 5 = 4, 13 - 9 = 4, 17 - 13 = 4, 21 - 17 = 4. All differences are equal to 4.",
+     "answer": "Yes, it is an AP with common difference d = 4"
+    },
+    {
+     "question": "Verify whether the sequence defined by a_n = 3n + 2 is an AP.",
+     "solution": "a_n = 3n + 2, a_(n+1) = 3(n+1) + 2 = 3n + 5. a_(n+1) - a_n = (3n + 5) - (3n + 2) = 3, which is constant for all n.",
+     "answer": "Yes, it is an AP with common difference d = 3"
+    },
+    {
+     "question": "Verify whether the sequence 1, 4, 9, 16, 25 is an AP.",
+     "solution": "Differences: 4 - 1 = 3, 9 - 4 = 5, 16 - 9 = 7, 25 - 16 = 9. The differences are not equal.",
+     "answer": "No, it is not an AP"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Verify whether the sequence 11, 8, 5, 2, -1 is an AP.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Verify whether the sequence defined by a_n = 5 - 2n is an AP.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Verify whether the sequence 2, 6, 12, 20, 30 is an AP.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.8",
+   "title": "Finding the nth Term from the End of an AP",
+   "section": "5.3",
+   "definition": "The nth term from the end of an AP with first term a, common difference d, and last term l can be found by reversing the AP. In the reversed AP, the last term becomes the first term and the common difference becomes -d.",
+   "formula": "nth term from end = l - (n - 1) * d ; where l is the last term",
+   "key_idea": "Treat the AP in reverse order: the last term l becomes the first term, and the common difference becomes -d. Then the nth term from the end is l + (n-1)*(-d) = l - (n-1)*d.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the nth term from the end of a given AP",
+    "Find the 5th term from the end of an AP",
+    "Find the term from the end given the first term, last term, and d",
+    "Find which term from the end equals a given value",
+    "Find the middle term of an AP using terms from both ends"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify l, d and n",
+     "explain": "Take the last term, the common difference and the position counted from the end."
+    },
+    {
+     "step": 2,
+     "action": "Apply the from-the-end formula",
+     "explain": "Subtract (n - 1) copies of d from the last term.",
+     "compute": "term_from_end = l - (n - 1) * d"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the 5th term from the end of the AP: 3, 8, 13, ..., 93.",
+     "solution": "l = 93, d = 5, n = 5. 5th term from end = 93 - (5-1)*5 = 93 - 20 = 73.",
+     "answer": "73"
+    },
+    {
+     "question": "Find the 8th term from the end of the AP: 5, 10, 15, ..., 100.",
+     "solution": "l = 100, d = 5, n = 8. 8th term from end = 100 - (8-1)*5 = 100 - 35 = 65.",
+     "answer": "65"
+    },
+    {
+     "question": "Find the 10th term from the end of the AP: -5, -2, 1, 4, ..., 55.",
+     "solution": "l = 55, d = 3, n = 10. 10th term from end = 55 - (10-1)*3 = 55 - 27 = 28.",
+     "answer": "28"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the 6th term from the end of the AP: 2, 7, 12, ..., 102.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the 4th term from the end of the AP: 10, 14, 18, ..., 66.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the 7th term from the end of the AP: 1, 4, 7, ..., 88.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.9",
+   "title": "Sum and Terms of an AP",
+   "section": "5.4",
+   "definition": "The sum of the first n terms of an AP and the nth term are related by the formula: a_n = S_n - S_(n-1). That is, the nth term equals the difference between the sum of the first n terms and the sum of the first (n-1) terms.",
+   "formula": "a_n = S_n - S_(n - 1)",
+   "key_idea": "If the sum S_n is given as a function of n, the nth term can be found by computing S_n - S_(n-1). Conversely, if a_n is known, S_n can be found by summation. This relationship is fundamental for problems where the sum is given as an expression in n.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the nth term given S_n as an expression in n",
+    "Find a specific term using S_n and S_(n-1)",
+    "Verify the relationship a_n = S_n - S_(n-1) for a given AP",
+    "Find the first term and common difference given S_n as a formula",
+    "Find the sum given the nth term formula"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write S_n and S_(n-1)",
+     "explain": "Replace n by n - 1 in the given sum formula."
+    },
+    {
+     "step": 2,
+     "action": "Subtract to get the term",
+     "explain": "a_n = S_n - S_(n-1)."
+    },
+    {
+     "step": 3,
+     "action": "Read a and d",
+     "explain": "The first term is S_1 and the common difference is a_2 - a_1."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the sum of the first n terms of an AP is S_n = 3n^2 + 5n, find the nth term.",
+     "solution": "S_n = 3n^2 + 5n. S_(n-1) = 3(n-1)^2 + 5(n-1) = 3n^2 - 6n + 3 + 5n - 5 = 3n^2 - n - 2. a_n = S_n - S_(n-1) = (3n^2 + 5n) - (3n^2 - n - 2) = 6n + 2.",
+     "answer": "a_n = 6n + 2"
+    },
+    {
+     "question": "If S_n = n^2 + 2n, find the first three terms of the AP.",
+     "solution": "a_1 = S_1 = 1 + 2 = 3. a_2 = S_2 - S_1 = (4 + 4) - 3 = 8 - 3 = 5. a_3 = S_3 - S_2 = (9 + 6) - 8 = 15 - 8 = 7. Terms: 3, 5, 7. d = 2.",
+     "answer": "3, 5, 7 (AP with a = 3, d = 2)"
+    },
+    {
+     "question": "Verify that a_n = S_n - S_(n-1) for the AP 2, 5, 8, 11, ... for n = 3.",
+     "solution": "a = 2, d = 3. a_3 = 2 + 2*3 = 8. S_3 = 3/2*(2*2 + 2*3) = 3/2*(4+6) = 3/2*10 = 15. S_2 = 2/2*(2*2 + 1*3) = 1*(4+3) = 7. a_3 = S_3 - S_2 = 15 - 7 = 8. Verified.",
+     "answer": "Verified: a_3 = S_3 - S_2 = 8"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If S_n = 2n^2 + 3n, find the nth term of the AP.",
+     "type": "verify_property"
+    },
+    {
+     "question": "If S_n = n^2 - n, find the first three terms of the AP.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Verify a_n = S_n - S_(n-1) for the AP 5, 10, 15, ... for n = 4.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "class": "10",
+ "subject": "maths",
+ "worked_examples": [],
+ "exercises": [],
+ "chapter_title": "Arithmetic Progressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh105.txt"
+}

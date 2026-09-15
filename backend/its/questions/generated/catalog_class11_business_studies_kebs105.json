@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_business_studies_kebs105",
+ "concepts": [
+  {
+   "id": "kebs.105.1.1",
+   "title": "e-business: Scope and Difference from Traditional Business",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'e-business: Scope and Difference from Traditional Business' refers to.",
+     "a": "e-business is the conduct of industry, trade and commerce using computer networks, covering e-purchasing, e-selling, e-production, e-finance, e-marketing and e-communication, and it differs from traditional business in ease of formation, cost, speed and global reach.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'e-business: Scope and Difference from Traditional Business'.",
+     "a": "e-business narrows the world into a click away, lowers transaction cost, and works round the clock, though personal touch is missing and technology requirements are high.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'e-business: Scope and Difference from Traditional Business' taught, and from which source text?",
+     "a": "e-business (source: kebs105.txt e-business section)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.2.1",
+   "title": "Online Transaction and Payment Mechanism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Online Transaction and Payment Mechanism' refers to.",
+     "a": "An online transaction proceeds through three stages of registration, placing an order and payment, where payment uses cash on delivery, cheque, net banking transfer, or credit and debit cards secured by encryption using SSL technology.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Online Transaction and Payment Mechanism'.",
+     "a": "Registration needs a shopping cart to collect items, and card details travel in encrypted form so that unauthorised persons cannot read them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Online Transaction and Payment Mechanism' taught, and from which source text?",
+     "a": "Online transaction (source: kebs105.txt online transaction section)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.3.1",
+   "title": "Security Concerns of e-business and Operating Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Security Concerns of e-business and Operating Resources' refers to.",
+     "a": "e-business faces transaction risks of default and electronic payment problems, data storage risks from viruses and hacking, and risks of intrusion through copied or altered websites, requiring safeguards like passwords, encryption and cyber security measures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Security Concerns of e-business and Operating Resources'.",
+     "a": "Outsourcing of information services and the choice between payment gateways and off the shelf shopping software are key operating requirements of e-business.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Security Concerns of e-business and Operating Resources' taught, and from which source text?",
+     "a": "Security concerns (source: kebs105.txt security concerns section)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.4.1",
+   "title": "Outsourcing: Concept, Scope and BPO KPO Services",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Outsourcing: Concept, Scope and BPO KPO Services' refers to.",
+     "a": "Outsourcing is contracting out selected business processes to outside agencies so the firm can concentrate on core competence, and its scope covers production outsourcing, and business process outsourcing in finance, customer care and IT enabled services, including knowledge process outsourcing requiring specialised knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Outsourcing: Concept, Scope and BPO KPO Services'.",
+     "a": "BPO and KPO services like call centres, payroll and legal research have made India a favoured outsourcing destination because of skilled manpower and low cost advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Outsourcing: Concept, Scope and BPO KPO Services' taught, and from which source text?",
+     "a": "Outsourcing (source: kebs105.txt outsourcing section)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

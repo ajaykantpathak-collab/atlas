@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_10",
+   "title": "c8_physics_ch6_10",
+   "questions": [
+    {
+     "q": "A student picks up a lens and notices it is thicker at the middle than at the edges. What type of lens is it, and what does it do to a beam of parallel light rays incident on it?",
+     "a": "It is a convex (converging) lens; it converges parallel rays to a real point on the principal axis called the principal focus. A wrong answer (e.g., calling it concave or saying it diverges light) reveals the student confuses the shape–behaviour relationship: they have not linked \"thicker at centre\" with \"converging\".",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex lens converge parallel rays while a concave lens diverges them, even though both are made of the same transparent material?",
+     "a": "Because the curvature of the two spherical surfaces is opposite: in a convex lens the surfaces bend outward, causing rays to bend toward the normal at the first surface and away from the normal at the second surface in a way that results in net convergence; in a concave lens the surfaces curve inward, producing net divergence. A wrong answer (e.g., \"different material\" or \"one is thicker\") shows the student attributes the behaviour to material or thickness alone, not to the geometry of refraction at each surface.",
+     "self_check": true
+    },
+    {
+     "q": "A convex lens has a focal length of 15 cm. If parallel rays from a distant tree are incident on the lens, at what distance from the lens will a sharp image of the tree form on a screen? Give your answer in cm.",
+     "a": "Step 1: Identify given – focal length f = 15 cm, object at infinity (parallel rays). Step 2: For a thin lens, parallel rays converge at the principal focus, so image distance v = f. Step 3: v = 15 cm. A wrong answer (e.g., 30 cm or 7.5 cm) reveals the student either confuses focal length with radius of curvature (as in mirrors) or misapplies the lens formula without recognising the object-at-infinity condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principal focus of a convex lens and a concave lens. Which one is real and which one is virtual? Explain how you would experimentally locate each focus using sunlight.",
+     "a": "The convex lens has a real focus (rays actually meet there) – you can catch the bright spot on a screen. The concave lens has a virtual focus (rays appear to diverge from it) – you cannot catch a spot on a screen; instead, trace the diverging rays backward with a ruler to find where they seem to originate. A wrong answer (e.g., both real or both virtual) shows the student does not distinguish between actual convergence and apparent divergence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I cover the lower half of a convex lens with black paper, the image of a distant object will become half.\" Evaluate this claim and explain what actually happens to the image.",
+     "a": "The claim is false. Covering half the lens reduces the intensity (brightness) of the image but the full image still forms because every point on the object sends rays through all uncovered parts of the lens. A wrong evaluation (agreeing with the claim) reveals the student thinks each part of the lens forms a separate piece of the image, not understanding that each point on the lens contributes to the whole image.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a screen, and a candle to determine the approximate focal length of the lens. List the steps and the measurement you would take.",
+     "a": "Steps: (1) Place the candle at a distance > 2f (e.g., 2 m) so rays are nearly parallel. (2) Move the screen until a sharp inverted image forms. (3) Measure the distance between lens and screen – this is the approximate focal length. A poor answer (e.g., \"put candle at focus\") shows the student confuses object and image distances and does not grasp the \"distant object ≈ parallel rays\" principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

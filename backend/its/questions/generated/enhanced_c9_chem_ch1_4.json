@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_4",
+   "title": "c9_chem_ch1_4",
+   "questions": [
+    {
+     "q": "Define crystallisation and state the principle on which it is based.",
+     "a": "Crystallisation is the process of formation of pure solid crystals from a saturated solution by cooling or evaporation. The principle is that solubility of most solids increases with temperature and decreases on cooling, so a hot saturated solution becomes supersaturated on cooling and deposits pure crystals. A wrong answer (e.g., \"crystallisation is just evaporation\") reveals the student confuses simple evaporation (which gives powdery solid with impurities) with controlled crystallisation (which yields pure crystals).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the impure solid dissolved in *minimum* amount of *hot* solvent during crystallisation? What would happen if you used a large volume of cold solvent?",
+     "a": "Minimum hot solvent ensures a concentrated saturated solution at high temperature so that on cooling, a large amount of solute crystallises out (high yield). Using a large volume of cold solvent would dissolve only a small amount (low solubility at low temperature), giving very few crystals and leaving most solute undissolved. A wrong answer (e.g., \"hot water dissolves faster\") misses the quantitative solubility-temperature relationship and yield optimisation.",
+     "self_check": true
+    },
+    {
+     "q": "A student has 50 g of impure potassium nitrate (KNO₃) contaminated with 5 g sand and 2 g soluble impurity (NaCl). The solubility of KNO₃ is 32 g/100 g water at 20°C and 100 g/100 g water at 60°C. Calculate the maximum mass of pure KNO₃ crystals that can be obtained by crystallisation from 100 g water, assuming no loss during filtration and the soluble impurity does not crystallise.",
+     "a": "Step 1: At 60°C, 100 g water dissolves 100 g KNO₃ (saturated). The impure sample has 50 g KNO₃, so all dissolves. Step 2: Filter hot – sand (5 g) removed. Step 3: Cool filtrate to 20°C. At 20°C, 100 g water holds only 32 g KNO₃. Step 4: Crystals formed = 50 g - 32 g = 18 g pure KNO₃. Step 5: Mother liquor contains 32 g KNO₃ + 2 g NaCl. Answer: 18 g. A wrong answer (e.g., 50 g) ignores that some solute remains dissolved at lower temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare crystallisation and simple evaporation as methods to obtain a solid from its solution. Give two specific situations where crystallisation is essential and evaporation fails.",
+     "a": "Crystallisation gives pure, well-defined crystals by slow cooling of a concentrated saturated solution; evaporation gives a fine, often impure powder by rapid boiling. Situations: (1) Heat-sensitive solids (e.g., sugar, some pharmaceuticals) decompose on boiling – crystallisation at lower temperature prevents decomposition. (2) Solids with soluble impurities – evaporation crystallises impurities along with the product; crystallisation leaves soluble impurities in mother liquor. A wrong answer listing only \"crystallisation is slower\" misses the purity and thermal stability aspects.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I cool a saturated solution very quickly in an ice bath, I will get more crystals because the solubility drops faster.\" Evaluate this statement.",
+     "a": "The statement is partially correct in outcome (more crystals may form) but flawed in quality. Rapid cooling causes many small nuclei to form simultaneously, yielding tiny, imperfect crystals that trap mother liquor (with impurities) inside. Slow cooling allows fewer nuclei to grow into large, pure crystals. The student confuses *quantity* with *purity and crystal quality*. A wrong answer agreeing fully reveals misunderstanding of nucleation vs growth kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure to purify a sample of impure alum (potassium aluminium sulphate) that contains insoluble dirt and a soluble coloured impurity. Include the purpose of each step.",
+     "a": "1. Dissolve impure alum in minimum hot distilled water (purpose: make concentrated saturated solution, soluble impurity dissolves, dirt does not). 2. Filter hot through fluted filter paper (purpose: remove insoluble dirt before it cools and clogs filter). 3. Concentrate filtrate by gentle heating to crystallization point (purpose: increase saturation for higher yield on cooling). 4. Cool slowly undisturbed (purpose: allow large pure crystals to form, exclude soluble impurity). 5. Filter cold to collect crystals (purpose: separate crystals from mother liquor containing soluble impurity). 6. Wash crystals with a little cold water (purpose: remove adhering mother liquor). 7. Dry between filter papers/in oven at low temp. A poor answer omits hot filtration, washing, or uses rapid cooling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

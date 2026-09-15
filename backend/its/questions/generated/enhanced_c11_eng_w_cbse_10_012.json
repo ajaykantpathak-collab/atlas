@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_012",
+   "title": "c11_eng_w_cbse_10_012",
+   "questions": [
+    {
+     "q": "Identify three explicit negative words or phrases Shakespeare uses in Sonnet 116 to define true love.",
+     "a": "Correct answer: \"not\" (line 1: \"Let me not\"), \"not\" (line 2: \"Love is not love\"), \"never\" (line 6: \"never shaken\"), \"no\" / \"nor\" (line 14: \"I never writ, nor no man ever loved\"). A wrong answer listing only \"not\" and \"never\" without line references reveals the student is scanning for vocabulary rather than reading for structural patterns — a literal-level error that prevents inferential analysis of *why* negatives cluster in specific quatrains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what the phrase \"Love's not Time's fool\" implies about the relationship between love and time, using the metaphor of the \"bending sickle's compass.\"",
+     "a": "Correct answer: The phrase personifies Time as the Grim Reaper (sickle) whose \"compass\" (range/sweep) claims youth (\"rosy lips and cheeks\"), but love refuses to be Time's \"fool\" (plaything/victim) — love endures beyond physical decay to \"the edge of doom.\" A wrong answer stating \"love defeats time\" or \"love is stronger than time\" reveals a thematic oversimplification: the student misses the precise metaphorical logic — love doesn't *defeat* Time; it simply *outlasts* Time's limited jurisdiction over the physical, a distinction critical for inferential questions on metaphysical poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal-to-inferential method to this question: \"Why does the poet call love 'an ever-fixed mark' and 'the star to every wandering bark'?\" Provide one literal observation and one inferential conclusion.",
+     "a": "Correct answer:\nStep 1 (Literal): \"Ever-fixed mark\" = a permanent sea-mark/beacon; \"star\" = Polaris, the North Star; \"wandering bark\" = lost ship.\nStep 2 (Inferential): Both metaphors establish love as a navigational constant — immutable, external to the lover, providing orientation amid chaos (\"tempests\"). The shift from stationary \"mark\" to celestial \"star\" elevates love from earthly reliability to cosmic permanence.\nA wrong answer describing only the imagery (\"it's a lighthouse and a star\") without connecting both to *navigation* and *constancy* reveals failure to synthesize across metaphors — a common error when students treat poetic devices in isolation rather than as a cohesive argument.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the final couplet (\"If this be error...\") transforms the poem from a definition of love into a logical proof. What structural function does the conditional \"If\" serve?",
+     "a": "Correct answer: The couplet employs a *reductio ad absurdum* structure: \"If [my definition] be error → I never writ → no man ever loved.\" Since the premises (Shakespeare wrote; men have loved) are empirically true, the definition *must* be true. The conditional \"If\" converts assertion into logical argument, making the poem a syllogism. A wrong answer calling it \"a strong ending\" or \"the poet's confidence\" reveals inability to recognize poetic structure as argumentation — a senior-secondary error where students conflate tone with logical form.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student response to \"How is love presented as an active force in the poem?\" — \"Love is shown as active because it 'looks on tempests,' 'is the star,' 'bears it out.' The poet gives love human actions.\" Is this a sufficient inferential answer for a 3-mark CBSE question? Justify.",
+     "a": "Correct evaluation: Insufficient. The response identifies personification (literal device-spotting) but fails to *infer why* Shakespeare chooses active verbs for an abstract noun. A 3-mark answer must explain: Personification makes love the *subject/agent* rather than humans (\"Let *me* not... I *never* writ\"), shifting focus from human fickleness to love's autonomous constancy. This connects to the poem's central argument: love acts *upon* us, not vice versa. The student's answer scores 1/3 (device identification only) — a typical board exam pitfall where evidence is cited but not interpreted.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-mark inferential question on Sonnet 116 that requires synthesizing imagery from two different quatrains, and provide a model answer using PEEL structure.",
+     "a": "Model question: \"How do the maritime metaphors in quatrain 2 ('ever-fixed mark,' 'star,' 'wandering bark,' 'tempests') and the agricultural metaphor in quatrain 3 ('bending sickle's compass,' 'rosy lips and cheeks') together define love's dual nature as both guide and survivor?\"\nModel PEEL answer:\nP: Shakespeare portrays love as both an external guide and an internal endurance.\nE: Quatrain 2 uses navigation imagery — \"ever-fixed mark,\" \"star to every wandering bark\" — positioning love as a constant reference point for lost souls.\nE: Quatrain 3 shifts to harvest imagery — Time's \"bending sickle\" reaps youth (\"rosy lips and cheeks\"), yet love \"bears it out even to the edge of doom,\" surviving the reaping.\nL: Together, love guides *through* life's storms (maritime) and persists *beyond* life's termination (agricultural), defining constancy as both directional and durational.\nA poor answer would list metaphors without the synthesizing \"dual nature\" insight, revealing compartmentalized rather than integrated reading.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

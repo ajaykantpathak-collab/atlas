@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_003",
+   "title": "c12_geo_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the three shape-based types of rural settlements and give one typical Indian location for each.",
+     "a": "Correct answer: Linear (e.g., villages along the Jhelum river in Kashmir or NH-44 in Punjab), Rectangular (e.g., villages in the Ganga-Yamuna doab like Meerut district), Circular (e.g., tank-centred villages in Tamil Nadu such as those near Kanchipuram). A wrong answer that lists \"nucleated, dispersed, linear\" confuses *pattern* (spacing) with *shape* (geometry) — a Class 11 vs Class 12 distinction. Another error: placing circular settlements in Rajasthan deserts; they are actually found in tank-irrigated peninsular India.",
+     "self_check": true
+    },
+    {
+     "q": "A village in the Malwa plateau shows a rectangular layout with streets intersecting at right angles. Explain the physical and historical factors that produce this pattern, and why it would NOT develop in a Himalayan valley.",
+     "a": "Correct answer: Rectangular patterns arise on extensive flat, fertile alluvial or black soil plains where land is divided into regular rectangular plots for agriculture (cadastral survey); the village grows along the grid. Historical factor: planned resettlement or revenue village layout during Mughal/British land surveys. In Himalayan valleys, steep slopes, narrow valley floors, and linear river/road corridors force houses into a linear pattern — rectangular grids are physically impossible. A wrong answer citing \"population density\" misses the terrain constraint; another citing \"caste segregation\" confuses social morphology with geometric shape.",
+     "self_check": true
+    },
+    {
+     "q": "On a 1:50,000 topographical sheet, you see a settlement symbol (red square) with houses aligned along a contour line at 1,200 m elevation, following a narrow ridge. The nearest perennial water source is a stream 500 m down the slope. Identify the settlement shape and justify why this location was chosen despite the water distance.",
+     "a": "Correct answer: **Linear settlement** (ridge-line type). Steps: (1) Recognize houses aligned along a contour/ridge = linear pattern. (2) In Himalayan/Western Ghats terrain, ridges offer stable, well-drained building ground; valley floors are flood-prone or marshy. (3) Water is fetched from the stream — the trade-off favors safety and arable land on slopes over proximity to water. A wrong answer identifying it as \"circular\" misreads the alignment; \"rectangular\" ignores the topographic control. Missing the \"why\" shows lack of process understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land-use efficiency and expansion potential of rectangular vs. circular rural settlements in the context of increasing population pressure. Which pattern adapts better to modern infrastructure (roads, pipelines) and why?",
+     "a": "Correct answer: Rectangular settlements have higher land-use efficiency — straight streets and right-angled plots minimize wasted space, allow easy subdivision, and align with modern grid infrastructure (roads, electricity, water pipes). Circular settlements have a natural limit: expansion increases the radius, lengthening the distance from new houses to the central resource (tank/temple) and creating awkward wedge-shaped plots. Rectangular patterns adapt better because they can extend linearly along any street without distorting the internal geometry. A wrong answer claiming circular is \"more compact\" ignores the increasing perimeter-to-area ratio; another saying \"both adapt equally\" misses the infrastructure compatibility argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Linear settlements along highways in Punjab are transforming into rectangular settlements due to ribbon development.\" Is this geographically accurate? Support with reasoning.",
+     "a": "Correct answer: The statement is **partially accurate but conceptually confused**. Ribbon development (linear spread along a transport corridor) *extends* the linear pattern — it does not create a rectangular grid. A rectangular pattern requires a *cross-road network* forming blocks. In Punjab, many highway villages show *linear* expansion on both sides of the road (double-sided linear), not a grid. True rectangularization occurs only when perpendicular link roads are built and plots are surveyed into a grid (e.g., planned model villages). A wrong answer agreeing fully reveals confusion between *linear expansion* and *pattern change*; a wrong answer denying any change misses the dynamic nature of settlement morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a settlement layout for a new village of 200 households in the coastal Andhra delta (flat, fertile, high water table, cyclone-prone). Specify the shape, orientation, house placement, and two disaster-resilient features. Justify each choice geographically.",
+     "a": "Expected answer criteria: (1) **Shape**: Rectangular grid (optimal for flat deltaic land, easy drainage channels). (2) **Orientation**: Streets aligned NE-SW and NW-SE to channel cyclone winds diagonally, reducing direct impact. (3) **House placement**: On raised plinths (0.5–1 m) along streets, with central open space for community shelter. (4) **Resilient features**: (a) Peripheral ring drain + internal grid drains to evacuate storm surge/rainwater; (b) Mangrove buffer zone 200 m wide on seaward side. Justification must link each choice to deltaic processes (flatness, flooding, wind). Poor answer: choosing circular shape (unsuited for flat expansive land), ignoring orientation, or omitting drainage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

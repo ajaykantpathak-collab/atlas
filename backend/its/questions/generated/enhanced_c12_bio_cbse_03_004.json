@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_004",
+   "title": "c12_bio_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the ploidy (n or 2n) and chromosome number (in humans) of a primary oocyte, a secondary oocyte, and a mature ovum immediately after fertilization.",
+     "a": "Primary oocyte: 2n, 46 chromosomes (replicated, each chromosome has two chromatids). Secondary oocyte: n, 23 chromosomes (each still with two chromatids). Mature ovum after fertilization: n, 23 chromosomes (each with one chromatid). A wrong answer (e.g., saying secondary oocyte is 2n) reveals confusion between DNA content and chromosome number after meiosis I, or failure to recognize that meiosis I separates homologous chromosomes but sister chromatids remain attached.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a human female is born with a finite number of primary oocytes arrested in prophase I, whereas a male continuously produces primary spermatocytes throughout adult life.",
+     "a": "In females, oogonia complete mitotic divisions by ~20 weeks of fetal life, enter meiosis I, and arrest at prophase I (dictyate stage) until puberty; no further mitotic divisions occur post‑birth. In males, spermatogonia undergo continuous mitotic self‑renewal from puberty onward, providing a steady supply of primary spermatocytes. A wrong answer that claims females also produce new oocytes after birth indicates a fundamental misunderstanding of the fixed ovarian reserve — a classic board and NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A 28‑year‑old woman is in the late follicular phase of her menstrual cycle. One dominant follicle has reached ~18 mm diameter. Predict the meiotic status of the oocyte inside this follicle and the hormonal trigger that will cause it to resume meiosis I.",
+     "a": "The oocyte is a primary oocyte arrested in prophase I. The LH surge (triggered by rising estradiol positive feedback) induces resumption of meiosis I, leading to completion of the first meiotic division ~36 hours later, producing a secondary oocyte (arrested at metaphase II) and the first polar body. A wrong answer stating the oocyte is already a secondary oocyte before the LH surge shows confusion between follicular growth (which takes ~14 days) and meiotic resumption (which is LH‑dependent and occurs only hours before ovulation).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cytokinesis events in oogenesis and spermatogenesis. How does unequal cytokinesis in oogenesis serve an adaptive function?",
+     "a": "In spermatogenesis, cytokinesis is equal, producing four functional spermatids of similar size. In oogenesis, meiosis I and II are highly asymmetric: the secondary oocyte retains almost all cytoplasm, organelles, and nutrients, while polar bodies receive minimal cytoplasm and eventually degenerate. This ensures the single ovum has ample reserves (mRNAs, proteins, mitochondria, yolk) to support early embryonic development until implantation. A wrong answer claiming equal cytokinesis in oogenesis misses the central evolutionary rationale for polar body formation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The second meiotic division in human oogenesis is completed in the fallopian tube only if fertilization occurs.\" Is this accurate? Justify your answer with the cellular events involved.",
+     "a": "Accurate. The secondary oocyte begins meiosis II immediately after meiosis I and arrests at metaphase II. It is ovulated in this state. Only upon sperm entry (fertilization) does the secondary oocyte complete meiosis II, segregating sister chromatids to form the mature ovum (female pronucleus) and the second polar body. If fertilization does not occur, the secondary oocyte degenerates ~24 hours after ovulation without completing meiosis II. A wrong answer claiming meiosis II completes before ovulation or regardless of fertilization confuses human oogenesis with species where meiosis II finishes prior to ovulation (e.g., some amphibians).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart (text‑based) that a Class 12 student could use to revise the entire sequence of oogenesis from fetal life to fertilization, including the key hormonal controls at each transition. Use arrows to show progression.",
+     "a": "Expected flowchart (text):\nFetal ovary: Oogonia (2n) --mitosis--> Primary oocytes (2n) --enter meiosis I--> Arrest at Prophase I (dictyate) until puberty.\nPuberty, each cycle: FSH rise --> Follicular growth --> Primary oocyte in dominant follicle completes Meiosis I (triggered by LH surge) --> Secondary oocyte (n, 23 chr, 2 chromatids) + 1st Polar Body.\nOvulation: Secondary oocyte arrested at Metaphase II --> enters fallopian tube.\nFertilization: Sperm entry --> Ca²⁺ wave --> Completion of Meiosis II --> Mature Ovum (n, 23 chr, 1 chromatid) + 2nd Polar Body.\nFusion of male & female pronuclei --> Zygote (2n).\nA poor answer omits the meiotic arrests, hormonal triggers, or polar body formation, indicating rote memorization without understanding the regulatory logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_002",
+   "title": "c11_bio_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the precise cell wall composition and living status that distinguishes parenchyma, collenchyma, and sclerenchyma from each other.",
+     "a": "Parenchyma: thin primary wall (cellulose, hemicellulose, pectin), living at maturity. Collenchyma: unevenly thickened primary wall (extra cellulose/pectin at corners), living at maturity. Sclerenchyma: thick, lignified secondary wall (cellulose + lignin), usually dead at maturity. A wrong answer (e.g., \"collenchyma has lignin\" or \"sclerenchyma is living\") reveals confusion between primary vs. secondary wall deposition and the link between lignification and protoplast death.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why collenchyma provides flexible tensile strength to young dicot stems like sunflower, while sclerenchyma provides rigid, non-elastic support in mature tissues like seed coats.",
+     "a": "Collenchyma's uneven primary wall thickening at cell corners allows longitudinal stretching while resisting bending — living protoplasts maintain turgor for flexibility. Sclerenchyma's uniform lignified secondary wall prevents all elastic deformation; dead cells form rigid cylinders. A wrong answer attributing flexibility to lignin or rigidity to turgor shows misunderstanding of wall mechanics: lignin eliminates plasticity, while turgor in living collenchyma enables reversible strain.",
+     "self_check": true
+    },
+    {
+     "q": "A transverse section of a maize stem shows scattered vascular bundles surrounded by a sheath of thick-walled dead cells. Identify this sheath tissue and explain its dual role in mechanical protection and preventing bundle collapse during water stress.",
+     "a": "The sheath is sclerenchyma (fibers). Step 1: Recognize monocot stem anatomy — scattered bundles, each with bundle sheath. Step 2: Thick lignified walls = sclerenchyma. Step 3: Mechanical role — sheath acts as a rigid cylinder resisting bending moments. Step 4: During water stress, negative pressure in xylem could collapse thin-walled phloem; the inextensible sclerenchyma sheath maintains bundle circular cross-section. Wrong identification as collenchyma ignores lignification and death; missing the hydraulic role shows incomplete structure-function integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parenchyma in potato tuber (storage), leaf mesophyll (photosynthesis), and aquatic plant cortex (aerenchyma). Analyze how wall structure and intercellular space differ to serve each function.",
+     "a": "Potato tuber: thin walls, dense cytoplasm, amyloplasts, minimal air spaces — maximizes starch storage per volume. Leaf mesophyll: thin walls, abundant chloroplasts (chlorenchyma), palisade/spongy differentiation — optimizes CO₂ diffusion and light capture. Aerenchyma: thin walls, huge intercellular spaces (lysigenous/schizogenous) — facilitates O₂ diffusion to submerged roots. A wrong comparison that treats all parenchyma as identical misses adaptive wall/space modifications: storage requires cytoplasmic density, photosynthesis requires chloroplast positioning, aeration requires gas-filled volume.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since sclerenchyma fibers are dead, they are metabolically useless to the plant.\" Provide two counterarguments with specific examples.",
+     "a": "Claim is false. Counterargument 1: Dead fibers conduct no metabolites but their rigid lignin matrix enables tall growth (e.g., *Bambusa* culms) — without them, herbaceous habit limits height and light competition. Counterargument 2: Sclereids in seed coats (e.g., *Pisum sativum*) protect embryo from mechanical damage and desiccation — metabolic inactivity ensures permanent, maintenance-free armor. A student accepting the claim confuses \"metabolic activity\" with \"functional value\"; dead tissues are strategic investments, not waste.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple staining protocol using safranin and fast green to distinguish parenchyma, collenchyma, and sclerenchyma in a hand-section of *Helianthus* stem. Predict the color each tissue will take and justify based on wall chemistry.",
+     "a": "Protocol: Section stem → stain 1 min in 1% safranin (red, binds lignin) → rinse → stain 30 sec in 0.5% fast green (green, binds cellulose/pectin) → mount in glycerin. Prediction: Parenchyma — green (only primary wall cellulose/pectin). Collenchyma — green with red corners (primary wall cellulose/pectin + possible lignin at thickened corners). Sclerenchyma — intense red (lignified secondary wall). A poor answer using only one stain or reversing colors reveals ignorance of differential affinity: safranin for lignin, fast green for non-lignified polysaccharides.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

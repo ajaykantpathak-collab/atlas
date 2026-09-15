@@ -1,0 +1,434 @@
+{
+ "catalog": "catalog_class6_maths_ch101.json",
+ "concepts": [
+  {
+   "id": "fegp.101.1.2.1",
+   "title": "Number Theory",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.2",
+   "title": "Triangular Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 8th triangular number?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 8 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "What is the 9th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "217",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 2 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 4 steps? (Rule: remaining = 8^steps)",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 4 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "585",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.3",
+   "title": "Square Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 38.",
+     "a": "1444",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 34 m. What is the number of square metres in its area?",
+     "a": "1156",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 11 x 9.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 41?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 26. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "170",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.4",
+   "title": "Cube Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the cube of 3.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "The volume of a cubical box is 64 cubic units. Find the length of one edge.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the cube root of 64.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The number 675 has the prime factorisation 3^3 x 5^2. Find the smallest number by which it must be multiplied so that the product is a perfect cube.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The number 1250 has the prime factorisation 5^4 x 2. Find the smallest number by which it must be divided so that the quotient is a perfect cube.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "A cube pattern adds consecutive odd numbers: 5^3 - 4^3 equals which odd number?",
+     "a": "61",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.1",
+   "title": "Sum of Consecutive Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 12 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 5 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 3 odd numbers and report the result as a perfect square value.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 6 odd numbers and report the result as a perfect square value.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 4 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.2",
+   "title": "Sum of Counting Numbers Up and Down",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add counting numbers up from 1 to 6 and then back down to 1 (1 + 2 + ... + 6 + ... + 2 + 1). What is the total?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Add counting numbers up from 1 to 10 and then back down to 1 (1 + 2 + ... + 10 + ... + 2 + 1). What is the total?",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Add counting numbers up from 1 to 14 and then back down to 1 (1 + 2 + ... + 14 + ... + 2 + 1). What is the total?",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "The sum of 4 consecutive triangular numbers starting from 1 equals a square. Which square value is it if n = 4? (Rule: sum = n^2)",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "The sum of two consecutive triangular numbers T_4 + T_5 is always a square. Compute T_4 = 4*(4+1)/2, T_5 = 5*(5+1)/2 and add them.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Virahanka numbers: sum 1 + 2 + ... + 8 + ... + 2 + 1 gives a square of the peak number. Find it.",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.5",
+   "title": "Sum of Consecutive Triangular Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 10th triangular number?",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 9 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "What is the 5th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "61",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 3 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 4 steps? (Rule: remaining = 8^steps)",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 3 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "73",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.8",
+   "title": "Hexagonal Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 7th triangular number?",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 5 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the 7th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 4 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 4 steps? (Rule: remaining = 8^steps)",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 2 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.9",
+   "title": "Sum of Hexagonal Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 11th triangular number?",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 6 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "What is the 8th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "169",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 4 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 2 steps? (Rule: remaining = 8^steps)",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 4 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "585",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.6.1",
+   "title": "Regular Polygons Properties",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
+     "compute": "other = 90 - 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 20 degrees, find the other.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 71 degrees, find the other.",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 46 degrees; find the other.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 150 degrees and 25 degrees, find the remaining angle.",
+     "a": "185",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 32 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 86 degrees. Find its co-interior partner.",
+     "a": "94",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.6.5",
+   "title": "Koch Snowflake Segments",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 14th triangular number?",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 10 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "What is the 5th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "61",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 4 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 4 steps? (Rule: remaining = 8^steps)",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 2 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

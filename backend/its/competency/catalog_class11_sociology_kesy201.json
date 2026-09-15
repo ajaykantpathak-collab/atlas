@@ -1,0 +1,204 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 201,
+ "chapter_title": "Social Structure, Stratification and Social Processes in Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy201.1.1",
+   "title": "Social Structure: Stable Patterns of Relationships",
+   "section": "1.1",
+   "definition": "Social structure refers to the recurring, organised patterns by which a society arranges its members -- families, castes, classes, offices and the expected relations among them. It is invisible as a thing yet visible in effects: it channels what people routinely do and constrains what they can do.",
+   "formula": "",
+   "key_idea": "Society has a skeleton -- positions and relations laid out in advance -- and everyone is born into its frame.",
+   "textbook_ref": "kesy201.txt lines 1-120 (introduction, social structure as organised pattern, constraining individual action, examples of structure in daily life)",
+   "question_patterns": [
+    "what is meant by social structure",
+    "in class 11 social structure and stratification: how does social structure constrain individual action",
+    "identify the structural elements behind a daily routine",
+    "why is social structure said to be invisible yet real",
+    "relate social structure to institutions and groups",
+    "can individuals change social structure discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the pattern",
+     "explain": "Behind repeated behaviour -- who defers to whom, who marries whom -- lies an organised arrangement of positions."
+    },
+    {
+     "step": 2,
+     "action": "note the compulsion",
+     "explain": "Structure precedes each individual: options, roles and life chances arrive pre-sorted."
+    },
+    {
+     "step": 3,
+     "action": "see the constraint and the scope",
+     "explain": "Structure constrains without dictating; individuals work within, around and occasionally against it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The recurring organised patterns arranging society's members are called social what?",
+     "a": "structure"
+    }
+   ]
+  },
+  {
+   "id": "kesy201.1.2",
+   "title": "Social Stratification: Caste and Class",
+   "section": "1.2",
+   "definition": "Stratification is society's ranking of people into layers with unequal wealth, power and honour. Caste is ascribed at birth, bounded by endogamy, backed by ideas of purity and pollution, and traditionally unchangeable; class is based mainly on economic position, is theoretically open to mobility, and is reproduced through property and education rather than ritual.",
+   "formula": "",
+   "key_idea": "Caste fixes your floor at birth; class can shift with fortune -- both stack society into layers of unequal life chances.",
+   "textbook_ref": "kesy201.txt lines 120-280 (social stratification, caste and class as forms of stratification, features of caste system, class systems, openness and mobility, ritual status)",
+   "question_patterns": [
+    "distinguish caste from class as systems of stratification",
+    "in class 11 social structure and stratification: what are the main features of the caste system",
+    "why is caste said to be based on ritual purity and pollution",
+    "can class position change across generations",
+    "explain how caste and class interact in modern india",
+    "define social stratification and give its characteristics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the basis of rank",
+     "explain": "Caste ranks by birth and ritual status; class ranks by economic resources and market position."
+    },
+    {
+     "step": 2,
+     "action": "test the boundaries",
+     "explain": "Caste walls itself in by endogamy and prescribed contact rules; class boundaries are porous and negotiable."
+    },
+    {
+     "step": 3,
+     "action": "test mobility",
+     "explain": "Individual caste is unchangeable though the group may claim higher rank; class position can change with income, education or loss."
+    },
+    {
+     "step": 4,
+     "action": "see their entanglement",
+     "explain": "In India caste and class overlap -- ritual rank historically correlated with property, and the overlap persists unevenly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which is fixed at birth: caste or class?",
+     "a": "caste"
+    }
+   ]
+  },
+  {
+   "id": "kesy201.1.3",
+   "title": "Social Processes: Cooperation, Competition and Conflict",
+   "section": "1.3",
+   "definition": "Social life runs on recurrent processes of interaction. Cooperation joins efforts toward shared goals; competition is the rule-bound race for scarce goods where rivals chase the same prize; conflict is the collision where parties seek to nullify each other. Societies blend all three, often in sequence.",
+   "formula": "",
+   "key_idea": "Working together, racing each other, clashing head-on -- cooperation, competition and conflict are society's three basic gears.",
+   "textbook_ref": "kesy201.txt lines 280-400 (social processes, cooperation, competition, conflict, accomodation and assimilation mentions)",
+   "question_patterns": [
+    "explain cooperation competition and conflict as social processes",
+    "in class 11 social structure and stratification: how can competition turn into conflict",
+    "give an example of cooperation at the family and national level",
+    "is competition always beneficial discuss",
+    "how does conflict lead to social change",
+    "distinguish competition from conflict with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the shared goal",
+     "explain": "Where goals are joint -- harvesting a field, running a festival -- cooperation organises the effort."
+    },
+    {
+     "step": 2,
+     "action": "identify the contested prize",
+     "explain": "Where goods are scarce and rules recognised -- exams, markets, elections -- competition orders the rivalry."
+    },
+    {
+     "step": 3,
+     "action": "identify the open clash",
+     "explain": "Where rules break down and parties aim at each other, conflict erupts; its settlement often produces new arrangements."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Joining efforts toward shared goals is called what?",
+     "a": "cooperation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy201.txt lines 120-280 (caste and class)",
+   "concept": "kesy201.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "A successful entrepreneur from a traditionally artisan caste rises in wealth but faces rejection from elite clubs. Explain what this case shows about caste and class.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the class change",
+     "explain": "Wealth and enterprise lifted his class position -- the economic layer moved."
+    },
+    {
+     "step": 2,
+     "action": "read the caste stubbornness",
+     "explain": "Exclusion from elite clubs shows ritual status still policing social distance -- the caste layer resisted."
+    },
+    {
+     "step": 3,
+     "action": "draw the general lesson",
+     "explain": "Caste and class are distinct but intertwined systems; money can buy some goods and not others."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy201.txt lines 280-400 (social processes)",
+   "concept": "kesy201.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Two shopkeepers first compete for customers, then agree on prices together, and finally fight over a shared parking space. Classify each phase as a social process.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify the opening phase",
+     "explain": "Rivals chasing the same customers within market rules is competition."
+    },
+    {
+     "step": 2,
+     "action": "classify the middle phase",
+     "explain": "Jointly fixing prices shows cooperation -- shared action toward a common goal (though it may be unlawful collusion)."
+    },
+    {
+     "step": 3,
+     "action": "classify the final phase",
+     "explain": "Fighting over the space, each aiming to defeat the other, is conflict -- the same relationship cycling through all three processes."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy201.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Explain the concept of social structure with examples from daily life.",
+    "Compare caste and class as systems of social stratification.",
+    "Describe the features of the caste system in India.",
+    "Explain cooperation, competition and conflict as social processes with examples.",
+    "Why is stratification described as universal yet variable?",
+    "How do social structure and social processes relate to each other?"
+   ]
+  }
+ ]
+}

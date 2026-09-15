@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_008",
+   "title": "c11_ps_cbse_04_008",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly declares that Directive Principles are not enforceable by any court, yet are fundamental in the governance of the country?",
+     "a": "Article 37. A wrong answer (e.g., Article 36 or Article 38) reveals that the student confuses the definition of \"State\" (Article 36), the general directive for social order (Article 38), with the crucial provision that settles the legal status of the entire Part IV. This confusion leads to the misconception that DPSP are either justiciable or merely moral slogans.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constituent Assembly make Directive Principles non-justiciable while keeping Fundamental Rights justiciable?",
+     "a": "The Assembly recognised that socio-economic directives (e.g., living wage, free education) require resource allocation and progressive realisation, which courts cannot micromanage, whereas civil-political rights (e.g., equality, free speech) are immediately enforceable negative injunctions. A wrong answer suggesting \"DPSP were less important\" reveals a misunderstanding of the Assembly’s intent: DPSP were considered *equally fundamental* (Article 37) but suited to legislative/executive action, not judicial decree.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 60% of seats in private medical colleges for students from families earning below ₹8 lakh/year, citing Article 46 (promotion of educational interests of weaker sections). A student challenges it under Article 19(1)(g) (freedom of occupation). How should a court balance the DPSP and the Fundamental Right?",
+     "a": "The court will apply the \"harmonious construction\" doctrine: Fundamental Rights and DPSP are complementary, not conflicting. It may uphold the law as a reasonable restriction under Article 19(6) if it serves the Directive Principle (Article 46) and passes the proportionality test. A wrong answer claiming \"Article 19(1)(g) always prevails because DPSP are non-justiciable\" ignores landmark judgments (e.g., *Unni Krishnan*, *Ashoka Kumar Thakur*) where DPSP guided the scope of Fundamental Rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social-justice thrust of Article 39(b)–(c) (distribution of ownership/control of material resources, prevention of concentration of wealth) with Article 21 (right to life). How has the Supreme Court used the former to expand the latter?",
+     "a": "The Court has read Article 39(b)–(c) into Article 21 to hold that the right to life includes the right to livelihood, health, shelter, and a clean environment (e.g., *Olga Tellis*, *Consumer Education & Research Centre*). A wrong answer treating them as watertight compartments misses the constitutional interpretation strategy where DPSP act as \"interpretive lenses\" for Fundamental Rights, making social justice justiciable indirectly.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since Directive Principles are non-justiciable, they are politically toothless and have failed to reduce inequality in India.\"",
+     "a": "The argument is flawed. DPSP have shaped major legislations: land reform acts (Article 39), Minimum Wages Act (Article 43), Maternity Benefit Act (Article 42), MGNREGA (Article 41), and the 86th Amendment making education a Fundamental Right (originally Article 45). They serve as a constitutional benchmark for policy and judicial review. A wrong answer agreeing with the statement overlooks the *political* and *interpretive* force of DPSP, confusing legal enforceability with governance impact.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a new Directive Principle (in the style of Part IV) that addresses the emerging issue of algorithmic bias in government welfare delivery systems, ensuring it aligns with the social-justice vision of Articles 38 and 46.",
+     "a": "A strong draft would: (1) cite the specific harm (algorithmic exclusion of marginalised groups), (2) direct the State to ensure transparency, auditability, and human review of automated decisions, (3) link to Article 38(2) (minimising inequalities) and Article 46 (protection of weaker sections), and (4) use hortatory language (\"The State shall strive to...\"). A poor draft would merely demand \"fair algorithms\" without constitutional anchoring or actionable state obligation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_005",
+   "title": "c11_math_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the formula for the number of distinct permutations of n objects where there are p identical objects of one kind, q identical objects of another kind, and the rest are all distinct? Write the formula in terms of n, p, q.",
+     "a": "The formula is n! / (p! × q!). A wrong answer like n! / (p + q)! or n! - p! - q! reveals that the student does not understand that each set of identical objects reduces the count by a factor of its factorial, not by addition or subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we divide by the factorial of the number of identical objects when counting permutations of non-distinct objects. Use a small example (e.g., the word \"AAB\") to illustrate.",
+     "a": "If we treat the two A's as distinct (A₁, A₂), there are 3! = 6 permutations. But A₁A₂B and A₂A₁B are the same arrangement \"AAB\". The two A's can be permuted in 2! ways, so each distinct arrangement is counted 2! times. Hence we divide by 2!. A wrong explanation that says \"we subtract the repeated ones\" shows the student confuses division with subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Find the number of distinct permutations of the letters of the word \"MISSISSIPPI\".",
+     "a": "The word has 11 letters: M=1, I=4, S=4, P=2. Number of permutations = 11! / (1! × 4! × 4! × 2!) = 39916800 / (24 × 24 × 2) = 39916800 / 1152 = 34650. A common error is to forget one of the repeated letters or miscalculate factorials, e.g., using 4! for S but forgetting P's 2!, leading to 11!/(4!×4!) = 69300, which is double the correct answer. This reveals the student missed the division by 2! for the two P's.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of distinct permutations of the letters in \"BANANA\" and \"BANANAS\". Which is larger? By what factor? Explain without calculating the exact numbers.",
+     "a": "\"BANANA\" has 6 letters: B=1, A=3, N=2 → 6!/(3!×2!) = 60. \"BANANAS\" has 7 letters: B=1, A=3, N=2, S=1 → 7!/(3!×2!) = 420. The second is 7 times larger because adding a distinct letter S multiplies the permutations by 7 (the new letter can be placed in any of 7 positions in each arrangement of BANANA). A wrong answer that says \"BANANAS has more letters so it's larger\" without the factor shows lack of analytical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Number of arrangements of the word 'SUCCESS' = 7! / (2! × 2!) = 1260.\" Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The word SUCCESS has 7 letters: S=3, U=1, C=2, E=1. The student divided by 2! for S and 2! for C, but S appears 3 times, so should divide by 3! not 2!. Correct answer: 7! / (3! × 2!) = 5040 / (6 × 2) = 420. The error reveals the student miscounted the frequency of S (thought 2 instead of 3).",
+     "self_check": true
+    },
+    {
+     "q": "Create a word (using English letters) of length 8 that has exactly 3 distinct letters, with one letter appearing 4 times, another appearing 3 times, and the third appearing once. Then write the expression for the number of its distinct permutations.",
+     "a": "Example word: \"AAAABBBC\" (A=4, B=3, C=1). The expression is 8! / (4! × 3! × 1!). A poor answer might give a word that doesn't meet the frequency requirements or writes the expression incorrectly (e.g., 8! / (4+3+1)!). This reveals the student cannot translate a frequency description into a concrete example and formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

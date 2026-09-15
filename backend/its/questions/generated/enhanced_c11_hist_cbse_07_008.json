@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_008",
+   "title": "c11_hist_cbse_07_008",
+   "questions": [
+    {
+     "q": "What was the title and publication year of Copernicus's major work that proposed the heliocentric model?",
+     "a": "*De Revolutionibus Orbium Coelestium* (On the Revolutions of the Heavenly Spheres), published in 1543. A wrong answer (e.g., naming *Dialogue Concerning the Two Chief World Systems* or giving a wrong date) reveals the student cannot distinguish between the three key figures' contributions and their chronological sequence — a fundamental error for tracing the revolution's development.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Copernicus retain circular orbits and epicycles in his heliocentric model despite placing the Sun at the center?",
+     "a": "Copernicus remained constrained by the Aristotelian axiom that celestial motion must be uniform and circular — he lacked Kepler's later insight (1609) that orbits are elliptical. A wrong answer (e.g., \"he didn't have telescopes\" or \"the Church forced him\") reveals the student misunderstands that the Scientific Revolution unfolded in stages: Copernicus changed the *center* but not the *geometry* of orbits; that breakthrough came later with Kepler, not Copernicus.",
+     "self_check": true
+    },
+    {
+     "q": "Galileo's observation of the phases of Venus (1610) provided evidence against which specific aspect of the Ptolemaic system, and why could the Tychonic geo-heliocentric model also explain this observation?",
+     "a": "Venus's full phase cycle (crescent to full) proved Venus orbits the Sun, falsifying Ptolemy's claim that Venus stays between Earth and Sun. However, Tycho Brahe's model (Earth stationary, Sun orbits Earth, planets orbit Sun) also predicts Venus phases. A wrong answer reveals the student thinks a single observation \"proved\" heliocentrism outright, missing the crucial historiographical point: evidence underdetermines theory — Galileo needed *multiple* lines of evidence (Jupiter's moons, sunspots, mountains on Moon) to build a cumulative case.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the methodological differences between Galileo's approach in *Two New Sciences* (1638) and Newton's in *Principia* (1687). How does Newton's \"hypotheses non fingo\" reflect a shift in the criteria for scientific explanation?",
+     "a": "Galileo used idealized thought experiments (inclined planes, frictionless motion) to derive mathematical laws of *local* motion. Newton synthesized terrestrial and celestial mechanics into a *universal* mathematical framework (three laws + inverse-square gravitation), explicitly refusing to speculate on gravity's *cause* (\"I frame no hypotheses\"). A wrong answer reveals the student sees only \"more math\" rather than the epistemological shift: from kinematic description (how things move) to dynamic explanation (why things move via universal forces).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Scientific Revolution was primarily a conflict between science and religion.\" Use the cases of Copernicus, Galileo, and Newton to support your judgment.",
+     "a": "The claim is an oversimplification. Copernicus (a church canon) dedicated *De Revolutionibus* to Pope Paul III; his work was initially welcomed for calendar reform. Galileo's conflict arose from *theological interpretation* of scripture (Bellarmine's 1616 injunction) and political missteps (satirizing the Pope in *Dialogue*), not heliocentrism per se. Newton saw his work as revealing God's mathematical design. A wrong answer (uncritical acceptance) reveals the student has absorbed the \"conflict thesis\" (Draper/White, 19th century) rather than analyzing the complex, context-dependent relationships between natural philosophy and theology in each case.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the conceptual dependencies: which specific problem in Copernicus's model did Kepler solve, which problem in Kepler's laws did Galileo's mechanics address, and which problem in both did Newton's synthesis resolve?",
+     "a": "A strong answer shows: (1) Copernicus: heliocentrism but circular orbits + epicycles → (2) Kepler (1609/1619): elliptical orbits + area law + harmonic law (empirical, no physical cause) → (3) Galileo: law of inertia + acceleration (terrestrial physics, no celestial connection) → (4) Newton (1687): derives Kepler's laws from universal gravitation + laws of motion, unifying terrestrial and celestial mechanics. A weak answer lists dates without showing *conceptual* dependencies — e.g., missing that Newton needed Galileo's inertia to make sense of \"force\" and Kepler's ellipses to test inverse-square.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

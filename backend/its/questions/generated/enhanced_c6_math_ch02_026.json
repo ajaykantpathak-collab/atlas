@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_026",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_026",
+   "title": "c6_math_ch02_026",
+   "questions": [
+    {
+     "q": "What is the difference between a positive integer and a negative integer?",
+     "a": "A positive integer is greater than zero, while a negative integer is less than zero. A wrong answer here often shows the student thinks negative numbers are just \"small\" numbers rather than numbers representing an opposite direction or \"debt.\"",
+     "self_check": true
+    },
+    {
+     "q": "If you are at sea level (0m) and dive to a depth of 50m, how would you represent your position as an integer?",
+     "a": "You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect, showing they haven't grasped that negative signs indicate direction below a reference point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare -10 and -2. Which is greater and why?",
+     "a": "-2 is greater than -10. On a number line, -2 is to the right of -10, and in real life, being 2 rupees in debt is better than being 10 rupees in debt. A wrong answer suggests the student is only looking at the digits (10 vs 2) and ignoring the negative sign's impact on value.",
+     "self_check": true
+    },
+    {
+     "q": "If a bank account has a balance of -200 rupees, what does that mean in real terms?",
+     "a": "It means the account holder owes the bank 200 rupees. A student who says \"they have 200 rupees\" fails to understand that negative signs in finance represent debits or debt.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a negative number to be larger than a positive number? Justify your answer.",
+     "a": "No, because every negative number is to the left of zero and every positive number is to the right of zero on the number line. A wrong answer reveals a fundamental misunderstanding of the order of integers on the number line.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where the number -5 is used.",
+     "a": "A valid answer describes a temperature, a floor, or a financial situation below zero. A poor answer (like \"the number of apples\") is incorrect because objects cannot be counted in negative quantities in this context; the scenario must imply a direction or status relative to a zero point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_005",
+   "title": "c12_acc_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the correct sequence of adjustments to a retiring partner's capital account before determining the final amount due? (List the standard order as per NCERT.)",
+     "a": "The standard sequence is: (1) Opening capital balance, (2) Add: Share of goodwill (if raised/written back), (3) Add: Share of revaluation profit (or less loss), (4) Add: Share of accumulated profits/reserves, (5) Less: Share of accumulated losses, (6) Less: Drawings/interest on drawings, (7) Less: Share of goodwill written off (if existing goodwill is written off). A wrong sequence (e.g., adjusting drawings before reserves) reveals the student treats adjustments as isolated entries rather than a logical accumulation of the partner's equity claim.",
+     "self_check": true
+    },
+    {
+     "q": "A retiring partner's capital account shows a credit balance of ₹4,00,000 after all adjustments. The firm pays him ₹2,50,000 immediately and agrees to pay the balance in four equal half-yearly installments with interest @ 6% p.a. A student records the balance as a credit to \"Retiring Partner's Loan Account\" without any interest provision. Explain why this is incomplete.",
+     "a": "The unpaid balance *does* become a loan, but the agreement specifies interest @ 6% p.a. The firm must recognize interest expense on the outstanding loan each period. The student's entry misses the interest accrual, treating the loan as interest-free. This shows the student confuses \"conversion to loan\" with \"interest-free loan\" — a critical distinction because interest reduces the firm's profit and increases the partner's receipt.",
+     "self_check": true
+    },
+    {
+     "q": "P, Q, and R share profits 3:2:1. R retires. Goodwill is valued at ₹60,000. The firm decides not to raise goodwill in the books but to adjust through partners' capital accounts. R's capital before adjustment is ₹1,20,000. Revaluation loss is ₹12,000. General Reserve is ₹30,000. Compute the amount due to R. Show the adjusting journal entry for goodwill without raising a goodwill account.",
+     "a": "**Steps:**\n1. R's share of goodwill = ₹60,000 × 1/6 = ₹10,000. Since goodwill is not raised, continuing partners (P and Q) are debited in their gaining ratio (3:2) and R credited.\n   Journal: P's Capital A/c Dr. 6,000; Q's Capital A/c Dr. 4,000 → R's Capital A/c 10,000.\n2. R's share of revaluation loss = ₹12,000 × 1/6 = ₹2,000 (debit).\n3. R's share of General Reserve = ₹30,000 × 1/6 = ₹5,000 (credit).\n4. Amount due = 1,20,000 + 10,000 - 2,000 + 5,000 = **₹1,33,000**.\nA wrong answer (e.g., ₹1,23,000) usually means the student forgot to adjust goodwill through capital accounts when it's not raised, or misapplied the gaining ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment when the retiring partner is paid (a) entirely in cash, (b) partly in cash and partly by transferring a fixed asset at book value, (c) partly in cash and the balance converted to a loan carrying interest. Identify which mode creates a continuing liability for the firm and which requires a Realisation Account entry.",
+     "a": "(a) Cash only: Debit Retiring Partner's Capital, Credit Bank. No continuing liability.\n(b) Asset transfer at book value: Debit Retiring Partner's Capital, Credit Asset Account. No Realisation Account needed because asset is transferred at book value (no profit/loss). Continuing liability? No.\n(c) Balance to loan: Debit Retiring Partner's Capital, Credit Retiring Partner's Loan Account. **This creates a continuing liability** (loan) on which interest must be paid. Realisation Account is *not* used in retirement settlements (it's for dissolution). A student who mentions Realisation Account here confuses retirement with dissolution (Chapter 4).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"When a retiring partner is settled by giving him a fixed asset whose market value exceeds his due amount, the partner should pay the excess to the firm in cash, and the firm records a gain on Realisation Account.\" Is this correct for a retirement scenario? Justify.",
+     "a": "**Incorrect.** In retirement, the firm is *not* dissolved, so no Realisation Account is prepared. The asset transfer is recorded at *book value* (or agreed value) directly: Debit Retiring Partner's Capital, Credit Asset Account. If the agreed value > book value, the difference is a revaluation gain credited to *all* partners (including retiring) in old ratio *before* settlement. If the asset's market value exceeds the partner's due, the partner simply receives an asset worth more — but the firm records the transfer at the agreed value (usually book value). The student's statement mixes dissolution procedures (Realisation Account, gain on realisation) with retirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-case: A partner retires when the firm has insufficient cash. The partnership deed is silent on settlement mode. Propose a settlement plan that protects both the firm's liquidity and the partner's legal right. Specify the journal entries for the first year, including interest. Assume the amount due is ₹5,00,000, firm pays ₹1,00,000 cash immediately, and the balance carries 6% p.a. interest payable half-yearly.",
+     "a": "**Good answer criteria:**\n1. Recognizes that under Section 37 of the Partnership Act, 1932, the retiring partner is entitled to interest @ 6% p.a. on the unpaid amount if the deed is silent.\n2. Proposes: Immediate cash ₹1,00,000; balance ₹4,00,000 → Retiring Partner's Loan Account.\n3. First half-year interest = ₹4,00,000 × 6% × 6/12 = ₹12,000.\n4. Journal entries:\n   - Retiring Partner's Capital A/c Dr. 5,00,000 → Bank A/c 1,00,000, Retiring Partner's Loan A/c 4,00,000.\n   - Interest on Loan A/c Dr. 12,000 → Retiring Partner's Loan A/c 12,000 (accrual).\n   - Retiring Partner's Loan A/c Dr. 12,000 → Bank A/c 12,000 (payment).\nA poor answer omits the statutory interest provision or records interest as a capital adjustment instead of a charge against profit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

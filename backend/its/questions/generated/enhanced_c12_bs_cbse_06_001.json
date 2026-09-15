@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_001",
+   "title": "c12_bs_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define staffing in one sentence using the exact NCERT phrasing for “filling and keeping filled.”",
+     "a": "Correct answer: “Staffing has been described as the managerial function of filling and keeping filled the positions in an organisation structure.” A wrong answer that says only “hiring people” misses the continuous nature (“keeping filled”) and the structural context (“positions in an organisation structure”), revealing the student sees staffing as a one-time event rather than an ongoing managerial function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why staffing is considered both a line function and a staff function. Use the terms “every manager” and “Human Resource Department” in your answer.",
+     "a": "Correct answer: Staffing is a line function because every manager (production, sales, finance) must directly perform staffing duties — placing the right person on the right job, training, appraising — for their own department. It is a staff function because as the organisation grows, a specialised Human Resource Department with experts in recruitment, compensation, labour laws, etc., is formed to advise and support line managers. A wrong answer that says “HR does staffing, managers don’t” confuses the advisory role with the primary responsibility, a classic board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A textile company in Surat has 200 workers. Due to a sudden export order, they need 50 more workers for three months. The HR manager suggests hiring through a labour contractor. Identify the staffing step involved and state one merit and one limitation of this source for this specific situation.",
+     "a": "Step: Recruitment (external source — labour contractor). Merit: Provides required number of unskilled workers at short notice. Limitation: If the contractor leaves, all workers employed through him will follow, disrupting the export order. A wrong answer that says “Selection” confuses recruitment (creating a pool) with selection (choosing from the pool). A wrong merit like “low cost” ignores the risk of mass walkout, showing lack of situation-specific analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare “workload analysis” and “workforce analysis” in the context of estimating manpower requirements. Which one reveals understaffing, and which one reveals the type of personnel available?",
+     "a": "Workload analysis assesses the number and types of human resources necessary to perform jobs and meet objectives (reveals understaffing/overstaffing gaps). Workforce analysis reveals the number and type of personnel currently available (reveals existing skill inventory). A wrong answer that swaps the two shows the student cannot distinguish between “what we need” and “what we have,” leading to incorrect recruitment decisions in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Training is a waste of money because employees leave after getting trained.” Use two benefits of training to the organisation and one benefit to the employee from the NCERT text.",
+     "a": "The statement is short-sighted. Benefits to organisation: (i) systematic learning reduces wastage of efforts and money compared to hit-and-trial; (ii) enhances productivity (quantity and quality) leading to higher profits. Benefit to employee: improved skills and knowledge lead to better career prospects and higher earnings. A wrong answer that only says “training is good” without citing specific NCERT benefits fails the “evaluate” requirement and loses marks in board exams for lack of textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step staffing process for a new cloud-kitchen startup that plans to hire 10 chefs, 5 packing staff, and 2 managers in the next 30 days. For each step, name the step and write one specific action the founder must take.",
+     "a": "Sample answer: 1. Estimating Manpower Requirements — prepare job descriptions for chef, packer, manager with qualifications and experience. 2. Recruitment — post vacancies on culinary institute job boards and food-industry Facebook groups. 3. Selection — conduct practical cooking test for chefs, psychometric test for managers, reference checks for all. 4. Placement & Orientation — assign kitchen stations, explain hygiene SOPs, introduce to delivery-app dashboard. A poor answer lists generic steps without startup-specific actions, showing inability to apply the process to a real context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

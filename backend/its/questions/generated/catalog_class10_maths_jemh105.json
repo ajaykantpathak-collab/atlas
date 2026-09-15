@@ -1,0 +1,116 @@
+{
+ "catalog": "catalog_class10_maths_jemh105.json",
+ "concepts": [
+  {
+   "id": "jemh.105.5.1",
+   "title": "Arithmetic Progressions and Common Difference",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 11th term of the AP with first term 3 and common difference 5.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 8 terms of the AP 3, 7, 11, ... .",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 7 and last term 35 with 8 terms. Find its sum.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 14 and 21. Find the common difference.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 8, 16, 24, ... up to and including 32?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 41 and the 4th term is 16. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.105.5.2",
+   "title": "nth Term of an AP",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 7th term of the AP with first term 4 and common difference 2.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP 3, 8, 13, ... .",
+     "a": "570",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 9 and last term 117 with 19 terms. Find its sum.",
+     "a": "1197",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 19 and 24. Find the common difference.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 4, 11, 18, ... up to and including 95?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "The 4th term of an AP is 7 and the 2th term is 3. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.105.5.3",
+   "title": "Sum of n Terms of an AP",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 15th term of the AP with first term 2 and common difference 9.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 10 terms of the AP 7, 10, 13, ... .",
+     "a": "205",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 5 and last term 29 with 5 terms. Find its sum.",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 13 and 16. Find the common difference.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 14, 18, 22, ... up to and including 70?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "The 7th term of an AP is 30 and the 4th term is 18. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

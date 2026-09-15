@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_004",
+   "title": "c11_psy_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define procedural memory and give one concrete example that is NOT mentioned in the NCERT textbook.",
+     "a": "Procedural memory is a type of long-term memory that stores unconscious, automatic skills and procedures (e.g., typing on a keyboard without looking, tying shoelaces, playing a musical instrument). A correct example: \"driving a car on a familiar route while holding a conversation.\" A wrong answer (e.g., \"remembering the steps to change a tyre\") reveals the student confuses *declarative knowledge about a procedure* with *procedural memory itself*—the former is semantic memory; the latter is the non-verbalizable motor program.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Episodic and semantic memory are both declarative, so they are basically the same thing—just personal vs. general knowledge.\" Explain why this statement is incomplete. Use the terms *autonoetic consciousness* and *noetic consciousness* (or their textbook equivalents: \"mental time travel\" vs. \"knowing that\") in your explanation.",
+     "a": "Episodic memory involves *autonoetic consciousness* (mental time travel: re-experiencing the past with self-awareness, emotion, and spatiotemporal context), whereas semantic memory involves *noetic consciousness* (knowing that something is true without reliving the learning episode). The student's statement misses that episodic memories are uniquely vulnerable to source amnesia and emotional modulation, while semantic memories are not. A wrong answer that only cites \"personal vs. general\" shows the student has not grasped the *phenomenological* and *functional* distinction Tulving emphasized.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi suffered a head injury. He can still ride his bicycle perfectly but cannot remember the name of his new neighbour or what he ate for breakfast yesterday. His doctor says his *declarative memory is impaired but procedural memory is intact*. Design a simple behavioural test (not a brain scan) the doctor could use to confirm this diagnosis. Specify the task, the expected outcome for Ravi, and the expected outcome for a healthy control.",
+     "a": "**Task:** Teach Ravi and a control participant a novel finger-tapping sequence (e.g., 4-2-3-1) on a keypad. After 10 practice trials, test recall in two ways: (a) *Verbal report*: \"Describe the sequence you just learned.\" (b) *Performance*: \"Tap the sequence again as fast as possible.\"  \n**Expected outcome for Ravi:** Fails (a) — cannot verbalize the sequence; succeeds (b) — taps accurately and quickly (procedural learning intact).  \n**Expected outcome for control:** Succeeds at both.  \nA wrong test (e.g., only asking for verbal recall) would miss the dissociation because it only probes declarative memory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the *encoding* and *retrieval* characteristics of declarative vs. procedural memory. Organize your answer in a 2×2 table (rows: Declarative, Procedural; columns: Encoding, Retrieval). Use the concepts of *elaborative rehearsal* and *automaticity* in your answer.",
+     "a": "| | Encoding | Retrieval |\n|---|---|---|\n| **Declarative** | Requires **elaborative rehearsal** (deep, semantic processing, linking to existing knowledge). Effortful, conscious. | **Conscious, effortful recall** or recognition. Cue-dependent; benefits from retrieval cues (context, category). |\n| **Procedural** | Occurs through **repeated practice** (trial-and-error, motor repetition). Often incidental; minimal conscious elaboration. | **Automatic, unconscious performance**. Retrieval is demonstrated by *doing*; verbal cues often disrupt it (e.g., \"think about your swing\" impairs golf). |\n\nA wrong answer that says \"both use rehearsal\" fails to distinguish *maintenance* vs. *elaborative* rehearsal and misses that procedural encoding is practice-based, not rehearsal-based.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Since procedural memories cannot be verbally described, they are less important for academic success than declarative memories.\" Support your evaluation with at least two arguments from cognitive psychology.",
+     "a": "The claim is **false**.  \n1. **Foundational skills are procedural**: Reading fluency, handwriting, typing, and mental arithmetic procedures (e.g., carrying/borrowing) are proceduralized. Without automaticity in these, working memory is overloaded, impairing higher-order declarative learning.  \n2. **Procedural knowledge underlies expertise**: In subjects like mathematics, physics, or music, expert problem-solving relies on *proceduralized schemas* (chunked action sequences) that free cognitive resources for declarative reasoning.  \nA student who agrees with the claim reveals a misunderstanding of *cognitive load theory* and the *role of automaticity* in complex cognition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, real-life scenario (Indian context) that illustrates **all three** of Tulving's long-term memory systems (episodic, semantic, procedural) interacting simultaneously. Label each component in your scenario.",
+     "a": "**Scenario:** *Priya, a Class 11 student, is taking her practical exam in Biology. She picks up the microscope (procedural: skilled motor sequence of focusing, adjusting diaphragm), recalls the definition of \"plasmolysis\" she memorized last week (semantic: general knowledge, no personal context), and suddenly remembers the specific afternoon in the lab when her teacher used a salt solution on onion peel and she felt excited seeing the cell membrane pull away (episodic: personal, dated, emotional).*  \n**Criteria for a good answer:** The scenario must be a single coherent episode, not three separate anecdotes. Each label must correctly match the defining features (procedural = skill, semantic = fact, episodic = autobiographical event with spatiotemporal context). A poor answer lists three unrelated examples (e.g., \"I know how to cook rice [procedural], I know Delhi is the capital [semantic], I remember my birthday [episodic]\")—this shows the student sees them as independent storage bins rather than interacting systems in a single cognitive act.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

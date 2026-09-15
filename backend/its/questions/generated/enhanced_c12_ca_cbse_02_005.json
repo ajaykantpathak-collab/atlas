@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_02_005",
+   "title": "c12_ca_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the minimum structure required for a source dataset to create a valid Pivot Table in Excel?",
+     "a": "The source dataset must be a contiguous rectangular list with unique column headers in the first row, no blank rows or columns within the data, and consistent data types in each column. A wrong answer (e.g., \"any selected range\" or \"data with merged header cells\") reveals the student doesn't understand that Pivot Tables require a structured database format — Excel treats the first row as field names and each subsequent row as a record. Merged cells, blank rows, or missing headers break the field list and cause \"field name not valid\" errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a Pivot Table with 'Region' in Rows, 'Product' in Columns, and 'Sales' in Values (default Sum). They notice the grand total for 'North' region is ₹12,50,000 but the sum of individual product columns for North shows ₹13,20,000. Explain why this discrepancy can occur and how to fix it.",
+     "a": "The discrepancy occurs because the source data contains duplicate or inconsistent entries (e.g., 'North ' with trailing space vs 'North') causing separate row groupings, or the Values field includes non-numeric/text entries that Sum ignores but Count includes. A wrong answer (e.g., \"Pivot Tables are inaccurate\" or \"change to Average\") reveals the student doesn't understand that Pivot Tables faithfully reflect source data quality — they must clean data first (TRIM, remove duplicates, ensure numeric values) and verify field settings. The fix: check source data for consistency, refresh Pivot Table, and ensure Values field is set to Sum with no text contamination.",
+     "self_check": true
+    },
+    {
+     "q": "You have a dataset of 200 loan applications with fields: Applicant_Name, Loan_Amount, Interest_Rate, Tenure_Years, City, Status (Approved/Rejected). Create a one-variable data table to show EMI for Loan_Amount = ₹10,00,000 at Interest_Rates of 8%, 9%, 10%, 11%, 12% (Tenure = 20 years fixed). Show the exact steps and formula placement.",
+     "a": "Steps: (1) In cell B1, enter formula =PMT(B2/12, B3*12, -B1) where B1=1000000, B2=0.08, B3=20. (2) In column D (D4:D8), enter interest rates 8%,9%,10%,11%,12%. (3) In cell E3 (one row above first rate, one column right), enter =B4 (the EMI formula cell reference). (4) Select range D3:E8. (5) Data → What-If Analysis → Data Table → Column input cell: $B$2. (6) Click OK. A wrong answer (e.g., putting formula in same column as rates, using Row input cell) reveals confusion about column-oriented vs row-oriented data table structure. The column input cell must be the variable changing down the column (Interest_Rate).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: When would you use a two-variable data table versus a Pivot Table for business analysis? Give a specific scenario for each.",
+     "a": "Use a two-variable data table for **sensitivity analysis** on a single formula with two changing inputs (e.g., EMI = f(Interest_Rate, Tenure) — show EMI matrix for 5 rates × 5 tenures). Use a Pivot Table for **multidimensional summarization** of transactional records (e.g., 10,000 sales rows → total sales by Region × Product × Month). A wrong answer (e.g., \"both do the same thing\" or \"Pivot Table for EMI calculation\") reveals the student confuses **formula-driven scenario modeling** (data tables) with **data-driven aggregation** (Pivot Tables). Data tables compute a formula repeatedly; Pivot Tables aggregate existing records.",
+     "self_check": true
+    },
+    {
+     "q": "A Pivot Table shows 'Sum of Quantity' by 'Product' (Rows) and 'Month' (Columns). The user wants to see '% of Column Total' for each product within each month to analyze monthly product mix. They right-click a value → Show Values As → % of Column Total. The report now shows 100% for each month's total but individual product percentages seem off (e.g., a product with 0 quantity shows 5%). Evaluate the likely cause and solution.",
+     "a": "The cause: the source data contains **blank or text entries in the Quantity column** for some records. Pivot Table's 'Sum' ignores text/blanks, but '% of Column Total' divides each product's sum by the column grand total **which includes those ignored records' implicit zeros** — or worse, the grand total is calculated on a different base. A wrong answer (e.g., \"change to % of Row Total\" or \"refresh Pivot Table\") reveals the student doesn't trace calculation logic to source data integrity. Solution: Clean source Quantity column (replace text/blanks with 0), refresh Pivot Table, verify grand total matches manual sum, then reapply % of Column Total.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Pivot Table report for a school principal analyzing 1,200 student records (Class, Section, Gender, Subject, Marks). The principal wants to: (a) compare average marks by Subject across Classes, (b) filter by Gender, (c) see top 3 Subjects per Class. Specify the exact field placement and any additional settings needed.",
+     "a": "Field placement: Rows = Class, Columns = Subject, Values = Marks (set to Average via Value Field Settings), Filters = Gender. For (c): Right-click any Class row → Filter → Top 10 → Top 3 Items by Average of Marks. A poor answer (e.g., putting Subject in Rows, Class in Columns, or using Sum instead of Average) reveals the student cannot map analytical requirements to Pivot Table areas. The key insight: **Rows define the primary grouping for comparison, Columns define the cross-section, Values define the metric and its aggregation, Filters define the slice**. Top-N filtering works on the Row Labels' aggregated Values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_003",
+   "title": "c12_chem_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the differential rate law and the integrated rate equation for a zero-order reaction R → P. What are the units of the rate constant k?",
+     "a": "Differential rate law: –d[R]/dt = k (or Rate = k). Integrated rate equation: [R] = [R]₀ – kt. Units of k: mol L⁻¹ s⁻¹ (concentration/time). A wrong answer (e.g., Rate = k[R], units s⁻¹) reveals confusion with first-order kinetics — the student has not internalised that the exponent zero makes the concentration term disappear entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots concentration of reactant vs time for a zero-order reaction and gets a straight line with positive slope. Explain why this is impossible for a reactant in a zero-order reaction.",
+     "a": "For a reactant, concentration decreases with time, so d[R]/dt is negative. The integrated equation [R] = [R]₀ – kt has slope –k (k > 0), so the slope must be negative. A positive slope would mean concentration increases, violating mass conservation for a reactant. If a student says \"positive slope\", they are likely confusing the reactant graph with the product graph (which has positive slope) or misremembering the sign convention from node c12_chem_cbse_03_001.",
+     "self_check": true
+    },
+    {
+     "q": "The decomposition of NH₃ on a hot Pt surface is zero-order at high pressure. Initial [NH₃] = 0.10 mol L⁻¹, k = 2.5 × 10⁻⁴ mol L⁻¹ s⁻¹. Calculate (a) [NH₃] after 100 s, (b) half-life, (c) time for 75% decomposition.",
+     "a": "(a) [NH₃] = 0.10 – (2.5×10⁻⁴)(100) = 0.10 – 0.025 = 0.075 mol L⁻¹.\n(b) t₁/₂ = [R]₀/2k = 0.10 / (2 × 2.5×10⁻⁴) = 0.10 / 5×10⁻⁴ = 200 s.\n(c) 75% decomposed → [R] = 0.25[R]₀ = 0.025 mol L⁻¹. t = ([R]₀ – [R])/k = (0.10 – 0.025)/(2.5×10⁻⁴) = 0.075/2.5×10⁻⁴ = 300 s.\nA wrong answer in (b) using t₁/₂ = 0.693/k reveals the student applied the first-order half-life formula — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "For a zero-order reaction, the half-life is 50 s when [R]₀ = 0.2 mol L⁻¹. What will be the half-life if [R]₀ is doubled to 0.4 mol L⁻¹? Explain the physical reason for this dependence.",
+     "a": "t₁/₂ = [R]₀/2k. Since k is constant, t₁/₂ ∝ [R]₀. Doubling [R]₀ doubles t₁/₂ to 100 s. Physical reason: the rate (mol L⁻¹ s⁻¹) is constant, so a larger initial amount takes proportionally longer to halve. If a student says \"half-life stays the same\", they are transferring the first-order property (t₁/₂ independent of [R]₀) to zero-order — a direct confusion between node 003 and node 004.",
+     "self_check": true
+    },
+    {
+     "q": "In an enzyme-catalysed reaction, the rate is constant at high substrate concentration but becomes first-order at low substrate concentration. Identify the order in each regime and explain the transition using the concept of active-site saturation.",
+     "a": "High [S]: zero-order (Rate = k, active sites saturated, rate limited by catalyst turnover). Low [S]: first-order (Rate = k'[S], free active sites available, rate proportional to [S]). Transition occurs when [S] ≈ Kₘ (Michaelis constant). A wrong answer that says \"always first-order because enzymes are catalysts\" misses the saturation concept — the student hasn't linked chemical kinetics to the biological mechanism (cross-subject link to biology).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using the decomposition of H₂O₂ catalysed by MnO₂ to distinguish between zero-order and first-order kinetics. Specify what you would measure, how you would plot the data, and the criterion for each order.",
+     "a": "Measure volume of O₂ gas evolved vs time (proxy for [H₂O₂] consumed). For zero-order: plot [H₂O₂] vs t → straight line with negative slope. For first-order: plot ln[H₂O₂] vs t → straight line with negative slope. Criterion: which plot gives a better straight line (higher R²). A poor answer that says \"measure time for complete decomposition\" fails because a single time point cannot distinguish rate laws — the student hasn't grasped that order determination requires concentration-time profiles (node c12_chem_cbse_03_005).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_010",
+   "title": "c7_eco_ch01_010",
+   "questions": [
+    {
+     "q": "What fundamental function of money allows a person to earn income today and spend it safely next year without losing its general acceptance?",
+     "a": "Money acts as a store of value. A wrong answer usually confuses this with the medium of exchange function, failing to recognize that storing value over time specifically addresses the time gap between earning and spending.",
+     "self_check": true
+    },
+    {
+     "q": "Why is storing wealth in paper currency or bank deposits superior to storing wealth in perishable agricultural goods like wheat for future use?",
+     "a": "Paper currency and bank deposits do not rot, lose weight, or spoil over time, whereas wheat deteriorates and incurs storage costs. A wrong answer suggests that perishable goods are equally good for the future, showing a misunderstanding of how physical decay destroys future purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "If Rohan earns ₹15,000 per month and saves 20% of it every month for 6 months in a bank account offering no interest, how much total purchasing power has he securely transferred from the present to the future?",
+     "a": "Step 1: Calculate monthly savings = 20% of ₹15,000 = ₹3,000. Step 2: Multiply monthly savings by the number of months = ₹3,000 × 6 months = ₹18,000. Step 3: Verify that money acts as a store of value preserving this nominal amount. Final Answer: ₹18,000. A wrong answer indicates an error in calculating percentages or monthly accumulation, showing a breakdown in basic arithmetic application.",
+     "self_check": true
+    },
+    {
+     "q": "How does inflation in an economy affect money's role as a link between the present and the future for a saver?",
+     "a": "Inflation reduces the purchasing power of money over time, meaning ₹100 saved today will buy fewer goods and services in the future. A wrong answer assumes that prices remain constant over time, revealing a failure to connect present savings values with future price changes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a farmer should store his wealth entirely in physical grain or in bank deposits if he plans to buy tractor parts three years from now.",
+     "a": "The farmer should store his wealth in bank deposits because grain is subject to spoilage, pest damage, and high storage costs, while bank deposits preserve nominal value and can even earn interest to combat inflation. A wrong answer argues for physical grain based on immediate utility, missing the long-term deterioration of physical goods as an inter-temporal store of value.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple 3-month savings plan for a student receiving ₹500 pocket money monthly who wants to buy a ₹1,200 educational book in the fourth month, detailing how money acts as the bridge.",
+     "a": "The student should save ₹400 each month for 3 months (₹400 × 3 = ₹1,200), securely holding the cash or depositing it in a piggy bank. A poor answer suggests spending all money immediately and borrowing impulsively, showing a failure to grasp how present abstinence links to future goal achievement through money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

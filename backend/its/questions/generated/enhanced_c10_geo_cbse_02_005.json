@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_005",
+   "title": "c10_geo_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the primary objective of Project Tiger, and in which year was it launched?",
+     "a": "The primary objective of Project Tiger is to ensure the maintenance of a viable population of Bengal tigers in their natural habitats, and it was launched in 1973. A wrong answer (e.g., saying it was launched in 1992 or aims to protect all wildlife equally) reveals that the student confuses Project Tiger with Project Elephant or does not know the specific launch year, which is a common factual error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Project Tiger uses a 'core-buffer' strategy in tiger reserves instead of simply declaring the entire area as a national park.",
+     "a": "The core-buffer strategy allows a strictly protected core zone (no human activity) for breeding tigers, while the buffer zone permits regulated human use and acts as a transition area, balancing conservation with local livelihoods. A wrong answer (e.g., 'buffer zone is for tourism only') shows the student does not understand the zoning principle that distinguishes tiger reserves from national parks, a key concept tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India showing the locations of Project Tiger reserves, identify which reserve was the first to be established under Project Tiger and name the state it is located in.",
+     "a": "The first reserve established under Project Tiger was Jim Corbett National Park (originally Hailey National Park) in Uttarakhand (then Uttar Pradesh), designated in 1973. Steps: 1) Recall that Project Tiger started with 9 reserves. 2) Identify Corbett as the first and oldest national park in India. 3) Locate it in the Himalayan foothills of Uttarakhand. A wrong answer (e.g., naming Bandhavgarh or Sundarbans) indicates the student cannot link historical sequence to geographical location, a skill needed for map-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus and funding mechanism of Project Tiger and Project Elephant. How do they differ in addressing human-wildlife conflict?",
+     "a": "Project Tiger focuses on a single flagship species (tiger) and its habitat, with central government funding for tiger reserves; Project Elephant focuses on elephant corridors and populations across multiple states, with funding for habitat improvement and conflict mitigation. Project Elephant explicitly addresses human-elephant conflict through corridor protection and ex-gratia payments, while Project Tiger addresses conflict indirectly via buffer zones. A wrong answer that says both are identical in approach shows the student cannot analyse the nuanced differences in species-specific conservation strategies, which is required for higher-order questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Wildlife Protection Act (1972) in supporting species-specific programmes like Project Tiger. Provide one strength and one limitation.",
+     "a": "Strength: The Act provides legal backing for declaring protected areas, scheduling species (Schedule I gives highest protection to tigers), and penalising poaching, which empowers Project Tiger. Limitation: Implementation depends on state governments, and enforcement is weak in remote areas; also, the Act does not mandate community participation, which is crucial for long-term success. A wrong answer that only lists strengths without critical evaluation shows the student cannot assess policy effectiveness, a competency needed for case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based conservation plan for a village located in the buffer zone of a tiger reserve that reduces human-tiger conflict and provides livelihood alternatives.",
+     "a": "A good plan includes: 1) Identifying conflict hotspots using local knowledge and camera traps. 2) Introducing predator-proof livestock enclosures and solar fencing. 3) Training youth as nature guides for eco-tourism. 4) Setting up a compensation fund for crop/livestock loss, managed jointly by forest department and panchayat. 5) Promoting non-forest livelihoods like handicrafts or dairy. A poor answer that only suggests 'relocate the village' or 'build a wall' reveals the student cannot create integrated solutions that balance conservation and human needs, a key skill for sustainability questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_004",
+   "title": "c12_geo_cbse_21_004",
+   "questions": [
+    {
+     "q": "Define 'sampling frame' in the context of a field survey and give one example of a sampling frame for a survey of agricultural plots in a tehsil.",
+     "a": "A sampling frame is the complete, up-to-date list of all sampling units in the target population from which the sample is drawn. For agricultural plots in a tehsil, the village-wise land revenue records (khasra/khatoni) listing every plot with its owner, area, and crop would serve as the sampling frame. A wrong answer (e.g., \"the list of villages in the tehsil\") reveals the student confuses the primary sampling unit (plot) with a higher-level administrative unit, leading to a mismatch between the frame and the unit of analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study soil erosion intensity across a watershed that has three distinct land-use zones: dense forest, terraced agriculture, and degraded scrubland. Explain why simple random sampling of 30 plots across the entire watershed would be a poor choice and which method should be used instead.",
+     "a": "Simple random sampling could, by chance, select very few or zero plots from the smallest zone (e.g., degraded scrubland), making estimates for that zone unreliable or impossible. Stratified random sampling should be used: the watershed is divided into three strata based on land-use zones, and a proportional (or disproportionate) number of plots is randomly selected from each stratum, guaranteeing representation of all zones. A wrong answer that still prefers simple random sampling shows the student does not grasp that stratification controls for known spatial heterogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 420 households arranged linearly along a main road. You need a systematic sample of 60 households. Calculate the sampling interval (k) and describe the exact steps to select the sample, including how to choose the random start.",
+     "a": "Sampling interval k = N/n = 420/60 = 7. Steps: (1) Obtain the ordered list of 420 households along the road. (2) Generate a random integer between 1 and 7 inclusive (e.g., using a random number table or calculator); suppose it is 3. (3) Select household #3, then every 7th household thereafter: 3, 10, 17, 24, … up to 416. (4) If the end of the list is reached before 60 households, continue circularly from the start (circular systematic sampling). A wrong interval (e.g., 60/420) or starting at household #1 without randomisation reveals misunderstanding of the interval formula and the necessity of a random start to avoid periodicity bias.",
+     "self_check": true
+    },
+    {
+     "q": "Compare stratified random sampling and systematic sampling in terms of (a) ability to capture a rare but important sub-group (e.g., households with rainwater harvesting in a water-scarce block), and (b) operational ease when the sampling frame is a georeferenced GIS layer of plot centroids.",
+     "a": "(a) Stratified sampling explicitly ensures the rare sub-group is represented by making it a separate stratum (even with disproportionate allocation). Systematic sampling relies on chance alignment; if the rare group is clustered, it may be missed entirely. (b) With a GIS layer, systematic sampling is easier: sort centroids by X-coordinate (or along a space-filling curve), compute k, and select every kth feature — no need to create strata attributes. Stratified sampling requires an attribute field for stratum membership and separate random draws per stratum. A student who claims systematic sampling is better for rare sub-groups confuses equal-probability selection with guaranteed representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a field survey of 200 farms in a command area, proportional stratified sampling by farm-size class (marginal, small, medium, large) always yields more precise estimates of average fertilizer use per hectare than simple random sampling of the same total sample size.\"",
+     "a": "The statement is generally true but not absolute. Proportional stratified sampling reduces sampling variance compared to SRS when stratum means differ (which they do for fertilizer use across farm sizes) and within-stratum variance is lower than overall variance. However, if farm-size classes have similar fertilizer-use means (unlikely) or if strata boundaries are poorly defined, the gain may be negligible. Also, if strata sample sizes become very small (e.g., only 2 large farms), variance estimates become unstable. A student who says \"always\" without qualifying the conditions (homogeneity within strata, heterogeneity between strata) shows a superficial understanding of the precision gains from stratification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sampling plan for a field survey to assess the impact of a new check-dam on groundwater levels in a 50 km² basin. The basin has three hydrogeological units (alluvial, basaltic, sandstone) with different aquifer properties. Specify: target population, sampling frame, sampling method, sample size allocation, and how you would handle inaccessible wells.",
+     "a": "Target population: all functional irrigation wells in the basin. Sampling frame: GIS layer of well locations from the Groundwater Department, updated with field verification. Method: Stratified random sampling with hydrogeological unit as stratum. Allocation: Neyman (optimal) allocation if prior variance data exist; otherwise proportional allocation with a minimum of 5 wells per stratum. Inaccessible wells: maintain a replacement list of 10% extra wells per stratum selected during the same random draw; if a primary well is inaccessible, substitute the next well on the replacement list for that stratum. A poor answer that uses simple random sampling or ignores hydrogeological strata fails to account for the dominant spatial control on groundwater response.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

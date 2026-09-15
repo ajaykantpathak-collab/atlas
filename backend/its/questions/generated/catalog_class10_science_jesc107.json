@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc107.json",
+ "concepts": [
+  {
+   "id": "jesc.107.7.1",
+   "title": "Asexual Reproduction Modes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List three modes of asexual reproduction with one organism each.",
+     "a": "Fission (amoeba), budding (yeast/hydra), fragmentation or spore formation (spirogyra, rhizopus).",
+     "self_check": true
+    },
+    {
+     "q": "Why do offspring of asexual reproduction look like copies of the parent?",
+     "a": "Cells divide mitotically with little DNA variation, so offspring inherit nearly identical genetic material.",
+     "self_check": true
+    },
+    {
+     "q": "Which is better for survival of a species over ages - asexual or sexual reproduction? Why?",
+     "a": "Sexual reproduction: it creates variations that help the species survive changing conditions.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.7.2",
+   "title": "Sexual Reproduction in Flowering Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the parts of a carpel.",
+     "a": "Stigma (receives pollen), style (tube passage), ovary (holds ovules).",
+     "self_check": true
+    },
+    {
+     "q": "What is germination of pollen?",
+     "a": "The pollen grain grows a pollen tube through the style carrying male gametes to the ovule.",
+     "self_check": true
+    },
+    {
+     "q": "What do the ovule and ovary become after fertilisation?",
+     "a": "The ovule matures into a seed and the ovary into the fruit.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.7.3",
+   "title": "Human Reproductive System and Reproductive Health",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the organs that produce gametes in humans.",
+     "a": "Testes in males (sperms) and ovaries in females (eggs).",
+     "self_check": true
+    },
+    {
+     "q": "What changes mark puberty in boys and girls?",
+     "a": "Boys: deeper voice, facial hair; girls: breast development, wider hips; both get pubic hair and faster growth.",
+     "self_check": true
+    },
+    {
+     "q": "What is the role of the placenta?",
+     "a": "It supplies the foetus oxygen and nutrients from the mother's blood and removes wastes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

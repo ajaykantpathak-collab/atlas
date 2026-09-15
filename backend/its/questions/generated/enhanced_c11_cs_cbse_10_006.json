@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_006",
+   "title": "c11_cs_cbse_10_006",
+   "questions": [
+    {
+     "q": "What is the exact output of the following Python snippet?\n```python\nstack = []\nstack.append(10)\nstack.append(20)\nprint(stack[-1])\nstack.pop()\nprint(stack[-1] if stack else \"EMPTY\")\n```",
+     "a": "Output:\n```\n20\n10\n```\nA wrong answer (e.g., printing 10 then EMPTY, or raising IndexError) reveals the student confuses peek with pop (thinking peek removes the element) or doesn't understand that `stack[-1]` accesses the last element without mutation. They may also miss the ternary guard for empty stack.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this peek function:\n```python\ndef peek(s):\n    return s[len(s)]  # Line X\n```\nExplain why Line X is incorrect and how to fix it. What concept does this error expose?",
+     "a": "Line X uses `len(s)` as index, but valid indices are `0` to `len(s)-1`. This causes `IndexError`. Correct: `s[len(s)-1]` or `s[-1]`. The error exposes confusion between **length** (count of elements) and **last valid index** (zero-based). Students often think \"length gives the last position\" — a classic off-by-one error from not internalizing zero-based indexing.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `safe_pop(stack)` that pops and returns the top element if the stack is non-empty, otherwise returns `None` without raising an exception. Use only `isEmpty` logic (no try/except).",
+     "a": "```python\ndef safe_pop(stack):\n    if not stack:          # isEmpty check\n        return None\n    return stack.pop()\n```\nA wrong answer using `if len(stack) > 0:` works but isn't Pythonic; using `stack.pop() if stack else None` is acceptable. An answer that omits the check reveals the student doesn't grasp defensive programming — they assume pop is always safe, leading to runtime crashes in board exam practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of `peek()` implemented as `stack[-1]` vs `stack[len(stack)-1]` for Python list and `collections.deque`. Are they both O(1)? Justify.",
+     "a": "Yes, both are O(1). For list: `stack[-1]` and `stack[len(stack)-1]` are direct index calculations — constant time. For deque: `deque[-1]` is O(1) (optimized in CPython), but `deque[len(deque)-1]` is **O(n)** because deque doesn't support O(1) random access by index — it traverses from the nearest end. A student answering \"both O(1) for deque\" reveals they assume deque is a random-access sequence like list, missing the critical implementation difference.",
+     "self_check": true
+    },
+    {
+     "q": "In a parentheses balancing algorithm, you push opening brackets and pop on closing brackets. Why is `isEmpty` check needed **both** before popping (when seeing a closing bracket) **and** at the end of the string? Give a concrete input string where each check catches a different error.",
+     "a": "First check (before pop): catches **extra closing brackets** — e.g., `\")(\"` — stack is empty when `)` arrives, so pop would crash. Second check (at end): catches **extra opening brackets** — e.g., `\"(()\"` — stack non-empty after processing all chars. A student giving only one case or using same string for both reveals they don't distinguish between *underflow during processing* vs *leftover items at end* — two distinct imbalance types.",
+     "self_check": true
+    },
+    {
+     "q": "Design a `MinStack` class (using a list) that supports `push`, `pop`, `peek`, `isEmpty`, and `get_min()` — all in O(1) time. `get_min()` returns the smallest element currently in the stack. Show the internal structure and `push`/`pop` logic.",
+     "a": "Use auxiliary stack `min_stack` tracking minimums.\n```python\nclass MinStack:\n    def __init__(self):\n        self.stack = []\n        self.min_stack = []\n    def push(self, x):\n        self.stack.append(x)\n        if not self.min_stack or x <= self.min_stack[-1]:\n            self.min_stack.append(x)\n    def pop(self):\n        if not self.stack: return None\n        val = self.stack.pop()\n        if val == self.min_stack[-1]:\n            self.min_stack.pop()\n        return val\n    def peek(self): return self.stack[-1] if self.stack else None\n    def isEmpty(self): return not self.stack\n    def get_min(self): return self.min_stack[-1] if self.min_stack else None\n```\nA poor answer uses `min(self.stack)` (O(n)) or a single variable (fails when min is popped). This reveals inability to compose stack operations to maintain auxiliary state — a key competency for advanced data structure problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

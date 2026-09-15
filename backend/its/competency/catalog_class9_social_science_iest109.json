@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 9,
+ "chapter_title": "The Price Puzzle: What Drives the Market",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.109.9.1",
+   "title": "Demand and Its Determinants",
+   "section": "9",
+   "definition": "Demand is the quantity of a good buyers are willing and able to purchase at a price: it rises as price falls and falls as price rises, while income, tastes, prices of related goods and expectations shift the whole demand.",
+   "formula": "-",
+   "key_idea": "Price down, demand up: the law of demand, with income and taste as its partners.",
+   "textbook_ref": "iest109.txt opening sections (factors that influence demand)",
+   "question_patterns": [
+    "what is meant by demand - state the law of demand",
+    "which factors influence the demand for a good",
+    "why does demand fall when price rises - explain",
+    "how does a rise in income change the demand for the given good",
+    "distinguish change in demand and change in quantity demanded",
+    "draw and read a demand curve for the given data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the price effect",
+     "explain": "Higher price shrinks the quantity demanded, lower price expands it."},
+    {"step": 2, "action": "note the other drivers",
+     "explain": "Income, tastes, related goods' prices and expectations shift demand."},
+    {"step": 3, "action": "read the curve",
+     "explain": "The demand curve slopes downward from left to right."}
+   ]
+  },
+  {
+   "id": "iest.109.9.2",
+   "title": "Supply and Its Determinants",
+   "section": "9",
+   "definition": "Supply is the quantity sellers offer for sale at a price: higher prices invite larger supply, while costs of inputs, technology, number of sellers and expectations determine how much the market receives at each price.",
+   "formula": "-",
+   "key_idea": "Price up, supply up: sellers respond to reward, costs and technology shape capacity.",
+   "textbook_ref": "iest109.txt sections on supply and its factors",
+   "question_patterns": [
+    "what is meant by supply - state the law of supply",
+    "which factors influence the supply of a good",
+    "why does supply rise when price rises - explain",
+    "how does technology change the supply of the given good",
+    "distinguish change in supply and change in quantity supplied",
+    "draw and read a supply curve for the given data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the price effect",
+     "explain": "Higher prices make production more rewarding."},
+    {"step": 2, "action": "note the other drivers",
+     "explain": "Input costs, technology and seller numbers shift supply."},
+    {"step": 3, "action": "read the curve",
+     "explain": "The supply curve slopes upward from left to right."}
+   ]
+  },
+  {
+   "id": "iest.109.9.3",
+   "title": "Market Equilibrium - Where Price Settles",
+   "section": "9",
+   "definition": "Demand and supply together solve the price puzzle: the equilibrium price is where quantity demanded equals quantity supplied; a price above it leaves surplus and pushes price down, a price below leaves shortage and pushes price up.",
+   "formula": "-",
+   "key_idea": "Surplus presses price down, shortage pushes it up: equilibrium is where they balance.",
+   "textbook_ref": "iest109.txt sections on equilibrium of demand and supply",
+   "question_patterns": [
+    "what is market equilibrium - explain with a diagram",
+    "what happens to price when demand exceeds supply",
+    "how does a bumper crop change the equilibrium price",
+    "find the equilibrium price from the given demand and supply schedules",
+    "why is the equilibrium price called the market clearing price",
+    "trace the adjustment when a festival raises demand"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the two quantities",
+     "explain": "Check where demanded and supplied quantities agree."},
+    {"step": 2, "action": "read the imbalance",
+     "explain": "Above equilibrium there is surplus; below, shortage."},
+    {"step": 3, "action": "watch the correction",
+     "explain": "Price moves until the quantities match again."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "iest109.txt exercises",
+   "questions": [
+     "State the laws of demand and supply with diagrams.",
+     "List the factors that shift demand and supply.",
+     "Explain how market equilibrium price is determined."
+   ]
+  }
+ ]
+}

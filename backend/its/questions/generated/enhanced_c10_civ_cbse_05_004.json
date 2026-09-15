@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_004",
+   "title": "c10_civ_cbse_05_004",
+   "questions": [
+    {
+     "q": "What are the two constitutional articles that specifically protect the cultural and educational rights of minorities in India?",
+     "a": "Articles 29 and 30. Article 29 protects the right of any section of citizens to conserve its distinct language, script, or culture. Article 30 grants minorities the right to establish and administer educational institutions of their choice. A wrong answer (e.g., citing Articles 15 or 25) reveals the student confuses minority cultural rights with general equality or religious freedom provisions, indicating they have not distinguished the specific constitutional safeguards for minority identity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution allow linguistic minorities to establish and administer their own educational institutions (Article 30), but not grant them a separate state for every language?",
+     "a": "Article 30 protects cultural identity through education without threatening territorial integrity; creating a state for every language would fragment the nation administratively and politically. The Constitution balances accommodation with unity by using federalism (Article 3) for major linguistic groups while protecting smaller groups through non-territorial rights. A wrong answer that says \"every language should get a state\" or \"minorities don't need special rights\" shows the student misses the constitutional logic of graded accommodation — territorial for large groups, non-territorial for smaller ones.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 80% of seats in government medical colleges for students domiciled in that state. A student from another state challenges it. Which constitutional provision is most relevant to decide if this law validly accommodates diversity or violates equality?",
+     "a": "Article 15(4) and Article 16(4) allow reservations for socially and educationally backward classes (SEBCs), SCs, STs — not for domicile. Domicile-based reservations in education have been struck down (e.g., *Pradeep Jain v. Union of India*) as violating Article 14/15(1) because they discriminate based on place of birth, not social backwardness. Accommodation of diversity does not permit arbitrary regional quotas. A wrong answer citing Article 29 or 30 reveals confusion between minority rights and domicile quotas; citing Article 16(4) without the \"backward class\" condition shows misunderstanding of the constitutional limit on reservations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Indian federalism accommodates linguistic diversity with how Belgium’s consociational democracy accommodates linguistic diversity. Identify one key structural difference.",
+     "a": "India uses territorial federalism (linguistic states) combined with a strong centre; Belgium uses non-territorial power-sharing (community governments for French/Dutch/German speakers across regions) with a weak centre. The key difference: India’s accommodation is primarily territorial (states reorganized on language), while Belgium’s is primarily communal (institutions based on linguistic identity regardless of territory). A wrong answer that says \"both are federal\" or \"both use reservations\" misses the territorial vs. non-territorial distinction, showing the student cannot analyze structural design choices in diversity management.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Reservation for OBCs in government jobs (Mandal Commission) strengthened Indian democracy’s accommodation of social diversity.\" Provide two arguments for and one counter-argument.",
+     "a": "For: (1) It extended power-sharing to historically excluded backward classes, making governance more representative. (2) It reduced caste-based inequality by giving access to public employment, fulfilling Article 16(4)’s promise. Counter: It reinforced caste identity in politics, leading to \"vote-bank\" politics and demands for ever-expanding quotas, potentially undermining merit and inter-caste solidarity. A weak evaluation that only lists benefits or only critiques shows the student cannot weigh democratic outcomes — a key board exam skill for \"assess/evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision (in your own words) that would accommodate a newly recognized linguistic minority of 2 million people concentrated in three districts of a large state, without creating a new state. Your provision must balance their cultural rights with administrative feasibility.",
+     "a": "A strong answer includes: (a) recognition of the language for official purposes in those districts, (b) right to mother-tongue education up to secondary level, (c) establishment of a cultural academy funded by the state, (d) proportional representation in local bodies via delimitation, (e) no separate statehood. A poor answer either demands a new state (ignoring \"without creating a new state\") or only gives symbolic recognition without institutional teeth (e.g., \"celebrate their festival\"), showing the student cannot design practical accommodation mechanisms — a skill tested in case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

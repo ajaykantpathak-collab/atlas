@@ -1,0 +1,264 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 202,
+ "chapter_title": "Application of Integrals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh202.txt",
+ "concepts": [
+  {
+   "id": "lemh.8.2.1",
+   "title": "Area Under a Curve (x-axis)",
+   "section": "8.2",
+   "definition": "The total area bounded by a function y=f(x), the x-axis, and vertical lines x=a and x=b is calculated by integrating the function with respect to x over the interval [a, b].",
+   "formula": "area = integral(f(x), a, b)",
+   "key_idea": "Summation of infinite vertical strips of height y and width dx.",
+   "textbook_ref": "lemh202.txt lines 30-50",
+   "question_patterns": [
+    "find the area bounded by the curve",
+    "calculate the area under the function",
+    "what is the area enclosed by the curve and x-axis",
+    "determine the area between the ordinates",
+    "Explain the method of Area Under a Curve (x-axis)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the integral",
+     "explain": "Set up the definite integral of the function f(x) from a to b.",
+     "compute": "area = integral_f_x_a_b"
+    },
+    {
+     "step": 2,
+     "action": "Find the antiderivative",
+     "explain": "Compute the antiderivative F(x) of f(x) with respect to x to prepare for applying the Fundamental Theorem of Calculus.",
+     "compute": "F_x = antiderivative_f_x"
+    },
+    {
+     "step": 3,
+     "action": "Apply the Fundamental Theorem of Calculus",
+     "explain": "Evaluate F(b) - F(a) to obtain the numerical value of the definite integral representing the enclosed area.",
+     "compute": "area_val = F_b - F_a"
+    }
+   ]
+  },
+  {
+   "id": "lemh.8.2.2",
+   "title": "Area Under a Curve (y-axis)",
+   "section": "8.2",
+   "definition": "The area bounded by a curve x=g(y), the y-axis, and horizontal lines y=c and y=d is found by integrating the function with respect to y.",
+   "formula": "area = integral(g(y), c, d)",
+   "key_idea": "Summation of infinite horizontal strips of width x and height dy.",
+   "textbook_ref": "lemh202.txt lines 55-65",
+   "question_patterns": [
+    "find the area bounded by the curve and y-axis",
+    "calculate the area using horizontal strips",
+    "what is the area between lines y=c and y=d",
+    "determine the area enclosed by x=g(y)",
+    "Explain the method of Area Under a Curve (y-axis)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the integral",
+     "explain": "Set up the definite integral of the function g(y) from c to d.",
+     "compute": "area = integral_g_y_c_d"
+    },
+    {
+     "step": 2,
+     "action": "Find the antiderivative",
+     "explain": "Compute the antiderivative G(y) of g(y) with respect to y to prepare for applying the Fundamental Theorem of Calculus.",
+     "compute": "G_y = antiderivative_g_y"
+    },
+    {
+     "step": 3,
+     "action": "Apply the Fundamental Theorem of Calculus",
+     "explain": "Evaluate G(d) - G(c) to obtain the numerical value of the definite integral representing the enclosed area.",
+     "compute": "area_val = G_d - G_c"
+    }
+   ]
+  },
+  {
+   "id": "lemh.8.2.3",
+   "title": "Absolute Area for Negative Regions",
+   "section": "8.2",
+   "definition": "When a curve lies below the x-axis, the definite integral yields a negative value; the actual geometric area is the absolute value of this integral.",
+   "formula": "area = abs(integral(f(x), a, b))",
+   "key_idea": "Geometric area must always be non-negative.",
+   "textbook_ref": "lemh202.txt lines 66-80",
+   "question_patterns": [
+    "find the total area bounded by the curve",
+    "calculate the area considering portions below x-axis",
+    "what is the absolute area enclosed by the curve",
+    "how to handle negative integral values for area",
+    "Explain the method of Absolute Area for Negative Regions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Integrate the function",
+     "explain": "Calculate the definite integral over the interval.",
+     "compute": "val = integral_f_x_a_b"
+    },
+    {
+     "step": 2,
+     "action": "Take absolute value",
+     "explain": "Ensure the final area is positive.",
+     "compute": "area = abs(val)"
+    },
+    {
+     "step": 3,
+     "action": "Report the geometric area",
+     "explain": "The absolute value ensures the area is non-negative regardless of whether the curve lies above or below the x-axis.",
+     "compute": "final_area = area"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh202.txt lines 85-105",
+   "concept": "lemh.8.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the area enclosed by the circle x^2 + y^2 = {a_sq}",
+   "extracted_variables": {
+    "a_sq": "square of the radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express y in terms of x",
+     "explain": "y = sqrt(a^2 - x^2)",
+     "compute": "y = sqrt(a_sq - x**2)"
+    },
+    {
+     "step": 2,
+     "action": "Integrate and multiply",
+     "explain": "Total area is 4 times the area in the first quadrant.",
+     "compute": "area = 4 * integral_y_0_sqrt(a_sq)"
+    }
+   ]
+  },
+  {
+   "id": "drill2",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.8.2.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area Under a Curve (x-axis) chain with integral_f_x_a_b = 2. What value does it produce?",
+   "extracted_variables": {
+    "integral_f_x_a_b": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the integral",
+     "explain": "Set up the definite integral of the function f(x) from a to b.",
+     "compute": "area = integral_f_x_a_b"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.8.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area Under a Curve (y-axis) chain with integral_g_y_c_d = 2. What value does it produce?",
+   "extracted_variables": {
+    "integral_g_y_c_d": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the integral",
+     "explain": "Set up the definite integral of the function g(y) from c to d.",
+     "compute": "area = integral_g_y_c_d"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.8.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area Under a Curve (y-axis) chain with integral_g_y_c_d = 2. What value does it produce?",
+   "extracted_variables": {
+    "integral_g_y_c_d": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the integral",
+     "explain": "Set up the definite integral of the function g(y) from c to d.",
+     "compute": "area = integral_g_y_c_d"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.8.2.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Absolute Area for Negative Regions chain with integral_f_x_a_b = 2, abs = 3, val = 5. What value does it produce?",
+   "extracted_variables": {
+    "integral_f_x_a_b": "2",
+    "abs": "3",
+    "val": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Integrate the function",
+     "explain": "Calculate the definite integral over the interval.",
+     "compute": "val = integral_f_x_a_b"
+    },
+    {
+     "step": 2,
+     "action": "Take absolute value",
+     "explain": "Ensure the final area is positive.",
+     "compute": "area = abs(val)"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.8.2.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Absolute Area for Negative Regions chain with integral_f_x_a_b = 2, abs = 3, val = 5. What value does it produce?",
+   "extracted_variables": {
+    "integral_f_x_a_b": "2",
+    "abs": "3",
+    "val": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Integrate the function",
+     "explain": "Calculate the definite integral over the interval.",
+     "compute": "val = integral_f_x_a_b"
+    },
+    {
+     "step": 2,
+     "action": "Take absolute value",
+     "explain": "Ensure the final area is positive.",
+     "compute": "area = abs(val)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "lemh202.txt lines 160-175",
+   "questions": [
+    "Find the area of the region bounded by the ellipse x^2/16 + y^2/9 = 1.",
+    "Find the area of the region bounded by the ellipse x^2/4 + y^2/9 = 1."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

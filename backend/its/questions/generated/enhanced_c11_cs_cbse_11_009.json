@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_009",
+   "title": "c11_cs_cbse_11_009",
+   "questions": [
+    {
+     "q": "State the default port numbers used by HTTP, HTTPS, and FTP (control connection).",
+     "a": "HTTP uses port 80, HTTPS uses port 443, and FTP control connection uses port 21. A wrong answer (e.g., saying HTTPS uses port 80) reveals that the student has not memorized the standard port assignments, which are essential for configuring firewalls and identifying traffic in network logs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why HTTPS is considered more secure than HTTP, mentioning the role of TLS/SSL.",
+     "a": "HTTPS wraps HTTP inside a TLS/SSL tunnel: the server presents a digital certificate verified by a trusted CA, the client checks the certificate, and both sides negotiate a symmetric session key that encrypts all application data. If a student simply says \"HTTPS has a lock icon\" or \"HTTPS uses port 443\", they are confusing the visual indicator or port with the actual cryptographic mechanism, showing a surface‑level understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A school lab uses FTP to let students upload project files. The network administrator notices that usernames and passwords are visible in Wireshark captures. Which characteristic of FTP causes this, and what secure alternative could be recommended?",
+     "a": "FTP sends authentication credentials in clear text because it lacks built‑in encryption. The secure alternative is FTPS (FTP over TLS) or SFTP (SSH File Transfer Protocol), both of which encrypt the control and data channels. An incorrect answer that suggests \"use HTTPS instead\" shows the student cannot map the file‑transfer use case to the appropriate secure protocol.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of TCP and IP in delivering a web page. Why is TCP needed on top of IP?",
+     "a": "IP handles addressing and routing of individual packets across networks but provides no guarantee of order, loss recovery, or flow control. TCP adds sequencing, acknowledgments, retransmissions, and congestion control to create a reliable byte stream. A student who says \"TCP finds the path\" or \"IP ensures delivery\" has swapped the responsibilities, indicating a fundamental misunderstanding of the layer separation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Switching a website from HTTP to HTTPS eliminates all security risks for its users.\" Justify your answer.",
+     "a": "The statement is false. HTTPS only protects data in transit between the browser and server; it does not prevent server‑side vulnerabilities (SQL injection, XSS), client‑side malware, phishing, or compromised certificates. A student who agrees reveals an over‑reliance on encryption as a silver bullet, ignoring the broader threat model covered in later cyber‑safety nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple network‑troubleshooting checklist for a student who cannot access a specific HTTPS site while other HTTPS sites work. Include at least four distinct checks that involve protocol‑level reasoning.",
+     "a": "A good checklist: 1) Verify the site’s certificate is valid and not expired (TLS handshake). 2) Check if port 443 is blocked by a local firewall or proxy (TCP connection). 3) Confirm DNS resolves to the correct IP (DNS → IP layer). 4) Test with `curl -v https://site` to see TLS handshake errors or HTTP status codes. A poor answer that only says \"restart the router\" shows the student cannot apply protocol knowledge to isolate the failure layer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

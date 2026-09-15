@@ -1,0 +1,402 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 104,
+ "chapter_title": "Dissolution of Partnership Firm",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leac104.txt",
+ "concepts": [
+  {
+   "id": "leac.104.1",
+   "title": "Modes of Dissolution of a Partnership Firm",
+   "section": "4.2",
+   "definition": "A partnership firm can be dissolved either without court intervention through mutual consent, compulsory events, contingencies, or notice, or by a specific order of the court under statutory grounds.",
+   "formula": "N/A",
+   "key_idea": "Ending a firm's legal existence occurs through voluntary agreement, statutory contingencies, compulsory events, or court decree.",
+   "textbook_ref": "leac104.txt lines 30-70",
+   "question_patterns": [
+    "what are the various modes of dissolution of a firm",
+    "explain compulsory dissolution of a partnership firm",
+    "when can a court order the dissolution of a partnership firm",
+    "how is a firm dissolved by notice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify dissolution mode",
+     "explain": "Determine whether dissolution occurs by agreement, compulsory event, contingency, notice, or court decree."
+    },
+    {
+     "step": 2,
+     "action": "verify statutory conditions",
+     "explain": "Check if insolvency, illegality, partner insanity, or notice meets Section 40-44 requirements."
+    }
+   ]
+  },
+  {
+   "id": "leac.104.2",
+   "title": "Dissolution of Partnership versus Dissolution of Firm",
+   "section": "4.1 & 4.2",
+   "definition": "Dissolution of partnership merely changes the legal relationship among partners while business continues, whereas dissolution of firm completely stops business operation and closes books.",
+   "formula": "N/A",
+   "key_idea": "Dissolution of partnership reconstitutes the firm; dissolution of firm closes the business entirely.",
+   "textbook_ref": "leac104.txt lines 70-100",
+   "question_patterns": [
+    "differentiate between dissolution of partnership and dissolution of firm",
+    "distinguish dissolution of firm from dissolution of partnership",
+    "does dissolution of partnership necessarily involve dissolution of firm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare business continuity",
+     "explain": "Business continues in partnership dissolution but terminates completely in firm dissolution."
+    },
+    {
+     "step": 2,
+     "action": "compare closure of accounts",
+     "explain": "Assets/liabilities revalued in partnership dissolution; assets sold and liabilities paid off in firm dissolution."
+    }
+   ]
+  },
+  {
+   "id": "leac.104.3",
+   "title": "Order of Settlement of Accounts under Section 48",
+   "section": "4.3",
+   "definition": "Section 48 mandates that firm losses are cleared sequentially from profits, capital, and partner contributions, while asset proceeds are applied to third-party debts, partner advances, capital balances, and residual surplus.",
+   "formula": "surplus = assets_realised - external_debts - partner_loans - total_capitals",
+   "key_idea": "Statutory sequence for applying asset proceeds and discharging firm obligations during liquidation.",
+   "textbook_ref": "leac104.txt lines 105-140",
+   "question_patterns": [
+    "state the order of application of assets on dissolution under section 48",
+    "how are losses settled on dissolution of a partnership firm",
+    "calculate residual surplus distributed among partners on dissolution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct third party debts",
+     "explain": "Pay external liabilities first from asset realization proceeds.",
+     "compute": "cash_after_debts = assets_realised - external_debts"
+    },
+    {
+     "step": 2,
+     "action": "deduct partner loans",
+     "explain": "Pay partner advances/loans proportionately after third party debts.",
+     "compute": "cash_after_loans = cash_after_debts - partner_loans"
+    },
+    {
+     "step": 3,
+     "action": "compute residual surplus",
+     "explain": "Deduct partner capital accounts to find residual surplus for profit sharing.",
+     "compute": "surplus = cash_after_loans - total_capitals"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.4",
+   "title": "Firm Debts and Private Debts under Section 49",
+   "section": "4.3",
+   "definition": "Section 49 states that firm assets are primarily applied to pay firm debts and private assets to pay private debts; any surplus from private assets can satisfy remaining firm debts.",
+   "formula": "available_private_surplus = max(0, partner_private_assets - partner_private_debts)",
+   "key_idea": "Firm property prioritizes firm liabilities, while partner personal property prioritizes personal obligations.",
+   "textbook_ref": "leac104.txt lines 140-165",
+   "question_patterns": [
+    "explain the rules regarding firm debts and private debts under section 49",
+    "how are private debts settled relative to firm debts on dissolution",
+    "calculate net private surplus of a partner available for firm liabilities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net private surplus",
+     "explain": "Subtract private liabilities from private assets to determine available personal surplus.",
+     "compute": "available_private_surplus = max(0, partner_private_assets - partner_private_debts)"
+    },
+    {
+     "step": 2,
+     "action": "compute total funds for firm debts",
+     "explain": "Add private surplus to firm asset proceeds to cover firm debts.",
+     "compute": "total_firm_funds = firm_assets + available_private_surplus"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.5",
+   "title": "Transfer of Assets and Liabilities to Realisation Account",
+   "section": "4.4 & 4.4.1",
+   "definition": "All asset accounts at book value (excluding cash/bank and fictitious assets) are transferred to the debit of Realisation Account, and external liability/provision accounts are transferred to the credit side.",
+   "formula": "transferred_assets = total_assets - cash_and_bank - fictitious_assets",
+   "key_idea": "Closing gross book values of assets and third-party liabilities by transferring them into Realisation Account.",
+   "textbook_ref": "leac104.txt lines 170-210, 240-270",
+   "question_patterns": [
+    "calculate amount of assets transferred to realisation account",
+    "which assets are excluded from being transferred to realisation account",
+    "journal entry for transferring assets and liabilities on dissolution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net book value of assets transferred",
+     "explain": "Subtract cash balance and fictitious assets from total balance sheet assets.",
+     "compute": "transferred_assets = total_assets - cash_and_bank - fictitious_assets"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.6",
+   "title": "Asset Realisation and Discharge of External Liabilities",
+   "section": "4.4.1",
+   "definition": "Actual proceeds from selling assets (or value of assets taken over by partners) are credited to Realisation Account, while cash paid to settle liabilities is debited to Realisation Account.",
+   "formula": "net_cash_realised = asset_realised_amount - liability_paid_amount",
+   "key_idea": "Realisation account records cash inflows from asset disposal and cash outflows for discharging external liabilities.",
+   "textbook_ref": "leac104.txt lines 270-320",
+   "question_patterns": [
+    "calculate total cash realized from sale of assets",
+    "journal entry for realization of assets and payment of liabilities",
+    "calculate net cash flow on realization of assets and settlement of debts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total asset proceeds",
+     "explain": "Sum amounts received from selling assets and recovering unrecorded assets.",
+     "compute": "total_asset_proceeds = asset_sale_proceeds + unrecorded_asset_cash"
+    },
+    {
+     "step": 2,
+     "action": "calculate total liability payments",
+     "explain": "Sum payments made to settle external creditors and unrecorded liabilities.",
+     "compute": "total_liability_payments = liability_settlement_cash + unrecorded_liability_cash"
+    },
+    {
+     "step": 3,
+     "action": "compute net cash flow",
+     "explain": "Subtract total liability payments from total asset proceeds.",
+     "compute": "net_cash_realised = total_asset_proceeds - total_liability_payments"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.7",
+   "title": "Settlement of Creditors Accepting Firm Assets",
+   "section": "4.4.1",
+   "definition": "When a creditor accepts a firm asset in full satisfaction, no entry is passed; if accepted as partial payment, entry is made only for the balance cash paid or received.",
+   "formula": "net_cash_paid = max(0, creditor_due - asset_agreed_value)",
+   "key_idea": "No accounting entry is needed for direct asset-for-debt transfers except for net cash balancing figures.",
+   "textbook_ref": "leac104.txt lines 290-315",
+   "question_patterns": [
+    "what is the journal entry when a creditor accepts an asset in full settlement",
+    "calculate net cash paid to creditor who accepts an asset in partial settlement",
+    "how to account for asset taken over by creditor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net cash payment to creditor",
+     "explain": "Deduct agreed asset valuation from creditor claim to find balance cash paid.",
+     "compute": "net_cash_paid = max(0, creditor_due - asset_agreed_value)"
+    },
+    {
+     "step": 2,
+     "action": "compute cash received from creditor",
+     "explain": "If asset value exceeds claim, compute cash received from creditor.",
+     "compute": "net_cash_received = max(0, asset_agreed_value - creditor_due)"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.8",
+   "title": "Accounting for Realisation Expenses and Remuneration",
+   "section": "4.4.1",
+   "definition": "Expenses incurred by the firm are debited to Realisation Account; when a partner is paid agreed remuneration to bear expenses, remuneration is debited to Realisation Account and credited to Partner Capital Account.",
+   "formula": "net_realisation_charge = fixed_remuneration + firm_paid_expenses",
+   "key_idea": "Realisation costs are debited to Realisation Account if borne by firm, or credited as agreed fee to partner who bears them.",
+   "textbook_ref": "leac104.txt lines 315-345",
+   "question_patterns": [
+    "journal entry for realization expenses paid by a partner",
+    "how is partner remuneration for dissolution work recorded",
+    "calculate total realization cost debited to realization account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total realization charge",
+     "explain": "Sum agreed remuneration allowed to partner and direct expenses paid by firm.",
+     "compute": "net_realisation_charge = fixed_remuneration + firm_paid_expenses"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.9",
+   "title": "Accounting for Unrecorded Assets and Liabilities",
+   "section": "4.4.1",
+   "definition": "Assets or liabilities omitted from books are credited or debited to Realisation Account when sold, taken over, or paid off during firm dissolution.",
+   "formula": "net_unrecorded_gain = unrecorded_asset_realised - unrecorded_liability_paid",
+   "key_idea": "Unrecorded items directly impact Realisation Account gain or loss when realized or settled.",
+   "textbook_ref": "leac104.txt lines 340-355",
+   "question_patterns": [
+    "journal entry for unrecorded asset realized on dissolution",
+    "how to account for unrecorded liability paid on dissolution",
+    "calculate net gain or loss from unrecorded items on dissolution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute net unrecorded impact",
+     "explain": "Subtract unrecorded liabilities paid from unrecorded assets realized.",
+     "compute": "net_unrecorded_gain = unrecorded_asset_realised - unrecorded_liability_paid"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.10",
+   "title": "Computation and Distribution of Realisation Profit or Loss",
+   "section": "4.4 & 4.4.1",
+   "definition": "The balance of Realisation Account reflects net profit (if credit exceeds debit) or loss (if debit exceeds credit) on liquidation, transferred to partner capital accounts in profit sharing ratio.",
+   "formula": "realisation_profit = total_realisation_credit - total_realisation_debit",
+   "key_idea": "The final balance of Realisation Account represents net liquidation profit or loss allocated in profit sharing ratio.",
+   "textbook_ref": "leac104.txt lines 350-370",
+   "question_patterns": [
+    "calculate profit or loss on realization",
+    "how is realization profit distributed among partners",
+    "journal entry for transfer of realization loss to partner capital accounts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net realisation profit or loss",
+     "explain": "Subtract total debit entries of Realisation Account from total credit entries.",
+     "compute": "realisation_profit = total_realisation_credit - total_realisation_debit"
+    },
+    {
+     "step": 2,
+     "action": "compute partner share of realisation profit",
+     "explain": "Multiply net realisation profit by partner's profit ratio share.",
+     "compute": "partner_share = realisation_profit * partner_ratio / total_ratio_sum"
+    }
+   ]
+  },
+  {
+   "id": "leac.104.11",
+   "title": "Final Settlement of Partners' Capital Accounts",
+   "section": "4.4.1",
+   "definition": "After transferring reserves, realization profit/loss, and asset takeovers, partners' capital accounts are closed by paying final credit balances or receiving cash for debit balances via Bank Account.",
+   "formula": "final_payment = opening_capital + share_reserve + share_realisation_profit - asset_taken_over - share_realisation_loss",
+   "key_idea": "Final cash distribution or contribution completely closes all partner capital accounts and cash/bank balances.",
+   "textbook_ref": "leac104.txt lines 370-400",
+   "question_patterns": [
+    "calculate final amount paid to partner on dissolution",
+    "how are partner capital accounts closed on dissolution",
+    "journal entry for final settlement of partner capital account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute final capital balance",
+     "explain": "Adjust opening capital with reserve share, realization profit/loss, and asset takeovers.",
+     "compute": "final_payment = opening_capital + share_reserve + share_realisation_profit - asset_taken_over - share_realisation_loss"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Illustration 1",
+   "concept": "leac.104.10",
+   "question_type": "compute",
+   "question_pattern": "Stock realised at {stock_realised}, Debtors realised at {debtors_discount}% discount from book value {debtors_bv}, Fixed assets realised at {fa_realised}, creditors paid in full {creditors_val}, expenses {expenses_val}. Calculate realization profit.",
+   "extracted_variables": {
+    "stock_realised": 7000,
+    "debtors_bv": 21500,
+    "debtors_discount": 5,
+    "fa_realised": 42000,
+    "creditors_val": 48000,
+    "expenses_val": 1500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate debtors realised value",
+     "explain": "Deduct discount from gross debtors book value.",
+     "compute": "debtors_realised = debtors_bv * (100 - debtors_discount) / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate total cash realised from assets",
+     "explain": "Sum proceeds from stock, debtors, and fixed assets.",
+     "compute": "total_asset_cash = stock_realised + debtors_realised + fa_realised"
+    },
+    {
+     "step": 3,
+     "action": "calculate total cash paid for liabilities and expenses",
+     "explain": "Sum payments for creditors and realization expenses.",
+     "compute": "total_cash_paid = creditors_val + expenses_val"
+    },
+    {
+     "step": 4,
+     "action": "calculate net realisation profit",
+     "explain": "Subtract book value of assets and cash paid from total asset cash and liabilities transferred.",
+     "compute": "realisation_profit = (total_asset_cash + creditors_val + 500) - (65500 + total_cash_paid)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Illustration 3",
+   "concept": "leac.104.8",
+   "question_type": "compute",
+   "question_pattern": "Partner is allowed remuneration {remuneration_val} and agrees to bear dissolution expenses. Actual expenses paid by firm are {firm_paid_exp}. Calculate net amount charged to partner capital account.",
+   "extracted_variables": {
+    "remuneration_val": 12000,
+    "firm_paid_exp": 9500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute net credit to partner capital account",
+     "explain": "Deduct expenses paid by firm on behalf of partner from agreed remuneration.",
+     "compute": "net_partner_credit = remuneration_val - firm_paid_exp"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_practice_short",
+   "source_ref": "Questions for Practice - Short Answer",
+   "questions": [
+    "State the difference between dissolution of partnership and dissolution of partnership firm.",
+    "State the accounting treatment at the time of dissolution of a firm for: i. Unrecorded assets ii. Unrecorded liabilities.",
+    "On dissolution, how will you deal with partner's loan if it appears on the (a) assets side of the balance sheet, (b) liabilities side of balance sheet.",
+    "Distinguish between firm's debts and partner's private debts.",
+    "State the order of settlement of accounts on dissolution.",
+    "On what account realization account differs from revaluation account."
+   ]
+  },
+  {
+   "id": "ex_practice_numerical",
+   "source_ref": "Questions for Practice - Numerical",
+   "questions": [
+    "Journalise the following transactions regarding realization expenses: [a] Realisation expenses amounted to Rs. 2,500. [b] Realisation expenses Rs. 3,000 paid by Ashok. [c] Realisation expenses Rs. 2,300 borne by Tarun personally. [d] Amit appointed to realize assets at Rs. 4,000, actual expenses Rs. 3,000.",
+    "Record necessary journal entries when Creditors worth Rs. 85,000 accept Rs. 40,000 cash and Investments worth Rs. 43,000 in full settlement.",
+    "An old written-off computer taken over by partner Nitin for Rs. 3,000. Journalise on dissolution.",
+    "Give journal entries for payment of unrecorded liabilities Rs. 3,200, stock Rs. 7,500 taken by Rohit, profit distribution Rs. 18,000 (5:7), and unrecorded asset realized Rs. 5,500.",
+    "Assets book value Rs. 1,00,000 transferred to Realisation account. 50% taken by partner Atul at 20% discount; 40% of remaining sold at 30% profit; 5% obsolete; remaining given to creditor. Record journal entries."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

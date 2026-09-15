@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_009",
+   "title": "c12_bs_cbse_10_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a forward contract and a futures contract in terms of standardisation and trading venue?",
+     "a": "A forward contract is a customised, bilateral agreement traded over-the-counter (OTC) with no standardised terms, while a futures contract is standardised in terms of quantity, quality, delivery date, and traded on a recognised stock exchange. A wrong answer (e.g., \"forwards are exchange-traded\") reveals confusion about the OTC vs exchange distinction — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a futures contract requires both initial margin and maintenance margin, whereas a forward contract typically does not.",
+     "a": "Futures are exchange-traded with daily marking-to-market; margins act as performance bonds to eliminate counterparty risk. Forwards are private OTC contracts settled only at maturity, so counterparty risk remains and no formal margin system exists. A wrong answer (e.g., \"forwards also have margin\") shows the student hasn't grasped the role of the clearing corporation in futures.",
+     "self_check": true
+    },
+    {
+     "q": "A jeweller expects gold prices to rise in two months. He enters a long futures contract at ₹60,000 per 10g. At expiry, the spot price is ₹62,000. Calculate his profit per 10g and explain whether he would have been better off with a call option (premium ₹1,500) instead.",
+     "a": "Futures profit = ₹62,000 – ₹60,000 = ₹2,000 per 10g. Call option payoff = max(0, 62,000 – 60,000) – 1,500 = ₹500 per 10g. Futures yield higher profit here because the price moved favourably beyond the premium cost. If the student ignores the premium or misapplies the option payoff formula, they miss the cost-benefit trade-off central to competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk profiles of a long forward, a long future, and a long call option. Which instrument limits the maximum loss for the buyer, and why?",
+     "a": "Long forward/future: unlimited loss potential if price moves against the position. Long call option: maximum loss limited to the premium paid. The option's asymmetric payoff (right, not obligation) caps downside. A student who says \"futures limit loss because of margin\" confuses margin calls with loss limitation — a critical conceptual error.",
+     "self_check": true
+    },
+    {
+     "q": "\"Options are always better than futures for hedging because they limit downside.\" Evaluate this statement with reference to the cost of hedging and the obligation to perform.",
+     "a": "The statement is false. Options require an upfront premium, increasing hedging cost. Futures have no premium but create a binding obligation — if the hedge is no longer needed, exiting a futures position may incur losses. The choice depends on risk appetite, cost sensitivity, and certainty of exposure. A student who agrees without mentioning premium cost or obligation shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hedging strategy for an Indian importer who must pay $1 million in 90 days. The importer wants to lock in the exchange rate but also benefit if the rupee appreciates. Specify the instrument, position, and key parameters.",
+     "a": "Buy a USD-INR call option (right to buy dollars) with strike near current spot, expiry ≥ 90 days. If rupee depreciates, exercise and buy at strike; if rupee appreciates, let option lapse and buy at spot, losing only premium. A good answer identifies the correct option type (call on USD), strike selection, and trade-off. A poor answer suggests futures (no upside participation) or put option (wrong direction).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

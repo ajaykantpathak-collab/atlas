@@ -1,0 +1,567 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 6,
+ "chapter_title": "Environment and Natural Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps106.txt",
+ "concepts": [
+  {
+   "id": "c12ps.6.1",
+   "title": "Meaning of Environment and Environmental Concerns",
+   "section": "Introduction: Environmental Concerns in Global Politics",
+   "definition": "The environment refers to the natural world -- land, water, air, forests and biodiversity -- that sustains life, and environmental concerns in global politics arise from the degradation of these resources through pollution, deforestation and over-exploitation.",
+   "formula": "",
+   "key_idea": "Environmental concerns have entered global politics because the degradation of nature -- pollution, deforestation, resource depletion -- threatens the survival and well-being of people across national borders.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the environment in the context of global politics?",
+    "Why have environmental concerns become part of global politics?",
+    "What are the main environmental problems facing the world today?",
+    "How does environmental degradation threaten human security?",
+    "Explain the relationship between development and environmental degradation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the environment and its components",
+     "explain": "The environment includes land, water, air, forests, wildlife and biodiversity that together sustain life on Earth."
+    },
+    {
+     "step": 2,
+     "action": "Identify the main environmental concerns",
+     "explain": "Key concerns include pollution, deforestation, loss of biodiversity, ozone depletion, global warming and resource depletion."
+    },
+    {
+     "step": 3,
+     "action": "Explain why these concerns are political",
+     "explain": "These concerns cross borders, affect all states and require collective action, so they have become matters of global politics and negotiation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why have environmental concerns become part of global politics?",
+     "solution": "Step 1: Environmental degradation crosses national borders. Step 2: It affects the survival and well-being of all people. Step 3: Hence environmental concerns require global political cooperation.",
+     "answer": "Because environmental degradation crosses borders and affects all states, requiring collective political action",
+     "_n": 1
+    },
+    {
+     "question": "What are the main environmental problems facing the world today?",
+     "solution": "Step 1: Pollution, deforestation and loss of biodiversity degrade nature. Step 2: Global warming and ozone depletion threaten the climate. Step 3: Hence the main problems are pollution, deforestation, biodiversity loss and climate change.",
+     "answer": "Pollution, deforestation, biodiversity loss, global warming and ozone depletion",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why environmental concerns have become part of global politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List the main environmental problems facing the world today.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.2",
+   "title": "Protection of the Global Commons",
+   "section": "Protection of the Global Commons",
+   "definition": "The global commons are natural resources and areas that lie outside the jurisdiction of any one state -- such as the earth's atmosphere, Antarctica, the high seas and outer space -- and require collective international cooperation for their protection.",
+   "formula": "",
+   "key_idea": "The global commons are shared resources not owned by any single state; their protection requires international agreements because no one state can manage or protect them alone.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the global commons?",
+    "Give examples of the global commons.",
+    "Why is the protection of the global commons difficult?",
+    "How do states cooperate to protect the global commons?",
+    "What is the tragedy of the commons?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the global commons",
+     "explain": "Global commons are resources outside any state's jurisdiction -- the atmosphere, Antarctica, the high seas and outer space."
+    },
+    {
+     "step": 2,
+     "action": "Explain why their protection is difficult",
+     "explain": "Because no single state owns them, there is a tendency to over-exploit them (the tragedy of the commons) while no one takes responsibility for protection."
+    },
+    {
+     "step": 3,
+     "action": "Describe how states cooperate",
+     "explain": "States cooperate through treaties like the Antarctic Treaty, the Kyoto Protocol and the UN Convention on the Law of the Sea to regulate use of the commons."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the global commons and why is their protection difficult?",
+     "solution": "Step 1: Global commons are resources outside any state's jurisdiction. Step 2: No single state owns them, so they tend to be over-exploited. Step 3: Hence their protection requires difficult international cooperation.",
+     "answer": "Global commons are shared resources outside state jurisdiction; protection is difficult because no single state owns or protects them"
+    },
+    {
+     "question": "Give two examples of the global commons.",
+     "solution": "Step 1: The earth's atmosphere is shared by all states. Step 2: Antarctica is governed by international treaty. Step 3: Hence the atmosphere and Antarctica are global commons.",
+     "answer": "The earth's atmosphere and Antarctica"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of the global commons and the challenges in protecting them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by the tragedy of the commons?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.3",
+   "title": "Common Property Resources",
+   "section": "Common Property Resources",
+   "definition": "Common property resources are natural resources like forests, grazing lands, ponds and fisheries that are collectively owned and managed by local communities, distinct from both private property and the open-access global commons.",
+   "formula": "",
+   "key_idea": "Common property resources are community-owned resources governed by local rules and customs; they are neither private property nor global commons, and their sustainable management depends on community institutions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are common property resources?",
+    "How do common property resources differ from the global commons?",
+    "Give examples of common property resources in India.",
+    "Why are common property resources important for rural communities?",
+    "What threats do common property resources face?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define common property resources",
+     "explain": "Common property resources are natural resources like forests, grazing lands and water bodies owned and managed collectively by local communities."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish them from the global commons",
+     "explain": "Unlike the global commons, common property resources have defined community ownership and local management rules."
+    },
+    {
+     "step": 3,
+     "action": "Explain their importance and threats",
+     "explain": "They sustain rural livelihoods but face threats from privatisation, state takeover and over-exploitation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do common property resources differ from the global commons?",
+     "solution": "Step 1: Common property resources are owned and managed by local communities. Step 2: Global commons lie outside any state's jurisdiction. Step 3: Hence they differ in ownership and management.",
+     "answer": "Common property resources are community-owned with local rules; global commons are outside any state's jurisdiction"
+    },
+    {
+     "question": "Give two examples of common property resources.",
+     "solution": "Step 1: Village grazing lands are managed by the community. Step 2: Community forests are collectively used. Step 3: Hence grazing lands and community forests are common property resources.",
+     "answer": "Village grazing lands and community forests"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain common property resources and distinguish them from the global commons.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are common property resources important for rural communities?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.4",
+   "title": "Indigenous Peoples and the Environment",
+   "section": "Indigenous Peoples and their Environment",
+   "definition": "Indigenous peoples are native communities who have lived in close harmony with their natural environment for centuries, possessing traditional knowledge of sustainable resource use and facing threats to their lands and way of life from deforestation, mining and state development projects.",
+   "formula": "",
+   "key_idea": "Indigenous peoples depend on and protect their natural environment through traditional knowledge; their displacement and loss of land due to development projects is a major environmental and human rights concern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who are indigenous peoples?",
+    "How do indigenous peoples relate to their environment?",
+    "What threats do indigenous peoples face from development?",
+    "Why is indigenous knowledge important for environmental conservation?",
+    "How do indigenous peoples contribute to biodiversity conservation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define indigenous peoples",
+     "explain": "Indigenous peoples are native communities with distinct cultures and traditional ties to their lands, such as tribals in India and native peoples in the Amazon."
+    },
+    {
+     "step": 2,
+     "action": "Explain their relationship with the environment",
+     "explain": "They live in harmony with nature, using traditional knowledge to manage forests, water and wildlife sustainably."
+    },
+    {
+     "step": 3,
+     "action": "Describe the threats they face",
+     "explain": "Deforestation, mining, dams and state development projects displace them and destroy their environment and way of life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do indigenous peoples contribute to environmental conservation?",
+     "solution": "Step 1: Indigenous peoples possess traditional knowledge of sustainable resource use. Step 2: They protect forests and biodiversity through customary practices. Step 3: Hence they contribute significantly to conservation.",
+     "answer": "Through traditional knowledge and sustainable practices that protect forests and biodiversity"
+    },
+    {
+     "question": "What threats do indigenous peoples face from development projects?",
+     "solution": "Step 1: Dams, mining and deforestation displace them from their lands. Step 2: Their traditional way of life is destroyed. Step 3: Hence development projects threaten their survival and environment.",
+     "answer": "Displacement, loss of land and destruction of their traditional way of life due to dams, mining and deforestation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between indigenous peoples and the environment.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What threats do indigenous peoples face from development projects?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.5",
+   "title": "Environmental Movements",
+   "section": "Environmental Movements",
+   "definition": "Environmental movements are collective campaigns by people and organisations to protect nature and natural resources from degradation, often arising when state policies and development projects threaten local livelihoods and ecosystems.",
+   "formula": "",
+   "key_idea": "Environmental movements are people's struggles to protect forests, rivers and land from destructive development, combining ecological concerns with the defence of local livelihoods and rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are environmental movements?",
+    "Why do environmental movements arise?",
+    "What are the main features of environmental movements?",
+    "How do environmental movements influence state policy?",
+    "Give examples of environmental movements."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define environmental movements",
+     "explain": "Environmental movements are collective campaigns by communities and organisations to protect nature from destructive development."
+    },
+    {
+     "step": 2,
+     "action": "Explain why they arise",
+     "explain": "They arise when state policies, dams, mining or logging threaten local ecosystems and the livelihoods of dependent communities."
+    },
+    {
+     "step": 3,
+     "action": "Assess their impact",
+     "explain": "These movements raise awareness, influence policy and sometimes halt destructive projects, linking ecology with people's rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do environmental movements arise?",
+     "solution": "Step 1: State development projects often threaten local ecosystems. Step 2: They harm the livelihoods of dependent communities. Step 3: Hence people organise environmental movements to protect nature and livelihoods.",
+     "answer": "Because development projects threaten local ecosystems and the livelihoods of dependent communities"
+    },
+    {
+     "question": "How do environmental movements influence state policy?",
+     "solution": "Step 1: They raise public awareness of ecological harm. Step 2: They pressure governments through protests and litigation. Step 3: Hence they can change or halt destructive policies.",
+     "answer": "By raising awareness and pressuring governments to change or halt destructive policies"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the nature and significance of environmental movements.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do environmental movements arise?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.6",
+   "title": "Environmental Movements in India",
+   "section": "Environmental Movements in India",
+   "definition": "India has witnessed significant environmental movements such as the Chipko movement (tree-hugging to prevent deforestation), the Narmada Bachao Andolan (against large dams), and the Silent Valley movement (against a hydroelectric project in Kerala), which link ecological protection with people's livelihoods.",
+   "formula": "",
+   "key_idea": "India's environmental movements -- Chipko, Narmada Bachao Andolan and Silent Valley -- combine ecological concerns with the defence of local communities' livelihoods and rights against destructive development projects.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Chipko movement?",
+    "What is the Narmada Bachao Andolan?",
+    "What was the Silent Valley movement?",
+    "How do Indian environmental movements link ecology with livelihoods?",
+    "What achievements have Indian environmental movements had?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the major Indian environmental movements",
+     "explain": "Key movements include Chipko (Uttarakhand), Narmada Bachao Andolan (Gujarat-MP) and the Silent Valley movement (Kerala)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the cause of each movement",
+     "explain": "Chipko opposed commercial logging; Narmada Bachao opposed large dams displacing tribals; Silent Valley opposed a hydroelectric project threatening a rainforest."
+    },
+    {
+     "step": 3,
+     "action": "Assess their achievements",
+     "explain": "These movements raised awareness, influenced policy and sometimes halted projects, linking ecological protection with people's rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Chipko movement and what did it achieve?",
+     "solution": "Step 1: Chipko was a movement in Uttarakhand where villagers hugged trees to prevent logging. Step 2: It opposed commercial deforestation. Step 3: It succeeded in stopping logging and inspired similar movements.",
+     "answer": "A movement in Uttarakhand where villagers hugged trees to prevent commercial logging, successfully halting deforestation"
+    },
+    {
+     "question": "What is the Narmada Bachao Andolan?",
+     "solution": "Step 1: It is a movement against large dams on the Narmada river. Step 2: It opposes the displacement of tribals and environmental damage. Step 3: Hence it links ecology with the rights of displaced people.",
+     "answer": "A movement opposing large dams on the Narmada river that displace tribals and damage the environment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any two environmental movements in India and their significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the Silent Valley movement?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.7",
+   "title": "Wildlife Conservation",
+   "section": "Wildlife Conservation",
+   "definition": "Wildlife conservation is the protection and preservation of animal and plant species and their habitats from extinction and degradation, achieved through national parks, sanctuaries, legislation and international conventions like CITES.",
+   "formula": "",
+   "key_idea": "Wildlife conservation protects biodiversity from extinction caused by habitat loss, poaching and pollution, using protected areas, laws like the Wildlife Protection Act and international agreements such as CITES.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is wildlife conservation?",
+    "Why is wildlife conservation important?",
+    "What measures are taken to conserve wildlife?",
+    "What is CITES and what does it do?",
+    "How do national parks and sanctuaries contribute to conservation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define wildlife conservation",
+     "explain": "Wildlife conservation is the protection of animal and plant species and their habitats from extinction and degradation."
+    },
+    {
+     "step": 2,
+     "action": "Explain why it is important",
+     "explain": "Wildlife maintains ecological balance, supports biodiversity and sustains human livelihoods; its loss disrupts ecosystems."
+    },
+    {
+     "step": 3,
+     "action": "Describe conservation measures",
+     "explain": "Measures include national parks and sanctuaries, laws like India's Wildlife Protection Act 1972, and international conventions like CITES that regulate trade in endangered species."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is wildlife conservation important?",
+     "solution": "Step 1: Wildlife maintains ecological balance. Step 2: It supports biodiversity and human livelihoods. Step 3: Hence conservation is essential for ecosystem stability.",
+     "answer": "Because wildlife maintains ecological balance, supports biodiversity and sustains human livelihoods"
+    },
+    {
+     "question": "What is CITES and what does it do?",
+     "solution": "Step 1: CITES is the Convention on International Trade in Endangered Species. Step 2: It regulates international trade in endangered wildlife. Step 3: Hence it helps protect species from exploitation.",
+     "answer": "CITES is a convention that regulates international trade in endangered species to protect them from exploitation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of wildlife conservation and the measures taken for it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is CITES and what is its role?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.8",
+   "title": "Sustainable Development",
+   "section": "Sustainable Development",
+   "definition": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs, as defined by the Brundtland Commission in 1987, balancing economic growth with environmental protection.",
+   "formula": "",
+   "key_idea": "Sustainable development balances economic growth, social justice and environmental protection so that present needs are met without harming the ability of future generations to meet theirs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is sustainable development?",
+    "Who defined sustainable development and when?",
+    "What are the three pillars of sustainable development?",
+    "Why is sustainable development necessary?",
+    "How can development be made sustainable?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sustainable development",
+     "explain": "Sustainable development meets present needs without compromising the ability of future generations to meet their own needs (Brundtland Commission, 1987)."
+    },
+    {
+     "step": 2,
+     "action": "Identify its three pillars",
+     "explain": "The three pillars are economic development, social equity and environmental protection, which must be balanced together."
+    },
+    {
+     "step": 3,
+     "action": "Explain why it is necessary",
+     "explain": "Unsustainable development depletes resources and degrades the environment, threatening future generations; sustainable development ensures long-term well-being."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is sustainable development according to the Brundtland Commission?",
+     "solution": "Step 1: The Brundtland Commission defined it in 1987. Step 2: It meets present needs without harming future generations. Step 3: Hence sustainable development balances present and future needs.",
+     "answer": "Development that meets present needs without compromising the ability of future generations to meet their own needs"
+    },
+    {
+     "question": "What are the three pillars of sustainable development?",
+     "solution": "Step 1: Economic development is the first pillar. Step 2: Social equity is the second pillar. Step 3: Environmental protection is the third pillar.",
+     "answer": "Economic development, social equity and environmental protection"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of sustainable development and its three pillars.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is sustainable development necessary in the contemporary world?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.6.9",
+   "title": "Environmental Concerns in Global Politics: The North-South Divide",
+   "section": "Environmental Concerns: North-South Divide",
+   "definition": "The North-South divide in environmental politics refers to the disagreement between developed (Northern) and developing (Southern) countries over responsibility for environmental degradation, with the South arguing that the North's historical consumption caused the crisis and should bear greater responsibility.",
+   "formula": "",
+   "key_idea": "The North-South divide highlights that developed countries are historically responsible for most environmental damage, while developing countries argue for the right to develop and demand that the North bear greater responsibility and costs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the North-South divide in environmental politics?",
+    "Why do developing countries argue that the North bears greater responsibility?",
+    "How do Northern and Southern countries differ on environmental responsibility?",
+    "What is the principle of common but differentiated responsibility?",
+    "How does the North-South divide affect global environmental negotiations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the North-South divide",
+     "explain": "The divide is the disagreement between developed (North) and developing (South) countries over who is responsible for environmental degradation and who should bear the cost of fixing it."
+    },
+    {
+     "step": 2,
+     "action": "Explain the South's argument",
+     "explain": "The South argues that the North's industrialisation and high consumption historically caused most pollution and emissions, so the North should bear greater responsibility."
+    },
+    {
+     "step": 3,
+     "action": "Explain the principle of common but differentiated responsibility",
+     "explain": "This principle, accepted at the Rio Earth Summit, holds that all states share responsibility but developed countries bear a greater share due to their historical contribution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do developing countries argue that the North bears greater responsibility for environmental degradation?",
+     "solution": "Step 1: The North industrialised earlier and emitted more greenhouse gases. Step 2: Its high consumption caused most historical pollution. Step 3: Hence the South argues the North bears greater responsibility.",
+     "answer": "Because the North's historical industrialisation and high consumption caused most environmental degradation"
+    },
+    {
+     "question": "What is the principle of common but differentiated responsibility?",
+     "solution": "Step 1: All states share responsibility for the environment. Step 2: But developed countries bear a greater share due to their historical contribution. Step 3: Hence responsibility is common but differentiated.",
+     "answer": "All states share responsibility, but developed countries bear a greater share due to their historical contribution to environmental damage"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the North-South divide in environmental politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the principle of common but differentiated responsibility?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps106.txt",
+   "concept": "c12ps.6.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why have environmental concerns become part of global politics?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Environmental degradation crosses national borders",
+     "explain": "Environmental degradation crosses national borders."
+    },
+    {
+     "step": 2,
+     "action": "It affects the survival and",
+     "explain": "It affects the survival and well-being of all people."
+    },
+    {
+     "step": 3,
+     "action": "Hence environmental concerns require global",
+     "explain": "Hence environmental concerns require global political cooperation."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps106.txt",
+   "concept": "c12ps.6.1",
+   "question_type": "short_answer",
+   "question_pattern": "What are the main environmental problems facing the world today?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Pollution, deforestation and loss of",
+     "explain": "Pollution, deforestation and loss of biodiversity degrade nature."
+    },
+    {
+     "step": 2,
+     "action": "Global warming and ozone depletion",
+     "explain": "Global warming and ozone depletion threaten the climate."
+    },
+    {
+     "step": 3,
+     "action": "Hence the main problems are",
+     "explain": "Hence the main problems are pollution, deforestation, biodiversity loss and climate change."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

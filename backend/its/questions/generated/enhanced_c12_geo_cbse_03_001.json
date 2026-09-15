@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_001",
+   "title": "c12_geo_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the fundamental difference between growth and development as defined in the NCERT, using the terms \"quantitative\" and \"qualitative\" and \"value-neutral\" vs \"value-positive\".",
+     "a": "Correct answer: Growth is quantitative and value-neutral (can be positive or negative, e.g., population increase or decrease). Development is qualitative and always value-positive (requires improvement in quality of life). A wrong answer (e.g., \"growth is economic, development is social\") reveals the student is confusing sectoral focus with the core methodological distinction — the NCERT explicitly states both can occur in any sphere; the difference is *how* change is measured (amount vs. quality) and *whether* the change is inherently desirable.",
+     "self_check": true
+    },
+    {
+     "q": "A city's GDP per capita doubles over ten years, but its infant mortality rate remains unchanged and female literacy drops. Using Mahbub ul Haq's concept, explain why this is \"growth without development\" and identify which specific capability deprivation the female literacy drop represents.",
+     "a": "Correct answer: GDP doubling is quantitative growth (value-neutral). Unchanged infant mortality means no improvement in health capability; falling female literacy means active deterioration in education capability. Mahbub ul Haq defines development as *enlarging* choices — here choices shrank for women. A wrong answer focusing only on \"GDP isn't everything\" misses the NCERT's precise logic: development *requires* positive qualitative change in capabilities; growth without such change is explicitly \"not development\" per the city population example in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Given the NCERT's three key areas for human development (health, education, access to resources), match each capability deprivation to its corresponding key area: (a) A child cannot become a doctor because no school exists within 20 km. (b) A family cannot afford medical treatment for tuberculosis. (c) Adults in a village cannot read government scheme notices.",
+     "a": "Correct matching: (a) → Education (lack of access to knowledge limits occupational choice); (b) → Access to resources (purchasing power deprivation limits health choice); (c) → Education (adult illiteracy limits participation in society). Steps: 1) Identify the *choice* being denied. 2) Identify the *capability* whose absence denies that choice. 3) Map capability to NCERT's three areas. Wrong answers (e.g., mapping (b) to health) confuse the *outcome* (illness) with the *capability deprivation* (lack of purchasing power) — the NCERT explicitly says \"poor people cannot choose medical treatment because their choice is limited by lack of resources.\"",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Development occurs when there is a positive change in quality.\" Yet it also says: \"Positive growth does not always lead to development.\" Construct a real-world Indian example (different from the textbook's city population example) showing positive growth in a measurable indicator that fails to produce development, and explain the mechanism of failure using the capability framework.",
+     "a": "Example: Punjab's Green Revolution increased wheat yield per hectare (positive growth in agricultural output) but groundwater depletion and pesticide contamination reduced long-term health capability and ecological sustainability for farming communities. Mechanism: Growth in *output* (quantitative) did not translate to expanded *capabilities* — instead, it eroded the environmental resource base (water, soil health) that sustains health and livelihood capabilities. A weak answer cites \"inequality\" without linking to specific capability deprivation; the NCERT requires showing *which* capability (health, education, resources) failed to expand despite growth.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using Mahbub ul Haq's framework: \"If a country's HDI rank improves, its people are definitely leading more meaningful lives.\" Consider the NCERT's caveat about HDI not capturing distribution.",
+     "a": "Critique: HDI improvement reflects *average* national progress in health, education, and income. It can mask worsening deprivation for marginalized groups (e.g., Dalit women in rural Uttar Pradesh) if gains concentrate among the already privileged. Mahbub ul Haq's concept centers on *enlarging choices for all people* — if distribution is skewed, the \"meaningful life\" condition fails for those left out. The NCERT explicitly warns: \"HDI does not say anything about the distribution.\" A weak answer says \"HDI is imperfect\" without specifying *which* capability choices remain unextended for *whom*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute classroom activity for Class 12 students to experience how \"lack of capability limits choice\" — the core Mahbub ul Haq insight. The activity must use only pen, paper, and peer interaction; no internet or external data. Specify the capability deprived, the choice blocked, and the debrief question linking to the three key areas.",
+     "a": "Activity: \"The Unread Notice.\" Distribute a handout with a fictional government scholarship notice written in a script none of the students know (e.g., modified Devanagari with invented characters). Give 2 minutes to \"apply.\" Debrief: \"Which capability was blocked? (Education/literacy) Which choice was denied? (Accessing higher education funding) Which key area does this map to?\" Expected insight: Literacy capability → education area → choice to pursue studies. A poor activity (e.g., \"simulate poverty by skipping lunch\") confuses *resource deprivation* with *capability deprivation* — the NCERT distinguishes: poverty limits resource *access*, illiteracy limits the *capability to use* information.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

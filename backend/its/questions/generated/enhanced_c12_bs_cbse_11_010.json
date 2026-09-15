@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_010",
+   "title": "c12_bs_cbse_11_010",
+   "questions": [
+    {
+     "q": "A student defines marketing research as \"collecting data about customers through surveys.\" Identify the TWO critical elements missing from this definition that make it incomplete per NCERT.",
+     "a": "Correct answer: The definition misses (1) \"systematic and objective process\" — research must follow a structured methodology, not ad-hoc surveys, and (2) \"assist management in decision-making\" — the purpose is actionable insights, not just data collection. A wrong answer reveals the student views research as mere data gathering rather than a decision-support system, a classic board exam error where students lose 1 mark for incomplete definition.",
+     "self_check": true
+    },
+    {
+     "q": "\"Marketing research and market research are the same thing.\" Explain why this statement is incorrect using the scope of each term.",
+     "a": "Correct answer: Market research is narrower — it studies a specific market's size, trends, and competition (e.g., \"size of millet snack market in India\"). Marketing research is broader — it covers product, price, place, promotion decisions (e.g., \"which flavor, price, channel, ad works for Desi Crunch?\"). A wrong answer shows confusion between studying the market environment vs. studying marketing mix decisions — a frequent 2-mark board question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Desi Crunch wants to test if a new masala flavor increases purchase intent. They show 200 consumers two packaging designs (A and B) and ask \"Which would you buy?\" 120 choose A. The marketing head concludes \"Design A is better.\" Identify the flaw in this research design and state the correct experimental approach.",
+     "a": "Correct answer: Flaw — no control for confounding variables (price, brand name, shelf position). It's a simple comparison, not a controlled experiment. Correct approach: Randomized controlled trial — split 400 consumers into 2 groups, each sees ONLY one design at same price/location, measure actual purchase (not intent) in simulated store. A wrong answer reveals inability to distinguish descriptive preference from causal evidence — a JEE/NEET-style application trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare primary vs. secondary data for Desi Crunch's research. The team has ₹50,000 budget and 3 weeks. They need: (a) competitor pricing, (b) consumer taste preference for 3 new flavors. Classify each need as primary/secondary and justify the method choice given constraints.",
+     "a": "Correct answer: (a) Competitor pricing → Secondary data (trade reports, competitor websites, retail audits) — low cost, fast, already exists. (b) Taste preference → Primary data (blind taste test with target sample) — specific to Desi Crunch's new flavors, no existing source. Justification: Budget allows small primary study (₹30k for 200 respondents) + free secondary. A wrong answer (e.g., primary for both) shows ignorance of cost-time trade-offs — a 4-mark board case study requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since Desi Crunch is a startup with limited funds, they should skip marketing research and rely on founder intuition.\" Defend or critique using 3 points from NCERT's \"Importance of Marketing Research.\"",
+     "a": "Correct critique: (1) Reduces uncertainty — intuition fails in new markets (millet snacks unfamiliar to many). (2) Identifies opportunities — research may reveal untapped segment (e.g., gym-goers wanting post-workout snack). (3) Facilitates decision-making — avoids costly launch errors (wrong flavor = ₹5L loss). Skipping research is penny-wise, pound-foolish. A wrong answer (agreeing) shows misunderstanding that research is a luxury, not a risk-reduction investment — a 6-mark long answer trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-step mini research plan for a local bakery \"Sweet Crust\" wanting to know if adding sugar-free cakes will increase profits. Include: problem definition, one primary method, one secondary source, and the decision rule (e.g., \"If >30% existing customers show interest, launch\").",
+     "a": "Sample answer: Problem: \"Will sugar-free cakes attract new diabetics/health-conscious buyers without cannibalizing regular cake sales?\" Primary: In-store survey of 100 walk-ins (stratified by age) with taste test + willingness-to-pay question. Secondary: FSSAI report on diabetes prevalence in city + competitor menu analysis. Decision rule: Launch if (a) ≥35% tasters rate ≥4/5 on taste AND (b) ≥25% willing to pay 10% premium. Good answer shows integration of problem-method-decision logic; poor answer lists methods without decision criteria — missing the \"actionable\" essence of research.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}
